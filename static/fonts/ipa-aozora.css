@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/************************************************************************/
+/*  File name : ipa-aozora.css                                          */
+/************************************************************************/
+/*  Contents  : Cascading Style Sheet (font-face definition)            */
+/*                IPAex fonts (http://ipafont.ipa.go.jp/)               */
+/*                Aozora Mincho fonts (http://blueskis.wktk.so/AozoraMincho/) */
+/*                Web fonts Converter (http://opentype.jp/woffconv.htm) */
+/*                                                                      */
+/*  Auther    : Yasuhiro (Spiegel) ARAKAWA , 2015.09.04                 */
+/************************************************************************/
+@font-face{
+    font-family: 'aozora-m';
+    src: local('AozoraMinchoMedium'), url('/fonts/AozoraMinchoMedium.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'ipa-gothic';
+    src: local('ipaexg'), url('/fonts/ipaexg.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'ipa-monospace';
+    src: local('ipaexg'), url('/fonts/ipaexg.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
