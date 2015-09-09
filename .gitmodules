@@ -1,0 +1,3 @@
+[submodule "themes/text"]
+	path = themes/text
+	url = git@github.com:spiegel-im-spiegel/hugo-theme-text.git
