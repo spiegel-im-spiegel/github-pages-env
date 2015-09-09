@@ -1,0 +1,65 @@
+{{ partial "top.html" . }}
+<head>
+{{ partial "header.html" . }}
+<title>{{ .Site.Title }}</title>
+</head>
+<body>
+{{ partial "prepare.html" . }}
+<div id='container'><!-- Container Area -->
+{{ partial "banner.html" . }}
+
+<main role="main"><article>
+
+<section>
+<h1>最近の記事</h1>
+<ul style="list-style:none;">
+{{ range first 5 .Site.Pages }}
+	<li>
+		{{ with .Section }}[<a href="/{{ . }}">{{ . | urlize }}</a>] {{ end }}<a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a>
+		({{ with .Params.author.name }}by {{ . }}, {{ end }}<time pubdate="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>)
+		{{ with .Params.tags }}{{ range . }} #<a href="/tags/{{ . | urlize }}">{{ . }}</a>{{ end }}{{ end }}{{ if .Draft }} <span class="caution">#Draft</span>{{ end }}
+		{{ with .Description }}<br>&raquo; {{ . }}{{ end }}
+	</li>
+{{ end }}
+</ul>
+</section> <!-- 最近の記事 -->
+
+<section>
+<h1>特集記事</h1>
+
+<section>
+<h2><a href="/hugo/">ゼロから始める Hugo</a> <a href='/hugo/index.xml' title='Feed'><i class='fa fa-rss'></i></a></h2>
+<p><a href="http://www.baldanders.info/">本家サイト</a>のブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。ここではその時のメモを公開する。</p>
+<section>
+<h3>最近の記事</h3>
+<ul style="list-style:none;">
+{{ range first 5 .Site.Pages }}
+	{{ if eq .Section "hugo" }}<li>
+		<a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a>
+		({{ with .Params.author.name }}by {{ . }}, {{ end }}<time pubdate="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>)
+		{{ with .Params.tags }}{{ range . }} #<a href="/tags/{{ . | urlize }}">{{ . }}</a>{{ end }}{{ end }}{{ if .Draft }} <span class="caution">#Draft</span>{{ end }}
+		{{ with .Description }}<br>&raquo; {{ . }}{{ end }}
+	</li>{{ end }}
+{{ end }}
+</section> <!-- 最近の記事 -->
+</section> <!-- ゼロから始める Hugo -->
+
+</section> <!-- 特集記事 -->
+
+<section>
+<h1>終了した日記・ブログ</h1>
+<ul style="list-style:none;">
+<li></li>
+<li><a href="http://www.baldanders.info/archives.shtml">本家メイン・ブログ</a></li>
+<li><a href="http://www.baldanders.info/spiegel/remark/archives.shtml">戯れ言++</a></li>
+<li><a href="http://www.baldanders.info/spiegel/log/">各種日記</a></li>
+</ul>
+</section> <!-- 最近の記事 -->
+
+</article></main>
+
+{{ partial "footer.html" . }}
+</div><!-- Container Area -->
+{{ partial "cleanup.html" . }}
+</body>
+{{ partial "end.html" . }}
