@@ -1,11 +1,12 @@
-baseurl      = "http://text.baldanders.info/"
-title        = "text.Baldanders.info"
-languageCode = "ja"
+theme           = "text"
+baseurl         = "http://text.baldanders.info/"
+title           = "text.Baldanders.info"
+languageCode    = "ja"
+disqusShortname = "textbaldandersinfo"
 
 [params]
 description = "帰ってきた「しっぽのさきっちょ」"
 favicon     = "/favicon.ico"
-disqus      = "textbaldandersinfo"
 
 [params.author]
 name      = "Spiegel"
