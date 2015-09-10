@@ -15,6 +15,7 @@
 		<link rel="alternate" type="text/html" href="{{ .Permalink }}" />
 		<id>tag:{{ .Site.Title }},{{ .Date.Format "2006-01-02T15:04:05.999999999-0700" | safeHTML }}:{{ .RelPermalink }}</id>
 		<published>{{ .Date.Format "2006-01-02T15:04:05-07-0700" | safeHTML }}</published>
+		{{ with .Params.update }}<updated>{{ . | dateFormat "2006-01-02T15:04:05-07-0700" | safeHTML }}</updated>{{ end }}
 		{{ with .Description }}<summary>{{ . }}</summary>{{ end }}
 		{{ with .Params.author }}
 			<author>
