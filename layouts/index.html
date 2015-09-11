@@ -38,31 +38,18 @@
 <a href="http://www.baldanders.info/">本家サイト</a>のブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。
 ここではその時のメモを公開する。
 </p>
-<section>
-<h3>最近の記事</h3>
-<ul style="list-style:none;">
-{{ range first 5 .Site.Pages }}{{ if eq .Section "hugo" }}{{ partial "li-section.html" . }}{{ end }}{{ end }}
-</ul>
-</section> <!-- 最近の記事 -->
 </section> <!-- ゼロから始める Hugo -->
 
 <section itemscope itemtype='http://schema.org/Blog' itemref='maker'>
 <h2 itemprop='name'><a href="/golang/">プログラミング言語 Go</a> <a href='/golang/index.xml' title='Feed'><i class='fa fa-rss'></i></a></h2>
 <p itemprop='description'>Go 言語に関する話題。</p>
-<section>
-<h3>最近の記事</h3>
-<ul style="list-style:none;">
-{{ range first 5 .Site.Pages }}{{ if eq .Section "golang" }}{{ partial "li-section.html" . }}{{ end }}{{ end }}
-</ul>
-</section> <!-- 最近の記事 -->
 </section> <!-- プログラミング言語 Go -->
 
 </section> <!-- 特集記事 -->
 
 <section>
 <h1>終了した日記・ブログ</h1>
-<ul style="list-style:none;">
-<li></li>
+<ul>
 <li><a href="http://www.baldanders.info/archives.shtml">本家メイン・ブログ</a>（2006-2015）</li>
 <li><a href="http://www.baldanders.info/spiegel/remark/archives.shtml">戯れ言++</a>（2003-2006）</li>
 <li><a href="http://www.baldanders.info/spiegel/log/">各種日記</a>（1999-2006）</li>
