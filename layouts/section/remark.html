@@ -1,0 +1,27 @@
+{{ partial "top.html" . }}
+<head>
+{{ partial "header.html" . }}
+{{ partial "header-add.html" . }}
+<title>しっぽのさきっちょ - {{ .Site.Title }}</title>
+<meta name="description" content="Go 言語に関する話題。">
+</head>
+<body>
+{{ partial "prepare.html" . }}
+<div id='container'><!-- Container Area -->
+{{ partial "banner.html" . }}
+
+<main role="main">
+<article itemscope itemtype='http://schema.org/Blog' itemref='maker'>
+<h1 itemprop='name'>しっぽのさきっちょ <a href='{{ .RSSLink }}' title='Feed'><i class='fa fa-rss'></i></a></h1>
+<p itemprop='description'>「<a href="http://www.baldanders.info/spiegel/">しっぽのさきっちょ</a>」が帰ってきたよ。</p>
+<ul style="list-style:none;">
+{{ range .Data.Pages }}{{ partial "li-section.html" . }}{{ end }}
+</ul>
+</article>
+</main>
+
+{{ partial "footer.html" . }}
+</div><!-- Container Area -->
+{{ partial "cleanup.html" . }}
+</body>
+{{ partial "end.html" . }}

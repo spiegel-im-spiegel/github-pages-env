@@ -19,11 +19,9 @@ footer nav {
 }
 
 /* hreview */
-#main .hreview {
+main .hreview {
   font-size: small;
   line-height: 1.2;
-  color: black;
-  background-color: white;
   border: solid thin gray;
   margin: 1rem 0rem;
   padding: 2px;

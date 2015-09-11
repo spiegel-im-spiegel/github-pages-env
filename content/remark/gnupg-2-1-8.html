@@ -1,0 +1,66 @@
++++
+date = "2015-09-11T21:36:43+09:00"
+description = "メンテナンスのアップデート。セキュリティ脆弱性関連のものはない模様。"
+draft = false
+tags = ["security", "cryptography", "openpgp", "gnupg"]
+title = "GnuPG 2.1.8 released"
+
+[author]
+  avatar = "/images/avatar.jpg"
+  facebook = "spiegel.im.spiegel"
+  flattr = "spiegel"
+  github = "spiegel-im-spiegel"
+  instagram = "spiegel_2007"
+  license = "by-sa"
+  linkedin = "spiegelimspiegel"
+  medium = "@spiegel"
+  name = "Spiegel"
+  twitter = "spiegel_2007"
+  url = "http://www.baldanders.info/spiegel/profile/"
++++
+
+<p>
+GnuPG の新しいバージョンがリリースされた。
+</p><ul>
+<li><a href="https://lists.gnupg.org/pipermail/gnupg-announce/2015q3/000375.html">[Announce] Libgcrypt 1.6.4 released</a></li>
+<li><a href="https://lists.gnupg.org/pipermail/gnupg-announce/2015q3/000376.html">[Announce] GnuPG 2.0.29 (stable) released</a></li>
+<li><a href="https://lists.gnupg.org/pipermail/gnupg-announce/2015q3/000379.html">[Announce] GnuPG 2.1.8 released</a></li>
+</ul><p>
+いずれもメンテナンスのアップデート。
+セキュリティ脆弱性関連のものはない模様。
+GnuPG 2.1.8 の changelog を挙げておく。
+</p><ul>
+<li>gpg: Sending very large keys to the keyservers works again.</li>
+<li>gpg: Validity strings in key listings are now again translatable.</li>
+<li>gpg: Emit FAILURE status lines to help GPGME.</li>
+<li>gpg: Does not anymore link to Libksba to reduce dependencies.</li>
+<li>gpgsm: Export of secret keys via Assuan is now possible.</li>
+<li>agent: Raise the maximum passphrase length from 100 to 255 bytes.</li>
+<li>agent: Fix regression using EdDSA keys with ssh.</li>
+<li>Does not anymore use a build timestamp by default.</li>
+<li>The fallback encoding for broken locale settings changed from Latin-1 to UTF-8.</li>
+<li>Many code cleanups and improved internal documentation.</li>
+<li>Various minor bug fixes.</li>
+</ul><p>
+バージョン情報はこんな感じ。
+</p>
+<pre><code>C:>gpg --version
+gpg (GnuPG) 2.1.8
+libgcrypt 1.6.4
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later &lt;http://gnu.org/licenses/gpl.html&gt;
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Home: ********
+Supported algorithms:
+Pubkey: RSA, ELG, DSA, ECDH, ECDSA, EDDSA
+Cipher: IDEA, 3DES, CAST5, BLOWFISH, AES, AES192, AES256, TWOFISH,
+        CAMELLIA128, CAMELLIA192, CAMELLIA256
+Hash: SHA1, RIPEMD160, SHA256, SHA384, SHA512, SHA224
+Compression: Uncompressed, ZIP, ZLIB, BZIP2</code></pre>
+</p>
+<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4797382228/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51rUzzNA45L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4797382228/baldandersinf-22/">暗号技術入門 第3版 秘密の国のアリス</a></dt><dd>結城 浩 </dd><dd>SBクリエイティブ 2015-08-26</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/479804413X/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/479804413X.09._SCTHUMBZZZ_.jpg"  alt="クラウドを支えるこれからの暗号技術"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4822267911/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4822267911.09._SCTHUMBZZZ_.jpg"  alt="絶対わかるセスペ27春 2015年秋版"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4839954747/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4839954747.09._SCTHUMBZZZ_.jpg"  alt="自作エミュレータで学ぶx86アーキテクチャ-コンピュータが動く仕組みを徹底理解!"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797382325/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4797382325.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート/ベクトルの真実"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774176435/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4774176435.09._SCTHUMBZZZ_.jpg"  alt="あなたの知らない超絶技巧プログラミングの世界"  /></a> </p>
+<p class="description">第3版出た！ SHA-3 や BitCoin/BlockChain など新しい知見や技術要素を大幅追加。暗号技術を使うだけならこれ1冊でとりあえず無問題。</p>
+<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-09-11">2015/09/11</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+</div>

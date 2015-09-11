@@ -2,8 +2,8 @@
 <head>
 {{ partial "header.html" . }}
 {{ partial "header-add.html" . }}
-<title>{{ .Title }} - {{ .Site.Title }}</title>
-{{ if .Description }}<meta name="description" content="{{ .Description }}">{{ else }}{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}{{ end }}
+<title>{{ .Title }} - プログラミング言語 Go | {{ .Site.Title }}</title>
+{{ if .Description }}<meta name="description" content="{{ .Description }}">{{ else }}<meta name="description" content="Go 言語に関する話題。">{{ end }}
 </head>
 <body>
 {{ partial "prepare.html" . }}
@@ -11,15 +11,16 @@
 {{ partial "banner.html" . }}
 
 <main role="main">
-<article>
+<article itemscope itemtype='http://schema.org/BlogPosting' itemref='maker'>
 <section>
-<h1>{{ .Title }}{{ with .Section }} [<a href="/{{ . | urlize }}">{{ . }}</a>]{{ end }}</h1>
+<h1 itemprop='name'>{{ .Title }}{{ with .Section }} - <a href="/{{ . | urlize }}">プログラミング言語 Go</a>{{ end }}</h1>
 <nav>{{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ . | urlize }}">#{{ . }}</a>{{ end }}</div>{{ end }}</nav>
 {{ .Content }}
 </section>
 </article>
 </main>
 
+{{ partial "e-words.html" . }}
 {{ partial "feedback.html" . }}
 {{ partial "footer.html" . }}
 </div><!-- Container Area -->

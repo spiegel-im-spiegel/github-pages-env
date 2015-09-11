@@ -3,6 +3,7 @@
 {{ partial "header.html" . }}
 {{ partial "header-add.html" . }}
 <title>{{ .Site.Title }}</title>
+{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 </head>
 <body>
 {{ partial "prepare.html" . }}
@@ -11,40 +12,50 @@
 
 <main role="main"><article>
 
-<section>
-<h1>最近の記事</h1>
+<p>プレ・オープン！ （2015年10月より正式オープンします）</p>
+
+<section itemscope itemtype='http://schema.org/Blog' itemref='maker'>
+<h1 itemprop='name'>最近の記事</h1>
 <ul style="list-style:none;">
-{{ range first 5 .Site.Pages }}
-	<li>
-		{{ with .Section }}[<a href="/{{ . }}">{{ . | urlize }}</a>] {{ end }}<a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a>
-		({{ with .Params.author.name }}by {{ . }}, {{ end }}<time pubdate="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>)
-		{{ with .Params.tags }}{{ range . }} #<a href="/tags/{{ . | urlize }}">{{ . }}</a>{{ end }}{{ end }}{{ if .Draft }} <span class="caution">#Draft</span>{{ end }}
-		{{ with .Description }}<br>&raquo; {{ . }}{{ end }}
-	</li>
-{{ end }}
+{{ range first 5 .Site.Pages }}{{ partial "li.html" . }}{{ end }}
 </ul>
 </section> <!-- 最近の記事 -->
+
+<section itemscope itemtype='http://schema.org/Blog' itemref='maker'>
+<h1 itemprop='name'>かえってきた「<a href="/remark/">しっぽのさきっちょ</a>」 <a href='/hugo/index.xml' title='Feed'><i class='fa fa-rss'></i></a></h1>
+<p itemprop='description'>「<a href="http://www.baldanders.info/spiegel/">しっぽのさきっちょ</a>」が帰ってきたよ。日記風コンテンツ。</p>
+<ul style="list-style:none;">
+{{ range first 10 .Site.Pages }}{{ if eq .Section "remark" }}{{ partial "li-section.html" . }}{{ end }}{{ end }}
+</ul>
+</section> <!-- しっぽのさきっちょ -->
 
 <section>
 <h1>特集記事</h1>
 
-<section>
-<h2><a href="/hugo/">ゼロから始める Hugo</a> <a href='/hugo/index.xml' title='Feed'><i class='fa fa-rss'></i></a></h2>
-<p><a href="http://www.baldanders.info/">本家サイト</a>のブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。ここではその時のメモを公開する。</p>
+<section itemscope itemtype='http://schema.org/Blog' itemref='maker'>
+<h2 itemprop='name'><a href="/hugo/">ゼロから始める Hugo</a> <a href='/hugo/index.xml' title='Feed'><i class='fa fa-rss'></i></a></h2>
+<p itemprop='description'>
+<a href="http://www.baldanders.info/">本家サイト</a>のブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。
+ここではその時のメモを公開する。
+</p>
 <section>
 <h3>最近の記事</h3>
 <ul style="list-style:none;">
-{{ range first 5 .Site.Pages }}
-	{{ if eq .Section "hugo" }}<li>
-		<a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a>
-		({{ with .Params.author.name }}by {{ . }}, {{ end }}<time pubdate="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>)
-		{{ with .Params.tags }}{{ range . }} #<a href="/tags/{{ . | urlize }}">{{ . }}</a>{{ end }}{{ end }}{{ if .Draft }} <span class="caution">#Draft</span>{{ end }}
-		{{ with .Description }}<br>&raquo; {{ . }}{{ end }}
-	</li>{{ end }}
-{{ end }}
+{{ range first 5 .Site.Pages }}{{ if eq .Section "hugo" }}{{ partial "li-section.html" . }}{{ end }}{{ end }}
 </ul>
 </section> <!-- 最近の記事 -->
 </section> <!-- ゼロから始める Hugo -->
+
+<section itemscope itemtype='http://schema.org/Blog' itemref='maker'>
+<h2 itemprop='name'><a href="/golang/">プログラミング言語 Go</a> <a href='/golang/index.xml' title='Feed'><i class='fa fa-rss'></i></a></h2>
+<p itemprop='description'>Go 言語に関する話題。</p>
+<section>
+<h3>最近の記事</h3>
+<ul style="list-style:none;">
+{{ range first 5 .Site.Pages }}{{ if eq .Section "golang" }}{{ partial "li-section.html" . }}{{ end }}{{ end }}
+</ul>
+</section> <!-- 最近の記事 -->
+</section> <!-- プログラミング言語 Go -->
 
 </section> <!-- 特集記事 -->
 
@@ -52,7 +63,7 @@
 <h1>終了した日記・ブログ</h1>
 <ul style="list-style:none;">
 <li></li>
-<li><a href="http://www.baldanders.info/archives.shtml">本家メイン・ブログ</a>（2006-2015, 2015年10月よりブログ機能をここに移転します）</li>
+<li><a href="http://www.baldanders.info/archives.shtml">本家メイン・ブログ</a>（2006-2015）</li>
 <li><a href="http://www.baldanders.info/spiegel/remark/archives.shtml">戯れ言++</a>（2003-2006）</li>
 <li><a href="http://www.baldanders.info/spiegel/log/">各種日記</a>（1999-2006）</li>
 </ul>

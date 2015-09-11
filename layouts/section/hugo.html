@@ -3,6 +3,7 @@
 {{ partial "header.html" . }}
 {{ partial "header-add.html" . }}
 <title>ゼロから始める Hugo - {{ .Site.Title }}</title>
+<meta name="description" content="本家サイトのブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。ここではその時のメモを公開する。">
 </head>
 <body>
 {{ partial "prepare.html" . }}
@@ -10,18 +11,13 @@
 {{ partial "banner.html" . }}
 
 <main role="main">
-<article>
-<h1>ゼロから始める Hugo <a href='{{ .RSSLink }}' title='Feed'><i class='fa fa-rss'></i></a></h1>
-<p><a href="http://www.baldanders.info/">本家サイト</a>のブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。ここではその時のメモを公開する。</p>
-<ul style="list-style:none;">
-{{ range .Data.Pages.ByDate }}
-<li>
-	<a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a>
-	({{ with .Params.author.name }}by {{ . }}, {{ end }}<time pubdate="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>)
-	{{ with .Params.tags }}{{ range . }} #<a href="/tags/{{ . | urlize }}">{{ . }}</a>{{ end }}{{ end }}{{ if .Draft }} <span class="caution">#Draft</span>{{ end }}
-	{{ with .Description }}<br>&raquo; {{ . }}{{ end }}
-</li>
-{{ end }}
+<article itemscope itemtype='http://schema.org/Blog' itemref='maker'>
+<h1 itemprop='name'>ゼロから始める Hugo <a href='{{ .RSSLink }}' title='Feed'><i class='fa fa-rss'></i></a></h1>
+<p itemprop='description'>
+<a href="http://www.baldanders.info/">本家サイト</a>のブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。
+ここではその時のメモを公開する。
+</p><ul style="list-style:none;">
+{{ range .Data.Pages.ByDate }}{{ partial "li-section.html" . }}{{ end }}
 </ul>
 </article>
 </main>

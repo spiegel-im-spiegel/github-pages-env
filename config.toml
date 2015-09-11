@@ -5,6 +5,7 @@ languageCode    = "ja"
 disqusShortname = "textbaldandersinfo"
 
 [params]
+since       = "2015-10-01"
 description = "帰ってきた「しっぽのさきっちょ」"
 favicon     = "/favicon.ico"
 

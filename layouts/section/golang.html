@@ -1,0 +1,27 @@
+{{ partial "top.html" . }}
+<head>
+{{ partial "header.html" . }}
+{{ partial "header-add.html" . }}
+<title>プログラミング言語 Go - {{ .Site.Title }}</title>
+<meta name="description" content="Go 言語に関する話題。">
+</head>
+<body>
+{{ partial "prepare.html" . }}
+<div id='container'><!-- Container Area -->
+{{ partial "banner.html" . }}
+
+<main role="main">
+<article itemscope itemtype='http://schema.org/Blog' itemref='maker'>
+<h1 itemprop='name'>プログラミング言語 Go <a href='{{ .RSSLink }}' title='Feed'><i class='fa fa-rss'></i></a></h1>
+<p itemprop='description'>Go 言語に関する話題。</p>
+<ul style="list-style:none;">
+{{ range .Data.Pages.ByDate }}{{ partial "li-section.html" . }}{{ end }}
+</ul>
+</article>
+</main>
+
+{{ partial "footer.html" . }}
+</div><!-- Container Area -->
+{{ partial "cleanup.html" . }}
+</body>
+{{ partial "end.html" . }}

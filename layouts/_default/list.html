@@ -3,6 +3,7 @@
 {{ partial "header.html" . }}
 {{ partial "header-add.html" . }}
 <title>List of {{ .Title }} - {{ .Site.Title }}</title>
+<meta name="description" content="Entries of {{ .Title }}">
 </head>
 <body>
 {{ partial "prepare.html" . }}
@@ -13,14 +14,7 @@
 <article>
 <h2>Entries of {{ .Title }} <a href='{{ .RSSLink }}' title='Feed'><i class='fa fa-rss'></i></a></h2>
 <ul style="list-style:none;">
-{{ range .Data.Pages }}
-<li>
-	{{ with .Section }}[<a href="/{{ . | urlize }}">{{ . }}</a>] {{ end }}<a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a>
-	({{ with .Params.author.name }}by {{ . }}, {{ end }}<time pubdate="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>)
-	{{ with .Params.tags }}{{ range . }} #<a href="/tags/{{ . | urlize }}">{{ . }}</a>{{ end }}{{ end }}{{ if .Draft }} <span class="caution">#Draft</span>{{ end }}
-	{{ with .Description }}<br>&raquo; {{ . }}{{ end }}
-</li>
-{{ end }}
+{{ range .Data.Pages }}{{ partial "li.html" . }}{{ end }}
 </ul>
 </article>
 </main>

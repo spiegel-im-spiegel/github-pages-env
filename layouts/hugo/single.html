@@ -3,6 +3,7 @@
 {{ partial "header.html" . }}
 {{ partial "header-add.html" . }}
 <title>{{ .Title }} - ゼロから始める Hugo | {{ .Site.Title }}</title>
+{{ if .Description }}<meta name="description" content="{{ .Description }}">{{ else }}<meta name="description" content="Hugo に関する話題。">{{ end }}
 </head>
 <body>
 {{ partial "prepare.html" . }}
@@ -10,9 +11,9 @@
 {{ partial "banner.html" . }}
 
 <main role="main">
-<article>
+<article itemscope itemtype='http://schema.org/BlogPosting' itemref='maker'>
 <section>
-<h1>{{ .Title }}{{ with .Section }} - <a href="/{{ . | urlize }}">ゼロから始める Hugo</a>{{ end }}</h1>
+<h1 itemprop='name'>{{ .Title }}{{ with .Section }} - <a href="/{{ . | urlize }}">ゼロから始める Hugo</a>{{ end }}</h1>
 <nav>{{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ . | urlize }}">#{{ . }}</a>{{ end }}</div>{{ end }}</nav>
 {{ .Content }}
 </section>
