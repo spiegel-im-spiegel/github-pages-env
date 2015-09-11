@@ -2,7 +2,8 @@
 title       = "Categories, Tags そして Section"
 description = "前回の続き。今回は Categories, Tags そして Section について書いてみる。"
 date        = "2015-09-11T17:58:32+09:00"
-tags        = [ "hugo", "categories", "tags", "section" ]
+update      = "2015-09-12T05:48:00+09:00"
+tags        = [ "hugo", "categories", "tags", "taxonomy", "section" ]
 draft = false
 
 [author]
@@ -218,6 +219,64 @@ author = "Spiegel"
 ```
 
 この非対称性も分かりにくいんだよなぁ。
+
+### Taxonomy{#taxonomy}
+
+[Hugo] には Taxonomy と呼ばれる機能があって，（今のところ） Categories/Tags のリストを取り出すことができる。たとえば，こんな感じに書く。
+
+```html:layouts/index.html
+<h2>Taxonomy Terms</h2>
+<ul>{{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+    <li>{{ $taxonomyname }}
+        <ul>{{ range $key, $value := $taxonomy }}
+            <li><a href="/{{ $taxonomyname | urlize }}/{{ $key | urlize }}">{{ $key }}</a> ({{ $value.Count }})
+                <ul>{{ range $value.Pages }}
+                    <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a> </li>
+                {{ end }}</ul></li>
+        {{ end }}</ul></li>
+{{ end }}</ul>
+```
+
+これをビルドするとこんな感じに展開される。
+
+```html:public/index.html
+<h2>Taxonomy Terms</h2>
+<ul>
+    <li>categories
+        <ul>
+            <li><a href="/categories/hugo">hugo</a> (1)
+                <ul>
+                    <li><a href="http://hello.example.com/hello/">Hello!</a> </li>
+                </ul></li>
+        </ul></li>
+
+    <li>tags
+        <ul>
+            <li><a href="/tags/hello">hello</a> (1)
+                <ul>
+                    <li><a href="http://hello.example.com/hello/">Hello!</a> </li>
+                </ul></li>
+
+            <li><a href="/tags/world">world</a> (1)
+                <ul>
+                    <li><a href="http://hello.example.com/hello/">Hello!</a> </li>
+                </ul></li>
+        </ul></li>
+</ul>
+```
+
+Tags の一覧のみを取得したいのであれば，もっと簡単に
+
+```html:layouts/index.html
+<h2>Tags</h2>
+<ul>{{ range $key, $value := .Site.Taxonomies.tags.ByCount }}
+	<li>#<a href="/tags/{{ $key | urlize }}">{{ $key }}</a> ({{ $value.Count }})</li>
+{{ end }}</ul>
+```
+
+でもよい。
+ちなみに `.Site.Taxonomies.tags.ByCount` は Tags の一覧をタグされている記事数の順で sort したものである。
+アルファベット順にするには `.Site.Taxonomies.tags.Alphabetical` とする。
 
 ## Section{#section}
 
