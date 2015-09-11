@@ -2,7 +2,7 @@
 <head>
 {{ partial "header.html" . }}
 {{ partial "header-add.html" . }}
-<title>{{ .Title }} - ゼロから始める Hugo | {{ .Site.Title }}</title>
+<title>{{ .Title }} - {{ .Site.Title }}</title>
 </head>
 <body>
 {{ partial "prepare.html" . }}
@@ -12,14 +12,13 @@
 <main role="main">
 <article>
 <section>
-<h1>{{ .Title }}{{ with .Section }} - <a href="/{{ . | urlize }}">ゼロから始める Hugo</a>{{ end }}</h1>
+<h1>{{ .Title }}{{ with .Section }} [<a href="/{{ . | urlize }}">{{ . }}</a>]{{ end }}</h1>
 <nav>{{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ . | urlize }}">#{{ . }}</a>{{ end }}</div>{{ end }}</nav>
 {{ .Content }}
 </section>
 </article>
 </main>
 
-{{ partial "e-words.html" . }}
 {{ partial "feedback.html" . }}
 {{ partial "footer.html" . }}
 </div><!-- Container Area -->

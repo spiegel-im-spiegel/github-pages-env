@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/**
+ * addon.css -- Cascading Style Sheet (General)
+ */
+/* declaration of font-* */
+body {
+  font-family: 'Droid Serif', 'aozora-m', serif;
+  /* font-smoothing: always; // Non-standard */
+}
+h1, h2, h3, h4, h5, h6, address, table th, dl > dt, strong, cite, *.caution {
+  font-family: 'Open Sans', 'ipa-gothic', sans-serif;
+}
+pre, tt, code, kbd, samp {
+  font-family: 'Inconsolata', 'ipa-monospace', monospace;
+}
+/* footer navigation */
+footer nav {
+  font-family: 'Open Sans', 'ipa-gothic', sans-serif;
+}
+
+/* hreview */
+#main .hreview {
+  font-size: small;
+  line-height: 1.2;
+  color: black;
+  background-color: white;
+  border: solid thin gray;
+  margin: 1rem 0rem;
+  padding: 2px;
+}
+.hreview dl {
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  text-align: left;
+}
+.hreview dl > dt {
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  border: none;
+  color: inherit;
+  background-color: inherit;
+}
+.hreview dl > dd {
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  border: none;
+  color: inherit;
+  background-color: inherit;
+}
+.hreview img.photo {
+  float:left;
+  border: none;
+  color: inherit;
+  background-color: inherit;
+  margin: 0 15px 10px 10px;
+  padding: 0.5rem;
+}
+.hreview p.gtools {
+  font-size: smaller;
+  line-height: inherit;
+  text-align: right;
+  margin: 0;
+  clear: both;
+}

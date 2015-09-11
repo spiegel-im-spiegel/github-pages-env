@@ -2,7 +2,7 @@
 <head>
 {{ partial "header.html" . }}
 {{ partial "header-add.html" . }}
-<title>ゼロから始める Hugo - {{ .Site.Title }}</title>
+<title>List of {{ .Title }} - {{ .Site.Title }}</title>
 </head>
 <body>
 {{ partial "prepare.html" . }}
@@ -11,12 +11,11 @@
 
 <main role="main">
 <article>
-<h1>ゼロから始める Hugo <a href='{{ .RSSLink }}' title='Feed'><i class='fa fa-rss'></i></a></h1>
-<p><a href="http://www.baldanders.info/">本家サイト</a>のブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。ここではその時のメモを公開する。</p>
+<h2>Entries of {{ .Title }} <a href='{{ .RSSLink }}' title='Feed'><i class='fa fa-rss'></i></a></h2>
 <ul style="list-style:none;">
-{{ range .Data.Pages.ByDate }}
+{{ range .Data.Pages }}
 <li>
-	<a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a>
+	{{ with .Section }}[<a href="/{{ . | urlize }}">{{ . }}</a>] {{ end }}<a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a>
 	({{ with .Params.author.name }}by {{ . }}, {{ end }}<time pubdate="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>)
 	{{ with .Params.tags }}{{ range . }} #<a href="/tags/{{ . | urlize }}">{{ . }}</a>{{ end }}{{ end }}{{ if .Draft }} <span class="caution">#Draft</span>{{ end }}
 	{{ with .Description }}<br>&raquo; {{ . }}{{ end }}
