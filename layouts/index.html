@@ -19,6 +19,9 @@
 <ul style="list-style:none;">
 {{ range first 5 .Site.Pages }}{{ partial "li.html" . }}{{ end }}
 </ul>
+<ul class="cloud" style="font-size:smaller;">{{ range $key, $value := .Site.Taxonomies.tags.ByCount }}
+	<li>#<a href="/tags/{{ $value.Name | urlize }}">{{ $value.Name }}</a> ({{ $value.Count }})</li>
+{{ end }}</ul>
 </section> <!-- 最近の記事 -->
 
 <section itemscope itemtype='http://schema.org/Blog' itemref='maker'>

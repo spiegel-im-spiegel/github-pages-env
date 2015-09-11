@@ -1,7 +1,8 @@
 +++
 date = "2015-09-05T20:32:00+09:00"
+update = "2015-09-12T00:32:00+09:00"
 description = "text.Baldanders.info の運用方針について説明します。"
-tags = ["site"]
+tags = ["site", "policy", "privacy"]
 title = "text.Baldanders.info について"
 +++
 

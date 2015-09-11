@@ -2,8 +2,8 @@
 title       = "インストールから Hello World まで"
 description = "自サイトのブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。ここではその時のメモを公開する。"
 date        = "2015-09-11T17:58:23+09:00"
-update      = "2015-09-11T20:58:23+09:00"
-tags        = [ "hugo", "helloworld" ]
+update      = "2015-09-12T00:58:23+09:00"
+tags        = [ "hugo", "install", "helloworld" ]
 draft = false
 
 [author]

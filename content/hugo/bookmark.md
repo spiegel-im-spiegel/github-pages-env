@@ -73,5 +73,6 @@ flattr    = "spiegel"
 - [metalsmith - 静的サイトジェネレータを比較してみた - Qiita](http://qiita.com/tamano/items/d3be25027c9b80bbfb7a) : Hugo を含めた比較記事。
 - [Hugoではテーマを指定しないとindex.htmlのサイズがゼロで作成される - Qiita](http://qiita.com/kakkyz81/items/75bcaace6bcaa38373ba)
 - [MovableTypeからHugoにブログ記事を移管するために下調べしたのでまとめ - Qiita](http://qiita.com/DQNEO/items/7c05252fa434c861d938)
+- [Hugo のテンプレート 基本 | My Blog](http://takunagai.github.io/post/hugo/template/)
 
 [Hugo]: http://gohugo.io/ "Hugo :: A fast and modern static website engine"
