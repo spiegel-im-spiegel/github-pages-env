@@ -1,7 +1,6 @@
 {{ partial "top.html" . }}
 <head>
 {{ partial "header.html" . }}
-{{ partial "header-add.html" . }}
 <title>{{ .Title }} - {{ .Site.Title }}</title>
 {{ if .Description }}<meta name="description" content="{{ .Description }}">{{ else }}{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}{{ end }}
 </head>

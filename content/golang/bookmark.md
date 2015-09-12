@@ -4,7 +4,7 @@ description = "本業が忙しくて Go 言語をかまってあげる暇がな�
 draft = false
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
-update = "2015-09-11T17:58:42+09:00"
+update = "2015-09-12T10:20:00+09:00"
 
 [author]
   avatar = "/images/avatar.jpg"
@@ -26,7 +26,7 @@ update = "2015-09-11T17:58:42+09:00"
 
 ## 公式サイト{#official}
 
-- [The Go Programming Language](https://golang.org/) : 2005年9月8日時点での最新は 1.5.1
+- [The Go Programming Language](https://golang.org/) : 2015年9月8日時点での最新は 1.5.1
     - [git repositories (Google)](https://go.googlesource.com/)
     - [git repositories (GitHub)](https://github.com/golang) : mirror
 - [golang-jp - The Go Programming Language](http://golang-jp.org/) : 本家の日本語訳サイト。（[golang.jp](http://golang.jp/) は参考にしない方がいい，らしい）

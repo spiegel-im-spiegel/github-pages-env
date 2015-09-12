@@ -2,7 +2,7 @@
 title       = "Hugo に関するブックマーク"
 description = "当サイトを Hugo で構築するにあたって参考になったページを紹介する。"
 date        = "2015-09-05T00:00:00+09:00"
-update      = "2015-09-09T00:00:00+09:00"
+update      = "2015-09-12T11:30:00+09:00"
 tags        = [ "hugo", "bookmark" ]
 
 [author]
@@ -57,6 +57,7 @@ flattr    = "spiegel"
 - [floatより辛くない「flexbox」でざっくりレイアウト - Qiita](http://qiita.com/hashrock/items/939684b9207dbab1d59e) : flex は table より float より直感的で分かりやすい
 - [Font Awesome, the iconic font and CSS toolkit](https://fortawesome.github.io/Font-Awesome/)
 - [highlight.js](https://highlightjs.org/)
+- [ソースコードをハイライトする軽量ライブラリ、Highlight.jsの使い方](http://syncer.jp/how-to-use-highlightjs)
 - [Creative Commons Icon Font](http://cc-icons.github.io/) : CC License 用のアイコン・フォント
 
 ## その他{#others}
