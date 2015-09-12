@@ -1,6 +1,6 @@
 +++
 date = "2015-09-05T20:32:00+09:00"
-update = "2015-09-12T00:32:00+09:00"
+update = "2015-09-12T13:19:00+09:00"
 description = "text.Baldanders.info の運用方針について説明します。"
 tags = ["site", "policy", "privacy", "copyright", "link"]
 title = "text.Baldanders.info について"
@@ -32,5 +32,6 @@ title = "text.Baldanders.info について"
 
 - [Twitter](https://twitter.com/)
 - [Facebook](https://www.facebook.com/)
+- [Amazonアソシエイト](https://affiliate.amazon.co.jp/)
 
 [本サイト]: / "text.Baldanders.info"
