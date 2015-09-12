@@ -2,7 +2,7 @@
 title       = "Categories, Tags そして Section"
 description = "前回の続き。今回は Categories, Tags そして Section について書いてみる。"
 date        = "2015-09-11T17:58:32+09:00"
-update      = "2015-09-12T05:48:00+09:00"
+update      = "2015-09-12T12:25:00+09:00"
 tags        = [ "hugo", "categories", "tags", "taxonomy", "section" ]
 draft = false
 
@@ -118,7 +118,7 @@ C:\HUGO-ENV\WWW
 
 <ul style="list-style:none;">
 {{ range .Data.Pages }}
-	<li><a href="{{ .Permalink }}">{{ .Title }}</a> (<time pubdate="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>){{ if .Draft }} #Draft{{ end }}</li>
+	<li><a href="{{ .Permalink }}">{{ .Title }}</a> (<time>{{ .Date.Format "2006-01-02" }}</time>){{ if .Draft }} #Draft{{ end }}</li>
 {{ end }}
 </ul>
 
@@ -140,7 +140,7 @@ C:\HUGO-ENV\WWW
 
 <ul style="list-style:none;">
 
-	<li><a href="http://hello.example.com/hello/">Hello!</a> (<time pubdate="2015-09-05">2015-09-05</time>)</li>
+	<li><a href="http://hello.example.com/hello/">Hello!</a> (<time>2015-09-05</time>)</li>
 
 </ul>
 
@@ -165,8 +165,8 @@ C:\HUGO-ENV\WWW
 <body>
 <h1>{{ .Title }}</h1>
 <nav>
-	{{ with .Params.categories }}<div>Categories:{{ range . }} <a href="/categories/{{ . }}/">{{ . }}</a>{{ end }}</div>{{ end }}
-	{{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ . }}/">#{{ . }}</a>{{ end }}</div>{{ end }}
+	{{ with .Params.categories }}<div>Categories:{{ range . }} <a href="/categories/{{ . | urlize }}/">{{ . }}</a>{{ end }}</div>{{ end }}
+	{{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ . | urlize }}/">#{{ . }}</a>{{ end }}</div>{{ end }}
 </nav>
 
 <div>{{ .Content }}</div>
@@ -198,6 +198,8 @@ C:\HUGO-ENV\WWW
 
 `{{ with }}` 構文の中に `{{ range }}` 構文が入ってて分かりにくいが，変数のスコープに注意すれば，それほど難しくはないはず。
 注意しないといけないのは， Categories/Tags の変数名が `.Categories`, `.Tags` ではなく `.Params.categories`, `.Params.tags` になっている点である。
+
+`{{ . | urlize }}` というのはパイプ機能の一種で， `urlize` であれば左側の値（文字列）を URL として安全な文字列に変換してくれる。
 
 Categories と Tags との間に機能上の違いはない。
 名前が違うだけである。
@@ -363,7 +365,7 @@ C:\HUGO-ENV\WWW
 
 <ul style="list-style:none;">
 
-	<li><a href="http://hello.example.com/practice/hello/">Hello!</a> (<time pubdate="2015-09-05">2015-09-05</time>)</li>
+	<li><a href="http://hello.example.com/practice/hello/">Hello!</a> (<time>2015-09-05</time>)</li>
 
 </ul>
 
@@ -388,10 +390,10 @@ Section と Categories/Tags を組み合わせれば縦串と横串で記事を�
 <title>{{ .Title }}{{ with .Section }} -- {{ . }}{{ end }} -- {{ .Site.Title }}</title>
 </head>
 <body>
-<h1>{{ .Title }}{{ with .Section }} [<a href="/{{ . }}/">{{ . }}</a>]{{ end }}</h1>
+<h1>{{ .Title }}{{ with .Section }} [<a href="/{{ . | urlize }}/">{{ . }}</a>]{{ end }}</h1>
 <nav>
-	{{ with .Params.categories }}<div>Categories:{{ range . }} <a href="/categories/{{ . }}/">{{ . }}</a>{{ end }}</div>{{ end }}
-	{{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ . }}/">#{{ . }}</a>{{ end }}</div>{{ end }}
+	{{ with .Params.categories }}<div>Categories:{{ range . }} <a href="/categories/{{ . | urlize }}/">{{ . }}</a>{{ end }}</div>{{ end }}
+	{{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ . | urlize }}/">#{{ . }}</a>{{ end }}</div>{{ end }}
 </nav>
 
 <div>{{ .Content }}</div>
@@ -515,7 +517,7 @@ C:\HUGO-ENV\WWW
 
 <ul style="list-style:none;">
 {{ range .Data.Pages }}
-	<li><a href="{{ .Permalink }}">{{ .Title }}</a> (<time pubdate="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>){{ if .Draft }} #Draft{{ end }}</li>
+	<li><a href="{{ .Permalink }}">{{ .Title }}</a> (<time>{{ .Date.Format "2006-01-02" }}</time>){{ if .Draft }} #Draft{{ end }}</li>
 {{ end }}
 </ul>
 
@@ -537,7 +539,7 @@ C:\HUGO-ENV\WWW
 
 <ul style="list-style:none;">
 
-	<li><a href="http://hello.example.com/practice/hello/">Hello!</a> (<time pubdate="2015-09-05">2015-09-05</time>)</li>
+	<li><a href="http://hello.example.com/practice/hello/">Hello!</a> (<time>2015-09-05</time>)</li>
 
 </ul>
 
@@ -558,8 +560,8 @@ C:\HUGO-ENV\WWW
 <body>
 <h1>{{ .Title }} -- Hugo の練習</h1>
 <nav>
-	{{ with .Params.categories }}<div>Categories:{{ range . }} <a href="/categories/{{ . }}/">{{ . }}</a>{{ end }}</div>{{ end }}
-	{{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ . }}/">#{{ . }}</a>{{ end }}</div>{{ end }}
+	{{ with .Params.categories }}<div>Categories:{{ range . }} <a href="/categories/{{ . | urlize }}/">{{ . }}</a>{{ end }}</div>{{ end }}
+	{{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ . | urlize }}/">#{{ . }}</a>{{ end }}</div>{{ end }}
 </nav>
 
 <div>{{ .Content }}</div>
@@ -681,6 +683,8 @@ C:\HUGO-ENV\WWW
 ## ブックマーク{#bookmark}
 
 - [Hugoサイト構築 | Watanabe-DENKI Inc. 渡辺電気株式会社](http://wdkk.co.jp/lab/hugo/) : お勧め！
+
+[Hugo に関するブックマークはこちら]({{< ref "hugo/bookmark.md" >}})。
 
 [Hugo]: http://gohugo.io/ "Hugo :: A fast and modern static website engine"
 [前回]: {{< ref "hugo/hello.md" >}} "インストールから Hello World まで"

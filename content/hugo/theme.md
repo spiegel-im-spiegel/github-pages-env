@@ -1,6 +1,7 @@
 +++
 title = "Theme を利用する"
 date = "2015-09-11T17:59:18+09:00"
+update = "2015-09-12T12:25:00+09:00"
 description = "前々回，前回とちょっと飛ばしすぎたので今回は軽めに theme の話題を。"
 tags = [ "hugo", "theme" ]
 draft = false
@@ -233,6 +234,8 @@ min_version = 0.14
 ## ブックマーク{#bookmark}
 
 - [Hugoサイト構築 | Watanabe-DENKI Inc. 渡辺電気株式会社](http://wdkk.co.jp/lab/hugo/) : お勧め！
+
+[Hugo に関するブックマークはこちら]({{< ref "hugo/bookmark.md" >}})。
 
 [Hugo]: http://gohugo.io/ "Hugo :: A fast and modern static website engine"
 [前々回]: {{< ref "hugo/hello.md" >}} "インストールから Hello World まで"

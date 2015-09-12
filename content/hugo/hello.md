@@ -2,7 +2,7 @@
 title       = "インストールから Hello World まで"
 description = "自サイトのブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。ここではその時のメモを公開する。"
 date        = "2015-09-11T17:58:23+09:00"
-update      = "2015-09-12T00:58:23+09:00"
+update      = "2015-09-12T12:25:00+09:00"
 tags        = [ "hugo", "install", "helloworld" ]
 draft = false
 
@@ -629,7 +629,7 @@ Feed はこんな感じ。
 <h2>What's New</h2>
 <ul style="list-style:none;">
 {{ range first 15 .Site.Pages }}
-    <li><a href="{{ .Permalink }}">{{ .Title }}</a> (<time pubdate="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>){{ if .Draft }} #Draft{{ end }}</li>
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a> (<time>{{ .Date.Format "2006-01-02" }}</time>){{ if .Draft }} #Draft{{ end }}</li>
 {{ end }}
 </ul>
 
@@ -653,7 +653,7 @@ Feed はこんな感じ。
 <h2>What's New</h2>
 <ul style="list-style:none;">
 
-    <li><a href="http://hello.example.com/hello/">Hello!</a> (<time pubdate="2015-09-05">2015-09-05</time>)</li>
+    <li><a href="http://hello.example.com/hello/">Hello!</a> (<time>2015-09-05</time>)</li>
 
 </ul>
 
@@ -726,9 +726,9 @@ C:\HUGO-ENV\WWW
 <h2>What's New</h2>
 <ul style="list-style:none;">
 
-    <li><a href="http://hello.example.com/hello/">Hello!</a> (<time pubdate="2015-09-05">2015-09-05</time>)</li>
+    <li><a href="http://hello.example.com/hello/">Hello!</a> (<time>2015-09-05</time>)</li>
 
-    <li><a href="http://hello.example.com/hello2/"></a> (<time pubdate="0001-01-01">0001-01-01</time>)</li>
+    <li><a href="http://hello.example.com/hello2/"></a> (<time>0001-01-01</time>)</li>
 
 </ul>
 
@@ -776,9 +776,9 @@ title = "Hello! Part 2"
 <h2>What's New</h2>
 <ul style="list-style:none;">
 
-	<li><a href="http://hello.example.com/hello2/">Hello! Part 2</a> (<time pubdate="2015-09-05">2015-09-05</time>)</li>
+	<li><a href="http://hello.example.com/hello2/">Hello! Part 2</a> (<time>2015-09-05</time>)</li>
 
-	<li><a href="http://hello.example.com/hello/">Hello!</a> (<time pubdate="2015-09-05">2015-09-05</time>)</li>
+	<li><a href="http://hello.example.com/hello/">Hello!</a> (<time>2015-09-05</time>)</li>
 
 </ul>
 
@@ -850,5 +850,7 @@ title = "Hello! Part 2"
 ## ブックマーク{#bookmark}
 
 - [Hugoサイト構築 | Watanabe-DENKI Inc. 渡辺電気株式会社](http://wdkk.co.jp/lab/hugo/) : お勧め！
+
+[Hugo に関するブックマークはこちら]({{< ref "hugo/bookmark.md" >}})。
 
 [Hugo]: http://gohugo.io/ "Hugo :: A fast and modern static website engine"
