@@ -1,8 +1,8 @@
 +++
 date = "2015-09-15T09:37:19+09:00"
-description = "description"
+description = "ATOM Editor に関するメモ。 Windows 環境が前提になっているのであしからず。"
 draft = true
-tags = ["remark"]
+tags = ["atom", "editor"]
 title = "ATOM Editor に関するメモ"
 
 [author]
@@ -53,15 +53,6 @@ visual studio
 ううむ。
 
 - [Windowsでnode-gypのビルドを通す - なにか作る](http://create-something.hatenadiary.jp/entry/2014/07/13/021655)
-
-### Proxy の設定
-
-Intranet 上のマシンで外部との接続が阻まれている場合は Proxy 設定を行う。
-設定には `apm` コマンドを使う。
-
-```shell
-C:>apm config set https-proxy http://username:password@proxy.exsample.com:8080
-```
 
 ### ATOM をアンインストールする
 
@@ -145,6 +136,15 @@ Installing symbols-tree-view to C:\Users\username\.atom\packages done
 
 ## ATOM の設定
 
+### Proxy 設定
+
+Intranet 上のマシンで外部との接続が阻まれている場合は Proxy 設定を行う。
+設定には `apm` コマンドを使う。
+
+```shell
+C:>apm config set https-proxy http://username:password@proxy.exsample.com:8080
+```
+
 ### Font Family の選択
 
 エディタのフォントは作業効率に大きく影響する。これは私個人の感覚だが，日本語の地の文章がゴシック体なのは辛い。いくら綺麗だからといって Meiryo フォントをエディタに使う気にはならない。ただし，コードに関しては視認性が一番重要。ということで，フォントの指定は以下で無問題。
@@ -224,8 +224,6 @@ trim_trailing_whitespace = false
 新規作成時の初期の文字エンコーディングは今のところどうしようもないが，プロジェクトごとに “File Encoding” を変更して対応するか，新規作成ファイルが開いた直後に `ctrl-shift-U` で文字エンコーディングを変更することで何とかなるだろう（ダサいけど）。
 
 #### ファイル読み込み時に文字エンコーディングを自動判別する
-
-新規作成時の初期の文字エンコーディングは今のところどうしようもないが，プロジェクトごとに “File Encoding” を変更して対応するか，新規作成ファイルが開いた直後に `ctrl-shift-U` で文字エンコーディングを変更することで何とかなるだろう（ダサいけど）。
 
 もうひとつの緩和策としては，既存ファイル読み込み時に [ATOM] に文字エンコードを自動判別させることだ。ただし，この機能を持つ Package は今のところ存在しないようなので自前で何とかするしかない。
 
@@ -321,7 +319,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 
 ### その他
 
-1. 自動保存を行う Core パッケージ [autosave](https://atom.io/packages/autosave) は既定で無効になってる。私は [git-plus](https://atom.io/packages/git-plus) で commit する前に保存するのをどうしても忘れるので，これを有効にしておくと吉。ただし [git-plus](https://atom.io/packages/git-plus) で，自動保存により勝手に commit が走る場合があるので注意。
+1. 自動保存を行う Core パッケージ [autosave](https://atom.io/packages/autosave) は既定で無効になってる。私は [git-plus](https://atom.io/packages/git-plus) で commit する前に保存するのをどうしても忘れるので，これを有効にしておくと吉。ただし [git-plus](https://atom.io/packages/git-plus) で，自動保存により勝手に commit が走るので注意。
 1. Core パッケージ [tabs](https://atom.io/packages/tabs) の設定で “Enable VCS Coloring” を有効にするとタブに表示されているファイル名が色分けされて表示される。
 1. Core パッケージ [git-diff](https://atom.io/packages/git-diff) の設定で “Show Icons In Editor Gutter” を有効にすると差分情報がちょっとだけ見やすくなる。
 1. インデントをそろえるために [highlight-column](https://atom.io/packages/highlight-column) を紹介しているページを見かけたけど，インデントをそろえる目的なら，標準の Settings で “Show Indent Guide” にチェックを入れておく方が吉。
