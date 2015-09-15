@@ -1,32 +1,10 @@
-+++
-date = "2015-09-11T17:58:42+09:00"
-description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
-draft = false
-tags = ["golang", "bookmark"]
-title = "Go 言語に関するブックマーク"
-update = "2015-09-12T10:20:00+09:00"
+# Go 言語に関するブックマーク
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
-+++
+今ちょっと本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，そろそろ吐き出しておく。またメモ用に今後もメンテしておくので，ご利用はご自由に。
 
-（初出： [Go 言語に関するブックマーク - Qiita](http://qiita.com/spiegel-im-spiegel/items/98d49ac456485b007a15)）
+## 公式サイト
 
-本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。
-
-## 公式サイト{#official}
-
-- [The Go Programming Language](https://golang.org/) : 2015年9月8日時点での最新は 1.5.1
+- [The Go Programming Language](https://golang.org/) : 2005年8月19日時点での最新は 1.5
     - [git repositories (Google)](https://go.googlesource.com/)
     - [git repositories (GitHub)](https://github.com/golang) : mirror
 - [golang-jp - The Go Programming Language](http://golang-jp.org/) : 本家の日本語訳サイト。（[golang.jp](http://golang.jp/) は参考にしない方がいい，らしい）
@@ -38,7 +16,7 @@ Go 1.5 Released.
     - [Go 1.4 "Internal" Packages](https://docs.google.com/document/d/1e8kOo3r51b2BWtTs_1uADIA5djfXhPT36s6eHVRIvaU/edit) : Internal Packages は 1.5 で GOPATH まで拡張された
     - [Go 1.5 Vendor Experiment](https://docs.google.com/document/d/1Bz5-UB7g2uPBdOx-rw5t9MxJwkfpx90cqG9AFL0JAYo/edit)
 
-## 言語仕様に関すること{#spec}
+## 言語仕様に関すること
 
 - [Golangの基本文法をおさえてみる - Qiita](http://qiita.com/kazusa-qooq/items/40f9ea3e72406d845b10)
 - [Golang の 数値型 - Qiita](http://qiita.com/tanaka0325/items/9c61a022cd32be0c65a6)
@@ -48,7 +26,7 @@ Go 1.5 Released.
 - [Big Sky :: Go言語でインタフェースの変更がそれ程問題にならない理由](http://mattn.kaoriya.net/software/lang/go/20130919023425.htm)
 - [import 書き方まとめ - Qiita](http://qiita.com/taji-taji/items/5a4f17bcf5b819954cc1)
 
-### 文字列操作または変換{#string}
+### 文字列操作または変換
 
 [string](http://golang.org/ref/spec#String_types), [rune](http://blog.golang.org/strings)
 
@@ -65,7 +43,7 @@ Go 1.5 Released.
 
 文字列型と他の型との相互変換を覚えておけば，案外どうにかなるものである。（文字列操作が処理のメインならスクリプト言語のほうが有利だけどね）
 
-### 配列{#slice}
+### 配列
 
 [slice](http://golang.org/ref/spec#Slice_types), [map](http://golang.org/ref/spec#Map_types), [make](http://golang.org/ref/spec#Making_slices_maps_and_channels)
 
@@ -73,14 +51,13 @@ Go 1.5 Released.
 
 [slice](http://golang.org/ref/spec#Slice_types), [map](http://golang.org/ref/spec#Map_types), および後述の [channel](http://golang.org/ref/spec#Channel_types) は組み込みの型だが内部構造と状態を持つため， [new](http://golang.org/ref/spec#Allocation) ではなく [make](http://golang.org/ref/spec#Making_slices_maps_and_channels) を使う。
 
-### 並行処理と並列処理{#goroutine}
+### 並行処理と並列処理
 
 [goroutine](http://golang.org/ref/spec#Go_statements), [channel](http://golang.org/ref/spec#Channel_types)
 
 - [Go の並行処理 - Block Rockin’ Codes](http://jxck.hatenablog.com/entry/20130414/1365960707)
 - [Go: 計算なしのFizzBuzz - Qiita](http://qiita.com/suin/items/eca21ed935115e5da2e8) : channel の説明するのにいいかも
 - [Goのchannelの送受信用の型について - Qiita](http://qiita.com/yuki2006/items/3f90e53ce74c6cff1608)
-- [Go言語のChannelは送信時にもブロックする - Qiita](http://qiita.com/hondata/items/64776c79063e93bea9ed) : 意外と見落とす channel 送信時のブロック
 - [golang - x/net/context の実装パターン - Qiita](http://qiita.com/tutuming/items/c0ffdd28001ee0e9320d) : [golang.org/x/net/context](https://godoc.org/golang.org/x/net/context) を使って並行処理を細かく制御。 Domain-Driven あるいは Context-Driven な設計でも使えそう。
 
 Go 言語で複数 CPU を使った並列処理を行うには明示的な設定が必要。
@@ -88,11 +65,11 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go言語でCPU数に応じて並列処理数を制限する | SOTA](http://deeeet.com/writing/2014/07/30/golang-parallel-by-cpu/)
     - [やはり俺のgolangがCPUを一つしか使わないのはまちがっている。 - Qiita](http://qiita.com/ymko/items/554e3630fefdc29393a8)
 
-#### プロセス間同期{#proc}
+#### プロセス間同期
 
 - [Go言語でプロセス間同期処理 - Qiita](http://qiita.com/shanxia1218/items/7fb15f50ec645f114bc7) : Windows の Mutex を使ってプロセス間通信を行う
 
-## パッケージやサンプルコード{#sample-code}
+## パッケージやサンプルコード
 
 - [Go用のGoogle製のGUIツールキットgxuiのインストール(Windows版) - Qiita](http://qiita.com/sago35/items/cc9ed3dc38d0b2f19bf9)
 - [goでLチカの練習　その２ - Qiita](http://qiita.com/ohisama@github/items/bfc1eb6407cbdfebbd18)
@@ -115,10 +92,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Goのバッチで統計を取得するAPIを用意しておくと便利 - Qiita](http://qiita.com/sudix/items/c542e1b59bc94dc741e3)
 - [Mithril＋golang Gin を試す - Qiita](http://qiita.com/masatsugumatsus/items/e28254ff52963705ce7f)
 - [大学入試問題をGoで解いてみる - Qiita](http://qiita.com/qube81/items/c47b9e3ea8d028e95588) : [math/big](https://golang.org/pkg/math/big/) パッケージを使って大きな数を計算する。
-- [GoでGoogleCalendarAPIv3を叩く（APIキー） - Qiita](http://qiita.com/yodatomato/items/8013f728bbf4358e9425)
-- [golang - cmd.Envを設定してexecしたらコケた - Qiita](http://qiita.com/8845musign/items/5c4b32f82c2df08acd93) : [`exec`](https://golang.org/pkg/os/exec/) パッケージを使う際には環境変数に注意
 
-### コマンドライン・ツール{#cli}
+### コマンドライン・ツール
 
 - [Go言語によるCLIツール開発とUNIX哲学について - ゆううきブログ](http://yuuki.hatenablog.com/entry/go-cli-unix)
 - [開発者から見た UNIX 哲学とコマンドラインツールと Go言語 - TELLME.TOKYO](http://tellme.tokyo/post/2015/06/23/unix_cli_tool_go/) （[Qiita 版](http://qiita.com/b4b4r07/items/df660d82e2de715acda5)）
@@ -132,7 +107,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [C言語とGo言語で標準出力が端末を参照しているかどうかを判定する - uragami note](http://ryochack.hatenablog.com/entry/2013/07/15/232207)
 - [Go言語のCLIツールのpanicをラップしてクラッシュレポートをつくる | SOTA](http://deeeet.com/writing/2015/04/17/panicwrap/)
 
-### 入出力処理{#io}
+### 入出力処理
 
 [io](http://golang.org/pkg/io/), [bufio](http://golang.org/pkg/bufio/)
 
@@ -142,7 +117,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [bufio.Scannerのend-of-line判断を変更してみる - Qiita](http://qiita.com/curious-eyes/items/2d4b6c20ea47e3efc47b)
 - [KOBE GDG: Go言語　バイナリファイルを扱う](http://kobegdg.blogspot.jp/2013/05/go.html) : 任意のオブジェクトをバイト列に変換してファイルに格納
 
-### cgo{#cgo}
+### cgo
 
 [cgo]
 
@@ -151,14 +126,14 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 
 [cgo]: https://golang.org/cmd/cgo/ "cgo - The Go Programming Language"
 
-### Logging{#logging}
+### Logging
 
 - [Golang logging library - Qiita](http://qiita.com/kosuda/items/988c505c2abc5321aba8)
 - [go言語におけるロギングについて](http://blog.satotaichi.info/logging-frameworks-for-go/)
 - [Golangで簡単にログを吐くことを考える - Qiita](http://qiita.com/Ets/items/49e8f781990a3b0b3821) : [seelog](https://github.com/cihub/seelog) について解説している。私は XML には全くアレルギーがないので無問題
 - [Go言語でdebugログの実現方法 - Qiita](http://qiita.com/sbjib/items/2cef51e572eef0795bc2)
 
-### Web Microframework for Golang{#framework}
+### Web Microframework for Golang
 
 - [Goji](https://goji.io/)
 - [Big Sky :: golang で最近お気に入りの WAF「Goji」](http://mattn.kaoriya.net/software/lang/go/20141021134209.htm)
@@ -175,14 +150,14 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [golangでhttpを監視するscriptを書いて結果をslackにpostする - Qiita](http://qiita.com/kenjiszk/items/7ae842415ec392822612)
 - [Go言語(Go-Json-Rest)のCORSでのハマり。Safariだけでハマった話。 - Qiita](http://qiita.com/n0bisuke/items/65c4a473a1fdbbf931f0)
 
-## ビルド時に情報を各種埋め込みたい{#embed}
+## ビルド時に情報を各種埋め込みたい
 
 - [Go言語: ビルド時にバージョン情報を埋め込みたい - Qiita](http://qiita.com/suin/items/d643a0ccb6270e8e3734)
 - [Golangビルド時に、サブパッケージ内の変数をいじる - None is None is None](http://doloopwhile.hatenablog.com/entry/2014/09/08/211626)
 - [go-bindata でコンパイル時にリソースを埋め込んじゃおう！ - Qiita](http://qiita.com/ikawaha/items/c02d84cfd00f8f442500)
 - [golang - Goでビルドバージョン情報を参照できるようにする(Go1.5) - Qiita](http://qiita.com/reiki4040/items/6b32370532c3eafe1f0e)
 
-## Go 言語のテスト・フレームワーク{#testing}
+## Go 言語のテスト・フレームワーク
 
 - [Go の Test に対する考え方 - Qiita](http://qiita.com/Jxck_/items/8717a5982547cfa54ebc)
 - [Goでテストを書く - 成らぬは人の為さぬなりけり](http://straitwalk.hatenablog.com/entry/2014/09/18/232810)
@@ -192,7 +167,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go でベンチマーク - Block Rockin’ Codes](http://jxck.hatenablog.com/entry/20131123/1385189088)
 - [go言語でベンチマーク - Qiita](http://qiita.com/Mulyu/items/ed585f2777496f29a725)
 
-### Continuous Integration{#ci}
+### Continuous Integration
 
 - [Go + Travis CI + Coveralls でCI環境を作る - Qiita](http://qiita.com/dmnlk/items/3fb4e0abb98e39fee275)
 - [GithubにあるリポジトリをTravis CI連携する手順 #junitbook - くりにっき](http://sue445.hatenablog.com/entry/2013/06/01/170607)
@@ -200,7 +175,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [golangでTravis CIを使ってクロスコンパイルするときにハマったところ #golang #travisci - uchimanajet7のメモ](http://uchimanajet7.hatenablog.com/entry/2015/03/20/211352)
 - [Go言語のビルド生活を drone.ioで幸せに暮らす #golang - Qiita](http://qiita.com/atotto/items/b796c31c1755dbec13db)
 
-## Go 言語のドキュメント・フレームワーク{#godoc}
+## Go 言語のドキュメント・フレームワーク
 
 [godoc]
 
@@ -213,13 +188,13 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 
 [godoc]: http://godoc.org/golang.org/x/tools/cmd/godoc "godoc - GoDoc"
 
-## Refactoring{#refactoring}
+## Refactoring
 
 リファクタリングには gofmt よりも gorename が使えるという話。
 
 - [Big Sky :: golang のリファクタリングには gofmt ではなく、gorename を使おう。](http://mattn.kaoriya.net/software/lang/go/20150113141338.htm)
 
-## 開発環境など{#environment}
+## 開発環境など
 
 ### Integrated Development Environment
 
@@ -228,20 +203,20 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
     - [第1回　Android Studio，そしてベースとなる「IntelliJ IDEA」とは何か？：Android Studio最速入門～効率的にコーディングするための使い方｜gihyo.jp … 技術評論社](http://gihyo.jp/dev/serial/01/android_studio/0001) : IntelliJ IDEA についての解説
 - [Go入門@環境構築編(IntelliJ IDEA 14.1.4) - Qiita](http://qiita.com/makoto2468/items/3ced77de947ea997e72f)
 
-### デバッガ{#debug}
+### デバッガ
 
 - [golang でビルド時に最適化をオフにする - tetsuok の旅 blog](http://tetsuok.hatenablog.com/entry/2012/07/01/062325) : gdb でデバッグする際は最適化を off にするといいという話
 
-### ATOM で Go{#atom}
+### ATOM で Go
 
 - [AtomでGoを書く環境を整える（Windows） - Technically, technophobic.](http://notchained.hatenablog.com/entry/2014/09/20/104829)
 
-### Visual Studio Code で Go{#vscode}
+### Visual Studio Code で Go
 
 - [VisualStudioCode - Visual Studio CodeでGo言語の設定 - Qiita](http://qiita.com/evalphobia/items/f68396d573c7caf2065b)
 - [VSCode+Golang](https://gist.github.com/llaughlin/16305f0b91356e93a1c4) : task.json の設定
 
-### Build Tool for Golang{#gb}
+### Build Tool for Golang
 
 [constabulary/gb](https://github.com/constabulary/gb) を使ってプロジェクトベースの環境構築
 
@@ -249,7 +224,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Building Go projects with gb - Supermighty](https://walledcity.com/supermighty/building-go-projects-with-gb)
 - [Go言語のDependency/Vendoringの問題と今後．gbあるいはGo1.5 | SOTA](http://deeeet.com/writing/2015/06/26/golang-dependency-vendoring/)
 
-### クロス環境{#cross}
+### クロス環境
 
 - [Goはクロスコンパイルが簡単 - unknownplace.org](http://unknownplace.org/archives/golang-cross-compiling.html)
 - [Go のクロスコンパイル環境構築 - Qiita](http://qiita.com/Jxck_/items/02185f51162e92759ebe)
@@ -260,7 +235,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [MacOS X でGo言語のクロスコンパイルを試したらハマった - Qiita](http://qiita.com/ttsuzo/items/64e29dd7caa635ac7863) : [gox](https://github.com/mitchellh/gox) を使う方法
 - [Goで64bitと32bitの実行ファイルを同一Windows機で作成するために講じたこと - Qiita](http://qiita.com/zetamatta/items/e44961a8bcbb2578cfe7)
 
-## その他 四方山話{#remark}
+## その他 四方山話
 
 - [動的言語だけやってた僕が、38日間Go言語を書いて学んだこと - Qiita](http://qiita.com/suin/items/22662f43b6a6e8728798)
 - [golang - Go言語で幸せになれる10のテクニック - Qiita](http://qiita.com/ksato9700/items/6228d4eb6d5b282f82f6)
@@ -281,10 +256,33 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Sensuでネットワーク監視やってみた - Qiita](http://qiita.com/hiconyan/items/7656e9fb2d5bf5c794be)
 - [i18n4go - developerWorks Open](https://developer.ibm.com/open/i18n4go/) : IBM の [developerWorks Open](https://developer.ibm.com/open/) プロジェクトのひとつ。「[プログラムを国際化するための汎用ツール](http://www.atmarkit.co.jp/ait/articles/1507/23/news058.html)」らしい。
 
-### Go 1.5 に関する話題{#go15}
+### Go 1.5 に関する話題
 
 - [GVM で go1.5rc1 のインストール - Qiita](http://qiita.com/msaito3/items/3aef86e9864990b16b4c)
 - [goを1.5にアップデートして1.4とベンチを取る - Qiita](http://qiita.com/masahikoofjoyto/items/4ced298989e6ab346f15)
 - [Go 1.3 から 1.5 へのアップデートでエラー - Qiita](http://qiita.com/taji-taji/items/4c43e126e67d65a219e3) : 古いバージョンからアップデートする際は，いったん 1.4 に上げてから 1.5 にアップデートするとよい
 - [Big Sky :: golang 1.5 の internal パッケージの使い方。](http://mattn.kaoriya.net/software/lang/go/20150820102400.htm)
     - [「golang 1.5 の internal パッケージの使い方。」を試してみた - Qiita](http://qiita.com/qt-luigi/items/d0f52b3b0906b35e6027)
+
+### はじめての Go 言語 (on Windows)
+
+[Qiita](http://qiita.com/) で書いてる拙文の目次。
+
+1. [はじめての Go 言語 (on Windows)](http://qiita.com/spiegel-im-spiegel/items/dca0df389df1470bdbfa) : インストールと動作確認（“Hello World” まで）
+1. [はじめての Go 言語 (on Windows) その2](http://qiita.com/spiegel-im-spiegel/items/047a9bd6436e6391ddd4) : 素数探索アルゴリズムで遊ぶ（slice, make, goroutine, channel）
+1. [はじめての Go 言語 (on Windows) その3](http://qiita.com/spiegel-im-spiegel/items/a52a47942fd3946bb583) : get コマンドを使う
+1. [はじめての Go 言語 (on Windows) その4](http://qiita.com/spiegel-im-spiegel/items/556166b6631c0369754f) : string と rune
+1. [はじめての Go 言語 (on Windows) その5](http://qiita.com/spiegel-im-spiegel/items/e743d63ef5165d750eff) : 暦で遊ぶ（math, time）
+1. [はじめての Go 言語 (on Windows) その6](http://qiita.com/spiegel-im-spiegel/items/404871d2bafd22bdbb90) : パッケージ化について
+1. [はじめての Go 言語 (on Windows) その7](http://qiita.com/spiegel-im-spiegel/items/64224f22ef17d916dc2d) : テストを書く
+1. [はじめての Go 言語 (on Windows) その8](http://qiita.com/spiegel-im-spiegel/items/5f9e96f226f46089388f) : パッケージ化したのならドキュメントを書きましょう
+1. [はじめての Go 言語 (on Windows) その9](http://qiita.com/spiegel-im-spiegel/items/ef15a48542e043b32c99) : プロジェクト・ベースのビルド・ツールを使ってみる
+1. [はじめての Go 言語 (on Windows) その10](http://qiita.com/spiegel-im-spiegel/items/5d2878596360af8dd753) : 最終回。コマンドライン・ツールを作ってみる。エラーハンドリングについてもちょっとだけ
+
+ちなみに「はじめての...」以降の Go 言語に関する拙文は以下の通り。
+
+- [tcnksm/gcli を使った golang によるコマンドライン・ツール開発について](http://qiita.com/spiegel-im-spiegel/items/69d1166225d88b1faf66)
+- [そろそろ真面目に Golang 開発環境について考える — GOPATH 汚染問題](http://qiita.com/spiegel-im-spiegel/items/73ebc684b5807277b7e2)
+- [Golang による文字エンコーディング変換](http://qiita.com/spiegel-im-spiegel/items/2e475b48226330aa5570)
+- [Golang の文字列連結はどちらが速い？](http://qiita.com/spiegel-im-spiegel/items/16ab7dabbd0749281227)
+- [そろそろ真面目に Golang 開発環境について考える — Internal Packages と Vendoring](http://qiita.com/spiegel-im-spiegel/items/baa3671c7e1b8a6594a9)
