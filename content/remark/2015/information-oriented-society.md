@@ -1,8 +1,8 @@
 +++
-date = "2015-09-15T09:37:19+09:00"
+date = "2015-09-15T21:42:00+09:00"
 description = "description"
-draft = true
-tags = ["code", "internet"]
+draft = false
+tags = ["code", "politics", "internet"]
 title = "『「情報社会」が「社会」になった時代』"
 
 [author]
@@ -19,6 +19,8 @@ title = "『「情報社会」が「社会」になった時代』"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
+[2015年社会情報学会学会大会](http://2015ssi.mond.jp/?page_id=251)のワークショップ「『情報社会論』の変遷と再編――統治の再設計に向けて」の資料だそうな。
+
 <figure style='margin:0 auto;text-align:center;'>
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/9tAnQD5Ht9IBmp" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe>
 <figcaption><q><a href="http://www.slideshare.net/NishidaRyosuke/20150912">20150912日本の情報社会論とその欲望</a></q> （by <a href="//www.slideshare.net/NishidaRyosuke" target="_blank">西田亮介</a>）</figcaption>
@@ -34,9 +36,9 @@ title = "『「情報社会」が「社会」になった時代』"
 
 しかし現状のインターネットはこのようには機能していないし，このような機能こそを（セキュリティの名のもとに）回避しようとする動きがある。
 さらに言えば「クラウド化」と「IoT（Internet of Things）」によって，私たちは（利便性と引き換えに）私たちのプライバシーを人質に取られている。
-インターネットはとっくに「テレビ」と化しているし，ある意味で「テレビ」より悪質である。
+インターネットはとっくに「テレビ」と化しているし，ある意味で「テレビ」より悪質である（だからといって今更自宅にテレビを置く気はないが）。
 
-確かに新しい技術の存在は社会の仕組みを変える可能性があるし，現に近代（前期近代）から大きく変容した現代（後期近代）においてインターネットをはじめとする科学技術は無視できない存在である。
+確かに新しい技術の存在は社会の仕組みを変える可能性があるし，現に近代（前期近代）から大きく変容した現代（後期近代 late modernity）においてインターネットをはじめとする科学技術は無視できない存在である。
 しかしそれは本当に「インターネットをはじめとする科学技術」によってもたらされたものだろうか。
 私たちは私たちがこれまでやってきたことをモノに転嫁しているだけではないのか。
 技術が社会を変えるのなら社会に必要なのはヒトではなくモノである，と言えないか。

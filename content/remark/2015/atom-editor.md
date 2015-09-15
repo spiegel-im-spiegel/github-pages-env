@@ -1,8 +1,8 @@
 +++
-date = "2015-09-15T09:37:19+09:00"
+date = "2015-09-15T21:00:13+09:00"
 description = "ATOM Editor に関するメモ。 Windows 環境が前提になっているのであしからず。"
-draft = true
-tags = ["atom", "editor"]
+draft = false
+tags = ["atom", "editor", "tools"]
 title = "ATOM Editor に関するメモ"
 
 [author]
@@ -44,7 +44,7 @@ apm  1.0.4
 npm  2.13.3
 node 0.10.40
 python
-git 1.9.5.msysgit.0
+git 2.5.2.windows.2
 visual studio
 ```
 
@@ -96,18 +96,18 @@ Star を付けたテーマ・パッケージは `apm stars` コマンドで見�
 ```
 C:>apm stars
 Packages starred by you (12)
-├── atom-monokai Atom syntax theme inspired by monokai. Works with Atom Dark, Light and Seti UI. (15492 downloads, 20 stars)
-├── autoclose-html Automates closing of HTML Tags (57086 downloads, 184 stars)
-├── editorconfig Helps developers maintain consistent coding styles between different editors (29681 downloads, 301 stars)
-├── file-icons Assign file extension icons and colours for improved visual grepping (172513 downloads, 1058 stars)
-├── git-plus Do git things without the terminal (160434 downloads, 574 stars)
-├── highlight-line Highlights the current line in the editor (40060 downloads, 294 stars)
-├── japan-util utilities for Japanese (213 downloads, 5 stars)
-├── japanese-wrap Word wrap for Japanese text (37025 downloads, 234 stars)
-├── open-recent Open recent files in the current window, and recent folders (optionally) in a new window. (5777 downloads, 78 stars)
-├── quick-highlight Highlight text quickly. (189 downloads, 4 stars)
-├── show-ideographic-space Show ideographic space (known as 全角スペース) (2035 downloads, 33 stars)
-└── symbols-tree-view A symbols view like taglist (12046 downloads, 118 stars)
+├── atom-monokai Monokai syntax theme for Atom Dark & Light UI, One Dark & Light, and Seti UI (23084 downloads, 34 stars)
+├── autoclose-html Automates closing of HTML Tags (76164 downloads, 266 stars)
+├── editorconfig Helps developers maintain consistent coding styles between different editors (50538 downloads, 413 stars)
+├── file-icons Assign file extension icons and colours for improved visual grepping (282022 downloads, 1429 stars)
+├── git-plus Do git things without the terminal (253091 downloads, 794 stars)
+├── highlight-line Highlights the current line in the editor (51313 downloads, 385 stars)
+├── japan-util utilities for Japanese (738 downloads, 9 stars)
+├── japanese-wrap Word wrap for Japanese text (51256 downloads, 302 stars)
+├── open-recent Open recent files in the current window, and recent folders (optionally) in a new window. (10325 downloads, 128 stars)
+├── quick-highlight Highlight text quickly. (826 downloads, 11 stars)
+├── show-ideographic-space Show ideographic space (known as 全角スペース) (3691 downloads, 49 stars)
+└── symbols-tree-view A symbols view like taglist (16995 downloads, 161 stars)
 
 Use `apm stars --install` to install them all or visit http://atom.io/packages to read more about them.
 ```
