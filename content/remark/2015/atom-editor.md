@@ -272,7 +272,7 @@ atom.workspace.onDidOpen ->
     editor.setEncoding(encoding)
 ```
 
-「[ATOM でファイルを開いたら自動文字コード判定を行う](http://qiita.com/tokudiro/items/bc232c7d36261dc45936)」によると，これは [encoding-selector](https://atom.io/packages/encoding-selector) からの流用らしい。ただし現在， [encoding-selector](https://atom.io/packages/encoding-selector) は Core Package に入ってるので atom フォルダをひっくり返してもソースコードは見当たらない。ので，GitHub にある [atom/encoding-selector](https://github.com/atom/encoding-selector) にある [lib/encoding-list-view.coffee](https://github.com/atom/encoding-selector/blob/master/lib/encoding-list-view.coffee) を参考にするといいだろう。 `detectEncoding:` のあたりである。
+「[ATOM でファイルを開いたら自動文字コード判定を行う](http://qiita.com/tokudiro/items/bc232c7d36261dc45936)」によると，これは [encoding-selector](https://atom.io/packages/encoding-selector) からの流用らしい。ただし現在， [encoding-selector](https://atom.io/packages/encoding-selector) は Core Package に入ってるので atom フォルダをひっくり返してもソースコードは見当たらない。ので，GitHub repository [atom/encoding-selector](https://github.com/atom/encoding-selector) にある [lib/encoding-list-view.coffee](https://github.com/atom/encoding-selector/blob/master/lib/encoding-list-view.coffee) を参考にするといいだろう。 `detectEncoding:` のあたりである。
 
 これで [ATOM] を起動して既定の文字エンコーディングでない適当なファイルを読み込ませてみれば確認できる。ただし，自動判別は万能じゃない（たまに間違う）ので，その辺は悪しからずってことで。
 

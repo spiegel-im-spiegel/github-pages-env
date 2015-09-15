@@ -1,9 +1,9 @@
 +++
 title       = "ゼロから始める Hugo — インストールから Hello World まで"
-description = "ブログ機能を Hugo に変更するにあたり，いろいろ試しながら作業している。ここではその時のメモを公開する。"
+description = "自サイトのブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。ここではその時のメモを公開する。。"
 date        = "2015-09-08T00:00:00"
-tags        = [ "hugo", "install" ]
-slug        = "hugo-install"
+tags        = [ "hugo", "helloworld" ]
+slug        = "hugo-hello"
 
 [author]
 name        = "Spiegel"
@@ -388,7 +388,7 @@ Press Ctrl+C to stop
 
 ## 記事を書く
 
-さて，いよいよ記事を書いてみる。 Hugo では今どきの流行にのっとって Markdown 形式のファイルを入力ファイルにしている。自前でファイルを用意してもよいが，新規に作成するなら `hugo new` コマンドで作成するのがよいだろう。
+さて，いよいよ記事を書いてみる。 [Hugo] では今どきの流行にのっとって Markdown 形式のファイルを入力ファイルにしている。自前でファイルを用意してもよいが，新規に作成するなら `hugo new` コマンドで作成するのがよいだろう。
 
 ```shell
 C:\hugo-env\www>hugo new hello.md
@@ -461,7 +461,7 @@ C:\HUGO-ENV\WWW
 └─static
 ```
 
-[Hugo] の標準では `hello.md` は `hello/index.html` に展開される。これを deploy すると Web ブラウザからは `http://http://hello.example.com/hello/` でアクセスできることになる。この path の展開のさせ方はいろいろ設定できるようなのだが，今回は割愛する。
+[Hugo] の標準では `hello.md` は `hello/index.html` に展開される。これを deploy すると Web ブラウザからは `http://hello.example.com/hello/` でアクセスできることになる。この path の展開のさせ方はいろいろ設定できるようなのだが，今回は割愛する。
 
 現時点では `hello/index.html` は空。まぁテンプレートがないから当たり前なのだが。記事用のテンプレートは `layouts` フォルダ以下に `_default` フォルダを作成し，さらにその下に `single.html` を配置する。
 
