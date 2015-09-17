@@ -1,8 +1,8 @@
 +++
-date = "2015-09-16T10:48:40+09:00"
+date = "2015-09-17T21:23:42+09:00"
 description = "これまた，みんな大好き素数探索アルゴリズム"
-draft = true
-tags = ["golang", "algorithm", "math", "prime-number", "slice", "make", "goroutine", "channel"]
+draft = false
+tags = ["golang", "algorithm", "math", "prime-number", "slice", "goroutine", "channel", "message-passing"]
 title = "素数探索アルゴリズムで遊ぶ"
 
 [author]
@@ -44,6 +44,10 @@ title = "素数探索アルゴリズムで遊ぶ"
 ちなみに結城浩さんの『数学ガール／ゲーデルの不完全性定理』にペアノの公理について分かりやすく解説した章がある。
 お勧め。
 
+<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1D6/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/415MuioBMJL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1D6/baldandersinf-22/">数学ガール／ゲーデルの不完全性定理</a></dt><dd>結城 浩 </dd><dd>SBクリエイティブ株式会社 2014-02-14</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1FO/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8AT1FO.09._SCTHUMBZZZ_.jpg"  alt="数学ガール／乱択アルゴリズム"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1CM/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8AT1CM.09._SCTHUMBZZZ_.jpg"  alt="数学ガール／フェルマーの最終定理"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00L0PDMK4/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00L0PDMK4.09._SCTHUMBZZZ_.jpg"  alt="数学ガール／ガロア理論"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00W6NCLL0/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00W6NCLL0.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート/数列の広場"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00W6NCLJM/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00W6NCLJM.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート/丸い三角関数"  /></a> </p>
+<p class="description">結城浩さんの本はよく整備された遊歩道を散歩するような気楽さと安心感がある。だから「フェルマーの最終定理」とか「ゲーデルの不完全性定理」とかいった難解そうなテーマでも，迷うことなく，しかも一歩ずつ歩みを進めてゴールまで辿り着けるのかもしれない。</p>
+<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-09-16">2015-09-16</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+</div>
 
 ## 素数探索アルゴリズム（その1）{#alg1}
 
@@ -163,13 +167,13 @@ primes[0] = 2                  // 2 は素数
 primes_f[0] = 2.0              // 2 は素数（浮動小数点）
 ```
 
-の変数 `primes` および `primes_f` は slice と呼ばれる可変長の配列型である。
-更に組み込み関数 `make()` は slice, map, channel のみ使用可能なメモリ割り当て関数である。
-ちなみに slice, map, channel 以外は `new()` を使う。
-slice, map, channel のみ特別なのは，これらの型は初期値と内部状態を持つためである。
+の変数 `primes` および `primes_f` は [slice] と呼ばれる可変長の配列型である。
+更に組み込み関数 `make()` は [slice], [map], [channel] のみ使用可能なメモリ割り当て関数である。
+ちなみに [slice], [map], [channel] 以外は `new()` を使う。
+[slice], [map], [channel] のみ特別なのは，これらの型は初期値と内部状態を持つためである。
 
-slice に要素を追加する場合は `append()` 関数を使えばいいのだが，これが結構クセがある。
-`append()` 関数では slice の容量（capacity）がいっぱいになると新たにメモリを確保してオリジナルの内容をコピーする。
+[slice] に要素を追加する場合は `append()` 関数を使えばいいのだが，これが結構クセがある。
+`append()` 関数では [slice] の容量（capacity）がいっぱいになると新たにメモリを確保してオリジナルの内容をコピーする。
 つまりポインタが変わってしまうのだ。（メモリの割り当て方のパターンにも注目）
 
 ```go
@@ -270,7 +274,7 @@ Slice(17) : 0xc082050000 : [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17] (32)
 ```
 
 となる。
-メモリ割り当ては意外に高コストの操作なので， slice を扱う場合はこの辺がチューニング・ポイントになるだろう。
+メモリ割り当ては意外に高コストの操作なので， [slice] を扱う場合はこの辺がチューニング・ポイントになるだろう。
 
 ## 100万個目の素数
 
@@ -380,7 +384,7 @@ func LastPrimeE(max int64) int64 {
 
 今後のためにコマンドライン解析の部分と実際の素数探索アルゴリズムを分けている。
 まず検算。
-25個目の素数が97なら OK。
+25個目の素数が 97 なら OK。
 
 ```
 C:>go run prime03.go -alg=0 25
@@ -435,8 +439,13 @@ C:>go run prime03.go --alg=1 10000000
 
 これまでのアルゴリズムは基本的に2重のループで値を順番に付き合わせているだけだったが，この部分を並行処理で行えば速いんじゃね？ と思うよね。
 
-[Go 言語]で並行処理を行うには goroutine（「ゴルーチン」と読むらしい）を使う。
-また goroutine の worker 間ではメモリ共有ができないため， channel を使い message-passing 方式で通信を行う（message-passing 方式は Erlang などで一躍有名になったやつ。ただし Erlang ではプロセス間通信の手段として Actor を使う。 goroutine は「並行処理」であり「並列処理」ではない。また，いわゆる thread とも異なる）。
+[Go 言語]で並行処理を行うには [goroutine]（「ゴルーチン」と読むらしい）を使う。
+また [goroutine] の worker 間ではメモリ共有ができないため， [channel] を使い message-passing 方式で通信を行う。
+
+（message-passing 方式は Erlang などで一躍有名になったやつ。
+ただし Erlang ではプロセス間通信の手段として Actor を使う。
+[goroutine] は「並行処理」であり「並列処理」ではない。また，いわゆる thread とも異なる。
+[Go 言語]で並列処理を行うなら「[Go言語でCPU数に応じて並列処理数を制限する](http://deeeet.com/writing/2014/07/30/golang-parallel-by-cpu/)」あたりが参考になる）
 
 で，実際に [チュートリアルには並行処理を使った素数探索アルゴリズムが紹介](http://golang.jp/go_tutorial#index12)されている（ただし現在の[公式ドキュメント](https://golang.org/doc/)には存在しない）。
 いくつかサイトを巡ったが，このやり方がもっとも素直なようだ（後述するが速いわけではない）。
@@ -622,10 +631,10 @@ C:>go run prime05.go -alg=2 1000000
 ようやく有意の時間で探索できた。
 それでも「[その2]({{< ref "#alg2" >}})」の10倍以上かかるけど。
 
-channel への送信データが有限個の場合は最後に `close(ch)` でクローズする。
-一方 channel からの受信側は for range 構文を使うことで安全に扱うことができる。
-ただし上述の `sieve()` 関数では 変数 `ch` が新しい素数フィルタの出力に上書きされていくので for range 構文は使えない。
-その代わり以下の記述で channel を安全に扱うことができる。
+[channel] への送信データが有限個の場合は最後に `close(ch)` でクローズする。
+一方 [channel] からの受信側は [for range 構文](http://golang.org/ref/spec#For_statements)を使うことで安全に扱うことができる。
+ただし上述の `sieve()` 関数では 変数 `ch` が新しい素数フィルタの出力に上書きされていくので [for range 構文](http://golang.org/ref/spec#For_statements)は使えない。
+その代わり以下の記述で [channel] を安全に扱うことができる。
 
 ```go
 prime, ok := <-ch
@@ -638,7 +647,22 @@ if !ok {
 
 ## ブックマーク
 
+- [Go の並行処理 - Block Rockin’ Codes](http://jxck.hatenablog.com/entry/20130414/1365960707)
+- [(翻訳)Goでのパイプラインとキャンセル - Qiita](http://qiita.com/sudix/items/f95ef0e5bbd0cd3d4378)
+- [Go: 計算なしのFizzBuzz - Qiita](http://qiita.com/suin/items/eca21ed935115e5da2e8) : [channel] の説明するのにいいかも
+- [Goのchannelの送受信用の型について - Qiita](http://qiita.com/yuki2006/items/3f90e53ce74c6cff1608)
+- [Go言語のChannelは送信時にもブロックする - Qiita](http://qiita.com/hondata/items/64776c79063e93bea9ed) : 意外と見落とす channel 送信時のブロック
+- [Go - select loop の小ネタ - Qiita](http://qiita.com/Jxck_/items/da3ca2db58734a966cac)
+- [Goのforとgoroutineでやりがちなミスとたった一つの冴えたgo vetと - Qiita](http://qiita.com/sudix/items/67d4cad08fe88dcb9a6d)
+- [golang - x/net/context の実装パターン - Qiita](http://qiita.com/tutuming/items/c0ffdd28001ee0e9320d) : [golang.org/x/net/context](https://godoc.org/golang.org/x/net/context) を使って並行処理を細かく制御
+- [Go言語でCPU数に応じて並列処理数を制限する | SOTA](http://deeeet.com/writing/2014/07/30/golang-parallel-by-cpu/)
+- [やはり俺のgolangがCPUを一つしか使わないのはまちがっている。 - Qiita](http://qiita.com/ymko/items/554e3630fefdc29393a8)
+
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [エラトステネスの篩]: https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%A9%E3%83%88%E3%82%B9%E3%83%86%E3%83%8D%E3%82%B9%E3%81%AE%E7%AF%A9 "エラトステネスの篩 - Wikipedia"
+[slice]: http://golang.org/ref/spec#Slice_types
+[map]: http://golang.org/ref/spec#Map_types
+[channel]: http://golang.org/ref/spec#Channel_types
+[goroutine]: http://golang.org/ref/spec#Go_statements
