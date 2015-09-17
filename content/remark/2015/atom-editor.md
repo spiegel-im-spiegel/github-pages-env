@@ -1,5 +1,6 @@
 +++
 date = "2015-09-15T21:00:13+09:00"
+update = "2015-09-17T11:34:00+09:00"
 description = "ATOM Editor に関するメモ。 Windows 環境が前提になっているのであしからず。"
 draft = false
 tags = ["atom", "editor", "tools"]
@@ -134,6 +135,8 @@ Installing symbols-tree-view to C:\Users\username\.atom\packages done
 
 （[ATOM] の star が [GitHub] の star のように [Flattr](https://flattr.com/) と連動すれば面白いんだけどねぇ。とりあえず flattr ボタンを貼り付ける手もあるけど）
 
+「[ATOM の Theme / Package の感想文（2015-06-10） - Qiita](http://qiita.com/spiegel-im-spiegel/items/115fea37ad2e515f6641)」にテーマ・パッケージの感想を書いている。個人的な印象なんであんまり参考にならないかもだけど，よろしかったらどうぞ。
+
 ## ATOM の設定
 
 ### Proxy 設定
@@ -199,8 +202,6 @@ indent_size = 4
 trim_trailing_whitespace = false
 ```
 
-- [editorconfig](https://atom.io/packages/editorconfig)
-
 [EditorConfig] はフォルダを遡って `.editorconfig` ファイルを探し，フォルダの上から順番に評価していく。
 `root = true` の記述がないとどこまでも上の階層に遡っていくので，プロジェクトのトップ・フォルダの `.editorconfig` には必ずこれを記述すること。
 
@@ -212,6 +213,8 @@ trim_trailing_whitespace = false
 - `insert_final_newline` を `true` にするとファイルの末尾が改行文字ではない場合に補完してくれる。でもこれって使いどころが難しいのよね。
 
 [EditorConfig] は多くのテキスト・エディタや統合開発環境に対応していて，もちろん [ATOM] にも対応パッケージがある。
+
+- [editorconfig](https://atom.io/packages/editorconfig)
 
 #### 文字エンコーディングについて残念なお知らせ
 

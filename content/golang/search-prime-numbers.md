@@ -1,8 +1,8 @@
 +++
 date = "2015-09-16T10:48:40+09:00"
-description = "description"
+description = "これまた，みんな大好き素数探索アルゴリズム"
 draft = true
-tags = ["golang", "algorithm", "math", "prime-number", "slice", "make"]
+tags = ["golang", "algorithm", "math", "prime-number", "slice", "make", "goroutine", "channel"]
 title = "素数探索アルゴリズムで遊ぶ"
 
 [author]
@@ -24,7 +24,7 @@ title = "素数探索アルゴリズムで遊ぶ"
 - [Documentation - The Go Programming Language](https://golang.org/doc/) : 言語仕様に関するドキュメントはこちら（[一部日本語化](http://golang-jp.org/doc/)されている）
 - [Packages - The Go Programming Language](https://golang.org/pkg/) : 標準パッケージのドキュメントはこちら（[一部日本語化](http://golang-jp.org/pkg/)されている）
 
-とはいえ，コードが実際にどのように機能するかは書いていないとわからない部分もある。
+とはいえ，コードが実際にどのように機能するかは書いてみないと分からない部分もある。
 なので，今回からは実際にコードを書きながら言語の癖のようなものを調べていくことにする。
 仕事に使うなら厳密な評価が必要だけど，今のところはそんな予定もないし，まずはテキトーで（笑）
 
@@ -430,6 +430,211 @@ C:>go run prime03.go --alg=1 10000000
 
 というわけで，100万個目の素数探索に5秒弱，1000万個目の素数探索に2分ちょっとかかってしまった。
 まぁ，でも，こんなもんか。
+
+## 素数探索アルゴリズム（その3: エラトステネスの篩を並行処理で）{#alg3}
+
+これまでのアルゴリズムは基本的に2重のループで値を順番に付き合わせているだけだったが，この部分を並行処理で行えば速いんじゃね？ と思うよね。
+
+[Go 言語]で並行処理を行うには goroutine（「ゴルーチン」と読むらしい）を使う。
+また goroutine の worker 間ではメモリ共有ができないため， channel を使い message-passing 方式で通信を行う（message-passing 方式は Erlang などで一躍有名になったやつ。ただし Erlang ではプロセス間通信の手段として Actor を使う。 goroutine は「並行処理」であり「並列処理」ではない。また，いわゆる thread とも異なる）。
+
+で，実際に [チュートリアルには並行処理を使った素数探索アルゴリズムが紹介](http://golang.jp/go_tutorial#index12)されている（ただし現在の[公式ドキュメント](https://golang.org/doc/)には存在しない）。
+いくつかサイトを巡ったが，このやり方がもっとも素直なようだ（後述するが速いわけではない）。
+そこで，このコードを流用させてもらうことにした。
+
+```go
+func LastPrimeE2(max int64) int64 {
+	if max <= 1 {
+		return 2 // 最初の素数は2
+	}
+
+	count := int64(1)
+	primes := sieve()
+	for {
+		prime := <-primes
+		count++
+		if count >= max {
+			return prime
+		}
+	}
+}
+
+// 素数候補の数を生成する
+func generate() chan int64 {
+	ch := make(chan int64)
+	go func() {
+		var n int64
+		for n = 3; ; n += 2 { // 3 以降の奇数を送信（2 以外の偶数は素数ではない）
+			ch <- n
+		}
+	}()
+	return ch
+}
+
+// 素数 'prime' に対するフィルタ
+// 'prime' で割り切れない値のみ通過可能
+func filter(in chan int64, prime int64) chan int64 {
+	out := make(chan int64)
+	go func() {
+		for {
+			n := <-in
+			if (n % prime) != 0 {
+				out <- n
+			}
+		}
+	}()
+	return out
+}
+
+// エラトステネスの篩
+func sieve() chan int64 {
+	out := make(chan int64)
+	go func() {
+		ch := generate()
+		for {
+			prime := <-ch
+			out <- prime
+			ch = filter(ch, prime)
+		}
+	}()
+	return out
+}
+```
+
+`main` 関数も少しいじって `-alg=2` でこのアルゴリズムを起動するようにする。
+まずは検算ね。
+
+```
+C:>go run prime04.go -alg=2 25
+25 個目の素数: 97
+0 経過
+```
+
+じゃあ，早速うごかしてみよっか。
+
+```
+C:>go run prime04.go -alg=2 100
+100 個目の素数: 541
+2.0002ms 経過
+
+C:>go run prime04.go -alg=2 10000
+10000 個目の素数: 104729
+4.2002402s 経過
+```
+
+100万個目の素数は有意の時間で見つかりませんでした orz
+
+まぁアルゴリズム的には「篩」っぽくはあるんだけどね。
+
+ある値が素数であると判定されるためには，その値より小さい全ての素数フィルタを通過しなければならない（つまり「[その2]({{< ref "#alg2" >}})」で紹介した特徴の2番目を全く生かせていない）。
+これが致命的。
+しかもこのフィルタ処理 `filter()` は素数フィルタの生成も兼ねていて，前の素数フィルタの出力を次の素数フィルタの入力として連結しているのでスキップできない。
+
+かなりインチキではあるけど，捜索範囲を「100万個目」までと限定し，「100万個目」の素数が 15,485,863 であると分かっているならもう少し速くできるかもしれない。
+つまり以下のように改良する。
+
+```go
+func LastPrimeE2(max int64) int64 {
+	if max <= 1 {
+		return 2 // 最初の素数は2
+	}
+
+	count := int64(1)
+	primes := sieve()
+	for prime := range primes {
+		count++
+		if count >= max {
+			return prime
+		}
+	}
+	return count
+}
+
+// 素数候補の数を生成する
+// ただし上限を 15485863 とする
+func generate() chan int64 {
+	ch := make(chan int64)
+	go func() {
+		var n int64
+		for n = 3; n <= 15485863; n += 2 { // 3 以降の奇数を送信（2 以外の偶数は素数ではない）
+			ch <- n
+		}
+		close(ch)
+	}()
+	return ch
+}
+
+// 素数 'prime' に対するフィルタ
+func filter(in chan int64, prime int64) chan int64 {
+	out := make(chan int64)
+	go func() {
+		for n := range in {
+			if (n % prime) != 0 {
+				out <- n
+			}
+		}
+		close(out)
+	}()
+	return out
+}
+
+// エラトステネスの篩
+func sieve() chan int64 {
+	out := make(chan int64)
+	go func() {
+		ch := generate()
+		fflag := true
+		for {
+			prime, ok := <-ch
+			if !ok {
+				break
+			}
+			out <- prime
+			if fflag && prime*prime <= 15485863 {
+				ch = filter(ch, prime)
+			} else { // 素数が最大値の平方根（√15485863）より大きい場合はフィルタを作らず無条件に通す
+				fflag = false
+			}
+		}
+		close(out)
+	}()
+	return out
+}
+```
+
+これで実行してみる。
+
+```
+C:>go run prime05.go -alg=2 100
+100 個目の素数: 541
+2.0001ms 経過
+
+C:>go run prime05.go -alg=2 10000
+10000 個目の素数: 104729
+378.0216ms 経過
+
+C:>go run prime05.go -alg=2 1000000
+1000000 個目の素数: 15485863
+39.4492564s 経過
+```
+
+おお。
+ようやく有意の時間で探索できた。
+それでも「[その2]({{< ref "#alg2" >}})」の10倍以上かかるけど。
+
+channel への送信データが有限個の場合は最後に `close(ch)` でクローズする。
+一方 channel からの受信側は for range 構文を使うことで安全に扱うことができる。
+ただし上述の `sieve()` 関数では 変数 `ch` が新しい素数フィルタの出力に上書きされていくので for range 構文は使えない。
+その代わり以下の記述で channel を安全に扱うことができる。
+
+```go
+prime, ok := <-ch
+if !ok {
+    break // channel が閉じられた
+}
+```
+
+今回はここまで。
 
 ## ブックマーク
 
