@@ -1,5 +1,6 @@
 +++
 date = "2015-09-17T21:23:42+09:00"
+update = "2015-09-18T03:47:00+09:00"
 description = "これまた，みんな大好き素数探索アルゴリズム"
 draft = false
 tags = ["golang", "algorithm", "math", "prime-number", "slice", "goroutine", "channel", "message-passing"]
@@ -472,8 +473,7 @@ func LastPrimeE2(max int64) int64 {
 func generate() chan int64 {
 	ch := make(chan int64)
 	go func() {
-		var n int64
-		for n = 3; ; n += 2 { // 3 以降の奇数を送信（2 以外の偶数は素数ではない）
+		for n := int64(3); ; n += 2 { // 3 以降の奇数を送信（2 以外の偶数は素数ではない）
 			ch <- n
 		}
 	}()
@@ -564,8 +564,7 @@ func LastPrimeE2(max int64) int64 {
 func generate() chan int64 {
 	ch := make(chan int64)
 	go func() {
-		var n int64
-		for n = 3; n <= 15485863; n += 2 { // 3 以降の奇数を送信（2 以外の偶数は素数ではない）
+		for n := int64(3); n <= 15485863; n += 2 { // 3 以降の奇数を送信（2 以外の偶数は素数ではない）
 			ch <- n
 		}
 		close(ch)
