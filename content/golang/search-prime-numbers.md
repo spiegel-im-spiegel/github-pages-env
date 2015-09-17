@@ -20,6 +20,8 @@ title = "素数探索アルゴリズムで遊ぶ"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
+（初出： [はじめての Go 言語 (on Windows) その2 - Qiita](http://qiita.com/spiegel-im-spiegel/items/047a9bd6436e6391ddd4)）
+
 [Go 言語]は公式のドキュメントがとても充実していて（ただしほぼ英語だけど），私のような初学者に易しい環境といえる。
 
 - [Documentation - The Go Programming Language](https://golang.org/doc/) : 言語仕様に関するドキュメントはこちら（[一部日本語化](http://golang-jp.org/doc/)されている）
