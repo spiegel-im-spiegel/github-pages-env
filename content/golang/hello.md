@@ -82,7 +82,7 @@ Hello World!
 
 Windows 版（64bit）のインストールパッケージで 1.4 系から 1.5 系へ上書きインストールしようとしたらエラーになった。
 
-[![Install Error](https://farm6.staticflickr.com/5759/20692976166_a38bee50d8_o.png "Install Error")](https://www.flickr.com/photos/spiegel/20692976166/)
+{{< img src="https://farm6.staticflickr.com/5759/20692976166_a38bee50d8_o.png" alt="Install Error" title="Install Error" caption="Install Error" link="https://www.flickr.com/photos/spiegel/20692976166/" >}}
 
 この場合は，コントロールパネルの「プログラムと機能」で既存のバージョンをアンインストールしてから最新バージョンをインストールし直せば OK。
 
