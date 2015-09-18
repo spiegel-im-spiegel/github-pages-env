@@ -1,6 +1,6 @@
 +++
 date = "2015-09-12T11:26:44+09:00"
-update = "2015-09-12T11:26:44+09:00"
+update = "2015-09-18T14:04:00+09:00"
 description = "みんなだいすき Hello World!"
 draft = false
 tags = ["golang", "install", "helloworld" ]
@@ -37,8 +37,9 @@ Windows 版では[ダウンロードページ](https://golang.org/dl/)にイン�
 
 Go コンパイラが最低限動作するのに必要な環境変数は（`PATH` を除けば） `GOROOT` のみである。
 Windows 版の場合は，インストール・パッケージからインストールすれば自動的に環境変数もセットされる。
-セットされていない場合は手動で `GOROOT` にインストール先のフォルダを指定すればいい。
-（参考： [Windows - SETX コマンドで環境変数を永続的に設定する - Qiita](http://qiita.com/rohinomiya/items/cf5236678b3459da9017)）
+セットされていない場合は手動で `GOROOT` にインストール先のフォルダを指定すればいい[^1]。
+
+[^1]: 参考： [Windows - SETX コマンドで環境変数を永続的に設定する - Qiita](http://qiita.com/rohinomiya/items/cf5236678b3459da9017)
 
 インストールができたら動作確認。
 
