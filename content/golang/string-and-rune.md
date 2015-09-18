@@ -19,6 +19,8 @@ title = "String と Rune"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
+（初出： [はじめての Go 言語 (on Windows) その4 - Qiita](http://qiita.com/spiegel-im-spiegel/items/556166b6631c0369754f)）
+
 文字列を示す [string] は不変（immutable）なオブジェクトだが，中身は byte 配列である。
 したがって以下のように
 
@@ -146,9 +148,9 @@ nihongo = 日本語
 nippon = 日本
 ```
 
-もう少し細かい処理が必要なら [unicode/utf8](http://golang.org/pkg/unicode/utf8/) パッケージを使う手もある[^1]。
+もう少し細かい処理が必要なら [`unicode/utf8`](http://golang.org/pkg/unicode/utf8/) パッケージを使う手もある[^1]。
 
-[^1]: ちなみに [strings](http://golang.org/pkg/strings/) パッケージは内部で [unicode/utf8](http://golang.org/pkg/unicode/utf8/) パッケージを使っているようだ。
+[^1]: ちなみに [`strings`](http://golang.org/pkg/strings/) パッケージは内部で [`unicode/utf8`](http://golang.org/pkg/unicode/utf8/) パッケージを使っているようだ。
 
 ## ブックマーク
 
