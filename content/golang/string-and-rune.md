@@ -1,7 +1,7 @@
 +++
-date = "2015-09-18T10:24:04+09:00"
+date = "2015-09-19T23:45:56+09:00"
 description = "今回は文字列について。短めにさくっと。"
-draft = true
+draft = false
 tags = ["golang", "string", "rune", "character"]
 title = "String と Rune"
 
