@@ -20,7 +20,7 @@ Windows 版は，インストールパッケージ（実行形式）をダウン
 
 6月25日に 1.0 が出た。[おめでたう！](http://qiita.com/spiegel-im-spiegel/items/5c6dafcece9e7118877a)
 
-（9月3日に 1.0.11 がリリース）
+（9月18日に 1.0.12 がリリース）
 
 ### Proxy 設定
 

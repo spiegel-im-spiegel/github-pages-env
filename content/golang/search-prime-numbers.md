@@ -1,6 +1,6 @@
 +++
 date = "2015-09-17T21:23:42+09:00"
-update = "2015-09-18T03:47:00+09:00"
+update = "2015-09-18T15:06:00+09:00"
 description = "これまた，みんな大好き素数探索アルゴリズム"
 draft = false
 tags = ["golang", "algorithm", "math", "prime-number", "slice", "goroutine", "channel", "message-passing"]
@@ -443,16 +443,15 @@ C:>go run prime03.go --alg=1 10000000
 これまでのアルゴリズムは基本的に2重のループで値を順番に付き合わせているだけだったが，この部分を並行処理で行えば速いんじゃね？ と思うよね。
 
 [Go 言語]で並行処理を行うには [goroutine]（「ゴルーチン」と読むらしい）を使う。
-また [goroutine] の worker 間ではメモリ共有ができないため， [channel] を使い message-passing 方式で通信を行う。
+また [goroutine] の worker 間ではメモリ共有ができないため， [channel] を使い message-passing 方式[^1]で通信を行う。
 
-（message-passing 方式は Erlang などで一躍有名になったやつ。
-ただし Erlang ではプロセス間通信の手段として Actor を使う。
-[goroutine] は「並行処理」であり「並列処理」ではない。また，いわゆる thread とも異なる。
-[Go 言語]で並列処理を行うなら「[Go言語でCPU数に応じて並列処理数を制限する](http://deeeet.com/writing/2014/07/30/golang-parallel-by-cpu/)」あたりが参考になる）
+[^1]: message-passing 方式は Erlang などで一躍有名になったやつ。ただし Erlang ではプロセス間通信の手段として  message-passing を使う。これは Actor と呼ばれている。 [goroutine] は「並行処理」であり「並列処理」ではない。また，いわゆる thread とも異なる。[Go 言語]で並列処理を行うなら「[Go言語でCPU数に応じて並列処理数を制限する](http://deeeet.com/writing/2014/07/30/golang-parallel-by-cpu/)」あたりが参考になる。
 
-で，実際に [チュートリアルには並行処理を使った素数探索アルゴリズムが紹介](http://golang.jp/go_tutorial#index12)されている（ただし現在の[公式ドキュメント](https://golang.org/doc/)には存在しない）。
+で，実際に [チュートリアルには並行処理を使った素数探索アルゴリズムが紹介](http://golang.jp/go_tutorial#index12)されている[^2]。
 いくつかサイトを巡ったが，このやり方がもっとも素直なようだ（後述するが速いわけではない）。
 そこで，このコードを流用させてもらうことにした。
+
+[^2]: ただし現在の[公式ドキュメント](https://golang.org/doc/)には存在しない。
 
 ```go
 func LastPrimeE2(max int64) int64 {
@@ -512,6 +511,9 @@ func sieve() chan int64 {
 }
 ```
 
+そうそう。
+[Go 言語]では関数は全て関数閉包（closure）として機能する。
+
 `main` 関数も少しいじって `-alg=2` でこのアルゴリズムを起動するようにする。
 まずは検算ね。
 
@@ -535,7 +537,7 @@ C:>go run prime04.go -alg=2 10000
 
 100万個目の素数は有意の時間で見つかりませんでした orz
 
-まぁアルゴリズム的には「篩」っぽくはあるんだけどね。
+まぁアルゴリズム的に「篩」っぽくはあるんだけどね。
 
 ある値が素数であると判定されるためには，その値より小さい全ての素数フィルタを通過しなければならない（つまり「[その2]({{< ref "#alg2" >}})」で紹介した特徴の2番目を全く生かせていない）。
 これが致命的。
