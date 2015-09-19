@@ -1,7 +1,7 @@
 +++
-date = "2015-09-19T21:32:23+09:00"
-description = "description"
-draft = true
+date = "2015-09-19T23:40:43+09:00"
+description = "パッケージ化したのならテストをしましょう。"
+draft = false
 tags = ["golang", "testing"]
 title = "Go 言語のテスト・フレームワーク"
 
@@ -98,8 +98,6 @@ func TestModifiedJulianDayNumber(t *testing.T) {
 C:\workspace\jd>go test -v github.com/spiegel-im-spiegel/astrocalc/modjulian
 === RUN   TestDayNumber
 --- PASS: TestDayNumber (0.00s)
-=== RUN   ExampleDayNumber
---- PASS: ExampleDayNumber (0.00s)
 PASS
 ok      github.com/spiegel-im-spiegel/astrocalc/modjulian       0.229s
 ```
@@ -111,8 +109,6 @@ C:\workspace\jd>go test -v github.com/spiegel-im-spiegel/astrocalc/modjulian
 === RUN   TestDayNumber
 --- FAIL: TestDayNumber (0.00s)
         modjulian_test.go:35: DayNumber of "1969-12-31 00:00:00 +0000 UTC" = 40587, want 40586.
-=== RUN   ExampleDayNumber
---- PASS: ExampleDayNumber (0.00s)
 FAIL
 exit status 1
 FAIL    github.com/spiegel-im-spiegel/astrocalc/modjulian       1.566s
@@ -161,6 +157,6 @@ script:
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [前回]: {{< ref "golang/packaging.md" >}} "機能のパッケージ化"
-[次回]: {{< ref "golang/packaging.md" >}} "機能のパッケージ化"
+[次回]: {{< ref "golang/document.md" >}} "Go 言語のドキュメント・フレームワーク"
 [`testing`]: http://golang.org/pkg/testing/
 [Travis CI]: https://travis-ci.org/ "Travis CI - Test and Deploy Your Code with Confidence"
