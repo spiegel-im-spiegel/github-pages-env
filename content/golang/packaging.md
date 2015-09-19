@@ -1,7 +1,7 @@
 +++
-date = "2015-09-18T17:26:39+09:00"
+date = "2015-09-19T22:41:30+09:00"
 description = "description"
-draft = true
+draft = false
 tags = ["golang", "package", "github"]
 title = "機能のパッケージ化"
 
@@ -337,6 +337,6 @@ MJD = 57023日
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [前回]: {{< ref "golang/julian-day-number.md" >}} "「ユリウス日」で遊ぶ"
-[次回]: {{< ref "golang/julian-day-number.md" >}} "「ユリウス日」で遊ぶ"
+[次回]: {{< ref "golang/testing.md" >}} "Go 言語のテスト・フレームワーク"
 [GitHub]: https://github.com/
 [`github.com/spiegel-im-spiegel/astrocalc`]: https://github.com/spiegel-im-spiegel/astrocalc
