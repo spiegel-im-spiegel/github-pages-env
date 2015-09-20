@@ -11,7 +11,7 @@
 
 <main role="main">
 <article itemscope itemtype='http://schema.org/BlogPosting' itemref='maker'>
-<div><strong>{{ with .Section }}<a href="/{{ . | urlize }}">しっぽの先っちょ</a>{{ end }}{{ with .Date }}: {{ .Format "2006-01-02" }} 付{{ end }}</strong></div>
+<div><strong>{{ with .Section }}<a href="/{{ . | urlize }}">しっぽのさきっちょ</a>{{ end }}{{ with .Date }}: {{ .Format "2006-01-02" }} 付{{ end }}</strong></div>
 <section>
 <h1 itemprop='name'>{{ .Title }}</h1>
 <nav class="tags">{{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ . | urlize }}">#{{ . }}</a>{{ end }}</div>{{ end }}</nav>
