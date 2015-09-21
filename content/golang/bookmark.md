@@ -120,6 +120,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [大学入試問題をGoで解いてみる - Qiita](http://qiita.com/qube81/items/c47b9e3ea8d028e95588) : [math/big](https://golang.org/pkg/math/big/) パッケージを使って大きな数を計算する。
 - [GoでGoogleCalendarAPIv3を叩く（APIキー） - Qiita](http://qiita.com/yodatomato/items/8013f728bbf4358e9425)
 - [golang - cmd.Envを設定してexecしたらコケた - Qiita](http://qiita.com/8845musign/items/5c4b32f82c2df08acd93) : [`exec`](https://golang.org/pkg/os/exec/) パッケージを使う際には環境変数に注意
+- [golangで数独を解いた - Qiita](http://qiita.com/ciruzzo/items/144bc1874947441f9fb8)
+- [Golang で iso-2022-jp メールのデコード - Qiita](http://qiita.com/curious-eyes/items/3dae99e5e0feb6b9f642) : メールのデコード
 
 ### コマンドライン・ツール
 

@@ -317,6 +317,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - [atomをevernoteのmarkdownエディタとして使う（EVND） - Qiita](http://qiita.com/kuwa_tw/items/16d1e63b66092601391e)
 - [AtomでSublimeTextみたいに保存しないで終了しても再開できるやつ - Qiita](http://qiita.com/ru_shalm/items/453bb63c3fa54cb93f61) : [save-session](https://atom.io/packages/save-session) があるじゃない。という話
 - [atom から gist にコードをアップする gist-it を試す - belog](http://kkabetani.hatenablog.com/entry/2014/12/29/235147)
+- [Atomのパッケージが急に動かなくなった！ - Qiita](http://qiita.com/wh11e7rue/items/545c0a26c609cec9487d) : パッケージの修復方法
 
 ### パッケージを作ってみた
 
