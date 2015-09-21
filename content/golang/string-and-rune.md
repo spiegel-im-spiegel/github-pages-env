@@ -1,5 +1,6 @@
 +++
 date = "2015-09-19T23:45:56+09:00"
+update = "2015-09-21T09:21:00+09:00"
 description = "今回は文字列について。短めにさくっと。"
 draft = false
 tags = ["golang", "string", "rune", "character"]
@@ -41,16 +42,14 @@ func main() {
 }
 ```
 
-[string] をダンプすると以下の結果になる。
+[string] をダンプすると以下の結果になる[^1]。
 
 ```
 C:>go run string01.go
 nihongo = 9 bytes : e6 97 a5 e6 9c ac e8 aa 9e
 ```
 
-（ちなみに [Go 言語]で取り扱う文字列の文字エンコーディングは UTF-8 が既定である。
-他の文字エンコーディングで書かれた文字列を扱うには，一度 UTF-8 に変換する処理が必要になる。
-文字エンコーディングの変換については項を改めて紹介する）
+[^1]: ちなみに [Go 言語]で取り扱う文字列の文字エンコーディングは UTF-8 が既定である。他の文字エンコーディングで書かれた文字列を扱うには，一度 UTF-8 に変換する処理が必要になる。文字エンコーディングの変換については別の記事で改めて紹介する。
 
 （[string] なんて名前なのに）文字単位で情報を保持しているわけではないため，最初の2文字を取り出すつもりでうっかり
 
@@ -101,7 +100,7 @@ C:>go run string03.go
 nihongo = 3 characters : U+65E5 '日' U+672C '本' U+8A9E '語'
 ```
 
-または， [string] に対して for range を使ってループを回すと文字（[rune]）単位で取得できる。
+または， [string] に対して [for range 構文](http://golang.org/ref/spec#For_statements)を使ってループを回すと文字（[rune]）単位で取得できる。
 
 ```go
 package main
@@ -124,8 +123,8 @@ U+672C '本' starts at byte position 3
 U+8A9E '語' starts at byte position 6
 ```
 
-[rune] の実体は int32 で，内部的には Unicode 表現になっている。
-[string] と [rune] は相互変換できるので，文字列を切り取る場合は
+[rune] の実体は int32 で，内部表現は Unicode になっている。
+[string] と [rune] 配列は相互変換できるので，文字列を切り取る場合は
 
 ```go
 package main
@@ -148,9 +147,9 @@ nihongo = 日本語
 nippon = 日本
 ```
 
-もう少し細かい処理が必要なら [`unicode/utf8`](http://golang.org/pkg/unicode/utf8/) パッケージを使う手もある[^1]。
+もう少し細かい処理が必要なら [`unicode/utf8`](http://golang.org/pkg/unicode/utf8/) パッケージを使う手もある[^2]。
 
-[^1]: ちなみに [`strings`](http://golang.org/pkg/strings/) パッケージは内部で [`unicode/utf8`](http://golang.org/pkg/unicode/utf8/) パッケージを使っているようだ。
+[^2]: ちなみに [`strings`](http://golang.org/pkg/strings/) パッケージは内部で [`unicode/utf8`](http://golang.org/pkg/unicode/utf8/) パッケージを使っているようだ。
 
 ## ブックマーク
 

@@ -1,6 +1,7 @@
 +++
 date = "2015-09-19T22:41:30+09:00"
-description = "description"
+update = "2015-09-21T10:43:00+09:00"
+description = "今後のことを考えてパッケージ化の作業を行うことにします。"
 draft = false
 tags = ["golang", "package", "github"]
 title = "機能のパッケージ化"
