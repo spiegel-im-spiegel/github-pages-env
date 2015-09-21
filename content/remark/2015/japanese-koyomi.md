@@ -1,7 +1,7 @@
 +++
-date = "2015-09-21T11:43:51+09:00"
-description = "description"
-draft = true
+date = "2015-09-21T21:43:15+09:00"
+description = "この記事は2004年初出の記事を再構成したものです。"
+draft = false
 tags = ["astronomy", "history", "calendar"]
 title = "「暦」日本史 （再掲載）"
 
