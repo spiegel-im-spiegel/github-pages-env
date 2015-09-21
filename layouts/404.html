@@ -5,7 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {{ .Hugo.Generator }}
 {{ with .Site.Params.favicon }}<link rel="icon" type="image/x-icon" href="{{ . }}">{{ end }}
-<title>{{ .Title }}</title>
+<title>{{ .Title }} - {{ .Site.Title }}</title>
 </head>
-<body><p>あると思った？ 残念！ 404 でした。</p></body>
+<body>
+<h1>{{ .Title }} - <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> <a href='/index.xml' title='Feed'><i class='fa fa-rss'></i></a></h1>
+<p>あると思った？ 残念！ 404 でした。</p>
+</body>
 </html>
