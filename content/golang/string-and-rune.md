@@ -158,6 +158,8 @@ nippon = 日本
 - [golang - Goでマルチバイトが混在した文字列をtruncateする - Qiita](http://qiita.com/hokaccha/items/3d3f45b5927b4584dbac)
 - [golang - Go言語で文字コード変換 - Qiita](http://qiita.com/uchiko/items/1810ddacd23fd4d3c934)
 
+[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [string]: http://golang.org/ref/spec#String_types
 [rune]: http://blog.golang.org/strings "Strings, bytes, runes and characters in Go - The Go Blog"
