@@ -304,6 +304,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - [Atomエディタ ver1.0.8で前から欲しかった機能が2つ追加されていた - Qiita](http://qiita.com/knt45/items/9f88e2b54f622e27dd0d)
 - [Atomエディタの背景画像を設定するのに苦労したこと【Windows】 - Qiita](http://qiita.com/Ted-HM/items/afe9eddaefc0247859a8)
 - [ATOM - apm loginすると`EINVAL, invalid argument`で止まる - Qiita](http://qiita.com/nureha/items/12a8526835ddc5f7dbb0)
+- [Atomでvim-modeのカーソルが見辛いのを解消する - Qiita](http://qiita.com/74th/items/e9bebcdc9d979f1c6b44)
 
 ### 各種パッケージ設定
 
