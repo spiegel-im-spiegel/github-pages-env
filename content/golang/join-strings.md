@@ -283,6 +283,7 @@ ok      join    13.589s
 ## ブックマーク
 
 - [Go でベンチマーク - Block Rockin’ Codes](http://jxck.hatenablog.com/entry/20131123/1385189088)
+- [go言語でベンチマーク - Qiita](http://qiita.com/Mulyu/items/ed585f2777496f29a725)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
