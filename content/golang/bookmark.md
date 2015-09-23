@@ -265,6 +265,15 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [MacOS X でGo言語のクロスコンパイルを試したらハマった - Qiita](http://qiita.com/ttsuzo/items/64e29dd7caa635ac7863) : [gox](https://github.com/mitchellh/gox) を使う方法
 - [Goで64bitと32bitの実行ファイルを同一Windows機で作成するために講じたこと - Qiita](http://qiita.com/zetamatta/items/e44961a8bcbb2578cfe7)
 
+### direnv で開発環境を切り替える
+
+[direnv - unclutter your .profile](http://direnv.net/)
+
+- [direnv/direnv](https://github.com/direnv/direnv)
+- [direnvで解決するGOPATHの3つの問題点 - None is None is None](http://doloopwhile.hatenablog.com/entry/2014/06/18/010449)
+- [改めて、direnvを使いましょう！ - HDE BLOG](http://blog.hde.co.jp/entry/2015/02/27/182117)
+- [さくら - homeにgolang, direnv とvirtualenvを入れて動かす - Qiita](http://qiita.com/aminamid/items/5a0e9461385c80d0c8a6)
+
 ## その他 四方山話
 
 - [動的言語だけやってた僕が、38日間Go言語を書いて学んだこと - Qiita](http://qiita.com/suin/items/22662f43b6a6e8728798)
