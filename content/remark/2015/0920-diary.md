@@ -33,7 +33,7 @@ title = "今日の戯れ言：週末は掃除三昧"
 でも好きな作家さんの本はどうしても捨てられませんでした。
 というわけで
 
-{{< img src="https://farm1.staticflickr.com/570/21549048532_5205dd7322.jpg" alt="竹本泉エリア。整理したら３段ぶち抜きになってしまった" title="竹本泉エリア。整理したら３段ぶち抜きになってしまった" link="https://www.flickr.com/photos/spiegel/21549048532/" >}}
+{{< fig-img src="https://farm1.staticflickr.com/570/21549048532_5205dd7322.jpg" alt="竹本泉エリア。整理したら３段ぶち抜きになってしまった" title="竹本泉エリア。整理したら３段ぶち抜きになってしまった" link="https://www.flickr.com/photos/spiegel/21549048532/" >}}
 
 漫画本の本棚が大変なことに。
 

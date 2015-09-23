@@ -52,7 +52,7 @@ CRYPTREC といえば [CRYPTREC Report 2014](http://cryptrec.go.jp/topics/cryptr
 - [RC4 NOMORE](https://www.rc4nomore.com/)
 - [短時間でcookie解読、RC4暗号通信を破る新手法 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1507/17/news058.html)
 
-{{< youtube id="d8MtmKrXlKQ" title="The RC4 NOMORE Attack: Demonstration in Practice - YouTube" width="500" height="281" >}}
+{{< fig-youtube id="d8MtmKrXlKQ" title="The RC4 NOMORE Attack: Demonstration in Practice - YouTube" width="500" height="281" >}}
 
 これも随分前の話でゴメン。
 既に[死に体の RC4](http://www.baldanders.info/spiegel/log2/000810.shtml) に追い打ち。
@@ -69,7 +69,14 @@ CRYPTREC といえば [CRYPTREC Report 2014](http://cryptrec.go.jp/topics/cryptr
 
 この中で
 
-> さらに人間と機械は、出自がちがうので、同じリソースをめぐって争う必要がない。これが動物だと、居住空間とか食べ物とか毛皮や肉とか、競合する資源がある。だけど機械とは競合しない……完全にしないとは言わないけれど、他の動物と比べれば大幅にちがう。人間はお金や女や権力を巡って争ってきたけど、機械はお金とか関係ないし、セックスもしないし（人間のほうはしたがる人もいるけど）、権力も関係ない。だから機械やAIが賢くなっても、別に人間なんか滅ぼす必要なんかまったくない。人間にそういうものをエサとして差し出せば（あるいは実物なくても画面にその絵を描いてやるだけで）人間はホイホイ動くし掃除もするしメンテもするし。機械にとってこんな便利なものはないよ。
+{{% fig-quote lang="ja" title="機械支配待望論" link="http://cruel.hatenablog.com/entry/2015/08/28/161912" %}}
+さらに人間と機械は、出自がちがうので、同じリソースをめぐって争う必要がない。
+これが動物だと、居住空間とか食べ物とか毛皮や肉とか、競合する資源がある。
+だけど機械とは競合しない……完全にしないとは言わないけれど、他の動物と比べれば大幅にちがう。
+人間はお金や女や権力を巡って争ってきたけど、機械はお金とか関係ないし、セックスもしないし（人間のほうはしたがる人もいるけど）、権力も関係ない。
+だから機械やAIが賢くなっても、別に人間なんか滅ぼす必要なんかまったくない。
+人間にそういうものをエサとして差し出せば（あるいは実物なくても画面にその絵を描いてやるだけで）人間はホイホイ動くし掃除もするしメンテもするし。機械にとってこんな便利なものはないよ。
+{{% /fig-quote %}}
 
 というのは全く以ってそのとおりだと思う。
 

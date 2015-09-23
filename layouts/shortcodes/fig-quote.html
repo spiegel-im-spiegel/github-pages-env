@@ -1,0 +1,4 @@
+{{ with .Get "lang" }}<figure lang="{{ . }}">{{ else }}<figure>{{ end }}
+<blockquote>{{ .Inner }}</blockquote>
+{{ if .Get "title"}}<figcaption>via <q>{{ with .Get "link"}}<a href="{{.}}">{{ end }}{{ .Get "title" }}{{ with .Get "link"}}</a>{{ end }}</q></figcaption>{{ end }}
+</figure>

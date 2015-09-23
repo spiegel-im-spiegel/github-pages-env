@@ -22,10 +22,7 @@ title = "『「情報社会」が「社会」になった時代』"
 
 [2015年社会情報学会学会大会](http://2015ssi.mond.jp/?page_id=251)のワークショップ「『情報社会論』の変遷と再編――統治の再設計に向けて」の資料だそうな。
 
-<figure style='margin:0 auto;text-align:center;'>
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/9tAnQD5Ht9IBmp" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe>
-<figcaption><q><a href="http://www.slideshare.net/NishidaRyosuke/20150912">20150912日本の情報社会論とその欲望</a></q> （by <a href="//www.slideshare.net/NishidaRyosuke" target="_blank">西田亮介</a>）</figcaption>
-</figure>
+{{< fig-slideshare id="9tAnQD5Ht9IBmp" width="425" height="355" title="日本の情報社会論とその欲望" link="http://www.slideshare.net/NishidaRyosuke/20150912" >}}
 
 この中で『「情報社会」が「社会」になった時代』という言葉が印象的だった。
 
