@@ -118,8 +118,8 @@ Shift-JIS/EUC-JP の文字集合は基本的に JIS 規格だが UTF-8/UTF-32 �
 ### 変換ロジックの別解
 
 [`transform`] を使った変換でうまくいかない場合は [`djimenez/iconv-go`] パッケージを使う手もある。
-ただし， [`djimenez/iconv-go`] パッケージのビルドには libiconv および glibc が必要である（クロス環境では注意）。
-このパッケージを使うことで iconv 相当の処理が可能になる。
+ただし， [`djimenez/iconv-go`] パッケージのビルドには `libiconv` および `glibc` が必要である（クロス環境では注意）。
+このパッケージを使うことで `iconv` 相当の処理が可能になる。
 
 （別の変換パッケージとして [`mahonia`](https://godoc.org/code.google.com/p/mahonia) を紹介しているところがいくつか見られたが，ドキュメントを見る限り DEPRECATED となっていて使えないようだ。また repository にもアクセスできない）
 
