@@ -49,7 +49,7 @@ C:>go run string01.go
 nihongo = 9 bytes : e6 97 a5 e6 9c ac e8 aa 9e
 ```
 
-[^1]: ちなみに [Go 言語]で取り扱う文字列の文字エンコーディングは UTF-8 が既定である。他の文字エンコーディングで書かれた文字列を扱うには，一度 UTF-8 に変換する処理が必要になる。文字エンコーディングの変換については別の記事で改めて紹介する。
+[^1]: ちなみに [Go 言語]で取り扱う文字列の文字エンコーディングは UTF-8 が既定である。他の文字エンコーディングで書かれた文字列を扱うには，一度 UTF-8 に変換する処理が必要になる。文字エンコーディングの変換については[別の記事]({{< ref "golang/transform-character-encoding.md" >}})で改めて紹介する。
 
 （[string] なんて名前なのに）文字単位で情報を保持しているわけではないため，最初の2文字を取り出すつもりでうっかり
 
@@ -156,7 +156,6 @@ nippon = 日本
 - [Strings, bytes, runes and characters in Go - The Go Blog](http://blog.golang.org/strings)
 - [Go言語のstring, runeの正体とは？ - golang - The Round](http://knightso.hateblo.jp/entry/2014/06/24/090719)
 - [golang - Goでマルチバイトが混在した文字列をtruncateする - Qiita](http://qiita.com/hokaccha/items/3d3f45b5927b4584dbac)
-- [golang - Go言語で文字コード変換 - Qiita](http://qiita.com/uchiko/items/1810ddacd23fd4d3c934)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
