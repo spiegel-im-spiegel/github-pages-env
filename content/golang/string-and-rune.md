@@ -1,6 +1,6 @@
 +++
 date = "2015-09-19T23:45:56+09:00"
-update = "2015-09-21T09:21:00+09:00"
+update = "2015-09-23T20:01:00+09:00"
 description = "今回は文字列について。短めにさくっと。"
 draft = false
 tags = ["golang", "string", "rune", "character"]

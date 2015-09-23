@@ -1,6 +1,6 @@
 +++
 date = "2015-09-12T11:26:44+09:00"
-update = "2015-09-18T14:04:00+09:00"
+update = "2015-09-23T19:57:00+09:00"
 description = "みんなだいすき Hello World!"
 draft = false
 tags = ["golang", "install", "helloworld" ]

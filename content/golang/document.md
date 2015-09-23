@@ -1,5 +1,6 @@
 +++
 date = "2015-09-19T23:43:25+09:00"
+update = "2015-09-23T19:57:00+09:00"
 description = "パッケージ化したのならドキュメントを書きましょう。"
 draft = false
 tags = ["golang", "godoc"]

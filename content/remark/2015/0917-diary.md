@@ -1,5 +1,6 @@
 +++
 date = "2015-09-18T03:11:44+09:00"
+update = "2015-09-23T19:57:00+09:00"
 description = "セキュリティ・暗号関連 / 機械支配待望論"
 draft = false
 tags = ["security", "cryptography", "cryptrec", "misty1", "rc4", "engineering"]

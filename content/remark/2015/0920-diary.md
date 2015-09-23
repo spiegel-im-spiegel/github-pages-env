@@ -1,5 +1,6 @@
 +++
 date = "2015-09-20T18:33:08+09:00"
+update = "2015-09-23T19:57:00+09:00"
 description = "仕事部屋が広くなった orz / 国勢調査を片付けた / Git for Windows 2.5.3"
 draft = false
 tags = ["book", "comic", "phishing", "git"]

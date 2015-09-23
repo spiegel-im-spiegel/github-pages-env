@@ -1,5 +1,6 @@
 +++
 date = "2015-09-21T23:08:07+09:00"
+update = "2015-09-23T20:00:00+09:00"
 description = "Go 言語で文字列の連結を行う際にどうやるのが一番速いか，という話。"
 draft = false
 tags = ["golang", "string", "join", "benchmark"]
