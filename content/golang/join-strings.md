@@ -171,7 +171,7 @@ func BenchmarkWriteBuffer1(b *testing.B) {
 	b.ResetTimer()
 	for i := 0; i < b.N; i++ {
 		content := WriteBuffer1(list)
-		_ = content
+		_ = string(content)
 	}
 }
 
@@ -180,7 +180,7 @@ func BenchmarkWriteBuffer1Cap128(b *testing.B) {
 	b.ResetTimer()
 	for i := 0; i < b.N; i++ {
 		content := WriteBuffer1Cap128(list)
-		_ = content
+		_ = string(content)
 	}
 }
 
@@ -189,7 +189,7 @@ func BenchmarkWriteBuffer1Cap1K(b *testing.B) {
 	b.ResetTimer()
 	for i := 0; i < b.N; i++ {
 		content := WriteBuffer1Cap1K(list)
-		_ = content
+		_ = string(content)
 	}
 }
 
@@ -198,7 +198,7 @@ func BenchmarkWriteBuffer2(b *testing.B) {
 	b.ResetTimer()
 	for i := 0; i < b.N; i++ {
 		content := WriteBuffer2(list)
-		_ = content
+		_ = string(content)
 	}
 }
 
@@ -207,7 +207,7 @@ func BenchmarkWriteBuffer2Cap128(b *testing.B) {
 	b.ResetTimer()
 	for i := 0; i < b.N; i++ {
 		content := WriteBuffer2Cap128(list)
-		_ = content
+		_ = string(content)
 	}
 }
 
@@ -216,7 +216,7 @@ func BenchmarkWriteBuffer2Cap1K(b *testing.B) {
 	b.ResetTimer()
 	for i := 0; i < b.N; i++ {
 		content := WriteBuffer2Cap1K(list)
-		_ = content
+		_ = string(content)
 	}
 }
 ```
@@ -246,13 +246,13 @@ func BenchmarkWriteBuffer2Cap1K(b *testing.B) {
 C:>go test -bench WriteBuffer -benchmem
 testing: warning: no tests to run
 PASS
-BenchmarkWriteBuffer1-4           100000         14140 ns/op       28864 B/op     11 allocs/op
-BenchmarkWriteBuffer1Cap128-4     100000         13440 ns/op       28800 B/op     10 allocs/op
-BenchmarkWriteBuffer1Cap1K-4      100000         13020 ns/op       27904 B/op      7 allocs/op
-BenchmarkWriteBuffer2-4           100000         13890 ns/op       25568 B/op      9 allocs/op
-BenchmarkWriteBuffer2Cap128-4     100000         18131 ns/op       26800 B/op      8 allocs/op
-BenchmarkWriteBuffer2Cap1K-4      200000         11785 ns/op       17520 B/op      5 allocs/op
-ok      join    13.016s
+BenchmarkWriteBuffer1-8           100000         17831 ns/op       37056 B/op     12 allocs/op
+BenchmarkWriteBuffer1Cap128-8     100000         20321 ns/op       36992 B/op     11 allocs/op
+BenchmarkWriteBuffer1Cap1K-8      100000         19301 ns/op       36096 B/op      8 allocs/op
+BenchmarkWriteBuffer2-8           100000         17300 ns/op       33760 B/op     10 allocs/op
+BenchmarkWriteBuffer2Cap128-8     100000         19451 ns/op       34992 B/op      9 allocs/op
+BenchmarkWriteBuffer2Cap1K-8      100000         15490 ns/op       25712 B/op      6 allocs/op
+ok      join    12.659s
 ```
 
 ありゃりゃ。 [`bytes`](http://golang.org/pkg/bytes/)`.Buffer` を使ったほうが速いみたい（capacity を大きくとれば）。
@@ -263,13 +263,13 @@ ok      join    13.016s
 C:>go test -bench WriteBuffer -benchmem
 testing: warning: no tests to run
 PASS
-BenchmarkWriteBuffer1-4          2000000           742 ns/op         960 B/op      4 allocs/op
-BenchmarkWriteBuffer1Cap128-4    2000000           719 ns/op         896 B/op      3 allocs/op
-BenchmarkWriteBuffer1Cap1K-4     2000000           591 ns/op        1024 B/op      1 allocs/op
-BenchmarkWriteBuffer2-4          1000000          1579 ns/op        1248 B/op      5 allocs/op
-BenchmarkWriteBuffer2Cap128-4    1000000          1402 ns/op        1328 B/op      4 allocs/op
-BenchmarkWriteBuffer2Cap1K-4     2000000           863 ns/op        1136 B/op      2 allocs/op
-ok      join    12.061s
+BenchmarkWriteBuffer1-8          2000000           859 ns/op        1312 B/op      5 allocs/op
+BenchmarkWriteBuffer1Cap128-8    2000000           707 ns/op        1248 B/op      4 allocs/op
+BenchmarkWriteBuffer1Cap1K-8     2000000           796 ns/op        1376 B/op      2 allocs/op
+BenchmarkWriteBuffer2-8          1000000          1686 ns/op        1600 B/op      6 allocs/op
+BenchmarkWriteBuffer2Cap128-8    1000000          1411 ns/op        1680 B/op      5 allocs/op
+BenchmarkWriteBuffer2Cap1K-8     2000000           980 ns/op        1488 B/op      3 allocs/op
+ok      join    13.589s
 ```
 
 
@@ -278,7 +278,11 @@ ok      join    12.061s
 まぁでも予想通りかな。
 データのサイズが大きくなればバッファ操作のほうが有利になるのは分かりやすいっちゃあ分かりやすい。
 
+注目すべきは `BenchmarkWriteBuffer1Cap128` と `BenchmarkWriteBuffer1Cap1K` で， capacity を 1KB 取ったほうが若干遅くなっている。この辺のチューニングをどうするか，というところなのだろう（実はこれ，環境によって微妙に順位が変わるんだよなぁ）。
+
 ## ブックマーク
+
+- [Go でベンチマーク - Block Rockin’ Codes](http://jxck.hatenablog.com/entry/20131123/1385189088)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
