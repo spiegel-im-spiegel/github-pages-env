@@ -2,7 +2,7 @@
 title       = "Categories, Tags そして Section"
 description = "前回の続き。今回は Categories, Tags そして Section について書いてみる。"
 date        = "2015-09-11T17:58:32+09:00"
-update      = "2015-09-12T12:25:00+09:00"
+update      = "2015-09-24T12:48:00+09:00"
 tags        = [ "hugo", "categories", "tags", "taxonomy", "section" ]
 draft = false
 
@@ -211,7 +211,9 @@ Categories と Tags との間に機能上の違いはない。
 Front matter で指定する変数は，「[テンプレート変数](http://gohugo.io/templates/variables/)」にある既定のもの以外は `.Params` 以下に自動的に組み換えられる。
 なおかつ `.Params` 以下の変数名は小文字になる決まりである。
 Categories/Tags は標準機能なのだが，どういうわけかこれだけ `.Params` 以下に組み替えられる。
-なんだかなぁ。「歴史的経緯」ってやつだろうか。
+なんだかなぁ。「歴史的経緯」ってやつだろうか[^a]。
+
+[^a]: Categories/Tags の配置が特殊なのは，これらが [Taxonomy]({{ relref "#taxonomy" }}) として実装されているからのようだ。
 
 ちなみに `config.toml` によるサイト設定では `.Site.Params` への暗黙的な組み換えは行われないため，明示的に記述する必要がある。
 
@@ -224,7 +226,10 @@ author = "Spiegel"
 
 ### Taxonomy{#taxonomy}
 
-[Hugo] には Taxonomy と呼ばれる機能があって，（今のところ） Categories/Tags のリストを取り出すことができる。たとえば，こんな感じに書く。
+[Hugo] には Taxonomy と呼ばれる機能があって，標準では Categories/Tags のリストを取り出すことができる[^b]。
+たとえば，こんな感じに書く。
+
+[^b]: Taxonomy の項目は Categories/Tags 以外にも任意に設定することができる（{{% quote lang="en" %}}[Using Taxonomies](https://gohugo.io/taxonomies/usage/){{% /quote %}} 参照）。
 
 ```html:layouts/index.html
 <h2>Taxonomy Terms</h2>
