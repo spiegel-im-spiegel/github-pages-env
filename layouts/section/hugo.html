@@ -15,9 +15,9 @@
 <p itemprop='description'>
 <a href="http://www.baldanders.info/">本家サイト</a>のブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。
 ここではその時のメモを公開する。
-</p><ul style="list-style:none;">
+</p><ol>
 {{ range .Data.Pages.ByDate }}{{ partial "li-section.html" . }}{{ end }}
-</ul>
+</ol>
 </article>
 </main>
 
