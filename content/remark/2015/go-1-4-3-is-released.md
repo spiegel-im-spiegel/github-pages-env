@@ -1,7 +1,7 @@
 +++
-date = "2015-09-24T13:05:48+09:00"
+date = "2015-09-25T00:42:22+09:00"
 description = "Go 言語の net/http パッケージに脆弱性が発見された模様。"
-draft = true
+draft = false
 tags = ["security", "vulnerability", "golang"]
 title = "セキュリティ脆弱性を修正した Go 1.4.3 がリリース"
 
