@@ -1,9 +1,9 @@
 +++
-date = "2015-09-24T16:30:50+09:00"
+date = "2015-09-25T11:14:44+09:00"
 description = "今回は Template について，もう少しだけ詳しく紹介してみる。"
-draft = true
+draft = false
 tags = [ "hugo", "template" ]
-title = "Template の分割"
+title = "Template の部品化"
 
 [author]
   avatar = "/images/avatar.jpg"
@@ -237,12 +237,56 @@ C:\HUGO-ENV\WWW\THEMES\HUGO-THEME-TEXT
 実は `layouts/partials/header-include.html` の中身は空である。
 ユーザの作業環境側に `layouts/partials/header-include.html` ファイルを設置すればそちらが優先して読み込まれるため，これでユーザ側がカスタマイズできるようになっている。
 
+### 【おまけ】 Author 情報
 
+[spiegel-im-spiegel/hugo-theme-text] では `config.toml` に以下の author 情報を入れるとページに反映される。
 
+```toml
+[params.author]
+name      = "Spiegel"
+url       = "http://www.baldanders.info/spiegel/profile/"
+avatar    = "/images/avatar.jpg"
+license   = "by-sa"
+github    = "spiegel-im-spiegel"
+twitter   = "spiegel_2007"
+medium    = "@spiegel"
+instagram = "spiegel_2007"
+facebook  = "spiegel.im.spiegel"
+linkedin  = "spiegelimspiegel"
+flattr    = "spiegel"
+```
 
+{{< fig-img src="https://farm6.staticflickr.com/5779/21504929379_e29706db7c.jpg" alt="Top Page of “hugo-theme-text”" title="Top Page of “hugo-theme-text”" link="https://www.flickr.com/photos/spiegel/21504929379/" >}}
 
+記事ページでは front matter に `[author]` 項目を加える事で front matter の値が優先して表示される。
 
+```toml
++++
+date = "2015-09-05T16:40:41+09:00"
+draft = false
+title = "Hello!"
+categories = [ "hugo" ]
+tags = [ "hello", "world" ]
 
+[author]
+  avatar = "/images/avatar.jpg"
+  facebook = "spiegel.im.spiegel"
+  flattr = "spiegel"
+  github = "spiegel-im-spiegel"
+  instagram = "spiegel_2007"
+  license = "by-sa"
+  linkedin = "spiegelimspiegel"
+  medium = "@spiegel"
+  name = "Spiegel"
+  twitter = "spiegel_2007"
+  url = "http://www.baldanders.info/spiegel/profile/"
++++
+```
+
+{{< fig-img src="https://farm1.staticflickr.com/718/21069070064_4a0e51cbbd.jpg" alt="Entry Page of “hugo-theme-text”" title="Entry Page of “hugo-theme-text”" link="https://www.flickr.com/photos/spiegel/21069070064/" >}}
+
+他にも favicon や Disqus などを設置可能。
+詳しくは [`README.md`](https://github.com/spiegel-im-spiegel/hugo-theme-text#simple-text-hugo-theme) を参照のこと。
 
 ## ブックマーク{#bookmark}
 

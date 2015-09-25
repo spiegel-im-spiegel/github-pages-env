@@ -3,7 +3,7 @@ date = "2015-09-23T20:04:00+09:00"
 update = "2015-09-24T12:30:00+09:00"
 description = "文字エンコーディング変換に関してはあちこちに記事があるのだが，微妙に古い気がするので，メモとして書き記しておく。"
 draft = false
-tags = ["golang", "character", "encodeing", "transform"]
+tags = ["golang", "character", "encoding", "transform"]
 title = "文字エンコーディング変換"
 
 [author]
