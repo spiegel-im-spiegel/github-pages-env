@@ -20,7 +20,7 @@ Windows 版は，インストールパッケージ（実行形式）をダウン
 
 6月25日に 1.0 が出た。[おめでたう！](http://qiita.com/spiegel-im-spiegel/items/5c6dafcece9e7118877a)
 
-（9月25日に 1.0.18 がリリース）
+（9月26日に 1.0.19 がリリース）
 
 ### Proxy 設定
 
@@ -306,6 +306,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - [ATOM - apm loginすると`EINVAL, invalid argument`で止まる - Qiita](http://qiita.com/nureha/items/12a8526835ddc5f7dbb0)
 - [Atomでvim-modeのカーソルが見辛いのを解消する - Qiita](http://qiita.com/74th/items/e9bebcdc9d979f1c6b44)
 - [ATOM - 1つのキーバインドで、同時に複数のコマンドを実行する - Qiita](http://qiita.com/74th/items/160b011bbfcac77d4e3c)
+- [atomで最終行を改行させない - Qiita](http://qiita.com/bouzuao/items/c4b6c49c13c2d1ad54f3)
 
 ### 各種パッケージ設定
 
@@ -345,6 +346,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - [Haskell開発環境の構築 (Windows編) - Qiita](http://qiita.com/td2sk/items/9e4b49a4a31b7138d3ad)
 - [SFDC：MavensMate for Atomを試してみました - tyoshikawa1106のブログ](http://tyoshikawa1106.hatenablog.com/entry/2015/08/30/012917)
 - [AtomでCoffeeScriptの開発環境を整える - Qiita](http://qiita.com/kyo_nanba/items/c8e5e79cb1816e8c9dba)
+- [atomをリモートサーバのエディタとして使う(nuclide-server) - Qiita](http://qiita.com/hashrock/items/2668532ece72961f2cfd)
 
 ### その他 四方山話
 

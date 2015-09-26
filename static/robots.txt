@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: http://text.baldanders.info/sitemap.xml
