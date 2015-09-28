@@ -1,7 +1,7 @@
 +++
-date = "2015-09-28T10:00:31+09:00"
+date = "2015-09-28T20:38:45+09:00"
 description = "今回は gb を使ってプロジェクト・ベースで Golang のコードを管理してみる。"
-draft = true
+draft = false
 tags = ["golang", "engineering"]
 title = "プロジェクト・ベースの開発環境をつくる"
 
