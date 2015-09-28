@@ -1,6 +1,6 @@
 +++
 date = "2015-09-28T10:00:31+09:00"
-description = "description"
+description = "今回は gb を使ってプロジェクト・ベースで Golang のコードを管理してみる。"
 draft = true
 tags = ["golang", "engineering"]
 title = "プロジェクト・ベースの開発環境をつくる"
@@ -21,13 +21,15 @@ title = "プロジェクト・ベースの開発環境をつくる"
 
 （初出： [はじめての Go 言語 (on Windows) その9 - Qiita](http://qiita.com/spiegel-im-spiegel/items/ef15a48542e043b32c99)）
 
-今回は [gb] を使ってプロジェクト・ベースで Golang のソースを管理してみる。
+今回は [gb] を使ってプロジェクト・ベースで Golang のコードを管理してみる。
 
 - [gb - A project based build tool for Go](http://getgb.io/)
 
 ## gb の導入
 
-[gb] の導入は `go get` でできる。
+[gb] の導入は `go get` でできる[^b]。
+
+[^b]: `go get` の使い方については「[go get コマンドでパッケージを管理する]({{< relref "golang/go-get-package.md" >}})」を参照のこと。
 
 ```
 C:>go get -v github.com/constabulary/gb/...
@@ -84,7 +86,7 @@ func main() {
 }
 ```
 
-### ソースコードの配置
+### ソース・ファイルの配置
 
 プロジェクト・フォルダを `C:\workspace\gbdemo` とし，ソース・ファイル用のフォルダ `src\julian-day` を作成する。
 このフォルダに上述のコードを記述したソース・ファイルを配置する。
@@ -111,7 +113,7 @@ FATAL command "build" failed: failed to resolve import path "julian-day": cannot
 プロジェクト・フォルダ以下を `GOPATH` として `modjulian` パッケージを探しているのがお分かりだろうか。
 [gb] では，実行時に既存の `GOPATH` を上書きするようである。
 またプロジェクト・フォルダ配下の `vendor` フォルダを探しているのにも注目してほしい。
-
+            
 ### 外部パッケージの導入
 
 [gb] では外部パッケージを `gb vendor` コマンドで管理できる。
@@ -143,8 +145,10 @@ C:\WORKSPACE\GBDEMO
 
 プロジェクト・フォルダ以下に `vendor` フォルダが作成され，パッケージのソースファイルが展開されている。
 
-今回 `gb vendor fetch` で取得したパッケージは [GitHub] のリポジトリから取ってきたものだが， clone ではなく，フォルダ・ファイル構成ごとコピーしてきたもののようである。
-一方，外部パッケージのリポジトリ情報は `vender\manifest` ファイルに格納されている（中身は JSON 形式）。
+今回 `gb vendor fetch` で取得したパッケージは [GitHub] のリポジトリから取ってきたものだが， `git clone` ではなく，フォルダ・ファイル構成ごとコピーしてきたもののようである。
+
+`gb vendor fetch` コマンドでは `-branch` や `-tag` や `-revision` オプションでリポジトリのブランチやタグまたはリビジョンを指定できる。
+このとき，導入したパッケージのリポジトリ情報は `vender\manifest` ファイルに格納されている（中身は JSON 形式）。
 
 ```json
 {
@@ -160,8 +164,6 @@ C:\WORKSPACE\GBDEMO
 	]
 }
 ```
-
-`gb vendor fetch` コマンド起動時には `-branch` や `-tag` や `-revision` オプションでリポジトリのブランチやタグまたはリビジョンを指定できる。
 
 ちなみに外部パッケージをアップデートする場合は `gb vendor update` コマンドを使う。
 
@@ -270,7 +272,7 @@ For more about specifying packages, see 'gb help packages'. For more about
 where packages and binaries are installed, run 'gb help project'.
 ```
 
-`-ldflags` や `-gcflags` が使えるのはありがたいかな。
+`-ldflags` や `-gcflags` オプションが使えるのはありがたいかな。
 
 ## 複数パッケージを含めたプロジェクト管理
 
@@ -381,9 +383,11 @@ C:\workspace\gbdemo>gb test -v github.com/spiegel-im-spiegel/astrocalc/modjulian
 === RUN   TestDayNumber
 --- PASS: TestDayNumber (0.00s)
 === RUN   ExampleDayNumber
---- PASS: ExampleDayNumber (0.00s)
+--- PASS: ExampleDayNumber (0.00s)                  
 PASS
 ```
+
+パッケージによっては `go test` の結果と `gb test` の結果が異なる場合があるので注意が必要。
 
 ## ブックマーク
 

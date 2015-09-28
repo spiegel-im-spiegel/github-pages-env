@@ -226,7 +226,6 @@ import "github.com/username/package"
 
 このパッケージを使って書いてみます。
 
-
 ```go
 package main
 
@@ -245,14 +244,14 @@ func main() {
 	flag.Parse()
 	argsStr := flag.Args()
 	if len(argsStr) < 3 {
-		fmt.Fprintf(os.Stderr, "年月日を指定してください")
+		fmt.Fprintln(os.Stderr, "年月日を指定してください")
 		return
 	}
 	args := make([]int, 3)
 	for i := 0; i < 3; i++ {
 		num, err := strconv.Atoi(argsStr[i])
 		if err != nil {
-			fmt.Fprintf(os.Stderr, err)
+			fmt.Fprintln(os.Stderr, err)
 			return
 		} else {
 			args[i] = num
