@@ -98,6 +98,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 
 ### エラーハンドリング
 
+- [または私は如何にして例外するのを止めて golang を愛するようになったか — KaoriYa](http://www.kaoriya.net/blog/2014/04/17/)
+- [Big Sky :: golang で複数のエラーをハンドリングする方法](http://mattn.kaoriya.net/software/lang/go/20140416212413.htm)
 - [DSAS開発者の部屋:Go ではエラーを文字列比較する？という話について](http://dsas.blog.klab.org/archives/go-errors.html) : エラーハンドリングには，定数との比較， conversion 構文による型の比較，エラー文字列の比較がある
 
 ## パッケージやサンプルコード
@@ -126,7 +128,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [GoでGoogleCalendarAPIv3を叩く（APIキー） - Qiita](http://qiita.com/yodatomato/items/8013f728bbf4358e9425)
 - [golang - cmd.Envを設定してexecしたらコケた - Qiita](http://qiita.com/8845musign/items/5c4b32f82c2df08acd93) : [`exec`](https://golang.org/pkg/os/exec/) パッケージを使う際には環境変数に注意
 - [golangで数独を解いた - Qiita](http://qiita.com/ciruzzo/items/144bc1874947441f9fb8)
-- [Golang で iso-2022-jp メールのデコード - Qiita](http://qiita.com/curious-eyes/items/3dae99e5e0feb6b9f642) : メールのデコード
+- [Golang で iso-2022-jp メールのデコード - Qiita](http://qiita.com/curious-eyes/items/3dae99e5e0feb6b9f642)
+- [Go言語の練習用にTwitterのOAuth認証をフルスクラッチしてみた - Qiita](http://qiita.com/mpyw/items/cb0f824d618d8fed384e)
 
 ### コマンドライン・ツール
 
@@ -286,7 +289,6 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 
 - [動的言語だけやってた僕が、38日間Go言語を書いて学んだこと - Qiita](http://qiita.com/suin/items/22662f43b6a6e8728798)
 - [golang - Go言語で幸せになれる10のテクニック - Qiita](http://qiita.com/ksato9700/items/6228d4eb6d5b282f82f6)
-- [または私は如何にして例外するのを止めて golang を愛するようになったか — KaoriYa](http://www.kaoriya.net/blog/2014/04/17/)
 - [これからGoを始める人のためのTips集 | The Wacul Blog](http://blog.wacul.co.jp/blog/2014/08/22/go/) : ちゃんと開発環境を整備したい場合には参考になる
 - [Golang ファーストインプレッション - Qiita](http://qiita.com/mrpepper/items/95c428f2b3c25be6b3e2)
 - [2014年夏、カヤックは、Go言語を積極的に推進していきます。 ｜ニュース｜面白法人カヤック](http://www.kayac.com/news/2014/07/golang)
