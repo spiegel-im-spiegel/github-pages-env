@@ -1,7 +1,7 @@
 +++
-date = "2015-09-29T14:16:30+09:00"
+date = "2015-09-30T00:27:48+09:00"
 description = "C++ や Java のような言語世界から来た人間（私のような）にとって [Go 言語]の「オブジェクト指向」はかなり異質なのだが，慣れてみると逆にとても合理的に見えてくる。この最たるものが error 型である。"
-draft = true
+draft = false
 tags = ["golang", "error"]
 title = "エラー・ハンドリングについて"
 
@@ -19,10 +19,10 @@ title = "エラー・ハンドリングについて"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
-C++ や Java のような言語世界から来た人間（私のような）にとって [Go 言語]の「オブジェクト指向」はかなり異質なのだが，慣れてみると逆にとても合理的に見えてくる。
+C++ や Java のような言語世界から来た（私のような）人間にとって [Go 言語]の「オブジェクト指向」はかなり異質なのだが，慣れてみると逆にとても合理的に見えてくる。
 なんで C++ や Java はこのようなアプローチをとらなかったのか不思議なほどである。
 
-この最たるものが [error] 型の扱いだ。
+この最たるものがエラー・ハンドリングだ。
 
 ## Go 言語には「例外」がない
 
@@ -42,7 +42,9 @@ C++ や Java のような言語世界から来た人間（私のような）に�
 file, err := os.Open(filename)
 ```
 
-[error] は無視することもできる（いや，ファイル・オープンのエラーを無視したらダメだけどw）。
+[error] は無視することもできる[^0]。
+
+[^0]: いや，ファイル・オープンのエラーを無視したらダメだけど（笑）
 
 ```go
 file, _ := os.Open(filename)
@@ -91,7 +93,7 @@ type error interface {
 }
 ```
 
-つまり `Error()` メソッドを保つオブジェクトなら [error] 型として使える。
+つまり `Error()` 関数を保つオブジェクトなら [error] 型として使える。
 これのいちばん簡単な実装が [`errors`] パッケージである。
 [`errors`] パッケージの中身は以下のようになっている。
 
@@ -113,7 +115,7 @@ func (e *errorString) Error() string {
 }
 ```
 
-これは実体として [string] 型の property がひとつだけあって `Error()` メソッドで property をそのまま返すというものだ。
+これは実体として [string] 型の property がひとつだけあって `Error()` 関数で property をそのまま返すというものだ。
 [Go 言語]の標準パッケージの多くはこの [`errors`] パッケージを使って [error] を定義している。
 たとえば [`os`] パッケージの最下位の [error] は以下のように定義されている。
 
@@ -152,7 +154,7 @@ func (e *PathError) Error() string { return e.Op + " " + e.Path + ": " + e.Err.E
 
 1. [error] インスタンスを比較する
 2. [error] の型を判別する
-3. `Error()` メソッドで出力される文字列を比較する
+3. `Error()` 関数で出力される文字列を比較する
 
 ### インスタンスを比較する
 
@@ -205,20 +207,23 @@ if err != nil {
 
 ### 文字列を比較する
 
-これまでの方法で判別できない場合は `Error()` メソッドで出力される文字列を比較するしかない。
+上述の方法で判別できない場合は `Error()` 関数で出力される文字列を比較するしかない。
 
 ## エラー・ハンドリングの設計
 
 エラー・ハンドリングの方針としては，以下の2つのうちのどちらかだろう。
 
-1. エラーを下位ロジックから上位ロジックまで持ち回し，最上位ロジックで最終的な判定と処理を行う
-2. 下位ロジックのエラーをカプセル化した新たなインスタンスを生成し上位ロジックに渡す。上位ロジックは直近のロジックのエラー情報のみが見える
+1. [error] を下位ロジックから上位ロジックまで持ち回し，最上位ロジックで最終的な判定と処理を行う
+2. 下位ロジックの [error] をカプセル化した新たなインスタンスを生成し上位ロジックに渡す。上位ロジックは直近のロジックの [error] のみが見える
 
-最初のやり方は一見よさげだが，この方針では上位ロジックが下位ロジックの全てのエラーを把握している必要があり現実的でない。
+最初のやり方は一見よさげだが，この方針では上位ロジックが下位ロジックの全ての [error] を把握している必要があり現実的でない。
 またオブジェクト指向設計では “Don't talk to strangers” の原則があり，いわゆる「友達の友達」のことは知らないふりをするのがよい設計と言われている。
 
 こう考えると文字列での比較は最も下策であると言える。
 また，型を判別する場合でも，安易に下位レイヤの [error] を見せるのではなく，必要な状態を返す関数を実装するほうが上策と言えるだろう。
+
+もうひとつ考慮すべき点としてエラー・メッセージの設計が挙げられるだろう。
+[error] に対するメッセージをどのように設計するかは（大規模アプリケーションでは特に）重要である。
 
 ## ブックマーク
 
@@ -233,6 +238,5 @@ if err != nil {
 [`errors`]: https://golang.org/pkg/errors/ "errors - The Go Programming Language"
 [interface]: https://golang.org/doc/effective_go.html#interfaces_and_types "Effective Go - The Go Programming Language"
 [string]: http://golang.org/ref/spec#String_types
-[`errors`]: https://golang.org/pkg/errors/ "errors - The Go Programming Language"
 [`os`]: https://golang.org/pkg/os/ "os - The Go Programming Language"
 [Conversion]: https://golang.org/ref/spec#Conversions "The Go Programming Language Specification - The Go Programming Language"

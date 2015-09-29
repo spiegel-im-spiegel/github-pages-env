@@ -1,7 +1,7 @@
 +++
-date = "2015-09-28T15:21:49+09:00"
+date = "2015-09-29T23:40:59+09:00"
 description = "go get コマンドは外部パッケージの revision 等をコントロールできず，常に repository の最新コードを取ってこようとする。GOPATH 内に複数のプロジェクトが同居している場合は同じ外部パッケージでもプロジェクトごとに異なるリビジョンを要求する場合があり，管理が煩雑になってしまう。"
-draft = true
+draft = false
 tags = ["golang", "engineering", "environment", "pollution", "vendoring"]
 title = "GOPATH 汚染問題"
 
