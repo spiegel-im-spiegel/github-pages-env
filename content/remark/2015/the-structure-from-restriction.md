@@ -1,8 +1,8 @@
 +++
-date = "2015-09-30T16:15:57+09:00"
-description = "description"
-draft = true
-tags = ["engineering", "programming"]
+date = "2015-09-30T20:33:14+09:00"
+description = "制約は programmable である"
+draft = false
+tags = ["engineering", "programming", "error", "exception"]
 title = "制約は構造を生む"
 
 [author]
