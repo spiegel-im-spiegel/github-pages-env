@@ -252,7 +252,7 @@ C:\workspace\vdemo>bin\julian-day.exe 2015 1 1
 MJD = 57023日
 ```
 
-注意する点は， `go get` は git の submodule を上手く扱えないため， `vendor` フォルダ以下のパッケージを submodule として配置している場合はビルドに失敗する。
+注意が必要なのは， `go get` は git の submodule を上手く扱えないため， `vendor` フォルダ以下のパッケージを submodule として配置している場合はビルドに失敗することだ。
 この場合は `-d` オプションで `go get` がビルドまで行わないようにし，手動で submodule の `init` と `update` を行う必要がある。
 
 ```
