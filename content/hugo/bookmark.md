@@ -40,6 +40,9 @@ flattr    = "spiegel"
     - [Hugoでサイト構築(5) そのままコピーする'static'フォルダ | Watanabe-DENKI Inc. 渡辺電気株式会社](http://wdkk.co.jp/note/2015/0818-hugo-static/)
     - [Hugoでサイト構築(6) publicへの記事出力について | Watanabe-DENKI Inc. 渡辺電気株式会社](http://wdkk.co.jp/note/2015/0824-hugo-public/)
     - [Hugoでサイト構築(7) Sectionで記事を分類する | Watanabe-DENKI Inc. 渡辺電気株式会社](http://wdkk.co.jp/note/2015/0831-hugo-section/)
+    - [Hugoでwebサイト構築(8) Sectionのリスト | Watanabe-DENKI Inc. 渡辺電気株式会社](http://wdkk.co.jp/note/2015/0914-hugo-section/)
+    - [Hugoでwebサイト構築(9) リストのページネーション(Pagination) | Watanabe-DENKI Inc. 渡辺電気株式会社](http://wdkk.co.jp/note/2015/0915-hugo-pagination/)
+    - [Hugoでwebサイト構築(10) データファイル(パラメータを作る) | Watanabe-DENKI Inc. 渡辺電気株式会社](http://wdkk.co.jp/note/2015/0917-hugo-datafile/)
 
 ## テーマなど{#themes}
 
@@ -74,6 +77,7 @@ flattr    = "spiegel"
 - [metalsmith - 静的サイトジェネレータを比較してみた - Qiita](http://qiita.com/tamano/items/d3be25027c9b80bbfb7a) : Hugo を含めた比較記事。
 - [Hugoではテーマを指定しないとindex.htmlのサイズがゼロで作成される - Qiita](http://qiita.com/kakkyz81/items/75bcaace6bcaa38373ba)
 - [MovableTypeからHugoにブログ記事を移管するために下調べしたのでまとめ - Qiita](http://qiita.com/DQNEO/items/7c05252fa434c861d938)
-- [Hugo のテンプレート 基本 | My Blog](http://takunagai.github.io/post/hugo/template/)
+- [WindowsでHugoを使う - ureta.net](http://ureta.net/2015/05/hugo-on-windows/)
+- [Hugo のテンプレート 基本 | My Blog](http://takunagai.github.io/post/hugo/template/)
 
 [Hugo]: http://gohugo.io/ "Hugo :: A fast and modern static website engine"

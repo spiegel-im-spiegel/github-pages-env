@@ -307,6 +307,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - [Atomでvim-modeのカーソルが見辛いのを解消する - Qiita](http://qiita.com/74th/items/e9bebcdc9d979f1c6b44)
 - [ATOM - 1つのキーバインドで、同時に複数のコマンドを実行する - Qiita](http://qiita.com/74th/items/160b011bbfcac77d4e3c)
 - [atomで最終行を改行させない - Qiita](http://qiita.com/bouzuao/items/c4b6c49c13c2d1ad54f3)
+- [Atomをvimっぽくするプラグイン5選 - Qiita](http://qiita.com/ikaro1192/items/d477c7153a4d3af9f209)
 
 ### 各種パッケージ設定
 
