@@ -330,9 +330,11 @@ Press Ctrl+C to stop
 たとえば `{{ .Title }}` にはタイトルが入る。
 今回はトップページなので， `config.toml` で `title` に設定した文字列が入る。
 
-`{{ with .Site.LanguageCode }} ... {{ else }} ... {{ end }}` はいわゆる with 構文ってやつ。
+`{{ with .Site.LanguageCode }} ... {{ else }} ... {{ end }}` はいわゆる with 構文ってやつ[^a]。
 これ便利だよね。ちなみに `with` で指定する変数が存在しない場合は `{{ else }}` 以降が走る。
 似た書式で `{{ if .Site.LanguageCode }} ... {{ else }} ... {{ end }}` もあるが， `with` とは変数のスコープが異なるので注意（慣れるまでは結構ハマった）。
+
+[^a]: 言語コードの指定の仕方は「[言語コードと国コード](http://www.kanzaki.com/docs/html/lang.html)」が参考になる。日本の場合は `jp` ではなく `ja`。
 
 ```html
 {{ if .Site.LanguageCode }}<html lang="{{ .Site.LanguageCode }}">{{ else }}<html>{{ end }}
