@@ -28,6 +28,6 @@ title = "ブログ機能移転に関する TODO"
 <li><input type="checkbox" name="todo" id="todo3" disabled="true"> <a href="https://ifttt.com/">IFTTT</a> のレシピから<a href="http://www.baldanders.info/archives.shtml">旧ブログ記事</a>関連のものを削除</li>
 <li><input type="checkbox" name="todo" id="todo4" disabled="true"> その後，本家の RSS を <a href="http://text.baldanders.info/index.xml">text.Baldanders.info</a> にリダイレクト</li>
 <li><input type="checkbox" name="todo" id="todo5" disabled="true"> 関連 cron （主に DB のバックアップ）の停止</li>
-<li><input type="checkbox" name="todo" id="todo4" disabled="true"> 本サイトの「プレ・オープン」表記を外す</li>
+<li><input type="checkbox" name="todo" id="todo4" disabled="true" checked="checked"> 本サイトの「プレ・オープン」表記を外す</li>
 </ul>
 
