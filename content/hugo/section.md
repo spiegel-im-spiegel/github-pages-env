@@ -2,7 +2,7 @@
 title       = "Categories, Tags そして Section"
 description = "前回の続き。今回は Categories, Tags そして Section について書いてみる。"
 date        = "2015-09-11T17:58:32+09:00"
-update      = "2015-09-24T12:48:00+09:00"
+update      = "2015-10-02T07:54:00+09:00"
 tags        = [ "hugo", "categories", "tags", "taxonomy", "section" ]
 draft = false
 
@@ -130,7 +130,7 @@ C:\HUGO-ENV\WWW
 
 ```html:public/categories/hugo/index.html
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
 <meta charset="utf-8">
 <title>List of Hugo -- Hello World!</title>
@@ -178,7 +178,7 @@ C:\HUGO-ENV\WWW
 
 ```html:public/hello/index.html
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
 <meta charset="utf-8">
 <title>Hello! -- Hello World!</title>
@@ -360,7 +360,7 @@ C:\HUGO-ENV\WWW
 
 ```html:public/practice/index.html
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
 <meta charset="utf-8">
 <title>List of Practices -- Hello World!</title>
@@ -410,7 +410,7 @@ Section と Categories/Tags を組み合わせれば縦串と横串で記事を�
 
 ```html:public/practice/hello/index.html
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
 <meta charset="utf-8">
 <title>Hello! -- practice -- Hello World!</title>
@@ -484,7 +484,7 @@ C:\HUGO-ENV\WWW
 
 ```html:public/practice/firstcode/hello/index.html
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
 <meta charset="utf-8">
 <title>Hello! -- practice -- Hello World!</title>
@@ -534,7 +534,7 @@ C:\HUGO-ENV\WWW
 
 ```html:public/practice/index.html
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
 <meta charset="utf-8">
 <title>Hugo の練習 -- Hello World!</title>
@@ -576,7 +576,7 @@ C:\HUGO-ENV\WWW
 
 ```html:public/practice/hello/index.html
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
 <meta charset="utf-8">
 <title>Hello! -- Hugo の練習 | Hello World!</title>

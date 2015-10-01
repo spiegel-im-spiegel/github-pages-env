@@ -2,7 +2,7 @@
 title       = "インストールから Hello World まで"
 description = "自サイトのブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。ここではその時のメモを公開する。"
 date        = "2015-09-11T17:58:23+09:00"
-update      = "2015-09-12T12:25:00+09:00"
+update      = "2015-10-02T07:53:00+09:00"
 tags        = [ "hugo", "install", "helloworld" ]
 draft = false
 
@@ -176,7 +176,7 @@ title = "My New Hugo Site"
 
 ```toml:config.toml
 baseurl = "http://hello.example.com/"
-languageCode = "jp"
+languageCode = "ja"
 title = "Hello World!"
 ```
 
@@ -342,7 +342,7 @@ Press Ctrl+C to stop
 
 ```html:public/index.html
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
 <meta charset="utf-8">
 <title>Hello World!</title>
@@ -397,7 +397,7 @@ Press Ctrl+C to stop
 
 ```html:public/404.html
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
 <meta charset="utf-8">
 <meta name="generator" content="Hugo 0.15-DEV" />
@@ -524,7 +524,7 @@ C:\HUGO-ENV\WWW
 
 ```html:public/hello/index.html
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
 <meta charset="utf-8">
 <title>Hello! -- Hello World!</title>
@@ -570,7 +570,7 @@ Feed はこんな感じ。
 
 ```html:public/hello/index.html
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
 <meta charset="utf-8">
 <title> -- Hello World!</title>
@@ -642,7 +642,7 @@ Feed はこんな感じ。
 
 ```html:public/index.html
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
 <meta charset="utf-8">
 <title>Hello World!</title>
@@ -715,7 +715,7 @@ C:\HUGO-ENV\WWW
 
 ```html:public/index.html
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
 <meta charset="utf-8">
 <title>Hello World!</title>
@@ -748,7 +748,7 @@ title = "Hello! Part 2"
 +++
 
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
 <meta charset="utf-8">
 <title>Hello! Part 2 -- Hello World!</title>
@@ -765,7 +765,7 @@ title = "Hello! Part 2"
 
 ```html:public/index.html
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
 <meta charset="utf-8">
 <title>Hello World!</title>
@@ -790,7 +790,7 @@ title = "Hello! Part 2"
 
 ```html:public/hello2/index.html
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
 <meta charset="utf-8">
 <title>Hello! Part 2 -- Hello World!</title>
@@ -798,7 +798,7 @@ title = "Hello! Part 2"
 <body>
 <h1>Hello! Part 2</h1>
 <div><!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
 <meta charset="utf-8">
 <title>Hello! Part 2 -- Hello World!</title>
@@ -831,7 +831,7 @@ title = "Hello! Part 2"
 
 ```html:public/hello2/index.html
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
 <meta charset="utf-8">
 <title>Hello! Part 2 -- Hello World!</title>

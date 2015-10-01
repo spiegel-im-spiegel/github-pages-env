@@ -1,7 +1,7 @@
 +++
 title = "Theme を利用する"
 date = "2015-09-11T17:59:18+09:00"
-update = "2015-09-12T12:25:00+09:00"
+update = "2015-10-02T07:56:00+09:00"
 description = "前々回，前回とちょっと飛ばしすぎたので今回は軽めに theme の話題を。"
 tags = [ "hugo", "theme" ]
 draft = false
@@ -77,7 +77,7 @@ in 72 ms
 
 ```toml:config.toml
 baseurl = "http://hello.example.com/"
-languageCode = "jp"
+languageCode = "ja"
 title = "Hello World!"
 theme = "html5"
 ```

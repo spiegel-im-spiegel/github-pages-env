@@ -1,5 +1,6 @@
 +++
 date = "2015-09-25T11:14:44+09:00"
+update = "2015-10-02T07:55:00+09:00"
 description = "今回は Template について，もう少しだけ詳しく紹介してみる。"
 draft = false
 tags = [ "hugo", "template" ]
@@ -70,7 +71,7 @@ in 21 ms
 
 ```html
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
