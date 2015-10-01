@@ -42,7 +42,7 @@ title = "オトナの社会科見学： 中秋の月山富田城跡"
 さて，今回は割と近場なので（四国の宇和島とかに比べればね）昼前には現地に到着。
 早速，山中鹿介くんがお出迎え。
 
-{{< fig-flickr src="https://farm6.staticflickr.com/5653/21136614083_b4b6e07de7.jpg" alt="鹿之助くん自販機" title="鹿之助くん自販機" link="https://www.flickr.com/photos/spiegel/21136614083/" >}}
+{{< fig-img flickr="true" src="https://farm6.staticflickr.com/5653/21136614083_b4b6e07de7.jpg" alt="鹿之助くん自販機" title="鹿之助くん自販機" link="https://www.flickr.com/photos/spiegel/21136614083/" >}}
 
 道の駅でブラブラしたあと
 
@@ -53,7 +53,7 @@ title = "オトナの社会科見学： 中秋の月山富田城跡"
 
 さっそく「登山」ですよ。
 
-{{< fig-flickr src="https://farm1.staticflickr.com/590/21745986372_5645414e13.jpg" alt="月山登るよ" title="月山登るよ" link="https://www.flickr.com/photos/spiegel/21745986372/" >}}
+{{< fig-img flickr="true" src="https://farm1.staticflickr.com/590/21745986372_5645414e13.jpg" alt="月山登るよ" title="月山登るよ" link="https://www.flickr.com/photos/spiegel/21745986372/" >}}
 
 まずは千畳平へ。
 着いた途端，いきなり記憶がフラッシュバックした。
@@ -81,7 +81,7 @@ title = "オトナの社会科見学： 中秋の月山富田城跡"
 別の記憶とリンクしているものもあった。
 山中御殿跡。
 
-{{< fig-flickr src="https://farm1.staticflickr.com/575/21135364294_b0d24d89b0.jpg" alt="兵どもが..." title="兵どもが..." link="https://www.flickr.com/photos/spiegel/21135364294/" >}}
+{{< fig-img flickr="true" src="https://farm1.staticflickr.com/575/21135364294_b0d24d89b0.jpg" alt="兵どもが..." title="兵どもが..." link="https://www.flickr.com/photos/spiegel/21135364294/" >}}
 
 この光景では別の思い出がフラッシュバックした。
 実はここ20代の終わりにお見合いで来たことがあるのだ。
@@ -115,7 +115,7 @@ title = "オトナの社会科見学： 中秋の月山富田城跡"
 昼飯食ってないよ。
 ちうわけで，[どじょう亭](http://www.y-engeikan.com/04_ryouri.html)へ。
 
-{{< fig-flickr src="https://farm1.staticflickr.com/698/21746465042_21f06374f4.jpg" alt="どぜう" title="どぜう" link="https://www.flickr.com/photos/spiegel/21746465042/" >}}
+{{< fig-img flickr="true" src="https://farm1.staticflickr.com/698/21746465042_21f06374f4.jpg" alt="どぜう" title="どぜう" link="https://www.flickr.com/photos/spiegel/21746465042/" >}}
 
 いや正直に言って，どじょうどうなの？ って思ったけど，美味かったね。
 「まるごと安来丼」はお薦め。
@@ -125,10 +125,10 @@ title = "オトナの社会科見学： 中秋の月山富田城跡"
 
 隣の土産物屋でもさんざん遊んだ挙句，夕方になったので，[富田山荘で入浴](http://fureai.shikanosuke.net/gassan/tdhigaeri.htm)。
 
-{{< fig-flickr src="https://farm6.staticflickr.com/5796/21746467032_932719aa9e.jpg" alt="風呂上がりの木次牛乳" title="風呂上がりの木次牛乳" link="https://www.flickr.com/photos/spiegel/21746467032/" >}}
+{{< fig-img flickr="true" src="https://farm6.staticflickr.com/5796/21746467032_932719aa9e.jpg" alt="風呂上がりの木次牛乳" title="風呂上がりの木次牛乳" link="https://www.flickr.com/photos/spiegel/21746467032/" >}}
 
 外に出ると中秋の名月がお出ましの時刻になっていたのでした。
 
-{{< fig-flickr src="https://farm6.staticflickr.com/5741/21571253159_164dd1783b.jpg" alt="旅先で中秋の名月" title="旅先で中秋の名月" link="https://www.flickr.com/photos/spiegel/21571253159/" >}}
+{{< fig-img flickr="true" src="https://farm6.staticflickr.com/5741/21571253159_164dd1783b.jpg" alt="旅先で中秋の名月" title="旅先で中秋の名月" link="https://www.flickr.com/photos/spiegel/21571253159/" >}}
 
 いやぁ，今回も堪能しました。

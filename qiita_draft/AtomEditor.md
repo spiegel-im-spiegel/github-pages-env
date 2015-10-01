@@ -262,6 +262,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - スクラッチパッドみたいなんないのん？ と思ってたら，そのものズバリ [scratchpad](https://atom.io/packages/scratchpad) があった。が，入れてみたら [deprecation-cop](https://atom.io/packages/deprecation-cop) が起こる怒る（笑） 今のバージョンに合ってないのかな？
 - 特定の単語をマークしておける [quick-highlight](https://atom.io/packages/quick-highlight) が結構使える。 Windows だとキーに割り当てられないので、 toggle を適当なファンクションキーとかに割り当てておくとめっさ便利。
 - むむっ。 [latex](https://atom.io/packages/latex) パッケージなるものがあるなぁ。
+- [tablr](https://atom.io/packages/tablr) : CSV Editor。なにこれ素敵！
 
 ## 継続調査（欲しい機能）
 
