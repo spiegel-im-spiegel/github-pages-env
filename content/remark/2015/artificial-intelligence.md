@@ -1,7 +1,7 @@
 +++
-date = "2015-10-01T11:49:11+09:00"
+date = "2015-10-01T20:47:00+09:00"
 description = "「人工知能に人類と協力する目的を持たせる」にしろ「人工知能の開発は人類がコントロールできるように進める」にしろ，人工知能が「ハイル・ヒトラー」と叫ぶ可能性は排除できない。"
-draft = true
+draft = false
 tags = ["engineering", "intelligence"]
 title = "人工知能は「ハイル・ヒトラー」と叫ぶか"
 
@@ -80,6 +80,16 @@ title = "人工知能は「ハイル・ヒトラー」と叫ぶか"
 
 結局これはいつもの「技術の両義性」の話だ。
 「人工知能に人類と協力する目的を持たせる」にしろ「人工知能の開発は人類がコントロールできるように進める」にしろ，人工知能が「ハイル・ヒトラー」と叫ぶ可能性は排除できない。
+
+と，ここまで書いて気がついた。
+これって「究極超人あ～る」ぢゃん（笑）
+
+## ブックマーク
+
+- [人工知能「IBM Watson」は何に使われているのか？ - ZDNet Japan](http://japan.zdnet.com/article/35070557/)
+- [「Watson」は科学的根拠に基づいて結論を出す、言うなれば“その道の専門家”だ - ZDNet Japan](http://japan.zdnet.com/article/35071319/)
+
+## 参考文献
 
 <div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4000280872/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/31e2h91IUWL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4000280872/baldandersinf-22/">イノベーション 悪意なき嘘 (双書 時代のカルテ)</a></dt><dd>名和 小太郎 </dd><dd>岩波書店 2007-01-11</dd><dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
 <p class="description">「両用技術とはどのようなものか。その核心には「矛と楯の論理」がある」（本書より）</p>
