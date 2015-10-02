@@ -2,7 +2,7 @@
 title       = "Hugo に関するブックマーク"
 description = "当サイトを Hugo で構築するにあたって参考になったページを紹介する。"
 date        = "2015-09-05T00:00:00+09:00"
-update      = "2015-09-30T20:10:00+09:00"
+update      = "2015-10-03T00:26:00+09:00"
 tags        = [ "hugo", "bookmark" ]
 
 [author]
@@ -47,6 +47,7 @@ flattr    = "spiegel"
 ## テーマなど{#themes}
 
 - [Hugo Zen: これから Hugo を始める人向けのミニマムなテーマを作りました - rakuishi.com](http://rakuishi.com/archives/hugo-zen/)
+- [シンプルなHugoのテーマ「Angel's Ladder」を作りました | TANKSUZUKI.COM](http://tanksuzuki.com/post/hugo-theme-angels-ladder/)
 
 ## 継続的インテグレーション {#ci}
 
