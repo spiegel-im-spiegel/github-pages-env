@@ -14,7 +14,7 @@
 <div><strong>{{ with .Section }}<a href="/{{ . | urlize }}">しっぽのさきっちょ</a>{{ end }}{{ with .Date }}: {{ .Format "2006-01-02" }} 付{{ end }}</strong></div>
 <section>
 <h1 itemprop='name'>{{ .Title }}</h1>
-<nav class="tags">{{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ . | urlize }}">#{{ . }}</a>{{ end }}</div>{{ end }}</nav>
+<nav class="tags">{{ with .Params.tags }}<div><a href="/tags">Tags</a>:{{ range . }} <a href="/tags/{{ . | urlize }}">#{{ . }}</a>{{ end }}</div>{{ end }}</nav>
 {{ .Content }}
 </section>
 </article>

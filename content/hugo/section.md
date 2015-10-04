@@ -2,7 +2,7 @@
 title       = "Categories, Tags そして Section"
 description = "前回の続き。今回は Categories, Tags そして Section について書いてみる。"
 date        = "2015-09-11T17:58:32+09:00"
-update      = "2015-10-02T07:54:00+09:00"
+update      = "2015-10-04T19:54:00+09:00"
 tags        = [ "hugo", "categories", "tags", "taxonomy", "section" ]
 draft = false
 
@@ -32,7 +32,7 @@ flattr    = "spiegel"
 [Hugo] では記事に Categories および Tags を設定することができる。
 以下のように記述すれば良い。
 
-```markdown:content\hello.md
+```markdown
 +++
 date = "2015-09-05T16:40:41+09:00"
 draft = false
@@ -106,7 +106,7 @@ C:\HUGO-ENV\WWW
 `index.html` は（テンプレートがないため）この時点では空である。テンプレートは `layouts/_default` フォルダに `list.html` ファイルを配置する。
 名前からして Categories/Tags 毎に記事を列挙することを期待しているわけやね（笑） とりあえず中身はこんな感じでどうだろう。
 
-```html:layouts/_default/list.html
+```html
 <!DOCTYPE html>
 {{ with .Site.LanguageCode }}<html lang="{{ . }}">{{ else }}<html>{{ end }}
 <head>
@@ -128,7 +128,7 @@ C:\HUGO-ENV\WWW
 
 ビルド結果はこんな感じ。
 
-```html:public/categories/hugo/index.html
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -154,8 +154,9 @@ C:\HUGO-ENV\WWW
 違うのは `{{ .Title }}` には Categories/Tags のキーワードが入ることと `{{ range }}` 構文の対象変数が `.Site.Pages` ではなく `.Data.Pages` であることだ。
 
 ついでに記事ページで Categories/Tags を表示できるようにしてみよう。
+`layouts/_default/single.html` を以下のように記述する。
 
-```html:layouts/_default/single.html
+```html
 <!DOCTYPE html>
 {{ with .Site.LanguageCode }}<html lang="{{ . }}">{{ else }}<html>{{ end }}
 <head>
@@ -176,7 +177,7 @@ C:\HUGO-ENV\WWW
 
 以下がビルド結果。
 
-```html:public/hello/index.html
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -217,7 +218,7 @@ Categories/Tags は標準機能なのだが，どういうわけかこれだけ 
 
 ちなみに `config.toml` によるサイト設定では `.Site.Params` への暗黙的な組み換えは行われないため，明示的に記述する必要がある。
 
-```toml:config.toml
+```toml
 [params]
 author = "Spiegel"
 ```
@@ -227,11 +228,11 @@ author = "Spiegel"
 ### Taxonomy{#taxonomy}
 
 [Hugo] には Taxonomy と呼ばれる機能があって，標準では Categories/Tags のリストを取り出すことができる[^b]。
-たとえば，こんな感じに書く。
+たとえば， `layouts/index.html` をこんな感じに書く。
 
 [^b]: Taxonomy の項目は Categories/Tags 以外にも任意に設定することができる（{{% quote lang="en" %}}[Using Taxonomies](https://gohugo.io/taxonomies/usage/){{% /quote %}} 参照）。
 
-```html:layouts/index.html
+```html
 <h2>Taxonomy Terms</h2>
 <ul>{{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
     <li>{{ $taxonomyname }}
@@ -246,7 +247,7 @@ author = "Spiegel"
 
 これをビルドするとこんな感じに展開される。
 
-```html:public/index.html
+```html
 <h2>Taxonomy Terms</h2>
 <ul>
     <li>categories
@@ -274,7 +275,7 @@ author = "Spiegel"
 
 Tags の一覧のみを取得したいのであれば，もっと簡単に
 
-```html:layouts/index.html
+```html
 <h2>Tags</h2>
 <ul>{{ range $key, $value := .Site.Taxonomies.tags.ByCount }}
 	<li>#<a href="/tags/{{ $key | urlize }}">{{ $key }}</a> ({{ $value.Count }})</li>
@@ -358,7 +359,7 @@ C:\HUGO-ENV\WWW
 `hello/index.html` が `practice/hello/index.html` に配置されるのは予想通りだと思うが， `practice` に `index.html` と `index.xml` が生成されているのがおわかりだろうか。
 `practice/index.html` の中身はこんな感じ。
 
-```html:public/practice/index.html
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -386,8 +387,9 @@ C:\HUGO-ENV\WWW
 Section と Categories/Tags を組み合わせれば縦串と横串で記事を指示できるようになる。
 
 ついでに記事ページで Section を表示できるようにしてみよう。
+たとえば， `layouts/_default/single.html` をこんな感じに書く。
 
-```html:layouts/_default/single.html
+```html
 <!DOCTYPE html>
 {{ with .Site.LanguageCode }}<html lang="{{ . }}">{{ else }}<html>{{ end }}
 <head>
@@ -408,7 +410,7 @@ Section と Categories/Tags を組み合わせれば縦串と横串で記事を�
 
 以下がビルド結果。
 
-```html:public/practice/hello/index.html
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -482,7 +484,7 @@ C:\HUGO-ENV\WWW
 └─static
 ```
 
-```html:public/practice/firstcode/hello/index.html
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -490,7 +492,7 @@ C:\HUGO-ENV\WWW
 <title>Hello! -- practice -- Hello World!</title>
 </head>
 <body>
-<h1>Hello! [practice]</h1>
+<h1>Hello! [<a href="/practice/">practice</a>]</h1>
 <nav>
 	<div>Categories: <a href="/categories/hugo/">hugo</a></div>
 	<div>Tags: <a href="/tags/hello/">#hello</a> <a href="/tags/world/">#world</a></div>
@@ -508,9 +510,9 @@ C:\HUGO-ENV\WWW
 
 [Hugo] では Section ごとにカスタマイズすることができる。
 `layouts` フォルダに `section` フォルダを作成し，その中に `<section name>.html` ファイルを作成すると，そのテンプレートで Section のトップページ（`<section name>/index.html`）を作成する。
-今回は `practice.html` を作成してみる。
+今回は `layouts/section/practice.html` を作成してみる。
 
-```html:layouts/section/practice.html
+```html
 <!DOCTYPE html>
 {{ with .Site.LanguageCode }}<html lang="{{ . }}">{{ else }}<html>{{ end }}
 <head>
@@ -532,7 +534,7 @@ C:\HUGO-ENV\WWW
 
 ビルド結果。変わり映えしなくてすみません。
 
-```html:public/practice/index.html
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -555,7 +557,7 @@ C:\HUGO-ENV\WWW
 更に Section 内の記事ページもカスタマイズできる。
 これは `layouts` フォルダに Section 名のフォルダを作成し，その中に `single.html` を配置する。
 
-```html:layouts/practice/single.html
+```html
 <!DOCTYPE html>
 {{ with .Site.LanguageCode }}<html lang="{{ . }}">{{ else }}<html>{{ end }}
 <head>
@@ -574,7 +576,7 @@ C:\HUGO-ENV\WWW
 <html>
 ```
 
-```html:public/practice/hello/index.html
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>

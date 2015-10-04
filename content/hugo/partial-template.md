@@ -1,6 +1,6 @@
 +++
 date = "2015-09-25T11:14:44+09:00"
-update = "2015-10-02T07:55:00+09:00"
+update = "2015-10-04T19:56:00+09:00"
 description = "今回は Template について，もう少しだけ詳しく紹介してみる。"
 draft = false
 tags = [ "hugo", "template" ]
@@ -175,6 +175,10 @@ C:\HUGO-ENV\WWW\THEMES\HUGO-THEME-TEXT
 ├─archetypes
 │      default.md
 │
+├─images
+│      screenshot.png
+│      tn.png
+│
 ├─layouts
 │  │  index.html
 │  │  rss.xml
@@ -198,6 +202,7 @@ C:\HUGO-ENV\WWW\THEMES\HUGO-THEME-TEXT
 │  └─_default
 │          list.html
 │          single.html
+│          terms.html
 │
 └─static
     ├─css
