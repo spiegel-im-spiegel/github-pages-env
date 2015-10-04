@@ -2,7 +2,7 @@
 title       = "Categories, Tags そして Section"
 description = "前回の続き。今回は Categories, Tags そして Section について書いてみる。"
 date        = "2015-09-11T17:58:32+09:00"
-update      = "2015-10-04T19:54:00+09:00"
+update      = "2015-10-04T23:03:00+09:00"
 tags        = [ "hugo", "categories", "tags", "taxonomy", "section" ]
 draft = false
 
@@ -285,6 +285,8 @@ Tags の一覧のみを取得したいのであれば，もっと簡単に
 でもよい。
 ちなみに `.Site.Taxonomies.tags.ByCount` は Tags の一覧をタグされている記事数の順で sort したものである。
 アルファベット順にするには `.Site.Taxonomies.tags.Alphabetical` とする。
+
+（追記： Categories/Tags の一覧ページを作る方法は[こちら]({{< relref "hugo/categories-and-tags-list.md" >}})）
 
 ## Section{#section}
 
