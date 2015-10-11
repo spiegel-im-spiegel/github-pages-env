@@ -107,6 +107,10 @@ Markdown ファイルの場合は Soft Wrap を無効にしても， Preferred L
 
 しょうがないので [japanese-wrap](https://atom.io/packages/japanese-wrap) をを入れた。公開してくださった方に感謝。
 
+[wrap-style](https://atom.io/packages/wrap-style) というパッケージがあるらしい？
+
+- [Atomで上手にwarpを刻んでくれるwrap-styleを開発しました。 - Qiita](http://qiita.com/raccy/items/4678af4020189366a297)
+
 ### EditorConfig のススメ
 
 - [EditorConfig]
