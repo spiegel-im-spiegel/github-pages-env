@@ -34,7 +34,7 @@
 <section>
 <h3 itemprop='name'>最近の記事</h3>
 <ul style="list-style:none;">
-{{ range first 5 (where .Site.Pages "Section" "==" "remark") }}{{ partial "li-section.html" . }}{{ end }}
+{{ range first 1 (where .Site.Pages "Section" "==" "remark") }}{{ partial "li-section.html" . }}{{ end }}
 </ul>
 </section> <!-- 最近の記事 -->
 </section> <!-- しっぽのさきっちょ -->
@@ -48,7 +48,7 @@
 <section>
 <h3 itemprop='name'>最近の記事</h3>
 <ul style="list-style:none;">
-{{ range first 5 (where .Site.Pages "Section" "==" "hugo") }}{{ partial "li-section.html" . }}{{ end }}
+{{ range first 1 (where .Site.Pages "Section" "==" "hugo") }}{{ partial "li-section.html" . }}{{ end }}
 </ul>
 </section> <!-- 最近の記事 -->
 </section> <!-- ゼロから始める Hugo -->
@@ -59,7 +59,7 @@
 <section>
 <h3 itemprop='name'>最近の記事</h3>
 <ul style="list-style:none;">
-{{ range first 5 (where .Site.Pages "Section" "==" "golang") }}{{ partial "li-section.html" . }}{{ end }}
+{{ range first 1 (where .Site.Pages "Section" "==" "golang") }}{{ partial "li-section.html" . }}{{ end }}
 </ul>
 </section> <!-- 最近の記事 -->
 </section> <!-- プログラミング言語 Go -->
