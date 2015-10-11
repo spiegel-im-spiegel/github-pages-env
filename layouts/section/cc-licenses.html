@@ -1,0 +1,28 @@
+{{ partial "top.html" . }}
+<head>
+{{ partial "header.html" . }}
+<title>改訂版： CC-License について - {{ .Site.Title }}</title>
+<meta name="description" content="本家サイトのブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。ここではその時のメモを公開する。">
+</head>
+<body>
+{{ partial "prepare.html" . }}
+<div id='container'><!-- Container Area -->
+{{ partial "banner.html" . }}
+
+<main role="main">
+<article itemscope itemtype='http://schema.org/Blog' itemref='maker'>
+<h1 itemprop='name'>改訂版： CC-License について <a href='{{ .RSSLink }}' title='Feed'><i class='fa fa-rss'></i></a></h1>
+<p itemprop='description'>
+<a href="http://www.baldanders.info/">本家サイト</a>の「<a href="http://www.baldanders.info/spiegel/archive/cc-license/">クリエイティブ・コモンズ・ライセンスについて</a>」を大幅リニューアル。
+</p>
+<ol>
+{{ range .Data.Pages.ByDate }}{{ partial "li-section.html" . }}{{ end }}
+</ol>
+</article>
+</main>
+
+{{ partial "footer.html" . }}
+</div><!-- Container Area -->
+{{ partial "cleanup.html" . }}
+</body>
+{{ partial "end.html" . }}

@@ -1,0 +1,28 @@
+{{ partial "top.html" . }}
+<head>
+{{ partial "header.html" . }}
+<title>{{ .Title }} - 改訂版： CC-License について | {{ .Site.Title }}</title>
+{{ if .Description }}<meta name="description" content="{{ .Description }}">{{ else }}<meta name="description" content="CC-License について。">{{ end }}
+</head>
+<body>
+{{ partial "prepare.html" . }}
+<div id='container'><!-- Container Area -->
+{{ partial "banner.html" . }}
+
+<main role="main">
+<article itemscope itemtype='http://schema.org/BlogPosting' itemref='maker'>
+<section>
+<h1 itemprop='name'>{{ .Title }}{{ with .Section }} - <a href="/{{ . | urlize }}">改訂版： CC-License について</a>{{ end }}</h1>
+<nav class="tags">{{ with .Params.tags }}<div><a href="/tags">Tags</a>:{{ range . }} <a href="/tags/{{ . | urlize }}">#{{ . }}</a>{{ end }}</div>{{ end }}</nav>
+{{ .Content }}
+</section>
+</article>
+</main>
+
+{{ partial "e-words.html" . }}
+{{ partial "feedback.html" . }}
+{{ partial "footer.html" . }}
+</div><!-- Container Area -->
+{{ partial "cleanup.html" . }}
+</body>
+{{ partial "end.html" . }}
