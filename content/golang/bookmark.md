@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2015-09-30T20:12:00+09:00"
+update = "2015-10-09T17:53:00+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -263,6 +263,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [golang - gbを知ったのでgojiを使ったWEBアプリケーションプロジェクトを管理してみた - Qiita](http://qiita.com/shinofara/items/ac0591fef95c2c6e936e)
 - [Building Go projects with gb - Supermighty](https://walledcity.com/supermighty/building-go-projects-with-gb)
 - [Go言語のDependency/Vendoringの問題と今後．gbあるいはGo1.5 | SOTA](http://deeeet.com/writing/2015/06/26/golang-dependency-vendoring/)
+
+[FiloSottile/gvt](https://github.com/FiloSottile/gvt) というのがあるらしい。
 
 ### クロス環境
 
