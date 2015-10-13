@@ -1,6 +1,6 @@
 +++
 date = "2015-09-18T03:11:44+09:00"
-update = "2015-10-01T15:45:00+09:00"
+update = "2015-10-13T21:52:00+09:00"
 description = "セキュリティ・暗号関連 / 機械支配待望論"
 draft = false
 tags = ["security", "cryptography", "cryptrec", "misty1", "rc4", "engineering", "intelligence"]
@@ -23,7 +23,11 @@ title = "今日の戯れ言"
 
 日を跨いじゃったけど，溜まってたものを吐き出す。
 
-## セキュリティ・暗号関連
+
+- [セキュリティ・暗号関連]({{< relref "#security" >}})
+- [機械支配待望論]({{< relref "#ai" >}})
+
+## セキュリティ・暗号関連{#security}
 
 とりあえずメモ。
 
@@ -32,7 +36,7 @@ title = "今日の戯れ言"
 - [自堕落な技術者の日記 : 「RFC 7525 TLSとDTLSの安全な利用に関する推奨事項」の公開 - livedoor Blog（ブログ）](http://blog.livedoor.jp/k_urushima/archives/1768181.html)
 - [Windows標準機能でいますぐできる標的型攻撃対策：続・設定を見直すだけ、いますぐ簡単にできる「標的型メール攻撃対策」 (1/4) - ＠IT](http://www.atmarkit.co.jp/ait/articles/1509/16/news007.html) : 「[すぐ実践可能！：設定を見直すだけ、いますぐ簡単にできる「標的型メール攻撃対策」 (1/4) - ＠IT](http://www.atmarkit.co.jp/ait/articles/1409/05/news006.html)」の続編らしい
 
-### 「64ビットブロック暗号MISTY1の安全性について」
+### 「64ビットブロック暗号MISTY1の安全性について」{#misty1}
 
 - [64ビットブロック暗号MISTY1の安全性について](http://cryptrec.go.jp/topics/cryptrec_20150716_misty1_cryptanalysis.html)
 - [64ビットブロック暗号MISTY1の安全性について（続報）](http://cryptrec.go.jp/topics/cryptrec_20150812_misty1_cryptanalysis.html)
@@ -48,7 +52,7 @@ MISTY1 は [CRYPTREC 暗号リスト](http://cryptrec.go.jp/list.html)におい�
 CRYPTREC といえば [CRYPTREC Report 2014](http://cryptrec.go.jp/topics/cryptrec_20150716_c14report.html) が出てるのだった。
 あとでチェックしないと。
 
-### RC4 Overkill
+### RC4 Overkill{#rc4}
 
 - [RC4 NOMORE](https://www.rc4nomore.com/)
 - [短時間でcookie解読、RC4暗号通信を破る新手法 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1507/17/news058.html)
@@ -58,13 +62,13 @@ CRYPTREC といえば [CRYPTREC Report 2014](http://cryptrec.go.jp/topics/cryptr
 これも随分前の話でゴメン。
 既に[死に体の RC4](http://www.baldanders.info/spiegel/log2/000810.shtml) に追い打ち。
 
-### IETF-94 で OpenPGP WG がなんかやるらしい？
+### IETF-94 で OpenPGP WG がなんかやるらしい？{#openpgp}
 
 - [[openpgp] Should we try to meet in Yokohama?](https://mailarchive.ietf.org/arch/search/?email_list=openpgp)
 
 [11月に横浜で行われる IETF-94](https://www.ietf.org/meeting/94/index.html) で OpenPGP WG もなにかやるらしい？
 
-## 機械支配待望論
+## 機械支配待望論{#ai}
 
 - [We'll Make Great Pets: 機械支配待望論 - 山形浩生の「経済のトリセツ」](http://cruel.hatenablog.com/entry/2015/08/28/161912)
 

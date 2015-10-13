@@ -20,7 +20,7 @@
 <section>
 <h2 itemprop='name'>Popular <a href="/tags/">Tags</a></h2>
 <ul class="cloud" style="font-size:smaller;">{{ range $key, $value := .Site.Taxonomies.tags.ByCount }}
-	{{ if ge $value.Count 2 }}<li>#<a href="/tags/{{ $value.Name | urlize }}">{{ $value.Name }}</a> ({{ $value.Count }})</li>{{ end }}
+	{{ if ge $value.Count 3 }}<li>#<a href="/tags/{{ $value.Name | urlize }}">{{ $value.Name }}</a> ({{ $value.Count }})</li>{{ end }}
 {{ end }}</ul>
 </section> <!-- Tags -->
 </section> <!-- 最近の記事 -->
