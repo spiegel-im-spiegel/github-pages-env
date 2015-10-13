@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2015-10-09T17:53:00+09:00"
+update = "2015-10-13T16:51:00+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -72,6 +72,7 @@ Go 1.5 Released.
 [slice](http://golang.org/ref/spec#Slice_types), [map](http://golang.org/ref/spec#Map_types), [make](http://golang.org/ref/spec#Making_slices_maps_and_channels)
 
 - [Go のスライスでハマッたところ - Block Rockin’ Codes](http://jxck.hatenablog.com/entry/golang-slice-internals2)
+- [golang - go言語のslice操作をまとめてみた（shiftしたりpushしたり） - Qiita](http://qiita.com/egnr-in-6matroom/items/282aa2fd117aab9469bd)
 
 [slice](http://golang.org/ref/spec#Slice_types), [map](http://golang.org/ref/spec#Map_types), および後述の [channel](http://golang.org/ref/spec#Channel_types) は組み込みの型だが内部構造と状態を持つため， [new](http://golang.org/ref/spec#Allocation) ではなく [make](http://golang.org/ref/spec#Making_slices_maps_and_channels) を使う。
 

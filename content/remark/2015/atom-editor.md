@@ -1,6 +1,6 @@
 +++
 date = "2015-09-15T21:00:13+09:00"
-update = "2015-09-17T11:34:00+09:00"
+update = "2015-10-13T16:50:00+09:00"
 description = "ATOM Editor に関するメモ。 Windows 環境が前提になっているのであしからず。"
 draft = false
 tags = ["atom", "editor", "tools"]
@@ -94,28 +94,29 @@ Saving token to Keychain done
 
 Star を付けたテーマ・パッケージは `apm stars` コマンドで見ることができる。
 
-```
+```bash
 C:>apm stars
-Packages starred by you (12)
-├── atom-monokai Monokai syntax theme for Atom Dark & Light UI, One Dark & Light, and Seti UI (23084 downloads, 34 stars)
-├── autoclose-html Automates closing of HTML Tags (76164 downloads, 266 stars)
-├── editorconfig Helps developers maintain consistent coding styles between different editors (50538 downloads, 413 stars)
-├── file-icons Assign file extension icons and colours for improved visual grepping (282022 downloads, 1429 stars)
-├── git-plus Do git things without the terminal (253091 downloads, 794 stars)
-├── highlight-line Highlights the current line in the editor (51313 downloads, 385 stars)
-├── japan-util utilities for Japanese (738 downloads, 9 stars)
-├── japanese-wrap Word wrap for Japanese text (51256 downloads, 302 stars)
-├── open-recent Open recent files in the current window, and recent folders (optionally) in a new window. (10325 downloads, 128 stars)
-├── quick-highlight Highlight text quickly. (826 downloads, 11 stars)
-├── show-ideographic-space Show ideographic space (known as 全角スペース) (3691 downloads, 49 stars)
-└── symbols-tree-view A symbols view like taglist (16995 downloads, 161 stars)
+Packages starred by you (13)
+├── atom-monokai Monokai syntax theme for Atom Dark & Light UI, One Dark & Light, and Seti UI (27359 downloads, 39 stars)
+├── autoclose-html Automates closing of HTML Tags (83771 downloads, 296 stars)
+├── editorconfig Helps developers maintain consistent coding styles between different editors (55732 downloads, 446 stars)
+├── file-icons Assign file extension icons and colours for improved visual grepping (305041 downloads, 1561 stars)
+├── git-plus Do git things without the terminal (264729 downloads, 861 stars)
+├── highlight-line Highlights the current line in the editor (54346 downloads, 423 stars)
+├── japan-util utilities for Japanese (858 downloads, 12 stars)
+├── open-recent Open recent files in the current window, and recent folders (optionally) in a new window. (11595 downloads, 142 stars)
+├── quick-highlight Highlight text quickly. (943 downloads, 11 stars)
+├── show-ideographic-space Show ideographic space (known as 全角スペース) (4255 downloads, 57 stars)
+├── symbols-tree-view A symbols view like taglist (19099 downloads, 181 stars)
+├── tablr Edit CSV files using a table editor (538 downloads, 16 stars)
+└── wrap-style Select word warp style. (10 downloads, 2 stars)
 
 Use `apm stars --install` to install them all or visit http://atom.io/packages to read more about them.
 ```
 
 さらに `--install` オプションを付ければ一気にインストールできる。
 
-```shell
+```bash
 C:>apm stars --install
 Installing atom-monokai to C:\Users\username\.atom\packages done
 Installing autoclose-html to C:\Users\username\.atom\packages done
@@ -124,11 +125,12 @@ Installing file-icons to C:\Users\username\.atom\packages done
 Installing git-plus to C:\Users\username\.atom\packages done
 Installing highlight-line to C:\Users\username\.atom\packages done
 Installing japan-util to C:\Users\username\.atom\packages done
-Installing japanese-wrap to C:\Users\username\.atom\packages done
 Installing open-recent to C:\Users\username\.atom\packages done
 Installing quick-highlight to C:\Users\username\.atom\packages done
 Installing show-ideographic-space to C:\Users\username\.atom\packages done
 Installing symbols-tree-view to C:\Users\username\.atom\packages done
+Installing tablr to C:\Users\username\.atom\packages done
+Installing wrap-style to C:\Users\username\.atom\packages done
 ```
 
 これで複数マシンへの環境構築が随分楽になると思う。なお star の管理は `apm star` または `apm unstar` コマンドでできるが，テーマ・パッケージのページでも可能。
@@ -144,23 +146,39 @@ Installing symbols-tree-view to C:\Users\username\.atom\packages done
 Intranet 上のマシンで外部との接続が阻まれている場合は Proxy 設定を行う。
 設定には `apm` コマンドを使う。
 
-```shell
+```bash
 C:>apm config set https-proxy http://username:password@proxy.exsample.com:8080
 ```
 
+Firewall のなかには，セキュリティ上の理由から， SSL/TLS 暗号通信を中間者攻撃[^b] でのぞき見するものがある。
+このタイプの Firewall/Proxy は SSL/TLS の証明書を書き換えてしまうため， `apm` が通信エラーになる。
+この場合は以下の設定を行って強制的に SSL/TLS を通すようにするとよいらしい（取扱注意）。
+
+[^b]: Deep Packet Inspection とか言うらしいけど，どう見たって Man-in-the-Middle Attack だろ（笑）
+
+```bash
+C:>apm config set strict-ssl false
+```
+
+やれやれ。
+
 ### Font Family の選択
 
-エディタのフォントは作業効率に大きく影響する。これは私個人の感覚だが，日本語の地の文章がゴシック体なのは辛い。いくら綺麗だからといって Meiryo フォントをエディタに使う気にはならない。ただし，コードに関しては視認性が一番重要。ということで，フォントの指定は以下で無問題。
+エディタのフォントは作業効率に大きく影響する。
+これは私個人の感覚だが，日本語の地の文章がゴシック体なのは辛い。
+いくら綺麗だからといって Meiryo フォントをエディタに使う気にはならない。
+ただし，コードに関しては視認性が一番重要。
+ということで，フォントの指定は以下で無問題[^a]。
 
 ```
 "Inconsolata", "MS Mincho"
 ```
 
-（日本語フォントの指定が MS 明朝なのは，どんな日本語 Windows 環境でも MS 明朝は必ず入ってるから。自分の感覚で見易いフォントがあればそちらを使うべき。ちなみに IPA 明朝は線が細すぎて不向きだった（まぁ印刷用に特化したフォントだからね。 IPA は Web Font 用の IPA 明朝/ゴシックフォントを開発すべき）。 [Inconsolata] は OpenType フォントを取ってきて「インストール」してしまえばよい）
+[^a]: 日本語フォントの指定が MS 明朝なのは，どんな日本語 Windows 環境でも MS 明朝は必ず入ってるからという理由だけなので，自分の感覚で見易いフォントがあればそちらを使うべき。ちなみに IPA 明朝は線が細すぎて不向きだった。 [Inconsolata] は OpenType フォントを取ってきて「インストール」してしまえばよい。
 
 Windows では Tree View のフォントが汚いので，ここは素直に Meiryo UI フォントに変える。 `%USERPROFILE%\.atom\styles.less` を以下のように変更する。
 
-```css:styles.less
+```css
 .tree-view {
 	font-family: "Meiryo UI";
 }
@@ -168,7 +186,7 @@ Windows では Tree View のフォントが汚いので，ここは素直に Mei
 
 また
 
-```css:styles.less
+```css
 atom-workspace {
   font-family: "Meiryo UI";
 }
@@ -182,7 +200,7 @@ atom-workspace {
 これは特に複数人で作業する場合に威力を発揮する。
 たとえば，このサイトの作業環境では以下のように設定している。
 
-```
+```ini
 root = true
 
 [*]
@@ -238,12 +256,12 @@ trim_trailing_whitespace = false
 
 Windows の場合は `%USERPROFILE%\.atom` フォルダに移動する。その後， `npm` コマンドを使って `iconv-lite` と `jschardet` をインストールする。
 
-```shell
+```bash
 C:>cd C:\Users\username\.atom
-C:\Users\username\.atom>>npm install iconv-lite
+C:\Users\username\.atom>npm install iconv-lite
 iconv-lite@0.4.10 node_modules\iconv-lite
 
-C:\Users\username\.atom>>npm install jschardet
+C:\Users\username\.atom>npm install jschardet
 jschardet@1.1.1 node_modules\jschardet
 ```
 
@@ -289,7 +307,8 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 
 [git-plus](https://atom.io/packages/git-plus) は主にコマンドパレットで操作するが（メニューの「Packages」からも辿れる），コマンドパレットの呼び出しを f1 キーに割り当てたらだいぶ使いやすくなった。
 
-[git-control](https://atom.io/packages/git-control) は GUI で最初の頃は便利だったのだが， [git-plus] が手に馴染んできたら使わなくなった。 [git-control](https://atom.io/packages/git-control) が， submodule の処理が得意ではないっぽいのもマイナス。
+[git-control](https://atom.io/packages/git-control) は GUI で最初の頃は便利だったのだが， [git-plus](https://atom.io/packages/git-plus) が手に馴染んできたら使わなくなった。
+submodule の処理が得意ではないっぽいのもマイナス。
 
 ### 矩形選択
 
@@ -318,7 +337,8 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 
 キーボード操作ではなく，マウス操作で矩形選択がしたい場合は [sublime-style-column-selection](https://atom.io/packages/Sublime-Style-Column-Selection) を導入するとよい。 Windows ではマウスのセンターボタンを押しながらマウスを動かす。
 
-いずれのやり方でも，日本語混じりのテキストではうまくいかない。これは上述した行の折り返しの問題と同じと思われる。やれやれ。
+いずれのやり方でも，日本語混じりのテキストではうまくいかない。
+やれやれ。
 
 ### その他
 
@@ -334,6 +354,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 1. [autoclose-html](https://atom.io/packages/autoclose-html) : HTML 入力でタグを入力すると自動的に閉じタグを補完してくれる。自動補完の機能は色々あって，大抵は [autocomplete-plus](https://atom.io/packages/autocomplete-plus) のサブパッケージだったりするのだが，これだけは毛色が違う（笑）
 1. 特定の単語をマークしておける [quick-highlight](https://atom.io/packages/quick-highlight) が結構使える。 Windows だとキーに割り当てられないので、 toggle を適当なファンクションキーとかに割り当てておくとめっさ便利。
 - むむっ。 [latex](https://atom.io/packages/latex) パッケージなるものがあるなぁ。
+1. [tablr](https://atom.io/packages/tablr) : CSV Editor。なにこれ素敵！
 
 ### 現在の設定
 
