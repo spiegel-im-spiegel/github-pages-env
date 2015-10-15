@@ -105,9 +105,9 @@ atom-workspace {
 
 Markdown ファイルの場合は Soft Wrap を無効にしても， Preferred Line Length を 1024 とか大きい値にしても，アプリケーションの Window 幅で折り返してしまう（プレビューで折り返しが必要だから？）。ちなみに桁数の計算は文字単位でやってるようで，日本語混じりでは見た目がちょっとおかしくなる。
 
-しょうがないので [japanese-wrap](https://atom.io/packages/japanese-wrap) をを入れた。公開してくださった方に感謝。
+しょうがないので [japanese-wrap](https://atom.io/packages/japanese-wrap) を入れた。公開してくださった方に感謝。
 
-[wrap-style](https://atom.io/packages/wrap-style) というパッケージがあるらしい？
+[japanese-wrap](https://atom.io/packages/japanese-wrap) と同じ作者による [wrap-style](https://atom.io/packages/wrap-style) がなかなかよい。ので，こちらに乗り換えた。
 
 - [Atomで上手にwarpを刻んでくれるwrap-styleを開発しました。 - Qiita](http://qiita.com/raccy/items/4678af4020189366a297)
 
@@ -326,6 +326,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - [atomをevernoteのmarkdownエディタとして使う（EVND） - Qiita](http://qiita.com/kuwa_tw/items/16d1e63b66092601391e)
 - [AtomでSublimeTextみたいに保存しないで終了しても再開できるやつ - Qiita](http://qiita.com/ru_shalm/items/453bb63c3fa54cb93f61) : [save-session](https://atom.io/packages/save-session) があるじゃない。という話
 - [atom から gist にコードをアップする gist-it を試す - belog](http://kkabetani.hatenablog.com/entry/2014/12/29/235147)
+- [【atom】atomでgistを作るには - Qiita](http://qiita.com/Mocacamo/items/42421ae5cf82b1bf6cb3)
 - [Atomのパッケージが急に動かなくなった！ - Qiita](http://qiita.com/wh11e7rue/items/545c0a26c609cec9487d) : パッケージの修復方法
 
 ### パッケージを作ってみた
