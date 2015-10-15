@@ -1,10 +1,10 @@
 +++
 date = "2015-09-30T00:27:48+09:00"
-update = "2015-10-13T17:12:00+09:00"
-description = "C++ や Java のような言語圏から来た（私のような）人間にとって Go 言語の「オブジェクト指向」はかなり異質なのだが，慣れてみると逆にとても合理的に見えてくる。この最たるものが error 型である。"
+update = "2015-10-15T22:43:00+09:00"
+description = "C++ や Java のような言語圏から来た（私のような）人間にとって Go 言語の「オブジェクト指向」はかなり異質なのだが，慣れてみると逆にとても合理的に見えてくる。この最たるものが error 型である。（追記あり）"
 draft = false
 tags = ["golang", "error", "exception"]
-title = "エラー・ハンドリングについて"
+title = "エラー・ハンドリングについて（追記あり）"
 
 [author]
   avatar = "/images/avatar.jpg"
@@ -235,11 +235,152 @@ if err != nil {
 もうひとつ考慮すべき点としてエラー・メッセージの設計が挙げられるだろう。
 [error] に対するメッセージをどのように設計するかは（大規模アプリケーションでは特に）重要である。
 
+## 【追記】 Panic と Recover
+
+たとえばゼロ除算を行った場合や配列などで領域を参照・設定しようとした場合，あるいは allocation に失敗した場合など，致命的なエラーが発生する場合がある。
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	f()
+}
+
+func f() {
+	numbers := []int{0, 1, 2}
+
+	fmt.Println(numbers[3])
+}
+```
+
+これを実行すると
+
+```bash
+C:\workspace\go-practice\src\panic01>go run panic01.go
+panic: runtime error: index out of range
+
+goroutine 1 [running]:
+main.f()
+        C:/workspace/go-practice/src/panic01/panic01.go:12 +0x14a
+main.main()
+        C:/workspace/go-practice/src/panic01/panic01.go:6 +0x1b
+exit status 2
+```
+
+となり，大域脱出させてアプリケーションを強制終了させているのが分かる。
+この仕組みを [Panic] と呼ぶ。
+
+[Panic] は意図的に発生させることもできる。
+
+```go
+package main
+
+func main() {
+	f()
+}
+
+func f() {
+	panic("Panic!")
+}
+```
+
+これを実行すると
+
+```bash
+C:\workspace\go-practice\src\panic02>go run panic02.go
+panic: Panic!
+
+goroutine 1 [running]:
+main.f()
+        C:/workspace/go-practice/src/panic02/panic02.go:8 +0x6c
+main.main()
+        C:/workspace/go-practice/src/panic02/panic02.go:4 +0x1b
+exit status 2
+```
+
+となる。
+
+一方で， [Panic] を [Recover] することもできる[^e]。
+
+[^e]: [Recover] は [Defer] 構文とともに使用する。つまり [Panic] 発生時でも [Defer] 構文で予約された処理は実行される。
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	err := r()
+	if err != nil {
+		fmt.Println(err)
+	} else {
+		fmt.Println("Normal End.")
+	}
+}
+
+func r() (err error) {
+	defer func() {
+		if rec := recover(); rec != nil {
+			err = fmt.Errorf("Recovered from: %v", rec)
+		}
+	}()
+
+	f()
+	err = nil
+	return
+}
+
+func f() {
+	panic("Panic!")
+}
+```
+
+これを実行すると
+
+```bash
+C:\workspace\go-practice\src\panic03>go run panic03.go
+Recovered from: Panic!
+```
+
+となる。
+[Panic] を [Recover] で捕まえて通常の [error] として返しているのがお分かりだろうか。
+
+一般的に [Panic] はアプリケーション内で続行不可能な致命的エラーが発生した場合に投げられる。
+例えばゼロ除算や領域外アクセスのようなエラーは [Panic] が発生する前に回避するコードにすべきだ。
+Allocation エラーのような回避不能かつアプリケーション続行不可能なエラーの場合は [Panic] が投げられるのもやむを得ないが， [Recover] することにほとんど意味はない。
+
+例外的な使い方として [`bytes`].`Buffer` では，メモリ確保で panic が発生した際に [Recover] で捕まえ， [error] インスタンスを入れ替えて [Panic] を投げ直している。
+このような用途で [Recover] を使うことはあり得る。
+
+```go
+// makeSlice allocates a slice of size n. If the allocation fails, it panics
+// with ErrTooLarge.
+func makeSlice(n int) []byte {
+	// If the make fails, give a known error.
+	defer func() {
+		if recover() != nil {
+			panic(ErrTooLarge)
+		}
+	}()
+	return make([]byte, n)
+}
+```
+
+また再帰処理中に続行不能なエラーが発生した場合に [Panic] を投げてトップレベルの関数に一気に復帰するような使い方をする場合もある。
+この場合は，トップレベルの関数は通常の [error] を返すことになる[^f]。
+
+[^f]: これ以外にサーバ用途などでプロセスを落とせない場合に [Recover] で回避することもあるが，既に続行不可能な状態で無理やりプロセスを続行するのが正しい動きなのかどうかは疑問が残る。
+
+いずれにしろ，いわゆる「例外処理」的なハンドリングを [Panic]/[Recover] で行うべきではない。
+
 ## ブックマーク
 
 - [または私は如何にして例外するのを止めて golang を愛するようになったか — KaoriYa](http://www.kaoriya.net/blog/2014/04/17/)
 - [Big Sky :: golang で複数のエラーをハンドリングする方法](http://mattn.kaoriya.net/software/lang/go/20140416212413.htm)
 - [DSAS開発者の部屋:Go ではエラーを文字列比較する？という話について](http://dsas.blog.klab.org/archives/go-errors.html)
+- [panicはともかくrecoverに使いどころはほとんどない - Qiita](http://qiita.com/ruiu/items/ff98ded599d97cf6646e)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
@@ -250,4 +391,7 @@ if err != nil {
 [string]: http://golang.org/ref/spec#String_types
 [`os`]: https://golang.org/pkg/os/ "os - The Go Programming Language"
 [Defer]: http://blog.golang.org/defer-panic-and-recover "Defer, Panic, and Recover - The Go Blog"
+[Panic]: http://blog.golang.org/defer-panic-and-recover "Defer, Panic, and Recover - The Go Blog"
+[Recover]: http://blog.golang.org/defer-panic-and-recover "Defer, Panic, and Recover - The Go Blog"
 [Conversion]: https://golang.org/ref/spec#Conversions "The Go Programming Language Specification - The Go Programming Language"
+[`bytes`]: https://golang.org/pkg/bytes/ "bytes - The Go Programming Language"
