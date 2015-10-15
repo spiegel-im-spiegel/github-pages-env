@@ -1,7 +1,7 @@
 +++
-date = "2015-10-15T14:16:52+09:00"
+date = "2015-10-15T20:32:32+09:00"
 description = "今回はちょっと横道にそれて，パッケージの依存状況を視覚化するツールをご紹介。"
-draft = true
+draft = false
 tags = ["golang", "package", "tools"]
 title = "パッケージの依存状況の視覚化"
 
@@ -123,7 +123,7 @@ Help Options:
 
 ## ブックマーク{#bookmark}
 
-- [そろそろ理解しておきたいのでDockerのソースコードをビジュアルに読む！ - Qiita](http://qiita.com/hirokidaichi/items/52fc6286c9e432792a07) : [hirokidaichi/goviz] 作者による解説
+- [そろそろ理解しておきたいのでDockerのソースコードをビジュアルに読む！ - Qiita](http://qiita.com/hirokidaichi/items/52fc6286c9e432792a07) : [hirokidaichi/goviz] : 作者による解説
 - [データのビジュアル化を最少の労力で: Graphviz](http://www.showa-corp.jp/special/graphtools/graphviz.html)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
