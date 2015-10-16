@@ -1,7 +1,7 @@
 {{ partial "top.html" . }}
 <head>
 {{ partial "header.html" . }}
-<title>{{ .Title }} - ゼロから始める Hugo | {{ .Site.Title }}</title>
+<title>{{ .Title }} — ゼロから始める Hugo | {{ .Site.Title }}</title>
 {{ if .Description }}<meta name="description" content="{{ .Description }}">{{ else }}<meta name="description" content="Hugo に関する話題。">{{ end }}
 </head>
 <body>
@@ -12,7 +12,7 @@
 <main role="main">
 <article itemscope itemtype='http://schema.org/BlogPosting' itemref='maker'>
 <section>
-<h1 itemprop='name'>{{ .Title }}{{ with .Section }} - <a href="/{{ . | urlize }}">ゼロから始める Hugo</a>{{ end }}</h1>
+<h1 itemprop='name'>{{ .Title }}{{ with .Section }} — <a href="/{{ . | urlize }}">ゼロから始める Hugo</a>{{ end }}</h1>
 <nav class="tags">{{ with .Params.tags }}<div><a href="/tags">Tags</a>:{{ range . }} <a href="/tags/{{ . | urlize }}">#{{ . }}</a>{{ end }}</div>{{ end }}</nav>
 {{ .Content }}
 </section>
