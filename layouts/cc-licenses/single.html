@@ -1,7 +1,7 @@
 {{ partial "top.html" . }}
 <head>
 {{ partial "header.html" . }}
-<title>{{ .Title }} — 改訂版： CC-License について | {{ .Site.Title }}</title>
+<title>{{ .Title }} — 改訂3版： CC Licenses について | {{ .Site.Title }}</title>
 {{ if .Description }}<meta name="description" content="{{ .Description }}">{{ else }}<meta name="description" content="CC-License について。">{{ end }}
 </head>
 <body>
@@ -12,9 +12,14 @@
 <main role="main">
 <article itemscope itemtype='http://schema.org/BlogPosting' itemref='maker'>
 <section>
-<h1 itemprop='name'>{{ .Title }}{{ with .Section }} — <a href="/{{ . | urlize }}">改訂版： CC-License について</a>{{ end }}</h1>
+<h1 itemprop='name'>{{ .Title }}{{ with .Section }} — <a href="/{{ . | urlize }}">改訂3版： CC Licenses について</a>{{ end }}</h1>
 <nav class="tags">{{ with .Params.tags }}<div><a href="/tags">Tags</a>:{{ range . }} <a href="/tags/{{ . | urlize }}">#{{ . }}</a>{{ end }}</div>{{ end }}</nav>
+<div>
+<div style="float:right;margin:0.5em;padding:0.5em;">
+<a href="http://magazine-k.jp/2015/10/10/soramoyou-tpp/" title="TPP大筋合意との報に際して « マガジン航[kɔː]"><img src="http://www.baldanders.info/images/noextension.png" alt="no extension" width="165" height="50" /></a>
+</div>
 {{ .Content }}
+</div>
 </section>
 </article>
 </main>
