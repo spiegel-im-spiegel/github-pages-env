@@ -2,20 +2,14 @@
 /**
  * addon.css -- Cascading Style Sheet (General)
  */
-/* declaration of font-* */
+/* re-declaration of font-family */
 body {
-  font-family: 'Droid Serif', 'aozora-m', serif;
+  font-family: 'Noto Serif', 'aozora-m', serif;
   /* font-smoothing: always; // Non-standard */
 }
-h1, h2, h3, h4, h5, h6, address, table th, dl > dt, strong, cite, *.caution {
-  font-family: 'Open Sans', 'ipa-gothic', sans-serif;
-}
-pre, tt, code, kbd, samp {
-  font-family: 'Inconsolata', 'ipa-monospace', monospace;
-}
-/* footer navigation */
+/* font for footer navigation */
 footer nav {
-  font-family: 'Open Sans', 'ipa-gothic', sans-serif;
+  font-family: 'Noto Sans', 'Noto Sans Japanese', sans-serif;
 }
 
 /* hreview */
