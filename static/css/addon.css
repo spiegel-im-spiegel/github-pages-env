@@ -57,3 +57,23 @@ main .hreview {
   margin: 0;
   clear: both;
 }
+
+ /* page navigation */
+.page-nav {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2.0rem;
+  margin-bottom: 0.5rem;
+  font-size: small;
+  line-height: 1.2;
+}
+.page-nav .prev-page {
+  flex: 1 auto;
+  text-align: left;
+  padding-right:1.0rem;
+}
+.page-nav .next-page {
+  flex: 1 auto;
+  text-align: right;
+  padding-left:1.0rem;
+}

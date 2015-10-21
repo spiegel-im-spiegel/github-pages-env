@@ -1,5 +1,5 @@
 <li itemprop='blogPost' itemscope itemtype='http://schema.org/BlogPosting'>
-	<a href="{{ .Permalink }}" itemprop='url'><strong itemprop='name'>{{ .Title }}</strong></a>
+	<a href="{{ .Permalink }}" itemprop='url'><em itemprop='name'>{{ .Title }}</em></a>
 	<span style="font-size:smaller;">({{ with .Params.author.name }}by {{ . }}, {{ end }}<time>{{ .Date.Format "2006-01-02" }}</time>)
 	{{ with .Params.tags }}{{ range . }} #<a href="/tags/{{ . | urlize }}">{{ . }}</a>{{ end }}{{ end }}{{ if .Draft }} <span class="caution">#Draft</span>{{ end }}
 	{{ with .Description }}<br>&raquo; <span itemprop='description'>{{ . }}</span>{{ end }}</span>
