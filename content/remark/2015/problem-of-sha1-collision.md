@@ -1,6 +1,6 @@
 +++
 date = "2015-10-22T14:35:22+09:00"
-description = "クラウド技術などと組み合わせることにより，近い将来に実用的なコストで SHA-1 攻略が可能になると指摘されている。"
+description = "GPU を使った専用ハードウェアやクラウド・サービスなどを組み合わせることにより，近い将来に実用的なコストで SHA-1 攻略が可能になると指摘されている。"
 draft = false
 tags = ["security", "cryptography", "hash", "sha-1", "collision", "risk"]
 title = "SHA-1 衝突問題： 廃止の前倒し"
