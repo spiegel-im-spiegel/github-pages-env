@@ -1,8 +1,9 @@
 +++
 date = "2015-10-21T21:41:45+09:00"
+update = "2015-10-22T14:54:00+09:00"
 description = "このサイトの Web フォントまわりを整理したので，覚え書きとして残しておく。"
 draft = false
-tags = ["character", "font", "web", "site"]
+tags = ["character", "font", "web", "google", "ipa", "site"]
 title = "Web フォントに関する覚え書き"
 
 [author]
@@ -25,7 +26,7 @@ title = "Web フォントに関する覚え書き"
 
 このサイトの Web フォントを Google Noto Fonts で統一した[^a]。
 
-[^a]: “Noto” は “No-Tofu” の意味らしい。昔はフォント・セットに該当文字がない場合に表示される「□」を「トーフ（豆腐）」と呼んでいた。つまり Noto Fonts は世界中のすべての文字を網羅するという壮大なプロジェクトである。
+[^a]: “Noto” は “No-Tofu” の意味らしい。昔はフォント・セットに該当文字がない場合に表示される「□」を「トーフ（豆腐）」と呼んでいた。つまり Noto Fonts は世界中のすべての文字を統一デザインで網羅するという壮大なプロジェクトである。
 
 Google Noto Fonts は以下のサイトで取得できる。
 
@@ -47,7 +48,7 @@ Google Noto Fonts は以下のサイトで取得できる。
 
 Bold が不要であればもっと軽くできる[^b]。
 
-[^b]: Modern browser では Bold や Italic がなくとも機械的に合成される。当然ながら綺麗ではない。 Bold や Italic を多用しないのであれば Web フォントから外す手はある。
+[^b]: Modern browser では Bold や Italic がなくとも機械的に合成される（Italic は斜体（slant）で代用）。当然ながら綺麗ではない。 Bold や Italic を多用しないのであれば Web フォントから外す手はある。
 
 ```html
 <link href='//fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif' rel='stylesheet' type='text/css'>
@@ -199,7 +200,7 @@ IPA フォントおよび [M+ フォント](https://mplus-fonts.osdn.jp/mplus-ou
 複製・再配布が自由なフォントであれば WOFF (Web Open Font Format) に変換[^d] して Web フォントとして利用可能。
 WOFF への変換には，以下のツールが使える。
 
-[^d]: 機械的変換であれば「逐語的コピー」とみなせる。
+[^d]: 機械的変換であれば翻案ではなく「逐語的コピー」とみなせる。
 
 - [WOFFコンバータ](http://opentype.jp/woffconv.htm) （[武蔵システム](http://opentype.jp/)）
 
@@ -239,7 +240,7 @@ Google Noto Fonts 以外で利用しているフォントを列挙しておく�
 - [Font Awesome, the iconic font and CSS toolkit](https://fortawesome.github.io/Font-Awesome/)
 - [FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome)
 
-みんな大好き， Font Awesome。
+みんな大好き Font Awesome。
 アイコンを文字として扱うことができる。
 `head` 要素に以下の記述を加える事で使えるようになる。
 
@@ -257,7 +258,6 @@ Google Noto Fonts 以外で利用しているフォントを列挙しておく�
 <i class="fa fa-btc"></i> 1 ＝ <i class="fa fa-jpy"></i> 31,246.5
 </blockquote>
 
-
 ### Creative Commons Icon Font
 
 - [Creative Commons Icon Font](http://cc-icons.github.io/)
@@ -270,7 +270,6 @@ CC License のアイコンやバナーを文字として扱うことができる
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cc-icons/1.2.1/css/cc-icons.min.css">
 ```
 
-
 使い方は Font Awesome と同じ。
 
 ```html
@@ -281,3 +280,6 @@ CC License のアイコンやバナーを文字として扱うことができる
 <i class="cc cc-by cc-2x"></i>&nbsp;<i class="cc cc-sa cc-2x"></i>
 </blockquote>
 
+## 関連（するかもしれない）記事
+
+- [ちょこっと MathJax — Baldanders.info](http://www.baldanders.info/spiegel/log2/000750.shtml) : MathJax で数式用の Web フォントを使用可能

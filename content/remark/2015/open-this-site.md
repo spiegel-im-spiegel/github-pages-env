@@ -1,9 +1,9 @@
 +++
 date = "2015-10-03T00:24:53+09:00"
-update = "2015-10-03T16:38:00+09:00"
+update = "2015-10-22T08:35:00+09:00"
 description = "さて予定通り，正式オープンしました。"
 draft = false
-tags = ["site", "policy", "creative-commons", "hugo", "github"]
+tags = ["site", "policy", "creative-commons", "license", "hugo", "github"]
 title = "text.Baldanders.info 正式オープン"
 
 [author]
@@ -51,7 +51,7 @@ title = "text.Baldanders.info 正式オープン"
 
 ### ライセンスについて
 
-個々の記事については，原則として， [CC-License](http://www.baldanders.info/spiegel/archive/cc-license/) の [by-sa] を設定することにしました。
+個々の記事については，原則として， [CC License](http://www.baldanders.info/spiegel/archive/cc-license/) の [by-sa] を設定することにしました。
 ここは本家との違い。
 
 [前にも紹介](http://www.baldanders.info/spiegel/log2/000796.shtml)しましたが， [Creative Commons] が提供しているライセンスツールのうち， Free Culture License に分類されるもの[^a] が過半数を超え，更にその中では [by-sa] が一番多いようです。

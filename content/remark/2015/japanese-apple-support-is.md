@@ -1,8 +1,9 @@
 +++
 date = "2015-10-03T11:26:15+09:00"
+update = "2015-10-22T10:46:00+09:00"
 description = "絶対に Apple は日本のユーザを「極東のカモネギ」と思ってるよ。いいの？"
 draft = false
-tags = ["security", "vulnerability", "risk"]
+tags = ["security", "vulnerability", "risk", "apple"]
 title = "Apple の日本語サポートがクズ過ぎるので"
 
 [author]
