@@ -2,7 +2,8 @@
 <head>
 {{ partial "header.html" . }}
 <title>{{ .Title }} — 改訂3版： CC Licenses について | {{ .Site.Title }}</title>
-{{ if .Description }}<meta name="description" content="{{ .Description }}">{{ else }}<meta name="description" content="CC-License について。">{{ end }}
+{{ if .Description }}<meta name="description" content="{{ .Description }}">{{ else }}<meta name="description" content="CC License について。">{{ end }}
+{{ partial "header-nav.html" . }}
 </head>
 <body>
 {{ partial "prepare.html" . }}

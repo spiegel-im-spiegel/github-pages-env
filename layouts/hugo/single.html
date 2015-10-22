@@ -3,6 +3,7 @@
 {{ partial "header.html" . }}
 <title>{{ .Title }} — ゼロから始める Hugo | {{ .Site.Title }}</title>
 {{ if .Description }}<meta name="description" content="{{ .Description }}">{{ else }}<meta name="description" content="Hugo に関する話題。">{{ end }}
+{{ partial "header-nav.html" . }}
 </head>
 <body>
 {{ partial "prepare.html" . }}
