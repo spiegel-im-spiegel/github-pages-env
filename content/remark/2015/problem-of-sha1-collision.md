@@ -1,6 +1,7 @@
 +++
 date = "2015-10-22T14:35:22+09:00"
-description = "GPU を使った専用ハードウェアやクラウド・サービスなどを組み合わせることにより，近い将来に実用的なコストで SHA-1 攻略が可能になると指摘されている。"
+update = "2015-10-22T17:31:00+09:00"
+description = "GPU をふんだんに使った専用ハードウェアやクラウド・サービスなどを組み合わせることにより，近い将来に実用的なコストで SHA-1 攻略が可能になると指摘されている。"
 draft = false
 tags = ["security", "cryptography", "hash", "sha-1", "collision", "risk"]
 title = "SHA-1 衝突問題： 廃止の前倒し"
@@ -141,7 +142,7 @@ SHA-1 の hash 値の長さは $160\,\mathrm{bits}$ なので，衝突の確率�
 - [「SHA-1の廃止前倒しを」　専門家チームが提言 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1510/09/news054.html)
 
 これは SHA-1 のアルゴリズム上の更なる危殆化を指すものではないが，最新の計算リソースを効率的に使って，いわば「力任せ」（って言うと御幣があるけど）で攻略している。
-GPU を使った専用ハードウェアやクラウド・サービスなどを組み合わせることにより，近い将来に実用的なコストで SHA-1 攻略が可能になると指摘されている。
+GPU をふんだんに使った専用ハードウェアやクラウド・サービスなどを組み合わせることにより，近い将来に実用的なコストで SHA-1 攻略が可能になると指摘されている。
 
 {{< fig-quote lang="en" title="The Shappening: freestart collisions for SHA-1" link="https://sites.google.com/site/itstheshappening/" >}}
 <q>Concretely, we estimate the SHA-1 collision cost today (i.e., Fall 2015) between 75K\$ and 120K\$ renting Amazon EC2 cloud computing over a few months. By contrast, security expert Bruce Schneier previously projected (based on calculations from Jesse Walker) the SHA-1 collision cost to be ~173K\$ by 2018. Note that he deems this to be within the resources of a criminal syndicate. Large corporations and governments may possess even greater resources and may not require Amazon EC2.</q>
