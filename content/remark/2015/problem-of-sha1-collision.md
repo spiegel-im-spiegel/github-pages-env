@@ -1,6 +1,6 @@
 +++
 date = "2015-10-22T14:35:22+09:00"
-update = "2015-10-22T17:31:00+09:00"
+update = "2015-10-24T14:09:00+09:00"
 description = "GPU をふんだんに使った専用ハードウェアやクラウド・サービスなどを組み合わせることにより，近い将来に実用的なコストで SHA-1 攻略が可能になると指摘されている。"
 draft = false
 tags = ["security", "cryptography", "hash", "sha-1", "collision", "risk"]
@@ -168,6 +168,7 @@ GPU ベースのシステムやクラウド・サービス等による巨大計�
 - [自堕落な技術者の日記 : 「RFC 7525 TLSとDTLSの安全な利用に関する推奨事項」の公開 - livedoor Blog（ブログ）](http://blog.livedoor.jp/k_urushima/archives/1768181.html)
 - [「Y!mobileケータイ」で一部サイトへ接続不能に--サーバ証明書の切り替えで - CNET Japan](http://japan.cnet.com/news/service/35067422/)
 - [scryptがGPUに破られる時 | びりあるの研究ノート](https://blog.visvirial.com/articles/519) : GPU 耐性が高いと言われる scrypt も実時間で攻略できるようになってきたという話
+- [自堕落な技術者の日記 : SSL Pulseの統計情報で見るSSL/TLS (2015年10月版) - livedoor Blog（ブログ）](http://blog.livedoor.jp/k_urushima/archives/1782546.html) : Alexa 社によるアクセス世界トップ20万サイトを対象にした SSL/TLS 関連の統計情報
 
 ## 関連図書
 

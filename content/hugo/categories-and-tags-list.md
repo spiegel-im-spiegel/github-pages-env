@@ -167,22 +167,6 @@ ul.cloud > li {
 <html>
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## ブックマーク{#bookmark}
 
 - [Taxonomy Terms Template](https://gohugo.io/templates/terms/)
