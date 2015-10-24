@@ -1,4 +1,4 @@
 <figure style='margin:0 auto;text-align:center;'>
-<iframe class="youtube-player" type="text/html"{{ with .Get "width"}} width="{{ . }}"{{ end}}{{ with .Get "height"}}  height="{{ . }}"{{ end}} src="https://www.youtube-nocookie.com/embed/{{ .Get "id" }}" frameborder="0" allowfullscreen></iframe>
-<figcaption><a href="https://www.youtube.com/watch?v={{ .Get "id" }}">{{ .Get "title" }}</a></figcaption>
+<iframe class="youtube-player" type="text/html"{{ with .Get "width"}} width="{{ . }}"{{ end }}{{ with .Get "height"}}  height="{{ . }}"{{ end }} src="https://www.youtube-nocookie.com/embed/{{ .Get "id" }}" frameborder="0" allowfullscreen></iframe>
+{{ if .Get "title"}}<figcaption><a href="https://www.youtube.com/watch?v={{ .Get "id" }}">{{ .Get "title" }}</a></figcaption>{{ end }}
 </figure>
