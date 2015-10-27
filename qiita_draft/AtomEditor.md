@@ -18,9 +18,12 @@
 
 Windows 版は，インストールパッケージ（実行形式）をダウンロードしてインストールすればよい。
 
-6月25日に 1.0 が出た。[おめでたう！](http://qiita.com/spiegel-im-spiegel/items/5c6dafcece9e7118877a)
+6月25日に 1.0 が出た。[おめでたう！](http://qiita.com/spiegel-im-spiegel/items/5c6dafcece9e7118877a) （9月26日に 1.0.19 がリリース）
 
-（9月26日に 1.0.19 がリリース）
+[Beta Channel](https://atom.io/beta) が登場。
+
+- [Introducing the Atom Beta Channel](http://blog.atom.io/2015/10/21/introducing-the-atom-beta-channel.html)
+- [オープンソースのテキストエディター「Atom」にベータチャンネルが登場 - 窓の杜](http://www.forest.impress.co.jp/docs/news/20151022_726976.html)
 
 ### Proxy 設定
 
