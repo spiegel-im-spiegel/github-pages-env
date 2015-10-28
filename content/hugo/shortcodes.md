@@ -84,7 +84,7 @@ See the full <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibi
 
 ```html
 {{%/* fig-quote title="Compatible Licenses - Creative Commons" link="https://creativecommons.org/compatiblelicenses" lang="en" */%}}
-“The [GNU General Public License version 3](https://www.gnu.org/copyleft/gpl.html)</a> was declared a “BY-SA–Compatible License” for version 4.0 on 8 October 2015.
+“The [GNU General Public License version 3](https://www.gnu.org/copyleft/gpl.html) was declared a “BY-SA–Compatible License” for version 4.0 on 8 October 2015.
 Note that compatibility with the GPLv3 is one-way only, which means you may license your contributions to adaptations of BY-SA 4.0 materials under GPLv3, but you may not license your contributions to adaptations of GPLv3 projects under BY-SA 4.0.
 Other [special considerations](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3#Considerations_for_adapters_applying_the_GPLv3) apply.
 See the full [analysis](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3) and [comparison](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility_analysis:_GPL) for more information.”
@@ -93,7 +93,7 @@ See the full [analysis](https://wiki.creativecommons.org/wiki/ShareAlike_compati
 
 ```html
 <figure lang="en">
-<blockquote><p>“The <a href="https://www.gnu.org/copyleft/gpl.html">GNU General Public License version 3</a></a> was declared a “BY-SA–Compatible License” for version 4.0 on 8 October 2015.
+<blockquote><p>“The <a href="https://www.gnu.org/copyleft/gpl.html">GNU General Public License version 3</a> was declared a “BY-SA–Compatible License” for version 4.0 on 8 October 2015.
 Note that compatibility with the GPLv3 is one-way only, which means you may license your contributions to adaptations of BY-SA 4.0 materials under GPLv3, but you may not license your contributions to adaptations of GPLv3 projects under BY-SA 4.0.
 Other <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3#Considerations_for_adapters_applying_the_GPLv3">special considerations</a> apply.
 See the full <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3">analysis</a> and <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibility_analysis:_GPL">comparison</a> for more information.”</p>
@@ -103,7 +103,7 @@ See the full <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibi
 ```
 
 {{% fig-quote title="Compatible Licenses - Creative Commons" link="https://creativecommons.org/compatiblelicenses" lang="en" %}}
-“The [GNU General Public License version 3](https://www.gnu.org/copyleft/gpl.html)</a> was declared a “BY-SA–Compatible License” for version 4.0 on 8 October 2015.
+“The [GNU General Public License version 3](https://www.gnu.org/copyleft/gpl.html) was declared a “BY-SA–Compatible License” for version 4.0 on 8 October 2015.
 Note that compatibility with the GPLv3 is one-way only, which means you may license your contributions to adaptations of BY-SA 4.0 materials under GPLv3, but you may not license your contributions to adaptations of GPLv3 projects under BY-SA 4.0.
 Other [special considerations](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3#Considerations_for_adapters_applying_the_GPLv3) apply.
 See the full [analysis](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3) and [comparison](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility_analysis:_GPL) for more information.”
@@ -114,7 +114,7 @@ See the full [analysis](https://wiki.creativecommons.org/wiki/ShareAlike_compati
 
 ```html
 <figure style='margin:0 auto;text-align:center;'>
-<iframe class="youtube-player" type="text/html"{{ with .Get "width"}} width="{{ . }}"{{ end }}{{ with .Get "height"}}  height="{{ . }}"{{ end }} src="https://www.youtube-nocookie.com/embed/{{ .Get "id" }}" frameborder="0" allowfullscreen></iframe>
+<iframe class="youtube-player"{{ with .Get "width"}} width="{{ . }}"{{ end }}{{ with .Get "height"}}  height="{{ . }}"{{ end }} src="https://www.youtube-nocookie.com/embed/{{ .Get "id" }}" allowfullscreen></iframe>
 {{ if .Get "title"}}<figcaption><a href="https://www.youtube.com/watch?v={{ .Get "id" }}">{{ .Get "title" }}</a></figcaption>{{ end }}
 </figure>
 ```
@@ -129,7 +129,7 @@ See the full [analysis](https://wiki.creativecommons.org/wiki/ShareAlike_compati
 
 ```html
 <figure style='margin:0 auto;text-align:center;'>
-<iframe class="youtube-player" type="text/html" width="500"  height="281" src="https://www.youtube-nocookie.com/embed/Kjqff5bkUrE" frameborder="0" allowfullscreen></iframe>
+<iframe class="youtube-player" width="500"  height="281" src="https://www.youtube-nocookie.com/embed/Kjqff5bkUrE" allowfullscreen></iframe>
 <figcaption><a href="https://www.youtube.com/watch?v=Kjqff5bkUrE">「はやぶさ2」地球スイングバイ解説CG ／ Hayabusa2&#39;s Earth Swing-by CG - YouTube</a></figcaption>
 </figure>
 ```
