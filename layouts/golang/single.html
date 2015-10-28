@@ -10,7 +10,7 @@
 <div id='container'><!-- Container Area -->
 {{ partial "banner.html" . }}
 
-<main role="main">
+<main>
 <article itemscope itemtype='http://schema.org/BlogPosting' itemref='maker'>
 <section>
 <h1 itemprop='name'>{{ .Title }}{{ with .Section }} — <a href="/{{ . | urlize }}">プログラミング言語 Go</a>{{ end }}</h1>

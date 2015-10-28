@@ -10,7 +10,7 @@
 <div id='container'><!-- Container Area -->
 {{ partial "banner.html" . }}
 
-<main role="main">
+<main>
 <article itemscope itemtype='http://schema.org/BlogPosting' itemref='maker'>
 <div><strong>{{ with .Section }}<a href="/{{ . | urlize }}">しっぽのさきっちょ</a>{{ end }}{{ with .Date }}: {{ .Format "2006-01-02" }} 付{{ end }}</strong></div>
 <section>
