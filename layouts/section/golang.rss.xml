@@ -2,8 +2,8 @@
 	<title>プログラミング言語 Go — {{ .Site.Title }}</title>
 	<link rel="alternate" type="text/html" href="{{ .Permalink }}" />
 	<link rel="self" type="application/atom+xml" href="{{ .RSSLink }}" />
-	<id>tag:{{ .Site.Title }},{{ .Date.Format "2006-01-02T15:04:05.999999999-0700" | safeHTML }}:/hugo</id>
-	<updated>{{ .Date.Format "2006-01-02T15:04:05-0700" | safeHTML }}</updated>
+	<id>tag:{{ .Site.Title }},{{ .Date.Format "2006-01-02" }}:/hugo</id>
+	<updated>{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</updated>
 	{{ with .Site.Params.description }}<subtitle>{{ . }}</subtitle>{{ end }}
 	{{ if .Site.Params.author.avatar }}<icon>{{ .Site.BaseURL }}{{ .Site.Params.author.avatar }}</icon>{{ end }}
 	{{ if .Site.Params.author.avatar }}<logo>{{ .Site.BaseURL }}{{ .Site.Params.author.avatar }}</logo>{{ end }}
@@ -13,9 +13,9 @@
 	<entry>
 		<title>{{ .Title }} — プログラミング言語 Go</title>
 		<link rel="alternate" type="text/html" href="{{ .Permalink }}" />
-		<id>tag:{{ .Site.Title }},{{ .Date.Format "2006-01-02T15:04:05.999999999-0700" | safeHTML }}:{{ .RelPermalink }}</id>
-		<published>{{ .Date.Format "2006-01-02T15:04:05-07-0700" | safeHTML }}</published>
-		<updated>{{ with .Params.update }}{{ . | dateFormat "2006-01-02T15:04:05-07-0700" | safeHTML }}{{ else }}{{ $.Date.Format "2006-01-02T15:04:05-07-0700" | safeHTML }}{{ end }}</updated>
+		<id>tag:{{ .Site.Title }},{{ .Date.Format "2006-01-02" }}:{{ .RelPermalink }}</id>
+		<published>{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</published>
+		<updated>{{ with .Params.update }}{{ . | dateFormat "2006-01-02T15:04:05-07:00" | safeHTML }}{{ else }}{{ $.Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}{{ end }}</updated>
 		{{ with .Description }}<summary>{{ . }}</summary>{{ end }}
 		{{ with .Params.author }}
 			<author>
