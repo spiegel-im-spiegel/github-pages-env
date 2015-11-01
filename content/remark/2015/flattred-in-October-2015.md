@@ -1,9 +1,10 @@
 +++
 date = "2015-11-01T12:25:49+09:00"
+update = "2015-11-01T16:23:00+09:00"
 description = "10月の flattr は4件。"
 draft = false
 tags = ["flattr", "github"]
-title = "2015年10月の Flattr もしくは「Flattr ＋ GitHub ＝ ♥」"
+title = "2015年10月の Flattr もしくは「Flattr × GitHub ＝ ♥」"
 
 [author]
   avatar = "/images/avatar.jpg"
@@ -33,7 +34,7 @@ title = "2015年10月の Flattr もしくは「Flattr ＋ GitHub ＝ ♥」"
 基本的にこのサービスを使う際には [flattr] するようにしている。
 [Maximus5/ConEmu] は[前回導入した]({{< relref "remark/2015/conemu-and-nyagos.md" >}})時に [flattr] した。
 
-## Flattr ＋ GitHub ＝ ♥
+## Flattr × GitHub ＝ ♥
 
 [Flattr] については本家ブログで紹介したことがあるが，ここでもう一度紹介しておく。
 
@@ -43,7 +44,7 @@ title = "2015年10月の Flattr もしくは「Flattr ＋ GitHub ＝ ♥」"
 - [どうやって著者にお金を払うか：マイクロペイメントサービスFlattr](http://www.infoq.com/jp/news/2010/06/flattr) : 現在は招待は不要
 
 日本語で一番ニュアンスが近い言葉は「投げ銭」だろう。
-ただし，他の投げ銭サービスと違って， [Flattr] では月々の寄付額（monthly budget[^a]）が決まっていて，それを [flattr] したもの（[Flattr] ではこれを “thing” と呼んでいる）で山分けする仕組みになっている[^b]。
+ただし，他の投げ銭サービスと違って， [Flattr] では月々の寄付額（monthly budget[^a]）が決まっていて，それを [flattr] したもの（[Flattr] では “thing” と呼んでいる）で山分けする仕組みになっている[^b]。
 これは寄付する側にとってはコントロールしやすいよい仕掛けだ。
 逆に寄付を受ける側にとっては如何に [flattr] を集めるかが鍵となる。
 ちなみに “thing” は URL で指示できるものであればなんでもよい。
@@ -68,7 +69,7 @@ title = "2015年10月の Flattr もしくは「Flattr ＋ GitHub ＝ ♥」"
 これらのサービスとアカウントを連携している場合， “auto flattring” を ON にすれば， like や ☆（star）などをする度に自動的に [flattr] される（ただし，相手側もアカウントを連携していることが条件）[^c]。
 私はプログラマなので，是非 [GitHub](https://github.com/) と [Flattr] を連携させることをお勧めする。
 
-[^c]: Facebook と Twitter には残念ながらこの機能はない（まぁ，もしあったら like する度にチャリンチャリンなって大変だろうけど）。 Twitter に関しては，以前は [SuperFav](http://superfav.de/) 経由で [flattr] できたが，現在はこのサイト自体が存在しないらしい？
+[^c]: Facebook と Twitter には残念ながらこの機能はない。まぁ，もしあったら like する度にチャリンチャリンなって大変だろうけど。 Twitter に関しては，以前は [SuperFav](http://superfav.de/) 経由で [flattr] できたが，現在はこのサイト自体が存在しないらしい？
 
 寄付は消費ではない。
 個々人の意思による明確な[社会参加](http://shinta.tea-nifty.com/nikki/2005/01/donation.html)の形である。
