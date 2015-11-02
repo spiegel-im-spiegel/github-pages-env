@@ -12,7 +12,8 @@ if errorlevel ~= 0 then
 	os.exit(errorlevel)
 end
 
-errorlevel, errormessage = nyagos.rawexec("git", "commit", "-v", "-m  \"Publish: auto commit in `date -R`\"")
+local timestr = os.date("%Y-%m-%dT%H:%M:%S+09:00")
+errorlevel, errormessage = nyagos.rawexec("git", "commit", "-v", "-m  \"Publish (auto commit in "..timestr..")\"")
 if errorlevel ~= 0 then
 	nyagos.writerr("Error Message: "..errormessage.."\n")
 	os.exit(errorlevel)
