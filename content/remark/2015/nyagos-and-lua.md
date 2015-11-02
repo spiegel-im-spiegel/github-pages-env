@@ -1,7 +1,7 @@
 +++
-date = "2015-11-02T09:41:51+09:00"
+date = "2015-11-02T21:41:54+09:00"
 description = "前回，ConEmu とともに NYAGOS を導入したけど，今回は NYAGOS のセッティングを中心に。"
-draft = true
+draft = false
 tags = ["windows", "tools", "nyagos", "shell", "lua"]
 title = "NYAGOS で Lua"
 
@@ -102,7 +102,7 @@ suffix.ps1={"powershell","-file"}
  `%HOME%` または `%HOMEPATH%` フォルダにある `.nyagos` ファイルに以下の記述を追加する[^a]。
 
  [^a]: `suffix` ではなく `alias` で `lua` コマンドを定義する手もある。
- 
+
  ```lua
  suffix.lua={"nyagos.exe","-f"}
  ```
@@ -130,7 +130,9 @@ Pascal 系の構文は目が滑るんだよなぁ。
 - [nyagosスクリプト解説 - 逆クォートによるコマンド出力展開編(backquote.lua) - Qiita](http://qiita.com/zetamatta/items/cdff310f53faf3369e48)
 - [nyagosスクリプト解説 - CMD.EXEで化けさせず、nyagosの中だけプロンプトをカラー化 - Qiita](http://qiita.com/zetamatta/items/c08586c85fa73c182a7a)
 - [nyagosスクリプト解説 - VisualStudio れんけー - Qiita](http://qiita.com/zetamatta/items/89a907f4bd46d1750c31)
-- [git 付属のPerlやunzipとかを使いたいけどsort,find,lnとかは要らない - Qiita](http://qiita.com/zetamatta/items/1fe83f736b0254e02415) : 最近の [Git for Windows](https://git-for-windows.github.io/) は bash 関連のコマンドを `Git\usr\bin` フォルダに集めている。 git コマンドだけが必要なら `Git\cmd` フォルダにのみパスを通せばよい。 bash を使う場合は `Git\bin` フォルダにある `bash.exe` を起動するのが一番安全なようだ
+- [git 付属のPerlやunzipとかを使いたいけどsort,find,lnとかは要らない - Qiita](http://qiita.com/zetamatta/items/1fe83f736b0254e02415) [^b]
+
+[^b]: 最近の [Git for Windows](https://git-for-windows.github.io/) は bash 関連のコマンドを `Git\usr\bin` フォルダに集めている。 git コマンドだけが必要なら `Git\cmd` フォルダにのみパスを通せばよい。 bash を使う場合は `Git\bin` フォルダにある `bash.exe` を起動するのが一番安全なようだ。
 
 ### Lua の解説
 
