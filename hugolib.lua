@@ -1,4 +1,4 @@
-module("hugo", package.seeall)
+module("hugolib", package.seeall)
 
 function pathjoin(...)
 	local elements = { ... }

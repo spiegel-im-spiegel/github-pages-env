@@ -1,4 +1,4 @@
-require("hugo")
+require("hugolib")
 
 if #arg < 1 then
 	nyagos.writerr("Usage: new [<section>] <file name>\n")
@@ -10,15 +10,15 @@ local year = os.date("%Y")
 local monthday = os.date("%m%d")
 if #arg == 1 then
 	if arg[1] == "remark" then
-		path = hugo.pathjoin(arg[1], year, monthday.."-diary.md")
+		path = hugolib.pathjoin(arg[1], year, monthday.."-diary.md")
 	end
 else
 	section = arg[1]
 	file = arg[2]
 	if section == "remark" then
-		path = hugo.pathjoin(section, year, file)
+		path = hugolib.pathjoin(section, year, file)
 	else
-		path = hugo.pathjoin(section, file)
+		path = hugolib.pathjoin(section, file)
 	end
 end
 nyagos.write("Create: "..path.."\n")
