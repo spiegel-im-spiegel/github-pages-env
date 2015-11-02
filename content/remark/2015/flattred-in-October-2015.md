@@ -3,7 +3,7 @@ date = "2015-11-01T12:25:49+09:00"
 update = "2015-11-01T16:23:00+09:00"
 description = "10月の flattr は4件。"
 draft = false
-tags = ["flattr", "github"]
+tags = ["flattr", "github", "conemu"]
 title = "2015年10月の Flattr もしくは「Flattr × GitHub ＝ ♥」"
 
 [author]
