@@ -2,7 +2,7 @@
 date = "2015-11-02T09:41:51+09:00"
 description = "前回，ConEmu とともに NYAGOS を導入したけど，今回は NYAGOS のセッティングを中心に。"
 draft = true
-tags = ["windows", "tools", "nyagos", "lua"]
+tags = ["windows", "tools", "nyagos", "shell", "lua"]
 title = "NYAGOS で Lua"
 
 [author]
@@ -120,8 +120,25 @@ Hello World!
 さぁて，これでいよいよもって [Lua] の勉強をしないといけなくなったなぁ。
 Pascal 系の構文は目が滑るんだよなぁ。
 
-- [お気楽 Lua プログラミング超入門](http://www.geocities.jp/m_hiroi/light/lua01.html)
+## ブックマーク
+
+### NYAGOS 作者による解説
+
+- [環境変数PATHが長すぎて、追加したパスが有効にならないぜ！ - Qiita](http://qiita.com/zetamatta/items/a49e3a40201511128508)
+- [nyagosスクリプト解説 - svn のサブコマンドを勝手に拡張する - Qiita](http://qiita.com/zetamatta/items/c4ad3cc55c5afa74da63)
+- [nyagosスクリプト解説 - ezoe.lua「コマンドではない。」 - Qiita](http://qiita.com/zetamatta/items/29a85695813926cafd2c)
+- [nyagosスクリプト解説 - 逆クォートによるコマンド出力展開編(backquote.lua) - Qiita](http://qiita.com/zetamatta/items/cdff310f53faf3369e48)
+- [nyagosスクリプト解説 - CMD.EXEで化けさせず、nyagosの中だけプロンプトをカラー化 - Qiita](http://qiita.com/zetamatta/items/c08586c85fa73c182a7a)
+- [nyagosスクリプト解説 - VisualStudio れんけー - Qiita](http://qiita.com/zetamatta/items/89a907f4bd46d1750c31)
+- [git 付属のPerlやunzipとかを使いたいけどsort,find,lnとかは要らない - Qiita](http://qiita.com/zetamatta/items/1fe83f736b0254e02415) : 最近の [Git for Windows](https://git-for-windows.github.io/) は bash 関連のコマンドを `Git\usr\bin` フォルダに集めている。 git コマンドだけが必要なら `Git\cmd` フォルダにのみパスを通せばよい。 bash を使う場合は `Git\bin` フォルダにある `bash.exe` を起動するのが一番安全なようだ
+
+### Lua の解説
+
 - [Luaプログラミング入門 | densan-labs.net](http://densan-labs.net/tech/lua/index.html)
+- [高速スクリプト言語 [Lua] を始めよう — WTOPIA v1.0 documentation](http://www.ie.u-ryukyu.ac.jp/~e085739/lua.hajime.html)
+- [Lua Memo](http://aoikujira.com/wiki/lua/)
+- [紀子さん＠へぼぷろぐらまの日常 | Luaで日付時間操作。](http://noriko3.blog42.fc2.com/blog-entry-128.html)
+- [Luaでファイルの読み書きを行なう - Symfoware](http://symfoware.blog68.fc2.com/blog-entry-454.html)
 
 [ConEmu]: https://conemu.github.io/ "ConEmu - Handy Windows Terminal"
 [NYAGOS]: http://www.nyaos.org/index.cgi?p=NYAGOS "NYAOS.ORG - NYAGOS"
