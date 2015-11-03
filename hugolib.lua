@@ -29,12 +29,12 @@ function server(theme, enableDraft, port)
 	if port == nil or port == "" then port = "1313" end
 	if theme == "" then
 		if enableDraft == true then
-			return nyagos.rawexec("hugo.exe", "server", "--watch", "--buildDrafts", "--port="..port)
+			return nyagos.rawexec("hugo.exe", "server", "--watch", "--port="..port, "--buildDrafts")
 		else
 			return nyagos.rawexec("hugo.exe", "server", "--watch", "--port="..port)
 		end
 	elseif enableDraft == true then
-		return nyagos.rawexec("hugo.exe", "server", "--watch", "--buildDrafts", "--port="..port, "--theme="..theme)
+		return nyagos.rawexec("hugo.exe", "server", "--watch", "--port="..port, "--buildDrafts", "--theme="..theme)
 	else
 		return nyagos.rawexec("hugo.exe", "server", "--watch", "--port="..port, "--theme="..theme)
 	end
