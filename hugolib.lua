@@ -1,3 +1,9 @@
+--[[
+ Lua Library for Hugo
+
+ These codes are licensed under CC0.
+ http://creativecommons.org/publicdomain/zero/1.0/deed
+]]
 module("hugolib", package.seeall)
 
 function pathjoin(...)
@@ -32,19 +38,19 @@ function update(path)
 	local writer, errmsg, errno = io.open(hugopath, "w+b")
 	if writer == nil then return errno, errmsg end
 	local updatestr = "update = \""..os.date("%Y-%m-%dT%H:%M:%S+09:00").."\"\n" -- JST only
-	local flag = false
+	local tomlFlag = false
 	for i, line in ipairs(lines) do
-		if (not flag) and line == "+++" then
+		if (not tomlFlag) and line == "+++" then
 			writer:write(line.."\n")
-			flag = true
-		elseif  flag and line == "+++" then
+			tomlFlag = true
+		elseif  tomlFlag and line == "+++" then
 			writer:write(line.."\n")
-			flag = false
-		elseif  flag and string.sub(line, 0, 4) == "date" then
+			tomlFlag = false
+		elseif  tomlFlag and string.sub(line, 0, 4) == "date" then
 			writer:write(line.."\n")
-			nyagos.write("Add: "..updatestr)
+			nyagos.write(updatestr)
 			writer:write(updatestr) -- add line ("update" element)
-		elseif  flag and string.sub(line, 0, 6) == "update" then
+		elseif  tomlFlag and string.sub(line, 0, 6) == "update" then
 			-- delete line
 		else
 			writer:write(line.."\n")
