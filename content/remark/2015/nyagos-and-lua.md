@@ -66,7 +66,7 @@ nyagos.alias.cmdname = function(args) ... end
 のような形式で新しい内部コマンドを作成することもできる。
 
 ところで `nyagos.exe` を普通に起動して `ls -oF` コマンドでファイルの一覧を表示させてみると，拡張子 `.lua` のファイルは実行可能ファイルになっていることが分かる。
-実際に起動しようとすると
+ただ，実際に起動しようとすると
 
 ```
 ~> hello.lua
@@ -74,7 +74,7 @@ nyagos.alias.cmdname = function(args) ... end
 operable program or batch file
 ```
 
-と怒られる。
+と怒られた。
 どうやら `lua` コマンドがねーよ，と言っているらしい（確かに [Lua] の実行モジュールは入れてないのだが）。
 
 [NYAGOS] をインストールしたフォルダにある `nyagos.d\suffix.lua` ファイルの末尾あたりを見ると
@@ -98,8 +98,7 @@ suffix.ps1={"powershell","-file"}
 
 となっていて，実際に拡張子 `.lua` のファイルが `lua` コマンドに関連付けられているのが分かる。
 ってことは，これを `nyagos.exe` に書き換えればいいわけだ。
-とはいえ `nyagos.d\suffix.lua` ファイルを直接いじるわけにはいかないので（バージョンアップのたびに上書きされる），
- `%HOME%` または `%HOMEPATH%` フォルダにある `.nyagos` ファイルに以下の記述を追加する[^a]。
+とはいえ `nyagos.d\suffix.lua` ファイルを直接いじるわけにはいかないので（バージョンアップのたびに上書きされる）， `%HOME%` または `%HOMEPATH%` フォルダにある `.nyagos` ファイルに以下の記述を追加する[^a]。
 
  [^a]: `suffix` ではなく `alias` で `lua` コマンドを定義する手もある。
 

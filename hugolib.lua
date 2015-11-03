@@ -11,6 +11,31 @@ function pathjoin(...)
 	return ret
 end
 
-function build()
-	return nyagos.rawexec("hugo.exe", "--theme=text", "--destination=../published")
+function build(theme, dist)
+	if theme == "" then
+		if dist == "" then
+			return nyagos.rawexec("hugo.exe")
+		else
+			return nyagos.rawexec("hugo.exe", "--destination="..dist)
+		end
+	elseif dist == "" then
+		return nyagos.rawexec("hugo.exe", "--theme="..theme)
+	else
+		return nyagos.rawexec("hugo.exe", "--theme="..theme, "--destination="..dist)
+	end
+end
+
+function server(theme, enableDraft, port)
+	if port == nil or port == "" then port = "1313" end
+	if theme == "" then
+		if enableDraft == true then
+			return nyagos.rawexec("hugo.exe", "server", "--watch", "--buildDrafts", "--port="..port)
+		else
+			return nyagos.rawexec("hugo.exe", "server", "--watch", "--port="..port)
+		end
+	elseif enableDraft == true then
+		return nyagos.rawexec("hugo.exe", "server", "--watch", "--buildDrafts", "--port="..port, "--theme="..theme)
+	else
+		return nyagos.rawexec("hugo.exe", "server", "--watch", "--port="..port, "--theme="..theme)
+	end
 end
