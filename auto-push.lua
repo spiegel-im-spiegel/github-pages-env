@@ -1,7 +1,7 @@
 require("hugolib")
 
 nyagos.write("build...\n")
-local errorlevel, errormessage = hugolib.build("text", "../publish")
+local errorlevel, errormessage = hugolib.build("text", "../published")
 if errorlevel ~= 0 then
 	nyagos.writerr("Error Message: "..errormessage.."\n")
 	os.exit(errorlevel)
