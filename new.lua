@@ -22,5 +22,5 @@ else
 	end
 end
 nyagos.write("Create: "..path.."\n")
-local errorlevel, errormessage = nyagos.rawexec("hugo.exe", "new", path)
+local errorlevel, errormessage = hugolib.new(path)
 if errorlevel ~= 0 then nyagos.writerr("Error Message: "..errormessage.."\n") end
