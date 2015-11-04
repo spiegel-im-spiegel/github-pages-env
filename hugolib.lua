@@ -6,25 +6,22 @@
 ]]
 module("hugolib", package.seeall)
 
-function pathjoin(...)
-	local elements = { ... }
-	local ret = ""
-	local sep = ""
-	for i, elem in ipairs(elements) do
-		ret = ret..sep..elem
-		if sep == "" then sep = "/" end
-	end
-	return ret
-end
+--
+-- Hugo File Management
+--
 
+-- Create New Post (hugo new ...)
 function new(path)
 	return nyagos.rawexec("hugo.exe", "new", path)
 end
 
+-- Release Post (hugo undraft ...)
 function release(path)
 	return nyagos.rawexec("hugo.exe", "undraft", "content/"..path)
 end
 
+-- Update Post (add "update" element in front matter)
+--   caution: support TOML format only
 function update(path)
 	local hugopath = "content/"..path
 
@@ -59,6 +56,7 @@ function update(path)
 	return 0, nil
 end
 
+-- Build Site
 function build(theme, dist)
 	if theme == "" then
 		if dist == "" then
@@ -73,6 +71,7 @@ function build(theme, dist)
 	end
 end
 
+-- Server Mode (hugo server ...)
 function server(theme, enableDraft, port)
 	if port == nil or port == "" then port = "1313" end
 	if theme == "" then
@@ -86,4 +85,41 @@ function server(theme, enableDraft, port)
 	else
 		return nyagos.rawexec("hugo.exe", "server", "--watch", "--port="..port, "--theme="..theme)
 	end
+end
+
+--
+-- Git Simple Operation 
+--
+
+-- Git Add on stage (git add --all)
+function git_add_all()
+    return nyagos.rawexec("git", "add", "--all")
+end
+
+-- Git Commit (git commit -v -m  "comment")
+function git_commit(comment)
+    return nyagos.rawexec("git", "commit", "-v", "-m",  comment)
+end
+
+-- Git Push to remote repository (git add remote branch)
+function git_push(remote, branch)
+    if remote == nil or remote == "" then remote = "origin" end
+    if branch == nil or branch == "" then branch = "master" end
+    return nyagos.rawexec("git", "push", "-u", remote, dist)
+end
+
+--
+-- Utility Functions
+--
+
+-- Make Hugo Path (join strings. Delimiter is "/" character.)
+function pathjoin(...)
+	local elements = { ... }
+	local ret = ""
+	local sep = ""
+	for i, elem in ipairs(elements) do
+		ret = ret..sep..elem
+		if sep == "" then sep = "/" end
+	end
+	return ret
 end

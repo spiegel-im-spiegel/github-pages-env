@@ -14,7 +14,7 @@ if errorlevel ~= 0 then
 end
 
 nyagos.write("\ngit add...\n")
-errorlevel, errormessage = nyagos.rawexec("git", "add", "*")
+errorlevel, errormessage = nyagos.rawexec("git", "add", "--all")
 if errorlevel ~= 0 then
 	nyagos.writerr("Error Message: "..errormessage.."\n")
 	os.exit(errorlevel)
