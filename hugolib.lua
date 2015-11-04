@@ -103,7 +103,7 @@ function git_commit(comment)
     return nyagos.rawexec("git", "commit", "-v", "-m",  comment)
 end
 
--- Git Push to remote repository (git add remote branch)
+-- Git Push to remote repository (git add -u remote branch)
 function git_push(remote, branch)
     if remote == nil or remote == "" then remote = "origin" end
     if branch == nil or branch == "" then branch = "master" end
