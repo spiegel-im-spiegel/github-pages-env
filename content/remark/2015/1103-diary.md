@@ -1,5 +1,6 @@
 +++
 date = "2015-11-03T22:05:33+09:00"
+update = "2015-11-04T12:43:50+09:00"
 description = "人工知能で弁護士は絶滅するか / AI は「トロッコ問題」をどう解くか / TVer に拒否られた / Node v5.0.0 (Stable)"
 draft = false
 tags = ["intelligence", "media", "node.js"]
@@ -99,7 +100,7 @@ AI は（今のところ）近似解に葛藤したりしない。
     - [Node v5.0.0 (stable) - Qiita](http://qiita.com/zakiko/items/f1e6db17e243667b8513)
 - [Node.js 5.0がリリース。奇数バージョンは最新機能版、偶数バージョンは長期サポート版 － Publickey](http://www.publickey1.jp/blog/15/nodejs_50.html)
 
-[LTS (Long-term Support)](https://github.com/nodejs/LTS/) の 4.2（現在の最新は v4.2.1）とは別に v5.0.0 が登場。
+[LTS (Long-term Support)](https://github.com/nodejs/LTS/) の 4.2（11月4日時点の最新は v4.2.2）とは別に v5.0.0 が登場。
 LTS 版って Firefox で言うところの [ESR (Extended Support Release) 版](http://www.mozilla.jp/business/downloads/)みたいなものかな？
 
 まだ v4 すら試してないんだよなぁ。
@@ -107,6 +108,7 @@ LTS 版って Firefox で言うところの [ESR (Extended Support Release) 版]
 なんとかしないとなぁ。
 
 - [JavaScript ES6 (ES2015) 移行に関する覚書 - Qiita](http://qiita.com/LightSpeedC/items/9dd46c456e7bbdb1c857)
+- [Node v4.2.2 (LTS) | Node.js](https://nodejs.org/en/blog/release/v4.2.2/)
 
 ## 参考図書
 

@@ -58,13 +58,13 @@ end
 
 -- Build Site
 function build(theme, dist)
-	if theme == "" then
-		if dist == "" then
+	if theme == nil or theme == "" then
+		if dist == nil or dist == "" then
 			return nyagos.rawexec("hugo.exe")
 		else
 			return nyagos.rawexec("hugo.exe", "--destination="..dist)
 		end
-	elseif dist == "" then
+	elseif dist == nil or dist == "" then
 		return nyagos.rawexec("hugo.exe", "--theme="..theme)
 	else
 		return nyagos.rawexec("hugo.exe", "--theme="..theme, "--destination="..dist)
@@ -74,7 +74,7 @@ end
 -- Server Mode (hugo server ...)
 function server(theme, enableDraft, port)
 	if port == nil or port == "" then port = "1313" end
-	if theme == "" then
+	if theme == nil or theme == "" then
 		if enableDraft == true then
 			return nyagos.rawexec("hugo.exe", "server", "--watch", "--port="..port, "--buildDrafts")
 		else
