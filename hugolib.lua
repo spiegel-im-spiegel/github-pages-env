@@ -93,11 +93,13 @@ end
 
 -- Git Add on stage (git add --all)
 function git_add_all()
+    nyagos.write("git add --all\n")
     return nyagos.rawexec("git", "add", "--all")
 end
 
 -- Git Commit (git commit -v -m  "comment")
 function git_commit(comment)
+    nyagos.write("git commit -v -m \""..comment.."\"\n")
     return nyagos.rawexec("git", "commit", "-v", "-m",  comment)
 end
 
@@ -105,6 +107,7 @@ end
 function git_push(remote, branch)
     if remote == nil or remote == "" then remote = "origin" end
     if branch == nil or branch == "" then branch = "master" end
+    nyagos.write("git push -u "..remote.." "..dist.."\n")
     return nyagos.rawexec("git", "push", "-u", remote, dist)
 end
 
