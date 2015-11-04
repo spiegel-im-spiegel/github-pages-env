@@ -107,8 +107,8 @@ end
 function git_push(remote, branch)
     if remote == nil or remote == "" then remote = "origin" end
     if branch == nil or branch == "" then branch = "master" end
-    nyagos.write("git push -u "..remote.." "..dist.."\n")
-    return nyagos.rawexec("git", "push", "-u", remote, dist)
+    nyagos.write("git push -u "..remote.." "..branch.."\n")
+    return nyagos.rawexec("git", "push", "-u", remote, branch)
 end
 
 --
