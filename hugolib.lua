@@ -111,6 +111,19 @@ function git_push(remote, branch)
     return nyagos.rawexec("git", "push", "-u", remote, branch)
 end
 
+-- Git Pull from remote repository (git pull --progress remote)
+function git_pull(remote)
+    if remote == nil or remote == "" then remote = "origin" end
+    nyagos.write("git pull --progres "..remote.."\n")
+    return nyagos.rawexec("git", "pull", "--progress", remote)
+end
+
+-- Update Git Submodule (git submodule update --init --recursive)
+function git_submodule_update()
+    nyagos.write("git submodule update --init --recursive\n")
+    return nyagos.rawexec("git", "submodule", "update", "--init", "--recursive")
+end
+
 --
 -- Utility Functions
 --
