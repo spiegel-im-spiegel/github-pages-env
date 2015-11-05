@@ -1,6 +1,6 @@
 +++
 date = "2015-10-22T14:35:22+09:00"
-update = "2015-11-03T13:55:09+09:00"
+update = "2015-11-05T20:53:32+09:00"
 description = "GPU をふんだんに使った専用ハードウェアやクラウド・サービスなどを組み合わせることにより，近い将来に実用的なコストで SHA-1 攻略が可能になると指摘されている。"
 draft = false
 tags = ["security", "cryptography", "hash", "sha-1", "collision", "risk"]
@@ -170,6 +170,7 @@ GPU ベースのシステムやクラウド・サービス等による巨大計�
 - [scryptがGPUに破られる時 | びりあるの研究ノート](https://blog.visvirial.com/articles/519) : GPU 耐性が高いと言われる scrypt も実時間で攻略できるようになってきたという話
 - [自堕落な技術者の日記 : SSL Pulseの統計情報で見るSSL/TLS (2015年10月版) - livedoor Blog（ブログ）](http://blog.livedoor.jp/k_urushima/archives/1782546.html) : Alexa 社によるアクセス世界トップ20万サイトを対象にした SSL/TLS 関連の統計情報
 - [FAQ: SHA-1 廃止/SHA-2 移行に関するマイクロソフトのポリシー - 日本のセキュリティチーム](http://blogs.technet.com/b/jpsecurity/archive/2015/11/02/faq-microsoft-policy-on-sha1-deprecation.aspx)
+- [「SHA-1」SSLサーバ証明書の廃止迫る--「SHA-2」への移行状況とその影響、課題 - ZDNet Japan](http://japan.zdnet.com/article/35072827/)
 
 ## 関連図書
 
