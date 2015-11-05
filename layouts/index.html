@@ -14,7 +14,7 @@
 
 <section>
 <h2>最近の記事</h2>
-<ul style="list-style:none;">
+<ul class="title-list">
 {{ range first 5 .Site.Pages }}{{ partial "li.html" . }}{{ end }}
 </ul>
 
@@ -35,7 +35,7 @@
 
 <section>
 <h4>最新記事</h4>
-<ul style="list-style:none;">
+<ul class="title-list">
 {{ range first 1 (where .Site.Pages "Section" "==" "remark") }}{{ partial "li-section.html" . }}{{ end }}
 </ul>
 </section> <!-- 最近の記事 -->
@@ -49,7 +49,7 @@
 </p>
 <section>
 <h4>最新記事</h4>
-<ul style="list-style:none;">
+<ul class="title-list">
 {{ range first 1 (where .Site.Pages "Section" "==" "hugo") }}{{ partial "li-section.html" . }}{{ end }}
 </ul>
 </section> <!-- 最近の記事 -->
@@ -61,7 +61,7 @@
 
 <section>
 <h4>最新記事</h4>
-<ul style="list-style:none;">
+<ul class="title-list">
 {{ range first 1 (where .Site.Pages "Section" "==" "golang") }}{{ partial "li-section.html" . }}{{ end }}
 </ul>
 </section> <!-- 最近の記事 -->
@@ -73,7 +73,7 @@
 
 <section>
 <h4>最新記事</h4>
-<ul style="list-style:none;">
+<ul class="title-list">
 {{ range first 1 (where .Site.Pages "Section" "==" "cc-licenses") }}{{ partial "li-section.html" . }}{{ end }}
 </ul>
 </section> <!-- 最近の記事 -->
