@@ -1,5 +1,6 @@
 +++
 date = "2015-11-02T21:41:54+09:00"
+update = "2015-11-05T16:35:59+09:00"
 description = "前回，ConEmu とともに NYAGOS を導入したけど，今回は NYAGOS のセッティングを中心に。"
 draft = false
 tags = ["windows", "tools", "nyagos", "shell", "lua"]
@@ -135,11 +136,13 @@ Pascal 系の構文は目が滑るんだよなぁ。
 
 ### Lua の解説
 
+- [Lua の Windows へのインストールと使い方 | プログラマーズ雑記帳](http://yohshiy.blog.fc2.com/blog-entry-291.html)
 - [Luaプログラミング入門 | densan-labs.net](http://densan-labs.net/tech/lua/index.html)
 - [高速スクリプト言語 [Lua] を始めよう — WTOPIA v1.0 documentation](http://www.ie.u-ryukyu.ac.jp/~e085739/lua.hajime.html)
 - [良いもの。悪いもの。: Lua基礎文法最速マスター](http://handasse.blogspot.com/2010/02/lua.html)
 - [紀子さん＠へぼぷろぐらまの日常 | Luaで日付時間操作。](http://noriko3.blog42.fc2.com/blog-entry-128.html)
 - [Luaでファイルの読み書きを行なう - Symfoware](http://symfoware.blog68.fc2.com/blog-entry-454.html)
+- [Lua のコルーチンの使い方〜基本編〜 : torus solutions!](http://torus.jp/memo/x200907/lua-coroutine.rd.html)
 
 [ConEmu]: https://conemu.github.io/ "ConEmu - Handy Windows Terminal"
 [NYAGOS]: http://www.nyaos.org/index.cgi?p=NYAGOS "NYAOS.ORG - NYAGOS"
