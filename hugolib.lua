@@ -58,13 +58,13 @@ end
 
 -- Build Site
 function build(theme, dist)
-	if theme == nil or theme == "" then
-		if dist == nil or dist == "" then
+	if isBlank(theme) then
+		if isBlank(dist) then
 			return nyagos.rawexec("hugo.exe")
 		else
 			return nyagos.rawexec("hugo.exe", "--destination="..dist)
 		end
-	elseif dist == nil or dist == "" then
+	elseif isBlank(dist) then
 		return nyagos.rawexec("hugo.exe", "--theme="..theme)
 	else
 		return nyagos.rawexec("hugo.exe", "--theme="..theme, "--destination="..dist)
@@ -73,14 +73,14 @@ end
 
 -- Server Mode (hugo server ...)
 function server(theme, enableDraft, port)
-	if port == nil or port == "" then port = "1313" end
-	if theme == nil or theme == "" then
-		if enableDraft == true then
+	if isBlank(port) then port = "1313" end
+	if isBlank(theme) then
+		if enableDraft then
 			return nyagos.rawexec("hugo.exe", "server", "--watch", "--port="..port, "--buildDrafts")
 		else
 			return nyagos.rawexec("hugo.exe", "server", "--watch", "--port="..port)
 		end
-	elseif enableDraft == true then
+	elseif enableDraft then
 		return nyagos.rawexec("hugo.exe", "server", "--watch", "--port="..port, "--buildDrafts", "--theme="..theme)
 	else
 		return nyagos.rawexec("hugo.exe", "server", "--watch", "--port="..port, "--theme="..theme)
@@ -105,15 +105,15 @@ end
 
 -- Git Push to remote repository (git add -u remote branch)
 function git_push(remote, branch)
-    if remote == nil or remote == "" then remote = "origin" end
-    if branch == nil or branch == "" then branch = "master" end
+    if isBlank(remote) then remote = "origin" end
+    if isBlank(branch) then branch = "master" end
     nyagos.write("git push -u "..remote.." "..branch.."\n")
     return nyagos.rawexec("git", "push", "-u", remote, branch)
 end
 
 -- Git Pull from remote repository (git pull --progress remote)
 function git_pull(remote)
-    if remote == nil or remote == "" then remote = "origin" end
+    if isBlank(remote) then remote = "origin" end
     nyagos.write("git pull --progres "..remote.."\n")
     return nyagos.rawexec("git", "pull", "--progress", remote)
 end
@@ -138,4 +138,8 @@ function pathjoin(...)
 		if sep == "" then sep = "/" end
 	end
 	return ret
+end
+
+function isBlank(str)
+	return (str == nil or str == "")
 end
