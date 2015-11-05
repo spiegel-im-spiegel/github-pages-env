@@ -35,6 +35,7 @@ if errorlevel ~= 0 then
 	os.exit(errorlevel)
 end
 
+nyagos.write("\nreturn folder\n")
 errorlevel, errormessage = nyagos.exec("popd")
 if errorlevel ~= 0 then
 	nyagos.writerr("Error Message: "..errormessage.."\n")
