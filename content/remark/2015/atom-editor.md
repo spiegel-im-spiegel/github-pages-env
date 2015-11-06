@@ -1,6 +1,6 @@
 +++
 date = "2015-09-15T21:00:13+09:00"
-update = "2015-10-13T16:50:00+09:00"
+update = "2015-11-06T14:30:00+09:00"
 description = "ATOM Editor に関するメモ。 Windows 環境が前提になっているのであしからず。"
 draft = false
 tags = ["atom", "editor", "tools"]
@@ -361,7 +361,7 @@ submodule の処理が得意ではないっぽいのもマイナス。
 現在の設定は [Gist に貼り付け](https://gist.github.com/spiegel-im-spiegel/e6e9c7340987f1607b2c)ている。
 よろしかったら参考にどうぞ。
 
-<script src="https://gist.github.com/spiegel-im-spiegel/e6e9c7340987f1607b2c.js"></script>
+{{< fig-gist "https://gist.github.com/spiegel-im-spiegel/e6e9c7340987f1607b2c" >}}
 
 ## ブックマーク
 

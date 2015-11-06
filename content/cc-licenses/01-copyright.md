@@ -1,6 +1,6 @@
 +++
 date = "2015-10-17T15:51:23+09:00"
-update = "2015-11-04T17:56:38+09:00"
+update = "2015-11-06T11:26:48+09:00"
 description = "まずは「著作権」について簡単におさらい。"
 draft = false
 tags = ["code", "law", "intellectual-property", "copyright"]
@@ -310,7 +310,7 @@ title = "著作権と著作権法"
 
 ユーザ側から見た場合，「法」が整備されていくのを悠長に待っている訳にはいかない。
 ならばいっそ，あらかじめ「共有」に必要な許諾を行うライセンスを作って運用するほうが理にかなっている。
-そうして作られたライセンス・ツールのひとつが Creative Commons Licenses (CC Licenses) である。
+そうして作られたライセンス・ツールのひとつが Creative Commons Licenses ([CC Licenses]) である。
 
 というわけで，ようやく前置き終わり。
 次回から CC Licenses について解説していく。
@@ -322,6 +322,11 @@ title = "著作権と著作権法"
 - [バーチャルネット法律娘　真紀奈17歳](http://homepage3.nifty.com/machina/) : 古いコンテンツだが，このなかの「著作権法講座」は参考になる
 - [著作権Q&A | 公益社団法人著作権情報センター CRIC](http://www.cric.or.jp/qa/index.html)
 - [特集 : 18歳からの著作権入門 - CNET Japan](http://japan.cnet.com/sp/copyright_study/)
+
+
+[本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
+[著作権法]: http://law.e-gov.go.jp/htmldata/S45/S45HO048.html "著作権法"
+[CC Licenses]: http://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
 
 ### 参考図書
 
@@ -339,6 +344,3 @@ title = "著作権と著作権法"
 <p class="description">福井健策弁護士による「<a href="http://japan.cnet.com/sp/copyright_study/">18歳からの著作権入門</a>」の書籍化。</p>
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-05-07">2015/05/07</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
 </div>
-
-[本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
-[著作権法]: http://law.e-gov.go.jp/htmldata/S45/S45HO048.html "著作権法"
