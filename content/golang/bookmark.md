@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2015-11-06T11:32:04+09:00"
+update = "2015-11-07T16:34:12+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -115,10 +115,6 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go - Revel templatesを使ったサンプルアプリケーション - Qiita](http://qiita.com/rubytomato@github/items/638299aabb7922cbef59)
 - [goでwindowsでwindow - Qiita](http://qiita.com/ohisama@github/items/20bc61175ce4a33b7365)
 - [Go言語でパッケージを作成して世界に公開する方法 at ミネルヴァの梟は黄昏とともに飛び始める（山下 大介 公式ブログ）](http://blog.daisukeyamashita.com/post/1209.html) : パッケージの作り方なんだけど、情報が古すぎた orz
-- [goでwindowsでRS232C - Qiita](http://qiita.com/ohisama@github/items/e6fa2bd1527c257bb9c9)
-    - [ohisama/serial](https://github.com/ohisama/serial) (forkd from [lnmx/serial](https://github.com/lnmx/serial))
-    - [goでwindowsでRS232C その２ - Qiita](http://qiita.com/ohisama@github/items/12dccdcdfc5082c22e72)
-    - [goでwindowsでキースキャン - Qiita](http://qiita.com/ohisama@github/items/9f05679f25cfc9c3ecfc)
 - [Goのencoding/jsonでタグが反映されなくてハマったしょうもない話 - Qiita](http://qiita.com/modal_soul/items/83b0930d90d44e006768)
 - [gocron でジョブスケジューリング - Qiita](http://qiita.com/mitsuse/items/8669bf54d2310b3e68a1) : [gcarlescere/scheduler](https://github.com/carlescere/scheduler) のほうがおすすめらしいw
 - [Google ChromeのテキストエリアをEmacsで編集する'Edit with Emacs'から任意のエディタを起動するデーモンをGo 1.4 for Windowsで書いてみたわけだが、エディタがブラウザの後ろに出てしまってダメかもしれない - Qiita](http://qiita.com/zetamatta/items/51b0f45496e5143e2e63)
@@ -131,18 +127,14 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Goのバッチで統計を取得するAPIを用意しておくと便利 - Qiita](http://qiita.com/sudix/items/c542e1b59bc94dc741e3)
 - [Mithril＋golang Gin を試す - Qiita](http://qiita.com/masatsugumatsus/items/e28254ff52963705ce7f)
 - [大学入試問題をGoで解いてみる - Qiita](http://qiita.com/qube81/items/c47b9e3ea8d028e95588) : [math/big](https://golang.org/pkg/math/big/) パッケージを使って大きな数を計算する。
-- [GoでGoogleCalendarAPIv3を叩く（APIキー） - Qiita](http://qiita.com/yodatomato/items/8013f728bbf4358e9425)
 - [golang - cmd.Envを設定してexecしたらコケた - Qiita](http://qiita.com/8845musign/items/5c4b32f82c2df08acd93) : [`exec`](https://golang.org/pkg/os/exec/) パッケージを使う際には環境変数に注意
 - [golangで数独を解いた - Qiita](http://qiita.com/ciruzzo/items/144bc1874947441f9fb8)
-- [Golang で iso-2022-jp メールのデコード - Qiita](http://qiita.com/curious-eyes/items/3dae99e5e0feb6b9f642)
-- [Go言語の練習用にTwitterのOAuth認証をフルスクラッチしてみた - Qiita](http://qiita.com/mpyw/items/cb0f824d618d8fed384e)
 - [Go言語でBigQueryのクエリを実行してみる - Qiita](http://qiita.com/najeira/items/8310fecf4b70c918f855)
 - [Go - sliceのシャッフル - Qiita](http://qiita.com/sugyan/items/fd7138a756c1a409f5fd) : [Fisher–Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle) というアルゴリズムらしい
 - [今後イケそうなデスクトップGUIフレームワーク - Qiita](http://qiita.com/hachi8833/items/463264f531474a856064) : [go-thrust](https://github.com/miketheprogrammer/go-thrust/) について言及
-- [Goとtesseractで簡易OCRサーバを作る - Qiita](http://qiita.com/fumizp/items/63243cf418d27898f208)
 - [Goで外部コマンドをパイプして実行する - Qiita](http://qiita.com/yuroyoro/items/9358cd25b5f7fe9dd37f)
 - [1l0/sumeragi](https://github.com/1l0/sumeragi) : 皇紀や元号を出力するパッケージ
-- [Go言語で簡単にHTTPリクエストを送ってJSONをパースするサンプル - Qiita](http://qiita.com/ikuwow/items/c8f494bbd16adf6db142)
+- [RubyからGoの関数をつかう → はやい - Qiita](http://qiita.com/grj_achm/items/679b3f3af2cf377f0f02)
 
 ### コマンドライン・ツール
 
@@ -167,6 +159,20 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [「連結されたgzipを1行ずつ見る」をgolangでやったらハマった - Qiita](http://qiita.com/kroton/items/431e6dad9e5e4dbc44cf) : [compress/gzip](https://golang.org/pkg/compress/gzip/) と入出力処理の関係
 - [bufio.Scannerのend-of-line判断を変更してみる - Qiita](http://qiita.com/curious-eyes/items/2d4b6c20ea47e3efc47b)
 - [KOBE GDG: Go言語　バイナリファイルを扱う](http://kobegdg.blogspot.jp/2013/05/go.html) : 任意のオブジェクトをバイト列に変換してファイルに格納
+
+### ネットワーク関連
+
+- [goでwindowsでRS232C - Qiita](http://qiita.com/ohisama@github/items/e6fa2bd1527c257bb9c9)
+    - [ohisama/serial](https://github.com/ohisama/serial) (forkd from [lnmx/serial](https://github.com/lnmx/serial))
+    - [goでwindowsでRS232C その２ - Qiita](http://qiita.com/ohisama@github/items/12dccdcdfc5082c22e72)
+    - [goでwindowsでキースキャン - Qiita](http://qiita.com/ohisama@github/items/9f05679f25cfc9c3ecfc)
+- [GoでGoogleCalendarAPIv3を叩く（APIキー） - Qiita](http://qiita.com/yodatomato/items/8013f728bbf4358e9425)
+- [Golang で iso-2022-jp メールのデコード - Qiita](http://qiita.com/curious-eyes/items/3dae99e5e0feb6b9f642)
+- [Go言語の練習用にTwitterのOAuth認証をフルスクラッチしてみた - Qiita](http://qiita.com/mpyw/items/cb0f824d618d8fed384e)
+- [Goとtesseractで簡易OCRサーバを作る - Qiita](http://qiita.com/fumizp/items/63243cf418d27898f208)
+- [Go言語で簡単にHTTPリクエストを送ってJSONをパースするサンプル - Qiita](http://qiita.com/ikuwow/items/c8f494bbd16adf6db142)
+- [golang - UnixListener.Closeでソケットファイルが消えて困っている - Qiita](http://qiita.com/hiratara/items/0f0b6103a0dc9280cea9)
+- [Goフレームワークのパフォーマンス比較 - Qiita](http://qiita.com/ToruFukui/items/eb0d3593b20a5e2f15c6)
 
 ### cgo
 
