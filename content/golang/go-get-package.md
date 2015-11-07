@@ -1,5 +1,6 @@
 +++
 date = "2015-09-13T22:16:34+09:00"
+update = "2015-11-07T08:28:01+09:00"
 description = "今回は Go 言語のパッケージ管理について。"
 draft = false
 tags = ["golang", "package" ]
@@ -38,7 +39,9 @@ func main() {
 
 最初の宣言文 `package main` はこのファイルが `main` パッケージに属することを示している。
 [Go 言語]では `main` パッケージにある `main` 関数がプログラム実行時の起点となる。
-C 言語などと異なり， [Go 言語]では `main` 関数に渡す引数はなく  `main` 関数が返す返り値もない。
+C 言語などと異なり， [Go 言語]では `main` 関数に渡す引数はなく  `main` 関数が返す返り値もない[^a]。
+
+[^a]: コマンドライン引数を取得するには [`os`].`Args` を，システムの `$?` や `%ERRORLEVEL%` に値を返す場合は [`os`].`Exit()` 関数を使う。これらはプラットフォーム依存なので（そもそも組み込みなら引数も返り値もなくて当たり前），言語仕様に含めるのではなくパッケージとして実装しているようだ。ちなみに [`os`].`Exit()` 関数はプロセスを強制終了してしまうため [Defer] 構文で予約された処理が起動しないので注意が必要。
 
 `import "fmt"` はパッケージ [`fmt`] を呼び出すもので，ソースファイルの最初の方でまとめて呼び出す。
 複数のパッケージを呼び出す場合は以下のように
@@ -51,9 +54,9 @@ import (
 ```
 
 などと `( )` で囲む。
-ちなみに，パッケージ [`flag`] はコマンドライン引数を処理するためのパッケージである（これがあるので `main` 関数に引数は要らないわけ）。
+ちなみに，パッケージ [`flag`] はコマンドライン引数を処理するためのパッケージである。
 
-パッケージの関数等を使う際は `fmt.Println` のように `packagename.` を関数等の名前の前に付ける。
+パッケージの関数等を使う際は `fmt.Println` のようにパッケージ名を関数等の名前の前に付ける。
 
 ### gofmt{#gofmt}
 
@@ -79,7 +82,7 @@ See also: go fix, go vet.
 ```
 
 [Go 言語]は比較的冗長な表現を許容している。
-こういうタイプの言語にはとっつきやすい利点はあるが，記述形式を巡って宗教論争が起きることも多い（あるいはソースの品質を落とすコーディングというのも存在する）。
+こういうタイプの言語にはとっつきやすい利点はあるが，記述形式を巡って宗教論争が起きることも多い（あるいは[品質を落とすコーディングというのも存在する](http://www.baldanders.info/spiegel/remark/archives/000195.shtml)）。
 そこで `gofmt` コマンドを使ってある程度記述形式を統一することで，この手の混乱を避ける狙いがある。
 
 ## 外部パッケージ{#external}
@@ -334,7 +337,8 @@ in future releases. Once settled, they will be on by default.
 See https://golang.org/s/go15vendor for details.
 ```
 
-（[Go 言語]のバージョン 1.5 から Internal Packages や Vendoring の機能が追加された。これについてはいずれ紹介する予定）
+（[Go 言語]のバージョン 1.5 から Internal Packages や Vendoring の機能が追加された。
+これについては「[GOPATH 汚染問題]({{< relref "golang/gopath-pollution.md" >}})」および「[パッケージ外部からの呼び出しを禁止する Internal Packages]({{< relref "golang/internal-packages.md" >}})」で解説している）
 
 また `go get` コマンドでは内部でソースコード管理ツールを呼び出す。
 呼び出される可能性のあるツールは以下のとおり。
@@ -373,7 +377,9 @@ SET https_proxy=%http_proxy%
 
 `go get` ではライブラリだけではなく，ツールそのものもパッケージとしてダウンロード→インストールできる。
 
-たとえば静的サイト・ジェネレータの [Hugo] は以下のように `go get` コマンド一発で依存関係ごとパッケージを取得しインストールまで自動で行う。
+たとえば静的サイト・ジェネレータの [Hugo] [^b] は以下のように `go get` コマンド一発で依存関係ごとパッケージを取得しインストールまで自動で行う。
+
+[^b]: [Hugo] については「[ゼロから始める Hugo](/hugo)」で解説している。以上，宣伝でした（笑）
 
 ```
 C:\workspace>mkdir hugo
@@ -497,8 +503,10 @@ C:\workspace\hugo>go get -u -v github.com/spf13/hugo
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [前回]: {{< ref "hugo/hello.md" >}} "インストールから Hello World まで"
+[`os`]: https://golang.org/pkg/os/ "os - The Go Programming Language"
 [`fmt`]: https://golang.org/pkg/fmt/ "fmt - The Go Programming Language"
 [`flag`]: https://golang.org/pkg/flag/ "flag - The Go Programming Language"
+[Defer]: http://blog.golang.org/defer-panic-and-recover "Defer, Panic, and Recover - The Go Blog"
 [`gofmt`]: https://golang.org/cmd/gofmt/ "gofmt - The Go Programming Language"
 [Subversion]: http://subversion.apache.org/ "Apache Subversion"
 [Mercurial]: http://mercurial.selenic.com/ "Mercurial SCM"
