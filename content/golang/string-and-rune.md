@@ -1,6 +1,6 @@
 +++
 date = "2015-09-19T23:45:56+09:00"
-update = "2015-09-23T20:01:00+09:00"
+update = "2015-11-08T18:20:27+09:00"
 description = "今回は文字列について。短めにさくっと。"
 draft = false
 tags = ["golang", "string", "rune", "character"]
@@ -155,7 +155,8 @@ nippon = 日本
 
 - [Strings, bytes, runes and characters in Go - The Go Blog](http://blog.golang.org/strings)
 - [Go言語のstring, runeの正体とは？ - golang - The Round](http://knightso.hateblo.jp/entry/2014/06/24/090719)
-- [golang - Goでマルチバイトが混在した文字列をtruncateする - Qiita](http://qiita.com/hokaccha/items/3d3f45b5927b4584dbac)
+- [Goでマルチバイトが混在した文字列をtruncateする - Qiita](http://qiita.com/hokaccha/items/3d3f45b5927b4584dbac)
+- [Go で UTF-8 の文字列を扱う - Qiita](http://qiita.com/masakielastic/items/01a4fb691c572dd71a19)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
