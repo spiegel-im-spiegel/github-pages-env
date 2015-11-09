@@ -120,8 +120,10 @@ end
 
 -- Update Git Submodule (git submodule update --init --recursive)
 function git_submodule_update()
-    nyagos.write("git submodule update --init --recursive\n")
-    return nyagos.rawexec("git", "submodule", "update", "--init", "--recursive")
+    -- nyagos.write("git submodule update --init --recursive\n")
+    -- return nyagos.rawexec("git", "submodule", "update", "--init", "--recursive")
+    nyagos.write("git submodule update --remote --merge\n")
+    return nyagos.rawexec("git", "submodule", "update", "--remote", "--merge")
 end
 
 --
