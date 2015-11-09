@@ -287,6 +287,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [go言語におけるロギングについて](http://blog.satotaichi.info/logging-frameworks-for-go/)
 - [Golangで簡単にログを吐くことを考える - Qiita](http://qiita.com/Ets/items/49e8f781990a3b0b3821) : [seelog](https://github.com/cihub/seelog) について解説している。私は XML には全くアレルギーがないので無問題
 - [Go言語でdebugログの実現方法 - Qiita](http://qiita.com/sbjib/items/2cef51e572eef0795bc2)
+- [golang - loggingについて話そう - Qiita](http://qiita.com/methane/items/cedbf546ae2db8a63c3d)
 
 ### Web Microframework for Golang
 
