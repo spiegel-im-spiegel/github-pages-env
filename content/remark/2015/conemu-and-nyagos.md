@@ -1,5 +1,6 @@
 +++
 date = "2015-10-30T00:56:49+09:00"
+update = "2015-11-09T10:57:59+09:00"
 description = "そんなわけで，えんやらやっと ConEmu を導入することにした。ついでに NYAGOS も入れなおすことに。"
 draft = false
 tags = ["windows", "tools", "conemu", "nyagos", "terminal", "shell"]
@@ -60,6 +61,7 @@ lnk.js*            nyagos.exe*        readme_ja.md
 
 - [ConEmu - Handy Windows Terminal](https://conemu.github.io/)
     - [Windows：コマンドプロンプト代替をConsole2からConEmuに変更](http://kenpg.bitbucket.org/blog/201506/07.html)
+    - [ConEmu 突っ込んだら Git for Windows の Git Bash がカッコよくなった - てっく煮ブログ](http://tech.nitoyon.com/ja/blog/2014/03/07/fancy-git-bash/)
     - [ConEmu + nyagos で Windows ターミナル環境を作る - Qiita](http://qiita.com/1000k/items/4a2f9419b19fdc9ed5f4)
     - [Configuring ConEmu and Putty | theCRUMB](http://thecrumb.com/2013/03/04/configuring-conemu-and-putty/)
     - [ConEmu + PuTTYでSSHクライアントを快適に使う（Windows版） | Black Everyday Company](http://kuroeveryday.blogspot.jp/2015/10/ConEmu-PuTTY.html)
