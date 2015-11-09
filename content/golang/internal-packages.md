@@ -1,6 +1,7 @@
 +++
 date = "2015-11-07T10:38:20+09:00"
-description = "Internal Packages の仕組みは 1.4 から存在したが，1.4 では標準パッケージのみの適用だった。 1.5 からは `GOPATH` 配下のパッケージまで拡張されることになった。"
+update = "2015-11-09T21:02:17+09:00"
+description = "Internal Packages の仕組みは 1.4 から存在したが，1.4 では標準パッケージのみの適用だった。 1.5 からは `GOPATH` 配下のパッケージまで拡張される。"
 draft = false
 tags = ["golang", "package" ]
 title = "パッケージ外部からの呼び出しを禁止する Internal Packages"
@@ -24,7 +25,7 @@ title = "パッケージ外部からの呼び出しを禁止する Internal Pack
 「[GOPATH 汚染問題]({{< relref "golang/gopath-pollution.md" >}})」で言及しそこねたので，今回は軽く。
 
 Internal Packages の仕組みは 1.4 から存在したが，1.4 では標準パッケージのみの適用だった。
-1.5 からは `GOPATH` 配下のパッケージまで拡張されることになった。
+1.5 からは `GOPATH` 配下のパッケージまで拡張される。
 
 - [Go 1.4 "Internal" Packages](https://docs.google.com/document/d/1e8kOo3r51b2BWtTs_1uADIA5djfXhPT36s6eHVRIvaU/edit)
 
