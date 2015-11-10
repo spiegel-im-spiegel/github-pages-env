@@ -173,6 +173,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 
 - [cgoでGoのコードからCの関数を利用する - 1000ch.net](https://1000ch.net/posts/2014/c-in-golang-with-cgo.html)
 - [cgoでGolangとC++ライブラリをリンクするとき、何が起きているのか - beatsync.net](https://beatsync.net/main/log20141022.html)
+- [GO 1.5 と C++ を SWIG でブリッジさせる方法 - Qiita](http://qiita.com/Satachito/items/5a0d7dd228d3272e0780)
 
 [cgo]: https://golang.org/cmd/cgo/ "cgo - The Go Programming Language"
 
@@ -256,6 +257,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
     - [GroovyからGoの関数を使う→はやい - Qiita](http://qiita.com/yujiorama_at_github/items/3f7cab906969764cc805)
     - [Big Sky :: RubyからGoの関数をつかわなくても再帰をやめる → はやい](http://mattn.kaoriya.net/software/20151106194958.htm)
 - [Go ライブラリによる CGIプログラム内ルーチング - Qiita](http://qiita.com/jyagaimo_qiita_/items/93d195ca65982b75e205)
+- [Go言語と暗号技術（AESからTLS） | SOTA](http://deeeet.com/writing/2015/11/10/go-crypto/)
+    - [tcnksm/go-crypto](https://github.com/tcnksm/go-crypto) : サンプルコード
 
 ### コマンドライン・ツール
 
