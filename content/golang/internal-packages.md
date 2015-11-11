@@ -1,6 +1,6 @@
 +++
 date = "2015-11-07T10:38:20+09:00"
-update = "2015-11-09T21:02:17+09:00"
+update = "2015-11-11T20:18:34+09:00"
 description = "Internal Packages の仕組みは 1.4 から存在したが標準パッケージのみの適用だった。 1.5 からは `GOPATH` 配下のパッケージまで拡張される。"
 draft = false
 tags = ["golang", "package" ]

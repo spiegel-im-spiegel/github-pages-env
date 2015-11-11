@@ -1,7 +1,7 @@
 +++
-date = "2015-11-11T13:37:54+09:00"
+date = "2015-11-11T20:28:23+09:00"
 description = "0.65 以下の PuTTY を使っている人は必ず 0.66 にアップデートすること。日本語版もリリースされている。"
-draft = true
+draft = false
 tags = ["security", "cryptography", "vulnerability", "windows", "tools", "ssh", "putty"]
 title = "PuTTY 0.66 リリース（Security Fix）"
 
@@ -36,5 +36,12 @@ ECH については以下を参照のこと。
 
 - [PuTTYjp](http://hp.vector.co.jp/authors/VA024651/PuTTYkj.html "hdk の自作ソフトの紹介 | PuTTYjp")
 - [iceiv+putty](http://ice.hotmint.com/putty/ "iceiv+putty")
+
+そういや，最近「整数オーバーフロー」な脆弱性報告をよく見かけるな。
+Google のこいつとかもそうだっけ。
+
+- [JVNDB-2015-005816 Google Picasa における整数オーバーフローの脆弱性JVN - iPedia](http://jvndb.jvn.jp/ja/contents/2015/JVNDB-2015-005816.html)
+
+流行ってるのか？
 
 [PuTTY]: http://www.chiark.greenend.org.uk/~sgtatham/putty/ "PuTTY: a free telnet/ssh client"

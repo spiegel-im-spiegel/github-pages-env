@@ -1,6 +1,6 @@
 +++
 date = "2015-10-30T00:56:49+09:00"
-update = "2015-11-11T13:49:07+09:00"
+update = "2015-11-11T20:18:51+09:00"
 description = "そんなわけで，えんやらやっと ConEmu を導入することにした。ついでに NYAGOS も入れなおすことに。"
 draft = false
 tags = ["windows", "tools", "conemu", "nyagos", "terminal", "shell", "putty"]

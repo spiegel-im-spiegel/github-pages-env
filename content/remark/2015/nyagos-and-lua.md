@@ -1,6 +1,6 @@
 +++
 date = "2015-11-02T21:41:54+09:00"
-update = "2015-11-11T09:35:54+09:00"
+update = "2015-11-11T20:19:05+09:00"
 description = "前回，ConEmu とともに NYAGOS を導入したけど，今回は NYAGOS のセッティングを中心に。"
 draft = false
 tags = ["windows", "tools", "nyagos", "shell", "lua"]
