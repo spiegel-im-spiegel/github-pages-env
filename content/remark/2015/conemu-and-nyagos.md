@@ -1,6 +1,6 @@
 +++
 date = "2015-10-30T00:56:49+09:00"
-update = "2015-11-11T20:18:51+09:00"
+update = "2015-11-11T21:35:59+09:00"
 description = "そんなわけで，えんやらやっと ConEmu を導入することにした。ついでに NYAGOS も入れなおすことに。"
 draft = false
 tags = ["windows", "tools", "conemu", "nyagos", "terminal", "shell", "putty"]
@@ -55,9 +55,10 @@ lnk.js*            nyagos.exe*        readme_ja.md
 ## ConEmu の導入
 
 [ConEmu] は Windows 用のターミナルでタブごとに異なる shell を呼び出せるのが特徴。
-コマンドプロンプトや上述の [NYAGOS] はもちろん， [MSYS2] の bash や [PuTTY] も呼び出せてしまう優れもの[^b]。
+コマンドプロンプトや上述の [NYAGOS] はもちろん， [MSYS2] の bash や [PuTTY] も呼び出せてしまう優れもの[^b] [^c]。
 
-[^b]: ただし [ConEmu] から [PuTTY] を呼び出す場合，サーバ側が UTF-8 だと文字化けするっぽい。ググると「`chcp 65001` に設定しろ」みたいなことが書いてあるが， [PuTTY] に対しては効いてない感じ。
+[^b]: ~~ただし [ConEmu] から [PuTTY] を呼び出す場合，サーバ側が UTF-8 だと文字化けするっぽい。ググると「`chcp 65001` に設定しろ」みたいなことが書いてあるが， [PuTTY] に対しては効いてない感じ。~~
+[^c]: （11月11日追記） 上のを訂正。オリジナルの [PuTTY] じゃなくて，日本語に対応している [PuTTYjp] なら問題なく日本語で表示される。ブラボー！
 
 - [ConEmu - Handy Windows Terminal](https://conemu.github.io/)
     - [Windows：コマンドプロンプト代替をConsole2からConEmuに変更](http://kenpg.bitbucket.org/blog/201506/07.html)
@@ -113,11 +114,9 @@ set MSYSTEM=MSYS & C:\msys64\usr\bin\bash.exe --login -i
 C:\PATH\TO\PuTTY\putty.exe -load "mysession" -new_console
 ```
 
-`mysession` には [PuTTY] であらかじめ作成したセッション名をセットする[^c]。
+`mysession` には [PuTTY] であらかじめ作成したセッション名をセットする。
 
 ちなみに [NYAGOS] の場合は `nyagos.exe` をフルパスで指定すれば OK。
-
-[^c]: `putty.exe` の代わりに `plink.exe` を使う手もあるが，日本語環境で動かしたらぶっ飛んでしまった（笑）
 
 ところで設定ダイアログの左下に [Flattr] ボタンがあるのにお気づきだろうか。
 [Flattr] アカウントのある人は是非。
@@ -127,4 +126,5 @@ C:\PATH\TO\PuTTY\putty.exe -load "mysession" -new_console
 [NYAGOS]: http://www.nyaos.org/index.cgi?p=NYAGOS "NYAOS.ORG - NYAGOS"
 [MSYS2]: http://msys2.github.io/ "MSYS2 installer"
 [PuTTY]: http://www.chiark.greenend.org.uk/~sgtatham/putty/ "PuTTY: a free telnet/ssh client"
+[PuTTYjp]: http://hp.vector.co.jp/authors/VA024651/PuTTYkj.html "hdk の自作ソフトの紹介 | PuTTYjp"
 [Flattr]: https://flattr.com/
