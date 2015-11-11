@@ -40,7 +40,7 @@ ECH については以下を参照のこと。
 そういや，最近「整数オーバーフロー」な脆弱性報告をよく見かけるな。
 Google のこいつとかもそうだっけ。
 
-- [JVNDB-2015-005816 Google Picasa における整数オーバーフローの脆弱性JVN - iPedia](http://jvndb.jvn.jp/ja/contents/2015/JVNDB-2015-005816.html)
+- [JVNDB-2015-005816 Google Picasa における整数オーバーフローの脆弱性 - JVN iPedia](http://jvndb.jvn.jp/ja/contents/2015/JVNDB-2015-005816.html)
 
 流行ってるのか？
 
