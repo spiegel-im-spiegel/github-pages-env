@@ -1,6 +1,6 @@
 +++
 date = "2015-11-08T20:10:15+09:00"
-update = "2015-11-08T22:43:53+09:00"
+update = "2015-11-12T22:46:02+09:00"
 description = "今回はいよいよ Creative Commons Licenses について解説する。"
 draft = false
 tags = ["creative-commons", "copyright", "license"]
@@ -40,7 +40,7 @@ title = "Creative Commons Licenses"
 - 編集著作物
 - データベースの著作物
 
-[^0]: 「プログラムの著作物」については [CC Licenses] は向いてないかもしれない。「プログラムの著作物」については GNU GPL などの FOSS 用のライセンスがおすすめである。
+[^0]: 「プログラムの著作物」については [CC Licenses] は向いてないかもしれない。「プログラムの著作物」については GNU GPL など FLOSS（Free/Libre and Open Source Software）用の「自由なライセンス」がおすすめである（参考： [ライセンスの選択を恐れる必要はありません](http://qiita.com/tadsan/items/99d816e78ca429093b75)）。
 
 また[著作権法]で定められた以下の「著作隣接権」で保護されるものもライセンスの対象にできる。
 
@@ -165,7 +165,7 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 ページ全体にライセンスを指示したいなら `head` 要素に
 
 ```html
-<link rel='cc:license' href='http://creativecommons.org/licenses/by/4.0/'>
+<link rel='cc:license' href='http://creativecommons.org/licenses/by-sa/4.0/'>
 ```
 
 と記述するだけでもよい（HTML5 の場合）。
@@ -173,7 +173,6 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 ## CC Licenses のバージョン
 
 現在， [CC Licenses] として日本で有効なバージョンは以下のとおり。
-
 
 - バージョン 1.0 Generic
 - バージョン 2.0 Generic
@@ -267,6 +266,46 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 
 [^h]: ただし， GPL の場合は「表示-継承」から GPLv3 へ一方向のみの互換性である。 GPLv3 ライセンスのマテリアルを [CC Licenses] の「表示-継承」として扱うことはできない。
 
+### CC Licenses における「無償」とは
+
+[CC Licenses] は許諾に際して「無償（royalty-free）」であることを保証する。
+ただしこれは，利用に対する許諾が無償で行われるという意味で，普通にマテリアルを売り買いすることに関しては「非営利 <i class="cc cc-nc"></i>」条件がなければ問題ない。
+
+これには JASRAC のような著作権管理団体からの royalty 徴収も含むが「可能な限り」の但し書きがつく。
+
+{{< fig-quote title="クリエイティブ・コモンズ (Creative Commons) — 表示-継承 4.0 国際" link="http://creativecommons.org/licenses/by-sa/4.0/legalcode.ja" >}}
+<q>可能なかぎり、許諾者は、ライセンスされた権利の行使について、直接か、または任意のもしくは放棄可能な法定のもしくは強制的なライセンスに関する仕組みに基づく集中管理団体を介するかを問わず、あなたからライセンス料を得るいかなる権利も放棄します。その他一切の場合において、許諾者はそのようなライセンス料を得るいかなる権利も明確に保持します。</q>
+{{< /fig-quote >}}
+
+この点については別の記事で解説する。
+
+### CC Licenses における「再許諾不可」とは
+
+[CC Licenses] ではマテリアルの再配布[^j] を行う際にライセンスの再許諾（sublicense）を許可していない。
+再配布されたマテリアルにも自動的に元のライセンスが付与される。
+
+{{< fig-img src="/images/non-sublicense.svg" title="再配布と許諾の関係" link="/images/non-sublicense.svg" >}}
+
+これは，たとえばマテリアルを著作（権）者ではない出版者（社）などが配布する際に勝手にライセンスを変えたり [CC Licenses] にない制限を加えたりしてはいけないという意味である。
+これにはいわゆる「技術的保護手段」も含まれる。
+
+[^j]: ここで「再配布」は，マテリアルの利用者がマテリアルまたはマテリアルの複製を更に下流（downstream）へ公表・配布することを指す。
+
+{{< fig-quote title="クリエイティブ・コモンズ (Creative Commons) — 表示-継承 4.0 国際" link="http://creativecommons.org/licenses/by-sa/4.0/legalcode.ja" >}}
+<q>あなたは、ライセンス対象物の受領者がライセンスされた権利を行使するのを制限されることになる場合には、ライセンス対象物に対して、いかなる追加条項または異なる条項も提案または課してはならず、あるいは、いかなる効果的な技術的保護手段も適用してはなりません。</q>
+{{< /fig-quote >}}
+
+### CC Licenses における「非排他的」とは
+
+[CC Licenses] では許諾は「非排他的（non-exclusive）」に行われる。
+これは，あるマテリアルについて [CC Licenses] を含む複数のライセンスを付与することが可能であることを指す。
+たとえば「非営利 <i class="cc cc-nc"></i>」条件が付くマテリアルを営利目的で利用したい場合に，著作（権）者と別途契約して，報酬を払う代わりに営利目的での利用を許諾してもらう，といった運用もできる。
+
+ただし，通常は排他的あるいは独占的ライセンスと [CC Licenses] のようなライセンスは両立しないため，複数ライセンスの付与には注意が必要である。
+
+余談だが， [CC Licenses] の許諾者はライセンス利用条件に縛られない。
+たとえば「非営利 <i class="cc cc-nc"></i>」条件を付与したマテリアルを許諾者自身が有料で取り引きする，といったことは自由にできる。
+
 ### 責任の制限と消費者契約法
 
 [CC Licenses] には「責任制限」の項目があり対象のマテリアルに対していかなる表明も保証も行わないことになっている。
@@ -291,7 +330,9 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 許諾者が明らかに未成年であれば，法定代理人の同意の有無を確認したほうが安全である。
 一方，未成年の許諾者は法定代理人の存在およびその同意があることを何らかの形で明示したほうがトラブルが少なくて済む。
 
-## 参考になる（かもしれない） Web ページ
+## 参考文献
+
+### 参考になる（かもしれない） Web ページ
 
 - [CCライセンス・バージョン4.0 日本語版の公開 | クリエイティブ・コモンズ・ジャパン](http://creativecommons.jp/2015/07/15/cc%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B34-0-%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%89%88%E3%81%AE%E5%85%AC%E9%96%8B/)
 - [バーチャルネット法律娘　真紀奈17歳](http://homepage3.nifty.com/machina/) : 古いコンテンツだが，このなかの「著作権法講座」は参考になる
@@ -302,3 +343,10 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 [前回]: {{< relref "cc-licenses/01-copyright.md" >}} "著作権と著作権法 — 改訂3版： CC Licenses について"
 [Creative Commons]: http://creativecommons.org/ "Creative Commons"
 [CC Licenses]: http://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
+
+### 参考図書
+
+<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/475710152X/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/41WPNBY7HZL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/475710152X/baldandersinf-22/">クリエイティブ・コモンズ―デジタル時代の知的財産権</a></dt><dd>ローレンス レッシグ 椙山 敬士 上村 圭介 林 紘一郎 若槻 絵美 土屋 大洋 クリエイティブコモンズジャパン </dd><dd>NTT出版 2005-03</dd><dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798106801/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4798106801.09._SCTHUMBZZZ_.jpg"  alt="Free Culture"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798102040/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4798102040.09._SCTHUMBZZZ_.jpg"  alt="コモンズ"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798119806/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4798119806.09._SCTHUMBZZZ_.jpg"  alt="REMIX ハイブリッド経済で栄える文化と商業のあり方"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4087205274/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4087205274.09._SCTHUMBZZZ_.jpg"  alt="著作権の世紀―変わる「情報の独占制度」 (集英社新書 527A)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4480065733/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4480065733.09._SCTHUMBZZZ_.jpg"  alt="デジタル時代の著作権 (ちくま新書)"  /></a> </p>
+<p class="description">残念ながら紙の本は実質的に絶版なんですよねぇ。是非デジタル化を希望します。</p>
+<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-08-02">2014/08/02</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+</div>
