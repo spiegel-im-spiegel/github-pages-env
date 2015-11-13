@@ -1,5 +1,5 @@
 +++
-date = "2015-11-13T10:27:05+09:00"
+date = "2015-11-13T11:56:13+09:00"
 description = "よろしい，ならば自作しよう。"
 draft = true
 tags = ["atom", "editor", "tools"]
@@ -29,7 +29,7 @@ title = "ATOM Editor で現在日時を挿入する"
 
 よろしい，ならば~~戦争だ~~自作しよう。
 
-「[Atomに現在日時を挿入するコマンドを追加する](http://qiita.com/toruot/items/b26fde1a898bb52985e1)」を参考に， Init Script (`init.coffee`) に以下の記述を追加した。
+「[Atomに現在日時を挿入するコマンドを追加する](http://qiita.com/toruot/items/b26fde1a898bb52985e1)」を参考に（というかほとんどコピペでw）， Init Script (`init.coffee`) に以下の記述を追加した。
 
 ```coffee
 # 現在日時を挿入するコマンドを追加
@@ -47,10 +47,10 @@ paddingZero = (str, length) ->
 timezone = (offset) ->
   if offset == 0
     'Z'
-  if offset < 0
-    '+' + paddingZero(-offset / 60, 2) + ':00'
+  else if offset < 0
+    '+' + paddingZero(-offset / 60, 2) + ':00' # 今のところ分単位の時差はないので計算を端折る
   else
-    '-' + paddingZero(offset / 60, 2) + ':00'
+    '-' + paddingZero(offset / 60, 2) + ':00' # 今のところ分単位の時差はないので計算を端折る
 
 dateOrTime = (kind) ->
   now = new Date()
@@ -87,11 +87,12 @@ atom.commands.add 'atom-text-editor', 'my-date:rfc3339', ->
   insertText(dateOrTime(0))
 ```
 
-元のコードでは timezone の項目がなかったので追加し，更に [RFC3339](https://www.ietf.org/rfc/rfc3339.txt) のフォーマットを追加した。
+元のコードでは timezone の項目がなかったので追加し，更に [RFC 3339](https://www.ietf.org/rfc/rfc3339.txt) のフォーマットを追加した。
 そういや JavaScript の [`Date.getTimezoneOffset()`](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Date/getTimezoneOffset) って ± が逆になるんだっけ。
 忘れてた orz
 
-なるほど，自分で（パッケージにするまでもない）簡単なコマンドを作る場合はこうすればいいんだな。
+なるほど。
+自分で（パッケージにするまでもない）簡単なコマンドを作る場合はこうすればいいんだな。
 勉強になりました（谷啓風）。
 しかし [CoffeeScript](http://coffeescript.org/) は慣れん。
 Arrow functions は確かに便利だけど（ES6 に採用されるくらいだし）。
