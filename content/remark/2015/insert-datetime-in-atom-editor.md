@@ -1,7 +1,7 @@
 +++
-date = "2015-11-13T11:56:13+09:00"
+date = "2015-11-13T21:43:11+09:00"
 description = "よろしい，ならば自作しよう。"
-draft = true
+draft = false
 tags = ["atom", "editor", "tools"]
 title = "ATOM Editor で現在日時を挿入する"
 
