@@ -1,6 +1,6 @@
 +++
 date = "2015-11-08T20:10:15+09:00"
-update = "2015-11-12T23:21:59+09:00"
+update = "2015-11-13T16:47:54+09:00"
 description = "今回はいよいよ Creative Commons Licenses について解説する。"
 draft = false
 tags = ["creative-commons", "copyright", "license"]
@@ -89,11 +89,11 @@ title = "Creative Commons Licenses"
 {{< fig-gen >}}
 <table>
 <tbody>
-<tr><th class='left'><i class="cc cc-by cc-2x"></i></th><th class='left'>表示</th><td>マテリアルのクレジットを表示すること</td></tr>
-<tr><th class='left'><i class="cc cc-sa cc-2x"></i></th><th class='left'>継承</th><td>改変したマテリアルについて，元のマテリアルのライセンスと同等のライセンスで公開すること</td></tr>
+<tr><th class='left'><i class="cc cc-by cc-2x"></i></th><th class='left'>表示</th><td>マテリアルの<a href="{{< relref "#attribution" >}}">クレジットを表示</a>すること</td></tr>
+<tr><th class='left'><i class="cc cc-sa cc-2x"></i></th><th class='left'>継承</th><td>改変したマテリアルについて，元のマテリアルのライセンスと<a href="{{< relref "#compatible" >}}">同等のライセンス</a>で公開すること</td></tr>
 <tr><th class='left'><i class="cc cc-nc cc-2x"></i>
                      <i class="cc cc-nc-eu cc-2x"></i>
-                     <i class="cc cc-nc-jp cc-2x"></i></th><th class='left'>非営利</th><td>営利目的での利用をしないこと</td></tr>
+                     <i class="cc cc-nc-jp cc-2x"></i></th><th class='left'>非営利</th><td><a href="{{< relref "#non-commercial" >}}">営利目的での利用をしない</a>こと</td></tr>
 <tr><th class='left'><i class="cc cc-nd cc-2x"></i></th><th class='left'>改変禁止</th><td>元のマテリアルを改変しないこと</td></tr>
 </tbody>
 </table>
@@ -132,23 +132,15 @@ title = "Creative Commons Licenses"
 
 [^5]: [著作権法]では二次的著作物を「著作物を翻訳し、編曲し、若しくは変形し、又は脚色し、映画化し、その他翻案することにより創作した著作物」と定義している（第2条）。別の記事で説明することになると思うが，二次的著作物については「創作的」であることが条件。フォーマット変換や機械翻訳（点字などへの置き換え）などは「逐語的コピー」と呼ばれ複製と見なされる。
 
-なお [CC Licenses] は「公正な利用（fair use）」や「著作権の制限」として利用が認められているものに対しては効力が及ばない。
-「公正な利用」や「著作権の制限」で認められる利用については条件に関係なく可能である。
-
-また，以下の行為は条件によらず許可されない。
-
-- マテリアルおよびその複製について，クレジット表示を改変・削除すること
-- マテリアルおよびその複製について，ライセンスおよびその条件を変更すること（再許諾不可（non-sublicensable））
-- マテリアルの正当な使用または許可された利用を制限する「技術的保護手段」を用いること[^d]
-
-[^d]: 厳密にはマテリアルが「技術的保護手段」によって不当に保護されている場合は，ユーザは「技術的保護手段」を迂回することができる（許諾者は迂回を禁止する権利を放棄する）。「技術的保護手段」については別の記事で解説する。
+なお [CC Licenses] は[「公正な利用（fair use）」や「著作権の制限」]({{< relref "cc-licenses/01-copyright.md#fair-use" >}})として利用が認められているものに対しては効力が及ばない。
+[「公正な利用」や「著作権の制限」]({{< relref "cc-licenses/01-copyright.md#fair-use" >}})で認められる利用については条件に関係なく可能である。
 
 許諾は全世界で適用される。
-また，無償（royalty-free）かつ再許諾不可（non-sublicensable）かつ非排他的（non-exclusive）に許諾される。
+また，[無償（royalty-free）]({{< relref "#royalty-free" >}})かつ[再許諾不可（non-sublicensable）]({{< relref "#non-sublicensable" >}})かつ[非排他的（non-exclusive）]({{< relref "#non-exclusive" >}})に許諾される。
 
 許諾者はマテリアルに付与したライセンスを取り消しできない。
 したがって，少なくともライセンスの条件を守っていればマテリアルの利用を後から取り消されることはない[^c]。
-またライセンスの効力は著作権の存続期間で持続する（著作権の存続期間が過ぎれば「パブリックドメイン（public domain）」になる）。
+またライセンスの効力は，著作権が存続する限り持続する（著作権の存続期間が過ぎれば「パブリックドメイン（public domain）」になる）。
 
 [^c]: つまり許諾者は，ライセンスを付与する場合には妥当な条件であるか予め考慮する必要がある。
 
@@ -212,10 +204,11 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 {{< /fig-gen >}}
 
 ただし，日本版以外のバージョンも日本発の作品であれば日本法を準拠法として解釈されるため通常は問題ない[^e]。
-既に Generic / Unported の各バージョンを適用しているマテリアルについては，可能であれば 4.0 International 以降にアップデートすることを検討してみるべきだろう。
-4.0  International では，コモンズ証や法的条項で公式な日本語訳が使えるほか，他の「自由なライセンス」との互換性が図られている。
 
 [^e]: 国際取引の場合はどの国を準拠法とするかで問題になることがある。この場合はライセンスの説明に準拠法を併記するなどして利用者に知らせる必要がある。
+
+既に Generic / Unported の各バージョンを適用しているマテリアルについては，可能であれば 4.0 International 以降にアップデートすることを検討してみるべきだろう。
+4.0  International では，コモンズ証や法的条項で公式な日本語訳が使えるほか，他の「自由なライセンス」との互換性が図られている。
 
 ## その他 雑多なこと{#etc}
 
@@ -251,9 +244,6 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 
 [^g2]: &copy; マークなどの「著作権表示」は不要。現在では「著作権表示」を要求する国や地域はほとんどど無い。また「無保証」は [CC Licenses] 内で明記されているので敢えて表示する必要はない。ただし「無保証」の範囲を明示するのはアリ。
 
-このようにクレジット表示さえしっかりしておけば，割と ad hoc にマテリアルを運用できる。
-たとえば文章や画像・映像などを引用したい場合，（参照元が正しく指示されていれば）どこまでが引用として許容されるか，とか言ったことを悩む必要はない。
-
 ### CC Licenses における「非営利」とは{#non-commercial}
 
 ライセンスで「営利」あるいは「商用」などのキーワードが付くことが多いが，どこまでが「営利」で「商用」なのか分かりにくいことが多い。
@@ -266,6 +256,17 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 と定義し「商業的な利得や金銭的報酬」が主目的でなければ「非営利」としている。
 後半の文言は分かりにくいが，これはファイル交換などオンラインでの取引を念頭に置いたもので，この場合でも金銭的報酬がなければ「非営利」とみなしている。
 
+ここで微妙なのは，アフィリエイト広告のある Web ページに「非営利 <i class="cc cc-nc"></i>」条件のあるマテリアルを利用することができるかということだが， [Creative Commons] 創設者のひとりである [Lawrence Lessig](http://lessig.tumblr.com/) 教授の2008年当時の発言[^g3] によると
+
+{{< fig-quote title="Creative Commons “Non-Commercial” Content on Ad-Supported Sites" link="http://blogoscoped.com/archive/2008-02-07-n77.html" lang="en" >}}
+<q>I’ve asked the Wikipedia mailing list a while ago, and recently received another confirmation from Creative Commons’ Lawrence Lessig: <strong>yes, the CC organization believes this being OK is the best reading of the license.</strong></q>
+{{< /fig-quote >}}
+
+ということで，ひとまず問題ないようだ[^g4]。
+
+[^g3]: [Lawrence Lessig](http://lessig.tumblr.com/) 教授は現在， [Creative Commons] からは距離を置いて「政治と腐敗」をテーマに研究を行っているが，[2016年の米国大統領選に民主党候補として出馬意向を表明](https://lessig2016.us/)した。
+[^g4]: [Creative Commons] 側は，マテリアルの取り引きによって金銭的報酬が発生するようなことでなければ「非営利 <i class="cc cc-nc"></i>」条件にかかることはないと考えているようである（あとは企業広告の素材として使う場合とか）。ただ，一時期流行ったアフィリエイト報酬を主目的とする「パクりサイト」の場合はダメな気がする。司法判断を仰ぐ必要があるかもしないけど。ちなみにこのサイトは「[表示-継承](http://creativecommons.org/licenses/by-sa/4.0/)」条件を守っていただけるなら，いくらでもパクって稼いで構いませんよ（笑）
+
 ### CC Licenses と互換性のあるライセンス{#compatible}
 
 「継承 <i class="cc cc-sa"></i>」条件について「元のマテリアルのライセンスと同等のライセンスで公開すること」と書いたが，「同等のライセンス」とはどこまでを指すのか。
@@ -274,12 +275,12 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 - [Compatible Licenses - Creative Commons](http://creativecommons.org/compatiblelicenses)
 
 基本的には [CC Licenses] の同じ条件であれば他のバージョンであっても「同等のライセンス」とみなされる。
-それ以外では，「表示-継承」条件については以下のライセンスも「同等のライセンス」と見なすことができる。
+さらに「[表示-継承](http://creativecommons.org/licenses/by-sa/4.0/)」条件については以下のライセンスも「同等のライセンス」と見なすことができる。
 
 - [Free Art License](http://artlibre.org/licence/lal/en/) 1.3
 - [GNU GPL (General Public License)](https://www.gnu.org/copyleft/gpl.html) version 3[^h]
 
-[^h]: ただし， GPL の場合は「表示-継承」から GPLv3 へ一方向のみの互換性である。 GPLv3 ライセンスのマテリアルを [CC Licenses] の「表示-継承」として扱うことはできない。
+[^h]: ただし， GPL の場合は「[表示-継承](http://creativecommons.org/licenses/by-sa/4.0/)」から GPLv3 へ一方向のみの互換性である。 GPLv3 ライセンスのマテリアルを [CC Licenses] の「[表示-継承](http://creativecommons.org/licenses/by-sa/4.0/)」として扱うことはできない。
 
 ### CC Licenses における「無償」とは{#royalty-free}
 
@@ -302,9 +303,10 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 {{< fig-img src="/images/non-sublicense.svg" title="再配布と許諾の関係" link="/images/non-sublicense.svg" >}}
 
 これは，たとえばマテリアルを著作（権）者ではない出版者（社）などが配布する際に勝手にライセンスを変えたり [CC Licenses] にない制限を加えたりしてはいけないという意味である。
-これにはいわゆる「技術的保護手段」も含まれる。
+これにはいわゆる「技術的保護手段」も含まれる[^d]。
 
 [^j]: ここで「再配布」は，マテリアルの利用者がマテリアルまたはマテリアルの複製を更に下流（downstream）へ公表・配布することを指す。
+[^d]: 更に言うと，マテリアルが「技術的保護手段」によって不当に保護されている場合は，ユーザは「技術的保護手段」を迂回することができる（許諾者は迂回を禁止する権利を放棄する）。「技術的保護手段」については別の記事で解説する。
 
 {{< fig-quote title="クリエイティブ・コモンズ (Creative Commons) — 表示-継承 4.0 国際" link="http://creativecommons.org/licenses/by-sa/4.0/legalcode.ja" >}}
 <q>あなたは、ライセンス対象物の受領者がライセンスされた権利を行使するのを制限されることになる場合には、ライセンス対象物に対して、いかなる追加条項または異なる条項も提案または課してはならず、あるいは、いかなる効果的な技術的保護手段も適用してはなりません。</q>
@@ -314,7 +316,7 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 
 [CC Licenses] では許諾は「非排他的（non-exclusive）」に行われる。
 これは，あるマテリアルについて [CC Licenses] を含む複数のライセンスを付与することが可能であることを指す。
-たとえば「非営利 <i class="cc cc-nc"></i>」条件が付くマテリアルを営利目的で利用したい場合に，著作（権）者と別途契約して，報酬を払う代わりに営利目的での利用を許諾してもらう，といった運用もできる。
+たとえば「非営利 <i class="cc cc-nc"></i>」条件が付くマテリアルを営利目的で利用したい場合に，著作（権）者と別途契約して，報酬を払う代わりに営利目的での利用を許諾してもらう，といったことも（交渉次第では）可能である。
 
 ただし，通常は排他的あるいは独占的ライセンスと [CC Licenses] のようなライセンスは両立しないため，複数ライセンスの付与には注意が必要である。
 
@@ -336,7 +338,15 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 全部または一部の責任制限が認められない場合、この制限はあなたには適用されないこともあります。</q>
 {{< /fig-quote >}}
 
-ただし「全部または一部の責任制限が認められない場合、この制限はあなたには適用されないこともあります」という部分がポイントで，たとえば日本の消費者契約法では「[事業者の損害賠償の責任を免除する条項その他の消費者の利益を不当に害することとなる条項の全部又は一部を無効とする](http://law.e-gov.go.jp/htmldata/H12/H12HO061.html)」とあり，免責が無効であると判断された場合は許諾者は従う必要がある。
+ただし「全部または一部の無保証（責任制限）が認められない場合、この無保証（制限）はあなたには適用されないこともあります」という部分がポイントで，たとえば日本の[消費者契約法](http://law.e-gov.go.jp/htmldata/H12/H12HO061.html)では
+
+{{< fig-quote title="消費者契約法" link="http://law.e-gov.go.jp/htmldata/H12/H12HO061.html" >}}
+<q>事業者の損害賠償の責任を免除する条項その他の消費者の利益を不当に害することとなる条項の全部又は一部を無効とする</q>
+{{< /fig-quote >}}
+
+とあり（第1条），許諾者が事業者で[^k] かつ免責が無効であると判断された場合は許諾者は従う必要がある。
+
+[^k]: [消費者契約法](http://law.e-gov.go.jp/htmldata/H12/H12HO061.html)における「事業者」は「法人その他の団体及び事業として又は事業のために契約の当事者となる場合における個人」（第2条）と定義されている。
 
 ### 未成年が許諾者の場合{#agent}
 
@@ -349,9 +359,16 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 
 ### 参考になる（かもしれない） Web ページ
 
-- [CCライセンス・バージョン4.0 日本語版の公開 | クリエイティブ・コモンズ・ジャパン](http://creativecommons.jp/2015/07/15/cc%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B34-0-%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%89%88%E3%81%AE%E5%85%AC%E9%96%8B/)
 - [バーチャルネット法律娘　真紀奈17歳](http://homepage3.nifty.com/machina/) : 古いコンテンツだが，このなかの「著作権法講座」は参考になる
 - [著作権Q&A | 公益社団法人著作権情報センター CRIC](http://www.cric.or.jp/qa/index.html)
+- [クリエイティブ・コモンズ・ライセンスのブログ翻訳のススメ](http://www.yamdas.org/column/technique/cctrans.html)
+- [CC Licenses] Version 3 検討時の議論
+    - [【CCPLv3.0】著作者人格権（同一性保持権）に関する議論 | クリエイティブ・コモンズ・ジャパン](http://creativecommons.jp/2006/11/15/ccplv3-discussion/)
+    - [【CCPLv3.0】ＤＲＭ条項の改正に関する議論 | クリエイティブ・コモンズ・ジャパン](http://creativecommons.jp/2006/11/15/discussion-drm/)
+    - [【CCPLv3.0】著作権管理団体を通じての報酬請求権に関する議論 | クリエイティブ・コモンズ・ジャパン](http://creativecommons.jp/2006/11/16/ccplv3/)
+- [Creative Commons "Non-Commercial" Content on Ad-Supported Sites](http://blogoscoped.com/archive/2008-02-07-n77.html)
+- [What’s New in 4.0 - Creative Commons](https://creativecommons.org/Version4)
+- [CCライセンス・バージョン4.0 日本語版の公開 | クリエイティブ・コモンズ・ジャパン](http://creativecommons.jp/2015/07/15/cc%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B34-0-%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%89%88%E3%81%AE%E5%85%AC%E9%96%8B/)
 
 [本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
 [著作権法]: http://law.e-gov.go.jp/htmldata/S45/S45HO048.html "著作権法"
