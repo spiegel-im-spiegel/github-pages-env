@@ -14,11 +14,14 @@
 <article itemscope itemtype='http://schema.org/BlogPosting' itemref='maker'>
 <div><strong>{{ with .Section }}<a href="/{{ . | urlize }}">しっぽのさきっちょ</a>{{ end }}{{ with .Date }}: {{ .Format "2006-01-02" }} 付{{ end }}</strong></div>
 <h1 itemprop='name'>{{ .Title }}</h1>
-<nav class="tags">{{ with .Params.tags }}<div><a href="/tags">Tags</a>:{{ range . }} <a href="/tags/{{ . | urlize }}">#{{ . }}</a>{{ end }}</div>{{ end }}</nav>
+<nav class="tags">{{ with .Params.tags }}<div><a href="/tags">Tags</a>:{{ range . }} #<a href="/tags/{{ . | urlize }}">{{ . }}</a>{{ end }}</div>{{ end }}</nav>
 
-<section>
+<section><div>
+<div style="float:right;margin:0.5em;padding:0.5em;">
+<a href="http://www.baldanders.info/spiegel/log2/000820.shtml" title="Stop Fast Track TPP — Baldanders.info"><img src="http://www.baldanders.info/images/noextension.png" alt="no extension" width="165" height="50" /></a>
+</div>
 {{ .Content }}
-</section>
+</div></section>
 
 </article>
 </main>
