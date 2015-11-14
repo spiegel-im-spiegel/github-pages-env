@@ -26,18 +26,20 @@ title = "ルークよ， Signal を使え！"
 
 タイトルだけ見て最初に思ったのは「PGP ってゆーな[^a]」だったが，それはともかく
 
-[^a]: 昔はともかく，現在 [PGP] は Symantic 社の製品名であり，いくつかある [OpenPGP] 実装のひとつにすぎない。
+[^a]: 昔はともかく，現在 [PGP] は Symantic 社の製品名であり，いくつかある [OpenPGP] 実装のひとつにすぎない。余談だが，確かに [OpenPGP] 用の「公開鍵サーバ」というのは存在しているが， [GnuPG] も [PGP] も，今回紹介する [Mailvelope] も別にクライアントというわけではなく，スタンドアロンで動作するプログラムである。
 
 {{< fig-quote title="Why Johnny Still, Still Can’t Encrypt: Evaluating the Usability of a Modern PGP Client" link="http://arxiv.org/pdf/1510.08555.pdf" lang="en" >}}
 <q>In our study of 20 participants, grouped into 10 pairs of participants who attempted to exchange encrypted email, only one pair was able to successfully complete the assigned tasks using Mailvelope. All other participants were unable to complete the assigned task in the one hour allotted to the study.
 This demonstrates that encrypting email with PGP, as implemented in Mailvelope, is still unusable for the masses.</q>
 {{< /fig-quote >}}
 
-10% 以下かよ orz 1990年代からカジュアルに PGP を使ってて，あまつさえ [Becky! 用のプラグイン](http://hp.vector.co.jp/authors/VA023900/gpg-pin/)まで自作してしまった[^a2] 身としては，かなり衝撃的ではあったが，まぁそんなもんかなぁ。
+10% 以下かよ orz
+
+1990年代からカジュアルに PGP を使ってて，あまつさえ [Becky! 用のプラグイン](http://hp.vector.co.jp/authors/VA023900/gpg-pin/)まで自作してしまった[^a2] 身としては，かなり衝撃的ではあったが，まぁそんなもんかなぁ。
 
 [^a2]: 現在，このプラグインはメンテナンスされてない。使わないように。 Windows パソコンでメールの暗号化がしたいなら [Thunderbird](https://www.mozilla.org/thunderbird/)＋[Enigmail](https://addons.mozilla.org/thunderbird/addon/enigmail/) がオススメである。
 
-ちなみに [Mailvelope] は Chrome や Firefox の拡張機能として使える MUA（Mail User Agent）で， Gmail などと連携して使う。
+ちなみに [Mailvelope] は Chrome や Firefox の拡張機能として使える MUA（Mail User Agent）で， Gmail などと連携して使える。
 [以前にも紹介](http://www.baldanders.info/spiegel/log2/000782.shtml "安全なメッセージング・アプリとは（追記あり） — Baldanders.info")したが， [EFF の Secure Messaging Scorecard](https://www.eff.org/secure-messaging-scorecard) で MUA の中では（PFS の項目を除いて[^b]）唯一満点だった製品である。
 [Mailvelope] は [OpenPGP] 実装を含んでいるため [GnuPG] や [PGP] のような製品を必要としない利点がある。
 
