@@ -3,7 +3,7 @@ date = "2015-10-11T23:06:14+09:00"
 update = "2015-10-22T08:46:00+09:00"
 description = "TPP 大筋合意 / 「クリエイティブ・コモンズ・ライセンスについて」改訂版 / Git for Windoes 2.6.1"
 draft = false
-tags = ["code", "politics", "tpp", "copyright", "creative-commons", "git"]
+tags = ["code", "politics", "tpp", "intellectual-property", "copyright", "creative-commons", "git"]
 title = "今日の戯れ言：TPP 大筋合意"
 
 [author]
