@@ -1,7 +1,7 @@
 +++
-date = "2015-11-16T12:54:08+09:00"
-description = "description"
-draft = true
+date = "2015-11-16T20:39:21+09:00"
+description = "日本でもボチボチ話題になってるようだけど，いろいろ考えるものだねぇ。"
+draft = false
 tags = ["code", "intellectual-property", "copyright", "book"]
 title = "Anne Frank Scandal"
 
@@ -34,20 +34,22 @@ title = "Anne Frank Scandal"
 つまり Otto Frank にも著作権があるとするなら2050年まで権利が存続することになる[^a] [^a2]。
 もう誰もいないのに。
 
-[^a]: 出版された『アンネの日記』は元になる日記（原本）から改変されている。[財団]はこの点を指して共著者だと言っているようだ。もし改変部分に著作物性が認められるなら，それはむしろ二次的著作物と言えるものだろう（実際には改変部分は原本のオリジナリティを損なうものではないと評価されている）。ちなみに原本はオランダ国立戦時資料研究所に寄付されている。そこで鑑定の結果 Anne Frank 本人のものだと認められている。
+[^a]: 出版された『アンネの日記』は元になる日記（原本）から改変されている。[財団]はこの点を指して共著者だと言っているようだ。もし改変部分に著作物性が認められるなら，それはむしろ二次的著作物と言えるものだろう（実際には改変部分は原本のオリジナリティを損なうものではないと評価されている）。ちなみに原本はオランダ国立戦時資料研究所に寄付されている。そこで鑑定の結果 Anne Frank 本人のものだと認められている。もうひとつ余談だが，特定の資料を「記憶遺産」とかいって特別扱いするのは馬鹿げてるし政争のもとだし，何より選ばれなかった側の資料が排除される恐れさえある。なんでこんなアホな制度を作ったのか。ユ◯スコには小一時間説教したい。
 [^a2]: 念のために言うと，翻訳版には翻訳者の権利が加わる。二次的著作物になるからね。
 
 私なら自分の思春期の日記なんか残ってた日にゃソッコーで焼却して灰を[地層処分](https://ja.wikipedia.org/wiki/%E5%9C%B0%E5%B1%A4%E5%87%A6%E5%88%86)するところだが，[財団]はまだまだ彼女でひと儲けしたいらしい[^b]。
 やれやれ。
 
-[^b]: 公有の作品を売っちゃいけないって法はないんだけどね。そういえば，百均で青空文庫に収録されてる作品を売ってるのを見たことある。
+[^b]: 公有の作品を売っちゃいけないって法はないんだけどね。そういえば，百均で青空文庫に収録されてる作品を売ってるのを見たことがある。
 
 {{< fig-quote title="Anne Frank Scandal: An Underreported Copyright Monopoly Abuse" link="https://torrentfreak.com/anne-frank-scandal-an-underreported-copyright-monopoly-abuse-151115/" lang="en" >}}
 <q>Let’s be clear on three points here: One, this is a fraud committed for the sole purpose of preventing the work from being elevated to the public domain; two, it is committed now as the book would otherwise be elevated to the public domain a mere six weeks from now — if Otto Frank was objectively a co-author, it would reasonably have said so from the beginning, and not when then monopoly was down to the wire; and three, oldmedia remains abysmally ignorant of how the copyright monopoly is used to punish and withhold, rather than the illusory encourage and reward.</q>
 {{< /fig-quote >}}
 
-要するに「著作権保護期間の延長」を目論んでいるのはこういう輩だということだ。
-それ以外に，著作者の死後70年も権利を有効にさせる意味があるだろうか。
+『アンネの日記』は陰謀論も含めて色々言われてきたが，とっくに決着のついている話であり，この時点でこんなことを言うってのはまさに “copyright monopoly abuse” である。
+
+結局「著作権保護期間の延長」を目論んでいるのはこういう輩なのだ。
+それ以外に著作者の死後70年も権利を有効にさせる意味があるだろうか。
 そして今回の件が指し示すことは，彼らは（口では何と言おうと）決して「70年」で満足していないということだ。
 
 [この前にも書いた]({{< relref "remark/2015/1114-diary.md#tppip" >}})が，保護期間の延長というのは「公有財産の私有化」にほかならない[^c]。

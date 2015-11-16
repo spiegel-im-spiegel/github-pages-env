@@ -1,9 +1,10 @@
 +++
 date = "2015-11-15T20:32:55+09:00"
-description = "同時多発テロ関連のブックマーク。随時更新予定"
+update = "2015-11-16T20:45:38+09:00"
+description = "同時多発テロ関連のブックマーク。11月16日更新"
 draft = false
 tags = ["security", "international", "politics"]
-title = "同時多発テロ関連のブックマーク"
+title = "同時多発テロ関連のブックマーク（11月16日更新）"
 
 [author]
   avatar = "/images/avatar.jpg"
@@ -34,7 +35,7 @@ title = "同時多発テロ関連のブックマーク"
 - [ベイルート南郊のヒズブッラーの地盤地域で「イスラーム国」による自爆テロ：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40648) : フランスより前，11月12日にレバノンの首都ベイルート南郊で起こされたテロ。死傷者多数。
 - [Live Updates in France - The New York Times](http://www.nytimes.com/live/paris-attacks-live-updates/live-updates-in-france/)
 - [Paris attacks kill more than 120 people – as it happened | World news | The Guardian](http://www.theguardian.com/world/live/2015/nov/13/shootings-reported-in-eastern-paris-live)
-- [Paris attacks: as they happened - BBC News](http://www.bbc.com/news/live/world-europe-34815972)
+- [Paris attacks: as they happened - BBC News](http://www.bbc.com/news/live/wbug    orld-europe-34815972)
 - [パリの同時多発テロの攻撃の波はひとまず収まる：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40656)
 
 {{< fig-quote title="パリの同時多発テロの攻撃の波はひとまず収まる：池内恵" link="http://www.fsight.jp/articles/-/40656" >}}
