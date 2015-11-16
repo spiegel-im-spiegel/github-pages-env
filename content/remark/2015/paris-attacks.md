@@ -24,12 +24,14 @@ title = "同時多発テロ関連のブックマーク"
 いや，今回はテレビからの情報をシャットアウトしてみるつもり。
 概ね支障はないはず，多分おそらく maybe perhaps...
 
+個人的な関心領域は，これらの事態に対して「わたし」や「あなた」がどう思うかではなく，欧州や米国そして日本がどう反応するか，そして国際社会の構造がどう変化するのか（しないのか）である。
+
 なお，個人的な方針により，日本の新聞にはリンクしないので悪しからず（見てないわけじゃないよ）。
 
 ## ブックマーク
 
-- [アンマンの警察官訓練センター銃撃は2005年のホテル自爆テロから10周年の日に：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40649)
-- [ベイルート南郊のヒズブッラーの地盤地域で「イスラーム国」による自爆テロ：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40648)
+- [アンマンの警察官訓練センター銃撃は2005年のホテル自爆テロから10周年の日に：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40649) : フランスより前，11月9日にヨルダンの首都アンマンで起こされたテロ。
+- [ベイルート南郊のヒズブッラーの地盤地域で「イスラーム国」による自爆テロ：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40648) : フランスより前，11月12日にレバノンの首都ベイルート南郊で起こされたテロ。死傷者多数。
 - [Live Updates in France - The New York Times](http://www.nytimes.com/live/paris-attacks-live-updates/live-updates-in-france/)
 - [Paris attacks kill more than 120 people – as it happened | World news | The Guardian](http://www.theguardian.com/world/live/2015/nov/13/shootings-reported-in-eastern-paris-live)
 - [Paris attacks: as they happened - BBC News](http://www.bbc.com/news/live/world-europe-34815972)
@@ -58,27 +60,54 @@ title = "同時多発テロ関連のブックマーク"
 <q>Three teams of Islamic State attackers acting in unison carried out the terrorist assault in Paris on Friday night, officials said Saturday, including one assailant who may have traveled to Europe on a Syrian passport along with the flow of migrants.</q>
 {{< /fig-quote >}}
 
-## Tweets
+- [「８人目のテロリスト」はどこへ行ったのか：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40659) : 「8人目」を巡る情報戦？
+- [フランス・パリ市内でのテロ事件を受けた在京フランス大使館主催追悼セレモニー ｜ 外務省](http://www.mofa.go.jp/mofaj/erp/we/fr/page4_001543.html)
+
+{{< fig-quote title="フランス・パリ市内でのテロ事件を受けた在京フランス大使館主催追悼セレモニー" link="http://www.mofa.go.jp/mofaj/erp/we/fr/page4_001543.html" >}}
+<q>菅官房長官は，在京フランス大使公邸において，式典に先立って記帳を行った上で，ティエリ－・ダナ駐日フランス大使（H.E. Mr. Thierry DANA, Ambassador of French Republic to Japan）に対し，非道，卑劣極まりないテロ行為により多くの犠牲者が発生したことに強い衝撃と憤りを覚えると述べ，犠牲者に対する心からの哀悼の意，並びに，このような困難な状況に際して，日本政府及び日本国民はフランス及びフランス国民と共にあるとの連帯の意を伝えました。更に，いかなるテロ行為も断固として非難し，テロを根絶するためにフランス及び国際社会と連携して取り組んでいく旨述べました。</q>
+{{< /fig-quote >}}
+
+- [パリ同時テロ【特集】 - WSJ](http://jp.wsj.com/articles/SB11673646430017294066804581358370837715598)
+- [テロに覆われる世界](http://blogos.com/article/144781/)
+
+### Tweets
 
 {{< fig-gen >}}
 <blockquote class="twitter-tweet" lang="ja"><p lang="fr" dir="ltr">Environ 120 morts dans les attentats de <a href="https://twitter.com/hashtag/Paris?src=hash">#Paris</a>. La carte des événements et le bilan à 3h20, samedi. <a href="https://twitter.com/hashtag/ParisAttacks?src=hash">#ParisAttacks</a> <a href="https://t.co/viiA5f7lva">pic.twitter.com/viiA5f7lva</a></p>&mdash; Idé (@agenceIDE) <a href="https://twitter.com/agenceIDE/status/665354226793582592">2015, 11月 14</a></blockquote>
 {{< /fig-gen >}}
 
-## 関連情報
+### その他
+
+- [Message to our community about the Paris and Beirut attacks - Creative Commons](http://creativecommons.org/weblog/entry/46487)
+- [Je suis Paris | Flickr Blog](http://blog.flickr.net/en/2015/11/15/je-suis-paris/)
+- [パリ同時多発テロ：そこにいた人たちの「声」 « WIRED.jp](http://wired.jp/2015/11/14/paris-attacks-following-bataclan-benjamin-cazenoves-facebook-updates/)
+
+### 余談ですが...
 
 - [Facebook、プロフィール写真のフランス国旗化機能に「パリだけではない」の声も - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1511/15/news012.html)
 
 もちろん「パリだけではない」が，みんながみんな中東情勢に耳を傾けているわけではない。
-なんであれ，意志を「表明」することは重要で，それが「認知」の始まりであり，そこから「問い」を立て「理解」へ向けて般若（prajna）の舟を漕ぎだすことができる。
+私だって， 9.11 当時よりは知識はあるつもりだが，専門家でもなければリアルに情報を追いかけているウォッチャーでもないし，分からないことの方が多い。
+理解の度合いは様々あって当然だし，関心領域も人によって様々だろう。
+
+しかし，なんであれ，意志を「表明」することは重要で，それが「認知」の始まりであり，そこから「問い」を立て「理解」へ向けて般若（prajna）の舟を漕ぎだすことができる。
 事態に反応するだけなら AI と同じ。
 
-ちなみに私は，既に “Pray for Japan” のバッヂを付けてる状態なので（東北が完了宣言するまでは付けてる予定），これ以上いじるとカオスになってしまう。
+ちなみに私は，既に “Pray for Japan” のバッヂを付けてる状態なので（東北が復興完了宣言するまでは付けてる予定），これ以上いじるとカオスになってしまう。
 ので，パスします。
+もちろん他の方々が，フランスやその他の国や地域の方々に向けて何らかの形で「半旗を掲げる」ことについては敬意を表すものです。
 
-### 参考図書
+- [Facebook、安否確認ツールを有効化--パリ同時テロ事件を受け - CNET Japan](http://japan.cnet.com/news/service/35073521/)
+- [Facebook、レバノンのテロでは安否確認なし--批判を受け提供拡大を約束 - CNET Japan](http://japan.cnet.com/news/service/35073532/)
+
+## 関連情報
+
+### 参考ページ
 
 - [イスラム国・テロ・経済的可能性｜新・山形月報！｜山形浩生｜cakes（ケイクス）](https://cakes.mu/posts/8187)
 - [ISISについて：池内恵と対談](http://cruel.org/other/koukenikeuchiisis.html)
+
+### 参考図書
 
 <div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00SINS1HU/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/41MCLvboP0L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00SINS1HU/baldandersinf-22/">イスラーム国の衝撃 (文春新書)</a></dt><dd>池内　恵 </dd><dd>文藝春秋 2015-01-20</dd><dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00OXHROBO/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00OXHROBO.09._SCTHUMBZZZ_.jpg"  alt="「イスラム国」の正体　なぜ、空爆が効かないのか Wedgeセレクション No.37"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00BIXNMMG/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00BIXNMMG.09._SCTHUMBZZZ_.jpg"  alt="メディアとテロリズム（新潮新書）"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00PS2FI1Q/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00PS2FI1Q.09._SCTHUMBZZZ_.jpg"  alt="現代アラブの社会思想　終末論とイスラーム主義 講談社現代新書"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00S9D5A78/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00S9D5A78.09._SCTHUMBZZZ_.jpg"  alt="イスラム国　テロリストが国家をつくる時 (文春e-book)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00M3OESYU/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00M3OESYU.09._SCTHUMBZZZ_.jpg"  alt="知らないと恥をかく世界の大問題　学べる図解版　第4弾　池上彰が読む「イスラム」世界 (―)"  /></a> </p>
 <p class="description">「イスラーム国」だけでなく近代以後（特に 9.11 以後）の中東の歴史について理解を深められる良書</a>。</p>
