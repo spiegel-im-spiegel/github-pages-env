@@ -261,6 +261,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go言語と暗号技術（AESからTLS） | SOTA](http://deeeet.com/writing/2015/11/10/go-crypto/)
     - [tcnksm/go-crypto](https://github.com/tcnksm/go-crypto) : サンプルコード
 - [マイナンバーのチェックデジットをGoで計算する - Qiita](http://qiita.com/qube81/items/f66a38b28ec58bc5c4da)
+- [golangでImageMagickを触りたい - Qiita](http://qiita.com/arc279/items/5f277aa5cce3de5247e5)
 
 ### コマンドライン・ツール
 

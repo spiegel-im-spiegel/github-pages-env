@@ -1,6 +1,7 @@
 +++
 date = "2015-11-17T21:52:50+09:00"
-description = "こういう話は好きなので便乗してみる。"
+update = "2015-11-18T10:40:53+09:00"
+description = "こういう話は好きなので便乗してみる。（「おまけ」追加）"
 draft = false
 tags = ["programming", "language"]
 title = "プログラミング言語との付き合い方"
@@ -132,9 +133,34 @@ title = "プログラミング言語との付き合い方"
 
 願わくば「何でも選べる。何でも言える」未来を引き渡したいものである。
 
+## 【おまけ】 TensorFlow に関するブックマーク
+
+[フィードバック](#feedback)で [TensorFlow] について言及があったので，ついでに。
+
+[TensorFlow] は Google がオープンソースとして提供する多次元配列（tensor）[演算（flow）](https://en.wikipedia.org/wiki/Flow_%28mathematics%29)ライブラリ。
+いわゆる「機械学習（machine learning）」で威力を発揮し， [TensorFlow] の元となっている Google 内製のインフラである [DistBelief](http://research.google.com/pubs/pub40565.html) では既に実績がある。
+
+バックエンドは C++ で構築しているそうだが，フロントエンドでは Python が使える（将来的には他の言語にも対応するそうだ）。
+携帯端末から GPU バリバリのワークステーションまでスケーラブルに対応し，簡易な記述で実装できるのが特徴。
+可視化ツールもある。
+
+たしかに「[何か作れそうな気がする](https://plus.google.com/+HidekiSaito/posts/EJZgMkANqou)」感じではある。
+
+- [TensorFlow is an Open Source Software Library for Machine Intelligence](http://tensorflow.org/)
+    - [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)
+- [Google、機械学習システム「TensorFlow」をオープンソースで公開 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1511/10/news055.html)
+- [Googleの公開した人工知能ライブラリTensorFlowを触ってみた - 株式会社ネクスト　エンジニアBlog](http://nextdeveloper.hatenablog.com/entry/2015/11/10/204609)
+- [TensorFlowを算数で理解する - Qiita](http://qiita.com/icoxfog417/items/fb5c24e35a849f8e2c5d)
+- [TensorFlow 畳み込みニューラルネットワークで手書き認識率99.2%の分類器を構築 - Qiita](http://qiita.com/haminiku/items/36982ae65a770565458d)
+- [自然言語処理をはじめたい人のためのゆるい記事 - Qiita](http://qiita.com/kazuhirokomoda/items/a4cd0f6f42eb75c757e4) : [TensorFlow] についても少しだけ言及
+
+{{< fig-youtube id="oZikw5k_2FM" title="TensorFlow: Open source machine learning - YouTube" width="500" height="281" >}}
+
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Electron]: http://electron.atom.io/ "Electron"
-[node.js]: https://nodejs.org/ "Node.js"
+[TensorFlow]: http://tensorflow.org/ "TensorFlow is an Open Source Software Library for Machine Intelligence"
+
+## 参考図書
 
 <div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00EYXMA9I/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/41ETMZ7i9qL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00EYXMA9I/baldandersinf-22/">数学ガール</a></dt><dd>結城 浩 </dd><dd>SBクリエイティブ株式会社 2014-02-14</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00Y9EYOIW/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00Y9EYOIW.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート/微分を追いかけて"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1CM/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8AT1CM.09._SCTHUMBZZZ_.jpg"  alt="数学ガール／フェルマーの最終定理"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1D6/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8AT1D6.09._SCTHUMBZZZ_.jpg"  alt="数学ガール／ゲーデルの不完全性定理"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00W6NCLL0/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00W6NCLL0.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート/数列の広場"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00W6NCLJM/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00W6NCLJM.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート/丸い三角関数"  /></a> </p>
 <p class="description" >「数学ガール」シリーズ第1作目。ミルカさん衝撃の登場から分割数まで。</p>
