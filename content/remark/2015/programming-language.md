@@ -1,6 +1,6 @@
 +++
 date = "2015-11-17T21:52:50+09:00"
-update = "2015-11-18T10:40:53+09:00"
+update = "2015-11-18T20:16:45+09:00"
 description = "こういう話は好きなので便乗してみる。（「おまけ」追加）"
 draft = false
 tags = ["programming", "language"]
