@@ -1,5 +1,6 @@
 +++
 date = "2015-11-16T20:39:21+09:00"
+update = "2015-11-18T22:15:20+09:00"
 description = "日本でもボチボチ話題になってるようだけど，いろいろ考えるものだねぇ。"
 draft = false
 tags = ["code", "intellectual-property", "copyright", "book"]
@@ -60,5 +61,6 @@ title = "Anne Frank Scandal"
 ## 参考
 
 - [Copyfraud: Anne Frank Foundation claims father was "co-author," extends copyright by decades / Boing Boing](http://boingboing.net/2015/11/14/copyfraud-anne-frank-foundati.html)
+- [アンネ・フランク財団、彼女の父親が『日記』の「共著者」として著作権保持を主張 - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20151116/annefrank)
 
 [財団]: https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%B3%E3%83%8D%E3%83%BB%E3%83%95%E3%83%A9%E3%83%B3%E3%82%AF%E8%B2%A1%E5%9B%A3 "アンネ・フランク財団 - Wikipedia"

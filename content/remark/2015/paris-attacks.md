@@ -1,6 +1,6 @@
 +++
 date = "2015-11-15T20:32:55+09:00"
-update = "2015-11-17T21:05:59+09:00"
+update = "2015-11-18T22:15:06+09:00"
 description = "同時多発テロ関連のブックマーク。11月17日更新"
 draft = false
 tags = ["security", "international", "politics"]
@@ -77,6 +77,9 @@ title = "同時多発テロ関連のブックマーク（11月17日更新）"
 大統領選挙に向けて、一方で「オバマの不甲斐なさ」を批判する動きは民主・共和両党の候補者から出るだろうが、しかし「では何をするのか」というところで腰砕けになるだろうと予想できる。</q>
 {{< /fig-quote >}}
 
+- [On CISA - Schneier on Security](https://www.schneier.com/blog/archives/2015/11/on_cisa.html)
+- [パリ同時テロを受け：米CIA長官、テロリスト阻止には情報収集のための技術的および法的権限が必要と主張 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1511/18/news121.html)
+
 ### Tweets
 
 {{< fig-gen >}}
@@ -90,6 +93,7 @@ title = "同時多発テロ関連のブックマーク（11月17日更新）"
 - [パリ同時多発テロ：そこにいた人たちの「声」 « WIRED.jp](http://wired.jp/2015/11/14/paris-attacks-following-bataclan-benjamin-cazenoves-facebook-updates/)
 - [Hacking Collective Anonymous Declares Total War On ISIS Following Paris Terror Attacks | TechCrunch](http://techcrunch.com/2015/11/16/hacking-collective-anonymous-declares-total-war-on-isis-following-paris-terror-attacks/)
 - [なぜ事件は「東半分」で起きたか？「パリ同時テロ」の現場を歩く：国末憲人 | ヨーロッパの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40661)
+- [ISが使う暗号化メッセージング・サーヴィスは、あなたにも使える « WIRED.jp](http://wired.jp/2015/11/18/isis-encrypted-communications/)
 
 ### 余談ですが...
 
