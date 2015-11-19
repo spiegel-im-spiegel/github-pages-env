@@ -1,6 +1,6 @@
 +++
 date = "2015-11-17T21:52:50+09:00"
-update = "2015-11-18T20:16:45+09:00"
+update = "2015-11-19T14:40:49+09:00"
 description = "こういう話は好きなので便乗してみる。（「おまけ」追加）"
 draft = false
 tags = ["programming", "language"]
@@ -153,6 +153,8 @@ title = "プログラミング言語との付き合い方"
 - [TensorFlowを算数で理解する - Qiita](http://qiita.com/icoxfog417/items/fb5c24e35a849f8e2c5d)
 - [TensorFlow 畳み込みニューラルネットワークで手書き認識率99.2%の分類器を構築 - Qiita](http://qiita.com/haminiku/items/36982ae65a770565458d)
 - [自然言語処理をはじめたい人のためのゆるい記事 - Qiita](http://qiita.com/kazuhirokomoda/items/a4cd0f6f42eb75c757e4) : [TensorFlow] についても少しだけ言及
+- [わざわざTensorFlowの機械学習で$\sqrt{2}$を計算する - Qiita](http://qiita.com/n_kats_/items/73538c7c66559d09f35d)
+- [Python - 初めてのTensorFlow - イントロダクションとしての線形回帰 - Qiita](http://qiita.com/TomokIshii/items/f355d8e87d23ee8e0c7a)
 
 {{< fig-youtube id="oZikw5k_2FM" title="TensorFlow: Open source machine learning - YouTube" width="500" height="281" >}}
 

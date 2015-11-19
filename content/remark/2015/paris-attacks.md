@@ -1,10 +1,10 @@
 +++
 date = "2015-11-15T20:32:55+09:00"
-update = "2015-11-18T22:15:06+09:00"
-description = "同時多発テロ関連のブックマーク。11月17日更新"
+update = "2015-11-19T12:36:20+09:00"
+description = "同時多発テロ関連のブックマーク。11月19日更新"
 draft = false
 tags = ["security", "international", "politics"]
-title = "同時多発テロ関連のブックマーク（11月17日更新）"
+title = "同時多発テロ関連のブックマーク（11月19日更新）"
 
 [author]
   avatar = "/images/avatar.jpg"
@@ -79,6 +79,8 @@ title = "同時多発テロ関連のブックマーク（11月17日更新）"
 
 - [On CISA - Schneier on Security](https://www.schneier.com/blog/archives/2015/11/on_cisa.html)
 - [パリ同時テロを受け：米CIA長官、テロリスト阻止には情報収集のための技術的および法的権限が必要と主張 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1511/18/news121.html)
+- [【寄稿】『毎日新聞』にパリ同時多発テロ事件に関して（11月15日） | 中東・イスラーム学の風姿花伝](http://ikeuchisatoshi.com/%E3%80%90%E5%AF%84%E7%A8%BF%E3%80%91%E3%80%8E%E6%AF%8E%E6%97%A5%E6%96%B0%E8%81%9E%E3%80%8F%E3%81%AB%E3%83%91%E3%83%AA%E5%90%8C%E6%99%82%E5%A4%9A%E7%99%BA%E3%83%86%E3%83%AD%E4%BA%8B%E4%BB%B6%E3%81%AB/)
+
 
 ### Tweets
 
@@ -94,6 +96,7 @@ title = "同時多発テロ関連のブックマーク（11月17日更新）"
 - [Hacking Collective Anonymous Declares Total War On ISIS Following Paris Terror Attacks | TechCrunch](http://techcrunch.com/2015/11/16/hacking-collective-anonymous-declares-total-war-on-isis-following-paris-terror-attacks/)
 - [なぜ事件は「東半分」で起きたか？「パリ同時テロ」の現場を歩く：国末憲人 | ヨーロッパの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40661)
 - [ISが使う暗号化メッセージング・サーヴィスは、あなたにも使える « WIRED.jp](http://wired.jp/2015/11/18/isis-encrypted-communications/)
+- [Paris Terrorists Use Double ROT-13 Encryption - Schneier on Security](https://www.schneier.com/blog/archives/2015/11/paris_terrorist.html)
 
 ### 余談ですが...
 
