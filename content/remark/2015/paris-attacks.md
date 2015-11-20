@@ -1,10 +1,10 @@
 +++
 date = "2015-11-15T20:32:55+09:00"
-update = "2015-11-19T12:36:20+09:00"
-description = "同時多発テロ関連のブックマーク。11月19日更新"
+update = "2015-11-20T12:19:11+09:00"
+description = "同時多発テロ関連のブックマーク。11月20日更新"
 draft = false
 tags = ["security", "international", "politics"]
-title = "同時多発テロ関連のブックマーク（11月19日更新）"
+title = "同時多発テロ関連のブックマーク（11月20日更新）"
 
 [author]
   avatar = "/images/avatar.jpg"
@@ -97,6 +97,9 @@ title = "同時多発テロ関連のブックマーク（11月19日更新）"
 - [なぜ事件は「東半分」で起きたか？「パリ同時テロ」の現場を歩く：国末憲人 | ヨーロッパの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40661)
 - [ISが使う暗号化メッセージング・サーヴィスは、あなたにも使える « WIRED.jp](http://wired.jp/2015/11/18/isis-encrypted-communications/)
 - [Paris Terrorists Use Double ROT-13 Encryption - Schneier on Security](https://www.schneier.com/blog/archives/2015/11/paris_terrorist.html)
+- [After Paris Attacks, Telegram Purges ISIS Public Content | TechCrunch](http://techcrunch.com/2015/11/19/telegram-purges-isis-public-channels/)
+- [パリ同時テロ実行犯の連絡ツールは暗号化されていない素のSMS──英Telegraph報道 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1511/19/news060.html)
+- [テロは暗号化技術のせい？ 好機とばかり監視を正当化する情報機関 : ギズモード・ジャパン](http://www.gizmodo.jp/2015/11/post_20218.html)
 
 ### 余談ですが...
 
