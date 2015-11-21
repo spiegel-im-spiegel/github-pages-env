@@ -1,6 +1,6 @@
 +++
 date = "2015-11-15T20:32:55+09:00"
-update = "2015-11-21T09:06:23+09:00"
+update = "2015-11-21T18:38:08+09:00"
 description = "同時多発テロ関連のブックマーク。11月21日更新"
 draft = false
 tags = ["security", "international", "politics"]
@@ -86,6 +86,8 @@ title = "同時多発テロ関連のブックマーク（11月21日更新）"
 <q>アサド政権とその背後にいるロシアは多くの反体制派を「テロリスト」とみなして埒外にしているため、この案の実現には困難が伴う。しかし米国もケリー国務長官はロシア案に乗る姿勢も見せており、サウジアラビアが米国に追随してロシア案に乗るのであれば、支援してきた反体制派の中から「穏健派」勢力を選定して提示しなければならない。来月に実際にリヤードで会合が開かれれば、そこに招かれた、あるいは集まった勢力が、ロシア提案で移行期プロセスに加わる「穏健派」の認定を受ける可能性が高まる。</q>
 {{< /fig-quote >}}
 
+- [Islamist militants kill 19 in attack on hotel in Mali's capital | Reuters](http://www.reuters.com/article/2015/11/21/us-mali-attacks-idUSKCN0T90SK20151121)
+
 ### Tweets
 
 {{< fig-gen >}}
@@ -99,11 +101,9 @@ title = "同時多発テロ関連のブックマーク（11月21日更新）"
 - [パリ同時多発テロ：そこにいた人たちの「声」 « WIRED.jp](http://wired.jp/2015/11/14/paris-attacks-following-bataclan-benjamin-cazenoves-facebook-updates/)
 - [Hacking Collective Anonymous Declares Total War On ISIS Following Paris Terror Attacks | TechCrunch](http://techcrunch.com/2015/11/16/hacking-collective-anonymous-declares-total-war-on-isis-following-paris-terror-attacks/)
 - [なぜ事件は「東半分」で起きたか？「パリ同時テロ」の現場を歩く：国末憲人 | ヨーロッパの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40661)
-- [ISが使う暗号化メッセージング・サーヴィスは、あなたにも使える « WIRED.jp](http://wired.jp/2015/11/18/isis-encrypted-communications/)
-- [Paris Terrorists Use Double ROT-13 Encryption - Schneier on Security](https://www.schneier.com/blog/archives/2015/11/paris_terrorist.html)
-- [After Paris Attacks, Telegram Purges ISIS Public Content | TechCrunch](http://techcrunch.com/2015/11/19/telegram-purges-isis-public-channels/)
-- [パリ同時テロ実行犯の連絡ツールは暗号化されていない素のSMS──英Telegraph報道 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1511/19/news060.html)
-- [テロは暗号化技術のせい？ 好機とばかり監視を正当化する情報機関 : ギズモード・ジャパン](http://www.gizmodo.jp/2015/11/post_20218.html)
+- [Does ISIS really have nothing to do with Islam? Islamic apologetics carry serious risks. - The Washington Post](https://www.washingtonpost.com/news/acts-of-faith/wp/2015/11/18/does-isis-really-have-nothing-to-do-with-islam-islamic-apologetics-carry-serious-risks/)
+
+[暗号関連の話題はこちら](remark/2015/paris-attacks-and-cipher.md)。
 
 ### 余談ですが...
 
@@ -140,9 +140,4 @@ title = "同時多発テロ関連のブックマーク（11月21日更新）"
 <div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4062585103/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/41X1JAIWl3L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4062585103/baldandersinf-22/">中東戦記 ポスト9.11時代への政治的ガイド (講談社選書メチエ)</a></dt><dd>ジル・ケペル 池内 恵 </dd><dd>講談社 2011-09-09</dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4061495887/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4061495887.09._SCTHUMBZZZ_.jpg"  alt="現代アラブの社会思想 (講談社現代新書)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4106036436/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4106036436.09._SCTHUMBZZZ_.jpg"  alt="中東 危機の震源を読む (新潮選書)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4130331043/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4130331043.09._SCTHUMBZZZ_.jpg"  alt="「アラブの春」とは何だったのか"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797234024/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4797234024.09._SCTHUMBZZZ_.jpg"  alt="安全保障関連法 ― 変わる安保体制"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4166610139/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4166610139.09._SCTHUMBZZZ_.jpg"  alt="イスラーム国の衝撃 (文春新書)"  /></a> </p>
 <p class="description">読むべきかなぁ，と思いつつもまだ。</p>
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-11-15">2015-11-15</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
-</div>
-
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4822283100/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51-pZ52JsUL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4822283100/baldandersinf-22/">セキュリティはなぜやぶられたのか</a></dt><dd>ブルース・シュナイアー 井口 耕二 </dd><dd>日経BP社 2007-02-15</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4881359967/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4881359967.09._SCTHUMBZZZ_.jpg"  alt="暗号の秘密とウソ"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797350997/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4797350997.09._SCTHUMBZZZ_.jpg"  alt="新版暗号技術入門 秘密の国のアリス"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4594070507/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4594070507.09._SCTHUMBZZZ_.jpg"  alt="チャイナ・ハッカーズ"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4105393022/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4105393022.09._SCTHUMBZZZ_.jpg"  alt="暗号解読―ロゼッタストーンから量子暗号まで"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4102159746/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4102159746.09._SCTHUMBZZZ_.jpg"  alt="宇宙創成〈上〉 (新潮文庫)"  /></a> </p>
-<p class="description" >原題は “Beyond Fear”。「9.11 以後」に書かれたセキュリティ書である。</p>
-<p class="gtools" >reviewed by <a href="#maker" class="reviewer">Spiegel</a> on <abbr class="dtreviewed" title="2014-09-14">2014/09/14</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html">G-Tools</a>)</p>
 </div>

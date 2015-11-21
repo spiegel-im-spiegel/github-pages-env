@@ -90,7 +90,7 @@ lint や定義ファイルのジャンプは `GOPATH` や `GOROOT` を見て外�
 
 ## go-find-references パッケージが惜しい
 
-[go-find-references] パッケージは [redefiance/go-find-references](https://github.com/redefiance/go-find-references) を使って指定したシンボルを参照しているファイルを列挙してくれる便利ツールだが， Windows 環境では上手く動かない。
+[go-find-references] パッケージは [redefiance/go-find-references](https://github.com/redefiance/go-find-references) を使って指定したシンボルを参照しているファイルを列挙してくれる便利ツールだが， Windows 環境ではタグジャンプが上手く動かない。
 どうやら `C:` などのドライブレターを上手く処理できないようだ。
 とほほ。
 
