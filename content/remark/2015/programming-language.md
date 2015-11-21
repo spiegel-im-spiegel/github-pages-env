@@ -1,6 +1,6 @@
 +++
 date = "2015-11-17T21:52:50+09:00"
-update = "2015-11-19T14:40:49+09:00"
+update = "2015-11-21T05:30:21+09:00"
 description = "こういう話は好きなので便乗してみる。（「おまけ」追加）"
 draft = false
 tags = ["programming", "language"]
@@ -138,7 +138,7 @@ title = "プログラミング言語との付き合い方"
 [フィードバック](#feedback)で [TensorFlow] について言及があったので，ついでに。
 
 [TensorFlow] は Google がオープンソースとして提供する多次元配列（tensor）[演算（flow）](https://en.wikipedia.org/wiki/Flow_%28mathematics%29)ライブラリ。
-いわゆる「機械学習（machine learning）」で威力を発揮し， [TensorFlow] の元となっている Google 内製のインフラである [DistBelief](http://research.google.com/pubs/pub40565.html) では既に実績がある。
+いわゆる「機械学習（machine learning）」で威力を発揮し， [TensorFlow] の元となっている Google 内製のインフラ [DistBelief](http://research.google.com/pubs/pub40565.html) では既に実績がある。
 
 バックエンドは C++ で構築しているそうだが，フロントエンドでは Python が使える（将来的には他の言語にも対応するそうだ）。
 携帯端末から GPU バリバリのワークステーションまでスケーラブルに対応し，簡易な記述で実装できるのが特徴。
