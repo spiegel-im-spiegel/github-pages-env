@@ -1,10 +1,10 @@
 +++
 date = "2015-11-15T20:32:55+09:00"
-update = "2015-11-21T18:38:08+09:00"
-description = "同時多発テロ関連のブックマーク。11月21日更新"
+update = "2015-11-22T17:39:37+09:00"
+description = "同時多発テロ関連のブックマーク。11月22日更新"
 draft = false
 tags = ["security", "international", "politics"]
-title = "同時多発テロ関連のブックマーク（11月21日更新）"
+title = "同時多発テロ関連のブックマーク（11月22日更新）"
 
 [author]
   avatar = "/images/avatar.jpg"
@@ -87,6 +87,7 @@ title = "同時多発テロ関連のブックマーク（11月21日更新）"
 {{< /fig-quote >}}
 
 - [Islamist militants kill 19 in attack on hotel in Mali's capital | Reuters](http://www.reuters.com/article/2015/11/21/us-mali-attacks-idUSKCN0T90SK20151121)
+- [How ISIS uses and abuses Islam - Vox](http://www.vox.com/2015/11/18/9755478/isis-islam)
 
 ### Tweets
 

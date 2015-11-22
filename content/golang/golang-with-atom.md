@@ -32,6 +32,7 @@ title = "ATOM で Go"
 ```bash
 C:> go get -v golang.org/x/tools/cmd/vet
 C:> go get -v golang.org/x/tools/cmd/goimports
+C:> go get -v golang.org/x/tools/cmd/oracle
 C:> go get -v github.com/golang/lint/golint
 C:> go get -v github.com/nsf/gocode
 C:> go get -v github.com/rogpeppe/godef
@@ -43,7 +44,7 @@ C:> go get -v github.com/rogpeppe/godef
 
 [goimport] はコード整形ツールで，標準の [gofmt] を置き換えることができ，かつ [gofmt] よりも若干かしこい。
 [gocode] は入力補完ツール。
-[godef] は指定したシンボルの定義定義元情報を出力するツール（タグジャンプに使う）。
+[godef] は指定したシンボルの定義定義元情報を出力するツール（出力を使って定義元へジャンプできる。実際には [oracle] と併用するらしい）。
 いずれも vim や emacs などでは有名だが [ATOM] でも使える。
 
 言わずもがなだが，これらのツールには PATH を通しておくこと。
@@ -109,6 +110,7 @@ lint や定義ファイルのジャンプは `GOPATH` や `GOROOT` を見て外�
 [gofmt]: https://golang.org/cmd/gofmt/ "gofmt - The Go Programming Language"
 [gocode]: https://github.com/nsf/gocode "nsf/gocode"
 [godef]: https://github.com/rogpeppe/godef "rogpeppe/godef"
+[oracle]: https://godoc.org/golang.org/x/tools/cmd/oracle "oracle - GoDoc"
 [go-plus]: https://atom.io/packages/go-plus "go-plus"
 [gb]: http://getgb.io/ "gb - A project based build tool for Go"
 [go-find-references]: https://atom.io/packages/go-find-references "go-find-references"
