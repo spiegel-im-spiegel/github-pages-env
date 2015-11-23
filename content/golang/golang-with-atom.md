@@ -1,5 +1,6 @@
 +++
 date = "2015-11-21T14:19:02+09:00"
+update = "2015-11-23T15:21:00+09:00"
 description = "ATOM Editor で Go 言語のコーディング環境を整える。 go-plus パッケージの導入について。"
 draft = false
 tags = ["golang", "engineering", "tools", "atom", "editor"]
@@ -63,7 +64,7 @@ C:> go get -v github.com/rogpeppe/godef
 既定ではソースファイルを保存する度にコード整形や lint 等が走る。
 これを制御したい場合はパッケージの Setting で以下の項目を調整すればよい。
 
-{{< fig-img flickr="true" src="https://farm1.staticflickr.com/735/22767398347_ed9329653a.jpg" alt="settings for go-plus (ATOM)" title="settings for go-plus (ATOM)" link="https://www.flickr.com/photos/spiegel/22767398347/" >}}
+{{< fig-img flickr="true" src="https://farm1.staticflickr.com/735/22767398347_ed9329653a.jpg" title="settings for go-plus (ATOM)" link="https://www.flickr.com/photos/spiegel/22767398347/" >}}
 
 定義ファイルへのジャンプと復帰は `alt-cmd-g` および `alt-shift-cmd-G` にバインドされているが Windows 環境では動かないので（コマンドパレットから起動してもいいのだが）適当なキーに再割当てするといいだろう。
 ファンクションキーは結構空いてるので，たとえば
@@ -84,7 +85,11 @@ C:> go get -v github.com/rogpeppe/godef
 と設定すればいい。
 
 lint や定義ファイルのジャンプは `GOPATH` や `GOROOT` を見て外部パッケージを判断しているのだが， [gb] のようなツールでは `GOPATH` をコマンド内部で書き換えて実行するので lint ツールとは整合性が取れなくなる。
-[go-plus] の設定では `GOPATH` を上書き可能なので，とりあえずこれで回避する方法もある。
+[go-plus] の設定では `GOPATH` を上書きすることも可能なので，とりあえずこれで回避する方法もある[^a]。
+
+[^a]: `GOPATH` を [go-plus] の設定で上書きする場合は “Environment Overrides Config” を**無効にする**こと。なんでかこれ，毎回ハマるんだよなぁ。
+
+{{< fig-img flickr="true" src="https://farm6.staticflickr.com/5821/23233956325_0ddf55e61a.jpg" title="settings for go-plus (ATOM)" link="https://www.flickr.com/photos/spiegel/23233956325/" >}}
 
 [gb] への対応は “Planned Features” に挙がってるので，将来的には小細工しなくても [gb] ベースの開発ができるようになるかもしれない。
 てか，なってほしい。
