@@ -1,6 +1,6 @@
 +++
 date = "2015-11-15T20:32:55+09:00"
-update = "2015-11-22T17:39:37+09:00"
+update = "2015-11-24T22:08:43+09:00"
 description = "同時多発テロ関連のブックマーク。11月22日更新"
 draft = false
 tags = ["security", "international", "politics"]
@@ -88,6 +88,9 @@ title = "同時多発テロ関連のブックマーク（11月22日更新）"
 
 - [Islamist militants kill 19 in attack on hotel in Mali's capital | Reuters](http://www.reuters.com/article/2015/11/21/us-mali-attacks-idUSKCN0T90SK20151121)
 - [How ISIS uses and abuses Islam - Vox](http://www.vox.com/2015/11/18/9755478/isis-islam)
+- [Turkmens clash with Russia-backed al-Assad forces in northwest Syria - MIDEAST](http://www.hurriyetdailynews.com/turkmens-clash-with-russia-backed-al-assad-forces-in-northwest-syria-.aspx?PageID=238&NID=91575&NewsCatID=352)
+- [Turkey shoots down Russian jet for airspace violation near Syrian border - MIDEAST](http://www.hurriyetdailynews.com/turkey-shoots-down-unidentified-fighter-jet-for-airspace-violation-near-syrian-border.aspx?pageID=238&nID=91580&NewsCatID=352)
+- [Turkmens flock to Turkish border amid Syria-Russia bombardment - MIDEAST](http://www.hurriyetdailynews.com/turkmens-flock-to-turkish-border-amid-syria-russia-bombardment.aspx?pageID=517&nID=91527&NewsCatID=352)
 
 ### Tweets
 

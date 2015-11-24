@@ -1,5 +1,6 @@
 +++
 date = "2015-11-21T19:02:46+09:00"
+update = "2015-11-24T22:08:23+09:00"
 description = "「同時多発テロ関連のブックマーク」から暗号・諜報関連の記事を切り出してこの記事で管理することにする。"
 draft = false
 tags = ["security", "international", "politics", "cryptography"]
@@ -37,6 +38,22 @@ title = "同時多発テロ関連のブックマーク（暗号関連）"
 - [テロは暗号化技術のせい？ 好機とばかり監視を正当化する情報機関 : ギズモード・ジャパン](http://www.gizmodo.jp/2015/11/post_20218.html)
 - [パリ同時多発テロの余波 – 米FCC委員長、通信監視関連法の修正を提起 - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2015/11/47933/)
 - [パリ同時多発テロで通信暗号化を責めるのはやっぱりおかしい : ギズモード・ジャパン](http://www.gizmodo.jp/2015/11/paris_encript.html)
+- [米IT業界団体、バックドア提供拒否を明言　パリ同時テロを受けて必要論が再燃も - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1511/24/news110.html)
+
+{{< fig-quote title="米IT業界団体、バックドア提供拒否を明言　パリ同時テロを受けて必要論が再燃も" link="http://www.itmedia.co.jp/news/articles/1511/24/news110.html" >}}
+<q>パリで起きた同時テロのような恐ろしい悲劇を受け、解決策を探すのは当然のことだ。だが暗号化レベルを下げることは解決策にはならない</q>
+{{< /fig-quote >}}
+
+{{< fig-quote title="米IT業界団体、バックドア提供拒否を明言　パリ同時テロを受けて必要論が再燃も" link="http://www.itmedia.co.jp/news/articles/1511/24/news110.html" >}}
+<q>捜査当局や国家安全保障局が国民の保護に尽力していることには深く感謝している。だが暗号化レベルを引き下げたり、暗号化されたデバイスやデータにバックドアを作成したりすれば、たとえそれが善人のためであっても、結局、攻撃者が悪用できる脆弱性を生み出すことにつながりかねない</q>
+{{< /fig-quote >}}
+
+- [Policy Repercussions of the Paris Terrorist Attacks - Schneier on Security](https://www.schneier.com/blog/archives/2015/11/policy_repercus.html)
+- [Reflections on NSA Oversight, and a Prediction That NSA Authorities (and Oversight, and Transparency) Will Expand - Lawfare](https://www.lawfareblog.com/reflections-nsa-oversight-and-prediction-nsa-authorities-and-oversight-and-transparency-will-expand)
+
+{{< fig-quote title="Reflections on NSA Oversight, and a Prediction That NSA Authorities (and Oversight, and Transparency) Will Expand" link="https://www.lawfareblog.com/reflections-nsa-oversight-and-prediction-nsa-authorities-and-oversight-and-transparency-will-expand" lang="en" >}}
+<q>Two important lessons of the last dozen years are (1) the government will increase its powers to meet the national security threat fully (because the People demand it), and (2) the enhanced powers will be accompanied by novel systems of review and transparency that seem to those in the Executive branch to be intrusive and antagonistic to the traditional national security mission, but that in the end are key legitimating factors for the expanded authorities.</q>
+{{< /fig-quote >}}
 
 <div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4822283100/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51-pZ52JsUL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4822283100/baldandersinf-22/">セキュリティはなぜやぶられたのか</a></dt><dd>ブルース・シュナイアー 井口 耕二 </dd><dd>日経BP社 2007-02-15</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4881359967/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4881359967.09._SCTHUMBZZZ_.jpg"  alt="暗号の秘密とウソ"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797350997/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4797350997.09._SCTHUMBZZZ_.jpg"  alt="新版暗号技術入門 秘密の国のアリス"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4594070507/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4594070507.09._SCTHUMBZZZ_.jpg"  alt="チャイナ・ハッカーズ"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4105393022/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4105393022.09._SCTHUMBZZZ_.jpg"  alt="暗号解読―ロゼッタストーンから量子暗号まで"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4102159746/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4102159746.09._SCTHUMBZZZ_.jpg"  alt="宇宙創成〈上〉 (新潮文庫)"  /></a> </p>
 <p class="description" >原題は “Beyond Fear”。「9.11 以後」に書かれたセキュリティ書である。</p>
