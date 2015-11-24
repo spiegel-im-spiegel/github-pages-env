@@ -1,6 +1,6 @@
 +++
 date = "2015-11-21T14:19:02+09:00"
-update = "2015-11-23T15:21:00+09:00"
+update = "2015-11-24T16:06:15+09:00"
 description = "ATOM Editor で Go 言語のコーディング環境を整える。 go-plus パッケージの導入について。"
 draft = false
 tags = ["golang", "engineering", "tools", "atom", "editor"]
@@ -54,7 +54,7 @@ C:> go get -v github.com/rogpeppe/godef
 ## go-plus パッケージの導入
 
 では，上述のツールを操作できる [go-plus] パッケージを導入する。
-やり方は Setting から Install してもいいし `apm` コマンドを使ってもよい。
+やり方は Settings 画面（`ctrl+,` で起動）で Install してもいいし `apm` コマンドを使ってもよい。
 
 - [ATOM Editor に関するメモ]({{< relref "remark/2015/atom-editor.md" >}})
 
