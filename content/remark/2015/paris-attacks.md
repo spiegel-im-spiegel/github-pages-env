@@ -1,6 +1,6 @@
 +++
 date = "2015-11-15T20:32:55+09:00"
-update = "2015-11-24T22:08:43+09:00"
+update = "2015-11-25T21:08:16+09:00"
 description = "同時多発テロ関連のブックマーク。"
 draft = false
 tags = ["security", "international", "politics"]
@@ -88,15 +88,32 @@ title = "同時多発テロ関連のブックマーク"
 
 - [Islamist militants kill 19 in attack on hotel in Mali's capital | Reuters](http://www.reuters.com/article/2015/11/21/us-mali-attacks-idUSKCN0T90SK20151121)
 - [How ISIS uses and abuses Islam - Vox](http://www.vox.com/2015/11/18/9755478/isis-islam)
-- [Turkmens clash with Russia-backed al-Assad forces in northwest Syria - MIDEAST](http://www.hurriyetdailynews.com/turkmens-clash-with-russia-backed-al-assad-forces-in-northwest-syria-.aspx?PageID=238&NID=91575&NewsCatID=352)
-- [Turkey shoots down Russian jet for airspace violation near Syrian border - MIDEAST](http://www.hurriyetdailynews.com/turkey-shoots-down-unidentified-fighter-jet-for-airspace-violation-near-syrian-border.aspx?pageID=238&nID=91580&NewsCatID=352)
-- [Turkmens flock to Turkish border amid Syria-Russia bombardment - MIDEAST](http://www.hurriyetdailynews.com/turkmens-flock-to-turkish-border-amid-syria-russia-bombardment.aspx?pageID=517&nID=91527&NewsCatID=352)
+- [チュニスで大統領護衛隊の車両に自爆テロ：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40700)
 
 ### Tweets
 
 {{< fig-gen >}}
 <blockquote class="twitter-tweet" lang="ja"><p lang="fr" dir="ltr">Environ 120 morts dans les attentats de <a href="https://twitter.com/hashtag/Paris?src=hash">#Paris</a>. La carte des événements et le bilan à 3h20, samedi. <a href="https://twitter.com/hashtag/ParisAttacks?src=hash">#ParisAttacks</a> <a href="https://t.co/viiA5f7lva">pic.twitter.com/viiA5f7lva</a></p>&mdash; Idé (@agenceIDE) <a href="https://twitter.com/agenceIDE/status/665354226793582592">2015, 11月 14</a></blockquote>
 {{< /fig-gen >}}
+
+### トルコがソ連の空爆機を撃墜
+
+- [Turkmens clash with Russia-backed al-Assad forces in northwest Syria - MIDEAST](http://www.hurriyetdailynews.com/turkmens-clash-with-russia-backed-al-assad-forces-in-northwest-syria-.aspx?PageID=238&NID=91575&NewsCatID=352)
+- [Turkey shoots down Russian jet for airspace violation near Syrian border - MIDEAST](http://www.hurriyetdailynews.com/turkey-shoots-down-unidentified-fighter-jet-for-airspace-violation-near-syrian-border.aspx?pageID=238&nID=91580&NewsCatID=352)
+- [Turkmens flock to Turkish border amid Syria-Russia bombardment - MIDEAST](http://www.hurriyetdailynews.com/turkmens-flock-to-turkish-border-amid-syria-russia-bombardment.aspx?pageID=517&nID=91527&NewsCatID=352)
+- [The Turkmens of Bayırbucak - TAHA AKYOL](http://www.hurriyetdailynews.com/Default.aspx?PageID=238&NID=91561&NewsCatID=458)
+- [Turkey's downing of Russian warplane - what we know - BBC News](http://www.bbc.com/news/world-middle-east-34912581)
+- [Russia deploys missile cruiser off Syria coast, ordered to destroy any target posing danger — RT News](https://www.rt.com/news/323329-russia-suspend-military-turkey/)
+- [トルコがシリア国境付近でロシア機を撃墜：背景はトルクメン人問題：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40695)
+
+{{< fig-quote title="トルコがシリア国境付近でロシア機を撃墜：背景はトルクメン人問題：池内恵" link="http://www.fsight.jp/articles/-/40695" >}}
+<q>背景には、シリア北部のトルクメン人問題がある。トルクメン人はトルコ語と同族の言語を用いており、トルコではほぼ同一民族のように見られている。トルコ側にも一定数が居住している。トルコとシリアの国境画定で、シリア側に取り残されたトルコ系民族という位置づけである。シリアのトルコ国境付近に居住地域が点在しており、クルド人やアラブ人と隣り合っている。<br>
+特に、シリアのラタキア県の北部、トルコのハタイ県と接する国境山岳地帯（トルクメン山と呼ばれる）に住むバユル・ブジャク地区のトルクメン人が、アサド政権にとっての戦略的な価値からも攻撃の対象となっているとトルコ側は危惧する。機体はトルクメン人の避難民がテント村を作る、国境線に接したヤマーディー（アラビア語名ヤマーマ）地区に墜落したとされ、まさにトルクメン人問題の真っ只中に起きた撃墜事件である。</q>
+{{< /fig-quote >}}
+
+- [トルコのロシア機撃墜の国際的影響：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40697)
+- [米国はトルコ・ロシア間のエスカレーション防止に注力：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40701)
+
 
 ### その他
 

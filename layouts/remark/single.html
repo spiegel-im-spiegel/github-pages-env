@@ -3,6 +3,7 @@
 {{ partial "header.html" . }}
 <title>{{ .Title }} — しっぽのさきっちょ | {{ .Site.Title }}</title>
 {{ if .Description }}<meta name="description" content="{{ .Description }}">{{ else }}<meta name="description" content="とりとめのない四方山話。">{{ end }}
+{{ with .Params.author.name }}<meta name="author" content="{{ . }}">{{ end }}
 {{ partial "header-nav.html" . }}
 </head>
 <body>

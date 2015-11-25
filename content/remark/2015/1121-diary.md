@@ -1,5 +1,6 @@
 +++
 date = "2015-11-21T07:48:29+09:00"
+update = "2015-11-25T21:06:23+09:00"
 description = "The TPP must be rejected. / 広島大学天文学研究会プラネタリウム & 天体観望会 / NTPsec ベータ版が公開 / Visual Studio Code がベータ版に到達"
 draft = false
 tags = ["code", "intellectual-property", "copyright", "tpp", "creative-commons", "astronomy", "planetarium", "security", "ntp", "engineering", "editor", "vscode", "dot-net"]
@@ -48,6 +49,11 @@ title = "週末スペシャル： The TPP must be rejected."
 [^a]: 「所有」の概念が薄いからこそ「公有」や「共有」の概念も希薄だと言えるが。
 
 さて，どうなるやら。
+
+### 追記
+
+- [著作権侵害の非親告罪化には「慎重であるべき」　文芸家協会が声明 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1511/25/news078.html)
+- [日本ではパロディー認める判決は出ていない、コミケなど摘発の可能性――TPPによる著作権侵害の非親告罪化になおも懸念、日本文藝家協会が声明 -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/20151125_732191.html)
 
 ## 広島大学天文学研究会プラネタリウム & 天体観望会{#huaa}
 
