@@ -1,10 +1,10 @@
 +++
 date = "2015-11-15T20:32:55+09:00"
 update = "2015-11-24T22:08:43+09:00"
-description = "同時多発テロ関連のブックマーク。11月22日更新"
+description = "同時多発テロ関連のブックマーク。"
 draft = false
 tags = ["security", "international", "politics"]
-title = "同時多発テロ関連のブックマーク（11月22日更新）"
+title = "同時多発テロ関連のブックマーク"
 
 [author]
   avatar = "/images/avatar.jpg"

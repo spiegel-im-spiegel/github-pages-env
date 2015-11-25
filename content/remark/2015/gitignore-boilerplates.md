@@ -1,5 +1,6 @@
 +++
 date = "2015-11-07T22:01:10+09:00"
+update = "2015-11-25T10:58:29+09:00"
 description = "Git の repository を作る際に .gitignore をどうするかは悩みどころだが、 gibo というツールを使えば .gitignore の生成をかなり自動化できるらしい。"
 draft = false
 tags = ["git", "tools", "windows"]
@@ -303,5 +304,12 @@ Windows
 Xcode
 XilinxISE
 ```
+
+## 追記
+
+Ruby/Gem にも同様のツールがあるようです。
+
+- [gemignore](https://rubygems.org/gems/gemignore "gemignore | RubyGems.org | your community gem host") 
+    - [gitignoreの雛形を用意する - Qiita](http://qiita.com/nakaken0629/items/cd25b722d9eb15b4efcb)
 
 [github/gitignore]: https://github.com/github/gitignore "github/gitignore"
