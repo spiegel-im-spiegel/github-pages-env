@@ -1,7 +1,7 @@
 +++
-date = "2015-11-26T09:55:30+09:00"
-description = "追加された機能が盛りだくさんあるので，詳しくはリリースノートを確認していただくとして，実は今回の目玉はライセンスのアップグレードである。"
-draft = true
+date = "2015-11-26T20:26:45+09:00"
+description = "追加された機能が盛りだくさんあり詳しくは上のリンク先を確認していただくとして，実は今回の目玉はライセンスのアップグレードである。"
+draft = false
 tags = ["hugo", "license", "apache2", "contribution"]
 title = "Hugo 0.15 が Apache License 2.0 下でリリース"
 
@@ -22,6 +22,11 @@ title = "Hugo 0.15 が Apache License 2.0 下でリリース"
 [Repository](https://github.com/spf13/hugo/) ではしばらく前からリリース準備が行われていて wktk 状態で待っていたのだが，ようやくリリースの運びとなった。
 
 - [Release v0.15 · spf13/hugo](https://github.com/spf13/hugo/releases/tag/v0.15)
+
+```bash
+C:> hugo version
+Hugo Static Site Generator v0.15 BuildDate: 2015-11-25T14:35:20+09:00
+```
 
 追加された機能が盛りだくさんあり詳しくは上のリンク先を確認していただくとして，実は今回の目玉はライセンスのアップグレードである。
 

@@ -1,7 +1,7 @@
 +++
-date = "2015-11-26T15:08:45+09:00"
+date = "2015-11-26T20:29:30+09:00"
 description = "これって curl で書けるんなら Go 言語で表現できるんじゃね？"
-draft = true
+draft = false
 tags = ["golang", "github", "curl", "programming"]
 title = "Git.io から短縮 URL を取得するコード"
 
@@ -117,7 +117,7 @@ func main() {
 	var buffer bytes.Buffer
 	writer := multipart.NewWriter(&buffer)
 	writer.WriteField("url", "https://github.com/spiegel-im-spiegel")
-	writer.Close() //writer はちゃんと閉じましょう
+	writer.Close()
 
 	resp, err := http.Post("http://git.io", "multipart/form-data; boundary="+writer.Boundary(), &buffer)
 	if err != nil {
@@ -183,7 +183,7 @@ func main() {
 
 ## ついでにパッケージも作ってみた
 
-- [spiegel-im-spiegel/gitioapi](https://github.com/spiegel-im-spiegel/gitioapi) 
+- [spiegel-im-spiegel/gitioapi](https://github.com/spiegel-im-spiegel/gitioapi)
 
 これを称して「他人の褌で相撲を取る」という[^c]。
 なるほど。
