@@ -1,9 +1,9 @@
 +++
-date = "2015-11-27T17:09:33+09:00"
+date = "2015-11-27T22:20:50+09:00"
 description = "昔，結城浩さんが Amazon の商品 URL を変換する秀丸マクロを公開されていて， ATOM Editor では使えないためどうしたものかと思っていたのだが，先日 init.coffee に簡単なコマンドを書く方法を習ったので移植してみた。"
-draft = true
+draft = false
 tags = ["atom", "editor", "tools", "amazon"]
-title = "ATOM Editor で Amazon Associate ID を含んだ商品 URL をアソシエイトIDを生成する"
+title = "ATOM Editor で Amazon Associate ID を含んだ商品 URL を生成する"
 
 [author]
   avatar = "/images/avatar.jpg"
@@ -29,24 +29,23 @@ title = "ATOM Editor で Amazon Associate ID を含んだ商品 URL をアソシ
 以下が `init.coffee` に追記する内容。
 
 ```coffee
-# Amazon Associate ID を含んだ商品 URL をアソシエイトIDを生成する
-#   クリップボードの内容を読み込んで処理する
-# 
+# Amazon Associate ID を含んだ商品 URL を生成する
+#  クリップボードの内容を読み込み，変換してセットする
+#  http(s)://www.amazon.co.jp/... から始まる文字列を想定
+#  /dp/XXXXXXXXXX または /ASIN/XXXXXXXXXX のパタンを探す
+#  変換できない場合はクリップボードの内容をそのままセットする
 # refs http://d.hatena.ne.jp/hyuki/20120413/amazon
 amazonUrl = (id) ->
   url = atom.clipboard.read()
-  if url.indexOf('http://www.amazon.co.jp/') != 0 && url.indexOf('https://www.amazon.co.jp/') != 0
+  re = /^htt(?:p|ps):\/\/www.amazon.co.jp\//
+  if !re.test(url)
     return url
-  pos = url.indexOf('/dp/')
-  if pos > 0
-    pos += 4
-  else
-    pos = url.indexOf('/ASIN/')
-    if pos > 0
-      pos += 6
-    else
-      return url
-  asin = url.substring(pos, pos+10)
+  result = url.match(/\/(?:dp|ASIN)\/(.{10})/)
+  if result == null
+    return url
+  else if result.length < 2
+    return url
+  asin = result[1]
   if id == ""
     "http://www.amazon.co.jp/exec/obidos/ASIN/#{asin}/"
   else
@@ -63,6 +62,7 @@ atom.commands.add 'atom-text-editor', 'my-tools:amazon', ->
 ```
 
 コードがやっつけでダサいのはご勘弁ということで[^a]。
+`insertText` 関数は[前のとき]({{< relref "remark/2015/insert-datetime-in-atom-editor.md" >}})の使い回し。
 
 [^a]: [CoffeeScript](http://coffeescript.org/) は慣れん。
 
@@ -86,5 +86,7 @@ http://www.amazon.co.jp/exec/obidos/ASIN/4797341378/baldandersinf-22/
 ## 参考
 
 - [Atom API](https://atom.io/docs/api/)
+- [正規表現 - JavaScript | MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Regular_Expressions)
+- [正規表現チェッカー（JavaScript版） | Softel labs](https://www.softel.co.jp/labs/tools/regex/)
 
 [ATOM]: https://atom.io/ "Atom"
