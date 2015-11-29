@@ -1,5 +1,6 @@
 +++
 date = "2015-11-28T19:39:24+09:00"
+update = "2015-11-29T20:14:29+09:00"
 description = "DELL よ，お前もか / たしかに「プライバシーマーク」はクソだけど / Google は Android 端末を解除できる"
 draft = false
 tags = ["security", "cryptography", "risk", "pki", "x.509", "privacy"]
@@ -102,6 +103,7 @@ Google はユーザに対して「[デバイスマネージャ](https://www.goog
 - [スマートフォンのセキュリティ管理 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000516.shtml)
 - [「パスワードを覚える」なんて脳みその無駄遣い — Baldanders.info](http://www.baldanders.info/spiegel/log2/000739.shtml)
 - [「オーウェルが描いた悪夢のような監視社会をさまざまな点で超えてしまっているこの世界」で私たちはいかにして生き残るか — Baldanders.info](http://www.baldanders.info/spiegel/log2/000768.shtml)
+- [警察がテロリストの捨てた携帯からわかること : ギズモード・ジャパン](http://www.gizmodo.jp/2015/11/what-police-can-learn-from-a-terrorist.html)
 
 ## 参考図書
 

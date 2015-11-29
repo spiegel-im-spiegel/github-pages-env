@@ -1,6 +1,6 @@
 +++
 date = "2015-11-15T20:32:55+09:00"
-update = "2015-11-25T21:08:16+09:00"
+update = "2015-11-29T20:14:43+09:00"
 description = "同時多発テロ関連のブックマーク。"
 draft = false
 tags = ["security", "international", "politics"]
@@ -113,7 +113,8 @@ title = "同時多発テロ関連のブックマーク"
 
 - [トルコのロシア機撃墜の国際的影響：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40697)
 - [米国はトルコ・ロシア間のエスカレーション防止に注力：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40701)
-
+- [【地図と解説】「イスラーム国」の押さえる油田と密輸ルート | 中東・イスラーム学の風姿花伝](http://ikeuchisatoshi.com/i-1195/)
+- [「イスラーム国」の資金源「密輸」を断つ難しさ：池内恵 | 中東の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40714)
 
 ### その他
 
@@ -123,6 +124,8 @@ title = "同時多発テロ関連のブックマーク"
 - [Hacking Collective Anonymous Declares Total War On ISIS Following Paris Terror Attacks | TechCrunch](http://techcrunch.com/2015/11/16/hacking-collective-anonymous-declares-total-war-on-isis-following-paris-terror-attacks/)
 - [なぜ事件は「東半分」で起きたか？「パリ同時テロ」の現場を歩く：国末憲人 | ヨーロッパの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40661)
 - [Does ISIS really have nothing to do with Islam? Islamic apologetics carry serious risks. - The Washington Post](https://www.washingtonpost.com/news/acts-of-faith/wp/2015/11/18/does-isis-really-have-nothing-to-do-with-islam-islamic-apologetics-carry-serious-risks/)
+- [From Indonesia, a Muslim Challenge to the Ideology of the Islamic State - The New York Times](http://www.nytimes.com/2015/11/27/world/asia/indonesia-islam-nahdlatul-ulama.html)
+- [「イスラーム国」へのリクルート経路はモスクではなく家族と友人：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40715)
 
 [暗号関連の話題はこちら](remark/2015/paris-attacks-and-cipher.md)。
 
@@ -143,6 +146,7 @@ title = "同時多発テロ関連のブックマーク"
 
 - [Facebook、安否確認ツールを有効化--パリ同時テロ事件を受け - CNET Japan](http://japan.cnet.com/news/service/35073521/)
 - [Facebook、レバノンのテロでは安否確認なし--批判を受け提供拡大を約束 - CNET Japan](http://japan.cnet.com/news/service/35073532/)
+- [パリ同時テロ後、アフリカから上がる疑問の声：「命の価値は平等か？」 · Global Voices 日本語](https://jp.globalvoices.org/2015/11/28/39630/)
 
 ## 関連情報
 
