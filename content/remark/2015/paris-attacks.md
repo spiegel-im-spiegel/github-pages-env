@@ -1,6 +1,6 @@
 +++
 date = "2015-11-15T20:32:55+09:00"
-update = "2015-11-29T20:14:43+09:00"
+update = "2015-11-30T20:30:14+09:00"
 description = "同時多発テロ関連のブックマーク。"
 draft = false
 tags = ["security", "international", "politics"]
@@ -126,6 +126,14 @@ title = "同時多発テロ関連のブックマーク"
 - [Does ISIS really have nothing to do with Islam? Islamic apologetics carry serious risks. - The Washington Post](https://www.washingtonpost.com/news/acts-of-faith/wp/2015/11/18/does-isis-really-have-nothing-to-do-with-islam-islamic-apologetics-carry-serious-risks/)
 - [From Indonesia, a Muslim Challenge to the Ideology of the Islamic State - The New York Times](http://www.nytimes.com/2015/11/27/world/asia/indonesia-islam-nahdlatul-ulama.html)
 - [「イスラーム国」へのリクルート経路はモスクではなく家族と友人：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40715)
+- [岩瀬昇のエネルギーブログ 111．IS（「イスラム国」）の石油収入は？｜岩瀬昇のエネルギーブログ](http://ameblo.jp/nobbypapa/entry-12097431623.html) [^iwase]
+
+[^iwase]: 岩瀬昇さんの『[石油の「埋蔵量」は誰が決めるのか？](http://www.amazon.co.jp/exec/obidos/ASIN/B00OT5IZR2/baldandersinf-22/)』はオススメである。
+
+{{< fig-quote title="IS（「イスラム国」）の石油収入は？" link="http://ameblo.jp/nobbypapa/entry-12097431623.html" >}}
+<q>ところがこの一週間ほど、空爆対象が拡大し、油田地帯の生産設備および油田からの原油運搬タンクローリーへの空爆も行われるようになった。IS所有以外の原油運搬のタンクローリーの空爆被害はまだ出ていないが、タンクローリーの運転手がISの油田に行きたがらなくなっているので、オイルトレードは停止されるかもしれない。（筆者注：ISの収入源が絶たれるのみならず、域内市民社会への石油供給が不足することになろう）</q>
+{{< /fig-quote >}}
+
 
 [暗号関連の話題はこちら](remark/2015/paris-attacks-and-cipher.md)。
 
