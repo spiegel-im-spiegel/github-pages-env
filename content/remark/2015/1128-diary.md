@@ -1,6 +1,6 @@
 +++
 date = "2015-11-28T19:39:24+09:00"
-update = "2015-11-29T20:14:29+09:00"
+update = "2015-12-02T14:36:32+09:00"
 description = "DELL よ，お前もか / たしかに「プライバシーマーク」はクソだけど / Google は Android 端末を解除できる"
 draft = false
 tags = ["security", "cryptography", "risk", "pki", "x.509", "privacy"]
@@ -37,6 +37,9 @@ title = "週末スペシャル： DELL よ，お前もか"
 - [Dell、ルート証明書の脆弱性で対応表明　別の問題発覚 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1511/25/news055.html)
 - [DellのPCに不審なルート証明書、LenovoのSuperfishと同じ問題か - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1511/24/news048.html)
 - [「Windows Defender」、デルのルート証明書問題に対応 - ZDNet Japan](http://japan.zdnet.com/article/35074095/)
+- [デル、PC証明書脆弱性の影響範囲などのより詳細な情報を開示 ～32bit版も対応開始 - PC Watch](http://pc.watch.impress.co.jp/docs/news/20151201_733070.html)
+- [不注意で公開されたデジタル証明書により、なりすましが行われる - マイクロソフト セキュリティ アドバイザリ 3119884](https://technet.microsoft.com/ja-jp/library/security/3119884)
+    - [MSが証明書信頼リストを更新--デルのルート証明書問題に対応 - ZDNet Japan](http://japan.zdnet.com/article/35074332/)
 
 [Lenovo のとき](http://www.baldanders.info/spiegel/log2/000809.shtml)も書いたけど， PC ベンダ側がどう言い訳しようとも，これは純然たる「悪意」なの！
 

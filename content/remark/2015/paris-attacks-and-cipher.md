@@ -1,6 +1,6 @@
 +++
 date = "2015-11-21T19:02:46+09:00"
-update = "2015-11-24T22:08:23+09:00"
+update = "2015-12-02T14:36:45+09:00"
 description = "「同時多発テロ関連のブックマーク」から暗号・諜報関連の記事を切り出してこの記事で管理することにする。"
 draft = false
 tags = ["security", "international", "politics", "cryptography"]
@@ -53,6 +53,15 @@ title = "同時多発テロ関連のブックマーク（暗号関連）"
 
 {{< fig-quote title="Reflections on NSA Oversight, and a Prediction That NSA Authorities (and Oversight, and Transparency) Will Expand" link="https://www.lawfareblog.com/reflections-nsa-oversight-and-prediction-nsa-authorities-and-oversight-and-transparency-will-expand" lang="en" >}}
 <q>Two important lessons of the last dozen years are (1) the government will increase its powers to meet the national security threat fully (because the People demand it), and (2) the enhanced powers will be accompanied by novel systems of review and transparency that seem to those in the Executive branch to be intrusive and antagonistic to the traditional national security mission, but that in the end are key legitimating factors for the expanded authorities.</q>
+{{< /fig-quote >}}
+
+- [FBIによる令状なしの個人情報開示要求、実態が明らかに--あらゆる通信記録が対象 - ZDNet Japan](http://japan.zdnet.com/article/35074261/)
+
+{{< fig-quote title="FBIによる令状なしの個人情報開示要求、実態が明らかに--あらゆる通信記録が対象" link="http://japan.zdnet.com/article/35074261/" >}}
+<q>ニューヨーク州南部地区連邦地方裁判所のVictor Marrero判事は判決文の中で、FBIの見解は「極端であり、範囲を過度に拡大している」と述べている。<br>
+同判事はまた、Merrill氏に対する発言禁止命令の適用範囲が広すぎる点について、「米国憲法修正第1項（言論の自由）、および国民に対する政府の説明責任という両方の観点から、重大な問題をはらんでいる」との判断を示した。<br>
+NSLの発言禁止命令を完全に解くことに成功したのは、Merrill氏が初めてだ。<br>
+米国愛国者法（US Patriot Act）は、2001年9月11日の同時多発テロ事件から1カ月後に成立したときに、NSLの適用範囲を拡大した。</q>
 {{< /fig-quote >}}
 
 <div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4822283100/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51-pZ52JsUL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4822283100/baldandersinf-22/">セキュリティはなぜやぶられたのか</a></dt><dd>ブルース・シュナイアー 井口 耕二 </dd><dd>日経BP社 2007-02-15</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4881359967/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4881359967.09._SCTHUMBZZZ_.jpg"  alt="暗号の秘密とウソ"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797350997/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4797350997.09._SCTHUMBZZZ_.jpg"  alt="新版暗号技術入門 秘密の国のアリス"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4594070507/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4594070507.09._SCTHUMBZZZ_.jpg"  alt="チャイナ・ハッカーズ"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4105393022/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4105393022.09._SCTHUMBZZZ_.jpg"  alt="暗号解読―ロゼッタストーンから量子暗号まで"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4102159746/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4102159746.09._SCTHUMBZZZ_.jpg"  alt="宇宙創成〈上〉 (新潮文庫)"  /></a> </p>
