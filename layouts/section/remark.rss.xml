@@ -5,8 +5,8 @@
 	<id>tag:{{ .Site.Title }},{{ .Date.Format "2006-01-02" }}:/hugo</id>
 	<updated>{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</updated>
 	{{ with .Site.Params.description }}<subtitle>{{ . }}</subtitle>{{ end }}
-	{{ if .Site.Params.author.avatar }}<icon>{{ .Site.BaseURL }}{{ .Site.Params.author.avatar }}</icon>{{ end }}
-	{{ if .Site.Params.author.avatar }}<logo>{{ .Site.BaseURL }}{{ .Site.Params.author.avatar }}</logo>{{ end }}
+	{{ if .Site.Author.avatar }}<icon>{{ .Site.BaseURL }}{{ .Site.Author.avatar }}</icon>{{ end }}
+	{{ if .Site.Author.avatar }}<logo>{{ .Site.BaseURL }}{{ .Site.Author.avatar }}</logo>{{ end }}
 	<generator uri="http://gohugo.io/">Hugo {{ .Hugo.Version }}</generator>
 
 	{{ range first 10 .Data.Pages }}
@@ -23,7 +23,7 @@
 				{{ with .url }}<uri>{{ . }}</uri>{{ end }}
 			</author>
 			{{ partial "ccl-rss.html" .license }}
-		{{ else }}{{ with .Site.Params.author }}
+		{{ else }}{{ with .Site.Author }}
 			<author>
 				{{ with .name }}<name>{{ .}}</name>{{ end }}
 				{{ with .url }}<uri>{{ . }}</uri>{{ end }}
