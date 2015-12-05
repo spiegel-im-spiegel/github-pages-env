@@ -1,6 +1,6 @@
 +++
 date = "2015-11-15T20:32:55+09:00"
-update = "2015-11-30T20:30:14+09:00"
+update = "2015-12-05T17:12:35+09:00"
 description = "同時多発テロ関連のブックマーク。"
 draft = false
 tags = ["security", "international", "politics"]
@@ -89,6 +89,7 @@ title = "同時多発テロ関連のブックマーク"
 - [Islamist militants kill 19 in attack on hotel in Mali's capital | Reuters](http://www.reuters.com/article/2015/11/21/us-mali-attacks-idUSKCN0T90SK20151121)
 - [How ISIS uses and abuses Islam - Vox](http://www.vox.com/2015/11/18/9755478/isis-islam)
 - [チュニスで大統領護衛隊の車両に自爆テロ：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40700)
+- [カリフォルニア州サンバーナーディーノの銃乱射事件もグローバル・ジハードへの呼応か：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40737)
 
 ### Tweets
 
@@ -134,6 +135,8 @@ title = "同時多発テロ関連のブックマーク"
 <q>ところがこの一週間ほど、空爆対象が拡大し、油田地帯の生産設備および油田からの原油運搬タンクローリーへの空爆も行われるようになった。IS所有以外の原油運搬のタンクローリーの空爆被害はまだ出ていないが、タンクローリーの運転手がISの油田に行きたがらなくなっているので、オイルトレードは停止されるかもしれない。（筆者注：ISの収入源が絶たれるのみならず、域内市民社会への石油供給が不足することになろう）</q>
 {{< /fig-quote >}}
 
+- [ドイツ連邦情報局（BND）がサウジ体制の将来を危ぶむ異例の警告を出す：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40732)
+- [岩瀬昇のエネルギーブログ 114．サウジ王室で何が起こっているのか？｜岩瀬昇のエネルギーブログ](http://ameblo.jp/nobbypapa/entry-12102484894.html)
 
 [暗号関連の話題はこちら](remark/2015/paris-attacks-and-cipher.md)。
 
