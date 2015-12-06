@@ -84,6 +84,6 @@ title = "2015年10月の Flattr もしくは「Flattr × GitHub ＝ ♥」"
 
 [Flattr]: https://flattr.com/ "Flattr - Social microdonations"
 [flattr]: https://flattr.com/ "Flattr - Social microdonations"
-[SETI@home]: (https://flattr.com/thing/114786/timestamp/1443655861 "SETI@home - Flattr.com"
+[SETI@home]: https://flattr.com/thing/114786/timestamp/1443655861 "SETI@home - Flattr.com"
 [W3C Validator]: https://flattr.com/thing/65556/timestamp/1446043319 "W3C Validator - Flattr.com"
 [Maximus5/ConEmu]: https://flattr.com/thing/2002773/timestamp/1446121725 "Maximus5/ConEmu on GitHub - Flattr.com"
