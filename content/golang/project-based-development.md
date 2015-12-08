@@ -1,9 +1,10 @@
 +++
 date = "2015-09-28T20:38:45+09:00"
+update = "2015-12-08T15:44:37+09:00"
 description = "今回は gb を使ってプロジェクト・ベースで Golang のコードを管理してみる。"
 draft = false
-tags = ["golang", "engineering"]
-title = "プロジェクト・ベースの開発環境をつくる"
+tags = ["golang", "engineering", "tools", "gb"]
+title = "gb でプロジェクト・ベースの開発環境をつくる"
 
 [author]
   avatar = "/images/avatar.jpg"

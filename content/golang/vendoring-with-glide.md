@@ -1,8 +1,9 @@
 +++
 date = "2015-12-07T23:30:21+09:00"
+update = "2015-12-08T12:57:44+09:00"
 description = "Go 言語 1.5 の vendoring 機能をサポートするツールが glide である。"
 draft = false
-tags = ["golang", "engineering", "vendoring", "package", "tools", "glide"]
+tags = ["golang", "engineering", "vendoring", "package", "tools", "glide", "gb"]
 title = "Glide で Vendoring"
 
 [author]
@@ -208,6 +209,15 @@ func main() {
 }
 ```
 
+当然ながら，このままビルドしても外部パッケージがないため失敗する。
+
+```
+C:\workspace\vdemo2>go install ./...
+src\julian-day\julian-day.go:10:2: cannot find package "github.com/spiegel-im-spiegel/astrocalc/modjulian" in any of:
+        C:\Go\src\github.com\spiegel-im-spiegel\astrocalc\modjulian (from $GOROOT)
+        C:\workspace\vdemo2\src\github.com\spiegel-im-spiegel\astrocalc\modjulian (from $GOPATH)
+```
+
 ## 依存関係を定義する
 
 開発環境ができたら，パッケージのフォルダ（今回は `src/julian-day`）に移動し， `glide create` コマンドで依存関係を定義する `glide.yaml` ファイルを生成する。
@@ -250,7 +260,7 @@ import:
   #  vcs: git
 ```
 
-これに [astrocalc]/modjulian の記述を追加する。
+これに [astrocalc]/modjulian パッケージの記述を追加する。
 
 ```yaml
 # Glide YAML configuration file
@@ -265,9 +275,10 @@ import:
     version: 0.1.0
 ```
 
-これで [astrocalc]/modjulian パッケージの v0.1.0 を指定できた[^ver]。
+これで `go get` コマンドと同じように， `package` のパスから自動的に repository を判別してパッケージを取得できる。
+`go get` コマンドと異なるのは， `glide.yaml` ファイルで指定した `version` 情報から適切な revision を選択できる点である[^semv]。
 
-[^ver]: `version` は省略可能。省略した場合は repository の最新 revision を取得する。
+[^semv]: 今回であれば repository の [`v0.1.0`](https://github.com/spiegel-im-spiegel/astrocalc/releases/tag/v0.1.0) タグに対応する revision を選択する。バージョンの記述形式は `package.json` と同じように記述でき，バージョンの解釈は [Semantic Versioning](http://semver.org/) に従っている。ちなみに revision ID を直接指定することもできる。
 
 また，以下のように VCS (Version Control System) の種類[^vcs] と URI を明示的に指定することもできる（`vcs` と `repo` は必ずセットで指定する）。
 
@@ -288,14 +299,16 @@ import:
     version: 0.1.0
 ```
 
-たとえばプライベートな bare repository からインポートする場合には，この方法が有効である。
+たとえば，プライベートな bare repository からインポートする場合には，この方法が有効である。
 
 ## パッケージの取得とビルド
 
-パッケージの取得には `glide install` コマンドを起動する。
+パッケージの取得には `glide up` コマンドを起動する[^ins]。
+
+[^ins]: コマンドとしては `glide install`， `glide update` および `glide up` があるが，どれも処理の中身は同じらしい。
 
 ```
-C:\workspace\vdemo2\src\julian-day>glide install
+C:\workspace\vdemo2\src\julian-day>glide up
 [INFO] Fetching updates for github.com/spiegel-im-spiegel/astrocalc.
 [INFO] Detected semantic version. Setting version for github.com/spiegel-im-spiegel/astrocalc to v0.1.0.
 [INFO] Package github.com/spiegel-im-spiegel/astrocalc manages its own dependencies
@@ -326,11 +339,38 @@ C:\WORKSPACE\VDEMO2
                                 modjulian_test.go
 ```
 
-`go get` コマンドと同じく，パッケージのパスから自動的に repository を判別して clone する。
-`go get` コマンドと異なる点は， `glide.yaml` ファイルで指定した `version` 情報から適切な revision を選択して取得している点である[^semv]。
+ちなみに，まだ `glide.yaml` ファイルへパッケージを定義していない状態なら `glide get` コマンドを使って `glide.yaml` ファイルへの記述とパッケージの導入を一度に済ませられる。
 
-[^semv]: このバージョンの解釈は [Semantic Versioning](http://semver.org/) に従っている。またバージョンの記述形式は `package.json` と同じようにできる。
+```
+C:\workspace\vdemo2\src\julian-day>glide get github.com/spiegel-im-spiegel/astrocalc/modjulian
+[INFO] Preparing to install 1 package.
+[INFO] Package github.com/spiegel-im-spiegel/astrocalc/modjulian manages its own dependencies
+[INFO] Project relies on 1 dependencies.
+```
 
+このときの `glide.yaml` ファイルの内容は以下の通り。
+
+```yaml
+package: main
+import:
+- package: github.com/spiegel-im-spiegel/astrocalc
+  subpackages:
+  - /modjulian
+```
+
+この場合は（`version` 指定がないため）パッケージの最新 revision が導入される。
+Revision を制御したければ，以下のように `glide.yaml` ファイルを修正して `glide up` し直せばよい。
+
+```yaml
+package: julian-day
+import:
+- package: github.com/spiegel-im-spiegel/astrocalc
+  version: 0.1.0 # Version control
+  subpackages:
+  - /modjulian
+```
+
+これでビルドが可能になった。
 ではビルドしようかな。
 
 ```
@@ -363,7 +403,7 @@ MJD = 57023日
 たとえば， [ATOM ベースの開発環境]({{< relref "golang/golang-with-atom.md" >}})は [glide] と相性がいい[^gov]。
 あと，（多少強引な手を使っているが[^tci]） [Travis CI](https://travis-ci.org/) のような CI (Continuous Integration) と組み合わせることも難しくない。
 
-[^gov]: 残念ながら，「[パッケージの依存状況の視覚化]({{< relref "golang/package-visualization-tool.md" >}})」ツールは vendoring 機能に対応していないため上手く表示できない。なお， [glide] では `glide list` および `glide tree` で依存パッケージを見ることができる。
+[^gov]: 残念ながら，「[パッケージの依存状況の視覚化]({{< relref "golang/package-visualization-tool.md" >}})」ツールは vendoring 機能に対応していないため上手く表示できない。なお， [glide] では `glide list` および `glide tree` で依存パッケージを見ることができる，らしいのだが今回の環境だとうまくいかないなぁ。
 [^tci]: [glide] の [`.travis.yml`](https://github.com/Masterminds/glide/blob/master/.travis.yml) や [`Makefile`](https://github.com/Masterminds/glide/blob/master/Makefile) を参照。
 
 こう考えると [glide] は[前に紹介]({{< relref "golang/project-based-development.md" >}})した [gb](http://getgb.io/) よりも筋がいいツールといえるかもしれない。
