@@ -19,7 +19,7 @@ if #arg > 1 then
 		else
 			if #arg > 3 then
 				path = hugolib.pathjoin(section, arg[2], arg[3], arg[4])
-			else if #arg > 2 then
+			elseif #arg > 2 then
 				path = hugolib.pathjoin(section, year, arg[2], arg[3])
 			else
 				path = hugolib.pathjoin(section, year, os.date("%m"), arg[2])
