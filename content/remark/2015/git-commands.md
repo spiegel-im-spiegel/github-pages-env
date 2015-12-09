@@ -1,7 +1,7 @@
 +++
-date = "2015-12-09T15:10:27+09:00"
+date = "2015-12-09T20:14:59+09:00"
 description = "git 各コマンドに関する覚え書き。思い出したら追記予定。"
-draft = true
+draft = false
 tags = ["git", "tools"]
 title = "あまり使わないけど，たまに使おうとすると忘れてる Git コマンド集"
 
@@ -86,17 +86,26 @@ $ git rm subdir
 
 ### Remote Repository への URI を変更する
 
+Remote repository （通常は `origin`）の接続先 URI を変更するには以下のコマンドを実行する。
+
 ```bash
 $ git remote set-url origin new_repo.git
 ```
 
 ### Remote Repository との接続を追加する
 
+新たに remote repository との接続を追加する場合には以下のコマンドを実行する。
+
 ```bash
 $ git remote add upstream up_repo.git
 ```
 
+ここでは追加した remote repository に `upstream` と名前をつけている。
+たとえば fork した repository で作業する際に fork 元の repository の変更も取り込みたい場合などに有効である。
+
 ### Remote Repository との接続を削除する
+
+Remote repository との接続を削除する場合には以下のコマンドを実行する。
 
 ```bash
 $ git remote rm upstream up_repo.git
@@ -104,7 +113,7 @@ $ git remote rm upstream up_repo.git
 
 ## Repository の分離
 
-Repository の特定のディレクトリ `subdir` を commit tree を維持したまま分離したい場合。
+Repository の特定のディレクトリ `subdir` を commit tree を維持したまま分離したいときの手順。
 
 まず元の repository `org_repo.git` を clone する。
 
@@ -114,7 +123,7 @@ $ git clone org_repo.git
 
 Clone 元の bare repository がない場合にはローカルの repository を丸ごとどっかにコピーすればよい（commit 済みであること）。
 
-で， clone した repository 内に入って以下のコマンドを入力する。
+で， clone した repository 内に入って `git filter-branch` コマンドを実行する。
 
 ```bash
 $ cd org_repo
@@ -123,7 +132,7 @@ Rewrite **************************************** (999/999)
 Ref 'refs/heads/master' was rewritten
 ```
 
-このとき `subdir` 以下のファイル・ディレクトリが repository のトップ・ディレクトリに移動するので注意が必要。
+このとき `subdir` 以下のファイル・ディレクトリが repository のトップ・ディレクトリに移動するので注意が必要である。
 また，オリジナルの commit tree が `refs/original/refs/heads/master` として残っているので以下のコマンドで削除する。
 
 ```bash
@@ -141,12 +150,33 @@ $ git push -u origin master
 
 [^sf]: `-f` オプションを付けて強制的に push することは可能。ただしこれは（rebase と同じで）歴史の改変になるため取り扱いに注意。
 
-## ブックマーク
+## Git に関するブックマーク
 
+ついでなので，ローカルで溜め込んでいた [git] に関するブックマークを挙げておく。
+
+- [Git for Windows](https://git-for-windows.github.io/)
+- [Git Extensions](http://gitextensions.github.io/)
+- [【Git入門者向け】イメージで理解するGitコマンド事始め | きのこる庭](http://kinokoru.jp/archives/1017)
+- [git pull と git pull –rebase の違いって？図を交えて説明します！ | KRAY Inc](http://kray.jp/blog/git-pull-rebase/)
+    - [Git - pull は本当に fetch + merge なの？ - Qiita](http://qiita.com/Teloo/items/95a860ae276b49edb040)
+- [Gitのこれやめて！リスト - Qiita](http://qiita.com/doilux/items/b5a9abd95ac91e848a5f)
+- [githubからclone時にerror setting certificate verify locationsがでる | MemeTodo](http://meme.efcl.info/2011/07/gitcloneerror-setting-certificate.html) : うちでもなっていろいろ大変だった
+- [Git LFSが1.0になってGitHubで使えるようになったので試してみた - Qiita](http://qiita.com/kiida/items/0d51c43ac73f14f09f5a)
+- [git-lfsは大容量のファイルを扱うもので多量のファイルを扱うものではない - Qiita](http://qiita.com/crifff/items/32ffc824f69ed5632217)
+- [gitで重いリポジトリをcloneするとき - webネタ](http://r-h.hatenablog.com/entry/2013/12/07/093423) （[Qiita 版](http://qiita.com/butchi_y/items/cc0fe50acc47c1e3ab32)）
 - [Git - サブモジュール](https://git-scm.com/book/ja/v2/Git-%E3%81%AE%E3%81%95%E3%81%BE%E3%81%96%E3%81%BE%E3%81%AA%E3%83%84%E3%83%BC%E3%83%AB-%E3%82%B5%E3%83%96%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB)
 - [Gitのsubmoduleをお手軽に削除する - Steel Dragon 14106](http://raimon49.github.io/2015/04/04/git-submodule-deinit.html)
 - [Gitリポジトリ中のサブディレクトリを別のリポジトリにする - 北海道苫小牧市出身のPGが書くブログ](http://d.hatena.ne.jp/hiratara/20091112/1258023732)
 - [Gitリポジトリのディレクトリ構成を変えて別リポジトリにする - ごずろぐ](http://gozuk16.hatenablog.com/entry/2015/04/24/145714)
 - [Git リポジトリに上がっているファイルを履歴ごと消すには？ - Qiita](http://qiita.com/go_astrayer/items/6e39d3ab16ae8094496c)
+
+### Git-flow and GitHub-flow
+
+- [GitHub Flow – Scott Chacon](http://scottchacon.com/2011/08/31/github-flow.html)
+- [GitHub Flow (Japanese translation)](https://gist.github.com/Gab-km/3705015)
+- [A successful Git branching model » nvie.com](A successful Git branching model » nvie.com)
+- [git-flow cheatsheet](git-flow cheatsheet) （日本語）
+- [git flowとgithub flowざっくりまとめ | KentaKomai Blog](http://komaken.me/blog/2013/09/09/git-flow%E3%81%A8github-flow%E3%81%96%E3%81%A3%E3%81%8F%E3%82%8A%E3%81%BE%E3%81%A8%E3%82%81/)
+- [GitHub初心者はForkしない方のPull Requestから入門しよう | qnyp blog](http://blog.qnyp.com/2013/05/28/pull-request-for-github-beginners/)
 
 [git]: https://git-scm.com/ "Git"
