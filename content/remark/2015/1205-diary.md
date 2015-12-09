@@ -1,5 +1,6 @@
 +++
 date = "2015-12-06T00:22:47+09:00"
+update = "2015-12-09T12:14:56+09:00"
 description = "「はやぶさ2」地球 Swing-by / GnuPG 2.1.10 released / Go 1.5.2 Released / 11月の Flattr / 機械創作でクリエイターは失業するか / 新刊小説の滅亡"
 draft = false
 tags = ["astronomy", "jaxa", "hayabusa2", "swing-by", "security", "cryptography", "openpgp", "gnupg", "tools", "golang", "flattr", "intelligence", "book"]
@@ -166,6 +167,7 @@ IBM の [Watson](http://www.ibm.com/smarterplanet/jp/ja/ibmwatson/) がどんな
 決められたコードに従って「創作」しているだけの職業クリエイターこそが人工知能に排除される対象である。
 
 - [自動作曲と著作権](http://magarchive.halfmoon.jp/vector/chaos/copyright.html)
+- [自作のビデオに音楽をつけたい人、作曲サービスJukedeckが著作権のない曲を一瞬で作ってくれる | TechCrunch Japan](http://jp.techcrunch.com/2015/12/08/20151207jukedeck/)
 
 ## 新刊小説の滅亡{#book}
 
