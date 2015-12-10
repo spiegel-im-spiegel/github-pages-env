@@ -1,5 +1,6 @@
 +++
 date = "2015-12-09T20:14:59+09:00"
+update = "2015-12-10T13:32:34+09:00"
 description = "git 各コマンドに関する覚え書き。思い出したら追記予定。"
 draft = false
 tags = ["git", "tools"]
@@ -51,7 +52,7 @@ $ git clone --recursive repo.git
 ```
 
 で初期化できる。
-2回目以降， submodule の参照ポイントが変更された場合は
+これ以降， remote 側から fetch/maerge した際に submodule の参照ポイントが変更されていた場合は
 
 ```bash
 $ git submodule update --init --recursive
