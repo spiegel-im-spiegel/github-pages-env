@@ -1,6 +1,6 @@
 +++
 date = "2015-09-15T21:00:13+09:00"
-update = "2015-11-06T14:30:00+09:00"
+update = "2015-12-12T12:32:44+09:00"
 description = "ATOM Editor に関するメモ。 Windows 環境が前提になっているのであしからず。"
 draft = false
 tags = ["atom", "editor", "tools"]
@@ -227,8 +227,8 @@ trim_trailing_whitespace = false
 - `end_of_line` では改行コードを指定する。 `lf`, `cr`, `crlf` から選択できる。
 - `indent_style` はインデント（タブ）のスタイルを指定する。 `tab` または `space` を指定する。 `space` にすると，いわゆる「ソフトタブ」になる。
 - `indent_size` はタブの幅を指定する。 `indent_style` と `indent_size` は常にセットで指定すると間違いがない。
-- `trim_trailing_whitespace` を `true` にすると行末の空白文字を削除してくれる。残念なことに [ATOM] の場合は，いわゆる「全角空白」を空白文字と見なしてくれない。まぁ全角空白を空白文字と見なす実装のほうが少ないけど。
-- `insert_final_newline` を `true` にするとファイルの末尾が改行文字ではない場合に補完してくれる。でもこれって使いどころが難しいのよね。
+- `trim_trailing_whitespace` を `true` にすると行末の空白文字を削除してくれる。残念なことに [ATOM] の場合は，いわゆる「全角空白」を空白文字と見なしてくれない。まぁ全角空白を空白文字と見なす実装のほうが少ないけど。ただし現在は機能していない。
+- `insert_final_newline` を `true` にするとファイルの末尾が改行文字ではない場合に補完してくれる。ただし現在は機能していない。
 
 [EditorConfig] は多くのテキスト・エディタや統合開発環境に対応していて，もちろん [ATOM] にも対応パッケージがある。
 
