@@ -1,6 +1,6 @@
 +++
 date = "2015-11-15T20:32:55+09:00"
-update = "2015-12-05T17:12:35+09:00"
+update = "2015-12-13T18:56:57+09:00"
 description = "同時多発テロ関連のブックマーク。"
 draft = false
 tags = ["security", "international", "politics"]
@@ -90,6 +90,7 @@ title = "同時多発テロ関連のブックマーク"
 - [How ISIS uses and abuses Islam - Vox](http://www.vox.com/2015/11/18/9755478/isis-islam)
 - [チュニスで大統領護衛隊の車両に自爆テロ：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40700)
 - [カリフォルニア州サンバーナーディーノの銃乱射事件もグローバル・ジハードへの呼応か：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40737)
+- [「シリアをめぐる闘争」の激化は再び「東方問題」を呼び覚ます：池内恵 | 中東―危機の震源を読む | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40755)
 
 ### Tweets
 
