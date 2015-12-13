@@ -1,5 +1,5 @@
 +++
-date = "2015-12-10T15:36:20+09:00"
+date = "2015-12-13T19:57:29+09:00"
 description = "description"
 draft = true
 tags = ["golang", "programming", "type"]
