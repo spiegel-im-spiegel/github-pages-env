@@ -1,6 +1,6 @@
 +++
 date = "2015-12-06T00:22:47+09:00"
-update = "2015-12-09T12:14:56+09:00"
+update = "2015-12-14T12:12:01+09:00"
 description = "「はやぶさ2」地球 Swing-by / GnuPG 2.1.10 released / Go 1.5.2 Released / 11月の Flattr / 機械創作でクリエイターは失業するか / 新刊小説の滅亡"
 draft = false
 tags = ["astronomy", "jaxa", "hayabusa2", "swing-by", "security", "cryptography", "openpgp", "gnupg", "tools", "golang", "flattr", "intelligence", "book"]
@@ -51,6 +51,14 @@ Swing-by 自体はうまくいったようだが，今のところ所定の軌�
 うまくいくといいね。
 
 - [Back from the Brink: Akatsuki Returns to Venus | The Planetary Society](http://www.planetary.org/blogs/guest-blogs/2015/1204-akatsuki-returns-to-venus.html)
+
+### 12月14日 追記
+
+地球 swing-by 後の「はやぶさ2」の軌道計算が完了。
+予定通り航行しているようだ。
+おめでとう！
+
+- [JAXA | 小惑星探査機「はやぶさ2」の地球スイングバイ実施結果について](http://www.jaxa.jp/press/2015/12/20151214_hayabusa2_j.html)
 
 ## GnuPG 2.1.10 released{#gnupg}
 
