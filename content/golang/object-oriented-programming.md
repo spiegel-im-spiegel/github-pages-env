@@ -329,8 +329,8 @@ func (err *ErrorInfo1) Errno() int {
 }
 
 func main() {
-	var err1 ErrorInfo1
-	fmt.Println(err1.Error())
+	var err ErrorInfo1
+	fmt.Println(err.Error())
 }
 ```
 
@@ -370,8 +370,8 @@ func (err *ErrorInfo2) Errno() int {
 }
 
 func main() {
-	var err1 ErrorInfo2
-	fmt.Println(err1.Error())
+	var err ErrorInfo2
+	fmt.Println(err.Error())
 }
 ```
 
