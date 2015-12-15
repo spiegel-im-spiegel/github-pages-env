@@ -281,6 +281,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [goのmgoでfindするときの処理 - Qiita](http://qiita.com/enokidoK/items/a3aff4c05e494b004ef8)
 - [Go と reflect と generate - Qiita](http://qiita.com/naoina/items/7966f73f3a807b3d25d6)
 - [Go言語でバイトニックソート実装してみた - Qiita](http://qiita.com/nyamadandan/items/2c82011801b148c98e52)
+- [Windows+GoでNFC/Felicaにアクセスしてみた - Qiita](http://qiita.com/mau4x/items/424fe7964e70a3a99965)
 
 ### コマンドライン・ツール
 
