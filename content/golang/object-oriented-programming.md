@@ -1,5 +1,6 @@
 +++
 date = "2015-12-15T21:19:58+09:00"
+update = "2015-12-16T17:10:12+09:00"
 description = "Go 言語がいわゆる「オブジェクト指向言語」と言えるかどうかについては色々とあるようだが，オブジェクト指向プログラミングを助けるための仕掛けはいくつか存在する。今回はその中の type キーワードを中心に解説していく。"
 draft = false
 tags = ["golang", "object-oriented", "programming", "type"]
@@ -47,7 +48,7 @@ string は不変（immutable）な値で，その実体は byte 配列である�
 
 [^rn]: rune は Unicode 文字の符号位置（code point）を示す型で文字そのものを表現する。 string と rune の関係については「[String と Rune]({{< relref "golang/string-and-rune.md" >}})」を参照のこと。
 
-さらにこれらの基本型を束ねた構造体 struct を定義できる。
+さらにこれらの基本型を集約した構造体 [struct] を定義できる。
 
 ```go
 package main
@@ -63,7 +64,7 @@ func main() {
 }
 ```
 
-ちなみに構造体のフィールド（field）には構造体を含めて入れ子にすることもできる。
+ちなみに構造体のフィールド（field）には構造体を含めることができ，入れ子構造にすることもできる。
 
 この他に配列（array/slice）や連想配列（map）あるいは関数値（function value）といったものもあるが，今回は踏み込まない[^slc]。
 
@@ -109,7 +110,7 @@ type Msgs []string
 
 [type] キーワードを使って型に名前を付ける利点は3つある。
 
-1. 名前を付けることでコードの可読性を上げる（オブジェクト指向設計では名前はとても重要）
+1. 名前を付けることでコードの可読性を上げる（オブジェクト指向設計では名前がとても重要）
 2. 再利用性の向上（特に構造体の場合）
 3. 型に関数を関連付けることができる。
 
@@ -120,7 +121,7 @@ type Msgs []string
 型に関数を関連付けるには以下のように記述する。
 
 ```go
-func (v *Vertex) String() string {
+func (v Vertex) String() string {
 	return fmt.Sprint("X =", v.X, ", Y =", v.Y)
 }
 ```
@@ -129,7 +130,7 @@ func (v *Vertex) String() string {
 内部処理としては
 
 ```go
-func String(v *Vertex) string {
+func String(v Vertex) string {
 	return fmt.Sprint("X =", v.X, ", Y =", v.Y)
 }
 ```
@@ -147,19 +148,19 @@ type Vertex struct {
 	Y int
 }
 
-func (v *Vertex) String() string {
+func (v Vertex) String() string {
 	return fmt.Sprint("X =", v.X, ", Y =", v.Y)
 }
 
 func main() {
-	vertex := &Vertex{X: 1, Y: 2}
+	vertex := Vertex{X: 1, Y: 2}
 	fmt.Println(vertex.String())
 }
 ```
 
 のようにピリオドで連結して記述する[^pr]。
 
-[^pr]: ちなみに [`fmt`].`Print` などでは引数が `String()` を持っていることを期待し，この関数の出力結果をデフォルト書式にしている。したがって `fmt.Println(vertex.String())` と `fmt.Println(vertex)` は同じ結果になる。
+[^pr]: ちなみに [`fmt`].`Print` などでは引数の型が `String()` を持っていることを期待し，この関数の出力結果をデフォルト書式にしている。したがって `fmt.Println(vertex.String())` と `fmt.Println(vertex)` は同じ結果になる。
 
 構造体そのものには関数を付与できない[^mt]。
 たとえば
@@ -193,7 +194,9 @@ invalid receiver type *struct { X int; Y int } (struct { X int; Y int } is an un
 
 [^mt]: 他にも基本型や他パッケージで定義されている型に関数を追加することはできない。
 
-[Go 言語]には class キーワードはないが， [type] キーワードを使うことで，名前と属性と操作を持つクラスを記述することができる。
+[Go 言語]には class キーワードはないが， [type] キーワードを使うことで，名前と属性と操作を持つクラスを記述することができる[^cls]。
+
+[^cls]: クラスは名前と属性と操作の3つの要素で構成されている。名前は他クラスと識別できるものを1個。属性と操作は0個以上存在する。 [Go 言語]では空のフィールドの [struct] を定義することにより0個の属性を持つクラスを構成できる。
 
 ## 汎化・特化と処理の委譲
 
@@ -203,17 +206,19 @@ invalid receiver type *struct { X int; Y int } (struct { X int; Y int } is an un
 2. 関連[^c2]（包含または has-a 関係）
 
 [^c1]: 言わずもがなだが，サブクラスから見たスーパークラスが「汎化」でその逆が「特化」である。
-[^c2]: 関連には更に集約と複合があるが今回は踏み込まない。
+[^c2]: 関連は更に集約と複合に分類できるが今回は踏み込まない。
 
 このうち関連についてはこれまで説明した方法で実現できるが，汎化・特化は表現できない。
 そこで以下の機能を使って汎化・特化を実現する。
 
 ### 振る舞いのみを定義した型
 
-[interface] を使うと型の振る舞いのみを記述することができる。
+[interface] を使うと振る舞いのみを定義した型を表現することができる。
 
 [interface] で定義された型で最もよく目にするのは [error] だろう。
 [error] は以下のように定義できる[^er1]。
+
+[^er1]: [error] は組み込み型なので，実際にこのような定義が標準パッケージにあるわけではない。 [error] について詳しくは「[エラー・ハンドリングについて]({{< relref "golang/error-handling.md" >}})」を参照のこと。
 
 ```go
 type error interface {
@@ -224,14 +229,12 @@ type error interface {
 つまり [error] は「string 型を返す `Error()` 関数」のみが定義されている。
 逆に言うと「string 型を返す `Error()` 関数」を持つ全ての型は [error] の一種（つまり is-a 関係）であると見なすことができる[^dt]。
 
+[^dt]: [Go 言語]では Java の implement のような継承を明示するキーワードはない。記述された振る舞いからクラス関係を決定する方法を「[ダック・タイピング（duck typing）](https://en.wikipedia.org/wiki/Duck_typing)」と呼ぶ。ダック・タイピングの由来は「[ダック・テスト（duck test）](https://en.wikipedia.org/wiki/Duck_test)」だそうで，ダック・テストとは “If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.” と帰納法的に対象を推測する手法を指すらしい。ダック・タイピングのメリットのひとつは多重継承で発生する様々な問題（名前の衝突や菱形継承など）を気にする必要がない点である。
+
 たとえば
 
 ```go
 package os
-
-import (
-	"errors"
-)
 
 // PathError records an error and the operation and file path that caused it.
 type PathError struct {
@@ -245,25 +248,21 @@ func (e *PathError) Error() string { return e.Op + " " + e.Path + ": " + e.Err.E
 
 と定義される [`os`].`PathError` は [error] の一種である。
 
-[interface] 型では振る舞いのみで具体的な実装を含まないため，多態性（polymorphism）を持たせた記述が可能になる[^if]。
-また， [interface] 型も [type] キーワードで名前を付けることができ，他の型と同じように扱うことができる。
+[interface] も [type] キーワードで名前を付けることができ，他の型と同じように扱うことができる。
+さらに [interface] で定義した型は振る舞いのみで具体的な実装を含まないため，多態性を持たせた記述が可能になる[^if]。
 
-[^er1]: [error] は組み込み型なので，実際にこのような定義が標準パッケージにあるわけではない。 [error] について詳しくは「[エラー・ハンドリングについて]({{< relref "golang/error-handling.md" >}})」を参照のこと。
-[^dt]: [Go 言語]では Java の implement のようなものはない。記述された振る舞いからクラス関係を決定する方法を「[ダック・タイピング（duck typing）](https://en.wikipedia.org/wiki/Duck_typing)」と呼ぶ。ダック・タイピングとは「[ダック・テスト（duck test）](https://en.wikipedia.org/wiki/Duck_test)」に由来する言葉だそうで，ダック・テストとは “If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.” と帰納法的に対象を推測する手法を指すらしい。
-[^if]: たとえば `interface{}` と記述すればあらゆる型を含むことになる。これを利用して [`fmt`].`Print` は `func Print(a ...interface{}) (n int, err error) { ... }` と定義されている。
+[^if]: たとえば `interface{}` と記述すればあらゆる型を含むことになる。これを利用して [`fmt`].`Print` は `func Print(a ...interface{}) (n int, err error) { ... }` と定義されている。ちなみに [Go 言語]にはいわゆる[「総称型」はサポートされていない](https://golang.org/doc/faq#generics)。
 
 ### 型の埋め込み
 
 もうひとつの汎化・特化の機能が型の埋め込み（embed）である。
+構造体や [interface] には別の型を埋め込むことができる。
 
 たとえば [`io`].`ReadWriter` は以下のように `Reader` および `Writer` を埋め込んでいる。
+（このときの `Reader` および `Writer` を「埋め込みインタフェース（enbedding interface）」と呼ぶ）
 
 ```go
 package io
-
-import (
-	"errors"
-)
 
 // Implementations must not retain p.
 type Reader interface {
@@ -282,8 +281,8 @@ type ReadWriter interface {
 }
 ```
 
-これによって `ReadWriter` は `Read()` および `Write()` を自身の関数のように扱うことができる。
-この場合も `ReadWriter` は `Reader` および `Writer` の一種（つまり is-a 関係）であると見なすことができる。
+これによって `ReadWriter` は `Read()` および `Write()` を自身の振る舞いのように扱うことができる。
+この場合も `ReadWriter` は `Reader` および `Writer` の一種であると見なすことができる。
 
 同様に [`bufio`].`ReadWriter` についても
 
@@ -303,12 +302,12 @@ func NewReadWriter(r *Reader, w *Writer) *ReadWriter {
 }
 ```
 
-と実装されていて， [`bufio`] の `Reader` および `Writer` を埋め込み，これらの型の一種として実装されている。
+と実装されていて， [`bufio`] の `Reader` および `Writer` を埋め込み，これらの型の一種として実装されている（このときの `Reader` および `Writer` を「埋め込みフィールド（enbedded interface）」または「匿名フィールド（anonymous interface）」と呼ぶ）。
 なお， [`bufio`].`ReadWriter` は [`io`].`ReadWriter` の一種として機能している点にも注目してほしい。
 
 ### 関数のオーバーライドと処理の委譲
 
-[error] を使って以下のコードを書いてみる。
+では，今まで述べたことを使って以下のコードを書いてみる。
 
 ```go
 package main
@@ -330,18 +329,26 @@ func (err *ErrorInfo1) Errno() int {
 	return 1
 }
 
+func Action() error {
+	err := &ErrorInfo1{}
+	return err
+}
+
 func main() {
-	var err ErrorInfo1
-	fmt.Println(err.Error())
+    if err := Action(); err != nil {
+		fmt.Println(err)
+        return
+	}
+    fmt.Println("Normal End")
 }
 ```
 
+[error] の拡張として `ErrorInfo` を定義する。
 `ErrorInfo` では [error] を埋め込み，さらに `Errno()` を追加している。
 これを実装したのが `ErrorInfo1` である。
 したがって実行結果は “`Error Information: 1`” が出力される。
-ここまでは今まで説明した通り。
 
-次に `ErrorInfo1` を埋め込んだ `ErrorInfo2` を追加してみる。
+次に `ErrorInfo1` のバリエーションとして `ErrorInfo2` を追加してみよう。
 
 ```go
 package main
@@ -371,25 +378,41 @@ func (err *ErrorInfo2) Errno() int {
 	return 2
 }
 
+func Action() error {
+	err := &ErrorInfo2{}
+	return err
+}
+
 func main() {
-	var err ErrorInfo2
-	fmt.Println(err.Error())
+    if err := Action(); err != nil {
+		fmt.Println(err)
+        return
+	}
+    fmt.Println("Normal End")
 }
 ```
 
-`Error()` はそのまま使い回したいが `Errno()` では異なる値を出力したい，と考えた。
+`ErrorInfo2` では `Error()` は `ErrorInfo1` のものをそのまま使い回したいが `Errno()` では異なる値を出力したい，と考えた。
 実行結果として “`Error Information: 2`” が出力されることを期待したが，実際には前回と同じ “`Error Information: 1`” が出力される。
 
-通常，型の埋め込みによって関数名が衝突する場合は型と直接関連付けられた関数が優先的に呼ばれる。
-上のコードでは `ErrorInfo2` と関連付けられた `Error()` がないため `ErrorInfo1` と関連付けられた `Error()` が起動するが， その関数の中で呼ばれる `Errno()` は `ErrorInfo2` と関連付けられた関数ではなく `ErrorInfo1` と関連付けられた関数が起動する。
+埋め込みフィールド（`ErrorInfo1`）の関数の名前が埋め込みを行った型（`ErrorInfo2`）の名前と衝突する場合は埋め込みを行った型のほうが優先的される[^ovr] が，これは C++ や Java などにある仮想関数のオーバーライドとは少し異なる。
 
-これは [Go 言語]では関数の呼び出しが「委譲」として機能しているためである。
-C++ 言語などでは関数に virtual 修飾子を使うことでオーバーライドをコントロールできるが[^dlg]， [Go 言語]ではこのような仕掛けがないため，呼ばれた関数は常に委譲として機能する。
+[^ovr]: 複数の型を埋め込んでいる場合，埋め込みフィールド間で名前が衝突しているフィールドや関数を使おうとするとコンパイルエラーになる。この場合は `err.ErrorInfo1.Error()` のように型を明示して回避できる。
 
-[^dlg]: 逆に Java では，関数は常にオーバーライドされる可能性がある。これを抑止するために final 修飾子を付加する。
+上のコードでは `ErrorInfo2` と直接関連付けられた `Error()` がないため `ErrorInfo1` の `Error()` が呼ばれるが，その関数の中で呼ばれる `Errno()` は `ErrorInfo2` と関連付けられた関数ではなく `ErrorInfo1` と関連付けられた関数になる。
 
-上の例はクラス設計からして明らかにダメダメなのだが，ポイントはサブクラスから `Errno()` 関数を上書きすることでスーパークラスの `Error()` 関数の処理を書き換えようとした点にある。
-継承[^ih] の実装で一番よくあるミスがこのカプセル化の破れで， [Go 言語]の場合は敢えて移譲を強制することで実装上の不具合が発生するのを回避しようとしているように見える。
+{{< fig-img src="https://farm6.staticflickr.com/5804/23151473894_e23789de66_o.png" title="delegation" link="https://www.flickr.com/photos/spiegel/23151473894/" >}}
+
+これは [Go 言語]では埋め込みフィールドの関数呼び出しが「委譲」として機能しているためである[^ef]。
+たとえば C++ 言語では virtual 修飾子を付与して仮想関数化することで意図的にオーバーライドできるが[^dlg]， [Go 言語]ではこのような仕掛けがないため，呼ばれた関数は常に委譲として機能する。
+
+[^ef]: [Go 言語]的には埋め込みフィールドはフィールドのバリエーションのひとつにすぎないため，動作も通常のフィールドが持つ関数を呼び出した場合と変わらない。そういう意味では構造体への埋め込みは，見かけ上は「is-a 関係」でも，実質的には「has-a 関係」に近いと言えるかもしれない。
+[^dlg]: 逆に Java では関数は常に仮想関数として機能しオーバーライドされる可能性がある。これを抑止するためには final 修飾子を付加する。
+
+上の例はクラス構成からして明らかにダメダメなのだが，今回のポイントはサブクラスである `ErrorInfo2` から `Errno()` 関数を上書きすることでスーパークラス `ErrorInfo1` の `Error()` 関数の処理を書き換えようとした点にある。
+継承[^ih] の実装で一番よくあるミスがこのカプセル化の破れで， [Go 言語]の場合は敢えて移譲を強制することでこの手の不具合が発生するのを回避しようとしているように見える。
+
+また，他の言語では明示的に委譲を実装しようとすると冗長な記述になることが多いが， [Go 言語]の場合は埋め込みを使うことでシンプルな記述で委譲を実装できる点がメリットと言える。
 
 [^ih]: ここで言う継承は設計時の「汎化・特化」のことではなく，言語機能などを使った実装上の継承のこと。
 
@@ -398,10 +421,12 @@ C++ 言語などでは関数に virtual 修飾子を使うことでオーバー�
 - [オブジェクト指向言語としてGolangをやろうとするとハマること - Qiita](http://qiita.com/shibukawa/items/16acb36e94cfe3b02aa1)
     - [オブジェクト指向言語としてGolangをやろうとするとハマる点を整理してみる - Qiita](http://qiita.com/sona-tar/items/2b4b70694fd680f6297c)
 - [Go言語に継承は無いんですか【golang】 - DRYな備忘録](http://otiai10.hatenablog.com/entry/2014/01/15/220136)
+- [Go言語でジェネリクスっぽいことがしたいでござる【generics】【golang】 - DRYな備忘録](http://otiai10.hatenablog.com/entry/2014/06/16/224109)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
+[struct]: https://golang.org/ref/spec#Struct_types "Struct types"
 [type]: https://golang.org/ref/spec#Properties_of_types_and_values "Properties of types and values"
 [interface]: https://golang.org/ref/spec#Interface_types "Interface types"
 [error]: http://blog.golang.org/error-handling-and-go "Error handling and Go - The Go Blog"
