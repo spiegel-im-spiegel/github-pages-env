@@ -126,7 +126,7 @@ func (v Vertex) String() string {
 }
 ```
 
-`(v *Vertex)` の部分はメソッド・レシーバ（method receiver）と呼ばれ，これが型と関数を関連付ける役割を果たす。
+`(v Vertex)` の部分はメソッド・レシーバ（method receiver）と呼ばれ，これが型と関数を関連付ける役割を果たす。
 内部処理としては
 
 ```go
@@ -158,7 +158,7 @@ func main() {
 }
 ```
 
-のようにピリオドで連結して記述する[^pr]。
+のようにピリオドで関数を連結して記述する[^pr]。
 
 [^pr]: ちなみに [`fmt`].`Print` などでは引数の型が `String()` を持っていることを期待し，この関数の出力結果をデフォルト書式にしている。したがって `fmt.Println(vertex.String())` と `fmt.Println(vertex)` は同じ結果になる。
 
@@ -170,12 +170,12 @@ package main
 
 import "fmt"
 
-func (v *struct{ X, Y int }) String() string {
+func (v struct{ X, Y int }) String() string {
 	return fmt.Sprint("X =", v.X, ", Y =", v.Y)
 }
 
 func main() {
-	var vertex = &struct {
+	var vertex = struct {
 		X int
 		Y int
 	}{X: 1, Y: 2}
@@ -186,7 +186,7 @@ func main() {
 などと書いても，コンパイル時に
 
 ```
-invalid receiver type *struct { X int; Y int } (struct { X int; Y int } is an unnamed type)
+invalid receiver type struct { X int; Y int } (struct { X int; Y int } is an unnamed type)
 ```
 
 と怒られる。
