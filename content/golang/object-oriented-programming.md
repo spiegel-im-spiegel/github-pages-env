@@ -1,6 +1,6 @@
 +++
 date = "2015-12-15T21:19:58+09:00"
-update = "2015-12-17T01:19:12+09:00"
+update = "2015-12-18T22:35:58+09:00"
 description = "Go 言語がいわゆる「オブジェクト指向言語」と言えるかどうかについては色々とあるようだが，オブジェクト指向プログラミングを助けるための仕掛けはいくつか存在する。今回はその中の type キーワードを中心に解説していく。"
 draft = false
 tags = ["golang", "object-oriented", "programming", "type"]
@@ -302,7 +302,7 @@ func NewReadWriter(r *Reader, w *Writer) *ReadWriter {
 }
 ```
 
-と実装されていて， [`bufio`] の `Reader` および `Writer` を埋め込み，これらの型の一種として実装されている（このときの `Reader` および `Writer` を「埋め込みフィールド（enbedded interface）」または「匿名フィールド（anonymous interface）」と呼ぶ）。
+と実装されていて， [`bufio`] の `Reader` および `Writer` を埋め込み，これらの型の一種として実装されている（このときの `Reader` および `Writer` を「埋め込みフィールド（enbedded field）」または「匿名フィールド（anonymous field）」と呼ぶ）。
 なお， [`bufio`].`ReadWriter` は [`io`].`ReadWriter` の一種として機能している点にも注目してほしい。
 
 ### 関数のオーバーライドと処理の委譲
@@ -401,7 +401,7 @@ func main() {
 
 上のコードでは `ErrorInfo2` と直接関連付けられた `Error()` がないため `ErrorInfo1` の `Error()` が呼ばれるが，その関数の中で呼ばれる `Errno()` は `ErrorInfo2` と関連付けられた関数ではなく `ErrorInfo1` と関連付けられた関数になる。
 
-{{< fig-img src="https://farm6.staticflickr.com/5804/23151473894_e23789de66_o.png" title="delegation" link="https://www.flickr.com/photos/spiegel/23151473894/" >}}
+{{< fig-img src="/images/delegation.svg" title="delegation" link="/images/delegation.svg" >}}
 
 これは [Go 言語]では埋め込みフィールドの関数呼び出しが「委譲」として機能しているためである[^ef]。
 たとえば C++ 言語では virtual 修飾子を付与して仮想関数化することで意図的にオーバーライドできるが[^dlg]， [Go 言語]ではこのような仕掛けがないため，呼ばれた関数は常に委譲として機能する。
@@ -410,7 +410,7 @@ func main() {
 [^dlg]: 逆に Java では関数は常に仮想関数として機能しオーバーライドされる可能性がある。これを抑止するためには final 修飾子を付加する。
 
 上の例はクラス構成からして明らかにダメダメなのだが，今回のポイントはサブクラスである `ErrorInfo2` から `Errno()` 関数を上書きすることでスーパークラス `ErrorInfo1` の `Error()` 関数の処理を書き換えようとした点にある。
-継承[^ih] の実装で一番よくあるミスがこのカプセル化の破れで， [Go 言語]の場合は敢えて移譲を強制することでこの手の不具合が発生するのを回避しようとしているように見える。
+継承[^ih] の実装で一番よくあるミスがこの「カプセル化の破れ」で， [Go 言語]の場合は敢えて移譲を強制することでこの手の不具合が発生するのを回避しようとしているように見える。
 
 また，他の言語では明示的に委譲を実装しようとすると冗長な記述になることが多いが， [Go 言語]の場合は埋め込みを使うことでシンプルな記述で委譲を実装できる点がメリットと言える。
 
