@@ -14,7 +14,7 @@
 <main>
 <article itemscope itemtype='http://schema.org/BlogPosting' itemref='maker'>
 <h1 itemprop='name'>{{ .Title }}{{ with .Section }} — <a href="/{{ . | urlize }}">改訂3版： CC Licenses について</a>{{ end }}</h1>
-<nav class="tags">{{ with .Params.tags }}<div><a href="/tags">Tags</a>:{{ range . }} #<a href="/tags/{{ . | urlize }}">{{ . }}</a>{{ end }}</div>{{ end }}</nav>
+{{ partial "navi-tag.html" . }}
 
 <section><div>
 <div style="float:right;margin:0.5em;padding:0.5em;">

@@ -14,7 +14,7 @@
 <main>
 <article itemscope itemtype='http://schema.org/BlogPosting' itemref='maker'>
 <h1 itemprop='name'>{{ .Title }}{{ with .Section }} — <a href="/{{ . | urlize }}">ゼロから始める Hugo</a>{{ end }}</h1>
-<nav class="tags">{{ with .Params.tags }}<div><a href="/tags">Tags</a>:{{ range . }} #<a href="/tags/{{ . | urlize }}">{{ . }}</a>{{ end }}</div>{{ end }}</nav>
+{{ partial "navi-tag.html" . }}
 
 <section>
 {{ .Content }}
