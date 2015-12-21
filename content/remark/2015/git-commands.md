@@ -1,6 +1,6 @@
 +++
 date = "2015-12-09T20:14:59+09:00"
-update = "2015-12-10T13:32:34+09:00"
+update = "2015-12-21T09:57:01+09:00"
 description = "git 各コマンドに関する覚え書き。思い出したら追記予定。"
 draft = false
 tags = ["git", "tools"]
@@ -170,6 +170,7 @@ $ git push -u origin master
 - [Gitリポジトリ中のサブディレクトリを別のリポジトリにする - 北海道苫小牧市出身のPGが書くブログ](http://d.hatena.ne.jp/hiratara/20091112/1258023732)
 - [Gitリポジトリのディレクトリ構成を変えて別リポジトリにする - ごずろぐ](http://gozuk16.hatenablog.com/entry/2015/04/24/145714)
 - [Git リポジトリに上がっているファイルを履歴ごと消すには？ - Qiita](http://qiita.com/go_astrayer/items/6e39d3ab16ae8094496c)
+- [GitHub にパスワードとかセンシティブなファイルを push してしまったときの対処法 - Qiita](http://qiita.com/dtan4/items/34e41e3bd40a43fd8cbf) : GitHub などリモートのリポジトリに上げてしまうと，とてつもなく面倒になるので，要注意
 
 ### Git-flow and GitHub-flow
 

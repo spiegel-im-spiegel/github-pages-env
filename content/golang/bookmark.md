@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2015-12-19T19:05:12+09:00"
+update = "2015-12-21T13:38:30+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -10,12 +10,13 @@ title = "Go 言語に関するブックマーク"
   avatar = "/images/avatar.jpg"
   facebook = "spiegel.im.spiegel"
   flattr = "spiegel"
+  flickr = "spiegel"
   github = "spiegel-im-spiegel"
   instagram = "spiegel_2007"
   license = "by-sa"
   linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
   name = "Spiegel"
+  tumblr = "spiegel-im-spiegel"
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
@@ -46,7 +47,8 @@ title = "Go 言語に関するブックマーク"
 - [Golang の 数値型 - Qiita](http://qiita.com/tanaka0325/items/9c61a022cd32be0c65a6)
 - [忙しい人のためのA Tour of Go - Qiita](http://qiita.com/makoto_kw/items/0638c0af1002647e3f7a)
 - [Goのfor rangeで思った値が取れなかった話 - Qiita](http://qiita.com/modal_soul/items/e49480e5692597fda975) : ちょっとしたミス
-- [Go - unsafe が unsafe なケース (1) - Qiita](http://qiita.com/kwi/items/185bb3fe0d60ca765ab0)
+- [unsafe が unsafe なケース (1) - Qiita](http://qiita.com/kwi/items/185bb3fe0d60ca765ab0)
+    - [unsafe が unsafe なケース (2) - Qiita](http://qiita.com/kwi/items/d06f49c9cf7e5ace8692)
 - [Big Sky :: Go言語でインタフェースの変更がそれ程問題にならない理由](http://mattn.kaoriya.net/software/lang/go/20130919023425.htm)
 - [import 書き方まとめ - Qiita](http://qiita.com/taji-taji/items/5a4f17bcf5b819954cc1)
 - [ErlangとGolangを比較してみる - Qiita](http://qiita.com/soranoba/items/68d57b4635a2917f3c73)
@@ -144,6 +146,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go でベンチマーク - Block Rockin’ Codes](http://jxck.hatenablog.com/entry/20131123/1385189088)
 - [go言語でベンチマーク - Qiita](http://qiita.com/Mulyu/items/ed585f2777496f29a725)
 - [プロダクト開発でのGoのテストとモック活用事例 - Qiita](http://qiita.com/peroli-hirayama/items/f1419db7264fa9f9fe8f)
+- [Go言語でファジング | SOTA](http://deeeet.com/writing/2015/12/21/go-fuzz/)
 
 ### Go 言語のドキュメント・フレームワーク
 
@@ -206,6 +209,10 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 
 - [VisualStudioCode - Visual Studio CodeでGo言語の設定 - Qiita](http://qiita.com/evalphobia/items/f68396d573c7caf2065b)
 - [VSCode+Golang](https://gist.github.com/llaughlin/16305f0b91356e93a1c4) : task.json の設定
+
+### Emacs で Go
+
+- [emacsでGoの環境構築をやる - Qiita](http://qiita.com/koki_cheese/items/2e2ead918a1f1ac5bf6e)
 
 ### Build Tool for Golang
 

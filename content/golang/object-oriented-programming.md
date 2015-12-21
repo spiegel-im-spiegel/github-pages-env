@@ -1,6 +1,6 @@
 +++
 date = "2015-12-15T21:19:58+09:00"
-update = "2015-12-18T22:35:58+09:00"
+update = "2015-12-21T13:17:44+09:00"
 description = "Go 言語がいわゆる「オブジェクト指向言語」と言えるかどうかについては色々とあるようだが，オブジェクト指向プログラミングを助けるための仕掛けはいくつか存在する。今回はその中の type キーワードを中心に解説していく。"
 draft = false
 tags = ["golang", "object-oriented", "programming", "type"]
@@ -135,7 +135,7 @@ func String(v Vertex) string {
 }
 ```
 
-と等価である。
+と等価である[^call]。
 関数の呼び出し側は
 
 ```go
@@ -160,6 +160,7 @@ func main() {
 
 のようにピリオドで関数を連結して記述する[^pr]。
 
+[^call]: [Go 言語]の関数呼び出しでは，引数の渡し方は基本的に「値渡し」である。「参照渡し」にするにはポインタを使う。メソッド・レシーバについては値渡しで定義すれば値とポインタ両方のインスタンスに対して関数を呼び出せる。ファイル・ハンドルのように常にポインタで持ち回す必要のあるインスタンスに対してはメソッド・レシーバを参照渡しで定義するとよい。ちなみに [Go 言語]のポインタは C/C++ のようなポインタ演算はできないので注意（ポインタ演算をしたい場合は [`unsafe`] パッケージを使う）。
 [^pr]: ちなみに [`fmt`].`Print` などでは引数の型が `String()` を持っていることを期待し，この関数の出力結果をデフォルト書式にしている。したがって `fmt.Println(vertex.String())` と `fmt.Println(vertex)` は同じ結果になる。
 
 構造体そのものには関数を付与できない[^mt]。
@@ -435,3 +436,4 @@ func main() {
 [`os`]: https://golang.org/pkg/os/ "os - The Go Programming Language"
 [`io`]: https://golang.org/pkg/io/ "io - The Go Programming Language"
 [`bufio`]: https://golang.org/pkg/bufio/ "io - The Go Programming Language"
+[`unsafe`]: https://golang.org/pkg/unsafe/ "unsafe - The Go Programming Language"

@@ -1,6 +1,6 @@
 +++
 date = "2015-11-17T21:52:50+09:00"
-update = "2015-11-21T05:30:21+09:00"
+update = "2015-12-21T12:23:20+09:00"
 description = "こういう話は好きなので便乗してみる。（「おまけ」追加）"
 draft = false
 tags = ["programming", "language"]
@@ -100,6 +100,17 @@ title = "プログラミング言語との付き合い方"
 
 まぁ，でも，上で書いたように仕事で言語を選べることはほとんどないので，「グダグダ言わずにコード書け」って感じだけど。
 
+**【12月21日 追記】**
+フィードバックで Python について言及があったので。
+Python は Linux 等では実質的に（少なくとも Ruby よりは）標準言語のようになっているし，資産も豊富なのでちゃんと覚えなきゃなぁ，とは思ってる。
+しかし構文にインデントが必須な言語構造はどうしても慣れない。
+同じ理由で Haskell や CoffeeScript とかも馴染めない。
+
+プログラムコードをもっと human-understandable に，という考え方は分からなくもないけど，それなら [Go 言語]のようにフォーマッタやドキュメントフレームワークを標準で用意するほうが賢いと思う。
+私はもうプログラミングで（タブだの全角空白だのも含めた）空白文字に煩わされたくない。
+
+とはいえ，こういうのは「慣れ」の問題なので，仕事でやれと言われれば喜んでやりますよ。
+
 ## ひとつのプログラミング言語に縛られることの恐さ
 
 {{< fig-quote title="考えてみると結城はC, Perl, Javaの本は書いたけれど..." link="http://rentwi.textfile.org/?666213569055166464s" >}}
@@ -155,6 +166,7 @@ title = "プログラミング言語との付き合い方"
 - [自然言語処理をはじめたい人のためのゆるい記事 - Qiita](http://qiita.com/kazuhirokomoda/items/a4cd0f6f42eb75c757e4) : [TensorFlow] についても少しだけ言及
 - [わざわざTensorFlowの機械学習で$\sqrt{2}$を計算する - Qiita](http://qiita.com/n_kats_/items/73538c7c66559d09f35d)
 - [Python - 初めてのTensorFlow - イントロダクションとしての線形回帰 - Qiita](http://qiita.com/TomokIshii/items/f355d8e87d23ee8e0c7a)
+- [TensorFlowチュートリアル - マンデルブロ集合（翻訳） - Qiita](http://qiita.com/KojiOhki/items/00ae0297f6809bdbc484)
 
 {{< fig-youtube id="oZikw5k_2FM" title="TensorFlow: Open source machine learning - YouTube" width="500" height="281" >}}
 

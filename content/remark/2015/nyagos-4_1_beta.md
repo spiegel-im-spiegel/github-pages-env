@@ -1,5 +1,6 @@
 +++
 date = "2015-12-20T16:31:06+09:00"
+update = "2015-12-21T10:36:09+09:00"
 description = "4.1 で大きく変わったのはコールバック関数の扱いのようだ。"
 draft = false
 tags = ["windows", "tools", "nyagos", "shell", "lua"]
@@ -93,6 +94,11 @@ $
 実は私もプロンプトは折り返す派。
 開発環境ではフォルダがかなり深くなることがあり，既存の `$P$G` では見づらいのだ。
 まぁこれは Windows に限らないのだが。
+
+## 参考
+
+- [NYAGOS で Lua]({{< relref "remark/2015/nyagos-and-lua.md" >}})
+- [何がちがう？NYAGOS 4.0 と 4.1β - Qiita](http://qiita.com/zetamatta/items/75840096f8279dd641a8)
 
 [NYAGOS]: http://www.nyaos.org/index.cgi?p=NYAGOS "NYAOS.ORG - NYAGOS"
 [Lua]: http://www.lua.org/ "The Programming Language Lua"
