@@ -147,6 +147,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [go言語でベンチマーク - Qiita](http://qiita.com/Mulyu/items/ed585f2777496f29a725)
 - [プロダクト開発でのGoのテストとモック活用事例 - Qiita](http://qiita.com/peroli-hirayama/items/f1419db7264fa9f9fe8f)
 - [Go言語でファジング | SOTA](http://deeeet.com/writing/2015/12/21/go-fuzz/)
+- [GAE/GoとGojiの組み合わせでテストを書く - Qiita](http://qiita.com/yosukesuzuki/items/c9e5c19df97d2ad5595a)
 
 ### Go 言語のドキュメント・フレームワーク
 
@@ -293,6 +294,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Windows+GoでNFC/Felicaにアクセスしてみた - Qiita](http://qiita.com/mau4x/items/424fe7964e70a3a99965)
 - [GoでShared Libraryをビルドしてみた(簡単ドキュメント指向DB) - Qiita](http://qiita.com/umisama/items/48ba74a58f1e6530e305)
 - [GAE/GoでCMSつくった - Qiita](http://qiita.com/hogedigo/items/342217982f267ccd234d)
+- [golang - Goで3Dモデル変換してプレビュー - Qiita](http://qiita.com/tetuyoko/items/746599e36ca4985d9e1a)
 
 ### コマンドライン・ツール
 
