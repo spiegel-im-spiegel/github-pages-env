@@ -1,6 +1,6 @@
 +++
 date = "2015-12-07T23:30:21+09:00"
-update = "2015-12-08T12:57:44+09:00"
+update = "2015-12-23T12:59:00+09:00"
 description = "Go 言語 1.5 の vendoring 機能をサポートするツールが glide である。"
 draft = false
 tags = ["golang", "engineering", "vendoring", "package", "tools", "glide", "gb"]
@@ -24,6 +24,9 @@ title = "Glide で Vendoring"
 以前「[GOPATH 汚染問題]({{< relref "golang/gopath-pollution.md" >}})」で [Go 言語] 1.5 の vendoring 機能を紹介したが，この vendoring のヘルパ・ツールと言えるのが [glide] である。
 [glide] では依存する外部パッケージの情報を YAML 形式の定義ファイルに記述し，この定義ファイルを基に外部パッケージの管理を行う。
 
+（[glide] 0.8 から挙動が少し変わった。
+この記事では 0.8.2 を使っている）
+
 ## Glide のインストール
 
 [glide] は自身も [glide] で外部パッケージを管理している。
@@ -40,58 +43,54 @@ C:\workspace\glide>SET GO15VENDOREXPERIMENT=1
 
 C:\workspace\glide>git clone git@github.com:Masterminds/glide.git src\github.com\Masterminds\glide
 Cloning into 'src\github.com\Masterminds\glide'...
-remote: Counting objects: 1993, done.
+remote: Counting objects: 2292, done.
 remote: Compressing objects: 100% (65/65), done.
-remote: Total 1993 (delta 34), reused 0 (delta 0), pack-reused 1928
-Receiving objects: 100% (1993/1993), 476.75 KiB | 85.00 KiB/s, done.
-Resolving deltas: 100% (1382/1382), done.
+remote: Total 2292 (delta 34), reused 0 (delta 0), pack-reused 2292
+Receiving objects: 100% (2292/2292), 468.01 KiB | 397.00
+Receiving objects: 100% (2292/2292), 537.97 KiB | 397.00 KiB/s, done.
+Resolving deltas: 100% (1578/1578), done.
 Checking connectivity... done.
 
 C:\workspace\glide>pushd src\github.com\Masterminds\glide
 
 C:\workspace\glide\src\github.com\Masterminds\glide>glide install
-[INFO] Fetching updates for gopkg.in/yaml.v2.
+[INFO] Fetching updates for github.com/codegangsta/cli.
 [INFO] Fetching updates for github.com/Masterminds/cookoo.
 [INFO] Fetching updates for github.com/Masterminds/vcs.
-[INFO] Fetching updates for github.com/codegangsta/cli.
+[INFO] Fetching updates for gopkg.in/yaml.v2.
 [INFO] Fetching updates for github.com/Masterminds/semver.
-[INFO] Setting version for github.com/Masterminds/cookoo to master.
-[INFO] Detected semantic version. Setting version for github.com/Masterminds/vcs to 1.3.0.
-[INFO] Detected semantic version. Setting version for github.com/Masterminds/semver to 1.0.0.
-[INFO] Package gopkg.in/yaml.v2 manages its own dependencies
-[INFO] Found glide.yaml in C:\workspace\glide\src\github.com\Masterminds\glide\vendor/github.com/Masterminds/cookoo/glide.yaml
-[INFO] Package github.com/Masterminds/vcs manages its own dependencies
-[INFO] Package github.com/codegangsta/cli manages its own dependencies
-[INFO] Package github.com/Masterminds/semver manages its own dependencies
-[INFO] Setting version for github.com/Masterminds/cookoo to master.
-[INFO] Detected semantic version. Setting version for github.com/Masterminds/vcs to 1.3.0.
-[INFO] Detected semantic version. Setting version for github.com/Masterminds/semver to 1.0.0.
-[INFO] Project relies on 5 dependencies.
+[INFO] Setting version for github.com/Masterminds/cookoo to 78aa11ce75e257c51be7ea945edb84cf19c4a6de.
+[INFO] Setting version for github.com/Masterminds/semver to 6333b7bd29aad1d79898ff568fd90a8aa533ae82.
+[INFO] Setting version for github.com/codegangsta/cli to b5232bb2934f606f9f27a1305f1eea224e8e8b88.
+[INFO] Setting version for github.com/Masterminds/vcs to eaee272c8fa4514e1572e182faecff5be20e792a.
+[INFO] Setting version for gopkg.in/yaml.v2 to f7716cbe52baa25d2e9b0d0da546fcf909fc16b4.
 
 C:\workspace\glide\src\github.com\Masterminds\glide>popd
 
 C:\workspace\glide>go install -v ./...
-github.com/Masterminds/glide/gb
-github.com/Masterminds/glide/vendor/github.com/Masterminds/vcs
 github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo/io
+github.com/Masterminds/glide/msg
+github.com/Masterminds/glide/gb
 github.com/Masterminds/glide/vendor/gopkg.in/yaml.v2
 github.com/Masterminds/glide/vendor/github.com/Masterminds/semver
-github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo
-github.com/Masterminds/glide/util
 github.com/Masterminds/glide/vendor/github.com/codegangsta/cli
 github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo/safely
+github.com/Masterminds/glide/vendor/github.com/Masterminds/vcs
+github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo
 github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo/cli
-github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo/convert
-github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo/database/active
-github.com/Masterminds/glide/yaml
 github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo/database/sql
+github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo/database/active
+github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo/convert
 github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo/fmt
 github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo/web
-github.com/Masterminds/glide/cmd
 github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo/example
 github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo/log
-github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo/doc
 github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo/web/auth
+github.com/Masterminds/glide/util
+github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo/doc
+github.com/Masterminds/glide/cfg
+github.com/Masterminds/glide/dependency
+github.com/Masterminds/glide/cmd
 github.com/Masterminds/glide
 
 C:\workspace\glide>bin\glide.exe -v
@@ -126,23 +125,21 @@ USAGE:
    glide [global options] command [command options] [arguments...]
 
 VERSION:
-   0.7.2
+   0.8.2
 
 COMMANDS:
-   create, init         Initialize a new project, creating a template glide.yaml
-   get                  Install one or more package into `vendor/` and add dependency to glide.yaml.
-
-   import               Import files from other dependency management systems.
-   name                 Print the name of this project.
-   novendor, nv         List all non-vendor paths in a directory.
-   pin                  Print a YAML file with all of the packages pinned to the current version
-   rebuild              Rebuild ('go build') the dependencies
-   update, up, install  Update or install a project's dependencies
-   tree                 Tree prints the dependencies of this project as a tree.
-   list                 List prints all dependencies that Glide could discover.
-   guess                Guess dependencies for existing source.
-   about                Learn about Glide
-   help, h              Shows a list of commands or help for one command
+   create, init Initialize a new project, creating a glide.yaml file
+   get          Install one or more packages into `vendor/` and add dependency to glide.yaml.
+   import       Import files from other dependency management systems.
+   name         Print the name of this project.
+   novendor, nv List all non-vendor paths in a directory.
+   rebuild      Rebuild ('go build') the dependencies
+   install, i   Install a project's dependencies
+   update, up   Update a project's dependencies
+   tree         Tree prints the dependencies of this project as a tree.
+   list         List prints all dependencies that Glide could discover.
+   about        Learn about Glide
+   help, h      Shows a list of commands or help for one command
 
 GLOBAL OPTIONS:
    --yaml, -y "glide.yaml"              Set a YAML configuration file.
@@ -226,7 +223,9 @@ src\julian-day\julian-day.go:10:2: cannot find package "github.com/spiegel-im-sp
 C:\workspace\vdemo2>pushd src\julian-day
 
 C:\workspace\vdemo2\src\julian-day>glide create
-[INFO] Initialized. You can now edit 'glide.yaml'
+[INFO] Generating a YAML configuration file and guessing the dependencies
+[INFO] Attempting to import from other package managers (use --skip-import to skip)
+[INFO] Found reference to github.com\spiegel-im-spiegel\astrocalc\modjulian
 
 C:\workspace\vdemo2\src\julian-day>tree /f C:\workspace\vdemo2
 C:\WORKSPACE\VDEMO2
@@ -236,43 +235,25 @@ C:\WORKSPACE\VDEMO2
             julian-day.go
 ```
 
-この時点での `glide.yaml` の中身は以下の通り空っぽの状態。
+ソースコードを読んで `glide.yaml` に必要な情報を推測して書いてくれているようだが[^cre]，デリミタが “/” じゃなくて “\” になってる。
+Windows 環境だからかな。
+残念 orz
+
+[^cre]: `glide create` 時の依存パッケージの推測を抑止するには `--skip-import` オプションを付ける。のだが，効いてないな。
 
 ```yaml
-# Glide YAML configuration file
-# Set this to your fully qualified package name, e.g.
-# github.com/Masterminds/foo. This should be the
-# top level package.
-package: main
-
-# Declare your project's dependencies.
+package: julian-day
 import:
-  # Fetch package similar to 'go get':
-  #- package: github.com/Masterminds/cookoo
-  # Get and manage a package with Git:
-  #- package: github.com/Masterminds/cookoo
-  #  # The repository URL
-  #  repo: git@github.com:Masterminds/cookoo.git
-  #  # A tag, branch, or SHA
-  #  ref: 1.1.0
-  #  # the VCS type (compare to bzr, hg, svn). You should
-  #  # set this if you know it.
-  #  vcs: git
+- package: github.com\spiegel-im-spiegel\astrocalc\modjulian
 ```
 
-これに [astrocalc]/modjulian パッケージの記述を追加する。
+[astrocalc]/modjulian パッケージのパスを修正して、更にバージョン情報を追加する。
 
 ```yaml
-# Glide YAML configuration file
-# Set this to your fully qualified package name, e.g.
-# github.com/Masterminds/foo. This should be the
-# top level package.
 package: julian-day
-
-# Declare your project's dependencies.
 import:
-  - package: github.com/spiegel-im-spiegel/astrocalc/modjulian
-    version: 0.1.0
+- package: github.com/spiegel-im-spiegel/astrocalc/modjulian
+  version: v0.1.0
 ```
 
 これで `go get` コマンドと同じように， `package` のパスから自動的に repository を判別してパッケージを取得できる。
@@ -285,40 +266,33 @@ import:
 [^vcs]: [glide] では [git](http://git-scm.com/) のほか svn ([Subversion](http://subversion.apache.org/)), hg ([Mercurial](http://mercurial.selenic.com/)), bzr ([Bazaar](http://bazaar.canonical.com/)) が利用可能である。
 
 ```yaml
-# Glide YAML configuration file
-# Set this to your fully qualified package name, e.g.
-# github.com/Masterminds/foo. This should be the
-# top level package.
 package: julian-day
-
-# Declare your project's dependencies.
 import:
-  - package: github.com/spiegel-im-spiegel/astrocalc/modjulian
-    vcs:     git
-    repo:    git@github.com:spiegel-im-spiegel/astrocalc.git
-    version: 0.1.0
+- package: github.com/spiegel-im-spiegel/astrocalc/modjulian
+  vcs:     git
+  repo:    git@github.com:spiegel-im-spiegel/astrocalc.git
+  version: v0.1.0
 ```
 
 たとえば，プライベートな bare repository からインポートする場合には，この方法が有効である。
 
 ## パッケージの取得とビルド
 
-パッケージの取得には `glide up` コマンドを起動する[^ins]。
-
-[^ins]: コマンドとしては `glide install`， `glide update` および `glide up` があるが，どれも処理の中身は同じらしい。
+パッケージの取得には `glide update` または `glide up` コマンドを起動する。
 
 ```
 C:\workspace\vdemo2\src\julian-day>glide up
 [INFO] Fetching updates for github.com/spiegel-im-spiegel/astrocalc.
-[INFO] Detected semantic version. Setting version for github.com/spiegel-im-spiegel/astrocalc to v0.1.0.
-[INFO] Package github.com/spiegel-im-spiegel/astrocalc manages its own dependencies
-[INFO] Detected semantic version. Setting version for github.com/spiegel-im-spiegel/astrocalc to v0.1.0.
+[INFO] Setting version for github.com/spiegel-im-spiegel/astrocalc to v0.1.0.
+[INFO] Scanning github.com/spiegel-im-spiegel/astrocalc for dependencies.
+[INFO] Setting version for github.com/spiegel-im-spiegel/astrocalc to v0.1.0.
 [INFO] Project relies on 1 dependencies.
-
+[INFO] Writing glide.lock file
 C:\workspace\vdemo2\src\julian-day>tree /f C:\workspace\vdemo2
 C:\WORKSPACE\VDEMO2
 └─src
     └─julian-day
+        │  glide.lock
         │  glide.yaml
         │  julian-day.go
         │
@@ -337,37 +311,6 @@ C:\WORKSPACE\VDEMO2
                                 LICENSE
                                 modjulian.go
                                 modjulian_test.go
-```
-
-ちなみに，まだ `glide.yaml` ファイルへパッケージを定義していない状態なら `glide get` コマンドを使って `glide.yaml` ファイルへの記述とパッケージの導入を一度に済ませられる。
-
-```
-C:\workspace\vdemo2\src\julian-day>glide get github.com/spiegel-im-spiegel/astrocalc/modjulian
-[INFO] Preparing to install 1 package.
-[INFO] Package github.com/spiegel-im-spiegel/astrocalc/modjulian manages its own dependencies
-[INFO] Project relies on 1 dependencies.
-```
-
-このときの `glide.yaml` ファイルの内容は以下の通り。
-
-```yaml
-package: main
-import:
-- package: github.com/spiegel-im-spiegel/astrocalc
-  subpackages:
-  - /modjulian
-```
-
-この場合は（`version` 指定がないため）パッケージの最新 revision が導入される。
-Revision を制御したければ，以下のように `glide.yaml` ファイルを修正して `glide up` し直せばよい。
-
-```yaml
-package: julian-day
-import:
-- package: github.com/spiegel-im-spiegel/astrocalc
-  version: 0.1.0 # Version control
-  subpackages:
-  - /modjulian
 ```
 
 これでビルドが可能になった。
@@ -389,12 +332,29 @@ MJD = 57023日
 
 ## Vendor フォルダの管理
 
+`glide.lock` ファイルには外部パッケージの状態が記述されている。
+
+```yaml
+hash: b1eecd43769aa1225f7b8922a35566008561c64f4ce11180f299888ed153ad69
+updated: 2015-12-23T10:47:22.4140434+09:00
+imports:
+- name: github.com/spiegel-im-spiegel/astrocalc
+  version: 256cd3bd4dc63441d3f4759d761593a147d51d88
+  subpackages:
+  - modjulian
+devImports: []
+```
+
+`glide.lock` があれば `glide install`（または `glide i`）コマンドで `vendor` フォルダ以下の状態を復元できる。
+
 [glide] では外部パッケージを vendor フォルダ以下に repository 構造ごと展開する。
 この場合，開発対象のパッケージも repository で管理しているのだから， repository が入れ子になり具合が悪い。
 その辺，当の [glide] はどうしてるのかなぁと思ったら `.gitignore` ファイルで `vendor/` を除外対象にしていた。
 なるほど，そりゃそうか。
 
-`glide.yaml` ファイルの管理さえちゃんとしていれば `glide install` コマンドでいつでも復元できるのだから `vendor` フォルダ以下を除外しても問題ないわけだ[^v]。
+`glide.yaml` および `glide.lock` ファイルの管理さえちゃんとしていれば `glide install` コマンドでいつでも復元できるのだから `vendor` フォルダ以下を除外しても問題ないわけだ[^v]。
+これは複数メンバで開発環境を共有する際には便利な機能である。
+
 また vendoring に対応していない（Go 1.4 以下の）環境や [glide] がない環境では `go get` で外部パッケージを取ってくることで（revision 等の問題はあるけど）一応ビルドは通る。
 
 [^v]: `vendor` フォルダ以下は外部パッケージなので通常はさわることはない。
@@ -403,7 +363,7 @@ MJD = 57023日
 たとえば， [ATOM ベースの開発環境]({{< relref "golang/golang-with-atom.md" >}})は [glide] と相性がいい[^gov]。
 あと，（多少強引な手を使っているが[^tci]） [Travis CI](https://travis-ci.org/) のような CI (Continuous Integration) と組み合わせることも難しくない。
 
-[^gov]: 残念ながら，「[パッケージの依存状況の視覚化]({{< relref "golang/package-visualization-tool.md" >}})」ツールは vendoring 機能に対応していないため上手く表示できない。なお， [glide] では `glide list` および `glide tree` で依存パッケージを見ることができる，らしいのだが今回の環境だとうまくいかないなぁ。
+[^gov]: 残念ながら，「[パッケージの依存状況の視覚化]({{< relref "golang/package-visualization-tool.md" >}})」ツールは vendoring 機能に対応していないため上手く表示できない。なお， [glide] では `glide list` および `glide tree` で依存パッケージを見ることができる。
 [^tci]: [glide] の [`.travis.yml`](https://github.com/Masterminds/glide/blob/master/.travis.yml) や [`Makefile`](https://github.com/Masterminds/glide/blob/master/Makefile) を参照。
 
 こう考えると [glide] は[前に紹介]({{< relref "golang/project-based-development.md" >}})した [gb](http://getgb.io/) よりも筋がいいツールといえるかもしれない。
