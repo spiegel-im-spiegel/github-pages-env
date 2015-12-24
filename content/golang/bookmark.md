@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2015-12-21T13:38:30+09:00"
+update = "2015-12-24T13:01:36+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -120,6 +120,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Big Sky :: golang で複数のエラーをハンドリングする方法](http://mattn.kaoriya.net/software/lang/go/20140416212413.htm)
 - [DSAS開発者の部屋:Go ではエラーを文字列比較する？という話について](http://dsas.blog.klab.org/archives/go-errors.html) : エラーハンドリングには，定数との比較， conversion 構文による型の比較，エラー文字列の比較がある
 - [panicはともかくrecoverに使いどころはほとんどない - Qiita](http://qiita.com/ruiu/items/ff98ded599d97cf6646e)
+- [go で AggregationException(.NET)的なことをする - Qiita](http://qiita.com/kyoh86/items/6cadd79de08cc597b65a) : ループ等でエラーを集約してからまとめて処理する方法。これって error インタフェースを使うべきなのかな？
 
 ### ビルド時に情報を各種埋め込みたい
 
@@ -295,6 +296,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [GoでShared Libraryをビルドしてみた(簡単ドキュメント指向DB) - Qiita](http://qiita.com/umisama/items/48ba74a58f1e6530e305)
 - [GAE/GoでCMSつくった - Qiita](http://qiita.com/hogedigo/items/342217982f267ccd234d)
 - [golang - Goで3Dモデル変換してプレビュー - Qiita](http://qiita.com/tetuyoko/items/746599e36ca4985d9e1a)
+- [Go最後の秘宝「GUI」を探しに行く - Qiita](http://qiita.com/shibukawa/items/cd8d122dfeb41e1608d1)
 
 ### コマンドライン・ツール
 
@@ -358,6 +360,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go付属のツールでオレオレ証明書を生成する - Qiita](http://qiita.com/ono_matope/items/6c0de3e31642dfd17695) : なるほど（笑）
 - [Go http.RoundTripper 実装ガイド - Qiita](http://qiita.com/tutuming/items/6006e1d8cf94bc40f8e8)
 - [Go で静的 HTTP サーバを作る - Qiita](http://qiita.com/skitaoka/items/a2b55cb08060aa8d6a52)
+- [[golang]RevelでCSRFの対策 - Qiita](http://qiita.com/ponchi/items/7e474041484841ee1ce6)
 
 ### 組み込み開発
 
@@ -388,6 +391,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Google App Engineも「Go言語」の正式サポートを発表 － Publickey](http://www.publickey1.jp/blog/15/google_app_enginego_1.html)
 - [Sensuでネットワーク監視やってみた - Qiita](http://qiita.com/hiconyan/items/7656e9fb2d5bf5c794be)
 - [i18n4go - developerWorks Open](https://developer.ibm.com/open/i18n4go/) : IBM の [developerWorks Open](https://developer.ibm.com/open/) プロジェクトのひとつ。「[プログラムを国際化するための汎用ツール](http://www.atmarkit.co.jp/ait/articles/1507/23/news058.html)」らしい。
+- [なぜGo言語は設計が悪いのか – Go愛好者の見地から | 未分類 | POSTD](http://postd.cc/why-go-is-a-poorly-designed-language/) : 必見！ Go のイケてないところ
 
 ### Go 1.5 に関する話題
 
