@@ -2,7 +2,7 @@
 title       = "インストールから Hello World まで"
 description = "自サイトのブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。ここではその時のメモを公開する。"
 date        = "2015-09-11T17:58:23+09:00"
-update      = "2015-10-02T07:53:00+09:00"
+update      = "2015-12-30T00:41:00+09:00"
 tags        = [ "hugo", "install", "helloworld" ]
 draft = false
 
@@ -245,7 +245,7 @@ C:\HUGO-ENV\WWW
 
 ### サーバモード{#server-mode}
 
-[Hugo] では `hugo saver` コマンドによりサーバモードで起動する。
+[Hugo] では `hugo server` コマンドによりサーバモードで起動する。
 
 ```
 C:\hugo-env\www>hugo server
