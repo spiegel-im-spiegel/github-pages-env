@@ -4,7 +4,7 @@ local pubdir = "../published"
 local theme = "text"
 
 nyagos.write("build for "..pubdir.." folder.\n")
-local errorlevel, errormessage = hugolib.build(theme, pubdir)
+local errorlevel, errormessage = Hugolib.build(theme, pubdir)
 if errorlevel ~= 0 then
 	nyagos.writerr("Error Message: "..errormessage.."\n")
 	os.exit(errorlevel)
@@ -18,19 +18,19 @@ if errorlevel ~= 0 then
 end
 
 nyagos.write("\npublish...\n")
-errorlevel, errormessage = hugolib.git_add_all()
+errorlevel, errormessage = Hugolib.git_add_all()
 if errorlevel ~= 0 then
 	nyagos.writerr("Error Message: "..errormessage.."\n")
 	os.exit(errorlevel)
 end
 
-errorlevel, errormessage = hugolib.git_commit("Publish (auto commit in "..os.date("%Y-%m-%dT%H:%M:%S+09:00")..")")
+errorlevel, errormessage = Hugolib.git_commit("Publish (auto commit in "..os.date("%Y-%m-%dT%H:%M:%S+09:00")..")")
 if errorlevel ~= 0 then
 	nyagos.writerr("Error Message: "..errormessage.."\n")
 	os.exit(errorlevel)
 end
 
-errorlevel, errormessage = hugolib.git_push("origin", "master")
+errorlevel, errormessage = Hugolib.git_push("origin", "master")
 if errorlevel ~= 0 then
 	nyagos.writerr("Error Message: "..errormessage.."\n")
 	os.exit(errorlevel)
