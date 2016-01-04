@@ -1,4 +1,4 @@
-require("hugolib")
+local Hugolib = require("hugolib")
 
 local theme = "text"
 

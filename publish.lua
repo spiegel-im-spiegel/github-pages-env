@@ -1,4 +1,4 @@
-require("hugolib")
+local Hugolib = require("hugolib")
 
 local pubdir = "../published"
 local theme = "text"

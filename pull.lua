@@ -1,4 +1,4 @@
-require("hugolib")
+local Hugolib = require("hugolib")
 
 errorlevel, errormessage = Hugolib.git_pull("origin")
 if errorlevel ~= 0 then

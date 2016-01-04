@@ -1,4 +1,4 @@
-require("hugolib")
+local Hugolib = require("hugolib")
 
 if #arg < 1 then
 	nyagos.writerr("Usage: new [<section>] <file name>\n")
