@@ -58,13 +58,13 @@ end
 
 -- Build Site
 hugolib.build = function(theme, dist)
-	if hugolib:isBlank(theme) then
-		if hugolib:isBlank(dist) then
+	if hugolib.isBlank(theme) then
+		if hugolib.isBlank(dist) then
 			return nyagos.rawexec("hugo.exe")
 		else
 			return nyagos.rawexec("hugo.exe", "--destination="..dist)
 		end
-	elseif hugolib:isBlank(dist) then
+	elseif hugolib.isBlank(dist) then
 		return nyagos.rawexec("hugo.exe", "--theme="..theme)
 	else
 		return nyagos.rawexec("hugo.exe", "--theme="..theme, "--destination="..dist)
@@ -73,18 +73,17 @@ end
 
 -- Server Mode (hugo server ...)
 hugolib.server = function(theme, enableDraft, port)
-	local portNo = "1313"
-	if hugolib:isBlank(port) ~= false then portNo = port end
-	if hugolib:isBlank(theme) then
+	if hugolib.isBlank(port) then port = "1313" end
+	if hugolib.isBlank(theme) then
 		if enableDraft then
-			return nyagos.rawexec("hugo.exe", "server", "--watch", "--port="..portNo, "--buildDrafts")
+			return nyagos.rawexec("hugo.exe", "server", "--watch", "--port="..port, "--buildDrafts")
 		else
-			return nyagos.rawexec("hugo.exe", "server", "--watch", "--port=" .. portNo)
+			return nyagos.rawexec("hugo.exe", "server", "--watch", "--port=" .. port)
 		end
 	elseif enableDraft then
-		return nyagos.rawexec("hugo.exe", "server", "--watch", "--port="..portNo, "--buildDrafts", "--theme="..theme)
+		return nyagos.rawexec("hugo.exe", "server", "--watch", "--port="..port, "--buildDrafts", "--theme="..theme)
 	else
-		return nyagos.rawexec("hugo.exe", "server", "--watch", "--port="..portNo, "--theme="..theme)
+		return nyagos.rawexec("hugo.exe", "server", "--watch", "--port="..port, "--theme="..theme)
 	end
 end
 
@@ -106,15 +105,15 @@ end
 
 -- Git Push to remote repository (git push -u remote branch)
 hugolib.git_push = function(remote, branch)
-    if hugolib:isBlank(remote) then remote = "origin" end
-    if hugolib:isBlank(branch) then branch = "master" end
+    if hugolib.isBlank(remote) then remote = "origin" end
+    if hugolib.isBlank(branch) then branch = "master" end
     nyagos.write("git push -u "..remote.." "..branch.."\n")
     return nyagos.rawexec("git", "push", "-u", remote, branch)
 end
 
 -- Git Pull from remote repository (git pull --progress remote)
 hugolib.git_pull = function(remote)
-    if hugolib:isBlank(remote) then remote = "origin" end
+    if hugolib.isBlank(remote) then remote = "origin" end
     nyagos.write("git pull --progres "..remote.."\n")
     return nyagos.rawexec("git", "pull", "--progress", remote)
 end
