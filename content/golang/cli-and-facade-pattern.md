@@ -1,7 +1,7 @@
 +++
-date = "2016-01-05T10:48:02+09:00"
-description = "ファサード・パターンは DDD (Domain-Driven Design) と相性がよい。普通は Web アプリケーションのような多様なサブシステムを持つシステムを設計する際に導入する考え方だが， CLI の場合でもサブコマンドを構成するのであればファサード・パターンで設計するべきである。"
-draft = true
+date = "2016-01-05T22:06:41+09:00"
+description = "ファサード・パターンは DDD (Domain-Driven Design) と相性がよい。普通は Web アプリケーションのような多様なサブシステムを持つシステムを設計する際に導入する考え方だが， CLI の場合でもサブコマンドを構成するのであればファサード・パターンがよいだろう。"
+draft = false
 tags = ["golang", "cli", "facade"]
 title = "コマンドライン・インタフェースとファサード・パターン"
 
@@ -45,19 +45,19 @@ $ command [golabal options] <sub-command> [sub-options] [arguments]
 8. Avoid captive user interfaces. （拘束的なユーザーインターフェースは作るな）
 9. Make every program a Filter. （全てのプログラムはフィルタとして振る舞うようにせよ）
 
-の9項目である[^up]。
+の9項目[^up]。
 昨今は UNIX 互換環境でも GUI が普通になってきたので対話型のインタフェースも増えてきたが，それでも従来の CUI shell 上で動作するアプリケーションの需要が減ったわけではなく，サーバサイドではむしろ需要は大きくなっていると言ってもいい。
 
 [^up]: 翻訳は [Wikipedia の記事](https://ja.wikipedia.org/wiki/UNIX%E5%93%B2%E5%AD%A6)から拝借させてもらった。ちなみに [Wikipedia のコンテンツは基本的には by-sa ライセンスで公開](https://ja.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License)されている。
 
 [Go 言語]で CLI アプリケーションを作る際に気をつける点としては
 
-- 他のツールと連携できるよう標準入出力を使ったフィルタプログラムとする
+- 他のツールと shell を介して連携できるよう標準入出力を使ったフィルタプログラムとする
 - 外部データの入出力は JSON, YAML, TOML といったテキストを用い UTF-8 文字エンコーディングに統一する
 - コードの可搬性（または移植性）を考慮し，プラットフォーム依存を避けるようにする
 
 といったところだろうか。
-もともと [Go 言語]はクロスプラットフォーム開発に強いため， [Go 言語]の作法からの逸脱ができるだけないようにすれば，それほど難しい要件ではないはずである。
+もともと [Go 言語]はクロスプラットフォーム開発に強いため，それほど難しい要件ではないはずである。
 
 ## サブコマンドとファサード・パターン
 
@@ -69,12 +69,11 @@ $ command [golabal options] <sub-command> [sub-options] [arguments]
 {{< fig-img src="/images/facade-pattern.svg" title="Facade Pattern" link="/images/facade-pattern.svg" >}}
 
 この図のようにファサード・パターンは DDD (Domain-Driven Design) と相性がよい。
-普通は Web アプリケーションのような多様なサブシステムを含むシステムを設計する際に導入する考え方だが， CLI の場合でもサブコマンドを構成するのであればファサード・パターンで設計するべきである。
+普通は Web アプリケーションのような多様なサブシステムを含むシステムを設計する際に導入する考え方だが， CLI の場合でもサブコマンドを構成するのであればファサード・パターンがよいだろう。
 
 ## mitchellh/cli パッケージ
 
 CLI をサポートするパッケージはいくつか公開されているのだが，この中で今回は [mitchellh/cli] を紹介する。
-
 [mitchellh/cli] はサブコマンドをファサード・パターンで実装するのに便利な機能を実装している。
 
 ### Command インタフェース
@@ -100,8 +99,9 @@ type Command interface {
 }
 ```
 
-[mitchellh/cli] では `Command` インタフェースに適合する型（[type]）の一覧を受け取って制御を行う[^t]。
-さらに以下の関数値（function value）型も用意されている。
+`Command` インタフェースはサブコマンドの context を構成するのに使う。
+[mitchellh/cli] は `Command` インタフェースに適合する型（[type]）のインスタンスを受け取ってサブコマンドの制御を行う[^t]。
+さらに以下の関数値（function value）を示す型 `CommandFactory` も用意されている。
 
 [^t]: 型（[type]）については「[Go 言語における「オブジェクト」]({{< relref "golang/object-oriented-programming.md" >}})」を参照のこと。
 
@@ -112,7 +112,7 @@ type Command interface {
 type CommandFactory func() (Command, error)
 ```
 
-このように `Command` [interface] 型のインスタンスを返す関数を型として定義し，この関数値の一覧を作成する。
+このように `Command` 型のインスタンスを返す関数を型として定義し，この型のリストを作成するのである。
 
 ### CLI 構造体
 
@@ -171,8 +171,7 @@ Commands map[string]CommandFactory
 
 ### Ui インタフェース
 
-`CLI` 構造体には入出力が定義されていない（ヘルプ出力用の [`io`].`Writer` は定義できる）。
-入出力のインタフェースは以下のように定義されている。
+入出力関数群を持つ `Ui` インタフェースは以下のように定義されている。
 
 ```go
 // Ui is an interface for interacting with the terminal, or "interface"
@@ -206,9 +205,9 @@ type Ui interface {
 ```
 
 更に `Ui` の特化クラスとして `BasicUi` や `PrefixedUi` や `ColoredUi` が定義されている。
-`ColoredUi` は出力をカラーにできるが，残念ながら Windows のコマンドプロンプトには対応していない（？）
+`ColoredUi` は出力をカラーにできるが，残念ながら Windows のコマンドプロンプトには対応していないようだ。
 
-`Ui` [interface] 型は `Command` [interface] 型と組み合わせて使う。
+`Ui` インタフェースは `Command` インタフェースと組み合わせてサブコマンド側の context を構成するのに使う。
 
 ### mitchellh/cli パッケージのメリット
 
@@ -223,7 +222,7 @@ type Ui interface {
 [^li]: [spiegel-im-spiegel/gofacade] は [CC0](https://creativecommons.org/publicdomain/zero/1.0/) で公開している。個人的には実証コードの扱いなので，（著作権情報の書き換えも含めて）自由に利用して 構わない。
 
 まず，入出力の Context を定義するためのクラスとして `Context` 構造体を作った。
-中身は `BasicUi` 構造体を埋め込んでいるだけである[^ebd1]。
+中身は [`cli`].`BasicUi` 構造体を埋め込んでいるだけである[^ebd1]。
 
 [^ebd1]: なんでこんな回りくどいことをしているかというと， [mitchellh/cli] パッケージをカプセル化したかったから。
 
@@ -247,8 +246,8 @@ type Facade struct {
 }
 ```
 
-`Facade` 構造体には `CommandFactory` の一覧を含んでいる。
-この一覧に `Command` [interface] 型インスタンスを格納するための関数がこれ[^cl]。
+`Facade` 構造体には [`cli`].`CommandFactory` のリストを含んでいる。
+このリストに [`cli`].`Command` インタフェースに適合するインスタンスを追加するための関数がこれ[^cl]。
 
 [^cl]: [Go 言語]では関数は全て関数閉包（closure）として機能する。
 
@@ -261,7 +260,7 @@ func (f *Facade) AddCommand(name string, command cli.Command) {
 }
 ```
 
-実際に `Facade` 構造体を実行するには以下の関数を起動する。
+実際にファサードを実行するには以下の関数を起動する。
 
 ```go
 // Run facade
@@ -374,9 +373,9 @@ type Context struct {
 
 [`gofacade`].`Context` 構造体を埋め込みフィールドで定義しているのがお分かりだろうか。
 [`gofacade`].`Context` はさらに [`cli`].`BasicUi` 構造体を埋め込んでいる。
-また `Context` 構造体は [`cli`].`Command`  [interface] 型の特化クラスとして実装している。
+また `Context` 構造体は [`cli`].`Command` インタフェースの特化クラスとして実装している。
 
-では，この context を使ってアプリケーションの起動部分を書いてみよう。
+では，この `Context` 構造体を使ってアプリケーションの起動部分を書いてみよう。
 
 ```go
 package main
@@ -413,7 +412,7 @@ func main() {
 }
 ```
 
-`setupFacade()` 関数でファサードを作成し， `main()` 関数でファサードを呼び出しているのが分かると思う。
+`setupFacade()` 関数でファサードを作成し， `main()` 関数で実行しているのが分かると思う。
 では実際に compile & run してみよう。
 
 ```
@@ -421,23 +420,25 @@ C:\workspace\astrocalc> pushd C:\workspace\astrocalc\src\github.com\spiegel-im-s
 
 C:\workspace\astrocalc\src\github.com\spiegel-im-spiegel\astrocalc> glide up
 [INFO] Fetching updates for github.com/spiegel-im-spiegel/gofacade.
-[INFO] Found glide.yaml in C:\workspace\astrocalc\src\github.com\spiegel-im-spiegel\astrocalc\vendor\github.com\spiegel-im-spiegel\gofacade/glide.yaml
-[INFO] Fetching updates for github.com/mitchellh/cli.
-[INFO] Fetching updates for golang.org/x/crypto.
+[INFO] Found glide.yaml in C:\workspace\astrocalc\src\github.com\spiegel-im-spiegel\astrocalc\vendor/github.com/spiegel-im-spiegel/gofacade/glide.yaml
 [INFO] Scanning github.com/mitchellh/cli for dependencies.
-[INFO] ==> Unknown github.com/bgentry/speakeasy (github.com/bgentry/speakeasy)
-[INFO] ==> Unknown github.com/mattn/go-isatty (github.com/mattn/go-isatty)
-[INFO] Fetching updates for github.com/bgentry/speakeasy.
-[INFO] Fetching updates for github.com/mattn/go-isatty.
 [INFO] Scanning github.com/bgentry/speakeasy for dependencies.
 [INFO] Scanning github.com/mattn/go-isatty for dependencies.
-[INFO] Scanning golang.org/x/crypto for dependencies.
-[INFO] Project relies on 5 dependencies.
+[INFO] Project relies on 4 dependencies.
 [INFO] Writing glide.lock file
 
 C:\workspace\astrocalc\src\github.com\spiegel-im-spiegel\astrocalc> popd
 
-C:\workspace\astrocalc> go install ./...
+C:\workspace\astrocalc> go install -v ./...
+github.com/spiegel-im-spiegel/astrocalc/mjdn
+github.com/spiegel-im-spiegel/astrocalc/vendor/github.com/bgentry/speakeasy
+github.com/spiegel-im-spiegel/astrocalc/vendor/github.com/mattn/go-isatty
+github.com/spiegel-im-spiegel/astrocalc/era
+github.com/spiegel-im-spiegel/astrocalc/vendor/github.com/mitchellh/cli
+github.com/spiegel-im-spiegel/astrocalc/vendor/github.com/bgentry/speakeasy/example
+github.com/spiegel-im-spiegel/astrocalc/vendor/github.com/spiegel-im-spiegel/gofacade
+github.com/spiegel-im-spiegel/astrocalc/internal/mjdnCmd
+github.com/spiegel-im-spiegel/astrocalc
 
 C:\workspace\astrocalc> bin\astrocalc.exe -h
 usage: astrocalc [--version] [--help] <command> [<args>]
