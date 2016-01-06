@@ -1,5 +1,6 @@
 +++
 date = "2016-01-05T01:22:33+09:00"
+update = "2016-01-06T12:29:56+09:00"
 description = "2016年から公有になった作品の著作者 / テレビに映っているものが分からない / 過疎地こそ「自動運転」が欲しい / 「PVの話をするのはもう止めよう」"
 draft = false
 tags = ["media", "web", "vehicle", "copyright", "public-domain", "book"]
@@ -29,12 +30,14 @@ title = "年始スペシャル：2016年から公有になった作品の著作�
 1. [過疎地こそ「自動運転」が欲しい]({{< relref "#vehicle" >}})
 1. [「PVの話をするのはもう止めよう」]({{< relref "#web" >}})
 
-
 ## 2016年から公有になった作品の著作者{#pd}
 
 - [いまだ来ない本のための青空](http://www.aozora.gr.jp/soramoyou/soramoyouindex.html#000480)
 - [2016年にパブリックドメイン入りした著作者 - Togetterまとめ](http://togetter.com/li/919886)
 - [本とパブリック・ドメイン « マガジン航[kɔː]](http://magazine-k.jp/2016/01/04/public-domain-of-the-book/)
+- [ドストエフスキー『罪と罰』が刊行されて150年＆米川正夫氏の訳業のパブリックドメイン化 - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20160105/crimeandpunishment)
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">乱歩、谷崎に隠れがちですが、米川正夫の翻訳がパブリックドメイン入りすることに大変注目しています。トルストイ、ドストエフスキー、ツルゲーネフ、プーシキンら、ロシア文学の大作家の膨大な作品の日本語訳がPDになる。大きな意味があります。 <a href="https://t.co/74RNz7GYBP">https://t.co/74RNz7GYBP</a></p>&mdash; 丹治吉順 aka 朝P (@tanji_y) <a href="https://twitter.com/tanji_y/status/682689790978859008">2015, 12月 31</a></blockquote>
 
 江戸川乱歩や谷崎潤一郎って今年からなんだねぇ。
 [Anne Frank の作品]({{< relref "remark/2015/anne-frank-scandal.md" >}})も公有になったようだ。

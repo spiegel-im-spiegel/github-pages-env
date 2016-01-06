@@ -1,6 +1,6 @@
 +++
 date = "2015-09-15T21:00:13+09:00"
-update = "2015-12-12T12:32:44+09:00"
+update = "2016-01-06T16:37:42+09:00"
 description = "ATOM Editor に関するメモ。 Windows 環境が前提になっているのであしからず。"
 draft = false
 tags = ["atom", "editor", "tools"]
@@ -246,7 +246,7 @@ trim_trailing_whitespace = false
 
 #### ファイル読み込み時に文字エンコーディングを自動判別する
 
-もうひとつの緩和策としては，既存ファイル読み込み時に [ATOM] に文字エンコードを自動判別させることだ。ただし，この機能を持つ Package は今のところ存在しないようなので自前で何とかするしかない。
+もうひとつの緩和策としては，既存ファイル読み込み時に [ATOM] に文字エンコードを自動判別させることだ。ただし，この機能を持つ Package は今のところ存在しないようなので自前で何とかするしかない（後述するが [auto-encoding](https://atom.io/packages/auto-encoding) パッケージというのがあった）。
 
 - [ATOM でファイルを開いたら自動文字コード判定を行う - Qiita](http://qiita.com/tokudiro/items/bc232c7d36261dc45936)
 
@@ -298,6 +298,12 @@ atom.workspace.onDidOpen ->
 これで [ATOM] を起動して既定の文字エンコーディングでない適当なファイルを読み込ませてみれば確認できる。ただし，自動判別は万能じゃない（たまに間違う）ので，その辺は悪しからずってことで。
 
 一番いいのは [encoding-selector](https://atom.io/packages/encoding-selector) がファイル読み込み時に自動判別する機能を付けてくれることなんだけど。誰かやらないかな。個人的には [ATOM] 開発に積極的に commit する気はないので，完全に他人任せなのだが。
+
+とか思ってたら [auto-encoding](https://atom.io/packages/auto-encoding) パッケージというのがあった。
+素敵！ 2015年の春には存在していたらしい。
+それ知らんかっとってんちんとんしゃん。
+コマンドパレットで自動判別をオフにすることもできる。
+ありがとー！
 
 ### Git 関連機能
 

@@ -1,5 +1,6 @@
 +++
 date = "2016-01-05T22:06:41+09:00"
+update = "2016-01-06T09:48:00+09:00"
 description = "ファサード・パターンは DDD (Domain-Driven Design) と相性がよい。普通は Web アプリケーションのような多様なサブシステムを持つシステムを設計する際に導入する考え方だが， CLI の場合でもサブコマンドを構成するのであればファサード・パターンがよいだろう。"
 draft = false
 tags = ["golang", "cli", "facade"]
@@ -64,7 +65,9 @@ $ command [golabal options] <sub-command> [sub-options] [arguments]
 サブコマンド方式は一見 “[UNIX Philosophy]” に反しているように見えるが， [Go 言語]の場合は全てのパッケージをひとつの実行モジュールに結合してしまうため，関連する機能をサブコマンドとして組み込むのは悪くないやりかたである。
 
 サブコマンドを構成する場合は「ファサード・パターン（facade pattern）」で考えるとよい。
-「ファサード」は「建物の正面」という意味だそうで，システム内の各機能（サブシステム）の窓口のように機能する。
+「ファサード」は「建物の正面」という意味だそうで，システム内の各サブシステムの窓口のように機能する[^fcd]。
+
+[^fcd]: ファサード自身はサブシステムの詳細を知らず context 情報を渡して処理をキックするのみなのが特徴。サブシステム側はファサードに依存せず， context 情報さえあれば処理可能にするのがコツである。
 
 {{< fig-img src="/images/facade-pattern.svg" title="Facade Pattern" link="/images/facade-pattern.svg" >}}
 
@@ -73,7 +76,7 @@ $ command [golabal options] <sub-command> [sub-options] [arguments]
 
 ## mitchellh/cli パッケージ
 
-CLI をサポートするパッケージはいくつか公開されているのだが，この中で今回は [mitchellh/cli] を紹介する。
+CLI をサポートするパッケージはいくつか公開されているのだが，この中で今回は [mitchellh/cli] パッケージを紹介する。
 [mitchellh/cli] はサブコマンドをファサード・パターンで実装するのに便利な機能を実装している。
 
 ### Command インタフェース
@@ -99,7 +102,7 @@ type Command interface {
 }
 ```
 
-`Command` インタフェースはサブコマンドの context を構成するのに使う。
+`Command` インタフェースはサブコマンドの context 情報を構成するのに使う。
 [mitchellh/cli] は `Command` インタフェースに適合する型（[type]）のインスタンスを受け取ってサブコマンドの制御を行う[^t]。
 さらに以下の関数値（function value）を示す型 `CommandFactory` も用意されている。
 
@@ -116,7 +119,7 @@ type CommandFactory func() (Command, error)
 
 ### CLI 構造体
 
-[mitchellh/cli] に渡す context は `CLI` 構造体にまとめられている。
+[mitchellh/cli] に渡す context 情報は `CLI` 構造体にまとめられている。
 
 ```go
 // CLI contains the state necessary to run subcommands and parse the
@@ -207,7 +210,7 @@ type Ui interface {
 更に `Ui` の特化クラスとして `BasicUi` や `PrefixedUi` や `ColoredUi` が定義されている。
 `ColoredUi` は出力をカラーにできるが，残念ながら Windows のコマンドプロンプトには対応していないようだ。
 
-`Ui` インタフェースは `Command` インタフェースと組み合わせてサブコマンド側の context を構成するのに使う。
+`Ui` インタフェースは `Command` インタフェースと組み合わせてサブコマンド側の context 情報を構成するのに使う。
 
 ### mitchellh/cli パッケージのメリット
 
@@ -359,7 +362,7 @@ func (c Context) Run(args []string) int {
 }
 ```
 
-ポイントは `astrocalc mjdn` サブコマンド用の context として `Context` 構造体を定義しているところ。
+ポイントは `astrocalc mjdn` サブコマンド用の context 情報として `Context` 構造体を定義しているところ。
 
 ```go
 // Context は mjdn コマンドのコンテキストを定義する
@@ -420,8 +423,13 @@ C:\workspace\astrocalc> pushd C:\workspace\astrocalc\src\github.com\spiegel-im-s
 
 C:\workspace\astrocalc\src\github.com\spiegel-im-spiegel\astrocalc> glide up
 [INFO] Fetching updates for github.com/spiegel-im-spiegel/gofacade.
-[INFO] Found glide.yaml in C:\workspace\astrocalc\src\github.com\spiegel-im-spiegel\astrocalc\vendor/github.com/spiegel-im-spiegel/gofacade/glide.yaml
+[INFO] Found glide.yaml in C:\workspace\astrocalc\src\github.com\spiegel-im-spiegel\astrocalc\vendor\github.com\spiegel-im-spiegel\gofacade/glide.yaml
+[INFO] Fetching updates for github.com/mitchellh/cli.
 [INFO] Scanning github.com/mitchellh/cli for dependencies.
+[INFO] ==> Unknown github.com/bgentry/speakeasy (github.com/bgentry/speakeasy)
+[INFO] ==> Unknown github.com/mattn/go-isatty (github.com/mattn/go-isatty)
+[INFO] Fetching updates for github.com/bgentry/speakeasy.
+[INFO] Fetching updates for github.com/mattn/go-isatty.
 [INFO] Scanning github.com/bgentry/speakeasy for dependencies.
 [INFO] Scanning github.com/mattn/go-isatty for dependencies.
 [INFO] Project relies on 4 dependencies.
@@ -429,13 +437,11 @@ C:\workspace\astrocalc\src\github.com\spiegel-im-spiegel\astrocalc> glide up
 
 C:\workspace\astrocalc\src\github.com\spiegel-im-spiegel\astrocalc> popd
 
-C:\workspace\astrocalc> go install -v ./...
+C:\workspace\astrocalc> go install -v github.com/spiegel-im-spiegel/astrocalc
 github.com/spiegel-im-spiegel/astrocalc/mjdn
 github.com/spiegel-im-spiegel/astrocalc/vendor/github.com/bgentry/speakeasy
 github.com/spiegel-im-spiegel/astrocalc/vendor/github.com/mattn/go-isatty
-github.com/spiegel-im-spiegel/astrocalc/era
 github.com/spiegel-im-spiegel/astrocalc/vendor/github.com/mitchellh/cli
-github.com/spiegel-im-spiegel/astrocalc/vendor/github.com/bgentry/speakeasy/example
 github.com/spiegel-im-spiegel/astrocalc/vendor/github.com/spiegel-im-spiegel/gofacade
 github.com/spiegel-im-spiegel/astrocalc/internal/mjdnCmd
 github.com/spiegel-im-spiegel/astrocalc
@@ -480,3 +486,10 @@ C:\workspace\astrocalc> bin\astrocalc.exe mjdn 2015 1 1
 [`gofacade`]: https://github.com/spiegel-im-spiegel/gofacade "spiegel-im-spiegel/gofacade"
 [spiegel-im-spiegel/astrocalc]: https://github.com/spiegel-im-spiegel/astrocalc "spiegel-im-spiegel/astrocalc"
 [glide]: https://github.com/Masterminds/glide "Masterminds/glide"
+
+## 参考図書
+
+<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8ATHGW/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/41mh5r0NwLL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8ATHGW/baldandersinf-22/">増補改訂版 Java言語で学ぶデザインパターン入門</a></dt><dd>結城 浩 </dd><dd>SBクリエイティブ 2004-06-18</dd><dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1BS/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8AT1BS.09._SCTHUMBZZZ_.jpg"  alt="増補改訂版 Java言語で学ぶデザインパターン入門 マルチスレッド編"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1EU/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8AT1EU.09._SCTHUMBZZZ_.jpg"  alt="Java言語で学ぶリファクタリング入門"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00JEYPPOE/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00JEYPPOE.09._SCTHUMBZZZ_.jpg"  alt="Code Complete 第2版 上　完全なプログラミングを目指して"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0197SZZZ0/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B0197SZZZ0.09._SCTHUMBZZZ_.jpg"  alt="日経Linux（リナックス） 2016年 1月号 [雑誌]"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00V2WMQNE/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00V2WMQNE.09._SCTHUMBZZZ_.jpg"  alt="改訂2版　パーフェクトJava"  /></a> </p>
+<p class="description">結城浩さんによる通称「デザパタ本」。 Java 以外でも使える優れもの。</p>
+<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-01-05">2016-01-05</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+</div>
