@@ -1,8 +1,9 @@
 +++
 date = "2015-09-20T21:43:17+09:00"
+update = "2016-01-07T13:09:45+09:00"
 description = "今回は大幅改訂版なので，以前のを持ってる人も買っておいて損はない。"
 draft = false
-tags = ["book", "review", "cryptography", "security", "trust", "sha-3", "block-chain", "ecc"]
+tags = ["book", "review", "cryptography", "security", "trust", "sha-3", "blockchain", "ecc"]
 title = "『暗号技術入門 第3版』をななめ読み"
 
 [author]
