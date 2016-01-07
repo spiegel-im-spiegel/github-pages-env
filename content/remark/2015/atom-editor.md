@@ -1,6 +1,6 @@
 +++
 date = "2015-09-15T21:00:13+09:00"
-update = "2016-01-06T16:37:42+09:00"
+update = "2016-01-07T10:08:47+09:00"
 description = "ATOM Editor に関するメモ。 Windows 環境が前提になっているのであしからず。"
 draft = false
 tags = ["atom", "editor", "tools"]
@@ -361,6 +361,7 @@ submodule の処理が得意ではないっぽいのもマイナス。
 1. 特定の単語をマークしておける [quick-highlight](https://atom.io/packages/quick-highlight) が結構使える。 Windows だとキーに割り当てられないので、 toggle を適当なファンクションキーとかに割り当てておくとめっさ便利。
 - むむっ。 [latex](https://atom.io/packages/latex) パッケージなるものがあるなぁ。
 1. [tablr](https://atom.io/packages/tablr) : CSV Editor。なにこれ素敵！
+1. [tempfile](https://atom.io/packages/tempfile) は書き捨て用のファイルを開くことができる。ファイルタイプを指定できるので通常のファイルと同じように highlight や snippet が効く。また設定でファイル保存先を指定できるので書き散らしたメモを溜めておくこともできる。
 
 ### 現在の設定
 
