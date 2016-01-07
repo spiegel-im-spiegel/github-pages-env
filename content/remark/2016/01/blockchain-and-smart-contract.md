@@ -3,7 +3,7 @@ date = "2016-01-07T12:55:00+09:00"
 description = "Bitcoin は「誰が」取り引きしているかについて気にしないが，もっと広く smart contract を考えるのなら何らかの形で「誰が」を保証しなければならないし，そのための基盤（infrastructure）が必要となる，と思うのだがどうだろう。"
 draft = true
 tags = ["blockchain", "smart-contract", "fintech", "engineering"]
-title = "Blockchain と Smart-Contract"
+title = "Blockchain と Smart Contract"
 
 [author]
   avatar = "/images/avatar.jpg"
@@ -28,11 +28,12 @@ title = "Blockchain と Smart-Contract"
 - [世界の金融機関がフィンテックの本命としてブロックチェーン技術にこぞって投資する理由とは？（全3話中2話目） | コインテレグラフジャパン](http://jp.cointelegraph.com/news/115872/what-is-the-reason-that-a-world-financial-institution-invests-in-a-block-chain-technology-as-a-favorite-of-the-fin-technical-center-all-togetherjp2)
 - [世界の金融機関がフィンテックの本命としてブロックチェーン技術にこぞって投資する理由とは？（全3話中3話目） | コインテレグラフジャパン](http://jp.cointelegraph.com/news/115873/what-is-the-reason-that-a-world-financial-institution-invests-in-a-block-chain-technology-as-a-favorite-of-the-fin-technical-center-all-togetherjp3)
 
-昨年この記事を斜め読みした時は気づかなかったが，同時期に
+昨年この記事を斜め読みした時は気づかなかったが
 
 - [さくらインターネットとテックビューロ、ブロックチェーンの実証実験環境「mijinクラウドチェーンβ」を金融機関やITエンジニア向けに無料提供～本日より申込受付を開始し、2016年1月から順次提供～](http://www.sakura.ad.jp/press/2015/1216_mijin_cloud_chain/)
+- [「さくらのクラウド」、「ASTERIA WARP」、「mijin」の3社製品･サービスによるプライベート･ブロックチェーン＆IoT実証実験プラットフォームの無償提供開始について＜無償提供期間：2016年1月18日～6月30日＞](http://www.sakura.ad.jp/press/2016/0107_demonstration_platform/)
 
-というプレスリリースがあったのを今さら思い出して「あぁ，これって広告記事だったのか」と気がついた次第。
+あぁ，これって広告記事だったのか。
 感度低いなぁ，私（笑）
 
 上の記事からいくつか気になる部分を抜き出しておく。
@@ -62,12 +63,12 @@ Blockchain の特徴は完全性と可用性にある，ということのよう
 3. Blockchain は P2P による分散型かつ fault tolerant（過失を許容する）なシステムだが最終的には fork も merge も許容しない
 4. Bitcoin のアドレス（実体は公開鍵）が誰に帰属するか Bitcoin/Blockchain は関知しない。Bitcoin が気にするのは Blockchain に記載されるアドレスの一貫性と無矛盾性である。アドレスの証明が必要な場合は外部の PKI を利用するか新たに組み込む必要がある
 
-私の Bitcoin/Blockchain への関心は「信用モデル（trust model）」にあるため，このようなまとめになっている。
+私の関心領域は「信用モデル（trust model）」にあるため，このようなまとめになっている。
 Bitcoin は「誰が」取り引きしているかについて気にしない[^a] が，もっと広く smart contract を考えるのなら何らかの形で「誰が」を保証しなければならないし，そのための基盤（infrastructure）が必要となる，と思うのだがどうだろう。
 
 [^a]: これは匿名とは異なる。 Bitcoin の元帳である Blockchain は同期されたコピーを誰でも閲覧でき，同じ Bitcoin アドレスを使い続けるならそのアドレスに対する取引履歴を抽出することもできる。アドレスや取引履歴をもとに対象を絞り込むのは面倒だが不可能ではない。
 
-私が Bitcoin への関心が薄いのは，地方から見て Bitcoin がアベノミクスのごとき「彼岸」の話であることと，いわゆる FinTech（Financial Technology） なるバズワードは同じ技術分野でも完全に畑違いだから。
+私は Bitcoin そのものへの関心が薄いのだが，これは地方から見て Bitcoin がアベノミクスのごとき「彼岸」の話であることと，いわゆる FinTech（Financial Technology） なるバズワードは「畑違い」だから。
 でも Blockchain 自身は FinTech 分野におさまらない可能性を持っていると思う。
 ので，今後も情報を追いかけていくつもりである。
 
