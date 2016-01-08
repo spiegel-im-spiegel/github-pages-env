@@ -1,6 +1,6 @@
 +++
 date = "2015-09-15T21:00:13+09:00"
-update = "2016-01-07T10:08:47+09:00"
+update = "2016-01-08T10:28:03+09:00"
 description = "ATOM Editor に関するメモ。 Windows 環境が前提になっているのであしからず。"
 draft = false
 tags = ["atom", "editor", "tools"]
@@ -311,7 +311,8 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 
 - [git-plus](https://atom.io/packages/git-plus)
 
-[git-plus](https://atom.io/packages/git-plus) は主にコマンドパレットで操作するが（メニューの「Packages」からも辿れる），コマンドパレットの呼び出しを f1 キーに割り当てたらだいぶ使いやすくなった。
+[git-plus](https://atom.io/packages/git-plus) は主にコマンドパレットで操作するが（メニューの「Packages」からも辿れる），コマンドパレットの呼び出しを `f1` キーに割り当てたらだいぶ使いやすくなった。
+更に [git-plus](https://atom.io/packages/git-plus) 専用のコマンドパレットもある。これも `shift-f1` キーに割り当てた。
 
 [git-control](https://atom.io/packages/git-control) は GUI で最初の頃は便利だったのだが， [git-plus](https://atom.io/packages/git-plus) が手に馴染んできたら使わなくなった。
 submodule の処理が得意ではないっぽいのもマイナス。
