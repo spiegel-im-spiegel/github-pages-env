@@ -1,5 +1,6 @@
 +++
 date = "2016-01-07T20:50:45+09:00"
+update = "2016-01-18T12:18:27+09:00"
 description = "Bitcoin は「誰が」取り引きしているかについて気にしないが，もっと広く smart contract を考えるのなら何らかの形で「誰が」を保証しなければならないし，そのための基盤（infrastructure）が必要となる，と思うのだがどうだろう。"
 draft = false
 tags = ["blockchain", "smart-contract", "fintech", "engineering"]
@@ -61,7 +62,7 @@ Blockchain の特徴は完全性と可用性にある，ということのよう
 1. Blockchain は「鎖」で繋がれた追記型データベース。「鎖」の途中のデータは取り消しも変更（改竄）もできない
 2. Blockchain の追記プロセスには不正の余地がないよう何らかの仕掛けが必要。 Bitcoin の場合は「作業証明（proof-of-work）」がそれにあたる
 3. Blockchain は P2P による分散型かつ fault tolerant（過失を許容する）なシステムだが最終的には fork も merge も許容しない
-4. Bitcoin のアドレス（実体は公開鍵）が誰に帰属するか Bitcoin/Blockchain は関知しない。Bitcoin が気にするのは Blockchain に記載されるアドレスの一貫性と無矛盾性である。アドレスの証明が必要な場合は外部の PKI を利用するか新たに組み込む必要がある
+4. Bitcoin のアドレス（実体は公開鍵）の帰属先について Bitcoin/Blockchain は関知しない。Bitcoin が気にするのは Blockchain に記載されるアドレスの一貫性と無矛盾性である。アドレスの証明が必要な場合は外部の PKI を利用するか新たに組み込む必要がある
 
 私の関心領域は「信用モデル（trust model）」にあるため，このようなまとめになっている。
 Bitcoin は「誰が」取り引きしているかについて気にしない[^a] が，もっと広く smart contract を考えるのなら何らかの形で「誰が」を保証しなければならないし，そのための基盤（infrastructure）が必要となる，と思うのだがどうだろう。
@@ -78,6 +79,7 @@ Bitcoin は「誰が」取り引きしているかについて気にしない[^a
 - [（日銀レビュー）「デジタル通貨」の特徴と国際的な議論 ：日本銀行 Bank of Japan](http://www.boj.or.jp/research/wps_rev/rev_2015/rev15j13.htm/)
 - [スマートコントラクトとは何か? Smart Contractsの言葉の定義 - Qiita](http://qiita.com/hshimo/items/093f40b856ba2436fbba)
 - [Smart Contract - 暗号通貨のお勉強　～Bitcoin、Rippleを中心に～](http://cryptocoin.hatenablog.com/entry/2015/07/22/001500)
+- [BitCoinとBlockChainにまつわる誤解ーそんなことはできない - Qiita](http://qiita.com/tatarou1986/items/9d994896795a4871dc37)
 
 ## 参考図書
 
