@@ -1,6 +1,6 @@
 +++
 date = "2015-11-08T20:10:15+09:00"
-update = "2015-11-13T16:47:54+09:00"
+update = "2016-01-20T21:21:54+09:00"
 description = "今回はいよいよ Creative Commons Licenses について解説する。"
 draft = false
 tags = ["creative-commons", "copyright", "license"]
@@ -140,7 +140,7 @@ title = "Creative Commons Licenses"
 
 許諾者はマテリアルに付与したライセンスを取り消しできない。
 したがって，少なくともライセンスの条件を守っていればマテリアルの利用を後から取り消されることはない[^c]。
-またライセンスの効力は，著作権が存続する限り持続する（著作権の存続期間が過ぎれば「パブリックドメイン（public domain）」になる）。
+またライセンスの効力は，著作権が存続する限り持続する（著作権の存続期間が過ぎればマテリアルは公有（public domain）に帰属する）。
 
 [^c]: つまり許諾者は，ライセンスを付与する場合には妥当な条件であるか予め考慮する必要がある。
 
@@ -367,7 +367,7 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
     - [【CCPLv3.0】ＤＲＭ条項の改正に関する議論 | クリエイティブ・コモンズ・ジャパン](http://creativecommons.jp/2006/11/15/discussion-drm/)
     - [【CCPLv3.0】著作権管理団体を通じての報酬請求権に関する議論 | クリエイティブ・コモンズ・ジャパン](http://creativecommons.jp/2006/11/16/ccplv3/)
 - [Creative Commons "Non-Commercial" Content on Ad-Supported Sites](http://blogoscoped.com/archive/2008-02-07-n77.html)
-- [What’s New in 4.0 - Creative Commons](https://creativecommons.org/Version4)
+- [What's New in 4.0 - Creative Commons](https://creativecommons.org/Version4/) （[日本語参考訳](http://qiita.com/nyampire/items/c03904bd27bd8812aad3)）
 - [CCライセンス・バージョン4.0 日本語版の公開 | クリエイティブ・コモンズ・ジャパン](http://creativecommons.jp/2015/07/15/cc%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B34-0-%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%89%88%E3%81%AE%E5%85%AC%E9%96%8B/)
 
 [本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
