@@ -1,6 +1,6 @@
 +++
 date = "2015-09-19T23:45:56+09:00"
-update = "2015-11-08T18:20:27+09:00"
+update = "2016-01-20T09:18:21+09:00"
 description = "今回は文字列について。短めにさくっと。"
 draft = false
 tags = ["golang", "string", "rune", "character"]
@@ -123,7 +123,7 @@ U+672C '本' starts at byte position 3
 U+8A9E '語' starts at byte position 6
 ```
 
-[rune] の実体は int32 で，内部表現は Unicode になっている。
+[rune] の実体は int32 で，内部表現は Unicode の符号点（code point）になっている。
 [string] と [rune] 配列は相互変換できるので，文字列を切り取る場合は
 
 ```go

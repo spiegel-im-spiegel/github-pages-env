@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-01-18T19:27:40+09:00"
+update = "2016-01-20T09:25:38+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -399,6 +399,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Sensuでネットワーク監視やってみた - Qiita](http://qiita.com/hiconyan/items/7656e9fb2d5bf5c794be)
 - [i18n4go - developerWorks Open](https://developer.ibm.com/open/i18n4go/) : IBM の [developerWorks Open](https://developer.ibm.com/open/) プロジェクトのひとつ。「[プログラムを国際化するための汎用ツール](http://www.atmarkit.co.jp/ait/articles/1507/23/news058.html)」らしい。
 - [なぜGo言語は設計が悪いのか – Go愛好者の見地から | 未分類 | POSTD](http://postd.cc/why-go-is-a-poorly-designed-language/) : 必見！ Go のイケてないところ
+- [Go言語の初心者が見ると幸せになれる場所 - Qiita](http://qiita.com/tenntenn/items/0e33a4959250d1a55045)
 
 ### Go 1.5 に関する話題
 

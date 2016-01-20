@@ -1,6 +1,6 @@
 +++
 date = "2015-12-15T21:19:58+09:00"
-update = "2015-12-22T00:18:59+09:00"
+update = "2016-01-20T09:15:48+09:00"
 description = "Go 言語がいわゆる「オブジェクト指向言語」と言えるかどうかについては色々とあるようだが，オブジェクト指向プログラミングを助けるための仕掛けはいくつか存在する。今回はその中の type キーワードを中心に解説していく。"
 draft = false
 tags = ["golang", "object-oriented", "programming", "type"]
@@ -46,7 +46,7 @@ title = "Go 言語における「オブジェクト」"
 string は不変（immutable）な値で，その実体は byte 配列である。
 基本型は組み込み型であり，振る舞いを追加・変更することはできない。
 
-[^rn]: rune は Unicode 文字の符号位置（code point）を示す型で文字そのものを表現する。 string と rune の関係については「[String と Rune]({{< relref "golang/string-and-rune.md" >}})」を参照のこと。
+[^rn]: rune は Unicode 文字の符号点（code point）を示す型で文字そのものを表現する。 string と rune の関係については「[String と Rune]({{< relref "golang/string-and-rune.md" >}})」を参照のこと。
 
 さらにこれらの基本型を集約した構造体 [struct] を定義できる。
 
@@ -256,11 +256,11 @@ func (e *PathError) Error() string { return e.Op + " " + e.Path + ": " + e.Err.E
 
 ### 型の埋め込み
 
-もうひとつの汎化・特化の機能が型の埋め込み（embed）である。
+もうひとつの汎化・特化の機能が型の埋め込み（embedding）である。
 構造体や [interface] には別の型を埋め込むことができる。
 
 たとえば [`io`].`ReadWriter` は以下のように `Reader` および `Writer` を埋め込んでいる。
-（このときの `Reader` および `Writer` を「埋め込みインタフェース（enbedding interface）」と呼ぶ）
+（このときの `Reader` および `Writer` を「埋め込みインタフェース（embedding interface）」と呼ぶ）
 
 ```go
 package io
@@ -303,7 +303,7 @@ func NewReadWriter(r *Reader, w *Writer) *ReadWriter {
 }
 ```
 
-と実装されていて， [`bufio`] の `Reader` および `Writer` を埋め込み，これらの型の一種として実装されている（このときの `Reader` および `Writer` を「埋め込みフィールド（enbedded field）」または「匿名フィールド（anonymous field）」と呼ぶ）。
+と実装されていて， [`bufio`] の `Reader` および `Writer` を埋め込み，これらの型の一種として実装されている（このときの `Reader` および `Writer` を「埋め込みフィールド（embedded field）」または「匿名フィールド（anonymous field）」と呼ぶ）。
 なお， [`bufio`].`ReadWriter` は [`io`].`ReadWriter` の一種として機能している点にも注目してほしい。
 
 ### 関数のオーバーライドと処理の委譲
