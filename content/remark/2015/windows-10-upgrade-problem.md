@@ -1,5 +1,6 @@
 +++
 date = "2015-12-13T13:12:02+09:00"
+update = "2016-01-22T22:10:24+09:00"
 description = "自宅のマシンをチェックしたら，既に遅かった。"
 draft = false
 tags = ["windows"]
@@ -81,3 +82,4 @@ Windows 10 が悪いとは言わない（まぁ敢えてオススメはしない
 - [エフセキュアブログ : Windows 10を安心して使用するために知っておくべき5つのこと](http://blog.f-secure.jp/archives/50752605.html)
 - [Windows 10 で PSK を共有する — しっぽのさきっちょ | text.Baldanders.info]({{< relref "remark/2015/wifi-sense.md" >}})
 - [「Windows 10」へのアップグレード、来年には「推奨される更新プログラム」に“格上げ”へ - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1511/02/news076.html)
+- [「Windows 10にアップグレードしませんか？」のポップアップ広告プログラムがさらにアグレッシブに変更される - GIGAZINE](http://gigazine.net/news/20160113-new-kb3035583/)
