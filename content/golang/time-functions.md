@@ -1,7 +1,7 @@
 +++
-date = "2016-01-21T19:16:14+09:00"
+date = "2016-01-22T20:56:21+09:00"
 description = "今回は日付処理の話。特にフォーマットの定義の仕方はよく忘れるので覚え書きとして記しておく。"
-draft = true
+draft = false
 tags = ["golang", "time"]
 title = "Go 言語の日付処理"
 
