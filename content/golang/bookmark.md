@@ -135,6 +135,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 ### デバッガ
 
 - [golang でビルド時に最適化をオフにする - tetsuok の旅 blog](http://tetsuok.hatenablog.com/entry/2012/07/01/062325) : gdb でデバッグする際は最適化を off にするといいという話
+- [Go言語のトラブルシューティング用機能](http://www.slideshare.net/satorutakeuchi18/go-53685632)
+- [Go で利用できるプロファイリングツール pprof の読み方 - Qiita](http://qiita.com/ikawaha/items/e3b35f09fb49e9217924)
 
 ### Go 言語のテスト・フレームワーク
 
@@ -305,6 +307,9 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Goで良い感じに日時をパースするライブラリdatemakiの話とGo 1.6 - YAMAGUCHI::weblog](http://ymotongpoo.hatenablog.com/entry/2015/12/22/000011)
 - [Goで帳票をPDFに作成するライブラリ。 請求書などの複雑なフォーマットにも対応 - Qiita](http://qiita.com/mikeshimura/items/d149bbd869683e820579)
 - [golangのtime.Timeの当日00:00:00を取得する方法とベンチマーク - Qiita](http://qiita.com/ushio_s/items/3e270933641710bbd88e)
+- [Go で簡単に Excelを作成するライブラリ。 色、罫線、網掛けを事前定義済 - Qiita](http://qiita.com/mikeshimura/items/b60823e923fb6d0840c0)
+- [interface{} をソートする - Qiita](http://qiita.com/tchssk/items/b61f1f06d22a6232d4c8)
+- [Gmail API for Goで、下書き生成ツールを作りました。 - Qiita](http://qiita.com/yyoshiki41/items/1159e1a70ffaa8fd84ed)
 
 ### コマンドライン・ツール
 
