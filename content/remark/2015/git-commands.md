@@ -1,6 +1,6 @@
 +++
 date = "2015-12-09T20:14:59+09:00"
-update = "2016-01-08T10:04:55+09:00"
+update = "2016-01-24T15:42:38+09:00"
 description = "git 各コマンドに関する覚え書き。思い出したら追記予定。"
 draft = false
 tags = ["git", "tools"]
@@ -182,5 +182,6 @@ $ git push -u origin master
 - [git-flow cheatsheet](git-flow cheatsheet) （日本語）
 - [git flowとgithub flowざっくりまとめ | KentaKomai Blog](http://komaken.me/blog/2013/09/09/git-flow%E3%81%A8github-flow%E3%81%96%E3%81%A3%E3%81%8F%E3%82%8A%E3%81%BE%E3%81%A8%E3%82%81/)
 - [GitHub初心者はForkしない方のPull Requestから入門しよう | qnyp blog](http://blog.qnyp.com/2013/05/28/pull-request-for-github-beginners/)
+- [Git for Windows 2.xのシステムコンフィグファイルは2つある - Qiita](http://qiita.com/anqooqie/items/07367b2b5932f3acfc38)
 
 [git]: https://git-scm.com/ "Git"
