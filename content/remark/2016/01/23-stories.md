@@ -1,6 +1,6 @@
 +++
 date = "2016-01-23T13:54:34+09:00"
-update = "2016-01-24T15:02:14+09:00"
+update = "2016-01-26T19:31:03+09:00"
 description = "Planet Nine / 次期X線国際天文衛星 ASTRO-H は 2月12日に打ち上げ予定 / 2^74207281-1 is Prime! / いまのところ「秀丸」への依存度は1割程度 / Bitcoin は失敗したか / TeX Wiki が移転しとるがな / 「『いま読むべき本』３冊」"
 draft = false
 tags = ["astronomy", "planet9", "jaxa", "hidemaru", "atom", "editor", "bitcoin", "tex", "pandoc", "book", "math", "prime-number"]
@@ -41,6 +41,7 @@ title = "週末スペシャル： Planet Nine"
 - [シミュレーションで推測、太陽系第9惑星存在の可能性 - アストロアーツ](http://www.astroarts.co.jp/news/2016/01/21planet9/index-j.shtml)
 - [太陽系に「第9惑星」存在か　米天文学者らが論文発表 | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2016_01_21_planet-nine.html)
 - [9番目の惑星の存在を示す証拠が発見された | TechCrunch Japan](http://jp.techcrunch.com/2016/01/21/20160120astronomers-find-evidence-of-a-ninth-planet/)
+- [「見えない太陽系第9惑星」は本当に発見できる？何を使って、どう見つける？ - Engadget Japanese](http://japanese.engadget.com/2016/01/25/9/)
 
 実際に発見されたわけではなく，いわゆる「海王星以遠天体（Trans-Neptunian Object; TNO または Edgeworth-Kuiper Belt Object; EKBO）」の軌道の偏りからの推測らしい。
 よくある与太話ではなく，割と確からしい話のようだ。
