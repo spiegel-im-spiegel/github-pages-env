@@ -1,6 +1,6 @@
 +++
 date = "2015-10-17T15:51:23+09:00"
-update = "2016-01-20T12:51:48+09:00"
+update = "2016-01-26T12:51:48+09:00"
 description = "まずは「著作権」について簡単におさらい。"
 draft = false
 tags = ["code", "law", "intellectual-property", "copyright"]
@@ -265,7 +265,9 @@ title = "著作権と著作権法"
 
 こういった問題に対し，米国などでは「公正な利用（fair use）」という考え方がある。
 ある利用パターンが社会的に見て「公正」であれば認めようというものだ。
-実際にどのような場合に認められるかは司法の場で議論されることが多い。
+実際にどのような場合に認められるかは司法の場で議論されることが多い[^fu]。
+
+[^fu]: 米国の fair use では「利用の目的や本質」「原作品の本質」「抜粋の量や実質性」「原作品の価値への影響」の4つの観点に基づいて「公正」かどうかが議論される。最近の例としては [Google Books の Library Book Scan に関する訴訟]({{< relref "remark/2015/google-books-library-project.md" >}})が参考になる。
 
 一方日本では，「公正な利用」というものは存在しない。
 その代わり[著作権法]では「著作権の制限」（第30-50条）を設けている。
@@ -332,11 +334,11 @@ title = "著作権と著作権法"
 - [バーチャルネット法律娘　真紀奈17歳](http://homepage3.nifty.com/machina/) : 古いコンテンツだが，このなかの「著作権法講座」は参考になる
 - [著作権Q&A | 公益社団法人著作権情報センター CRIC](http://www.cric.or.jp/qa/index.html)
 - [特集 : 18歳からの著作権入門 - CNET Japan](http://japan.cnet.com/sp/copyright_study/)
-
+- [自由か著作権か？](http://www.hyuki.com/gnu/frcp.html)
 
 [本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
 [著作権法]: http://law.e-gov.go.jp/htmldata/S45/S45HO048.html "著作権法"
-[CC Licenses]: http://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
+[CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
 
 ### 参考図書
 

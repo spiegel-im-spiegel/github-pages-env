@@ -1,9 +1,10 @@
 +++
 date = "2016-01-20T21:31:46+09:00"
+update = "2016-01-26T12:33:47+09:00"
 description = "前回紹介した「Creative Commons Licenses」の内容を踏まえた上で今回は「著作者人格権」と CC Licenses との関係について解説する。"
 draft = false
 tags = ["moral-rights", "creative-commons", "copyright", "license"]
-title = "人格権と CC-Licenses"
+title = "人格権と CC Licenses"
 
 [author]
   avatar = "/images/avatar.jpg"
@@ -22,7 +23,11 @@ title = "人格権と CC-Licenses"
 
 [前回紹介した「Creative Commons Licenses」]({{< relref "cc-licenses/02-creative-commons-licenses.md" >}})の内容を踏まえた上で今回は人格権と [CC Licenses] との関係について解説する。
 
-## 「著作者人格権」とは
+1. [「著作者人格権」とは]({{< relref "#about" >}})
+1. [その他の「人格権」]({{< relref "#other" >}})
+1. [CC Licenses では（可能なかぎり）人格権は行使されない]({{< relref "#ccl" >}})
+
+## 「著作者人格権」とは{#about}
 
 まずは「著作者人格権」から。
 
@@ -52,7 +57,7 @@ title = "人格権と CC-Licenses"
 
 [^b]: ただしこれにはいくつか例外がある。学校教育の目的上やむを得ない場合，建築物の模様替えやリフォーム，プログラムの不具合修正や改善，などである。ちなみに「著作権の制限」（[著作権法] 第30-50条）は著作者人格権には及ばないのでご注意を。
 
-## その他の「人格権」
+## その他の「人格権」{#other}
 
 著作隣接権のひとつである「実演家の権利」には「実演家の人格権」というのがある。
 具体的には
@@ -75,11 +80,11 @@ title = "人格権と CC-Licenses"
 
 [^c]: ただし日本には明示的な「プライバシー権」は存在しない。「個人情報保護法」は（人格権ではなく）個人にまつわる**情報**の取り扱いについて定めた法律である。
 
-## CC Licenses では（可能なかぎり）人格権は行使されない
+## CC Licenses では（可能なかぎり）人格権は行使されない{#ccl}
 
 さて，上述した人格権について [CC Licenses] はどうしているかというと，許諾範囲を逸脱しない限り許諾者は人格権を行使しないことになっている。
 
-{{< fig-quote title="クリエイティブ・コモンズ (Creative Commons) — 表示-継承 4.0 国際" link="http://creativecommons.org/licenses/by-sa/4.0/legalcode.ja" >}}
+{{< fig-quote title="クリエイティブ・コモンズ (Creative Commons) — 表示-継承 4.0 国際" link="https://creativecommons.org/licenses/by-sa/4.0/legalcode.ja" >}}
 <q>同一性保持の権利のような著作者人格権は、本パブリック・ライセンスのもとではライセンスされません。パブリシティ権、プライバシー権、および／または他の類似した人格権も同様です。ただし、可能なかぎり、許諾者は、あなたがライセンスされた権利を行使するために必要とされる範囲内で、また、その範囲内でのみ、許諾者の保持する、いかなるそのような権利を放棄し、および／または主張しないことに同意します。</q>
 {{< /fig-quote >}}
 
@@ -88,14 +93,14 @@ title = "人格権と CC-Licenses"
 
 この点について，以前のバージョンでは比較的明確に書かれていて，たとえば 2.1 日本版では
 
-{{< fig-quote title="クリエイティブ・コモンズ リーガル・コード — 表示-継承 2.1 日本版" link="http://creativecommons.org/licenses/by-sa/4.0/legalcode.ja" >}}
+{{< fig-quote title="クリエイティブ・コモンズ リーガル・コード — 表示-継承 2.1 日本版" link="https://creativecommons.org/licenses/by-sa/4.0/legalcode.ja" >}}
 <q>原著作者及び実演家の名誉又は声望を害する方法で原著作物を改作、変形もしくは翻案して生じる著作物は、この利用許諾の目的においては、二次的著作物に含まれない。</q>
 {{< /fig-quote >}}
 
 とあり，原著作者の名誉・声望を害する改変は二次的著作物に含めない，としている。
 また 3.0 Unported でも同様に
 
-{{< fig-quote title="Creative Commons Legal Code — Attribution-ShareAlike 3.0 Unported" link="http://creativecommons.org/licenses/by-sa/3.0/legalcode" lang="en" >}}
+{{< fig-quote title="Creative Commons Legal Code — Attribution-ShareAlike 3.0 Unported" link="https://creativecommons.org/licenses/by-sa/3.0/legalcode" lang="en" >}}
 <q>Except as otherwise agreed in writing by the Licensor or as may be otherwise permitted by applicable law, if You Reproduce, Distribute or Publicly Perform the Work either by itself or as part of any Adaptations or Collections, You must not distort, mutilate, modify or take other derogatory action in relation to the Work which would be prejudicial to the Original Author's honor or reputation.</q>
 {{< /fig-quote >}}
 
@@ -134,4 +139,4 @@ title = "人格権と CC-Licenses"
 
 [本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
 [著作権法]: http://law.e-gov.go.jp/htmldata/S45/S45HO048.html "著作権法"
-[CC Licenses]: http://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
+[CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"

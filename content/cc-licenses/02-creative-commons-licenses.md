@@ -1,6 +1,6 @@
 +++
 date = "2015-11-08T20:10:15+09:00"
-update = "2016-01-25T19:55:56+09:00"
+update = "2016-01-26T19:55:56+09:00"
 description = "今回はいよいよ Creative Commons Licenses について解説する。"
 draft = false
 tags = ["creative-commons", "copyright", "license"]
@@ -158,12 +158,12 @@ title = "Creative Commons Licenses"
 {{< fig-gen title="Creative Commons Licenses Version 4.0 International" >}}
 <table>
 <tbody>
-<tr><th class='left'><i class="cc cc-BY cc-2x"></i>      </th><th class='left'>表示                </th><td><a href="http://creativecommons.org/licenses/by/4.0/">コモンズ証</a>（<a href="http://creativecommons.org/licenses/by/4.0/deed.ja">日本語</a>） <a href="http://creativecommons.org/licenses/by/4.0/legalcode">法的条項</a>（<a href="http://creativecommons.org/licenses/by/4.0/legalcode.ja">日本語</a>） <a href="http://creativecommons.org/licenses/by/4.0/rdf">メタデータ</a></td></tr>
-<tr><th class='left'><i class="cc cc-by-sa cc-2x"></i>   </th><th class='left'>表示-継承           </th><td><a href="http://creativecommons.org/licenses/by-sa/4.0/">コモンズ証</a>（<a href="http://creativecommons.org/licenses/by-sa/4.0/deed.ja">日本語</a>） <a href="http://creativecommons.org/licenses/by-sa/4.0/legalcode">法的条項</a>（<a href="http://creativecommons.org/licenses/by-sa/4.0/legalcode.ja">日本語</a>） <a href="http://creativecommons.org/licenses/by-sa/4.0/rdf">メタデータ</a></td></tr>
-<tr><th class='left'><i class="cc cc-by-nc cc-2x"></i>   </th><th class='left'>表示-非営利         </th><td><a href="http://creativecommons.org/licenses/by-nc/4.0/">コモンズ証</a>（<a href="http://creativecommons.org/licenses/by-nc/4.0/deed.ja">日本語</a>） <a href="http://creativecommons.org/licenses/by-nc/4.0/legalcode">法的条項</a>（<a href="http://creativecommons.org/licenses/by-nc/4.0/legalcode.ja">日本語</a>） <a href="http://creativecommons.org/licenses/by-nc/4.0/rdf">メタデータ</a></td></tr>
-<tr><th class='left'><i class="cc cc-by-nc-sa cc-2x"></i></th><th class='left'>表示-非営利-継承    </th><td><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">コモンズ証</a>（<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja">日本語</a>） <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">法的条項</a>（<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.ja">日本語</a>） <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/rdf">メタデータ</a></td></tr>
-<tr><th class='left'><i class="cc cc-by-nd cc-2x"></i>   </th><th class='left'>表示-改変禁止       </th><td><a href="http://creativecommons.org/licenses/by-nd/4.0/">コモンズ証</a>（<a href="http://creativecommons.org/licenses/by-nd/4.0/deed.ja">日本語</a>） <a href="http://creativecommons.org/licenses/by-nd/4.0/legalcode">法的条項</a>（<a href="http://creativecommons.org/licenses/by-nd/4.0/legalcode.ja">日本語</a>） <a href="http://creativecommons.org/licenses/by-nd/4.0/rdf">メタデータ</a></td></tr>
-<tr><th class='left'><i class="cc cc-by-nc-nd cc-2x"></i></th><th class='left'>表示-非営利-改変禁止</th><td><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">コモンズ証</a>（<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja">日本語</a>） <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">法的条項</a>（<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.ja">日本語</a>） <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="cc cc-BY cc-2x"></i>      </th><th class='left'>表示                </th><td><a href="https://creativecommons.org/licenses/by/4.0/">コモンズ証</a>（<a href="https://creativecommons.org/licenses/by/4.0/deed.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by/4.0/legalcode">法的条項</a>（<a href="https://creativecommons.org/licenses/by/4.0/legalcode.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by/4.0/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="cc cc-by-sa cc-2x"></i>   </th><th class='left'>表示-継承           </th><td><a href="https://creativecommons.org/licenses/by-sa/4.0/">コモンズ証</a>（<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">法的条項</a>（<a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-sa/4.0/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="cc cc-by-nc cc-2x"></i>   </th><th class='left'>表示-非営利         </th><td><a href="https://creativecommons.org/licenses/by-nc/4.0/">コモンズ証</a>（<a href="https://creativecommons.org/licenses/by-nc/4.0/deed.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nc/4.0/legalcode">法的条項</a>（<a href="https://creativecommons.org/licenses/by-nc/4.0/legalcode.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nc/4.0/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="cc cc-by-nc-sa cc-2x"></i></th><th class='left'>表示-非営利-継承    </th><td><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">コモンズ証</a>（<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">法的条項</a>（<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="cc cc-by-nd cc-2x"></i>   </th><th class='left'>表示-改変禁止       </th><td><a href="https://creativecommons.org/licenses/by-nd/4.0/">コモンズ証</a>（<a href="https://creativecommons.org/licenses/by-nd/4.0/deed.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nd/4.0/legalcode">法的条項</a>（<a href="https://creativecommons.org/licenses/by-nd/4.0/legalcode.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nd/4.0/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="cc cc-by-nc-nd cc-2x"></i></th><th class='left'>表示-非営利-改変禁止</th><td><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">コモンズ証</a>（<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">法的条項</a>（<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/rdf">メタデータ</a></td></tr>
 </tbody>
 </table>
 {{< /fig-gen >}}
@@ -172,7 +172,7 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 ページ全体にライセンスを指示したいなら `head` 要素に
 
 ```html
-<link rel='cc:license' href='http://creativecommons.org/licenses/by-sa/4.0/'>
+<link rel='cc:license' href='https://creativecommons.org/licenses/by-sa/4.0/'>
 ```
 
 と記述するだけでもよい（HTML5 の場合）。
@@ -193,12 +193,12 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 {{< fig-gen title="クリエイティブ・コモンズ・ライセンス バージョン 2.1 日本版" >}}
 <table>
 <tbody>
-<tr><th class='left'><i class="cc cc-BY cc-2x"></i>         </th><th class='left'>表示                </th><td><a href="http://creativecommons.org/licenses/by/2.1/jp/">コモンズ証</a> <a href="http://creativecommons.org/licenses/by/2.1/jp/legalcode">法的条項</a> <a href="http://creativecommons.org/licenses/by/2.1/jp/rdf">メタデータ</a></td></tr>
-<tr><th class='left'><i class="cc cc-by-sa cc-2x"></i>      </th><th class='left'>表示-継承           </th><td><a href="http://creativecommons.org/licenses/by-sa/2.1/jp/">コモンズ証</a> <a href="http://creativecommons.org/licenses/by-sa/2.1/jp/legalcode">法的条項</a> <a href="http://creativecommons.org/licenses/by-sa/2.1/jp/rdf">メタデータ</a></td></tr>
-<tr><th class='left'><i class="cc cc-by-nc-jp cc-2x"></i>   </th><th class='left'>表示-非営利         </th><td><a href="http://creativecommons.org/licenses/by-nc/2.1/jp/">コモンズ証</a> <a href="http://creativecommons.org/licenses/by-nc/2.1/jp/legalcode">法的条項</a> <a href="http://creativecommons.org/licenses/by-nc/2.1/jp/rdf">メタデータ</a></td></tr>
-<tr><th class='left'><i class="cc cc-by-nc-sa-jp cc-2x"></i></th><th class='left'>表示-非営利-継承    </th><td><a href="http://creativecommons.org/licenses/by-nc-sa/2.1/jp/">コモンズ証</a> <a href="http://creativecommons.org/licenses/by-nc-sa/2.1/jp/legalcode">法的条項</a> <a href="http://creativecommons.org/licenses/by-nc-sa/2.1/jp/rdf">メタデータ</a></td></tr>
-<tr><th class='left'><i class="cc cc-by-nd cc-2x"></i>      </th><th class='left'>表示-改変禁止       </th><td><a href="http://creativecommons.org/licenses/by-nd/2.1/jp/">コモンズ証</a> <a href="http://creativecommons.org/licenses/by-nd/2.1/jp/legalcode">法的条項</a> <a href="http://creativecommons.org/licenses/by-nd/2.1/jp/rdf">メタデータ</a></td></tr>
-<tr><th class='left'><i class="cc cc-by-nc-nd-jp cc-2x"></i></th><th class='left'>表示-非営利-改変禁止</th><td><a href="http://creativecommons.org/licenses/by-nc-nd/2.1/jp/">コモンズ証</a> <a href="http://creativecommons.org/licenses/by-nc-nd/2.1/jp/legalcode">法的条項</a> <a href="http://creativecommons.org/licenses/by-nc-nd/2.1/jp/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="cc cc-BY cc-2x"></i>         </th><th class='left'>表示                </th><td><a href="https://creativecommons.org/licenses/by/2.1/jp/">コモンズ証</a> <a href="https://creativecommons.org/licenses/by/2.1/jp/legalcode">法的条項</a> <a href="https://creativecommons.org/licenses/by/2.1/jp/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="cc cc-by-sa cc-2x"></i>      </th><th class='left'>表示-継承           </th><td><a href="https://creativecommons.org/licenses/by-sa/2.1/jp/">コモンズ証</a> <a href="https://creativecommons.org/licenses/by-sa/2.1/jp/legalcode">法的条項</a> <a href="https://creativecommons.org/licenses/by-sa/2.1/jp/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="cc cc-by-nc-jp cc-2x"></i>   </th><th class='left'>表示-非営利         </th><td><a href="https://creativecommons.org/licenses/by-nc/2.1/jp/">コモンズ証</a> <a href="https://creativecommons.org/licenses/by-nc/2.1/jp/legalcode">法的条項</a> <a href="https://creativecommons.org/licenses/by-nc/2.1/jp/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="cc cc-by-nc-sa-jp cc-2x"></i></th><th class='left'>表示-非営利-継承    </th><td><a href="https://creativecommons.org/licenses/by-nc-sa/2.1/jp/">コモンズ証</a> <a href="https://creativecommons.org/licenses/by-nc-sa/2.1/jp/legalcode">法的条項</a> <a href="https://creativecommons.org/licenses/by-nc-sa/2.1/jp/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="cc cc-by-nd cc-2x"></i>      </th><th class='left'>表示-改変禁止       </th><td><a href="https://creativecommons.org/licenses/by-nd/2.1/jp/">コモンズ証</a> <a href="https://creativecommons.org/licenses/by-nd/2.1/jp/legalcode">法的条項</a> <a href="https://creativecommons.org/licenses/by-nd/2.1/jp/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="cc cc-by-nc-nd-jp cc-2x"></i></th><th class='left'>表示-非営利-改変禁止</th><td><a href="https://creativecommons.org/licenses/by-nc-nd/2.1/jp/">コモンズ証</a> <a href="https://creativecommons.org/licenses/by-nc-nd/2.1/jp/legalcode">法的条項</a> <a href="https://creativecommons.org/licenses/by-nc-nd/2.1/jp/rdf">メタデータ</a></td></tr>
 </tbody>
 </table>
 {{< /fig-gen >}}
@@ -227,7 +227,7 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 
 ただし，この条件は
 
-{{< fig-quote title="クリエイティブ・コモンズ (Creative Commons) — 表示-継承 4.0 国際" link="http://creativecommons.org/licenses/by-sa/4.0/legalcode.ja" >}}
+{{< fig-quote title="クリエイティブ・コモンズ (Creative Commons) — 表示-継承 4.0 国際" link="https://creativecommons.org/licenses/by-sa/4.0/legalcode.ja" >}}
 <q>あなたがライセンス対象物を共有する媒体・方法・文脈に照らして、いかなる合理的な方法でも満たすことができます。
 例えば、必要とされる情報を含むリソースのURIやハイパーリンクを付すことで条件を満たすことが合理的な場合があります。</q>
 {{< /fig-quote >}}
@@ -249,7 +249,7 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 ライセンスで「営利」あるいは「商用」などのキーワードが付くことが多いが，どこまでが「営利」で「商用」なのか分かりにくいことが多い。
 [CC Licenses] では「非営利」について
 
-{{< fig-quote title="クリエイティブ・コモンズ (Creative Commons) — 表示-非営利 4.0 国際" link="http://creativecommons.org/licenses/by-nc/4.0/legalcode.ja" >}}
+{{< fig-quote title="クリエイティブ・コモンズ (Creative Commons) — 表示-非営利 4.0 国際" link="https://creativecommons.org/licenses/by-nc/4.0/legalcode.ja" >}}
 <q>商業的な利得や金銭的報酬を、主たる目的とせず、それらに主に向けられてもいないことを意味します。本パブリック・ライセンスにおいては、デジタル・ファイル共有または類似した手段による、ライセンス対象物と、著作権およびそれに類する権利の対象となるその他のマテリアルとの交換は、その交換に関連して金銭的報酬の支払いがない場合は、非営利に該当します。</q>
 {{< /fig-quote >}}
 
@@ -265,22 +265,22 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 ということで，ひとまず問題ないようだ[^g4]。
 
 [^g3]: [Lawrence Lessig](http://lessig.tumblr.com/) 教授は現在， [Creative Commons] からは距離を置いて「政治と腐敗」をテーマに研究を行っているが，[2016年の米国大統領選に民主党候補として出馬意向を表明](https://lessig2016.us/)した。
-[^g4]: [Creative Commons] 側は，マテリアルの取り引きによって金銭的報酬が発生するようなことでなければ「非営利 <i class="cc cc-nc"></i>」条件にかかることはないと考えているようである（あとは企業広告の素材として使う場合とか）。ただ，一時期流行ったアフィリエイト報酬を主目的とする「パクりサイト」の場合はダメな気がする。司法判断を仰ぐ必要があるかもしないけど。ちなみにこのサイトは「[表示-継承](http://creativecommons.org/licenses/by-sa/4.0/)」条件を守っていただけるなら，いくらでもパクって稼いで構いませんよ（笑）
+[^g4]: [Creative Commons] 側は，マテリアルの取り引きによって金銭的報酬が発生するようなことでなければ「非営利 <i class="cc cc-nc"></i>」条件にかかることはないと考えているようである（あとは企業広告の素材として使う場合とか）。ただ，一時期流行ったアフィリエイト報酬を主目的とする「パクりサイト」の場合はダメな気がする。司法判断を仰ぐ必要があるかもしないけど。ちなみにこのサイトは「[表示-継承](https://creativecommons.org/licenses/by-sa/4.0/)」条件を守っていただけるなら，いくらでもパクって稼いで構いませんよ（笑）
 
 ### CC Licenses と互換性のあるライセンス{#compatible}
 
 「継承 <i class="cc cc-sa"></i>」条件について「元のマテリアルのライセンスと同等のライセンスで公開すること」と書いたが，「同等のライセンス」とはどこまでを指すのか。
 具体的には以下のページで示される。
 
-- [Compatible Licenses - Creative Commons](http://creativecommons.org/compatiblelicenses)
+- [Compatible Licenses - Creative Commons](https://creativecommons.org/compatiblelicenses)
 
 基本的には [CC Licenses] の同じ条件であれば他のバージョンであっても「同等のライセンス」とみなされる。
-さらに「[表示-継承](http://creativecommons.org/licenses/by-sa/4.0/)」条件については以下のライセンスも「同等のライセンス」と見なすことができる。
+さらに「[表示-継承](https://creativecommons.org/licenses/by-sa/4.0/)」条件については以下のライセンスも「同等のライセンス」と見なすことができる。
 
 - [Free Art License](http://artlibre.org/licence/lal/en/) 1.3
 - [GNU GPL (General Public License)](https://www.gnu.org/copyleft/gpl.html) version 3[^h]
 
-[^h]: ただし， GPL の場合は「[表示-継承](http://creativecommons.org/licenses/by-sa/4.0/)」から GPLv3 へ一方向のみの互換性である。 GPLv3 ライセンスのマテリアルを [CC Licenses] の「[表示-継承](http://creativecommons.org/licenses/by-sa/4.0/)」として扱うことはできない。
+[^h]: ただし， GPL の場合は「[表示-継承](https://creativecommons.org/licenses/by-sa/4.0/)」から GPLv3 へ一方向のみの互換性である。 GPLv3 ライセンスのマテリアルを [CC Licenses] の「[表示-継承](https://creativecommons.org/licenses/by-sa/4.0/)」として扱うことはできない。
 
 ### CC Licenses における「無償」とは{#royalty-free}
 
@@ -289,7 +289,7 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 
 これには JASRAC のような著作権管理団体からの royalty 徴収も含むが「可能な限り」の但し書きがつく。
 
-{{< fig-quote title="クリエイティブ・コモンズ (Creative Commons) — 表示-継承 4.0 国際" link="http://creativecommons.org/licenses/by-sa/4.0/legalcode.ja" >}}
+{{< fig-quote title="クリエイティブ・コモンズ (Creative Commons) — 表示-継承 4.0 国際" link="https://creativecommons.org/licenses/by-sa/4.0/legalcode.ja" >}}
 <q>可能なかぎり、許諾者は、ライセンスされた権利の行使について、直接か、または任意のもしくは放棄可能な法定のもしくは強制的なライセンスに関する仕組みに基づく集中管理団体を介するかを問わず、あなたからライセンス料を得るいかなる権利も放棄します。その他一切の場合において、許諾者はそのようなライセンス料を得るいかなる権利も明確に保持します。</q>
 {{< /fig-quote >}}
 
@@ -308,7 +308,7 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 [^j]: ここで「再配布」は，マテリアルの利用者がマテリアルまたはマテリアルの複製を更に下流（downstream）へ公表・配布することを指す。
 [^d]: 更に言うと，マテリアルが「技術的保護手段」によって不当に保護されている場合は，ユーザは「技術的保護手段」を迂回することができる（許諾者は迂回を禁止する権利を放棄する）。「技術的保護手段」については別の記事で解説する。
 
-{{< fig-quote title="クリエイティブ・コモンズ (Creative Commons) — 表示-継承 4.0 国際" link="http://creativecommons.org/licenses/by-sa/4.0/legalcode.ja" >}}
+{{< fig-quote title="クリエイティブ・コモンズ (Creative Commons) — 表示-継承 4.0 国際" link="https://creativecommons.org/licenses/by-sa/4.0/legalcode.ja" >}}
 <q>あなたは、ライセンス対象物の受領者がライセンスされた権利を行使するのを制限されることになる場合には、ライセンス対象物に対して、いかなる追加条項または異なる条項も提案または課してはならず、あるいは、いかなる効果的な技術的保護手段も適用してはなりません。</q>
 {{< /fig-quote >}}
 
@@ -327,13 +327,13 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 
 [CC Licenses] には「責任制限」の項目があり対象のマテリアルに対していかなる表明も保証も行わないことになっている。
 
-{{< fig-quote title="クリエイティブ・コモンズ (Creative Commons) — 表示-継承 4.0 国際" link="http://creativecommons.org/licenses/by-sa/4.0/legalcode.ja" >}}
+{{< fig-quote title="クリエイティブ・コモンズ (Creative Commons) — 表示-継承 4.0 国際" link="https://creativecommons.org/licenses/by-sa/4.0/legalcode.ja" >}}
 <q>許諾者が別途合意しない限り、許諾者は可能な範囲において、ライセンス対象物を現状有姿のまま、現在可能な限りで提供し、明示、黙示、法令上、その他に関わらずライセンス対象物について一切の表明または保証をしません。
 これには、権利の帰属、商品性、特定の利用目的への適合性、権利侵害の不存在、隠れた瑕疵その他の瑕疵の不存在、正確性または誤りの存在もしくは不存在を含みますが、これに限られず、既知であるか否か、発見可能であるか否かを問いません。
 全部または一部の無保証が認められない場合、この無保証はあなたには適用されないこともあります。</q>
 {{< /fig-quote >}}
 
-{{< fig-quote title="クリエイティブ・コモンズ (Creative Commons) — 表示-継承 4.0 国際" link="http://creativecommons.org/licenses/by-sa/4.0/legalcode.ja" >}}
+{{< fig-quote title="クリエイティブ・コモンズ (Creative Commons) — 表示-継承 4.0 国際" link="https://creativecommons.org/licenses/by-sa/4.0/legalcode.ja" >}}
 <q>可能な範囲において、本パブリック・ライセンスもしくはライセンス対象物の利用によって起きうる直接、特別、間接、偶発、結果的、懲罰的その他の損失、コスト、出費または損害について、例え損失、コスト、出費、損害の可能性について許諾者が知らされていたとしても、許諾者は、あなたに対し、いかなる法理（過失を含みますがこれに限られません）その他に基づいても責任を負いません。
 全部または一部の責任制限が認められない場合、この制限はあなたには適用されないこともあります。</q>
 {{< /fig-quote >}}
@@ -369,12 +369,13 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 - [Creative Commons "Non-Commercial" Content on Ad-Supported Sites](http://blogoscoped.com/archive/2008-02-07-n77.html)
 - [What's New in 4.0 - Creative Commons](https://creativecommons.org/Version4/) （[日本語参考訳](http://qiita.com/nyampire/items/c03904bd27bd8812aad3)）
 - [CCライセンス・バージョン4.0 日本語版の公開 | クリエイティブ・コモンズ・ジャパン](http://creativecommons.jp/2015/07/15/cc%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B34-0-%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%89%88%E3%81%AE%E5%85%AC%E9%96%8B/)
+- [CC BY-SA 4.0 now one-way compatible with GPLv3 - Creative Commons Blog - Creative Commons](https://blog.creativecommons.org/2015/10/08/cc-by-sa-4-0-now-one-way-compatible-with-gplv3/) （[日本語訳](http://creativecommons.jp/2016/01/25/cc-by-sa-%EF%BC%88%E8%A1%A8%E7%A4%BA-%E7%B6%99%E6%89%BF%EF%BC%89-4-0%E3%81%8B%E3%82%89gpl-v3%E3%81%B8%E3%81%AE%E4%B8%80%E6%96%B9%E5%90%91%E3%81%AE%E4%BA%92%E6%8F%9B%E3%81%8C%E5%AE%9F%E7%8F%BE/)）
 
 [本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
 [著作権法]: http://law.e-gov.go.jp/htmldata/S45/S45HO048.html "著作権法"
 [前回]: {{< relref "cc-licenses/01-copyright.md" >}} "著作権と著作権法 — 改訂3版： CC Licenses について"
-[Creative Commons]: http://creativecommons.org/ "Creative Commons"
-[CC Licenses]: http://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
+[Creative Commons]: https://creativecommons.org/ "Creative Commons"
+[CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
 
 ### 参考図書
 
