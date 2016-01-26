@@ -2,7 +2,7 @@
 title       = "Categories, Tags そして Section"
 description = "前回の続き。今回は Categories, Tags そして Section について書いてみる。"
 date        = "2015-09-11T17:58:32+09:00"
-update      = "2015-10-04T23:03:00+09:00"
+update      = "2016-01-26T13:28:16+09:00"
 tags        = [ "hugo", "categories", "tags", "taxonomy", "section" ]
 draft = false
 
@@ -214,7 +214,7 @@ Front matter で指定する変数は，「[テンプレート変数](http://goh
 Categories/Tags は標準機能なのだが，どういうわけかこれだけ `.Params` 以下に組み替えられる。
 なんだかなぁ。「歴史的経緯」ってやつだろうか[^a]。
 
-[^a]: Categories/Tags の配置が特殊なのは，これらが [Taxonomy]({{ relref "#taxonomy" }}) として実装されているからのようだ。
+[^a]: Categories/Tags の配置が特殊なのは，これらが [Taxonomy]({{< relref "#taxonomy" >}}) として実装されているからのようだ。
 
 ちなみに `config.toml` によるサイト設定では `.Site.Params` への暗黙的な組み換えは行われないため，明示的に記述する必要がある。
 
