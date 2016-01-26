@@ -102,6 +102,11 @@ title = "二次的著作物と CC-Licenses"
 
 [^cmp]: 「同等のライセンス」として同じ条件の [CC Licenses] （他バージョンを含む）が挙げられる。また「[表示-継承]」については [Free Art License](http://artlibre.org/licence/lal/en/) 1.3 や [GNU GPL](https://www.gnu.org/copyleft/gpl.html)v3 も互換性のあるライセンスとして認められている。
 
+このようなライセンスの仕組みは [Copyleft] と呼ばれている。
+[Copyleft] の起源は [GNU GPL（General Public License）](https://www.gnu.org/copyleft/gpl.html) であるが， [CC Licenses] においても「継承 <i class="cc cc-sa"></i>」条件よって [Copyleft] もしくはそれに近いライセンスを構成できる[^cl]。
+
+[^cl]: ただし厳密に [Copyleft] と言えるのは「[表示-継承]」条件のみである。
+
 [CC Licenses] で「継承 <i class="cc cc-sa"></i>」条件が付くのは以下の2つである。
 
 {{< fig-gen title="Creative Commons Licenses Version 4.0 International" >}}
@@ -112,11 +117,6 @@ title = "二次的著作物と CC-Licenses"
 </tbody>
 </table>
 {{< /fig-gen >}}
-
-このようなライセンスの仕組みは [Copyleft] と呼ばれている。
-[Copyleft] の起源は [GNU GPL（General Public License）](https://www.gnu.org/copyleft/gpl.html) であるが， [CC Licenses] においても「継承 <i class="cc cc-sa"></i>」条件よって [Copyleft] もしくはそれに近いライセンスを構成できる[^cl]。
-
-[^cl]: ただし厳密に [Copyleft] と言えるのは「[表示-継承]」条件のみである。
 
 [Copyleft] はプログラミングの世界でも「ウイルス的」と揶揄されることもあるが，共有を維持するには必要な仕掛けだと思う。
 [CC Licenses] の使われ方を見ても，[2015年時点](https://stateof.creativecommons.org/2015/)では「[表示-継承]」条件が37%で最も多い。
