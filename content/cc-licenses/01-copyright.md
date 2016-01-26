@@ -1,6 +1,6 @@
 +++
 date = "2015-10-17T15:51:23+09:00"
-update = "2016-01-26T12:51:48+09:00"
+update = "2016-01-26T20:35:34+09:00"
 description = "まずは「著作権」について簡単におさらい。"
 draft = false
 tags = ["code", "law", "intellectual-property", "copyright"]
@@ -118,7 +118,7 @@ title = "著作権と著作権法"
 
 [^cc]: ただし，全てのゲームが「映画の著作物」となるわけではない（参考： [ビデオ・ゲームの中古販売と著作権法](http://www.ben.li/essay/Second-handed-game.html)）。
 
-「二次的著作物」については別の記事で改めて紹介する。
+「二次的著作物」については「[二次的著作物と CC-Licenses]({{< relref "cc-licenses/04-derivative-works.md" >}})」で改めて紹介する。
 
 例外として，以下のものには著作権は適用されない（[著作権法] 第13条）。
 
