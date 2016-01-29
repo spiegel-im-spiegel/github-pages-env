@@ -3,7 +3,7 @@ date = "2015-09-19T23:45:56+09:00"
 update = "2016-01-20T09:18:21+09:00"
 description = "今回は文字列について。短めにさくっと。"
 draft = false
-tags = ["golang", "string", "rune", "character"]
+tags = ["golang", "string", "rune", "character", "unicode"]
 title = "String と Rune"
 
 [author]
