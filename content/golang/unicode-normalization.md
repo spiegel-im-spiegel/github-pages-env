@@ -1,6 +1,6 @@
 +++
 date = "2016-01-30T04:05:52+09:00"
-update = "2016-01-30T09:37:58+09:00"
+update = "2016-01-30T12:34:26+09:00"
 description = "今回は少し目先を変えて「Unicode 正規化」のお話。"
 draft = false
 tags = ["golang", "unicode", "normalization", "character"]
@@ -45,7 +45,7 @@ U+309A および U+3099 はそれぞれ半濁点と濁点を表す「結合文�
 「ヘ」や「キ」のような「基底文字（base character）」に結合文字を1つ以上[^cs] 付加した文字を「合成列（composite sequence）」と呼ぶ。
 これに対して「ペ：U+30DA」や「ギ：U+30AE」のような文字を「事前合成形（precomposed）」と呼ぶ。
 
-[^cs]: ちなみに結合文字はひとつの基底文字に対して複数付加される場合もある。しかもこの場合に結合文字同士の順序は不定である。
+[^cs]: 結合文字はひとつの基底文字に対して複数付加される場合もある。しかもこの場合に結合文字同士の順序は不定である。
 
 つまり同じ文字を同じ文字集合[^ccs] で表しているのにもかかわらず複数の符号化[^ecd] が存在するわけだ。
 これを「重複符号化」と言う。
@@ -120,7 +120,7 @@ NFC と NFD が交換可能であることがわかると思う。
 
 ## 3羽目の「ペンギン」と互換等価
 
-さてここで3羽目の「ペンギン」に登場してもらおう。
+さてここで3羽目の「ﾍﾟﾝｷﾞﾝ」に登場してもらおう。
 
 - ﾍ：U+FF8D
 - ﾟ：U+FF9F
@@ -130,8 +130,7 @@ NFC と NFD が交換可能であることがわかると思う。
 - ﾝ：U+FF9D
 
 これはいわゆる「半角カナ」である。
-半角カナの濁点および半濁点は結合文字ではない。
-そのためこの文字列を NFC で事前合成形に正規化しようとしても
+半角カナの半濁点 U+FF9F および濁点 U+FF9E は結合文字の半濁点 U+309A および濁点 U+3099 と同等とみなされているが「ペ」や「ギ」に相当する半角カナの事前合成形は存在しないため NFC で事前合成形に正規化しようとしても
 
 ```go
 package main
@@ -171,10 +170,11 @@ penguin2[15] = U+FF9D 'ﾝ'
 ```
 
 何も変わらないことが分かるだろう。
+そもそも半角カナは「互換用文字（Compatibility Character）」として異なるコードポイントが割り当てられているため，このままでは3羽目の「ﾍﾟﾝｷﾞﾝ」が等価であることを示せない。
 
-このような場合は半角の「ﾍﾟﾝｷﾞﾝ」と互換性のある文字列に正規化できるとよい。
+このような場合は「ﾍﾟﾝｷﾞﾝ」と互換性のある別の文字列に正規化できるとよい。
 これを「互換等価（compatibility equivalance）」と呼ぶ。
-具体的には NFKC（Normalization Form Compatibility Composition）および NFKD（Normalization Form Compatibility Decomposition）の2つの正規化がある。
+具体的には，事前合成形に正規化する NFKC（Normalization Form Compatibility Composition）と合成列に正規化する NFKD（Normalization Form Compatibility Decomposition）の2つがある。
 
 早速 [`norm`] パッケージを使ってコードを書いてみる。
 
@@ -218,9 +218,9 @@ penguin2[9] = U+30F3 'ン'
 となり， NFC で正規化した「ペンギン」と等価であることがわかる。
 
 互換等価による正規化は応用範囲が広い。
-たとえば「㈱」（U+3231）は「（株）」（U+0028 + U+682A + U+0029）に変換される。
+たとえば「㈱」（U+3231）は「(株)」（U+0028 + U+682A + U+0029）に変換される。
 文字列検索の前に互換等価による正規化を行っておくことで処理がやりやすくなるというのはあるかもしれない。
-ただし， NFC と NFD は交換可能だが， NFKC や NFKD で正規化した文字列を元のオリジナルに戻す方法はないので注意が必要である[^hw]。
+ただし， NFC と NFD は交換可能だが（ただしオリジナル文字列が事前合成形と合成列とで混在している場合は元に戻せないが）， NFKC や NFKD で正規化した文字列を元に戻す方法はないので注意が必要である[^hw]。
 
 [^hw]: 単に全角・半角変換ができればいいのなら `golang.org/x/text/`[`width`] パッケージをお勧めする。
 
@@ -239,21 +239,20 @@ import (
 	"golang.org/x/text/unicode/norm"
 )
 
-//神様の遊び
 func main() {
-	penguin := "神"
-	for pos, runeValue := range penguin {
-		fmt.Printf("penguin[%d] = %#U\n", pos, runeValue)
+	god := "神"
+	for pos, runeValue := range god {
+		fmt.Printf("god[%d] = %#U\n", pos, runeValue)
 	}
 
-	penguin2 := string(norm.NFKC.Bytes([]byte(penguin)))
-	for pos, runeValue := range penguin2 {
-		fmt.Printf("penguin2[%d] = %#U\n", pos, runeValue)
+	god2 := string(norm.NFKC.Bytes([]byte(god)))
+	for pos, runeValue := range god2 {
+		fmt.Printf("god2[%d] = %#U\n", pos, runeValue)
 	}
 
-	penguin3 := string(norm.NFKD.Bytes([]byte(penguin)))
-	for pos, runeValue := range penguin3 {
-		fmt.Printf("penguin3[%d] = %#U\n", pos, runeValue)
+	god3 := string(norm.NFKD.Bytes([]byte(god)))
+	for pos, runeValue := range god3 {
+		fmt.Printf("god3[%d] = %#U\n", pos, runeValue)
 	}
 }
 ```
@@ -261,9 +260,9 @@ func main() {
 これを実行すると
 
 ```
-penguin[0] = U+FA19 '神'
-penguin2[0] = U+795E '神'
-penguin3[0] = U+795E '神'
+god[0] = U+FA19 '神'
+god2[0] = U+795E '神'
+god3[0] = U+795E '神'
 ```
 
 となり，NFC でも NFD でも違う文字になってしまった。
@@ -273,12 +272,12 @@ penguin3[0] = U+795E '神'
 実は「神」は「CJK 互換文字」と呼ばれるグループに属し，「神」とは異体字の関係にある。
 故に「神」を「神」に正規化してしまったのである。
 
-しかし，これは明らかに仕様ミスである。
+これは明らかに仕様ミスである。
 「神」と「神」のような異体字の関係は本来なら正規等価ではなく互換等価であるべきだからだ。
 
 ...やっぱり Unicode はクソ仕様だ。
 
-しかし，これが実際の場面で問題になることは少ないと思われる。
+ただ，これが実際の場面で問題になることは少ないと思われる。
 なぜなら，正規化を行うのは「2つの文字列が等価であるか？」を調べるための手段にすぎないからだ。
 普通はね。
 
@@ -287,10 +286,11 @@ penguin3[0] = U+795E '神'
 ### 独自路線に走る Apple
 
 Apple の OS X （iOS も？）のファイルシステムである HFS+ はファイル名を NFD 相当に正規化するという恐ろしい仕様になっている[^fs]。
-しかしそれでは，先ほどの例のように異体字に関しては正規化によって別の文字に変えられてしまうため困ったことになってしまう。
+しかしそれでは先ほどの例のように異体字を別の文字に変えられてしまうため困ったことになってしまう。
 
 そこで Apple は CJK 互換文字を含むいくつかの文字を正規化の対象から外すという蛮行に出た。
 俗に “NFD-mac” などと呼ばれる独自路線に走ってしまったわけだ。
+クソの上塗りである。
 
 [^fs]: ちなみに Windows のファイルシステムはフォルダ・ファイルの名前を正規化するとかいうアホなことはしない。事前合成形も合成列も受け入れる。見かけ同じ名前のフォルダ・ファイルが複数できる可能性はあるが，それはそれ。多分，ほとんどの OS のファイルシステムは名前の正規化なんてしてないはず。この HFS+ による Unicode 正規化のおかげで他プラットフォームはかなりの迷惑を被ることになる。たとえば複数のプラットフォームをまたぐファイル交換（例えば Linux → OS X → Windows みたいな経路）を行った場合に OS X を経由した途端にフォルダ・ファイル名を書き換えられてしまうのだ。しかもユーザやアプリケーションは基本的に干渉できない。迷惑千万な話である。もっとも Windows ユーザは Windows ファイルシステムのダメさ加減が身に沁みてるので他所を嗤えないけど（笑）
 
@@ -302,7 +302,7 @@ Apple の OS X （iOS も？）のファイルシステムである HFS+ はフ�
 
 以上， Unicode 正規化の4つの方式をまとめると以下のようになる。
 
-{{< fig-gen title="Text normalization in Go" link="https://blog.golang.org/normalization" >}}
+{{< fig-gen title="via “Text normalization in Go”" link="https://blog.golang.org/normalization" >}}
 <table>
   <tr>
     <th></th>
@@ -310,17 +310,19 @@ Apple の OS X （iOS も？）のファイルシステムである HFS+ はフ�
     <th>Decomposing</th>
   </tr>
   <tr>
-    <th>Canonical equivalence</th>
-    <td>NFC</td>
-    <td>NFD<br></td>
+    <th style="text-align:right;">Canonical equivalence</th>
+    <td><code><a href="https://godoc.org/golang.org/x/text/unicode/norm">norm</a>.NFC</code></td>
+    <td><code><a href="https://godoc.org/golang.org/x/text/unicode/norm">norm</a>.NFD</code><br></td>
   </tr>
   <tr>
-    <th>Compatibility equivalence</th>
-    <td>NFKC</td>
-    <td>NFKD</td>
+    <th style="text-align:right;">Compatibility equivalence</th>
+    <td><code><a href="https://godoc.org/golang.org/x/text/unicode/norm">norm</a>.NFKC</code></td>
+    <td><code><a href="https://godoc.org/golang.org/x/text/unicode/norm">norm</a>.NFKD</code></td>
   </tr>
 </table>
 {{< /fig-gen >}}
+
+ちなみに [`norm`] パッケージでは “NFD-mac” なるローカル仕様には対応していないので，必要なら自作する必要がある。
 
 Unicode 文字列の等価属性を調べる際には是非参考にどうぞ。
 
