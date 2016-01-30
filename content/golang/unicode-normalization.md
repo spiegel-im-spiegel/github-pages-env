@@ -1,6 +1,6 @@
 +++
 date = "2016-01-30T04:05:52+09:00"
-update = "2016-01-30T12:34:26+09:00"
+update = "2016-01-30T22:38:31+09:00"
 description = "今回は少し目先を変えて「Unicode 正規化」のお話。"
 draft = false
 tags = ["golang", "unicode", "normalization", "character"]
@@ -245,12 +245,12 @@ func main() {
 		fmt.Printf("god[%d] = %#U\n", pos, runeValue)
 	}
 
-	god2 := string(norm.NFKC.Bytes([]byte(god)))
+	god2 := string(norm.NFC.Bytes([]byte(god)))
 	for pos, runeValue := range god2 {
 		fmt.Printf("god2[%d] = %#U\n", pos, runeValue)
 	}
 
-	god3 := string(norm.NFKD.Bytes([]byte(god)))
+	god3 := string(norm.NFD.Bytes([]byte(god)))
 	for pos, runeValue := range god3 {
 		fmt.Printf("god3[%d] = %#U\n", pos, runeValue)
 	}
