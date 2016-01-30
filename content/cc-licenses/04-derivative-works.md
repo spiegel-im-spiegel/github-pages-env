@@ -1,9 +1,10 @@
 +++
 date = "2016-01-26T20:29:34+09:00"
+update = "2016-01-30T19:36:45+09:00"
 description = "CC Licenses では「改変禁止」条件がなければ「翻案物を作成、複製および共有すること」を許諾する。また翻案物を受け取ったユーザは原著作者の許諾を（提示されている CC Licenses の条件に従って）自動的に得る。"
 draft = false
 tags = ["derivative-works", "creative-commons", "copyright", "license", "tpp"]
-title = "二次的著作物と CC-Licenses"
+title = "二次的著作物と CC Licenses"
 
 [author]
   avatar = "/images/avatar.jpg"
