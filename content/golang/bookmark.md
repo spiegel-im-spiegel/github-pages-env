@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-01-30T19:31:47+09:00"
+update = "2016-02-01T19:27:39+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -41,6 +41,11 @@ title = "Go 言語に関するブックマーク"
     - [Go 1.5 Vendor Experiment](https://docs.google.com/document/d/1Bz5-UB7g2uPBdOx-rw5t9MxJwkfpx90cqG9AFL0JAYo/edit)
 - [[security] Go 1.5.3 is released - Qiita](http://qiita.com/spiegel-im-spiegel/items/83b53109f54f8fb62c1c)
 
+### Go 1.6 RC1 Released.
+
+- [Go 1.6 Release Notes DRAFT - The Go Programming Language](https://tip.golang.org/doc/go1.6)
+    - [Go1.6の新機能 - Qiita](http://qiita.com/ksato9700/items/5505e506c20b6048c218)
+
 ## 言語仕様に関すること
 
 - [はじめてのGo―シンプルな言語仕様，型システム，並行処理：特集｜gihyo.jp … 技術評論社](http://gihyo.jp/dev/feature/01/go_4beginners)
@@ -76,6 +81,7 @@ title = "Go 言語に関するブックマーク"
 - [Go言語で SplitMultiSep (複数種の区切り文字列で分解) - Qiita](http://qiita.com/yoya/items/23ac2c490625c5d47ad9)
 - [Go で UTF-8 の文字列を扱う - Qiita](http://qiita.com/masakielastic/items/01a4fb691c572dd71a19)
 - [Go言語 Gmailのsubjectの日本語文字化けに対応する - Qiita](http://qiita.com/yyoshiki41/items/79882e269ca6af4c2236)
+- [Text normalization in Go - The Go Blog](https://blog.golang.org/normalization) : Unicode 正規化について
 
 ### 配列
 

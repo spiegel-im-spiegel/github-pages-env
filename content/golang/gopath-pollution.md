@@ -1,6 +1,6 @@
 +++
 date = "2015-09-29T23:40:59+09:00"
-update = "2015-11-07T10:42:54+09:00"
+update = "2016-02-01T09:29:53+09:00"
 description = "go get コマンドは外部パッケージの revision 等をコントロールできず，常に repository の最新コードを取ってこようとする。GOPATH 内に複数のプロジェクトが同居している場合は同じ外部パッケージでもプロジェクトごとに異なるリビジョンを要求する場合があり，管理が煩雑になってしまう。"
 draft = false
 tags = ["golang", "engineering", "environment", "pollution", "vendoring", "package"]
@@ -78,6 +78,8 @@ UNIX 系の環境であれば [direnv] を使う手もある[^b]。
 
 Vendoring 機能を使うと，外部パッケージを `GOPATH` とは独立に管理できるようになる。
 この機能を使うには環境変数 `GO15VENDOREXPERIMENT` に 1 をセットする。
+
+（**追記** 当初の予告通り Vendoring 機能は 1.6 から既定の機能になった。環境変数 `GO15VENDOREXPERIMENT` をセットしなくても有効になる）
 
 - [Go 1.5 Vendor Experiment](https://docs.google.com/document/d/1Bz5-UB7g2uPBdOx-rw5t9MxJwkfpx90cqG9AFL0JAYo/edit)
 
