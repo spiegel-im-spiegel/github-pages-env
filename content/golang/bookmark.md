@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-02-01T19:27:39+09:00"
+update = "2016-02-02T1cd9:12:28+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -211,6 +211,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [WindowsでGolang開発環境構築　IntelliJ IDEA - Qiita](http://qiita.com/ngsm3/items/67620fc4e39219235a23)
     - [第1回　Android Studio，そしてベースとなる「IntelliJ IDEA」とは何か？：Android Studio最速入門～効率的にコーディングするための使い方｜gihyo.jp … 技術評論社](http://gihyo.jp/dev/serial/01/android_studio/0001) : IntelliJ IDEA についての解説
 - [Go入門@環境構築編(IntelliJ IDEA 14.1.4) - Qiita](http://qiita.com/makoto2468/items/3ced77de947ea997e72f)
+- [WindowsにIntelliJ IDEAでgoの開発環境を作りましたよ　ついでにgit連携もいたしましたよ - Qiita](http://qiita.com/peka2/items/cdc9d508dcbf4a131271)
 
 ### ATOM で Go
 
