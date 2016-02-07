@@ -227,6 +227,7 @@ type Item struct {
 
 ## ブックマーク
 
+- [わかる！ OpenPGP 暗号 — Baldanders.info](http://www.baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
 - [プログラミング言語 Go — text.Baldanders.info](/golang/)
 
 [gpgpdump]: https://github.com/spiegel-im-spiegel/gpgpdump "spiegel-im-spiegel/gpgpdump: gpgpdump - OpenPGP packet visualizer"

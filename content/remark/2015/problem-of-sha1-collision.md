@@ -1,6 +1,6 @@
 +++
 date = "2015-10-22T14:35:22+09:00"
-update = "2015-11-05T20:53:32+09:00"
+update = "2016-02-07T12:08:01+09:00"
 description = "GPU をふんだんに使った専用ハードウェアやクラウド・サービスなどを組み合わせることにより，近い将来に実用的なコストで SHA-1 攻略が可能になると指摘されている。"
 draft = false
 tags = ["security", "cryptography", "hash", "sha-1", "collision", "risk"]
@@ -171,6 +171,8 @@ GPU ベースのシステムやクラウド・サービス等による巨大計�
 - [自堕落な技術者の日記 : SSL Pulseの統計情報で見るSSL/TLS (2015年10月版) - livedoor Blog（ブログ）](http://blog.livedoor.jp/k_urushima/archives/1782546.html) : Alexa 社によるアクセス世界トップ20万サイトを対象にした SSL/TLS 関連の統計情報
 - [FAQ: SHA-1 廃止/SHA-2 移行に関するマイクロソフトのポリシー - 日本のセキュリティチーム](http://blogs.technet.com/b/jpsecurity/archive/2015/11/02/faq-microsoft-policy-on-sha1-deprecation.aspx)
 - [「SHA-1」SSLサーバ証明書の廃止迫る--「SHA-2」への移行状況とその影響、課題 - ZDNet Japan](http://japan.zdnet.com/article/35072827/)
+- [CRYPTREC | SHA-1の安全性について](http://www.cryptrec.go.jp/topics/cryptrec_20151218_sha1_cryptanalysis.html)
+    - {{< pdf-file title="CRYPTREC暗号技術ガイドライン(SHA-1)" link="http://www.cryptrec.go.jp/report/c13_tech_guideline_SHA-1_web.pdf" >}}
 
 ## 関連図書
 
