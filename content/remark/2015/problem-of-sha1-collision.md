@@ -173,6 +173,7 @@ GPU ベースのシステムやクラウド・サービス等による巨大計�
 - [「SHA-1」SSLサーバ証明書の廃止迫る--「SHA-2」への移行状況とその影響、課題 - ZDNet Japan](http://japan.zdnet.com/article/35072827/)
 - [CRYPTREC | SHA-1の安全性について](http://www.cryptrec.go.jp/topics/cryptrec_20151218_sha1_cryptanalysis.html)
     - {{< pdf-file title="CRYPTREC暗号技術ガイドライン(SHA-1)" link="http://www.cryptrec.go.jp/report/c13_tech_guideline_SHA-1_web.pdf" >}}
+- [[IT 管理者向け] 残っていませんか? SSL/TLS 証明書の SHA-1 廃止はもうすぐ - 日本のセキュリティチーム - Site Home - TechNet Blogs](http://blogs.technet.com/b/jpsecurity/archive/2016/02/08/sha1-deprecation-tls.aspx)
 
 ## 関連図書
 

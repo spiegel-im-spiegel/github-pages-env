@@ -1,6 +1,6 @@
 +++
 date = "2016-01-23T13:54:34+09:00"
-update = "2016-01-30T15:44:05+09:00"
+update = "2016-02-09T20:06:53+09:00"
 description = "Planet Nine / 次期X線国際天文衛星 ASTRO-H は 2月12日に打ち上げ予定 / 2^74207281-1 is Prime! / いまのところ「秀丸」への依存度は1割程度 / Bitcoin は失敗したか / TeX Wiki が移転しとるがな / 「『いま読むべき本』３冊」"
 draft = false
 tags = ["astronomy", "planet9", "jaxa", "hidemaru", "atom", "editor", "bitcoin", "tex", "pandoc", "book", "math", "prime-number"]
@@ -138,6 +138,7 @@ Bitcoin ってどうしてもかつての「地域通貨」を連想しちゃう
 
 - [HotWired Japan_Altbiz  山形浩生の『ケイザイ2.0』 第23回 地域通貨って、そんなにいいの？](http://cruel.org/hotwired/hotwired23_01.html)
 - [特集：FinTech入門（3）：ブロックチェーンは「取引コストゼロ」の世界を実現しようとしている (1/3) - ＠IT](http://www.atmarkit.co.jp/ait/articles/1601/21/news024.html)
+- [ブロックチェーンで不動産売買が変わる | TechCrunch Japan](http://jp.techcrunch.com/2016/02/08/201602063-ways-that-blockchain-will-change-the-real-estate-market/)
 
 ## TeX Wiki が移転しとるがな{#tex}
 

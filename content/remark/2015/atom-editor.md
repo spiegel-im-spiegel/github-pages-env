@@ -1,6 +1,6 @@
 +++
 date = "2015-09-15T21:00:13+09:00"
-update = "2016-01-08T10:28:03+09:00"
+update = "2016-02-09T16:41:53+09:00"
 description = "ATOM Editor に関するメモ。 Windows 環境が前提になっているのであしからず。"
 draft = false
 tags = ["atom", "editor", "tools"]
@@ -69,6 +69,10 @@ visual studio
 `AppData` フォルダは既定では不可視になっているのでご注意を。 `C:\Users\username\.atom` フォルダには `keymap.cson` などの設定ファイルが入ってるので，バックアップを取っておくと安全。
 
 `C:\Users\username\AppData\Local\Temp` には `Atom Crashes` フォルダがある。どうやらクラッシュ・レポートはここに吐かれるらしい。テンポラリ・フォルダにある古い日付のフォルダ・ファイルは，大概は削除して大丈夫なのだが，たまにヤバいやつもあるので掃除は慎重に。
+
+#### 参考
+
+- [Atom レジストリエントリを含むアンインストール方法（Windows版） - Qiita](http://qiita.com/masa36/items/c800185174bd77526a7d)
 
 ## apm stars でテーマ・パッケージを一気にインストールする
 
