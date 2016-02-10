@@ -1,6 +1,6 @@
 +++
 date = "2015-09-17T21:23:42+09:00"
-update = "2015-09-18T15:06:00+09:00"
+update = "2016-02-10T15:40:07+09:00"
 description = "これまた，みんな大好き素数探索アルゴリズム"
 draft = false
 tags = ["golang", "algorithm", "math", "prime-number", "slice", "goroutine", "channel", "message-passing"]
@@ -66,7 +66,7 @@ import (
 
 func main() {
 	max := 100
-	fmt.Printf("%v 以下の素数:", max)
+	primes := make([]int64, 0) // 素数のリスト
 
 	start := time.Now() //Start
 	for n := 2; n <= max; n++ {
@@ -78,11 +78,12 @@ func main() {
 			}
 		}
 		if flag {
-			fmt.Printf(" %v", n)
+			primes = append(primes, int64(n)) // 素数を追加
 		}
 	}
-	goal := time.Now()                     //Goal
-	fmt.Printf("\n%v 経過", goal.Sub(start)) //経過時間を表示
+	goal := time.Now() //Goal
+	fmt.Printf("%v 以下の素数: %v\n", max, primes)
+	fmt.Printf("%v 経過", goal.Sub(start)) //経過時間を表示
 }
 ```
 
@@ -90,8 +91,8 @@ func main() {
 
 ```
 C:>go run prime01.go
-100 以下の素数: 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
-5.0002ms 経過
+100 以下の素数: [2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97]
+0 経過
 ```
 
 この値を覚えておいてね。
@@ -100,7 +101,55 @@ C:>go run prime01.go
 ## 素数探索アルゴリズム（その2: エラトステネスの篩の変形）{#alg2}
 
 もう少しだけ効率的に素数を探すアルゴリズムとして「[エラトステネスの篩]」と呼ばれる方法がある。
+コードで書くとこんな感じ。
+
+```go
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+func main() {
+	max := 100
+	primes := make([]int64, 0)        // 素数のリスト
+	isNotPrime := make([]bool, max+1) // false で初期化される（全てを素数候補とする）
+	isNotPrime[0] = true              // 0 は非素数
+	isNotPrime[1] = true              // 1 は非素数
+
+	start := time.Now() //Start
+	n := 2
+	for ; n*n <= max; n++ { // √max まで篩にかける
+		if !isNotPrime[n] { // n は素数
+			primes = append(primes, int64(n)) // 素数を追加
+			for m := 2; n*m <= max; m++ {
+				isNotPrime[n*m] = true // max 以下の n の倍数を全て非素数とする
+			}
+		}
+	}
+	for ; n <= max; n++ {
+		if !isNotPrime[n] { // n は素数
+			primes = append(primes, int64(n)) // 素数を追加
+		}
+	}
+	goal := time.Now() //Goal
+	fmt.Printf("%v 以下の素数: %v\n", max, primes)
+	fmt.Printf("%v 経過", goal.Sub(start)) //経過時間を表示
+}
+```
+
+```
+C:>go run prime01b.go
+100 以下の素数: [2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97]
+0 経過
+```
+
+割り算がない。
+ブラボー！
+
 ただし「[エラトステネスの篩]」は決まった範囲を探索するものなので少々使いづらい。
+しかも掛け算を使うので大きな数を探索するのには向いていない。
 そこで「[エラトステネスの篩]」で使われている以下の素数の特徴を最初のアルゴリズムに加えてみる。
 
 1. 2 以上の全ての自然数はひとつ以上の素数の積で構成される（この素数の集合を素因数（prime factor）という）。したがってある数が素数か否かの判定は，その数より小さい素数のみで調べればよい

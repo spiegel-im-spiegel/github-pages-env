@@ -1,6 +1,6 @@
 +++
 date = "2015-09-30T00:27:48+09:00"
-update = "2015-12-19T23:24:48+09:00"
+update = "2016-02-10T17:34:12+09:00"
 description = "C++ や Java のような言語圏から来た（私のような）人間にとって Go 言語の「オブジェクト指向」はかなり異質なのだが，慣れてみると逆にとても合理的に見えてくる。この最たるものが error 型である。（追記あり）"
 draft = false
 tags = ["golang", "error", "exception"]
@@ -90,9 +90,11 @@ defer file.Close()
 ここで [error] について改めて説明しておく。
 [error] は以下の形式で表現できる [interface] 型のひとつである[^d]。
 
-[^d]: [error] は組み込み型なので，実際にこのような定義が標準パッケージにあるわけではない。
+[^d]: [error] は組み込み型。組み込み型や組み込み関数（`append()` とか）は [`builtin`] パッケージに定義が記述されているが，実際にこのパッケージを import して使うわけではない。
 
 ```go
+// The error built-in interface type is the conventional interface for
+// representing an error condition, with the nil value representing no error.
 type error interface {
 	Error() string
 }
@@ -375,6 +377,33 @@ func makeSlice(n int) []byte {
 
 いずれにしろ，いわゆる「例外処理」的なハンドリングを [Panic]/[Recover] で行うべきではない。
 
+## 【追記】 error の nil が nil にならない場合
+
+- [Why Go is a poorly designed language — Medium](https://medium.com/@tucnak/why-go-is-a-poorly-designed-language-1cc04e5daf2#.ucutrogyz) （[日本語訳](http://postd.cc/why-go-is-a-poorly-designed-language/)）
+
+{{< fig-gist "https://gist.github.com/tucnak/eccdb53e7884084f5674" >}}
+
+このコードの実行結果は “Hello, Mr. Pike!” を出力する。
+このコードのポイントは `Generate()` 関数が [error] ではなく `*MagicError` 型を返している点にある。
+他にも
+
+```go
+func test(x int) error {
+    var err *myError
+    if x < 0 {
+        err = &myError{}
+    }
+    return err
+}
+```
+
+のようなコードでは `x` の値に関わらず返り値は nil にならない。
+
+実は [interface] 型というのは実体への参照と型情報をペアで保持っているため，上述のような形で nil を返しても受け取った側は「nil 値のなにか」という評価になるため [error] の nil にはならないのだ。
+
+エラーハンドリングを行う際は結構ここがハマりどころになる。
+ご注意を。
+
 ## ブックマーク
 
 - [または私は如何にして例外するのを止めて golang を愛するようになったか — KaoriYa](http://www.kaoriya.net/blog/2014/04/17/)
@@ -386,6 +415,7 @@ func makeSlice(n int) []byte {
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [error]: http://blog.golang.org/error-handling-and-go "Error handling and Go - The Go Blog"
+[`builtin`]: https://golang.org/pkg/builtin/ "builtin - The Go Programming Language"
 [`errors`]: https://golang.org/pkg/errors/ "errors - The Go Programming Language"
 [interface]: https://golang.org/doc/effective_go.html#interfaces_and_types "Effective Go - The Go Programming Language"
 [string]: http://golang.org/ref/spec#String_types
