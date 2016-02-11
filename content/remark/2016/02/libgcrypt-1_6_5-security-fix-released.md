@@ -1,6 +1,6 @@
-﻿+++
++++
 date = "2016-02-11T03:58:42+09:00"
-update = "2016-02-11T21:02:34+09:00"
+update = "2016-02-11T21:34:10+09:00"
 description = "セキュリティ・アップデートを含むため，関係しているアプリケーション（GnuPG を含む）を使用している場合はアップデートする必要がある。"
 draft = false
 tags = ["security", "vulnerability", "cryptography", "libgcrypt", "gnupg", "openpgp"]
