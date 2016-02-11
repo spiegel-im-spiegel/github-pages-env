@@ -95,11 +95,11 @@ Logjam 攻撃では $L=512\,\mathrm{bits}$ にダウングレードさせられ�
 暗号について詳しくは拙文「[わかる！ OpenPGP 暗号](http://www.baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)」の「[暗号に関する雑多な話](http://www.baldanders.info/spiegel/archive/pgpdump/openpgp.shtml#appendix)」あたりをどうぞ。
 また [FREAK については Gist にまとめている](https://gist.github.com/spiegel-im-spiegel/47f340122c895ccc8bb8)ので，そちらも参考にどうぞ。
 
-## 影響度（CVSSv2）
+## 影響度（CVSS）
 
 [CVE-2015-1716] より
 
-CVSS 基本値 5.0 (AV:N/AC:L/Au:N/C:P/I:N/A:N)
+CVSSv2 基本値 5.0 (AV:N/AC:L/Au:N/C:P/I:N/A:N)
 
 | 基本評価基準                            | 評価値            |
 |----------------------------------------:|:------------------|
@@ -112,7 +112,7 @@ CVSS 基本値 5.0 (AV:N/AC:L/Au:N/C:P/I:N/A:N)
 
 [CVE-2015-4000] より
 
-CVSS 基本値 4.3 (AV:N/AC:M/Au:N/C:N/I:P/A:N)
+CVSSv2 基本値 4.3 (AV:N/AC:M/Au:N/C:N/I:P/A:N)
 
 | 基本評価基準                            | 評価値            |
 |----------------------------------------:|:------------------|
@@ -134,7 +134,7 @@ CVSS については[デモページ](http://www.baldanders.info/spiegel/archive
 - OpenSSL 規定で輸出グレード暗号は無効化されているので，実質的には大丈夫？ : [Logjam, FREAK and Upcoming Changes in OpenSSL - OpenSSL Blog](https://www.openssl.org/blog/blog/2015/05/20/logjam-freak-upcoming-changes/)
     - [脆弱性を修正した「OpenSSL」の最新版が公開、“Logjam”脆弱性の修正も - 窓の杜](http://www.forest.impress.co.jp/docs/news/20150615_706966.html)
 
-> また、「OpenSSL」v1.0.2b/v1.0.1nに関しては、TLS通信で暗号強度の弱い輸出グレードの暗号へ意図せずダウングレードされてしまう“Logjam”脆弱性（CVE-2015-4000）も修正されている。 
+> また、「OpenSSL」v1.0.2b/v1.0.1nに関しては、TLS通信で暗号強度の弱い輸出グレードの暗号へ意図せずダウングレードされてしまう“Logjam”脆弱性（CVE-2015-4000）も修正されている。
 
 - Apple Safari : 影響あり。修正版なし
 - Android : 影響あり。修正版なし

@@ -1,6 +1,6 @@
 ﻿+++
 date = "2016-02-11T03:58:42+09:00"
-update = "2016-02-11T12:21:33+09:00"
+update = "2016-02-11T21:02:34+09:00"
 description = "セキュリティ・アップデートを含むため，関係しているアプリケーション（GnuPG を含む）を使用している場合はアップデートする必要がある。"
 draft = false
 tags = ["security", "vulnerability", "cryptography", "libgcrypt", "gnupg", "openpgp"]
@@ -42,7 +42,7 @@ ECDH (Elliptic Curve Diffie–Hellman key exchange) に対する side-channel at
 
 ## 影響度（CVSS）
 
-CVE-2015-7511 （[redhat](https://access.redhat.com/security/cve/CVE-2015-7511) より）
+CVE-2015-7511 （[CVE-2015-7511 - Red Hat Customer Portal](https://access.redhat.com/security/cve/CVE-2015-7511)）
 
 CVSSv2 基本値 4.3 (`AV:A/AC:M/Au:N/C:P/I:P/A:N`)
 
