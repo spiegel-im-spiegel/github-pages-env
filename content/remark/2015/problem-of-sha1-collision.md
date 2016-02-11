@@ -1,6 +1,6 @@
 +++
 date = "2015-10-22T14:35:22+09:00"
-update = "2016-02-07T12:08:01+09:00"
+update = "2016-02-09T19:31:08+09:00"
 description = "GPU をふんだんに使った専用ハードウェアやクラウド・サービスなどを組み合わせることにより，近い将来に実用的なコストで SHA-1 攻略が可能になると指摘されている。"
 draft = false
 tags = ["security", "cryptography", "hash", "sha-1", "collision", "risk"]

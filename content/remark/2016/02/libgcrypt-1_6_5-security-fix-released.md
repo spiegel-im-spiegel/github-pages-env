@@ -1,7 +1,7 @@
 +++
-date = "2016-02-10T12:32:18+09:00"
+date = "2016-02-11T03:58:42+09:00"
 description = "セキュリティ・アップデートを含むため，関係しているアプリケーション（GnuPG を含む）を使用している場合はアップデートする必要がある。"
-draft = true
+draft = false
 tags = ["security", "vulnerability", "cryptography", "libgcrypt", "gnupg", "openpgp"]
 title = "Libgcrypt 1.6.5 with security fix released"
 

@@ -1,6 +1,6 @@
 +++
 date = "2016-01-23T13:54:34+09:00"
-update = "2016-02-09T20:06:53+09:00"
+update = "2016-02-09T19:31:26+09:00"
 description = "Planet Nine / 次期X線国際天文衛星 ASTRO-H は 2月12日に打ち上げ予定 / 2^74207281-1 is Prime! / いまのところ「秀丸」への依存度は1割程度 / Bitcoin は失敗したか / TeX Wiki が移転しとるがな / 「『いま読むべき本』３冊」"
 draft = false
 tags = ["astronomy", "planet9", "jaxa", "hidemaru", "atom", "editor", "bitcoin", "tex", "pandoc", "book", "math", "prime-number"]

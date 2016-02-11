@@ -1,7 +1,7 @@
 +++
-date = "2016-02-10T13:27:32+09:00"
+date = "2016-02-11T03:59:41+09:00"
 description = "以前 Qiita に書いた記事を再掲載する。ちなみに元記事は2015年5月に公開している。"
-draft = true
+draft = false
 tags = ["security", "vulnerability", "cryptography", "openssl"]
 title = "TLS における Diffie-Hellman 鍵交換の脆弱性（再掲載）"
 
