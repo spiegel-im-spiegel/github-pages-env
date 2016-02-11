@@ -1,6 +1,6 @@
 +++
 date = "2015-09-30T00:27:48+09:00"
-update = "2016-02-10T17:34:12+09:00"
+update = "2016-02-11T19:32:08+09:00"
 description = "C++ や Java のような言語圏から来た（私のような）人間にとって Go 言語の「オブジェクト指向」はかなり異質なのだが，慣れてみると逆にとても合理的に見えてくる。この最たるものが error 型である。（追記あり）"
 draft = false
 tags = ["golang", "error", "exception"]
@@ -385,21 +385,41 @@ func makeSlice(n int) []byte {
 
 このコードの実行結果は “Hello, Mr. Pike!” を出力する。
 このコードのポイントは `Generate()` 関数が [error] ではなく `*MagicError` 型を返している点にある。
-他にも
+
+実は [error] を含む [interface] 型のインスタンスは値と型情報をセットで保持っているため，上述のような形で nil を返しても受け取った側は「nil 状態を持つなにか」という評価になり，型情報を含めた完全な nil にはならないのだ。
+たとえば上のコードを以下のように書き換えると分かりやすいかもしれない。
 
 ```go
-func test(x int) error {
-    var err *myError
-    if x < 0 {
-        err = &myError{}
-    }
-    return err
+package main
+
+import "fmt"
+
+type MagicError struct{}
+
+func (m *MagicError) Error() string {
+    return fmt.Sprintf("%#v", m)
+}
+
+func Generate() *MagicError {
+	return nil
+}
+
+func Test() error {
+	return Generate()
+}
+
+func main() {
+	if err := Test(); err != nil {
+		fmt.Println(err)
+	}
 }
 ```
 
-のようなコードでは `x` の値に関わらず返り値は nil にならない。
+このコードを実行すると “(*main.MagicError)(nil)” と出力する。
+`Generate()` 関数が返す nil がどのように機能しているか分かると思う。
+「[Go 言語における「オブジェクト」]({{< relref "golang/object-oriented-programming.md" >}})」で解説するが， [Go 言語]の型（[type]）は C++ や Java で言うところの class のように機能するため，このような動きになると思われる[^nil]。
 
-実は [interface] 型というのは実体への参照と型情報をペアで保持っているため，上述のような形で nil を返しても受け取った側は「nil 値のなにか」という評価になり，型情報を含めた完全な nil にはならないのだ。
+[^nil]: それでもやっぱり nil は nil として扱ってほしいのだが。
 
 エラーハンドリングを行う際は結構ここがハマりどころになる。
 ご注意を。
@@ -425,3 +445,4 @@ func test(x int) error {
 [Recover]: http://blog.golang.org/defer-panic-and-recover "Defer, Panic, and Recover - The Go Blog"
 [Conversion]: https://golang.org/ref/spec#Conversions "The Go Programming Language Specification - The Go Programming Language"
 [`bytes`]: https://golang.org/pkg/bytes/ "bytes - The Go Programming Language"
+[type]: https://golang.org/ref/spec#Properties_of_types_and_values "Properties of types and values"
