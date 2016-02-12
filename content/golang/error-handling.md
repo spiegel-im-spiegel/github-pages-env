@@ -1,9 +1,9 @@
 +++
 date = "2015-09-30T00:27:48+09:00"
-update = "2016-02-11T19:32:08+09:00"
+update = "2016-02-12T19:24:47+09:00"
 description = "C++ や Java のような言語圏から来た（私のような）人間にとって Go 言語の「オブジェクト指向」はかなり異質なのだが，慣れてみると逆にとても合理的に見えてくる。この最たるものが error 型である。（追記あり）"
 draft = false
-tags = ["golang", "error", "exception"]
+tags = ["golang", "error", "exception", "panic"]
 title = "エラー・ハンドリングについて（追記あり）"
 
 [author]
