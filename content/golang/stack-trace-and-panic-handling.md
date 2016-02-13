@@ -1,7 +1,7 @@
 +++
-date = "2016-02-12T09:52:32+09:00"
-description = "description"
-draft = true
+date = "2016-02-13T14:48:05+09:00"
+description = "panic 時の出力をカスタマイズすることを考える。スタック情報を取得するには， panic を recover で捕まえた上で runtime.Caller() 関数を使う。"
+draft = false
 tags = ["golang", "stack", "panic"]
 title = "スタック追跡とパニック・ハンドリング"
 
@@ -48,8 +48,10 @@ func f() {
 }
 ```
 
-以下のスタック情報が標準エラー出力に表示される。
+以下のスタック情報が標準エラー出力に表示される[^s]。
 （[The Go Playground](https://play.golang.org/) での実行結果）
+
+[^s]: ちなみにこの情報は `-s` のリンクオプション（ビルド時に `-ldflags "-s"` と指定する）でデバッグ用のシンボル情報を削除しても表示されるようだ。
 
 ```
 panic: runtime error: index out of range
@@ -125,27 +127,15 @@ Panic: runtime error: index out of range
 ```
 
 となる。
-ファイル名を出力したくないなら
+ファイル名を出力したくないなら for 文の中を
 
 ```go
-func run(log io.Writer) (exit int) {
-	defer func() {
-		if r := recover(); r != nil {
-			fmt.Fprintf(log, "Panic: %v\n", r)
-			for depth := 0; ; depth++ {
-				pc, _, line, ok := runtime.Caller(depth)
-				if !ok {
-					break
-				}
-				fmt.Fprintf(log, " -> %d: %s: (%d)\n", depth, runtime.FuncForPC(pc).Name(), line)
-			}
-			exit = 1
-		}
-	}()
-
-	f()
-	exit = 0
-	return
+for depth := 0; ; depth++ {
+	pc, _, line, ok := runtime.Caller(depth)
+	if !ok {
+		break
+	}
+	fmt.Fprintf(log, " -> %d: %s: (%d)\n", depth, runtime.FuncForPC(pc).Name(), line)
 }
 ```
 
