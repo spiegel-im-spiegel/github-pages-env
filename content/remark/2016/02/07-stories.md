@@ -1,8 +1,9 @@
 +++
 date = "2016-02-07T14:23:30+09:00"
+update = "2016-02-14T14:03:24+09:00"
 description = "Microsoft はもはや Windows を維持できない？ / LINE は「セキュリティ劇場」に気づいたか？ / 2017年の暦 / 鏡の国のアリス"
 draft = false
-tags = ["windows", "security", "risk", "line", "astronomy", "book"]
+tags = ["windows", "security", "risk", "line", "astronomy", "book", "aozora"]
 title = "週末スペシャル： Microsoft はもはや Windows を維持できない？"
 
 [author]

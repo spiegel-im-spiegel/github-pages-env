@@ -1,8 +1,9 @@
 +++
 date = "2015-11-08T16:43:35+09:00"
+update = "2016-02-14T14:05:20+09:00"
 description = "「ふたご座流星群を眺めよう 2015」キャンペーン / Pinga / 「「校閲君」と「チェッカー君」を汎用化したい」らしい / Android 端末のセキュリティ"
 draft = false
-tags = ["astronomy", "web", "manga", "book", "e-book", "security", "vulnerability", "android"]
+tags = ["astronomy", "web", "manga", "book", "e-book", "aozora", "security", "vulnerability", "android"]
 title = "今日の戯れ言： 「ふたご座流星群を眺めよう 2015」キャンペーン"
 
 [author]
