@@ -2,7 +2,7 @@
 date = "2016-02-14T20:19:41+09:00"
 description = "paiza.IO を試してみる。"
 draft = false
-tags = ["programing"]
+tags = ["programming"]
 title = "オンラインでプログラミング"
 
 [author]
@@ -22,7 +22,6 @@ title = "オンラインでプログラミング"
 
 先ほどの「[週末スペシャル]({{< relref "remark/2016/02/14-stories.md" >}})」でも紹介したが， [paiza.IO] を試してみる。
 
-
 - [ブラウザでプログラミング・実行ができる「オンライン実行環境」| paiza.IO](https://paiza.io/)
 - [GistをPaiza.ioで使ってみる - Qiita](http://qiita.com/omochiiiY/items/b3b3f7ece1dedca1d4e1)
 
@@ -39,7 +38,7 @@ title = "オンラインでプログラミング"
 また埋め込まれたコードはその場で編集して実行し直すこともできる。
 試しに for 文の中を以下のコードに差し替えて実行してみて欲しい。
 
-[^cke]: ただしコードを埋め込むには third-party cookie を有効にする必要がある。 Firefox であれば，例外設定をすることもできる。いや，こういうのマジ勘弁して欲しいんですけど。今時 third-party cookie とかありえない。
+[^cke]: ただし埋め込んだコードを表示するにはブラウザ設定で third-party cookie を有効にする必要がある。 Firefox であれば例外設定をすることもできる。いや，こういうのマジ勘弁して欲しいんですけど。今時 third-party cookie とかありえない。
 
 ```go
 for depth := 0; ; depth++ {
