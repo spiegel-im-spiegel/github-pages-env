@@ -1,5 +1,6 @@
 +++
 date = "2015-11-26T20:29:30+09:00"
+update = "2016-02-14T19:26:03+09:00"
 description = "これって curl で書けるんなら Go 言語で表現できるんじゃね？"
 draft = false
 tags = ["golang", "github", "curl", "programming"]
@@ -33,7 +34,7 @@ title = "Git.io から短縮 URL を取得するコード"
 API が [curl] で掲載されていて，例えば私の [https://github.com/spiegel-im-spiegel](https://github.com/spiegel-im-spiegel) なら
 
 ```bash
-$ curl -i "http://git.io" -F "url=https://github.com/spiegel-im-spiegel"
+$ curl -i "https://git.io" -F "url=https://github.com/spiegel-im-spiegel"
 HTTP/1.1 201 Created
 Server: Cowboy
 Connection: keep-alive
@@ -87,7 +88,7 @@ func main() {
 	writer.WriteField("url", "https://github.com/spiegel-im-spiegel")
 	writer.Close()
 
-	resp, err := http.Post("http://git.io", "multipart/form-data; boundary="+writer.Boundary(), &buffer)
+	resp, err := http.Post("https://git.io", "multipart/form-data; boundary="+writer.Boundary(), &buffer)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -119,7 +120,7 @@ func main() {
 	writer.WriteField("url", "https://github.com/spiegel-im-spiegel")
 	writer.Close()
 
-	resp, err := http.Post("http://git.io", "multipart/form-data; boundary="+writer.Boundary(), &buffer)
+	resp, err := http.Post("https://git.io", "multipart/form-data; boundary="+writer.Boundary(), &buffer)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -164,7 +165,7 @@ func main() {
 		"url": {"https://github.com/spiegel-im-spiegel"},
 	}
 
-	resp, err := http.PostForm("http://git.io", values)
+	resp, err := http.PostForm("https://git.io", values)
 	if err != nil {
 		log.Fatal(err)
 	}
