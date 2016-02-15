@@ -1,6 +1,6 @@
 +++
 date = "2015-12-09T20:14:59+09:00"
-update = "2016-02-10T14:25:44+09:00"
+update = "2016-02-15T08:10:37+09:00"
 description = "git 各コマンドに関する覚え書き。思い出したら追記予定。"
 draft = false
 tags = ["git", "tools"]
@@ -151,6 +151,18 @@ $ git push -u origin master
 
 [^sf]: `-f` オプションを付けて強制的に push することは可能。ただしこれは（rebase と同じで）歴史の改変になるため取り扱いに注意。
 
+## Remote Repository の branch を削除する
+
+[GitHub] とかで余計な branch を作っちゃって削除したい時。
+ローカルの clone から以下の引数で push すればいいようだ。
+
+```bash
+$ git push origin :wrong-branch
+```
+
+- [passingloop • 復習 Git: GitHub のブランチを削除する．](http://passingloop.tumblr.com/post/18015576208/remove-remote-branches-by-git-push)
+- [GitHubで付けたタグを削除する - アインシュタインの電話番号](http://blog.ruedap.com/2011/02/08/git-github-delete-tag)
+
 ## Git に関するブックマーク
 
 ついでなので，ローカルで溜め込んでいた [git] に関するブックマークを挙げておく。
@@ -186,3 +198,4 @@ $ git push -u origin master
 - [小規模開発のgit-flowの導入を楽にするブランチルールと拡張スクリプト配布 - Qiita](http://qiita.com/eaglesakura/items/4fa17bf1f2b6683e6520)
 
 [git]: https://git-scm.com/ "Git"
+[GitHub]: https://github.com/
