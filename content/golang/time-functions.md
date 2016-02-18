@@ -1,5 +1,6 @@
 +++
 date = "2016-01-22T20:56:21+09:00"
+update = "2016-02-18T11:32:17+09:00"
 description = "今回は日付処理の話。特にフォーマットの定義の仕方はよく忘れるので覚え書きとして記しておく。"
 draft = false
 tags = ["golang", "time"]
@@ -150,7 +151,7 @@ fmt.Println(tm.Format(time.RFC3339))
 とすれば同じ結果が得られる。
 時刻フォーマットは，いったんシステムの中で決めてしまえば同じものを使い回すことになると思うので，定数化してしまえば「フォーマットどうだっけ？」と煩わされることも少ないだろう。
 
-ところで現行（バージョン 1.5 系）の [`time`].`Parse()` 関数は日付の解釈が寛容で，各月の末日を31日まで許容している。
+ところでバージョン 1.5 系の [`time`].`Parse()` 関数は日付の解釈が寛容で，各月の末日を31日まで許容している。
 たとえば閏年でない2月29日でも
 
 ```go
@@ -178,9 +179,17 @@ func main() {
 
 となり，エラーとならずいい感じ（？）に加減してくれるのだが，バージョン 1.6 からは少し解釈が厳密になりエラーを返すようだ。
 
-{{< fig-quote title="Go 1.6 Release Notes DRAFT - The Go Programming Language" link="https://tip.golang.org/doc/go1.6" lang="en" >}}
-<q>The time package's Parse function has always rejected any day of month larger than 31, such as January 32. In Go 1.6, Parse now also rejects February 29 in non-leap years, February 30, February 31, April 31, June 31, September 31, and November 31.</q>
+{{< fig-quote title="Go 1.6 Release Notes - The Go Programming Language" link="https://tip.golang.org/doc/go1.6" lang="en" >}}
+<q>The <a href="https://tip.golang.org/pkg/time/"><code>time</code></a> package's <a href="https://tip.golang.org/pkg/time/#Parse"><code>Parse</code></a> function has always rejected any day of month larger than 31, such as January 32. In Go 1.6, Parse now also rejects February 29 in non-leap years, February 30, February 31, April 31, June 31, September 31, and November 31.</q>
 {{< /fig-quote >}}
+
+実際に 1.6 で上のコードを実行すると
+
+```
+parsing time "2015-02-29T23:59:59+09:00": day out of range
+```
+
+とエラーが返ってくる。
 
 ちなみに [`time`].`Date()` 関数は更に寛容である。
 
@@ -205,7 +214,7 @@ func main() {
 ```
 
 ```
-2016-02-03 02:00:00 +0900 JST
+2016-02-02 02:00:00 +0900 JST
 ```
 
 ## ブックマーク

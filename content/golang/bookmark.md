@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-02-17T13:12:12+09:00"
+update = "2016-02-18T09:13:41+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -28,7 +28,7 @@ title = "Go 言語に関するブックマーク"
 
 ## 公式サイト
 
-- [The Go Programming Language](https://golang.org/) : 2016年1月14日時点での最新は 1.5.3
+- [The Go Programming Language](https://golang.org/) : 2016年2月17日時点での最新は 1.6
     - [git repositories (Google)](https://go.googlesource.com/)
     - [git repositories (GitHub)](https://github.com/golang) : mirror
 - [golang-jp - The Go Programming Language](http://golang-jp.org/) : 本家の日本語訳サイト。（[golang.jp](http://golang.jp/) は参考にしない方がいい，らしい）
@@ -41,9 +41,10 @@ title = "Go 言語に関するブックマーク"
     - [Go 1.5 Vendor Experiment](https://docs.google.com/document/d/1Bz5-UB7g2uPBdOx-rw5t9MxJwkfpx90cqG9AFL0JAYo/edit)
 - [[security] Go 1.5.3 is released - Qiita](http://qiita.com/spiegel-im-spiegel/items/83b53109f54f8fb62c1c)
 
-### Go 1.6 RC1 Released.
+### Go 1.6 is released
 
-- [Go 1.6 Release Notes DRAFT - The Go Programming Language](https://tip.golang.org/doc/go1.6)
+- [Go 1.6 is released - The Go Blog](https://blog.golang.org/go1.6)
+- [Go 1.6 Release Notes - The Go Programming Language](https://golang.org/doc/go1.6)
     - [Go1.6の新機能 - Qiita](http://qiita.com/ksato9700/items/5505e506c20b6048c218)
 
 ## 言語仕様に関すること
@@ -156,6 +157,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go言語のトラブルシューティング用機能](http://www.slideshare.net/satorutakeuchi18/go-53685632)
 - [Go で利用できるプロファイリングツール pprof の読み方 - Qiita](http://qiita.com/ikawaha/items/e3b35f09fb49e9217924)
 - [Goでfunctionが実行された順番を追いかける - sgykfjsm.github.com](http://sgykfjsm.github.io/blog/2016/01/20/golang-function-tracing/)
+- [Go言語でプリント文デバッグするときのTips - Qiita](http://qiita.com/ohac/items/0aa8eb6ff8ee5f599dcd)
 
 ### Go 言語のテスト・フレームワーク
 
