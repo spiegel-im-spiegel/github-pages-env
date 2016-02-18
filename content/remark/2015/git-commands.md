@@ -1,6 +1,6 @@
 +++
 date = "2015-12-09T20:14:59+09:00"
-update = "2016-02-16T07:58:38+09:00"
+update = "2016-02-18T13:33:30+09:00"
 description = "git 各コマンドに関する覚え書き。思い出したら追記予定。"
 draft = false
 tags = ["git", "tools"]
@@ -186,6 +186,7 @@ $ git push origin :wrong-branch
 - [マージされてない他者のプルリクを取り込む - Qiita](http://qiita.com/hirogw/items/3ea3a321a367740e971a)
 - [git commit時に英語でメッセージ書くためのヒントを表示する - Qiita](http://qiita.com/sagaraya/items/60e983856e16dc571f22)
 - [Github のブランチ保護を使用してリスキーなマージを防止する - Qiita](http://qiita.com/yo1000/items/8ffe225716ba3b064697)
+- [【Git】コミットに規約をつくる - Qiita](http://qiita.com/Kenya/items/f72fba8fecc79d1b090c)
 
 ### Git-flow and GitHub-flow
 
