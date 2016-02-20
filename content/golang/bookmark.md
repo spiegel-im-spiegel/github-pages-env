@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-02-18T09:13:41+09:00"
+update = "2016-02-19T18:00:48+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -333,6 +333,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [GoでANSIエスケープコードを扱うライブラリを作った(色付け・カーソル移動等) - Qiita](http://qiita.com/morikuni/items/ad8d900f56ddeb223101)
 - [Go で interface {} の中身がポインタならその参照先を取得する - Qiita](http://qiita.com/chimatter/items/b0879401d6666589ab71)
 - [Go の DB アクセス用のパッケージを作った - Qiita](http://qiita.com/chimatter/items/1a5fb2f03477f2ada520)
+- [Google App Engine SDK for Goを使ってGAE上でアプリを動かすまで - Qiita](http://qiita.com/walkers/items/e407386d7ef184ec830a)
 
 ### コマンドライン・ツール
 

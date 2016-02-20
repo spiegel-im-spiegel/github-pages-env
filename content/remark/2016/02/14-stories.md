@@ -1,6 +1,6 @@
 +++
 date = "2016-02-14T14:00:52+09:00"
-update = "2016-02-18T12:56:17+09:00"
+update = "2016-02-19T17:44:01+09:00"
 description = "LIGO が重力波の「直接検出」に成功する！ / aozorahack.org ドメインの取得 / オンラインのプログラム実行環境 paiza.IO / パスワードや秘密鍵の管理はどうしてますか？ / 達人出版会から「数学ガールの秘密ノート」の PDF 版が出てるらしい"
 draft = false
 tags = ["astronomy", "gravity-wave", "book", "aozora", "programming", "security", "authentication", "yubikey", "math"]
@@ -42,6 +42,9 @@ title = "週末スペシャル： LIGO が重力波の「直接検出」に成�
 - [Gravitational Waves: What Their Discovery Means for Science and Humanity](http://www.space.com/31922-gravitational-waves-detection-what-it-means.html)
 - [Gravity Waves and ET | SETI Institute](http://www.seti.org/seti-institute/gravity-waves-and-et)
 - [Gravitational Waves Discovered from Colliding Black Holes - Scientific American](http://www.scientificamerican.com/article/gravitational-waves-discovered-from-colliding-black-holes1/)
+- [Hawking: Gravitational Waves Could Revolutionize Astronomy](http://www.space.com/31960-hawking-gravitational-waves-could-revolutionize-astronomy.html)
+- [How did the odd black holes detected by LIGO form – and can we spot them in the sky?](https://theconversation.com/how-did-the-odd-black-holes-detected-by-ligo-form-and-can-we-spot-them-in-the-sky-54672)
+    - [重力波を発生させたブラックホール連星のなぞ - アストロアーツ](http://www.astroarts.co.jp/news/2016/02/19blackhole/index-j.shtml)
 - [LIGOによる重力波の直接検出について | 国立天文台(NAOJ)](http://www.nao.ac.jp/news/topics/2016/20160212-gw.html)
 - [ICRR: 【コメント】LIGO-Virgoの重力波発見に関するKAGRAグループからのコメント - 東京大学宇宙線研究所](http://www.icrr.u-tokyo.ac.jp/2016/02/12010659.html)
 - [重力波天文学に道開く - 初観測のＬＩＧＯチーム | マイナビニュース](http://news.mynavi.jp/news/2016/02/12/114/)
