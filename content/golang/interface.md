@@ -137,7 +137,9 @@ alpha beta gamma
 ```
 
 のようにめでたく列挙される。
-この問題は [`fmt`].`Println()` 関数だけじゃなく，ある型の配列を `[]interface{}` 型にキャストしようとする際は必ず発生するようだ。
+この問題は [`fmt`].`Println()` 関数だけじゃなく，ある型の配列を `[]interface{}` 型にキャストしようとする際は必ず発生するようだ[^c]。
+
+[^c]: 例えば `list` に `strlist` の内容をコピーする際に for 文で回すのではなく `list = append(list, strlist...)` でできるかどうか試してみればいい。
 
 いや，「"`cannot use strlist (type []string) as type []interface {} in argument to fmt.Println`” なんてコンパイルエラーを出せるならコンパイラ側でなんとかしてよ」と思うのだが，どうも無理らしい。
 
