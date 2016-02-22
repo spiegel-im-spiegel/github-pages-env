@@ -1,9 +1,9 @@
 +++
 date = "2015-12-15T21:19:58+09:00"
-update = "2016-01-20T09:15:48+09:00"
+update = "2016-02-22T19:23:38+09:00"
 description = "Go 言語がいわゆる「オブジェクト指向言語」と言えるかどうかについては色々とあるようだが，オブジェクト指向プログラミングを助けるための仕掛けはいくつか存在する。今回はその中の type キーワードを中心に解説していく。"
 draft = false
-tags = ["golang", "object-oriented", "programming", "type"]
+tags = ["golang", "object-oriented", "programming", "type", "interface"]
 title = "Go 言語における「オブジェクト」"
 
 [author]
