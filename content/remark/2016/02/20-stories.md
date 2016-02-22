@@ -1,5 +1,6 @@
 +++
 date = "2016-02-20T18:03:21+09:00"
+update = "2016-02-22T13:10:16+09:00"
 description = "X 線天文衛星 ASTRO-H の打上げ成功 / TMT 建設に関する報道 / スマホへ「ブルートフォース攻撃」を要求するアメリカ / C 言語はどう書くべきか / Bitcoin は「群衆の知恵」を前提とする / Amazon Prime 入ろうかと / 「ムラ社会」という名の多文化主義的エポケー"
 draft = false
 tags = ["astronomy", "telescope", "astro-h", "tmt", "security", "privacy", "risk", "programming", "blockchain", "amazon", "politics", "media"]
@@ -34,6 +35,7 @@ title = "週末スペシャル： X 線天文衛星 ASTRO-H の打上げ成功"
 - [JAXA | X線天文衛星（ASTRO-H）の太陽電池パドル展開及び衛星の名称について](http://www.jaxa.jp/press/2016/02/20160217_hitomi_j.html)
 - [JAXA | X線天文衛星「ひとみ」（ASTRO-H）の軌道計算結果について](http://www.jaxa.jp/press/2016/02/20160218_hitomi_j.html)
 - [Japan Launches X-ray Observatory to Study Black Holes, Star Explosions](http://www.space.com/31968-japan-x-ray-observatory-launch-hitomi.html)
+- [Japan Launches Observatory To Study Black Holes And Dying Stars | TechCrunch](http://techcrunch.com/2016/02/20/japan-launches-observatory-to-study-black-holes-and-dying-stars/)
 
 {{< fig-img src="http://apod.nasa.gov/apod/image/1602/IMG_0193PorterAstroH.jpg" height="333" width="500" title="APOD: 2016 February 18 - Hitomi Launches" link="http://apod.nasa.gov/apod/ap160218.html" lang="en" >}}
 
@@ -109,6 +111,8 @@ Google はかつて「プライバシーなど存在しない」と言い放っ�
 
 実はまた C 言語の仕事の話もチラチラ聞くので，念のため復習。
 とはいえ，ここに書いてあるようなことは昔から言われていることなので（先進的なコンパイラ実装は標準を先取りする），ビックリするような内容ではないが。
+
+- [「2016年、C言語はどう書くべきか」をちょっと分析してみる (warning編) - Qiita](http://qiita.com/hidenorly/items/12f5b5de0a9741ad4e5a)
 
 ## Bitcoin は「群衆の知恵」を前提とする{#blockchain}
 

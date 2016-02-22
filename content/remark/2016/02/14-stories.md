@@ -1,6 +1,6 @@
 +++
 date = "2016-02-14T14:00:52+09:00"
-update = "2016-02-19T17:44:01+09:00"
+update = "2016-02-22T12:48:05+09:00"
 description = "LIGO が重力波の「直接検出」に成功する！ / aozorahack.org ドメインの取得 / オンラインのプログラム実行環境 paiza.IO / パスワードや秘密鍵の管理はどうしてますか？ / 達人出版会から「数学ガールの秘密ノート」の PDF 版が出てるらしい"
 draft = false
 tags = ["astronomy", "gravity-wave", "book", "aozora", "programming", "security", "authentication", "yubikey", "math"]
@@ -56,6 +56,7 @@ title = "週末スペシャル： LIGO が重力波の「直接検出」に成�
 - [重力波検出の意義と今後の進展(2016/2/12)](http://jun-makino.sakura.ne.jp/articles/future_sc/note131.html)
 - [重力波天体からのガンマ線か？ フェルミ衛星がガンマ線バーストを観測広島大学極限宇宙研究拠点 CORE-U](http://core-u.hiroshima-u.ac.jp/blog/2016/02/15/core-u%E3%81%AB%E3%82%88%E3%82%8B%E9%87%8D%E5%8A%9B%E6%B3%A2%E5%A4%A9%E4%BD%93%E3%81%AE%E6%8E%A2%E6%9F%BB%E6%B4%BB%E5%8B%95/)
 - [緊急セミナー「重力波初検出」の開催 (2/22)広島大学極限宇宙研究拠点 CORE-U](http://core-u.hiroshima-u.ac.jp/blog/2016/02/16/%E7%B7%8A%E6%80%A5%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E3%80%8C%E9%87%8D%E5%8A%9B%E6%B3%A2%E5%88%9D%E6%A4%9C%E5%87%BA%E3%80%8D%E3%81%AE%E9%96%8B%E5%82%AC-222/)
+- [重力波を最初に「目撃」したイタリア人 « WIRED.jp](http://wired.jp/2016/02/22/discover-of-a-gravitational-wave/)
 
 いちばん分かりやすいのは [APOD](http://apod.nasa.gov/) に掲載されたこの図かな。
 
