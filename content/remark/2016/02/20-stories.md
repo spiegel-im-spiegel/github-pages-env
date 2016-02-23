@@ -1,6 +1,6 @@
 +++
 date = "2016-02-20T18:03:21+09:00"
-update = "2016-02-22T13:10:16+09:00"
+update = "2016-02-23T11:27:52+09:00"
 description = "X 線天文衛星 ASTRO-H の打上げ成功 / TMT 建設に関する報道 / スマホへ「ブルートフォース攻撃」を要求するアメリカ / C 言語はどう書くべきか / Bitcoin は「群衆の知恵」を前提とする / Amazon Prime 入ろうかと / 「ムラ社会」という名の多文化主義的エポケー"
 draft = false
 tags = ["astronomy", "telescope", "astro-h", "tmt", "security", "privacy", "risk", "programming", "blockchain", "amazon", "politics", "media"]
@@ -113,6 +113,7 @@ Google はかつて「プライバシーなど存在しない」と言い放っ�
 とはいえ，ここに書いてあるようなことは昔から言われていることなので（先進的なコンパイラ実装は標準を先取りする），ビックリするような内容ではないが。
 
 - [「2016年、C言語はどう書くべきか」をちょっと分析してみる (warning編) - Qiita](http://qiita.com/hidenorly/items/12f5b5de0a9741ad4e5a)
+- [「2016年、C言語はどう書くべきか」をちょっと分析してみる (building編) - Qiita](http://qiita.com/hidenorly/items/5831e8fa87f4a7adc2c9)
 
 ## Bitcoin は「群衆の知恵」を前提とする{#blockchain}
 

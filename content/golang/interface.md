@@ -1,5 +1,6 @@
 +++
 date = "2016-02-22T19:22:33+09:00"
+update = "2016-02-22T20:53:30+09:00"
 description = "Interface には落とし穴がある。"
 draft = false
 tags = ["golang", "interface"]
@@ -78,7 +79,7 @@ prog.go:7: cannot use strlist (type []string) as type []interface {} in argument
 とエラーになる。
 
 実は `[]string` 型の `strlist` は [`fmt`].`Println()` 関数に渡す際に `[]interface{}` 型ではなく `interface{}` 型に**必ず**キャストされる。
-だから `stelist...` と展開しようとしても「そりゃあ無理（←超意訳）」と怒られてしまうわけだ。
+だから `strlist...` と展開しようとしても「そりゃあ無理（←超意訳）」と怒られてしまうわけだ。
 [Go 言語]の型（[type]）は
 
 ```go
@@ -141,7 +142,7 @@ alpha beta gamma
 
 [^c]: 例えば `list` に `strlist` の内容をコピーする際に for 文で回すのではなく `list = append(list, strlist...)` でできるかどうか試してみればいい。
 
-いや，「"`cannot use strlist (type []string) as type []interface {} in argument to fmt.Println`” なんてコンパイルエラーを出せるならコンパイラ側でなんとかしてよ」と思うのだが，どうも無理らしい。
+いや，「“`cannot use strlist (type []string) as type []interface {} in argument to fmt.Println`” なんてコンパイルエラーを出せるならコンパイラ側でなんとかしてよ」と思うのだが，どうも無理らしい。
 
 やれやれ。
 
