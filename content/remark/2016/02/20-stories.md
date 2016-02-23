@@ -1,6 +1,6 @@
 +++
 date = "2016-02-20T18:03:21+09:00"
-update = "2016-02-23T11:27:52+09:00"
+update = "2016-02-23T14:16:10+09:00"
 description = "X 線天文衛星 ASTRO-H の打上げ成功 / TMT 建設に関する報道 / スマホへ「ブルートフォース攻撃」を要求するアメリカ / C 言語はどう書くべきか / Bitcoin は「群衆の知恵」を前提とする / Amazon Prime 入ろうかと / 「ムラ社会」という名の多文化主義的エポケー"
 draft = false
 tags = ["astronomy", "telescope", "astro-h", "tmt", "security", "privacy", "risk", "programming", "blockchain", "amazon", "politics", "media"]
@@ -72,6 +72,7 @@ title = "週末スペシャル： X 線天文衛星 ASTRO-H の打上げ成功"
 - [グーグルCEO、アップル支持を表明--「iPhone」ロック解除をめぐる裁判所命令について - CNET Japan](http://japan.cnet.com/news/business/35078101/)
 - [GoogleのCEO、スンダル・ピチャイ、「当局が企業にハッキングを命じることはユーザーの利益を損なう」 | TechCrunch Japan](http://jp.techcrunch.com/2016/02/19/20160217googles-ceo-says-enable-hacking-could-compromise-users-privacy/)
 - [AppleはiPhoneアンロックの事案で延期を獲得、返答の期限は2月26日に | TechCrunch Japan](http://jp.techcrunch.com/2016/02/19/20160218apple-gets-an-extension-in-iphone-unlock-case-response-now-due-february-26th/)
+- [Decrypting an iPhone for the FBI - Schneier on Security](https://www.schneier.com/blog/archives/2016/02/decrypting_an_i.html)
 
 要求されているのは以下の3つらしい（「[AppleはiPhoneアンロックの事案で延期を獲得、返答の期限は2月26日に](http://jp.techcrunch.com/2016/02/19/20160218apple-gets-an-extension-in-iphone-unlock-case-response-now-due-february-26th/)」より）。
 
