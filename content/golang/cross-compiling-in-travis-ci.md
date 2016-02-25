@@ -1,6 +1,6 @@
 +++
 date = "2016-02-13T19:37:11+09:00"
-update = "2016-02-14T13:09:55+09:00"
+update = "2016-02-25T09:39:28+09:00"
 description = "今回は Travis CI から GitHub へ mitchellh/gox で生成した実行バイナリを deploy することを考える。"
 draft = false
 tags = ["golang", "cross-compile", "continuous-integration", "github", "travis-ci"]
@@ -281,6 +281,7 @@ after_success:
 - [Go1.5はクロスコンパイルがより簡単 | SOTA](http://deeeet.com/writing/2015/07/22/go1_5-cross-compile/)
 - [Raspberry PI ２ 用の consul を作る (201512版 - Qiita](http://qiita.com/rerofumi/items/d6a8ba08270acb61b31c) : Raspberry PI 上でビルドするより Linux のクロス環境を使ったほうが速いらしい
 - [CI-as-a-ServiceでGo言語プロジェクトの最新ビルドを継続的に提供する | SOTA](http://deeeet.com/writing/2014/10/16/golang-in-ci-as-a-service/)
+- [RaspberryPi1(2とzeroも)で動かすgolang製アプリをクロスコンパイル(onMac) - Qiita](http://qiita.com/m0a/items/d933982293dcadd4998c)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
