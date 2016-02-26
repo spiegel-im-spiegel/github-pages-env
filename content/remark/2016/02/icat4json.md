@@ -1,5 +1,6 @@
 +++
 date = "2016-02-25T16:45:01+09:00"
+update = "2016-02-26T17:40:58+09:00"
 description = "IPA が提供する “icat for JSON” にアクセスする Go 言語用のパッケージを公開した。"
 draft = false
 tags = ["golang", "package", "json", "ipa", "security", "vulnerability"]
@@ -97,9 +98,11 @@ type ICAT struct {
 ```
 
 JavaScript コードを見ると `item_identifier` 項目は使ってない模様。
-`docTitleFix` 項目は中身が `null` かどうかしかチェックしてなくて， `null` 以外だと `htmlentities()` 関数を通さずに素のまま表示するという恐ろしいことをしている（普通こういうのって boolean 値を使うんじゃないのか？）。
+`docTitleFix` 項目は中身が `null` かどうかしかチェックしてなくて[^s]， `null` 以外だと `htmlentities()` 関数を通さずに素のまま表示するという恐ろしいことをしている（普通こういうのって boolean 値を使うんじゃないのか？）。
 これらの項目は無視でもいいだろう。
 本当は IPA が仕様を公開してくれると有難いんだけどねぇ。
+
+[^s]: ところで [Go 言語]における [string] の実体は `[]byte` だが nil 状態はない。 [`icat4json`] パッケージでは `docTitleFix` 項目が `null` の場合は空文字列に展開される。 JSON の `null` 状態を区別したいのであれば [`github.com/guregu/null`](https://github.com/guregu/null "guregu/null: reasonable handling of nullable values") パッケージ等を使う手もある。ちなみに [`github.com/guregu/null`](https://github.com/guregu/null "guregu/null: reasonable handling of nullable values") パッケージの型の実体は [`database/sql`](https://golang.org/pkg/database/sql/ "sql - The Go Programming Language") の `NullString` 型等である。
 
 脆弱性情報をクライアントサイドで取るのなら “[icat for JSON]” ではなく Twitter の @[ICATalerts](https://twitter.com/ICATalerts/) アカウントのタイム・ラインをチェックするほうがオススメ。
 JSON データを使うのならサーバサイドでやるべきだよね。
@@ -113,3 +116,4 @@ IPA も jQuery じゃなくて，そういうので実装すればいいのに�
 [`icat4json`]: https://github.com/spiegel-im-spiegel/icat4json "spiegel-im-spiegel/icat4json: icat for JSON with Golang"
 [icat for JSON]: https://www.ipa.go.jp/security/vuln/icat.html "サイバーセキュリティ注意喚起サービス「icat for JSON」：IPA 独立行政法人 情報処理推進機構"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
+[string]: http://golang.org/ref/spec#String_types

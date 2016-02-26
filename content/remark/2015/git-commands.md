@@ -1,6 +1,6 @@
 +++
 date = "2015-12-09T20:14:59+09:00"
-update = "2016-02-18T13:33:30+09:00"
+update = "2016-02-26T18:08:22+09:00"
 description = "git 各コマンドに関する覚え書き。思い出したら追記予定。"
 draft = false
 tags = ["git", "tools"]
@@ -173,7 +173,6 @@ $ git push origin :wrong-branch
 - [git pull と git pull –rebase の違いって？図を交えて説明します！ | KRAY Inc](http://kray.jp/blog/git-pull-rebase/)
     - [Git - pull は本当に fetch + merge なの？ - Qiita](http://qiita.com/Teloo/items/95a860ae276b49edb040)
 - [Gitのこれやめて！リスト - Qiita](http://qiita.com/doilux/items/b5a9abd95ac91e848a5f)
-- [githubからclone時にerror setting certificate verify locationsがでる | MemeTodo](http://meme.efcl.info/2011/07/gitcloneerror-setting-certificate.html) : うちでもなっていろいろ大変だった
 - [Git LFSが1.0になってGitHubで使えるようになったので試してみた - Qiita](http://qiita.com/kiida/items/0d51c43ac73f14f09f5a)
 - [git-lfsは大容量のファイルを扱うもので多量のファイルを扱うものではない - Qiita](http://qiita.com/crifff/items/32ffc824f69ed5632217)
 - [gitで重いリポジトリをcloneするとき - webネタ](http://r-h.hatenablog.com/entry/2013/12/07/093423) （[Qiita 版](http://qiita.com/butchi_y/items/cc0fe50acc47c1e3ab32)）
@@ -182,11 +181,17 @@ $ git push origin :wrong-branch
 - [Gitリポジトリ中のサブディレクトリを別のリポジトリにする - 北海道苫小牧市出身のPGが書くブログ](http://d.hatena.ne.jp/hiratara/20091112/1258023732)
 - [Gitリポジトリのディレクトリ構成を変えて別リポジトリにする - ごずろぐ](http://gozuk16.hatenablog.com/entry/2015/04/24/145714)
 - [Git リポジトリに上がっているファイルを履歴ごと消すには？ - Qiita](http://qiita.com/go_astrayer/items/6e39d3ab16ae8094496c)
-- [GitHub にパスワードとかセンシティブなファイルを push してしまったときの対処法 - Qiita](http://qiita.com/dtan4/items/34e41e3bd40a43fd8cbf) : GitHub などリモートのリポジトリに上げてしまうと，とてつもなく面倒になるので，要注意
 - [マージされてない他者のプルリクを取り込む - Qiita](http://qiita.com/hirogw/items/3ea3a321a367740e971a)
 - [git commit時に英語でメッセージ書くためのヒントを表示する - Qiita](http://qiita.com/sagaraya/items/60e983856e16dc571f22)
-- [Github のブランチ保護を使用してリスキーなマージを防止する - Qiita](http://qiita.com/yo1000/items/8ffe225716ba3b064697)
 - [【Git】コミットに規約をつくる - Qiita](http://qiita.com/Kenya/items/f72fba8fecc79d1b090c)
+- [git reset のやり方 備忘録 - Qiita](http://qiita.com/waterada/items/44f270a659370809e1dc)
+
+### GitHub
+
+- [githubからclone時にerror setting certificate verify locationsがでる | MemeTodo](http://meme.efcl.info/2011/07/gitcloneerror-setting-certificate.html) : うちでもなっていろいろ大変だった
+- [GitHub にパスワードとかセンシティブなファイルを push してしまったときの対処法 - Qiita](http://qiita.com/dtan4/items/34e41e3bd40a43fd8cbf) : GitHub などリモートのリポジトリに上げてしまうと，とてつもなく面倒になるので，要注意
+- [Github のブランチ保護を使用してリスキーなマージを防止する - Qiita](http://qiita.com/yo1000/items/8ffe225716ba3b064697)
+- [Using SSH over the HTTPS port - User Documentation](https://help.github.com/articles/using-ssh-over-the-https-port/)
 
 ### Git-flow and GitHub-flow
 

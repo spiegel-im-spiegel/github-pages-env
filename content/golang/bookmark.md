@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-02-25T09:39:47+09:00"
+update = "2016-02-26T16:26:43+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -239,6 +239,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 
 - [VisualStudioCode - Visual Studio CodeでGo言語の設定 - Qiita](http://qiita.com/evalphobia/items/f68396d573c7caf2065b)
 - [VSCode+Golang](https://gist.github.com/llaughlin/16305f0b91356e93a1c4) : task.json の設定
+- [VisualStudioCodeでGAE/Goの環境設定 - Qiita](http://qiita.com/m0a/items/ebcf964effbc7d50a489)
 
 ### Emacs で Go
 
