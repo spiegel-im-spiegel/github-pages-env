@@ -1,6 +1,6 @@
 +++
 date = "2015-12-09T20:14:59+09:00"
-update = "2016-02-26T18:08:22+09:00"
+update = "2016-03-01T16:54:07+09:00"
 description = "git 各コマンドに関する覚え書き。思い出したら追記予定。"
 draft = false
 tags = ["git", "tools"]
@@ -168,6 +168,7 @@ $ git push origin :wrong-branch
 ついでなので，ローカルで溜め込んでいた [git] に関するブックマークを挙げておく。
 
 - [Git for Windows](https://git-for-windows.github.io/)
+    - [Git for Windows で日本語を使いたい - Qiita](http://qiita.com/kumazo@github/items/2169e1ee7be278f82b94)
 - [Git Extensions](http://gitextensions.github.io/)
 - [【Git入門者向け】イメージで理解するGitコマンド事始め | きのこる庭](http://kinokoru.jp/archives/1017)
 - [git pull と git pull –rebase の違いって？図を交えて説明します！ | KRAY Inc](http://kray.jp/blog/git-pull-rebase/)

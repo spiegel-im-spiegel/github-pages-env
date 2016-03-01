@@ -1,6 +1,6 @@
 +++
 date = "2016-02-20T18:03:21+09:00"
-update = "2016-02-23T14:16:10+09:00"
+update = "2016-03-01T16:54:20+09:00"
 description = "X 線天文衛星 ASTRO-H の打上げ成功 / TMT 建設に関する報道 / スマホへ「ブルートフォース攻撃」を要求するアメリカ / C 言語はどう書くべきか / Bitcoin は「群衆の知恵」を前提とする / Amazon Prime 入ろうかと / 「ムラ社会」という名の多文化主義的エポケー"
 draft = false
 tags = ["astronomy", "telescope", "astro-h", "tmt", "security", "privacy", "risk", "programming", "blockchain", "amazon", "politics", "media"]
@@ -36,6 +36,7 @@ title = "週末スペシャル： X 線天文衛星 ASTRO-H の打上げ成功"
 - [JAXA | X線天文衛星「ひとみ」（ASTRO-H）の軌道計算結果について](http://www.jaxa.jp/press/2016/02/20160218_hitomi_j.html)
 - [Japan Launches X-ray Observatory to Study Black Holes, Star Explosions](http://www.space.com/31968-japan-x-ray-observatory-launch-hitomi.html)
 - [Japan Launches Observatory To Study Black Holes And Dying Stars | TechCrunch](http://techcrunch.com/2016/02/20/japan-launches-observatory-to-study-black-holes-and-dying-stars/)
+- [JAXA | X線天文衛星「ひとみ」（ASTRO-H）のクリティカル運用期間の終了について](http://www.jaxa.jp/press/2016/02/20160229_hitomi_j.html)
 
 {{< fig-img src="http://apod.nasa.gov/apod/image/1602/IMG_0193PorterAstroH.jpg" height="333" width="500" title="APOD: 2016 February 18 - Hitomi Launches" link="http://apod.nasa.gov/apod/ap160218.html" lang="en" >}}
 

@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-02-26T16:26:43+09:00"
+update = "2016-03-01T16:54:33+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -114,6 +114,7 @@ title = "Go 言語に関するブックマーク"
 - [Goでスレッド（goroutine）セーフなプログラムを書くために必ず注意しなければいけない点 - Qiita](http://qiita.com/ruiu/items/54f0dbdec0d48082a5b1) : `sync.Mutex` にも言及
 - [GAE/Goでもgoroutine使おうぜ！というハナシ - Qiita](http://qiita.com/hogedigo/items/f0f409ee944c4b2107c3) : GAE/Go の API には非同期版がないので積極的に goroutine 使おうよ，という話
 - [複数のgroutineが生えてるStructの安全な終了方法 - Qiita](http://qiita.com/shunsukeaihara/items/f9ef7c8d430f63d79d40)
+- [Go言語の並行性を映像化する | プログラミング | POSTD](http://postd.cc/go_concurrency_visualize/)
 
 Go 言語で複数 CPU を使った並列処理を行うには明示的な設定が必要。
 
@@ -148,6 +149,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [go-bindata でコンパイル時にリソースを埋め込んじゃおう！ - Qiita](http://qiita.com/ikawaha/items/c02d84cfd00f8f442500)
 - [ソースを実行ファイルに埋め込む方法 - Qiita](http://qiita.com/ymko/items/c2e3c8fe25bce425136d)
 - [Golangで静的ファイルをバイナリに含めるライブラリを書いてみた - Qiita](http://qiita.com/konohazuku/items/131b251a5fa29213ac5e)
+- [GolangのGin/bindataでシングルバイナリを試してみた(+React) - Qiita](http://qiita.com/wadahiro/items/4173788d54f028936723)
 
 ## 開発ツールおよびパッケージ
 
@@ -408,6 +410,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [概観からGoのWebFrameworkを選ぶ（2016/02） - Qiita](http://qiita.com/jumbOS5/items/45f86db15a5a6c8a0622)
 - [Revel(Golang)でViewを理解する - Qiita](http://qiita.com/jumbOS5/items/d817bc95279877e72b24)
 - [Big Sky :: golang で画像アップロードが簡単に出来る go-imageupload を使ってみた。](http://mattn.kaoriya.net/software/lang/go/20160224103638.htm)
+- [Go言語のスクレイピング系ライブラリまとめ - Qiita](http://qiita.com/okataitai/items/db6999ea1ab39ec0bd3e)
 
 ### 組み込み開発
 
