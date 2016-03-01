@@ -20,9 +20,9 @@ title = "MSYS2 による gcc 開発環境の構築 ― pgpdump をビルドす�
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
-1. [MSYS2 による gcc 開発環境の構築 ― インストールから初期化処理まで]({{< relref "remark/2016/02/gcc-msys2-1.md" >}})
-2. [MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の導入]({{< relref "remark/2016/02/gcc-msys2-2.md" >}})
-3. [MSYS2 による gcc 開発環境の構築 ― pgpdump をビルドする]({{< relref "remark/2016/02/gcc-msys2-3.md" >}})
+1. [MSYS2 による gcc 開発環境の構築 ― インストールから初期化処理まで]({{< relref "remark/2016/03/gcc-msys2-1.md" >}})
+2. [MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の導入]({{< relref "remark/2016/03/gcc-msys2-2.md" >}})
+3. [MSYS2 による gcc 開発環境の構築 ― pgpdump をビルドする]({{< relref "remark/2016/03/gcc-msys2-3.md" >}})
 
 [前回]で gcc を導入できたので，実際にビルドを試してみる。
 今回はターゲットとして [pgpdump] を用いる。
@@ -31,5 +31,5 @@ title = "MSYS2 による gcc 開発環境の構築 ― pgpdump をビルドす�
 
 
 [MSYS2]: http://msys2.github.io/ "MSYS2 installer"
-[前回]: {{< relref "remark/2016/02/gcc-msys2-2.md" >}} "MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の導入"
+[前回]: {{< relref "remark/2016/03/gcc-msys2-2.md" >}} "MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の導入"
 [pgpdump]: https://github.com/kazu-yamamoto/pgpdump "kazu-yamamoto/pgpdump: A PGP packet visualizer"

@@ -27,18 +27,28 @@ title = "MSYS2 による gcc 開発環境の構築 ― インストールから�
 
 ここでは以下の3部構成になっている。
 
-1. [MSYS2 による gcc 開発環境の構築 ― インストールから初期化処理まで]({{< relref "remark/2016/02/gcc-msys2-1.md" >}})
-2. [MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の導入]({{< relref "remark/2016/02/gcc-msys2-2.md" >}})
-3. [MSYS2 による gcc 開発環境の構築 ― pgpdump をビルドする]({{< relref "remark/2016/02/gcc-msys2-3.md" >}})
+1. [MSYS2 による gcc 開発環境の構築 ― インストールから初期化処理まで]({{< relref "remark/2016/03/gcc-msys2-1.md" >}})
+2. [MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の導入]({{< relref "remark/2016/03/gcc-msys2-2.md" >}})
+3. [MSYS2 による gcc 開発環境の構築 ― pgpdump をビルドする]({{< relref "remark/2016/03/gcc-msys2-3.md" >}})
 
-## MSYS2 のインストール
+## gcc と MSYS2
 
-MSYS の後継（？）とも言える [MSYS2] では開発環境を 32bit と 64bit で併設できるらしい。
+MSYS の後継（？）とも言える [MSYS2] ではgcc を含む開発環境を 32bit と 64bit で併設できるらしい。
 
 - [MSYS2 installer](http://msys2.github.io/)
 - [msys2](https://github.com/msys2) : GitHub ページ
 
-早速 64bit 版インストーラ（今回は `msys2-x86_64-20160205.exe` を使用）でインストールを行ってみる。
+今回は [MSYS2] を使って gcc 開発環境を構築する。
+
+なお，単に gcc が欲しいのであれば [TDM-GCC] のほうがお勧めである。
+そうではなく gcc を含む UNIX 互換の開発環境が欲しいのであれば，今回紹介する [MSYS2] が適切と思われる（UNIX 系のコマンドを Windows にポーティングする場合など）。
+また開発環境は要らないが UNIX 互換の動作環境が欲しいだけなら [Git for Windows] を導入する手もある[^gfw]。
+
+[^gfw]: [Git for Windows] には bash などの [MSYS2] サブセットを含んでいるため， [Git for Windows] の bash （通称 git bash）を起動することで UNIX 互換の動作環境を得られる。なお [Git for Windows] の環境は git を動かすための最小限のものしか入っていないため， Git for Windows SDK も併せて導入し，その中の pacman コマンドで任意のツールを追加できる。 pacman については[次回]説明する。
+
+## MSYS2 のインストール
+
+では早速 64bit 版インストーラ（今回は `msys2-x86_64-20160205.exe` を使用）でインストールを行ってみる。
 
 {{< fig-img flickr="true" src="https://farm2.staticflickr.com/1462/25210363812_7cd554cc78.jpg" title="MSYS2 Installing (1)" link="https://www.flickr.com/photos/spiegel/25210363812/" >}}
 
@@ -167,7 +177,7 @@ $ update-core
 
 次に他のインストール済みのパッケージを更新しよう[^pm]。
 
-[^pm]: pacman コマンドについては[次回]説明する。
+[^pm]: 繰り返しになるが pacman コマンドについては[次回]説明する。
 
 ```text
 $ pacman -Su
@@ -244,7 +254,17 @@ gpg: 深さ: 2  有効性:   3  署名:   0  信用: 3-, 0q, 0n, 0m, 0f, 0u
 これで初期化は終了。
 [次回]へ続く。
 
-## 【おまけ】 Proxy サーバ越しのアクセス
+## 【おまけ1】 ホームディレクトリについて
+
+[MSYS2] のホームディレクトリは，インストールフォルダ直下の `home\username` フォルダになるが， Windows 上で自前のホームディレクトリを作っている場合は，その場所を `/etc/fstab` でマウントする手もある。
+
+```text
+C:/home	/home
+```
+
+この場合，元のフォルダにある `.profile` ファイル等の移動も忘れないこと。
+
+## 【おまけ2】 Proxy サーバ越しのアクセス
 
 Proxy サーバ越しに curl を使う場合は `~/.curlrc` に以下の記述を追加する。
 
@@ -310,6 +330,8 @@ $ gpg --homedir /etc/pacman.d/gnupg --list-keys
 もしかしたらこちらの `gpg.conf` ファイルも修正する必要があるかもしれない。
 
 [MSYS2]: http://msys2.github.io/ "MSYS2 installer"
+[TDM-GCC]: http://tdm-gcc.tdragon.net/ "TDM-GCC"
+[Git for Windows]: http://git-for-windows.github.io/ "Git for Windows"
 [mintty]: https://mintty.github.io/ "Mintty — Cygwin Terminal emulator"
 [ConEmu]: https://conemu.github.io/ "ConEmu - Handy Windows Terminal"
-[次回]: {{< relref "remark/2016/02/gcc-msys2-2.md" >}} "MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の導入"
+[次回]: {{< relref "remark/2016/03/gcc-msys2-2.md" >}} "MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の導入"
