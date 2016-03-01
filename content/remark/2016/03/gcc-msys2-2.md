@@ -1,7 +1,7 @@
 +++
-date = "2016-02-28T18:13:15+09:00"
+date = "2016-03-01T22:02:44+09:00"
 description = "いよいよ gcc をインストールする。"
-draft = true
+draft = false
 tags = ["msys2", "gcc", "tools", "pacman"]
 title = "MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の導入"
 
@@ -57,110 +57,105 @@ $ pacman -S git
 依存関係を解決しています...
 衝突するパッケージがないか確認しています...
 
-パッケージ (34) db-5.3.28-2  expat-2.1.0-2  gdbm-1.11-3  heimdal-1.5.3-8
-                libgdbm-1.11-3  openssh-7.1p2-1  perl-5.22.0-2
-                perl-Authen-SASL-2.16-2  perl-Convert-BinHex-1.123-2
-                perl-Encode-Locale-1.04-1  perl-Error-0.17024-1
-                perl-File-Listing-6.04-2  perl-HTML-Parser-3.71-3
-                perl-HTML-Tagset-3.20-2  perl-HTTP-Cookies-6.01-2
-                perl-HTTP-Daemon-6.01-2  perl-HTTP-Date-6.02-2
-                perl-HTTP-Message-6.06-2  perl-HTTP-Negotiate-6.01-2
-                perl-IO-Socket-SSL-2.016-1  perl-IO-stringy-2.111-1
-                perl-LWP-MediaTypes-6.02-2  perl-MIME-tools-5.506-1
-                perl-MailTools-2.14-1  perl-Net-HTTP-6.09-1
-                perl-Net-SMTP-SSL-1.02-1  perl-Net-SSLeay-1.70-1
+パッケージ (34) db-5.3.28-2  expat-2.1.0-2  gdbm-1.11-3  heimdal-1.5.3-8  libgdbm-1.11-3
+                openssh-7.1p2-1  perl-5.22.0-2  perl-Authen-SASL-2.16-2  perl-Convert-BinHex-1.123-2
+                perl-Encode-Locale-1.04-1  perl-Error-0.17024-1  perl-File-Listing-6.04-2
+                perl-HTML-Parser-3.71-3  perl-HTML-Tagset-3.20-2  perl-HTTP-Cookies-6.01-2
+                perl-HTTP-Daemon-6.01-2  perl-HTTP-Date-6.02-2  perl-HTTP-Message-6.06-2
+                perl-HTTP-Negotiate-6.01-2  perl-IO-Socket-SSL-2.016-1  perl-IO-stringy-2.111-1
+                perl-LWP-MediaTypes-6.02-2  perl-MIME-tools-5.506-1  perl-MailTools-2.14-1
+                perl-Net-HTTP-6.09-1  perl-Net-SMTP-SSL-1.02-1  perl-Net-SSLeay-1.70-1
                 perl-TermReadKey-2.33-1  perl-TimeDate-2.30-2  perl-URI-1.68-1
-                perl-WWW-RobotRules-6.02-2  perl-libwww-6.13-1  vim-7.4.1415-2
-                git-2.7.1-1
+                perl-WWW-RobotRules-6.02-2  perl-libwww-6.13-1  vim-7.4.1415-2  git-2.7.1-1
 
 合計ダウンロード容量:   24.75 MiB
 合計インストール容量:  114.53 MiB
 
 :: インストールを行いますか？ [Y/n] y
-:: パッケージを取得します ...
- expat-2.1.0-2-x86_64                 13.1 KiB  4.26M/s 00:00 [##################] 100%
- vim-7.4.1415-2-x86_64                 6.1 MiB  1248K/s 00:05 [##################] 100%
- heimdal-1.5.3-8-x86_64              543.7 KiB   840K/s 00:01 [##################] 100%
- openssh-7.1p2-1-x86_64              653.4 KiB   832K/s 00:01 [##################] 100%
- db-5.3.28-2-x86_64                   41.7 KiB  8.14M/s 00:00 [##################] 100%
- libgdbm-1.11-3-x86_64                20.4 KiB  6.63M/s 00:00 [##################] 100%
- gdbm-1.11-3-x86_64                  108.5 KiB  8.83M/s 00:00 [##################] 100%
- perl-5.22.0-2-x86_64                 12.4 MiB  1231K/s 00:10 [##################] 100%
- perl-Error-0.17024-1-any             17.1 KiB  16.7M/s 00:00 [##################] 100%
- perl-Authen-SASL-2.16-2-any          42.4 KiB  10.4M/s 00:00 [##################] 100%
- perl-Encode-Locale-1.04-1-any         9.7 KiB  9.46M/s 00:00 [##################] 100%
- perl-HTTP-Date-6.02-2-any             8.6 KiB  0.00B/s 00:00 [##################] 100%
- perl-File-Listing-6.04-2-any          7.7 KiB  0.00B/s 00:00 [##################] 100%
- perl-HTML-Tagset-3.20-2-any          10.3 KiB  0.00B/s 00:00 [##################] 100%
- perl-HTML-Parser-3.71-3-x86_64       76.9 KiB  10.7M/s 00:00 [##################] 100%
- perl-LWP-MediaTypes-6.02-2-any       18.0 KiB  17.6M/s 00:00 [##################] 100%
- perl-URI-1.68-1-any                  75.6 KiB  12.3M/s 00:00 [##################] 100%
- perl-HTTP-Message-6.06-2-any         71.3 KiB  9.94M/s 00:00 [##################] 100%
- perl-HTTP-Cookies-6.01-2-any         20.4 KiB  20.0M/s 00:00 [##################] 100%
- perl-HTTP-Daemon-6.01-2-any          14.2 KiB  13.9M/s 00:00 [##################] 100%
- perl-HTTP-Negotiate-6.01-2-any       11.4 KiB  11.2M/s 00:00 [##################] 100%
- perl-Net-HTTP-6.09-1-any             19.8 KiB  9.65M/s 00:00 [##################] 100%
- perl-WWW-RobotRules-6.02-2-any       12.2 KiB  12.0M/s 00:00 [##################] 100%
- perl-libwww-6.13-1-any              122.2 KiB   255K/s 00:00 [##################] 100%
- perl-TimeDate-2.30-2-any             35.9 KiB  57.5K/s 00:01 [##################] 100%
- perl-MailTools-2.14-1-any            58.4 KiB  74.5K/s 00:01 [##################] 100%
- perl-IO-stringy-2.111-1-any          52.6 KiB   112K/s 00:00 [##################] 100%
- perl-Convert-BinHex-1.123-2-any      30.1 KiB  96.4K/s 00:00 [##################] 100%
- perl-MIME-tools-5.506-1-any         180.4 KiB   128K/s 00:01 [##################] 100%
- perl-Net-SSLeay-1.70-1-x86_64       191.2 KiB   244K/s 00:01 [##################] 100%
- perl-IO-Socket-SSL-2.016-1-any      112.5 KiB   358K/s 00:00 [##################] 100%
- perl-Net-SMTP-SSL-1.02-1-any          3.5 KiB  0.00B/s 00:00 [##################] 100%
- perl-TermReadKey-2.33-1-x86_64       20.9 KiB  10.2M/s 00:00 [##################] 100%
- git-2.7.1-1-x86_64                    3.6 MiB  1128K/s 00:03 [##################] 100%
-(34/34) キーリングのキーを確認                                [##################] 100%
-(34/34) パッケージの整合性をチェック                          [##################] 100%
-(34/34) パッケージファイルのロード                            [##################] 100%
-(34/34) ファイルの衝突をチェック                              [##################] 100%
-(34/34) 空き容量を確認                                        [##################] 100%
+:: パッケージを取得します...
+ expat-2.1.0-2-x86_64                                  13.1 KiB  12.8M/s 00:00 [##################] 100%
+ vim-7.4.1415-2-x86_64                                  6.1 MiB  1217K/s 00:05 [##################] 100%
+ heimdal-1.5.3-8-x86_64                               543.7 KiB   824K/s 00:01 [##################] 100%
+ openssh-7.1p2-1-x86_64                               653.4 KiB   312K/s 00:02 [##################] 100%
+ db-5.3.28-2-x86_64                                    41.7 KiB  10.2M/s 00:00 [##################] 100%
+ libgdbm-1.11-3-x86_64                                 20.4 KiB  9.94M/s 00:00 [##################] 100%
+ gdbm-1.11-3-x86_64                                   108.5 KiB   682K/s 00:00 [##################] 100%
+ perl-5.22.0-2-x86_64                                  12.4 MiB  1170K/s 00:11 [##################] 100%
+ perl-Error-0.17024-1-any                              17.1 KiB  8.33M/s 00:00 [##################] 100%
+ perl-Authen-SASL-2.16-2-any                           42.4 KiB  8.28M/s 00:00 [##################] 100%
+ perl-Encode-Locale-1.04-1-any                          9.7 KiB  9.46M/s 00:00 [##################] 100%
+ perl-HTTP-Date-6.02-2-any                              8.6 KiB  8.42M/s 00:00 [##################] 100%
+ perl-File-Listing-6.04-2-any                           7.7 KiB  0.00B/s 00:00 [##################] 100%
+ perl-HTML-Tagset-3.20-2-any                           10.3 KiB  10.0M/s 00:00 [##################] 100%
+ perl-HTML-Parser-3.71-3-x86_64                        76.9 KiB  10.7M/s 00:00 [##################] 100%
+ perl-LWP-MediaTypes-6.02-2-any                        18.0 KiB  8.81M/s 00:00 [##################] 100%
+ perl-URI-1.68-1-any                                   75.6 KiB  9.22M/s 00:00 [##################] 100%
+ perl-HTTP-Message-6.06-2-any                          71.3 KiB  9.94M/s 00:00 [##################] 100%
+ perl-HTTP-Cookies-6.01-2-any                          20.4 KiB  20.0M/s 00:00 [##################] 100%
+ perl-HTTP-Daemon-6.01-2-any                           14.2 KiB  0.00B/s 00:00 [##################] 100%
+ perl-HTTP-Negotiate-6.01-2-any                        11.4 KiB  0.00B/s 00:00 [##################] 100%
+ perl-Net-HTTP-6.09-1-any                              19.8 KiB  19.3M/s 00:00 [##################] 100%
+ perl-WWW-RobotRules-6.02-2-any                        12.2 KiB  12.0M/s 00:00 [##################] 100%
+ perl-libwww-6.13-1-any                               122.2 KiB   367K/s 00:00 [##################] 100%
+ perl-TimeDate-2.30-2-any                              35.9 KiB  8.77M/s 00:00 [##################] 100%
+ perl-MailTools-2.14-1-any                             58.4 KiB  9.50M/s 00:00 [##################] 100%
+ perl-IO-stringy-2.111-1-any                           52.6 KiB  10.3M/s 00:00 [##################] 100%
+ perl-Convert-BinHex-1.123-2-any                       30.1 KiB  9.79M/s 00:00 [##################] 100%
+ perl-MIME-tools-5.506-1-any                          180.4 KiB   367K/s 00:00 [##################] 100%
+ perl-Net-SSLeay-1.70-1-x86_64                        191.2 KiB   590K/s 00:00 [##################] 100%
+ perl-IO-Socket-SSL-2.016-1-any                       112.5 KiB   208K/s 00:01 [##################] 100%
+ perl-Net-SMTP-SSL-1.02-1-any                           3.5 KiB  22.2K/s 00:00 [##################] 100%
+ perl-TermReadKey-2.33-1-x86_64                        20.9 KiB  18.7K/s 00:01 [##################] 100%
+ git-2.7.1-1-x86_64                                     3.6 MiB   448K/s 00:08 [##################] 100%
+(34/34) キーリングのキーを確認                                                 [##################] 100%
+(34/34) パッケージの整合性をチェック                                           [##################] 100%
+(34/34) パッケージファイルのロード                                             [##################] 100%
+(34/34) ファイルの衝突をチェック                                               [##################] 100%
+(34/34) 空き容量を確認                                                         [##################] 100%
 :: パッケージの変更を処理しています...
-( 1/34) インストール expat                                    [##################] 100%
-( 2/34) インストール vim                                      [##################] 100%
-( 3/34) インストール heimdal                                  [##################] 100%
-( 4/34) インストール openssh                                  [##################] 100%
-( 5/34) インストール db                                       [##################] 100%
-( 6/34) インストール libgdbm                                  [##################] 100%
-( 7/34) インストール gdbm                                     [##################] 100%
-( 8/34) インストール perl                                     [##################] 100%
-( 9/34) インストール perl-Error                               [##################] 100%
-(10/34) インストール perl-Authen-SASL                         [##################] 100%
-(11/34) インストール perl-Encode-Locale                       [##################] 100%
-(12/34) インストール perl-HTTP-Date                           [##################] 100%
-(13/34) インストール perl-File-Listing                        [##################] 100%
-(14/34) インストール perl-HTML-Tagset                         [##################] 100%
-(15/34) インストール perl-HTML-Parser                         [##################] 100%
-(16/34) インストール perl-LWP-MediaTypes                      [##################] 100%
-(17/34) インストール perl-URI                                 [##################] 100%
-(18/34) インストール perl-HTTP-Message                        [##################] 100%
-(19/34) インストール perl-HTTP-Cookies                        [##################] 100%
-(20/34) インストール perl-HTTP-Daemon                         [##################] 100%
-(21/34) インストール perl-HTTP-Negotiate                      [##################] 100%
-(22/34) インストール perl-Net-HTTP                            [##################] 100%
-(23/34) インストール perl-WWW-RobotRules                      [##################] 100%
-(24/34) インストール perl-libwww                              [##################] 100%
+( 1/34) インストール expat                                                     [##################] 100%
+( 2/34) インストール vim                                                       [##################] 100%
+( 3/34) インストール heimdal                                                   [##################] 100%
+( 4/34) インストール openssh                                                   [##################] 100%
+( 5/34) インストール db                                                        [##################] 100%
+( 6/34) インストール libgdbm                                                   [##################] 100%
+( 7/34) インストール gdbm                                                      [##################] 100%
+( 8/34) インストール perl                                                      [##################] 100%
+( 9/34) インストール perl-Error                                                [##################] 100%
+(10/34) インストール perl-Authen-SASL                                          [##################] 100%
+(11/34) インストール perl-Encode-Locale                                        [##################] 100%
+(12/34) インストール perl-HTTP-Date                                            [##################] 100%
+(13/34) インストール perl-File-Listing                                         [##################] 100%
+(14/34) インストール perl-HTML-Tagset                                          [##################] 100%
+(15/34) インストール perl-HTML-Parser                                          [##################] 100%
+(16/34) インストール perl-LWP-MediaTypes                                       [##################] 100%
+(17/34) インストール perl-URI                                                  [##################] 100%
+(18/34) インストール perl-HTTP-Message                                         [##################] 100%
+(19/34) インストール perl-HTTP-Cookies                                         [##################] 100%
+(20/34) インストール perl-HTTP-Daemon                                          [##################] 100%
+(21/34) インストール perl-HTTP-Negotiate                                       [##################] 100%
+(22/34) インストール perl-Net-HTTP                                             [##################] 100%
+(23/34) インストール perl-WWW-RobotRules                                       [##################] 100%
+(24/34) インストール perl-libwww                                               [##################] 100%
 perl-libwww の提案パッケージ
     perl-LWP-Protocol-HTTPS: for https:// url schemes
-(25/34) インストール perl-TimeDate                            [##################] 100%
-(26/34) インストール perl-MailTools                           [##################] 100%
-(27/34) インストール perl-IO-stringy                          [##################] 100%
-(28/34) インストール perl-Convert-BinHex                      [##################] 100%
+(25/34) インストール perl-TimeDate                                             [##################] 100%
+(26/34) インストール perl-MailTools                                            [##################] 100%
+(27/34) インストール perl-IO-stringy                                           [##################] 100%
+(28/34) インストール perl-Convert-BinHex                                       [##################] 100%
 module test... pass.
-(29/34) インストール perl-MIME-tools                          [##################] 100%
-(30/34) インストール perl-Net-SSLeay                          [##################] 100%
-(31/34) インストール perl-IO-Socket-SSL                       [##################] 100%
-(32/34) インストール perl-Net-SMTP-SSL                        [##################] 100%
-(33/34) インストール perl-TermReadKey                         [##################] 100%
-(34/34) インストール git                                      [##################] 100%
+(29/34) インストール perl-MIME-tools                                           [##################] 100%
+(30/34) インストール perl-Net-SSLeay                                           [##################] 100%
+(31/34) インストール perl-IO-Socket-SSL                                        [##################] 100%
+(32/34) インストール perl-Net-SMTP-SSL                                         [##################] 100%
+(33/34) インストール perl-TermReadKey                                          [##################] 100%
+(34/34) インストール git                                                       [##################] 100%
 git の提案パッケージ
     python2: various helper scripts
     subversion: git svn
 ```
 
-てか，本当に最小限しか入ってないんだな（笑） 提案パッケージはとりあえずスルーしても問題ない。
+てか，本当に最小限しか入ってないんだな（笑） 提案パッケージについては，はとりあえずスルーする。
 
 ### MSYS2 のリポジトリ
 
@@ -209,21 +204,46 @@ msys gcc-libs 4.9.2-6 [インストール済み]
 msys mingw-w64-cross-gcc 4.9.2-3
 ```
 
-どれを使うかはユーザ次第だが， `msys` リポジトリの方は開発用というより [MSYS2] ビルド用という感じである。
-gcc を 32bit 版と 64bit 版で使い分ける場合は `msys` 版は入れないほうがいいかもしれない。
+どれを使うかはユーザ次第だが，今回は [MSYS2] 内ではなく Windows 環境で動作するアプリケーションを作りたいので， `mingw32` および `mingw64` リポジトリのものを導入する。
 
 - [Windowsでgccなどを利用できるMSYS2の環境設定など - Qiita](http://qiita.com/chromabox/items/fd07bad3f426101fc4a6)
 
 ## gcc のインストール
 
 では gcc のインストールを始めよう。
+今回は以下のパッケージグループを導入する。
 
-### mingw32 版 gcc のインストール
+- `base-devel`
+- `mingw-w64-i686-toolchain`
+- `mingw-w64-x86_64-toolchain`
 
-mingw32 版 gcc をインストールするには pacman コマンドで `mingw-w64-i686-toolchain` パッケージグループを導入すればよい。
+ものすごく分かりにくいが `mingw-w64-x86_64-toolchain` が 64bit 用である。
+ログがかなり長くなるがご容赦。
 
 ```text
-$ pacman -S mingw-w64-i686-toolchain
+$ pacman -S base-devel mingw-w64-i686-toolchain mingw-w64-x86_64-toolchain
+:: 51 のパッケージがグループ base-devel にあります:
+:: リポジトリ msys
+   1) asciidoc  2) autoconf  3) autoconf2.13  4) autogen  5) automake-wrapper  6) automake1.10
+   7) automake1.11  8) automake1.12  9) automake1.13  10) automake1.14  11) automake1.15
+   12) automake1.6  13) automake1.7  14) automake1.8  15) automake1.9  16) bison  17) diffstat
+   18) diffutils  19) dos2unix  20) file  21) flex  22) gawk  23) gdb  24) gettext  25) gperf
+   26) grep  27) groff  28) help2man  29) intltool  30) lemon  31) libtool  32) libunrar  33) m4
+   34) make  35) man-db  36) pacman  37) patch  38) patchutils  39) perl  40) pkg-config  41) pkgfile
+   42) rcs  43) scons  44) sed  45) swig  46) texinfo  47) texinfo-tex  48) ttyrec  49) unrar
+   50) wget  51) xmlto
+
+選択して下さい (デフォルト=all):
+警告: file-5.25-1 は最新です -- 再インストール
+警告: flex-2.6.0-1 は最新です -- 再インストール
+警告: gawk-4.1.3-1 は最新です -- 再インストール
+警告: gettext-0.19.6-1 は最新です -- 再インストール
+警告: grep-2.22-1 は最新です -- 再インストール
+警告: m4-1.4.17-4 は最新です -- 再インストール
+警告: pacman-5.0.1.6388.dcb2397-1 は最新です -- 再インストール
+警告: perl-5.22.0-2 は最新です -- 再インストール
+警告: pkgfile-15-1 は最新です -- 再インストール
+警告: sed-4.2.2-2 は最新です -- 再インストール
 :: 16 のパッケージがグループ mingw-w64-i686-toolchain にあります:
 :: リポジトリ mingw32
    1) mingw-w64-i686-binutils  2) mingw-w64-i686-crt-git  3) mingw-w64-i686-gcc
@@ -234,143 +254,6 @@ $ pacman -S mingw-w64-i686-toolchain
    15) mingw-w64-i686-tools-git  16) mingw-w64-i686-winpthreads-git
 
 選択して下さい (デフォルト=all): 1 2 3 7 9 10 11 12 13 14 15 16
-依存関係を解決しています...
-衝突するパッケージがないか確認しています...
-
-パッケージ (36) mingw-w64-i686-bzip2-1.0.6-4  mingw-w64-i686-ca-certificates-20150426-2
-                mingw-w64-i686-expat-2.1.0-6  mingw-w64-i686-gdbm-1.11-3
-                mingw-w64-i686-gettext-0.19.6-2  mingw-w64-i686-gmp-6.1.0-1
-                mingw-w64-i686-isl-0.15-1  mingw-w64-i686-libffi-3.2.1-3
-                mingw-w64-i686-libiconv-1.14-5  mingw-w64-i686-libsystre-1.0.1-2
-                mingw-w64-i686-libtasn1-4.7-1  mingw-w64-i686-libtre-git-r122.c2f5d13-4
-                mingw-w64-i686-mpc-1.0.3-2  mingw-w64-i686-mpfr-3.1.3.p0-2  
-                mingw-w64-i686-ncurses-6.0.20150627-2  mingw-w64-i686-openssl-1.0.2.f-1
-                mingw-w64-i686-p11-kit-0.23.1-3  mingw-w64-i686-python2-2.7.11-1
-                mingw-w64-i686-readline-6.3.008-1  mingw-w64-i686-tcl-8.6.4-2
-                mingw-w64-i686-termcap-1.3.1-2  mingw-w64-i686-tk-8.6.4-2
-                mingw-w64-i686-windows-default-manifest-6.4-2  mingw-w64-i686-zlib-1.2.8-9
-                mingw-w64-i686-binutils-2.25.1-2  mingw-w64-i686-crt-git-5.0.0.4622.38d327f-1
-                mingw-w64-i686-gcc-5.3.0-2  mingw-w64-i686-gcc-libs-5.3.0-2
-                mingw-w64-i686-gdb-7.10.1-1  mingw-w64-i686-headers-git-5.0.0.4622.38d327f-1
-                mingw-w64-i686-libmangle-git-5.0.0.4509.2e5a9a2-1
-                mingw-w64-i686-libwinpthread-git-5.0.0.4573.628fdbf-1
-                mingw-w64-i686-make-4.1.2351.a80a8b8-1  mingw-w64-i686-pkg-config-0.29-1
-                mingw-w64-i686-tools-git-5.0.0.4592.90b8472-1
-                mingw-w64-i686-winpthreads-git-5.0.0.4573.628fdbf-1
-
-合計ダウンロード容量:   71.93 MiB
-合計インストール容量:  456.81 MiB
-
-:: インストールを行いますか？ [Y/n] y
-:: パッケージを取得します ...
- mingw-w64-i686-libiconv-1.14-5-any                   602.2 KiB   929K/s 00:01 [##################] 100%
- mingw-w64-i686-bzip2-1.0.6-4-any                      67.2 KiB  9.37M/s 00:00 [##################] 100%
- mingw-w64-i686-zlib-1.2.8-9-any                      153.2 KiB   317K/s 00:00 [##################] 100%
- mingw-w64-i686-binutils-2.25.1-2-any                  10.3 MiB  1114K/s 00:09 [##################] 100%
- mingw-w64-i686-headers-git-5.0.0.4622.38d327f-1-any    5.0 MiB  1114K/s 00:05 [##################] 100%
- mingw-w64-i686-crt-git-5.0.0.4622.38d327f-1-any     1717.0 KiB  1081K/s 00:02 [##################] 100%
- mingw-w64-i686-isl-0.15-1-any                        539.7 KiB   851K/s 00:01 [##################] 100%
- mingw-w64-i686-gmp-6.1.0-1-any                       459.3 KiB   943K/s 00:00 [##################] 100%
- mingw-w64-i686-mpfr-3.1.3.p0-2-any                   258.0 KiB   801K/s 00:00 [##################] 100%
- mingw-w64-i686-mpc-1.0.3-2-any                        62.3 KiB  10.1M/s 00:00 [##################] 100%
- mingw-w64-i686-libwinpthread-git-5.0.0.4573.628...    27.1 KiB  8.84M/s 00:00 [##################] 100%
- mingw-w64-i686-gcc-libs-5.3.0-2-any                  609.8 KiB   761K/s 00:01 [##################] 100%
- mingw-w64-i686-windows-default-manifest-6.4-2-any   1472.0   B  0.00B/s 00:00 [##################] 100%
- mingw-w64-i686-winpthreads-git-5.0.0.4573.628fd...    35.1 KiB  11.4M/s 00:00 [##################] 100%
- mingw-w64-i686-gcc-5.3.0-2-any                        24.6 MiB  1285K/s 00:20 [##################] 100%
- mingw-w64-i686-expat-2.1.0-6-any                     107.1 KiB  11.6M/s 00:00 [##################] 100%
- mingw-w64-i686-gettext-0.19.6-2-any                    3.0 MiB  1012K/s 00:03 [##################] 100%
- mingw-w64-i686-gdbm-1.11-3-any                       150.1 KiB   310K/s 00:00 [##################] 100%
- mingw-w64-i686-libffi-3.2.1-3-any                     36.3 KiB   230K/s 00:00 [##################] 100%
- mingw-w64-i686-libtre-git-r122.c2f5d13-4-any          69.1 KiB   427K/s 00:00 [##################] 100%
- mingw-w64-i686-libsystre-1.0.1-2-any                   9.1 KiB  0.00B/s 00:00 [##################] 100%
- mingw-w64-i686-ncurses-6.0.20150627-2-any           1734.6 KiB   685K/s 00:03 [##################] 100%
- mingw-w64-i686-libtasn1-4.7-1-any                    171.3 KiB   352K/s 00:00 [##################] 100%
- mingw-w64-i686-p11-kit-0.23.1-3-any                  198.0 KiB   613K/s 00:00 [##################] 100%
- mingw-w64-i686-ca-certificates-20150426-2-any        382.4 KiB   795K/s 00:00 [##################] 100%
- mingw-w64-i686-openssl-1.0.2.f-1-any                   2.7 MiB   929K/s 00:03 [##################] 100%
- mingw-w64-i686-termcap-1.3.1-2-any                    12.3 KiB  6.01M/s 00:00 [##################] 100%
- mingw-w64-i686-readline-6.3.008-1-any                327.2 KiB   988K/s 00:00 [##################] 100%
- mingw-w64-i686-tcl-8.6.4-2-any                         2.8 MiB  1150K/s 00:03 [##################] 100%
- mingw-w64-i686-tk-8.6.4-2-any                       1874.2 KiB  1082K/s 00:02 [##################] 100%
- mingw-w64-i686-python2-2.7.11-1-any                   10.8 MiB  1273K/s 00:09 [##################] 100%
- mingw-w64-i686-gdb-7.10.1-1-any                        2.8 MiB   985K/s 00:03 [##################] 100%
- mingw-w64-i686-libmangle-git-5.0.0.4509.2e5a9a2...    16.5 KiB  16.1M/s 00:00 [##################] 100%
- mingw-w64-i686-make-4.1.2351.a80a8b8-1-any           105.3 KiB  10.3M/s 00:00 [##################] 100%
- mingw-w64-i686-pkg-config-0.29-1-any                 235.8 KiB   732K/s 00:00 [##################] 100%
- mingw-w64-i686-tools-git-5.0.0.4592.90b8472-1-any    235.1 KiB   721K/s 00:00 [##################] 100%
-(36/36) キーリングのキーを確認                                                 [##################] 100%
-(36/36) パッケージの整合性をチェック                                           [##################] 100%
-(36/36) パッケージファイルのロード                                             [##################] 100%
-(36/36) ファイルの衝突をチェック                                               [##################] 100%
-(36/36) 空き容量を確認                                                         [##################] 100%
-:: パッケージの変更を処理しています...
-( 1/36) インストール mingw-w64-i686-libiconv                                   [##################] 100%
-( 2/36) インストール mingw-w64-i686-bzip2                                      [##################] 100%
-( 3/36) インストール mingw-w64-i686-zlib                                       [##################] 100%
-( 4/36) インストール mingw-w64-i686-binutils                                   [##################] 100%
-( 5/36) インストール mingw-w64-i686-headers-git                                [##################] 100%
-( 6/36) インストール mingw-w64-i686-crt-git                                    [##################] 100%
-( 7/36) インストール mingw-w64-i686-isl                                        [##################] 100%
-( 8/36) インストール mingw-w64-i686-gmp                                        [##################] 100%
-( 9/36) インストール mingw-w64-i686-mpfr                                       [##################] 100%
-(10/36) インストール mingw-w64-i686-mpc                                        [##################] 100%
-(11/36) インストール mingw-w64-i686-libwinpthread-git                          [##################] 100%
-(12/36) インストール mingw-w64-i686-gcc-libs                                   [##################] 100%
-(13/36) インストール mingw-w64-i686-windows-default-manifest                   [##################] 100%
-(14/36) インストール mingw-w64-i686-winpthreads-git                            [##################] 100%
-(15/36) インストール mingw-w64-i686-gcc                                        [##################] 100%
-(16/36) インストール mingw-w64-i686-expat                                      [##################] 100%
-(17/36) インストール mingw-w64-i686-gettext                                    [##################] 100%
-(18/36) インストール mingw-w64-i686-gdbm                                       [##################] 100%
-(19/36) インストール mingw-w64-i686-libffi                                     [##################] 100%
-(20/36) インストール mingw-w64-i686-libtre-git                                 [##################] 100%
-(21/36) インストール mingw-w64-i686-libsystre                                  [##################] 100%
-(22/36) インストール mingw-w64-i686-ncurses                                    [##################] 100%
-(23/36) インストール mingw-w64-i686-libtasn1                                   [##################] 100%
-(24/36) インストール mingw-w64-i686-p11-kit                                    [##################] 100%
-(25/36) インストール mingw-w64-i686-ca-certificates                            [##################] 100%
-(26/36) インストール mingw-w64-i686-openssl                                    [##################] 100%
-(27/36) インストール mingw-w64-i686-termcap                                    [##################] 100%
-(28/36) インストール mingw-w64-i686-readline                                   [##################] 100%
-(29/36) インストール mingw-w64-i686-tcl                                        [##################] 100%
-(30/36) インストール mingw-w64-i686-tk                                         [##################] 100%
-(31/36) インストール mingw-w64-i686-python2                                    [##################] 100%
-(32/36) インストール mingw-w64-i686-gdb                                        [##################] 100%
-(33/36) インストール mingw-w64-i686-libmangle-git                              [##################] 100%
-(34/36) インストール mingw-w64-i686-make                                       [##################] 100%
-(35/36) インストール mingw-w64-i686-pkg-config                                 [##################] 100%
-(36/36) インストール mingw-w64-i686-tools-git                                  [##################] 100%
-```
-
-ここでは Ada, FORTRAN, Object-C の言語パッケージを除いたものをインストールした。
-
-動作確認には `mingw32_shell.bat` の起動，または 環境変数 `MSYSTEM` に `MINGW32` をセットして shell を起動する。
-[前回]紹介した [ConEmu] を使うのであれば以下のシーケンスで起動できる。
-
-```text
-set MSYSTEM=MINGW32 & C:\msys64\usr\bin\bash.exe --login -i
-```
-
-mingw32 版の shell が起動したところで gcc の動作確認を行う。
-
-```text
-$ gcc -v
-Using built-in specs.
-COLLECT_GCC=C:\msys64\mingw32\bin\gcc.exe
-COLLECT_LTO_WRAPPER=C:/msys64/mingw32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/lto-wrapper.exe
-Target: i686-w64-mingw32
-Configured with: ../gcc-5.3.0/configure --prefix=/mingw32 --with-local-prefix=/mingw32/local --build=i686-w64-mingw32 --host=i686-w64-mingw32 --target=i686-w64-mingw32 --with-native-system-header-dir=/mingw32/i686-w64-mingw32/include --libexecdir=/mingw32/lib --with-gxx-include-dir=/mingw32/include/c++/5.3.0 --enable-bootstrap --with-arch=i686 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-version-specific-runtime-libs --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw32 --with-mpfr=/mingw32 --with-mpc=/mingw32 --with-isl=/mingw32 --with-pkgversion='Rev2, Built by MSYS2 project' --with-bugurl=http://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld --disable-sjlj-exceptions --with-dwarf2
-Thread model: posix
-gcc version 5.3.0 (Rev2, Built by MSYS2 project)
-```
-
-### mingw64 版 gcc のインストール
-
-同じように mingw64 版 gcc をインストールするには pacman コマンドで `mingw-w64-x86_64-toolchain` パッケージグループを導入すればよい。
-
-```text
-$ pacman -S mingw-w64-x86_64-toolchain
 :: 16 のパッケージがグループ mingw-w64-x86_64-toolchain にあります:
 :: リポジトリ mingw64
    1) mingw-w64-x86_64-binutils  2) mingw-w64-x86_64-crt-git  3) mingw-w64-x86_64-gcc
@@ -384,120 +267,412 @@ $ pacman -S mingw-w64-x86_64-toolchain
 依存関係を解決しています...
 衝突するパッケージがないか確認しています...
 
-パッケージ (36) mingw-w64-x86_64-bzip2-1.0.6-4  mingw-w64-x86_64-ca-certificates-20150426-2
-                mingw-w64-x86_64-expat-2.1.0-6  mingw-w64-x86_64-gdbm-1.11-3
-                mingw-w64-x86_64-gettext-0.19.6-2  mingw-w64-x86_64-gmp-6.1.0-1
-                mingw-w64-x86_64-isl-0.15-1  mingw-w64-x86_64-libffi-3.2.1-3
-                mingw-w64-x86_64-libiconv-1.14-5  mingw-w64-x86_64-libsystre-1.0.1-2
-                mingw-w64-x86_64-libtasn1-4.7-1  mingw-w64-x86_64-libtre-git-r122.c2f5d13-4
-                mingw-w64-x86_64-mpc-1.0.3-2  mingw-w64-x86_64-mpfr-3.1.3.p0-2
-                mingw-w64-x86_64-ncurses-6.0.20150627-2  mingw-w64-x86_64-openssl-1.0.2.f-1
-                mingw-w64-x86_64-p11-kit-0.23.1-3  mingw-w64-x86_64-python2-2.7.11-1
-                mingw-w64-x86_64-readline-6.3.008-1  mingw-w64-x86_64-tcl-8.6.4-2
-                mingw-w64-x86_64-termcap-1.3.1-2  mingw-w64-x86_64-tk-8.6.4-2
-                mingw-w64-x86_64-windows-default-manifest-6.4-2  mingw-w64-x86_64-zlib-1.2.8-9
-                mingw-w64-x86_64-binutils-2.25.1-2  mingw-w64-x86_64-crt-git-5.0.0.4622.38d327f-1
-                mingw-w64-x86_64-gcc-5.3.0-2  mingw-w64-x86_64-gcc-libs-5.3.0-2
-                mingw-w64-x86_64-gdb-7.10.1-1  mingw-w64-x86_64-headers-git-5.0.0.4622.38d327f-1
-                mingw-w64-x86_64-libmangle-git-5.0.0.4509.2e5a9a2-1
-                mingw-w64-x86_64-libwinpthread-git-5.0.0.4573.628fdbf-1
-                mingw-w64-x86_64-make-4.1.2351.a80a8b8-1  mingw-w64-x86_64-pkg-config-0.29-1
-                mingw-w64-x86_64-tools-git-5.0.0.4592.90b8472-1
-                mingw-w64-x86_64-winpthreads-git-5.0.0.4573.628fdbf-1
+パッケージ (143) docbook-xml-4.5-2  docbook-xsl-1.78.1-3  glib2-2.44.1-1  libassuan-2.4.2-1
+                 libgc-7.2.d-1  libgcrypt-1.6.4-1  libgpg-error-1.21-1  libgpgme-1.6.0-1
+                 libguile-2.0.11-3  libltdl-2.4.6-1  libpipeline-1.4.0-1  libunistring-0.9.6-1
+                 libxslt-1.1.28-7  mingw-w64-i686-bzip2-1.0.6-5
+                 mingw-w64-i686-ca-certificates-20150426-2
+                 mingw-w64-i686-expat-2.1.0-6  mingw-w64-i686-gdbm-1.11-3
+                 mingw-w64-i686-gettext-0.19.6-2  mingw-w64-i686-gmp-6.1.0-1
+                 mingw-w64-i686-isl-0.15-1  mingw-w64-i686-libffi-3.2.1-3
+                 mingw-w64-i686-libiconv-1.14-5  mingw-w64-i686-libsystre-1.0.1-2
+                 mingw-w64-i686-libtasn1-4.7-1  mingw-w64-i686-libtre-git-r122.c2f5d13-4
+                 mingw-w64-i686-mpc-1.0.3-2  mingw-w64-i686-mpfr-3.1.3.p0-2
+                 mingw-w64-i686-ncurses-6.0.20160220-1  mingw-w64-i686-openssl-1.0.2.f-1
+                 mingw-w64-i686-p11-kit-0.23.1-3  mingw-w64-i686-python2-2.7.11-2
+                 mingw-w64-i686-readline-6.3.008-1  mingw-w64-i686-tcl-8.6.4-2
+                 mingw-w64-i686-termcap-1.3.1-2  mingw-w64-i686-tk-8.6.4-2
+                 mingw-w64-i686-windows-default-manifest-6.4-2  mingw-w64-i686-zlib-1.2.8-9
+                 mingw-w64-x86_64-bzip2-1.0.6-5  mingw-w64-x86_64-ca-certificates-20150426-2
+                 mingw-w64-x86_64-expat-2.1.0-6  mingw-w64-x86_64-gdbm-1.11-3
+                 mingw-w64-x86_64-gettext-0.19.6-2  mingw-w64-x86_64-gmp-6.1.0-1
+                 mingw-w64-x86_64-isl-0.15-1  mingw-w64-x86_64-libffi-3.2.1-3
+                 mingw-w64-x86_64-libiconv-1.14-5  mingw-w64-x86_64-libsystre-1.0.1-2
+                 mingw-w64-x86_64-libtasn1-4.7-1  mingw-w64-x86_64-libtre-git-r122.c2f5d13-4
+                 mingw-w64-x86_64-mpc-1.0.3-2  mingw-w64-x86_64-mpfr-3.1.3.p0-2
+                 mingw-w64-x86_64-ncurses-6.0.20160220-1  mingw-w64-x86_64-openssl-1.0.2.f-1
+                 mingw-w64-x86_64-p11-kit-0.23.1-3  mingw-w64-x86_64-python2-2.7.11-2
+                 mingw-w64-x86_64-readline-6.3.008-1  mingw-w64-x86_64-tcl-8.6.4-2
+                 mingw-w64-x86_64-termcap-1.3.1-2  mingw-w64-x86_64-tk-8.6.4-2
+                 mingw-w64-x86_64-windows-default-manifest-6.4-2  mingw-w64-x86_64-zlib-1.2.8-9
+                 perl-Locale-Gettext-1.05-4  perl-Module-Build-0.4212-1  perl-Test-Pod-1.50-1
+                 perl-XML-Parser-2.44-1  perl-YAML-Syck-1.29-1  python2-2.7.10-1  tar-1.28-3
+                 asciidoc-8.6.9-4  autoconf-2.69-3  autoconf2.13-2.13-2  autogen-5.18.4-2
+                 automake-wrapper-10-1  automake1.10-1.10.3-3  automake1.11-1.11.6-3
+                 automake1.12-1.12.6-3  automake1.13-1.13.4-4  automake1.14-1.14.1-3
+                 automake1.15-1.15-2  automake1.6-1.6.3-2  automake1.7-1.7.9-2  automake1.8-1.8.5-3
+                 automake1.9-1.9.6-2  bison-3.0.4-1  diffstat-1.58-1  diffutils-3.3-3
+                 dos2unix-7.3.3-1  file-5.25-1  flex-2.6.0-1  gawk-4.1.3-1  gdb-7.9-1
+                 gettext-0.19.6-1  gperf-3.0.4-3  grep-2.22-1  groff-1.22.3-1  help2man-1.47.3-1
+                 intltool-0.51.0-2  lemon-3.8.7.0-1  libtool-2.4.6-1  libunrar-5.3.7-1  m4-1.4.17-4
+                 make-4.1-4  man-db-2.7.4-1  mingw-w64-i686-binutils-2.25.1-2
+                 mingw-w64-i686-crt-git-5.0.0.4627.d55f21d-1  mingw-w64-i686-gcc-5.3.0-2
+                 mingw-w64-i686-gcc-libs-5.3.0-2  mingw-w64-i686-gdb-7.11-1
+                 mingw-w64-i686-headers-git-5.0.0.4627.6baeb9d-1
+                 mingw-w64-i686-libmangle-git-5.0.0.4509.2e5a9a2-1
+                 mingw-w64-i686-libwinpthread-git-5.0.0.4573.628fdbf-1
+                 mingw-w64-i686-make-4.1.2351.a80a8b8-1  mingw-w64-i686-pkg-config-0.29-1
+                 mingw-w64-i686-tools-git-5.0.0.4592.90b8472-1
+                 mingw-w64-i686-winpthreads-git-5.0.0.4573.628fdbf-1
+                 mingw-w64-x86_64-binutils-2.25.1-2  mingw-w64-x86_64-crt-git-5.0.0.4627.03684c4-1
+                 mingw-w64-x86_64-gcc-5.3.0-2  mingw-w64-x86_64-gcc-libs-5.3.0-2
+                 mingw-w64-x86_64-gdb-7.11-1  mingw-w64-x86_64-headers-git-5.0.0.4627.53be55d-1
+                 mingw-w64-x86_64-libmangle-git-5.0.0.4509.2e5a9a2-1
+                 mingw-w64-x86_64-libwinpthread-git-5.0.0.4573.628fdbf-1
+                 mingw-w64-x86_64-make-4.1.2351.a80a8b8-1  mingw-w64-x86_64-pkg-config-0.29-1
+                 mingw-w64-x86_64-tools-git-5.0.0.4592.90b8472-1
+                 mingw-w64-x86_64-winpthreads-git-5.0.0.4573.628fdbf-1  pacman-5.0.1.6388.dcb2397-1
+                 patch-2.7.5-1  patchutils-0.3.3-2  perl-5.22.0-2  pkg-config-0.28-2  pkgfile-15-1
+                 rcs-5.9.4-1  scons-2.4.1-2  sed-4.2.2-2  swig-3.0.7-1  texinfo-6.0-1
+                 texinfo-tex-6.0-1  ttyrec-1.0.8-1  unrar-5.3.7-1  wget-1.17.1-2  xmlto-0.0.26-2
 
-合計ダウンロード容量:   75.67 MiB
-合計インストール容量:  489.96 MiB
+合計ダウンロード容量:   186.38 MiB
+合計インストール容量:  1221.31 MiB
+最終的なアップグレード容量:  1124.41 MiB
 
 :: インストールを行いますか？ [Y/n] y
-:: パッケージを取得します ...
- mingw-w64-x86_64-libiconv-1.14-5-any                 600.2 KiB   913K/s 00:01 [##################] 100%
- mingw-w64-x86_64-bzip2-1.0.6-4-any                    69.4 KiB  9.68M/s 00:00 [##################] 100%
- mingw-w64-x86_64-zlib-1.2.8-9-any                    148.6 KiB   306K/s 00:00 [##################] 100%
- mingw-w64-x86_64-binutils-2.25.1-2-any                11.9 MiB  1178K/s 00:10 [##################] 100%
- mingw-w64-x86_64-headers-git-5.0.0.4622.38d327f...     5.0 MiB  1072K/s 00:05 [##################] 100%
- mingw-w64-x86_64-crt-git-5.0.0.4622.38d327f-1-any      2.7 MiB  1002K/s 00:03 [##################] 100%
- mingw-w64-x86_64-isl-0.15-1-any                      524.3 KiB   823K/s 00:01 [##################] 100%
- mingw-w64-x86_64-gmp-6.1.0-1-any                     477.1 KiB   752K/s 00:01 [##################] 100%
- mingw-w64-x86_64-mpfr-3.1.3.p0-2-any                 265.2 KiB   824K/s 00:00 [##################] 100%
- mingw-w64-x86_64-mpc-1.0.3-2-any                      62.3 KiB  10.1M/s 00:00 [##################] 100%
+:: パッケージを取得します...
+ mingw-w64-i686-libiconv-1.14-5-any                   602.2 KiB   929K/s 00:01 [##################] 100%
+ mingw-w64-i686-gmp-6.1.0-1-any                       459.3 KiB   947K/s 00:00 [##################] 100%
+ mingw-w64-i686-libwinpthread-git-5.0.0.4573.628...    27.1 KiB  8.84M/s 00:00 [##################] 100%
+ mingw-w64-i686-gcc-libs-5.3.0-2-any                  609.8 KiB   944K/s 00:01 [##################] 100%
+ mingw-w64-i686-bzip2-1.0.6-5-any                      75.5 KiB  9.21M/s 00:00 [##################] 100%
+ mingw-w64-i686-zlib-1.2.8-9-any                      153.2 KiB   471K/s 00:00 [##################] 100%
+ mingw-w64-i686-binutils-2.25.1-2-any                  10.3 MiB  1080K/s 00:10 [##################] 100%
+ mingw-w64-i686-headers-git-5.0.0.4627.6baeb9d-1-any    5.0 MiB  1244K/s 00:04 [##################] 100%
+ mingw-w64-i686-crt-git-5.0.0.4627.d55f21d-1-any     1701.9 KiB   888K/s 00:02 [##################] 100%
+ mingw-w64-i686-isl-0.15-1-any                        539.7 KiB   843K/s 00:01 [##################] 100%
+ mingw-w64-i686-mpfr-3.1.3.p0-2-any                   258.0 KiB   809K/s 00:00 [##################] 100%
+ mingw-w64-i686-mpc-1.0.3-2-any                        62.3 KiB  10.1M/s 00:00 [##################] 100%
+ mingw-w64-i686-windows-default-manifest-6.4-2-any   1472.0   B  0.00B/s 00:00 [##################] 100%
+ mingw-w64-i686-winpthreads-git-5.0.0.4573.628fd...    35.1 KiB  11.4M/s 00:00 [##################] 100%
+ mingw-w64-i686-gcc-5.3.0-2-any                        24.6 MiB  1222K/s 00:21 [##################] 100%
+ mingw-w64-i686-expat-2.1.0-6-any                     107.1 KiB  9.51M/s 00:00 [##################] 100%
+ mingw-w64-i686-gettext-0.19.6-2-any                    3.0 MiB   808K/s 00:04 [##################] 100%
+ mingw-w64-i686-gdbm-1.11-3-any                       150.1 KiB   313K/s 00:00 [##################] 100%
+ mingw-w64-i686-libffi-3.2.1-3-any                     36.3 KiB  17.7M/s 00:00 [##################] 100%
+ mingw-w64-i686-libtre-git-r122.c2f5d13-4-any          69.1 KiB  11.3M/s 00:00 [##################] 100%
+ mingw-w64-i686-libsystre-1.0.1-2-any                   9.1 KiB  0.00B/s 00:00 [##################] 100%
+ mingw-w64-i686-ncurses-6.0.20160220-1-any           1747.2 KiB   918K/s 00:02 [##################] 100%
+ mingw-w64-i686-libtasn1-4.7-1-any                    171.3 KiB   268K/s 00:01 [##################] 100%
+ mingw-w64-i686-p11-kit-0.23.1-3-any                  198.0 KiB   630K/s 00:00 [##################] 100%
+ mingw-w64-i686-ca-certificates-20150426-2-any        382.4 KiB   797K/s 00:00 [##################] 100%
+ mingw-w64-i686-openssl-1.0.2.f-1-any                   2.7 MiB   986K/s 00:03 [##################] 100%
+ mingw-w64-i686-termcap-1.3.1-2-any                    12.3 KiB  12.0M/s 00:00 [##################] 100%
+ mingw-w64-i686-readline-6.3.008-1-any                327.2 KiB   986K/s 00:00 [##################] 100%
+ mingw-w64-i686-tcl-8.6.4-2-any                         2.8 MiB  1151K/s 00:03 [##################] 100%
+ mingw-w64-i686-tk-8.6.4-2-any                       1874.2 KiB  1180K/s 00:02 [##################] 100%
+ mingw-w64-i686-python2-2.7.11-2-any                   10.8 MiB  1286K/s 00:09 [##################] 100%
+ mingw-w64-i686-gdb-7.11-1-any                          2.8 MiB   995K/s 00:03 [##################] 100%
+ mingw-w64-i686-libmangle-git-5.0.0.4509.2e5a9a2...    16.5 KiB  8.07M/s 00:00 [##################] 100%
+ mingw-w64-i686-make-4.1.2351.a80a8b8-1-any           105.3 KiB  9.34M/s 00:00 [##################] 100%
+ mingw-w64-i686-pkg-config-0.29-1-any                 235.8 KiB   741K/s 00:00 [##################] 100%
+ mingw-w64-i686-tools-git-5.0.0.4592.90b8472-1-any    235.1 KiB   742K/s 00:00 [##################] 100%
+ mingw-w64-x86_64-libiconv-1.14-5-any                 600.2 KiB   757K/s 00:01 [##################] 100%
+ mingw-w64-x86_64-gmp-6.1.0-1-any                     477.1 KiB   756K/s 00:01 [##################] 100%
  mingw-w64-x86_64-libwinpthread-git-5.0.0.4573.6...    24.2 KiB  7.87M/s 00:00 [##################] 100%
- mingw-w64-x86_64-gcc-libs-5.3.0-2-any                541.9 KiB   681K/s 00:01 [##################] 100%
- mingw-w64-x86_64-windows-default-manifest-6.4-2-any 1484.0   B  1449K/s 00:00 [##################] 100%
- mingw-w64-x86_64-winpthreads-git-5.0.0.4573.628...    33.2 KiB  10.8M/s 00:00 [##################] 100%
- mingw-w64-x86_64-gcc-5.3.0-2-any                      25.1 MiB  1257K/s 00:20 [##################] 100%
+ mingw-w64-x86_64-gcc-libs-5.3.0-2-any                541.9 KiB   845K/s 00:01 [##################] 100%
+ mingw-w64-x86_64-bzip2-1.0.6-5-any                    77.9 KiB  10.9M/s 00:00 [##################] 100%
+ mingw-w64-x86_64-zlib-1.2.8-9-any                    148.6 KiB   472K/s 00:00 [##################] 100%
+ mingw-w64-x86_64-binutils-2.25.1-2-any                11.9 MiB  1245K/s 00:10 [##################] 100%
+ mingw-w64-x86_64-headers-git-5.0.0.4627.53be55d...     5.0 MiB  1117K/s 00:05 [##################] 100%
+ mingw-w64-x86_64-crt-git-5.0.0.4627.03684c4-1-any      2.6 MiB  1002K/s 00:03 [##################] 100%
+ mingw-w64-x86_64-isl-0.15-1-any                      524.3 KiB   830K/s 00:01 [##################] 100%
+ mingw-w64-x86_64-mpfr-3.1.3.p0-2-any                 265.2 KiB   831K/s 00:00 [##################] 100%
+ mingw-w64-x86_64-mpc-1.0.3-2-any                      62.3 KiB  10.1M/s 00:00 [##################] 100%
+ mingw-w64-x86_64-windows-default-manifest-6.4-2-any 1484.0   B  0.00B/s 00:00 [##################] 100%
+ mingw-w64-x86_64-winpthreads-git-5.0.0.4573.628...    33.2 KiB  8.11M/s 00:00 [##################] 100%
+ mingw-w64-x86_64-gcc-5.3.0-2-any                      25.1 MiB  1270K/s 00:20 [##################] 100%
  mingw-w64-x86_64-expat-2.1.0-6-any                   106.7 KiB  9.47M/s 00:00 [##################] 100%
- mingw-w64-x86_64-gettext-0.19.6-2-any                  3.0 MiB  1191K/s 00:03 [##################] 100%
- mingw-w64-x86_64-gdbm-1.11-3-any                     151.8 KiB   311K/s 00:00 [##################] 100%
- mingw-w64-x86_64-libffi-3.2.1-3-any                   34.5 KiB  11.2M/s 00:00 [##################] 100%
- mingw-w64-x86_64-libtre-git-r122.c2f5d13-4-any        69.2 KiB   427K/s 00:00 [##################] 100%
+ mingw-w64-x86_64-gettext-0.19.6-2-any                  3.0 MiB  1214K/s 00:03 [##################] 100%
+ mingw-w64-x86_64-gdbm-1.11-3-any                     151.8 KiB   315K/s 00:00 [##################] 100%
+ mingw-w64-x86_64-libffi-3.2.1-3-any                   34.5 KiB  16.9M/s 00:00 [##################] 100%
+ mingw-w64-x86_64-libtre-git-r122.c2f5d13-4-any        69.2 KiB  11.3M/s 00:00 [##################] 100%
  mingw-w64-x86_64-libsystre-1.0.1-2-any                 9.3 KiB  9.11M/s 00:00 [##################] 100%
- mingw-w64-x86_64-ncurses-6.0.20150627-2-any         1794.9 KiB   704K/s 00:03 [##################] 100%
- mingw-w64-x86_64-libtasn1-4.7-1-any                  171.4 KiB   264K/s 00:01 [##################] 100%
- mingw-w64-x86_64-p11-kit-0.23.1-3-any                193.5 KiB   584K/s 00:00 [##################] 100%
- mingw-w64-x86_64-ca-certificates-20150426-2-any      382.1 KiB   789K/s 00:00 [##################] 100%
- mingw-w64-x86_64-openssl-1.0.2.f-1-any                 3.3 MiB   978K/s 00:04 [##################] 100%
+ mingw-w64-x86_64-ncurses-6.0.20160220-1-any         1794.3 KiB  1133K/s 00:02 [##################] 100%
+ mingw-w64-x86_64-libtasn1-4.7-1-any                  171.4 KiB   353K/s 00:00 [##################] 100%
+ mingw-w64-x86_64-p11-kit-0.23.1-3-any                193.5 KiB   610K/s 00:00 [##################] 100%
+ mingw-w64-x86_64-ca-certificates-20150426-2-any      382.1 KiB   799K/s 00:00 [##################] 100%
+ mingw-w64-x86_64-openssl-1.0.2.f-1-any                 3.3 MiB   984K/s 00:03 [##################] 100%
  mingw-w64-x86_64-termcap-1.3.1-2-any                  12.6 KiB  12.3M/s 00:00 [##################] 100%
- mingw-w64-x86_64-readline-6.3.008-1-any              327.4 KiB   986K/s 00:00 [##################] 100%
- mingw-w64-x86_64-tcl-8.6.4-2-any                       2.8 MiB  1195K/s 00:02 [##################] 100%
- mingw-w64-x86_64-tk-8.6.4-2-any                     1869.4 KiB   891K/s 00:02 [##################] 100%
- mingw-w64-x86_64-python2-2.7.11-1-any                 10.8 MiB  1226K/s 00:09 [##################] 100%
- mingw-w64-x86_64-gdb-7.10.1-1-any                      2.7 MiB   969K/s 00:03 [##################] 100%
- mingw-w64-x86_64-libmangle-git-5.0.0.4509.2e5a9...    16.3 KiB  7.95M/s 00:00 [##################] 100%
+ mingw-w64-x86_64-readline-6.3.008-1-any              327.4 KiB   992K/s 00:00 [##################] 100%
+ mingw-w64-x86_64-tcl-8.6.4-2-any                       2.8 MiB  1070K/s 00:03 [##################] 100%
+ mingw-w64-x86_64-tk-8.6.4-2-any                     1869.4 KiB  1158K/s 00:02 [##################] 100%
+ mingw-w64-x86_64-python2-2.7.11-2-any                 10.9 MiB  1132K/s 00:10 [##################] 100%
+ mingw-w64-x86_64-gdb-7.11-1-any                        2.8 MiB  1119K/s 00:03 [##################] 100%
+ mingw-w64-x86_64-libmangle-git-5.0.0.4509.2e5a9...    16.3 KiB  15.9M/s 00:00 [##################] 100%
  mingw-w64-x86_64-make-4.1.2351.a80a8b8-1-any         103.2 KiB  10.1M/s 00:00 [##################] 100%
- mingw-w64-x86_64-pkg-config-0.29-1-any               226.1 KiB   704K/s 00:00 [##################] 100%
- mingw-w64-x86_64-tools-git-5.0.0.4592.90b8472-1-any  247.0 KiB   772K/s 00:00 [##################] 100%
-(36/36) キーリングのキーを確認                                                 [##################] 100%
-(36/36) パッケージの整合性をチェック                                           [##################] 100%
-(36/36) パッケージファイルのロード                                             [##################] 100%
-(36/36) ファイルの衝突をチェック                                               [##################] 100%
-(36/36) 空き容量を確認                                                         [##################] 100%
+ mingw-w64-x86_64-pkg-config-0.29-1-any               226.1 KiB   691K/s 00:00 [##################] 100%
+ mingw-w64-x86_64-tools-git-5.0.0.4592.90b8472-1-any  247.0 KiB   774K/s 00:00 [##################] 100%
+ python2-2.7.10-1-x86_64                               10.0 MiB  1138K/s 00:09 [##################] 100%
+ libgpg-error-1.21-1-x86_64                           103.8 KiB  11.3M/s 00:00 [##################] 100%
+ libgcrypt-1.6.4-1-x86_64                             337.7 KiB  1014K/s 00:00 [##################] 100%
+ gettext-0.19.6-1-x86_64                             1441.4 KiB  1131K/s 00:01 [##################] 100%
+ libxslt-1.1.28-7-x86_64                              121.8 KiB   372K/s 00:00 [##################] 100%
+ docbook-xml-4.5-2-any                                 81.4 KiB  64.8K/s 00:01 [##################] 100%
+ docbook-xsl-1.78.1-3-any                             714.3 KiB   197K/s 00:04 [##################] 100%
+ asciidoc-8.6.9-4-any                                 173.6 KiB  1052K/s 00:00 [##################] 100%
+ gawk-4.1.3-1-x86_64                                  951.1 KiB   755K/s 00:01 [##################] 100%
+ m4-1.4.17-4-x86_64                                   200.8 KiB   637K/s 00:00 [##################] 100%
+ diffutils-3.3-3-x86_64                               265.7 KiB   557K/s 00:00 [##################] 100%
+ autoconf-2.69-3-any                                  584.6 KiB   615K/s 00:01 [##################] 100%
+ autoconf2.13-2.13-2-any                              134.8 KiB   843K/s 00:00 [##################] 100%
+ libgc-7.2.d-1-x86_64                                  60.2 KiB  8.40M/s 00:00 [##################] 100%
+ libltdl-2.4.6-1-x86_64                                28.0 KiB  9.13M/s 00:00 [##################] 100%
+ libunistring-0.9.6-1-x86_64                          492.2 KiB   769K/s 00:01 [##################] 100%
+ libguile-2.0.11-3-x86_64                               2.1 MiB   822K/s 00:03 [##################] 100%
+ autogen-5.18.4-2-x86_64                              623.9 KiB   792K/s 00:01 [##################] 100%
+ automake1.6-1.6.3-2-any                              253.6 KiB   793K/s 00:00 [##################] 100%
+ automake1.7-1.7.9-2-any                              296.0 KiB   911K/s 00:00 [##################] 100%
+ automake1.8-1.8.5-3-any                              342.9 KiB   719K/s 00:00 [##################] 100%
+ automake1.9-1.9.6-2-any                              385.5 KiB   805K/s 00:00 [##################] 100%
+ automake1.10-1.10.3-3-any                            439.6 KiB   698K/s 00:01 [##################] 100%
+ automake1.11-1.11.6-3-any                            489.5 KiB   622K/s 00:01 [##################] 100%
+ automake1.12-1.12.6-3-any                            502.4 KiB   786K/s 00:01 [##################] 100%
+ automake1.13-1.13.4-4-any                            500.0 KiB   778K/s 00:01 [##################] 100%
+ automake1.14-1.14.1-3-any                            502.2 KiB   792K/s 00:01 [##################] 100%
+ automake1.15-1.15-2-any                              502.0 KiB   781K/s 00:01 [##################] 100%
+ automake-wrapper-10-1-any                              3.0 KiB  0.00B/s 00:00 [##################] 100%
+ bison-3.0.4-1-x86_64                                1045.1 KiB   914K/s 00:01 [##################] 100%
+ diffstat-1.58-1-x86_64                                20.8 KiB  20.3M/s 00:00 [##################] 100%
+ dos2unix-7.3.3-1-x86_64                              311.7 KiB   950K/s 00:00 [##################] 100%
+ flex-2.6.0-1-x86_64                                  280.4 KiB   863K/s 00:00 [##################] 100%
+ gdb-7.9-1-x86_64                                       3.4 MiB  1030K/s 00:03 [##################] 100%
+ gperf-3.0.4-3-x86_64                                  93.6 KiB  9.14M/s 00:00 [##################] 100%
+ grep-2.22-1-x86_64                                   220.7 KiB   655K/s 00:00 [##################] 100%
+ groff-1.22.3-1-x86_64                               1776.5 KiB  1099K/s 00:02 [##################] 100%
+ perl-Locale-Gettext-1.05-4-x86_64                     11.0 KiB  10.7M/s 00:00 [##################] 100%
+ help2man-1.47.3-1-x86_64                             142.3 KiB   426K/s 00:00 [##################] 100%
+ perl-XML-Parser-2.44-1-x86_64                        142.7 KiB   176K/s 00:01 [##################] 100%
+ intltool-0.51.0-2-x86_64                              39.4 KiB  9.61M/s 00:00 [##################] 100%
+ lemon-3.8.7.0-1-x86_64                                35.2 KiB  11.5M/s 00:00 [##################] 100%
+ tar-1.28-3-x86_64                                    671.9 KiB   821K/s 00:01 [##################] 100%
+ libtool-2.4.6-1-x86_64                               381.6 KiB   779K/s 00:00 [##################] 100%
+ libunrar-5.3.7-1-x86_64                              138.8 KiB   836K/s 00:00 [##################] 100%
+ make-4.1-4-x86_64                                    387.0 KiB   791K/s 00:00 [##################] 100%
+ libpipeline-1.4.0-1-x86_64                            25.7 KiB  8.36M/s 00:00 [##################] 100%
+ man-db-2.7.4-1-x86_64                                477.0 KiB   739K/s 00:01 [##################] 100%
+ sed-4.2.2-2-x86_64                                   671.9 KiB   689K/s 00:01 [##################] 100%
+ patch-2.7.5-1-x86_64                                  75.9 KiB  10.6M/s 00:00 [##################] 100%
+ patchutils-0.3.3-2-x86_64                             64.7 KiB  10.5M/s 00:00 [##################] 100%
+ glib2-2.44.1-1-x86_64                               1689.1 KiB   747K/s 00:02 [##################] 100%
+ pkg-config-0.28-2-x86_64                             159.4 KiB   333K/s 00:00 [##################] 100%
+ pkgfile-15-1-x86_64                                   21.4 KiB  10.5M/s 00:00 [##################] 100%
+ rcs-5.9.4-1-x86_64                                   164.1 KiB   508K/s 00:00 [##################] 100%
+ scons-2.4.1-2-any                                    786.9 KiB   448K/s 00:02 [##################] 100%
+ swig-3.0.7-1-x86_64                                 1023.2 KiB   709K/s 00:01 [##################] 100%
+ texinfo-6.0-1-x86_64                                 992.7 KiB   768K/s 00:01 [##################] 100%
+ texinfo-tex-6.0-1-x86_64                              25.0 KiB  12.2M/s 00:00 [##################] 100%
+ ttyrec-1.0.8-1-x86_64                                 17.4 KiB  17.0M/s 00:00 [##################] 100%
+ unrar-5.3.7-1-x86_64                                 110.6 KiB   203K/s 00:01 [##################] 100%
+ libassuan-2.4.2-1-x86_64                              91.7 KiB  35.8K/s 00:03 [##################] 100%
+ libgpgme-1.6.0-1-x86_64                              175.7 KiB  84.3K/s 00:02 [##################] 100%
+ wget-1.17.1-2-x86_64                                 570.7 KiB   275K/s 00:02 [##################] 100%
+ perl-YAML-Syck-1.29-1-x86_64                          60.7 KiB  9.88M/s 00:00 [##################] 100%
+ perl-Module-Build-0.4212-1-any                       172.0 KiB   534K/s 00:00 [##################] 100%
+ perl-Test-Pod-1.50-1-any                               8.0 KiB  0.00B/s 00:00 [##################] 100%
+ xmlto-0.0.26-2-x86_64                                 23.5 KiB  7.66M/s 00:00 [##################] 100%
+(143/143) キーリングのキーを確認                                               [##################] 100%
+(143/143) パッケージの整合性をチェック                                         [##################] 100%
+(143/143) パッケージファイルのロード                                           [##################] 100%
+(143/143) ファイルの衝突をチェック                                             [##################] 100%
+(143/143) 空き容量を確認                                                       [##################] 100%
 :: パッケージの変更を処理しています...
-( 1/36) インストール mingw-w64-x86_64-libiconv                                 [##################] 100%
-( 2/36) インストール mingw-w64-x86_64-bzip2                                    [##################] 100%
-( 3/36) インストール mingw-w64-x86_64-zlib                                     [##################] 100%
-( 4/36) インストール mingw-w64-x86_64-binutils                                 [##################] 100%
-( 5/36) インストール mingw-w64-x86_64-headers-git                              [##################] 100%
-( 6/36) インストール mingw-w64-x86_64-crt-git                                  [##################] 100%
-( 7/36) インストール mingw-w64-x86_64-isl                                      [##################] 100%
-( 8/36) インストール mingw-w64-x86_64-gmp                                      [##################] 100%
-( 9/36) インストール mingw-w64-x86_64-mpfr                                     [##################] 100%
-(10/36) インストール mingw-w64-x86_64-mpc                                      [##################] 100%
-(11/36) インストール mingw-w64-x86_64-libwinpthread-git                        [##################] 100%
-(12/36) インストール mingw-w64-x86_64-gcc-libs                                 [##################] 100%
-(13/36) インストール mingw-w64-x86_64-windows-default-manifest                 [##################] 100%
-(14/36) インストール mingw-w64-x86_64-winpthreads-git                          [##################] 100%
-(15/36) インストール mingw-w64-x86_64-gcc                                      [##################] 100%
-(16/36) インストール mingw-w64-x86_64-expat                                    [##################] 100%
-(17/36) インストール mingw-w64-x86_64-gettext                                  [##################] 100%
-(18/36) インストール mingw-w64-x86_64-gdbm                                     [##################] 100%
-(19/36) インストール mingw-w64-x86_64-libffi                                   [##################] 100%
-(20/36) インストール mingw-w64-x86_64-libtre-git                               [##################] 100%
-(21/36) インストール mingw-w64-x86_64-libsystre                                [##################] 100%
-(22/36) インストール mingw-w64-x86_64-ncurses                                  [##################] 100%
-(23/36) インストール mingw-w64-x86_64-libtasn1                                 [##################] 100%
-(24/36) インストール mingw-w64-x86_64-p11-kit                                  [##################] 100%
-(25/36) インストール mingw-w64-x86_64-ca-certificates                          [##################] 100%
-(26/36) インストール mingw-w64-x86_64-openssl                                  [##################] 100%
-(27/36) インストール mingw-w64-x86_64-termcap                                  [##################] 100%
-(28/36) インストール mingw-w64-x86_64-readline                                 [##################] 100%
-(29/36) インストール mingw-w64-x86_64-tcl                                      [##################] 100%
-(30/36) インストール mingw-w64-x86_64-tk                                       [##################] 100%
-(31/36) インストール mingw-w64-x86_64-python2                                  [##################] 100%
-(32/36) インストール mingw-w64-x86_64-gdb                                      [##################] 100%
-(33/36) インストール mingw-w64-x86_64-libmangle-git                            [##################] 100%
-(34/36) インストール mingw-w64-x86_64-make                                     [##################] 100%
-(35/36) インストール mingw-w64-x86_64-pkg-config                               [##################] 100%
-(36/36) インストール mingw-w64-x86_64-tools-git                                [##################] 100%
+(  1/143) インストール python2                                                 [##################] 100%
+(  2/143) インストール libgpg-error                                            [##################] 100%
+(  3/143) インストール libgcrypt                                               [##################] 100%
+(  4/143) 再インストール gettext                                               [##################] 100%
+(  5/143) インストール libxslt                                                 [##################] 100%
+(  6/143) インストール docbook-xml                                             [##################] 100%
+(  7/143) インストール docbook-xsl                                             [##################] 100%
+(  8/143) インストール asciidoc                                                [##################] 100%
+(  9/143) 再インストール gawk                                                  [##################] 100%
+( 10/143) 再インストール m4                                                    [##################] 100%
+( 11/143) インストール diffutils                                               [##################] 100%
+( 12/143) インストール autoconf                                                [##################] 100%
+( 13/143) インストール autoconf2.13                                            [##################] 100%
+( 14/143) インストール libgc                                                   [##################] 100%
+( 15/143) インストール libltdl                                                 [##################] 100%
+( 16/143) インストール libunistring                                            [##################] 100%
+( 17/143) インストール libguile                                                [##################] 100%
+( 18/143) インストール autogen                                                 [##################] 100%
+( 19/143) 再インストール perl                                                  [##################] 100%
+( 20/143) インストール automake1.6                                             [##################] 100%
+( 21/143) インストール automake1.7                                             [##################] 100%
+( 22/143) インストール automake1.8                                             [##################] 100%
+( 23/143) インストール automake1.9                                             [##################] 100%
+( 24/143) インストール automake1.10                                            [##################] 100%
+( 25/143) インストール automake1.11                                            [##################] 100%
+( 26/143) インストール automake1.12                                            [##################] 100%
+( 27/143) インストール automake1.13                                            [##################] 100%
+( 28/143) インストール automake1.14                                            [##################] 100%
+( 29/143) インストール automake1.15                                            [##################] 100%
+( 30/143) インストール automake-wrapper                                        [##################] 100%
+( 31/143) インストール bison                                                   [##################] 100%
+( 32/143) インストール diffstat                                                [##################] 100%
+( 33/143) インストール dos2unix                                                [##################] 100%
+( 34/143) 再インストール file                                                  [##################] 100%
+( 35/143) 再インストール flex                                                  [##################] 100%
+( 36/143) インストール gdb                                                     [##################] 100%
+( 37/143) インストール gperf                                                   [##################] 100%
+( 38/143) 再インストール grep                                                  [##################] 100%
+( 39/143) インストール groff                                                   [##################] 100%
+( 40/143) インストール perl-Locale-Gettext                                     [##################] 100%
+( 41/143) インストール help2man                                                [##################] 100%
+( 42/143) インストール perl-XML-Parser                                         [##################] 100%
+( 43/143) インストール intltool                                                [##################] 100%
+( 44/143) インストール lemon                                                   [##################] 100%
+( 45/143) インストール tar                                                     [##################] 100%
+( 46/143) インストール libtool                                                 [##################] 100%
+( 47/143) インストール libunrar                                                [##################] 100%
+( 48/143) インストール make                                                    [##################] 100%
+( 49/143) インストール libpipeline                                             [##################] 100%
+( 50/143) インストール man-db                                                  [##################] 100%
+it's recommended to create an initial
+database running as root:
+"/usr/bin/mandb --quiet"
+man-db の提案パッケージ
+    gzip [インストール済み]
+( 51/143) 再インストール sed                                                   [##################] 100%
+( 52/143) 再インストール pacman                                                [##################] 100%
+( 53/143) インストール patch                                                   [##################] 100%
+patch の提案パッケージ
+    ed: for patch -e functionality
+( 54/143) インストール patchutils                                              [##################] 100%
+( 55/143) インストール glib2                                                   [##################] 100%
+glib2 の提案パッケージ
+    gamin: for gio fam module
+    python2: for gdbus-codegen and gtester-report [インストール済み]
+( 56/143) インストール pkg-config                                              [##################] 100%
+( 57/143) 再インストール pkgfile                                               [##################] 100%
+( 58/143) インストール rcs                                                     [##################] 100%
+( 59/143) インストール scons                                                   [##################] 100%
+( 60/143) インストール swig                                                    [##################] 100%
+( 61/143) インストール texinfo                                                 [##################] 100%
+( 62/143) インストール texinfo-tex                                             [##################] 100%
+( 63/143) インストール ttyrec                                                  [##################] 100%
+( 64/143) インストール unrar                                                   [##################] 100%
+( 65/143) インストール libassuan                                               [##################] 100%
+( 66/143) インストール libgpgme                                                [##################] 100%
+( 67/143) インストール wget                                                    [##################] 100%
+wget の提案パッケージ
+    ca-certificates: HTTPS downloads [インストール済み]
+( 68/143) インストール perl-YAML-Syck                                          [##################] 100%
+( 69/143) インストール perl-Module-Build                                       [##################] 100%
+( 70/143) インストール perl-Test-Pod                                           [##################] 100%
+( 71/143) インストール xmlto                                                   [##################] 100%
+( 72/143) インストール mingw-w64-i686-libiconv                                 [##################] 100%
+( 73/143) インストール mingw-w64-i686-gmp                                      [##################] 100%
+( 74/143) インストール mingw-w64-i686-libwinpthread-git                        [##################] 100%
+( 75/143) インストール mingw-w64-i686-gcc-libs                                 [##################] 100%
+( 76/143) インストール mingw-w64-i686-bzip2                                    [##################] 100%
+( 77/143) インストール mingw-w64-i686-zlib                                     [##################] 100%
+( 78/143) インストール mingw-w64-i686-binutils                                 [##################] 100%
+( 79/143) インストール mingw-w64-i686-headers-git                              [##################] 100%
+( 80/143) インストール mingw-w64-i686-crt-git                                  [##################] 100%
+( 81/143) インストール mingw-w64-i686-isl                                      [##################] 100%
+( 82/143) インストール mingw-w64-i686-mpfr                                     [##################] 100%
+( 83/143) インストール mingw-w64-i686-mpc                                      [##################] 100%
+( 84/143) インストール mingw-w64-i686-windows-default-manifest                 [##################] 100%
+( 85/143) インストール mingw-w64-i686-winpthreads-git                          [##################] 100%
+( 86/143) インストール mingw-w64-i686-gcc                                      [##################] 100%
+( 87/143) インストール mingw-w64-i686-expat                                    [##################] 100%
+( 88/143) インストール mingw-w64-i686-gettext                                  [##################] 100%
+( 89/143) インストール mingw-w64-i686-gdbm                                     [##################] 100%
+( 90/143) インストール mingw-w64-i686-libffi                                   [##################] 100%
+( 91/143) インストール mingw-w64-i686-libtre-git                               [##################] 100%
+( 92/143) インストール mingw-w64-i686-libsystre                                [##################] 100%
+( 93/143) インストール mingw-w64-i686-ncurses                                  [##################] 100%
+( 94/143) インストール mingw-w64-i686-libtasn1                                 [##################] 100%
+( 95/143) インストール mingw-w64-i686-p11-kit                                  [##################] 100%
+( 96/143) インストール mingw-w64-i686-ca-certificates                          [##################] 100%
+( 97/143) インストール mingw-w64-i686-openssl                                  [##################] 100%
+( 98/143) インストール mingw-w64-i686-termcap                                  [##################] 100%
+( 99/143) インストール mingw-w64-i686-readline                                 [##################] 100%
+(100/143) インストール mingw-w64-i686-tcl                                      [##################] 100%
+(101/143) インストール mingw-w64-i686-tk                                       [##################] 100%
+(102/143) インストール mingw-w64-i686-python2                                  [##################] 100%
+(103/143) インストール mingw-w64-i686-gdb                                      [##################] 100%
+(104/143) インストール mingw-w64-i686-libmangle-git                            [##################] 100%
+(105/143) インストール mingw-w64-i686-make                                     [##################] 100%
+(106/143) インストール mingw-w64-i686-pkg-config                               [##################] 100%
+(107/143) インストール mingw-w64-i686-tools-git                                [##################] 100%
+(108/143) インストール mingw-w64-x86_64-libiconv                               [##################] 100%
+(109/143) インストール mingw-w64-x86_64-gmp                                    [##################] 100%
+(110/143) インストール mingw-w64-x86_64-libwinpthread-git                      [##################] 100%
+(111/143) インストール mingw-w64-x86_64-gcc-libs                               [##################] 100%
+(112/143) インストール mingw-w64-x86_64-bzip2                                  [##################] 100%
+(113/143) インストール mingw-w64-x86_64-zlib                                   [##################] 100%
+(114/143) インストール mingw-w64-x86_64-binutils                               [##################] 100%
+(115/143) インストール mingw-w64-x86_64-headers-git                            [##################] 100%
+(116/143) インストール mingw-w64-x86_64-crt-git                                [##################] 100%
+(117/143) インストール mingw-w64-x86_64-isl                                    [##################] 100%
+(118/143) インストール mingw-w64-x86_64-mpfr                                   [##################] 100%
+(119/143) インストール mingw-w64-x86_64-mpc                                    [##################] 100%
+(120/143) インストール mingw-w64-x86_64-windows-default-manifest               [##################] 100%
+(121/143) インストール mingw-w64-x86_64-winpthreads-git                        [##################] 100%
+(122/143) インストール mingw-w64-x86_64-gcc                                    [##################] 100%
+(123/143) インストール mingw-w64-x86_64-expat                                  [##################] 100%
+(124/143) インストール mingw-w64-x86_64-gettext                                [##################] 100%
+(125/143) インストール mingw-w64-x86_64-gdbm                                   [##################] 100%
+(126/143) インストール mingw-w64-x86_64-libffi                                 [##################] 100%
+(127/143) インストール mingw-w64-x86_64-libtre-git                             [##################] 100%
+(128/143) インストール mingw-w64-x86_64-libsystre                              [##################] 100%
+(129/143) インストール mingw-w64-x86_64-ncurses                                [##################] 100%
+(130/143) インストール mingw-w64-x86_64-libtasn1                               [##################] 100%
+(131/143) インストール mingw-w64-x86_64-p11-kit                                [##################] 100%
+(132/143) インストール mingw-w64-x86_64-ca-certificates                        [##################] 100%
+(133/143) インストール mingw-w64-x86_64-openssl                                [##################] 100%
+(134/143) インストール mingw-w64-x86_64-termcap                                [##################] 100%
+(135/143) インストール mingw-w64-x86_64-readline                               [##################] 100%
+(136/143) インストール mingw-w64-x86_64-tcl                                    [##################] 100%
+(137/143) インストール mingw-w64-x86_64-tk                                     [##################] 100%
+(138/143) インストール mingw-w64-x86_64-python2                                [##################] 100%
+(139/143) インストール mingw-w64-x86_64-gdb                                    [##################] 100%
+(140/143) インストール mingw-w64-x86_64-libmangle-git                          [##################] 100%
+(141/143) インストール mingw-w64-x86_64-make                                   [##################] 100%
+(142/143) インストール mingw-w64-x86_64-pkg-config                             [##################] 100%
+(143/143) インストール mingw-w64-x86_64-tools-git                              [##################] 100%
 ```
 
-動作確認には `mingw64_shell.bat` の起動，または 環境変数 `MSYSTEM` に `MINGW64` をセットして shell を起動する。
+`base-devel` は面倒なので全てインストール。
+一部が再インストールされたが問題はなさそう[^bd]。
+gcc を含む toolchain については Ada, FORTRAN, Object-C の言語パッケージを除いたものをインストールした。
+
+[^bd]: ていうか，最新版が入ってるのが分かるなら，わざわざ再インストールする必要はないと思うのだが...
+
+### gcc の動作確認
+
+まずは 32bit 版の動作確認。
+`mingw32_shell.bat` を起動，または 環境変数 `MSYSTEM` に `MINGW32` をセットして shell を起動する。
+[前回]紹介した [ConEmu] を使うのであれば以下のシーケンスで起動できる。
+
+```text
+set MSYSTEM=MINGW32 & C:\msys64\usr\bin\bash.exe --login -i
+```
+
+gcc を起動して動作確認。
+
+```text
+$ gcc -v
+Using built-in specs.
+COLLECT_GCC=C:\msys64\mingw32\bin\gcc.exe
+COLLECT_LTO_WRAPPER=C:/msys64/mingw32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/lto-wrapper.exe
+Target: i686-w64-mingw32
+Configured with: ../gcc-5.3.0/configure --prefix=/mingw32 --with-local-prefix=/mingw32/local --build=i686-w64-mingw32 --host=i686-w64-mingw32 --target=i686-w64-mingw32 --with-native-system-header-dir=/mingw32/i686-w64-mingw32/include --libexecdir=/mingw32/lib --with-gxx-include-dir=/mingw32/include/c++/5.3.0 --enable-bootstrap --with-arch=i686 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-version-specific-runtime-libs --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw32 --with-mpfr=/mingw32 --with-mpc=/mingw32 --with-isl=/mingw32 --with-pkgversion='Rev2, Built by MSYS2 project' --with-bugurl=http://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld --disable-sjlj-exceptions --with-dwarf2
+Thread model: posix
+gcc version 5.3.0 (Rev2, Built by MSYS2 project)
+```
+
+次に 64bit 版の動作確認。
+動作確認には `mingw64_shell.bat` を起動，または 環境変数 `MSYSTEM` に `MINGW64` をセットして shell を起動する。
 [前回]紹介した [ConEmu] を使うのであれば以下のシーケンスで起動できる。
 
 ```text
 set MSYSTEM=MINGW64 & C:\msys64\usr\bin\bash.exe --login -i
 ```
 
-mingw64 版の shell が起動したところで gcc の動作確認を行う。
+gcc を起動して動作確認。
 
 ```text
 $ gcc -v
@@ -537,7 +712,7 @@ gcc version 5.3.0 (Rev2, Built by MSYS2 project)
 If you create a 32-bit binary with the TDM64 edition, it will use SJLJ exception handling. DW2 exception handling is not available in this edition.</q>
 {{< /fig-quote >}}
 
-[次回]は実際にコンパイルを行う。
+[次回]は実際にビルドを行う。
 
 [MSYS2]: http://msys2.github.io/ "MSYS2 installer"
 [前回]: {{< relref "remark/2016/03/gcc-msys2-1.md" >}} "MSYS2 による gcc 開発環境の構築 ― インストールから初期化処理まで"
