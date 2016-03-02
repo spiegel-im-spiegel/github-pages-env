@@ -155,7 +155,7 @@ git の提案パッケージ
     subversion: git svn
 ```
 
-てか，本当に最小限しか入ってないんだな（笑） 提案パッケージについては，はとりあえずスルーする。
+てか，本当に最小限しか入ってないんだな（笑） 提案パッケージについては，とりあえずスルーする。
 
 ### MSYS2 のリポジトリ
 
@@ -182,7 +182,7 @@ Server = http://downloads.sourceforge.net/project/msys2/REPOS/MINGW/i686
 Server = http://www2.futureware.at/~nickoe/msys2-mirror/i686/
 ```
 
-では実際にリポジトリの中を除いてみよう。
+では実際にリポジトリの中を覗いてみよう。
 
 ```text
 $ pacman -Sl | grep gcc

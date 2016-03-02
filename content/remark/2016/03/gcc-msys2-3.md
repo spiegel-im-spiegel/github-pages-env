@@ -1,5 +1,6 @@
 +++
 date = "2016-03-01T22:02:47+09:00"
+update = "2016-03-02T14:38:06+09:00"
 description = "前回で gcc を導入できたので，実際にビルドを試してみる。今回はターゲットとして pgpdump を用いる。"
 draft = false
 tags = ["msys2", "gcc", "tools"]
@@ -46,8 +47,10 @@ Checking connectivity... done.
 
 ## 32bit 版のビルド
 
-[pgpdump] のビルド手順は `configure` を実行した後 make を実行する。
+[pgpdump] のビルド手順は `configure` を実行した後 make を実行する[^conf]。
 まずは何も考えずに `configure` の実行してみる。
+
+[^conf]: [前回]インストールした `base-devel` パッケージグループは今回の [pgpdump] ビルドには必要なく，インストールしなくても問題ない。まぁ今回は単純なビルドだし。
 
 ```text
 $ cd pgpdump/
