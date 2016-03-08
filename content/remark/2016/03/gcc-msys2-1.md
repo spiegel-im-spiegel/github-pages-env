@@ -1,9 +1,10 @@
 +++
 date = "2016-03-01T22:02:41+09:00"
+update = "2016-03-08T13:57:12+09:00"
 description = "MSYS の後継（？）とも言える MSYS2 では開発環境を 32bit と 64bit で併設できるらしい。"
 draft = false
 tags = ["msys2", "gcc", "tools"]
-title = "MSYS2 による gcc 開発環境の構築 ― インストールから初期化処理まで"
+title = "MSYS2 による gcc 開発環境の構築 ― MSYS2 のインストールから初期化処理まで"
 
 [author]
   avatar = "/images/avatar.jpg"
@@ -27,9 +28,9 @@ title = "MSYS2 による gcc 開発環境の構築 ― インストールから�
 
 ここでは以下の3部構成になっている。
 
-1. [MSYS2 による gcc 開発環境の構築 ― インストールから初期化処理まで]({{< relref "remark/2016/03/gcc-msys2-1.md" >}})
-2. [MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の導入]({{< relref "remark/2016/03/gcc-msys2-2.md" >}})
-3. [MSYS2 による gcc 開発環境の構築 ― pgpdump をビルドする]({{< relref "remark/2016/03/gcc-msys2-3.md" >}})
+1. [MSYS2 のインストールから初期化処理まで]({{< relref "remark/2016/03/gcc-msys2-1.md" >}}) （← イマココ）
+2. [gcc パッケージ群の導入]({{< relref "remark/2016/03/gcc-msys2-2.md" >}})
+3. [pgpdump をビルドする]({{< relref "remark/2016/03/gcc-msys2-3.md" >}})
 
 ## gcc と MSYS2
 

@@ -1,5 +1,6 @@
 +++
 date = "2016-03-01T22:02:44+09:00"
+update = "2016-03-08T13:57:12+09:00"
 description = "いよいよ gcc をインストールする。"
 draft = false
 tags = ["msys2", "gcc", "tools", "pacman"]
@@ -20,9 +21,9 @@ title = "MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
-1. [MSYS2 による gcc 開発環境の構築 ― インストールから初期化処理まで]({{< relref "remark/2016/03/gcc-msys2-1.md" >}})
-2. [MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の導入]({{< relref "remark/2016/03/gcc-msys2-2.md" >}})
-3. [MSYS2 による gcc 開発環境の構築 ― pgpdump をビルドする]({{< relref "remark/2016/03/gcc-msys2-3.md" >}})
+1. [MSYS2 のインストールから初期化処理まで]({{< relref "remark/2016/03/gcc-msys2-1.md" >}})
+2. [gcc パッケージ群の導入]({{< relref "remark/2016/03/gcc-msys2-2.md" >}}) （← イマココ）
+3. [pgpdump をビルドする]({{< relref "remark/2016/03/gcc-msys2-3.md" >}})
 
 いよいよ gcc をインストールする。
 その前に...

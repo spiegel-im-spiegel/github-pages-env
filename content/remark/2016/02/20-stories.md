@@ -77,6 +77,7 @@ title = "週末スペシャル： X 線天文衛星 ASTRO-H の打上げ成功"
 - [ニューヨーク連邦地裁、「iPhone」ロック解除求める米政府要請を却下 - CNET Japan](http://japan.cnet.com/news/business/35078733/) : 今回の件とは別だが，影響あるかも
 - [言論の自由、コードの自由：アップル「iPhoneロック解除」拒否で団結する米テック界 « WIRED.jp](http://wired.jp/2016/03/06/tech-giants-agree-the-fbis-case/)
 - [エフセキュアブログ : 思考実験：FBiOS 盗聴エディション](http://blog.f-secure.jp/archives/50764280.html)
+- [Appleのソフトウェアエンジニアリング責任者曰く：FBIの要求は全iOSユーザーの安全を脅かす | TechCrunch Japan](http://jp.techcrunch.com/2016/03/07/20160306apple-head-of-software-engineering-says-fbis-demands-compromise-the-safety-of-all-ios-users/)
 
 要求されているのは以下の3つらしい（「[AppleはiPhoneアンロックの事案で延期を獲得、返答の期限は2月26日に](http://jp.techcrunch.com/2016/02/19/20160218apple-gets-an-extension-in-iphone-unlock-case-response-now-due-february-26th/)」より）。
 

@@ -1,6 +1,6 @@
 +++
 date = "2016-03-01T22:02:47+09:00"
-update = "2016-03-02T14:38:06+09:00"
+update = "2016-03-08T13:57:12+09:00"
 description = "前回で gcc を導入できたので，実際にビルドを試してみる。今回はターゲットとして pgpdump を用いる。"
 draft = false
 tags = ["msys2", "gcc", "tools"]
@@ -21,9 +21,9 @@ title = "MSYS2 による gcc 開発環境の構築 ― pgpdump をビルドす�
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
-1. [MSYS2 による gcc 開発環境の構築 ― インストールから初期化処理まで]({{< relref "remark/2016/03/gcc-msys2-1.md" >}})
-2. [MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の導入]({{< relref "remark/2016/03/gcc-msys2-2.md" >}})
-3. [MSYS2 による gcc 開発環境の構築 ― pgpdump をビルドする]({{< relref "remark/2016/03/gcc-msys2-3.md" >}})
+1. [MSYS2 のインストールから初期化処理まで]({{< relref "remark/2016/03/gcc-msys2-1.md" >}})
+2. [gcc パッケージ群の導入]({{< relref "remark/2016/03/gcc-msys2-2.md" >}})
+3. [pgpdump をビルドする]({{< relref "remark/2016/03/gcc-msys2-3.md" >}}) （← イマココ）
 
 [前回]で gcc を導入できたので，実際にビルドを試してみる。
 今回はターゲットとして [pgpdump] を用いる。
