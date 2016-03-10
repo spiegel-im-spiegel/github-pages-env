@@ -1,6 +1,6 @@
 +++
 date = "2016-03-09T18:27:04+09:00"
-update = "2016-03-10T18:57:19+09:00"
+update = "2016-03-11T04:51:18+09:00"
 description = "Windows 版 GnuPG Modern Version のインストールについて。"
 draft = false
 tags = ["security", "cryptography", "openpgp", "gnupg", "tools"]
@@ -153,11 +153,11 @@ Compression: Uncompressed, ZIP, ZLIB, BZIP2
 
 ## ホームディレクトリの変更
 
-インストール直後は `C:/Users/username/AppData/Roaming/gnupg` が [GnuPG] のホームディレクトリになっている（`username` はログインユーザの名前）[^gh]。
+インストール直後は `%APPDATA%\gnupg` が [GnuPG] のホームディレクトリになっている[^gh]。
 通常はこれで問題ないが，他のフォルダに変更したい場合は環境変数 `GNUPGHOME` でフォルダを指定する。
 また `gpg.exe` 起動時に `--homedir` オプションでホームディレクトリを直接指定することもできる（`--homedir` オプションが優先）。
 
-[^gh]: UNIX 系のプラットフォームでは `~/.gnupg` が [GnuPG] のホームディレクトリになるが Windows は構成が異なるためこのようになっている。
+[^gh]: 環境変数 `APPDATA` には通常 `C:\Users\username\AppData\Roaming` （`username` はログインユーザの名前）がセットされている。ちなみに UNIX 系のプラットフォームでは `~/.gnupg` が [GnuPG] 既定のホームディレクトリだが Windows は構成が異なるためこのようになっている。
 
 ```text
 C:>gpg --version --homedir C:\usr\home
@@ -194,7 +194,7 @@ C:>gpg --import-ownertrust trust.txt
 
 {{< fig-img flickr="true" src="https://farm2.staticflickr.com/1507/25316582890_9ff8c3d2ea_o.png" title="GnuPG pinentry" link="https://www.flickr.com/photos/spiegel/25316582890/" >}}
 
-このダイアログについては次回 `gpg-agent` の話と絡めて説明する。
+このプロンプト画面（Pinentry）については次回 `gpg-agent` の話と絡めて説明する。
 
 上手くインポートできていれば以下のように鍵を表示することができる[^e]。
 
@@ -218,7 +218,7 @@ uid         [ revoked] John Doe (Demonstration) <john@examle.com>
 `private-keys-v1.d` フォルダにはインポートした秘密鍵の数だけファイルが作成されている。
 `gpg-v21-migrated` ファイルは鍵束が  modern version へ移行したことを示すフラグである。
 
-## GnuPG 以外の OpenPGP 実装
+## 【付録】 GnuPG 以外の OpenPGP 実装
 
 [GnuPG] 以外の [OpenPGP] 実装としては以下のものがある。
 
