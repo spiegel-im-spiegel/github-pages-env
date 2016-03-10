@@ -1,5 +1,6 @@
 +++
 date = "2016-03-09T18:27:04+09:00"
+update = "2016-03-10T18:57:19+09:00"
 description = "Windows 版 GnuPG Modern Version のインストールについて。"
 draft = false
 tags = ["security", "cryptography", "openpgp", "gnupg", "tools"]
@@ -37,14 +38,16 @@ title = "GnuPG Modern Version for Windows ― インストール編"
 ## OpenPGP 実装としての GnuPG
 
 [OpenPGP] の起源は [Phil Zimmermann] さんによる PGP (Pretty Good Privacy) と呼ばれる暗号ツールである。
+PGP の最初のバージョンは1991年に公開された[^1991]。
 当時の [Phil Zimmermann] さんは反核運動家で，政府等の組織からデータやメッセージ（特に電子メール）を保護するための手段として PGP を開発し，最終的にそれをフリーで公開した[^pgp]。
 
+[^1991]: 当時の PGP の仕様は（公開年にちなんでか） [RFC 1991](http://tools.ietf.org/html/rfc1991 "RFC 1991 - PGP Message Exchange Formats") として公開されている。
 [^pgp]: もともと [Phil Zimmermann] さんは PGP をシェアウェアとして売り出すつもりだったらしい。しかし米国内で事実上暗号を禁止する法案が提出され，法案の可決を阻止する目的もあり PGP をフリーで公開した。ところが [Phil Zimmermann] さんが暗号に関する特許について迂闊だったことや PGP が ftp サーバを通じて海外に漏洩してしまった（当時は暗号製品には輸出規制があり強い暗号製品は米国外に持ち出せなかった）ことなどもあって，しばらくの間 [Phil Zimmermann] さんと PGP は不遇の身の上となる。当時の輸入規制に「書籍」は含まれていなかったため，最新版の PGP コードを書籍として出版し海外でコンパイルする国際化プロジェクトがあった。何もかも懐かしい（笑） ちなみに現在の PGP は無料ではない。
 
-その後 PGP はいくつか改良を重ね，1998年に [RFC 2440] として標準化された[^op]。
+その後 PGP はいくつか改良を重ね，1998年に [RFC 2440] つまり OpenPGP として標準化された[^op]。
 また特許上の制限や国際政治上の問題も2000年を機に大幅に緩和され PGP を含む多くの暗号製品が本格的に使われるようになった。
 
-[^op]: [RFC 2440] が [OpenPGP] の最初のバージョンである。現在は [RFC 4880] にアップデートされ，更に改良が進められている。
+[^op]: 現在は [RFC 4880] にアップデートされ，更に改良が進められている。
 
 [GnuPG] は [OpenPGP] をベースにドイツで生まれた製品である。
 特定の個人・組織が独占することのないよう [GNU] プロジェクトの一環として現在も開発が行われている[^gpl]。
@@ -63,7 +66,7 @@ title = "GnuPG Modern Version for Windows ― インストール編"
 
 ## Modern Version インストーラのダウンロード
 
-[ダウンロードページ](https://gnupg.org/download/ "GnuPG - Download") の “GnuPG binary releases” にある Windows 用のバイナリへのリンクからダウンロードを行う。
+[ダウンロードページ](https://gnupg.org/download/ "GnuPG - Download") の “GnuPG binary releases” にある Windows 用のバイナリへのリンクからダウンロードを行う（執筆時点でヴァージョン 2.1.11, 20160209 版が最新）。
 必ずインストーラ本体と署名ファイルをセットでダウンロードすること。
 
 前バージョンの [GnuPG] を持っている場合はインストーラの署名検証を行い，正しいファイルであることを確認すること。
@@ -86,11 +89,19 @@ gpg: binary signature, digest algorithm SHA256, key algorithm rsa2048
 Modern version のファイル構成は classic version と互換性がない。
 Modern version を利用するのなら classic version は削除するのがお勧めである。
 
-- Classic version のデータファイル（`pubring.gpg`, `secring.gpg`, `trustdb.gpg`）は別の場所に退避させておき Modern version インストール後にインポートする[^imp]。インポートの方法は後述する
+- Classic version の鍵束（keyring; `pubring.gpg`, `secring.gpg`, `trustdb.gpg`）は別の場所に退避させておき Modern version インストール後にインポートする[^imp]。インポートの方法は後述する
 - Classic version  アンインストール後に環境変数 `PATH` に `gpg.exe` へのパスが残っている場合は念のためこれも削除しておく。環境変数の変更方法がわからない方は無理に削除しなくてもいい
 - Classic version  アンインストール後にレジストリ `HKEY_CURRENT_USER\Software\GNU\GnuPG` が残っている場合は，これも削除してしまうのがよいだろう。ただしレジストリ操作に自信のない人はこれも無理に触らなくてよい
 
-[^imp]: 実は classic version のデータファイルをそのまま使っても自動的にアップグレードするため大抵は問題ないのだが，旧データファイルにはバグが混入しているそうで，安全のためインポート作業を行うほうがいいらしい。
+[^imp]: 実は classic version の鍵束をそのまま使っても自動的にアップグレードするため大抵は問題ないのだが，旧鍵束にはバグが混入しているそうで，安全のためインポート作業を行うほうがいいらしい。
+
+なお `trustdb.gpg` は以下の手順でテキストファイルにエクスポートしておくとよい[^t]。
+
+[^t]: `trustdb.gpg` ファイルはそのまま使うのではなく， `--export-ownertrust` オプションでテキストファイルにエクスポートしたものを使うのが安全なようだ。
+
+```text
+C:>gpg --export-ownertrust > trust.txt
+```
 
 ## Modern Version のインストール
 
@@ -144,7 +155,7 @@ Compression: Uncompressed, ZIP, ZLIB, BZIP2
 
 インストール直後は `C:/Users/username/AppData/Roaming/gnupg` が [GnuPG] のホームディレクトリになっている（`username` はログインユーザの名前）[^gh]。
 通常はこれで問題ないが，他のフォルダに変更したい場合は環境変数 `GNUPGHOME` でフォルダを指定する。
-また起動時に `--homedir` オプションでホームディレクトリを直接指定することもできる（`--homedir` オプションが優先）。
+また `gpg.exe` 起動時に `--homedir` オプションでホームディレクトリを直接指定することもできる（`--homedir` オプションが優先）。
 
 [^gh]: UNIX 系のプラットフォームでは `~/.gnupg` が [GnuPG] のホームディレクトリになるが Windows は構成が異なるためこのようになっている。
 
@@ -170,19 +181,23 @@ Compression: Uncompressed, ZIP, ZLIB, BZIP2
 
 ## Classic Version の鍵束のインポート
 
-Classic version からアップグレードした人は旧データファイル（`pubring.gpg`, `secring.gpg`, `trustdb.gpg`）をあらかじめ退避していると思うが，これを新しくインストールした modern version へインポートする。
-手順は以下のとおり[^t]。
+Classic version からアップグレードした人は旧鍵束（`pubring.gpg`, `secring.gpg`, `trustdb.gpg` → `trust.txt`）をあらかじめ退避していると思うが，これを新しくインストールした modern version へインポートする。
+手順は以下のとおり。
 
 ```text
-C:>gpg --homedir . --export-ownertrust > trust.txt
-C:>gpg --import pubring.gpg
+C:>gpg --import-options import-local-sigs --import pubring.gpg
 C:>gpg --import secring.gpg
 C:>gpg --import-ownertrust trust.txt
 ```
 
+秘密鍵（`secring.gpg`）のインポートでは鍵の数だけパスフレーズの入力をを要求される。
+
+{{< fig-img flickr="true" src="https://farm2.staticflickr.com/1507/25316582890_9ff8c3d2ea_o.png" title="GnuPG pinentry" link="https://www.flickr.com/photos/spiegel/25316582890/" >}}
+
+このダイアログについては次回 `gpg-agent` の話と絡めて説明する。
+
 上手くインポートできていれば以下のように鍵を表示することができる[^e]。
 
-[^t]: `trustdb.gpg` ファイルはそのまま使うのではなく， `--export-ownertrust` オプションでテキストファイルにエクスポートしたものを使うのが安全なようだ。
 [^e]: 例で挙げた鍵は「[わかる！ OpenPGP 暗号](http://www.baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)」で説明用に作成した鍵で既に破棄済みになっているが，ご容赦を。
 
 ```text
@@ -193,10 +208,12 @@ uid         [ revoked] John Doe (Demonstration) <john@examle.com>
 
 インポートにより [GnuPG] のホームディレクトリには以下のフォルダ・ファイルができているはずである。
 
-- `pubring.kbx` ファイル
+- `pubring.kbx` ファイル[^kbx]
 - `trustdb.gpg` ファイル
 - `gpg-v21-migrated` ファイル
 - `private-keys-v1.d` フォルダ
+
+[^kbx]: kbx は keybox の略らしい。 Stable version 以降では OpenPGP の鍵束だけでなく S/MIME （X.509）や OpenSSH の鍵も格納できる。
 
 `private-keys-v1.d` フォルダにはインポートした秘密鍵の数だけファイルが作成されている。
 `gpg-v21-migrated` ファイルは鍵束が  modern version へ移行したことを示すフラグである。
