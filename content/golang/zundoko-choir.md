@@ -1,8 +1,9 @@
 +++
 date = "2016-03-12T22:12:53+09:00"
+update = "2016-03-13T03:35:04+09:00"
 description = "というわけで Go 言語で実装することを考えてみる。"
 draft = false
-tags = ["programming", "golang", "goroutine", "channel", "slice", "benchmark"]
+tags = ["programming", "golang", "goroutine", "channel", "slice", "benchmark", "random"]
 title = "「ズンドコチェック」なるものが流行っているらしい"
 
 [author]
@@ -106,7 +107,7 @@ type Choirs struct {
 
 //Push is append choirs
 func (c *Choirs) Push(s string) {
-	c.c = append(c.c, s)
+	c.c = append(c.c, s) //maybe panic if c is nil.
 }
 
 func (c *Choirs) String() string {
