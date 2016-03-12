@@ -25,10 +25,10 @@ title = "GnuPG Modern Version for Windows ― インストール編"
 
 - [GnuPG 2.1.0 (modern) for Windows のインストール — Baldanders.info](http://www.baldanders.info/spiegel/log2/000770.shtml)
 
-今回は [GnuPG] modern version について2回に分けて解説する予定。
+今回は [GnuPG] modern version について2回に分けて解説する。
 
 1. [インストール編]({{< relref "remark/2016/03/using-gnupg-modern-version-1.md" >}}) （← イマココ）
-2. gpg-agent について
+2. [gpg-agent について]({{< relref "remark/2016/03/using-gnupg-modern-version-2.md" >}})
 
 なお modern version の特徴である ECC への対応については以下の Gist ページを参照のこと。
 （これもそのうち再構成してここで公開する予定）
@@ -194,7 +194,7 @@ C:>gpg --import-ownertrust trust.txt
 
 {{< fig-img flickr="true" src="https://farm2.staticflickr.com/1507/25316582890_9ff8c3d2ea_o.png" title="GnuPG pinentry" link="https://www.flickr.com/photos/spiegel/25316582890/" >}}
 
-このプロンプト画面（Pinentry）については次回 `gpg-agent` の話と絡めて説明する。
+このプロンプト画面（Pinentry）については[次回]に `gpg-agent` の話と絡めて説明する。
 
 上手くインポートできていれば以下のように鍵を表示することができる[^e]。
 
@@ -240,6 +240,7 @@ uid         [ revoked] John Doe (Demonstration) <john@examle.com>
 - [GnuPG invalid packet workaround | random repairs](http://jo-ke.name/wp/?p=111)
 - [GnuPG - ArchWiki](https://wiki.archlinuxjp.org/index.php/GnuPG)
 
+[次回]: {{< relref "remark/2016/03/using-gnupg-modern-version-2.md" >}} "GnuPG Modern Version for Windows ― gpg-agent について"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 [OpenPGP]: http://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
 [RFC 4880]: http://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"

@@ -1,7 +1,7 @@
 +++
-date = "2016-03-11T04:51:33+09:00"
-description = "description"
-draft = true
+date = "2016-03-11T12:39:07+09:00"
+description = "今回は gpg-agent について解説する。"
+draft = false
 tags = ["security", "cryptography", "openpgp", "gnupg", "tools", "ssh", "putty"]
 title = "GnuPG Modern Version for Windows ― gpg-agent について"
 
@@ -177,7 +177,7 @@ F65BB98767E88930612C6EABC4D4918E2A573903 0
 
 この `F65B...` の長ったらしい数字列は keygrip と呼ばれる鍵の識別子で [OpenPGP] の鍵 ID とは異なるもののようだ[^kg]。
 
-[^kg]: [OpenPGP] 鍵以外の鍵にも対応するためらしい。 [OpenPGP] 鍵の keygrip は `--with-keygrip` オプションを付けて鍵を表示すると見ることができる。
+[^kg]: [OpenPGP] 鍵以外の鍵にも対応するためらしい。 [OpenPGP] 鍵の keygrip は `--with-keygrip` オプションを付けて鍵を表示すると見ることができる。ちなみに `private-keys-v1.d` フォルダにある秘密鍵のファイルは，この keygrip 値がそのままファイル名になっている。
 
 これで鍵のインポートができたので [PuTTY] で実際に SSH 接続してみると
 
@@ -220,6 +220,9 @@ setx GIT_SSH=C:\path\to\PuTTY\plink.exe
 
 - [The GNU Privacy Guard](https://gnupg.org/)
 - [わかる！ OpenPGP 暗号 — Baldanders.info](http://www.baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
+- [hdk の自作ソフトの紹介 | PuTTYjp](http://hp.vector.co.jp/authors/VA024651/PuTTYkj.html)
+- [iceiv+putty](http://ice.hotmint.com/putty/)
+- [公開鍵認証によるSSH接続 - PuTTYの使い方 - Linux入門 - Webkaru](http://webkaru.net/linux/putty-ssh-login-public-key/)
 - [Windowsでのssh agent - Qiita](http://qiita.com/tsuyoshi_cho/items/79c09905ae3f192b3a0f)
 - [SSH authentication using a YubiKey on Windows](https://developers.yubico.com/PGP/SSH_authentication/Windows.html)
 - [Git/Git for Windows/SSHにPuTTYを使う - yanor.net/wiki](http://yanor.net/wiki/?Git%2FGit%20for%20Windows%2FSSH%E3%81%ABPuTTY%E3%82%92%E4%BD%BF%E3%81%86)
