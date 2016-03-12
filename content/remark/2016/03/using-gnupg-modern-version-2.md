@@ -1,5 +1,6 @@
 +++
 date = "2016-03-11T12:39:07+09:00"
+update = "2016-03-12T15:16:45+09:00"
 description = "今回は gpg-agent について解説する。"
 draft = false
 tags = ["security", "cryptography", "openpgp", "gnupg", "tools", "ssh", "putty"]
@@ -25,9 +26,10 @@ title = "GnuPG Modern Version for Windows ― gpg-agent について"
 
 ## gpg-agent
 
-`gpg-agent` は [GnuPG] modern version の中核コンポーネントで，秘密鍵の管理を行い，一定期間キャッシュする。
+`gpg-agent` は [GnuPG] modern version の中核コンポーネントで，秘密鍵の管理[^sr] を行い一定期間キャッシュする。
 `gpg-agent` は `gpg`, `gpgsm`, `gpgconf`, `gpg-connect-agent` といったコンポーネントから常駐プロセスとして起動されお互いに通信を行う[^od]。
 
+[^sr]: [前回]も書いたが， classic version と modern version は鍵（特に秘密鍵）の管理の仕方が異なるため両者を混在させる場合は注意が必要である。 Classic version で作成した鍵を modern version にも反映させたいのであれば `gpg-v21-migrated` ファイルを削除すると再度移行処理が走るらしい。 Classic version を使わなければならない状況（Linux などではパッケージ管理ツールがアプリケーションの証明用に [GnuPG] の classic version を使うことがある）でないのなら modern version に一本化するほうがお勧めである。
 [^od]: Modern version では `gpg-agent` が必須となった。したがって `--use-agent`, `--no-use-agent`, `--gpg-agent-info` 各オプションは無効（ダミーオプション）になっている。また UNIX 互換プラットフォームで `gpg-agent` 利用する際は `GPG_TTY` 環境変数をセットする必要があるが， Windows では不要なためここでは割愛する。
 
 `gpg-agent` が稼働中かどうかは `gpg-agent` を引数なしで起動すれば分かる。

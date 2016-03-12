@@ -1,6 +1,6 @@
 +++
 date = "2016-03-09T18:27:04+09:00"
-update = "2016-03-11T04:51:18+09:00"
+update = "2016-03-12T15:16:22+09:00"
 description = "Windows 版 GnuPG Modern Version のインストールについて。"
 draft = false
 tags = ["security", "cryptography", "openpgp", "gnupg", "tools"]
@@ -93,7 +93,7 @@ Modern version を利用するのなら classic version は削除するのがお
 - Classic version  アンインストール後に環境変数 `PATH` に `gpg.exe` へのパスが残っている場合は念のためこれも削除しておく。環境変数の変更方法がわからない方は無理に削除しなくてもいい
 - Classic version  アンインストール後にレジストリ `HKEY_CURRENT_USER\Software\GNU\GnuPG` が残っている場合は，これも削除してしまうのがよいだろう。ただしレジストリ操作に自信のない人はこれも無理に触らなくてよい
 
-[^imp]: 実は classic version の鍵束をそのまま使っても自動的にアップグレードするため大抵は問題ないのだが，旧鍵束にはバグが混入しているそうで，安全のためインポート作業を行うほうがいいらしい。
+[^imp]: 実は classic version の鍵束をそのまま使っても自動的にファイルが移行されるため大抵は問題ないのだが，旧鍵束にはバグが混入しているそうで，安全のため明示的にインポート作業を行うほうがいいらしい。なお modern version の [GnuPG] は，移行時以外は classic version の `secring.gpg` を参照しないため modern version と classic version を混在させる場合は注意が必要である。（`gpg-v21-migrated` ファイルを削除すると再度移行処理が走るらしい）
 
 なお `trustdb.gpg` は以下の手順でテキストファイルにエクスポートしておくとよい[^t]。
 
