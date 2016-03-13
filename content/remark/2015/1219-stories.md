@@ -1,8 +1,9 @@
 +++
 date = "2015-12-19T17:06:34+09:00"
+update = "2016-03-14T01:12:59+09:00"
 description = "太陽系外惑星命名コンテスト / カープファンはもっと怒っていい / 軽佻浮薄 / BOINC では Android エンジニアを欲している / ロボット法学会設立準備会ブログ"
 draft = false
-tags = ["astronomy", "iau", "exoplanet", "hiroshima", "media", "boinc", "android", "code", "law", "intelligence"]
+tags = ["astronomy", "iau", "exoplanet", "hiroshima", "media", "boinc", "android", "code", "law", "artificial-intelligence"]
 title = "週末スペシャル： 太陽系外惑星命名コンテスト"
 
 [author]

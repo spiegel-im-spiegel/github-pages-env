@@ -1,8 +1,9 @@
 +++
 date = "2015-10-01T20:47:00+09:00"
+update = "2016-03-14T01:12:59+09:00"
 description = "「人工知能に人類と協力する目的を持たせる」にしろ「人工知能の開発は人類がコントロールできるように進める」にしろ，人工知能が「ハイル・ヒトラー」と叫ぶ可能性は排除できない。"
 draft = false
-tags = ["engineering", "intelligence"]
+tags = ["engineering", "artificial-intelligence"]
 title = "人工知能は「ハイル・ヒトラー」と叫ぶか"
 
 [author]

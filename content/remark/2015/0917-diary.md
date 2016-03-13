@@ -1,9 +1,9 @@
 +++
 date = "2015-09-18T03:11:44+09:00"
-update = "2015-10-13T21:52:00+09:00"
+update = "2016-03-14T01:12:59+09:00"
 description = "セキュリティ・暗号関連 / 機械支配待望論"
 draft = false
-tags = ["security", "cryptography", "cryptrec", "misty1", "rc4", "engineering", "intelligence"]
+tags = ["security", "cryptography", "cryptrec", "misty1", "rc4", "engineering", "artificial-intelligence"]
 title = "今日の戯れ言"
 
 [author]

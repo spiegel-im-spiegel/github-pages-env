@@ -1,9 +1,9 @@
 +++
 date = "2015-12-06T00:22:47+09:00"
-update = "2015-12-19T14:40:56+09:00"
+update = "2016-03-14T01:12:59+09:00"
 description = "「はやぶさ2」地球 Swing-by / GnuPG 2.1.10 released / Go 1.5.2 Released / 11月の Flattr / 機械創作でクリエイターは失業するか / 新刊小説の滅亡"
 draft = false
-tags = ["astronomy", "jaxa", "hayabusa2", "swing-by", "security", "cryptography", "openpgp", "gnupg", "tools", "golang", "flattr", "intelligence", "book"]
+tags = ["astronomy", "jaxa", "hayabusa2", "swing-by", "security", "cryptography", "openpgp", "gnupg", "tools", "golang", "flattr", "artificial-intelligence", "book"]
 title = "週末スペシャル： 「はやぶさ2」地球 Swing-by"
 
 [author]

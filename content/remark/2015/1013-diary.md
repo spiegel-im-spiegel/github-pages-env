@@ -1,8 +1,9 @@
 +++
 date = "2015-10-13T22:54:48+09:00"
+update = "2016-03-14T01:12:59+09:00"
 description = "「ロボット法学会」設立準備研究会 / 『パクリ経済――コピーはイノベーションを加速するか(仮)』 / GnuPG 2.1.9 released / wrap-style がなかなかよい"
 draft = false
-tags = ["code", "law", "engineering", "intelligence", "book", "freakonomics", "security", "cryptography", "openpgp", "gnupg", "tools", "atom", "editor"]
+tags = ["code", "law", "engineering", "artificial-intelligence", "book", "freakonomics", "security", "cryptography", "openpgp", "gnupg", "tools", "atom", "editor"]
 title = "今日の戯れ言：ロボット法学会"
 
 [author]

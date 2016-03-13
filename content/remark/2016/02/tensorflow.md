@@ -1,8 +1,9 @@
 +++
 date = "2016-02-18T12:55:42+09:00"
+update = "2016-03-14T01:12:59+09:00"
 description = "TensorFlow は Google がオープンソースとして提供する多次元配列（tensor）演算（flow）ライブラリ。いわゆる「機械学習」で威力を発揮する。"
 draft = false
-tags = ["tensorflow", "bookmark", "engineering", "intelligence"]
+tags = ["tensorflow", "bookmark", "engineering", "artificial-intelligence"]
 title = "TensorFlow に関するブックマーク"
 
 [author]
