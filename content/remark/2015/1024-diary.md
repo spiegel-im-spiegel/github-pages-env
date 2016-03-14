@@ -1,5 +1,6 @@
 +++
 date = "2015-10-24T01:13:56+09:00"
+update = "2016-03-15T00:55:46+09:00"
 description = "GitHub-flow を捨てた ATOM Editor / 暗号プロトコルのセキュリティ評価 / VoLTE の脆弱性 / 「おかげさまで半世紀も生きちゃったぜ」記念"
 draft = false
 tags = ["atom", "editor", "tools", "git", "github", "security", "cryptography", "authentication", "risk", "vulnerability", "ntp", "wireless"]
@@ -38,8 +39,8 @@ title = "今日の戯れ言： GitHub-flow を捨てた ATOM Editor"
 
 - [GitHub Flow – Scott Chacon](http://scottchacon.com/2011/08/31/github-flow.html)
 - [GitHub Flow (Japanese translation)](https://gist.github.com/Gab-km/3705015)
-- [A successful Git branching model » nvie.com](A successful Git branching model » nvie.com)
-- [git-flow cheatsheet](git-flow cheatsheet) （日本語）
+- [A successful Git branching model » nvie.com](http://nvie.com/posts/a-successful-git-branching-model/)
+- [git-flow cheatsheet](http://danielkummer.github.io/git-flow-cheatsheet/) （[日本語](http://danielkummer.github.io/git-flow-cheatsheet/index.ja_JP.html)）
 - [git flowとgithub flowざっくりまとめ | KentaKomai Blog](http://komaken.me/blog/2013/09/09/git-flow%E3%81%A8github-flow%E3%81%96%E3%81%A3%E3%81%8F%E3%82%8A%E3%81%BE%E3%81%A8%E3%82%81/)
 
 どちらがいいのかについては何とも言えないが，複数バージョンを同時に管理していくのであれば Git-flow にせざるを得ないだろう。
