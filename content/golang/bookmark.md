@@ -247,6 +247,10 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 
 - [emacsでGoの環境構築をやる - Qiita](http://qiita.com/koki_cheese/items/2e2ead918a1f1ac5bf6e)
 
+### Vim で Go
+
+- [Vim で golang を書く環境を整える - Qiita](http://qiita.com/masa23/items/db184871c78311566434)
+
 ### Build Tool for Golang
 
 [constabulary/gb](https://github.com/constabulary/gb) を使ってプロジェクトベースの環境構築
@@ -413,6 +417,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Revel(Golang)でViewを理解する - Qiita](http://qiita.com/jumbOS5/items/d817bc95279877e72b24)
 - [Big Sky :: golang で画像アップロードが簡単に出来る go-imageupload を使ってみた。](http://mattn.kaoriya.net/software/lang/go/20160224103638.htm)
 - [Go言語のスクレイピング系ライブラリまとめ - Qiita](http://qiita.com/okataitai/items/db6999ea1ab39ec0bd3e)
+- [Go の echo ってWebサーバーでサクッと REST しちゃう - Qiita](http://qiita.com/keika299/items/62e806ae42828bb3567a)
 
 ### 組み込み開発
 
