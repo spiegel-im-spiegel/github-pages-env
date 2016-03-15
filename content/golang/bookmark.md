@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-03-13T04:37:10+09:00"
+update = "2016-03-15T12:30:28+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -344,6 +344,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go の DB アクセス用のパッケージを作った - Qiita](http://qiita.com/chimatter/items/1a5fb2f03477f2ada520)
 - [Google App Engine SDK for Goを使ってGAE上でアプリを動かすまで - Qiita](http://qiita.com/walkers/items/e407386d7ef184ec830a)
 - [GoでSpreadsheetを操作するパッケージを作った - Qiita](http://qiita.com/Iwark/items/726dfb2d15a883e389b6)
+- [Go 言語 1つの構造体に複数の validation を適応する - Qiita](http://qiita.com/iktakahiro/items/2e240147ca3188948a17)
+- [Golangでreduce関数を提供しているライブラリugoを眺めてみた - Qiita](http://qiita.com/letusfly85/items/5f479e5b072a05dbcf53)
 
 ### コマンドライン・ツール
 
