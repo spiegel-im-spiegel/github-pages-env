@@ -1,6 +1,6 @@
 +++
 date = "2016-03-12T22:12:53+09:00"
-update = "2016-03-13T03:35:04+09:00"
+update = "2016-03-16T17:35:35+09:00"
 description = "というわけで Go 言語で実装することを考えてみる。"
 draft = false
 tags = ["programming", "golang", "goroutine", "channel", "slice", "benchmark", "random"]
@@ -84,9 +84,11 @@ func main() {
 ```
 
 「ズン」および「ドコ」をランダムに生成する部分は [channel] と [goroutine] を使えばいいだろう（`generate()` 関数内の処理）。
-擬似乱数は厳密でなくてもいいので安直に [`math/rand`] を使うことにした。
+擬似乱数は厳密でなくてもいいので安直に [`math/rand`] を使うことにした[^rand]。
 さらに「ズン」「ズン」「ズン」「ズン」「ドコ」の配列パターンのチェックだが，「ズン」が4回以上連続で来た直後に「ドコ」が来たら OK としてみた。
 まぁ，これがもっとも素朴な実装でパフォーマンスとしてもそれほど遜色ない筈。
+
+[^rand]: [`math/rand`] の乱数生成アルゴリズムの既定は線形合同法らしい。[線形合同法は性能が良くなく](http://www001.upp.so-net.ne.jp/isaku/rand.html "良い乱数・悪い乱数")ゲームや暗号等では使えない。[`math/rand`] の乱数生成アルゴリズムは他のものに入れ替えることができる。たとえば [`seehuhn/mt19937`](https://github.com/seehuhn/mt19937 "seehuhn/mt19937: An implementation of Takuji Nishimura's and Makoto Matsumoto's Mersenne Twister pseudo random number generator in Go.") パッケージが使える。
 
 と，ここまで考えてハタと気づいた。
 問題は「自作関数を作り記述しなさい」なんだからメイン関数にロジック書いたらアカンやん！
@@ -290,6 +292,8 @@ func (c *Choirs) CountZunDoko() (int, int) {
 
 - [ズンドコキヨシまとめ - Qiita](http://qiita.com/shunsugai@github/items/971a15461de29563bf90)
 - [ズンドコキヨシ with Go (n番煎じ) - Qiita](http://qiita.com/shinderuman@github/items/2ff67c2404647d2b7ea6)
+- [ズンドコキヨシGolang並列版 - Qiita](http://qiita.com/Rompei/items/bfa03fbc9a94a37703bb) : 「ズン」「ドコ」の生成部分を CPU の数だけ並列処理で行わせてひとつの [channel] に入力するというユニークな実装
+- [「ズンドコキヨシ」と擬似乱数 - Qiita](http://qiita.com/spiegel-im-spiegel/items/6a5bc07dbfa46a328e26) : Qiita で擬似乱数について簡単にまとめてみた。整理できたらこちらでも記事にするかも
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [channel]: http://golang.org/ref/spec#Channel_types
