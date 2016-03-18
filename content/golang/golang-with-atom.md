@@ -1,6 +1,6 @@
 +++
 date = "2015-11-21T14:19:02+09:00"
-update = "2015-11-27T14:31:41+09:00"
+update = "2016-03-18T21:05:37+09:00"
 description = "ATOM Editor で Go 言語のコーディング環境を整える。 go-plus パッケージの導入について。"
 draft = false
 tags = ["golang", "engineering", "tools", "atom", "editor"]
@@ -28,22 +28,42 @@ title = "ATOM で Go"
 
 ## 開発支援ツールの導入
 
-まずは [Go 言語]用の支援ツールを導入する。
+まずは [Go 言語]用の支援ツールを導入する（更新時には `-u` オプションを付ける）。
 
-```bash
-C:> go get -v golang.org/x/tools/cmd/vet
-C:> go get -v golang.org/x/tools/cmd/goimports
-C:> go get -v golang.org/x/tools/cmd/oracle
-C:> go get -v github.com/golang/lint/golint
-C:> go get -v github.com/nsf/gocode
-C:> go get -v github.com/rogpeppe/godef
+```text
+$ go get -v golang.org/x/tools/cmd/vet
+$ go get -v github.com/alecthomas/gometalinter
+$ go get -v golang.org/x/tools/cmd/gorename
+$ go get -v github.com/nsf/gocode
+$ go get -v github.com/rogpeppe/godef
+$ go get -v golang.org/x/tools/cmd/oracle
 ```
 
-[golint] は，いわゆる lint ツール。
-[vet] もコードの静的検査ツール。
-両方あると幸せになれる。
+[vet] はコードの静的検査ツール。
+[gometalinter] は所謂 lint ツールなのだが，単独で動作するのではなく，巷にいくつかある lint ツールを統合的に管理することができる。
+以下のコマンドで [gometalinter] が使用する lint ツールをまとめてインストールする。
 
-[goimport] はコード整形ツールで，標準の [gofmt] を置き換えることができ，かつ [gofmt] よりも若干かしこい。
+```text
+$ gometalinter --install --update
+Installing:
+  structcheck
+  interfacer
+  goconst
+  golint
+  goimports
+  dupl
+  errcheck
+  aligncheck
+  gocyclo
+  ineffassign
+  unconvert
+  gotype
+  varcheck
+  deadcode
+  lll
+```
+
+[gorename] は関数や変数の名前を変更したい時に使うツールで，文法を解釈してくれるため副作用が少ないのが特徴。
 [gocode] は入力補完ツール。
 [godef] は指定したシンボルの定義定義元情報を出力するツール（出力を使って定義元へジャンプできる。実際には [oracle] と併用するらしい）。
 いずれも vim や emacs などでは有名だが [ATOM] でも使える。
@@ -58,43 +78,55 @@ C:> go get -v github.com/rogpeppe/godef
 
 - [ATOM Editor に関するメモ]({{< relref "remark/2015/atom-editor.md" >}})
 
-[go-plus] には設定項目がいくつかあるが，ほとんど既定値のままで使える。
-コマンドパレットから `golang` をキーワードに検索すると山程機能があるのが分かるだろう。
+最近の [go-plus] は複数のサブ・パッケージで構成されているらしい。
+[go-plus] を導入すると以下のサブ・パッケージも自動的に導入される。
 
-{{< fig-img flickr="true" src="https://farm6.staticflickr.com/5794/22710708563_3d4aca2709.jpg" title="menu of go-plus (ATOM)" link="https://www.flickr.com/photos/spiegel/22710708563/" >}}
+- [autocomplete-go](https://atom.io/packages/autocomplete-go) : [gocode] を使って入力補完
+- [go-config](https://atom.io/packages/go-config) : [Go 言語]用ツール等のチェック
+- [go-get](https://atom.io/packages/go-get) : [Go 言語]用ツールを取得する
+- [gofmt](https://atom.io/packages/gofmt) : [gofmt] または [goimport] を使用したフォーマッタ[^gf]
+- [gometalinter-linter](https://atom.io/packages/gometalinter-linter) : [gometalinter] を使った lint
+- [gorename](https://atom.io/packages/gorename) : [gorename] を使ってリネーム
+- [navigator-godef](https://atom.io/packages/navigator-godef) : [godef] を使って定義元へジャンプ
+- [tester-go](https://atom.io/packages/tester-go) : テストの実行
 
-既定ではソースファイルを保存する度にコード整形や lint 等が走る。
-これを制御したい場合はパッケージの Setting で以下の項目を調整すればよい。
+[^gf]: [goimport] はコード整形ツールで，標準の [gofmt] を置き換えることができ，かつ [gofmt] よりも若干かしこい。 [gometalinter] からインストールされる。
 
-{{< fig-img flickr="true" src="https://farm1.staticflickr.com/735/22767398347_ed9329653a.jpg" title="settings for go-plus (ATOM)" link="https://www.flickr.com/photos/spiegel/22767398347/" >}}
+コマンドパレットから呼び出されるコマンドもかなり整理されているようだ。
 
-定義ファイルへのジャンプと復帰は `alt-cmd-g` および `alt-shift-cmd-G` にバインドされているが Windows 環境では動かないので（コマンドパレットから起動してもいいのだが）適当なキーに再割当てするといいだろう。
+{{< fig-img flickr="true" src="https://farm6.staticflickr.com/5794/22710708563_f49bdbb61c.jpg" title="menu for go-plus (ATOM)" link="https://www.flickr.com/photos/spiegel/22710708563/" >}}
+
+[go-plus] ではサブ・パッケージごとに設定項目がいくつかあるが，ほとんど既定値のままで使える。
+たとえば [gofmt](https://atom.io/packages/gofmt) サブ・パッケージの設定画面は以下のようになっている。
+
+{{< fig-img flickr="true" src="https://farm1.staticflickr.com/735/22767398347_86d14e29f9.jpg" title="settings for gofmt@go-plus (ATOM)" link="https://www.flickr.com/photos/spiegel/22767398347/" >}}
+
+定義元へのジャンプと復帰は `alt-cmd-g` および `alt-shift-cmd-G` にバインドされているが Windows 環境では動かないので（コマンドパレットから起動してもいいのだが）適当なキーに再割当てするといいだろう。
 ファンクションキーは結構空いてるので，たとえば
 
 | Keystroke   | Command               | Selector |
 |:------------|:----------------------|:---------|
-| `f12`       | `golang:godef`        | `atom-text-editor[data-grammar="source go"]:not(.mini)` |
-| `shift-f12` | `golang:godef-return` | `atom-text-editor[data-grammar="source go"]:not(.mini)` |
+| `f12`       | `golang:godef`        | `atom-text-editor[data-grammar~="go"]:not([mini])` |
+| `shift-f12` | `golang:godef-return` | `atom-text-editor[data-grammar~="go"]:not([mini])` |
 
 とアサインするなら `%USERPROFILE%\.atom\keymap.cson` に
 
 ```cson
-'atom-text-editor[data-grammar="source go"]:not(.mini)':
+'atom-text-editor[data-grammar~="go"]:not([mini])':
   'f12': 'golang:godef'
   'shift-f12': 'golang:godef-return'
 ```
 
 と設定すればいい。
 
-lint や定義ファイルのジャンプは `GOPATH` や `GOROOT` を見て外部パッケージを判断しているのだが， [gb] のようなツールでは `GOPATH` をコマンド内部で書き換えて実行するので lint ツールとは整合性が取れなくなる。
+lint や定義元のジャンプは `GOPATH` や `GOROOT` を見て外部パッケージを判断しているのだが， [gb] のようなツールでは `GOPATH` をコマンド内部で書き換えて実行するので lint ツールとは整合性が取れなくなる。
 [go-plus] の設定では `GOPATH` を上書きすることも可能なので，とりあえずこれで回避する方法もある[^a]。
 
 [^a]: `GOPATH` を [go-plus] の設定で上書きする場合は “Environment Overrides Config” を**無効にする**こと。なんでかこれ，毎回ハマるんだよなぁ。
 
-{{< fig-img flickr="true" src="https://farm6.staticflickr.com/5821/23233956325_0ddf55e61a.jpg" title="settings for go-plus (ATOM)" link="https://www.flickr.com/photos/spiegel/23233956325/" >}}
+{{< fig-img src="https://farm6.staticflickr.com/5821/23233956325_0d13c7379f.jpg" title="settings for go-plus (ATOM)" link="https://www.flickr.com/photos/spiegel/23233956325/" >}}
 
-[gb] への対応は “Planned Features” に挙がってるので，将来的には小細工しなくても [gb] ベースの開発ができるようになるかもしれない。
-てか，なってほしい。
+（[go-plus] 4.0.1 および [gometalinter-linter](https://atom.io/packages/gometalinter-linter) 1.0.2 で上記の設定が効いてない模様。コマンドプロンプトななどで環境変数 `GOPATH` を上書き設定してからプロジェクト・フォルダ上で `atom.com .` と起動すれば上手くいくようだ）
 
 ## language-go パッケージは同梱済み
 
@@ -128,16 +160,11 @@ if err != nil {
 
 となる。
 
-## go-find-references パッケージが惜しい
-
-[go-find-references] パッケージは [redefiance/go-find-references](https://github.com/redefiance/go-find-references) を使って指定したシンボルを参照しているファイルを列挙してくれる便利ツールだが， Windows 環境ではタグジャンプが上手く動かない。
-どうやら `C:` などのドライブレターを上手く処理できないようだ。
-とほほ。
-
 ## ブックマーク{#bookmark}
 
 - [struct にアノテーションつけてたら go vet . すべき - Qiita](http://qiita.com/amanoiverse/items/fcd25db64f341ad2471f)
 - [これからGo言語を書く人への三種の神器 - Qiita](http://qiita.com/osamingo/items/d5ec42fb8587d857310a) : `go vet`, `goimports`, `golint` で正しいコードを書きましょう。
+- [Big Sky :: golang のリファクタリングには gofmt ではなく、gorename を使おう。](http://mattn.kaoriya.net/software/lang/go/20150113141338.htm)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
@@ -145,8 +172,10 @@ if err != nil {
 [ATOM]: https://atom.io/ "Atom"
 [golint]: https://github.com/golang/lint "golang/lint"
 [vet]: https://golang.org/cmd/vet/ "vet - The Go Programming Language"
+[gometalinter]: https://github.com/alecthomas/gometalinter "alecthomas/gometalinter: Concurrently run Go lint tools and normalise their output"
 [goimport]: https://godoc.org/golang.org/x/tools/cmd/goimports "goimports - GoDoc"
 [gofmt]: https://golang.org/cmd/gofmt/ "gofmt - The Go Programming Language"
+[gorename]: https://godoc.org/golang.org/x/tools/cmd/gorename "gorename - GoDoc"
 [gocode]: https://github.com/nsf/gocode "nsf/gocode"
 [godef]: https://github.com/rogpeppe/godef "rogpeppe/godef"
 [oracle]: https://godoc.org/golang.org/x/tools/cmd/oracle "oracle - GoDoc"
