@@ -1,6 +1,6 @@
 +++
 date = "2015-11-21T14:19:02+09:00"
-update = "2016-03-18T21:05:37+09:00"
+update = "2016-03-18T23:09:26+09:00"
 description = "ATOM Editor で Go 言語のコーディング環境を整える。 go-plus パッケージの導入について。"
 draft = false
 tags = ["golang", "engineering", "tools", "atom", "editor"]
@@ -31,7 +31,6 @@ title = "ATOM で Go"
 まずは [Go 言語]用の支援ツールを導入する（更新時には `-u` オプションを付ける）。
 
 ```text
-$ go get -v golang.org/x/tools/cmd/vet
 $ go get -v github.com/alecthomas/gometalinter
 $ go get -v golang.org/x/tools/cmd/gorename
 $ go get -v github.com/nsf/gocode
@@ -39,7 +38,6 @@ $ go get -v github.com/rogpeppe/godef
 $ go get -v golang.org/x/tools/cmd/oracle
 ```
 
-[vet] はコードの静的検査ツール。
 [gometalinter] は所謂 lint ツールなのだが，単独で動作するのではなく，巷にいくつかある lint ツールを統合的に管理することができる。
 以下のコマンドで [gometalinter] が使用する lint ツールをまとめてインストールする。
 
@@ -165,6 +163,7 @@ if err != nil {
 - [struct にアノテーションつけてたら go vet . すべき - Qiita](http://qiita.com/amanoiverse/items/fcd25db64f341ad2471f)
 - [これからGo言語を書く人への三種の神器 - Qiita](http://qiita.com/osamingo/items/d5ec42fb8587d857310a) : `go vet`, `goimports`, `golint` で正しいコードを書きましょう。
 - [Big Sky :: golang のリファクタリングには gofmt ではなく、gorename を使おう。](http://mattn.kaoriya.net/software/lang/go/20150113141338.htm)
+- [gometalinter で楽々 lint - Qiita](http://qiita.com/spiegel-im-spiegel/items/238f6f0ee27bdf1de2a0)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
