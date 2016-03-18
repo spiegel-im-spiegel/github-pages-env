@@ -1,7 +1,6 @@
 # 「ズンドコキヨシ」と擬似乱数
 
-最近はやりものらしい「ズンドコキヨシ[^zk]」を [Go 言語]で実装することを考える。
-既に Qiita でも様々な実装があるが，今回は素朴に
+最近はやりものらしい「ズンドコキヨシ[^zk]」を [Go 言語]で実装することを考える。既に Qiita でも様々な実装があるが，今回は素朴に
 
 [^zk]: 「ズンドコキヨシ」「キヨシチェック」「ズンドコチェック」などと呼ばれているらしいが，今回は「ズンドコキヨシ」で統一する。
 
@@ -50,8 +49,7 @@ func main() {
 }
 ```
 
-としてみた。
-実行例は以下のとおり。
+としてみた。実行例は以下のとおり。
 
 ```
 $ go run zundoko.go
@@ -70,25 +68,23 @@ $ go run zundoko.go
 
 - [[Announce] A rand package for high quality 64bit random numbers (possibly go2) - Google グループ](https://groups.google.com/forum/#!topic/golang-nuts/RZ1G3_cxMcM)
 
-線形合同法は実装レベルで優劣が分かれる実装なのだが，そもそも線形合同法の問題はある乱数がその前の乱数の影響を強く受けてしまう点にある。
-今回の「ズンドコキヨシ」に引き寄せて言うなら，「ズン」が4回続いた後に「ドコ」が来る確率が 1/2 にならないのである[^ra]。
+線形合同法は実装レベルで優劣が分かれる実装なのだが，そもそも線形合同法の問題はある乱数がその前の乱数の影響を強く受けてしまう点にある。今回の「ズンドコキヨシ」に引き寄せて言うなら，「ズン」が4回続いた後に「ドコ」が来る確率が 1/2 にならないのである[^ra]。
 
 [^ra]: 線形合同法には本当にいろいろな実装があり，古い UNIX 処理系では生成した乱数の最下位ビットが 1 と 0 交互に出現するらしい。この場合，永遠に「ズンドコキヨシ」が終わらないことになる。線形合同法の改良版（[`math/rand`] もそのひとつ）では過去に指摘された問題は緩和される傾向にあるがアルゴリズム上の欠陥はどうしようもない。
 
 ## メルセンヌ・ツイスタ（Mersenne Twister）
 
-線形合同法の欠点を克服すべく様々な擬似乱数アルゴリズムが考えだされた。
-そうしたアルゴリズムのひとつでかなり性能が良いと言われているアルゴリズムのひとつが松本眞，西村拓士両氏によって発表されたメルセンヌ・ツイスタ（Mersenne Twister; MT）である[^mt]。
+線形合同法の欠点を克服すべく様々な擬似乱数アルゴリズムが考えだされた。そうしたアルゴリズムでかなり性能が良いと言われているアルゴリズムのひとつが松本眞，西村拓士両氏によって発表されたメルセンヌ・ツイスタ（Mersenne Twister; MT）である[^mt]。
 
 [^mt]: 現在は改良版である [SIMD-oriented Fast Mersenne Twister (SFMT)](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/SFMT/index-jp.html) が公開されている。またソースコードが BSD ライセンスで提供されている。
 
 - [Mersenne Twister: A random number generator (since 1997/10)](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/mt.html)
 
-[Go 言語]では標準パッケージはメルセンヌ・ツイスタをサポートしていないが， [`seehuhn/mt19937`] パッケージでメルセンヌ・ツイスタが使える[^sm]。
+[Go 言語]の標準パッケージはメルセンヌ・ツイスタをサポートしていないが， [`seehuhn/mt19937`] パッケージでメルセンヌ・ツイスタが使える[^sm]。
 
 [^sm]: メルセンヌ・ツイスタのオリジナルコードは BSD または MIT のデュアル・ライセンスで提供されているが， [`seehuhn/mt19937`] パッケージのライセンスは GPLv3 なので取り扱いに注意が必要である。
 
-実は [`math/rand`] パッケージは以下の [interface] を持つ擬似乱数生成パッケージを使うことができる。
+実は [`math/rand`] パッケージは以下の [interface] を持つ任意の擬似乱数生成パッケージを使うことができる。
 
 ```go
 // A Source represents a source of uniformly-distributed
@@ -127,12 +123,9 @@ func generate() chan string {
 
 ## もうひとつの rand パッケージ
 
-線形合同法にしろメルセンヌ・ツイスタにしろエントロピー源として与えられる seed が単なる数値であるため，同じ値を seed に与えれば同じ値になってしまう。
-暗号用に乱数を生成するためにはエントロピー源の与え方を工夫する必要がある。
-また得られた乱数をそのまま使うのもよくないと言われている。
+線形合同法にしろメルセンヌ・ツイスタにしろエントロピー源として与えられる seed が同じなら同じ値になってしまう。暗号用に乱数を生成するためにはエントロピー源の与え方を工夫する必要がある。また得られた乱数をそのまま使うのもよくないと言われている。
 
-[Go 言語]では暗号用に [`crypto/math`] パッケージを用意している。
-[`crypto/math`] パッケージは [`math/rand`] パッケージとは互換性がない[^cr]。
+[Go 言語]では暗号用に [`crypto/math`] パッケージを用意している。 [`crypto/math`] パッケージは [`math/rand`] パッケージとは互換性がない[^cr]。
 
 [^cr]: [`crypto/math`] は乱数生成用のエントロピー源にハードウェア・デバイスを使用する。 UNIX 系のプラットフォームでは `/dev/urandom` を参照する。 Windows プラットフォームでは [`CryptGenRandom`](https://msdn.microsoft.com/ja-jp/library/windows/desktop/aa379942(v=vs.85).aspx "CryptGenRandom function (Windows)") を使うようだが，この API の内部実装は公開されていない。やれやれ。
 
@@ -150,3 +143,5 @@ func generate() chan string {
 [`crypto/math`]: https://golang.org/pkg/crypto/rand/ "rand - The Go Programming Language"
 [`seehuhn/mt19937`]: https://github.com/seehuhn/mt19937 "seehuhn/mt19937: An implementation of Takuji Nishimura's and Makoto Matsumoto's Mersenne Twister pseudo random number generator in Go."
 [interface]: https://golang.org/doc/effective_go.html#interfaces_and_types "Effective Go - The Go Programming Language"
+
+## 脚注
