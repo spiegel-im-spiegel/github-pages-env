@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-03-15T12:30:28+09:00"
+update = "2016-03-19T15:36:44+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -71,8 +71,6 @@ title = "Go 言語に関するブックマーク"
 
 ### 文字列操作または変換
 
-[string](http://golang.org/ref/spec#String_types), [rune](http://blog.golang.org/strings)
-
 - [Strings, bytes, runes and characters in Go - The Go Blog](http://blog.golang.org/strings)
 - [Go言語のstring, runeの正体とは？ - golang - The Round](http://knightso.hateblo.jp/entry/2014/06/24/090719)
 - [Go言語は空文字に対してstrings.splitを掛けると1要素の配列を返す - Qiita](http://qiita.com/Sheile/items/ba51ac9091e09927b95c) : コメントに別解あり
@@ -87,18 +85,20 @@ title = "Go 言語に関するブックマーク"
 - [Go言語 Gmailのsubjectの日本語文字化けに対応する - Qiita](http://qiita.com/yyoshiki41/items/79882e269ca6af4c2236)
 - [Text normalization in Go - The Go Blog](https://blog.golang.org/normalization) : Unicode 正規化について
 
+[本家ブログ]でも以下の記事で解説している。
+
+- [String と Rune](http://text.baldanders.info/golang/string-and-rune/)
+- [文字列連結はどれが速い？](http://text.baldanders.info/golang/join-strings/)
+- [Go 言語と Unicode 正規化](http://text.baldanders.info/golang/unicode-normalization/)
+
 ### 配列
 
-[slice](http://golang.org/ref/spec#Slice_types), [map](http://golang.org/ref/spec#Map_types), [make](http://golang.org/ref/spec#Making_slices_maps_and_channels)
+[slice](http://golang.org/ref/spec#Slice_types), [map](http://golang.org/ref/spec#Map_types), および後述の [channel](http://golang.org/ref/spec#Channel_types) は組み込みの型だが内部構造と状態を持つため， [new](http://golang.org/ref/spec#Allocation) ではなく [make](http://golang.org/ref/spec#Making_slices_maps_and_channels) を使う。
 
 - [Go のスライスでハマッたところ - Block Rockin’ Codes](http://jxck.hatenablog.com/entry/golang-slice-internals2)
 - [golang - go言語のslice操作をまとめてみた（shiftしたりpushしたり） - Qiita](http://qiita.com/egnr-in-6matroom/items/282aa2fd117aab9469bd)
 
-[slice](http://golang.org/ref/spec#Slice_types), [map](http://golang.org/ref/spec#Map_types), および後述の [channel](http://golang.org/ref/spec#Channel_types) は組み込みの型だが内部構造と状態を持つため， [new](http://golang.org/ref/spec#Allocation) ではなく [make](http://golang.org/ref/spec#Making_slices_maps_and_channels) を使う。
-
 ### 並行処理と並列処理
-
-[goroutine](http://golang.org/ref/spec#Go_statements), [channel](http://golang.org/ref/spec#Channel_types)
 
 - [Go の並行処理 - Block Rockin’ Codes](http://jxck.hatenablog.com/entry/20130414/1365960707)
 - [Go: 計算なしのFizzBuzz - Qiita](http://qiita.com/suin/items/eca21ed935115e5da2e8) : channel の説明するのにいいかも
@@ -115,6 +115,7 @@ title = "Go 言語に関するブックマーク"
 - [GAE/Goでもgoroutine使おうぜ！というハナシ - Qiita](http://qiita.com/hogedigo/items/f0f409ee944c4b2107c3) : GAE/Go の API には非同期版がないので積極的に goroutine 使おうよ，という話
 - [複数のgroutineが生えてるStructの安全な終了方法 - Qiita](http://qiita.com/shunsukeaihara/items/f9ef7c8d430f63d79d40)
 - [Go言語の並行性を映像化する | プログラミング | POSTD](http://postd.cc/go_concurrency_visualize/)
+- [Go言語でプロセス間同期処理 - Qiita](http://qiita.com/shanxia1218/items/7fb15f50ec645f114bc7) : Windows の Mutex を使ってプロセス間通信を行う
 
 Go 言語で複数 CPU を使った並列処理を行うには明示的な設定が必要。
 
@@ -122,16 +123,15 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
     - [やはり俺のgolangがCPUを一つしか使わないのはまちがっている。 - Qiita](http://qiita.com/ymko/items/554e3630fefdc29393a8)
 - [Goでお手軽に行列の積を爆速並列計算 - Qiita](http://qiita.com/hama_du/items/fce4ee1e4b5c2c2d24df)
 
-#### プロセス間同期
-
 ### Struct タグについて
 
-- [Go言語でプロセス間同期処理 - Qiita](http://qiita.com/shanxia1218/items/7fb15f50ec645f114bc7) : Windows の Mutex を使ってプロセス間通信を行う
-
+- [Goのencoding/jsonでタグが反映されなくてハマったしょうもない話 - Qiita](http://qiita.com/modal_soul/items/83b0930d90d44e006768)
 - [Go で struct のタグ情報を取得する - hiyosi's blog](http://hiyosi.tumblr.com/post/100922038678/go-%E3%81%A7-struct-%E3%81%AE%E3%82%BF%E3%82%B0%E6%83%85%E5%A0%B1%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B)
 - [Goのjson.Marshal/Unmarshalの仕様を整理してみる - I Will Survive](http://blog.restartr.com/2014/08/13/golang-json-marshal-unmarshal/)
 - [GoでJsonファイルを読み込んで構造体として扱う。 - Qiita](http://qiita.com/niiyz/items/3f522c0e5a32de916ec6)
 - [BurntSushi/tomlを使ってハマったこと - Qiita](http://qiita.com/reiki4040/items/6556d4eba797329e9f51) : [BurntSushi/toml](https://github.com/BurntSushi/toml) にバグがあるという話
+
+[本家ブログ]記事「[Struct タグについて](http://text.baldanders.info/golang/struct-tag/)」でも解説している。
 
 ### エラーハンドリング
 
@@ -139,17 +139,12 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Big Sky :: golang で複数のエラーをハンドリングする方法](http://mattn.kaoriya.net/software/lang/go/20140416212413.htm)
 - [DSAS開発者の部屋:Go ではエラーを文字列比較する？という話について](http://dsas.blog.klab.org/archives/go-errors.html) : エラーハンドリングには，定数との比較， conversion 構文による型の比較，エラー文字列の比較がある
 - [panicはともかくrecoverに使いどころはほとんどない - Qiita](http://qiita.com/ruiu/items/ff98ded599d97cf6646e)
-- [go で AggregationException(.NET)的なことをする - Qiita](http://qiita.com/kyoh86/items/6cadd79de08cc597b65a) : ループ等でエラーを集約してからまとめて処理する方法。これって error インタフェースを使うべきなのかな？
+- [go で AggregationException(.NET)的なことをする - Qiita](http://qiita.com/kyoh86/items/6cadd79de08cc597b65a) : ループ等でエラーを集約してからまとめて処理する方法
 
-### ビルド時に情報を各種埋め込みたい
+[本家ブログ]でも以下の記事で解説している。
 
-- [Go言語: ビルド時にバージョン情報を埋め込みたい - Qiita](http://qiita.com/suin/items/d643a0ccb6270e8e3734)
-- [Golangビルド時に、サブパッケージ内の変数をいじる - None is None is None](http://doloopwhile.hatenablog.com/entry/2014/09/08/211626)
-- [Goでビルドバージョン情報を参照できるようにする(Go1.5) - Qiita](http://qiita.com/reiki4040/items/6b32370532c3eafe1f0e)
-- [go-bindata でコンパイル時にリソースを埋め込んじゃおう！ - Qiita](http://qiita.com/ikawaha/items/c02d84cfd00f8f442500)
-- [ソースを実行ファイルに埋め込む方法 - Qiita](http://qiita.com/ymko/items/c2e3c8fe25bce425136d)
-- [Golangで静的ファイルをバイナリに含めるライブラリを書いてみた - Qiita](http://qiita.com/konohazuku/items/131b251a5fa29213ac5e)
-- [GolangのGin/bindataでシングルバイナリを試してみた(+React) - Qiita](http://qiita.com/wadahiro/items/4173788d54f028936723)
+- [エラー・ハンドリングについて](http://text.baldanders.info/golang/)
+- [スタック追跡とパニック・ハンドリング](http://text.baldanders.info/golang/)
 
 ## 開発ツールおよびパッケージ
 
@@ -175,9 +170,9 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [GAE/GoとGojiの組み合わせでテストを書く - Qiita](http://qiita.com/yosukesuzuki/items/c9e5c19df97d2ad5595a)
 - [`go test -count n -timeout t` - Qiita](http://qiita.com/AkihiroSuda/items/0fd83df29182d4f5cdef)
 
-### Go 言語のドキュメント・フレームワーク
+[本家ブログ]記事「[Go 言語のテスト・フレームワーク](http://text.baldanders.info/golang/)」でも解説している。
 
-[godoc]
+### Go 言語のドキュメント・フレームワーク
 
 - [Go で godoc を使えるようにする〜godoc のインストール〜 - Qiita](http://qiita.com/megu_ma/items/2066aef2f8c7f0ce2cc3)
 - [Go言語のコードレビュー | SOTA](http://deeeet.com/writing/2014/05/26/go-code-review/)
@@ -186,16 +181,16 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [GoのExampleテストが便利 : swdyh](http://swdyh.tumblr.com/post/55771477125/go-example)
 - [godoc.org への掲載方法を調べた - taknb2nchのメモ](http://d.hatena.ne.jp/taknb2nch/20140225/1393302743)
 
-[godoc]: http://godoc.org/golang.org/x/tools/cmd/godoc "godoc - GoDoc"
+[本家ブログ]記事「[Go 言語のドキュメント・フレームワーク](http://text.baldanders.info/golang/document/)」でも解説している。
 
 ### Refactoring
 
-リファクタリングには gofmt よりも gorename が使えるという話。
-
-- [Big Sky :: golang のリファクタリングには gofmt ではなく、gorename を使おう。](http://mattn.kaoriya.net/software/lang/go/20150113141338.htm)
+- [ジェネレートしたコードを gofmt / goimports する - Qiita](http://qiita.com/minodisk/items/d96a0673223f36315ce7)
+- [Big Sky :: golang のリファクタリングには gofmt ではなく、gorename を使おう。](http://mattn.kaoriya.net/software/lang/go/20150113141338.htm) : リファクタリングには gofmt よりも gorename が使えるという話
 - [struct にアノテーションつけてたら go vet . すべき - Qiita](http://qiita.com/amanoiverse/items/fcd25db64f341ad2471f)
 - [これからGo言語を書く人への三種の神器 - Qiita](http://qiita.com/osamingo/items/d5ec42fb8587d857310a) : `go vet`, `goimports`, `golint` で正しいコードを書きましょう。
 - [golintと闘いたいけど心の折れてしまった勇者のための隠しダンジョン - Qiita](http://qiita.com/kyoh86/items/1f2022b63372b84f1a27)
+- [gometalinter で楽々 lint - Qiita](http://qiita.com/spiegel-im-spiegel/items/238f6f0ee27bdf1de2a0) : 各種 lint を統合的に扱える
 
 ### クロス環境
 
@@ -214,15 +209,33 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [CI-as-a-ServiceでGo言語プロジェクトの最新ビルドを継続的に提供する | SOTA](http://deeeet.com/writing/2014/10/16/golang-in-ci-as-a-service/)
 - [RaspberryPi1(2とzeroも)で動かすgolang製アプリをクロスコンパイル(onMac) - Qiita](http://qiita.com/m0a/items/d933982293dcadd4998c)
 
-### C 言語との連携
+[本家ブログ]記事「[Travis CI でクロス・コンパイル](http://text.baldanders.info/golang/)」でも解説している。
 
-[cgo]
+### C 言語との連携
 
 - [cgoでGoのコードからCの関数を利用する - 1000ch.net](https://1000ch.net/posts/2014/c-in-golang-with-cgo.html)
 - [cgoでGolangとC++ライブラリをリンクするとき、何が起きているのか - beatsync.net](https://beatsync.net/main/log20141022.html)
 - [GO 1.5 と C++ を SWIG でブリッジさせる方法 - Qiita](http://qiita.com/Satachito/items/5a0d7dd228d3272e0780)
 
-[cgo]: https://golang.org/cmd/cgo/ "cgo - The Go Programming Language"
+### Logging
+
+- [Golang logging library - Qiita](http://qiita.com/kosuda/items/988c505c2abc5321aba8)
+- [go言語におけるロギングについて](http://blog.satotaichi.info/logging-frameworks-for-go/)
+- [Golangで簡単にログを吐くことを考える - Qiita](http://qiita.com/Ets/items/49e8f781990a3b0b3821) : [seelog](https://github.com/cihub/seelog) について解説している。私は XML には全くアレルギーがないので無問題
+- [Go言語でdebugログの実現方法 - Qiita](http://qiita.com/sbjib/items/2cef51e572eef0795bc2)
+- [loggingについて話そう - Qiita](http://qiita.com/methane/items/cedbf546ae2db8a63c3d)
+- [golangでlogを標準出力とテキストファイルの2箇所の出力する - Qiita](http://qiita.com/74th/items/441ffcab80a6a28f7ee3)
+- [gorpで実行されるSQLをログに出力する - Qiita](http://qiita.com/reiki4040/items/303a0bfa9f0296eb544f)
+
+### ビルド時に情報を各種埋め込みたい
+
+- [Go言語: ビルド時にバージョン情報を埋め込みたい - Qiita](http://qiita.com/suin/items/d643a0ccb6270e8e3734)
+- [Golangビルド時に、サブパッケージ内の変数をいじる - None is None is None](http://doloopwhile.hatenablog.com/entry/2014/09/08/211626)
+- [Goでビルドバージョン情報を参照できるようにする(Go1.5) - Qiita](http://qiita.com/reiki4040/items/6b32370532c3eafe1f0e)
+- [go-bindata でコンパイル時にリソースを埋め込んじゃおう！ - Qiita](http://qiita.com/ikawaha/items/c02d84cfd00f8f442500)
+- [ソースを実行ファイルに埋め込む方法 - Qiita](http://qiita.com/ymko/items/c2e3c8fe25bce425136d)
+- [Golangで静的ファイルをバイナリに含めるライブラリを書いてみた - Qiita](http://qiita.com/konohazuku/items/131b251a5fa29213ac5e)
+- [GolangのGin/bindataでシングルバイナリを試してみた(+React) - Qiita](http://qiita.com/wadahiro/items/4173788d54f028936723)
 
 ## Integrated Development Environment
 
@@ -236,6 +249,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 
 - [AtomでGoを書く環境を整える（Windows） - Technically, technophobic.](http://notchained.hatenablog.com/entry/2014/09/20/104829)
 - [AtomでのGo言語開発環境セットアップ - Qiita](http://qiita.com/MakoTano/items/3d807a96c3933ac8aa13)
+
+[本家ブログ]記事「[ATOM で Go](http://text.baldanders.info/golang/golang-with-atom/)」でも解説している。
 
 ### Visual Studio Code で Go
 
@@ -289,14 +304,12 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [goでLチカの練習　その２ - Qiita](http://qiita.com/ohisama@github/items/bfc1eb6407cbdfebbd18)
 - [Revel templatesを使ったサンプルアプリケーション - Qiita](http://qiita.com/rubytomato@github/items/638299aabb7922cbef59)
 - [goでwindowsでwindow - Qiita](http://qiita.com/ohisama@github/items/20bc61175ce4a33b7365)
-- [Go言語でパッケージを作成して世界に公開する方法 at ミネルヴァの梟は黄昏とともに飛び始める（山下 大介 公式ブログ）](http://blog.daisukeyamashita.com/post/1209.html) : パッケージの作り方なんだけど、情報が古すぎた orz
+- [Go言語でパッケージを作成して世界に公開する方法 at ミネルヴァの梟は黄昏とともに飛び始める（山下 大介 公式ブログ）](http://blog.daisukeyamashita.com/post/1209.html) : パッケージの作り方なんだけど情報が古い。「昔はこうだった」くらいの感じで
 - [goでwindowsでキースキャン - Qiita](http://qiita.com/ohisama@github/items/9f05679f25cfc9c3ecfc)
-- [Goのencoding/jsonでタグが反映されなくてハマったしょうもない話 - Qiita](http://qiita.com/modal_soul/items/83b0930d90d44e006768)
 - [gocron でジョブスケジューリング - Qiita](http://qiita.com/mitsuse/items/8669bf54d2310b3e68a1) : [gcarlescere/scheduler](https://github.com/carlescere/scheduler) のほうがおすすめらしいw
 - [Google ChromeのテキストエリアをEmacsで編集する'Edit with Emacs'から任意のエディタを起動するデーモンをGo 1.4 for Windowsで書いてみたわけだが、エディタがブラウザの後ろに出てしまってダメかもしれない - Qiita](http://qiita.com/zetamatta/items/51b0f45496e5143e2e63)
 - [golangでprivateなエイリアスのポインタを元の型に戻す - Qiita](http://qiita.com/shibukawa/items/9db22c9684cc0586b737)
 - [Go の expvar パッケージを使ってアプリケーションのメトリクスを公開する - Qiita](http://qiita.com/methane/items/8f56f663d6da4dee9f64)
-- [ジェネレートしたコードを gofmt / goimports する - Qiita](http://qiita.com/minodisk/items/d96a0673223f36315ce7)
 - [Go言語: ファイルの存在をちゃんとチェックする実装? - Qiita](http://qiita.com/suin/items/b9c0f92851454dc6d461)
 - [Golangで、ファイル一覧取得（最新順出力） - Qiita](http://qiita.com/shinofara/items/e5e78e6864a60dc851a6)
 - [Go小ネタ: 正規表現を全角半角問わずマッチするよう変換する - Qiita](http://qiita.com/tutuming/items/d8aaaf5442d84a7961e1)
@@ -306,7 +319,6 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [cmd.Envを設定してexecしたらコケた - Qiita](http://qiita.com/8845musign/items/5c4b32f82c2df08acd93) : [`exec`](https://golang.org/pkg/os/exec/) パッケージを使う際には環境変数に注意
 - [golangで数独を解いた - Qiita](http://qiita.com/ciruzzo/items/144bc1874947441f9fb8)
 - [Go言語でBigQueryのクエリを実行してみる - Qiita](http://qiita.com/najeira/items/8310fecf4b70c918f855)
-- [sliceのシャッフル - Qiita](http://qiita.com/sugyan/items/fd7138a756c1a409f5fd) : [Fisher–Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle) というアルゴリズムらしい
 - [今後イケそうなデスクトップGUIフレームワーク - Qiita](http://qiita.com/hachi8833/items/463264f531474a856064) : [go-thrust](https://github.com/miketheprogrammer/go-thrust/) について言及
 - [1l0/sumeragi](https://github.com/1l0/sumeragi) : 皇紀や元号を出力するパッケージ
 - [RubyからGoの関数をつかう → はやい - Qiita](http://qiita.com/grj_achm/items/679b3f3af2cf377f0f02)
@@ -322,21 +334,17 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [GolangのOpenGL事情(WebGLも含むよ) - Qiita](http://qiita.com/shibukawa/items/58f6a421462b93dec471)
 - [goのmgoでfindするときの処理 - Qiita](http://qiita.com/enokidoK/items/a3aff4c05e494b004ef8)
 - [Go と reflect と generate - Qiita](http://qiita.com/naoina/items/7966f73f3a807b3d25d6)
-- [Go言語でバイトニックソート実装してみた - Qiita](http://qiita.com/nyamadandan/items/2c82011801b148c98e52)
 - [Windows+GoでNFC/Felicaにアクセスしてみた - Qiita](http://qiita.com/mau4x/items/424fe7964e70a3a99965)
 - [GoでShared Libraryをビルドしてみた(簡単ドキュメント指向DB) - Qiita](http://qiita.com/umisama/items/48ba74a58f1e6530e305)
 - [GAE/GoでCMSつくった - Qiita](http://qiita.com/hogedigo/items/342217982f267ccd234d)
 - [Goで3Dモデル変換してプレビュー - Qiita](http://qiita.com/tetuyoko/items/746599e36ca4985d9e1a)
 - [Go最後の秘宝「GUI」を探しに行く - Qiita](http://qiita.com/shibukawa/items/cd8d122dfeb41e1608d1)
 - [Go + QML + QChart.js で素敵なチャートを表示する - Qiita](http://qiita.com/miyabishi/items/09a55b10953c9dbe7ee3)
-- [gorpで実行されるSQLをログに出力する - Qiita](http://qiita.com/reiki4040/items/303a0bfa9f0296eb544f)
 - [golang で AB x CD / E - F * G * H = 2016 になる全パターン洗い出し - Qiita](http://qiita.com/amanoiverse/items/06fff7b224d77517c08f)
 - [Go で 0 から始まる連続する n 個の整数を重複無く k 個選んだ時の組み合わせの列挙 - Qiita](http://qiita.com/yumura_s/items/68760d6b902aee9c78f0)
-- [Goでバケットソートアルゴリズム(ビット列を使用) - Qiita](http://qiita.com/ohkawa/items/269507985b3ae10cbff9)
 - [Goで帳票をPDFに作成するライブラリ。 請求書などの複雑なフォーマットにも対応 - Qiita](http://qiita.com/mikeshimura/items/d149bbd869683e820579)
 - [golangのtime.Timeの当日00:00:00を取得する方法とベンチマーク - Qiita](http://qiita.com/ushio_s/items/3e270933641710bbd88e)
 - [Go で簡単に Excelを作成するライブラリ。 色、罫線、網掛けを事前定義済 - Qiita](http://qiita.com/mikeshimura/items/b60823e923fb6d0840c0)
-- [interface{} をソートする - Qiita](http://qiita.com/tchssk/items/b61f1f06d22a6232d4c8)
 - [Gmail API for Goで、下書き生成ツールを作りました。 - Qiita](http://qiita.com/yyoshiki41/items/1159e1a70ffaa8fd84ed)
 - [Goで関数型プログラミング - Qiita](http://qiita.com/taksatou@github/items/d721a62158f554b8e399) : [reflect](https://golang.org/pkg/reflect/ "reflect - The Go Programming Language") パッケージを使って高階関数を表現できる
 - [GoでANSIエスケープコードを扱うライブラリを作った(色付け・カーソル移動等) - Qiita](http://qiita.com/morikuni/items/ad8d900f56ddeb223101)
@@ -351,9 +359,6 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 
 - [Go言語によるCLIツール開発とUNIX哲学について - ゆううきブログ](http://yuuki.hatenablog.com/entry/go-cli-unix)
 - [開発者から見た UNIX 哲学とコマンドラインツールと Go言語 - TELLME.TOKYO](http://tellme.tokyo/post/2015/06/23/unix_cli_tool_go/) （[Qiita 版](http://qiita.com/b4b4r07/items/df660d82e2de715acda5)）
-
-[flag](http://golang.org/pkg/flag/)
-
 - [コマンドライン引数 - Qiita](http://qiita.com/uokada/items/f0e069a751679dcf616d)
 - [Go言語のflagパッケージを使う - uragami note](http://ryochack.hatenablog.com/entry/2013/04/17/232753)
 - [Go を使ってコマンドラインツール wordc を作ってみた - Qiita](http://qiita.com/flaflasun/items/df5ebb057697da062a08) : [codegangsta/cli](https://github.com/codegangsta/cli) についての言及あり
@@ -367,27 +372,23 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 
 ### 入出力処理
 
-[io](http://golang.org/pkg/io/), [bufio](http://golang.org/pkg/bufio/)
-
 - [Go ファイルや標準入力から一行ずつ読み込む - Qiita](http://qiita.com/hnakamur/items/a53b701c8827fe4bfec7)
 - [Goでファイルを読んで別のgoroutineに渡す - Qiita](http://qiita.com/ono_matope/items/5c8cfce81933c5eb9fd0)
 - [「連結されたgzipを1行ずつ見る」をgolangでやったらハマった - Qiita](http://qiita.com/kroton/items/431e6dad9e5e4dbc44cf) : [compress/gzip](https://golang.org/pkg/compress/gzip/) と入出力処理の関係
 - [bufio.Scannerのend-of-line判断を変更してみる - Qiita](http://qiita.com/curious-eyes/items/2d4b6c20ea47e3efc47b)
 - [KOBE GDG: Go言語　バイナリファイルを扱う](http://kobegdg.blogspot.jp/2013/05/go.html) : 任意のオブジェクトをバイト列に変換してファイルに格納
 - [ファイル書き込みの度にファイルを開いたらどれくらい遅いのか - Qiita](http://qiita.com/catatsuy/items/41d3c49248b517b5af96)
+- [Golangで標準入力がパイプで渡されたものか判定する - Qiita](http://qiita.com/tanksuzuki/items/e712717675faf4efb07a)
 
-### Logging
+### ソートアルゴリズムいろいろ
 
-- [Golang logging library - Qiita](http://qiita.com/kosuda/items/988c505c2abc5321aba8)
-- [go言語におけるロギングについて](http://blog.satotaichi.info/logging-frameworks-for-go/)
-- [Golangで簡単にログを吐くことを考える - Qiita](http://qiita.com/Ets/items/49e8f781990a3b0b3821) : [seelog](https://github.com/cihub/seelog) について解説している。私は XML には全くアレルギーがないので無問題
-- [Go言語でdebugログの実現方法 - Qiita](http://qiita.com/sbjib/items/2cef51e572eef0795bc2)
-- [loggingについて話そう - Qiita](http://qiita.com/methane/items/cedbf546ae2db8a63c3d)
-- [golangでlogを標準出力とテキストファイルの2箇所の出力する - Qiita](http://qiita.com/74th/items/441ffcab80a6a28f7ee3)
+- [sliceのシャッフル - Qiita](http://qiita.com/sugyan/items/fd7138a756c1a409f5fd) : [Fisher–Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle) というアルゴリズムらしい
+- [Go言語でバイトニックソート実装してみた - Qiita](http://qiita.com/nyamadandan/items/2c82011801b148c98e52)
+- [Goでバケットソートアルゴリズム(ビット列を使用) - Qiita](http://qiita.com/ohkawa/items/269507985b3ae10cbff9)
+- [interface{} をソートする - Qiita](http://qiita.com/tchssk/items/b61f1f06d22a6232d4c8)
 
 ### Web Microframework for Golang
 
-- [Goji](https://goji.io/)
 - [Big Sky :: golang で最近お気に入りの WAF「Goji」](http://mattn.kaoriya.net/software/lang/go/20141021134209.htm)
 - [gojiのMiddlewareの使い方 - Qiita](http://qiita.com/reiki4040/items/a038f1b99e0caee97d3e)
 - [Gojiを使ってWebビーコン作る - Qiita](http://qiita.com/sys_cat/items/1b8581de1344cc5db6bb)
@@ -495,4 +496,6 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Golang の文字列連結はどちらが速い？](http://qiita.com/spiegel-im-spiegel/items/16ab7dabbd0749281227)
 - [そろそろ真面目に Golang 開発環境について考える — Internal Packages と Vendoring](http://qiita.com/spiegel-im-spiegel/items/baa3671c7e1b8a6594a9)
 
-[ブログでも不定期連載](http://text.baldanders.info/golang/)しています（最近はこっちがメイン）。
+[本家ブログ]でも不定期連載しています（最近はこっちがメイン）。
+
+[本家ブログ]: http://text.baldanders.info/golang/ "プログラミング言語 Go — text.Baldanders.info"

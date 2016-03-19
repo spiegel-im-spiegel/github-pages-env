@@ -1,6 +1,6 @@
 +++
 date = "2015-09-15T21:00:13+09:00"
-update = "2016-02-09T16:41:53+09:00"
+update = "2016-03-19T16:12:54+09:00"
 description = "ATOM Editor に関するメモ。 Windows 環境が前提になっているのであしからず。"
 draft = false
 tags = ["atom", "editor", "tools"]
@@ -37,15 +37,15 @@ Windows 環境が前提になっているのであしからず。
 
 ```
 C:>atom -v
-[7696:0915/112859:INFO:CONSOLE(0)] 1.0.11
 
+1.6.0
 
 C:>apm -v
-apm  1.0.4
+apm  1.6.0
 npm  2.13.3
 node 0.10.40
 python
-git 2.5.2.windows.2
+git 2.7.2.windows.1
 visual studio
 ```
 
@@ -82,7 +82,7 @@ visual studio
 
 取得したトークンを `apm login` コマンドで登録すれば OK。
 
-```
+```text
 C:>apm login
 Welcome to Atom!
 
@@ -98,7 +98,7 @@ Saving token to Keychain done
 
 Star を付けたテーマ・パッケージは `apm stars` コマンドで見ることができる。
 
-```bash
+```text
 C:>apm stars
 Packages starred by you (13)
 ├── atom-monokai Monokai syntax theme for Atom Dark & Light UI, One Dark & Light, and Seti UI (27359 downloads, 39 stars)
@@ -120,7 +120,7 @@ Use `apm stars --install` to install them all or visit http://atom.io/packages t
 
 さらに `--install` オプションを付ければ一気にインストールできる。
 
-```bash
+```text
 C:>apm stars --install
 Installing atom-monokai to C:\Users\username\.atom\packages done
 Installing autoclose-html to C:\Users\username\.atom\packages done
@@ -172,13 +172,22 @@ C:>apm config set strict-ssl false
 これは私個人の感覚だが，日本語の地の文章がゴシック体なのは辛い。
 いくら綺麗だからといって Meiryo フォントをエディタに使う気にはならない。
 ただし，コードに関しては視認性が一番重要。
-ということで，フォントの指定は以下で無問題[^a]。
+というわけで， “Font Family” の項目に以下を指定してみる。
 
 ```
-"Inconsolata", "MS Mincho"
+Inconsolata, "MS Mincho"
 ```
 
-[^a]: 日本語フォントの指定が MS 明朝なのは，どんな日本語 Windows 環境でも MS 明朝は必ず入ってるからという理由だけなので，自分の感覚で見易いフォントがあればそちらを使うべき。ちなみに IPA 明朝は線が細すぎて不向きだった。 [Inconsolata] は OpenType フォントを取ってきて「インストール」してしまえばよい。
+[Inconsolata] は Windows の標準環境では入ってないが，何かと便利なので OpenType フォントを取ってきて「インストール」してしまえばよい。
+「[游ゴシック 游明朝フォントパック](https://www.microsoft.com/ja-jp/download/details.aspx?id=49116 "Download 游ゴシック 游明朝フォントパック from Official Microsoft Download Center")」が使える場合にはこれを使う手もある。
+この場合は
+
+```
+Inconsolata, "Yu Mincho"
+```
+
+とすればよい。
+ちなみに IPA 明朝は線が細すぎて不向きだった（まぁ印刷用に特化したフォントだからね。 IPA は Web Font 用の IPA 明朝/ゴシックフォントを開発すべき）。
 
 Windows では Tree View のフォントが汚いので，ここは素直に Meiryo UI フォントに変える。 `%USERPROFILE%\.atom\styles.less` を以下のように変更する。
 
@@ -186,17 +195,10 @@ Windows では Tree View のフォントが汚いので，ここは素直に Mei
 .tree-view {
 	font-family: "Meiryo UI";
 }
-```
-
-また
-
-```css
 atom-workspace {
   font-family: "Meiryo UI";
 }
 ```
-
-とすればタブや Settings 画面のフォントも変えられる。
 
 ### EditorConfig
 
@@ -260,7 +262,7 @@ trim_trailing_whitespace = false
 
 Windows の場合は `%USERPROFILE%\.atom` フォルダに移動する。その後， `npm` コマンドを使って `iconv-lite` と `jschardet` をインストールする。
 
-```bash
+```text
 C:>cd C:\Users\username\.atom
 C:\Users\username\.atom>npm install iconv-lite
 iconv-lite@0.4.10 node_modules\iconv-lite
@@ -376,6 +378,8 @@ submodule の処理が得意ではないっぽいのもマイナス。
 {{< fig-gist "https://gist.github.com/spiegel-im-spiegel/e6e9c7340987f1607b2c" >}}
 
 ## ブックマーク
+
+- [ATOM で Go — プログラミング言語 Go]({{< relref "golang/golang-with-atom.md" >}})
 
 [ATOM] に関するブックマークは [Qiita でメンテナンス](http://qiita.com/spiegel-im-spiegel/items/3d41d98dacc107d73431)している。
 こちらも併せてどうぞ。

@@ -1,6 +1,6 @@
 +++
 date = "2015-11-21T14:19:02+09:00"
-update = "2016-03-18T23:09:26+09:00"
+update = "2016-03-19T14:39:05+09:00"
 description = "ATOM Editor で Go 言語のコーディング環境を整える。 go-plus パッケージの導入について。"
 draft = false
 tags = ["golang", "engineering", "tools", "atom", "editor"]
@@ -26,6 +26,8 @@ title = "ATOM で Go"
 
 例によって Windows 環境を前提にしているので，他の環境の方は適当に脳内補完してください。
 
+（2016年3月： [go-plus] バージョン 4 以降で大きく構成が変わったので改訂した）
+
 ## 開発支援ツールの導入
 
 まずは [Go 言語]用の支援ツールを導入する（更新時には `-u` オプションを付ける）。
@@ -38,7 +40,7 @@ $ go get -v github.com/rogpeppe/godef
 $ go get -v golang.org/x/tools/cmd/oracle
 ```
 
-[gometalinter] は所謂 lint ツールなのだが，単独で動作するのではなく，巷にいくつかある lint ツールを統合的に管理することができる。
+[gometalinter] は所謂 lint ツールなのだが，単独で動作するのではなく，巷にいくつかある lint ツール（標準の [vet] を含む）を統合的に管理することができる。
 以下のコマンドで [gometalinter] が使用する lint ツールをまとめてインストールする。
 
 ```text
@@ -158,7 +160,7 @@ if err != nil {
 
 となる。
 
-## ブックマーク{#bookmark}
+## ブックマーク
 
 - [struct にアノテーションつけてたら go vet . すべき - Qiita](http://qiita.com/amanoiverse/items/fcd25db64f341ad2471f)
 - [これからGo言語を書く人への三種の神器 - Qiita](http://qiita.com/osamingo/items/d5ec42fb8587d857310a) : `go vet`, `goimports`, `golint` で正しいコードを書きましょう。
