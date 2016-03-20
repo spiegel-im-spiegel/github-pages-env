@@ -1,29 +1,3 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-- [Microsoft、Evernote→OneNoteのデータインポートツールを公開 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1603/14/news066.html)
-    - [【レビュー】「OneNote」の使い勝手を試していたら最強の情報収集ツールになった! (1) OneNoteでできること | マイナビニュース](http://news.mynavi.jp/articles/2014/03/19/onenote/)
-- [北本かおり×ドミニク・チェン×山内康裕：二次創作とライセンス 「ただコンテンツを眺めるだけじゃなく、自由に使うことによって文化が成長する。」 - DOTPLACE](http://dotplace.jp/archives/21269)
-    - [北本かおり×ドミニク・チェン×山内康裕：二次創作とライセンス 「非親告罪化には、著者の『許可したいです』という意思を発露する手段が奪われていく感じがします。」 - DOTPLACE](http://dotplace.jp/archives/21441)
-    - [北本かおり×ドミニク・チェン×山内康裕：二次創作とライセンス 「海賊版を禁止して広がるのを止めてしまうのか、『いいから出しちゃえ』って進んだ人が結局最後に勝つのか。」 - DOTPLACE](http://dotplace.jp/archives/21458)
-- [オープンアクセス（OA）とクリエイティブコモンズ（CC） - 水野祐（@TasukuMizuno）のブログ](http://tasukumizuno.hatenablog.com/entry/2016/03/14/190655)
-- [引っ越しの際に出た不用品、トップは本、モノの所有に固執しない時代に？ -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/20160314_748044.html)
-- [セキュリティ| レポート2015年度版ダウンロード | ソニーデジタルネットワークアプリケーションズ株式会社](http://www.sonydna.com/sdna/solution/report02.html)
-- [誰もあなたの製品を使いたいと思ってはいない : 製品をデザインするための考え方 | プロダクト・サービス | POSTD](http://postd.cc/nobody-wants-use-your-product/)
-- [電子書籍の利用率が2割弱で頭打ち、「利用意向なし」が増加、「関心なし」と合わせると6割以上に -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/20160314_747958.html)
-    - [電子書籍の利用率、無料コンテンツが22.9％、有料コンテンツが16.5％で昨年から横ばい -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/20160226_745452.html)
-    - [電子書籍という「熱さ」は喉元を過ぎた — Baldanders.info](http://www.baldanders.info/spiegel/log2/000756.shtml)
-    - 米国でもEブックの割合は3割弱で安定しているそうなので，日本ならこんなものかもしれない。まぁそれよりも「みんなが本を読む」時代は終わったので，「紙かデジタルか」ではなく，縮小していく日本市場にどう適応していくかだろう。そういう意味じゃ「日本」という商圏に縛られない Amazon は有利だよなw
-- [要約：知らないと損するアプリ開発におけるStateMachineの活用法 - Qiita](http://qiita.com/mokemokechicken/items/9a4f7dea5a0fe37bd26f)
-- [将棋電王戦と「機械的失業」と棋譜の著作権 -INTERNET Watch](http://internet.watch.impress.co.jp/docs/special/fukui/20140418_644307.html)
-- [シリアのクルド勢力がシリア北部の自治を宣言へ：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41026)
-    - [Vladimir Putin, Godfather of Kurdistan? | The National Interest](http://nationalinterest.org/feature/vladimir-putin-godfather-kurdistan-15358)
-    - [シリアのクルド人勢力の自治への動きに関する報道：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41028)
-    - [シリアのクルド人勢力の自治政府宣言の背後に米露の協調・支持はあるのか？：池内恵 | 中東の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41027)
-- [断捨離本が海外で売れた理由から学ぶ - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2016/02/50726/)
-- [アメリカのインディペンデント書店が強いわけ « マガジン航[kɔː]](http://magazine-k.jp/2016/03/17/beyond-cool-japan-04/)
-- [New NIST Encryption Guidelines - Schneier on Security](https://www.schneier.com/blog/archives/2016/03/new_nist_encryp.html)
-    - [NIST Special Publication 800-175B, Guideline for Using Cryptographic Standards in the Federal Government: Cryptographic Mechanisms.](http://csrc.nist.gov/publications/drafts/800-175/sp800-175b_draft.pdf) PDF
-- [暗号化電子メールのProtonMailがベータ段階を卒業--「iOS」「Android」アプリを公開 - CNET Japan](http://japan.cnet.com/news/service/35079779/)
-    - [Secure email: ProtonMail is free encrypted email.](https://protonmail.com/)
-    - [Announcement: ProtonMail has launched worldwide! - ProtonMail Blog](https://protonmail.com/blog/protonmail-launch-worldwide/)
-- [自動運転車のAIが「ドライバー」であるとした米国運輸省の回答の意味（前編）「NHTSAの発表は無人運転車に関するFMVSSの解釈を示しただけ」とは - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2016/03/51254/)
+なし
