@@ -400,6 +400,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - [SublimeText - Atomを使って感じた、やっぱりSublime Textが良い理由 - Qiita](http://qiita.com/nipoko/items/fa9fd1570d3b29e9f6ac)
 - [GitHub、コードエディター「Atom」v1.3を公開。インストール不要のポータブル版を追加 - 窓の杜](http://www.forest.impress.co.jp/docs/news/20151214_735200.html)
 - [私がどのようにしてAtomの奇妙なバグを修正したか : 正規表現が暴走を起こすとき | プログラミング | POSTD](http://postd.cc/how-i-fixed-atom/)
+- [GitHub、オープンソースのテキストエディター「Atom」の最新正式版v1.6.0を公開 - 窓の杜](http://www.forest.impress.co.jp/docs/news/20160318_749051.html) : かなり色々変わったらしい
 
 [ATOM]: https://atom.io/ "Atom"
 [Visual Studio Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined."
