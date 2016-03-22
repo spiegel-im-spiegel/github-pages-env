@@ -1,6 +1,6 @@
 +++
 date = "2016-02-20T18:03:21+09:00"
-update = "2016-03-08T14:38:23+09:00"
+update = "2016-03-22T19:50:22+09:00"
 description = "X 線天文衛星 ASTRO-H の打上げ成功 / TMT 建設に関する報道 / スマホへ「ブルートフォース攻撃」を要求するアメリカ / C 言語はどう書くべきか / Bitcoin は「群衆の知恵」を前提とする / Amazon Prime 入ろうかと / 「ムラ社会」という名の多文化主義的エポケー"
 draft = false
 tags = ["astronomy", "telescope", "astro-h", "tmt", "security", "privacy", "risk", "programming", "blockchain", "amazon", "politics", "media"]
@@ -109,6 +109,8 @@ Google はかつて「プライバシーなど存在しない」と言い放っ�
 
 来週末に Apple がどのような答えを出すかが見ものである。
 いつものことではあるが，私たちはあらゆる事態を想定して備える必要がある。
+
+- [FBI、「iPhone」ロック解除で独自手法を発見か--米司法省、予定されていた審理の中止を要請 - CNET Japan](http://japan.cnet.com/news/service/35079884/)
 
 ## C 言語はどう書くべきか{#c}
 
