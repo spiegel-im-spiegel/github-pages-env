@@ -387,6 +387,8 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - [快適Haskell環境構築！ (ghc-modがエラーで動かない方へ) - Qiita](http://qiita.com/Asakage/items/5aebc4a53244d5adc335)
 - [ATOMをR言語に対応させる方法 - Qiita](http://qiita.com/mark88232/items/bf67d1c4c76c99a9bb94)
 - [【新人教育 資料】UMLまでの道 〜クラス図を書いてみよう編〜 - Qiita](http://qiita.com/devopsCoordinator/items/8d2af381c1c469103459) : ATOM でクラス図が描ける！
+- [AtomとPlantUMLで爆速UMLモデリング - Qiita](http://qiita.com/nakahashi/items/3d88655f055ca6a2617c)
+	- [Atom+PlantUMLで見た目もいい感じのシーケンス図を作成する - Qiita](http://qiita.com/k_nakayama/items/77ca73753ebd049a66de)
 - [AtomでRailsを爆速開発する環境を作ってみた - Qiita](http://qiita.com/tacumai/items/e84e586b5bde2979a066)
 
 ### ATOM TeX 環境を整える
