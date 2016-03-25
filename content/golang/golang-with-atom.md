@@ -1,6 +1,6 @@
 +++
 date = "2015-11-21T14:19:02+09:00"
-update = "2016-03-19T14:39:05+09:00"
+update = "2016-03-25T22:02:50+09:00"
 description = "ATOM Editor で Go 言語のコーディング環境を整える。 go-plus パッケージの導入について。"
 draft = false
 tags = ["golang", "engineering", "tools", "atom", "editor"]
@@ -82,6 +82,7 @@ Installing:
 [go-plus] を導入すると以下のサブ・パッケージも自動的に導入される。
 
 - [autocomplete-go](https://atom.io/packages/autocomplete-go) : [gocode] を使って入力補完
+- [builder-go](https://atom.io/packages/builder-go) : ソースコードのビルド
 - [go-config](https://atom.io/packages/go-config) : [Go 言語]用ツール等のチェック
 - [go-get](https://atom.io/packages/go-get) : [Go 言語]用ツールを取得する
 - [gofmt](https://atom.io/packages/gofmt) : [gofmt] または [goimport] を使用したフォーマッタ[^gf]
