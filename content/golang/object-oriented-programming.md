@@ -1,6 +1,6 @@
 +++
 date = "2015-12-15T21:19:58+09:00"
-update = "2016-02-22T19:23:38+09:00"
+update = "2016-03-26T11:46:00+09:00"
 description = "Go 言語がいわゆる「オブジェクト指向言語」と言えるかどうかについては色々とあるようだが，オブジェクト指向プログラミングを助けるための仕掛けはいくつか存在する。今回はその中の type キーワードを中心に解説していく。"
 draft = false
 tags = ["golang", "object-oriented", "programming", "type", "interface"]
@@ -130,7 +130,7 @@ func (v Vertex) String() string {
 内部処理としては
 
 ```go
-func String(v Vertex) string {
+func Vertex.String(v Vertex) string {
 	return fmt.Sprint("X =", v.X, ", Y =", v.Y)
 }
 ```
@@ -149,7 +149,7 @@ type Vertex struct {
 }
 
 func (v Vertex) String() string {
-	return fmt.Sprint("X =", v.X, ", Y =", v.Y)
+	return fmt.Sprint("X = ", v.X, ", Y = ", v.Y)
 }
 
 func main() {
@@ -160,7 +160,7 @@ func main() {
 
 のようにピリオドで関数を連結して記述する[^pr]。
 
-[^call]: [Go 言語]の関数呼び出しでは，引数の渡し方は基本的に「値渡し」である。「参照渡し」にするにはポインタを使う。メソッド・レシーバについては値渡しで定義すれば値とポインタ両方のインスタンスに対して関数を呼び出せる。いわゆる value object についてはこれで問題ないだろう。バッファ操作のような内部状態を操作する関数についてはメソッド・レシーバを参照渡しにして定義するとよい。ちなみに [Go 言語]のポインタは C/C++ のようなポインタ演算はできないので注意（ポインタ演算をしたい場合は [`unsafe`] パッケージを使う）。
+[^call]: [Go 言語]の関数呼び出しにおいて引数の渡し方は基本的に「値渡し」である。「参照渡し」にするにはポインタを値として渡せばよい。メソッド・レシーバについては，関数の呼び出し側インスタンスがポインタか否かに関係なく，値渡しの場合は値が，参照渡しの場合はポインタが渡される。またメソッド・レシーバが値渡しの場合は，元の値が関数の実行結果の影響を受けない（不変）。いわゆる value object については値渡しで問題ないだろう。バッファ操作のような内部状態を操作する関数についてはメソッド・レシーバを参照渡しにして定義するとよい。ちなみに [Go 言語]のポインタは C/C++ のようなポインタ演算はできないので注意（ポインタ演算をしたい場合は [`unsafe`] パッケージを使う）。
 [^pr]: ちなみに [`fmt`].`Print` などでは引数の型が `String()` を持っていることを期待し，この関数の出力結果をデフォルト書式にしている。したがって `fmt.Println(vertex.String())` と `fmt.Println(vertex)` は同じ結果になる。
 
 構造体そのものには関数を付与できない[^mt]。
@@ -424,6 +424,7 @@ func main() {
     - [オブジェクト指向言語としてGolangをやろうとするとハマる点を整理してみる - Qiita](http://qiita.com/sona-tar/items/2b4b70694fd680f6297c)
 - [Go言語に継承は無いんですか【golang】 - DRYな備忘録](http://otiai10.hatenablog.com/entry/2014/01/15/220136)
 - [Go言語でジェネリクスっぽいことがしたいでござる【generics】【golang】 - DRYな備忘録](http://otiai10.hatenablog.com/entry/2014/06/16/224109)
+- [Go 言語の値レシーバとポインタレシーバ | Step by Step](https://skatsuta.github.io/2015/12/29/value-receiver-pointer-receiver/)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 

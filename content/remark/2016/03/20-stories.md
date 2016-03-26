@@ -1,5 +1,6 @@
 +++
 date = "2016-03-20T19:09:04+09:00"
+update = "2016-03-26T13:11:22+09:00"
 description = "NIST SP 800-175B Draft / 翻案は「二次創作」を指すものではない / 引っ越しの際に真っ先に捨てるのは「本」"
 draft = false
 tags = ["security", "privacy", "cryptography", "nist", "copyright", "derivative-works", "book"]
@@ -54,6 +55,8 @@ SKIPJACK 暗号も当時は強力と言われていたが，今や 80bits ぽっ
 
 しかしこの20年余りの間，大規模テロが起こるたびに米国政府（というか FBI）は同じような試みを繰り返しては失敗している。
 国防上の理由と称して国民をテロリストと同列に監視対象に入れようとしているわけだ。
+
+- [Cryptography Is Harder Than It Looks - Schneier on Security](https://www.schneier.com/blog/archives/2016/03/cryptography_is.html)
 
 ## 翻案は「二次創作」を指すものではない{#adapt}
 

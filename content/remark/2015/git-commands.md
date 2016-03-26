@@ -1,6 +1,6 @@
 +++
 date = "2015-12-09T20:14:59+09:00"
-update = "2016-03-15T12:28:02+09:00"
+update = "2016-03-26T13:11:22+09:00"
 description = "git 各コマンドに関する覚え書き。思い出したら追記予定。"
 draft = false
 tags = ["git", "tools"]
@@ -187,6 +187,7 @@ $ git push origin :wrong-branch
 - [【Git】コミットに規約をつくる - Qiita](http://qiita.com/Kenya/items/f72fba8fecc79d1b090c)
 - [git reset のやり方 備忘録 - Qiita](http://qiita.com/waterada/items/44f270a659370809e1dc)
 - [気をつけて！Git for Windowsにおける改行コード - Qiita](http://qiita.com/uggds/items/00a1974ec4f115616580) : `autocrlf` の値は `input` がお勧め
+- [git - 簡単ガイド](http://rogerdudler.github.io/git-guide/index.ja.html)
 
 ### GitHub
 

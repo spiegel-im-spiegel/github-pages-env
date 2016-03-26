@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-03-26T09:40:17+09:00"
+update = "2016-03-26T13:11:22+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -68,6 +68,7 @@ title = "Go 言語に関するブックマーク"
 - [Goで再帰使うと遅くなりますがそれが何だ - YAMAGUCHI::weblog](http://ymotongpoo.hatenablog.com/entry/2015/02/23/165341)
 - [Go言語(Golang) はまりどころと解決策](http://www.yunabe.jp/docs/golang_pitfall.html)
 - [Golang: nil Pointer Receiverの話 - Qiita](http://qiita.com/stsn/items/73714caf8458b1d973f2)
+- [Go 言語の値レシーバとポインタレシーバ | Step by Step](https://skatsuta.github.io/2015/12/29/value-receiver-pointer-receiver/)
 
 ### 文字列操作または変換
 
@@ -435,6 +436,15 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [go 1.5でgomobile(android) - unokun’s blog](http://unokun.hatenablog.jp/entry/2015/08/01/150628)
 - [gomobileでiOSアプリをビルドする手順まとめ - GolangRdyJp](http://golang.rdy.jp/2015/09/21/ios-gomobile/)
 - [gomobileで日本語フォントを扱ってみる - Qiita](http://qiita.com/bowz_standard/items/5a9c987f9242777fff30)
+
+### Go 言語で学ぶ『暗号技術入門』
+
+[Soshi Katsuta](https://github.com/skatsuta) さんによるテキスト。
+丁寧な内容でとても参考になる。
+
+- [Go 言語で学ぶ『暗号技術入門』Part 1 -DES, Triple DES- | Step by Step](http://skatsuta.github.io/2016/01/02/hyuki-crypt-book-go-1/)
+- [Go 言語で学ぶ『暗号技術入門』Part 2 -AES- | Step by Step](http://skatsuta.github.io/2016/01/19/hyuki-crypt-book-go-2/)
+- [Go 言語で学ぶ『暗号技術入門』Part 3 -CBC Mode- | Step by Step](http://skatsuta.github.io/2016/03/06/hyuki-crypt-book-go-3/)
 
 ## その他 四方山話
 

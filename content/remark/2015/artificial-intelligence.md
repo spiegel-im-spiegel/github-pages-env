@@ -1,6 +1,6 @@
 +++
 date = "2015-10-01T20:47:00+09:00"
-update = "2016-03-14T01:12:59+09:00"
+update = "2016-03-26T13:11:22+09:00"
 description = "「人工知能に人類と協力する目的を持たせる」にしろ「人工知能の開発は人類がコントロールできるように進める」にしろ，人工知能が「ハイル・ヒトラー」と叫ぶ可能性は排除できない。"
 draft = false
 tags = ["engineering", "artificial-intelligence"]
@@ -89,6 +89,7 @@ title = "人工知能は「ハイル・ヒトラー」と叫ぶか"
 
 - [人工知能「IBM Watson」は何に使われているのか？ - ZDNet Japan](http://japan.zdnet.com/article/35070557/)
 - [「Watson」は科学的根拠に基づいて結論を出す、言うなれば“その道の専門家”だ - ZDNet Japan](http://japan.zdnet.com/article/35071319/)
+- [MicrosoftがAIチャットボット、Tayを停止―人種差別ジョークで機械学習の問題点が明らかに | TechCrunch Japan](http://jp.techcrunch.com/2016/03/25/20160324microsoft-silences-its-new-a-i-bot-tay-after-twitter-users-teach-it-racism/)
 
 ## 参考文献
 
