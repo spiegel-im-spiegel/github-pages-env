@@ -179,7 +179,7 @@ Box や Dropbox は他の用途で使っていて混ぜたくないし， Flickr
 
 とか思ったりする。
 
-そういえば，[この前ちらっと紹介]({{ relref< "remark/2016/02/no-more-paper-books.md" >}})した「[リベラルのことは嫌いでも、リベラリズムは嫌いにならないでください](http://www.amazon.co.jp/exec/obidos/ASIN/B011KRIYVS/baldandersinf-22/)」も同じ匂いを感じる。
+そういえば，[この前ちらっと紹介]({{< relref "remark/2016/02/no-more-paper-books.md" >}})した「[リベラルのことは嫌いでも、リベラリズムは嫌いにならないでください](http://www.amazon.co.jp/exec/obidos/ASIN/B011KRIYVS/baldandersinf-22/)」も同じ匂いを感じる。
 この本を読む限り，リベラリズムは「多文化主義的エポケー」に陥ったまま足が抜けなくなってるようにしか見えない。
 （そういや，多文化主義ってリベラリズムの考え方だっけ）
 

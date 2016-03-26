@@ -1,5 +1,6 @@
 +++
 date = "2016-02-05T00:11:53+09:00"
+update = "2016-03-26T09:40:17+09:00"
 description = "Struct で正規化できる情報であれば，タグを使うことでアプリケーション外部とのやり取りがずっと楽になる。"
 draft = false
 tags = ["golang", "struct", "tags", "marshal"]
@@ -265,6 +266,7 @@ note = "Web Application"
 - [struct にアノテーションつけてたら go vet . すべき - Qiita](http://qiita.com/amanoiverse/items/fcd25db64f341ad2471f)
 - [Goのjson.Marshal/Unmarshalの仕様を整理してみる - I Will Survive](http://blog.restartr.com/2014/08/13/golang-json-marshal-unmarshal/)
 - [BurntSushi/tomlを使ってハマったこと - Qiita](http://qiita.com/reiki4040/items/6556d4eba797329e9f51)
+- [GoでJSONの一部分を利用者が定義した構造体に読み込める便利な手法を見つけた - Qiita](http://qiita.com/hnakamur/items/ba363e82332d4dbdf34a)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
