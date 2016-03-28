@@ -203,8 +203,10 @@ invalid operation: x += y (operator + not defined on pointer)
 
 ### Slice, Map, Channel は常に「参照渡し」
 
-[slice], [map], [channel] は組み込み型だが内部状態を持つ。
+[slice], [map], [channel] は組み込み型だが内部状態を持つ[^make]。
 したがって，これらの型の instance を引数に渡す場合はつねに「参照渡し」になる（つまり instance のコピーは発生しない）。
+
+[^make]: [slice], [map], [channel] は内部状態を持つため `new()` 関数ではなく `make()` 関数で instance を生成する。
 
 ```go
 package main
@@ -225,10 +227,11 @@ func main() {
 }
 ```
 
-ただし固定の配列や [string] 型[^str] の instance は「値」として振る舞うため，引数に指定した場合も「値渡し」になる。
+ただし固定の配列や [string] 型[^str] の instance は「値」として振る舞うため[^n]，引数に指定した場合も「値渡し」になる。
 [slice] とは挙動が異なるためテキトーなコードを書いていると混乱しやすい。
 
 [^str]: [string] 型の実体は `[]byte` 型である。
+[^n]: たとえば固定の配列や [string] 型の instance は nil 値を持たない。 [string] 型のゼロ値は空文字列である。
 
 ```go
 package main
