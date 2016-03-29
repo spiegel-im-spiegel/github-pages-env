@@ -1,6 +1,6 @@
 +++
 date = "2015-12-13T13:12:02+09:00"
-update = "2016-03-18T23:51:55+09:00"
+update = "2016-03-30T00:09:09+09:00"
 description = "自宅のマシンをチェックしたら，既に遅かった。"
 draft = false
 tags = ["windows"]
@@ -86,3 +86,4 @@ Windows 10 が悪いとは言わない（まぁ敢えてオススメはしない
 - [MS、「Windows 10」を「推奨される」更新プログラムとして提供開始 - CNET Japan](http://japan.cnet.com/news/service/35077208/)
 - [Windows 7／8.1→Windows 10が“推奨される更新”に - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1602/02/news081.html)
 - [Tech TIPS：まだWindows 10へアップグレードしたくない人のための設定まとめ - ＠IT](http://www.atmarkit.co.jp/ait/articles/1603/18/news047.html)
+- [「Windows 10」自動アップデートをオフにするツール「Never 10」が公開 - ZDNet Japan](http://japan.zdnet.com/article/35080272/)

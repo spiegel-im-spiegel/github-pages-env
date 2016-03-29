@@ -1,6 +1,6 @@
 +++
 date = "2016-03-13T13:03:59+09:00"
-update = "2016-03-18T23:51:43+09:00"
+update = "2016-03-30T00:08:57+09:00"
 description = "サイバーテロ企業 Microsoft / 3月9日は皆既日食でした / いまさら「2033年問題」 / 『プログラミング言語 Go』"
 draft = false
 tags = ["risk", "windows", "astronomy", "eclipse", "calendar", "book", "golang"]
@@ -70,6 +70,7 @@ Windows の（マネタイズを含めた）思想は20年以上も**大昔**の
 ### 参考
 
 - [Tech TIPS：まだWindows 10へアップグレードしたくない人のための設定まとめ - ＠IT](http://www.atmarkit.co.jp/ait/articles/1603/18/news047.html)
+- [「Windows 10」自動アップデートをオフにするツール「Never 10」が公開 - ZDNet Japan](http://japan.zdnet.com/article/35080272/)
 
 ## 3月9日は皆既日食でした{#eclipse}
 
