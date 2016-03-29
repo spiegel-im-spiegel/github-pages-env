@@ -1,7 +1,7 @@
 +++
-date = "2016-03-28T23:18:36+09:00"
+date = "2016-03-29T22:16:41+09:00"
 description = "Go 言語の引数は基本的に「値渡し（call by value）」である。「参照渡し（call by reference）」にしたい場合はポインタを使う。"
-draft = true
+draft = false
 tags = ["golang", "function", "pointer"]
 title = "関数とポインタ"
 
