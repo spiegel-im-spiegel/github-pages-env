@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-03-28T23:15:11+09:00"
+update = "2016-03-30T23:07:47+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -429,6 +429,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go言語のスクレイピング系ライブラリまとめ - Qiita](http://qiita.com/okataitai/items/db6999ea1ab39ec0bd3e)
 - [Go の echo ってWebサーバーでサクッと REST しちゃう - Qiita](http://qiita.com/keika299/items/62e806ae42828bb3567a)
 - [nginx+circus+gojiによるgolang webアプリケーションの動作環境構築 - Qiita](http://qiita.com/reiki4040/items/795a008d1b12ee657d9a)
+- [Big Sky :: golang で HTTP を使った処理を4倍速くする](http://mattn.kaoriya.net/software/lang/go/20160329094503.htm)
 
 ### 組み込み開発
 
@@ -472,6 +473,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go言語の初心者が見ると幸せになれる場所 - Qiita](http://qiita.com/tenntenn/items/0e33a4959250d1a55045)
 - [Big Sky :: Names](http://mattn.kaoriya.net/software/20160126101358.htm) : Golang の開発者 Russ Cox 氏による記事の抄訳。「変数名の長さ」について
 - [Go言語で作った実行ファイルを小さくしよう！ - Qiita](http://qiita.com/circus/items/450254c59d194cbf22d7)
+- [Goのプログラミングパターン](http://www.infoq.com/jp/news/2016/03/go-patterns)
 
 ### Go 1.5 に関する話題
 

@@ -1,5 +1,6 @@
 +++
 date = "2016-03-27T02:38:30+09:00"
+update = "2016-03-30T23:07:47+09:00"
 description = "安全と安心をいっしょくたにする輩を信用してはいけない / 漫画家小山田いくさん死去 / RFC 7763 The text/markdown Media Type / その他の気になる記事"
 draft = false
 tags = ["security", "risk", "management", "comic", "markdown", "rfc"]
@@ -46,6 +47,7 @@ Apple の失敗はユーザに安心感を与えるために安全を omit し�
 
 - [FBIとAppleの対立が急転、サン電子子会社がiPhoneロック解除で協力か | マイナビニュース](http://news.mynavi.jp/news/2016/03/24/162/)
 - [iPhoneの暗号化をAppleの協力なしで解除する7つの方法 - GIGAZINE](http://gigazine.net/news/20160324-fbi-unlock-iphone/)
+- [司法省、対Apple訴訟を取り下げ―テロ容疑者のiPhoneはFBIがアンロックに成功 | TechCrunch Japan](http://jp.techcrunch.com/2016/03/29/20160328justice-department-drops-lawsuit-against-apple-over-iphone-unlocking-case/)
 
 今まで何度も言っているが「警察にできることは犯罪者にもできる」。
 自力で iPhone を突破できなかった FBI は外部の企業を使うようだ。
