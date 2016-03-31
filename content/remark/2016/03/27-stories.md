@@ -1,6 +1,6 @@
 +++
 date = "2016-03-27T02:38:30+09:00"
-update = "2016-03-30T23:07:47+09:00"
+update = "2016-03-31T22:06:09+09:00"
 description = "安全と安心をいっしょくたにする輩を信用してはいけない / 漫画家小山田いくさん死去 / RFC 7763 The text/markdown Media Type / その他の気になる記事"
 draft = false
 tags = ["security", "risk", "management", "comic", "markdown", "rfc"]
@@ -56,6 +56,10 @@ Apple の失敗はユーザに安心感を与えるために安全を omit し�
 IPA も気をつけなよ。
 
 - [「つながる世界の開発指針」を公開：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/sec/reports/20160324.html)
+
+### 追加ブックマーク
+
+- [米政府によるスマホデータ取り出しの協力要請、ACLUが実態調査 - CNET Japan](http://japan.cnet.com/news/society/35080404/)
 
 ## 漫画家小山田いくさん死去{#iku}
 

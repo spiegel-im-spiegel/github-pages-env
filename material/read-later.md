@@ -9,3 +9,7 @@
     - [プロジェクトでは既知の問題として把握済み：「npm」に自己複製型のワームプログラムが動作可能な脆弱性が報告される - ＠IT](http://www.atmarkit.co.jp/ait/articles/1603/30/news078.html)
 - [IPAテクニカルウォッチ「公衆無線LAN利用に係る脅威と対策」：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/technicalwatch/201600330.html)
 - [Asteroid impact on Jupiter? - YouTube](https://www.youtube.com/watch?v=4LiL7RYG7ac)
+- [Build 2016で驚きの発表―Microsoftはこの夏Windows 10でBashシェルをサポート | TechCrunch Japan](http://jp.techcrunch.com/2016/03/31/20160330be-very-afraid-hell-has-frozen-over-bash-is-coming-to-windows-10/)
+    - [「Windows 10」で動作するUbuntuのBashシェル--その実現方法 - CNET Japan](http://japan.cnet.com/news/service/35080406/)
+    - [開発者がWindows 10でBashシェルとユーザー モードのUbuntu Linuxバイナリを実行可能に | S/N Ratio (by SATO Naoki)](https://satonaoki.wordpress.com/2016/03/31/bash-ubuntu-windows/)
+- [高度サイバー攻撃(APT)への備えと対応ガイド～企業や組織に薦める一連のプロセスについて](https://www.jpcert.or.jp/research/apt-guide.html)
