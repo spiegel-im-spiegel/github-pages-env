@@ -18,7 +18,7 @@
 
 Windows 版は，インストールパッケージ（実行形式）をダウンロードしてインストールすればよい。
 
-2015年6月25日に 1.0 が出た。[おめでたう！](http://qiita.com/spiegel-im-spiegel/items/5c6dafcece9e7118877a) （2016年3月29日に 1.6.1 stable がリリース）
+2015年6月25日に 1.0 が出た。[おめでたう！](http://qiita.com/spiegel-im-spiegel/items/5c6dafcece9e7118877a) （2016年4月1日に 1.6.2 stable がリリース）
 
 [Beta Channel](https://atom.io/beta) が登場。
 
@@ -351,6 +351,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - [Atomのウィンドウを半透明にする方法 - Qiita](http://qiita.com/kakinoki/items/37bfee713990f1c6b43c)
 - [Windows 10 で Atom の Term3 を入れる(たぶん)最小の方法 - Qiita](http://qiita.com/raccy/items/86bfd002d713b7c4d032)
 - [Atomのscriptパッケージでbundle exec付きで実行する - Qiita](http://qiita.com/Kesin11/items/75b400e45220124e1569)
+- [JSON・CSVからピボットテーブルを作ってくれるAtomパッケージ - Qiita](http://qiita.com/takeyuichi/items/1ea77ce7f3d0eeb1c206)
 
 ### パッケージを作ってみた
 
