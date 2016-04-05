@@ -13,3 +13,4 @@
     - [「Windows 10」で動作するUbuntuのBashシェル--その実現方法 - CNET Japan](http://japan.cnet.com/news/service/35080406/)
     - [開発者がWindows 10でBashシェルとユーザー モードのUbuntu Linuxバイナリを実行可能に | S/N Ratio (by SATO Naoki)](https://satonaoki.wordpress.com/2016/03/31/bash-ubuntu-windows/)
 - [高度サイバー攻撃(APT)への備えと対応ガイド～企業や組織に薦める一連のプロセスについて](https://www.jpcert.or.jp/research/apt-guide.html)
+- Git for Windows のバージョンが上がってる。
