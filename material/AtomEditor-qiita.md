@@ -352,6 +352,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - [Windows 10 で Atom の Term3 を入れる(たぶん)最小の方法 - Qiita](http://qiita.com/raccy/items/86bfd002d713b7c4d032)
 - [Atomのscriptパッケージでbundle exec付きで実行する - Qiita](http://qiita.com/Kesin11/items/75b400e45220124e1569)
 - [JSON・CSVからピボットテーブルを作ってくれるAtomパッケージ - Qiita](http://qiita.com/takeyuichi/items/1ea77ce7f3d0eeb1c206)
+- [gitでcloneしてきたAtomのPackageをインストールする - Qiita](http://qiita.com/CODA/items/b0086a9aac858132c419)
 
 ### パッケージを作ってみた
 
@@ -404,6 +405,8 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - [GitHub、コードエディター「Atom」v1.3を公開。インストール不要のポータブル版を追加 - 窓の杜](http://www.forest.impress.co.jp/docs/news/20151214_735200.html)
 - [私がどのようにしてAtomの奇妙なバグを修正したか : 正規表現が暴走を起こすとき | プログラミング | POSTD](http://postd.cc/how-i-fixed-atom/)
 - [GitHub、オープンソースのテキストエディター「Atom」の最新正式版v1.6.0を公開 - 窓の杜](http://www.forest.impress.co.jp/docs/news/20160318_749051.html) : かなり色々変わったらしい
+- [Atom Flight Manual（Atom Editorのチュートリアル）をざっと訳してみるテストw - Qiita](http://qiita.com/kimrin/items/af75dec7edcb0151b1a1)
+	- [Atom Flight Manual（Atom Editorのチュートリアル）をざっと訳してみるテストw(2) - Qiita](http://qiita.com/kimrin/items/2df2628150474df6ff27)
 
 [ATOM]: https://atom.io/ "Atom"
 [Visual Studio Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined."
