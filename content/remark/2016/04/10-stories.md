@@ -130,7 +130,7 @@ WhatsApp がその辺を埋めることになるかどうか。
 
 さて，いつもの図。
 
-{{< fig-img src="/images/DDD.svg" title="Domain Driven Sesign" link="/images/DDD.svg" >}}
+{{< fig-img src="/images/DDD.svg" title="Domain-Driven Design" link="/images/DDD.svg" >}}
 
 Domain Layer の中身は Domain Service, Entity, そして Value Object に分類される。
 ビジネスロジックは図の右側，つまり Entity や Value Object に記述されるのが良い設計だと言われている（記述の重複を避けられるため）。
