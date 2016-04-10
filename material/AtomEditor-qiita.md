@@ -267,6 +267,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - [merge-conflicts](https://atom.io/packages/merge-conflicts) : conflict 時のヘルパーツール。
 - [term2](https://atom.io/packages/term2) : タブ内にターミナルを起動できる。内部で `pty.js` をビルドしようとするが， Windows 環境では Visual Studio 等の開発環境が必要らしい？
     - [Atomにterm 2パッケージを導入してみた【Windows】 - Qiita](http://qiita.com/Ted-HM/items/540a57cc2a14346e4767)
+	- [Atom v1.2.0以上 で term2 v0.9.21 がビルドエラーで動かなくなる件 - Qiita](http://qiita.com/kaminaly/items/853dc9c40ae7433cf4c1) : 結論は [term3](https://atom.io/packages/term3) を使えということらしい
 - [web-view](https://atom.io/packages/web-view) : タブ内にブラウザを起動できる。
 - スクラッチパッドみたいなんないのん？ と思って探していたのだが， [tempfile](https://atom.io/packages/tempfile) というパッケージが登場した。ファイルタイプを指定できる。またファイルの保存先を指定できるため，適当に書き散らしたものを保存することも可能。
 - 特定の単語をマークしておける [quick-highlight](https://atom.io/packages/quick-highlight) が結構使える。 Windows だとキーに割り当てられないので、 toggle を適当なファンクションキーとかに割り当てておくとめっさ便利。
@@ -345,7 +346,6 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - [ATOMでながら作業が捗るパッケージ紹介 - Qiita](http://qiita.com/nekobato/items/5b1e4e2f4f328466cc1d)
 - [Atom でリモートのファイルを操作するプラグイン remote-ftp | Lonely Mobiler](http://loumo.jp/wp/archive/20151004000041/) : [remote-ftp](https://atom.io/packages/remote-ftp) の使い方 FTP/FTPS/SFTP が使えるようだ。 Windows 環境では pageant が使えるらしい
 	- [Atom Package「Remote-ftp」のローカルでのあれこれ - Qiita](http://qiita.com/makoto1007/items/3fb628796a880ddbea15)
-- [Atom v1.2.0以上 で term2 v0.9.21 がビルドエラーで動かなくなる件 - Qiita](http://qiita.com/kaminaly/items/853dc9c40ae7433cf4c1) : 結論は [term3](https://atom.io/packages/term3) を使えということらしい
 - [こんなのがあるのはAtomだけ？尖りまくってるパッケージ紹介【随時（たまーに）更新】 - Qiita](http://qiita.com/snowsunny/items/17f35baf0671451d2c09)
 - [Atom でエンコーディングを自動判別するパッケージ auto-encoding - Qiita](http://qiita.com/enk/items/59fdcc4409e6eb650952)
 - [Atomのウィンドウを半透明にする方法 - Qiita](http://qiita.com/kakinoki/items/37bfee713990f1c6b43c)

@@ -1,5 +1,6 @@
 +++
 date = "2016-03-20T11:45:24+09:00"
+update = "2016-04-09T21:39:04+09:00"
 description = "というわけで ProtonMail のアカウントを作った。よさげなら本サイトの連絡先アドレスとして使おうかと思っている。"
 draft = false
 tags = ["security", "privacy", "cryptography", "tools", "messaging", "openpgp"]
@@ -39,6 +40,7 @@ MUA (Messaging User Agent) は [ProtonMail] が提供するもの以外は使え
 
 - [ProtonMail - Encrypted Email - Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [ProtonMail Encrypted Email - Easy To Use, Free For All on the App Store](https://itunes.apple.com/app/protonmail-encrypted-email/id979659905)
+- [エンドツーエンドでの暗号化で第三者の解読を防ぐWebメールサービス「ProtonMail」 - 知っ得！旬のネットサービス - 窓の杜](http://www.forest.impress.co.jp/docs/serial/netserv/20160331_750622.html)
 
 [ProtonMail] ユーザ間のメールは自動的に End-to-End で暗号化される[^pm1]。
 [ProtonMail] 以外からのメールについてもストレージへの保存は暗号化されるようだ。
