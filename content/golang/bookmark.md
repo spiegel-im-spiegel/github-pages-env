@@ -222,6 +222,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [cgoでGoのコードからCの関数を利用する - 1000ch.net](https://1000ch.net/posts/2014/c-in-golang-with-cgo.html)
 - [cgoでGolangとC++ライブラリをリンクするとき、何が起きているのか - beatsync.net](https://beatsync.net/main/log20141022.html)
 - [GO 1.5 と C++ を SWIG でブリッジさせる方法 - Qiita](http://qiita.com/Satachito/items/5a0d7dd228d3272e0780)
+- [cgoを使ったCとGoのリンクの裏側 (1) - Qiita](http://qiita.com/yugui/items/e71d3d0b3d654a110188)
 
 ### Logging
 
