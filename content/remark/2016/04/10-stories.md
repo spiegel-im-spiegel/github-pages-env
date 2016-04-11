@@ -1,6 +1,6 @@
 +++
 date = "2016-04-10T18:44:29+09:00"
-update = "2016-04-11T23:04:42+09:00"
+update = "2016-04-11T23:40:13+09:00"
 description = "まじめに規制に従っている人ほど馬鹿を見る社会 / Linux サブシステムは Windows の終わりの始まり / 鍵管理システム CONIKS / Go 言語を使うようになって変わったこと / その他の気になる記事"
 draft = false
 tags = ["code", "security", "risk", "management", "cryptography", "windows", "linux", "messaging", "pki", "engineering", "golang"]
@@ -55,6 +55,7 @@ FBI が端末を突破するのに外部企業を使ったということ，そ�
 米国司法省は法規制によって優位に立てると思ってるようだが，こんなもの最初から「法の外」にいる犯罪者やテロリストに対しては効力がない。
 
 - [暗号化解除をめぐる米法案、司法当局へのバックドア提供を義務付け - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1604/09/news022.html)
+- [バックドア提供を拒む企業に制裁金を--米国で法案が公開 - CNET Japan](http://japan.cnet.com/news/society/35080962/)
 
 これは「飲酒運転を減らすために飲酒運転規制を厳罰化する」というのとは話が違う。
 犯罪者にはインパクトがないし，まじめに規制に従っている人ほど「馬鹿を見る」ことになる。
@@ -87,6 +88,13 @@ Microsoft 自らこういう無茶をすること自体が「Windows の終わ�
 個人的に2020年までに自宅 PC のメインを Linux 機に換装する予定だが，ちょっと計画を前倒ししたほうがいいかもしれない。
 
 - [目的別のおすすめLinuxディストリビューション--あなたにぴったりなのはどれ？ - ZDNet Japan](http://japan.zdnet.com/article/35080364/)
+
+### 追記
+
+- [Big Sky :: Windows ユーザは cmd.exe で生きるべき。](http://mattn.kaoriya.net/software/why-i-use-cmd-on-windows.htm)
+
+激しく同意。
+もっとも私は [ConEmu & NYAGOS]({{< relref "remark/2015/conemu-and-nyagos.md" >}}) だけど（笑）
 
 ## WhatsApp がついに Signal ベースの E2E 暗号化を実装する{#sig}
 
