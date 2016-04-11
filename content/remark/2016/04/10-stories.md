@@ -1,5 +1,6 @@
 +++
 date = "2016-04-10T18:44:29+09:00"
+update = "2016-04-11T23:04:42+09:00"
 description = "まじめに規制に従っている人ほど馬鹿を見る社会 / Linux サブシステムは Windows の終わりの始まり / 鍵管理システム CONIKS / Go 言語を使うようになって変わったこと / その他の気になる記事"
 draft = false
 tags = ["code", "security", "risk", "management", "cryptography", "windows", "linux", "messaging", "pki", "engineering", "golang"]
@@ -67,8 +68,8 @@ FBI が端末を突破するのに外部企業を使ったということ，そ�
 - [開発者がWindows 10でBashシェルとユーザー モードのUbuntu Linuxバイナリを実行可能に | S/N Ratio (by SATO Naoki)](https://satonaoki.wordpress.com/2016/03/31/bash-ubuntu-windows/)
 - [MariaDB、カラム型データベースエンジン「MariaDB ColumnStore」発表。OLAPへ参入 － Publickey](http://www.publickey1.jp/blog/16/mariadbmariadb_columnstoreolap.html)
 
-もともと Windows は POSIX サブシステムを持っている。
-今回はそれに加えて Ubuntu ベースの Linux サブシステムを組み込むということらしいが子亀の上に親亀を乗っけるようなものだ。
+~~もともと Windows は POSIX サブシステムを持っている。
+今回はそれに加えて~~ Ubuntu ベースの Linux サブシステムを組み込むということらしいが子亀の上に親亀を乗っけるようなものだ。
 
 Windows の基本的な設計思想は20～25年くらい前の古いものだ。
 しかも DOS/Windows はもともとシングルユーザ用に設計されたもので UNIX 等のマルチユーザ向けの OS とは全く異なる。
