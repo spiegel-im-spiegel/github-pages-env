@@ -62,6 +62,8 @@ Crisis Management って結局はそういうことなんだよね。
 ### 関連ブックマーク（随時追記予定）
 
 - [平成28年（2016年）熊本地震（M6.5）の地学的背景と布田川断層帯・日奈久断層帯について](http://www.eri.u-tokyo.ac.jp/?page_id=183&id=12595)
+- {{< pdf-file title="2016年4月17日地震調査委員会評価文（熊本地方地震）" link="http://www.mext.go.jp/component/a_menu/other/detail/__icsFiles/afieldfile/2016/04/17/1369832_002.pdf" >}}
+- {{< pdf-file title="平成28 年4 月17日地震調査委員会図表（熊本地方地震）" link="http://www.mext.go.jp/component/a_menu/other/detail/__icsFiles/afieldfile/2016/04/17/1369832_003.pdf" >}}
 
 ## 三半規管に異常あり{#astro}
 
