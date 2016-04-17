@@ -18,7 +18,7 @@
 
 Windows 版は，インストールパッケージ（実行形式）をダウンロードしてインストールすればよい。
 
-2015年6月25日に 1.0 が出た。[おめでたう！](http://qiita.com/spiegel-im-spiegel/items/5c6dafcece9e7118877a) （2016年4月1日に 1.6.2 stable がリリース）
+2015年6月25日に 1.0 が出た。[おめでたう！](http://qiita.com/spiegel-im-spiegel/items/5c6dafcece9e7118877a) （2016年4月15日に 1.7.1 stable がリリース）
 
 [Beta Channel](https://atom.io/beta) が登場。
 
@@ -326,6 +326,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - [Atomが”editor is not responding”になったら - Qiita](http://qiita.com/devzooiiooz/items/777da5b63064f85cd096)
 - [Atom レジストリエントリを含むアンインストール方法（Windows版） - Qiita](http://qiita.com/masa36/items/c800185174bd77526a7d)
 - [Atom Editor を EDITOR 環境変数に設定する - Qiita](http://qiita.com/thermes/items/a38d0e5824c787166871)
+- [Atom 1.7からタブ切り替えが使いづらくてイライラするので従来式に戻す - Qiita](http://qiita.com/takuchan9104/items/237dd39bf5987879b106)
 
 ### 各種パッケージ設定
 
@@ -407,6 +408,8 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - [GitHub、オープンソースのテキストエディター「Atom」の最新正式版v1.6.0を公開 - 窓の杜](http://www.forest.impress.co.jp/docs/news/20160318_749051.html) : かなり色々変わったらしい
 - [Atom Flight Manual（Atom Editorのチュートリアル）をざっと訳してみるテストw - Qiita](http://qiita.com/kimrin/items/af75dec7edcb0151b1a1)
 	- [Atom Flight Manual（Atom Editorのチュートリアル）をざっと訳してみるテストw(2) - Qiita](http://qiita.com/kimrin/items/2df2628150474df6ff27)
+- [atomで置換を使って連番テキストを作る - Qiita](http://qiita.com/Luecy1/items/f8894c2e26677d664672)
+- [GitHub、オープンソースのテキストエディター「Atom」の最新正式版v1.7を公開 - 窓の杜](http://www.forest.impress.co.jp/docs/news/20160414_753303.html)
 
 [ATOM]: https://atom.io/ "Atom"
 [Visual Studio Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined."
