@@ -117,6 +117,7 @@ CVSSv3 基本値は 6.3 なので「要注意」レベルだが，サポート�
     - [W3C、「HTML5.1」を今年9月に勧告とする計画。仕様はGitHubで公開 － Publickey](http://www.publickey1.jp/blog/16/w3chtml519github.html)
 - [中国は「オーウェル風ディストピア」？「社会信用制度」とは · Global Voices 日本語](https://jp.globalvoices.org/2016/04/13/40418/)
 - [At Japanese Beatmaking Event, Producers Create CC Remixes in Just Four Hours - Creative Commons blog - Creative Commons](https://blog.creativecommons.org/2016/04/14/japanese-beatmaking-event-producers-create-cc-remixes-just-four-hours/) : 日本のイベントに本家 CC が反応していることに驚いた。昨年のソウルのイベントでは CCjp はほぼ無視してたのにね
+- [[Announce] Libgcrypt 1.7.0 released](https://lists.gnupg.org/pipermail/gnupg-announce/2016q2/000386.html) : SHA-3 や ChaCha など新しいアルゴリズムが登場
 
 [ATOM]: https://atom.io/ "Atom"
 [Visual Studio Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
