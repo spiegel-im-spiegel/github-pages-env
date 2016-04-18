@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-04-17T13:55:08+09:00"
+update = "2016-04-18T23:00:37+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -479,6 +479,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Goのプログラミングパターン](http://www.infoq.com/jp/news/2016/03/go-patterns)
 - [Go言語で利用するLLVM入門 | プログラミング | POSTD](http://postd.cc/an-introduction-to-llvm-in-go/)
 - [Big Sky :: golang の Windows 版が buildmode=c-archive をサポートした。](http://mattn.kaoriya.net/software/lang/go/20160405114638.htm)
+- [Gopherの道を歩む – Node.jsからGo言語への移行 | プログラミング | POSTD](http://postd.cc/the-way-of-the-gopher/)
 
 ### Go 1.5 に関する話題
 

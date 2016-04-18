@@ -1,5 +1,6 @@
 +++
 date = "2016-04-17T15:38:38+09:00"
+update = "2016-04-18T23:00:37+09:00"
 description = "2016年熊本地震 / 三半規管に異常あり / ATOM 1.7 と Visual Studio Code 1.0 が登場 / Windows 版 QuickTime がようやく終了 / その他の気になる記事"
 draft = false
 tags = ["environment", "astronomy", "telescope", "jaxa", "astro-h", "atom", "vscode", "editor", "security", "vulnerability"]
@@ -64,6 +65,12 @@ Crisis Management って結局はそういうことなんだよね。
 - [平成28年（2016年）熊本地震（M6.5）の地学的背景と布田川断層帯・日奈久断層帯について](http://www.eri.u-tokyo.ac.jp/?page_id=183&id=12595)
 - {{< pdf-file title="2016年4月17日地震調査委員会評価文（熊本地方地震）" link="http://www.mext.go.jp/component/a_menu/other/detail/__icsFiles/afieldfile/2016/04/17/1369832_002.pdf" >}}
 - {{< pdf-file title="平成28 年4 月17日地震調査委員会図表（熊本地方地震）" link="http://www.mext.go.jp/component/a_menu/other/detail/__icsFiles/afieldfile/2016/04/17/1369832_003.pdf" >}}
+- [避難所、給水、配給、空いているスーパーなどについてgooglemapまとめ | 熊本地震 情報掲示板](http://kumamoto-jishin.info/map.html)
+- [熊本地震で観測した電子基準点の変位を、国土地理院がいち早く公表｜ニュース/アーカイブ｜準天頂衛星システム（QZSS）公式サイト - 内閣府](http://qzss.go.jp/news/archive/gsi_kumamoto_160418.html)
+- [広島大学　熊本県熊本地方を震源とする地震に関する記者説明会を開催しました](http://www.hiroshima-u.ac.jp/news/show/id/25510)
+- [2016年4月15日ニュース「熊本の大地震は横ずれ断層型 震源浅く揺れ大きく」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2016/04/20160415_01.html)
+- [2016年4月18日ニュース「本震と余震は別の断層帯で発生 地震調査委と気象庁が見解」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2016/04/20160418_01.html)
+- [2016年4月18日ニュース「被害状況を動画で公開 国土地理院がドローンで調査」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2016/04/20160418_02.html)
 
 ## 三半規管に異常あり{#astro}
 
