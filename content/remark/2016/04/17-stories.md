@@ -1,6 +1,6 @@
 +++
 date = "2016-04-17T15:38:38+09:00"
-update = "2016-04-19T22:52:03+09:00"
+update = "2016-04-20T22:28:24+09:00"
 description = "2016年熊本地震 / 三半規管に異常あり / ATOM 1.7 と Visual Studio Code 1.0 が登場 / Windows 版 QuickTime がようやく終了 / その他の気になる記事"
 draft = false
 tags = ["environment", "astronomy", "telescope", "jaxa", "astro-h", "atom", "vscode", "editor", "security", "vulnerability"]
@@ -72,12 +72,15 @@ Crisis Management って結局はそういうことなんだよね。
 - [2016年4月18日ニュース「本震と余震は別の断層帯で発生 地震調査委と気象庁が見解」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2016/04/20160418_01.html)
 - [2016年4月18日ニュース「被害状況を動画で公開 国土地理院がドローンで調査」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2016/04/20160418_02.html)
 - [平成28年熊本地震に伴う被災地救援等のために使用する車両の取り扱いについて / 熊本県](http://www.pref.kumamoto.jp/kiji_15425.html?type=top)
+- [オープンデータで避難所地図を表示する「ヒナンパス」が、熊本地震に暫定対応｜利用者向け情報｜準天頂衛星システム（QZSS）公式サイト - 内閣府](http://qzss.go.jp/usage/userreport/hinanpass_160420.html)
+- [熊本地震で、ITSJapanが乗用車・トラックの通行実績情報を提供｜ニュース/アーカイブ｜準天頂衛星システム（QZSS）公式サイト - 内閣府](http://qzss.go.jp/news/archive/its-jp_160419.html)
 
 ## 三半規管に異常あり{#astro}
 
 - {{< pdf-file title="Ｘ線天文衛星「ひとみ」（ASTRO-H）の状況について" link="http://fanfun.jaxa.jp/jaxatv/files/20160415_hitomi.pdf" >}}
 - [X線天文衛星「ひとみ」、2重のトラブルで「自分で回った」と推定 | Sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/space/2016_04_15_asrtoh.html)
 - [JAXA | X線天文衛星「ひとみ」（ASTRO-H）の状況について](http://www.jaxa.jp/press/2016/04/20160419_hitomi_j.html)
+- [2016年4月20日ニュース「姿勢制御装置が誤作動 通信途絶えた天文衛星『ひとみ』」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2016/04/20160420_01.html)
 
 小天体かデブリにでもぶち当たったのかと思ったが，擬人化するなら三半規管の異常で「ピヨった」状態らしい。
 太陽電池パネルの一部が千切れるほどの高速回転って相当だと思うけど。
