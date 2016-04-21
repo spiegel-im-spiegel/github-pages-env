@@ -1,6 +1,6 @@
 +++
 date = "2016-04-17T15:38:38+09:00"
-update = "2016-04-20T22:28:24+09:00"
+update = "2016-04-21T22:04:16+09:00"
 description = "2016年熊本地震 / 三半規管に異常あり / ATOM 1.7 と Visual Studio Code 1.0 が登場 / Windows 版 QuickTime がようやく終了 / その他の気になる記事"
 draft = false
 tags = ["environment", "astronomy", "telescope", "jaxa", "astro-h", "atom", "vscode", "editor", "security", "vulnerability"]
