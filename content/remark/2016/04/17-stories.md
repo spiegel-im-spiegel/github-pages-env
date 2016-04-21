@@ -74,6 +74,7 @@ Crisis Management って結局はそういうことなんだよね。
 - [平成28年熊本地震に伴う被災地救援等のために使用する車両の取り扱いについて / 熊本県](http://www.pref.kumamoto.jp/kiji_15425.html?type=top)
 - [オープンデータで避難所地図を表示する「ヒナンパス」が、熊本地震に暫定対応｜利用者向け情報｜準天頂衛星システム（QZSS）公式サイト - 内閣府](http://qzss.go.jp/usage/userreport/hinanpass_160420.html)
 - [熊本地震で、ITSJapanが乗用車・トラックの通行実績情報を提供｜ニュース/アーカイブ｜準天頂衛星システム（QZSS）公式サイト - 内閣府](http://qzss.go.jp/news/archive/its-jp_160419.html)
+- [熊本地震への対応について | OpenStreetMap Japan](https://openstreetmap.jp/node/779)
 
 ## 三半規管に異常あり{#astro}
 
