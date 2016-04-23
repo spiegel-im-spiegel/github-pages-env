@@ -1,6 +1,6 @@
 +++
 date = "2016-03-01T22:02:41+09:00"
-update = "2016-03-08T13:57:12+09:00"
+update = "2016-04-23T10:49:00+09:00"
 description = "MSYS の後継（？）とも言える MSYS2 では開発環境を 32bit と 64bit で併設できるらしい。"
 draft = false
 tags = ["msys2", "gcc", "tools"]
@@ -351,6 +351,10 @@ sub   4096R/576CF231 2014-09-28
 ```
 
 もしかしたらこちらの `gpg.conf` ファイルも修正する必要があるかもしれない（未確認）。
+
+## 関連するブックマーク
+
+- [MSYS2で快適なターミナル生活 - Qiita](http://qiita.com/Ted-HM/items/4f2feb9fdacb6c72083c)
 
 [MSYS2]: http://msys2.github.io/ "MSYS2 installer"
 [TDM-GCC]: http://tdm-gcc.tdragon.net/ "TDM-GCC"
