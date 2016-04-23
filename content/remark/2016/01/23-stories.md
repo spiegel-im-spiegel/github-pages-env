@@ -1,6 +1,6 @@
 +++
 date = "2016-01-23T13:54:34+09:00"
-update = "2016-03-03T01:20:06+09:00"
+update = "2016-04-23T21:20:02+09:00"
 description = "Planet Nine / 次期X線国際天文衛星 ASTRO-H は 2月12日に打ち上げ予定 / 2^74207281-1 is Prime! / いまのところ「秀丸」への依存度は1割程度 / Bitcoin は失敗したか / TeX Wiki が移転しとるがな / 「『いま読むべき本』３冊」"
 draft = false
 tags = ["astronomy", "planet9", "jaxa", "hidemaru", "atom", "editor", "bitcoin", "tex", "pandoc", "book", "math", "prime-number"]
@@ -45,6 +45,7 @@ title = "週末スペシャル： Planet Nine"
 - [Alpha 18.2 | Planet Nine | Now Available « Universe Sandbox | blog](http://universesandbox.com/blog/2016/01/alpha-18-2-planet-9/)
 - {{< pdf-file title="Constraints on the location of a possible 9th planet derived from the Cassini data" link="http://arxiv.org/pdf/1602.06116.pdf" >}} : 土星探査機 Cassini のデータから9番目の惑星を探そうという論文らしい
 - [第9惑星発見へ「あと2、3年」？ 天文学者からアイデア集結中 : ギズモード・ジャパン](http://www.gizmodo.jp/2016/03/planet_nine.html)
+- [「第9惑星」の場所、特定される？ カッシーニのデータから解析｜WIRED.jp](http://wired.jp/2016/04/22/planet-nine-location/)
 
 実際に発見されたわけではなく，いわゆる「海王星以遠天体（Trans-Neptunian Object; TNO または Edgeworth-Kuiper Belt Object; EKBO）」の軌道の偏りからの推測らしい。
 よくある与太話ではなく，割と確からしい話のようだ。

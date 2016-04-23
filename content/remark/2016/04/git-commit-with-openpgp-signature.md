@@ -1,5 +1,6 @@
 +++
 date = "2016-04-23T15:17:49+09:00"
+update = "2016-04-23T15:35:10+09:00"
 description = "Git で commit する際に OpenPGP 署名を付加できるらしい。いやぁ，今まで知らなかったよ。物知らずでごめん。"
 draft = false
 tags = ["git", "github", "gnupg", "openpgp", "cryptography", "certification"]
@@ -105,7 +106,8 @@ $ git config --global commit.gpgsign true
 この状態で逆に commit 時に署名を付加してほしくない場合は `--no-gpg-sign` オプションを付加すればいいようだ。
 
 ちなみに [ATOM] エディタの [git-plus] パッケージで commit してみたが，きちんと署名もできていた。
-「[GitHubでGPGにより署名されたコミットにバッジが表示されるようになったので設定してみる](http://qiita.com/prince_0203/items/ef0e12f2f6d150ff0485)」には「GitHub DesktopはGPGによる署名をサポートしていません」とあるが， Facebook で教えてもらっとところによれば， `gpg-agent` と Pinentry が正しく設定されていれば使えるそうだ。
+[Git Extensions] でも問題ないようだ。
+「[GitHubでGPGにより署名されたコミットにバッジが表示されるようになったので設定してみる](http://qiita.com/prince_0203/items/ef0e12f2f6d150ff0485)」には「GitHub DesktopはGPGによる署名をサポートしていません」とあるが， Facebook で教えてもらった話によれば， `gpg-agent` と Pinentry が正しく設定されていれば使えるそうだ。
 
 きちんと署名されているか確認するには `git log` コマンドに --show-signature オプションを付けるとよい。
 
@@ -167,6 +169,7 @@ Tag や commit に署名することで「なりすまし」に対する抑止�
 [GnuPG]: https://www.gnupg.org/ "The GNU Privacy Guard"
 [ATOM]: https://atom.io/ "Atom"
 [git-plus]: https://atom.io/packages/git-plus "git-plus"
+[Git Extensions]: http://gitextensions.github.io/ "Git Extensions"
 [GitHub]: https://github.com/ "GitHub"
 
 ## 参考図書
