@@ -1,5 +1,6 @@
 +++
 date = "2016-04-26T22:29:08+09:00"
+update = "2016-04-26T22:45:23+09:00"
 description = "昨日から delicious.com に繋がらねー！ と思ったら， del.icio.us に移行するというアナウンスが。"
 draft = false
 tags = ["bookmark"]
@@ -29,6 +30,7 @@ title = "delicious.com が del.icio.us に移行するらしい（出戻り？�
 
 とりあえず，ここに退避させておく。
 
+- [さくらのクラウドにおいて共通のSSHホスト鍵が使用されている問題 - Qiita](http://qiita.com/suzukis/items/599e0bf9aab531101d5e)
 - [JPRS、サーバー証明書発行サービスを事業者向けに提供 -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/20160426_755182.html)
 - [グレートバリアリーフで9割のサンゴが「白化」している：調査結果｜WIRED.jp](http://wired.jp/2016/04/26/coral-are-bleaching/)
 - [絶版マンガを無料で読める「マンガ図書館Z」、iOS/Android専用スマホアプリをリリース -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/20160426_755216.html)

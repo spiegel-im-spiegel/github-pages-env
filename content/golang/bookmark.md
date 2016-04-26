@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-04-18T23:00:37+09:00"
+update = "2016-04-26T22:45:23+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -364,6 +364,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Golangでreduce関数を提供しているライブラリugoを眺めてみた - Qiita](http://qiita.com/letusfly85/items/5f479e5b072a05dbcf53)
 - [Go 言語で rm 用ごみ箱ツール gomi を作った - Qiita](http://qiita.com/b4b4r07/items/3a790fe7e925b4ba14f3)
 - [パッケージのimport pathを好みのURLにする - Qiita](http://qiita.com/lufia/items/8f3cc32f26168702e2f4)
+- [JSONSchemaからstructのようなコードを生成する"structr"というのを書いた - Qiita](http://qiita.com/damele0n/items/92a9b845c991b1b29aea)
+- [Twilio使って、入力した電話番号をチェックする方法 - Qiita](http://qiita.com/dbsparkle/items/72fc1ad50ba6000f2630)
 
 ### コマンドライン・ツール
 
