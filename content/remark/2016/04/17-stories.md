@@ -1,6 +1,6 @@
 +++
 date = "2016-04-17T15:38:38+09:00"
-update = "2016-04-21T22:04:16+09:00"
+update = "2016-04-26T22:30:27+09:00"
 description = "2016年熊本地震 / 三半規管に異常あり / ATOM 1.7 と Visual Studio Code 1.0 が登場 / Windows 版 QuickTime がようやく終了 / その他の気になる記事"
 draft = false
 tags = ["environment", "astronomy", "telescope", "jaxa", "astro-h", "atom", "vscode", "editor", "security", "vulnerability"]
@@ -75,6 +75,7 @@ Crisis Management って結局はそういうことなんだよね。
 - [オープンデータで避難所地図を表示する「ヒナンパス」が、熊本地震に暫定対応｜利用者向け情報｜準天頂衛星システム（QZSS）公式サイト - 内閣府](http://qzss.go.jp/usage/userreport/hinanpass_160420.html)
 - [熊本地震で、ITSJapanが乗用車・トラックの通行実績情報を提供｜ニュース/アーカイブ｜準天頂衛星システム（QZSS）公式サイト - 内閣府](http://qzss.go.jp/news/archive/its-jp_160419.html)
 - [熊本地震への対応について | OpenStreetMap Japan](https://openstreetmap.jp/node/779)
+- [災害ボランティアの受入について / 熊本市ホームページ](http://www.city.kumamoto.jp/hpkiji/pub/detail.aspx?c_id=5&type=top&id=12541)
 
 ## 三半規管に異常あり{#astro}
 

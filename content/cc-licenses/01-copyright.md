@@ -1,6 +1,6 @@
 +++
 date = "2015-10-17T15:51:23+09:00"
-update = "2016-03-01T16:53:58+09:00"
+update = "2016-04-26T21:49:01+09:00"
 description = "まずは「著作権」について簡単におさらい。"
 draft = false
 tags = ["code", "law", "intellectual-property", "copyright"]
@@ -336,6 +336,7 @@ title = "著作権と著作権法"
 - [特集 : 18歳からの著作権入門 - CNET Japan](http://japan.cnet.com/sp/copyright_study/)
 - [自由か著作権か？](http://www.hyuki.com/gnu/frcp.html)
 - [TwitterのGIFアニメ添付機能、ユーザーが「著作権侵害」に問われる可能性は？――福井弁護士に聞く (1/2) - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1602/29/news077.html)
+- [フェアユース - YouTube](https://www.youtube.com/yt/copyright/ja/fair-use.html)
 
 [本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
 [著作権法]: http://law.e-gov.go.jp/htmldata/S45/S45HO048.html "著作権法"
