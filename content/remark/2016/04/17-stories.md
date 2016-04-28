@@ -1,6 +1,6 @@
 +++
 date = "2016-04-17T15:38:38+09:00"
-update = "2016-04-26T22:30:27+09:00"
+update = "2016-04-28T21:52:35+09:00"
 description = "2016年熊本地震 / 三半規管に異常あり / ATOM 1.7 と Visual Studio Code 1.0 が登場 / Windows 版 QuickTime がようやく終了 / その他の気になる記事"
 draft = false
 tags = ["environment", "astronomy", "telescope", "jaxa", "astro-h", "atom", "vscode", "editor", "security", "vulnerability"]
@@ -83,6 +83,7 @@ Crisis Management って結局はそういうことなんだよね。
 - [X線天文衛星「ひとみ」、2重のトラブルで「自分で回った」と推定 | Sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/space/2016_04_15_asrtoh.html)
 - [JAXA | X線天文衛星「ひとみ」（ASTRO-H）の状況について](http://www.jaxa.jp/press/2016/04/20160419_hitomi_j.html)
 - [2016年4月20日ニュース「姿勢制御装置が誤作動 通信途絶えた天文衛星『ひとみ』」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2016/04/20160420_01.html)
+- [X線天文衛星「ひとみ」、浮かび上がった3つの問題点 | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/02/2016_04_26_astroh.html)
 
 小天体かデブリにでもぶち当たったのかと思ったが，擬人化するなら三半規管の異常で「ピヨった」状態らしい。
 太陽電池パネルの一部が千切れるほどの高速回転って相当だと思うけど。

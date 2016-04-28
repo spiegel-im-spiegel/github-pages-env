@@ -1,6 +1,6 @@
 +++
 date = "2016-03-27T02:38:30+09:00"
-update = "2016-04-09T21:39:04+09:00"
+update = "2016-04-28T21:52:18+09:00"
 description = "安全と安心をいっしょくたにする輩を信用してはいけない / 漫画家小山田いくさん死去 / RFC 7763 The text/markdown Media Type / その他の気になる記事"
 draft = false
 tags = ["security", "risk", "management", "comic", "markdown", "rfc"]
@@ -62,6 +62,7 @@ IPA も気をつけなよ。
 - [米政府によるスマホデータ取り出しの協力要請、ACLUが実態調査 - CNET Japan](http://japan.cnet.com/news/society/35080404/)
 - [FBIのiPhoneロック解除方法、Appleに知らされない可能性も (1/3) - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1604/01/news114.html)
 - [FBI長官、「購入したロック解除ツールはiPhone 5sでは機能しなかった」 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1604/08/news060.html)
+- [FBIは銃撃犯のiPhoneをハッキングしたツールの詳細をAppleに開示しない意向 | TechCrunch Japan](http://jp.techcrunch.com/2016/04/27/20160426fbi-to-keep-apple-guessing-on-san-bernardino-iphone-hack/)
 
 ## 漫画家小山田いくさん死去{#iku}
 
