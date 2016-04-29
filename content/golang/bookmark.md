@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-04-26T22:45:23+09:00"
+update = "2016-04-29T08:52:23+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -85,6 +85,8 @@ title = "Go 言語に関するブックマーク"
 - [Go で UTF-8 の文字列を扱う - Qiita](http://qiita.com/masakielastic/items/01a4fb691c572dd71a19)
 - [Go言語 Gmailのsubjectの日本語文字化けに対応する - Qiita](http://qiita.com/yyoshiki41/items/79882e269ca6af4c2236)
 - [Text normalization in Go - The Go Blog](https://blog.golang.org/normalization) : Unicode 正規化について
+- [Go言語で文字列の変換(全角・半角、ひらがな・カタカナ)をする : Serendip - Webデザイン・プログラミング](http://www.serendip.ws/archives/6307)
+- [Goで全角英数字を半角にする - Qiita](http://qiita.com/ktashiro/items/da5cbee3129acc74e5d7)
 
 [本家ブログ]でも以下の記事で解説している。
 

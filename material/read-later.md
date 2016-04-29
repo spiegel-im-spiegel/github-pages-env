@@ -12,6 +12,10 @@
 
 ## Delicois.com が死んでるのでブックマークのバックアップ
 
+### 2016-04-29
+
+- [Amazon.co.jp： 増補新版 イスラーム世界の論じ方: 池内 恵: 本](http://www.amazon.co.jp/gp/product/4120048349/)
+
 ### 2016-04-28
 
 - [JVNVU#91176422: NTP daemon (ntpd) に複数の脆弱性](http://jvn.jp/vu/JVNVU91176422/)
@@ -20,6 +24,7 @@
 - [偽の「00000JAPAN」Wi-Fiアクセスポイントに念のため注意 -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/20160428_755792.html)
 - [Apache Struts 2 の脆弱性 (S2-032) に関する注意喚起](https://www.jpcert.or.jp/at/2016/at160020.html)
     - [Apache Struts2 の脆弱性 (CVE-2016-3081)についてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20160427/1461771099)
+    - [Struts2のDMI(Dynamic Method Invocation)とは何か - Qiita](http://qiita.com/alpha_pz/items/e6b41be70b12174dabda)
 - [JAXA | X線天文衛星ASTRO-H「ひとみ」の今後の運用について](http://www.jaxa.jp/press/2016/04/20160428_hitomi_j.html)
 - [CESA、有料ガチャで提供される全アイテム確率表示を原則とするガイドラインを制定 - CNET Japan](http://japan.cnet.com/news/business/35081930/)
 - [裁判所は子どもたちの勝手なアプリ内購入に関しAmazonを有責と裁定 | TechCrunch Japan](http://jp.techcrunch.com/2016/04/28/20160427court-holds-amazon-liable-for-years-of-unauthorized-in-app-purchases-made-by-kids/)
