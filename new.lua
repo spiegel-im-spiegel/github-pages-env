@@ -11,16 +11,19 @@ local month = os.date("%m")
 local day = os.date("%d")
 if #arg == 1 then
 	if arg[1] == "remark" then
+		local section = arg[1]
 		if year == "2015" then
-			path = Hugolib.pathjoin(arg[1], year, month..day.."-stories.md")
+			path = Hugolib.pathjoin(section, year, month..day.."-stories.md")
 		else
-			path = Hugolib.pathjoin(arg[1], year, month, day.."-stories.md")
+			path = Hugolib.pathjoin(section, year, month, day.."-stories.md")
 		end
+	elseif arg[1] == "bookmarks" then
+		path = Hugolib.pathjoin(arg[1], year, month, day.."-bookmarks.md")
 	end
 else
-	section = arg[1]
+	local section = arg[1]
 	file = arg[2]
-	if section == "remark" then
+	if section == "remark" or section == "bookmarks" then
 		if year == "2015" then
 			path = Hugolib.pathjoin(section, year, file)
 		else

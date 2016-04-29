@@ -15,13 +15,20 @@
 <section>
 <h2>最近の記事</h2>
 <ul class="title-list">
-{{ range first 5 .Site.Pages }}{{ partial "li.html" . }}{{ end }}
+{{ range first 5 (where .Site.Pages "Section" "!=" "bookmarks") }}{{ partial "li.html" . }}{{ end }}
 </ul>
 
 <section>
 <h3>Popular <a href="/tags/">Tags</a></h3>
 <ul class="cloud" style="font-size:smaller;">
-	{{ range $key, $value := .Site.Taxonomies.tags.Alphabetical }}{{ if ge $value.Count 5 }}<li>#<a href="/tags/{{ $value.Name | urlize }}">{{ $value.Name }}</a> ({{ $value.Count }})</li>{{ end }}{{ end }}
+	{{ range $key, $value := .Site.Taxonomies.tags.Alphabetical }}{{ if ge $value.Count 8 }}<li>#<a href="/tags/{{ $value.Name | urlize }}">{{ $value.Name }}</a> ({{ $value.Count }})</li>{{ end }}{{ end }}
+</ul>
+</section> <!-- Tags -->
+
+<section>
+<h3>本日の<a href="/bookmarks/">ブックマーク</a></h3>
+<ul class="cloud">
+	{{ range first 1 (where .Site.Pages "Section" "==" "bookmarks") }}{{ partial "li-section.html" . }}{{ end }}
 </ul>
 </section> <!-- Tags -->
 </section> <!-- 最近の記事 -->

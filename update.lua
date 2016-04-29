@@ -8,7 +8,7 @@ end
 local path = arg[1]
 if #arg > 1 then
 	local section = arg[1]
-	if section == "remark" then
+	if section == "remark" or section == "bookmarks" then
 		local year = os.date("%Y")
 		if year == "2015" then
 			if #arg > 2 then
