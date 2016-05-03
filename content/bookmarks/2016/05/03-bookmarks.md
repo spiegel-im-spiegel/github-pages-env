@@ -19,6 +19,7 @@ title = "2016-05-03 のブックマーク"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
+- [Github上のリリースを見逃さない - Qiita](http://qiita.com/takecy/items/690cf140ce2eddacee56)
 - [5/1 訃報　長谷川一郎先生逝去-星の広場HAL-News](http://blog.zaq.ne.jp/hoshinohiroba/article/977/)
 - [Announcing Flattr Plus](http://blog.flattr.net/2016/05/announcing-flattr-plus/)
 - [International Day Against DRM - Tuesday, May 3rd | Defective by Design](https://www.defectivebydesign.org/dayagainstdrm)

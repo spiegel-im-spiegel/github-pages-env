@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-04-29T08:52:23+09:00"
+update = "2016-05-03T23:18:08+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -383,6 +383,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Goで外部コマンドをパイプして実行する - Qiita](http://qiita.com/yuroyoro/items/9358cd25b5f7fe9dd37f)
     - [Big Sky :: golang で UNIX コマンドパイプラインを扱う](http://mattn.kaoriya.net/software/lang/go/20151030131242.htm)
 - [Golangで外部コマンドを実行する方法まとめ - Qiita](http://qiita.com/tanksuzuki/items/9205ff70c57c4c03b5e5)
+- [spf13/cobra: A Commander for modern Go CLI interactions](https://github.com/spf13/cobra)
 
 ### 入出力処理
 

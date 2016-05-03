@@ -26,7 +26,7 @@
 </section> <!-- Tags -->
 
 <section>
-<h3>本日の<a href="/bookmarks/">ブックマーク</a></h3>
+<h3>本日の<a href="/bookmarks/">ブックマーク</a> <a href='/bookmarks/index.xml' title='Feed'><i class='fa fa-rss'></i></a></h3>
 <ul class="cloud">
 	{{ range first 1 (where .Site.Pages "Section" "==" "bookmarks") }}{{ partial "li-section.html" . }}{{ end }}
 </ul>
