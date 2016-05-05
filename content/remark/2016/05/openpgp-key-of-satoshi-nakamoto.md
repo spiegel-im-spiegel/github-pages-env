@@ -1,5 +1,6 @@
 +++
 date = "2016-05-04T23:28:56+09:00"
+update = "2016-05-05T22:31:09+09:00"
 description = "“Satoshi Nakamoto” の OpenPGP 鍵について。"
 draft = false
 tags = ["cryptography", "openpgp", "certification"]
@@ -27,6 +28,7 @@ title = "Satoshi Nakamoto の OpenPGP 鍵"
 - [Bitcoin’s Creator Satoshi Nakamoto Is Probably This Unknown Australian Genius | WIRED](https://www.wired.com/2015/12/bitcoins-creator-satoshi-nakamoto-is-probably-this-unknown-australian-genius/)
     - [この無名の天才がビットコイン発明者「サトシ・ナカモト」である証拠（1）｜WIRED.jp](http://wired.jp/2016/05/03/bitcoins-creator-satoshi-nakamoto-is-1/)
     - [この無名の天才がビットコイン発明者「サトシ・ナカモト」である証拠（2）｜WIRED.jp](http://wired.jp/2016/05/04/bitcoins-creator-satoshi-nakamoto-is-2/)
+    - [この無名の天才がビットコイン発明者「サトシ・ナカモト」である証拠（3）｜WIRED.jp](http://wired.jp/2016/05/05/bitcoins-creator-satoshi-nakamoto-is-3/)
 
 この中で
 
