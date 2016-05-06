@@ -1,6 +1,6 @@
 +++
 date = "2015-12-15T21:19:58+09:00"
-update = "2016-03-29T04:47:40+09:00"
+update = "2016-05-06T22:57:04+09:00"
 description = "Go 言語がいわゆる「オブジェクト指向言語」と言えるかどうかについては色々とあるようだが，オブジェクト指向プログラミングを助けるための仕掛けはいくつか存在する。今回はその中の type キーワードを中心に解説していく。"
 draft = false
 tags = ["golang", "object-oriented", "programming", "type", "interface"]
@@ -425,6 +425,7 @@ func main() {
 - [Go言語に継承は無いんですか【golang】 - DRYな備忘録](http://otiai10.hatenablog.com/entry/2014/01/15/220136)
 - [Go言語でジェネリクスっぽいことがしたいでござる【generics】【golang】 - DRYな備忘録](http://otiai10.hatenablog.com/entry/2014/06/16/224109)
 - [Go 言語の値レシーバとポインタレシーバ | Step by Step](https://skatsuta.github.io/2015/12/29/value-receiver-pointer-receiver/)
+- [埋込みとインタフェース #golang - Qiita](http://qiita.com/tenntenn/items/bba69d84a1e0b67c4db8)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 

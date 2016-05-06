@@ -1,6 +1,6 @@
 +++
 date = "2015-09-30T00:27:48+09:00"
-update = "2016-02-22T19:23:46+09:00"
+update = "2016-05-06T22:56:51+09:00"
 description = "C++ や Java のような言語圏から来た（私のような）人間にとって Go 言語の「オブジェクト指向」はかなり異質なのだが，慣れてみると逆にとても合理的に見えてくる。この最たるものが error 型である。（追記あり）"
 draft = false
 tags = ["golang", "error", "exception", "panic", "interface"]
@@ -431,6 +431,7 @@ func main() {
 - [DSAS開発者の部屋:Go ではエラーを文字列比較する？という話について](http://dsas.blog.klab.org/archives/go-errors.html)
 - [panicはともかくrecoverに使いどころはほとんどない - Qiita](http://qiita.com/ruiu/items/ff98ded599d97cf6646e)
 - [Golang: nil Pointer Receiverの話 - Qiita](http://qiita.com/stsn/items/73714caf8458b1d973f2)
+- [echoのAPIサーバ実装とエラーハンドリングの落とし穴 - Qiita](http://qiita.com/tienlen/items/5f2bcfe06eb83830ee55)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
