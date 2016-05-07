@@ -1,6 +1,6 @@
 +++
 date = "2016-01-05T22:06:41+09:00"
-update = "2016-01-06T09:48:00+09:00"
+update = "2016-05-07T09:33:19+09:00"
 description = "ファサード・パターンは DDD (Domain-Driven Design) と相性がよい。普通は Web アプリケーションのような多様なサブシステムを持つシステムを設計する際に導入する考え方だが， CLI の場合でもサブコマンドを構成するのであればファサード・パターンがよいだろう。"
 draft = false
 tags = ["golang", "cli", "facade"]
@@ -470,6 +470,7 @@ C:\workspace\astrocalc> bin\astrocalc.exe mjdn 2015 1 1
 - [Go言語のflagパッケージを使う - uragami note](http://ryochack.hatenablog.com/entry/2013/04/17/232753)
 - [Go言語のCLIツールのpanicをラップしてクラッシュレポートをつくる | SOTA](http://deeeet.com/writing/2015/04/17/panicwrap/)
 - [flag 並にシンプルでより強力な CLI パーサ kingpin の紹介 - Qiita](http://qiita.com/kumatch/items/258d7984c0270f6dd73a)
+- [spf13/cobra: A Commander for modern Go CLI interactions](https://github.com/spf13/cobra) : [Docker](https://github.com/docker) や [Hugo](https://github.com/spf13/hugo) の [Steve Francia (spf13)](https://github.com/spf13) さんが公開しているパッケージ。そのうち試したい
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
