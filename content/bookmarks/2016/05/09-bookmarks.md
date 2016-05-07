@@ -19,6 +19,8 @@ title = "2016-05-09 のブックマーク"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
+- [ローリングストーンズにはドナルドトランプ氏に楽曲の使用中止を命じる権利があるのか(栗原潔) - 個人 - Yahoo!ニュース](http://bylines.news.yahoo.co.jp/kuriharakiyoshi/20160506-00057409/)
+- [Android で Scala をはじめる方法とトラブル対策をまとめたので、ぜひみんな2016年は Scala で Android を書きましょうという話 - Qiita](http://qiita.com/Biacco/items/5b7c74ce043d842458a2)
 - [GoogleのBigQueryによる大規模データ分析をGoogle DriveやGoogle Sheetsのユーザーにも可利用に…CloudとAppsの融合を進める | TechCrunch Japan](http://jp.techcrunch.com/2016/05/07/20160506google-connects-bigquery-to-google-drive-and-sheets/)
 - [Chrome, Firefox and Safari Block Pirate Bay as "Phishing" Site - TorrentFreak](https://torrentfreak.com/chrome-and-firefox-block-tpb-as-phishing-site-160507/)
 - [Node v0.12.14 (Maintenance) | Node.js](https://nodejs.org/en/blog/release/v0.12.14/)
