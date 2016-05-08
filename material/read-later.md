@@ -1,24 +1,3 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-- [「出版不況論」をめぐる議論の混乱について « マガジン航[kɔː]](http://magazine-k.jp/2016/05/01/editors-note-12/)
-    - [対談「50年後の文芸はどうなっているのか？」藤谷治✕藤井大洋 « マガジン航[kɔː]](http://magazine-k.jp/2016/05/02/literature-in-2066/)
-    - [ライトノベル市場は衰退どころか拡大傾向にある ── 『ORICONエンタメ・マーケット白書2015』より:見て歩く者 by 鷹野凌](http://www.wildhawkfield.com/2016/05/real-light-novel-market.html)
-- [やましくなければプライバシーは要らない？ nothing to hideを巡って(八田真行) - 個人 - Yahoo!ニュース](http://bylines.news.yahoo.co.jp/hattamasayuki/20160430-00057230/)
-- [About the security content of Xcode 7.3.1 - Apple サポート](https://support.apple.com/ja-jp/HT206338)
-    - [Vulnerability Summary for CVE-2016-2315](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-2315)
-    - [Vulnerability Summary for CVE-2016-2324](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-2324)
-    - [AppleがXcodeの更新版を公開、Gitの脆弱性を修正 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1605/06/news042.html)
-- [ImageMagick の脆弱性 (CVE-2016-3714) に関する注意喚起](https://www.jpcert.or.jp/at/2016/at160021.html)
-    - [ImageMagickの脆弱性(CVE-2016-3714他)についてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20160504/1462352882)
-    - [[重要] ImageMagick の脆弱性 ImageTragick (CVE-2016-3714) への対応について | Movable Type ニュース](http://www.sixapart.jp/movabletype/news/2016/05/06-1452.html)
-- [「OpenSSL」に6件の脆弱性、修正を施した最新版v1.0.2h/v1.0.1tが公開 - 窓の杜](http://www.forest.impress.co.jp/docs/news/20160506_756180.html)
-    - [OpenSSLの更新版公開、複数の脆弱性を修正 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1605/06/news046.html)
-    - [OpenSSLに2件の深刻な脆弱性--早急にパッチの適用を - ZDNet Japan](http://japan.zdnet.com/article/35082166/)
-    - [Node v0.10.45 (Maintenance) | Node.js](https://nodejs.org/en/blog/release/v0.10.45/)
-    - [Node v0.12.14 (Maintenance) | Node.js](https://nodejs.org/en/blog/release/v0.12.14/)
-    - [Node v4.4.4 (LTS) | Node.js](https://nodejs.org/en/blog/release/v4.4.4/)
-    - [Node v5.11.1 (Stable) | Node.js](https://nodejs.org/en/blog/release/v5.11.1/)
-    - [Node v6.1.0 (Current) | Node.js](https://nodejs.org/en/blog/release/v6.1.0/)
-- [Chrome, Firefox and Safari Block Pirate Bay as "Phishing" Site - TorrentFreak](https://torrentfreak.com/chrome-and-firefox-block-tpb-as-phishing-site-160507/)
-- [ローリングストーンズにはドナルドトランプ氏に楽曲の使用中止を命じる権利があるのか(栗原潔) - 個人 - Yahoo!ニュース](http://bylines.news.yahoo.co.jp/kuriharakiyoshi/20160506-00057409/)
-
+なし
