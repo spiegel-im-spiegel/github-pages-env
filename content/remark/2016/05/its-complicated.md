@@ -1,0 +1,109 @@
++++
+date = "2016-05-10T18:30:53+09:00"
+description = "たぶん私がこの本をひととおり理解するには，あと2,3回は再読しないといけないような気がする。なんでみんなスラスラ理解できるの？ 羨ましい。"
+draft = false
+tags = ["book", "communication", "privacy", "internet"]
+title = "『つながりっぱなしの日常を生きる』を読む"
+
+[author]
+  avatar = "/images/avatar.jpg"
+  facebook = "spiegel.im.spiegel"
+  flattr = "spiegel"
+  flickr = "spiegel"
+  github = "spiegel-im-spiegel"
+  instagram = "spiegel_2007"
+  license = "by-sa"
+  linkedin = "spiegelimspiegel"
+  name = "Spiegel"
+  tumblr = "spiegel-im-spiegel"
+  twitter = "spiegel_2007"
+  url = "http://www.baldanders.info/spiegel/profile/"
++++
+
+『[つながりっぱなしの日常を生きる]』は Danah Boyd さんによって2014年に発刊された。
+邦訳本も同じ2014年に発刊され，私も早々に購入したのだが読むのに随分かかってしまった。
+
+この本の特徴は「ティーン（13歳から19歳）」を対象に2005年から2012年の8年間に渡るフィールドワークがベースになっている点である。
+論点も多岐にわたっていて，目次を見るだけでも
+
+1. アイデンティティ
+2. プライバシー
+3. 中毒[^adct]
+4. 危険
+5. いじめ
+6. 不平等
+7. リテラシー
+8. パブリック
+
+[^adct]: {{< ruby "しへき" >}}嗜癖{{< /ruby >}}（addiction）のこと。日常使う言葉ではないかもしれないが「嗜癖」という単語があるのだから，安易に「中毒」という言葉を使わないで欲しい。たとえば「アルコール中毒」と「アルコール嗜癖（または依存症）」はそれぞれ別の症状を指す。
+
+とかなり広範である。
+掘り下げれば各章だけで本が書けそうな勢いだ。
+しかも各論点は独立しているのではなくお互いに絡み合っていて，まさに原題のとおり “It's Complicated” なのである。
+
+私が読了するまでに1年半以上かかってしまったのも無理からぬと察して欲しい（いや，途中から本業が忙しくなって1年近く積ん読状態だったのだが）。
+たぶん私がこの本をひととおり理解するには，あと2,3回は再読しないといけないような気がする。
+なんでみんなスラスラ理解できるの？ 羨ましい。
+
+この読書感想文で全部を網羅するのは無理なので，今回は「プライバシー」を中心に書いてみる。
+
+## 公開されたプライバシー
+
+私が『[つながりっぱなしの日常を生きる]』に注目した理由のひとつは『日経サイエンス』 2008年12月号の特集記事に出てきた「公開されたプライバシー」というフレーズがずうっと気になっていたからだ。
+
+{{< fig-quote title="「ネットが蝕むプライバシー」を読む" link="http://www.baldanders.info/spiegel/log2/000415.shtml" >}}
+<q>もともとのプライバシーは空間概念と一体になっている。つまり私的領域と公的領域を区別することである。しかしインターネット，特に Web 2.0 以降は，情報は空間概念から切り離される。場所が不定になるのだ。だから，それをコントロールしたければ，情報へのアクセス性を対象にせざるを得なくなる。感覚的には分かっていても，改めて「公開されたプライバシー」という言葉を与えられると少し見方が変わってくる。</q>
+{{< /fig-quote >}}
+
+『[つながりっぱなしの日常を生きる]』では「プライバシー」をこう記述している。
+
+{{< fig-quote title="つながりっぱなしの日常を生きる" link="http://www.amazon.co.jp/exec/obidos/ASIN/B0125TZSZ0/baldandersinf-22/" >}}
+<q>それは人々が印象や情報の流れや文脈を管理することにより社会的状況をコントロールしようとするのに用いられるプロセスなのだ。</q>（p.122）
+{{< /fig-quote >}}
+
+つまり特定の人達の間で**のみ**共有される「文脈」と「私」との関係が重要なのだ。
+これはネット以前では物理的な「空間」によって保証されていた。
+ネットは空間概念を無意味化する。
+故に「プライバシーは信用の問題」（p.118）であり，プライバシーを守るということは「ひとつの主体性の表現」（p.123）なのである。
+
+{{< fig-quote title="つながりっぱなしの日常を生きる" link="http://www.amazon.co.jp/exec/obidos/ASIN/B0125TZSZ0/baldandersinf-22/" >}}
+<q>ティーンは自分たちが見られていることを前提として、公共性に対立するのではなく、公的環境の中でプライバシーを見つけようとする。</q>（p.119）
+{{< /fig-quote >}}
+
+{{< fig-quote title="つながりっぱなしの日常を生きる" link="http://www.amazon.co.jp/exec/obidos/ASIN/B0125TZSZ0/baldandersinf-22/" >}}
+<q>僅かにシェアしていることによって、何もシェアしないでいるよりもプライバシーがもたらされる</q>（p.120）
+{{< /fig-quote >}}
+
+言い方を変えるなら “nothing to hide” と言うのは対象の主体性を否定するのと同義である[^nth]。
+
+- [やましくなければプライバシーは要らない？ nothing to hideを巡って(八田真行) - 個人 - Yahoo!ニュース](http://bylines.news.yahoo.co.jp/hattamasayuki/20160430-00057230/)
+
+[^nth]: 念のために言っておくと八田真行さんが書かれているプライバシーの問題は文脈が異なる。しかし政府機関などが “nothing to hide” を理由にプライバシーを踏みにじる行為は「人を見たら泥棒と思え」と言っているのと同じであり，国家と個人の間の信頼関係の崩壊であるとも言える。その意味でも「プライバシーは信用の問題」なのかもしれないが。
+
+## プライバシーを守るためのリテラシー
+
+しかし，公の場において限られた人たちの間でのみ「文脈」を維持し，さらに個人のプライバシーを守るというのはけっこう大変である。
+（なぜ公の場でそのようなことをするのか，あるいはせざるを得ないのかについてが『[つながりっぱなしの日常を生きる]』の主要テーマのひとつである）
+
+『[つながりっぱなしの日常を生きる]』では特定の友人たちとの間でのみ共感を交わす方法として歌詞を引用する例を挙げている（p.108-109）。
+友人たちとの間で交わされる「おしゃべり」に介入する親を回避するため，当人たち以外には反対の意味に解釈される唄の歌詞を引用する。
+
+こういう当人同士でのみ通用する「符牒[^c]」を用いるのは文脈を共有する手法としては割とありがちである。
+オタクが奇異な言動で他者から「キモい」と呼ばれることが「業界ではごほうび」なのもそうだし，中年サラリーマンが居酒屋トークで使う妙な代名詞もそれである。（もっとも最近は居酒屋トークで取引先っぽい相手を身も蓋もなく名指しで愚痴る人がいるが「お前社会的に死ぬ気か？」とか思ってしまうw）
+
+[^c]: 『[つながりっぱなしの日常を生きる]』では「ソーシャルステガノグラフィ」と呼んでいる。ちなみに「ステガノグラフィ」は「隠蔽」技術のひとつであり「暗号」ではない。
+
+しかしこれは個人および所属するコミュニティのリテラシーに大きく依存する。
+『[つながりっぱなしの日常を生きる]』ではリテラシーやスキルの巧拙による経済階級間の「デジタル・デバイド」は世代間のそれよりも大きいと指摘する。
+
+この本における Danah Boyd さんの関心は若者の生態にあるので必然的に若者が中心になるが，ネットを俯瞰してみれば「若者の問題」は先行世代にも通底するものがある。
+しかし大人の「未熟さ」は子どもに対して直接的な障壁として立ちはだかる。
+
+子どもたちが直面する障壁とそれをどのように迂回または乗り越えているかを知ることは社会と社会に連接するネットを知る大きな手がかりとなるだろう。
+
+[つながりっぱなしの日常を生きる]: http://www.amazon.co.jp/exec/obidos/ASIN/B0125TZSZ0/baldandersinf-22/ "Amazon.co.jp: つながりっぱなしの日常を生きる：ソーシャルメディアが若者にもたらしたもの 電子書籍: ダナ・ボイド, 野中 モモ: Kindleストア"
+
+<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B0125TZSZ0/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/616sjle5ITL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B0125TZSZ0/baldandersinf-22/">つながりっぱなしの日常を生きる：ソーシャルメディアが若者にもたらしたもの</a></dt><dd>ダナ・ボイド 野中 モモ </dd><dd>草思社 2014-10-09</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0141TUJHY/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B0141TUJHY.09._SCTHUMBZZZ_.jpg"  alt="角川インターネット講座５　ネットコミュニティの設計と力　つながる私たちの時代<角川インターネット講座> (角川学芸出版全集)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B01CZK0B2Y/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B01CZK0B2Y.09._SCTHUMBZZZ_.jpg"  alt="これからの世界をつくる仲間たちへ"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B01B1CKZQO/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B01B1CKZQO.09._SCTHUMBZZZ_.jpg"  alt="ForbesJapan (フォーブスジャパン) 2016年 03月号 [雑誌]"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B010LYGB34/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B010LYGB34.09._SCTHUMBZZZ_.jpg"  alt="「炎上」と「拡散」の考現学"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0191AIN6W/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B0191AIN6W.09._SCTHUMBZZZ_.jpg"  alt="ぼくらの仮説が世界をつくる"  /></a> </p>
+<p class="description">読むのに1年半以上かかってしまった。ネット，特に SNS 上で自身のアイデンティティやプライバシーを保つにはどうすればいいか。豊富な事例を交えて考察する。</p>
+<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-05-10">2016-05-10</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+</div>

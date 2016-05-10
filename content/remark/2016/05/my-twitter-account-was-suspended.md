@@ -1,5 +1,6 @@
 +++
 date = "2016-05-08T23:45:44+09:00"
+update = "2016-05-10T12:46:19+09:00"
 description = "Twitter アカウントが凍結されました。つってもメインじゃなくて @security_inci のほう。"
 draft = false
 tags = ["twitter", "security"]
@@ -25,7 +26,7 @@ title = "Twitter アカウントが凍結されました"
 何か気に入らないことがあったんだろう。
 まぁ [Twitter 有料化の噂](http://www.itmedia.co.jp/news/articles/1605/06/news066.html)がまことしやかに流れたりするし，そろそろ潮時かもね。
 
-正直言って， [GitHub](https://github.com/) のアカウントが止まったら非常に困るが， Twitter のアカウントが止まっても小指の先ほども困らない。
+たとえば [GitHub](https://github.com/) のアカウントが止まったらメチャメチャ困るが，正直に言って Twitter のアカウントが止まっても小指の先ほども困らない。
 いや， [Medium](https://medium.com/) のアカウントは Twitter アカウントに紐付いてるので，そっちは... やっぱ困らないな（笑）
 
 [@security_inci](https://twitter.com/security_inci) でセキュリティ情報を取っていた方がいらっしゃったら，申し訳ないですが諦めてください。
