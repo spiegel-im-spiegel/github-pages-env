@@ -393,6 +393,8 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - [AtomとPlantUMLで爆速UMLモデリング - Qiita](http://qiita.com/nakahashi/items/3d88655f055ca6a2617c)
 	- [Atom+PlantUMLで見た目もいい感じのシーケンス図を作成する - Qiita](http://qiita.com/k_nakayama/items/77ca73753ebd049a66de)
 - [AtomでRailsを爆速開発する環境を作ってみた - Qiita](http://qiita.com/tacumai/items/e84e586b5bde2979a066)
+- [atomでオープンソースSwiftを使って遊ぶ - Qiita](http://qiita.com/s_ikezawa/items/971506e71039656f4198)
+- [AtomでSalesforceの開発環境構築 - Qiita](http://qiita.com/s_ikezawa/items/ffd656f51af538ceaccb)
 
 ### ATOM TeX 環境を整える
 
