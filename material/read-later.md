@@ -1,26 +1,3 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-- [go-ole/go-ole: win32 ole implementation for golang](https://github.com/go-ole/go-ole) : Go 言語で OLE/COM を操作できるらしい
-- [【解説】 クリエイティブ・コモンズ・ライセンス入門 【知財管理65巻6号掲載】 | 弁護士 増田雅史の記録帳](https://masudalaw.wordpress.com/2016/05/06/ccl-basics/)
-- [死を司る「テロメア」とは何なのか？｜WIRED.jp](http://wired.jp/2016/05/08/about-telomere/)
-- [DRMの悪夢：KoboをアップグレードするとSonyリーダから受け継いだ電子書籍がライブラリから消えてしまう - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20160508/drmnightmare)
-- [News: KeePass 2.33 available! - KeePass](http://keepass.info/news/n160507_2.33.html)
-- [2016 年 5 月のセキュリティ情報 (月例) – MS16-051 ～ MS16-062, MS16-064 ～ MS16-067 | 日本のセキュリティチーム](https://blogs.technet.microsoft.com/jpsecurity/2016/05/11/201605-security-bulletin/)
-    - [2016年 5月 Microsoft セキュリティ情報 (緊急 8件含) に関する注意喚起](https://www.jpcert.or.jp/at/2016/at160022.html)
-    - [Microsoft 製品の脆弱性対策について(2016年5月)：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/ciadr/vul/20160511-ms.html)
-- [Adobe Reader および Acrobat の脆弱性 (APSB16-14) に関する注意喚起](https://www.jpcert.or.jp/at/2016/at160023.html)
-    - [Adobe Reader および Acrobat の脆弱性対策について(APSB16-14)(CVE-2016-1045等)：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/ciadr/vul/20160511-adobereader.html)
-- [Adobe Flash Player の脆弱性対策について(APSA16-02)(CVE-2016-4117)：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/ciadr/vul/20160511-adobeflashplayer.html)
-    - [Adobe Flash Player の脆弱性 (APSB16-15) に関する注意喚起](https://www.jpcert.or.jp/at/2016/at160024.html)
-- [Introducing unlimited private repositories](https://github.com/blog/2164-introducing-unlimited-private-repositories)
-    - [［速報］GitHub、月額7ドルでプライベートリポジトリを無制限に作成可能に。新料金プランを発表 － Publickey](http://www.publickey1.jp/blog/16/github7.html)
-- [「ひので」衛星が見た水星の太陽面通過](http://hinode.nao.ac.jp/news/160509MercuryTransit/)
-    - [APOD: 2016 May 11 - A Mercury Transit Music Video from SDO](http://apod.nasa.gov/apod/ap160511.html)
-    - [Double solar transits of Mercury with the ISS and a plane - YouTube](https://www.youtube.com/watch?v=Le-B2AnFiWw)
-- [2016年5月11日ニュース「太陽系外惑星、新たに1284個発見 地球型も9個」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2016/05/20160511_02.html)
-    - [NASA Finds 1,284 Alien Planets, Biggest Haul Yet, with Kepler Space Telescope](http://www.space.com/32850-nasa-kepler-telescope-finds-1284-alien-planets.html)
-    - [NASA、太陽系外惑星1284個を発見 | TechCrunch Japan](http://jp.techcrunch.com/2016/05/13/20160512astronomers-announce-largest-batch-of-new-planets-ever-discovered/)
-- [ダン・ギルモア著『あなたがメディア　ソーシャル新時代の情報術』を全文公開します | 新聞紙学的](https://kaztaira.wordpress.com/2016/05/12/%E3%83%80%E3%83%B3%E3%83%BB%E3%82%AE%E3%83%AB%E3%83%A2%E3%82%A2%E8%91%97%E3%80%8E%E3%81%82%E3%81%AA%E3%81%9F%E3%81%8C%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%80%80%E3%82%BD%E3%83%BC%E3%82%B7%E3%83%A3/)
-- [パナマ文書事件が明らかにした「第五階級」とは « マガジン航[kɔː]](http://magazine-k.jp/2016/05/13/panama-papers-and-fifth-estate/) : 確かに WikiLeaks とは異なるが， WikiLeaks の次の段階とも言える
-- [Amazon.co.jp： 【中東大混迷を解く】 サイクス=ピコ協定 百年の呪縛: 池内 恵: 本](http://www.amazon.co.jp/exec/obidos/ASIN/4106037866/baldandersinf-22/) : とりあえず予約した
-- [「モノのインターネットは、セキュリティの面では悪夢だ」EFFの警告 | TechCrunch Japan](http://jp.techcrunch.com/2016/05/12/20160509the-internet-of-things-is-security-nightmare-warns-eff/)
+- [インプリメンタ、ソルバ、ファインダ : プログラマのキャリアに関する3つの肩書きの提唱 | キャリア・働き方 | POSTD](http://postd.cc/implementers-solvers-and-finders/)
