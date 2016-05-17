@@ -1,6 +1,6 @@
 +++
 date = "2016-01-20T21:31:46+09:00"
-update = "2016-01-26T12:33:47+09:00"
+update = "2016-05-17T22:20:10+09:00"
 description = "前回紹介した「Creative Commons Licenses」の内容を踏まえた上で今回は「著作者人格権」と CC Licenses との関係について解説する。"
 draft = false
 tags = ["moral-rights", "creative-commons", "copyright", "license"]
@@ -136,6 +136,7 @@ title = "人格権と CC Licenses"
 
 - [【CCPLv3.0】著作者人格権（同一性保持権）に関する議論 | クリエイティブ・コモンズ・ジャパン](http://creativecommons.jp/2006/11/15/ccplv3-discussion/)
 - [What's New in 4.0 - Creative Commons - Creative Commons](https://creativecommons.org/Version4/) （[日本語参考訳](http://qiita.com/nyampire/items/c03904bd27bd8812aad3)）
+- [【ネット著作権】 人名・グループ名を作品タイトルに使ってはいけない？　～水曜日のカンパネラ「ヒカシュー」騒動と疑似著作権～ - INTERNET Watch](http://internet.watch.impress.co.jp/docs/special/fukui/20160517_757708.html)
 
 [本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
 [著作権法]: http://law.e-gov.go.jp/htmldata/S45/S45HO048.html "著作権法"
