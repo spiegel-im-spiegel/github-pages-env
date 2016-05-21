@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-05-12T19:32:49+09:00"
+update = "2016-05-21T10:27:41+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -372,6 +372,12 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [埋込みとインタフェース #golang - Qiita](http://qiita.com/tenntenn/items/bba69d84a1e0b67c4db8)
 - [UnityのネイティブプラグインをGoで書く #golang #unity - Qiita](http://qiita.com/tenntenn/items/4d3316490a571e5d79ed)
 - [Golang で過去の遺物的(cp932)DLLを利用する - Qiita](http://qiita.com/asm/items/6184cf5dcca637670e0e)
+- [Terraform for さくらのクラウド - Qiita](http://qiita.com/yamamoto-febc/items/0ce30e2dba32c60bbf66)
+- [Golang 日付のフォーマットでハマった話 - Qiita](http://qiita.com/masa23/items/e781124a7e0305bc40c4)
+- [Go言語で東京メトロAPIを叩く - Qiita](http://qiita.com/nayuneko/items/ca2651e3a613c8e3256a)
+- [GAE/Goで形態素解析してみた - Qiita](http://qiita.com/mako0715/items/259659e5e2935d2afc10)
+- [MySQLでのトランザクション処理をGolang+dbrで実現してゆく話 - Qiita](http://qiita.com/CST_negi/items/d79600c34191adb09c79)
+- [コマンドラインからググれてもいいと思ったので作った - Qiita](http://qiita.com/ieee0824/items/13435fc6de5f22cdb2f4)
 
 ### コマンドライン・ツール
 
@@ -508,6 +514,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Goのバージョンを1.6rc2にアップデートしてみた - Qiita](http://qiita.com/kanuma1984/items/245f7efafeaee5728523)
 - [Goのバージョンを1.4.3→1.6にアップグレードできなかった - Qiita](http://qiita.com/hirocueki2/items/3ec4b409a3ed2cbea681)
 - [Go 1.6 templateパッケージ新機能 - Qiita](http://qiita.com/hoshi-k/items/f2eaff298f93f089e10d)
+- [Go 言語 1.6.1 および 1.5.4 のセキュリティ・アップデート — しっぽのさきっちょ | text.Baldanders.info](http://text.baldanders.info/remark/2016/04/golang-1_6_1-released/)
 
 ### はじめての Go 言語 (on Windows)
 

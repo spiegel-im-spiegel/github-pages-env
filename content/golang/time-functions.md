@@ -1,6 +1,6 @@
 +++
 date = "2016-01-22T20:56:21+09:00"
-update = "2016-02-18T11:32:17+09:00"
+update = "2016-05-21T10:27:41+09:00"
 description = "今回は日付処理の話。特にフォーマットの定義の仕方はよく忘れるので覚え書きとして記しておく。"
 draft = false
 tags = ["golang", "time"]
@@ -221,6 +221,7 @@ func main() {
 
 - [Goで良い感じに日時をパースするライブラリdatemakiの話とGo 1.6 - YAMAGUCHI::weblog](http://ymotongpoo.hatenablog.com/entry/2015/12/22/000011)
 - [golangのtime.Timeの当日00:00:00を取得する方法とベンチマーク - Qiita](http://qiita.com/ushio_s/items/3e270933641710bbd88e)
+- [Golang 日付のフォーマットでハマった話 - Qiita](http://qiita.com/masa23/items/e781124a7e0305bc40c4)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 

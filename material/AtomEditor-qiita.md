@@ -164,7 +164,7 @@ indent_size = 4
 
 Tree View のファイルのアイコンがそっけないので， [file-icons](https://atom.io/packages/file-icons) を入れる手もある。公開してくださった方に感謝。
 
-（追記：[atom-monokai](https://atom.io/themes/atom-monokai) Syntax Theme というのがあって， UI Theme によって Dark と Light を自動的に切り替えてくれるようだ。最近はこっちを使っている）
+（追記：[atom-monokai](https://atom.io/themes/atom-monokai) Syntax Theme というのがあって， UI Theme によって Dark と Light を自動的に切り替えてくれるようだ。最近はこっちを使っている → 更に追記：[atom-monokai](https://atom.io/themes/atom-monokai) は Light の対応を止めてしまったようだ。まぁ最近は Dark にも目が慣れてきたのでいいんだけど）
 
 ### Git 関連機能
 
