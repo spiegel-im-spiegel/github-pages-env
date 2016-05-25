@@ -5,5 +5,12 @@
 - [ロシアの天才ハッカーによる【新人エンジニアサバイバルガイド】 - Qiita](http://qiita.com/jacksuzuki/items/b2fa6b44962e73a53d08)
 - [コマンドラインからググれてもいいと思ったので作った - Qiita](http://qiita.com/ieee0824/items/13435fc6de5f22cdb2f4)
 - [tsaka1's blog: ノイマンの自然数(非負整数)生成プログラムについて](http://tsaka1.blogspot.jp/2016/05/blog-post.html)
-
-
+- [電子書籍の未来を握るのはインディー系 - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2016/04/52669/)
+    - [英米のEブックを支えている読者は誰？ « マガジン航[kɔː]](http://magazine-k.jp/2016/05/24/beyond-cool-japan-06/)
+- [「フェアユースでも使用料を払え」というソニーミュージックの横暴と、それを許すYouTubeのコンテンツID – P2Pとかその辺のお話R](http://p2ptk.org/copyright/350)
+- [textlintで日本語の文章をチェックする | Web Scratch](http://efcl.info/2015/09/10/introduce-textlint/)
+- [スノーデン氏、グーグルの新メッセージアプリ「Allo」を「危険」と批判 - CNET Japan](http://japan.cnet.com/news/service/35083036/)
+- [WPAD Name Collision Vulnerability | US-CERT](https://www.us-cert.gov/ncas/alerts/TA16-144A)
+    - [JVNTA#91048063: WPAD と名前衝突の問題](http://jvn.jp/ta/JVNTA91048063/)
+- [LinkedInからの流出情報、自分の被害の有無を確認可能に - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1605/25/news073.html)
+    - [Have I been pwned? Check if your email has been compromised in a data breach](https://haveibeenpwned.com/)

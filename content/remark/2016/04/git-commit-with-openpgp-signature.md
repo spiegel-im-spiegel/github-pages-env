@@ -1,6 +1,6 @@
 +++
 date = "2016-04-23T15:17:49+09:00"
-update = "2016-04-23T15:35:10+09:00"
+update = "2016-05-25T21:20:24+09:00"
 description = "Git で commit する際に OpenPGP 署名を付加できるらしい。いやぁ，今まで知らなかったよ。物知らずでごめん。"
 draft = false
 tags = ["git", "github", "gnupg", "openpgp", "cryptography", "certification"]
@@ -109,7 +109,7 @@ $ git config --global commit.gpgsign true
 [Git Extensions] でも問題ないようだ。
 「[GitHubでGPGにより署名されたコミットにバッジが表示されるようになったので設定してみる](http://qiita.com/prince_0203/items/ef0e12f2f6d150ff0485)」には「GitHub DesktopはGPGによる署名をサポートしていません」とあるが， Facebook で教えてもらった話によれば， `gpg-agent` と Pinentry が正しく設定されていれば使えるそうだ。
 
-きちんと署名されているか確認するには `git log` コマンドに --show-signature オプションを付けるとよい。
+きちんと署名されているか確認するには `git log` コマンドに `--show-signature` オプションを付けるとよい。
 
 ### Tag にも Merge にも署名できる
 

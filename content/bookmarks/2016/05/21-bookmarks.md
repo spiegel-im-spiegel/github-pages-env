@@ -19,6 +19,7 @@ title = "2016-05-21 のブックマーク"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
+- [Blue Moon Rises Saturday — But It's Not That Blue: A Full Moon History](http://www.space.com/32932-blue-moon-may-full-moon-name-2016.html)
 - [Node v6.2.0 (Current) | Node.js](https://nodejs.org/en/blog/release/v6.2.0/)
 - [エフセキュアブログ : さよならFlash！Google ChromeがHTML5をデフォルトにすることを予定](http://blog.f-secure.jp/archives/50769118.html)
 - [Jenkinsとマイクロソフトがパートナーシップを発表。Jenkinsの開発インフラとWebサイトがMicrosoft Azureに － Publickey](http://www.publickey1.jp/blog/16/jenkinsjenkinswebmicrosoft_azure.html)
