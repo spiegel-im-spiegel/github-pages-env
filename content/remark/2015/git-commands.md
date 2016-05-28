@@ -1,6 +1,6 @@
 +++
 date = "2015-12-09T20:14:59+09:00"
-update = "2016-03-26T13:11:22+09:00"
+update = "2016-05-28T20:35:08+09:00"
 description = "git 各コマンドに関する覚え書き。思い出したら追記予定。"
 draft = false
 tags = ["git", "tools"]
@@ -188,6 +188,8 @@ $ git push origin :wrong-branch
 - [git reset のやり方 備忘録 - Qiita](http://qiita.com/waterada/items/44f270a659370809e1dc)
 - [気をつけて！Git for Windowsにおける改行コード - Qiita](http://qiita.com/uggds/items/00a1974ec4f115616580) : `autocrlf` の値は `input` がお勧め
 - [git - 簡単ガイド](http://rogerdudler.github.io/git-guide/index.ja.html)
+- [Git Subtree 事始め - Qiita](http://qiita.com/mikakane/items/487ca8b3acddfa5fdb41)
+    - [git-subtree移行メモ - Qiita](http://qiita.com/shogo82148/items/04b29b195dbbb373152f)
 
 ### GitHub
 

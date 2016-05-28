@@ -19,6 +19,7 @@ title = "2016-05-25 のブックマーク"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
+- [JASRAC対ファンキー末吉氏の地裁判決文が公開されました(栗原潔) - 個人 - Yahoo!ニュース](http://bylines.news.yahoo.co.jp/kuriharakiyoshi/20160525-00058033/)
 - {{< pdf-file title="個人情報保護法に基づくバイオメトリクスの利用" link="https://www.jstage.jst.go.jp/article/jims/4/1/4_1_55/_pdf" >}}
 - [LinkedInからの流出情報、自分の被害の有無を確認可能に - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1605/25/news073.html)
     - [Have I been pwned? Check if your email has been compromised in a data breach](https://haveibeenpwned.com/)

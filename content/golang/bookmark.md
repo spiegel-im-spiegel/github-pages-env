@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-05-25T21:02:11+09:00"
+update = "2016-05-28T20:48:11+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -228,6 +228,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [cgoでGolangとC++ライブラリをリンクするとき、何が起きているのか - beatsync.net](https://beatsync.net/main/log20141022.html)
 - [GO 1.5 と C++ を SWIG でブリッジさせる方法 - Qiita](http://qiita.com/Satachito/items/5a0d7dd228d3272e0780)
 - [cgoを使ったCとGoのリンクの裏側 (1) - Qiita](http://qiita.com/yugui/items/e71d3d0b3d654a110188)
+    - [cgoを使ったCとGoのリンクの裏側 (1) - Qiita](http://qiita.com/yugui/items/e71d3d0b3d654a110188#_reference-b69de9de7311c6e17e7f)
 
 ### Logging
 
@@ -498,6 +499,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go言語で利用するLLVM入門 | プログラミング | POSTD](http://postd.cc/an-introduction-to-llvm-in-go/)
 - [Big Sky :: golang の Windows 版が buildmode=c-archive をサポートした。](http://mattn.kaoriya.net/software/lang/go/20160405114638.htm)
 - [Gopherの道を歩む – Node.jsからGo言語への移行 | プログラミング | POSTD](http://postd.cc/the-way-of-the-gopher/)
+- [6年間におけるGoのベストプラクティス | プログラミング | POSTD](http://postd.cc/go-best-practices-2016/)
 
 ### Go 1.5 に関する話題
 
