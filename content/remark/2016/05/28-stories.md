@@ -1,5 +1,6 @@
 +++
 date = "2016-05-28T22:59:50+09:00"
+update = "2016-06-01T22:19:58+09:00"
 description = "Barack Obama 米国大統領の来広 / Google vs Oracle の訴訟の行方 2 / Windows 7 用の Rollup が出た / その他の気になる記事"
 draft = false
 tags = ["politics", "international", "hiroshima", "code", "intellectual-property", "copyright", "java", "windows"]
@@ -58,6 +59,7 @@ title = "週末スペシャル： Barack Obama 米国大統領の来広"
 - [Google beats Oracle—Android makes “fair use” of Java APIs | Ars Technica](http://arstechnica.com/tech-policy/2016/05/google-wins-trial-against-oracle-as-jury-finds-android-is-fair-use/)
 - [グーグル、Java API使用が「フェアユース」と認められる--対オラクル訴訟 - CNET Japan](http://japan.cnet.com/news/business/35083291/)
 - [ニュース - Java著作権訴訟でGoogleが勝訴、「フェアユース」が認められる：ITpro](http://itpro.nikkeibp.co.jp/atcl/news/16/052701526/?rt=nocnt)
+- [Googleの「公正使用」勝訴後も残る著作権に関する疑問 | TechCrunch Japan](http://jp.techcrunch.com/2016/05/31/20160527copyright-questions-remain-after-googles-fair-use-victory/)
 
 以前「[Google vs Oracle の訴訟の行方](http://www.baldanders.info/spiegel/log2/000861.shtml)」でも書いたが， Java API の著作権を巡る争いは「著作権の有無」から著作権を認めた上で Java API の（使用ではなく）利用が fair use にあたるかどうかに争点が移った。
 
