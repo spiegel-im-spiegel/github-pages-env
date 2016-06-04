@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-05-29T18:36:17+09:00"
+update = "2016-06-04T19:36:09+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -70,6 +70,8 @@ title = "Go 言語に関するブックマーク"
 - [Golang: nil Pointer Receiverの話 - Qiita](http://qiita.com/stsn/items/73714caf8458b1d973f2)
 - [Go 言語の値レシーバとポインタレシーバ | Step by Step](https://skatsuta.github.io/2015/12/29/value-receiver-pointer-receiver/)
 - [Big Sky :: Golang のオフィシャルが提供するインタフェースまとめ](http://mattn.kaoriya.net/software/lang/go/20140501172821.htm)
+- [Visualizing Concurrency in Go · divan's blog](http://divan.github.io/posts/go_concurrency_visualize/)
+- [Goの並行パターン：コンテキスト (Go Concurrency Pattern: Context)](https://ymotongpoo.github.io/goblog-ja/post/context/) : [1.7 からは Context パッケージが標準ライブラリに組み込まれる](https://tip.golang.org/doc/go1.7#context)らしい
 
 ### 文字列操作または変換
 
@@ -125,6 +127,8 @@ title = "Go 言語に関するブックマーク"
 - [go言語初心者が図を書きながらgo routineやgo channelを理解する(Part 1) - Qiita](http://qiita.com/Vermee81/items/88c9e28dec83d43e7883)
     - [go言語初心者が図を書きながらgoroutineやgo channelを理解する(Part2) - Qiita](http://qiita.com/Vermee81/items/30ad42a7265375b1b7b1)
 - [Goroutineと channelから はじめるgo言語](http://www.slideshare.net/takuyaueda967/goroutine-channel-go)
+- [Go言語の並行処理デザインパターン by Rob Pike 前編 - Qiita](http://qiita.com/tfutada/items/a289628d8b2d0af6152d)
+    - [Go言語の並行処理デザインパターン by Rob Pike 後編 - Qiita](http://qiita.com/tfutada/items/dc8db894ac270a79ef2b)
 
 Go 言語で複数 CPU を使った並列処理を行うには明示的な設定が必要。
 
@@ -453,6 +457,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Big Sky :: golang で HTTP を使った処理を4倍速くする](http://mattn.kaoriya.net/software/lang/go/20160329094503.htm)
 - [GolangのフレームワークEchoの話とHelloWorldサンプルを読み解くだけ - Qiita](http://qiita.com/CST_negi/items/5ea3395b35e68fd0d3b3)
 - [Golang+Echo+dbrでMySQLのCRUDをする／JSONでDBの値を返却する話 - Qiita](http://qiita.com/CST_negi/items/5e276ddc0412cefef7e3)
+- [Gin(Golang)におけるHTMLテンプレート記述方法 - Qiita](http://qiita.com/lanevok/items/dbf591a3916070fcba0d)
+- [GoLang で html/template を使っていて遭遇したエラーとその解決 - Qiita](http://qiita.com/kent_ocean/items/45e153d2c5467501a20b)
 
 ### 組み込み開発
 
@@ -519,6 +525,12 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Goのバージョンを1.4.3→1.6にアップグレードできなかった - Qiita](http://qiita.com/hirocueki2/items/3ec4b409a3ed2cbea681)
 - [Go 1.6 templateパッケージ新機能 - Qiita](http://qiita.com/hoshi-k/items/f2eaff298f93f089e10d)
 - [Go 言語 1.6.1 および 1.5.4 のセキュリティ・アップデート — しっぽのさきっちょ | text.Baldanders.info](http://text.baldanders.info/remark/2016/04/golang-1_6_1-released/)
+
+### Go 1.7 に関する話題
+
+- [Go 1.7 Beta 1 is released - Google グループ](https://groups.google.com/forum/#!topic/golang-announce/ITzPaJnZGZw)
+    - [Go 1.7 Release Notes DRAFT - The Go Programming Language](https://tip.golang.org/doc/go1.7)
+- [go1.7 の気になるところを試した - Qiita](http://qiita.com/tutuming/items/16df6fc7bf82fb5d7eb0)
 
 ### はじめての Go 言語 (on Windows)
 

@@ -1,6 +1,6 @@
 +++
 date = "2015-12-09T20:14:59+09:00"
-update = "2016-05-28T20:35:08+09:00"
+update = "2016-06-04T19:36:09+09:00"
 description = "git 各コマンドに関する覚え書き。思い出したら追記予定。"
 draft = false
 tags = ["git", "tools"]
@@ -190,6 +190,7 @@ $ git push origin :wrong-branch
 - [git - 簡単ガイド](http://rogerdudler.github.io/git-guide/index.ja.html)
 - [Git Subtree 事始め - Qiita](http://qiita.com/mikakane/items/487ca8b3acddfa5fdb41)
     - [git-subtree移行メモ - Qiita](http://qiita.com/shogo82148/items/04b29b195dbbb373152f)
+- [たった 8 つの alias で git を大幅にわかりやすくする - Qiita](http://qiita.com/ticonz/items/2f5d5299e3562e6941a8)
 
 ### GitHub
 
