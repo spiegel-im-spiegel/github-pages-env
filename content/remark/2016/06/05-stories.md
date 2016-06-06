@@ -1,5 +1,6 @@
 +++
 date = "2016-06-05T16:28:27+09:00"
+update = "2016-06-05T18:14:30+09:00"
 description = "古いパソコンに Ubuntu を入れようと思ったが... / 「「IoTセキュリティガイドライン」（案）に関する意見募集」 / 『BOOM TOWN』単行本未収録話が Kindle に！ / 「Googleアカウントがアップデート」 / その他の気になる記事"
 draft = false
 tags = ["linux", "ubuntu", "security", "risk", "politics", "e-book", "comic", "google"]
@@ -147,6 +148,7 @@ USB メモリを買ってまでやる気はないので，この件はしばら�
 『BOOM TOWN』はコンピュータ・エンジニアなら必読書だと思うぞ（あとは『スノウ・クラッシュ』とか）。
 
 ちなみに『BOOM TOWN』のスピンオフ作品とも言える『サーキットワンダラーズ』が[「画楽.mag」 VOL.5](http://www.amazon.co.jp/exec/obidos/ASIN/4834284387/baldandersinf-22/) から連載されてるらしい。
+（追記：さっき教えてもらったけど『サーキットワンダラーズ』は未完で終わってるらしい。残念）
 
 ## 「Googleアカウントがアップデート」{#dm}
 
