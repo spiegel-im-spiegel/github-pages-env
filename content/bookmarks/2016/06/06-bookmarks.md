@@ -2,7 +2,7 @@
 date = "2016-06-06T22:17:05+09:00"
 description = "「Tumblrと（懐かしの）MySpaceから大量のログイン情報が流出」他"
 draft = false
-title = "2016-06-04 のブックマーク"
+title = "2016-06-06 のブックマーク"
 
 [author]
   avatar = "/images/avatar.jpg"
