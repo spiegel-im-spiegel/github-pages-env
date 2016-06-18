@@ -12,14 +12,20 @@
 - [2016 年 6 月のセキュリティ情報 (月例) – MS16-063, MS16-068 ～ MS16-082 | 日本のセキュリティチーム](https://blogs.technet.microsoft.com/jpsecurity/2016/06/15/201606-security-bulletin/)
     - [2016年 6月 Microsoft セキュリティ情報 (緊急 5件含) に関する注意喚起](https://www.jpcert.or.jp/at/2016/at160025.html)
     - [Microsoft 製品の脆弱性対策について(2016年6月)：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/ciadr/vul/20160615-ms.html)
+    - [（緊急）Microsoft Windows DNSの脆弱性（リモートでのコード実行）について（CVE-2016-3227）](https://jprs.jp/tech/security/2016-06-17-msdns-vuln-remotecodeexec.html)
+- [JVNDB-2016-003040 Apache Struts における任意のコードを実行される脆弱性 - JVN iPedia - 脆弱性対策情報データベース](http://jvndb.jvn.jp/ja/contents/2016/JVNDB-2016-003040.html)
 - [JVNDB-2016-003113 Android のメディアサーバの libstagefright における権限を取得される脆弱性 - JVN iPedia - 脆弱性対策情報データベース](http://jvndb.jvn.jp/ja/contents/2016/JVNDB-2016-003113.html)
 - [JVNDB-2016-003134 Android の sdcard/sdcard.c における権限を取得される脆弱性 - JVN iPedia - 脆弱性対策情報データベース](http://jvndb.jvn.jp/ja/contents/2016/JVNDB-2016-003134.html)
 - [JVNDB-2016-003093 GNU C Library の sunrpc/clnt_udp.c の clntudp_call 関数におけるスタックベースのバッファオーバーフローの脆弱性 - JVN iPedia - 脆弱性対策情報データベース](http://jvndb.jvn.jp/ja/contents/2016/JVNDB-2016-003093.html)
 - [Adobe Flash Player の脆弱性対策について(APSA16-03)(CVE-2016-4171)：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/ciadr/vul/20160615-adobeflashplayer.html)
+    - [Adobe Flash Player の脆弱性 (APSB16-18) に関する注意喚起](https://www.jpcert.or.jp/at/2016/at160026.html)
     - [「Adobe Flash Player」にゼロデイ脆弱性、攻撃者にシステムを乗っ取られる恐れ - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1005272.html)
+- [「Google Chrome 51」に3件の脆弱性、修正が施されたv51.0.2704.103が公開 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1005785.html)
 - [ASCII.jp：脆弱性情報のサイトでよく目にする「CVE」とは？](http://ascii.jp/elem/000/001/178/1178273/)
 - [3200万のTwitterアカウントのパスワードがハックされてリークした、かもしれない | TechCrunch Japan](http://jp.techcrunch.com/2016/06/09/20160608twitter-hack/)
     - [Have I been pwned? Check if your email has been compromised in a data breach](https://haveibeenpwned.com/) : アカウント漏洩の確認サイト
+- [GitHub Security Update: Reused password attack](https://github.com/blog/2190-github-security-update-reused-password-attack)
+    - [GitHub、不正アクセスを確認--他サービスから流出したパスワードを試行の可能性 - ZDNet Japan](http://japan.zdnet.com/article/35084420/)
 - [JTBへの不正アクセスについてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20160614/1465925330)
     - [JTB、793万人分の個人情報流出か--外部への通信で不正アクセスと判明 - ZDNet Japan](http://japan.zdnet.com/article/35084254/)
     - [パスポート番号漏えい、偽造のリスクは？　外務省に聞いた - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1606/15/news102.html)
@@ -28,3 +34,10 @@
 
 - [Apple、iPadでコーディングして学べる「Swift Playgrounds」を無償提供 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1606/14/news071.html)
 - [MicrosoftがLinkedInを262億ドルで買収、エンタープライズ向けソーシャルメディアに参入 | TechCrunch Japan](http://jp.techcrunch.com/2016/06/14/20160613microsoft-to-buy-linkedin-for-26b-in-cash-makes-big-move-into-enterprise-social-media/)
+- [Instagramで売りに出される銃と、ソーシャルメディアのモラル｜WIRED.jp](http://wired.jp/2016/06/17/instagram-gunsforsale/)
+- [小学校段階におけるプログラミング教育の在り方について（議論の取りまとめ）：文部科学省](http://www.mext.go.jp/b_menu/shingi/chousa/shotou/122/attach/1372525.htm)
+- [ソフトウェアのバグをなくすには？--プログラミングの際に避けるべき10の失敗 - ZDNet Japan](http://japan.zdnet.com/article/35083529/)
+- [k16's note: Markdown原稿をGitHubで管理して本にする仕組みが出版社で導入されないわけ](http://note.golden-lucky.net/2016/06/markdowngithub.html)
+
+
+

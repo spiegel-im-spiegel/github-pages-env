@@ -1,6 +1,6 @@
 +++
 date = "2016-05-28T22:59:50+09:00"
-update = "2016-06-04T22:02:01+09:00"
+update = "2016-06-18T15:00:40+09:00"
 description = "Barack Obama 米国大統領の来広 / Google vs Oracle の訴訟の行方 2 / Windows 7 用の Rollup が出た / その他の気になる記事"
 draft = false
 tags = ["politics", "international", "hiroshima", "code", "intellectual-property", "copyright", "java", "windows"]
@@ -53,6 +53,10 @@ title = "週末スペシャル： Barack Obama 米国大統領の来広"
 {{< fig-quote title="「核兵器なき世界」の本当の意味と「日本の役割」：池内恵 | 中東―危機の震源を読む" link="http://www.fsight.jp/5104" >}}
 <q>これはまさに、核保有国と非保有国の格差を永続化させる従来の核不拡散体制の理念を再度打ち出したものである。違いがどこにあるかといえば、この格差を維持することが困難であることが明白となり、新たに核保有を行なおうとする国を抑制する新たな体制を構築する必要が出てきたことである。そのために、まず保有国側が核軍縮の努力を示すことによって倫理的優位性を確保する必要が認識された。オバマのプラハ演説は倫理的優位性の確保と、軍事的優位性の確保を両方得ようとする戦略的な言説である。</q>
 {{< /fig-quote >}}
+
+### 参考
+
+- [「オバマ広島訪問」はなぜ感動を呼んだのか：PRESIDENT Online - プレジデント](http://president.jp/articles/-/18253)
 
 ## Google vs Oracle の訴訟の行方 2{#api}
 

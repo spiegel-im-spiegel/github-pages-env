@@ -1,6 +1,6 @@
 +++
 date = "2015-12-13T13:12:02+09:00"
-update = "2016-05-28T18:33:14+09:00"
+update = "2016-06-18T15:00:40+09:00"
 description = "自宅のマシンをチェックしたら，既に遅かった。"
 draft = false
 tags = ["windows"]
@@ -88,3 +88,6 @@ Windows 10 が悪いとは言わない（まぁ敢えてオススメはしない
 - [Windows 7／8.1→Windows 10が“推奨される更新”に - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1602/02/news081.html)
 - [Tech TIPS：まだWindows 10へアップグレードしたくない人のための設定まとめ - ＠IT](http://www.atmarkit.co.jp/ait/articles/1603/18/news047.html)
 - [「Windows 10」自動アップデートをオフにするツール「Never 10」が公開 - ZDNet Japan](http://japan.zdnet.com/article/35080272/)
+- [“Windows 10アップグレード”の公式キャンセル方法をマイクロソフトが解説、6月“Windows 10の日” - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1004723.html)
+- [【特集】『朝起きたらOSが勝手にWindows 10になってた！』場合の対処法　前編 - 窓の杜](http://forest.watch.impress.co.jp/docs/special/1004285.html)
+    - [【特集】『朝起きたらOSが勝手にWindows 10になってた！』場合の対処法　後編 - 窓の杜](http://forest.watch.impress.co.jp/docs/special/1004476.html)
