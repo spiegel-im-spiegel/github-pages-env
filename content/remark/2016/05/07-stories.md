@@ -2,7 +2,7 @@
 date = "2016-05-07T20:36:22+09:00"
 description = "自前でブックマークを運用することにしました / GnuPG 2.1.12 and Libgcrypt 1.7.0 released / その他の気になる記事"
 draft = false
-tags = ["bookmark", "security", "cryptography", "tools", "gnupg"]
+tags = ["bookmark", "security", "cryptography", "tools", "openpgp", "gnupg"]
 title = "週末スペシャル： 自前でブックマークを運用することにしました"
 
 [author]
