@@ -1,6 +1,6 @@
 +++
 date = "2015-12-13T13:12:02+09:00"
-update = "2016-06-18T15:00:40+09:00"
+update = "2016-06-26T18:51:53+09:00"
 description = "自宅のマシンをチェックしたら，既に遅かった。"
 draft = false
 tags = ["windows"]
@@ -91,3 +91,5 @@ Windows 10 が悪いとは言わない（まぁ敢えてオススメはしない
 - [“Windows 10アップグレード”の公式キャンセル方法をマイクロソフトが解説、6月“Windows 10の日” - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1004723.html)
 - [【特集】『朝起きたらOSが勝手にWindows 10になってた！』場合の対処法　前編 - 窓の杜](http://forest.watch.impress.co.jp/docs/special/1004285.html)
     - [【特集】『朝起きたらOSが勝手にWindows 10になってた！』場合の対処法　後編 - 窓の杜](http://forest.watch.impress.co.jp/docs/special/1004476.html)
+- {{< pdf-file title="Windows 10への無償アップグレードに関し、確認・留意が必要な事項について" link="http://www.caa.go.jp/adjustments/pdf/160622adjustments_1.pdf" >}}
+    - [消費者庁がWindows 10への自動アップグレードについてWindows 7/8.1ユーザーへ注意喚起 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1006675.html)
