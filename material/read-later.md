@@ -1,12 +1,13 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-- [aozorahack hackathon #1 - connpass](http://aozorahack.connpass.com/event/33921/)
-- [「太陽系インターネット」構築へ　NASAが新ネットワーク「DTN」導入 | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2016_06_24_nasa.html)
-- [Research Blog: Bringing Precision to the AI Safety Discussion](https://research.googleblog.com/2016/06/bringing-precision-to-ai-safety.html)
-    - [グーグル、安全な人工知能開発のために問うべき課題に関する論文を発表 - CNET Japan](http://japan.cnet.com/news/service/35084726/)
-- {{< pdf-file title="Windows 10への無償アップグレードに関し、確認・留意が必要な事項について" link="http://www.caa.go.jp/adjustments/pdf/160622adjustments_1.pdf" >}}
-    - [消費者庁がWindows 10への自動アップグレードについてWindows 7/8.1ユーザーへ注意喚起 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1006675.html)
-- [マイナンバーカードでSSHする - AAA Blog](https://www.osstech.co.jp/~hamano/posts/jpki-ssh/)
+- [DRAFT NIST Special Publication 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html)
+    - [「パスワードの定期変更はすべきでない」　米研究機関がセキュリティ対策関連の文書で明言 - ねとらぼ](http://nlab.itmedia.co.jp/nl/articles/1606/28/news127.html)
+- [歩いて考える（文章を書く心がけ）｜結城浩｜note](https://note.mu/hyuki/n/n267ef5ac05ac)
+- [X線天文衛星「ひとみ」はなぜ失敗したか(2)　引き継ぎ不足が招いた運用ミス | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/02/2016_06_26_astro-h.html)
+- [NASA approves five more years for Hubble Space Telescope | New Scientist](https://www.newscientist.com/article/2095042-nasa-approves-five-more-years-for-hubble-space-telescope/)
+    - [ハッブル望遠鏡、5年間の稼働延長。後継機とダブル観測目指す | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2016_06_26_hubble.html)
+- [WirelessWire Newsブログ第48回公開（ユートピアのキモさと人工知能がもたらす不気味の谷） - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20160628/wirelesswire) : WirelessWire のサイトが死んでる
+
 
 
 
