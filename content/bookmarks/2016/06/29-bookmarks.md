@@ -19,6 +19,7 @@ title = "2016-06-29 のブックマーク"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
+- [フリーのオフィス統合環境「LibreOffice」に脆弱性、最新版で修正済み - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1007779.html)
 - [Node.jsのマイクロサービスの構築を通してDockerを学ぶ – 前編 | プログラミング | POSTD](http://postd.cc/learn-docker-by-building-a-microservice-1/)
 - [DMCA Notices Nuke 8,268 Projects on Github - TorrentFreak](https://torrentfreak.com/dmca-notices-nuke-8268-projects-on-github-160629/)
 - [Node v4.4.7 (LTS) | Node.js](https://nodejs.org/en/blog/release/v4.4.7/)
