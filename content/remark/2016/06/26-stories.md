@@ -1,5 +1,6 @@
 +++
 date = "2016-06-26T20:48:08+09:00"
+update = "2016-07-02T21:13:01+09:00"
 description = "英国の EU 離脱 / CRYPTREC Report 2015 が出てた / openpgp-rfc4880bis-02 も出てた / 七夕プロジェクト 2016 / その他の気になる記事"
 draft = false
 tags = ["international", "security", "cryptography", "cryptrec", "openpgp", "astronomy"]
@@ -53,6 +54,10 @@ EU というのは「包摂」型の政治システムだと思う。
 
 将来の不透明感を「凶」と見なす人もいれば「吉」と見なす人もいる。
 でも「ピンチはチャンス」と言える人こそが最終的に生き残れるのではないだろうか。
+
+### 参考
+
+- [あるTwitterユーザーが「EU離脱派」公式サイトを再建した理由｜WIRED.jp](https://www.facebook.com/)
 
 ## CRYPTREC Report 2015 が出てた{#cr}
 

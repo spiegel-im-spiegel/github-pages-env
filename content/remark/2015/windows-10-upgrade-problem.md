@@ -1,6 +1,6 @@
 +++
 date = "2015-12-13T13:12:02+09:00"
-update = "2016-06-29T22:09:29+09:00"
+update = "2016-07-02T10:44:44+09:00"
 description = "自宅のマシンをチェックしたら，既に遅かった。"
 draft = false
 tags = ["windows"]
@@ -46,6 +46,7 @@ Windows Update にこういうの混ぜないで欲しいなぁ。
 - KB3035583
 - KB3112343
 - KB3123862
+- KB3173040
 
 一覧から目視で探すのは大変なので，右肩にある検索窓から上に挙げた KBxxxxxxx の番号を入力して探してみると簡単にできる。
 アンインストールを行うと再起動を要求されることがあるが，アンインストールを全部行ったあと再起動すればよい。
@@ -94,3 +95,4 @@ Windows 10 が悪いとは言わない（まぁ敢えてオススメはしない
 - {{< pdf-file title="Windows 10への無償アップグレードに関し、確認・留意が必要な事項について" link="http://www.caa.go.jp/adjustments/pdf/160622adjustments_1.pdf" >}}
     - [消費者庁がWindows 10への自動アップグレードについてWindows 7/8.1ユーザーへ注意喚起 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1006675.html)
 - [Microsoft、Windows 10へのアップグレード通知画面を改善し“お断りボタン”を追加 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1606/29/news063.html)
+- [http://japan.cnet.com/news/service/35085243/](http://japan.cnet.com/news/service/35085243/) : 終わり間際になってようやくか
