@@ -1,6 +1,6 @@
 +++
 date = "2016-06-26T20:48:08+09:00"
-update = "2016-07-02T21:13:01+09:00"
+update = "2016-07-05T22:24:11+09:00"
 description = "英国の EU 離脱 / CRYPTREC Report 2015 が出てた / openpgp-rfc4880bis-02 も出てた / 七夕プロジェクト 2016 / その他の気になる記事"
 draft = false
 tags = ["international", "security", "cryptography", "cryptrec", "openpgp", "astronomy"]
@@ -58,6 +58,7 @@ EU というのは「包摂」型の政治システムだと思う。
 ### 参考
 
 - [あるTwitterユーザーが「EU離脱派」公式サイトを再建した理由｜WIRED.jp](https://www.facebook.com/)
+- [Brexit + fintech―英国のEU離脱でフィンテックはどうなるのか？ | TechCrunch Japan](http://jp.techcrunch.com/2016/07/05/20160703brexit-fintech-what-happens-now/)
 
 ## CRYPTREC Report 2015 が出てた{#cr}
 
