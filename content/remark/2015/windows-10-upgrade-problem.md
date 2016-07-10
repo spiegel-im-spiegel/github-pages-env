@@ -1,6 +1,6 @@
 +++
 date = "2015-12-13T13:12:02+09:00"
-update = "2016-07-02T10:44:44+09:00"
+update = "2016-07-10T18:27:46+09:00"
 description = "自宅のマシンをチェックしたら，既に遅かった。"
 draft = false
 tags = ["windows"]
@@ -95,4 +95,5 @@ Windows 10 が悪いとは言わない（まぁ敢えてオススメはしない
 - {{< pdf-file title="Windows 10への無償アップグレードに関し、確認・留意が必要な事項について" link="http://www.caa.go.jp/adjustments/pdf/160622adjustments_1.pdf" >}}
     - [消費者庁がWindows 10への自動アップグレードについてWindows 7/8.1ユーザーへ注意喚起 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1006675.html)
 - [Microsoft、Windows 10へのアップグレード通知画面を改善し“お断りボタン”を追加 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1606/29/news063.html)
-- [http://japan.cnet.com/news/service/35085243/](http://japan.cnet.com/news/service/35085243/) : 終わり間際になってようやくか
+- [Windows 10の無償アップグレード問題、ウインドウを閉じても自動更新しない仕様に - CNET Japan](http://japan.cnet.com/news/service/35085243/) : 終わり間際になってようやくか
+- [「アップグレードに関する情報発信が不十分だった」――日本マイクロソフト、Windows 10の通知内容を謝罪 - ITmedia PC USER](http://www.itmedia.co.jp/pcuser/articles/1607/05/news157.html)

@@ -5,12 +5,23 @@
     - [2016年7月5日ニュース「米探査機ジュノーが木星軌道に 5年の長旅終え観測開始」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2016/07/20160705_01.html)
     - [木星探査機「ジュノー」、軌道投入に成功！　木星の謎を解明へ | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2016_07_05_juno.html)
     - [NASA、木星探査機「Juno」のアプリを公開。木星のオーロラなど最新画像を反映 － Publickey](http://www.publickey1.jp/blog/16/nasajuno.html)
+    - [打ち上げから5年、Junoが木星の軌道に到達。 | TechCrunch Japan](http://jp.techcrunch.com/2016/07/06/20160704after-five-years-juno-arrives-in-orbit-around-jupiter/)
+    - [NASA's Juno Spacecraft in Orbit Around Mighty Jupiter | NASA](https://www.nasa.gov/press-release/nasas-juno-spacecraft-in-orbit-around-mighty-jupiter)
+    - [Juno Now Orbiting Jupiter – Many Worlds](http://www.manyworlds.space/index.php/2016/07/05/juno-now-orbiting-jupiter/)
+    - [Garbage Collection(2016-07-04) Juno木星軌道投入リアルタイムシミュレーション](http://www.lizard-tail.com/isana/diary/?date=20160704)
 - [[Gpg4win-announce] Gpg4win 2.3.2 released](http://lists.wald.intevation.org/pipermail/gpg4win-announce/2016-July/000069.html)
 - [Mozilla、「Thunderbird」v45.2.0を公開。1件の脆弱性を修正 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1008453.html)
 - [ダッカのカフェ「ホーリー・アーティザン・ベーカリー」へのテロ事件の要点：池内恵 | 中東の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41333)
     - [ダッカのテロはインドで「イスラーム国」への呼応テロを刺激するか：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41334)
     - [ダッカのテロの組織と犯人像（初期の報道）：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41336)
-
-
+    - [ダッカ事件をめぐって（２）テロとデマの時代 – 中東・イスラーム学の風姿花伝](http://ikeuchisatoshi.com/%e3%83%80%e3%83%83%e3%82%ab%e4%ba%8b%e4%bb%b6%e3%82%92%e3%82%81%e3%81%90%e3%81%a3%e3%81%a6%ef%bc%88%ef%bc%92%ef%bc%89%e3%83%86%e3%83%ad%e3%81%a8%e3%83%87%e3%83%9e%e3%81%ae%e6%99%82%e4%bb%a3/)
+- [Robots in Europe May Become "Electronic Persons"](http://futurism.com/robots-in-europe-may-become-electronic-persons/)
+    - [「エイリアン・インテリジェンス」としてのAI──ケヴィン・ケリー｜WIRED.jp](http://wired.jp/2016/07/06/kk-column-1/)
+- [Facebook Messenger adds end-to-end encryption in a bid to become your primary messaging app | TechCrunch](https://techcrunch.com/2016/07/08/messenger-adds-end-to-end-encryption/)
+    - [Facebook、メッセンジャーでエンドツーエンド暗号化と時限メッセージ機能のテストを開始 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1607/09/news025.html)
+- [ペルセウス座流星群を観察・報告するキャンペーン、2016年8月10日から | 国立天文台(NAOJ)](http://www.nao.ac.jp/news/topics/2016/20160708-perseids.html)
+- [プレスリリース | 「うるう秒」挿入のお知らせ | NICT-情報通信研究機構](http://www.nict.go.jp/press/2016/07/08-1.html)
+    - [2016年12月31日にうるう秒が追加へ - CNET Japan](http://japan.cnet.com/news/business/35085582/)
+- [Lost Japanese Spacecraft Shares Groundbreaking View of Galaxy Group](http://www.space.com/33358-hitomi-spacecraft-observes-galaxy-stirring.html)
 
 
