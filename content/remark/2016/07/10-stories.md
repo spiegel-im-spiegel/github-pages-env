@@ -39,6 +39,8 @@ title = "週末スペシャル： ゆのっち，木星の衛星になる"
 - [Juno Now Orbiting Jupiter – Many Worlds](http://www.manyworlds.space/index.php/2016/07/05/juno-now-orbiting-jupiter/)
 - [Garbage Collection(2016-07-04) Juno木星軌道投入リアルタイムシミュレーション](http://www.lizard-tail.com/isana/diary/?date=20160704)
 
+{{< fig-youtube id="XpsQimYhNkA" width="500" height="281" title="Juno Approach Movie of Jupiter and the Galilean Moons - YouTube" >}}
+
 米国の木星探査機 Juno[^j] が木星の衛星軌道への投入に成功した。
 足掛け5年の長旅であった。
 まずはおめでとう。
