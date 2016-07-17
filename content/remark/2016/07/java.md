@@ -1,6 +1,6 @@
 +++
 date = "2016-07-09T15:27:27+09:00"
-update = "2016-07-10T09:42:08+09:00"
+update = "2016-07-17T23:55:41+09:00"
 description = "現在 Java でバリバリ仕事しているおぢさんから（老婆心ながら）言っておくと「Java はやめておけ」である。"
 draft = false
 tags = ["programming", "language"]
@@ -30,6 +30,7 @@ title = "Java はやめておけ"
 現在 Java でバリバリ仕事しているおぢさんから（老婆心ながら）言っておくと「Java はやめておけ」である。
 
 - [Java EEの開発が停滞？--オラクルの不透明な態度にコミュニティーが不信感 - ZDNet Japan](http://japan.zdnet.com/article/35085410/)
+- [オラクル、次期Java EEはマイクロサービスやコンテナをサポートするものになるとコメント。9月のJavaOneで計画を発表予定。ただし本気度には疑問符も － Publickey](http://www.publickey1.jp/blog/16/java_ee9javaone.html)
 
 どういうわけか日本人は Java が大好きで，確かにあと数年は飯の種になるだろうが，将来を見据えれば Java は間違いなく COBOL と同じ道をたどる。
 今 COBOL-er は季節労働者のごとく仕事を求めて全国行脚しているそうだ。

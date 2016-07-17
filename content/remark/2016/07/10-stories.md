@@ -1,6 +1,6 @@
 +++
 date = "2016-07-10T21:17:07+09:00"
-update = "2016-07-10T21:24:45+09:00"
+update = "2016-07-17T23:05:20+09:00"
 description = "ゆのっち，木星の衛星になる / 2017年直前のうるう秒 / Electronic Persons / 投票には行きましたか？ / その他の気になる記事"
 draft = false
 tags = ["astronomy", "jupiter", "juno", "leap-second", "artificial-intelligence", "politics", "election"]
@@ -51,6 +51,11 @@ Juno はこれから1年間木星やその衛星を観測し，最終的には�
 なんでも木星の衛星に生物がいる可能性を考慮して万一にも木星の衛星に落ちないようにとの措置らしい。
 
 これから新しい知見が生まれることを期待します。
+
+### 追加のブックマーク
+
+- [木星探査機「ジュノー」初の周回画像を公開　大赤斑から衛星までバッチリ! | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2016_07_13_juno.html)
+- [Juno探査機の小さなセンサーが木星のまわりでビッグな科学を演じる…ASICの超小型軽量化に成功 | TechCrunch Japan](http://jp.techcrunch.com/2016/07/13/20160712juno-probes-tiny-sensors-to-perform-big-science-around-jupiter/)
 
 ## 2017年直前のうるう秒{#ls}
 

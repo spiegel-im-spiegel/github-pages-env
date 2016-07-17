@@ -1,5 +1,6 @@
 +++
 date = "2016-07-13T04:19:59+09:00"
+update = "2016-07-17T23:06:47+09:00"
 description = "Go 言語をある程度使える（私程度のレベル）という方は第7章から第9章までを重点的に読むといい。"
 draft = false
 tags = ["book", "programming", "language", "golang"]
@@ -58,6 +59,7 @@ Interface, goroutine, channel の概念や実装方法は [Go 言語]の中核�
 - [なぜGo言語は設計が悪いのか – Go愛好者の見地から | 未分類 | POSTD](http://postd.cc/why-go-is-a-poorly-designed-language/)
 - [6年間におけるGoのベストプラクティス | プログラミング | POSTD](http://postd.cc/go-best-practices-2016/)
 - [Big Sky :: golang の channel を使ったテクニックあれこれ](http://mattn.kaoriya.net/software/lang/go/20160706165757.htm)
+- [ukai's blog: 『プログラミング言語Go』刊行記念イベント「Goの設計思想を読み解く～実際の開発に活かすために」](http://blogger.ukai.org/2016/07/gogo.html)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [A Tour of Go]: https://tour.golang.org/

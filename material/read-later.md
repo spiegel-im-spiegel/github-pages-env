@@ -1,4 +1,24 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-なし
+- [プラネタリウム番組「ネイチャーリウム オーロラの調べ 神秘の光を探る」：広島市こども文化科学館](http://www.pyonta.city.hiroshima.jp/event/detail/id/2904.html)
+- [トルコのクーデタ未遂をめぐる８つの考察ポイント：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41381)
+- [テロの時代の論理と倫理 – 中東・イスラーム学の風姿花伝](http://ikeuchisatoshi.com/%E3%83%86%E3%83%AD%E3%81%AE%E6%99%82%E4%BB%A3%E3%81%AE%E8%AB%96%E7%90%86%E3%81%A8%E5%80%AB%E7%90%86/)
+    - [日本でテロ事件の議論が見当はずれになる背景 – アゴラ](http://agora-web.jp/archives/2020343.html)
+- [JAXA | X線天文衛星ASTRO-H「ひとみ」の後継機の検討について](http://www.jaxa.jp/press/2016/07/20160714_hitomi_j.html)
+- [Amazon.co.jp： なぜ核はなくならないのかII: 「核なき世界」への視座と展望: 吉川 元, 水本 和実, 佐渡 紀子, 福井 康人, 広瀬 訓, 倉科 一希, 茅原 郁生, 吉村 慎太郎, 孫 賢鎮, ロバート・ジェイコブズ, 国末 憲人, 中村 桂子, 広島市立大学 広島平和研究所: 本](http://www.amazon.co.jp/exec/obidos/ASIN/4589037858/baldandersinf-22/)
+- [Adobe Reader および Acrobat の脆弱性 (APSB16-26) に関する注意喚起](https://www.jpcert.or.jp/at/2016/at160030.html)
+    - [Adobe Reader および Acrobat の脆弱性対策について(APSB16-26)(CVE-2016-4210等)：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/ciadr/vul/20160713-adobereader.html)
+- [Adobe Flash Player の脆弱性 (APSB16-25) に関する注意喚起](https://www.jpcert.or.jp/at/2016/at160029.html)
+    - [Adobe Flash Player の脆弱性対策について(APSB16-25)(CVE-2016-4247等)：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/ciadr/vul/20160713-adobeflashplayer.html)
+- [2016 年 7 月のセキュリティ情報 (月例) – MS16-084 ～ MS16-094 – 日本のセキュリティチーム](https://blogs.technet.microsoft.com/jpsecurity/2016/07/13/201607-security-bulletin/)
+    - [2016年 7月 Microsoft セキュリティ情報 (緊急 6件含) に関する注意喚起](https://www.jpcert.or.jp/at/2016/at160028.html)
+    - [Microsoft 製品の脆弱性対策について(2016年7月)：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/ciadr/vul/20160713-ms.html)
+- [JVNDB-2016-003523 Nexus 7 (2013) デバイス上で稼動する Android の Qualcomm コンポーネントの drivers/video/fbcmap.c におけるバッファオーバーフローの脆弱性 - JVN iPedia - 脆弱性対策情報データベース](http://jvndb.jvn.jp/ja/contents/2016/JVNDB-2016-003523.html)
+- [JVNDB-2016-003526 Nexus 5 および 7 (2013) デバイス上で稼動する Android の Qualcomm コンポーネントにおけるバッファオーバーフローの脆弱性 - JVN iPedia - 脆弱性対策情報データベース](http://jvndb.jvn.jp/ja/contents/2016/JVNDB-2016-003526.html)
+- [JVNDB-2016-003520 Nexus 5 および 7 (2013) デバイス上で稼動する Android の Qualcomm コンポーネントにおける権限を取得される脆弱性 - JVN iPedia - 脆弱性対策情報データベース](http://jvndb.jvn.jp/ja/contents/2016/JVNDB-2016-003520.html)
+- [JVNVU#96627087: libbpg にメモリ境界外への書き込みを行う脆弱性](http://jvn.jp/vu/JVNVU96627087/)
+- [[security] Go 1.6.3 and Go 1.7rc2 pre-announcement - Google グループ](https://groups.google.com/forum/#!topic/golang-announce/7JTsd70ZAT0)
+- [[Announce] Libgcrypt 1.7.2 released](https://lists.gnupg.org/pipermail/gnupg-announce/2016q3/000392.html)
+- [[Announce] GnuPG 2.1.14 released](https://lists.gnupg.org/pipermail/gnupg-announce/2016q3/000393.html)
+- [[Announce] OpenPGP.conf program published](https://lists.gnupg.org/pipermail/gnupg-announce/2016q3/000391.html)
 
