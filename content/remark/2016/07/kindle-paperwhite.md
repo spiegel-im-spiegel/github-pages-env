@@ -1,5 +1,6 @@
 +++
 date = "2016-07-18T02:42:46+09:00"
+update = "2016-07-18T10:55:53+09:00"
 description = "いや Prime Day で半額セールやってたし，ついカッとなってやった。後悔はしていない。"
 draft = false
 tags = ["e-book", "kindle"]
@@ -21,22 +22,16 @@ title = "今更 Kindle Paperwhite を買う"
 +++
 
 今更ですが [Kindle Paperwhite](http://www.amazon.co.jp/exec/obidos/ASIN/B00QJDQM9U/baldandersinf-22/) を購入しました。
+
 いや Prime Day で半額セールやってたし，ついカッとなってやった。
 後悔はしていない。
 
-{{< fig-gen >}}
-<blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.5092592593% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BH50vTkhA13/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Der Spiegel im Spiegelさん(@spiegel_2007)が投稿した写真</a> - <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-07-16T01:13:33+00:00">2016  7月 15 6:13午後 PDT</time></p></div></blockquote>
-{{< /fig-gen >}}
-
-実は Paperwhite （というか e-ink）にはあまり良いイメージがなくて割高感が拭えなかったのだ。
-一番の問題は漫画。
+{{< fig-img flickr="true" src="https://c1.staticflickr.com/9/8380/28345048256_f167bfae08.jpg" title="Kindle paperwhite 初期化" link="https://www.flickr.com/photos/spiegel/28345048256/" >}}
 
 初期の Paperwhite は漫画の表示がイマイチという評価を見かけて， Kindle で購入している本の 2/3 以上が漫画本の私としては忌避していたのですよ。
 なので初期設定後に早速漫画を表示してみた。
 
-{{< fig-gen >}}
-<blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BH53uGUhHbw/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Der Spiegel im Spiegelさん(@spiegel_2007)が投稿した写真</a> - <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-07-16T01:39:36+00:00">2016  7月 15 6:39午後 PDT</time></p></div></blockquote>
-{{< /fig-gen >}}
+{{< fig-img flickr="true" src="https://c2.staticflickr.com/9/8693/28299689601_88ff149e9c.jpg" title="paperwhite で「ねこめ」" link="https://www.flickr.com/photos/spiegel/28299689601/" >}}
 
 なんだ。
 全く遜色ないじゃん。
@@ -45,18 +40,14 @@ title = "今更 Kindle Paperwhite を買う"
 
 ついでに固定レイアウトの「数学ガール」も表示してみる。
 
-{{< fig-gen >}}
-<blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.6018518519% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BH54k6ZhmCZ/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Der Spiegel im Spiegelさん(@spiegel_2007)が投稿した写真</a> - <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-07-16T01:47:05+00:00">2016  7月 15 6:47午後 PDT</time></p></div></blockquote>
-{{< /fig-gen >}}
+{{< fig-img flickr="true" src="https://c7.staticflickr.com/9/8043/28345047646_424ca88ef5.jpg" title="paperwhite で「数学ガール」" link="https://www.flickr.com/photos/spiegel/28345047646/" >}}
 
 おおう。
 綺麗な数式である。
 
 普通の本も表示してみる。
 
-{{< fig-gen >}}
-<blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BH55Np0Bk2P/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Der Spiegel im Spiegelさん(@spiegel_2007)が投稿した写真</a> - <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-07-16T01:52:39+00:00">2016  7月 15 6:52午後 PDT</time></p></div></blockquote>
-{{< /fig-gen >}}
+{{< fig-img flickr="true" src="https://c3.staticflickr.com/9/8626/28096077890_55d81f9bc6.jpg" title="paperwhite の明朝体" link="https://www.flickr.com/photos/spiegel/28096077890/" >}}
 
 この Paperwhite には無印の明朝体と筑紫明朝とゴシックの3つのフォントが用意されている。
 写真の表示は無印の明朝体で，これも悪くないが，筑紫明朝のほうがいい感じである。
