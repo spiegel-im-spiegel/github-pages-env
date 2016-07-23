@@ -1,8 +1,9 @@
 +++
 date = "2016-06-19T19:49:11+09:00"
+update = "2016-07-23T08:57:16+09:00"
 description = "GnuPG 2.1.13 および Libgcrypt 1.7.1 がリリース / 学校で「プログラミング」を学ばせる必要はない / 今週はセキュリティ・アップデート週間でした / Pokémon GO / その他の気になる記事"
 draft = false
-tags = ["security", "cryptography", "tools", "openpgp", "gnupg", "games", "ingress", "programming"]
+tags = ["security", "cryptography", "tools", "openpgp", "gnupg", "games", "ingress", "pokemon", "programming"]
 title = "週末スペシャル： GnuPG 2.1.13 および Libgcrypt 1.7.1 がリリース"
 
 [author]
