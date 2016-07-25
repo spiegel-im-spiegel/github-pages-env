@@ -1,4 +1,4 @@
 <figure style='margin:0 auto;text-align:center;'>
-{{ with .Get "link" }}<a{{ with $.Get "flickr"}} data-flickr-embed="{{ . }}"{{ end }} href="{{ . }}">{{ end }}<img src="{{ .Get "src" }}"{{ if .Get "height" }} height="{{ .Get "height" }}"{{ end }}{{ if .Get "width" }} width="{{ .Get "width" }}"{{ end }}{{ if .Get "title" }} alt="{{ .Get "title" }}"{{ else if .Get "alt" }} alt="{{ .Get "alt" }}"{{ else }} alt=""{{ end }}>{{ with .Get "link" }}</a>{{ end }}
+{{ with .Get "link" }}<a{{ with $.Get "flickr"}} data-flickr-embed="{{ . }}"{{ end }} href="{{ . }}">{{ end }}<img srcset="{{ .Get "src" }} 500w" sizes="(min-width:600px) 500px, 80vw"{{ if .Get "title" }} alt="{{ .Get "title" }}"{{ else if .Get "alt" }} alt="{{ .Get "alt" }}"{{ else }} alt=""{{ end }}>{{ with .Get "link" }}</a>{{ end }}
 {{ if .Get "title" }}<figcaption>{{ with .Get "link" }}<a href="{{ . }}">{{ end }}{{ .Get "title" }}{{ with .Get "link" }}</a>{{ end }}</figcaption>{{ end }}
 </figure>
