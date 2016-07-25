@@ -1,6 +1,6 @@
 +++
 date = "2015-11-08T20:10:15+09:00"
-update = "2016-01-26T20:35:23+09:00"
+update = "2016-07-25T20:15:53+09:00"
 description = "今回はいよいよ Creative Commons Licenses について解説する。"
 draft = false
 tags = ["creative-commons", "copyright", "license"]
@@ -89,12 +89,12 @@ title = "Creative Commons Licenses"
 {{< fig-gen >}}
 <table>
 <tbody>
-<tr><th class='left'><i class="cc cc-by cc-2x"></i></th><th class='left'>表示</th><td>マテリアルの<a href="{{< relref "#attribution" >}}">クレジットを表示</a>すること</td></tr>
-<tr><th class='left'><i class="cc cc-sa cc-2x"></i></th><th class='left'>継承</th><td>改変したマテリアルについて，元のマテリアルのライセンスと<a href="{{< relref "#compatible" >}}">同等のライセンス</a>で公開すること</td></tr>
+<tr><th class='left'><i class="cc cc-by cc-2x"></i></th><th class='left'>表示</th><td class='left'>マテリアルの<a href="{{< relref "#attribution" >}}">クレジットを表示</a>すること</td></tr>
+<tr><th class='left'><i class="cc cc-sa cc-2x"></i></th><th class='left'>継承</th><td class='left'>改変したマテリアルについて，元のマテリアルのライセンスと<a href="{{< relref "#compatible" >}}">同等のライセンス</a>で公開すること</td></tr>
 <tr><th class='left'><i class="cc cc-nc cc-2x"></i>
                      <i class="cc cc-nc-eu cc-2x"></i>
-                     <i class="cc cc-nc-jp cc-2x"></i></th><th class='left'>非営利</th><td><a href="{{< relref "#non-commercial" >}}">営利目的での利用をしない</a>こと</td></tr>
-<tr><th class='left'><i class="cc cc-nd cc-2x"></i></th><th class='left'>改変禁止</th><td>元のマテリアルを改変しないこと</td></tr>
+                     <i class="cc cc-nc-jp cc-2x"></i></th><th class='left'>非営利</th><td class='left'><a href="{{< relref "#non-commercial" >}}">営利目的での利用をしない</a>こと</td></tr>
+<tr><th class='left'><i class="cc cc-nd cc-2x"></i></th><th class='left'>改変禁止</th><td class='left'>元のマテリアルを改変しないこと</td></tr>
 </tbody>
 </table>
 {{< /fig-gen >}}
@@ -107,12 +107,12 @@ title = "Creative Commons Licenses"
 {{< fig-gen >}}
 <table>
 <tbody>
-<tr><th class='left'><i class="cc cc-BY cc-2x"></i>      </th><td>表示</td></tr>
-<tr><th class='left'><i class="cc cc-by-sa cc-2x"></i>   </th><td>表示-継承</td></tr>
-<tr><th class='left'><i class="cc cc-by-nc cc-2x"></i>   </th><td>表示-非営利</td></tr>
-<tr><th class='left'><i class="cc cc-by-nc-sa cc-2x"></i></th><td>表示-非営利-継承</td></tr>
-<tr><th class='left'><i class="cc cc-by-nd cc-2x"></i>   </th><td>表示-改変禁止</td></tr>
-<tr><th class='left'><i class="cc cc-by-nc-nd cc-2x"></i></th><td>表示-非営利-改変禁止</td></tr>
+<tr><th class='left'><i class="cc cc-BY cc-2x"></i>      </th><td class='left'>表示</td></tr>
+<tr><th class='left'><i class="cc cc-by-sa cc-2x"></i>   </th><td class='left'>表示-継承</td></tr>
+<tr><th class='left'><i class="cc cc-by-nc cc-2x"></i>   </th><td class='left'>表示-非営利</td></tr>
+<tr><th class='left'><i class="cc cc-by-nc-sa cc-2x"></i></th><td class='left'>表示-非営利-継承</td></tr>
+<tr><th class='left'><i class="cc cc-by-nd cc-2x"></i>   </th><td class='left'>表示-改変禁止</td></tr>
+<tr><th class='left'><i class="cc cc-by-nc-nd cc-2x"></i></th><td class='left'>表示-非営利-改変禁止</td></tr>
 </tbody>
 </table>
 {{< /fig-gen >}}

@@ -1,5 +1,6 @@
 +++
 date = "2016-07-23T09:57:54+09:00"
+update = "2016-07-25T18:59:27+09:00"
 description = "日常社会で「してはいけない」ことや「するべきでない」ことはゲームでもしないこと"
 draft = false
 tags = ["games", "ingress", "pokemon", "security", "privacy"]
@@ -68,6 +69,8 @@ title = "Pokémon GO 始めました"
 まぁでもとりあえず Lv.5 まで上げないと何もできないっぽいので，まずはそこからかな。
 
 海外でのトラブル事例が注目を集めているせいか知らないが，日本政府がお馬鹿な警告を発しているようだ。
+
+- {{< pdf-file title="位置情報ゲーム「ポケモンＧＯ」に関する注意喚起について" link="http://www.nisc.go.jp/active/kihon/pdf/reminder_20160721.pdf" >}}
 
 {{< fig-gen >}}
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ni( ^s^)c &lt; 「<a href="https://twitter.com/hashtag/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3GO?src=hash">#ポケモンGO</a>」のリリースに先立ちまして、内閣サイバーセキュリティセンターより「おねがい」をお送りします。<br>みんながニコニコと安全に楽しめるように、ぜひ周りの方々、そして子供たちにお伝えくださいね♪ <a href="https://t.co/cNc0QCvaA8">pic.twitter.com/cNc0QCvaA8</a></p>&mdash; NISC@みんなのサイバー天気予報 (@nisc_forecast) <a href="https://twitter.com/nisc_forecast/status/755720522546106369">2016年7月20日</a></blockquote>
