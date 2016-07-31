@@ -1,6 +1,6 @@
 +++
 date = "2015-11-08T20:10:15+09:00"
-update = "2016-07-25T20:15:53+09:00"
+update = "2016-07-31T16:32:36+09:00"
 description = "今回はいよいよ Creative Commons Licenses について解説する。"
 draft = false
 tags = ["creative-commons", "copyright", "license"]
@@ -370,6 +370,8 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 - [What's New in 4.0 - Creative Commons](https://creativecommons.org/Version4/) （[日本語参考訳](http://qiita.com/nyampire/items/c03904bd27bd8812aad3)）
 - [CCライセンス・バージョン4.0 日本語版の公開 | クリエイティブ・コモンズ・ジャパン](http://creativecommons.jp/2015/07/15/cc%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B34-0-%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%89%88%E3%81%AE%E5%85%AC%E9%96%8B/)
 - [CC BY-SA 4.0 now one-way compatible with GPLv3 - Creative Commons Blog - Creative Commons](https://blog.creativecommons.org/2015/10/08/cc-by-sa-4-0-now-one-way-compatible-with-gplv3/) （[日本語訳](http://creativecommons.jp/2016/01/25/cc-by-sa-%EF%BC%88%E8%A1%A8%E7%A4%BA-%E7%B6%99%E6%89%BF%EF%BC%89-4-0%E3%81%8B%E3%82%89gpl-v3%E3%81%B8%E3%81%AE%E4%B8%80%E6%96%B9%E5%90%91%E3%81%AE%E4%BA%92%E6%8F%9B%E3%81%8C%E5%AE%9F%E7%8F%BE/)）
+- [How should we attribute 3D printed objects? - Creative Commons](https://creativecommons.org/2016/04/19/attribute-3d-printed-objects/)
+    - [3Dプリントでできた物にはどのようなライセンス表示をすべきか？ | クリエイティブ・コモンズ・ジャパン](https://creativecommons.jp/2016/07/26/3d%e3%83%97%e3%83%aa%e3%83%b3%e3%83%88%e3%81%a7%e3%81%a7%e3%81%8d%e3%81%9f%e7%89%a9%e3%81%ab%e3%81%af%e3%81%a9%e3%81%ae%e3%82%88%e3%81%86%e3%81%aa%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9%e8%a1%a8/)
 
 [本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
 [著作権法]: http://law.e-gov.go.jp/htmldata/S45/S45HO048.html "著作権法"
