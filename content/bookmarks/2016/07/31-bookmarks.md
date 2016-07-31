@@ -19,6 +19,7 @@ title = "2016-07-31 のブックマーク"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
+- [Facebookがすべてのオープンソースプロジェクトの窓口をGitHub上に一本化、それをFacebook Incubatorと呼ぶ | TechCrunch Japan](http://jp.techcrunch.com/2016/07/30/20160729facebook-tries-a-new-way-to-release-open-source-projects/)
 - [Linuxシステムコール徹底ガイド | プログラミング | POSTD](http://postd.cc/the-definitive-guide-to-linux-system-calls/)
 - [Apache Spark 2.0正式版がリリース。ANSI SQL標準サポート、10倍以上の高速化など － Publickey](http://www.publickey1.jp/blog/16/apache_spark_20ansi_sql10.html)
 - [The NSA and "Intelligence Legalism" - Schneier on Security](https://www.schneier.com/blog/archives/2016/07/the_nsa_and_int.html)
