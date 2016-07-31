@@ -27,7 +27,7 @@ title = "2016-07-31 のブックマーク"
 - [How should we attribute 3D printed objects? - Creative Commons](https://creativecommons.org/2016/04/19/attribute-3d-printed-objects/)
     - [3Dプリントでできた物にはどのようなライセンス表示をすべきか？ | クリエイティブ・コモンズ・ジャパン](https://creativecommons.jp/2016/07/26/3d%e3%83%97%e3%83%aa%e3%83%b3%e3%83%88%e3%81%a7%e3%81%a7%e3%81%8d%e3%81%9f%e7%89%a9%e3%81%ab%e3%81%af%e3%81%a9%e3%81%ae%e3%82%88%e3%81%86%e3%81%aa%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9%e8%a1%a8/)
 - [MIAU : MIAUシンポジウム2016「欧州の事例から考える著作権の未来」開催のお知らせ](http://miau.jp/index1469623512.phtml)
-ッグバンの前にはもうひとつの「古い宇宙」があった：研究結果｜WIRED.jp](http://wired.jp/2016/07/29/big-bounce-universe/)
+- [ビッグバンの前にはもうひとつの「古い宇宙」があった：研究結果｜WIRED.jp](http://wired.jp/2016/07/29/big-bounce-universe/)
 - [【速報】「Docker for Mac/Windows」正式版がリリース](http://www.softantenna.com/wp/software/docker-for-mac-windows-official-release/)
 - [さよなら、フィラエ──彗星着陸機、最期のツイート｜WIRED.jp](http://wired.jp/2016/07/28/farewell-philae/)
 - [Windows 10でプライバシーを守るためトラッキング機能を無効化する - 窓の杜](http://forest.watch.impress.co.jp/docs/shseri/win10link/1012928.html)
