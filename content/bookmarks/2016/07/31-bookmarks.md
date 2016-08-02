@@ -1,5 +1,6 @@
 +++
 date = "2016-07-31T16:36:54+09:00"
+update = "2016-08-02T22:15:35+09:00"
 description = "「Linuxシステムコール徹底ガイド」他"
 draft = false
 title = "2016-07-31 のブックマーク"
@@ -27,6 +28,7 @@ title = "2016-07-31 のブックマーク"
 - [（数学ガールの特別授業）福岡の筑紫女学園中学校で講演をしました。](http://www.hyuki.com/d/201607.html#i20160727210000)
 - [How should we attribute 3D printed objects? - Creative Commons](https://creativecommons.org/2016/04/19/attribute-3d-printed-objects/)
     - [3Dプリントでできた物にはどのようなライセンス表示をすべきか？ | クリエイティブ・コモンズ・ジャパン](https://creativecommons.jp/2016/07/26/3d%e3%83%97%e3%83%aa%e3%83%b3%e3%83%88%e3%81%a7%e3%81%a7%e3%81%8d%e3%81%9f%e7%89%a9%e3%81%ab%e3%81%af%e3%81%a9%e3%81%ae%e3%82%88%e3%81%86%e3%81%aa%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9%e8%a1%a8/)
+    - [3Dプリントでできた物にはどのようなライセンス表示をすべきか？ - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20160731/threedprinting) : やっぱそうか
 - [MIAU : MIAUシンポジウム2016「欧州の事例から考える著作権の未来」開催のお知らせ](http://miau.jp/index1469623512.phtml)
 - [ビッグバンの前にはもうひとつの「古い宇宙」があった：研究結果｜WIRED.jp](http://wired.jp/2016/07/29/big-bounce-universe/)
 - [【速報】「Docker for Mac/Windows」正式版がリリース](http://www.softantenna.com/wp/software/docker-for-mac-windows-official-release/)
