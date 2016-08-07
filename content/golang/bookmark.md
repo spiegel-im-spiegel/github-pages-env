@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-07-10T18:59:32+09:00"
+update = "2016-08-07T10:56:04+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -386,6 +386,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [GAE/Goで形態素解析してみた - Qiita](http://qiita.com/mako0715/items/259659e5e2935d2afc10)
 - [MySQLでのトランザクション処理をGolang+dbrで実現してゆく話 - Qiita](http://qiita.com/CST_negi/items/d79600c34191adb09c79)
 - [コマンドラインからググれてもいいと思ったので作った - Qiita](http://qiita.com/ieee0824/items/13435fc6de5f22cdb2f4)
+- [Big Sky :: golang の遅いコードをたった1行で高速化するテクニック](http://mattn.kaoriya.net/software/lang/go/20160804131744.htm) : 実際にはちょっと速くなるくらいらしい
 
 ### コマンドライン・ツール
 

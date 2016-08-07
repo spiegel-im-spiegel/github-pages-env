@@ -1,8 +1,9 @@
 +++
 date = "2016-08-02T22:26:30+09:00"
+update = "2016-08-07T11:21:11+09:00"
 description = "「Docker for Mac/Windowsが正式版としてリリース」他"
 draft = false
-title = "2016-07-02 のブックマーク"
+title = "2016-08-02 のブックマーク"
 
 [author]
   avatar = "/images/avatar.jpg"
