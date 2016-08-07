@@ -24,6 +24,8 @@ title = "原爆記念日"
 折角なので少し手直ししてこちらに再掲載する。
 まっ，思いつきで書いた雑な内容であるが（いつもそうですねすみません），今年もまた今日この日をきっかけに色々議論してもいいだろう。
 
+{{< fig-img flickr="true" src="https://c8.staticflickr.com/1/92/208018943_fff20178dd.jpg" title="Lanterns on the water of MOTOYASU river" link="https://www.flickr.com/photos/spiegel/208018943/" >}}
+
 ----
 
 思えば日本のような幸運な国は他にはあまり類を見ない。
