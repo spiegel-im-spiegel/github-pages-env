@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-08-14T12:20:32+09:00"
+update = "2016-08-17T23:26:43+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -28,10 +28,10 @@ title = "Go 言語に関するブックマーク"
 
 ## 公式サイト
 
-- [The Go Programming Language](https://golang.org/) : 2016年2月17日時点での最新は 1.6
+- [The Go Programming Language](https://golang.org/) : 2016年8月16日時点での最新は 1.7
     - [git repositories (Google)](https://go.googlesource.com/)
     - [git repositories (GitHub)](https://github.com/golang) : mirror
-- [golang-jp - The Go Programming Language](http://golang-jp.org/) : 本家の日本語訳サイト。（[golang.jp](http://golang.jp/) は参考にしない方がいい，らしい）
+- [golang-jp - The Go Programming Language](http://golang-jp.org/) : 本家の日本語訳サイト。（[golang.jp](http://golang.jp/) は内容が古いので参考にしない方がいい，らしい）
 
 ### Go 1.5 Released.
 
@@ -46,6 +46,11 @@ title = "Go 言語に関するブックマーク"
 - [Go 1.6 is released - The Go Blog](https://blog.golang.org/go1.6)
 - [Go 1.6 Release Notes - The Go Programming Language](https://golang.org/doc/go1.6)
     - [Go1.6の新機能 - Qiita](http://qiita.com/ksato9700/items/5505e506c20b6048c218)
+
+### Go 1.7 is released
+
+- [Go 1.7 is released - The Go Blog](https://blog.golang.org/go1.7)
+- [Go 1.7 Release Notes - The Go Programming Language](https://golang.org/doc/go1.7)
 
 ## 言語仕様に関すること
 
@@ -531,8 +536,6 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 
 ### Go 1.7 に関する話題
 
-- [Go 1.7 Beta 1 is released - Google グループ](https://groups.google.com/forum/#!topic/golang-announce/ITzPaJnZGZw)
-    - [Go 1.7 Release Notes DRAFT - The Go Programming Language](https://tip.golang.org/doc/go1.7)
 - [go1.7 の気になるところを試した - Qiita](http://qiita.com/tutuming/items/16df6fc7bf82fb5d7eb0)
 
 ### はじめての Go 言語 (on Windows)
