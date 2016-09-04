@@ -1,5 +1,6 @@
 +++
 date = "2016-08-18T22:50:54+09:00"
+update = "2016-08-19T19:23:53+09:00"
 description = "2015年8月18日に Facebook の TL に書いた記事。妄想だけど（笑）"
 draft = false
 tags = ["artificial-intelligence"]

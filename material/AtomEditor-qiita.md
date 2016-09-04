@@ -18,7 +18,7 @@
 
 Windows 版は，インストールパッケージ（実行形式）をダウンロードしてインストールすればよい。
 
-2015年6月25日に 1.0 が出た。[おめでたう！](http://qiita.com/spiegel-im-spiegel/items/5c6dafcece9e7118877a) （2016年6月6日に [1.8.0](https://github.com/atom/atom/releases/tag/v1.8.0) stable がリリース）
+2015年6月25日に 1.0 が出た。[おめでたう！](http://qiita.com/spiegel-im-spiegel/items/5c6dafcece9e7118877a) （2016年8月31日に [1.10.0](https://github.com/atom/atom/releases/tag/v1.10.0) stable がリリース）
 
 [Beta Channel](https://atom.io/beta) が登場。
 

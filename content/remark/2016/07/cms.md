@@ -1,6 +1,6 @@
 +++
 date = "2016-07-17T08:26:43+09:00"
-update = "2016-07-18T01:01:33+09:00"
+update = "2016-08-19T20:19:25+09:00"
 description = "そもそもセキュリティ以前に「自分で面倒をみる」ことのできない人は自前で CMS を導入するのはやめたほうがいい。ペットを飼うのと同じ（笑）"
 draft = false
 tags = ["cms", "security", "management"]
@@ -22,7 +22,7 @@ title = "「自分で面倒見られる子」だけが CMS を導入しなさい
 +++
 
 私の場合，それまで使っていた[オープンソース版 Movable Type (MTOS)](https://www.movabletype.jp/opensource/ "Movable Type Open Source | MovableType.jp - CMSプラットフォーム Movable Type -") を捨ててローカルでサイト管理するようにした[^0]。
-直接のきっかけは開発元が [MTOS](https://www.movabletype.jp/opensource/ "Movable Type Open Source | MovableType.jp - CMSプラットフォーム Movable Type -") のサポートを打ち切ったことだが，自前で CMS (Content Management System) を導入・運用することが高コストになり，それを個人レベルで運用することに意義を見いだせなくなってきたというのが大きい。
+直接のきっかけは開発元が [MTOS](https://www.movabletype.jp/opensource/ "Movable Type Open Source | MovableType.jp - CMSプラットフォーム Movable Type -") のサポートを打ち切ったことだが，自前でサーバ・サイドの CMS (Content Management System) を導入・運用することが高コストになり，それを個人レベルで運用することに意義を見いだせなくなってきたというのが大きい。
 
 [^0]: 経緯については本家サイトの「[ブログ移転準備中または Take the Hugo!](http://www.baldanders.info/spiegel/log2/000870.shtml)」を参照のこと。
 
@@ -31,7 +31,7 @@ title = "「自分で面倒見られる子」だけが CMS を導入しなさい
 
 - [セキュリティクラスタ まとめのまとめ 2016年6月版：初心者でも気軽にWordPressサイト作成！ して大丈夫なの？ (1/3) - ＠IT](http://www.atmarkit.co.jp/ait/articles/1607/15/news015.html)
 
-そもそもセキュリティ以前に「自分で面倒をみる」ことのできない人は自前で CMS を導入するのはやめたほうがいい。
+そもそもセキュリティ以前に「自分で面倒をみる」ことのできない人は自前でサーバ・サイド CMS を導入するのはやめたほうがいい。
 ペットを飼うのと同じ[^1]（笑） 「初心者」かどうかはさしたる問題ではない。
 誰だって最初は初心者だし，分からなければ訊くなり調べるなりすればいいからだ。
 
@@ -50,7 +50,7 @@ title = "「自分で面倒見られる子」だけが CMS を導入しなさい
 最近なら [Medium](https://medium.com/) や 日本の [note](https://note.mu/) みたいに気軽にオン書きできるものもある。
 [Tumblr](https://www.tumblr.com/) でブログサイトを運用している人は日本語圏にも結構いる[^t]。
 最近では [esa.io](https://esa.io/ "esa.io - Expertise Sharing Archives for motivated teams.") のようにチームで使えるものが流行りらしい。
-あるいは私のようにオンラインの CMS を捨てて [GitHub Pages](https://pages.github.com/ "GitHub Pages - Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.") ＋ [Hugo](https://gohugo.io/ "Hugo :: A fast and modern static website engine") で静的なページとして運用すればセキュリティ上の煩わしさから解放される。
+あるいは私のようにサーバ・サイドの CMS を捨てて [GitHub Pages](https://pages.github.com/ "GitHub Pages - Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.") ＋ [Hugo](https://gohugo.io/ "Hugo :: A fast and modern static website engine") で静的なページとして運用すればセキュリティ上の煩わしさから解放される。
 やり方なんていくらでもあるのだ。
 
 [^t]: [Tumblr](https://www.tumblr.com/) は[ホワイトハウスの公式サイトがある](http://whitehouse.tumblr.com/ "The Official White House Tumblr")ことで有名である。
@@ -65,7 +65,7 @@ JTB の情報漏えい騒ぎに関する今回の事後の振る舞いには批�
 セキュリティと利便性はトレードオフにならない。
 利便性を犠牲にしてセキュリティを強化してもユーザはただそこを迂回するだけだ（日本年金機構の事例はまさにこれと言える）。
 
-WordPress のような CMS がセキュリティ的に高コストに見えるのは，製品デザインとセキュリティ管理が齟齬を起こしていて，そこを運用で強引にカバーしようという駄目プロジェクトの典型みたいになっているからである。
+WordPress のようなサーバ・サイド CMS がセキュリティ的に高コストに見えるのは，製品デザインとセキュリティ管理が齟齬を起こしていて，そこを運用で強引にカバーしようという駄目プロジェクトの典型みたいになっているからである。
 あるいは「[奥が深い症候群](http://0xcc.net/misc/bad-knowhow.html "バッドノウハウと「奥が深い症候群」")」の末期症状と言うべきか。
 SaaS ならそうした面倒をサービス・プロバイダに押しつけることが出来るという意味で次善の策になる。
 
