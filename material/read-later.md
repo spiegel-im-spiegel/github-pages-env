@@ -5,4 +5,5 @@
 - [Go 1.7 is released - The Go Blog](https://blog.golang.org/go1.7)
     - [Go 1.7 Release Notes - The Go Programming Language](https://golang.org/doc/go1.7)
     - [Go 1.7 is released - Google グループ](https://groups.google.com/forum/#!topic/golang-announce/Xy1ngO9jejU)
-
+- [SEC BOOKS：ESCR C++：組込みソフトウェア開発向けコーディング作法ガイド［C++言語版］：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/sec/publish/tn10-003.html)
+- [SEC BOOKS：ESCR Ver.2.0：【改訂版】組込みソフトウェア開発向け コーディング作法ガイド［C言語版］Ver.2.0：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/sec/publish/tn13-001.html)
