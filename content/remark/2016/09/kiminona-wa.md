@@ -1,5 +1,6 @@
 +++
 date = "2016-09-19T20:42:22+09:00"
+update = "2016-09-22T11:34:08+09:00"
 description = "今年は幸せな年となった。もう今年は映画見なくていいや。"
 draft = false
 tags = ["movie"]
@@ -42,6 +43,10 @@ title = "「君の名は。」を観た"
 
 今年は両者の作品が立て続けに観られて幸せな年となった。
 もう今年は映画見なくていいや。
+
+## 参考
+
+- [新海誠監督が「君の名は。」の舞台裏を語った……「映画通に不評でも、大きな層を狙いたかった」 (1/4) - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1609/20/news061.html)
 
 <div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B01KMVQPD2/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/518zi7R1YgL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B01KMVQPD2/baldandersinf-22/">君の名は。</a></dt><dd>RADWIMPS </dd><dd>Universal Music LLC 2016-08-24</dd><dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B01J2RXWAG/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B01J2RXWAG.09._SCTHUMBZZZ_.jpg"  alt="君の名は。　Another Side:Earthbound<君の名は。　Another Side:Earthbound> (角川スニーカー文庫)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B01GZFGHTQ/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B01GZFGHTQ.09._SCTHUMBZZZ_.jpg"  alt="小説　君の名は。 (角川文庫)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B01IMR52G4/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B01IMR52G4.09._SCTHUMBZZZ_.jpg"  alt="前前前世 (movie ver.)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00FXUZNCW/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00FXUZNCW.09._SCTHUMBZZZ_.jpg"  alt="Rain"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00GTQN8HQ/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00GTQN8HQ.09._SCTHUMBZZZ_.jpg"  alt="Xと○と罪と"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B01KJ5Y0JC/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B01KJ5Y0JC.09._SCTHUMBZZZ_.jpg"  alt="君の名は。１<君の名は。> (コミックアライブ)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B01IMR51HO/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B01IMR51HO.09._SCTHUMBZZZ_.jpg"  alt="前前前世 (movie ver.)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B01KMVR3PQ/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B01KMVR3PQ.09._SCTHUMBZZZ_.jpg"  alt="前前前世 (movie ver.)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B01HPLSZDA/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B01HPLSZDA.09._SCTHUMBZZZ_.jpg"  alt="月刊MdN 2016年10月号（特集：君の名は。 彼と彼女と、そして風景が紡ぐ物語 / 新海誠）［雑誌］"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00HYY0SP2/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00HYY0SP2.09._SCTHUMBZZZ_.jpg"  alt="絶体絶命"  /></a> </p>
 <p class="description">音楽もよかったねぇ。</p>

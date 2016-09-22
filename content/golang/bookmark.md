@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-08-17T23:26:43+09:00"
+update = "2016-09-22T12:23:12+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -392,6 +392,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [MySQLでのトランザクション処理をGolang+dbrで実現してゆく話 - Qiita](http://qiita.com/CST_negi/items/d79600c34191adb09c79)
 - [コマンドラインからググれてもいいと思ったので作った - Qiita](http://qiita.com/ieee0824/items/13435fc6de5f22cdb2f4)
 - [Big Sky :: golang の遅いコードをたった1行で高速化するテクニック](http://mattn.kaoriya.net/software/lang/go/20160804131744.htm) : 実際にはちょっと速くなるくらいらしい
+- [Big Sky :: Golang で Windows の DLL を作る方法](http://mattn.kaoriya.net/software/lang/go/20160921010820.htm)
+- [Big Sky :: golang で slim テンプレートエンジン書いてる。](http://mattn.kaoriya.net/software/lang/go/20160910001214.htm)
 
 ### コマンドライン・ツール
 
@@ -515,6 +517,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Gopherの道を歩む – Node.jsからGo言語への移行 | プログラミング | POSTD](http://postd.cc/the-way-of-the-gopher/)
 - [6年間におけるGoのベストプラクティス | プログラミング | POSTD](http://postd.cc/go-best-practices-2016/)
 - [Big Sky :: 「みんなのGo言語」の執筆に参加させて頂きました。](http://mattn.kaoriya.net/software/lang/go/20160808013725.htm)
+- [Go言語の低レイテンシGC実現のための取り組み | プログラミング | POSTD](http://postd.cc/gos-march-to-low-latency-gc/)
 
 ### Go 1.5 に関する話題
 
