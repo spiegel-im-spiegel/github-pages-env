@@ -1,5 +1,6 @@
 +++
 date = "2016-10-12T00:39:24+09:00"
+update = "2016-10-15T11:21:38+09:00"
 description = "「正義」とか「良心」とかいうのは人の不完全さの象徴である。その不完全さが人のアイデンティティだというのなら，そんな種は進化の階梯を機械に譲ったほうがいい。でも実際には，私たちは種としてもっと先に進めるはずである，と私は思う。"
 draft = false
 tags = ["artificial-intelligence", "engineering", "politics"]
@@ -70,6 +71,50 @@ AI (Artificial Intelligence) はたまたま再流行してこれから何か影
 「キカイダー」を引くまでもなく，「正義」とか「良心」とかいうのは人の不完全さの象徴である。
 その不完全さが人のアイデンティティだというのなら，そんな種は進化の階梯を機械に譲ったほうがいい（不完全さを許容することと主張することは異なる）。
 でも実際には，私たちは種としてもっと先に進めるはずである，と私は思う。
+
+## 追記（2016-10-15）
+
+（[yomoyomo] さんの最近の記事は文章や記事の間の「行間」が絶妙に繋がってる感じで色々と触発されます。
+まぁ私のは妄言・妄想ですけどw）
+
+上で
+
+> 「問題があるとするならそれは機械の側にではなく，あくまで機械を含むシステム（もっと言えば社会）を設計する側にある。」
+
+などと無責任に書いたが，これは並大抵のことではない。
+
+- [我々は信頼に足るアルゴリズムを見極められるのか？ - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2016/10/56935/)
+- {{< pdf-file title="Equality of Opportunity in Supervised Learning" link="https://drive.google.com/file/d/0B-wQVEjH9yuhanpyQjUwQS1JOTQ/view" >}}
+    - [Google、AIから偏見を排除する方法を研究中 | TechCrunch Japan](http://jp.techcrunch.com/2016/10/10/20161007google-aims-to-prevent-discriminatory-ai-with-equality-of-opportunity-method/)
+
+機械学習なんて体のいい「洗脳」であるが，その洗脳から必然的に生まれる「偏見」を数学的手法で排除しようとするのがいかにも Google らしい。
+でも，そうしたロジックも含めて実装し評価するのは人なのである（今のところ）。
+
+[yomoyomo] さんの「[我々は信頼に足るアルゴリズムを見極められるのか？](https://wirelesswire.jp/2016/10/56935/)」では「特定のアルゴリズムが信頼に値するか評価する指針」として以下の4つの条件を紹介している。
+
+1. アルゴリズムの作者がどんな出力結果を求めているか明確にし、外部の観察者がその出力結果を検証できる。
+2. そのアルゴリズムが成功しているか測定可能である。
+3. アルゴリズムの作者の目指すものが、そのアルゴリズムの利用者の目指すものと足並みを揃えている。
+4. そのアルゴリズムは、その作者と利用者をより良い長期的な意思決定に導くか？
+
+1 から 3 は要するに「基準（criteria）」からの「逸脱（deviation）」がないかということなのだが，そもそもその criteria が正しいものなのか評価することが難しい。
+テストすることは設計することと同じなのである（TDD 的にはね）。
+
+そして 4 を満たす製品・サービスはほとんどど無いと思われる。
+何故なら長期に渡って要求が変わらないシステムなどありえないし，まず前提として「信頼」の評価は過去の事象に対してのみ可能であり未来については「予測」しかできない。
+予測であれば必ず「予断」が混入するものである。
+バグのないプログラムがほとんど不可能であるように予断のない予測もほぼ不可能だ[^ana]。
+
+[^ana]: 予断だらけの予測を「{{< ruby "うらない" >}}天数演繹{{< /ruby >}}」と言う（笑） 私は「アナリスト」は「競馬の予想屋」と同業種だと思っている人なのであしからず。
+
+私なら以下の5つ目を加える。
+
+- 失敗に対する対処が比較的容易である。
+
+長く運用していれば必ず何かの「失敗」が起きる。
+失敗が起きた時にベンダは指を咥えて見ているだけでユーザは泣き寝入りするしかないシステムは許容できない。
+
+[yomoyomo]: http://d.hatena.ne.jp/yomoyomo/ "YAMDAS現更新履歴"
 
 <div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4903127044/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/417iD4x5N%2BL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4903127044/baldandersinf-22/">排除型社会―後期近代における犯罪・雇用・差異</a></dt><dd>ジョック ヤング Jock Young </dd><dd>洛北出版 2007-03</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4791764331/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4791764331.09._SCTHUMBZZZ_.jpg"  alt="後期近代の眩暈―排除から過剰包摂へ"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4255008515/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4255008515.09._SCTHUMBZZZ_.jpg"  alt="断片的なものの社会学"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4796700439/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4796700439.09._SCTHUMBZZZ_.jpg"  alt="スティグマの社会学―烙印を押されたアイデンティティ"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4791764242/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4791764242.09._SCTHUMBZZZ_.jpg"  alt="新しい貧困 労働消費主義ニュープア"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4062881357/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4062881357.09._SCTHUMBZZZ_.jpg"  alt="弱者の居場所がない社会――貧困・格差と社会的包摂 (講談社現代新書)"  /></a> </p>
 <p class="description"><a href="http://www.baldanders.info/spiegel/log2/000410.shtml">感想はこちら</a>。</p>
