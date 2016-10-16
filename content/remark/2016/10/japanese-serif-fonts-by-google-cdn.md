@@ -39,24 +39,26 @@ draft = false
 - Noto Sans JP
 
 このうち Hannari, Kokoro, Sawarabi Mincho が Serif 相当の書体になる。
-それぞれの見本をみて，私は Kokoro を選択した。
+それぞれの見本をみて，私は Sawarabi Mincho を選択した。
 
-[こころ明朝体]はひらがな・カタカナをデザインしたものだが，それ以外の文字は [IPA フォント](http://ipafont.ipa.go.jp/ "IPAexフォント/IPAフォント | IPAフォントのダウンロードサイトです")で補完しているため問題ないと思われる。
+[さわらびフォント](http://sawarabi-fonts.osdn.jp/)は明朝体ではまだ第一水準漢字も網羅されていないが，とりあえず鼻の先は問題なさそうである[^kokoro]。
+Sawarabi Mincho を導入するには CSS で以下のようにインポートする。
+
+<!-- [こころ明朝体]はひらがな・カタカナをデザインしたものだが，それ以外の文字は [IPA フォント](http://ipafont.ipa.go.jp/ "IPAexフォント/IPAフォント | IPAフォントのダウンロードサイトです")で補完しているため問題ないと思われる。
 あと Noto Sans JP[^jp] と組み合わせた場合に違和感が少ないというのも気に入っている。
-もうちょっとだけ線を太くして文字間を詰めてくれるといいんだけどねぇ。
+もうちょっとだけ線を太くして文字間を詰めてくれるといいんだけどねぇ。 -->
 
+[^kokoro]: 本当は[こころ明朝体]にしたかったのだが，どうもひらがなとカタカナしかサポートしていないらしい。最初[こころ明朝体]にしてみて，ケータイでの表示が大変なことになったので引っ込めた。
 [^jp]: Noto Sans JP は Noto Sans Japanese から 350 のウェイトを削除しているらしい。アホなブラウザが 350 という値をうまくハンドリングできないからだそうな。まぁ文章の中で使うだけなら多くても 400 と 700 のふたつがあれば充分なのでこれで問題ないし，ダウンロードサイズが小さくなるのも魅力である。
 
-Kokoro フォントを導入するには CSS で以下のようにインポートする。
-
 ```css
-@import url(http://fonts.googleapis.com/earlyaccess/kokoro.css);
+@import url(http://fonts.googleapis.com/earlyaccess/sawarabimincho.css);
 ```
 
 あるいは各ページのヘッダ部分で
 
 ```html
-<link rel='stylesheet' href='http://fonts.googleapis.com/earlyaccess/kokoro.css' type='text/css'>
+<link rel='stylesheet' href='http://fonts.googleapis.com/earlyaccess/sawarabimincho.css' type='text/css'>
 ```
 
 としてもよい。
@@ -64,25 +66,25 @@ Kokoro フォントを導入するには CSS で以下のようにインポー�
 
 ```css
 /*
- * Kokoro (Japanese) https://fonts.google.com/earlyaccess
+ * Sawarabi Mincho (Japanese) https://fonts.google.com/earlyaccess
  */
 @font-face {
-  font-family: 'Kokoro';
+  font-family: 'Sawarabi Mincho';
   font-style: normal;
   font-weight: 400;
-  src: url(//fonts.gstatic.com/ea/kokoro/v1/Kokoro-Regular.eot);
-  src: url(//fonts.gstatic.com/ea/kokoro/v1/Kokoro-Regular.eot?#iefix) format('embedded-opentype'),
-       url(//fonts.gstatic.com/ea/kokoro/v1/Kokoro-Regular.woff2) format('woff2'),
-       url(//fonts.gstatic.com/ea/kokoro/v1/Kokoro-Regular.woff) format('woff'),
-       url(//fonts.gstatic.com/ea/kokoro/v1/Kokoro-Regular.ttf) format('truetype');
+  src: url(//fonts.gstatic.com/ea/sawarabimincho/v1/SawarabiMincho-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/sawarabimincho/v1/SawarabiMincho-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/sawarabimincho/v1/SawarabiMincho-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/sawarabimincho/v1/SawarabiMincho-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/sawarabimincho/v1/SawarabiMincho-Regular.ttf) format('truetype');
 }
 ```
 
-Kokoro フォントを指定するには
+Sawarabi Mincho を指定するには
 
 ```css
 body {
-  font-family: 'Noto Serif', 'Kokoro', serif;
+  font-family: 'Noto Serif', 'Sawarabi Mincho', serif;
   font-weight: 400; /* normal */
 }
 ```
