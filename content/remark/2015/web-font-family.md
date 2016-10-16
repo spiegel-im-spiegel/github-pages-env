@@ -1,6 +1,6 @@
 +++
 date = "2015-10-21T21:41:45+09:00"
-update = "2015-10-22T14:54:00+09:00"
+update = "2016-10-17T00:10:29+09:00"
 description = "このサイトの Web フォントまわりを整理したので，覚え書きとして残しておく。"
 draft = false
 tags = ["character", "font", "web", "google", "ipa", "site"]
@@ -67,7 +67,7 @@ body {
 }
 h1, h2, h3, h4, h5, h6, address, table th, dl > dt, em, strong, cite {
   font-family: 'Noto Sans', sans-serif;
-  font-weight: inherit;
+  font-weight: 400; /* normal */
   font-variant: inherit;
   font-style: inherit;
   font-size: inherit;
@@ -85,13 +85,15 @@ Noto Sans CJK を Web フォントとして使用するなら以下のサイト�
 
 - [Google Fonts : Early Access](https://www.google.com/fonts/earlyaccess)
 
-日本語であれば “Noto Sans Japanese” を導入すればよい。
+日本語であれば “Noto Sans JP を導入すればよい。
 
 ```html
-<link href='//fonts.googleapis.com/earlyaccess/notosansjapanese.css' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/earlyaccess/notosansjp.css' rel='stylesheet' type='text/css'>
 ```
 
-フォント名は `"Noto Sans Japanese"` で指定する。
+フォント名は `"Noto Sans JP"` で指定する[^jp]。
+
+[^jp]: Noto Sans JP は Noto Sans Japanese から 350 のウェイトを削除しているらしい。アホなブラウザが 350 という値をうまくハンドリングできないからだそうな。まぁ文章の中で使うだけなら多くても 400 と 700 のふたつがあれば充分なのでこれで問題ないし，ダウンロードサイズが小さくなるのも魅力である。
 
 ```css
 body {
@@ -103,15 +105,15 @@ body {
   line-height: 1.4;
 }
 h1, h2, h3, h4, h5, h6, address, table th, dl > dt, em, strong, cite {
-  font-family: 'Noto Sans', 'Noto Sans Japanese', sans-serif;
-  font-weight: inherit;
+  font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+  font-weight: 400; /* normal */
   font-variant: inherit;
   font-style: inherit;
   font-size: inherit;
 }
 ```
 
-Noto Sans Japanese では JIS X 0208 の文字集合を収録しているため， JIS X 0213 第3第4水準漢字はサポートされていない模様。
+Noto Sans JP では JIS X 0208 の文字集合を収録しているため， JIS X 0213 第3第4水準漢字はサポートされていない模様。
 これらの漢字が必要な場合は Noto Sans CJK の日本語フルセットが必要となる。
 
 ### Inconsolata
@@ -137,15 +139,15 @@ body {
   line-height: 1.4;
 }
 h1, h2, h3, h4, h5, h6, address, table th, dl > dt, em, strong, cite {
-  font-family: 'Noto Sans', 'Noto Sans Japanese', sans-serif;
-  font-weight: inherit;
+  font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+  font-weight: 400; /* normal */
   font-variant: inherit;
   font-style: inherit;
   font-size: inherit;
 }
 pre, tt, code, var, kbd, samp {
-  font-family: 'Inconsolata', 'Noto Sans Japanese', monospace;
-  font-weight: inherit;
+  font-family: 'Inconsolata', 'Noto Sans JP', monospace;
+  font-weight: 400; /* normal */
   font-variant: inherit;
   font-style: inherit;
   font-size: inherit;
@@ -283,3 +285,4 @@ CC License のアイコンやバナーを文字として扱うことができる
 ## 関連（するかもしれない）記事
 
 - [ちょこっと MathJax — Baldanders.info](http://www.baldanders.info/spiegel/log2/000750.shtml) : MathJax で数式用の Web フォントを使用可能
+- [Web フォントに関する覚え書き（明朝体編）]({{< relref "remark/2016/10/japanese-serif-fonts-by-google-cdn.md" >}}) : 明朝体について追記している
