@@ -2,15 +2,6 @@
 /**
  * addon.css -- Cascading Style Sheet (General)
  */
-/* re-declaration of font-family */
-body {
-  font-family: 'Noto Serif', 'aozora-m', serif;
-  /* font-smoothing: always; // Non-standard */
-}
-/* font for footer navigation */
-footer nav {
-  font-family: 'Noto Sans', 'Noto Sans Japanese', sans-serif;
-}
 
 /* hreview */
 main .hreview {
