@@ -1,5 +1,6 @@
 +++
 date = "2016-10-16T23:41:57+09:00"
+update = "2016-10-17T14:06:55+09:00"
 title = "Web フォントに関する覚え書き（明朝体編）"
 description = "最近 Google の Early Access のページを見たら随分と日本語の書体が増えている気がする。"
 tags = ["web", "font", "google", "character"]
@@ -20,7 +21,7 @@ draft = false
   flattr = "spiegel"
 +++
 
-以前，[ここで使っている Web Fonts の話]({{< relref "remark/2015/web-font-family.md" >}} "Web フォントに関する覚え書き")を書いた。
+以前，[ここで使っている Web フォントの話]({{< relref "remark/2015/web-font-family.md" >}} "Web フォントに関する覚え書き")を書いた。
 実は今まで日本語の Serif （明朝体）フォントがどうにも気に食わなかったのだが，最近 Google の Early Access のページを見たら随分と日本語の書体が増えている気がする。
 
 - [Early Access - Google Fonts](https://fonts.google.com/earlyaccess)
@@ -36,7 +37,9 @@ draft = false
 - Sawarabi Gothic （[さわらびゴシック](http://sawarabi-fonts.osdn.jp/ "さわらびフォント")）
 - Kokoro （[こころ明朝体]）
 - Sawarabi Mincho （[さわらび明朝](http://sawarabi-fonts.osdn.jp/ "さわらびフォント")）
-- Noto Sans JP
+- Noto Sans JP[^jp]
+
+[^jp]: Noto Sans JP は Noto Sans Japanese から 350 のウェイトを削除しているらしい。アホなブラウザが 350 という値をうまくハンドリングできないからだそうな。まぁ文章の中で使うだけなら多くても 400 と 700 のふたつがあれば充分なのでこれで問題ないし，ダウンロードサイズが小さくなるのも魅力である。
 
 このうち Hannari, Kokoro, Sawarabi Mincho が Serif 相当の書体になる。
 それぞれの見本をみて，私は Sawarabi Mincho を選択した。
@@ -45,11 +48,10 @@ draft = false
 Sawarabi Mincho を導入するには CSS で以下のようにインポートする。
 
 <!-- [こころ明朝体]はひらがな・カタカナをデザインしたものだが，それ以外の文字は [IPA フォント](http://ipafont.ipa.go.jp/ "IPAexフォント/IPAフォント | IPAフォントのダウンロードサイトです")で補完しているため問題ないと思われる。
-あと Noto Sans JP[^jp] と組み合わせた場合に違和感が少ないというのも気に入っている。
+あと Noto Sans JP と組み合わせた場合に違和感が少ないというのも気に入っている。
 もうちょっとだけ線を太くして文字間を詰めてくれるといいんだけどねぇ。 -->
 
 [^kokoro]: 本当は[こころ明朝体]にしたかったのだが，どうもひらがなとカタカナしかサポートしていないらしい。最初[こころ明朝体]にしてみて，ケータイでの表示が大変なことになったので引っ込めた。
-[^jp]: Noto Sans JP は Noto Sans Japanese から 350 のウェイトを削除しているらしい。アホなブラウザが 350 という値をうまくハンドリングできないからだそうな。まぁ文章の中で使うだけなら多くても 400 と 700 のふたつがあれば充分なのでこれで問題ないし，ダウンロードサイズが小さくなるのも魅力である。
 
 ```css
 @import url(http://fonts.googleapis.com/earlyaccess/sawarabimincho.css);
@@ -96,5 +98,6 @@ Web フォントを Google のようなところから取得するのはメリ�
 一度ダウンロードした Web フォントはブラウザ内でキャッシュされるため，みんなが同じ場所にあるフォントを使えばネット全体で通信量を減らすことができるからだ。
 
 本当は Noto Serif で日本語をサポートしてくれると嬉しいんだけどねぇ。
+でもフォントの制作は時間とお金と人手がかかる仕事だし，ただ成果を享受している身としてはワガママは言えません。
 
 [こころ明朝体]: http://typingart.net/?p=46 "日本語フォント「こころ明朝体」 - フォント無料ダウンロード｜Typing Art"

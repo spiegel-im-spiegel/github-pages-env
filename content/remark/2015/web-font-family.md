@@ -1,6 +1,6 @@
 +++
 date = "2015-10-21T21:41:45+09:00"
-update = "2016-10-17T00:10:29+09:00"
+update = "2016-10-17T13:41:04+09:00"
 description = "このサイトの Web フォントまわりを整理したので，覚え書きとして残しておく。"
 draft = false
 tags = ["character", "font", "web", "google", "ipa", "site"]
@@ -85,15 +85,15 @@ Noto Sans CJK を Web フォントとして使用するなら以下のサイト�
 
 - [Google Fonts : Early Access](https://www.google.com/fonts/earlyaccess)
 
-日本語であれば “Noto Sans JP を導入すればよい。
+日本語であれば “Noto Sans JP を導入すればよい[^jp]。
+
+[^jp]: Noto Sans JP は Noto Sans Japanese から 350 のウェイトを削除しているらしい。アホなブラウザが 350 という値をうまくハンドリングできないからだそうな。まぁ文章の中で使うだけなら多くても 400 と 700 のふたつがあれば充分なのでこれで問題ないし，ダウンロードサイズが小さくなるのも魅力である。
 
 ```html
 <link href='//fonts.googleapis.com/earlyaccess/notosansjp.css' rel='stylesheet' type='text/css'>
 ```
 
-フォント名は `"Noto Sans JP"` で指定する[^jp]。
-
-[^jp]: Noto Sans JP は Noto Sans Japanese から 350 のウェイトを削除しているらしい。アホなブラウザが 350 という値をうまくハンドリングできないからだそうな。まぁ文章の中で使うだけなら多くても 400 と 700 のふたつがあれば充分なのでこれで問題ないし，ダウンロードサイズが小さくなるのも魅力である。
+フォント名は `"Noto Sans JP"` で指定する。
 
 ```css
 body {
