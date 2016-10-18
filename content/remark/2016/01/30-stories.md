@@ -1,5 +1,6 @@
 +++
 date = "2016-01-30T19:19:39+09:00"
+update = "2016-10-18T21:25:39+09:00"
 description = "フェルミのパラドックス / GnuPG 2.1.11 released / Go 1.6 Release Candidate 1 / MIAU からの意見書"
 draft = false
 tags = ["astronomy", "seti", "security", "cryptography", "openpgp", "gnupg", "tools", "golang", "code", "politics", "intellectual-property"]
@@ -55,7 +56,7 @@ title = "週末スペシャル： フェルミのパラドックス"
 - $f_p$ ： その恒星が惑星を持つようになる確率
 - $n_e$ ： それらの中で生命の発生し得る条件を備えた惑星の数
 - $f_l$ ： その惑星の中に実際に生命が発生し得る確率
-- $f_i$ ： その生命が知性を持つに至る確率
+- $f_i$ ： その生命が知能を持つに至る確率
 - $f_c$ ： 彼らが実際に恒星間電波通信を行うまでに進歩する確率
 - $L$ ： その文明の寿命
 
