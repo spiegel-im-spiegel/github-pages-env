@@ -2,7 +2,7 @@
 draft = false
 date = "2016-10-20T21:45:45+09:00"
 title = "STAP 教と「説教サイト」"
-description = "ょっと訳あって昔の自分の記事を掘り返してたら懐かしいものを見つけた。"
+description = "ちょっと訳あって昔の自分の記事を掘り返してたら懐かしいものを見つけた。"
 tags = [
   "media",
   "medical",
@@ -34,6 +34,8 @@ tags = [
 学術レベルの STAP 論争については，ちょうど1年前に当のハーバード大学医学大学院（Harvard Medical School）によってトドメが刺されている。
 
 - [The Final Word on STAP | HMS](https://hms.harvard.edu/news/final-word-stap)
+
+ここで
 
 {{< fig-quote title="The Final Word on STAP | HMS" link="https://hms.harvard.edu/news/final-word-stap" lang="en" >}}
 <q>“Ultimately, we need to have more checks and balances in science,” said Daley, who is also an investigator of the Howard Hughes Medical Institute. “Incentives in the system are so stacked toward being productive and publishing and getting grants that it can lead even very well-intentioned people into too easily accepting their own cognitive biases.”</q>
