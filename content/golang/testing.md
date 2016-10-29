@@ -1,6 +1,6 @@
 +++
 date = "2015-09-19T23:40:43+09:00"
-update = "2015-10-13T17:10:00+09:00"
+update = "2016-10-29T23:44:09+09:00"
 description = "パッケージ化したのならテストをしましょう。"
 draft = false
 tags = ["golang", "testing"]
@@ -153,6 +153,7 @@ script:
 - [CI-as-a-ServiceでGo言語プロジェクトの最新ビルドを継続的に提供する | SOTA](http://deeeet.com/writing/2014/10/16/golang-in-ci-as-a-service/)
 - [golangでTravis CIを使ってクロスコンパイルするときにハマったところ #golang #travisci - uchimanajet7のメモ](http://uchimanajet7.hatenablog.com/entry/2015/03/20/211352)
 - [Go言語のビルド生活を drone.ioで幸せに暮らす #golang - Qiita](http://qiita.com/atotto/items/b796c31c1755dbec13db)
+- [Golang におけるサブテストの並行処理実装について | eureka tech blog](https://developers.eure.jp/tech/go1_7-subtests/)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
