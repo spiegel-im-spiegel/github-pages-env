@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "file": "hello.js",
+  "sourceRoot": "",
+  "sources": ["../../../../../../../usr/program/Dart/dart-sdk/lib/_internal/js_runtime/lib/js_primitives.dart","hello.dart","../../../../../../../usr/program/Dart/dart-sdk/lib/_internal/js_runtime/lib/internal_patch.dart","../../../../../../../usr/program/Dart/dart-sdk/lib/core/print.dart"],
+  "names": ["printString","main","printToConsole","print"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;iBAoBAA;MACEA,IAAIA,8B;QAEFA;QACAA;;MAIFA,IAAIA,8BACAA;QACFA;QACAA;;MAIFA,IAAIA;QACFA;MAIFA,IAAIA;QACFA;QACAA;;MAMFA;KACFA;;;UCjDAC;MC4BEC,cCpBgBC;KFNlBF"
+}
