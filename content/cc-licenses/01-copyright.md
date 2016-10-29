@@ -1,6 +1,6 @@
 +++
 date = "2015-10-17T15:51:23+09:00"
-update = "2016-04-26T21:49:01+09:00"
+update = "2016-10-29T23:15:56+09:00"
 description = "まずは「著作権」について簡単におさらい。"
 draft = false
 tags = ["code", "law", "intellectual-property", "copyright"]
@@ -331,7 +331,7 @@ title = "著作権と著作権法"
 
 ### 参考になる（かもしれない） Web ページ
 
-- [バーチャルネット法律娘　真紀奈17歳](http://homepage3.nifty.com/machina/) : 古いコンテンツだが，このなかの「著作権法講座」は参考になる
+- [バーチャルネット法律娘　真紀奈17歳](http://machina.private.coocan.jp/) : 古いコンテンツだが，このなかの「著作権法講座」は参考になる
 - [著作権Q&A | 公益社団法人著作権情報センター CRIC](http://www.cric.or.jp/qa/index.html)
 - [特集 : 18歳からの著作権入門 - CNET Japan](http://japan.cnet.com/sp/copyright_study/)
 - [自由か著作権か？](http://www.hyuki.com/gnu/frcp.html)

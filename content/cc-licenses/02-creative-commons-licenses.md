@@ -1,6 +1,6 @@
 +++
 date = "2015-11-08T20:10:15+09:00"
-update = "2016-07-31T16:32:36+09:00"
+update = "2016-10-29T23:15:56+09:00"
 description = "今回はいよいよ Creative Commons Licenses について解説する。"
 draft = false
 tags = ["creative-commons", "copyright", "license"]
@@ -359,7 +359,7 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 
 ### 参考になる（かもしれない） Web ページ
 
-- [バーチャルネット法律娘　真紀奈17歳](http://homepage3.nifty.com/machina/) : 古いコンテンツだが，このなかの「著作権法講座」は参考になる
+- [バーチャルネット法律娘　真紀奈17歳](http://machina.private.coocan.jp/) : 古いコンテンツだが，このなかの「著作権法講座」は参考になる
 - [著作権Q&A | 公益社団法人著作権情報センター CRIC](http://www.cric.or.jp/qa/index.html)
 - [クリエイティブ・コモンズ・ライセンスのブログ翻訳のススメ](http://www.yamdas.org/column/technique/cctrans.html)
 - [CC Licenses] Version 3 検討時の議論
