@@ -8,3 +8,4 @@
 - [sslh でport443 を有効活用して、sshもhttpsも同時に待ち受けする。 - それマグで！](http://takuya-1st.hatenablog.jp/entry/2016/10/14/144244)
 - [自衛のための勉強法 | mhatta's mumbo jumbo](http://www.mhatta.org/wp/blog/2016/10/16/studying-in-self-defense/)
 - [Rubyの内部文字コードはUTF-8ではない…だと…？！](https://techracho.bpsinc.jp/hachi8833/2016_10_13/26969)
+- [我々は「モノのインターネット」からインターネットを守る必要がある、ところまで来てしまったのか - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20161030/iotsecurity)
