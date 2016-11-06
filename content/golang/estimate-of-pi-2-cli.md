@@ -307,7 +307,7 @@ func init() {
 ```
 
 [`spf13/cobra`] パッケージで特徴的なのは，サブコマンドを追加する際に `cmd/root.go` を変更する必要が無いことである。
-サブコマンドの組み込みは `cmd` パッケージ内の `init()` 関数によって `main()` 起動前に行われる。
+サブコマンドの組み込みは `cmd` パッケージ内の各ファイルに定義されている `init()` 関数によって `main()` 起動前に行われる。
 
 ## CLI の作成
 
@@ -385,7 +385,7 @@ func New(pc, ec int64) <-chan float64 {
 }
 ```
 
-指定した回数だけ推定処理を行い，結果を [channel] に渡している。
+指定した回数だけ推定処理を行い，結果を [channel] `ch` に渡している。
 たとえば100,000個の点から円周率を推定する処理を10回をしたければ
 
 ```text
@@ -418,6 +418,7 @@ $ go run main.go estmt -e 10 -p 100000
 [`mitchellh/cli`]: https://github.com/mitchellh/cli "mitchellh/cli"
 [`spf13/cobra`]: https://github.com/spf13/cobra "spf13/cobra: A Commander for modern Go CLI interactions"
 [Hugo]: http://gohugo.io/ "Hugo :: A fast and modern static website engine"
+[channel]: http://golang.org/ref/spec#Channel_types
 
 ## 参考図書
 
