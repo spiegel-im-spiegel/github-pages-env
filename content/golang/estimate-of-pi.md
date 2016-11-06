@@ -1,5 +1,6 @@
 +++
 date = "2016-11-05T23:26:29+09:00"
+update = "2016-11-06T08:42:22+09:00"
 title = "モンテカルロ法による円周率の推定（その1）"
 description = "乱数（random number）についていい例題がないかなぁ，と考えて「円周率をモンテカルロ法で求めるやつやればいいぢゃん」と思いついた。ので早速試してみる。"
 tags = [
@@ -29,6 +30,9 @@ draft = false
 ので早速試してみる。
 ちなみに「モンテカルロ法」というのは数値計算やシミュレーションに乱数を用いる手法をさす。
 
+1. [モンテカルロ法による円周率の推定（その1）]({{< relref "golang/estimate-of-pi.md" >}}) ← イマココ
+2. [モンテカルロ法による円周率の推定（その2 CLI）]({{< relref "golang/estimate-of-pi-2-cli.md" >}})
+
 ## モンテカルロ法による円周率の推定
 
 では乱数を使ってどうやって円周率を求めるのか。
@@ -42,7 +46,7 @@ draft = false
 
 {{< fig-img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Pi_30K.gif" title="From Wikimedia Commons" link="https://commons.wikimedia.org/wiki/File:Pi_30K.gif" >}}
 
-全ての点 $n$ が領域内に均等にプロットされていれば，円の内側に入る点の数 $m$ は以下の式のようになることが期待できる。
+全ての点 $n$ が領域内に均等にプロットされていれば，円の内側に入る点の数 $m$ は，面積比から，以下の式のようになると期待できる。
 
 {{< fig-quote >}}
 \[
@@ -124,7 +128,7 @@ func main() {
 ちなみに `cmplx.Abs()` 関数は複素数の絶対値を取るもので， $\sqrt{x^2 + y^2}$ と同じである。
 
 では，以上を踏まえてランダムな点を生成する `gencmplx` パッケージを作ってみよう。
-こんな感じかな。
+[channel] と [goroutine] を使ってこんな感じにするかな。
 
 ```go
 package gencmplx
@@ -171,6 +175,8 @@ func main() {
 ```
 
 ここでは少なめに1万個の点を生成している。
+[channel] `c` からの値の取り出しは for-range 構文を使うと記述がシンプルになり `c` が `close()` するまでループしてくれる。
+
 早速これを動かしてみよう。
 
 ```text
@@ -183,7 +189,7 @@ $ go run main.go > plot-1.dat
 {{< fig-img src="/images/random-plot-1.png" >}}
 
 うーん。
-一様？ なのかなぁ。
+均等？ なのかなぁ。
 まぁ，この辺の評価については後ほど。
 
 最後に，生成した点の集合から円周率を推定するところまでやってみよう。
@@ -235,6 +241,8 @@ n = 100000, m = 78397, 4m/n = 3.13588
     - [golang complex(複素数)型の計算をする - Qiita](http://qiita.com/intelfike/items/f92f5c9ff2e515e16d47)
 - [GNUPLOTを用いたグラフ作成](http://www.cse.kyoto-su.ac.jp/~oomoto/lecture/program/gnuplot/gnuplot.html)
 
+[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`math/rand`]: https://golang.org/pkg/math/rand/ "rand - The Go Programming Language"
 [complex]: https://golang.org/ref/spec#Complex_numbers "Manipulating complex numbers"
@@ -249,4 +257,9 @@ n = 100000, m = 78397, 4m/n = 3.13588
 <div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4621300253/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/410V3ulwP5L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4621300253/baldandersinf-22/">プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)</a></dt><dd>Alan A.A. Donovan Brian W. Kernighan 柴田 芳樹 </dd><dd>丸善出版 2016-06-20</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798142417/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4798142417.09._SCTHUMBZZZ_.jpg"  alt="スターティングGo言語 (CodeZine BOOKS)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4873117526/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4873117526.09._SCTHUMBZZZ_.jpg"  alt="Go言語によるWebアプリケーション開発"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4865940391/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4865940391.09._SCTHUMBZZZ_.jpg"  alt="Kotlinスタートブック -新しいAndroidプログラミング"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4839959234/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4839959234.09._SCTHUMBZZZ_.jpg"  alt="Docker実戦活用ガイド"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4274218961/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4274218961.09._SCTHUMBZZZ_.jpg"  alt="グッド・マス ギークのための数・論理・計算機科学"  /></a> </p>
 <p class="description">著者のひとりは（あの「バイブル」とも呼ばれる）通称 “K&amp;R” の K のほうである。</p>
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-07-13">2016-07-13</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+</div>
+
+<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1FO/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/416jAxVU4NL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1FO/baldandersinf-22/">数学ガール／乱択アルゴリズム</a></dt><dd>結城 浩 </dd><dd>SBクリエイティブ株式会社 2014-02-14</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1D6/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8AT1D6.09._SCTHUMBZZZ_.jpg"  alt="数学ガール／ゲーデルの不完全性定理"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1CM/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8AT1CM.09._SCTHUMBZZZ_.jpg"  alt="数学ガール／フェルマーの最終定理"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00L0PDMK4/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00L0PDMK4.09._SCTHUMBZZZ_.jpg"  alt="数学ガール／ガロア理論"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00EYXMA9I/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00EYXMA9I.09._SCTHUMBZZZ_.jpg"  alt="数学ガール"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00L0PDMIQ/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00L0PDMIQ.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート／式とグラフ"  /></a> </p>
+<p class="description" >工学ガール，リサちゃん登場！</p>
+<p class="gtools" >reviewed by <a href="#maker" class="reviewer">Spiegel</a> on <abbr class="dtreviewed" title="2015-04-19">2015/04/19</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html">G-Tools</a>)</p>
 </div>
