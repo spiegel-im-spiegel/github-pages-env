@@ -349,7 +349,7 @@ github.com/spiegel-im-spiegel/pi
 
 {{< fig-img src="/images/estimate-of-pi.svg" title="パッケージ構成" link="/images/estimate-of-pi.svg" >}}
 
-[前回]と変わったところは `estmt` パッケージを追加したことだろうか。
+[前回]と変わったところは `genpi` パッケージを追加したことだろうか。
 こんな感じ。
 
 ```go
