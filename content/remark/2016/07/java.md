@@ -1,9 +1,9 @@
 +++
 date = "2016-07-09T15:27:27+09:00"
-update = "2016-07-17T23:55:41+09:00"
+update = "2016-11-08T20:52:07+09:00"
 description = "現在 Java でバリバリ仕事しているおぢさんから（老婆心ながら）言っておくと「Java はやめておけ」である。"
 draft = false
-tags = ["programming", "language"]
+tags = ["programming", "language", "java"]
 title = "Java はやめておけ"
 
 [author]
