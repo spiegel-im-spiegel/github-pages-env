@@ -1,5 +1,6 @@
 +++
 date = "2016-03-29T22:16:41+09:00"
+update = "2016-11-08T20:41:58+09:00"
 description = "Go 言語の引数は基本的に「値渡し（call by value）」である。「参照渡し（call by reference）」にしたい場合はポインタを使う。"
 draft = false
 tags = ["golang", "function", "pointer"]
@@ -271,9 +272,11 @@ func main() {
 }
 ```
 
-実際には [string] 型の instance は「不変（immutable）」なので「参照渡し」が必要な局面はほとんど無いと思われる。
+実際には [string] 型の instance は「不変（immutable）」なので「参照渡し」が必要な局面はほとんど無いと思われる[^s]。
 固定配列は不変ではないが，配列を操作するのであれば固定配列ではなく [slice] のほうが扱いやすい。
 たとえば上のコードでは `ary := []int{0, 1, 2, 3}` と初期化すれば [slice] として扱える。
+
+[^s]: このような需要としては文字列操作で「NULL 状態」が必要な場合であろう。たとえば DBMS にアクセスする場合は NULL 状態を扱う必要がある。なお [Go 言語]のコア・パッケージには [`database/sql`] があり `NullString` を使うことにより NULL 状態を扱える。このように NULL 状態を扱う必要がある場合は，直にポインタ操作するのではなく，何らかの value object を用意してカプセル化するほうが安全である。
 
 ## Method Receiver
 
@@ -562,3 +565,4 @@ func main() {
 [map]: http://golang.org/ref/spec#Map_types
 [channel]: http://golang.org/ref/spec#Channel_types
 [string]: http://golang.org/ref/spec#String_types
+[`database/sql`]: https://golang.org/pkg/database/sql/ "sql - The Go Programming Language"

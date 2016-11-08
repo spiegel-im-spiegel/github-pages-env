@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-10-29T23:44:09+09:00"
+update = "2016-11-08T20:41:58+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -163,6 +163,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [go で AggregationException(.NET)的なことをする - Qiita](http://qiita.com/kyoh86/items/6cadd79de08cc597b65a) : ループ等でエラーを集約してからまとめて処理する方法
 - [echoのAPIサーバ実装とエラーハンドリングの落とし穴 - Qiita](http://qiita.com/tienlen/items/5f2bcfe06eb83830ee55)
 - [Golangのエラー処理とpkg/errors | SOTA](http://deeeet.com/writing/2016/04/25/go-pkg-errors/)
+    - [Golangでエラー時にスタックトレースを表示する - Qiita](http://qiita.com/deeeet/items/dacc71932393ab35d9f8)
 
 [本家ブログ]でも以下の記事で解説している。
 
@@ -397,6 +398,9 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Big Sky :: golang の遅いコードをたった1行で高速化するテクニック](http://mattn.kaoriya.net/software/lang/go/20160804131744.htm) : 実際にはちょっと速くなるくらいらしい
 - [Big Sky :: Golang で Windows の DLL を作る方法](http://mattn.kaoriya.net/software/lang/go/20160921010820.htm)
 - [Big Sky :: golang で slim テンプレートエンジン書いてる。](http://mattn.kaoriya.net/software/lang/go/20160910001214.htm)
+- [Go+GAE+Cloud Datastoreで簡単なREST APIを構築 - Qiita](http://qiita.com/silverfox/items/81769425e51f24e676d2])
+- [独自のfmt.Formatterを実装する - Qiita](http://qiita.com/deeeet/items/1e2164f89ccfc29d7b11)
+- [Go 言語で wc を実装してみた - takatoshiono's blog](http://takatoshiono.hatenablog.com/entry/2016/09/22/024605)
 
 ### コマンドライン・ツール
 
@@ -522,6 +526,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [6年間におけるGoのベストプラクティス | プログラミング | POSTD](http://postd.cc/go-best-practices-2016/)
 - [Big Sky :: 「みんなのGo言語」の執筆に参加させて頂きました。](http://mattn.kaoriya.net/software/lang/go/20160808013725.htm)
 - [Go言語の低レイテンシGC実現のための取り組み | プログラミング | POSTD](http://postd.cc/gos-march-to-low-latency-gc/)
+- [Go言語がダメな理由 | プログラミング | POSTD](http://postd.cc/why-go-is-not-good/)
 
 ### Go 1.5 に関する話題
 

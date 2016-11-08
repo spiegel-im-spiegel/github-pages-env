@@ -1,6 +1,6 @@
 +++
 date = "2015-12-09T20:14:59+09:00"
-update = "2016-06-04T19:36:09+09:00"
+update = "2016-11-08T20:41:58+09:00"
 description = "git 各コマンドに関する覚え書き。思い出したら追記予定。"
 draft = false
 tags = ["git", "tools"]
@@ -162,6 +162,26 @@ $ git push origin :wrong-branch
 
 - [passingloop • 復習 Git: GitHub のブランチを削除する．](http://passingloop.tumblr.com/post/18015576208/remove-remote-branches-by-git-push)
 - [GitHubで付けたタグを削除する - アインシュタインの電話番号](http://blog.ruedap.com/2011/02/08/git-github-delete-tag)
+
+## commit の取り消し（しかもリモートに push しちゃった）
+
+まず commit を完全になかったことにするには以下のコマンドを実行する。
+
+```text
+$ git reset --hard xxxxxxx
+```
+
+`xxxxxxx` は commit ID （ハッシュ）で，取り消すコミットの直前のものを指定する。
+これを push すればいいのだが，単に push しただけではエラーになるので
+
+```text
+$ git push -f
+```
+
+として強制的に push する。
+これで貴方の歴史はなかったことになりました（笑） チームで管理している場合はご注意を。
+
+- [【git】git pushを取り消す - tweeeetyのぶろぐ的めも](http://tweeeety.hateblo.jp/entry/2015/06/10/215753)
 
 ## Git に関するブックマーク
 

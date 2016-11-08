@@ -1,6 +1,7 @@
 +++
 draft = false
 date = "2016-11-03T20:51:00+09:00"
+update = "2016-11-08T20:41:58+09:00"
 title = "Error の構造化"
 description = "エラーハンドリングのために error を構造化する手段として github.com/pkg/errors というパッケージがあるそうだ。"
 tags = [
@@ -256,6 +257,8 @@ func Cause(err error) error {
 とても便利なパッケージなので是非活用したいところである。
 
 ## ブックマーク
+
+- [Golangでエラー時にスタックトレースを表示する - Qiita](http://qiita.com/deeeet/items/dacc71932393ab35d9f8)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
