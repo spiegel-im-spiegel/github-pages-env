@@ -34,10 +34,10 @@ tags = [
 JavaVM で動作可能なバイトコードを吐くそうで， Android アプリの開発などでもすでに実績があるようだ。
 また JavaScript のコードも吐けるらしい。
 
-[Kotlin] の特徴の一つは「null 安全（null safety）[^np]」であることのようだ。
-「null 安全」とは実行時にいわゆる「ぬるぽ（null pointer error or exception）」が発生しない言語仕様になっていることで， [Kotlin] の場合はコンパイル時にチェックされる。
+[Kotlin] の特徴の一つは「null 安全（null safety）」であることのようだ。
+「null 安全」とは実行時にいわゆる「ぬるぽ（null pointer error or exception）[^np]」が発生しない言語仕様になっていることで， [Kotlin] の場合はコンパイル時にチェックされる。
 
-[^np]: null の英語での発音は「ナル」に近いのだが，どういうわけか日本の IT 界隈ではドイツ語っぽく「ヌル」と呼ぶ人が圧倒的多数のようだ。私もそうだし，私の半径100m以内で「ナル」と呼ぶ人はいない。まぁ私は TTC (Telecommunication Technology Committee) を「てってーしー」と呼んでいた世代だからな（笑） （参考：[IT業界で横行する恥ずかしい英語発音 - Qiita](http://qiita.com/ryounagaoka/items/290885ee3291b393fe1f)：コメントの議論が面白いので是非）
+[^np]: null の英語での発音は「ナル」に近いのだが，どういうわけか日本の IT 界隈ではドイツ語っぽく「ヌル」と呼ぶ人が圧倒的多数のようだ。私もそうだし職場の半径100m以内で「ナル」と呼ぶ人はいない。まぁ私は TTC (Telecommunication Technology Committee) を「てってーしー」と呼んでいた世代だからな（笑） （参考：[IT業界で横行する恥ずかしい英語発音 - Qiita](http://qiita.com/ryounagaoka/items/290885ee3291b393fe1f)：コメントの議論が面白いので是非）
 
 アプリケーションが「ぬるぽ」で落ちるならまだマシなほうで，最悪の場合は重大な脆弱性問題を引き起こす場合もあるため，「null 安全」という考え方は近年とくに注目されている。
 そのため今どき流行りの言語では「null 安全」が取り入れられつつあるらしい[^go]。
