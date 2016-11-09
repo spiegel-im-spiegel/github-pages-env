@@ -1,7 +1,7 @@
 +++
 date = "2015-11-08T20:10:15+09:00"
-update = "2016-11-08T20:41:58+09:00"
-description = "今回はいよいよ Creative Commons Licenses について解説する。"
+update = "2016-11-09T15:18:42+09:00"
+sdescription = "今回はいよいよ Creative Commons Licenses について解説する。"
 draft = false
 tags = ["creative-commons", "copyright", "license"]
 title = "Creative Commons Licenses"
@@ -300,7 +300,7 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 [CC Licenses] ではマテリアルの再配布[^j] を行う際にライセンスの再許諾（sublicense）を許可していない。
 再配布されたマテリアルにも自動的に元のライセンスが付与される。
 
-{{< fig-img src="/images/non-sublicense.svg" title="再配布と許諾の関係" link="/images/non-sublicense.svg" >}}
+{{< fig-img src="/images/non-sublicense.svg" title="再配布と許諾の関係" link="/images/non-sublicense.svg" width="567" >}}
 
 これは，たとえばマテリアルを著作（権）者ではない出版者（社）などが配布する際に勝手にライセンスを変えたり [CC Licenses] にない制限を加えたりしてはいけないという意味である。
 これにはいわゆる「技術的保護手段」も含まれる[^d]。

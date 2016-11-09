@@ -1,6 +1,6 @@
 +++
 date = "2015-12-15T21:19:58+09:00"
-update = "2016-05-06T22:57:04+09:00"
+update = "2016-11-09T15:18:42+09:00"
 description = "Go 言語がいわゆる「オブジェクト指向言語」と言えるかどうかについては色々とあるようだが，オブジェクト指向プログラミングを助けるための仕掛けはいくつか存在する。今回はその中の type キーワードを中心に解説していく。"
 draft = false
 tags = ["golang", "object-oriented", "programming", "type", "interface"]
@@ -402,7 +402,7 @@ func main() {
 
 上のコードでは `ErrorInfo2` と直接関連付けられた `Error()` がないため `ErrorInfo1` の `Error()` が呼ばれるが，その関数の中で呼ばれる `Errno()` は `ErrorInfo2` と関連付けられた関数ではなく `ErrorInfo1` と関連付けられた関数になる。
 
-{{< fig-img src="/images/delegation.svg" title="delegation" link="/images/delegation.svg" >}}
+{{< fig-img src="/images/delegation.svg" title="delegation" link="/images/delegation.svg" width="530" >}}
 
 これは [Go 言語]では埋め込みフィールドの関数呼び出しが「委譲」として機能しているためである[^ef]。
 たとえば C++ 言語では virtual 修飾子を付与して仮想関数化することで意図的にオーバーライドできるが[^dlg]， [Go 言語]ではこのような仕掛けがないため，呼ばれた関数は常に委譲として機能する。
