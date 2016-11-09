@@ -22,7 +22,7 @@ if #arg == 1 then
 	end
 else
 	local section = arg[1]
-	file = arg[2]
+	local file = arg[2]
 	if section == "remark" or section == "bookmarks" then
 		if year == "2015" then
 			path = Hugolib.pathjoin(section, year, file)
