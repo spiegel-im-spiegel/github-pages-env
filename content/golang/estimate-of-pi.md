@@ -32,6 +32,7 @@ draft = false
 
 1. [モンテカルロ法による円周率の推定（その1）]({{< relref "golang/estimate-of-pi.md" >}}) ← イマココ
 2. [モンテカルロ法による円周率の推定（その2 CLI）]({{< relref "golang/estimate-of-pi-2-cli.md" >}})
+3. モンテカルロ法による円周率の推定（その2 Gaussian）
 
 ## モンテカルロ法による円周率の推定
 
@@ -39,7 +40,7 @@ draft = false
 まずは以下のように原点を中心とした半径 $1$ の円を考える。
 ただしここでは第一象限のみを対象とする。
 
-{{< fig-img src="/images/circle.png" >}}
+{{< fig-img src="/images/circle.png" link="/images/circle.png" >}}
 
 そして $0 \le y \le 1$ および $0 \le y \le 1$ の範囲でランダムに点をプロットしていく。
 （以下の[図は Wikimedia Commons のもの](https://commons.wikimedia.org/wiki/File:Pi_30K.gif "File:Pi 30K.gif - Wikimedia Commons")を拝借した。 [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/ "Creative Commons — Attribution 3.0 Unported — CC BY 3.0") で公開されている）

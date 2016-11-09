@@ -23,6 +23,7 @@ draft = false
 
 1. [モンテカルロ法による円周率の推定（その1）]({{< relref "golang/estimate-of-pi.md" >}})
 2. [モンテカルロ法による円周率の推定（その2 CLI）]({{< relref "golang/estimate-of-pi-2-cli.md" >}}) ← イマココ
+3. モンテカルロ法による円周率の推定（その2 Gaussian）
 
 ## コマンドライン・インタフェース
 
