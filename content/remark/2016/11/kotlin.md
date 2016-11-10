@@ -1,7 +1,7 @@
 +++
 draft = false
 date = "2016-11-08T21:02:26+09:00"
-update = "2016-11-09T20:13:52+09:00"
+update = "2016-11-10T18:45:34+09:00"
 title = "Kotlin に関する覚え書き"
 description = "今回は試して遊ぶ余裕がないので本当にただのメモ。"
 tags = [
@@ -43,7 +43,7 @@ JavaVM で動作可能なバイトコードを吐くそうで， Android アプ�
 アプリケーションが「ぬるぽ」で落ちるならまだマシなほうで，最悪の場合は重大な脆弱性問題を引き起こす場合もあるため，「null 安全」という考え方は近年とくに注目されている。
 そのため今どき流行りの言語では「null 安全」が取り入れられつつあるらしい[^go]。
 
-[^go]: ちなみに Go 言語は全く「null 安全」ではない。「ぬるぽ」を緩和するような仕組みはないこともないが，コンパイラレベルで保証しているわけではない。（参考： [Go言語がダメな理由 | プログラミング | POSTD](http://postd.cc/why-go-is-not-good/)）
+[^go]: ちなみに [Go 言語]は全く「null 安全」ではない。「ぬるぽ」を緩和するような仕組みはないこともないが，コンパイラレベルで保証しているわけではない。（参考： [Go言語がダメな理由 | プログラミング | POSTD](http://postd.cc/why-go-is-not-good/)）
 
 更に [Kotlin] は Java からの置き換えを目論み，かつ言語仕様を拡張させている点も特徴である（Scala や Groovy 由来の機能や糖衣構文もある）。
 少なくとも [Kotlin] では関数を第一級オブジェクト（first-class object）として扱うことができるのは大きい。
@@ -57,3 +57,4 @@ JavaVM で動作可能なバイトコードを吐くそうで， Android アプ�
 - [null安全でない言語は、もはやレガシー言語だ - Qiita](http://qiita.com/koher/items/e4835bd429b88809ab33)
 
 [Kotlin]: https://kotlinlang.org/ "Kotlin Programming Language"
+[Go 言語]: https://golang.org/ "The Go Programming Language"

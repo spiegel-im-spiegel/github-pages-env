@@ -3,6 +3,23 @@
 - [中国の新サイバーセキュリティー法は企業にとって悪いしらせ | TechCrunch Japan](http://jp.techcrunch.com/2016/11/08/20161106chinas-new-cybersecurity-law-is-bad-news-for-business/)
 - [宇宙の始まり観測　「ジェイムズ・ウェッブ宇宙望遠鏡」主鏡が完成　2018年に打ち上げ | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/10/2016_11_08_nasa.htmlhttp://sorae.jp/10/2016_11_08_nasa.html)
 - [結城タスク / YukiTask - A Simple Task Manager for Command Line Lovers.](http://yukitask.textfile.org/)
+- [null安全を誤解している人達へのメッセージ - Qiita](http://qiita.com/omochimetaru/items/ee29d4c6eb0d78f02b15)
+- [【ドキュメントが書きたくなる】Markdownライブプレビュー + インライン数式/UML/図表 + 綺麗にPDF/Wordエクスポートまで - Qiita](http://qiita.com/tomo_makes/items/da4e8fe7d8cf168b545f)
+- [火星は「静止した世界」、ではない｜WIRED.jp](http://wired.jp/2016/11/08/weather-patterns-mars/)
+- [「SSL/TLSアプライアンス製品の暗号設定方法等の調査報告書」の公開：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/fy28/reports/crypto_survey/index.html)
+- [Adobe Flash Player の脆弱性 (APSB16-37) に関する注意喚起](https://www.jpcert.or.jp/at/2016/at160045.html)
+- [2016年 11月 Microsoft セキュリティ情報 (緊急 6件含) に関する注意喚起](https://www.jpcert.or.jp/at/2016/at160046.html)
+- [トランプ大統領の宇宙政策はどうなる？　気になる9つの重要項目 | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2016_11_10_t.html)
+- [The Battle Against TPP Isn’t Over, But It Has Shifted | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2016/11/battle-against-tpp-isnt-over-it-has-shifted)
+
+## 正規分布，正規確率
+
+- [gnuplot でヒストグラム（頻度分布図）を描画する - Qiita](http://qiita.com/iwiwi/items/4c7635d4c84bc785e47a)
+- [gnuplot / plot (7)](http://newton.ph.unito.it/~moretti/gnuplot/plot7.html)
+- [確率紙で学ぶ確率・統計](http://www.fml.t.u-tokyo.ac.jp/~sakai/kougi/ProbSystem/ProbPaper/probpaper.htm)
+- [標準正規分布 - C言語・C++・C# 解決済 | 教えて！goo](http://oshiete.goo.ne.jp/qa/935719.html)
+- [付表：正規分布表　（ P から z を求める表） - 中川雅央（滋賀大学）](http://www.biwako.shiga-u.ac.jp/sensei/mnaka/ut/normdistinvtab.html)
+- [gnuplot でヒストグラム・度数分布多角形づくり: 個人的健忘録 from 2013](http://bluearth.cocolog-nifty.com/blog/2014/03/gnuplot-d8cc-1.html)
 
 ## Effective C++ 解説
 

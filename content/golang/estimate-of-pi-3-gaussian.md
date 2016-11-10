@@ -1,8 +1,12 @@
 +++
-title = "モンテカルロ法による円周率の推定（その2 Gaussian）"
+title = "モンテカルロ法による円周率の推定（その3 Gaussian）"
 description = "description"
 tags = [
-  "remark",
+  "golang",
+  "math",
+  "random",
+  "circle-ratio",
+  "gaussian",
 ]
 draft = true
 date = "2016-11-09T20:41:57+09:00"
@@ -68,7 +72,7 @@ $m$ を求める実験を何度も繰り返したときの $m$ の分布は二�
 さらに $n$ が大きければ $m$ の分布は正規分布（またはガウス分布）に近似できる。
 円周率の推定値は ${4m}/{n}$ なので，円周率の推定値の分布もまた正規分布に近似できると考えられる。
 
-というわけでヒストグラムを作ってみることにする。
+というわけで推定値の分布に対するヒストグラムを作ってみることにする。
 CLI はこんな感じで
 
 ```text
@@ -173,7 +177,6 @@ standard deviation: 0.00520
 ## ブックマーク
 
 - [モンテカルロ法の誤差を考える](http://ruby.kyoto-wu.ac.jp/info-com/NumericalModels/RandomProcess/estimateMCmodel.html)
-- [gnuplot でヒストグラム・度数分布多角形づくり: 個人的健忘録 from 2013](http://bluearth.cocolog-nifty.com/blog/2014/03/gnuplot-d8cc-1.html)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
