@@ -11,6 +11,8 @@
 - [2016年 11月 Microsoft セキュリティ情報 (緊急 6件含) に関する注意喚起](https://www.jpcert.or.jp/at/2016/at160046.html)
 - [トランプ大統領の宇宙政策はどうなる？　気になる9つの重要項目 | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2016_11_10_t.html)
 - [The Battle Against TPP Isn’t Over, But It Has Shifted | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2016/11/battle-against-tpp-isnt-over-it-has-shifted)
+- [グーグル、「Dirty COW」脆弱性の修正は12月のAndroidパッチまで持ち越し - CNET Japan](http://japan.cnet.com/news/service/35091941/)
+- [これがトランプ政権が掲げるテクノロジー政策だ | TechCrunch Japan](http://jp.techcrunch.com/2016/11/11/20161109trump-policies/)
 
 ## 正規分布，正規確率
 
