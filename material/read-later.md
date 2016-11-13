@@ -1,5 +1,7 @@
 # 「あとでみる」ブックマーク（Temporary）
 
+- [トランプ時代の中東（１）シリア反体制派はよりあからさまに見捨てられる：池内恵 | 中東の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41706)
+
 ## 正規分布，正規確率
 
 - [gnuplot でヒストグラム（頻度分布図）を描画する - Qiita](http://qiita.com/iwiwi/items/4c7635d4c84bc785e47a)

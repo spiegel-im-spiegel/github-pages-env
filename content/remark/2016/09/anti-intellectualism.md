@@ -1,6 +1,6 @@
 +++
 date = "2016-09-03T23:40:56+09:00"
-update = "2016-09-04T18:27:39+09:00"
+update = "2016-11-13T22:09:58+09:00"
 description = "もともとこの本を読もうと思ったのは「反知性主義（anti-intellectualism）」について基礎的な知識を得たかったから。まぁ，ぶっちゃけ興味本位（笑）"
 draft = false
 tags = ["book", "anti-intellectualism"]
