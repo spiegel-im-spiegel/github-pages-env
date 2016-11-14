@@ -1,6 +1,7 @@
 # 「あとでみる」ブックマーク（Temporary）
 
 - [トランプ時代の中東（１）シリア反体制派はよりあからさまに見捨てられる：池内恵 | 中東の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41706)
+- [Google Slides APIが公開されたので使ってみた - Qiita](http://qiita.com/howdy39/items/be30170f8722c6837ea5)
 
 ## 正規分布，正規確率
 
