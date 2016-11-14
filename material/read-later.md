@@ -2,6 +2,8 @@
 
 - [トランプ時代の中東（１）シリア反体制派はよりあからさまに見捨てられる：池内恵 | 中東の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41706)
 - [Google Slides APIが公開されたので使ってみた - Qiita](http://qiita.com/howdy39/items/be30170f8722c6837ea5)
+- [HTML5.1におけるセクション要素内見出しランクの仕様解釈 - Qiita](http://qiita.com/falsandtru/items/9d6659279fed10bc5901)
+- [Word2010：個人情報（作成者、最終更新者など）を削除するには －教えて！HELPDESK](http://office-qa.com/Word/wd312.htm)
 
 ## 正規分布，正規確率
 
@@ -11,6 +13,15 @@
 - [標準正規分布 - C言語・C++・C# 解決済 | 教えて！goo](http://oshiete.goo.ne.jp/qa/935719.html)
 - [付表：正規分布表　（ P から z を求める表） - 中川雅央（滋賀大学）](http://www.biwako.shiga-u.ac.jp/sensei/mnaka/ut/normdistinvtab.html)
 - [gnuplot でヒストグラム・度数分布多角形づくり: 個人的健忘録 from 2013](http://bluearth.cocolog-nifty.com/blog/2014/03/gnuplot-d8cc-1.html)
+
+## Mersenne Twister
+
+- [「ズンドコキヨシ」と擬似乱数 - Qiita](http://qiita.com/spiegel-im-spiegel/items/6a5bc07dbfa46a328e26)
+- [Mersenne Twister に関する覚え書き — しっぽのさきっちょ | text.Baldanders.info](http://text.baldanders.info/remark/2016/03/mersenne-twister/)
+- [seehuhn/mt19937: An implementation of Takuji Nishimura's and Makoto Matsumoto's Mersenne Twister pseudo random number generator in Go.](https://github.com/seehuhn/mt19937)
+- [nutterts/randgen: Pseudo Random Number Generators implementing the Go(lang) math/rand.Source Interface](https://github.com/nutterts/randgen)
+- [farces/mt19937_64: Mersenne Twister (int64) for Go](https://github.com/farces/mt19937_64)
+- [Big Sky :: Mersenne Twister のライセンスが変更された](http://mattn.kaoriya.net/software/20130409093112.htm)
 
 ## Effective C++ 解説
 

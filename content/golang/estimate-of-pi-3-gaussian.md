@@ -1,6 +1,6 @@
 +++
 title = "モンテカルロ法による円周率の推定（その3 Gaussian）"
-description = "description"
+description = "さて，前回書いたコードを利用していよいよ円周率の推定結果を評価してみる。"
 tags = [
   "golang",
   "math",
@@ -9,7 +9,7 @@ tags = [
   "gaussian",
 ]
 draft = true
-date = "2016-11-09T20:41:57+09:00"
+date = "2016-11-14T12:32:18+09:00"
 
 [author]
   instagram = "spiegel_2007"
@@ -28,52 +28,15 @@ date = "2016-11-09T20:41:57+09:00"
 
 1. [モンテカルロ法による円周率の推定（その1）]({{< relref "golang/estimate-of-pi.md" >}})
 2. [モンテカルロ法による円周率の推定（その2 CLI）]({{< relref "golang/estimate-of-pi-2-cli.md" >}})
-3. [モンテカルロ法による円周率の推定（その2 Gaussian）]({{< relref "golang/estimate-of-pi-3-gaussian.md" >}}) ← イマココ
+3. [モンテカルロ法による円周率の推定（その3 Gaussian）]({{< relref "golang/estimate-of-pi-3-gaussian.md" >}}) ← イマココ
 
-さて，いよいよ円周率の推定結果を評価してみよう。
+## 推定結果の分布
 
-まずは「[その1]」で求めた推定方法をもう一度おさらいしてみる。
+さて，[前回]書いたコードを利用していよいよ円周率の推定結果を評価してみる。
 
-$0 \le y \le 1$ および $0 \le y \le 1$ の領域内にランダムにプロットされた点が原点を中心とする単位円（半径 1 の円）の内側に入る確率 $p$ は面積比から
+- [spiegel-im-spiegel/pi: Estimate of Pi with Monte Carlo method.](https://github.com/spiegel-im-spiegel/pi)
 
-{{< fig-quote >}}
-\[
-p = \frac{1}{4}{\pi} = 0.785398 \ldots
-\]
-{{< /fig-quote >}}
-
-と考えられる。
-したがって，ランダムにプロットされた点の総数を $n$ とすると単位円に入る点の数 $m$ は
-
-{{< fig-quote >}}
-\[
-m \simeq np
-\]
-{{< /fig-quote >}}
-
-となることが期待できる。
-これを期待値（expected value） $\mu$ とする。
-
-{{< fig-quote >}}
-\[
-\mu = np = \frac{1}{4}{\pi}n
-\]
-{{< /fig-quote >}}
-
-$m$ を求める実験を何度も繰り返したときの $m$ の分布は二項分布となり，その標準偏差（standard deviation） $\sigma$ は
-
-{{< fig-quote >}}
-\[
-\sigma = \sqrt{np(1-p)}
-\]
-{{< /fig-quote >}}
-
-となる。
-さらに $n$ が大きければ $m$ の分布は正規分布（またはガウス分布）に近似できる。
-円周率の推定値は ${4m}/{n}$ なので，円周率の推定値の分布もまた正規分布に近似できると考えられる。
-
-というわけで推定値の分布に対するヒストグラムを作ってみることにする。
-CLI はこんな感じで
+CLI はこんな感じになった。
 
 ```text
 $ go run main.go estmt --help
@@ -83,105 +46,95 @@ Usage:
   pi estmt [flags]
 
 Flags:
-  -e, --ecount int     Count of estimate (default 100)
-  -c, --hclass float   Class interval of histogram
-  -p, --pcount int     Count of points (default 10000)
+  -e, --ecount int   Count of estimate (default 100)
+  -p, --pcount int   Count of points (default 10000)
 
 Global Flags:
       --config string   config file (default is $HOME/.pi.yaml)
 ```
 
-`-c` オプションで階級幅を指定するとヒストグラム用のデータを出力するようにした。
-実際の処理はこんな感じ
-
-```go
-//Execute returns estimate of Pi.
-func Execute(cxt *Context) error {
-	if cxt.pointCount <= 0 {
-		return fmt.Errorf("invalid argument \"%v\" for pcount option", cxt.pointCount)
-	}
-	if cxt.estimateCount <= 0 {
-		return fmt.Errorf("invalid argument \"%v\" for ecount option", cxt.estimateCount)
-	}
-
-	ch := genpi.New(cxt.pointCount, cxt.estimateCount)
-	min := float64(10)
-	max := float64(0)
-	sum := float64(0)
-	sum2 := float64(0)
-	pis := make([]float64, 0, cxt.estimateCount)
-	for pi := range ch {
-		pis = append(pis, pi)
-		if pi < min {
-			min = pi
-		}
-		if pi > max {
-			max = pi
-		}
-		sum += pi
-		sum2 += pi * pi
-	}
-	cxt.ui.OutputErrln(fmt.Sprintf("minimum value: %7.5f", min))
-	cxt.ui.OutputErrln(fmt.Sprintf("maximum value: %7.5f", max))
-	ave := sum / float64(cxt.estimateCount)
-	cxt.ui.OutputErrln(fmt.Sprintf("average: %7.5f", ave))
-	vari := sum2/float64(cxt.estimateCount) - ave*ave
-	cxt.ui.OutputErrln(fmt.Sprintf("standard deviation: %7.5f", math.Sqrt(vari)))
-
-	if cxt.histClass <= 0.0 {
-		for _, pi := range pis {
-			cxt.ui.Outputln(fmt.Sprintf("%7.5f", pi))
-		}
-		return nil
-	}
-
-	classCount := int((max-min)/cxt.histClass) + 1
-	freqs := make([]int, classCount)
-	for _, pi := range pis {
-		class := 0
-		for i := 0; i < classCount; i++ {
-			if min+cxt.histClass*float64(i) <= pi {
-				class = i
-			} else {
-				break
-			}
-		}
-		freqs[class]++
-	}
-	for i, freq := range freqs {
-		mid := min + cxt.histClass*float64(i) + cxt.histClass/2.0
-		cxt.ui.Outputln(fmt.Sprintf("%7.5f\t%v", mid, freq))
-	}
-
-	return nil
-}
-```
-
-では推定処理を10,000回，階級幅を0.001で試してみる。
+まずは円周率の推定処理を10,000回繰り返してみる。
+また推定処理のためのランダムな点の数 $n$ を1,000個，10,000個，100,000個と変えて実行してみようか。
 
 ```text
-$ go run main.go estmt -e 10000 -p 100000 -c 0.001 > hist.dat
-minimum value: 3.12176
-maximum value: 3.15972
+$ go run main.go estmt -e 10000 -p 1000 > estmt1k.dat
+minimum value: 2.94800
+maximum value: 3.31600
+average value: 3.14199
+standard deviation: 0.05104 (69.9%)
+
+$ go run main.go estmt -e 10000 -p 10000 > estmt10k.dat
+minimum value: 3.07240
+maximum value: 3.20360
+average value: 3.14178
+standard deviation: 0.01654 (68.0%)
+
+$ go run main.go estmt -e 10000 -p 100000 > estmt100k.dat
+minimum value: 3.12360
+maximum value: 3.16184
 average value: 3.14163
-standard deviation: 0.00520
+standard deviation: 0.00518 (68.3%)
 ```
 
-で `hist.dat` を [gnuplot] に食わせてみるとこんな感じ。
+最後のはさすがに時間がかかるので，お茶でも飲みながら優雅に待ちましょう（笑）
 
-{{< fig-img src="/images/histogram.png" link="/images/histogram.png" width="753" >}}
+標準エラー出力に最小値，最大値，平均値（$E$），標準偏差（$\sigma$）を出力してみた。
+標準偏差の後ろの括弧は $\left[ E-\sigma, E+\sigma \right]$ の範囲にある推定値の割合を示したものだ。
 
-んー，どうかなぁ。
-平均値や標準偏差はそれっぽいけど正規分布というには...
+円周率の推定処理の試行回数が十分大きいなら推定値の分布は正規分布（またはガウス分布）に近似できる筈である。
+（以下の[図は Wikimedia Commons のもの](https://commons.wikimedia.org/wiki/File:Standard_deviation_diagram.svg "File:Standard deviation diagram.svg - Wikimedia Commons")を拝借した。 [CC-BY-2.5 Generic](https://creativecommons.org/licenses/by/2.5/ "Creative Commons — Attribution 2.5 Generic — CC BY 2.5") で公開されている）
+{{< fig-img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Standard_deviation_diagram.svg/640px-Standard_deviation_diagram.svg.png" width="640" link="https://commons.wikimedia.org/wiki/File:Standard_deviation_diagram.svg" title="normal distribution from Wikimedia" >}}
 
-## ブックマーク
+そこで $n=100,000$ のときの推定結果についてヒストグラムを描いてみる。
+幸いなことに [gnuplot] では簡単にヒストグラムを作図できる。
+こんな感じ（階級幅を0.001としている）。
+
+```text
+gnuplot> filter(x,y)=int(x/y)*y
+gnuplot> plot "estmt100k.dat" u (filter($1,0.001)):(1) smooth frequency with boxes lc rgb "black"
+```
+
+[gnuplot] の出力結果はこんな感じ。
+
+{{< fig-img src="/images/histogram.png" link="/images/histogram.png" width="640" >}}
+
+んー。
+まぁ正規分布っぽい？
+
+もうひとつ，正規確率の分布を調べてみよう。
+これも [gnuplot] で描こうと思ったけど，少し面倒そうなので，ズルして以下を参考に Excel で描くことにした。
+
+- [正規確率プロット（Normal Q-Q Plot）の作成 with Excel](http://hitorimarketing.net/tools/normal-quantile-quantile-plot.html)
+
+とりあえず結果だけ。
+
+{{< fig-img src="/images/qq-plot.png" link="/images/qq-plot.png" width="614" >}}
+
+プロットが直線状に並んでいれば正規分布であると言える。
+図から見る限り，概ね正規分布になっているようである。
+
+## モンテカルロ法の誤差評価
+
+モンテカルロ法を使ってどの程度の精度で円周率が求まるかの考察については以下が参考になる。
 
 - [モンテカルロ法の誤差を考える](http://ruby.kyoto-wu.ac.jp/info-com/NumericalModels/RandomProcess/estimateMCmodel.html)
 
+これも横着して結果だけを拝借すると， $n=100,000$ で推定を行った場合の値の分布は，中央値を $\pi$，99%信頼区間を $\frac{4.230}{\sqrt{100,000}} = 0.013$ として， $\left[ \pi - 0.013, \pi + 0.013 \right]$ の範囲になるようだ。
+
+しまった。
+今回は [Go 言語]が全然出てこなかった。
+まぁ，いいや。
+多分あと1回続きます。
+
+## ブックマーク
+
+- [gnuplot でヒストグラム（頻度分布図）を描画する - Qiita](http://qiita.com/iwiwi/items/4c7635d4c84bc785e47a)
+- [【統計学】Q-Qプロットの仕組みをアニメーションで理解する。 - Qiita](http://qiita.com/kenmatsu4/items/59605dc745707e8701e0)
+
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
+[前回]: {{< relref "golang/estimate-of-pi-2-cli.md" >}} "モンテカルロ法による円周率の推定（その2 CLI）"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[その1]: {{< relref "golang/estimate-of-pi.md" >}} "モンテカルロ法による円周率の推定（その1）"
 [gnuplot]: http://www.gnuplot.info/ "gnuplot homepage"
 
 ## 参考図書
