@@ -8,8 +8,8 @@ tags = [
   "circle-ratio",
   "gaussian",
 ]
-draft = true
-date = "2016-11-14T12:32:18+09:00"
+draft = false
+date = "2016-11-14T20:50:56+09:00"
 
 [author]
   instagram = "spiegel_2007"
@@ -102,13 +102,15 @@ gnuplot> plot "estmt100k.dat" u (filter($1,0.001)):(1) smooth frequency with box
 まぁ正規分布っぽい？
 
 もうひとつ，正規確率の分布を調べてみよう。
-これも [gnuplot] で描こうと思ったけど，少し面倒そうなので，ズルして以下を参考に Excel で描くことにした。
+これも [gnuplot] で描こうと思ったけど，少し面倒そうなので，ズルして以下を参考に [LibreOffice](https://www.libreoffice.org/ "Home | LibreOffice - Free Office Suite - Fun Project - Fantastic People") の Calc で描くことにした[^calc]。
+
+[^calc]: Calc でも Excel の関数がそのまま使えるようだ。助かる。
 
 - [正規確率プロット（Normal Q-Q Plot）の作成 with Excel](http://hitorimarketing.net/tools/normal-quantile-quantile-plot.html)
 
 とりあえず結果だけ。
 
-{{< fig-img src="/images/qq-plot.png" link="/images/qq-plot.png" width="614" >}}
+{{< fig-img src="/images/qq-plot.png" link="/images/qq-plot.png" width="653" >}}
 
 プロットが直線状に並んでいれば正規分布であると言える。
 図から見る限り，概ね正規分布になっているようである。
