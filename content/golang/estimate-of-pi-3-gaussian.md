@@ -228,7 +228,7 @@ func qnorm(p float64) float64 {
 では早速動かしてみよう。
 
 ```text
-go run main.go qq estmt100k.dat > qq100k.dat
+$ go run main.go qq estmt100k.dat > qq100k.dat
 ```
 
 生成した `qq100k.dat` ファイルを [gnuplot] に食わせる。
