@@ -289,7 +289,7 @@ standard deviation: 0.00519 (68.3%)
 こんな感じでいいだろう。
 
 ```text
-gnuplot> unsey key
+gnuplot> unset key
 gnuplot> set style line 1 pointsize 0.1 pointtype 7 linecolor rgb "black"
 gnuplot> plot "qq100k.dat" linestyle 1
 ```
