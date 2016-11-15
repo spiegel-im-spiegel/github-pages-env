@@ -4,6 +4,10 @@
 - [Google Slides APIが公開されたので使ってみた - Qiita](http://qiita.com/howdy39/items/be30170f8722c6837ea5)
 - [HTML5.1におけるセクション要素内見出しランクの仕様解釈 - Qiita](http://qiita.com/falsandtru/items/9d6659279fed10bc5901)
 - [Word2010：個人情報（作成者、最終更新者など）を削除するには －教えて！HELPDESK](http://office-qa.com/Word/wd312.htm)
+- [米国道路交通安全局、EVとハイブリッド車に音声アラートを義務化へ | TechCrunch Japan](http://jp.techcrunch.com/2016/11/15/20161114nhtsa-adds-safety-sound-requirement-for-new-electric-and-hybrid-vehicles/)
+- [Apache Struts2 の脆弱性対策情報一覧：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/announce/struts2_list.html)
+- [Web サイト改ざんに関する注意喚起](https://www.jpcert.or.jp/at/2016/at160047.html)
+
 
 ## 正規分布，正規確率
 
@@ -51,6 +55,7 @@ ssh でメンテできるのはありがたいな。
 - [Google App EngineとGoでブログ風CMSを自作する - write.kogu](http://write.kogus.org/articles/laszmL)
 - [GoとGAEによるWebアプリケーション開発（Go Con 2016 Spring） // Speaker Deck](https://speakerdeck.com/ttsuruoka/gotogaeniyoruwebapurikesiyonkai-fa-go-con-2016-spring)
 - [GAE/Goで外部にhttpリクエスト送るには？ - blog.youyo.info](http://blog.youyo.info/post/2016/07/05/gae-go-outbound-http-request/)
+- [GAE/Go (echoフレームワーク)で Line Message API 使って Bot を作る。 - Qiita](http://qiita.com/naoki_koreeda/items/8c818a3e9f6138ddbb87)
 
 ### Qiita の記事
 

@@ -10,6 +10,7 @@ tags = [
 ]
 draft = false
 date = "2016-11-14T20:50:56+09:00"
+update = "2016-11-15T17:28:49+09:00"
 
 [author]
   instagram = "spiegel_2007"
@@ -124,14 +125,223 @@ gnuplot> plot "estmt100k.dat" u (filter($1,0.001)):(1) smooth frequency with box
 これも横着して結果だけを拝借すると， $n=100,000$ で推定を行った場合の値の分布は，中央値を $\pi$，99%信頼区間を $\frac{4.230}{\sqrt{100,000}} = 0.013$ として， $\left[ \pi - 0.013, \pi + 0.013 \right]$ の範囲になるようだ。
 
 しまった。
-今回は [Go 言語]が全然出てこなかった。
+ここまで [Go 言語]が全然出てこなかった。
 まぁ，いいや。
 多分あと1回続きます。
+
+## おまけの追記： 正規確率の分布図について
+
+正規確率の分布図（Q-Q プロット）を描くのに毎回 Excel や Calc を使うのもどうかという気がしたので，こちらのプログラム側であらかじめ計算して，結果のプロット・データを [gnuplot] に食わせるよう考えてみる。
+
+まず `-q` オプションで Q-Q プロットの計算を行うように CLI を変更する。（ついでに他のオプションも整理した）
+
+```text
+$ go run main.go estmt --help
+Estimate of Pi with Monte Carlo method.
+
+Usage:
+  pi estmt [flags]
+
+Flags:
+  -e, --ecount int   Count of estimate (default 100)
+  -q, --qqplot       Output Q-Q plot data
+
+Global Flags:
+  -p, --pcount int   Count of points (default 10000)
+```
+
+実際の処理部分はこんな感じ。
+
+```go
+//Execute output list of estimate data.
+func Execute(cxt *Context) error {
+	if cxt.pointCount <= 0 {
+		return fmt.Errorf("invalid argument \"%v\" for pcount option", cxt.pointCount)
+	}
+	if cxt.estimateCount <= 0 {
+		return fmt.Errorf("invalid argument \"%v\" for ecount option", cxt.estimateCount)
+	}
+	ecf := float64(cxt.estimateCount)
+
+	//measurement
+	ch := genpi.New(cxt.pointCount, cxt.estimateCount)
+	min := float64(10)
+	max := float64(0)
+	sum := float64(0)
+	sum2 := float64(0)
+	pis := make([]float64, 0, cxt.estimateCount)
+	for pi := range ch {
+		pis = append(pis, pi)
+		if pi < min {
+			min = pi
+		}
+		if pi > max {
+			max = pi
+		}
+		sum += pi
+		sum2 += pi * pi
+	}
+
+	//statistics
+	cxt.ui.OutputErrln(fmt.Sprintf("minimum value: %7.5f", min))
+	cxt.ui.OutputErrln(fmt.Sprintf("maximum value: %7.5f", max))
+	ave := sum / ecf
+	cxt.ui.OutputErrln(fmt.Sprintf("average value: %7.5f", ave))
+	devi := math.Sqrt(sum2/ecf - ave*ave) //variance -> standard deviation
+	ct := int64(0)
+	for _, pi := range pis {
+		if ave-devi <= pi && pi <= ave+devi {
+			ct++
+		}
+	}
+	cxt.ui.OutputErrln(fmt.Sprintf("standard deviation: %7.5f (%4.1f%%)", devi, float64(ct)*100.0/ecf))
+
+	if !cxt.qqFlag {
+		//output
+		for _, pi := range pis {
+			cxt.ui.Outputln(fmt.Sprintf("%v", pi))
+		}
+		return nil
+	}
+
+	//Q-Q plot
+	sort.Float64s(pis)
+	//rank := make([]float64, 0, cxt.estimateCount)
+	ppnds := make([]float64, 0, cxt.estimateCount)
+	for i, _ := range pis {
+		r := (float64(i+1) - 0.5) / ecf
+		//rank = append(rank, r)
+		ppnds = append(ppnds, qnorm(r))
+	}
+
+	//output
+	for i, pi := range pis {
+		//cxt.ui.Outputln(fmt.Sprintf("%v\t%v\t%v", pi, rank[i], ppnds[i]))
+		cxt.ui.Outputln(fmt.Sprintf("%v\t%v", ppnds[i], pi))
+	}
+	return nil
+}
+```
+
+`qnorm()` 関数は標準正規分布に対する累積分布関数の逆関数の値を返すのだが（Excel の `NORM.S.INV` 関数相当），[Go 言語]で書かれた適当なパッケージが見つからなかったので（もしあれば誰か教えて）以下のページのコードを [Go 言語]用に書き直した。
+
+- [RangeVoting.org - Java normal distribution calculator II](http://rangevoting.org/Qnorm.html)
+
+実際にはこんな感じ[^const]。
+
+[^const]: 余談だが， [Go 言語]では untyped な定数を設定できる。型が評価されるのは，処理の中でその定数が使われた時点となる。数値の精度も使用時点で評価されるため，定義では大きい桁数の値を設定しても問題ない。（参考： [Go の定数の話 - Qiita](http://qiita.com/hkurokawa/items/a4d402d3182dff387674)）
+
+```go
+//qnorm function refers to http://rangevoting.org/Qnorm.html
+// This function is licensed under GNU GPL version 3 or later.
+func qnorm(p float64) float64 {
+	const (
+		split = 0.42
+		a0    = 2.50662823884
+		a1    = -18.61500062529
+		a2    = 41.39119773534
+		a3    = -25.44106049637
+		b1    = -8.47351093090
+		b2    = 23.08336743743
+		b3    = -21.06224101826
+		b4    = 3.13082909833
+		c0    = -2.78718931138
+		c1    = -2.29796479134
+		c2    = 4.85014127135
+		c3    = 2.32121276858
+		d1    = 3.54388924762
+		d2    = 1.63706781897
+	)
+
+	q := p - 0.5
+	ppnd := float64(0)
+	if math.Abs(q) <= split {
+		r := q * q
+		ppnd = q * (((a3*r+a2)*r+a1)*r + a0) / ((((b4*r+b3)*r+b2)*r+b1)*r + 1)
+	} else {
+		r := p
+		if q > 0 {
+			r = 1 - p
+		}
+		if r > 0 {
+			r = math.Sqrt(-math.Log(r))
+			ppnd = (((c3*r+c2)*r+c1)*r + c0) / ((d2*r+d1)*r + 1)
+			if q < 0 {
+				ppnd = -ppnd
+			}
+		}
+	}
+	return ppnd
+}
+```
+
+では早速動かしてみよう。
+
+```text
+$ go run main.go estmt -e 10000 -p 100000 -q > qq100k.dat
+minimum value: 3.12428
+maximum value: 3.16216
+average value: 3.14160
+standard deviation: 0.00519 (68.3%)
+```
+
+生成した `qq100k.dat` ファイルを [gnuplot] に食わせる。
+こんな感じでいいだろう。
+
+```text
+gnuplot> unsey key
+gnuplot> set style line 1 pointsize 0.1 pointtype 7 linecolor rgb "black"
+gnuplot> plot "qq100k.dat" linestyle 1
+```
+
+結果はこんな感じ。
+
+{{< fig-img src="/images/qq-plot2.png" link="/images/qq-plot2.png" width="640" >}}
+
+ついでにこの分布図にフィットする直線 $y=ax+b$ の $a, b$ 値を調べてみる。
+
+```text
+gnuplot> f(x)=a*x+b
+gnuplot> fit f(x) "qq100k.dat" via a,b
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.5759596525e+04  0.00e+00 1.00e+00  1.000000e+00  1.000000e+00
+   1 6.0820764252e-04 -9.17e+12 1.00e-01  5.292126e-03  3.141385e+00
+   2 5.0770609360e-05 -1.10e+06 1.00e-02  5.192648e-03  3.141600e+00
+   3 5.0770609359e-05 -1.10e-06 1.00e-03  5.192648e-03  3.141600e+00
+iter      chisq       delta/lim  lambda   a             b            
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 5.07706e-005
+rel. change during last iteration : -1.09755e-011
+
+degrees of freedom    (FIT_NDF)                        : 9998
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.12606e-005
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.07808e-009
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.00519265       +/- 7.127e-007   (0.01372%)
+b               = 3.1416           +/- 7.126e-007   (2.268e-005%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.000  1.000 
+```
+
+ここで $a$ が標準偏差， $b$ が平均値にマッチしている点に注目。
+分布図と上の直線を重ねあわせるとこうなる。
+
+{{< fig-img src="/images/qq-plot2b.png" link="/images/qq-plot2b.png" width="640" >}}
+
+んー。
+こんなもんかな。
 
 ## ブックマーク
 
 - [gnuplot でヒストグラム（頻度分布図）を描画する - Qiita](http://qiita.com/iwiwi/items/4c7635d4c84bc785e47a)
 - [【統計学】Q-Qプロットの仕組みをアニメーションで理解する。 - Qiita](http://qiita.com/kenmatsu4/items/59605dc745707e8701e0)
+- [簡単な例題](http://dsl4.eee.u-ryukyu.ac.jp/DOCS/gnuplot/node180.html)：最小2乗法でデータに曲線や曲面をあてはめる
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
