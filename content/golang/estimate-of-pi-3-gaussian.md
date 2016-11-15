@@ -133,18 +133,14 @@ gnuplot> plot "estmt100k.dat" u (filter($1,0.001)):(1) smooth frequency with box
 
 正規確率の分布図（Q-Q プロット）を描くのに毎回 Excel や Calc を使うのもどうかという気がしたので，こちらのプログラム側であらかじめ計算して，結果のプロット・データを [gnuplot] に食わせるよう考えてみる。
 
-まず `-q` オプションで Q-Q プロットの計算を行うように CLI を変更する。（ついでに他のオプションも整理した）
+まず `qq` サブコマンドを追加し，この `qq` サブコマンド時にデータファイルを読み込んで Q-Q プロットの計算を行うように CLI を変更する。（ついでに他のオプションも整理した）
 
 ```text
-$ go run main.go estmt --help
-Estimate of Pi with Monte Carlo method.
+$ go run main.go qq --help
+make Q-Q plot data.
 
 Usage:
-  pi estmt [flags]
-
-Flags:
-  -e, --ecount int   Count of estimate (default 100)
-  -q, --qqplot       Output Q-Q plot data
+  pi qq [data file] [flags]
 
 Global Flags:
   -p, --pcount int   Count of points (default 10000)
@@ -153,72 +149,26 @@ Global Flags:
 実際の処理部分はこんな感じ。
 
 ```go
-//Execute output list of estimate data.
+//Execute output Q-Q plot data.
 func Execute(cxt *Context) error {
-	if cxt.pointCount <= 0 {
-		return fmt.Errorf("invalid argument \"%v\" for pcount option", cxt.pointCount)
-	}
-	if cxt.estimateCount <= 0 {
-		return fmt.Errorf("invalid argument \"%v\" for ecount option", cxt.estimateCount)
-	}
-	ecf := float64(cxt.estimateCount)
-
-	//measurement
-	ch := genpi.New(cxt.pointCount, cxt.estimateCount)
-	min := float64(10)
-	max := float64(0)
-	sum := float64(0)
-	sum2 := float64(0)
-	pis := make([]float64, 0, cxt.estimateCount)
-	for pi := range ch {
+	scanner := bufio.NewScanner(cxt.ui.Reader())
+	pis := make([]float64, 0)
+	for scanner.Scan() {
+		pi, err := strconv.ParseFloat(scanner.Text(), 64)
+		if err != nil {
+			return errors.Wrap(err, "invalid data")
+		}
 		pis = append(pis, pi)
-		if pi < min {
-			min = pi
-		}
-		if pi > max {
-			max = pi
-		}
-		sum += pi
-		sum2 += pi * pi
 	}
+	ec := len(pis)
+	ecf := float64(ec)
 
-	//statistics
-	cxt.ui.OutputErrln(fmt.Sprintf("minimum value: %7.5f", min))
-	cxt.ui.OutputErrln(fmt.Sprintf("maximum value: %7.5f", max))
-	ave := sum / ecf
-	cxt.ui.OutputErrln(fmt.Sprintf("average value: %7.5f", ave))
-	devi := math.Sqrt(sum2/ecf - ave*ave) //variance -> standard deviation
-	ct := int64(0)
-	for _, pi := range pis {
-		if ave-devi <= pi && pi <= ave+devi {
-			ct++
-		}
-	}
-	cxt.ui.OutputErrln(fmt.Sprintf("standard deviation: %7.5f (%4.1f%%)", devi, float64(ct)*100.0/ecf))
-
-	if !cxt.qqFlag {
-		//output
-		for _, pi := range pis {
-			cxt.ui.Outputln(fmt.Sprintf("%v", pi))
-		}
-		return nil
-	}
-
-	//Q-Q plot
 	sort.Float64s(pis)
-	//rank := make([]float64, 0, cxt.estimateCount)
-	ppnds := make([]float64, 0, cxt.estimateCount)
-	for i, _ := range pis {
-		r := (float64(i+1) - 0.5) / ecf
-		//rank = append(rank, r)
-		ppnds = append(ppnds, qnorm(r))
+	for i, pi := range pis {
+		rank := (float64(i+1) - 0.5) / ecf
+		cxt.ui.Outputln(fmt.Sprintf("%v\t%v", qnorm(rank), pi))
 	}
 
-	//output
-	for i, pi := range pis {
-		//cxt.ui.Outputln(fmt.Sprintf("%v\t%v\t%v", pi, rank[i], ppnds[i]))
-		cxt.ui.Outputln(fmt.Sprintf("%v\t%v", ppnds[i], pi))
-	}
 	return nil
 }
 ```
@@ -278,11 +228,7 @@ func qnorm(p float64) float64 {
 では早速動かしてみよう。
 
 ```text
-$ go run main.go estmt -e 10000 -p 100000 -q > qq100k.dat
-minimum value: 3.12428
-maximum value: 3.16216
-average value: 3.14160
-standard deviation: 0.00519 (68.3%)
+go run main.go qq estmt100k.dat > qq100k.dat
 ```
 
 生成した `qq100k.dat` ファイルを [gnuplot] に食わせる。
@@ -304,29 +250,29 @@ gnuplot> plot "qq100k.dat" linestyle 1
 gnuplot> f(x)=a*x+b
 gnuplot> fit f(x) "qq100k.dat" via a,b
 iter      chisq       delta/lim  lambda   a             b            
-   0 5.5759596525e+04  0.00e+00 1.00e+00  1.000000e+00  1.000000e+00
-   1 6.0820764252e-04 -9.17e+12 1.00e-01  5.292126e-03  3.141385e+00
-   2 5.0770609360e-05 -1.10e+06 1.00e-02  5.192648e-03  3.141600e+00
-   3 5.0770609359e-05 -1.10e-06 1.00e-03  5.192648e-03  3.141600e+00
+   0 5.5761271099e+04  0.00e+00 1.00e+00  1.000000e+00  1.000000e+00
+   1 6.0252530865e-04 -9.25e+12 1.00e-01  5.277253e-03  3.141418e+00
+   2 4.5071534394e-05 -1.24e+06 1.00e-02  5.177775e-03  3.141632e+00
+   3 4.5071534393e-05 -1.23e-06 1.00e-03  5.177775e-03  3.141632e+00
 iter      chisq       delta/lim  lambda   a             b            
 
 After 3 iterations the fit converged.
-final sum of squares of residuals : 5.07706e-005
-rel. change during last iteration : -1.09755e-011
+final sum of squares of residuals : 4.50715e-005
+rel. change during last iteration : -1.23364e-011
 
 degrees of freedom    (FIT_NDF)                        : 9998
-rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.12606e-005
-variance of residuals (reduced chisquare) = WSSR/ndf   : 5.07808e-009
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.71421e-005
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.50806e-009
 
 Final set of parameters            Asymptotic Standard Error
 =======================            ==========================
-a               = 0.00519265       +/- 7.127e-007   (0.01372%)
-b               = 3.1416           +/- 7.126e-007   (2.268e-005%)
+a               = 0.00517777       +/- 6.715e-007   (0.01297%)
+b               = 3.14163          +/- 6.714e-007   (2.137e-005%)
 
 correlation matrix of the fit parameters:
                 a      b      
 a               1.000 
-b              -0.000  1.000 
+b               0.000  1.000 
 ```
 
 ここで $a$ が標準偏差， $b$ が平均値にマッチしている点に注目。
