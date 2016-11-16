@@ -2,7 +2,7 @@
 description = "前回「次回は実際に値の評価を行ってみる」と書いたが，その前に CLI (command-line interface) を整備する。今回は spf13/cobra パッケージを使うことにする。"
 tags = ["golang", "cli", "facade", "circle-ratio"]
 date = "2016-11-06T17:57:37+09:00"
-update = "2016-11-14T20:51:20+09:00"
+update = "2016-11-16T18:45:12+09:00"
 title = "モンテカルロ法による円周率の推定（その2 CLI）"
 draft = false
 
@@ -27,7 +27,7 @@ draft = false
 
 ## コマンドライン・インタフェース
 
-[前回]「次回は実際に値の評価を行ってみる」と書いたが，その前に CLI (command-line interface) を整備する。
+さっそく推定結果について評価を行いたいところだが，その前に CLI (command-line interface) を整備する。
 どういうことかというと，[前回]作った2つの `main()` 関数の処理
 
 ```go
@@ -310,6 +310,50 @@ func init() {
 
 [`spf13/cobra`] パッケージで特徴的なのは，サブコマンドを追加する際に `cmd/root.go` を変更する必要が無いことである。
 サブコマンドの組み込みは `cmd` パッケージ内の各ファイルに定義されている `init()` 関数によって `main()` 起動前に行われる。
+
+この状態で動かしてみよう。
+
+```text
+$ go run main.go
+A longer description that spans multiple lines and likely contains
+examples and usage of using your application. For example:
+
+Cobra is a CLI library for Go that empowers applications.
+This application is a tool to generate the needed files
+to quickly create a Cobra application.
+
+Usage:
+  pi [command]
+
+Available Commands:
+  estmt       A brief description of your command
+  plot        A brief description of your command
+
+Flags:
+      --config string   config file (default is $HOME/.pi.yaml)
+  -t, --toggle          Help message for toggle
+
+Use "pi [command] --help" for more information about a command.
+
+$ go run main.go plot --help
+A longer description that spans multiple lines and likely contains examples
+and usage of using your command. For example:
+
+Cobra is a CLI library for Go that empowers applications.
+This application is a tool to generate the needed files
+to quickly create a Cobra application.
+
+Usage:
+  pi plot [flags]
+
+Global Flags:
+      --config string   config file (default is $HOME/.pi.yaml)
+
+$ go run main.go plot
+plot called
+```
+
+問題なくサブコマンドが組み込まれていることがわかる。
 
 ## CLI の作成
 

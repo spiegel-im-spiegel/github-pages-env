@@ -7,7 +7,11 @@
 - [米国道路交通安全局、EVとハイブリッド車に音声アラートを義務化へ | TechCrunch Japan](http://jp.techcrunch.com/2016/11/15/20161114nhtsa-adds-safety-sound-requirement-for-new-electric-and-hybrid-vehicles/)
 - [Apache Struts2 の脆弱性対策情報一覧：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/announce/struts2_list.html)
 - [Web サイト改ざんに関する注意喚起](https://www.jpcert.or.jp/at/2016/at160047.html)
-
+- [マイクロソフトの新しいセキュリティ更新プログラムガイド「Security Updates Guide」とは - ZDNet Japan](http://japan.zdnet.com/article/35092176/)
+- [Android搭載スマホがユーザーデータを密かに中国へ送信していることが発覚 - GIGAZINE](http://gigazine.net/news/20161116-android-send-message-china/)
+    - [Android端末のファームウェアに隠し機能、ユーザー情報を中国に送信 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1611/16/news059.html)
+- [Supermoon and Expedition 50 Soyuz | NASA](http://www.nasa.gov/image-feature/supermoon-and-expedition-50-soyuz)
+- [トランプ時代の中東（２）国務長官候補ジョン・ボルトンの対イラン政策論：池内恵 | 中東の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41715)
 
 ## 正規分布，正規確率
 
@@ -26,6 +30,9 @@
 - [nutterts/randgen: Pseudo Random Number Generators implementing the Go(lang) math/rand.Source Interface](https://github.com/nutterts/randgen)
 - [farces/mt19937_64: Mersenne Twister (int64) for Go](https://github.com/farces/mt19937_64)
 - [Big Sky :: Mersenne Twister のライセンスが変更された](http://mattn.kaoriya.net/software/20130409093112.htm)
+- [cuixin/goalg: golang algorithms](https://github.com/cuixin/goalg)
+- [davidminor/gorand: Basic golang implementation of a permuted congruential generator for pseudorandom number generation](https://github.com/davidminor/gorand)
+    - [PCG, A Family of Better Random Number Generators | PCG, A Better Random Number Generator](http://www.pcg-random.org/)
 
 ## Effective C++ 解説
 
