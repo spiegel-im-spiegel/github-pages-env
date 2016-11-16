@@ -10,7 +10,7 @@ tags = [
 ]
 draft = false
 date = "2016-11-14T20:50:56+09:00"
-update = "2016-11-15T17:28:49+09:00"
+update = "2016-11-16T10:48:41+09:00"
 
 [author]
   instagram = "spiegel_2007"
@@ -282,6 +282,19 @@ b               0.000  1.000
 
 んー。
 こんなもんかな。
+
+そうそう。
+`qq` サブコマンドは，フィルタとしても機能するので
+
+```text
+$ go run main.go estmt -e 100 -p 10000 | go run main.go qq > qq.dat
+minimum value: 3.09640
+maximum value: 3.18600
+average value: 3.14158
+standard deviation: 0.01654 (68.0%)
+```
+
+といった感じにパイプでつなぐこともできる。
 
 ## ブックマーク
 
