@@ -1,6 +1,6 @@
 +++
 date = "2016-01-05T22:06:41+09:00"
-update = "2016-11-09T15:18:42+09:00"
+update = "2016-11-17T16:14:21+09:00"
 description = "ファサード・パターンは DDD (Domain-Driven Design) と相性がよい。普通は Web アプリケーションのような多様なサブシステムを持つシステムを設計する際に導入する考え方だが， CLI の場合でもサブコマンドを構成するのであればファサード・パターンがよいだろう。"
 draft = false
 tags = ["golang", "cli", "facade"]
@@ -23,7 +23,7 @@ title = "コマンドライン・インタフェースとファサード・パ�
 
 [Go 言語]コンパイラには [`flag`] パッケージが標準で提供されており，いわゆるコマンドライン・インタフェース（Command line interface; CLI）の操作はこれでまかなうことができる。
 ただし [`flag`] パッケージではサブコマンドをサポートしていないためサブコマンドを構成したい場合は少し工夫が必要となる。
-ちなみにサブコマンドとは，以下のようなコマンドラインの構成になっているアプリケーションである。
+ちなみにサブコマンドとは，以下のようなコマンドラインの構成になっている CLI である。
 
 ```
 $ command [golabal options] <sub-command> [sub-options] [arguments]
@@ -76,8 +76,10 @@ $ command [golabal options] <sub-command> [sub-options] [arguments]
 
 ## mitchellh/cli パッケージ
 
-CLI をサポートするパッケージはいくつか公開されているのだが，この中で今回は [mitchellh/cli] パッケージを紹介する。
+CLI をサポートするパッケージはいくつか公開されているのだが[^cobra]，この中で今回は [mitchellh/cli] パッケージを紹介する。
 [mitchellh/cli] はサブコマンドをファサード・パターンで実装するのに便利な機能を実装している。
+
+[^cobra]: 「[モンテカルロ法による円周率の推定（その2 CLI）]({{< relref "golang/estimate-of-pi-2-cli.md" >}})」では [spf13/cobra] パッケージを紹介している。
 
 ### Command インタフェース
 
@@ -482,6 +484,7 @@ C:\workspace\astrocalc> bin\astrocalc.exe mjdn 2015 1 1
 [git]: https://git-scm.com/ "Git"
 [UNIX Philosophy]: http://www.ru.j-npcs.org/usoft/WWW/LJ/Articles/unixtenets.html "Tenets of the UNIX Philosophy"
 [mitchellh/cli]: https://github.com/mitchellh/cli "mitchellh/cli"
+[spf13/cobra]: https://github.com/spf13/cobra "spf13/cobra: A Commander for modern Go CLI interactions"
 [`cli`]: https://github.com/mitchellh/cli "mitchellh/cli"
 [spiegel-im-spiegel/gofacade]: https://github.com/spiegel-im-spiegel/gofacade "spiegel-im-spiegel/gofacade"
 [`gofacade`]: https://github.com/spiegel-im-spiegel/gofacade "spiegel-im-spiegel/gofacade"

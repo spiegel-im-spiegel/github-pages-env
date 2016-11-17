@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-11-16T10:48:41+09:00"
+update = "2016-11-17T15:29:13+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -78,6 +78,7 @@ title = "Go 言語に関するブックマーク"
 - [Visualizing Concurrency in Go · divan's blog](http://divan.github.io/posts/go_concurrency_visualize/)
 - [Goの並行パターン：コンテキスト (Go Concurrency Pattern: Context)](https://ymotongpoo.github.io/goblog-ja/post/context/) : [1.7 からは Context パッケージが標準ライブラリに組み込まれる](https://tip.golang.org/doc/go1.7#context)らしい
 - [Go の定数の話 - Qiita](http://qiita.com/hkurokawa/items/a4d402d3182dff387674)
+- [Goにatexitやグローバルなデストラクタがない理由 - Qiita](http://qiita.com/ruiu/items/22910a4bae6cb716a391)
 
 ### 文字列操作または変換
 
@@ -282,6 +283,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
     - [第1回　Android Studio，そしてベースとなる「IntelliJ IDEA」とは何か？：Android Studio最速入門～効率的にコーディングするための使い方｜gihyo.jp … 技術評論社](http://gihyo.jp/dev/serial/01/android_studio/0001) : IntelliJ IDEA についての解説
 - [Go入門@環境構築編(IntelliJ IDEA 14.1.4) - Qiita](http://qiita.com/makoto2468/items/3ced77de947ea997e72f)
 - [WindowsにIntelliJ IDEAでgoの開発環境を作りましたよ　ついでにgit連携もいたしましたよ - Qiita](http://qiita.com/peka2/items/cdc9d508dcbf4a131271)
+- [Cloud9にGo言語でHelloWorldを実装・実行してみた - Qiita](http://qiita.com/ryo-endo/items/e8cb4987b4af9ddc24d5)
 
 ### ATOM で Go
 

@@ -1,5 +1,5 @@
 +++
-description = "前回「次回は実際に値の評価を行ってみる」と書いたが，その前に CLI (command-line interface) を整備する。今回は spf13/cobra パッケージを使うことにする。"
+description = "さっそく推定結果について評価を行いたいところだが，その前に CLI (command-line interface) を整備する。今回は spf13/cobra パッケージを使うことにする。"
 tags = ["golang", "cli", "facade", "circle-ratio"]
 date = "2016-11-06T17:57:37+09:00"
 update = "2016-11-16T20:43:47+09:00"
