@@ -2,7 +2,7 @@
 title       = "Hugo に関するブックマーク"
 description = "当サイトを Hugo で構築するにあたって参考になったページを紹介する。"
 date        = "2015-09-05T00:00:00+09:00"
-update      = "2015-10-03T00:26:00+09:00"
+update      = "2016-11-17T12:51:11+09:00"
 tags        = [ "hugo", "bookmark" ]
 
 [author]
@@ -43,6 +43,8 @@ flattr    = "spiegel"
     - [Hugoでwebサイト構築(8) Sectionのリスト | Watanabe-DENKI Inc. 渡辺電気株式会社](http://wdkk.co.jp/note/2015/0914-hugo-section/)
     - [Hugoでwebサイト構築(9) リストのページネーション(Pagination) | Watanabe-DENKI Inc. 渡辺電気株式会社](http://wdkk.co.jp/note/2015/0915-hugo-pagination/)
     - [Hugoでwebサイト構築(10) データファイル(パラメータを作る) | Watanabe-DENKI Inc. 渡辺電気株式会社](http://wdkk.co.jp/note/2015/0917-hugo-datafile/)
+    - [Hugoでwebサイト構築(11) タグ | Watanabe-DENKI Inc. 渡辺電気株式会社](http://wdkk.co.jp/note/2015/1030-hugo-tag/)
+    - [Hugoでwebサイト構築(12) タグの列挙 | Watanabe-DENKI Inc. 渡辺電気株式会社](http://wdkk.co.jp/note/2015/1112-hugo-tag-enum/)
 
 ## テーマなど{#themes}
 
