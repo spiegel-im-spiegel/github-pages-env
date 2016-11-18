@@ -1,5 +1,7 @@
 # 「あとでみる」ブックマーク（Temporary）
 
+- [AI研究者が問う　ロボットは文章を読めない　では子どもたちは「読めて」いるのか？(湯浅誠) - 個人 - Yahoo!ニュース](http://bylines.news.yahoo.co.jp/yuasamakoto/20161114-00064079/)
+- [「問題文を読んでもそこに何が書かれているのかわからない」子を教えていた時のお話 | Books&Apps](http://blog.tinect.jp/?p=33408)
 
 ## ブックマーク
 
@@ -35,7 +37,9 @@
 ### その他四方山話
 
 - [Supermoon and Expedition 50 Soyuz | NASA](http://www.nasa.gov/image-feature/supermoon-and-expedition-50-soyuz)
-
+- [「もはや計画は不要になった」 MITメディアラボ・伊藤穰一氏が語る、"インターネット後の世界"と"新しい原理" - ログミー](http://logmi.jp/17817)
+    - [「もはや計画は不要になった」の衝撃 - 準備をしない創造的チームとは？ - - 以心伝心記](http://takahito.hatenablog.com/entry/2014/07/25/060218)
+- [毎日新聞の「ダム底セシウム」記事について、いち委員としての意見 - 荻上式BLOG](http://d.hatena.ne.jp/seijotcp/20161117/p1)
 
 ## 正規分布，正規確率
 
