@@ -6,7 +6,7 @@ tags = [
   "circle-ratio",
 ]
 draft = true
-date = "2016-11-16T20:57:43+09:00"
+date = "2016-11-20T01:05:27+09:00"
 title = "モンテカルロ法による円周率の推定（その4 PRNG）"
 description = "description"
 
