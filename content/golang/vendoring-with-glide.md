@@ -1,6 +1,6 @@
 +++
 date = "2015-12-07T23:30:21+09:00"
-update = "2015-12-23T12:59:00+09:00"
+update = "2016-11-18T09:28:32+09:00"
 description = "Go 言語 1.5 の vendoring 機能をサポートするツールが glide である。"
 draft = false
 tags = ["golang", "engineering", "vendoring", "package", "tools", "glide", "gb"]
@@ -368,9 +368,32 @@ devImports: []
 
 こう考えると [glide] は[前に紹介]({{< relref "golang/project-based-development.md" >}})した [gb](http://getgb.io/) よりも筋がいいツールといえるかもしれない。
 
+## おまけ： vender フォルダ以下をテストから除外する
+
+テストを行う際に普通に
+
+```text
+$ go test -v ./...
+```
+
+とかやると `vendor` フォルダ以下も対象になってしまう。
+`vendor` フォルダ以下を除外したいのであれば
+
+```text
+$ go test -v $(glide novendor)
+```
+
+とすればよい。
+
+ただこれ Windows のコマンドプロンプトでは使えないんだよねぇ。
+パイプで `go test` に渡してもうまくいかない感じ。
+そういう場合は `glide novendor` の実行結果を整形してバッチファイルにするしかないのだろう。
+やれやれ。
+
 ## ブックマーク
 
 - [glide - パッケージ管理のお困りの方へ - - Qiita](http://qiita.com/tienlen/items/8e192e68d6b18bec3b4a)
+- [Golangでプロジェクト内のテストを全件実行する - Qiita](http://qiita.com/ktsujichan/items/c78e2515c459316cb1f6)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
