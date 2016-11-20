@@ -76,6 +76,12 @@ Human readable な言葉と machine readable な言葉は異なっていて当�
 
 まさしくこれは「進化」なのである。
 
+## ブックマーク
+
+- [プログラミングは「損得勘定」で考える — Baldanders.info](http://www.baldanders.info/spiegel/log2/000868.shtml)
+
+## 参考図書
+
 <div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00NAQA33A/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/41hSKEDU3zL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00NAQA33A/baldandersinf-22/">数学ガールの誕生　理想の数学対話を求めて</a></dt><dd>結城 浩 </dd><dd>SBクリエイティブ 2013-09-13</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00L0PDMIQ/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00L0PDMIQ.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート／式とグラフ"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B01EL08HVS/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B01EL08HVS.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート／場合の数"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00L0PDMJ0/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00L0PDMJ0.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート／整数で遊ぼう"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00W6NCLL0/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00W6NCLL0.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート／数列の広場"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00W6NCLJM/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00W6NCLJM.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート／丸い三角関数"  /></a> </p>
 <p class="description">結城浩さんの講演集。こういう場所に立ち会える今の学生さんは羨ましい。</p>
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-07-31">2016-07-31</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
