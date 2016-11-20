@@ -24,7 +24,7 @@ title = "ATOM × NYAGOS ＝ ♥"
   name = "Spiegel"
 +++
 
-[ATOM] 上で動くターミナル・エミュレータはいくつかあるが，大抵は UNIX 互換環境を前提としたもので Windows では動かなかったり特別なインストール手順を要するものが殆どだったりする。
+[ATOM] 上で動くターミナル・エミュレータはいくつかあるが，大抵は UNIX 互換環境を前提としたもので Windows では動かなかったり特別なインストール手順を要するものが殆どで使う気にならなかったりする。
 そんな中で [platformio-ide-terminal] は Windows 環境でも簡単に導入できる優れもののようだ。
 
 - [Atomのterminal-plusが動かないのでplatformio-ide-terminalを入れてみた | spiffieldLabs](http://labs.spiffield.net/archives/508)
@@ -60,7 +60,7 @@ title = "ATOM × NYAGOS ＝ ♥"
 
 よいではないか。
 
-[platformio-ide-terminal] を起動する際は， Windows では， `alt-shift-T` を押下すればいいのだが，キーを3つ抑えるのは得意ではないので `ctrl-f1` に振り直した。
+[platformio-ide-terminal] を起動する際は， Windows では， `alt-shift-T` を押下すればいいのだが，キーを3つ押さえるのは得意ではないので `ctrl-f1` に振り直した。
 
 ```cson
 '.platform-win32 atom-workspace':
