@@ -10,7 +10,7 @@ tags = [
 ]
 draft = false
 date = "2016-11-14T20:50:56+09:00"
-update = "2016-11-16T20:43:47+09:00"
+update = "2016-11-20T23:32:40+09:00"
 
 [author]
   instagram = "spiegel_2007"
@@ -30,6 +30,7 @@ update = "2016-11-16T20:43:47+09:00"
 1. [モンテカルロ法による円周率の推定（その1）]({{< relref "golang/estimate-of-pi.md" >}})
 2. [モンテカルロ法による円周率の推定（その2 CLI）]({{< relref "golang/estimate-of-pi-2-cli.md" >}})
 3. [モンテカルロ法による円周率の推定（その3 Gaussian）]({{< relref "golang/estimate-of-pi-3-gaussian.md" >}}) ← イマココ
+4. [モンテカルロ法による円周率の推定（その4 PRNG）]({{< relref "golang/estimate-of-pi-4-prng.md" >}})
 
 ## 推定結果の分布
 

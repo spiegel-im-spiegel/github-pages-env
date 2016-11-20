@@ -2,7 +2,7 @@
 description = "さっそく推定結果について評価を行いたいところだが，その前に CLI (command-line interface) を整備する。今回は spf13/cobra パッケージを使うことにする。"
 tags = ["golang", "cli", "facade", "circle-ratio"]
 date = "2016-11-06T17:57:37+09:00"
-update = "2016-11-16T20:43:47+09:00"
+update = "2016-11-20T23:32:40+09:00"
 title = "モンテカルロ法による円周率の推定（その2 CLI）"
 draft = false
 
@@ -24,6 +24,7 @@ draft = false
 1. [モンテカルロ法による円周率の推定（その1）]({{< relref "golang/estimate-of-pi.md" >}})
 2. [モンテカルロ法による円周率の推定（その2 CLI）]({{< relref "golang/estimate-of-pi-2-cli.md" >}}) ← イマココ
 3. [モンテカルロ法による円周率の推定（その3 Gaussian）]({{< relref "golang/estimate-of-pi-3-gaussian.md" >}})
+4. [モンテカルロ法による円周率の推定（その4 PRNG）]({{< relref "golang/estimate-of-pi-4-prng.md" >}})
 
 ## コマンドライン・インタフェース
 

@@ -1,6 +1,6 @@
 +++
 date = "2016-11-05T23:26:29+09:00"
-update = "2016-11-16T20:43:47+09:00"
+update = "2016-11-20T23:32:40+09:00"
 title = "モンテカルロ法による円周率の推定（その1）"
 description = "乱数（random number）についていい例題がないかなぁ，と考えて「円周率をモンテカルロ法で求めるやつやればいいぢゃん」と思いついた。ので早速試してみる。"
 tags = [
@@ -33,6 +33,7 @@ draft = false
 1. [モンテカルロ法による円周率の推定（その1）]({{< relref "golang/estimate-of-pi.md" >}}) ← イマココ
 2. [モンテカルロ法による円周率の推定（その2 CLI）]({{< relref "golang/estimate-of-pi-2-cli.md" >}})
 3. [モンテカルロ法による円周率の推定（その3 Gaussian）]({{< relref "golang/estimate-of-pi-3-gaussian.md" >}})
+4. [モンテカルロ法による円周率の推定（その4 PRNG）]({{< relref "golang/estimate-of-pi-4-prng.md" >}})
 
 ## モンテカルロ法による円周率の推定
 
