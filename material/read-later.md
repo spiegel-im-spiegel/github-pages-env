@@ -17,15 +17,7 @@
 
 ## Mersenne Twister
 
-- [「ズンドコキヨシ」と擬似乱数 - Qiita](http://qiita.com/spiegel-im-spiegel/items/6a5bc07dbfa46a328e26)
-- [Mersenne Twister に関する覚え書き — しっぽのさきっちょ | text.Baldanders.info](http://text.baldanders.info/remark/2016/03/mersenne-twister/)
-- [seehuhn/mt19937: An implementation of Takuji Nishimura's and Makoto Matsumoto's Mersenne Twister pseudo random number generator in Go.](https://github.com/seehuhn/mt19937)
-- [nutterts/randgen: Pseudo Random Number Generators implementing the Go(lang) math/rand.Source Interface](https://github.com/nutterts/randgen)
-- [farces/mt19937_64: Mersenne Twister (int64) for Go](https://github.com/farces/mt19937_64)
-- [Big Sky :: Mersenne Twister のライセンスが変更された](http://mattn.kaoriya.net/software/20130409093112.htm)
-- [cuixin/goalg: golang algorithms](https://github.com/cuixin/goalg)
-- [davidminor/gorand: Basic golang implementation of a permuted congruential generator for pseudorandom number generation](https://github.com/davidminor/gorand)
-    - [PCG, A Family of Better Random Number Generators | PCG, A Better Random Number Generator](http://www.pcg-random.org/)
+- [cpmech/gosl: Go scientific library](https://github.com/cpmech/gosl) : すごいいいんだがロジックのコア部分が C のままなので golang 向きじゃないか...
 
 ## Effective C++ 解説
 

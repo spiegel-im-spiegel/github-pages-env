@@ -1,5 +1,6 @@
 +++
 date = "2016-02-13T14:48:05+09:00"
+update = "2016-11-21T10:21:08+09:00"
 description = "panic 時の出力をカスタマイズすることを考える。スタック情報を取得するには， panic を recover で捕まえた上で runtime.Caller() 関数を使う。"
 draft = false
 tags = ["golang", "stack", "panic"]
@@ -145,6 +146,7 @@ for depth := 0; ; depth++ {
 ## ブックマーク
 
 - [Goでfunctionが実行された順番を追いかける - sgykfjsm.github.com](http://sgykfjsm.github.io/blog/2016/01/20/golang-function-tracing/)
+- [Go のバイナリには -ldflags '-w -s' でコンパイルしてもたくさんパスが埋め込まれていた - Qiita](http://qiita.com/kitsuyui/items/d03a9de90330d8c275c8)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 

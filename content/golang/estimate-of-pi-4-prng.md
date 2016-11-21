@@ -7,6 +7,7 @@ tags = [
 ]
 draft = false
 date = "2016-11-20T23:33:55+09:00"
+update = "2016-11-21T17:58:04+09:00"
 title = "モンテカルロ法による円周率の推定（その4 PRNG）"
 description = "math/rand パッケージでは rand.Source interface を持つ別の擬似乱数生成器を使うことができる。"
 
@@ -35,7 +36,7 @@ description = "math/rand パッケージでは rand.Source interface を持つ�
 ## math/rand の擬似乱数生成器
 
 [Go 言語]では [`math/rand`] パッケージで擬似乱数を取り扱えることは「[その1]」で紹介した通り。
-[`math/rand`] パッケージに実装されている擬似乱数生成器は ALFG (Additive Lagged Fibonacci Generator) のバリエーションらしい。
+[`math/rand`] パッケージに実装されている擬似乱数生成器はラグ付フィボナッチ法（Lagged Fibonacci Generator）のバリエーションらしい。
 
 {{< fig-quote title="[Announce] A rand package for high quality 64bit random numbers (possibly go2)" link="https://groups.google.com/forum/#!topic/golang-nuts/RZ1G3_cxMcM" lang="en" >}}
 <q>If I am not mistaken again, the generator is an ALFG (Additive Lagged Fibonacci Generator, thats what Wikipedia calls it). Knuth describes the algorithm in Volume 2 of The art of computer programming in section 3.2.2 (around equation 7). Both Wikipedia and Knuth state the parameter combination 607,273 as possible combination with a period length of 2^(e-1)*(2^607-1) where e is the length of the random number in bits.<br>
@@ -55,7 +56,7 @@ S_{n} \equiv S_{n-j} * S_{n-k} \pmod{m}, & 0 \lt j \lt k
 {{< /fig-quote >}}
 
 ラグ付フィボナッチ法は $*$ 演算子によってバリエーションがあるが [`math/rand`] パッケージの実装では加算を使うため **Additive** Lagged Fibonacci Generator ということらしい。
-ソースコードで言うとこの部分。
+ソースコードで言うとこの部分かな。
 
 ```go
 // Int63 returns a non-negative pseudo-random 63-bit integer as an int64.
@@ -103,7 +104,7 @@ X_{n+1} = (A \times X_{n} + B) \bmod M
 
 定数 $A$ および $B$ の与え方により幾つかバリエーションがある。
 
-線形合同法のメリットは実装サイズが小さいことに限る。
+線形合同法のメリットは実装サイズが小さく計算量も少ない点だろうか。
 一方デメリットとしては，多次元で疎に分布する性質があり，周期も小さいため乱数を大量に発生させる必要がある科学技術シミュレーションなどには向かないと言われている。
 このためメモリサイズが限られるマイクロ・コントローラのようなものでもない限り線形合同法が使われることはなくなった。
 
@@ -231,28 +232,35 @@ standard deviation: 0.00517 (67.8%)
 
 もっと多次元だったりすると変わってくるのかなぁ。
 
-## 暗号技術用途の擬似乱数生成器
+## 暗号技術用途の乱数生成器
 
-[Go 言語]では暗号技術用途の擬似乱数として [`crypto/rand`] パッケージが用意されている。
+[Go 言語]では暗号技術用途の乱数として [`crypto/rand`] パッケージが用意されている。
 これは [`math/rand`] とは互換性がない。
 
-暗号技術用途の擬似乱数生成器は科学技術シミュレーションやゲームで使う擬似乱数生成器とは要件が異なる。
+具体的には，UNIX 系のプラットフォームでは乱数生成に `/dev/urandom` デバイスを参照している[^dr]。
+また Windows プラットフォームでは [CryptoAPI 2.0](https://technet.microsoft.com/ja-jp/library/cc734124.aspx) の [`CryptGenRandom`] 関数を使っている[^win]。
+
+[^dr]: `/dev/urandom` はハードウェア・デバイスから十分なエントロピー源が得られない場合は内部で疑似乱数生成器を使用する。このため一時は `/dev/urandom` の脆弱性が疑われたが，現時点では事実上は問題ないとされている。一方で，スマートデバイスのような場合はハードウェア・デバイスからのエントロピー源だけでは外部から推測され易いため，性能のよい疑似乱数生成器を組み合わせるほうが有効になる場合もあるようだ。
+[^win]: [`CryptGenRandom`] 関数の内部実装は公開されていないが，やはりキーボードやマウス等のデバイスの挙動をエントロピー源とし， NIST の SP800-90 勧告に従った実装をしているようである。余談だが SP800-90 は乱数生成の一部のアルゴリズムで脆弱性が発見され（これがまた NSA 絡みだったものだから大騒ぎになった），現在は修正版の [SP800-90A Revision 1](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-90Ar1.pdf "Recommendation for Random Number Generation Using Deterministic Random Bit Generators")が発行されている。（参考：[擬似乱数生成アルゴリズム Dual_EC_DRBG について](http://www.cryptrec.go.jp/topics/cryptrec_20131106_dual_ec_drbg.html)）
+
+そもそも暗号技術用途の乱数生成器は科学技術シミュレーションやゲームで使う擬似乱数生成器とは要件が異なる。
 
 - [RFC 4086 - Randomness Requirements for Security](https://tools.ietf.org/html/rfc4086) （[IPA による日本語訳](https://www.ipa.go.jp/security/rfc/RFC4086JA.html "セキュリティのための乱雑性についての要件")）
+- {{< pdf-file title="NIST Special Publication 800-90A Revision 1: Recommendation for Random Number Generation Using Deterministic Random Bit Generators" link="http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-90Ar1.pdf" >}}
 
 {{< fig-quote title="RFC 4086 - セキュリティのための乱雑性についての要件" link="https://www.ipa.go.jp/security/rfc/RFC4086JA.html" >}}
 <q>従前の観点から統計的にテストされた乱雑性は、セキュリティ用途に要求される予測困難性と同等では<strong>ありません</strong>。<br>
 例えば、（CRC Standard Mathematical Tables からのランダムテーブルのような）広く利用可能な一定のシーケンスの利用は、攻撃者に対して非常に弱いです。これを学習したり、推測する攻撃者は、容易に（過去・未来を問わず）そのシーケンス [CRC] に基づいて、すべてのセキュリティを破ることができます。他の例として、AES を 1, 2, 3 ... のような連続した整数を暗号化する一定の鍵と共に使うことは、優れた統計的乱雑性をもつが予測可能な出力を作り出します。他方、6 面のサイコロを連続して転がして、その結果の値を ASCII にエンコードすることは、実質的に予測困難なコンポーネントをもちながらも「統計的に貧弱な出力」を作り出します。それゆえ、「統計的テストの合否は、『何かが予測不可能であるか否か、あるいは、予測可能であるか否か』を表さないこと」に注意してください。</q>
 {{< /fig-quote >}}
 
-具体的には， [`math/rand`] では乱数生成用のエントロピー源にハードウェア・デバイスを使用する。
-UNIX 系のプラットフォームでは /dev/urandom を参照する。
-Windows プラットフォームでは [`CryptGenRandom`](https://msdn.microsoft.com/ja-jp/library/windows/desktop/aa379942(v=vs.85).aspx "CryptGenRandom function") 関数を使うようだが，この API の内部実装は公開されていない。
+暗号技術用途の乱数生成器は，暗号分野においては中核技術のひとつであるが，一度に大量の乱数を生成させる必要のある科学技術シミュレーションなどの用途には向かない。
+上手く使い分けてほしい。
 
 ## ブックマーク
 
 - [Mersenne Twister に関する覚え書き]({{< relref "remark/2016/03/mersenne-twister.md" >}})
 - [PCG, A Family of Better Random Number Generators | PCG, A Better Random Number Generator](http://www.pcg-random.org/)
+- [/dev/randomではなく/dev/urandomを使うべき理由? | マイナビニュース](http://news.mynavi.jp/news/2014/03/11/037/)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
@@ -264,6 +272,7 @@ Windows プラットフォームでは [`CryptGenRandom`](https://msdn.microsoft
 [`github.com/davidminor/gorand`]: https://github.com/davidminor/gorand "davidminor/gorand: Basic golang implementation of a permuted congruential generator for pseudorandom number generation"
 [`github.com/spiegel-im-spiegel/gorand`]: https://github.com/davidminor/gorand "spiegel-im-spiegel/gorand: Basic golang implementation of a permuted congruential generator for pseudorandom number generation"
 [Mersenne Twister]: http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/mt.html "Mersenne Twister: A random number generator (since 1997/10)"
+[`CryptGenRandom`]: https://msdn.microsoft.com/ja-jp/library/windows/desktop/aa379942.aspx "CryptGenRandom function"
 
 ## 参考図書
 
