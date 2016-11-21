@@ -1,6 +1,6 @@
 +++
 date = "2016-02-13T14:48:05+09:00"
-update = "2016-11-21T10:21:08+09:00"
+update = "2016-11-21T20:48:03+09:00"
 description = "panic 時の出力をカスタマイズすることを考える。スタック情報を取得するには， panic を recover で捕まえた上で runtime.Caller() 関数を使う。"
 draft = false
 tags = ["golang", "stack", "panic"]

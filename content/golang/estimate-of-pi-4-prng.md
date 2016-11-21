@@ -7,7 +7,7 @@ tags = [
 ]
 draft = false
 date = "2016-11-20T23:33:55+09:00"
-update = "2016-11-21T17:58:04+09:00"
+update = "2016-11-21T20:48:03+09:00"
 title = "モンテカルロ法による円周率の推定（その4 PRNG）"
 description = "math/rand パッケージでは rand.Source interface を持つ別の擬似乱数生成器を使うことができる。"
 
@@ -55,7 +55,7 @@ S_{n} \equiv S_{n-j} * S_{n-k} \pmod{m}, & 0 \lt j \lt k
 \end{array} \]
 {{< /fig-quote >}}
 
-ラグ付フィボナッチ法は $*$ 演算子によってバリエーションがあるが [`math/rand`] パッケージの実装では加算を使うため **Additive** Lagged Fibonacci Generator ということらしい。
+ラグ付フィボナッチ法は $*$ 演算子によってバリエーションがあるが [`math/rand`] パッケージの実装では加算を使うため “**Additive** Lagged Fibonacci Generator” ということらしい。
 ソースコードで言うとこの部分かな。
 
 ```go
