@@ -1,23 +1,20 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-なし
+- [クリエイティブ・コモンズと著作権の新しい潮流](http://www.slideshare.net/JEPAslide/ss-68121343)
 
 ## ブックマーク
 
-なし
+### セキュリティ関連
 
-## 正規分布，正規確率
+- [セキュリティカメラがWi-Fiネットワークに接続してから98秒後にマルウェアに感染した | TechCrunch Japan](http://jp.techcrunch.com/2016/11/19/20161118this-security-camera-was-infected-by-malware-in-98-seconds-after-it-was-plugged-in/)
+- [LINE乗っ取られたのでその鮮やかなる手口を恥を忍んで公開しましょう - はてなブログを毎日書いていたら10Kg痩せました！](http://pero-pero.hatenablog.com/entry/2016/11/22/004421)
 
-- [gnuplot でヒストグラム（頻度分布図）を描画する - Qiita](http://qiita.com/iwiwi/items/4c7635d4c84bc785e47a)
-- [gnuplot / plot (7)](http://newton.ph.unito.it/~moretti/gnuplot/plot7.html)
-- [確率紙で学ぶ確率・統計](http://www.fml.t.u-tokyo.ac.jp/~sakai/kougi/ProbSystem/ProbPaper/probpaper.htm)
-- [標準正規分布 - C言語・C++・C# 解決済 | 教えて！goo](http://oshiete.goo.ne.jp/qa/935719.html)
-- [付表：正規分布表　（ P から z を求める表） - 中川雅央（滋賀大学）](http://www.biwako.shiga-u.ac.jp/sensei/mnaka/ut/normdistinvtab.html)
-- [gnuplot でヒストグラム・度数分布多角形づくり: 個人的健忘録 from 2013](http://bluearth.cocolog-nifty.com/blog/2014/03/gnuplot-d8cc-1.html)
+### その他四方山話
 
-## Mersenne Twister
+- [活版印刷の文字のにじみを再現した「にじみフォント」、大日本印刷が開発 -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/1030805.html)
+- [APOD: 2016 November 21 - Nova over Thailand](http://apod.nasa.gov/apod/ap161121.html)
+- [和算書「算法少女」を読む (ちくま学芸文庫) | 小寺 裕 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4480092552/)
 
-- [cpmech/gosl: Go scientific library](https://github.com/cpmech/gosl) : すごいいいんだがロジックのコア部分が C のままなので golang 向きじゃないか...
 
 ## Effective C++ 解説
 
@@ -48,9 +45,3 @@ ssh でメンテできるのはありがたいな。
 - [GoとGAEによるWebアプリケーション開発（Go Con 2016 Spring） // Speaker Deck](https://speakerdeck.com/ttsuruoka/gotogaeniyoruwebapurikesiyonkai-fa-go-con-2016-spring)
 - [GAE/Goで外部にhttpリクエスト送るには？ - blog.youyo.info](http://blog.youyo.info/post/2016/07/05/gae-go-outbound-http-request/)
 - [GAE/Go (echoフレームワーク)で Line Message API 使って Bot を作る。 - Qiita](http://qiita.com/naoki_koreeda/items/8c818a3e9f6138ddbb87)
-
-### Qiita の記事
-
-- [go+ginでローカルで作ったWebアプリをGoogleAppEngineに載せる時に注意することまとめ - Qiita](http://qiita.com/CST_negi/items/bcb4730c6efeb838c4a7)
-- [Go製のフレームワークechoを使ってJSONを返すWebサーバーを作り、GoogleAppEngineで動かす - Qiita](http://qiita.com/qube81/items/701279c43b33ce923613)
-- [GAE/Goのテストを実行するために必要なこと - Qiita](http://qiita.com/ttyokoyama/items/5b99299ec112b580f03b)

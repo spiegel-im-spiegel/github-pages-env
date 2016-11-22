@@ -7,7 +7,7 @@ tags = [
 ]
 draft = false
 date = "2016-11-20T23:33:55+09:00"
-update = "2016-11-21T20:48:03+09:00"
+update = "2016-11-22T10:08:25+09:00"
 title = "モンテカルロ法による円周率の推定（その4 PRNG）"
 description = "math/rand パッケージでは rand.Source interface を持つ別の擬似乱数生成器を使うことができる。"
 
@@ -135,6 +135,7 @@ X_{n+1} = (A \times X_{n} + B) \bmod M
 - [nutterts/randgen: Pseudo Random Number Generators implementing the Go(lang) math/rand.Source Interface](https://github.com/nutterts/randgen)
 - [farces/mt19937_64: Mersenne Twister (int64) for Go](https://github.com/farces/mt19937_64)
 - [cuixin/goalg: golang algorithms](https://github.com/cuixin/goalg)
+- [cpmech/gosl: Go scientific library](https://github.com/cpmech/gosl) : [SFMT](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/SFMT/ "SIMD-oriented Fast Mersenne Twister") や [TinyMT](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/TINYMT/ "Tiny Mersenne Twister") に対応。オリジナルのコードを [cgo](https://golang.org/cmd/cgo/ "cgo - The Go Programming Language") で結合しているのでクロス環境では注意
 
 ## 擬似乱数生成器を組み込む
 

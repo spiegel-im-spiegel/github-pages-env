@@ -10,7 +10,7 @@ tags = [
 ]
 draft = false
 date = "2016-11-14T20:50:56+09:00"
-update = "2016-11-20T23:32:40+09:00"
+update = "2016-11-22T10:01:36+09:00"
 
 [author]
   instagram = "spiegel_2007"
@@ -301,6 +301,7 @@ standard deviation: 0.01654 (68.0%)
 - [gnuplot でヒストグラム（頻度分布図）を描画する - Qiita](http://qiita.com/iwiwi/items/4c7635d4c84bc785e47a)
 - [【統計学】Q-Qプロットの仕組みをアニメーションで理解する。 - Qiita](http://qiita.com/kenmatsu4/items/59605dc745707e8701e0)
 - [簡単な例題](http://dsl4.eee.u-ryukyu.ac.jp/DOCS/gnuplot/node180.html)：最小2乗法でデータに曲線や曲面をあてはめる
+- [付表：正規分布表　（ P から z を求める表） - 中川雅央（滋賀大学）](http://www.biwako.shiga-u.ac.jp/sensei/mnaka/ut/normdistinvtab.html)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 

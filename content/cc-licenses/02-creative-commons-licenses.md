@@ -1,6 +1,6 @@
 +++
 date = "2015-11-08T20:10:15+09:00"
-update = "2016-11-09T15:18:42+09:00"
+update = "2016-11-22T09:25:52+09:00"
 sdescription = "今回はいよいよ Creative Commons Licenses について解説する。"
 draft = false
 tags = ["creative-commons", "copyright", "license"]
@@ -373,6 +373,7 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 - [How should we attribute 3D printed objects? - Creative Commons](https://creativecommons.org/2016/04/19/attribute-3d-printed-objects/)
     - [3Dプリントでできた物にはどのようなライセンス表示をすべきか？ | クリエイティブ・コモンズ・ジャパン](https://creativecommons.jp/2016/07/26/3d%e3%83%97%e3%83%aa%e3%83%b3%e3%83%88%e3%81%a7%e3%81%a7%e3%81%8d%e3%81%9f%e7%89%a9%e3%81%ab%e3%81%af%e3%81%a9%e3%81%ae%e3%82%88%e3%81%86%e3%81%aa%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9%e8%a1%a8/)
 - [【解説】 クリエイティブ・コモンズ・ライセンス入門 【知財管理65巻6号掲載】 | 弁護士 増田雅史の記録帳](https://masudalaw.wordpress.com/2016/05/06/ccl-basics/)
+- [クリエイティブ・コモンズと著作権の新しい潮流](http://www.slideshare.net/JEPAslide/ss-68121343)
 
 [本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
 [著作権法]: http://law.e-gov.go.jp/htmldata/S45/S45HO048.html "著作権法"
