@@ -1,20 +1,11 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-- [クリエイティブ・コモンズと著作権の新しい潮流](http://www.slideshare.net/JEPAslide/ss-68121343)
+- [It Is All Spam – AVC](http://avc.com/2016/11/it-is-all-spam/)
+    - [嘘ニュースはインターネットに不可避なスパムの新種なのか - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20161123/fakenewsspam)
 
 ## ブックマーク
 
-### セキュリティ関連
-
-- [セキュリティカメラがWi-Fiネットワークに接続してから98秒後にマルウェアに感染した | TechCrunch Japan](http://jp.techcrunch.com/2016/11/19/20161118this-security-camera-was-infected-by-malware-in-98-seconds-after-it-was-plugged-in/)
-- [LINE乗っ取られたのでその鮮やかなる手口を恥を忍んで公開しましょう - はてなブログを毎日書いていたら10Kg痩せました！](http://pero-pero.hatenablog.com/entry/2016/11/22/004421)
-
-### その他四方山話
-
-- [活版印刷の文字のにじみを再現した「にじみフォント」、大日本印刷が開発 -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/1030805.html)
-- [APOD: 2016 November 21 - Nova over Thailand](http://apod.nasa.gov/apod/ap161121.html)
-- [和算書「算法少女」を読む (ちくま学芸文庫) | 小寺 裕 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4480092552/)
-
+なし
 
 ## Effective C++ 解説
 
