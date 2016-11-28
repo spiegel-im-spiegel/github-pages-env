@@ -6,6 +6,12 @@
 - [文字コード「超」研究　改訂第2版 | 深沢千尋 |本 | 通販 | Amazon](https://www.amazon.co.jp/dp/4899772939/) : お値段高めだが世に出てる文字コード本が古すぎるんだよな
 - [一般の熱エンジンの効率とスピードに関する原理的限界の発見：慶應義塾](https://www.keio.ac.jp/ja/press-releases/2016/10/31/28-18691/)
     - [物理学業界が大興奮した「熱機関の限界」発見 古典的なはずの熱力学に新たな法則が登場 | JBpress(日本ビジネスプレス)](http://jbpress.ismedia.jp/articles/-/48431)
+- [生命がいるかもしれない惑星の“影”の観測に成功～将来の地球外生命探索への重要な足がかり～ | 国立天文台(NAOJ)](http://www.nao.ac.jp/news/science/2016/20161128-oao.html)
+- [消えたSEの残したものは｜塚本 牧生｜note](https://note.mu/tsukamoto/n/n80d136d1fa8d)
+- [MITライセンスを1行1行読んでいく | プログラミング | POSTD](http://postd.cc/mit-license-line-by-line/)
+- [ネットに蔓延する虚偽ニュースにだまされない方法 - CNET Japan](http://japan.cnet.com/news/commentary/35092751/)
+- [ブロックチェーンは本当に世界を変えるのか - ビットコインは本当に安全なのか、理論研究が示す意外な落とし穴：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/16/062400138/112400011/?rt=nocnt)
+- [「秀丸エディタ」v8.66が公開、入力ミスを指摘する“もしかして”機能を追加 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1032035.html)
 
 ## ブックマーク
 
