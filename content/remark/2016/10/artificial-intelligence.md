@@ -1,6 +1,6 @@
 +++
 date = "2016-10-12T00:39:24+09:00"
-update = "2016-10-18T21:39:07+09:00"
+update = "2016-11-28T14:57:32+09:00"
 description = "「正義」とか「良心」とかいうのは人の不完全さの象徴である。その不完全さが人のアイデンティティだというのなら，そんな種は進化の階梯を機械に譲ったほうがいい。でも実際には，私たちは種としてもっと先に進めるはずである，と私は思う。"
 draft = false
 tags = ["artificial-intelligence", "engineering", "politics"]
@@ -175,6 +175,7 @@ AI は（今のところ）近似解に葛藤したりしない。
 
 - [人工知能は「ハイル・ヒトラー」と叫ぶか]({{< relref "remark/2015/artificial-intelligence.md" >}})
 - [「ピノキオ」と AI]({{< relref "remark/2016/08/pinocchio.md" >}})
+- [コンピュータが次々と間違える時代。](http://www.ne.jp/asahi/comp/tarusan/main260.htm)
 
 [yomoyomo]: http://d.hatena.ne.jp/yomoyomo/ "YAMDAS現更新履歴"
 

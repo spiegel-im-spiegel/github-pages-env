@@ -1,11 +1,19 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-- [It Is All Spam – AVC](http://avc.com/2016/11/it-is-all-spam/)
-    - [嘘ニュースはインターネットに不可避なスパムの新種なのか - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20161123/fakenewsspam)
+- [和歌山毒カレー事件の真相は、林家同様ヒ素を保持していた近所の一家の... - Yahoo!知恵袋](http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10166953385)
+- [ようこそ - データ・ジャーナリズム・ハンドブック](http://datajournalismjp.github.io/handbook/)
+    - [The Data Journalism Handbookの日本語版を 無料で公開](http://datajournalismjp.github.io/releases/20161118.html)
+- [文字コード「超」研究　改訂第2版 | 深沢千尋 |本 | 通販 | Amazon](https://www.amazon.co.jp/dp/4899772939/) : お値段高めだが世に出てる文字コード本が古すぎるんだよな
+- [一般の熱エンジンの効率とスピードに関する原理的限界の発見：慶應義塾](https://www.keio.ac.jp/ja/press-releases/2016/10/31/28-18691/)
+    - [物理学業界が大興奮した「熱機関の限界」発見 古典的なはずの熱力学に新たな法則が登場 | JBpress(日本ビジネスプレス)](http://jbpress.ismedia.jp/articles/-/48431)
 
 ## ブックマーク
 
 なし
+
+## 絵文字が開いてしまった「パンドラの箱」
+
+- [特集 : 絵文字が開いてしまった「パンドラの箱」 - CNET Japan](http://japan.cnet.com/sp/column_emojipandora/)
 
 ## Effective C++ 解説
 
@@ -15,6 +23,11 @@
 - [Effective C++(項6〜10)解説 - Qiita](http://qiita.com/MoriokaReimen/items/bf301530e8f5d6d2fe90)
 - [Effective C++（項11〜15）解説 - Qiita](http://qiita.com/MoriokaReimen/items/a2b00e8da6f6ec83949b)
 - [Effective C++（項16〜20）解説 - Qiita](http://qiita.com/MoriokaReimen/items/4b51a41c9e8871907e80)
+
+## 「スパム本」参考資料
+
+- [It Is All Spam – AVC](http://avc.com/2016/11/it-is-all-spam/)
+    - [嘘ニュースはインターネットに不可避なスパムの新種なのか - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20161123/fakenewsspam)
 
 ## HTML 5.1 について
 
