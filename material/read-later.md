@@ -2,14 +2,30 @@
 
 - [Go Security Policy - The Go Programming Language](https://golang.org/security)
     - [[security] Go 1.6.4 and Go 1.7.4 pre-announcement - Google グループ](https://groups.google.com/forum/#!topic/golang-announce/YOqTqcJtiJI)
+- [ネットにしか居場所がないということ（前編） - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2016/11/57893/)
+- [CCLの議論延長戦@twitterのまとめ - 半可思惟](http://d.hatena.ne.jp/inflorescencia/20070923/1190527778) : 懐かしい...
 
 ## ブックマーク
 
-### セキュリティ関連
+### ブロックチェーン関連
 
 - [ブロックチェーンは本当に世界を変えるのか - ビットコインは本当に安全なのか、理論研究が示す意外な落とし穴：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/16/062400138/112400011/?rt=nocnt)
+- [アクセンチュアが開発した「訂正可能なブロックチェーン」の意義 - ZDNet Japan](http://japan.zdnet.com/article/35092920/)
+
+### セキュリティ関連
+
 - [ニュース解説 - 「防衛省へのサイバー攻撃」報道、有識者はこう見る：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/14/346926/112800718/?rt=nocnt)
-- [VMware製品へのうるう秒調整の影響 - Qiita](http://qiita.com/tsukamoto/items/5bbecd29ac40ac16e039) : 2017年直前の閏秒挿入の解説に更新されている
+- [You Can Now Rent a Mirai Botnet of 400,000 Bots](http://www.bleepingcomputer.com/news/security/you-can-now-rent-a-mirai-botnet-of-400-000-bots/)
+- [致命的な脆弱性1件を修正した「Firefox」v50.0.1が公開 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1032261.html)
+- [さくらインターネット、ビットスター、ミラクル・リナックスがオープンソースソフトウェア「Hatohol」の共同開発を開始～実運用向け運用統合ソフトを目指し、大規模システム、大量ドメインでのHatoholの検証を実施～](https://www.sakura.ad.jp/press/2016/1129_hatohol/)
+
+> Hatoholは、ミラクル・リナックスが支援する開発コミュニティ「Project Hatohol」（ https://github.com/project-hatohol/hatohol ）で開発されているOSS運用統合ソフトです。システム監視やジョブ管理、インシデント管理、ログ管理など、さまざまな運用管理ツールのハブとして機能します。 Hatoholはシステム監視ツールの統合機能を持ち、複数の監視環境（Zabbix、Nagiosなど）と連携することで監視情報を集約して一元的に表示し、運用統合する機能を提供します。
+
+### 宇宙関連
+
+- [生命がいるかもしれない惑星の“影”の観測に成功～将来の地球外生命探索への重要な足がかり～ | 国立天文台(NAOJ)](http://www.nao.ac.jp/news/science/2016/20161128-oao.html)
+- [3Dプリンター、宇宙へ。初めてつくられたプロダクトは｜WIRED.jp](http://wired.jp/2014/11/28/3d-printing-in-space/)
+- [227恒星の公式名称、IAUが決定　「ベガ」など公式名称に | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2016_11_29_stars.html)
 
 ### その他四方山話
 
@@ -18,15 +34,21 @@
     - [The Data Journalism Handbookの日本語版を 無料で公開](http://datajournalismjp.github.io/releases/20161118.html)
 - [一般の熱エンジンの効率とスピードに関する原理的限界の発見：慶應義塾](https://www.keio.ac.jp/ja/press-releases/2016/10/31/28-18691/)
     - [物理学業界が大興奮した「熱機関の限界」発見 古典的なはずの熱力学に新たな法則が登場 | JBpress(日本ビジネスプレス)](http://jbpress.ismedia.jp/articles/-/48431)
-- [生命がいるかもしれない惑星の“影”の観測に成功～将来の地球外生命探索への重要な足がかり～ | 国立天文台(NAOJ)](http://www.nao.ac.jp/news/science/2016/20161128-oao.html)
 - [消えたSEの残したものは｜塚本 牧生｜note](https://note.mu/tsukamoto/n/n80d136d1fa8d)
 - [MITライセンスを1行1行読んでいく | プログラミング | POSTD](http://postd.cc/mit-license-line-by-line/)
 - [ネットに蔓延する虚偽ニュースにだまされない方法 - CNET Japan](http://japan.cnet.com/news/commentary/35092751/)
 - [「秀丸エディタ」v8.66が公開、入力ミスを指摘する“もしかして”機能を追加 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1032035.html)
-- [3Dプリンター、宇宙へ。初めてつくられたプロダクトは｜WIRED.jp](http://wired.jp/2014/11/28/3d-printing-in-space/)
 - [Facebookの「ソーラードローン」にテスト飛行中の事故が発覚｜WIRED.jp](http://wired.jp/2016/11/28/facebooks-drone-was/)
 - [GitHubに待望のカンバン機能「Project」ができたので、即座に使ってみた話 - Qiita](http://qiita.com/kashira2339/items/c12ff5294ef5ea290bfd)
+- [Google、オープンソースの機械学習ライブラリ「TensorFlow」のWindows版を公開 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1032486.html)
+- [DeNAの「WELQ」、全記事非公開に--医師や専門家の監修を受けてからの掲載へ - CNET Japan](http://japan.cnet.com/news/service/35092919/)
+- [「ボイコット・トランプ」は、消費者がドナルド帝国を避けるためのアプリ | TechCrunch Japan](http://jp.techcrunch.com/2016/11/29/20161128boycott-trump-app-enables-consumer-savvy-avoidance-of-the-donalds-empire/)
 
+
+## ATOM で UML (PlantUML)
+
+- [AtomとPlantUMLで爆速UMLモデリング - Qiita](http://qiita.com/nakahashi/items/3d88655f055ca6a2617c)
+- [Atom+PlantUMLで見た目もいい感じのシーケンス図を作成する - Qiita](http://qiita.com/k_nakayama/items/77ca73753ebd049a66de)
 
 ## 絵文字が開いてしまった「パンドラの箱」
 

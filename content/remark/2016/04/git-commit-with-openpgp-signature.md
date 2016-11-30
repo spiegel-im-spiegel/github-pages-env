@@ -1,6 +1,6 @@
 +++
 date = "2016-04-23T15:17:49+09:00"
-update = "2016-05-25T21:20:24+09:00"
+update = "2016-11-30T13:45:41+09:00"
 description = "Git で commit する際に OpenPGP 署名を付加できるらしい。いやぁ，今まで知らなかったよ。物知らずでごめん。"
 draft = false
 tags = ["git", "github", "gnupg", "openpgp", "cryptography", "certification"]
@@ -163,6 +163,10 @@ $ gpg --armor --export 7E20B81C
 Tag や commit に署名することで「なりすまし」に対する抑止になる。
 これは特にチームで開発を行う場合に威力を発揮するだろう。
 ぜひ習慣付けていきたいものである。
+
+## ブックマーク
+
+- [git(GitHub)でGPGを使った署名をおこなう - Qiita](http://qiita.com/pontago/items/5867b6492e09c34084fe)
 
 [Git]: https://git-scm.com/ "Git"
 [Git for Windows]: http://git-for-windows.github.io/ "Git for Windows"
