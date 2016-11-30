@@ -1,6 +1,7 @@
 +++
 description = "ホンマ2年間楽しませていただきました。ご馳走様です。気軽に食べて呑める店を開拓しないとなぁ..."
 date = "2016-11-28T20:56:23+09:00"
+update = "2016-11-30T21:40:51+09:00"
 title = "「ふくろう」閉店"
 tags = [
   "hiroshima",
@@ -52,6 +53,7 @@ draft = false
 - [The お好み焼 ふくろう — Baldanders.info](http://www.baldanders.info/spiegel/log2/000760.shtml)
 - [いいにく（11.29）の日，他 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000775.shtml)
 - [ふくろう「野菜三昧」イベント — Baldanders.info](http://www.baldanders.info/spiegel/log2/000836.shtml)
+- [巨大パエリアパンと大将の魂を受け継ぎました - 電気ウナギ的○○](http://blog.netandfield.com/shar/2016/11/post-2715.html)
 
 ## 参考図書
 

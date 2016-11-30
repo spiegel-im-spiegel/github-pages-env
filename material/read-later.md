@@ -11,6 +11,7 @@
 
 - [ブロックチェーンは本当に世界を変えるのか - ビットコインは本当に安全なのか、理論研究が示す意外な落とし穴：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/16/062400138/112400011/?rt=nocnt)
 - [アクセンチュアが開発した「訂正可能なブロックチェーン」の意義 - ZDNet Japan](http://japan.zdnet.com/article/35092920/)
+- [日本の3大メガバンクが全銀システム業務にブロックチェーンを適用する実証実験、bitFlyerが新アルゴリズムを提供 | TechCrunch Japan](http://jp.techcrunch.com/2016/11/30/three-japanese-banks-try-blockchain/)
 
 ### セキュリティ関連
 
@@ -21,11 +22,19 @@
 
 > Hatoholは、ミラクル・リナックスが支援する開発コミュニティ「Project Hatohol」（ https://github.com/project-hatohol/hatohol ）で開発されているOSS運用統合ソフトです。システム監視やジョブ管理、インシデント管理、ログ管理など、さまざまな運用管理ツールのハブとして機能します。 Hatoholはシステム監視ツールの統合機能を持ち、複数の監視環境（Zabbix、Nagiosなど）と連携することで監視情報を集約して一元的に表示し、運用統合する機能を提供します。
 
+- [米国発！ Appleニュースの読み解き方 - 「iCloudカレンダーの招待状」という新手のスパム：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/16/082600184/112800022/)
+
 ### 宇宙関連
 
 - [生命がいるかもしれない惑星の“影”の観測に成功～将来の地球外生命探索への重要な足がかり～ | 国立天文台(NAOJ)](http://www.nao.ac.jp/news/science/2016/20161128-oao.html)
 - [3Dプリンター、宇宙へ。初めてつくられたプロダクトは｜WIRED.jp](http://wired.jp/2014/11/28/3d-printing-in-space/)
 - [227恒星の公式名称、IAUが決定　「ベガ」など公式名称に | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2016_11_29_stars.html)
+- [暦象新書 | 国立天文台(NAOJ)](http://www.nao.ac.jp/gallery/weekly/2016/20161129-rekisyo.html)
+
+## ボイコット・トランプ
+
+- [「ボイコット・トランプ」は、消費者がドナルド帝国を避けるためのアプリ | TechCrunch Japan](http://jp.techcrunch.com/2016/11/29/20161128boycott-trump-app-enables-consumer-savvy-avoidance-of-the-donalds-empire/)
+- [トランプ大統領誕生前に、Internet Archiveがカナダにバックアップ構築へ - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1611/30/news099.html)
 
 ### その他四方山話
 
@@ -42,7 +51,6 @@
 - [GitHubに待望のカンバン機能「Project」ができたので、即座に使ってみた話 - Qiita](http://qiita.com/kashira2339/items/c12ff5294ef5ea290bfd)
 - [Google、オープンソースの機械学習ライブラリ「TensorFlow」のWindows版を公開 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1032486.html)
 - [DeNAの「WELQ」、全記事非公開に--医師や専門家の監修を受けてからの掲載へ - CNET Japan](http://japan.cnet.com/news/service/35092919/)
-- [「ボイコット・トランプ」は、消費者がドナルド帝国を避けるためのアプリ | TechCrunch Japan](http://jp.techcrunch.com/2016/11/29/20161128boycott-trump-app-enables-consumer-savvy-avoidance-of-the-donalds-empire/)
 
 
 ## ATOM で UML (PlantUML)
