@@ -2,7 +2,6 @@
 
 - [Go Security Policy - The Go Programming Language](https://golang.org/security)
     - [[security] Go 1.6.4 and Go 1.7.4 pre-announcement - Google グループ](https://groups.google.com/forum/#!topic/golang-announce/YOqTqcJtiJI)
-- [ネットにしか居場所がないということ（前編） - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2016/11/57893/)
 - [CCLの議論延長戦@twitterのまとめ - 半可思惟](http://d.hatena.ne.jp/inflorescencia/20070923/1190527778) : 懐かしい...
 
 ## ブックマーク
@@ -30,11 +29,25 @@
 - [3Dプリンター、宇宙へ。初めてつくられたプロダクトは｜WIRED.jp](http://wired.jp/2014/11/28/3d-printing-in-space/)
 - [227恒星の公式名称、IAUが決定　「ベガ」など公式名称に | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2016_11_29_stars.html)
 - [暦象新書 | 国立天文台(NAOJ)](http://www.nao.ac.jp/gallery/weekly/2016/20161129-rekisyo.html)
+- [6,500万年前に恐竜を滅ぼした小惑星衝突の「タイムライン」が明らかに：調査結果｜WIRED.jp](http://wired.jp/2016/11/29/chicxulub-crater/)
 
-## ボイコット・トランプ
+### ボイコット・トランプ
 
 - [「ボイコット・トランプ」は、消費者がドナルド帝国を避けるためのアプリ | TechCrunch Japan](http://jp.techcrunch.com/2016/11/29/20161128boycott-trump-app-enables-consumer-savvy-avoidance-of-the-donalds-empire/)
 - [トランプ大統領誕生前に、Internet Archiveがカナダにバックアップ構築へ - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1611/30/news099.html)
+
+### 技術関連
+
+- [MITライセンスを1行1行読んでいく | プログラミング | POSTD](http://postd.cc/mit-license-line-by-line/)
+- [GitHubに待望のカンバン機能「Project」ができたので、即座に使ってみた話 - Qiita](http://qiita.com/kashira2339/items/c12ff5294ef5ea290bfd)
+- [AWS re:Invent 2016現地レポート - 通信すら飲み込むAmazon、ルーター用半導体も自社開発と公表：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/16/112500274/113000003/?rt=nocnt)
+- [AWS で FPGA 利用可能インスタンスが登場 - Qiita](http://qiita.com/shirono_kei/items/4c6cf757e8ad1b85394d)
+
+#### TensorFlow for Windows
+
+- [Google Developers Blog: TensorFlow 0.12 adds support for Windows](https://developers.googleblog.com/2016/11/tensorflow-0-12-adds-support-for-windows.html)
+- [Google、オープンソースの機械学習ライブラリ「TensorFlow」のWindows版を公開 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1032486.html)
+- [TensorFlowが正式にWindowsサポートしてGPUが使えたので試してみた - Qiita](http://qiita.com/tilfin/items/24e9491eb8a4ce42eea6)
 
 ### その他四方山話
 
@@ -44,14 +57,15 @@
 - [一般の熱エンジンの効率とスピードに関する原理的限界の発見：慶應義塾](https://www.keio.ac.jp/ja/press-releases/2016/10/31/28-18691/)
     - [物理学業界が大興奮した「熱機関の限界」発見 古典的なはずの熱力学に新たな法則が登場 | JBpress(日本ビジネスプレス)](http://jbpress.ismedia.jp/articles/-/48431)
 - [消えたSEの残したものは｜塚本 牧生｜note](https://note.mu/tsukamoto/n/n80d136d1fa8d)
-- [MITライセンスを1行1行読んでいく | プログラミング | POSTD](http://postd.cc/mit-license-line-by-line/)
 - [ネットに蔓延する虚偽ニュースにだまされない方法 - CNET Japan](http://japan.cnet.com/news/commentary/35092751/)
 - [「秀丸エディタ」v8.66が公開、入力ミスを指摘する“もしかして”機能を追加 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1032035.html)
 - [Facebookの「ソーラードローン」にテスト飛行中の事故が発覚｜WIRED.jp](http://wired.jp/2016/11/28/facebooks-drone-was/)
-- [GitHubに待望のカンバン機能「Project」ができたので、即座に使ってみた話 - Qiita](http://qiita.com/kashira2339/items/c12ff5294ef5ea290bfd)
-- [Google、オープンソースの機械学習ライブラリ「TensorFlow」のWindows版を公開 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1032486.html)
 - [DeNAの「WELQ」、全記事非公開に--医師や専門家の監修を受けてからの掲載へ - CNET Japan](http://japan.cnet.com/news/service/35092919/)
 
+
+## 個人 Slack のススメ
+
+- [個人 Slack のススメ - Qiita](http://qiita.com/saitotak/items/ac0eb7ddc0d8d83cbe91)
 
 ## ATOM で UML (PlantUML)
 
