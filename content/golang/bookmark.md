@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-12-02T09:19:26+09:00"
+update = "2016-12-02T20:38:03+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -28,7 +28,7 @@ title = "Go 言語に関するブックマーク"
 
 ## 公式サイト
 
-- [The Go Programming Language](https://golang.org/) : 2016年10月19日時点での最新は 1.7.3
+- [The Go Programming Language](https://golang.org/) : 2016年12月2日時点での最新は 1.7.4
     - [git repositories (Google)](https://go.googlesource.com/)
     - [git repositories (GitHub)](https://github.com/golang) : mirror
 - [golang-jp - The Go Programming Language](http://golang-jp.org/) : 本家の日本語訳サイト。（[golang.jp](http://golang.jp/) は内容が古いので参考にしない方がいい，らしい）
@@ -51,6 +51,7 @@ title = "Go 言語に関するブックマーク"
 
 - [Go 1.7 is released - The Go Blog](https://blog.golang.org/go1.7)
 - [Go 1.7 Release Notes - The Go Programming Language](https://golang.org/doc/go1.7)
+- [Security Release Go 1.7.4 and 1.6.4 — しっぽのさきっちょ | text.Baldanders.info](http://text.baldanders.info/remark/2016/12/security-release-golang-1_7_4-and-1_6_4/)
 
 ## 言語仕様に関すること
 
@@ -97,6 +98,7 @@ title = "Go 言語に関するブックマーク"
 - [Text normalization in Go - The Go Blog](https://blog.golang.org/normalization) : Unicode 正規化について
 - [Go言語で文字列の変換(全角・半角、ひらがな・カタカナ)をする : Serendip - Webデザイン・プログラミング](http://www.serendip.ws/archives/6307)
 - [Goで全角英数字を半角にする - Qiita](http://qiita.com/ktashiro/items/da5cbee3129acc74e5d7)
+- [uint64型を[]bytes型に変換する - Qiita](http://qiita.com/joniyjoniy/items/cbfb7d5c49aec5bf63c0)
 
 [本家ブログ]でも以下の記事で解説している。
 
@@ -494,6 +496,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [GAE/Go (echoフレームワーク)で Line Message API 使って Bot を作る。 - Qiita](http://qiita.com/naoki_koreeda/items/8c818a3e9f6138ddbb87)
 - [Go製のフレームワークechoを使ってJSONを返すWebサーバーを作り、GoogleAppEngineで動かす - Qiita](http://qiita.com/qube81/items/701279c43b33ce923613)
 - [go+ginでローカルで作ったWebアプリをGoogleAppEngineに載せる時に注意することまとめ - Qiita](http://qiita.com/CST_negi/items/bcb4730c6efeb838c4a7)
+- [社内のバックエンド開発にgRPCを導入してみた - Qiita](http://qiita.com/nozaq/items/9cd9bf7ee6118779bda9)
 
 ### 組み込み開発
 

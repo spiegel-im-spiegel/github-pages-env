@@ -65,6 +65,7 @@ Facebook の TL で見かけたので早速見てみたのだが...
     - [How should we attribute 3D printed objects? - Creative Commons](https://creativecommons.org/2016/04/19/attribute-3d-printed-objects/) （[日本語訳](https://creativecommons.jp/2016/07/26/3d%E3%83%97%E3%83%AA%E3%83%B3%E3%83%88%E3%81%A7%E3%81%A7%E3%81%8D%E3%81%9F%E7%89%A9%E3%81%AB%E3%81%AF%E3%81%A9%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E8%A1%A8/ "3Dプリントでできた物にはどのようなライセンス表示をすべきか？ | クリエイティブ・コモンズ・ジャパン")）
 - [「もはや計画は不要になった」 MITメディアラボ・伊藤穰一氏が語る、"インターネット後の世界"と"新しい原理" - ログミー](http://logmi.jp/17817)
 - [オタク市場調査が発表…同人誌市場は757億円、「サバゲー」ブーム到来の兆し、「現在も過去も恋人無」は31.2%など(矢野経済研究所調べ) | Game*Spark - 国内・海外ゲーム情報サイト](http://www.gamespark.jp/article/2016/01/19/63159.html)
+- [CCLの議論延長戦@twitterのまとめ - 半可思惟](http://d.hatena.ne.jp/inflorescencia/20070923/1190527778) : 懐かしい...
 
 [Creative Commons]: https://creativecommons.org/ "Creative Commons"
 [CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"

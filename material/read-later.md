@@ -3,7 +3,6 @@
 - [[security] Go 1.7.4 and Go 1.6.4 are released - Google グループ](https://groups.google.com/forum/#!topic/golang-announce/2lP5z9i9ySY)
     - [Go Security Policy - The Go Programming Language](https://golang.org/security)
     - [[security] Go 1.6.4 and Go 1.7.4 pre-announcement - Google グループ](https://groups.google.com/forum/#!topic/golang-announce/YOqTqcJtiJI)
-- [CCLの議論延長戦@twitterのまとめ - 半可思惟](http://d.hatena.ne.jp/inflorescencia/20070923/1190527778) : 懐かしい...
 
 ## ブックマーク
 
