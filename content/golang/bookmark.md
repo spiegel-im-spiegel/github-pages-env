@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-12-02T20:38:03+09:00"
+update = "2016-12-05T10:41:29+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -260,6 +260,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [cgoを使ったCとGoのリンクの裏側 (1) - Qiita](http://qiita.com/yugui/items/e71d3d0b3d654a110188)
     - [cgoを使ったCとGoのリンクの裏側 (1) - Qiita](http://qiita.com/yugui/items/e71d3d0b3d654a110188#_reference-b69de9de7311c6e17e7f)
 - [Golang で Static Library を作る際、stringをparameterで受け取るならコピーしよう。 - Qiita](http://qiita.com/flowtumn/items/2df066ca776023bcc687)
+- [マルチプラットフォーム対応したライブラリ Golang - Qiita](http://qiita.com/nothingcosmos/items/b5dc76aa953222bbdb5c)
 
 ### Logging
 
@@ -418,6 +419,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go+GAE+Cloud Datastoreで簡単なREST APIを構築 - Qiita](http://qiita.com/silverfox/items/81769425e51f24e676d2])
 - [独自のfmt.Formatterを実装する - Qiita](http://qiita.com/deeeet/items/1e2164f89ccfc29d7b11)
 - [Go 言語で wc を実装してみた - takatoshiono's blog](http://takatoshiono.hatenablog.com/entry/2016/09/22/024605)
+- [【コンピュータ将棋】ゴルーチンでお手軽持ち時間管理＆並行探索 - Qiita](http://qiita.com/32hiko/items/3be36dad2d651399ba1b)
 
 ### コマンドライン・ツール
 
@@ -497,6 +499,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go製のフレームワークechoを使ってJSONを返すWebサーバーを作り、GoogleAppEngineで動かす - Qiita](http://qiita.com/qube81/items/701279c43b33ce923613)
 - [go+ginでローカルで作ったWebアプリをGoogleAppEngineに載せる時に注意することまとめ - Qiita](http://qiita.com/CST_negi/items/bcb4730c6efeb838c4a7)
 - [社内のバックエンド開発にgRPCを導入してみた - Qiita](http://qiita.com/nozaq/items/9cd9bf7ee6118779bda9)
+- [Echoはver.3で結局のところ何が変わったのか？ - Qiita](http://qiita.com/tienlen/items/85b06c0856c33e716c75)
 
 ### 組み込み開発
 

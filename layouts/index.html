@@ -21,7 +21,7 @@
 <section>
 <h3>Popular <a href="/tags/">Tags</a></h3>
 <ul class="cloud" style="font-size:smaller;">
-	{{ range $key, $value := .Site.Taxonomies.tags.Alphabetical }}{{ if ge $value.Count 8 }}<li>#<a href="/tags/{{ $value.Name | urlize }}">{{ $value.Name }}</a> ({{ $value.Count }})</li>{{ end }}{{ end }}
+	{{ range $key, $value := .Site.Taxonomies.tags.Alphabetical }}{{ if ge $value.Count 10 }}<li>#<a href="/tags/{{ $value.Name | urlize }}">{{ $value.Name }}</a> ({{ $value.Count }})</li>{{ end }}{{ end }}
 </ul>
 </section> <!-- Tags -->
 

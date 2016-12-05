@@ -1,6 +1,6 @@
 +++
 date = "2015-09-05T20:32:00+09:00"
-update = "2015-11-04T19:31:13+09:00"
+update = "2016-12-05T16:40:53+09:00"
 description = "text.Baldanders.info の運用方針について説明します。"
 tags = ["site", "policy", "privacy", "copyright", "link"]
 title = "text.Baldanders.info について"
@@ -17,7 +17,9 @@ title = "text.Baldanders.info について"
 クリエイティブ・コモンズ・ライセンスについては拙文「[クリエイティブ・コモンズ・ライセンスについて](http://www.baldanders.info/spiegel/archive/cc-license/)」を参照してください。
 
 [本サイト]の各ページへのリンクは自由です。
-リンクについての考え方は東北大学の後藤斉さんによる「[ウェブページのリンクおよびその他の利用について](http://www.sal.tohoku.ac.jp/~gothit/webpolicy.html)」が参考になります。
+リンクについての考え方は東北大学の後藤斉さんによる「[ウェブページのリンクおよびその他の利用について](http://www.sal.tohoku.ac.jp/~gothit/webpolicy.html)」が参考になります[^eu]。
+
+[^eu]: 2016年，欧州司法裁判所において営利目的のサイトからのリンクで著作権侵害コンテンツと知っている場合については公衆送信となりうる（つまり著作（権）者に無断でリンクを張れない）という判断が示されました。（参考： [欧州司法裁、侵害コンテンツへのリンクを著作権侵害と判断 – P2Pとかその辺のお話R](http://p2ptk.org/copyright/553)，[「無許諾コンテンツにはリンクを貼るだけで著作権侵害」--EU判決とリンクの自由 - CNET Japan](http://japan.cnet.com/news/business/35088980/)）
 
 なお以下の点については免責とさせていただきます。
 

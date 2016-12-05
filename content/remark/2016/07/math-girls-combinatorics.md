@@ -1,5 +1,6 @@
 +++
 date = "2016-07-23T20:00:02+09:00"
+update = "2016-12-05T17:10:50+09:00"
 description = "よし。こうしよう。算数や数学に興味のあるお子さんは『数学ガールの秘密ノート／場合の数』と『いかにして問題をとくか』で読書感想文（とついでに夏休みの自由研究）を書きなさい。これができたら今年の夏はずうっと Pokémon GO してて構わない。"
 draft = false
 tags = ["book", "math", "programming"]
@@ -61,6 +62,8 @@ Kindle で買い直して読み返そうかな。
 これができたら今年の夏はずうっと [Pokémon GO] してて構わない[^g]（笑）
 
 [^g]: 学校側の出す宿題なんてどうせ「塹壕掘り」なんだから，最初の1週間で終わらせられるでしょ。
+
+- [『数学ガール』とプログラミングの関係｜CodeIQ MAGAZINE](https://codeiq.jp/magazine/2015/12/34755/)
 
 [場合の数]: http://www.amazon.co.jp/exec/obidos/ASIN/B01EL08HVS/baldandersinf-22/ "Amazon.co.jp: 数学ガールの秘密ノート／場合の数 電子書籍: 結城 浩: Kindleストア"
 [数学ガールの秘密ノート／場合の数]: http://www.amazon.co.jp/exec/obidos/ASIN/B01EL08HVS/baldandersinf-22/ "Amazon.co.jp: 数学ガールの秘密ノート／場合の数 電子書籍: 結城 浩: Kindleストア"

@@ -1,6 +1,8 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-なし
+- [Go!プリンセスプリキュアのGo言語実装「GoPrecure」 - Qiita](http://qiita.com/sue445/items/5d19b0bc3293371a85e2)
+- [20年間「00000000」のままだった核ミサイル発射コード｜WIRED.jp](http://wired.jp/2013/12/04/launch-code-for-us-nukes-was-00000000-for-20-years/)
+- [嘘のニュースは確証バイアスを肥やしに成長する - CNET Japan](http://japan.cnet.com/news/commentary/35093128/)
 
 ## ブックマーク
 
@@ -14,6 +16,7 @@
 
 - [AtomとPlantUMLで爆速UMLモデリング - Qiita](http://qiita.com/nakahashi/items/3d88655f055ca6a2617c)
 - [Atom+PlantUMLで見た目もいい感じのシーケンス図を作成する - Qiita](http://qiita.com/k_nakayama/items/77ca73753ebd049a66de)
+- [PlantUMLの成果をPDFにする - Qiita](http://qiita.com/craftone/items/e9e4c7d8a9eeced67334)
 
 ## 絵文字が開いてしまった「パンドラの箱」
 

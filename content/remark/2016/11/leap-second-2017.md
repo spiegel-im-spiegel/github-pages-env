@@ -1,6 +1,6 @@
 +++
 date = "2016-11-29T22:06:59+09:00"
-update = "2016-12-03T16:01:23+09:00"
+update = "2016-12-05T16:20:44+09:00"
 title = "2017年直前の閏秒について"
 description = "年も押し迫ってきたし関連情報も出てき始めているので，あらためて記事を再構成し関連リンクを順次追加していくことにする。"
 tags = [
@@ -138,10 +138,13 @@ UT が観測値である以上「いつ閏秒が発生するか」は長期的�
 
 ### 技術情報
 
+- [Google Cloud Platform Blog: Making every (leap) second count with our new public NTP servers](https://cloudplatform.googleblog.com/2016/11/making-every-leap-second-count-with-our-new-public-NTP-servers.html)
+    - [Google、うるう秒の1秒分を前後20時間のクロック変更で吸収 -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/1033101.html)
 - [来年の元旦に「うるう秒」挿入、システム障害などのトラブル回避に向けて引き続き警戒を -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/1027910.html)
 - [製品使用上の重要なお知らせ](http://www.hitachi-support.com/alert/ss/HWS16-002/index.htm)
 - [VMware製品へのうるう秒調整の影響 - Qiita](http://qiita.com/tsukamoto/items/5bbecd29ac40ac16e039) : 最新版に更新されている
     - [NTP のスルー モードの有効化 (2126101) | VMware KB](https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2126101)
+- [「ステラナビゲータ10」10.0gアップデータ公開、うるう秒対応や不具合修正など - AstroArts](https://www.astroarts.co.jp/article/hl/a/8687)
 - [サマータイム、うるう秒とタイムスタンプの関係｜タイムスタンプ入門｜セイコーサイバータイム](https://www.seiko-cybertime.jp/time/column3.html)
 - [RFC 5905 - Network Time Protocol Version 4: Protocol and Algorithms Specification](https://tools.ietf.org/html/rfc5905)
 - [RFC 3161 - Internet X.509 Public Key Infrastructure Time Stamp Protocol (TSP)](https://tools.ietf.org/html/rfc3161) （[日本語訳](https://www.ipa.go.jp/security/rfc/RFC3161JA.html)）
