@@ -7,7 +7,7 @@ tags = [
 ]
 draft = false
 date = "2016-12-02T20:58:38+09:00"
-update = "2016-12-05T10:41:50+09:00"
+update = "2016-12-06T12:40:01+09:00"
 
 [author]
   instagram = "spiegel_2007"
@@ -100,6 +100,7 @@ Wikipedia の記事や GitHub のリポジトリや Amazon のクラウドにあ
 ## ブックマーク
 
 - [メディアは（常に）スパムか？ « マガジン航[kɔː]](http://magazine-k.jp/2016/01/25/spam-and-media/)
+- [Facebook、マイクロソフト、Twitter、YouTubeが「テロリスト・コンテンツ」排除で協力 | TechCrunch Japan](http://jp.techcrunch.com/2016/12/06/20161205facebook-microsoft-twitter-and-youtube-collaborate-to-remove-terrorist-content-from-their-services/)
 
 ## 参考図書
 

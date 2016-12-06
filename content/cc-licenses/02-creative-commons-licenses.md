@@ -1,7 +1,7 @@
 +++
 date = "2015-11-08T20:10:15+09:00"
 update = "2016-11-22T09:25:52+09:00"
-sdescription = "今回はいよいよ Creative Commons Licenses について解説する。"
+description = "今回はいよいよ Creative Commons Licenses について解説する。"
 draft = false
 tags = ["creative-commons", "copyright", "license"]
 title = "Creative Commons Licenses"

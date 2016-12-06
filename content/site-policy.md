@@ -1,6 +1,6 @@
 +++
 date = "2015-09-05T20:32:00+09:00"
-update = "2016-12-05T16:40:53+09:00"
+update = "2016-12-06T17:19:18+09:00"
 description = "text.Baldanders.info の運用方針について説明します。"
 tags = ["site", "policy", "privacy", "copyright", "link"]
 title = "text.Baldanders.info について"
@@ -14,7 +14,7 @@ title = "text.Baldanders.info について"
 サイト中のコンテンツ（画像や文章など）のうちクレジットが示されているものについては，それぞれの著作（権）者に著作権が帰属します（リンクが張られている場合はリンク元の著作（権）者に著作権が帰属すると考えてください）。
 
 [Creative Commons Licenses](https://creativecommons.org/licenses/) が設定されているコンテンツは指定された条件の範囲内で自由に複製・配布・改変等を行うことが可能です。
-クリエイティブ・コモンズ・ライセンスについては拙文「[クリエイティブ・コモンズ・ライセンスについて](http://www.baldanders.info/spiegel/archive/cc-license/)」を参照してください。
+クリエイティブ・コモンズ・ライセンスについては拙文「[CC Licenses について](/cc-licenses/)」を参照してください。
 
 [本サイト]の各ページへのリンクは自由です。
 リンクについての考え方は東北大学の後藤斉さんによる「[ウェブページのリンクおよびその他の利用について](http://www.sal.tohoku.ac.jp/~gothit/webpolicy.html)」が参考になります[^eu]。

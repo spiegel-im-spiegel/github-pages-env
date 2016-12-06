@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-12-05T10:41:29+09:00"
+update = "2016-12-06T14:35:49+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -80,6 +80,8 @@ title = "Go 言語に関するブックマーク"
 - [Goの並行パターン：コンテキスト (Go Concurrency Pattern: Context)](https://ymotongpoo.github.io/goblog-ja/post/context/) : [1.7 からは Context パッケージが標準ライブラリに組み込まれる](https://tip.golang.org/doc/go1.7#context)らしい
 - [Go の定数の話 - Qiita](http://qiita.com/hkurokawa/items/a4d402d3182dff387674)
 - [Goにatexitやグローバルなデストラクタがない理由 - Qiita](http://qiita.com/ruiu/items/22910a4bae6cb716a391)
+- [init関数のふしぎ #golang - Qiita](http://qiita.com/tenntenn/items/7c70e3451ac783999b4f)
+    - [packageに複数のinitがあるときの挙動 - Qiita](http://qiita.com/astronoka/items/aa2f271d280863cedf5e)
 
 ### 文字列操作または変換
 
@@ -210,6 +212,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Big Sky :: Re: golangでIOへのテストを行う](http://mattn.kaoriya.net/software/lang/go/20160328114637.htm)
 - [Golang におけるサブテストの並行処理実装について | eureka tech blog](https://developers.eure.jp/tech/go1_7-subtests/)
 - [GAE/Goのテストを実行するために必要なこと - Qiita](http://qiita.com/ttyokoyama/items/5b99299ec112b580f03b)
+- [Golangでテストしやすいコードをかく - Qiita](http://qiita.com/chisso/items/1dcc52f404b88d274f29)
 
 [本家ブログ]記事「[Go 言語のテスト・フレームワーク](http://text.baldanders.info/golang/)」でも解説している。
 
@@ -420,6 +423,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [独自のfmt.Formatterを実装する - Qiita](http://qiita.com/deeeet/items/1e2164f89ccfc29d7b11)
 - [Go 言語で wc を実装してみた - takatoshiono's blog](http://takatoshiono.hatenablog.com/entry/2016/09/22/024605)
 - [【コンピュータ将棋】ゴルーチンでお手軽持ち時間管理＆並行探索 - Qiita](http://qiita.com/32hiko/items/3be36dad2d651399ba1b)
+- [Go言語でエクセルファイル (.xlsx) を読み込む - Qiita](http://qiita.com/kaorumori/items/fa37130065d0450d6342) : [`github.com/tealeg/xlsx`](https://github.com/tealeg/xlsx) パッケージを使用
 
 ### コマンドライン・ツール
 

@@ -4,6 +4,12 @@
 - [20年間「00000000」のままだった核ミサイル発射コード｜WIRED.jp](http://wired.jp/2013/12/04/launch-code-for-us-nukes-was-00000000-for-20-years/)
 - [嘘のニュースは確証バイアスを肥やしに成長する - CNET Japan](http://japan.cnet.com/news/commentary/35093128/)
 - [数学ガールにおけるネットリテラシーとコミュニケーション - 結城浩の連ツイ](http://rentwi.textfile.org/?805698498469343232s)
+- [Facebook、マイクロソフト、Twitter、YouTubeが「テロリスト・コンテンツ」排除で協力 | TechCrunch Japan](http://jp.techcrunch.com/2016/12/06/20161205facebook-microsoft-twitter-and-youtube-collaborate-to-remove-terrorist-content-from-their-services/)
+- [イスラエルはシリア・ダマスカス近郊の空爆でロシア供与の防空システムを試す：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41791)
+- [​Mozilla puts new money to use fighting for 'internet health' - CNET](https://www.cnet.com/news/mozilla-money-internet-health-politics-net-neutrality-privacy-encryption/)
+    - [ネット検閲に積極的なトランプ政権の誕生に対し、Mozillaはネットの中立性を守る活動に注力へ | スラド IT](https://it.srad.jp/story/16/12/05/0654200/)
+- [Kindle Paperwhite 32GB マンガモデル- マンガ好きにぴったり](https://www.amazon.co.jp/Amazon-DP75SDI-Paperwhite-32GB%E3%80%81%E3%83%9E%E3%83%B3%E3%82%AC%E3%83%A2%E3%83%87%E3%83%AB%E3%80%81Wi-Fi-%E3%80%81%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%80%81%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E6%83%85%E5%A0%B1%E3%81%A4%E3%81%8D%E3%83%A2%E3%83%87%E3%83%AB/dp/B01FIG3SMC/ref=gbph_ulm_m-5_49fa_4f952839?smid=AN1VRQENFRJN5&pf_rd_p=2d455ad6-955c-4ec7-bf7f-5c59af7649fa&pf_rd_s=merchandised-search-5&pf_rd_t=101&pf_rd_i=3959621051&pf_rd_m=AN1VRQENFRJN5&pf_rd_r=R14VMZH3J83Z1S6YP31T)
+- [@hitokoto_lab](https://hitokoto-lab.github.io/)
 
 ## ブックマーク
 
