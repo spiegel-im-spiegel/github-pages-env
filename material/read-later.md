@@ -10,10 +10,19 @@
     - [ネット検閲に積極的なトランプ政権の誕生に対し、Mozillaはネットの中立性を守る活動に注力へ | スラド IT](https://it.srad.jp/story/16/12/05/0654200/)
 - [Kindle Paperwhite 32GB マンガモデル- マンガ好きにぴったり](https://www.amazon.co.jp/Amazon-DP75SDI-Paperwhite-32GB%E3%80%81%E3%83%9E%E3%83%B3%E3%82%AC%E3%83%A2%E3%83%87%E3%83%AB%E3%80%81Wi-Fi-%E3%80%81%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%80%81%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E6%83%85%E5%A0%B1%E3%81%A4%E3%81%8D%E3%83%A2%E3%83%87%E3%83%AB/dp/B01FIG3SMC/ref=gbph_ulm_m-5_49fa_4f952839?smid=AN1VRQENFRJN5&pf_rd_p=2d455ad6-955c-4ec7-bf7f-5c59af7649fa&pf_rd_s=merchandised-search-5&pf_rd_t=101&pf_rd_i=3959621051&pf_rd_m=AN1VRQENFRJN5&pf_rd_r=R14VMZH3J83Z1S6YP31T)
 - [@hitokoto_lab](https://hitokoto-lab.github.io/)
+- [カッシーニの花道飾る、土星の奇妙な「巨大渦」｜WIRED.jp](http://wired.jp/2016/12/09/cassini-spies-an-odd-hexagon/)
+- [The Internet Governance Forum Wakes Up to Trade | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2016/12/internet-governance-forum-wakes-trade)
+- [顔認識がアジア系男性を「目が開いてない」と拒絶 ニュージーランド | 秋元@サイボウズラボ・プログラマー・ブログ](http://developer.cybozu.co.jp/akky/2016/12/passport-photo-rejects-asian-closed-eyes/)
+- [完全に隅から隅までオープンソースのラップトップコンピューターLibrebootは、ブートローダーもBIOSもオープンソース | TechCrunch Japan](http://jp.techcrunch.com/2016/12/09/20161208the-libreboot-c201-from-minifree-is-really-really-really-ridiculously-open-source/)
+- [radikoの録音ツールをGoで書いた - Qiita](http://qiita.com/yyoshiki41/items/f81442d7dc2d0ddcf15b)
 
 ## ブックマーク
 
 なし
+
+## よかった探しリース
+
+- [よかった探しリース](http://www.hyuki.com/ring/) : 今年はやらないらしい
 
 ## 個人 Slack のススメ
 

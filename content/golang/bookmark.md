@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-12-06T14:35:49+09:00"
+update = "2016-12-12T17:59:10+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -424,6 +424,9 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go 言語で wc を実装してみた - takatoshiono's blog](http://takatoshiono.hatenablog.com/entry/2016/09/22/024605)
 - [【コンピュータ将棋】ゴルーチンでお手軽持ち時間管理＆並行探索 - Qiita](http://qiita.com/32hiko/items/3be36dad2d651399ba1b)
 - [Go言語でエクセルファイル (.xlsx) を読み込む - Qiita](http://qiita.com/kaorumori/items/fa37130065d0450d6342) : [`github.com/tealeg/xlsx`](https://github.com/tealeg/xlsx) パッケージを使用
+- [radikoの録音ツールをGoで書いた - Qiita](http://qiita.com/yyoshiki41/items/f81442d7dc2d0ddcf15b)
+- [簡単な式の評価機を作ってみる #golang - Qiita](http://qiita.com/tenntenn/items/a312d2c5381e36cf4cd3)
+- [Goのコード生成のためのテンプレートエンジン seyfert を書いてみた - Qiita](http://qiita.com/mackee_w/items/71d7685852bb5bdda465)
 
 ### コマンドライン・ツール
 
@@ -504,6 +507,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [go+ginでローカルで作ったWebアプリをGoogleAppEngineに載せる時に注意することまとめ - Qiita](http://qiita.com/CST_negi/items/bcb4730c6efeb838c4a7)
 - [社内のバックエンド開発にgRPCを導入してみた - Qiita](http://qiita.com/nozaq/items/9cd9bf7ee6118779bda9)
 - [Echoはver.3で結局のところ何が変わったのか？ - Qiita](http://qiita.com/tienlen/items/85b06c0856c33e716c75)
+- [Go言語のWEBフレームワークRevelを使用してセキュアなAPIを作成 - Qiita](http://qiita.com/GushiSnow/items/97c1f64c003b27c6b98a)
 
 ### 組み込み開発
 
