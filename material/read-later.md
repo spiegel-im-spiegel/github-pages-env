@@ -15,6 +15,15 @@
 - [顔認識がアジア系男性を「目が開いてない」と拒絶 ニュージーランド | 秋元@サイボウズラボ・プログラマー・ブログ](http://developer.cybozu.co.jp/akky/2016/12/passport-photo-rejects-asian-closed-eyes/)
 - [完全に隅から隅までオープンソースのラップトップコンピューターLibrebootは、ブートローダーもBIOSもオープンソース | TechCrunch Japan](http://jp.techcrunch.com/2016/12/09/20161208the-libreboot-c201-from-minifree-is-really-really-really-ridiculously-open-source/)
 - [radikoの録音ツールをGoで書いた - Qiita](http://qiita.com/yyoshiki41/items/f81442d7dc2d0ddcf15b)
+- [yomoyomoの読書記録 - ブレイディみかこ『THIS IS JAPAN――英国保育士が見た日本』（太田出版）](http://www.yamdas.org/booklog/thisisjapan.html)
+- [yomoyomoの読書記録 - 柏木亮二『フィンテック』（日経文庫）](http://www.yamdas.org/booklog/fintech.html)
+- [『ブルマーの謎　＜女子の身体＞と戦後日本』ブルマー教授が出来るまで - HONZ](http://honz.jp/articles/-/43616)
+- [人工知能に潜む5つのバイアス | TechCrunch Japan](http://jp.techcrunch.com/2016/12/12/201612105-unexpected-sources-of-bias-in-artificial-intelligence/)
+- [精度85％以上…人工知能が顔相から「犯罪予備軍」見分ける | ROBOTEER](https://roboteer-tokyo.com/archives/7053)
+- [さくらインターネットとピクシブが業務提携し、画像の変換・配信サービス「ImageFlux」を提供～ファーストユーザーとして、メルカリが利用開始～](https://www.sakura.ad.jp/press/2016/1213_imageflux/)
+- [SpaceX、ドラゴンによる初の有人飛行は2018年を予定 | TechCrunch Japan](http://jp.techcrunch.com/2016/12/13/20161212spacex-pushes-first-crewed-launch-of-dragon-capsule-to-2018/)
+- [世界の研究機関情報のデータベースGRID、クリエイティブ・コモンズのCC0ライセンスの下で利用可能に | カレントアウェアネス・ポータル](http://current.ndl.go.jp/node/33057)
+- [Googleは自動運転車の自社開発をやめたらしい、今後は自動車メーカーとのパートナーシップを重視 | TechCrunch Japan](http://jp.techcrunch.com/2016/12/13/20161212google-has-reportedly-stopped-developing-its-own-self-driving-car/)
 
 ## ブックマーク
 
