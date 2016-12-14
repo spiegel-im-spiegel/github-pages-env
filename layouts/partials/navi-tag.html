@@ -1,4 +1,4 @@
 <nav class="tags">
-{{ with sort .Params.tags }}<div><a href="/tags">Tags</a>:{{ range . }} #<a href="/tags/{{ . | urlize }}">{{ . }}</a>{{ end }}</div>{{ end }}
+{{ with sort .Params.tags }}<div><a href="/tags">Tags</a>:{{ range . }} #<a href="/tags/{{ lower . | urlize }}">{{ . }}</a>{{ end }}</div>{{ end }}
 <div><a href="https://github.com/spiegel-im-spiegel/spiegel-im-spiegel.github.io/commits/master{{ .RelPermalink }}index.html">History</a></div>
 </nav>
