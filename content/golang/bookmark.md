@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-12-13T18:46:29+09:00"
+update = "2016-12-14T09:59:53+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -585,6 +585,11 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 
 - [go1.7 の気になるところを試した - Qiita](http://qiita.com/tutuming/items/16df6fc7bf82fb5d7eb0)
 - [Sierraでgo1.7.3のコンパイル - Qiita](http://qiita.com/lufia/items/8a71a29fa6e1089735f2)
+
+### Go 1.8 に関する話題
+
+- [Go 1.8 Release Notes - The Go Programming Language](https://beta.golang.org/doc/go1.8) : 今のところはベータ版
+- [Go 1.8のpluginパッケージを試してみる - Qiita](http://qiita.com/qt-luigi/items/47a7913145fc747da0c7)
 
 ### はじめての Go 言語 (on Windows)
 

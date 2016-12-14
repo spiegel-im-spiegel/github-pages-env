@@ -1,5 +1,6 @@
 +++
 date = "2015-10-04T20:21:54+09:00"
+update      = "2016-12-14T10:20:58+09:00"
 description = "以前の回で紹介してなかったのだが， Categories や Tags の一覧ページを作る機能があるので紹介する。"
 draft = false
 tags = [ "hugo", "categories", "tags" ]
@@ -171,6 +172,7 @@ ul.cloud > li {
 
 - [Taxonomy Terms Template](https://gohugo.io/templates/terms/)
 - [Hugoサイト構築 | Watanabe-DENKI Inc. 渡辺電気株式会社](http://wdkk.co.jp/lab/hugo/) : お勧め！
+- [Hugoでタグやカテゴリのリンク切れが起こる - Qiita](http://qiita.com/_shun_sato_/items/87888fa8425e55b1c758)
 
 [Hugo に関するブックマークはこちら]({{< ref "hugo/bookmark.md" >}})。
 

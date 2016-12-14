@@ -1,6 +1,6 @@
 +++
 date = "2016-01-26T20:29:34+09:00"
-update = "2016-01-30T19:36:45+09:00"
+update = "2016-12-14T13:33:58+09:00"
 description = "CC Licenses では「改変禁止」条件がなければ「翻案物を作成、複製および共有すること」を許諾する。また翻案物を受け取ったユーザは原著作者の許諾を（提示されている CC Licenses の条件に従って）自動的に得る。"
 draft = false
 tags = ["derivative-works", "creative-commons", "copyright", "license", "tpp"]
@@ -28,6 +28,7 @@ title = "二次的著作物と CC Licenses"
 1. [Copyleft のすすめ]({{< relref "#cl" >}})
 1. [パロディについて]({{< relref "#parody" >}})
 1. [二次創作のみを許可したい]({{< relref "#niji" >}})
+1. [「改変禁止」が意図するもの]({{< relref "#nd" >}})
 
 ## 「二次的著作物」とは{#about}
 
@@ -180,6 +181,34 @@ title = "二次的著作物と CC Licenses"
 
 などとしているが，翻案は「二次創作文化」だけではなく日常生活の広い範囲に関わる「活動」である。
 「[著作権と著作権法]({{< relref "cc-licenses/01-copyright.md" >}})」でも書いたが，ユーザを無視した知財政策を続けていると本当に「ガラパゴス」になっちゃうよ。
+
+## 「改変禁止」が意図するもの{#nd}
+
+[Creative Commons] は名前の通り「創造性の共有地[^cc]」を創り広げることを目的（のひとつ）としている。
+ならば [CC Licenses] に「改変禁止 <i class="cc cc-nd"></i>」条件を加えることは [Creative Commons] の目的に反するのではないだろうか。
+
+[^cc]: 翻訳は「[XML的思索：創造性の共有　機械可読ライセンスによるクリエイティブな作品の育成と流通](http://www.ibm.com/developerworks/jp/xml/library/x-think18/)」のタイトルから拝借した。リンク切れててゴメン（[Internet Archive](https://web.archive.org/web/20091202161418/http://www.ibm.com/developerworks/jp/xml/library/x-think18/)）。
+
+これに関しては以下の記事が参考になる。
+
+- [by-nc-nd - 雑記帳](http://d.hatena.ne.jp/ced/20060720/1153344179)
+
+この記事によると [CC Licenses] の機能は以下のふたつに分類できる。
+
+1. making derives (creation：創造)
+2. dissemination (access：アクセス)
+
+この分類で考えるなら「改変禁止 <i class="cc cc-nd"></i>」条件は主に dissemination (access) にフォーカスしたものであると解釈することができる。
+
+{{< fig-quote title="by-nc-nd - 雑記帳" link="http://d.hatena.ne.jp/ced/20060720/1153344179" >}}
+<q>ここからが思考のアクロバットを必要とする部分。インターネットは「技術的」にはコピーが自由。けれども、インターネットとは別の次元でこれまで発展してきた著作権法は、このような「コピー自由」な環境が存在することを想定していなかった。で、現時点でも「コピー自由」な環境に著作権法は対応していない。だから、「技術的」にはインターネット上で簡単にコピー出来てしまう素材も、現実世界の著作権法の元ではその利用は違反となってしまう。それを解決するのがCCのby-nc-ndで、手を加えないならコピー自由、という行為をライセンスというかたちで保証している。これにより、素材のインターネット上での頒布が可能となる。</q>
+{{< /fig-quote >}}
+
+確かに「改変禁止 <i class="cc cc-nd"></i>」条件を加えると [Creative Commons] が本来欲しい making derives (creation) としての機能は弱くなる。
+しかし「改変禁止 <i class="cc cc-nd"></i>」条件を加えることによって，少なくとも（“all rights reserved” な状態と比較すれば） dissemination (access) は担保できる。
+
+これも大事な「共有」の形である。
+逃す手はないだろう。
 
 ## 参考になる（かもしれない） Web ページ
 

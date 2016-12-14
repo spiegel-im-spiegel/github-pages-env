@@ -24,6 +24,8 @@
 - [SpaceX、ドラゴンによる初の有人飛行は2018年を予定 | TechCrunch Japan](http://jp.techcrunch.com/2016/12/13/20161212spacex-pushes-first-crewed-launch-of-dragon-capsule-to-2018/)
 - [世界の研究機関情報のデータベースGRID、クリエイティブ・コモンズのCC0ライセンスの下で利用可能に | カレントアウェアネス・ポータル](http://current.ndl.go.jp/node/33057)
 - [Googleは自動運転車の自社開発をやめたらしい、今後は自動車メーカーとのパートナーシップを重視 | TechCrunch Japan](http://jp.techcrunch.com/2016/12/13/20161212google-has-reportedly-stopped-developing-its-own-self-driving-car/)
+- [さくらのレンタルサーバ　PHP7.1　提供開始のお知らせ | さくらインターネット](https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1490)
+- [グーグルの自動運転プロジェクトが新会社Waymoに - CNET Japan](http://japan.cnet.com/news/business/35093668/)
 
 ## ブックマーク
 

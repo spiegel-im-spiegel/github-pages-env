@@ -2,7 +2,7 @@
 title       = "Categories, Tags そして Section"
 description = "前回の続き。今回は Categories, Tags そして Section について書いてみる。"
 date        = "2015-09-11T17:58:32+09:00"
-update      = "2016-01-26T13:28:16+09:00"
+update      = "2016-12-14T10:20:58+09:00"
 tags        = [ "hugo", "categories", "tags", "taxonomy", "section" ]
 draft = false
 
@@ -569,8 +569,8 @@ C:\HUGO-ENV\WWW
 <body>
 <h1>{{ .Title }} -- Hugo の練習</h1>
 <nav>
-	{{ with .Params.categories }}<div>Categories:{{ range . }} <a href="/categories/{{ . | urlize }}/">{{ . }}</a>{{ end }}</div>{{ end }}
-	{{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ . | urlize }}/">#{{ . }}</a>{{ end }}</div>{{ end }}
+	{{ with .Params.categories }}<div>Categories:{{ range . }} <a href="/categories/{{ lower . | urlize }}/">{{ . }}</a>{{ end }}</div>{{ end }}
+	{{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ lower . | urlize }}/">#{{ . }}</a>{{ end }}</div>{{ end }}
 </nav>
 
 <div>{{ .Content }}</div>
@@ -692,6 +692,7 @@ C:\HUGO-ENV\WWW
 ## ブックマーク{#bookmark}
 
 - [Hugoサイト構築 | Watanabe-DENKI Inc. 渡辺電気株式会社](http://wdkk.co.jp/lab/hugo/) : お勧め！
+- [Hugoでタグやカテゴリのリンク切れが起こる - Qiita](http://qiita.com/_shun_sato_/items/87888fa8425e55b1c758)
 
 [Hugo に関するブックマークはこちら]({{< ref "hugo/bookmark.md" >}})。
 

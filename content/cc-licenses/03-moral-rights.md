@@ -1,6 +1,6 @@
 +++
 date = "2016-01-20T21:31:46+09:00"
-update = "2016-05-17T22:20:10+09:00"
+update = "2016-12-14T17:01:41+09:00"
 description = "前回紹介した「Creative Commons Licenses」の内容を踏まえた上で今回は「著作者人格権」と CC Licenses との関係について解説する。"
 draft = false
 tags = ["moral-rights", "creative-commons", "copyright", "license"]
@@ -93,7 +93,7 @@ title = "人格権と CC Licenses"
 
 この点について，以前のバージョンでは比較的明確に書かれていて，たとえば 2.1 日本版では
 
-{{< fig-quote title="クリエイティブ・コモンズ リーガル・コード — 表示-継承 2.1 日本版" link="https://creativecommons.org/licenses/by-sa/4.0/legalcode.ja" >}}
+{{< fig-quote title="クリエイティブ・コモンズ リーガル・コード — 表示-継承 2.1 日本版" link="https://creativecommons.org/licenses/by-sa/2.1/jp/legalcode" >}}
 <q>原著作者及び実演家の名誉又は声望を害する方法で原著作物を改作、変形もしくは翻案して生じる著作物は、この利用許諾の目的においては、二次的著作物に含まれない。</q>
 {{< /fig-quote >}}
 
