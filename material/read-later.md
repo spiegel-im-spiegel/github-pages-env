@@ -26,6 +26,8 @@
 - [Googleは自動運転車の自社開発をやめたらしい、今後は自動車メーカーとのパートナーシップを重視 | TechCrunch Japan](http://jp.techcrunch.com/2016/12/13/20161212google-has-reportedly-stopped-developing-its-own-self-driving-car/)
 - [さくらのレンタルサーバ　PHP7.1　提供開始のお知らせ | さくらインターネット](https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1490)
 - [グーグルの自動運転プロジェクトが新会社Waymoに - CNET Japan](http://japan.cnet.com/news/business/35093668/)
+- [ドミニク・チェンが語る「千夜千冊とインターネットと発酵」〈前編〉｜千夜千冊 編集部｜note](https://note.mu/1000yalab/n/n1f63c339aeb8)
+
 
 ## ブックマーク
 

@@ -3,6 +3,7 @@ tags = ["drm", "creative-commons", "copyright", "license"]
 draft = false
 description = "CC Licenses v4 では利用者側の技術的保護手段回避を許諾するという形に大きく変わった。"
 date = "2016-12-15T21:17:29+09:00"
+update = "2016-12-16T09:23:23+09:00"
 title = "CC Licenses における「技術的保護手段」の扱い"
 
 [author]
@@ -41,7 +42,7 @@ title = "CC Licenses における「技術的保護手段」の扱い"
 通常は「変換」や「復元」には暗号技術が用いられる。
 ぶっちゃけて言うなら「技術的保護手段」とは「著作物等を暗号化する手段」と思っていただいて構わない。
 
-[^m1]: [著作権法]第2条では「著作物、実演、レコード、放送又は有線放送」としている。ちなみに [CC Licenses] では同様のものを「マテリアル（material）」と定義している（「[Creative Commons Licenses]({{ relref "cc-licenses/02-creative-commons-licenses.md" }})」参照）。
+[^m1]: [著作権法]第2条では「著作物、実演、レコード、放送又は有線放送」としている。ちなみに [CC Licenses] では同様のものを「マテリアル（material）」と定義している。これについては「[Creative Commons Licenses]({{< relref "cc-licenses/02-creative-commons-licenses.md" >}})」を参照のこと。
 
 具体的には，「著作物等」を変換（暗号化）するのは著作（権）者またはコンテンツ・ホルダー（contents holder）で，彼等が許可した（つまり正規ルートでコンテンツを購入した）ユーザのみが専用の再生装置を使って著作物等を復元（復号）し使用できる，という仕組みだ。
 
@@ -65,7 +66,9 @@ title = "CC Licenses における「技術的保護手段」の扱い"
 
 これに対して著作権システムを守りたい側はあまり賢明でない方法をとった。
 [著作権法]では「私的使用のための複製（第30条）」を「[著作権の制限]({{< relref "cc-licenses/01-copyright.md#fair-use" >}})」として認めているが，「技術的保護手段の回避」を除外することにより事実上禁止してしまったのだ。
-多くのユーザはこれを律儀に守って無理に技術的保護手段の回避を行うことはないだろうが，一部の悪質なユーザには抑止力がない。
+
+たしかに多くのユーザはこれを律儀に守って無理に技術的保護手段の回避を行うことはないだろうが，一部の悪質なユーザには（罰則を強めにしたところで）抑止効果はない。
+一方で技術的保護手段の仕様や実装に欠陥があったとしても，これを報告する動機は抑止される。
 結局「正直者が馬鹿を見る」ことになるのだ。
 
 ## CC Licenses による技術的保護手段回避の許諾{#grant}
@@ -85,11 +88,15 @@ title = "CC Licenses における「技術的保護手段」の扱い"
 
 さらに [CC Licenses] では技術的保護手段の回避を翻案と見なさないことで「改変禁止 <i class="cc cc-nd"></i>」条件でも技術的保護手段の回避を許諾している。
 
-また下流側（downstream）へ再配布を行う場合は技術的保護手段を適用してはならないともある。
+またこれとは別に，下流側（downstream）へ再配布を行う場合は技術的保護手段を適用してはならないともある。
 
 {{< fig-quote title="クリエイティブ・コモンズ (Creative Commons) — 表示-継承 4.0 国際" link="https://creativecommons.org/licenses/by-sa/4.0/legalcode.ja" >}}
 <q>あなたは、ライセンス対象物の受領者がライセンスされた権利を行使するのを制限されることになる場合には、ライセンス対象物に対して、いかなる追加条項または異なる条項も提案または課してはならず、あるいは、いかなる効果的な技術的保護手段も適用してはなりません。</q>
 {{< /fig-quote >}}
+
+[CC Licenses] 下のマテリアルを再配布する場合には注意が必要である[^sl]。
+
+[^sl]: [CC Licenses] ではライセンスの再許諾（sublicense）を許可していない。詳しくは「[Creative Commons Licenses]({{< relref "cc-licenses/02-creative-commons-licenses.md" >}})」を参照のこと。
 
 ### 「技術的保護手段回避の許諾」に至る経緯{#proc}
 
@@ -102,11 +109,15 @@ title = "CC Licenses における「技術的保護手段」の扱い"
 
 [CC Licenses] v3 作成時には「もっと強い文言にすべきではないか」という意見もあったが，結局は
 
+{{< fig-quote title="Creative Commons Legal Code — Attribution-ShareAlike 3.0 Unported" link="https://creativecommons.org/licenses/by-sa/3.0/legalcode" lang="en" >}}
+<q>When You Distribute or Publicly Perform the Work, You may not impose any effective technological measures on the Work that restrict the ability of a recipient of the Work from You to exercise the rights granted to that recipient under the terms of the License.</q>
+{{< /fig-quote >}}
+
 {{< fig-quote title="【CCPLv3.0】ＤＲＭ条項の改正に関する議論 | クリエイティブ・コモンズ・ジャパン" link="https://creativecommons.jp/2006/11/15/discussion-drm/" >}}
 <q>あなたがこの作品を頒布、譲渡、公衆送信その他の方法で公衆に提供するにあたっては、本作品の受領者がこのライセンスの中で与えられている権利の行使を制限されるような技術的手段を本作品に適用してはならない。</q>
 {{< /fig-quote >}}
 
-というレベルにとどまったようである。
+というレベルにとどまったようである（v4 の「ダウンストリーム（下流側）の受領者」の文言とほぼ同じ）。
 
 これが v4 では利用者側の技術的保護手段回避を許諾するという形で更に踏み込んでいる[^g1]。
 「技術的保護手段の回避」は著作（権）者によって許諾できる，というのがポイントだろう。
@@ -127,7 +138,7 @@ title = "CC Licenses における「技術的保護手段」の扱い"
 定額制で何時でも何度でも見れるなら「コピっておく」必要がない。
 
 欠点はコンテンツ・ホルダーやサービス・プロバイダの力が大きくなりすぎることで，両者が癒着するとかなり酷いことになる。
-実際，ストリーミング・サービスがクリエイターやアーティストに公平に分配されないなどの話もチラホラある。
+実際，ストリーミング・サービスでの売り上げがクリエイターやアーティストに公平に分配されないなどの話もチラホラある。
 
 もうひとつは DRM が「監視型」に移行したことである。
 「電子透かし」や「電子指紋」を使ってネット上に流通するコンテンツを比較的容易に監視できるようになった。
