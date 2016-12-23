@@ -27,7 +27,7 @@
 - [さくらのレンタルサーバ　PHP7.1　提供開始のお知らせ | さくらインターネット](https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1490)
 - [グーグルの自動運転プロジェクトが新会社Waymoに - CNET Japan](http://japan.cnet.com/news/business/35093668/)
 - [ドミニク・チェンが語る「千夜千冊とインターネットと発酵」〈前編〉｜千夜千冊 編集部｜note](https://note.mu/1000yalab/n/n1f63c339aeb8)
-
+- [RFCの正規文書がXMLに:Geekなぺーじ](http://www.geekpage.jp/blog/?id=2016-12-21-1)
 
 ## ブックマーク
 
