@@ -59,7 +59,7 @@ OpenPGP は PKI (public key infrastructure; 公開鍵基盤) の一種であり�
 3. 認証（Authentication）
 4. 否認防止（Non-repudiation）
 
-これに対して，たとえばメッセージング暗号化のひとつである [OTR](https://wiki.xmpp.org/web/OTR "OTR - XMPP WIKI") では以下を要件としている。
+これに対して，たとえば暗号化メッセージングのひとつである [OTR](https://wiki.xmpp.org/web/OTR "OTR - XMPP WIKI") では以下を要件としている。
 
 1. Encryption (暗号化)
 2. Authentication (認証)
