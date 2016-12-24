@@ -24,7 +24,7 @@ update = "2016-12-23T18:28:28+09:00"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
-（Facebook の TL に書いた戯言の再録と補足）
+（Facebook の TL に書いた戯言の再録＋αと補足）
 
 ## [PGPは有害無益？ | スラド セキュリティ](http://security.srad.jp/story/16/12/21/0422242/)
 
@@ -41,11 +41,13 @@ OpenPGP が暗号化メッセージングに向いてないというのは数年
 
 ## [暗号化チャットのSignalがAndroidアプリをアップデート、国家による検閲を迂回しステッカーや落書きの添付を可能に | TechCrunch Japan](http://jp.techcrunch.com/2016/12/23/20161222signal-for-android-egypt-uae-stickers/)
 
-うちの端末 Signal がうまく動かないんだよ。
+うちの端末では Signal がうまく動かないんだよ[^sgnl]。
 随分前に iPhone 版の Signal と統合されてから調子が悪い。
 iPhone なんか使う連中はプライバシーなんか気にしないだろう。
 iPhone ユーザは切り捨てて欲しい。
 ちなみに WhatsApp や Facebook の暗号化メッセージングには Signal と同じ技術が使われてるよ。
+
+[^sgnl]: 現在は [Signal](https://whispersystems.org/ "Open Whisper Systems") と SMS/MMS 連携を外している。多分 au のキャリアメールがおかしな運用になってるのが原因だと思う。
 
 OpenPGP を PGP と呼ばわったり（昔はともかく今は PGP はシマンテック社の商品名）暗号化メッセージングに OpenPGP は使えないとか意味不明な比較をする輩にはいい加減ウンザリである。
 
