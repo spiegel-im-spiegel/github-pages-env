@@ -4,7 +4,10 @@
 
 ## ブックマーク
 
-なし
+- [PDFの不遇なアクセシビリティのお話 - pixiv inside](http://inside.pixiv.net/entry/2016/12/23/180000)
+- [「Google Assistant」がついに日本語対応　Pixel上陸も近い？ - ITmedia PC USER](http://www.itmedia.co.jp/pcuser/articles/1612/25/news003.html)
+- [SexyCyborg様インタビュー（というか独演会）記録 - 山形浩生の「経済のトリセツ」](http://cruel.hatenablog.com/entry/2016/12/24/152545)
+- [アップル、「iOS」アプリにHTTPS接続を義務づける「ATS」対応期限を延期 - ZDNet Japan](http://japan.zdnet.com/article/35094249/)
 
 ## よかった探しリース
 

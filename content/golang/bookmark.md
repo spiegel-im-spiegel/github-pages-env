@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2016-12-14T09:59:53+09:00"
+update = "2016-12-26T18:24:27+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -52,6 +52,7 @@ title = "Go 言語に関するブックマーク"
 - [Go 1.7 is released - The Go Blog](https://blog.golang.org/go1.7)
 - [Go 1.7 Release Notes - The Go Programming Language](https://golang.org/doc/go1.7)
 - [Security Release Go 1.7.4 and 1.6.4 — しっぽのさきっちょ | text.Baldanders.info](http://text.baldanders.info/remark/2016/12/security-release-golang-1_7_4-and-1_6_4/)
+- [Go1.7からSSAが導入された - flyhigh](http://shinpei.github.io/blog/2016/08/13/what-ssa-brings-to-go-17/)
 
 ## 言語仕様に関すること
 
@@ -430,6 +431,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Goのコード生成のためのテンプレートエンジン seyfert を書いてみた - Qiita](http://qiita.com/mackee_w/items/71d7685852bb5bdda465)
 - [nagomeのplugin ngm-polly 作った - Qiita](http://qiita.com/bamchoh/items/49e230db51e7237b1ce9)
 - [Go言語でコレクション処理のメソッドを作ってみた　#golang - Qiita](http://qiita.com/yagitatsu/items/264aa3e167bf4650e705)
+- [ASTを取得する方法を調べる #golang - Qiita](http://qiita.com/tenntenn/items/13340f2845316532b55a)
 
 ### コマンドライン・ツール
 
@@ -447,6 +449,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Golangで外部コマンドを実行する方法まとめ - Qiita](http://qiita.com/tanksuzuki/items/9205ff70c57c4c03b5e5)
 - [spf13/cobra: A Commander for modern Go CLI interactions](https://github.com/spf13/cobra)
     - [GolangでCLIの場合にcobraを使うことにした件 | FLAMA技術Blog](http://lab.flama.co.jp/archives/1536/)
+- [GolangでwebサービスのAPIを叩くCLIツールを作ろう - Qiita](http://qiita.com/minamijoyo/items/cfd22e9e6d3581c5d81f)
 
 ### 入出力処理
 
@@ -511,6 +514,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [社内のバックエンド開発にgRPCを導入してみた - Qiita](http://qiita.com/nozaq/items/9cd9bf7ee6118779bda9)
 - [Echoはver.3で結局のところ何が変わったのか？ - Qiita](http://qiita.com/tienlen/items/85b06c0856c33e716c75)
 - [Go言語のWEBフレームワークRevelを使用してセキュアなAPIを作成 - Qiita](http://qiita.com/GushiSnow/items/97c1f64c003b27c6b98a)
+- [Go でツール書くときの Makefile 晒す - Qiita](http://qiita.com/dtan4/items/8c417b629b6b2033a541)
+- [goa でデザイン・ファーストをシュッとする - Qiita](http://qiita.com/ikawaha/items/6638ee8b6978aef50d65)
 
 ### 組み込み開発
 
