@@ -1,8 +1,9 @@
 +++
 date = "2015-12-05T21:51:15+09:00"
+update = "2016-12-26T21:07:45+09:00"
 description = "前々から予告があったが node.js に関する複数の脆弱性に対するアップデートが行われた。"
 draft = false
-tags = ["security", "vulnerability", "node.js"]
+tags = ["security", "vulnerability", "nodejs"]
 title = "Node.js : Security Update"
 
 [author]

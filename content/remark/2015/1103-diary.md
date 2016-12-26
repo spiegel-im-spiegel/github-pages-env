@@ -1,9 +1,9 @@
 +++
 date = "2015-11-03T22:05:33+09:00"
-update = "2016-10-18T21:25:39+09:00"
+update = "2016-12-26T21:07:45+09:00"
 description = "人工知能で弁護士は絶滅するか / AI は「トロッコ問題」をどう解くか / TVer に拒否られた / Node v5.0.0 (Stable)"
 draft = false
-tags = ["artificial-intelligence", "media", "node.js"]
+tags = ["artificial-intelligence", "media", "nodejs"]
 title = "今日の戯れ言： 人工知能で弁護士は絶滅するか"
 
 [author]

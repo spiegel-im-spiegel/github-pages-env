@@ -1,8 +1,9 @@
 +++
 date = "2016-01-09T18:59:13+09:00"
+update = "2016-12-26T21:07:45+09:00"
 description = "Go コンパイラのセキュリティアップデートがあるらしい / GnuPG 1.4.20 released / GitLab.com にアカウントを作った / くそな「中間者デバイス」が SHA-1 廃止の邪魔をする"
 draft = false
-tags = ["security", "vulnerability", "golang", "cryptography", "openpgp", "gnupg", "tools", "git", "gitlab", "firefox", "x.509", "hash", "sha-1", "risk"]
+tags = ["security", "vulnerability", "golang", "cryptography", "openpgp", "gnupg", "tools", "git", "gitlab", "firefox", "x509", "hash", "sha-1", "risk"]
 title = "週末スペシャル： Go コンパイラのセキュリティアップデートがあるらしい"
 
 [author]

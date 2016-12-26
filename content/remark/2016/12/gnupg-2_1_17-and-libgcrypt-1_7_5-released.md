@@ -1,5 +1,5 @@
 +++
-date = "2016-12-26T16:28:24+09:00"
+date = "2016-12-26T20:45:46+09:00"
 title = "GnuPG 2.1.17 and Libgcrypt 1.7.5 released"
 tags = [
   "security",
@@ -8,7 +8,7 @@ tags = [
   "openpgp",
   "gnupg",
 ]
-draft = true
+draft = false
 description = "Libgcrypt はバグフィックスがメイン， GnuPG 2.1 系 はちょこちょこと機能変更が行われている。"
 
 [author]
