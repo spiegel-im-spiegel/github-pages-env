@@ -1,9 +1,9 @@
 +++
 tags = ["code", "internet", "cryptography", "drm", "bitcoin", "blockchain"]
 description = "「ウォルター・アイザックソン「インターネットは壊れている。初めからやり直すなら、私はこのようにそれを正す」 - YAMDAS現更新履歴」より"
-date = "2016-12-27T10:26:33+09:00"
+date = "2016-12-28T12:49:19+09:00"
 title = "ぼくがかんがえたさいきょうのいんたねっと"
-draft = true
+draft = false
 
 [author]
   name = "Spiegel"
@@ -140,12 +140,13 @@ Bitcoin のアドレス（Blockchain の識別子でもある）は公開鍵暗�
 確かに Bitcoin に機密性は不要だが，他の認証や否認防止といった要件は意図的に削除されている。
 そうすることによってひたすら log の完全性のみを追求したのが Bitcoin でありその中核技術たる Blockchain なのだ。
 
-[^em]: ただし近年は「暗号化メッセージング」について要件が変わってきている。詳しくは拙文「[メッセージングは E2E 暗号化および PFS が肝](http://www.baldanders.info/spiegel/log2/000675.shtml "メッセージングは E2E 暗号化および PFS が肝 — Baldanders.info")」を参考にどうぞ。今回はコンテンツの取引に絡む話なので「否認防止」は必須要件になる。また「否認防止」を満たすには「完全性」と「認証」の要件を満たす必要がある。
+[^em]: ただし近年は「暗号化メッセージング」について要件が変わってきている。詳しくは拙文「[メッセージングは E2E 暗号化および PFS が肝](http://www.baldanders.info/spiegel/log2/000675.shtml "メッセージングは E2E 暗号化および PFS が肝 — Baldanders.info")」を参考にどうぞ。今回はコンテンツの取引に絡む話なので「否認防止」は必須要件になる。また「否認防止」を満たすには「完全性」と「認証」が必要条件になる。
 
 - [そろそろ Blockchain について勉強を始めるか — Baldanders.info](http://www.baldanders.info/spiegel/log2/000827.shtml)
 
 Bitcoin というか Blockchain を使う以上，認証および否認防止は別の手段（不特定多数と取引するのなら何らかの認証基盤）を以って担保する必要がある。
-なので「Blockchain があればおっけー」とはならないと思う。
+なので少なくとも「Blockchain があればおっけー」とはならないと思う。
+まぁ FinTech なるバズワードに関わる人達には自明なんだろうけど。
 
 ## ブックマーク
 
