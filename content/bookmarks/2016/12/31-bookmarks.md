@@ -1,6 +1,7 @@
 +++
 description = "「ニューラルネットワークはポケモンの夢を見るか」他"
 date = "2016-12-31T10:47:40+09:00"
+update = "2016-12-31T10:56:32+09:00"
 title = "2016-12-31 のブックマーク"
 draft = false
 
@@ -33,6 +34,7 @@ draft = false
 - [Wiki脳だってTumblrしたい - Scrapboxの話をしよう｜塚本 牧生｜note](https://note.mu/tsukamoto/n/n9c6a0ea7030b)
 - [PHPMailerの脆弱性CVE-2016-10033について解析した | 徳丸浩の日記](http://blog.tokumaru.org/2016/12/PHPMailer-Vulnerability-CVE-2016-10033.html)
 - [ニューラルネットワークはポケモンの夢を見るか – Hideki's Random Stuff Japanese](https://ja.hideki.hclippr.com/2016/12/28/%e3%83%8b%e3%83%a5%e3%83%bc%e3%83%a9%e3%83%ab%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af%e3%81%af%e3%83%9d%e3%82%b1%e3%83%a2%e3%83%b3%e3%81%ae%e5%a4%a2%e3%82%92%e8%a6%8b%e3%82%8b%e3%81%8b/)
+    - [機械学習の特徴などに関して – Hideki's Random Stuff Japanese](https://ja.hideki.hclippr.com/2016/12/31/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%81%AE%E7%89%B9%E5%BE%B4%E3%81%AA%E3%81%A9%E3%81%AB%E9%96%A2%E3%81%97%E3%81%A6/)
 - [暗号化バックドアはメリットよりも害をもたらす - 米国の調査チーム | マイナビニュース](http://news.mynavi.jp/news/2016/12/28/053/)
 - [インターネット上の取り締まり強化を続けるエジプトが暗号化メッセージアプリのSignalをブロック | TechCrunch Japan](http://jp.techcrunch.com/2016/12/28/201612261431709/)
 - [「Amazon Echo」の履歴データに殺人事件の証拠としての提供命令 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1612/28/news051.html)
