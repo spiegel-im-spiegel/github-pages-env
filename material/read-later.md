@@ -5,7 +5,15 @@
 
 ## ブックマーク
 
-なし
+- [[openpgp] I-D Action: draft-ietf-openpgp-rfc4880bis-01.txt](https://mailarchive.ietf.org/arch/msg/openpgp/DfsTfR7atjgt3nDsGbud6aRUR7M)
+    - [draft-ietf-openpgp-rfc4880bis-01 - OpenPGP Message Format](https://tools.ietf.org/html/draft-ietf-openpgp-rfc4880bis-01)
+- [2016紅白歌合戦のPerfumeのパフォーマンスは、ダイナミックVR。まさに浮いているような映像。　#紅白歌合戦: Fallen Physicist, Rising Engineer](http://sci.tea-nifty.com/blog/2016/12/2017perfumevr-b.html)
+    - [真鍋大度＋ライゾマティクスリサーチ AR/VR集成 2012-2016 —Perfumeからリオ五輪2016閉会式まで « WIRED.jp](http://wired.jp/special/2016/ar-vr-rhizomatiks/)
+- [「世俗主義の象徴」を狙ったテロはエルドアン政権の支持層強硬派の突き上げか？：池内恵 | 中東―危機の震源を読む | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41887)
+- [今さら人に聞けないVPN入門…VPNの神話をはぎ取る | TechCrunch Japan](http://jp.techcrunch.com/2017/01/03/20170101wtf-is-a-vpn/)
+- [「ニーズ」に死を：トランプ・マケドニア・DeNAと2017年のメディアについて｜WIRED.jp](http://wired.jp/2017/01/03/needs-dont-matter/)
+- [Happy Public Domain Day: here's what American's don't get this year, thanks to retroactive copyright term extension / Boing Boing](http://boingboing.net/2017/01/01/happy-public-domain-day-here-3.html)
+- [大統領選へのハッキング介入に対する報復 | JOURNAL | FERMAT](http://www.defermat.com/journal/2016/001061.php)
 
 ## よかった探しリース
 
