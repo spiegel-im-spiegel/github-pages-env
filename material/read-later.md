@@ -2,10 +2,16 @@
 
 - [アーヴィンド・ナラヤナンらの『仮想通貨の教科書』が出ていた - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20161215/cryptcurrency) : 来年買う
 - [Spiegel's Branch - Scrapbox](https://scrapbox.io/spiegel-branch/)
+- [なぜギャツビーはパブリックドメインでないのか？（Why Isn't Gatsby in the Public Domain? 日本語訳）](http://www.yamdas.org/column/technique/Gatsbyj.html)
 
 ## ブックマーク
 
 なし
+
+## ブックマーク2
+
+- [ネットの謎棋士60連勝、熱狂生んだ陰の主役：日経ビジネスオンライン](http://business.nikkeibp.co.jp/atcl/opinion/15/221102/010500382/?rt=nocnt)
+- [開発者の「Mac離れ、Linuxへの移行」が進んでいる？ | スラド アップル](https://apple.srad.jp/story/17/01/05/0828228/)
 
 ## よかった探しリース
 
