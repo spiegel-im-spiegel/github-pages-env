@@ -45,3 +45,5 @@ description = "「draft-ietf-openpgp-rfc4880bis-01.txt」他"
 - [マンソンファミリーが昭和天皇暗殺を計画していた！！！ - 山形浩生の「経済のトリセツ」](http://cruel.hatenablog.com/entry/2017/01/05/143222) : ウィキリークスのネタ
 - [新ITキーワード2017 - 「脱BIND」、脆弱性多数の代表的DNSソフトから移行を：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/16/120900297/121600003/?rt=nocnt)
 - [スタッフ解雇を理由にFSFと対立していた「Libreboot」、GNU Projectから正式に離脱 | OSDN Magazine](https://mag.osdn.jp/17/01/06/160000)
+- [トランプ次期政権は有人月探査を狙うのか？ – ジ・アトランティック誌 | 月探査情報ステーション](http://moonstation.jp/blog/lunarexp/will-trump-challenge-manned-lunar-exploration)
+- [【一部記述修正】NASA、新しい2つの小惑星探査計画を将来探査として選定 | 月探査情報ステーション](http://moonstation.jp/blog/asteroidexp/nasa-selects-two-asteroid-explorations-as-future-missions-in-discovery-program)
