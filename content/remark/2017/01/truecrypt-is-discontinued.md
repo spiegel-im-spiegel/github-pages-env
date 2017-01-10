@@ -27,9 +27,9 @@ description = "現在メンテナンスが止まっている TrueCrypt の代替
 メールをくれた方は，どうやら私の[古い日記の記述](http://www.baldanders.info/spiegel/log/200506.html#d07_t2)を見てアドバイスを下さったようだ。
 感謝。
 
-TrueCrypt はフリーの暗号化ツールである。
+TrueCrypt はフリーのストレージ暗号化ツールである。
 
-ストレージ丸ごと暗号化できるのが特徴で， PC ドライブや USB メモリの暗号化（暗号化仮想ドライブ等）などで重宝していた。
+ストレージを丸ごと暗号化して仮想ドライブ等にできるのが特徴で， PC ドライブや USB メモリの暗号化などで重宝していた。
 この TrueCrypt の開発が突然停止したのが2014年5月である。
 
 - [暗号化ツールTrueCryptに突然の終了宣言、「セキュリティ問題」を警告 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1405/30/news041.html)
@@ -58,7 +58,7 @@ TrueCrypt はフリーの暗号化ツールである。
 - [**LUKS**](https://guardianproject.info/code/luks/) is an open-source option for Linux, supports multiple algorithms, but does not offer much support for non-Linux systems
 
 説明によると [VeraCrypt] と [Ciphershed] が TrueCrypt からの fork のようだ。
-両者とも外部のセキュリティ監査を受けているようなので概ね安全と言えるだろう。
+両者とも外部からのセキュリティ・チェックを受けているようなので概ね安全と言っていいだろう。
 
 暗号化ストレージが必要な場合は上記のツールも検討してみてはどうだろうか。
 まぁ私は PC や USB メモリを持ち出すような状況はなくなったので，さして必要ではなくなったんだけど。
@@ -72,7 +72,7 @@ TrueCrypt はフリーの暗号化ツールである。
 [VeraCrypt]: https://veracrypt.codeplex.com/
 [Ciphershed]: https://www.ciphershed.org/ "CipherShed | Secure Encryption Software"
 
-参考図書
+## 参考図書
 
 <div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B015643CPE/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51t6yHHVwEL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B015643CPE/baldandersinf-22/">暗号技術入門 第3版　秘密の国のアリス</a></dt><dd>結城 浩 </dd><dd>SBクリエイティブ 2015-08-25</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0148FQNVC/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B0148FQNVC.09._SCTHUMBZZZ_.jpg"  alt="自作エミュレータで学ぶx86アーキテクチャ　コンピュータが動く仕組みを徹底理解！"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00W6NCLJM/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00W6NCLJM.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート/丸い三角関数"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00Y9EYOIW/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00Y9EYOIW.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート/微分を追いかけて"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B012BYBTZC/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B012BYBTZC.09._SCTHUMBZZZ_.jpg"  alt="情報セキュリティ白書2015: サイバーセキュリティ新時代：あらゆる変化へ柔軟な対応を"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00W6NCLL0/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00W6NCLL0.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート/数列の広場"  /></a> </p>
 <p class="description">SHA-3 や Bitcoin/Blockchain など新しい知見や技術要素を大幅追加。暗号技術を使うだけならこれ1冊でとりあえず無問題。</p>

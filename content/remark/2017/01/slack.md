@@ -3,6 +3,7 @@ description = "個人で Slack を使ってみる。"
 draft = false
 tags = ["slack", "tools"]
 date = "2017-01-09T17:24:54+09:00"
+update = "2017-01-10T16:47:12+09:00"
 title = "いまさら聞けない Slack の使い方"
 
 [author]
@@ -20,14 +21,14 @@ title = "いまさら聞けない Slack の使い方"
   flickr = "spiegel"
 +++
 
-いや， [Slack] 自体のアカウントは持ってるのよ。
-2015年の夏にはアカウント取ってたし。
+いや， [Slack] 自体のアカウントは持ってるのよ（2015年の夏には取ってたし）。
 で， [aozorahack] （[join](https://aozoraslackin.herokuapp.com/)） と [creativecommons] （[join](https://slack-signup.creativecommons.org/)） には入ってるんだけど，それっきり放置プレイ状態。
 まぁボッチが使うツールじゃないよねぇ，と思ってたら昨年末にこんな記事を見かけた。
 
 - [個人 Slack のススメ - Qiita](http://qiita.com/saitotak/items/ac0eb7ddc0d8d83cbe91)
 
-おおっなるほど！ ということで私もやってみることにした。
+おおっなるほど！ そういう使い方もあるのか。
+ということで私もやってみることにした。
 
 ## Slack とは
 
@@ -37,14 +38,16 @@ title = "いまさら聞けない Slack の使い方"
 
 チーム（team）およびチャネル（channel）毎にやりとりできる。
 チーム単位で[無料プランと有料プランを選べる](https://slack.com/pricing)が，小規模なコミュニケーションなら無料プランで充分賄える。
-有料プランは企業向けといえるかもしれない。
+有料プランは大規模コミュニティまたは企業向けといえるかもしれない。
 
 ユーザは必ず何らかのチームに所属しなければならない。
 新たにアカウントを作成する場合は，事前に何処かのチームから招待（invitation）を受けるか自分でチームを作成する
 （ただし[招待の発行を自動化するツール](http://qiita.com/homata/items/d809e7489b4d14f0768b "手軽にチームのSlackに参加してもらう方法 - Qiita")はいくつか存在する）。
 
-で， Slack 最大の特徴は他サービスと連携するためのアプリが用意されていることである。
-これらはボット（bot）と呼ばれることもある。
+で， [Slack] 最大の特徴は他サービスと連携するための API およびアプリが用意されていることである。
+アプリはボット（bot）と呼ばれることもある[^co]。
+
+[^co]: これに関連して “ChatOps” という考え方がある。これはチャットサービスをベースにしたシステム運用あるいは業務改善といったニュアンスで使われるようだ。多くの業務タスクが SaaS で提供されるようになった結果，業務タスク間の効率的な連携が問題になり始めた。これに対する解として2015年辺りから ChatOps を導入するところが増えている。また ChatOps を前提にした業務システムを構築することで各タスクを疎結合にできるため柔軟な業務改善が期待できる。この ChatOps の手段として [Slack] を含む hackable なチャットサービスが注目されている。
 
 ## フィードを読み込んでチャネルに出力する
 
@@ -116,7 +119,11 @@ title = "いまさら聞けない Slack の使い方"
 ## ブックマーク
 
 - [We're on Slack! Join us! - Creative Commons](https://creativecommons.org/2016/10/18/slack-announcement/)
+- [Qiitaの特定タグへの新着投稿をRSS受信する - Qiita](http://qiita.com/takecy/items/7e587e91aa2574926299)
 - [手軽にチームのSlackに参加してもらう方法 - Qiita](http://qiita.com/homata/items/d809e7489b4d14f0768b)
+- [ChatOpsで加速するOps効率化 | NTTデータ](http://www.nttdata.com/jp/ja/insights/trend_keyword/2016070701.html)
+- [ChatOpsでなにができるのかまとめ - Qiita](http://qiita.com/m_mizutani/items/f7fa7b1d1c077b139f98)
+- [SlackとGoogleが戦略的連携を発表―SlackとGoogleドライブが緊密化する | TechCrunch Japan](http://jp.techcrunch.com/2016/12/08/20161207slack-and-google-announce-partnership-focused-on-better-integrating-their-services/)
 
 [Slack]: https://slack.com/ "Slack: Be less busy"
 [Zapier]: https://zapier.com/ "The best apps. Better together. - Zapier"
