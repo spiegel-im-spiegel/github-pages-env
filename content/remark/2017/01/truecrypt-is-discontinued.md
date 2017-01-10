@@ -1,7 +1,7 @@
 +++
-date = "2017-01-10T11:28:47+09:00"
+date = "2017-01-10T20:21:52+09:00"
 title = "TrueCrypt の代替え製品"
-draft = true
+draft = false
 tags = ["security", "cryptography", "tools", "truecrypt"]
 description = "現在メンテナンスが止まっている TrueCrypt の代替え製品を提案する。"
 

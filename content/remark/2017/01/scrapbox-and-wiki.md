@@ -1,8 +1,8 @@
 +++
-draft = true
+draft = false
 tags = ["wiki", "slack", "tools"]
 description = "で，当面の問題は私が Wiki 記法をほとんど忘れてるってことなんだよなぁ。"
-date = "2017-01-10T09:43:58+09:00"
+date = "2017-01-10T20:21:13+09:00"
 title = "Scrapbox または Wiki で再び遊ぶ"
 
 [author]
