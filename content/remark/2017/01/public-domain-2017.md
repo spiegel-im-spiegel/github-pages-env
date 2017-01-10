@@ -1,7 +1,7 @@
 +++
 tags = ["code", "copyright", "aozora"]
 description = "「単に「モノが無料で手に入るかどうか」ではなく、「文化が自由であるかどうか」の問題」"
-date = "2017-01-04T18:51:39+09:00"
+date = "2017-01-10T09:08:57+09:00"
 title = "2017年のパブリックドメイン作品と青空文庫20周年"
 draft = false
 
@@ -32,3 +32,7 @@ draft = false
 
 ところで今年7月で青空文庫20周年らしい。
 今年も色々ありそうである。
+
+## ブックマーク
+
+- [なぜギャツビーはパブリックドメインでないのか？（Why Isn't Gatsby in the Public Domain? 日本語訳）](http://www.yamdas.org/column/technique/Gatsbyj.html)
