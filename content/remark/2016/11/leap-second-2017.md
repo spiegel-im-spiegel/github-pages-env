@@ -1,6 +1,6 @@
 +++
 date = "2016-11-29T22:06:59+09:00"
-update = "2016-12-05T16:20:44+09:00"
+update = "2017-01-04T17:06:19+09:00"
 title = "2017年直前の閏秒について"
 description = "年も押し迫ってきたし関連情報も出てき始めているので，あらためて記事を再構成し関連リンクを順次追加していくことにする。"
 tags = [
@@ -138,6 +138,8 @@ UT が観測値である以上「いつ閏秒が発生するか」は長期的�
 
 ### 技術情報
 
+- [事前にご確認ください – AWSにおける2016年12月31日（日本時間2017年1月1日）のうるう秒 | Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/look-before-you-leap-december-31-2016-leap-second-on-aws/)
+    - [Amazon AWS、うるう秒の1秒分を前後12時間の1秒を1/86400長くして吸収 -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/1036937.html)
 - [Google Cloud Platform Blog: Making every (leap) second count with our new public NTP servers](https://cloudplatform.googleblog.com/2016/11/making-every-leap-second-count-with-our-new-public-NTP-servers.html)
     - [Google、うるう秒の1秒分を前後20時間のクロック変更で吸収 -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/1033101.html)
 - [来年の元旦に「うるう秒」挿入、システム障害などのトラブル回避に向けて引き続き警戒を -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/1027910.html)
