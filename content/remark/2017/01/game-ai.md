@@ -1,9 +1,9 @@
 +++
 tags = ["games", "artificial-intelligence"]
 description = "これは2016年に Medium に書いた記事の再掲載です。"
-date = "2017-01-12T15:47:01+09:00"
+date = "2017-01-12T20:40:38+09:00"
 title = "ゲーム AI の本領"
-draft = true
+draft = false
 
 [author]
   flickr = "spiegel"
