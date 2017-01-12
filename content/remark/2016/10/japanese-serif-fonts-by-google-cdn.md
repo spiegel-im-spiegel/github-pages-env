@@ -1,9 +1,9 @@
 +++
 date = "2016-10-16T23:41:57+09:00"
-update = "2016-10-17T14:06:55+09:00"
+update = "2017-01-12T15:07:46+09:00"
 title = "Web フォントに関する覚え書き（明朝体編）"
 description = "最近 Google の Early Access のページを見たら随分と日本語の書体が増えている気がする。"
-tags = ["web", "font", "google", "character"]
+tags = ["web", "font", "google", "character", "site"]
 draft = false
 
 [author]

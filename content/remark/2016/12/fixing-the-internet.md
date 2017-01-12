@@ -2,7 +2,7 @@
 tags = ["code", "internet", "cryptography", "drm", "bitcoin", "blockchain"]
 description = "「ウォルター・アイザックソン「インターネットは壊れている。初めからやり直すなら、私はこのようにそれを正す」 - YAMDAS現更新履歴」より"
 date = "2016-12-28T12:49:19+09:00"
-update = "2017-01-06T11:24:25+09:00"
+update = "2017-01-12T14:29:42+09:00"
 title = "ぼくがかんがえたさいきょうのいんたねっと"
 draft = false
 
@@ -156,6 +156,7 @@ Bitcoin というか Blockchain を使う以上，認証および否認防止は
 - [RFC 6962 - Certificate Transparency](https://tools.ietf.org/html/rfc6962)
     - [Certificate Transparency | GMOグローバルサインブログ](https://jp.globalsign.com/blog/2014/certificate_transparency.html)
     - [Google による OpenPGP 鍵配送の解決提案 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000785.shtml)
+- [Blockchain と Smart Contract]({{< relref "remark/2016/01/blockchain-and-smart-contract.md" >}})
 
 [yomoyomo さんの記事]: http://d.hatena.ne.jp/yomoyomo/20161226/walterisaacson "ウォルター・アイザックソン「インターネットは壊れている。初めからやり直すなら、私はこのようにそれを正す」 - YAMDAS現更新履歴"
 [Fixing The Internet]: http://avc.com/2016/12/fixing-the-internet/ "Fixing The Internet – AVC"
