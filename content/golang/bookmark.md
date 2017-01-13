@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-01-12T12:42:10+09:00"
+update = "2017-01-13T18:23:06+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -434,6 +434,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [ASTを取得する方法を調べる #golang - Qiita](http://qiita.com/tenntenn/items/13340f2845316532b55a)
 - [ピーマンとハトと数学を Go 言語で試す - Qiita](http://qiita.com/nirasan/items/69643d0ddf8a7345cf7c)
 - [Big Sky :: Windows からも ssh でリモートコマンド実行したい、それ golang で出来るよ](http://mattn.kaoriya.net/software/lang/go/20170111165324.htm)
+- [Big Sky :: golang の http.Client を速くする](http://mattn.kaoriya.net/software/lang/go/20170112181052.htm)
 
 ### コマンドライン・ツール
 
@@ -452,6 +453,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [spf13/cobra: A Commander for modern Go CLI interactions](https://github.com/spf13/cobra)
     - [GolangでCLIの場合にcobraを使うことにした件 | FLAMA技術Blog](http://lab.flama.co.jp/archives/1536/)
 - [GolangでwebサービスのAPIを叩くCLIツールを作ろう - Qiita](http://qiita.com/minamijoyo/items/cfd22e9e6d3581c5d81f)
+- [GoでMySQLにCA証明書を使ってアクセスする - Qiita](http://qiita.com/Peranikov/items/4376633bb72492051336)
 
 ### 入出力処理
 
@@ -518,6 +520,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go言語のWEBフレームワークRevelを使用してセキュアなAPIを作成 - Qiita](http://qiita.com/GushiSnow/items/97c1f64c003b27c6b98a)
 - [Go でツール書くときの Makefile 晒す - Qiita](http://qiita.com/dtan4/items/8c417b629b6b2033a541)
 - [goa でデザイン・ファーストをシュッとする - Qiita](http://qiita.com/ikawaha/items/6638ee8b6978aef50d65)
+- [echo 初心者でも簡単!! echo で扱うアセットファイル群を簡単にバイナリにまとめて使ってみる - Qiita](http://qiita.com/Kei-Kamikawa/items/a6cb72251b95c8f5baa1)
 
 ### 組み込み開発
 
@@ -569,6 +572,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Big Sky :: 「みんなのGo言語」の執筆に参加させて頂きました。](http://mattn.kaoriya.net/software/lang/go/20160808013725.htm)
 - [Go言語の低レイテンシGC実現のための取り組み | プログラミング | POSTD](http://postd.cc/gos-march-to-low-latency-gc/)
 - [Go言語がダメな理由 | プログラミング | POSTD](http://postd.cc/why-go-is-not-good/)
+- [ASCII.jp：Goならわかるシステムプログラミング](http://ascii.jp/elem/000/001/235/1235262/)
 
 ### Go 1.5 に関する話題
 

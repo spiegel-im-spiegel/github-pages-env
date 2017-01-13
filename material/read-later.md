@@ -1,8 +1,7 @@
 # 「あとでみる」ブックマーク（Temporary）
 
 - [アーヴィンド・ナラヤナンらの『仮想通貨の教科書』が出ていた - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20161215/cryptcurrency) : 来年買う
-- [好調なはずのMedium、従業員の3分の1を突如リストラへ - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1701/05/news109.html)
-    - [誰のために日記やブログを書き残すのか - ただのにっき(2016-12-31)](http://sho.tdiary.net/20161231.html#p01)
+- [ユリイカ2005年9月号 特集=水木しげる | |本 | 通販 | Amazon](https://www.amazon.co.jp/%E3%83%A6%E3%83%AA%E3%82%A4%E3%82%AB2005%E5%B9%B49%E6%9C%88%E5%8F%B7-%E7%89%B9%E9%9B%86-%E6%B0%B4%E6%9C%A8%E3%81%97%E3%81%92%E3%82%8B/dp/4791701380/ref=sr_1_8?ie=UTF8&qid=1484292650&sr=8-8&keywords=%E3%83%A6%E3%83%AA%E3%82%A4%E3%82%AB+2005)
 
 ## ブックマーク
 
@@ -32,8 +31,15 @@
     - [Adobe Flash Player の脆弱性 (APSB17-02) に関する注意喚起](http://www.jpcert.or.jp/at/2017/at170002.html)
 - [2017年 1月 Microsoft セキュリティ情報 (緊急 1件含) に関する注意喚起](http://www.jpcert.or.jp/at/2017/at170003.html)
     - [2017年 1月 Microsoft セキュリティ情報 (緊急 1件含) に関する注意喚起](http://www.jpcert.or.jp/at/2017/at170003.html)
+- [ISC BIND 9 に対する複数の脆弱性に関する注意喚起](https://www.jpcert.or.jp/at/2017/at170004.html)
+    - [JVNVU#94085539: ISC BIND に複数のサービス運用妨害 (DoS) の脆弱性](http://jvn.jp/vu/JVNVU94085539/)
 - [Python 3を使うべきでない場合（なんてない） | プログラミング | POSTD](http://postd.cc/case-python-3/)
 - [月の起源 | 月探査情報ステーション](http://moonstation.jp/discover/science/origin)
 - [「はやぶさ2」光リンク実験の結果が論文になりました | 国立天文台 RISE月惑星探査検討室](http://www.miz.nao.ac.jp/rise/content/news/topic_20170110)
 - [Big Sky :: Windows からも ssh でリモートコマンド実行したい、それ golang で出来るよ](http://mattn.kaoriya.net/software/lang/go/20170111165324.htm)
 - [有名WebサービスのAPIをすべて同じ書き方でプログラミング可能な「RapidAPI」は、検索・テストもブラウザ上で実行可能！ | シェアしたくなる最新のWebサービス・ITニュース情報をチェック！ APPGIGA!!（アプギガ）](http://plus.appgiga.jp/masatolan/2017/01/11/57484/)
+- [RFC系統図で見るIPv6の変化:Geekなぺーじ](http://www.geekpage.jp/blog/?id=2017-1-12-1)
+- [心臓ペースメーカーのモニタ装置に脆弱性、メーカーがパッチ配信 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1701/11/news065.html)
+- [添付メール「ZIP暗号化とパスワード別送」はムダな作業なのか ｜ビジネス+IT](http://www.sbbit.jp/article/cont1/33116)
+- [グーグル、クラウドで暗号化キーを管理できる「Google Cloud Key Management Service」発表 - ZDNet Japan](http://japan.zdnet.com/article/35094869/)
+- [Oracle Database に 新しい元号(年号)「野球」を追加してみる。(NLSカレンダ・ユーティリティlxegen) - Qiita](http://qiita.com/ora_gonsuke777/items/dc21ee3f2abf718098b9)
