@@ -1,6 +1,6 @@
 +++
 date = "2016-07-18T02:42:46+09:00"
-update = "2016-07-18T10:55:53+09:00"
+update = "2017-01-16T15:26:13+09:00"
 description = "いや Prime Day で半額セールやってたし，ついカッとなってやった。後悔はしていない。"
 draft = false
 tags = ["e-book", "kindle"]
@@ -77,3 +77,7 @@ title = "今更 Kindle Paperwhite を買う"
 ちなみに Nexus 7 も 290g とかなり軽い方なのだが， Paperwhite は 205g でホンマに軽いのだ（文庫本より軽いらしい）。
 Nexus 7 は最近はリビングパソコンになりつつあって，あまり外に持ち出さなくなった。
 代わりに Paperwhite が通勤のお供になるのだろう。
+
+## 追記
+
+[マンガモデルに買い換えました]({{< relref "remark/2016/12/kindle-paperwhite-manga-version.md" >}})。

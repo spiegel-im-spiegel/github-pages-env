@@ -1,6 +1,6 @@
 +++
 date = "2016-10-12T00:39:24+09:00"
-update = "2017-01-13T17:48:13+09:00"
+update = "2017-01-16T12:44:51+09:00"
 description = "「正義」とか「良心」とかいうのは人の不完全さの象徴である。その不完全さが人のアイデンティティだというのなら，そんな種は進化の階梯を機械に譲ったほうがいい。でも実際には，私たちは種としてもっと先に進めるはずである，と私は思う。"
 draft = false
 tags = ["artificial-intelligence", "engineering", "politics"]
@@ -105,6 +105,7 @@ AI (Artificial Intelligence) はたまたま再流行してこれから何か影
 - [我々は信頼に足るアルゴリズムを見極められるのか？ - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2016/10/56935/)
 - {{< pdf-file title="Equality of Opportunity in Supervised Learning" link="https://drive.google.com/file/d/0B-wQVEjH9yuhanpyQjUwQS1JOTQ/view" >}}
     - [Google、AIから偏見を排除する方法を研究中 | TechCrunch Japan](http://jp.techcrunch.com/2016/10/10/20161007google-aims-to-prevent-discriminatory-ai-with-equality-of-opportunity-method/)
+- [機械と人間の役割分担を見つめ直してみよう | TechCrunch Japan](http://jp.techcrunch.com/2017/01/16/20170114putting-the-intelligent-machine-in-its-place/)
 
 機械学習なんて体のいい「洗脳」であるが，その洗脳から必然的に生まれる「偏見」を数学的手法で排除しようとするのがいかにも Google らしい。
 でも，そうしたロジックも含めて実装し評価するのは人なのである（今のところ）。

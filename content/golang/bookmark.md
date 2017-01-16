@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-01-13T18:23:06+09:00"
+update = "2017-01-16T09:43:01+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -435,6 +435,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [ピーマンとハトと数学を Go 言語で試す - Qiita](http://qiita.com/nirasan/items/69643d0ddf8a7345cf7c)
 - [Big Sky :: Windows からも ssh でリモートコマンド実行したい、それ golang で出来るよ](http://mattn.kaoriya.net/software/lang/go/20170111165324.htm)
 - [Big Sky :: golang の http.Client を速くする](http://mattn.kaoriya.net/software/lang/go/20170112181052.htm)
+- [goパッケージで簡単に静的解析して世界を広げよう #golang - Qiita](http://qiita.com/tenntenn/items/868704380455c5090d4b)
 
 ### コマンドライン・ツール
 
