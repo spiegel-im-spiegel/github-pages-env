@@ -2,7 +2,7 @@
 description = "さっそく推定結果について評価を行いたいところだが，その前に CLI (command-line interface) を整備する。今回は spf13/cobra パッケージを使うことにする。"
 tags = ["golang", "cli", "facade", "circle-ratio"]
 date = "2016-11-06T17:57:37+09:00"
-update = "2016-11-20T23:32:40+09:00"
+update = "2017-01-16T09:42:12+09:00"
 title = "モンテカルロ法による円周率の推定（その2 CLI）"
 draft = false
 
@@ -433,7 +433,7 @@ func New(pc, ec int64) <-chan float64 {
 ```
 
 指定した回数だけ推定処理を行い，結果を [channel] `ch` に渡している。
-たとえば100,000個の点から円周率を推定する処理を10回をしたければ
+たとえば100,000個の点から円周率を推定する処理を10回したければ
 
 ```text
 $ go run main.go estmt -e 10 -p 100000
