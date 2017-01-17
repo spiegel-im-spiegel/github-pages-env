@@ -22,3 +22,4 @@
 - [「南スーダン制裁決議」に見るアメリカ外交の敗北：鈴木一人 | 国際機関の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41908)
 - [NASAの小惑星イニシアチブ、小惑星捕獲計画(ARM)がNASA予算未確定のため遅れ | 月探査情報ステーション](http://moonstation.jp/blog/asteroidexp/asteroidinitiative/arm-mission-will-delay-due-to-uncertainty-of-2017-budget)
 - [AmazonがAmazon Channelsに自主チャネルを創設（最初はアニメ専門チャネル）…テレビビジネスをディスラプトか | TechCrunch Japan](http://jp.techcrunch.com/2017/01/13/20170112amazon-launches-the-first-of-its-own-subscription-vod-channels-anime-strike/)
+- [史上最も洗練された「身代金ウィルス」Sporaの恐るべき機能性](http://blogos.com/article/205763/)
