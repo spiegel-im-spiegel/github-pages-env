@@ -3,8 +3,16 @@
 - [アーヴィンド・ナラヤナンらの『仮想通貨の教科書』が出ていた - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20161215/cryptcurrency) : 来年買う
 - [ユリイカ2005年9月号 特集=水木しげる | |本 | 通販 | Amazon](https://www.amazon.co.jp/%E3%83%A6%E3%83%AA%E3%82%A4%E3%82%AB2005%E5%B9%B49%E6%9C%88%E5%8F%B7-%E7%89%B9%E9%9B%86-%E6%B0%B4%E6%9C%A8%E3%81%97%E3%81%92%E3%82%8B/dp/4791701380/ref=sr_1_8?ie=UTF8&qid=1484292650&sr=8-8&keywords=%E3%83%A6%E3%83%AA%E3%82%A4%E3%82%AB+2005)
 - [Github Pagesでホスティングしつつ、CloudFrontを使ってサイトをSSL対応の独自ドメインにする - Qiita](http://qiita.com/kechol/items/9609e1ab4a673e05b613)
+- [AVG、「AVG AntiVirus FREE」など主力製品の最新版を公開。Avastと統合後初のリリース - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1039393.html)
 
 ## ブックマーク
+
+### WhatsApp Security Vulnerability
+
+- [WhatsApp Security Vulnerability - Schneier on Security](https://www.schneier.com/blog/archives/2017/01/whatsapp_securi.html)
+    - [WhatsAppが脆弱性を”バックドア”だとする報道内容を否定 | TechCrunch Japan](http://jp.techcrunch.com/2017/01/15/20170113encrypted-messaging-platform-whatsapp-denies-backdoor-claim/)
+
+### その他
 
 - [Github Pagesでホスティングしつつ、CloudFrontを使ってサイトをSSL対応の独自ドメインにする - Qiita](http://qiita.com/kechol/items/9609e1ab4a673e05b613)
 - [94歳で日本文学を執筆する米国人学者の凄み | GQ JAPAN | 東洋経済オンライン | 経済ニュースの新基準](http://toyokeizai.net/articles/-/152927)
@@ -31,3 +39,16 @@
 - [グループウェア TeamOn for SAKURA - レンタルサーバーはさくらインターネット](http://www.sakura.ne.jp/function/teamon.html)
 - [WhatsAppが脆弱性を”バックドア”だとする報道内容を否定 | TechCrunch Japan](http://jp.techcrunch.com/2017/01/15/20170113encrypted-messaging-platform-whatsapp-denies-backdoor-claim/)
 - [IIJ、ウェブセキュリティサービスでFlashやJavaScriptを分離環境で実行する「セキュアブラウジングオプション」を提供開始 - クラウド Watch](http://cloud.watch.impress.co.jp/docs/news/1039162.html)
+- [Scala で実装した社内ナレッジ共有ツールを OSS にして公開しました](http://tech.atware.co.jp/sharedocs/)
+- [2020年までにデータサイエンティストの業務の4割は自動化される。そしてデータサイエンティストを本職としない「シチズンデータサイエンティスト」が台頭すると、ガートナー － Publickey](http://www.publickey1.jp/blog/17/20204.html)
+- [新星爆発は煤(すす)だらけ？ | 京都産業大学](http://www.kyoto-su.ac.jp/news/20170116_859_nova_s.html)
+- [世界最小の衛星打ち上げロケット、失敗：日経ビジネスオンライン](http://business.nikkeibp.co.jp/atcl/opinion/15/217467/011600042/?rt=nocnt)
+- [minimaxir/big-list-of-naughty-strings: The Big List of Naughty Strings is a list of strings which have a high probability of causing issues when used as user-input data.](https://github.com/minimaxir/big-list-of-naughty-strings)
+- [「ActivePerl」に脆弱性、修正版のv5.24.1 Build 2402が公開 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1039508.html)
+- [阪神・淡路大震災「1.17の記録」](http://kobe117shinsai.jp/) : CC-BY で公開。右クリックを潰してるな。誰だこんなダサいサイト作ったのは
+- [アポロ宇宙飛行士、「最後に月面を歩いた男」ユージン・サーナン宇宙飛行士が亡くなる | 月探査情報ステーション](http://moonstation.jp/blog/lunarexp/apollo/eugene-cernan-the-last-man-on-the-moon-dies)
+- [Microsoft、セキュリティ情報公開の方式を変更　2月からはサマリー掲載廃止 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1701/17/news071.html)
+- [金星の巨大な弓状模様の成因を解明 ― 金星探査機「あかつき」の観測を数値シミュレーションで解析 ― | 宇宙科学研究所](http://www.isas.jaxa.jp/topics/000826.html)
+- [「Raspberry Pi Compute Module 3」がリリース--CPU性能が初代の10倍に - ZDNet Japan](http://japan.zdnet.com/article/35095075/)
+- [AVG、「AVG AntiVirus FREE」など主力製品の最新版を公開。Avastと統合後初のリリース - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1039393.html)
+- [なぜ日本が世界共通語「Emoji」を生み出したのか、そしてその影響とは／古川健介『TOKYO INTERNET』｜PLANETS｜note](https://note.mu/wakusei2nd/n/n562b7d525897)
