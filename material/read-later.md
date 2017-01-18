@@ -22,6 +22,7 @@
 - [「南スーダン制裁決議」に見るアメリカ外交の敗北：鈴木一人 | 国際機関の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41908)
 - [NASAの小惑星イニシアチブ、小惑星捕獲計画(ARM)がNASA予算未確定のため遅れ | 月探査情報ステーション](http://moonstation.jp/blog/asteroidexp/asteroidinitiative/arm-mission-will-delay-due-to-uncertainty-of-2017-budget)
 - [AmazonがAmazon Channelsに自主チャネルを創設（最初はアニメ専門チャネル）…テレビビジネスをディスラプトか | TechCrunch Japan](http://jp.techcrunch.com/2017/01/13/20170112amazon-launches-the-first-of-its-own-subscription-vod-channels-anime-strike/)
+- [史上最も洗練された「身代金ウィルス」Sporaの恐るべき機能性](http://blogos.com/article/205763/)
 - [The public domain and 5 things not covered by copyright - Creative Commons](https://creativecommons.org/2017/01/16/public-domain-5-things-not-covered-copyright/)
 - [天の川を撃ち抜く超音速の『弾丸』を発見　－正体は「野良ブラックホール」か？－](http://www.nro.nao.ac.jp/news/2017/0116-yamada.html)
 - [FraugsterはAIでクレジットカード詐欺を防ぐスタートアップ―すでにVISAが採用 | TechCrunch Japan](http://jp.techcrunch.com/2017/01/17/20170116fraugster/)
