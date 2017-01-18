@@ -1,9 +1,9 @@
 +++
 tags = ["golang", "programming", "type"]
 description = "浮動小数点数型の変数をループカウンタにするのは止めましょうね。約束だよ！"
-date = "2017-01-18T13:58:53+09:00"
+date = "2017-01-18T21:45:30+09:00"
 title = "1を1億回足して1億にならない場合"
-draft = true
+draft = false
 
 [author]
   license = "by-sa"
@@ -20,11 +20,11 @@ draft = true
   tumblr = "spiegel-im-spiegel"
 +++
 
-（この記事は [Qiita に投稿した記事](http://qiita.com/spiegel-im-spiegel/items/74a49773413c62721189 "1を1億回足して1億にならない場合 - Qiita")の再掲載です）
+（この記事は [Qiita に投稿した記事](http://qiita.com/spiegel-im-spiegel/items/74a49773413c62721189 "1を1億回足して1億にならない場合 - Qiita")の転載です）
 
 今回は軽めのネタで。
 
-- [C > 浮動小数点型変数はループカウンタとして使用しない](http://qiita.com/7of9/items/438a43bf53d60eab59e3)
+- [C > 浮動小数点型変数はループカウンタとして使用しない - Qiita](http://qiita.com/7of9/items/438a43bf53d60eab59e3)
 
 まぁ浮動小数点数型の仕様を知れば当たり前の話なのだが，面白そうなので「1を1億回足す」ってのを [Go 言語]でも書いてみる。
 
@@ -77,7 +77,7 @@ $ go run loop2.go
 ```
 
 で，ちゃんと1億になる。
-[Go 言語]では基本型のサイズが厳密に決まってるので，浮動小数点数型の計算誤差についてもきちんと見積もれるはずである。
+[Go 言語]では基本型のサイズが厳密に決まってるので（int, uint, uintptr は除く），浮動小数点数型の計算誤差についてもきちんと見積もれるはずである。
 
 ちなみに
 
@@ -95,7 +95,7 @@ func main() {
 
 とすると[^var]
 
-[^var]: 「`d := 0.0`」と記述した場合，変数 `d` は `float64` として宣言・初期化される。
+[^var]: “`d := 0.0`” と記述した場合，変数 `d` は `float64` として宣言・初期化される。厳密には定数 “`0.0`” は，いったん「型付けなし」の浮動小数点数として評価された後，変数宣言時に `float64` に暗黙的に変換される。 [Go 言語]におけるこの定数の機能は何かと便利なので覚えておくとよいだろう。
 
 ```text
 $ go run loop3.go
@@ -117,12 +117,12 @@ $ go run loop3.go
 
 [^r]: このような結果になるのは `float32`/`float64` の浮動小数点数型の内部表現が2進数になっているため。たとえば 0.1 を2進数で表すと「0.000110011...」と循環しキリのいい値にならない。このため 0.1 を加算していくと「丸め誤差」が蓄積していくのである。
 
-[Go 言語]: https://golang.org/ "The Go Programming Language"
-
 ## ブックマーク
 
 - [浮動小数点数型と誤差](http://www.cc.kyoto-su.ac.jp/~yamada/programming/float.html)
 - [情報落ち、桁落ち、丸め誤差、打切り誤差の違い](http://tooljp.com/jyosho/docs/ketaochi-jyohoochi/ketaochi-jyohoochi.html)
+
+[Go 言語]: https://golang.org/ "The Go Programming Language"
 
 ## 参考図書
 
