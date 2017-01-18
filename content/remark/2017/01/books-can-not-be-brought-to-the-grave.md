@@ -4,7 +4,7 @@ draft = false
 tags = ["book", "e-book", "market"]
 description = "Eブックで出すのなら売る努力をすべきだし，その結果を正しくフィードバックさせなければならない。"
 date = "2017-01-16T19:35:31+09:00"
-update = "2017-01-17T10:50:49+09:00"
+update = "2017-01-18T22:53:07+09:00"
 
 [author]
   avatar = "/images/avatar.jpg"
