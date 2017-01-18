@@ -401,6 +401,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - [Atomのterminal-plusが動かないのでplatformio-ide-terminalを入れてみた | spiffieldLabs](http://labs.spiffield.net/archives/508)
 	- [ATOMエディタではじめるマイナー言語探訪(あんま怖くないNim②) - Qiita](http://qiita.com/kmry2045/items/b61a000ff257c01720e4)
     - [ATOM × NYAGOS ＝ ♥ — しっぽのさきっちょ | text.Baldanders.info](http://text.baldanders.info/remark/2016/11/nyagos-with-atom/)
+- [ATOMでJavaScriptの最強開発環境を作る - Qiita](http://qiita.com/uk-taniyama/items/35aad2e9280939201c4f)
 
 ### ATOM TeX 環境を整える
 
