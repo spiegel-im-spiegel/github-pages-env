@@ -1,6 +1,6 @@
 +++
 date = "2016-01-18T22:59:07+09:00"
-update = "2017-01-17T13:31:53+09:00"
+update = "2017-01-19T11:35:44+09:00"
 description = "今回は再帰呼び出しの話。"
 draft = false
 tags = ["golang", "recursion"]
@@ -41,10 +41,6 @@ func fibonacciNumber(n int) int {
 		return fibonacciNumber(n-2) + fibonacciNumber(n-1)
 	}
 }
-
-type ff func(int) int
-
-var fib = fibonacciNumber
 
 func main() {
 	fmt.Println(fibonacciNumber(40))

@@ -4,6 +4,7 @@
 - [ユリイカ2005年9月号 特集=水木しげる | |本 | 通販 | Amazon](https://www.amazon.co.jp/%E3%83%A6%E3%83%AA%E3%82%A4%E3%82%AB2005%E5%B9%B49%E6%9C%88%E5%8F%B7-%E7%89%B9%E9%9B%86-%E6%B0%B4%E6%9C%A8%E3%81%97%E3%81%92%E3%82%8B/dp/4791701380/ref=sr_1_8?ie=UTF8&qid=1484292650&sr=8-8&keywords=%E3%83%A6%E3%83%AA%E3%82%A4%E3%82%AB+2005)
 - [Github Pagesでホスティングしつつ、CloudFrontを使ってサイトをSSL対応の独自ドメインにする - Qiita](http://qiita.com/kechol/items/9609e1ab4a673e05b613)
 - [AVG、「AVG AntiVirus FREE」など主力製品の最新版を公開。Avastと統合後初のリリース - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1039393.html)
+- [Latest issue of Meteor News online! - Meteor News](http://meteornews.org/latest-issue-meteor-news-online/)
 
 ## ブックマーク
 
@@ -52,3 +53,21 @@
 - [「Raspberry Pi Compute Module 3」がリリース--CPU性能が初代の10倍に - ZDNet Japan](http://japan.zdnet.com/article/35095075/)
 - [AVG、「AVG AntiVirus FREE」など主力製品の最新版を公開。Avastと統合後初のリリース - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1039393.html)
 - [なぜ日本が世界共通語「Emoji」を生み出したのか、そしてその影響とは／古川健介『TOKYO INTERNET』｜PLANETS｜note](https://note.mu/wakusei2nd/n/n562b7d525897)
+- [米Yahoo!、自社で利用している継続的デリバリのためのツール「Screwdriver」をオープンソースで公開。大規模インフラに対応 － Publickey](http://www.publickey1.jp/blog/17/yahooscrewdriver.html)
+- [オラクルがSPARC/Solarisのロードマップをひっそりとアップデート。今年、SPARC nextとSolaris 11.nextが登場か － Publickey](http://www.publickey1.jp/blog/17/sparcsolarissparc_nextsolaris_11next.html)
+- [Latest issue of Meteor News online! - Meteor News](http://meteornews.org/latest-issue-meteor-news-online/)
+- [NASA — 2016 Sets Global Temperature Record](http://nasa.tumblr.com/post/156043559159/2016-sets-global-temperature-record)
+- [Oracle Java の脆弱性対策について(CVE-2017-3289等)：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/ciadr/vul/20170118-jre.html)
+    - [2017年 1月 Oracle Java SE のクリティカルパッチアップデートに関する注意喚起](http://www.jpcert.or.jp/at/2017/at170005.html)
+- [Atom on Windows - Atom Blog](http://blog.atom.io/2017/01/18/atom-on-windows.html)
+    - [64bit版インストーラーだけじゃない！　次期「Atom」にはWindows向けの改善が多数 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1039820.html)
+
+
+
+
+
+
+## Free Culture and CC0
+
+- [Understanding Free Cultural Works - Creative Commons](https://creativecommons.org/share-your-work/public-domain/freeworks/)
+- [Approved for Free Cultural Works - Creative Commons](https://creativecommons.org/2008/02/20/approved-for-free-cultural-works/)
