@@ -1,0 +1,112 @@
++++
+draft = true
+tags = ["book", "management", "market"]
+description = "「無料」が重要なんじゃないのだよ。そのもう1フィート先にあるものがとても重要なのである。"
+date = "2017-01-20T14:00:27+09:00"
+title = "「無料」という手段"
+
+[author]
+  linkedin = "spiegelimspiegel"
+  facebook = "spiegel.im.spiegel"
+  flickr = "spiegel"
+  tumblr = "spiegel-im-spiegel"
+  twitter = "spiegel_2007"
+  url = "http://www.baldanders.info/spiegel/profile/"
+  name = "Spiegel"
+  instagram = "spiegel_2007"
+  license = "by-sa"
+  avatar = "/images/avatar.jpg"
+  flattr = "spiegel"
+  github = "spiegel-im-spiegel"
++++
+
+いい感じに炎上しているらしいので便乗してみる。
+
+- [キングコング 西野 公式ブログ - お金の奴隷解放宣言。 - Powered by LINE](http://lineblog.me/nishino/archives/9256089.html)
+
+本を売る戦略は様々。
+私は
+
+{{< fig-quote title="お金の奴隷解放宣言。" link="http://lineblog.me/nishino/archives/9256089.html" >}}
+<q>10万部《売れる》ことよりも、1000万人が《知っている》ことの方が、はるかに価値がある</q>
+{{< /fig-quote >}}
+
+という考え方には敬意を表すものである。
+が，どうも文章がちぐはぐな印象を受ける。
+何でだろう？ と考えて，そもそも「お金の奴隷解放宣言。」というタイトルに違和感を感じているのだと気が付いた。
+
+## 「無料」にすることは「お金の奴隷解放」になるのか
+
+「お金」の最大の特徴は価値可換であること。
+
+「物々交換」というのは「お互いに持っている価値を交換すること」だ。
+でもそれぞれが持っている価値を比較するのは難しい（画家が描いた絵画は自身で作ったお米何キロ分になるのだろう）。
+しかも価値は取引の相手や時間などの要因で変動する。
+そこで価値を「お金」の量に変換することが考えられた。
+価値を「お金」に変換できるということは負債も「お金」に変換できる。
+信用もリスクも「お金」に変換できる。
+
+私は，「お金」は人類が生み出した最大級の発明だと思っている。
+だから「お金の奴隷解放宣言。」という言葉に違和感を覚えるのだ。
+
+似たようなことは以前にもあった。
+いわゆる「地域通貨」が大流行した時である。
+面白いことに，当時「地域通貨」を信望していた人たちの間には共通のバイブルのようなものがあった。
+それが「[エンデの遺言](http://www.amazon.co.jp/exec/obidos/ASIN/B008YOHIAY/baldandersinf-22/ "エンデの遺言「根源からお金を問うこと」 | 河邑 厚徳, グループ現代 | ビジネス・経済 | Kindleストア | Amazon")」である。
+
+この辺の話については山形浩生さんの記事で鋭くツッコまれているのでいるので，そちらを参考にどうぞ。
+ここでは割愛する。
+
+- [ 山形浩生の『ケイザイ2.0』第23回 地域通貨って、そんなにいいの？──その成否は時と場合によるのかも](http://cruel.org/hotwired/hotwired23_01.html)
+
+「お金の奴隷解放宣言。」という言葉には当時の「地域通貨信望者」と同じ匂いを感じるのだが，どうだろう。
+ちなみに地域通貨は今では「補完通貨」と呼ばれている。
+そして地球最大規模の補完通貨と言えるのが Bitcoin である。
+
+## 「有料で売りつつ無料でも公開する」というのはそれほど珍しいことではない
+
+作品を有料で売りつつ無料でも公開するというスキームは日本では珍しいかもしれないが，世界的には（事例は多くないかもしれないが）それほど珍しいことではない。
+特に初期の [Creative Commons] が行っていた「[アメリカ建国時代の著作権（The Founders' Copyright）]」では，賛同した出版社等が一定期間を過ぎた書籍を [CC Licenses] 下で公開する（もちろん作家と合意の上でだが）といった活動が見られた[^fc]。
+また作家自身が出版した書籍と同じ内容を [CC Licenses] 下で公開したり，執筆段階から作品を公開してレビューを受けたり議論を交わしたりといった事例もある。
+
+[^fc]: 本来の「[アメリカ建国時代の著作権（The Founders' Copyright）]」は作品の著作権を [Creative Commons] 管理下に置き，公開から14年または28年後に公有化するというものだったが，実際にはそこまでやるところは少なかったようで，公開から一定期間経過した作品を [CC Licenses] 下で自主的に公開する程度にとどまった（それでも充分画期的だったが）。また「[アメリカ建国時代の著作権（The Founders' Copyright）]」は米国以外では実現が難しかった。これが後に [CC0] ライセンスが登場するきっかけのひとつになったと言える。
+
+そこまで行かなくてもブログ公開した作品が人気になって書籍化されるなんてことはもう日本でも珍しくないだろう[^s]。
+昨年ヒットした映画「[火星の人]({{< relref "remark/2016/02/the-martian.md" >}} "映画『火星の人』を観た")」は，とあるプログラマがブログで連載していた SF 作品を自己出版したことでブレイクした。
+
+[^s]: 「[小説家になろう](http://syosetu.com/)」みたいなサービスとかあるよね。私はそういうの疎いので最近まで知らなかったのだけど。
+
+## その先にあるもの
+
+[この記事]への批判を眺むるに，みんな「無料」という点にこだわりすぎなんじゃないだろうか。
+ここでは「無料」は手段に過ぎない。
+多くの人（特に子ども）に接触機会を提供するというのであれば，たとえば希望する学校や図書館に格安で配布するというのもいいかもしれない。
+手段なんていくらでもあるし，ポイントはそこではないのだ。
+
+[ブログでも書いた]({{< relref "remark/2017/01/books-can-not-be-brought-to-the-grave.md" >}} "本は墓場まで持ち込めない")が，
+
+>本を出版するというのは作家やその作品を如何にしてプロデュースし読者に届けるかということである。届ける努力をせずに漫然と「売れない」「評価されない」などと言うのは明確に怠慢であり，読者から見れば「知らんよ，そんなもん」としか言いようがない。
+
+故に今回のネットでの公開は絵本のプロモーションとしては実に王道と言える。
+まぁ誰にでも使える手ではないのだが。
+
+「無料」が重要なんじゃないのだよ。
+そのもう1フィート先にあるものがとても重要なのである。
+
+## ブックマーク
+
+- [大ヒット中の絵本『えんとつ町のプペル』を全ページ無料公開します（キンコン西野） - Spotlight (スポットライト)](http://spotlight-media.jp/article/370505056378315909)
+- [西野「絵本の無料公開後、Amazonランキング1位に。その理由を冷静に考えた」 - Spotlight (スポットライト)](http://spotlight-media.jp/article/371477452226041923)
+
+[この記事]: http://lineblog.me/nishino/archives/9256089.html "キングコング 西野 公式ブログ - お金の奴隷解放宣言。 - Powered by LINE"
+[Creative Commons]: https://creativecommons.org/ "Creative Commons"
+[CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
+[CC0]: https://creativecommons.org/publicdomain/zero/1.0/ "Creative Commons — CC0 1.0 Universal"
+[アメリカ建国時代の著作権（The Founders' Copyright）]: https://wiki.creativecommons.org/wiki/Founders_Copyright "Founders Copyright - Creative Commons"
+
+## 参考図書
+
+<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4845911744/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51pDWTdSdlL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4845911744/baldandersinf-22/">フリーカルチャーをつくるためのガイドブック  クリエイティブ・コモンズによる創造の循環</a></dt><dd>ドミニク・チェン </dd><dd>フィルムアート社 2012-05-25</dd><dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4757103581/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4757103581.09._SCTHUMBZZZ_.jpg"  alt="電脳のレリギオ:ビッグデータ社会で心をつくる"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4791767160/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4791767160.09._SCTHUMBZZZ_.jpg"  alt="インターネットを生命化する プロクロニズムの思想と実践"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4778314379/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4778314379.09._SCTHUMBZZZ_.jpg"  alt="暇と退屈の倫理学 増補新版 (homo Viator)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4761525649/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4761525649.09._SCTHUMBZZZ_.jpg"  alt="シェアをデザインする: 変わるコミュニティ、ビジネス、クリエイションの現場"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4757103506/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4757103506.09._SCTHUMBZZZ_.jpg"  alt="みんなのビッグデータ: リアリティ・マイニングから見える世界"  /></a> </p>
+<p class="description">国内における Free Culture の事例が豊富。取っ掛かりとしてはちょうどよい本。</p>
+<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-05-07">2015/05/07</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+</div>

@@ -5,6 +5,7 @@
 - [Github Pagesでホスティングしつつ、CloudFrontを使ってサイトをSSL対応の独自ドメインにする - Qiita](http://qiita.com/kechol/items/9609e1ab4a673e05b613)
 - [AVG、「AVG AntiVirus FREE」など主力製品の最新版を公開。Avastと統合後初のリリース - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1039393.html)
 - [Latest issue of Meteor News online! - Meteor News](http://meteornews.org/latest-issue-meteor-news-online/)
+- [クラウドを支えるこれからの暗号技術 | 光成 滋生 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/479804413X/hyam-22/)
 
 ## ブックマーク
 
@@ -61,11 +62,14 @@
     - [2017年 1月 Oracle Java SE のクリティカルパッチアップデートに関する注意喚起](http://www.jpcert.or.jp/at/2017/at170005.html)
 - [Atom on Windows - Atom Blog](http://blog.atom.io/2017/01/18/atom-on-windows.html)
     - [64bit版インストーラーだけじゃない！　次期「Atom」にはWindows向けの改善が多数 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1039820.html)
-
-
-
-
-
+- [Amazon Dash Buttonは何がヤバイのか – Medium](https://medium.com/@tokoroten/-4fb29f42041d)
+    - [Amazonの音声認識「Alexa」は世界のIoTを席巻し「スマートフォンの次」のプラットフォームの覇者となりつつある - GIGAZINE](http://gigazine.net/news/20170117-amazon-alexa-expanding/)
+- [Google、Twitterのモバイル開発プラットフォーム「Fabric」を買収、モバイルバックエンドサービスの「Firebase」に統合。Firebaseのクラッシュ解析機能など強化へ － Publickey](http://www.publickey1.jp/blog/17/googletwitterfabricfirebasefirebase.html)
+- [Heartbeat as Biometric Password - Schneier on Security](https://www.schneier.com/blog/archives/2017/01/heartbeat_as_bi.html)
+- [OSのデバッグ：メモリアロケーション講座 | コンピュータサイエンス | POSTD](http://postd.cc/debugging_your_operating_system/)
+- [Miraiボットネットの作者は裏世界に魅せられた（本業は）DDoS保護デベロッパーだった | TechCrunch Japan](http://jp.techcrunch.com/2017/01/19/20170118mirai-botnet-creator-unmasked-as-ddos-protection-developer-tempted-by-the-dark-side/)
+- [マルウェア「Mirai」に感染したIoT機器が急増、亜種も相次ぎ出現 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1610/20/news061.html)
+- [CVE-2016-7117脆弱性のチェックと対応 - Qiita](http://qiita.com/shouta-dev/items/64425cf12a0c6caf8b38)
 
 ## Free Culture and CC0
 
