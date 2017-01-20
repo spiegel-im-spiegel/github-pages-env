@@ -1,8 +1,8 @@
 +++
-draft = true
+draft = false
 tags = ["book", "management", "market"]
 description = "「無料」が重要なんじゃないのだよ。そのもう1フィート先にあるものがとても重要なのである。"
-date = "2017-01-20T14:00:27+09:00"
+date = "2017-01-20T21:05:08+09:00"
 title = "「無料」という手段"
 
 [author]
