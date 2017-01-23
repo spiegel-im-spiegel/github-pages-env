@@ -9,6 +9,20 @@
 
 ## ブックマーク
 
+### Track Trump
+
+- [Track Trump. The First 100 Days](http://www.track-trump.com/)
+- [トランプ新大統領の活動をモニタリングするTrack Trumpがローンチ | TechCrunch Japan](http://jp.techcrunch.com/2017/01/22/20170120track-trump-will-compare-trumps-promises-to-policy-changes-in-the-first-100-days/)
+- [ホワイトハウスの公式Webサイトから気候変動への言及がいっさい消え去る | TechCrunch Japan](http://jp.techcrunch.com/2017/01/21/20170120the-official-white-house-website-has-dropped-any-mention-of-climate-change/)
+- [ホワイトハウスのWebサイトからLGBTの人権ページが消えた | TechCrunch Japan](http://jp.techcrunch.com/2017/01/21/20170120the-white-houses-lgbt-rights-page-has-disappeared/)
+
+### その他
+
+- [net-tools は使われなくなり iproute2 が標準的になるかも - Qiita](http://qiita.com/miyu/items/0cac69b6810dbbc56a9b)
+- [マンガでわかるGit 9話「pullの正体はfetch＋mergeだった？」｜CodeIQ MAGAZINE](https://codeiq.jp/magazine/2017/01/48796/)
+- [米大統領の公式Twitterアカウント移行ミスで56万人が意図せずトランプ氏をフォロー（修正済み） - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1701/22/news014.html)
+- [パナソニックはTeslaへのバッテリ供給だけではなく、自動運転技術での協業にも意欲 | TechCrunch Japan](http://jp.techcrunch.com/2017/01/20/20170119panasonic-wants-to-expand-tesla-partnership-to-sensors-for-self-driving/)
+- [インターネットの黄金時代をどう次世代に残せばいいのか？ | MITテクノロジーレビュー](https://www.technologyreview.jp/s/22020/the-internet-is-sick/)
 
 ## Free Culture and CC0
 

@@ -2,7 +2,7 @@
 title       = "Hugo に関するブックマーク"
 description = "当サイトを Hugo で構築するにあたって参考になったページを紹介する。"
 date        = "2015-09-05T00:00:00+09:00"
-update      = "2016-12-14T10:22:16+09:00"
+update      = "2017-01-23T09:35:23+09:00"
 tags        = [ "hugo", "bookmark" ]
 
 [author]
@@ -55,6 +55,7 @@ flattr    = "spiegel"
 
 - [Hugo + Github Pages + Wercker CI = ¥0（無料）でコマンド 1 発（自動化）でサイト・ブログを公開・運営・分析・収益化 - Qiita](http://qiita.com/yoheimuta/items/8a619cac356bed89a4c9)
 - [HugoとCircleCIでGitHub PagesにBlogを公開してみたら超簡単だった · Hori Blog](http://hori-ryota.com/blog/create-blog-with-hugo-and-circleci/)
+- [Golang Hugoで高速なブログを作る -- Travis CI, S3, CloudFront Route53 - Qiita](http://qiita.com/juntaki/items/8a905e4d2b9c3bb518d4)
 
 ## 関連ドキュメント{#rel}
 
