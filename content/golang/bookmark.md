@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-01-20T13:09:18+09:00"
+update = "2017-01-23T09:15:33+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -83,6 +83,7 @@ title = "Go 言語に関するブックマーク"
 - [Goにatexitやグローバルなデストラクタがない理由 - Qiita](http://qiita.com/ruiu/items/22910a4bae6cb716a391)
 - [init関数のふしぎ #golang - Qiita](http://qiita.com/tenntenn/items/7c70e3451ac783999b4f)
     - [packageに複数のinitがあるときの挙動 - Qiita](http://qiita.com/astronoka/items/aa2f271d280863cedf5e)
+- [Goで任意のbuild tagsをつけてビルドファイルを切り替える - Qiita](http://qiita.com/ueokande/items/fac0d1219dbbc8f44db7)
 
 ### 文字列操作または変換
 
