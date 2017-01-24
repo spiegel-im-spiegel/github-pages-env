@@ -6,6 +6,7 @@
 - [AVG、「AVG AntiVirus FREE」など主力製品の最新版を公開。Avastと統合後初のリリース - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1039393.html)
 - [Latest issue of Meteor News online! - Meteor News](http://meteornews.org/latest-issue-meteor-news-online/)
 - [クラウドを支えるこれからの暗号技術 | 光成 滋生 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/479804413X/hyam-22/)
+- [iPhone 交換後、LINE だけ、未だ復活せず・・・ - 電気ウナギ的○○](http://blog.netandfield.com/shar/2017/01/iphone-line.html)
 
 ## ブックマーク
 
@@ -23,6 +24,13 @@
 - [米大統領の公式Twitterアカウント移行ミスで56万人が意図せずトランプ氏をフォロー（修正済み） - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1701/22/news014.html)
 - [パナソニックはTeslaへのバッテリ供給だけではなく、自動運転技術での協業にも意欲 | TechCrunch Japan](http://jp.techcrunch.com/2017/01/20/20170119panasonic-wants-to-expand-tesla-partnership-to-sensors-for-self-driving/)
 - [インターネットの黄金時代をどう次世代に残せばいいのか？ | MITテクノロジーレビュー](https://www.technologyreview.jp/s/22020/the-internet-is-sick/)
+- [トランプ報道官の「オルタナティブ・ファクト」で大喜利　「1984」との類似点も - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1701/24/news071.html)
+- [56歳からコードを書き始めて食べていく方法 – Medium Japan – Medium](https://medium.com/japan/-37054b5dc8ce)
+- [組織全体でGitHubを使うようになるまで（前編）～ 使い方が分からない？ 使うのが怖い？ Cookpad TechConf 2017 － Publickey](http://www.publickey1.jp/blog/17/github_cookpad_techconf_2017.html)
+    - [組織全体でGitHubを使うようになるまで（後編）～ エンジニアでなくてもGitHubは便利に使える。Cookpad TechConf 2017 － Publickey](http://www.publickey1.jp/blog/17/github_githubcookpad_techconf_2017.html)
+- [Samsung、Note 7爆発の原因はバッテリーという当然の結論 | TechCrunch Japan](http://jp.techcrunch.com/2017/01/23/20170122note-7-3/)
+- [IPAテクニカルウォッチ「ランサムウェアの脅威と対策」：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/technicalwatch/20170123.html)
+- [オーストラリアはバイオメトリクスのスキャンで空港におけるパスポートチェックを廃止へ | TechCrunch Japan](http://jp.techcrunch.com/2017/01/24/20170123australia-airport/)
 
 ## Free Culture and CC0
 

@@ -1,7 +1,7 @@
 +++
 description = "個人で Slack を使ってみる。"
 draft = false
-tags = ["slack", "tools"]
+tags = ["slack", "tools", "feed"]
 date = "2017-01-09T17:24:54+09:00"
 update = "2017-01-10T16:47:12+09:00"
 title = "いまさら聞けない Slack の使い方"
