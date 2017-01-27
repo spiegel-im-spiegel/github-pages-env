@@ -1,8 +1,8 @@
 +++
 tags = ["golang", "x509", "time"]
 description = "crypto/x509 および time パッケージを使っているプロジェクトは要対応である。"
-draft = true
-date = "2017-01-27T17:41:18+09:00"
+draft = false
+date = "2017-01-27T20:16:27+09:00"
 title = "Go 1.7.5 がリリース"
 
 [author]
