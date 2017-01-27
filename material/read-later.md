@@ -31,6 +31,8 @@
 - [Samsung、Note 7爆発の原因はバッテリーという当然の結論 | TechCrunch Japan](http://jp.techcrunch.com/2017/01/23/20170122note-7-3/)
 - [IPAテクニカルウォッチ「ランサムウェアの脅威と対策」：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/technicalwatch/20170123.html)
 - [オーストラリアはバイオメトリクスのスキャンで空港におけるパスポートチェックを廃止へ | TechCrunch Japan](http://jp.techcrunch.com/2017/01/24/20170123australia-airport/)
+- [大学の講義でもSlackを使おう – 東京工業大学エンジニアリングデザインプロジェクト – Medium](https://medium.com/titech-eng-and-design/-37a666d6221f)
+- [自らの商標を他人に商標登録出願されている皆様へ（ご注意） | 経済産業省 特許庁](http://www.jpo.go.jp/tetuzuki/t_shouhyou/shutsugan/tanin_shutsugan.htm)
 
 ## Free Culture and CC0
 

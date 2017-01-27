@@ -273,6 +273,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - スクラッチパッドみたいなんないのん？ と思って探していたのだが， [tempfile](https://atom.io/packages/tempfile) というパッケージが登場した。ファイルタイプを指定できる。またファイルの保存先を指定できるため，適当に書き散らしたものを保存することも可能。
 - 特定の単語をマークしておける [quick-highlight](https://atom.io/packages/quick-highlight) が結構使える。 Windows だとキーに割り当てられないので、 toggle を適当なファンクションキーとかに割り当てておくとめっさ便利。
 - [tablr](https://atom.io/packages/tablr) : CSV Editor。なにこれ素敵！
+- [markdown-pdf](https://atom.io/packages/markdown-pdf) : markdwon 文書を PDF に変換してくれるらしい
 
 ## 継続調査（欲しい機能）
 
