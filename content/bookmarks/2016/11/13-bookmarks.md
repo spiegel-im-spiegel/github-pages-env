@@ -2,7 +2,7 @@
 description = "「X暗号化メールサービスProtonMailの新規ユーザーが選挙後に急増、トランプ新大統領の不寛容を懸念」他"
 draft = false
 date = "2016-11-13T11:40:48+09:00"
-title = "2016-11-08 のブックマーク"
+title = "2016-11-13 のブックマーク"
 
 [author]
   facebook = "spiegel.im.spiegel"
