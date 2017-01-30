@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-01-28T15:36:09+09:00"
+update = "2017-01-30T10:31:35+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -439,6 +439,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [goパッケージで簡単に静的解析して世界を広げよう #golang - Qiita](http://qiita.com/tenntenn/items/868704380455c5090d4b)
 - [Big Sky :: Re: Go でシングルバイナリな Web アプリを開発しているときに webpack --watch をうまいところやる](http://mattn.kaoriya.net/software/lang/go/20170119180147.htm)
 - [Big Sky :: golang オフィシャル謹製のパッケージ依存解決ツール「dep」](http://mattn.kaoriya.net/software/lang/go/20170125023240.htm)
+    - [dep(Go dependency tool)を自作ライブラリに使ってみた - Qiita](http://qiita.com/kwmt@github/items/0f77e083494ca94d782b)
 
 ### コマンドライン・ツール
 
@@ -577,6 +578,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go言語の低レイテンシGC実現のための取り組み | プログラミング | POSTD](http://postd.cc/gos-march-to-low-latency-gc/)
 - [Go言語がダメな理由 | プログラミング | POSTD](http://postd.cc/why-go-is-not-good/)
 - [ASCII.jp：Goならわかるシステムプログラミング](http://ascii.jp/elem/000/001/235/1235262/)
+- [グーグルの「Go」、2016年のプログラミング言語大賞に輝く - ZDNet Japan](http://japan.zdnet.com/article/35094856/)
 
 ### Go 1.5 に関する話題
 

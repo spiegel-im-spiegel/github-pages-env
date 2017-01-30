@@ -3,7 +3,7 @@ draft = false
 tags = ["book", "management", "market"]
 description = "「無料」が重要なんじゃないのだよ。そのもう1フィート先にあるものがとても重要なのである。"
 date = "2017-01-20T21:05:08+09:00"
-update = "2017-01-26T17:02:52+09:00"
+update = "2017-01-30T12:39:37+09:00"
 title = "「無料」という手段"
 
 [author]
@@ -99,6 +99,7 @@ title = "「無料」という手段"
 - [大ヒット中の絵本『えんとつ町のプペル』を全ページ無料公開します（キンコン西野） - Spotlight (スポットライト)](http://spotlight-media.jp/article/370505056378315909)
 - [西野「絵本の無料公開後、Amazonランキング1位に。その理由を冷静に考えた」 - Spotlight (スポットライト)](http://spotlight-media.jp/article/371477452226041923)
 - [キングコング・西野さんの絵本無料公開を批判するクリエイターは、今後確実に食えなくなる。(中嶋よしふみ) - 個人 - Yahoo!ニュース](http://bylines.news.yahoo.co.jp/nakajimayoshifumi/20170126-00066990/)
+- [Google、書籍「Site Reliability Engineering」の無料公開を開始。インフラや運用をソフトウェアで改善していく新しいアプローチ － Publickey](http://www.publickey1.jp/blog/17/googlesite_reliability_engineering.html)
 
 [この記事]: http://lineblog.me/nishino/archives/9256089.html "キングコング 西野 公式ブログ - お金の奴隷解放宣言。 - Powered by LINE"
 [Creative Commons]: https://creativecommons.org/ "Creative Commons"

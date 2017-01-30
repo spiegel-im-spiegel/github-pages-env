@@ -10,12 +10,17 @@
 
 ## ブックマーク
 
+### Age of Trump
 
+- [MicrosoftやTwitterなど、大手IT企業が続々とトランプ大統領令に懸念を表明 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1701/29/news020.html)
+    - [FacebookのCEOとCOO、トランプ大統領令にそれぞれ懸念表明 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1701/29/news016.html)
+    - [トランプ大統領を提訴したACLUと移民が小さな勝利──大統領令の部分的な執行停止 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1701/30/news067.html)
+    - [Airbnb、入国拒否命令の被害者に無料宿泊を提供 | TechCrunch Japan](http://jp.techcrunch.com/2017/01/30/20170129airbnb-free-housing-immigration-ban/)
 
+### その他
 
-
-
-
+- [Apple、イラン製iOSアプリをApp Storeから削除しているとの報道 | TechCrunch Japan](http://jp.techcrunch.com/2017/01/30/20170129apple-has-allegedly-begun-removing-iranian-ios-apps-from-the-app-store/)
+- [Google、書籍「Site Reliability Engineering」の無料公開を開始。インフラや運用をソフトウェアで改善していく新しいアプローチ － Publickey](http://www.publickey1.jp/blog/17/googlesite_reliability_engineering.html)
 
 
 ## Free Culture and CC0
