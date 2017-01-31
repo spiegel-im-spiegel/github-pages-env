@@ -1,6 +1,6 @@
 +++
 date = "2015-09-29T23:40:59+09:00"
-update = "2016-02-01T09:29:53+09:00"
+update = "2017-01-31T09:29:41+09:00"
 description = "go get コマンドは外部パッケージの revision 等をコントロールできず，常に repository の最新コードを取ってこようとする。GOPATH 内に複数のプロジェクトが同居している場合は同じ外部パッケージでもプロジェクトごとに異なるリビジョンを要求する場合があり，管理が煩雑になってしまう。"
 draft = false
 tags = ["golang", "engineering", "environment", "pollution", "vendoring", "package"]
@@ -263,6 +263,8 @@ C:>git submodule init
 C:>git submodule update
 C:>go install ./...
 ```
+
+（「[Glide で Vendoring]({{< relref "golang/vendoring-with-glide.md" >}})」に続く）
 
 ## ブックマーク
 
