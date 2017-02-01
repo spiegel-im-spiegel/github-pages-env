@@ -127,6 +127,7 @@ Amazon.co.jp はいったい何がしたいのだろうか。
 - [アメリカの電子書籍、“ブーム”は終了 « マガジン航[kɔː]](http://magazine-k.jp/2014/04/08/end-of-ebook-boom/)
 - [売上げシェアは３割だけど、アメリカ人の半数以上はＥブックを読んでいる—Musings on the latest Harris Poll on Ebooks | Books and the City](http://oharakay.com/archives/3487)
 - [「本屋に行って本を買って読みましょう」だと？]({{< relref "remark/2017/01/lets-buy-books-at-book-stores.md" >}})
+- [「電子書籍の購入は作家の応援にならない」は本当？ 現役編集者に聞いた - KAI-YOU.net](http://kai-you.net/article/37959)
 
 ## 参考図書
 
