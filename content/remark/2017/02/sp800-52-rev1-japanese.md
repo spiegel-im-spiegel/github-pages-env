@@ -1,7 +1,7 @@
 +++
-date = "2017-02-01T09:07:16+09:00"
+date = "2017-02-01T23:06:06+09:00"
 title = "NIST SP800-52 Rev.1 の邦訳が登場"
-draft = true
+draft = false
 tags = ["security", "cryptography", "tls", "nist"]
 description = "NIST SP800-52 Rev.1 の邦訳が登場したようだ。"
 

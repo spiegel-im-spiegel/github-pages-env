@@ -1,8 +1,8 @@
 +++
 description = "地球から流出した酸素が「地球風」に乗って月に届いている，らしい / 国際天文連合による政治声明 / 2018年の暦要項 / その他ブックマーク"
-date = "2017-02-01T11:15:01+09:00"
+date = "2017-02-01T23:05:44+09:00"
 title = "最近の天文ニュースより"
-draft = true
+draft = false
 tags = ["astronomy", "politics", "calendar", "moon", "kaguya"]
 
 [author]
