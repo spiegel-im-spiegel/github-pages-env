@@ -1,6 +1,7 @@
 +++
 description = "地球から流出した酸素が「地球風」に乗って月に届いている，らしい / 国際天文連合による政治声明 / 2018年の暦要項 / その他ブックマーク"
 date = "2017-02-01T23:05:44+09:00"
+update = "2017-02-04T11:52:49+09:00"
 title = "最近の天文ニュースより"
 draft = false
 tags = ["astronomy", "politics", "calendar", "moon", "kaguya"]
@@ -34,6 +35,7 @@ tags = ["astronomy", "politics", "calendar", "moon", "kaguya"]
 
 - [Biogenic oxygen from Earth transported to the Moon by a wind of magnetospheric ions : Nature Astronomy](http://www.nature.com/articles/s41550-016-0026)
 - [月における生命の足跡 | Nature Astronomy | Nature Research](http://www.natureasia.com/ja-jp/natastron/pr-highlights/11588) : 論文のダイジェスト記事
+- [地球の高層大気から流出した酸素イオンを月周回衛星「かぐや」で検出 | 宇宙科学研究所](http://www.isas.jaxa.jp/topics/000838.html)
 - [地球大気の酸素、月まで届いていた　衛星「かぐや」データより大阪大学など発表 | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_01_31_oxy.html)
 
 何故か NHK のニュースで報じられたそうで微妙に反響があるようである。
@@ -67,6 +69,8 @@ IAU が珍しいことするなぁ，と思ったが
 まっ，これが本当の政権交代というものである[^a]。
 
 [^a]: インターネットを通じた世論調査では件の大統領令に対して賛成側がわずかに多いという結果になったそうだ。トランプ政権はおそらくこのまま突き進むのであろう。（参考： [Age-of-Trump - Spiegel's Branch - Scrapbox](https://scrapbox.io/spiegel-branch/Age-of-Trump)）
+
+- [Mixed Reactions in Space Community to Immigration Executive Order](http://www.space.com/35575-trump-immigration-order-space-community-reaction.html)
 
 ## 2018年の暦要項{#naojc}
 
