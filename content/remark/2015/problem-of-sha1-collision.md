@@ -1,6 +1,6 @@
 +++
 date = "2015-10-22T14:35:22+09:00"
-update = "2016-02-09T19:31:08+09:00"
+update = "2017-02-04T21:28:01+09:00"
 description = "GPU をふんだんに使った専用ハードウェアやクラウド・サービスなどを組み合わせることにより，近い将来に実用的なコストで SHA-1 攻略が可能になると指摘されている。"
 draft = false
 tags = ["security", "cryptography", "hash", "sha-1", "collision", "risk"]
@@ -174,6 +174,7 @@ GPU ベースのシステムやクラウド・サービス等による巨大計�
 - [CRYPTREC | SHA-1の安全性について](http://www.cryptrec.go.jp/topics/cryptrec_20151218_sha1_cryptanalysis.html)
     - {{< pdf-file title="CRYPTREC暗号技術ガイドライン(SHA-1)" link="http://www.cryptrec.go.jp/report/c13_tech_guideline_SHA-1_web.pdf" >}}
 - [[IT 管理者向け] 残っていませんか? SSL/TLS 証明書の SHA-1 廃止はもうすぐ - 日本のセキュリティチーム - Site Home - TechNet Blogs](http://blogs.technet.com/b/jpsecurity/archive/2016/02/08/sha1-deprecation-tls.aspx)
+- [「Google Chrome」の閲覧画面にエラーが！ ～“https://”のサイトにアクセスできない - やじうまの杜 - 窓の杜](http://forest.watch.impress.co.jp/docs/serial/yajiuma/1041798.html)
 
 ## 関連図書
 
