@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T23:59:59+09:00"
-update = "2017-02-03T09:38:38+09:00"
+update = "2017-02-06T18:21:39+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark", "package"]
@@ -44,6 +44,7 @@ title = "Go 言語に関するブックマーク（サンプルコード，パ�
 - [golangでlogを標準出力とテキストファイルの2箇所の出力する - Qiita](http://qiita.com/74th/items/441ffcab80a6a28f7ee3)
 - [gorpで実行されるSQLをログに出力する - Qiita](http://qiita.com/reiki4040/items/303a0bfa9f0296eb544f)
 - [Goのバッチで統計を取得するAPIを用意しておくと便利 - Qiita](http://qiita.com/sudix/items/c542e1b59bc94dc741e3)
+- [golangのloggerを作ってみた - Qiita](http://qiita.com/kazuma1107/items/009454fca4f56af6e411)
 
 ## コマンドライン・ツール
 
@@ -133,6 +134,7 @@ title = "Go 言語に関するブックマーク（サンプルコード，パ�
 - [goa でデザイン・ファーストをシュッとする - Qiita](http://qiita.com/ikawaha/items/6638ee8b6978aef50d65)
 - [echo 初心者でも簡単!! echo で扱うアセットファイル群を簡単にバイナリにまとめて使ってみる - Qiita](http://qiita.com/Kei-Kamikawa/items/a6cb72251b95c8f5baa1)
 - [Go ライブラリによる CGIプログラム内ルーチング - Qiita](http://qiita.com/jyagaimo_qiita_/items/93d195ca65982b75e205)
+- [Go 言語で Apache Bench (ab) を実装してみた - takatoshiono's blog](http://takatoshiono.hatenablog.com/entry/2017/02/06/013323)
 
 ## 他サービスとの連携
 
@@ -161,6 +163,7 @@ title = "Go 言語に関するブックマーク（サンプルコード，パ�
 - [Go+GAE+Cloud Datastoreで簡単なREST APIを構築 - Qiita](http://qiita.com/silverfox/items/81769425e51f24e676d2])
 - [Google App Engine SDK for Goを使ってGAE上でアプリを動かすまで - Qiita](http://qiita.com/walkers/items/e407386d7ef184ec830a)
 - [GAE/Goで形態素解析してみた - Qiita](http://qiita.com/mako0715/items/259659e5e2935d2afc10)
+- [GAE/Go+glide的な構成での環境構築 ~ローカルサーバー立ち上げまで~ - Qiita](http://qiita.com/ryutah/items/d864310c62f0385d876d)
 
 ## Go で数学
 
@@ -240,7 +243,7 @@ title = "Go 言語に関するブックマーク（サンプルコード，パ�
 - [Big Sky :: golang の http.Client を速くする](http://mattn.kaoriya.net/software/lang/go/20170112181052.htm)
 - [goパッケージで簡単に静的解析して世界を広げよう #golang - Qiita](http://qiita.com/tenntenn/items/868704380455c5090d4b)
 - [Big Sky :: Re: Go でシングルバイナリな Web アプリを開発しているときに webpack --watch をうまいところやる](http://mattn.kaoriya.net/software/lang/go/20170119180147.htm)
-
+- [Ruby + mecabが遅いのでGoを経由する - Qiita](http://qiita.com/EastResident/items/f41fd0285fe270e7d3d5)
 
 ## 参考図書
 
