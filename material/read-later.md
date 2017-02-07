@@ -10,10 +10,6 @@
     - [マンガに出てくるロボットが必ず背負わされてしまう「ある宿命」（森山 和道） | 現代ビジネス | 講談社（1/3）](http://gendai.ismedia.jp/articles/-/50807)
 
 - [「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/) : あとで feed を登録する
-- [WordPress の脆弱性対策について：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/ciadr/vul/20170206-wordpress.html)
-    - [WordPress の脆弱性に関する注意喚起](https://www.jpcert.or.jp/at/2017/at170006.html)
-    - [WordPress 4.7.1 の権限昇格脆弱性について検証した | 徳丸浩の日記](http://blog.tokumaru.org/2017/02/wordpress-4.7.1-Privilege-Escalation.html)
-    - [WordPress、更新版で深刻な脆弱性を修正　安全確保のため情報公開を先送り - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1702/03/news063.html)
 
 ## ブックマーク
 
@@ -30,9 +26,12 @@
 - [トランプ政権誕生12日目 - 山猫日記](http://lullymiura.hatenadiary.jp/entry/2017/02/01/145451)
 - [トランプ「日本批判」の本当の狙い〜「愚か者」扱いはキケンだ！（髙橋 洋一） | 現代ビジネス | 講談社（1/4）](https://scrapbox.io/spiegel-branch/)
 - [私たちはどんな時代を生きているか〜世界を覆う新しい「戦争の構造」（篠田 英朗） | 現代ビジネス | 講談社（1/4）](http://gendai.ismedia.jp/articles/-/50566)
+- [「トランプ登場」で変転する「米中露三国志」：名越健郎 | ロシアの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41982)
+- [【社説】入国禁止令を自ら窮地に追いやるトランプ氏 - WSJ](http://jp.wsj.com/articles/SB11367774349816344181604582604400177657354?reflink=fb)
 
 ### 天文関連
 
+- [Discovery of Water on 51 Peg b | astrobites](https://astrobites.org/2017/02/01/discovery-of-water-on-51-peg-b/) : ペガスス座51番星の惑星大気に水を発見
 
 ### その他
 
@@ -45,8 +44,14 @@
 - [データURLスキームを使ったフィッシングサイトについて調べてみた - piyolog](http://d.hatena.ne.jp/Kango/20170206/1486351285)
 - [2017年2月6日ニュース「脳内の『やる気のスイッチ』を発見」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/02/20170206_01.html)
 - [公衆とJASRAC: 壇弁護士の事務室](http://danblog.cocolog-nifty.com/index/2017/02/jasrac-599f.html)
+- [JASRAC vs 音楽教室：法廷で争った場合の論点を考える(栗原潔) - 個人 - Yahoo!ニュース](http://bylines.news.yahoo.co.jp/kuriharakiyoshi/20170206-00067411/)
 - [Google Online Security Blog: Hosted S/MIME by Google provides enhanced security for Gmail in the enterprise](https://security.googleblog.com/2017/02/hosted-smime-by-google-provides.html)
 - [Cookieヘッダーを用いてC&CサーバとやりとりするマルウエアChChes(2017-01-26)](http://www.jpcert.or.jp/magazine/acreport-ChChes.html)
+- [2017年2月7日ニュース「他人のiPS使い世界初の臨床研究開始 理研などが網膜細胞で」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/02/20170207_01.html)
+- [Hacker Leaks Cellebrite's Phone-Hacking Tools - Schneier on Security](https://www.schneier.com/blog/archives/2017/02/hacker_leaks_ce.html)
+- [ビットコインの先に見出すべきは「国際送金」という新たなマーケット｜WIRED.jp](http://wired.jp/2017/02/05/stellar-emerges-from-shadow/)
+- [海外サーバーに保管されたEメールデータをFBIに引き渡し ― Googleのケースに判決下る | TechCrunch Japan](http://jp.techcrunch.com/2017/02/06/20170204google-told-to-hand-over-foreign-emails-in-fbi-search-warrant-ruling/)
+
 
 ## Free Culture and CC0
 

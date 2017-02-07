@@ -2,7 +2,7 @@
 title       = "Hugo に関するブックマーク"
 description = "当サイトを Hugo で構築するにあたって参考になったページを紹介する。"
 date        = "2015-09-05T00:00:00+09:00"
-update      = "2017-01-23T09:35:23+09:00"
+update      = "2017-02-07T09:37:50+09:00"
 tags        = [ "hugo", "bookmark" ]
 
 [author]
@@ -84,5 +84,6 @@ flattr    = "spiegel"
 - [WindowsでHugoを使う - ureta.net](http://ureta.net/2015/05/hugo-on-windows/)
 - [Hugo のテンプレート 基本 | My Blog](http://takunagai.github.io/post/hugo/template/)
 - [Hugoでタグやカテゴリのリンク切れが起こる - Qiita](http://qiita.com/_shun_sato_/items/87888fa8425e55b1c758)
+- [Hugoと自作シェルスクリプトによるMarkdownメモ環境の構築 - Qiita](http://qiita.com/so1_tsuda/items/c5d375d0b6c5dcb0d0cf)
 
 [Hugo]: http://gohugo.io/ "Hugo :: A fast and modern static website engine"
