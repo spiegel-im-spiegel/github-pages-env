@@ -11,6 +11,12 @@
 
 - [「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/) : あとで feed を登録する
 
+- [CC Search prototype](https://ccsearch.creativecommons.org/) : あとで記事にする
+    - [Announcing the new CC Search, now in Beta - Creative Commons](https://creativecommons.org/2017/02/07/new-cc-search/)
+    - [New York’s Metropolitan Museum of Art releases 375,000 digital works for remix and re-use online via CC0 - Creative Commons](https://creativecommons.org/2017/02/07/met-announcement/)
+    - [The Metropolitan Museum of Art makes 375,000 images of public domain art freely available under Creative Commons Zero – Wikimedia Blog](https://blog.wikimedia.org/2017/02/07/the-met-public-art-creative-commons/)
+
+
 ## ブックマーク
 
 ### Age of Trump
@@ -28,10 +34,13 @@
 - [私たちはどんな時代を生きているか〜世界を覆う新しい「戦争の構造」（篠田 英朗） | 現代ビジネス | 講談社（1/4）](http://gendai.ismedia.jp/articles/-/50566)
 - [「トランプ登場」で変転する「米中露三国志」：名越健郎 | ロシアの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41982)
 - [【社説】入国禁止令を自ら窮地に追いやるトランプ氏 - WSJ](http://jp.wsj.com/articles/SB11367774349816344181604582604400177657354?reflink=fb)
+- [遂にソフトバンク・スプリントがT-mobileを買収できるようになりそうな件｜決算が読めるようになるノート｜note](https://note.mu/shibataism/n/n69fb7d3c6ba3)
+- [トランプ政権「国家安全保障会議」再編の問題点：足立正彦 | アメリカの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41983)
 
 ### 天文関連
 
 - [Discovery of Water on 51 Peg b | astrobites](https://astrobites.org/2017/02/01/discovery-of-water-on-51-peg-b/) : ペガスス座51番星の惑星大気に水を発見
+- [惑星系円盤誕生における角運動量問題解決の糸口 ―アルマ望遠鏡で直接観測― | 国立天文台(NAOJ)](http://www.nao.ac.jp/news/science/2017/20170208-alma.html)
 
 ### その他
 
@@ -51,6 +60,10 @@
 - [Hacker Leaks Cellebrite's Phone-Hacking Tools - Schneier on Security](https://www.schneier.com/blog/archives/2017/02/hacker_leaks_ce.html)
 - [ビットコインの先に見出すべきは「国際送金」という新たなマーケット｜WIRED.jp](http://wired.jp/2017/02/05/stellar-emerges-from-shadow/)
 - [海外サーバーに保管されたEメールデータをFBIに引き渡し ― Googleのケースに判決下る | TechCrunch Japan](http://jp.techcrunch.com/2017/02/06/20170204google-told-to-hand-over-foreign-emails-in-fbi-search-warrant-ruling/)
+- [倒産したRethinkDB、知的財産を買い取ってもらいLinux FoundationがApacheライセンスで公開。今後もコミュニティによる開発は続く － Publickey](http://www.publickey1.jp/blog/17/rethinkdblinux_foundationapache.html)
+- [You're taking the p... Linux encryption app Cryptkeeper has universal password: 'p' • The Register](https://www.theregister.co.uk/2017/01/31/cryptkeeper_cooked/)
+- [映画制作におけるPython | 開発手法・プロジェクト管理 | POSTD](http://postd.cc/python-for-feature-film/)
+- [BdashというBIツールをリリースしました - hokaccha hamalog v3](http://hokaccha.hatenablog.com/entry/2017/02/08/084821)
 
 
 ## Free Culture and CC0

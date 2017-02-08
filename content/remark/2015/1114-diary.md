@@ -1,5 +1,6 @@
 +++
 date = "2015-11-14T17:49:15+09:00"
+update = "2017-02-08T11:01:32+09:00"
 description = "FBI 曰く「Ransomware 感染時は身代金払え」 / 移動式プラネタリウム製作資金を集める Crowd-Funding / 家事を「要求開発」する / Facebook のない人生は幸せ？ / 日本における TPP 知財のこれから"
 draft = false
 tags = ["security", "risk", "ransomware", "astronomy", "planetarium", "engineering", "communication", "code", "intellectual-property", "copyright", "tpp"]
@@ -54,11 +55,8 @@ title = "週末スペシャル： FBI 曰く「Ransomware 感染時は身代金�
 
 - [移動式プラネタリウムで、全国各地の入院中の子どもたちに“星空”を届けたい！ | A-port｜朝日新聞社のクラウドファンディングサイト](https://a-port.asahi.com/projects/planetarium_hospital)
 
-{{< fig-gen >}}
-<iframe src='https://a-port.asahi.com/projects/planetarium_hospital/widget' frameborder="0" scrolling="no" width="300" height="420"></iframe>
-{{< /fig-gen >}}
-
 だそうで，協力したい方，グッズがほしい方は是非。
+（募集は終了しました。目標額を大幅に超えて多額の資金を調達できたようです）
 
 ## 家事を「要求開発」する{#require}
 
