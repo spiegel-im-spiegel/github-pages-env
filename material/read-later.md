@@ -69,6 +69,8 @@
 - [アメリカへの入国にはソーシャルメディアのパスワードが必要になるかもしれない | TechCrunch Japan](http://jp.techcrunch.com/2017/02/09/20170208passwords-for-social-media-accounts-could-be-required-for-some-to-enter-country/)
 - [ISC BIND 9 サービス運用妨害の脆弱性 (CVE-2017-3135) に関する注意喚起](http://www.jpcert.or.jp/at/2017/at170007.html)
 - [翼が円柱、新原理で中小型風車を革新 (1/4) - スマートジャパン](http://www.itmedia.co.jp/smartjapan/articles/1701/30/news101.html)
+- [米国の学術研究者向け電子書籍出版サービスGlassTree、編集・査読などを含む「Gold Open Access」オプションを追加 – hon.jp DayWatch](https://hon.jp/news/1.0/0/10784)
+- [マルウェアをメモリに隠す「目に見えない」攻撃手法が登場--140以上の組織が被害に - ZDNet Japan](https://japan.zdnet.com/article/35096314/)
 
 ## Free Culture and CC0
 

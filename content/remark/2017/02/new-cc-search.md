@@ -2,7 +2,7 @@
 draft = false
 tags = ["creative-commons", "search", "tools", "public-domain", "photography"]
 date = "2017-02-08T22:07:24+09:00"
-update = "2017-02-09T15:59:19+09:00"
+update = "2017-02-09T21:13:50+09:00"
 title = "新しい CC Search が登場，他"
 description = "ほほう。リストを作って公開できるのか。どうやら Creative Commons のアカウントを作って sign in すると検索結果で出てきた写真を Favorites や Lists に入れることができるようだ。"
 
@@ -91,6 +91,8 @@ description = "ほほう。リストを作って公開できるのか。どう�
 
 - [クリエイティブ・コモンズが新しい写真検索エンジンのベータ版を公開、各種フィルタやリスト、ソーシャル機能を提供 | TechCrunch Japan](http://jp.techcrunch.com/2017/02/08/20170207creative-commons-unveils-a-new-photo-search-engine-with-filters-lists-social-sharing/)
 - [メトロポリタン美術館の収蔵品数十万点が、CC0ライセンスで公開された | TechCrunch Japan](http://jp.techcrunch.com/2017/02/09/20170208new-yorks-metropolitan-museum-of-art-makes-375k-public-domain-works-free-without-restriction/)
+- [米・メトロポリタン美術館、画像37万5,000点を、CC0ライセンスで公開 | カレントアウェアネス・ポータル](http://current.ndl.go.jp/node/33418)
+- [クリエイティブ・コモンズ、“CC Search”の最新版（Beta）を公開 | カレントアウェアネス・ポータル](http://current.ndl.go.jp/node/33419)
 
 - [改訂3版： CC Licenses について](/cc-licenses/)
 
