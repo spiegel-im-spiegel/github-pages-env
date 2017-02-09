@@ -14,16 +14,18 @@
 
 ## ATOM Editor のインストール
 
-- [ATOM]
+- [ATOM] （2017年2月8日に [1.14](https://github.com/atom/atom/releases/tag/v1.14.0) stable がリリース）
 
 Windows 版は，インストールパッケージ（実行形式）をダウンロードしてインストールすればよい。
 
-2015年6月25日に 1.0 が出た。[おめでたう！](http://qiita.com/spiegel-im-spiegel/items/5c6dafcece9e7118877a) （2016年11月18日に [1.12.4](https://github.com/atom/atom/releases/tag/v1.12.4) stable がリリース）
+2015年6月25日に 1.0 が出た。[おめでたう！](http://qiita.com/spiegel-im-spiegel/items/5c6dafcece9e7118877a) 
 
 [Beta Channel](https://atom.io/beta) が登場。
 
 - [Introducing the Atom Beta Channel](http://blog.atom.io/2015/10/21/introducing-the-atom-beta-channel.html)
 - [オープンソースのテキストエディター「Atom」にベータチャンネルが登場 - 窓の杜](http://www.forest.impress.co.jp/docs/news/20151022_726976.html)
+
+2017年2月8日 に出た[1.14](https://github.com/atom/atom/releases/tag/v1.14.0) stable の Windows 版で64ビットバージョンが登場した。
 
 ### Proxy 設定
 
@@ -403,6 +405,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 	- [ATOMエディタではじめるマイナー言語探訪(あんま怖くないNim②) - Qiita](http://qiita.com/kmry2045/items/b61a000ff257c01720e4)
     - [ATOM × NYAGOS ＝ ♥ — しっぽのさきっちょ | text.Baldanders.info](http://text.baldanders.info/remark/2016/11/nyagos-with-atom/)
 - [ATOMでJavaScriptの最強開発環境を作る - Qiita](http://qiita.com/uk-taniyama/items/35aad2e9280939201c4f)
+- [AtomにESLint導入した - Qiita](http://qiita.com/pechefamille/items/40966a0c78846f4053c9)
 
 ### ATOM TeX 環境を整える
 

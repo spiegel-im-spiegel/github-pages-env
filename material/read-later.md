@@ -6,15 +6,10 @@
 - [クラウドを支えるこれからの暗号技術 | 光成 滋生 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/479804413X/hyam-22/)
 - [オルタナ右翼 (新書y) | 八田 真行 |本 | 通販 | Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/4800311365/baldandersinf-22/)
 - [RSA暗号を可能にしたEulerの定理 | 田中 隆幸 |本 | 通販 | Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/486641040X/baldandersinf-22/)
-- [ロボットに青春を捧げた男の「世界を変える戦い」から目が離せない！（左藤 真通） | 現代ビジネス | 講談社（1/3）](http://gendai.ismedia.jp/articles/-/50692) : 少年漫画はなぁ...
-    - [マンガに出てくるロボットが必ず背負わされてしまう「ある宿命」（森山 和道） | 現代ビジネス | 講談社（1/3）](http://gendai.ismedia.jp/articles/-/50807)
+- [『Swift実践入門』2月7日発売 - クックパッド開発者ブログ](http://techlife.cookpad.com/entry/2017/02/07/200052)
 
 - [「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/) : あとで feed を登録する
-
-- [CC Search prototype](https://ccsearch.creativecommons.org/) : あとで記事にする
-    - [Announcing the new CC Search, now in Beta - Creative Commons](https://creativecommons.org/2017/02/07/new-cc-search/)
-    - [New York’s Metropolitan Museum of Art releases 375,000 digital works for remix and re-use online via CC0 - Creative Commons](https://creativecommons.org/2017/02/07/met-announcement/)
-    - [The Metropolitan Museum of Art makes 375,000 images of public domain art freely available under Creative Commons Zero – Wikimedia Blog](https://blog.wikimedia.org/2017/02/07/the-met-public-art-creative-commons/)
+- [「秀丸エディタ」v8.69が正式公開、HD/4K混在マルチモニター環境での使い勝手が向上 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1043227.html) : アップデートしないと
 
 
 ## ブックマーク
@@ -36,6 +31,10 @@
 - [【社説】入国禁止令を自ら窮地に追いやるトランプ氏 - WSJ](http://jp.wsj.com/articles/SB11367774349816344181604582604400177657354?reflink=fb)
 - [遂にソフトバンク・スプリントがT-mobileを買収できるようになりそうな件｜決算が読めるようになるノート｜note](https://note.mu/shibataism/n/n69fb7d3c6ba3)
 - [トランプ政権「国家安全保障会議」再編の問題点：足立正彦 | アメリカの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41983)
+- [トランプ政権は「イラン核合意」をなぜ破棄しないのか？：鈴木一人 | 国際機関の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41990)
+- [「トランプ政権誕生」に揺れたEU首脳会議：BREXITとメイ英首相の悲哀：渡邊啓貴 | ヨーロッパの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41994)
+- [Yemen Withdraws Permission for U.S. Antiterror Ground Missions - The New York Times](https://www.nytimes.com/2017/02/07/world/middleeast/yemen-special-operations-missions.html)
+- [イエメンが米作戦許可取り消し＝トランプ政権つまずく：時事ドットコム](http://www.jiji.com/jc/article?k=2017020800926&g=int)
 
 ### 天文関連
 
@@ -64,7 +63,12 @@
 - [You're taking the p... Linux encryption app Cryptkeeper has universal password: 'p' • The Register](https://www.theregister.co.uk/2017/01/31/cryptkeeper_cooked/)
 - [映画制作におけるPython | 開発手法・プロジェクト管理 | POSTD](http://postd.cc/python-for-feature-film/)
 - [BdashというBIツールをリリースしました - hokaccha hamalog v3](http://hokaccha.hatenablog.com/entry/2017/02/08/084821)
-
+- [Do It Yourself Online Safety – Chayn](http://chayn.co/safety/)
+    - [Do-It-Yourself Online Privacy/Safety Guide - Schneier on Security](https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html)
+- [Cisco製品多数の部品に不具合　18カ月たつと障害発生、復旧不可能に - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1702/08/news069.html)
+- [アメリカへの入国にはソーシャルメディアのパスワードが必要になるかもしれない | TechCrunch Japan](http://jp.techcrunch.com/2017/02/09/20170208passwords-for-social-media-accounts-could-be-required-for-some-to-enter-country/)
+- [ISC BIND 9 サービス運用妨害の脆弱性 (CVE-2017-3135) に関する注意喚起](http://www.jpcert.or.jp/at/2017/at170007.html)
+- [翼が円柱、新原理で中小型風車を革新 (1/4) - スマートジャパン](http://www.itmedia.co.jp/smartjapan/articles/1701/30/news101.html)
 
 ## Free Culture and CC0
 

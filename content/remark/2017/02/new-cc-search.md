@@ -2,6 +2,7 @@
 draft = false
 tags = ["creative-commons", "search", "tools", "public-domain", "photography"]
 date = "2017-02-08T22:07:24+09:00"
+update = "2017-02-09T15:59:19+09:00"
 title = "新しい CC Search が登場，他"
 description = "ほほう。リストを作って公開できるのか。どうやら Creative Commons のアカウントを作って sign in すると検索結果で出てきた写真を Favorites や Lists に入れることができるようだ。"
 
@@ -45,6 +46,7 @@ description = "ほほう。リストを作って公開できるのか。どう�
 - [CC0について ― “いかなる権利も保有しない” « Science Commons – サイエンス・コモンズ翻訳プロジェクト](http://sciencecommons.jp/cc0/about)
 
 メトロポリタン美術館の画像データは次に紹介する新しい [CC Search] で検索できる。
+また [GitHub で画像データに関する情報を CSV で公開](https://github.com/metmuseum/openaccess "metmuseum/openaccess: The Metropolitan Museum of Art's Open Access Initiative")してる。
 
 ## 新しい [CC Search] が登場
 
@@ -88,6 +90,8 @@ description = "ほほう。リストを作って公開できるのか。どう�
 ## ブックマーク
 
 - [クリエイティブ・コモンズが新しい写真検索エンジンのベータ版を公開、各種フィルタやリスト、ソーシャル機能を提供 | TechCrunch Japan](http://jp.techcrunch.com/2017/02/08/20170207creative-commons-unveils-a-new-photo-search-engine-with-filters-lists-social-sharing/)
+- [メトロポリタン美術館の収蔵品数十万点が、CC0ライセンスで公開された | TechCrunch Japan](http://jp.techcrunch.com/2017/02/09/20170208new-yorks-metropolitan-museum-of-art-makes-375k-public-domain-works-free-without-restriction/)
+
 - [改訂3版： CC Licenses について](/cc-licenses/)
 
 ## 参考図書
