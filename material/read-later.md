@@ -71,6 +71,15 @@
 - [翼が円柱、新原理で中小型風車を革新 (1/4) - スマートジャパン](http://www.itmedia.co.jp/smartjapan/articles/1701/30/news101.html)
 - [米国の学術研究者向け電子書籍出版サービスGlassTree、編集・査読などを含む「Gold Open Access」オプションを追加 – hon.jp DayWatch](https://hon.jp/news/1.0/0/10784)
 - [マルウェアをメモリに隠す「目に見えない」攻撃手法が登場--140以上の組織が被害に - ZDNet Japan](https://japan.zdnet.com/article/35096314/)
+- [Cassieは、ダチョウのように歩く二足ロボット | TechCrunch Japan](http://jp.techcrunch.com/2017/02/10/20170209cassie-the-ostrich-bot-does-the-bipedal-robot-chicken-walk/)
+- [Security and Privacy Guidelines for the Internet of Things - Schneier on Security](https://www.schneier.com/blog/archives/2017/02/security_and_pr.html)
+- [Bash on Windowsが強化、Linux版のJavaやGo、PostgreSQLなどもWindowsで実行可能に。3月リリースのWindows 10 Creators Updateで － Publickey](http://www.publickey1.jp/blog/17/bash_on_windows_creators_update.html)
+- [仮想DOMの内部の動き | プログラミング | POSTD](http://postd.cc/the-inner-workings-of-virtual-dom/)
+- [延長サポート終了を控える「Office 2007」および「Windows Vista」の速やかな移行を：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/announce/winvista_office2007_eos.html)
+- [AndroidでBASICを使う（ BASIC プログラミング ） - Qiita](http://qiita.com/basictomonokai/items/25bcb21ec69c00e9ad23)
+    - [Androidで動くBASICでJSONを扱う（ BASIC プログラミング ） - Qiita](http://qiita.com/basictomonokai/items/d4635252f3b7ec0c1b70)
+- [けものフレンズ語録から出来たプログラミング言語「Kemono」の使い方[Brainf**k]](https://nijipi.com/it-news/kemono-lang_ruby-brainfuck/)
+    - [けものフレンズは何故「ここまで」流行したのか - MistiRoom](http://mistclast.hatenablog.com/entry/2017/02/07/224044)
 
 ## Free Culture and CC0
 
