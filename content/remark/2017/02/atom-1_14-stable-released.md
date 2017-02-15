@@ -2,6 +2,7 @@
 tags = ["atom", "editor", "tools", "conemu"]
 description = "今回の目玉は，なんといっても Windows 版において64ビット版が登場したこと。ぶらぼー！"
 date = "2017-02-09T21:01:02+09:00"
+update = "2017-02-15T10:04:51+09:00"
 title = "ATOM 1.14 stable がリリース"
 draft = false
 
@@ -51,6 +52,11 @@ Portable 版を使っている人はインストール先を分けて「とり�
 まぁ，最悪ターミナルは別に [ConEmu] を使うからいいんだけど...
 
 （[Issue](https://github.com/platformio/platformio-atom-ide-terminal/issues/155 "Not working with Atom 1.14 · Issue #155 · platformio/platformio-atom-ide-terminal") として既に上がっているようだ。はやく直ってぇ）
+
+（追記）
+
+[platformio-ide-terminal] 2.2.3 で修正された。
+ありがとう！
 
 [ATOM]: https://atom.io/ "Atom"
 [platformio-ide-terminal]: https://atom.io/packages/platformio-ide-terminal

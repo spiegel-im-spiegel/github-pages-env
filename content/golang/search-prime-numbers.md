@@ -1,6 +1,6 @@
 +++
 date = "2015-09-17T21:23:42+09:00"
-update = "2016-02-10T15:40:07+09:00"
+update = "2017-02-15T11:00:22+09:00"
 description = "これまた，みんな大好き素数探索アルゴリズム"
 draft = false
 tags = ["golang", "algorithm", "math", "prime-number", "slice", "goroutine", "channel", "message-passing"]
@@ -709,6 +709,7 @@ if !ok {
 - [golang - x/net/context の実装パターン - Qiita](http://qiita.com/tutuming/items/c0ffdd28001ee0e9320d) : [golang.org/x/net/context](https://godoc.org/golang.org/x/net/context) を使って並行処理を細かく制御
 - [Go言語でCPU数に応じて並列処理数を制限する | SOTA](http://deeeet.com/writing/2014/07/30/golang-parallel-by-cpu/)
 - [やはり俺のgolangがCPUを一つしか使わないのはまちがっている。 - Qiita](http://qiita.com/ymko/items/554e3630fefdc29393a8)
+- [Golangで「エラトステネスの篩」で「2.1秒で百万個」の素数を計算できる「無限シーケンス」を作ってみた - Qiita](http://qiita.com/cia_rana/items/2a878181da41033ec1d8)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
