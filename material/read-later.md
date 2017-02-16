@@ -18,16 +18,20 @@
 
 - [フリン大統領補佐官辞任：「ロシア」を巡り足並み乱れるトランプ政権：足立正彦 | アメリカの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42009)
 - [米加首脳、貿易と安保で協力　移民問題では温度差 - WSJ](http://jp.wsj.com/articles/SB12058936961426933320104582620180845881046)
+- [“日米首脳会談は満点”は大嘘、安倍政権はやはりトランプにFTAを要求されていた！ 日本の主権を売り渡す危険な動き｜LITERA／リテラ](http://lite-ra.com/2017/02/post-2923.html)
 
 ## 今週はセキュリティ・アップデート週間
 
 - [Security vulnerabilities fixed in Firefox 51.0.3 — Mozilla](https://www.mozilla.org/en-US/security/advisories/mfsa2017-04/)
     - [Android向けのFirefoxに重大な脆弱性、更新版で対処 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1702/13/news044.html)
 - [Adobe Flash Player の脆弱性対策について(APSB17-04)(CVE-2017-2995等)：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/ciadr/vul/20170215-adobeflashplayer.html)
+    - [Adobe Flash Player の脆弱性 (APSB17-04) に関する注意喚起](http://www.jpcert.or.jp/at/2017/at170008.html)
 
 ### 天文関連
 
 - [小型ロケットSS-520失敗、原因は「徹底した軽量化」 | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_02_14_ss-520.html)
+    - [2017年2月15日ニュース「電線ショートが原因か 世界最小ロケット失敗」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/02/20170215_01.html)
+- [超巨大ブラックホール・ジェットが星の誕生を促す - ニュース＆コラム - アルマ望遠鏡 国立天文台](http://alma.mtk.nao.ac.jp/j/news/info/2017/0215post_697.html)
 
 ### その他
 
@@ -38,6 +42,13 @@
 - [コンピューターに接続されたイヤホンを盗聴に利用：イスラエルで実験｜WIRED.jp](http://wired.jp/2017/02/13/great-now-even-headphones/)
 - [人工知能はゲームに負けそうになると「凶暴」になる：研究結果｜WIRED.jp](http://wired.jp/2017/02/14/deepmind-ai-social-impact/)
 - [生み出された「金属水素」、さて何の役に立つのか？｜WIRED.jp](http://wired.jp/2017/02/14/metallic-hydrogen/)
+- [Windows Updateをフルオートで完了するバッチスクリプト - Qiita](http://qiita.com/Marukaziler/items/54bfbf054a372328be3f)
+- [Googleがグローバルな分散データベースCloud Spannerをローンチ、SQLとNoSQLの‘良いとこ取り’を実装 | TechCrunch Japan](http://jp.techcrunch.com/2017/02/15/20170214google-launches-cloud-spanner-a-new-globally-distributed-database-service/)
+    - [「Google Cloud Spanner」発表。地球規模の大規模分散環境で稼働するミッションクリティカルなリレーショナルDB。NoSQL並のスケーラビリティでSQL対応、トランザクション処理を実現 － Publickey](http://www.publickey1.jp/blog/17/google_cloud_spannerdbnosqlsql.html)
+- [コンドームのいらない「男性用避妊法」いよいよ実現へ──サルでの試験に成功｜WIRED.jp](http://wired.jp/2017/02/14/male-contraceptive-vasalgel/)
+- [“よくあるファイル命名ルール”でデータ消失の危機？ (1/2) - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1702/14/news046.html)
+- [ホーキング博士、イーロン・マスクが支持。AIの叛乱を防げるかもしれない「AI開発 23原則」｜ギズモード・ジャパン](http://www.gizmodo.jp/2017/02/23-asilomar-ai-principles.html)
+- [Macから情報を盗むマルウェアに要注意--「iPhone」のバックアップも標的 - ZDNet Japan](https://japan.zdnet.com/article/35096678/)
 
 
 ## Free Culture and CC0

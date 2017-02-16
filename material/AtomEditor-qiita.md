@@ -268,11 +268,8 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - [autoclose-html](https://atom.io/packages/autoclose-html) : HTML 入力でタグを入力すると自動的に閉じタグを補完してくれる。自動補完の機能は色々あって，大抵は [autocomplete-plus](https://atom.io/packages/autocomplete-plus) のサブパッケージだったりするのだが，これだけは毛色が違う（笑）
 - [linter](https://atom.io/packages/linter) : lint ツール。多くの言語に対応しているが，実際に動かすには lint 本体を導入する必要あり。
 - [merge-conflicts](https://atom.io/packages/merge-conflicts) : conflict 時のヘルパーツール。
-- [term2](https://atom.io/packages/term2) : タブ内にターミナルを起動できる。内部で `pty.js` をビルドしようとするが， Windows 環境では Visual Studio 等の開発環境が必要らしい？
-    - [Atomにterm 2パッケージを導入してみた【Windows】 - Qiita](http://qiita.com/Ted-HM/items/540a57cc2a14346e4767)
-	- [Atom v1.2.0以上 で term2 v0.9.21 がビルドエラーで動かなくなる件 - Qiita](http://qiita.com/kaminaly/items/853dc9c40ae7433cf4c1) : 結論は [term3](https://atom.io/packages/term3) を使えということらしい
+- [platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal) : エディタ内にターミナルを起動できる。 Windows 環境でも（ビルド環境なしに）簡単にインストールできるのが魅力
 - [web-view](https://atom.io/packages/web-view) : タブ内にブラウザを起動できる。
-- スクラッチパッドみたいなんないのん？ と思って探していたのだが， [tempfile](https://atom.io/packages/tempfile) というパッケージが登場した。ファイルタイプを指定できる。またファイルの保存先を指定できるため，適当に書き散らしたものを保存することも可能。
 - 特定の単語をマークしておける [quick-highlight](https://atom.io/packages/quick-highlight) が結構使える。 Windows だとキーに割り当てられないので、 toggle を適当なファンクションキーとかに割り当てておくとめっさ便利。
 - [tablr](https://atom.io/packages/tablr) : CSV Editor。なにこれ素敵！
 - [markdown-pdf](https://atom.io/packages/markdown-pdf) : markdwon 文書を PDF に変換してくれるらしい

@@ -2,7 +2,7 @@
 draft = false
 tags = ["creative-commons", "search", "tools", "public-domain", "photography"]
 date = "2017-02-08T22:07:24+09:00"
-update = "2017-02-15T10:14:04+09:00"
+update = "2017-02-16T12:31:53+09:00"
 title = "新しい CC Search が登場，他"
 description = "ほほう。リストを作って公開できるのか。どうやら Creative Commons のアカウントを作って sign in すると検索結果で出てきた写真を Favorites や Lists に入れることができるようだ。"
 
@@ -91,6 +91,7 @@ description = "ほほう。リストを作って公開できるのか。どう�
 - [クリエイティブ・コモンズ、“CC Search”の最新版（Beta）を公開 | カレントアウェアネス・ポータル](http://current.ndl.go.jp/node/33419)
 - [CC Search Developer Notes and Reflection](https://hackernoon.com/cc-search-developer-notes-and-reflection-418271194682#.pdgb2hlfn)
 - [ゴッホにモネ、フェルメールも！メトロポリタン美術館の作品画像37万点が自由利用可へ｜美術手帖](https://bijutsutecho.com/news/1817/)
+- [Creative Commons、新「CC Search」β版を公開 | 科学技術情報プラットフォーム](http://jipsti.jst.go.jp/johokanri/sti_updates/?id=9414)
 
 [CC Licenses] 関連の解説はこちら（宣伝）
 
