@@ -10,6 +10,8 @@
 
 - [「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/) : あとで feed を登録する
 - [「秀丸エディタ」v8.69が正式公開、HD/4K混在マルチモニター環境での使い勝手が向上 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1043227.html) : アップデートしないと
+- [FTP/SFTP/SCPクライアント「WinSCP」v5.9.4が公開、「OpenSSL」の脆弱性を解消 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1044545.html) : アップデートしないと
+- [Go 1.8 is released - The Go Blog](https://blog.golang.org/go1.8)
 
 
 ## ブックマーク
@@ -26,6 +28,9 @@
     - [Android向けのFirefoxに重大な脆弱性、更新版で対処 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1702/13/news044.html)
 - [Adobe Flash Player の脆弱性対策について(APSB17-04)(CVE-2017-2995等)：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/ciadr/vul/20170215-adobeflashplayer.html)
     - [Adobe Flash Player の脆弱性 (APSB17-04) に関する注意喚起](http://www.jpcert.or.jp/at/2017/at170008.html)
+- [延期されたマイクロソフトの月例パッチ、公開は3月14日 - ZDNet Japan](https://japan.zdnet.com/article/35096707/) : ありゃりゃ
+- [テキストエディタ「vim 8.0.0329」リリース、脆弱性の修正 | Think IT（シンクイット）](https://thinkit.co.jp/news/bn/11435)
+- [FTP/SFTP/SCPクライアント「WinSCP」v5.9.4が公開、「OpenSSL」の脆弱性を解消 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1044545.html)
 
 ### 天文関連
 
@@ -49,6 +54,17 @@
 - [“よくあるファイル命名ルール”でデータ消失の危機？ (1/2) - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1702/14/news046.html)
 - [ホーキング博士、イーロン・マスクが支持。AIの叛乱を防げるかもしれない「AI開発 23原則」｜ギズモード・ジャパン](http://www.gizmodo.jp/2017/02/23-asilomar-ai-principles.html)
 - [Macから情報を盗むマルウェアに要注意--「iPhone」のバックアップも標的 - ZDNet Japan](https://japan.zdnet.com/article/35096678/)
+- [ニュース解説 - NTTデータが開発環境をクラウドで義務付け：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/14/346926/021500827/?rt=nocnt)
+- [サイバー犯罪者が昔ながらのテクニックに回帰？--スパムが再び増加傾向にある理由 - ZDNet Japan](https://japan.zdnet.com/article/35096629/)
+- [Duqu Malware Techniques Used by Cybercriminals - Schneier on Security](https://www.schneier.com/blog/archives/2017/02/duqu_malware_te.html)
+    - [マルウェアをメモリに隠す「目に見えない」攻撃手法が登場--140以上の組織が被害に - ZDNet Japan](https://japan.zdnet.com/article/35096314/)
+- [TEDxHimi2017「Inner Space」まとめ | TEDxHimi](http://www.tedxhimi.com/blog/2017/02/16/659) : EV デロリアンの講演も紹介されている
+- [（BlackHatに参加せず）BSidesLVに参加してきた！！ - セキュリティコンサルタントの日誌から](http://www.scientia-security.org/entry/2016/08/18/114737)
+- [Google、機械学習ライブラリ「TensorFlow 1.0」をリリース - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1044528.html)
+- [サイエンスクリップ・「生態系の中心(ハブ)を探る新たな手法を開発」 | SciencePortal](http://scienceportal.jst.go.jp/clip/20170216_01.html)
+- [ネットがダウンしても通信できるアプリ「The Weather Channel」は災害時の味方 - ZDNet Japan](https://japan.zdnet.com/article/35096759/)
+- [2017年2月17日ニュース「がん10年生存率は58.5% 昨年比0.3ポイント上昇」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/02/20170217_01.html)
+- [永住権「安売り」で外国人「高度人材」は集まるのか：出井康博 | 記事 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42015)
 
 
 ## Free Culture and CC0
