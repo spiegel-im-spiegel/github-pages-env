@@ -3,7 +3,7 @@ description = "個人で Slack を使ってみる。"
 draft = false
 tags = ["slack", "tools", "feed"]
 date = "2017-01-09T17:24:54+09:00"
-update = "2017-01-10T16:47:12+09:00"
+update = "2017-02-19T13:55:23+09:00"
 title = "いまさら聞けない Slack の使い方"
 
 [author]
@@ -80,6 +80,7 @@ title = "いまさら聞けない Slack の使い方"
     - [中東・イスラーム学の風姿花伝](http://ikeuchisatoshi.com/feed/)
     - [お知らせ | さくらインターネット](https://www.sakura.ad.jp/rss/info.rdf)
     - [Blog – Creative Commons](https://creativecommons.org/blog/feed/)
+    - [「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/)
 - #security
     - [IPAセキュリティセンター:重要なセキュリティ情報](https://www.ipa.go.jp/security/rss/alert.rdf)
     - [情報セキュリティ新着情報RSS](https://www.ipa.go.jp/security/rss/info.rdf)

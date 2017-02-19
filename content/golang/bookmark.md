@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-01-31T11:08:51+09:00"
+update = "2017-02-19T15:19:58+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -26,7 +26,7 @@ title = "Go 言語に関するブックマーク"
 
 ## 公式サイト
 
-- [The Go Programming Language](https://golang.org/) : 2017年1月26日時点での最新は 1.7.6
+- [The Go Programming Language](https://golang.org/) : 2017年2月16日時点での最新は 1.8
     - [git repositories (Google)](https://go.googlesource.com/)
     - [git repositories (GitHub)](https://github.com/golang) : mirror
 - [golang-jp - The Go Programming Language](http://golang-jp.org/) : 本家の日本語訳サイト。（[golang.jp](http://golang.jp/) は内容が古いので参考にしない方がいい，らしい）
@@ -52,6 +52,11 @@ title = "Go 言語に関するブックマーク"
 - [Go 1.7 Release Notes - The Go Programming Language](https://golang.org/doc/go1.7)
 - [Security Release Go 1.7.4 and 1.6.4 — しっぽのさきっちょ | text.Baldanders.info]({{< relref "remark/2017/01/go-1_7_5-released.md" >}})
 - [Go 1.7.5 がリリース — しっぽのさきっちょ | text.Baldanders.info]({{< relref "remark/2017/01/go-1_7_5-released.md" >}})
+
+### Go 1.8 is released
+
+- [Go 1.8 is released - The Go Blog](https://blog.golang.org/go1.8)
+- [Go 1.8 Release Notes - The Go Programming Language](https://golang.org/doc/go1.8)
 
 ## 言語仕様に関すること
 
@@ -386,7 +391,6 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 
 ### Go 1.8 に関する話題
 
-- [Go 1.8 Release Notes - The Go Programming Language](https://beta.golang.org/doc/go1.8) : 今のところはベータ版
 - [Go 1.8のpluginパッケージを試してみる - Qiita](http://qiita.com/qt-luigi/items/47a7913145fc747da0c7)
 
 ## 参考図書
