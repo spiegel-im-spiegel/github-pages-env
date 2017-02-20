@@ -8,8 +8,6 @@
 - [RSA暗号を可能にしたEulerの定理 | 田中 隆幸 |本 | 通販 | Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/486641040X/baldandersinf-22/)
 - [『Swift実践入門』2月7日発売 - クックパッド開発者ブログ](http://techlife.cookpad.com/entry/2017/02/07/200052)
 
-- [Go 1.8 is released - The Go Blog](https://blog.golang.org/go1.8)
-
 
 ## ブックマーク
 
@@ -20,6 +18,10 @@
 
 
 ### その他
+
+- [CoreOS、コンテナに最適化した分散ストレージ「Torus」の開発中止を明らかに。期待したほど開発の速度が上がらなかったと － Publickey](http://www.publickey1.jp/blog/17/coreostorus_1.html)
+- [DeNA問題で問うべきは「ネットの信頼性」じゃない　現代のメディアのあり方だ](https://www.buzzfeed.com/daisukefuruta/curation-internet-and-media)
+- [OpenSSLの脆弱性(CVE-2017-3733)に見られる仕様とcastの落とし穴 - ぼちぼち日記](http://jovi0608.hatenablog.com/entry/2017/02/20/122531)
 
 
 ## Free Culture and CC0
