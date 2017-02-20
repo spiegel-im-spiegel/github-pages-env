@@ -1,7 +1,7 @@
 +++
 description = "今回は「つまみ食い」的に演算子（operator）とステートメント（statement）について解説する。"
-draft = true
-date = "2017-02-20T11:33:14+09:00"
+draft = false
+date = "2017-02-20T21:07:33+09:00"
 title = "演算子とステートメント"
 tags = ["golang", "programming", "language"]
 
