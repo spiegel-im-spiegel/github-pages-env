@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-02-19T15:19:58+09:00"
+update = "2017-02-21T11:20:06+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -161,6 +161,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [golang は ゆるふわに JSON を扱えまぁす! — KaoriYa](https://www.kaoriya.net/blog/2016/06/25/)
 - [Go言語でJSONに泣かないためのコーディングパターン - Qiita](http://qiita.com/minagoro0522/items/dc524e38073ed8e3831b)
 - [Go 言語 1つの構造体に複数の validation を適応する - Qiita](http://qiita.com/iktakahiro/items/2e240147ca3188948a17)
+- [Go で関数の引数用構造体のバリデーションと初期化をするメソッドをタグから生成するツールを作った - Qiita](http://qiita.com/nirasan/items/7b96f080cd286c324033)
 
 ### エラーハンドリング
 

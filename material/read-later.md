@@ -13,6 +13,10 @@
 
 ### Age of Trump
 
+- [トランプ外交「最優先」は「IS打倒」：「対中国」にあらず：伊藤俊幸 | 安全保障の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42028)
+- [トランプ大統領の対外政策が目指しているもの : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/13998313.html)
+- [トランプの黒幕「バノン」の世界観（4）「オルタナ右翼」の淵源と多様性：会田弘継 | 国際論壇レビュー | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42017)
+- [トランプ、大統領補佐官に対ロ強硬派の陸軍中将を指名 | ワールド | 最新記事 | ニューズウィーク日本版 オフィシャルサイト](http://www.newsweekjapan.jp/stories/world/2017/02/post-7023.php)
 
 ### 天文関連
 
@@ -22,6 +26,10 @@
 - [CoreOS、コンテナに最適化した分散ストレージ「Torus」の開発中止を明らかに。期待したほど開発の速度が上がらなかったと － Publickey](http://www.publickey1.jp/blog/17/coreostorus_1.html)
 - [DeNA問題で問うべきは「ネットの信頼性」じゃない　現代のメディアのあり方だ](https://www.buzzfeed.com/daisukefuruta/curation-internet-and-media)
 - [OpenSSLの脆弱性(CVE-2017-3733)に見られる仕様とcastの落とし穴 - ぼちぼち日記](http://jovi0608.hatenablog.com/entry/2017/02/20/122531)
+- [米上院、国境警察官によるパスワードの要求を禁止する法案を提出へ | TechCrunch Japan](http://jp.techcrunch.com/2017/02/21/20170220wyden-letter-dhs-passwords-warrantless-border-searches/)
+- [史上最大の犯罪ネット「Avalanche」の功罪──4年の国際捜査がもたらしたもの｜WIRED.jp](http://wired.jp/2017/02/20/took-4-years-take/)
+- [どれだけ速く文字列からスペースを削除できるのか | プログラミング | POSTD](http://postd.cc/how-quickly-can-you-remove-spaces-from-a-string/)
+- [出版業界の未来 | TechCrunch Japan](http://jp.techcrunch.com/2017/02/21/20170220whats-next-for-books/)
 
 
 ## Free Culture and CC0
