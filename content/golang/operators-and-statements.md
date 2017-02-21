@@ -2,6 +2,7 @@
 description = "今回は「つまみ食い」的に演算子（operator）とステートメント（statement）について解説する。"
 draft = false
 date = "2017-02-20T21:07:33+09:00"
+update = "2017-02-21T11:44:15+09:00"
 title = "演算子とステートメント"
 tags = ["golang", "programming", "language"]
 
@@ -135,14 +136,8 @@ assign_op = [ add_op | mul_op ] "=" .
 ```
 {{% /fig-gen %}}
 
-{{% fig-gen title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
-```text
-ExpressionList = Expression { "," Expression } .
-```
-{{% /fig-gen %}}
-
-代入ステートメント。
-`add_op`, `mul_op` は先ほど出た `Expression` の演算子のことである。
+代入。
+`add_op`, `mul_op` は先ほど出た `Expression` の演算子を指す。
 
 {{% fig-gen title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
 ```text
@@ -151,20 +146,31 @@ mul_op     = "*" | "/" | "%" | "<<" | ">>" | "&" | "&^" .
 ```
 {{% /fig-gen %}}
 
-定義だと `assign_op` は演算子っぽく見えるが「[言語仕様]」の[演算子の節](https://golang.org/ref/spec#Operators)では演算子として扱われていない。
+定義だと `assign_op` は演算子っぽく見える。
+そもそも代入を “assignment operation” と表記しているのだ。
 どうなんだろう。
+まぁ，いずれにしろ代入自体は間違いなくステートメントであり式の中には含められない。
+
+ちなみに `ExpressionList` は `Expression` を列挙したものである。
+
+{{% fig-gen title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
+```text
+ExpressionList = Expression { "," Expression } .
+```
+{{% /fig-gen %}}
+
+これにより代入の左辺・右辺を組（tuple）で記述できる。
+たとえば2つの変数の値を入れ替える場合は以下のように記述する。
+
+```go
+x, y = y, x
+```
 
 ### Short Variable Declarations
 
 {{% fig-gen title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
 ```text
 ShortVarDecl = IdentifierList ":=" ExpressionList .
-```
-{{% /fig-gen %}}
-
-{{% fig-gen title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
-```text
-IdentifierList = identifier { "," identifier } .
 ```
 {{% /fig-gen %}}
 
@@ -176,6 +182,37 @@ IdentifierList = identifier { "," identifier } .
 "var" IdentifierList = ExpressionList .
 ```
 {{% /fig-gen %}}
+
+`IdentifierList` は `identifier` を列挙したもので
+
+{{% fig-gen title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
+```text
+IdentifierList = identifier { "," identifier } .
+```
+{{% /fig-gen %}}
+
+これにより `identifier` で記述される複数の変数をまとめて宣言・初期化できる。
+`identifier` の定義は以下の通り
+
+{{% fig-gen title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
+```text
+identifier = letter { letter | unicode_digit } .
+```
+{{% /fig-gen %}}
+
+ちなみに変数名となる `identifier` は全ての Unicode 文字を許容する。
+なので日本語交じりでこんな書き方もできる。
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    わーい := "わーい！ たのしー！"
+    fmt.Println(わーい)
+}
+```
 
 ## 演算子{#op}
 
@@ -195,7 +232,7 @@ unary_op   = "+" | "-" | "!" | "^" | "*" | "&" | "<-" .
 ```
 {{% /fig-gen %}}
 
-[Go 言語]における演算子はここに挙げられているものが全てである。
+[Go 言語]で式に使える演算子はここに挙げられているものが全てである。
 このうち二項演算子（`binary_op`）には優先順位が付けられている。
 
 {{% fig-gen title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
@@ -223,11 +260,11 @@ unary_op   = "+" | "-" | "!" | "^" | "*" | "&" | "<-" .
 ### インクリメント／デクリメントは演算子ではない
 
 たとえば [C 言語の演算子](http://www.bohyoh.com/CandCPP/C/operator.html "BohYoh.com【Ｃ言語講座】演算子一覧表")と比較すると [Go 言語]ではインクリメント（`++`）／デクリメント（`--`）が演算子として扱われていないことに気付く[^op]。
-[Go 言語]ではインクリメント／デクリメントはステートメントである。
+[Go 言語]ではインクリメント／デクリメント（および代入）はステートメントである。
 
 [^op]: 「[言語仕様]」では文章上の表現として operator と記述しているところが幾つかあるが定義としては演算子として扱われていない。
 
-これはどういうことかというと，たとえば C 言語のコードみたいに
+これはどういうことかというと，たとえば C 言語のコードに似せて
 
 ```go
 package main
@@ -242,10 +279,13 @@ func main() {
 
 と書いてコンパイルしようとしても
 
-> syntax error: unexpected ++, expecting comma or )
+```text
+syntax error: unexpected ++, expecting comma or )
+```
 
 とコンパイルエラーになるということである（式を構成する要素にステートメントは含まれないことを思い出してほしい）。
-これはコードを
+これはコードを，以下のように，代入に置き換えたほうが直感的で分かりやすいかもしれない。
+（この場合も「`syntax error: unexpected +=, expecting comma or )`」でコンパイルエラーになる）
 
 ```go
 package main
@@ -258,23 +298,27 @@ func main() {
 }
 ```
 
-と置き換えてみれば直感的で分かりやすいかもしれない。
-（この場合も「syntax error: unexpected +=, expecting comma or )」でコンパイルエラーになる）
-
 私見で申し訳ないが，私は「式中の演算子は変数の状態を変えるべきではない」と考えている。
 たとえば C/C++ では `++`, `--` 演算子を前置にすべきか後置にすべきかというのでよく議論になる[^pp]。
 しかし，これはそもそも `++`, `--` 演算子が式の中で対象の変数の状態を変えてしまうことに問題があるのだ。
 
-[^pp]: C/C++ で `++`, `--` 演算子を前置にするか後置にするかという問題は挙動の分かりにくさと実行時パフォーマンスの2つの論点がある。いずれにしろ前置に統一する方がよいと言われているが，[パフォーマンスに関しては異論もある](http://cpp.aquariuscode.com/preincriment-vs-postincriment "前置インクリメント vs 後置インクリメント | 闇夜のC++")ようだ。個人的には value object 以外ではそもそも演算子の overload は避ける設計にすべきと思うが。ちなみに [Go 言語]では演算子の overload はできない。
+[^pp]: C/C++ で `++`, `--` 演算子を前置にするか後置にするかという問題は挙動の分かりにくさと実行時パフォーマンスの2つの論点がある。いずれにしろ前置に統一する方がよいと言われているが，[パフォーマンスに関しては異論もある](http://cpp.aquariuscode.com/preincriment-vs-postincriment "前置インクリメント vs 後置インクリメント | 闇夜のC++")ようだ。
 
-[Go 言語]ではインクリメントやデクリメント（あるいは代入）をステートメントとし，式の中に埋め込むことを禁止することでこの問題を回避しているように見える。
+[Go 言語]ではインクリメントやデクリメント（あるいは代入）といった変数の状態を変える操作をステートメントとし，式の中に埋め込むことを禁止することでこの問題を回避しているように見える。
 式の中で変数の状態が変わらないのであれば副作用を気にすることなく安全にコードを書くことができる。
 
 ただし例外がある。
-[channel] 操作では，送信はステートメントだが受信は `<-` 単項演算子を使う（つまり式の中に埋め込める）。
-したがって [channel] 受信を含んだ式では [channel] 変数の状態が変わる副作用に注意を払う必要がある[^cr]。
 
-[^cr]: なんで [channel] 受信を組み込み関数にしなかったのだろう。教えて，偉い人。
+### [channel] 操作
+
+[channel] 操作では，送信はステートメントだが受信は `<-` 単項演算子を使う。
+したがって，こんな記述もできる（意味があるかどうかはともかく）。
+
+```go
+ch2 <- <-ch1
+```
+
+[channel] 受信を含んだ式では [channel] 変数の状態が変わる副作用（特に deadlock 関連）に注意を払う必要がある。
 
 ## とまぁ，こんな感じで
 
