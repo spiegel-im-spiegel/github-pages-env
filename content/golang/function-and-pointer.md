@@ -1,6 +1,6 @@
 +++
 date = "2016-03-29T22:16:41+09:00"
-update = "2016-11-08T20:41:58+09:00"
+update = "2017-02-22T17:04:31+09:00"
 description = "Go 言語の引数は基本的に「値渡し（call by value）」である。「参照渡し（call by reference）」にしたい場合はポインタを使う。"
 draft = false
 tags = ["golang", "function", "pointer"]
@@ -43,7 +43,7 @@ package main
 
 import "fmt"
 
-func add(x, y int) int {
+func add(x int, y int) int {
 	return x + y
 }
 
@@ -61,7 +61,7 @@ func add(x, y int) int {
 }
 ```
 
-返り値として複数の値を定義することもできる。
+返り値を組（tuple）で定義することもできる。
 
 ```go
 func split(sum int) (int, int) {
