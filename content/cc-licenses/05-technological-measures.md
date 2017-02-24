@@ -3,7 +3,7 @@ tags = ["drm", "creative-commons", "copyright", "license"]
 draft = false
 description = "CC Licenses v4 では利用者側の技術的保護手段回避を許諾するという形に大きく変わった。"
 date = "2016-12-15T21:17:29+09:00"
-update = "2016-12-16T09:23:23+09:00"
+update = "2017-02-24T12:39:47+09:00"
 title = "CC Licenses における「技術的保護手段」の扱い"
 
 [author]
@@ -166,6 +166,7 @@ DRM についてはこれからも注視していく必要がある。
 - [YouTubeが著作者をあべこべに判断　音源を無断使用された音楽家の動画が再生できなくなるトラブルが発生 - ねとらぼ](http://nlab.itmedia.co.jp/nl/articles/1609/02/news120.html)
 - [「フェアユースでも使用料を払え」というソニーミュージックの横暴と、それを許すYouTubeのコンテンツID – P2Pとかその辺のお話R](http://p2ptk.org/copyright/350)
 - [Fox、番組にYouTube動画を無断使用した挙句に元動画を権利者削除 – P2Pとかその辺のお話R](http://p2ptk.org/copyright/346)
+- [Copyright Filtering Mechanisms Don’t (and can’t) Respect Fair Use - Creative Commons](https://creativecommons.org/2017/02/22/copyright-filtering-mechanisms-dont-cant-respect-fair-use/)
 
 [本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
 [著作権法]: http://law.e-gov.go.jp/htmldata/S45/S45HO048.html "著作権法"

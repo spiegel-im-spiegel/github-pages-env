@@ -1,6 +1,6 @@
 +++
 date = "2016-02-05T00:11:53+09:00"
-update = "2017-02-21T11:19:40+09:00"
+update = "2017-02-24T13:27:14+09:00"
 description = "Struct で正規化できる情報であれば，タグを使うことでアプリケーション外部とのやり取りがずっと楽になる。"
 draft = false
 tags = ["golang", "struct", "tags", "marshal"]
@@ -268,6 +268,7 @@ note = "Web Application"
 - [BurntSushi/tomlを使ってハマったこと - Qiita](http://qiita.com/reiki4040/items/6556d4eba797329e9f51)
 - [GoでJSONの一部分を利用者が定義した構造体に読み込める便利な手法を見つけた - Qiita](http://qiita.com/hnakamur/items/ba363e82332d4dbdf34a)
 - [Go 言語 1つの構造体に複数の validation を適応する - Qiita](http://qiita.com/iktakahiro/items/2e240147ca3188948a17) : [struct] タグに validation 情報を埋め込んで利用する
+- [Goのencoding/xmlを使いこなす - Qiita](http://qiita.com/ono_matope/items/70080cc33b75152c5c2a)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
