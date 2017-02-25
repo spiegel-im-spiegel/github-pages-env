@@ -1,5 +1,6 @@
 +++
 date = "2017-02-25T12:38:07+09:00"
+update = "2017-02-25T21:23:46+09:00"
 title = "最初の SHA-1 衝突例"
 draft = false
 tags = ["security", "cryptography", "risk", "hash", "sha-1", "collision"]
@@ -27,6 +28,9 @@ description = "もうみんな SHA-1 とはオサラバしてるよね（笑）"
 - [SHA-1 Collision Found - Schneier on Security](https://www.schneier.com/blog/archives/2017/02/sha-1_collision.html)
 - [SHA-1衝突攻撃がついに現実に、Google発表　90日後にコード公開 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1702/24/news067.html)
 - [The end of SHA-1 on the Public Web | Mozilla Security Blog](https://blog.mozilla.org/security/2017/02/23/the-end-of-sha-1-on-the-public-web/)
+- [グーグル、SHA-1衝突攻撃に成功--同一ハッシュ値の2つのPDFも公開 - ZDNet Japan](https://japan.zdnet.com/article/35097102/)
+- [Re: [openpgp] SHA1 collision found](https://mailarchive.ietf.org/arch/search/?email_list=openpgp&index=AjJ3BHzd2c9K2KQ3DTk9Ry_QVYM)
+- [GoogleのSHA-1のはなし](https://www.slideshare.net/herumi/googlesha1) : 分かりやすい解説
 
 {{< fig-quote title="SHA-1 Collision Found" link="https://www.schneier.com/blog/archives/2017/02/sha-1_collision.html" lang="en" >}}
 <q>This is not a surprise. We've all expected this for over a decade, watching computing power increase. This is why NIST standardized SHA-3 in 2012.</q>
