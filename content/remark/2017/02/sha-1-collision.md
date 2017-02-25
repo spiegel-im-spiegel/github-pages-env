@@ -1,7 +1,7 @@
 +++
-date = "2017-02-24T13:38:36+09:00"
+date = "2017-02-25T12:38:07+09:00"
 title = "最初の SHA-1 衝突例"
-draft = true
+draft = false
 tags = ["security", "cryptography", "risk", "hash", "sha-1", "collision"]
 description = "もうみんな SHA-1 とはオサラバしてるよね（笑）"
 
