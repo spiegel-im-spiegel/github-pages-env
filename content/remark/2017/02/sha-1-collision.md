@@ -1,6 +1,6 @@
 +++
 date = "2017-02-25T12:38:07+09:00"
-update = "2017-02-25T21:23:46+09:00"
+update = "2017-02-26T14:40:38+09:00"
 title = "最初の SHA-1 衝突例"
 draft = false
 tags = ["security", "cryptography", "risk", "hash", "sha-1", "collision"]
@@ -49,6 +49,105 @@ NIST などでは2014年以降 SHA-1 を電子署名等に使わないよう勧�
 - [「Google Chrome」の閲覧画面にエラーが！ ～“https://”のサイトにアクセスできない - やじうまの杜 - 窓の杜](http://forest.watch.impress.co.jp/docs/serial/yajiuma/1041798.html)
 
 もうみんな SHA-1 とはオサラバしてるよね（笑）
+
+## 追記というか補足
+
+たとえば git の commit hash 値は SHA-1 で付与されるが大丈夫なのか？ とかいった意見が散見されるが，当面は問題ない。
+
+今回の件はあくまでも電子署名や hash 値そのものを何かの証明に使おうとする場合に問題となる。
+git の commit hash 値はあくまで identity として付与されるものである。
+改ざんされたかどうかは commit hash 値ではなく差分情報によって容易に知ることができる。
+
+git による悪意のなりすまし等を警戒する必要があるのなら commit hash 値を気にするのではなく commit にきちんと電子署名を行うことをお勧めする（チームで作業する人は是非習慣化するべきである）。
+
+- [Git Commit で OpenPGP 署名を行う]({{< relref "remark/2016/04/git-commit-with-openpgp-signature.md" >}})
+
+ただし，かつて標準として使われていた MD5 が危殆化とともに廃れていったように，今後 SHA-1 は電子署名以外でも使われなくなると思われる。
+念のため， NIST による現在の SHA アルゴリズムの評価と有効期限を以下に示す。
+
+<figure lang='en'>
+<table>
+<thead>
+<tr>
+<th style="vertical-align:middle;">Security <br>Strength</th>
+<th style="vertical-align:middle;">Digital Signatures and <br>hash-only applications</th>
+<th style="vertical-align:middle;">HMAC,<br>Key Derivation Functions,<br>Random Number Generation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class='right'> ≦ 80</td>
+<td>SHA-1</td>
+<td>&nbsp;</td>
+</tr><tr>
+<td class='right'>112</td>
+<td>SHA-224, SHA-512/224, SHA3-224</td>
+<td>&nbsp;</td>
+</tr><tr>
+<td class='right'>128</td>
+<td>SHA-256, SHA-512/256, SHA3-25</td>
+<td>SHA-1</td>
+</tr><tr>
+<td class='right'>192</td>
+<td>SHA-384, SHA3-384</td>
+<td>SHA-224, SHA-512/224</td>
+</tr><tr>
+<td class='right'>≧ 256</td>
+<td>SHA-512, SHA3-512</td>
+<td>SHA-256, SHA-512/256,<br> SHA-384,<br> SHA-512, SHA3-512</td>
+</tr>
+</tbody>
+</table>
+<figcaption>Hash functions that can be used to provide the targeted security strengths (via <q><a href='http://dx.doi.org/10.6028/NIST.SP.800-57pt1r4'>SP800-57 Part 1 Revision 4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></q>)</figcaption>
+</figure>
+
+<figure lang='en'>
+<table>
+<thead>
+<tr>
+<th style="vertical-align:middle;" colspan='2'>Security Strength</th>
+<th style="vertical-align:middle;">through<br> 2030</th>
+<th style="vertical-align:middle;">2031 and<br> Beyond</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class='right' rowspan='2'>＜ 112</td>
+<td>Applying</td>
+<td colspan='2' class='center'>Disallowed</td>
+</tr><tr>
+<!-- -->
+<td>Processing</td>
+<td colspan='2' class='center'>Legacy use</td>
+</tr><tr>
+<td class='right' rowspan='2'>112</td>
+<td>Applying</td>
+<td rowspan='2' style="vertical-align:middle;">Acceptable</td>
+<td>Disallowed</td>
+</tr><tr>
+<td>Processing</td>
+<!-- -->
+<td>Legacy use</td>
+</tr><tr>
+<td class='right'>128</td>
+<td rowspan='3' style="vertical-align:middle;">Applying/Processing</td>
+<td>Acceptable</td>
+<td>Acceptable</td>
+</tr><tr>
+<td class='right'>192</td>
+<!-- -->
+<td>Acceptable</td>
+<td>Acceptable</td>
+</tr><tr>
+<td class='right'>256</td>
+<!-- -->
+<td>Acceptable</td>
+<td>Acceptable</td>
+</tr>
+</tbody>
+</table>
+<figcaption>Security-strength time frames (via <q><a href='http://dx.doi.org/10.6028/NIST.SP.800-57pt1r4'>SP800-57 Part 1 Revision 4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></q>)</figcaption>
+</figure>
 
 ## 参考図書
 
