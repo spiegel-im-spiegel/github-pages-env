@@ -8,15 +8,6 @@
 - [RSA暗号を可能にしたEulerの定理 | 田中 隆幸 |本 | 通販 | Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/486641040X/baldandersinf-22/)
 - [『Swift実践入門』2月7日発売 - クックパッド開発者ブログ](http://techlife.cookpad.com/entry/2017/02/07/200052)
 
-- [News | NASA Telescope Reveals Largest Batch of Earth-Size, Habitable-Zone Planets Around Single Star](http://www.jpl.nasa.gov/news/news.php?feature=6756)
-    - [NASA to Host News Conference on Discovery Beyond Our Solar System |  NASA](https://www.nasa.gov/press-release/nasa-to-host-news-conference-on-discovery-beyond-our-solar-system)
-    - [Ultracool Dwarf and the Seven Planets | ESO](http://www.eso.org/public/news/eso1706/)
-    - [太陽系外惑星系TRAPPIST-1の7つの地球型惑星の発見についてのコメント | 国立天文台(NAOJ)](http://www.nao.ac.jp/news/topics/2017/20170223-exoplanets.html)
-    - [NASA、7つの地球サイズ惑星を39光年先に発見　3つは生命存在可能 | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_02_23_nasa.html)
-    - [40光年彼方に地球サイズの7惑星 - AstroArts](http://www.astroarts.co.jp/article/hl/a/8976_trappist1)
-    - [2017年2月24日ニュース「地球に似た7惑星見つかる 3つは海がある可能性」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/02/20170224_01.html)
-    - [Discovery of 7 Earth-Size Exoplanets a 'Giant Leap' Forward in Alien-Life Hunt](http://www.space.com/35803-trappist-1-planets-alien-life.html)
-
 
 ## ブックマーク
 
