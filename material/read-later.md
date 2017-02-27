@@ -8,6 +8,7 @@
 - [RSA暗号を可能にしたEulerの定理 | 田中 隆幸 |本 | 通販 | Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/486641040X/baldandersinf-22/)
 - [『Swift実践入門』2月7日発売 - クックパッド開発者ブログ](http://techlife.cookpad.com/entry/2017/02/07/200052)
 
+- [Release v0.19 · spf13/hugo](https://github.com/spf13/hugo/releases/tag/v0.19)
 
 ## ブックマーク
 
@@ -23,6 +24,7 @@
  - [日本の電力消費をすべて太陽光にするとどうなるか](http://thutmose.blog.jp/archives/69589222.html)
 - [「衝突」・「戦闘」をめぐる「言葉遊び」はなぜ生まれるか : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/14255942.html)
 - [Google Spanner のアーキテクチャを知る - Yuichi Murata's Engineering Blog](http://yuichi1004.hatenablog.com/entry/2017/02/26/162204)
+- [Release v0.19 · spf13/hugo](https://github.com/spf13/hugo/releases/tag/v0.19)
 
 
 ## Free Culture and CC0
