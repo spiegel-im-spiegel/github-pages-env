@@ -2,6 +2,7 @@
 tags = ["golang", "programming", "type"]
 description = "浮動小数点数型の変数をループカウンタにするのは止めましょうね。約束だよ！"
 date = "2017-01-18T21:45:30+09:00"
+update = "2017-02-27T14:33:55+09:00"
 title = "1を1億回足して1億にならない場合"
 draft = false
 
@@ -117,12 +118,181 @@ $ go run loop3.go
 
 [^r]: このような結果になるのは `float32`/`float64` の浮動小数点数型の内部表現が2進数になっているため。たとえば 0.1 を2進数で表すと「0.000110011...」と循環しキリのいい値にならない。このため 0.1 を加算していくと「丸め誤差」が蓄積していくのである。
 
+## `math/big` パッケージ（追記）
+
+浮動小数点数演算の「情報落ち」や「丸め誤差」等を緩和する方法として [`math/big`] パッケージの [`Float`] 型を使う手がある。
+[`Float`] 型では有効桁数を指定できる。
+たとえば先程の 0.1 ずつカウントアップさせる処理ならこんなコードになる。
+
+```go
+package main
+
+import (
+	"fmt"
+	"math/big"
+)
+
+func main() {
+	var x, y, z big.Float //zero initialize
+	y.SetFloat64(0.1)     //53bit precision
+	x.SetPrec(64)
+	y.SetPrec(64)
+
+	for i := 0; i < 10; i++ {
+		z.Add(&x, &y)
+		x.Set(&z)
+		fmt.Printf("x = %v (prec = %d bits)\n", &x, x.Prec())
+	}
+}
+```
+
+このコードでは有効桁数を64ビットにそろえて計算している。
+これを実行するとこうなる。
+
+```text
+$ go run big2.go
+x = 0.10000000000000000555 (prec = 64 bits)
+x = 0.2000000000000000111 (prec = 64 bits)
+x = 0.30000000000000001665 (prec = 64 bits)
+x = 0.4000000000000000222 (prec = 64 bits)
+x = 0.50000000000000002776 (prec = 64 bits)
+x = 0.6000000000000000333 (prec = 64 bits)
+x = 0.70000000000000003886 (prec = 64 bits)
+x = 0.8000000000000000444 (prec = 64 bits)
+x = 0.90000000000000004996 (prec = 64 bits)
+x = 1.0000000000000000555 (prec = 64 bits)
+```
+
+もうひとつ。
+[`Rat`] 型を使う手もある。
+[`Rat`] 型は有理数の内部表現で値を保持するため記述によっては誤差を小さくできる。
+たとえばこんな感じ。
+
+```go
+package main
+
+import (
+	"fmt"
+	"math/big"
+)
+
+func main() {
+	var x, y, z big.Rat //zero initialize
+	var a, b big.Int
+	a.SetInt64(1)
+	b.SetInt64(10)
+	y.SetFrac(&a, &b)
+
+	for i := 0; i < 10; i++ {
+		z.Add(&x, &y)
+		x.Set(&z)
+		fmt.Printf("x = %s (%v)\n", x.FloatString(20), &x)
+	}
+}
+```
+
+実行結果は以下の通り。
+
+```text
+$ go run big3.go
+x = 0.10000000000000000000 (1/10)
+x = 0.20000000000000000000 (1/5)
+x = 0.30000000000000000000 (3/10)
+x = 0.40000000000000000000 (2/5)
+x = 0.50000000000000000000 (1/2)
+x = 0.60000000000000000000 (3/5)
+x = 0.70000000000000000000 (7/10)
+x = 0.80000000000000000000 (4/5)
+x = 0.90000000000000000000 (9/10)
+x = 1.00000000000000000000 (1/1)
+```
+
+## `Decimal` 型（追記）
+
+残念ながら [Go 言語]の標準パッケージには Java で言うところの [BigDecimal](http://docs.oracle.com/javase/8/docs/api/java/math/BigDecimal.html) に相当するものがない。
+ただし似たパッケージを提供している人がいるようだ。
+
+- [shopspring/decimal](https://github.com/shopspring/decimal "shopspring/decimal: Arbitrary-precision fixed-point decimal numbers in go")
+
+たとえばこんな感じに記述する。
+
+```go
+package main
+
+import (
+	"fmt"
+
+	"github.com/shopspring/decimal"
+)
+
+func main() {
+	x := decimal.NewFromFloat(0)
+	y, _ := decimal.NewFromString("0.1")
+
+	for i := 0; i < 10; i++ {
+		x = x.Add(y)
+		fmt.Printf("x = %s\n", x.StringFixed(20))
+	}
+}
+```
+
+実行結果はこんな感じ。
+
+```text
+$ go run big4.go
+x = 0.10000000000000000000
+x = 0.20000000000000000000
+x = 0.30000000000000000000
+x = 0.40000000000000000000
+x = 0.50000000000000000000
+x = 0.60000000000000000000
+x = 0.70000000000000000000
+x = 0.80000000000000000000
+x = 0.90000000000000000000
+x = 1.00000000000000000000
+```
+
+じゃあ試しに1を1億回足してみよう。
+
+```go
+package main
+
+import (
+	"fmt"
+
+	"github.com/shopspring/decimal"
+)
+
+func main() {
+	x := decimal.NewFromFloat(0)
+	y, _ := decimal.NewFromString("1.0")
+
+	for i := 0; i < 100000000; i++ {
+		x = x.Add(y)
+	}
+	fmt.Printf("x = %s\n", x.StringFixed(20))
+}
+```
+
+実行結果はこうなる。
+
+```text
+$ go run big4b.go
+z = 100000000.00000000000000000000
+```
+
+結構時間かかった。
+でも「情報落ち」もなく綺麗に1億になったようだ。
+
 ## ブックマーク
 
 - [浮動小数点数型と誤差](http://www.cc.kyoto-su.ac.jp/~yamada/programming/float.html)
 - [情報落ち、桁落ち、丸め誤差、打切り誤差の違い](http://tooljp.com/jyosho/docs/ketaochi-jyohoochi/ketaochi-jyohoochi.html)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
+[`math/big`]: https://golang.org/pkg/math/big/ "big - The Go Programming Language"
+[`Float`]: https://golang.org/pkg/math/big/#Float
+[`Rat`]: https://golang.org/pkg/math/big/#Rat
 
 ## 参考図書
 

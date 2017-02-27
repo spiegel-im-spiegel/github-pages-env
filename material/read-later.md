@@ -19,6 +19,7 @@
 
 ### その他
 
+ - [日本の電力消費をすべて太陽光にするとどうなるか](http://thutmose.blog.jp/archives/69589222.html)
 
 
 ## Free Culture and CC0
