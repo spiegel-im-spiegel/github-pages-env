@@ -1,6 +1,6 @@
 +++
 date = "2015-10-30T00:56:49+09:00"
-update = "2015-11-11T21:35:59+09:00"
+update = "2017-02-27T09:38:44+09:00"
 description = "そんなわけで，えんやらやっと ConEmu を導入することにした。ついでに NYAGOS も入れなおすことに。"
 draft = false
 tags = ["windows", "tools", "conemu", "nyagos", "terminal", "shell", "putty"]
@@ -55,10 +55,7 @@ lnk.js*            nyagos.exe*        readme_ja.md
 ## ConEmu の導入
 
 [ConEmu] は Windows 用のターミナルでタブごとに異なる shell を呼び出せるのが特徴。
-コマンドプロンプトや上述の [NYAGOS] はもちろん， [MSYS2] の bash や [PuTTY] も呼び出せてしまう優れもの[^b] [^c]。
-
-[^b]: ~~ただし [ConEmu] から [PuTTY] を呼び出す場合，サーバ側が UTF-8 だと文字化けするっぽい。ググると「`chcp 65001` に設定しろ」みたいなことが書いてあるが， [PuTTY] に対しては効いてない感じ。~~
-[^c]: （11月11日追記） 上のを訂正。オリジナルの [PuTTY] じゃなくて，日本語に対応している [PuTTYjp] なら問題なく日本語で表示される。ブラボー！
+コマンドプロンプトや上述の [NYAGOS] はもちろん， [MSYS2] の bash や [PuTTY] も呼び出せてしまう優れもの。
 
 - [ConEmu - Handy Windows Terminal](https://conemu.github.io/)
     - [Windows：コマンドプロンプト代替をConsole2からConEmuに変更](http://kenpg.bitbucket.org/blog/201506/07.html)
@@ -108,7 +105,9 @@ set MSYSTEM=MSYS & C:\msys64\usr\bin\bash.exe --login -i
 前半で環境変数を設定し，後半で実際に bash を呼び出している。
 やぁ，これで mintty を使わなくて済むよ。
 
-[PuTTY] の場合は以下のようになる。
+[PuTTY] の場合は以下のようになる[^b]。
+
+[^b]: ~~ただし [ConEmu] から [PuTTY] を呼び出す場合，サーバ側が UTF-8 だと文字化けするっぽい。ググると「`chcp 65001` に設定しろ」みたいなことが書いてあるが， [PuTTY] に対しては効いてない感じ。~~ （11月11日追記） 左記を訂正。オリジナルの [PuTTY] じゃなくて，日本語に対応している [PuTTYjp] なら問題なく日本語で表示される。ブラボー！
 
 ```
 C:\PATH\TO\PuTTY\putty.exe -load "mysession" -new_console
