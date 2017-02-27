@@ -13,6 +13,7 @@
 
 ### Age of Trump
 
+- [いま、アメリカで起きていること | ガメ・オベールの日本語練習帳v_大庭亀夫の休日](https://gamayauber1001.wordpress.com/2017/02/27/trump/)
 
 ### 天文関連
 
@@ -20,6 +21,8 @@
 ### その他
 
  - [日本の電力消費をすべて太陽光にするとどうなるか](http://thutmose.blog.jp/archives/69589222.html)
+- [「衝突」・「戦闘」をめぐる「言葉遊び」はなぜ生まれるか : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/14255942.html)
+- [Google Spanner のアーキテクチャを知る - Yuichi Murata's Engineering Blog](http://yuichi1004.hatenablog.com/entry/2017/02/26/162204)
 
 
 ## Free Culture and CC0

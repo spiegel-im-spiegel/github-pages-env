@@ -118,7 +118,7 @@ $ go run loop3.go
 
 [^r]: このような結果になるのは `float32`/`float64` の浮動小数点数型の内部表現が2進数になっているため。たとえば 0.1 を2進数で表すと「0.000110011...」と循環しキリのいい値にならない。このため 0.1 を加算していくと「丸め誤差」が蓄積していくのである。
 
-## `math/big` パッケージ（追記）
+## math/big パッケージ（追記）
 
 浮動小数点数演算の「情報落ち」や「丸め誤差」等を緩和する方法として [`math/big`] パッケージの [`Float`] 型を使う手がある。
 [`Float`] 型では有効桁数を指定できる。
@@ -207,10 +207,10 @@ x = 0.90000000000000000000 (9/10)
 x = 1.00000000000000000000 (1/1)
 ```
 
-## `Decimal` 型（追記）
+## Decimal 型（追記）
 
 残念ながら [Go 言語]の標準パッケージには Java で言うところの [BigDecimal](http://docs.oracle.com/javase/8/docs/api/java/math/BigDecimal.html) に相当するものがない。
-ただし似たパッケージを提供している人がいるようだ。
+ただし似たパッケージを提供している人はいるようだ。
 
 - [shopspring/decimal](https://github.com/shopspring/decimal "shopspring/decimal: Arbitrary-precision fixed-point decimal numbers in go")
 
@@ -281,7 +281,7 @@ $ go run big4b.go
 z = 100000000.00000000000000000000
 ```
 
-結構時間かかった。
+結構な時間がかかった。
 でも「情報落ち」もなく綺麗に1億になったようだ。
 
 ## ブックマーク
