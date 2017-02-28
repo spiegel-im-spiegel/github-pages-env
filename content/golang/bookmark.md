@@ -366,6 +366,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go言語がダメな理由 | プログラミング | POSTD](http://postd.cc/why-go-is-not-good/)
 - [ASCII.jp：Goならわかるシステムプログラミング](http://ascii.jp/elem/000/001/235/1235262/)
 - [グーグルの「Go」、2016年のプログラミング言語大賞に輝く - ZDNet Japan](http://japan.zdnet.com/article/35094856/)
+- [Go言語でWebアプリを作りかけて辞めた話 - ぼっち勉強会](http://kannokanno.hatenablog.com/entry/2017/02/28/011159)
 
 ### Go 1.5 に関する話題
 

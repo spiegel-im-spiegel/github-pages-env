@@ -1,5 +1,6 @@
 +++
 date = "2017-02-26T15:15:23+09:00"
+update = "2017-02-28T12:36:44+09:00"
 title = "新しい太陽系外惑星に関するブックマーク"
 draft = false
 tags = ["astronomy", "exoplanet", "seti"]
@@ -32,6 +33,10 @@ description = "あちこちで報道されているようなので，ブック�
 - [40光年彼方に地球サイズの7惑星 - AstroArts](http://www.astroarts.co.jp/article/hl/a/8976_trappist1)
 - [2017年2月24日ニュース「地球に似た7惑星見つかる 3つは海がある可能性」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/02/20170224_01.html)
 - [Discovery of 7 Earth-Size Exoplanets a 'Giant Leap' Forward in Alien-Life Hunt](http://www.space.com/35803-trappist-1-planets-alien-life.html)
+- [ＮＡＳＡ発見の新惑星が「第二の地球」になる条件はこんなにも厳しい](http://ironna.jp/article/5870)
+- [「七つの地球」大発見に隠されたＮＡＳＡの思惑](http://ironna.jp/article/5871)
+- [スーパー宇宙望遠鏡が「トラピスト星人」を発見する日](http://ironna.jp/article/5874)
+- [新発見の惑星で生命誕生と進化を可能にする「小さな太陽」の正体](http://ironna.jp/article/5875)
 
 ## 補足
 
@@ -50,7 +55,7 @@ description = "あちこちで報道されているようなので，ブック�
 
 ぶっちゃけ，ハビタブルゾーンというのは（太陽系外を含む）地球外の惑星に人類が移住する際の一応の目安として考えられたもので，これを拡大解釈して「地球外生命」存在の目安とするには根拠が薄い（実際そう主張する論文もいくつかある）。
 
-ただ，地球外生命探査（Search for Extra-Terrestrial Intelligencell; SETI）の観点からは，全く手がかりなしでやみくもに「地球外生命」を探しても埒が明かないので「まずはハビタブルゾーンにある惑星から調べましょ」という考え方も多く，実際そのように活動しているところもあるようだ。
+ただ，地球外生命探査（Search for Extra-Terrestrial Intelligence; SETI）の観点からは，全く手がかりなしでやみくもに「地球外生命」を探しても埒が明かないので「まずはハビタブルゾーンにある惑星から調べましょ」という考え方も多く，実際そのように活動しているところもあるようだ。
 
 というわけで，ハビタブルゾーンに地球型惑星があるからといって即「地球外生命がいるかも」という話にはならないのだが，地球外の生命（できれば文明）を見つけることはある意味人類の悲願でもあるので，今後の観測に期待したいところである。
 その意味で太陽系から40光年という近傍（！）でこのような系外惑星が見つかるというのは割と凄いことなのである。
