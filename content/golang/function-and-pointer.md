@@ -1,6 +1,6 @@
 +++
 date = "2016-03-29T22:16:41+09:00"
-update = "2017-02-22T17:04:31+09:00"
+update = "2017-03-03T15:40:58+09:00"
 description = "Go 言語の引数は基本的に「値渡し（call by value）」である。「参照渡し（call by reference）」にしたい場合はポインタを使う。"
 draft = false
 tags = ["golang", "function", "pointer"]
@@ -200,7 +200,11 @@ invalid operation: x += y (operator + not defined on pointer)
 ```
 
 とコンパイル・エラーになる。
-ポインタ演算が必要な場合は [`unsafe`] パッケージを使う。
+したがって通常は「[Go 言語]のポインタは nullable 参照[^nr] と同じ」と考えてよい。
+
+[^nr]: nullable 参照は「null を許容する参照」くらいの意味。 [Go 言語]なら nil 値。 [Go 言語]は「null 安全（null safty）」ではないので null 参照（＝無効な参照）の始末について instance を参照する側が責務を負うことになる。（参考： [「null 安全」について]({{< relref "remark/2016/11/null-safety.md" >}})）
+
+ちなみにポインタ演算が必要な場合は [`unsafe`] パッケージを使う。
 
 ### Slice, Map, Channel は常に「参照渡し」
 
