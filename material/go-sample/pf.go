@@ -25,14 +25,11 @@ func GetPremiumFriday(y int, m time.Month) (int, error) {
 	}
 	tm := time.Date(y, m+1, 0, 0, 0, 0, 0, tz)
 
-	//月末尾から1日ずつ減じて最終金曜日を探す
-	for {
-		if tm.Weekday() == time.Friday {
-			break
-		}
-		tm = tm.AddDate(0, 0, -1)
+	w := tm.Weekday() - time.Friday
+	if w < 0 {
+		w += 7
 	}
-	return tm.Day(), nil
+	return tm.Day() - (int)(w), nil
 }
 
 func main() {

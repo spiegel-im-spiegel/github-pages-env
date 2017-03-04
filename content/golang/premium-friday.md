@@ -2,6 +2,7 @@
 draft = false
 tags = ["golang", "programming", "time", "calendar"]
 date = "2017-03-04T09:40:51+09:00"
+update = "2017-03-04T17:27:54+09:00"
 title = "「プレミアムフライデー」を求めるパッケージを作ってみた"
 description = "もちろん息抜きである。潤いは大事。でも実用性はないと思われ。"
 
@@ -31,7 +32,9 @@ description = "もちろん息抜きである。潤いは大事。でも実用�
 - [プレミアムフライデーを求めるメソッドを作った - Qiita](http://qiita.com/neko_the_shadow/items/4ebf94a8a6d9282e7207)
 - [プレミアムフライデーを求めるメソッドを作った（Java8版） - Qiita](http://qiita.com/deaf_tadashi/items/963a62072338f09f12a5)
 
-まずはパッケージ分割しないでベタに書いてみる。
+まずはパッケージ分割しないでベタに書いてみる[^rf1]。
+
+[^rf1]: 元記事のコードがループさせてたんでこっちもついループさせちゃったけど，考えてみれば（いや考えるまでもなく）ループを回す必要はなかった。
 
 ```go
 package main
@@ -47,7 +50,7 @@ import (
 //GetPremiumFriday returns day of premium friday
 func GetPremiumFriday(y int, m time.Month) (int, error) {
 	//引数のチェック
-	if y < 2017 || (m < time.January && m > time.December) {
+    if y < 2017 || m < time.January || m > time.December {
 		return 0, os.ErrInvalid
 	}
 	if y == 2017 && m < time.February { //2017年1月は実施前なのでエラー
@@ -61,14 +64,11 @@ func GetPremiumFriday(y int, m time.Month) (int, error) {
 	}
 	tm := time.Date(y, m+1, 0, 0, 0, 0, 0, tz)
 
-	//月末尾から1日ずつ減じて最終金曜日を探す
-	for {
-		if tm.Weekday() == time.Friday {
-			break
-		}
-		tm = tm.AddDate(0, 0, -1)
+    w := tm.Weekday() - time.Friday
+	if w < 0 {
+		w += 7
 	}
-	return tm.Day(), nil
+	return tm.Day() - (int)(w), nil
 }
 
 func main() {
@@ -123,7 +123,7 @@ import (
 //GetPremiumFriday returns day of premium friday
 func GetPremiumFriday(y int, m time.Month) (int, error) {
 	//引数のチェック
-	if y < 2017 || (m < time.January && m > time.December) {
+    if y < 2017 || m < time.January || m > time.December {
 		return 0, os.ErrInvalid
 	}
 	if y == 2017 && m < time.February { //2017年1月は実施前なのでエラー
@@ -137,14 +137,11 @@ func GetPremiumFriday(y int, m time.Month) (int, error) {
 	}
 	tm := time.Date(y, m+1, 0, 0, 0, 0, 0, tz)
 
-	//月末尾から1日ずつ減じて最終金曜日を探す
-	for {
-		if tm.Weekday() == time.Friday {
-			break
-		}
-		tm = tm.AddDate(0, 0, -1)
+    w := tm.Weekday() - time.Friday
+	if w < 0 {
+		w += 7
 	}
-	return tm.Day(), nil
+	return tm.Day() - (int)(w), nil
 }
 ```
 
