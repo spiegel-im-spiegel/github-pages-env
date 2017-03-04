@@ -1,7 +1,7 @@
 +++
-draft = true
-tags = ["golang", "programing", "time", "calendar"]
-date = "2017-03-03T16:07:01+09:00"
+draft = false
+tags = ["golang", "programming", "time", "calendar"]
+date = "2017-03-04T09:40:51+09:00"
 title = "「プレミアムフライデー」を求めるパッケージを作ってみた"
 description = "もちろん息抜きである。潤いは大事。でも実用性はないと思われ。"
 
