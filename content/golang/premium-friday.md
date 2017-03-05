@@ -58,11 +58,7 @@ func GetPremiumFriday(y int, m time.Month) (int, error) {
 	}
 
 	//指定月末（翌月0日）で初期化する
-	tz, err := time.LoadLocation("Asia/Tokyo")
-	if err != nil {
-		return 0, err
-	}
-	tm := time.Date(y, m+1, 0, 0, 0, 0, 0, tz)
+    tm := time.Date(y, m+1, 0, 0, 0, 0, 0, time.UTC) //時差は影響しないので，とりあえず UTC で
 
     w := tm.Weekday() - time.Friday
 	if w < 0 {
@@ -131,11 +127,7 @@ func GetPremiumFriday(y int, m time.Month) (int, error) {
 	}
 
 	//指定月末（翌月0日）で初期化する
-	tz, err := time.LoadLocation("Asia/Tokyo")
-	if err != nil {
-		return 0, err
-	}
-	tm := time.Date(y, m+1, 0, 0, 0, 0, 0, tz)
+    tm := time.Date(y, m+1, 0, 0, 0, 0, 0, time.UTC) //時差は影響しないので，とりあえず UTC で
 
     w := tm.Weekday() - time.Friday
 	if w < 0 {
