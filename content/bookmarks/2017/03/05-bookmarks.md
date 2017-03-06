@@ -1,5 +1,6 @@
 +++
 date = "2017-03-05T15:28:54+09:00"
+update = "2017-03-06T10:57:38+09:00"
 title = "2017-03-05 のブックマーク"
 draft = false
 description = "「スペースX、2018年に2名を乗せた有人月周回飛行を実施すると発表」他"
@@ -71,6 +72,7 @@ description = "「スペースX、2018年に2名を乗せた有人月周回飛�
 - [「1Password」や「LastPass」など9つの人気パスワードマネージャーに情報漏えいのリスクがあると報じられる - GIGAZINE](http://gigazine.net/news/20170302-9-password-manager-leaking-secret/)
 - [外国人が語る：英語でクラスやメソッド等の名付け方 - Qiita](http://qiita.com/gazayas/items/3d352d1b6ec9a225c6f6)
 - [AWS、S3の大惨事の原因を公開―ヒューマンエラーが発端だった | TechCrunch Japan](http://jp.techcrunch.com/2017/03/03/20170302aws-cloudsplains-what-happend-to-s3-storage-on-monday/)
+    - [Amazon S3ダウンの原因、コマンドの入力ミスで多数のサーバを削除。サブシステム再起動に時間がかかり障害が長引く。AWSの報告を読み解く － Publickey](http://www.publickey1.jp/blog/17/amazon_s3aws_1.html)
 - [超入門BitLocker：第4回　BitLockerをコマンドラインで管理する (1/2) - ＠IT](http://www.atmarkit.co.jp/ait/articles/1703/03/news039.html)
 - [脆弱性対策：ファジング：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/vuln/fuzzing.html)
 - [無料のコードエディタ「Visual Studio Code 1.10」リリース。ミニマップ、テキストのドラッグ＆ドロップ、TypeScript 2.2対応、JSDocコメントの自動生成など － Publickey](http://www.publickey1.jp/blog/17/visual_studio_code_110typescript_22jsdoc.html)
