@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-02-24T17:42:00+09:00"
+update = "2017-03-07T09:50:37+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -367,6 +367,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [ASCII.jp：Goならわかるシステムプログラミング](http://ascii.jp/elem/000/001/235/1235262/)
 - [グーグルの「Go」、2016年のプログラミング言語大賞に輝く - ZDNet Japan](http://japan.zdnet.com/article/35094856/)
 - [Go言語でWebアプリを作りかけて辞めた話 - ぼっち勉強会](http://kannokanno.hatenablog.com/entry/2017/02/28/011159)
+- [Go 2016 Survey Results - The Go Blog](https://blog.golang.org/survey2016-results)
 
 ### Go 1.5 に関する話題
 

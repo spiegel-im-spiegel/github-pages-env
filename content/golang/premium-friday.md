@@ -2,7 +2,7 @@
 draft = false
 tags = ["golang", "programming", "time", "calendar"]
 date = "2017-03-04T09:40:51+09:00"
-update = "2017-03-04T17:27:54+09:00"
+update = "2017-03-07T09:38:50+09:00"
 title = "「プレミアムフライデー」を求めるパッケージを作ってみた"
 description = "もちろん息抜きである。潤いは大事。でも実用性はないと思われ。"
 
@@ -179,6 +179,10 @@ func main() {
 
 まぁこんなもんかな。
 遊んだ遊んだ。
+
+## ブックマーク
+
+- [Golangでプレミアムフライデーかどうか判定する - Qiita](http://qiita.com/qube81/items/1e93c837c0a7e3d99a10)
 
 ## 参考図書
 
