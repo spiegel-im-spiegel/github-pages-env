@@ -273,6 +273,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - 特定の単語をマークしておける [quick-highlight](https://atom.io/packages/quick-highlight) が結構使える。 Windows だとキーに割り当てられないので、 toggle を適当なファンクションキーとかに割り当てておくとめっさ便利。
 - [tablr](https://atom.io/packages/tablr) : CSV Editor。なにこれ素敵！
 - [markdown-pdf](https://atom.io/packages/markdown-pdf) : markdwon 文書を PDF に変換してくれるらしい
+- [フロー図(UMLシーケンス図)もコードで書いて管理したい(atom + mermaid.js) - Qiita](http://qiita.com/hirofumihida/items/06e4c7b9fca086f056ff) : おおっ
 
 ## 継続調査（欲しい機能）
 
