@@ -1,8 +1,8 @@
 +++
-date = "2017-03-08T11:08:06+09:00"
+date = "2017-03-08T20:36:26+09:00"
 title = "フェイクニュースを排除することはフェイクニュース問題の解決にならない"
-description = "description"
-draft = true
+description = "結局私たちは自分自身で，虚と実を併せ飲み，知見を積み上げ，知識を掘り下げていくしかないのだ。その意味で機械は技術は何もしてくれない。"
+draft = false
 tags = ["media", "communication", "spam", "censorship"]
 
 [author]
