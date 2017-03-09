@@ -8,9 +8,9 @@
 - [RSA暗号を可能にしたEulerの定理 | 田中 隆幸 |本 | 通販 | Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/486641040X/baldandersinf-22/)
 - [『Swift実践入門』2月7日発売 - クックパッド開発者ブログ](http://techlife.cookpad.com/entry/2017/02/07/200052)
 - [パンと昭和 (らんぷの本) | 小泉 和子 |本 | 通販 | Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/4309750230/baldandersinf-22/)
+- [大ヒット風刺漫画『マンガで読む　嘘つき中国共産党』が生まれた理由：野嶋剛 | 中国・台湾の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42069)
 
 - [The Go Programming Language Blog](https://blog.golang.org/feed.atom) : フィード
-- [メディアマーカー - お知らせ / Facebookへ投稿できない不具合について](http://mediamarker.net/news/474) : あとで直す
 
 ## ブックマーク
 
@@ -20,6 +20,8 @@
 - [WikiLeaks Releases CIA Hacking Tools - Schneier on Security](https://www.schneier.com/blog/archives/2017/03/wikileaks_relea.html)
 - [WikiLeaks、CIAの“ハッキングツール”と多数の関連文書を公開 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1703/08/news062.html)
 - [「自動車をハッキングして暗殺する」「テレビで部屋の会話を録音する」などCIAの極秘諜報作戦の実態を暴露する機密資料「Vault 7」をWikiLeaksが放出 - GIGAZINE](http://gigazine.net/news/20170308-wikileaks-vault-7/)
+- [Wikileaks CIA Files - What this means for Internet security and encryption - ProtonMail Blog](https://protonmail.com/blog/cia-wikileaks-encryption/)
+- [More on the CIA Document Leak - Schneier on Security](https://www.schneier.com/blog/archives/2017/03/more_on_the_cia.html)
 
 ### Age of Trump
 
@@ -30,11 +32,14 @@
 - [「国防費大増強」へ180度の大転換：トランプ米大統領「一般教書」：林吉永 | 安全保障の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42074)
 - [米共和党、オバマケア廃止法案を発表　写真1枚　国際ニュース：AFPBB News](http://www.afpbb.com/articles/-/3120407)
     - [トランプ米大統領、共和党のオバマケア代替法案を支持－保守派は酷評 - Bloomberg](https://www.bloomberg.co.jp/news/articles/2017-03-08/OMGXE76K50XS01)
+- [入国制限の新・大統領令の主要なポイント：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42076)
+- [入国制限対象の当初「７カ国」の選定はトランプの独断ではない：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42077)
 
 ### 天文関連
 
 - [MIT Tech Review: ベゾス、マスク、ブランソンが宇宙ビジネスを手掛ける理由](https://www.technologyreview.jp/s/30891/tech-ceo-space-race-intensifies/)
 - [HAKUTO運営、月資源開発へ　ルクセンブルク政府とispace社連携 | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_03_06_ispace.html)
+- [アルマ望遠鏡、132億光年先の銀河に酸素と塵を発見—最遠方記録を更新し、銀河誕生時代に迫る - ニュース＆コラム - アルマ望遠鏡 国立天文台](http://alma.mtk.nao.ac.jp/j/news/pressrelease/201703088132.html)
 
 ### その他
 
@@ -66,7 +71,12 @@
 - [EV用「急速」充電器整備に潜む問題点 - デロリアンEV化計画](http://delorean.tumblr.com/post/158094669407/)
 - [Big Sky :: C++ で STL フレンドリに扱えるJSONパーサ「json.hpp」](http://mattn.kaoriya.net/software/lang/c/20170307144241.htm)
 - [2017年3月8日ニュース「世界の5歳未満児の死因の4分の1は環境要因 WHO報告書」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/03/20170308_01.html)
-- [Struts2の脆弱性 CVE-2017-5638 (S2-045)についてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20170307/1488907259)
+- [Google、データサイエンス、機械学習のKaggle買収を確認 | TechCrunch Japan](http://jp.techcrunch.com/2017/03/09/20170308google-confirms-its-acquisition-of-data-science-community-kaggle/)
+- [SKYSEA Client View の脆弱性 (CVE-2016-7836) に関する注意喚起](http://www.jpcert.or.jp/at/2016/at160051.html)
+- [偽ショッピングサイト www.toyskind.pw の情報を色々突いてみようか - 電気ウナギ的○○](http://blog.netandfield.com/shar/2017/03/-wwwtoyskindpw.html)
+    - [詐欺サイト www.toyskind.pw の件で山口県警より電話あり - 電気ウナギ的○○](http://blog.netandfield.com/shar/2017/03/-wwwtoyskindpw-1.html)
+- [Google Chartを使った数式の書き方](http://www.geisya.or.jp/~mwm48961/electro/parameter5.htm) : これなら MathJax のほうが...
+- [3月7日のトルコ・露・米の参謀総長によるアンタルヤ会談はシリア内戦の均衡への一歩：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42079)
 
 
 ## Free Culture and CC0
