@@ -1,8 +1,9 @@
 +++
 date = "2015-10-17T01:19:11+09:00"
+update = "2017-03-09T20:22:12+09:00"
 description = "TUTAYA というか CCC 図書館 / 購入（予定）本2冊 / 転記型 TODO と日記"
 draft = false
-tags = ["library", "book", "intelligence", "management"]
+tags = ["library", "book", "anti-intellectualism", "management"]
 title = "今日の戯れ言：TUTAYA というか CCC 図書館"
 
 [author]
