@@ -14,15 +14,6 @@
 
 ## ブックマーク
 
-## CIA のハッキングツールを WikiLeaks がリーク
-
-- [Vault 7: CIA Hacking Tools Revealed](https://wikileaks.org/ciav7p1/)
-- [WikiLeaks Releases CIA Hacking Tools - Schneier on Security](https://www.schneier.com/blog/archives/2017/03/wikileaks_relea.html)
-- [WikiLeaks、CIAの“ハッキングツール”と多数の関連文書を公開 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1703/08/news062.html)
-- [「自動車をハッキングして暗殺する」「テレビで部屋の会話を録音する」などCIAの極秘諜報作戦の実態を暴露する機密資料「Vault 7」をWikiLeaksが放出 - GIGAZINE](http://gigazine.net/news/20170308-wikileaks-vault-7/)
-- [Wikileaks CIA Files - What this means for Internet security and encryption - ProtonMail Blog](https://protonmail.com/blog/cia-wikileaks-encryption/)
-- [More on the CIA Document Leak - Schneier on Security](https://www.schneier.com/blog/archives/2017/03/more_on_the_cia.html)
-
 ### Age of Trump
 
 - [トランプ氏「盗聴」発言、FBIが反証するよう働きかけ - WSJ](http://jp.wsj.com/articles/SB10681214028215414391304583004841325255924)
@@ -40,6 +31,7 @@
 - [MIT Tech Review: ベゾス、マスク、ブランソンが宇宙ビジネスを手掛ける理由](https://www.technologyreview.jp/s/30891/tech-ceo-space-race-intensifies/)
 - [HAKUTO運営、月資源開発へ　ルクセンブルク政府とispace社連携 | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_03_06_ispace.html)
 - [アルマ望遠鏡、132億光年先の銀河に酸素と塵を発見—最遠方記録を更新し、銀河誕生時代に迫る - ニュース＆コラム - アルマ望遠鏡 国立天文台](http://alma.mtk.nao.ac.jp/j/news/pressrelease/201703088132.html)
+- [NASA、火星を居住可能にする「人工磁気フィールド」構想中　厚い大気や海が復活する？ | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_03_09_mars.html)
 
 ### その他
 
