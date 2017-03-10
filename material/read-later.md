@@ -11,6 +11,8 @@
 - [大ヒット風刺漫画『マンガで読む　嘘つき中国共産党』が生まれた理由：野嶋剛 | 中国・台湾の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42069)
 
 - [The Go Programming Language Blog](https://blog.golang.org/feed.atom) : フィード
+- [Foresight](http://www.fsight.jp/list/feed/rss) : フィード
+- [Announcement of LibreOffice 5.2.6](https://blog.documentfoundation.org/blog/2017/03/09/libreoffice-5-2-6/)
 
 ## ブックマーク
 
@@ -23,14 +25,17 @@
 - [「国防費大増強」へ180度の大転換：トランプ米大統領「一般教書」：林吉永 | 安全保障の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42074)
 - [米共和党、オバマケア廃止法案を発表　写真1枚　国際ニュース：AFPBB News](http://www.afpbb.com/articles/-/3120407)
     - [トランプ米大統領、共和党のオバマケア代替法案を支持－保守派は酷評 - Bloomberg](https://www.bloomberg.co.jp/news/articles/2017-03-08/OMGXE76K50XS01)
+    - [「オバマケア代替案」を巡る共和党内の「不協和音」：足立正彦 | アメリカの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42088)
 - [入国制限の新・大統領令の主要なポイント：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42076)
 - [入国制限対象の当初「７カ国」の選定はトランプの独断ではない：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42077)
+- [シリア内戦での米露協調にワシントンの政争は影響を及ぼすか：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42094)
 
 ### 天文関連
 
 - [MIT Tech Review: ベゾス、マスク、ブランソンが宇宙ビジネスを手掛ける理由](https://www.technologyreview.jp/s/30891/tech-ceo-space-race-intensifies/)
 - [HAKUTO運営、月資源開発へ　ルクセンブルク政府とispace社連携 | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_03_06_ispace.html)
 - [アルマ望遠鏡、132億光年先の銀河に酸素と塵を発見—最遠方記録を更新し、銀河誕生時代に迫る - ニュース＆コラム - アルマ望遠鏡 国立天文台](http://alma.mtk.nao.ac.jp/j/news/pressrelease/201703088132.html)
+    - [2017年3月9日ニュース「132億年前の最古の銀河を発見 国立天文台も参加する国際観測チーム」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/03/20170309_01.html)
 - [NASA、火星を居住可能にする「人工磁気フィールド」構想中　厚い大気や海が復活する？ | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_03_09_mars.html)
 
 ### その他
@@ -69,6 +74,17 @@
     - [詐欺サイト www.toyskind.pw の件で山口県警より電話あり - 電気ウナギ的○○](http://blog.netandfield.com/shar/2017/03/-wwwtoyskindpw-1.html)
 - [Google Chartを使った数式の書き方](http://www.geisya.or.jp/~mwm48961/electro/parameter5.htm) : これなら MathJax のほうが...
 - [3月7日のトルコ・露・米の参謀総長によるアンタルヤ会談はシリア内戦の均衡への一歩：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42079)
+- [ブロロロロー! 　トラウマ必至の70年代特撮「超人バロム・1」がYouTubeで公式配信開始 - ねとらぼ](http://nlab.itmedia.co.jp/nl/articles/1703/09/news096.html)
+- [Amazon、Google、IBM、Microsoftが公開する、AIを使うための「API」「ライブラリ」「実行環境」一覧 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1703/08/news072.html)
+- [Google、「ハングアウト」をSlack競合の「Chat」とビデオ会議「Meet」に分割 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1703/10/news067.html)
+- [Google Drive、PCとの同期不要でクラウドに置いたままファイルを開く「Drive File Stream」発表。企業向けのTeam Drivesは正式版へ。Google Cloud Next'17 － Publickey](http://www.publickey1.jp/blog/17/google_drivepcdrive_file_streamteam_drivesgoogle_cloud_next17.html)
+- [Digital Privacy at the U.S. Border: Protecting the Data On Your Devices and In the Cloud | Electronic Frontier Foundation](https://www.eff.org/wp/digital-privacy-us-border-2017)
+- [Get CC Certified – the open project for Creative Commons certification](https://certificates.creativecommons.org/)
+- [NVIDIA、Pascal搭載で性能2倍の「Jetson TX2」--組み込みAIを促進 - ZDNet Japan](https://japan.zdnet.com/article/35097802/)
+- [ハッカーの多くは標的システムに半日以内で侵入可能--Nuix - ZDNet Japan](https://japan.zdnet.com/article/35097481/)
+- [2017年3月10日ニュース「大地震で沈降した太平洋沿岸部地盤の隆起続く 国土地理院の観測や測量で判明」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/03/20170310_01.html)
+- [「3.11」から6年の「被災地」「原子力村」「日本社会」：吉野源太郎 | 記事 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42086)
+- [シリア北東部でトルコとクルド勢力が「二重の楔」で均衡に：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42089)
 
 
 ## Free Culture and CC0

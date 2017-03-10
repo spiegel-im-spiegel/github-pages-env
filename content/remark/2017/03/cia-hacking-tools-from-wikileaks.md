@@ -1,5 +1,6 @@
 +++
 date = "2017-03-09T20:11:34+09:00"
+update = "2017-03-10T17:46:22+09:00"
 title = "WikiLeaks がリークした CIA ハッキングツール"
 draft = false
 tags = ["security", "tools", "intelligence", "leak"]
@@ -31,7 +32,7 @@ description = "とりあえずブックマークを中心に。以後，追記�
 - [WikiLeaks Releases Trove of Alleged C.I.A. Hacking Documents - The New York Times](https://www.nytimes.com/2017/03/07/world/europe/wikileaks-cia-hacking.html)
 - [More on the CIA Document Leak - Schneier on Security](https://www.schneier.com/blog/archives/2017/03/more_on_the_cia.html)
 - [A Few Observations on Wikileaks and Vault7: Hacking at the CIA - Lawfare](https://www.lawfareblog.com/few-observations-wikileaks-and-vault7-hacking-cia)
-- [CIAが悪用していたセキュリティホールを埋めた「Notepad++」v7.3.3が公開 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1048597.html)
+- [シリア内戦での米露協調にワシントンの政争は影響を及ぼすか：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42094)
 
 まずは [“Schneier on Security” の記事](https://www.schneier.com/blog/archives/2017/03/more_on_the_cia.html "More on the CIA Document Leak - Schneier on Security")。
 
@@ -48,6 +49,12 @@ description = "とりあえずブックマークを中心に。以後，追記�
 {{< /fig-quote >}}
 
 ニューヨーク・タイムズ紙だとあまりマジにとらないほうがいいかな？
+
+不本意にも WikiLeaks で脆弱性を（修正する前に）公にされてしまったツール軍の状況は以下の通り。
+
+- [CIAが悪用していたセキュリティホールを埋めた「Notepad++」v7.3.3が公開 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1048597.html)
+- [機密文書“Vault 7”で有名フリーソフトを使ったCIAのスパイ手法が明らかに - やじうまの杜 - 窓の杜](http://forest.watch.impress.co.jp/docs/serial/yajiuma/1048726.html)
+- [Apple、Wikileaksが公開したiPhone脆弱性「すべて修正済み」 - iPhone Mania](http://iphone-mania.jp/news-160957/)
 
 ## 参考図書
 
