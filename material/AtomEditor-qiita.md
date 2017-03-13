@@ -14,7 +14,7 @@
 
 ## ATOM Editor のインストール
 
-- [ATOM] （2017年2月8日に [1.14](https://github.com/atom/atom/releases/tag/v1.14.0) stable がリリース）
+- [ATOM] （2017年3月10日に [1.15](https://github.com/atom/atom/releases/tag/v1.15.0) stable がリリース）
 
 Windows 版は，インストールパッケージ（実行形式）をダウンロードしてインストールすればよい。
 

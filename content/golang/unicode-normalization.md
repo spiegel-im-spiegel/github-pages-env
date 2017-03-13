@@ -1,6 +1,6 @@
 +++
 date = "2016-01-30T04:05:52+09:00"
-update = "2016-02-18T22:34:57+09:00"
+update = "2017-03-13T09:26:30+09:00"
 description = "今回は少し目先を変えて「Unicode 正規化」のお話。"
 draft = false
 tags = ["golang", "unicode", "normalization", "character"]
@@ -335,6 +335,7 @@ Unicode 文字列の等価属性を調べる際には是非参考にどうぞ。
 - [Go で UTF-8 の文字列を扱う - Qiita](http://qiita.com/masakielastic/items/01a4fb691c572dd71a19)
 - [文字コード地獄秘話 第3話：後戻りの効かないUnicode正規化 - ALBERT Engineer Blog](http://tech.albert2005.co.jp/blog/2014/11/21/mco-normalize/)
 - [本の虫: Linus Torvalds、HFS+に激怒](http://cpplover.blogspot.jp/2015/01/blog-post_14.html)
+- [「ユニコード」で予期せぬ目に遭った話 - moriyoshiの日記](http://moriyoshi.hatenablog.com/entry/2017/03/13/011005)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 

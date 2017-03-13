@@ -1,6 +1,7 @@
 +++
 description = "これはどちらが正しいかという問題ではない。"
 date = "2017-03-11T14:55:06+09:00"
+update = "2017-03-13T17:36:50+09:00"
 title = "きみは Generics がとくいなフレンズなんだね，または「制約は構造を生む」"
 draft = false
 tags = ["golang", "object-oriented", "java", "design"]
@@ -68,7 +69,7 @@ tags = ["golang", "object-oriented", "java", "design"]
 [duck typing] とはクラスの振る舞いに注目してクラス間の汎化・特化関係を帰納法的に定義することである。
 例を挙げると，それが「にゃーん」と鳴くのなら机器猫だろうが猫耳メイドだろうがサーバルキャットだろうが全部「猫」である，ということだ。
 
-[^dt]: [duck typing] の由来は [duck test] だそうで， [duck test] とは “If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.” と帰納法的に対象を推測する手法を指すらしい。 [duck typing] のメリットのひとつは多重継承で発生する様々な問題（名前の衝突や菱形継承など）を気にする必要がない点である。
+[^dt]: [duck typing] の由来は [duck test] だそうで， [duck test] とは “If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.” と帰納法的に対象を推測する手法を指すらしい。 [duck typing] のメリットのひとつは多重継承で発生する様々な問題（名前の衝突や菱形継承など）を気にする必要がない点である。念のために言うと， [duck typing] の概念自体は  [Go 言語]が初出というわけではない。オブジェクト指向プログラミングをサポートするスクリプト言語（Ruby など）では大抵 [duck typing] な記述が可能である。またコンパイル言語でも Generics やそれに近い機能（C# の dynamic 型など）をサポートする場合は [duck typing] な記述が可能な場合がある。  [Go 言語]が特異なのは（class キーワードなどを使った）古典的な継承関係の定義構文をざっくり捨て去ってる点にある。プログラミングの「考え方」を切り替える必要があるのだ。これは私たちプログラマが息をするように書いてきた継承（is-a）関係の実装について改めて考察する機会だと私は思う。
 
 クラス間の関係を定義するのは意外に大変である。
 皆さんは「クラス設計」をどのように行っているだろうか。

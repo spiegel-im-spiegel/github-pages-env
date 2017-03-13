@@ -1,6 +1,6 @@
 +++
 date = "2017-03-09T20:11:34+09:00"
-update = "2017-03-10T17:46:22+09:00"
+update = "2017-03-13T11:12:21+09:00"
 title = "WikiLeaks がリークした CIA ハッキングツール"
 draft = false
 tags = ["security", "tools", "intelligence", "leak"]
@@ -50,11 +50,13 @@ description = "とりあえずブックマークを中心に。以後，追記�
 
 ニューヨーク・タイムズ紙だとあまりマジにとらないほうがいいかな？
 
-不本意にも WikiLeaks で脆弱性を（修正する前に）公にされてしまったツール軍の状況は以下の通り。
+不本意にも WikiLeaks で脆弱性を公にされてしまったツール軍の状況は以下の通り。
 
 - [CIAが悪用していたセキュリティホールを埋めた「Notepad++」v7.3.3が公開 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1048597.html)
 - [機密文書“Vault 7”で有名フリーソフトを使ったCIAのスパイ手法が明らかに - やじうまの杜 - 窓の杜](http://forest.watch.impress.co.jp/docs/serial/yajiuma/1048726.html)
 - [Apple、Wikileaksが公開したiPhone脆弱性「すべて修正済み」 - iPhone Mania](http://iphone-mania.jp/news-160957/)
+- [「CIAハッキングの脆弱性のほとんどは対応済み」とGoogleやAppleは公表するものの依然として危険な状態は続いている - GIGAZINE](http://gigazine.net/news/20170310-apple-google-treat-cia-hucking/)
+- [CIAはSignalやWhatsAppの暗号化を破ったわけじゃあない – P2Pとかその辺のお話R](http://p2ptk.org/privacy/574)
 
 ## 参考図書
 
