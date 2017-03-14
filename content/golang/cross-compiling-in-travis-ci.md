@@ -291,5 +291,5 @@ after_success:
 [gpgpdump]: https://github.com/spiegel-im-spiegel/gpgpdump "spiegel-im-spiegel/gpgpdump: gpgpdump - OpenPGP packet visualizer"
 [Travis CI]: https://travis-ci.org/ "Travis CI - Test and Deploy Your Code with Confidence"
 [GitHub]: https://github.com/ "GitHub"
-[Hugo]: http://gohugo.io/ "Hugo :: A fast and modern static website engine"
+[Hugo]: https://gohugo.io/ "Hugo :: A fast and modern static website engine"
 [`text/template`]: https://golang.org/pkg/text/template/ "template - The Go Programming Language"

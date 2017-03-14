@@ -182,8 +182,8 @@ See the full [analysis](https://wiki.creativecommons.org/wiki/ShareAlike_compati
 
 [Hugo に関するブックマークはこちら]({{< ref "hugo/bookmark.md" >}})。
 
-[Hugo]: http://gohugo.io/ "Hugo :: A fast and modern static website engine"
-[Shortcodes]: http://gohugo.io/extras/shortcodes/ "Shortcodes"
+[Hugo]: https://gohugo.io/ "Hugo :: A fast and modern static website engine"
+[Shortcodes]: https://gohugo.io/extras/shortcodes/ "Shortcodes"
 [YouTube]: https://www.youtube.com/ "YouTube"
 [SlideShare]: http://www.slideshare.net/ "Share and Discover Knowledge on LinkedIn SlideShare"
 [spiegel-im-spiegel/hugo-theme-text]: https://github.com/spiegel-im-spiegel/hugo-theme-text

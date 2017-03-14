@@ -464,7 +464,7 @@ $ go run main.go estmt -e 10 -p 100000
 [前回]: {{< relref "golang/estimate-of-pi.md" >}} "モンテカルロ法による円周率の推定（その1）"
 [`mitchellh/cli`]: https://github.com/mitchellh/cli "mitchellh/cli"
 [`spf13/cobra`]: https://github.com/spf13/cobra "spf13/cobra: A Commander for modern Go CLI interactions"
-[Hugo]: http://gohugo.io/ "Hugo :: A fast and modern static website engine"
+[Hugo]: https://gohugo.io/ "Hugo :: A fast and modern static website engine"
 [channel]: http://golang.org/ref/spec#Channel_types
 
 ## 参考図書

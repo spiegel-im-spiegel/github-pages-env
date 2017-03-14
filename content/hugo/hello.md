@@ -2,7 +2,7 @@
 title       = "インストールから Hello World まで"
 description = "自サイトのブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。ここではその時のメモを公開する。"
 date        = "2015-09-11T17:58:23+09:00"
-update      = "2015-12-30T00:41:00+09:00"
+update      = "2017-03-14T11:26:54+09:00"
 tags        = [ "hugo", "install", "helloworld" ]
 draft = false
 
@@ -445,7 +445,7 @@ draft = false
 title = "Hello!"
 +++
 
-ようこそ， [Hugo](http://gohugo.io/) の世界へ！
+ようこそ， [Hugo](https://gohugo.io/) の世界へ！
 ```
 
 草稿記事の場合は `draft` は `true` のままでよいが，そうでない場合は `false` にすること。
@@ -533,7 +533,7 @@ C:\HUGO-ENV\WWW
 </head>
 <body>
 <h1>Hello!</h1>
-<div><p>ようこそ， <a href="http://gohugo.io/">Hugo</a> の世界へ！</p>
+<div><p>ようこそ， <a href="https://gohugo.io/">Hugo</a> の世界へ！</p>
 </div>
 </body>
 <html>
@@ -560,7 +560,7 @@ Feed はこんな感じ。
       <pubDate>Sat, 05 Sep 2015 16:40:41 +0900</pubDate>
 
       <guid>http://hello.example.com/hello/</guid>
-      <description>&lt;p&gt;ようこそ， &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; の世界へ！&lt;/p&gt;
+      <description>&lt;p&gt;ようこそ， &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; の世界へ！&lt;/p&gt;
 </description>
     </item>
 
@@ -579,7 +579,7 @@ Feed はこんな感じ。
 </head>
 <body>
 <h1></h1>
-<div><p>ようこそ， <a href="http://gohugo.io/">Hugo</a> の世界へ！</p>
+<div><p>ようこそ， <a href="https://gohugo.io/">Hugo</a> の世界へ！</p>
 </div>
 </body>
 <html>
@@ -602,7 +602,7 @@ Feed はこんな感じ。
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 
       <guid>http://hello.example.com/hello/</guid>
-      <description>&lt;p&gt;ようこそ， &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; の世界へ！&lt;/p&gt;
+      <description>&lt;p&gt;ようこそ， &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; の世界へ！&lt;/p&gt;
 </description>
     </item>
 
@@ -757,7 +757,7 @@ title = "Hello! Part 2"
 </head>
 <body>
 <h1>Hello! Part 2</h1>
-<div><p>再びようこそ， <a href="http://gohugo.io/">Hugo</a> の世界へ！</p>
+<div><p>再びようこそ， <a href="https://gohugo.io/">Hugo</a> の世界へ！</p>
 </div>
 </body>
 <html>
@@ -807,7 +807,7 @@ title = "Hello! Part 2"
 </head>
 <body>
 <h1>Hello! Part 2</h1>
-<div><p>再びようこそ， <a href="http://gohugo.io/">Hugo</a> の世界へ！</p>
+<div><p>再びようこそ， <a href="https://gohugo.io/">Hugo</a> の世界へ！</p>
 </div>
 </body>
 <html>
@@ -826,7 +826,7 @@ draft = false
 title = "Hello! Part 2"
 +++
 
-<p>再びようこそ， <a href="http://gohugo.io/">Hugo</a> の世界へ！</p>
+<p>再びようこそ， <a href="https://gohugo.io/">Hugo</a> の世界へ！</p>
 ```
 
 これでビルドしてみると
@@ -840,7 +840,7 @@ title = "Hello! Part 2"
 </head>
 <body>
 <h1>Hello! Part 2</h1>
-<div><p>再びようこそ， <a href="http://gohugo.io/">Hugo</a> の世界へ！</p>
+<div><p>再びようこそ， <a href="https://gohugo.io/">Hugo</a> の世界へ！</p>
 </div>
 </body>
 <html>
@@ -855,4 +855,4 @@ title = "Hello! Part 2"
 
 [Hugo に関するブックマークはこちら]({{< ref "hugo/bookmark.md" >}})。
 
-[Hugo]: http://gohugo.io/ "Hugo :: A fast and modern static website engine"
+[Hugo]: https://gohugo.io/ "Hugo :: A fast and modern static website engine"

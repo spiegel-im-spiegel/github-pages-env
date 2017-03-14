@@ -59,7 +59,7 @@ title = "今日の戯れ言：TPP 大筋合意"
 改訂版はこれから[徐々に公開](/cc-licenses)していく。
 [作業環境 repository](https://github.com/spiegel-im-spiegel/github-pages-env "spiegel-im-spiegel/github-pages-env") には草稿版があるので興味のある方はどうぞ。
 
-[Hugo]: http://gohugo.io/ "Hugo :: A fast and modern static website engine"
+[Hugo]: https://gohugo.io/ "Hugo :: A fast and modern static website engine"
 [creativecommons.jp]: http://creativecommons.jp/ "クリエイティブ・コモンズ・ジャパン"
 [creativecommons.org]: https://creativecommons.org/ "Creative Commons"
 [commonsphere]: http://commonsphere.jp/ "commonsphere | コモンスフィア"
@@ -71,4 +71,3 @@ title = "今日の戯れ言：TPP 大筋合意"
 
 特に問題なさそう。
 脆弱性や大きな瑕疵がない限り無理に追随する必要はないのかもしれないけど，まぁ一応。
-

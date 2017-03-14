@@ -116,7 +116,7 @@ in 21 ms
 
 <nav role="navigation">
 <ul class='cloud center'>
-<li>Powered by <a href='http://gohugo.io/'>Hugo 0.15-DEV</a> and <a href="https://github.com/spiegel-im-spiegel/hugo-theme-text">Text</a>.</li>
+<li>Powered by <a href='https://gohugo.io/'>Hugo 0.15-DEV</a> and <a href="https://github.com/spiegel-im-spiegel/hugo-theme-text">Text</a>.</li>
 </ul>
 </nav>
 
@@ -300,6 +300,6 @@ tags = [ "hello", "world" ]
 
 [Hugo に関するブックマークはこちら]({{< ref "hugo/bookmark.md" >}})。
 
-[Hugo]: http://gohugo.io/ "Hugo :: A fast and modern static website engine"
+[Hugo]: https://gohugo.io/ "Hugo :: A fast and modern static website engine"
 [spiegel-im-spiegel/hugo-theme-text]: https://github.com/spiegel-im-spiegel/hugo-theme-text
 [前回]: {{< ref "hugo/theme.md" >}} "Theme を利用する"

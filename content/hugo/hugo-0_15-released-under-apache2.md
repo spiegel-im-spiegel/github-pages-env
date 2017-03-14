@@ -55,7 +55,7 @@ Copyleft であれば寄与されたコードも自動的に元のライセン�
 
 [Hugo に関するブックマークはこちら]({{< ref "hugo/bookmark.md" >}})。
 
-[Hugo]: http://gohugo.io/ "Hugo :: A fast and modern static website engine"
+[Hugo]: https://gohugo.io/ "Hugo :: A fast and modern static website engine"
 [SimPL-2.0]: https://opensource.org/licenses/Simple-2.0 "Simple Public License (SimPL-2.0) | Open Source Initiative"
 [Apache-2.0]: http://www.apache.org/licenses/LICENSE-2.0 "Apache License, Version 2.0"
 [GitHub]: https://github.com/ "GitHub"

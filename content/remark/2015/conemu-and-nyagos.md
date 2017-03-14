@@ -120,7 +120,7 @@ C:\PATH\TO\PuTTY\putty.exe -load "mysession" -new_console
 ところで設定ダイアログの左下に [Flattr] ボタンがあるのにお気づきだろうか。
 [Flattr] アカウントのある人は是非。
 
-[Hugo]: http://gohugo.io/ "Hugo :: A fast and modern static website engine"
+[Hugo]: https://gohugo.io/ "Hugo :: A fast and modern static website engine"
 [ConEmu]: https://conemu.github.io/ "ConEmu - Handy Windows Terminal"
 [NYAGOS]: http://www.nyaos.org/index.cgi?p=NYAGOS "NYAOS.ORG - NYAGOS"
 [MSYS2]: http://msys2.github.io/ "MSYS2 installer"

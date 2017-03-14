@@ -24,7 +24,7 @@ flattr    = "spiegel"
 
 ## 公式サイト{#official}
 
-- [Hugo :: A fast and modern static website engine](http://gohugo.io/)
+- [Hugo :: A fast and modern static website engine](https://gohugo.io/)
     - [spf13/hugo](https://github.com/spf13/hugo)
     - [spf13/hugoThemes](https://github.com/spf13/hugoThemes) : [Hugo] のテーマ集。スクリーンショットもあるよ
 
@@ -87,4 +87,4 @@ flattr    = "spiegel"
 - [Hugoと自作シェルスクリプトによるMarkdownメモ環境の構築 - Qiita](http://qiita.com/so1_tsuda/items/c5d375d0b6c5dcb0d0cf)
 - [HUGOで作れるCMSっぽいパーツ:関連記事・目次・JSON-LDなど - Qiita](http://qiita.com/y_hokkey/items/f9d8b66b3770a82d4c1c)
 
-[Hugo]: http://gohugo.io/ "Hugo :: A fast and modern static website engine"
+[Hugo]: https://gohugo.io/ "Hugo :: A fast and modern static website engine"

@@ -45,5 +45,5 @@ Facebook の share ボタンはこんな感じ。
 [本家サイト](http://www.baldanders.info/ "Baldanders.info")は申し訳ないが放置。
 全ページ手動で直さないといけないので今は無理。
 
-[Hugo]: http://gohugo.io/ "Hugo :: A fast and modern static website engine"
+[Hugo]: https://gohugo.io/ "Hugo :: A fast and modern static website engine"
 [Go 言語]: https://golang.org/ "The Go Programming Language"

@@ -41,7 +41,7 @@ categories = [ "hugo" ]
 tags = [ "hello", "world" ]
 +++
 
-ようこそ， [Hugo](http://gohugo.io/) の世界へ！
+ようこそ， [Hugo](https://gohugo.io/) の世界へ！
 ```
 
 このように Categories および Tags のキーワードを配列で列挙する（キーワードがひとつでも配列に入れること）。
@@ -191,7 +191,7 @@ C:\HUGO-ENV\WWW
 	<div>Tags: <a href="/tags/hello/">#hello</a> <a href="/tags/world/">#world</a></div>
 </nav>
 
-<div><p>ようこそ， <a href="http://gohugo.io/">Hugo</a> の世界へ！</p>
+<div><p>ようこそ， <a href="https://gohugo.io/">Hugo</a> の世界へ！</p>
 </div>
 </body>
 <html>
@@ -209,7 +209,7 @@ Categories と Tags との間に機能上の違いはない。
 
 ### .Params のルール{#params}
 
-Front matter で指定する変数は，「[テンプレート変数](http://gohugo.io/templates/variables/)」にある既定のもの以外は `.Params` 以下に自動的に組み換えられる。
+Front matter で指定する変数は，「[テンプレート変数](https://gohugo.io/templates/variables/)」にある既定のもの以外は `.Params` 以下に自動的に組み換えられる。
 なおかつ `.Params` 以下の変数名は小文字になる決まりである。
 Categories/Tags は標準機能なのだが，どういうわけかこれだけ `.Params` 以下に組み替えられる。
 なんだかなぁ。「歴史的経緯」ってやつだろうか[^a]。
@@ -426,7 +426,7 @@ Section と Categories/Tags を組み合わせれば縦串と横串で記事を�
 	<div>Tags: <a href="/tags/hello/">#hello</a> <a href="/tags/world/">#world</a></div>
 </nav>
 
-<div><p>ようこそ， <a href="http://gohugo.io/">Hugo</a> の世界へ！</p>
+<div><p>ようこそ， <a href="https://gohugo.io/">Hugo</a> の世界へ！</p>
 </div>
 </body>
 <html>
@@ -500,7 +500,7 @@ C:\HUGO-ENV\WWW
 	<div>Tags: <a href="/tags/hello/">#hello</a> <a href="/tags/world/">#world</a></div>
 </nav>
 
-<div><p>ようこそ， <a href="http://gohugo.io/">Hugo</a> の世界へ！</p>
+<div><p>ようこそ， <a href="https://gohugo.io/">Hugo</a> の世界へ！</p>
 </div>
 </body>
 <html>
@@ -592,7 +592,7 @@ C:\HUGO-ENV\WWW
 	<div>Tags: <a href="/tags/hello/">#hello</a> <a href="/tags/world/">#world</a></div>
 </nav>
 
-<div><p>ようこそ， <a href="http://gohugo.io/">Hugo</a> の世界へ！</p>
+<div><p>ようこそ， <a href="https://gohugo.io/">Hugo</a> の世界へ！</p>
 </div>
 </body>
 <html>
@@ -696,5 +696,5 @@ C:\HUGO-ENV\WWW
 
 [Hugo に関するブックマークはこちら]({{< ref "hugo/bookmark.md" >}})。
 
-[Hugo]: http://gohugo.io/ "Hugo :: A fast and modern static website engine"
+[Hugo]: https://gohugo.io/ "Hugo :: A fast and modern static website engine"
 [前回]: {{< ref "hugo/hello.md" >}} "インストールから Hello World まで"
