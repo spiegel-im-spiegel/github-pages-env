@@ -1,6 +1,6 @@
 +++
 date = "2016-03-29T22:16:41+09:00"
-update = "2017-03-03T15:40:58+09:00"
+update = "2017-03-14T17:34:19+09:00"
 description = "Go 言語の引数は基本的に「値渡し（call by value）」である。「参照渡し（call by reference）」にしたい場合はポインタを使う。"
 draft = false
 tags = ["golang", "function", "pointer"]
@@ -206,12 +206,13 @@ invalid operation: x += y (operator + not defined on pointer)
 
 ちなみにポインタ演算が必要な場合は [`unsafe`] パッケージを使う。
 
-### Slice, Map, Channel は常に「参照渡し」
+### Slice, Map, Channel は「参照渡し」として振る舞う
 
 [slice], [map], [channel] は組み込み型だが内部状態を持つ[^make]。
-したがって，これらの型の instance を引数に渡す場合はつねに「参照渡し」になる（つまり instance のコピーは発生しない）。
+これらの型の instance を引数に渡す場合は「参照渡し」として振る舞う[^slc]。
 
 [^make]: [slice], [map], [channel] は内部状態を持つため `new()` 関数ではなく `make()` 関数で instance を生成する。
+[^slc]: このうち [slice] については特殊な振る舞いをする。詳しくは「[配列と Slice]({{< relref "golang/array-and-slice.md" >}})」を参照のこと。
 
 ```go
 package main
@@ -278,7 +279,7 @@ func main() {
 
 実際には [string] 型の instance は「不変（immutable）」なので「参照渡し」が必要な局面はほとんど無いと思われる[^s]。
 固定配列は不変ではないが，配列を操作するのであれば固定配列ではなく [slice] のほうが扱いやすい。
-たとえば上のコードでは `ary := []int{0, 1, 2, 3}` と初期化すれば [slice] として扱える。
+たとえば上のコードでは `slc := ary[:] ` といった感じにキャストするか最初から `ary := []int{0, 1, 2, 3}` と初期化すれば [slice] として扱える。
 
 [^s]: このような需要としては文字列操作で「NULL 状態」が必要な場合であろう。たとえば DBMS にアクセスする場合は NULL 状態を扱う必要がある。なお [Go 言語]のコア・パッケージには [`database/sql`] があり `NullString` を使うことにより NULL 状態を扱える。このように NULL 状態を扱う必要がある場合は，直にポインタ操作するのではなく，何らかの value object を用意してカプセル化するほうが安全である。
 

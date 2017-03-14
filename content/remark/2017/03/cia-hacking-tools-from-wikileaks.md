@@ -57,6 +57,7 @@ description = "とりあえずブックマークを中心に。以後，追記�
 - [Apple、Wikileaksが公開したiPhone脆弱性「すべて修正済み」 - iPhone Mania](http://iphone-mania.jp/news-160957/)
 - [「CIAハッキングの脆弱性のほとんどは対応済み」とGoogleやAppleは公表するものの依然として危険な状態は続いている - GIGAZINE](http://gigazine.net/news/20170310-apple-google-treat-cia-hucking/)
 - [CIAはSignalやWhatsAppの暗号化を破ったわけじゃあない – P2Pとかその辺のお話R](http://p2ptk.org/privacy/574)
+- [The CIA's "Development Tradecraft DOs and DON'Ts" - Schneier on Security](https://www.schneier.com/blog/archives/2017/03/the_cias_develo.html)
 
 ## 参考図書
 
