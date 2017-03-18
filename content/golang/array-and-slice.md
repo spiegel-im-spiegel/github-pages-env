@@ -1,8 +1,8 @@
 +++
 tags = ["golang", "programming", "slice"]
 description = "配列と slice との関係について。あくまでも私のための覚書である。"
-draft = true
-date = "2017-03-14T13:22:55+09:00"
+draft = false
+date = "2017-03-15T00:31:48+09:00"
 title = "配列と Slice"
 
 [author]
