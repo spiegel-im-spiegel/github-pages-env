@@ -3,6 +3,7 @@ tags = ["golang", "programming", "slice"]
 description = "配列と slice との関係について。あくまでも私のための覚書である。"
 draft = false
 date = "2017-03-15T00:31:48+09:00"
+update = "2017-03-18T14:06:00+09:00"
 title = "配列と Slice"
 
 [author]
@@ -462,9 +463,9 @@ ary(dump) = 0x1040a128
 ary == ary2
 ```
 
-`ary` と `ary2` が同じ内容の異なるインスタンスであることが分かると思う。
+`ary` と `ary2` が同じ内容の異なるインスタンス（instance）であることが分かると思う。
 また配列同士の比較も同じ型であれば単純である。
-たとえば `[3]int8` と `[4]int8` は異なる型と見なされるため単純比較はできない。
+`[3]int8` と `[4]int8` は異なる型と見なされるため単純比較はできない。
 
 一方， [slice] の複製が欲しい場合は `copy()` 関数を使う。
 
@@ -523,6 +524,61 @@ slc1 == slc2
 ```
 
 [slice] 同士を比較するのも単純ではないが， [`reflect`].`DeepEqual()` 関数が使える。
+ちなみに 宣言構文を使ってもっと単純に
+
+```go
+package main
+
+import (
+	"fmt"
+	"reflect"
+)
+
+type Array4 [4]int8
+
+func dumpS(slc []int8) {
+	fmt.Printf("pointer(dumpS) = %p\n", slc)
+	fmt.Printf("size(dumpS) = %v\n", len(slc))
+	fmt.Printf("capacity(dumpS) = %v\n", cap(slc))
+	for i := 0; i < len(slc); i++ {
+		fmt.Printf("%p: %v\n", &slc[i], slc[i])
+	}
+}
+
+func main() {
+	slc1 := []int8{0, 1, 2, 3}
+	dumpS(slc1)
+    slc2 := slc1
+	dumpS(slc2)
+	if reflect.DeepEqual(slc1, slc2) {
+		fmt.Println("slc1 == slc2")
+	} else {
+		fmt.Println("slc1 != slc2")
+	}
+}
+```
+
+とすればいいじゃない，と思われるかもしれないが，結果は以下の通り。
+
+```text
+pointer(dumpS) = 0x1040a124
+size(dumpS) = 4
+capacity(dumpS) = 4
+0x1040a124: 0
+0x1040a125: 1
+0x1040a126: 2
+0x1040a127: 3
+pointer(dumpS) = 0x1040a124
+size(dumpS) = 4
+capacity(dumpS) = 4
+0x1040a124: 0
+0x1040a125: 1
+0x1040a126: 2
+0x1040a127: 3
+slc1 == slc2
+```
+
+`slc1` と `slc2` の指す配列が同じになり複製できない。
 
 ## ブックマーク
 
