@@ -1,9 +1,9 @@
 +++
-date = "2017-03-21T13:13:13+09:00"
+date = "2017-03-21T20:32:28+09:00"
 title = "HTTPS 通信監視機器のリスク"
-draft = true
-tags = ["security", "risk", "x.509", "pki", "ssl", "tls"]
-description = "description"
+draft = false
+tags = ["security", "risk", "x509", "pki", "ssl", "tls"]
+description = "2015年の CERT/CC ブログ記事「The Risks of SSL Inspection」に関する注意喚起が今更ながら出ている。"
 
 [author]
   linkedin = "spiegelimspiegel"
