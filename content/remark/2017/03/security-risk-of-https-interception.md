@@ -1,5 +1,6 @@
 +++
 date = "2017-03-21T20:32:28+09:00"
+update = "2017-03-21T22:35:46+09:00"
 title = "HTTPS 通信監視機器のリスク"
 draft = false
 tags = ["security", "risk", "x509", "pki", "ssl", "tls"]
@@ -55,7 +56,7 @@ HTTPS 通信監視機器のいくつかにはセキュリティ上の問題が�
 
 [以前も書いた](http://www.baldanders.info/spiegel/log2/000812.shtml "HTTPS Deep Inspection — Baldanders.info")が，HTTPS 通信監視機器（あるいは HTTPS Deep Inspection）の存在自体がインターネットの “End to End” 原則を崩すものであり，ひいては「ネットの中立性」に楔を入れるものである。
 しかし「[馬も鹿も暗号化する時代]({{< relref "remark/2016/03/vulnerability-cross-protocol-attack-on-tls-using-sslv2.md" >}} "SSLv2 を有効にしている TLS 実装の脆弱性 ― 馬も鹿も暗号化する時代のセキュリティ")」にこの原則は風前の灯である。
-たとえば [CMS の面倒すらろくすっぽ見られない]({{< relref "remark/2016/07/cms.md">}} "「自分で面倒見られる子」だけが CMS を導入しなさい")ユーザが「うちも [Let's la Encrypt]」とか言い出して脆弱性だらけのサイトを暗号化したらたらどうなるのか。
+たとえば [CMS の面倒すらろくすっぽ見られない]({{< relref "remark/2016/07/cms.md">}} "「自分で面倒見られる子」だけが CMS を導入しなさい")ユーザが「うちも [Let's la Encrypt]」とか言い出して脆弱性だらけのサイトを暗号化したらどうなるのか。
 
 ネットワーク・セキュリティ専門家から企業あるいは私たち個人に至るまで，場当たりな対処に満足するのではなく，この「現実」にきちんと向き合うべきだと思うのだが，どうだろう。
 
@@ -63,6 +64,7 @@ HTTPS 通信監視機器のいくつかにはセキュリティ上の問題が�
 
 - [Malware Spoofing HTTPS（3月2日，追記あり） — Baldanders.info](http://www.baldanders.info/spiegel/log2/000809.shtml)
 - [HTTPS Deep Inspection — Baldanders.info](http://www.baldanders.info/spiegel/log2/000812.shtml)
+- [HTTPS監視装置にセキュリティ低下の危険性--日米機関で注意喚起 - ZDNet Japan](https://japan.zdnet.com/article/35098402/)
 
 [The Risks of SSL Inspection]: http://insights.sei.cmu.edu/cert/2015/03/the-risks-of-ssl-inspection.html
 [Let's la Encrypt]: https://letsencrypt.org/ "Let's Encrypt - Free SSL/TLS Certificates"

@@ -14,6 +14,8 @@
 
 ### 天文関連
 
+- [NASA、トランプ政権下で小惑星サンプルリターン「ARM」キャンセルか | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_03_21_arm.html)
+- [土星衛星「エンケラドゥス」 地下の海が地表近くまで接近か | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_03_21_en.html)
 
 ### その他
 
@@ -24,6 +26,11 @@
 - [JPCERT コーディネーションセンター ログを活用したActive Directoryに対する攻撃の検知と対策](http://www.jpcert.or.jp/research/AD.html)
 - [量子オセロ](http://eduidl.com/quantum_othello/)
     - [量子オセロというゲームをつくりました。 - Qiita](http://qiita.com/educated_idler/items/5603fe1bf2639c09435c)
+- [米同盟軍、ドローンを約3.8億円のパトリオット・ミサイルで撃ち落とす | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_03_20_pat.html)
+- [Amazonレビューをサルベージした理由 - 山形浩生の「経済のトリセツ」](http://cruel.hatenablog.com/entry/2017/03/21/102104)
+- [効率的にゲームを更新する | コンピュータサイエンス | POSTD](http://postd.cc/efficient-game-updates/)
+- [一部の画像・統計をオープンデータ化します - 大阪府立図書館](http://www.library.pref.osaka.jp/site/e-service/ccby201703-top.html)
+
 
 ## Free Culture and CC0
 
