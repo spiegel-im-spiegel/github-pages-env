@@ -1,18 +1,7 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-- [アーヴィンド・ナラヤナンらの『仮想通貨の教科書』が出ていた - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20161215/cryptcurrency) : 来年買う
 - [Github Pagesでホスティングしつつ、CloudFrontを使ってサイトをSSL対応の独自ドメインにする - Qiita](http://qiita.com/kechol/items/9609e1ab4a673e05b613)
 - [AVG、「AVG AntiVirus FREE」など主力製品の最新版を公開。Avastと統合後初のリリース - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1039393.html)
-- [クラウドを支えるこれからの暗号技術 | 光成 滋生 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/479804413X/hyam-22/)
-- [オルタナ右翼 (新書y) | 八田 真行 |本 | 通販 | Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/4800311365/baldandersinf-22/)
-- [RSA暗号を可能にしたEulerの定理 | 田中 隆幸 |本 | 通販 | Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/486641040X/baldandersinf-22/)
-- [『Swift実践入門』2月7日発売 - クックパッド開発者ブログ](http://techlife.cookpad.com/entry/2017/02/07/200052)
-- [パンと昭和 (らんぷの本) | 小泉 和子 |本 | 通販 | Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/4309750230/baldandersinf-22/)
-- [大ヒット風刺漫画『マンガで読む　嘘つき中国共産党』が生まれた理由：野嶋剛 | 中国・台湾の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42069)
-- [法のデザイン—創造性とイノベーションは法によって加速する | 水野祐 |本 | 通販 | Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/4845916053/baldandersinf-22/)
-- [日本の食文化を探る澁川祐子氏に聞く、「ググればわかる」で思考停止しない情報収集術 『オムライスの秘密 メロンパンの謎』著者｜ビジネス+IT](http://www.sbbit.jp/article/cont1/33369)
-- [広島生まれの英語えほん　 | しおまち書房＜公式サイト＞広島](https://shiomachi.com/publications/with)
-
 - [The Go Programming Language Blog](https://blog.golang.org/feed.atom) : フィード
 - [Foresight](http://www.fsight.jp/list/feed/rss) : フィード
 - [Announcement of LibreOffice 5.2.6](https://blog.documentfoundation.org/blog/2017/03/09/libreoffice-5-2-6/)
@@ -21,13 +10,20 @@
 
 ### Age of Trump
 
+- [「ロシア・ゲート」過熱で「トランプ幻想」が醒めたロシア：名越健郎 | ロシアの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42121)
 
 ### 天文関連
 
 
 ### その他
 
-
+- [IoTを民主化したRaspberry Pi、その新型がもたらす「未来」｜WIRED.jp](http://wired.jp/2017/03/20/raspberry-pi-zero-w/)
+- {{< pdf-file title="A Study of MAC Address Randomization in Mobile Devices When it Fails" link="https://arxiv.org/pdf/1703.02874v1.pdf" >}}
+    - [Security Vulnerabilities in Mobile MAC Randomization - Schneier on Security](https://www.schneier.com/blog/archives/2017/03/security_vulner_8.html)
+- [「オープンソース vs. Windows」の最前線だったミュンヘンの現在 (1/2) - ITmedia PC USER](http://www.itmedia.co.jp/pcuser/articles/1703/20/news009.html)
+- [JPCERT コーディネーションセンター ログを活用したActive Directoryに対する攻撃の検知と対策](http://www.jpcert.or.jp/research/AD.html)
+- [量子オセロ](http://eduidl.com/quantum_othello/)
+    - [量子オセロというゲームをつくりました。 - Qiita](http://qiita.com/educated_idler/items/5603fe1bf2639c09435c)
 
 ## Free Culture and CC0
 

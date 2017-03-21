@@ -1,7 +1,7 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
-update = "2017-03-18T14:32:28+09:00"
+update = "2017-03-21T11:03:43+09:00"
 draft = false
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -375,6 +375,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
     - [Java の Generics にもの思い - Qiita](http://qiita.com/t2y/items/139c6a38173d7750ddfc)
 - [Why Everyone Hates Go · npf.io](Why Everyone Hates Go · npf.io)
     - [[翻訳]なんでGoってみんなに嫌われてるの？ - Qiita](http://qiita.com/hirokidaichi/items/adccebb41f77eaa6132f)
+- [Why Go? | Dave Cheney](https://dave.cheney.net/2017/03/20/why-go)
+    - [[翻訳] Why Go? - Qiita](http://qiita.com/methane/items/b627f20457873a504638)
 
 ### Go 1.5 に関する話題
 

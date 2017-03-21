@@ -1,7 +1,7 @@
 +++
 description = "これはどちらが正しいかという問題ではない。"
 date = "2017-03-11T14:55:06+09:00"
-update = "2017-03-14T09:18:04+09:00"
+update = "2017-03-21T11:06:44+09:00"
 title = "きみは Generics がとくいなフレンズなんだね，または「制約は構造を生む」"
 draft = false
 tags = ["golang", "object-oriented", "java", "design"]
@@ -114,6 +114,8 @@ tags = ["golang", "object-oriented", "java", "design"]
 
 - [Why Everyone Hates Go · npf.io](Why Everyone Hates Go · npf.io)
     - [[翻訳]なんでGoってみんなに嫌われてるの？ - Qiita](http://qiita.com/hirokidaichi/items/adccebb41f77eaa6132f)
+- [Why Go? | Dave Cheney](https://dave.cheney.net/2017/03/20/why-go)
+    - [[翻訳] Why Go? - Qiita](http://qiita.com/methane/items/b627f20457873a504638)
 - [Go 言語における「オブジェクト」]({{< relref "golang/object-oriented-programming.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"

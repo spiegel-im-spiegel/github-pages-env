@@ -1,6 +1,6 @@
 +++
 date = "2017-02-25T12:38:07+09:00"
-update = "2017-03-03T12:25:37+09:00"
+update = "2017-03-21T11:23:13+09:00"
 title = "最初の SHA-1 衝突例"
 draft = false
 tags = ["security", "cryptography", "risk", "hash", "sha-1", "collision"]
@@ -32,6 +32,7 @@ description = "もうみんな SHA-1 とはオサラバしてるよね（笑）"
 - [Re: [openpgp] SHA1 collision found](https://mailarchive.ietf.org/arch/msg/openpgp/AjJ3BHzd2c9K2KQ3DTk9Ry_QVYM)
     - [[openpgp] V5 Fingerprint again](https://mailarchive.ietf.org/arch/msg/openpgp/_uV_coJ0CYayv_2ptJMuSraJhws)
 - [GoogleのSHA-1のはなし](https://www.slideshare.net/herumi/googlesha1) : 分かりやすい解説
+- [SHA-1 collision detection on GitHub.com](https://github.com/blog/2338-sha-1-collision-detection-on-github-com)
 
 {{< fig-quote title="SHA-1 Collision Found" link="https://www.schneier.com/blog/archives/2017/02/sha-1_collision.html" lang="en" >}}
 <q>This is not a surprise. We've all expected this for over a decade, watching computing power increase. This is why NIST standardized SHA-3 in 2012.</q>
