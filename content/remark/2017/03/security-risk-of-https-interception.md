@@ -1,6 +1,6 @@
 +++
 date = "2017-03-21T20:32:28+09:00"
-update = "2017-03-21T22:35:46+09:00"
+update = "2017-03-23T10:03:44+09:00"
 title = "HTTPS 通信監視機器のリスク"
 draft = false
 tags = ["security", "risk", "x509", "pki", "ssl", "tls"]
@@ -65,6 +65,8 @@ HTTPS 通信監視機器のいくつかにはセキュリティ上の問題が�
 - [Malware Spoofing HTTPS（3月2日，追記あり） — Baldanders.info](http://www.baldanders.info/spiegel/log2/000809.shtml)
 - [HTTPS Deep Inspection — Baldanders.info](http://www.baldanders.info/spiegel/log2/000812.shtml)
 - [HTTPS監視装置にセキュリティ低下の危険性--日米機関で注意喚起 - ZDNet Japan](https://japan.zdnet.com/article/35098402/)
+- [New Paper on Encryption Workarounds - Schneier on Security](https://www.schneier.com/blog/archives/2017/03/new_paper_on_en.html)
+    - [Encryption Workarounds by Orin S. Kerr, Bruce Schneier :: SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2938033)
 
 [The Risks of SSL Inspection]: http://insights.sei.cmu.edu/cert/2015/03/the-risks-of-ssl-inspection.html
 [Let's la Encrypt]: https://letsencrypt.org/ "Let's Encrypt - Free SSL/TLS Certificates"
