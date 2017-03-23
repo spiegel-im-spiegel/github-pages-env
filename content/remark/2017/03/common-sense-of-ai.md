@@ -1,7 +1,7 @@
 +++
-date = "2017-03-23T12:38:33+09:00"
+date = "2017-03-24T08:04:30+09:00"
 title = "人工知能に「常識」は必要なのか？"
-draft = true
+draft = false
 tags = ["artificial-intelligence", "engineering"]
 description = "「常識」は「知能（intelligence）」というより「知性（intellect）」に近い。果たして人工知能（artificial intelligence）に「常識」は必要なのか。"
 
