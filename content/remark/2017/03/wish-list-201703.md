@@ -1,5 +1,6 @@
 +++
 date = "2017-03-21T20:32:03+09:00"
+update = "2017-03-24T09:31:34+09:00"
 title = "欲しいものリスト2017年3月版"
 draft = false
 tags = ["book"]
@@ -43,6 +44,7 @@ description = "読みたいんだけど（ゆっくり読む暇がなくて）�
 こちらも優先度低目。
 
 - [RSA暗号を可能にしたEulerの定理 | 田中 隆幸 |本 | 通販 | Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/486641040X/baldandersinf-22/)
+- [一般相対性理論を一歩一歩数式で理解する | 石井 俊全 |本 | 通販 | Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/4860644980/baldandersinf-22/)
 - [パンと昭和 (らんぷの本) | 小泉 和子 |本 | 通販 | Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/4309750230/baldandersinf-22/)
 - [オムライスの秘密 メロンパンの謎: 人気メニュー誕生ものがたり (新潮文庫) | 澁川 祐子 |本 | 通販 | Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/4101206813/baldandersinf-22/)
     - [日本の食文化を探る澁川祐子氏に聞く、「ググればわかる」で思考停止しない情報収集術 『オムライスの秘密 メロンパンの謎』著者｜ビジネス+IT](http://www.sbbit.jp/article/cont1/33369)

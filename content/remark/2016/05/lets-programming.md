@@ -1,5 +1,6 @@
 +++
 date = "2016-05-17T23:50:28+09:00"
+update = "2017-03-24T13:34:20+09:00"
 description = "考えてもみたまえ。「掛け算は順序が大事」などと言ってはばからない未開人の国がどうやってプログラミングを教えるというのだ。"
 draft = false
 tags = ["programming", "math"]
@@ -57,6 +58,12 @@ title = "「だれもがプログラミングを学ぶべき」ではない"
 向いてないのに苦労した挙句に「インプリメンタ」でくすぶり続けたいのなら止めはしないが（そういう人は掃いて捨てるほどいる），しかしこれを国家レベルでやるのは勘弁して頂きたいところである[^a]。
 
 [^a]: 大昔に「将来ソフトエンジニアが10万人単位で足りなくなる」とか言われて世の中に大量に輩出させた挙句，バブルが弾けて大勢のエンジニアが路頭に迷ったあの時を，私は絶対に忘れない。
+
+## ブックマーク
+
+- [あなたが安易にプログラミングを学んではいけない、たった1つの理由 | monostudio[モノスタジオ]](https://monostudio.jp/programming-not-easy)
+
+## 参考図書
 
 <div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4797329734/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51xj-xFKUXL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4797329734/baldandersinf-22/">プログラマの数学</a></dt><dd>結城 浩 </dd><dd>ソフトバンククリエイティブ 2005-03-24</dd><dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4274067556/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4274067556.09._SCTHUMBZZZ_.jpg"  alt="プログラマのための論理パズル 難題を突破する論理思考トレーニング"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4873116694/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4873116694.09._SCTHUMBZZZ_.jpg"  alt="アルゴリズムパズル ―プログラマのための数学パズル入門"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4048869558/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4048869558.09._SCTHUMBZZZ_.jpg"  alt="プログラマの考え方がおもしろいほど身につく本 問題解決能力を鍛えよう!"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/479803925X/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/479803925X.09._SCTHUMBZZZ_.jpg"  alt="プログラムはこうして作られるプログラマの頭の中をのぞいてみよう"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/479814245X/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/479814245X.09._SCTHUMBZZZ_.jpg"  alt="プログラマ脳を鍛える数学パズル シンプルで高速なコードが書けるようになる70問"  /></a> </p>
 <p class="description">プログラマ必修の教科書（笑）</p>

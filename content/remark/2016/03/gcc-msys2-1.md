@@ -1,6 +1,6 @@
 +++
 date = "2016-03-01T22:02:41+09:00"
-update = "2016-04-23T10:49:00+09:00"
+update = "2017-03-24T17:57:25+09:00"
 description = "MSYS の後継（？）とも言える MSYS2 では開発環境を 32bit と 64bit で併設できるらしい。"
 draft = false
 tags = ["msys2", "gcc", "tools"]
@@ -49,7 +49,7 @@ MSYS の後継（？）とも言える [MSYS2] ではgcc を含む開発環境�
 
 ## MSYS2 のインストール
 
-では早速 64bit 版インストーラ（今回は `msys2-x86_64-20160205.exe` を使用）でインストールを行ってみる。
+では早速 64bit 版インストーラ（今回は `msys2-x86_64-20161025.exe` を使用）でインストールを行ってみる。
 
 {{< fig-img flickr="true" src="https://farm2.staticflickr.com/1462/25210363812_7cd554cc78.jpg" title="MSYS2 Installing (1)" link="https://www.flickr.com/photos/spiegel/25210363812/" >}}
 
@@ -69,62 +69,87 @@ MSYS の後継（？）とも言える [MSYS2] ではgcc を含む開発環境�
 
 ### MSYS2 起動モード
 
-[MSYS2] の起動バッチには以下の3つがある（64bit 版をインストールした場合）
+[MSYS2] には3つの起動モジュールがある（64bit 版をインストールした場合）。
 
-- `mingw32_shell.bat`
-- `mingw64_shell.bat`
-- `msys2_shell.bat`
+- `mingw32.exe`
+- `mingw64.exe`
+- `msys2.exe`
 
-中身はターミナルエミュレータ（既定で [mintty]）の場所を探して起動するだけだが，環境変数 `MSYSTEM` にそれぞれ以下の値をセットしている
+またそれぞれに ini ファイルが用意されている。
+たとえば `msys2.exe` であればこんな感じ。
 
-| バッチファイル      | セットする値 |
-|:--------------------|:-------------|
-| `mingw32_shell.bat` | `MINGW32`    |
-| `mingw64_shell.bat` | `MINGW64`    |
-| `msys2_shell.bat`   | `MSYS`       |
+```ini
+#MSYS=winsymlinks:nativestrict
+#MSYS=error_start:mingw64/bin/qtcreator.exe|-debug|<process-id>
+#CHERE_INVOKING=1
+#MSYS2_PATH_TYPE=inherit
+MSYSTEM=MSYS
+```
 
-環境変数 `MSYSTEM` は `/etc/profile` 内で参照される。
+どうやら ini ファイルの内容をそのまま環境変数として渡しているようだ。
+このうち `MSYSTEM` に注目すると以下のようになっている。
+
+| バッチファイル | セットする値 |
+|:---------------|:-------------|
+| `mingw32.exe`  | `MINGW32`    |
+| `mingw64.exe`  | `MINGW64`    |
+| `msys2.exe`    | `MSYS`       |
+
+`MSYSTEM` は `/etc/profile` 内で参照される。
+以下に `/etc/profile` の一部を引用する。
 
 ```bash
 MSYS2_PATH="/usr/local/bin:/usr/bin:/bin"
-MANPATH="/usr/local/man:/usr/share/man:/usr/man:/share/man:${MANPATH}"
-INFOPATH="/usr/local/info:/usr/share/info:/usr/info:/share/info:${INFOPATH}"
-MINGW_MOUNT_POINT=
-if [ -n "$MSYSTEM" ]
-then
-  case "$MSYSTEM" in
-    MINGW32)
-      MINGW_MOUNT_POINT=/mingw32
-      PATH="${MINGW_MOUNT_POINT}/bin:${MSYS2_PATH}:${PATH}"
-      PKG_CONFIG_PATH="${MINGW_MOUNT_POINT}/lib/pkgconfig:${MINGW_MOUNT_POINT}/share/pkgconfig"
-      ACLOCAL_PATH="${MINGW_MOUNT_POINT}/share/aclocal:/usr/share/aclocal"
-      MANPATH="${MINGW_MOUNT_POINT}/share/man:${MANPATH}"
+MANPATH='/usr/local/man:/usr/share/man:/usr/man:/share/man'
+INFOPATH='/usr/local/info:/usr/share/info:/usr/info:/share/info'
+
+case "${MSYS2_PATH_TYPE:-minimal}" in
+  strict)
+    # Do not inherit any path configuration, and allow for full customization
+    # of external path. This is supposed to be used in special cases such as
+    # debugging without need to change this file, but not daily usage.
+    unset ORIGINAL_PATH
     ;;
-    MINGW64)
-      MINGW_MOUNT_POINT=/mingw64
-      PATH="${MINGW_MOUNT_POINT}/bin:${MSYS2_PATH}:${PATH}"
-      PKG_CONFIG_PATH="${MINGW_MOUNT_POINT}/lib/pkgconfig:${MINGW_MOUNT_POINT}/share/pkgconfig"
-      ACLOCAL_PATH="${MINGW_MOUNT_POINT}/share/aclocal:/usr/share/aclocal"
-      MANPATH="${MINGW_MOUNT_POINT}/share/man:${MANPATH}"
+  inherit)
+    # Inherit previous path. Note that this will make all of the Windows path
+    # available in current shell, with possible interference in project builds.
+    ORIGINAL_PATH="${ORIGINAL_PATH:-${PATH}}"
     ;;
-    MSYS)
-      PATH="${MSYS2_PATH}:/opt/bin:${PATH}"
-      PKG_CONFIG_PATH="/usr/lib/pkgconfig:/usr/share/pkgconfig:/lib/pkgconfig"
-    ;;
-    *)
-      PATH="${MSYS2_PATH}:${PATH}"
-    ;;
-  esac
-else
-  PATH="${MSYS2_PATH}:${PATH}"
-fi
+  *)
+    # Do not inherit any path configuration but configure a default Windows path
+    # suitable for normal usage with minimal external interference.
+    WIN_ROOT="$(PATH=${MSYS2_PATH} cygpath -Wu)"
+    ORIGINAL_PATH="${WIN_ROOT}/System32:${WIN_ROOT}:${WIN_ROOT}/System32/Wbem:${WIN_ROOT}/System32/WindowsPowerShell/v1.0/"
+esac
+
+unset MINGW_MOUNT_POINT
+source '/etc/msystem'
+case "${MSYSTEM}" in
+MINGW32)
+  MINGW_MOUNT_POINT="${MINGW_PREFIX}"
+  PATH="${MINGW_MOUNT_POINT}/bin:${MSYS2_PATH}${ORIGINAL_PATH:+:${ORIGINAL_PATH}}"
+  PKG_CONFIG_PATH="${MINGW_MOUNT_POINT}/lib/pkgconfig:${MINGW_MOUNT_POINT}/share/pkgconfig"
+  ACLOCAL_PATH="${MINGW_MOUNT_POINT}/share/aclocal:/usr/share/aclocal"
+  MANPATH="${MINGW_MOUNT_POINT}/share/man:${MANPATH}"
+  ;;
+MINGW64)
+  MINGW_MOUNT_POINT="${MINGW_PREFIX}"
+  PATH="${MINGW_MOUNT_POINT}/bin:${MSYS2_PATH}${ORIGINAL_PATH:+:${ORIGINAL_PATH}}"
+  PKG_CONFIG_PATH="${MINGW_MOUNT_POINT}/lib/pkgconfig:${MINGW_MOUNT_POINT}/share/pkgconfig"
+  ACLOCAL_PATH="${MINGW_MOUNT_POINT}/share/aclocal:/usr/share/aclocal"
+  MANPATH="${MINGW_MOUNT_POINT}/share/man:${MANPATH}"
+  ;;
+*)
+  PATH="${MSYS2_PATH}:/opt/bin${ORIGINAL_PATH:+:${ORIGINAL_PATH}}"
+  PKG_CONFIG_PATH="/usr/lib/pkgconfig:/usr/share/pkgconfig:/lib/pkgconfig"
+esac
 ```
 
 `MINGW32` または `MINGW64` の場合は，新たに `/mingw32` または `/mingw64` がパス等に追加されているのがお分かりだろうか。
 
 ### ConEmu から MSYS2 bash を起動する
 
-以上から，環境変数 `MSYSTEM` を適切に設定すれば [MSYS2] の起動バッチを介さずに shell を起動しても構わないことが分かる。
+以上から，環境変数 `MSYSTEM` を適切に設定すれば [MSYS2] の起動モジュールを介さずに shell を起動しても構わないことが分かる。
 ここでは [ConEmu] から [MSYS2] の bash を起動することを考える。
 以下のように Tasks 設定で [MSYS2] の bash を起動するシーケンスを設定すればよい。
 
@@ -133,34 +158,18 @@ fi
 起動シーケンスは以下のとおり。
 
 ```text
-set MSYSTEM=MSYS & C:\msys64\usr\bin\bash.exe --login -i
+set MSYSTEM=MSYS & chcp 65001 & C:\msys64\usr\bin\bash.exe --login -i -new_console:C:"C:\msys64\msys2.ico"
 ```
 
-前半で環境変数を設定し，後半で実際に bash を呼び出している。
-
-### 環境変数 PATH のチューニング
-
-Windows の環境変数は [MSYS2] にも引き継がれる。
-`PATH` も同様。
-ただし Windows の `PATH` 上のアプリケーションを [MSYS2] 上で動いてほしくない場合もある。
-この場合は起動時に `PATH` を書き換える。
-先ほどの [ConEmu] の起動シーケンスなら
-
-```text
-set PATH=%SystemRoot%System32 & set MSYSTEM=MSYS & C:\msys64\usr\bin\bash.exe --login -i
-```
-
-でいいだろう。
-Windows 上の特定のツールを使いたい場合はフルパスまたはその alias で指定するほうがスマートである。
+前半で環境変数とコードページ（65001 は UTF-8）を設定し，後半で実際に bash を呼び出している。
 
 ## 初期設定
 
 では本題に戻ろう。
-`msys2_shell.bat` または環境変数 `MSYSTEM` に `MSYS` をセットして shell を起動し，まずはコア・パッケージを最新のものに更新する。
+`msys2.exe` または環境変数 `MSYSTEM` に `MSYS` をセットして shell を起動し，まずはコア・パッケージを最新のものに更新する。
 
 ```text
-$ update-core
-==> Update package databases...
+$ pacman -Syu
 :: パッケージデータベースの同期中...
  mingw32                                              232.6 KiB   720K/s 00:00 [##################] 100%
  mingw32.sig                                           96.0   B  93.8K/s 00:00 [##################] 100%
@@ -205,7 +214,7 @@ Please close this window.
 
 おや。
 ツールが更新された。
-`update-core` で更新があった場合，いったん shell を閉じて起動し直す。
+`pacman -Syu` で更新があった場合，いったん shell を閉じて起動し直す。
 このとき `exit` コマンドで終了するのではなく，強制終了する。
 
 Shell を再起動したら他のインストール済みのパッケージを更新しよう。

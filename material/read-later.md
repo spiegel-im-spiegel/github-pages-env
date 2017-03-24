@@ -6,9 +6,14 @@
 - [Foresight](http://www.fsight.jp/list/feed/rss) : フィード
 - [Announcement of LibreOffice 5.2.6](https://blog.documentfoundation.org/blog/2017/03/09/libreoffice-5-2-6/)
 
-- [ニュース解説 - AIと倫理、燃え上がる議論：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/14/346926/032200895/?rt=nocnt)
-- [人工知能は「常識」を持てるのか--FacebookのAI研究者が語る - CNET Japan](https://japan.cnet.com/article/35098179/)
-- [トロッコ問題とは何か？ 自律走行車は「人を守るために人を殺すこともある」｜WIRED.jp](http://wired.jp/2017/03/20/robocars-will-sometimes-kill/)
+- [Doxygen の使いかた – アカベコマイリ](http://akabeko.me/blog/2012/01/doxygen/)
+    - [Graphviz | Graphviz - Graph Visualization Software](http://www.graphviz.org/)
+        - [Download | Graphviz - Graph Visualization Software](http://www.graphviz.org/Download.php) : 最新版は 2.38
+    - [Doxygen: Main Page](http://www.stack.nl/~dimitri/doxygen/)
+        - [Doxygen: Downloads](http://www.stack.nl/~dimitri/doxygen/download.html) : 最新版は 1.8.13
+- [ソースコードからドキュメントをDoxygenで生成する](http://alctail.sakura.ne.jp/tip/cplus_kannrenn/cplusplus/doc.shtml)
+
+
 
 ## ブックマーク
 
@@ -19,6 +24,8 @@
 - [「本当のトランプショックはこれから始まる」クルーグマン教授 緊急提言！ | プレジデントオンライン | PRESIDENT Online](http://president.jp/articles/-/21624)
 - [北朝鮮ミサイル「同時着弾」の意味（下）緊張緩和へ「あらゆる選択肢」を：伊藤俊幸 | 安全保障の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42104)
 - [米国務長官はなぜ南シナ海に言及しなかったのか トランプ政権の南シナ海政策に揺さぶりをかける中国 | JBpress(日本ビジネスプレス)](http://jbpress.ismedia.jp/articles/-/49482)
+- [米議会にトランプ大統領の「核先制攻撃」制限法案：「核戦略論議」沸騰へ：春名幹男 | インテリジェンス・ナウ | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42128)
+- [オバマケア代替法案の採決見送り　保守派の反対根強くトランプ氏と共和党首脳が窮地に](http://www.huffingtonpost.jp/2017/03/23/obamacare_n_15571572.html)
 
 ### セキュリティ関連
 
@@ -27,7 +34,11 @@
 - [JPCERT コーディネーションセンター ログを活用したActive Directoryに対する攻撃の検知と対策](http://www.jpcert.or.jp/research/AD.html)
 - [NSA Best Scientific Cybersecurity Paper Competition - Schneier on Security](https://www.schneier.com/blog/archives/2017/03/nsa_best_scient.html)
 - [CNN.co.jp : アルカイダ系、電池に爆弾隠す技術完成か　米当局が情報入手](http://www.cnn.co.jp/world/35098466.html)
-- [WikiLeaks Not Disclosing CIA-Hoarded Vulnerabilities to Companies - Schneier on Security](https://www.schneier.com/blog/archives/2017/03/wikileaks_not_d.html)
+- [サイバーセキュリティについての5つの予想 | ReadWrite［日本版］](http://readwrite.jp/news/35941/)
+- [Android端末の約半数、2016年中に更新されず - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1703/24/news059.html)
+- [NTPに脆弱性、早急にアップデートを | マイナビニュース](http://news.mynavi.jp/news/2017/03/23/269/)
+- [Windows上のアンチウイルスソフトをマルウェアに変えるゼロデイ脆弱性 - ZDNet Japan](https://japan.zdnet.com/article/35098558/)
+- [「自動車の情報セキュリティへの取組みガイド」第2版を公開：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/iot/emb_car2.html)
 
 ### 天文関連
 
@@ -59,6 +70,12 @@
 - [Medium、月額5ドルの広告なしプラン始動　「崩壊したメディアを修復する」とウィリアムズCEO - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1703/23/news069.html)
 - [さくらのクラウド 「SQL Serverプラン」提供開始のお知らせ | さくらインターネット](https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1569)
 - [開発の「デメリット」が勝利の主因。](http://www.ne.jp/asahi/comp/tarusan/main261.htm)
+- [Ranking Digital Rights - 2017 Corporate Accountability Index](https://rankingdigitalrights.org/index2017/download/)
+- [八木研究室・名古屋大学](https://yagishinya.wixsite.com/yagilab)
+- [エルドアン大統領　「新たなるチャナッカレ戦争での勝利の道を開く」 | TRT 日本語](http://www.trt.net.tr/japanese/toruko/2017/03/19/erudoanda-tong-ling-xin-tanarutiyanatukarezhan-zheng-denosheng-li-nodao-wokai-ku-694386)
+- [「GitLab 9.0」リリース。組織の階層構造に対応したSubgroups、コンテナへのデプロイとPrometheusで運用監視など － Publickey](http://www.publickey1.jp/blog/17/gitlab_90subgroupsprometheus.html)
+- [Google無双…開幕ッ！GA完全連携A/Bテストツール『Google Optimize 無償版』ついにリリース - BITA デジマラボ](https://bita.jp/dml/gaoptimize_release)
+- [本物の動物こそが原作者。「けものフレンズ」コンセプトデザイン吉崎観音インタビュー | WebNewtype](https://webnewtype.com/report/article/104436/)
 
 
 ## Free Culture and CC0

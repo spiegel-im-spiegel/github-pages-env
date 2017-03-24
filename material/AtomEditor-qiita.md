@@ -274,6 +274,8 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - [tablr](https://atom.io/packages/tablr) : CSV Editor。なにこれ素敵！
 - [markdown-pdf](https://atom.io/packages/markdown-pdf) : markdwon 文書を PDF に変換してくれるらしい
 - [フロー図(UMLシーケンス図)もコードで書いて管理したい(atom + mermaid.js) - Qiita](http://qiita.com/hirofumihida/items/06e4c7b9fca086f056ff) : おおっ
+- [move-cursor-improved](https://atom.io/packages/move-cursor-improved)
+    - [Atom のカーソル上下移動を改良するパッケージを作った - Object.create(null)](http://susisu.hatenablog.com/entry/2017/03/20/190032)
 
 ## 継続調査（欲しい機能）
 
@@ -409,6 +411,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 
 - [Atom - TeX Wiki](https://texwiki.texjp.org/?Atom)
 - [Mac の Atom で latex - Qiita](http://qiita.com/NariseT/items/4b80c80f8e39ea35f597)
+- [空き時間に始めるLaTeX with Atom - Qiita](http://qiita.com/assly/items/9f3bfa155f3c3699bebb)
 
 ### その他 四方山話
 

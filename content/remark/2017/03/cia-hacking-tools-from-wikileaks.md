@@ -1,6 +1,6 @@
 +++
 date = "2017-03-09T20:11:34+09:00"
-update = "2017-03-13T11:12:21+09:00"
+update = "2017-03-24T18:08:15+09:00"
 title = "WikiLeaks がリークした CIA ハッキングツール"
 draft = false
 tags = ["security", "tools", "intelligence", "leak"]
@@ -58,6 +58,8 @@ description = "とりあえずブックマークを中心に。以後，追記�
 - [「CIAハッキングの脆弱性のほとんどは対応済み」とGoogleやAppleは公表するものの依然として危険な状態は続いている - GIGAZINE](http://gigazine.net/news/20170310-apple-google-treat-cia-hucking/)
 - [CIAはSignalやWhatsAppの暗号化を破ったわけじゃあない – P2Pとかその辺のお話R](http://p2ptk.org/privacy/574)
 - [The CIA's "Development Tradecraft DOs and DON'Ts" - Schneier on Security](https://www.schneier.com/blog/archives/2017/03/the_cias_develo.html)
+- [WikiLeaksがCIAの機密資料「Vault 7」からMacのハッキングツール文書を新たに公開 - GIGAZINE](http://gigazine.net/news/20170324-wikileaks-cia-mac-iphone-hacking-tool/)
+    - [Wikileaksが暴露したCIAの攻撃ツール、iPhone3G時代の話だった - iPhone Mania](http://iphone-mania.jp/news-162703/)
 
 ## 参考図書
 

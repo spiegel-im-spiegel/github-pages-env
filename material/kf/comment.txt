@@ -1,0 +1,50 @@
+■参考例集．
+関数例．
+/**
+ * @brief ディスプレイごとの画質調整設定関数
+ * @param monitorid [in] モニタID
+ * @param opecode   [in] 更新する画質
+ * @param daynight  [in] イルミ情報
+ * @param param     [in] 画質パラメータ
+ */
+/**
+ * @brief 再送コマンドセット
+ *
+ * @param commandType [in] コマンド種別
+ * @param size        [in] 再送コマンドサイズ
+ * @param data        [in] 再送コマンドデータ部
+ * @retval arb::eArbStatusOK    正常終了
+ * @retval arb::eArbStatusError 異常終了
+ * @note 引数sizeの値が負の場合はarb::eArbStatusErrorを返す
+ * @note 引数dataのNULLは許容
+ */
+/**
+ * @brief 再送コマンドサイズ取得
+ *
+ * @param commandType [in] コマンド種別
+ * @return 再送コマンドサイズ
+ */
+
+ファイルヘッダ
+/**
+ * @file  CommandResender.cpp
+ * @brief コマンド再送クラス
+ * @date  2017/03/23
+ *
+ * Copyright (c) Hoge */
+/**
+ * @file  ContentInfo.h
+ * @brief コンテント情報クラス定義ファイル
+ * @date  2017/04/07
+ *
+ * Copyright (c) Hoge */
+
+クラス
+/**
+ * @class CommandBase
+ * @brief コマンド通信データベースクラス
+ * @par   機能概要
+ *        - 送信データのメモリ管理
+ *        - 送信データメモリ操作
+ *        - 受信データメモリ操作
+ */
