@@ -46,7 +46,7 @@ Cisco は相変わらず「遅い」なぁ。
 - {{< pdf-file title="セキュアプロトコルに対する攻撃法等に関する技術調査" link="https://www.ipa.go.jp/security/fy15/reports/protocol/documents/protocol_2003.pdf" >}}
 - {{< pdf-file title="SSH パスワードユーザ認証の脆弱性とその考察" link="https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_action_common_download&item_id=10325&item_no=1&attribute_id=1&file_no=1" >}}
 
-Vault 7 では脆弱性情報について PoC (Ploof of Concept) や exploit code などの詳細情報がなく解析に時間がかかっているようだ[^r1]。
+Vault 7 では脆弱性情報について PoC (Proof of Concept) や exploit code などの詳細情報がなく解析に時間がかかっているようだ[^r1]。
 
 [^r1]: Vault 7 のリーク元がロシアということもあって情報自体の信憑性を確認する必要もある。
 
