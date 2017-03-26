@@ -1,7 +1,7 @@
 +++
-date = "2017-03-24T10:13:42+09:00"
+date = "2017-03-25T13:57:44+09:00"
 title = "「隠すことによるセキュリティ」が何をもたらすか"
-draft = true
+draft = false
 tags = ["security", "risk", "vulnerability", "intelligence", "leak"]
 description = "よく「隠すセキュリティはダメ」と言われるが，目的はどうあれ脆弱性情報を秘匿することがどういう結果をもたらすか身に染みたのではないだろうか。"
 
