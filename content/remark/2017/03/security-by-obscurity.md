@@ -76,6 +76,7 @@ WikiLeaks 側は製品のベンダ企業に対して脆弱性の一般公開ま�
 
 ## ブックマーク
 
+- [Cisco IOS and IOS XE Software Cluster Management Protocol Remote Code Execution Vulnerability](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170317-cmp)
 - [WikiLeaks Won’t Tell Tech Companies How to Patch CIA Zero-Days Until Its Demands Are Met - Motherboard](https://motherboard.vice.com/en_us/article/wikileaks-wont-tell-tech-companies-how-to-patch-cia-zero-days-until-its-demands-are-met)
 - [WikiLeaks Not Disclosing CIA-Hoarded Vulnerabilities to Companies - Schneier on Security](https://www.schneier.com/blog/archives/2017/03/wikileaks_not_d.html)
 - [Is Security by Obscurity a valid approach? (大論争 : 隠すことによるセキュリティ)](https://technet.microsoft.com/ja-jp/library/2008.06.obscurity.aspx)
