@@ -1,6 +1,6 @@
 +++
 date = "2017-03-21T20:32:28+09:00"
-update = "2017-03-23T10:03:44+09:00"
+update = "2017-03-27T11:41:32+09:00"
 title = "HTTPS 通信監視機器のリスク"
 draft = false
 tags = ["security", "risk", "x509", "pki", "ssl", "tls"]
@@ -30,7 +30,7 @@ description = "2015年の CERT/CC ブログ記事「The Risks of SSL Inspection�
 
 「HTTPS 通信監視機器」というのは，ぶっちゃけていうと， HTTPS 暗号通信[^https] に「中間者攻撃（man-in-the-middle attack）」を仕掛けて通信を傍受し malware 等を検出・排除する「セキュリティ製品」である。
 
-[^https]: 念のため簡単に説明しておくと， HTTPS (Hypertext Transfer Protocol Secure) 暗号通信は WWW (World Wide Web) におけるクライアント-サーバ間の通信経路を暗号化する仕組みである。具体的には TLS (Transport Layer Security) 等のプロトコルを用い公開鍵暗号方式を使ってセッション鍵を生成する。また公開鍵暗号方式の公開鍵は X.509 方式の公開鍵基盤（Public Key Infrastructure; PKI）によって管理される。
+[^https]: 念のため簡単に説明しておくと， HTTPS (Hypertext Transfer Protocol Secure) 暗号通信は WWW (World Wide Web) におけるクライアント-サーバ間の通信経路を暗号化する仕組みである。具体的には TLS (Transport Layer Security) 等のプロトコルを用い公開鍵暗号方式を使ってセッション鍵を生成する。また公開鍵暗号方式の公開鍵は X.509 方式の公開鍵基盤によって管理される。
 
 HTTPS 通信監視機器のいくつかにはセキュリティ上の問題が存在する。
 “[The Risks of SSL Inspection]” から抜き出してみよう。
@@ -59,6 +59,28 @@ HTTPS 通信監視機器のいくつかにはセキュリティ上の問題が�
 たとえば [CMS の面倒すらろくすっぽ見られない]({{< relref "remark/2016/07/cms.md">}} "「自分で面倒見られる子」だけが CMS を導入しなさい")ユーザが「うちも [Let's la Encrypt]」とか言い出して脆弱性だらけのサイトを暗号化したらどうなるのか。
 
 ネットワーク・セキュリティ専門家から企業あるいは私たち個人に至るまで，場当たりな対処に満足するのではなく，この「現実」にきちんと向き合うべきだと思うのだが，どうだろう。
+
+## 【おまけの追記】公開鍵基盤が担保するもの
+
+他の事象だが同じ公開鍵基盤（Public Key Infrastructure; PKI）に関連している事柄なので，おまけの追記ということで。
+
+- [To punish Symantec, Google may distrust a third of the web's SSL certificates | Computerworld](http://www.computerworld.com/article/3184573/security/to-punish-symantec-google-may-distrust-a-third-of-the-webs-ssl-certificates.html)
+- [Symantecが再びGoogleの信頼を失った件についてのメモ - Technically, technophobic.](http://notchained.hatenablog.com/entry/2017/03/27/090554)
+- [グーグル、シマンテックが発行したTLS証明書に不信感 - CNET Japan](https://japan.cnet.com/article/35098759/)
+
+「[Symantecが再びGoogleの信頼を失った件についてのメモ](http://notchained.hatenablog.com/entry/2017/03/27/090554 "Symantecが再びGoogleの信頼を失った件についてのメモ - Technically, technophobic.")」にもあるように Symantec （傘下の Thawte）は既に前科持ちなので「またか（sigh）」って感じなのだが...
+
+X.509 型の公開鍵基盤は認証局（Certification Authority; CA）が信頼できることが絶対条件で，これが崩れると機能しなくなる。
+
+喩えるならお金と銀行の関係と似ている。
+銀行はお金の価値を担保するが銀行が信用できないのならお金の価値を担保するものがなくなる。
+同じく認証局が管理する証明書は認証局が安全性を担保できているからこそ意味がある。
+そうでなければオレオレ証明書またはそれ以下の価値しかない。
+
+この問題は Symantec と Google の2者間の喧嘩だと思ったら物事を見誤る。
+現在 Web を支配している公開鍵基盤の根幹に関わる問題なのである。
+
+それにしても，昔「[EV SSL は『屋上屋を架す』ようにしか見えない](http://www.baldanders.info/spiegel/log2/000277.shtml "Extended Validation SSL — Baldanders.info")」と書いたが，まったくもってその通りだったな（笑）
 
 ## ブックマーク
 
