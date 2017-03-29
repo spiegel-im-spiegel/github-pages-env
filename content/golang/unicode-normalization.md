@@ -1,6 +1,6 @@
 +++
 date = "2016-01-30T04:05:52+09:00"
-update = "2017-03-13T09:26:30+09:00"
+update = "2017-03-29T13:42:08+09:00"
 description = "今回は少し目先を変えて「Unicode 正規化」のお話。"
 draft = false
 tags = ["golang", "unicode", "normalization", "character"]
@@ -297,6 +297,15 @@ Apple の OS X （iOS も？）のファイルシステムである HFS+ はフ�
 これにより様々な（特にマルチプラットフォームな）アプリケーションが多大なる迷惑を被ることになるが[^mac]，深くはツッコむまい。
 
 [^mac]: たとえば Linus Torvalds は HFS+ に起因する git の脆弱性問題で[激怒](http://cpplover.blogspot.jp/2015/01/blog-post_14.html)している。
+
+### 追記（2017-03-29）
+
+新しくリリースされた APFS (Apple File System) では上述のような似非正規化は行わないらしい。
+よーし，うむうむ，よーし。
+
+- [Michael Tsai - Blog - APFS’s “Bag of Bytes” Filenames](http://mjtsai.com/blog/2017/03/24/apfss-bag-of-bytes-filenames/)
+- [macOS上のAPFSはUnicode Normalizationを行うのか? - なるせにっき](http://naruse.hateblo.jp/entry/2017/03/28/181519)
+- [APFSで再燃したNFD問題 - Qiita](http://qiita.com/dankogai/items/6564a5a92288dd2a35d7)
 
 ## Unicode 正規化に関するまとめ
 
