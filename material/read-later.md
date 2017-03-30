@@ -43,6 +43,7 @@
 - [日本のPKO法と国連PKOの現状について : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/15575482.html)
 - [日本の「PKO」再考（中）「紛争の当事者」になった国連：伊勢崎賢治 | 記事 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42154)
 - [「Google Chrome 57」に“Critical”な脆弱性 ～Googleが修正版をリリース - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1052113.html)
+- [USB ストレージに保存されたデータを窃取するサイバー攻撃に関する注意喚起](https://www.jpcert.or.jp/at/2017/at170012.html)
 
 ### 天文関連
 
