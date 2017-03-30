@@ -24,6 +24,7 @@
 - [トランプ大統領、パイプライン建設を承認 環境より雇用優先　写真3枚　国際ニュース：AFPBB News](http://www.afpbb.com/articles/-/3122688)
 - [トランプ政権、火力発電所のCO2規制を撤廃へ 28日に大統領令　写真1枚　国際ニュース：AFPBB News](http://www.afpbb.com/articles/-/3122836)
     - [米大統領、温暖化規制見直し令に署名 「対石炭戦争」終結を宣言　写真5枚　国際ニュース：AFPBB News](http://www.afpbb.com/articles/-/3123090)
+    - [経済成長とCO2排出量は「比例しなくなっている」：IEA報告書｜WIRED.jp](http://wired.jp/2017/03/29/global-carbon-emissions/) : 石炭から天然ガスに切り替わったのも要因らしい
 - [「アメリカは70年間、衰退し続けている」——チョムスキーの視点 - Yahoo!ニュース](https://news.yahoo.co.jp/feature/566)
 - [トランプ大統領、連邦政府改革の新組織創立―アメリカン・イノベーション・オフィスの責任者はクシュナー | TechCrunch Japan](http://jp.techcrunch.com/2017/03/28/20170326trump-to-create-white-house-office-for-american-innovation-to-be-headed-by-kushner/)
 
@@ -36,6 +37,12 @@
 - [2016年はIoT機器への攻撃が2倍以上増加--警察庁統計 - ZDNet Japan](https://japan.zdnet.com/article/35098667/)
 - [「PCにウイルス」虚偽表示、電話で偽の対策ソフト購入誘導……被害多発 (1/2) - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1703/28/news054.html)
 - [「Google Chrome 57」にSymantec社のEV SSL証明書を正常に扱えない不具合 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1051745.html)
+- [【iOS 10.3】Apple IDの「2ファクタ認証」とは？ 有効化とサインイン方法 | iPhone | できるネット](https://dekiru.net/article/15201/) : SMS かよ orz
+- [PCサポート詐欺に警戒を--マウス動作など手口が巧妙化 - ZDNet Japan](https://japan.zdnet.com/article/35098949/)
+- [JPCERT コーディネーションセンター 講演資料一覧](https://www.jpcert.or.jp/present/)
+- [日本のPKO法と国連PKOの現状について : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/15575482.html)
+- [日本の「PKO」再考（中）「紛争の当事者」になった国連：伊勢崎賢治 | 記事 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42154)
+- [「Google Chrome 57」に“Critical”な脆弱性 ～Googleが修正版をリリース - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1052113.html)
 
 ### 天文関連
 
@@ -65,6 +72,8 @@
 - [人工知能は「記憶」を手に入れた。複数のゲームを連続でプレイできるようになった！｜WIRED.jp](http://wired.jp/2017/03/27/deepmind-sequential-memory/)
 - [型安全性と統計計算 | コンピュータサイエンス | POSTD](http://postd.cc/type-safety-and-statistical-computing/)
 - [地球最強の生物「クマムシ」、その強靭さの秘密が明らかに（動画あり）｜WIRED.jp](http://wired.jp/2017/03/27/secret-water-bear/)
+- [ナビタイムが考える「移動」におけるAIの可能性--UIはアプリからチャットへ - CNET Japan](https://japan.cnet.com/article/35098232/)
+- [東芝、1兆円赤字は「いばらの道」の始まり：日経ビジネスオンライン](http://business.nikkeibp.co.jp/atcl/report/16/070600052/032900011/?rt=nocnt)
 
 
 ## Free Culture and CC0

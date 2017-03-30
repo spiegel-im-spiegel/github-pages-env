@@ -1,7 +1,7 @@
 +++
 description = "これはどちらが正しいかという問題ではない。"
 date = "2017-03-11T14:55:06+09:00"
-update = "2017-03-21T11:06:44+09:00"
+update = "2017-03-30T10:11:38+09:00"
 title = "きみは Generics がとくいなフレンズなんだね，または「制約は構造を生む」"
 draft = false
 tags = ["golang", "object-oriented", "java", "design"]
@@ -49,9 +49,9 @@ tags = ["golang", "object-oriented", "java", "design"]
 そもそも「クラス」とはなにか。
 クラスとは以下の要素をひとまとめの「モノ（object）」として定義したものである。
 
-- 名前
-- 属性
-- 操作
+- 名前（必ず1個）
+- 属性（0個以上）
+- 操作（0個以上）
 
 [Go 言語]では明示的なクラス定義構文がない代わりに [type] と [struct]，およびメソッド・レシーバを組み合わせることでクラスの要素である名前，属性，操作を定義できる。
 
@@ -117,6 +117,7 @@ tags = ["golang", "object-oriented", "java", "design"]
 - [Why Go? | Dave Cheney](https://dave.cheney.net/2017/03/20/why-go)
     - [[翻訳] Why Go? - Qiita](http://qiita.com/methane/items/b627f20457873a504638)
 - [Go 言語における「オブジェクト」]({{< relref "golang/object-oriented-programming.md" >}})
+- [JavaScriptで継承を使わないプログラミングスタイル - JavaScript勉強会](http://jsstudy.hatenablog.com/entry/2017/03/29/214931) : オブジェクト指向設計について上手くまとめている
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [struct]: https://golang.org/ref/spec#Struct_types "Struct types"
