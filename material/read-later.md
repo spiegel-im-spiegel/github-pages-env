@@ -4,6 +4,7 @@
 - [AVG、「AVG AntiVirus FREE」など主力製品の最新版を公開。Avastと統合後初のリリース - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1039393.html)
 - [The Go Programming Language Blog](https://blog.golang.org/feed.atom) : フィード
 - [Foresight](http://www.fsight.jp/list/feed/rss) : フィード
+- [シロクマの屑籠](http://p-shirokuma.hatenadiary.com/feed) : フィード
 - [Announcement of LibreOffice 5.2.6](https://blog.documentfoundation.org/blog/2017/03/09/libreoffice-5-2-6/)
 
 - [Doxygen の使いかた – アカベコマイリ](http://akabeko.me/blog/2012/01/doxygen/)
@@ -44,6 +45,9 @@
 - [日本の「PKO」再考（中）「紛争の当事者」になった国連：伊勢崎賢治 | 記事 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42154)
 - [「Google Chrome 57」に“Critical”な脆弱性 ～Googleが修正版をリリース - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1052113.html)
 - [USB ストレージに保存されたデータを窃取するサイバー攻撃に関する注意喚起](https://www.jpcert.or.jp/at/2017/at170012.html)
+- [「必ずもうかる」信じないで！――仮想通貨トラブル、2年間で3倍超に　国民生活センターが注意喚起 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1703/30/news118.html)
+- [VMware、ハッキングコンテスト“Pwn2Own”で報告された“ゲスト脱出”の脆弱性を修正 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1052215.html)
+- [ウイルス対策ソフトを乗っ取る“DoubleAgent”、「Avast」「AVG」は2017年版で対策済み - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1052187.html)
 
 ### 天文関連
 
@@ -52,6 +56,7 @@
 - [観測成果 - "影絵"で見えた 115 億年前の宇宙の原始超銀河団ガス - すばる望遠鏡](http://subarutelescope.org/Pressrelease/2017/03/28/j_index.html)
 - [撮影に成功した、冥王星をとりまく「美しく青き大気」｜WIRED.jp](http://wired.jp/2017/03/28/this-blue-sky-image-of-pluto/)
 - [ドローンによる火星探査を視野に。 NASAがコンセプト動画を公開 | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_03_28_drone.html)
+- [スペースXの再使用ロケット、打ち上げ実施し着陸に成功！　格安打ち上げ実現へ | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_03_31_x.html)
 
 ### その他
 
@@ -75,6 +80,9 @@
 - [地球最強の生物「クマムシ」、その強靭さの秘密が明らかに（動画あり）｜WIRED.jp](http://wired.jp/2017/03/27/secret-water-bear/)
 - [ナビタイムが考える「移動」におけるAIの可能性--UIはアプリからチャットへ - CNET Japan](https://japan.cnet.com/article/35098232/)
 - [東芝、1兆円赤字は「いばらの道」の始まり：日経ビジネスオンライン](http://business.nikkeibp.co.jp/atcl/report/16/070600052/032900011/?rt=nocnt)
+- [Creative Commons — What the different options mean for content owners and content users](https://medium.com/pastportal/creative-commons-what-the-different-options-mean-for-content-owners-and-content-users-6447a3f9538c)
+- [ヘイトスピーチに対処しないテック企業に罰金60億円──ドイツが選んだ「危険なプラン」の勝算｜WIRED.jp](http://wired.jp/2017/03/30/germany-plan-online-hate/)
+- [ロビン・スローン氏に聞く〜「EPIC2014」から『ペナンブラ氏の24時間書店』まで « マガジン航[kɔː]](http://magazine-k.jp/2017/03/30/robin-sloan-interview/)
 
 
 ## Free Culture and CC0
