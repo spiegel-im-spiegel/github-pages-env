@@ -2,6 +2,7 @@
 tags = ["golang", "programming", "functional-options"]
 description = "今回も自分用の覚え書きとして書いておく。"
 date = "2017-04-04T01:01:59+09:00"
+update = "2017-04-04T06:02:47+09:00"
 title = "インスタンスの生成と Functional Options パターン"
 draft = false
 
@@ -165,7 +166,7 @@ func New(opts ...Option) *UI {
 //Reader returns function value of Option
 func Reader(r io.Reader) Option {
     return func(u *UI) {
-        if u == nil {
+        if r == nil {
             u.reader = ioutil.NopCloser(bytes.NewReader(nil))
         } else {
             u.reader = r
@@ -177,7 +178,7 @@ func Reader(r io.Reader) Option {
 //Writer returns function value of Option
 func Writer(w io.Writer) Option {
     return func(u *UI) {
-        if u == nil {
+        if w == nil {
             u.writer = ioutil.Discard
         } else {
             u.writer = w
@@ -188,7 +189,7 @@ func Writer(w io.Writer) Option {
 //ErrorWriter returns function value of Option
 func ErrorWriter(e io.Writer) Option {
     return func(u *UI) {
-        if u == nil {
+        if e == nil {
             u.errorWriter = ioutil.Discard
         } else {
             u.errorWriter = e
