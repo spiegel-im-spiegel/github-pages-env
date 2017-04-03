@@ -1,9 +1,9 @@
 +++
 tags = ["anime"]
 description = "「けもフレ」最終話で泣けたシーン / Commons としての「けもフレ」"
-date = "2017-04-03T12:50:23+09:00"
+date = "2017-04-03T20:18:14+09:00"
 title = "「けもフレ」ロスは続く。"
-draft = true
+draft = false
 
 [author]
   facebook = "spiegel.im.spiegel"
@@ -80,7 +80,7 @@ draft = true
 
 とりあえず「[オフィシャルガイドブック](http://www.amazon.co.jp/exec/obidos/ASIN/4041054443/baldandersinf-22/)」は買った方がいいのかなぁ。
 はっきり言って BD は要らんのだが。
-BD 抜きで2,000円くらいで売ってくれんかな。
+BD 抜きで2,000円～3,000円くらいで売ってくれんかな。
 
 [クトゥルー神話]: https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%88%E3%82%A5%E3%83%AB%E3%83%95%E7%A5%9E%E8%A9%B1 "クトゥルフ神話 - Wikipedia"
 
