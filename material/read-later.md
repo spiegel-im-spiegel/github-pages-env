@@ -14,6 +14,7 @@
     - [Doxygen: Main Page](http://www.stack.nl/~dimitri/doxygen/)
         - [Doxygen: Downloads](http://www.stack.nl/~dimitri/doxygen/download.html) : 最新版は 1.8.13
 - [ソースコードからドキュメントをDoxygenで生成する](http://alctail.sakura.ne.jp/tip/cplus_kannrenn/cplusplus/doc.shtml)
+- [Go言語のFunctional Option Pattern - Qiita](http://qiita.com/weloan/items/56f1c7792088b5ede136) : これネタに記事を書く
 
 
 ## ブックマーク
@@ -23,12 +24,23 @@
 
 ### セキュリティ関連
 
+- [「Galaxy S8」の顔認証は写真でだませる（デモ動画あり） - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1704/03/news051.html)
+- [総務省｜「クラウドサービスの安全・信頼性に係る情報開示指針」の改定](http://www.soumu.go.jp/menu_news/s-news/01ryutsu02_02000167.html)
+- [オープンソースのRATを改良したマルウエアRedLeaves(2017-04-03)](https://www.jpcert.or.jp/magazine/acreport-redleaves.html)
+- [「PCの時計が1時間ずれている」報告多数 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1704/03/news076.html)
+- [米大手ISPが次々とプライバシー保護を表明--規制撤廃の可決を受け - CNET Japan](https://japan.cnet.com/article/35099142/)
 
 ### 天文関連
 
 
 ### その他
 
+- [法律・条約による核兵器の制御：冨澤暉 | 軍事のコモンセンス | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42159)
+- [コラム：「絶望死」が増加する米国社会の暗い闇 | ロイター](http://jp.reuters.com/article/usa-death-failure-column-idJPKBN17218X)
+- [「暗黒物質」は存在しない？ 大胆な仮説を提唱した物理学者の長き闘い｜WIRED.jp](http://wired.jp/2017/04/02/case-dark-matter/)
+    - [量子ビットから生まれる時空 | 日経サイエンス](http://www.nikkei-science.com/201704_040.html)
+- [人工知能に「科学論文の査読」ができたら「最強」だ──開発めざす出版社も登場｜WIRED.jp](http://wired.jp/2017/04/03/ai-can-solve-peer-review/)
+- [TR-808、JUPITER-8、DTM、MIDIを生んだ梯郁太郎氏が死去 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1704/02/news026.html)
 
 
 ## Free Culture and CC0
