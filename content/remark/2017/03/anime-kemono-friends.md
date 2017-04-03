@@ -2,7 +2,7 @@
 tags = ["anime"]
 description = "最終話でいい歳したおぢさんが号泣したらどうしようと思ってたけど，なんか「大団円」って感じで泣くよりも嬉しくなっちゃった。"
 date = "2017-03-29T20:24:24+09:00"
-update = "2017-03-31T16:49:12+09:00"
+update = "2017-04-03T15:13:14+09:00"
 title = "アニメ「けものフレンズ」たーのしー！ ...かったよ"
 draft = false
 
@@ -93,8 +93,10 @@ Facebook の友人も似たようなこと言ってたし。
 ## ブックマーク
 
 - [本物の動物こそが原作者。「けものフレンズ」コンセプトデザイン吉崎観音インタビュー | WebNewtype](https://webnewtype.com/report/article/104436/)
+- [すごーい！の連続、『けものフレンズ』チームに３万字インタビュー | アニメイトタイムズ](http://www.animatetimes.com/news/details.php?id=1488452395)
 - [最終回直前「けものフレンズ」福原Ｐ「『ツチノコはいません』と言われたらぶち壊し」 - エキレビ！(1/5)](http://www.excite.co.jp/News/reviewmov/20170327/E1490547358865.html)
 - [最終話放送直前！ アニメが作るのが得意なフレンズ、たつき監督に『けものフレンズ』の“すごーい！”ところを聞いてみた!!｜おたぽる](http://otapol.jp/2017/03/post-10123_entry.html)
+
 - [けものフレンズOP『ようこそジャパリパークへ』コード進行とメロディと感想 - 迫りくる犬](http://motcho2.hateblo.jp/entry/2017/02/21/152333)
 - [「けものフレンズ」人気、作り手も「想定外」　今明かされる「たのしー！」誕生秘話 (1/7) - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1703/06/news058.html)
 - [ダーウィンが来た! けものフレンズ スペシャル「サーバル 強烈パンチ!」 - YouTube](https://www.youtube.com/watch?v=MqxgylK6-wM)

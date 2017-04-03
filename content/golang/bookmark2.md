@@ -253,6 +253,7 @@ title = "Go 言語に関するブックマーク（サンプルコード，パ�
 - [こわくない！今日からはじめるGo言語コード生成 - Qiita](http://qiita.com/nirasan/items/bb0a239641028312b4db)
 - [Big Sky :: レーベンシュタイン距離を使ったあいまい grep コマンド「lsdgrep」作ってみた](http://mattn.kaoriya.net/software/lang/go/20170227010706.htm)
 - [Re:ゼロから始めないAPNGエンコーダ - Qiita](http://qiita.com/cia_rana/items/18c78e0233e117b22af6)
+- [Go言語のFunctional Option Pattern - Qiita](http://qiita.com/weloan/items/56f1c7792088b5ede136)
 
 ## 参考図書
 
