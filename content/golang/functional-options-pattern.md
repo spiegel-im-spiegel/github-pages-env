@@ -166,9 +166,7 @@ func New(opts ...Option) *UI {
 //Reader returns function value of Option
 func Reader(r io.Reader) Option {
     return func(u *UI) {
-        if r == nil {
-            u.reader = ioutil.NopCloser(bytes.NewReader(nil))
-        } else {
+        if r != nil {
             u.reader = r
         }
 
@@ -178,9 +176,7 @@ func Reader(r io.Reader) Option {
 //Writer returns function value of Option
 func Writer(w io.Writer) Option {
     return func(u *UI) {
-        if w == nil {
-            u.writer = ioutil.Discard
-        } else {
+        if w != nil {
             u.writer = w
         }
     }
@@ -189,9 +185,7 @@ func Writer(w io.Writer) Option {
 //ErrorWriter returns function value of Option
 func ErrorWriter(e io.Writer) Option {
     return func(u *UI) {
-        if e == nil {
-            u.errorWriter = ioutil.Discard
-        } else {
+        if e != nil {
             u.errorWriter = e
         }
     }
