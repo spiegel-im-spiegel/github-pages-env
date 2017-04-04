@@ -1,5 +1,6 @@
 +++
 date = "2017-03-25T13:57:44+09:00"
+update = "2017-04-04T09:51:37+09:00"
 title = "「隠すことによるセキュリティ」が何をもたらすか"
 draft = false
 tags = ["security", "risk", "vulnerability", "intelligence", "leak"]
@@ -55,13 +56,28 @@ Vault 7 では脆弱性情報について PoC (Proof of Concept) や exploit cod
 実際、シスコの公式ブログには、「（今回の脆弱性に関連する）ツールやマルウエアは公表されていないので、シスコが取れるアクションは限られている。より多くの情報を入手するまでは、脆弱性ハンドリングの観点でシスコができることはほとんどない」としている。</q>
 {{< /fig-quote >}}
 
+{{% div-box %}}
+**追記（2017-04-04）**
+
+- [暴露されたCIAの諜報能力「Vault 7」の衝撃度（前編） | THE ZERO/ONE](https://the01.jp/p0004740/)
+
+この記事によるとちょっと状況が異なるようである。
+
+{{< fig-quote title="暴露されたCIAの諜報能力「Vault 7」の衝撃度（前編）" link="https://the01.jp/p0004740/" >}}
+<q>それに対して今回のYear Zeroが公開したのは、CIAが利用しているサイバー兵器そのものの情報だ。「CIAはこんなツールを使っていますよ」ではなく、CIAの利用しているゼロデイ、マルウェア、エクスプロイトなどの現物の情報である。WikiLeaksは、「このスマートフォンの脆弱性を利用してインストールできるマルウェア」や、「あの暗号化通信のアプリケーションを迂回できるツール」をソースコードごと入手しており、閲覧しても問題のない形で（＝他者から悪用されない形で）それらの情報を公開している。</q>
+{{< /fig-quote >}}
+
+つまり WikiLeaks 側は脆弱性情報に対して exploit code 等の詳細情報を持っていることになる。
+であれば，後述のように，ベンダ企業にはその詳細情報が渡っている筈である（多分）。
+{{% /div-box %}}
+
 WikiLeaks 側は製品のベンダ企業に対して脆弱性の一般公開まで90日間の猶予を設けているらしい（予告なしに公開はしないということ）。
 
 {{< fig-quote title="WikiLeaks Won’t Tell Tech Companies How to Patch CIA Zero-Days Until Its Demands Are Met" link="https://motherboard.vice.com/en_us/article/wikileaks-wont-tell-tech-companies-how-to-patch-cia-zero-days-until-its-demands-are-met" lang="en" >}}
 <q>WikiLeaks included a document in the email, requesting the companies to sign off on a series of conditions before being able to receive the actual technical details to deploy patches, according to sources. It's unclear what the conditions are, but a source mentioned a 90-day disclosure deadline, which would compel companies to commit to issuing a patch within three months.</q>
 {{< /fig-quote >}}
 
-90日の猶予期間というのは Google などでもやっているので特に無理筋な設定ではないと思うが Cisco みたいな企業だと厳しいかもしれない。
+90日の猶予期間というのは Google の Project Zero などでもやっているので特に無理筋な設定ではないと思うが Cisco みたいな企業だと厳しいかもしれない。
 一方で Android や iOS などでは発覚した脆弱性の殆んどは修正済みだったらしい。
 そういった脆弱性情報の解析・対処の能力の違いはありそうである。
 
@@ -80,3 +96,5 @@ WikiLeaks 側は製品のベンダ企業に対して脆弱性の一般公開ま�
 - [WikiLeaks Won’t Tell Tech Companies How to Patch CIA Zero-Days Until Its Demands Are Met - Motherboard](https://motherboard.vice.com/en_us/article/wikileaks-wont-tell-tech-companies-how-to-patch-cia-zero-days-until-its-demands-are-met)
 - [WikiLeaks Not Disclosing CIA-Hoarded Vulnerabilities to Companies - Schneier on Security](https://www.schneier.com/blog/archives/2017/03/wikileaks_not_d.html)
 - [Is Security by Obscurity a valid approach? (大論争 : 隠すことによるセキュリティ)](https://technet.microsoft.com/ja-jp/library/2008.06.obscurity.aspx)
+- [暴露されたCIAの諜報能力「Vault 7」の衝撃度（前編） | THE ZERO/ONE](https://the01.jp/p0004740/)
+    - [暴露されたCIAの諜報能力「Vault 7」の衝撃度（中編） | THE ZERO/ONE](https://the01.jp/p0004753/)

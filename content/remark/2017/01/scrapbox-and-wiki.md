@@ -3,6 +3,7 @@ draft = false
 tags = ["wiki", "slack", "tools"]
 description = "で，当面の問題は私が Wiki 記法をほとんど忘れてるってことなんだよなぁ。"
 date = "2017-01-10T20:21:13+09:00"
+update = "2017-04-04T17:05:40+09:00"
 title = "Scrapbox または Wiki で再び遊ぶ"
 
 [author]
@@ -63,6 +64,10 @@ TL をもつサービスでは，上げたものはただ流れ去るだけで�
 Markdown に慣れすぎてしまった。
 
 [^w]: 昔は[本家サイト](http://www.baldanders.info/ "Baldanders.info")に Wiki を設置して遊んでいたが， spam の対処に困って閉鎖してしまった。ユーザ認証とかしてなかったからなぁ。
+
+## ブックマーク
+
+- [Scrapboxページの文章をMarkdownに変換するBookmarkletを書いた - #daiizメモ](http://daiiz.hatenablog.com/entry/2017/02/17/074508)
 
 [Scrapbox]: https://scrapbox.io/ "Scrapbox - A new style of team wiki"
 [Spiegel's Branch]: https://scrapbox.io/spiegel-branch/ "Spiegel's Branch - Scrapbox"

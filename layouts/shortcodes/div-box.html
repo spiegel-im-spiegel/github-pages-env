@@ -1,0 +1,3 @@
+{{ with .Get "lang" }}<div class="box" lang="{{ . }}">{{ else }}<div class="box">{{ end }}
+{{ .Inner }}
+</div>

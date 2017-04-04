@@ -2,7 +2,7 @@
 tags = ["golang", "programming", "functional-options"]
 description = "今回も自分用の覚え書きとして書いておく。"
 date = "2017-04-04T01:01:59+09:00"
-update = "2017-04-04T06:02:47+09:00"
+update = "2017-04-04T16:22:14+09:00"
 title = "インスタンスの生成と Functional Options パターン"
 draft = false
 
@@ -64,7 +64,7 @@ u := UI{reader: os.Stdin, writer: os.Stdout, errorWriter: os.Stderr}
 ```
 
 この方法であれば各フィールドに初期値を与えることができる。
-ただしフィールドがパッケージ `ui` の外からは不可視の場合は（普通そうだよね）この手は使えない。
+ただしフィールドがパッケージの外からは不可視の場合は（普通そうするよね）この手は使えない。
 
 そこで，3番目の方法として構築子に相当する関数を考える。
 
@@ -114,7 +114,7 @@ u := ui.New(nil, nil, nil)
 
 と無効な値（nil）を引数に指定した場合でもフィールドには（nil ではなく）安全な値がセットされる。
 
-この方法の問題点は引数に必ず何らかの値をセットしなければならないことだ。
+この方法の問題点は引数に必ず何らかの値をセットしなければならないことだ（[Go 言語]にはデフォルト引数（default argument）のような仕組みはない）。
 たとえば `errorWriter` は既定では使わないことが分かっていてもインスタンス生成時には
 
 ```go
@@ -131,18 +131,21 @@ func NewWithoutErr(r io.Reader, w io.Writer) *UI {
 }
 ```
 
-などと構築子を別途増やす手もあるが，それではフィールドの数が増えると関数の管理が煩雑になってしまう。
+などと構築子を別途増やす手もあるが，それでは有効なフィールドの組み合わせが増えると関数の管理が煩雑になってしまう。
 
 そこで4番目の方法。
 構築子の引数に初期値をセットするのではなく，初期化関数をセットするのである。
 この初期化関数の型を
 
 ```go
+//Option is function value of functional options
 type Option func(*UI)
 ```
 
-と定義する。
+と定義する[^srf]。
 すると構築子は
+
+[^srf]: これを自己参照関数（self-referential function）と呼ぶそうだ。 “[Self-referential functions and the design of options](https://commandcenter.blogspot.jp/2014/01/self-referential-functions-and-design.html "command center: Self-referential functions and the design of options")” には自己参照関数の様々なバリエーションが紹介されている。この記事ではもっとも簡単な構造のみ紹介している。
 
 ```go
 //Option is function value of functional options
@@ -160,10 +163,10 @@ func New(opts ...Option) *UI {
 
 と記述することができる。
 
-さらにフィールドごとに `Option` 関数を返す関数も定義する。
+さらにフィールドごとに `Option` 関数を返す関数も定義する（これらの関数を用意することで `ui` パッケージを利用するユーザから関数閉包（closure）を隠蔽できる）。
 
 ```go
-//Reader returns function value of Option
+//Reader returns closure as type Option
 func Reader(r io.Reader) Option {
     return func(u *UI) {
         if r != nil {
@@ -173,7 +176,7 @@ func Reader(r io.Reader) Option {
     }
 }
 
-//Writer returns function value of Option
+//Writer returns closure as type Option
 func Writer(w io.Writer) Option {
     return func(u *UI) {
         if w != nil {
@@ -182,7 +185,7 @@ func Writer(w io.Writer) Option {
     }
 }
 
-//ErrorWriter returns function value of Option
+//ErrorWriter returns closure as type Option
 func ErrorWriter(e io.Writer) Option {
     return func(u *UI) {
         if e != nil {
@@ -198,8 +201,8 @@ func ErrorWriter(e io.Writer) Option {
 u := ui.New(ui.Reader(os.Stdin), ui.Writer(os.Stdout))
 ```
 
-などと初期化の必要なフィールドのみ引数で指定することができる。
-このような記述パターンを “Functional Options" と呼ぶようである。
+などと初期化の必要なフィールドのみ引数で指定でき，かつコードの見た目も分かりやすくできる。
+このようなプログラミング・パターンを “Functional Options" と呼ぶようである。
 
 ## ブックマーク
 
@@ -207,6 +210,7 @@ u := ui.New(ui.Reader(os.Stdin), ui.Writer(os.Stdout))
 - [Functional options for friendly APIs | Dave Cheney](https://dave.cheney.net/2014/10/17/functional-options-for-friendly-apis)
 
 - [Go 言語における「オブジェクト」]({{< relref "golang/object-oriented-programming.md" >}})
+- [spiegel-im-spiegel/gocli: Command line interface](https://github.com/spiegel-im-spiegel/gocli) : 本記事と全く同じではないが， Functional Options パターンの実装例を作ってみた
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`io`]: https://golang.org/pkg/io/ "io - The Go Programming Language"

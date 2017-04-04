@@ -3,6 +3,19 @@
  * addon.css -- Cascading Style Sheet (General)
  */
 
+main div.box {
+  color: inherit;
+  background-color: white;
+  margin: 1rem 0rem 1rem 0.4rem;
+  padding: 4px;
+  line-height: 1.2;
+  border: solid thin lightgray;
+}
+div.box p {
+  margin: 0;
+  line-height: 1.2
+}
+
 /* hreview */
 main .hreview {
   font-size: small;

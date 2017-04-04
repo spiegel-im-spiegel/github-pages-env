@@ -1,6 +1,6 @@
 +++
 date = "2016-10-16T23:41:57+09:00"
-update = "2017-01-12T15:07:46+09:00"
+update = "2017-04-04T14:53:02+09:00"
 title = "Web フォントに関する覚え書き（明朝体編）"
 description = "最近 Google の Early Access のページを見たら随分と日本語の書体が増えている気がする。"
 tags = ["web", "font", "google", "character", "site"]
@@ -99,5 +99,11 @@ Web フォントを Google のようなところから取得するのはメリ�
 
 本当は Noto Serif で日本語をサポートしてくれると嬉しいんだけどねぇ。
 でもフォントの制作は時間とお金と人手がかかる仕事だし，ただ成果を享受している身としてはワガママは言えません。
+
+## ブックマーク
+
+- [Adobe、「源ノ明朝」フォントをリリース ～「源ノ角ゴシック」と対になるセリフ書体 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1052973.html)
+    - [Google、日中韓対応の明朝体フォント「Noto Serif CJK」を無償公開 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1052998.html)
+- [Noto Serif(源ノ明朝)のCSS指定 - Qiita](http://qiita.com/_RJ/items/645adf95ed6f5841eaf6)
 
 [こころ明朝体]: http://typingart.net/?p=46 "日本語フォント「こころ明朝体」 - フォント無料ダウンロード｜Typing Art"

@@ -50,7 +50,7 @@ description = "とりあえずブックマークを中心に。以後，追記�
 
 ニューヨーク・タイムズ紙だとあまりマジにとらないほうがいいかな？
 
-不本意にも WikiLeaks で脆弱性を公にされてしまったツール軍の状況は以下の通り。
+不本意にも WikiLeaks で脆弱性を公にされてしまったツール群の状況は以下の通り。
 
 - [CIAが悪用していたセキュリティホールを埋めた「Notepad++」v7.3.3が公開 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1048597.html)
 - [機密文書“Vault 7”で有名フリーソフトを使ったCIAのスパイ手法が明らかに - やじうまの杜 - 窓の杜](http://forest.watch.impress.co.jp/docs/serial/yajiuma/1048726.html)
