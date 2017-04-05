@@ -1,6 +1,6 @@
 +++
 date = "2017-03-09T20:11:34+09:00"
-update = "2017-03-24T18:08:15+09:00"
+update = "2017-04-05T13:02:36+09:00"
 title = "WikiLeaks がリークした CIA ハッキングツール"
 draft = false
 tags = ["security", "tools", "intelligence", "leak"]
@@ -33,6 +33,10 @@ description = "とりあえずブックマークを中心に。以後，追記�
 - [More on the CIA Document Leak - Schneier on Security](https://www.schneier.com/blog/archives/2017/03/more_on_the_cia.html)
 - [A Few Observations on Wikileaks and Vault7: Hacking at the CIA - Lawfare](https://www.lawfareblog.com/few-observations-wikileaks-and-vault7-hacking-cia)
 - [シリア内戦での米露協調にワシントンの政争は影響を及ぼすか：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42094)
+- [エクアドル大統領選に「介入」したアサンジの迷走 | ワールド | 最新記事 | ニューズウィーク日本版 オフィシャルサイト](http://www.newsweekjapan.jp/stories/world/2017/04/post-7311.php) : WikiLeaks に対する批判記事
+- [暴露されたCIAの諜報能力「Vault 7」の衝撃度（前編） | THE ZERO/ONE](https://the01.jp/p0004740/)
+    - [暴露されたCIAの諜報能力「Vault 7」の衝撃度（中編） | THE ZERO/ONE](https://the01.jp/p0004753/)
+    - [暴露されたCIAの諜報能力「Vault 7」の衝撃度（後編） | THE ZERO/ONE](https://the01.jp/p0004767/)
 
 まずは [“Schneier on Security” の記事](https://www.schneier.com/blog/archives/2017/03/more_on_the_cia.html "More on the CIA Document Leak - Schneier on Security")。
 

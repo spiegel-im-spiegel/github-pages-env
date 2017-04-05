@@ -1,6 +1,6 @@
 +++
 date = "2017-03-25T13:57:44+09:00"
-update = "2017-04-04T09:51:37+09:00"
+update = "2017-04-05T13:02:53+09:00"
 title = "「隠すことによるセキュリティ」が何をもたらすか"
 draft = false
 tags = ["security", "risk", "vulnerability", "intelligence", "leak"]
@@ -98,3 +98,4 @@ WikiLeaks 側は製品のベンダ企業に対して脆弱性の一般公開ま�
 - [Is Security by Obscurity a valid approach? (大論争 : 隠すことによるセキュリティ)](https://technet.microsoft.com/ja-jp/library/2008.06.obscurity.aspx)
 - [暴露されたCIAの諜報能力「Vault 7」の衝撃度（前編） | THE ZERO/ONE](https://the01.jp/p0004740/)
     - [暴露されたCIAの諜報能力「Vault 7」の衝撃度（中編） | THE ZERO/ONE](https://the01.jp/p0004753/)
+    - [暴露されたCIAの諜報能力「Vault 7」の衝撃度（後編） | THE ZERO/ONE](https://the01.jp/p0004767/)

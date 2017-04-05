@@ -33,6 +33,12 @@
 - [米大手ISPが次々とプライバシー保護を表明--規制撤廃の可決を受け - CNET Japan](https://japan.cnet.com/article/35099142/)
 - [NXP Kinetis MCU上で強力な暗号ライブラリemCryptの販売開始 - CNET Japan](https://japan.cnet.com/release/30186098/)
 - [【注意喚起】偽口座への送金を促す“ビジネスメール詐欺”の手口：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/announce/20170403-bec.html)
+- [ニュース解説 - GPS捜査「違法」の最高裁判決、IT企業にも影響大：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/14/346926/033000910/)
+- {{< pdf-file title="Encryption and the Press Clause" link="http://jipel.law.nyu.edu/wp-content/uploads/2017/04/NYU_JIPEL_Vol-6-No_2_1_Baranetsky_EncryptionPressClause.pdf" >}}
+    - [Encryption Policy and Freedom of the Press - Schneier on Security](https://www.schneier.com/blog/archives/2017/04/encryption_poli.html)
+- [WALNUT: Acoustic Attacks on MEMS Sensors](https://spqr.eecs.umich.edu/walnut/)
+    - [Acoustic Attack Against Accelerometers - Schneier on Security](https://www.schneier.com/blog/archives/2017/04/acoustic_attack.html)
+- [Androidに標的型マルウェア、iOSへの攻撃と類似点 - ZDNet Japan](https://japan.zdnet.com/article/35099258/)
 
 ### 天文関連
 
@@ -40,6 +46,9 @@
     - [量子ビットから生まれる時空 | 日経サイエンス](http://www.nikkei-science.com/201704_040.html)
 - [国産「H3」ロケットのエンジン「LE-9」、種子島宇宙センターで燃焼試験へ | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/10/2017_04_03_h3.html)
 - [巨大ブラックホールからの放出中に「星の形成」　海外チームが初観測 | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_04_04_black.html)
+- [ダークエネルギーがなくても宇宙の加速膨張は説明可能 - AstroArts](http://www.astroarts.co.jp/article/hl/a/9044_darkenergy)
+- [X線の激しい閃光で発見された新種の謎の天体爆発 | Kavli IPMU-カブリ数物連携宇宙研究機構](http://www.ipmu.jp/ja/20170331-Chandra-CDF-S)
+- [トピックス - 宇宙ライター林公代の視点 (23) : 銀河にひそむ超巨大ブラックホール](http://subarutelescope.org/Topics/2017/04/03/j_index.html)
 
 ### その他
 
@@ -57,6 +66,14 @@
 - [「原発」と「食品」で安倍政権の揺さぶりを狙う中国の「計略」：野嶋剛 | 記事 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42165)
 - [Introducing PAX: the Android Networked Cross-License Agreement](https://blog.google/topics/public-policy/introducing-pax-android-networked-cross-license-agreement/)
     - [Google、Andoroid関連のソフトウェア特許を共有する団体を結成 - PC Watch](http://pc.watch.impress.co.jp/docs/news/1053025.html)
+- [ウェブ標準仕様の翻訳についてつらつらと書いてみた。 - 水底の血](http://momdo.hatenablog.jp/entry/20170404/1491302373)
+- [たつき監督、けものフレンズ第12.1話「ばすてき」を公開 - やじうまの杜 - 窓の杜](http://forest.watch.impress.co.jp/docs/serial/yajiuma/1053179.html)
+- [Inventor of World Wide Web Receives ACM A.M. Turing Award - Sir Tim Berners-Lee Designed Integrated Architecture and Technologies that Underpin the Web](http://awards.acm.org/about/2016-turing)
+    - [“Webの父”ティム・バーナーズ・リー氏にチューリング賞 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1704/05/news065.html)
+    - [ウェブを発明したティム・バーナーズ＝リー氏にチューリング賞 - CNET Japan](https://japan.cnet.com/article/35099270/)
+- [特撮のロケ現場でババーン！と爆破結婚写真を撮ってきた - デイリーポータルZ：@nifty](http://portal.nifty.com/kiji/170403199224_1.htm)
+- [TSUTAYAが不振出版社を買い続ける狙い | メディア業界 | 東洋経済オンライン | 経済ニュースの新基準](http://toyokeizai.net/articles/-/166250)
+- [“単行本と文庫本の間”のニーズに応える電子書籍新レーベル「角川ebook」「角川ebooknf」創刊 -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/1053234.html)
 
 
 ## Free Culture and CC0
