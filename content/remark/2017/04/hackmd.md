@@ -1,6 +1,6 @@
 +++
-draft = true
-date = "2017-04-06T16:40:39+09:00"
+draft = false
+date = "2017-04-06T22:25:55+09:00"
 title = "エディタ以上ワープロ未満の HackMD"
 tags = ["tools", "editor", "markdown"]
 description = "もうしばらく遊んでみて，よさげなら常用してみようかな，と。"
@@ -42,25 +42,27 @@ Web 版のほか各種携帯端末用のアプリが揃っていて使い勝手�
 
 - MIT ライセンス。 Docker イメージも用意されていてオンプレミスな運用もできる
 - [hackmd.io](https://hackmd.io/ "HackMD - 共同編集できるMarkdownノート") で提供される SaaS 版は以下の通り
-    1. 自身はアカウント管理を行ってない。サインインは Facebook, Twitter, GitHubm, Dropbox, Google のアカウントを利用できる。なお，サインインしなくても「ゲスト」として利用することも可能
+    1. 自身はアカウント管理を行ってない。サインインは Facebook, Twitter, GitHubm, Dropbox, Google のアカウントを利用できる。ちなみにサインインしなくても「ゲスト」として利用することも可能
     1. Markdown 記法で記述するが，かなり強力にカスタマイズされている
         - [YAML 形式による制御](https://hackmd.io/yaml-metadata "Supported YAML metadata - HackMD")ができる
-        -  [imgur] と連動している。アップロードした画像は自動的に [imgur] に格納される
         - [MathJax](www.mathjax.org) による数式表現が可能
-        - [graphviz]（DOT 言語），[js-sequence-diagrams]，[mermaid] の記法で作図ができる
+        - [graphviz]（DOT 言語）, [mermaid]，[js-sequence-diagrams]，[flowchart.js] の記法で作図ができる
         - [abc] 記法で楽譜が書ける
         - 簡単な記述により YouTube, Vimeo, Gist, SlideShare, Speakerdeck のコンテンツを埋め込める
         - タグを設定できる。タグをキーにした検索が可能
+        - その他，詳しくは「[機能紹介](https://hackmd.io/s/4JbKDCN1hx "機能紹介 - HackMD")」で
+    1. [imgur] と連動している。アップロードした画像は自動的に [imgur] に格納される
     1. Dropbox, Google Drive, Gist へエクスポート可能
     1. Dropbox, Google Drive, Gist およびクリップボードからインポート可能
     1. markdown または HTML 形式でローカルにダウンロード可能
-    1. 基本的に誰でも編集でき誰でも閲覧できる。なお編集・閲覧許可範囲を「サインイン・ユーザのみ」「オーナーのみ」に絞ることはできる。特定のユーザのみ許可，のような芸当はできないようだ（まぁアカウント管理をしてないからね）
+    1. 基本的に誰でも編集でき誰でも閲覧できる。なお，編集・閲覧許可範囲を「サインイン・ユーザのみ」「オーナーのみ」に絞ることはできる。許可するユーザを指定したりはできないようだ（まぁアカウント管理をしてないからね）
 
 試しにちょろんと落書きしてみた。
 
 - [MathJax による数式表現。 - HackMD](https://hackmd.io/s/S1thQI76e)
 - [シーケンス図を描こう - HackMD](https://hackmd.io/s/ByuxOLQag)
 - [クラス図を描こう - HackMD](https://hackmd.io/s/S19e0LXTe)
+- [フローチャートを描こう - HackMD](https://hackmd.io/s/H1iq2i76e#)
 
 もうしばらく遊んでみて，よさげなら常用してみようかな，と。
 
@@ -76,4 +78,5 @@ Web 版のほか各種携帯端末用のアプリが揃っていて使い勝手�
 [graphviz]: http://www.graphviz.org/ "Graphviz | Graphviz - Graph Visualization Software"
 [js-sequence-diagrams]: https://bramp.github.io/js-sequence-diagrams/ "js-sequence-diagrams by bramp"
 [mermaid]: http://knsv.github.io/mermaid/ "mermaid - Generation of diagrams and flowcharts from text in a similar manner as markdown."
+[flowchart.js]: http://flowchart.js.org/
 [abc]: http://abcnotation.com/
