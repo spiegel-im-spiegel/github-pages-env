@@ -1,7 +1,7 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
-update = "2017-03-21T11:03:43+09:00"
+update = "2017-04-06T10:19:32+09:00"
 draft = false
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -90,6 +90,7 @@ title = "Go 言語に関するブックマーク"
 - [Goで任意のbuild tagsをつけてビルドファイルを切り替える - Qiita](http://qiita.com/ueokande/items/fac0d1219dbbc8f44db7)
 - [Go と reflect と generate - Qiita](http://qiita.com/naoina/items/7966f73f3a807b3d25d6)
 - [Golang 日付のフォーマットでハマった話 - Qiita](http://qiita.com/masa23/items/e781124a7e0305bc40c4)
+- [Big Sky :: golang では変数の宣言位置が大事](http://mattn.kaoriya.net/software/lang/go/20170406003909.htm)
 
 ### 文字列操作または変換
 

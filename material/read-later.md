@@ -6,8 +6,8 @@
 - [Foresight](http://www.fsight.jp/list/feed/rss) : フィード
 - [シロクマの屑籠](http://p-shirokuma.hatenadiary.com/feed) : フィード
 - [Announcement of LibreOffice 5.2.6](https://blog.documentfoundation.org/blog/2017/03/09/libreoffice-5-2-6/)
-
 - [ProtonVPN Support - Get help for secure VPN](https://protonvpn.com/support/)
+
 - [Doxygen の使いかた – アカベコマイリ](http://akabeko.me/blog/2012/01/doxygen/)
     - [Graphviz | Graphviz - Graph Visualization Software](http://www.graphviz.org/)
         - [Download | Graphviz - Graph Visualization Software](http://www.graphviz.org/Download.php) : 最新版は 2.38
@@ -39,6 +39,8 @@
 - [WALNUT: Acoustic Attacks on MEMS Sensors](https://spqr.eecs.umich.edu/walnut/)
     - [Acoustic Attack Against Accelerometers - Schneier on Security](https://www.schneier.com/blog/archives/2017/04/acoustic_attack.html)
 - [Androidに標的型マルウェア、iOSへの攻撃と類似点 - ZDNet Japan](https://japan.zdnet.com/article/35099258/)
+- [Hackers Are Emptying ATMs With a Single Drilled Hole and $15 Worth of Gear | WIRED](https://www.wired.com/2017/04/hackers-emptying-atms-drill-15-worth-gear/)
+    - [Clever Physical ATM Attack - Schneier on Security](https://www.schneier.com/blog/archives/2017/04/clever_physical.html)
 
 ### 天文関連
 
@@ -49,6 +51,9 @@
 - [ダークエネルギーがなくても宇宙の加速膨張は説明可能 - AstroArts](http://www.astroarts.co.jp/article/hl/a/9044_darkenergy)
 - [X線の激しい閃光で発見された新種の謎の天体爆発 | Kavli IPMU-カブリ数物連携宇宙研究機構](http://www.ipmu.jp/ja/20170331-Chandra-CDF-S)
 - [トピックス - 宇宙ライター林公代の視点 (23) : 銀河にひそむ超巨大ブラックホール](http://subarutelescope.org/Topics/2017/04/03/j_index.html)
+- [探査機「カッシーニ」のグランドフィナーレ - AstroArts](http://www.astroarts.co.jp/article/hl/a/9047_cassini)
+- [ボーイング、新たな月・火星有人探査構想を発表 | 月探査情報ステーション](http://moonstation.jp/blog/lunarexp/boeing-annouces-new-deep-space-transit-and-transport-system-for-future-moon-and-mars-missions)
+- [特集・ブラックホール撮影に挑む第1回 地球サイズの巨大望遠鏡プロジェクト：EHTとGMVA - ニュース＆コラム - アルマ望遠鏡 国立天文台](http://alma.mtk.nao.ac.jp/j/news/alma/2017/04051_ehtgmva.html)
 
 ### その他
 
@@ -74,6 +79,19 @@
 - [特撮のロケ現場でババーン！と爆破結婚写真を撮ってきた - デイリーポータルZ：@nifty](http://portal.nifty.com/kiji/170403199224_1.htm)
 - [TSUTAYAが不振出版社を買い続ける狙い | メディア業界 | 東洋経済オンライン | 経済ニュースの新基準](http://toyokeizai.net/articles/-/166250)
 - [“単行本と文庫本の間”のニーズに応える電子書籍新レーベル「角川ebook」「角川ebooknf」創刊 -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/1053234.html)
+- [「CiNiiから論文が消えた」　研究者に困惑広がる - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1704/05/news086.html)
+- [VMware、vCloud Air事業の売却を発表。自社でデータセンターを展開する戦略から撤退、クラウドを仮想化するサービス事業者へ － Publickey](http://www.publickey1.jp/blog/17/vmwarevcloud_air.html)
+- [ShopifyのBurstは無料の素材写真サイト、ネット・ショップの内外装用に無難できれいな画像を集める | TechCrunch Japan](http://jp.techcrunch.com/2017/04/04/20170403shopifys-burst-is-a-new-free-stock-photography-resource/)
+- [【西田宗千佳のRandomTracking】完成近づく電子ペーパー採用楽譜専用端末「GVIDO」。発売は9月に - AV Watch](http://av.watch.impress.co.jp/docs/series/rt/1053005.html)
+- [Mozilla、「Thunderbird」v52.0を公開 ～新機能と改善を多く含んだメジャーバージョン - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1053260.html) : 脆弱性の修正はアナウンスされていない
+- [グーグル、自社の最新SDN関連技術「Espresso」の概要を明らかに - ZDNet Japan](https://japan.zdnet.com/article/35099280/)
+- [Google、コンテナに最適化したオープンソースの「Container-Optimized OS」正式版をリリース。Chromium OSをベース － Publickey](http://www.publickey1.jp/blog/17/googlecontainer-optimized_oschromium_os.html)
+- [グーグル、独自のAI用チップ「TPU」は「CPUやGPUの15～30倍高速」 - CNET Japan](https://japan.cnet.com/article/35099335/)
+- [無料で使えるオンラインストレージと追加容量の値段 - 半地下備忘録](http://blog.0108note.com/entry/2017/04/06/090000)
+- [「言葉」と「現実」と「人間」の関係を結びなおすために〜「被災者の文学」という企投 « マガジン航[kɔː]](http://magazine-k.jp/2017/04/06/literature-after-disaster/)
+- [UIデザインにおけるボタン:スタイルの進化とベストプラクティス | デザイン | POSTD](http://postd.cc/buttons-in-ui-design-the-evolution-of-style-and-best-practices/)
+- [ニュース解説 - NTTデータ、TERASOLUNAを捨てる：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/14/346926/040400918/?rt=nocnt)
+- [ロシア「地下鉄爆破テロ」：イスラム系移民の「不満」も一因か：フォーサイト編集部 | ロシアの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42172)
 
 
 ## Free Culture and CC0
