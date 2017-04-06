@@ -33,12 +33,12 @@ Web 版のほか各種携帯端末用のアプリが揃っていて使い勝手�
 ただ， [Simplenote] は良くも悪くもプレーンテキストのエディタで，まとまった情報を整理して書こうとするとイマイチである。
 しかし仕事でもないのにワープロなんか使いたくないし，簡単な構造化テキストであれば markdown で書けた方がいい。
 
-で， markdown なテキストが書ける SaaS 型のエディタツールがないかなぁ，と思っていたのだが，どうも [HackHD] が良さげな感じである。
+で， markdown なテキストが書ける SaaS 型のエディタツールがないかなぁ，と思っていたのだが，どうも [HackMD] が良さげな感じである。
 
 - [HackMD - 共同編集できるMarkdownノート](https://hackmd.io/)
 - [hackmdio/hackmd: Realtime collaborative markdown notes on all platforms.](https://github.com/hackmdio/hackmd/)
 
-[HackHD] の特徴を以下に列挙してみる。
+[HackMD] の特徴を以下に列挙してみる。
 
 - MIT ライセンス。 Docker イメージも用意されていてオンプレミスな運用もできる
 - [hackmd.io](https://hackmd.io/ "HackMD - 共同編集できるMarkdownノート") で提供される SaaS 版は以下の通り
@@ -73,7 +73,7 @@ Web 版のほか各種携帯端末用のアプリが揃っていて使い勝手�
 - [クラウド上にMarkdownで手軽にメモを残せる無料ツール「HackMD」が便利](https://nelog.jp/hackmd)
 
 [Simplenote]: https://simplenote.com/
-[HackHD]: https://hackmd.io/ "HackMD - 共同編集できるMarkdownノート"
+[HackMD]: https://hackmd.io/ "HackMD - 共同編集できるMarkdownノート"
 [imgur]: http://imgur.com/ "Imgur: The most awesome images on the Internet"
 [graphviz]: http://www.graphviz.org/ "Graphviz | Graphviz - Graph Visualization Software"
 [js-sequence-diagrams]: https://bramp.github.io/js-sequence-diagrams/ "js-sequence-diagrams by bramp"
