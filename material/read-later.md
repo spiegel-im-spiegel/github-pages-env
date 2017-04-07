@@ -1,30 +1,13 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-- [Github Pagesでホスティングしつつ、CloudFrontを使ってサイトをSSL対応の独自ドメインにする - Qiita](http://qiita.com/kechol/items/9609e1ab4a673e05b613)
-- [AVG、「AVG AntiVirus FREE」など主力製品の最新版を公開。Avastと統合後初のリリース - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1039393.html)
-- [The Go Programming Language Blog](https://blog.golang.org/feed.atom) : フィード
-- [Foresight](http://www.fsight.jp/list/feed/rss) : フィード
-- [シロクマの屑籠](http://p-shirokuma.hatenadiary.com/feed) : フィード
-- [Announcement of LibreOffice 5.2.6](https://blog.documentfoundation.org/blog/2017/03/09/libreoffice-5-2-6/)
-- [ProtonVPN Support - Get help for secure VPN](https://protonvpn.com/support/)
-
-- [Doxygen の使いかた – アカベコマイリ](http://akabeko.me/blog/2012/01/doxygen/)
-    - [Graphviz | Graphviz - Graph Visualization Software](http://www.graphviz.org/)
-        - [Download | Graphviz - Graph Visualization Software](http://www.graphviz.org/Download.php) : 最新版は 2.38
-    - [Doxygen: Main Page](http://www.stack.nl/~dimitri/doxygen/)
-        - [Doxygen: Downloads](http://www.stack.nl/~dimitri/doxygen/download.html) : 最新版は 1.8.13
-- [ソースコードからドキュメントをDoxygenで生成する](http://alctail.sakura.ne.jp/tip/cplus_kannrenn/cplusplus/doc.shtml)
-
-
-## ブックマーク
-
-### Age of Trump
+## Age of Trump
 
 - [米政府、専門職ビザの発給要件を厳格化--IT企業に影響か - CNET Japan](https://japan.cnet.com/article/35099211/)
 - [個人情報保護巡る米プロバイダー規制撤廃、大統領が法案に署名 | ロイター](http://jp.reuters.com/article/usa-internet-trump-idJPKBN176015)
 - [インターネットプロバイダーのプライバシー保護要件を無にする決定にトランプ大統領が署名 | TechCrunch Japan](http://jp.techcrunch.com/2017/04/04/20170403trump-signs-resolution-removing-privacy-requirements-for-internet-providers/)
+- [バノン氏、米NSC常任から外れる 新補佐官が人事再編　写真2枚　国際ニュース：AFPBB News](http://www.afpbb.com/articles/-/3124075)
 
-### セキュリティ関連
+## セキュリティ関連
 
 - [「Galaxy S8」の顔認証は写真でだませる（デモ動画あり） - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1704/03/news051.html)
 - [総務省｜「クラウドサービスの安全・信頼性に係る情報開示指針」の改定](http://www.soumu.go.jp/menu_news/s-news/01ryutsu02_02000167.html)
@@ -41,8 +24,12 @@
 - [Androidに標的型マルウェア、iOSへの攻撃と類似点 - ZDNet Japan](https://japan.zdnet.com/article/35099258/)
 - [Hackers Are Emptying ATMs With a Single Drilled Hole and $15 Worth of Gear | WIRED](https://www.wired.com/2017/04/hackers-emptying-atms-drill-15-worth-gear/)
     - [Clever Physical ATM Attack - Schneier on Security](https://www.schneier.com/blog/archives/2017/04/clever_physical.html)
+- [スパイが諜報活動で使用する専用アプリ「Tearline」 - GIGAZINE](http://gigazine.net/news/20170407-tearline-spy-app/)
+- [「Windows 10」のプライバシー設定についてMicrosoftが説明 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1704/06/news094.html)
+    - [MS、「Windows 10」で収集する診断データに関するさらなる詳細を説明 - ZDNet Japan](https://japan.zdnet.com/article/35099346/)
+- [Avast、日本法人を設立へ ～カスタマーサポートの品質向上を目指す - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1053544.html)
 
-### 天文関連
+## 天文関連
 
 - [「暗黒物質」は存在しない？ 大胆な仮説を提唱した物理学者の長き闘い｜WIRED.jp](http://wired.jp/2017/04/02/case-dark-matter/)
     - [量子ビットから生まれる時空 | 日経サイエンス](http://www.nikkei-science.com/201704_040.html)
@@ -55,7 +42,7 @@
 - [ボーイング、新たな月・火星有人探査構想を発表 | 月探査情報ステーション](http://moonstation.jp/blog/lunarexp/boeing-annouces-new-deep-space-transit-and-transport-system-for-future-moon-and-mars-missions)
 - [特集・ブラックホール撮影に挑む第1回 地球サイズの巨大望遠鏡プロジェクト：EHTとGMVA - ニュース＆コラム - アルマ望遠鏡 国立天文台](http://alma.mtk.nao.ac.jp/j/news/alma/2017/04051_ehtgmva.html)
 
-### その他
+## その他
 
 - [法律・条約による核兵器の制御：冨澤暉 | 軍事のコモンセンス | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42159)
 - [コラム：「絶望死」が増加する米国社会の暗い闇 | ロイター](http://jp.reuters.com/article/usa-death-failure-column-idJPKBN17218X)
@@ -92,10 +79,10 @@
 - [UIデザインにおけるボタン:スタイルの進化とベストプラクティス | デザイン | POSTD](http://postd.cc/buttons-in-ui-design-the-evolution-of-style-and-best-practices/)
 - [ニュース解説 - NTTデータ、TERASOLUNAを捨てる：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/14/346926/040400918/?rt=nocnt)
 - [ロシア「地下鉄爆破テロ」：イスラム系移民の「不満」も一因か：フォーサイト編集部 | ロシアの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42172)
-
-
-## Free Culture and CC0
-
-- [Understanding Free Cultural Works - Creative Commons](https://creativecommons.org/share-your-work/public-domain/freeworks/)
-- [Approved for Free Cultural Works - Creative Commons](https://creativecommons.org/2008/02/20/approved-for-free-cultural-works/)
-- [CC0 日本語版の公開 | クリエイティブ・コモンズ・ジャパン](https://creativecommons.jp/2015/05/01/cc0-jpver/)
+- [EU離脱交渉、英国がいくら出すかがカギ：日経ビジネスオンライン](http://business.nikkeibp.co.jp/atcl/opinion/15/108556/040600009/?rt=nocnt)
+- [インテルとPreferred Networks、深層学習フレームワーク「Chainer」で協業 - CNET Japan](https://japan.cnet.com/article/35099356/)
+- [国立がん研究センター、治験結果の資料確認を遠隔で実行できるシステムをAzure上に構築 - ZDNet Japan](https://japan.zdnet.com/article/35099338/)
+- [Ubuntuデスクトップ環境がUnityからGNOMEに変更へ--スマートフォン事業への投資も終了 - ZDNet Japan](https://japan.zdnet.com/article/35099391/)
+- [Microsoft、「.NET Framework 4.7」を発表 ～Windows Formsの高DPIサポートなどを追加 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1053521.html)
+- [外国語が話せなくても会話可能--マイクロソフトのリアルタイム翻訳が日本語に対応 - CNET Japan](https://japan.cnet.com/article/35099405/)
+- [まさかのNP困難？「九九って36種類しか数がないの不思議だよな」から始まる数学談義 - Togetterまとめ](https://togetter.com/li/1098244)
