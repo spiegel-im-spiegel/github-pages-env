@@ -1,8 +1,8 @@
 +++
-date = "2017-04-07T15:43:51+09:00"
-title = "初歩のソート"
-description = "description"
-draft = true
+date = "2017-04-07T20:01:34+09:00"
+title = "ソートを使う"
+description = "ソートをアルゴリズムまで言及すると非常に深いテーマになるのだが，今回は標準の sort パッケージの使い方に絞って「こんな感じ」で説明していく。"
+draft = false
 tags = ["golang", "programming", "sort"]
 
 [author]
@@ -68,7 +68,7 @@ $ go run sort1.go
 ```
 
 では，降順（大きい値から小さい値へ順に並べること）で並べるにはどうすればいいだろう。
-これはちょっと面倒くさくなる。
+これはちょっとだけ面倒くさくなる。
 
 ```go
 package main
@@ -106,7 +106,7 @@ $ go run sort2.go
 1.000000 0.815000 0.107000 0.055000
 ```
 
-実は最初に出た [`sort`].`Float64s()` 関数は内部で [`sort`].`Sort()` 関数を読んでいる。
+実は最初に出た [`sort`].`Float64s()` 関数は内部で [`sort`].`Sort()` 関数を呼んでいる。
 
 ```go
 // Float64s sorts a slice of float64s in increasing order.
@@ -165,7 +165,7 @@ func (a ByMass) Less(i, j int) bool { return a[i].Mass < a[j].Mass }
 func (a ByMass) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
 ```
 
-つまり `Mass` フィールドの昇順に並べるわけだ。
+つまり `Mass` フィールド値の昇順に並べるわけだ。
 
 全体ではこんな感じになるだろう。
 
@@ -224,7 +224,7 @@ Mercury Mars Venus Earth
 
 ### `sort.Slice()` 関数を使う場合 
 
-[slice] 限定であるが， [`sort`].`Slice()` 関数を使えば Sorter インタフェースなしでソートを行うことができる。
+[slice] 限定であるが， [`sort`].`Slice()` 関数を使えば Sorter インタフェースを定義しなくてもソートを行うことができる。
 [`sort`].`Slice()` 関数の定義は以下の通り。
 
 ```go
@@ -276,7 +276,7 @@ func main() {
 [`sort`].`Slice()` 関数の第2引数が関数閉包（closure）になっている点に注意[^c]。
 これなら第2引数の関数の内容を変えれば任意の規則でソートを行うことができる。
 
-[^c]: つか， [Go 言語]の関数は全て関数閉包なんだけどね。
+[^c]: つか， [Go 言語]の関数は全て関数閉包として動作するんだけどね。
 
 結果は Sorter インタフェースがある場合と同じく
 
