@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T23:59:59+09:00"
-update = "2017-04-07T09:12:21+09:00"
+update = "2017-04-11T10:04:59+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark", "package"]
@@ -34,6 +34,7 @@ title = "Go 言語に関するブックマーク（サンプルコード，パ�
 - [Golangのcontext.Valueの使い方 | SOTA](http://deeeet.com/writing/2017/02/23/go-context-value/)
 - [contextの使い方 - Qiita](http://qiita.com/taizo/items/69d3de8622eabe8da6a2)
 - [context.Contextでリクエストスコープな値を持ち回す - Qiita](http://qiita.com/hogedigo/items/a26d816395b7545ce5f8) : [context](https://golang.org/pkg/context/) の使い方って（名前からいって）本来こっちだよね
+- [goroutine にシグナルを送信する - Qiita](http://qiita.com/Kei-Kamikawa/items/620f9504daf2ec53f0b5)
 
 ## Logging
 
@@ -79,6 +80,7 @@ title = "Go 言語に関するブックマーク（サンプルコード，パ�
 - [Golangで標準入力がパイプで渡されたものか判定する - Qiita](http://qiita.com/tanksuzuki/items/e712717675faf4efb07a)
 - [Go言語: ファイルの存在をちゃんとチェックする実装? - Qiita](http://qiita.com/suin/items/b9c0f92851454dc6d461)
 - [Golangで、ファイル一覧取得（最新順出力） - Qiita](http://qiita.com/shinofara/items/e5e78e6864a60dc851a6)
+- [大きなファイルのアップロードを省メモリで行いたい(io.Pipeを使う) - Qiita](http://qiita.com/m0a/items/bba395b2fc9cd160e441)
 
 ## ソートアルゴリズム
 
@@ -257,6 +259,7 @@ title = "Go 言語に関するブックマーク（サンプルコード，パ�
 - [Re:ゼロから始めないAPNGエンコーダ - Qiita](http://qiita.com/cia_rana/items/18c78e0233e117b22af6)
 - [Go言語のFunctional Option Pattern - Qiita](http://qiita.com/weloan/items/56f1c7792088b5ede136)
 - [Go言語を使用して簡単なLineBotを作る - Qiita](http://qiita.com/sao_rio/items/8801b78ba60acbb0ae41)
+- [golangのGUIパッケージgo-gtkを試す - Qiita](http://qiita.com/intelf___/items/2207c02c306a495d99e6)
 
 ## 参考図書
 
