@@ -1,4 +1,23 @@
-# 「あとでみる」ブックマーク（Temporary）
++++
+date = "2017-04-22T18:33:03+09:00"
+description = "「200行のコードへのブロックチェーンの実装」他"
+draft = false
+title = "2017-04-22 のブックマーク"
+
+[author]
+  avatar = "/images/avatar.jpg"
+  facebook = "spiegel.im.spiegel"
+  flattr = "spiegel"
+  flickr = "spiegel"
+  github = "spiegel-im-spiegel"
+  instagram = "spiegel_2007"
+  license = "by-sa"
+  linkedin = "spiegelimspiegel"
+  name = "Spiegel"
+  tumblr = "spiegel-im-spiegel"
+  twitter = "spiegel_2007"
+  url = "http://www.baldanders.info/spiegel/profile/"
++++
 
 ## Age of Trump
 
@@ -46,5 +65,3 @@
 - [Twitterの身売り先は“ユーザー自身”？　5月の株主総会で提案か - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1704/14/news139.html)
 - [残りの私たちにとって、Rが最高のプログラミング言語である理由 | 開発手法・プロジェクト管理 | POSTD](http://postd.cc/why-r-stats-is-the-best/)
 - [私が書いた最速のハッシュテーブル – PART 2 | プログラミング | POSTD](http://postd.cc/i-wrote-the-fastest-hashtable/)
-
-(end of file)

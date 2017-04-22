@@ -1,5 +1,6 @@
 +++
 date = "2017-04-16T23:48:58+09:00"
+update = "2017-04-22T17:57:27+09:00"
 title = "GW 過ぎたらみんな忘れてるに100カノッサ"
 tags = ["mastodon", "twitter", "communication"]
 description = "んー。要するに今回の「お祭り」は，どこぞの院生が Mastodon のインスタンスを立ち上げたらうっかりユーザが殺到しちゃって，さくらや Azure の中の人なんかも巻き込んで今に至る。ということでおっけ？"
@@ -64,6 +65,10 @@ Twitter と違って「名前」の問題で悩む必要がないだけでもメ
 - [Android用「マストドン」アプリ「Tusky」の利用方法とエラー対策](http://did2memo.net/2017/04/14/mastodon-android-app/)
 - [Mastodon は自分のドメインでIDを持つことが大事。「リモートフォロー」の価値を最大化するべし。 ｜ 諸多日記](https://isid.ai/diary/2017/04/14/1179/)
 - [OStatusの仕様をかいつまんで適当に和訳するよ - hito_asaの日記](http://hitoasa.hateblo.jp/entry/20101013/1286950786)
+- [本の虫: ここらでもう一度マストドンについて語っておくか](https://cpplover.blogspot.jp/2017/04/blog-post_20.html)
+- [日本のネットを騒がせる「マストドン」、その課題と可能性をえふしん氏に聞いた | TechCrunch Japan](http://jp.techcrunch.com/2017/04/20/mastodon/)
+- [企業は安易なMastodonインスタンスの運用を避けるべきでは? - ただのにっき(2017-04-21)](http://sho.tdiary.net/20170421.html)
+- [gnusocial や mastodon の哲学 - 何とは言わない天然水飲みたさ](https://blog.cardina1.red/2017/04/13/federated-social-web/)
 
 [Mastodon]: https://github.com/tootsuite/mastodon "tootsuite/mastodon: A GNU Social-compatible microblogging server"
 [mstdn.jp]: https://mstdn.jp/
