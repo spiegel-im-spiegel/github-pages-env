@@ -1,6 +1,6 @@
 +++
 date = "2017-04-24T09:42:55+09:00"
-description = "description"
+description = "ちょうど2年前に書いた記事の再掲載です。マジで英語不得手なものですみません。"
 draft = false
 tags = ["language"]
 title = "“regist” という単語は存在しない"
