@@ -21,5 +21,6 @@
 - [「共謀罪」をめぐる駆け引きと「民進党」混迷の行方 | 深層レポート　日本の政治 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42215)
 - [陸自南スーダン撤退は絶妙なタイミングではあった：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42227)
 - [ジブリ人気が根強いフランスで「君の名は。」はどう受け止められたか　フランス人編集者・ジャーナリストに聞いてみた - ねとらぼ](http://nlab.itmedia.co.jp/nl/articles/1704/22/news016.html)
+- [GitLab 9.1リリース。バーンダウンチャート登場、クラスタの一部だけにデプロイできるCanary Deploymentsなど新機能 － Publickey](http://www.publickey1.jp/blog/17/gitlab_91canary_deployments.html)
 
 (end of file)
