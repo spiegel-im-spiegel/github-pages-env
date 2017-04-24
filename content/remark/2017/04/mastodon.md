@@ -1,6 +1,6 @@
 +++
 date = "2017-04-16T23:48:58+09:00"
-update = "2017-04-22T17:57:27+09:00"
+update = "2017-04-24T09:18:08+09:00"
 title = "GW 過ぎたらみんな忘れてるに100カノッサ"
 tags = ["mastodon", "twitter", "communication"]
 description = "んー。要するに今回の「お祭り」は，どこぞの院生が Mastodon のインスタンスを立ち上げたらうっかりユーザが殺到しちゃって，さくらや Azure の中の人なんかも巻き込んで今に至る。ということでおっけ？"
@@ -69,6 +69,11 @@ Twitter と違って「名前」の問題で悩む必要がないだけでもメ
 - [日本のネットを騒がせる「マストドン」、その課題と可能性をえふしん氏に聞いた | TechCrunch Japan](http://jp.techcrunch.com/2017/04/20/mastodon/)
 - [企業は安易なMastodonインスタンスの運用を避けるべきでは? - ただのにっき(2017-04-21)](http://sho.tdiary.net/20170421.html)
 - [gnusocial や mastodon の哲学 - 何とは言わない天然水飲みたさ](https://blog.cardina1.red/2017/04/13/federated-social-web/)
+- [【さくらのクラウドで】マストドンおひとり様用インスタンスを作ってみた【スタートアップスクリプト】 - 脱SEして文筆家になった人](http://yotsumao.hatenablog.com/entry/2017/04/19/%E3%80%90%E3%81%95%E3%81%8F%E3%82%89%E3%81%AE%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%81%A7%E3%80%91%E3%83%9E%E3%82%B9%E3%83%88%E3%83%89%E3%83%B3%E3%81%8A%E3%81%B2%E3%81%A8%E3%82%8A%E6%A7%98%E7%94%A8)
+- [MastodonをAWSでシュッと動かすやつ - ✘╹◡╹✘](http://r7kamura.hatenablog.com/entry/2017/04/20/014606)
+- [Mastodon API gemを使って投稿する - Qiita](http://qiita.com/takahashim/items/a8c0eb3a75d366cfe87b)
+- [日本のマストドン インスタンス一覧 - Qiita](http://qiita.com/cv_k/items/8ecafea3ce7dd720cec6)
+- [Mastodon インスタンスの画像や動画の保存先をクラウドストレージ （Amazon S3） に移行した話 | WWW WATCH](https://hyper-text.org/archives/2017/04/mastodon-instance-with-amazon-s3.shtml)
 
 [Mastodon]: https://github.com/tootsuite/mastodon "tootsuite/mastodon: A GNU Social-compatible microblogging server"
 [mstdn.jp]: https://mstdn.jp/
