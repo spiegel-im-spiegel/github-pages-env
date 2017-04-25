@@ -2,11 +2,12 @@
 
 ## Age of Trump
 
-- [北朝鮮に対してアメリカが持つオプション : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/16491389.html)
 
 ## セキュリティ関連
 
 - [NSAから流出のバックドア「DOUBLEPULSAR」、世界で感染急増 - ZDNet Japan](https://japan.zdnet.com/article/35100240/?utm_source=dlvr.it&utm_medium=facebook)
+- [Chrome, Firefox, and Opera users beware: This isn’t the apple.com you want | Ars Technica](https://arstechnica.com/security/2017/04/chrome-firefox-and-opera-users-beware-this-isnt-the-apple-com-you-want/)
+    - [Chrome And Firefox Adding Protection Against This Nasty Phishing Trick | McAfee Blogs](https://securingtomorrow.mcafee.com/business/neutralize-threats/chrome-and-firefox-adding-protection-against-this-nasty-phishing-trick/)
 
 ## 天文関連
 
@@ -30,5 +31,7 @@
 - [とにかく軽い、「Facebook Lite」アプリが日本でも利用可能に | アプリオ](http://appllio.com/20170424-9074-facebook-lite)
 - [メルカリに相次ぐ現金・チャージ済みSuicaの出品——違反商品の監視を強化へ](http://jp.techcrunch.com/2017/04/25/mercari-money-suica/)
 - [私はC言語を知らない | コンピュータサイエンス | POSTD](http://postd.cc/i-do-not-know-c/)
+- [トルコがイラク北西部シンジャールを空爆：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42247)
+- [北朝鮮に対してアメリカが持つオプション : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/16491389.html)
 
 (end of file)
