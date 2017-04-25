@@ -1,6 +1,6 @@
 +++
 date = "2017-04-16T23:48:58+09:00"
-update = "2017-04-24T09:18:08+09:00"
+update = "2017-04-25T18:57:12+09:00"
 title = "GW 過ぎたらみんな忘れてるに100カノッサ"
 tags = ["mastodon", "twitter", "communication"]
 description = "んー。要するに今回の「お祭り」は，どこぞの院生が Mastodon のインスタンスを立ち上げたらうっかりユーザが殺到しちゃって，さくらや Azure の中の人なんかも巻き込んで今に至る。ということでおっけ？"
@@ -74,6 +74,8 @@ Twitter と違って「名前」の問題で悩む必要がないだけでもメ
 - [Mastodon API gemを使って投稿する - Qiita](http://qiita.com/takahashim/items/a8c0eb3a75d366cfe87b)
 - [日本のマストドン インスタンス一覧 - Qiita](http://qiita.com/cv_k/items/8ecafea3ce7dd720cec6)
 - [Mastodon インスタンスの画像や動画の保存先をクラウドストレージ （Amazon S3） に移行した話 | WWW WATCH](https://hyper-text.org/archives/2017/04/mastodon-instance-with-amazon-s3.shtml)
+- [Masto.Host - Hosting for Mastodon Instances](https://masto.host/) : ホスティングサービス。5ユーロ/月より
+- [マストドンのタイムラインをgo-mastodon のWebSocketを使用し取得する - Qiita](http://qiita.com/S-YOU/items/cf677ae282bd6f38fbbb)
 
 [Mastodon]: https://github.com/tootsuite/mastodon "tootsuite/mastodon: A GNU Social-compatible microblogging server"
 [mstdn.jp]: https://mstdn.jp/

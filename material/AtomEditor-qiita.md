@@ -380,6 +380,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - [他パッケージのモジュールをロードする - Qiita](http://qiita.com/from_kyushu/items/2082f51416acd0bfab0a)
 - [書き捨てファイルを作成するtempfile Packageをリリースした - Qiita](http://qiita.com/from_kyushu/items/0b31e5949da1f03bc690) : なんか上手く動かない
 - [Atomで翻訳系API呼び出すパッケージを作った - Qiita](http://qiita.com/MikamiHiroaki/items/7620023e6a870ac17e90)
+- [narrow つくった - Qiita](http://qiita.com/t9md/items/b719e8cb98627f4b6263)
 
 ### テーマを作ってみた
 
