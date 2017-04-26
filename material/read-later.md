@@ -15,6 +15,7 @@
 - [JAXAとフランス宇宙機関、火星衛星サンプルリターンミッション計画（MMX）で協力へ | 月探査情報ステーション](http://moonstation.jp/blog/marsexp/mmx/jaxa-and-cnes-signed-an-agreement-of-mmx-cooperation)
 - [NASAが発表した「太陽系の海に関する知見」について - クマムシ博士のむしブロ](http://horikawad.hatenadiary.com/entry/2017/04/14/181305)
 - [アルマ望遠鏡科学観測サイクル5に1700件以上の観測提案 - ニュース＆コラム - アルマ望遠鏡 国立天文台](http://alma.mtk.nao.ac.jp/j/news/info/2017/042551700.html)
+- [土星探査機カッシーニ、衛星タイタンへの最後の最接近を実施 | 月探査情報ステーション](http://moonstation.jp/blog/planetaryexp/cassini/cassini-makes-the-last-closest-flyby-for-titan)
 
 ## その他
 
@@ -33,5 +34,6 @@
 - [私はC言語を知らない | コンピュータサイエンス | POSTD](http://postd.cc/i-do-not-know-c/)
 - [トルコがイラク北西部シンジャールを空爆：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42247)
 - [北朝鮮に対してアメリカが持つオプション : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/16491389.html)
+- [時計が高精度になるほど、時間はより曖昧になる：研究結果｜WIRED.jp](http://wired.jp/2017/04/24/entanglement-of-quantum-clocks/)
 
 (end of file)
