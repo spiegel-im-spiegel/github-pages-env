@@ -1,5 +1,6 @@
 +++
 date = "2017-04-25T22:16:55+09:00"
+update = "2017-04-29T17:03:45+09:00"
 description = "この手の攻撃の回避法だが， Chrome についてはバージョン 58 以降であれば対応済みである。"
 draft = false
 tags = ["security", "risk", "web", "unicode", "punycode"]
@@ -40,8 +41,10 @@ func main() {
 }
 ```
 
-見た目では分かりにくいかもしれないが，最初の “apple" は US ASCII で2番目の “аррӏе" はキリル文字なんだそうだ。
+見た目では分かりにくいかもしれないが，最初の “apple" は US ASCII で2番目の “аррӏе" はキリル文字なんだそうだ[^grp]。
 このコードの実行結果は以下の通り。
+
+[^grp]: キリル文字の “аррӏе" の並びに意味はない。ここでは単純に字形の類似性のみに着目して考える。
 
 ```text
 U+0061 'a'
@@ -71,7 +74,7 @@ PoC として https://www.xn--80ak6aa92e.com/ が用意されているので，�
 どういうロジックなのかは不明[^idn]。
 Firefox については，設定の ` network.IDN_show_punycode` 項目[^cfg] を true にすれば強制的に [punycode] 表記になる。
 
-[^idn]: たとえば Chrome 58 でも「情報処理試験.jp（xn--n9q36mh1hnxuksz7wt.jp）」はちゃんと Unicode 表記になる。
+[^idn]: Firefox のように [punycode] をまるっと無視するのではないようだ。たとえば Chrome 58 でも「情報処理試験.jp（`xn--n9q36mh1hnxuksz7wt.jp`）」はちゃんと Unicode 表記になる。
 [^cfg]: `about:config` から設定する。 “punycode" で検索すれば一発で出てくる。
 
 個人的には国際化ドメイン名は要らんのじゃないかと思うのだが，どうなんだろうねぇ。

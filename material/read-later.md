@@ -8,6 +8,8 @@
 - [NSAから流出のバックドア「DOUBLEPULSAR」、世界で感染急増 - ZDNet Japan](https://japan.zdnet.com/article/35100240/?utm_source=dlvr.it&utm_medium=facebook)
 - [Chrome, Firefox, and Opera users beware: This isn’t the apple.com you want | Ars Technica](https://arstechnica.com/security/2017/04/chrome-firefox-and-opera-users-beware-this-isnt-the-apple-com-you-want/)
     - [Chrome And Firefox Adding Protection Against This Nasty Phishing Trick | McAfee Blogs](https://securingtomorrow.mcafee.com/business/neutralize-threats/chrome-and-firefox-adding-protection-against-this-nasty-phishing-trick/)
+- [米国ISAO関連文書の翻訳：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/publications/isao/index.html)
+- [情報セキュリティ10大脅威 2017：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/vuln/10threats2017.html)
 
 ## 天文関連
 
@@ -35,5 +37,7 @@
 - [トルコがイラク北西部シンジャールを空爆：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42247)
 - [北朝鮮に対してアメリカが持つオプション : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/16491389.html)
 - [時計が高精度になるほど、時間はより曖昧になる：研究結果｜WIRED.jp](http://wired.jp/2017/04/24/entanglement-of-quantum-clocks/)
+- [Excel方眼紙を読み込んでWebアプリ化する「Forguncy」、新バージョン「Forguncy 3」が登場。Excelデータ一括取り込みやPDF帳票出力など新機能 － Publickey](http://www.publickey1.jp/blog/17/excelwebforguncyforguncy_3excelpdf.html)
+- [数学ガールの結城浩先生に会ってきたよ！──わかばちゃんが行くオフィス訪問マンガ｜CodeIQ MAGAZINE](https://codeiq.jp/magazine/2017/04/51074/)
 
 (end of file)
