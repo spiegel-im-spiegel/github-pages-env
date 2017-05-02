@@ -1,8 +1,9 @@
 +++
 date = "2015-12-13T00:21:37+09:00"
+update = "2017-05-02T14:25:02+09:00"
 description = "「あかつき」金星の衛星になる / State of the Commons 2015 / 「往復書簡・クールジャパンを超えて」 / 新潮社 Foresight に入会した"
 draft = false
-tags = ["astronomy", "jaxa", "akatsuki", "venus", "creative-commons", "information"]
+tags = ["astronomy", "jaxa", "akatsuki", "venus", "creative-commons", "free-culture", "sotc", "information"]
 title = "週末スペシャル： 「あかつき」金星の衛星になる"
 
 [author]
