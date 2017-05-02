@@ -3,7 +3,7 @@ date = "2017-05-02T14:28:57+09:00"
 description = "State of the Commons の2016年版が出ないなぁと思ってたら出てました。おそらく今年のグローバルサミットに合わせて公開されたと思われ。"
 draft = false
 tags = ["creative-commons", "free-culture", "sotc"]
-title = "state of the commons 2016"
+title = "State of the Commons 2016"
 
 [author]
   avatar = "/images/avatar.jpg"
