@@ -2,6 +2,7 @@
 tags = ["golang", "programming", "language"]
 description = "Go 言語コンパイラのバージョン 1.8 がリリースされた。"
 date = "2017-02-19T15:45:53+09:00"
+update = "2017-05-02T12:35:52+09:00"
 title = "Go 言語 1.8 がリリース"
 draft = false
 
@@ -55,6 +56,8 @@ draft = false
 ## ブックマーク
 
 - [Go言語がダメな理由 | プログラミング | POSTD](http://postd.cc/why-go-is-not-good/)
+- [Go言語のリアルタイムGC　理論と実践 | プログラミング | POSTD](http://postd.cc/golangs-real-time-gc-in-theory-and-practice/)
+
 - [プログラミング言語 Go](/golang/)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"

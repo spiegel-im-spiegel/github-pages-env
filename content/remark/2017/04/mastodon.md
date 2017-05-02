@@ -1,6 +1,6 @@
 +++
 date = "2017-04-16T23:48:58+09:00"
-update = "2017-04-26T20:58:06+09:00"
+update = "2017-05-02T12:36:16+09:00"
 title = "GW 過ぎたらみんな忘れてるに100カノッサ"
 tags = ["mastodon", "twitter", "communication"]
 description = "んー。要するに今回の「お祭り」は，どこぞの院生が Mastodon のインスタンスを立ち上げたらうっかりユーザが殺到しちゃって，さくらや Azure の中の人なんかも巻き込んで今に至る。ということでおっけ？"
@@ -77,6 +77,7 @@ Twitter と違って「名前」の問題で悩む必要がないだけでもメ
 - [Masto.Host - Hosting for Mastodon Instances](https://masto.host/) : ホスティングサービス。5ユーロ/月より
 - [マストドンのタイムラインをgo-mastodon のWebSocketを使用し取得する - Qiita](http://qiita.com/S-YOU/items/cf677ae282bd6f38fbbb)
 - [Mastodon を CentOS にインストールする (Docker未使用) - Qiita](http://qiita.com/bezeklik/items/1a8530d530613acd665c)
+- [ゼロからはじめるMastodon - さくらのナレッジ](http://knowledge.sakura.ad.jp/knowledge/8591/)
 
 [Mastodon]: https://github.com/tootsuite/mastodon "tootsuite/mastodon: A GNU Social-compatible microblogging server"
 [mstdn.jp]: https://mstdn.jp/
