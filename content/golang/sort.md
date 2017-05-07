@@ -1,6 +1,6 @@
 +++
 date = "2017-04-07T20:01:34+09:00"
-update = "2017-04-08T15:40:24+09:00"
+update = "2017-05-02T14:45:34+09:00"
 title = "ソートを使う"
 description = "ソートをアルゴリズムまで言及すると非常に深いテーマになるのだが，今回は標準の sort パッケージの使い方に絞って「こんな感じ」で説明していく。"
 draft = false
@@ -294,10 +294,11 @@ Mercury Mars Venus Earth
 - [sliceのシャッフル - Qiita](http://qiita.com/sugyan/items/fd7138a756c1a409f5fd) : [Fisher–Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle) というアルゴリズムらしい
 - [Go言語でバイトニックソート実装してみた - Qiita](http://qiita.com/nyamadandan/items/2c82011801b148c98e52)
 - [Goでバケットソートアルゴリズム(ビット列を使用) - Qiita](http://qiita.com/ohkawa/items/269507985b3ae10cbff9)
+- [Goでのアルゴリズムクイックリファレンス第2版(4.1.1 挿入ソート) - Qiita](http://qiita.com/amesho/items/64dcd231038c96345848)
+
 - [interface{} をソートする - Qiita](http://qiita.com/tchssk/items/b61f1f06d22a6232d4c8)
 - [Big Sky :: golang の sort インタフェース難しい問題が解決した](http://mattn.kaoriya.net/software/lang/go/20161004092237.htm)
 - [Go 言語 1.8 がリリース]({{< relref "remark/2017/02/go-1_8-released.md" >}}) : [`sort`].`Slice()` 関数はバージョン 1.8 で導入された
-
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`sort`]: https://golang.org/pkg/sort/ "sort - The Go Programming Language"
