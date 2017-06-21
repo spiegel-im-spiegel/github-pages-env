@@ -1,6 +1,6 @@
 +++
 date = "2015-09-15T21:00:13+09:00"
-update = "2016-10-29T22:12:12+09:00"
+update = "2017-06-21T12:47:36+09:00"
 description = "ATOM Editor に関するメモ。 Windows 環境が前提になっているのであしからず。"
 draft = false
 tags = ["atom", "editor", "tools"]
@@ -322,6 +322,10 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 
 [git-control](https://atom.io/packages/git-control) は GUI で最初の頃は便利だったのだが， [git-plus](https://atom.io/packages/git-plus) が手に馴染んできたら使わなくなった。
 submodule の処理が得意ではないっぽいのもマイナス。
+
+**2017-06-21 追記：** 1.18 でようやく公式に git 機能が組み込まれた。
+
+- [ATOM 1.18 stable がリリース]({{< relref "remark/2017/06/atom-1_18.md" >}})
 
 ### 矩形選択
 
