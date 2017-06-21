@@ -33,7 +33,7 @@ title = "ATOM 1.18 stable リリースで公式に Git 機能に対応"
 
 {{< fig-img src="http://blog.atom.io/img/posts/github-package-git.png" title="Atom 1.18" link="http://blog.atom.io/2017/06/13/atom-1-18.html" width="1560" >}}
 
-Stage や commit/amend や fetch/pull/push といった基本操作はもちろん，hunk[^h] を選択して stage する（`git add -p` 相当）ことも GUI で可能なようだ。
+Stage や commit/amend や fetch/pull/push といった基本操作はもちろん，hunk[^h] を選択して stage すること（`git add -p` 相当）も GUI で可能なようだ。
 よしよし。
 ただし stash や cherry-pick といった細かい操作はできなさそうっぽい？ 
 
@@ -48,7 +48,7 @@ Stage や commit/amend や fetch/pull/push といった基本操作はもちろ�
   'shift-f1': 'git-plus:menu'
 ```
 
-もうひとつの機能である [GitHub] との連携（今のところ pull request の表示のみ？）であるが，これを使うためには access token を取得して [ATOM] に登録する必要がある。
+もうひとつの機能である [GitHub](https://github.com/) との連携（今のところ pull request の表示のみ？）であるが，これを使うためには access token を取得して [ATOM] に登録する必要がある。
 
 - [GitHub「Personal access tokens」の設定方法 - Qiita](http://qiita.com/kz800/items/497ec70bff3e555dacd0)
 
@@ -63,4 +63,4 @@ Stage や commit/amend や fetch/pull/push といった基本操作はもちろ�
 [git]: https://git-scm.com/ "Git"
 [git-diff]: https://atom.io/packages/git-diff
 [git-plus]: https://atom.io/packages/git-plus
-[GitHub]: https://github.com/
+[github]: https://atom.io/packages/github
