@@ -1,6 +1,6 @@
 +++
 date = "2017-03-05T15:28:54+09:00"
-update = "2017-03-06T10:57:38+09:00"
+update = "2017-06-21T16:08:01+09:00"
 title = "2017-03-05 のブックマーク"
 draft = false
 description = "「スペースX、2018年に2名を乗せた有人月周回飛行を実施すると発表」他"
@@ -51,7 +51,7 @@ description = "「スペースX、2018年に2名を乗せた有人月周回飛�
 - [日本の電力消費をすべて太陽光にするとどうなるか](http://thutmose.blog.jp/archives/69589222.html)
 - [「衝突」・「戦闘」をめぐる「言葉遊び」はなぜ生まれるか : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/14255942.html)
 - [Google Spanner のアーキテクチャを知る - Yuichi Murata's Engineering Blog](http://yuichi1004.hatenablog.com/entry/2017/02/26/162204)
-- [Release v0.19 · spf13/hugo](https://github.com/spf13/hugo/releases/tag/v0.19)
+- [Release v0.19 · gohugoio/hugo](https://github.com/gohugoio/hugo/releases/tag/v0.19)
 - [マリオコスプレ・カートレンタル業者の言い分を検証する(栗原潔) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/kuriharakiyoshi/20170227-00068168/)
 - [Mozilla、“あとで読む”サービス“Pocket”を買収 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1046685.html)
 - [Change.orgご利用の皆様へセキュリティに関するお知らせ · Change.org](https://www.change.org/l/jp/cloudflare_security)

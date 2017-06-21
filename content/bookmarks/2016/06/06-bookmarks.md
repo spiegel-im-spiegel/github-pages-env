@@ -1,5 +1,6 @@
 +++
 date = "2016-06-06T22:17:05+09:00"
+update = "2017-06-21T16:07:13+09:00"
 description = "「Tumblrと（懐かしの）MySpaceから大量のログイン情報が流出」他"
 draft = false
 title = "2016-06-06 のブックマーク"
@@ -19,7 +20,7 @@ title = "2016-06-06 のブックマーク"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
-- [Release v0.16 · spf13/hugo](https://github.com/spf13/hugo/releases/tag/v0.16)
+- [Release v0.16 · gohugoio/hugo](https://github.com/gohugoio/hugo/releases/tag/v0.16)
 - [Where is the moon? New phase | Moon Phases | EarthSky](http://earthsky.org/moon-phases/new-moon)
 - [オサイレス・レックス(オシリス・レックス)の打ち上げは9月9日 | 月探査情報ステーション](http://moonstation.jp/blog/asteroidexp/osiris-rex/launch-of-osiris-rex-set-for-sep-9)
 - [NASA Announces Coverage, Media Activities for Juno Arrival at Jupiter | NASA](https://www.nasa.gov/press-release/nasa-announces-coverage-media-activities-for-juno-mission-arrival-at-jupiter)

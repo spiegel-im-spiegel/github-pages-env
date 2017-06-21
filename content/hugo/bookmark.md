@@ -2,7 +2,7 @@
 title       = "Hugo に関するブックマーク"
 description = "当サイトを Hugo で構築するにあたって参考になったページを紹介する。"
 date        = "2015-09-05T00:00:00+09:00"
-update      = "2017-02-08T09:55:49+09:00"
+update      = "2017-06-21T16:09:16+09:00"
 tags        = [ "hugo", "bookmark" ]
 
 [author]
@@ -25,8 +25,8 @@ flattr    = "spiegel"
 ## 公式サイト{#official}
 
 - [Hugo :: A fast and modern static website engine](https://gohugo.io/)
-    - [spf13/hugo](https://github.com/spf13/hugo)
-    - [spf13/hugoThemes](https://github.com/spf13/hugoThemes) : [Hugo] のテーマ集。スクリーンショットもあるよ
+    - [gohugoio/hugo](https://github.com/gohugoio/hugo)
+    - [gohugoio/hugoThemes](https://github.com/gohugoio/hugoThemes) : [Hugo] のテーマ集。スクリーンショットもあるよ
 
 ## 日本語によるもっとも丁寧な解説{#mostfav}
 

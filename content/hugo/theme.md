@@ -1,7 +1,7 @@
 +++
 title = "Theme を利用する"
 date = "2015-09-11T17:59:18+09:00"
-update = "2015-10-02T07:56:00+09:00"
+update = "2017-06-21T16:17:51+09:00"
 description = "前々回，前回とちょっと飛ばしすぎたので今回は軽めに theme の話題を。"
 tags = [ "hugo", "theme" ]
 draft = false
@@ -30,7 +30,7 @@ Theme 機能の利点はもちろん画面の構成等を共有できる点に�
 
 [Hugo] の repository には既に多くの theme が寄せられている。
 
-- [spf13/hugoThemes](https://github.com/spf13/hugoThemes)
+- [gohugoio/hugoThemes](https://github.com/gohugoio/hugoThemes)
 
 また repository に登録されているもの以外にも色々なテーマが公開されているようである。
 
@@ -39,7 +39,7 @@ Theme 機能の利点はもちろん画面の構成等を共有できる点に�
 Theme を利用するには作業環境上に repository を `git clone` する。
 
 ```
-C:\hugo-env\www>git clone --recursive https://github.com/spf13/hugoThemes.git themes
+C:\hugo-env\www>git clone --recursive https://github.com/gohugoio/hugoThemes.git themes
 ```
 
 この repository ではユーザが公開している theme を git の submodule として結合しているため， `--recursive` オプションを付けて clone する。
@@ -193,7 +193,7 @@ in 37 ms
 
 ```toml:themes/sample-theme/theme.toml
 # theme.toml template for a Hugo theme
-# See https://github.com/spf13/hugoThemes#themetoml for an example
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
 name = "Sample Theme"
 license = "MIT"

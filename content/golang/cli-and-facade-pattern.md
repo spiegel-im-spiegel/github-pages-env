@@ -1,6 +1,6 @@
 +++
 date = "2016-01-05T22:06:41+09:00"
-update = "2016-11-17T16:14:21+09:00"
+update = "2017-06-21T16:17:11+09:00"
 description = "ファサード・パターンは DDD (Domain-Driven Design) と相性がよい。普通は Web アプリケーションのような多様なサブシステムを持つシステムを設計する際に導入する考え方だが， CLI の場合でもサブコマンドを構成するのであればファサード・パターンがよいだろう。"
 draft = false
 tags = ["golang", "cli", "facade"]
@@ -472,7 +472,7 @@ C:\workspace\astrocalc> bin\astrocalc.exe mjdn 2015 1 1
 - [Go言語のflagパッケージを使う - uragami note](http://ryochack.hatenablog.com/entry/2013/04/17/232753)
 - [Go言語のCLIツールのpanicをラップしてクラッシュレポートをつくる | SOTA](http://deeeet.com/writing/2015/04/17/panicwrap/)
 - [flag 並にシンプルでより強力な CLI パーサ kingpin の紹介 - Qiita](http://qiita.com/kumatch/items/258d7984c0270f6dd73a)
-- [spf13/cobra: A Commander for modern Go CLI interactions](https://github.com/spf13/cobra) : [Docker](https://github.com/docker) や [Hugo](https://github.com/spf13/hugo) の [Steve Francia (spf13)](https://github.com/spf13) さんが公開しているパッケージ。そのうち試したい → [試してみた]({{< relref "golang/estimate-of-pi-2-cli.md" >}} "モンテカルロ法による円周率の推定（その2 CLI）")
+- [spf13/cobra: A Commander for modern Go CLI interactions](https://github.com/spf13/cobra) : [Docker](https://github.com/docker) や [Hugo](https://github.com/gohugoio/hugo) の [Steve Francia (spf13)](https://github.com/spf13) さんが公開しているパッケージ。そのうち試したい → [試してみた]({{< relref "golang/estimate-of-pi-2-cli.md" >}} "モンテカルロ法による円周率の推定（その2 CLI）")
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 

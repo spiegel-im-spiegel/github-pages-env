@@ -1,5 +1,6 @@
 +++
 date = "2015-11-26T20:26:45+09:00"
+update = "2017-06-21T16:10:38+09:00"
 description = "追加された機能が盛りだくさんあり詳しくは上のリンク先を確認していただくとして，実は今回の目玉はライセンスのアップグレードである。"
 draft = false
 tags = ["hugo", "license", "apache2", "contribution"]
@@ -19,9 +20,9 @@ title = "Hugo 0.15 が Apache License 2.0 下でリリース"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
-[Repository](https://github.com/spf13/hugo/) ではしばらく前からリリース準備が行われていて wktk 状態で待っていたのだが，ようやくリリースの運びとなった。
+[Repository](https://github.com/gohugoio/hugo/) ではしばらく前からリリース準備が行われていて wktk 状態で待っていたのだが，ようやくリリースの運びとなった。
 
-- [Release v0.15 · spf13/hugo](https://github.com/spf13/hugo/releases/tag/v0.15)
+- [Release v0.15 · gohugoio/hugo](https://github.com/gohugoio/hugo/releases/tag/v0.15)
 
 ```bash
 C:> hugo version
@@ -32,7 +33,7 @@ Hugo Static Site Generator v0.15 BuildDate: 2015-11-25T14:35:20+09:00
 
 [Hugo] のライセンスは [Simple Public License (SimPL) 2.0](https://opensource.org/licenses/Simple-2.0) だったのだが，これを企業ユーザでも利用しやすい一般的なライセンスにしてくれという要望というか議論は随分前からあったらしい。
 
-- [Upgrade the license to an open one · Issue #201 · spf13/hugo](https://github.com/spf13/hugo/issues/201)
+- [Upgrade the license to an open one · Issue #201 · gohugoio/hugo](https://github.com/gohugoio/hugo/issues/201)
 
 [SimPL-2.0] はオープンソース・ライセンスのひとつで GPLv2 を（文字通り）よりシンプルに記述したもののようである。
 

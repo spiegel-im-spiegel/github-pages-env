@@ -1,6 +1,6 @@
 +++
 date = "2016-06-19T19:49:11+09:00"
-update = "2016-07-23T08:57:16+09:00"
+update = "2017-06-21T16:13:55+09:00"
 description = "GnuPG 2.1.13 および Libgcrypt 1.7.1 がリリース / 学校で「プログラミング」を学ばせる必要はない / 今週はセキュリティ・アップデート週間でした / Pokémon GO / その他の気になる記事"
 draft = false
 tags = ["security", "cryptography", "tools", "openpgp", "gnupg", "games", "ingress", "pokemon", "programming"]
@@ -250,7 +250,7 @@ Home: ********
 
 ## その他の気になる記事{#other}
 
-- [Release v0.16 · spf13/hugo](https://github.com/spf13/hugo/releases/tag/v0.16)
+- [Release v0.16 · gohugoio/hugo](https://github.com/gohugoio/hugo/releases/tag/v0.16)
 - [新しい pLaTeX の話：非公式リリースノート 2016 年版 (1) - Acetaminophen’s diary](http://acetaminophen.hatenablog.com/entry/new-platex-20160507-01)
     - [新しい pLaTeX の話：非公式リリースノート 2016 年版 (2) - Acetaminophen’s diary](http://acetaminophen.hatenablog.com/entry/new-platex-20160507-02)
 - [フロリダとパリのテロはグローバル・ジハードの拡散の典型：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41274)
