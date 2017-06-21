@@ -50,6 +50,8 @@ Stage や commit/amend や fetch/pull/push といった基本操作はもちろ�
 
 もうひとつの機能である [GitHub] との連携（今のところ pull request の表示のみ？）であるが，これを使うためには access token を取得して [ATOM] に登録する必要がある。
 
+- [GitHub「Personal access tokens」の設定方法 - Qiita](http://qiita.com/kz800/items/497ec70bff3e555dacd0)
+
 では，たのしくお仕事しましょう！
 
 ## ブックマーク
