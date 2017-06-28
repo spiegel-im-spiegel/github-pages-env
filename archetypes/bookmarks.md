@@ -1,4 +1,6 @@
 +++
+title = "{{ replace .TranslationBaseName "-" " " | title }}"
+date =  "{{ .Date }}"
 description = "「XXX」他"
 draft = true
 
