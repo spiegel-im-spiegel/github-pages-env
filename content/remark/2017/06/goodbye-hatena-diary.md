@@ -3,7 +3,7 @@ title = "「さよならはてなダイアリー」 ― 黒 Web 2.0 の終焉"
 date =  "2017-06-28T22:25:32+09:00"
 update =  "2017-06-28T23:14:49+09:00"
 description = "今から見れば中二病全開のサービスだったわけ。"
-tags        = [ "web", "blog" ]
+tags        = [ "web", "blog", "cms" ]
 draft = false
 
 [author]
