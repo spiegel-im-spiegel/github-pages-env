@@ -26,7 +26,7 @@ iPod は縁がなかったなぁ。
 
 - [iPodは「音楽」に何をもたらしたか──その功績を、販売終了を機に振り返る｜WIRED.jp](https://wired.jp/2017/07/28/say-goodbye-to-ipod/)
 
-まぁ今世紀に入って音楽がどのように変わったかについては言うまでもないだろう。
+今世紀に入って音楽がどのように変わったかについては言うまでもないだろう。
 
 {{< fig-quote title="iPodは「音楽」に何をもたらしたか──その功績を、販売終了を機に振り返る" link="https://wired.jp/2017/07/28/say-goodbye-to-ipod/" >}}
 <q>iPodの人気に火が付いたのは、ちょうどナップスターの熱狂のあとだった。違法コピーのスリルが、アップルのガジェットや大容量のHDDと組み合わさって、突如として音楽が「解放された」のである。</q>
@@ -68,7 +68,7 @@ iPod は縁がなかったなぁ。
 
 Echo については AI というバズワードばかり先行しているが，音声を HMI として高い精度で実装できているのが画期的なのだ。
 これは中核技術である Alexa が自動車のダッシュボードの HMI として採用されつつある点から見ても分かるだろう。
-高い精度は要求されず，見かけ上「賢い人工無脳」に過ぎない iOS の Siri や Google の Allo などとは一線を画すわけだ[^ai1]。
+高い精度は要求されず，見かけ上「賢い人工無脳」に過ぎない Apple の Siri や Google の Allo などとは一線を画すわけだ[^ai1]。
 
 [^ai1]: もちろん Google の AI 技術開発の真価は Allo ではない。 Google は明らかに5年10年先を見据えて開発を行っていて，現在の（広告中心の）収益構造を変えることを目論んでいる筈である。
 
@@ -85,6 +85,8 @@ Echo については AI というバズワードばかり先行しているが�
 - [Fordは今年の後半から、車にAlexaの搭載を計画 | TechCrunch Japan](http://jp.techcrunch.com/2017/01/05/20170104fords-going-to-put-alexa-in-cars-starting-later-this-year/)
 - [進むアマゾン「Alexa」の自動車対応--車載アプリ基盤「INRIX OpenCar」に搭載 - CNET Japan](https://japan.cnet.com/article/35094891/)
 - [もしAWSがなかったら、Amazonは大赤字 | TechCrunch Japan](http://jp.techcrunch.com/2017/07/28/20170727it-looks-like-amazon-would-be-losing-a-lot-of-money-if-not-for-aws/) [^amzn]
+- [［速報］Google、機械学習に最適化した「Cloud TPU」発表。「われわれれはいま、AIファーストデータセンターの構築に取りかかっている」。Google I/O 2017 － Publickey](http://www.publickey1.jp/blog/17/googlecloud_tpuaigoogle_io_2017.html)
+    - [Google I/O 17で「Cloud TPU」を発表：グーグルの機械学習／AIへの取り組みを支える「AIファーストデータセンター」とは - ＠IT](http://www.atmarkit.co.jp/ait/articles/1705/19/news034.html)
 
 [^amzn]: まぁ，今時 Amazon のことをネット書店とかEコマースサイトだとか思ってる人はいないだろう。ただ「クラウド」や「仮想化」だけで稼げる季節はとうの昔に過ぎていて，その上に何を乗せるかが重要になっている。例えば Google は AI 基盤をクラウド化することで次代の収益の柱を狙っているように見える。しかし Amazon にはそういったものが見えづらい。ただ Google が「すべての情報をグラフ化する」のなら Amazon は「全てのモノと情報の流通を押さえる」ことにあるように見える。つまり社是が違うということなのだろう。
 
