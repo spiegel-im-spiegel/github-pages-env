@@ -92,6 +92,15 @@ tags        = [ "book" ]
 そういうのを全部ひっくるめて読書**体験**なのであり，その瞬間を切り取るのが読書感想文であり，そこに込められた想いをきちんと汲み取ってあげるのが大人の役割である。
 私はそう思っている。
 
+「読書感想文は読書体験の微分である」かな（笑）
+
 ## ブックマーク
 
 - [結城浩の連ツイ](http://rentwi.textfile.org/?891148539807416320) : 読書感想文の書き方について
+
+## 参考図書
+
+<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B0741WVFFL/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/61HLi1jY4iL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B0741WVFFL/baldandersinf-22/">恋を積分すると愛 (角川文庫)</a></dt><dd>中村 航 </dd><dd>KADOKAWA / 角川書店 2017-07-25</dd></dl><p class="similar"></p>
+<p class="description">Facebook の友人が紹介してた。タイトルが面白そうなので読むかもしれない（笑）</p>
+<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-07-30">2017-07-30</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+</div>
