@@ -35,8 +35,6 @@ tags = [
 
 ## 脆弱性の内容
 
-Mercurial および Subversion にも同様の脆弱性があるようだが今回は git 絡みのみ挙げておく。
-
 {{< fig-quote title="「Git」「Mercurial」「Subversion」などにコマンドインジェクションの脆弱性" link="http://forest.watch.impress.co.jp/docs/news/1075909.html" >}}
 <q>同社のブログ記事によると、「Git LFS」の旧バージョンにはURLの解釈処理に問題があり、たとえば“ssh://-oProxyCommand=some-command”というURLの場合、ホスト名を“-o ProxyCommand=some-command”と解釈してしまうため、“some-command”が実行されてしまう。同様の問題は、「Git」「Mercurial」「Subversion」にも存在する。</q>
 {{< /fig-quote >}}
