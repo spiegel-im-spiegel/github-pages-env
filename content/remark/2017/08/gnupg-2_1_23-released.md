@@ -33,7 +33,7 @@ GnuPG 2.1.23 がリリースされた。
 修正および変更点は以下の通り。
 
 * gpg: "gpg" is now installed as "gpg" and not anymore as "gpg2".  If needed, the new configure option `--enable-gpg-is-gpg2` can be used to revert this.
-* gpg: Options `--auto-key-retriev`e and `--auto-key-locate` "local,wkd" are now used by default.  Note: this enables keyserver and Web Key Directory operators to notice when a signature from a locally non-available key is being verified for the first time or when you intend to encrypt to a mail address without having the key locally.  This new behaviour will eventually make key discovery much easier and mostly automatic.  Disable this by adding `no-auto-key-retrieve` `auto-key-locate` local to your gpg.conf.
+* gpg: Options `--auto-key-retrieve` and `--auto-key-locate` "local,wkd" are now used by default.  Note: this enables keyserver and Web Key Directory operators to notice when a signature from a locally non-available key is being verified for the first time or when you intend to encrypt to a mail address without having the key locally.  This new behaviour will eventually make key discovery much easier and mostly automatic.  Disable this by adding `no-auto-key-retrieve` `auto-key-locate` local to your gpg.conf.
 * agent: Option `--no-grab` is now the default.  The new option `--grab` allows to revert this.
 * gpg: New import option "show-only".
 * gpg: New option `--disable-dirmngr` to entirely disable network access for gpg.
