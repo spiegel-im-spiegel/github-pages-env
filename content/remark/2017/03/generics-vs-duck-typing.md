@@ -1,10 +1,10 @@
 +++
 description = "これはどちらが正しいかという問題ではない。"
 date = "2017-03-11T14:55:06+09:00"
-update = "2017-03-30T10:11:38+09:00"
+update = "2017-09-14T09:22:48+09:00"
 title = "きみは Generics がとくいなフレンズなんだね，または「制約は構造を生む」"
 draft = false
-tags = ["golang", "object-oriented", "java", "design"]
+tags = ["golang", "object-oriented", "java", "design", "refactoring"]
 
 [author]
   license = "by-sa"
