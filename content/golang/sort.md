@@ -1,6 +1,6 @@
 +++
 date = "2017-04-07T20:01:34+09:00"
-update = "2017-09-15T09:27:05+09:00"
+update = "2017-09-15T11:26:50+09:00"
 title = "ソートを使う"
 description = "ソートをアルゴリズムまで言及すると非常に深いテーマになるのだが，今回は標準の sort パッケージの使い方に絞って「こんな感じ」で説明していく。"
 draft = false
@@ -323,18 +323,38 @@ func Slice(slice interface{}, less func(i, j int) bool) {
 	quickSort_func(lessSwap{less, swap}, 0, length, maxDepth(length))
 }
 ```
-`reflect.ValueOf()` 関数は `reflect.Value` を取得する関数だ[^rf1]。
-その次の `reflect.Swapper()` 関数がポイント。
+[`reflect`].`ValueOf()` 関数は [`reflect`].`Value` を取得する関数だ[^rf1]。
+その次の [`reflect`].`Swapper()` 関数がポイント。
 この関数は先程の  Sorter インタフェースでいうところの `Swap()` 関数に相当するものを返す[^rf2]。
-残りの `Len()` 関数に相当するものは `reflect.Value` で用意されているし， `Less()` 関数に相当するものは `sort.Slice()` 関数の引数として与えられる。
+なのでこんなこともできる。
+
+```go
+package main
+
+import (
+	"fmt"
+	"reflect"
+)
+
+func main() {
+	s := []int{1, 2, 3}
+	fmt.Println(s) // [1 2 3]
+	reflect.Swapper(s)(0, 2)
+	fmt.Println(s) // [3 2 1]
+}
+```
+
+残りの `Len()` 関数に相当するものは [`reflect`].`Value` で用意されているし， `Less()` 関数に相当するものは [`sort`].`Slice()` 関数の引数として与えられる。
 これでソートに必要な3つの関数が揃うわけだ。
 
-[^rf1]: `reflect` パッケージについての詳細は割愛する。簡単に言うと， [Go 言語]において [interface] 型のインスタンスは型情報と値への参照の2つを保持していて，これに対応するのが `reflect.Type` と `reflect.Value` である（参考： [research!rsc: Go Data Structures: Interfaces](https://research.swtch.com/interfaces)）。
-[^rf2]: `reflect.Swapper()` 関数は引数の型が [slice] であることを前提にしていて， [slice] でない場合は panic が返る。
+[^rf1]: [`reflect`] パッケージについての詳細は割愛する。簡単に言うと， [Go 言語]において [interface] 型のインスタンスは型情報と値への参照の2つを保持していて，これに対応するのが [`reflect`].`Type` と [`reflect`].`Value` である（参考： [research!rsc: Go Data Structures: Interfaces](https://research.swtch.com/interfaces)）。
+[^rf2]: [`reflect`].`Swapper()` 関数は引数の型が [slice] であることを前提にしていて， [slice] でない場合は panic が返る。
 
 ちなみに `quickSort_func()` 関数は，名前の通り，クイックソートである。
-ただしクイックソートでは安定ソートにならないため，安定ソートを実行するための `sort.SliceStable()` 関数も用意されている。
-`sort.SliceStable()` 関数ではアルゴリズムに挿入ソートを用いる。
+ただしクイックソートでは安定ソートにならないため，安定ソートを実行するための [`sort`].`SliceStable()` 関数も用意されている。
+[`sort`].`SliceStable()` 関数ではアルゴリズムに挿入ソートを用いる[^s1]。
+
+[^s1]: [`sort`].`Sort()` 関数も同じくクイックソートである。これの安定ソート版が [`sort`].`Stable()` 関数で同じく挿入ソートを用いている。
 
 ## ブックマーク
 
@@ -349,6 +369,7 @@ func Slice(slice interface{}, less func(i, j int) bool) {
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`sort`]: https://golang.org/pkg/sort/ "sort - The Go Programming Language"
+[`reflect`]: https://golang.org/pkg/reflect/ "reflect - The Go Programming Language"
 [slice]: http://golang.org/ref/spec#Slice_types
 [interface]: https://golang.org/doc/effective_go.html#interfaces_and_types "Effective Go - The Go Programming Language"
 
