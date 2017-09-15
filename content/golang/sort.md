@@ -1,6 +1,6 @@
 +++
 date = "2017-04-07T20:01:34+09:00"
-update = "2017-09-15T11:26:50+09:00"
+update = "2017-09-15T11:50:24+09:00"
 title = "ソートを使う"
 description = "ソートをアルゴリズムまで言及すると非常に深いテーマになるのだが，今回は標準の sort パッケージの使い方に絞って「こんな感じ」で説明していく。"
 draft = false
@@ -223,7 +223,7 @@ Mercury Venus Earth Mars
 Mercury Mars Venus Earth
 ```
 
-### `sort.Slice()` 関数を使う場合 
+## `sort.Slice()` 関数を使う場合 
 
 [slice] 限定であるが， [`sort`].`Slice()` 関数を使えば Sorter インタフェースを定義しなくてもソートを行うことができる。
 [`sort`].`Slice()` 関数の定義は以下の通り。
