@@ -1,6 +1,6 @@
 +++
 date = "2017-04-07T20:01:34+09:00"
-update = "2017-05-02T14:45:34+09:00"
+update = "2017-09-15T09:27:05+09:00"
 title = "ソートを使う"
 description = "ソートをアルゴリズムまで言及すると非常に深いテーマになるのだが，今回は標準の sort パッケージの使い方に絞って「こんな感じ」で説明していく。"
 draft = false
@@ -288,6 +288,53 @@ Mercury Mars Venus Earth
 ```
 
 となった。
+
+さて，実際に `sort.Slice()` 関数を覗いてみよう。
+
+```go
+// maxDepth returns a threshold at which quicksort should switch
+// to heapsort. It returns 2*ceil(lg(n+1)).
+func maxDepth(n int) int {
+	var depth int
+	for i := n; i > 0; i >>= 1 {
+		depth++
+	}
+	return depth * 2
+}
+
+// lessSwap is a pair of Less and Swap function for use with the
+// auto-generated func-optimized variant of sort.go in
+// zfuncversion.go.
+type lessSwap struct {
+	Less func(i, j int) bool
+	Swap func(i, j int)
+}
+
+// Slice sorts the provided slice given the provided less function.
+//
+// The sort is not guaranteed to be stable. For a stable sort, use
+// SliceStable.
+//
+// The function panics if the provided interface is not a slice.
+func Slice(slice interface{}, less func(i, j int) bool) {
+	rv := reflect.ValueOf(slice)
+	swap := reflect.Swapper(slice)
+	length := rv.Len()
+	quickSort_func(lessSwap{less, swap}, 0, length, maxDepth(length))
+}
+```
+`reflect.ValueOf()` 関数は `reflect.Value` を取得する関数だ[^rf1]。
+その次の `reflect.Swapper()` 関数がポイント。
+この関数は先程の  Sorter インタフェースでいうところの `Swap()` 関数に相当するものを返す[^rf2]。
+残りの `Len()` 関数に相当するものは `reflect.Value` で用意されているし， `Less()` 関数に相当するものは `sort.Slice()` 関数の引数として与えられる。
+これでソートに必要な3つの関数が揃うわけだ。
+
+[^rf1]: `reflect` パッケージについての詳細は割愛する。簡単に言うと， [Go 言語]において [interface] 型のインスタンスは型情報と値への参照の2つを保持していて，これに対応するのが `reflect.Type` と `reflect.Value` である（参考： [research!rsc: Go Data Structures: Interfaces](https://research.swtch.com/interfaces)）。
+[^rf2]: `reflect.Swapper()` 関数は引数の型が [slice] であることを前提にしていて， [slice] でない場合は panic が返る。
+
+ちなみに `quickSort_func()` 関数は，名前の通り，クイックソートである。
+ただしクイックソートでは安定ソートにならないため，安定ソートを実行するための `sort.SliceStable()` 関数も用意されている。
+`sort.SliceStable()` 関数ではアルゴリズムに挿入ソートを用いる。
 
 ## ブックマーク
 

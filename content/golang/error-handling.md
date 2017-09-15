@@ -1,6 +1,6 @@
 +++
 date = "2015-09-30T00:27:48+09:00"
-update = "2016-11-03T20:50:45+09:00"
+update = "2017-09-15T09:07:15+09:00"
 description = "C++ や Java のような言語圏から来た（私のような）人間にとって Go 言語の「オブジェクト指向」はかなり異質なのだが，慣れてみると逆にとても合理的に見えてくる。この最たるものが error 型である。（追記あり）"
 draft = false
 tags = ["golang", "error", "exception", "panic", "interface"]
@@ -389,7 +389,10 @@ func makeSlice(n int) []byte {
 このコードの実行結果は “Hello, Mr. Pike!” を出力する。
 このコードのポイントは `Generate()` 関数が [error] ではなく `*MagicError` 型を返している点にある。
 
-実は [error] を含む [interface] 型のインスタンスは値（への参照）と型情報をセットで保持っているため，上述のような形で nil を返しても受け取った側は「nil 状態を持つなにか」という評価になり，完全な nil にはならないのだ。
+実は [error] を含む [interface] 型のインスタンスは値（への参照）と型情報をセットで保持っているため，上述のような形で nil を返しても受け取った側は「nil 状態を持つなにか」という評価になり，ただの `<nil>` にはならないのだ。
+
+- [research!rsc: Go Data Structures: Interfaces](https://research.swtch.com/interfaces)
+
 たとえば上のコードを以下のように書き換えると分かりやすいかもしれない。
 
 ```go
