@@ -18,5 +18,8 @@
 
 ## その他
 
+- [米国タバコ会社に「2兆円」賠償判決――こんな「高額賠償」は日本でも認められるか？ - 弁護士ドットコム](https://www.bengo4.com/saiban/1139/n_1900/)
+- [Swift で数学のススメ 〜 プログラミングと数学は同時に学べ](https://www.slideshare.net/taketo1024/swift-79828803)
+- [脆弱性の修正が施された「Ruby 2.4.2/2.3.5/2.2.8」リリース | Think IT（シンクイット）](https://thinkit.co.jp/news/bn/12700)
 
 (end of file)
