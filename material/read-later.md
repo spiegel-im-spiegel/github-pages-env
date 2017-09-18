@@ -7,8 +7,10 @@
 ## セキュリティ関連
 
 - [マイクロソフト、スパイウェア「FinSpy」拡散に悪用されていた脆弱性に対処 - ZDNet Japan](https://japan.zdnet.com/article/35107181/)
-- [米信用情報会社Equifaxの情報流出--影響はどれほどか - ZDNet Japan](https://japan.zdnet.com/article/35107135/)
+- [On the Equifax Data Breach - Schneier on Security](https://www.schneier.com/blog/archives/2017/09/on_the_equifax_.html)
+    - [米信用情報会社Equifaxの情報流出--影響はどれほどか - ZDNet Japan](https://japan.zdnet.com/article/35107135/)
     - [Equifaxの情報流出、「Apache Struts」の脆弱性に起因--パッチ適用怠る？ - ZDNet Japan](https://japan.zdnet.com/article/35107320/)
+    - [渦中のEquifax、セキュリティー担当および情報担当幹部が辞任 | TechCrunch Japan](http://jp.techcrunch.com/2017/09/18/20170915equifax-security-and-information-executives-are-stepping-down/)
 - [Make: Japan | Raspberry Piを攻撃から守るための手順](http://makezine.jp/blog/2017/09/secure-your-raspberry-pi-against-attackers.html)
 
 ## 天文関連
