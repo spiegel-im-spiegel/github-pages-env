@@ -22,6 +22,7 @@
 - [ブロックチェーンはいかにセキュリティを変革するか - ZDNet Japan](https://japan.zdnet.com/article/35107085/)
 - [Introducing Keybase Teams](https://keybase.io/blog/introducing-keybase-teams)
     - [Keybase launches fully encrypted Slack-like communications tool — and it’s free | TechCrunch](https://techcrunch.com/2017/09/18/keybase-launches-fully-encrypted-slack-like-communications-tool-and-its-free/?utm_source=tcfbpage&sr_share=facebook)
+- [Go言語製CLIパスワードマネージャーを使う - Qiita](https://qiita.com/mmm888/items/df6a8f0093c7282b5e12)
 
 ## 天文関連
 
