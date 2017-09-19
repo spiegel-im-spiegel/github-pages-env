@@ -1,11 +1,24 @@
 package main
 
 import (
+	"bytes"
 	"compress/gzip"
 	"fmt"
 	"io"
 	"os"
 )
+
+func readGzip(dst io.Writer, src io.Reader) error {
+	zr, err := gzip.NewReader(src)
+	if err != nil {
+		return err
+	}
+	defer zr.Close()
+
+	io.Copy(dst, zr)
+
+	return nil
+}
 
 func main() {
 	file, err := os.Open("test.txt.gz")
@@ -15,12 +28,11 @@ func main() {
 	}
 	defer file.Close()
 
-	zr, err := gzip.NewReader(file)
-	if err != nil {
+	buf := new(bytes.Buffer)
+
+	if err := readGzip(buf, file); err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		return
 	}
-	defer zr.Close()
-
-	io.Copy(os.Stdout, zr)
+	buf.WriteTo(os.Stdout)
 }

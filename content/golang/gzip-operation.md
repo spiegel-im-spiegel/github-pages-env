@@ -1,7 +1,7 @@
 +++
 title = "Gzip 操作について覚え書き"
 date =  "2017-09-19T17:31:49+09:00"
-update =  "2017-09-20T06:56:01+09:00"
+update =  "2017-09-20T08:06:47+09:00"
 description = "このようにインスタンスの生存期間を意識することで Go 言語の得意なパターンに嵌めることが容易になる。"
 tags        = [ "golang", "gzip", "defer" ]
 
@@ -58,8 +58,8 @@ func makeGzip(body string) []byte {
 ゆえに関数をこう書き換える。
 
 ```go
-func makeGzip(w io.Writer, content []byte) error {
-	zw, err := gzip.NewWriterLevel(w, gzip.BestCompression)
+func makeGzip(dst io.Writer, content []byte) error {
+	zw, err := gzip.NewWriterLevel(dst, gzip.BestCompression)
 	if err != nil {
 		return err
 	}
@@ -72,7 +72,7 @@ func makeGzip(w io.Writer, content []byte) error {
 }
 ```
 
-つまり圧縮データの書き込む先である `Writer` を引数で指定するのである。
+つまり圧縮データの書き込み先である `Writer` を引数で指定するのである。
 これなら生成した [`gzip`].`Writer.Close()` 関数を問題なく [defer] で指定できる。
 
 これを踏まえて完全なコードは以下のようになる。
@@ -87,8 +87,8 @@ import (
 	"os"
 )
 
-func makeGzip(w io.Writer, content []byte) error {
-	zw, err := gzip.NewWriterLevel(w, gzip.BestCompression)
+func makeGzip(dst io.Writer, content []byte) error {
+	zw, err := gzip.NewWriterLevel(dst, gzip.BestCompression)
 	if err != nil {
 		return err
 	}
@@ -121,8 +121,51 @@ func main() {
 もちろん書き込み先を [`bytes`].`Buffer` に置き換えることもできる。
 このようにインスタンスの生存期間を意識することで [Go 言語]の得意なパターンに嵌めることが容易になる。
 
+ついでに対となる読み込み処理のコードも示しておこう。
+
+```go
+package main
+
+import (
+	"bytes"
+	"compress/gzip"
+	"fmt"
+	"io"
+	"os"
+)
+
+func readGzip(dst io.Writer, src io.Reader) error {
+	zr, err := gzip.NewReader(src)
+	if err != nil {
+		return err
+	}
+	defer zr.Close()
+
+	io.Copy(dst, zr)
+
+	return nil
+}
+
+func main() {
+	file, err := os.Open("test.txt.gz")
+	if err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return
+	}
+	defer file.Close()
+
+	buf := new(bytes.Buffer)
+
+	if err := readGzip(buf, file); err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return
+	}
+	buf.WriteTo(os.Stdout)
+}
+```
+
 ところで，ファイル操作では生のデータを直接 gzip 圧縮するシチュエーションは少なく，大抵は tar と組み合わせることになる。
-そこで tar と組み合わせ，指定フォルダ下の複数ファイルを gzip 圧縮するコードを以下に示しておく。
+そこで tar と組み合わせ，指定フォルダ直下の複数ファイルを gzip 圧縮するコードも以下に示しておく。
 
 ```go
 package main
@@ -137,8 +180,8 @@ import (
 	"path/filepath"
 )
 
-func makeTarGzip(w io.Writer, rt string) error {
-	zw, err := gzip.NewWriterLevel(w, gzip.BestCompression)
+func makeTarGzip(dst io.Writer, rt string) error {
+	zw, err := gzip.NewWriterLevel(dst, gzip.BestCompression)
 	if err != nil {
 		return err
 	}

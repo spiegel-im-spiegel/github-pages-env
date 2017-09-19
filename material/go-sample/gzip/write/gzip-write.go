@@ -7,8 +7,8 @@ import (
 	"os"
 )
 
-func makeGzip(w io.Writer, content []byte) error {
-	zw, err := gzip.NewWriterLevel(w, gzip.BestCompression)
+func makeGzip(dst io.Writer, content []byte) error {
+	zw, err := gzip.NewWriterLevel(dst, gzip.BestCompression)
 	if err != nil {
 		return err
 	}

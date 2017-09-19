@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 )
 
-func makeTarGzip(w io.Writer, rt string) error {
-	zw, err := gzip.NewWriterLevel(w, gzip.BestCompression)
+func makeTarGzip(dst io.Writer, rt string) error {
+	zw, err := gzip.NewWriterLevel(dst, gzip.BestCompression)
 	if err != nil {
 		return err
 	}

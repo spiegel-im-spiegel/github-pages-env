@@ -1,11 +1,5 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-- [gzip のやり方 - Qiita](http://qiita.com/ta_ta_ta_miya/items/3a1cba3a13418b732811)
-- [「連結されたgzipを1行ずつ見る」をgolangでやったらハマった - Qiita](http://qiita.com/kroton/items/431e6dad9e5e4dbc44cf)
-- [Go言語でファイル操作: ファイルを作って書き込む - Qiita](http://qiita.com/suin/items/7eb4fc405ac73846a9b1)
-- [gzip - The Go Programming Language](https://golang.org/pkg/compress/gzip/)
-- [ioutil - The Go Programming Language](https://golang.org/pkg/io/ioutil/)
-- [bytes - The Go Programming Language](https://golang.org/pkg/bytes/)
 
 ## Age of Trump
 
