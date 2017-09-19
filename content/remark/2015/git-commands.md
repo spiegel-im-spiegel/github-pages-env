@@ -1,6 +1,6 @@
 +++
 date = "2015-12-09T20:14:59+09:00"
-update = "2017-02-21T16:44:11+09:00"
+update = "2017-09-19T10:47:11+09:00"
 description = "git 各コマンドに関する覚え書き。思い出したら追記予定。"
 draft = false
 tags = ["git", "tools"]
@@ -213,6 +213,7 @@ $ git push -f
 - [たった 8 つの alias で git を大幅にわかりやすくする - Qiita](http://qiita.com/ticonz/items/2f5d5299e3562e6941a8)
 - [Git で履歴のAuthor/Emailを上書きする - Qiita](http://qiita.com/kenju/items/196e8d5df38f19ec2dd3)
 - [gitレポジトリ内のディレクトリを別のgitレポジトリ以下に移動する - Qiita](http://qiita.com/yuki-asano/items/f9248eb99850a872b0a8)
+- [git push -f をやめて --force-with-lease を使おう - Qiita](http://qiita.com/wMETAw/items/5f47dcc7cf57af8e449f)
 
 ### GitHub
 

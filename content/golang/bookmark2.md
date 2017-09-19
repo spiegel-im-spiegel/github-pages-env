@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T23:59:59+09:00"
-update = "2017-05-02T14:45:47+09:00"
+update = "2017-09-19T11:00:03+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 draft = false
 tags = ["golang", "bookmark", "package"]
@@ -261,6 +261,8 @@ title = "Go 言語に関するブックマーク（サンプルコード，パ�
 - [Go言語を使用して簡単なLineBotを作る - Qiita](http://qiita.com/sao_rio/items/8801b78ba60acbb0ae41)
 - [golangのGUIパッケージgo-gtkを試す - Qiita](http://qiita.com/intelf___/items/2207c02c306a495d99e6)
 - [gopher-lua でサーバーの設定を動的に変更する - Qiita](http://qiita.com/zenwerk/items/729ab53ad6925d80dafa)
+- [【Go言語】gothでWebアプリを外部サービス認証ログインできるようにする - Qiita](http://qiita.com/momotaro98/items/90d12c10a655f4026d82)
+- [goroutine を安全に止める方法 - Qiita](http://qiita.com/castaneai/items/7815f3563b256ae9b18d)
 
 ## 参考図書
 
