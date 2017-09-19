@@ -122,12 +122,12 @@ func main() {
 このようにインスタンスの生存期間を意識することで [Go 言語]の得意なパターンに嵌めることが容易になる。
 
 ついでに対となる読み込み処理のコードも示しておこう。
+ここでは復元したデータを標準出力に直接出力している。
 
 ```go
 package main
 
 import (
-	"bytes"
 	"compress/gzip"
 	"fmt"
 	"io"
@@ -154,13 +154,10 @@ func main() {
 	}
 	defer file.Close()
 
-	buf := new(bytes.Buffer)
-
-	if err := readGzip(buf, file); err != nil {
+	if err := readGzip(os.Stdout, file); err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		return
 	}
-	buf.WriteTo(os.Stdout)
 }
 ```
 

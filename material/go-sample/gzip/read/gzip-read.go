@@ -1,7 +1,6 @@
 package main
 
 import (
-	"bytes"
 	"compress/gzip"
 	"fmt"
 	"io"
@@ -28,11 +27,8 @@ func main() {
 	}
 	defer file.Close()
 
-	buf := new(bytes.Buffer)
-
-	if err := readGzip(buf, file); err != nil {
+	if err := readGzip(os.Stdout, file); err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		return
 	}
-	buf.WriteTo(os.Stdout)
 }
