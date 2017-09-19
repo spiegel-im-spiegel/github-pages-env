@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 )
 
-func makeTarGzip(w io.Writer) error {
+func makeTarGzip(w io.Writer, rt string) error {
 	zw, err := gzip.NewWriterLevel(w, gzip.BestCompression)
 	if err != nil {
 		return err
@@ -20,7 +20,7 @@ func makeTarGzip(w io.Writer) error {
 	tw := tar.NewWriter(zw)
 	defer tw.Close()
 
-	filepath.Walk("./", func(path string, info os.FileInfo, err error) error {
+	filepath.Walk(rt, func(path string, info os.FileInfo, err error) error {
 		if info.IsDir() {
 			return nil
 		}
@@ -58,7 +58,7 @@ func main() {
 	}
 	defer file.Close()
 
-	if err := makeTarGzip(file); err != nil {
+	if err := makeTarGzip(file, "./"); err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		return
 	}

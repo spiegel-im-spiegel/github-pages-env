@@ -1,6 +1,7 @@
 +++
 title = "Gzip 操作について覚え書き"
 date =  "2017-09-19T17:31:49+09:00"
+update =  "2017-09-20T06:56:01+09:00"
 description = "このようにインスタンスの生存期間を意識することで Go 言語の得意なパターンに嵌めることが容易になる。"
 tags        = [ "golang", "gzip", "defer" ]
 
@@ -120,7 +121,7 @@ func main() {
 もちろん書き込み先を [`bytes`].`Buffer` に置き換えることもできる。
 このようにインスタンスの生存期間を意識することで [Go 言語]の得意なパターンに嵌めることが容易になる。
 
-ところで，特にファイル操作では，生のデータを直接 gzip 圧縮するシチュエーションは少なく，大抵は tar と組み合わせることになる。
+ところで，ファイル操作では生のデータを直接 gzip 圧縮するシチュエーションは少なく，大抵は tar と組み合わせることになる。
 そこで tar と組み合わせ，指定フォルダ下の複数ファイルを gzip 圧縮するコードを以下に示しておく。
 
 ```go
@@ -136,7 +137,7 @@ import (
 	"path/filepath"
 )
 
-func makeTarGzip(w io.Writer) error {
+func makeTarGzip(w io.Writer, rt string) error {
 	zw, err := gzip.NewWriterLevel(w, gzip.BestCompression)
 	if err != nil {
 		return err
@@ -146,7 +147,7 @@ func makeTarGzip(w io.Writer) error {
 	tw := tar.NewWriter(zw)
 	defer tw.Close()
 
-	filepath.Walk("./", func(path string, info os.FileInfo, err error) error {
+	filepath.Walk(rt, func(path string, info os.FileInfo, err error) error {
 		if info.IsDir() {
 			return nil
 		}
@@ -184,7 +185,7 @@ func main() {
 	}
 	defer file.Close()
 
-	if err := makeTarGzip(file); err != nil {
+	if err := makeTarGzip(file, "./"); err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		return
 	}
