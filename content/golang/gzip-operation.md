@@ -39,7 +39,7 @@ func makeGzip(body string) []byte {
 ```
 
 ここで `gw.Close()` 関数を [defer] 指定すると返ってくるバイト列が不完全なデータになってしまう，という話。
-これは，[リンク先の記事]で指摘されている通り， [`gzip`].`Close()` 関数で gzip のフッタデータをフラッシュしているからである。
+これは，[リンク先の記事]で指摘されている通り， [`gzip`].`Writer.Close()` 関数で gzip のフッタデータをフラッシュしているからである。
 
 {{< fig-quote title="gzip - The Go Programming Language" link="https://golang.org/pkg/compress/gzip/" lang="en" >}}
 <q>Close closes the Writer by flushing any unwritten data to the underlying io.Writer and writing the GZIP footer. It does not close the underlying io.Writer.</q>
@@ -72,7 +72,7 @@ func makeGzip(w io.Writer, content []byte) error {
 ```
 
 つまり圧縮データの書き込む先である `Writer` を引数で指定するのである。
-これなら生成した [`gzip`].`Writer` の `Close()` 関数を問題なく [defer] で指定できる。
+これなら生成した [`gzip`].`Writer.Close()` 関数を問題なく [defer] で指定できる。
 
 これを踏まえて完全なコードは以下のようになる。
 
