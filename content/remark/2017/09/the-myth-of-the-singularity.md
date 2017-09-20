@@ -157,7 +157,7 @@ AI の能力が人間を凌ぐ2045年が「特異点」というわけだ。
 
 信憑性についてはもう少し説明が必要だろう。
 
-plausibilité (plausibility) の意味を Google 先生に訊くと「尤度（ゆうど）」と答えが返ってきた。
+plausibilité (plausibility) の意味を Google 先生に訊くと「{{< ruby "ゆうど" >}}尤度{{< /ruby >}}」と答えが返ってきた。
 尤度とは統計学の用語らしい。
 
 - [【統計学】尤度って何？をグラフィカルに説明してみる。 - Qiita](http://qiita.com/kenmatsu4/items/b28d1b3b3d291d0cc698)
