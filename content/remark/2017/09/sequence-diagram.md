@@ -1,7 +1,7 @@
 +++
 title = "そうだ，シーケンス図を描こう！ （一応クラス図も描けるよ）"
 date =  "2017-09-21T16:54:32+09:00"
-update =  "2017-09-21T20:18:33+09:00"
+update =  "2017-09-21T20:41:52+09:00"
 description = "久しぶりに本ブログをいじくって mermaid でシーケンス図を描けるようにしてみる。"
 tags        = [ "tools", "mermaid", "uml", "hugo", "shortcodes", "web", "site" ]
 
