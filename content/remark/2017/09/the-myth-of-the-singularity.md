@@ -1,7 +1,7 @@
 +++
 title = "『シンギュラリティの神話』を読む"
 date =  "2017-09-18T21:45:03+09:00"
-update =  "2017-09-20T15:35:13+09:00"
+update =  "2017-09-20T15:40:36+09:00"
 description = "もし『そろそろ、人工知能の真実を話そう』が日本の読者になにがしかの衝撃を与えるとするなら，自らの稚拙さの方だろう。"
 tags        = [ "book", "artificial-intelligence", "singularity" ]
 
@@ -243,6 +243,7 @@ Google が言う “don't be evil" も市場に対するメッセージである
 
 - [『そろそろ、人工知能の真実を話そう』シンギュラリティ仮説の背後にうごめくもの - HONZ](http://honz.jp/articles/-/44063)
 - [AI時代に「哲学」は何を果たせるか？ 『そろそろ、人工知能の真実を話そう』著者に訊く｜WIRED.jp](https://wired.jp/2017/07/04/jean-gabriel-ganascia/)
+- [GoogleのAIのトップは曰く、人工知能という言葉自体が間違っている、誇大宣伝を生む温床だ | TechCrunch Japan](http://jp.techcrunch.com/2017/09/20/20170919googles-ai-chief-thinks-reports-of-the-ai-apocalypse-are-greatly-exaggerated/)
 
 [そろそろ、人工知能の真実を話そう]: http://www.amazon.co.jp/exec/obidos/ASIN/B071FHBGW8/baldandersinf-22/ "そろそろ、人工知能の真実を話そう (早川書房) | ジャン＝ガブリエル ガナシア, 小林 重裕・他, 伊藤 直子 | コンピュータサイエンス | Kindleストア | Amazon"
 [ソーカル事件]: https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%BC%E3%82%AB%E3%83%AB%E4%BA%8B%E4%BB%B6 "ソーカル事件 - Wikipedia"
