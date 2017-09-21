@@ -22,6 +22,11 @@
     - [Apacheに脆弱性、メモリから情報漏えいの恐れも - ZDNet Japan](https://japan.zdnet.com/article/35107484/)
 - [Mac用ターミナルアプリ「iTerm 2」に入力されたパスワードやテキストが誤ってDNSサーバーに送ってしまう不具合が確認される。 | AAPL Ch.](https://applech2.com/archives/20170920-iterm-2-dns-lookup-issue.html)
     - [Please disable 'Perform DNS lookups to check if URLs are valid?' by default (#6050) · Issues · George Nachman / iterm2 · GitLab](https://gitlab.com/gnachman/iterm2/issues/6050)
+- [Distrustful U.S. allies force spy agency to back down in encryption fight](http://www.reuters.com/article/us-cyber-standards-insight/distrustful-u-s-allies-force-spy-agency-to-back-down-in-encryption-fight-idUSKCN1BW0GV)
+    - [ISO Rejects NSA Encryption Algorithms - Schneier on Security](https://www.schneier.com/blog/archives/2017/09/iso_rejects_nsa.html)
+        - [SIMON and SPECK: New NSA Encryption Algorithms - Schneier on Security](https://www.schneier.com/blog/archives/2013/07/simon_and_speck.html)
+    - [擬似乱数生成アルゴリズム Dual_EC_DRBG について](http://www.cryptrec.go.jp/topics/cryptrec_20131106_dual_ec_drbg.html) : 疑惑の発端となった Dual_EC_DRBG に関する CRYPTREC の記事（2013年）
+        - [CRYPTREC Report 2013 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000740.shtml#rnd)
 
 ## 天文関連
 
