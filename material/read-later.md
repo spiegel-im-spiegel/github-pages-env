@@ -42,6 +42,5 @@
 - [開発者向けSaaS「Rocro」：自動でコードをレビュー、API文書を生成 - ZDNet Japan](https://japan.zdnet.com/article/35107401/)
 - [ご注意：32ビットアプリはiOS11で動かなくなる――アップデートすると多くのゲームが忘却の彼方へ | TechCrunch Japan](http://jp.techcrunch.com/2017/09/20/20170919before-you-update-to-ios-11-heres-how-to-check-which-apps-wont-work/)
 - [GitHub、Windows/Mac両対応の新しい「GitHub Desktop」アプリを正式リリース - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1081627.html)
-- [ちょっとしたシーケンス図を書くのにatom-mermaidが便利すぎる話 - Qiita](https://qiita.com/ririli/items/64320ed2918b1982f89d)
 
 (end of file)
