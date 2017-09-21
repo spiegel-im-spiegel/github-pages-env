@@ -2,7 +2,7 @@
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date =  "{{ .Date }}"
 description = "description"
-tags        = [ "remark" ]
+tags        = [ "golang" ]
 draft = true
 
 [author]
@@ -20,7 +20,7 @@ draft = true
   flattr    = "spiegel"
 
 [scripts]
-  highlightjs = false
-  mathjax = false
+  highlightjs = true
+  mathjax = true
   mermaidjs = false
 +++

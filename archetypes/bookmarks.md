@@ -17,4 +17,9 @@ flickr    = "spiegel"
 facebook  = "spiegel.im.spiegel"
 linkedin  = "spiegelimspiegel"
 flattr    = "spiegel"
+
+[scripts]
+  highlightjs = false
+  mathjax = false
+  mermaidjs = false
 +++

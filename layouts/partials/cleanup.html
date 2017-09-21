@@ -1,7 +1,2 @@
-<script src="/highlightjs/highlight.pack.js"></script>
-<script>
-  hljs.configure({
-    tabReplace: "    ",	//4文字分の半角スペース
-  });
-  hljs.initHighlightingOnLoad();
-</script>
+{{ if $.IsPage }}{{ with .Params.scripts }}{{ if .highlightjs }}{{ partial "highlightjs-footer.html" $ }}{{ end }}{{ else }}{{ partial "highlightjs-footer.html" $ }}{{ end }}
+{{ with .Params.scripts }}{{ if .mermaidjs }}{{ partial "mermaidjs.html" $ }}{{ end }}{{ end }}{{ end }}
