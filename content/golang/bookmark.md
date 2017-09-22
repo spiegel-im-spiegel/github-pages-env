@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-09-22T15:07:24+09:00"
+update = "2017-09-22T19:29:35+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -204,6 +204,7 @@ title = "Go 言語に関するブックマーク"
 - [goroutine を安全に止める方法 - Qiita](http://qiita.com/castaneai/items/7815f3563b256ae9b18d)
 - [Goの同時関数呼び出しを１回で済ませられるライブラリ 「SingleFlight」 が便利 - Qiita](https://qiita.com/igtm/items/8b5343272bc35cd3bc0b)
 - [【コンピュータ将棋】ゴルーチンでお手軽持ち時間管理＆並行探索 - Qiita](http://qiita.com/32hiko/items/3be36dad2d651399ba1b)
+- [Goのワークスティーリング型スケジューラ | プログラミング | POSTD](http://postd.cc/scheduler/)
 
 Go 言語で複数 CPU を使った並列処理を行うには明示的な設定が必要。
 
@@ -606,7 +607,6 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 ## Garbage Collection の話
 
 - [Go言語のリアルタイムGC　理論と実践 | プログラミング | POSTD](http://postd.cc/golangs-real-time-gc-in-theory-and-practice/)
-- [Goのワークスティーリング型スケジューラ | プログラミング | POSTD](http://postd.cc/scheduler/)
 - [Go言語の低レイテンシGC実現のための取り組み | プログラミング | POSTD](http://postd.cc/gos-march-to-low-latency-gc/)
 
 ## その他 四方山話
