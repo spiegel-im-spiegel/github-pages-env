@@ -27,6 +27,8 @@
         - [SIMON and SPECK: New NSA Encryption Algorithms - Schneier on Security](https://www.schneier.com/blog/archives/2013/07/simon_and_speck.html)
     - [擬似乱数生成アルゴリズム Dual_EC_DRBG について](http://www.cryptrec.go.jp/topics/cryptrec_20131106_dual_ec_drbg.html) : 疑惑の発端となった Dual_EC_DRBG に関する CRYPTREC の記事（2013年）
         - [CRYPTREC Report 2013 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000740.shtml#rnd)
+- [【重要】シマンテック社SSLサーバー証明書に関する再発行対応について | さくらインターネット](https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1742)
+- [WordPressが「4.8.2」にアップデート、5件のXSS脆弱性、2件のパストラバーサル脆弱性などを修正 -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/1081802.html)
 
 ## 天文関連
 
@@ -34,6 +36,8 @@
 - [土星探査機カッシーニ、探査を終了 | 月探査情報ステーション](https://moonstation.jp/blog/planetaryexp/cassini/cassini-ends-its-saturn-exploration-by-plunging-into-saturn-atmosphere)
     - [土星探査機「カッシーニ」の信号が無事途絶　20年の活動に幕を下ろす | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_09_15_caend.html)
 - [Hubble discovers a unique type of object in the Solar System | ESA/Hubble](https://www.spacetelescope.org/news/heic1715/)
+- [2017年9月21日ニュース「110億年前の銀河中心部で星が爆発的に誕生 銀河の新しい成長過程明らかに」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/09/20170921_01.html)
+- [先日の大規模太陽フレア、観測衛星「ひので」のX線撮影で見てみると…… | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/10/2017_09_21_taiyou.html)
 
 ## その他
 
@@ -47,5 +51,8 @@
 - [開発者向けSaaS「Rocro」：自動でコードをレビュー、API文書を生成 - ZDNet Japan](https://japan.zdnet.com/article/35107401/)
 - [ご注意：32ビットアプリはiOS11で動かなくなる――アップデートすると多くのゲームが忘却の彼方へ | TechCrunch Japan](http://jp.techcrunch.com/2017/09/20/20170919before-you-update-to-ios-11-heres-how-to-check-which-apps-wont-work/)
 - [GitHub、Windows/Mac両対応の新しい「GitHub Desktop」アプリを正式リリース - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1081627.html)
+- [［速報］Java 9が正式リリース、Javaをモジュール化するProject Jigsawがついに実現。今後のJavaは6カ月ごとタイムベースのアップデートへ － Publickey](http://www.publickey1.jp/blog/17/java_9_release_project_jigsaw.html)
+- [さくらVPS + Dockerのマストドンインスタンスをv1.4.7からv1.6.0にアップデートしたときのメモ](https://snap.textfile.org/20170918004400/)
+- [Google、HTCのスマホ部門を買収 ～HTC PixelチームがGoogleに移籍。HTCは自社スマホ継続 - PC Watch](http://pc.watch.impress.co.jp/docs/news/1081890.html)
 
 (end of file)

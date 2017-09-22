@@ -380,6 +380,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Why Go? | Dave Cheney](https://dave.cheney.net/2017/03/20/why-go)
     - [[翻訳] Why Go? - Qiita](http://qiita.com/methane/items/b627f20457873a504638)
 - [Go言語のリアルタイムGC　理論と実践 | プログラミング | POSTD](http://postd.cc/golangs-real-time-gc-in-theory-and-practice/)
+- [Goのワークスティーリング型スケジューラ | プログラミング | POSTD](http://postd.cc/scheduler/)
 
 ### Go 1.5 に関する話題
 
