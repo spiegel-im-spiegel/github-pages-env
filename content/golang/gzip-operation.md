@@ -1,7 +1,7 @@
 +++
 title = "Gzip 操作について覚え書き"
 date =  "2017-09-19T17:31:49+09:00"
-update =  "2017-09-20T08:06:47+09:00"
+update =  "2017-09-22T16:37:42+09:00"
 description = "このようにインスタンスの生存期間を意識することで Go 言語の得意なパターンに嵌めることが容易になる。"
 tags        = [ "golang", "gzip", "defer" ]
 
@@ -232,9 +232,83 @@ func main() {
 }
 ```
 
+## 【追記】別解あります
+
+実は最初の `makeGzip()` には別解がある。
+要するに [`gzip`] 処理部分を関数スコープで囲ってしまえばいいのだ。
+実際にはこんな感じ。
+
+```go
+func makeGzip(body []byte) ([]byte, error) {
+	var b bytes.Buffer
+	err := func() error {
+		gw := gzip.NewWriter(&b)
+		defer gw.Close()
+
+		if _, err := gw.Write(body); err != nil {
+			return err
+		}
+		return nil
+	}()
+	return b.Bytes(), err
+}
+```
+
+完全なコードはこんな感じになる。
+
+```go
+package main
+
+import (
+	"bytes"
+	"compress/gzip"
+	"fmt"
+	"os"
+)
+
+func makeGzip(body []byte) ([]byte, error) {
+	var b bytes.Buffer
+	err := func() error {
+		gw := gzip.NewWriter(&b)
+		defer gw.Close()
+
+		if _, err := gw.Write(body); err != nil {
+			return err
+		}
+		return nil
+	}()
+	return b.Bytes(), err
+}
+
+func main() {
+	content := []byte("Hello world\n")
+
+	file, err := os.Create("test.txt.gz")
+	if err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return
+	}
+	defer file.Close()
+
+	z, err := makeGzip(content)
+	if err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return
+	}
+
+	if _, err := file.Write(z); err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return
+	}
+}
+```
+
+このように（[defer] を含む）一連の処理を関数スコープで囲うやり方は，条件分野や繰り返し処理の中で役に立つこともあるだろう。
+
 ## ブックマーク
 
 - [「連結されたgzipを1行ずつ見る」をgolangでやったらハマった - Qiita](http://qiita.com/kroton/items/431e6dad9e5e4dbc44cf)
+- [Big Sky :: golang では for ループの中で defer してはいけない。](https://mattn.kaoriya.net/software/lang/go/20151212021608.htm)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [defer]: http://blog.golang.org/defer-panic-and-recover "Defer, Panic, and Recover - The Go Blog"
