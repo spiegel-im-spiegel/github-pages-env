@@ -1,6 +1,7 @@
 +++
 title = "最大公約数と関数型プログラミング"
 date =  "2017-09-23T23:32:56+09:00"
+update =  "2017-09-24T06:32:30+09:00"
 description = "そうだ。最大公約数（greatest common divisor）の話をしよう。"
 tags        = [ "golang", "function", "programming", "math", "greatest-common-divisor", "recursion" ]
 
@@ -36,7 +37,7 @@ tags        = [ "golang", "function", "programming", "math", "greatest-common-di
 最大公約数の定義は以下の通り。
 
 {{% fig-quote %}}
-２つ以上の正の整数に共通な約数（公約数）のうち最大のもの
+2つ以上の正の整数に共通な約数（公約数）のうち最大のもの
 {{% /fig-quote %}}
 
 折角なので何か例題を立ててみよう。
@@ -57,12 +58,12 @@ tags        = [ "golang", "function", "programming", "math", "greatest-common-di
 \]
 {{< /fig-gen >}}
 
-これにより最大公約数は 4 だということが分かる。
+これにより最大公約数は $2^2 = 4$ だということが分かる。
 簡単でよかったね。
 
 ## ユークリッドの互除法
 
-さて最大公約数を求める計算方法としては「[ユークリッドの互除法]」が有名である。
+さて，最大公約数を求める機械向けの計算方法としては「[ユークリッドの互除法]」が有名である。
 具体的な手順は以下の通り。
 
 1. 32 を 20 で割った余りは 12
@@ -78,7 +79,8 @@ tags        = [ "golang", "function", "programming", "math", "greatest-common-di
 
 
 今回は[ユークリッドの互除法]の証明は割愛するとして[^pf1]，上記の手順の 1 から 4 は再帰処理になっていることが分かる。
-というわけで，こんな感じのコードを組んでみる（だいぶ端折ってゴメン）。
+というわけで，こんな感じのコードを組んでみる。
+（だいぶ端折ったコードでゴメン）
 
 [^pf1]: 結城浩さんが連載しておられる「[数学ガールの秘密ノート]」に[ユークリッドの互除法が出て来る](https://cakes.mu/posts/16292 "第195回　ユークリッドの互除法（前編）｜数学ガールの秘密ノート｜結城浩｜cakes（ケイクス）")。はやく本にならないかなぁ。
 
@@ -101,7 +103,7 @@ func main() {
 
 これで実行結果は 4 になる。
 
-実は最大公約数を求める関数は [`math/big`] パッケージに用意されている。
+実は [Go 言語]にも最大公約数を求める関数が標準パッケージ [`math/big`] に用意されている。
 こんな感じで使える。
 
 ```go
@@ -134,7 +136,7 @@ gcd(a, b) = ax + by
 \]
 {{< /fig-gen >}}
 
-となる $x$, $y$ の組み合わせを探す。
+となる $x$, $y$ の組み合わせを探すものだ。
 
 ## 3つ以上の数の最大公約数
 
@@ -185,11 +187,11 @@ func main() {
 
 ## Go で関数型プログラミング
 
-「[配列の全ての要素の最大公約数を求める]」で紹介されているコードでは `reduce()` 関数による関数型プログラミングになっている。
+「[配列の全ての要素の最大公約数を求める]」で紹介されているコードは高階関数（higher-order function）である `reduce()` による関数型プログラミングになっている。
 
-[Go 言語]の関数は第一級関数（first-class function）なので関数型プログラミングも可能なのだが， `reduce()` のような関数は標準では用意されていない。
+[Go 言語]の関数は第一級関数（first-class function）なので関数型っぽいプログラミングも可能なのだが， `reduce()` のような関数は標準では用意されていない。
 ただし，似たような機能を持つパッケージを公開しておられる人はいる。
-今回は以下のパッケージを紹介する。
+わざわざ自作するのもナニなので今回は以下のパッケージを利用させてもらう。
 
 - [robpike/filter: Simple apply/filter/reduce package.](https://github.com/robpike/filter)
 
@@ -221,7 +223,38 @@ func main() {
 }
 ```
 
-[`robpike/filter`] パッケージの作者も書いておられるのだが，
+もしくは `gcd()` 関数自体を引数に組み込んで
+
+```go
+package main
+
+import (
+	"fmt"
+	"math/big"
+
+	"github.com/robpike/filter"
+)
+
+func main() {
+	values := []uint64{290021904, 927964716, 826824516, 817140688}
+
+	fmt.Println(filter.Reduce(values,
+		func(m, n uint64) uint64 {
+			x := new(big.Int)
+			y := new(big.Int)
+			z := new(big.Int)
+			a := new(big.Int).SetUint64(m)
+			b := new(big.Int).SetUint64(n)
+			return z.GCD(x, y, a, b).Uint64()
+		},
+		1).(uint64)) // 92
+}
+```
+
+としてもよい。
+ほら，これなら「実質的にワンライナー」と呼べないこともない（笑）
+
+[`robpike/filter`] パッケージの作者も書いておられるが
 
 {{< fig-quote title="robpike/filter" link="https://github.com/robpike/filter" lang="en" >}}
 <q>I wanted to see how hard it was to implement this sort of thing in Go, with as nice an API as I could manage. It wasn't hard.<br>
@@ -232,14 +265,16 @@ You shouldn't use it either.</q>
 {{< /fig-quote >}}
 
 [`filter`].`Reduce()` 関数を駆動するコストを考えれば[^rf1] 普通に for 文で回せばいいよね。
+イマドキっぽく関数型言語の利点をいくつか取り込んでいるとはいえ Haskell のようなガッツリした関数型言語とは役割が異なるので，無理に関数型にこだわらなくてもいいということである。
 
 [^rf1]: [Go 言語] には総称型（Generics）がないため [`filter`].`Reduce()` 関数内部で [`reflect`] パッケージを駆使することになるが，その分はどうしてもパフォーマンスに影響を与えてしまう。（参考： [きみは Generics がとくいなフレンズなんだね，または「制約は構造を生む」]({{< relref "remark/2017/03/generics-vs-duck-typing.md" >}})）
 
 ## ブックマーク
 
-- [Go言語では高階関数よりforループを使え(by Rob Pike氏) - Qiita](https://qiita.com/yohhoy/items/d3c12361bb5eed3cbede)
-- [Goで関数型プログラミング - Qiita](https://qiita.com/taksatou@github/items/d721a62158f554b8e399)
 - [3つ以上の数の最大公約数と最小公倍数 - Qiita](https://qiita.com/tawatawa/items/408b872a7092be0d7b3c)
+- [Goで関数型プログラミング - Qiita](https://qiita.com/taksatou@github/items/d721a62158f554b8e399)
+- [Go言語では高階関数よりforループを使え(by Rob Pike氏) - Qiita](https://qiita.com/yohhoy/items/d3c12361bb5eed3cbede)
+- [関数型言語のウソとホント - Qiita](https://qiita.com/hiruberuto/items/26a813ab2b188ca39019)
 
 - [再帰呼び出しと関数テーブル]({{< relref "golang/recursive-call-and-function-table.md" >}})
 
