@@ -289,7 +289,7 @@ Mercury Mars Venus Earth
 
 となった。
 
-さて，実際に `sort.Slice()` 関数を覗いてみよう。
+さて，実際に [`sort`].`Slice()` 関数を覗いてみよう。
 
 ```go
 // maxDepth returns a threshold at which quicksort should switch

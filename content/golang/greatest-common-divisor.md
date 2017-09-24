@@ -1,7 +1,7 @@
 +++
 title = "最大公約数と関数型プログラミング"
 date =  "2017-09-23T23:32:56+09:00"
-update =  "2017-09-24T06:32:30+09:00"
+update =  "2017-09-24T11:54:57+09:00"
 description = "そうだ。最大公約数（greatest common divisor）の話をしよう。"
 tags        = [ "golang", "function", "programming", "math", "greatest-common-divisor", "recursion" ]
 
@@ -189,9 +189,11 @@ func main() {
 
 「[配列の全ての要素の最大公約数を求める]」で紹介されているコードは高階関数（higher-order function）である `reduce()` による関数型プログラミングになっている。
 
-[Go 言語]の関数は第一級関数（first-class function）なので関数型っぽいプログラミングも可能なのだが， `reduce()` のような関数は標準では用意されていない。
+[Go 言語]の関数は第一級関数（first-class function）なので関数型っぽいプログラミングも可能なのだが[^fp1]， `reduce()` のような関数は標準では用意されていない。
 ただし，似たような機能を持つパッケージを公開しておられる人はいる。
-わざわざ自作するのもナニなので今回は以下のパッケージを利用させてもらう。
+わざわざ自作するのもナニなので今回は以下のパッケージを利用させてもらおう。
+
+[^fp1]: あくまでも「ぽい」である。たとえば [Go 言語]では if 文や for 文などは関数でも演算子でもない単なる制御[構文（stateement）]({{< relref "golang/operators-and-statements.md" >}} "演算子とステートメント")であり，直接ロジックにコンパイルされる。これまでの手続き型言語と関数型言語の利点を合わせたような言語は「マルチパラダイム・プログラミング言語（multiparadigm programming language）」などと呼ばれたりする。 Python や Swift といった近頃流行りの言語もマルチパラダイムの流れのひとつである。
 
 - [robpike/filter: Simple apply/filter/reduce package.](https://github.com/robpike/filter)
 
@@ -264,10 +266,10 @@ Having written it a couple of years ago, I haven't had occasion to use it once. 
 You shouldn't use it either.</q>
 {{< /fig-quote >}}
 
-[`filter`].`Reduce()` 関数を駆動するコストを考えれば[^rf1] 普通に for 文で回せばいいよね。
+[`filter`].`Reduce()` 関数を駆動するコストを考えれば[^rf1] 普通に for 文で回したほうが安上がりだよね。
 イマドキっぽく関数型言語の利点をいくつか取り込んでいるとはいえ Haskell のようなガッツリした関数型言語とは役割が異なるので，無理に関数型にこだわらなくてもいいということである。
 
-[^rf1]: [Go 言語] には総称型（Generics）がないため [`filter`].`Reduce()` 関数内部で [`reflect`] パッケージを駆使することになるが，その分はどうしてもパフォーマンスに影響を与えてしまう。（参考： [きみは Generics がとくいなフレンズなんだね，または「制約は構造を生む」]({{< relref "remark/2017/03/generics-vs-duck-typing.md" >}})）
+[^rf1]: [Go 言語]には総称型（Generics）がないため [`filter`].`Reduce()` 関数内部で [`reflect`] パッケージを駆使することになるが，その分はどうしてもパフォーマンスに影響を与えてしまう（参考： [きみは Generics がとくいなフレンズなんだね，または「制約は構造を生む」]({{< relref "remark/2017/03/generics-vs-duck-typing.md" >}})）。しかし [`reflect`] パッケージが悪というわけではなく，たとえば[先日紹介]({{< relref "golang/sort.md" >}} "ソートを使う")した [`sort`].`Slice()` 関数は [`reflect`] パッケージを効果的に使用した例といえる。高階関数は見た目はクールだが，それに惑わされることなく目的に適うコードを選ぶことが重要である。とはいえ，勉強のために [Go 言語]で高階関数を組んでみようというのは悪くないと思う。
 
 ## ブックマーク
 
@@ -285,6 +287,7 @@ You shouldn't use it either.</q>
 [`big`]: https://golang.org/pkg/math/big/ "big - The Go Programming Language"
 [`math/big`]: https://golang.org/pkg/math/big/ "big - The Go Programming Language"
 [`reflect`]: https://golang.org/pkg/reflect/ "reflect - The Go Programming Language"
+[`sort`]: https://golang.org/pkg/sort/ "sort - The Go Programming Language"
 [`robpike/filter`]: https://github.com/robpike/filter "robpike/filter: Simple apply/filter/reduce package."
 [`filter`]: https://github.com/robpike/filter "robpike/filter: Simple apply/filter/reduce package."
 
