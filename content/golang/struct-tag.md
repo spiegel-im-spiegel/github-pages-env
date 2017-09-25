@@ -1,6 +1,6 @@
 +++
 date = "2016-02-05T00:11:53+09:00"
-update = "2017-03-18T14:32:28+09:00"
+update = "2017-09-25T13:08:33+09:00"
 description = "Struct で正規化できる情報であれば，タグを使うことでアプリケーション外部とのやり取りがずっと楽になる。"
 draft = false
 tags = ["golang", "struct", "tags", "marshal"]
@@ -270,6 +270,7 @@ note = "Web Application"
 - [Go 言語 1つの構造体に複数の validation を適応する - Qiita](http://qiita.com/iktakahiro/items/2e240147ca3188948a17) : [struct] タグに validation 情報を埋め込んで利用する
 - [Goのencoding/xmlを使いこなす - Qiita](http://qiita.com/ono_matope/items/70080cc33b75152c5c2a)
 - [Go言語でJSON内の整数は10進数6桁しか表現できない - Qiita](http://qiita.com/toast-uz/items/52f0c86716493ad3ca12)
+- [GolangでEnumをフィールドに持つstructをいい感じにjsonエンコード / デコードする - 一から勉強させてください(￣ω￣;)](http://dangerous-animal141.hatenablog.com/entry/2017/01/19/004650)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 

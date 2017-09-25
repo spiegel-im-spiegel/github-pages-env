@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-09-22T19:29:35+09:00"
+update = "2017-09-25T13:08:33+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -254,6 +254,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Goでsql.NullStringを含む構造体をjson.Marshalする方法 - Qiita](http://qiita.com/oikyn/items/26808b03997797f1b342)
 - [Go言語でJSON内の整数は10進数6桁しか表現できない - Qiita](http://qiita.com/toast-uz/items/52f0c86716493ad3ca12)
 - [JSONSchemaからstructのようなコードを生成する"structr"というのを書いた - Qiita](http://qiita.com/damele0n/items/92a9b845c991b1b29aea)
+- [GolangでEnumをフィールドに持つstructをいい感じにjsonエンコード / デコードする - 一から勉強させてください(￣ω￣;)](http://dangerous-animal141.hatenablog.com/entry/2017/01/19/004650)
 
 ### [`time`] パッケージ
 
@@ -381,6 +382,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [go 1.5でgomobile(android) - unokun’s blog](http://unokun.hatenablog.jp/entry/2015/08/01/150628)
 - [gomobileでiOSアプリをビルドする手順まとめ - GolangRdyJp](http://golang.rdy.jp/2015/09/21/ios-gomobile/)
 - [gomobileで日本語フォントを扱ってみる - Qiita](http://qiita.com/bowz_standard/items/5a9c987f9242777fff30)
+- [Gobotの招きにあひて、徒然なるままにArduinoとRaspberry PiでIoTっぽいことをやってみるなり - Qiita](https://qiita.com/KemoKemo/items/10fb644f9d359c35646a)
 
 ### ビルド時に情報を各種埋め込みたい
 
