@@ -19,7 +19,6 @@ linkedin  = "spiegelimspiegel"
 flattr    = "spiegel"
 
 [scripts]
-  highlightjs = false
   mathjax = false
   mermaidjs = false
 +++

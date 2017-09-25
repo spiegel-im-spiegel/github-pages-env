@@ -5,6 +5,8 @@ languageCode    = "ja"
 DefaultContentLanguage = "ja"
 preserveTaxonomyNames = false
 disqusShortname = "textbaldandersinfo"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
 
 [taxonomies]
   tags = "tags"

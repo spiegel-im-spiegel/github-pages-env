@@ -20,7 +20,6 @@ draft = true
   flattr    = "spiegel"
 
 [scripts]
-  highlightjs = true
   mathjax = true
   mermaidjs = false
 +++
