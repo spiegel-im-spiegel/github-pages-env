@@ -28,7 +28,9 @@ tags        = [ "hugo", "syntax-highlight", "shortcodes", "markdown" ]
 - [Hugo | Hugo 0.28: High-speed Syntax Highlighting!](https://gohugo.io/news/0.28-relnotes/)
 
 今回のアップデートの目玉は [Golang] 製の  [Chroma] を組み込んで Syntax Highlight に対応したことだろう。
-それまでは [Pygments] のようなツールを使うか [highlight.js] のようなスクリプトを噛ませるかだったのだが，ようやく [Hugo] が自前で用意できるようになった。
+それまでは [Pygments] のようなツールを使うか [highlight.js] のようなスクリプトを噛ませるかだったのだが，ようやく [Hugo] が自前で用意できるようになった[^sh1]。
+
+[^sh1]: いや，簡易的なものなら以前からあったのだが，吐き出すコードがイマイチで使う気にならなかったんだよねぇ。
 
 Syntax Highlight の設定方法については[マニュアル](https://gohugo.io/documentation/ "Hugo | Hugo Documentation")の以下のページが参考になる。
 
