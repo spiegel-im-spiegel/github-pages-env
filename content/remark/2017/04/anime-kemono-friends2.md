@@ -1,8 +1,8 @@
 +++
 tags = ["anime"]
-description = "「けもフレ」最終話で泣けたシーン / Commons としての「けもフレ」"
+description = "「けもフレ」最終話で泣けたシーン / Commons としての「けもフレ」 / 息抜きで作られた「12.1話」"
 date = "2017-04-03T20:18:14+09:00"
-update = "2017-04-05T13:59:41+09:00"
+update = "2017-09-26T22:08:21+09:00"
 title = "「けもフレ」ロスは続く。"
 draft = false
 
@@ -19,6 +19,10 @@ draft = false
   flattr = "spiegel"
   instagram = "spiegel_2007"
   twitter = "spiegel_2007"
+  
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 「けもフレ」ロスは続く。
@@ -93,6 +97,13 @@ BD 抜きで2,000円～3,000円くらいで売ってくれんかな。
 
 - [たつき監督、けものフレンズ第12.1話「ばすてき」を公開 - やじうまの杜 - 窓の杜](http://forest.watch.impress.co.jp/docs/serial/yajiuma/1053179.html)
 - [「たつき監督ありがとう」の嵐！　『けものフレンズ』12.1話「ばすてき」まさかの公開 ｜ ガジェット通信](http://getnews.jp/archives/1686664)
+
+## ブックマーク
+
+- [ウマのフレンズ | Umabi - 今度の休みは、うまびより。](http://umabi.jp/kemono-friends/)
+    - [すぺしゃる動画「けいばじょう」 - YouTube](https://www.youtube.com/watch?v=EX_Fgi7vd5I)
+- [けものフレンズ×アニサマ2017 「あにさま」 - YouTube](https://www.youtube.com/watch?v=HUMnembozUw)
+- [日清のどん兵衛 × けものフレンズ 「ふっくら」 - YouTube](https://www.youtube.com/watch?v=LjaVOMyQEpI)
 
 [クトゥルー神話]: https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%88%E3%82%A5%E3%83%AB%E3%83%95%E7%A5%9E%E8%A9%B1 "クトゥルフ神話 - Wikipedia"
 
