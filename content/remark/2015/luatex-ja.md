@@ -1,9 +1,9 @@
 +++
 date = "2015-09-27T01:32:49+09:00"
-update = "2015-09-28T20:35:00+09:00"
+update = "2017-09-27T19:20:35+09:00"
 description = "LuaTeX では pdfTeX と同等のことができ， DVI ファイルではなく PDF ファイルを直接出力する。なおかつ callback を記述することにより内部処理に割り込みをかけ機能拡張することが可能になっている。LuaTeX-ja はこの機能拡張を使って日本語組版を LuaTeX の上で実現する。"
 draft = false
-tags = ["tex"]
+tags = ["lua", "tex"]
 title = "LuaTeX-ja に関する覚え書き"
 
 [author]
