@@ -200,11 +200,13 @@ title = "Go 言語に関するブックマーク"
 - [Goroutineと channelから はじめるgo言語](http://www.slideshare.net/takuyaueda967/goroutine-channel-go)
 - [Go言語の並行処理デザインパターン by Rob Pike 前編 - Qiita](http://qiita.com/tfutada/items/a289628d8b2d0af6152d)
     - [Go言語の並行処理デザインパターン by Rob Pike 後編 - Qiita](http://qiita.com/tfutada/items/dc8db894ac270a79ef2b)
-- [Big Sky :: golang の channel を使ったテクニックあれこれ](http://mattn.kaoriya.net/software/lang/go/20160706165757.htm)
 - [goroutine を安全に止める方法 - Qiita](http://qiita.com/castaneai/items/7815f3563b256ae9b18d)
 - [Goの同時関数呼び出しを１回で済ませられるライブラリ 「SingleFlight」 が便利 - Qiita](https://qiita.com/igtm/items/8b5343272bc35cd3bc0b)
 - [【コンピュータ将棋】ゴルーチンでお手軽持ち時間管理＆並行探索 - Qiita](http://qiita.com/32hiko/items/3be36dad2d651399ba1b)
 - [Goのワークスティーリング型スケジューラ | プログラミング | POSTD](http://postd.cc/scheduler/)
+- [goの並行処理パターンについてのリンク集 - Qiita](https://qiita.com/ryskiwt/items/b721f6aecc5b3d680462)
+    - [chanの使い方パターンメモ。 - GolangRdyJp](http://golang.rdy.jp/2015/03/25/chan_tips/)
+    - [Big Sky :: golang の channel を使ったテクニックあれこれ](http://mattn.kaoriya.net/software/lang/go/20160706165757.htm)
 
 Go 言語で複数 CPU を使った並列処理を行うには明示的な設定が必要。
 
