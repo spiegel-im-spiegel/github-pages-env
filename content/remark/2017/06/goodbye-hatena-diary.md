@@ -1,7 +1,7 @@
 +++
 title = "「さよならはてなダイアリー」 ― 黒 Web 2.0 の終焉"
 date =  "2017-06-28T22:25:32+09:00"
-update =  "2017-06-28T23:14:49+09:00"
+update =  "2017-09-27T09:20:29+09:00"
 description = "今から見れば中二病全開のサービスだったわけ。"
 tags        = [ "web", "blog", "cms" ]
 draft = false
@@ -45,3 +45,7 @@ draft = false
 [^hb]: はてなブログは継続。しかし，SNS が主流になり「ブログ」が完全に下火なった2013年からようやくブログサービスを始めたはてなは流石としか言いようがない（笑） ちなみに [Facebook が Instagram 買収を発表した](http://jp.techcrunch.com/2012/04/10/20120409facebook-to-acquire-instagram-for-1-billion/ "Facebook、Instagramを10億ドルで買収 | TechCrunch Japan")のはそれより前の2012年である（当時 Android 版のアプリが出たばかりでショックを受けたのを覚えている）。
 
 そして「すべては歴史の闇の中」ですな。
+
+## ブックマーク
+
+- [はてな創業者・近藤会長、代表取締役を退任へ - ITmedia ビジネスオンライン](http://www.itmedia.co.jp/business/articles/1709/26/news092.html)

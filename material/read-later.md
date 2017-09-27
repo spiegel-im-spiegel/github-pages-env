@@ -3,6 +3,7 @@
 
 ## Age of Trump
 
+- [北朝鮮による「アメリカの宣戦布告」論について : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/20853867.html)
 
 ## セキュリティ関連
 
@@ -15,6 +16,9 @@
 ## 天文関連
 
 - [ハリケーン直撃のアレシボ電波望遠鏡､305m径巨大反射鏡の受信部落下の被害。今後の運営にも暗雲 - Engadget 日本版](http://japanese.engadget.com/2017/09/25/305m/)
+- [OSIRIS-REx Asteroid Mission Views the Earth During Flyby | NASA](https://www.nasa.gov/image-feature/goddard/2017/osiris-rex-views-the-earth-during-flyby)
+- [APOD: 2017 September 26 - Cassinis Last Ring Portrait at Saturn](https://apod.nasa.gov/apod/ap170926.html)
+- [大型低温重力波望遠鏡KAGRA 高性能鏡の防振装置 | 国立天文台(NAOJ)](https://www.nao.ac.jp/gallery/weekly/2017/20170926-kagra.html)
 
 ## その他
 
@@ -29,5 +33,8 @@
 - [グーグル、企業の「Android」デバイス向けに「zero-touch enrollment」リリース - ZDNet Japan](https://japan.zdnet.com/article/35107694/)
 - [「ネット投稿小説」の現在 « マガジン航[kɔː]](https://magazine-k.jp/category/series/contemporary-web-fiction/)
     - [第3回：小説家になろう〜「場」の提供に徹底する先駆者 « マガジン航[kɔː]](https://magazine-k.jp/2017/06/03/contemporary-web-fiction-03/)
+- [With new Microsoft breakthroughs, general purpose quantum computing moves closer to reality - News Center](https://news.microsoft.com/features/new-microsoft-breakthroughs-general-purpose-quantum-computing-moves-closer-reality/)
+    - [マイクロソフト、量子コンピュータ向けプログラミング言語を発表 - ZDNet Japan](https://japan.zdnet.com/article/35107801/)
+- [Appleは差分プライバシー技術を利用して個人データに触らずにSafariの閲覧データを収集 | TechCrunch Japan](http://jp.techcrunch.com/2017/09/26/20170925apple-starts-collecting-browsing-data-in-safari-using-its-differential-privacy-tech/)
 
 (end of file)
