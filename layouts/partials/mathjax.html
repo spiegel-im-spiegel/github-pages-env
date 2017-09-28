@@ -7,16 +7,18 @@ MathJax.Hub.Config({
 		processEscapes: true
 	},
 	TeX: {
-		equationNumbers: { autoNumber: "AMS" }
+		equationNumbers: { autoNumber: "AMS" },
+	    extensions: ["mhchem.js"]
 	},
 	CommonHTML: {
 		matchFontHeight: false
 	},
 	"HTML-CSS": {
-		availableFonts: [],
-		preferredFont: null,
-		webFont: "STIX-Web"
+		availableFonts: ["STIX"],
+	    preferredFont: "STIX",
+		webFont: "STIX-Web",
+		matchFontHeight: false
 	}
 });
 </script>
-<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_CHTML&amp;locale=ja"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML&amp;locale=ja"></script>
