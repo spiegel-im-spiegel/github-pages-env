@@ -35,7 +35,7 @@ tags        = [ "math", "tex", "mathjax" ]
 まず最初に，大原則として「数式で使う文字はイタリック体[^it1]で書く」というのがある。
 たとえば，こんな感じだ。
 
-[^it1]: $\\mathrm{\TeX}$ ではイタリック体（italics）と斜体（slanted）は異なる書体である。また斜体はしばしばローマン体（Roman）から合成される場合がある。
+[^it1]: $\\mathrm{\TeX}$ ではイタリック体（italics）と斜体（slanted）は異なる字体である。また斜体はしばしばローマン体（Roman）から合成される場合がある。
 
 > エネルギーと質量には $$E=mc^2$$ の関係がある。
 
@@ -140,9 +140,9 @@ $$
 ポイントは数字と $\sin$ 関数である。
 
 実は，現行の [MathJax] では `Neo-Euler` にイタリック体が用意されていない[^euler1]。
-このため名前も変数も数字も同じ字形で表示されてしまうのだ[^euler2]。
+このため名前も変数も数字も同じ字体で表示されてしまうのだ[^euler2]。
 
-[^euler1]: $\mathrm{\LaTeX}$ での処理結果と比較するかぎり `Neo-Euler` の文字はイタリック体に見えるのだが，[リポジトリに格納されているフォントセット](https://github.com/mathjax/MathJax/tree/master/fonts/HTML-CSS/Neo-Euler)のファイル名を見るとローマン体の扱いになっているようである。いずれにしても Euler 書体は手書き文字が元になっているためローマン体やイタリック体といった字形の区別はないと思われる。
+[^euler1]: $\mathrm{\LaTeX}$ での処理結果と比較するかぎり `Neo-Euler` の文字はイタリック体に見えるのだが，[リポジトリに格納されているフォントセット](https://github.com/mathjax/MathJax/tree/master/fonts/HTML-CSS/Neo-Euler)のファイル名を見るとローマン体の扱いになっているようである。いずれにしても Euler 書体は手書き文字が元になっているためローマン体やイタリック体といった字体の区別はないと思われる。
 [^euler2]: $\mathrm{\LaTeX}$ でも Euler を Concrete と組み合わせるのが普通みたいなので， [MathJax] でも Web フォントを複数指定できるようにするか Concrete ＋ Euler の組み合わせをひとつのフォントセットとして定義しないとダメだと思う。
 
 {{< fig-quote title="The HTML-CSS output processor" link="http://docs.mathjax.org/en/latest/options/output-processors/HTML-CSS.html" lang="en" >}}
