@@ -1,7 +1,7 @@
 +++
 title = "ちょこっと MathJax： 初期設定"
 date =  "2017-09-27T20:02:09+09:00"
-update =  "2017-09-28T06:34:47+09:00"
+update =  "2017-09-28T22:25:54+09:00"
 description = "この記事ではまず Web ページ上で MathJax が動くところまで説明していこう。"
 tags        = [ "math", "tex", "mathjax", "blog", "site" ]
 
@@ -27,6 +27,7 @@ tags        = [ "math", "tex", "mathjax", "blog", "site" ]
 ちょっと思いついたので，これから何回かに分けて [MathJax] について簡単に紹介していきたいと思う。
 
 1. [ちょこっと MathJax： 初期設定]({{< relref "remark/2017/09/getting-started-mathjax-1.md" >}}) ← イマココ
+2. [ちょこっと MathJax： 基本的な数式表現]({{< relref "remark/2017/09/getting-started-mathjax-2.md" >}})
 
 [MathJax] は Web ブラウザ上で数学論文等でも使える高品質な数式表現を行うための JavaScript パッケージで GitHub にリポジトリがある。
 
@@ -47,7 +48,7 @@ tags        = [ "math", "tex", "mathjax", "blog", "site" ]
 と適切に表示してくれる[^mj1]。
 
 この記事ではまず Web ページ上で [MathJax] が動くところまでを説明していこう。
-数式の書き方については次回以降に解説していく予定である。
+数式の書き方については[次回]以降に解説していく予定である。
 
 [^mj1]: `$E=mc^2$` という入力に対して $E=mc^2$ と，各文字間を適切に空けたり詰めたりしてくれるのがお分かりだろうか。このように $\\mathrm{\TeX}$ では数式を半自動的かつ適切に「組版」してくれるのが特徴である。ただし万能ではない。
 
@@ -95,7 +96,7 @@ MathJax.Hub.Config({ ... });
 全部を説明するのは大変なので，よく使いそうなものを幾つか紹介しよう。
 なお，[最後の節]({{< relref "#mysetting" >}})に[本ブログ]におけるオプションの設定例を挙げているので，以降の解説がウザい方は丸写しでも OK です（笑）
 
-（次節以降に出てくる「インライン数式」および「別行立て数式」については次回に説明する）
+（次節以降に出てくる「インライン数式」および「別行立て数式」については[次回]に説明する）
 
 ### [Core Configuration Options](http://docs.mathjax.org/en/latest/options/hub.html "The Core Configuration Options — MathJax 2.7 documentation") {#core}
 
@@ -281,7 +282,7 @@ Web フォントを使用しない場合は null を指定する。
 ちなみに [STIX (Scientific and Technical Information Exchange)](http://www.stixfonts.org/ "STIX Fonts Project Website") は Times 系の書体のひとつで，長い開発期間を経て2010年に正式リリースされた。
 Microsoft Office や macOS などには既に同梱されているらしい。
 
-`"Neo-Euler"` は黒板手書き風の Euler フォントで数式好きの方には人気が高い[^fnt1] が， [MathJax] で利用する際には制限があるため取り扱いには若干の注意が必要である（次回で解説）。
+`"Neo-Euler"` は黒板手書き風の Euler フォントで数式好きの方には人気が高い[^fnt1] が， [MathJax] で利用する際には制限があるため取り扱いには若干の注意が必要である（[次回]で解説）。
 
 [^fnt1]: 結城浩さんの「数学ガール」シリーズでは数式表現に Euler フォントを使用している。
 
@@ -334,6 +335,7 @@ MathJax.Hub.Config({
 [MathJax]: https://www.mathjax.org/
 [“CommonHTML” オプション]: http://docs.mathjax.org/en/latest/options/output-processors/CommonHTML.html "The CommonHTML output processor — MathJax 2.7 documentation"
 [“HTML-CSS” オプション]: http://docs.mathjax.org/en/latest/options/output-processors/HTML-CSS.html "The HTML-CSS output processor — MathJax 2.7 documentation"
+[次回]: {{< relref "remark/2017/09/getting-started-mathjax-2.md" >}} "ちょこっと MathJax： 基本的な数式表現"
 
 ## 参考図書 {#books}
 
