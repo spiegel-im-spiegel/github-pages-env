@@ -1,6 +1,7 @@
 +++
 title = "日本には「創造的なコモンズ」など成立し得ないことがよっく分かったよ"
 date =  "2017-09-27T07:01:17+09:00"
+update = "2017-09-29T10:16:36+09:00"
 description = "Fair use も parody も（法律上は）存在しない日本では「引用か翻案か」で線引するしかない。で，実質は（「共有」などではなく）「お目こぼし」というかたちで権利者の胸三寸で全てが決まってしまうのだ。 つまり権利者が「気に入らない」と言えば，そこで試合終了なのだ。"
 tags        = [ "anime", "copyright", "creative-commons", "code", "law", "intellectual-property" ]
 
@@ -66,6 +67,9 @@ Fair use も parody も（法律上は）存在しない日本では「引用か
 **世界よ。これが COOL JAPAN である！**
 
 ## ブックマーク
+
+- [Kemono Friends website releases statement regarding director Tatsuki's removal, Kemono Friends movie delayed - SGCafe](http://sgcafe.com/2017/09/kemono-friends-website-releases-statement-regarding-director-tatsukis-removal-kemono-friends-movie-delayed/) : 海外の反応
+- [けものフレンズ監督降板騒動「功労者をのけものにする」KADOKAWAの企業体質(1ページ目) - デイリーニュースオンライン](http://dailynewsonline.jp/article/1359354/)
 
 - [改訂3版： CC Licenses について](/cc-licenses/)
 

@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-09-25T13:08:33+09:00"
+update = "2017-09-29T10:16:36+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -227,6 +227,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [golangのloggerを作ってみた - Qiita](http://qiita.com/kazuma1107/items/009454fca4f56af6e411)
 - [golangの高速な構造化ログライブラリ「zap」の使い方 - Qiita](http://qiita.com/emonuh/items/28dbee9bf2fe51d28153)
 - [zapでログレベルでログの出力先を振り分ける方法 - Qiita](http://qiita.com/emonuh/items/cb3a730979dba7d76920)
+- [go-logging における "module" の意味 - Qiita](https://qiita.com/shinsa82/items/c05a0e8544ecdb87c442)
 
 ### エラーハンドリング
 
@@ -573,6 +574,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go言語の依存管理ツールを作って、開発環境構築を覚えた - Qiita](http://qiita.com/eaglesakura/items/b7e92281735569c528a6)
 - [GAE/Go で Google Cloud Spanner を操作する（前編） - Qiita](http://qiita.com/wezardnet/items/daf520b82e2199d16f4f)
 - [GAE/Goでもgoroutine使おうぜ！というハナシ - Qiita](http://qiita.com/hogedigo/items/f0f409ee944c4b2107c3) : GAE/Go の API には非同期版がないので積極的に goroutine 使おうよ，という話
+- [CircleCI 2.0でGlide管理のGoをGAEにデプロイする - Qiita](https://qiita.com/kenichi_odo/items/074f1b9541dd0487f1d8)
 
 ## Excel との連携
 

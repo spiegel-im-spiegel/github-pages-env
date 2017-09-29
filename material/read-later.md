@@ -12,6 +12,9 @@
 - [GPS Spoofing Attacks - Schneier on Security](https://www.schneier.com/blog/archives/2017/09/gps_spoofing_at.html)
 - [多数のオラクル製品に臨時パッチ--Apache Strutsの脆弱性を修正 - ZDNet Japan](https://japan.zdnet.com/article/35107701/)
 - [「ActivePerl」v5.26が公開、脆弱性対策として“@INC”の仕様変更が導入される - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1082540.html)
+- [安全なメッセージングサービスSignalがアップデートしてユーザーのアドレス帳の守秘性をアップ | TechCrunch Japan](http://jp.techcrunch.com/2017/09/28/20170926signal-update-keeps-your-address-book-secret-keeps-it-safe/)
+- [【注意喚起】Windowsアプリケーションの利用における注意：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20170928_dll.html)
+- [KasperskyがCVE採番機関として認定 ～脆弱性にIDを付与 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1082817.html)
 
 ## 天文関連
 
@@ -36,5 +39,12 @@
 - [With new Microsoft breakthroughs, general purpose quantum computing moves closer to reality - News Center](https://news.microsoft.com/features/new-microsoft-breakthroughs-general-purpose-quantum-computing-moves-closer-reality/)
     - [マイクロソフト、量子コンピュータ向けプログラミング言語を発表 - ZDNet Japan](https://japan.zdnet.com/article/35107801/)
 - [Appleは差分プライバシー技術を利用して個人データに触らずにSafariの閲覧データを収集 | TechCrunch Japan](http://jp.techcrunch.com/2017/09/26/20170925apple-starts-collecting-browsing-data-in-safari-using-its-differential-privacy-tech/)
+- [spwdというパスワード管理ツールを作った | tail -f pinzo.log](https://pinzolo.github.io/2017/09/28/spwd-is-secret-file-based-password-manager.html)
+- [If文から機械学習への道](https://www.slideshare.net/nishio/if-80195170)
+- [米Facebook、批判を受けて「React」のライセンスから特許条項を削除へ | OSDN Magazine](https://mag.osdn.jp/17/09/25/184500)
+    - [FacebookのオープンソースなライブラリのMIT化スタートしてた - Qiita](https://qiita.com/riawiththesam/items/2867dc919db992da19a6)
+- [Rubyのtrueとfalseの話 - Qiita](https://qiita.com/rotelstift/items/70461f35c0d691e7b246)
+- [Mozilla、「Firefox 57」改め「Firefox Quantum」を発表 ～従来バージョンの2倍高速 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1083038.html)
+- [Amazon MusicがAlexaの機能を搭載 | TechCrunch Japan](http://jp.techcrunch.com/2017/09/27/20170926amazon-adds-alexa-voice-control-to-the-amazon-music-app/)
 
 (end of file)
