@@ -3,7 +3,7 @@ description = "個人で Slack を使ってみる。"
 draft = false
 tags = ["slack", "tools", "feed"]
 date = "2017-01-09T17:24:54+09:00"
-update = "2017-02-19T13:55:23+09:00"
+update = "2017-09-29T22:47:55+09:00"
 title = "いまさら聞けない Slack の使い方"
 
 [author]
@@ -80,7 +80,11 @@ title = "いまさら聞けない Slack の使い方"
     - [中東・イスラーム学の風姿花伝](http://ikeuchisatoshi.com/feed/)
     - [お知らせ | さくらインターネット](https://www.sakura.ad.jp/rss/info.rdf)
     - [Blog – Creative Commons](https://creativecommons.org/blog/feed/)
-    - [「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/)
+    - [「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/atom.xml)
+    - [The Go Programming Language Blog](https://blog.golang.org/feed.atom)
+    - [Foresight](http://www.fsight.jp/list/feed/rss)
+    - [Hugo](https://gohugo.io/index.xml "A Fast and Flexible Website Generator on Hugo")
+    - [MathJax](https://www.mathjax.org/feed.xml)
 - #security
     - [IPAセキュリティセンター:重要なセキュリティ情報](https://www.ipa.go.jp/security/rss/alert.rdf)
     - [情報セキュリティ新着情報RSS](https://www.ipa.go.jp/security/rss/info.rdf)
@@ -118,6 +122,8 @@ title = "いまさら聞けない Slack の使い方"
 もし追加したアプリ等あればこの記事に追記していくことにする。
 
 ## ブックマーク
+
+- [ワークスペースに新規メンバーを招待する – Slack](https://get.slack.help/hc/ja/articles/201330256-Invite-new-members-to-your-Slack-team)
 
 - [We're on Slack! Join us! - Creative Commons](https://creativecommons.org/2016/10/18/slack-announcement/)
 - [Qiitaの特定タグへの新着投稿をRSS受信する - Qiita](http://qiita.com/takecy/items/7e587e91aa2574926299)

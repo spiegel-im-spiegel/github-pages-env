@@ -15,6 +15,8 @@
 - [安全なメッセージングサービスSignalがアップデートしてユーザーのアドレス帳の守秘性をアップ | TechCrunch Japan](http://jp.techcrunch.com/2017/09/28/20170926signal-update-keeps-your-address-book-secret-keeps-it-safe/)
 - [【注意喚起】Windowsアプリケーションの利用における注意：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20170928_dll.html)
 - [KasperskyがCVE採番機関として認定 ～脆弱性にIDを付与 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1082817.html)
+- [通信経路を匿名化するブラウザー「Tor Browser」v7.0.6 ～9件の脆弱性を修正 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1083486.html)
+- [Internet Explorer bug leaks whatever you type in the address bar | Ars Technica](https://arstechnica.com/information-technology/2017/09/bug-in-fully-patched-internet-explorer-leaks-text-in-address-bar/)
 
 ## 天文関連
 
@@ -46,5 +48,6 @@
 - [Rubyのtrueとfalseの話 - Qiita](https://qiita.com/rotelstift/items/70461f35c0d691e7b246)
 - [Mozilla、「Firefox 57」改め「Firefox Quantum」を発表 ～従来バージョンの2倍高速 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1083038.html)
 - [Amazon MusicがAlexaの機能を搭載 | TechCrunch Japan](http://jp.techcrunch.com/2017/09/27/20170926amazon-adds-alexa-voice-control-to-the-amazon-music-app/)
+- [『C言語による最新アルゴリズム事典』](https://oku.edu.mie-u.ac.jp/~okumura/algo/)
 
 (end of file)

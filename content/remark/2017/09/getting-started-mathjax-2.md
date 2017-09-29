@@ -103,7 +103,8 @@ $\mathrm{d}x$ の d はイタリック体 $d$ ではなくローマン体 $\math
 
 ### Neo-Euler にはイタリック体がない
 
-まず [MathJax] で Web フォント `Neo-Euler` を利用するために `HTML-CSS` オプションを以下のように設定する[^chtml1]。
+数式好きの方に人気がある（らしい） Euler 書体は [MathJax] では Web フォント `Neo-Euler` として提供されている。
+`Neo-Euler` を利用するためには `HTML-CSS` オプションを以下のように設定する[^chtml1]。
 
 [^chtml1]: Web フォントの指定は `TeX-AMS_HTML` コンフィギュレーションでのみ可能である。 `TeX-AMS_CHTML` では今のところ `"TeX"` 固定になっている。
 
@@ -143,7 +144,7 @@ $$
 実は，現行の [MathJax] では `Neo-Euler` にイタリック体が用意されていない[^euler1]。
 このため名前も変数も数字も同じ字体で表示されてしまうのだ[^euler2]。
 
-[^euler1]: $\mathrm{\LaTeX}$ での処理結果と比較するかぎり `Neo-Euler` の文字はイタリック体に見えるのだが，[リポジトリに格納されているフォントセット](https://github.com/mathjax/MathJax/tree/master/fonts/HTML-CSS/Neo-Euler)のファイル名を見るとローマン体の扱いになっているようである。いずれにしても Euler 書体は手書き文字が元になっているためローマン体やイタリック体といった字体の区別はないと思われる。
+[^euler1]: $\mathrm{\LaTeX}$ での処理結果と比較するかぎり `Neo-Euler` の文字はイタリック体に見えるのだが，[リポジトリに格納されているフォントセット](https://github.com/mathjax/MathJax/tree/master/fonts/HTML-CSS/Neo-Euler)のファイル名を見るとローマン体の扱いになっているようである。というか Euler 書体は手書き文字が元になっているためローマン体やイタリック体といった字体の区別はないと思われる。
 [^euler2]: $\mathrm{\LaTeX}$ でも Euler を Concrete と組み合わせるのが普通みたいなので， [MathJax] でも Web フォントを複数指定できるようにするか Concrete ＋ Euler の組み合わせをひとつのフォントセットとして定義しないとダメだと思う。
 
 {{< fig-quote title="The HTML-CSS output processor" link="http://docs.mathjax.org/en/latest/options/output-processors/HTML-CSS.html" lang="en" >}}
@@ -198,7 +199,7 @@ $\mathrm{\TeX}$ 記法では不等号記号はそのまま `<` や `>` 文字を
 ## TeX 記法のメリットは可搬性にある {#benefit}
 
 こうした細かい面倒がありつつも $\mathrm{\TeX}$ 記法を使う理由は，記述の可搬性にある。
-数式を $\mathrm{\TeX}$ 記法で書けば，それはそのまま他のブログや論文に流用できる。
+数式を $\mathrm{\TeX}$ 記法で書けば，それはそのまま他のブログや論文に流用できるし，式の構成をちょこちょこっと変えて「翻案」するのも簡単である。
 これは MathML のような見た目だけを制御する記述形式にはない利点と言える[^acm]。
 
 [^acm]: [本ブログ]では触れないが， [MathJax] は [AsciiMath] にも対応している。 [AsciiMath] にも $\mathrm{\TeX}$ 記法と同様のメリットがある。 [AsciiMath] と $\mathrm{\TeX}$ 記法の比較記事は時々目にするが，個人的には使いやすい方を使えばいいと思う。個人的に $\mathrm{\TeX}$， というか $\mathrm{\LaTeX}$ を気に入っているのは，見た目の美麗さだけを追求する（出来の悪いペイント・ツールのごとき）ことではなく，かといって届かない理想ばかりを追いかける潔癖症なシステムでもなく，賢さと泥臭さを上手く融合させている点にある。そうでなければ，ひとつのシステムが（中身が変貌しつつも）40年近くも継続して使われ続ける筈がない。
