@@ -1,7 +1,7 @@
 +++
 title = "ちょこっと MathJax： 初期設定"
 date =  "2017-09-27T20:02:09+09:00"
-update =  "2017-09-28T22:25:54+09:00"
+update =  "2017-10-01T12:27:08+09:00"
 description = "この記事ではまず Web ページ上で MathJax が動くところまで説明していこう。"
 tags        = [ "math", "tex", "mathjax", "blog", "site" ]
 
@@ -33,9 +33,9 @@ tags        = [ "math", "tex", "mathjax", "blog", "site" ]
 
 - [MathJax リポジトリ](https://github.com/mathjax)
 
-数式表現として $\\mathrm{\TeX}$ 記法[^mj0] が使えるのが特徴で，たとえば HTML ソースに
+数式表現として $\mathrm{\TeX}$ 記法[^mj0] が使えるのが特徴で，たとえば HTML ソースに
 
-[^mj0]: 厳密には $\\mathrm{\TeX}$ 記法ではなく $\\mathrm{\LaTeX}$ 記法である。が，ここでは両者を区別することにあまり意味が無いので「$\\mathrm{\TeX}$ 記法」で通すことにする。
+[^mj0]: 厳密には $\mathrm{\TeX}$ 記法ではなく $\mathrm{\LaTeX}$ 記法である。が，ここでは両者を区別することにあまり意味が無いので「$\mathrm{\TeX}$ 記法」で通すことにする。
 
 ```html
 エネルギーと質量には $E=mc^2$ の関係がある。
@@ -50,7 +50,7 @@ tags        = [ "math", "tex", "mathjax", "blog", "site" ]
 この記事ではまず Web ページ上で [MathJax] が動くところまでを説明していこう。
 数式の書き方については[次回]以降に解説していく予定である。
 
-[^mj1]: `$E=mc^2$` という入力に対して $E=mc^2$ と，各文字間を適切に空けたり詰めたりしてくれるのがお分かりだろうか。このように $\\mathrm{\TeX}$ では数式を半自動的かつ適切に「組版」してくれるのが特徴である。ただし万能ではない。
+[^mj1]: `$E=mc^2$` という入力に対して $E=mc^2$ と，各文字間を適切に空けたり詰めたりしてくれるのがお分かりだろうか。このように $\mathrm{\TeX}$ では数式を半自動的かつ適切に「組版」してくれるのが特徴である。ただし万能ではない。
 
 ## [MathJax] のインストール {#install}
 
@@ -68,7 +68,7 @@ CDN (Content Delivery Network) で配布されているので HTML の `<head>` 
 
 - [MathJax v2.7.2 now available](https://www.mathjax.org/mathjax-v2-7-2-now-available/)
 
-URL パラメータ部の `config=TeX-AMS_HTML` については[指定可能なコンフィギュレーション](http://docs.mathjax.org/en/latest/config-files.html "Combined Configurations — MathJax 2.7 documentation")がいくつかあるが，  $\\mathrm{\TeX}$ 記法を使うのであれば `TeX-AMS_CHTML` または `TeX-AMS_HTML` を指定するのがいいだろう[^html1]。
+URL パラメータ部の `config=TeX-AMS_HTML` については[指定可能なコンフィギュレーション](http://docs.mathjax.org/en/latest/config-files.html "Combined Configurations — MathJax 2.7 documentation")がいくつかあるが，  $\mathrm{\TeX}$ 記法を使うのであれば `TeX-AMS_CHTML` または `TeX-AMS_HTML` を指定するのがいいだろう[^html1]。
 さらにパラメータ部に `locale=ja` を追加すると，数式部分で表示されるコンテキスト・メニューが日本語になる。
 
 [^html1]: `TeX-AMS_CHTML` を指定すると `HTML-CSS` オプションをまるっと無視してしまい Web フォントの指定ができない。逆に `TeX-AMS_HTML` では `CommonHTML` オプションを無視してしまうようだ。 [MathJax] 側は `TeX-AMS_HTML` を古いブラウザ向けのレガシーなコンフィギュレーションと位置付けているようだが，やはり `TeX-AMS_CHTML` では Web フォントのカスタマイズができない（現在は `"TeX"` のみサポート）のが致命的だろう。この辺は今後のバージョンアップに期待したいところ。
@@ -267,7 +267,7 @@ MathJax.Hub.Config({
 ローカルの書体を使用しない場合は空の配列 `[]` を指定する。
 既定値は `["STIX","TeX"]`。
 
-[^fnt0]: $\\mathrm{\TeX}$ 用フォントは $\\mathrm{\TeX}$ 作業環境を整えた PC 以外にはインストールされていないのが普通である。 $\\mathrm{\TeX}$ 用フォントは複数の OpenType フォントファイルで提供されるが，構成が特殊なため $\\mathrm{\TeX}$ 以外での使用はおすすめできない。
+[^fnt0]: $\mathrm{\TeX}$ 用フォントは $\mathrm{\TeX}$ 作業環境を整えた PC 以外にはインストールされていないのが普通である。 $\mathrm{\TeX}$ 用フォントは複数の OpenType フォントファイルで提供されるが，構成が特殊なため $\mathrm{\TeX}$ 以外での使用はおすすめできない。
 
 `availableFonts` で指定した書体のうち優先して使う書体を `preferredFont` で指定する。
  [MathJax/jax/output/HTML-CSS/fonts](https://github.com/mathjax/MathJax/tree/master/jax/output/HTML-CSS/fonts "MathJax/jax/output/HTML-CSS/fonts at master · mathjax/MathJax") のいずれかである必要がある。
