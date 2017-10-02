@@ -1,6 +1,6 @@
 +++
 date = "2016-05-08T23:45:44+09:00"
-update = "2016-05-10T12:46:19+09:00"
+update = "2017-10-02T11:05:35+09:00"
 description = "Twitter アカウントが凍結されました。つってもメインじゃなくて @security_inci のほう。"
 draft = false
 tags = ["twitter", "security"]
@@ -42,3 +42,11 @@ title = "Twitter アカウントが凍結されました"
 
 - [Twitter によるセキュリティ情報配信をはじめました — Baldanders.info](http://www.baldanders.info/spiegel/log2/000387.shtml)
 - [@security_inci を整理した — Baldanders.info](http://www.baldanders.info/spiegel/log2/000710.shtml)
+
+## 追記
+
+Slack を経由しての情報収集を始めました。
+参加したい方はおっしゃってください。
+招待状を送ります（メールアドレスが必要です）。
+
+- [いまさら聞けない Slack の使い方]({{< relref "remark/2017/01/slack.md" >}})

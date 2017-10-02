@@ -1,6 +1,7 @@
 +++
 title = "TeX の思ひ出"
 date =  "2017-09-29T14:50:20+09:00"
+update =  "2017-10-02T12:37:35+09:00"
 description = "TeX の最初のバージョンって1978年なのか。それってもうすぐ40周年ぢゃん！"
 tags        = [ "tex" ]
 
@@ -63,7 +64,9 @@ $\\mathrm{\TeX}$ について調べ物をしていて，何気なく [Wikipedia 
 - {{< pdf-file title="SH マイコン C プログラミング虎の巻" link="http://www.baldanders.info/spiegel/archive/ProgSH.pdf" >}} （[GitHub](https://github.com/spiegel-im-spiegel/progSH_document "spiegel-im-spiegel/progSH_document: SHマイコン Cプログラミング虎の巻 (pLaTeX ドキュメント")）
 
 その後，証券会社が倒産するほどの不況のずんどこが訪れ，勤務先もその煽りでプリンタ販売業務を止めてしまったが，私は $\\mathrm{\TeX}$ で遊び続けた。
-最初の頃のバイブルだった『てくてく$\\mathrm{\TeX}$』とか『$\\mathrm{\LaTeX}$入門』とかいまだに本棚に並んでるですよ。
+最初の頃のバイブルだった『てくてく$\\mathrm{\TeX}$』とか『$\\mathrm{\LaTeX}$入門』とかいまだに本棚に並んでるですよ[^bs1]。
+
+[^bs1]: 先日，納戸にしまった本を発掘してたら [$\\mathrm{\TeX}$ 関連の本やらパッケージが大量に出てきて](https://www.instagram.com/p/BZs5cUuHDNO/)我ながら笑ってしまった。どんだけ好きだったんだろう（笑）
 
 {{< fig-img src="https://farm5.staticflickr.com/4448/36713793483_453ca1483a.jpg" title="私はコレで TeX を覚えましたw"  link="https://www.flickr.com/photos/spiegel/36713793483/" >}}
 
