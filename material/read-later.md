@@ -1,5 +1,14 @@
 # 「あとでみる」ブックマーク（Temporary）
 
+- [Cloud LaTeX | Build your own LaTeX environment, in seconds](https://cloudlatex.io/)
+    - Dropbox と連携できるらしい
+
+- [フォント - TeX Wiki](https://texwiki.texjp.org/?%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88)
+- [upLaTeX文書で源ノ明朝／Noto Serif CJKを簡単に使う方法（最新のdvipdfmxとpxchfonを使用） - Qiita](https://qiita.com/zr_tex8r/items/9dfeafecca2d091abd02)
+
+- [源ノ明朝/源ノ角ゴシックをLuaLaTeXで使用する (Windows)](https://jb102.blogspot.jp/2017/04/11-luatex.html)
+- [Apps/Evince - GNOME Wiki!](https://wiki.gnome.org/Apps/Evince)
+
 
 ## Age of Trump
 

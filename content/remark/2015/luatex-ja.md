@@ -1,23 +1,28 @@
 +++
 date = "2015-09-27T01:32:49+09:00"
-update = "2017-09-27T19:20:35+09:00"
+update = "2017-10-02T17:45:00+09:00"
 description = "LuaTeX では pdfTeX と同等のことができ， DVI ファイルではなく PDF ファイルを直接出力する。なおかつ callback を記述することにより内部処理に割り込みをかけ機能拡張することが可能になっている。LuaTeX-ja はこの機能拡張を使って日本語組版を LuaTeX の上で実現する。"
 draft = false
-tags = ["lua", "tex"]
+tags = ["lua", "tex", "luatex"]
 title = "LuaTeX-ja に関する覚え書き"
 
 [author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = "spiegel"
-  github = "spiegel-im-spiegel"
+  name      = "Spiegel"
+  url       = "http://www.baldanders.info/spiegel/profile/"
+  avatar    = "/images/avatar.jpg"
+  license   = "by-sa"
+  github    = "spiegel-im-spiegel"
+  twitter   = "spiegel_2007"
+  tumblr    = "spiegel-im-spiegel"
   instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  flickr    = "spiegel"
+  facebook  = "spiegel.im.spiegel"
+  linkedin  = "spiegelimspiegel"
+  flattr    = "spiegel"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 （これは[2014年9月12日に公開した記事](http://www.baldanders.info/mdwiki/#!luatexja.md)を再構成したものです）
@@ -39,11 +44,11 @@ LuaTeX-ja はこの機能拡張を使って日本語組版を LuaTeX の上で�
 - 2 つの和文文字の間や, 和文文字と欧文文字の間に入るグルー/カーン(両者をあわせて JAglueと呼ぶ)の挿入処理が 0 から書き直されている
 - LuaTeX-ja では, pTeX と同様に漢字・仮名を制御綴内に用いることができ,\西暦 などが正しく動作するようにしている.但し, 制御綴中に使える和文文字が pTeX・upTeX と全く同じではないことに注意すること
 
-## LuaTeX のバージョン（in TeX Live 2014）
+## LuaTeX のバージョン（in TeX Live 2017）
 
-```
-> lualatex -v
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2014/W32TeX) (rev 4971)
+```text
+$ lualatex -v
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)
 
 Execute  'luatex --credits'  for credits and version details.
 
@@ -52,12 +57,13 @@ the terms of the GNU General Public License, version 2 or (at your option)
 any later version. For more information about these matters, see the file
 named COPYING and the LuaTeX source.
 
-Copyright 2014 Taco Hoekwater, the LuaTeX Team.
+LuaTeX is Copyright 2017 Taco Hoekwater and the LuaTeX Team.
 ```
+
 TeX Live で最新版を取得するには
 
-```
-> tlmgr update --self --all
+```text
+$ tlmgr update --self --all
 ```
 
 などとする。
@@ -87,62 +93,49 @@ TeX Live で最新版を取得するには
 
 これで
 
-```
+```text
 > luatatex hoge.tex
 ```
 
 で問題なく処理できる。
 
 ltjsarticle クラス（jsarticle クラス互換，jsbook クラス互換の ltjsbook クラスもある）を用いるのであれば `\usepackage{luatexja}` の記述はなくても問題ない。
-ただしこの時点では PDF に和文フォントが埋め込まれない。
 
 ### 和文フォントの埋め込み
 
-和文フォントを埋め込むにはフォントを指定する必要がある。
-和文フォントの場合は luatexja-preset パッケージでまとめてフォントを指定できる。
+現在のバージョンでは既定で IPAex フォントを埋め込むよう設定されている。
+明示的に和文フォントを埋め込む場合は `luatexja-preset` パッケージでまとめてフォントを指定できる。
 
-```tex
-\usepackage[no-math]{fontspec} %欧文フォント設定（和文フォント設定より先に行う）
+```text
 \usepackage[ipaex]{luatexja-preset} %和文フォントに IPAex フォントを指定する
 ```
 
 プリセットオプションは以下のとおり
 
-- kozuka-pro
-- kozuka-pr6
-- kozuka-pr6n
-- hiragino-pro
-- hiragino-pron
-- morisawa-pro
-- morisawa-pr6n
-- yu-win （[游明朝/游ゴシック](http://blog.petitboys.com/archives/yugothic-yumincho-jiyukobo.html); Win8.1）
-- yu-osx （[游明朝/游ゴシック](http://blog.petitboys.com/archives/yugothic-yumincho-jiyukobo.html); OSX）
-- ipa, ipaex, ms
-- ipa-hg, ipaex-hg, ms-hg （Office 付属フォントを利用）
-- noembed （フォントを埋め込まない）
+- `kozuka-pro`
+- `kozuka-pr6`
+- `kozuka-pr6n`
+- `hiragino-pro`
+- `hiragino-pron`
+- `morisawa-pro`
+- `morisawa-pr6n`
+- `yu-win` （[游明朝/游ゴシック](http://blog.petitboys.com/archives/yugothic-yumincho-jiyukobo.html); Win8.1 以降）
+- `yu-osx` （[游明朝/游ゴシック](http://blog.petitboys.com/archives/yugothic-yumincho-jiyukobo.html); macOS）
+- `ipa`, `ipaex`, `ms`
+- `ipa-hg`, `ipaex-hg`, `ms-hg` （Office 付属フォントを利用）
+- `moga-mobo`
+- `sourcehan`  （[源ノ明朝]，[源ノ角ゴシック]）
+- `noembed` （フォントを埋め込まない）
 
 追加で以下のオプションも使用できる
 
-- nodeluxe: 明朝体・ゴシック体を各 1 ウェイトで使用する（規定値）
-- deluxe: 明朝体2ウェイト・ゴシック体3ウェイトと，丸ゴシック体を使用可能にする（otf パッケージ互換）
-- expert: 横組専用仮名を用いる（otf パッケージ互換）
-- bold 「明朝の太字」をゴシック体の太字によって代替する（otf パッケージ互換）
-- 90jis: 可能ならば 90JIS 字形を使う
-- jis2004: 可能ならば JIS2004 字形を使う
-- jis: jfm-jis.lua を JFM として用いる（JIS フォントメトリックに近い結果が得られる）
-
-luatexja-preset パッケージのプリセットオプションは luatexja-preset.sty 内にハードコーディングされているため，任意のプリセットを自作する場合は luatexja-preset.sty を参考に別名でパッケージを作ったほうがいいかも。
-
-luatexja-fontspec パッケージを使うと個別にフォントを指定できる。
-luatexja-fontspec パッケージは luatexja-preset パッケージ内で呼び出されるため
-
-```tex
-\usepackage[no-math]{fontspec} %欧文フォント設定（和文フォント設定より先に行う）
-\usepackage[ipaex]{luatexja-preset} %和文フォントに IPAex フォントを指定する
-\setmainjfont[BoldFont=IPAexGothic]{KBMinchoM} %メインの和文フォントを KB明朝M に変更
-```
-
-といったこともできる。
+- `nodeluxe`: 明朝体・ゴシック体を各 1 ウェイトで使用する（規定値）
+- `deluxe`: 明朝体2ウェイト・ゴシック体3ウェイトと，丸ゴシック体を使用可能にする（otf パッケージ互換）
+- `expert`: 横組専用仮名を用いる（otf パッケージ互換）
+- `bold`: 「明朝の太字」をゴシック体の太字によって代替する（otf パッケージ互換）
+- `90jis`: 可能ならば 90JIS 字形を使う
+- `jis2004`: 可能ならば JIS2004 字形を使う
+- `jis`: jfm-jis.lua を JFM として用いる（JIS フォントメトリックに近い結果が得られる）
 
 ### graphicx および xcolor パッケージ
 
@@ -180,13 +173,13 @@ hyperref パッケージも同様だが，そのままでは PDF の目次等が
 
 hyperref パッケージでは PDF metadata 用に以下のオプションが指定できる。
 
-- baseurl
-- pdfauthor
-- pdfkeywords
-- pdflang
-- pdfproducer
-- pdfsubject
-- pdftitle
+- `baseurl`
+- `pdfauthor`
+- `pdfkeywords`
+- `pdflang`
+- `pdfproducer`
+- `pdfsubject`
+- `pdftitle`
 
 ###  hyperxmp パッケージ
 
@@ -225,19 +218,19 @@ hyperxmp パッケージを使うと XMP（Extensible Metadata Platform）によ
 
 hyperxmp パッケージで追加されるパラメータは以下のとおり
 
-- pdfauthortitle
-- pdfcaptionwriter
-- pdfcontactaddress
-- pdfcontactcity
-- pdfcontactcountry
-- pdfcontactemail
-- pdfcontactphone
-- pdfcontactpostcode
-- pdfcontactregion
-- pdfcontacturl
-- pdfcopyright
-- pdflicenseurl
-- pdfmetalang （ない場合は pdflang を参照する）
+- `pdfauthortitle`
+- `pdfcaptionwriter`
+- `pdfcontactaddress`
+- `pdfcontactcity`
+- `pdfcontactcountry`
+- `pdfcontactemail`
+- `pdfcontactphone`
+- `pdfcontactpostcode`
+- `pdfcontactregion`
+- `pdfcontacturl`
+- `pdfcopyright`
+- `pdflicenseurl`
+- `pdfmetalang` （ない場合は pdflang を参照する）
 
 どういうわけか hyperxmp パッケージを使ってもいわゆる「タグ入り PDF」として Adobe Reader で認識されない。
 [Evince](https://wiki.gnome.org/Apps/Evince) では著作権情報は読み取れているみたい。
@@ -354,3 +347,11 @@ $max_repeat                  = 5;
 
 \end{document}
 ```
+
+## ブックマーク
+
+- [The Typekit Blog | Source Han Sansの紹介：オープンソースのPan-CJK書体](https://blog.typekit.com/alternate/source-han-sans-jp/)
+- [源ノ明朝](https://source.typekit.com/source-han-serif/jp/)
+
+[源ノ角ゴシック]: https://github.com/adobe-fonts/source-han-sans "adobe-fonts/source-han-sans: Source Han Sans | 思源黑体 | 思源黑體 | 源ノ角ゴシック | 본고딕"
+[源ノ明朝]: https://github.com/adobe-fonts/source-han-serif "adobe-fonts/source-han-serif: Source Han Serif | 思源宋体 | 思源宋體 | 源ノ明朝 | 본명조"

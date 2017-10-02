@@ -1,6 +1,7 @@
 +++
 title = "そうだ， TeX Live 2017 (for Windows) をインストールしよう！"
 date =  "2017-10-01T17:06:19+09:00"
+update =  "2017-10-02T17:35:32+09:00"
 description = "久しぶりに TeX をいじってみようかな，と思い立ったり。私の環境は TeX Live 2014 のままだったので，この機会にいったん環境を削除して TeX Live 2017 を入れ直すことにした。"
 tags        = [ "tex", "windows" ]
 
@@ -422,8 +423,9 @@ updmap --sys --quiet --nomkmap --nohash -setoption jaVariant -04
 updmap --sys
 ```
 
-IPA/[IPAex] 書体， MS， Windows 用の游書体は JIS X 0208:1990 または JIS X 0213:2004 のどちらかの字形しか持っていないため `--jis2004` を付けても意味がない。
+IPA/[IPAex] 書体， MS， Windows 用の游書体は JIS X 0213:2000 （あるいはそれ以前）または JIS X 0213:2004 のどちらかの字形しか持っていないため `--jis2004` を付けても意味がない。
 `--jis2004` オプションが有効なのは macOS 用の游書体（`yu-osx`），ヒラギノ書体（`hiragino-pron`），モリサワ書体（`morisawa-pr6n`），小塚書体（`kozuka-pr6`, `kozuka-pr6n`）である。
+
 ちなみに [IPAex] フォントは2015年のバージョン3リリースで JIS X 0213:2004 の字形に対応しているらしい（異体字を含む）。
 
 - [リリースノート(Release Note) | IPAexフォント/IPAフォント](http://ipafont.ipa.go.jp/node21#ja)
