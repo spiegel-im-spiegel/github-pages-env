@@ -1,7 +1,7 @@
 +++
 title = "ちょこっと MathJax： 初期設定"
 date =  "2017-09-27T20:02:09+09:00"
-update =  "2017-10-01T12:27:08+09:00"
+update =  "2017-10-02T13:20:35+09:00"
 description = "この記事ではまず Web ページ上で MathJax が動くところまで説明していこう。"
 tags        = [ "math", "tex", "mathjax", "blog", "site" ]
 
@@ -235,7 +235,8 @@ MathJax.Hub.Config({
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   CommonHTML: {
-    matchFontHeight: false
+    matchFontHeight: false,
+    mtextFontInherit: true
   }
 });
 </script>
@@ -244,6 +245,51 @@ MathJax.Hub.Config({
 `matchFontHeight` が true であれば本文の文字の大きさにマッチするよう数式の文字の高さを調節してくれる。
 ただし本文が日本語だと却ってバランスが悪いようだ。
 したがって（既定値は true だが） false にしておくのがお薦めである。
+
+`mtextFontInherit` は `\text` コマンドで囲まれた文字列の組版規則と書体を指定する。
+false なら数式の規則のままだが true であれば数式の周囲の地文（大抵は本文）の組版規則[^rl1]と書体が継承される。
+既定値は false。
+
+[^rl1]: 「地文の組版規則」とは要するに HTML/CSS の規則ということだが，`\text` コマンドで囲まれた部分は HTML の要素タグ等（`<code>` タグ等）は使えないようだ。試しにやってみたがエラーになってしまう。
+
+たとえば `mtextFontInherit` を true にして
+
+```html
+\begin{alignat*}{2}
+    (a+b)^2 &= a^2 + 2ab + b^2 & \qquad & \text{展開する} \\
+            &= a(a + 2b) + b^2 &        & \text{a でくくる}
+\end{alignat*}
+```
+
+と記述した場合は（『[LaTeX2ε美文書作成入門]』より引用）
+
+{{< fig-quote >}}
+\begin{alignat*}{2}
+    (a+b)^2 &= a^2 + 2ab + b^2 & \qquad & \text{展開する} \\
+            &= a(a + 2b) + b^2 &        & \text{a でくくる}
+\end{alignat*}
+{{< /fig-quote >}}
+
+と表示される。
+「`a でくくる`」の a が数式用の書体でないことに注意。
+さらに「`a でくくる`」を「`$a$ でくくる`」とすると
+
+```html
+\begin{alignat*}{2}
+    (a+b)^2 &= a^2 + 2ab + b^2 & \qquad & \text{展開する} \\
+            &= a(a + 2b) + b^2 &        & \text{$a$ でくくる}
+\end{alignat*}
+```
+
+{{< fig-quote >}}
+\begin{alignat*}{2}
+    (a+b)^2 &= a^2 + 2ab + b^2 & \qquad & \text{展開する} \\
+            &= a(a + 2b) + b^2 &        & \text{$a$ でくくる}
+\end{alignat*}
+{{< /fig-quote >}}
+
+と $a$ が数式用の書体になる。
+なお，日本語（和文）部分は数式内でも `\text` コマンドの有無に関係なく影響を受けない。
 
 ### [“HTML-CSS” Output Processor Options](http://docs.mathjax.org/en/latest/options/output-processors/HTML-CSS.html "The HTML-CSS output processor — MathJax 2.7 documentation") {#html}
 
@@ -256,7 +302,8 @@ MathJax.Hub.Config({
     availableFonts: ["STIX"],
     preferredFont: "STIX",
     webFont: "STIX-Web",
-    matchFontHeight: false
+    matchFontHeight: false,
+    mtextFontInherit: true
   }
 });
 </script>
@@ -292,7 +339,7 @@ Microsoft Office や macOS などには既に同梱されているらしい。
 
 特にこだわりがなければ既定値どおり `"TeX"` にするか `"STIX"` (`"STIX-Web"`) を選択するのが無難だと思う（`"TeX"` にするならコンフィギュレーションを `TeX-AMS_CHTML` にすることをお薦めする）。
 
-`matchFontHeight` については [`CommonHTML` オプションの節]({{< relref "#chtml" >}})を参照のこと。
+`matchFontHeight` および `mtextFontInherit` については [`CommonHTML` オプションの節]({{< relref "#chtml" >}})を参照のこと。
 
 ### 最終的なオプション設定 {#mysetting}
 
@@ -315,7 +362,8 @@ MathJax.Hub.Config({
     availableFonts: ["STIX"],
     preferredFont: "STIX",
     webFont: "STIX-Web",
-    matchFontHeight: false
+    matchFontHeight: false,
+    mtextFontInherit: true
   }
 });
 </script>
@@ -336,6 +384,7 @@ MathJax.Hub.Config({
 [“CommonHTML” オプション]: http://docs.mathjax.org/en/latest/options/output-processors/CommonHTML.html "The CommonHTML output processor — MathJax 2.7 documentation"
 [“HTML-CSS” オプション]: http://docs.mathjax.org/en/latest/options/output-processors/HTML-CSS.html "The HTML-CSS output processor — MathJax 2.7 documentation"
 [次回]: {{< relref "remark/2017/09/getting-started-mathjax-2.md" >}} "ちょこっと MathJax： 基本的な数式表現"
+[LaTeX2ε美文書作成入門]: http://www.amazon.co.jp/exec/obidos/ASIN/4774187054/baldandersinf-22/ "Amazon | [改訂第7版]LaTeX2ε美文書作成入門 | 奥村 晴彦, 黒木 裕介 通販"
 
 ## 参考図書 {#books}
 

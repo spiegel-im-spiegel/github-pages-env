@@ -1,7 +1,7 @@
 +++
 title = "ちょこっと MathJax： 基本的な数式表現"
 date =  "2017-09-28T22:25:54+09:00"
-update =  "2017-09-29T07:47:27+09:00"
+update =  "2017-10-02T13:20:35+09:00"
 description = "今回は基本的な数式の書き方を説明していこう。"
 tags        = [ "math", "tex", "mathjax" ]
 
@@ -153,7 +153,7 @@ $$
 
 $\sin$ の見た目だけでも変えたいのであれば，ちょっと裏技的だが以下のようにする。
 
-まず `HTML-CSS` オプションに `mtextFontInherit` を追加し true をセットする。
+まず `HTML-CSS` オプションに `mtextFontInherit` を追加し true をセットする（`mtextFontInherit` については[前回]の記事を参照）。
 
 {{< highlight html "hl_lines=7" >}}
 <script type="text/x-mathjax-config">
@@ -174,7 +174,6 @@ MathJax.Hub.Config({
 {{< fig-img src="https://farm5.staticflickr.com/4432/36698887063_0e218e1705_o.png" title="Neo-Euler web fonts 2"  link="https://www.flickr.com/photos/spiegel/36698887063/" >}}
 
 どうやったかというと `\text{sin}` によって `sin` を（数式フォントではなく）本文のフォントに書き換えたのだ。
-`mtextFontInherit` を true にすると `\text` コマンドで指定した文字を本文のフォントにする効果がある。
 
 まぁ，これで見た目はそれっぽくなったが，やはり無理矢理な感じが強いので， [MathJax] で `Neo-Euler` を使うのは（今のところ）お薦めできない。 
 
