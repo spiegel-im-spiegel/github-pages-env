@@ -1,7 +1,7 @@
 +++
-title = "TeX 日本語環境で「源ノ角」フォントを使ってみた"
+title = "TeX 日本語環境で「源ノ」フォントを使ってみた"
 date =  "2017-10-03T20:10:56+09:00"
-description = "第二弾は TeX で「源ノ角」フォントを使ってみる である。"
+description = "第二弾は TeX で「源ノ」フォントを使ってみる である。"
 tags        = [ "tex", "font", "luatex", "japanese" ]
 
 [author]
@@ -25,12 +25,12 @@ tags        = [ "tex", "font", "luatex", "japanese" ]
 
 さて，[TeX Live 2017 インストール]({{< relref "remark/2017/09/install-tex-live-2017-for-windows.md" >}})後の「$\mathrm{\TeX}$ で遊ぼう」第二弾は
 
-- $\mathrm{\TeX}$ で「源ノ角」フォントを使ってみる
+- $\mathrm{\TeX}$ で「源ノ」フォントを使ってみる
 
 である。
 
-「源ノ角」フォントとは「[源ノ角ゴシック]（Source Han Sans）」および「[源ノ明朝]（Source Han Serif）」で構成される CJK 統一デザインの書体を指す。
-「源ノ角」フォントは Adobe と Google が共同で開発していて，かつオープンソースで公開されている。
+「源ノ」フォントとは「[源ノ角ゴシック]（Source Han Sans）」および「[源ノ明朝]（Source Han Serif）」で構成される CJK 統一デザインの書体を指す。
+「源ノ」フォントは Adobe と Google が共同で開発していて，かつオープンソースで公開されている。
 この成果の一部は Google により NOTO プロジェクトに取り込まれている。
 
 - [Google Noto Fonts](https://www.google.com/get/noto/)
@@ -44,7 +44,7 @@ tags        = [ "tex", "font", "luatex", "japanese" ]
 
 皆さん，ありがとう！
 
-## 「源ノ角」フォントのインストール {#install}
+## 「源ノ」フォントのインストール {#install}
 
 早速インストールをはじめるが，[源ノ角ゴシック]および[源ノ明朝]は GitHub で公開されている。
 
@@ -113,7 +113,7 @@ mktexlsr: Updated C:/texlive/2017/texmf-dist/ls-R.
 mktexlsr: Done.
 ```
 
-これで「源ノ角」フォントのインストールは完了。
+これで「源ノ」フォントのインストールは完了。
 一応 `kpsewhich` コマンドでインストールできたかどうか確認しておくとよい。
 
 ```text
@@ -121,7 +121,7 @@ $ kpsewhich SourceHanSerif-Regular.otf
 c:/texlive/texmf-local/fonts/opentype/adobe/sourcehanserifjp/SourceHanSerif-Regular.otf
 ```
 
-## upLaTeX で「源ノ角」フォントを使ってみる {#uplatex}
+## upLaTeX で「源ノ」フォントを使ってみる {#uplatex}
 
 では文書ファイルを用意しよう。
 こんな感じでどうだろうか。
@@ -148,7 +148,7 @@ c:/texlive/texmf-local/fonts/opentype/adobe/sourcehanserifjp/SourceHanSerif-Regu
 {{< /highlight >}}
 
 タイプセット処理は $\mathrm{up\LaTeX}$ を選択した。
-$\mathrm{up\LaTeX}$ で処理したあと `dvipdfmx` コマンドで PDF に変換しないといけないんだけど，「源ノ角」フォント用の map ファイルは [TeX Live] 2017 には存在しないようなので，自前で用意しないといけない。
+$\mathrm{up\LaTeX}$ で処理したあと `dvipdfmx` コマンドで PDF に変換しないといけないんだけど，「源ノ」フォント用の map ファイルは [TeX Live] 2017 には存在しないようなので，自前で用意しないといけない。
 他の書体の map ファイルを参考に自作してみた（正しいかどうかわからないが）。
 
 ```text
@@ -322,7 +322,7 @@ $ latexmk otf-sample.tex
 
 {{< fig-img src="https://farm5.staticflickr.com/4445/23617581598_dabb14dddb_o.png" title="Output PDF by upLaTeX with Source Han Fonts (2)"  link="https://www.flickr.com/photos/spiegel/23617581598/" >}}
 
-## LuaLaTeX で「源ノ角」フォントを使ってみる {#lualatex}
+## LuaLaTeX で「源ノ」フォントを使ってみる {#lualatex}
 
 さて，では同じことを $\mathrm{Lua\LaTeX}$-ja でやってみようと思う。
 
@@ -364,7 +364,7 @@ luaotfload | resolve : Resolved file name "c:/texlive/texmf-local/fonts/opentype
 \end{document}
 {{< /highlight >}}
 
-`luatexja-preset` パッケージでは「源ノ角」フォントを指定できる。
+`luatexja-preset` パッケージでは「源ノ」フォントを指定できる。
 
 ```text
 \usepackage[sourcehan]{luatexja-preset}
@@ -399,7 +399,7 @@ $ lualatex otf-sample.tex
 
 ま，それはともかく
 
-**時代は $\mathrm{Lua\TeX}$ で「源ノ角」フォント** ってことですね！
+**時代は $\mathrm{Lua\TeX}$ で「源ノ」フォント** ってことですね！
 
 ちなみに，[前回]({{< relref "remark/2017/10/lualatex-ja-on-cloud.md" >}})紹介した [Cloud LaTeX] で同じことをしようとしたら「`sourcehan` なんぞ知らん！」と怒られた（笑）
 
