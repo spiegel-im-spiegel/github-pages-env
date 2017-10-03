@@ -1,8 +1,9 @@
 +++
 title = "クラウドで LuaLaTeX-ja"
 date =  "2017-10-02T22:13:48+09:00"
+update = "2017-10-03T15:47:46+09:00"
 description = "ところで『LaTeX2ε美文書作成入門』を改めて眺めていたが， Cloud LaTeX というサービスが有るらしい。pLaTeX, upLaTeX だけじゃなく LuaLaTeX にも対応しているようだ。"
-tags        = [ "tex", "luatex", "cloud", "pdf" ]
+tags        = [ "tex", "luatex", "cloud", "pdf", "japanese" ]
 
 [author]
   name      = "Spiegel"
@@ -65,7 +66,7 @@ LuaTeX is Copyright 2017 Taco Hoekwater and the LuaTeX Team.
 \end{document}
 ```
 
-プランブルの記述が減ったなぁ。
+プリアンブルの記述が減ったなぁ。
 これをタイプセットしてみる。
 
 ```text
@@ -165,7 +166,7 @@ $\mathrm{p\LaTeX}$, $\mathrm{up\LaTeX}$ だけじゃなく $\mathrm{Lua\LaTeX}$ 
 {{< fig-img src="https://farm5.staticflickr.com/4441/37192503250_58c2c8c1d7.jpg" title="Sign-up Cloud LaTeX"  link="https://www.flickr.com/photos/spiegel/37192503250/" >}}
 
 Facebook アカウントと Twitter アカウントが使えるようだ。
-まぁ，昔はともかく，[今の Twitter アカウントには一貫性も永続性もない](http://www.itmedia.co.jp/news/articles/1710/01/news035.html "「仕事にも支障が」　Twitterを凍結され、日本法人を訪れて抗議したエンジニアに聞く - ITmedia NEWS")ので避けるのが無難であろう（笑）
+まぁ，昔はともかく，[今の Twitter アカウントには一貫性も永続性もない](http://www.itmedia.co.jp/news/articles/1710/01/news035.html "「仕事にも支障が」　Twitterを凍結され、日本法人を訪れて抗議したエンジニアに聞く - ITmedia NEWS")ので認証に使うのは避けたほうがいいだろう（笑）
 
 サインアップ後の初期画面はこんな感じ。
 

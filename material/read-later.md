@@ -4,10 +4,12 @@
     - Dropbox と連携できるらしい
 
 - [フォント - TeX Wiki](https://texwiki.texjp.org/?%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88)
+- [源ノ明朝/源ノ角ゴシックをLuaLaTeXで使用する (Windows)](https://jb102.blogspot.jp/2017/04/11-luatex.html)
 - [upLaTeX文書で源ノ明朝／Noto Serif CJKを簡単に使う方法（最新のdvipdfmxとpxchfonを使用） - Qiita](https://qiita.com/zr_tex8r/items/9dfeafecca2d091abd02)
 
 - [源ノ明朝/源ノ角ゴシックをLuaLaTeXで使用する (Windows)](https://jb102.blogspot.jp/2017/04/11-luatex.html)
 - [Apps/Evince - GNOME Wiki!](https://wiki.gnome.org/Apps/Evince)
+- [小形克宏の「文字の海、ビットの舟」――文字コードが私たちに問いかけるもの](http://internet.watch.impress.co.jp/www/column/ogata/index.htm)
 
 
 ## Age of Trump

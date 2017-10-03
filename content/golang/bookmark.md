@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-09-29T10:16:36+09:00"
+update = "2017-10-03T11:07:51+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -575,6 +575,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [GAE/Go で Google Cloud Spanner を操作する（前編） - Qiita](http://qiita.com/wezardnet/items/daf520b82e2199d16f4f)
 - [GAE/Goでもgoroutine使おうぜ！というハナシ - Qiita](http://qiita.com/hogedigo/items/f0f409ee944c4b2107c3) : GAE/Go の API には非同期版がないので積極的に goroutine 使おうよ，という話
 - [CircleCI 2.0でGlide管理のGoをGAEにデプロイする - Qiita](https://qiita.com/kenichi_odo/items/074f1b9541dd0487f1d8)
+- [GAE(Google App Engine) で Golang を開発するための環境を構築する #golang - Qiita](https://qiita.com/ynozue/items/d12c1da13bbdb9213ba4)
 
 ## Excel との連携
 
