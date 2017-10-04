@@ -347,6 +347,7 @@ $max_repeat                  = 5;
 - [The Typekit Blog | Source Han Sansの紹介：オープンソースのPan-CJK書体](https://blog.typekit.com/alternate/source-han-sans-jp/)
 - [源ノ明朝](https://source.typekit.com/source-han-serif/jp/)
 - [TeX Live 2016 の新しい LuaTeX あれこれ - Acetaminophen’s diary](http://acetaminophen.hatenablog.com/entry/2016/04/23/141922)
+- [LuaTeXで使える！便利なLaTeX関連ツール - 0番染色体](http://0-chromosome.hatenablog.jp/entry/2015/08/10/214938)
 
 [源ノ角ゴシック]: https://github.com/adobe-fonts/source-han-sans "adobe-fonts/source-han-sans: Source Han Sans | 思源黑体 | 思源黑體 | 源ノ角ゴシック | 본고딕"
 [源ノ明朝]: https://github.com/adobe-fonts/source-han-serif "adobe-fonts/source-han-serif: Source Han Serif | 思源宋体 | 思源宋體 | 源ノ明朝 | 본명조"

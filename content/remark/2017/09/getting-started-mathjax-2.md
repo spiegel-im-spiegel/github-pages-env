@@ -136,7 +136,7 @@ $$
 一方，同じものを $\mathrm{\LaTeX}$ で処理すると以下のようになる。
 （「[コンクリートなフォントとか ～Computer Modern の兄弟たち～](http://zrbabbler.sp.land.to/concrete.html)」より引用）
 
-{{< fig-img src="https://farm5.staticflickr.com/4390/36657659994_89e7c9a957_o.png" title="Euler fonts"  link="https://www.flickr.com/photos/spiegel/36657659994/" >}}
+{{< fig-img src="https://farm5.staticflickr.com/4390/36657659994_8abc048bb7_o.png" title="Euler fonts"  link="https://www.flickr.com/photos/spiegel/36657659994/" >}}
 
 両者の違いが分かるだろうか（文字の大きさとかは無視してね）。
 ポイントは数字と $\sin$ 関数である。

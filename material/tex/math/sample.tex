@@ -1,0 +1,60 @@
+\documentclass[fleqn]{ltjsarticle}
+\usepackage{amsmath} % amsmath packages
+\usepackage[no-math,sourcehan]{luatexja-preset} % Japanese fonts
+\usepackage{unicode-math} % using unicode/OpenType maths fonts
+\unimathsetup{%
+    math-style=TeX,%
+    bold-style=TeX,%
+    sans-style=italic%
+}
+
+% Import text fonts
+%\setmainfont[Scale=MatchLowercase]{TeXGyreTermes}
+\setmainfont[Scale=MatchLowercase]{STIX Two Text}
+\setsansfont[Scale=MatchLowercase]{TeXGyreHeros}
+\setmonofont[AutoFakeSlant,BoldItalicFeatures={FakeSlant},Scale=MatchLowercase]{Inconsolatazi4}
+
+% Import math fonts
+%\setmathfont{TeXGyrePagella-Math}
+%\setmathfont{Neo Euler}
+\setmathfont{STIX Two Math}
+
+
+\begin{document}
+
+\section*{数式表現}
+
+\subsection*{インライン数式}
+
+エネルギーと質量には $E=mc^2$ の関係がある。
+
+\subsection*{別行立て数式}
+
+エネルギーと質量には \[E=mc^2\] の関係がある。
+
+\subsection*{ちょっと複雑な式も書いてみる}
+
+``?`!`But aren't Kafka's \emph{Schlo{\ss}} and {\AE}sop's {\OE}uvres
+often na\"{\i}ve vis-\`a-vis the d{\ae}monic ph{\oe}nix's
+official r\^ole in fluffy souffl\'es!?''
+
+\[
+  \left( \int_0^\infty \frac{\sin x}{\sqrt x} dx \right)^2 =
+  \sum_{k=0}^\infty \frac{(2k)!}{2^{2k}(k!)^2} \frac{1}{2k+1} =
+  \prod_{k=1}^\infty \frac{4k^2}{4k^2-1} =
+  \frac{\pi}{2}
+\]
+
+\subsection*{連分数（amsmathパッケージ）}
+\begin{equation}
+	b_0 + \cfrac{c_1}{b_1 +
+	      \cfrac{c_2}{b_2 +
+		  \cfrac{c_3}{b_3 +
+		  \cfrac{c_4}{b_4 + \cdots}}}}
+\end{equation}
+
+\subsection*{黒板文字（amssybパッケージ）}
+
+$\mathbb{ABCDEFGHIJELMN}$
+
+\end{document}

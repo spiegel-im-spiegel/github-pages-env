@@ -49,7 +49,7 @@ func main() {
 安直に `verbatim` 環境を使う手もあるが，世の中には [`listings`] パッケージなる便利なものがあるらしい。
 これを使ってまずは
 
-{{< highlight text "hl_lines=4-9" >}}
+{{< highlight text "hl_lines=4-9 15 25" >}}
 \documentclass{ltjsarticle}
 \usepackage[no-math,sourcehan]{luatexja-preset} % Japanese fonts
 
@@ -111,9 +111,11 @@ $ kpsewhich -var-value=TEXMFLOCAL
 C:/texlive/texmf-local
 ```
 
-`mktexlsr` コマンドで `ls-R` を更新するのも忘れずにね。
+`mktexlsr` コマンドで `ls-R` を更新するのも忘れずに。
 
-では，先程の文書を [`listings-golang`] パッケージを使って以下のように書き換える。
+では，先程の文書を [`listings-golang`] パッケージを使って以下のように書き換える[^glst1]。
+
+[^glst1]: [`listings-golang`] パッケージは `\RequirePackage` コマンドで [`listings`] パッケージを内部で呼び出しているため，記述上は [`listings`] パッケージを置き換えることができる。のだが，今回は README にしたがっている。
 
 {{< highlight text "hl_lines=4 6 11-12 19" >}}
 \documentclass{ltjsarticle}
@@ -188,7 +190,9 @@ func main() {
 という感じでキーワードと文字列とコメントの3つの定義でできている。
 このようにして [`listings`] パッケージが対応していない言語にも対応できる。
 
-最後に，やっぱタイプライタ文字なら [Inconsolata] だよね，ってことで，タイプライタ文字を以下のように変更する。
+最後に，やっぱタイプライタ文字なら [Inconsolata] だよね，ってことで，タイプライタ文字を以下のように変更する[^z4]。
+
+[^z4]: 厳密に言うと，今回使うのはオリジナルの [Inconsolata] を改良した zi4 版である。
 
 {{< highlight text "hl_lines=3" >}}
 \documentclass{ltjsarticle}
