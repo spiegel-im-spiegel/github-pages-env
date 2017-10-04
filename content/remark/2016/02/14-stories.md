@@ -1,6 +1,6 @@
 +++
 date = "2016-02-14T14:00:52+09:00"
-update = "2016-03-06T12:48:28+09:00"
+update =  "2017-10-04T10:24:33+09:00"
 description = "LIGO が重力波の「直接検出」に成功する！ / aozorahack.org ドメインの取得 / オンラインのプログラム実行環境 paiza.IO / パスワードや秘密鍵の管理はどうしてますか？ / 達人出版会から「数学ガールの秘密ノート」の PDF 版が出てるらしい"
 draft = false
 tags = ["astronomy", "gravity-wave", "book", "aozora", "programming", "security", "authentication", "yubikey", "math"]
@@ -61,7 +61,7 @@ title = "週末スペシャル： LIGO が重力波の「直接検出」に成�
 
 いちばん分かりやすいのは [APOD](http://apod.nasa.gov/) に掲載されたこの図かな。
 
-{{< fig-img src="http://apod.nasa.gov/apod/image/1602/BHmerger_LIGO_3600.jpg" height="374" width="500" title="APOD: 2016 February 11 - LIGO Detects Gravitational Waves from Merging Black Holes" link="http://apod.nasa.gov/apod/ap160211.html" lang="en" >}}
+{{< fig-img src="http://apod.nasa.gov/apod/image/1602/BHmerger_LIGO_3600.jpg" width="3600" title="APOD: 2016 February 11 - LIGO Detects Gravitational Waves from Merging Black Holes" link="http://apod.nasa.gov/apod/ap160211.html" lang="en" >}}
 
 「重力波（gravitational wave または gravity wave）」はアインシュタイン博士の「一般相対性理論」で予言されてた現象。
 ちなみに一般相対性理論は重力と時空間[^sp] の関係について考察した理論。
@@ -75,6 +75,13 @@ title = "週末スペシャル： LIGO が重力波の「直接検出」に成�
 
 [^ps]: 高速回転する中性子星のことをパルサー（pulsar）と呼ぶ。
 [^dp]: 連星パルサーは重力波を放出することによりエネルギーを失い公転周期が短くなるとかなんとか。で，実際に重力波があるとして計算した周期減少率が実際の観測と誤差の範囲内で一致したとかなんとか。
+
+{{% div-box %}}
+**【2017年10月4日 追記】** 本当にノーベル物理学賞授与となったらしい。めでたい！
+
+- [2017年10月3日ニュース「ノーベル物理学賞は重力波の観測に貢献した米国の3氏に」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/10/20171003_02.html)
+- [2017年ノーベル物理学賞が重力波検出の功績に授与 | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/topics/2017/20171003-nobelprize.html)
+{{% /div-box %}}
 
 しかし連星ブラックホールかぁ。
 おそらく各国・各組織の重力波検出の研究チームは1974年の観測成果を意識してパルサーをターゲットにしていたところが多かったのではないだろうか。
