@@ -1,6 +1,6 @@
 +++
 date = "2016-02-14T14:00:52+09:00"
-update =  "2017-10-04T10:24:33+09:00"
+update =  "2017-10-04T12:56:21+09:00"
 description = "LIGO が重力波の「直接検出」に成功する！ / aozorahack.org ドメインの取得 / オンラインのプログラム実行環境 paiza.IO / パスワードや秘密鍵の管理はどうしてますか？ / 達人出版会から「数学ガールの秘密ノート」の PDF 版が出てるらしい"
 draft = false
 tags = ["astronomy", "gravity-wave", "book", "aozora", "programming", "security", "authentication", "yubikey", "math"]
@@ -81,6 +81,7 @@ title = "週末スペシャル： LIGO が重力波の「直接検出」に成�
 
 - [2017年10月3日ニュース「ノーベル物理学賞は重力波の観測に貢献した米国の3氏に」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/10/20171003_02.html)
 - [2017年ノーベル物理学賞が重力波検出の功績に授与 | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/topics/2017/20171003-nobelprize.html)
+- [「重力波」初観測にノーベル物理学賞！　米研究者3人　LIGOに尽力 | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_10_03_nobel.html)
 {{% /div-box %}}
 
 しかし連星ブラックホールかぁ。

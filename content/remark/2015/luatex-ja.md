@@ -21,15 +21,15 @@ title = "LuaTeX-ja に関する覚え書き"
   flattr    = "spiegel"
 
 [scripts]
-  mathjax = false
+  mathjax = true
   mermaidjs = false
 +++
 
 （これは[2014年9月12日に公開した記事](http://www.baldanders.info/mdwiki/#!luatexja.md)を再構成したものです）
 
-LuaTeX では pdfTeX と同等のことができ， DVI ファイルではなく PDF ファイルを直接出力する。
+$\mathrm{Lua\TeX}$ では $\mathrm{pdf\TeX}$ と同等のことができ， DVI ファイルではなく PDF ファイルを直接出力する。
 なおかつ callback を記述することにより内部処理に割り込みをかけ機能拡張することが可能になっている。
-LuaTeX-ja はこの機能拡張を使って日本語組版を LuaTeX の上で実現する。
+$\mathrm{Lua\TeX}$-ja はこの機能拡張を使って日本語組版を $\mathrm{Lua\TeX}$ の上で実現する。
 
 ## 参考
 
@@ -39,10 +39,10 @@ LuaTeX-ja はこの機能拡張を使って日本語組版を LuaTeX の上で�
 
 ## pTeX からの主な変更点
 
-- 和文フォントは(小塚明朝,IPA 明朝などの)実際のフォント,和文フォントメトリック(JFMと呼ぶ )の組である
-- 日本語の文書中では改行はほとんどどこでも許されるので, pTeX では和文文字直後の改行は無視される(スペースが入らない)ようになっていた. しかし, LuaTeX-ja では LuaTeX の仕様のためにこの機能は完全には実装されていない
-- 2 つの和文文字の間や, 和文文字と欧文文字の間に入るグルー/カーン(両者をあわせて JAglueと呼ぶ)の挿入処理が 0 から書き直されている
-- LuaTeX-ja では, pTeX と同様に漢字・仮名を制御綴内に用いることができ,\西暦 などが正しく動作するようにしている.但し, 制御綴中に使える和文文字が pTeX・upTeX と全く同じではないことに注意すること
+- 和文フォントは(小塚明朝,IPA 明朝などの)実際のフォント，和文フォントメトリック(JFMと呼ぶ )の組である
+- 日本語の文書中では改行はほとんどどこでも許されるので， $\mathrm{p\TeX}$ では和文文字直後の改行は無視される(スペースが入らない)ようになっていた。しかし， $\mathrm{Lua\TeX}$-ja では $\mathrm{Lua\TeX}$ の仕様のためにこの機能は完全には実装されていない
+- 2つの和文文字の間や，和文文字と欧文文字の間に入るグルー/カーン(両者をあわせて JAglue と呼ぶ)の挿入処理が 0 から書き直されている
+- $\mathrm{Lua\TeX}$-ja では， $\mathrm{p\TeX}$ と同様に漢字・仮名を制御綴内に用いることができ， `\西暦` などが正しく動作するようにしている。但し，制御綴中に使える和文文字が $\mathrm{p\TeX}$, $\mathrm{up\TeX}$ と全く同じではないことに注意すること
 
 ## LuaTeX のバージョン（in TeX Live 2017）
 
@@ -60,7 +60,7 @@ named COPYING and the LuaTeX source.
 LuaTeX is Copyright 2017 Taco Hoekwater and the LuaTeX Team.
 ```
 
-TeX Live で最新版を取得するには
+[TeX Live] で最新版を取得するには
 
 ```text
 $ tlmgr update --self --all
@@ -72,10 +72,11 @@ $ tlmgr update --self --all
 
 ### 最初の一歩
 
-最低限の LaTeX 文書ファイルはこんな感じ。入力は UTF-8 で行う。
+最低限の $\mathrm{\LaTeX}$ 文書ファイルはこんな感じ。入力は UTF-8 で行う。
 
-```tex
+```text
 \documentclass{ltjsarticle}
+% \usepackage{luatexja} % no need to use luatexja with ltjclasses or ltjsclasses classes
 
 \begin{document}
 
@@ -91,6 +92,10 @@ $ tlmgr update --self --all
 \end{document}
 ```
 
+`ltjsarticle` クラスを用いるのであれば `\usepackage{luatexja}` の記述はなくても問題ない。
+
+[^cls1]: `ltjsarticle` は `jsarticle` 互換クラスとして機能する。同様に `jsbook` 互換の `ltjsbook` クラスもある。
+
 これで
 
 ```text
@@ -99,15 +104,13 @@ $ tlmgr update --self --all
 
 で問題なく処理できる。
 
-ltjsarticle クラス（jsarticle クラス互換，jsbook クラス互換の ltjsbook クラスもある）を用いるのであれば `\usepackage{luatexja}` の記述はなくても問題ない。
-
 ### 和文フォントの埋め込み
 
 現在のバージョンでは既定で IPAex フォントを埋め込むよう設定されている。
-明示的に和文フォントを埋め込む場合は `luatexja-preset` パッケージでまとめてフォントを指定できる。
+明示的に和文フォントを埋め込む場合は `luatexja-preset` パッケージで書体単位でまとめてフォントを指定できる。
 
 ```text
-\usepackage[ipaex]{luatexja-preset} %和文フォントに IPAex フォントを指定する
+\usepackage[sourcehan]{luatexja-preset} %和文フォントに Source Han フォントを指定する
 ```
 
 プリセットオプションは以下のとおり
@@ -124,8 +127,10 @@ ltjsarticle クラス（jsarticle クラス互換，jsbook クラス互換の lt
 - `ipa`, `ipaex`, `ms`
 - `ipa-hg`, `ipaex-hg`, `ms-hg` （Office 付属フォントを利用）
 - `moga-mobo`
-- `sourcehan`  （[源ノ明朝]，[源ノ角ゴシック]）
+- `sourcehan` [^sh1]
 - `noembed` （フォントを埋め込まない）
+
+[^sh1]: [源ノ明朝]および[源ノ角ゴシック]の仕様例として「[TeX 日本語環境で「源ノ」フォントを使ってみた]({{< relref "remark/2017/10/using-source-han-fonts-by-japanese-tex.md" >}})」を参考にどうぞ。
 
 追加で以下のオプションも使用できる
 
@@ -136,42 +141,45 @@ ltjsarticle クラス（jsarticle クラス互換，jsbook クラス互換の lt
 - `90jis`: 可能ならば 90JIS 字形を使う
 - `jis2004`: 可能ならば JIS2004 字形を使う
 - `jis`: jfm-jis.lua を JFM として用いる（JIS フォントメトリックに近い結果が得られる）
+- `no-math`: `fontspec` パッケージによる数式フォント置換が不都合な場合に指定する
 
 ### graphicx および xcolor パッケージ
 
-graphicx および xcolor パッケージはドライバ指定なしでOK。（自動検出される）
+`graphicx` および `xcolor` パッケージはドライバ指定なしでOK。（自動検出される）
 
-```tex
+```text
 \usepackage{graphicx,xcolor}
 ```
 
-明示的に指定するのであれば pdftex を指定する。
+明示的に指定するのであれば `luatex` を指定する[^def1]。
 
-```tex
-\usepackage[pdftex]{graphicx,xcolor}
+```text
+\usepackage[luatex]{graphicx,xcolor}
 ```
+
+[^def1]: $\mathrm{Lua\TeX}$ 0.95 以降では `luatex.def` ドライバが新設され，ドライバ依存のパッケージではこれを指定すればいいようになった。
 
 ###  hyperref パッケージ
 
-hyperref パッケージも同様だが，そのままでは PDF の目次等が文字化けしてしまうので以下のパラメータを指定する。
+`hyperref` パッケージも同様にドライバ指定なし大丈夫だが，そのままでは PDF の目次等が文字化けしてしまうので以下のパラメータを指定する。
 
-```tex
+```text
 \usepackage[pdfencoding=auto]{hyperref}
 ```
 
 または
 
-```tex
+```text
 \usepackage[unicode=true]{hyperref}
 ```
 
-また pdfa オプションをつけると PDF/A-1b 準拠の PDF を出力する。
+更に `pdfa` オプションをつけると PDF/A-1b 準拠の PDF を出力する。
 
-```tex
-\usepackage[pdfencoding=auto,pdfa]{hyperref}
+```text
+\usepackage[pdfencoding=auto,pdfa]{hyperref} % PDF/A compatible
 ```
 
-hyperref パッケージでは PDF metadata 用に以下のオプションが指定できる。
+`hyperref` パッケージでは PDF metadata 用に以下のオプションが指定できる。
 
 - `baseurl`
 - `pdfauthor`
@@ -183,10 +191,10 @@ hyperref パッケージでは PDF metadata 用に以下のオプションが指
 
 ###  hyperxmp パッケージ
 
-hyperxmp パッケージを使うと XMP（Extensible Metadata Platform）によるメタデータを埋め込むことができる。
-これは hyperref パッケージと組み合わせて使う。
+`hyperxmp` パッケージを使うと XMP（Extensible Metadata Platform）によるメタデータを埋め込むことができる。
+これは `hyperref` パッケージと組み合わせて使う。
 
-```tex
+```text
 \usepackage{hyperxmp} % XMP support with hyperref
 \usepackage[pdfencoding=auto,pdfa]{hyperref} % PDF/A compatible
 
@@ -196,14 +204,14 @@ hyperxmp パッケージを使うと XMP（Extensible Metadata Platform）によ
     pdfsubject={ちゃんとLuaTeX-jaで日本語が出るかな？},
     pdfauthor={Spiegel},
     pdfkeywords={LuaTeX-ja, PDF/A},
-    pdfcopyright={Written by Spiegel on 2014, and licensed under CC-BY.},
+    pdfcopyright={Written by Spiegel on 2014,2017, and licensed under CC-BY.},
     pdflicenseurl={http://creativecommons.org/licenses/by/4.0/},
     pdfcontacturl={http://www.baldanders.info/},
     pdfcontactcity={Hiroshima},
     pdfcontactcountry={Japan},
     pdfcontactregion={JA},
     pdfcaptionwriter={Spiegel},
-    baseurl={http://www.baldanders.info/},
+    baseurl={http://text.baldanders.info/remark/2015/luatex-ja/},
     draft=false,
     bookmarks=true,
     bookmarksnumbered=true,
@@ -216,7 +224,7 @@ hyperxmp パッケージを使うと XMP（Extensible Metadata Platform）によ
 }
 ```
 
-hyperxmp パッケージで追加されるパラメータは以下のとおり
+`hyperxmp` パッケージで追加されるパラメータは以下のとおり
 
 - `pdfauthortitle`
 - `pdfcaptionwriter`
@@ -230,16 +238,16 @@ hyperxmp パッケージで追加されるパラメータは以下のとおり
 - `pdfcontacturl`
 - `pdfcopyright`
 - `pdflicenseurl`
-- `pdfmetalang` （ない場合は pdflang を参照する）
+- `pdfmetalang` （ない場合は `pdflang` を参照する）
 
-どういうわけか hyperxmp パッケージを使ってもいわゆる「タグ入り PDF」として Adobe Reader で認識されない。
+どういうわけか `hyperxmp` パッケージを使ってもいわゆる「タグ入り PDF」として Adobe Reader で認識されない。
 [Evince](https://wiki.gnome.org/Apps/Evince) では著作権情報は読み取れているみたい。
 
-![property](https://farm1.staticflickr.com/756/21544622778_b7fa689c47_o.png)
+{{< fig-img src="https://farm1.staticflickr.com/756/21544622778_b7fa689c47_o.png" title="property" >}}
 
-###  参考文献
+###  参考文献の管理
 
-bibTeX, bibLaTeX は pTeX, upTeX で使っていたものを流用できる。
+$\mathrm{bib\TeX}$, $\mathrm{bib\LaTeX}$ は $\mathrm{p\TeX}$, $\mathrm{up\TeX}$ で使っていたものを流用できる。
 ただし，入出力は UTF-8 になること。
 
 ```tex
@@ -247,7 +255,7 @@ bibTeX, bibLaTeX は pTeX, upTeX で使っていたものを流用できる。
 \addbibresource{refer.bib}
 ```
 
-###  .latexmkrc
+### LuaLaTeX 用 .latexmkrc ファイルの準備
 
 ```perl
 #!/usr/bin/env perl
@@ -279,29 +287,19 @@ $max_repeat                  = 5;
 
 ```tex
 \documentclass{ltjsarticle}
-\usepackage[no-math]{fontspec} % 欧文フォント設定（和文フォント設定より先に行う）
-\setmonofont[AutoFakeSlant,BoldItalicFeatures={FakeSlant}]{Inconsolatazi4} % Inoconsolataフォントを使用
-\usepackage{upquote}
-\usepackage[ipaex]{luatexja-preset} % 和文フォントに IPAex フォントを指定する（jis2004 オプションは IPAex フォントでは対応してないみたい）
-\usepackage{graphicx,xcolor}
+\usepackage[no-math,sourcehan]{luatexja-preset} %和文フォントに Source Han フォントを指定する
+
+%% Hyperref 設定
 \usepackage{hyperxmp} % XMP support with hyperref
 \usepackage[pdfencoding=auto,pdfa]{hyperref} % PDF/A compatible
-
-%% 参考文献
-\usepackage[backend=biber,style=numeric]{biblatex}
-\addbibresource{refer.bib}
 
 %% その他
 \renewcommand{\emph}[1]{\textsf{\textgt{#1}}} % 強調をゴシック体と Sans Serif に変更する
 
-%% Kindle 用の設定 %%
-%\setmainjfont[BoldFont=IPAexGothic]{KBMinchoM} % メインのフォントを KB明朝M に変更
-%\usepackage[paperwidth=13.5cm, paperheight=17.25cm, top=0.5cm, left=0.5cm, right=0.5cm, bottom=0.5cm]{geometry} % Kindle layout
-
 %% 文書情報
 \title{\emph{はじめてのLua\TeX-ja}}
 \author{Spiegel}
-\date{2014-09-20}
+\date{\today}
 
 \hypersetup{% hyperref options (and metadata)
     pdflang={jp},
@@ -309,14 +307,14 @@ $max_repeat                  = 5;
     pdfsubject={ちゃんとLuaTeX-jaで日本語が出るかな？},
     pdfauthor={Spiegel},
     pdfkeywords={LuaTeX-ja, PDF/A},
-    pdfcopyright={Written by Spiegel on 2014, and licensed under CC-BY.},
+    pdfcopyright={Written by Spiegel on 2014,2017, and licensed under CC-BY.},
     pdflicenseurl={http://creativecommons.org/licenses/by/4.0/},
     pdfcontacturl={http://www.baldanders.info/},
     pdfcontactcity={Hiroshima},
     pdfcontactcountry={Japan},
     pdfcontactregion={JA},
     pdfcaptionwriter={Spiegel},
-    baseurl={http://www.baldanders.info/mdwiki/},
+    baseurl={http://text.baldanders.info/remark/2015/luatex-ja/},
     draft=false,
     bookmarks=true,
     bookmarksnumbered=true,
@@ -331,7 +329,6 @@ $max_repeat                  = 5;
 \begin{document}
 
 \maketitle
-\tableofcontents
 
 \section{はじめてのLua\TeX-ja}
 
@@ -342,9 +339,6 @@ $max_repeat                  = 5;
 長い文章を入力するとちゃんと右端のところで折り返されるかな？
 大丈夫そうな気がするけど．ちょっと不安だけど何事も挑戦だよね．
 
-\nocite{Book:JISHandbook}\nocite{Book:CharCode}\nocite{Book:CharCode2}
-\printbibliography[title=参考文献]
-
 \end{document}
 ```
 
@@ -352,6 +346,8 @@ $max_repeat                  = 5;
 
 - [The Typekit Blog | Source Han Sansの紹介：オープンソースのPan-CJK書体](https://blog.typekit.com/alternate/source-han-sans-jp/)
 - [源ノ明朝](https://source.typekit.com/source-han-serif/jp/)
+- [TeX Live 2016 の新しい LuaTeX あれこれ - Acetaminophen’s diary](http://acetaminophen.hatenablog.com/entry/2016/04/23/141922)
 
 [源ノ角ゴシック]: https://github.com/adobe-fonts/source-han-sans "adobe-fonts/source-han-sans: Source Han Sans | 思源黑体 | 思源黑體 | 源ノ角ゴシック | 본고딕"
 [源ノ明朝]: https://github.com/adobe-fonts/source-han-serif "adobe-fonts/source-han-serif: Source Han Serif | 思源宋体 | 思源宋體 | 源ノ明朝 | 본명조"
+[TeX Live]: http://www.tug.org/texlive/ "TeX Live - TeX Users Group"

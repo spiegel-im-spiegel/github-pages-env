@@ -39,5 +39,6 @@
 - [Amazon Newsroom - 「Alexa」と「Amazon Echo」が年内に日本に登場](https://amazon-press.jp/Top-Navi/Press-releases/Presselist/Press-release/amazon/jp/Devices/2017/Amazon-Alexa-1002/)
     - [Amazon Echoが年内に日本登場へ——スマートスピーカーの国内参入、続々と発表 | TechCrunch Japan](http://jp.techcrunch.com/2017/10/02/amazon-echo-will-come-to-japan-in-2017/)
 - [Apple、iOSとmacOSのARM版カーネルをオープンソース化 | TechCrunch Japan](http://jp.techcrunch.com/2017/10/02/20171001apple-open-sourced-the-kernel-of-ios-and-macos-for-arm-processors/)
+- [GitHub、「Atom」v1.21を正式リリース。“Language Server”プロトコルをサポート - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1084268.html)
 
 (end of file)
