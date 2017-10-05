@@ -154,7 +154,7 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を OpenType フォントに変更する�
 
 ### OpenType フォントを使う（unicode-math パッケージ）
 
-数式用フォントに OpenType フォントを指定する場合は [`unicode-math`] パッケージを使うのが便利だ。
+数式用の書体に OpenType フォントを指定する場合は [`unicode-math`] パッケージを使うのが便利だ。
 たとえば [$\mathrm{\TeX}$ Gyre Pagella Math](https://ctan.org/pkg/tex-gyre-math-pagella "CTAN: Package tex-gyre-math-pagella") を使う場合は以下のように指定する[^ams1]。
 
 [^ams1]: `amsmath` パッケージを併用する場合は [`unicode-math`] パッケージの前に`amsmath` パッケージを指定しないとタイプセット時にエラーになる。なお `amssymb` パッケージは必要ない。

@@ -344,6 +344,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [golangでTravis CIを使ってクロスコンパイルするときにハマったところ #golang #travisci - uchimanajet7のメモ](http://uchimanajet7.hatenablog.com/entry/2015/03/20/211352)
 - [Go言語のビルド生活を drone.ioで幸せに暮らす #golang - Qiita](http://qiita.com/atotto/items/b796c31c1755dbec13db)
 - [Go+Webアプリケーション+CircleCIで静的解析・テスト・バイナリリリースを効率良く行なう - Qiita](http://qiita.com/kaneshin/items/163626c09c1ad9818c6c)
+- [Circle CI 2.0の基礎的な設定まとめてみた(GAE/Goのサンプル付き) - Qiita](https://qiita.com/Sekky0905/items/7f9aa94261e17e4fd040)
 
 ### クロス環境
 
