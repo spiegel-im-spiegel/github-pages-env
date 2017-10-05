@@ -1,7 +1,7 @@
 +++
 title = "ちょこっと MathJax： 基本的な数式表現"
 date =  "2017-09-28T22:25:54+09:00"
-update =  "2017-10-03T10:59:09+09:00"
+update =  "2017-10-05T16:58:06+09:00"
 description = "今回は基本的な数式の書き方を説明していこう。"
 tags        = [ "math", "tex", "mathjax" ]
 
@@ -101,7 +101,7 @@ $\mathrm{d}x$ の d はイタリック体 $d$ ではなくローマン体 $\math
 残念ながら [MathJax] には $\\mathrm{\TeX}$ にない制限が存在する。
 ここに2つほど紹介しよう。
 
-### Neo-Euler にはイタリック体がない
+### Neo-Euler には斜体がない
 
 数式好きの方に人気がある（らしい） Euler 書体は [MathJax] では Web フォント `Neo-Euler` として提供されている。
 `Neo-Euler` を利用するためには `HTML-CSS` オプションを以下のように設定する[^chtml1]。
@@ -121,6 +121,7 @@ MathJax.Hub.Config({
 ```
 
 この設定で以下の数式
+（「[コンクリートなフォントとか ～Computer Modern の兄弟たち～](http://zrbabbler.sp.land.to/concrete.html)」より引用）
 
 ```html
 $$
@@ -133,25 +134,23 @@ $$
 
 {{< fig-img src="https://farm5.staticflickr.com/4361/37112149590_888aff535c_o.png" title="Neo-Euler web fonts"  link="https://www.flickr.com/photos/spiegel/37112149590/" >}}
 
-一方，同じものを $\mathrm{\LaTeX}$ で処理すると以下のようになる。
-（「[コンクリートなフォントとか ～Computer Modern の兄弟たち～](http://zrbabbler.sp.land.to/concrete.html)」より引用）
+一方，同じものを $\mathrm{\LaTeX}$ で Euler ＋ Concrete を指定して 処理すると以下のようになる。
 
 {{< fig-img src="https://farm5.staticflickr.com/4390/36657659994_8abc048bb7_o.png" title="Euler fonts"  link="https://www.flickr.com/photos/spiegel/36657659994/" >}}
 
 両者の違いが分かるだろうか（文字の大きさとかは無視してね）。
 ポイントは数字と $\sin$ 関数である。
 
-実は，現行の [MathJax] では `Neo-Euler` にイタリック体が用意されていない[^euler1]。
-このため名前も変数も数字も同じ字体で表示されてしまうのだ[^euler2]。
+実は，現行の `Neo-Euler` には文字と記号の一部に斜体（slant）が用意されていない[^euler1]。
+このせいで（通常ルールとは異なり）数式表現が「立体（upright）」になるため，名前も変数も数字も同じに見えてしまうのだ（厳密には違うけど）。
 
-[^euler1]: $\mathrm{\LaTeX}$ での処理結果と比較するかぎり `Neo-Euler` の文字はイタリック体に見えるのだが，[リポジトリに格納されているフォントセット](https://github.com/mathjax/MathJax/tree/master/fonts/HTML-CSS/Neo-Euler)のファイル名を見るとローマン体の扱いになっているようである。というか Euler 書体は手書き文字が元になっているためローマン体やイタリック体といった字体の区別はないと思われる。
-[^euler2]: $\mathrm{\LaTeX}$ でも Euler を Concrete と組み合わせるのが普通みたいなので， [MathJax] でも Web フォントを複数指定できるようにするか Concrete ＋ Euler の組み合わせをひとつのフォントセットとして定義しないとダメだと思う。
+[^euler1]: [MathJax] のドキュメントには「イタリック体がない」と書かれているが，厳密には「斜体」のことを言っているようだ。そもそも Euler 書体は手書き文字が元になっていて見た目はイタリック体っぽいデザインをしているため，「イタリック体がない」という言い方は誤解を招く。
 
 {{< fig-quote title="The HTML-CSS output processor" link="http://docs.mathjax.org/en/latest/options/output-processors/HTML-CSS.html" lang="en" >}}
 <q>Note that not all mathematical characters are available in all fonts (e.g., Neo-Euler does not include italic characters), so some mathematics may work better in some fonts than in others.</q>
 {{< /fig-quote >}}
 
-$\sin$ の見た目だけでも変えたいのであれば，ちょっと裏技的だが以下のようにする。
+$\mathrm{\LaTeX}$ っぽく $\sin$ の見た目だけでも変えたいのであれば，ちょっと裏技的だが以下のようにする。
 
 まず `HTML-CSS` オプションに `mtextFontInherit` を追加し true をセットする（`mtextFontInherit` については[前回]の記事を参照）。
 
@@ -175,7 +174,9 @@ MathJax.Hub.Config({
 
 どうやったかというと `\text{sin}` によって `sin` を（数式フォントではなく）本文のフォントに書き換えたのだ。
 
-まぁ，これで見た目はそれっぽくなったが，やはり無理矢理な感じが強いので， [MathJax] で `Neo-Euler` を使うのは（今のところ）お薦めできない。 
+まぁ，これで見た目はそれっぽくなったが，やはり無理矢理な感じが強いので， [MathJax] で `Neo-Euler` を使うのは（今のところ）お薦めできない[^euler2]。 
+
+[^euler2]: $\mathrm{\LaTeX}$ でも Euler を Concrete と組み合わせるのが普通みたいなので， [MathJax] でも Web フォントを複数指定できるようにするか Concrete ＋ Euler の組み合わせをひとつのフォントセットとして定義しないとダメだと思う。
 
 ### 不等号に注意
 

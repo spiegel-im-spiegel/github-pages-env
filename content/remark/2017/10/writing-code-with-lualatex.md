@@ -1,6 +1,7 @@
 +++
 title = "LuaLaTeX でコードを書いてみる"
 date =  "2017-10-04T18:19:51+09:00"
+update =  "2017-10-05T16:58:06+09:00"
 description = "とりあえず Go 言語による以下のコードを LuaLaTeX で書くことを考える。"
 tags        = [ "tex", "luatex", "font", "golang", "programming", "language" ]
 
@@ -99,7 +100,7 @@ func main() {
 
 神！！！
 
-というわけで，ここにある `listings-golang.sty` を取ってきて作業フォルダに置けばいいんだけど，折角なら定常的に使いたいので，以下のフォルダを掘って，そこにリポジトリを clone してしまった。
+というわけで，ここにある `listings-golang.sty` を取ってきて作業フォルダに置けばいいんだけど，折角なら定常的に使いたいので，以下のフォルダを掘って，そこにリポジトリを git clone してしまった。
 
 - `{$TEXMFLOCAL}/tex/latex/`
 

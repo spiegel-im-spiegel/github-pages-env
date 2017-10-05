@@ -1,6 +1,7 @@
 +++
 title = "数式用フォントで遊ぶ"
 date =  "2017-10-05T06:58:54+09:00"
+update =  "2017-10-05T16:58:06+09:00"
 description = "数式用フォントに OpenType フォントを指定する場合は unicode-math パッケージを使う。"
 tags        = [ "tex", "luatex", "font", "math" ]
 
@@ -32,7 +33,7 @@ tags        = [ "tex", "luatex", "font", "math" ]
 ## 既定状態での数式表示
 
 $\mathrm{\TeX}$ および $\mathrm{\LaTeX}$ は元々が数式表現に優れている。
-これは $\mathrm{Lua\TeX}$, $\mathrm{Lua\LaTeX}$ でも同じで，たとえばプリアンブルに何も書かなくても（『[LaTeX2ε美文書作成入門]』より引用）
+これは $\mathrm{Lua\TeX}$, $\mathrm{Lua\LaTeX}$ でも同じで，たとえばプリアンブルに特に何も書かなくても（『[LaTeX2ε美文書作成入門]』より引用）
 
 ```text
 \documentclass[fleqn]{ltjsarticle}
@@ -59,15 +60,42 @@ official r\^ole in fluffy souffl\'es!?''
 
 もう少し変わった式やシンボルを使う場合には `amsmath` および `amssymb` パッケージを使って（同じく『[LaTeX2ε美文書作成入門]』より引用）
 
+```text
+\documentclass[fleqn]{ltjsarticle}
+
+\usepackage{amsmath,amssymb} % amsmath packages
+
+\begin{document}
+
+\subsection*{連分数（amsmathパッケージ）}
+
+\begin{equation}
+	b_0 + \cfrac{c_1}{b_1 +
+	      \cfrac{c_2}{b_2 +
+		  \cfrac{c_3}{b_3 +
+		  \cfrac{c_4}{b_4 + \cdots}}}}
+\end{equation}
+
+\subsection*{黒板文字（amssybパッケージ）}
+
+$\mathbb{ABCDEFGHIJELMN}$
+
+\end{document}
+```
+
+このように記述すれば，タイプセットの結果は
+
 {{< fig-img src="https://farm5.staticflickr.com/4498/36825338243_1828366bd9_o.png" title="equation (2)"  link="https://www.flickr.com/photos/spiegel/36825338243/" >}}
 
-こんな感じに表現できる。
-ちなみに本文の書体は Latin Modern，数式は Computer Modern で，`amssymb` パッケージで提供される黒板太文字は AMSFonts だ。
+こんな感じになる。
+ちなみに本文の欧文書体は Latin Modern，数式は Computer Modern で，`amssymb` パッケージで提供される黒板太文字は AMSFonts と呼ばれるものだ[^ams]。
 
-## 本文の書体を OpenType フォントに変更する
+[^ams]: `amsmath` および `amssymb` パッケージは AMS (AmericanMathenatical Society; 米国数学会) が数学論文記述用に開発した $\mathrm{\TeX}$ 用のパッケージ及び文字・記号がベースになっていて，このうちの文字・記号のコレクションが AMSFonts と呼ばれている。 AMSFonts は `amssymb` パッケージを指定することで使用できる。また $\mathrm{\TeX}$ 用の OpenType フォントには AMSFonts を収録したものもある。
 
-$\mathrm{Lua\LaTeX}$ で本文の書体を変更するのはとても簡単になった。
-たとえば本文の欧文書体として $\mathrm{\TeX}$ Gyre をセットする場合は
+## 本文の欧文書体を OpenType フォントに変更する
+
+$\mathrm{Lua\LaTeX}$ で本文の書体を OpenType フォントに変更するのはとても簡単になった。
+本文の和文フォントを変更する方法は[前々回に紹介した]({{< relref "remark/2017/10/using-source-han-fonts-by-japanese-tex.md" >}} "TeX 日本語環境で「源ノ」フォントを使ってみた")が，たとえば欧文書体として $\mathrm{\TeX}$ Gyre をセットする場合は
 
 {{< highlight text "hl_lines=2 5-7" >}}
 \documentclass[fleqn]{ltjsarticle}
@@ -90,14 +118,17 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を変更するのはとても簡単に�
 
 ちなみにタイプライタ文字には [Inconsolata] を指定している[^tt1]。
 
+書体を選択する場合は本文の書体と後述する数式用の書体があまりかけ離れないようバランスをとることが重要である。
+『[LaTeX2ε美文書作成入門]』には欧文書体についてかなりページを割いて解説されているので，一読することをお薦めする。
+
 [^tt1]: 前回の「[LuaLaTeX でコードを書いてみる]({{< relref "remark/2017/10/writing-code-with-lualatex.md" >}})」を参照のこと。
 
 ## 数式用の書体を変更する
 
-### AMSFonts (Concrete ＋ Euler) を使う
+### 既存のパッケージを使う（Concrete ＋ Euler の場合）
 
-数式用のフォントの指定には既存のパッケージが使えるようだ。
-たとえば数学好きには人気が高い Concrete ＋ Euler フォントの組み合わであれば以下の設定でOKだ。
+たとえば，数学好きに人気の高い Concrete ＋ Euler フォントの組み合わだが，これは既存のパッケージを使ったほうがよさそうである（[後述]({{< relref "#opt" >}})）。
+フォントの指定も従来通り。
 
 {{< highlight text "hl_lines=4" >}}
 \documentclass[fleqn]{ltjsarticle}
@@ -123,8 +154,10 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を変更するのはとても簡単に�
 
 ### OpenType フォントを使う（unicode-math パッケージ）
 
-数式用フォントに OpenType フォントを指定する場合は [`unicode-math`] パッケージを使う。
-たとえば [$\mathrm{\TeX}$ Gyre Pagella Math](https://ctan.org/pkg/tex-gyre-math-pagella "CTAN: Package tex-gyre-math-pagella") を使う場合は以下のように指定する。
+数式用フォントに OpenType フォントを指定する場合は [`unicode-math`] パッケージを使うのが便利だ。
+たとえば [$\mathrm{\TeX}$ Gyre Pagella Math](https://ctan.org/pkg/tex-gyre-math-pagella "CTAN: Package tex-gyre-math-pagella") を使う場合は以下のように指定する[^ams1]。
+
+[^ams1]: `amsmath` パッケージを併用する場合は [`unicode-math`] パッケージの前に`amsmath` パッケージを指定しないとタイプセット時にエラーになる。なお `amssymb` パッケージは必要ない。
 
 {{< highlight text "hl_lines=2 5" >}}
 \documentclass[fleqn]{ltjsarticle}
@@ -163,8 +196,7 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を変更するのはとても簡単に�
 [Neo Euler] を利用する場合は，[フォントを取得]({{< relref "#elr-inst" >}})して以下のように指定する。
 
 ```test
-\usepackage[math-style=upright]{unicode-math}
-\setmathfont{Neo Euler}
+\setmathfont{Neo Euler}[math-style=upright]
 ```
 
 `math-style` オプションについては[後述]({{< relref "#opt" >}})する。
@@ -172,7 +204,7 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を変更するのはとても簡単に�
 
 {{< fig-img src="https://farm5.staticflickr.com/4443/37239500550_c7fe31fd8b.jpg" title="equation (Neo Euler)"  link="https://www.flickr.com/photos/spiegel/37239500550/" >}}
 
-[TeX Live] 2017 に収録されている [STIX] はデザインがイマイチな気がする。
+[STIX] については [TeX Live] 2017 に収録されているものはデザインがイマイチな気がする。
 なので[バージョン2を取得]({{< relref "#stx2-inst" >}})して以下のように指定する。
 
 ```test
@@ -183,7 +215,7 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を変更するのはとても簡単に�
 
 {{< fig-img src="https://farm5.staticflickr.com/4461/36788335984_9c09a582cd.jpg" title="equation (STIX2 Math)"  link="https://www.flickr.com/photos/spiegel/36788335984/" >}}
 
-[XITS](https://github.com/khaledhosny/xits "khaledhosny/xits: XITS - OpenType implementation of STIX fonts with math support") を利用する場合は，以下のように指定する。
+[STIX] の fork とも言える（？） [XITS](https://github.com/khaledhosny/xits "khaledhosny/xits: XITS - OpenType implementation of STIX fonts with math support") を利用する場合は，以下のように指定する。
 
 ```test
 \setmathfont{XITS-Math}
@@ -195,34 +227,36 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を変更するのはとても簡単に�
 
 ## unicode-math パッケージのオプション {#opt}
 
-`math-style`, `bold-style`, `sans-style` の各オプションに対して文字や記号のスタイルを指定する。
-具体的には ラテン小文字，ラテン大文字，ギリシア小文字，ギリシア大文字 それぞれに対して「立体」か「斜体」か指定する。
+`unicode-math` パッケージのオプションはいくつかあるが，今回はよく使うと思われるものについて紹介する。
+
+`math-style`, `bold-style`, `sans-style` 各オプションは数式の文字や記号のスタイルを指定する。
+具体的には ラテン小文字，ラテン大文字，ギリシア小文字，ギリシア大文字 それぞれに対して「立体（upright）」または「斜体（slant）」の組み合わせを指定する。
 
 数式全体（`math-style`）のスタイル設定は以下の通り。
 
 | `math-style` | L小文字 | L大文字 | G小文字 | G大文字 |
 |:-------------|:-------:|:-------:|:-------:|:-------:|
-| ISO          | 斜体    | 斜体    | 斜体    | 斜体    |
-| TeX          | 斜体    | 斜体    | 斜体    | 立体    |
-| french       | 斜体    | 立体    | 立体    | 立体    |
-| upright      | 立体    | 立体    | 立体    | 立体    |
+| `ISO`        | 斜体    | 斜体    | 斜体    | 斜体    |
+| `TeX`        | 斜体    | 斜体    | 斜体    | 立体    |
+| `french`     | 斜体    | 立体    | 立体    | 立体    |
+| `upright`    | 立体    | 立体    | 立体    | 立体    |
 
 `\symbf` 指定時（`bold-style`）のスタイル設定は以下の通り。
 
 | `bold-style` | L小文字 | L大文字 | G小文字 | G大文字 |
 |:-------------|:-------:|:-------:|:-------:|:-------:|
-| ISO          | 斜体    | 斜体    | 斜体    | 斜体    |
-| TeX          | 立体    | 立体    | 斜体    | 立体    |
-| upright      | 立体    | 立体    | 立体    | 立体    |
+| `ISO`        | 斜体    | 斜体    | 斜体    | 斜体    |
+| `TeX`        | 立体    | 立体    | 斜体    | 立体    |
+| `upright`    | 立体    | 立体    | 立体    | 立体    |
 
 `\symsf` 指定時（`sans-style`）のスタイル設定は以下の通り。
 
 | `sans-style` | L小文字 | L大文字 | G小文字 | G大文字 |
 |:-------------|:-------:|:-------:|:-------:|:-------:|
-| italic       | 斜体    | 斜体    | 斜体    | 斜体    |
-| upright      | 立体    | 立体    | 立体    | 立体    |
+| `italic`     | 斜体    | 斜体    | 斜体    | 斜体    |
+| `upright`    | 立体    | 立体    | 立体    | 立体    |
 
-`unicode-math` パッケージのオプションは以下のように指定する。
+オプションの指定方法は以下の通り。
 
 ```text
 \usepackage[math-style=ISO,bold-style=ISO]{unicode-math}
@@ -244,12 +278,14 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を変更するのはとても簡単に�
 \setmathfont{Neo Euler}[math-style=upright]
 ```
 
-[Neo Euler] のギリシア文字には斜体（またはイタリック体）がないようで， `math-style` の値を `ISO` または `TeX` に設定するとギリシア文字が表示されない。
+### Neo Euler 書体について
+
+[Neo Euler] のギリシア文字には斜体がないようで， `math-style` の値を `ISO` または `TeX` に設定するとギリシア文字が表示されない。
 
 {{< fig-img src="https://farm5.staticflickr.com/4459/23648392388_2c8049cc57.jpg" title="equation (Neo Euler 2)"  link="https://www.flickr.com/photos/spiegel/23648392388/" >}}
 
-他にも AMSFonts にあるシンボルが存在しないようだ。
-Euler フォントに関しては，使うのであれば， OpenType ではなく AMSFonts を使うべきだろう。
+他にも AMSFonts にあるシンボル（先程の黒板太文字とか）が存在しなかったりするようだ。
+Euler フォントに関しては，使うのであれば， OpenType ではなく既存のパッケージを使うほうが簡単だろう。
 
 ## 【付録1】 euler.otf ファイルのインストール {#elr-inst}
 
@@ -291,7 +327,9 @@ luaotfload | resolve : Resolved file name "c:/texlive/texmf-local/fonts/opentype
 
 ## 【付録2】 STIX2 のインストール {#stx2-inst}
 
-[STIX] バージョン2（zip ファイル）をダウンロードし， `Fonts/OTF/` フォルダにある以下のファイルを `{$TEXMFLOCAL}/fonts/opentype/public/STIX2/` フォルダにコピーする。
+[STIX] バージョン2（zip ファイル）をダウンロード[^sf] し， `Fonts/OTF/` フォルダにある以下のファイルを `{$TEXMFLOCAL}/fonts/opentype/public/STIX2/` フォルダにコピーする。
+
+[^sf]: ダウンロード・ページは広告だらけで且つ[色々と悪名高い SourceForge](http://gigazine.net/news/20150722-sourceforge/ "オープンソースソフトウェアの老舗サイト「SourceForge」はいかにして堕ちていったのか - GIGAZINE") なのでご注意を。
 
 - `STIX2Math.otf`
 - `STIX2Text-Bold.otf`
