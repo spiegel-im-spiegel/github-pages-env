@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-10-03T11:07:51+09:00"
+update = "2017-10-06T11:06:37+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -152,6 +152,7 @@ title = "Go 言語に関するブックマーク"
 - [Text normalization in Go - The Go Blog](https://blog.golang.org/normalization) : Unicode 正規化について
 - [Go言語で文字列の変換(全角・半角、ひらがな・カタカナ)をする : Serendip - Webデザイン・プログラミング](http://www.serendip.ws/archives/6307)
 - [Goで全角英数字を半角にする - Qiita](http://qiita.com/ktashiro/items/da5cbee3129acc74e5d7)
+- [Goのstring型が思ったより容量食いだった話 - Qiita](https://qiita.com/hnw/items/ec3da327c37e3ad8c875)
 
 ### 配列と [slice]
 

@@ -1,5 +1,7 @@
 # 「あとでみる」ブックマーク（Temporary）
 
+NTT 新規契約 0800-2000-116
+
 ## いつか買う，かも
 
 - [ロボット法 - 株式会社　勁草書房](http://www.keisoshobo.co.jp/book/b324580.html) : こっちは面白そう
@@ -16,6 +18,7 @@
 - [相当数のMacに脆弱性！？古いファームウェア搭載で高リスク - iPhone Mania](https://iphone-mania.jp/news-187526/)
 - [JVNVU#93453933: Dnsmasq に複数の脆弱性](http://jvn.jp/vu/JVNVU93453933/)
 - [「制御システムのセキュリティリスク分析ガイド<br />～ セキュリティ対策におけるリスク分析実施のススメ ～」を公開：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/controlsystem/riskanalysis.html)
+- [Apache Tomcat における脆弱性に関する注意喚起](http://www.jpcert.or.jp/at/2017/at170038.html)
 
 ## 天文関連
 
@@ -27,6 +30,8 @@
 
 - [LHC@home](https://lhcathome.cern.ch/lhcathome/)
 - [マナー悪すぎ！石垣島に星空を見に来るな！と地元の人に言われないようにする為に知ってほしい事。 | 世界最高レベルの星空☆石垣島久宇良（くうら）☆](http://goattours.com/2017/10/02/%e7%9f%b3%e5%9e%a3%e5%b3%b6%e3%81%ab%e6%98%9f%e7%a9%ba%e3%82%92%e8%a6%8b%e3%81%ab%e6%9d%a5%e3%82%8b%e3%81%aa%ef%bc%81%e3%81%a8%e5%9c%b0%e5%85%83%e3%81%ae%e4%ba%ba%e3%81%ab%e8%a8%80%e3%82%8f%e3%82%8c/)
+- [表面での爆発から星の死への旅立ち | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2017/20171005-subaru-cfca.html)
+    - [2017年10月5日ニュース「その白色矮星は、表面の爆発が最期の引き金になった」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/10/20171005_01.html)
 
 ## その他
 
@@ -40,5 +45,8 @@
     - [Amazon Echoが年内に日本登場へ——スマートスピーカーの国内参入、続々と発表 | TechCrunch Japan](http://jp.techcrunch.com/2017/10/02/amazon-echo-will-come-to-japan-in-2017/)
 - [Apple、iOSとmacOSのARM版カーネルをオープンソース化 | TechCrunch Japan](http://jp.techcrunch.com/2017/10/02/20171001apple-open-sourced-the-kernel-of-ios-and-macos-for-arm-processors/)
 - [GitHub、「Atom」v1.21を正式リリース。“Language Server”プロトコルをサポート - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1084268.html)
+- [歪んだ世界の日本観１　かっこいい日本と残酷な日本 | NEXT MEDIA "Japan In-depth"［ジャパン・インデプス］](http://japan-indepth.jp/?p=36376)
+- [アマゾン、プライム会員向けに“読み放題”の「Prime Reading」を開始 - CNET Japan](https://japan.cnet.com/article/35108343/)
+- [新しい100年社会、21世紀人の4つの顔 – Makio Tsukamoto – Medium](https://medium.com/@tsukamoto/%E6%96%B0%E3%81%97%E3%81%84100%E5%B9%B4%E7%A4%BE%E4%BC%9A-21%E4%B8%96%E7%B4%80%E4%BA%BA%E3%81%AE4%E3%81%A4%E3%81%AE%E9%A1%94-a09dfd214481)
 
 (end of file)
