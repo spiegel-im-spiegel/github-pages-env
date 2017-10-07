@@ -9,5 +9,4 @@ GitHub Page [spiegel-im-spiegel.github.io](https://github.com/spiegel-im-spiegel
 
 コンテンツのライセンスは基本的に [Creative Commons Liscense Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) で公開しています。ご利用はライセンスの許諾範囲内でご自由にどうぞ。
 
-- 本コンテンツでは [highlight.js](https://highlightjs.org/) を使用しています。  [highlight.js](https://highlightjs.org/) は FLOSS ではありません。[ライセンス](http://text.baldanders.info/highlightjs/LICENSE)に注意して下さい。
-- その他の Web フォントや外部から呼び出している CSS や JavaScript ファイル等のライセンスについてはそれぞれの発行元を確認してください。
+また Web フォントや外部から呼び出している CSS や JavaScript ファイル等のライセンスについてはそれぞれの発行元を確認してください。
