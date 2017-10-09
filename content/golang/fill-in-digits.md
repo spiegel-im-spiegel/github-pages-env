@@ -1,6 +1,7 @@
 +++
 title = "指定桁の数字列の先頭をゼロで埋める遊び"
 date =  "2017-10-09T17:05:06+09:00"
+update =  "2017-10-09T19:10:04+09:00"
 description = "今回は 文字列⇔数値 変換と正規表現（のさわり）について書けたからよしとするか。"
 tags        = [ "golang", "programming", "cli", "regexp" ]
 
@@ -121,6 +122,9 @@ import (
     "strings"
 )
 
+//regular expression object for Identity class
+var re = regexp.MustCompile(`^[0-9]+$`)
+
 //Identity is digit string class
 type Identity struct {
     ds string // digit string
@@ -129,22 +133,18 @@ type Identity struct {
 
 //IdentityNew returns Identity instance.
 func IdentityNew(n int, s string) (*Identity, error) {
-    id := &Identity{}
+    d := &Identity{}
     if n <= 0 {
-        return id, errors.New("Number of digits is greater than zero.")
+        return d, errors.New("Number of digits is greater than zero.")
     }
     if len(s) > 0 {
-        r, err := regexp.Compile(`^[0-9]+$`)
-        if err != nil {
-            return id, err
-        }
-        if !r.MatchString(s) {
-            return id, errors.New(s + " is not digit string.")
+        if !re.Copy().MatchString(s) {
+            return d, errors.New(s + " is not digit string.")
         }
     }
-    id.nd = n
-    id.ds = s
-    return id, nil
+    d.nd = n
+    d.ds = s
+    return d, nil
 }
 
 //String is Stringer method
@@ -204,7 +204,9 @@ func main() {
 ```
 
 本来なら別パッケージにして `identity.Identity` みたいにするのがいいんだろうけど（テストも書きやすいし），ファイルを分けたり面倒なことになるので端折っている。
-また，文字列のチェックに正規表現を扱える [`regexp`] パッケージを使ったが，正直に言ってこの程度の処理に正規表現パッケージを使うのが効率的かどうかは分からない（コードはすっきりするけど）。
+また，文字列のチェックに正規表現を扱える [`regexp`] パッケージを使った[^r1] が，正直に言ってこの程度の処理に正規表現パッケージを使うのが効率的かどうかは分からない（コードはすっきりするけど）。
+
+[^r1]: [`regexp`].`Compile()` 関数は処理コストがかかるためグローバル変数として宣言・初期化している。ちなみに [`regexp`].`MustCompile()` 関数は，コンパイルに失敗すると panic を吐く。コンパイルで生成したグローバルなインスタンスを使う場合は，インスタンスをそのまま使うのではなく `Copy()` 関数でコピーを作る習慣をつけるとよい。今回のサンプル・コードではそのまま使っても影響はないが，並行処理下ではインスタンス使用時にロックが掛かるためコピーが必須となる。
 
 実際に動かしてみると，こんな感じになる。
 
