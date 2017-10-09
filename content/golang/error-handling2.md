@@ -34,13 +34,13 @@ import "os"
 
 // F returns error.
 func F() error {
-	file, err := os.Open("not-exist.txt")
-	if err != nil {
-		return err
-	}
-	defer file.Close()
+    file, err := os.Open("not-exist.txt")
+    if err != nil {
+        return err
+    }
+    defer file.Close()
 
-	return nil
+    return nil
 }
 ```
 
@@ -50,19 +50,19 @@ func F() error {
 package main
 
 import (
-	"fmt"
-	"os"
+    "fmt"
+    "os"
 
-	"errdemo/errdemo1"
+    "errdemo/errdemo1"
 )
 
 func main() {
-	if err := errdemo1.F(); err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
+    if err := errdemo1.F(); err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
 
-	return
+    return
 }
 ```
 
@@ -80,24 +80,24 @@ open not-exist.txt: The system cannot find the file specified.
 package main
 
 import (
-	"fmt"
-	"os"
+    "fmt"
+    "os"
 
-	"errdemo/errdemo1"
+    "errdemo/errdemo1"
 )
 
 func main() {
-	if err := errdemo1.F(); err != nil {
-		switch err.(type) {
-		case *os.PathError:
-			fmt.Fprintln(os.Stderr, "*os.PathError")
-		default:
-		}
+    if err := errdemo1.F(); err != nil {
+        switch err.(type) {
+        case *os.PathError:
+            fmt.Fprintln(os.Stderr, "*os.PathError")
+        default:
+        }
         fmt.Fprintln(os.Stderr, err)
-		return
-	}
+        return
+    }
 
-	return
+    return
 }
 ```
 
@@ -138,20 +138,20 @@ github.com/pkg/errors
 package errdemo2
 
 import (
-	"os"
+    "os"
 
-	"github.com/pkg/errors"
+    "github.com/pkg/errors"
 )
 
 // F returns error.
 func F() error {
-	file, err := os.Open("not-exist.txt")
-	if err != nil {
-		return errors.Wrap(err, "Error by F() function")
-	}
-	defer file.Close()
+    file, err := os.Open("not-exist.txt")
+    if err != nil {
+        return errors.Wrap(err, "Error by F() function")
+    }
+    defer file.Close()
 
-	return nil
+    return nil
 }
 ```
 
@@ -161,19 +161,19 @@ func F() error {
 package main
 
 import (
-	"fmt"
-	"os"
+    "fmt"
+    "os"
 
-	"errdemo/errdemo2"
+    "errdemo/errdemo2"
 )
 
 func main() {
-	if err := errdemo2.F(); err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
+    if err := errdemo2.F(); err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
 
-	return
+    return
 }
 ```
 
@@ -190,26 +190,26 @@ Error by F() function: open not-exist.txt: The system cannot find the file speci
 package main
 
 import (
-	"fmt"
-	"os"
+    "fmt"
+    "os"
 
-	"errdemo/errdemo2"
+    "errdemo/errdemo2"
 
-	"github.com/pkg/errors"
+    "github.com/pkg/errors"
 )
 
 func main() {
-	if err := errdemo2.F(); err != nil {
-		switch errors.Cause(err).(type) {
-		case *os.PathError:
-			fmt.Fprintln(os.Stderr, "*os.PathError")
-		default:
-		}
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
+    if err := errdemo2.F(); err != nil {
+        switch errors.Cause(err).(type) {
+        case *os.PathError:
+            fmt.Fprintln(os.Stderr, "*os.PathError")
+        default:
+        }
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
 
-	return
+    return
 }
 ```
 
@@ -236,18 +236,18 @@ Error by F() function: open not-exist.txt: The system cannot find the file speci
 // be returned. If the error is nil, nil will be returned without further
 // investigation.
 func Cause(err error) error {
-	type causer interface {
-		Cause() error
-	}
+    type causer interface {
+        Cause() error
+    }
 
-	for err != nil {
-		cause, ok := err.(causer)
-		if !ok {
-			break
-		}
-		err = cause.Cause()
-	}
-	return err
+    for err != nil {
+        cause, ok := err.(causer)
+        if !ok {
+            break
+        }
+        err = cause.Cause()
+    }
+    return err
 }
 ```
 

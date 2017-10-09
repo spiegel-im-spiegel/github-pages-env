@@ -28,14 +28,14 @@ tags        = [ "golang", "gzip", "defer" ]
 
 ```go
 func makeGzip(body string) []byte {
-  var b bytes.Buffer
-  gw := gzip.NewWriter(&b)
-  _, err := gw.Write([]byte(body)); if err != nil {
-    ...
-  }
-  gw.Flush()
-  gw.Close()
-  return b.Bytes()
+    var b bytes.Buffer
+    gw := gzip.NewWriter(&b)
+    _, err := gw.Write([]byte(body)); if err != nil {
+        ...
+    }
+    gw.Flush()
+    gw.Close()
+    return b.Bytes()
 }
 ```
 
@@ -59,16 +59,16 @@ func makeGzip(body string) []byte {
 
 ```go
 func makeGzip(dst io.Writer, content []byte) error {
-	zw, err := gzip.NewWriterLevel(dst, gzip.BestCompression)
-	if err != nil {
-		return err
-	}
-	defer zw.Close()
+    zw, err := gzip.NewWriterLevel(dst, gzip.BestCompression)
+    if err != nil {
+        return err
+    }
+    defer zw.Close()
 
-	if _, err := zw.Write(content); err != nil {
-		return err
-	}
-	return nil
+    if _, err := zw.Write(content); err != nil {
+        return err
+    }
+    return nil
 }
 ```
 
@@ -81,39 +81,39 @@ func makeGzip(dst io.Writer, content []byte) error {
 package main
 
 import (
-	"compress/gzip"
-	"fmt"
-	"io"
-	"os"
+    "compress/gzip"
+    "fmt"
+    "io"
+    "os"
 )
 
 func makeGzip(dst io.Writer, content []byte) error {
-	zw, err := gzip.NewWriterLevel(dst, gzip.BestCompression)
-	if err != nil {
-		return err
-	}
-	defer zw.Close()
+    zw, err := gzip.NewWriterLevel(dst, gzip.BestCompression)
+    if err != nil {
+        return err
+    }
+    defer zw.Close()
 
-	if _, err := zw.Write(content); err != nil {
-		return err
-	}
-	return nil
+    if _, err := zw.Write(content); err != nil {
+        return err
+    }
+    return nil
 }
 
 func main() {
-	content := []byte("Hello world\n")
+    content := []byte("Hello world\n")
 
-	file, err := os.Create("test.txt.gz")
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
-	defer file.Close()
+    file, err := os.Create("test.txt.gz")
+    if err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
+    defer file.Close()
 
-	if err := makeGzip(file, content); err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
+    if err := makeGzip(file, content); err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
 }
 ```
 
@@ -128,36 +128,36 @@ func main() {
 package main
 
 import (
-	"compress/gzip"
-	"fmt"
-	"io"
-	"os"
+    "compress/gzip"
+    "fmt"
+    "io"
+    "os"
 )
 
 func readGzip(dst io.Writer, src io.Reader) error {
-	zr, err := gzip.NewReader(src)
-	if err != nil {
-		return err
-	}
-	defer zr.Close()
+    zr, err := gzip.NewReader(src)
+    if err != nil {
+        return err
+    }
+    defer zr.Close()
 
-	io.Copy(dst, zr)
+    io.Copy(dst, zr)
 
-	return nil
+    return nil
 }
 
 func main() {
-	file, err := os.Open("test.txt.gz")
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
-	defer file.Close()
+    file, err := os.Open("test.txt.gz")
+    if err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
+    defer file.Close()
 
-	if err := readGzip(os.Stdout, file); err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
+    if err := readGzip(os.Stdout, file); err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
 }
 ```
 
@@ -168,67 +168,67 @@ func main() {
 package main
 
 import (
-	"archive/tar"
-	"compress/gzip"
-	"fmt"
-	"io"
-	"io/ioutil"
-	"os"
-	"path/filepath"
+    "archive/tar"
+    "compress/gzip"
+    "fmt"
+    "io"
+    "io/ioutil"
+    "os"
+    "path/filepath"
 )
 
 func makeTarGzip(dst io.Writer, rt string) error {
-	zw, err := gzip.NewWriterLevel(dst, gzip.BestCompression)
-	if err != nil {
-		return err
-	}
-	defer zw.Close()
+    zw, err := gzip.NewWriterLevel(dst, gzip.BestCompression)
+    if err != nil {
+        return err
+    }
+    defer zw.Close()
 
-	tw := tar.NewWriter(zw)
-	defer tw.Close()
+    tw := tar.NewWriter(zw)
+    defer tw.Close()
 
-	filepath.Walk(rt, func(path string, info os.FileInfo, err error) error {
-		if info.IsDir() {
-			return nil
-		}
-		fmt.Println(path)
+    filepath.Walk(rt, func(path string, info os.FileInfo, err error) error {
+        if info.IsDir() {
+            return nil
+        }
+        fmt.Println(path)
 
-		hd, e := tar.FileInfoHeader(info, "")
-		if e != nil {
-			return e
-		}
-		content, e := ioutil.ReadFile(path)
-		if e != nil {
-			return e
-		}
+        hd, e := tar.FileInfoHeader(info, "")
+        if e != nil {
+            return e
+        }
+        content, e := ioutil.ReadFile(path)
+        if e != nil {
+            return e
+        }
 
-		if e := tw.WriteHeader(hd); e != nil {
-			return e
-		}
-		if _, e := tw.Write(content); e != nil {
-			return e
-		}
-		return nil
-	})
-	if err != nil {
-		return err
-	}
+        if e := tw.WriteHeader(hd); e != nil {
+            return e
+        }
+        if _, e := tw.Write(content); e != nil {
+            return e
+        }
+        return nil
+    })
+    if err != nil {
+        return err
+    }
 
-	return nil
+    return nil
 }
 
 func main() {
-	file, err := os.Create("test.tar.gz")
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
-	defer file.Close()
+    file, err := os.Create("test.tar.gz")
+    if err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
+    defer file.Close()
 
-	if err := makeTarGzip(file, "./"); err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
+    if err := makeTarGzip(file, "./"); err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
 }
 ```
 
@@ -240,17 +240,17 @@ func main() {
 
 ```go
 func makeGzip(body []byte) ([]byte, error) {
-	var b bytes.Buffer
-	err := func() error {
-		gw := gzip.NewWriter(&b)
-		defer gw.Close()
+    var b bytes.Buffer
+    err := func() error {
+        gw := gzip.NewWriter(&b)
+        defer gw.Close()
 
-		if _, err := gw.Write(body); err != nil {
-			return err
-		}
-		return nil
-	}()
-	return b.Bytes(), err
+        if _, err := gw.Write(body); err != nil {
+            return err
+        }
+        return nil
+    }()
+    return b.Bytes(), err
 }
 ```
 
@@ -260,46 +260,46 @@ func makeGzip(body []byte) ([]byte, error) {
 package main
 
 import (
-	"bytes"
-	"compress/gzip"
-	"fmt"
-	"os"
+    "bytes"
+    "compress/gzip"
+    "fmt"
+    "os"
 )
 
 func makeGzip(body []byte) ([]byte, error) {
-	var b bytes.Buffer
-	err := func() error {
-		gw := gzip.NewWriter(&b)
-		defer gw.Close()
+    var b bytes.Buffer
+    err := func() error {
+        gw := gzip.NewWriter(&b)
+        defer gw.Close()
 
-		if _, err := gw.Write(body); err != nil {
-			return err
-		}
-		return nil
-	}()
-	return b.Bytes(), err
+        if _, err := gw.Write(body); err != nil {
+            return err
+        }
+        return nil
+    }()
+    return b.Bytes(), err
 }
 
 func main() {
-	content := []byte("Hello world\n")
+    content := []byte("Hello world\n")
 
-	file, err := os.Create("test.txt.gz")
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
-	defer file.Close()
+    file, err := os.Create("test.txt.gz")
+    if err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
+    defer file.Close()
 
-	z, err := makeGzip(content)
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
+    z, err := makeGzip(content)
+    if err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
 
-	if _, err := file.Write(z); err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
+    if _, err := file.Write(z); err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
 }
 ```
 

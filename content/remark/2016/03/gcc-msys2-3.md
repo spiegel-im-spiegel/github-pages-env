@@ -101,7 +101,7 @@ config.status: creating config.h
 [pgpdump] ではパケット内の圧縮データを扱うため `libz` および `libbz2` が必要となるが，ちゃんと認識しているようだ。
 これによって作成された `Makefile` がこれ。
 
-```text
+```makefile
 prefix = /usr/local
 exec_prefix = ${prefix}
 bindir = ${exec_prefix}/bin
@@ -127,28 +127,28 @@ CNF = config.h config.status config.cache config.log
 MKF = Makefile
 
 .c.o:
-	$(CC) -c $(CFLAGS) $<
+    $(CC) -c $(CFLAGS) $<
 
 all: $(PROG)
 
 $(PROG): $(OBJS)
-	$(CC) $(CFLAGS) -o $(PROG) $(OBJS) $(LIBS) $(LDFLAGS)
+    $(CC) $(CFLAGS) -o $(PROG) $(OBJS) $(LIBS) $(LDFLAGS)
 
 clean:
-	$(RM) $(OBJS) $(PROG)
+    $(RM) $(OBJS) $(PROG)
 
 distclean:
-	$(RM) $(OBJS) $(PROG) $(CNF) $(MKF)
+    $(RM) $(OBJS) $(PROG) $(CNF) $(MKF)
 
 install: all
-	$(INSTALL) -d $(DESTDIR)$(bindir)
-	$(INSTALL) -cp -pm755 $(PROG) $(DESTDIR)$(bindir)
-	$(INSTALL) -d $(DESTDIR)$(mandir)/man1
-	$(INSTALL) -cp -pm644 $(MAN) $(DESTDIR)$(mandir)/man1
+    $(INSTALL) -d $(DESTDIR)$(bindir)
+    $(INSTALL) -cp -pm755 $(PROG) $(DESTDIR)$(bindir)
+    $(INSTALL) -d $(DESTDIR)$(mandir)/man1
+    $(INSTALL) -cp -pm644 $(MAN) $(DESTDIR)$(mandir)/man1
 
 archive:
-	git archive master -o ~/pgpdump-$(VERSION).tar --prefix=pgpdump-$(VERSION)/
-	gzip ~/pgpdump-$(VERSION).tar
+    git archive master -o ~/pgpdump-$(VERSION).tar --prefix=pgpdump-$(VERSION)/
+    gzip ~/pgpdump-$(VERSION).tar
 ```
 
 この時点での問題は以下のとおり。
@@ -164,7 +164,7 @@ $ ./configure --prefix=/mingw32 LDFLAGS=-static
 
 これで `Makefile` は以下のようになる。
 
-```text
+```makefile
 prefix = /mingw32
 exec_prefix = ${prefix}
 bindir = ${exec_prefix}/bin
@@ -190,28 +190,28 @@ CNF = config.h config.status config.cache config.log
 MKF = Makefile
 
 .c.o:
-	$(CC) -c $(CFLAGS) $<
+    $(CC) -c $(CFLAGS) $<
 
 all: $(PROG)
 
 $(PROG): $(OBJS)
-	$(CC) $(CFLAGS) -o $(PROG) $(OBJS) $(LIBS) $(LDFLAGS)
+    $(CC) $(CFLAGS) -o $(PROG) $(OBJS) $(LIBS) $(LDFLAGS)
 
 clean:
-	$(RM) $(OBJS) $(PROG)
+    $(RM) $(OBJS) $(PROG)
 
 distclean:
-	$(RM) $(OBJS) $(PROG) $(CNF) $(MKF)
+    $(RM) $(OBJS) $(PROG) $(CNF) $(MKF)
 
 install: all
-	$(INSTALL) -d $(DESTDIR)$(bindir)
-	$(INSTALL) -cp -pm755 $(PROG) $(DESTDIR)$(bindir)
-	$(INSTALL) -d $(DESTDIR)$(mandir)/man1
-	$(INSTALL) -cp -pm644 $(MAN) $(DESTDIR)$(mandir)/man1
+    $(INSTALL) -d $(DESTDIR)$(bindir)
+    $(INSTALL) -cp -pm755 $(PROG) $(DESTDIR)$(bindir)
+    $(INSTALL) -d $(DESTDIR)$(mandir)/man1
+    $(INSTALL) -cp -pm644 $(MAN) $(DESTDIR)$(mandir)/man1
 
 archive:
-	git archive master -o ~/pgpdump-$(VERSION).tar --prefix=pgpdump-$(VERSION)/
-	gzip ~/pgpdump-$(VERSION).tar
+    git archive master -o ~/pgpdump-$(VERSION).tar --prefix=pgpdump-$(VERSION)/
+    gzip ~/pgpdump-$(VERSION).tar
 ```
 
 では make を実行しよう。

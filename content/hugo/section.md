@@ -2,7 +2,7 @@
 title       = "Categories, Tags そして Section"
 description = "前回の続き。今回は Categories, Tags そして Section について書いてみる。"
 date        = "2015-09-11T17:58:32+09:00"
-update      = "2016-12-14T10:20:58+09:00"
+update      = "2017-10-09T22:21:22+09:00"
 tags        = [ "hugo", "categories", "tags", "taxonomy", "section" ]
 draft = false
 
@@ -47,7 +47,7 @@ tags = [ "hello", "world" ]
 このように Categories および Tags のキーワードを配列で列挙する（キーワードがひとつでも配列に入れること）。
 これをビルドすると以下のようになる。
 
-```
+```text
 C:\hugo-env\www>hugo
 0 draft content
 0 future content
@@ -118,7 +118,7 @@ C:\HUGO-ENV\WWW
 
 <ul style="list-style:none;">
 {{ range .Data.Pages }}
-	<li><a href="{{ .Permalink }}">{{ .Title }}</a> (<time>{{ .Date.Format "2006-01-02" }}</time>){{ if .Draft }} #Draft{{ end }}</li>
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a> (<time>{{ .Date.Format "2006-01-02" }}</time>){{ if .Draft }} #Draft{{ end }}</li>
 {{ end }}
 </ul>
 
@@ -140,7 +140,7 @@ C:\HUGO-ENV\WWW
 
 <ul style="list-style:none;">
 
-	<li><a href="http://hello.example.com/hello/">Hello!</a> (<time>2015-09-05</time>)</li>
+    <li><a href="http://hello.example.com/hello/">Hello!</a> (<time>2015-09-05</time>)</li>
 
 </ul>
 
@@ -166,8 +166,8 @@ C:\HUGO-ENV\WWW
 <body>
 <h1>{{ .Title }}</h1>
 <nav>
-	{{ with .Params.categories }}<div>Categories:{{ range . }} <a href="/categories/{{ . | urlize }}/">{{ . }}</a>{{ end }}</div>{{ end }}
-	{{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ . | urlize }}/">#{{ . }}</a>{{ end }}</div>{{ end }}
+    {{ with .Params.categories }}<div>Categories:{{ range . }} <a href="/categories/{{ . | urlize }}/">{{ . }}</a>{{ end }}</div>{{ end }}
+    {{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ . | urlize }}/">#{{ . }}</a>{{ end }}</div>{{ end }}
 </nav>
 
 <div>{{ .Content }}</div>
@@ -187,8 +187,8 @@ C:\HUGO-ENV\WWW
 <body>
 <h1>Hello!</h1>
 <nav>
-	<div>Categories: <a href="/categories/hugo/">hugo</a></div>
-	<div>Tags: <a href="/tags/hello/">#hello</a> <a href="/tags/world/">#world</a></div>
+    <div>Categories: <a href="/categories/hugo/">hugo</a></div>
+    <div>Tags: <a href="/tags/hello/">#hello</a> <a href="/tags/world/">#world</a></div>
 </nav>
 
 <div><p>ようこそ， <a href="https://gohugo.io/">Hugo</a> の世界へ！</p>
@@ -218,7 +218,7 @@ Categories/Tags は標準機能なのだが，どういうわけかこれだけ 
 
 ちなみに `config.toml` によるサイト設定では `.Site.Params` への暗黙的な組み換えは行われないため，明示的に記述する必要がある。
 
-```toml
+```ini
 [params]
 author = "Spiegel"
 ```
@@ -278,7 +278,7 @@ Tags の一覧のみを取得したいのであれば，もっと簡単に
 ```html
 <h2>Tags</h2>
 <ul>{{ range $key, $value := .Site.Taxonomies.tags.ByCount }}
-	<li>#<a href="/tags/{{ $key | urlize }}">{{ $key }}</a> ({{ $value.Count }})</li>
+    <li>#<a href="/tags/{{ $key | urlize }}">{{ $key }}</a> ({{ $value.Count }})</li>
 {{ end }}</ul>
 ```
 
@@ -293,14 +293,14 @@ Tags の一覧のみを取得したいのであれば，もっと簡単に
 `content` フォルダの下に `practice` というフォルダを作り，ここに `hello.md` を移動させてみよう。
 新たに作る場合は path 付きで作成すればよい。
 
-```
+```text
 C:\hugo-env\www>hugo new practice/hello.md
 C:\hugo-env\www\content\practice\hello.md created
 ```
 
 これでビルドしてみる（ファイルを移動した際は出力フォルダの中をいったんクリーンにしてからビルドするとゴミが残らない）。
 
-```
+```text
 C:\hugo-env\www>hugo
 0 draft content
 0 future content
@@ -373,7 +373,7 @@ C:\HUGO-ENV\WWW
 
 <ul style="list-style:none;">
 
-	<li><a href="http://hello.example.com/practice/hello/">Hello!</a> (<time>2015-09-05</time>)</li>
+    <li><a href="http://hello.example.com/practice/hello/">Hello!</a> (<time>2015-09-05</time>)</li>
 
 </ul>
 
@@ -401,8 +401,8 @@ Section と Categories/Tags を組み合わせれば縦串と横串で記事を�
 <body>
 <h1>{{ .Title }}{{ with .Section }} [<a href="/{{ . | urlize }}/">{{ . }}</a>]{{ end }}</h1>
 <nav>
-	{{ with .Params.categories }}<div>Categories:{{ range . }} <a href="/categories/{{ . | urlize }}/">{{ . }}</a>{{ end }}</div>{{ end }}
-	{{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ . | urlize }}/">#{{ . }}</a>{{ end }}</div>{{ end }}
+    {{ with .Params.categories }}<div>Categories:{{ range . }} <a href="/categories/{{ . | urlize }}/">{{ . }}</a>{{ end }}</div>{{ end }}
+    {{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ . | urlize }}/">#{{ . }}</a>{{ end }}</div>{{ end }}
 </nav>
 
 <div>{{ .Content }}</div>
@@ -422,8 +422,8 @@ Section と Categories/Tags を組み合わせれば縦串と横串で記事を�
 <body>
 <h1>Hello! [<a href="/practice/">practice</a>]</h1>
 <nav>
-	<div>Categories: <a href="/categories/hugo/">hugo</a></div>
-	<div>Tags: <a href="/tags/hello/">#hello</a> <a href="/tags/world/">#world</a></div>
+    <div>Categories: <a href="/categories/hugo/">hugo</a></div>
+    <div>Tags: <a href="/tags/hello/">#hello</a> <a href="/tags/world/">#world</a></div>
 </nav>
 
 <div><p>ようこそ， <a href="https://gohugo.io/">Hugo</a> の世界へ！</p>
@@ -435,7 +435,7 @@ Section と Categories/Tags を組み合わせれば縦串と横串で記事を�
 記事のフォルダ階層はいくらでも深くできるが， Section として認識されるのは直下のフォルダのみのようである。
 たとえば `content/practice/hello.md` を `content/practice/firstcode/hello.md` に移動してビルドすると（出力フォルダはクリーンアップしてね）
 
-```
+```text
 C:\hugo-env\www>tree /f .
 C:\HUGO-ENV\WWW
 │  config.toml
@@ -496,8 +496,8 @@ C:\HUGO-ENV\WWW
 <body>
 <h1>Hello! [<a href="/practice/">practice</a>]</h1>
 <nav>
-	<div>Categories: <a href="/categories/hugo/">hugo</a></div>
-	<div>Tags: <a href="/tags/hello/">#hello</a> <a href="/tags/world/">#world</a></div>
+    <div>Categories: <a href="/categories/hugo/">hugo</a></div>
+    <div>Tags: <a href="/tags/hello/">#hello</a> <a href="/tags/world/">#world</a></div>
 </nav>
 
 <div><p>ようこそ， <a href="https://gohugo.io/">Hugo</a> の世界へ！</p>
@@ -526,7 +526,7 @@ C:\HUGO-ENV\WWW
 
 <ul style="list-style:none;">
 {{ range .Data.Pages }}
-	<li><a href="{{ .Permalink }}">{{ .Title }}</a> (<time>{{ .Date.Format "2006-01-02" }}</time>){{ if .Draft }} #Draft{{ end }}</li>
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a> (<time>{{ .Date.Format "2006-01-02" }}</time>){{ if .Draft }} #Draft{{ end }}</li>
 {{ end }}
 </ul>
 
@@ -548,7 +548,7 @@ C:\HUGO-ENV\WWW
 
 <ul style="list-style:none;">
 
-	<li><a href="http://hello.example.com/practice/hello/">Hello!</a> (<time>2015-09-05</time>)</li>
+    <li><a href="http://hello.example.com/practice/hello/">Hello!</a> (<time>2015-09-05</time>)</li>
 
 </ul>
 
@@ -569,8 +569,8 @@ C:\HUGO-ENV\WWW
 <body>
 <h1>{{ .Title }} -- Hugo の練習</h1>
 <nav>
-	{{ with .Params.categories }}<div>Categories:{{ range . }} <a href="/categories/{{ lower . | urlize }}/">{{ . }}</a>{{ end }}</div>{{ end }}
-	{{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ lower . | urlize }}/">#{{ . }}</a>{{ end }}</div>{{ end }}
+    {{ with .Params.categories }}<div>Categories:{{ range . }} <a href="/categories/{{ lower . | urlize }}/">{{ . }}</a>{{ end }}</div>{{ end }}
+    {{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ lower . | urlize }}/">#{{ . }}</a>{{ end }}</div>{{ end }}
 </nav>
 
 <div>{{ .Content }}</div>
@@ -588,8 +588,8 @@ C:\HUGO-ENV\WWW
 <body>
 <h1>Hello! -- Hugo の練習</h1>
 <nav>
-	<div>Categories: <a href="/categories/hugo/">hugo</a></div>
-	<div>Tags: <a href="/tags/hello/">#hello</a> <a href="/tags/world/">#world</a></div>
+    <div>Categories: <a href="/categories/hugo/">hugo</a></div>
+    <div>Tags: <a href="/tags/hello/">#hello</a> <a href="/tags/world/">#world</a></div>
 </nav>
 
 <div><p>ようこそ， <a href="https://gohugo.io/">Hugo</a> の世界へ！</p>
@@ -615,7 +615,7 @@ C:\HUGO-ENV\WWW
 実は [Hugo] では名前が衝突した際の挙動は明文化されていない（筈）。
 強いて言うなら実装依存で状況依存である。またビルド時にエラーになることもない。
 
-```
+```text
 C:\hugo-env\www>hugo new categories/hugo.md
 C:\hugo-env\www\content\categories\hugo.md created
 

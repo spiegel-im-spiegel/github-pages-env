@@ -196,16 +196,16 @@ $ gpgpdump -j sig
 ```go
 //Packets - OpenPGP packets
 type Packets struct {
-	Packet []*Item
+    Packet []*Item
 }
 
 //Item - item in Packets
 type Item struct {
-	Name  string  `toml:"name" json:"name"`
-	Value string  `toml:"value,omitempty" json:"value,omitempty"`
-	Dump  string  `toml:"dump,omitempty" json:"dump,omitempty"`
-	Note  string  `toml:"note,omitempty" json:"note,omitempty"`
-	Item  []*Item `toml:"Item,omitempty" json:"Item,omitempty"`
+    Name  string  `toml:"name" json:"name"`
+    Value string  `toml:"value,omitempty" json:"value,omitempty"`
+    Dump  string  `toml:"dump,omitempty" json:"dump,omitempty"`
+    Note  string  `toml:"note,omitempty" json:"note,omitempty"`
+    Item  []*Item `toml:"Item,omitempty" json:"Item,omitempty"`
 }
 ```
 

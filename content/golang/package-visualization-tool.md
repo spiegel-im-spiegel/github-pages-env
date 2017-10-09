@@ -45,24 +45,24 @@ github.com/hirokidaichi/goviz
 ```bash
 C:>goviz.exe -i github.com/hirokidaichi/goviz
 digraph main{
-	edge[arrowhead=vee]
-	graph [rankdir=LR,compound=true,ranksep=1.0];
-	/* plot github.com/hirokidaichi/goviz */
-	"github.com/hirokidaichi/goviz"[shape="record",label="main|github.com/hirokidaichi/goviz|goviz.go",style="solid"]
-	"github.com/hirokidaichi/goviz" -> "github.com/hirokidaichi/goviz/dotwriter"[dir=forward]
-	/* plot github.com/hirokidaichi/goviz/dotwriter */
-	"github.com/hirokidaichi/goviz/dotwriter"[shape="record",label="dotwriter|github.com/hirokidaichi/goviz/dotwriter|dotwriter.go",style="solid"]
-	"github.com/hirokidaichi/goviz" -> "github.com/hirokidaichi/goviz/goimport"[dir=forward]
-	/* plot github.com/hirokidaichi/goviz/goimport */
-	"github.com/hirokidaichi/goviz/goimport"[shape="record",label="goimport|github.com/hirokidaichi/goviz/goimport|import.go\nimport_factory.go\nsource.go",style="solid"]
-	"github.com/hirokidaichi/goviz/goimport" -> "github.com/hirokidaichi/goviz/dotwriter"[dir=forward]
-	"github.com/hirokidaichi/goviz" -> "github.com/hirokidaichi/goviz/metrics"[dir=forward]
-	/* plot github.com/hirokidaichi/goviz/metrics */
-	"github.com/hirokidaichi/goviz/metrics"[shape="record",label="metrics|github.com/hirokidaichi/goviz/metrics|metrics.go",style="solid"]
-	"github.com/hirokidaichi/goviz/metrics" -> "github.com/hirokidaichi/goviz/dotwriter"[dir=forward]
-	"github.com/hirokidaichi/goviz" -> "github.com/jessevdk/go-flags"[dir=forward]
-	/* plot github.com/jessevdk/go-flags */
-	"github.com/jessevdk/go-flags"[shape="record",label="flags|github.com/jessevdk/go-flags|arg.go\nclosest.go\ncommand.go\ncommand_private.go\ncompletion.go\nconvert.go\nerror.go\nflags.go\ngroup.go\ngroup_private.go\nhelp.go\nini.go\nini_private.go\nman.go\nmultitag.go\noption.go\noption_private.go\noptstyle_other.go\noptstyle_windows.go\nparser.go\nparser_private.go\ntermsize.go\ntermsize_linux.go\ntermsize_nosysioctl.go\ntermsize_other.go\ntermsize_unix.go",style="solid"]
+    edge[arrowhead=vee]
+    graph [rankdir=LR,compound=true,ranksep=1.0];
+    /* plot github.com/hirokidaichi/goviz */
+    "github.com/hirokidaichi/goviz"[shape="record",label="main|github.com/hirokidaichi/goviz|goviz.go",style="solid"]
+    "github.com/hirokidaichi/goviz" -> "github.com/hirokidaichi/goviz/dotwriter"[dir=forward]
+    /* plot github.com/hirokidaichi/goviz/dotwriter */
+    "github.com/hirokidaichi/goviz/dotwriter"[shape="record",label="dotwriter|github.com/hirokidaichi/goviz/dotwriter|dotwriter.go",style="solid"]
+    "github.com/hirokidaichi/goviz" -> "github.com/hirokidaichi/goviz/goimport"[dir=forward]
+    /* plot github.com/hirokidaichi/goviz/goimport */
+    "github.com/hirokidaichi/goviz/goimport"[shape="record",label="goimport|github.com/hirokidaichi/goviz/goimport|import.go\nimport_factory.go\nsource.go",style="solid"]
+    "github.com/hirokidaichi/goviz/goimport" -> "github.com/hirokidaichi/goviz/dotwriter"[dir=forward]
+    "github.com/hirokidaichi/goviz" -> "github.com/hirokidaichi/goviz/metrics"[dir=forward]
+    /* plot github.com/hirokidaichi/goviz/metrics */
+    "github.com/hirokidaichi/goviz/metrics"[shape="record",label="metrics|github.com/hirokidaichi/goviz/metrics|metrics.go",style="solid"]
+    "github.com/hirokidaichi/goviz/metrics" -> "github.com/hirokidaichi/goviz/dotwriter"[dir=forward]
+    "github.com/hirokidaichi/goviz" -> "github.com/jessevdk/go-flags"[dir=forward]
+    /* plot github.com/jessevdk/go-flags */
+    "github.com/jessevdk/go-flags"[shape="record",label="flags|github.com/jessevdk/go-flags|arg.go\nclosest.go\ncommand.go\ncommand_private.go\ncompletion.go\nconvert.go\nerror.go\nflags.go\ngroup.go\ngroup_private.go\nhelp.go\nini.go\nini_private.go\nman.go\nmultitag.go\noption.go\noption_private.go\noptstyle_other.go\noptstyle_windows.go\nparser.go\nparser_private.go\ntermsize.go\ntermsize_linux.go\ntermsize_nosysioctl.go\ntermsize_other.go\ntermsize_unix.go",style="solid"]
 }
 ```
 

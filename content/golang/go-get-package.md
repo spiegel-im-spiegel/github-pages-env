@@ -33,7 +33,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello World!")
+    fmt.Println("Hello World!")
 }
 ```
 
@@ -48,8 +48,8 @@ C 言語などと異なり， [Go 言語]では `main` 関数に渡す引数は�
 
 ```go
 import (
-	"flag"
-	"fmt"
+    "flag"
+    "fmt"
 )
 ```
 

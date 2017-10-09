@@ -41,9 +41,9 @@ $ git config --global user.signingkey 7E20B81C
 今回は「[OpenPGP 公開鍵リスト](http://www.baldanders.info/spiegel/pubkeys/)」で公開している鍵の鍵 ID を登録している。
 この設定で `.gitconfig` ファイルに以下の記述が追加される。
 
-```text
+```ini
 [user]
-	signingkey = 7E20B81C
+    signingkey = 7E20B81C
 ```
 
 ## Gpg を直接指定する場合
@@ -75,9 +75,9 @@ $ git config --global gpg.program C:/path/to/GnuPG/bin/gpg.exe
 
 ちなみに `.gitconfig` ファイルには以下の記述が追加される。
 
-```text
+```ini
 [gpg]
-	program = C:/path/to/GnuPG/bin/gpg.exe
+    program = C:/path/to/GnuPG/bin/gpg.exe
 ```
 
 Windows 環境以外でも [GnuPG] を classic version と stable/modern version で使い分けている場合は，この設定が役に立つだろう。
@@ -98,9 +98,9 @@ $ git config --global commit.gpgsign true
 
 `.gitconfig` ファイルには以下の記述が追加される。
 
-```text
+```ini
 [commit]
-	gpgsign = true
+    gpgsign = true
 ```
 
 この状態で逆に commit 時に署名を付加してほしくない場合は `--no-gpg-sign` オプションを付加すればいいようだ。

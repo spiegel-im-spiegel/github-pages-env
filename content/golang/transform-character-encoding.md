@@ -66,28 +66,28 @@ golang.org/x/text/encoding/japanese
 package main
 
 import (
-	"fmt"
-	"io"
-	"os"
+    "fmt"
+    "io"
+    "os"
 
-	"golang.org/x/text/encoding/japanese"
-	"golang.org/x/text/transform"
+    "golang.org/x/text/encoding/japanese"
+    "golang.org/x/text/transform"
 )
 
 func main() {
-	reader := NewDecoder(os.Stdin)
-	writer := NewEncoder(os.Stdout)
-	if _, err := io.Copy(writer, reader); err != nil {
-		fmt.Fprintln(os.Stderr, err)
-	}
+    reader := NewDecoder(os.Stdin)
+    writer := NewEncoder(os.Stdout)
+    if _, err := io.Copy(writer, reader); err != nil {
+        fmt.Fprintln(os.Stderr, err)
+    }
 }
 
 func NewDecoder(reader io.Reader) *transform.Reader {
-	return transform.NewReader(reader, japanese.ShiftJIS.NewDecoder())
+    return transform.NewReader(reader, japanese.ShiftJIS.NewDecoder())
 }
 
 func NewEncoder(writer io.Writer) *transform.Writer {
-	return transform.NewWriter(writer, japanese.EUCJP.NewEncoder())
+    return transform.NewWriter(writer, japanese.EUCJP.NewEncoder())
 }
 ```
 

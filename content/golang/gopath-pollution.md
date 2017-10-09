@@ -209,13 +209,13 @@ MJD = 57023日
 
 ```go
 import (
-	"flag"
-	"fmt"
-	"os"
-	"strconv"
-	"time"
+    "flag"
+    "fmt"
+    "os"
+    "strconv"
+    "time"
 
-	"astrocalc/modjulian"
+    "astrocalc/modjulian"
 )
 ```
 

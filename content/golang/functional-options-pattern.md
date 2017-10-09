@@ -34,14 +34,14 @@ draft = false
 package ui
 
 import (
-	"io"
+    "io"
 )
 
 // UI is Command line user interface
 type UI struct {
-	reader      io.Reader
-	writer      io.Writer
-	errorWriter io.Writer
+    reader      io.Reader
+    writer      io.Writer
+    errorWriter io.Writer
 }
 ```
 
@@ -72,30 +72,30 @@ u := UI{reader: os.Stdin, writer: os.Stdout, errorWriter: os.Stderr}
 package ui
 
 import (
-	"bytes"
-	"io"
-	"io/ioutil"
+    "bytes"
+    "io"
+    "io/ioutil"
 )
 
 // UI is Command line user interface
 type UI struct {
-	reader      io.Reader
-	writer      io.Writer
-	errorWriter io.Writer
+    reader      io.Reader
+    writer      io.Writer
+    errorWriter io.Writer
 }
 
 // New returns a new UI instance
 func New(r io.Reader, w, e io.Writer) *UI {
-	if r == nil {
-		r = ioutil.NopCloser(bytes.NewReader(nil))
-	}
-	if w == nil {
-		w = ioutil.Discard
-	}
-	if e == nil {
-		e = ioutil.Discard
-	}
-	return &UI{reader: r, writer: w, errorWriter: e}
+    if r == nil {
+        r = ioutil.NopCloser(bytes.NewReader(nil))
+    }
+    if w == nil {
+        w = ioutil.Discard
+    }
+    if e == nil {
+        e = ioutil.Discard
+    }
+    return &UI{reader: r, writer: w, errorWriter: e}
 }
 ```
 
@@ -127,7 +127,7 @@ u := ui.New(os.Stdin, os.Stdout, nil)
 ```go
 // NewWithoutErr returns a new UI instance
 func NewWithoutErr(r io.Reader, w io.Writer) *UI {
-	return New(r, w, nil)
+    return New(r, w, nil)
 }
 ```
 
@@ -153,11 +153,11 @@ type Option func(*UI)
 
 // New returns a new UI instance
 func New(opts ...Option) *UI {
-	u := &UI{reader: ioutil.NopCloser(bytes.NewReader(nil)), writer: ioutil.Discard, errorWriter: ioutil.Discard}
-	for _, opt := range opts {
-		opt(u)
-	}
-	return u
+    u := &UI{reader: ioutil.NopCloser(bytes.NewReader(nil)), writer: ioutil.Discard, errorWriter: ioutil.Discard}
+    for _, opt := range opts {
+        opt(u)
+    }
+    return u
 }
 ```
 

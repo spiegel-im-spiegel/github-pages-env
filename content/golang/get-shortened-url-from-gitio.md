@@ -75,29 +75,29 @@ https://github.com/spiegel-im-spiegel
 package main
 
 import (
-	"bytes"
-	"io/ioutil"
-	"log"
-	"mime/multipart"
-	"net/http"
+    "bytes"
+    "io/ioutil"
+    "log"
+    "mime/multipart"
+    "net/http"
 )
 
 func main() {
-	var buffer bytes.Buffer
-	writer := multipart.NewWriter(&buffer)
-	writer.WriteField("url", "https://github.com/spiegel-im-spiegel")
-	writer.Close()
+    var buffer bytes.Buffer
+    writer := multipart.NewWriter(&buffer)
+    writer.WriteField("url", "https://github.com/spiegel-im-spiegel")
+    writer.Close()
 
-	resp, err := http.Post("https://git.io", "multipart/form-data; boundary="+writer.Boundary(), &buffer)
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer resp.Body.Close()
-	body, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		log.Fatal(err)
-	}
-	log.Print(string(body))
+    resp, err := http.Post("https://git.io", "multipart/form-data; boundary="+writer.Boundary(), &buffer)
+    if err != nil {
+        log.Fatal(err)
+    }
+    defer resp.Body.Close()
+    body, err := ioutil.ReadAll(resp.Body)
+    if err != nil {
+        log.Fatal(err)
+    }
+    log.Print(string(body))
 }
 ```
 
@@ -107,31 +107,31 @@ func main() {
 package main
 
 import (
-	"bytes"
-	"io/ioutil"
-	"log"
-	"mime/multipart"
-	"net/http"
+    "bytes"
+    "io/ioutil"
+    "log"
+    "mime/multipart"
+    "net/http"
 )
 
 func main() {
-	var buffer bytes.Buffer
-	writer := multipart.NewWriter(&buffer)
-	writer.WriteField("url", "https://github.com/spiegel-im-spiegel")
-	writer.Close()
+    var buffer bytes.Buffer
+    writer := multipart.NewWriter(&buffer)
+    writer.WriteField("url", "https://github.com/spiegel-im-spiegel")
+    writer.Close()
 
-	resp, err := http.Post("https://git.io", "multipart/form-data; boundary="+writer.Boundary(), &buffer)
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer resp.Body.Close()
-	body, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		log.Fatal(err)
-	}
-	log.Println("  Status: ", resp.Header.Get("Status"))
-	log.Println("Location: ", resp.Header.Get("Location"))
-	log.Println("    Body: ", string(body))
+    resp, err := http.Post("https://git.io", "multipart/form-data; boundary="+writer.Boundary(), &buffer)
+    if err != nil {
+        log.Fatal(err)
+    }
+    defer resp.Body.Close()
+    body, err := ioutil.ReadAll(resp.Body)
+    if err != nil {
+        log.Fatal(err)
+    }
+    log.Println("  Status: ", resp.Header.Get("Status"))
+    log.Println("Location: ", resp.Header.Get("Location"))
+    log.Println("    Body: ", string(body))
 }
 ```
 
@@ -154,27 +154,27 @@ C:>go run gitio.go
 package main
 
 import (
-	"io/ioutil"
-	"log"
-	"net/http"
-	"net/url"
+    "io/ioutil"
+    "log"
+    "net/http"
+    "net/url"
 )
 
 func main() {
-	values := url.Values{
-		"url": {"https://github.com/spiegel-im-spiegel"},
-	}
+    values := url.Values{
+        "url": {"https://github.com/spiegel-im-spiegel"},
+    }
 
-	resp, err := http.PostForm("https://git.io", values)
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer resp.Body.Close()
-	body, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		log.Fatal(err)
-	}
-	log.Print(string(body))
+    resp, err := http.PostForm("https://git.io", values)
+    if err != nil {
+        log.Fatal(err)
+    }
+    defer resp.Body.Close()
+    body, err := ioutil.ReadAll(resp.Body)
+    if err != nil {
+        log.Fatal(err)
+    }
+    log.Print(string(body))
 }
 ```
 

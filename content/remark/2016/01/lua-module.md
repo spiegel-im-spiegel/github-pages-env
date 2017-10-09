@@ -39,11 +39,11 @@ title = "Lua のモジュール"
 module("module1", package.seeall)
 
 function method1()
-	return "Method 1"
+    return "Method 1"
 end
 
 function method2()
-	return "Method 2"
+    return "Method 2"
 end
 ```
 
@@ -63,11 +63,11 @@ nyagos.write(module1.method2().."\n")
 module1 = {}
 
 module1.method1 = function()
-	return "Method 1"
+    return "Method 1"
 end
 
 module1.method2 = function()
-	return "Method 2"
+    return "Method 2"
 end
 ```
 
@@ -80,11 +80,11 @@ end
 local module1 = {}
 
 module1.method1 = function()
-	return "Method 1"
+    return "Method 1"
 end
 
 module1.method2 = function()
-	return "Method 2"
+    return "Method 2"
 end
 
 return module1

@@ -41,11 +41,11 @@ import "fmt"
 type Array4 [4]int8
 
 func main() {
-	ary := Array4{0, 1, 2, 3}
-	fmt.Printf("ary = %p\n", &ary)
-	for i := 0; i < len(ary); i++ {
-		fmt.Printf("%p: %v\n", &ary[i], ary[i])
-	}
+    ary := Array4{0, 1, 2, 3}
+    fmt.Printf("ary = %p\n", &ary)
+    for i := 0; i < len(ary); i++ {
+        fmt.Printf("%p: %v\n", &ary[i], ary[i])
+    }
 }
 ```
 
@@ -71,16 +71,16 @@ import "fmt"
 type Array4 [4]int8
 
 func dump(ary Array4) {
-	fmt.Printf("ary(dump) = %p\n", &ary)
-	for i := 0; i < len(ary); i++ {
-		fmt.Printf("%p: %v\n", &ary[i], ary[i])
-	}
+    fmt.Printf("ary(dump) = %p\n", &ary)
+    for i := 0; i < len(ary); i++ {
+        fmt.Printf("%p: %v\n", &ary[i], ary[i])
+    }
 }
 
 func main() {
-	ary := Array4{0, 1, 2, 3}
-	fmt.Printf("ary(org) = %p\n", &ary)
-	dump(ary)
+    ary := Array4{0, 1, 2, 3}
+    fmt.Printf("ary(org) = %p\n", &ary)
+    dump(ary)
 }
 ```
 
@@ -107,16 +107,16 @@ import "fmt"
 type Array4 [4]int8
 
 func dump(ary *Array4) {
-	fmt.Printf("ary(dump) = %p\n", ary)
-	for i := 0; i < len(ary); i++ {
-		fmt.Printf("%p: %v\n", &ary[i], ary[i])
-	}
+    fmt.Printf("ary(dump) = %p\n", ary)
+    for i := 0; i < len(ary); i++ {
+        fmt.Printf("%p: %v\n", &ary[i], ary[i])
+    }
 }
 
 func main() {
-	ary := Array4{0, 1, 2, 3}
-	fmt.Printf("ary(org) = %p\n", &ary)
-	dump(&ary)
+    ary := Array4{0, 1, 2, 3}
+    fmt.Printf("ary(org) = %p\n", &ary)
+    dump(&ary)
 }
 ```
 
@@ -141,16 +141,16 @@ package main
 import "fmt"
 
 func dump(slc []int8) {
-	fmt.Printf("slc(dump) = %p\n", slc)
-	for i := 0; i < len(slc); i++ {
-		fmt.Printf("%p: %v\n", &slc[i], slc[i])
-	}
+    fmt.Printf("slc(dump) = %p\n", slc)
+    for i := 0; i < len(slc); i++ {
+        fmt.Printf("%p: %v\n", &slc[i], slc[i])
+    }
 }
 
 func main() {
-	slc := []int8{0, 1, 2, 3}
-	fmt.Printf("slc(org) = %p\n", slc)
-	dump(slc)
+    slc := []int8{0, 1, 2, 3}
+    fmt.Printf("slc(org) = %p\n", slc)
+    dump(slc)
 }
 ```
 
@@ -177,25 +177,25 @@ import "fmt"
 type Array4 [4]int8
 
 func dumpA(ary Array4) {
-	fmt.Printf("ary(dumpA) = %p\n", &ary)
-	for i := 0; i < len(ary); i++ {
-		fmt.Printf("%p: %v\n", &ary[i], ary[i])
-	}
+    fmt.Printf("ary(dumpA) = %p\n", &ary)
+    for i := 0; i < len(ary); i++ {
+        fmt.Printf("%p: %v\n", &ary[i], ary[i])
+    }
 }
 
 func dumpS(slc []int8) {
-	fmt.Printf("slc(dumpS) = %p\n", slc)
-	for i := 0; i < len(slc); i++ {
-		fmt.Printf("%p: %v\n", &slc[i], slc[i])
-	}
+    fmt.Printf("slc(dumpS) = %p\n", slc)
+    for i := 0; i < len(slc); i++ {
+        fmt.Printf("%p: %v\n", &slc[i], slc[i])
+    }
 }
 
 func main() {
-	ary := Array4{0, 1, 2, 3}
-	fmt.Printf("ary(org) = %p\n", &ary)
-	dumpA(ary)
-	slc := ary[:]
-	dumpS(slc)
+    ary := Array4{0, 1, 2, 3}
+    fmt.Printf("ary(org) = %p\n", &ary)
+    dumpA(ary)
+    slc := ary[:]
+    dumpS(slc)
 }
 ```
 
@@ -227,29 +227,29 @@ import "fmt"
 type Array4 [4]int8
 
 func dumpA(ary Array4) {
-	fmt.Printf("ary(dumpA) = %p\n", &ary)
-	for i := 0; i < len(ary); i++ {
-		fmt.Printf("%p: %v\n", &ary[i], ary[i])
-	}
+    fmt.Printf("ary(dumpA) = %p\n", &ary)
+    for i := 0; i < len(ary); i++ {
+        fmt.Printf("%p: %v\n", &ary[i], ary[i])
+    }
 }
 
 func dumpS(slc []int8) {
-	fmt.Printf("pointer(dumpS) = %p\n", slc)
-	fmt.Printf("size(dumpS) = %v\n", len(slc))
-	fmt.Printf("capacity(dumpS) = %v\n", cap(slc))
-	for i := 0; i < len(slc); i++ {
-		fmt.Printf("%p: %v\n", &slc[i], slc[i])
-	}
+    fmt.Printf("pointer(dumpS) = %p\n", slc)
+    fmt.Printf("size(dumpS) = %v\n", len(slc))
+    fmt.Printf("capacity(dumpS) = %v\n", cap(slc))
+    for i := 0; i < len(slc); i++ {
+        fmt.Printf("%p: %v\n", &slc[i], slc[i])
+    }
 }
 
 func main() {
-	ary := Array4{0, 1, 2, 3}
-	fmt.Printf("ary(org) = %p\n", &ary)
-	dumpA(ary)
-	slc1 := ary[0:2]
-	dumpS(slc1)
-	slc2 := slc1[0:4]
-	dumpS(slc2)
+    ary := Array4{0, 1, 2, 3}
+    fmt.Printf("ary(org) = %p\n", &ary)
+    dumpA(ary)
+    slc1 := ary[0:2]
+    dumpS(slc1)
+    slc2 := slc1[0:4]
+    dumpS(slc2)
 }
 ```
 
@@ -290,29 +290,29 @@ import "fmt"
 type Array4 [4]int8
 
 func dumpA(ary Array4) {
-	fmt.Printf("ary(dumpA) = %p\n", &ary)
-	for i := 0; i < len(ary); i++ {
-		fmt.Printf("%p: %v\n", &ary[i], ary[i])
-	}
+    fmt.Printf("ary(dumpA) = %p\n", &ary)
+    for i := 0; i < len(ary); i++ {
+        fmt.Printf("%p: %v\n", &ary[i], ary[i])
+    }
 }
 
 func dumpS(slc []int8) {
-	fmt.Printf("pointer(dumpS) = %p\n", slc)
-	fmt.Printf("size(dumpS) = %v\n", len(slc))
-	fmt.Printf("capacity(dumpS) = %v\n", cap(slc))
-	for i := 0; i < len(slc); i++ {
-		fmt.Printf("%p: %v\n", &slc[i], slc[i])
-	}
+    fmt.Printf("pointer(dumpS) = %p\n", slc)
+    fmt.Printf("size(dumpS) = %v\n", len(slc))
+    fmt.Printf("capacity(dumpS) = %v\n", cap(slc))
+    for i := 0; i < len(slc); i++ {
+        fmt.Printf("%p: %v\n", &slc[i], slc[i])
+    }
 }
 
 func main() {
-	ary := Array4{0, 1, 2, 3}
-	fmt.Printf("ary(org) = %p\n", &ary)
-	dumpA(ary)
-	slc1 := ary[2:4]
-	dumpS(slc1)
-	slc2 := slc1[0:4]
-	dumpS(slc2)
+    ary := Array4{0, 1, 2, 3}
+    fmt.Printf("ary(org) = %p\n", &ary)
+    dumpA(ary)
+    slc1 := ary[2:4]
+    dumpS(slc1)
+    slc2 := slc1[0:4]
+    dumpS(slc2)
 }
 ```
 `slc1` の容量が変わるため，以下のように実行時 panic になる。
@@ -346,30 +346,30 @@ import "fmt"
 type Array4 [4]int8
 
 func dumpS(slc []int8) {
-	fmt.Printf("pointer(dumpS) = %p\n", slc)
-	fmt.Printf("size(dumpS) = %v\n", len(slc))
-	fmt.Printf("capacity(dumpS) = %v\n", cap(slc))
-	for i := 0; i < len(slc); i++ {
-		fmt.Printf("%p: %v\n", &slc[i], slc[i])
-	}
+    fmt.Printf("pointer(dumpS) = %p\n", slc)
+    fmt.Printf("size(dumpS) = %v\n", len(slc))
+    fmt.Printf("capacity(dumpS) = %v\n", cap(slc))
+    for i := 0; i < len(slc); i++ {
+        fmt.Printf("%p: %v\n", &slc[i], slc[i])
+    }
 }
 
 func addS(slc []int8, e int8) {
-	slc = append(slc, e)
-	dumpS(slc)
+    slc = append(slc, e)
+    dumpS(slc)
 }
 
 func main() {
-	slc := make([]int8, 4, 8)
-	slc[0] = 0
-	slc[1] = 1
-	slc[2] = 2
-	slc[3] = 3
-	dumpS(slc)
-	addS(slc, 4)
-	dumpS(slc)
-	slc2 := slc[0:5]
-	dumpS(slc2)
+    slc := make([]int8, 4, 8)
+    slc[0] = 0
+    slc[1] = 1
+    slc[2] = 2
+    slc[3] = 3
+    dumpS(slc)
+    addS(slc, 4)
+    dumpS(slc)
+    slc2 := slc[0:5]
+    dumpS(slc2)
 }
 ```
 
@@ -425,24 +425,24 @@ import "fmt"
 type Array4 [4]int8
 
 func dump(ary *Array4) {
-	fmt.Printf("ary(dump) = %p\n", ary)
-	for i := 0; i < len(ary); i++ {
-		fmt.Printf("%p: %v\n", &ary[i], ary[i])
-	}
+    fmt.Printf("ary(dump) = %p\n", ary)
+    for i := 0; i < len(ary); i++ {
+        fmt.Printf("%p: %v\n", &ary[i], ary[i])
+    }
 }
 
 func main() {
-	ary := Array4{0, 1, 2, 3}
-	var ary2 Array4
-	fmt.Printf("ary(org) = %p\n", &ary)
-	dump(&ary)
-	ary2 = ary
-	dump(&ary2)
+    ary := Array4{0, 1, 2, 3}
+    var ary2 Array4
+    fmt.Printf("ary(org) = %p\n", &ary)
+    dump(&ary)
+    ary2 = ary
+    dump(&ary2)
     if ary == ary2 {
-		fmt.Println("ary == ary2")
-	} else {
-		fmt.Println("ary != ary2")
-	}
+        fmt.Println("ary == ary2")
+    } else {
+        fmt.Println("ary != ary2")
+    }
 }
 ```
 
@@ -473,32 +473,32 @@ ary == ary2
 package main
 
 import (
-	"fmt"
-	"reflect"
+    "fmt"
+    "reflect"
 )
 
 type Array4 [4]int8
 
 func dumpS(slc []int8) {
-	fmt.Printf("pointer(dumpS) = %p\n", slc)
-	fmt.Printf("size(dumpS) = %v\n", len(slc))
-	fmt.Printf("capacity(dumpS) = %v\n", cap(slc))
-	for i := 0; i < len(slc); i++ {
-		fmt.Printf("%p: %v\n", &slc[i], slc[i])
-	}
+    fmt.Printf("pointer(dumpS) = %p\n", slc)
+    fmt.Printf("size(dumpS) = %v\n", len(slc))
+    fmt.Printf("capacity(dumpS) = %v\n", cap(slc))
+    for i := 0; i < len(slc); i++ {
+        fmt.Printf("%p: %v\n", &slc[i], slc[i])
+    }
 }
 
 func main() {
-	slc1 := []int8{0, 1, 2, 3}
-	dumpS(slc1)
-	slc2 := make([]int8, len(slc1), cap(slc1))
-	copy(slc2, slc1)
-	dumpS(slc2)
-	if reflect.DeepEqual(slc1, slc2) {
-		fmt.Println("slc1 == slc2")
-	} else {
-		fmt.Println("slc1 != slc2")
-	}
+    slc1 := []int8{0, 1, 2, 3}
+    dumpS(slc1)
+    slc2 := make([]int8, len(slc1), cap(slc1))
+    copy(slc2, slc1)
+    dumpS(slc2)
+    if reflect.DeepEqual(slc1, slc2) {
+        fmt.Println("slc1 == slc2")
+    } else {
+        fmt.Println("slc1 != slc2")
+    }
 }
 ```
 
@@ -530,31 +530,31 @@ slc1 == slc2
 package main
 
 import (
-	"fmt"
-	"reflect"
+    "fmt"
+    "reflect"
 )
 
 type Array4 [4]int8
 
 func dumpS(slc []int8) {
-	fmt.Printf("pointer(dumpS) = %p\n", slc)
-	fmt.Printf("size(dumpS) = %v\n", len(slc))
-	fmt.Printf("capacity(dumpS) = %v\n", cap(slc))
-	for i := 0; i < len(slc); i++ {
-		fmt.Printf("%p: %v\n", &slc[i], slc[i])
-	}
+    fmt.Printf("pointer(dumpS) = %p\n", slc)
+    fmt.Printf("size(dumpS) = %v\n", len(slc))
+    fmt.Printf("capacity(dumpS) = %v\n", cap(slc))
+    for i := 0; i < len(slc); i++ {
+        fmt.Printf("%p: %v\n", &slc[i], slc[i])
+    }
 }
 
 func main() {
-	slc1 := []int8{0, 1, 2, 3}
-	dumpS(slc1)
+    slc1 := []int8{0, 1, 2, 3}
+    dumpS(slc1)
     slc2 := slc1
-	dumpS(slc2)
-	if reflect.DeepEqual(slc1, slc2) {
-		fmt.Println("slc1 == slc2")
-	} else {
-		fmt.Println("slc1 != slc2")
-	}
+    dumpS(slc2)
+    if reflect.DeepEqual(slc1, slc2) {
+        fmt.Println("slc1 == slc2")
+    } else {
+        fmt.Println("slc1 != slc2")
+    }
 }
 ```
 

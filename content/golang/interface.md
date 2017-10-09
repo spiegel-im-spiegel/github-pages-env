@@ -31,8 +31,8 @@ package main
 import "fmt"
 
 func main() {
-	strlist := []string{"alpha", "beta", "gamma"}
-	fmt.Println(strlist)
+    strlist := []string{"alpha", "beta", "gamma"}
+    fmt.Println(strlist)
 }
 ```
 
@@ -55,8 +55,8 @@ package main
 import "fmt"
 
 func main() {
-	strlist := []string{"alpha", "beta", "gamma"}
-	fmt.Println(strlist...)
+    strlist := []string{"alpha", "beta", "gamma"}
+    fmt.Println(strlist...)
 }
 ```
 
@@ -98,8 +98,8 @@ import "fmt"
 type Msg []string
 
 func main() {
-	strlist := []string{"alpha", "beta", "gamma"}
-	fmt.Println(([]interface{})(strlist)...)
+    strlist := []string{"alpha", "beta", "gamma"}
+    fmt.Println(([]interface{})(strlist)...)
 }
 ```
 
@@ -122,12 +122,12 @@ import "fmt"
 type Msg []string
 
 func main() {
-	strlist := []string{"alpha", "beta", "gamma"}
-	var list = make([]interface{}, 0)
-	for _, str := range strlist {
-		list = append(list, str)
-	}
-	fmt.Println(list...)
+    strlist := []string{"alpha", "beta", "gamma"}
+    var list = make([]interface{}, 0)
+    for _, str := range strlist {
+        list = append(list, str)
+    }
+    fmt.Println(list...)
 }
 ```
 

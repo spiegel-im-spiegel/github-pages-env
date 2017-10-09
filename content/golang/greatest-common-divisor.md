@@ -1,7 +1,7 @@
 +++
 title = "最大公約数と関数型プログラミング"
 date =  "2017-09-23T23:32:56+09:00"
-update =  "2017-09-24T11:54:57+09:00"
+update = "2017-10-09T21:44:27+09:00"
 description = "そうだ。最大公約数（greatest common divisor）の話をしよう。"
 tags        = [ "golang", "function", "programming", "math", "greatest-common-divisor", "recursion" ]
 
@@ -52,10 +52,10 @@ tags        = [ "golang", "function", "programming", "math", "greatest-common-di
 それぞれの値を素因数分解すると以下のようになる。
 
 {{< fig-gen >}}
-\[
-20 = 2^2 \times 5 \\
-32 = 2^5
-\]
+\begin{align*}
+20 &= 2^2 \times 5 \\
+32 &= 2^5
+\end{align*}
 {{< /fig-gen >}}
 
 これにより最大公約数は $2^2 = 4$ だということが分かる。
@@ -97,7 +97,7 @@ func gcd(a, b int) int {
 }
 
 func main() {
-	fmt.Println(gcd(32, 20)) // 4
+    fmt.Println(gcd(32, 20)) // 4
 }
 ```
 
@@ -110,29 +110,29 @@ func main() {
 package main
 
 import (
-	"fmt"
-	"math/big"
+    "fmt"
+    "math/big"
 )
 
 func gcd(m, n uint64) uint64 {
-	x := new(big.Int)
-	y := new(big.Int)
-	z := new(big.Int)
-	a := new(big.Int).SetUint64(m)
-	b := new(big.Int).SetUint64(n)
-	return z.GCD(x, y, a, b).Uint64()
+    x := new(big.Int)
+    y := new(big.Int)
+    z := new(big.Int)
+    a := new(big.Int).SetUint64(m)
+    b := new(big.Int).SetUint64(n)
+    return z.GCD(x, y, a, b).Uint64()
 }
 
 func main() {
-	fmt.Println(gcd(20, 32)) // 4
+    fmt.Println(gcd(20, 32)) // 4
 }
 ```
 
-[`big`].`Int.GCD()` 関数も[ユークリッドの互除法]の一種で，正の整数 $a$, $b$ に対する最大公約数を $gcd(a, b)$ とすると
+[`big`].`Int.GCD()` 関数も[ユークリッドの互除法]の一種で，正の整数 $a$, $b$ に対する最大公約数を $\mathrm{gcd}(a, b)$ とすると
 
 {{< fig-gen >}}
 \[
-gcd(a, b) = ax + by
+\mathrm{gcd}(a, b) = ax + by
 \]
 {{< /fig-gen >}}
 
@@ -141,7 +141,7 @@ gcd(a, b) = ax + by
 ## 3つ以上の数の最大公約数
 
 では3つ以上の数の最大公約数を求めるにはどうすればいいか。
-ちょっと考えれば分かるが，たとえば (a, b, c) の最大公約数を求めたいなら `gcd(gcd(a, b), c)` とすればいい。
+ちょっと考えれば分かるが，たとえば $a$, $b$, $c$ の最大公約数を求めたいなら $\mathrm{gcd}(\mathrm{gcd}(a, b), c)$ とすればいい。
 
 では例題を立ててみよう。
 これは「[配列の全ての要素の最大公約数を求める]」の設問と同等と言える。
@@ -158,27 +158,27 @@ gcd(a, b) = ax + by
 package main
 
 import (
-	"fmt"
-	"math/big"
+    "fmt"
+    "math/big"
 )
 
 func gcd(m, n uint64) uint64 {
-	x := new(big.Int)
-	y := new(big.Int)
-	z := new(big.Int)
-	a := new(big.Int).SetUint64(m)
-	b := new(big.Int).SetUint64(n)
-	return z.GCD(x, y, a, b).Uint64()
+    x := new(big.Int)
+    y := new(big.Int)
+    z := new(big.Int)
+    a := new(big.Int).SetUint64(m)
+    b := new(big.Int).SetUint64(n)
+    return z.GCD(x, y, a, b).Uint64()
 }
 
 func main() {
-	values := []uint64{290021904, 927964716, 826824516, 817140688}
+    values := []uint64{290021904, 927964716, 826824516, 817140688}
 
-	z := values[0]
-	for _, n := range values {
-		z = gcd(n, z)
-	}
-	fmt.Println(z) // 92
+    z := values[0]
+    for _, n := range values {
+        z = gcd(n, z)
+    }
+    fmt.Println(z) // 92
 }
 ```
 
@@ -205,25 +205,25 @@ func main() {
 package main
 
 import (
-	"fmt"
-	"math/big"
+    "fmt"
+    "math/big"
 
-	"github.com/robpike/filter"
+    "github.com/robpike/filter"
 )
 
 func gcd(m, n uint64) uint64 {
-	x := new(big.Int)
-	y := new(big.Int)
-	z := new(big.Int)
-	a := new(big.Int).SetUint64(m)
-	b := new(big.Int).SetUint64(n)
-	return z.GCD(x, y, a, b).Uint64()
+    x := new(big.Int)
+    y := new(big.Int)
+    z := new(big.Int)
+    a := new(big.Int).SetUint64(m)
+    b := new(big.Int).SetUint64(n)
+    return z.GCD(x, y, a, b).Uint64()
 }
 
 func main() {
-	values := []uint64{290021904, 927964716, 826824516, 817140688}
+    values := []uint64{290021904, 927964716, 826824516, 817140688}
 
-	fmt.Println(filter.Reduce(values, gcd, 1).(uint64)) // 92
+    fmt.Println(filter.Reduce(values, gcd, 1).(uint64)) // 92
 }
 ```
 
@@ -233,25 +233,25 @@ func main() {
 package main
 
 import (
-	"fmt"
-	"math/big"
+    "fmt"
+    "math/big"
 
-	"github.com/robpike/filter"
+    "github.com/robpike/filter"
 )
 
 func main() {
-	values := []uint64{290021904, 927964716, 826824516, 817140688}
+    values := []uint64{290021904, 927964716, 826824516, 817140688}
 
-	fmt.Println(filter.Reduce(values,
-		func(m, n uint64) uint64 {
-			x := new(big.Int)
-			y := new(big.Int)
-			z := new(big.Int)
-			a := new(big.Int).SetUint64(m)
-			b := new(big.Int).SetUint64(n)
-			return z.GCD(x, y, a, b).Uint64()
-		},
-		1).(uint64)) // 92
+    fmt.Println(filter.Reduce(values,
+        func(m, n uint64) uint64 {
+            x := new(big.Int)
+            y := new(big.Int)
+            z := new(big.Int)
+            a := new(big.Int).SetUint64(m)
+            b := new(big.Int).SetUint64(n)
+            return z.GCD(x, y, a, b).Uint64()
+        },
+        1).(uint64)) // 92
 }
 ```
 

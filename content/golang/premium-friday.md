@@ -40,55 +40,55 @@ description = "もちろん息抜きである。潤いは大事。でも実用�
 package main
 
 import (
-	"flag"
-	"fmt"
-	"os"
-	"strconv"
-	"time"
+    "flag"
+    "fmt"
+    "os"
+    "strconv"
+    "time"
 )
 
 //GetPremiumFriday returns day of premium friday
 func GetPremiumFriday(y int, m time.Month) (int, error) {
-	//引数のチェック
+    //引数のチェック
     if y < 2017 || m < time.January || m > time.December {
-		return 0, os.ErrInvalid
-	}
-	if y == 2017 && m < time.February { //2017年1月は実施前なのでエラー
-		return 0, os.ErrInvalid
-	}
+        return 0, os.ErrInvalid
+    }
+    if y == 2017 && m < time.February { //2017年1月は実施前なのでエラー
+        return 0, os.ErrInvalid
+    }
 
-	//指定月末（翌月0日）で初期化する
+    //指定月末（翌月0日）で初期化する
     tm := time.Date(y, m+1, 0, 0, 0, 0, 0, time.UTC) //時差は影響しないので，とりあえず UTC で
 
     w := tm.Weekday() - time.Friday
-	if w < 0 {
-		w += 7
-	}
-	return tm.Day() - (int)(w), nil
+    if w < 0 {
+        w += 7
+    }
+    return tm.Day() - (int)(w), nil
 }
 
 func main() {
-	flag.Parse()
-	argsStr := flag.Args()
-	if len(argsStr) < 2 {
-		fmt.Fprintln(os.Stderr, "年月を指定してください")
-		return
-	}
-	args := make([]int, 2)
-	for i := 0; i < 2; i++ {
-		num, err := strconv.Atoi(argsStr[i])
-		if err != nil {
-			fmt.Fprintln(os.Stderr, err)
-			return
-		}
-		args[i] = num
-	}
-	d, err := GetPremiumFriday(args[0], time.Month(args[1]))
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
-	fmt.Println(d)
+    flag.Parse()
+    argsStr := flag.Args()
+    if len(argsStr) < 2 {
+        fmt.Fprintln(os.Stderr, "年月を指定してください")
+        return
+    }
+    args := make([]int, 2)
+    for i := 0; i < 2; i++ {
+        num, err := strconv.Atoi(argsStr[i])
+        if err != nil {
+            fmt.Fprintln(os.Stderr, err)
+            return
+        }
+        args[i] = num
+    }
+    d, err := GetPremiumFriday(args[0], time.Month(args[1]))
+    if err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
+    fmt.Println(d)
 }
 ```
 
@@ -112,28 +112,28 @@ $ go run pf.go 2017 2
 package pf
 
 import (
-	"os"
-	"time"
+    "os"
+    "time"
 )
 
 //GetPremiumFriday returns day of premium friday
 func GetPremiumFriday(y int, m time.Month) (int, error) {
-	//引数のチェック
+    //引数のチェック
     if y < 2017 || m < time.January || m > time.December {
-		return 0, os.ErrInvalid
-	}
-	if y == 2017 && m < time.February { //2017年1月は実施前なのでエラー
-		return 0, os.ErrInvalid
-	}
+        return 0, os.ErrInvalid
+    }
+    if y == 2017 && m < time.February { //2017年1月は実施前なのでエラー
+        return 0, os.ErrInvalid
+    }
 
-	//指定月末（翌月0日）で初期化する
+    //指定月末（翌月0日）で初期化する
     tm := time.Date(y, m+1, 0, 0, 0, 0, 0, time.UTC) //時差は影響しないので，とりあえず UTC で
 
     w := tm.Weekday() - time.Friday
-	if w < 0 {
-		w += 7
-	}
-	return tm.Day() - (int)(w), nil
+    if w < 0 {
+        w += 7
+    }
+    return tm.Day() - (int)(w), nil
 }
 ```
 
@@ -143,37 +143,37 @@ func GetPremiumFriday(y int, m time.Month) (int, error) {
 package main
 
 import (
-	"flag"
-	"fmt"
-	"os"
-	"strconv"
-	"time"
+    "flag"
+    "fmt"
+    "os"
+    "strconv"
+    "time"
 
-	"github.com/spiegel-im-spiegel/pf"
+    "github.com/spiegel-im-spiegel/pf"
 )
 
 func main() {
-	flag.Parse()
-	argsStr := flag.Args()
-	if len(argsStr) < 2 {
-		fmt.Fprintln(os.Stderr, "年月を指定してください")
-		return
-	}
-	args := make([]int, 2)
-	for i := 0; i < 2; i++ {
-		num, err := strconv.Atoi(argsStr[i])
-		if err != nil {
-			fmt.Fprintln(os.Stderr, err)
-			return
-		}
-		args[i] = num
-	}
-	d, err := pf.GetPremiumFriday(args[0], time.Month(args[1]))
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
-	fmt.Println(d)
+    flag.Parse()
+    argsStr := flag.Args()
+    if len(argsStr) < 2 {
+        fmt.Fprintln(os.Stderr, "年月を指定してください")
+        return
+    }
+    args := make([]int, 2)
+    for i := 0; i < 2; i++ {
+        num, err := strconv.Atoi(argsStr[i])
+        if err != nil {
+            fmt.Fprintln(os.Stderr, err)
+            return
+        }
+        args[i] = num
+    }
+    d, err := pf.GetPremiumFriday(args[0], time.Month(args[1]))
+    if err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
+    fmt.Println(d)
 }
 ```
 

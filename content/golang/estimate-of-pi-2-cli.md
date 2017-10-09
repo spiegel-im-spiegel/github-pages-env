@@ -35,18 +35,18 @@ draft = false
 package main
 
 import (
-	"fmt"
-	"math/rand"
-	"time"
+    "fmt"
+    "math/rand"
+    "time"
 
-	"github.com/spiegel-im-spiegel/pi/gencmplx"
+    "github.com/spiegel-im-spiegel/pi/gencmplx"
 )
 
 func main() {
-	c := gencmplx.New(rand.NewSource(time.Now().UnixNano()), int64(10000))
-	for p := range c {
-		fmt.Printf("%v\t%v\n", real(p), imag(p))
-	}
+    c := gencmplx.New(rand.NewSource(time.Now().UnixNano()), int64(10000))
+    for p := range c {
+        fmt.Printf("%v\t%v\n", real(p), imag(p))
+    }
 }
 ```
 
@@ -54,25 +54,25 @@ func main() {
 package main
 
 import (
-	"fmt"
-	"math/cmplx"
-	"math/rand"
-	"time"
+    "fmt"
+    "math/cmplx"
+    "math/rand"
+    "time"
 
-	"github.com/spiegel-im-spiegel/pi/gencmplx"
+    "github.com/spiegel-im-spiegel/pi/gencmplx"
 )
 
 func main() {
-	c := gencmplx.New(rand.NewSource(time.Now().UnixNano()), int64(100000))
-	n := int64(0) // total
-	m := int64(0) // plot in circle
-	for p := range c {
-		n++
-		if cmplx.Abs(p) <= float64(1) {
-			m++
-		}
-	}
-	fmt.Printf("n = %v, m = %v, 4m/n = %v\n", n, m, float64(4*m)/float64(n))
+    c := gencmplx.New(rand.NewSource(time.Now().UnixNano()), int64(100000))
+    n := int64(0) // total
+    m := int64(0) // plot in circle
+    for p := range c {
+        n++
+        if cmplx.Abs(p) <= float64(1) {
+            m++
+        }
+    }
+    fmt.Printf("n = %v, m = %v, 4m/n = %v\n", n, m, float64(4*m)/float64(n))
 }
 ```
 
@@ -141,7 +141,7 @@ package main
 import "github.com/spiegel-im-spiegel/pi/cmd"
 
 func main() {
-	cmd.Execute()
+    cmd.Execute()
 }
 ```
 
@@ -163,20 +163,20 @@ func main() {
 package cmd
 
 import (
-	"fmt"
-	"os"
+    "fmt"
+    "os"
 
-	"github.com/spf13/cobra"
-	"github.com/spf13/viper"
+    "github.com/spf13/cobra"
+    "github.com/spf13/viper"
 )
 
 var cfgFile string
 
 // RootCmd represents the base command when called without any subcommands
 var RootCmd = &cobra.Command{
-	Use:   "pi",
-	Short: "A brief description of your application",
-	Long: `A longer description that spans multiple lines and likely contains
+    Use:   "pi",
+    Short: "A brief description of your application",
+    Long: `A longer description that spans multiple lines and likely contains
 examples and usage of using your application. For example:
 
 Cobra is a CLI library for Go that empowers applications.
@@ -184,45 +184,45 @@ This application is a tool to generate the needed files
 to quickly create a Cobra application.`,
 // Uncomment the following line if your bare application
 // has an action associated with it:
-//	Run: func(cmd *cobra.Command, args []string) { },
+//    Run: func(cmd *cobra.Command, args []string) { },
 }
 
 // Execute adds all child commands to the root command sets flags appropriately.
 // This is called by main.main(). It only needs to happen once to the rootCmd.
 func Execute() {
-	if err := RootCmd.Execute(); err != nil {
-		fmt.Println(err)
-		os.Exit(-1)
-	}
+    if err := RootCmd.Execute(); err != nil {
+        fmt.Println(err)
+        os.Exit(-1)
+    }
 }
 
 func init() {
-	cobra.OnInitialize(initConfig)
+    cobra.OnInitialize(initConfig)
 
-	// Here you will define your flags and configuration settings.
-	// Cobra supports Persistent Flags, which, if defined here,
-	// will be global for your application.
+    // Here you will define your flags and configuration settings.
+    // Cobra supports Persistent Flags, which, if defined here,
+    // will be global for your application.
 
-	RootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.pi.yaml)")
-	// Cobra also supports local flags, which will only run
-	// when this action is called directly.
-	RootCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+    RootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.pi.yaml)")
+    // Cobra also supports local flags, which will only run
+    // when this action is called directly.
+    RootCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }
 
 // initConfig reads in config file and ENV variables if set.
 func initConfig() {
-	if cfgFile != "" { // enable ability to specify config file via flag
-		viper.SetConfigFile(cfgFile)
-	}
+    if cfgFile != "" { // enable ability to specify config file via flag
+        viper.SetConfigFile(cfgFile)
+    }
 
-	viper.SetConfigName(".pi") // name of config file (without extension)
-	viper.AddConfigPath("$HOME")  // adding home directory as first search path
-	viper.AutomaticEnv()          // read in environment variables that match
+    viper.SetConfigName(".pi") // name of config file (without extension)
+    viper.AddConfigPath("$HOME")  // adding home directory as first search path
+    viper.AutomaticEnv()          // read in environment variables that match
 
-	// If a config file is found, read it in.
-	if err := viper.ReadInConfig(); err == nil {
-		fmt.Println("Using config file:", viper.ConfigFileUsed())
-	}
+    // If a config file is found, read it in.
+    if err := viper.ReadInConfig(); err == nil {
+        fmt.Println("Using config file:", viper.ConfigFileUsed())
+    }
 }
 ```
 
@@ -272,39 +272,39 @@ estmt created at C:\workspace\pi\src\github.com\spiegel-im-spiegel\pi\cmd\estmt.
 package cmd
 
 import (
-	"fmt"
+    "fmt"
 
-	"github.com/spf13/cobra"
+    "github.com/spf13/cobra"
 )
 
 // plotCmd represents the plot command
 var plotCmd = &cobra.Command{
-	Use:   "plot",
-	Short: "A brief description of your command",
-	Long: `A longer description that spans multiple lines and likely contains examples
+    Use:   "plot",
+    Short: "A brief description of your command",
+    Long: `A longer description that spans multiple lines and likely contains examples
 and usage of using your command. For example:
 
 Cobra is a CLI library for Go that empowers applications.
 This application is a tool to generate the needed files
 to quickly create a Cobra application.`,
-	Run: func(cmd *cobra.Command, args []string) {
-		// TODO: Work your own magic here
-		fmt.Println("plot called")
-	},
+    Run: func(cmd *cobra.Command, args []string) {
+        // TODO: Work your own magic here
+        fmt.Println("plot called")
+    },
 }
 
 func init() {
-	RootCmd.AddCommand(plotCmd)
+    RootCmd.AddCommand(plotCmd)
 
-	// Here you will define your flags and configuration settings.
+    // Here you will define your flags and configuration settings.
 
-	// Cobra supports Persistent Flags which will work for this command
-	// and all subcommands, e.g.:
-	// plotCmd.PersistentFlags().String("foo", "", "A help for foo")
+    // Cobra supports Persistent Flags which will work for this command
+    // and all subcommands, e.g.:
+    // plotCmd.PersistentFlags().String("foo", "", "A help for foo")
 
-	// Cobra supports local flags which will only run when this command
-	// is called directly, e.g.:
-	// plotCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+    // Cobra supports local flags which will only run when this command
+    // is called directly, e.g.:
+    // plotCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 
 }
 ```
@@ -403,32 +403,32 @@ github.com/spiegel-im-spiegel/pi
 package genpi
 
 import (
-	"math/cmplx"
-	"math/rand"
-	"time"
+    "math/cmplx"
+    "math/rand"
+    "time"
 
-	"github.com/spiegel-im-spiegel/pi/gencmplx"
+    "github.com/spiegel-im-spiegel/pi/gencmplx"
 )
 
 //New returns generator of Pi
 func New(pc, ec int64) <-chan float64 {
-	ch := make(chan float64)
-	pcf := float64(pc)
-	go func(pc, ec int64) {
-		for i := int64(0); i < ec; i++ {
-			c := gencmplx.New(rand.NewSource(time.Now().UnixNano()), pc)
-			m := int64(0) // plot in circle
-			for p := range c {
-				if cmplx.Abs(p) <= float64(1) {
-					m++
-				}
-			}
-			ch <- float64(4*m) / pcf
-		}
-		close(ch)
-	}(pc, ec)
+    ch := make(chan float64)
+    pcf := float64(pc)
+    go func(pc, ec int64) {
+        for i := int64(0); i < ec; i++ {
+            c := gencmplx.New(rand.NewSource(time.Now().UnixNano()), pc)
+            m := int64(0) // plot in circle
+            for p := range c {
+                if cmplx.Abs(p) <= float64(1) {
+                    m++
+                }
+            }
+            ch <- float64(4*m) / pcf
+        }
+        close(ch)
+    }(pc, ec)
 
-	return ch
+    return ch
 }
 ```
 

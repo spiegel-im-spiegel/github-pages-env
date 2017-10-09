@@ -53,94 +53,94 @@ title = "文字列連結はどれが速い？"
 package main
 
 import (
-	"bufio"
-	"bytes"
-	"io"
+    "bufio"
+    "bytes"
+    "io"
 )
 
 //Read content (text data) from buffer
 func ContentText(inStream io.Reader) ([]string, error) {
-	scanner := bufio.NewScanner(inStream)
-	list := make([]string, 0)
-	for scanner.Scan() {
-		list = append(list, scanner.Text())
-	}
-	if err := scanner.Err(); err != nil {
-		return nil, err
-	}
-	return list, nil
+    scanner := bufio.NewScanner(inStream)
+    list := make([]string, 0)
+    for scanner.Scan() {
+        list = append(list, scanner.Text())
+    }
+    if err := scanner.Err(); err != nil {
+        return nil, err
+    }
+    return list, nil
 }
 
 //Write content (text data) to buffer
 func WriteBuffer1(lines []string) []byte {
-	//write to byte buffer
-	content := make([]byte, 0)
-	recode := "\r\n"
-	for _, line := range lines {
-		content = append(content, line...)
-		content = append(content, recode...)
-	}
-	return content
+    //write to byte buffer
+    content := make([]byte, 0)
+    recode := "\r\n"
+    for _, line := range lines {
+        content = append(content, line...)
+        content = append(content, recode...)
+    }
+    return content
 }
 
 //Write content (text data) to buffer
 func WriteBuffer1Cap128(lines []string) []byte {
-	//write to byte buffer
-	content := make([]byte, 0, 128) //128 bytes capacity
-	recode := "\r\n"
-	for _, line := range lines {
-		content = append(content, line...)
-		content = append(content, recode...)
-	}
-	return content
+    //write to byte buffer
+    content := make([]byte, 0, 128) //128 bytes capacity
+    recode := "\r\n"
+    for _, line := range lines {
+        content = append(content, line...)
+        content = append(content, recode...)
+    }
+    return content
 }
 
 //Write content (text data) to buffer
 func WriteBuffer1Cap1K(lines []string) []byte {
-	//write to byte buffer
-	content := make([]byte, 0, 1024) //1K bytes capacity
-	recode := "\r\n"
-	for _, line := range lines {
-		content = append(content, line...)
-		content = append(content, recode...)
-	}
-	return content
+    //write to byte buffer
+    content := make([]byte, 0, 1024) //1K bytes capacity
+    recode := "\r\n"
+    for _, line := range lines {
+        content = append(content, line...)
+        content = append(content, recode...)
+    }
+    return content
 }
 
 //Write content (text data) to buffer (buffered I/O)
 func WriteBuffer2(lines []string) []byte {
-	//write to byte buffer
-	content := bytes.NewBuffer(make([]byte, 0))
-	recode := "\r\n"
-	for _, line := range lines {
-		content.WriteString(line)
-		content.WriteString(recode)
-	}
-	return content.Bytes()
+    //write to byte buffer
+    content := bytes.NewBuffer(make([]byte, 0))
+    recode := "\r\n"
+    for _, line := range lines {
+        content.WriteString(line)
+        content.WriteString(recode)
+    }
+    return content.Bytes()
 }
 
 //Write content (text data) to buffer (buffered I/O)
 func WriteBuffer2Cap128(lines []string) []byte {
-	//write to byte buffer
-	content := bytes.NewBuffer(make([]byte, 0, 128)) //128 bytes capacity
-	recode := "\r\n"
-	for _, line := range lines {
-		content.WriteString(line)
-		content.WriteString(recode)
-	}
-	return content.Bytes()
+    //write to byte buffer
+    content := bytes.NewBuffer(make([]byte, 0, 128)) //128 bytes capacity
+    recode := "\r\n"
+    for _, line := range lines {
+        content.WriteString(line)
+        content.WriteString(recode)
+    }
+    return content.Bytes()
 }
 
 //Write content (text data) to buffer (buffered I/O)
 func WriteBuffer2Cap1K(lines []string) []byte {
-	//write to byte buffer
-	content := bytes.NewBuffer(make([]byte, 0, 1024)) //1K bytes capacity
-	recode := "\r\n"
-	for _, line := range lines {
-		content.WriteString(line)
-		content.WriteString(recode)
-	}
-	return content.Bytes()
+    //write to byte buffer
+    content := bytes.NewBuffer(make([]byte, 0, 1024)) //1K bytes capacity
+    recode := "\r\n"
+    for _, line := range lines {
+        content.WriteString(line)
+        content.WriteString(recode)
+    }
+    return content.Bytes()
 }
 ```
 
@@ -150,75 +150,75 @@ func WriteBuffer2Cap1K(lines []string) []byte {
 package main
 
 import (
-	"os"
-	"testing"
+    "os"
+    "testing"
 )
 
 func readFile() []string {
-	file, err := os.Open("CollisionsForHashFunctions.txt") //maybe file path
-	if err != nil {
-		panic(err)
-	}
-	defer file.Close()
-	list, err := ContentText(file)
-	if err != nil {
-		panic(err)
-	}
-	return list
+    file, err := os.Open("CollisionsForHashFunctions.txt") //maybe file path
+    if err != nil {
+        panic(err)
+    }
+    defer file.Close()
+    list, err := ContentText(file)
+    if err != nil {
+        panic(err)
+    }
+    return list
 }
 
 func BenchmarkWriteBuffer1(b *testing.B) {
-	list := readFile()
-	b.ResetTimer()
-	for i := 0; i < b.N; i++ {
-		content := WriteBuffer1(list)
-		_ = string(content)
-	}
+    list := readFile()
+    b.ResetTimer()
+    for i := 0; i < b.N; i++ {
+        content := WriteBuffer1(list)
+        _ = string(content)
+    }
 }
 
 func BenchmarkWriteBuffer1Cap128(b *testing.B) {
-	list := readFile()
-	b.ResetTimer()
-	for i := 0; i < b.N; i++ {
-		content := WriteBuffer1Cap128(list)
-		_ = string(content)
-	}
+    list := readFile()
+    b.ResetTimer()
+    for i := 0; i < b.N; i++ {
+        content := WriteBuffer1Cap128(list)
+        _ = string(content)
+    }
 }
 
 func BenchmarkWriteBuffer1Cap1K(b *testing.B) {
-	list := readFile()
-	b.ResetTimer()
-	for i := 0; i < b.N; i++ {
-		content := WriteBuffer1Cap1K(list)
-		_ = string(content)
-	}
+    list := readFile()
+    b.ResetTimer()
+    for i := 0; i < b.N; i++ {
+        content := WriteBuffer1Cap1K(list)
+        _ = string(content)
+    }
 }
 
 func BenchmarkWriteBuffer2(b *testing.B) {
-	list := readFile()
-	b.ResetTimer()
-	for i := 0; i < b.N; i++ {
-		content := WriteBuffer2(list)
-		_ = string(content)
-	}
+    list := readFile()
+    b.ResetTimer()
+    for i := 0; i < b.N; i++ {
+        content := WriteBuffer2(list)
+        _ = string(content)
+    }
 }
 
 func BenchmarkWriteBuffer2Cap128(b *testing.B) {
-	list := readFile()
-	b.ResetTimer()
-	for i := 0; i < b.N; i++ {
-		content := WriteBuffer2Cap128(list)
-		_ = string(content)
-	}
+    list := readFile()
+    b.ResetTimer()
+    for i := 0; i < b.N; i++ {
+        content := WriteBuffer2Cap128(list)
+        _ = string(content)
+    }
 }
 
 func BenchmarkWriteBuffer2Cap1K(b *testing.B) {
-	list := readFile()
-	b.ResetTimer()
-	for i := 0; i < b.N; i++ {
-		content := WriteBuffer2Cap1K(list)
-		_ = string(content)
-	}
+    list := readFile()
+    b.ResetTimer()
+    for i := 0; i < b.N; i++ {
+        content := WriteBuffer2Cap1K(list)
+        _ = string(content)
+    }
 }
 ```
 

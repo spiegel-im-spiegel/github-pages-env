@@ -88,19 +88,19 @@ CLI をサポートするパッケージはいくつか公開されているの�
 ```go
 // A command is a runnable sub-command of a CLI.
 type Command interface {
-	// Help should return long-form help text that includes the command-line
-	// usage, a brief few sentences explaining the function of the command,
-	// and the complete list of flags the command accepts.
-	Help() string
+    // Help should return long-form help text that includes the command-line
+    // usage, a brief few sentences explaining the function of the command,
+    // and the complete list of flags the command accepts.
+    Help() string
 
-	// Run should run the actual command with the given CLI instance and
-	// command-line arguments. It should return the exit status when it is
-	// finished.
-	Run(args []string) int
+    // Run should run the actual command with the given CLI instance and
+    // command-line arguments. It should return the exit status when it is
+    // finished.
+    Run(args []string) int
 
-	// Synopsis should return a one-line, short synopsis of the command.
-	// This should be less than 50 characters ideally.
-	Synopsis() string
+    // Synopsis should return a one-line, short synopsis of the command.
+    // This should be less than 50 characters ideally.
+    Synopsis() string
 }
 ```
 
@@ -127,42 +127,42 @@ type CommandFactory func() (Command, error)
 // CLI contains the state necessary to run subcommands and parse the
 // command line arguments.
 type CLI struct {
-	// Args is the list of command-line arguments received excluding
-	// the name of the app. For example, if the command "./cli foo bar"
-	// was invoked, then Args should be []string{"foo", "bar"}.
-	Args []string
+    // Args is the list of command-line arguments received excluding
+    // the name of the app. For example, if the command "./cli foo bar"
+    // was invoked, then Args should be []string{"foo", "bar"}.
+    Args []string
 
-	// Commands is a mapping of subcommand names to a factory function
-	// for creating that Command implementation. If there is a command
-	// with a blank string "", then it will be used as the default command
-	// if no subcommand is specified.
-	Commands map[string]CommandFactory
+    // Commands is a mapping of subcommand names to a factory function
+    // for creating that Command implementation. If there is a command
+    // with a blank string "", then it will be used as the default command
+    // if no subcommand is specified.
+    Commands map[string]CommandFactory
 
-	// Name defines the name of the CLI.
-	Name string
+    // Name defines the name of the CLI.
+    Name string
 
-	// Version of the CLI.
-	Version string
+    // Version of the CLI.
+    Version string
 
-	// HelpFunc and HelpWriter are used to output help information, if
-	// requested.
-	//
-	// HelpFunc is the function called to generate the generic help
-	// text that is shown if help must be shown for the CLI that doesn't
-	// pertain to a specific command.
-	//
-	// HelpWriter is the Writer where the help text is outputted to. If
-	// not specified, it will default to Stderr.
-	HelpFunc   HelpFunc
-	HelpWriter io.Writer
+    // HelpFunc and HelpWriter are used to output help information, if
+    // requested.
+    //
+    // HelpFunc is the function called to generate the generic help
+    // text that is shown if help must be shown for the CLI that doesn't
+    // pertain to a specific command.
+    //
+    // HelpWriter is the Writer where the help text is outputted to. If
+    // not specified, it will default to Stderr.
+    HelpFunc   HelpFunc
+    HelpWriter io.Writer
 
-	once           sync.Once
-	isHelp         bool
-	subcommand     string
-	subcommandArgs []string
-	topFlags       []string
+    once           sync.Once
+    isHelp         bool
+    subcommand     string
+    subcommandArgs []string
+    topFlags       []string
 
-	isVersion bool
+    isVersion bool
 }
 ```
 
@@ -183,29 +183,29 @@ Commands map[string]CommandFactory
 // of a CLI. This abstraction doesn't have to be used, but helps provide
 // a simple, layerable way to manage user interactions.
 type Ui interface {
-	// Ask asks the user for input using the given query. The response is
-	// returned as the given string, or an error.
-	Ask(string) (string, error)
+    // Ask asks the user for input using the given query. The response is
+    // returned as the given string, or an error.
+    Ask(string) (string, error)
 
-	// AskSecret asks the user for input using the given query, but does not echo
-	// the keystrokes to the terminal.
-	AskSecret(string) (string, error)
+    // AskSecret asks the user for input using the given query, but does not echo
+    // the keystrokes to the terminal.
+    AskSecret(string) (string, error)
 
-	// Output is called for normal standard output.
-	Output(string)
+    // Output is called for normal standard output.
+    Output(string)
 
-	// Info is called for information related to the previous output.
-	// In general this may be the exact same as Output, but this gives
-	// Ui implementors some flexibility with output formats.
-	Info(string)
+    // Info is called for information related to the previous output.
+    // In general this may be the exact same as Output, but this gives
+    // Ui implementors some flexibility with output formats.
+    Info(string)
 
-	// Error is used for any error messages that might appear on standard
-	// error.
-	Error(string)
+    // Error is used for any error messages that might appear on standard
+    // error.
+    Error(string)
 
-	// Warn is used for any warning messages that might appear on standard
-	// error.
-	Warn(string)
+    // Warn is used for any warning messages that might appear on standard
+    // error.
+    Warn(string)
 }
 ```
 
@@ -234,8 +234,8 @@ type Ui interface {
 ```go
 //Context inheritance cli.BasicUi
 type Context struct {
-	//Embedded BasicUi
-	*cli.BasicUi
+    //Embedded BasicUi
+    *cli.BasicUi
 }
 ```
 
@@ -244,10 +244,10 @@ type Context struct {
 ```go
 // Facade is context of facade
 type Facade struct {
-	//UI defines user interface of the Cli
-	Cxt *Context
-	// commands is a mapping of subcommand names to a factory function
-	commands map[string]cli.CommandFactory
+    //UI defines user interface of the Cli
+    Cxt *Context
+    // commands is a mapping of subcommand names to a factory function
+    commands map[string]cli.CommandFactory
 }
 ```
 
@@ -259,9 +259,9 @@ type Facade struct {
 ```go
 // AddCommand add command
 func (f *Facade) AddCommand(name string, command cli.Command) {
-	f.commands[name] = func() (cli.Command, error) {
-		return command, nil
-	}
+    f.commands[name] = func() (cli.Command, error) {
+        return command, nil
+    }
 }
 ```
 
@@ -270,11 +270,11 @@ func (f *Facade) AddCommand(name string, command cli.Command) {
 ```go
 // Run facade
 func (f *Facade) Run(appName, version string, args []string) (int, error) {
-	c := cli.NewCLI(appName, version)
-	c.Args = args
-	c.Commands = f.commands
-	c.HelpWriter = f.Cxt.Writer
-	return c.Run()
+    c := cli.NewCLI(appName, version)
+    c.Args = args
+    c.Commands = f.commands
+    c.HelpWriter = f.Cxt.Writer
+    return c.Run()
 }
 ```
 
@@ -295,14 +295,14 @@ $ astrocalc [-v | -h] mjdn <year> <month> <day>
 package mjdnCmd
 
 import (
-	"flag"
-	"fmt"
-	"strconv"
-	"strings"
-	"time"
+    "flag"
+    "fmt"
+    "strconv"
+    "strings"
+    "time"
 
-	"github.com/spiegel-im-spiegel/astrocalc/mjdn"
-	"github.com/spiegel-im-spiegel/gofacade"
+    "github.com/spiegel-im-spiegel/astrocalc/mjdn"
+    "github.com/spiegel-im-spiegel/gofacade"
 )
 
 // Name は mjdn コマンド名を定義する
@@ -310,57 +310,57 @@ const Name string = "mjdn"
 
 // Context は mjdn コマンドのコンテキストを定義する
 type Context struct {
-	//Embedded gofacade.Context
-	*gofacade.Context
-	//AppName にはアプリケーション名を格納する
-	AppName string
+    //Embedded gofacade.Context
+    *gofacade.Context
+    //AppName にはアプリケーション名を格納する
+    AppName string
 }
 
 // Command は Context のインスタンスを返す
 func Command(cxt *gofacade.Context, appName string) *Context {
-	return &Context{Context: cxt, AppName: appName}
+    return &Context{Context: cxt, AppName: appName}
 }
 
 // Synopsis は mjdn コマンドの概要を返す
 func (c Context) Synopsis() string {
-	return "Calculation of Modified Julian Day"
+    return "Calculation of Modified Julian Day"
 }
 
 // Help は mjdn コマンドのヘルプを返す
 func (c Context) Help() string {
-	helpText := `
+    helpText := `
 Usage: astrocalc mjdn <year> <month> <day>
 `
-	return fmt.Sprintln(strings.TrimSpace(helpText))
+    return fmt.Sprintln(strings.TrimSpace(helpText))
 }
 
 // Run は mjdn コマンドを実行する
 func (c Context) Run(args []string) int {
-	flags := flag.NewFlagSet(Name, flag.ContinueOnError)
-	flags.Usage = func() {
-		c.Error(c.Help())
-	}
-	// Parse commandline flag
-	if err := flags.Parse(args); err != nil {
-		return gofacade.ExitCodeError
-	}
-	if flags.NArg() != 3 {
-		c.Error(fmt.Sprintf("年月日を指定してください\n\n%s", c.Help()))
-		return gofacade.ExitCodeError
-	}
-	argsStr := flags.Args()
-	var ymd = make([]int, 3)
-	for i, arg := range argsStr {
-		num, err := strconv.Atoi(arg)
-		if err != nil {
-			c.Error(fmt.Sprintln(err))
-			return gofacade.ExitCodeError
-		}
-		ymd[i] = num
-	}
-	tm := time.Date(ymd[0], time.Month(ymd[1]), ymd[2], 0, 0, 0, 0, time.UTC)
-	c.Output(fmt.Sprint(mjdn.DayNumber(tm)))
-	return gofacade.ExitCodeOK
+    flags := flag.NewFlagSet(Name, flag.ContinueOnError)
+    flags.Usage = func() {
+        c.Error(c.Help())
+    }
+    // Parse commandline flag
+    if err := flags.Parse(args); err != nil {
+        return gofacade.ExitCodeError
+    }
+    if flags.NArg() != 3 {
+        c.Error(fmt.Sprintf("年月日を指定してください\n\n%s", c.Help()))
+        return gofacade.ExitCodeError
+    }
+    argsStr := flags.Args()
+    var ymd = make([]int, 3)
+    for i, arg := range argsStr {
+        num, err := strconv.Atoi(arg)
+        if err != nil {
+            c.Error(fmt.Sprintln(err))
+            return gofacade.ExitCodeError
+        }
+        ymd[i] = num
+    }
+    tm := time.Date(ymd[0], time.Month(ymd[1]), ymd[2], 0, 0, 0, 0, time.UTC)
+    c.Output(fmt.Sprint(mjdn.DayNumber(tm)))
+    return gofacade.ExitCodeOK
 }
 ```
 
@@ -369,10 +369,10 @@ func (c Context) Run(args []string) int {
 ```go
 // Context は mjdn コマンドのコンテキストを定義する
 type Context struct {
-	//Embedded gofacade.Context
-	*gofacade.Context
-	//AppName にはアプリケーション名を格納する
-	AppName string
+    //Embedded gofacade.Context
+    *gofacade.Context
+    //AppName にはアプリケーション名を格納する
+    AppName string
 }
 ```
 
@@ -386,34 +386,34 @@ type Context struct {
 package main
 
 import (
-	"fmt"
-	"os"
+    "fmt"
+    "os"
 
-	"github.com/spiegel-im-spiegel/astrocalc/internal/mjdnCmd"
-	"github.com/spiegel-im-spiegel/gofacade"
+    "github.com/spiegel-im-spiegel/astrocalc/internal/mjdnCmd"
+    "github.com/spiegel-im-spiegel/gofacade"
 )
 
 const (
-	// Name はアプリケーション名を定義する
-	Name string = "astrocalc"
-	// Version はアプリケーションのバージョン番号を定義する
-	Version string = "0.1.0"
+    // Name はアプリケーション名を定義する
+    Name string = "astrocalc"
+    // Version はアプリケーションのバージョン番号を定義する
+    Version string = "0.1.0"
 )
 
 func setupFacade(cxt *gofacade.Context) *gofacade.Facade {
-	fcd := gofacade.NewFacade(cxt)
-	fcd.AddCommand(mjdnCmd.Name, mjdnCmd.Command(cxt, Name))
-	return fcd
+    fcd := gofacade.NewFacade(cxt)
+    fcd.AddCommand(mjdnCmd.Name, mjdnCmd.Command(cxt, Name))
+    return fcd
 }
 
 func main() {
-	cxt := gofacade.NewContext(os.Stdin, os.Stdout, os.Stderr)
-	fcd := setupFacade(cxt)
-	rtn, err := fcd.Run(Name, Version, os.Args[1:])
-	if err != nil {
-		cxt.Error(fmt.Sprintln(err))
-	}
-	os.Exit(rtn)
+    cxt := gofacade.NewContext(os.Stdin, os.Stdout, os.Stderr)
+    fcd := setupFacade(cxt)
+    rtn, err := fcd.Run(Name, Version, os.Args[1:])
+    if err != nil {
+        cxt.Error(fmt.Sprintln(err))
+    }
+    os.Exit(rtn)
 }
 ```
 

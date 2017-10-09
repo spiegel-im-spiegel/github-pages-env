@@ -74,26 +74,26 @@ U+309A および U+3099 はそれぞれ半濁点と濁点を表す「結合文�
 package main
 
 import (
-	"fmt"
+    "fmt"
 
-	"golang.org/x/text/unicode/norm"
+    "golang.org/x/text/unicode/norm"
 )
 
 func main() {
-	penguin := "ペンギン"
-	for pos, runeValue := range penguin {
-		fmt.Printf("penguin[%d] = %#U\n", pos, runeValue)
-	}
+    penguin := "ペンギン"
+    for pos, runeValue := range penguin {
+        fmt.Printf("penguin[%d] = %#U\n", pos, runeValue)
+    }
 
-	penguin2 := string(norm.NFD.Bytes([]byte(penguin)))
-	for pos, runeValue := range penguin2 {
-		fmt.Printf("penguin2[%d] = %#U\n", pos, runeValue)
-	}
+    penguin2 := string(norm.NFD.Bytes([]byte(penguin)))
+    for pos, runeValue := range penguin2 {
+        fmt.Printf("penguin2[%d] = %#U\n", pos, runeValue)
+    }
 
-	penguin3 := string(norm.NFC.Bytes([]byte(penguin2)))
-	for pos, runeValue := range penguin3 {
-		fmt.Printf("penguin3[%d] = %#U\n", pos, runeValue)
-	}
+    penguin3 := string(norm.NFC.Bytes([]byte(penguin2)))
+    for pos, runeValue := range penguin3 {
+        fmt.Printf("penguin3[%d] = %#U\n", pos, runeValue)
+    }
 }
 ```
 
@@ -136,21 +136,21 @@ NFC と NFD が交換可能であることがわかると思う。
 package main
 
 import (
-	"fmt"
+    "fmt"
 
-	"golang.org/x/text/unicode/norm"
+    "golang.org/x/text/unicode/norm"
 )
 
 func main() {
-	penguin := "ﾍﾟﾝｷﾞﾝ"
-	for pos, runeValue := range penguin {
-		fmt.Printf("penguin[%d] = %#U\n", pos, runeValue)
-	}
+    penguin := "ﾍﾟﾝｷﾞﾝ"
+    for pos, runeValue := range penguin {
+        fmt.Printf("penguin[%d] = %#U\n", pos, runeValue)
+    }
 
-	penguin2 := string(norm.NFC.Bytes([]byte(penguin)))
-	for pos, runeValue := range penguin2 {
-		fmt.Printf("penguin2[%d] = %#U\n", pos, runeValue)
-	}
+    penguin2 := string(norm.NFC.Bytes([]byte(penguin)))
+    for pos, runeValue := range penguin2 {
+        fmt.Printf("penguin2[%d] = %#U\n", pos, runeValue)
+    }
 }
 ```
 
@@ -182,21 +182,21 @@ penguin2[15] = U+FF9D 'ﾝ'
 package main
 
 import (
-	"fmt"
+    "fmt"
 
-	"golang.org/x/text/unicode/norm"
+    "golang.org/x/text/unicode/norm"
 )
 
 func main() {
-	penguin := "ﾍﾟﾝｷﾞﾝ"
-	for pos, runeValue := range penguin {
-		fmt.Printf("penguin[%d] = %#U\n", pos, runeValue)
-	}
+    penguin := "ﾍﾟﾝｷﾞﾝ"
+    for pos, runeValue := range penguin {
+        fmt.Printf("penguin[%d] = %#U\n", pos, runeValue)
+    }
 
-	penguin2 := string(norm.NFKC.Bytes([]byte(penguin)))
-	for pos, runeValue := range penguin2 {
-		fmt.Printf("penguin2[%d] = %#U\n", pos, runeValue)
-	}
+    penguin2 := string(norm.NFKC.Bytes([]byte(penguin)))
+    for pos, runeValue := range penguin2 {
+        fmt.Printf("penguin2[%d] = %#U\n", pos, runeValue)
+    }
 }
 ```
 
@@ -234,26 +234,26 @@ penguin2[9] = U+30F3 'ン'
 package main
 
 import (
-	"fmt"
+    "fmt"
 
-	"golang.org/x/text/unicode/norm"
+    "golang.org/x/text/unicode/norm"
 )
 
 func main() {
-	god := "神"
-	for pos, runeValue := range god {
-		fmt.Printf("god[%d] = %#U\n", pos, runeValue)
-	}
+    god := "神"
+    for pos, runeValue := range god {
+        fmt.Printf("god[%d] = %#U\n", pos, runeValue)
+    }
 
-	god2 := string(norm.NFC.Bytes([]byte(god)))
-	for pos, runeValue := range god2 {
-		fmt.Printf("god2[%d] = %#U\n", pos, runeValue)
-	}
+    god2 := string(norm.NFC.Bytes([]byte(god)))
+    for pos, runeValue := range god2 {
+        fmt.Printf("god2[%d] = %#U\n", pos, runeValue)
+    }
 
-	god3 := string(norm.NFD.Bytes([]byte(god)))
-	for pos, runeValue := range god3 {
-		fmt.Printf("god3[%d] = %#U\n", pos, runeValue)
-	}
+    god3 := string(norm.NFD.Bytes([]byte(god)))
+    for pos, runeValue := range god3 {
+        fmt.Printf("god3[%d] = %#U\n", pos, runeValue)
+    }
 }
 ```
 

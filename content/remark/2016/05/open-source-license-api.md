@@ -102,21 +102,21 @@ title = "Open Source License API ?"
 package main
 
 import (
-	"fmt"
+    "fmt"
 
-	"github.com/opensourceorg/api/client"
+    "github.com/opensourceorg/api/client"
 )
 
 func ohshit(err error) {
-	if err != nil {
-		panic(err)
-	}
+    if err != nil {
+        panic(err)
+    }
 }
 
 func main() {
-	license, err := client.Get("Apache-2.0")
-	ohshit(err)
-	fmt.Printf("%s\n", license.Name)
+    license, err := client.Get("Apache-2.0")
+    ohshit(err)
+    fmt.Printf("%s\n", license.Name)
 }
 ```
 
@@ -133,23 +133,23 @@ Apache License, Version 2.0
 package main
 
 import (
-	"fmt"
+    "fmt"
 
-	"github.com/opensourceorg/api/client"
+    "github.com/opensourceorg/api/client"
 )
 
 func ohshit(err error) {
-	if err != nil {
-		panic(err)
-	}
+    if err != nil {
+        panic(err)
+    }
 }
 
 func main() {
-	licenses, err := client.Tagged("copyleft")
-	ohshit(err)
-	for _, license := range licenses {
-		fmt.Printf("%s\n", license.Name)
-	}
+    licenses, err := client.Tagged("copyleft")
+    ohshit(err)
+    for _, license := range licenses {
+        fmt.Printf("%s\n", license.Name)
+    }
 }
 ```
 

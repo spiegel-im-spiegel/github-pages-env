@@ -70,10 +70,10 @@ official r\^ole in fluffy souffl\'es!?''
 \subsection*{連分数（amsmathパッケージ）}
 
 \begin{equation}
-	b_0 + \cfrac{c_1}{b_1 +
-	      \cfrac{c_2}{b_2 +
-		  \cfrac{c_3}{b_3 +
-		  \cfrac{c_4}{b_4 + \cdots}}}}
+    b_0 + \cfrac{c_1}{b_1 +
+          \cfrac{c_2}{b_2 +
+          \cfrac{c_3}{b_3 +
+          \cfrac{c_4}{b_4 + \cdots}}}}
 \end{equation}
 
 \subsection*{黒板文字（amssybパッケージ）}

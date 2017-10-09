@@ -53,7 +53,7 @@ ul.cloud > li {
 
 <ul class="cloud">{{ $plural := .Data.Plural }}
 {{ range $key, $value := .Data.Terms }}
-	<li><a href="/{{ $plural }}/{{ $key | urlize }}">{{ $key }}</a> ({{ len $value }})</li>
+    <li><a href="/{{ $plural }}/{{ $key | urlize }}">{{ $key }}</a> ({{ len $value }})</li>
 {{ end }}
 </ul>
 
@@ -64,7 +64,7 @@ ul.cloud > li {
 [以前の記事]({{< relref "hugo/section.md" >}})の [Taxonomy]({{< relref "hugo/section.md#" >}}) の記述に似ているので，それほど難しくないだろう。
 これをビルドするとこんな感じにファイルが展開される。
 
-```
+```text
 C:\hugo-env\www>hugo
 0 draft content
 0 future content
@@ -158,9 +158,9 @@ ul.cloud > li {
 
 <ul class="cloud">
 
-	<li><a href="/tags/hello">hello</a> (1)</li>
+    <li><a href="/tags/hello">hello</a> (1)</li>
 
-	<li><a href="/tags/world">world</a> (1)</li>
+    <li><a href="/tags/world">world</a> (1)</li>
 
 </ul>
 

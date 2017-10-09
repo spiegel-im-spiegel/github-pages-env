@@ -29,7 +29,7 @@ title = "関数とポインタ"
 
 ```go
 func add(x int, y int) int {
-	return x + y
+    return x + y
 }
 ```
 
@@ -44,12 +44,12 @@ package main
 import "fmt"
 
 func add(x int, y int) int {
-	return x + y
+    return x + y
 }
 
 func main() {
-	ans := add(42, 13)
-	fmt.Println(ans)
+    ans := add(42, 13)
+    fmt.Println(ans)
 }
 ```
 
@@ -57,7 +57,7 @@ func main() {
 
 ```go
 func add(x, y int) int {
-	return x + y
+    return x + y
 }
 ```
 
@@ -65,9 +65,9 @@ func add(x, y int) int {
 
 ```go
 func split(sum int) (int, int) {
-	x = sum * 4 / 9
-	y = sum - x
-	return x, y
+    x = sum * 4 / 9
+    y = sum - x
+    return x, y
 }
 ```
 
@@ -75,8 +75,8 @@ func split(sum int) (int, int) {
 
 ```go
 func add(x, y int) (ans int) {
-	ans = x + y
-	return
+    ans = x + y
+    return
 }
 ```
 
@@ -89,28 +89,28 @@ package main
 import "fmt"
 
 func main() {
-	err := r()
-	if err != nil {
-		fmt.Println(err)
-	} else {
-		fmt.Println("Normal End.")
-	}
+    err := r()
+    if err != nil {
+        fmt.Println(err)
+    } else {
+        fmt.Println("Normal End.")
+    }
 }
 
 func r() (err error) {
-	defer func() {
-		if rec := recover(); rec != nil {
-			err = fmt.Errorf("Recovered from: %v", rec)
-		}
-	}()
+    defer func() {
+        if rec := recover(); rec != nil {
+            err = fmt.Errorf("Recovered from: %v", rec)
+        }
+    }()
 
-	f()
-	err = nil
-	return
+    f()
+    err = nil
+    return
 }
 
 func f() {
-	panic("Panic!")
+    panic("Panic!")
 }
 ```
 
@@ -125,8 +125,8 @@ func f() {
 
 ```go
 func add(x, y int) int {
-	x += y
-	return x
+    x += y
+    return x
 }
 ```
 
@@ -138,15 +138,15 @@ package main
 import "fmt"
 
 func add(x, y int) int {
-	x += y
-	return x
+    x += y
+    return x
 }
 
 func main() {
     x := 42
     y := 13
-	ans := add(x, y)
-	fmt.Printf("%d + %d = %d\n", x, y, ans) //output: 42 + 13 = 55
+    ans := add(x, y)
+    fmt.Printf("%d + %d = %d\n", x, y, ans) //output: 42 + 13 = 55
 }
 ```
 
@@ -166,15 +166,15 @@ package main
 import "fmt"
 
 func add(x, y *int) int {
-	*x += *y
-	return *x
+    *x += *y
+    return *x
 }
 
 func main() {
-	x := 42
-	y := 13
-	ans := add(&x, &y)
-	fmt.Printf("%d + %d = %d\n", x, y, ans) //output: 55 + 13 = 55
+    x := 42
+    y := 13
+    ans := add(&x, &y)
+    fmt.Printf("%d + %d = %d\n", x, y, ans) //output: 55 + 13 = 55
 }
 ```
 
@@ -188,8 +188,8 @@ func main() {
 
 ```go
 func add(x, y *int) int {
-	x += y
-	return *x
+    x += y
+    return *x
 }
 ```
 
@@ -220,16 +220,16 @@ package main
 import "fmt"
 
 func setItem(ary map[int]int, index, item int) {
-	ary[index] = item
+    ary[index] = item
 }
 
 func main() {
     ary := map[int]int{0: 0}
-	fmt.Println(ary) //output: map[0:0]
-	setItem(ary, 0, 1)
-	fmt.Println(ary) //output: map[0:1]
-	setItem(ary, 10, 10)
-	fmt.Println(ary) //output: map[0:1 10:10]
+    fmt.Println(ary) //output: map[0:0]
+    setItem(ary, 0, 1)
+    fmt.Println(ary) //output: map[0:1]
+    setItem(ary, 10, 10)
+    fmt.Println(ary) //output: map[0:1 10:10]
 }
 ```
 
@@ -245,16 +245,16 @@ package main
 import "fmt"
 
 func setItem(ary [4]int, index, item int) {
-	ary[index] = item
+    ary[index] = item
 }
 
 func main() {
-	ary := [4]int{0, 1, 2, 3}
-	fmt.Println(ary) //output: [0 1 2 3]
-	setItem(ary, 1, 10)
-	fmt.Println(ary) //output: [0 1 2 3]
-	ary[2] = 200
-	fmt.Println(ary) //output: [0 1 200 3]
+    ary := [4]int{0, 1, 2, 3}
+    fmt.Println(ary) //output: [0 1 2 3]
+    setItem(ary, 1, 10)
+    fmt.Println(ary) //output: [0 1 2 3]
+    ary[2] = 200
+    fmt.Println(ary) //output: [0 1 200 3]
 }
 ```
 
@@ -266,14 +266,14 @@ package main
 import "fmt"
 
 func setItem(ary *[4]int, index, item int) {
-	(*ary)[index] = item
+    (*ary)[index] = item
 }
 
 func main() {
-	ary := [4]int{0, 1, 2, 3}
-	fmt.Println(ary) //output: [0 1 2 3]
-	setItem(&ary, 1, 10)
-	fmt.Println(ary) //output: [0 10 2 3]
+    ary := [4]int{0, 1, 2, 3}
+    fmt.Println(ary) //output: [0 1 2 3]
+    setItem(&ary, 1, 10)
+    fmt.Println(ary) //output: [0 10 2 3]
 }
 ```
 
@@ -289,14 +289,14 @@ func main() {
 
 ```go
 type Vertex struct {
-	X int
-	Y int
+    X int
+    Y int
 }
 
 func (v Vertex) Add(dv Vertex) Vertex {
-	v.X += dv.X
-	v.Y += dv.Y
-	return v
+    v.X += dv.X
+    v.Y += dv.Y
+    return v
 }
 ```
 
@@ -309,25 +309,25 @@ package main
 import "fmt"
 
 type Vertex struct {
-	X int
-	Y int
+    X int
+    Y int
 }
 
 func (v Vertex) String() string {
-	return fmt.Sprint("X = ", v.X, ", Y = ", v.Y)
+    return fmt.Sprint("X = ", v.X, ", Y = ", v.Y)
 }
 
 func (v Vertex) Add(dv Vertex) Vertex {
-	v.X += dv.X
-	v.Y += dv.Y
-	return v
+    v.X += dv.X
+    v.Y += dv.Y
+    return v
 }
 
 func main() {
-	v := Vertex{X: 1, Y: 2}
-	vv := v.Add(Vertex{X: 3, Y: 4})
-	fmt.Println(v)  //output: X = 1, Y = 2
-	fmt.Println(vv) //output: X = 4, Y = 6
+    v := Vertex{X: 1, Y: 2}
+    vv := v.Add(Vertex{X: 3, Y: 4})
+    fmt.Println(v)  //output: X = 1, Y = 2
+    fmt.Println(vv) //output: X = 4, Y = 6
 }
 ```
 
@@ -342,26 +342,26 @@ package main
 import "fmt"
 
 type Vertex struct {
-	X int
-	Y int
+    X int
+    Y int
 }
 
 func (v Vertex) String() string {
-	return fmt.Sprint("X = ", v.X, ", Y = ", v.Y)
+    return fmt.Sprint("X = ", v.X, ", Y = ", v.Y)
 }
 
 func (v *Vertex) Add(dv Vertex) {
-	if v == nil {
-		return
-	}
-	v.X += dv.X
-	v.Y += dv.Y
+    if v == nil {
+        return
+    }
+    v.X += dv.X
+    v.Y += dv.Y
 }
 
 func main() {
-	v := &Vertex{X: 1, Y: 2}
-	v.Add(Vertex{X: 3, Y: 4})
-	fmt.Println(v) //output: X = 4, Y = 6
+    v := &Vertex{X: 1, Y: 2}
+    v.Add(Vertex{X: 3, Y: 4})
+    fmt.Println(v) //output: X = 4, Y = 6
 }
 ```
 
@@ -377,25 +377,25 @@ package main
 import "fmt"
 
 type Vertex struct {
-	X int
-	Y int
+    X int
+    Y int
 }
 
 func (v Vertex) String() string {
-	return fmt.Sprint("X = ", v.X, ", Y = ", v.Y)
+    return fmt.Sprint("X = ", v.X, ", Y = ", v.Y)
 }
 
 func (v Vertex) Add(dv Vertex) Vertex {
-	v.X += dv.X
-	v.Y += dv.Y
-	return v
+    v.X += dv.X
+    v.Y += dv.Y
+    return v
 }
 
 func main() {
-	v := &Vertex{X: 1, Y: 2} //pointer
-	vv := v.Add(Vertex{X: 3, Y: 4})
-	fmt.Println(v)  //output: X = 1, Y = 2
-	fmt.Println(vv) //output: X = 4, Y = 6
+    v := &Vertex{X: 1, Y: 2} //pointer
+    vv := v.Add(Vertex{X: 3, Y: 4})
+    fmt.Println(v)  //output: X = 1, Y = 2
+    fmt.Println(vv) //output: X = 4, Y = 6
 }
 ```
 
@@ -407,26 +407,26 @@ package main
 import "fmt"
 
 type Vertex struct {
-	X int
-	Y int
+    X int
+    Y int
 }
 
 func (v Vertex) String() string {
-	return fmt.Sprint("X = ", v.X, ", Y = ", v.Y)
+    return fmt.Sprint("X = ", v.X, ", Y = ", v.Y)
 }
 
 func (v *Vertex) Add(dv Vertex) {
-	if v == nil {
-		return
-	}
-	v.X += dv.X
-	v.Y += dv.Y
+    if v == nil {
+        return
+    }
+    v.X += dv.X
+    v.Y += dv.Y
 }
 
 func main() {
-	v := Vertex{X: 1, Y: 2} //not pointer
-	v.Add(Vertex{X: 3, Y: 4})
-	fmt.Println(v) //output: X = 4, Y = 6
+    v := Vertex{X: 1, Y: 2} //not pointer
+    v.Add(Vertex{X: 3, Y: 4})
+    fmt.Println(v) //output: X = 4, Y = 6
 }
 ```
 
@@ -441,25 +441,25 @@ package main
 import "fmt"
 
 type Vertex struct {
-	X int
-	Y int
+    X int
+    Y int
 }
 
 func (v Vertex) String() string {
-	return fmt.Sprint("X = ", v.X, ", Y = ", v.Y)
+    return fmt.Sprint("X = ", v.X, ", Y = ", v.Y)
 }
 
 func (v Vertex) Add(dv Vertex) Vertex {
-	v.X += dv.X
-	v.Y += dv.Y
-	return v
+    v.X += dv.X
+    v.Y += dv.Y
+    return v
 }
 
 func main() {
-	v := (*Vertex)(nil) //nil
-	vv := v.Add(Vertex{X: 3, Y: 4})
-	fmt.Println(v)
-	fmt.Println(vv)
+    v := (*Vertex)(nil) //nil
+    vv := v.Add(Vertex{X: 3, Y: 4})
+    fmt.Println(v)
+    fmt.Println(vv)
 }
 ```
 
@@ -478,26 +478,26 @@ package main
 import "fmt"
 
 type Vertex struct {
-	X int
-	Y int
+    X int
+    Y int
 }
 
 func (v Vertex) String() string {
-	return fmt.Sprint("X = ", v.X, ", Y = ", v.Y)
+    return fmt.Sprint("X = ", v.X, ", Y = ", v.Y)
 }
 
 func (v *Vertex) Add(dv Vertex) {
-	if v == nil {
-		return
-	}
-	v.X += dv.X
-	v.Y += dv.Y
+    if v == nil {
+        return
+    }
+    v.X += dv.X
+    v.Y += dv.Y
 }
 
 func main() {
-	v := (*Vertex)(nil) //nil
-	v.Add(Vertex{X: 3, Y: 4})
-	fmt.Println(v) //output: <nil>
+    v := (*Vertex)(nil) //nil
+    v.Add(Vertex{X: 3, Y: 4})
+    fmt.Println(v) //output: <nil>
 }
 ```
 
@@ -507,8 +507,8 @@ func main() {
 
 ```go
 func (v *Vertex) Add(dv Vertex) {
-	v.X += dv.X
-	v.Y += dv.Y
+    v.X += dv.X
+    v.Y += dv.Y
 }
 ```
 
@@ -526,12 +526,12 @@ package main
 import "fmt"
 
 func main() {
-	ary := []int{0, 1, 2, 3}
-	fmt.Println(ary) //output: [0 1 2 3]
-	for _, item := range ary {
-		item += 10
-	}
-	fmt.Println(ary) //output: [0 1 2 3]
+    ary := []int{0, 1, 2, 3}
+    fmt.Println(ary) //output: [0 1 2 3]
+    for _, item := range ary {
+        item += 10
+    }
+    fmt.Println(ary) //output: [0 1 2 3]
 }
 ```
 
@@ -545,12 +545,12 @@ package main
 import "fmt"
 
 func main() {
-	ary := []int{0, 1, 2, 3}
-	fmt.Println(ary) //output: [0 1 2 3]
-	for i := 0; i < len(ary); i++ {
-		ary[i] += 10
-	}
-	fmt.Println(ary) //output: [10 11 12 13]
+    ary := []int{0, 1, 2, 3}
+    fmt.Println(ary) //output: [0 1 2 3]
+    for i := 0; i < len(ary); i++ {
+        ary[i] += 10
+    }
+    fmt.Println(ary) //output: [10 11 12 13]
 }
 ```
 

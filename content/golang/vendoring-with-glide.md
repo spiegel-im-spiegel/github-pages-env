@@ -174,35 +174,35 @@ C:\WORKSPACE\VDEMO2
 package main
 
 import (
-	"flag"
-	"fmt"
-	"os"
-	"strconv"
-	"time"
+    "flag"
+    "fmt"
+    "os"
+    "strconv"
+    "time"
 
     "github.com/spiegel-im-spiegel/astrocalc/modjulian"
 )
 
 func main() {
-	//引数のチェック
-	flag.Parse()
-	argsStr := flag.Args()
-	if len(argsStr) < 3 {
-		fmt.Fprintln(os.Stderr, "年月日を指定してください")
-		return
-	}
-	args := make([]int, 3)
-	for i := 0; i < 3; i++ {
-		num, err := strconv.Atoi(argsStr[i])
-		if err != nil {
-			fmt.Fprintln(os.Stderr, err)
-			return
-		}
-		args[i] = num
-	}
-	tm := time.Date(args[0], time.Month(args[1]), args[2], 0, 0, 0, 0, time.UTC)
-	fmt.Printf("%v\n", tm)
-	fmt.Printf("MJD = %d日\n", modjulian.DayNumber(tm))
+    //引数のチェック
+    flag.Parse()
+    argsStr := flag.Args()
+    if len(argsStr) < 3 {
+        fmt.Fprintln(os.Stderr, "年月日を指定してください")
+        return
+    }
+    args := make([]int, 3)
+    for i := 0; i < 3; i++ {
+        num, err := strconv.Atoi(argsStr[i])
+        if err != nil {
+            fmt.Fprintln(os.Stderr, err)
+            return
+        }
+        args[i] = num
+    }
+    tm := time.Date(args[0], time.Month(args[1]), args[2], 0, 0, 0, 0, time.UTC)
+    fmt.Printf("%v\n", tm)
+    fmt.Printf("MJD = %d日\n", modjulian.DayNumber(tm))
 }
 ```
 

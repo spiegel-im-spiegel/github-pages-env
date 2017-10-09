@@ -198,9 +198,9 @@ setx GIT_SSH=C:\path\to\PuTTY\plink.exe
 
 一方，リポジトリの `.git\config` ファイルには PPK ファイルの場所をセットする。
 
-```text
+```ini
 [remote "origin"]
-	puttykeyfile = C:/path/to/PuTTY/id_rsa.PPK
+    puttykeyfile = C:/path/to/PuTTY/id_rsa.PPK
 ```
 
 この状態で `git fetch` または `git push` を行うと Plink 経由で `gpg-agent` にリクエストが発生する。

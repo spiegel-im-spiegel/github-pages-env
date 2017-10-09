@@ -88,16 +88,16 @@ m \simeq \frac{1}{4}{\pi}n
 package main
 
 import (
-	"fmt"
-	"math/rand"
-	"time"
+    "fmt"
+    "math/rand"
+    "time"
 )
 
 func main() {
-	rand.Seed(time.Now().UnixNano())
-	for i := 0; i < 10; i++ {
-		fmt.Println(float64(rand.Int63n(10000001)) / float64(10000000))
-	}
+    rand.Seed(time.Now().UnixNano())
+    for i := 0; i < 10; i++ {
+        fmt.Println(float64(rand.Int63n(10000001)) / float64(10000000))
+    }
 }
 ```
 
@@ -111,18 +111,18 @@ $n=10,000,001$ なら $0 \le i \le 10,000,000$ の範囲になる。
 package main
 
 import (
-	"fmt"
-	"math/cmplx"
-	"math/rand"
-	"time"
+    "fmt"
+    "math/cmplx"
+    "math/rand"
+    "time"
 )
 
 func main() {
-	rand.Seed(time.Now().UnixNano())
-	for i := 0; i < 10; i++ {
-		c := complex(float64(rand.Int63n(10000001))/float64(10000000), float64(rand.Int63n(10000001))/float64(10000000))
-		fmt.Printf("%v (%v)\n", c, cmplx.Abs(c))
-	}
+    rand.Seed(time.Now().UnixNano())
+    for i := 0; i < 10; i++ {
+        c := complex(float64(rand.Int63n(10000001))/float64(10000000), float64(rand.Int63n(10000001))/float64(10000000))
+        fmt.Printf("%v (%v)\n", c, cmplx.Abs(c))
+    }
 }
 ```
 
@@ -139,15 +139,15 @@ import "math/rand"
 
 //New returns generator of random complex number
 func New(s rand.Source, count int64) <-chan complex128 {
-	ch := make(chan complex128)
-	r := rand.New(s)
-	go func(r *rand.Rand, count int64) {
-		for i := int64(0); i < count; i++ {
-			ch <- complex(float64(r.Int63n(10000001))/float64(10000000), float64(r.Int63n(10000001))/float64(10000000))
-		}
-		close(ch)
-	}(r, count)
-	return ch
+    ch := make(chan complex128)
+    r := rand.New(s)
+    go func(r *rand.Rand, count int64) {
+        for i := int64(0); i < count; i++ {
+            ch <- complex(float64(r.Int63n(10000001))/float64(10000000), float64(r.Int63n(10000001))/float64(10000000))
+        }
+        close(ch)
+    }(r, count)
+    return ch
 }
 ```
 
@@ -161,18 +161,18 @@ func New(s rand.Source, count int64) <-chan complex128 {
 package main
 
 import (
-	"fmt"
-	"math/rand"
-	"time"
+    "fmt"
+    "math/rand"
+    "time"
 
-	"github.com/spiegel-im-spiegel/pi/gencmplx"
+    "github.com/spiegel-im-spiegel/pi/gencmplx"
 )
 
 func main() {
-	c := gencmplx.New(rand.NewSource(time.Now().UnixNano()), int64(10000))
-	for p := range c {
-		fmt.Printf("%v\t%v\n", real(p), imag(p))
-	}
+    c := gencmplx.New(rand.NewSource(time.Now().UnixNano()), int64(10000))
+    for p := range c {
+        fmt.Printf("%v\t%v\n", real(p), imag(p))
+    }
 }
 ```
 
@@ -201,25 +201,25 @@ $ go run main.go > plot-1.dat
 package main
 
 import (
-	"fmt"
-	"math/cmplx"
-	"math/rand"
-	"time"
+    "fmt"
+    "math/cmplx"
+    "math/rand"
+    "time"
 
-	"github.com/spiegel-im-spiegel/pi/gencmplx"
+    "github.com/spiegel-im-spiegel/pi/gencmplx"
 )
 
 func main() {
-	c := gencmplx.New(rand.NewSource(time.Now().UnixNano()), int64(100000))
-	n := int64(0) // total
-	m := int64(0) // plot in circle
-	for p := range c {
-		n++
-		if cmplx.Abs(p) <= float64(1) {
-			m++
-		}
-	}
-	fmt.Printf("n = %v, m = %v, 4m/n = %v\n", n, m, float64(4*m)/float64(n))
+    c := gencmplx.New(rand.NewSource(time.Now().UnixNano()), int64(100000))
+    n := int64(0) // total
+    m := int64(0) // plot in circle
+    for p := range c {
+        n++
+        if cmplx.Abs(p) <= float64(1) {
+            m++
+        }
+    }
+    fmt.Printf("n = %v, m = %v, 4m/n = %v\n", n, m, float64(4*m)/float64(n))
 }
 ```
 

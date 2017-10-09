@@ -42,44 +42,44 @@ title = "「ズンドコチェック」なるものが流行っているらし�
 package main
 
 import (
-	"fmt"
-	"math/rand"
-	"time"
+    "fmt"
+    "math/rand"
+    "time"
 )
 
 const (
-	zun     = "ズン"
-	doko    = "ドコ"
-	kiyoshi = "キ・ヨ・シ！"
+    zun     = "ズン"
+    doko    = "ドコ"
+    kiyoshi = "キ・ヨ・シ！"
 )
 
 func generate() chan string {
-	ch := make(chan string)
-	go func() {
-		var zundoko = [2]string{zun, doko}
-		rand.Seed(time.Now().UnixNano())
-		for {
-			ch <- zundoko[rand.Intn(2)]
-		}
-	}()
-	return ch
+    ch := make(chan string)
+    go func() {
+        var zundoko = [2]string{zun, doko}
+        rand.Seed(time.Now().UnixNano())
+        for {
+            ch <- zundoko[rand.Intn(2)]
+        }
+    }()
+    return ch
 }
 
 func main() {
-	zundoko := generate()
-	zcount := 0
-	for {
-		zd := <-zundoko
-		fmt.Print(zd)
-		if zd == zun {
-			zcount++
-		} else if zcount >= 4 {
-			break
-		} else {
-			zcount = 0
-		}
-	}
-	fmt.Print(kiyoshi)
+    zundoko := generate()
+    zcount := 0
+    for {
+        zd := <-zundoko
+        fmt.Print(zd)
+        if zd == zun {
+            zcount++
+        } else if zcount >= 4 {
+            break
+        } else {
+            zcount = 0
+        }
+    }
+    fmt.Print(kiyoshi)
 }
 ```
 
@@ -104,23 +104,23 @@ func main() {
 ```go
 //Choirs - zundoko-choirs list
 type Choirs struct {
-	c []string
+    c []string
 }
 
 //Push is append choirs
 func (c *Choirs) Push(s string) {
-	c.c = append(c.c, s) //maybe panic if c is nil.
+    c.c = append(c.c, s) //maybe panic if c is nil.
 }
 
 func (c *Choirs) String() string {
-	if c == nil {
-		return ""
-	}
-	content := make([]byte, 0, 128)
-	for _, s := range c.c {
-		content = append(content, s...)
-	}
-	return string(content)
+    if c == nil {
+        return ""
+    }
+    content := make([]byte, 0, 128)
+    for _, s := range c.c {
+        content = append(content, s...)
+    }
+    return string(content)
 }
 ```
 
@@ -130,35 +130,35 @@ func (c *Choirs) String() string {
 
 ```go
 func generate() chan string {
-	ch := make(chan string)
-	go func() {
-		var zd = [2]string{Zun, Doko}
-		rand.Seed(time.Now().UnixNano())
-		for {
-			ch <- zd[rand.Intn(2)]
-		}
-	}()
-	return ch
+    ch := make(chan string)
+    go func() {
+        var zd = [2]string{Zun, Doko}
+        rand.Seed(time.Now().UnixNano())
+        for {
+            ch <- zd[rand.Intn(2)]
+        }
+    }()
+    return ch
 }
 
 //Run zundoko-choirs
 func Run() *Choirs {
-	zd := generate()
-	c := &Choirs{make([]string, 0)}
-	zcount := 0
-	for {
-		s := <-zd
-		c.Push(s)
-		if s == Zun {
-			zcount++
-		} else if zcount >= 4 {
-			break
-		} else {
-			zcount = 0
-		}
-	}
-	c.Push(Kiyoshi)
-	return c
+    zd := generate()
+    c := &Choirs{make([]string, 0)}
+    zcount := 0
+    for {
+        s := <-zd
+        c.Push(s)
+        if s == Zun {
+            zcount++
+        } else if zcount >= 4 {
+            break
+        } else {
+            zcount = 0
+        }
+    }
+    c.Push(Kiyoshi)
+    return c
 }
 ```
 
@@ -169,14 +169,14 @@ func Run() *Choirs {
 package main
 
 import (
-	"fmt"
+    "fmt"
 
-	"github.com/spiegel-im-spiegel/zundoko"
+    "github.com/spiegel-im-spiegel/zundoko"
 )
 
 func main() {
-	c := zundoko.Run()
-	fmt.Println(c)
+    c := zundoko.Run()
+    fmt.Println(c)
 }
 ```
 
@@ -189,13 +189,13 @@ func main() {
 var matchingPattern = []string{Zun, Zun, Zun, Zun, Doko}
 
 func (c *Choirs) match() bool {
-	if c == nil {
-		return false
-	}
-	if len(c.c) < 5 {
-		return false
-	}
-	return reflect.DeepEqual(c.c[len(c.c)-5:], matchingPattern)
+    if c == nil {
+        return false
+    }
+    if len(c.c) < 5 {
+        return false
+    }
+    return reflect.DeepEqual(c.c[len(c.c)-5:], matchingPattern)
 }
 ```
 
@@ -204,17 +204,17 @@ func (c *Choirs) match() bool {
 ```go
 //Run2 zundoko-choirs (another logic)
 func Run2() *Choirs {
-	zd := generate()
-	c := &Choirs{make([]string, 0)}
-	for {
-		s := <-zd
-		c.Push(s)
-		if c.match() {
-			break
-		}
-	}
-	c.Push(Kiyoshi)
-	return c
+    zd := generate()
+    c := &Choirs{make([]string, 0)}
+    for {
+        s := <-zd
+        c.Push(s)
+        if c.match() {
+            break
+        }
+    }
+    c.Push(Kiyoshi)
+    return c
 }
 ```
 
@@ -229,15 +229,15 @@ package zundoko
 import "testing"
 
 func BenchmarkRun1(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		Run()
-	}
+    for i := 0; i < b.N; i++ {
+        Run()
+    }
 }
 
 func BenchmarkRun2(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		Run2()
-	}
+    for i := 0; i < b.N; i++ {
+        Run2()
+    }
 }
 ```
 
@@ -266,20 +266,20 @@ ok      github.com/spiegel-im-spiegel/zundoko   4.261s
 ```go
 //CountZunDoko returns count of "ZUN" and "DOKO" choirs
 func (c *Choirs) CountZunDoko() (int, int) {
-	z := 0
-	d := 0
-	if c == nil {
-		return z, d
-	}
-	for _, s := range c.c {
-		switch s {
-		case Zun:
-			z++
-		case Doko:
-			d++
-		}
-	}
-	return z, d
+    z := 0
+    d := 0
+    if c == nil {
+        return z, d
+    }
+    for _, s := range c.c {
+        switch s {
+        case Zun:
+            z++
+        case Doko:
+            d++
+        }
+    }
+    return z, d
 }
 ```
 

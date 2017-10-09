@@ -56,11 +56,11 @@ package main
 import "fmt"
 
 func main() {
-	vertex := struct {
-		X int
-		Y int
-	}{X: 1, Y: 2}
-	fmt.Println(vertex)
+    vertex := struct {
+        X int
+        Y int
+    }{X: 1, Y: 2}
+    fmt.Println(vertex)
 }
 ```
 
@@ -81,13 +81,13 @@ package main
 import "fmt"
 
 type Vertex struct {
-	X int
-	Y int
+    X int
+    Y int
 }
 
 func main() {
-	vertex := Vertex{X: 1, Y: 2}
-	fmt.Println(vertex)
+    vertex := Vertex{X: 1, Y: 2}
+    fmt.Println(vertex)
 }
 ```
 
@@ -122,7 +122,7 @@ type Msgs []string
 
 ```go
 func (v Vertex) String() string {
-	return fmt.Sprint("X =", v.X, ", Y =", v.Y)
+    return fmt.Sprint("X =", v.X, ", Y =", v.Y)
 }
 ```
 
@@ -131,7 +131,7 @@ func (v Vertex) String() string {
 
 ```go
 func Vertex.String(v Vertex) string {
-	return fmt.Sprint("X =", v.X, ", Y =", v.Y)
+    return fmt.Sprint("X =", v.X, ", Y =", v.Y)
 }
 ```
 
@@ -144,17 +144,17 @@ package main
 import "fmt"
 
 type Vertex struct {
-	X int
-	Y int
+    X int
+    Y int
 }
 
 func (v Vertex) String() string {
-	return fmt.Sprint("X = ", v.X, ", Y = ", v.Y)
+    return fmt.Sprint("X = ", v.X, ", Y = ", v.Y)
 }
 
 func main() {
-	vertex := Vertex{X: 1, Y: 2}
-	fmt.Println(vertex.String())
+    vertex := Vertex{X: 1, Y: 2}
+    fmt.Println(vertex.String())
 }
 ```
 
@@ -172,15 +172,15 @@ package main
 import "fmt"
 
 func (v struct{ X, Y int }) String() string {
-	return fmt.Sprint("X =", v.X, ", Y =", v.Y)
+    return fmt.Sprint("X =", v.X, ", Y =", v.Y)
 }
 
 func main() {
-	var vertex = struct {
-		X int
-		Y int
-	}{X: 1, Y: 2}
-	fmt.Println(vertex.String())
+    var vertex = struct {
+        X int
+        Y int
+    }{X: 1, Y: 2}
+    fmt.Println(vertex.String())
 }
 ```
 
@@ -223,7 +223,7 @@ invalid receiver type struct { X int; Y int } (struct { X int; Y int } is an unn
 
 ```go
 type error interface {
-	Error() string
+    Error() string
 }
 ```
 
@@ -239,9 +239,9 @@ package os
 
 // PathError records an error and the operation and file path that caused it.
 type PathError struct {
-	Op   string
-	Path string
-	Err  error
+    Op   string
+    Path string
+    Err  error
 }
 
 func (e *PathError) Error() string { return e.Op + " " + e.Path + ": " + e.Err.Error() }
@@ -267,18 +267,18 @@ package io
 
 // Implementations must not retain p.
 type Reader interface {
-	Read(p []byte) (n int, err error)
+    Read(p []byte) (n int, err error)
 }
 
 // Implementations must not retain p.
 type Writer interface {
-	Write(p []byte) (n int, err error)
+    Write(p []byte) (n int, err error)
 }
 
 // ReadWriter is the interface that groups the basic Read and Write methods.
 type ReadWriter interface {
-	Reader
-	Writer
+    Reader
+    Writer
 }
 ```
 
@@ -293,13 +293,13 @@ package bufio
 // ReadWriter stores pointers to a Reader and a Writer.
 // It implements io.ReadWriter.
 type ReadWriter struct {
-	*Reader
-	*Writer
+    *Reader
+    *Writer
 }
 
 // NewReadWriter allocates a new ReadWriter that dispatches to r and w.
 func NewReadWriter(r *Reader, w *Writer) *ReadWriter {
-	return &ReadWriter{r, w}
+    return &ReadWriter{r, w}
 }
 ```
 
@@ -316,30 +316,30 @@ package main
 import "fmt"
 
 type ErrorInfo interface {
-	error
-	Errno() int
+    error
+    Errno() int
 }
 
 type ErrorInfo1 struct{}
 
 func (err *ErrorInfo1) Error() string {
-	return fmt.Sprint("Error Information: ", err.Errno())
+    return fmt.Sprint("Error Information: ", err.Errno())
 }
 
 func (err *ErrorInfo1) Errno() int {
-	return 1
+    return 1
 }
 
 func Action() error {
-	err := &ErrorInfo1{}
-	return err
+    err := &ErrorInfo1{}
+    return err
 }
 
 func main() {
     if err := Action(); err != nil {
-		fmt.Println(err)
+        fmt.Println(err)
         return
-	}
+    }
     fmt.Println("Normal End")
 }
 ```
@@ -357,38 +357,38 @@ package main
 import "fmt"
 
 type ErrorInfo interface {
-	error
-	Errno() int
+    error
+    Errno() int
 }
 
 type ErrorInfo1 struct{}
 
 func (err *ErrorInfo1) Error() string {
-	return fmt.Sprint("Error Information: ", err.Errno())
+    return fmt.Sprint("Error Information: ", err.Errno())
 }
 
 func (err *ErrorInfo1) Errno() int {
-	return 1
+    return 1
 }
 
 type ErrorInfo2 struct {
-	ErrorInfo1
+    ErrorInfo1
 }
 
 func (err *ErrorInfo2) Errno() int {
-	return 2
+    return 2
 }
 
 func Action() error {
-	err := &ErrorInfo2{}
-	return err
+    err := &ErrorInfo2{}
+    return err
 }
 
 func main() {
     if err := Action(); err != nil {
-		fmt.Println(err)
+        fmt.Println(err)
         return
-	}
+    }
     fmt.Println("Normal End")
 }
 ```

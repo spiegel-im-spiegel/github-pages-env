@@ -31,14 +31,14 @@ package main
 import "fmt"
 
 func main() {
-	nihongo := "日本語"
-	size := len(nihongo)
+    nihongo := "日本語"
+    size := len(nihongo)
 
-	fmt.Printf("nihongo = %d bytes :", size)
-	for i := 0; i < size; i++ {
-		fmt.Printf(" %x", nihongo[i])
-	}
-	fmt.Print("\n")
+    fmt.Printf("nihongo = %d bytes :", size)
+    for i := 0; i < size; i++ {
+        fmt.Printf(" %x", nihongo[i])
+    }
+    fmt.Print("\n")
 }
 ```
 
@@ -59,10 +59,10 @@ package main
 import "fmt"
 
 func main() {
-	nihongo := "日本語"
+    nihongo := "日本語"
 
-	fmt.Printf("nihongo = %s\n", nihongo)
-	fmt.Printf("nippon = %s\n", nihongo[:2])
+    fmt.Printf("nihongo = %s\n", nihongo)
+    fmt.Printf("nippon = %s\n", nihongo[:2])
 }
 ```
 
@@ -83,15 +83,15 @@ package main
 import "fmt"
 
 func main() {
-	nihongo := "日本語"
-	nihongoRune := []rune(nihongo)
-	size := len(nihongoRune)
+    nihongo := "日本語"
+    nihongoRune := []rune(nihongo)
+    size := len(nihongoRune)
 
-	fmt.Printf("nihongo = %d characters : ", size)
-	for i := 0; i < size; i++ {
-		fmt.Printf("%#U ", nihongoRune[i])
-	}
-	fmt.Printf("\n")
+    fmt.Printf("nihongo = %d characters : ", size)
+    for i := 0; i < size; i++ {
+        fmt.Printf("%#U ", nihongoRune[i])
+    }
+    fmt.Printf("\n")
 }
 ```
 
@@ -108,11 +108,11 @@ package main
 import "fmt"
 
 func main() {
-	nihongo := "日本語"
+    nihongo := "日本語"
 
-	for pos, runeValue := range nihongo {
-		fmt.Printf("%#U starts at byte position %d\n", runeValue, pos)
-	}
+    for pos, runeValue := range nihongo {
+        fmt.Printf("%#U starts at byte position %d\n", runeValue, pos)
+    }
 }
 ```
 
@@ -132,10 +132,10 @@ package main
 import "fmt"
 
 func main() {
-	nihongo := "日本語"
+    nihongo := "日本語"
 
-	fmt.Printf("nihongo = %s\n", nihongo)
-	fmt.Printf("nippon = %s\n", string([]rune(nihongo)[:2]))
+    fmt.Printf("nihongo = %s\n", nihongo)
+    fmt.Printf("nippon = %s\n", string([]rune(nihongo)[:2]))
 }
 ```
 

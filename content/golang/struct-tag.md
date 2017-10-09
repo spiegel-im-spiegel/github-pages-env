@@ -34,10 +34,10 @@ title = "Struct タグについて"
 
 ```go
 type Server struct {
-	Host      string `elem:"host"`
-	IPAddress string `elem:"ip_address"`
-	Port      int    `elem:"port"`
-	Note      string `elem:"note"`
+    Host      string `elem:"host"`
+    IPAddress string `elem:"ip_address"`
+    Port      int    `elem:"port"`
+    Note      string `elem:"note"`
 }
 ```
 
@@ -48,24 +48,24 @@ type Server struct {
 package main
 
 import (
-	"fmt"
-	"reflect"
+    "fmt"
+    "reflect"
 )
 
 type Server struct {
-	Host      string `elem:"host"`
-	IPAddress string `elem:"ip_address"`
-	Port      int    `elem:"port"`
-	Note      string `elem:"note"`
+    Host      string `elem:"host"`
+    IPAddress string `elem:"ip_address"`
+    Port      int    `elem:"port"`
+    Note      string `elem:"note"`
 }
 
 func main() {
-	s := Server{}
-	t := reflect.TypeOf(s)
-	for i := 0; i < t.NumField(); i++ {
-		field := t.Field(i)
-		fmt.Printf("Name=%s , tag(elem)=%s\n", field.Name, field.Tag.Get("elem"))
-	}
+    s := Server{}
+    t := reflect.TypeOf(s)
+    for i := 0; i < t.NumField(); i++ {
+        field := t.Field(i)
+        fmt.Printf("Name=%s , tag(elem)=%s\n", field.Name, field.Tag.Get("elem"))
+    }
 }
 ```
 
@@ -85,24 +85,24 @@ Name=Note , tag(elem)=note
 package main
 
 import (
-	"encoding/json"
-	"fmt"
+    "encoding/json"
+    "fmt"
 )
 
 type Server struct {
-	Host      string `json:"host"`
-	IPAddress string `json:"ip_address"`
-	Port      int    `json:"port"`
-	Note      string `json:"note"`
+    Host      string `json:"host"`
+    IPAddress string `json:"ip_address"`
+    Port      int    `json:"port"`
+    Note      string `json:"note"`
 }
 
 func main() {
-	s := Server{Host: "localhost", IPAddress: "127.0.0.1", Port: 8080, Note: "Web Application"}
-	j, err := json.MarshalIndent(s, "", "  ")
-	if err != nil {
-		return
-	}
-	fmt.Println(string(j))
+    s := Server{Host: "localhost", IPAddress: "127.0.0.1", Port: 8080, Note: "Web Application"}
+    j, err := json.MarshalIndent(s, "", "  ")
+    if err != nil {
+        return
+    }
+    fmt.Println(string(j))
 }
 ```
 
@@ -126,29 +126,29 @@ func main() {
 package main
 
 import (
-	"encoding/json"
-	"fmt"
+    "encoding/json"
+    "fmt"
 )
 
 type Server struct {
-	Host      string `json:"host"`
-	IPAddress string `json:"ip_address"`
-	Port      int    `json:"port"`
-	Note      string `json:"note"`
+    Host      string `json:"host"`
+    IPAddress string `json:"ip_address"`
+    Port      int    `json:"port"`
+    Note      string `json:"note"`
 }
 
 func main() {
-	svr := []byte(`{
+    svr := []byte(`{
   "host": "localhost",
   "ip_address": "127.0.0.1",
   "port": 8080,
   "note": "Web Application"
 }`)
-	var s Server
-	if err := json.Unmarshal(svr, &s); err != nil {
-		return
-	}
-	fmt.Println(s)
+    var s Server
+    if err := json.Unmarshal(svr, &s); err != nil {
+        return
+    }
+    fmt.Println(s)
 }
 ```
 
@@ -168,10 +168,10 @@ func main() {
 
 ```go
 type Server struct {
-	Host      string `json:"host" toml:"host"`
-	IPAddress string `json:"ip_address" toml:"ip_address"`
-	Port      int    `json:"port" toml:"port"`
-	Note      string `json:"note" toml:"note"`
+    Host      string `json:"host" toml:"host"`
+    IPAddress string `json:"ip_address" toml:"ip_address"`
+    Port      int    `json:"port" toml:"port"`
+    Note      string `json:"note" toml:"note"`
 }
 ```
 
@@ -183,26 +183,26 @@ type Server struct {
 package main
 
 import (
-	"bytes"
-	"fmt"
+    "bytes"
+    "fmt"
 
-	"github.com/BurntSushi/toml"
+    "github.com/BurntSushi/toml"
 )
 
 type Server struct {
-	Host      string `json:"host" toml:"host"`
-	IPAddress string `json:"ip_address" toml:"ip_address"`
-	Port      int    `json:"port" toml:"port"`
-	Note      string `json:"note" toml:"note,omitempty"`
+    Host      string `json:"host" toml:"host"`
+    IPAddress string `json:"ip_address" toml:"ip_address"`
+    Port      int    `json:"port" toml:"port"`
+    Note      string `json:"note" toml:"note,omitempty"`
 }
 
 func main() {
-	s := Server{Host: "localhost", IPAddress: "127.0.0.1", Port: 8080, Note: ""}
-	t := new(bytes.Buffer)
-	if err := toml.NewEncoder(t).Encode(s); err != nil {
-		return
-	}
-	fmt.Println(t.String())
+    s := Server{Host: "localhost", IPAddress: "127.0.0.1", Port: 8080, Note: ""}
+    t := new(bytes.Buffer)
+    if err := toml.NewEncoder(t).Encode(s); err != nil {
+        return
+    }
+    fmt.Println(t.String())
 }
 ```
 
@@ -225,30 +225,30 @@ port = 8080
 package main
 
 import (
-	"fmt"
+    "fmt"
 
-	"github.com/BurntSushi/toml"
+    "github.com/BurntSushi/toml"
 )
 
 type Server struct {
-	Host      string `json:"host" toml:"host"`
-	IPAddress string `json:"ip_address" toml:"ip_address"`
-	Port      int    `json:"port" toml:"port"`
-	Note      string `json:"note" toml:"note,omitempty"`
+    Host      string `json:"host" toml:"host"`
+    IPAddress string `json:"ip_address" toml:"ip_address"`
+    Port      int    `json:"port" toml:"port"`
+    Note      string `json:"note" toml:"note,omitempty"`
 }
 
 func main() {
-	svr := `
+    svr := `
 host = "localhost"
 ip_address = "127.0.0.1"
 port = 8080
 note = "Web Application"
 `
-	var s Server
-	if _, err := toml.Decode(svr, &s); err != nil {
-		return
-	}
-	fmt.Println(s)
+    var s Server
+    if _, err := toml.Decode(svr, &s); err != nil {
+        return
+    }
+    fmt.Println(s)
 }
 ```
 

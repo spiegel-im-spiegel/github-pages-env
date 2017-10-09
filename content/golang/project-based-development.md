@@ -54,36 +54,36 @@ Windows の場合，環境変数 `GOPATH` で指定するフォルダ配下の `
 package main
 
 import (
-	"flag"
-	"fmt"
-	"os"
-	"strconv"
-	"time"
+    "flag"
+    "fmt"
+    "os"
+    "strconv"
+    "time"
 
-	"github.com/spiegel-im-spiegel/astrocalc/modjulian"
+    "github.com/spiegel-im-spiegel/astrocalc/modjulian"
 )
 
 func main() {
-	//引数のチェック
-	flag.Parse()
-	argsStr := flag.Args()
-	if len(argsStr) < 3 {
-		fmt.Fprintln(os.Stderr, "年月日を指定してください")
-		return
-	}
-	args := make([]int, 3)
-	for i := 0; i < 3; i++ {
-		num, err := strconv.Atoi(argsStr[i])
-		if err != nil {
-			fmt.Fprintln(os.Stderr, err)
-			return
-		} else {
-			args[i] = num
-		}
-	}
-	tm := time.Date(args[0], time.Month(args[1]), args[2], 0, 0, 0, 0, time.UTC)
-	fmt.Printf("%v\n", tm)
-	fmt.Printf("MJD = %d日\n", modjulian.DayNumber(tm))
+    //引数のチェック
+    flag.Parse()
+    argsStr := flag.Args()
+    if len(argsStr) < 3 {
+        fmt.Fprintln(os.Stderr, "年月日を指定してください")
+        return
+    }
+    args := make([]int, 3)
+    for i := 0; i < 3; i++ {
+        num, err := strconv.Atoi(argsStr[i])
+        if err != nil {
+            fmt.Fprintln(os.Stderr, err)
+            return
+        } else {
+            args[i] = num
+        }
+    }
+    tm := time.Date(args[0], time.Month(args[1]), args[2], 0, 0, 0, 0, time.UTC)
+    fmt.Printf("%v\n", tm)
+    fmt.Printf("MJD = %d日\n", modjulian.DayNumber(tm))
 }
 ```
 
@@ -153,16 +153,16 @@ C:\WORKSPACE\GBDEMO
 
 ```json
 {
-	"version": 0,
-	"dependencies": [
-		{
-			"importpath": "github.com/spiegel-im-spiegel/astrocalc/modjulian",
-			"repository": "https://github.com/spiegel-im-spiegel/astrocalc",
-			"revision": "c9f5fb495e67b868a2b3f0e16c38282095fe5033",
-			"branch": "master",
-			"path": "/modjulian"
-		}
-	]
+    "version": 0,
+    "dependencies": [
+        {
+            "importpath": "github.com/spiegel-im-spiegel/astrocalc/modjulian",
+            "repository": "https://github.com/spiegel-im-spiegel/astrocalc",
+            "revision": "c9f5fb495e67b868a2b3f0e16c38282095fe5033",
+            "branch": "master",
+            "path": "/modjulian"
+        }
+    ]
 }
 ```
 

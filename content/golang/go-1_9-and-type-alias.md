@@ -32,19 +32,19 @@ tags        = [ "programming", "language", "golang", "type", "refactoring" ]
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 type Num1 int
 
 func (n1 Num1) Add(n2 Num1) Num1 {
-	return n1 + n2
+    return n1 + n2
 }
 
 func main() {
-	n1 := Num1(1)
-	n2 := Num1(2)
-	fmt.Println(n1.Add(n2))
+    n1 := Num1(1)
+    n2 := Num1(2)
+    fmt.Println(n1.Add(n2))
 }
 ```
 
@@ -55,21 +55,21 @@ func main() {
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 type Num1 int
 
 func (n1 Num1) Add(n2 Num1) Num1 {
-	return n1 + n2
+    return n1 + n2
 }
 
 type Num2 Num1
 
 func main() {
-	n1 := Num2(1)
-	n2 := Num2(2)
-	fmt.Println(n1.Add(n2))
+    n1 := Num2(1)
+    n2 := Num2(2)
+    fmt.Println(n1.Add(n2))
 }
 ```
 
@@ -91,21 +91,21 @@ n1.Add undefined (type Num2 has no field or method Add)
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 type Num1 int
 
 func (n1 Num1) Add(n2 Num1) Num1 {
-	return n1 + n2
+    return n1 + n2
 }
 
 type Num2 = Num1
 
 func main() {
-	n1 := Num2(1)
-	n2 := Num2(2)
-	fmt.Println(n1.Add(n2))
+    n1 := Num2(1)
+    n2 := Num2(2)
+    fmt.Println(n1.Add(n2))
 }
 ```
 

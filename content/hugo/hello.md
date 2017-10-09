@@ -2,7 +2,7 @@
 title       = "インストールから Hello World まで"
 description = "自サイトのブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。ここではその時のメモを公開する。"
 date        = "2015-09-11T17:58:23+09:00"
-update      = "2017-03-14T11:26:54+09:00"
+update      = "2017-10-09T22:12:13+09:00"
 tags        = [ "hugo", "install", "helloworld" ]
 draft = false
 
@@ -32,7 +32,7 @@ flattr    = "spiegel"
 
 なお [Hugo] では非常に多くのパッケージを利用していて，取得の際には git の他に Mercurial が必要である（参照： 「[はじめての Go 言語 (on Windows) その3](http://qiita.com/spiegel-im-spiegel/items/a52a47942fd3946bb583)」）。
 
-```
+```text
 C:\workspace>mkdir hugo
 
 C:\workspace>cd hugo
@@ -143,7 +143,7 @@ Hugo Static Site Generator v0.15-DEV BuildDate: 2015-09-05T13:45:44+09:00
 
 [Hugo] 用の作業環境を作るには `hugo new site` コマンドを起動する。
 
-```
+```text
 C:>hugo new site C:\hugo-env\www
 
 C:>cd C:\hugo-env\www
@@ -161,7 +161,7 @@ C:\HUGO-ENV\WWW
 
 ここで `config.toml` はサイト設定用のファイルである。初期値は以下のようになっている。
 
-```toml:config.toml
+```ini
 baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "en-us"
 title = "My New Hugo Site"
@@ -174,7 +174,7 @@ title = "My New Hugo Site"
 この中で必須なのは baseurl のみで，これがないとビルドエラーになる（ただし `--baseUrl` オプションを付ければ回避できる）。
 今回は `config.toml` を以下のようにセットする。
 
-```toml:config.toml
+```ini
 baseurl = "http://hello.example.com/"
 languageCode = "ja"
 title = "Hello World!"
@@ -182,7 +182,7 @@ title = "Hello World!"
 
 では，いきなりビルドしてみよう（えー）
 
-```
+```text
 C:\hugo-env\www>hugo
 0 draft content
 0 future content
@@ -214,7 +214,7 @@ C:\HUGO-ENV\WWW
 
 `index.xml` は feed 用のファイルで RSS 2.0 形式で書かれている（何故か atom の語彙を使っている）。
 
-```xml:index.xml
+```xml
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -231,7 +231,7 @@ C:\HUGO-ENV\WWW
 
 `sitemap.xml` は文字通りサイトマップ記述ファイル（SEO 用？）。
 
-```xml:sitemap.xml
+```xml
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
@@ -247,7 +247,7 @@ C:\HUGO-ENV\WWW
 
 [Hugo] では `hugo server` コマンドによりサーバモードで起動する。
 
-```
+```text
 C:\hugo-env\www>hugo server
 0 draft content
 0 future content
@@ -264,7 +264,7 @@ Press Ctrl+C to stop
 この状態で `http://127.0.0.1:1313/` をブラウザで開けばいいのだが，現時点では `index.html` が空なので何も表示されない。
 ちなみに，この状態の `index.xml` は
 
-```xml:index.xml
+```xml
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -287,7 +287,7 @@ deploy する前には必ずビルドしよう（またはビルド結果の出�
 
 個人で作業する場合はこれで問題ないが，デバッグ用サーバを共有する場合には `http://localhost:1313/` では都合が悪いので `--bind` および `--port` オプションを付加する。
 
-```
+```text
 C:\hugo-env\www>hugo server --bind="hostname" --port=8080 --watch
 0 draft content
 0 future content
@@ -312,7 +312,7 @@ Press Ctrl+C to stop
 
 それじゃあ，早速テンプレートを組んでみる。
 
-```html:layouts/index.html
+```html
 <!DOCTYPE html>
 {{ with .Site.LanguageCode }}<html lang="{{ . }}">{{ else }}<html>{{ end }}
 <head>
@@ -342,7 +342,7 @@ Press Ctrl+C to stop
 
 これをビルドした結果はこうなる。
 
-```html:public/index.html
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -358,7 +358,7 @@ Press Ctrl+C to stop
 
 ちなみに `config.toml` で `baseurl` 以外を削除してビルドするとこうなる。
 
-```html:public/index.html
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -383,7 +383,7 @@ Press Ctrl+C to stop
 固定の内容なら `static` フォルダ直下に `404.html` を置く手もある（[Hugo] では `static` フォルダ以下のファイルはそのままコピーされるが [Hugo] のコントロール外となる）。
 また， `layouts` フォルダ直下にテンプレートを置く手もある。たとえばこんな感じ。
 
-```html:layouts/404.html
+```html
 <!DOCTYPE html>
 {{ with .Site.LanguageCode }}<html lang="{{ . }}">{{ else }}<html>{{ end }}
 <head>
@@ -397,7 +397,7 @@ Press Ctrl+C to stop
 
 これをビルドするとこんな感じになる。
 
-```html:public/404.html
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -415,19 +415,18 @@ Press Ctrl+C to stop
 [Hugo] では今どきの流行にのっとって Markdown 形式のファイルを入力ファイルにしている。
 自前でファイルを用意してもよいが，新規に作成するなら `hugo new` コマンドで作成するのがよいだろう。
 
-```
+```text
 C:\hugo-env\www>hugo new hello.md
 C:\hugo-env\www\content\hello.md created
 ```
 
 作成されたファイルを見てみると
 
-```markdown:content\hello.md
+```markdown
 +++
 date = "2015-09-05T16:40:41+09:00"
 draft = true
 title = "hello"
-
 +++
 ```
 
@@ -438,7 +437,7 @@ title = "hello"
 
 このファイルに記事を入力する。
 
-```markdown::content\hello.md
+```markdown
 +++
 date = "2015-09-05T16:40:41+09:00"
 draft = false
@@ -454,7 +453,7 @@ title = "Hello!"
 
 草稿（`draft`）状態の解除は手動でもいいのだが，`hugo undraft` コマンドを使うてもある。
 
-```
+```text
 C:\hugo-env\www>hugo undraft content/hello.md
 ```
 
@@ -462,7 +461,7 @@ C:\hugo-env\www>hugo undraft content/hello.md
 
 では，ここでもいきなりビルドしてみる（えー）
 
-```
+```text
 C:\hugo-env\www>hugo
 0 draft content
 0 future content
@@ -507,7 +506,7 @@ C:\HUGO-ENV\WWW
 
 それじゃあ，早速テンプレートを組んでみる。
 
-```html:layouts/_default/single.html
+```html
 <!DOCTYPE html>
 {{ with .Site.LanguageCode }}<html lang="{{ . }}">{{ else }}<html>{{ end }}
 <head>
@@ -524,7 +523,7 @@ C:\HUGO-ENV\WWW
 `{{ .Title }}` には（今回は）記事のタイトルが入る。
 `{{ .Content }}` は実際の記事の中身である。これでビルドすると
 
-```html:public/hello/index.html
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -542,7 +541,7 @@ C:\HUGO-ENV\WWW
 となる。
 Feed はこんな感じ。
 
-```xml:index.xml
+```xml
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -570,7 +569,7 @@ Feed はこんな感じ。
 
 ちなみに front matter をまるっと削除してビルドすると
 
-```html:public/hello/index.html
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -585,7 +584,7 @@ Feed はこんな感じ。
 <html>
 ```
 
-```xml:index.xml
+```xml
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -618,7 +617,7 @@ Feed はこんな感じ。
 ついでなので `index.html` に記事の一覧を表示するようにしよう。
 テンプレートはこんな感じで書く。
 
-```html:layouts/index.html
+```html
 <!DOCTYPE html>
 {{ with .Site.LanguageCode }}<html lang="{{ . }}">{{ else }}<html>{{ end }}
 <head>
@@ -642,7 +641,7 @@ Feed はこんな感じ。
 これで最新の15記事を列挙できる。
 で，ビルド結果はこんな感じ。
 
-```html:public/index.html
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -669,7 +668,7 @@ Feed はこんな感じ。
 
 というわけで，上で作成した `hello/index.html` を `hello2.html` として `content` フォルダに突っ込んでみた。
 
-```
+```text
 C:\hugo-env\www>hugo
 0 draft content
 0 future content
@@ -715,7 +714,7 @@ C:\HUGO-ENV\WWW
 `hello2/index.html` に変換されている。
 ルートの `index.html` ファイルはどうなっているだろう。
 
-```html:public/index.html
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -742,7 +741,7 @@ C:\HUGO-ENV\WWW
 残念な結果に。
 でもこれってもしかして front matter つけりゃいいのか。
 
-```markdown:content\hello2.html
+```html
 +++
 date = "2015-09-05T18:00:00+09:00"
 draft = false
@@ -765,7 +764,7 @@ title = "Hello! Part 2"
 
 んで，ビルドしてみる。
 
-```html:public/index.html
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -778,9 +777,9 @@ title = "Hello! Part 2"
 <h2>What's New</h2>
 <ul style="list-style:none;">
 
-	<li><a href="http://hello.example.com/hello2/">Hello! Part 2</a> (<time>2015-09-05</time>)</li>
+    <li><a href="http://hello.example.com/hello2/">Hello! Part 2</a> (<time>2015-09-05</time>)</li>
 
-	<li><a href="http://hello.example.com/hello/">Hello!</a> (<time>2015-09-05</time>)</li>
+    <li><a href="http://hello.example.com/hello/">Hello!</a> (<time>2015-09-05</time>)</li>
 
 </ul>
 
@@ -790,7 +789,7 @@ title = "Hello! Part 2"
 
 おおお！
 
-```html:public/hello2/index.html
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -819,7 +818,7 @@ title = "Hello! Part 2"
 おおう orz なんてこったい。
 つまり，元の HTML ファイルからヘッダ等の要素を抜いて  front matter を付加すれば見た目も保持できて [Hugo] からも Controllable な状態になるってことか？
 
-```markdown:content\hello2.html
+```html
 +++
 date = "2015-09-05T18:00:00+09:00"
 draft = false
@@ -831,7 +830,7 @@ title = "Hello! Part 2"
 
 これでビルドしてみると
 
-```html:public/hello2/index.html
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>

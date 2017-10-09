@@ -26,7 +26,7 @@ title = "Template の部品化"
 
 [前回]予告した通り，拙作の Theme [spiegel-im-spiegel/hugo-theme-text] を導入する。
 
-```
+```text
 C:\hugo-env\www>git clone https://github.com/spiegel-im-spiegel/hugo-theme-text.git themes/hugo-theme-text
 Cloning into 'themes/hugo-theme-text'...
 remote: Counting objects: 174, done.
@@ -40,7 +40,7 @@ Checking connectivity... done.
 
 作業環境が git 管理下にある場合は submodule として導入するとよい。
 
-```
+```text
 C:\hugo-env\www>git submodule add https://github.com/spiegel-im-spiegel/hugo-theme-text.git themes/hugo-theme-text
 Cloning into 'themes/hugo-theme-text'...
 remote: Counting objects: 282, done.
@@ -56,7 +56,7 @@ Checking connectivity... done.
 
 ではビルド。
 
-```
+```text
 C:\hugo-env\www>hugo --theme="hugo-theme-text"
 0 draft content
 0 future content
@@ -103,10 +103,10 @@ in 21 ms
 <article itemscope itemtype='http://schema.org/Blog' itemref='maker'>
 <h2 itemprop='name'>All Entries</h2>
 <ul style="list-style:none;"><li itemprop='blogPost' itemscope itemtype='http://schema.org/BlogPosting'>
-	[<a href="/practice">practice</a>] <a href="http://hello.example.com/practice/hello/" itemprop='url'><strong itemprop='name'>Hello!</strong></a>
-	<span style="font-size:smaller;">(<time>2015-09-05</time>)
-	 #<a href="/tags/hello">hello</a> #<a href="/tags/world">world</a>
-	</span>
+    [<a href="/practice">practice</a>] <a href="http://hello.example.com/practice/hello/" itemprop='url'><strong itemprop='name'>Hello!</strong></a>
+    <span style="font-size:smaller;">(<time>2015-09-05</time>)
+     #<a href="/tags/hello">hello</a> #<a href="/tags/world">world</a>
+    </span>
 </li>
 </ul>
 </article>
@@ -165,7 +165,7 @@ in 21 ms
 Partial template を格納する場所は決まっている。
 では， [spiegel-im-spiegel/hugo-theme-text] の構成を見てみよう。
 
-```
+```text
 C:\hugo-env\www>tree /f themes\hugo-theme-text
 C:\HUGO-ENV\WWW\THEMES\HUGO-THEME-TEXT
 │  LICENSE

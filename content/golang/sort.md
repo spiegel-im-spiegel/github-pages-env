@@ -43,20 +43,20 @@ tags = ["golang", "programming", "sort"]
 package main
 
 import (
-	"fmt"
-	"sort"
+    "fmt"
+    "sort"
 )
 
 func main() {
-	fset := []float64{0.055, 0.815, 1.0, 0.107}
-	for _, f := range fset {
-		fmt.Printf("%f ", f)
-	}
-	fmt.Print("\n")
-	sort.Float64s(fset)
-	for _, f := range fset {
-		fmt.Printf("%f ", f)
-	}
+    fset := []float64{0.055, 0.815, 1.0, 0.107}
+    for _, f := range fset {
+        fmt.Printf("%f ", f)
+    }
+    fmt.Print("\n")
+    sort.Float64s(fset)
+    for _, f := range fset {
+        fmt.Printf("%f ", f)
+    }
 }
 ```
 
@@ -75,20 +75,20 @@ $ go run sort1.go
 package main
 
 import (
-	"fmt"
-	"sort"
+    "fmt"
+    "sort"
 )
 
 func main() {
-	fset := []float64{0.055, 0.815, 1.0, 0.107}
-	for _, f := range fset {
-		fmt.Printf("%f ", f)
-	}
-	fmt.Print("\n")
+    fset := []float64{0.055, 0.815, 1.0, 0.107}
+    for _, f := range fset {
+        fmt.Printf("%f ", f)
+    }
+    fmt.Print("\n")
     sort.Sort(sort.Reverse(sort.Float64Slice(fset)))
-	for _, f := range fset {
-		fmt.Printf("%f ", f)
-	}
+    for _, f := range fset {
+        fmt.Printf("%f ", f)
+    }
 }
 ```
 
@@ -122,13 +122,13 @@ func Float64s(a []float64) { Sort(Float64Slice(a)) }
 // sorted by the routines in this package. The methods require that the
 // elements of the collection be enumerated by an integer index.
 type Interface interface {
-	// Len is the number of elements in the collection.
-	Len() int
-	// Less reports whether the element with
-	// index i should sort before the element with index j.
-	Less(i, j int) bool
-	// Swap swaps the elements with indexes i and j.
-	Swap(i, j int)
+    // Len is the number of elements in the collection.
+    Len() int
+    // Less reports whether the element with
+    // index i should sort before the element with index j.
+    Less(i, j int) bool
+    // Swap swaps the elements with indexes i and j.
+    Swap(i, j int)
 }
 ```
 
@@ -140,16 +140,16 @@ type Interface interface {
 ```go
 // A Planet defines the properties of a solar system object.
 type Planet struct {
-	Name     string
-	Mass     float64
-	Distance float64
+    Name     string
+    Mass     float64
+    Distance float64
 }
 
 var planets = []Planet{
-	{"Mercury", 0.055, 0.4},
-	{"Venus", 0.815, 0.7},
-	{"Earth", 1.0, 1.0},
-	{"Mars", 0.107, 1.5},
+    {"Mercury", 0.055, 0.4},
+    {"Venus", 0.815, 0.7},
+    {"Earth", 1.0, 1.0},
+    {"Mars", 0.107, 1.5},
 }
 ```
 
@@ -174,19 +174,19 @@ func (a ByMass) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
 package main
 
 import (
-	"fmt"
-	"sort"
+    "fmt"
+    "sort"
 )
 
 // A Planet defines the properties of a solar system object.
 type Planet struct {
-	Name     string
-	Mass     float64
-	Distance float64
+    Name     string
+    Mass     float64
+    Distance float64
 }
 
 func (p Planet) String() string {
-	return p.Name
+    return p.Name
 }
 
 // ByMass implements sort.Interface for []Planet based on the Mass field.
@@ -197,21 +197,21 @@ func (a ByMass) Less(i, j int) bool { return a[i].Mass < a[j].Mass }
 func (a ByMass) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
 
 func main() {
-	planets := []Planet{
-		{"Mercury", 0.055, 0.4},
-		{"Venus", 0.815, 0.7},
-		{"Earth", 1.0, 1.0},
-		{"Mars", 0.107, 1.5},
-	}
+    planets := []Planet{
+        {"Mercury", 0.055, 0.4},
+        {"Venus", 0.815, 0.7},
+        {"Earth", 1.0, 1.0},
+        {"Mars", 0.107, 1.5},
+    }
 
-	for _, p := range planets {
-		fmt.Printf("%v ", p)
-	}
-	fmt.Print("\n")
-	sort.Sort(ByMass(planets))
-	for _, p := range planets {
-		fmt.Printf("%v ", p)
-	}
+    for _, p := range planets {
+        fmt.Printf("%v ", p)
+    }
+    fmt.Print("\n")
+    sort.Sort(ByMass(planets))
+    for _, p := range planets {
+        fmt.Printf("%v ", p)
+    }
 }
 ```
 
@@ -238,39 +238,39 @@ func Slice(slice interface{}, less func(i, j int) bool)
 package main
 
 import (
-	"fmt"
-	"sort"
+    "fmt"
+    "sort"
 )
 
 // A Planet defines the properties of a solar system object.
 type Planet struct {
-	Name     string
-	Mass     float64
-	Distance float64
+    Name     string
+    Mass     float64
+    Distance float64
 }
 
 func (p Planet) String() string {
-	return p.Name
+    return p.Name
 }
 
 func main() {
-	planets := []Planet{
-		{"Mercury", 0.055, 0.4},
-		{"Venus", 0.815, 0.7},
-		{"Earth", 1.0, 1.0},
-		{"Mars", 0.107, 1.5},
-	}
+    planets := []Planet{
+        {"Mercury", 0.055, 0.4},
+        {"Venus", 0.815, 0.7},
+        {"Earth", 1.0, 1.0},
+        {"Mars", 0.107, 1.5},
+    }
 
-	for _, p := range planets {
-		fmt.Printf("%v ", p)
-	}
-	fmt.Print("\n")
-	sort.Slice(planets, func(i, j int) bool {
-		return planets[i].Mass < planets[j].Mass
-	})
-	for _, p := range planets {
-		fmt.Printf("%v ", p)
-	}
+    for _, p := range planets {
+        fmt.Printf("%v ", p)
+    }
+    fmt.Print("\n")
+    sort.Slice(planets, func(i, j int) bool {
+        return planets[i].Mass < planets[j].Mass
+    })
+    for _, p := range planets {
+        fmt.Printf("%v ", p)
+    }
 }
 ```
 
@@ -295,19 +295,19 @@ Mercury Mars Venus Earth
 // maxDepth returns a threshold at which quicksort should switch
 // to heapsort. It returns 2*ceil(lg(n+1)).
 func maxDepth(n int) int {
-	var depth int
-	for i := n; i > 0; i >>= 1 {
-		depth++
-	}
-	return depth * 2
+    var depth int
+    for i := n; i > 0; i >>= 1 {
+        depth++
+    }
+    return depth * 2
 }
 
 // lessSwap is a pair of Less and Swap function for use with the
 // auto-generated func-optimized variant of sort.go in
 // zfuncversion.go.
 type lessSwap struct {
-	Less func(i, j int) bool
-	Swap func(i, j int)
+    Less func(i, j int) bool
+    Swap func(i, j int)
 }
 
 // Slice sorts the provided slice given the provided less function.
@@ -317,10 +317,10 @@ type lessSwap struct {
 //
 // The function panics if the provided interface is not a slice.
 func Slice(slice interface{}, less func(i, j int) bool) {
-	rv := reflect.ValueOf(slice)
-	swap := reflect.Swapper(slice)
-	length := rv.Len()
-	quickSort_func(lessSwap{less, swap}, 0, length, maxDepth(length))
+    rv := reflect.ValueOf(slice)
+    swap := reflect.Swapper(slice)
+    length := rv.Len()
+    quickSort_func(lessSwap{less, swap}, 0, length, maxDepth(length))
 }
 ```
 [`reflect`].`ValueOf()` 関数は [`reflect`].`Value` を取得する関数だ[^rf1]。
@@ -332,15 +332,15 @@ func Slice(slice interface{}, less func(i, j int) bool) {
 package main
 
 import (
-	"fmt"
-	"reflect"
+    "fmt"
+    "reflect"
 )
 
 func main() {
-	s := []int{1, 2, 3}
-	fmt.Println(s) // [1 2 3]
-	reflect.Swapper(s)(0, 2)
-	fmt.Println(s) // [3 2 1]
+    s := []int{1, 2, 3}
+    fmt.Println(s) // [1 2 3]
+    reflect.Swapper(s)(0, 2)
+    fmt.Println(s) // [3 2 1]
 }
 ```
 

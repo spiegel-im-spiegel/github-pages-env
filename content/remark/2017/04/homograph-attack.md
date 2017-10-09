@@ -31,13 +31,13 @@ package main
 import "fmt"
 
 func main() {
-	for _, value := range "apple" {
-		fmt.Printf("%#U\n", value)
-	}
-	fmt.Println()
-	for _, value := range "аррӏе" {
-		fmt.Printf("%#U\n", value)
-	}
+    for _, value := range "apple" {
+        fmt.Printf("%#U\n", value)
+    }
+    fmt.Println()
+    for _, value := range "аррӏе" {
+        fmt.Printf("%#U\n", value)
+    }
 }
 ```
 

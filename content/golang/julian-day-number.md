@@ -53,15 +53,15 @@ title = "「ユリウス日」で遊ぶ"
 <blockquote>
 \begin{aligned}
     y   & = Y + \left\lfloor \frac{M - 3}{12} \right\rfloor \\
-	m   & = \left( 12 + \left( M - 3 \right) \right) \bmod 12 \\
-	d   & = D - 1 \\
+    m   & = \left( 12 + \left( M - 3 \right) \right) \bmod 12 \\
+    d   & = D - 1 \\
     MJD & = \left\lfloor 365.25y \right\rfloor + \left\lfloor \frac{y}{400} \right\rfloor - \left\lfloor \frac{y}{100} \right\rfloor + \left\lfloor 30.60m + 0.5 \right\rfloor + d - 678881 \\
     JD  & = MJD + 2400000.5
 \end{aligned}
 </blockquote>
 
 
-でユリウス日 $JD $ を求めることができます[^3] [^4] [^5]。
+でユリウス日 $JD$ を求めることができます[^3] [^4] [^5]。
 
 [^3]: この式は「Fliegel の公式」などと呼ばれることがありますが，厳密には Fliegel の公式を電卓向けに分かりやすく展開したもので，初等天文学の教科書などでよく登場する式です。
 [^4]: 月の値から2を引くのは暦計算の基本的なテクニックだったります（今回の式では月を0基点にするために3を引いてますが）。現在の1月（Ianuarius または January）を年初としたのはユリウス暦以降からで，それまでは現在の3月（Martius または March）が年初でした。だから2月だけちょっと特殊なんですねぇ。
@@ -77,10 +77,10 @@ $ \left\lfloor x \right\rfloor $ は床関数と呼ばれるもので「実数 $
 
 <blockquote>
 \begin{aligned}
-	\left\lfloor 1.0 \right\rfloor & = 1 \\
-	\left\lfloor 0.7 \right\rfloor & = 0 \\
-	\left\lfloor -0.5 \right\rfloor & = -1 \\
-	\left\lfloor -2.0 \right\rfloor & = -2 \\
+    \left\lfloor 1.0 \right\rfloor & = 1 \\
+    \left\lfloor 0.7 \right\rfloor & = 0 \\
+    \left\lfloor -0.5 \right\rfloor & = -1 \\
+    \left\lfloor -2.0 \right\rfloor & = -2 \\
 \end{aligned}
 </blockquote>
 
@@ -92,15 +92,15 @@ $ \left\lfloor x \right\rfloor $ は床関数と呼ばれるもので「実数 $
 package main
 
 import (
-	"fmt"
-	"math"
+    "fmt"
+    "math"
 )
 
 func main() {
-	fmt.Printf("[1.0] = %v\n", math.Floor(1.0))
-	fmt.Printf("[0.7] = %v\n", math.Floor(0.7))
-	fmt.Printf("[-0.5] = %v\n", math.Floor(-0.5))
-	fmt.Printf("[-2.0] = %v\n", math.Floor(-2.0))
+    fmt.Printf("[1.0] = %v\n", math.Floor(1.0))
+    fmt.Printf("[0.7] = %v\n", math.Floor(0.7))
+    fmt.Printf("[-0.5] = %v\n", math.Floor(-0.5))
+    fmt.Printf("[-2.0] = %v\n", math.Floor(-2.0))
 }
 ```
 
@@ -118,27 +118,27 @@ C:>go run floor.go
 package main
 
 import (
-	"fmt"
-	"math"
+    "fmt"
+    "math"
 )
 
 func main() {
-	year := 2015
-	month := 1
-	day := 1
-	fmt.Printf("%v年%v月%v日\n\n", year, month, day)
+    year := 2015
+    month := 1
+    day := 1
+    fmt.Printf("%v年%v月%v日\n\n", year, month, day)
 
-	mm := float64(month - 3)
-	y := float64(year) + math.Floor(mm/12.0)
-	m := math.Mod(12.0+mm, 12.0)
-	d := float64(day - 1)
-	fmt.Printf("y = %f\n", y)
-	fmt.Printf("m = %f\n", m)
-	fmt.Printf("d = %f\n\n", d)
+    mm := float64(month - 3)
+    y := float64(year) + math.Floor(mm/12.0)
+    m := math.Mod(12.0+mm, 12.0)
+    d := float64(day - 1)
+    fmt.Printf("y = %f\n", y)
+    fmt.Printf("m = %f\n", m)
+    fmt.Printf("d = %f\n\n", d)
 
-	mjd := math.Floor(365.25*y) + math.Floor(y/400.0) - math.Floor(y/100.0) + math.Floor(30.60*m+0.5) + d - 678881.0
-	fmt.Printf("MJD = %f日\n", mjd)
-	fmt.Printf("JD = %f日\n", mjd+2400000.5)
+    mjd := math.Floor(365.25*y) + math.Floor(y/400.0) - math.Floor(y/100.0) + math.Floor(30.60*m+0.5) + d - 678881.0
+    fmt.Printf("MJD = %f日\n", mjd)
+    fmt.Printf("JD = %f日\n", mjd+2400000.5)
 }
 ```
 
@@ -165,28 +165,28 @@ package main
 import "fmt"
 
 func main() {
-	year := 2015
-	month := 1
-	day := 1
-	fmt.Printf("%v年%v月%v日\n\n", year, month, day)
+    year := 2015
+    month := 1
+    day := 1
+    fmt.Printf("%v年%v月%v日\n\n", year, month, day)
 
-	y := 1
-	m := 1
-	if month < 3 {
-		y = year - 1
-		m = month + 9
-	} else {
-		y = year
-		m = month - 3
-	}
-	d := day - 1
-	fmt.Printf("y = %d\n", y)
-	fmt.Printf("m = %d\n", m)
-	fmt.Printf("d = %d\n\n", d)
+    y := 1
+    m := 1
+    if month < 3 {
+        y = year - 1
+        m = month + 9
+    } else {
+        y = year
+        m = month - 3
+    }
+    d := day - 1
+    fmt.Printf("y = %d\n", y)
+    fmt.Printf("m = %d\n", m)
+    fmt.Printf("d = %d\n\n", d)
 
-	mjd := (1461*y)/4 + y/400 - y/100 + (153*m+2)/5 + d - 678881
-	fmt.Printf("MJD = %d日\n", mjd)
-	fmt.Printf("JD = %f日\n", float64(mjd)+2400000.5)
+    mjd := (1461*y)/4 + y/400 - y/100 + (153*m+2)/5 + d - 678881
+    fmt.Printf("MJD = %d日\n", mjd)
+    fmt.Printf("JD = %f日\n", float64(mjd)+2400000.5)
 }
 ```
 
@@ -211,48 +211,48 @@ JD = 2457023.500000日
 package main
 
 import (
-	"flag"
-	"fmt"
+    "flag"
+    "fmt"
     "os"
-	"strconv"
+    "strconv"
 )
 
 func main() {
-	//引数のチェック
-	flag.Parse()
-	argsStr := flag.Args()
-	if len(argsStr) < 3 {
-		fmt.Fprintln(os.Stderr, "年月日を指定してください")
-		return
-	}
-	args := make([]int64, 3)
-	for i := 0; i < 3; i++ {
-		num, err := strconv.ParseInt(argsStr[i], 10, 64)
-		if err != nil {
-			fmt.Fprintln(os.Stderr, err)
-			return
-		} else {
-			args[i] = num
-		}
-	}
-	fmt.Printf("%v年%v月%v日\n\n", args[0], args[1], args[2])
+    //引数のチェック
+    flag.Parse()
+    argsStr := flag.Args()
+    if len(argsStr) < 3 {
+        fmt.Fprintln(os.Stderr, "年月日を指定してください")
+        return
+    }
+    args := make([]int64, 3)
+    for i := 0; i < 3; i++ {
+        num, err := strconv.ParseInt(argsStr[i], 10, 64)
+        if err != nil {
+            fmt.Fprintln(os.Stderr, err)
+            return
+        } else {
+            args[i] = num
+        }
+    }
+    fmt.Printf("%v年%v月%v日\n\n", args[0], args[1], args[2])
 
-	y := args[0]
-	m := args[1]
-	if m < 3 {
-		y -= 1
-		m += 9
-	} else {
-		m -= 3
-	}
-	d := args[2] - 1
-	fmt.Printf("y = %d\n", y)
-	fmt.Printf("m = %d\n", m)
-	fmt.Printf("d = %d\n\n", d)
+    y := args[0]
+    m := args[1]
+    if m < 3 {
+        y -= 1
+        m += 9
+    } else {
+        m -= 3
+    }
+    d := args[2] - 1
+    fmt.Printf("y = %d\n", y)
+    fmt.Printf("m = %d\n", m)
+    fmt.Printf("d = %d\n\n", d)
 
-	mjd := (1461*y)/4 + y/400 - y/100 + (153*m+2)/5 + d - 678881
-	fmt.Printf("MJD = %d日\n", mjd)
-	fmt.Printf("JD = %f日\n", float64(mjd)+2400000.5)
+    mjd := (1461*y)/4 + y/400 - y/100 + (153*m+2)/5 + d - 678881
+    fmt.Printf("MJD = %d日\n", mjd)
+    fmt.Printf("JD = %f日\n", float64(mjd)+2400000.5)
 }
 ```
 
@@ -300,27 +300,27 @@ JD = 2440587.500000日
 package main
 
 import (
-	"fmt"
-	"time"
+    "fmt"
+    "time"
 )
 
 func main() {
-	const onday = int64(86400)   //seconds
-	const baseDay = int64(40587) //Modified Julian Date at January 1, 1970
+    const onday = int64(86400)   //seconds
+    const baseDay = int64(40587) //Modified Julian Date at January 1, 1970
 
-	year := 2015
-	month := 1
-	day := 1
-	fmt.Printf("%v年%v月%v日\n\n", year, month, day)
+    year := 2015
+    month := 1
+    day := 1
+    fmt.Printf("%v年%v月%v日\n\n", year, month, day)
 
-	tm := time.Date(year, time.Month(month), day, 0, 0, 0, 0, time.UTC)
-	fmt.Printf("%v\n", tm)
-	ut := tm.Unix()
-	fmt.Printf("UNIX Time = %v seconds = %v days and %v seconds\n\n", ut, ut/onday, ut%onday)
+    tm := time.Date(year, time.Month(month), day, 0, 0, 0, 0, time.UTC)
+    fmt.Printf("%v\n", tm)
+    ut := tm.Unix()
+    fmt.Printf("UNIX Time = %v seconds = %v days and %v seconds\n\n", ut, ut/onday, ut%onday)
 
-	mjd := ut/onday + baseDay
-	fmt.Printf("MJD = %d日\n", mjd)
-	fmt.Printf("JD = %f日\n", float64(mjd)+2400000.5)
+    mjd := ut/onday + baseDay
+    fmt.Printf("MJD = %d日\n", mjd)
+    fmt.Printf("JD = %f日\n", float64(mjd)+2400000.5)
 }
 ```
 

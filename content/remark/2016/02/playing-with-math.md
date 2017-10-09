@@ -67,11 +67,11 @@ package main
 import "fmt"
 
 func main() {
-	r := 11.0
-	pilist := []float64{3.0, 3.1, 3.14, 3.142, 3.1416, 3.14159}
-	for _, pi := range pilist {
-		fmt.Printf("r = %f , pi = %f , pi*r^2 = %f\n", r, pi, pi*r*r)
-	}
+    r := 11.0
+    pilist := []float64{3.0, 3.1, 3.14, 3.142, 3.1416, 3.14159}
+    for _, pi := range pilist {
+        fmt.Printf("r = %f , pi = %f , pi*r^2 = %f\n", r, pi, pi*r*r)
+    }
 }
 ```
 
@@ -131,11 +131,11 @@ package main
 import "fmt"
 
 func main() {
-	rlist := []float64{10.6, 10.7, 10.8, 10.9, 11.0, 11.1, 11.2, 11.3, 11.4}
-	pi := 3.1416
-	for _, r := range rlist {
-		fmt.Printf("r = %f , pi = %f , pi*r^2 = %f\n", r, pi, pi*r*r)
-	}
+    rlist := []float64{10.6, 10.7, 10.8, 10.9, 11.0, 11.1, 11.2, 11.3, 11.4}
+    pi := 3.1416
+    for _, r := range rlist {
+        fmt.Printf("r = %f , pi = %f , pi*r^2 = %f\n", r, pi, pi*r*r)
+    }
 }
 ```
 

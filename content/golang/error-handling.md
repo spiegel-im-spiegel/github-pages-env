@@ -96,7 +96,7 @@ defer file.Close()
 // The error built-in interface type is the conventional interface for
 // representing an error condition, with the nil value representing no error.
 type error interface {
-	Error() string
+    Error() string
 }
 ```
 
@@ -109,16 +109,16 @@ package errors
 
 // New returns an error that formats as the given text.
 func New(text string) error {
-	return &errorString{text}
+    return &errorString{text}
 }
 
 // errorString is a trivial implementation of error.
 type errorString struct {
-	s string
+    s string
 }
 
 func (e *errorString) Error() string {
-	return e.s
+    return e.s
 }
 ```
 
@@ -130,15 +130,15 @@ func (e *errorString) Error() string {
 package os
 
 import (
-	"errors"
+    "errors"
 )
 
 // Portable analogs of some common system call errors.
 var (
-	ErrInvalid    = errors.New("invalid argument")
-	ErrPermission = errors.New("permission denied")
-	ErrExist      = errors.New("file already exists")
-	ErrNotExist   = errors.New("file does not exist")
+    ErrInvalid    = errors.New("invalid argument")
+    ErrPermission = errors.New("permission denied")
+    ErrExist      = errors.New("file already exists")
+    ErrNotExist   = errors.New("file does not exist")
 )
 ```
 
@@ -147,9 +147,9 @@ var (
 ```go
 // PathError records an error and the operation and file path that caused it.
 type PathError struct {
-	Op   string
-	Path string
-	Err  error
+    Op   string
+    Path string
+    Err  error
 }
 
 func (e *PathError) Error() string { return e.Op + " " + e.Path + ": " + e.Err.Error() }
@@ -250,13 +250,13 @@ package main
 import "fmt"
 
 func main() {
-	f()
+    f()
 }
 
 func f() {
-	numbers := []int{0, 1, 2}
+    numbers := []int{0, 1, 2}
 
-	fmt.Println(numbers[3])
+    fmt.Println(numbers[3])
 }
 ```
 
@@ -283,11 +283,11 @@ exit status 2
 package main
 
 func main() {
-	f()
+    f()
 }
 
 func f() {
-	panic("Panic!")
+    panic("Panic!")
 }
 ```
 
@@ -317,28 +317,28 @@ package main
 import "fmt"
 
 func main() {
-	err := r()
-	if err != nil {
-		fmt.Println(err)
-	} else {
-		fmt.Println("Normal End.")
-	}
+    err := r()
+    if err != nil {
+        fmt.Println(err)
+    } else {
+        fmt.Println("Normal End.")
+    }
 }
 
 func r() (err error) {
-	defer func() {
-		if rec := recover(); rec != nil {
-			err = fmt.Errorf("Recovered from: %v", rec)
-		}
-	}()
+    defer func() {
+        if rec := recover(); rec != nil {
+            err = fmt.Errorf("Recovered from: %v", rec)
+        }
+    }()
 
-	f()
-	err = nil
-	return
+    f()
+    err = nil
+    return
 }
 
 func f() {
-	panic("Panic!")
+    panic("Panic!")
 }
 ```
 
@@ -363,13 +363,13 @@ Allocation エラーのような回避不能かつアプリケーション続行
 // makeSlice allocates a slice of size n. If the allocation fails, it panics
 // with ErrTooLarge.
 func makeSlice(n int) []byte {
-	// If the make fails, give a known error.
-	defer func() {
-		if recover() != nil {
-			panic(ErrTooLarge)
-		}
-	}()
-	return make([]byte, n)
+    // If the make fails, give a known error.
+    defer func() {
+        if recover() != nil {
+            panic(ErrTooLarge)
+        }
+    }()
+    return make([]byte, n)
 }
 ```
 
@@ -407,17 +407,17 @@ func (m *MagicError) Error() string {
 }
 
 func Generate() *MagicError {
-	return nil
+    return nil
 }
 
 func Test() error {
-	return Generate()
+    return Generate()
 }
 
 func main() {
-	if err := Test(); err != nil {
-		fmt.Println(err)
-	}
+    if err := Test(); err != nil {
+        fmt.Println(err)
+    }
 }
 ```
 

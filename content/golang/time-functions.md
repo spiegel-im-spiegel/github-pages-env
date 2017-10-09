@@ -39,23 +39,23 @@ title = "Go 言語の日付処理"
 package main
 
 import (
-	"fmt"
-	"os"
-	"time"
+    "fmt"
+    "os"
+    "time"
 )
 
 func main() {
-	tz, err := time.LoadLocation("Asia/Tokyo")
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
-	tm := time.Date(2006, 1, 2, 15, 4, 5, 0, tz)
-	fmt.Println(tm)
-	now := time.Now()
-	fmt.Println(now)
-	d := now.Sub(tm)
-	fmt.Println(d)
+    tz, err := time.LoadLocation("Asia/Tokyo")
+    if err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
+    tm := time.Date(2006, 1, 2, 15, 4, 5, 0, tz)
+    fmt.Println(tm)
+    now := time.Now()
+    fmt.Println(now)
+    d := now.Sub(tm)
+    fmt.Println(d)
 }
 ```
 
@@ -78,19 +78,19 @@ func main() {
 package main
 
 import (
-	"fmt"
-	"os"
-	"time"
+    "fmt"
+    "os"
+    "time"
 )
 
 func main() {
-	tz, err := time.LoadLocation("Asia/Tokyo")
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
-	tm := time.Date(2015, 12, 31, 23, 59, 59, 0, tz)
-	fmt.Println(tm.Format("2006-01-02T15:04:05Z07:00"))
+    tz, err := time.LoadLocation("Asia/Tokyo")
+    if err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
+    tm := time.Date(2015, 12, 31, 23, 59, 59, 0, tz)
+    fmt.Println(tm.Format("2006-01-02T15:04:05Z07:00"))
 }
 ```
 
@@ -123,22 +123,22 @@ func main() {
 
 ```go
 const (
-	ANSIC       = "Mon Jan _2 15:04:05 2006"
-	UnixDate    = "Mon Jan _2 15:04:05 MST 2006"
-	RubyDate    = "Mon Jan 02 15:04:05 -0700 2006"
-	RFC822      = "02 Jan 06 15:04 MST"
-	RFC822Z     = "02 Jan 06 15:04 -0700" // RFC822 with numeric zone
-	RFC850      = "Monday, 02-Jan-06 15:04:05 MST"
-	RFC1123     = "Mon, 02 Jan 2006 15:04:05 MST"
-	RFC1123Z    = "Mon, 02 Jan 2006 15:04:05 -0700" // RFC1123 with numeric zone
-	RFC3339     = "2006-01-02T15:04:05Z07:00"
-	RFC3339Nano = "2006-01-02T15:04:05.999999999Z07:00"
-	Kitchen     = "3:04PM"
-	// Handy time stamps.
-	Stamp      = "Jan _2 15:04:05"
-	StampMilli = "Jan _2 15:04:05.000"
-	StampMicro = "Jan _2 15:04:05.000000"
-	StampNano  = "Jan _2 15:04:05.000000000"
+    ANSIC       = "Mon Jan _2 15:04:05 2006"
+    UnixDate    = "Mon Jan _2 15:04:05 MST 2006"
+    RubyDate    = "Mon Jan 02 15:04:05 -0700 2006"
+    RFC822      = "02 Jan 06 15:04 MST"
+    RFC822Z     = "02 Jan 06 15:04 -0700" // RFC822 with numeric zone
+    RFC850      = "Monday, 02-Jan-06 15:04:05 MST"
+    RFC1123     = "Mon, 02 Jan 2006 15:04:05 MST"
+    RFC1123Z    = "Mon, 02 Jan 2006 15:04:05 -0700" // RFC1123 with numeric zone
+    RFC3339     = "2006-01-02T15:04:05Z07:00"
+    RFC3339Nano = "2006-01-02T15:04:05.999999999Z07:00"
+    Kitchen     = "3:04PM"
+    // Handy time stamps.
+    Stamp      = "Jan _2 15:04:05"
+    StampMilli = "Jan _2 15:04:05.000"
+    StampMicro = "Jan _2 15:04:05.000000"
+    StampNano  = "Jan _2 15:04:05.000000000"
 )
 ```
 
@@ -158,18 +158,18 @@ fmt.Println(tm.Format(time.RFC3339))
 package main
 
 import (
-	"fmt"
-	"os"
-	"time"
+    "fmt"
+    "os"
+    "time"
 )
 
 func main() {
-	tm, err := time.Parse(time.RFC3339, "2015-02-29T23:59:59+09:00")
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
-	fmt.Println(tm)
+    tm, err := time.Parse(time.RFC3339, "2015-02-29T23:59:59+09:00")
+    if err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
+    fmt.Println(tm)
 }
 ```
 
@@ -197,19 +197,19 @@ parsing time "2015-02-29T23:59:59+09:00": day out of range
 package main
 
 import (
-	"fmt"
-	"os"
-	"time"
+    "fmt"
+    "os"
+    "time"
 )
 
 func main() {
-	tz, err := time.LoadLocation("Asia/Tokyo")
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
-	tm := time.Date(2015, 13, 32, 25, 60, 00, 0, tz)
-	fmt.Println(tm)
+    tz, err := time.LoadLocation("Asia/Tokyo")
+    if err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
+    tm := time.Date(2015, 13, 32, 25, 60, 00, 0, tz)
+    fmt.Println(tm)
 }
 ```
 

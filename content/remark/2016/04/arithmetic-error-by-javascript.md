@@ -32,8 +32,8 @@ JavaScript の数値（Number）型の実体は IEEE754 浮動小数点形式で
 
 ```javascript
 function percent(rate) {
-	let pc = 100.0 * rate;
-	console.log("rate: " + pc + "%");
+    let pc = 100.0 * rate;
+    console.log("rate: " + pc + "%");
 }
 
 percent(0.0112);
@@ -64,8 +64,8 @@ rate: 1.1199999999999999%
 
 ```javascript
 function percent(rate) {
-	let pc = Math.round(100000.0 * rate) / 1000.0;
-	console.log("rate: " + pc + "%");
+    let pc = Math.round(100000.0 * rate) / 1000.0;
+    console.log("rate: " + pc + "%");
 }
 
 percent(0.0112);
@@ -83,15 +83,15 @@ rate: 1.12%
 
 ```javascript
 function percent(rate) {
-	let sRate = rate.toString();
-	let digits = sRate.indexOf(".");
-	if (digits < 0) {
-		digits = 0;
-	} else {
-		digits = sRate.length - (digits + 1);
-	}
-	let pc = (100 * sRate.replace(".", "").valueOf()) / Math.pow(10, digits);
-	console.log("rate: " + pc + "%");
+    let sRate = rate.toString();
+    let digits = sRate.indexOf(".");
+    if (digits < 0) {
+        digits = 0;
+    } else {
+        digits = sRate.length - (digits + 1);
+    }
+    let pc = (100 * sRate.replace(".", "").valueOf()) / Math.pow(10, digits);
+    console.log("rate: " + pc + "%");
 }
 
 percent(0.0112);
@@ -108,22 +108,18 @@ percent(0.0112);
 
 ```javascript
 function percent(rate) {
-	let sRate = rate.toString();
-	let digits = sRate.indexOf(".");
-	if (digits < 0) {
-		digits = 0;
-	} else {
-		digits = sRate.length - (digits + 1);
-	}
-	let pc = (sRate.replace(".", "")+"00").valueOf() / ("1"+"0".repeat(digits)).valueOf();
-	console.log("rate: " + pc + "%");
+    let sRate = rate.toString();
+    let digits = sRate.indexOf(".");
+    if (digits < 0) {
+        digits = 0;
+    } else {
+        digits = sRate.length - (digits + 1);
+    }
+    let pc = (sRate.replace(".", "")+"00").valueOf() / ("1"+"0".repeat(digits)).valueOf();
+    console.log("rate: " + pc + "%");
 }
 
 percent(0.0112);
 ```
 
 とすれば割り算1回で済む（数学関数と文字列操作のどちらがコストが高いかは微妙な気もするが）。
-
-
-
-

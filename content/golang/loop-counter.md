@@ -35,11 +35,11 @@ package main
 import "fmt"
 
 func main() {
-	var d float32 = 0.0
-	for i := 0; i < 100000000; i++ {
-		d += 1.0
-	}
-	fmt.Println(d)
+    var d float32 = 0.0
+    for i := 0; i < 100000000; i++ {
+        d += 1.0
+    }
+    fmt.Println(d)
 }
 ```
 
@@ -62,11 +62,11 @@ package main
 import "fmt"
 
 func main() {
-	var d float64 = 0.0
-	for i := 0; i < 100000000; i++ {
-		d += 1.0
-	}
-	fmt.Println(d)
+    var d float64 = 0.0
+    for i := 0; i < 100000000; i++ {
+        d += 1.0
+    }
+    fmt.Println(d)
 }
 ```
 
@@ -88,9 +88,9 @@ package main
 import "fmt"
 
 func main() {
-	for d := 0.0; d < 1.0; d += 0.1 {
-		fmt.Println(d)
-	}
+    for d := 0.0; d < 1.0; d += 0.1 {
+        fmt.Println(d)
+    }
 }
 ```
 
@@ -128,21 +128,21 @@ $ go run loop3.go
 package main
 
 import (
-	"fmt"
-	"math/big"
+    "fmt"
+    "math/big"
 )
 
 func main() {
-	var x, y, z big.Float //zero initialize
-	y.SetFloat64(0.1)     //53bit precision
-	x.SetPrec(64)
-	y.SetPrec(64)
+    var x, y, z big.Float //zero initialize
+    y.SetFloat64(0.1)     //53bit precision
+    x.SetPrec(64)
+    y.SetPrec(64)
 
-	for i := 0; i < 10; i++ {
-		z.Add(&x, &y)
-		x.Set(&z)
-		fmt.Printf("x = %v (prec = %d bits)\n", &x, x.Prec())
-	}
+    for i := 0; i < 10; i++ {
+        z.Add(&x, &y)
+        x.Set(&z)
+        fmt.Printf("x = %v (prec = %d bits)\n", &x, x.Prec())
+    }
 }
 ```
 
@@ -172,22 +172,22 @@ x = 1.0000000000000000555 (prec = 64 bits)
 package main
 
 import (
-	"fmt"
-	"math/big"
+    "fmt"
+    "math/big"
 )
 
 func main() {
-	var x, y, z big.Rat //zero initialize
-	var a, b big.Int
-	a.SetInt64(1)
-	b.SetInt64(10)
-	y.SetFrac(&a, &b)
+    var x, y, z big.Rat //zero initialize
+    var a, b big.Int
+    a.SetInt64(1)
+    b.SetInt64(10)
+    y.SetFrac(&a, &b)
 
-	for i := 0; i < 10; i++ {
-		z.Add(&x, &y)
-		x.Set(&z)
-		fmt.Printf("x = %s (%v)\n", x.FloatString(20), &x)
-	}
+    for i := 0; i < 10; i++ {
+        z.Add(&x, &y)
+        x.Set(&z)
+        fmt.Printf("x = %s (%v)\n", x.FloatString(20), &x)
+    }
 }
 ```
 
@@ -220,19 +220,19 @@ x = 1.00000000000000000000 (1/1)
 package main
 
 import (
-	"fmt"
+    "fmt"
 
-	"github.com/shopspring/decimal"
+    "github.com/shopspring/decimal"
 )
 
 func main() {
-	x := decimal.NewFromFloat(0)
-	y, _ := decimal.NewFromString("0.1")
+    x := decimal.NewFromFloat(0)
+    y, _ := decimal.NewFromString("0.1")
 
-	for i := 0; i < 10; i++ {
-		x = x.Add(y)
-		fmt.Printf("x = %s\n", x.StringFixed(20))
-	}
+    for i := 0; i < 10; i++ {
+        x = x.Add(y)
+        fmt.Printf("x = %s\n", x.StringFixed(20))
+    }
 }
 ```
 
@@ -258,19 +258,19 @@ x = 1.00000000000000000000
 package main
 
 import (
-	"fmt"
+    "fmt"
 
-	"github.com/shopspring/decimal"
+    "github.com/shopspring/decimal"
 )
 
 func main() {
-	x := decimal.NewFromFloat(0)
-	y, _ := decimal.NewFromString("1.0")
+    x := decimal.NewFromFloat(0)
+    y, _ := decimal.NewFromString("1.0")
 
-	for i := 0; i < 100000000; i++ {
-		x = x.Add(y)
-	}
-	fmt.Printf("x = %s\n", x.StringFixed(20))
+    for i := 0; i < 100000000; i++ {
+        x = x.Add(y)
+    }
+    fmt.Printf("x = %s\n", x.StringFixed(20))
 }
 ```
 

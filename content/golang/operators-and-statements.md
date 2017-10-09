@@ -44,10 +44,10 @@ tags = ["golang", "programming", "language"]
 {{% fig-gen title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
 ```text
 Statement =
-	Declaration | LabeledStmt | SimpleStmt |
-	GoStmt | ReturnStmt | BreakStmt | ContinueStmt | GotoStmt |
-	FallthroughStmt | Block | IfStmt | SwitchStmt | SelectStmt | ForStmt |
-	DeferStmt .
+    Declaration | LabeledStmt | SimpleStmt |
+    GoStmt | ReturnStmt | BreakStmt | ContinueStmt | GotoStmt |
+    FallthroughStmt | Block | IfStmt | SwitchStmt | SelectStmt | ForStmt |
+    DeferStmt .
 
 SimpleStmt = EmptyStmt | ExpressionStmt | SendStmt | IncDecStmt | Assignment | ShortVarDecl .
 ```
@@ -272,8 +272,8 @@ package main
 import "fmt"
 
 func main() {
-	i := 1
-	fmt.Println(i++)
+    i := 1
+    fmt.Println(i++)
 }
 ```
 
@@ -293,8 +293,8 @@ package main
 import "fmt"
 
 func main() {
-	i := 1
-	fmt.Println(i+=1)
+    i := 1
+    fmt.Println(i+=1)
 }
 ```
 

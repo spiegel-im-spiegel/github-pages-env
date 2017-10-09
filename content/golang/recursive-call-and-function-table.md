@@ -32,18 +32,18 @@ package main
 import "fmt"
 
 func fibonacciNumber(n int) int {
-	switch n {
-	case 0:
-		return 0
-	case 1:
-		return 1
-	default:
-		return fibonacciNumber(n-2) + fibonacciNumber(n-1)
-	}
+    switch n {
+    case 0:
+        return 0
+    case 1:
+        return 1
+    default:
+        return fibonacciNumber(n-2) + fibonacciNumber(n-1)
+    }
 }
 
 func main() {
-	fmt.Println(fibonacciNumber(40))
+    fmt.Println(fibonacciNumber(40))
 }
 ```
 
@@ -62,23 +62,23 @@ import "fmt"
 var fibonacciNumbers = make(map[int]int)
 
 func fibonacciNumber(n int) int {
-	switch n {
-	case 0:
-		return 0
-	case 1:
-		return 1
-	default:
-		if fn, ok := fibonacciNumbers[n]; ok {
-			return fn
-		}
-		fn := fibonacciNumber(n-2) + fibonacciNumber(n-1)
-		fibonacciNumbers[n] = fn
-		return fn
-	}
+    switch n {
+    case 0:
+        return 0
+    case 1:
+        return 1
+    default:
+        if fn, ok := fibonacciNumbers[n]; ok {
+            return fn
+        }
+        fn := fibonacciNumber(n-2) + fibonacciNumber(n-1)
+        fibonacciNumbers[n] = fn
+        return fn
+    }
 }
 
 func main() {
-	fmt.Println(fibonacciNumber(40))
+    fmt.Println(fibonacciNumber(40))
 }
 ```
 
@@ -97,19 +97,19 @@ import "fmt"
 var fibonacciNumbers = make(map[int]int)
 
 func fibonacciNumber(n int) int {
-	switch n {
-	case 0:
-		return 0
-	case 1:
-		return 1
-	default:
-		if fn, ok := fibonacciNumbers[n]; ok {
-			return fn
-		}
-		fn := fib(n-2) + fib(n-1)
-		fibonacciNumbers[n] = fn
-		return fn
-	}
+    switch n {
+    case 0:
+        return 0
+    case 1:
+        return 1
+    default:
+        if fn, ok := fibonacciNumbers[n]; ok {
+            return fn
+        }
+        fn := fib(n-2) + fib(n-1)
+        fibonacciNumbers[n] = fn
+        return fn
+    }
 }
 
 type ff func(int) int
@@ -117,7 +117,7 @@ type ff func(int) int
 var fib ff = fibonacciNumber
 
 func main() {
-	fmt.Println(fib(40))
+    fmt.Println(fib(40))
 }
 ```
 
@@ -125,9 +125,9 @@ func main() {
 
 ```
 prog.go:25: initialization loop:
-	prog.go:25 fib refers to
-	prog.go:7 fibonacciNumber refers to
-	prog.go:25 fib
+    prog.go:25 fib refers to
+    prog.go:7 fibonacciNumber refers to
+    prog.go:25 fib
 ```
 
 関数値 `fib` の部分でエラーになっている点に注目してほしい。
@@ -141,47 +141,47 @@ package main
 import "fmt"
 
 func f0(evt int) int {
-	fmt.Println("processing f0")
-	return 1
+    fmt.Println("processing f0")
+    return 1
 }
 
 func f1(evt int) int {
-	fmt.Println("processing f1")
-	return 2
+    fmt.Println("processing f1")
+    return 2
 }
 
 func f2(evt int) int {
-	fmt.Println("processing f2")
-	return 3
+    fmt.Println("processing f2")
+    return 3
 }
 
 func f3(evt int) int {
-	fmt.Println("processing f3")
-	return 0
+    fmt.Println("processing f3")
+    return 0
 }
 
 type fn func(int) int
 
 var fs = []fn{
-	f0,
-	f1,
-	f2,
-	f3,
+    f0,
+    f1,
+    f2,
+    f3,
 }
 
 func StateMachin(stat, evt int) int {
-	return fs[stat](evt)
+    return fs[stat](evt)
 }
 
 func main() {
-	s := 0
-	for e := 0; e < 10; e++ {
-		s = StateMachin(s, e)
-		if s == 0 {
-			break
-		}
-	}
-	fmt.Println("end")
+    s := 0
+    for e := 0; e < 10; e++ {
+        s = StateMachin(s, e)
+        if s == 0 {
+            break
+        }
+    }
+    fmt.Println("end")
 }
 ```
 
@@ -204,10 +204,10 @@ func f3(evt int) int {
 
 ```
 prog.go:32: initialization loop:
-	prog.go:32 fs refers to
-	prog.go:20 f3 refers to
-	prog.go:34 StateMachin refers to
-	prog.go:32 fs
+    prog.go:32 fs refers to
+    prog.go:20 f3 refers to
+    prog.go:34 StateMachin refers to
+    prog.go:32 fs
 ```
 
 しかし実際には `f3` を無限に呼び出しているわけではないので，このコンパイルエラーでは困ってしまう[^a]。
@@ -216,17 +216,17 @@ prog.go:32: initialization loop:
 
 ```
 var fs = []fn{
-	f0,
-	f1,
-	f2,
-	//f3,
+    f0,
+    f1,
+    f2,
+    //f3,
 }
 
 func StateMachin(stat, evt int) int {
-	if stat == 3 {
-		return f3(evt)
-	}
-	return fs[stat](evt)
+    if stat == 3 {
+        return f3(evt)
+    }
+    return fs[stat](evt)
 }
 ```
 
@@ -235,8 +235,8 @@ func StateMachin(stat, evt int) int {
 
 ```go
 func f3(evt int) int {
-	fmt.Println("processing f3")
-	return StateMachin(3, evt)
+    fmt.Println("processing f3")
+    return StateMachin(3, evt)
 }
 ```
 

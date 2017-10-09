@@ -7,7 +7,7 @@ tags = [
 ]
 draft = false
 date = "2016-11-20T23:33:55+09:00"
-update = "2016-11-22T10:08:25+09:00"
+update = "2017-10-09T21:44:27+09:00"
 title = "モンテカルロ法による円周率の推定（その4 PRNG）"
 description = "math/rand パッケージでは rand.Source interface を持つ別の擬似乱数生成器を使うことができる。"
 
@@ -50,9 +50,9 @@ I actually found a few references examining its properties and it seems to be a 
 ラグ付フィボナッチ法は以下の式で表される。
 
 {{< fig-quote >}}
-\[ \begin{array}{ll}
-S_{n} \equiv S_{n-j} * S_{n-k} \pmod{m}, & 0 \lt j \lt k
-\end{array} \]
+\begin{alignat*}{2}
+S_{n} \equiv S_{n-j} * S_{n-k} \pmod{m}, & \; & 0 \lt j \lt k
+\end{alignat*}
 {{< /fig-quote >}}
 
 ラグ付フィボナッチ法は $*$ 演算子によってバリエーションがあるが [`math/rand`] パッケージの実装では加算を使うため “**Additive** Lagged Fibonacci Generator” ということらしい。
@@ -61,19 +61,19 @@ S_{n} \equiv S_{n-j} * S_{n-k} \pmod{m}, & 0 \lt j \lt k
 ```go
 // Int63 returns a non-negative pseudo-random 63-bit integer as an int64.
 func (rng *rngSource) Int63() int64 {
-	rng.tap--
-	if rng.tap < 0 {
-		rng.tap += _LEN
-	}
+    rng.tap--
+    if rng.tap < 0 {
+        rng.tap += _LEN
+    }
 
-	rng.feed--
-	if rng.feed < 0 {
-		rng.feed += _LEN
-	}
+    rng.feed--
+    if rng.feed < 0 {
+        rng.feed += _LEN
+    }
 
-	x := (rng.vec[rng.feed] + rng.vec[rng.tap]) & _MASK
-	rng.vec[rng.feed] = x
-	return x
+    x := (rng.vec[rng.feed] + rng.vec[rng.tap]) & _MASK
+    rng.vec[rng.feed] = x
+    return x
 }
 ```
 
@@ -85,8 +85,8 @@ func (rng *rngSource) Int63() int64 {
 // A Source represents a source of uniformly-distributed
 // pseudo-random int64 values in the range [0, 1<<63).
 type Source interface {
-	Int63() int64
-	Seed(seed int64)
+    Int63() int64
+    Seed(seed int64)
 }
 ```
 
@@ -146,34 +146,34 @@ X_{n+1} = (A \times X_{n} + B) \bmod M
 package gencmplx
 
 import (
-	"math/rand"
+    "math/rand"
 
-	"github.com/davidminor/gorand/lcg"
-	"github.com/seehuhn/mt19937"
+    "github.com/davidminor/gorand/lcg"
+    "github.com/seehuhn/mt19937"
 )
 
 //RNGs is kind of RNG
 type RNGs int
 
 const (
-	NULL RNGs = iota
-	GO
-	LCG
-	MT
+    NULL RNGs = iota
+    GO
+    LCG
+    MT
 )
 
 //NewRndSource returns Source of random numbers
 func NewRndSource(rng RNGs, seed int64) rand.Source {
-	switch rng {
-	case LCG:
-		return lcg.NewLcg64(uint64(seed))
-	case MT:
-		mt := mt19937.New()
-		mt.Seed(seed)
-		return mt
-	default:
-		return rand.NewSource(seed)
-	}
+    switch rng {
+    case LCG:
+        return lcg.NewLcg64(uint64(seed))
+    case MT:
+        mt := mt19937.New()
+        mt.Seed(seed)
+        return mt
+    default:
+        return rand.NewSource(seed)
+    }
 }
 ```
 

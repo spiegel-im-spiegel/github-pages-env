@@ -1,6 +1,6 @@
 +++
 date = "2015-09-17T21:23:42+09:00"
-update = "2017-02-15T11:00:22+09:00"
+update = "2017-10-09T22:05:48+09:00"
 description = "これまた，みんな大好き素数探索アルゴリズム"
 draft = false
 tags = ["golang", "algorithm", "math", "prime-number", "slice", "goroutine", "channel", "message-passing"]
@@ -44,13 +44,8 @@ title = "素数探索アルゴリズムで遊ぶ"
 - [ペアノの公理 - Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%9A%E3%82%A2%E3%83%8E%E3%81%AE%E5%85%AC%E7%90%86)
 - [Swiftで自然数を作ってみた（ペアノの公理） - Qiita](http://qiita.com/taketo1024/items/2ab856d21bf9b9f30357)
 
-ちなみに結城浩さんの『数学ガール／ゲーデルの不完全性定理』にペアノの公理について分かりやすく解説した章がある。
+ちなみに結城浩さんの『[数学ガール／ゲーデルの不完全性定理](http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1D6/baldandersinf-22/)』にペアノの公理について分かりやすく解説した章がある。
 お勧め。
-
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1D6/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/415MuioBMJL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1D6/baldandersinf-22/">数学ガール／ゲーデルの不完全性定理</a></dt><dd>結城 浩 </dd><dd>SBクリエイティブ株式会社 2014-02-14</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1FO/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8AT1FO.09._SCTHUMBZZZ_.jpg"  alt="数学ガール／乱択アルゴリズム"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1CM/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8AT1CM.09._SCTHUMBZZZ_.jpg"  alt="数学ガール／フェルマーの最終定理"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00L0PDMK4/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00L0PDMK4.09._SCTHUMBZZZ_.jpg"  alt="数学ガール／ガロア理論"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00W6NCLL0/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00W6NCLL0.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート/数列の広場"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00W6NCLJM/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00W6NCLJM.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート/丸い三角関数"  /></a> </p>
-<p class="description">結城浩さんの本はよく整備された遊歩道を散歩するような気楽さと安心感がある。だから「フェルマーの最終定理」とか「ゲーデルの不完全性定理」とかいった難解そうなテーマでも，迷うことなく，しかも一歩ずつ歩みを進めてゴールまで辿り着けるのかもしれない。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-09-16">2015-09-16</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
-</div>
 
 ## 素数探索アルゴリズム（その1）{#alg1}
 
@@ -60,30 +55,30 @@ title = "素数探索アルゴリズムで遊ぶ"
 package main
 
 import (
-	"fmt"
-	"time"
+    "fmt"
+    "time"
 )
 
 func main() {
-	max := 100
-	primes := make([]int64, 0) // 素数のリスト
+    max := 100
+    primes := make([]int64, 0) // 素数のリスト
 
-	start := time.Now() //Start
-	for n := 2; n <= max; n++ {
-		flag := true
-		for m := 2; m < n; m++ {
-			if (n % m) == 0 { // n が m で割り切れる → 素数ではない
-				flag = false
-				break
-			}
-		}
-		if flag {
-			primes = append(primes, int64(n)) // 素数を追加
-		}
-	}
-	goal := time.Now() //Goal
-	fmt.Printf("%v 以下の素数: %v\n", max, primes)
-	fmt.Printf("%v 経過", goal.Sub(start)) //経過時間を表示
+    start := time.Now() //Start
+    for n := 2; n <= max; n++ {
+        flag := true
+        for m := 2; m < n; m++ {
+            if (n % m) == 0 { // n が m で割り切れる → 素数ではない
+                flag = false
+                break
+            }
+        }
+        if flag {
+            primes = append(primes, int64(n)) // 素数を追加
+        }
+    }
+    goal := time.Now() //Goal
+    fmt.Printf("%v 以下の素数: %v\n", max, primes)
+    fmt.Printf("%v 経過", goal.Sub(start)) //経過時間を表示
 }
 ```
 
@@ -107,35 +102,35 @@ C:>go run prime01.go
 package main
 
 import (
-	"fmt"
-	"time"
+    "fmt"
+    "time"
 )
 
 func main() {
-	max := 100
-	primes := make([]int64, 0)        // 素数のリスト
-	isNotPrime := make([]bool, max+1) // false で初期化される（全てを素数候補とする）
-	isNotPrime[0] = true              // 0 は非素数
-	isNotPrime[1] = true              // 1 は非素数
+    max := 100
+    primes := make([]int64, 0)        // 素数のリスト
+    isNotPrime := make([]bool, max+1) // false で初期化される（全てを素数候補とする）
+    isNotPrime[0] = true              // 0 は非素数
+    isNotPrime[1] = true              // 1 は非素数
 
-	start := time.Now() //Start
-	n := 2
-	for ; n*n <= max; n++ { // √max まで篩にかける
-		if !isNotPrime[n] { // n は素数
-			primes = append(primes, int64(n)) // 素数を追加
-			for m := 2; n*m <= max; m++ {
-				isNotPrime[n*m] = true // max 以下の n の倍数を全て非素数とする
-			}
-		}
-	}
-	for ; n <= max; n++ {
-		if !isNotPrime[n] { // n は素数
-			primes = append(primes, int64(n)) // 素数を追加
-		}
-	}
-	goal := time.Now() //Goal
-	fmt.Printf("%v 以下の素数: %v\n", max, primes)
-	fmt.Printf("%v 経過", goal.Sub(start)) //経過時間を表示
+    start := time.Now() //Start
+    n := 2
+    for ; n*n <= max; n++ { // √max まで篩にかける
+        if !isNotPrime[n] { // n は素数
+            primes = append(primes, int64(n)) // 素数を追加
+            for m := 2; n*m <= max; m++ {
+                isNotPrime[n*m] = true // max 以下の n の倍数を全て非素数とする
+            }
+        }
+    }
+    for ; n <= max; n++ {
+        if !isNotPrime[n] { // n は素数
+            primes = append(primes, int64(n)) // 素数を追加
+        }
+    }
+    goal := time.Now() //Goal
+    fmt.Printf("%v 以下の素数: %v\n", max, primes)
+    fmt.Printf("%v 経過", goal.Sub(start)) //経過時間を表示
 }
 ```
 
@@ -163,40 +158,40 @@ C:>go run prime01b.go
 package main
 
 import (
-	"fmt"
-	"math"
-	"time"
+    "fmt"
+    "math"
+    "time"
 )
 
 func main() {
-	primes := make([]int64, 1)     // 素数のリスト
-	primes_f := make([]float64, 1) // 素数のリスト（浮動小数点へのキャスト）
-	primes[0] = 2                  // 2 は素数
-	primes_f[0] = 2.0              // 2 は素数（浮動小数点）
-	var max int64 = 100
+    primes := make([]int64, 1)     // 素数のリスト
+    primes_f := make([]float64, 1) // 素数のリスト（浮動小数点へのキャスト）
+    primes[0] = 2                  // 2 は素数
+    primes_f[0] = 2.0              // 2 は素数（浮動小数点）
+    var max int64 = 100
 
-	start := time.Now() // Start
-	var n int64 = 3
-	for n = 3; n < max; n += 2 { // 3 から始まる奇数のみを探索
-		flag := true
-		f := float64(n)                    // 浮動小数点に cating
-		rf := math.Sqrt(f)                 // n に対して √n をとる
-		for i := 1; i < len(primes); i++ { // 2 より大きい既知の素数でチェックする
-			if primes_f[i] > rf { // n に対して √n 以下の素数まで探索すればよい
-				break
-			} else if (n % primes[i]) == 0 { // n が既知の素数で割り切れる → 素数ではない
-				flag = false
-				break
-			}
-		}
-		if flag {
-			primes = append(primes, n)     // 素数を追加
-			primes_f = append(primes_f, f) // 素数を追加（浮動小数点）
-		}
-	}
-	goal := time.Now() // Goal
-	fmt.Printf("%v 以下の素数: %v\n", max, primes)
-	fmt.Printf("%v 経過", goal.Sub(start)) // 経過時間を表示
+    start := time.Now() // Start
+    var n int64 = 3
+    for n = 3; n < max; n += 2 { // 3 から始まる奇数のみを探索
+        flag := true
+        f := float64(n)                    // 浮動小数点に cating
+        rf := math.Sqrt(f)                 // n に対して √n をとる
+        for i := 1; i < len(primes); i++ { // 2 より大きい既知の素数でチェックする
+            if primes_f[i] > rf { // n に対して √n 以下の素数まで探索すればよい
+                break
+            } else if (n % primes[i]) == 0 { // n が既知の素数で割り切れる → 素数ではない
+                flag = false
+                break
+            }
+        }
+        if flag {
+            primes = append(primes, n)     // 素数を追加
+            primes_f = append(primes_f, f) // 素数を追加（浮動小数点）
+        }
+    }
+    goal := time.Now() // Goal
+    fmt.Printf("%v 以下の素数: %v\n", max, primes)
+    fmt.Printf("%v 経過", goal.Sub(start)) // 経過時間を表示
 }
 ```
 
@@ -234,12 +229,12 @@ package main
 import "fmt"
 
 func main() {
-	a := make([]int, 0)                                         // 空の配列を用意
-	fmt.Printf("Slice(%02d) : %p : %v (%v)\n", 0, a, a, cap(a)) // 配列の表示（初期状態）
-	for num := 1; num <= 17; num++ {
-		a = append(a, num)                                            //配列要素の追加
-		fmt.Printf("Slice(%02d) : %p : %v (%v)\n", num, a, a, cap(a)) //配列の表示
-	}
+    a := make([]int, 0)                                         // 空の配列を用意
+    fmt.Printf("Slice(%02d) : %p : %v (%v)\n", 0, a, a, cap(a)) // 配列の表示（初期状態）
+    for num := 1; num <= 17; num++ {
+        a = append(a, num)                                            //配列要素の追加
+        fmt.Printf("Slice(%02d) : %p : %v (%v)\n", num, a, a, cap(a)) //配列の表示
+    }
 }
 ```
 
@@ -336,101 +331,101 @@ Slice(17) : 0xc082050000 : [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17] (32)
 package main
 
 import (
-	"flag"
-	"fmt"
-	"math"
-	"os"
-	"strconv"
-	"time"
+    "flag"
+    "fmt"
+    "math"
+    "os"
+    "strconv"
+    "time"
 )
 
 func main() {
-	//コマンドライン引数の解析
-	algno := flag.Int("alg", 0, "0: Basic algorithm , 1: Sieve of Eratosthenes")
-	flag.Parse()
-	args := flag.Args()
-	if *algno < 0 || *algno > 1 {
-		fmt.Fprintln(os.Stderr, os.ErrInvalid)
-		return
-	}
-	if len(args) != 1 {
-		fmt.Fprintln(os.Stderr, os.ErrInvalid)
-		return
-	}
-	max, err := strconv.ParseInt(args[0], 10, 64)
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
-	if max <= 0 {
-		max = 1
-	}
+    //コマンドライン引数の解析
+    algno := flag.Int("alg", 0, "0: Basic algorithm , 1: Sieve of Eratosthenes")
+    flag.Parse()
+    args := flag.Args()
+    if *algno < 0 || *algno > 1 {
+        fmt.Fprintln(os.Stderr, os.ErrInvalid)
+        return
+    }
+    if len(args) != 1 {
+        fmt.Fprintln(os.Stderr, os.ErrInvalid)
+        return
+    }
+    max, err := strconv.ParseInt(args[0], 10, 64)
+    if err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
+    if max <= 0 {
+        max = 1
+    }
 
-	//素数探索
-	prime := int64(0)
-	start := time.Now() // Start
-	switch *algno {
-	case 1:
-		prime = LastPrimeE(max)
-	default:
-		prime = LastPrimeB(max)
-	}
-	goal := time.Now()                       // Goal
-	fmt.Printf("%v 個目の素数: %v\n", max, prime) // max 個目の素数
-	fmt.Printf("%v 経過\n", goal.Sub(start))   // 経過時間を表示
+    //素数探索
+    prime := int64(0)
+    start := time.Now() // Start
+    switch *algno {
+    case 1:
+        prime = LastPrimeE(max)
+    default:
+        prime = LastPrimeB(max)
+    }
+    goal := time.Now()                       // Goal
+    fmt.Printf("%v 個目の素数: %v\n", max, prime) // max 個目の素数
+    fmt.Printf("%v 経過\n", goal.Sub(start))   // 経過時間を表示
 }
 
 func LastPrimeB(max int64) int64 {
-	count := int64(0)
+    count := int64(0)
 
-	for n := int64(2); ; n++ {
-		flag := true
-		for m := int64(2); m < n; m++ {
-			if (n % m) == 0 { // n が m で割り切れる → 素数ではない
-				flag = false
-				break
-			}
-		}
-		if flag {
-			count++
-			if count >= max {
-				return n
-			}
-		}
-	}
+    for n := int64(2); ; n++ {
+        flag := true
+        for m := int64(2); m < n; m++ {
+            if (n % m) == 0 { // n が m で割り切れる → 素数ではない
+                flag = false
+                break
+            }
+        }
+        if flag {
+            count++
+            if count >= max {
+                return n
+            }
+        }
+    }
 }
 
 func LastPrimeE(max int64) int64 {
-	if max <= 1 {
-		return 2
-	}
-	primes := make([]int64, 1, max)     // 素数のリスト
-	primes_f := make([]float64, 1, max) // 素数のリスト（浮動小数点へのキャスト）
-	primes[0] = 2                       // 2 は素数
-	primes_f[0] = 2.0                   // 2 は素数（浮動小数点）
+    if max <= 1 {
+        return 2
+    }
+    primes := make([]int64, 1, max)     // 素数のリスト
+    primes_f := make([]float64, 1, max) // 素数のリスト（浮動小数点へのキャスト）
+    primes[0] = 2                       // 2 は素数
+    primes_f[0] = 2.0                   // 2 は素数（浮動小数点）
 
-	count := int64(1)
-	for n := int64(3); ; n += 2 { // 3 から始まる奇数のみを探索
-		flag := true
-		f := float64(n)                    // 浮動小数点に cating
-		rf := math.Sqrt(f)                 // n に対して √n をとる
-		for i := 1; i < len(primes); i++ { // 2 より大きい既知の素数でチェックする
-			if primes_f[i] > rf { // n に対して √n 以下の素数まで探索すればよい
-				break
-			} else if (n % primes[i]) == 0 { // n が既知の素数で割り切れる → 素数ではない
-				flag = false
-				break
-			}
-		}
-		if flag {
-			count++
-			if count >= max {
-				return n
-			}
-			primes = append(primes, n)     // 素数を追加
-			primes_f = append(primes_f, f) // 素数を追加（浮動小数点）
-		}
-	}
+    count := int64(1)
+    for n := int64(3); ; n += 2 { // 3 から始まる奇数のみを探索
+        flag := true
+        f := float64(n)                    // 浮動小数点に cating
+        rf := math.Sqrt(f)                 // n に対して √n をとる
+        for i := 1; i < len(primes); i++ { // 2 より大きい既知の素数でチェックする
+            if primes_f[i] > rf { // n に対して √n 以下の素数まで探索すればよい
+                break
+            } else if (n % primes[i]) == 0 { // n が既知の素数で割り切れる → 素数ではない
+                flag = false
+                break
+            }
+        }
+        if flag {
+            count++
+            if count >= max {
+                return n
+            }
+            primes = append(primes, n)     // 素数を追加
+            primes_f = append(primes_f, f) // 素数を追加（浮動小数点）
+        }
+    }
 }
 ```
 
@@ -504,59 +499,59 @@ C:>go run prime03.go --alg=1 10000000
 
 ```go
 func LastPrimeE2(max int64) int64 {
-	if max <= 1 {
-		return 2 // 最初の素数は2
-	}
+    if max <= 1 {
+        return 2 // 最初の素数は2
+    }
 
-	count := int64(1)
-	primes := sieve()
-	for {
-		prime := <-primes
-		count++
-		if count >= max {
-			return prime
-		}
-	}
+    count := int64(1)
+    primes := sieve()
+    for {
+        prime := <-primes
+        count++
+        if count >= max {
+            return prime
+        }
+    }
 }
 
 // 素数候補の数を生成する
 func generate() chan int64 {
-	ch := make(chan int64)
-	go func() {
-		for n := int64(3); ; n += 2 { // 3 以降の奇数を送信（2 以外の偶数は素数ではない）
-			ch <- n
-		}
-	}()
-	return ch
+    ch := make(chan int64)
+    go func() {
+        for n := int64(3); ; n += 2 { // 3 以降の奇数を送信（2 以外の偶数は素数ではない）
+            ch <- n
+        }
+    }()
+    return ch
 }
 
 // 素数 'prime' に対するフィルタ
 // 'prime' で割り切れない値のみ通過可能
 func filter(in chan int64, prime int64) chan int64 {
-	out := make(chan int64)
-	go func() {
-		for {
-			n := <-in
-			if (n % prime) != 0 {
-				out <- n
-			}
-		}
-	}()
-	return out
+    out := make(chan int64)
+    go func() {
+        for {
+            n := <-in
+            if (n % prime) != 0 {
+                out <- n
+            }
+        }
+    }()
+    return out
 }
 
 // エラトステネスの篩
 func sieve() chan int64 {
-	out := make(chan int64)
-	go func() {
-		ch := generate()
-		for {
-			prime := <-ch
-			out <- prime
-			ch = filter(ch, prime)
-		}
-	}()
-	return out
+    out := make(chan int64)
+    go func() {
+        ch := generate()
+        for {
+            prime := <-ch
+            out <- prime
+            ch = filter(ch, prime)
+        }
+    }()
+    return out
 }
 ```
 
@@ -597,69 +592,69 @@ C:>go run prime04.go -alg=2 10000
 
 ```go
 func LastPrimeE2(max int64) int64 {
-	if max <= 1 {
-		return 2 // 最初の素数は2
-	}
+    if max <= 1 {
+        return 2 // 最初の素数は2
+    }
 
-	count := int64(1)
-	primes := sieve()
-	for prime := range primes {
-		count++
-		if count >= max {
-			return prime
-		}
-	}
-	return count
+    count := int64(1)
+    primes := sieve()
+    for prime := range primes {
+        count++
+        if count >= max {
+            return prime
+        }
+    }
+    return count
 }
 
 // 素数候補の数を生成する
 // ただし上限を 15485863 とする
 func generate() chan int64 {
-	ch := make(chan int64)
-	go func() {
-		for n := int64(3); n <= 15485863; n += 2 { // 3 以降の奇数を送信（2 以外の偶数は素数ではない）
-			ch <- n
-		}
-		close(ch)
-	}()
-	return ch
+    ch := make(chan int64)
+    go func() {
+        for n := int64(3); n <= 15485863; n += 2 { // 3 以降の奇数を送信（2 以外の偶数は素数ではない）
+            ch <- n
+        }
+        close(ch)
+    }()
+    return ch
 }
 
 // 素数 'prime' に対するフィルタ
 func filter(in chan int64, prime int64) chan int64 {
-	out := make(chan int64)
-	go func() {
-		for n := range in {
-			if (n % prime) != 0 {
-				out <- n
-			}
-		}
-		close(out)
-	}()
-	return out
+    out := make(chan int64)
+    go func() {
+        for n := range in {
+            if (n % prime) != 0 {
+                out <- n
+            }
+        }
+        close(out)
+    }()
+    return out
 }
 
 // エラトステネスの篩
 func sieve() chan int64 {
-	out := make(chan int64)
-	go func() {
-		ch := generate()
-		fflag := true
-		for {
-			prime, ok := <-ch
-			if !ok {
-				break
-			}
-			out <- prime
-			if fflag && prime*prime <= 15485863 {
-				ch = filter(ch, prime)
-			} else { // 素数が最大値の平方根（√15485863）より大きい場合はフィルタを作らず無条件に通す
-				fflag = false
-			}
-		}
-		close(out)
-	}()
-	return out
+    out := make(chan int64)
+    go func() {
+        ch := generate()
+        fflag := true
+        for {
+            prime, ok := <-ch
+            if !ok {
+                break
+            }
+            out <- prime
+            if fflag && prime*prime <= 15485863 {
+                ch = filter(ch, prime)
+            } else { // 素数が最大値の平方根（√15485863）より大きい場合はフィルタを作らず無条件に通す
+                fflag = false
+            }
+        }
+        close(out)
+    }()
+    return out
 }
 ```
 
@@ -719,3 +714,10 @@ if !ok {
 [map]: http://golang.org/ref/spec#Map_types
 [channel]: http://golang.org/ref/spec#Channel_types
 [goroutine]: http://golang.org/ref/spec#Go_statements
+
+## 参考図書
+
+<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1D6/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/415MuioBMJL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1D6/baldandersinf-22/">数学ガール／ゲーデルの不完全性定理</a></dt><dd>結城 浩 </dd><dd>SBクリエイティブ株式会社 2014-02-14</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1FO/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8AT1FO.09._SCTHUMBZZZ_.jpg"  alt="数学ガール／乱択アルゴリズム"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1CM/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8AT1CM.09._SCTHUMBZZZ_.jpg"  alt="数学ガール／フェルマーの最終定理"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00L0PDMK4/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00L0PDMK4.09._SCTHUMBZZZ_.jpg"  alt="数学ガール／ガロア理論"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00W6NCLL0/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00W6NCLL0.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート/数列の広場"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00W6NCLJM/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00W6NCLJM.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート/丸い三角関数"  /></a> </p>
+<p class="description">結城浩さんの本はよく整備された遊歩道を散歩するような気楽さと安心感がある。だから「フェルマーの最終定理」とか「ゲーデルの不完全性定理」とかいった難解そうなテーマでも，迷うことなく，しかも一歩ずつ歩みを進めてゴールまで辿り着けるのかもしれない。</p>
+<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-09-16">2015-09-16</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+</div>

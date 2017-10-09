@@ -35,7 +35,7 @@ Windows 環境が前提になっているのであしからず。
 インストールが成功するとインストールフォルダ `C:\Users\username\AppData\Local\atom\bin` に PATH が通る。
 これでコマンドプロンプトからも `atom` および `apm` コマンドが使えるようになる。
 
-```
+```text
 C:>atom -v
 
 1.6.0
@@ -174,7 +174,7 @@ C:>apm config set strict-ssl false
 ただし，コードに関しては視認性が一番重要。
 というわけで， “Font Family” の項目に以下を指定してみる。
 
-```
+```text
 Inconsolata, "MS Mincho"
 ```
 
@@ -182,7 +182,7 @@ Inconsolata, "MS Mincho"
 「[游ゴシック 游明朝フォントパック](https://www.microsoft.com/ja-jp/download/details.aspx?id=49116 "Download 游ゴシック 游明朝フォントパック from Official Microsoft Download Center")」が使える場合にはこれを使う手もある。
 この場合は
 
-```
+```text
 Inconsolata, "Yu Mincho"
 ```
 
@@ -193,7 +193,7 @@ Windows では Tree View のフォントが汚いので，ここは素直に Mei
 
 ```css
 .tree-view {
-	font-family: "Meiryo UI";
+  font-family: "Meiryo UI";
 }
 atom-workspace {
   font-family: "Meiryo UI";

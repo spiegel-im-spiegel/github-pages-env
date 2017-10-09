@@ -42,11 +42,11 @@ title = "オンラインでプログラミング"
 
 ```go
 for depth := 0; ; depth++ {
-	pc, _, line, ok := runtime.Caller(depth)
-	if !ok {
-		break
-	}
-	fmt.Fprintf(log, " -> %d: %s: (%d)\n", depth, runtime.FuncForPC(pc).Name(), line)
+    pc, _, line, ok := runtime.Caller(depth)
+    if !ok {
+        break
+    }
+    fmt.Fprintf(log, " -> %d: %s: (%d)\n", depth, runtime.FuncForPC(pc).Name(), line)
 }
 ```
 
@@ -96,28 +96,28 @@ Gist との同期は自動ではなく明示的に指定する必要がある。
 package main
 
 import (
-	"fmt"
-	"io"
-	"os"
+    "fmt"
+    "io"
+    "os"
 
-	"golang.org/x/text/encoding/japanese"
-	"golang.org/x/text/transform"
+    "golang.org/x/text/encoding/japanese"
+    "golang.org/x/text/transform"
 )
 
 func main() {
-	reader := NewDecoder(os.Stdin)
-	writer := NewEncoder(os.Stdout)
-	if _, err := io.Copy(writer, reader); err != nil {
-		fmt.Fprintln(os.Stderr, err)
-	}
+    reader := NewDecoder(os.Stdin)
+    writer := NewEncoder(os.Stdout)
+    if _, err := io.Copy(writer, reader); err != nil {
+        fmt.Fprintln(os.Stderr, err)
+    }
 }
 
 func NewDecoder(reader io.Reader) *transform.Reader {
-	return transform.NewReader(reader, japanese.ShiftJIS.NewDecoder())
+    return transform.NewReader(reader, japanese.ShiftJIS.NewDecoder())
 }
 
 func NewEncoder(writer io.Writer) *transform.Writer {
-	return transform.NewWriter(writer, japanese.EUCJP.NewEncoder())
+    return transform.NewWriter(writer, japanese.EUCJP.NewEncoder())
 }
 ```
 

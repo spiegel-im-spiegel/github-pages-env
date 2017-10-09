@@ -30,22 +30,22 @@ title = "スタック追跡とパニック・ハンドリング"
 package main
 
 import (
-	"fmt"
-	"os"
+    "fmt"
+    "os"
 )
 
 func main() {
-	os.Exit(run())
+    os.Exit(run())
 }
 
 func run() int {
-	f()
-	return 0
+    f()
+    return 0
 }
 
 func f() {
-	numbers := []int{0, 1, 2}
-	fmt.Println(numbers[3]) //panic!
+    numbers := []int{0, 1, 2}
+    fmt.Println(numbers[3]) //panic!
 }
 ```
 
@@ -59,11 +59,11 @@ panic: runtime error: index out of range
 
 goroutine 1 [running]:
 main.f()
-	/tmp/sandbox269685094/main.go:19 +0x160
+    /tmp/sandbox269685094/main.go:19 +0x160
 main.run(0x20300, 0x104000e0)
-	/tmp/sandbox269685094/main.go:13 +0x20
+    /tmp/sandbox269685094/main.go:13 +0x20
 main.main()
-	/tmp/sandbox269685094/main.go:9 +0x20
+    /tmp/sandbox269685094/main.go:9 +0x20
 ```
 
 まぁ必要な情報はあるのでこれでも構わないのだが，ファイル名がフルパスで表示されるのがアレな感じである。
@@ -76,39 +76,39 @@ main.main()
 package main
 
 import (
-	"fmt"
-	"io"
-	"os"
-	"runtime"
+    "fmt"
+    "io"
+    "os"
+    "runtime"
 )
 
 func main() {
-	os.Exit(run(os.Stderr))
+    os.Exit(run(os.Stderr))
 }
 
 func run(log io.Writer) (exit int) {
-	defer func() {
-		if r := recover(); r != nil {
-			fmt.Fprintf(log, "Panic: %v\n", r)
-			for depth := 0; ; depth++ {
-				pc, src, line, ok := runtime.Caller(depth)
-				if !ok {
-					break
-				}
-				fmt.Fprintf(log, " -> %d: %s: %s(%d)\n", depth, runtime.FuncForPC(pc).Name(), src, line)
-			}
-			exit = 1
-		}
-	}()
+    defer func() {
+        if r := recover(); r != nil {
+            fmt.Fprintf(log, "Panic: %v\n", r)
+            for depth := 0; ; depth++ {
+                pc, src, line, ok := runtime.Caller(depth)
+                if !ok {
+                    break
+                }
+                fmt.Fprintf(log, " -> %d: %s: %s(%d)\n", depth, runtime.FuncForPC(pc).Name(), src, line)
+            }
+            exit = 1
+        }
+    }()
 
-	f()
+    f()
     exit = 0
     return
 }
 
 func f() {
-	numbers := []int{0, 1, 2}
-	fmt.Println(numbers[3]) //panic!
+    numbers := []int{0, 1, 2}
+    fmt.Println(numbers[3]) //panic!
 }
 ```
 
@@ -132,11 +132,11 @@ Panic: runtime error: index out of range
 
 ```go
 for depth := 0; ; depth++ {
-	pc, _, line, ok := runtime.Caller(depth)
-	if !ok {
-		break
-	}
-	fmt.Fprintf(log, " -> %d: %s: (%d)\n", depth, runtime.FuncForPC(pc).Name(), line)
+    pc, _, line, ok := runtime.Caller(depth)
+    if !ok {
+        break
+    }
+    fmt.Fprintf(log, " -> %d: %s: (%d)\n", depth, runtime.FuncForPC(pc).Name(), line)
 }
 ```
 
