@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-10-06T11:06:37+09:00"
+update = "2017-10-09T11:09:33+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -259,6 +259,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go言語でJSON内の整数は10進数6桁しか表現できない - Qiita](http://qiita.com/toast-uz/items/52f0c86716493ad3ca12)
 - [JSONSchemaからstructのようなコードを生成する"structr"というのを書いた - Qiita](http://qiita.com/damele0n/items/92a9b845c991b1b29aea)
 - [GolangでEnumをフィールドに持つstructをいい感じにjsonエンコード / デコードする - 一から勉強させてください(￣ω￣;)](http://dangerous-animal141.hatenablog.com/entry/2017/01/19/004650)
+- [golang xml.Marshal でxmlタグで出力する - Qiita](https://qiita.com/dolpher/items/024af13c37926218c3f5)
 
 ### [`time`] パッケージ
 
@@ -578,6 +579,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [GAE/Goでもgoroutine使おうぜ！というハナシ - Qiita](http://qiita.com/hogedigo/items/f0f409ee944c4b2107c3) : GAE/Go の API には非同期版がないので積極的に goroutine 使おうよ，という話
 - [CircleCI 2.0でGlide管理のGoをGAEにデプロイする - Qiita](https://qiita.com/kenichi_odo/items/074f1b9541dd0487f1d8)
 - [GAE(Google App Engine) で Golang を開発するための環境を構築する #golang - Qiita](https://qiita.com/ynozue/items/d12c1da13bbdb9213ba4)
+- [GAE(Google App Engine) で Golang 初めての REST API #golang - Qiita](https://qiita.com/ynozue/items/22967c3c8e12129d7527)
 
 ## Excel との連携
 
