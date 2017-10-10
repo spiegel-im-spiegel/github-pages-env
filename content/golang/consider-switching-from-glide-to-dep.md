@@ -1,6 +1,7 @@
 +++
 title = "Glide から Dep への移行を検討する"
 date =  "2017-10-10T18:02:56+09:00"
+update =  "2017-10-10T22:58:09+09:00"
 description = "つまり「依存関係（Vendoring）管理ツールとしては dep を推奨するけど移行できない人のために当面はサポートを続けるよ（でも将来は分からん）」という解釈でいいのだろうか。"
 tags = ["golang", "engineering", "vendoring", "package", "tools", "glide", "dep", "nyagos", "lua"]
 
@@ -70,6 +71,23 @@ $ go install -v github.com/golang/dep/cmd/dep
 Windows ユーザは何のファイルかと思うかもしれないが，実はこれ実行ファイルなので， `dep.exe` にリネームしてそのまま使える。
 
 万が一があっては困るのでモジュールの SHA256 ハッシュ値を確認しておく（こういうのこそ OpenPGP を使ってくれないものか）。
+Windows ユーザで Windows 8.1 以降であれば PowerShell（4.0 以上）で [`Get-FileHash`] コマンドレットが使える[^ps1]。
+
+[^ps1]: Windows 7 の場合は “[Windows Management Framework 4.0](https://www.microsoft.com/ja-jp/download/details.aspx?id=40855)” をインストールすることで PowerShell 4.0 にアップグレードできる。
+
+```powershell
+PS C:\Users\username> Get-FileHash dep-windows-amd64 -Algorithm SHA256 | Format-List
+
+Algorithm : SHA256
+Hash      : D4BF3EC10B1808CAB883C6AB2901C396CF463E684FDA350199E93E31806C194A
+Path      : C:\Users\username\Downloads\dep-windows-amd64
+```
+
+これを `dep-windows-amd64.sha256` に記載されている値と比較する。
+改竄されてなければ同じ値になるはずである。
+目視は辛いのでテキストエディタ等の検索機能を使えばいいだろう。
+
+<!--
 Windows ユーザには（`sha256sum` といった）標準ツールがないのが痛いのだが， [7-Zip] があるなら，これを使ってハッシュ値を確認できる。
 
 ```text
@@ -116,6 +134,7 @@ $ sha256sum dep-windows-amd64
 で同じ結果が得られる。
 改竄の有無を確認するためにファイルのハッシュ値を調べることはよくあるので準備しておくとよい。
 {{% /div-box %}}
+-->
 
 実行モジュールの動作確認もしておく。
 
@@ -482,6 +501,7 @@ $ dep status -dot | dot -Tpng -o pi-dependency.png
 [glide]: https://github.com/Masterminds/glide "Masterminds/glide"
 [dep]: https://github.com/golang/dep "golang/dep: Go dependency management tool"
 [7-Zip]: http://www.7-zip.org/
+[`Get-FileHash`]: http://technet.microsoft.com/en-us/library/dn520872.aspx
 [Graphviz]: http://www.graphviz.org/ "Graphviz | Graphviz - Graph Visualization Software"
 [spiegel-im-spiegel/pi]: https://github.com/spiegel-im-spiegel/pi "spiegel-im-spiegel/pi: Estimate of Pi with Monte Carlo method."
 [spiegel-im-spiegel/gocli]: https://github.com/spiegel-im-spiegel/gocli "spiegel-im-spiegel/gocli: Command line interface"
