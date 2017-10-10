@@ -1,6 +1,6 @@
 +++
 date = "2015-12-07T23:30:21+09:00"
-update = "2016-11-18T09:28:32+09:00"
+update = "2017-10-10T18:12:56+09:00"
 description = "Go 言語 1.5 の vendoring 機能をサポートするツールが glide である。"
 draft = false
 tags = ["golang", "engineering", "vendoring", "package", "tools", "glide", "gb"]
@@ -20,6 +20,18 @@ title = "Glide で Vendoring"
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
+
+**【2017-10-10 追記】**
+[glide] プロジェクトは Vendoring ツールとして公式ツールの [dep] を推し始めたようである。
+
+- [Glide から Dep への移行を検討する]({{< relref "golang/consider-switching-from-glide-to-dep.md" >}})
+
+そこで当セクションでも今後は [dep] を推していくことにする。
+この記事はメンテナンスされない可能性があるが，あしからずご了承の程を。
+
+[dep]: https://github.com/golang/dep "golang/dep: Go dependency management tool"
+
+----
 
 以前「[GOPATH 汚染問題]({{< relref "golang/gopath-pollution.md" >}})」で [Go 言語] 1.5 の vendoring 機能を紹介したが，この vendoring のヘルパ・ツールと言えるのが [glide] である。
 [glide] では依存する外部パッケージの情報を YAML 形式の定義ファイルに記述し，この定義ファイルを基に外部パッケージの管理を行う。
