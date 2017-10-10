@@ -2,10 +2,6 @@
 
 NTT 新規契約 0800-2000-116
 
-- [golang 数値（文字列）を指定桁数の先頭0詰めにして返す - Qiita](https://qiita.com/dolpher/items/021583168b7c13c66536)
-
-<iframe src="https://mars.jpl.nasa.gov/participate/send-your-name/insight/?action=getcert&e=1&pid=3&cn=236002592140&" width="750" height="307" scrolling="no" frameborder="0"></iframe>
-
 ## いつか買う，かも
 
 - [ロボット法 - 株式会社　勁草書房](http://www.keisoshobo.co.jp/book/b324580.html) : こっちは面白そう
@@ -17,6 +13,7 @@ NTT 新規契約 0800-2000-116
 
 ## セキュリティ関連
 
+- [マンションのLAN内のゲートウェイが中間者攻撃してくるお話 - Qiita](https://qiita.com/docokano2/items/3013cd8ede44795f2100)
 
 ## 天文関連
 
