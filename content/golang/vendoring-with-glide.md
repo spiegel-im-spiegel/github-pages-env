@@ -1,9 +1,9 @@
 +++
 date = "2015-12-07T23:30:21+09:00"
-update = "2017-10-10T18:12:56+09:00"
+update =  "2017-10-11T10:52:03+09:00"
 description = "Go 言語 1.5 の vendoring 機能をサポートするツールが glide である。"
 draft = false
-tags = ["golang", "engineering", "vendoring", "package", "tools", "glide", "gb"]
+tags = ["golang", "engineering", "package", "vendoring", "tools", "glide", "gb", "testing"]
 title = "Glide で Vendoring"
 
 [author]
@@ -19,6 +19,10 @@ title = "Glide で Vendoring"
   tumblr = "spiegel-im-spiegel"
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 **【2017-10-10 追記】**
@@ -48,7 +52,7 @@ title = "Glide で Vendoring"
 
 既に [glide] が利用可能な状態なら，以下の要領でビルドできる。
 
-```
+```text
 C:\workspace\glide>SET GOPATH=C:\workspace\glide
 
 C:\workspace\glide>SET GO15VENDOREXPERIMENT=1
@@ -111,7 +115,7 @@ glide version dev
 
 簡単な使い方は以下の通り。
 
-```
+```text
 C:> glide -h
 NAME:
    glide - The lightweight vendor package manager for your Go projects.
@@ -168,7 +172,7 @@ GLOBAL OPTIONS:
 動作検証用に「[GOPATH 汚染問題]({{< relref "golang/gopath-pollution.md" >}})」で使ったコードを利用する。
 まず，以下の環境を作る。
 
-```bash
+```text
 C:\workspace\vdemo2>SET GOPATH=C:\workspace\vdemo2
 
 C:\workspace\vdemo2>SET GO15VENDOREXPERIMENT=1
@@ -220,7 +224,7 @@ func main() {
 
 当然ながら，このままビルドしても外部パッケージがないため失敗する。
 
-```
+```text
 C:\workspace\vdemo2>go install ./...
 src\julian-day\julian-day.go:10:2: cannot find package "github.com/spiegel-im-spiegel/astrocalc/modjulian" in any of:
         C:\Go\src\github.com\spiegel-im-spiegel\astrocalc\modjulian (from $GOROOT)
@@ -231,7 +235,7 @@ src\julian-day\julian-day.go:10:2: cannot find package "github.com/spiegel-im-sp
 
 開発環境ができたら，パッケージのフォルダ（今回は `src/julian-day`）に移動し， `glide create` コマンドで依存関係を定義する `glide.yaml` ファイルを生成する。
 
-```
+```text
 C:\workspace\vdemo2>pushd src\julian-day
 
 C:\workspace\vdemo2\src\julian-day>glide create
@@ -292,7 +296,7 @@ import:
 
 パッケージの取得には `glide update` または `glide up` コマンドを起動する。
 
-```
+```text
 C:\workspace\vdemo2\src\julian-day>glide up
 [INFO] Fetching updates for github.com/spiegel-im-spiegel/astrocalc.
 [INFO] Setting version for github.com/spiegel-im-spiegel/astrocalc to v0.1.0.
@@ -328,7 +332,7 @@ C:\WORKSPACE\VDEMO2
 これでビルドが可能になった。
 ではビルドしようかな。
 
-```
+```text
 C:\workspace\vdemo2\src\julian-day>popd
 
 C:\workspace\vdemo2>go install -v  ./...

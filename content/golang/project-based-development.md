@@ -1,9 +1,9 @@
 +++
 date = "2015-09-28T20:38:45+09:00"
-update = "2015-12-08T15:44:37+09:00"
+update =  "2017-10-11T10:52:03+09:00"
 description = "今回は gb を使ってプロジェクト・ベースで Golang のコードを管理してみる。"
 draft = false
-tags = ["golang", "engineering", "tools", "gb"]
+tags = ["golang", "engineering", "tools", "gb", "testing"]
 title = "gb でプロジェクト・ベースの開発環境をつくる"
 
 [author]
@@ -18,6 +18,10 @@ title = "gb でプロジェクト・ベースの開発環境をつくる"
   name = "Spiegel"
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 （初出： [はじめての Go 言語 (on Windows) その9 - Qiita](http://qiita.com/spiegel-im-spiegel/items/ef15a48542e043b32c99)）
@@ -30,9 +34,9 @@ title = "gb でプロジェクト・ベースの開発環境をつくる"
 
 [gb] の導入は `go get` でできる[^b]。
 
-[^b]: `go get` の使い方については「[go get コマンドでパッケージを管理する]({{< relref "golang/go-get-package.md" >}})」を参照のこと。
+[^b]: コマンド `go get` の使い方については「[go get コマンドでパッケージを管理する]({{< relref "golang/go-get-package.md" >}})」を参照のこと。
 
-```
+```text
 C:>go get -v github.com/constabulary/gb/...
 github.com/constabulary/gb (download)
 github.com/constabulary/gb/log
@@ -93,7 +97,7 @@ func main() {
 このフォルダに上述のコードを記述したソース・ファイルを配置する。
 フォルダ構成は以下の通り。
 
-```
+```text
 C:\workspace\gbdemo>tree /f .
 C:\WORKSPACE\GBDEMO
 └─src
@@ -103,7 +107,7 @@ C:\WORKSPACE\GBDEMO
 
 ビルドするには `gb build` コマンドを実行すればいいのだが，このままでは `modjulian` パッケージがないため失敗する。
 
-```
+```text
 C:\workspace\gbdemo>gb build
 FATAL command "build" failed: failed to resolve import path "julian-day": cannot find package "github.com/spiegel-im-spiegel/astrocalc/modjulian" in any of:
         C:\Go\src\github.com\spiegel-im-spiegel\astrocalc\modjulian (from $GOROOT)
@@ -120,7 +124,7 @@ FATAL command "build" failed: failed to resolve import path "julian-day": cannot
 [gb] では外部パッケージを `gb vendor` コマンドで管理できる。
 外部パッケージの導入には `gb vendor fetch` コマンドを使う。
 
-```
+```text
 C:\workspace\gbdemo>gb vendor fetch github.com/spiegel-im-spiegel/astrocalc/modjulian
 
 C:\workspace\gbdemo>tree /f .
@@ -168,13 +172,13 @@ C:\WORKSPACE\GBDEMO
 
 ちなみに外部パッケージをアップデートする場合は `gb vendor update` コマンドを使う。
 
-```
+```text
 C:\workspace\gbdemo>gb vendor update github.com/spiegel-im-spiegel/astrocalc/modjulian
 ```
 
 または
 
-```
+```text
 C:\workspace\gbdemo>gb vendor update -all
 ```
 
@@ -182,7 +186,7 @@ C:\workspace\gbdemo>gb vendor update -all
 
 では，この状態でもう一回ビルドしてみる。
 
-```
+```text
 C:\workspace\gbdemo>gb build
 julian-day
 
@@ -225,7 +229,7 @@ MJD = 57023日
 今度は上手くいったようだ。
 `gb build` コマンドのオプションは以下の通り。
 
-```
+```text
 C:\workspace\gbdemo>gb help build
 usage: gb build [build flags] [packages]
 
@@ -280,7 +284,7 @@ where packages and binaries are installed, run 'gb help project'.
 複数のパッケージをまとめて管理したい場合もある。
 例えば以下のような構成を考えてみる。
 
-```
+```text
 C:\workspace\gbdemo>tree /f .
 C:\WORKSPACE\GBDEMO
 └─src
@@ -322,7 +326,7 @@ C:\WORKSPACE\GBDEMO
 
 この状態でビルドを実行してみる。
 
-```
+```text
 C:\workspace\gbdemo>gb build
 github.com/spiegel-im-spiegel/astrocalc/modjulian
 julian-day
@@ -367,7 +371,7 @@ MJD = 57023日
 [gb] ではプロジェクト・フォルダ以下にあるパッケージを自動で検索してビルドしてくれる。
 もちろんパッケージを指定してビルドすることも可能。
 
-```
+```text
 C:\workspace\gbdemo>gb build github.com/spiegel-im-spiegel/astrocalc/modjulian
 github.com/spiegel-im-spiegel/astrocalc/modjulian
 
@@ -379,7 +383,7 @@ julian-day
 
 [^a]: テストについては「[Go 言語のテスト・フレームワーク]({{< relref "golang/testing.md" >}})」を参照のこと。
 
-```shell
+```text
 C:\workspace\gbdemo>gb test -v github.com/spiegel-im-spiegel/astrocalc/modjulian
 === RUN   TestDayNumber
 --- PASS: TestDayNumber (0.00s)

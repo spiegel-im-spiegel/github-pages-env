@@ -3,7 +3,7 @@ title = "Glide から Dep への移行を検討する"
 date =  "2017-10-10T18:02:56+09:00"
 update =  "2017-10-11T10:52:03+09:00"
 description = "つまり「依存関係（Vendoring）管理ツールとしては dep を推奨するけど移行できない人のために当面はサポートを続けるよ（でも将来は分からん）」という解釈でいいのだろうか。"
-tags = ["golang", "engineering", "vendoring", "package", "tools", "glide", "dep", "test"]
+tags = ["golang", "engineering", "package", "vendoring", "tools", "glide", "dep", "testing"]
 
 [author]
   name      = "Spiegel"
