@@ -1,3 +1,1 @@
-{{ with .Get "lang" }}<div lang="{{ . }}">{{ else }}<div>{{ end }}
-{{ .Inner }}
-</div>
+<div{{ with .Get "class" }} class="{{ . }}"{{ end }}{{ with .Get "lang" }} lang="{{ . }}"{{ end }}>{{ .Inner }}</div>
