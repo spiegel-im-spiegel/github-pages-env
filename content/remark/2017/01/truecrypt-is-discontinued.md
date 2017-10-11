@@ -1,6 +1,6 @@
 +++
 date = "2017-01-10T20:21:52+09:00"
-update = "2017-01-12T15:41:22+09:00"
+update = "2017-10-11T19:18:24+09:00"
 title = "TrueCrypt の代替え製品"
 draft = false
 tags = ["security", "cryptography", "tools", "truecrypt"]
@@ -69,6 +69,7 @@ TrueCrypt はフリーのストレージ暗号化ツールである。
 - [TrueCrypt 終了宣言？｜Der Spiegel im Spiegel｜note](https://note.mu/spiegel/n/na028940a6872)
 - [TrueCrypt must not die｜Der Spiegel im Spiegel｜note](https://note.mu/spiegel/n/n655406068534)
 - [CIA（および NSA）による iOS および Windows BitLocker への攻撃 – Medium](https://medium.com/@spiegel/-a58a0cae2464)
+- [【レビュー】秘密のファイルを隠しておくための暗号化仮想ドライブを作成できる「VeraCrypt」 - 窓の杜](http://text.baldanders.info/remark/2017/01/truecrypt-is-discontinued/)
 
 [TrueCrypt is discontinued]: https://www.comparitech.com/blog/information-security/truecrypt-is-discoutinued-try-these-free-alternatives/ "TrueCrypt is discontinued, try these free alternative disk encryption tools"
 [VeraCrypt]: https://veracrypt.codeplex.com/
