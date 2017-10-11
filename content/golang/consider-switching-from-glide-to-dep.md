@@ -1,9 +1,9 @@
 +++
 title = "Glide から Dep への移行を検討する"
 date =  "2017-10-10T18:02:56+09:00"
-update =  "2017-10-10T22:58:09+09:00"
+update =  "2017-10-11T10:52:03+09:00"
 description = "つまり「依存関係（Vendoring）管理ツールとしては dep を推奨するけど移行できない人のために当面はサポートを続けるよ（でも将来は分からん）」という解釈でいいのだろうか。"
-tags = ["golang", "engineering", "vendoring", "package", "tools", "glide", "dep", "nyagos", "lua"]
+tags = ["golang", "engineering", "vendoring", "package", "tools", "glide", "dep", "test"]
 
 [author]
   name      = "Spiegel"
@@ -242,8 +242,8 @@ Converting from glide.yaml and glide.lock...
 実は [spiegel-im-spiegel/gocli] パッケージの最新版は v0.4.0 だが， `glide.lock` の内容を読み取って，ちゃんと v0.3.0 のものを取ってきているようだ。
 偉いぞ！
 
-`dep init` コマンドにより `Gopkg.toml` および `Gopkg.lock` の2つのファイルと `vendor/` フォルダが作成される。
-このうち `Gopkg.toml` の内容は以下の通り。
+`dep init` コマンドにより [`Gopkg.toml`] および `Gopkg.lock` の2つのファイルと `vendor/` フォルダが作成される。
+このうち [`Gopkg.toml`] の内容は以下の通り。
 
 ```toml
 [[constraint]]
@@ -413,7 +413,7 @@ Root project is "github.com/spiegel-im-spiegel/pi"
 うーん。
 どうやら使わないサブパッケージまで依存関係を追跡してるみたい。
 
-そこで `Gopkg.toml` に以下の記述を加えて余計なパッケージを読み込ませないようにした。
+そこで [`Gopkg.toml`] に以下の記述を加えて余計なパッケージを読み込ませないようにした。
 
 ```toml
 ignored = [
@@ -425,7 +425,7 @@ ignored = [
 ]
 ```
 
-ついでに `Gopkg.toml` で [spiegel-im-spiegel/gocli] パッケージのバージョンを明記する。
+ついでに [`Gopkg.toml`] で [spiegel-im-spiegel/gocli] パッケージのバージョンを明記する。
 
 ```toml
 [[constraint]]
@@ -471,7 +471,7 @@ github.com/spiegel-im-spiegel/gocli   ^0.3.0      v0.3.0         5929f04   5929f
 と元に戻った。
 不要なサブパッケージを排除するのはちょっと面倒くさそうである。
 
-ちなみに `Gopkg.toml` のバージョン指定は “[Semantic Versioning]” に従っている。
+ちなみに [`Gopkg.toml`] のバージョン指定は “[Semantic Versioning]” に従っている。
 具体的には “[Semantic Versioning]” の [Go 言語]実装である [Masterminds/semver] パッケージを参照するとよい。
 
 ## 依存関係の視覚化
@@ -489,6 +489,118 @@ $ dep status -dot | dot -Tpng -o pi-dependency.png
 
 ブラボー！
 
+## リポジトリへのパスを直接指定する
+
+GitHub みたいな有名 SaaS に置いてあるパッケージなら [`Gopkg.toml`] に
+
+```toml
+[[constraint]]
+  name = "github.com/spiegel-im-spiegel/gocli"
+  version = "0.3.0"
+```
+
+とか書けば適切に処理してくれるけど，有名でない SaaS ディレクトリや職場 LAN のリポジトリ上のパッケージではこうはいかないこともある。
+こういう場合には，以下に示す通り，直接リポジトリへの（プロトコルを含めた）パスを指定できる。
+
+{{< highlight toml "hl_lines=3" >}}
+[[constraint]]
+  name = "github.com/spiegel-im-spiegel/gocli"
+  source = "git@github.com:spiegel-im-spiegel/gocli.git"
+  version = "0.3.0"
+{{< /highlight >}}
+
+これで `dep ensure` すれば
+
+{{< highlight text "hl_lines=5" >}}
+$ dep ensure -v
+
+...
+
+(1/8) Wrote github.com/spiegel-im-spiegel/gocli (from git@github.com:spiegel-im-spiegel/gocli.git)@v0.3.0
+(2/8) Wrote github.com/pkg/errors@248dadf4e9068a0b3e79f02ed0a610d935de5302
+(3/8) Wrote github.com/davidminor/gorand@189780b8053a44a111339a4248394fd844c1da40
+(4/8) Wrote github.com/spf13/pflag@5ccb023bc27df288a957c5e994cd44fd19619465
+(5/8) Wrote github.com/inconshreveable/mousetrap@v1.0
+(6/8) Wrote github.com/davidminor/uint128@master
+(7/8) Wrote github.com/spf13/cobra@6b74a60562f5c1c920299b8f02d153e16f4897fc
+(8/8) Wrote github.com/seehuhn/mt19937@master
+{{< /highlight >}}
+
+といった感じになる。
+ちゃんと指定したリポジトリからパッケージを取得してきているのが分かるだろう。
+
+## Go 1.9 から glide novendor は必要なくなった
+
+Vendoring で一番あつかいに困るのがテストで，たとえば安直に
+
+```text
+$ go test -v ./...
+```
+
+とかやると `vendor/` フォルダ以下のパッケージまでテスト・シーケンスが走ってしまうのが困りものであった。
+このため [glide] にはこれを回避する `glide novendor` コマンドがあって
+
+```text
+$ go test -v $(glide novendor)
+```
+
+とすることで `vendor/` フォルダへのテストを回避できるようになっていたのだ[^tst1]。
+
+[^tst1]: [glide] を使わない場合は `go test -v $(go list ./... | grep -v /vendor/)` とかする。どのみち Windows のコマンドプロンプトでは無理だけど（笑）
+
+ところがところがである！！
+
+[Go 言語] 1.9 からは `./...` の扱いが変更になり
+
+{{% fig-quote title="Go 1.9 Release Notes" link="https://golang.org/doc/go1.9#vendor-dotdotdot" lang="en" %}}
+“By popular request, `./...` no longer matches packages in `vendor` directories in tools accepting package names, such as `go test`.”
+{{% /fig-quote %}}
+
+ということで `./...` に `vendor/` フォルダ以下が含まれないことになったのだ。
+たとえば [spiegel-im-spiegel/pi] パケージの場合は
+
+```text
+$ go list ./...
+github.com/spiegel-im-spiegel/pi
+github.com/spiegel-im-spiegel/pi/cmd
+github.com/spiegel-im-spiegel/pi/estmt
+github.com/spiegel-im-spiegel/pi/gencmplx
+github.com/spiegel-im-spiegel/pi/genpi
+github.com/spiegel-im-spiegel/pi/plot
+github.com/spiegel-im-spiegel/pi/qq
+```
+
+となる。
+逆に `vendor/` フォルダも含めたいなら
+
+```text
+$ go list ./... ./vendor/...
+github.com/spiegel-im-spiegel/pi
+github.com/spiegel-im-spiegel/pi/cmd
+github.com/spiegel-im-spiegel/pi/estmt
+github.com/spiegel-im-spiegel/pi/gencmplx
+github.com/spiegel-im-spiegel/pi/genpi
+github.com/spiegel-im-spiegel/pi/plot
+github.com/spiegel-im-spiegel/pi/qq
+github.com/spiegel-im-spiegel/pi/vendor/github.com/davidminor/gorand/lcg
+github.com/spiegel-im-spiegel/pi/vendor/github.com/davidminor/gorand/pcg
+github.com/spiegel-im-spiegel/pi/vendor/github.com/davidminor/uint128
+github.com/spiegel-im-spiegel/pi/vendor/github.com/inconshreveable/mousetrap
+github.com/spiegel-im-spiegel/pi/vendor/github.com/pkg/errors
+github.com/spiegel-im-spiegel/pi/vendor/github.com/seehuhn/mt19937
+github.com/spiegel-im-spiegel/pi/vendor/github.com/spf13/cobra
+github.com/spiegel-im-spiegel/pi/vendor/github.com/spf13/cobra/cobra
+github.com/spiegel-im-spiegel/pi/vendor/github.com/spf13/cobra/cobra/cmd
+github.com/spiegel-im-spiegel/pi/vendor/github.com/spf13/cobra/doc
+github.com/spiegel-im-spiegel/pi/vendor/github.com/spf13/pflag
+github.com/spiegel-im-spiegel/pi/vendor/github.com/spiegel-im-spiegel/gocli
+```
+
+とすればよい。
+こっちのほうが遥かに扱いやすいよね。
+
+これでまたひとつ [glide] が「要らない子」になる理由が増えてしまったのだった。
+
 ## ブックマーク
 
 - [Goオフィシャルチーム作成の依存関係管理ツール dep を試してみた ｜ Developers.IO](https://dev.classmethod.jp/go/dep/)
@@ -500,6 +612,7 @@ $ dep status -dot | dot -Tpng -o pi-dependency.png
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [glide]: https://github.com/Masterminds/glide "Masterminds/glide"
 [dep]: https://github.com/golang/dep "golang/dep: Go dependency management tool"
+[`Gopkg.toml`]: https://github.com/golang/dep/blob/master/docs/Gopkg.toml.md "dep/Gopkg.toml.md at master · golang/dep"
 [7-Zip]: http://www.7-zip.org/
 [`Get-FileHash`]: http://technet.microsoft.com/en-us/library/dn520872.aspx
 [Graphviz]: http://www.graphviz.org/ "Graphviz | Graphviz - Graph Visualization Software"
