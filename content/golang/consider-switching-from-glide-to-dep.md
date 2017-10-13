@@ -1,7 +1,7 @@
 +++
 title = "Glide から Dep への移行を検討する"
 date =  "2017-10-10T18:02:56+09:00"
-update =  "2017-10-11T10:52:03+09:00"
+update =  "2017-10-13T14:01:08+09:00"
 description = "つまり「依存関係（Vendoring）管理ツールとしては dep を推奨するけど移行できない人のために当面はサポートを続けるよ（でも将来は分からん）」という解釈でいいのだろうか。"
 tags = ["golang", "engineering", "package", "vendoring", "tools", "glide", "dep", "testing"]
 
@@ -27,7 +27,7 @@ tags = ["golang", "engineering", "package", "vendoring", "tools", "glide", "dep"
 （この記事は [Qiita とのマルチポスト](https://qiita.com/spiegel-im-spiegel/items/e931ad1a7565d02d179e)です。
 まぁ，向こうは草稿版だけど）
 
-久しぶりに [glide] を使おうと最新版（[0.13.0](https://github.com/Masterminds/glide/releases/tag/v0.13.0 "Release 0.13.0 · Masterminds/glide")）を見に行ったら “Consider switching to [dep]” とか書いてあるじゃない。
+久しぶりに [glide] を使おうと最新版（[0.13.0](https://github.com/Masterminds/glide/releases/tag/v0.13.0 "Release 0.13.0 · Masterminds/glide")）を見に行ったら “**Consider switching to [dep]**” とか書いてあるじゃない。
 
 {{< fig-quote title="Release 0.13.0" link="https://github.com/Masterminds/glide/releases/tag/v0.13.0" lang="en" >}}
 <q>Glide is used by a great number of projects and will continue to get support for some time.
@@ -557,7 +557,7 @@ $ go test -v $(glide novendor)
 {{% /fig-quote %}}
 
 ということで `./...` に `vendor/` フォルダ以下が含まれないことになったのだ。
-たとえば [spiegel-im-spiegel/pi] パケージの場合は
+たとえば [spiegel-im-spiegel/pi] パッケージの場合は
 
 ```text
 $ go list ./...
