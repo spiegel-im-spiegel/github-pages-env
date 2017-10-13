@@ -7,6 +7,8 @@ NTT 新規契約 0800-2000-116
 - [ロボット法 - 株式会社　勁草書房](http://www.keisoshobo.co.jp/book/b324580.html) : こっちは面白そう
 - [AIがつなげる社会 | 弘文堂](http://www.koubundou.co.jp/book/b315740.html)
 - [ロボット法 | 弘文堂](http://www.koubundou.co.jp/book/b324653.html)
+- [性表現規制の文化史 | 白田 秀彰 |本 | 通販 | Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/4750515183/baldandersinf-22/)
+- [Amazon.co.jp： 憲法2.0−−情報時代の新憲法草案 eBook: ゲンロン憲法委員会, 楠正憲, 境真良, 白田秀彰, 西田亮介, 東浩紀: Kindleストア](http://www.amazon.co.jp/exec/obidos/ASIN/B00K1XRA86/baldandersinf-22/)
 
 ## Age of Trump
 
@@ -21,6 +23,7 @@ NTT 新規契約 0800-2000-116
 - [Microsoft 製品の脆弱性対策について(2017年10月)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20171011-ms.html)
     - [2017年 10月マイクロソフトセキュリティ更新プログラムに関する注意喚起](http://www.jpcert.or.jp/at/2017/at170039.html)
 - [オープンソースのネットワーク解析ツール「Wireshark」v2.4.2、5件の脆弱性を修正 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1085443.html)
+- [「大量監視でテロ予防はできない」スノーデン氏が警告…日弁連・人権擁護大会 - 弁護士ドットコム](https://www.bengo4.com/c_1009/n_6787/)
 
 ## 天文関連
 
