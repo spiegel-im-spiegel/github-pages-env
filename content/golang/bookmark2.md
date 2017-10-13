@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T23:59:59+09:00"
-update = "2017-10-06T11:17:04+09:00"
+update = "2017-10-13T17:50:40+09:00"
 description = "「Go 言語に関するブックマーク」に整理しきれない未整理分。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -89,3 +89,4 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [Re:ゼロから始めないAPNGエンコーダ - Qiita](http://qiita.com/cia_rana/items/18c78e0233e117b22af6)
 - [Go言語を使用して簡単なLineBotを作る - Qiita](http://qiita.com/sao_rio/items/8801b78ba60acbb0ae41)
 - [Go言語でコマンドを実行し、一定時間内に終了しなかったらプロセスを強制終了する - Qiita](https://qiita.com/pyjama/items/a61844b11086ab6cbd76)
+- [golangでQRコードを生成するパッケージを作ってみた - Qiita](https://qiita.com/toas555/items/763bddbd1992502e62b5)
