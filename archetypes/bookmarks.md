@@ -1,5 +1,5 @@
 +++
-title = "{{ replace .TranslationBaseName "-" " " | title }}"
+title = "{{ substr .Date 0 -15 }} のブックマーク"
 date =  "{{ .Date }}"
 description = "「XXX」他"
 draft = true

@@ -1,6 +1,6 @@
 +++
 date = "2015-12-09T20:14:59+09:00"
-update = "2017-09-19T10:47:11+09:00"
+update = "2017-10-14T12:09:06+09:00"
 description = "git 各コマンドに関する覚え書き。思い出したら追記予定。"
 draft = false
 tags = ["git", "tools"]
@@ -221,6 +221,7 @@ $ git push -f
 - [GitHub にパスワードとかセンシティブなファイルを push してしまったときの対処法 - Qiita](http://qiita.com/dtan4/items/34e41e3bd40a43fd8cbf) : GitHub などリモートのリポジトリに上げてしまうと，とてつもなく面倒になるので，要注意
 - [Github のブランチ保護を使用してリスキーなマージを防止する - Qiita](http://qiita.com/yo1000/items/8ffe225716ba3b064697)
 - [Using SSH over the HTTPS port - User Documentation](https://help.github.com/articles/using-ssh-over-the-https-port/)
+- [GithubでのWeb上からのマージの仕方3種とその使いどころ - Qiita](https://qiita.com/ko-he-8/items/94e872f2154829c868df)
 
 ### Git-flow and GitHub-flow
 

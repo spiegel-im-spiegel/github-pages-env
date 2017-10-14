@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-10-09T11:09:33+09:00"
+update = "2017-10-14T12:09:06+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -620,6 +620,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 
 - [Go言語のリアルタイムGC　理論と実践 | プログラミング | POSTD](http://postd.cc/golangs-real-time-gc-in-theory-and-practice/)
 - [Go言語の低レイテンシGC実現のための取り組み | プログラミング | POSTD](http://postd.cc/gos-march-to-low-latency-gc/)
+- [引数で既存メソッドを渡した場合とlambdaで渡した場合でGCAllocに差がでた - Qiita](https://qiita.com/dimolto/items/3dbc5c20ce3c18d976c1)
 
 ## その他 四方山話
 

@@ -2,7 +2,7 @@
 tags = ["anime"]
 description = "「けもフレ」最終話で泣けたシーン / Commons としての「けもフレ」 / 息抜きで作られた「12.1話」"
 date = "2017-04-03T20:18:14+09:00"
-update = "2017-09-26T22:08:21+09:00"
+update = "2017-10-14T12:09:06+09:00"
 title = "「けもフレ」ロスは続く。"
 draft = false
 
@@ -104,6 +104,7 @@ BD 抜きで2,000円～3,000円くらいで売ってくれんかな。
     - [すぺしゃる動画「けいばじょう」 - YouTube](https://www.youtube.com/watch?v=EX_Fgi7vd5I)
 - [けものフレンズ×アニサマ2017 「あにさま」 - YouTube](https://www.youtube.com/watch?v=HUMnembozUw)
 - [日清のどん兵衛 × けものフレンズ 「ふっくら」 - YouTube](https://www.youtube.com/watch?v=LjaVOMyQEpI)
+- [Grape-kun the Otaku Penguin Has Passed Away](http://goboiano.com/grape-kun-the-otaku-penguin-has-passed-away/) : 合掌
 
 [クトゥルー神話]: https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%88%E3%82%A5%E3%83%AB%E3%83%95%E7%A5%9E%E8%A9%B1 "クトゥルフ神話 - Wikipedia"
 
