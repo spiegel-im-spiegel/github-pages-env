@@ -1,7 +1,7 @@
 +++
 title = "『シンギュラリティの神話』を読む"
 date =  "2017-09-18T21:45:03+09:00"
-update = "2017-10-14T12:09:06+09:00"
+update = "2017-10-15T09:47:21+09:00"
 description = "もし『そろそろ、人工知能の真実を話そう』が日本の読者になにがしかの衝撃を与えるとするなら，自らの稚拙さの方だろう。"
 tags        = [ "book", "artificial-intelligence", "singularity" ]
 
@@ -244,6 +244,8 @@ Google が言う “don't be evil" も市場に対するメッセージである
 - [『そろそろ、人工知能の真実を話そう』シンギュラリティ仮説の背後にうごめくもの - HONZ](http://honz.jp/articles/-/44063)
 - [AI時代に「哲学」は何を果たせるか？ 『そろそろ、人工知能の真実を話そう』著者に訊く｜WIRED.jp](https://wired.jp/2017/07/04/jean-gabriel-ganascia/)
 - [GoogleのAIのトップは曰く、人工知能という言葉自体が間違っている、誇大宣伝を生む温床だ | TechCrunch Japan](http://jp.techcrunch.com/2017/09/20/20170919googles-ai-chief-thinks-reports-of-the-ai-apocalypse-are-greatly-exaggerated/)
+- [「マスターアルゴリズム」著者が預言する人工知能の未来 | ROBOTEER](https://roboteer-tokyo.com/archives/6203)
+    - [10年後の未来、面接やデートはオンライン分身がこなす！？ | ROBOTEER](https://roboteer-tokyo.com/archives/2155)
 - [「人工知能で神を」 元Googleエンジニアが宗教団体を創立](http://www.huffingtonpost.jp/amp/2017/10/12/anthony-levandowski_a_23241928/) : ネタがマジに！ つか，ホンマにネタじゃないのか？
 
 [そろそろ、人工知能の真実を話そう]: http://www.amazon.co.jp/exec/obidos/ASIN/B071FHBGW8/baldandersinf-22/ "そろそろ、人工知能の真実を話そう (早川書房) | ジャン＝ガブリエル ガナシア, 小林 重裕・他, 伊藤 直子 | コンピュータサイエンス | Kindleストア | Amazon"

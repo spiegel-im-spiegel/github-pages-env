@@ -1,7 +1,7 @@
 +++
 title = "今こそ「グリゴリの捕縛」を読め！ または遍在する草薙素子"
 date =  "2017-10-14T01:12:32+09:00"
-update = "2017-10-15T09:23:00+09:00"
+update = "2017-10-15T12:07:39+09:00"
 description = "折角なので私も何か書いてみる。オチはないです。駄文ですみません。"
 tags = [
   "code",
@@ -52,7 +52,7 @@ tags = [
 ついでに MOBI 版も Kindle に入れてしまいました。
 Amazon Drive の “send-to-kindle” フォルダにぶち込めば楽々♪
 
-[^t1]: えーっと，私は（一方的なものも含めて）師事している人や業務上利害関係のある人以外で相手を「先生」呼ばわりすることはしない主義なので悪しからず。尊敬するしないとは別ものです。
+[^t1]: えーっと，私は（一方的なものも含めて）師事している人や業務上利害関係のある人以外で相手を「先生」呼ばわりすることはしないので悪しからず。尊敬するしないとは別ものです。
 
 - [図書カード：グリゴリの捕縛](http://www.aozora.gr.jp/cards/000021/card4307.html)
 - [白田 秀彰先生のePub・Kindle本まとめ - P2P today ダブルスラッシュ](https://wslash.com/?page_id=4729)
@@ -119,7 +119,9 @@ Amazon Drive の “send-to-kindle” フォルダにぶち込めば楽々♪
 
 ### 「ヒトは誰かがいてはじめて自分を証明できる」（By “BOOM TOWN”）
 
-人工知能「B」は哲学者が言うところの「[強い人工知能]({{< relref "remark/2017/09/the-myth-of-the-singularity.md" >}} "『シンギュラリティの神話』を読む")」である。
+人工知能「B」は哲学者が言うところの「[強い人工知能]({{< relref "remark/2017/09/the-myth-of-the-singularity.md" >}} "『シンギュラリティの神話』を読む")」である[^sm1]。
+
+[^sm1]: 「[Spiegelさんへの回答。](http://d.hatena.ne.jp/ced/20171015/1508027814 "Spiegelさんへの回答。 - 雑記帳")」で指摘していただいて気がついたけど，この記事では「スマートな機械」と「強い人工知能」を対置するように記述してしまっているが，哲学的には「強い人工知能」に対置されるのは「弱い人工知能（＝そもそもの意味での人工知能）」となる。私が「スマートな機械」と書くのはビジネス用語としての「AI」に対する強烈な皮肉である（参考：[「AIを搭載」は「全て自然」同様の技術的ナンセンスだ | TechCrunch Japan](http://jp.techcrunch.com/2017/01/11/20170110ai-powered-is-techs-meaningless-equivalent-of-all-natural/)）
 
 {{< fig-quote title="草薙素子は何人いるか？" link="http://d.hatena.ne.jp/ced/20171010/1507615755" >}}
 <q>「B」には日本国籍と住民票が紐づけられ、人間と同様に所有権を持ち、納税の義務がある。 [...] この観点では、「個人」としての「B」は国家があるから定義されるのであって、国家の先に(a prioriに)「個人」があるわけではない。</q>
@@ -127,7 +129,7 @@ Amazon Drive の “send-to-kindle” フォルダにぶち込めば楽々♪
 
 ところで，動物愛護家が近年よく使うキーワードに “non-human person” というのがある。
 すなわち，特定の動物も「（人間ではない）人」とみなして一定の「人権」を付与すべき，という考え方である。
-しかもこれ効果があるのだ。
+しかもこの言葉，政治的に効果を上げているのだ。
 
 - [non-human person の「人権」 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000788.shtml)
 
@@ -135,10 +137,10 @@ Amazon Drive の “send-to-kindle” フォルダにぶち込めば楽々♪
 
 - [Robots in Europe May Become "Electronic Persons"](https://futurism.com/robots-in-europe-may-become-electronic-persons/)
 
-もちろんこれは「動物愛護精神」を機械にまで適用しようというものではない。
+もちろんこれは「動物愛護精神」を機械にまで適用しようとかいう与太話ではない。
 機械が人の社会に（たとえば失業者が増えるような）インパクトを与えるのなら，機械にも「権利と義務」を負わせるべきだ，という主張である[^pl1]。
 
-[^pl1]: この辺は，たとえば「人工知能に製造物責任を負わせるべきか」といった議論にも通じると思う。
+[^pl1]: たとえば「人工知能に製造物責任を負わせるべきか」といった議論にも通じると思う。
 
 機械が単なる「道具」としての領分（domain）を超えようとするとき，社会はそれを「道具」に押しとどめようとするのか。
 それとも「個人」として遇するのか。
@@ -162,7 +164,7 @@ Amazon Drive の “send-to-kindle” フォルダにぶち込めば楽々♪
 とはいえタチコマのように記憶をリンクするわけではない。
 そういう意味じゃ手塚治虫さんの「ロビタ」もコピーだよな。
 
-[^tkpk1]: この辺の設定は『[てきぱきワーキン♥ラブ](http://www.amazon.co.jp/exec/obidos/ASIN/4757700423/baldandersinf-22/)』で語られている。
+[^tkpk1]: アレックスの設定は『[てきぱきワーキン♥ラブ](http://www.amazon.co.jp/exec/obidos/ASIN/4757700423/baldandersinf-22/)』で語られている。
 
 ### コピーは許可，Forkは不許可
 
@@ -174,15 +176,13 @@ Blockchain の最大の特徴は P2P (Peer-to-Peer) ネットワーク上に遍�
 
 - [ギリシャがユーロを捨ててBitcoinに切り替えてはいけない理由 | TechCrunch Japan](http://jp.techcrunch.com/2015/03/03/20150228why-greece-should-not-switch-to-bitcoin/)
 
-### 遍在する草薙素子
-
 「[グリゴリの捕縛]」ではインターネットについて
 
 {{< fig-quote title="グリゴリの捕縛" link="http://orion.mt.tama.hosei.ac.jp/hideaki/kenporon.htm" >}}
 <q>インターネットは、初め国家が使うためのネットワークとして開発が開始されました。 [...] ところが、実際にインターネットを作り上げた技術者(やはり彼らも「ハッカー」と呼ばれていました)たちは、 このインターネットの構造をとても中央集権的にコントロールしにくいように設計し ました。</q>
 {{< /fig-quote >}}
 
-と記述しているが，実際にはインターネットは（「[黄金時代](https://www.technologyreview.jp/s/22020/the-internet-is-sick/ "MIT Tech Review: インターネットの黄金時代をどう次世代に残せばいいのか？")」と呼ばれる1990年代には既に）そのような構成になっていない。
+と記述されているが，実際にはインターネットは（「[黄金時代](https://www.technologyreview.jp/s/22020/the-internet-is-sick/ "MIT Tech Review: インターネットの黄金時代をどう次世代に残せばいいのか？")」と呼ばれる1990年代には既に）そのような構成になっていない。
 これが最悪の形で顕在化したのが「アラブの春」である。
 当時，市民運動で揺れるエジプトではたった5本の電話で8000万人のインターネット・アクセスが遮断された。
 
@@ -193,6 +193,7 @@ Blockchain の最大の特徴は P2P (Peer-to-Peer) ネットワーク上に遍�
 {{< /fig-quote >}}
 
 このことへの抵抗のひとつが P2P ネットワークである。
+決して（ゼロ年代に批判されたような）脱著作権を目論んで考えられたものではないのだ。
 
 P2P ネットワークは「中央集権的ネットワーク」であるインターネットの上に実質的（virtual[^v1]）な分散ネットワークを構築する。
 そして P2P ネットワークのもうひとつの特徴はネットワークの各ノードにコピーを置くことである。
@@ -201,11 +202,22 @@ P2P ネットワークは「中央集権的ネットワーク」であるイン�
 
 [^v1]: “virtual” を「仮想的」と訳したのが[誤訳](http://d.hatena.ne.jp/oraccha/20140926/1411694081 "「Virtualを仮想と誤訳した責任は我々にあります」 - Plan9日記")だったというのはもはや有名な話なので，敢えてこう訳してみた（笑）
 
+### 遍在する草薙素子
+
 もしn人の草薙素子が統合されたひとつの人格を持っているのなら，彼女が何処にいるかという問いは意味を成さなくなる。
 それは当初インターネットを（既存の power の及ばない）分散ネットワークとして構築しようとした人たちが夢見たことだ。
 
 遍在するということは誰にも（国家にも）所有されないということであり，言い換えれば「何処にもいない」ことと同義でもある。
 国家が「個人」という概念を規定するのなら，遍在してしまった彼女は「個人」として規定できないことになる。
+
+## 【追記】 レスポンスをいただきました
+
+[ced] さんからレスポンスをいただきました。
+
+- [Spiegelさんへの回答。 - 雑記帳](http://d.hatena.ne.jp/ced/20171015/1508027814)
+
+ありがたいやら，こんな駄文で申し訳ないやら。
+多分これから「GHOST IN THE SHELL」でバトーさんが叫ぶ度に涙腺が緩むと思います（笑）
 
 ## ブックマーク
 
@@ -253,6 +265,11 @@ P2P ネットワークは「中央集権的ネットワーク」であるイン�
 <div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4326403454/baldandersinf-22/"><img src="" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4326403454/baldandersinf-22/">ロボット法</a></dt><dd>ウゴ・パガロ 新保 史生 </dd><dd>勁草書房 2017-11-30</dd></dl><p class="similar"></p>
 <p class="description">Facebook で紹介されていたので。面白そうだがちと高い。</p>
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-10-13">2017-10-13</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+</div>
+
+<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4N4/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51Ia%2B77IpiL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4N4/baldandersinf-22/">BOOM TOWN　TRIP.30</a></dt><dd>内田 美奈子 </dd><dd> 2014-09-26</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4DE/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00NWQI4DE.09._SCTHUMBZZZ_.jpg"  alt="BOOM TOWN　４"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4D4/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00NWQI4D4.09._SCTHUMBZZZ_.jpg"  alt="BOOM TOWN　２"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4CA/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00NWQI4CA.09._SCTHUMBZZZ_.jpg"  alt="BOOM TOWN　３"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI49S/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00NWQI49S.09._SCTHUMBZZZ_.jpg"  alt="BOOM TOWN　１"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4B6/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00NWQI4B6.09._SCTHUMBZZZ_.jpg"  alt="アンバランス・トーキョー"  /></a> </p>
+<p class="description">掲載誌「コミックガンマ」が休刊になって単行本収録できなかった<del>まるぼし</del>まぼろしの30話。これが Kindle で読めるとはいい時代になったものです。</p>
+<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-06-05">2016-06-05</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
 </div>
 
 <div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4757700423/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/518JGPT6DEL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4757700423/baldandersinf-22/">てきぱきワーキン♥ラブ (5) (ビームコミックス)</a></dt><dd>竹本 泉 </dd><dd>エンターブレイン 2000-05-01</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
