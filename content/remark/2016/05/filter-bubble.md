@@ -1,8 +1,9 @@
 +++
 date = "2016-05-07T15:04:09+09:00"
+update = "2017-10-15T09:23:00+09:00"
 description = "『フィルターバブル』の6章は個人的にゲンナリした。これが冒頭に配置されてたらゴミ箱に放り込んでただろう。"
 draft = false
-tags = ["book", "code", "tracking", "internet", "artificial-intelligence"]
+tags = ["book", "code", "tracking", "internet", "artificial-intelligence", "grigori"]
 title = "『フィルターバブル』を読む"
 
 [author]

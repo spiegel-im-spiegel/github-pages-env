@@ -1,8 +1,9 @@
 +++
 date = "2016-03-14T13:46:45+09:00"
+update = "2017-10-15T09:23:00+09:00"
 description = "だめだこりゃ"
 draft = false
-tags = ["code", "politics", "censorship", "web", "media"]
+tags = ["code", "politics", "censorship", "web", "media", "grigori"]
 title = "広告をブロックしたスペースに広告を入れる Adblock"
 
 [author]

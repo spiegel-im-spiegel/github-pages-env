@@ -1,9 +1,9 @@
 +++
 date = "2016-05-10T18:30:53+09:00"
-update = "2016-11-05T11:45:50+09:00"
+update = "2017-10-15T09:23:00+09:00"
 description = "たぶん私がこの本をひととおり理解するには，あと2,3回は再読しないといけないような気がする。なんでみんなスラスラ理解できるの？ 羨ましい。"
 draft = false
-tags = ["book", "communication", "privacy", "internet"]
+tags = ["book", "communication", "privacy", "internet", "grigori"]
 title = "『つながりっぱなしの日常を生きる』を読む"
 
 [author]

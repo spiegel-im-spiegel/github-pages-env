@@ -1,8 +1,8 @@
 +++
-tags = ["code", "internet", "cryptography", "drm", "bitcoin", "blockchain"]
+tags = ["code", "internet", "cryptography", "drm", "bitcoin", "blockchain", "grigori"]
 description = "「ウォルター・アイザックソン「インターネットは壊れている。初めからやり直すなら、私はこのようにそれを正す」 - YAMDAS現更新履歴」より"
 date = "2016-12-28T12:49:19+09:00"
-update = "2017-01-12T14:29:42+09:00"
+update = "2017-10-15T09:23:00+09:00"
 title = "ぼくがかんがえたさいきょうのいんたねっと"
 draft = false
 

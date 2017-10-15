@@ -1,9 +1,9 @@
 +++
 date = "2015-09-15T21:42:00+09:00"
-update = "2015-09-23T19:57:00+09:00"
+update = "2017-10-15T09:23:00+09:00"
 description = "「技術が社会を変える」のではないなら，むしろ「大統領選挙に出馬するレッシグ教授」こそが次の一手なのかもしれない。"
 draft = false
-tags = ["code", "politics", "internet"]
+tags = ["code", "politics", "internet", "grigori"]
 title = "『「情報社会」が「社会」になった時代』"
 
 [author]

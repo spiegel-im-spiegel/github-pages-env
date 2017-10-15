@@ -1,9 +1,9 @@
 +++
 date = "2015-11-28T19:39:24+09:00"
-update = "2016-12-26T21:07:45+09:00"
+update = "2017-10-15T09:23:00+09:00"
 description = "DELL よ，お前もか / たしかに「プライバシーマーク」はクソだけど / Google は Android 端末を解除できる"
 draft = false
-tags = ["security", "cryptography", "risk", "pki", "x509", "privacy"]
+tags = ["security", "cryptography", "risk", "pki", "x509", "privacy", "grigori"]
 title = "週末スペシャル： DELL よ，お前もか"
 
 [author]

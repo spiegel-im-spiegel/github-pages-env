@@ -1,9 +1,9 @@
 +++
 date = "2016-04-10T18:44:29+09:00"
-update = "2016-11-09T15:18:42+09:00"
+update = "2017-10-15T09:23:00+09:00"
 description = "まじめに規制に従っている人ほど馬鹿を見る社会 / Linux サブシステムは Windows の終わりの始まり / 鍵管理システム CONIKS / Go 言語を使うようになって変わったこと / その他の気になる記事"
 draft = false
-tags = ["code", "security", "risk", "management", "cryptography", "windows", "linux", "messaging", "pki", "engineering", "golang"]
+tags = ["code", "security", "risk", "management", "cryptography", "windows", "linux", "messaging", "pki", "engineering", "golang", "grigori"]
 title = "週末スペシャル： まじめに規制に従っている人ほど馬鹿を見る社会"
 
 [author]
