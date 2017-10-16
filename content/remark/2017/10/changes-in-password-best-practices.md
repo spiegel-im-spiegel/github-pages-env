@@ -47,7 +47,9 @@ Bruce Schneier 氏の “[Changes in Password Best Practices]” の内容が簡
 - 出来るだけランダムに文字を選ぶこと
 
 の3つである。
-これに関して IPA が2013年に発表した資料がある。
+これを人力で作って覚えるのは難しい。
+
+パスワードの強度に関して IPA が2013年に発表した資料がある。
 
 - [情報漏えいを防ぐためのモバイルデバイス等設定マニュアル：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ipg/documents/dev_setting_crypt.html)
     - {{< pdf-file title="情報漏えいを防ぐためのモバイルデバイス等設定マニュアル 解説編" link="https://www.ipa.go.jp/files/000026760.pdf" >}}
