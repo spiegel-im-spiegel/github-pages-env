@@ -12,6 +12,8 @@ NTT 新規契約 0800-2000-116
 
 ## Age of Trump
 
+- [「貧困と格差」ではなく「道徳と家族」というポピュリズムの「本質論」：国末憲人 | ヨーロッパの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42889)
+- [クルド危機が示す米国の仲介能力の低下：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42893)
 
 ## セキュリティ関連
 
@@ -38,5 +40,10 @@ NTT 新規契約 0800-2000-116
 - [Hugo | Hugo 0.30: Race Car Edition!](https://gohugo.io/news/0.30-relnotes/)
 - [ECDSA鍵をGitHubで使う方法 - Qiita](https://qiita.com/darai0512/items/c7b47d1b3fe06c4dea7d)
     - [GitHubでEd25519鍵をつかう - ひと目で尋常じゃないもふもふだと(ry](http://jnst.hateblo.jp/entry/2014/12/15/200542)
+- [Scoopで作るLinux on Windows開発環境 - Qiita](https://qiita.com/dozo/items/a6f63aa1b03d1773b8ec)
+- [青空文庫と式年遷宮アーキテクチャ: 青空文庫200周年に向けて](https://www.slideshare.net/takahashim/aozora20th-2017)
+- [同人誌を電子販売して売れるの？ ～メイド夜話部・ミソノ氏主催イベントで語られたそのメリット - 鷹野凌のデジタル出版最前線 - 窓の杜](http://forest.watch.impress.co.jp/docs/bookwatch/digipub/1086371.html)
+- [わが歌姫・初音ミク。世界文化史に革命を起こした少女へ - Togetterまとめ](https://togetter.com/li/1152206)
+- [「人工知能の発展と企業法務の未来（１）」ＮＢＬ角田論文を読んで | IT Research Art](http://www.itresearchart.biz/?p=989)
 
 (end of file)

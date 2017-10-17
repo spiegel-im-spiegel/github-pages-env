@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-10-16T15:50:33+09:00"
+update = "2017-10-17T17:21:58+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -208,6 +208,7 @@ title = "Go 言語に関するブックマーク"
 - [goの並行処理パターンについてのリンク集 - Qiita](https://qiita.com/ryskiwt/items/b721f6aecc5b3d680462)
     - [chanの使い方パターンメモ。 - GolangRdyJp](http://golang.rdy.jp/2015/03/25/chan_tips/)
     - [Big Sky :: golang の channel を使ったテクニックあれこれ](http://mattn.kaoriya.net/software/lang/go/20160706165757.htm)
+- [go1.9のsyncmapを試してみた - Qiita](https://qiita.com/arihitohagiwara/items/4bb2ae6a1a43384b4f60) : 並行処理に使える同期型の map
 
 Go 言語で複数 CPU を使った並列処理を行うには明示的な設定が必要。
 

@@ -1,6 +1,6 @@
 +++
 date = "2016-10-12T00:39:24+09:00"
-update = "2017-01-16T12:44:51+09:00"
+update = "2017-10-17T17:21:34+09:00"
 description = "「正義」とか「良心」とかいうのは人の不完全さの象徴である。その不完全さが人のアイデンティティだというのなら，そんな種は進化の階梯を機械に譲ったほうがいい。でも実際には，私たちは種としてもっと先に進めるはずである，と私は思う。"
 draft = false
 tags = ["artificial-intelligence", "engineering", "politics"]
@@ -178,6 +178,8 @@ AI は（今のところ）近似解に葛藤したりしない。
 - [「ピノキオ」と AI]({{< relref "remark/2016/08/pinocchio.md" >}})
 - [コンピュータが次々と間違える時代。](http://www.ne.jp/asahi/comp/tarusan/main260.htm)
 - [なぜいま「ロボット倫理学」が必要か〜問題はすでに起きている（岡本 慎平） | 現代ビジネス | 講談社](http://gendai.ismedia.jp/articles/-/50660)
+- [人類と人工知能が共存する未来への第一歩--IBMが「AI倫理」を解説 - ZDNet Japan](https://japan.zdnet.com/article/35108815/)
+- [フェイクニュースより恐ろしい、アルゴリズムの「偏見」とは何か？(塚越健司) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/tsukagoshikenji/20171013-00076828/)
 
 [yomoyomo]: http://d.hatena.ne.jp/yomoyomo/ "YAMDAS現更新履歴"
 
