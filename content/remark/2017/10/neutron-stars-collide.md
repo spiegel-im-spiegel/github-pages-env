@@ -1,6 +1,7 @@
 +++
 title = "重力波望遠鏡で中性子星同士の衝突を観測"
 date =  "2017-10-17T17:50:25+09:00"
+update =  "2017-10-17T18:19:50+09:00"
 description = "今回は中性子星同士の衝突を LIGO を始めとする重力は望遠鏡で観測した話。もう，片っ端からシンクを張り付けておくよ。"
 tags        = [ "astronomy", "gravity-wave" ]
 
@@ -46,6 +47,7 @@ tags        = [ "astronomy", "gravity-wave" ]
 
 - [「中性子星合体による重力波」初観測に成功　米欧研究チーム | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_10_16_gra.html)
     - [日本観測チーム、重力波天体の光を初観測　重元素誕生予測とほぼ一致 | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_10_17_gra2.html)
+- [2017年10月17日ニュース「日本の観測チームが『重力波』の源を世界で初めて光で捉えた」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/10/20171017_01.html)
 
 今回の成果はいくつかあって
 

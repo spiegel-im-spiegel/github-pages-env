@@ -21,6 +21,8 @@ NTT 新規契約 0800-2000-116
 - [日本のルータ4割に脆弱性、のっとりも容易 - IoTセキュリティのいま (1) もしスマートスピーカーが攻撃されたら | マイナビニュース](http://news.mynavi.jp/articles/2017/10/15/iot/)
 - [一部「Google Home Mini」で勝手に録音してサーバに送信するバグ--修正済み - CNET Japan](https://japan.cnet.com/article/35108585/)
 - [Wi-Fi認証のWPA2に複数の脆弱性？　研究者が公表を予告 - ZDNet Japan](https://japan.zdnet.com/article/35108828/)
+- [Adobe Flash Player の脆弱性対策について(APSB17-32)(CVE-2017-11292)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20171017-adobeflashplayer.html)
+    - [Adobe Flash Player の脆弱性 (APSB17-32) に関する注意喚起](https://www.jpcert.or.jp/at/2017/at170040.html)
 
 ## 天文関連
 
@@ -45,5 +47,7 @@ NTT 新規契約 0800-2000-116
 - [同人誌を電子販売して売れるの？ ～メイド夜話部・ミソノ氏主催イベントで語られたそのメリット - 鷹野凌のデジタル出版最前線 - 窓の杜](http://forest.watch.impress.co.jp/docs/bookwatch/digipub/1086371.html)
 - [わが歌姫・初音ミク。世界文化史に革命を起こした少女へ - Togetterまとめ](https://togetter.com/li/1152206)
 - [「人工知能の発展と企業法務の未来（１）」ＮＢＬ角田論文を読んで | IT Research Art](http://www.itresearchart.biz/?p=989)
+- [スマホ1台あれば数分でカード決済を導入―― 16歳起業家が作った「ONE PAY」提供元が1億円を調達 | TechCrunch Japan](http://jp.techcrunch.com/2017/10/17/onepay-fundraising/)
+- [「Bash on Windows」という名称は非推奨に。正式名称「Windows Subsystem for Linux」（WSL）としてベータを卒業、正式リリースに － Publickey](http://www.publickey1.jp/blog/17/bash_on_windowswindows_subsystem_for_linuxwsl.html)
 
 (end of file)
