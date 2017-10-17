@@ -1,0 +1,511 @@
++++
+title = "暗号鍵関連の各種変数について"
+date =  "2017-10-17T16:32:03+09:00"
+description = "この記事は将来の記事で再利用するための snippet 置き場として使うことにする。"
+tags = ["security", "cryptography", "hash", "risk", "management"]
+
+[author]
+  name      = "Spiegel"
+  url       = "http://www.baldanders.info/spiegel/profile/"
+  avatar    = "/images/avatar.jpg"
+  license   = "by-sa"
+  github    = "spiegel-im-spiegel"
+  twitter   = "spiegel_2007"
+  tumblr    = "spiegel-im-spiegel"
+  instagram = "spiegel_2007"
+  flickr    = "spiegel"
+  facebook  = "spiegel.im.spiegel"
+  linkedin  = "spiegelimspiegel"
+  flattr    = "spiegel"
+
+[scripts]
+  mathjax = true
+  mermaidjs = false
++++
+
+「[ECDSA鍵をGitHubで使う方法](https://qiita.com/darai0512/items/c7b47d1b3fe06c4dea7d)」で SP 800-56 が Rev.4 になってるのを見て一瞬「ふぁ！」となったが，よく考えたら今年始めに書いた「[最初の SHA-1 衝突例]({{< relref "remark/2017/02/sha-1-collision.md" >}})」では既に Rev.4 を参照していたのだった。
+でも古い記事を見返したら結構 Rev.3 のままになってるので，このさい全部アップデートすることにした。
+
+この記事は将来の記事で再利用するための snippet 置き場として使うことにする。
+表のレイアウトの関係で携帯端末で見ている人は見づらいかもしれないけど，そこはご容赦。
+
+## 参照資料
+
+ここで参照する資料は，米国 [NIST] の Special Publication (SP) 800-57 Part 1 で正式タイトルは「Recommendation for Key Management Part 1: General （鍵管理における推奨事項 第一部：一般事項）」となっている（日本語訳は IPA によるもの）。
+
+- [ SP 800-57 Part 1 Rev. 4 Recommendation for Key Management, Part 1: General](https://csrc.nist.gov/publications/detail/sp/800-57-part-1/rev-4/final)
+    - {{< pdf-file title="NIST Special Publication 800-57 Part 1; Revision 4; Recommendation for Key Management Part 1: General" link="https://doi.org/10.6028/NIST.SP.800-57pt1r4" >}} （{{< pdf-file title="IPA による日本語版" link="https://www.ipa.go.jp/files/000055490.pdf" >}}）
+
+## セキュリティ強度と鍵長の関係
+
+最初はセキュリティ強度と鍵長の関係を示す表。
+単位は全て bit である。
+
+{{< div-gen >}}
+<figure lang="en">
+<style scoped>
+main table.nist2 th  {
+  vertical-align:middle;
+  text-align: center;
+}
+main table.nist2 td  {
+  vertical-align:middle;
+  text-align: center;
+}
+</style>
+<table class="nist2">
+<thead>
+<tr>
+<th>Security<br>Strength</th>
+<th>Symmetric<br> key<br> algorithms</th>
+<th>FFC<br>(e.g., DSA, D-H)</th>
+<th>IFC<br>(e.g., RSA)</th>
+<th>ECC<br>(e.g., ECDSA)</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>$\le 80$</td><td>2TDEA</td><td>$L=1024$<br>$N=160$</td><td>$k=1024$</td> <td>$f = 160\text{ - }223$</td></tr>
+<tr><td>$112$</td><td>3TDEA</td><td>$L=2048$<br>$N=224$</td> <td>$k=2048$</td> <td>$f = 224\text{ - }255$</td></tr>
+<tr><td>$128$</td><td>AES-128</td><td>$L=3072$<br>$N=256$</td> <td>$k=3072$</td> <td>$f = 256\text{ - }383$</td></tr>
+<tr><td>$192$</td><td>AES-192</td><td>$L=7680$<br>$N=384$</td> <td>$k=7680$</td> <td>$f = 384\text{ - }511$</td></tr>
+<tr><td>$256$</td><td>AES-256</td><td>$L=15360$<br>$N=512$</td><td>$k=15360$</td><td>$f=512+$</td></tr>
+</tbody>
+</table>
+<figcaption>Comparable strengths (via <q><a href='https://doi.org/10.6028/NIST.SP.800-57pt1r4'>SP800-57 Part 1 Revision 4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></q>)</figcaption>
+</figure>
+{{< /div-gen >}}
+
+Symmetric key algorithms は共通鍵暗号アルゴリズム全般を指す。
+たとえば AES とか。
+IFC (Integer Factorization Cryptosystems) は素因数分解問題ベースの公開鍵暗号アルゴリズムで RSA がこれに該当する。
+FFC (Finite Field Cryptosystems) は離散対数問題ベースの公開鍵暗号アルゴリズムで Diffie-Hellman や DSA などがこれに該当する。
+ECC (Elliptic Curve Cryptosystems) は離散対数問題でも特に楕円曲線上の離散対数問題ベースの公開鍵暗号アルゴリズムを指す。
+たとえば ECDSA や ECDH など。
+
+IFC では $k$，FFC では $L$，ECC では $f$ が鍵長を示す。
+たとえばセキュリティ強度が 128bit なら
+
+- AES 128bit
+- DSA 3072bit
+- RSA 3072bit
+- ECDSA 256bit
+
+の組み合わせで「ベストマッチ キター！」となる。
+
+{{< fig-youtube id="S0Zn1DRSH0w" >}}
+
+## セキュリティ強度と Hash 関数の関係
+
+次はセキュリティ強度とHash 関数の関係を示す表。
+
+{{< div-gen >}}
+<figure lang='en'>
+<style scoped>
+main table.nist3 th  {
+  vertical-align:middle;
+  text-align: center;
+}
+main table.nist3 td  {
+  //vertical-align:middle;
+  text-align: center;
+}
+</style>
+<table class="nist3">
+<thead>
+<tr>
+<th>Security <br>Strength</th>
+<th>Digital Signatures and <br>hash-only applications</th>
+<th>HMAC,<br>Key Derivation Functions,<br>Random Number Generation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> $\le 8$0</td>
+<td>SHA-1</td>
+<td>&nbsp;</td>
+</tr><tr>
+<td>$112$</td>
+<td>SHA-224, SHA-512/224, SHA3-224</td>
+<td>&nbsp;</td>
+</tr><tr>
+<td>$128$</td>
+<td>SHA-256, SHA-512/256, SHA3-25</td>
+<td>SHA-1</td>
+</tr><tr>
+<td>$192$</td>
+<td>SHA-384, SHA3-384</td>
+<td>SHA-224, SHA-512/224</td>
+</tr><tr>
+<td>$\ge 256$</td>
+<td>SHA-512, SHA3-512</td>
+<td>SHA-256, SHA-512/256,<br> SHA-384,<br> SHA-512, SHA3-512</td>
+</tr>
+</tbody>
+</table>
+<figcaption>Hash functions that can be used to provide the targeted security strengths (via <q><a href='https://doi.org/10.6028/NIST.SP.800-57pt1r4'>SP800-57 Part 1 Revision 4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></q>)</figcaption>
+</figure>
+{{< /div-gen >}}
+
+考え方は先程の暗号鍵長のときと同じ。
+ただし Hash 関数の場合は使用目的ごとに要求されるアルゴリズムが異なるので注意が必要である。
+
+## セキュリティ強度と有効期限
+
+こちらはセキュリティ強度の有効期限を表したものだ。
+
+{{< div-gen >}}
+<figure lang='en'>
+<style scoped>
+main table.nist4 th  {
+  vertical-align:middle;
+  text-align: center;
+}
+main table.nist4 td  {
+  vertical-align:middle;
+  text-align: center;
+}
+</style>
+<table class="nist4">
+<thead>
+<tr>
+<th colspan='2'>Security Strength</th>
+<th>Through<br> 2030</th>
+<th>2031 and<br> Beyond</th>
+</tr>
+</thead>
+<tbody>
+<tr><td rowspan='2'>$\lt 112$</td><td>Applying</td>  <td colspan='2'>Disallowed</td></tr>
+<tr>                              <td>Processing</td><td colspan='2'>Legacy-use</td></tr>
+<tr><td rowspan='2'>$112$</td>    <td>Applying</td>  <td rowspan='2'>Acceptable</td><td>Disallowed</td></tr>
+<tr>                              <td>Processing</td>                               <td>Legacy use</td></tr>
+
+<tr><td>$128$</td>                <td rowspan='3'>Applying/Processing</td><td>Acceptable</td><td>Acceptable</td></tr>
+<tr><td>$192$</td>                                   <td>Acceptable</td><td>Acceptable</td></tr>
+<tr><td>$256$</td>                                   <td>Acceptable</td><td>Acceptable</td></tr>
+</tbody>
+</table>
+<figcaption>Security-strength time frames (via <q><a href='https://doi.org/10.6028/NIST.SP.800-57pt1r4'>SP800-57 Part 1 Revision 4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></q>)</figcaption>
+</figure>
+{{< /div-gen >}}
+
+各用語はそれぞれ
+
+| 用語 | 意味 |
+|:-----|:-----|
+| Applying | 適用 |
+| Processing | 処理 |
+| Acceptable | 許容 |
+| Legacy-use | 許容（レガシー使用のみ） |
+| Disallowed | 禁止 |
+
+という意味だ。
+例を挙げると，セキュリティ強度 112bit の暗号スイート（Cipher Suites）を適用する場合は2030年までは許容するけど2031年以降は禁止。
+すでに暗号化されているデータを復号したい場合でも，2031年以降はレガシー・システムしか許容しない，ということになる。
+
+たとえば ssh 認証は「適用」なので多くの人が使ってる RSA 2048bit の鍵は2031年以降は使用禁止となるわけだ。
+まぁ，そんな先まで同じシステムで同じ鍵を使い続けるかどうかは分からないが（なので今使ってる鍵を慌てて新調する必要はない。新規に作成するなら 128bit 強度の鍵をお勧めするが）。
+
+なおこれは各アルゴリズムに危殆化要因となる脆弱性等がない場合の話である。
+したがって暗号製品を使うシステムの管理者やセキュリティ管理者は常に暗号関係のトピックに耳を澄ませておくべきであろう。
+
+## OpenPGP で利用可能なアルゴリズム
+
+ついでに OpenPGP を規定する [RFC 4880] に載っている暗号関連アルゴリズムを挙げておく。
+
+まずは共通鍵暗号アルゴリズムから。
+なお 3DES (3TDEA) の鍵長が 168bit となっているが，実質のセキュリティ強度は 112bit である。
+
+{{< div-gen >}}
+<figure lang="en">
+<table>
+<thead>
+<tr><th>ID</th><th>アルゴリズム</th><th>鍵長</th><th>ブロック長</th><th>参考文献</th></tr>
+</thead>
+<tbody>
+<tr>
+<td class='right'>1</td>
+<td>IDEA</td>
+<td class='right'>128</td>
+<td class='right'>64</td>
+<td><q><a href="http://www.mediacrypt.com/_contents/10_idea/100000_ind.asp">IDEA International Data Encryption Algorithm</a></q></td>
+</tr><tr>
+<td class='right'>2</td>
+<td>3DES</td>
+<td class='right'>168</td>
+<td class='right'>64</td>
+<td><a href="https://doi.org/10.6028/NIST.SP.800-67r1">SP800-67 Rev.1 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
+</tr><tr>
+<td class='right'>3</td>
+<td>CAST5</td>
+<td class='right'>128</td>
+<td class='right'>64</td>
+<td><a href="http://tools.ietf.org/html/rfc2144">RFC2144</a></td>
+</tr><tr>
+<td class='right'>4</td>
+<td>Blowfish</td>
+<td class='right'>128</td>
+<td class='right'>64</td>
+<td><q><a href="http://www.schneier.com/paper-blowfish-fse.html">Description of a New Variable-Length Key, 64-Bit Block Cipher (Blowfish)</a></q></td>
+</tr><tr>
+<td class='right'>5</td>
+<td>(Reserved)</td>
+<td>--</td>
+<td>--</td>
+<td>&nbsp;</td>
+</tr><tr>
+<td class='right'>6</td>
+<td>(Reserved)</td>
+<td>--</td>
+<td>--</td>
+<td>&nbsp;</td>
+</tr><tr>
+<td class='right'>7</td>
+<td>AES</td>
+<td class='right'>128</td>
+<td class='right'>128</td>
+<td><a href="https://dx.doi.org/10.6028/NIST.FIPS.197">FIPS PUB 197 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
+</tr><tr>
+<td class='right'>8</td>
+<td>AES192</td>
+<td class='right'>192</td>
+<td class='right'>128</td>
+<td><a href="https://dx.doi.org/10.6028/NIST.FIPS.197">FIPS PUB 197 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
+</tr><tr>
+<td class='right'>9</td>
+<td>AES256</td>
+<td class='right'>256</td>
+<td class='right'>128</td>
+<td><a href="https://dx.doi.org/10.6028/NIST.FIPS.197">FIPS PUB 197 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
+</tr><tr>
+<td class='right'>10</td>
+<td>Twofish</td>
+<td class='right'>256</td>
+<td class='right'>128</td>
+<td><q>The Twofish Encryption Algorithm</q></td>
+</tr><tr>
+<td class='right'>11</td>
+<td>Camellia128</td>
+<td class='right'>128</td>
+<td class='right'>128</td>
+<td><a href="http://tools.ietf.org/html/rfc3713">RFC3713</a>, <a href="https://tools.ietf.org/html/rfc5581">RFC5581</a></td>
+</tr><tr>
+<td class='right'>12</td>
+<td>Camellia192</td>
+<td class='right'>192</td>
+<td class='right'>128</td>
+<td><a href="http://tools.ietf.org/html/rfc3713">RFC3713</a>, <a href="https://tools.ietf.org/html/rfc5581">RFC5581</a></td>
+</tr><tr>
+<td class='right'>13</td>
+<td>Camellia256</td>
+<td class='right'>256</td>
+<td class='right'>128</td>
+<td><a href="http://tools.ietf.org/html/rfc3713">RFC3713</a>, <a href="https://tools.ietf.org/html/rfc5581">RFC5581</a></td>
+</tr>
+</tbody>
+</table>
+<figcaption>OpenPGP で使用可能な共通鍵暗号アルゴリズム一覧</figcaption>
+</figure>
+{{< /div-gen >}}
+
+余談だが [Camellia 暗号は日本製](http://www.baldanders.info/spiegel/log2/000451.shtml "The Camellia Cipher in OpenPGP — Baldanders.info")である。
+
+続いて公開鍵暗号アルゴリズム。
+
+{{< div-gen >}}
+<figure lang="en">
+<table>
+<thead>
+<tr><th>ID</th><th>アルゴリズム</th><th>参考文献</th></tr>
+</thead>
+<tbody>
+<tr>
+<td class='right'>1</td>
+<td>RSA</td>
+<td><a href="http://tools.ietf.org/html/rfc3447">RFC3447</a></td>
+</tr><tr>
+<td class='right'>2</td>
+<td>RSA Encrypt-Only</td>
+<td><a href="http://tools.ietf.org/html/rfc3447">RFC3447</a></td>
+</tr><tr>
+<td class='right'>3</td>
+<td>RSA Sign-Only</td>
+<td><a href="http://tools.ietf.org/html/rfc3447">RFC3447</a></td>
+</tr><tr>
+<td class='right'>...</td>
+<td>(Reserved)</td>
+<td>&nbsp;</td>
+</tr><tr>
+<td class='right'>16</td>
+<td>Elgamal<br>(Encrypt-Only)</td>
+<td><q><a href="http://crypto.csail.mit.edu/classes/6.857/papers/elgamal.pdf">A public key cryptosystem and a signature scheme based on discrete logarithms <sup><i class='fa fa-file-pdf-o'></i></sup></a></q></td>
+</tr><tr>
+<td class='right'>17</td>
+<td>DSA</td>
+<td><a href="http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf">FIPS PUB 186-4 <sup> <i class='fa fa-file-pdf-o'></i></sup></a></td>
+</tr><tr>
+<td class='right'>18</td>
+<td>ECDH</td>
+<td><a href="http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-56Ar2.pdf">SP800-56A Revision 2 <sup><i class='fa fa-file-pdf-o'></i></sup></a>, <a href="https://tools.ietf.org/html/rfc6637">RFC6637</a></td>
+</tr><tr>
+<td class='right'>19</td>
+<td>ECDSA</td>
+<td><a href="http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf">FIPS PUB 186-4 <sup><i class='fa fa-file-pdf-o'></i></sup></a>, <a href="https://tools.ietf.org/html/rfc6637">RFC6637</a></td>
+</tr><tr>
+<td class='right'>20</td>
+<td>(Reserved)</td>
+<td>(formerly Elgamal Encrypt or Sign)</td>
+</tr><tr>
+<td class='right'>21</td>
+<td>(Diffie-Hellman)</td>
+<td>ANSI <a href="http://www.x9.org/">X9</a>.42, as defined for IETF-S/MIME</td>
+</tr><tr>
+<td class='right'>22</td>
+<td>EdDSA (draft)</td>
+<td><a href="http://link.springer.com/article/10.1007%2Fs13389-012-0027-1">High-speed high-security signatures</a></td>
+</tr>
+</tbody>
+</table>
+<figcaption>OpenPGP で使用可能な公開鍵暗号アルゴリズム一覧</figcaption>
+</figure>
+{{< /div-gen >}}
+
+Pub20 の Elgamal は，元々暗号化と署名の両方できるものだったが，脆弱性が見つかったため OpenPGP では使用禁止になった。
+Pub21 の Diffie-Hellman は予約済みになってるが実装されている製品はない。
+
+さらに Hash 関数。
+
+{{< div-gen >}}
+<figure lang="en">
+<table>
+<thead>
+<tr><th>ID</th><th>アルゴリズム</th><th>参考文献</th></tr>
+</thead>
+<tbody>
+<tr>
+<td class='right'>1</td>
+<td>MD5</td>
+<td><a href="https://tools.ietf.org/html/rfc1321">RFC1321</a></td>
+</tr><tr>
+<td class='right'>2</td>
+<td>SHA-1</td>
+<td><a href="http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf">FIPS PUB 186-4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
+</tr><tr>
+<td class='right'>3</td>
+<td>RIPE-MD/160</td>
+<td><q><a href="http://homes.esat.kuleuven.be/~bosselae/ripemd160.html">The hash function RIPEMD-160</a></q></td>
+</tr><tr>
+<td class='right'>4</td>
+<td>(Reserved)</td>
+<td>&nbsp;</td>
+</tr><tr>
+<td class='right'>5</td>
+<td>(Reserved)</td>
+<td>&nbsp;</td>
+</tr><tr>
+<td class='right'>6</td>
+<td>(Reserved)</td>
+<td>&nbsp;</td>
+</tr><tr>
+<td class='right'>7</td>
+<td>(Reserved)</td>
+<td>&nbsp;</td>
+</tr><tr>
+<td class='right'>8</td>
+<td>SHA256</td>
+<td><a href="http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf">FIPS PUB 180-4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
+</tr><tr>
+<td class='right'>9</td>
+<td>SHA384</td>
+<td><a href="http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf">FIPS PUB 180-4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
+</tr><tr>
+<td class='right'>10</td>
+<td>SHA512</td>
+<td><a href="http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf">FIPS PUB 180-4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
+</tr><tr>
+<td class='right'>11</td>
+<td>SHA224</td>
+<td><a href="http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf">FIPS PUB 180-4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
+</tr></tbody>
+</table>
+<figcaption>OpenPGP で使用可能な一方向ハッシュ関数一覧</figcaption>
+</figure>
+{{< /div-gen >}}
+
+[SHA-3](https://www.nist.gov/news-events/news/2015/08/nist-releases-sha-3-cryptographic-hash-standard "NIST Releases SHA-3 Cryptographic Hash Standard | NIST") ({{< pdf-file title="FIPS PUB 202" link="http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.202.pdf" >}}) を OpenPGP にどのように組み込むかについては，現在[検討中](http://www.baldanders.info/spiegel/log2/000866.shtml "SHA-3 が OpenPGP に組み込まれる（予定） — Baldanders.info")。
+
+## パスワードの強度
+
+これは [NIST] ではなく IPA の資料だが，文字種と文字数の組み合わせによるパスワードの強度についても上げておこう。
+出典は以下。
+
+- [情報漏えいを防ぐためのモバイルデバイス等設定マニュアル：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ipg/documents/dev_setting_crypt.html)
+    - {{< pdf-file title="情報漏えいを防ぐためのモバイルデバイス等設定マニュアル 解説編" link="https://www.ipa.go.jp/files/000026760.pdf" >}}
+
+{{< div-gen >}}
+<figure>
+<table>
+<thead>
+<tr>
+<th colspan='4'>利用する文字種類数と内訳</th>
+<th colspan='4'>パスワード長</th>
+</tr>
+<tr>
+<th>種類数</th>
+<th>数字</th>
+<th>文字</th>
+<th>シンボル</th>
+<th>4文字</th>
+<th>8文字</th>
+<th>12文字</th>
+<th>16文字</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>10種</td><td>0-9</td><td>なし</td>      <td>なし</td><td>1円未満（$2^{13.3}$）</td><td>1円未満（$2^{26.6}$）</td>  <td>約35円（$2^{39.9}$）</td>     <td>約35万円（$2^{53.2}$）</td></tr>
+<tr><td>36種</td><td>0-9</td><td>a-z</td>       <td>なし</td><td>1円未満（$2^{20.7}$）</td><td>約100円（$2^{41.4}$）</td>  <td>約1.65億円（$2^{62.0}$）</td> <td>約276兆円（$2^{82.7}$）</td></tr>
+<tr><td>62種</td><td>0-9</td><td>a-z<br>A-Z</td><td>なし</td><td>1円未満（$2^{23.8}$）</td><td>約7,500円（$2^{47.6}$）</td><td>約1,120億円（$2^{71.5}$）</td><td>約165京円（$2^{95.3}$）</td></tr>
+<tr><td>94種</td><td>0-9</td><td>a-z<br>A-Z</td><td><code style='font-size:smaller;'>! " # $ %<br>&amp; ' ( ) =<br>~ | - ^ `<br>¥ { @ [<br>+ * ] ; :<br>} &lt; &gt; ? _<br>, . /</code></td>
+                                                             <td>1円未満（$2^{26.2}$）</td><td>約21万円（$2^{52.4}$）</td> <td>約16.5兆円（$2^{78.7}$）</td> <td>約129,000京円（$2^{104.9}$）</td></tr>
+</tbody>
+</table>
+<figcaption>パスワード解読の想定コスト例（<q><a href='https://www.ipa.go.jp/files/000026760.pdf'>情報漏えいを防ぐためのモバイルデバイス等設定マニュアル 解説編 <sup><i class='fa fa-file-pdf-o'></i></sup></a></q> 2.4.2.2項より）</figcaption>
+</figure>
+{{< /div-gen >}}
+
+測定基準は以下の通り。
+
+{{< div-gen >}}
+<figure>
+<blockquote>
+<q>利用できる文字種類すべてを完全にランダムに選択して作ったパスワードを一つ一つ調べる全数探索により1日で解読しようとした際にかかるおおまかな想定攻撃コストを示しています。ここでは、全数探索(暗号鍵の総数256)でDES10を1日で解読するためのコストを約250万円と仮定します。また、パスワードを1つ検査するのとDESの暗号鍵を1つ検査するコストは同じであるとし、パスワードを求めるのに必要な計算量(検査する個数)が半分になればコストも半分、2倍になればコストも2倍になるものとしています。</q>
+</blockquote>
+<figcaption><q><a href='https://www.ipa.go.jp/files/000026760.pdf'>情報漏えいを防ぐためのモバイルデバイス等設定マニュアル 解説編 <sup><i class='fa fa-file-pdf-o'></i></sup></a></q> 2.4.2.2項より</figcaption>
+</figure>
+{{< /div-gen >}}
+
+
+## ブックマーク
+
+- [CRYPTREC Report 2013 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000740.shtml)
+- [Prohibiting RC4 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000810.shtml)
+- [CRYPTREC | SHA-1の安全性について](http://www.cryptrec.go.jp/topics/cryptrec_20151218_sha1_cryptanalysis.html)
+    - {{< pdf-file title="CRYPTREC暗号技術ガイドライン(SHA-1)" link="http://www.cryptrec.go.jp/report/c13_tech_guideline_SHA-1_web.pdf" >}}
+- [scryptがGPUに破られる時 | びりあるの研究ノート](https://blog.visvirial.com/articles/519)
+
+- [最初の SHA-1 衝突例]({{< relref "remark/2017/02/sha-1-collision.md" >}})
+- [「パスワードのベストプラクティス」が変わる]({{< relref "remark/2017/10/changes-in-password-best-practices.md" >}})
+
+[NIST]: https://www.nist.gov/ "National Institute of Standards and Technology | NIST"
+[RFC 4880]: https://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
+
+## 参考図書
+
+<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B015643CPE/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51t6yHHVwEL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B015643CPE/baldandersinf-22/">暗号技術入門 第3版　秘密の国のアリス</a></dt><dd>結城 浩 </dd><dd>SBクリエイティブ 2015-08-25</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0148FQNVC/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B0148FQNVC.09._SCTHUMBZZZ_.jpg"  alt="自作エミュレータで学ぶx86アーキテクチャ　コンピュータが動く仕組みを徹底理解！"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00W6NCLJM/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00W6NCLJM.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート/丸い三角関数"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00Y9EYOIW/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00Y9EYOIW.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート/微分を追いかけて"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B012BYBTZC/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B012BYBTZC.09._SCTHUMBZZZ_.jpg"  alt="情報セキュリティ白書2015: サイバーセキュリティ新時代：あらゆる変化へ柔軟な対応を"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00W6NCLL0/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00W6NCLL0.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート/数列の広場"  /></a> </p>
+<p class="description">SHA-3 や Bitcoin/Blockchain など新しい知見や技術要素を大幅追加。暗号技術を使うだけならこれ1冊でとりあえず無問題。</p>
+<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-09-20">2015-09-20</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+</div>
+
+<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4314009071/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51ZRZ62WKCL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4314009071/baldandersinf-22/">暗号化 プライバシーを救った反乱者たち</a></dt><dd>スティーブン・レビー 斉藤 隆央 </dd><dd>紀伊國屋書店 2002-02-16</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/487593100X/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/487593100X.09._SCTHUMBZZZ_.jpg"  alt="ハッカーズ"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4105393022/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4105393022.09._SCTHUMBZZZ_.jpg"  alt="暗号解読―ロゼッタストーンから量子暗号まで"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4484111160/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4484111160.09._SCTHUMBZZZ_.jpg"  alt="グーグル ネット覇者の真実 追われる立場から追う立場へ"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/410215972X/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/410215972X.09._SCTHUMBZZZ_.jpg"  alt="暗号解読〈上〉 (新潮文庫)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4102159738/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4102159738.09._SCTHUMBZZZ_.jpg"  alt="暗号解読 下巻 (新潮文庫 シ 37-3)"  /></a> </p>
+<p class="description">20世紀末，暗号技術の世界で何があったのか。知りたかったらこちらを読むべし！</p>
+<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-03-09">2015/03/09</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+</div>

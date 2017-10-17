@@ -1,6 +1,6 @@
 +++
 date = "2017-02-25T12:38:07+09:00"
-update = "2017-04-04T14:21:15+09:00"
+update = "2017-10-17T16:44:55+09:00"
 title = "最初の SHA-1 衝突例"
 draft = false
 tags = ["security", "cryptography", "risk", "hash", "sha-1", "collision"]
@@ -68,89 +68,88 @@ git による悪意のなりすまし等を警戒する必要があるのなら 
 ただし，かつて標準として使われていた MD5 が危殆化とともに廃れていったように，今後 SHA-1 は電子署名以外でも使われなくなると思われる。
 念のため， NIST による現在の SHA アルゴリズムの評価と有効期限を以下に示す。
 
+{{< div-gen >}}
 <figure lang='en'>
-<table>
+<style scoped>
+main table.nist3 th  {
+  vertical-align:middle;
+  text-align: center;
+}
+main table.nist3 td  {
+  //vertical-align:middle;
+  text-align: center;
+}
+</style>
+<table class="nist3">
 <thead>
 <tr>
-<th style="vertical-align:middle;">Security <br>Strength</th>
-<th style="vertical-align:middle;">Digital Signatures and <br>hash-only applications</th>
-<th style="vertical-align:middle;">HMAC,<br>Key Derivation Functions,<br>Random Number Generation</th>
+<th>Security <br>Strength</th>
+<th>Digital Signatures and <br>hash-only applications</th>
+<th>HMAC,<br>Key Derivation Functions,<br>Random Number Generation</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class='right'> ≦ 80</td>
+<td> $\le 8$0</td>
 <td>SHA-1</td>
 <td>&nbsp;</td>
 </tr><tr>
-<td class='right'>112</td>
+<td>$112$</td>
 <td>SHA-224, SHA-512/224, SHA3-224</td>
 <td>&nbsp;</td>
 </tr><tr>
-<td class='right'>128</td>
+<td>$128$</td>
 <td>SHA-256, SHA-512/256, SHA3-25</td>
 <td>SHA-1</td>
 </tr><tr>
-<td class='right'>192</td>
+<td>$192$</td>
 <td>SHA-384, SHA3-384</td>
 <td>SHA-224, SHA-512/224</td>
 </tr><tr>
-<td class='right'>≧ 256</td>
+<td>$\ge 256$</td>
 <td>SHA-512, SHA3-512</td>
 <td>SHA-256, SHA-512/256,<br> SHA-384,<br> SHA-512, SHA3-512</td>
 </tr>
 </tbody>
 </table>
-<figcaption>Hash functions that can be used to provide the targeted security strengths (via <q><a href='http://dx.doi.org/10.6028/NIST.SP.800-57pt1r4'>SP800-57 Part 1 Revision 4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></q>)</figcaption>
+<figcaption>Hash functions that can be used to provide the targeted security strengths (via <q><a href='https://doi.org/10.6028/NIST.SP.800-57pt1r4'>SP800-57 Part 1 Revision 4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></q>)</figcaption>
 </figure>
+{{< /div-gen >}}
 
+{{< div-gen >}}
 <figure lang='en'>
-<table>
+<style scoped>
+main table.nist4 th  {
+  vertical-align:middle;
+  text-align: center;
+}
+main table.nist4 td  {
+  vertical-align:middle;
+  text-align: center;
+}
+</style>
+<table class="nist4">
 <thead>
 <tr>
-<th style="vertical-align:middle;" colspan='2'>Security Strength</th>
-<th style="vertical-align:middle;">through<br> 2030</th>
-<th style="vertical-align:middle;">2031 and<br> Beyond</th>
+<th colspan='2'>Security Strength</th>
+<th>Through<br> 2030</th>
+<th>2031 and<br> Beyond</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td class='right' rowspan='2'>＜ 112</td>
-<td>Applying</td>
-<td colspan='2' class='center'>Disallowed</td>
-</tr><tr>
-<!-- -->
-<td>Processing</td>
-<td colspan='2' class='center'>Legacy use</td>
-</tr><tr>
-<td class='right' rowspan='2'>112</td>
-<td>Applying</td>
-<td rowspan='2' style="vertical-align:middle;">Acceptable</td>
-<td>Disallowed</td>
-</tr><tr>
-<td>Processing</td>
-<!-- -->
-<td>Legacy use</td>
-</tr><tr>
-<td class='right'>128</td>
-<td rowspan='3' style="vertical-align:middle;">Applying/Processing</td>
-<td>Acceptable</td>
-<td>Acceptable</td>
-</tr><tr>
-<td class='right'>192</td>
-<!-- -->
-<td>Acceptable</td>
-<td>Acceptable</td>
-</tr><tr>
-<td class='right'>256</td>
-<!-- -->
-<td>Acceptable</td>
-<td>Acceptable</td>
-</tr>
+<tr><td rowspan='2'>$\lt 112$</td><td>Applying</td>  <td colspan='2'>Disallowed</td></tr>
+<tr>                              <td>Processing</td><td colspan='2'>Legacy-use</td></tr>
+<tr><td rowspan='2'>$112$</td>    <td>Applying</td>  <td rowspan='2'>Acceptable</td><td>Disallowed</td></tr>
+<tr>                              <td>Processing</td>                               <td>Legacy use</td></tr>
+
+<tr><td>$128$</td>                <td rowspan='3'>Applying/Processing</td><td>Acceptable</td><td>Acceptable</td></tr>
+<tr><td>$192$</td>                                   <td>Acceptable</td><td>Acceptable</td></tr>
+<tr><td>$256$</td>                                   <td>Acceptable</td><td>Acceptable</td></tr>
 </tbody>
 </table>
-<figcaption>Security-strength time frames (via <q><a href='http://dx.doi.org/10.6028/NIST.SP.800-57pt1r4'>SP800-57 Part 1 Revision 4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></q>)</figcaption>
+<figcaption>Security-strength time frames (via <q><a href='https://doi.org/10.6028/NIST.SP.800-57pt1r4'>SP800-57 Part 1 Revision 4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></q>)</figcaption>
 </figure>
+{{< /div-gen >}}
 
 ## 参考図書
 

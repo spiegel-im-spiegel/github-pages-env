@@ -1,6 +1,6 @@
 +++
 date = "2015-10-22T14:35:22+09:00"
-update = "2017-02-25T12:38:35+09:00"
+update = "2017-10-17T16:44:55+09:00"
 description = "GPU をふんだんに使った専用ハードウェアやクラウド・サービスなどを組み合わせることにより，近い将来に実用的なコストで SHA-1 攻略が可能になると指摘されている。"
 draft = false
 tags = ["security", "cryptography", "hash", "sha-1", "collision", "risk"]
@@ -58,76 +58,88 @@ SHA-1 の hash 値の長さは $160\,\mathrm{bits}$ なので，衝突の確率�
 ただ，現状では（特に legacy system において）アルゴリズムの置き換えがなかなか進まなかったことと SHA-1 の攻略があまり進展しなかったことにより，この期限は2013年まで延長された。
 現在の SHA アルゴリズムの評価と有効期限は以下のとおり。
 
+{{< div-gen >}}
 <figure lang='en'>
-<table>
+<style scoped>
+main table.nist3 th  {
+  vertical-align:middle;
+  text-align: center;
+}
+main table.nist3 td  {
+  //vertical-align:middle;
+  text-align: center;
+}
+</style>
+<table class="nist3">
 <thead>
 <tr>
 <th>Security <br>Strength</th>
-<th>Digital <br>Signatures and <br>hash-only <br>applications</th>
-<th>HMAC</th>
-<th>Key Derivation <br>Functions</th>
-<th>Random <br>Number <br>Generation</th>
+<th>Digital Signatures and <br>hash-only applications</th>
+<th>HMAC,<br>Key Derivation Functions,<br>Random Number Generation</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class='right'>80</td>
-<td>SHA-1, SHA-224, SHA-512/224, SHA-256, SHA-512/256, SHA-384, SHA-512</td>
-<td>SHA-1, SHA-224, SHA-512/224, SHA-256, SHA-512/256, SHA-384, SHA-512</td>
-<td>SHA-1, SHA-224, SHA-512/224, SHA-256, SHA-512/256, SHA-384, SHA-512</td>
-<td>SHA-1, SHA-224, SHA-512/224, SHA-256, SHA-512/256, SHA-384, SHA-512</td>
+<td> $\le 8$0</td>
+<td>SHA-1</td>
+<td>&nbsp;</td>
 </tr><tr>
-<td class='right'>112</td>
-<td>SHA-224, SHA-512/224, SHA-256, SHA-512/256, SHA-384, SHA-512</td>
-<td>SHA-1, SHA-224, SHA-512/224, SHA-256, SHA-512/256, SHA-384, SHA-512</td>
-<td>SHA-1, SHA-224, SHA-512/224, SHA-256, SHA-512/256, SHA-384, SHA-512</td>
-<td>SHA-1, SHA-224, SHA-512/224, SHA-256, SHA-512/256, SHA-384, SHA-512</td>
+<td>$112$</td>
+<td>SHA-224, SHA-512/224, SHA3-224</td>
+<td>&nbsp;</td>
 </tr><tr>
-<td class='right'>128</td>
-<td>SHA-256, SHA-512/256, SHA-384, SHA-512</td>
-<td>SHA-1, SHA-224, SHA-512/224, SHA-256, SHA-512/256, SHA-384, SHA-512</td>
-<td>SHA-1, SHA-224, SHA-512/224, SHA-256, SHA-512/256, SHA-384, SHA-512</td>
-<td>SHA-1, SHA-224, SHA-512/224, SHA-256, SHA-512/256, SHA-384, SHA-512</td>
+<td>$128$</td>
+<td>SHA-256, SHA-512/256, SHA3-25</td>
+<td>SHA-1</td>
 </tr><tr>
-<td class='right'>192</td>
-<td>SHA-384, SHA-512</td>
-<td>SHA-224, SHA-512/224, SHA-256, SHA-512/256, SHA-384, SHA-512</td>
-<td>SHA-224, SHA-512/224, SHA-256, SHA-512/256, SHA-384, SHA-512</td>
-<td>SHA-224, SHA-512/224, SHA-256, SHA-512/256, SHA-384, SHA-512</td>
+<td>$192$</td>
+<td>SHA-384, SHA3-384</td>
+<td>SHA-224, SHA-512/224</td>
 </tr><tr>
-<td class='right'>256</td>
-<td>SHA-512</td>
-<td>SHA-256, SHA-512/256, SHA-384, SHA-512</td>
-<td>SHA-256, SHA-512/256, SHA-384, SHA-512</td>
-<td>SHA-256, SHA-512/256, SHA-384, SHA-512</td>
+<td>$\ge 256$</td>
+<td>SHA-512, SHA3-512</td>
+<td>SHA-256, SHA-512/256,<br> SHA-384,<br> SHA-512, SHA3-512</td>
 </tr>
 </tbody>
 </table>
-<figcaption>Hash function that can be used to provide the targeted security strengths (via <q><a href='http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57_part1_rev3_general.pdf'>SP800-57 Part 1 (Revision 3) <sup><i class='fa fa-file-pdf-o'></i></sup></a></q>)</figcaption>
+<figcaption>Hash functions that can be used to provide the targeted security strengths (via <q><a href='https://doi.org/10.6028/NIST.SP.800-57pt1r4'>SP800-57 Part 1 Revision 4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></q>)</figcaption>
 </figure>
+{{< /div-gen >}}
 
+{{< div-gen >}}
 <figure lang='en'>
-<table>
+<style scoped>
+main table.nist4 th  {
+  vertical-align:middle;
+  text-align: center;
+}
+main table.nist4 td  {
+  vertical-align:middle;
+  text-align: center;
+}
+</style>
+<table class="nist4">
 <thead>
 <tr>
 <th colspan='2'>Security Strength</th>
-<th>2011 through 2013</th>
-<th>2014 through 2030</th>
-<th>2031 and Beyond</th>
+<th>Through<br> 2030</th>
+<th>2031 and<br> Beyond</th>
 </tr>
 </thead>
 <tbody>
-<tr><td class='right' rowspan='2'>80</td> <td>Applying</td>                       <td>Deprecated</td>            <td colspan='2' class='center'>Disallowed</td></tr>
-<tr>                                      <td>Processing</td>                     <td colspan='3' class='center'>Legacy use</td></tr>
-<tr><td class='right' rowspan='2'>112</td><td>Applying</td>                       <td rowspan='2'>Acceptable</td><td rowspan='2'>Acceptable</td><td>Disallowed</td></tr>
-<tr>                                      <td>Processing</td>                                                                                   <td>Legacy use</td></tr>
-<tr><td class='right'>128</td>            <td rowspan='3'>Applying/Processing</td><td>Acceptable</td>            <td>Acceptable</td>            <td>Acceptable</td></tr>
-<tr><td class='right'>192</td>                                                    <td>Acceptable</td>            <td>Acceptable</td>            <td>Acceptable</td></tr>
-<tr><td class='right'>256</td>                                                    <td>Acceptable</td>            <td>Acceptable</td>            <td>Acceptable</td></tr>
+<tr><td rowspan='2'>$\lt 112$</td><td>Applying</td>  <td colspan='2'>Disallowed</td></tr>
+<tr>                              <td>Processing</td><td colspan='2'>Legacy-use</td></tr>
+<tr><td rowspan='2'>$112$</td>    <td>Applying</td>  <td rowspan='2'>Acceptable</td><td>Disallowed</td></tr>
+<tr>                              <td>Processing</td>                               <td>Legacy use</td></tr>
+
+<tr><td>$128$</td>                <td rowspan='3'>Applying/Processing</td><td>Acceptable</td><td>Acceptable</td></tr>
+<tr><td>$192$</td>                                   <td>Acceptable</td><td>Acceptable</td></tr>
+<tr><td>$256$</td>                                   <td>Acceptable</td><td>Acceptable</td></tr>
 </tbody>
 </table>
-<figcaption>Security-strength time frames (via <q><a href='http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57_part1_rev3_general.pdf'>SP800-57 Part 1 (Revision 3) <sup><i class='fa fa-file-pdf-o'></i></sup></a></q>)</figcaption>
+<figcaption>Security-strength time frames (via <q><a href='https://doi.org/10.6028/NIST.SP.800-57pt1r4'>SP800-57 Part 1 Revision 4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></q>)</figcaption>
 </figure>
+{{< /div-gen >}}
 
 しかし現状は全くスケジュールどおりではなく， SHA-1 を使った証明書の発行が停止され始めたのはようやく昨年末頃からだ。
 一方，主要ブラウザは2017年以降 SHA-1 を使った証明書を無効にする計画を発表している。

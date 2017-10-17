@@ -35,5 +35,8 @@ NTT 新規契約 0800-2000-116
 - [自動運転の新基準は日本政府の過剰規制じゃない - nakachanのブログ](http://nakachan.hatenablog.jp/entry/2017/10/14/063505)
 - [itchyny/rexdep: Roughly extract dependency relation from source code](https://github.com/itchyny/rexdep)
 - [汎用的なコードの依存関係の抽出ツール rexdep を作りました！ ― 正規表現で依存関係を大雑把に抽出しよう！ - プログラムモグモグ](http://itchyny.hatenablog.com/entry/2015/11/19/100000)
+- [Hugo | Hugo 0.30: Race Car Edition!](https://gohugo.io/news/0.30-relnotes/)
+- [ECDSA鍵をGitHubで使う方法 - Qiita](https://qiita.com/darai0512/items/c7b47d1b3fe06c4dea7d)
+    - [GitHubでEd25519鍵をつかう - ひと目で尋常じゃないもふもふだと(ry](http://jnst.hateblo.jp/entry/2014/12/15/200542)
 
 (end of file)

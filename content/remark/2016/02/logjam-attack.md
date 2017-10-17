@@ -1,5 +1,6 @@
 +++
 date = "2016-02-11T03:59:41+09:00"
+update = "2017-10-17T16:44:55+09:00"
 description = "以前 Qiita に書いた記事を再掲載する。ちなみに元記事は2015年5月に公開している。"
 draft = false
 tags = ["security", "vulnerability", "cryptography", "openssl"]
@@ -67,27 +68,39 @@ FEAK のときとは異なり，特定の実装の脆弱性ではなく TLS プ�
 
 暗号強度と各暗号方式の鍵長の関係は以下のとおり（単位はすべて bit）
 
-<figure>
-<table>
+{{< div-gen >}}
+<figure lang="en">
+<style scoped>
+main table.nist th  {
+  vertical-align:middle;
+  text-align: center;
+}
+main table.nist td  {
+  vertical-align:middle;
+  text-align: center;
+}
+</style>
+<table class="nist">
 <thead>
 <tr>
-<th>Bits of<br> security</th>
-<th>Symmetric key<br> algorithms</th>
+<th>Security<br>Strength</th>
+<th>Symmetric<br> key<br> algorithms</th>
 <th>FFC<br>(e.g., DSA, D-H)</th>
 <th>IFC<br>(e.g., RSA)</th>
 <th>ECC<br>(e.g., ECDSA)</th>
 </tr>
 </thead>
 <tbody>
-<tr><td class='right'>80</td> <td>2TDEA</td>  <td>$L=1024$<br>$N=160$</td> <td>$k=1024$</td> <td>$160 \le f \lt 224$</td></tr>
-<tr><td class='right'>112</td><td>3TDEA</td>  <td>$L=2048$<br>$N=224$</td> <td>$k=2048$</td> <td>$224 \le f \lt 256$</td></tr>
-<tr><td class='right'>128</td><td>AES-128</td><td>$L=3072$<br>$N=256$</td> <td>$k=3072$</td> <td>$256 \le f \lt 384$</td></tr>
-<tr><td class='right'>192</td><td>AES-192</td><td>$L=7680$<br>$N=384$</td> <td>$k=7680$</td> <td>$384 \le f \lt 512$</td></tr>
-<tr><td class='right'>256</td><td>AES-256</td><td>$L=15360$<br>$N=512$</td><td>$k=15360$</td><td>$512 \le f$</td></tr>
+<tr><td>$\le 80$</td><td>2TDEA</td><td>$L=1024$<br>$N=160$</td><td>$k=1024$</td> <td>$f = 160\text{ - }223$</td></tr>
+<tr><td>$112$</td><td>3TDEA</td><td>$L=2048$<br>$N=224$</td> <td>$k=2048$</td> <td>$f = 224\text{ - }255$</td></tr>
+<tr><td>$128$</td><td>AES-128</td><td>$L=3072$<br>$N=256$</td> <td>$k=3072$</td> <td>$f = 256\text{ - }383$</td></tr>
+<tr><td>$192$</td><td>AES-192</td><td>$L=7680$<br>$N=384$</td> <td>$k=7680$</td> <td>$f = 384\text{ - }511$</td></tr>
+<tr><td>$256$</td><td>AES-256</td><td>$L=15360$<br>$N=512$</td><td>$k=15360$</td><td>$f=512+$</td></tr>
 </tbody>
 </table>
-<figcaption>Comparable strengths (via <q lang='en'><a href='http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57_part1_rev3_general.pdf'>SP800-57 Part 1 (Revision 3) <sup><i class='fa fa-file-pdf-o'></i></sup></a></q>)</figcaption>
+<figcaption>Comparable strengths (via <q><a href='https://doi.org/10.6028/NIST.SP.800-57pt1r4'>SP800-57 Part 1 Revision 4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></q>)</figcaption>
 </figure>
+{{< /div-gen >}}
 
 2030年以降も安全に使える暗号強度は $128\,\mathrm{bits}$ 以上だと言われている。
 Logjam 攻撃では $L=512\,\mathrm{bits}$ にダウングレードさせられるが全くお話にならない強度だということが分かるだろう。
@@ -173,4 +186,3 @@ CVSS については[デモページ](http://www.baldanders.info/spiegel/archive
 - [OpenSSH環境に対するLogjam脆弱性の対応 | NaviPlus Engineers' Blog](http://tech.naviplus.co.jp/2015/05/25/openssh%E7%92%B0%E5%A2%83%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8Blogjam%E8%84%86%E5%BC%B1%E6%80%A7%E3%81%AE%E5%AF%BE%E5%BF%9C/) : “[On OpenSSH and Logjam](https://jbeekman.nl/blog/2015/05/ssh-logjam/)” の日本語解説
 - [Logjam, Part 1: Why the Internet is Broken Again (an Explainer) | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2015/05/logjam-internet-breaks-again)
 - [Logjam, Part 2: Did the NSA Know the Internet Was Broken? | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2015/05/logjam-part-2-did-nsa-know-years-internet-was-broken)
-

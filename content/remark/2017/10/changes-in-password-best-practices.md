@@ -1,6 +1,7 @@
 +++
 title = "「パスワードのベストプラクティス」が変わる"
 date =  "2017-10-16T19:21:02+09:00"
+update =  "2017-10-17T11:44:05+09:00"
 description = "Bruce Schneier 氏の「Changes in Password Best Practices」の内容が簡潔だったので「そのうち紹介しなくちゃ」と思っていたが，先を越されたっぽい感じなので，便乗記事として上げておく（笑）"
 tags        = [ "security", "authentication", "password", "risk", "management" ]
 
@@ -156,6 +157,11 @@ I could tell you my pass phrase, but then I would have to kill you.
 「セキュリティと利便性のトレードオフ」なんてのは昔の話である。
 適切な運用をすればセキュリティも利便性も両方確保できる。
 それをしないのは単なる怠慢だ。
+
+## ブックマーク
+
+- [崩れる「安全なパスワード」神話　否定される過去の基準、追従できない現場の課題 ｜ビジネス+IT](https://www.sbbit.jp/article/cont1/33969)
+- [あの「面倒なパスワード作成ルール」、作った人も後悔していた - ZDNet Japan](https://japan.zdnet.com/article/35105725/)
 
 [Changes in Password Best Practices]: https://www.schneier.com/blog/archives/2017/10/changes_in_pass.html "Changes in Password Best Practices - Schneier on Security"
 [やばいパスワード]: http://itpro.nikkeibp.co.jp/atcl/column/17/092800400/101200002/ "やばいパスワード - 複雑なパスワードを強制、でも破られやすいという現実：ITpro"
