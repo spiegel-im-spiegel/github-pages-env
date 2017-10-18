@@ -125,7 +125,8 @@ Wi-Fi 通信が可能なあらゆる機器が対象となる。
     - Web でのやりとりには HTTPS を使う（[HSTS (HTTP Strict Transport Security)](https://developer.mozilla.org/ja/docs/Web/Security/HTTP_Strict_Transport_Security "HTTP Strict Transport Security - Web セキュリティ | MDN") でちゃんと HTTPS にリダイレクトされること）
     - VPN サービスを利用する（慌ててよく分からないサービスに飛びつかないこと）
 
-WPA2 がダメだからと言って WEP を使うのは事態を悪化させるだけなので使わないこと。
+WPA2 がダメだからと言って WEP を使うのは事態を悪化させるだけである。
+脆弱性が発見された現時点でも WPA2 が一番まともな認証プロトコルであることには変わりない。
 
 はっきりいってネットワーク機器のアップデートはあまり期待できない。
 とくに安ものの無線 LAN ルータとか，古い機種のスマホとかは事実上の放置プレイである。
