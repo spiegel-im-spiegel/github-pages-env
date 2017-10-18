@@ -1,6 +1,7 @@
 +++
 title = "WPA2 脆弱性（KRACKs）に関する覚え書き"
 date =  "2017-10-17T20:00:30+09:00"
+update =  "2017-10-18T15:02:52+09:00"
 description = "今回は，世界中で大騒ぎになっている Wi-Fi の WPA2 認証に関する脆弱性について。"
 tags = [
   "security",
@@ -53,7 +54,7 @@ tags = [
 
 {{< fig-youtube id="Oh4WURZoR98" title="KRACK Attacks: Bypassing WPA2 against Android and Linux - YouTube" >}}
 
-Nonce （ノンスまたはナンスと読むらしい）ってのは暗号通信の最初にやり取りする使い捨てのランダムな値で，これを認証情報に混ぜることで第三者による「リプレイ攻撃」を防ぐことができる。
+Nonce （ノンスまたはナンスと読むらしい）ってのは暗号通信の最初にやり取りする使い捨てのランダムな値で，これを認証情報に混ぜることで第三者による「リプレイ攻撃（replay attack）」を防ぐことができる。
 今回はそういうのが全部チャイされてしまうわけやね。
 
 これが成功すると中間者攻撃（man-in-the-middle attack）が成立してしまい，通信内容の盗み見や改竄ができるようになってしまう。
@@ -95,14 +96,18 @@ CVSS については[解説ページ]({{< relref "remark/2015/cvss-v3-metrics-in
 ## 影響を受ける製品
 
 Wi-Fi 通信が可能なあらゆる機器が対象となる。
-たとえば無線ルータ，スマホ等の携帯端末，ネットワーク家電などが考えられる。
+たとえば無線 LAN ルータ[^rt1]，スマホ等の携帯端末，ネットワーク家電などが考えられる。
 
+[^rt1]: 無線 LAN ルータは Wi-Fi ネットワークを中継する機能のあるものが対象となる。
 
 ## 対策・回避策
 
 - 日本の [JVN](http://jvn.jp/vu/JVNVU90609033/)，および [CERT/CC](https://www.kb.cert.org/vuls/id/228519) の各ページにはベンダ企業のステータスが掲載されているので確認すること
     - [Multiple Vulnerabilities in Wi-Fi Protected Access and Wi-Fi Protected Access II](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171016-wpa)
     - [WPA2の脆弱性に関する弊社調査・対応状況について | IODATA アイ・オー・データ機器](http://www.iodata.jp/support/information/2017/wpa2/)
+    - [大切なお知らせ ｜ BUFFALO バッファロー](http://buffalo.jp/support_s/t20171017.html)
+    - [WPA と WPA2 の脆弱性に関する最新情報 – UTM/NGFWでマルウェア・標的型攻撃対策｜ウォッチガード・テクノロジー](https://www.watchguard.co.jp/security-news/wpa-and-wpa2-vulnerabilities-update.html)
+    - [「Wi-Fi Protected Access II (WPA2) ハンドシェイクにおいて Nonce およびセッション鍵が再利用される問題」について (FAQ for YAMAHA RT Series / Security)](http://www.rtpro.yamaha.co.jp/RT/FAQ/Security/JVNVU90609033.html)
 - iOS や Android を提供する Apple や Google では修正版を準備中とのこと
     - ただし Android に関しては，端末を提供しているベンダ企業やキャリア企業が対応しない限り対応されないと思われる。特に古い機種や古いバージョンの OS を使い続けている場合は対応されないと思ったほうがいい
 - Windows については Microsoft からの10月のアップデートで修正されている
@@ -123,7 +128,7 @@ Wi-Fi 通信が可能なあらゆる機器が対象となる。
 WPA2 がダメだからと言って WEP を使うのは事態を悪化させるだけなので使わないこと。
 
 はっきりいってネットワーク機器のアップデートはあまり期待できない。
-とくに安ものの無線ルータとか，古い機種のスマホとかは事実上の放置プレイである。
+とくに安ものの無線 LAN ルータとか，古い機種のスマホとかは事実上の放置プレイである。
 先月の [Bluetooth 脆弱性]({{< relref "remark/2017/09/vulnerability-in-bluetooth-implementation.md" >}} "Bluetooth 実装の脆弱性に関する覚え書き")に対応しなかったベンダ企業やその製品については，今回も何もないと考えたほうがいい。
 
 はっきり言って Android 端末はもう潮時かなと思ってる。
@@ -141,5 +146,5 @@ WPA2 がダメだからと言って WEP を使うのは事態を悪化させる�
 - [Wi-Fiを脅かす脆弱性「KRACK」、各社の対応状況は--MS、アップル、グーグルなど - ZDNet Japan](https://japan.zdnet.com/article/35108863/)
 - [WPA2の脆弱性「KRACK」対処パッチ、Microsoftは対応済み、AppleのOSとAndroidは数週間中 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1710/17/news044.html)
     - [「WPA2」の脆弱性情報、セキュリティ機関が公開　パッチ適用を呼び掛け - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1710/17/news048.html)
-
-<!-- eof -->
+- [WPA2の脆弱性「KRACKs」、ほぼすべてのWi-Fi通信可能な端末機器に影響 | トレンドマイクロ セキュリティブログ](http://blog.trendmicro.co.jp/archives/16162)
+- [WiFi Connection Vulnerability - Blog - ProtonVPN -](https://protonvpn.com/blog/wifi-vulnerability-krack/) : ProtonVPN の広告記事（笑）

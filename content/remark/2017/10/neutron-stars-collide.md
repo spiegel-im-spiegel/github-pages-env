@@ -1,7 +1,7 @@
 +++
 title = "重力波望遠鏡で中性子星同士の衝突を観測"
 date =  "2017-10-17T17:50:25+09:00"
-update =  "2017-10-17T18:19:50+09:00"
+update =  "2017-10-18T15:02:52+09:00"
 description = "今回は中性子星同士の衝突を LIGO を始めとする重力波望遠鏡で観測した話。もう，片っ端からシンクを張り付けておくよ。"
 tags        = [ "astronomy", "gravity-wave" ]
 
@@ -41,9 +41,11 @@ tags        = [ "astronomy", "gravity-wave" ]
 - [中性子星合体からの重力波初検出と重力波天体が放つ光の初観測 - 東京大学 大学院理学系研究科・理学部](http://www.s.u-tokyo.ac.jp/ja/info/5594/)
 - [【理工】重力波天体が放つ光を初観測〜日本の望遠鏡群が捉えた重元素の誕生の現場〜 | 大学TOP | 甲南大学](http://www.konan-u.ac.jp/news/archives/16933)
 
-- [First Detection of Gravitational Waves from Neutron-Star Crash Marks New Era of Astronomy](https://www.space.com/38469-gravitational-waves-from-neutron-stars-discovery-ligo.html?utm_content=buffer6c27a&utm_medium=social&utm_source=facebook)
-    - [When Neutron Stars Collide! What the Hubble Telescope and Others Saw (Videos)](https://www.space.com/38473-neutron-star-collision-videos-by-hubble-telescope-others.html?utm_content=buffer45d10&utm_medium=social&utm_source=facebook)
-    - [Gravitational Waves from Neutron Star Crashes: The Discovery Explained](https://www.space.com/38471-gravitational-waves-neutron-star-crashes-discovery-explained.html?utm_content=buffer65cc3&utm_medium=social&utm_source=facebook)
+- [First Detection of Gravitational Waves from Neutron-Star Crash Marks New Era of Astronomy](https://www.space.com/38469-gravitational-waves-from-neutron-stars-discovery-ligo.html)
+    - [Gravitational Waves from Neutron Star Crashes: The Discovery Explained](https://www.space.com/38471-gravitational-waves-neutron-star-crashes-discovery-explained.html)
+    - [When Neutron Stars Collide! What the Hubble Telescope and Others Saw (Videos)](https://www.space.com/38473-neutron-star-collision-videos-by-hubble-telescope-others.html)
+    - [These Two Neutron Stars Collided: Are They a Black Hole Now?](https://www.space.com/38478-did-neutron-stars-collision-create-black-hole.html)
+    - [Neutron-Star Collision Reveals Origin of Gold, Astronomers Say](https://www.space.com/38491-ligo-neutron-stars-heavy-metals-gold.html)
 
 - [「中性子星合体による重力波」初観測に成功　米欧研究チーム | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_10_16_gra.html)
     - [日本観測チーム、重力波天体の光を初観測　重元素誕生予測とほぼ一致 | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_10_17_gra2.html)

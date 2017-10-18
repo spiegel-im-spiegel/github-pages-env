@@ -1,7 +1,7 @@
 +++
 title = "「パスワードのベストプラクティス」が変わる"
 date =  "2017-10-16T19:21:02+09:00"
-update =  "2017-10-17T11:44:05+09:00"
+update =  "2017-10-18T15:02:52+09:00"
 description = "Bruce Schneier 氏の「Changes in Password Best Practices」の内容が簡潔だったので「そのうち紹介しなくちゃ」と思っていたが，先を越されたっぽい感じなので，便乗記事として上げておく（笑）"
 tags        = [ "security", "authentication", "password", "risk", "management" ]
 
@@ -130,6 +130,19 @@ I could tell you my pass phrase, but then I would have to kill you.
 
 - [週末スペシャル： 「パスワードの定期変更はすべきでない」，他]({{< relref "remark/2016/07/02-stories.md" >}})
 
+### 【追記】 パスワード定期変更の起源？
+
+「[JNSAメールマガジン　臨時号　2015.4.3.](http://www.jnsa.org/aboutus/jnsaml/ml-57special.html)」によると
+
+{{< fig-quote title="JNSAメールマガジン　臨時号　2015.4.3." link="http://www.jnsa.org/aboutus/jnsaml/ml-57special.html" >}}
+<q>パスワードの定期的な変更は、パスワード文字列が4文字だった時代にパスワードの総当たり攻撃(ブルートフォース攻撃)の対策として実施したことが起源と言われている。</q>
+{{< /fig-quote >}}
+
+なんだそうだ。
+ホンマかいな（笑）
+
+むしろ，ネットワーク管理者やセキュリティ管理者が自分たちの仕事（アカウント管理）を面倒臭がって「放っておいても期限切れになる」パスワード運用を強制した，のほうに1票いれるよ。
+
 ## パスワード管理ツールを使え
 
 3番目の要件もおなじみのやつである。
@@ -159,6 +172,8 @@ I could tell you my pass phrase, but then I would have to kill you.
 それをしないのは単なる怠慢だ。
 
 ## ブックマーク
+
+- [NIST SP 800-63 Digital Identity Guidelines](https://pages.nist.gov/800-63-3/)
 
 - [崩れる「安全なパスワード」神話　否定される過去の基準、追従できない現場の課題 ｜ビジネス+IT](https://www.sbbit.jp/article/cont1/33969)
 - [あの「面倒なパスワード作成ルール」、作った人も後悔していた - ZDNet Japan](https://japan.zdnet.com/article/35105725/)
