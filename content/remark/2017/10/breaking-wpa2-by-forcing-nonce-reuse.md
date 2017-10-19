@@ -1,7 +1,7 @@
 +++
 title = "WPA2 脆弱性（KRACKs）に関する覚え書き"
 date =  "2017-10-17T20:00:30+09:00"
-update =  "2017-10-18T15:02:52+09:00"
+update =  "2017-10-19T11:09:10+09:00"
 description = "今回は，世界中で大騒ぎになっている Wi-Fi の WPA2 認証に関する脆弱性について。"
 tags = [
   "security",
@@ -108,6 +108,10 @@ Wi-Fi 通信が可能なあらゆる機器が対象となる。
     - [大切なお知らせ ｜ BUFFALO バッファロー](http://buffalo.jp/support_s/t20171017.html)
     - [WPA と WPA2 の脆弱性に関する最新情報 – UTM/NGFWでマルウェア・標的型攻撃対策｜ウォッチガード・テクノロジー](https://www.watchguard.co.jp/security-news/wpa-and-wpa2-vulnerabilities-update.html)
     - [「Wi-Fi Protected Access II (WPA2) ハンドシェイクにおいて Nonce およびセッション鍵が再利用される問題」について (FAQ for YAMAHA RT Series / Security)](http://www.rtpro.yamaha.co.jp/RT/FAQ/Security/JVNVU90609033.html)
+    - [サポート | D-Link Japan](http://www.dlink-jp.com/support) : 「「WPA2の脆弱性」 に関する弊社調査状況について」をクリック
+    - [WPA2の脆弱性に関する弊社調査・対応状況について - 重要なお知らせ - ELECOM |](http://www.elecom.co.jp/support/news/20171018/)
+    - [【重要】「WPA2」の脆弱性に関するお知らせ| お知らせ | AtermStation](http://www.aterm.jp/product/atermstation/info/2017/info1018.html)
+    - [【お知らせ】Wi-Fiの暗号化技術「WPA2」脆弱性対策について - CNET Japan](https://japan.cnet.com/release/30213798/) : 日本ヒューレット・パッカード株式会社からの報道資料
 - iOS や Android を提供する Apple や Google では修正版を準備中とのこと
     - ただし Android に関しては，端末を提供しているベンダ企業やキャリア企業が対応しない限り対応されないと思われる。特に古い機種や古いバージョンの OS を使い続けている場合は対応されないと思ったほうがいい
 - Windows については Microsoft からの10月のアップデートで修正されている
@@ -149,3 +153,4 @@ WPA2 がダメだからと言って WEP を使うのは事態を悪化させる�
     - [「WPA2」の脆弱性情報、セキュリティ機関が公開　パッチ適用を呼び掛け - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1710/17/news048.html)
 - [WPA2の脆弱性「KRACKs」、ほぼすべてのWi-Fi通信可能な端末機器に影響 | トレンドマイクロ セキュリティブログ](http://blog.trendmicro.co.jp/archives/16162)
 - [WiFi Connection Vulnerability - Blog - ProtonVPN -](https://protonvpn.com/blog/wifi-vulnerability-krack/) : ProtonVPN の広告記事（笑）
+- [総務省｜無線LAN（Wi-Fi）暗号化における脆弱性について（注意喚起）](http://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000274.html) : いまさら総務省（笑）

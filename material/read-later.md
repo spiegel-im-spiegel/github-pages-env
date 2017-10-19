@@ -2,6 +2,7 @@
 
 NTT 新規契約 0800-2000-116
 
+
 ## いつか買う，かも
 
 - [ロボット法 - 株式会社　勁草書房](http://www.keisoshobo.co.jp/book/b324580.html) : こっちは面白そう
@@ -14,6 +15,7 @@ NTT 新規契約 0800-2000-116
 
 - [「貧困と格差」ではなく「道徳と家族」というポピュリズムの「本質論」：国末憲人 | ヨーロッパの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42889)
 - [クルド危機が示す米国の仲介能力の低下：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42893)
+- [「懲りない韓国」に下す米国の鉄槌は「通貨」：日経ビジネスオンライン](http://business.nikkeibp.co.jp/atcl/report/15/226331/101700133/)
 
 ## セキュリティ関連
 
@@ -25,15 +27,20 @@ NTT 新規契約 0800-2000-116
     - [Adobe Flash Player の脆弱性 (APSB17-32) に関する注意喚起](https://www.jpcert.or.jp/at/2017/at170040.html)
 
 - [「SiteGuard Lite」（WAF）の最新バージョン「Ver3.30」提供開始のお知らせ | さくらインターネット](https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1740)
-- [Millions of high-security crypto keys crippled by newly discovered flaw | Ars Technica](https://arstechnica.com/information-technology/2017/10/crypto-failure-cripples-millions-of-high-security-keys-750k-estonian-ids/)
+- [JVNVU#95530052: Infineon 製 RSA ライブラリが RSA 鍵ペアを適切に生成しない問題](http://jvn.jp/vu/JVNVU95530052/)
+    - [Millions of high-security crypto keys crippled by newly discovered flaw | Ars Technica](https://arstechnica.com/information-technology/2017/10/crypto-failure-cripples-millions-of-high-security-keys-750k-estonian-ids/)
     - [Security Flaw in Infineon Smart Cards and TPMs - Schneier on Security](https://www.schneier.com/blog/archives/2017/10/security_flaw_i_1.html)
 - [ランサムウェア対策特設ページ：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/anshin/ransom_tokusetsu.html)
-
-- [Oracle、22件の脆弱性を修正した「Java SE 8 Update 151」を公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1086738.html)
+- [2017年 10月 Oracle Java SE のクリティカルパッチアップデートに関する注意喚起](https://www.jpcert.or.jp/at/2017/at170041.html)
+    - [Oracle、22件の脆弱性を修正した「Java SE 8 Update 151」を公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1086738.html)
+- [IoT Cybersecurity: What's Plan B? - Schneier on Security](https://www.schneier.com/blog/archives/2017/10/iot_cybersecuri.html)
+- [「Oracle VM VirtualBox」に脆弱性、修正版のv5.1.30が公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1086742.html)
 
 ## 天文関連
 
 - [さそり座に新星が出現 - アストロアーツ](http://www.astroarts.co.jp/article/hl/a/9451_nova_sco)
+- [月周辺に膨らむ宇宙ステーション、2022年までに設置へ　ビゲロー・エアロスペース | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_10_18_bi.html)
+- [UZUME Project | プロジェクトと歩く | 特設・特集 | The Planetary Society of Japan - 日本惑星協会](http://planetary.jp/future_mission/UZUME/)
 
 ## その他
 
@@ -60,5 +67,9 @@ NTT 新規契約 0800-2000-116
 - [コードを書く際の指針として見返すサイトまとめ - Qiita](https://qiita.com/kenichi_cc/items/c3ecca7b7d5fc5c6bf2e)
 - [囲碁ソフト「銀星囲碁」が日本棋院のアマチュア最高段位・八段の免状を取得 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1086488.html)
 - [モリサワの「UDデジタル教科書体」が「Windows 10 Fall Creators Update」に採用 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1086484.html)
+- [Microsoft、「.NET Framework 4.7.1」の一般提供を開始 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1086812.html)
+- [Nvidiaに負けたくないIntelがニューラルネットワーク専用プロセッサーNervanaを年内発売 | TechCrunch Japan](http://jp.techcrunch.com/2017/10/18/20171017intel-to-ship-new-nervana-neural-network-processor-by-end-of-2017/)
+- [「投票しろ！だけ言うのは無責任」26歳が作った“頑張らない”選挙情報サイト](https://www.buzzfeed.com/jp/harunayamazaki/japan-choice)
+- [モリサワ、「UDフォント」3種を無償提供 ～“MORISAWA BIZ+”のサービスが開始 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1086785.html) : [Twitter で教えてもらった](https://twitter.com/o_tamon/status/920548458028605443)のだが「日本でフォントサブスクリプション制が始まって、今年は15周年」らしい。もの知らずでゴメン
 
 (end of file)
