@@ -2,7 +2,6 @@
 title = "2017-10-21 のブックマーク"
 date =  "2017-10-21T12:53:43+09:00"
 description = "「シリアではクルド系組織が主導するSDFが「イスラーム国」の拠点ラッカを制圧」他"
-draft = true
 
 [author]
 name      = "Spiegel"
