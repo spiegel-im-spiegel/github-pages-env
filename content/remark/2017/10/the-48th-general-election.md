@@ -1,7 +1,7 @@
 +++
 title = "第48回衆議院議員総選挙"
 date =  "2017-10-11T18:44:11+09:00"
-update =  "2017-10-19T11:09:10+09:00"
+update = "2017-10-21T12:55:09+09:00"
 description = "2017年11月22日（日）に第48回衆議院議員総選挙および第24回最高裁判所裁判官国民審査が行われる。選挙のお知らせも届いたことだし調べておくか。"
 tags = ["politics", "election"]
 
@@ -110,5 +110,7 @@ tags = ["politics", "election"]
 - [JAPAN CHOICE](http://japanchoice.jp/)
     - [政策比較 | JAPAN CHOICE](http://policy.japanchoice.jp/)
     - [「投票しろ！だけ言うのは無責任」26歳が作った“頑張らない”選挙情報サイト](https://www.buzzfeed.com/jp/harunayamazaki/japan-choice?utm_term=.kfaznq7gQ#.hhGpQEyDz)
+    - [国民審査の対象となる裁判官と制度のまとめ | JAPAN CHOICE](http://senkyo.japanchoice.jp/archives/771)
+- [なぜ日本人の多くが自民党を選ぶのか（福田充）｜ポリタス 衆院選2017ーーそれでも選ぶとしたら](http://politas.jp/features/13/article/595#anno)
 
 - [「少子化」に関する覚え書き（再掲載）]({{< relref "remark/2015/declining-birth-rate-2015.md" >}}) : 前の総選挙の時に考えたネタの再構成。2016年のデータまではフォローしている
