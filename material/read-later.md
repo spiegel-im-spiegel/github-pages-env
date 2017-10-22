@@ -16,11 +16,15 @@ NTT 新規契約 0800-2000-116
 
 ## セキュリティ関連
 
+- [ニュース - ウイルスバスター クラウドに不具合、Windows 10の大型更新でブルースクリーン：ITpro](http://itpro.nikkeibp.co.jp/atcl/news/17/101902472/)
+- [wizSafe Security Signal -安心・安全への道標- IIJ](https://wizsafe.iij.ad.jp/)
+- [IIJ、セキュリティ情報発信サイト「wizSafe Security Signal」を開設 - クラウド Watch](https://cloud.watch.impress.co.jp/docs/news/1087301.html)
 
 ## 天文関連
 
 
 ## その他
 
-
+- [「人工知能でいい感じの成果を出してくれ」という偉い人の脳内はどうなっているのか – ところてん – Medium](https://medium.com/@tokoroten/%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%E3%81%A7%E3%81%84%E3%81%84%E6%84%9F%E3%81%98%E3%81%AE%E6%88%90%E6%9E%9C%E3%82%92%E5%87%BA%E3%81%97%E3%81%A6%E3%81%8F%E3%82%8C-%E3%81%A8%E3%81%84%E3%81%86%E5%81%89%E3%81%84%E4%BA%BA%E3%81%AE%E8%84%B3%E5%86%85%E3%81%AF%E3%81%A9%E3%81%86%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%AE%E3%81%8B-96f4da85b924)
+- [OpenFaaSを使ってGo言語でFunctionを書いて、AWSに展開したDocker環境にデプロイするまで - Qiita](https://qiita.com/gcoka/items/7726719bbb06f54d7655)
 (end of file)

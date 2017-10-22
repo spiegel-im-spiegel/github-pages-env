@@ -1,6 +1,7 @@
 +++
 title = "2017-10-21 のブックマーク"
 date =  "2017-10-21T12:53:43+09:00"
+update =  "2017-10-22T18:16:40+09:00"
 description = "「シリアではクルド系組織が主導するSDFが「イスラーム国」の拠点ラッカを制圧」他"
 
 [author]
@@ -97,6 +98,7 @@ flattr    = "spiegel"
 - [Linux Kernel Community Enforcement Statement - Linux Kernel Monkey Log](http://kroah.com/log/blog/2017/10/16/linux-kernel-community-enforcement-statement/)
 - [Kotlinのスキルを持たないAndroid開発者は恐竜のようになるリスクに直面。モバイルアプリプラットフォームのRealmが予測 － Publickey](http://www.publickey1.jp/blog/17/kotlinandroidrealm.html)
 - [ウェブ開発者に朗報--MS、グーグル、Mozillaがブラウザ関連文書を1カ所に - CNET Japan](https://japan.cnet.com/article/35109075/)
+    - [Microsoft、Mozilla、Google、W3CらWeb技術文書取りまとめを発表 | マイナビニュース](http://news.mynavi.jp/news/2017/10/20/053/) 
 - [自己対局で成長する囲碁AI「AlphaGo Zero」が登場--実力すでに世界最強 - ZDNet Japan](https://japan.zdnet.com/article/35109021/)
     - [2017年10月20日ニュース「アルファ碁が進化した最新囲碁ソフトが誕生 対局データなしに独学で最強に」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/10/20171020_01.html)
 - [パレスチナの「政界再編」は、小池都知事の「希望の党」騒動と似通う：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42822)
