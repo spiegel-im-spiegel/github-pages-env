@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-10-19T09:57:00+09:00"
+update = "2017-10-23T17:36:04+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -490,6 +490,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Goで3Dモデル変換してプレビュー - Qiita](http://qiita.com/tetuyoko/items/746599e36ca4985d9e1a)
 - [Go最後の秘宝「GUI」を探しに行く - Qiita](http://qiita.com/shibukawa/items/cd8d122dfeb41e1608d1)
 - [golangのGUIパッケージgo-gtkを試す - Qiita](http://qiita.com/intelf___/items/2207c02c306a495d99e6)
+- [gocui の基本的な使い方 - Qiita](https://qiita.com/zenwerk/items/97ebd5e470bdafdb6e42) : CUI (Console User Interface)
 
 ## Web Microframework for Golang
 
