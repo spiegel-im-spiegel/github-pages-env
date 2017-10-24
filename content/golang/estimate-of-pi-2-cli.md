@@ -1,8 +1,8 @@
 +++
 description = "さっそく推定結果について評価を行いたいところだが，その前に CLI (command-line interface) を整備する。今回は spf13/cobra パッケージを使うことにする。"
-tags = ["golang", "cli", "facade", "circle-ratio"]
+tags = ["golang", "cli", "facade", "circle-ratio", "init"]
 date = "2016-11-06T17:57:37+09:00"
-update = "2017-01-16T09:42:12+09:00"
+update = "2017-10-24T13:42:41+09:00"
 title = "モンテカルロ法による円周率の推定（その2 CLI）"
 draft = false
 
