@@ -1,9 +1,9 @@
 +++
 date = "2016-02-25T16:45:01+09:00"
-update = "2016-11-09T15:18:42+09:00"
+update = "2017-10-25T12:55:08+09:00"
 description = "IPA が提供する “icat for JSON” にアクセスする Go 言語用のパッケージを公開した。"
 draft = false
-tags = ["golang", "package", "json", "ipa", "security", "vulnerability"]
+tags = ["golang", "package", "json", "ipa", "security", "vulnerability", "api"]
 title = "icat4json 公開"
 
 [author]

@@ -1,9 +1,9 @@
 +++
 date = "2015-11-26T20:29:30+09:00"
-update = "2016-02-14T19:26:03+09:00"
+update = "2017-10-25T12:55:08+09:00"
 description = "これって curl で書けるんなら Go 言語で表現できるんじゃね？"
 draft = false
-tags = ["golang", "github", "curl", "programming"]
+tags = ["golang", "github", "curl", "programming", "api"]
 title = "Git.io から短縮 URL を取得するコード"
 
 [author]
