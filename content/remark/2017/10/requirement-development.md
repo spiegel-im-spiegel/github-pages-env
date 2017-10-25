@@ -96,6 +96,7 @@ TDD では先に「テスト」を書く。
 ## ブックマーク
 
 - [護憲派は改憲案に賛成すべきだ : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/16834872.html)
+    - [立憲民主党の未来は実は改憲にある : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/21571730.html)
 
 - [第48回衆議院議員総選挙]({{< relref "remark/2017/10/the-48th-general-election.md" >}})
 

@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-10-23T17:36:04+09:00"
+update = "2017-10-25T16:55:07+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -592,6 +592,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go で簡単に Excelを作成するライブラリ。 色、罫線、網掛けを事前定義済 - Qiita](http://qiita.com/mikeshimura/items/b60823e923fb6d0840c0)
 - [Go言語でエクセルファイル (.xlsx) を読み込む - Qiita](http://qiita.com/kaorumori/items/fa37130065d0450d6342) : [`github.com/tealeg/xlsx`](https://github.com/tealeg/xlsx) パッケージを使用
 - [Go言語でExcel操作ライブラリを書いてみた - Qiita](http://qiita.com/tebakane/items/2f2ed2558357c274c478) : [`github.com/loadoff/excl`](https://github.com/loadoff/excl) パッケージの説明
+- [Go言語でExcelファイルを処理するのが超簡単だった | 非IT企業に勤める中年サラリーマンのIT日記](http://pineplanter.moo.jp/non-it-salaryman/2017/06/18/go-read-excel/)
 
 ## Go で数学
 
@@ -630,6 +631,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 
 ## その他 四方山話
 
+- [GASCII.jp：Goならわかるシステムプログラミング](http://ascii.jp/elem/000/001/235/1235262/)
+
 ### 他言語との比較もしくは移行
 
 - [ErlangとGolangを比較してみる - Qiita](http://qiita.com/soranoba/items/68d57b4635a2917f3c73)
@@ -662,6 +665,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Goのプログラミングパターン](http://www.infoq.com/jp/news/2016/03/go-patterns)
 - [6年間におけるGoのベストプラクティス | プログラミング | POSTD](http://postd.cc/go-best-practices-2016/)
 - [Go言語のFunctional Option Pattern - Qiita](http://qiita.com/weloan/items/56f1c7792088b5ede136)
+- [Big Sky :: Golang で物理ファイルの操作に path/filepath でなく path を使うと爆発します。](https://mattn.kaoriya.net/software/lang/go/20171024130616.htm) : URL の操作には `http.ServeFile` を使うとかあるらしい
 
 ## 参考図書
 

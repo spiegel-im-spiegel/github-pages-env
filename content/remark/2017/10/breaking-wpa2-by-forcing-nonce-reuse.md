@@ -119,8 +119,10 @@ Wi-Fi 通信が可能なあらゆる機器が対象となる。
     - [サポート｜Wi-Fi Protected Access II (WPA2) ハンドシェイクに関する脆弱性](https://www.allied-telesis.co.jp/support/list/faq/vuls/20171019.html) : アライドテレシス株式会社
     - [勧告: Sophos Wireless への WPA および WPA2 の脆弱性による鍵再インストール攻撃 (KRACKs) の影響 - Sophos Community](https://community.sophos.com/kb/ja-jp/127658)
     - [WPA2 セキュリティの脆弱性に関して(KRACKs) - TP-Link](http://www.tp-link.jp/faq-1970.html)
+    - [WPA2の脆弱性に関するBHT製品への影響と対応｜お知らせ｜デンソーウェーブ](https://www.denso-wave.com/ja/info/detail__991.html)
 - iOS や Android を提供する Apple や Google では修正版を準備中とのこと
     - ただし Android に関しては，端末を提供しているベンダ企業やキャリア企業が対応しない限り対応されないと思われる。特に古い機種や古いバージョンの OS を使い続けている場合は対応されないと思ったほうがいい
+    - [WPA2脆弱性、Androidの対策パッチは11月6日提供予定、iOSの対策済みベータ配布が開始 -INTERNET Watch](https://internet.watch.impress.co.jp/docs/news/1087533.html)
 - Windows については Microsoft からの10月のアップデートで修正されている
     - [CVE-2017-13080 | Windows Wireless WPA Group Key Reinstallation Vulnerability](https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-13080)
 - Linux や FreeBSD 等については対応が始まっている。ディストリビュータの情報に注意すること

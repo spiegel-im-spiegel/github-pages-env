@@ -1,6 +1,6 @@
 +++
 date = "2015-12-09T20:14:59+09:00"
-update = "2017-10-18T15:56:45+09:00"
+update = "2017-10-25T16:55:07+09:00"
 description = "git 各コマンドに関する覚え書き。思い出したら追記予定。"
 draft = false
 tags = ["git", "tools"]
@@ -224,6 +224,8 @@ $ git push -f
 - [GithubでのWeb上からのマージの仕方3種とその使いどころ - Qiita](https://qiita.com/ko-he-8/items/94e872f2154829c868df)
 - [ECDSA鍵をGitHubで使う方法 - Qiita](https://qiita.com/darai0512/items/c7b47d1b3fe06c4dea7d)
 - [Githubでブランチ作成からプルリク作成までを自動化する - Qiita](https://qiita.com/tkmiya34/items/24ab5af026ae575b2a52)
+- {{ pdf-file title="GitHub Git Cheat Sheet" link="https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf" }}
+    - [(翻訳)【GitHub公式】Gitコマンドチートシート - Qiita](https://qiita.com/okamu_/items/d52a6900311ad9073628)
 
 ### Git-flow and GitHub-flow
 
