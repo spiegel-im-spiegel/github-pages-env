@@ -1,7 +1,7 @@
 +++
 title = "重力波望遠鏡で中性子星同士の衝突を観測"
 date =  "2017-10-17T17:50:25+09:00"
-update =  "2017-10-18T15:02:52+09:00"
+update = "2017-10-26T14:08:23+09:00"
 description = "今回は中性子星同士の衝突を LIGO を始めとする重力波望遠鏡で観測した話。もう，片っ端からシンクを張り付けておくよ。"
 tags        = [ "astronomy", "gravity-wave" ]
 
@@ -40,6 +40,7 @@ tags        = [ "astronomy", "gravity-wave" ]
 - [【研究成果】重力波天体が放つ光を初観測 －日本の望遠鏡群が捉えた重元素の誕生の現場－ | 広島大学](https://www.hiroshima-u.ac.jp/news/42158)
 - [中性子星合体からの重力波初検出と重力波天体が放つ光の初観測 - 東京大学 大学院理学系研究科・理学部](http://www.s.u-tokyo.ac.jp/ja/info/5594/)
 - [【理工】重力波天体が放つ光を初観測〜日本の望遠鏡群が捉えた重元素の誕生の現場〜 | 大学TOP | 甲南大学](http://www.konan-u.ac.jp/news/archives/16933)
+- [中性子星合体からの光は偏りが小さかった 〜宇宙の金... | プレスリリース | 東北大学 -TOHOKU UNIVERSITY-](http://www.tohoku.ac.jp/japanese/2017/10/press20171023-01.html)
 
 - [First Detection of Gravitational Waves from Neutron-Star Crash Marks New Era of Astronomy](https://www.space.com/38469-gravitational-waves-from-neutron-stars-discovery-ligo.html)
     - [Gravitational Waves from Neutron Star Crashes: The Discovery Explained](https://www.space.com/38471-gravitational-waves-neutron-star-crashes-discovery-explained.html)

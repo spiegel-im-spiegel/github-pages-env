@@ -1,6 +1,7 @@
 +++
 title = "Codic API を利用するパッケージを作ってみた"
 date =  "2017-10-25T15:46:59+09:00"
+update =  "2017-10-26T18:07:36+09:00"
 description = "spf13/viper を使ってみたかったのだ。"
 tags        = [ "golang", "programming", "package", "api", "curl", "language", "cli" ]
 
@@ -23,7 +24,7 @@ tags        = [ "golang", "programming", "package", "api", "curl", "language", "
   mermaidjs = false
 +++
 
-つい最近まで知らなかっ等のだが [codic] というサービスがあるらしい。
+つい最近まで知らなかったのだが [codic] というサービスがあるらしい。
 
 - [プログラマーのためのネーミング辞書 | codic](https://codic.jp/)
 

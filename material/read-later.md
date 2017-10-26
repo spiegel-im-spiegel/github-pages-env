@@ -13,6 +13,7 @@ NTT 新規契約 0800-2000-1160
 
 ## Age of Trump
 
+- [「共和党エスタブリッシュメント」の「放逐」を目指すスティーブ・バノン氏：足立正彦 | アメリカの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42937)
 
 ## セキュリティ関連
 
@@ -21,6 +22,7 @@ NTT 新規契約 0800-2000-1160
 - [IIJ、セキュリティ情報発信サイト「wizSafe Security Signal」を開設 - クラウド Watch](https://cloud.watch.impress.co.jp/docs/news/1087301.html)
 - [Webサイトの改ざんに伴う仮想通貨マイニングスクリプトの埋め込み事例 – wizSafe Security Signal -安心・安全への道標- IIJ](https://wizsafe.iij.ad.jp/2017/10/94/)
 - [JVNVU#93703434: 「楽々はがき」および「楽々はがき セレクト for ⼀太郎」にメモリ破壊の脆弱性](http://jvn.jp/vu/JVNVU93703434/)
+- [ランサムウェアBadRabbitに関する情報についてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/touch/20171025/1508921925)
 
 ## 天文関連
 
@@ -46,5 +48,11 @@ NTT 新規契約 0800-2000-1160
 - [AlphaGo Zeroの手法でリバーシの強化学習をやってみる - Qiita](https://qiita.com/mokemokechicken/items/a5803b4280751848e36b)
 - [2017年10月24日ニュース「東南海で起きている地震と巨大地震の関係が分かってきた」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/10/20171024_01.html)
 - [サイボウズLive - 西尾泰和のScrapbox - Scrapbox](https://scrapbox.io/nishio/%E3%82%B5%E3%82%A4%E3%83%9C%E3%82%A6%E3%82%BALive)
+- [IBM、100万個の「演算するメモリ群」で作られた非ノイマン型マシンで機械学習のデモを発表。従来のコンピュータより200倍高速で高効率と － Publickey](http://www.publickey1.jp/blog/17/ibm100200.html)
+- [アップルの「Siri」は、なぜアマゾンやGoogleの人工知能に後れをとってしまったのか｜WIRED.jp](https://wired.jp/2017/10/25/siri-why-have-you-fallen/)
+- [Gmail API Client Library for Javaでメールを送ってみる - Qiita](https://qiita.com/kuinaein/items/7c6097d7abcb529d1924)
+- [Gmailがサードパーティー製アドオンに対応 | TechCrunch Japan](http://jp.techcrunch.com/2017/10/25/20171024gmail-gets-third-party-add-ons/)
+- [各種小説投稿サイトのルビ記法をJavaScriptで実現する - Qiita](https://qiita.com/8amjp/items/d7c46d9dee0da4d530ef)
+- [「ソーシャル・ネットワーク＋Evernote」をイメージするMrOwl | TechCrunch Japan](http://jp.techcrunch.com/2017/10/25/20171024mrowl-wants-to-be-your-new-sharing-platform/)
 
 (end of file)

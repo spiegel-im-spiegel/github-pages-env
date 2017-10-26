@@ -1,6 +1,7 @@
 +++
 title = "「改憲」という要求開発"
 date =  "2017-10-23T17:45:41+09:00"
+update = "2017-10-26T14:08:23+09:00"
 description = "やぁ，選挙が終わりましたよ。ようやくこれで胡乱なことが喋れるよ（笑）"
 tags        = [ "engineering", "politics", "code", "requirement-revelopment" ]
 
@@ -97,6 +98,7 @@ TDD では先に「テスト」を書く。
 
 - [護憲派は改憲案に賛成すべきだ : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/16834872.html)
     - [立憲民主党の未来は実は改憲にある : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/21571730.html)
+    - [長谷部恭男教授の「立憲主義」は、集団的自衛権の違憲性を説明しない : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/21632477.html)
 
 - [第48回衆議院議員総選挙]({{< relref "remark/2017/10/the-48th-general-election.md" >}})
 

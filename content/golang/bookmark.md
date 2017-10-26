@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-10-25T16:55:07+09:00"
+update = "2017-10-26T18:14:29+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -177,6 +177,8 @@ title = "Go 言語に関するブックマーク"
 - [Go言語: ファイルの存在をちゃんとチェックする実装? - Qiita](http://qiita.com/suin/items/b9c0f92851454dc6d461)
 - [Golangで、ファイル一覧取得（最新順出力） - Qiita](http://qiita.com/shinofara/items/e5e78e6864a60dc851a6)
 - [大きなファイルのアップロードを省メモリで行いたい(io.Pipeを使う) - Qiita](http://qiita.com/m0a/items/bba395b2fc9cd160e441)
+- [Big Sky :: net/http でレスポンスの内容を確認したいなら io.TeeReader を使おう](https://mattn.kaoriya.net/software/lang/go/20171026101727.htm)
+    - [`io.TeeReader`](https://golang.org/pkg/io/#TeeReader)
 
 ### 並行処理と並列処理
 
@@ -565,6 +567,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Windows+GoでNFC/Felicaにアクセスしてみた - Qiita](http://qiita.com/mau4x/items/424fe7964e70a3a99965)
 - [UnityのネイティブプラグインをGoで書く #golang #unity - Qiita](http://qiita.com/tenntenn/items/4d3316490a571e5d79ed)
 - [radikoの録音ツールをGoで書いた - Qiita](http://qiita.com/yyoshiki41/items/f81442d7dc2d0ddcf15b)
+- [Golang の DB 操作 ORM をいろいろしらべてみたい - Qiita](https://qiita.com/mochizukikotaro/items/b09116e0ad2d30e37098)
 
 ### DB 連携
 
