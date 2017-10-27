@@ -1,7 +1,7 @@
 +++
 title = "Codic API を利用するパッケージを作ってみた"
 date =  "2017-10-25T15:46:59+09:00"
-update =  "2017-10-26T18:07:36+09:00"
+update = "2017-10-27T18:19:23+09:00"
 description = "spf13/viper を使ってみたかったのだ。"
 tags        = [ "golang", "programming", "package", "api", "curl", "language", "cli" ]
 
@@ -217,6 +217,7 @@ token := viper.GetString("token")
 
 - [【codic】プログラマ必見！もう変数名や関数名に困らない！プログラマのためのネーミングツールを紹介 - プログラミング向上雑記](http://niisi.hatenablog.jp/entry/2016/08/17/171000)
 - [関数や変数のネーミングに悩んだら「codic」に日本語名を入力するとある程度解決するかも](https://nelog.jp/codic)
+- [よく使うcurlコマンドのオプションまとめ（12個） - Qiita](https://qiita.com/shtnkgm/items/45b4cd274fa813d29539)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [codic]: https://codic.jp/ "プログラマーのためのネーミング辞書 | codic"

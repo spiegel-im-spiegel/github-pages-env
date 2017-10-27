@@ -22,7 +22,10 @@ NTT 新規契約 0800-2000-1160
 - [IIJ、セキュリティ情報発信サイト「wizSafe Security Signal」を開設 - クラウド Watch](https://cloud.watch.impress.co.jp/docs/news/1087301.html)
 - [Webサイトの改ざんに伴う仮想通貨マイニングスクリプトの埋め込み事例 – wizSafe Security Signal -安心・安全への道標- IIJ](https://wizsafe.iij.ad.jp/2017/10/94/)
 - [JVNVU#93703434: 「楽々はがき」および「楽々はがき セレクト for ⼀太郎」にメモリ破壊の脆弱性](http://jvn.jp/vu/JVNVU93703434/)
-- [ランサムウェアBadRabbitに関する情報についてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/touch/20171025/1508921925)
+- [感染が拡大中のランサムウェア「Bad Rabbit」の対策について：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20171026-ransomware.html)
+    - [ランサムウェアBadRabbitに関する情報についてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/touch/20171025/1508921925)
+- [渦中のカスペルスキーが調査報告--NSA職員のPCはすでにマルウェア感染していた - ZDNet Japan](https://japan.zdnet.com/article/35109387/)
+- [JVNVU#99266133: GNU Wget における複数のバッファオーバーフローの脆弱性](http://jvn.jp/vu/JVNVU99266133/)
 
 ## 天文関連
 
@@ -54,5 +57,13 @@ NTT 新規契約 0800-2000-1160
 - [Gmailがサードパーティー製アドオンに対応 | TechCrunch Japan](http://jp.techcrunch.com/2017/10/25/20171024gmail-gets-third-party-add-ons/)
 - [各種小説投稿サイトのルビ記法をJavaScriptで実現する - Qiita](https://qiita.com/8amjp/items/d7c46d9dee0da4d530ef)
 - [「ソーシャル・ネットワーク＋Evernote」をイメージするMrOwl | TechCrunch Japan](http://jp.techcrunch.com/2017/10/25/20171024mrowl-wants-to-be-your-new-sharing-platform/)
+- [「けものフレンズ痛飛行機」が空を飛ぶ！　公開機体デザインにはグレープ君も | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_10_26_kemo.html)
+- [2017年10月26日ニュース「重さ単位の新定義になる定数を超精密測定 産総研が信頼性の確認に成功」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/10/20171026_01.html)
+- [人工知能が戦争に使われる恐ろしさを、正しく理解しているか？ (1/4) - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1710/26/news023.html)
+- [世界を揺さぶるICO - イーサリアム提唱した若き天才、「ICOはOSSの資金問題を解決できる」：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/17/102300433/102400002/?rt=nocnt)
+- [noteの書体を変更できる機能をリリースしました。｜note公式｜note](https://note.mu/info/n/n06a6d54e3dfa)
+- [Web開発者向けの定番拡張機能「Firebug」が開発終了 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1088318.html)
+- [音声アシスタントが普及すれば、「人間の脳の能力不足」が問題になってくる｜WIRED.jp](https://wired.jp/2017/10/27/multitasking-problem-with-virtual-assistants/)
+- [JavaScriptのダイナミックインポートをついに実装。より高速化したJavaScriptエンジン「V8 Release 6.3」リリース － Publickey](http://www.publickey1.jp/blog/17/javascript_v8_release_63.html)
 
 (end of file)

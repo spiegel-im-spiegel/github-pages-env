@@ -1,6 +1,6 @@
 +++
 date = "2015-11-26T20:29:30+09:00"
-update = "2017-10-25T12:55:08+09:00"
+update = "2017-10-27T18:19:23+09:00"
 description = "これって curl で書けるんなら Go 言語で表現できるんじゃね？"
 draft = false
 tags = ["golang", "github", "curl", "programming", "api"]
@@ -193,6 +193,8 @@ func main() {
 [^c]: 実はジェネレータで生成したコードの著作権は誰に帰属するのか，とかいろいろ思うところはあるのだけど，それはまた別の機会に。
 
 ## ブックマーク
+
+- [よく使うcurlコマンドのオプションまとめ（12個） - Qiita](https://qiita.com/shtnkgm/items/45b4cd274fa813d29539)
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
