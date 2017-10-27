@@ -1,5 +1,6 @@
 +++
 date = "2015-10-24T16:36:04+09:00"
+update = "2017-10-27T17:27:50+09:00"
 description = "たとえば記事の中に YouTube の動画や SlideShare の HTML コードを埋め込みたいとする。こういうときは Shortcodes の機能を使うと便利だ。"
 draft = false
 tags = [ "hugo", "shortcodes" ]
@@ -28,6 +29,9 @@ title = "Shortcodes で HTML コードを埋め込む"
 ## Shortcodes の使い方
 
 [Shortcodes] は partial template の一種だけど，テンプレートの中に埋め込むのではなく，記事（markdown）ファイルに埋め込むことができる。
+
+### 指定した範囲を加工する
+
 書式は以下のとおりである。
 
 ```
@@ -77,10 +81,37 @@ See the full <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibi
 {{< /fig-quote >}}
 
 `{{</* fig-quote */>}} ... {{</* /fig-quote */>}}` で囲まれている部分が `{{ .Inner }}` として展開されているのがお分かりだろうか。
+
 [Shortcodes] では `{{ .Inner }}` 以外に任意のパラメータを持たせることができる。
 上の例で言うなら `lang`, `title`, `link` が `{{</* fig-quote */>}}` に対するパラメータである。
 
+名前を持たないパラメータでも有効である。
+ここではルビ（ruby）を振る [Shortcodes] `layouts/shortcodes/ruby.html` を考える。
+こんな感じ。
+
+```html
+<ruby><rb>{{ .Inner }}</rb><rp> (</rp><rt>{{ index .Params 0 }}</rt><rp>) </rp></ruby>
+```
+
+これで例えば
+
+```html
+{{</* ruby "ひらがな" */>}}平仮名{{</* /ruby */>}}
+```
+
+と記述すれば
+
+```html
+これで例えば <ruby><rb>平仮名</rb><rp> (</rp><rt>ひらがな</rt><rp>) </rp></ruby> と記述すれば
+```
+
+> これで例えば {{< ruby "ひらがな" >}}平仮名{{< /ruby >}} と記述すれば
+
+と展開される。
+パラメータの順番に意味ができるので，多数のパラメータが必要な場合には向かないかもしれない。
+
 更に `{{%/* fig-quote */%}} ... {{%/* /fig-quote */%}}` と表記すると，囲まれた部分を Markdown と解釈する。
+先程の `fig-quote` を例にすると
 
 ```html
 {{%/* fig-quote title="Compatible Licenses - Creative Commons" link="https://creativecommons.org/compatiblelicenses" lang="en" */%}}
@@ -90,6 +121,8 @@ Other [special considerations](https://wiki.creativecommons.org/wiki/ShareAlike_
 See the full [analysis](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3) and [comparison](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility_analysis:_GPL) for more information.”
 {{%/* /fig-quote */%}}
 ```
+
+と Markdown で記述すれば以下のようになる。
 
 ```html
 <figure lang="en">
@@ -109,34 +142,40 @@ Other [special considerations](https://wiki.creativecommons.org/wiki/ShareAlike_
 See the full [analysis](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3) and [comparison](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility_analysis:_GPL) for more information.”
 {{% /fig-quote %}}
 
+### [Shortcodes] のみで HTML 展開する場合
+
 `{{</* shortcodename */>}}` のみ，または `{{</* shortcodename /*/>}}` で表記すると `{{ .Inner }}` を持たない [Shortcodes] を表現できる。
 たとえば `layouts/shortcodes/fig-youtube.html` というファイルを作成し，以下のコードを書く。
 
 ```html
 <figure style='margin:0 auto;text-align:center;'>
-<iframe class="youtube-player"{{ with .Get "width"}} width="{{ . }}"{{ end }}{{ with .Get "height"}}  height="{{ . }}"{{ end }} src="https://www.youtube-nocookie.com/embed/{{ .Get "id" }}" allowfullscreen></iframe>
-{{ if .Get "title"}}<figcaption><a href="https://www.youtube.com/watch?v={{ .Get "id" }}">{{ .Get "title" }}</a></figcaption>{{ end }}
-</figure>
+<div style="position: relative; margin: 0 2rem; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+	<iframe class="youtube-player" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" src="https://www.youtube-nocookie.com/embed/{{ .Get "id" }}" allowfullscreen></iframe>
+</div>{{ if .Get "title"}}
+<figcaption><a href="https://www.youtube.com/watch?v={{ .Get "id" }}">{{ .Get "title" }}</a></figcaption>
+{{ end }}</figure>
 ```
 
 これを使って
 
 ```html
-{{</* fig-youtube id="Kjqff5bkUrE" width="500" height="281" title="「はやぶさ2」地球スイングバイ解説CG ／ Hayabusa2's Earth Swing-by CG - YouTube" */>}}
+{{</* fig-youtube id="Kjqff5bkUrE" title="「はやぶさ2」地球スイングバイ解説CG ／ Hayabusa2's Earth Swing-by CG - YouTube" */>}}
 ```
 
-このように記述すると，以下のように展開される。
+と記述すると，以下のように展開される。
 
 ```html
 <figure style='margin:0 auto;text-align:center;'>
-<iframe class="youtube-player" width="500"  height="281" src="https://www.youtube-nocookie.com/embed/Kjqff5bkUrE" allowfullscreen></iframe>
+<div style="position: relative; margin: 0 2rem; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+	<iframe class="youtube-player" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" src="https://www.youtube-nocookie.com/embed/Kjqff5bkUrE" allowfullscreen></iframe>
+</div>
 <figcaption><a href="https://www.youtube.com/watch?v=Kjqff5bkUrE">「はやぶさ2」地球スイングバイ解説CG ／ Hayabusa2&#39;s Earth Swing-by CG - YouTube</a></figcaption>
 </figure>
 ```
 
 {{< fig-youtube id="Kjqff5bkUrE" width="500" height="281" title="「はやぶさ2」地球スイングバイ解説CG ／ Hayabusa2's Earth Swing-by CG - YouTube" >}}
 
-### Shortcodes の例
+## Shortcodes の例
 
 [spiegel-im-spiegel/hugo-theme-text] theme では [Shortcodes] を収録してないが，この[サイトの作業用リポジトリ](https://github.com/spiegel-im-spiegel/github-pages-env)には[いくつか置いてある](https://github.com/spiegel-im-spiegel/github-pages-env/tree/master/layouts/shortcodes)。
 再利用はご自由に。

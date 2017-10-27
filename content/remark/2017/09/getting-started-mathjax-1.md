@@ -1,7 +1,7 @@
 +++
 title = "ちょこっと MathJax： 初期設定"
 date =  "2017-09-27T20:02:09+09:00"
-update =  "2017-10-02T13:20:35+09:00"
+update = "2017-10-27T17:27:50+09:00"
 description = "この記事ではまず Web ページ上で MathJax が動くところまで説明していこう。"
 tags        = [ "math", "tex", "mathjax", "blog", "site" ]
 
@@ -28,6 +28,7 @@ tags        = [ "math", "tex", "mathjax", "blog", "site" ]
 
 1. [ちょこっと MathJax： 初期設定]({{< relref "remark/2017/09/getting-started-mathjax-1.md" >}}) ← イマココ
 2. [ちょこっと MathJax： 基本的な数式表現]({{< relref "remark/2017/09/getting-started-mathjax-2.md" >}})
+3. [ちょこっと MathJax： インライン数式と別行立て数式]({{< relref "remark/2017/10/getting-started-mathjax-3.md" >}})
 
 [MathJax] は Web ブラウザ上で数学論文等でも使える高品質な数式表現を行うための JavaScript パッケージで GitHub にリポジトリがある。
 
@@ -96,7 +97,7 @@ MathJax.Hub.Config({ ... });
 全部を説明するのは大変なので，よく使いそうなものを幾つか紹介しよう。
 なお，[最後の節]({{< relref "#mysetting" >}})に[本ブログ]におけるオプションの設定例を挙げているので，以降の解説がウザい方は丸写しでも OK です（笑）
 
-（次節以降に出てくる「インライン数式」および「別行立て数式」については[次回]に説明する）
+（次節以降に出てくる「インライン数式」および「別行立て数式」については[第3回]で説明する）
 
 ### [Core Configuration Options](http://docs.mathjax.org/en/latest/options/hub.html "The Core Configuration Options — MathJax 2.7 documentation") {#core}
 
@@ -125,7 +126,7 @@ MathJax.Hub.Config({
 MathJax.Hub.Config({
   tex2jax: {
     inlineMath: [['$','$'], ['\\(','\\)']],
-    // displayMath: [['$$','$$'], ['\\[','\\]']], // default
+    // displayMath: [['$$','$$'], ['\[','\]']], // default
     processEscapes: true
   }
 });
@@ -134,8 +135,8 @@ MathJax.Hub.Config({
 
 `inlineMath` はインライン数式の開始・終了デリミタを指定する。
 複数列挙できる。
-上記の設定であれば `$ ... $` または `\( ... \)` で囲まれた部分が [MathJax] の処理対象となる。
-`inlineMath` の既定値は `[['\\(','\\)']]` のみである。
+上記の設定であれば `$...$` または `\(...\)` で囲まれた部分が [MathJax] の処理対象となる。
+`inlineMath` の既定値は `[['\(','\)']]` のみである。
 
 ```html
 エネルギーと質量には $E=mc^2$ の関係がある。
@@ -145,17 +146,18 @@ MathJax.Hub.Config({
 
 `displayMath` は別行立て数式の開始・終了デリミタを指定する。
 こちらも複数列挙できる。
-インライン数式と同じように `$$ ... $$` または `\[ ... \]` で囲まれた部分が [MathJax] の処理対象となる。
-`displayMath` の既定値は `[['$$','$$'], ['\\[','\\]']]` である。
+インライン数式と同じように `$$...$$` または `\[...\]` で囲まれた部分が [MathJax] の処理対象となる。
+`displayMath` の既定値は `[['$$','$$'], ['\[','\]']]` である。
 
 ```html
 エネルギーと質量には $$E=mc^2$$ の関係がある。
-
 ```
 
 > エネルギーと質量には $$E=mc^2$$ の関係がある。
 
-`processEscapes` を true にすると，上述の数式開始・終了デリミタを `\` 記号でエスケープできる。
+`processEscapes` を true にすると，上述の数式開始・終了デリミタを `\` 記号でエスケープする[^esc1]。
+
+[^esc1]: `processEscapes` オプションを有効にすると `\(...\)` までエスケープされてただの `(...)` になってしまうので注意すること。というか `processEscapes` オプションを有効にするなら `\(...\)` は使わないほうがいいかも。また `processEscapes` オプションはパラグラフ `<p>...</p>` の中でのみ効いているようだ。
 
 ```html
 エネルギーと質量には \$E=mc^2\$ の関係がある。
@@ -184,33 +186,7 @@ MathJax.Hub.Config({
 
 自動採番を無効にする場合は `"none"` をセットする。
 ページ内の全ての別行立て数式に対して自動採番を有効にする場合は `"all"` をセットする。
-
-`"AMS"` をセットすると `\begin{equation} ... \end{equation}` 等で囲まれた別行立て数式のみ自動採番を行う（この場合は `$$ ... $$` で囲む必要はない）。
-
-```html
-エネルギーと質量には
-\begin{equation}
-  E=mc^2 \label{eq:1}
-\end{equation}
-の関係がある。
-```
-
-> エネルギーと質量には
-> \begin{equation}
->   E=mc^2\
->   \label{eq:1}
-> \end{equation}
-> の関係がある。
-
-ちなみに `\label{eq:1}` は数式に対応するラベルを表し，このラベルを参照する “`\eqref{eq:1}`” を使って
-
-```html
-エネルギーと質量には \eqref{eq:1} の関係がある。
-```
-
-> エネルギーと質量には \eqref{eq:1} の関係がある。
-
-と記述できる（`$ ... $` で囲む必要はない）。
+`"AMS"` をセットした場合の動作については[第3回]を参照のこと。
 
 `extensions` は文字通り[拡張機能の指定](http://docs.mathjax.org/en/latest/tex.html#tex-and-latex-extensions)で，複数の拡張機能を列挙することができる。
 このうち [`mhchem.js`](http://docs.mathjax.org/en/latest/tex.html#mhchem) は [MathJax] で化学式や化学反応式を記述するための拡張である。
@@ -384,6 +360,7 @@ MathJax.Hub.Config({
 [“CommonHTML” オプション]: http://docs.mathjax.org/en/latest/options/output-processors/CommonHTML.html "The CommonHTML output processor — MathJax 2.7 documentation"
 [“HTML-CSS” オプション]: http://docs.mathjax.org/en/latest/options/output-processors/HTML-CSS.html "The HTML-CSS output processor — MathJax 2.7 documentation"
 [次回]: {{< relref "remark/2017/09/getting-started-mathjax-2.md" >}} "ちょこっと MathJax： 基本的な数式表現"
+[第3回]: {{< relref "remark/2017/10/getting-started-mathjax-3.md" >}} "ちょこっと MathJax： インライン数式と別行立て数式"
 [LaTeX2ε美文書作成入門]: http://www.amazon.co.jp/exec/obidos/ASIN/4774187054/baldandersinf-22/ "Amazon | [改訂第7版]LaTeX2ε美文書作成入門 | 奥村 晴彦, 黒木 裕介 通販"
 
 ## 参考図書 {#books}

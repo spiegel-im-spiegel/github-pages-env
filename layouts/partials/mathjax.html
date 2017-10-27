@@ -8,7 +8,10 @@ MathJax.Hub.Config({
 	},
 	TeX: {
 		equationNumbers: { autoNumber: "AMS" },
-	    extensions: ["mhchem.js"]
+	    extensions: ["mhchem.js"],
+		Macros: {
+			ssqrt: ['\\sqrt{\\smash[b]{\\mathstrut #1}}', 1]
+		}
 	},
 	CommonHTML: {
 		matchFontHeight: false
