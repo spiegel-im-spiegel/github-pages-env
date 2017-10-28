@@ -2,6 +2,8 @@
 
 NTT 新規契約 0800-2000-1160
 
+- [【2017年版】Twitterカードとは？使い方と設定方法まとめ](https://saruwakakun.com/html-css/reference/twitter-card)
+    - [Card Validator | Twitter Developers](https://cards-dev.twitter.com/validator)
 
 ## いつか買う，かも
 

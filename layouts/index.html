@@ -1,8 +1,12 @@
 {{ partial "top.html" . }}
-<head>
+<head prefix="og: http://ogp.me/ns#">
 {{ partial "header.html" . }}
 <title>{{ .Site.Title }}</title>
-{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+<meta property="og:title" content="{{ .Site.Title }}">{{ with .Site.Params.description }}
+<meta name="description" content="{{ . }}">
+<meta property="og:description" content="{{ . }}">{{ end }}
+<meta property="og:url" content="{{ .Site.BaseURL }}">
+<meta property="og:image" content="{{ .Site.BaseURL }}images/attention/default.jpg">{{ partial "twitter-card.html" . }}
 </head>
 <body>
 {{ partial "prepare.html" . }}

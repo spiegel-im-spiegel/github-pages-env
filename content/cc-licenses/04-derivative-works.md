@@ -19,6 +19,10 @@ title = "二次的著作物と CC Licenses"
   tumblr = "spiegel-im-spiegel"
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
+  
+[scripts]
+  athjax = false
+  ermaidjs = false
 +++
 
 今回は「二次的著作物」について。

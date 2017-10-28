@@ -43,7 +43,7 @@ tags = ["security", "cryptography", "hash", "risk", "management"]
 
 {{< div-gen >}}
 <figure lang="en">
-<style scoped>
+<style>
 main table.nist2 th  {
   vertical-align:middle;
   text-align: center;
@@ -100,7 +100,7 @@ IFC では $k$，FFC では $L$，ECC では $f$ が鍵長を示す。
 
 {{< div-gen >}}
 <figure lang='en'>
-<style scoped>
+<style>
 main table.nist3 th  {
   vertical-align:middle;
   text-align: center;
@@ -155,7 +155,7 @@ main table.nist3 td  {
 
 {{< div-gen >}}
 <figure lang='en'>
-<style scoped>
+<style>
 main table.nist4 th  {
   vertical-align:middle;
   text-align: center;

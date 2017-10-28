@@ -18,6 +18,10 @@ title = "著作権と著作権法"
   name = "Spiegel"
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
+ 
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 まずは「著作権」について簡単におさらい。

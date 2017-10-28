@@ -70,7 +70,7 @@ FEAK のときとは異なり，特定の実装の脆弱性ではなく TLS プ�
 
 {{< div-gen >}}
 <figure lang="en">
-<style scoped>
+<style>
 main table.nist th  {
   vertical-align:middle;
   text-align: center;

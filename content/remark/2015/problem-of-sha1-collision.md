@@ -1,6 +1,6 @@
 +++
 date = "2015-10-22T14:35:22+09:00"
-update = "2017-10-17T16:44:55+09:00"
+update = "2017-10-28T21:26:57+09:00"
 description = "GPU をふんだんに使った専用ハードウェアやクラウド・サービスなどを組み合わせることにより，近い将来に実用的なコストで SHA-1 攻略が可能になると指摘されている。"
 draft = false
 tags = ["security", "cryptography", "hash", "sha-1", "collision", "risk"]
@@ -60,7 +60,7 @@ SHA-1 の hash 値の長さは $160\,\mathrm{bits}$ なので，衝突の確率�
 
 {{< div-gen >}}
 <figure lang='en'>
-<style scoped>
+<style>
 main table.nist3 th  {
   vertical-align:middle;
   text-align: center;
@@ -108,7 +108,7 @@ main table.nist3 td  {
 
 {{< div-gen >}}
 <figure lang='en'>
-<style scoped>
+<style>
 main table.nist4 th  {
   vertical-align:middle;
   text-align: center;

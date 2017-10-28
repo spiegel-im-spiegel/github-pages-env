@@ -18,6 +18,10 @@ title = "Creative Commons Licenses"
   name = "Spiegel"
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 [前回]は著作権についてざくっと説明したので，今回はいよいよ Creative Commons Licenses （以降 “[CC Licenses]” と略称する）について解説する。

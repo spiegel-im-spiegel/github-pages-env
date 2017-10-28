@@ -1,9 +1,15 @@
 {{ partial "top.html" . }}
-<head>
+<head prefix="og: http://ogp.me/ns#">
 {{ partial "header.html" . }}
 <title>{{ .Title }} — プログラミング言語 Go | {{ .Site.Title }}</title>
-{{ if .Description }}<meta name="description" content="{{ .Description }}">{{ else }}<meta name="description" content="Go 言語に関する話題。">{{ end }}
-{{ with .Params.author.name }}<meta name="author" content="{{ . }}">{{ end }}
+<meta property="og:title" content="{{ .Title }} — プログラミング言語 Go | {{ .Site.Title }}">{{ if .Description }}
+<meta name="description" content="{{ .Description }}">
+<meta property="og:description" content="{{ .Description }}">{{ else }}
+<meta name="description" content="Go 言語に関する話題。">
+<meta property="og:description" content="Go 言語に関する話題。">{{ end }}
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ .Site.BaseURL }}images/attention/go-code.png">{{ partial "twitter-card.html" . }}{{ with .Params.author.name }}
+<meta name="author" content="{{ . }}">{{ end }}
 {{ partial "header-nav.html" . }}
 </head>
 <body>

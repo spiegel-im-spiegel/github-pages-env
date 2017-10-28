@@ -19,6 +19,10 @@ title = "人格権と CC Licenses"
   tumblr = "spiegel-im-spiegel"
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
+  
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 [前回紹介した「Creative Commons Licenses」]({{< relref "cc-licenses/02-creative-commons-licenses.md" >}})の内容を踏まえた上で今回は人格権と [CC Licenses] との関係について解説する。

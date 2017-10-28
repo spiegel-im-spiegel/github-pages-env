@@ -19,6 +19,10 @@ title = "CC Licenses における「技術的保護手段」の扱い"
   avatar = "/images/avatar.jpg"
   twitter = "spiegel_2007"
   github = "spiegel-im-spiegel"
+  
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 1. [「技術的保護手段」とは]({{< relref "#abt" >}})
