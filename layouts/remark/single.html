@@ -1,14 +1,15 @@
 {{ partial "top.html" . }}
 <head prefix="og: http://ogp.me/ns#">
 {{ partial "header.html" . }}
+<link rel="canonical" href="{{ .Permalink }}">
 <title>{{ .Title }} — しっぽのさきっちょ | {{ .Site.Title }}</title>
 <meta property="og:title" content="{{ .Title }} — しっぽのさきっちょ | {{ .Site.Title }}">{{ if .Description }}
 <meta name="description" content="{{ .Description }}">
 <meta property="og:description" content="{{ .Description }}">{{ else }}
 <meta name="description" content="とりとめのない四方山話。">
 <meta property="og:description" content="とりとめのない四方山話。">{{ end }}
-<meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:image" content="{{ .Site.BaseURL }}images/attention/books.jpg">{{ partial "twitter-card.html" . }}{{ with .Params.author.name }}
+<meta property="og:image" content="{{ .Site.BaseURL }}images/attention/remark.jpg">
+{{ partial "twitter-card.html" . }}{{ with .Params.author.name }}
 <meta name="author" content="{{ . }}">{{ end }}
 {{ partial "header-nav.html" . }}
 </head>

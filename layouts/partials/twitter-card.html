@@ -1,5 +1,5 @@
-{{ with .Params.author }}{{ with .twitter }}
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@{{ . }}">{{ end }}{{ else }}{{ with .Site.Author }}{{ with .twitter }}
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@{{ . }}">{{ end }}{{ end }}{{ end }}
+<meta name="twitter:card" content="summary">{{ with .Params.author.twitter }}
+<meta name="twitter:site" content="@{{ . }}">
+<meta name="twitter:creator" content="@{{ . }}">{{ else }}{{ with .Site.Author.twitter }}
+<meta name="twitter:site" content="@{{ . }}">
+<meta name="twitter:creator" content="@{{ . }}">{{ end }}{{ end }}

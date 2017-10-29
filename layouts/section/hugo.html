@@ -1,8 +1,13 @@
 {{ partial "top.html" . }}
 <head>
 {{ partial "header.html" . }}
+<link rel="canonical" href="{{ .Permalink }}">
 <title>ゼロから始める Hugo — {{ .Site.Title }}</title>
+<meta property="og:title" content="ゼロから始める Hugo — {{ .Site.Title }}">
 <meta name="description" content="本家サイトのブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。ここではその時のメモを公開する。">
+<meta property="og:description" content="本家サイトのブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。ここではその時のメモを公開する。">
+<meta property="og:image" content="{{ .Site.BaseURL }}images/attention/hugo.jpg">
+{{ partial "twitter-card.html" . }}
 </head>
 <body>
 {{ partial "prepare.html" . }}

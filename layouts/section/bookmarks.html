@@ -1,8 +1,13 @@
 {{ partial "top.html" . }}
 <head>
 {{ partial "header.html" . }}
+<link rel="canonical" href="{{ .Permalink }}">
 <title>ブックマーク集 — {{ .Site.Title }}</title>
+<meta property="og:title" content="ブックマーク集 — {{ .Site.Title }}">
 <meta name="description" content="いままで del.icio.us（旧 delicious.com）で収集していたブックマークの代替として運用してみるテスト。">
+<meta property="og:description" content="いままで del.icio.us（旧 delicious.com）で収集していたブックマークの代替として運用してみるテスト。">
+<meta property="og:image" content="{{ .Site.BaseURL }}images/avatar.jpg">
+{{ partial "twitter-card.html" . }}
 </head>
 <body>
 {{ partial "prepare.html" . }}
