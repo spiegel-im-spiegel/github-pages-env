@@ -67,7 +67,7 @@ tags        = [ "site", "semantic", "web", "twitter", "open-graph" ]
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Codic API を利用するパッケージを作ってみた — プログラミング言語 Go | text.Baldanders.info">
 <meta name="twitter:description" content="spf13/viper を使ってみたかったのだ。">
-<meta name="twitter:image" content="http://localhost:1313/images/attention/go-code.png">
+<meta name="twitter:image" content="http://text.baldanders.info//images/attention/go-code.png">
 ```
 
 以上のメタデータを `<head>` 要素内に設置する。
@@ -125,7 +125,7 @@ RDF/RDFa の仕様の一部を借用した大変筋の悪いもので，本来�
   ...
   <meta property="og:title" content="Codic API を利用するパッケージを作ってみた — プログラミング言語 Go | text.Baldanders.info">
   <meta property="og:description" content="spf13/viper を使ってみたかったのだ。">
-  <meta property="og:image" content="http://localhost:1313/images/attention/go-code.png">
+  <meta property="og:image" content="http://text.baldanders.info//images/attention/go-code.png">
   ...
 </head>
 ```
