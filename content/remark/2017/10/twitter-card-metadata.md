@@ -101,7 +101,7 @@ tags        = [ "site", "semantic", "web", "twitter", "open-graph" ]
 RDF/RDFa の仕様の一部を借用した大変筋の悪いもので，本来の目的は明後日方向に飛んでいき，現在は `<head>` 要素にメタデータを記述するための迂遠な手段に堕している[^rdfa1]。
 ただし [OGP] で記述したメタデータを参照するサービスは多いため，今だに SEO 対策として用いられているようだ。
 
-[^rdfa1]: RDF/RDFa は Web 上の（URI で記述可能な）あらゆるリソースを「主語・述語・目的語」の三つ組（triple）で表すことで「意味」を与える Semantic Web の実装のひとつである。もちろん Facebook はそんな思想背景など微塵も考慮していなかったと思うが。
+[^rdfa1]: RDF/RDFa は Web 上の（URI で記述可能な）あらゆるリソースを「主語・述語・目的語」の三つ組（triple）で表すことで machine-understandable な「意味」を与える Semantic Web の実装のひとつである。もちろん Facebook はそんな思想背景など微塵も考慮していなかったと思うが。
 
 [Twitter Card] のメタデータと置き換え可能な [OGP] の述語を以下に示す。
 
