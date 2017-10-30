@@ -1,7 +1,7 @@
 +++
 title = "Twitter Card メタデータに対応した"
 date =  "2017-10-29T16:00:38+09:00"
-update =  "2017-10-29T21:51:56+09:00"
+update =  "2017-10-30T09:46:44+09:00"
 description = "もう Semantic Web なんか誰も見向きもしなくなってるみたいだし， Web コンテンツを解析する手段は AI 技術を利用したものへシフトしてるようだし，もう（どうでも）いいかな，と。"
 tags        = [ "site", "semantic", "web", "twitter", "open-graph" ]
 
@@ -24,29 +24,29 @@ tags        = [ "site", "semantic", "web", "twitter", "open-graph" ]
   mermaidjs = false
 +++
 
-なんとなく思いついてこのブログをいわゆる “[Twitter Card]” に対応させた。
+なんとなく思いついてこのブログをいわゆる “[Twitter Cards]” に対応させた。
 
-実は [Twitter Card] が登場し始めたときに Tumblr などで適用していたのだが，あまりに酷い仕様で [HTML Validator] にかけるとエラーの嵐になるし，そもそも Semantic Web を無視した設計に腹が立って忌避していたのだ。
+実は [Twitter Cards] が登場し始めたときに Tumblr などで適用していたのだが，あまりに酷い仕様で [HTML Validator] にかけるとエラーの嵐になるし，そもそも Semantic Web を無視した設計に腹が立って忌避していたのだ。
 しかし，まぁ，もう Semantic Web なんか誰も見向きもしなくなってるみたいだし， Web コンテンツを解析する手段は AI 技術を利用したものへシフトしてるようだし，もう（どうでも）いいかな，と。
 
-[Twitter Card] の仕様も随分シンプルになった。
-まず，カードのタイプが以下の4種類のみになった。
+[Twitter Cards] の仕様も随分シンプルになった。
+まず，カード種別が以下の4種類のみになった。
 
 - [Summary card]
-- [Summary with large image]
+- [Summary card with large image]
 - [Player card]
 - [App card]
 
-[Player card] は動画やスライドショウのページ用， [App card] はアプリページ用なので，それ以外の Web ページでは [Summary card] か [Summary with large image] を選択することになる。
+[Player card] は動画やスライドショウのページ用， [App card] はアプリページ用なので，それ以外の Web ページでは [Summary card] か [Summary card with large image] を選択することになる。
 
-[Summary with large image] はアイキャッチ[^ec1] 用の大きめの画像（300×157から4096×4096）を含む Card で，メディア・サイトなどが多用するあの**ウザい**やつである。
-とはいえ，写真やイラストなどを中心としたサイトでは [Summary with large image] が向いているだろう。
+[Summary card with large image] はアイキャッチ[^ec1] 用の大きめの画像（300×157から4096×4096で5MB以下）を含むカードで，メディア・サイトなどが多用するあの**ウザい**やつである。
+とはいえ，写真やイラストなどを中心としたサイトでは [Summary card with large image] が向いているだろう。
 
-[Summary with large image] にしないのなら [Summary card] を選択する。
-うちのブログはもちろん~~オリーブオイル~~ [Summary card] で[^swli1]。
+[Summary card with large image] にしないのなら [Summary card] を選択する。
+うちのブログはもちろん~~オリーブオイル~~おっと [Summary card] で[^swli1]。
 
-[^ec1]: この記事を書くにあたってちょっと調べたのだが「アイキャッチ」というのは和製英語なんだそうだ。ただし，コメントで頂いた情報では “eye-cacher” という言葉はあるらしい（thx!）。なお “eye” は “attention” に置き換えることができるそうで，その場合は [“catch the reader’s attention” みたいな言い回し](アイキャッチ画像の「アイキャッチ」とは？正しい英語ではどういう？ "アイキャッチ画像の「アイキャッチ」とは？正しい英語ではどういう？")になるとか。ふぅ。英語は難しいぜ。
-[^swli1]: 実は一度 [Summary with large image] を試したのだが，自分で眺めてやっぱりウザかったので [Summary card] にした。
+[^ec1]: この記事を書くにあたってちょっと調べたのだが「アイキャッチ」というのは和製英語なんだそうだ。ただし，コメントで頂いた情報では “[eye-catcher](https://www.merriam-webster.com/dictionary/eye-catcher "Eye-catcher | Definition of Eye-catcher by Merriam-Webster")” という言葉はあるらしい（thx!）。なお “eye” は “attention” に置き換えることができるそうで，その場合は [“catch the reader’s attention” みたいな言い回し](アイキャッチ画像の「アイキャッチ」とは？正しい英語ではどういう？ "アイキャッチ画像の「アイキャッチ」とは？正しい英語ではどういう？")になるとか。ふぅ。英語は難しいぜ。
+[^swli1]: 実は一度 [Summary card with large image] を試したのだが，自分で眺めてやっぱりウザかったので [Summary card] にした。
 
 [Summary card] で必須のメタデータは以下の2つである。
 これを指定しないと，そもそもカードが表示されない。
@@ -54,19 +54,28 @@ tags        = [ "site", "semantic", "web", "twitter", "open-graph" ]
 - `twitter:card`
 - `twitter:title`
 
-具体的には `<meta>` 要素を使って以下のように記述する。
+具体的には `<meta>` 要素の `name`-`content` 属性の組み合わせを使って以下のように記述する。
 
 ```html
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Codic API を利用するパッケージを作ってみた — プログラミング言語 Go | text.Baldanders.info">
 ```
 
-しかし，このままではページの説明（description）やアイコン画像が表示されないため（何故 optional なのに無理くり表示しようとするのだろう），以下のメタデータも追加する。
+ちなみに `twitter:card` の値はカード種別ごとに以下の通り。
+
+| カード種別 | twitter:card 値 |
+|:-----------|:------------------|
+| [Summary card] | `summary` |
+| [Summary card with large image] | `summary_large_image` |
+| [Player card] | `player` |
+| [App card] | `app` |
+
+ただ，このままではページの説明（description）やアイコン画像が表示されないため（何故 optional なのに無理くり表示しようとするのだろう），以下のメタデータも追加する。
 
 - `twitter:description`
 - `twitter:image`
 
-アイコン画像には144×144から4096×4096までのサイズが使える。
+アイコン画像には144×144から4096×4096までのサイズで5MB以下のデータが使える。
 これらを合わせると以下の記述が最低限必要と言える。
 
 ```html
@@ -81,7 +90,7 @@ tags        = [ "site", "semantic", "web", "twitter", "open-graph" ]
 
 {{< fig-img src="https://farm5.staticflickr.com/4510/37949847556_0867f5741b_o.png" title="Twitter Card: Summary"  link="https://www.flickr.com/photos/spiegel/37949847556/" >}}
 
-以前は `twitter:image` 等を property-content 属性の組み合わせで記述させようとしていたが（これのせいで [HTML Validator] がエラーを吐いていた），さすがに改心したようである（笑）
+以前は `twitter:image` 等を `property`-`content` 属性の組み合わせで記述させようとしていたが（これのせいで [HTML Validator] がエラーを吐いていた），さすがに改心したようである（笑）
 
 サイトのオーナーやページの作成者が Twitter ユーザの場合は以下のメタデータも使える。
 
@@ -109,22 +118,22 @@ RDFa の仕様の一部を借用した大変筋の悪いもので，本来の目
 
 [^rdfa1]: RDF/RDFa は Web 上の（URI で記述可能な）あらゆるリソース同士の関係を「主語・述語・目的語」の3つ組（triple）で表すことで machine-understandable な「意味」を与える Semantic Web の実装のひとつである。もちろん Facebook はそんな思想背景など微塵も考慮していなかったと思うが。
 
-[Twitter Card] のメタデータと置き換え可能な [OGP] の述語を以下に示す。
+[Twitter Cards] のメタデータと置き換え可能な [OGP] の述語を以下に示す。
 
-| [Twitter Card] | [OGP] |
+| [Twitter Cards] | [OGP] |
 |:---------------|:------|
 | `twitter:card`        | `og:type` |
 | `twitter:description` | `og:description` |
 | `twitter:title`       | `og:title` |
 | `twitter:image`       | `og:image` |
 
-これらの述語を既に使っている場合は [Twitter Card] のメタデータで記述する必要はない。
-なお `og:type` は本来はメディア・タイプ（MIME タイプや RDF/RDFa の語彙で定義されるタイプ）を指定するものなので [Twitter Card] 用に使うべきではない。
+これらの述語を既に使っている場合は [Twitter Cards] のメタデータで記述する必要はない。
+なお `og:type` は本来はメディア・タイプ（MIME タイプや RDF/RDFa の語彙で定義されるタイプ）を指定するものなので [Twitter Cards] 用に使うべきではない。
 
-[OGP] は（一応） RDFa の仕様に従っているのでメタデータ指定には name-content 属性の組み合わせではなく property-content 属性の組み合わせで記述する。
+[OGP] は（一応） RDFa の仕様に従っているのでメタデータ指定には `name`-`content` 属性の組み合わせではなく `property`-`content` 属性の組み合わせで記述する。
 例えば以下の通り[^ogp1]。
 
-[^ogp1]: `og:image` の目的語は URL なので， RDFa 仕様としては property-content 属性ではなく（`<link>` 要素を使って） rel-resource 属性または rel-href 属性の組み合わせとするのが正しい。のだが， [OGP] は馬鹿なので property-content 属性とする（つまりリテラル・データとして扱う）よう求めている。私が間違ってるわけではない，決して。ホントなんだよこのクソ仕様は。ブツブツブツ...
+[^ogp1]: `og:image` の目的語は URL なので， RDFa 仕様としては `property`-`content` 属性ではなく（`<link>` 要素を使って） `rel`-`href` 属性の組み合わせとするのが正しい。のだが， [OGP] は馬鹿なので `property`-`content` 属性とする（つまりリテラル・データとして扱う）よう求めている。私が間違ってるわけではない，決して。ホントなんだよこのクソ仕様は。ブツブツブツ...
 
 ```html
 <head  prefix="og: http://ogp.me/ns#">
@@ -157,9 +166,9 @@ RDFa の仕様の一部を借用した大変筋の悪いもので，本来の目
 - [RDFa 入門 — Baldanders.info](http://www.baldanders.info/spiegel/archive/rdfa/)
 - [タイムラインの奴隷 - Spiegel's Branch - Scrapbox](https://scrapbox.io/spiegel-branch/%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%AE%E5%A5%B4%E9%9A%B7)
 
-[Twitter Card]: https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview "Summary card — Twitter Developers"
+[Twitter Cards]: https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview "Summary card — Twitter Developers"
 [Summary card]: https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary "Summary card — Twitter Developers"
-[Summary with large image]: https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary-card-with-large-image "Summary with large image — Twitter Developers"
+[Summary card with large image]: https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary-card-with-large-image "Summary with large image — Twitter Developers"
 [Player card]: https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/player-card "Player card — Twitter Developers"
 [App card]: https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/app-card "App card — Twitter Developers"
 [HTML Validator]: https://validator.w3.org/ "The W3C Markup Validation Service"
