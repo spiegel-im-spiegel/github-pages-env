@@ -1,7 +1,7 @@
 +++
 title = "Glide から Dep への移行を検討する"
 date =  "2017-10-10T18:02:56+09:00"
-update =  "2017-10-13T14:01:08+09:00"
+update =  "2017-10-31T14:31:04+09:00"
 description = "つまり「依存関係（Vendoring）管理ツールとしては dep を推奨するけど移行できない人のために当面はサポートを続けるよ（でも将来は分からん）」という解釈でいいのだろうか。"
 tags = ["golang", "engineering", "package", "vendoring", "tools", "glide", "dep", "testing"]
 
@@ -67,7 +67,7 @@ $ go install -v github.com/golang/dep/cmd/dep
 
 [リリースページ](https://github.com/golang/dep/releases "Releases · golang/dep")にビルド済みのモジュールが置かれているので，ありがたくこれを使わせてもらおう。
 
-最新版（現時点で [v0.3.1](https://github.com/golang/dep/releases/tag/v0.3.1 "Release v0.3.1 · golang/dep")）には Windows 用のモジュール `dep-windows-amd64` もある。
+最新版（現時点で [v0.3.2](https://github.com/golang/dep/releases/tag/v0.3.2 "Release v0.3.2 · golang/dep")）には Windows 用のモジュール `dep-windows-amd64` もある。
 Windows ユーザは何のファイルかと思うかもしれないが，実はこれ実行ファイルなので， `dep.exe` にリネームしてそのまま使える。
 
 万が一があっては困るのでモジュールの SHA256 ハッシュ値を確認しておく（こういうのこそ OpenPGP を使ってくれないものか）。
@@ -86,6 +86,11 @@ Path      : C:\Users\username\Downloads\dep-windows-amd64
 これを `dep-windows-amd64.sha256` に記載されている値と比較する。
 改竄されてなければ同じ値になるはずである。
 目視は辛いのでテキストエディタ等の検索機能を使えばいいだろう。
+
+{{% div-box %}}
+**【2017-10-31 追記】** だんだん面倒になってきたので[ハッシュ値を計算するツール](https://github.com/spiegel-im-spiegel/hash "spiegel-im-spiegel/hash: Calculating Hash Value")を作った。
+詳しくは「[Hash 値を計算するパッケージを作ってみた]({{< relref "golang/calculating-hash-value.md" >}})」を参照のこと。
+{{% /div-box %}}
 
 <!--
 Windows ユーザには（`sha256sum` といった）標準ツールがないのが痛いのだが， [7-Zip] があるなら，これを使ってハッシュ値を確認できる。
