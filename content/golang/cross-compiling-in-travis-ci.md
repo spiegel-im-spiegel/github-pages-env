@@ -1,9 +1,9 @@
 +++
 date = "2016-02-13T19:37:11+09:00"
-update = "2016-02-25T09:39:28+09:00"
+update = "2017-11-03T10:31:27+09:00"
 description = "今回は Travis CI から GitHub へ mitchellh/gox で生成した実行バイナリを deploy することを考える。"
 draft = false
-tags = ["golang", "cross-compile", "continuous-integration", "github", "travis-ci"]
+tags = ["golang", "cross-compile", "continuous-integration", "github", "travis-ci", "tools"]
 title = "Travis CI でクロス・コンパイル"
 
 [author]

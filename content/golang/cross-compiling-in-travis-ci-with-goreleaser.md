@@ -1,8 +1,9 @@
 +++
 title = "Travis CI でクロス・コンパイル（GoReleaser 編）"
 date =  "2017-11-02T14:01:06+09:00"
+update = "2017-11-03T10:31:27+09:00"
 description = "クロス・コンパイルと GitHub への deploy をまとめてやってくれる GoReleaser というツールがあるらしい。"
-tags = ["golang", "cross-compile", "continuous-integration", "github", "travis-ci"]
+tags = ["golang", "cross-compile", "continuous-integration", "github", "travis-ci", "tools"]
 
 [author]
   name      = "Spiegel"
@@ -252,7 +253,7 @@ $ goreleaser --snapshot --skip-publish
 これでビルドと（`README.md` や `LICENSE` ファイルを同梱した）圧縮ファイルの生成までできた。
 fpm とか snapcraft とか Homebrew とか Docker イメージとか設定がないのでスキップしてるけど，今回はスルーの方向で。
 
-あだバージョンタグを打ってないので `--snapshot` で。
+まだバージョンタグを打ってないので `--snapshot` で。
 また現時点では [GitHub] に deploy して欲しくないので `--skip-publish` にしている。
 OS とアーキテクチャの組み合わせで出来ないものはビルドされないのが分かるだろうか。
 
@@ -281,7 +282,7 @@ reldemo SNAPSHOT-6b96405452b3b9af8817157629fce00acb81564e
 
 「[Travis CI でクロス・コンパイル]({{< relref "golang/cross-compiling-in-travis-ci.md" >}})」でも書いたが [Travis CI] から [GitHub] へ Deploy するためには [GitHub] のアクセス・トークンを取得して [Travis CI] の環境変数としてセットする必要がある。
 
-[GitHub] のアクセス・トークンは "Settings” の “Developer settings” ＞ "Personal access tokens” のページで取得できる。
+[GitHub] のアクセス・トークンは "Settings” の “Developer settings” → "Personal access tokens” のページで取得できる。
 
 {{< fig-img flickr="true" src="https://farm2.staticflickr.com/1626/24367702843_e72366313f.jpg" title="Get access token in GitHub" link="https://www.flickr.com/photos/spiegel/24367702843/" >}}
 
@@ -289,7 +290,9 @@ repo の権限のみを付けること。
 この access token を [Travis CI] で参照するには， "Settings” の "Environment Variables” でセットすればよい。
 Build log にこの access token が表示されないようにすること。
 
-今回の `.travis.yml` の内容はこんな感じ。`
+今回の `.travis.yml` の内容はこんな感じ[^dp1]。
+
+[^dp1]: [Travis CI] への [dep] インストール手順については [FAQ.md](https://github.com/golang/dep/blob/master/docs/FAQ.md "dep/FAQ.md at master · golang/dep") を参考にした。
 
 ```yaml
 language: go
@@ -297,11 +300,19 @@ language: go
 go:
   - 1.9.2
 
+env:
+  - DEP_VERSION="0.3.2"
+
+before_install:
+  # Download the binary to bin folder in $GOPATH
+  - curl -L -s https://github.com/golang/dep/releases/download/v${DEP_VERSION}/dep-linux-amd64 -o $GOPATH/bin/dep
+  # Make the binary executable
+  - chmod +x $GOPATH/bin/dep
+
 install:
-  - go get -u github.com/golang/dep/...
+  - $GOPATH/bin/dep ensure -v
 
 script:
-  - $GOPATH/bin/dep ensure -v
   - go test -v ./...
 
 after_success:
@@ -309,7 +320,7 @@ after_success:
 ```
 
 最後の行が [GoReleaser] 起動に関する記述である。
-タグが打たれている場合は `$TRAVIS_TAG` にタグの値が入る。
+[GitHub] リポジトリにタグが打たれている場合は `$TRAVIS_TAG` にタグの値が入る。
 したがってタグがない場合は [GoReleaser] は起動しない。
 
 `https://git.io/goreleaser` は短縮 URL で，中身は [goreleaser/get] の `get` ファイルでシェル・スクリプトになっている。
@@ -346,7 +357,7 @@ tar -xf "$TAR_FILE" -C "$TMPDIR"
 "${TMPDIR}/goreleaser" "$@"
 ```
 
-要するに [GoReleaser] の最新バージョンを取ってきて実行しているだけである。
+要するに [GoReleaser] の最新バージョンを取ってきて実行しているのである。
 
 これで全ての準備が整ったので，コミットして origin/master にマージし，タグを討つ。
 しばらくして [Travis CI] 側の処理が終われば [Releases](https://github.com/spiegel-im-spiegel/reldemo/releases "Releases · spiegel-im-spiegel/reldemo") ページに反映される。
@@ -361,7 +372,7 @@ Changelog も [GoReleaser] が生成している。
 
 こんなところかな。
 
-`.goreleaser.yml` が自分の気に入るように調整していく作業は悩ましいが，一度出来てしまえば他プロジェクトでも使い回しがし易いと思う。そうなればリリース管理はかなり楽になるはずである。
+`.goreleaser.yml` を自分の気に入るように調整していく作業は悩ましいが，一度出来てしまえば他プロジェクトでも使い回しがし易いと思う。そうなればリリース管理はかなり楽になるはずである。
 
 ## ブックマーク
 
@@ -377,4 +388,4 @@ Changelog も [GoReleaser] が生成している。
 [GoReleaser]: https://goreleaser.com/ "GoReleaser | Deliver Go binaries as fast and easily as possible"
 [Travis CI]: https://travis-ci.org/ "Travis CI - Test and Deploy Your Code with Confidence"
 [GitHub]: https://github.com/ "GitHub"
-[Hugo]: https://gohugo.io/ "Hugo :: A fast and modern static website engine"
+[dep]: https://github.com/golang/dep "golang/dep: Go dependency management tool"
