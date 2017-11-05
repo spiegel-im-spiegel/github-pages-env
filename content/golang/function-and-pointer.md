@@ -1,7 +1,7 @@
 +++
 date = "2016-03-29T22:16:41+09:00"
-update = "2017-09-19T17:22:39+09:00"
-description = "Go 言語の引数は基本的に「値渡し（call by value）」である。「参照渡し（call by reference）」にしたい場合はポインタを使う。"
+update = "2017-11-05T17:32:49+09:00"
+description = "Go 言語の引数は基本的に「値渡し（call by value）」である。 Instance の値ではなく実体を渡したいときにしたい場合はポインタを使う。"
 draft = false
 tags = ["golang", "function", "pointer", "defer"]
 title = "関数とポインタ"
@@ -71,7 +71,7 @@ func split(sum int) (int, int) {
 }
 ```
 
-また返り値は以下のように名前をつけることもできる。
+また返り値には，以下に示すように，あらかじめ名前をつけることもできる。
 
 ```go
 func add(x, y int) (ans int) {
@@ -116,7 +116,7 @@ func f() {
 
 このコード[^p] では `r()` 関数内で [panic] を捕まえ， 返り値の `err` に値をセットしなおしている。
 
-[^p]: このコードについては「[エラー・ハンドリングについて]({{< relref "golang/error-handling.md" >}})」で解説している。ちなみに [panic] を潰して error を返すのはエラー・ハンドリングとしてはいいやり方ではない。
+[^p]: このコードについては「[エラー・ハンドリングについて]({{< relref "golang/error-handling.md" >}})」で解説している。ちなみに [panic] を潰して error を返すのはエラー・ハンドリングとしては推奨できない。
 
 ### Go 言語の引数は「値渡し」
 
@@ -151,14 +151,15 @@ func main() {
 ```
 
 呼び出し元で `add()` 関数の引数に渡した instance は関数実行後も変化しない。
-このため「値渡し」は thread safe なコードに向いている。
-たとえば value object を構成する際には関連する関数は「値渡し」のほうが安全である。
+このため引数の値渡しは thread safe なコードに向いている。
 ただし関数呼び出し時に instance の値が常にコピーされるため[^copy]，サイズの大きな instance の場合は呼び出し時のコストが高くなる。
+引数の値渡しが有利な例としては value object を構成する場合などが考えられる。
 
-[^copy]: 値がどこにコピーされるかは型によって異なる。 [string] 以外の基本型は値がスタックに積まれる。 [string] および基本型以外はヒープ領域に値がコピーされそのポインタがスタックに積まれる。
+[^copy]: 値がどこにコピーされるかは型によって異なる。 [string] 以外の基本型は値がスタックに積まれる。 [string] および基本型以外はヒープ領域に値がコピーされその参照（＝ポインタ）がスタックに積まれる。
 
-引数を「参照渡し（call by reference）」にしたい場合はポインタを使う。
-つまり instance のポインタ値を渡すのである。
+Instance の値ではなく実体を渡したいときがある。
+この場合はポインタを使う。
+つまり instance へのポインタ値を渡すのである。
 
 ```go
 package main
@@ -179,8 +180,12 @@ func main() {
 ```
 
 このコードでは `add()` 関数実行後の `x` の値が変更されている。
-内部状態を持つ instance を引数に指定する場合は参照渡しにする必要がある。
-しかし引数を参照渡しにすると関数実行が thread safe でなくなる可能性がある。
+このように instance へのポインタ値を引数として渡すやり方をこの記事では，通常の「値渡し」とは区別して，「ポインタ渡し」と呼ぶことにする[^cbp1]。
+
+[^cbp1]: 以前は「参照渡し」と書いていたが，最近「もう参照渡しとは言わせない」などと言う人がいるようで，原理主義者の如き言いがかりに巻き込まれないよう「ポインタ渡し」と言い回しを変えることにした。やれやれ。
+
+内部状態を持つ instance を引数に指定する場合はポインタ渡しにする必要がある。
+しかし引数をポインタ渡しにすると関数実行が thread safe でなくなる可能性がある。
 また引数の値が nil の場合も考慮する必要がある。
 
 ちなみに [Go 言語]では通常の方法ではポインタ演算ができない。
@@ -204,14 +209,14 @@ invalid operation: x += y (operator + not defined on pointer)
 
 [^nr]: nullable 参照は「null を許容する参照」くらいの意味。 [Go 言語]なら nil 値。 [Go 言語]は「null 安全（null safty）」ではないので null 参照（＝無効な参照）の始末について instance を参照する側が責務を負うことになる。（参考： [「null 安全」について]({{< relref "remark/2016/11/null-safety.md" >}})）
 
-ちなみにポインタ演算が必要な場合は [`unsafe`] パッケージを使う。
+なお，ポインタ演算が必要な場合は [`unsafe`] パッケージを使う。
 
-### Slice, Map, Channel は「参照渡し」として振る舞う
+### Slice, Map, Channel はポインタ渡しとして振る舞う
 
 [slice], [map], [channel] は組み込み型だが内部状態を持つ[^make]。
-これらの型の instance を引数に渡す場合は「参照渡し」として振る舞う[^slc]。
+これらの型の instance を引数に渡す場合はポインタ渡しのように振る舞う[^slc]。
 
-[^make]: [slice], [map], [channel] は内部状態を持つため `new()` 関数ではなく `make()` 関数で instance を生成する。
+[^make]: [slice], [map], [channel] は内部状態を持つため `new()` 関数ではなく `make()` 関数を使う。  `make()` 関数は生成した instance への参照（実体はポインタ）を返す。
 [^slc]: このうち [slice] については特殊な振る舞いをする。詳しくは「[配列と Slice]({{< relref "golang/array-and-slice.md" >}})」を参照のこと。
 
 ```go
@@ -233,11 +238,12 @@ func main() {
 }
 ```
 
-ただし固定の配列や [string] 型[^str] の instance は「値」として振る舞うため[^n]，引数に指定した場合も「値渡し」になる。
+ただし固定の配列や [string] 型[^str] の instance は「値」として振る舞うため[^n]，引数に指定した場合も値渡しのように振る舞う[^cbr1]。
 [slice] とは挙動が異なるためテキトーなコードを書いていると混乱しやすい。
 
 [^str]: [string] 型の実体は `[]byte` 型である。
-[^n]: たとえば固定の配列や [string] 型の instance は nil 値を持たない。 [string] 型のゼロ値は空文字列である。
+[^n]: 固定の配列や [string] 型の instance は nil 値を持たない「non-null 参照」と言える。ちなみに [string] 型のゼロ値は空文字列である。
+[^cbr1]: むしろこれは「参照渡し（call by reference）」に近い。
 
 ```go
 package main
@@ -258,7 +264,12 @@ func main() {
 }
 ```
 
-固定配列や [string] 型を「参照渡し」にしたい場合はやはりポインタ値を渡す。
+固定配列や [string] 型をポインタ渡しすることはできる。
+もっとも [string] 型の instance は「不変（immutable）」なのでポインタ渡しが必要な局面はほとんど無いと思うが[^s]。
+
+[^s]: このような需要としては文字列操作で「NULL 状態」が必要な場合であろう。たとえば DBMS にアクセスする場合は NULL 状態を扱う必要がある。なお [Go 言語]のコア・パッケージには [`database/sql`] があり `NullString` を使うことにより NULL 状態を扱える。このように NULL 状態を扱う必要がある場合は，直にポインタ操作するのではなく，何らかの value object を用意してカプセル化するほうが安全である。
+
+固定配列をポインタ渡しする例は以下の通り。
 
 ```go
 package main
@@ -277,11 +288,8 @@ func main() {
 }
 ```
 
-実際には [string] 型の instance は「不変（immutable）」なので「参照渡し」が必要な局面はほとんど無いと思われる[^s]。
 固定配列は不変ではないが，配列を操作するのであれば固定配列ではなく [slice] のほうが扱いやすい。
 たとえば上のコードでは `slc := ary[:] ` といった感じにキャストするか最初から `ary := []int{0, 1, 2, 3}` と初期化すれば [slice] として扱える。
-
-[^s]: このような需要としては文字列操作で「NULL 状態」が必要な場合であろう。たとえば DBMS にアクセスする場合は NULL 状態を扱う必要がある。なお [Go 言語]のコア・パッケージには [`database/sql`] があり `NullString` を使うことにより NULL 状態を扱える。このように NULL 状態を扱う必要がある場合は，直にポインタ操作するのではなく，何らかの value object を用意してカプセル化するほうが安全である。
 
 ## Method Receiver
 
@@ -332,11 +340,11 @@ func main() {
 ```
 
 関数の calling sequence としては `v.Add(dv)` と `Vertex.Add(v, dv)` は等価である。
-つまり `v` は `Add()` 関数の0番目の引数として振る舞い，「値渡し」でセットされる。
+つまり `v` は `Add()` 関数の0番目の引数として振る舞い，値渡しでセットされる。
 
-Method receiver の型をポインタ型にすれば「参照渡し」にできる。
+Method receiver の型をポインタ型にすればポインタ渡しにできる。
 
-```go
+{{< highlight go "hl_lines=14" >}}
 package main
 
 import "fmt"
@@ -363,13 +371,13 @@ func main() {
     v.Add(Vertex{X: 3, Y: 4})
     fmt.Println(v) //output: X = 4, Y = 6
 }
-```
+{{< /highlight >}}
 
 この場合も calling sequence としては `v.Add(dv)` と `(*Vertex).Add(v, dv)` は等価である。
 
 ### Method Receiver の暗黙的変換
 
-Method receiver を「値渡し」にした場合，呼び出し元の instance がポインタ型であっても暗黙的に「値渡し」に変換される。
+Method receiver を値にした場合，呼び出し元の instance がポインタ型であっても暗黙的にコピーが発生し値渡しに変換される。
 
 ```go
 package main
@@ -399,7 +407,7 @@ func main() {
 }
 ```
 
-Method receiver を「参照渡し」にした場合も暗黙的に「参照渡し」に変換される。
+Method receiver をポインタにした場合も，やはり暗黙的にポインタ渡しに変換される。
 
 ```go
 package main
@@ -433,7 +441,7 @@ func main() {
 ### Method Receiver の値が nil の場合
 
 Method receiver の値が nil の場合はどうなるか。
-まずは「値渡し」の場合。
+まずは値渡しの場合。
 
 ```go
 package main
@@ -457,7 +465,7 @@ func (v Vertex) Add(dv Vertex) Vertex {
 
 func main() {
     v := (*Vertex)(nil) //nil
-    vv := v.Add(Vertex{X: 3, Y: 4})
+    vv := v.Add(Vertex{X: 3, Y: 4}) //panic!
     fmt.Println(v)
     fmt.Println(vv)
 }
@@ -470,7 +478,7 @@ panic: runtime error: invalid memory address or nil pointer dereference
 ```
 
 まぁこれは分かりやすいよね。
-では「参照渡し」の場合はどうなるか。
+ではポインタ渡しの場合はどうなるか。
 
 ```go
 package main
@@ -507,17 +515,17 @@ func main() {
 
 ```go
 func (v *Vertex) Add(dv Vertex) {
-    v.X += dv.X
+    v.X += dv.X //panic!
     v.Y += dv.Y
 }
 ```
 
-`v` 内の要素を参照としたところで [panic] になる。
-Method receiver を「参照渡し」にする場合は nil 値に注意する必要がある。
+`v` 内の要素を参照しようとしたところで [panic] になる。
+Method receiver をポインタ渡しにする場合は nil 値に注意する必要がある。
 
-## for-range 構文も「値渡し」
+## for-range 構文も値渡し
 
-余談だが for-range 構文も「値渡し」（つまりコピーが発生する）なので注意が必要である。
+余談だが for-range 構文も値渡し（つまりコピーが発生する）ので注意が必要である。
 たとえば以下のコードで
 
 ```go
@@ -539,7 +547,7 @@ for-range 構文内の `item` は `ary` 内の要素を指すのではなく要�
 したがって `item` を操作しても `ary` には影響しない。
 `ary` 内の要素を操作するのであれば素朴に
 
-```go
+{{< highlight go "hl_lines=8-10" >}}
 package main
 
 import "fmt"
@@ -552,7 +560,7 @@ func main() {
     }
     fmt.Println(ary) //output: [10 11 12 13]
 }
-```
+{{< /highlight >}}
 
 とするしかない。
 
