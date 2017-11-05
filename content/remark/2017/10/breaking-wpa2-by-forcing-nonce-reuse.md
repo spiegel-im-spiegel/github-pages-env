@@ -1,7 +1,7 @@
 +++
 title = "WPA2 脆弱性（KRACKs）に関する覚え書き"
 date =  "2017-10-17T20:00:30+09:00"
-update =  "2017-10-21T13:25:53+09:00"
+update = "2017-11-05T11:49:55+09:00"
 description = "今回は，世界中で大騒ぎになっている Wi-Fi の WPA2 認証に関する脆弱性について。"
 tags = [
   "security",
@@ -120,9 +120,14 @@ Wi-Fi 通信が可能なあらゆる機器が対象となる。
     - [勧告: Sophos Wireless への WPA および WPA2 の脆弱性による鍵再インストール攻撃 (KRACKs) の影響 - Sophos Community](https://community.sophos.com/kb/ja-jp/127658)
     - [WPA2 セキュリティの脆弱性に関して(KRACKs) - TP-Link](http://www.tp-link.jp/faq-1970.html)
     - [WPA2の脆弱性に関するBHT製品への影響と対応｜お知らせ｜デンソーウェーブ](https://www.denso-wave.com/ja/info/detail__991.html)
-- iOS や Android を提供する Apple や Google では修正版を準備中とのこと
-    - ただし Android に関しては，端末を提供しているベンダ企業やキャリア企業が対応しない限り対応されないと思われる。特に古い機種や古いバージョンの OS を使い続けている場合は対応されないと思ったほうがいい
+- Android を提供する Google では修正版を準備中とのこと
+    - ただし端末を提供しているベンダ企業やキャリア企業が対応しない限り対応されないと思われる。特に古い機種や古いバージョンの OS を使い続けている場合は対応されないと思ったほうがいい
     - [WPA2脆弱性、Androidの対策パッチは11月6日提供予定、iOSの対策済みベータ配布が開始 -INTERNET Watch](https://internet.watch.impress.co.jp/docs/news/1087533.html)
+- Apple 製品については修正版がリリースされている
+    - [watchOS 4.1 のセキュリティコンテンツについて - Apple サポート](https://support.apple.com/ja-jp/HT208220)
+    - [About the security content of iOS 11.1 - Apple サポート](https://support.apple.com/ja-jp/HT208222)
+    - [About the security content of macOS High Sierra 10.13.1, Security Update 2017-001 Sierra, and Security Update 2017-004 El Capitan - Apple サポート](https://support.apple.com/ja-jp/HT208221)
+    - [tvOS 11.1 のセキュリティコンテンツについて - Apple サポート](https://support.apple.com/ja-jp/HT208219)
 - Windows については Microsoft からの10月のアップデートで修正されている
     - [CVE-2017-13080 | Windows Wireless WPA Group Key Reinstallation Vulnerability](https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-13080)
 - Linux や FreeBSD 等については対応が始まっている。ディストリビュータの情報に注意すること
@@ -169,3 +174,4 @@ WPA2 がダメだからと言って WEP を使うのは事態を悪化させる�
 - [WPA2の脆弱性「KRACKs」、ほぼすべてのWi-Fi通信可能な端末機器に影響 | トレンドマイクロ セキュリティブログ](http://blog.trendmicro.co.jp/archives/16162)
 - [WiFi Connection Vulnerability - Blog - ProtonVPN -](https://protonvpn.com/blog/wifi-vulnerability-krack/) : ProtonVPN の広告記事（笑）
 - [総務省｜無線LAN（Wi-Fi）暗号化における脆弱性について（注意喚起）](http://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000274.html) : いまさら総務省（笑）
+- [Apple、WPA2暗号化の脆弱性を修正した「iOS 11.1」、ただし機種限定 - PC Watch](https://pc.watch.impress.co.jp/docs/news/1089340.html)

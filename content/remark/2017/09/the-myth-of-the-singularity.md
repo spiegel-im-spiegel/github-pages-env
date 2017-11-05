@@ -1,7 +1,7 @@
 +++
 title = "『シンギュラリティの神話』を読む"
 date =  "2017-09-18T21:45:03+09:00"
-update = "2017-10-15T09:47:21+09:00"
+update = "2017-11-05T11:49:55+09:00"
 description = "もし『そろそろ、人工知能の真実を話そう』が日本の読者になにがしかの衝撃を与えるとするなら，自らの稚拙さの方だろう。"
 tags        = [ "book", "artificial-intelligence", "singularity" ]
 
@@ -248,6 +248,7 @@ Google が言う “don't be evil" も市場に対するメッセージである
     - [10年後の未来、面接やデートはオンライン分身がこなす！？ | ROBOTEER](https://roboteer-tokyo.com/archives/2155)
 - [「人工知能で神を」 元Googleエンジニアが宗教団体を創立](http://www.huffingtonpost.jp/amp/2017/10/12/anthony-levandowski_a_23241928/) : ネタがマジに！ つか，ホンマにネタじゃないのか？
 - [MIT Tech Review: シンギュラリティは来ない、AIの未来予想でよくある7つの勘違い](https://www.technologyreview.jp/s/58257/the-seven-deadly-sins-of-ai-predictions/)
+- [人型ロボットに市民権を与えた最初の国家が登場 - GIGAZINE](http://gigazine.net/news/20171027-citizenship-humanoid-robot/)
 
 [そろそろ、人工知能の真実を話そう]: http://www.amazon.co.jp/exec/obidos/ASIN/B071FHBGW8/baldandersinf-22/ "そろそろ、人工知能の真実を話そう (早川書房) | ジャン＝ガブリエル ガナシア, 小林 重裕・他, 伊藤 直子 | コンピュータサイエンス | Kindleストア | Amazon"
 [ソーカル事件]: https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%BC%E3%82%AB%E3%83%AB%E4%BA%8B%E4%BB%B6 "ソーカル事件 - Wikipedia"
