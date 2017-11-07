@@ -1,9 +1,9 @@
 +++
 date = "2016-02-07T00:18:50+09:00"
-update = "2016-02-07T11:08:40+09:00"
+update = "2017-11-07T22:03:13+09:00"
 description = "OpenPGP パケットの内容を視覚化する gpgpdump の 0.1.0 をリリースした。"
 draft = false
-tags = ["tools", "openpgp", "golang"]
+tags = ["tools", "openpgp", "golang", "gpgpdump"]
 title = "gpgpdump - OpenPGP packet visualizer"
 
 [author]
