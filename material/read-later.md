@@ -34,6 +34,12 @@ NTT 新規契約 0800-2000-1160
 
 - [「Wi-Fi STATION L-02F」にバッファオーバーフローの脆弱性(JVN#23367475)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20171106-jvn.html)
 - [MIT Tech Review: ビッグデータのリスクから子どもたちをどう守るべきか](https://www.technologyreview.jp/s/60873/big-data-poses-special-risks-for-children-says-unicef/)
+- [OpenPGP.org](http://openpgp.org/)
+    - [OpenPGP/openpgp.github.io: OpenPGP.org website](https://github.com/OpenPGP/openpgp.github.io)
+    - [Free photo: Castle, Security, Padlock, Sure - Free Image on Pixabay - 838353](https://pixabay.com/en/castle-security-padlock-sure-metal-838353/)
+- [「Google Chrome 62」に“Critical”脆弱性、修正を施したv62.0.3202.89が公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1090137.html)
+- [匿名ネットワーク「Tor Browser」に脆弱性、IPアドレス流出の恐れ - CNET Japan](https://japan.cnet.com/article/35109960/)
+- [Apache Struts 2の脆弱性を狙った攻撃の観測情報 – wizSafe Security Signal -安心・安全への道標- IIJ](https://wizsafe.iij.ad.jp/2017/11/106/)
 
 ## 天文関連
 
@@ -41,6 +47,7 @@ NTT 新規契約 0800-2000-1160
     - [プレスリリース - スターバースト心臓部で見えてきた熱い“分子の密林” - アルマ望遠鏡](https://alma-telescope.jp/news/press/ngc253-201711)
     - [スターバースト心臓部で見えてきた熱い“分子の密林” - 東京大学 大学院理学系研究科・理学部](http://www.s.u-tokyo.ac.jp/ja/info/5614/)
 - [MPEC 2017-V17 : NEW DESIGNATION SCHEME FOR INTERSTELLAR OBJECTS](http://www.minorplanetcenter.net/mpec/K17/K17V17.html) : A/2017 U1に新たな番号「1I」、「'Oumuamua」と命名
+- [NASA、天体のあだ名を募集中　探査機「ニュー・ホライズンズ」の次期目標 | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_11_07_new.html)
 
 ## 知財関連
 
@@ -53,5 +60,7 @@ NTT 新規契約 0800-2000-1160
 - [.NET Coreとは？ 開発環境（SDKとVisual Studio Code）のインストール - Build Insider](http://www.buildinsider.net/language/dotnetcore/01)
 - [人間に近い音声で読み上げるAIアナウンサー「荒木 ゆい」--Specteeが開発 - CNET Japan](https://japan.cnet.com/article/35109916/)
 - [DBMS市場のリーダーはマイクロソフト。オラクルが続き、AWSとSAPが追う。IBMは地位後退。ガートナーがDBMSのマジッククアドラント2017年版を発表 － Publickey](http://www.publickey1.jp/blog/17/dbmsawssapibmdbms2017.html)
+- [［速報］AIが自動返答するチャットボットを手軽に構築、セールスフォース・ドットコムが「myEinstein」を発表。Dreamforce 2017 － Publickey](http://www.publickey1.jp/blog/17/myeinstein_dreamforce_2017.html)
+- [Googleがテキサスの銃撃事件で誤報を検索結果の上位に出す、今回も情報源はTwitterだ | TechCrunch Japan](http://jp.techcrunch.com/2017/11/07/20171106google-is-surfacing-texas-shooter-misinformation-in-search-results-thanks-also-to-twitter/)
 
 (end of file)
