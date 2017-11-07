@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T23:59:59+09:00"
-update = "2017-11-05T11:49:55+09:00"
+update = "2017-11-07T11:10:31+09:00"
 description = "「Go 言語に関するブックマーク」に整理しきれない未整理分。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -54,6 +54,7 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [グーグルの「Go」、2016年のプログラミング言語大賞に輝く - ZDNet Japan](http://japan.zdnet.com/article/35094856/)
 - [Go言語でWebアプリを作りかけて辞めた話 - ぼっち勉強会](http://kannokanno.hatenablog.com/entry/2017/02/28/011159)
 - [Go 2016 Survey Results - The Go Blog](https://blog.golang.org/survey2016-results)
+- [Big Sky :: GoCon に初参加してきた。](https://mattn.kaoriya.net/etc/gocon2017autumn.htm)
 
 ## その他，分類困難で未整理（もしくは一時保管場所）
 
