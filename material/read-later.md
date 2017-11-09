@@ -28,14 +28,6 @@ NTT 新規契約 0800-2000-1160
 
 - [.NET Coreとは？ 開発環境（SDKとVisual Studio Code）のインストール - Build Insider](http://www.buildinsider.net/language/dotnetcore/01)
 
-## スクレイピング
-
-- [Markdownのリンクフォーマットを生成するコマンドを自作した - Qiita](https://qiita.com/Struuuuggle/items/08e6c1bf70df55ecc7b5) : 発端。これを Golang で組んでみる
-- [PuerkitoBio/goquery: A little like that j-thing, only in Go.](https://github.com/PuerkitoBio/goquery)
-    - [Big Sky :: Go言語で jQuery ライクな操作が出来る goquery を試した。](https://mattn.kaoriya.net/software/lang/go/20120914184828.htm)
-    - [[golang]遅れながらgoqueryを使ってみた - Qiita](https://qiita.com/pokochi/items/042e91a2e724c336d02d)
-- [シェルで短縮URLの展開 - nyaocatのがんばるブログ](http://nyaocat.hatenablog.jp/entry/2012/12/10/235259)
-
 ## Age of Trump
 
 
@@ -60,6 +52,7 @@ NTT 新規契約 0800-2000-1160
 - [MPEC 2017-V17 : NEW DESIGNATION SCHEME FOR INTERSTELLAR OBJECTS](http://www.minorplanetcenter.net/mpec/K17/K17V17.html) : A/2017 U1に新たな番号「1I」、「'Oumuamua」と命名
     - [観測史上初の恒星間天体、名前は「'Oumuamua」 - アストロアーツ](http://www.astroarts.co.jp/article/hl/a/9498_oumuamua)
 - [NASA、天体のあだ名を募集中　探査機「ニュー・ホライズンズ」の次期目標 | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_11_07_new.html)
+- [ふたご座流星群を観察・報告するキャンペーン、2017年12月12日から | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/topics/2017/20171108-geminids.html)
 
 ## 知財関連
 
@@ -79,6 +72,9 @@ NTT 新規契約 0800-2000-1160
 - [Machine Learning with Go 読書記録 - Qiita](https://qiita.com/ysaito8015@github/items/77797d4a489115b9d386)
 - [欲しいものが無いからつくってみました。誰でも使えるオープンソースなネットワークアイコン集 - Qiita](https://qiita.com/tamura__246/items/554cfa151ec999aa9eac)
     - [k-tamura/cocha-icons: Free usable icon set](https://github.com/k-tamura/cocha-icons)
-
+- [2017年11月8日ニュース「日本の南海上を通る猛烈な台風は地球温暖化で増えることが、初めて明らかに」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/11/20171108_01.html)
+- [フリーのコードエディター「Atom 1.22」、パフォーマンスと使い勝手を向上させる - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1090437.html)
+- [AI時代のアマゾンは、日本の音楽市場に何をもたらすのか？アマゾン幹部に訊く、音楽ストリーミングに「共存」が必要な理由 | All Digital Music](http://jaykogami.com/2017/11/14505.html)
+- [Archiving repositories · GitHub](https://github.com/blog/2460-archiving-repositories)
 
 (end of file)

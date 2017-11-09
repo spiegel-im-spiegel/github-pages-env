@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-11-05T11:49:55+09:00"
+update = "2017-11-09T12:09:53+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -212,6 +212,8 @@ title = "Go 言語に関するブックマーク"
     - [chanの使い方パターンメモ。 - GolangRdyJp](http://golang.rdy.jp/2015/03/25/chan_tips/)
     - [Big Sky :: golang の channel を使ったテクニックあれこれ](http://mattn.kaoriya.net/software/lang/go/20160706165757.htm)
 - [go1.9のsyncmapを試してみた - Qiita](https://qiita.com/arihitohagiwara/items/4bb2ae6a1a43384b4f60) : 並行処理に使える同期型の map
+- [Handling CTRL-C (interrupt signal) in Golang Programs | I care, I share, I'm Nathan LeClaire.](https://nathanleclaire.com/blog/2014/08/24/handling-ctrl-c-interrupt-signal-in-golang-programs/)
+
 
 Go 言語で複数 CPU を使った並列処理を行うには明示的な設定が必要。
 
