@@ -1,6 +1,7 @@
 +++
 title = "Markdown 形式のリンクを生成するツールを作ってみた"
 date =  "2017-11-08T18:37:57+09:00"
+update =  "2017-11-09T11:56:17+09:00"
 description = "あれ？ これ Go 言語でも簡単に作れるんじゃないかな。ちうわけで作ってみた。"
 tags        = [ "golang", "programming", "tools" ]
 
@@ -68,11 +69,14 @@ Flags:
   -v, --version        output version of mklink
 ```
 
+リンクの形式が markdown だけなのはアレなので `-s` オプションで選べるようにした。
+今のところ `markdown`, `wiki`, `html`, `csv` の4つに対応している。
+
 `-i` オプションを付けると対話モードになる。
 
 ```text
 $ mklink -i
-Press Ctrl+C to stop
+Input 'q' or 'quit' to stop
 mklink> https://git.io/vFR5M
 [GitHub - spiegel-im-spiegel/mklink: Make Link with Markdown Format](https://github.com/spiegel-im-spiegel/mklink)
 mklink>
@@ -81,9 +85,9 @@ mklink>
 作成したリンクを標準出力に出力すると同時にクリップボードにもコピーする。
 いやぁ，これめっさ便利だわ。
 
-## goquery
+## Web Scraping
 
-URL からページのタイトルを取得するには HTML の解析を行うスクレイピング（Web scraping）機能が必要だが，好都合なことに [PuerkitoBio/goquery] というパッケージが公開されている。
+URL からページのタイトルを取得するには HTML の解析を行うスクレイピング（Web scraping）機能が必要だが，好都合なことに [PuerkitoBio/goquery] という便利なパッケージが公開されている。
 
 - [PuerkitoBio/goquery: A little like that j-thing, only in Go.](https://github.com/PuerkitoBio/goquery)
 
@@ -93,25 +97,25 @@ URL からページのタイトルを取得するには HTML の解析を行う�
 ```go
 //New returns new Link instance
 func New(url string) (*Link, error) {
-	link := &Link{URL: url}
-	doc, err := goquery.NewDocument(url)
-	if err != nil {
-		return link, err
-	}
-	link.Location = doc.Url.String()
+    link := &Link{URL: strings.Trim(url, "\t \n")}
+    doc, err := goquery.NewDocument(link.URL)
+    if err != nil {
+        return link, err
+    }
+    link.Location = doc.Url.String()
 
-	doc.Find("head").Each(func(_ int, s *goquery.Selection) {
-		s.Find("title").Each(func(_ int, s *goquery.Selection) {
-			link.Title = s.Text()
-		})
-		s.Find("meta[name='description']").Each(func(_ int, s *goquery.Selection) {
-			if v, ok := s.Attr("content"); ok {
-				link.Description = v
-			}
-		})
-	})
+    doc.Find("head").Each(func(_ int, s *goquery.Selection) {
+        s.Find("title").Each(func(_ int, s *goquery.Selection) {
+            link.Title = strings.Trim(s.Text(), "\t \n")
+        })
+        s.Find("meta[name='description']").Each(func(_ int, s *goquery.Selection) {
+            if v, ok := s.Attr("content"); ok {
+                link.Description = strings.Trim(v, "\t \n")
+            }
+        })
+    })
 
-	return link, nil
+    return link, nil
 }
 ```
 
@@ -128,18 +132,21 @@ $ echo https://git.io/vFR5M | mklink
 [GitHub - spiegel-im-spiegel/mklink: Make Link with Markdown Format](https://github.com/spiegel-im-spiegel/mklink)
 ```
 
-この時にうっかり `-i` オプションを付けて（パイプのつもりが）対話モードになっては困るので標準入力がターミナルかどうかを判定するロジックを入れている。
+この時にうっかり `-i` オプションを付けて（パイプのつもりが）対話モードになっては困るので標準入出力がターミナルかどうかを判定するロジックを入れている。
 
-{{< highlight go "hl_lines=1" >}}
-if isatty.IsTerminal(os.Stdin.Fd()) {
-    if interactiveFlag {
-        interactive.New(style, log).Run()
+```go
+func isTerminal() bool {
+    if !isatty.IsTerminal(os.Stdin.Fd()) && !isatty.IsCygwinTerminal(os.Stdin.Fd()) {
+        return false
     }
-    return nil
+    if !isatty.IsTerminal(os.Stdout.Fd()) && !isatty.IsCygwinTerminal(os.Stdout.Fd()) {
+        return false
+    }
+    return true
 }
-{{< /highlight >}}
+```
 
-この機能は [mattn/go-isatty] パッケージで実現している[^ssh1]。
+この機能は [mattn/go-isatty] パッケージで実装した[^ssh1]。
 
 [^ssh1]: 最初は `golang.org/x/crypto/ssh/terminal` パッケージを使っていたのだが「たしかもう少し軽いパッケージあったよなぁ」と思ってググったら思い出した。
 
@@ -148,11 +155,15 @@ if isatty.IsTerminal(os.Stdin.Fd()) {
 クリップボードの操作といっても今回は書き込みだけだが [atotto/clipboard] を使って実装している。
 
 {{< highlight go "hl_lines=5" >}}
-r := lnk.Encode(c.linkStyle)
 buf := new(bytes.Buffer)
-io.Copy(c.writer, io.TeeReader(r, buf))
+io.Copy(c.writer, io.TeeReader(lnk.Encode(c.linkStyle), buf))
 strLink := buf.String()
-clipboard.WriteAll(strLink)
+if c.clipbrdFlag {
+    clipboard.WriteAll(strLink)
+}
+if c.log != nil {
+    fmt.Fprint(c.log, strLink)
+}
 {{< /highlight >}}
 
 Windows 環境では問題なく動作しているが，他の OS ではどうなのかよく分からない。
