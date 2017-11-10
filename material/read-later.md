@@ -28,8 +28,19 @@ NTT 新規契約 0800-2000-1160
 
 - [.NET Coreとは？ 開発環境（SDKとVisual Studio Code）のインストール - Build Insider](http://www.buildinsider.net/language/dotnetcore/01)
 
+## Qiitadon
+
+- [Qiita ユーザー向けの Mastodon インスタンス Qiitadon を試験的に公開しました - Qiita Blog](http://blog.qiita.com/post/161193715974/qiitadon)
+    - [Qiitadonについて語る - the code to rock](http://note103.hateblo.jp/entry/2017/06/02/194946)
+    - [Qiitadonのソースコードを読む · GitHub](https://gist.github.com/akihikodaki/2081f7a38c30303519f8398f08ea2c45)
+- [Subway Tooter - Google Play の Android アプリ](https://play.google.com/store/apps/details?id=jp.juggler.subwaytooter)
+    - [GitHub - tateisu/SubwayTooter: Mastodon client app for Android](https://github.com/tateisu/SubwayTooter)
+- [mattn/go-mastodon: mastodon client for golang](https://github.com/mattn/go-mastodon)
+- [Mastodon の投稿を Twitter に転送する - Qiita](https://qiita.com/cannorin/items/f424ade9276599f3a675)
+
 ## Age of Trump
 
+- [トランプが孤立主義者でないことだけは、明らかだ : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/22018143.html)
 
 ## セキュリティ関連
 
@@ -43,6 +54,15 @@ NTT 新規契約 0800-2000-1160
 - [Apache Struts 2の脆弱性を狙った攻撃の観測情報 – wizSafe Security Signal -安心・安全への道標- IIJ](https://wizsafe.iij.ad.jp/2017/11/106/)
 - [インテルx86マシンの奥深くでは人知れず「MINIX 3」が動作しており、脆弱性を作り出している。Googleらはそれを排除しようとしている － Publickey](http://www.publickey1.jp/blog/17/cpuminix_3google.html)
 - [ParityのEthereumウォレットに深刻な脆弱性――巨額の暗号通貨が凍結中 | TechCrunch Japan](http://jp.techcrunch.com/2017/11/08/2017-11-07-a-major-vulnerability-has-frozen-hundreds-of-millions-of-dollars-of-ethereum/)
+- [マルウェア防御率トップはTrend Micro、誤検知数ワーストワンはSymantecのセキュリティ製品 ～AV-Comparativesの評価レポートより - やじうまの杜 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1090563.html)
+- [「Windows Defender ATP」を複数プラットフォーム向けに拡張へ--セキュリティ企業と連携 - CNET Japan](https://japan.cnet.com/article/35110140/)
+- [Google、不正なリダイレクトやナビゲーションを「Google Chrome」から排除 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1090724.html)
+- [Facebook asks users for nude photos in project to combat revenge porn | Technology | The Guardian](https://www.theguardian.com/technology/2017/nov/07/facebook-revenge-porn-nude-photos)
+    - [Facebook Fingerprinting Photos to Prevent Revenge Porn - Schneier on Security](https://www.schneier.com/blog/archives/2017/11/facebook_finger.html)
+- [Wife discovers spouse’s affair midair, outburst forces pilot to land | india-news | Hindustan Times](http://www.hindustantimes.com/india-news/woman-turns-unruly-after-discovering-husband-s-affair-midair-forces-pilot-to-land/story-onzSLBOFmxEnshPav5CHAJ.html)
+    - [Hacking a Fingerprint Biometric - Schneier on Security](https://www.schneier.com/blog/archives/2017/11/hacking_a_finge.html)
+- [ニュース解説 - FinTech？マルウエア？無断でスマホCPU使う謎のサービス：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/14/346926/110801194/)
+- [仮想化環境のセキュリティを監視--AWSとラック、マカフィーが連携 - ZDNet Japan](https://japan.zdnet.com/article/35110168/)
 
 ## 天文関連
 
@@ -57,6 +77,7 @@ NTT 新規契約 0800-2000-1160
 ## 知財関連
 
 - [青空文庫に生き続ける富田倫生氏の遺志 ～著作権保護期間延長反対に今後も関心を - 鷹野凌のデジタル出版最前線 - 窓の杜](https://forest.watch.impress.co.jp/docs/bookwatch/digipub/1090333.html)
+- [青空文庫はこうやって運営され、こうやって活用されてます - 鷹野凌のデジタル出版最前線 - 窓の杜](https://forest.watch.impress.co.jp/docs/bookwatch/digipub/1090529.html)
 
 ## その他
 
@@ -76,5 +97,12 @@ NTT 新規契約 0800-2000-1160
 - [フリーのコードエディター「Atom 1.22」、パフォーマンスと使い勝手を向上させる - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1090437.html)
 - [AI時代のアマゾンは、日本の音楽市場に何をもたらすのか？アマゾン幹部に訊く、音楽ストリーミングに「共存」が必要な理由 | All Digital Music](http://jaykogami.com/2017/11/14505.html)
 - [Archiving repositories · GitHub](https://github.com/blog/2460-archiving-repositories)
+- [Niantic、ポケモンGOの次はハリー・ポッターと発表――噂のARゲームは来年リリースへ  |  TechCrunch Japan](http://jp.techcrunch.com/2017/11/09/2017-11-08-niantics-follow-up-to-pokemon-go-will-be-a-harry-potter-ar-game-launching-in-2018/)
+- [「ヤフオク!」、転売目的のチケット販売を禁止 - CNET Japan](https://japan.cnet.com/article/35110090/)
+- [無料独自ドメインと無料サーバーイイウェブで完全無料WEBサイトを作る方法 - Qiita](https://qiita.com/syo24/items/ccb765bc44fcb7699e7a)
+- [ランボルギーニとMIT、炭素繊維ボディに蓄電するスーパーEV「Terzo Millennio」開発 - CNET Japan](https://japan.cnet.com/article/35110150/)
+- [aiboも採用したソニー ディープラーニング開発環境に無償クラウドサービス版 - AV Watch](https://av.watch.impress.co.jp/docs/news/1090596.html)
+- [Unixコマンド”yes”についてのちょっとした話 | コンピュータサイエンス | POSTD](http://postd.cc/a-little-story-about-the-yes-unix-command/)
+- [GoogleのAndroid用ファイルマネージャー、Files Go,、ベータ版公開  |  TechCrunch Japan](http://jp.techcrunch.com/2017/11/10/2017-11-09-after-leak-googles-new-file-manager-for-android-files-go-launches-into-public-beta/)
 
 (end of file)

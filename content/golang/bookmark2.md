@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T23:59:59+09:00"
-update = "2017-11-09T12:09:53+09:00"
+update = "2017-11-10T12:19:23+09:00"
 description = "「Go 言語に関するブックマーク」に整理しきれない未整理分。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -93,3 +93,4 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [golangでQRコードを生成するパッケージを作ってみた - Qiita](https://qiita.com/toas555/items/763bddbd1992502e62b5)
 - [goでwindowsのWMI経由からディスクIOPSを取得してみた - Qiita](https://qiita.com/sky_jokerxx/items/091a70d7b51fc33fe71e)
 - [Big Sky :: Golang で優先度を変えてプロセスを起動する。](https://mattn.kaoriya.net/software/lang/go/20171108182710.htm)
+- [GoでORMライブラリまわりを綺麗に書く - Qiita](https://qiita.com/tetsuyanh/items/7d807110f602ab150d46)
