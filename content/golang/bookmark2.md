@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T23:59:59+09:00"
-update = "2017-11-10T12:19:23+09:00"
+update = "2017-11-15T16:11:53+09:00"
 description = "「Go 言語に関するブックマーク」に整理しきれない未整理分。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -94,3 +94,7 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [goでwindowsのWMI経由からディスクIOPSを取得してみた - Qiita](https://qiita.com/sky_jokerxx/items/091a70d7b51fc33fe71e)
 - [Big Sky :: Golang で優先度を変えてプロセスを起動する。](https://mattn.kaoriya.net/software/lang/go/20171108182710.htm)
 - [GoでORMライブラリまわりを綺麗に書く - Qiita](https://qiita.com/tetsuyanh/items/7d807110f602ab150d46)
+- [Big Sky :: Golang の archive/zip でタイムゾーンの問題とファイル名の問題が解決した。](https://mattn.kaoriya.net/software/lang/go/20171111154359.htm)
+- [ECHO+GORMでJWTとGraphQLの環境を構築 - Qiita](https://qiita.com/hiroykam/items/31862832a562388d876b)
+- [Goの抽象構文木（AST）を手入力してHello, Worldを作る #golang - Qiita](https://qiita.com/tenntenn/items/0cbc6f1f00dc579fcd8c)
+- [go-bindata が awesome-go から削除された - Qiita](https://qiita.com/pinzolo/items/5bb88f0fc7343d3a59c6)

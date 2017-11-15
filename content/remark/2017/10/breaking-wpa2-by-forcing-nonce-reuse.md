@@ -1,7 +1,7 @@
 +++
 title = "WPA2 脆弱性（KRACKs）に関する覚え書き"
 date =  "2017-10-17T20:00:30+09:00"
-update = "2017-11-07T23:23:25+09:00"
+update = "2017-11-15T15:47:24+09:00"
 description = "今回は，世界中で大騒ぎになっている Wi-Fi の WPA2 認証に関する脆弱性について。"
 tags = [
   "security",
@@ -176,3 +176,4 @@ WPA2 がダメだからと言って WEP を使うのは事態を悪化させる�
 - [総務省｜無線LAN（Wi-Fi）暗号化における脆弱性について（注意喚起）](http://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000274.html) : いまさら総務省（笑）
 - [Apple、WPA2暗号化の脆弱性を修正した「iOS 11.1」、ただし機種限定 - PC Watch](https://pc.watch.impress.co.jp/docs/news/1089340.html)
 - [Androidの月例セキュリティ情報公開、「KRACK」の脆弱性に対処 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1711/07/news067.html)
+- [Google、Wi-Fi関連の脆弱性「KRACK」に対処するAndroid向けパッチを公開 | マイナビニュース](http://news.mynavi.jp/news/2017/11/10/068/)
