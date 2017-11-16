@@ -1,6 +1,7 @@
 +++
 title = "Qiita って Mastodon やってたのか"
 date =  "2017-11-10T13:49:58+09:00"
+update =  "2017-11-16T10:09:40+09:00"
 description = "私にとって今年最初の大外しは「GW 過ぎたら Mastodon のことなんかみんな忘れてる」だったが，本当に忘れていたのは私だけだったようだ。"
 tags = ["mastodon", "communication"]
 
@@ -49,6 +50,7 @@ tags = ["mastodon", "communication"]
 
 ## ブックマーク
 
+- [Mastodon Network Monitoring](https://mnm.social/) : [Pawoo] スゲー
 - [Qiitadonについて語る - the code to rock](http://note103.hateblo.jp/entry/2017/06/02/194946)
 - [Qiitadonのソースコードを読む · GitHub](https://gist.github.com/akihikodaki/2081f7a38c30303519f8398f08ea2c45)
 - [GitHub - tateisu/SubwayTooter: Mastodon client app for Android](https://github.com/tateisu/SubwayTooter)

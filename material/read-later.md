@@ -63,7 +63,6 @@ NTT 新規契約 0800-2000-1160
     - [Hacking a Fingerprint Biometric - Schneier on Security](https://www.schneier.com/blog/archives/2017/11/hacking_a_finge.html)
 - [ニュース解説 - FinTech？マルウエア？無断でスマホCPU使う謎のサービス：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/14/346926/110801194/)
 - [仮想化環境のセキュリティを監視--AWSとラック、マカフィーが連携 - ZDNet Japan](https://japan.zdnet.com/article/35110168/)
-
 - [2017年10月、11月の国内レンタルサーバー事業者へのDoS攻撃についてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20171110/1510338911)
 - [詐欺メールと会話して犯人の時間を奪うAIメールボット「Re:scam」が登場 - CNET Japan](https://japan.cnet.com/article/35110285/)
 - [Google Online Security Blog: New research: Understanding the root cause of account takeover](https://security.googleblog.com/2017/11/new-research-understanding-root-cause.html)
@@ -79,6 +78,10 @@ NTT 新規契約 0800-2000-1160
     - [Adobe Reader および Acrobat の脆弱性 (APSB17-36) に関する注意喚起](http://www.jpcert.or.jp/at/2017/at170043.html)
 - [Microsoft 製品の脆弱性対策について(2017年11月)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20171115-ms.html)
     - [2017年 11月マイクロソフトセキュリティ更新プログラムに関する注意喚起](http://www.jpcert.or.jp/at/2017/at170044.html)
+- [「Tor Browser」v7.0.10が正式リリース ～「Tor」を組み込んだ匿名性重視のブラウザー - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1091727.html)
+- [Hackers Claim to Break Face ID a Week After iPhone X Release | WIRED](https://www.wired.com/story/hackers-say-broke-face-id-security/)
+    - [Apple FaceID Hacked - Schneier on Security](https://www.schneier.com/blog/archives/2017/11/apple_faceid_ha.html)
+- [Webカメラハッキングツールに仕込まれた「罠」 – THE ZERO/ONE – サイバーセキュリティ・メディア](https://the01.jp/p0006059/)
 
 ## 天文関連
 
@@ -90,7 +93,6 @@ NTT 新規契約 0800-2000-1160
 - [NASA、天体のあだ名を募集中　探査機「ニュー・ホライズンズ」の次期目標 | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_11_07_new.html)
 - [ふたご座流星群が極大（2017年12月） | 国立天文台(NAOJ)](https://www.nao.ac.jp/astro/sky/2017/12-topics02.html)
     - [ふたご座流星群を観察・報告するキャンペーン、2017年12月12日から | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/topics/2017/20171108-geminids.html)
-
 - [「人工流星」に対する違和感・天文マニアは井の中の蛙になっていないか？ | 天文リフレクションズ編集部](http://reflexions.jp/blog/ed_tenmon/archives/2685)
 - [「平山さん」は元星座だった！「テーブルさん座」 – 好奇心ビッグバン](http://tenmontamago.space/2017/11/10/mensa/)
 - [中国・チベットの標高5100mの山頂に望遠鏡を設置しました ―HinOTORIプロジェクトがいよいよ実働へ― | 広島大学](https://www.hiroshima-u.ac.jp/news/42583)
@@ -99,8 +101,8 @@ NTT 新規契約 0800-2000-1160
 
 - [青空文庫に生き続ける富田倫生氏の遺志 ～著作権保護期間延長反対に今後も関心を - 鷹野凌のデジタル出版最前線 - 窓の杜](https://forest.watch.impress.co.jp/docs/bookwatch/digipub/1090333.html)
 - [青空文庫はこうやって運営され、こうやって活用されてます - 鷹野凌のデジタル出版最前線 - 窓の杜](https://forest.watch.impress.co.jp/docs/bookwatch/digipub/1090529.html)
-
 - [TPP continues without the worst copyright provisions - Creative Commons](https://creativecommons.org/2017/11/13/tpp-continues-without-worst-copyright-provisions/)
+- [Create Refresh Campaign: Stop the EU Copyright Censorship Machine - Creative Commons](https://creativecommons.org/2017/11/15/create-refresh-campaign-stop-eu-copyright-censorship-machine/)
 
 ## その他
 
@@ -127,7 +129,6 @@ NTT 新規契約 0800-2000-1160
 - [aiboも採用したソニー ディープラーニング開発環境に無償クラウドサービス版 - AV Watch](https://av.watch.impress.co.jp/docs/news/1090596.html)
 - [Unixコマンド”yes”についてのちょっとした話 | コンピュータサイエンス | POSTD](http://postd.cc/a-little-story-about-the-yes-unix-command/)
 - [GoogleのAndroid用ファイルマネージャー、Files Go,、ベータ版公開  |  TechCrunch Japan](http://jp.techcrunch.com/2017/11/10/2017-11-09-after-leak-googles-new-file-manager-for-android-files-go-launches-into-public-beta/)
-
 - [本の虫: 国家政府用のbitcoin破壊工作ガイド](https://cpplover.blogspot.jp/2017/11/bitcoin.html)
 - [とりあえずド素人が読むべきブロックチェーン論文・書籍・サイト - Qiita](https://qiita.com/onokatio/items/7db58947b05c17d1f44e)
 - [Uber、プログラミング言語「Pyro」を公開 | マイナビニュース](http://news.mynavi.jp/news/2017/11/10/063/)
@@ -152,6 +153,7 @@ NTT 新規契約 0800-2000-1160
 - [BitTorrentの発明者が（ビットコインとは違って）環境に優しい仮想通貨Chiaを発表  |  TechCrunch Japan](http://jp.techcrunch.com/2017/11/10/2017-11-08-chia-network-cryptocurrency/)
 - [「Linux 4.14」カーネルがリリース--最新のLTS版 - ZDNet Japan](https://japan.zdnet.com/article/35110336/)
 - [80歳からのプログラミング - 「小学生でもわかる本」がシニアには無理、82歳アプリ開発者が語る現実：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/17/110800498/111300002/?rt=nocnt)
+    - [80歳からのプログラミング - 「定年後は開発に500時間かけても怒られない」、もう一人の82歳アプリ開発者：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/17/110800498/111400003/?rt=nocnt)
 - [Software 2.0 – Andrej Karpathy – Medium](https://medium.com/@karpathy/software-2-0-a64152b37c35)
     - [テスラのAI部門長が語る「Software 2.0」。ディープラーニングは従来のプログラミング領域を侵食し、プログラマの仕事は機械の教師やデータのキュレーションになる － Publickey](http://www.publickey1.jp/blog/17/ai_software_20.html)
 - [日本のインターネット黎明期をリードした雑誌『iNTERNET magazine』を1号限定で11月16日に復刊発売｜株式会社インプレスホールディングスのプレスリリース](https://prtimes.jp/main/html/rd/p/000001887.000005875.html)
@@ -159,5 +161,14 @@ NTT 新規契約 0800-2000-1160
 - [従来より2倍高速化をうたう「Firefox Quantum」正式版が公開。今後もさらに性能向上は続く － Publickey](http://www.publickey1.jp/blog/17/2firefox_quantum.html)
 - [Twitterは言論プラットフォームたりうるか？ «  マガジン航[kɔː]](https://magazine-k.jp/2017/11/15/twitter-is-not-platform-for-journalism/)
     - [Twitter、差別主義者に青バッジ→炎上→青バッジシステム停止 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1711/10/news046.html)
+- [単純作業をデジタルロボに頼めるクラウドRPA「BizteX cobit」が正式公開 - CNET Japan](https://japan.cnet.com/article/35110371/)
+- [Microsoftの友好的協業時代は終わりを告げるのか  |  TechCrunch Japan](http://jp.techcrunch.com/2017/11/15/2017-11-14-microsofts-period-of-congenial-cooperation-could-be-over/)
+- [Twitter、“認証バッジ”の仕組みを見直しへ ～リクエストは一時保留 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1091877.html)
+- [Facebookが分散ネットワーキング〜ルーティングソフトウェアOpen/Rをオープンソース化  |  TechCrunch Japan](http://jp.techcrunch.com/2017/11/16/2017-11-15-facebook-open-sources-open-r-distributed-networking-software/)
+- [2017年11月14日ニュース｢地質年代に初の日本名『チバニアン』が“内定” 国際学会作業部会の審査通過｣ | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/11/20171114_01.html)
+- [Code together in real time with Teletype for Atom | blog.atom.io](https://blog.atom.io/2017/11/15/code-together-in-real-time-with-teletype-for-atom.html)
+- [［速報］「Visual Studio Live Share」発表。複数のプログラマがリアルタイムにコードの編集、ブレークポイント、デバッガ操作などを共有。Connect(); 2017 － Publickey](http://www.publickey1.jp/blog/17/visual_studio_live_shareconnect_2017.html)
+- [aozorablog » 井沢衣水をさがせ](http://www.aozora.gr.jp/aozorablog/?p=4029)
+- [「世界最速」機械学習技術、ヤフーがOSSで公開 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1711/15/news123.html)
 
 (end of file)
