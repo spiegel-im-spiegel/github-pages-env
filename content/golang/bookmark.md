@@ -127,6 +127,7 @@ title = "Go 言語に関するブックマーク"
 - [Go 言語の値レシーバとポインタレシーバ | Step by Step](https://skatsuta.github.io/2015/12/29/value-receiver-pointer-receiver/)
 - [Big Sky :: Go言語でインタフェースの変更がそれ程問題にならない理由](http://mattn.kaoriya.net/software/lang/go/20130919023425.htm)
 - [Go で interface {} の中身がポインタならその参照先を取得する - Qiita](http://qiita.com/chimatter/items/b0879401d6666589ab71)
+- [Go で型を抽象的に扱うには - Qiita](https://qiita.com/nirasan/items/d1b80ecc7a7a7f0af2b7)
 
 #### 数値型
 
