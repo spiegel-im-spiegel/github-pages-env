@@ -5,17 +5,19 @@
 <title>{{ .Site.Title }}</title>
 <meta property="og:title" content="{{ .Site.Title }}">{{ with .Site.Params.description }}
 <meta name="description" content="{{ . }}">
-<meta property="og:description" content="{{ . }}">{{ end }}
-<meta property="og:image" content="{{ .Site.BaseURL }}images/avatar.jpg">
+<meta property="og:description" content="{{ . }}">{{ end }}{{ with .Site.Author }}{{ if .avatar }}
+<meta property="og:image" content="{{ .avatar | absURL }}">{{ end }}{{ end }}
 {{ partial "twitter-card.html" . }}
+
+{{ partial "json-ld-site.html" . }}
 </head>
 <body>
 {{ partial "prepare.html" . }}
 <div id='container'><!-- Container Area -->
 {{ partial "banner.html" . }}
 
-<main><article itemscope itemtype='http://schema.org/Blog' itemref='maker'>
-<h1 itemprop='name'>What's New</h1>
+<main><article>
+<h1>What's New</h1>
 
 <section>
 <h2>最近の記事</h2>

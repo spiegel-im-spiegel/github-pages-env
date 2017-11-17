@@ -6,8 +6,11 @@
 <meta property="og:title" content="プログラミング言語 Go — {{ .Site.Title }}">
 <meta name="description" content="Go 言語プログラミングに関する話題。">
 <meta property="og:description" content="Go 言語プログラミングに関する話題。">
+<meta property="og:image" content="{{ "/images/attention/go-code.png" | absURL }}">
 <meta property="og:image" content="{{ .Site.BaseURL }}images/attention/go-code.png">
 {{ partial "twitter-card.html" . }}
+
+{{ partial "json-ld-golang.html" . }}
 </head>
 <body>
 {{ partial "prepare.html" . }}
@@ -15,9 +18,9 @@
 {{ partial "banner.html" . }}
 
 <main>
-<article itemscope itemtype='http://schema.org/Blog' itemref='maker'>
-<h1 itemprop='name'>プログラミング言語 Go <a href='{{ .RSSLink }}' title='Feed'><i class='fa fa-rss'></i></a></h1>
-<p itemprop='description'><a href="https://golang.org/" title="The Go Programming Language">Go 言語</a>プログラミングに関する話題。</p>
+<article>
+<h1>プログラミング言語 Go <a href='{{ .RSSLink }}' title='Feed'><i class='fa fa-rss'></i></a></h1>
+<p><a href="https://golang.org/" title="The Go Programming Language">Go 言語</a>プログラミングに関する話題。</p>
 <p>記事中に出てくるサンプル・コードについては，特に断りがない限り， <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.ja">CC0</a> 相当での取り扱いで（つまり自由に再利用して）構わない。
 </p><p>
 なお書籍の『<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4621300253/baldandersinf-22/">プログラミング言語Go</a>』とは何の関係もないのであしからず。

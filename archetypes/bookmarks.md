@@ -2,6 +2,7 @@
 title = "{{ substr .Date 0 -15 }} のブックマーク"
 date =  "{{ .Date }}"
 description = "「XXX」他"
+image = "/images/avatar.jpg"
 draft = true
 
 [author]

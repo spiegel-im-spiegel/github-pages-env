@@ -1,3 +1,3 @@
-{{ with .Params.tags }}{{ $len := len . }}<meta name="keywords" content="{{ if eq $len 1 }}{{ index . 0 }}{{ else }}{{ $last := sub $len 1 }}{{ range first $last . }}{{ . }},{{ end }}{{ index . $last }}{{ end }}">{{ end }}{{ with .PrevInSection }}
+{{ with .Params.tags }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}{{ with .PrevInSection }}
 <link rel='prev' href='{{ .Permalink }}' title='{{ .Title }}' />{{ end }}{{ with .NextInSection }}
 <link rel='next' href='{{ .Permalink }}' title='{{ .Title }}' />{{ end }}

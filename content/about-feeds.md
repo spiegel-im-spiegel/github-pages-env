@@ -6,18 +6,22 @@ tags = ["site", "feed"]
 description = "text.Baldanders.info ではサイトの更新情報を提供しています。"
 
 [author]
-  tumblr = "spiegel-im-spiegel"
-  avatar = "/images/avatar.jpg"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  name      = "Spiegel"
+  url       = "http://www.baldanders.info/spiegel/profile/"
+  avatar    = "/images/avatar.jpg"
+  license   = "by-sa"
+  github    = "spiegel-im-spiegel"
+  twitter   = "spiegel_2007"
+  tumblr    = "spiegel-im-spiegel"
   instagram = "spiegel_2007"
-  name = "Spiegel"
-  facebook = "spiegel.im.spiegel"
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  license = "by-sa"
-  flattr = "spiegel"
-  linkedin = "spiegelimspiegel"
-  twitter = "spiegel_2007"
+  flickr    = "spiegel"
+  facebook  = "spiegel.im.spiegel"
+  linkedin  = "spiegelimspiegel"
+  flattr    = "spiegel"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 [text.Baldanders.info](/) （以降「[本サイト]」と呼びます）ではサイトの更新情報を提供しています。

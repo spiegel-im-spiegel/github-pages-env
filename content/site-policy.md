@@ -4,6 +4,24 @@ update = "2016-12-06T17:19:18+09:00"
 description = "text.Baldanders.info の運用方針について説明します。"
 tags = ["site", "policy", "privacy", "copyright", "link"]
 title = "text.Baldanders.info について"
+
+[author]
+  name      = "Spiegel"
+  url       = "http://www.baldanders.info/spiegel/profile/"
+  avatar    = "/images/avatar.jpg"
+  license   = "by-sa"
+  github    = "spiegel-im-spiegel"
+  twitter   = "spiegel_2007"
+  tumblr    = "spiegel-im-spiegel"
+  instagram = "spiegel_2007"
+  flickr    = "spiegel"
+  facebook  = "spiegel.im.spiegel"
+  linkedin  = "spiegelimspiegel"
+  flattr    = "spiegel"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 ここでは [text.Baldanders.info](/) （以降「[本サイト]」と呼びます）の運用方針について説明します。

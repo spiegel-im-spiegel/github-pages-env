@@ -6,8 +6,10 @@
 <meta property="og:title" content="改訂3版： CC Licenses について — {{ .Site.Title }}">
 <meta name="description" content="本家 Baldanders.info の「クリエイティブ・コモンズ・ライセンスについて」を大幅リニューアル。">
 <meta property="og:description" content="本家 Baldanders.info の「クリエイティブ・コモンズ・ライセンスについて」を大幅リニューアル。">
-<meta property="og:image" content="{{ .Site.BaseURL }}images/attention/cc-licenses.jpg">
+<meta property="og:image" content="{{ "/images/attention/cc-licenses.jpg" | absURL }}">
 {{ partial "twitter-card.html" . }}
+
+{{ partial "json-ld-cc-licenses.html" . }}
 </head>
 <body>
 {{ partial "prepare.html" . }}
@@ -15,9 +17,9 @@
 {{ partial "banner.html" . }}
 
 <main>
-<article itemscope itemtype='http://schema.org/Blog' itemref='maker'>
-<h1 itemprop='name'>改訂3版： CC Licenses について <a href='{{ .RSSLink }}' title='Feed'><i class='fa fa-rss'></i></a></h1>
-<p itemprop='description'>
+<article>
+<h1>改訂3版： CC Licenses について <a href='{{ .RSSLink }}' title='Feed'><i class='fa fa-rss'></i></a></h1>
+<p>
 <a href="http://www.baldanders.info/">本家サイト</a>の「<a href="http://www.baldanders.info/spiegel/archive/cc-license/">クリエイティブ・コモンズ・ライセンスについて</a>」を大幅リニューアル。
 </p><p>
 なお，私は法の専門家ではないので説明が大雑把だったり間違いがあったりするかもしれませんが，平にご容赦。

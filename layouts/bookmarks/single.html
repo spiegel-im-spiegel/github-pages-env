@@ -8,19 +8,23 @@
 <meta property="og:description" content="{{ .Description }}">{{ else }}
 <meta name="description" content="{{ with .Date }}{{ .Format "2006-01-02" }} {{ else}}本日{{ end }}のブックマーク集。">
 <meta property="og:description" content="{{ with .Date }}{{ .Format "2006-01-02" }} {{ else}}本日{{ end }}のブックマーク集。">{{ end }}
-<meta property="og:image" content="{{ .Site.BaseURL }}images/avatar.jpg">{{ partial "twitter-card.html" . }}{{ with .Params.author.name }}
+<meta property="og:image" content="{{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ "/images/avatar.jpg" | absURL }}{{ end }}">
+{{ partial "twitter-card.html" . }}{{ with .Params.author.name }}
 <meta name="author" content="{{ . }}">{{ end }}
 {{ partial "header-nav.html" . }}
+
+{{ partial "json-ld-bookmarks.html" . }}
 </head>
 <body>
 {{ partial "prepare.html" . }}
 <div id='container'><!-- Container Area -->
-{{ partial "banner.html" . }}
 
 <main>
-<article itemscope itemtype='http://schema.org/BlogPosting' itemref='maker'>
-<div><strong>{{ with .Section }}<a href="/{{ . | urlize }}">ブックマーク集</a>{{ end }}</strong></div>
-<h1 itemprop='name'>{{ .Title }}</h1>
+<nav class="breadcrumb">
+<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>{{ if .Section }} &raquo; <a href="/{{ .Section | urlize }}/">ブックマーク集</a>{{ end }}
+</nav>
+<article>
+<h1>{{ .Title }}</h1>
 
 <section><div>
 <div style="float:right;margin:0.5em;padding:0.5em;">

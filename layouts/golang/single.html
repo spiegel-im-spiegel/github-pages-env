@@ -8,19 +8,23 @@
 <meta property="og:description" content="{{ .Description }}">{{ else }}
 <meta name="description" content="Go 言語に関する話題。">
 <meta property="og:description" content="Go 言語に関する話題。">{{ end }}
-<meta property="og:image" content="{{ .Site.BaseURL }}images/attention/go-code.png">
+<meta property="og:image" content="{{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ "/images/attention/go-code.png" | absURL }}{{ end }}">
 {{ partial "twitter-card.html" . }}{{ with .Params.author.name }}
 <meta name="author" content="{{ . }}">{{ end }}
 {{ partial "header-nav.html" . }}
+
+{{ partial "json-ld-golang.html" . }}
 </head>
 <body>
 {{ partial "prepare.html" . }}
 <div id='container'><!-- Container Area -->
-{{ partial "banner.html" . }}
 
 <main>
-<article itemscope itemtype='http://schema.org/BlogPosting' itemref='maker'>
-<h1 itemprop='name'>{{ .Title }}{{ with .Section }} — <a href="/{{ . | urlize }}">プログラミング言語 Go</a>{{ end }}</h1>
+<nav class="breadcrumb">
+<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>{{ if .Section }} &raquo; <a href="/{{ .Section | urlize }}/">プログラミング言語 Go</a>{{ end }}
+</nav>
+<article>
+<h1>{{ .Title }}</h1>
 {{ partial "navi-tag.html" . }}
 
 <section>

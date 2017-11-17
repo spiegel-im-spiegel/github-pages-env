@@ -8,19 +8,23 @@
 <meta property="og:description" content="{{ .Description }}">{{ else }}
 <meta name="description" content="CC License について。">
 <meta property="og:description" content="CC License について。">{{ end }}
-<meta property="og:image" content="{{ .Site.BaseURL }}images/attention/cc-licenses.jpg">
+<meta property="og:image" content="{{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ "/images/attention/cc-licenses.jpg" | absURL }}{{ end }}">
 {{ partial "twitter-card.html" . }}{{ with .Params.author.name }}
 <meta name="author" content="{{ . }}">{{ end }}
 {{ partial "header-nav.html" . }}
+
+{{ partial "json-ld-cc-licenses.html" . }}
 </head>
 <body>
 {{ partial "prepare.html" . }}
 <div id='container'><!-- Container Area -->
-{{ partial "banner.html" . }}
 
 <main>
-<article itemscope itemtype='http://schema.org/BlogPosting' itemref='maker'>
-<h1 itemprop='name'>{{ .Title }}{{ with .Section }} — <a href="/{{ . | urlize }}">改訂3版： CC Licenses について</a>{{ end }}</h1>
+<nav class="breadcrumb">
+<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>{{ if .Section }} &raquo; <a href="/{{ .Section | urlize }}/">改訂3版： CC Licenses について</a>{{ end }}
+</nav>
+<article>
+<h1>{{ .Title }}</h1>
 {{ partial "navi-tag.html" . }}
 
 <section><div>

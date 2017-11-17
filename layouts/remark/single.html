@@ -8,20 +8,23 @@
 <meta property="og:description" content="{{ .Description }}">{{ else }}
 <meta name="description" content="とりとめのない四方山話。">
 <meta property="og:description" content="とりとめのない四方山話。">{{ end }}
-<meta property="og:image" content="{{ .Site.BaseURL }}images/attention/remark.jpg">
+<meta property="og:image" content="{{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ "/images/attention/remark.jpg" | absURL }}{{ end }}">
 {{ partial "twitter-card.html" . }}{{ with .Params.author.name }}
 <meta name="author" content="{{ . }}">{{ end }}
 {{ partial "header-nav.html" . }}
+
+{{ partial "json-ld-remark.html" . }}
 </head>
 <body>
 {{ partial "prepare.html" . }}
 <div id='container'><!-- Container Area -->
-{{ partial "banner.html" . }}
 
 <main>
-<article itemscope itemtype='http://schema.org/BlogPosting' itemref='maker'>
-<div><strong>{{ with .Section }}<a href="/{{ . | urlize }}">しっぽのさきっちょ</a>{{ end }}{{ with .Date }}: {{ .Format "2006-01-02" }} 付{{ end }}</strong>{{ with $.Params.update }} （{{ . | dateFormat "2006-01-02" }} 更新）{{ end }}</div>
-<h1 itemprop='name'>{{ .Title }}</h1>
+<nav class="breadcrumb">
+<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>{{ if .Section }} &raquo; <a href="/{{ .Section | urlize }}/">しっぽのさきっちょ</a>{{ end }}
+</nav>
+<article>
+<h1>{{ .Title }}</h1>
 {{ partial "navi-tag.html" . }}
 
 <section><div>

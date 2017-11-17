@@ -10,8 +10,8 @@
 {{ partial "banner.html" . }}
 
 <main>
-<article itemscope itemtype='http://schema.org/Blog' itemref='maker'>
-<h1 itemprop='name'>{{ .Title }} Cloud</h1>
+<article>
+<h1>{{ .Title }} Cloud</h1>
 <ul class="cloud">{{ $plural := .Data.Plural }}
 {{ range $key, $value := .Data.Terms }}{{ $count := len $value }}{{ $sz := add (math.Round (mul (math.Log $count) 5)) 5 }}
 	<li style="font-size:{{ $sz }}pt;"><a href="/{{ $plural }}/{{ $key | urlize }}" title="{{ $key }} ({{ $count }})">{{ $key }}</a></li>

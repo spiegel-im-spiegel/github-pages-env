@@ -2,8 +2,8 @@
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date =  "{{ .Date }}"
 description = "description"
-image = "/images/attention/go-code.png"
-tags        = [ "golang" ]
+image = "/images/attention/remark.jpg"
+tags        = [ "remark" ]
 draft = true
 
 [author]
@@ -21,6 +21,6 @@ draft = true
   flattr    = "spiegel"
 
 [scripts]
-  mathjax = true
+  mathjax = false
   mermaidjs = false
 +++
