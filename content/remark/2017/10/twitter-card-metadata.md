@@ -1,9 +1,9 @@
 +++
 title = "Twitter Card メタデータに対応した"
 date =  "2017-10-29T16:00:38+09:00"
-update =  "2017-10-30T09:46:44+09:00"
+update =  "2017-11-17T23:45:12+09:00"
 description = "もう Semantic Web なんか誰も見向きもしなくなってるみたいだし， Web コンテンツを解析する手段は AI 技術を利用したものへシフトしてるようだし，もう（どうでも）いいかな，と。"
-tags        = [ "site", "semantic", "web", "twitter", "open-graph" ]
+tags        = [ "site", "semantic", "web", "metadata", "twitter", "open-graph" ]
 
 [author]
   name      = "Spiegel"
