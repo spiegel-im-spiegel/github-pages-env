@@ -1,6 +1,7 @@
 +++
 title = "JSON-LD に対応してみた"
 date =  "2017-11-17T23:40:05+09:00"
+update =  "2017-11-18T12:50:11+09:00"
 description = "以前，このサイトを Twitter Cards に対応させたのだが，今回も思いつきで JSON-LD に対応させることにした。"
 image = "/images/attention/remark.jpg"
 tags        = [ "site", "semantic ", "web", "metadata", "json" ]
@@ -28,6 +29,16 @@ tags        = [ "site", "semantic ", "web", "metadata", "json" ]
 
 - [JSON-LD - JSON for Linking Data](https://json-ld.org/)
 
+[JSON-LD] の特徴は複数の情報のかたまりを IRI[^iri] で繋ぐことで複雑なデータ構造を記述できる点にある。
+これを使ってネット上のリソースのメタデータとその関係を表現するわけだ。
+
+[^iri]: IRI (Internationalized Resource Indicator) というのは [JSON-LD] 独自の用語のようだが，ここでは大雑把に URL (Uniform Resource Locator) や URI (Uniform Resource Indicator) と同じようにネット上のリソースを一意に識別する識別子であると理解しておけばよい。なお，[テストツール]を見るかぎり Google 検索では IRI からメタデータの場所（URL または URI）を推測して取得するといったことはしないようだ。したがって Web ページに [JSON-LD] を設置する場合には，関連する全てのメタデータを記述する必要がある。冗長すぎるやろ。
+
+ただし Web ページの場合は， RDFa や Microdata などと違って，語彙を HTML の要素に埋め込むことが出来ないため冗長にならざるを得ない。
+まぁ CMS を使ってサイトや Web ページを管理しているなら，一度テンプレート等を作ってしまえば済む話なので，大した手間ではないかもしれないが。
+
+逆に RESTful API でメタデータを提供する場合は [JSON-LD] はかなり有力な手段となるだろう。
+
 真面目に [JSON-LD] を扱うとなると相当凝ったことができるみたいだが[^jsnld1]，今回は軽めに Google の検索サービスが解釈できる範囲で調整してみようと思う。
 
 [^jsnld1]: [JSON-LD] の仕様を見るかぎり，Microdata や RDFa の語彙を流用したり自前で語彙を作ったりできるっぽい。
@@ -36,11 +47,11 @@ tags        = [ "site", "semantic ", "web", "metadata", "json" ]
 - [構造化データ テストツール](https://search.google.com/structured-data/testing-tool)
 
 なお [JSON-LD] を導入するのなら Microdata の記述はページから削除することをお勧めする。
-Microdata は既に開発が終了しており，もはや推奨されない。
+Microdata は未完成のまま開発が終了しており，もはや推奨されない。
 
 ## Web ページに [JSON-LD] を埋め込む
 
-まず [JSON-LD] を Web ページに埋め込む際は以下のように `<script>` 要素で囲む。
+[JSON-LD] を Web ページに埋め込む際は，以下のように `<script>` 要素で囲む。
 
 ```html
 <script type="application/ld+json">
@@ -87,6 +98,12 @@ Microdata は既に開発が終了しており，もはや推奨されない。
 - [BlogPosting]
 - [BreadcrumbList]
 
+更に，これらが参照する content type として以下も使用する。
+
+- [Organization]
+- [Person]
+- [ImageObject]
+
 まずは [WebSite] から。
 
 ```html
@@ -99,7 +116,7 @@ Microdata は既に開発が終了しており，もはや推奨されない。
   "name": "text.Baldanders.info",
   "url": "http://text.baldanders.info/",
   "publisher": {
-  "@id": "http://text.baldanders.info/#org"
+    "@id": "http://text.baldanders.info/#org"
   },
   "author": {
     "@type": "Person",
@@ -127,15 +144,16 @@ Microdata は既に開発が終了しており，もはや推奨されない。
 </script>
 ```
 
-`@id` を使って `publisher` の内容を参照しているのがお分かりだろうか。
+`@id` は IRI を定義または参照する。
+`@id` によって [Organization] のデータを `publisher` から参照しているのがお分かりだろうか。
 これを[テストツール]にかけるとこんな感じになる。
 
 {{< fig-img src="https://farm5.staticflickr.com/4576/38448664942_e96760dd5e.jpg" title="Structured Data Testing Tool (1)" link="https://www.flickr.com/photos/spiegel/38448664942/" >}}
 
-`publisher` に [Organization] の情報が入っているのがわかると思う。
+`publisher` に [Organization] のデータが入っているのがわかると思う。
 
-本来 `publisher` には [Organization] と [Person] のどちらも有効な筈なのだが，[テストツール]は [Organization] しか受け付けないようだ。
-これだとうちのような個人サイトは大変困るのだが，しょうがないので [Organization] にテキトーな情報を入れてお茶を濁している。
+本来の [schema.org] の定義では `publisher` には [Organization] と [Person] のどちらも有効な筈なのだが，[テストツール]は [Organization] しか受け付けないようだ。
+これではうちのような個人サイトは大変に困るのだが，しょうがないので [Organization] にテキトーな情報を入れてお茶を濁している。
 何とかしてよ Google 先生！
 
 次は [Blog] の情報をセットする。
@@ -165,6 +183,7 @@ Microdata は既に開発が終了しており，もはや推奨されない。
 </script>
 ```
 
+`publisher` の参照先は [WebSite] と同じなので省略する。
 これを[テストツール]にかけるとこんな感じになる。
 
 {{< fig-img src="https://farm5.staticflickr.com/4554/37593823405_a6651f6a94.jpg" title="Structured Data Testing Tool (2)" link="https://www.flickr.com/photos/spiegel/37593823405/" >}}
@@ -203,8 +222,8 @@ Microdata は既に開発が終了しており，もはや推奨されない。
 </script>
 ```
 
-Google は [BlogPosting] の内容を利用している。
-Google が [BlogPosting] で要求するプロパティは以下の通り。
+Google 検索は [BlogPosting] の内容を参照している。
+Google 検索が [BlogPosting] で要求するプロパティは以下の通り。
 
 | Properties | Data Type | AMP | non-AMP |
 |:-----------|:---------:|:---:|:-------:|
@@ -262,8 +281,8 @@ AMP (Accelerated Mobile Pages) と non-AMP で要求が異なるが，[テスト
 </script>
 ```
 
-Google は [BreadcrumbList] の内容も利用している。
-Google が [BreadcrumbList] で要求するプロパティは以下の通り。
+Google 検索は [BreadcrumbList] の内容も参照している。
+Google 検索が [BreadcrumbList] で要求するプロパティは以下の通り。
 
 | Properties | Data Type | Requirement |
 |:-----------|:---------:|:-----------:|
@@ -273,8 +292,8 @@ Google が [BreadcrumbList] で要求するプロパティは以下の通り。
 | `position` | `Integer` | required |
 
 上述のコードでは `item` を `@id` の参照先と繋げている。
-具体的には，最初の階層に [WebSite] の `@id` を，2番目の階層に [Blog] の `@id` を指定している。
-これによって `item` の中に `name` が含まれるため，不足なく情報をセットできている。
+具体的には，最初の階層に [WebSite] データの `@id` を，2番目の階層に [Blog] データの `@id` を指定している。
+これによって `item` の中に `name` や `image` が含まれるため，不足なく情報を網羅できている。
 
 ## ブックマーク
 
@@ -295,3 +314,4 @@ Google が [BreadcrumbList] で要求するプロパティは以下の通り。
 [BreadcrumbList]: http://schema.org/BreadcrumbList "BreadcrumbList - schema.org"
 [Organization]: http://schema.org/Organization "Organization - schema.org"
 [Person]: http://schema.org/Person "Person - schema.org"
+[ImageObject]: http://schema.org/ImageObject "ImageObject - schema.org"
