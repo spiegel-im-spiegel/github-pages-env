@@ -34,6 +34,10 @@ NTT 新規契約 0800-2000-1160
 
 ## セキュリティ関連
 
+- [New White House Announcement on the Vulnerability Equities Process - Schneier on Security](https://www.schneier.com/blog/archives/2017/11/new_white_house_1.html)
+- [米国防総省が市民のネット投稿を監視か？　AWSの設定ミスで露呈 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1711/20/news056.html)
+- [「Tuxedo」に深刻な脆弱性、オラクルが臨時パッチ公開 - ZDNet Japan](https://japan.zdnet.com/article/35110566/)
+- [iPhone Xの「Face ID」が、10歳の少年に破られた──母親の顔認証がロック解除された“事件”の真相｜WIRED.jp](https://wired.jp/2017/11/16/son-unlocks-mothers-iphone-x/)
 
 ## 天文関連
 
@@ -43,5 +47,22 @@ NTT 新規契約 0800-2000-1160
 
 ## その他
 
+- [デバッガを利用してWebアプリの脆弱性を分析してみた - とある診断員の備忘録](http://tigerszk.hatenablog.com/entry/2017/11/17/175839)
+- [Googleのキーボードアプリ「Gboard」、Android版もようやく日本語対応に - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1711/17/news102.html)
+- [Facebook、開発者向け機能を大幅削減。アプリ招待やアプリ用いいね！ボタンを廃止へ  |  TechCrunch Japan](http://jp.techcrunch.com/2017/11/17/2017-11-16-facebook-kills-app-invites-the-native-app-like-button-and-other-dev-features/)
+- [「YouTube」でライブチケット販売を開始--公式音楽ビデオから販売ページへ誘導 - CNET Japan](https://japan.cnet.com/article/35110507/)
+- [mrubyをブラウザで実行するまで (WebAssembly) - Qiita](https://qiita.com/noontage/items/da846e78eebd1d3b2a78)
+- [矢部宏治氏に見る『知ってはいけない』憲法典と憲法学の間のギャップ : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/22247880.html)
+- [astah* モデル駆動開発m2t(Model to Text) プラグイン のC#用テンプレートを作ってみた - Qiita](https://qiita.com/azuki8/items/843b0eaa62f9f5143ed3)
+- [なぜプライヴァシーは「蒐集」されるのか？：「GDPR：データとインターネット〜EUが描く未来」第2回｜WIRED.jp](https://wired.jp/series/gdpr/02_why-is-privacy-collected/)
+- [日本準拠法に関する AWS カスタマーアグリーメントの変更: AWS Artifact | Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/how-to-change-aws-ca-by-artifact/)
+- [自作FirefoxアドオンをWebExtensionsに書き直したのでポエム書く - Qiita](https://qiita.com/gyu-don/items/e0e4cf85b29624995abc)
+- [オープンソース→スタートアップブームや深圳のイノベーションについて講演：早稲田大学 – ニコ技深圳観察会(日本語）,メイカーズのエコシステム, – Medium](https://medium.com/ecosystembymakers/talk-makers-d5d9da32909a)
+- [あたる×ラム×しのぶ 声優同窓会インタビュー - otoCoto](https://otocoto.jp/interview/shimazusaeko-1/)
+    - [『機動戦士Zガンダム』『うる星やつら』『魔法の天使 クリィミーマミ』超ヒットアニメで確認する声優・島津冴子の足跡 - otoCoto](https://otocoto.jp/interview/shimazusaeko-2/)
+- [idやclassを使ってテストを書くのは、もはやアンチパターンである - Qiita](https://qiita.com/akameco/items/519f7e4d5442b2a9d2da)
+- [textlintのコアをTypeScriptで書き直した、textlintの今後について | Web Scratch](http://efcl.info/2017/11/06/textlint-core-refactoring/)
+    - [JavaScriptのライブラリを徐々にTypeScriptに移行する | Web Scratch](http://efcl.info/2017/07/17/JavaScript-to-TypeScript/)
+- [gpg (GNU Privacy Guard)の使い方 - Qiita](https://qiita.com/moutend/items/5c22d6e57a74845578f6)
 
 (end of file)
