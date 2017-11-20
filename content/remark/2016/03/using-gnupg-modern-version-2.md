@@ -1,10 +1,10 @@
 +++
 date = "2016-03-11T12:39:07+09:00"
-update = "2016-03-12T15:16:45+09:00"
+update = "2017-11-20T14:43:13+09:00"
 description = "今回は gpg-agent について解説する。"
 draft = false
 tags = ["security", "cryptography", "openpgp", "gnupg", "tools", "ssh", "putty"]
-title = "GnuPG Modern Version for Windows ― gpg-agent について"
+title = "GnuPG for Windows ― gpg-agent について"
 
 [author]
   avatar = "/images/avatar.jpg"
@@ -26,24 +26,24 @@ title = "GnuPG Modern Version for Windows ― gpg-agent について"
 
 ## gpg-agent
 
-`gpg-agent` は [GnuPG] modern version の中核コンポーネントで，秘密鍵の管理[^sr] を行い一定期間キャッシュする。
+`gpg-agent` は [GnuPG] の中核コンポーネントで，秘密鍵の管理[^sr] を行い一定期間キャッシュする。
 `gpg-agent` は `gpg`, `gpgsm`, `gpgconf`, `gpg-connect-agent` といったコンポーネントから常駐プロセスとして起動されお互いに通信を行う[^od]。
 
-[^sr]: [前回]も書いたが， classic version と modern version は鍵（特に秘密鍵）の管理の仕方が異なるため両者を混在させる場合は注意が必要である。 Classic version で作成した鍵を modern version にも反映させたいのであれば `gpg-v21-migrated` ファイルを削除すると再度移行処理が走るらしい。 Classic version を使わなければならない状況（Linux などではパッケージ管理ツールがアプリケーションの証明用に [GnuPG] の classic version を使うことがある）でないのなら modern version に一本化するほうがお勧めである。
-[^od]: Modern version では `gpg-agent` が必須となった。したがって `--use-agent`, `--no-use-agent`, `--gpg-agent-info` 各オプションは無効（ダミーオプション）になっている。また UNIX 互換プラットフォームで `gpg-agent` 利用する際は `GPG_TTY` 環境変数をセットする必要があるが， Windows では不要なためここでは割愛する。
+[^sr]: [前回]も書いたが， classic version と現行バージョンでは鍵（特に秘密鍵）の管理の仕方が異なるため両者を混在させる場合は注意が必要である。 Classic version で作成した鍵を現行バージョンにも反映させたいのであれば `gpg-v21-migrated` ファイルを削除すると再度移行処理が走るらしい。 Classic version を使わなければならない状況（Linux などではパッケージ管理ツールがアプリケーションの証明用に [GnuPG] の classic version を使うことがある）でないのなら現行バージョンに一本化するほうがお勧めである。
+[^od]: 現行バージョンでは `gpg-agent` が必須である。したがって，かつての `--use-agent`, `--no-use-agent`, `--gpg-agent-info` 各オプションは無効（ダミーオプション）になっている。また UNIX 互換プラットフォームで `gpg-agent` 利用する際は `GPG_TTY` 環境変数をセットする必要があるが， Windows では不要なためここでは割愛する。
 
 `gpg-agent` が稼働中かどうかは `gpg-agent` を引数なしで起動すれば分かる。
 以下は既に起動している場合。
 
 ```text
-C:>gpg-agent
+$ gpg-agent
 gpg-agent[3996]: gpg-agent running and available
 ```
 
 `gpg-agent` が稼働していない場合は
 
 ```text
-C:>gpg-agent
+$ gpg-agent
 gpg-agent[9552]: no gpg-agent running in this session
 ```
 
@@ -52,7 +52,7 @@ gpg-agent[9552]: no gpg-agent running in this session
 手動で `gpg-agent` を起動する場合は以下のコマンドで起動する。
 
 ```text
-C:>gpg-connect-agent /bye
+$ gpg-connect-agent /bye
 gpg-connect-agent: no running gpg-agent - starting 'C:\path\to\GnuPG\bin\gpg-agent.exe'
 gpg-connect-agent: waiting for the agent to come up ... (5s)
 gpg-connect-agent: connection to agent established
@@ -61,7 +61,7 @@ gpg-connect-agent: connection to agent established
 逆に `gpg-agent` を手動で停止したい場合は
 
 ```text
-C:>gpg-connect-agent killagent /bye
+$ gpg-connect-agent killagent /bye
 OK closing connection
 ```
 
@@ -123,10 +123,10 @@ max-cache-ttl 7200
 設定を保存したら `gpg-connect-agent` を使って `gpg-agent` を再起動する。
 
 ```text
-C:>gpg-connect-agent killagent /bye
+$ gpg-connect-agent killagent /bye
 OK closing connection
 
-C:>gpg-connect-agent /bye
+$ gpg-connect-agent /bye
 gpg-connect-agent: no running gpg-agent - starting 'C:\path\to\GnuPG\bin\gpg-agent.exe'
 gpg-connect-agent: waiting for the agent to come up ... (5s)
 gpg-connect-agent: connection to agent established
@@ -146,7 +146,7 @@ SSH 鍵のインポートには2通りの方法あるようだが，今回は簡
 そうでない場合は以下のコマンドで PPK ファイルを開く。
 
 ```
-C:>pageant.exe id_rsa.PPK
+$ pageant.exe id_rsa.PPK
 ```
 
 すると Pagent のプロンプトが1回， `gpg-agent` のプロンプトが2回表示され，都合3回パスフレーズを入力させられる。
@@ -212,7 +212,7 @@ setx GIT_SSH=C:\path\to\PuTTY\plink.exe
 どうやらファイル・ディスクリプタ `S.gpg-agent.ssh` が上手く機能しないようだ。
 
 [MSYS2] 版[^m] と [PowerShell 用](https://github.com/PowerShell/Win32-OpenSSH "PowerShell/Win32-OpenSSH: Win32 port of OpenSSH")の [OpenSSH] で試してみたのだが，いずれも上手くいかなかった。
-[MSYS2] 版については [MSYS2] の [GnuPG] modern version を使えば上手くいくのかもしれないが，面倒なので試してない。
+[MSYS2] 版については [MSYS2] の [GnuPG] を使えば上手くいくのかもしれないが，面倒なので試してない。
 今後，試す機会があればここに追記する。
 
 [^sa]: `gpg-agent.conf` ファイルに `enable-ssh-support` オプションをセットする。

@@ -1,10 +1,10 @@
 +++
 date = "2016-03-09T18:27:04+09:00"
-update = "2016-03-12T15:16:22+09:00"
-description = "Windows 版 GnuPG Modern Version のインストールについて。"
+update = "2017-11-20T14:43:13+09:00"
+description = "Windows 版 GnuPG のインストールについて。"
 draft = false
 tags = ["security", "cryptography", "openpgp", "gnupg", "tools"]
-title = "GnuPG Modern Version for Windows ― インストール編"
+title = "GnuPG for Windows ― インストール編"
 
 [author]
   avatar = "/images/avatar.jpg"
@@ -25,12 +25,12 @@ title = "GnuPG Modern Version for Windows ― インストール編"
 
 - [GnuPG 2.1.0 (modern) for Windows のインストール — Baldanders.info](http://www.baldanders.info/spiegel/log2/000770.shtml)
 
-今回は [GnuPG] modern version について2回に分けて解説する。
+今回は [GnuPG] について2回に分けて解説する。
 
 1. [インストール編]({{< relref "remark/2016/03/using-gnupg-modern-version-1.md" >}}) （← イマココ）
 2. [gpg-agent について]({{< relref "remark/2016/03/using-gnupg-modern-version-2.md" >}})
 
-なお modern version の特徴である ECC への対応については以下の Gist ページを参照のこと。
+なお ECC への対応については以下の Gist ページを参照のこと。
 （これもそのうち再構成してここで公開する予定）
 
 - [Windows 版 GnuPG 2.1.x を使ってみる](https://gist.github.com/spiegel-im-spiegel/f177c02af04d3b34ade0)
@@ -51,107 +51,108 @@ PGP の最初のバージョンは1991年に公開された[^1991]。
 
 [GnuPG] は [OpenPGP] をベースにドイツで生まれた製品である。
 特定の個人・組織が独占することのないよう [GNU] プロジェクトの一環として現在も開発が行われている[^gpl]。
-[GnuPG] には現在，以下の3つのバージョンがある。
 
 [^gpl]: [GnuPG] の著作権は [FSF] に帰属し [GNU GPL] でライセンスされている。
 
-- Classic Version (1.4.x)
-- Stable Version (2.0.x)
-- Modern Version (2.1.x)
+[GnuPG] の最新バージョンは 2.2 系である。
+2.0 系（旧 stable version）および 2.1 系（旧 modern version）は 2.2 系に統合された。
+また 2.0 系は2017年末でサポートが終了する。
 
-このうち Windows プラットフォームに対応しているのは classic version と modern version である[^gw]。
-今回は modern version のインストールについて紹介する。
+なお classic version である 1.4 系はレガシー・システムとの互換性のためにメンテナンスが継続されるが， Windows で新たに導入するのであれば 2.2 系を強くお勧めする。
 
-[^gw]: Stable version については [Gpg4win] で Windows 用バイナリを配布している。 [Gpg4win] は [GnuPG] を含む GUI ツールをパッケージ化したものだが，セキュリティ・アップデートを含む本家の更新に追従できていないのが玉に瑕である。 [GnuPG] 本体のみでいいのなら modern version の Windows 用バイナリで充分間に合う。
+## 【事前準備】インストーラのダウンロード
 
-## Modern Version インストーラのダウンロード
-
-[ダウンロードページ](https://gnupg.org/download/ "GnuPG - Download") の “GnuPG binary releases” にある Windows 用のバイナリへのリンクからダウンロードを行う（執筆時点でヴァージョン 2.1.11, 20160209 版が最新）。
+[ダウンロードページ](https://gnupg.org/download/ "GnuPG - Download") の “GnuPG binary releases” にある Windows 用のバイナリへのリンクから “current GnuPG” をダウンロードする（2017年11月7日時点で v2.2.2 が最新）。
 必ずインストーラ本体と署名ファイルをセットでダウンロードすること。
 
 前バージョンの [GnuPG] を持っている場合はインストーラの署名検証を行い，正しいファイルであることを確認すること。
 
 ```text
-C:>gpg --verify gnupg-w32-2.1.11_20160209.exe.sig
-gpg: assuming signed data in 'gnupg-w32-2.1.11_20160209.exe'
-gpg: Signature made 02/09/16 20:05:47 東京 (標準時) using RSA key ID 4F25E3B6
-gpg: using PGP trust model
-gpg: Good signature from "Werner Koch (dist sig)" [full]
-gpg: binary signature, digest algorithm SHA256, key algorithm rsa2048
+$ gpg --verify gnupg-w32-2.2.2_20171107.exe.sig
+gpg: 署名されたデータが'gnupg-w32-2.2.2_20171107.exe'にあると想定します
+gpg: 11/07/17 19:03:29 東京 (標準時)に施された署名
+gpg:                RSA鍵D8692123C4065DEA5E0F3AB5249B39D24F25E3B6を使用
+gpg: "Werner Koch (dist sig)"からの正しい署名 [充分]
 ```
 
 署名検証用の公開鍵は以下にある。
 
 - [Signature Key](https://gnupg.org/signature_key.html)
 
-## Classic Version の削除
+公開鍵は鍵サーバから取得することもできる。
 
-Modern version のファイル構成は classic version と互換性がない。
-Modern version を利用するのなら classic version は削除するのがお勧めである。
+```text
+$ gpg --keyserver keys.gnupg.net --recv-keys 0x4F25E3B6
+```
 
-- Classic version の鍵束（keyring; `pubring.gpg`, `secring.gpg`, `trustdb.gpg`）は別の場所に退避させておき Modern version インストール後にインポートする[^imp]。インポートの方法は後述する
-- Classic version  アンインストール後に環境変数 `PATH` に `gpg.exe` へのパスが残っている場合は念のためこれも削除しておく。環境変数の変更方法がわからない方は無理に削除しなくてもいい
-- Classic version  アンインストール後にレジストリ `HKEY_CURRENT_USER\Software\GNU\GnuPG` が残っている場合は，これも削除してしまうのがよいだろう。ただしレジストリ操作に自信のない人はこれも無理に触らなくてよい
+### Classic Version 削除のススメ
 
-[^imp]: 実は classic version の鍵束をそのまま使っても自動的にファイルが移行されるため大抵は問題ないのだが，旧鍵束にはバグが混入しているそうで，安全のため明示的にインポート作業を行うほうがいいらしい。なお modern version の [GnuPG] は，移行時以外は classic version の `secring.gpg` を参照しないため modern version と classic version を混在させる場合は注意が必要である。（`gpg-v21-migrated` ファイルを削除すると再度移行処理が走るらしい）
+現行バージョンのファイル構成は classic version と互換性がない。
+Windows で現行バージョンを利用するのなら classic version は削除するのがお勧めである。
 
-なお `trustdb.gpg` は以下の手順でテキストファイルにエクスポートしておくとよい[^t]。
+1. Classic version の鍵束（keyring; `pubring.gpg`, `secring.gpg`, `trustdb.gpg`）は別の場所に退避させておき，現行バージョンのインストール後にインポートする[^imp]。インポートの方法は後述する
+1. Classic version  アンインストール後に環境変数 `PATH` に `gpg.exe` へのパスが残っている場合は念のためこれも削除しておく。環境変数の変更方法がわからない方は無理に削除しなくてもいい
+1. Classic version  アンインストール後にレジストリ `HKEY_CURRENT_USER\Software\GNU\GnuPG` が残っている場合は，これも削除してしまうのがよいだろう。ただしレジストリ操作に自信のない人はこれも無理に触らなくてよい
+
+[^imp]: 実は classic version の鍵束をそのまま使っても自動的にファイルが移行されるため大抵は問題ないのだが，旧鍵束にはバグが混入しているそうで，安全のため明示的にインポート作業を行うほうがいいらしい。なお現行バージョンの [GnuPG] は，移行時以外は classic version の `secring.gpg` を参照しないため，Classic version と混在させるのであれば取り扱いに注意が必要である。（`gpg-v21-migrated` ファイルを削除すると再度移行処理が走るらしい）
+
+なお `trustdb.gpg` は以下のコマンドでテキストファイルにエクスポートしておくとよい[^t]。
 
 [^t]: `trustdb.gpg` ファイルはそのまま使うのではなく， `--export-ownertrust` オプションでテキストファイルにエクスポートしたものを使うのが安全なようだ。
 
 ```text
-C:>gpg --export-ownertrust > trust.txt
+$ gpg --export-ownertrust > trust.txt
 ```
 
-## Modern Version のインストール
+## インストーラの実行
 
 準備ができたところでインストールを始めよう。
-ダウンロードしたインストーラを起動する。
+ダウンロードしたインストーラを起動する（スクリーンショットが古いがご容赦）。
 
-{{< fig-img flickr="true" src="https://farm2.staticflickr.com/1502/24974542243_4e83a1d7b1.jpg" title="Installing GnuPG for Windows (1)" link="https://www.flickr.com/photos/spiegel/24974542243/" >}}
+{{< fig-img src="https://farm2.staticflickr.com/1502/24974542243_4e83a1d7b1.jpg" title="Installing GnuPG for Windows (1)" link="https://www.flickr.com/photos/spiegel/24974542243/" >}}
 
 英語だけど無問題。
 ほとんど選択肢はないので `[Next]` ボタンで先に進めていけばいい。
 
-{{< fig-img flickr="true" src="https://farm2.staticflickr.com/1545/25482633892_d9dc023e1a.jpg" title="Installing GnuPG for Windows (2)" link="https://www.flickr.com/photos/spiegel/25482633892/" >}}
+{{< fig-img src="https://farm2.staticflickr.com/1545/25482633892_d9dc023e1a.jpg" title="Installing GnuPG for Windows (2)" link="https://www.flickr.com/photos/spiegel/25482633892/" >}}
 
-{{< fig-img flickr="true" src="https://farm2.staticflickr.com/1695/24974542073_20408e1079.jpg" title="Installing GnuPG for Windows (3)" link="https://www.flickr.com/photos/spiegel/24974542073/" >}}
+{{< fig-img src="https://farm2.staticflickr.com/1695/24974542073_20408e1079.jpg" title="Installing GnuPG for Windows (3)" link="https://www.flickr.com/photos/spiegel/24974542073/" >}}
 
-{{< fig-img flickr="true" src="https://farm2.staticflickr.com/1472/25305629970_6f5dcb4ef0.jpg" title="Installing GnuPG for Windows (4)" link="https://www.flickr.com/photos/spiegel/25305629970/" >}}
+{{< fig-img src="https://farm2.staticflickr.com/1472/25305629970_6f5dcb4ef0.jpg" title="Installing GnuPG for Windows (4)" link="https://www.flickr.com/photos/spiegel/25305629970/" >}}
 
 インストール先のフォルダを変えたい場合はここで変更する。
 
-{{< fig-img flickr="true" src="https://farm2.staticflickr.com/1449/25601226555_b07b73e7fa.jpg" title="Installing GnuPG for Windows (5)" link="https://www.flickr.com/photos/spiegel/25601226555/" >}}
+{{< fig-img src="https://farm2.staticflickr.com/1449/25601226555_b07b73e7fa.jpg" title="Installing GnuPG for Windows (5)" link="https://www.flickr.com/photos/spiegel/25601226555/" >}}
 
-{{< fig-img flickr="true" src="https://farm2.staticflickr.com/1633/25575126816_f090b537bf.jpg" title="Installing GnuPG for Windows (6)" link="https://www.flickr.com/photos/spiegel/25575126816/" >}}
+{{< fig-img src="https://farm2.staticflickr.com/1633/25575126816_f090b537bf.jpg" title="Installing GnuPG for Windows (6)" link="https://www.flickr.com/photos/spiegel/25575126816/" >}}
 
-{{< fig-img flickr="true" src="https://farm2.staticflickr.com/1587/24970753344_5da4faf427.jpg" title="Installing GnuPG for Windows (7)" link="https://www.flickr.com/photos/spiegel/24970753344/" >}}
+{{< fig-img src="https://farm2.staticflickr.com/1587/24970753344_5da4faf427.jpg" title="Installing GnuPG for Windows (7)" link="https://www.flickr.com/photos/spiegel/24970753344/" >}}
 
 `[Finish]` ボタンを押してインストール完了。
 
 この時点で `PATH` も通っているため，コマンドプロンプトから
 
 ```text
-C:>gpg --version
-gpg (GnuPG) 2.1.11
-libgcrypt 1.6.5
-Copyright (C) 2016 Free Software Foundation, Inc.
-License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+$ gpg --version
+gpg (GnuPG) 2.2.2
+libgcrypt 1.8.1
+Copyright (C) 2017 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 
 Home: C:/Users/username/AppData/Roaming/gnupg
-Supported algorithms:
-Pubkey: RSA, ELG, DSA, ECDH, ECDSA, EDDSA
-Cipher: IDEA, 3DES, CAST5, BLOWFISH, AES, AES192, AES256, TWOFISH,
-        CAMELLIA128, CAMELLIA192, CAMELLIA256
-Hash: SHA1, RIPEMD160, SHA256, SHA384, SHA512, SHA224
-Compression: Uncompressed, ZIP, ZLIB, BZIP2
+サポートしているアルゴリズム:
+公開鍵: RSA, ELG, DSA, ECDH, ECDSA, EDDSA
+暗号方式: IDEA, 3DES, CAST5, BLOWFISH, AES, AES192, AES256, TWOFISH,
+    CAMELLIA128, CAMELLIA192, CAMELLIA256
+ハッシュ: SHA1, RIPEMD160, SHA256, SHA384, SHA512, SHA224
+圧縮: 無圧縮, ZIP, ZLIB, BZIP2
 ```
 
 と入力すればバージョン情報が表示される。
 
-## ホームディレクトリの変更
+### ホームディレクトリの変更（必要に応じて）
 
 インストール直後は `%APPDATA%\gnupg` が [GnuPG] のホームディレクトリになっている[^gh]。
 通常はこれで問題ないが，他のフォルダに変更したい場合は環境変数 `GNUPGHOME` でフォルダを指定する。
@@ -160,34 +161,34 @@ Compression: Uncompressed, ZIP, ZLIB, BZIP2
 [^gh]: 環境変数 `APPDATA` には通常 `C:\Users\username\AppData\Roaming` （`username` はログインユーザの名前）がセットされている。ちなみに UNIX 系のプラットフォームでは `~/.gnupg` が [GnuPG] 既定のホームディレクトリだが Windows は構成が異なるためこのようになっている。
 
 ```text
-C:>gpg --version --homedir C:\usr\home
-gpg (GnuPG) 2.1.11
-libgcrypt 1.6.5
-Copyright (C) 2016 Free Software Foundation, Inc.
-License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+$ gpg --version --homedir C:\usr\home
+gpg (GnuPG) 2.2.2
+libgcrypt 1.8.1
+Copyright (C) 2017 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 
 Home: C:/usr/home
-Supported algorithms:
-Pubkey: RSA, ELG, DSA, ECDH, ECDSA, EDDSA
-Cipher: IDEA, 3DES, CAST5, BLOWFISH, AES, AES192, AES256, TWOFISH,
-        CAMELLIA128, CAMELLIA192, CAMELLIA256
-Hash: SHA1, RIPEMD160, SHA256, SHA384, SHA512, SHA224
-Compression: Uncompressed, ZIP, ZLIB, BZIP2
+サポートしているアルゴリズム:
+公開鍵: RSA, ELG, DSA, ECDH, ECDSA, EDDSA
+暗号方式: IDEA, 3DES, CAST5, BLOWFISH, AES, AES192, AES256, TWOFISH,
+    CAMELLIA128, CAMELLIA192, CAMELLIA256
+ハッシュ: SHA1, RIPEMD160, SHA256, SHA384, SHA512, SHA224
+圧縮: 無圧縮, ZIP, ZLIB, BZIP2
 ```
 
 インストール直後のホームディレクトリはまだ空である。
 
-## Classic Version の鍵束のインポート
+### Classic Version の鍵束のインポート（移行時のみ）
 
-Classic version からアップグレードした人は旧鍵束（`pubring.gpg`, `secring.gpg`, `trustdb.gpg` → `trust.txt`）をあらかじめ退避していると思うが，これを新しくインストールした modern version へインポートする。
+Classic version からアップグレードした人は旧鍵束（`pubring.gpg`, `secring.gpg`, `trustdb.gpg` → `trust.txt`）をあらかじめ退避していると思うが，これを現行バージョンへインポートする。
 手順は以下のとおり。
 
 ```text
-C:>gpg --import-options import-local-sigs --import pubring.gpg
-C:>gpg --import secring.gpg
-C:>gpg --import-ownertrust trust.txt
+$ gpg --import-options import-local-sigs --import pubring.gpg
+$ gpg --import secring.gpg
+$ gpg --import-ownertrust trust.txt
 ```
 
 秘密鍵（`secring.gpg`）のインポートでは鍵の数だけパスフレーズの入力をを要求される。
@@ -196,14 +197,14 @@ C:>gpg --import-ownertrust trust.txt
 
 このプロンプト画面（Pinentry）については[次回]に `gpg-agent` の話と絡めて説明する。
 
-上手くインポートできていれば以下のように鍵を表示することができる[^e]。
-
-[^e]: 例で挙げた鍵は「[わかる！ OpenPGP 暗号](http://www.baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)」で説明用に作成した鍵で既に破棄済みになっているが，ご容赦を。
+上手くインポートできていれば以下のように鍵を表示することができる。
 
 ```text
-C:>gpg --list-keys 0xCE59D5FA
-pub   dsa3072/CE59D5FA 2014-10-15 [SC] [revoked: 2014-10-15]
-uid         [ revoked] John Doe (Demonstration) <john@examle.com>
+$ gpg --list-keys 0x4F25E3B6
+pub   rsa2048 2011-01-12 [SC] [有効期限: 2019-12-31]
+      D8692123C4065DEA5E0F3AB5249B39D24F25E3B6
+uid           [  充分  ] Werner Koch (dist sig)
+sub   rsa2048 2011-01-12 [A] [有効期限: 2019-12-31]
 ```
 
 インポートにより [GnuPG] のホームディレクトリには以下のフォルダ・ファイルができているはずである。
@@ -213,10 +214,10 @@ uid         [ revoked] John Doe (Demonstration) <john@examle.com>
 - `gpg-v21-migrated` ファイル
 - `private-keys-v1.d` フォルダ
 
-[^kbx]: kbx は keybox の略らしい。 Stable version 以降では OpenPGP の鍵束だけでなく S/MIME （X.509）や OpenSSH の鍵も格納できる。
+[^kbx]: kbx は keybox の略らしい。 バージョン 2 以降では OpenPGP の鍵束だけでなく S/MIME （X.509）や OpenSSH の鍵も格納できる。
 
 `private-keys-v1.d` フォルダにはインポートした秘密鍵の数だけファイルが作成されている。
-`gpg-v21-migrated` ファイルは鍵束が  modern version へ移行したことを示すフラグである。
+`gpg-v21-migrated` ファイルは鍵束が現行バージョンへ移行したことを示すフラグである。
 
 ## 【付録】 GnuPG 以外の OpenPGP 実装
 
