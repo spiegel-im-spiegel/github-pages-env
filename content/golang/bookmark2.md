@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T23:59:59+09:00"
-update = "2017-11-15T16:11:53+09:00"
+update =  "2017-11-20T12:17:40+09:00"
 description = "「Go 言語に関するブックマーク」に整理しきれない未整理分。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -98,3 +98,6 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [ECHO+GORMでJWTとGraphQLの環境を構築 - Qiita](https://qiita.com/hiroykam/items/31862832a562388d876b)
 - [Goの抽象構文木（AST）を手入力してHello, Worldを作る #golang - Qiita](https://qiita.com/tenntenn/items/0cbc6f1f00dc579fcd8c)
 - [go-bindata が awesome-go から削除された - Qiita](https://qiita.com/pinzolo/items/5bb88f0fc7343d3a59c6)
+- [go-twitterでUserStreamingを取得する - Qiita](https://qiita.com/tiechel/items/b81305694424b3bf6b3c)
+- [GolangでのUDP処理メモ - Qiita](https://qiita.com/craftone/items/aa05a104440529b27cdb)
+- [ぼくが かんがえた さいきょうの でーたすとあ らっぱー - Qiita](https://qiita.com/vvakame/items/9310bcb5a4e87888d505)
