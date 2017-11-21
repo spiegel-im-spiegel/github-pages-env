@@ -1,6 +1,6 @@
 +++
 date = "2016-03-09T18:27:04+09:00"
-update = "2017-11-20T14:43:13+09:00"
+update = "2017-11-21T17:30:50+09:00"
 description = "Windows 版 GnuPG のインストールについて。"
 draft = false
 tags = ["security", "cryptography", "openpgp", "gnupg", "tools"]
@@ -62,15 +62,15 @@ PGP の最初のバージョンは1991年に公開された[^1991]。
 
 ## 【事前準備】インストーラのダウンロード
 
-[ダウンロードページ](https://gnupg.org/download/ "GnuPG - Download") の “GnuPG binary releases” にある Windows 用のバイナリへのリンクから “current GnuPG” をダウンロードする（2017年11月7日時点で v2.2.2 が最新）。
+[ダウンロードページ](https://gnupg.org/download/ "GnuPG - Download") の “GnuPG binary releases” にある Windows 用のバイナリへのリンクから “current GnuPG” をダウンロードする（2017年11月20日時点で v2.2.3 が最新）。
 必ずインストーラ本体と署名ファイルをセットでダウンロードすること。
 
 前バージョンの [GnuPG] を持っている場合はインストーラの署名検証を行い，正しいファイルであることを確認すること。
 
 ```text
-$ gpg --verify gnupg-w32-2.2.2_20171107.exe.sig
-gpg: 署名されたデータが'gnupg-w32-2.2.2_20171107.exe'にあると想定します
-gpg: 11/07/17 19:03:29 東京 (標準時)に施された署名
+$ gpg --verify  gnupg-w32-2.2.3_20171120.exe.sig
+gpg: 署名されたデータが'gnupg-w32-2.2.3_20171120.exe'にあると想定します
+gpg: 11/20/17 21:25:34 東京 (標準時)に施された署名
 gpg:                RSA鍵D8692123C4065DEA5E0F3AB5249B39D24F25E3B6を使用
 gpg: "Werner Koch (dist sig)"からの正しい署名 [充分]
 ```
@@ -134,7 +134,7 @@ $ gpg --export-ownertrust > trust.txt
 
 ```text
 $ gpg --version
-gpg (GnuPG) 2.2.2
+gpg (GnuPG) 2.2.3
 libgcrypt 1.8.1
 Copyright (C) 2017 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
@@ -162,7 +162,7 @@ Home: C:/Users/username/AppData/Roaming/gnupg
 
 ```text
 $ gpg --version --homedir C:\usr\home
-gpg (GnuPG) 2.2.2
+gpg (GnuPG) 2.2.3
 libgcrypt 1.8.1
 Copyright (C) 2017 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
