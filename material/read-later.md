@@ -38,6 +38,8 @@ NTT 新規契約 0800-2000-1160
 - [米国防総省が市民のネット投稿を監視か？　AWSの設定ミスで露呈 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1711/20/news056.html)
 - [「Tuxedo」に深刻な脆弱性、オラクルが臨時パッチ公開 - ZDNet Japan](https://japan.zdnet.com/article/35110566/)
 - [iPhone Xの「Face ID」が、10歳の少年に破られた──母親の顔認証がロック解除された“事件”の真相｜WIRED.jp](https://wired.jp/2017/11/16/son-unlocks-mothers-iphone-x/)
+- [JVNVU#91363799: Windows 8 およびそれ以降のバージョンにおいて、アドレス空間配置のランダム化が適切に行われない脆弱性](http://jvn.jp/vu/JVNVU91363799/)
+- [Vulnerability in Amazon Key - Schneier on Security](https://www.schneier.com/blog/archives/2017/11/vulnerability_i.html)
 
 ## 天文関連
 
@@ -63,6 +65,11 @@ NTT 新規契約 0800-2000-1160
 - [idやclassを使ってテストを書くのは、もはやアンチパターンである - Qiita](https://qiita.com/akameco/items/519f7e4d5442b2a9d2da)
 - [textlintのコアをTypeScriptで書き直した、textlintの今後について | Web Scratch](http://efcl.info/2017/11/06/textlint-core-refactoring/)
     - [JavaScriptのライブラリを徐々にTypeScriptに移行する | Web Scratch](http://efcl.info/2017/07/17/JavaScript-to-TypeScript/)
-- [gpg (GNU Privacy Guard)の使い方 - Qiita](https://qiita.com/moutend/items/5c22d6e57a74845578f6)
+- [アカウント凍結「日本でもミスがあった」　TwitterのドーシーCEO、「改善に注力」 (1/3) - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1711/20/news057.html)
+- [Hugo  | Hugo 0.31: Language Multihost Edition!](https://gohugo.io/news/0.31-relnotes/)
+- [クラウド会計のfreee、米「Slack」とAPI連携 - ZDNet Japan](https://japan.zdnet.com/article/35110670/)
+- [サイエンスクリップ・「温暖化の原因物質『ブラックカーボン』の起源を独自のシステムで調査」 | SciencePortal](http://scienceportal.jst.go.jp/clip/20171121_01.html)
+- [WebAssemblyはじめの一歩 - Qiita](https://qiita.com/tkynd/items/89d8f90fdb9cf24c0ef9)
+- [「保守速報」賠償命令...判決で「まとめただけだから悪くない」がデマだと明らかに - 弁護士ドットコム](https://www.bengo4.com/internet/n_6990/)
 
 (end of file)

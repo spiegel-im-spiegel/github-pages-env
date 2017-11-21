@@ -1,6 +1,7 @@
 +++
 title = "2017-11-17 のブックマーク"
 date =  "2017-11-17T23:56:10+09:00"
+update =  "2017-11-21T23:13:26+09:00"
 description = "「観測史上初の恒星間天体、名前は「'Oumuamua」」他"
 image = "/images/avatar.jpg"
 
@@ -164,7 +165,9 @@ flattr    = "spiegel"
 - [aozorablog » 井沢衣水をさがせ](http://www.aozora.gr.jp/aozorablog/?p=4029)
 - [「世界最速」機械学習技術、ヤフーがOSSで公開 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1711/15/news123.html)
 - [GitHub、コーディングをリアルタイムでチーム共有する「Teletype for Atom」を発表 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1091966.html)
+    - [GitHubが「Teletype for Atom」リリース。開発者向けエディタ「Atom」でも、複数プログラマが同時にコード編集可能 － Publickey](http://www.publickey1.jp/blog/17/github_teletype_for_atom.html)
 - [ビットコインで買い物できるデビットカード「LBX Dragoncard」--英国で発行 - CNET Japan](https://japan.cnet.com/article/35110529/)
 - [WebAssembly対応、主要ブラウザChrome/Firefox/Edge/Safariで整う。Webアプリの開発言語としてJavaScript以外の選択肢は広がるか？ － Publickey](http://www.publickey1.jp/blog/17/webassembly_browsers.html)
 - [Slackの日本語版が本日ローンチ、日本語サポートにも対応  |  TechCrunch Japan](http://jp.techcrunch.com/2017/11/17/slack-japan/)
 - [タスク管理ツール「Trello」が日本市場に正式参入--本格展開は"長年のゴール” - CNET Japan](https://japan.cnet.com/article/35110455/)
+    - [アプリ制作当初からグローバルを視野に入れるべき――Trelloが世界中の人に使われるワケ  |  TechCrunch Japan](http://jp.techcrunch.com/2017/11/20/tctokyo2017-trello/)
