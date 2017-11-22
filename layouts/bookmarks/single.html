@@ -9,8 +9,8 @@
 <meta name="description" content="{{ with .Date }}{{ .Format "2006-01-02" }} {{ else}}本日{{ end }}のブックマーク集。">
 <meta property="og:description" content="{{ with .Date }}{{ .Format "2006-01-02" }} {{ else}}本日{{ end }}のブックマーク集。">{{ end }}
 <meta property="og:image" content="{{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ "/images/avatar.jpg" | absURL }}{{ end }}">
-{{ partial "twitter-card.html" . }}{{ with .Params.author.name }}
-<meta name="author" content="{{ . }}">{{ end }}
+{{ partial "twitter-card.html" . }}{{ with .Params.author }}{{ if .name }}
+<meta name="author" content="{{ .name }}">{{ end }}{{ end }}
 {{ partial "header-nav.html" . }}
 
 {{ partial "json-ld-bookmarks.html" . }}

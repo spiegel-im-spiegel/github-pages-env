@@ -9,8 +9,8 @@
 <meta name="description" content="とりとめのない四方山話。">
 <meta property="og:description" content="とりとめのない四方山話。">{{ end }}
 <meta property="og:image" content="{{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ "/images/attention/remark.jpg" | absURL }}{{ end }}">
-{{ partial "twitter-card.html" . }}{{ with .Params.author.name }}
-<meta name="author" content="{{ . }}">{{ end }}
+{{ partial "twitter-card.html" . }}{{ with .Params.author }}{{ if .name }}
+<meta name="author" content="{{ .name }}">{{ end }}{{ end }}
 {{ partial "header-nav.html" . }}
 
 {{ partial "json-ld-remark.html" . }}

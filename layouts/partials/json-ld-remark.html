@@ -13,14 +13,10 @@
 		"@id": "{{ .Site.BaseURL }}#org"
 	}{{ with .Site.Author }},
 	"author": {
-		"@type": "Person",
-		"@id": "{{ "/remark/" | absURL }}#maker",
-		"name": "{{ .name }}"{{ if .url }},
-		"url": "{{ .url }}"{{ end }}{{ if .avatar }},
-		"image": "{{ .avatar | absURL }}"{{ end }}
+		"@id": "{{ $.Site.BaseURL }}#maker"
 	}{{ end }}
 }
-</script>{{ if .IsPage }}
+</script>
 <script type="application/ld+json">
 {
 	"@context": "http://schema.org",
@@ -33,17 +29,17 @@
 			"item": {
 				"@id": "{{ .Site.BaseURL }}"
 			}
-		},
+		}{{ if .IsPage }},
 		{
 			"@type": "ListItem",
 			"position": 2,
 			"item": {
 				"@id": "{{ "/remark/" | absURL }}"
 			}
-		}
+		}{{ end }}
 	]
 }
-</script>
+</script>{{ if .IsPage }}
 <script type="application/ld+json">
 {
 	"@context": "http://schema.org",
@@ -64,8 +60,8 @@
 	}{{ with .Params.author }},
 	"author": {
 		"@type": "Person",
-		"@id": "{{ $.Permalink | absURL }}#maker",
-		"name": "{{ .name }}"{{ if .url }},
+		"@id": "{{ $.Permalink | absURL }}#maker"{{ if .name }},
+		"name": "{{ .name }}"{{ end }}{{ if .url }},
 		"url": "{{ .url }}"{{ end }}{{ if .avatar }},
 		"image": "{{ .avatar | absURL }}"{{ end }}
 	}{{ if .license }},
