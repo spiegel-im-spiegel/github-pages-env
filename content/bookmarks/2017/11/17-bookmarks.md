@@ -1,7 +1,7 @@
 +++
 title = "2017-11-17 のブックマーク"
 date =  "2017-11-17T23:56:10+09:00"
-update =  "2017-11-21T23:13:26+09:00"
+update =  "2017-11-23T18:56:31+09:00"
 description = "「観測史上初の恒星間天体、名前は「'Oumuamua」」他"
 image = "/images/avatar.jpg"
 
@@ -145,6 +145,7 @@ flattr    = "spiegel"
 - [布団から腕すら出さずに会社を休む [Google Home] - Qiita](https://qiita.com/diescake/items/4f354a5dc7cb738efd4f)
 - [Google Cloud Platform Japan 公式ブログ: API デザイン : URL には名前と識別子のどちらを使うべきか](https://cloudplatform-jp.googleblog.com/2017/11/API-design-choosing-between-names-and-identifiers-in-URLs.html)
 - [BitTorrentの発明者が（ビットコインとは違って）環境に優しい仮想通貨Chiaを発表  |  TechCrunch Japan](http://jp.techcrunch.com/2017/11/10/2017-11-08-chia-network-cryptocurrency/)
+    -[省エネで環境に優しい「新しいビットコイン」、BitTorrentのプログラマーが開発中｜WIRED.jp](https://wired.jp/2017/11/21/new-eco-bitcoin/)
 - [「Linux 4.14」カーネルがリリース--最新のLTS版 - ZDNet Japan](https://japan.zdnet.com/article/35110336/)
 - [80歳からのプログラミング - 「小学生でもわかる本」がシニアには無理、82歳アプリ開発者が語る現実：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/17/110800498/111300002/?rt=nocnt)
     - [80歳からのプログラミング - 「定年後は開発に500時間かけても怒られない」、もう一人の82歳アプリ開発者：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/17/110800498/111400003/?rt=nocnt)

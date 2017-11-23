@@ -40,9 +40,15 @@ NTT 新規契約 0800-2000-1160
 - [iPhone Xの「Face ID」が、10歳の少年に破られた──母親の顔認証がロック解除された“事件”の真相｜WIRED.jp](https://wired.jp/2017/11/16/son-unlocks-mothers-iphone-x/)
 - [JVNVU#91363799: Windows 8 およびそれ以降のバージョンにおいて、アドレス空間配置のランダム化が適切に行われない脆弱性](http://jvn.jp/vu/JVNVU91363799/)
 - [Vulnerability in Amazon Key - Schneier on Security](https://www.schneier.com/blog/archives/2017/11/vulnerability_i.html)
+- [専任者がいない二木ゴルフのセキュリティ対策術--説明責任を果たす環境づくり - ZDNet Japan](https://japan.zdnet.com/article/35110607/)
+- [Google、位置情報オフのAndroid端末からも「Cell ID」収集、終了を約束 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1711/22/news088.html)
+- [No boundaries: Exfiltration of personal data by session-replay scripts](https://freedom-to-tinker.com/2017/11/15/no-boundaries-exfiltration-of-personal-data-by-session-replay-scripts/)
+    - [Websites Use Session-Replay Scripts to Eavesdrop on Every Keystroke and Mouse Movement - Schneier on Security](https://www.schneier.com/blog/archives/2017/11/websites_use_se.html)
 
 ## 天文関連
 
+- [家にミューオン天文台を作ろう――MITから100ドルの観測デバイス発売  |  TechCrunch Japan](http://jp.techcrunch.com/2017/11/22/2017-11-21-this-diy-project-lets-you-catch-a-falling-muon/)
+- [Invite Ross 128 Over This Thanksgiving - Sky & Telescope](http://www.skyandtelescope.com/observing/drop-by-ross-128-this-thanksgiving/) : 地球サイズの惑星を持つ Ross 128 はポータブル望遠鏡でも見えるかも，らしい
 
 ## 知財関連
 
@@ -71,5 +77,13 @@ NTT 新規契約 0800-2000-1160
 - [サイエンスクリップ・「温暖化の原因物質『ブラックカーボン』の起源を独自のシステムで調査」 | SciencePortal](http://scienceportal.jst.go.jp/clip/20171121_01.html)
 - [WebAssemblyはじめの一歩 - Qiita](https://qiita.com/tkynd/items/89d8f90fdb9cf24c0ef9)
 - [「保守速報」賠償命令...判決で「まとめただけだから悪くない」がデマだと明らかに - 弁護士ドットコム](https://www.bengo4.com/internet/n_6990/)
+- [非難なき事後分析と公正な企業文化 | キャリア・働き方 | POSTD](http://postd.cc/blameless-postmortems/)
+- [ダイソーに最強のホッチキス現る　中綴じが簡単すぎて快感すら覚える... : 東京バーゲンマニア](http://bg-mania.jp/2017/11/19230726.html)
+- [FCC、オバマ前大統領導入の「ネット中立性」廃止勧告　12月に採決へ - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1711/22/news062.html)
+- [テンセント【騰訊】世界最大のゲーム会社＋中国最大SNSベースのWeChat Payエコシステム](https://www.americabu.com/tencent)
+- [特許庁、GitHubで「知的財産デュー・デリジェンス」の標準手順書策定を検証 - ZDNet Japan](https://japan.zdnet.com/article/35110812/)
+- [グーグルの謎OS「Fuchsia」、アップルの「Swift」言語サポートを追加中 - ZDNet Japan](https://japan.zdnet.com/article/35110797/)
+- [LinuxがスパコンTOP500でOSシェア100％に--普及の背景、展望 - ZDNet Japan](https://japan.zdnet.com/article/35110755/)
+- [YouTubeが子ども向け/子どもが登場する悪質ビデオの排除基準をより具体化  |  TechCrunch Japan](http://jp.techcrunch.com/2017/11/23/2017-11-22-youtube-tightens-rules-on-kid-related-content/)
 
 (end of file)
