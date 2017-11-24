@@ -44,11 +44,17 @@ NTT 新規契約 0800-2000-1160
 - [Google、位置情報オフのAndroid端末からも「Cell ID」収集、終了を約束 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1711/22/news088.html)
 - [No boundaries: Exfiltration of personal data by session-replay scripts](https://freedom-to-tinker.com/2017/11/15/no-boundaries-exfiltration-of-personal-data-by-session-replay-scripts/)
     - [Websites Use Session-Replay Scripts to Eavesdrop on Every Keystroke and Mouse Movement - Schneier on Security](https://www.schneier.com/blog/archives/2017/11/websites_use_se.html)
+- [2015年以降のインテルCPUに遠隔攻撃許す深刻な脆弱性。サーバーからIoTまで、早急なファームウェアの更新を呼びかけ - Engadget 日本版](http://japanese.engadget.com/2017/11/23/2015-cpu-iot/)
+- [Mozilla、「Thunderbird」v52.5.0を正式公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1093165.html)
+- [privacy not included](https://advocacy.mozilla.org/en-US/privacynotincluded)
+- [「AIアシスタント」「ドローン」「スマート玩具」にもセキュリティ対策を――McAfeeが「最もハッキングされやすいギフト一覧」を発表：サイバー犯罪者は消費者の対策不足を利用 - ＠IT](http://www.atmarkit.co.jp/ait/articles/1711/22/news034.html)
 
 ## 天文関連
 
 - [家にミューオン天文台を作ろう――MITから100ドルの観測デバイス発売  |  TechCrunch Japan](http://jp.techcrunch.com/2017/11/22/2017-11-21-this-diy-project-lets-you-catch-a-falling-muon/)
 - [Invite Ross 128 Over This Thanksgiving - Sky & Telescope](http://www.skyandtelescope.com/observing/drop-by-ross-128-this-thanksgiving/) : 地球サイズの惑星を持つ Ross 128 はポータブル望遠鏡でも見えるかも，らしい
+- [雷が大気中で原子核反応を起こしている証拠 - 柏崎市上空で陽電子が生成 | マイナビニュース](http://news.mynavi.jp/news/2017/11/24/029/)
+    - [雷が原子核反応を起こす証拠 – academist「雷雲プロジェクト」の研究成果がNature誌に掲載！ – academist Journal](https://academist-cf.com/journal/?p=6503)
 
 ## 知財関連
 
@@ -85,5 +91,10 @@ NTT 新規契約 0800-2000-1160
 - [グーグルの謎OS「Fuchsia」、アップルの「Swift」言語サポートを追加中 - ZDNet Japan](https://japan.zdnet.com/article/35110797/)
 - [LinuxがスパコンTOP500でOSシェア100％に--普及の背景、展望 - ZDNet Japan](https://japan.zdnet.com/article/35110755/)
 - [YouTubeが子ども向け/子どもが登場する悪質ビデオの排除基準をより具体化  |  TechCrunch Japan](http://jp.techcrunch.com/2017/11/23/2017-11-22-youtube-tightens-rules-on-kid-related-content/)
+- [JSON to Swift, TypeScript, Go, C#, Java, and more :: quicktype](https://quicktype.io/)
+    - [色々なプログラミング言語で JSON をパースするためのイカしたサービス quicktype - かずきのBlog@hatena](http://blog.okazuki.jp/entry/2017/11/22/154757)
+- [マイクロソフト、ついにAzureにVMwareを乗せる。「VMware virtualization on Azure」発表。VMware Cloud on AWSなどに対抗か － Publickey](http://www.publickey1.jp/blog/17/azurevmwarevmware_virtualization_on_azurevmware_cloud_on_aws.html)
+- [Redmine から Backlog へ移行する際にやったこと、注意点と仕様の違いについて | KDL 情's Café BLOG](https://blog.ismg.kdl.co.jp/project-management/redmine-migration)
+- [同じ駅なのに、なぜ「駅名標」の書体が違っているのか (1/7) - ITmedia ビジネスオンライン](http://www.itmedia.co.jp/business/articles/1711/22/news015.html)
 
 (end of file)
