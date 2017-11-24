@@ -1,7 +1,7 @@
 +++
 title = "OpenPGP 鍵管理に関する考察"
 date =  "2017-11-21T22:34:52+09:00"
-update =  "2017-11-23T18:37:03+09:00"
+update =  "2017-11-24T10:55:23+09:00"
 description = "OpenPGP 鍵の管理について考えてみるテスト。"
 image = "/images/attention/remark.jpg"
 tags = [
@@ -148,7 +148,7 @@ gpg: 失効証明書を 'C:/Users/alice/AppData/Roaming/gnupg/openpgp-revocs.d\9
 
 - `--batch` オプション[^gk1]（または `--pinentry-mode` オプションに `loopback` を指定）と `--passphrase` オプションを組み合わせて Pinentry によるパスフレーズ入力を回避できる
 - `--quick-generate-key` コマンドの第1引数にユーザID，第2引数にアルゴリズム，第3引数に使用目的，第4引数に有効期限を指定する
-    - アルゴリズムに `default` を指定するか指定しない場合は既定のアルゴリズム（RSA/200048ビット）で鍵を作成する
+    - アルゴリズムに `default` を指定するか指定しない場合は既定のアルゴリズム（RSA/2048ビット）で鍵を作成する
     - 使用目的には主鍵[^k1] の種類を指定する。通常は `default` のまま（署名と証明）でよい（指定しなければ `default`）
     - 有効期限には期間（1週間なら `7d` または `1w`，1年なら `12m` または `1y` など）を指定する。 `0` を指定すると無期限になる（指定しないと有効期限が当日になる）
 
