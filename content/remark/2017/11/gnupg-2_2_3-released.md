@@ -1,6 +1,7 @@
 +++
 title = "GnuPG 2.2.3 がリリースされた"
 date =  "2017-11-21T17:30:50+09:00"
+update =  "2017-11-24T10:01:22+09:00"
 image = "/images/attention/remark.jpg"
 description = "今回もセキュリティ・アップデートはなし。平和でよい。"
 tags = [
@@ -67,6 +68,19 @@ Home: ********
 ```
 
 アップデートは計画的に。
+
+## 【追記】 Gpg4win 3.0.1 もリリース
+
+Gpg4win 3.0.1 もリリースされた。
+
+- [[Gpg4win-announce] Gpg4win 3.0.1 released](http://lists.wald.intevation.org/pipermail/gpg4win-announce/2017-November/000074.html)
+    - [English README file for Gpg4win](https://files.gpg4win.org/README-3.0.1.en.txt)
+
+主な修正点は以下の通り。
+
+* GnuPG: Has been updated to version 2.2.3.
+* The mkportable process can be used again to create a portable Gpg4win variant.
+* GpgOL: A user interface error for Outlook 2010 has been fixed.
 
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 
