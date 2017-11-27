@@ -1,6 +1,7 @@
 +++
 title = "gpgpdump 0.3.0 をリリースした"
 date =  "2017-11-26T19:21:26+09:00"
+update =  "2017-11-27T20:31:01+09:00"
 description = "OpenPGP パケットの内容を視覚化する gpgpdump の 0.3.0 をリリースした。このバージョンでようやく pgpdump に近い出力ができるようになった。"
 image = "/images/attention/remark.jpg"
 tags = ["tools", "openpgp", "golang", "gpgpdump"]
@@ -47,11 +48,11 @@ Signature Packet (tag 2) (94 bytes)
     Public-key Algorithm: ECDSA public key algorithm (pub 19)
     Hash Algorithm: SHA256 (hash 8)
     Hashed Subpacket (6 bytes)
-    Signature Creation Time (sub 2): 2015-01-24T02:52:15Z
+        Signature Creation Time (sub 2): 2015-01-24T02:52:15Z
     Unhashed Subpacket (10 bytes)
-    Issuer (sub 16): 0x31fbfda95fbbfa18
+        Issuer (sub 16): 0x31fbfda95fbbfa18
     Hash left 2 bytes
-    36 1f
+        36 1f
     ECDSA r (256 bits)
     ECDSA s (252 bits)
 ```
@@ -175,7 +176,7 @@ Flags:
 
 `--debug` オプションは主に私がテストするためののもの。
 以前は隠し機能にしてたんだけど，正式なオプションとして昇格させた。
-これを付けると出力がかなりウザいことになるので，普段はおお勧めしない。
+これを付けると出力がかなりウザいことになるので，普段はお勧めしない。
 
 残りの TODO はこんな感じ。
 欲しい機能はだいたい実装できたかな。
