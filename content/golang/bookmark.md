@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update =  "2017-11-25T14:01:36+09:00"
+update =  "2017-11-27T16:58:44+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -451,6 +451,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go入門@環境構築編(IntelliJ IDEA 14.1.4) - Qiita](http://qiita.com/makoto2468/items/3ced77de947ea997e72f)
 - [WindowsにIntelliJ IDEAでgoの開発環境を作りましたよ　ついでにgit連携もいたしましたよ - Qiita](http://qiita.com/peka2/items/cdc9d508dcbf4a131271)
 - [Cloud9にGo言語でHelloWorldを実装・実行してみた - Qiita](http://qiita.com/ryo-endo/items/e8cb4987b4af9ddc24d5)
+- [GoLand: Capable and Ergonomic Go IDE by JetBrains](https://www.jetbrains.com/go/)
 
 #### ATOM で Go
 
@@ -489,6 +490,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
     - [GolangでCLIの場合にcobraを使うことにした件 | FLAMA技術Blog](http://lab.flama.co.jp/archives/1536/)
 - [GolangでwebサービスのAPIを叩くCLIツールを作ろう - Qiita](http://qiita.com/minamijoyo/items/cfd22e9e6d3581c5d81f)
 - [GoでMySQLにCA証明書を使ってアクセスする - Qiita](http://qiita.com/Peranikov/items/4376633bb72492051336)
+- [Golangのコマンドライブラリcobraを使って少しうまく実装する - Qiita](https://qiita.com/unchemist/items/3cdeafcde2bd98612428)
 
 ## GUI; Graphical User Interface
 
@@ -642,6 +644,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 ## その他 四方山話
 
 - [GASCII.jp：Goならわかるシステムプログラミング](http://ascii.jp/elem/000/001/235/1235262/)
+- [O'Reilly Concurrency in Goの読書メモ - Qiita](https://qiita.com/YmgchiYt/items/420eaf2bcf7bee4ae152)
 
 ### 他言語との比較もしくは移行
 
