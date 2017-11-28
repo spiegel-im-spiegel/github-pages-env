@@ -33,9 +33,12 @@ NTT 新規契約 0800-2000-1160
 
 ## 天文関連
 
+- [星の死後にできた中性子星の謎とは？ – 雷雲プロジェクトの立役者、京大・榎戸輝揚特定准教授に聞く – academist Journal](https://academist-cf.com/journal/?p=6527)
+- [日本、月上空の「深宇宙ゲートウェイ」計画に参加か？ – 読売新聞が報道  |   月探査情報ステーション](https://moonstation.jp/blog/lpex-general/the-yomiuri-shimbun-reports-japan-will-join-nasa-deep-space-gateway)
 
 ## 知財関連
 
+- [いつ中国のネット業界はコピー天国から脱したのか - ZDNet Japan](https://japan.zdnet.com/article/35111016/)
 
 ## その他
 
@@ -50,5 +53,17 @@ NTT 新規契約 0800-2000-1160
     - [ゾクゾクする量子コンピュータ - フォルクスワーゲンを興奮させた量子コンピュータ「D-Waveマシン」、何ができるのか：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/17/042400160/042400001/)
     - [記者の眼 - 門外漢が考える「話題の国産量子コンピュータはまがいものか？」：ITpro](http://itpro.nikkeibp.co.jp/atcl/watcher/14/334361/112400961/?rt=nocnt)
 - [E・シュミット会長、偽ニュースの排除が困難な理由を語る - CNET Japan](https://japan.cnet.com/article/35110972/)
+- [MIT Tech Review: 食のトレーサビリティにブロックチェーン活用、七面鳥が実験台に](https://www.technologyreview.jp/s/64119/a-blockchain-for-turkeys-is-more-than-a-thanksgiving-gimmick/)
+- [MIT Tech Review: 人工知能の意思決定に説明責任はあるのか？](https://www.technologyreview.jp/s/63200/ai-can-be-made-legally-accountable-for-its-decisions/)
+- [【レビュー】「Excel」製ガントチャートの進捗状況をわかりやすく視覚化するアドイン「稲妻線」 - 窓の杜](https://forest.watch.impress.co.jp/docs/review/1093535.html)
+- [AIで自殺ほのめかしを早期発見──Facebookが世界で開始 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1711/28/news057.html)
+- [Backlog APIをcurlで - Qiita](https://qiita.com/ohechi/items/6ab6748b67b1fe421f6b)
+- [図書カード：寅彦夏話](http://www.aozora.gr.jp/cards/001569/card57463.html)
+- [境界付けられたコンテキスト 概念編 - ドメイン駆動設計用語解説 - Qiita](https://qiita.com/little_hand_s/items/2929b6323bf1bc6d0d0d)
+- [2017年11月28日ニュース「日本の災害科学研究は、数は多いが影響力が小さい」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/11/20171128_01.html)
+- [“海外の日本図書館”を紹介する著作『本棚の中のニッポン』がオープンアクセス化 ～PDFを無償ダウンロード可能 - Book Watch/ニュース - 窓の杜](https://forest.watch.impress.co.jp/docs/bookwatch/news/1093735.html)
+- [iPhoneのjailbreakサイトが次々と閉鎖。ユーザーの関心薄れる  |  TechCrunch Japan](http://jp.techcrunch.com/2017/11/28/2017-11-27-ios-jailbreak-repositories-close-as-user-interest-wanes/)
+- [Tumblrの創業者兼CEO、カープ氏が辞任へ - CNET Japan](https://japan.cnet.com/article/35111023/)
+- [林芳正文部科学大臣記者会見録（平成29年11月17日）：文部科学省](http://www.mext.go.jp/b_menu/daijin/detail/1398419.htm)
 
 (end of file)

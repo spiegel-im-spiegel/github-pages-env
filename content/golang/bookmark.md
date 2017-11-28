@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update =  "2017-11-27T16:58:44+09:00"
+update =  "2017-11-28T20:50:44+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -577,6 +577,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [UnityのネイティブプラグインをGoで書く #golang #unity - Qiita](http://qiita.com/tenntenn/items/4d3316490a571e5d79ed)
 - [radikoの録音ツールをGoで書いた - Qiita](http://qiita.com/yyoshiki41/items/f81442d7dc2d0ddcf15b)
 - [Golang の DB 操作 ORM をいろいろしらべてみたい - Qiita](https://qiita.com/mochizukikotaro/items/b09116e0ad2d30e37098)
+- [100万回のWebSocket接続とGo | プログラミング | POSTD](http://postd.cc/100%E4%B8%87%E5%9B%9E%E3%81%AEwebsocket%E6%8E%A5%E7%B6%9A%E3%81%A8go/)
 
 ### DB 連携
 
