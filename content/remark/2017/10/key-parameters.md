@@ -1,6 +1,7 @@
 +++
 title = "暗号鍵関連の各種変数について"
 date =  "2017-10-17T16:32:03+09:00"
+update =  "2017-11-29T18:24:30+09:00"
 description = "この記事は将来の記事で再利用するための snippet 置き場として使うことにする。"
 tags = ["security", "cryptography", "hash", "risk", "management"]
 
@@ -78,17 +79,17 @@ main table.nist2 td  {
 Symmetric key algorithms は共通鍵暗号アルゴリズム全般を指す。
 たとえば AES とか。
 IFC (Integer Factorization Cryptosystems) は素因数分解問題ベースの公開鍵暗号アルゴリズムで RSA がこれに該当する。
-FFC (Finite Field Cryptosystems) は離散対数問題ベースの公開鍵暗号アルゴリズムで Diffie-Hellman や DSA などがこれに該当する。
+FFC (Finite Field Cryptosystems) は離散対数問題ベースの公開鍵暗号アルゴリズムで Diffie-Hellman や ElGamal, DSA などがこれに該当する。
 ECC (Elliptic Curve Cryptosystems) は離散対数問題でも特に楕円曲線上の離散対数問題ベースの公開鍵暗号アルゴリズムを指す。
-たとえば ECDSA や ECDH など。
+たとえば ECDH や ECDSA など。
 
 IFC では $k$，FFC では $L$，ECC では $f$ が鍵長を示す。
 たとえばセキュリティ強度が 128bit なら
 
 - AES 128bit
-- DSA 3072bit
+- ElGamal, DSA 3072bit
 - RSA 3072bit
-- ECDSA 256bit
+- ECDH, ECDSA 256bit
 
 の組み合わせで「ベストマッチ キター！」となる。
 
@@ -129,7 +130,7 @@ main table.nist3 td  {
 <td>&nbsp;</td>
 </tr><tr>
 <td>$128$</td>
-<td>SHA-256, SHA-512/256, SHA3-25</td>
+<td>SHA-256, SHA-512/256, SHA3-256</td>
 <td>SHA-1</td>
 </tr><tr>
 <td>$192$</td>
@@ -210,228 +211,7 @@ main table.nist4 td  {
 
 ## OpenPGP で利用可能なアルゴリズム
 
-ついでに OpenPGP を規定する [RFC 4880] に載っている暗号関連アルゴリズムを挙げておく。
-
-まずは共通鍵暗号アルゴリズムから。
-なお 3DES (3TDEA) の鍵長が 168bit となっているが，実質のセキュリティ強度は 112bit である。
-
-{{< div-gen >}}
-<figure lang="en">
-<table>
-<thead>
-<tr><th>ID</th><th>アルゴリズム</th><th>鍵長</th><th>ブロック長</th><th>参考文献</th></tr>
-</thead>
-<tbody>
-<tr>
-<td class='right'>1</td>
-<td>IDEA</td>
-<td class='right'>128</td>
-<td class='right'>64</td>
-<td><q><a href="http://www.mediacrypt.com/_contents/10_idea/100000_ind.asp">IDEA International Data Encryption Algorithm</a></q></td>
-</tr><tr>
-<td class='right'>2</td>
-<td>3DES</td>
-<td class='right'>168</td>
-<td class='right'>64</td>
-<td><a href="https://doi.org/10.6028/NIST.SP.800-67r1">SP800-67 Rev.1 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
-</tr><tr>
-<td class='right'>3</td>
-<td>CAST5</td>
-<td class='right'>128</td>
-<td class='right'>64</td>
-<td><a href="http://tools.ietf.org/html/rfc2144">RFC2144</a></td>
-</tr><tr>
-<td class='right'>4</td>
-<td>Blowfish</td>
-<td class='right'>128</td>
-<td class='right'>64</td>
-<td><q><a href="http://www.schneier.com/paper-blowfish-fse.html">Description of a New Variable-Length Key, 64-Bit Block Cipher (Blowfish)</a></q></td>
-</tr><tr>
-<td class='right'>5</td>
-<td>(Reserved)</td>
-<td>--</td>
-<td>--</td>
-<td>&nbsp;</td>
-</tr><tr>
-<td class='right'>6</td>
-<td>(Reserved)</td>
-<td>--</td>
-<td>--</td>
-<td>&nbsp;</td>
-</tr><tr>
-<td class='right'>7</td>
-<td>AES</td>
-<td class='right'>128</td>
-<td class='right'>128</td>
-<td><a href="https://dx.doi.org/10.6028/NIST.FIPS.197">FIPS PUB 197 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
-</tr><tr>
-<td class='right'>8</td>
-<td>AES192</td>
-<td class='right'>192</td>
-<td class='right'>128</td>
-<td><a href="https://dx.doi.org/10.6028/NIST.FIPS.197">FIPS PUB 197 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
-</tr><tr>
-<td class='right'>9</td>
-<td>AES256</td>
-<td class='right'>256</td>
-<td class='right'>128</td>
-<td><a href="https://dx.doi.org/10.6028/NIST.FIPS.197">FIPS PUB 197 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
-</tr><tr>
-<td class='right'>10</td>
-<td>Twofish</td>
-<td class='right'>256</td>
-<td class='right'>128</td>
-<td><q>The Twofish Encryption Algorithm</q></td>
-</tr><tr>
-<td class='right'>11</td>
-<td>Camellia128</td>
-<td class='right'>128</td>
-<td class='right'>128</td>
-<td><a href="http://tools.ietf.org/html/rfc3713">RFC3713</a>, <a href="https://tools.ietf.org/html/rfc5581">RFC5581</a></td>
-</tr><tr>
-<td class='right'>12</td>
-<td>Camellia192</td>
-<td class='right'>192</td>
-<td class='right'>128</td>
-<td><a href="http://tools.ietf.org/html/rfc3713">RFC3713</a>, <a href="https://tools.ietf.org/html/rfc5581">RFC5581</a></td>
-</tr><tr>
-<td class='right'>13</td>
-<td>Camellia256</td>
-<td class='right'>256</td>
-<td class='right'>128</td>
-<td><a href="http://tools.ietf.org/html/rfc3713">RFC3713</a>, <a href="https://tools.ietf.org/html/rfc5581">RFC5581</a></td>
-</tr>
-</tbody>
-</table>
-<figcaption>OpenPGP で使用可能な共通鍵暗号アルゴリズム一覧</figcaption>
-</figure>
-{{< /div-gen >}}
-
-余談だが [Camellia 暗号は日本製](http://www.baldanders.info/spiegel/log2/000451.shtml "The Camellia Cipher in OpenPGP — Baldanders.info")である。
-
-続いて公開鍵暗号アルゴリズム。
-
-{{< div-gen >}}
-<figure lang="en">
-<table>
-<thead>
-<tr><th>ID</th><th>アルゴリズム</th><th>参考文献</th></tr>
-</thead>
-<tbody>
-<tr>
-<td class='right'>1</td>
-<td>RSA</td>
-<td><a href="http://tools.ietf.org/html/rfc3447">RFC3447</a></td>
-</tr><tr>
-<td class='right'>2</td>
-<td>RSA Encrypt-Only</td>
-<td><a href="http://tools.ietf.org/html/rfc3447">RFC3447</a></td>
-</tr><tr>
-<td class='right'>3</td>
-<td>RSA Sign-Only</td>
-<td><a href="http://tools.ietf.org/html/rfc3447">RFC3447</a></td>
-</tr><tr>
-<td class='right'>...</td>
-<td>(Reserved)</td>
-<td>&nbsp;</td>
-</tr><tr>
-<td class='right'>16</td>
-<td>Elgamal<br>(Encrypt-Only)</td>
-<td><q><a href="http://crypto.csail.mit.edu/classes/6.857/papers/elgamal.pdf">A public key cryptosystem and a signature scheme based on discrete logarithms <sup><i class='fa fa-file-pdf-o'></i></sup></a></q></td>
-</tr><tr>
-<td class='right'>17</td>
-<td>DSA</td>
-<td><a href="http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf">FIPS PUB 186-4 <sup> <i class='fa fa-file-pdf-o'></i></sup></a></td>
-</tr><tr>
-<td class='right'>18</td>
-<td>ECDH</td>
-<td><a href="http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-56Ar2.pdf">SP800-56A Revision 2 <sup><i class='fa fa-file-pdf-o'></i></sup></a>, <a href="https://tools.ietf.org/html/rfc6637">RFC6637</a></td>
-</tr><tr>
-<td class='right'>19</td>
-<td>ECDSA</td>
-<td><a href="http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf">FIPS PUB 186-4 <sup><i class='fa fa-file-pdf-o'></i></sup></a>, <a href="https://tools.ietf.org/html/rfc6637">RFC6637</a></td>
-</tr><tr>
-<td class='right'>20</td>
-<td>(Reserved)</td>
-<td>(formerly Elgamal Encrypt or Sign)</td>
-</tr><tr>
-<td class='right'>21</td>
-<td>(Diffie-Hellman)</td>
-<td>ANSI <a href="http://www.x9.org/">X9</a>.42, as defined for IETF-S/MIME</td>
-</tr><tr>
-<td class='right'>22</td>
-<td>EdDSA (draft)</td>
-<td><a href="http://link.springer.com/article/10.1007%2Fs13389-012-0027-1">High-speed high-security signatures</a></td>
-</tr>
-</tbody>
-</table>
-<figcaption>OpenPGP で使用可能な公開鍵暗号アルゴリズム一覧</figcaption>
-</figure>
-{{< /div-gen >}}
-
-Pub20 の Elgamal は，元々暗号化と署名の両方できるものだったが，脆弱性が見つかったため OpenPGP では使用禁止になった。
-Pub21 の Diffie-Hellman は予約済みになってるが実装されている製品はない。
-
-さらに Hash 関数。
-
-{{< div-gen >}}
-<figure lang="en">
-<table>
-<thead>
-<tr><th>ID</th><th>アルゴリズム</th><th>参考文献</th></tr>
-</thead>
-<tbody>
-<tr>
-<td class='right'>1</td>
-<td>MD5</td>
-<td><a href="https://tools.ietf.org/html/rfc1321">RFC1321</a></td>
-</tr><tr>
-<td class='right'>2</td>
-<td>SHA-1</td>
-<td><a href="http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf">FIPS PUB 186-4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
-</tr><tr>
-<td class='right'>3</td>
-<td>RIPE-MD/160</td>
-<td><q><a href="http://homes.esat.kuleuven.be/~bosselae/ripemd160.html">The hash function RIPEMD-160</a></q></td>
-</tr><tr>
-<td class='right'>4</td>
-<td>(Reserved)</td>
-<td>&nbsp;</td>
-</tr><tr>
-<td class='right'>5</td>
-<td>(Reserved)</td>
-<td>&nbsp;</td>
-</tr><tr>
-<td class='right'>6</td>
-<td>(Reserved)</td>
-<td>&nbsp;</td>
-</tr><tr>
-<td class='right'>7</td>
-<td>(Reserved)</td>
-<td>&nbsp;</td>
-</tr><tr>
-<td class='right'>8</td>
-<td>SHA256</td>
-<td><a href="http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf">FIPS PUB 180-4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
-</tr><tr>
-<td class='right'>9</td>
-<td>SHA384</td>
-<td><a href="http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf">FIPS PUB 180-4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
-</tr><tr>
-<td class='right'>10</td>
-<td>SHA512</td>
-<td><a href="http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf">FIPS PUB 180-4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
-</tr><tr>
-<td class='right'>11</td>
-<td>SHA224</td>
-<td><a href="http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf">FIPS PUB 180-4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
-</tr></tbody>
-</table>
-<figcaption>OpenPGP で使用可能な一方向ハッシュ関数一覧</figcaption>
-</figure>
-{{< /div-gen >}}
-
-[SHA-3](https://www.nist.gov/news-events/news/2015/08/nist-releases-sha-3-cryptographic-hash-standard "NIST Releases SHA-3 Cryptographic Hash Standard | NIST") ({{< pdf-file title="FIPS PUB 202" link="http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.202.pdf" >}}) を OpenPGP にどのように組み込むかについては，現在[検討中](http://www.baldanders.info/spiegel/log2/000866.shtml "SHA-3 が OpenPGP に組み込まれる（予定） — Baldanders.info")。
+この項は「[OpenPGP で利用可能なアルゴリズム]({{< relref "remark/2017/11/algorithms-for-openpgp.md" >}})」に移動した。
 
 ## パスワードの強度
 
