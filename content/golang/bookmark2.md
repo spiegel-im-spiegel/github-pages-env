@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T23:59:59+09:00"
-update =  "2017-11-24T14:15:47+09:00"
+update =  "2017-11-29T19:18:04+09:00"
 description = "「Go 言語に関するブックマーク」に整理しきれない未整理分。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -105,3 +105,4 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [GoでHTMLをPDFに出力する - Qiita](https://qiita.com/kurkuru/items/65614fd3524fefccf576)
 - [golang 3ways to iterate - Qiita](https://qiita.com/YmgchiYt/items/fe5936ccbc440cbb6214)
 - [[Go]重み付き乱択アルゴリズムを整数だけで完結させる - Qiita](https://qiita.com/cia_rana/items/dca5b008fcee67adda50)
+- [flagdayという日本の祝日を Go で扱うライブラリを作った - Qiita](https://qiita.com/pinzolo/items/970b0b980396a1ba0fa0)

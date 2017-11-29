@@ -30,11 +30,16 @@ NTT 新規契約 0800-2000-1160
 - [wizSafe Security Signal 2017年10月 観測レポート – wizSafe Security Signal -安心・安全への道標- IIJ](https://wizsafe.iij.ad.jp/2017/11/131/)
 - [トーバルズ氏、一部セキュリティ技術者に苦言--「ユーザーの視点で」 - ZDNet Japan](https://japan.zdnet.com/article/35110964/)
 - [FBI、露ハッカーの標的になった米政府関係者に警告せず--米報道 - CNET Japan](https://japan.cnet.com/article/35110965/)
+- [Mercedes 'relay' box thieves caught on CCTV in Solihull - BBC News](http://www.bbc.com/news/uk-england-birmingham-42132689)
+- [Man-in-the-Middle Attack against Electronic Car-Door Openers - Schneier on Security](https://www.schneier.com/blog/archives/2017/11/man-in-the-midd_8.html)
+- [macOS High Sierra の設定に関する注意喚起](https://www.jpcert.or.jp/at/2017/at170045.html)
+- [Microsoft Office の脆弱性(CVE-2017-11882)について：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20171129_ms.html)
 
 ## 天文関連
 
 - [星の死後にできた中性子星の謎とは？ – 雷雲プロジェクトの立役者、京大・榎戸輝揚特定准教授に聞く – academist Journal](https://academist-cf.com/journal/?p=6527)
 - [日本、月上空の「深宇宙ゲートウェイ」計画に参加か？ – 読売新聞が報道  |   月探査情報ステーション](https://moonstation.jp/blog/lpex-general/the-yomiuri-shimbun-reports-japan-will-join-nasa-deep-space-gateway)
+- [観測史上初、太陽系の外から謎の天体が飛来！ 「オウムアムア」と呼ばれる天体の正体とは？ | ハーバービジネスオンライン](https://hbol.jp/155282)
 
 ## 知財関連
 
@@ -65,5 +70,8 @@ NTT 新規契約 0800-2000-1160
 - [iPhoneのjailbreakサイトが次々と閉鎖。ユーザーの関心薄れる  |  TechCrunch Japan](http://jp.techcrunch.com/2017/11/28/2017-11-27-ios-jailbreak-repositories-close-as-user-interest-wanes/)
 - [Tumblrの創業者兼CEO、カープ氏が辞任へ - CNET Japan](https://japan.cnet.com/article/35111023/)
 - [林芳正文部科学大臣記者会見録（平成29年11月17日）：文部科学省](http://www.mext.go.jp/b_menu/daijin/detail/1398419.htm)
+- [岩瀬昇のエネルギーブログ ＃385 引越しのご案内｜岩瀬昇のエネルギーブログ](https://ameblo.jp/nobbypapa/entry-12332295157.html)
+- [「Firefox Quantum」で打ち切られたレガシーアドオン対応、「Thunderbird」ではどうなる？ - やじうまの杜 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1093871.html)
+- [2017年11月29日ニュース「科学技術の発展で半分以上の人がIT犯罪や地球環境問題に不安 内閣府世論調査」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/11/20171129_01.html)
 
 (end of file)
