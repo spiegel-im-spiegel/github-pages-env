@@ -85,17 +85,15 @@ main table.openpgp-sym td  {
 <td class='right'>7</td>
 <td class="nowrap">AES with 128-bit key</td>
 <td class='right nowrap'>128 (128)</td>
-<td><a href="https://dx.doi.org/10.6028/NIST.FIPS.197">FIPS PUB 197 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
+<td rowspan="3"><a href="https://dx.doi.org/10.6028/NIST.FIPS.197">FIPS PUB 197 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
 </tr><tr>
 <td class='right'>8</td>
 <td class="nowrap">AES with 192-bit key</td>
 <td class='right nowrap'>192 (128)</td>
-<td><a href="https://dx.doi.org/10.6028/NIST.FIPS.197">FIPS PUB 197 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
 </tr><tr>
 <td class='right'>9</td>
 <td class="nowrap">AES with 256-bit key</td>
 <td class='right nowrap'>256 (128)</td>
-<td><a href="https://dx.doi.org/10.6028/NIST.FIPS.197">FIPS PUB 197 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
 </tr><tr>
 <td class='right'>10</td>
 <td class="nowrap">Twofish with 256-bit key</td>
@@ -105,17 +103,15 @@ main table.openpgp-sym td  {
 <td class='right'>11</td>
 <td class="nowrap">Camellia with 128-bit key</td>
 <td class='right nowrap'>128 (128)</td>
-<td><a href="http://tools.ietf.org/html/rfc3713">RFC3713</a>, <a href="https://tools.ietf.org/html/rfc5581">RFC5581</a></td>
+<td rowspan="3"><a href="http://tools.ietf.org/html/rfc3713">RFC3713</a>, <a href="https://tools.ietf.org/html/rfc5581">RFC5581</a></td>
 </tr><tr>
 <td class='right'>12</td>
 <td class="nowrap">Camellia with 192-bit key</td>
 <td class='right nowrap'>192 (128)</td>
-<td><a href="http://tools.ietf.org/html/rfc3713">RFC3713</a>, <a href="https://tools.ietf.org/html/rfc5581">RFC5581</a></td>
 </tr><tr>
 <td class='right'>13</td>
 <td class="nowrap">Camellia with 256-bit key</td>
 <td class='right nowrap'>256 (128)</td>
-<td><a href="http://tools.ietf.org/html/rfc3713">RFC3713</a>, <a href="https://tools.ietf.org/html/rfc5581">RFC5581</a></td>
 </tr>
 </tbody>
 </table>
@@ -149,15 +145,13 @@ main table.openpgp-pub td  {
 <tr>
 <td class='right'>1</td>
 <td class="nowrap">RSA (Encrypt or Sign)</td>
-<td><a href="http://tools.ietf.org/html/rfc3447">RFC3447</a></td>
+<td rowspan="3"><a href="http://tools.ietf.org/html/rfc3447">RFC3447</a></td>
 </tr><tr>
 <td class='right'>2</td>
 <td class="nowrap">RSA Encrypt-Only</td>
-<td><a href="http://tools.ietf.org/html/rfc3447">RFC3447</a></td>
 </tr><tr>
 <td class='right'>3</td>
 <td class="nowrap">RSA Sign-Only</td>
-<td><a href="http://tools.ietf.org/html/rfc3447">RFC3447</a></td>
 </tr><tr>
 <td class='right'>16</td>
 <td class="nowrap">Elgamal<br>(Encrypt-Only)</td>
@@ -247,19 +241,16 @@ main table.openpgp-hash td  {
 </tr><tr>
 <td class='right'>8</td>
 <td class="nowrap">SHA2-256</td>
-<td><a href="http://doi.org/10.6028/NIST.FIPS.180-4">FIPS PUB 180-4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
+<td rowspan="4"><a href="http://doi.org/10.6028/NIST.FIPS.180-4">FIPS PUB 180-4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
 </tr><tr>
 <td class='right'>9</td>
 <td class="nowrap">SHA2-384</td>
-<td><a href="http://doi.org/10.6028/NIST.FIPS.180-4">FIPS PUB 180-4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
 </tr><tr>
 <td class='right'>10</td>
 <td class="nowrap">SHA2-512</td>
-<td><a href="http://doi.org/10.6028/NIST.FIPS.180-4">FIPS PUB 180-4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
 </tr><tr>
 <td class='right'>11</td>
 <td class="nowrap">SHA2-224</td>
-<td><a href="http://doi.org/10.6028/NIST.FIPS.180-4">FIPS PUB 180-4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
 </tr><tr>
 <td class='right'>12</td>
 <td class="nowrap">SHA3-256</td>
