@@ -1,6 +1,7 @@
 +++
 title = "OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）"
 date =  "2017-11-29T18:24:30+09:00"
+update =  "2017-11-30T16:57:53+09:00"
 description = "RFC 4880bis は，名前の通り，ドラフト段階なので今後変わる可能性がある。アルゴリズム関連で変更があった場合は随時この記事に加筆・修正していって，正式な RFC 番号が振られた段階でこの記事の最終稿とする予定である。"
 image = "/images/attention/remark.jpg"
 tags = [
@@ -288,7 +289,7 @@ S2K はパスフレーズからセッション鍵を生成するためのハッ�
 </thead>
 <tbody>
 <tr>
-<td class='right'>０</td>
+<td class='right'>0</td>
 <td>Simple S2K</td>
 </tr><tr>
 <td class='right'>1</td>
