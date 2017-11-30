@@ -34,6 +34,8 @@ NTT 新規契約 0800-2000-1160
 - [Man-in-the-Middle Attack against Electronic Car-Door Openers - Schneier on Security](https://www.schneier.com/blog/archives/2017/11/man-in-the-midd_8.html)
 - [macOS High Sierra の設定に関する注意喚起](https://www.jpcert.or.jp/at/2017/at170045.html)
 - [Microsoft Office の脆弱性(CVE-2017-11882)について：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20171129_ms.html)
+- [About the security content of Security Update 2017-001 - Apple サポート](https://support.apple.com/ja-jp/HT208315)
+    - [Mac でルートユーザを有効にする方法やルートパスワードを変更する方法 - Apple サポート](https://support.apple.com/ja-jp/HT204012)
 
 ## 天文関連
 
@@ -44,6 +46,7 @@ NTT 新規契約 0800-2000-1160
 ## 知財関連
 
 - [いつ中国のネット業界はコピー天国から脱したのか - ZDNet Japan](https://japan.zdnet.com/article/35111016/)
+- [DRM's Dead Canary: How We Just Lost the Web, What We Learned from It, and What We Need to Do Next | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2017/10/drms-dead-canary-how-we-just-lost-web-what-we-learned-it-and-what-we-need-do-next)
 
 ## その他
 
@@ -73,5 +76,6 @@ NTT 新規契約 0800-2000-1160
 - [岩瀬昇のエネルギーブログ ＃385 引越しのご案内｜岩瀬昇のエネルギーブログ](https://ameblo.jp/nobbypapa/entry-12332295157.html)
 - [「Firefox Quantum」で打ち切られたレガシーアドオン対応、「Thunderbird」ではどうなる？ - やじうまの杜 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1093871.html)
 - [2017年11月29日ニュース「科学技術の発展で半分以上の人がIT犯罪や地球環境問題に不安 内閣府世論調査」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/11/20171129_01.html)
+- [Adobeの新フォント「貂明朝（てんみんちょう）」発表会レポート ～同社オリジナルの“可愛くも妖しい明朝” - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1094157.html)
 
 (end of file)
