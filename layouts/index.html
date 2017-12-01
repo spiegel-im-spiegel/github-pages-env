@@ -91,7 +91,19 @@
 {{ range first 1 (where .Site.Pages "Section" "==" "cc-licenses") }}{{ partial "li-section.html" . }}{{ end }}
 </ul>
 </section> <!-- 最近の記事 -->
-</section> <!-- プログラミング言語 Go -->
+</section> <!-- 改訂3版： CC Licenses について -->
+
+<section>
+<h3><a href="/openpgp">OpenPGP の実装</a> <a href='/openpgp/index.xml' title='Feed'><i class='fa fa-rss'></i></a></h3>
+<p>OpenPGP とその実装である GnuPG 等に関する話題。</p>
+
+<section>
+<h4>最新記事</h4>
+<ul class="title-list">
+{{ range first 1 (where .Site.Pages "Section" "==" "openpgp") }}{{ partial "li-section.html" . }}{{ end }}
+</ul>
+</section> <!-- 最近の記事 -->
+</section> <!-- OpenPGP の実装 -->
 
 </section> <!-- 特集記事 -->
 

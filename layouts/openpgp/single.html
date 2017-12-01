@@ -1,0 +1,44 @@
+{{ partial "top.html" . }}
+<head prefix="og: http://ogp.me/ns#">
+{{ partial "header.html" . }}
+<link rel="canonical" href="{{ .Permalink }}">
+<title>{{ .Title }} — OpenPGP の実装 | {{ .Site.Title }}</title>
+<meta property="og:title" content="{{ .Title }} — OpenPGP の実装 | {{ .Site.Title }}">{{ if .Description }}
+<meta name="description" content="{{ .Description }}">
+<meta property="og:description" content="{{ .Description }}">{{ else }}
+<meta name="description" content="OpenPGP とその実装である GnuPG 等に関する話題。">
+<meta property="og:description" content="OpenPGP とその実装である GnuPG 等に関する話題。">{{ end }}
+<meta property="og:image" content="{{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ "/images/attention/openpgp.png" | absURL }}{{ end }}">
+{{ partial "twitter-card.html" . }}{{ with .Params.author }}{{ if .name }}
+<meta name="author" content="{{ .name }}">{{ end }}{{ end }}
+{{ partial "header-nav.html" . }}
+
+{{ partial "json-ld-openpgp.html" . }}
+</head>
+<body>
+{{ partial "prepare.html" . }}
+<div id='container'><!-- Container Area -->
+
+<main>
+<nav class="breadcrumb">
+<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>{{ if .Section }} &raquo; <a href="{{ .Site.BaseURL }}{{ .Section | urlize }}/">OpenPGP の実装</a>{{ end }}
+</nav>
+<article>
+<h1>{{ .Title }}</h1>
+{{ partial "navi-tag.html" . }}
+
+<section>
+{{ .Content }}
+</section>
+
+</article>
+</main>
+{{ partial "page-nav.html" . }}
+
+{{ partial "e-words.html" . }}
+{{ partial "feedback.html" . }}
+{{ partial "footer.html" . }}
+</div><!-- Container Area -->
+{{ partial "cleanup.html" . }}
+</body>
+{{ partial "end.html" . }}

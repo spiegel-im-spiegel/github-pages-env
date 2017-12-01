@@ -45,6 +45,7 @@ URL は以下の通りです。
 | [ゼロから始める Hugo](/hugo/) | http://text.baldanders.info/hugo/index.xml |
 | [プログラミング言語 Go](/golang/) | http://text.baldanders.info/golang/index.xml |
 | [改訂3版： CC Licenses について](/cc-licenses/) | http://text.baldanders.info/cc-licenses/index.xml |
+| [OpenPGP の実装](/openpgp/) | http://text.baldanders.info/openpgp/index.xml |
 | [ブックマーク集](/bookmarks/) | http://text.baldanders.info/bookmarks/index.xml |
 
 ## タグごとの更新情報
