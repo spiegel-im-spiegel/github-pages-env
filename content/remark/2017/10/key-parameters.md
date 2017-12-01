@@ -1,7 +1,7 @@
 +++
 title = "暗号鍵関連の各種変数について"
 date =  "2017-10-17T16:32:03+09:00"
-update =  "2017-11-29T18:24:30+09:00"
+update =  "2017-12-01T17:31:17+09:00"
 description = "この記事は将来の記事で再利用するための snippet 置き場として使うことにする。"
 tags = ["security", "cryptography", "hash", "risk", "management"]
 
@@ -211,7 +211,7 @@ main table.nist4 td  {
 
 ## OpenPGP で利用可能なアルゴリズム
 
-この項は「[OpenPGP で利用可能なアルゴリズム]({{< relref "remark/2017/11/algorithms-for-openpgp.md" >}})」に移動した。
+この項は「[OpenPGP で利用可能なアルゴリズム]({{< relref "openpgp/algorithms-for-openpgp.md" >}})」に移動した。
 
 ## パスワードの強度
 
