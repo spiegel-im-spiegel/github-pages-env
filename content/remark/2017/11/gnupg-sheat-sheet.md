@@ -1,7 +1,7 @@
 +++
 title = "GnuPG チートシート（鍵作成から失効まで）"
 date =  "2017-11-30T20:40:43+09:00"
-update =  "2017-11-30T21:59:29+09:00"
+update =  "2017-12-01T11:49:36+09:00"
 description = "ちうわけで GnuPG の使い方に関する簡単な「虎の巻（cheat sheet）」を作ってみることにした。"
 image = "/images/attention/remark.jpg"
 tags = [
@@ -300,7 +300,7 @@ sub   elg3072 2017-11-30 [E]
 
 ### 鍵束内の公開鍵の検索
 
-鍵束内の公開鍵の検索を検索する場合， `--list-key` コマンドの引数にユーザID（の一部）または鍵IDを指定することで，条件にマッチする鍵を検索できる。
+鍵束内の公開鍵の検索を検索する場合， `--list-keys` コマンドの引数にユーザID（の一部）または鍵IDを指定することで，条件にマッチする鍵を検索できる。
 短縮名は `-k`。
 
 ```text
@@ -311,18 +311,26 @@ uid           [  充分  ] Alice (root) <alice@example.com>
 
 pub   rsa2048 2017-11-23 [SC]
       A3CEFEEEDA222024F325C403DFFC3F67BBB3C083
-uid           [  充分  ] Alice (commit) <alice@example.com>
+uid           [  究極  ] Alice (commit) <alice@example.com>
 sub   rsa2048 2017-11-23 [E]
 ```
 
-引数なしで `--list-key` コマンドを起動した場合は公開鍵の鍵束（`pubring.kbx`）にある鍵が全て列挙される。
+引数なしで `--list-keys` コマンドを起動した場合は公開鍵の鍵束（`pubring.kbx`）にある鍵が全て列挙される。
 
-秘密鍵を検索する場合には `--list-secret-key` コマンドを使う。
+秘密鍵を検索する場合には `--list-secret-keys` コマンドを使う。
 短縮名は大文字の `-K`。
+
+```text
+$ gpg -K alice
+sec   rsa2048 2017-11-23 [SC]
+      A3CEFEEEDA222024F325C403DFFC3F67BBB3C083
+uid           [  究極  ] Alice (commit) <alice@example.com>
+ssb   rsa2048 2017-11-23 [E]
+```
 
 ### 副鍵の鍵指紋の表示
 
-`--list-key` コマンドでも主鍵の鍵指紋が表示されるが，副鍵の鍵指紋も表示したい場合は `--fingerprint` コマンドを2つ重ねる。
+`--list-keys` コマンドでも主鍵の鍵指紋が表示されるが，副鍵の鍵指紋も表示したい場合は `--fingerprint` コマンドを2つ重ねる。
 
 ```text
 $ gpg --fingerprint --fingerprint alice
