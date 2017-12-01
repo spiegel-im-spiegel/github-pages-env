@@ -1,6 +1,6 @@
 +++
 date = "2015-12-09T20:14:59+09:00"
-update = "2017-11-05T11:49:55+09:00"
+update = "2017-12-01T18:42:22+09:00"
 description = "git 各コマンドに関する覚え書き。思い出したら追記予定。"
 draft = false
 tags = ["git", "tools"]
@@ -215,6 +215,7 @@ $ git push -f
 - [gitレポジトリ内のディレクトリを別のgitレポジトリ以下に移動する - Qiita](http://qiita.com/yuki-asano/items/f9248eb99850a872b0a8)
 - [git push -f をやめて --force-with-lease を使おう - Qiita](http://qiita.com/wMETAw/items/5f47dcc7cf57af8e449f)
 - [Gitでやらかさないための事前予防策 - Qiita](https://qiita.com/muran001/items/f13742b51da3a22117ee)
+- [Pull Request の指摘修正でコミットログが汚れていく問題への対処法の一案 - Qiita](https://qiita.com/thinca/items/44ff57ed56a1f8c7efa2)
 
 ### GitHub
 

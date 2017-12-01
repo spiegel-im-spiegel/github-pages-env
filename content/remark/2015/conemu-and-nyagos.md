@@ -1,6 +1,6 @@
 +++
 date = "2015-10-30T00:56:49+09:00"
-update = "2017-02-27T09:38:44+09:00"
+update = "2017-12-01T18:42:22+09:00"
 description = "そんなわけで，えんやらやっと ConEmu を導入することにした。ついでに NYAGOS も入れなおすことに。"
 draft = false
 tags = ["windows", "tools", "conemu", "nyagos", "terminal", "shell", "putty"]
@@ -39,7 +39,7 @@ title = "ようやく ConEmu と NYAGOS を導入した"
 zip ファイル内のファイル群をフォルダ構成ごと適当な場所に展開すればよい。
 展開できたら動作確認。
 
-```
+```text
 C:\program\nyagos>nyagos.exe
 Nihongo Yet Another GOing Shell 4.0.9_10-amd64 Powered by go1.5.1 & Lua 5.3
 Copyright (c) 2014,2015 HAYAMA_Kaoru and NYAOS.ORG
@@ -98,7 +98,7 @@ Shell 呼び出しの設定例。
 ここでは [MSYS2] の bash を呼んでいる。
 起動時の calling sequence は以下のとおり。
 
-```
+```text
 set MSYSTEM=MSYS & C:\msys64\usr\bin\bash.exe --login -i
 ```
 
@@ -109,7 +109,7 @@ set MSYSTEM=MSYS & C:\msys64\usr\bin\bash.exe --login -i
 
 [^b]: ~~ただし [ConEmu] から [PuTTY] を呼び出す場合，サーバ側が UTF-8 だと文字化けするっぽい。ググると「`chcp 65001` に設定しろ」みたいなことが書いてあるが， [PuTTY] に対しては効いてない感じ。~~ （11月11日追記） 左記を訂正。オリジナルの [PuTTY] じゃなくて，日本語に対応している [PuTTYjp] なら問題なく日本語で表示される。ブラボー！
 
-```
+```text
 C:\PATH\TO\PuTTY\putty.exe -load "mysession" -new_console
 ```
 
@@ -119,6 +119,10 @@ C:\PATH\TO\PuTTY\putty.exe -load "mysession" -new_console
 
 ところで設定ダイアログの左下に [Flattr] ボタンがあるのにお気づきだろうか。
 [Flattr] アカウントのある人は是非。
+
+## ブックマーク
+
+- [NYAGOS、かんたん設定 - Qiita](https://qiita.com/zetamatta/items/99feb1d74e36ea5848cd)
 
 [Hugo]: https://gohugo.io/ "Hugo :: A fast and modern static website engine"
 [ConEmu]: https://conemu.github.io/ "ConEmu - Handy Windows Terminal"

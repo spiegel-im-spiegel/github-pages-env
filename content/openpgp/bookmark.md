@@ -1,6 +1,7 @@
 +++
 title = "OpenPGP に関するブックマーク"
 date =  "2017-12-01T15:15:33+09:00"
+update = "2017-12-01T18:42:22+09:00"
 description = "OpenPGP に関するリンクをブックマークとして集めてみた（時事ネタは除く）。"
 image = "/images/attention/openpgp.png"
 tags        = [ "openpgp", "gnupg", "bookmark" ]
@@ -64,6 +65,7 @@ tags        = [ "openpgp", "gnupg", "bookmark" ]
 - [iPGMail](https://ipgmail.com/) : PGP for iOS
 - [Keybase](https://keybase.io/)
     - [kbpgp.js](https://keybase.io/kbpgp)
+    - [[メモ]: keybaseとgit/githubでgpg keyを共有する - Qiita](https://qiita.com/joemphilips/items/7e4d2941448807c4d431)
 - [pgpdump]
     - [kazu-yamamoto/pgpdump: A PGP packet visualizer](https://github.com/kazu-yamamoto/pgpdump)
     - [PGPdump Interface](http://www.pgpdump.net/) : Web サービス

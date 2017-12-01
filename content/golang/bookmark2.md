@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T23:59:59+09:00"
-update =  "2017-11-29T19:18:04+09:00"
+update = "2017-12-01T18:42:22+09:00"
 description = "「Go 言語に関するブックマーク」に整理しきれない未整理分。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -55,6 +55,7 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [Go言語でWebアプリを作りかけて辞めた話 - ぼっち勉強会](http://kannokanno.hatenablog.com/entry/2017/02/28/011159)
 - [Go 2016 Survey Results - The Go Blog](https://blog.golang.org/survey2016-results)
 - [Big Sky :: GoCon に初参加してきた。](https://mattn.kaoriya.net/etc/gocon2017autumn.htm)
+- [［速報］AWS Lambdaが機能強化。.NETとGo言語をサポート、サーバレスアプリケーションのリポジトリも登場。AWS re:Invent 2017 － Publickey](http://www.publickey1.jp/blog/17/aws_lambdanetgoaws_reinvent_2017.html)
 
 ## その他，分類困難で未整理（もしくは一時保管場所）
 

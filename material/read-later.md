@@ -36,12 +36,15 @@ NTT 新規契約 0800-2000-1160
 - [Microsoft Office の脆弱性(CVE-2017-11882)について：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20171129_ms.html)
 - [About the security content of Security Update 2017-001 - Apple サポート](https://support.apple.com/ja-jp/HT208315)
     - [Mac でルートユーザを有効にする方法やルートパスワードを変更する方法 - Apple サポート](https://support.apple.com/ja-jp/HT204012)
+- [NSA leak exposes Red Disk, the Army's failed intelligence system | ZDNet](http://www.zdnet.com/article/nsa-leak-inscom-exposes-red-disk-intelligence-system/)
+    - [NSA "Red Disk" Data Leak - Schneier on Security](https://www.schneier.com/blog/archives/2017/11/nsa_red_disk_da.html)
 
 ## 天文関連
 
 - [星の死後にできた中性子星の謎とは？ – 雷雲プロジェクトの立役者、京大・榎戸輝揚特定准教授に聞く – academist Journal](https://academist-cf.com/journal/?p=6527)
 - [日本、月上空の「深宇宙ゲートウェイ」計画に参加か？ – 読売新聞が報道  |   月探査情報ステーション](https://moonstation.jp/blog/lpex-general/the-yomiuri-shimbun-reports-japan-will-join-nasa-deep-space-gateway)
 - [観測史上初、太陽系の外から謎の天体が飛来！ 「オウムアムア」と呼ばれる天体の正体とは？ | ハーバービジネスオンライン](https://hbol.jp/155282)
+- [編集長(寺薗)執筆の本『夜ふかしするほど面白い「月の話」』が来年1月はじめに発売されます  |   月探査情報ステーション](https://moonstation.jp/news/20171130-book-on-the-moon-by-editor-will-be-published-in-jan-2018)
 
 ## 知財関連
 
@@ -77,5 +80,9 @@ NTT 新規契約 0800-2000-1160
 - [「Firefox Quantum」で打ち切られたレガシーアドオン対応、「Thunderbird」ではどうなる？ - やじうまの杜 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1093871.html)
 - [2017年11月29日ニュース「科学技術の発展で半分以上の人がIT犯罪や地球環境問題に不安 内閣府世論調査」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/11/20171129_01.html)
 - [Adobeの新フォント「貂明朝（てんみんちょう）」発表会レポート ～同社オリジナルの“可愛くも妖しい明朝” - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1094157.html)
+- [「Firefox Quantum」v57.0.1が公開、一部環境で動作が異常に遅くなる問題を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1094312.html)
+- [IT関係者必見！　村井純教授インタビュー全文公開　“30年かけた準備が終わり、これからが本番”【iNTERNET magazine Reboot】 - INTERNET Watch](https://internet.watch.impress.co.jp/docs/imreboot/column/1094016.html)
+- [Amazon、職場用「Alexa for Business」、米国で提供開始 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1712/01/news064.html)
+- [最近のボーカロイドがすごいということをただ伝えたい - 稀にライトノベルを読むよ＾0＾／](http://d.hatena.ne.jp/numenunu/20171130/1512067040)
 
 (end of file)
