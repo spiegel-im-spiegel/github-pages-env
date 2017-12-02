@@ -1,6 +1,7 @@
 +++
 title = "OpenPGP 鍵管理に関する考察"
 date =  "2017-12-01T17:51:59+09:00"
+update =  "2017-12-02T16:20:26+09:00"
 description = "OpenPGP 鍵の管理について考えてみるテスト。"
 image = "/images/attention/openpgp.png"
 tags = [
@@ -8,6 +9,7 @@ tags = [
   "openpgp",
   "management",
   "pki",
+  "trust",
   "gnupg",
 ]
 

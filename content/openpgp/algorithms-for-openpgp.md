@@ -1,6 +1,7 @@
 +++
 title = "OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）"
 date =  "2017-12-01T17:47:50+09:00"
+update =  "2017-12-02T16:20:26+09:00"
 description = "RFC 4880bis は，名前の通り，ドラフト段階なので今後変わる可能性がある。正式な RFC 番号が振られた段階でこの記事の最終稿とする予定である。"
 image = "/images/attention/openpgp.png"
 tags = [
@@ -165,7 +166,7 @@ main table.openpgp-pub td  {
 </tr><tr>
 <td class='right'>18</td>
 <td class="nowrap">ECDH public key algorithm</td>
-<td><a href="http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-56Ar2.pdf">SP800-56A Revision 2 <sup><i class='fa fa-file-pdf-o'></i></sup></a>, <a href="https://tools.ietf.org/html/rfc6637">RFC6637</a></td>
+<td><a href="http://doi.org/10.6028/NIST.SP.800-56Ar2">SP800-56A Revision 2 <sup><i class='fa fa-file-pdf-o'></i></sup></a>, <a href="https://tools.ietf.org/html/rfc6637">RFC6637</a></td>
 </tr><tr>
 <td class='right'>19</td>
 <td class="nowrap">ECDSA public key algorithm</td>

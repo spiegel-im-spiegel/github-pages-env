@@ -1,6 +1,7 @@
 +++
 title = "GnuPG チートシート（鍵作成から失効まで）"
 date =  "2017-12-01T17:51:18+09:00"
+update =  "2017-12-02T16:20:26+09:00"
 description = "ちうわけで GnuPG の使い方に関する簡単な「虎の巻（cheat sheet）」を作ってみることにした。"
 image = "/images/attention/openpgp.png"
 tags = [
@@ -186,7 +187,7 @@ Usage: gpg [options] --quick-generate-key user-id [algo [usage [expire]]]
 指定可能な文字列は以下の通り。
 
 | 公開鍵暗号アルゴリズム | 名前 |
-|:-------------|:-------|
+|:-----------------------|:-----|
 | RSA | `default` (= `rsa2048`) |
 | RSA (署名のみ) | `rsa` (= `rsa2048`), `rsa1024`, `rsa2048`, `rsa3071`, `rsa4096` |
 | DSA (署名のみ) | `dsa` (= `dsa2048`), `dsa1024`, `dsa2048`, `dsa3072` |
@@ -194,17 +195,17 @@ Usage: gpg [options] --quick-generate-key user-id [algo [usage [expire]]]
 | EdDSA (署名のみ) | `ed25519` |
 | ECDSA (署名のみ) | `nistp256`, `nistp384`, `nistp521`, `brainpoolP256r1`, `brainpoolP384r1`, `brainpoolP512r1`, `secp256k1` |
 
-`usage` には主鍵の使用目的を文字列で指定する。
+`usage` には主鍵の機能を文字列で指定する。
 
-| 使用目的 | 名前 |
-|:---------|:-----|
+| 機能 | 名前 |
+|:-----|:-----|
 | 署名 | `sign` |
 | 証明 | `cert` |
 | 認証 | `auth` |
 | 暗号化 | `encr` |
 
 主鍵には自動的に `cert` が付与されるため暗号化機能しかないアルゴリズム（ElGamal や ECDH）を主鍵に使うことはできない。
-また暗号アルゴリズムと使用目的がマッチしない場合はエラーになる（電子署名用のアルゴリズムなのに `encr` を指定するなど）。
+また暗号アルゴリズムと機能がマッチしない場合はエラーになる（電子署名用のアルゴリズムなのに `encr` を指定するなど）。
 
 目的が複数ある場合はカンマで区切って列挙する。
 なお `default` または `-` を指定すれば `sign`+`cert` となるので，通常は `default` のままでよい。
@@ -281,17 +282,17 @@ sub   elg3072 2017-11-30 [E]
 ちなみに `B5BF56B346B4D961E6BF25A45CC68B4A317E8E5C` という長ったらしい数字列は鍵指紋（key fingerprint）である。
 [OpenPGP] では鍵指紋をそのまま（または下位バイトを）鍵IDとして使っている。
 
-副鍵では使用目的として `cert` は指定できない。
-また暗号アルゴリズムと使用目的がマッチしない場合はエラーになる。
-ただし `default` または `-` を指定すればアルゴリズムに合わせた適切な使用目的をセットしてくれるみたいなので，大抵の場合は `default` でいいだろう。
+副鍵では機能として `cert` は指定できない。
+また暗号アルゴリズムと機能がマッチしない場合はエラーになる。
+ただし `default` または `-` を指定すればアルゴリズムに合わせた適切な機能をセットしてくれるみたいなので，大抵の場合は `default` でいいだろう。
 
 暗号化用に使用できるアルゴリズムは以下の通り。
 
 | 公開鍵暗号アルゴリズム | 名前 |
-|:-------------|:-------|
+|:-----------------------|:-----|
 | RSA | `default` (= `rsa2048`), `rsa` (= `rsa2048`), `rsa1024`, `rsa2048`, `rsa3071`, `rsa4096` |
 | ElGamal | `elg` (= `elg2048`), `elg1024`, `elg2048`, `elg3072` |
-| ECDH | `cv25519`, `secp256k1` |
+| ECDH | `cv25519`, `nistp256`, `nistp384`, `nistp521`, `brainpoolP256r1`, `brainpoolP384r1`, `brainpoolP512r1`, `secp256k1` |
 
 電子署名用のアルゴリズムも（署名用の副鍵として指定すれば）もちろん使える。
 
@@ -1031,7 +1032,6 @@ kAc/Jx5aYcyrXqcZtxNwHF+oflpRWyd0KA==
 [RFC 4880]: https://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
 [RFC 4880bis]: https://datatracker.ietf.org/doc/draft-ietf-openpgp-rfc4880bis/ "draft-ietf-openpgp-rfc4880bis - OpenPGP Message Format"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
-
 
 ## 参考図書
 
