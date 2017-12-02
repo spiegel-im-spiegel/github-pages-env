@@ -1,5 +1,6 @@
 +++
 date = "2017-12-01T17:48:43+09:00"
+update = "2017-12-02T21:55:18+09:00"
 title = "GnuPG for Windows : gpg-agent について"
 description = "今回は gpg-agent について解説する。"
 draft = false
@@ -19,6 +20,10 @@ image = "/images/attention/openpgp.png"
   tumblr = "spiegel-im-spiegel"
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
+
+[scripts]
+  mathjax = false
+  mermaidjs = true
 +++
 
 ## gpg-agent
@@ -103,9 +108,9 @@ max-cache-ttl 7200
 
 [PuTTY] は Windows 用の SSH クライアント兼ターミナル・エミュレータである。
 [PuTTY] には Plink と呼ばれるコマンドラインベースの SSH 接続ツールがあり，他ツール（例えば [Git for Windows]）と連携できるようになっている。
-さらに [PuTTY] には Pagent と呼ばれるエージェントツールもあり，認証用の秘密鍵をキャッシュすることができる。
+さらに [PuTTY] には Pageant と呼ばれるエージェントツールもあり，認証用の秘密鍵をキャッシュすることができる。
 
-今回は Pagent を `gpg-agent` で置き換えることを考える。
+今回は Pageant を `gpg-agent` で置き換えることを考える。
 
 ### gpg-agent のオプション
 
@@ -113,7 +118,7 @@ max-cache-ttl 7200
 
 | オプション名            | 内容 |
 |:------------------------|:-----|
-| `enable-putty-support`  | Pagent プロトコルを有効にする |
+| `enable-putty-support`  | Pageant プロトコルを有効にする |
 | `default-cache-ttl-ssh` | 直前にアクセスしたキャッシュ・エントリの有効期間を秒単位で指定する。 既定値は 1800 |
 | `max-cache-ttl-ssh`     | キャッシュ・エントリの有効期間の最大値を秒単位で指定する。 アクセスの有無にかかわらずこの期間が過ぎるとキャッシュがクリアされる。 既定値は 7200 |
 
@@ -136,9 +141,9 @@ gpg-connect-agent: connection to agent established
 
 SSH 鍵のインポートには2通りの方法あるようだが，今回は簡単な方でいく[^imp]。
 
-[^imp]: 今回は PPK ファイルを直接読み込む方法をとったが， PPK ファイルから OpenSSH 形式にエクスポートし，それを更に X.509 形式に変換した後 `gpgsm` でインポートすることもできる。（参考： [Convert keys between GnuPG, OpenSsh and OpenSSL](http://www.sysmic.org/dotclear/index.php?post/2010/03/24/Convert-keys-betweens-GnuPG%2C-OpenSsh-and-OpenSSL)）
+[^imp]: 今回は PPK ファイルを直接読み込む方法をとったが， PPK ファイルから OpenSSH 形式にエクスポートし，それを更に X.509 形式に変換した後 `gpgsm` でインポートすることもできるらしい。（参考： [Convert keys between GnuPG, OpenSsh and OpenSSL](http://www.sysmic.org/dotclear/index.php?post/2010/03/24/Convert-keys-betweens-GnuPG%2C-OpenSsh-and-OpenSSL)）
 
-鍵ファイル（ここでは `id_rsa.PPK` とする）を Pagent で開く。
+鍵ファイル（ここでは `id_rsa.PPK` とする）を Pageant で開く。
 ファイルの関連付けがされている場合はエクスプローラから該当の PPK ファイルをダブルクリックすればいい。
 そうでない場合は以下のコマンドで PPK ファイルを開く。
 
@@ -146,9 +151,9 @@ SSH 鍵のインポートには2通りの方法あるようだが，今回は簡
 $ pageant.exe id_rsa.PPK
 ```
 
-すると Pagent のプロンプトが1回， `gpg-agent` のプロンプトが2回表示され，都合3回パスフレーズを入力させられる。
+すると Pageant のプロンプトが1回， `gpg-agent` のプロンプトが2回表示され，都合3回パスフレーズを入力させられる。
 
-{{< fig-img flickr="true" src="https://farm2.staticflickr.com/1454/25558118892_045f0a9b8f_o.png" title="Pagent" link="https://www.flickr.com/photos/spiegel/25558118892/" >}}
+{{< fig-img flickr="true" src="https://farm2.staticflickr.com/1454/25558118892_045f0a9b8f_o.png" title="Pageant" link="https://www.flickr.com/photos/spiegel/25558118892/" >}}
 
 {{< fig-img flickr="true" src="https://farm2.staticflickr.com/1485/25558116832_dd02c5d7ec_o.png" title="GnuPG Pinentry (1)" link="https://www.flickr.com/photos/spiegel/25558116832/" >}}
 
@@ -185,7 +190,7 @@ F65BB98767E88930612C6EABC4D4918E2A573903 0
 とプロンプトが表示された。
 めでたし！
 
-## Git for Windows との連携
+## [Git for Windows] との連携
 
 [Git for Windows] と [PuTTY] を連携するには，環境変数 `GIT_SSH` に Plink へのフルパスをセットする。
 
@@ -193,16 +198,9 @@ F65BB98767E88930612C6EABC4D4918E2A573903 0
 setx GIT_SSH=C:\path\to\PuTTY\plink.exe
 ```
 
-一方，リポジトリの `.git\config` ファイルには PPK ファイルの場所をセットする。
+ただし，最近の [Git for Windows] ではインストール時の SSH 接続設定で [PuTTY] を使うよう指定すれば自動的に環境変数をセットしてくれるので，手動で設定する必要はないと思われる。
 
-```ini
-[remote "origin"]
-    puttykeyfile = C:/path/to/PuTTY/id_rsa.PPK
-```
-
-この状態で `git fetch` または `git push` を行うと Plink 経由で `gpg-agent` にリクエストが発生する。
-
-## Windows 版 gpg-agent は OpenSSH と相性が悪い？
+## Windows 版 gpg-agent は [OpenSSH] と相性が悪い？
 
 `gpg-agent` は [OpenSSH] の `ssh-agent` と置き換えることもできる[^sa]。
 `gpg-agent` への SSH 鍵のインポートには `ssh-add` を使うのだが， Windows 環境では上手く動かない。
@@ -210,10 +208,46 @@ setx GIT_SSH=C:\path\to\PuTTY\plink.exe
 
 [MSYS2] 版[^m] と [PowerShell 用](https://github.com/PowerShell/Win32-OpenSSH "PowerShell/Win32-OpenSSH: Win32 port of OpenSSH")の [OpenSSH] で試してみたのだが，いずれも上手くいかなかった。
 [MSYS2] 版については [MSYS2] の [GnuPG] を使えば上手くいくのかもしれないが，面倒なので試してない。
-今後，試す機会があればここに追記する。
 
 [^sa]: `gpg-agent.conf` ファイルに `enable-ssh-support` オプションをセットする。
-[^m]: [Git for Windows] に同梱されている `git bash` も [MSYS2] である。
+[^m]: [Git for Windows] に同梱されている bash も [MSYS2] である。
+
+### ssh-pageant 経由で [OpenSSH] と連携できる！
+
+フィードバックで教えていただいたのだが `ssh-pageant` というツールがあって，これを経由して `gpg-agent` と [OpenSSH] を繋げられるようだ。
+
+- [GitHub - cuviper/ssh-pageant: An SSH authentication agent for Cygwin/MSYS to PuTTY's Pageant.](https://github.com/cuviper/ssh-pageant)
+
+`ssh-pageant` は最近の [Git for Windows] には同梱されている。
+`ssh-pageant` が常駐している状態では， [OpenSSH] からは `ssh-agent` が起動しているように見える。
+一方， `gpg-agent` には [PuTTY] から要求があるように見える。
+
+{{< fig-mermaid >}}
+graph LR
+  OpenSSH-- request key -->ssh-pageant
+  ssh-pageant-- store key -->OpenSSH
+  ssh-pageant-- request key -->gpg-agent
+  gpg-agent-- store key -->ssh-pageant
+{{< /fig-mermaid >}}
+
+この方法の利点は， `enable-putty-support` オプションを有効にしておけば， `gpg-agent` は [PuTTY] とも [OpenSSH] とも全く等価にアクセスできる点だろう。
+欠点は，結局のところ [PuTTY] は手放せないということだろうか（だって bash 以外の環境では今まで通りだし）。
+[Git for Windows] に関しては... もう Plink での接続でいいんじゃないかな。
+
+まぁ Windows だしね。
+
+`ssh-pageant` の起動は bash から以下のコマンドを起動する。
+
+```text
+$ eval $(/usr/bin/ssh-pageant -r -a "/tmp/.ssh-pageant-$USERNAME")
+```
+
+`ssh-agent` と似たようなやりかただな。
+`ssh-pageant` は完全に土管として機能するので，上のコマンドを `.bash_profile` か `.bashrc` に書いておいて bash 起動時に常駐させておけばいいだろう[^bash1]。
+
+[^bash1]: うちの [Git for Windows] 付属の bash では何故か `.bash_profile` を読んでくれない。ので `.bashrc` に書いている。
+
+ `ssh-add` で鍵のインポートができるかどうかは試してないが（Pageant からインポートできてるし）， `ssh-add -l` ってやったらちゃんと鍵情報が取れたので，多分できるんじゃないかな？
 
 ## 参考になる（かもしれない） Web ページ
 
@@ -223,9 +257,12 @@ setx GIT_SSH=C:\path\to\PuTTY\plink.exe
 - [Windowsでのssh agent - Qiita](http://qiita.com/tsuyoshi_cho/items/79c09905ae3f192b3a0f)
 - [SSH authentication using a YubiKey on Windows](https://developers.yubico.com/PGP/SSH_authentication/Windows.html)
 - [Git/Git for Windows/SSHにPuTTYを使う - yanor.net/wiki](http://yanor.net/wiki/?Git%2FGit%20for%20Windows%2FSSH%E3%81%ABPuTTY%E3%82%92%E4%BD%BF%E3%81%86)
-- [GPG Agent under Windows as SSH Agent for git bash - Super User](https://superuser.com/questions/911496/gpg-agent-under-windows-as-ssh-agent-for-git-bash)
+- [GPG Agent under Windows as SSH Agent for  - Super User](https://superuser.com/questions/911496/gpg-agent-under-windows-as-ssh-agent-for-git-bash)
 - [Using GnuPG (2.1) for SSH authentication](http://incenp.org/notes/2015/gnupg-for-ssh-authentication.html)
 - [Convert keys between GnuPG, OpenSsh and OpenSSL - Sysmic.org](http://www.sysmic.org/dotclear/index.php?post/2010/03/24/Convert-keys-betweens-GnuPG%2C-OpenSsh-and-OpenSSL)
+- [Git for WindowsのシェルからPageantでSSH - Qiita](https://qiita.com/jkr_2255/items/f1ebd3fa4a9bf8ee1b03)
+- [Windowsでのssh agent - Qiita](https://qiita.com/tsuyoshi_cho/items/79c09905ae3f192b3a0f)
+- [Big Sky :: Windowsでもssh-agentとssh-addを使ってパスフレーズ入力を省略する。](https://mattn.kaoriya.net/software/20081106192615.htm)
 
 [前回]: {{< relref "openpgp/using-gnupg-for-windows-1.md" >}} "GnuPG for Windows インストール編"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
