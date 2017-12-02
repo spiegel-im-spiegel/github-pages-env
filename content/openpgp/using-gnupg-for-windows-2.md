@@ -190,7 +190,7 @@ F65BB98767E88930612C6EABC4D4918E2A573903 0
 とプロンプトが表示された。
 めでたし！
 
-## [Git for Windows] との連携
+### [Git for Windows] との連携
 
 [Git for Windows] と [PuTTY] を連携するには，環境変数 `GIT_SSH` に Plink へのフルパスをセットする。
 
