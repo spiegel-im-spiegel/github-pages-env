@@ -1,6 +1,7 @@
 +++
 title = "Go 言語でデータ圧縮と解凍"
 date =  "2017-12-03T20:07:25+09:00"
+update =  "2017-12-03T21:12:52+09:00"
 description = "最近データ圧縮と解凍でちょっと悩んだので覚え書きとしてまとめておく。"
 image = "/images/attention/go-code.png"
 tags        = [ "golang", "compress", "zlib", "gzip", "bzip2" ]
@@ -37,45 +38,45 @@ tags        = [ "golang", "compress", "zlib", "gzip", "bzip2" ]
 package main
 
 import (
-	"bytes"
-	"compress/zlib"
-	"fmt"
-	"io"
-	"os"
+    "bytes"
+    "compress/zlib"
+    "fmt"
+    "io"
+    "os"
 )
 
 func compress(r io.Reader) (*bytes.Buffer, error) {
-	buf := new(bytes.Buffer)
-	zw := zlib.NewWriter(buf)
-	if _, err := io.Copy(zw, r); err != nil {
-		return buf, err
-	}
-	return buf, zw.Close()
+    buf := new(bytes.Buffer)
+    zw := zlib.NewWriter(buf)
+    if _, err := io.Copy(zw, r); err != nil {
+        return buf, err
+    }
+    return buf, zw.Close()
 }
 
 func extract(zr io.Reader) (io.Reader, error) {
-	return zlib.NewReader(zr)
+    return zlib.NewReader(zr)
 }
 
 func main() {
-	content := "Hello world\n" //raw data
-	//compress raw data
-	zr, err := compress(bytes.NewBufferString(content))
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
-	//display compressed data
-	b := zr.Bytes()
-	fmt.Printf("%d bytes: %v\n", len(b), b)
-	//extract from compressed data
-	r, err := extract(zr)
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
-	//display extracted data
-	io.Copy(os.Stdout, r)
+    content := "Hello world\n" //raw data
+    //compress raw data
+    zr, err := compress(bytes.NewBufferString(content))
+    if err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
+    //display compressed data
+    b := zr.Bytes()
+    fmt.Printf("%d bytes: %v\n", len(b), b)
+    //extract from compressed data
+    r, err := extract(zr)
+    if err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
+    //display extracted data
+    io.Copy(os.Stdout, r)
 }
 ```
 
@@ -98,48 +99,48 @@ Hello world
 package main
 
 import (
-	"bytes"
-	"compress/flate"
-	"fmt"
-	"io"
-	"os"
+    "bytes"
+    "compress/flate"
+    "fmt"
+    "io"
+    "os"
 )
 
 func compress(r io.Reader) (*bytes.Buffer, error) {
-	buf := new(bytes.Buffer)
-	zw, err := flate.NewWriter(buf, flate.BestCompression)
-	if err != nil {
-		return buf, err
-	}
-	if _, err := io.Copy(zw, r); err != nil {
-		return buf, err
-	}
-	return buf, zw.Close()
+    buf := new(bytes.Buffer)
+    zw, err := flate.NewWriter(buf, flate.BestCompression)
+    if err != nil {
+        return buf, err
+    }
+    if _, err := io.Copy(zw, r); err != nil {
+        return buf, err
+    }
+    return buf, zw.Close()
 }
 
 func extract(zr io.Reader) (io.Reader, error) {
-	return flate.NewReader(zr), nil
+    return flate.NewReader(zr), nil
 }
 
 func main() {
-	content := "Hello world\n" //raw data
-	//compress raw data
-	zr, err := compress(bytes.NewBufferString(content))
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
-	//display compressed data
-	b := zr.Bytes()
-	fmt.Printf("%d bytes: %v\n", len(b), b)
-	//extract from compressed data
-	r, err := extract(zr)
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
-	//display extracted data
-	io.Copy(os.Stdout, r)
+    content := "Hello world\n" //raw data
+    //compress raw data
+    zr, err := compress(bytes.NewBufferString(content))
+    if err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
+    //display compressed data
+    b := zr.Bytes()
+    fmt.Printf("%d bytes: %v\n", len(b), b)
+    //extract from compressed data
+    r, err := extract(zr)
+    if err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
+    //display extracted data
+    io.Copy(os.Stdout, r)
 }
 ```
 
@@ -176,48 +177,48 @@ Hello world
 package main
 
 import (
-	"bytes"
-	"compress/gzip"
-	"fmt"
-	"io"
-	"os"
+    "bytes"
+    "compress/gzip"
+    "fmt"
+    "io"
+    "os"
 )
 
 func compress(r io.Reader) (*bytes.Buffer, error) {
-	buf := new(bytes.Buffer)
-	zw, err := gzip.NewWriterLevel(buf, gzip.BestCompression)
-	if err != nil {
-		return buf, err
-	}
-	if _, err := io.Copy(zw, r); err != nil {
-		return buf, err
-	}
-	return buf, zw.Close()
+    buf := new(bytes.Buffer)
+    zw, err := gzip.NewWriterLevel(buf, gzip.BestCompression)
+    if err != nil {
+        return buf, err
+    }
+    if _, err := io.Copy(zw, r); err != nil {
+        return buf, err
+    }
+    return buf, zw.Close()
 }
 
 func extract(zr io.Reader) (io.Reader, error) {
-	return gzip.NewReader(zr)
+    return gzip.NewReader(zr)
 }
 
 func main() {
-	content := "Hello world\n" //raw data
-	//compress raw data
-	zr, err := compress(bytes.NewBufferString(content))
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
-	//display compressed data
-	b := zr.Bytes()
-	fmt.Printf("%d bytes: %v\n", len(b), b)
-	//extract from compressed data
-	r, err := extract(zr)
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
-	//display extracted data
-	io.Copy(os.Stdout, r)
+    content := "Hello world\n" //raw data
+    //compress raw data
+    zr, err := compress(bytes.NewBufferString(content))
+    if err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
+    //display compressed data
+    b := zr.Bytes()
+    fmt.Printf("%d bytes: %v\n", len(b), b)
+    //extract from compressed data
+    r, err := extract(zr)
+    if err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
+    //display extracted data
+    io.Copy(os.Stdout, r)
 }
 ```
 
@@ -246,29 +247,29 @@ Hello world
 package main
 
 import (
-	"bytes"
-	"compress/bzip2"
-	"fmt"
-	"io"
-	"os"
+    "bytes"
+    "compress/bzip2"
+    "fmt"
+    "io"
+    "os"
 )
 
 func extract(zr io.Reader) (io.Reader, error) {
-	return bzip2.NewReader(zr), nil
+    return bzip2.NewReader(zr), nil
 }
 
 func main() {
-	cdata := []byte{66, 90, 104, 57, 49, 65, 89, 38, 83, 89, 176, 48, 136, 246, 0, 0, 1, 85, 128, 0, 16, 64, 0, 0, 64, 6, 4, 144, 128, 32, 0, 34, 40, 246, 166, 244, 8, 6, 4, 105, 205, 172, 132, 162, 238, 72, 167, 10, 18, 22, 6, 17, 30, 192}
-	//display compressed data
-	fmt.Printf("%d bytes: %v\n", len(cdata), cdata)
-	//extract from compressed data
-	r, err := extract(bytes.NewReader(cdata))
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
-	//display extracted data
-	io.Copy(os.Stdout, r)
+    cdata := []byte{66, 90, 104, 57, 49, 65, 89, 38, 83, 89, 176, 48, 136, 246, 0, 0, 1, 85, 128, 0, 16, 64, 0, 0, 64, 6, 4, 144, 128, 32, 0, 34, 40, 246, 166, 244, 8, 6, 4, 105, 205, 172, 132, 162, 238, 72, 167, 10, 18, 22, 6, 17, 30, 192}
+    //display compressed data
+    fmt.Printf("%d bytes: %v\n", len(cdata), cdata)
+    //extract from compressed data
+    r, err := extract(bytes.NewReader(cdata))
+    if err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
+    //display extracted data
+    io.Copy(os.Stdout, r)
 }
 ```
 
@@ -290,51 +291,49 @@ Hello world
 package main
 
 import (
-	"bytes"
-	"fmt"
-	"io"
-	"os"
+    "bytes"
+    "fmt"
+    "io"
+    "os"
 
-	"github.com/dsnet/compress/bzip2"
+    "github.com/dsnet/compress/bzip2"
 )
 
 func compress(r io.Reader) (*bytes.Buffer, error) {
-	buf := new(bytes.Buffer)
-	conf := new(bzip2.WriterConfig)
-	conf.Level = bzip2.BestCompression
-	zw, err := bzip2.NewWriter(buf, conf)
-	if err != nil {
-		return buf, err
-	}
-	if _, err := io.Copy(zw, r); err != nil {
-		return buf, err
-	}
-	return buf, zw.Close()
+    buf := new(bytes.Buffer)
+    zw, err := bzip2.NewWriter(buf, &bzip2.WriterConfig{Level: bzip2.BestCompression})
+    if err != nil {
+        return buf, err
+    }
+    if _, err := io.Copy(zw, r); err != nil {
+        return buf, err
+    }
+    return buf, zw.Close()
 }
 
 func extract(zr io.Reader) (io.Reader, error) {
-	return bzip2.NewReader(zr, new(bzip2.ReaderConfig))
+    return bzip2.NewReader(zr, new(bzip2.ReaderConfig))
 }
 
 func main() {
-	content := "Hello world\n" //raw data
-	//compress raw data
-	zr, err := compress(bytes.NewBufferString(content))
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
-	//display compressed data
-	b := zr.Bytes()
-	fmt.Printf("%d bytes: %v\n", len(b), b)
-	//extract from compressed data
-	r, err := extract(zr)
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
-	//display extracted data
-	io.Copy(os.Stdout, r)
+    content := "Hello world\n" //raw data
+    //compress raw data
+    zr, err := compress(bytes.NewBufferString(content))
+    if err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
+    //display compressed data
+    b := zr.Bytes()
+    fmt.Printf("%d bytes: %v\n", len(b), b)
+    //extract from compressed data
+    r, err := extract(zr)
+    if err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
+    //display extracted data
+    io.Copy(os.Stdout, r)
 }
 ```
 
