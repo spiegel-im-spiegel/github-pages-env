@@ -1,7 +1,7 @@
 +++
 title = "OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）"
 date =  "2017-12-01T17:47:50+09:00"
-update =  "2017-12-02T16:20:26+09:00"
+update =  "2017-12-03T15:12:36+09:00"
 description = "RFC 4880bis は，名前の通り，ドラフト段階なので今後変わる可能性がある。正式な RFC 番号が振られた段階でこの記事の最終稿とする予定である。"
 image = "/images/attention/openpgp.png"
 tags = [
@@ -195,7 +195,8 @@ ID は [OpenPGP] で定義されるもので ”pub 1” のように表記す�
 - 表には書いてないが pub 4 から pub 15 は予約済み（Reserved）である
 - [RFC 4880bis] では pub 16 の ElGamal, pub 17 の DSA, pub 18 の ECDH, pub 19 の ECDSA が "MUST implement” となる（現行の [RFC 4880] では ElGamal と DSA が "MUST implement”）
 - pub 20 の ElGamal は，元々暗号化と署名の両方できるものだったが，脆弱性が見つかったため [OpenPGP] では使用禁止になった
-- EdDSA は2017年1月に [RFC 8032] として正式に RFC 化された。ただし [OpenPGP] ではまだドラフト段階である
+- pub 22 の EdDSA は2017年1月に [RFC 8032] として正式に RFC 化された。ただし [OpenPGP] ではまだドラフト段階である
+-  pub 18 の ECDH, pub 19 の ECDSA, pub 22 の EdDSA で利用可能な楕円曲線については「[そろそろ GnuPG でも ECC を標準で使うのがいいんじゃないかな]({{< relref "openpgp/using-ecc-with-gnupg.md" >}})」で紹介している
 
 ## 一方向ハッシュ関数アルゴリズム（Hash Algorithms）
 

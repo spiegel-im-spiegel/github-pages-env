@@ -1,6 +1,7 @@
 +++
 title = "そろそろ GnuPG でも ECC を標準で使うのがいいんじゃないかな"
 date =  "2017-12-02T16:20:26+09:00"
+update =  "2017-12-03T15:12:36+09:00"
 description = "手っ取り早く ECC 鍵を作りたいなら --quick-generate-key コマンドでアルゴリズムに future-default を指定すればよい。"
 image = "/images/attention/openpgp.png"
 tags = [
@@ -60,7 +61,7 @@ sub   cv25519 2017-12-02 [E]
 
 作成した鍵を私作の [gpgpdump] [^gpd] で見てみるとこんな感じになっている。
 
-[^gpd]: [gpgpdump] v0.3.3 以降なら多分大丈夫。
+[^gpd]: [gpgpdump] v0.3.4 以降なら多分大丈夫。
 
 {{< highlight text "hl_lines=2-9 52-62" >}}
 $ gpg -a --export alice | gpgpdump
@@ -69,7 +70,7 @@ Public-Key Packet (tag 6) (51 bytes)
     Public key creation time: 2017-12-02T10:37:17+09:00
         5a 22 03 cd
     Public-key Algorithm: EdDSA (pub 22)
-    ECC OID: ed25519
+    ECC Curve OID: ed25519
         2b 06 01 04 01 da 47 0f 01
     EdDSA EC point (04 || X || Y) (263 bits)
 User ID Packet (tag 13) (25 bytes)
@@ -119,7 +120,7 @@ Public-Subkey Packet (tag 14) (56 bytes)
     Public key creation time: 2017-12-02T10:37:17+09:00
         5a 22 03 cd
     Public-key Algorithm: ECDH public key algorithm (pub 18)
-    ECC OID: cv25519
+    ECC Curve OID: cv25519
         2b 06 01 04 01 97 55 01 05 01
     ECDH EC point (04 || X || Y) (263 bits)
     KDF parameters (3 bytes)
@@ -184,7 +185,7 @@ $(a,b,q)$ といったパラメータを眺めただけでは鍵長が分から�
 [^ecc1]: 楕円曲線と楕円曲線暗号については結城浩さんの『[暗号技術入門 第3版](http://www.amazon.co.jp/exec/obidos/ASIN/B015643CPE/baldandersinf-22/)』の付録に比較的分かりやすい解説が載っている。同じく結城浩さんの『[数学ガール ガロア理論](http://www.amazon.co.jp/exec/obidos/ASIN/B00L0PDMK4/baldandersinf-22/)』が何となく分かれば楕円曲線についても何となく分かると思う。大丈夫。私も何となくしか分かっていない（笑）
 
 そこで ECC の場合は楕円曲線を表すパラメータのセットが標準化されていて，そのセットを識別する ECC Curve OID (Object IDentifier) も決められている。
-先程書いた [gpgpdump] 出力結果の "`ECC OID`” の項目がそれに該当する。
+先程書いた [gpgpdump] 出力結果の "`ECC Curve OID`” の項目がそれに該当する。
 
 つまり ECC Curve OID から楕円曲線の種類を特定し，そこから鍵長も分かる，というわけだ。
 
@@ -193,18 +194,21 @@ $(a,b,q)$ といったパラメータを眺めただけでは鍵長が分から�
 そこで， [GnuPG] で利用できる楕円曲線をリストアップしておく。
 
 表の左端列の「GnuPG」は [GnuPG] で表示される楕円曲線名を示す。
+楕円曲線名に鍵長が含まれている（ただし `cv25519` と `ed25519` は 256bits）。
 右端列の「強度」は鍵長ではなく，セキュリティ強度なのでご注意を。
 
 ### SECG/NIST 推奨パラメータ
 
 | GnuPG | SECG | NIST | アルゴリズム | 強度 bits |
 |:------|:-----|:-----|:------------:|:--------:|
-| `nistp256` | secp256r1 | NIST P-256 | ECDH, ECDSA | 128 |
-| `nistp384` | secp384r1 | NIST P-384 | ECDH, ECDSA | 192 |
-| `nistp521` | secp521r1 | NIST P-521 | ECDH, ECDSA | 256 |
+| `nistp256` | secp256r1 | NIST curve P-256 | ECDH, ECDSA | 128 |
+| `nistp384` | secp384r1 | NIST curve P-384 | ECDH, ECDSA | 192 |
+| `nistp521` | secp521r1 | NIST curve P-521 | ECDH, ECDSA | 256 |
 | `secp256k1` | secp256k1 |  | ECDH, ECDSA | 128 |
 
 SECG/NIST の楕円曲線名とのマッピングは [RFC 4492] を参考にした。
+`nistp256`, `nistp384`, `nistp521` は既に [RFC 6637] で定義済みなので正式に使える。
+[RFC 6637] では NIST curve P-256 については "MUST implement”， NIST curve P-521 については "SHOULD implement”， NIST curve P-384 については "MAY implement” となっている。
 
 ### Brainpool
 
@@ -215,6 +219,7 @@ SECG/NIST の楕円曲線名とのマッピングは [RFC 4492] を参考にし�
 | `brainpoolP512r1` | ECDH, ECDSA | 256 |
 
 Brainpool については [RFC 5639] を参照のこと。
+[RFC 4880bis] では `brainpoolP256r1` および `brainpoolP512r1` については "MAY implement” となっている。
 
 ### その他
 
@@ -224,6 +229,7 @@ Brainpool については [RFC 5639] を参照のこと。
 | `ed25519` | EdDSA | 128 |
 
 EdDSA については [RFC 8032] を参照のこと。
+[RFC 4880bis] では Curve25519 (`cv25519`) および Ed25519 (`ed25519`) については "SHOULD implement” となっている。
 
 ## セキュリティ強度と楕円曲線
 
@@ -355,6 +361,7 @@ $ gpg --full-gen-key --expert
 [RFC 4492]: https://tools.ietf.org/html/rfc4492 "RFC 4492 - Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS)"
 [RFC 8032]: https://tools.ietf.org/html/rfc8032 "RFC 8032 - Edwards-Curve Digital Signature Algorithm (EdDSA)"
 [RFC 5639]: https://tools.ietf.org/html/rfc5639 "RFC 5639 - Elliptic Curve Cryptography (ECC) Brainpool Standard Curves and Curve Generation"
+[RFC 6637]: https://tools.ietf.org/html/rfc6637 "RFC 6637 - Elliptic Curve Cryptography (ECC) in OpenPGP"
 
 
 ## 参考図書
