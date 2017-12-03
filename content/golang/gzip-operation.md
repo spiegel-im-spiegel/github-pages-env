@@ -1,9 +1,9 @@
 +++
 title = "Gzip 操作について覚え書き"
 date =  "2017-09-19T17:31:49+09:00"
-update =  "2017-09-22T16:37:42+09:00"
+update =  "2017-12-03T20:07:14+09:00"
 description = "このようにインスタンスの生存期間を意識することで Go 言語の得意なパターンに嵌めることが容易になる。"
-tags        = [ "golang", "gzip", "defer" ]
+tags        = [ "golang", "compress", "gzip", "defer" ]
 
 [author]
   name      = "Spiegel"
