@@ -1,6 +1,7 @@
 +++
 title = "2017-11-25 のブックマーク"
 date =  "2017-11-25T14:01:36+09:00"
+update = "2017-12-03T16:22:47+09:00"
 description = "「FCC、オバマ前大統領導入の「ネット中立性」廃止勧告 12月に採決へ」他"
 image = "/images/avatar.jpg"
 
@@ -48,6 +49,7 @@ flattr    = "spiegel"
 - [Invite Ross 128 Over This Thanksgiving - Sky & Telescope](http://www.skyandtelescope.com/observing/drop-by-ross-128-this-thanksgiving/) : 地球サイズの惑星を持つ Ross 128 はポータブル望遠鏡でも見えるかも，らしい
 - [雷が大気中で原子核反応を起こしている証拠 - 柏崎市上空で陽電子が生成 | マイナビニュース](http://news.mynavi.jp/news/2017/11/24/029/)
     - [雷が原子核反応を起こす証拠 – academist「雷雲プロジェクト」の研究成果がNature誌に掲載！ – academist Journal](https://academist-cf.com/journal/?p=6503)
+    - [2017年12月1日ニュース「雷の『核反応』で陽電子が生まれている」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/12/20171201_01.html)
 - [宇宙エレベーター、2018年に地上と宇宙で実証実験を目指す | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_11_24jsea.html)
 
 ## その他
