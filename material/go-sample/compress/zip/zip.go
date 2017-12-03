@@ -14,10 +14,12 @@ func compress(r io.Reader) (*bytes.Buffer, error) {
 	if err != nil {
 		return buf, err
 	}
+	defer zw.Close()
+
 	if _, err := io.Copy(zw, r); err != nil {
 		return buf, err
 	}
-	return buf, zw.Close()
+	return buf, nil
 }
 
 func extract(zr io.Reader) (io.Reader, error) {

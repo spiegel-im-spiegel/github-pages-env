@@ -1,7 +1,7 @@
 +++
 title = "Go 言語でデータ圧縮と解凍"
 date =  "2017-12-03T20:07:25+09:00"
-update =  "2017-12-03T21:12:52+09:00"
+update =  "2017-12-04T07:44:18+09:00"
 description = "最近データ圧縮と解凍でちょっと悩んだので覚え書きとしてまとめておく。"
 image = "/images/attention/go-code.png"
 tags        = [ "golang", "compress", "zlib", "gzip", "bzip2" ]
@@ -48,10 +48,12 @@ import (
 func compress(r io.Reader) (*bytes.Buffer, error) {
     buf := new(bytes.Buffer)
     zw := zlib.NewWriter(buf)
+    defer zw.Close()
+
     if _, err := io.Copy(zw, r); err != nil {
         return buf, err
     }
-    return buf, zw.Close()
+    return buf, nil
 }
 
 func extract(zr io.Reader) (io.Reader, error) {
@@ -112,10 +114,12 @@ func compress(r io.Reader) (*bytes.Buffer, error) {
     if err != nil {
         return buf, err
     }
+    defer zw.Close()
+
     if _, err := io.Copy(zw, r); err != nil {
         return buf, err
     }
-    return buf, zw.Close()
+    return buf, nil
 }
 
 func extract(zr io.Reader) (io.Reader, error) {
@@ -190,10 +194,12 @@ func compress(r io.Reader) (*bytes.Buffer, error) {
     if err != nil {
         return buf, err
     }
+    defer zw.Close()
+
     if _, err := io.Copy(zw, r); err != nil {
         return buf, err
     }
-    return buf, zw.Close()
+    return buf, nil
 }
 
 func extract(zr io.Reader) (io.Reader, error) {
@@ -305,10 +311,12 @@ func compress(r io.Reader) (*bytes.Buffer, error) {
     if err != nil {
         return buf, err
     }
+    defer zw.Close()
+
     if _, err := io.Copy(zw, r); err != nil {
         return buf, err
     }
-    return buf, zw.Close()
+    return buf, nil
 }
 
 func extract(zr io.Reader) (io.Reader, error) {
@@ -353,8 +361,8 @@ Hello world
 
 - [Go言語でzipファイル解凍 - Qiita](https://qiita.com/hnaohiro/items/e6fd3154bd277bc6302e)
 - [Big Sky :: バイナリ一つで zip, tar.gz, tar.bz2, tar.xz が開けるコマンド「archiver」(と go1.8 への対応方法)](https://mattn.kaoriya.net/software/lang/go/20161202095532.htm)
+    - [Big Sky :: Golang の archive/zip でタイムゾーンの問題とファイル名の問題が解決した。](https://mattn.kaoriya.net/software/lang/go/20171111154359.htm)
 - [golang標準ライブラリから学ぶzipファイルの構造](https://blog.freedom-man.com/zip-structure-golang/)
-- [Big Sky :: Golang の archive/zip でタイムゾーンの問題とファイル名の問題が解決した。](https://mattn.kaoriya.net/software/lang/go/20171111154359.htm)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`compress/flate`]: https://golang.org/pkg/compress/flate/ "flate - The Go Programming Language"

@@ -1,7 +1,7 @@
 +++
 title = "gpgpdump 0.3.0 をリリースした"
 date =  "2017-11-26T19:21:26+09:00"
-update =  "2017-11-27T20:31:01+09:00"
+update =  "2017-12-04T07:44:18+09:00"
 description = "OpenPGP パケットの内容を視覚化する gpgpdump の 0.3.0 をリリースした。このバージョンでようやく pgpdump に近い出力ができるようになった。"
 image = "/images/attention/remark.jpg"
 tags = ["tools", "openpgp", "golang", "gpgpdump"]
@@ -151,7 +151,7 @@ Compressed Data Packet (tag 8) (149 bytes)
 
 [RFC 1951] を [Go 言語]でどうやって実装するのか分からなくてさ。
 [`compress/flate`] パッケージを使えばいいと気づくまで試行錯誤しちゃったよ（自作しなくて済んだ）。
-この辺はそのうち別の記事で紹介する。
+この辺は[別の記事]({{< relref "golang/compress-data.md" >}} "Go 言語でデータ圧縮と解凍")で紹介する。
 
 現在のオプションはこんな感じ。
 

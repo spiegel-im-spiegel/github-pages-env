@@ -11,10 +11,12 @@ import (
 func compress(r io.Reader) (*bytes.Buffer, error) {
 	buf := new(bytes.Buffer)
 	zw := zlib.NewWriter(buf)
+	defer zw.Close()
+
 	if _, err := io.Copy(zw, r); err != nil {
 		return buf, err
 	}
-	return buf, zw.Close()
+	return buf, nil
 }
 
 func extract(zr io.Reader) (io.Reader, error) {
