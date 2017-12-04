@@ -263,6 +263,8 @@ $ eval $(/usr/bin/ssh-pageant -r -a "/tmp/.ssh-pageant-$USERNAME")
 - [Git for WindowsのシェルからPageantでSSH - Qiita](https://qiita.com/jkr_2255/items/f1ebd3fa4a9bf8ee1b03)
 - [Windowsでのssh agent - Qiita](https://qiita.com/tsuyoshi_cho/items/79c09905ae3f192b3a0f)
 - [Big Sky :: Windowsでもssh-agentとssh-addを使ってパスフレーズ入力を省略する。](https://mattn.kaoriya.net/software/20081106192615.htm)
+- [KeeAgent – lechnology.com](https://lechnology.com/software/keeagent/) : パスワード管理ツール [KeePass] のプラグインで， [KeePass] のパスワードデータベースを使って SSH 鍵を管理し Agent 機能で SSH に鍵を渡す仕組みらしい。  [PuTTY] と [OpenSSH] に対応しているようだ
+
 
 [前回]: {{< relref "openpgp/using-gnupg-for-windows-1.md" >}} "GnuPG for Windows インストール編"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
@@ -271,3 +273,4 @@ $ eval $(/usr/bin/ssh-pageant -r -a "/tmp/.ssh-pageant-$USERNAME")
 [Git for Windows]: https://git-for-windows.github.io/ "Git for Windows"
 [OpenSSH]: http://www.openssh.com/ "OpenSSH"
 [MSYS2]: http://msys2.github.io/ "MSYS2 installer"
+[KeePass]: https://keepass.info/ "KeePass Password Safe"
