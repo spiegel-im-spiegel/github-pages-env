@@ -1,0 +1,145 @@
++++
+title = "文字エンコーディングの検出"
+date =  "2017-12-04T12:42:55+09:00"
+description = "文字エンコーディングを変換するのはいいのだが，そのためには元の文字列の文字エンコーディングが分かってないといけない。あぁ，これみんな苦労してるやつだよね。"
+image = "/images/attention/go-code.png"
+tags = ["golang", "character", "encoding", "transform"]
+
+[author]
+  name      = "Spiegel"
+  url       = "http://www.baldanders.info/spiegel/profile/"
+  avatar    = "/images/avatar.jpg"
+  license   = "by-sa"
+  github    = "spiegel-im-spiegel"
+  twitter   = "spiegel_2007"
+  tumblr    = "spiegel-im-spiegel"
+  instagram = "spiegel_2007"
+  flickr    = "spiegel"
+  facebook  = "spiegel.im.spiegel"
+  linkedin  = "spiegelimspiegel"
+  flattr    = "spiegel"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
++++
+
+以前に洒落で作った「[Markdown 形式のリンクを生成するツール]({{< relref "golang/make-link-with-markdown-format.md" >}} "Markdown 形式のリンクを生成するツールを作ってみた")」が思いのほか便利で重宝しているのだが，実際に使ってみると EUC-JP や Shift-JIS な日本語サイトが今だにあって，最初は手で修正していたのだが，だんだん面倒臭くなってきたので変換ロジックを入れることにした。
+
+[文字エンコーディングを変換する]({{< relref "golang/transform-character-encoding.md" >}} "文字エンコーディング変換")のはいいのだが，そのためには元の文字列の文字エンコーディングが分かってないといけない。
+HTML の中の "charset” を見て変換する手もあるのだが， HTML のバージョンによってお作法が違うし，そもそもそれが正しいとは限らない。
+あぁ，これみんな苦労してるやつだよね。
+
+文字列が UTF-8 かどうかは [`utf8`].`ValidString()` 関数で分かるので，そこから強引に各種文字エンコーディング変換を試すという力技もあるが，あんまりスマートじゃない。
+それは最後の手段に取っておくとして，まずは文字エンコーディング検出ができるパッケージを誰か公開してないか探してみた。
+したら，ありましたよ。
+
+- [chardet/detector_test.go at master · saintfish/chardet](https://github.com/saintfish/chardet)
+
+しかも，これを使って簡易 nkf を [Go 言語]で公開しておられる方もいた。
+
+- [Go言語でnkfみたいなやつ - How to spend the terminal](http://moxtsuan.hatenablog.com/entry/nkf-go)
+    - [moxtsuan/go-nkf: tiny nkf(Only JIS, SJIS, EUC-JP, UTF-8)](https://github.com/moxtsuan/go-nkf)
+
+[`moxtsuan/go-nkf`] は今回の目的にはオーバースペックなので，参考にしつつも自前で [`saintfish/chardet`] を組み込んでみることにした。
+具体的には [`charencode.go`](https://github.com/spiegel-im-spiegel/mklink/blob/master/charencode.go "mklink/charencode.go at master · spiegel-im-spiegel/mklink") というファイルだ。
+
+まず文字エンコーディングの検出部分はこんな感じに書ける。
+
+{{< highlight go "hl_lines=5-6" >}}
+import "github.com/saintfish/chardet"
+
+//DetectCharEncode returns character encoding
+func DetectCharEncode(body []byte) CharEncode {
+	det := chardet.NewTextDetector()
+	res, err := det.DetectBest(body)
+	if err != nil {
+		return CharUnknown
+	}
+	return TypeofCharEncode(res.Charset)
+}
+{{< /highlight >}}
+
+関数内の最初の2行で [`saintfish/chardet`] による文字エンコーディング検出を行っている。
+結果は `res.Charset` に文字列（！）で格納されるのだが，文字列で取り回すのはあんまりなので
+
+```go
+//CharEncode is type of character encoding
+type CharEncode int
+
+const (
+	//CharUnknown is unknown character
+	CharUnknown CharEncode = iota
+	//CharUTF8 is UTF-8
+	CharUTF8
+	//CharISO8859_1 is ISO-8859-1
+	CharISO8859_1
+	//CharShiftJIS is Shift-JIS
+	CharShiftJIS
+	//CharEUCJP is EUC-JP
+	CharEUCJP
+	//CharISO2022JP is ISO-2022-JP
+	CharISO2022JP
+)
+```
+
+という enum 型を作って，最終的にはこれを返すようにしている。
+これを見て分かるように今のところは Shift-JIS, EUC-JP, ISO-2022-JP のみ対応している。
+中国語とか韓国語とかは知らんぷりする（笑）
+
+`DetectCharEncode()` 関数の結果を使って実際に UTF-8 へ変換する。
+こんな感じ。
+
+```go
+import (
+	"bytes"
+	"io"
+
+	"github.com/saintfish/chardet"
+	"golang.org/x/text/encoding/japanese"
+	"golang.org/x/text/transform"
+)
+
+//ToUTF8 returns string with UTF-8 encoding
+func ToUTF8(body []byte) string {
+	var trans transform.Transformer
+	switch DetectCharEncode(body) {
+	case CharUTF8, CharISO8859_1:
+		return string(body)
+	case CharShiftJIS:
+		trans = japanese.ShiftJIS.NewDecoder()
+	case CharEUCJP:
+		trans = japanese.EUCJP.NewDecoder()
+	case CharISO2022JP:
+		trans = japanese.ISO2022JP.NewDecoder()
+	default:
+		return ""
+	}
+	buf := new(bytes.Buffer)
+	io.Copy(buf, transform.NewReader(bytes.NewReader(body), trans))
+	return buf.String()
+}
+```
+
+UTF-8 および ISO-8859-1 (Latin-1) は素通し。
+他は decoder を作って変換を行っている。
+
+これを組み込んで実際に動かしてみた。
+とりあえず ITmedia (Shift-JIS) とはてなダイアリー（EUC-JP）のサイトで確認したが，ちゃんと動いてるっぽい。
+ただ，やっぱり時々失敗するんだよねー。
+まぁこれはしょうがないか。
+
+失敗が多いようなら最終手段（片っ端から変換を試す）を執ることにしよう。
+あっ，コードの再利用は（こんなんでよければ）ご自由に。
+
+[Go 言語]: https://golang.org/ "The Go Programming Language"
+[`utf8`]: https://golang.org/pkg/unicode/utf8/ "utf8 - The Go Programming Language"
+[`saintfish/chardet`]: https://github.com/saintfish/chardet "saintfish/chardet: Charset detector library for golang derived from ICU"
+[`moxtsuan/go-nkf`]: https://github.com/moxtsuan/go-nkf "moxtsuan/go-nkf: tiny nkf(Only JIS, SJIS, EUC-JP, UTF-8)"
+
+## 参考図書
+
+<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4621300253/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/410V3ulwP5L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4621300253/baldandersinf-22/">プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)</a></dt><dd>Alan A.A. Donovan Brian W. Kernighan 柴田 芳樹 </dd><dd>丸善出版 2016-06-20</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798142417/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4798142417.09._SCTHUMBZZZ_.jpg"  alt="スターティングGo言語 (CodeZine BOOKS)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4873117526/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4873117526.09._SCTHUMBZZZ_.jpg"  alt="Go言語によるWebアプリケーション開発"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4865940391/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4865940391.09._SCTHUMBZZZ_.jpg"  alt="Kotlinスタートブック -新しいAndroidプログラミング"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4839959234/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4839959234.09._SCTHUMBZZZ_.jpg"  alt="Docker実戦活用ガイド"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4274218961/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4274218961.09._SCTHUMBZZZ_.jpg"  alt="グッド・マス ギークのための数・論理・計算機科学"  /></a> </p>
+<p class="description">著者のひとりは（あの「バイブル」とも呼ばれる）通称 “K&amp;R” の K のほうである。</p>
+<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-07-13">2016-07-13</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+</div>
