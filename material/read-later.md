@@ -24,6 +24,7 @@ NTT 新規契約 0800-2000-1160
 
 ## セキュリティ関連
 
+- [Mozilla、新しいセキュリティ機能「Breach Alerts」の開発を発表 | Think IT（シンクイット）](https://thinkit.co.jp/news/bn/13039)
 
 ## 天文関連
 
@@ -33,5 +34,6 @@ NTT 新規契約 0800-2000-1160
 
 ## その他
 
+- [青空文庫年表（サーバー関連編） 1997-2017 - Qiita](https://qiita.com/takahashim/items/077a1eeba805c7237cd5)
 
 (end of file)

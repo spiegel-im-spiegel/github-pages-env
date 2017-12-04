@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-12-03T16:22:47+09:00"
+update = "2017-12-04T12:58:03+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -128,6 +128,8 @@ title = "Go 言語に関するブックマーク"
 - [Big Sky :: Go言語でインタフェースの変更がそれ程問題にならない理由](http://mattn.kaoriya.net/software/lang/go/20130919023425.htm)
 - [Go で interface {} の中身がポインタならその参照先を取得する - Qiita](http://qiita.com/chimatter/items/b0879401d6666589ab71)
 - [Go で型を抽象的に扱うには - Qiita](https://qiita.com/nirasan/items/d1b80ecc7a7a7f0af2b7)
+- [GoのInterfaceとは何者なのか #golang #go - niconegoto Blog](http://niconegoto.hatenadiary.jp/entry/2017/12/03/222922)
+- [インタフェースの実装パターン #golang - Qiita](https://qiita.com/tenntenn/items/eac962a49c56b2b15ee8)
 
 #### 数値型
 
@@ -218,6 +220,7 @@ title = "Go 言語に関するブックマーク"
 - [Handling CTRL-C (interrupt signal) in Golang Programs | I care, I share, I'm Nathan LeClaire.](https://nathanleclaire.com/blog/2014/08/24/handling-ctrl-c-interrupt-signal-in-golang-programs/)
 - [Go context.Context interfaceに Cancelが含まれていない理由 - Qiita](https://qiita.com/YmgchiYt/items/abc6c0a8f57b47fdfcae)
 - [Goroutineハンターが過労死する前に - Qiita](https://qiita.com/i_yudai/items/3336a503079ac5749c35)
+- [or-done-channelでコードの可読性を上げる - YAMAGUCHI::weblog](http://ymotongpoo.hatenablog.com/entry/2017/12/04/091403)
 
 Go 言語で複数 CPU を使った並列処理を行うには明示的な設定が必要。
 
@@ -311,6 +314,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go で利用できるプロファイリングツール pprof の読み方 - Qiita](http://qiita.com/ikawaha/items/e3b35f09fb49e9217924)
 - [Goでfunctionが実行された順番を追いかける - sgykfjsm.github.com](http://sgykfjsm.github.io/blog/2016/01/20/golang-function-tracing/)
 - [Go言語でプリント文デバッグするときのTips - Qiita](http://qiita.com/ohac/items/0aa8eb6ff8ee5f599dcd)
+- [GitHub - derekparker/delve: Delve is a debugger for the Go programming language.](https://github.com/derekparker/delve)
+    - [Golangのデバッガdelveの使い方 - Qiita](https://qiita.com/minamijoyo/items/4da68467c1c5d94c8cd7)
 
 ### テスト・フレームワーク
 
@@ -394,6 +399,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Big Sky :: Golang で Windows の DLL を作る方法](http://mattn.kaoriya.net/software/lang/go/20160921010820.htm)
 - [GoでShared Libraryをビルドしてみた(簡単ドキュメント指向DB) - Qiita](http://qiita.com/umisama/items/48ba74a58f1e6530e305)
 - [cgoやってみた - Qiita](https://qiita.com/shunsukuda/items/e9646e1a6acc863f3594)
+- [GoとCの間のポインタ渡し - Qiita](https://qiita.com/74th/items/0362bea2012ef253c539)
+- [Cgoを使ったパッケージと「Docker as Bug Report/Reproduce」というOSS運用について - DRYな備忘録](http://otiai10.hatenablog.com/entry/2017/12/04/013819)
 
 ### 組み込み開発
 
@@ -588,6 +595,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [MySQLでのトランザクション処理をGolang+dbrで実現してゆく話 - Qiita](http://qiita.com/CST_negi/items/d79600c34191adb09c79)
 - [(メモ)mattn/go-sqlite3を使ってみた - Qiita](https://qiita.com/tukiyo3/items/89c773fd7ffce2adfadd)
 - [GOのORM sqlboiler 使ってみた　 - Qiita](https://qiita.com/gougyan/items/5295e4a30697a73868b5)
+- [GoでMySQLにアクセスしてみる（gorp編） - Qiita](https://qiita.com/hanenao/items/103774f76abdbc853abf)
 
 ### GAE/Go
 
