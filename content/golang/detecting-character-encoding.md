@@ -1,6 +1,7 @@
 +++
 title = "文字エンコーディングの検出"
 date =  "2017-12-04T12:42:55+09:00"
+update =  "2017-12-04T23:01:30+09:00"
 description = "文字エンコーディングを変換するのはいいのだが，そのためには元の文字列の文字エンコーディングが分かってないといけない。あぁ，これみんな苦労してるやつだよね。"
 image = "/images/attention/go-code.png"
 tags = ["golang", "character", "encoding", "transform"]
@@ -129,8 +130,61 @@ UTF-8 および ISO-8859-1 (Latin-1) は素通し。
 ただ，やっぱり時々失敗するんだよねー。
 まぁこれはしょうがないか。
 
-失敗が多いようなら最終手段（片っ端から変換を試す）を執ることにしよう。
+失敗が多いようなら最終手段（片っ端から変換を試す）を執ることにしよう[^cnv1]。
 あっ，コードの再利用は（こんなんでよければ）ご自由に。
+
+[^cnv1]: よく考えたら，この手は使えない。たとえば ISO-2022-JP は7ビット・エンコーディングなので [`utf8`].`ValidString()` 関数でチェックしても valid になるに決まってるし（制御コードは無視するようだ），間違ったエンコーディングで無理やり UTF-8 に decode した結果も valid になるに決まっている `orz`
+
+## 追記（2017-12-04）
+
+この記事を書いた後いろいろ試してみたのだが，やっぱり Shift-JIS と EUC-JP の誤判定が多い。
+で，上の検出と変換部分を別パッケージにしていろいろ調べてみた。
+
+- [spiegel-im-spiegel/text: Encoding/Decoding Text Package by Golang](https://github.com/spiegel-im-spiegel/text)
+
+このパッケージでは `detect`, `encode`, `decode`, `convert` と機能毎にサブパッケージに分けたので多少使いやすいのではないかと思う。
+
+で，どうも短い文字列だと誤判定する確率が爆上がりする。
+[`saintfish/chardet`] では可能性の高い（？）文字エンコーディング候補から順に配列の形で返すのだが（上のコードの `DetectBest()` 関数では配列の最上位のものを返す），短い文字列では候補を絞りきれず誤判定になってしまうようだ。
+
+苦肉の策として文字エンコーディング候補のうち日本語のエンコーディングを優先して選ぶ関数を作った。
+これで [`charencode.go`](https://github.com/spiegel-im-spiegel/mklink/blob/master/charencode.go "mklink/charencode.go at master · spiegel-im-spiegel/mklink") はこんな感じになった。
+
+{{< highlight go "hl_lines=12" >}}
+package mklink
+
+import (
+	"github.com/spiegel-im-spiegel/text/decode"
+)
+
+//ToUTF8 returns string with UTF-8 encoding
+func ToUTF8(body []byte) string {
+	if len(body) == 0 {
+		return ""
+	}
+	utf8Text, err := decode.ToUTF8ja(body)
+	if err != nil {
+		return ""
+	}
+	return string(utf8Text)
+}
+{{< /highlight >}}
+
+
+
+これで他言語の文字エンコーディングと間違える確率は減ったが，今回はページのタイトルだけを対象にしていたので，やっぱり Shift-JIS と EUC-JP とで判定がとっちらかってしまう。
+というところで力尽きた。
+
+そういや UTF-8 から ISO-2022-JP への encode でバグ見つけちゃったよ。
+
+ISO-2022-JP のルールでは行末で必ず US-ASCII に戻さないといけない（1BH 28H 42H のシーケンスを出力する）のだが，文字列の末尾に改行がない場合に US-ASCII に戻していない。
+
+まっ，日本語圏の人しか使わないエンコーディングだし，今は日本語圏の人でも使ってる人は殆どおらんじゃろう。
+メールも今は UTF-8 が主流だし。
+メールメッセージで末尾に改行がないという状況もないしね（実際にはメールメッセージへの電子署名で影響が出るのだが）。
+
+というわけで，標準パッケージでもないし，実害はないので放置する（これが15年くらい前なら煩く言うところだったろうけど）。
+
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`utf8`]: https://golang.org/pkg/unicode/utf8/ "utf8 - The Go Programming Language"
