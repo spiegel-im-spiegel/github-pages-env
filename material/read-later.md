@@ -25,9 +25,14 @@ NTT 新規契約 0800-2000-1160
 ## セキュリティ関連
 
 - [Mozilla、新しいセキュリティ機能「Breach Alerts」の開発を発表 | Think IT（シンクイット）](https://thinkit.co.jp/news/bn/13039)
+- [Google、無断で個人情報集めるAndroidアプリに警告表示へ - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1712/04/news053.html)
+- [オープンソースのネットワーク解析ツール「Wireshark」v2.4.3、3件の脆弱性を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1094755.html)
+- ["Crypto" Is Being Redefined as Cryptocurrencies - Schneier on Security](https://www.schneier.com/blog/archives/2017/12/crypto_is_being.html)
 
 ## 天文関連
 
+- [日本がアメリカの「深宇宙ゲートウェイ」計画に参加を検討へ – 各紙報道  |   月探査情報ステーション](https://moonstation.jp/blog/lunarexp/japan-to-join-deep-space-gateway-anticipating-lunar-exploration-by-japanese-astronauts)
+- [太陽圏外飛行中のボイジャー1号、37年ぶりにエンジン作動　地球から210億キロ先で (1/2) - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1712/05/news099.html)
 
 ## 知財関連
 
@@ -35,5 +40,7 @@ NTT 新規契約 0800-2000-1160
 ## その他
 
 - [青空文庫年表（サーバー関連編） 1997-2017 - Qiita](https://qiita.com/takahashim/items/077a1eeba805c7237cd5)
+- [Kotlin 1.2正式版リリース。KotlinはJavaとJavaScriptのマルチプラットフォーム対応に － Publickey](http://www.publickey1.jp/blog/17/kotlin_12kotlinjavajavascript.html)
+- [大幅なパフォーマンスの改善を図った「Visual Studio 2017」v15.5が公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1095016.html)
 
 (end of file)

@@ -1,6 +1,7 @@
 +++
 title = "2017-12-03 のブックマーク"
 date =  "2017-12-03T16:22:47+09:00"
+update =  "2017-12-06T00:20:33+09:00"
 description = "「FCC現委員長のネット中立性悪者説はすべて正しくない、と同僚の委員が指摘」他"
 image = "/images/avatar.jpg"
 
@@ -43,6 +44,8 @@ flattr    = "spiegel"
 - [サイバー攻撃者がメールを“誤送信”--「To」で標的一覧が発覚 - ZDNet Japan](https://japan.zdnet.com/article/35111277/)
 - [今度は米軍の機密情報が露呈、相次ぐAWSの設定ミス発覚 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1711/29/news066.html)
 - [Needless Panic Over a Wi-FI Network Name - Schneier on Security](https://www.schneier.com/blog/archives/2017/12/needless_panic_.html)
+- [「Firefox Quantum」v57.0.1が公開、一部環境で動作が異常に遅くなる問題を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1094312.html)
+    - [Mozilla、「Firefox」v57.0.1で修正した脆弱性の内容を公表 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1094989.html)
 
 ## 天文関連
 
@@ -87,7 +90,6 @@ flattr    = "spiegel"
 - [「Firefox Quantum」で打ち切られたレガシーアドオン対応、「Thunderbird」ではどうなる？ - やじうまの杜 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1093871.html)
 - [2017年11月29日ニュース「科学技術の発展で半分以上の人がIT犯罪や地球環境問題に不安 内閣府世論調査」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/11/20171129_01.html)
 - [Adobeの新フォント「貂明朝（てんみんちょう）」発表会レポート ～同社オリジナルの“可愛くも妖しい明朝” - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1094157.html)
-- [「Firefox Quantum」v57.0.1が公開、一部環境で動作が異常に遅くなる問題を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1094312.html)
 - [IT関係者必見！　村井純教授インタビュー全文公開　“30年かけた準備が終わり、これからが本番”【iNTERNET magazine Reboot】 - INTERNET Watch](https://internet.watch.impress.co.jp/docs/imreboot/column/1094016.html)
 - [Amazon、職場用「Alexa for Business」、米国で提供開始 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1712/01/news064.html)
 - [最近のボーカロイドがすごいということをただ伝えたい - 稀にライトノベルを読むよ＾0＾／](http://d.hatena.ne.jp/numenunu/20171130/1512067040)
