@@ -1,7 +1,7 @@
 +++
 title = "文字エンコーディングの検出"
 date =  "2017-12-04T12:42:55+09:00"
-update =  "2017-12-04T23:01:30+09:00"
+update =  "2017-12-06T00:20:33+09:00"
 description = "文字エンコーディングを変換するのはいいのだが，そのためには元の文字列の文字エンコーディングが分かってないといけない。あぁ，これみんな苦労してるやつだよね。"
 image = "/images/attention/go-code.png"
 tags = ["golang", "character", "encoding", "transform"]
@@ -42,7 +42,7 @@ HTML の中の "charset” を見て変換する手もあるのだが， HTML �
 - [Go言語でnkfみたいなやつ - How to spend the terminal](http://moxtsuan.hatenablog.com/entry/nkf-go)
     - [moxtsuan/go-nkf: tiny nkf(Only JIS, SJIS, EUC-JP, UTF-8)](https://github.com/moxtsuan/go-nkf)
 
-[`moxtsuan/go-nkf`] は今回の目的にはオーバースペックなので，参考にしつつも自前で [`saintfish/chardet`] を組み込んでみることにした。
+[moxtsuan/go-nkf] は今回の目的にはオーバースペックなので，参考にしつつも自前で [saintfish/chardet] を組み込んでみることにした。
 具体的には [`charencode.go`](https://github.com/spiegel-im-spiegel/mklink/blob/master/charencode.go "mklink/charencode.go at master · spiegel-im-spiegel/mklink") というファイルだ。
 
 まず文字エンコーディングの検出部分はこんな感じに書ける。
@@ -61,7 +61,7 @@ func DetectCharEncode(body []byte) CharEncode {
 }
 {{< /highlight >}}
 
-関数内の最初の2行で [`saintfish/chardet`] による文字エンコーディング検出を行っている。
+関数内の最初の2行で [saintfish/chardet] による文字エンコーディング検出を行っている。
 結果は `res.Charset` に文字列（！）で格納されるのだが，文字列で取り回すのはあんまりなので
 
 ```go
@@ -145,7 +145,7 @@ UTF-8 および ISO-8859-1 (Latin-1) は素通し。
 このパッケージでは `detect`, `encode`, `decode`, `convert` と機能毎にサブパッケージに分けたので多少使いやすいのではないかと思う。
 
 で，どうも短い文字列だと誤判定する確率が爆上がりする。
-[`saintfish/chardet`] では可能性の高い（？）文字エンコーディング候補から順に配列の形で返すのだが（上のコードの `DetectBest()` 関数では配列の最上位のものを返す），短い文字列では候補を絞りきれず誤判定になってしまうようだ。
+[saintfish/chardet] では可能性の高い（？）文字エンコーディング候補から順に配列の形で返すのだが（上のコードの `DetectBest()` 関数では配列の最上位のものを返す），短い文字列では候補を絞りきれず誤判定になってしまうようだ。
 
 苦肉の策として文字エンコーディング候補のうち日本語のエンコーディングを優先して選ぶ関数を作った。
 これで [`charencode.go`](https://github.com/spiegel-im-spiegel/mklink/blob/master/charencode.go "mklink/charencode.go at master · spiegel-im-spiegel/mklink") はこんな感じになった。
@@ -170,8 +170,6 @@ func ToUTF8(body []byte) string {
 }
 {{< /highlight >}}
 
-
-
 これで他言語の文字エンコーディングと間違える確率は減ったが，今回はページのタイトルだけを対象にしていたので，やっぱり Shift-JIS と EUC-JP とで判定がとっちらかってしまう。
 というところで力尽きた。
 
@@ -185,11 +183,62 @@ ISO-2022-JP のルールでは行末で必ず US-ASCII に戻さないといけ�
 
 というわけで，標準パッケージでもないし，実害はないので放置する（これが15年くらい前なら煩く言うところだったろうけど）。
 
+## 追記（2017-12-06）
+
+タイムリーなことに Web ページの文字エンコーディングを簡単に取得する方法について書かれた記事が上がっていた。
+
+- [Big Sky :: Golang で HTTP コンテンツの charset 判定をするには](https://mattn.kaoriya.net/software/lang/go/20171205164150.htm)
+
+HTML の charset 設定だけを見るんじゃなくてレスポンスのヘッダとか色々見て総合判断しているらしい。
+具体的にはこんな感じになる。
+
+{{< highlight go "hl_lines=9-20" >}}
+resp, err := http.Get(url)
+if err != nil {
+    return nil, err
+}
+defer resp.Body.Close()
+
+link.Location = resp.Request.URL.String()
+
+br := bufio.NewReader(resp.Body)
+var r io.Reader = br
+if data, err2 := br.Peek(1024); err2 == nil { //next 1024 bytes without advancing the reader.
+    enc, name, _ := charset.DetermineEncoding(data, resp.Header.Get("content-type"))
+    if enc != nil {
+        r = enc.NewDecoder().Reader(br)
+    } else if len(name) > 0 {
+        if enc := encoding.GetEncoding(name); enc != nil {
+            r = enc.NewDecoder().Reader(br)
+        }
+    }
+}
+doc, err := goquery.NewDocumentFromReader(r)
+if err != nil {
+    return link, err
+}
+{{< /highlight >}}
+
+これを自前でやると相当に面倒臭いので忌避していたのだが，パッケージがちゃんとあるんだねぇ。
+助かりました。
+
+これで [saintfish/chardet] を使って文字エンコーディングを検出するコードがまるっと要らなくなったけど，いろいろと勉強になったので良しとしよう。
+そして [mattn/go-encoding] を導入したおかげで何気に対応する文字エンコードディングが増えてしまった（笑）
+
+というわけで「[Markdown 形式のリンクを生成するツール]({{< relref "golang/make-link-with-markdown-format.md" >}} "Markdown 形式のリンクを生成するツールを作ってみた")」の v0.1.10 が絶賛リリース中です。
+
+- [Release v0.1.10 · spiegel-im-spiegel/mklink · GitHub](https://github.com/spiegel-im-spiegel/mklink/releases/tag/v0.1.10)
+
+[spiegel-im-spiegel/text] は他のことに再利用しているので，こっちも問題なし。
+やっぱ文字エンコーディングの変換は苦労するなぁ。
+旧 JIS とかイラわんだけマシだけど。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`utf8`]: https://golang.org/pkg/unicode/utf8/ "utf8 - The Go Programming Language"
-[`saintfish/chardet`]: https://github.com/saintfish/chardet "saintfish/chardet: Charset detector library for golang derived from ICU"
-[`moxtsuan/go-nkf`]: https://github.com/moxtsuan/go-nkf "moxtsuan/go-nkf: tiny nkf(Only JIS, SJIS, EUC-JP, UTF-8)"
+[saintfish/chardet]: https://github.com/saintfish/chardet "saintfish/chardet: Charset detector library for golang derived from ICU"
+[moxtsuan/go-nkf]: https://github.com/moxtsuan/go-nkf "moxtsuan/go-nkf: tiny nkf(Only JIS, SJIS, EUC-JP, UTF-8)"
+[spiegel-im-spiegel/text]: https://github.com/spiegel-im-spiegel/text "spiegel-im-spiegel/text: Encoding/Decoding Text Package by Golang"
+[mattn/go-encoding]: https://github.com/mattn/go-encoding
 
 ## 参考図書
 
