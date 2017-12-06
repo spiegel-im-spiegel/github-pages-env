@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-12-04T12:58:03+09:00"
+update = "2017-12-06T21:28:35+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -184,6 +184,8 @@ title = "Go 言語に関するブックマーク"
 - [大きなファイルのアップロードを省メモリで行いたい(io.Pipeを使う) - Qiita](http://qiita.com/m0a/items/bba395b2fc9cd160e441)
 - [Big Sky :: net/http でレスポンスの内容を確認したいなら io.TeeReader を使おう](https://mattn.kaoriya.net/software/lang/go/20171026101727.htm)
     - [`io.TeeReader`](https://golang.org/pkg/io/#TeeReader)
+- [Big Sky :: golang で UNIX コマンドパイプラインを扱う](https://mattn.kaoriya.net/software/lang/go/20151030131242.htm)
+
 
 ### 並行処理と並列処理
 

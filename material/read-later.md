@@ -33,6 +33,7 @@ NTT 新規契約 0800-2000-1160
 
 - [日本がアメリカの「深宇宙ゲートウェイ」計画に参加を検討へ – 各紙報道  |   月探査情報ステーション](https://moonstation.jp/blog/lunarexp/japan-to-join-deep-space-gateway-anticipating-lunar-exploration-by-japanese-astronauts)
 - [太陽圏外飛行中のボイジャー1号、37年ぶりにエンジン作動　地球から210億キロ先で (1/2) - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1712/05/news099.html)
+- [「かぐや」の観測データにより月の地下の空洞が発見される  |   月探査情報ステーション](https://moonstation.jp/blog/lunarexp/kaguya/kaguya-and-grail-data-finds-large-underground-lava-tube-in-the-moon)
 
 ## 知財関連
 
@@ -42,5 +43,11 @@ NTT 新規契約 0800-2000-1160
 - [青空文庫年表（サーバー関連編） 1997-2017 - Qiita](https://qiita.com/takahashim/items/077a1eeba805c7237cd5)
 - [Kotlin 1.2正式版リリース。KotlinはJavaとJavaScriptのマルチプラットフォーム対応に － Publickey](http://www.publickey1.jp/blog/17/kotlin_12kotlinjavajavascript.html)
 - [大幅なパフォーマンスの改善を図った「Visual Studio 2017」v15.5が公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1095016.html)
+- [ディープラーニングにおけるセマンティックセグメンテーションのガイド2017年版 | コンピュータサイエンス | POSTD](http://postd.cc/semantic-segmentation-deep-learning-review/)
+- [ストアから簡単に導入できる無償コードエディター「Code Writer」がリニューアル - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1094990.html)
+- [Google、ファイル管理アプリ「Files Go」正式版を日本を含む世界で公開 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1712/05/news129.html)
+- [YouTube、不適切コンテンツ排除に向け人員と機械学習を拡大へ - CNET Japan](https://japan.cnet.com/article/35111482/)
+- [トランプ大統領の反イスラムRTはなぜ削除されない？--Twitterの対応に依然として疑問の声も - CNET Japan](https://japan.cnet.com/article/35111330/)
+- [“Raspberry Pi”などで利用可能、ARM用Linux向け「Vivaldi」がリリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1095321.html)
 
 (end of file)
