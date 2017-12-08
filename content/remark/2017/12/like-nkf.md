@@ -1,7 +1,7 @@
 +++
 title = "「nkf っぽいなにか」を作った"
 date =  "2017-12-06T01:20:36+09:00"
-update =  "2017-12-08T14:48:01+09:00"
+update =  "2017-12-08T17:05:45+09:00"
 description = "思いつきで文字エンコーディングを変換するロジックを考えていたのだが，その副産物で「nkf っぽいなにか」を作ったので，併せてリリースする。"
 image = "/images/attention/remark.jpg"
 tags = ["tools", "golang", "character", "encoding", "transform"]
@@ -35,6 +35,8 @@ nkf のように文字エンコーディングを指定して変換を行う。
 
 ```text
 $ gonkf -h
+Network Kanji Filter by Golang
+
 Usage:
   gonkf [flags]
   gonkf [command]
@@ -43,9 +45,10 @@ Available Commands:
   conv        Convert character encoding of text
   guess       Guess character encoding of text
   help        Help about any command
-  list        List of available character encoding
   norm        Unicode normalization
+  nwline      Convert newline of text
   version     Print the version number of gonkf
+  width       Convert character width of text
 
 Flags:
   -h, --help   help for gonkf
