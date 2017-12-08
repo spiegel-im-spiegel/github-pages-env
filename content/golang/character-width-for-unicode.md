@@ -20,7 +20,7 @@ tags = ["golang", "unicode", "transform", "character"]
   flattr    = "spiegel"
 
 [scripts]
-  mathjax = true
+  mathjax = false
   mermaidjs = false
 +++
 
@@ -28,7 +28,7 @@ tags = ["golang", "unicode", "transform", "character"]
 
 ## golang.org/x/text/width パッケージ
 
-`golang.org/x/text/`[`width`] パッケージ[^wdth] では全角/半角変換用に以下の [`transform`].`Transformer` が用意されている。
+`golang.org/x/text/`[`width`] パッケージ[^wdth] では半角/全角変換用に以下の [`transform`].`Transformer` が用意されている。
 
 [^wdth]: “width” って日本人には発音しにくいよね。「[IT業界で横行する恥ずかしい英語発音](https://qiita.com/ryounagaoka/items/290885ee3291b393fe1f "IT業界で横行する恥ずかしい英語発音 - Qiita")」でもネタになるほど（笑）
 
