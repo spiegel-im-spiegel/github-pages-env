@@ -21,6 +21,11 @@ NTT 新規契約 0800-2000-1160
 
 ## Age of Trump
 
+- [トランプがエルサレムを首都承認した後に何が起こるか：池内恵 | 中東―危機の震源を読む | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43081)
+    - [トランプは演説でエルサレムと「東エルサレム」を分離できるか：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43082)
+    - [米国はイスラエルにトランプ演説への反応を抑制するように水面下で要請：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43088)
+    - [トランプのエルサレム首都承認の宣言文と演説テキストの違い：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43089)
+    - [トランプはエルサレム首都承認と大使館移転の意志表明した直後に大使館移転繰り延べ命令に署名：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43090)
 
 ## セキュリティ関連
 
@@ -28,6 +33,12 @@ NTT 新規契約 0800-2000-1160
 - [Google、無断で個人情報集めるAndroidアプリに警告表示へ - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1712/04/news053.html)
 - [オープンソースのネットワーク解析ツール「Wireshark」v2.4.3、3件の脆弱性を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1094755.html)
 - ["Crypto" Is Being Redefined as Cryptocurrencies - Schneier on Security](https://www.schneier.com/blog/archives/2017/12/crypto_is_being.html)
+- [Germany Preparing Backdoor Law - Schneier on Security](https://www.schneier.com/blog/archives/2017/12/germany_prepari.html)
+- [デジサートが日本法人を再編--シマンテックのウェブサイトセキュリティを継承 - ZDNet Japan](https://japan.zdnet.com/article/35111517/)
+- [暗号化メールサービスのProtonMailがApple Mail, Outlook, Thunderbirdをサポート  |  TechCrunch Japan](http://jp.techcrunch.com/2017/12/07/2017-12-06-protonmail-adds-apple-mail-outlook-and-thunderbird-smpt-imap/)
+- [Microsoft Malware Protection Engine のリモートでコードが実行される脆弱性（CVE-2017-11937）に関する注意喚起](https://www.jpcert.or.jp/at/2017/at170046.html)
+- [「Google Chrome 63」が正式版に ～開発者向け機能の充実がメイン - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1095514.html)
+- [メールソフト多数で「Mailsploit」の脆弱性発覚--スパム対策も回避 - ZDNet Japan](https://japan.zdnet.com/article/35111572/)
 
 ## 天文関連
 
@@ -49,5 +60,13 @@ NTT 新規契約 0800-2000-1160
 - [YouTube、不適切コンテンツ排除に向け人員と機械学習を拡大へ - CNET Japan](https://japan.cnet.com/article/35111482/)
 - [トランプ大統領の反イスラムRTはなぜ削除されない？--Twitterの対応に依然として疑問の声も - CNET Japan](https://japan.cnet.com/article/35111330/)
 - [“Raspberry Pi”などで利用可能、ARM用Linux向け「Vivaldi」がリリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1095321.html)
+- [C#の文字列連結に適用される最適化 - Qiita](https://qiita.com/anoneko_no_acc/items/a366f1193f1ee9d4798d)
+- [Googleが最強のチェス・将棋AI「AlphaZero」を発表　わずか24時間の自己学習で最強AIを上回る- 記事詳細｜Infoseekニュース](https://news.infoseek.co.jp/article/itmedia_nlab_20171206121/)
+- [k16's note: 英語圏のIT系技術書ブランドについての雑感](http://note.golden-lucky.net/2017/12/blog-post.html)
+- [PaizaCloud IDE - 環境構築で挫折しない！3秒で起動するブラウザだけで使えるウェブ開発環境・クラウドIDE](https://paiza.cloud/ja/)
+- [Google ウェブマスター向け公式ブログ:  医療や健康に関連する検索結果の改善について](https://webmaster-ja.googleblog.com/2017/12/for-more-reliable-health-search.html?m=1)
+- [「JSX キモい」に反論してみる - Qiita](https://qiita.com/oukayuka/items/195315df70b1f8de3a18)
+- [2017を二つの平方数の和で表す方法 (1) - tsujimotterのノートブック](http://tsujimotter.hatenablog.com/entry/fermat-descent)
+- [ブロックチェ－ンを構築しながら学ぶ | プログラミング | POSTD](http://postd.cc/learn-blockchains-by-building-one/)
 
 (end of file)

@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-12-06T21:28:35+09:00"
+update = "2017-12-08T16:21:38+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -337,6 +337,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [GAE/Goのテストを実行するために必要なこと - Qiita](http://qiita.com/ttyokoyama/items/5b99299ec112b580f03b)
 - [Golangでテストしやすいコードをかく - Qiita](http://qiita.com/chisso/items/1dcc52f404b88d274f29)
 - [Go な WebAPI のテスト＆ドキュメントの模索 - Qiita](https://qiita.com/zaru/items/0bee6c19b056dc72948d)
+- [GAE/Goで書いたアプリのテストが何故か固まるのでgo testのコードをチラ見したメモ - utahta >> log](http://www.ninxit.com/blog/2017/12/08/091108)
 
 ### ドキュメント・フレームワーク
 

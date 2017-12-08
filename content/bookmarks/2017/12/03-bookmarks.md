@@ -1,7 +1,7 @@
 +++
 title = "2017-12-03 のブックマーク"
 date =  "2017-12-03T16:22:47+09:00"
-update =  "2017-12-06T00:20:33+09:00"
+update = "2017-12-08T16:21:38+09:00"
 description = "「FCC現委員長のネット中立性悪者説はすべて正しくない、と同僚の委員が指摘」他"
 image = "/images/avatar.jpg"
 
@@ -81,6 +81,7 @@ flattr    = "spiegel"
 - [Backlog APIをcurlで - Qiita](https://qiita.com/ohechi/items/6ab6748b67b1fe421f6b)
 - [図書カード：寅彦夏話](http://www.aozora.gr.jp/cards/001569/card57463.html)
 - [境界付けられたコンテキスト 概念編 - ドメイン駆動設計用語解説 - Qiita](https://qiita.com/little_hand_s/items/2929b6323bf1bc6d0d0d)
+    - [境界づけられたコンテキスト 実装編 - ドメイン駆動設計用語解説 - Qiita](https://qiita.com/little_hand_s/items/6e65ae050b873056c50c)
 - [2017年11月28日ニュース「日本の災害科学研究は、数は多いが影響力が小さい」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/11/20171128_01.html)
 - [“海外の日本図書館”を紹介する著作『本棚の中のニッポン』がオープンアクセス化 ～PDFを無償ダウンロード可能 - Book Watch/ニュース - 窓の杜](https://forest.watch.impress.co.jp/docs/bookwatch/news/1093735.html)
 - [iPhoneのjailbreakサイトが次々と閉鎖。ユーザーの関心薄れる  |  TechCrunch Japan](http://jp.techcrunch.com/2017/11/28/2017-11-27-ios-jailbreak-repositories-close-as-user-interest-wanes/)
