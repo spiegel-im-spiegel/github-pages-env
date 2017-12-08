@@ -1,9 +1,9 @@
 +++
 date = "2016-01-30T04:05:52+09:00"
-update = "2017-04-05T18:33:35+09:00"
+update = "2017-12-08T13:47:07+09:00"
 description = "今回は少し目先を変えて「Unicode 正規化」のお話。"
 draft = false
-tags = ["golang", "unicode", "normalization", "character"]
+tags = ["golang", "unicode", "normalization", "character", "transform"]
 title = "Go 言語と Unicode 正規化"
 
 [author]
@@ -85,12 +85,12 @@ func main() {
         fmt.Printf("penguin[%d] = %#U\n", pos, runeValue)
     }
 
-    penguin2 := string(norm.NFD.Bytes([]byte(penguin)))
+    penguin2 :=norm.NFD.String(penguin)
     for pos, runeValue := range penguin2 {
         fmt.Printf("penguin2[%d] = %#U\n", pos, runeValue)
     }
 
-    penguin3 := string(norm.NFC.Bytes([]byte(penguin2)))
+    penguin3 := norm.NFC.String(penguin2)
     for pos, runeValue := range penguin3 {
         fmt.Printf("penguin3[%d] = %#U\n", pos, runeValue)
     }
@@ -147,7 +147,7 @@ func main() {
         fmt.Printf("penguin[%d] = %#U\n", pos, runeValue)
     }
 
-    penguin2 := string(norm.NFC.Bytes([]byte(penguin)))
+    penguin2 := norm.NFC.String(penguin)
     for pos, runeValue := range penguin2 {
         fmt.Printf("penguin2[%d] = %#U\n", pos, runeValue)
     }
@@ -193,7 +193,7 @@ func main() {
         fmt.Printf("penguin[%d] = %#U\n", pos, runeValue)
     }
 
-    penguin2 := string(norm.NFKC.Bytes([]byte(penguin)))
+    penguin2 := norm.NFKC.String(penguin)
     for pos, runeValue := range penguin2 {
         fmt.Printf("penguin2[%d] = %#U\n", pos, runeValue)
     }
@@ -245,12 +245,12 @@ func main() {
         fmt.Printf("god[%d] = %#U\n", pos, runeValue)
     }
 
-    god2 := string(norm.NFC.Bytes([]byte(god)))
+    god2 := norm.NFC.String(god)
     for pos, runeValue := range god2 {
         fmt.Printf("god2[%d] = %#U\n", pos, runeValue)
     }
 
-    god3 := string(norm.NFD.Bytes([]byte(god)))
+    god3 := norm.NFC.String(god)
     for pos, runeValue := range god3 {
         fmt.Printf("god3[%d] = %#U\n", pos, runeValue)
     }

@@ -1,6 +1,7 @@
 +++
 title = "「nkf っぽいなにか」を作った"
 date =  "2017-12-06T01:20:36+09:00"
+update =  "2017-12-08T14:48:01+09:00"
 description = "思いつきで文字エンコーディングを変換するロジックを考えていたのだが，その副産物で「nkf っぽいなにか」を作ったので，併せてリリースする。"
 image = "/images/attention/remark.jpg"
 tags = ["tools", "golang", "character", "encoding", "transform"]
@@ -112,3 +113,13 @@ Unicode 正規化については以下の記事を参照のこと。
 
 nkf みたいなツールは15年以上前なら割と重宝してたけど，今はテキスト・エディタの機能でちょいちょいと変換できるので，あんまり使わなくなったよなぁ。
 まぁ，今回は自作のパッケージの使い勝手を確認するための習作なので，こんなもんだろう。
+
+## 【追記】 半角/全角変換機能を追加した
+
+- [Go 言語による Unicode 半角/全角変換]({{< relref "golang/character-width-for-unicode.md" >}})
+
+というわけで，半角/全角変換機能の追加と諸々修正・変更した v0.5.0 をリリースした。
+
+- [Release v0.5.0 · spiegel-im-spiegel/text](https://github.com/spiegel-im-spiegel/text/releases/tag/v0.5.0)
+
+多分もう機能追加はしないはず。

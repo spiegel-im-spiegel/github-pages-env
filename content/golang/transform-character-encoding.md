@@ -1,6 +1,6 @@
 +++
 date = "2015-09-23T20:04:00+09:00"
-update = "2016-01-20T09:17:17+09:00"
+update = "2017-12-08T13:47:07+09:00"
 description = "文字エンコーディング変換に関してはあちこちに記事があるのだが，微妙に古い気がするので，メモとして書き記しておく。"
 draft = false
 tags = ["golang", "character", "encoding", "transform"]
@@ -71,23 +71,14 @@ import (
     "os"
 
     "golang.org/x/text/encoding/japanese"
-    "golang.org/x/text/transform"
 )
 
 func main() {
-    reader := NewDecoder(os.Stdin)
-    writer := NewEncoder(os.Stdout)
+    reader := japanese.ShiftJIS.NewDecoder().Reader(os.Stdin)
+    writer := japanese.EUCJP.NewEncoder().Writer(os.Stdout)
     if _, err := io.Copy(writer, reader); err != nil {
         fmt.Fprintln(os.Stderr, err)
     }
-}
-
-func NewDecoder(reader io.Reader) *transform.Reader {
-    return transform.NewReader(reader, japanese.ShiftJIS.NewDecoder())
-}
-
-func NewEncoder(writer io.Writer) *transform.Writer {
-    return transform.NewWriter(writer, japanese.EUCJP.NewEncoder())
 }
 ```
 
