@@ -1,7 +1,7 @@
 +++
 title = "Go 言語による Unicode 半角/全角変換"
 date =  "2017-12-08T13:47:48+09:00"
-update =  "2017-12-09T14:05:17+09:00"
+update =  "2017-12-09T17:54:51+09:00"
 description = "以前「Go 言語と Unicode 正規化」の脚注でこっそり「単に全角・半角変換ができればいいのなら golang.org/x/text/width パッケージをお勧めする」と書いていたのだが，今回はその話。"
 image = "/images/attention/go-code.png"
 tags = ["golang", "unicode", "transform", "character"]
@@ -92,7 +92,9 @@ fmt.Println(width.Fold.String("１２３４５６７８９０ｱｲｳｴｵｶ�
 //1234567890アイウエオカキクケコABCDEFGHIJK
 ```
 
-[`width`].`Fold` は， Unicode 正規化と異なり，「神と神」のような異体字は
+[`width`].`Fold` は， Unicode 正規化と異なり，「神と神[^fnt1]」のような異体字は
+
+[^fnt1]: ブラウザやブラウザの設定によっては「神」が上手く表示できないようです。 最初の「神」は「`U+FA19 '神'`」で CJK 互換文字です。２番目の「神」が通常の「`U+795E '神'`」です。
 
 ```go
 fmt.Println(width.Fold.String("神と神"))
