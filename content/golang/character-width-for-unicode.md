@@ -1,6 +1,7 @@
 +++
 title = "Go 言語による Unicode 半角/全角変換"
 date =  "2017-12-08T13:47:48+09:00"
+update =  "2017-12-09T14:05:17+09:00"
 description = "以前「Go 言語と Unicode 正規化」の脚注でこっそり「単に全角・半角変換ができればいいのなら golang.org/x/text/width パッケージをお勧めする」と書いていたのだが，今回はその話。"
 image = "/images/attention/go-code.png"
 tags = ["golang", "unicode", "transform", "character"]
@@ -28,7 +29,7 @@ tags = ["golang", "unicode", "transform", "character"]
 
 ## golang.org/x/text/width パッケージ
 
-`golang.org/x/text/`[`width`] パッケージ[^wdth] では半角/全角変換用に以下の [`transform`].`Transformer` が用意されている。
+`golang.org/x/text/`[`width`] パッケージ[^wdth] では半角/全角変換用に以下の [`width`].`Transformer` が用意されている。
 
 [^wdth]: “width” って日本人には発音しにくいよね。「[IT業界で横行する恥ずかしい英語発音](https://qiita.com/ryounagaoka/items/290885ee3291b393fe1f "IT業界で横行する恥ずかしい英語発音 - Qiita")」でもネタになるほど（笑）
 
