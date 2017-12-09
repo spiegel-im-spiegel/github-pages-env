@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-12-08T16:21:38+09:00"
+update = "2017-12-09T14:45:59+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -88,6 +88,12 @@ title = "Go 言語に関するブックマーク"
 - [Go 1.9 Release Notes - The Go Programming Language](https://golang.org/doc/go1.9)
 
 - [go言語1.9で追加予定の新機能 型エイリアス - Qiita](http://qiita.com/weloan/items/8abbb4003cfa1031a9e9)
+
+### Go 1.10 Beta
+
+“Go 1.10 is expected to be released in February 2018”.
+
+- [Go 1.10 Release Notes - The Go Programming Language](https://beta.golang.org/doc/go1.10)
 
 ## 言語仕様および標準パッケージに関すること
 
@@ -387,6 +393,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Raspberry PI ２ 用の consul を作る (201512版 - Qiita](http://qiita.com/rerofumi/items/d6a8ba08270acb61b31c) : Raspberry PI 上でビルドするより Linux のクロス環境を使ったほうが速いらしい
 - [CI-as-a-ServiceでGo言語プロジェクトの最新ビルドを継続的に提供する | SOTA](http://deeeet.com/writing/2014/10/16/golang-in-ci-as-a-service/)
 - [RaspberryPi1(2とzeroも)で動かすgolang製アプリをクロスコンパイル(onMac) - Qiita](http://qiita.com/m0a/items/d933982293dcadd4998c)
+- [GoでFPGAしてみる(Reconfigure.io) - Qiita](https://qiita.com/mjhd-devlion/items/5e6f6f2f40ecb4ad4217)
 
 ### C 言語との連携
 
@@ -573,6 +580,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Big Sky :: Re: Go でシングルバイナリな Web アプリを開発しているときに webpack --watch をうまいところやる](http://mattn.kaoriya.net/software/lang/go/20170119180147.htm)
 - [gopher-lua でサーバーの設定を動的に変更する - Qiita](http://qiita.com/zenwerk/items/729ab53ad6925d80dafa)
 - [【Go言語】gothでWebアプリを外部サービス認証ログインできるようにする - Qiita](http://qiita.com/momotaro98/items/90d12c10a655f4026d82)
+- [Goでマイクロサービスやってみる〜gokit〜 - Qiita](https://qiita.com/miya-masa/items/1fefa42458857013b519)
 
 ## 他サービスとの連携
 
@@ -613,6 +621,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [CircleCI 2.0でGlide管理のGoをGAEにデプロイする - Qiita](https://qiita.com/kenichi_odo/items/074f1b9541dd0487f1d8)
 - [GAE(Google App Engine) で Golang を開発するための環境を構築する #golang - Qiita](https://qiita.com/ynozue/items/d12c1da13bbdb9213ba4)
 - [GAE(Google App Engine) で Golang 初めての REST API #golang - Qiita](https://qiita.com/ynozue/items/22967c3c8e12129d7527)
+- [Go×GAE×Dockerで作るGoogleOAuth認証アプリ - Qiita](https://qiita.com/gotokatsuya/items/7f3bd1f71aa825264851)
 
 ## Excel との連携
 
