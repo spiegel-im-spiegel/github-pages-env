@@ -1,7 +1,7 @@
 +++
 title = "「神」と「神」と Chrome の文字化け"
 date =  "2017-12-10T12:35:07+09:00"
-update =  "2017-12-10T15:55:33+09:00"
+update =  "2017-12-10T22:06:56+09:00"
 description = "Google Chrome では「神」と「神」が同じ「神」に見える，という報告をいただきまして，確かにこちらの環境でも再現するので，ちょっと調べてみました。"
 image = "https://farm5.staticflickr.com/4586/38061039025_a61bb35c85.jpg"
 tags        = [ "web", "site", "font", "unicode", "normalization", "character" ]
@@ -26,6 +26,8 @@ tags        = [ "web", "site", "font", "unicode", "normalization", "character" ]
 +++
 
 「[Go 言語による Unicode 半角/全角変換]({{< relref "golang/character-width-for-unicode.md" >}})」のページを Google Chrome で見ると「神と神」が同じ「神」に見える，という報告をいただきまして，確かにこちらの環境でも再現するので，ちょっと調べてみました。
+
+（追記： Chrome だけじゃなくて [Android 用の Firefox Focus](https://play.google.com/store/apps/details?id=org.mozilla.focus) でも同じ現象を確認した。 Firefox Focus って Firefox とエンジンが違うのか？ ひょっとして WebKit？ iOS から先にリリースされてるし。もしかして Safari でも同じ現象が起きる？）
 
 ちなみに「神と神」のうち前者の「神」は所謂 CJK 互換文字と呼ばれるもので Unicode コードポイントで「`U+FA19 '神'`」にマッピングされるものです。
 
@@ -147,7 +149,7 @@ tags        = [ "web", "site", "font", "unicode", "normalization", "character" ]
 いや，これは酷いだろう。
 同じ文字化けするなら「豆腐 □」や「ゲタ 〓」のほうがまだマシである。
 多分 Chrome の中の人は CJK 互換文字や異体字について（歴史背景などを）よく理解しないまま「正規化できる文字で代替えすればいいぢゃん♥」と軽い感じで実装してしまったのだろう。
-「[Go 言語と Unicode 正規化]({{< relref "golang/unicode-normalization.md" >}})」では Apple の旧ファイルシステム HFS+ を散々に貶したが， Google もタイガイである。
+「[Go 言語と Unicode 正規化]({{< relref "golang/unicode-normalization.md" >}})」では Apple の旧ファイルシステム HFS+ を散々に貶したが， **Google もタイガイである**。（Chrome だけじゃなかった）
 
 ちなみに，この現象は Firefox （またはその系列のブラウザ）では発生しない。
 私のメインブラウザは Firefox (Quantum マンセー！) なので，指摘されるまで全く気づかなかった。
