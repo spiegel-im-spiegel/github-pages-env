@@ -1,8 +1,9 @@
 +++
 title = "「神」と「神」と Chrome の文字化け"
 date =  "2017-12-10T12:35:07+09:00"
+update =  "2017-12-10T15:55:33+09:00"
 description = "Google Chrome では「神」と「神」が同じ「神」に見える，という報告をいただきまして，確かにこちらの環境でも再現するので，ちょっと調べてみました。"
-image = "https://farm5.staticflickr.com/4586/38061039025_96d2dcc39b.jpg"
+image = "https://farm5.staticflickr.com/4586/38061039025_a61bb35c85.jpg"
 tags        = [ "web", "site", "font", "unicode", "normalization", "character" ]
 
 [author]
@@ -110,12 +111,12 @@ tags        = [ "web", "site", "font", "unicode", "normalization", "character" ]
 </head>
 <body>
 <div id="localonly">
-	<p>	「神」と「神」（後者が CJK 互換文字，正規化される）</p>
+	<p>	「朗」と「朗」（後者が CJK 互換文字，正規化される）</p>
 	<p>	「欄」と「欄」（後者が CJK 互換文字，正規化される）</p>
 	<p>	「崎」と「﨑」（後者が CJK 互換文字，正規化されない）</p>
 </div>
 <div id="sawarabi">
-	<p>	「神」と「神」（後者が CJK 互換文字）</p>
+	<p>	「朗」と「朗」（後者が CJK 互換文字，正規化される）</p>
 	<p>	「欄」と「欄」（後者が CJK 互換文字，正規化される）</p>
 	<p>	「崎」と「﨑」（後者が CJK 互換文字，正規化されない）</p>
 </div>
@@ -125,12 +126,13 @@ tags        = [ "web", "site", "font", "unicode", "normalization", "character" ]
 
 これを表示させた結果は以下の通り。
 
-{{< fig-img src="https://farm5.staticflickr.com/4586/38061039025_96d2dcc39b.jpg" title="Google Chrome (2)" link="https://www.flickr.com/photos/spiegel/38061039025/" >}}
+{{< fig-img src="https://farm5.staticflickr.com/4586/38061039025_a61bb35c85.jpg" title="Google Chrome (2)" link="https://www.flickr.com/photos/spiegel/38061039025/" >}}
 
 ビンゴ！
 
-「欄」は Unicode 正規化によって「欄」に正規化されるが，どちらの文字も「[さわらび明朝]」に収録されていないため， Chrome デフォルトのフォントで表示されている。
-「﨑」は CJK 互換文字で「[さわらび明朝]」に収録されていないが Unicode 正規化の対象ではない（「崎」は似た字形の文字を並べてみただけ，テヘペロ）ため，そのまま Chrome デフォルトのフォントで表示されている。
+- 「朗」と「朗」は「神」と「神」の関係と同じ。 CJK 互換文字「朗」は「[さわらび明朝]」に収録されてなく， Unicode 正規化によって「朗」に変換される
+- 「欄」は Unicode 正規化によって「欄」に変換されるが，どちらの文字も「[さわらび明朝]」に収録されていないため， Chrome デフォルトのフォントで表示されている
+- 「﨑」は CJK 互換文字で「[さわらび明朝]」に収録されていないが Unicode 正規化の対象ではない（「崎」は似た字形の文字を並べてみただけ，テヘペロ）ため，そのまま Chrome デフォルトのフォントで表示されている
 
 つまり
 
