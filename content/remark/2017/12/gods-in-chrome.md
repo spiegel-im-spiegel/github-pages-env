@@ -1,7 +1,7 @@
 +++
 title = "「神」と「神」と Chrome の文字化け"
 date =  "2017-12-10T12:35:07+09:00"
-update =  "2017-12-10T22:06:56+09:00"
+update = "2017-12-11T19:25:29+09:00"
 description = "Google Chrome では「神」と「神」が同じ「神」に見える，という報告をいただきまして，確かにこちらの環境でも再現するので，ちょっと調べてみました。"
 image = "https://farm5.staticflickr.com/4586/38061039025_a61bb35c85.jpg"
 tags        = [ "web", "site", "font", "unicode", "normalization", "character" ]
@@ -158,8 +158,9 @@ tags        = [ "web", "site", "font", "unicode", "normalization", "character" ]
 [^c1]: 一応このサイトは Firefox (Quantum) と Chrome ならレイアウトが崩れないように考えているつもり。旧 Firefox や IE や Safari などレガシーなブラウザはスルーで。 Edge は対応したいところだが手元に環境を持ってないので確認＆対応できない。 Win10 を導入する予定は，今のところはない。換装するなら Linux 系のデスクトップにするつもり。
 
 とはいえ，これは相当にレアケースなので滅多なことでは発現しないだろう。
-個人的には Noto Serif の和文フォントが Web フォントで登場するまでは「[さわらび明朝]」で頑張るつもりである。
-なので，特に対策しない予定。
+~~個人的には Noto Serif の和文フォントが Web フォントで登場するまでは「[さわらび明朝]」で頑張るつもりである。
+なので，特に対策しない予定。~~
+（ゴメン。[日和った]({{< relref "remark/2017/12/installing-noto-serif-jp-in-www_baldanders_info.md" >}} "結局 Noto Serif JP を Web フォントとして導入した")）
 
 ご不便をおかけすることもあるかもですが，悪しからずご了承の程を。
 

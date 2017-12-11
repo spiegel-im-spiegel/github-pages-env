@@ -2,7 +2,7 @@
 tags = ["golang", "programming", "type"]
 description = "浮動小数点数型の変数をループカウンタにするのは止めましょうね。約束だよ！"
 date = "2017-01-18T21:45:30+09:00"
-update = "2017-02-27T14:33:55+09:00"
+update = "2017-12-11T19:25:29+09:00"
 title = "1を1億回足して1億にならない場合"
 draft = false
 
@@ -288,6 +288,7 @@ z = 100000000.00000000000000000000
 
 - [浮動小数点数型と誤差](http://www.cc.kyoto-su.ac.jp/~yamada/programming/float.html)
 - [情報落ち、桁落ち、丸め誤差、打切り誤差の違い](http://tooljp.com/jyosho/docs/ketaochi-jyohoochi/ketaochi-jyohoochi.html)
+- [Better C - Go言語と小数 - Qiita](https://qiita.com/sonatard/items/eac6fb35dcc8e052a293)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`math/big`]: https://golang.org/pkg/math/big/ "big - The Go Programming Language"

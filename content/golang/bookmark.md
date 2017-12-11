@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-12-09T14:45:59+09:00"
+update = "2017-12-11T19:25:29+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -94,6 +94,7 @@ title = "Go 言語に関するブックマーク"
 “Go 1.10 is expected to be released in February 2018”.
 
 - [Go 1.10 Release Notes - The Go Programming Language](https://beta.golang.org/doc/go1.10)
+    - [go1.10beta1の標準パッケの大きな変更点を確認しておく。 - Qiita](https://qiita.com/A_Resas/items/59bf6cda976e29751890)
 
 ## 言語仕様および標準パッケージに関すること
 
@@ -229,6 +230,8 @@ title = "Go 言語に関するブックマーク"
 - [Go context.Context interfaceに Cancelが含まれていない理由 - Qiita](https://qiita.com/YmgchiYt/items/abc6c0a8f57b47fdfcae)
 - [Goroutineハンターが過労死する前に - Qiita](https://qiita.com/i_yudai/items/3336a503079ac5749c35)
 - [or-done-channelでコードの可読性を上げる - YAMAGUCHI::weblog](http://ymotongpoo.hatenablog.com/entry/2017/12/04/091403)
+- [go1.9から追加されたsync.Mapを使う - Qiita](https://qiita.com/meta_closure/items/dd228e49aef8b67e872e)
+- [Go1.9から追加されたsync.Mapのパフォーマンス – Straightforward](https://tanksuzuki.com/entries/golang-syncmap/)
 
 Go 言語で複数 CPU を使った並列処理を行うには明示的な設定が必要。
 
@@ -581,6 +584,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [gopher-lua でサーバーの設定を動的に変更する - Qiita](http://qiita.com/zenwerk/items/729ab53ad6925d80dafa)
 - [【Go言語】gothでWebアプリを外部サービス認証ログインできるようにする - Qiita](http://qiita.com/momotaro98/items/90d12c10a655f4026d82)
 - [Goでマイクロサービスやってみる〜gokit〜 - Qiita](https://qiita.com/miya-masa/items/1fefa42458857013b519)
+- [GoでHTTPクライアントを書く時のURLの組み立て方 - Qiita](https://qiita.com/yyoshiki41/items/a0354d9ad70c1b8225b6)
 
 ## 他サービスとの連携
 

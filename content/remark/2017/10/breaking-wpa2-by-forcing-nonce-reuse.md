@@ -1,7 +1,7 @@
 +++
 title = "WPA2 脆弱性（KRACKs）に関する覚え書き"
 date =  "2017-10-17T20:00:30+09:00"
-update = "2017-11-15T15:47:24+09:00"
+update = "2017-12-11T19:25:29+09:00"
 description = "今回は，世界中で大騒ぎになっている Wi-Fi の WPA2 認証に関する脆弱性について。"
 tags = [
   "security",
@@ -128,6 +128,8 @@ Wi-Fi 通信が可能なあらゆる機器が対象となる。
     - [About the security content of iOS 11.1 - Apple サポート](https://support.apple.com/ja-jp/HT208222)
     - [About the security content of macOS High Sierra 10.13.1, Security Update 2017-001 Sierra, and Security Update 2017-004 El Capitan - Apple サポート](https://support.apple.com/ja-jp/HT208221)
     - [tvOS 11.1 のセキュリティコンテンツについて - Apple サポート](https://support.apple.com/ja-jp/HT208219)
+    - [About the security content of iOS 11.2 - Apple サポート](https://support.apple.com/ja-jp/HT208334)
+        - [Apple、旧iPhone/iPadのWi-Fi脆弱性を「iOS 11.2」で修正  - PC Watch](https://pc.watch.impress.co.jp/docs/news/1095897.html)
 - Windows については Microsoft からの10月のアップデートで修正されている
     - [CVE-2017-13080 | Windows Wireless WPA Group Key Reinstallation Vulnerability](https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-13080)
 - Linux や FreeBSD 等については対応が始まっている。ディストリビュータの情報に注意すること
@@ -177,3 +179,4 @@ WPA2 がダメだからと言って WEP を使うのは事態を悪化させる�
 - [Apple、WPA2暗号化の脆弱性を修正した「iOS 11.1」、ただし機種限定 - PC Watch](https://pc.watch.impress.co.jp/docs/news/1089340.html)
 - [Androidの月例セキュリティ情報公開、「KRACK」の脆弱性に対処 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1711/07/news067.html)
 - [Google、Wi-Fi関連の脆弱性「KRACK」に対処するAndroid向けパッチを公開 | マイナビニュース](http://news.mynavi.jp/news/2017/11/10/068/)
+- [LineageOSではKRACKバグの修正は完了、Android 8.1ベースのLineageOS 15.1の開発に着手 ｜ ガジェット通信 GetNews](http://getnews.jp/archives/1992799)

@@ -24,14 +24,22 @@ NTT 新規契約 0800-2000-1160
 
 ## セキュリティ関連
 
+- {{pd-file title="Spinner: Semi-Automatic Detection of Pinning without Hostname Verification" link="http://www.cs.bham.ac.uk/~garciaf/publications/spinner.pdf" }}
+    - [Security Vulnerabilities in Certificate Pinning - Schneier on Security](https://www.schneier.com/blog/archives/2017/12/security_vulner_10.html)
 
 ## 天文関連
 
+- [sorae.jpドメイン変更のお知らせ | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.info/02/renewal.html)
+- [20周年 - この街の空にも星は瞬く(2017-12-10)](https://news.local-group.jp/editor/20171210.html#p01)
 
 ## 知財関連
 
+- [2018年も継続しそうなAppleとQualcommの訴訟合戦--Appleニュース一気読み - CNET Japan](https://japan.cnet.com/article/35111608/)
 
 ## その他
 
+- [kotlinとLintとEditorConfig - Qiita](https://qiita.com/kaelaela/items/508632fd26fdb553dc89)
+- [よく使う正規表現はもうググりたくない！ - Qiita](https://qiita.com/dongri/items/2a0a18e253eb5bf9edba)
+- [yuwki0131-blog: 凸多角形の最適三角形分割](https://uid0130.blogspot.jp/2017/12/blog-post.html)
 
 (end of file)
