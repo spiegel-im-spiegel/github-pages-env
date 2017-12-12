@@ -1,6 +1,6 @@
 +++
 date = "2015-10-21T21:41:45+09:00"
-update = "2016-10-17T13:41:04+09:00"
+update = "2017-12-12T20:27:26+09:00"
 description = "このサイトの Web フォントまわりを整理したので，覚え書きとして残しておく。"
 draft = false
 tags = ["character", "font", "web", "google", "ipa", "site"]
@@ -239,26 +239,10 @@ Google Noto Fonts 以外で利用しているフォントを列挙しておく�
 
 ### Font Awesome
 
-- [Font Awesome, the iconic font and CSS toolkit](https://fortawesome.github.io/Font-Awesome/)
-- [FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome)
+[Font Awesome](https://fontawesome.com/) は 5 系がリリースされ， SVG と JavaScript によるアイコン表示と制御がサポートされた。
+詳しくは以下の記事を参照のこと。
 
-みんな大好き Font Awesome。
-アイコンを文字として扱うことができる。
-`head` 要素に以下の記述を加える事で使えるようになる。
-
-```html
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-```
-
-使い方は簡単。
-
-```html
-<i class="fab fa-btc"></i> 1 ＝ <i class="fas fa-yen-sign"></i> 31,246.5
-```
-
-<blockquote>
-<i class="fab fa-btc"></i> 1 ＝ <i class="fas fa-yen-sign"></i> 31,246.5
-</blockquote>
+- [Font Awesome 5 がリリースされた]({{< relref "remark/2017/12/font-awesome-5-released.md" >}})
 
 ### Creative Commons Icon Font
 
@@ -278,9 +262,11 @@ CC License のアイコンやバナーを文字として扱うことができる
 <i class="cc cc-by cc-2x"></i>&nbsp;<i class="cc cc-sa cc-2x"></i>
 ```
 
-<blockquote>
+表示はこんな感じ。
+
+{{< fig-quote >}}
 <i class="cc cc-by cc-2x"></i>&nbsp;<i class="cc cc-sa cc-2x"></i>
-</blockquote>
+{{< /fig-quote >}}
 
 ## 関連（するかもしれない）記事
 

@@ -1,9 +1,9 @@
 +++
 title = "ちょこっと MathJax： 基本的な数式表現"
 date =  "2017-09-28T22:25:54+09:00"
-update = "2017-10-27T17:27:50+09:00"
+update = "2017-12-12T20:27:26+09:00"
 description = "今回は基本的な数式の書き方を説明していこう。"
-tags        = [ "math", "tex", "mathjax" ]
+tags        = [ "math", "tex", "mathjax", "javascript" ]
 
 [author]
   name      = "Spiegel"

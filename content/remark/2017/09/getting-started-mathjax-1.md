@@ -1,9 +1,9 @@
 +++
 title = "ちょこっと MathJax： 初期設定"
 date =  "2017-09-27T20:02:09+09:00"
-update = "2017-10-27T17:27:50+09:00"
+update = "2017-12-12T20:27:26+09:00"
 description = "この記事ではまず Web ページ上で MathJax が動くところまで説明していこう。"
-tags        = [ "math", "tex", "mathjax", "blog", "site" ]
+tags        = [ "math", "tex", "mathjax", "javascript", "blog", "site" ]
 
 [author]
   name      = "Spiegel"

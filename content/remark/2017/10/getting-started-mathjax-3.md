@@ -1,8 +1,9 @@
 +++
 title = "ちょこっと MathJax： インライン数式と別行立て数式"
 date =  "2017-10-27T17:24:58+09:00"
+update = "2017-12-12T20:27:26+09:00"
 description = "MathJax の数式の表示には2種類ある。"
-tags        = [ "math", "tex", "mathjax" ]
+tags        = [ "math", "tex", "mathjax", "javascript" ]
 
 [author]
   name      = "Spiegel"
