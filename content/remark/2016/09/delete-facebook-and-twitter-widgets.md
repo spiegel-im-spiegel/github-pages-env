@@ -27,13 +27,13 @@ title = "Facebook と Twitter の Widget を削除した"
 ちなみに Twitter の tweet ボタンは以下のようにした。
 
 ```html
-<a href="http://twitter.com/share?text={{ $.Title }}&amp;url={{ $.Permalink }}" rel=”nofollow” target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+<a href="http://twitter.com/share?text={{ $.Title }}&amp;url={{ $.Permalink }}" rel=”nofollow” target="_blank"><i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i></a>
 ```
 
 Facebook の share ボタンはこんな感じ。
 
 ```html
-<a href="http://www.facebook.com/share.php?u={{ $.Permalink }}" rel=”nofollow” target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+<a href="http://www.facebook.com/share.php?u={{ $.Permalink }}" rel=”nofollow” target="_blank"><i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i></a>
 ```
 
 あっ。

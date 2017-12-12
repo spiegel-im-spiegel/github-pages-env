@@ -63,7 +63,7 @@ main table.openpgp-sym td  {
 <td class='right'>2</td>
 <td class="nowrap">TripleDES</td>
 <td class='right nowrap'>168 (64)</td>
-<td><a href="https://doi.org/10.6028/NIST.SP.800-67r2">SP800-67 Rev.2 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
+<td><a href="https://doi.org/10.6028/NIST.SP.800-67r2">SP800-67 Rev.2 <sup><i class='far fa-file-pdf'></i></sup></a></td>
 </tr><tr>
 <td class='right'>3</td>
 <td class="nowrap">CAST5</td>
@@ -88,7 +88,7 @@ main table.openpgp-sym td  {
 <td class='right'>7</td>
 <td class="nowrap">AES with 128-bit key</td>
 <td class='right nowrap'>128 (128)</td>
-<td rowspan="3"><a href="https://dx.doi.org/10.6028/NIST.FIPS.197">FIPS PUB 197 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
+<td rowspan="3"><a href="https://dx.doi.org/10.6028/NIST.FIPS.197">FIPS PUB 197 <sup><i class='far fa-file-pdf'></i></sup></a></td>
 </tr><tr>
 <td class='right'>8</td>
 <td class="nowrap">AES with 192-bit key</td>
@@ -158,19 +158,19 @@ main table.openpgp-pub td  {
 </tr><tr>
 <td class='right'>16</td>
 <td class="nowrap">Elgamal<br>(Encrypt-Only)</td>
-<td><q><a href="http://crypto.csail.mit.edu/classes/6.857/papers/elgamal.pdf">A public key cryptosystem and a signature scheme based on discrete logarithms <sup><i class='fa fa-file-pdf-o'></i></sup></a></q></td>
+<td><q><a href="http://crypto.csail.mit.edu/classes/6.857/papers/elgamal.pdf">A public key cryptosystem and a signature scheme based on discrete logarithms <sup><i class='far fa-file-pdf'></i></sup></a></q></td>
 </tr><tr>
 <td class='right'>17</td>
 <td class="nowrap">DSA</td>
-<td><a href="http://doi.org/10.6028/NIST.FIPS.186-4">FIPS PUB 186-4 <sup> <i class='fa fa-file-pdf-o'></i></sup></a></td>
+<td><a href="http://doi.org/10.6028/NIST.FIPS.186-4">FIPS PUB 186-4 <sup> <i class='far fa-file-pdf'></i></sup></a></td>
 </tr><tr>
 <td class='right'>18</td>
 <td class="nowrap">ECDH public key algorithm</td>
-<td><a href="http://doi.org/10.6028/NIST.SP.800-56Ar2">SP800-56A Revision 2 <sup><i class='fa fa-file-pdf-o'></i></sup></a>, <a href="https://tools.ietf.org/html/rfc6637">RFC6637</a></td>
+<td><a href="http://doi.org/10.6028/NIST.SP.800-56Ar2">SP800-56A Revision 2 <sup><i class='far fa-file-pdf'></i></sup></a>, <a href="https://tools.ietf.org/html/rfc6637">RFC6637</a></td>
 </tr><tr>
 <td class='right'>19</td>
 <td class="nowrap">ECDSA public key algorithm</td>
-<td><a href="http://doi.org/10.6028/NIST.FIPS.186-4">FIPS PUB 186-4 <sup><i class='fa fa-file-pdf-o'></i></sup></a>, <a href="https://tools.ietf.org/html/rfc6090">RFC6090</a>, <a href="https://tools.ietf.org/html/rfc6637">RFC6637</a></td>
+<td><a href="http://doi.org/10.6028/NIST.FIPS.186-4">FIPS PUB 186-4 <sup><i class='far fa-file-pdf'></i></sup></a>, <a href="https://tools.ietf.org/html/rfc6090">RFC6090</a>, <a href="https://tools.ietf.org/html/rfc6637">RFC6637</a></td>
 </tr><tr>
 <td class='right'>20</td>
 <td class="nowrap">(Reserved)</td>
@@ -221,7 +221,7 @@ main table.openpgp-hash td  {
 </tr><tr>
 <td class='right'>2</td>
 <td class="nowrap">SHA-1</td>
-<td><a href="http://doi.org/10.6028/NIST.FIPS.186-4">FIPS PUB 186-4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
+<td><a href="http://doi.org/10.6028/NIST.FIPS.186-4">FIPS PUB 186-4 <sup><i class='far fa-file-pdf'></i></sup></a></td>
 </tr><tr>
 <td class='right'>3</td>
 <td class="nowrap">RIPE-MD/160</td>
@@ -245,7 +245,7 @@ main table.openpgp-hash td  {
 </tr><tr>
 <td class='right'>8</td>
 <td class="nowrap">SHA2-256</td>
-<td rowspan="4"><a href="http://doi.org/10.6028/NIST.FIPS.180-4">FIPS PUB 180-4 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
+<td rowspan="4"><a href="http://doi.org/10.6028/NIST.FIPS.180-4">FIPS PUB 180-4 <sup><i class='far fa-file-pdf'></i></sup></a></td>
 </tr><tr>
 <td class='right'>9</td>
 <td class="nowrap">SHA2-384</td>
@@ -258,7 +258,7 @@ main table.openpgp-hash td  {
 </tr><tr>
 <td class='right'>12</td>
 <td class="nowrap">SHA3-256</td>
-<td><a href="http://doi.org/10.6028/NIST.FIPS.202">FIPS PUB 202 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
+<td><a href="http://doi.org/10.6028/NIST.FIPS.202">FIPS PUB 202 <sup><i class='far fa-file-pdf'></i></sup></a></td>
 </tr><tr>
 <td class='right'>13</td>
 <td class="nowrap">(Reserved)</td>
@@ -266,7 +266,7 @@ main table.openpgp-hash td  {
 </tr><tr>
 <td class='right'>14</td>
 <td class="nowrap">SHA3-512</td>
-<td><a href="http://doi.org/10.6028/NIST.FIPS.202">FIPS PUB 202 <sup><i class='fa fa-file-pdf-o'></i></sup></a></td>
+<td><a href="http://doi.org/10.6028/NIST.FIPS.202">FIPS PUB 202 <sup><i class='far fa-file-pdf'></i></sup></a></td>
 </tr></tbody>
 </table>
 <figcaption>OpenPGP で使用可能な一方向ハッシュ関数一覧</figcaption>

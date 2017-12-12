@@ -18,7 +18,7 @@
 
 <main>
 <article>
-<h1>ブックマーク集 <a href='{{ .RSSLink }}' title='Feed'><i class='fa fa-rss'></i></a></h1>
+<h1>ブックマーク集 <a href='{{ .RSSLink }}' title='Feed'><i class='fas fa-rss'></i></a></h1>
 <p>いままで <a href="http://del.icio.us/">del.icio.us</a> （旧 <a href="https://delicious.com/spiegel">delicious.com</a>）で収集していたブックマークの代替として運用してみるテスト。</p>
 <ul class="title-list">
 {{ range .Data.Pages }}{{ partial "li-section.html" . }}{{ end }}

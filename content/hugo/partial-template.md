@@ -94,7 +94,7 @@ in 21 ms
 
 <div id='container'>
 <header role="banner">
-<h1><a href="http://hello.example.com/">Hello World!</a> <a href='/index.xml' title='Feed'><i class='fa fa-rss'></i></a></h1>
+<h1><a href="http://hello.example.com/">Hello World!</a> <a href='/index.xml' title='Feed'><i class='fas fa-rss'></i></a></h1>
 
 </header>
 

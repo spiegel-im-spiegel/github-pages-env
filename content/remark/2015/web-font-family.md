@@ -253,11 +253,11 @@ Google Noto Fonts 以外で利用しているフォントを列挙しておく�
 使い方は簡単。
 
 ```html
-<i class="fa fa-btc"></i> 1 ＝ <i class="fa fa-jpy"></i> 31,246.5
+<i class="fab fa-btc"></i> 1 ＝ <i class="fas fa-yen-sign"></i> 31,246.5
 ```
 
 <blockquote>
-<i class="fa fa-btc"></i> 1 ＝ <i class="fa fa-jpy"></i> 31,246.5
+<i class="fab fa-btc"></i> 1 ＝ <i class="fas fa-yen-sign"></i> 31,246.5
 </blockquote>
 
 ### Creative Commons Icon Font

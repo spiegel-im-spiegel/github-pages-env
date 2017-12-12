@@ -94,7 +94,7 @@ IPA の「[情報漏えいを防ぐためのモバイルデバイス等設定マ
                                                              <td>1円未満（$2^{26.2}$）</td><td>約21万円（$2^{52.4}$）</td> <td>約16.5兆円（$2^{78.7}$）</td> <td>約129,000京円（$2^{104.9}$）</td></tr>
 </tbody>
 </table>
-<figcaption>パスワード解読の想定コスト例（<q><a href='https://www.ipa.go.jp/files/000026760.pdf'>情報漏えいを防ぐためのモバイルデバイス等設定マニュアル 解説編 <sup><i class='fa fa-file-pdf-o'></i></sup></a></q> 2.4.2.2項より）</figcaption>
+<figcaption>パスワード解読の想定コスト例（<q><a href='https://www.ipa.go.jp/files/000026760.pdf'>情報漏えいを防ぐためのモバイルデバイス等設定マニュアル 解説編 <sup><i class='far fa-file-pdf'></i></sup></a></q> 2.4.2.2項より）</figcaption>
 </figure>
 
 これは完全にランダムな文字列のパスワードを brute-force 攻撃によって1日で解読する際にかかるコストである。
