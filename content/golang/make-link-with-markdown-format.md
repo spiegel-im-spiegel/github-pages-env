@@ -1,7 +1,7 @@
 +++
 title = "Markdown 形式のリンクを生成するツールを作ってみた"
 date =  "2017-11-08T18:37:57+09:00"
-update =  "2017-11-09T11:56:17+09:00"
+update = "2017-12-14T15:51:24+09:00"
 description = "あれ？ これ Go 言語でも簡単に作れるんじゃないかな。ちうわけで作ってみた。"
 tags        = [ "golang", "programming", "tools" ]
 
@@ -175,6 +175,7 @@ Windows 環境では問題なく動作しているが，他の OS ではどう�
 - [シェルで短縮URLの展開 - nyaocatのがんばるブログ](http://nyaocat.hatenablog.jp/entry/2012/12/10/235259)
 - [ASCII.jp：Go言語で知るプロセス（2）｜Goならわかるシステムプログラミング](http://ascii.jp/elem/000/001/459/1459279/)
 - [テキストファイルの中身をクリップボードにコピーするGolang製CLIツールを作った | タイトル未定(仮)](https://kogai.github.io/2016/08/25/create-golip/)
+- [Go x goqueryでwebスクレイピング - Qiita](https://qiita.com/akif999/items/2d6428c2377e020ce904)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [mklink]: https://github.com/spiegel-im-spiegel/mklink "spiegel-im-spiegel/mklink: Make Link with Markdown Format"

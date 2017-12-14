@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-12-11T19:25:29+09:00"
+update = "2017-12-14T15:51:24+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -318,6 +318,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 
 ## 開発支援
 
+- [GoのSSA最適化制御オプション - Qiita](https://qiita.com/tooru/items/a55bcdac0500d9a93f39)
+
 ### デバッガ
 
 - [golang でビルド時に最適化をオフにする - tetsuok の旅 blog](http://tetsuok.hatenablog.com/entry/2012/07/01/062325) : gdb でデバッグする際は最適化を off にするといいという話
@@ -585,6 +587,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [【Go言語】gothでWebアプリを外部サービス認証ログインできるようにする - Qiita](http://qiita.com/momotaro98/items/90d12c10a655f4026d82)
 - [Goでマイクロサービスやってみる〜gokit〜 - Qiita](https://qiita.com/miya-masa/items/1fefa42458857013b519)
 - [GoでHTTPクライアントを書く時のURLの組み立て方 - Qiita](https://qiita.com/yyoshiki41/items/a0354d9ad70c1b8225b6)
+- [goでWebサーバを書くためのシンプルなライブラリchiの紹介 - Qiita](https://qiita.com/tjun/items/3eea798905b597ec83c0)
 
 ## 他サービスとの連携
 
@@ -611,6 +614,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [(メモ)mattn/go-sqlite3を使ってみた - Qiita](https://qiita.com/tukiyo3/items/89c773fd7ffce2adfadd)
 - [GOのORM sqlboiler 使ってみた　 - Qiita](https://qiita.com/gougyan/items/5295e4a30697a73868b5)
 - [GoでMySQLにアクセスしてみる（gorp編） - Qiita](https://qiita.com/hanenao/items/103774f76abdbc853abf)
+- [go-sqlrow](https://blog.web-apps.tech/go-sqlrow/)
 
 ### GAE/Go
 
@@ -626,6 +630,10 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [GAE(Google App Engine) で Golang を開発するための環境を構築する #golang - Qiita](https://qiita.com/ynozue/items/d12c1da13bbdb9213ba4)
 - [GAE(Google App Engine) で Golang 初めての REST API #golang - Qiita](https://qiita.com/ynozue/items/22967c3c8e12129d7527)
 - [Go×GAE×Dockerで作るGoogleOAuth認証アプリ - Qiita](https://qiita.com/gotokatsuya/items/7f3bd1f71aa825264851)
+
+## AWS Lambda
+
+- [AWS LambdaのGoサポートについて今知れるいくつかのこと - Qiita](https://qiita.com/curepine/items/bd67276c9cae543bc0b8)
 
 ## Excel との連携
 

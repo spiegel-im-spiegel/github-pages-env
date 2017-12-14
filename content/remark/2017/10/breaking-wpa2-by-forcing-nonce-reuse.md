@@ -1,7 +1,7 @@
 +++
 title = "WPA2 脆弱性（KRACKs）に関する覚え書き"
 date =  "2017-10-17T20:00:30+09:00"
-update = "2017-12-11T19:25:29+09:00"
+update = "2017-12-14T15:51:24+09:00"
 description = "今回は，世界中で大騒ぎになっている Wi-Fi の WPA2 認証に関する脆弱性について。"
 tags = [
   "security",
@@ -130,6 +130,8 @@ Wi-Fi 通信が可能なあらゆる機器が対象となる。
     - [tvOS 11.1 のセキュリティコンテンツについて - Apple サポート](https://support.apple.com/ja-jp/HT208219)
     - [About the security content of iOS 11.2 - Apple サポート](https://support.apple.com/ja-jp/HT208334)
         - [Apple、旧iPhone/iPadのWi-Fi脆弱性を「iOS 11.2」で修正  - PC Watch](https://pc.watch.impress.co.jp/docs/news/1095897.html)
+    - [About the security content of AirPort Base Station Firmware Update 7.6.9 - Apple サポート](https://support.apple.com/ja-jp/HT208258)
+    - [About the security content of AirPort Base Station Firmware Update 7.7.9 - Apple サポート](https://support.apple.com/ja-jp/HT208354)
 - Windows については Microsoft からの10月のアップデートで修正されている
     - [CVE-2017-13080 | Windows Wireless WPA Group Key Reinstallation Vulnerability](https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-13080)
 - Linux や FreeBSD 等については対応が始まっている。ディストリビュータの情報に注意すること

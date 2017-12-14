@@ -1,6 +1,6 @@
 +++
 date = "2015-09-15T21:00:13+09:00"
-update = "2017-06-21T12:47:36+09:00"
+update = "2017-12-14T15:51:24+09:00"
 description = "ATOM Editor に関するメモ。 Windows 環境が前提になっているのであしからず。"
 draft = false
 tags = ["atom", "editor", "tools"]
@@ -384,6 +384,8 @@ submodule の処理が得意ではないっぽいのもマイナス。
 ## ブックマーク
 
 - [ATOM で Go — プログラミング言語 Go]({{< relref "golang/golang-with-atom.md" >}})
+- [GitHub Wiki の Markdown を Atom で編集するアレコレ - Qiita](https://qiita.com/alt-core/items/491357aadcd856c7ea5a)
+- [GitHub - increments/atom-qiita-syntax: Qiita theme syntax for Atom](https://github.com/increments/atom-qiita-syntax)
 
 [ATOM] に関するブックマークは [Qiita でメンテナンス](http://qiita.com/spiegel-im-spiegel/items/3d41d98dacc107d73431)している。
 こちらも併せてどうぞ。
