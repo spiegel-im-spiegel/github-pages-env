@@ -36,7 +36,6 @@ NTT 新規契約 0800-2000-1160
 - [MSのマルウェア対策エンジンに脆弱性、更新プログラム公開--GCHQ関連組織が発見 - ZDNet Japan](https://japan.zdnet.com/article/35111708/)
 - [サイバー攻撃を読み解く - Office文書にリンク埋め込むDDEを悪用、攻撃の影響は広範囲に及ぶ：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/17/110800501/120600002/?rt=nocnt)
 - [プログラミング言語に潜む脆弱性がアプリを危険にさらす？--研究者報告 - ZDNet Japan](https://japan.zdnet.com/article/35111775/)
-
 - [http://www.aviationtoday.com/2017/11/08/boeing-757-testing-shows-airplanes-vulnerable-hacking-dhs-says/](http://www.aviationtoday.com/2017/11/08/boeing-757-testing-shows-airplanes-vulnerable-hacking-dhs-says/)
     - [Remote Hack of a Boeing 757 - Schneier on Security](https://www.schneier.com/blog/archives/2017/12/remote_hack_of_.html)
 - [[Announce] GPGME 1.10.0 released](https://lists.gnupg.org/pipermail/gnupg-announce/2017q4/000418.html)
@@ -46,6 +45,8 @@ NTT 新規契約 0800-2000-1160
 - [Microsoft 製品の脆弱性対策について(2017年12月)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20171213-ms.html)
     - [2017年 12月マイクロソフトセキュリティ更新プログラムに関する注意喚起](http://www.jpcert.or.jp/at/2017/at170048.html)
 - [JVNVU#92438713: 複数の TLS 実装において Bleichenbacher 攻撃対策が不十分である問題](http://jvn.jp/vu/JVNVU92438713/)
+    - [TLS実装の脆弱性「ROBOT」が人気サイトなど多数に影響--19年前の問題が再浮上 - ZDNet Japan](https://japan.zdnet.com/article/35111951/)
+    - [TLS実装の脆弱性「ROBOT」、19年前の攻撃が再来　大手各社の製品に影響 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1712/14/news061.html)
 - [Googleの脆弱性発見チームProject ZeroがiOS 11の脱獄を可能にする脆弱性攻撃「tfp0」を公開 - GIGAZINE](https://gigazine.net/news/20171213-ios-11-tfp0/) : iOS 11.1.2 以前で発生
     - [「iOS 11」脱獄を可能に？グーグルの研究者がエクスプロイトの詳細公開 - CNET Japan](https://japan.cnet.com/article/35111867/)
 - [データを暗号化？ 今さら聞けないVPNのメリット・デメリット | ライフハッカー［日本版］](https://www.lifehacker.jp/2017/12/171212-the-beginners-guide-to-vpns.html)
@@ -54,7 +55,7 @@ NTT 新規契約 0800-2000-1160
     - [E-Mail Tracking - Schneier on Security](https://www.schneier.com/blog/archives/2017/12/e-mail_tracking_1.html)
 - [大阪大学への不正アクセスについてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/touch/20171213/1513195810)
 - [About the security content of iOS 11.2.1 - Apple サポート](https://support.apple.com/ja-jp/HT208357)
-
+- [「200億ドルでも売却しない」－暗号化メッセージのテレグラム創業者 - Bloomberg](https://www.bloomberg.co.jp/news/articles/2017-12-14/P0WTP76TTDS001)
 
 ## 天文関連
 
