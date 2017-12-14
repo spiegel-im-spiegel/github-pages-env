@@ -1,6 +1,7 @@
 +++
 title = "エンジニアこそ「狂狷の徒」たれ"
 date =  "2017-12-14T14:19:18+09:00"
+update = "2017-12-14T21:41:02+09:00"
 description = "2008年当時の自分の記事を読んで，あれから10年も経つのに「世の中ちっとも変わらない」気がする。それでも私たちエンジニアは，前だけではなく，上を向いて螺旋階段を登るべきだと思うのだ。"
 image = "/images/attention/remark.jpg"
 tags        = [ "code", "hacker-ethic" ]
@@ -125,6 +126,17 @@ yomoyomo さんの「[情報共有の未来](http://archive.wiredvision.co.jp/bl
 ## 参考図書
 
 - [情報共有の未来 - 達人出版会](https://tatsu-zine.com/books/infoshare) (EPUB, PDF 形式) : yomoyomo, 達人出版会, 2011-12-30, <img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /> : 同名ブログの書籍化。感想は[こちら](http://www.baldanders.info/spiegel/log2/000611.shtml "『情報共有の未来』を読む — Baldanders.info")
+
+<div class="hreview" >
+	<dl >
+		<dt class="fn"><a class="item url" href="https://tatsu-zine.com/books/infoshare">情報共有の未来</a></dt>
+		<dd>yomoyomo</dd>
+		<dd>達人出版会 2011-12-30</dd>
+		<dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr></dd>
+	</dl>
+<p class="description">同名ブログの書籍化。感想は<a href="http://www.baldanders.info/spiegel/log2/000611.shtml">こちら</a>。</p>
+<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-12-14">2017-12-14</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+</div>
 
 <div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4000280872/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/31e2h91IUWL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4000280872/baldandersinf-22/">イノベーション 悪意なき嘘 (双書 時代のカルテ)</a></dt><dd>名和 小太郎 </dd><dd>岩波書店 2007-01-11</dd><dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
 <p class="description">「両用技術とはどのようなものか。その核心には「矛と楯の論理」がある」（まえがき「予断・診断・独断 そんなばかな」より）</p>
