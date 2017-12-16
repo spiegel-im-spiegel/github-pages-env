@@ -1,7 +1,7 @@
 +++
 title = "エンジニアこそ「狂狷の徒」たれ"
 date =  "2017-12-14T14:19:18+09:00"
-update = "2017-12-14T21:41:02+09:00"
+update = "2017-12-16T18:51:18+09:00"
 description = "2008年当時の自分の記事を読んで，あれから10年も経つのに「世の中ちっとも変わらない」気がする。それでも私たちエンジニアは，前だけではなく，上を向いて螺旋階段を登るべきだと思うのだ。"
 image = "/images/attention/remark.jpg"
 tags        = [ "code", "hacker-ethic" ]
@@ -118,6 +118,7 @@ yomoyomo さんの「[情報共有の未来](http://archive.wiredvision.co.jp/bl
     - [ネット中立性の擁護者たちが12月7日に全国のVerizonショップで抗議集会を開く  |  TechCrunch Japan](http://jp.techcrunch.com/2017/11/25/2017-11-22-net-neutrality-advocates-plan-protests-for-december-7-at-verizon-stores/)
     - [インターネットはすでに死んでいる* | 辺境社会研究室](https://youkoseki.tumblr.com/post/167900801310/network-unneutrality)
     - [ネット中立性撤廃に反対する公開書簡をテクノロジ分野の先駆者らが投稿 - CNET Japan](https://japan.cnet.com/article/35111780/)
+- [The battle for the net continues after FCC erases net neutrality rules - Creative Commons](https://creativecommons.org/2017/12/15/battle-net-continues-fcc-erases-net-neutrality-rules/)
 
 - [Japanese doctor wins global prize for standing up to anti-vaccine activists | Cornell Alliance for Science](https://allianceforscience.cornell.edu/blog/japanese-doctor-wins-global-prize-standing-anti-vaccine-activists)
     - [ジョン・マドックス賞受賞スピーチ全文「10万個の子宮」｜村中璃子　Riko Muranaka｜note](https://note.mu/rikomuranaka/n/n64eb122ac396)

@@ -1,6 +1,6 @@
 +++
 date = "2016-05-17T23:50:28+09:00"
-update = "2017-03-24T13:34:20+09:00"
+update = "2017-12-16T18:51:18+09:00"
 description = "考えてもみたまえ。「掛け算は順序が大事」などと言ってはばからない未開人の国がどうやってプログラミングを教えるというのだ。"
 draft = false
 tags = ["programming", "math"]
@@ -62,6 +62,7 @@ title = "「だれもがプログラミングを学ぶべき」ではない"
 ## ブックマーク
 
 - [あなたが安易にプログラミングを学んではいけない、たった1つの理由 | monostudio[モノスタジオ]](https://monostudio.jp/programming-not-easy)
+- [小学生のプログラミング教育になぜ反対か？ - 電気ウナギ的○○](http://blog.netandfield.com/shar/2017/12/post-3057.html)
 
 ## 参考図書
 
