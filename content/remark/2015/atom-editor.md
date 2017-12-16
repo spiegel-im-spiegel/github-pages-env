@@ -1,6 +1,6 @@
 +++
 date = "2015-09-15T21:00:13+09:00"
-update = "2017-12-14T15:51:24+09:00"
+update = "2017-12-16T18:06:49+09:00"
 description = "ATOM Editor に関するメモ。 Windows 環境が前提になっているのであしからず。"
 draft = false
 tags = ["atom", "editor", "tools"]
@@ -363,7 +363,7 @@ submodule の処理が得意ではないっぽいのもマイナス。
 1. Core パッケージ [tabs](https://atom.io/packages/tabs) の設定で “Enable VCS Coloring” を有効にするとタブに表示されているファイル名が色分けされて表示される。
 1. Core パッケージ [git-diff](https://atom.io/packages/git-diff) の設定で “Show Icons In Editor Gutter” を有効にすると差分情報がちょっとだけ見やすくなる。
 1. インデントをそろえるために [highlight-column](https://atom.io/packages/highlight-column) を紹介しているページを見かけたけど，インデントをそろえる目的なら，標準の Settings で “Show Indent Guide” にチェックを入れておく方が吉。
-1. 秀丸では大変重宝したアウトライン解析。[symbols-tree-view](https://atom.io/packages/symbols-tree-view) があればアウトライン解析を行って右側のサイドバーに表示する。
+1. 秀丸では大変重宝したアウトライン解析。[symbols-tree-view](https://atom.io/packages/symbols-tree-view) があればアウトライン解析を行って右側のサイドバーに表示する → [nav-panel-plus](https://atom.io/packages/nav-panel-plus) に乗り換えた。
 1. [japan-util](https://atom.io/packages/japan-util) : 全角・半角変換機能。英数字を全角で書いたり仮名文字を半角で書いたりするバカがいるので，意外と使うのよ，これ。
 1. [highlight-line](https://atom.io/packages/highlight-line) でカーソル行をハイライトにしたり下線を引いたりできる。色のカスタマイズは `%USERPROFILE%\.atom\styles.less` ファイルで行う。
 1. [open-recent](https://atom.io/packages/open-recent) は最近開いたファイルやフォルダを覚えておいてくれる便利なやつ。てか，なぜこれが標準で搭載されてないのだ。
