@@ -1,6 +1,6 @@
 +++
 date = "2015-09-15T21:00:13+09:00"
-update = "2017-12-16T18:06:49+09:00"
+update = "2017-12-17T08:37:00+09:00"
 description = "ATOM Editor に関するメモ。 Windows 環境が前提になっているのであしからず。"
 draft = false
 tags = ["atom", "editor", "tools"]
@@ -20,7 +20,7 @@ title = "ATOM Editor に関するメモ"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
-この記事は [ATOM] Editor に関する情報を Qiita に投稿した記事から再構成したものである。
+この記事は [ATOM] エディタに関する情報を Qiita に投稿した記事から再構成したものである。
 
 - [ATOM Editor をそろそろ始めようか - Qiita](http://qiita.com/spiegel-im-spiegel/items/3d41d98dacc107d73431)
 - [行末の空白は EditorConfig で始末しましょう - Qiita](http://qiita.com/spiegel-im-spiegel/items/a1b4d1ad2a6693ae33e4)
@@ -29,61 +29,72 @@ title = "ATOM Editor に関するメモ"
 そうそう。
 Windows 環境が前提になっているのであしからず。
 
-## ATOM 1.0 をインストールする
+## ATOM 1.x をインストールする
 
-[ATOM] サイトからインストールパッケージ `AtomSetup.exe` をダウンロードして起動すればよい。
-インストールが成功するとインストールフォルダ `C:\Users\username\AppData\Local\atom\bin` に PATH が通る。
+[ATOM] サイトからインストールパッケージ `AtomSetup.exe` または `AtomSetup-x64.exe` をダウンロードして起動すればよい。
+インストールが成功するとインストールフォルダ `%USERPROFILE%\AppData\Local\atom\bin` に PATH が通る。
 これでコマンドプロンプトからも `atom` および `apm` コマンドが使えるようになる。
 
 ```text
-C:>atom -v
+$ atom -v
 
-1.6.0
+Atom    : 1.23.1
+Electron: 1.6.15
+Chrome  : 56.0.2924.87
+Node    : 7.4.0
 
-C:>apm -v
-apm  1.6.0
-npm  2.13.3
-node 0.10.40
+$ apm -v
+apm  1.18.11
+npm  3.10.10
+node 6.9.5 x64
+atom 1.23.1
 python
-git 2.7.2.windows.1
-visual studio
+git 2.15.1.windows.2
+visual studio 2013
 ```
 
-上記の環境では Python と Visual Studio は入れてないのでバージョンが入ってないのかな。
 たしか node-gyp をビルドするのに（Windows 環境では） Python と Visual Studio が要るんだよね。
 ううむ。
 
 - [Windowsでnode-gypのビルドを通す - なにか作る](http://create-something.hatenadiary.jp/entry/2014/07/13/021655)
 
+まぁ，その辺はとりあえずスルーということで。
+
 ### ATOM をアンインストールする
 
-アンインストール自体はコンパネから「プログラムと機能」を開いて「Atom」をアンインストールする。アンインストールを開始するもほぼ無言で完了。男前（笑）
+アンインストール自体はコンパネから「プログラムと機能」を開いて「Atom」をアンインストールする。
+アンインストールを開始するもほぼ無言で完了。
+男前（笑）
 
-ただしユーザのフォルダ内には [ATOM] 関連のファイルがかなり残っているので手動で掃除する。対象となるのは以下のフォルダ。
+ただしユーザのフォルダ内には [ATOM] 関連のファイルがかなり残っているので手動で掃除する。
+対象となるのは以下のフォルダ。
 
-- `C:\Users\username\.atom`
-- `C:\Users\username\AppData\Local\atom`
-- `C:\Users\username\AppData\Local\Temp`
-- `C:\Users\username\AppData\Roaming\Atom`
+- `%USERPROFILE%\.atom`
+- `%USERPROFILE%\AppData\Local\atom`
+- `%USERPROFILE%\AppData\Local\Temp`
+- `%USERPROFILE%\AppData\Roaming\Atom`
 
-`AppData` フォルダは既定では不可視になっているのでご注意を。 `C:\Users\username\.atom` フォルダには `keymap.cson` などの設定ファイルが入ってるので，バックアップを取っておくと安全。
+（`USERPROFILE` 環境変数は `C:\Users\username` などと設定されているはず）
 
-`C:\Users\username\AppData\Local\Temp` には `Atom Crashes` フォルダがある。どうやらクラッシュ・レポートはここに吐かれるらしい。テンポラリ・フォルダにある古い日付のフォルダ・ファイルは，大概は削除して大丈夫なのだが，たまにヤバいやつもあるので掃除は慎重に。
+`AppData` フォルダは既定では不可視になっているのでご注意を。
+`%USERPROFILE%\.atom` フォルダには `keymap.cson` などの設定ファイルが入ってるので，バックアップを取っておくと安全。
 
-#### 参考
+`%USERPROFILE%\AppData\Local\Temp` に `Atom Crashes` フォルダがある。
+どうやらクラッシュ・レポートはここに吐かれるらしい。
+テンポラリ・フォルダにある古い日付のフォルダ・ファイルは大抵は削除して大丈夫なのだが，たまにヤバいやつもあるので掃除は慎重に。
 
-- [Atom レジストリエントリを含むアンインストール方法（Windows版） - Qiita](http://qiita.com/masa36/items/c800185174bd77526a7d)
+*参考：* [Atom レジストリエントリを含むアンインストール方法（Windows版） - Qiita](http://qiita.com/masa36/items/c800185174bd77526a7d)
 
 ## apm stars でテーマ・パッケージを一気にインストールする
 
-`apm` には star を付けたテーマ・パッケージを一気にインストールするコマンドがある。
+`apm` には star (☆) を付けたテーマ・パッケージを一気にインストールするコマンドがある。
 
 この機能を使うには，まず `apm` にアカウントのトークンを登録する必要がある。アカウントのトークンは [Account](https://atom.io/account) ページから取得できる。（[GitHub] のアカウントを持っていれば，そのまま [ATOM] にも sign in できるのだが，持ってない人はどうするんだろう？）
 
 取得したトークンを `apm login` コマンドで登録すれば OK。
 
 ```text
-C:>apm login
+$ apm login
 Welcome to Atom!
 
 Before you can publish packages, you'll need an API token.
@@ -99,21 +110,25 @@ Saving token to Keychain done
 Star を付けたテーマ・パッケージは `apm stars` コマンドで見ることができる。
 
 ```text
-C:>apm stars
-Packages starred by you (13)
-├── atom-monokai Monokai syntax theme for Atom Dark & Light UI, One Dark & Light, and Seti UI (27359 downloads, 39 stars)
-├── autoclose-html Automates closing of HTML Tags (83771 downloads, 296 stars)
-├── editorconfig Helps developers maintain consistent coding styles between different editors (55732 downloads, 446 stars)
-├── file-icons Assign file extension icons and colours for improved visual grepping (305041 downloads, 1561 stars)
-├── git-plus Do git things without the terminal (264729 downloads, 861 stars)
-├── highlight-line Highlights the current line in the editor (54346 downloads, 423 stars)
-├── japan-util utilities for Japanese (858 downloads, 12 stars)
-├── open-recent Open recent files in the current window, and recent folders (optionally) in a new window. (11595 downloads, 142 stars)
-├── quick-highlight Highlight text quickly. (943 downloads, 11 stars)
-├── show-ideographic-space Show ideographic space (known as 全角スペース) (4255 downloads, 57 stars)
-├── symbols-tree-view A symbols view like taglist (19099 downloads, 181 stars)
-├── tablr Edit CSV files using a table editor (538 downloads, 16 stars)
-└── wrap-style Select word warp style. (10 downloads, 2 stars)
+$ apm stars
+Packages starred by you (17)
+├── atom-ide-ui A collection of Atom UIs to support language services. (249978 downloads, 242 stars)
+├── atom-material-syntax-dark A darker syntax theme for Atom that uses Google's Material Design color palette (147753 downloads, 184 stars)
+├── auto-encoding Auto detect (61100 downloads, 137 stars)
+├── editorconfig Helps developers maintain consistent coding styles between different editors (374933 downloads, 1214 stars)
+├── file-icons Assign file extension icons and colours for improved visual grepping (3948068 downloads, 4808 stars)
+├── git-plus Do git things without the terminal (1843260 downloads, 2408 stars)
+├── git-time-machine Visually interact with git commit history for a file (281943 downloads, 933 stars)
+├── go-plus Makes working with Go in Atom awesome. (439855 downloads, 479 stars)
+├── highlight-line Highlights the current line in the editor (206856 downloads, 907 stars)
+├── ide-typescript TypeScript and JavaScript language support for Atom-IDE. (78960 downloads, 81 stars)
+├── japan-util utilities for Japanese (5068 downloads, 39 stars)
+├── language-lua Add syntax highlighting and snippets to Lua files in Atom (157120 downloads, 165 stars)
+├── markdown-table-editor Markdown table editor/formatter (11218 downloads, 39 stars)
+├── nav-panel-plus Side panel with automatic, configurable markers for easy navigation with support for persistent bookmarks. (2052 downloads, 12 stars)
+├── open-recent Open recent files in the current window, and recent folders (optionally) in a new window. (143665 downloads, 643 stars)
+├── platformio-ide-terminal A terminal package for Atom, complete with themes, API and more for PlatformIO IDE. Fork of terminal-plus. (817652 downloads, 533 stars)
+└── show-ideographic-space Show ideographic space (known as 全角スペース) (42647 downloads, 262 stars)
 
 Use `apm stars --install` to install them all or visit http://atom.io/packages to read more about them.
 ```
@@ -121,47 +136,72 @@ Use `apm stars --install` to install them all or visit http://atom.io/packages t
 さらに `--install` オプションを付ければ一気にインストールできる。
 
 ```text
-C:>apm stars --install
-Installing atom-monokai to C:\Users\username\.atom\packages done
-Installing autoclose-html to C:\Users\username\.atom\packages done
+$ apm stars --install
+Installing atom-ide-ui to C:\Users\username\.atom\packages done
+Installing atom-material-syntax-dark to C:\Users\username\.atom\packages done
+Installing auto-encoding to C:\Users\username\.atom\packages done
 Installing editorconfig to C:\Users\username\.atom\packages done
 Installing file-icons to C:\Users\username\.atom\packages done
 Installing git-plus to C:\Users\username\.atom\packages done
+Installing git-time-machine to C:\Users\username\.atom\packages done
+Installing go-plus to C:\Users\username\.atom\packages done
 Installing highlight-line to C:\Users\username\.atom\packages done
+Installing ide-typescript to C:\Users\username\.atom\packages done
 Installing japan-util to C:\Users\username\.atom\packages done
+Installing language-lua to C:\Users\username\.atom\packages done
+Installing markdown-table-editor to C:\Users\username\.atom\packages done
+Installing nav-panel-plus to C:\Users\username\.atom\packages done
 Installing open-recent to C:\Users\username\.atom\packages done
-Installing quick-highlight to C:\Users\username\.atom\packages done
+Installing platformio-ide-terminal to C:\Users\username\.atom\packages done
 Installing show-ideographic-space to C:\Users\username\.atom\packages done
-Installing symbols-tree-view to C:\Users\username\.atom\packages done
-Installing tablr to C:\Users\username\.atom\packages done
-Installing wrap-style to C:\Users\username\.atom\packages done
 ```
 
-これで複数マシンへの環境構築が随分楽になると思う。なお star の管理は `apm star` または `apm unstar` コマンドでできるが，テーマ・パッケージのページでも可能。
+これで複数マシンへの環境構築が随分楽になると思う。
+なお star の管理は `apm star` または `apm unstar` コマンドでできるが，テーマ・パッケージのページでも可能[^star1]。
 
-（[ATOM] の star が [GitHub] の star のように [Flattr](https://flattr.com/) と連動すれば面白いんだけどねぇ。とりあえず flattr ボタンを貼り付ける手もあるけど）
+[^star1]: [ATOM] の star が [GitHub] の star のように [Flattr](https://flattr.com/) と連動すれば面白いんだけどねぇ。とりあえず flattr ボタンを貼り付ける手もあるけど。
 
-「[ATOM の Theme / Package の感想文（2015-06-10） - Qiita](http://qiita.com/spiegel-im-spiegel/items/115fea37ad2e515f6641)」にテーマ・パッケージの感想を書いている。個人的な印象なんであんまり参考にならないかもだけど，よろしかったらどうぞ。
+以下の記事でテーマ・パッケージの感想を書いている。
+個人的な印象なんであんまり参考にならないかもだけど，よろしかったらどうぞ。
+
+- [年末なので ATOM Editor を掃除しましょう（もしくは2017年お気に入り ATOM パッケージ）]({{< relref "remark/2017/12/favorite-atom-packages-2017.md" >}})
 
 ## ATOM の設定
 
 ### Proxy 設定
 
 Intranet 上のマシンで外部との接続が阻まれている場合は Proxy 設定を行う。
-設定には `apm` コマンドを使う。
+設定には `apm config` コマンドを使う。
 
-```bash
-C:>apm config set https-proxy http://username:password@proxy.exsample.com:8080
+```text
+$ apm config set https-proxy http://username:password@proxy.exsample.com:8080
 ```
 
-Firewall のなかには，セキュリティ上の理由から， SSL/TLS 暗号通信を中間者攻撃[^b] でのぞき見するものがある。
-このタイプの Firewall/Proxy は SSL/TLS の証明書を書き換えてしまうため， `apm` が通信エラーになる。
+ちゃんと設定できているかどうかは以下で確認可能。
+
+{{< highlight text "hl_lines=8" >}}
+$ apm config list -l
+; cli configs
+globalconfig = "C:\\Users\\username\\.atom\\.apm\\.apmrc"
+user-agent = "npm/3.10.10 node/v6.9.5 win32 x64"
+userconfig = "C:\\Users\\username\\.atom\\.apmrc"
+
+; userconfig C:\Users\username\.atom\.apmrc
+https-proxy = "http://username:password@proxy.exsample.com:8080"
+
+; globalconfig C:\Users\username\.atom\.apm\.apmrc
+cache = "C:\\Users\\username\\.atom\\.apm"
+progress = false
+{{< /highlight >}}
+
+ファイアウォールのなかには，セキュリティ上の理由から， SSL/TLS 暗号通信を中間者攻撃[^b] でのぞき見するものがある。
+このタイプのファイアウォールは SSL/TLS の証明書を書き換えてしまうため， `apm` が通信エラーになる。
 この場合は以下の設定を行って強制的に SSL/TLS を通すようにするとよいらしい（取扱注意）。
 
 [^b]: Deep Packet Inspection とか言うらしいけど，どう見たって Man-in-the-Middle Attack だろ（笑）
 
-```bash
-C:>apm config set strict-ssl false
+```text
+$ apm config set strict-ssl false
 ```
 
 やれやれ。
@@ -187,18 +227,24 @@ Inconsolata, "Yu Mincho"
 ```
 
 とすればよい。
-ちなみに IPA 明朝は線が細すぎて不向きだった（まぁ印刷用に特化したフォントだからね。 IPA は Web Font 用の IPA 明朝/ゴシックフォントを開発すべき）。
+ちなみに IPA 明朝は線が細すぎて不向きだった[^ipaf1]。
 
-Windows では Tree View のフォントが汚いので，ここは素直に Meiryo UI フォントに変える。 `%USERPROFILE%\.atom\styles.less` を以下のように変更する。
+[^ipaf1]: まぁ印刷用に特化したフォントだからね。 IPA は Web フォント用の IPA 明朝/ゴシックフォントを開発すべき。
+
+Windows では Tree View のフォントが汚いので，ここは素直に Meiryo UI フォントに変える。
+`%USERPROFILE%\.atom\styles.less` を以下のように変更すればよい。
 
 ```css
+@ui-fonts: "Meiryo UI";
 .tree-view {
-  font-family: "Meiryo UI";
+  font-family: @ui-fonts;
 }
 atom-workspace {
-  font-family: "Meiryo UI";
+  font-family: @ui-fonts;
 }
 ```
+
+[Inconsolata]: http://www.levien.com/type/myfonts/inconsolata.html "Inconsolata"
 
 ### EditorConfig
 
@@ -220,6 +266,10 @@ insert_final_newline = true
 [*.html]
 insert_final_newline = false
 
+[*.css]
+indent_style = space
+indent_size = 2
+
 [*.md]
 indent_style = space
 indent_size = 4
@@ -240,6 +290,8 @@ trim_trailing_whitespace = false
 
 - [editorconfig](https://atom.io/packages/editorconfig)
 
+[EditorConfig]: http://editorconfig.org/ "EditorConfig"
+
 #### 文字エンコーディングについて残念なお知らせ
 
 `charset` では文字エンコーディングを指定するが，標準では `latin1`, `utf-8`, `utf-8-bom`, `utf-16be`, `utf-16le` しかサポートしていない。
@@ -252,80 +304,26 @@ trim_trailing_whitespace = false
 
 #### ファイル読み込み時に文字エンコーディングを自動判別する
 
-もうひとつの緩和策としては，既存ファイル読み込み時に [ATOM] に文字エンコードを自動判別させることだ。ただし，この機能を持つ Package は今のところ存在しないようなので自前で何とかするしかない（後述するが [auto-encoding](https://atom.io/packages/auto-encoding) パッケージというのがあった）。
-
-- [ATOM でファイルを開いたら自動文字コード判定を行う - Qiita](http://qiita.com/tokudiro/items/bc232c7d36261dc45936)
-
-この設定を行うには node.js のフルパッケージが必要。
-
-（Linux や Mac な人は依存関係で node.js がインストールされると思うけど， Windows では [ATOM] インストール時に一部機能が同梱されているだけなので（しかもバージョンが古い），フル機能を使うには別途インストールする必要あり）
-
-Windows の場合は `%USERPROFILE%\.atom` フォルダに移動する。その後， `npm` コマンドを使って `iconv-lite` と `jschardet` をインストールする。
-
-```text
-C:>cd C:\Users\username\.atom
-C:\Users\username\.atom>npm install iconv-lite
-iconv-lite@0.4.10 node_modules\iconv-lite
-
-C:\Users\username\.atom>npm install jschardet
-jschardet@1.1.1 node_modules\jschardet
-```
-
-すると `%USERPROFILE%\.atom\node_modules` フォルダが作成され，その中に `iconv-lite` と `jschardet` がインストールされているはずである。
-
-次は `%USERPROFILE%\.atom\init.coffee` ファイルに以下の記述を追加する。
-
-```coffee
-fs = require('fs')
-
-atom.workspace.onDidOpen ->
-  editor = atom.workspace.getActiveTextEditor()
-
-  try
-    filePath = editor.getPath()
-  catch error
-    return
-  return unless fs.existsSync(filePath)
-
-  jschardet = require 'jschardet'
-  iconv = require 'iconv-lite'
-  fs.readFile filePath, (error, buffer) =>
-    return if error?
-    {encoding} = jschardet.detect(buffer) ? {}
-    encoding = 'utf8' if encoding is 'ascii'
-    return unless iconv.encodingExists(encoding)
-
-    encoding = encoding.toLowerCase().replace(/[^0-9a-z]|:\d{4}$/g, '')
-    editor.setEncoding(encoding)
-```
-
-「[ATOM でファイルを開いたら自動文字コード判定を行う](http://qiita.com/tokudiro/items/bc232c7d36261dc45936)」によると，これは [encoding-selector](https://atom.io/packages/encoding-selector) からの流用らしい。ただし現在， [encoding-selector](https://atom.io/packages/encoding-selector) は Core Package に入ってるので atom フォルダをひっくり返してもソースコードは見当たらない。ので，GitHub repository [atom/encoding-selector](https://github.com/atom/encoding-selector) にある [lib/encoding-list-view.coffee](https://github.com/atom/encoding-selector/blob/master/lib/encoding-list-view.coffee) を参考にするといいだろう。 `detectEncoding:` のあたりである。
-
-これで [ATOM] を起動して既定の文字エンコーディングでない適当なファイルを読み込ませてみれば確認できる。ただし，自動判別は万能じゃない（たまに間違う）ので，その辺は悪しからずってことで。
-
-一番いいのは [encoding-selector](https://atom.io/packages/encoding-selector) がファイル読み込み時に自動判別する機能を付けてくれることなんだけど。誰かやらないかな。個人的には [ATOM] 開発に積極的に commit する気はないので，完全に他人任せなのだが。
-
-とか思ってたら [auto-encoding](https://atom.io/packages/auto-encoding) パッケージというのがあった。
-素敵！ 2015年の春には存在していたらしい。
-それ知らんかっとってんちんとんしゃん。
-コマンドパレットで自動判別をオフにすることもできる。
+もうひとつの緩和策として，既存ファイル読み込み時に [ATOM] に文字エンコードを自動判別させる手がある。
+文字エンコードを自動判別を行うには [auto-encoding] を入れるとよい。
+自動判別はコマンドパレットからオフにすることもできる。
 ありがとー！
+
+（古い記述だが，文字エンコードを自動判別するコードを直接 `init.coffee` に記述する方法もある： [ATOM でファイルを開いたら自動文字コード判定を行う - Qiita](http://qiita.com/tokudiro/items/bc232c7d36261dc45936)）
+
+[auto-encoding]: https://atom.io/packages/auto-encoding
 
 ### Git 関連機能
 
-GitHub が作ったという割には git 機能が貧弱なのは何故なのだろう。特に [git-plus](https://atom.io/packages/git-plus) 相当の機能が Core パッケージに入ってないのは解せぬ。というわけでインストールした。公開してくださった方に感謝。
-
-- [git-plus](https://atom.io/packages/git-plus)
-
-[git-plus](https://atom.io/packages/git-plus) は主にコマンドパレットで操作するが（メニューの「Packages」からも辿れる），コマンドパレットの呼び出しを `f1` キーに割り当てたらだいぶ使いやすくなった。
-更に [git-plus](https://atom.io/packages/git-plus) 専用のコマンドパレットもある。これも `shift-f1` キーに割り当てた。
-
-[git-control](https://atom.io/packages/git-control) は GUI で最初の頃は便利だったのだが， [git-plus](https://atom.io/packages/git-plus) が手に馴染んできたら使わなくなった。
-submodule の処理が得意ではないっぽいのもマイナス。
-
-**2017-06-21 追記：** 1.18 でようやく公式に git 機能が組み込まれた。
+[ATOM] 1.18 でようやく公式に git 機能が組み込まれた。
 
 - [ATOM 1.18 stable がリリース]({{< relref "remark/2017/06/atom-1_18.md" >}})
+
+ただし，キーボード操作なら [git-plus] のほうが便利である。
+
+[git-plus] の機能は専用のコマンドパレットから呼び出すことが出来るが（メニューの「Packages」からも辿れる），呼び出しのキー割り当てを `shift-f1` にしたらだいぶ楽になった。
+
+[git-plus]: https://atom.io/packages/git-plus
 
 ### 矩形選択
 
@@ -359,20 +357,9 @@ submodule の処理が得意ではないっぽいのもマイナス。
 
 ### その他
 
-1. 自動保存を行う Core パッケージ [autosave](https://atom.io/packages/autosave) は既定で無効になってる。私は [git-plus](https://atom.io/packages/git-plus) で commit する前に保存するのをどうしても忘れるので，これを有効にしておくと吉。ただし [git-plus](https://atom.io/packages/git-plus) で，自動保存により勝手に commit が走るので注意。
-1. Core パッケージ [tabs](https://atom.io/packages/tabs) の設定で “Enable VCS Coloring” を有効にするとタブに表示されているファイル名が色分けされて表示される。
-1. Core パッケージ [git-diff](https://atom.io/packages/git-diff) の設定で “Show Icons In Editor Gutter” を有効にすると差分情報がちょっとだけ見やすくなる。
-1. インデントをそろえるために [highlight-column](https://atom.io/packages/highlight-column) を紹介しているページを見かけたけど，インデントをそろえる目的なら，標準の Settings で “Show Indent Guide” にチェックを入れておく方が吉。
-1. 秀丸では大変重宝したアウトライン解析。[symbols-tree-view](https://atom.io/packages/symbols-tree-view) があればアウトライン解析を行って右側のサイドバーに表示する → [nav-panel-plus](https://atom.io/packages/nav-panel-plus) に乗り換えた。
-1. [japan-util](https://atom.io/packages/japan-util) : 全角・半角変換機能。英数字を全角で書いたり仮名文字を半角で書いたりするバカがいるので，意外と使うのよ，これ。
-1. [highlight-line](https://atom.io/packages/highlight-line) でカーソル行をハイライトにしたり下線を引いたりできる。色のカスタマイズは `%USERPROFILE%\.atom\styles.less` ファイルで行う。
-1. [open-recent](https://atom.io/packages/open-recent) は最近開いたファイルやフォルダを覚えておいてくれる便利なやつ。てか，なぜこれが標準で搭載されてないのだ。
-1. [show-ideographic-space](https://atom.io/packages/show-ideographic-space) : いわゆる「全角空白」を視覚化してくれる。見せ方は `%USERPROFILE%\.atom\styles.less` ファイルでカスタマイズ可能。実際には IME のプロパティでスペース・キー押下で常に「半角空白」を入力するように設定すればほとんど防げるんだどね（全角空白を入力する場合は `shift-space` 押下）。
-1. [autoclose-html](https://atom.io/packages/autoclose-html) : HTML 入力でタグを入力すると自動的に閉じタグを補完してくれる。自動補完の機能は色々あって，大抵は [autocomplete-plus](https://atom.io/packages/autocomplete-plus) のサブパッケージだったりするのだが，これだけは毛色が違う（笑）
-1. 特定の単語をマークしておける [quick-highlight](https://atom.io/packages/quick-highlight) が結構使える。 Windows だとキーに割り当てられないので、 toggle を適当なファンクションキーとかに割り当てておくとめっさ便利。
-- むむっ。 [latex](https://atom.io/packages/latex) パッケージなるものがあるなぁ。
-1. [tablr](https://atom.io/packages/tablr) : CSV Editor。なにこれ素敵！
-1. [tempfile](https://atom.io/packages/tempfile) は書き捨て用のファイルを開くことができる。ファイルタイプを指定できるので通常のファイルと同じように highlight や snippet が効く。また設定でファイル保存先を指定できるので書き散らしたメモを溜めておくこともできる。
+1. Core パッケージ [tabs](https://atom.io/packages/tabs) の設定で “Enable VCS Coloring” を有効にするとタブに表示されているファイル名が色分けされて表示される
+1. Core パッケージ [git-diff](https://atom.io/packages/git-diff) の設定で “Show Icons In Editor Gutter” を有効にすると差分情報がちょっとだけ見やすくなる
+1. インデントをそろえるために [highlight-column](https://atom.io/packages/highlight-column) を紹介しているページを見かけたけど，インデントをそろえる目的なら，標準の Settings で “Show Indent Guide” にチェックを入れておく方が吉
 
 ### 現在の設定
 
@@ -383,14 +370,14 @@ submodule の処理が得意ではないっぽいのもマイナス。
 
 ## ブックマーク
 
-- [ATOM で Go — プログラミング言語 Go]({{< relref "golang/golang-with-atom.md" >}})
+- [Atom - TeX Wiki](https://texwiki.texjp.org/?Atom)
 - [GitHub Wiki の Markdown を Atom で編集するアレコレ - Qiita](https://qiita.com/alt-core/items/491357aadcd856c7ea5a)
 - [GitHub - increments/atom-qiita-syntax: Qiita theme syntax for Atom](https://github.com/increments/atom-qiita-syntax)
 
-[ATOM] に関するブックマークは [Qiita でメンテナンス](http://qiita.com/spiegel-im-spiegel/items/3d41d98dacc107d73431)している。
-こちらも併せてどうぞ。
+- [ATOM で Go — プログラミング言語 Go]({{< relref "golang/golang-with-atom.md" >}})
+
+Qiita の「[ATOM Editor をそろそろ始めようか](http://qiita.com/spiegel-im-spiegel/items/3d41d98dacc107d73431)」はもうメンテしてません。
+ゴメンペコン。
 
 [ATOM]: https://atom.io/ "Atom"
 [GitHub]: https://github.com/ "GitHub"
-[Inconsolata]: http://www.levien.com/type/myfonts/inconsolata.html "Inconsolata"
-[EditorConfig]: http://editorconfig.org/ "EditorConfig"

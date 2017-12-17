@@ -1,6 +1,7 @@
 +++
 title = "年末なので ATOM Editor を掃除しましょう（もしくは2017年お気に入り ATOM パッケージ）"
 date =  "2017-12-16T18:16:31+09:00"
+update = "2017-12-17T08:37:00+09:00"
 description = "というわけで，唐突に ATOM エディタの掃除とか始めてしまう。ついでに最近のお気に入りパッケージとか紹介してみる。"
 image = "/images/attention/remark.jpg"
 tags = ["atom", "editor", "tools", "git", "golang", "japanese", "language"]
@@ -137,7 +138,7 @@ $ apm stars --install
 
 ### 自動保存
 
-ファイルの自動保存機能として，コア・パッケージに [autosave] というのがあるのだが，ファイル保存をトリガにして動くパッケージもあるので（[git-plus] の commit とか），使い所が微妙である。
+ファイルの自動保存機能として，コア・パッケージに [autosave] というのがあるのだが，ファイル保存をトリガにして動く機能もあるので（[git-plus] の commit コメントとか），使い所が微妙である。
 
 ちなみに，かつての [save-session] 機能は [ATOM] 本体に取り込まれているそうで，保存を忘れて [ATOM] を閉じても，次に開くときは未保存状態のまま復元されるようだ。
 よしよし。
@@ -200,9 +201,13 @@ $ apm stars --install
 
 ### 日本語関連のパッケージ
 
+以降は簡単に箇条書きで。
+
 - *[auto-encoding]* ： 文字エンコーディングを自動で判定してくれる。 Shift-JIS や EUC-JP なファイルを開く時に重宝する。たまに間違うのがご愛嬌
 - *[japan-util]* ： 日本語用の文字変換パッケージ半角/全角変換や平仮名/片仮名変換とかしてくれる
-- *[show-ideographic-space]* ： いわゆる全角空白文字を視覚化してくれる。これがないとコンパイルエラー時にパニクるハメになる
+- *[show-ideographic-space]* ： いわゆる全角空白文字を視覚化してくれる。これがないとコンパイルエラー時にパニクるハメになる[^zs1]。見せ方は `styles.less` ファイルでカスタマイズ可能
+
+[^zs1]: Windows 環境なら，全角空白文字の誤入力は IME のプロパティでスペース・キー押下で常に「半角空白」を入力するように設定すればほとんど防げるんだどね（全角空白を入力する場合は `shift-space` 押下）。
 
 [auto-encoding]: https://atom.io/packages/auto-encoding
 [japan-util]: https://atom.io/packages/japan-util
@@ -210,6 +215,7 @@ $ apm stars --install
 
 ### その他のお気に入りパッケージ
 
+- *[autoclose-html]* ： HTML 入力でタグを入力すると自動的に閉じタグを補完してくれる。便利なのだが HTML を直に弄ることが少なくなったので削除した
 - *[file-icons]* ： Tree View やタブのアイコン表示を見やすくしてくれる
 - *[language-lua]* ： Lua 言語用のパッケージ。 [atom-ide-ui] に対応するものがないっぽいので。 [NYAGOS] 用のバッチ処理等を書くのに Lua 言語を使うのよ
 - *[markdown-table-editor]* ： Markdown のテーブル作成支援パッケージ。めっさ便利
@@ -217,6 +223,7 @@ $ apm stars --install
 - *[open-recent]* ： File メニューに “Open Recent” 項目を追加し，最近開いたファイルやプロジェクトを表示してくれる
 - *[platformio-ide-terminal]* ： [ATOM] 内でターミナルを起動する。 shell  や環境変数を指定できるのが素敵。私は shell として [NYAGOS] を指定している
 
+[autoclose-html]: https://atom.io/packages/autoclose-html
 [file-icons]: https://atom.io/packages/file-icons
 [language-lua]: https://atom.io/packages/language-lua
 [markdown-table-editor]: https://atom.io/packages/markdown-table-editor
@@ -225,31 +232,35 @@ $ apm stars --install
 [open-recent]: https://atom.io/packages/open-recent
 [platformio-ide-terminal]: https://atom.io/packages/platformio-ide-terminal
 
-### 未インストールだけど気になってるパッケージ
+## 未インストールだけど気になってるパッケージ
+
+こちらも簡単に箇条書きで。
 
 - *[fdocblockr]* ： `/** */` みたいなブロックコメントを生成してくれる。 Java とかならありがたいが [Go 言語]は微妙
 - *[language-plantuml] & [plantuml-viewer]* ： PlantUML 用の言語パッケージと画像表示パッケージ。 SVG や PNG といった画像データとして保存できるのが素敵。 DOT 言語に変換されるので， [Graphviz] を用意する必要がある
+    - [AtomとPlantUMLで爆速UMLモデリング - Qiita](http://qiita.com/nakahashi/items/3d88655f055ca6a2617c)
+	- [Atom+PlantUMLで見た目もいい感じのシーケンス図を作成する - Qiita](http://qiita.com/k_nakayama/items/77ca73753ebd049a66de)
+- *[linter]* ： これ単独では使えなくて，言語ごとに lint パッケージを用意する必要がある。 [Go 言語]では [go-plus] が独自の強力な lint 機能を持っているため不要
+    - [AtomにESLint導入した - Qiita](http://qiita.com/pechefamille/items/40966a0c78846f4053c9)
 - *[tablr]* ： CSV ファイルをスプレッドシート風に表示・編集できる。小さいファイルならいいんだけど， CSV ファイルって大抵が巨大ファイルだからなぁ。結局 Office ツール使ったほうがよかったり
 
 
 [fdocblockr]: https://atom.io/packages/docblockr
 [language-plantuml]: https://atom.io/packages/language-plantuml
+[linter]: https://atom.io/packages/linter
 [plantuml-viewer]: https://atom.io/packages/plantuml-viewer
 [tablr]: https://atom.io/packages/tablr
 
 ## ブックマーク
 
+- [Atom - TeX Wiki](https://texwiki.texjp.org/?Atom)
 - [［保存版］Atomエディタ 便利なパッケージ一覧！ 全23社のWebエンジニア・デザイナーがおすすめを紹介 - エンジニアHub｜若手Webエンジニアのキャリアを考える！](https://employment.en-japan.com/engineerhub/entry/2017/08/10/110000)
+
 - [ATOM Editor に関するメモ]({{<relref "remark/2015/atom-editor.md" >}})
 - [ATOM × NYAGOS ＝ ♥]({{< relref "remark/2016/11/nyagos-with-atom.md" >}})
-- [ATOM で Go]({{< relref "golang/golang-with-atom.md" >}}) ： 記述が古くてゴメン。最近の [go-plus] は自動的に必要なパッケージをインストールしてくれるので，ほとんど何もしなくても大丈夫
+- [ATOM で Go]({{< relref "golang/golang-with-atom.md" >}})
 
 [ATOM]: https://atom.io/ "Atom"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [NYAGOS]: http://www.nyaos.org/index.cgi?p=NYAGOS "NYAOS.ORG - NYAGOS"
 [Graphviz]: http://www.graphviz.org/ "Graphviz | Graphviz - Graph Visualization Software"
-
-
-
-
-<!-- eof -->
