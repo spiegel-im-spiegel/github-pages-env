@@ -1,0 +1,21 @@
+@startuml
+!include style-all.puml
+
+abstract class friends {
+}
+class serval {
+  +Waai()
+}
+class raccoon {
+  +OmakaseNanoda()
+}
+class fennec {
+  +Haiyo()
+}
+
+friends <|-- serval
+friends <|-- raccoon
+friends <|-- fennec
+note top of friends: みんな自由に生きている
+
+@enduml

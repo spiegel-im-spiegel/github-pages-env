@@ -1,0 +1,14 @@
+@startuml
+
+!include style.puml
+
+actor ボブ
+participant Alice
+
+ボブ->Alice : こんにちは
+activate Alice
+
+Alice-->ボブ : Hello
+deactivate Alice
+
+@enduml

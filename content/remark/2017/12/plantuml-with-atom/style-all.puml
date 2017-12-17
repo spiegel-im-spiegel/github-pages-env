@@ -1,0 +1,90 @@
+@startuml
+
+skinparam shadowing false
+skinparam default{
+  FontName 'Noto Serif', 'Noto Serif JP', serif
+  FontColor black
+  FontSize 14
+}
+
+skinparam class {
+  ArrowFontName 'Noto Sans', 'Noto Sans JP', sans-serif
+  ArrowFontColor black
+  ArrowFontSize 10
+  ArrowColor Black
+  ArrowThickness 1
+
+  FontName 'Noto Sans', 'Noto Sans JP', sans-serif
+  FontColor black
+  FontSize 14
+  BorderColor Black
+  BackgroundColor White
+  HeaderBackgroundColor White
+  BorderThickness 1
+
+  StereotypeFontName 'Noto Sans', 'Noto Sans JP', sans-serif
+  StereotypeFontColor black
+  StereotypeFontSize 10
+
+  AttributeFontName 'Noto Sans', 'Noto Sans JP', sans-serif
+  AttributeFontColor black
+  AttributeFontSize 10
+}
+
+skinparam sequence {
+  ArrowFontName 'Noto Sans', 'Noto Sans JP', sans-serif
+  ArrowFontColor black
+  ArrowFontSize 10
+  ArrowColor Black
+  ArrowThickness 1
+
+  MessageAlign center
+
+  GroupHeaderFontName 'Noto Sans', 'Noto Sans JP', sans-serif
+  GroupHeaderFontColor black
+  GroupHeaderFontSize 10
+  GroupFontName 'Noto Sans', 'Noto Sans JP', sans-serif
+  GroupFontColor black
+  GroupFontSize 10
+  GroupBorderColor Black
+  GroupBackgroundColor White
+  GroupBodyBackgroundColor White
+  GroupBorderThickness 1
+
+  LifeLineBorderColor Black
+  LifeLineBackgroundColor White
+  LifeLineBorderThickness 1
+
+  ActorBorderColor Black
+  ActorBackgroundColor White
+  ActorBorderThickness 1.5
+
+  ParticipantBorderColor Black
+  ParticipantBackgroundColor LightGray
+  ParticipantBorderThickness 1.5
+}
+
+skinparam package {
+  FontName 'Noto Sans', 'Noto Sans JP', sans-serif
+  FontColor black
+  FontSize 10
+  BorderColor Black
+  BackgroundColor White
+  BorderThickness 1.5
+
+  StereotypeFontName 'Noto Sans', 'Noto Sans JP', sans-serif
+  StereotypeFontColor black
+  StereotypeFontSize 10
+}
+
+skinparam note {
+  FontName 'Noto Serif', 'Noto Serif JP', serif
+  FontColor black
+  FontSize 14
+  BorderColor Black
+  BackgroundColor Yellow
+  HeaderBackgroundColor White
+  BorderThickness 1
+}
+
+@enduml

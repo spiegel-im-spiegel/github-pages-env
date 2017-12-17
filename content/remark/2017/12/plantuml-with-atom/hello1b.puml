@@ -1,0 +1,5 @@
+ほげほげ
+@startuml
+Bob->Alice : hello
+@enduml
+ほえほえ

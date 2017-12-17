@@ -1,0 +1,23 @@
+@startuml
+
+skinparam shadowing false
+skinparam default{
+  FontName 'Noto Serif', 'Noto Serif JP', serif
+  FontColor black
+  FontSize 14
+}
+skinparam sequence {
+  ArrowColor Black
+  ArrowFontName 'Noto Sans', 'Noto Sans JP', sans-serif
+  ArrowFontColor black
+  ArrowFontSize 10
+  LifeLineBorderColor Black
+  LifeLineBackgroundColor White
+  ActorBorderColor Black
+  ActorBackgroundColor White
+  ParticipantBorderColor Black
+  ParticipantBackgroundColor LightGray
+  MessageAlign center
+}
+
+@enduml

@@ -400,7 +400,7 @@ func init() {
 ```
 
 `cmd.showCmd` 内の `Run` が `RunE` に変わってる点に注目。
-これにより，関数内で error が発生した場合に，それを返り値で渡すことができる。 
+これにより，関数内で error が発生した場合に，それを返り値で渡すことができる。
 
 試しにちょろんと動かしてみよう。
 
@@ -620,8 +620,8 @@ func TestShowNormal(t *testing.T) {
 ```text
 $ dep status -dot | dot -Tpng -o dependency.png
 ```
- 
-{{< fig-img src="/images/cli-demo-dependency.png" width="732" >}}
+
+{{< fig-img src="dependency.png" width="732" link="dependency.png" >}}
 
 
 ## ブックマーク
