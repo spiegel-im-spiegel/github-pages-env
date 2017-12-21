@@ -21,8 +21,6 @@ NTT 新規契約 0800-2000-1160
 
 ## あとで遊ぶ
 
-- [[Announce] GnuPG 2.2.3 released](https://lists.gnupg.org/pipermail/gnupg-announce/2017q4/000417.html)
-
 - [広島市 - 無料公衆無線LAN サービス「Hiroshima Free Wi-Fi」について](http://www.city.hiroshima.lg.jp/www/contents/1409563567640/)
 - [Go x goqueryでwebスクレイピング - Qiita](https://qiita.com/akif999/items/2d6428c2377e020ce904)
 
