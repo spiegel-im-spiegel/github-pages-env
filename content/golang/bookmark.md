@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2017-12-14T15:51:24+09:00"
+update = "2017-12-21T13:58:59+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -232,6 +232,7 @@ title = "Go 言語に関するブックマーク"
 - [or-done-channelでコードの可読性を上げる - YAMAGUCHI::weblog](http://ymotongpoo.hatenablog.com/entry/2017/12/04/091403)
 - [go1.9から追加されたsync.Mapを使う - Qiita](https://qiita.com/meta_closure/items/dd228e49aef8b67e872e)
 - [Go1.9から追加されたsync.Mapのパフォーマンス – Straightforward](https://tanksuzuki.com/entries/golang-syncmap/)
+- [Big Sky :: 簡単に goroutine の実行個数を制限する方法](https://mattn.kaoriya.net/software/lang/go/20171221111857.htm)
 
 Go 言語で複数 CPU を使った並列処理を行うには明示的な設定が必要。
 
