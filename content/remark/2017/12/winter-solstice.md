@@ -1,8 +1,9 @@
 +++
 title = "冬至に関する与太話"
 date =  "2017-12-22T15:54:39+09:00"
+update = "2017-12-22T19:15:52+09:00"
 description = "現在の冬至の定義は「太陽が黄道上の黄経 270° の位置を通過する日」である。"
-image = "/images/attention/remark.jpg"
+image = "https://upload.wikimedia.org/wikipedia/commons/b/be/Celestial_sphere%28in_Japanese%29.png"
 tags = ["astronomy", "calendar"]
 
 [author]

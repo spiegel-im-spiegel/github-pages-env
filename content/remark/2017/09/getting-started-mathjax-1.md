@@ -1,7 +1,7 @@
 +++
 title = "ちょこっと MathJax： 初期設定"
 date =  "2017-09-27T20:02:09+09:00"
-update = "2017-12-12T20:27:26+09:00"
+update = "2017-12-22T19:15:52+09:00"
 description = "この記事ではまず Web ページ上で MathJax が動くところまで説明していこう。"
 tags        = [ "math", "tex", "mathjax", "javascript", "blog", "site" ]
 
@@ -29,6 +29,7 @@ tags        = [ "math", "tex", "mathjax", "javascript", "blog", "site" ]
 1. [ちょこっと MathJax： 初期設定]({{< relref "remark/2017/09/getting-started-mathjax-1.md" >}}) ← イマココ
 2. [ちょこっと MathJax： 基本的な数式表現]({{< relref "remark/2017/09/getting-started-mathjax-2.md" >}})
 3. [ちょこっと MathJax： インライン数式と別行立て数式]({{< relref "remark/2017/10/getting-started-mathjax-3.md" >}})
+4. [ちょこっと MathJax 番外編： mathcomp パッケージの代替え]({{< relref "remark/2017/12/mathcomp-in-mathjax.md" >}})
 
 [MathJax] は Web ブラウザ上で数学論文等でも使える高品質な数式表現を行うための JavaScript パッケージで GitHub にリポジトリがある。
 

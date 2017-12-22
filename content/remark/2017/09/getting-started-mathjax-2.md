@@ -1,7 +1,7 @@
 +++
 title = "ちょこっと MathJax： 基本的な数式表現"
 date =  "2017-09-28T22:25:54+09:00"
-update = "2017-12-12T20:27:26+09:00"
+update = "2017-12-22T19:15:52+09:00"
 description = "今回は基本的な数式の書き方を説明していこう。"
 tags        = [ "math", "tex", "mathjax", "javascript" ]
 
@@ -29,6 +29,7 @@ tags        = [ "math", "tex", "mathjax", "javascript" ]
 1. [ちょこっと MathJax： 初期設定]({{< relref "remark/2017/09/getting-started-mathjax-1.md" >}})
 2. [ちょこっと MathJax： 基本的な数式表現]({{< relref "remark/2017/09/getting-started-mathjax-2.md" >}}) ← イマココ
 3. [ちょこっと MathJax： インライン数式と別行立て数式]({{< relref "remark/2017/10/getting-started-mathjax-3.md" >}})
+4. [ちょこっと MathJax 番外編： mathcomp パッケージの代替え]({{< relref "remark/2017/12/mathcomp-in-mathjax.md" >}})
 
 ## 数式表現の「お約束」 {#rule}
 
