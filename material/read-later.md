@@ -1,7 +1,5 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-NTT 新規契約 0800-2000-1160
-
 - [無償のドライバー更新ツール「Driver Booster 5 Free」が公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1088466.html)
 
 ## 積読中
