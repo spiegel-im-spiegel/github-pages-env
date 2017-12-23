@@ -7,7 +7,7 @@ tags = [
   "openpgp",
 ]
 date = "2016-12-23T12:57:28+09:00"
-update = "2016-12-23T18:28:28+09:00"
+update = "2017-12-23T18:37:50+09:00"
 
 [author]
   github = "spiegel-im-spiegel"
@@ -41,11 +41,13 @@ OpenPGP が暗号化メッセージングに向いてないというのは数年
 
 ## [暗号化チャットのSignalがAndroidアプリをアップデート、国家による検閲を迂回しステッカーや落書きの添付を可能に | TechCrunch Japan](http://jp.techcrunch.com/2016/12/23/20161222signal-for-android-egypt-uae-stickers/)
 
-うちの端末では Signal がうまく動かないんだよ[^sgnl]。
+うちの端末では Signal がうまく動かないんだよ。
 随分前に iPhone 版の Signal と統合されてから調子が悪い。
 iPhone なんか使う連中はプライバシーなんか気にしないだろう。
 iPhone ユーザは切り捨てて欲しい。
 ちなみに WhatsApp や Facebook の暗号化メッセージングには Signal と同じ技術が使われてるよ。
+
+（*【追記 2017-12-23】* 今は問題なく Signal 使えてるよ！）
 
 [^sgnl]: 現在は [Signal](https://whispersystems.org/ "Open Whisper Systems") と SMS/MMS 連携を外している。多分 au のキャリアメールがおかしな運用になってるのが原因だと思う。
 
@@ -105,8 +107,8 @@ OpenPGP は PKI (public key infrastructure; 公開鍵基盤) の一種であり�
 - [メッセージングは E2E 暗号化および PFS が肝 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000675.shtml)
 - [CRYPTREC Report 2013 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000740.shtml)
 - [安全なメッセージング・アプリとは（追記あり） — Baldanders.info](http://www.baldanders.info/spiegel/log2/000782.shtml)
-- [GnuPG Modern Version for Windows ― インストール編]({{< relref "remark/2016/03/using-gnupg-modern-version-1.md" >}})
-    - [GnuPG Modern Version for Windows ― gpg-agent について]({{< relref "remark/2016/03/using-gnupg-modern-version-2.md" >}})
+
+- [OpenPGP の実装](/openpgp/)
 
 [SP800-52 revision 1]: https://www.nist.gov/node/562891?pub_id=915295 "Guidelines for the Selection, Configuration, and Use of Transport Layer Security (TLS) Implementations | NIST"
 
