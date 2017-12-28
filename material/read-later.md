@@ -17,6 +17,9 @@
 - [プログラマの数学第2版 | 結城 浩 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4797395451/baldandersinf-22/)
 - [地球外生命探査 (別冊日経サイエンス) | 日経サイエンス編集部 |本 | 通販 | Amazon](https://www.amazon.co.jp/dp/4532512239/)
 - [ビジネス法務 2018年 02 月号 [雑誌] | |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/B078DDZBQB/baldandersinf-22/) : AI 特集が面白いらしい
+- [合理性の危機 | 日経サイエンス](http://www.nikkei-science.com/201802_086.html)
+- [もうすぐ絶滅するという開かれたウェブについて  続・情報共有の未来 - 達人出版会](https://tatsu-zine.com/books/infoshare2)
+	- [『もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来』サポートページ公開 - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20171226/openweb)
 
 ## あとで遊ぶ
 
