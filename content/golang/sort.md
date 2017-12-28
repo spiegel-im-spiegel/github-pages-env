@@ -1,6 +1,6 @@
 +++
 date = "2017-04-07T20:01:34+09:00"
-update = "2017-10-26T14:08:23+09:00"
+update = "2017-12-28T15:42:14+09:00"
 title = "ソートを使う"
 description = "ソートをアルゴリズムまで言及すると非常に深いテーマになるのだが，今回は標準の sort パッケージの使い方に絞って「こんな感じ」で説明していく。"
 draft = false
@@ -134,7 +134,7 @@ type Interface interface {
 
 ## オブジェクトのソート
 
-つまり [`sort`].`interface` インタフェースを持つ型であれば [`sort`].`Sort()` 関数でソート可能ということになる。
+つまり，この [`sort`].`Interface` インタフェースを持つ型であれば [`sort`].`Sort()` 関数でソート可能ということになる。
 たとえば以下のオブジェクト集合を考える。
 
 ```go
@@ -153,9 +153,9 @@ var planets = []Planet{
 }
 ```
 
-`Planet` オブジェクトの集合に対する [`sort`].`interface` インタフェースはこんな感じにする[^str]。
+`Planet` オブジェクトの集合に対する [`sort`].`Interface` インタフェースはこんな感じにする[^str]。
 
-[^str]: 今回は簡単のため [slice] を使っているが，データ集合は [slice] である必要はなく [`sort`].`interface` インタフェースを持つ任意のオブジェクトであればよい。
+[^str]: 今回は簡単のため [slice] を使っているが，データ集合は [slice] である必要はなく [`sort`].`Interface` インタフェースを持つ任意のオブジェクトであればよい。
 
 ```go
 // ByMass implements sort.Interface for []Planet based on the Mass field.
@@ -225,7 +225,7 @@ Mercury Mars Venus Earth
 
 ## `sort.Slice()` 関数を使う場合 
 
-[slice] 限定であるが， [`sort`].`Slice()` 関数を使えば [`sort`].`interface` インタフェースを定義しなくてもソートを行うことができる。
+[slice] 限定であるが， [`sort`].`Slice()` 関数を使えば [`sort`].`Interface` インタフェースを定義しなくてもソートを行うことができる。
 [`sort`].`Slice()` 関数の定義は以下の通り。
 
 ```go
@@ -279,7 +279,7 @@ func main() {
 
 [^c]: つか， [Go 言語]の関数は全て関数閉包として動作するんだけどね。
 
-結果は [`sort`].`interface` インタフェースがある場合と同じく
+結果は [`sort`].`Interface` インタフェースがある場合と同じく
 
 ```text
 $ go run sort4.go
@@ -325,7 +325,7 @@ func Slice(slice interface{}, less func(i, j int) bool) {
 ```
 [`reflect`].`ValueOf()` 関数は [`reflect`].`Value` を取得する関数だ[^rf1]。
 その次の [`reflect`].`Swapper()` 関数がポイント。
-この関数は先程の  [`sort`].`interface` インタフェースでいうところの `Swap()` 関数に相当するものを返す[^rf2]。
+この関数は先程の  [`sort`].`Interface` インタフェースでいうところの `Swap()` 関数に相当するものを返す[^rf2]。
 なのでこんなこともできる。
 
 ```go
