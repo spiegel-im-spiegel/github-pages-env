@@ -1,6 +1,7 @@
 +++
 title = "2017年最後の戯れ言（多分）"
 date =  "2017-12-28T17:54:26+09:00"
+update = "2018-01-04T20:41:28+09:00"
 description = "おひとりさまクリスマス / 祝♪ 「 続・情報共有の未来」書籍化 / サイトオーナーがページの広告掲載の代わりにマイニング・コードを仕込むのはヤクザの「みかじめ料」と同じ"
 image = "/images/attention/remark.jpg"
 tags        = [ "code", "internet", "security" ]
@@ -95,6 +96,8 @@ PayPal が使えないのよ。
 
 - [ハッカーがあなたのブラウザを利用して、仮想通貨をマイニングしているかもしれない | ライフハッカー［日本版］](https://www.lifehacker.jp/2017/10/171031-how-to-stop-sites-from-harvesting-cryptocurrency-from.html)
 - [あなたのブラウザーは、誰かのために暗号通貨を勝手に「採掘」しているかもしれない｜WIRED.jp](https://wired.jp/2017/12/25/cryptojacking/)
+- [仮想通貨のマイニングでスマホのバッテリを破壊するトロイの木馬「Loapi」  - PC Watch](https://pc.watch.impress.co.jp/docs/news/1098829.html)
+- [Operaのニューバージョンはユーザーのマシンで勝手に暗号通貨がマイニングされるのを防ぐ  |  TechCrunch Japan](http://jp.techcrunch.com/2018/01/04/2018-01-03-opera-now-protects-you-from-cryptojacking-attacks/)
 
 ## というわけで{#bye}
 

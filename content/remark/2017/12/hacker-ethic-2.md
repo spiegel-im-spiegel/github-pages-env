@@ -1,6 +1,7 @@
 +++
 title = "「ネットの中立性」と「後出しジャンケン」と「メディアによる検閲を迂回する」"
 date =  "2017-12-23T18:37:50+09:00"
+update = "2018-01-04T20:41:28+09:00"
 description = "自分用にメモしておくことは大事なので，覚え書きとして書いておく。"
 image = "/images/attention/remark.jpg"
 tags = [ "code", "law", "intellectual-property", "hacker-ethic", "internet", "engineering", "media", "censorship" ]
@@ -61,6 +62,7 @@ tags = [ "code", "law", "intellectual-property", "hacker-ethic", "internet", "en
 - [NVIDIAが規約変更によりGeForceのデータセンター利用を制限。大学などの研究活動にも大ブレーキ - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2017/12/62658/)
 - [本の虫: nVidia、GeForceのデータセンターでの利用を禁止する](https://cpplover.blogspot.jp/2017/12/nvidiageforce.html)
 - [みんな、これからは深層学習にはGeForceではなくRadeonを使おう - shi3zの長文日記](http://d.hatena.ne.jp/shi3z/20171223/1513980907)
+- [GeForceのデータセンター利用を禁止する使用許諾契約に対してNVIDIAが声明  - PC Watch](https://pc.watch.impress.co.jp/docs/news/1099/481/index.html)
 
 恥ずかしながら GPU 市場の動向には全く疎い。
 NVIDIA と AMD で一種の「住み分け」ができてることも知らなかった[^gpu1]。
