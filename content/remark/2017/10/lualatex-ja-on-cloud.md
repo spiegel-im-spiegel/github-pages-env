@@ -1,7 +1,7 @@
 +++
 title = "クラウドで LuaLaTeX-ja"
 date =  "2017-10-02T22:13:48+09:00"
-update = "2017-10-03T15:47:46+09:00"
+update = "2018-01-04T20:01:07+09:00"
 description = "ところで『LaTeX2ε美文書作成入門』を改めて眺めていたが， Cloud LaTeX というサービスが有るらしい。pLaTeX, upLaTeX だけじゃなく LuaLaTeX にも対応しているようだ。"
 tags        = [ "tex", "luatex", "cloud", "pdf", "japanese" ]
 
@@ -51,7 +51,7 @@ LuaTeX is Copyright 2017 Taco Hoekwater and the LuaTeX Team.
 では，さっそく文書ファイルを用意する。
 （「[LuaTeX-jaの使い方](https://ja.osdn.net/projects/luatex-ja/wiki/LuaTeX-ja%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9 "LuaTeX-jaの使い方 - LuaTeX-ja Wiki - LuaTeX-ja - OSDN")」のコードを流用）
 
-```text
+```tex
 \documentclass{ltjsarticle}
 
 \begin{document}
@@ -95,14 +95,14 @@ $\mathrm{Lua\TeX}$ では直接 PDF を吐く。
 最近の $\mathrm{Lua\TeX}$-ja は既定で [IPAex] フォントを使うようになっているらしい。
 フォントの埋め込みを禁止するには以下の記述をプリアンブルに加える。
 
-```text
+```tex
 \usepackage[noembed]{luatexja-preset}
 ```
 
 出力フォーマットが PDF 1.5 なので，これを PDF/A に変更する。
 PDF/A に対応するには `hyperref` パッケージを使う。
 
-{{< highlight text "hl_lines=3-4" >}}
+{{< highlight tex "hl_lines=3-4" >}}
 \documentclass{ltjsarticle}
 
 \usepackage{hyperxmp} % XMP support with hyperref
@@ -151,10 +151,9 @@ PDF/A に対応するには `hyperref` パッケージを使う。
 {{< fig-img src="https://farm5.staticflickr.com/4342/23596684308_4f3600d2b7_o.png" title="LuaLaTeX-ja (4)"  link="https://www.flickr.com/photos/spiegel/23596684308/" >}}
 
 フォーマットが PDF/A-1b になっていることが確認できる。
+ライセンス情報もちゃんと付与されてるな。
 
 {{< fig-img src="https://farm5.staticflickr.com/4433/37418815792_8de8637bdb_o.png" title="LuaLaTeX-ja (5)"  link="https://www.flickr.com/photos/spiegel/37418815792/" >}}
-
-ライセンス情報もちゃんと付与されてるな。
 
 ところで『[LaTeX2ε美文書作成入門]』を改めて眺めていたが， [Cloud LaTeX] というサービスがあるらしい。
 

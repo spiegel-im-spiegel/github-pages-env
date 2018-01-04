@@ -1,7 +1,7 @@
 +++
 title = "TeX 日本語環境で「源ノ」フォントを使ってみた"
 date =  "2017-10-03T20:10:56+09:00"
-update =  "2017-10-05T05:46:21+09:00"
+update = "2018-01-04T20:01:07+09:00"
 description = "第二弾は TeX で「源ノ」フォントを使ってみる である。"
 tags        = [ "tex", "font", "luatex", "japanese" ]
 
@@ -127,7 +127,7 @@ c:/texlive/texmf-local/fonts/opentype/adobe/sourcehanserifjp/SourceHanSerif-Regu
 では文書ファイルを用意しよう。
 こんな感じでどうだろうか。
 
-{{< highlight text "hl_lines=1-2" >}}
+{{< highlight tex "hl_lines=1-2" >}}
 \documentclass[uplatex,a4paper]{jsarticle}
 \usepackage[deluxe]{otf}
 
@@ -343,7 +343,7 @@ luaotfload | resolve : Resolved file name "c:/texlive/texmf-local/fonts/opentype
 
 では，文書ファイルを作ってみよう。
 
-{{< highlight text "hl_lines=1-3" >}}
+{{< highlight tex "hl_lines=1-3" >}}
 \documentclass{ltjsarticle}
 \usepackage[sourcehan,deluxe]{luatexja-preset}
 \usepackage{luatexja-otf}
@@ -367,7 +367,7 @@ luaotfload | resolve : Resolved file name "c:/texlive/texmf-local/fonts/opentype
 
 `luatexja-preset` パッケージでは「源ノ」フォントを指定できる。
 
-```text
+```tex
 \usepackage[sourcehan]{luatexja-preset}
 ```
 
@@ -404,7 +404,7 @@ $ lualatex otf-sample.tex
 
 ちなみに，[前回]({{< relref "remark/2017/10/lualatex-ja-on-cloud.md" >}})紹介した [Cloud LaTeX] で同じことをしようとしたら「`sourcehan` なんぞ知らん！」と怒られた（笑）
 
-```
+```text
 /usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 line 392
 ! LaTeX Error: Unknown option `sourcehan' for package `fontspec-luatex'.

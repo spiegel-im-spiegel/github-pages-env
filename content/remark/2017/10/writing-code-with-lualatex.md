@@ -1,7 +1,7 @@
 +++
 title = "LuaLaTeX でコードを書いてみる"
 date =  "2017-10-04T18:19:51+09:00"
-update =  "2017-10-05T16:58:06+09:00"
+update = "2018-01-04T20:01:07+09:00"
 description = "とりあえず Go 言語による以下のコードを LuaLaTeX で書くことを考える。"
 tags        = [ "tex", "luatex", "font", "golang", "programming", "language" ]
 
@@ -50,7 +50,7 @@ func main() {
 安直に `verbatim` 環境を使う手もあるが，世の中には [`listings`] パッケージなる便利なものがあるらしい。
 これを使ってまずは
 
-{{< highlight text "hl_lines=4-9 15 25" >}}
+{{< highlight tex "hl_lines=4-9 15 25" >}}
 \documentclass{ltjsarticle}
 \usepackage[no-math,sourcehan]{luatexja-preset} % Japanese fonts
 
@@ -118,7 +118,7 @@ C:/texlive/texmf-local
 
 [^glst1]: [`listings-golang`] パッケージは `\RequirePackage` コマンドで [`listings`] パッケージを内部で呼び出しているため，記述上は [`listings`] パッケージを置き換えることができる。のだが，今回は README にしたがっている。
 
-{{< highlight text "hl_lines=4 6 11-12 19" >}}
+{{< highlight tex "hl_lines=4 6 11-12 19" >}}
 \documentclass{ltjsarticle}
 \usepackage[no-math,sourcehan]{luatexja-preset} % Japanese fonts
 
@@ -162,7 +162,7 @@ func main() {
 
 実は [`listings-golang`] パッケージの中身はそれほど難しくなくて（でも自分でやれって言われたらやっぱり面倒くさいんだけど）
 
-```text
+```tex
 %% Golang definition for listings
 %% http://github.io/julienc91/lstlistings-golang
 %%
@@ -195,7 +195,7 @@ func main() {
 
 [^z4]: 厳密に言うと，今回使うのはオリジナルの [Inconsolata] を改良した zi4 版である。
 
-{{< highlight text "hl_lines=3" >}}
+{{< highlight tex "hl_lines=3" >}}
 \documentclass{ltjsarticle}
 \usepackage[no-math,sourcehan]{luatexja-preset} % Japanese fonts
 \setmonofont[AutoFakeSlant,BoldItalicFeatures={FakeSlant},Scale=MatchLowercase]{Inconsolatazi4}

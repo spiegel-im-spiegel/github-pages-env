@@ -1,6 +1,6 @@
 +++
 date = "2015-09-27T01:32:49+09:00"
-update = "2017-10-03T15:47:46+09:00"
+update = "2018-01-04T20:01:07+09:00"
 description = "LuaTeX では pdfTeX と同等のことができ， DVI ファイルではなく PDF ファイルを直接出力する。なおかつ callback を記述することにより内部処理に割り込みをかけ機能拡張することが可能になっている。LuaTeX-ja はこの機能拡張を使って日本語組版を LuaTeX の上で実現する。"
 draft = false
 tags = ["lua", "tex", "luatex", "japanese"]
@@ -74,7 +74,7 @@ $ tlmgr update --self --all
 
 最低限の $\mathrm{\LaTeX}$ 文書ファイルはこんな感じ。入力は UTF-8 で行う。
 
-```text
+```tex
 \documentclass{ltjsarticle}
 % \usepackage{luatexja} % no need to use luatexja with ltjclasses or ltjsclasses classes
 
@@ -109,7 +109,7 @@ $ tlmgr update --self --all
 現在のバージョンでは既定で IPAex フォントを埋め込むよう設定されている。
 明示的に和文フォントを埋め込む場合は `luatexja-preset` パッケージで書体単位でまとめてフォントを指定できる。
 
-```text
+```tex
 \usepackage[sourcehan]{luatexja-preset} %和文フォントに Source Han フォントを指定する
 ```
 
@@ -147,13 +147,13 @@ $ tlmgr update --self --all
 
 `graphicx` および `xcolor` パッケージはドライバ指定なしでOK。（自動検出される）
 
-```text
+```tex
 \usepackage{graphicx,xcolor}
 ```
 
 明示的に指定するのであれば `luatex` を指定する[^def1]。
 
-```text
+```tex
 \usepackage[luatex]{graphicx,xcolor}
 ```
 
@@ -163,19 +163,19 @@ $ tlmgr update --self --all
 
 `hyperref` パッケージも同様にドライバ指定なし大丈夫だが，そのままでは PDF の目次等が文字化けしてしまうので以下のパラメータを指定する。
 
-```text
+```tex
 \usepackage[pdfencoding=auto]{hyperref}
 ```
 
 または
 
-```text
+```tex
 \usepackage[unicode=true]{hyperref}
 ```
 
 更に `pdfa` オプションをつけると PDF/A-1b 準拠の PDF を出力する。
 
-```text
+```tex
 \usepackage[pdfencoding=auto,pdfa]{hyperref} % PDF/A compatible
 ```
 
@@ -194,7 +194,7 @@ $ tlmgr update --self --all
 `hyperxmp` パッケージを使うと XMP（Extensible Metadata Platform）によるメタデータを埋め込むことができる。
 これは `hyperref` パッケージと組み合わせて使う。
 
-```text
+```tex
 \usepackage{hyperxmp} % XMP support with hyperref
 \usepackage[pdfencoding=auto,pdfa]{hyperref} % PDF/A compatible
 

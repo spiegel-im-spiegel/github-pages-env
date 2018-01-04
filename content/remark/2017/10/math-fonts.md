@@ -1,7 +1,7 @@
 +++
 title = "数式用フォントで遊ぶ"
 date =  "2017-10-05T06:58:54+09:00"
-update =  "2017-10-05T16:58:06+09:00"
+update = "2018-01-04T20:01:07+09:00"
 description = "数式用フォントに OpenType フォントを指定する場合は unicode-math パッケージを使う。"
 tags        = [ "tex", "luatex", "font", "math" ]
 
@@ -35,7 +35,7 @@ tags        = [ "tex", "luatex", "font", "math" ]
 $\mathrm{\TeX}$ および $\mathrm{\LaTeX}$ は元々が数式表現に優れている。
 これは $\mathrm{Lua\TeX}$, $\mathrm{Lua\LaTeX}$ でも同じで，たとえばプリアンブルに特に何も書かなくても（『[LaTeX2ε美文書作成入門]』より引用）
 
-```text
+```tex
 \documentclass[fleqn]{ltjsarticle}
 
 \begin{document}
@@ -60,7 +60,7 @@ official r\^ole in fluffy souffl\'es!?''
 
 もう少し変わった式やシンボルを使う場合には `amsmath` および `amssymb` パッケージを使って（同じく『[LaTeX2ε美文書作成入門]』より引用）
 
-```text
+```tex
 \documentclass[fleqn]{ltjsarticle}
 
 \usepackage{amsmath,amssymb} % amsmath packages
@@ -97,7 +97,7 @@ $\mathbb{ABCDEFGHIJELMN}$
 $\mathrm{Lua\LaTeX}$ で本文の書体を OpenType フォントに変更するのはとても簡単になった。
 本文の和文フォントを変更する方法は[前々回に紹介した]({{< relref "remark/2017/10/using-source-han-fonts-by-japanese-tex.md" >}} "TeX 日本語環境で「源ノ」フォントを使ってみた")が，たとえば欧文書体として $\mathrm{\TeX}$ Gyre をセットする場合は
 
-{{< highlight text "hl_lines=2 5-7" >}}
+{{< highlight tex "hl_lines=2 5-7" >}}
 \documentclass[fleqn]{ltjsarticle}
 \usepackage[no-math,sourcehan]{luatexja-preset} % Japanese fonts
 
@@ -130,11 +130,11 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を OpenType フォントに変更する�
 たとえば，数学好きに人気の高い Concrete ＋ Euler フォントの組み合わだが，これは既存のパッケージを使ったほうがよさそうである（[後述]({{< relref "#opt" >}})）。
 フォントの指定も従来通り。
 
-{{< highlight text "hl_lines=4" >}}
+{{< highlight tex "hl_lines=4" >}}
 \documentclass[fleqn]{ltjsarticle}
 
 % Import fonts
-%\usepackage{ccfonts,eulervm}
+\usepackage{ccfonts,eulervm}
 
 \begin{document}
 
@@ -159,7 +159,7 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を OpenType フォントに変更する�
 
 [^ams1]: `amsmath` パッケージを併用する場合は [`unicode-math`] パッケージの前に`amsmath` パッケージを指定しないとタイプセット時にエラーになる。なお `amssymb` パッケージは必要ない。
 
-{{< highlight text "hl_lines=2 5" >}}
+{{< highlight tex "hl_lines=2 5" >}}
 \documentclass[fleqn]{ltjsarticle}
 \usepackage{unicode-math} % using unicode/OpenType maths fonts
 
@@ -185,7 +185,7 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を OpenType フォントに変更する�
 他の書体も紹介しよう。
 [Asana Math](https://ctan.org/pkg/asana-math "CTAN: Package asana-math") を利用する場合は，以下のように指定する。
 
-```test
+```tex
 \setmathfont{Asana-Math}
 ```
 
@@ -195,7 +195,7 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を OpenType フォントに変更する�
 
 [Neo Euler] を利用する場合は，[フォントを取得]({{< relref "#elr-inst" >}})して以下のように指定する。
 
-```test
+```tex
 \setmathfont{Neo Euler}[math-style=upright]
 ```
 
@@ -207,7 +207,7 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を OpenType フォントに変更する�
 [STIX] については [TeX Live] 2017 に収録されているものはデザインがイマイチな気がする。
 なので[バージョン2を取得]({{< relref "#stx2-inst" >}})して以下のように指定する。
 
-```test
+```tex
 \setmathfont{STIX Two Math}
 ```
 
@@ -217,7 +217,7 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を OpenType フォントに変更する�
 
 [STIX] の fork とも言える（？） [XITS](https://github.com/khaledhosny/xits "khaledhosny/xits: XITS - OpenType implementation of STIX fonts with math support") を利用する場合は，以下のように指定する。
 
-```test
+```tex
 \setmathfont{XITS-Math}
 ```
 
@@ -258,13 +258,13 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を OpenType フォントに変更する�
 
 オプションの指定方法は以下の通り。
 
-```text
+```tex
 \usepackage[math-style=ISO,bold-style=ISO]{unicode-math}
 ```
 
 または
 
-```text
+```tex
 \usepackage{unicode-math}
 \unimathsetup{%
     math-style=ISO,%
@@ -274,7 +274,7 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を OpenType フォントに変更する�
 
 フォント指定時にオプションを指定することもできる。
 
-```text
+```tex
 \setmathfont{Neo Euler}[math-style=upright]
 ```
 
