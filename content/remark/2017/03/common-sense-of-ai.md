@@ -1,5 +1,6 @@
 +++
 date = "2017-03-24T08:04:30+09:00"
+update = "2018-01-06T14:58:50+09:00"
 title = "人工知能に「常識」は必要なのか？"
 draft = false
 tags = ["artificial-intelligence", "engineering"]
@@ -71,6 +72,7 @@ description = "「常識」は「知能（intelligence）」というより「�
 ## ブックマーク
 
 - [対話する「未来論」：イスラームの宗教と脳の機能は交差する。](http://30th.rcast.u-tokyo.ac.jp/future/future01.html)
+- [人工知能を「正しい道」へと導くのは誰か──学会で語られたAIの倫理への懸念｜WIRED.jp](https://wired.jp/2018/01/04/ai-seeks-an-ethical-conscience/)
 
 - [人工知能は「ハイル・ヒトラー」と叫ぶか]({{< relref "remark/2015/artificial-intelligence.md" >}})
 - [「ピノキオ」と AI]({{< relref "remark/2016/08/pinocchio.md" >}})

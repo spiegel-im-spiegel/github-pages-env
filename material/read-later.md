@@ -29,7 +29,9 @@
 ## Blockchain について
 
 - [そろそろ Blockchain について勉強を始めるか — Baldanders.info](http://www.baldanders.info/spiegel/log2/000827.shtml)
+    - [Blockchain と Smart Contract — しっぽのさきっちょ | text.Baldanders.info](http://text.baldanders.info/remark/2016/01/blockchain-and-smart-contract/)
 - [仮想通貨の2018年、熱狂に次ぐ幻滅の先に光明はあるか(楠正憲) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/kusunokimasanori/20180104-00080086/)
+- [オンライン百科事典「Everipedia」がブロックチェーン導入で目指すもの｜WIRED.jp](https://wired.jp/2018/01/05/everipedia-blockchain/)
 
 ## Autocrypt について
 
@@ -47,11 +49,16 @@
 - [エドワード・スノーデンがセキュリティ侵害に対抗するアプリを開発！「Haven」はパソコンの改ざんを検知してスマホに通知 | Techable(テッカブル)](https://techable.jp/archives/69433)
 - [Tamper-Detection App for Android - Schneier on Security](https://www.schneier.com/blog/archives/2018/01/tamper-detectio.html)
 - [ファーウェイ製ルータの脆弱性を狙うコードが公開--「Satori」ボットネットも悪用 - CNET Japan](https://japan.cnet.com/article/35112718/)
+- [GPSを使わない戦争、米軍が想定　写真1枚　国際ニュース：AFPBB News](http://www.afpbb.com/articles/-/3156085)
+- [New Book Coming in September: "Click Here to Kill Everybody" - Schneier on Security](https://www.schneier.com/blog/archives/2018/01/new_book_coming.html) : 2018年9月発売予定。日本語版が出るといいな
+- [Detecting Adblocker Blockers - Schneier on Security](https://www.schneier.com/blog/archives/2018/01/detecting_adblo.html)
+    - [主要サイトの多くが、密かにアンチ広告ブロッカー対策を講じている  |  TechCrunch Japan](http://jp.techcrunch.com/2017/12/28/2017-12-27-thousands-of-major-sites-are-taking-silent-anti-ad-blocking-measures/)
 
 ## 天文関連
 
 - [Super Blue Blood-Moon 2018: When, Where and How to See It](https://www.space.com/39208-super-blue-blood-moon-guide.html)
 - [2018年1月4日ニュース「首長竜は大量絶滅を生き延びていた」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/01/20180104_01.html)
+- [謎の変光星、原因は「宇宙人文明」でなく宇宙塵 研究　写真2枚　国際ニュース：AFPBB News](http://www.afpbb.com/articles/-/3157364)
 
 ## 知財関連
 
@@ -63,7 +70,6 @@
 
 - [.devなどのTLDはChrome 63からHTTPSを強要される - Sexually Knowing](http://this.aereal.org/entry/2017/12/25/145842)
 - [オーストラリアで完全ソーラー電車が運行--太陽光から得た電力のみで動く - CNET Japan](https://japan.cnet.com/article/35112631/)
-- [主要サイトの多くが、密かにアンチ広告ブロッカー対策を講じている  |  TechCrunch Japan](http://jp.techcrunch.com/2017/12/28/2017-12-27-thousands-of-major-sites-are-taking-silent-anti-ad-blocking-measures/)
 - [至急！！！コイン500枚お願いです。ぼくが宇宙人をさがす理由という本で... - Yahoo!知恵袋](https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10112021205) : 爆笑
 - [『これが人間か』人とは、ここまでグロテスクになれるものなのか!? - HONZ](http://honz.jp/articles/-/44567)
 - [BitHunters事前登録開始、リアルワールドゲームの国産エンジンを利用 | TechWave（テックウェーブ） #WAVE](http://techwave.jp/archives/bithunters-preregistration-by-realworldgames.html)
@@ -75,5 +81,7 @@
     - [ホワイトハウスのWordPressをチェック - Qiita](https://qiita.com/kawax/items/e923f7231654866ccd07)
 - [炭水化物は体に悪い？脂質をたくさん摂るほど健康に良い？：2017年世界一に選ばれた科学論文を解説 - Unboundedly](http://krsk-phs.hatenablog.com/entry/pure_criticism)
 - [「グレーゾーン解消」や「認証マーク」で成長を後押し--内閣官房のシェアリングエコノミー戦略 - CNET Japan](https://japan.cnet.com/article/35112640/)
+- [jQuery MobileとjQuery UI、停滞を打破するため開発体制を刷新。以前より簡単にコントリビュート可能に － Publickey](http://www.publickey1.jp/blog/18/jquery_mobilejquery_ui.html)
+- [ネット上でニュース記事がすぐ消えてしまうことの真の弊害 - 空気を読まない中杜カズサ](http://nakamorikzs.net/entry/netnews404)
 
 (end of file)
