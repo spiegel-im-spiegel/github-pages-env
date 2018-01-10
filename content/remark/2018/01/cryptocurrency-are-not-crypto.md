@@ -138,6 +138,7 @@ Bitcoin 単体は数学的に総量が決まっているが， hard fork すれ�
 
 ## ブックマーク
 
+- [Krugman: Baby Sitting the Economy (経済を子守りしてみると。)](http://cruel.org/krugman/babysitj.html)
 - [グリゴリの捕縛 あるいは 情報時代の憲法について](http://orion.mt.tama.hosei.ac.jp/hideaki/kenporon.htm)
 
 [Everipedia]: https://everipedia.org/ "Everipedia, the encyclopedia of everything"
