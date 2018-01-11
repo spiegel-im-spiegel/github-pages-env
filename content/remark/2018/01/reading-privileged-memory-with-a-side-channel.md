@@ -1,7 +1,7 @@
 +++
 title = "「CPU に対するサイドチャネル攻撃」に関する覚え書き"
 date =  "2018-01-04T22:01:45+09:00"
-update =  "2018-01-10T17:16:12+09:00"
+update = "2018-01-11T22:51:15+09:00"
 description = "投機的実行機能やアウトオブオーダー実行機能を持つ CPU に対してサイドチャネル攻撃を行う手法が報告されている。ただし影響度は低い。"
 image = "/images/attention/remark.jpg"
 tags = [
@@ -142,3 +142,6 @@ CVSS については[解説ページ]({{< relref "remark/2015/cvss-v3-metrics-in
 {{< fig-quote title="Microsoft、2018年1月のセキュリティ更新プログラムを公開" link="https://forest.watch.impress.co.jp/docs/news/1100321.html" >}}
 <q>なお、“Meltdown”“Spectre”脆弱性のパッチはウイルス対策ソフトとの互換性問題を抱えている。先にウイルス対策ソフトをアップデートして、互換性が取れた旨をレジストリの特定エントリーにマーキングしないと“Windows Update”から更新プログラムを受信できない場合があるので注意したい。</q>
 {{< /fig-quote >}}
+
+- [CPUの脆弱性パッチがLinuxマシンの性能に与える影響--レッドハットが検証 - ZDNet Japan](https://japan.zdnet.com/article/35113008/)
+- [IBM、脆弱性「Meltdown/Spectre」への対策を「POWER」CPU向けに公開 - ZDNet Japan](https://japan.zdnet.com/article/35112986/)

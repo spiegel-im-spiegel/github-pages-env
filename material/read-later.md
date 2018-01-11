@@ -55,6 +55,7 @@
     - [Adobe Flash Player の脆弱性 (APSB18-01) に関する注意喚起](https://www.jpcert.or.jp/at/2018/at180001.html)
 - [Microsoft 製品の脆弱性対策について(2018年01月)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20180110-ms.html)
     - [2018年 1月マイクロソフトセキュリティ更新プログラムに関する注意喚起](https://www.jpcert.or.jp/at/2018/at180002.html)
+- [またも、macOSにどんなパスワードでも通るバグ発見  |  TechCrunch Japan](http://jp.techcrunch.com/2018/01/11/2018-01-10-another-macos-password-prompt-can-be-bypassed-with-any-password/)
 
 ## 天文関連
 
@@ -62,6 +63,7 @@
 - [2018年1月4日ニュース「首長竜は大量絶滅を生き延びていた」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/01/20180104_01.html)
 - [謎の変光星、原因は「宇宙人文明」でなく宇宙塵 研究　写真2枚　国際ニュース：AFPBB News](http://www.afpbb.com/articles/-/3157364)
 - [ハクトと相乗り打ち上げのチーム・インダス、ロケット調達に失敗か？　ハクトにも暗雲？  |   月探査情報ステーション](https://moonstation.jp/blog/lunarexp/hakuto/indian-web-media-reports-rumor-of-failure-for-rocket-procuration-for-glxp)
+    - [ハクト、3月末までのミッション達成困難を表明、しかし「挑戦を続けていきます」  |   月探査情報ステーション](https://moonstation.jp/blog/lunarexp/hakuto/team-hakuto-express-their-difficulty-for-glxp-clearance-but-still-moving-for-the-mission-completion)
 - [皆既月食を観察しよう 2018](https://naojcamp.nao.ac.jp/phenomena/201801-lunar-eclipse/)
 	- [2018年1月31日夜、皆既月食の色を観察するキャンペーンを実施 | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/topics/2018/20180110-lunar-eclipse.html)
 - [SETI project homes in on strange ‘fast radio bursts’ | Berkeley News](http://news.berkeley.edu/2018/01/10/seti-project-homes-in-on-strange-fast-radio-bursts/)
@@ -110,5 +112,6 @@
 - [Google、Dockerイメージに対するテスト自動化フレームワーク「Container Structure Tests」オープンソースで公開 － Publickey](http://www.publickey1.jp/blog/18/googledockercontainer_structure_tests.html)
 - [「Windows 8.1」のメインストリームサポートが終了、5年間の延長サポートフェイズに - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1100471.html)
 - [今年のCESの目玉は大停電だった  |  TechCrunch Japan](http://jp.techcrunch.com/2018/01/11/2018-01-10-the-day-the-lights-went-out-at-ces/)
+- [「Rust 1.23」リリース | OSDN Magazine](https://mag.osdn.jp/18/01/09/160000)
 
 (end of file)
