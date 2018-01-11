@@ -51,7 +51,8 @@
 - [各種インストーラの更新について｜e-Tax](http://www.e-tax.nta.go.jp/topics/topics_300104.htm)
 - [「Google Chrome」の“監視対象ユーザー”機能が廃止、12日以降新規作成は不能に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1100127.html)
 - [「WPA3」によるWi-Fiのセキュリティ強化実現へ--Wi-Fi Allianceが機能など発表 - ZDNet Japan](https://japan.zdnet.com/article/35112941/)
-- [Adobe Flash Player の脆弱性 (APSB18-01) に関する注意喚起](https://www.jpcert.or.jp/at/2018/at180001.html)
+- [Adobe Flash Player の脆弱性対策について(APSB18-01)(CVE-2018-4871)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20180110-adobeflashplayer.html)
+    - [Adobe Flash Player の脆弱性 (APSB18-01) に関する注意喚起](https://www.jpcert.or.jp/at/2018/at180001.html)
 - [Microsoft 製品の脆弱性対策について(2018年01月)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20180110-ms.html)
     - [2018年 1月マイクロソフトセキュリティ更新プログラムに関する注意喚起](https://www.jpcert.or.jp/at/2018/at180002.html)
 
@@ -63,6 +64,7 @@
 - [ハクトと相乗り打ち上げのチーム・インダス、ロケット調達に失敗か？　ハクトにも暗雲？  |   月探査情報ステーション](https://moonstation.jp/blog/lunarexp/hakuto/indian-web-media-reports-rumor-of-failure-for-rocket-procuration-for-glxp)
 - [皆既月食を観察しよう 2018](https://naojcamp.nao.ac.jp/phenomena/201801-lunar-eclipse/)
 	- [2018年1月31日夜、皆既月食の色を観察するキャンペーンを実施 | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/topics/2018/20180110-lunar-eclipse.html)
+- [SETI project homes in on strange ‘fast radio bursts’ | Berkeley News](http://news.berkeley.edu/2018/01/10/seti-project-homes-in-on-strange-fast-radio-bursts/)
 
 ## 知財関連
 
@@ -71,6 +73,8 @@
 - [Spotifyが「著作権手続きの不備」を理由に名だたるミュージシャンの権利を管理する事務所から1800億円の支払いを求める訴えを受ける - GIGAZINE](https://gigazine.net/news/20180103-spotify-1-6-billion-dollar-copyright-lawsuit/)
 - [本の虫: fair use権利を侵害するYouTubeのContent IDと戦うために著作権侵害するゲーム批評家の話](https://cpplover.blogspot.jp/2018/01/fair-useyoutubecontent-id.html)
 - [Kicking off the CC Certificates Beta - Creative Commons](https://creativecommons.org/2018/01/08/kicking-off-cc-certificate-beta/)
+- [任天堂がコロプラを提訴--「白猫プロジェクト」で特許侵害 - CNET Japan](https://japan.cnet.com/article/35112969/)
+    - [任天堂がコロプラを訴えた根拠となった特許の番号を推理する(栗原潔) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/kuriharakiyoshi/20180111-00080329/) : 推測記事
 
 ## その他
 
@@ -101,5 +105,10 @@
 - [2018年1月5日ニュース「血液中カフェインがパーキンソン病のバイオマーカーに 順天堂大グループ」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/01/20180105_01.html)
 - [Cool Morning Soft クリックスタンパー](http://hp.vector.co.jp/authors/VA041064/soft/click_stamper.html)
 - [「クリックスタンパー」スタンプ風のベクター画像を手軽に作成できる電子印鑑ソフト - 窓の杜ライブラリ](https://forest.watch.impress.co.jp/library/software/clickstam/)
+- [配列リファレンスの多重化の例 - 電気ウナギ的○○](http://blog.netandfield.com/shar/2018/01/post-3078.html)
+- [Change.orgのビジネスモデルについて · Change.org](https://www.change.org/l/jp/businessmodel)
+- [Google、Dockerイメージに対するテスト自動化フレームワーク「Container Structure Tests」オープンソースで公開 － Publickey](http://www.publickey1.jp/blog/18/googledockercontainer_structure_tests.html)
+- [「Windows 8.1」のメインストリームサポートが終了、5年間の延長サポートフェイズに - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1100471.html)
+- [今年のCESの目玉は大停電だった  |  TechCrunch Japan](http://jp.techcrunch.com/2018/01/11/2018-01-10-the-day-the-lights-went-out-at-ces/)
 
 (end of file)

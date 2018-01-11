@@ -1,6 +1,6 @@
 +++
 date = "2015-10-30T00:56:49+09:00"
-update = "2017-12-01T18:42:22+09:00"
+update = "2018-01-11T10:48:16+09:00"
 description = "そんなわけで，えんやらやっと ConEmu を導入することにした。ついでに NYAGOS も入れなおすことに。"
 draft = false
 tags = ["windows", "tools", "conemu", "nyagos", "terminal", "shell", "putty"]
@@ -18,6 +18,10 @@ title = "ようやく ConEmu と NYAGOS を導入した"
   name = "Spiegel"
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 いやぁ， [Hugo] 使い出したらコマンドプロンプトがいくらあっても足りないのさ。
@@ -123,6 +127,7 @@ C:\PATH\TO\PuTTY\putty.exe -load "mysession" -new_console
 ## ブックマーク
 
 - [NYAGOS、かんたん設定 - Qiita](https://qiita.com/zetamatta/items/99feb1d74e36ea5848cd)
+- [NYAGOS で環境設定系バッチファイルが期待どおり動かない原因と対策 - Qiita](https://qiita.com/zetamatta/items/f62bafd711755a4cf8d7)
 
 [Hugo]: https://gohugo.io/ "Hugo :: A fast and modern static website engine"
 [ConEmu]: https://conemu.github.io/ "ConEmu - Handy Windows Terminal"
