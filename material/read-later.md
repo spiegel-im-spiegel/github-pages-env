@@ -33,6 +33,16 @@
 - [Autocrypt 1.0.0 documentation](https://autocrypt.org/)
 - [Email green, secure, simple and ad-free - posteo.de - New: Easy email encryption with Autocrypt and OpenPGP header](https://posteo.de/en/blog/new-easy-email-encryption-with-autocrypt-and-openpgp-header)
 
+## Boostnote
+
+全く使わなくなった Evernote の代わりに使えるかなぁと思ったけどイマイチ。
+これなら ATOM でも構わないし，クラウド連携なら [Simplenote](https://simplenote.com/) のほうが使える。
+
+- [Boostnote | Boost Happiness, Productivity, and Creativity.](https://boostnote.io/)
+    - [GitHub - BoostIO/Boostnote: The note-taking app for programmers that focusing on markdown, snippet and customizability.](https://github.com/BoostIO/Boostnote)
+- [Boostnoteの使い方 - Qiita](https://qiita.com/asmsuechan/items/bc253cf22596291ac837)
+- [プログラマーの業務効率化を図るオープンソース「Boostnote」を開発するBoostIO、シードVCや個人投資家6名から資金調達【ゲスト寄稿】 - THE BRIDGE（ザ・ブリッジ）](http://thebridge.jp/2018/01/boostio-funding-to-further-develop-boostnote)
+
 ## Age of Trump
 
 
@@ -56,6 +66,13 @@
 - [Microsoft 製品の脆弱性対策について(2018年01月)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20180110-ms.html)
     - [2018年 1月マイクロソフトセキュリティ更新プログラムに関する注意喚起](https://www.jpcert.or.jp/at/2018/at180002.html)
 - [またも、macOSにどんなパスワードでも通るバグ発見  |  TechCrunch Japan](http://jp.techcrunch.com/2018/01/11/2018-01-10-another-macos-password-prompt-can-be-bypassed-with-any-password/)
+- [Yet Another FBI Proposal for Insecure Communications - Schneier on Security](https://www.schneier.com/blog/archives/2018/01/yet_another_fbi.html)
+- [ネットワーク解析ツール「Wireshark」v2.4.4/2.2.12が公開 ～脆弱性を修正したメンテナンスアップデート - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1100797.html)
+- [3Dモデリングソフト「Blender」に未修正の脆弱性が複数存在 ～Talosが指摘 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1100786.html) : 出自の怪しいファイルは開かないように注意が必要
+- [Sponsored by トレンドマイクロ : IoT機器にもセキュリティを！　家庭内をまとめて守る「ウイルスバスター for HomeNetwork」がオススメ](http://japanese.engadget.com/pr/iot-for-homenetwork/)
+- [Appleの中国iCloudデータ移管は海外ユーザーも対象になっていた  |  TechCrunch Japan](http://jp.techcrunch.com/2018/01/12/2018-01-11-apple-china-icloud-international-users/)
+- [NICT、量子コンピュータでも解読が難しい新暗号技術を開発 | マイナビニュース](https://news.mynavi.jp/article/20180112-570747/)
+- [マイクロソフト、「Skype」でエンドツーエンド暗号化のプレビューを開始 - ZDNet Japan](https://japan.zdnet.com/article/35113068/)
 
 ## 天文関連
 
@@ -67,6 +84,8 @@
 - [皆既月食を観察しよう 2018](https://naojcamp.nao.ac.jp/phenomena/201801-lunar-eclipse/)
 	- [2018年1月31日夜、皆既月食の色を観察するキャンペーンを実施 | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/topics/2018/20180110-lunar-eclipse.html)
 - [SETI project homes in on strange ‘fast radio bursts’ | Berkeley News](http://news.berkeley.edu/2018/01/10/seti-project-homes-in-on-strange-fast-radio-bursts/)
+- [ブラックホールの自転は電波放射を強めるか | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2018/20180112-bh.html)
+- [新惑星系「K2-138」民間によるクラウドソーシングで見つかる | sorae : 宇宙（そら）へのポータルサイト](http://sorae.info/030201/2018_01_12_cloud.html)
 
 ## 知財関連
 
@@ -87,7 +106,6 @@
 - [BitHunters事前登録開始、リアルワールドゲームの国産エンジンを利用 | TechWave（テックウェーブ） #WAVE](http://techwave.jp/archives/bithunters-preregistration-by-realworldgames.html)
 - [Gigaom |   Five 2018 Predictions — on GDPR, Robot Cars, AI, 5G and Blockchain](https://gigaom.com/2017/12/11/five-2018-predictions-on-gdpr-robot-cars-ai-5g-and-blockchain/)
 - [Gigaom |   Voices in AI – Episode 23: A Conversation with Pedro Domingos](https://gigaom.com/2017/12/04/voices-in-ai-episode-23-a-conversation-with-pedro-domingos/)
-- [【翻訳版】Docker, Inc is Dead - comix](http://itosho525.hatenablog.com/entry/2018/01/01/074358)
 - [小説同人誌向け明朝体フリーフォントまとめ  <  ALBA LUNA](https://albalunaweb.net/knowhow/1511.html)
 - [米ホワイトハウスがCMSとしてWordPressを採用。Drupalから変更 － Publickey](http://www.publickey1.jp/blog/18/cmswordpressdrupal.html)
     - [ホワイトハウスのWordPressをチェック - Qiita](https://qiita.com/kawax/items/e923f7231654866ccd07)
@@ -96,10 +114,13 @@
 - [jQuery MobileとjQuery UI、停滞を打破するため開発体制を刷新。以前より簡単にコントリビュート可能に － Publickey](http://www.publickey1.jp/blog/18/jquery_mobilejquery_ui.html)
 - [ネット上でニュース記事がすぐ消えてしまうことの真の弊害 - 空気を読まない中杜カズサ](http://nakamorikzs.net/entry/netnews404)
 - [“コンテナネイティブ”の時代が本格到来 ―2018年のクラウドはKubernetesとGoogleに注目：新春特別企画｜gihyo.jp … 技術評論社](http://gihyo.jp/admin/column/newyear/2018/container-and-cloud)
+    - [【翻訳版】Docker, Inc is Dead - comix](http://itosho525.hatenablog.com/entry/2018/01/01/074358)
+    - [Kubernetesを統合したDockerがついにリリース。Docker for Mac with Kubernetesのベータ版が公開 － Publickey](http://www.publickey1.jp/blog/18/kubernetesdockerdocker_for_mac_with_kubernetes.html)
+    - [Google Cloud、プリエンプティブVMでGPUのアタッチを可能に--料金は通常の半額 - ZDNet Japan](https://japan.zdnet.com/article/35112849/)
+    - [Google、Dockerイメージに対するテスト自動化フレームワーク「Container Structure Tests」オープンソースで公開 － Publickey](http://www.publickey1.jp/blog/18/googledockercontainer_structure_tests.html)
 - [サードパーティコードの脆弱性をチェックするAppcanaryのチームがGitHubにスカウトされた  |  TechCrunch Japan](http://jp.techcrunch.com/2018/01/05/2018-01-04-appcanary-shuts-down-its-vulnerability-scanning-service-as-the-team-joins-github/)
 - [米国の学校は「フェイクニュースに踊らされないためのリテラシー」を教え始めている｜WIRED.jp](https://wired.jp/2017/06/23/schools-teach-news-literacy/)
 - [Big Sky :: gRPC を使ったファイル転送ツール作った。](https://mattn.kaoriya.net/software/lang/go/20180109102514.htm)
-- [Google Cloud、プリエンプティブVMでGPUのアタッチを可能に--料金は通常の半額 - ZDNet Japan](https://japan.zdnet.com/article/35112849/)
 - [Windows 10、次期アップデートでLinuxのdaemonもサポートする見通し、Windows Subsystem for Linuxで対応 － Publickey](http://www.publickey1.jp/blog/18/windows_10linuxdaemonwindows_subsystem_for_linux.html)
 - [AI ハリー・ポッターの衝撃 - 山形浩生の「経済のトリセツ」](http://cruel.hatenablog.com/entry/2018/01/09/180230)
 - [インテル、CES 2018で49キュービットの量子チップを発表 - ZDNet Japan](https://japan.zdnet.com/article/35112933/)
@@ -109,9 +130,10 @@
 - [「クリックスタンパー」スタンプ風のベクター画像を手軽に作成できる電子印鑑ソフト - 窓の杜ライブラリ](https://forest.watch.impress.co.jp/library/software/clickstam/)
 - [配列リファレンスの多重化の例 - 電気ウナギ的○○](http://blog.netandfield.com/shar/2018/01/post-3078.html)
 - [Change.orgのビジネスモデルについて · Change.org](https://www.change.org/l/jp/businessmodel)
-- [Google、Dockerイメージに対するテスト自動化フレームワーク「Container Structure Tests」オープンソースで公開 － Publickey](http://www.publickey1.jp/blog/18/googledockercontainer_structure_tests.html)
 - [「Windows 8.1」のメインストリームサポートが終了、5年間の延長サポートフェイズに - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1100471.html)
 - [今年のCESの目玉は大停電だった  |  TechCrunch Japan](http://jp.techcrunch.com/2018/01/11/2018-01-10-the-day-the-lights-went-out-at-ces/)
 - [「Rust 1.23」リリース | OSDN Magazine](https://mag.osdn.jp/18/01/09/160000)
+- [MacやLinuxでも動作する「PowerShell Core 6.0」が一般公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1100633.html)
+- [Google、スマホのディスプレイをスピーカーにする技術メーカーを買収──Bloomberg報道 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1801/12/news056.html)
 
 (end of file)

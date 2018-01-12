@@ -1,7 +1,7 @@
 +++
 title = "「CPU に対するサイドチャネル攻撃」に関する覚え書き"
 date =  "2018-01-04T22:01:45+09:00"
-update = "2018-01-11T22:51:15+09:00"
+update = "2018-01-12T19:29:59+09:00"
 description = "投機的実行機能やアウトオブオーダー実行機能を持つ CPU に対してサイドチャネル攻撃を行う手法が報告されている。ただし影響度は低い。"
 image = "/images/attention/remark.jpg"
 tags = [
@@ -104,6 +104,7 @@ CVSS については[解説ページ]({{< relref "remark/2015/cvss-v3-metrics-in
     - [Mitigations landing for new class of timing attack | Mozilla Security Blog](https://blog.mozilla.org/security/2018/01/03/mitigations-landing-new-class-timing-attack/)
 - サービス・プロバイダでも対応が進んでいる
     - [【重要】MeltdownおよびSpectre（CPUの脆弱性）による弊社サービスへの影響について | さくらインターネット](https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1832)
+        - [MeltdownおよびSpectre（CPUの脆弱性）による弊社サービスへの影響について – さくらのサポート情報](https://help.sakura.ad.jp/hc/ja/articles/115000204541?_bdld=2XXAbU.m3Ec1JI)
     - [WEBサーバーの CPU 脆弱性対応メンテナンスのお知らせ - 2018年01月05日 18時57分 / メンテナンス情報 / お知らせ - レンタルサーバーならロリポップ！](https://lolipop.jp/info/mainte/5905/)
 - ウイルス対策ソフトで今回の脆弱性を使った malware を検出するのは（できなくはないが）難しい？
 
@@ -135,6 +136,7 @@ CVSS については[解説ページ]({{< relref "remark/2015/cvss-v3-metrics-in
 - [「Waterfox」v56.0.2が公開、「Firefox」のCPU脆弱性修正を取り込む - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1100016.html)
 - [NVIDIA、最新版ドライバーでCPU脆弱性“Spectre”対策を実施 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1100044.html)
 - [VMware製品へのSpectre/Meltdown脆弱性の影響 - Qiita](https://qiita.com/tsukamoto/items/9259050159e9858c81af)
+    - [「VMware Workstation」「VMware Fusion」が更新、“Spectre”脆弱性への緩和策が施される - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1100770.html)
 - [Opera、CPU脆弱性“Meltdown”の影響を緩和する方法を案内 ～対策版は今月末公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1100328.html)
 - [Windowsの“Meltdown”“Spectre”パッチでトラブル、AMDデバイスへの提供が一時停止 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1100231.html)
 - [Microsoft、2018年1月のセキュリティ更新プログラムを公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1100321.html)
@@ -145,3 +147,6 @@ CVSS については[解説ページ]({{< relref "remark/2015/cvss-v3-metrics-in
 
 - [CPUの脆弱性パッチがLinuxマシンの性能に与える影響--レッドハットが検証 - ZDNet Japan](https://japan.zdnet.com/article/35113008/)
 - [IBM、脆弱性「Meltdown/Spectre」への対策を「POWER」CPU向けに公開 - ZDNet Japan](https://japan.zdnet.com/article/35112986/)
+
+- [AMD、RyzenとEPYCのSpectre対策を今週中に提供へ　GPUには影響なし - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1801/12/news071.html)
+- [AMD、CPU脆弱性に関する新しい声明を発表 ～配信停止中のWindowsパッチは来週再開か - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1100903.html)
