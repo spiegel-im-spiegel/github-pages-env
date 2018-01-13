@@ -3,7 +3,7 @@ description = "個人で Slack を使ってみる。"
 draft = false
 tags = ["slack", "tools", "feed"]
 date = "2017-01-09T17:24:54+09:00"
-update = "2017-09-29T22:47:55+09:00"
+update = "2018-01-13T14:11:18+09:00"
 title = "いまさら聞けない Slack の使い方"
 
 [author]
@@ -93,6 +93,8 @@ title = "いまさら聞けない Slack の使い方"
     - [US-CERT Alerts](http://www.us-cert.gov/ncas/alerts.xml)
     - [piyolog](http://d.hatena.ne.jp/Kango/rss)
     - [Schneier on Security](https://www.schneier.com/blog/atom.xml)
+    - [wizSafe Security Signal -安心・安全への道標- IIJ](https://wizsafe.iij.ad.jp/feed/)
+    - [エフセキュアブログ](http://blog.f-secure.jp/atom.xml)
 
 メールや Facebook TL で取れる情報は除いたつもりだが，ちょっと多かったかな。
 調整しながら運用してみよう。
