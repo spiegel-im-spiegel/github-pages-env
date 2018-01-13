@@ -1,10 +1,10 @@
 +++
 date = "2017-03-08T20:36:26+09:00"
-update = "2017-10-15T09:23:00+09:00"
+update = "2018-01-13T13:15:06+09:00"
 title = "フェイクニュースを排除することはフェイクニュース問題の解決にならない"
 description = "結局私たちは自分自身で，虚と実を併せ飲み，知見を積み上げ，知識を掘り下げていくしかないのだ。その意味で機械は技術は何もしてくれない。"
 draft = false
-tags = ["media", "communication", "spam", "censorship", "grigori"]
+tags = ["media", "communication", "spam", "censorship", "facebook", "grigori"]
 
 [author]
   instagram = "spiegel_2007"

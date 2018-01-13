@@ -1,9 +1,9 @@
 +++
 date = "2015-11-14T17:49:15+09:00"
-update = "2017-10-15T09:23:00+09:00"
+update = "2018-01-13T13:15:06+09:00"
 description = "FBI 曰く「Ransomware 感染時は身代金払え」 / 移動式プラネタリウム製作資金を集める Crowd-Funding / 家事を「要求開発」する / Facebook のない人生は幸せ？ / 日本における TPP 知財のこれから"
 draft = false
-tags = ["security", "risk", "ransomware", "astronomy", "planetarium", "engineering", "communication", "code", "intellectual-property", "copyright", "tpp", "grigori"]
+tags = ["security", "risk", "ransomware", "astronomy", "planetarium", "engineering", "communication", "code", "intellectual-property", "copyright", "tpp", "grigori", "facebook"]
 title = "週末スペシャル： FBI 曰く「Ransomware 感染時は身代金払え」"
 
 [author]
