@@ -71,7 +71,7 @@ Windows 用なら [Git Extensions] 本体の他に以下のツールが同梱さ
 
 {{< fig-img src="https://farm5.staticflickr.com/4754/39100077644_db52f99e03.jpg" title="Choose language in Git Extensions Setting" link="https://www.flickr.com/photos/spiegel/39100077644/" >}}
 
-やってみるとわかると思うが，ほとんど英語のままである。
+やってみるとわかると思うが，けっこう英語のままである（そのせいで Setup ファイルに含まれないのかな）。
 `Japanese.xlf` および `Japanese.Plugins.xlf` はテキストファイルなので，ここをいじれば日本語化できそうだ。
 もし英語得手の方がいれば翻訳に貢献できるかもしれない。
 私は... まぁ英語でも別に困らないか。
