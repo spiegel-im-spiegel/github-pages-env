@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T23:59:59+09:00"
-update = "2018-01-21T11:19:13+09:00"
+update = "2018-01-21T18:38:37+09:00"
 description = "「Go 言語に関するブックマーク」に整理しきれない未整理分。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -64,7 +64,6 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [Revel templatesを使ったサンプルアプリケーション - Qiita](http://qiita.com/rubytomato@github/items/638299aabb7922cbef59)
 - [Go言語でパッケージを作成して世界に公開する方法 at ミネルヴァの梟は黄昏とともに飛び始める（山下 大介 公式ブログ）](http://blog.daisukeyamashita.com/post/1209.html) : パッケージの作り方なんだけど情報が古い。「昔はこうだった」くらいの感じで
 - [goでwindowsでキースキャン - Qiita](http://qiita.com/ohisama@github/items/9f05679f25cfc9c3ecfc)
-- [gocron でジョブスケジューリング - Qiita](http://qiita.com/mitsuse/items/8669bf54d2310b3e68a1) : [gcarlescere/scheduler](https://github.com/carlescere/scheduler) のほうがおすすめらしいw
 - [Google ChromeのテキストエリアをEmacsで編集する'Edit with Emacs'から任意のエディタを起動するデーモンをGo 1.4 for Windowsで書いてみたわけだが、エディタがブラウザの後ろに出てしまってダメかもしれない - Qiita](http://qiita.com/zetamatta/items/51b0f45496e5143e2e63)
 - [golangでprivateなエイリアスのポインタを元の型に戻す - Qiita](http://qiita.com/shibukawa/items/9db22c9684cc0586b737)
 - [Go の expvar パッケージを使ってアプリケーションのメトリクスを公開する - Qiita](http://qiita.com/methane/items/8f56f663d6da4dee9f64)
@@ -96,7 +95,6 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [goでwindowsのWMI経由からディスクIOPSを取得してみた - Qiita](https://qiita.com/sky_jokerxx/items/091a70d7b51fc33fe71e)
 - [Big Sky :: Golang で優先度を変えてプロセスを起動する。](https://mattn.kaoriya.net/software/lang/go/20171108182710.htm)
 - [GoでORMライブラリまわりを綺麗に書く - Qiita](https://qiita.com/tetsuyanh/items/7d807110f602ab150d46)
-- [Big Sky :: Golang の archive/zip でタイムゾーンの問題とファイル名の問題が解決した。](https://mattn.kaoriya.net/software/lang/go/20171111154359.htm)
 - [ECHO+GORMでJWTとGraphQLの環境を構築 - Qiita](https://qiita.com/hiroykam/items/31862832a562388d876b)
 - [Goの抽象構文木（AST）を手入力してHello, Worldを作る #golang - Qiita](https://qiita.com/tenntenn/items/0cbc6f1f00dc579fcd8c)
 - [go-bindata が awesome-go から削除された - Qiita](https://qiita.com/pinzolo/items/5bb88f0fc7343d3a59c6)

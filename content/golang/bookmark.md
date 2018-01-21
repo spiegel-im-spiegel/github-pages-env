@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-01-21T11:19:13+09:00"
+update = "2018-01-21T18:38:37+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -419,16 +419,14 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [GoとCの間のポインタ渡し - Qiita](https://qiita.com/74th/items/0362bea2012ef253c539)
 - [Cgoを使ったパッケージと「Docker as Bug Report/Reproduce」というOSS運用について - DRYな備忘録](http://otiai10.hatenablog.com/entry/2017/12/04/013819)
 
-### 組み込み開発
+### 組込み開発
 
-- [goでwindowsでRS232C - Qiita](http://qiita.com/ohisama@github/items/e6fa2bd1527c257bb9c9)
-    - [ohisama/serial](https://github.com/ohisama/serial) (forkd from [lnmx/serial](https://github.com/lnmx/serial))
-    - [goでwindowsでRS232C その２ - Qiita](http://qiita.com/ohisama@github/items/12dccdcdfc5082c22e72)
-- [Goでのシリアル通信でハマった事 - Qiita](http://qiita.com/tomoya0x00/items/d957dc00682c57f96771)
+主なものは「[組込みで Go]({{< relref "golang/embedded-engineering-with-golang.md" >}})」に移動。
+以下は携帯端末開発に関するブックマーク：
+
 - [go 1.5でgomobile(android) - unokun’s blog](http://unokun.hatenablog.jp/entry/2015/08/01/150628)
 - [gomobileでiOSアプリをビルドする手順まとめ - GolangRdyJp](http://golang.rdy.jp/2015/09/21/ios-gomobile/)
 - [gomobileで日本語フォントを扱ってみる - Qiita](http://qiita.com/bowz_standard/items/5a9c987f9242777fff30)
-- [Gobotの招きにあひて、徒然なるままにArduinoとRaspberry PiでIoTっぽいことをやってみるなり - Qiita](https://qiita.com/KemoKemo/items/10fb644f9d359c35646a)
 
 ### ビルド時に情報を各種埋め込みたい
 
