@@ -1,11 +1,13 @@
 +++
 description = "これなら Git Extensions で全部用事が済んでしまうことになる。素敵すぎる。"
 date = "2016-11-17T21:33:32+09:00"
+update = "2018-01-21T16:14:14+09:00"
 title = "Git Extensions 2.49 × ConEmu ＝ ♥"
 tags = [
   "git",
   "git-extensions",
   "conemu",
+  "tools",
 ]
 draft = false
 
