@@ -1,7 +1,7 @@
 +++
 title = "「CPU に対するサイドチャネル攻撃」に関する覚え書き"
 date =  "2018-01-04T22:01:45+09:00"
-update = "2018-01-12T19:29:59+09:00"
+update = "2018-01-21T11:19:13+09:00"
 description = "投機的実行機能やアウトオブオーダー実行機能を持つ CPU に対してサイドチャネル攻撃を行う手法が報告されている。ただし影響度は低い。"
 image = "/images/attention/remark.jpg"
 tags = [
@@ -150,3 +150,7 @@ CVSS については[解説ページ]({{< relref "remark/2015/cvss-v3-metrics-in
 
 - [AMD、RyzenとEPYCのSpectre対策を今週中に提供へ　GPUには影響なし - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1801/12/news071.html)
 - [AMD、CPU脆弱性に関する新しい声明を発表 ～配信停止中のWindowsパッチは来週再開か - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1100903.html)
+- [AWSもSpectreとMeltdownの対策完了を報告。対策後、Amazon EC2で性能の低下は見られないと － Publickey](http://www.publickey1.jp/blog/18/awsspectremeltdownamazon_ec2.html)
+- [GoogleはSpectreとMeltdownの対策を昨年6月に開始し12月には完了していた。性能低下の報告はなし － Publickey](http://www.publickey1.jp/blog/18/googlecpuspectremeltdown612.html)
+- [LinuxコアメンバーによるMeltdownとSpectre 対応状況の説明 （1/19更新） - Qiita](https://qiita.com/hogemax/items/008f19fd14eebca474d7)
+- [「Spectre」のような脆弱性は「おそらくほかにも」--ArmのCEOが警告 - ZDNet Japan](https://japan.zdnet.com/article/35113201/)

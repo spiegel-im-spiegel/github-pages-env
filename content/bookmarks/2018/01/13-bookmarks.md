@@ -1,6 +1,7 @@
 +++
 title = "2018-01-13 のブックマーク"
 date =  "2018-01-13T14:36:31+09:00"
+update = "2018-01-21T11:19:13+09:00"
 description = "「PowerShell Core 6.0」他"
 image = "/images/avatar.jpg"
 
@@ -126,4 +127,5 @@ flattr    = "spiegel"
 - [「Rust 1.23」リリース | OSDN Magazine](https://mag.osdn.jp/18/01/09/160000)
 - [PowerShell Core 6.0 – Hideki's Random Stuff Japanese](https://ja.hideki.hclippr.com/2018/01/12/powershell-core-6-0/)
     - [MacやLinuxでも動作する「PowerShell Core 6.0」が一般公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1100633.html)
+    - [マイクロソフト製のWindows/Linux/macOSクロスプラットフォーム対応シェル、オープンソースの「PowerShell Core 6.0」正式版が登場 － Publickey](http://www.publickey1.jp/blog/18/windowslinuxmacospowershell_core_60.html)
 - [Google、スマホのディスプレイをスピーカーにする技術メーカーを買収──Bloomberg報道 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1801/12/news056.html)

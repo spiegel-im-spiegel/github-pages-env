@@ -1,7 +1,7 @@
 +++
 title = "Go 言語による Unicode 半角/全角変換"
 date =  "2017-12-08T13:47:48+09:00"
-update =  "2017-12-09T17:54:51+09:00"
+update = "2018-01-21T11:19:13+09:00"
 description = "以前「Go 言語と Unicode 正規化」の脚注でこっそり「単に全角・半角変換ができればいいのなら golang.org/x/text/width パッケージをお勧めする」と書いていたのだが，今回はその話。"
 image = "/images/attention/go-code.png"
 tags = ["golang", "unicode", "transform", "character"]
@@ -169,6 +169,10 @@ $ cat utf8.txt
 [`transform`]: https://godoc.org/golang.org/x/text/transform "transform - GoDoc"
 [`io`]: https://golang.org/pkg/io/ "io - The Go Programming Language"
 [spiegel-im-spiegel/text]: https://github.com/spiegel-im-spiegel/text "spiegel-im-spiegel/text: Encoding/Decoding Text Package by Golang"
+
+## ブックマーク
+
+- [Goで全角/半角変換する - Qiita](https://qiita.com/ktnyt/items/ee56d5425e1c0ad42094) : こちらは内部に変換辞書を持っているらしい
 
 ## 参考図書
 

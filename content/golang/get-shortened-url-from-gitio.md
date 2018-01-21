@@ -1,6 +1,6 @@
 +++
 date = "2015-11-26T20:29:30+09:00"
-update = "2017-10-27T18:19:23+09:00"
+update = "2018-01-21T11:19:13+09:00"
 description = "これって curl で書けるんなら Go 言語で表現できるんじゃね？"
 draft = false
 tags = ["golang", "github", "curl", "programming", "api"]
@@ -195,6 +195,7 @@ func main() {
 ## ブックマーク
 
 - [よく使うcurlコマンドのオプションまとめ（12個） - Qiita](https://qiita.com/shtnkgm/items/45b4cd274fa813d29539)
+- [curlコマンドをPythonやnode.jsのコードに変換する方法 - Qiita](https://qiita.com/tottu22/items/9112d30588f0339faf9b) : Python への変換は[こちらのサービス](https://curl.trillworks.com/ "Convert cURL command syntax to Python requests, Node.js code")のほうが簡潔なコードを吐いてくれるらしい
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
