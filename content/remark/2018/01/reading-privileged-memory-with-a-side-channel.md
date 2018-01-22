@@ -1,7 +1,7 @@
 +++
 title = "「CPU に対するサイドチャネル攻撃」に関する覚え書き"
 date =  "2018-01-04T22:01:45+09:00"
-update = "2018-01-21T11:19:13+09:00"
+update = "2018-01-22T19:54:39+09:00"
 description = "投機的実行機能やアウトオブオーダー実行機能を持つ CPU に対してサイドチャネル攻撃を行う手法が報告されている。ただし影響度は低い。"
 image = "/images/attention/remark.jpg"
 tags = [
@@ -154,3 +154,4 @@ CVSS については[解説ページ]({{< relref "remark/2015/cvss-v3-metrics-in
 - [GoogleはSpectreとMeltdownの対策を昨年6月に開始し12月には完了していた。性能低下の報告はなし － Publickey](http://www.publickey1.jp/blog/18/googlecpuspectremeltdown612.html)
 - [LinuxコアメンバーによるMeltdownとSpectre 対応状況の説明 （1/19更新） - Qiita](https://qiita.com/hogemax/items/008f19fd14eebca474d7)
 - [「Spectre」のような脆弱性は「おそらくほかにも」--ArmのCEOが警告 - ZDNet Japan](https://japan.zdnet.com/article/35113201/)
+- [Windows 10ミニTips(247) CPUの脆弱性「Meltdown」「Spectre」に関する状態を確認する | マイナビニュース](https://news.mynavi.jp/article/win10tips-247/)

@@ -33,17 +33,26 @@
 - [Autocrypt 1.0.0 documentation](https://autocrypt.org/)
 - [Email green, secure, simple and ad-free - posteo.de - New: Easy email encryption with Autocrypt and OpenPGP header](https://posteo.de/en/blog/new-easy-email-encryption-with-autocrypt-and-openpgp-header)
 
+## Java 関連のブックマーク
+
+- [BASE64Encoderを使おうとしたら「rt.jarで制限されているためアクセスできません」と言われた件 – ビットログ](https://blog.bitmeister.jp/?p=1486)
+- [EclipseでJavaFXを使おうとするとアクセス制限とでる問題の解決方法 - (元)情報学科大学生のブログ](http://informationstudent.blog.fc2.com/blog-entry-20.html)
+
 ## Age of Trump
 
 
 ## セキュリティ関連
 
+- [コンピュータセキュリティと様々なサイドチャネル攻撃｜Rui Ueyama｜note](https://note.mu/ruiu/n/nb13737bb27dd)
+- [これから開発されるFirefoxの新規機能は、HTTPSにしか対応しない。新規のCSSプロパティなども対象 － Publickey](http://www.publickey1.jp/blog/18/firefoxhttpscss.html)
+- [「Microsoft Office」の脆弱性を悪用するマルウェアが拡散中 - ZDNet Japan](https://japan.zdnet.com/article/35113478/)
 
 ## 天文関連
 
 
 ## 知財関連
 
+- [CC理事だったジェームズ・ボイルがグラフィックノベルで解き明かす音楽の2000年の歴史 - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20180122/historyofmusic)
 
 ## その他
 

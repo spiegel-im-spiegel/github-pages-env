@@ -1,7 +1,7 @@
 +++
 title = "Go 言語における Singleton Pattern"
 date =  "2017-10-24T14:43:01+09:00"
-update =  "2017-10-25T12:04:08+09:00"
+update = "2018-01-22T20:07:59+09:00"
 description = "はっきり言って「Singleton なめんな！」ですよ。"
 tags        = [ "golang", "programming", "singleton", "init", "sync", "goroutine" ]
 
@@ -275,7 +275,7 @@ Hello Bob
 </div>
 
 <div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1EU/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/41GPVATQiZL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1EU/baldandersinf-22/">Java言語で学ぶリファクタリング入門</a></dt><dd>結城 浩 </dd><dd>SBクリエイティブ 2007-01-26</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1BS/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8AT1BS.09._SCTHUMBZZZ_.jpg"  alt="増補改訂版 Java言語で学ぶデザインパターン入門 マルチスレッド編"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8ATHGW/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8ATHGW.09._SCTHUMBZZZ_.jpg"  alt="増補改訂版 Java言語で学ぶデザインパターン入門"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B073F45B97/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B073F45B97.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート／積分を見つめて"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00H372H40/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00H372H40.09._SCTHUMBZZZ_.jpg"  alt="プログラマの数学"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1AO/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8AT1AO.09._SCTHUMBZZZ_.jpg"  alt="Java言語プログラミングレッスン 第3版（下）　オブジェクト指向を始めよう"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0185E10ZQ/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B0185E10ZQ.09._SCTHUMBZZZ_.jpg"  alt="実践Javaコーディング作法"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B071V7MY82/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B071V7MY82.09._SCTHUMBZZZ_.jpg"  alt="プリンシプル オブ プログラミング 3年目までに身につけたい 一生役立つ101の原理原則"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00Y9EYOIW/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00Y9EYOIW.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート／微分を追いかけて"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00L0PDMK4/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00L0PDMK4.09._SCTHUMBZZZ_.jpg"  alt="数学ガール／ガロア理論"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1A4/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8AT1A4.09._SCTHUMBZZZ_.jpg"  alt="Java言語プログラミングレッスン 第3版（上）　Java言語を始めよう"  /></a> </p>
-<p class="description">結城浩さんによる通称「デザパタ本」。 Java 以外でも使える優れもの。</p>
+<p class="description">結城浩さんによる「リファクタリング本」。意外に Java 以外でも使える優れもの。</p>
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-10-24">2017-10-24</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
 </div>
 

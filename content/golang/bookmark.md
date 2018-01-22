@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-01-21T18:38:37+09:00"
+update = "2018-01-22T19:54:39+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -294,6 +294,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 
 - [Golang 日付のフォーマットでハマった話 - Qiita](http://qiita.com/masa23/items/e781124a7e0305bc40c4)
 - [golangのtime.Timeの当日00:00:00を取得する方法とベンチマーク - Qiita](http://qiita.com/ushio_s/items/3e270933641710bbd88e)
+- [Golangで周期的に実行するときのパターン - Qiita](https://qiita.com/tetsu_koba/items/1599408f537cb513b250)
 
 ### [`reflect`] および [`unsafe`] パッケージ
 
