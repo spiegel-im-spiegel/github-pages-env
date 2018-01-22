@@ -33,16 +33,14 @@
 - [Autocrypt 1.0.0 documentation](https://autocrypt.org/)
 - [Email green, secure, simple and ad-free - posteo.de - New: Easy email encryption with Autocrypt and OpenPGP header](https://posteo.de/en/blog/new-easy-email-encryption-with-autocrypt-and-openpgp-header)
 
-## Java 関連のブックマーク
-
-- [BASE64Encoderを使おうとしたら「rt.jarで制限されているためアクセスできません」と言われた件 – ビットログ](https://blog.bitmeister.jp/?p=1486)
-- [EclipseでJavaFXを使おうとするとアクセス制限とでる問題の解決方法 - (元)情報学科大学生のブログ](http://informationstudent.blog.fc2.com/blog-entry-20.html)
 
 ## Age of Trump
 
 
 ## セキュリティ関連
 
+- [NSAの監視プログラムを認める外国諜報活動偵察法、米上院も延長を可決 - CNET Japan](https://japan.cnet.com/article/35113413/)
+- [マイクロソフトは独自の「小さなチップ」で、次世代のIoT製品を守ろうとしている｜WIRED.jp](https://wired.jp/2018/01/21/project-sopris-iot-security/)
 - [コンピュータセキュリティと様々なサイドチャネル攻撃｜Rui Ueyama｜note](https://note.mu/ruiu/n/nb13737bb27dd)
 - [これから開発されるFirefoxの新規機能は、HTTPSにしか対応しない。新規のCSSプロパティなども対象 － Publickey](http://www.publickey1.jp/blog/18/firefoxhttpscss.html)
 - [「Microsoft Office」の脆弱性を悪用するマルウェアが拡散中 - ZDNet Japan](https://japan.zdnet.com/article/35113478/)
@@ -56,5 +54,6 @@
 
 ## その他
 
+- [韓国、全ての仮想通貨取引所の閉鎖を検討 - CNET Japan](https://japan.cnet.com/article/35113402/)
 
 (end of file)
