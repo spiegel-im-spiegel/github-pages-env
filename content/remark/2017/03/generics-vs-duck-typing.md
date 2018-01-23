@@ -1,7 +1,7 @@
 +++
 description = "これはどちらが正しいかという問題ではない。"
 date = "2017-03-11T14:55:06+09:00"
-update = "2017-09-14T09:22:48+09:00"
+update = "2018-01-23T16:07:00+09:00"
 title = "きみは Generics がとくいなフレンズなんだね，または「制約は構造を生む」"
 draft = false
 tags = ["golang", "object-oriented", "java", "design", "refactoring"]
@@ -19,6 +19,10 @@ tags = ["golang", "object-oriented", "java", "design", "refactoring"]
   facebook = "spiegel.im.spiegel"
   twitter = "spiegel_2007"
   github = "spiegel-im-spiegel"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 {{< fig-quote title="数学ガール／フェルマーの最終定理" link="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1CM/baldandersinf-22/" >}}
@@ -65,11 +69,11 @@ tags = ["golang", "object-oriented", "java", "design", "refactoring"]
 あるクラスの属性として別のクラスを定義するか，操作によって関連付けるかすればいいからだ。
 問題は1番目の汎化・特化をどうやって定義するかである。
 
-[Go 言語]の場合は [interface] を使った [duck typing] [^dt] を採用した。
-[duck typing] とはクラスの振る舞いに注目してクラス間の汎化・特化関係を帰納法的に定義することである。
+[Go 言語]の場合は [interface] を使った「構造的部分型（structural subtyping）[^dt]」を採用した。
+構造的部分型とはクラスの振る舞いに注目してクラス間の汎化・特化関係を帰納法的に定義することである。
 例を挙げると，それが「にゃーん」と鳴くのなら机器猫だろうが猫耳メイドだろうがサーバルキャットだろうが全部「猫」である，ということだ。
 
-[^dt]: [duck typing] の由来は [duck test] だそうで， [duck test] とは “If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.” と帰納法的に対象を推測する手法を指すらしい。 [duck typing] のメリットのひとつは多重継承で発生する様々な問題（名前の衝突や菱形継承など）を気にする必要がない点である。念のために言うと， [duck typing] の概念自体は  [Go 言語]が初出というわけではない。オブジェクト指向プログラミングをサポートするスクリプト言語（Ruby など）では大抵 [duck typing] な記述が可能である。またコンパイル言語でも Generics やそれに近い機能（C# の dynamic 型など）をサポートする場合は [duck typing] な記述が可能な場合がある。  [Go 言語]が特異なのは（class キーワードなどを使った）古典的な継承関係の定義構文をざっくり捨て去ってる点にある。プログラミングの「考え方」を切り替える必要があるのだ。これは私たちプログラマが息をするように書いてきた継承（is-a）関係の実装について改めて考察する機会だと私は思う。
+[^dt]: URL を見るとわかる通り最初は [duck typing] と表記していたが正しくは「構造的部分型」と言うらしい。 [duck typing] は主に動的型付け言語における型推論方式（のひとつ）で，クラス間の関係を記述するものではないようだ。ちなみに構造的部分型に対する言葉として「公称型（nominal subtyping）」というのがあって， C++ や Java におけるテンプレート・クラスやインタフェース・クラスを使った汎化・特化関係を指す場合に使うそうだ。
 
 クラス間の関係を定義するのは意外に大変である。
 皆さんは「クラス設計」をどのように行っているだろうか。
@@ -94,7 +98,7 @@ tags = ["golang", "object-oriented", "java", "design", "refactoring"]
 
 「抽象→具象」へと実装する人にとっては Generics のない [Go 言語]はとてもまだるこしく見えるかもしれない。
 「なんで Generics がねーんだよ。いちいち全部書かせる気か。このポンコツ言語が！」となること請け合いである。
-しかし一度 [duck typing] に慣れた人にとっては抽象クラスから書かなければならない C++ や Java こそが面倒くさい。
+しかし一度構造的部分型に慣れた人にとっては抽象クラスから書かなければならない C++ や Java こそが面倒くさい。
 何故なら，脳内では「具象→抽象」で思考していくのに実際に書くときには「考え終わらないと書けない[^cd1]」からである。
 [Go 言語]なら「考えながら書ける」のに。
 
@@ -118,6 +122,7 @@ tags = ["golang", "object-oriented", "java", "design", "refactoring"]
     - [[翻訳] Why Go? - Qiita](http://qiita.com/methane/items/b627f20457873a504638)
 - [Go 言語における「オブジェクト」]({{< relref "golang/object-oriented-programming.md" >}})
 - [JavaScriptで継承を使わないプログラミングスタイル - JavaScript勉強会](http://jsstudy.hatenablog.com/entry/2017/03/29/214931) : オブジェクト指向設計について上手くまとめている
+- [Go にジェネリクスがなくても構わない人たちに対する批判について - methaneのブログ](http://methane.hatenablog.jp/entry/2017/09/19/Go_%E3%81%AB%E3%82%B8%E3%82%A7%E3%83%8D%E3%83%AA%E3%82%AF%E3%82%B9%E3%81%8C%E3%81%AA%E3%81%8F%E3%81%A6%E3%82%82%E6%A7%8B%E3%82%8F%E3%81%AA%E3%81%84%E4%BA%BA%E3%81%9F%E3%81%A1%E3%81%AB%E5%AF%BE%E3%81%99)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [struct]: https://golang.org/ref/spec#Struct_types "Struct types"
