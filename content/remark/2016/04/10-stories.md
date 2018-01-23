@@ -1,6 +1,6 @@
 +++
 date = "2016-04-10T18:44:29+09:00"
-update = "2017-10-15T09:23:00+09:00"
+update = "2018-01-23T16:07:00+09:00"
 description = "まじめに規制に従っている人ほど馬鹿を見る社会 / Linux サブシステムは Windows の終わりの始まり / 鍵管理システム CONIKS / Go 言語を使うようになって変わったこと / その他の気になる記事"
 draft = false
 tags = ["code", "security", "risk", "management", "cryptography", "windows", "linux", "messaging", "pki", "engineering", "golang", "grigori"]
@@ -19,6 +19,10 @@ title = "週末スペシャル： まじめに規制に従っている人ほど�
   tumblr = "spiegel-im-spiegel"
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 3月は去りました。
@@ -162,7 +166,7 @@ Value Object の特徴は以下のとおり。
 
 ### 多態性を「振る舞い」から考える
 
-[Go 言語]の多態性（polymorphism）は振る舞いによってのみ規定される（[duck typing](https://en.wikipedia.org/wiki/Duck_typing "Duck typing - Wikipedia, the free encyclopedia")）。
+[Go 言語]の多態性（polymorphism）は振る舞いによってのみ規定される（構造的部分型）。
 つまり「猫」のように振る舞うのであれば実体がロボットだろうがコスプレイヤーだろうが全部「猫」として括れるのである。
 そして「猫」のようにあるためにロボットやコスプレイヤーの identity を書き換える必要はない。
 これはとても重要な事である。

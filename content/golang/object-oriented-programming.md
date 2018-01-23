@@ -1,6 +1,6 @@
 +++
 date = "2015-12-15T21:19:58+09:00"
-update = "2017-11-05T17:32:49+09:00"
+update = "2018-01-23T16:07:00+09:00"
 description = "Go 言語がいわゆる「オブジェクト指向言語」と言えるかどうかについては色々とあるようだが，オブジェクト指向プログラミングを助けるための仕掛けはいくつか存在する。今回はその中の type キーワードを中心に解説していく。"
 draft = false
 tags = ["golang", "object-oriented", "programming", "type", "interface"]
@@ -19,6 +19,10 @@ title = "Go 言語における「オブジェクト」"
   tumblr = "spiegel-im-spiegel"
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 [Go 言語]がいわゆる「オブジェクト指向言語」と言えるかどうかについては色々とあるようだが，オブジェクト指向プログラミングを助けるための仕掛けはいくつか存在する。
@@ -230,7 +234,7 @@ type error interface {
 つまり [error] は「string 型を返す `Error()` 関数」のみが定義されている。
 逆に言うと「string 型を返す `Error()` 関数」を持つ全ての型は [error] の一種（つまり is-a 関係）であると見なすことができる[^dt]。
 
-[^dt]: [Go 言語]では Java の implement のような継承を明示するキーワードはない。記述された振る舞いからクラス関係を決定する方法を「[ダック・タイピング（duck typing）](https://en.wikipedia.org/wiki/Duck_typing)」と呼ぶ。ダック・タイピングの由来は「[ダック・テスト（duck test）](https://en.wikipedia.org/wiki/Duck_test)」だそうで，ダック・テストとは “If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.” と帰納法的に対象を推測する手法を指すらしい。ダック・タイピングのメリットのひとつは多重継承で発生する様々な問題（名前の衝突や菱形継承など）を気にする必要がない点である。
+[^dt]: [Go 言語]では Java の implement のような継承を明示するキーワードはない。記述された振る舞いからクラス関係を決定する方法を「構造的部分型（structural subtyping）」と呼ぶ。構造的部分型のメリットのひとつは多重継承で発生する様々な問題（名前の衝突や菱形継承など）を気にする必要がない点である。
 
 たとえば
 
@@ -427,6 +431,7 @@ func main() {
 - [Go 言語の値レシーバとポインタレシーバ | Step by Step](https://skatsuta.github.io/2015/12/29/value-receiver-pointer-receiver/)
 - [埋込みとインタフェース #golang - Qiita](http://qiita.com/tenntenn/items/bba69d84a1e0b67c4db8)
 - [Goにatexitやグローバルなデストラクタがない理由 - Qiita](http://qiita.com/ruiu/items/22910a4bae6cb716a391)
+- [Python と Ruby と typing - methaneのブログ](http://methane.hatenablog.jp/entry/ruby-python-go-typing) : [interface] を使った汎化・特化の関係は duck typing ではなく「構造的部分型（structural subtyping）」と言うのが正しいらしい
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 

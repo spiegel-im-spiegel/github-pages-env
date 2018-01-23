@@ -1,6 +1,7 @@
 +++
 title = "Go 1.9 と Type Alias"
 date =  "2017-09-14T10:01:49+09:00"
+update = "2018-01-23T16:07:00+09:00"
 description = "なんで type alias なんて妙ちきりんな言語仕様が追加されたかというと，実はこれ，リファクタリングの為に設けられたのである。"
 tags        = [ "programming", "language", "golang", "type", "refactoring" ]
 
@@ -17,6 +18,10 @@ tags        = [ "programming", "language", "golang", "type", "refactoring" ]
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
   flattr    = "spiegel"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 遅ればせながらの記事で申し訳ないが Go 1.9 がリリースされた。
@@ -122,7 +127,7 @@ The type alias design document and an article on refactoring cover the problem i
 {{< /fig-quote >}}
 
 もともと [Go 言語]はリファクタリングを厚遇する言語と言える。
-たとえば [duck typing] などはその最たる例だろう。
+たとえば「構造的部分型（structural subtyping）」などはその最たる例だろう。
 
 - [きみは Generics がとくいなフレンズなんだね，または「制約は構造を生む」]({{< relref "remark/2017/03/generics-vs-duck-typing.md" >}})
 
@@ -137,7 +142,6 @@ The type alias design document and an article on refactoring cover the problem i
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [type]: https://golang.org/ref/spec#Properties_of_types_and_values "Properties of types and values"
 [リリースノート]: https://golang.org/doc/go1.9 "Go 1.9 Release Notes - The Go Programming Language"
-[duck typing]: https://en.wikipedia.org/wiki/Duck_typing "Duck typing - Wikipedia"
 
 ## 参考図書
 
