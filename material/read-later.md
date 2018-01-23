@@ -45,12 +45,18 @@
 - [これから開発されるFirefoxの新規機能は、HTTPSにしか対応しない。新規のCSSプロパティなども対象 － Publickey](http://www.publickey1.jp/blog/18/firefoxhttpscss.html)
 - [「Microsoft Office」の脆弱性を悪用するマルウェアが拡散中 - ZDNet Japan](https://japan.zdnet.com/article/35113478/)
 
+- [Skygofree: New Government Malware for Android - Schneier on Security](https://www.schneier.com/blog/archives/2018/01/skygofree_new_g.html)
+
 ## 天文関連
 
+- [1月1日あれこれ - 国立天文台暦計算室](http://eco.mtk.nao.ac.jp/koyomi/topics/html/topics1994.html)
 
 ## 知財関連
 
 - [CC理事だったジェームズ・ボイルがグラフィックノベルで解き明かす音楽の2000年の歴史 - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20180122/historyofmusic)
+
+- [日本では知られていない海賊版の新潮流 – P2Pとかその辺のお話R](http://p2ptk.org/copyright/715)
+- [際限なき著作権保護期間延長は終わりを迎えたのか？ – P2Pとかその辺のお話R](http://p2ptk.org/copyright/735)
 
 ## その他
 

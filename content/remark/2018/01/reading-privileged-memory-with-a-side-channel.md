@@ -147,7 +147,6 @@ CVSS については[解説ページ]({{< relref "remark/2015/cvss-v3-metrics-in
 
 - [CPUの脆弱性パッチがLinuxマシンの性能に与える影響--レッドハットが検証 - ZDNet Japan](https://japan.zdnet.com/article/35113008/)
 - [IBM、脆弱性「Meltdown/Spectre」への対策を「POWER」CPU向けに公開 - ZDNet Japan](https://japan.zdnet.com/article/35112986/)
-
 - [AMD、RyzenとEPYCのSpectre対策を今週中に提供へ　GPUには影響なし - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1801/12/news071.html)
 - [AMD、CPU脆弱性に関する新しい声明を発表 ～配信停止中のWindowsパッチは来週再開か - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1100903.html)
 - [AWSもSpectreとMeltdownの対策完了を報告。対策後、Amazon EC2で性能の低下は見られないと － Publickey](http://www.publickey1.jp/blog/18/awsspectremeltdownamazon_ec2.html)
@@ -155,3 +154,6 @@ CVSS については[解説ページ]({{< relref "remark/2015/cvss-v3-metrics-in
 - [LinuxコアメンバーによるMeltdownとSpectre 対応状況の説明 （1/19更新） - Qiita](https://qiita.com/hogemax/items/008f19fd14eebca474d7)
 - [「Spectre」のような脆弱性は「おそらくほかにも」--ArmのCEOが警告 - ZDNet Japan](https://japan.zdnet.com/article/35113201/)
 - [Windows 10ミニTips(247) CPUの脆弱性「Meltdown」「Spectre」に関する状態を確認する | マイナビニュース](https://news.mynavi.jp/article/win10tips-247/)
+- [「Vivaldi」にCPU脆弱性“Spectre”緩和策を施したマイナーアップデートが提供される - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1102534.html)
+- [CPU脆弱性への暫定的な緩和策を加えた「Opera」のセキュリティアップデートが公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1102503.html)
+- [トーバルズ氏、インテルの「Meltdown/Spectre」への対応を批判 - ZDNet Japan](https://japan.zdnet.com/article/35113527/)
