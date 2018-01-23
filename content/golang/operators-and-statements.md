@@ -2,7 +2,7 @@
 description = "今回は「つまみ食い」的に演算子（operator）とステートメント（statement）について解説する。"
 draft = false
 date = "2017-02-20T21:07:33+09:00"
-update = "2017-02-21T11:44:15+09:00"
+update = "2018-01-23T20:13:49+09:00"
 title = "演算子とステートメント"
 tags = ["golang", "programming", "language"]
 
@@ -329,6 +329,7 @@ ch2 <- <-ch1
 ## ブックマーク
 
 - [web制作者にもわかる、Swift 3が++と--を削除した理由 - Qiita](http://qiita.com/tonkotsuboy_com/items/0adc5dac54e690fcf706) : Swift 3 では `++`, `--` 演算子を仕様から削除したらしい
+- [else ifにも代入文が書ける #golang - Qiita](https://qiita.com/tenntenn/items/791bb47f4cee178b52c3) : if ステートメントに関する話
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [言語仕様]: https://golang.org/ref/spec "The Go Programming Language Specification - The Go Programming Language"

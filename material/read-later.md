@@ -36,6 +36,7 @@
 
 ## Age of Trump
 
+- [揺らぐリベラル国際秩序を支える「2人の指導者」とは？：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43242)
 
 ## セキュリティ関連
 
@@ -44,7 +45,7 @@
 - [コンピュータセキュリティと様々なサイドチャネル攻撃｜Rui Ueyama｜note](https://note.mu/ruiu/n/nb13737bb27dd)
 - [これから開発されるFirefoxの新規機能は、HTTPSにしか対応しない。新規のCSSプロパティなども対象 － Publickey](http://www.publickey1.jp/blog/18/firefoxhttpscss.html)
 - [「Microsoft Office」の脆弱性を悪用するマルウェアが拡散中 - ZDNet Japan](https://japan.zdnet.com/article/35113478/)
-
+- [Dark Caracal: Global Espionage Malware from Lebanon - Schneier on Security](https://www.schneier.com/blog/archives/2018/01/dark_caracal_gl.html)
 - [Skygofree: New Government Malware for Android - Schneier on Security](https://www.schneier.com/blog/archives/2018/01/skygofree_new_g.html)
 
 ## 天文関連
@@ -54,12 +55,18 @@
 ## 知財関連
 
 - [CC理事だったジェームズ・ボイルがグラフィックノベルで解き明かす音楽の2000年の歴史 - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20180122/historyofmusic)
-
+- [行方が気になるミッキーマウス、トム＆ジェリー商標登録出願(栗原潔) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/kuriharakiyoshi/20180122-00079227/)
 - [日本では知られていない海賊版の新潮流 – P2Pとかその辺のお話R](http://p2ptk.org/copyright/715)
 - [際限なき著作権保護期間延長は終わりを迎えたのか？ – P2Pとかその辺のお話R](http://p2ptk.org/copyright/735)
 
 ## その他
 
 - [韓国、全ての仮想通貨取引所の閉鎖を検討 - CNET Japan](https://japan.cnet.com/article/35113402/)
+- [図書カード：人生は擬似体験ゲーム](http://www.aozora.gr.jp/cards/001955/card58807.html) : [cc-by](https://creativecommons.org/licenses/by/2.1/jp/) で公開
+- [サイエンスクリップ・「大槌町から世界へ発信 日本最長老級の二枚貝「ビノスガイ」の成長線から見えたもの」 | SciencePortal](http://scienceportal.jst.go.jp/clip/20180119_01.html)
+- [2018年1月23日ニュース「肩甲骨の位置から恐竜の正しい姿勢が推定できた」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/01/20180123_01.html)
+- [2018年1月22日ニュース「南海トラフ地震の発生帯の観測を強化 新たな掘削孔内観測システムを設置へ」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/01/20180122_01.html)
+- [2018年1月19日ニュース「昨年の世界平均気温は過去2番目に高温 気候変動の継続は明らかとWMO」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/01/20180119_01.html)
+- [Facebook、新しい時間単位「フリック」を発表 - CNET Japan](https://japan.cnet.com/article/35113535/)
 
 (end of file)
