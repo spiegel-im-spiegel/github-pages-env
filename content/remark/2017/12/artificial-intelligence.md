@@ -1,6 +1,7 @@
 +++
 title = "本当に「良心」を無意味化する時代がやってくる？"
 date =  "2017-12-14T18:29:03+09:00"
+update = "2018-01-24T20:38:41+09:00"
 description = "万引きが心配なら客が手に取った商品を機械が読み取って勝手に精算してしまえばいい。店員がレジの金をちょろまかすなら，そもそもレジなんか置かなきゃいいのだ。"
 image = "/images/attention/remark.jpg"
 tags = ["artificial-intelligence", "engineering", "code"]
@@ -60,6 +61,10 @@ tags = ["artificial-intelligence", "engineering", "code"]
 
 無人コンビニは「人の良心を無意味化する社会」を象徴するものになるかもしれない。
 良心やマナーや規則・罰則に頼らずとも人を統制できるのなら，道徳教育なんて要らなくなるかもね♥
+
+## ブックマーク
+
+- [Amazonの、監視カメラだらけのレジ無しコンビニエンスストアにて  |  TechCrunch Japan](http://jp.techcrunch.com/2018/01/23/2018-01-21-inside-amazons-surveillance-powered-no-checkout-convenience-store/)
 
 ## 参考図書{#reference}
 

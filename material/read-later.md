@@ -37,6 +37,7 @@
 ## Age of Trump
 
 - [揺らぐリベラル国際秩序を支える「2人の指導者」とは？：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43242)
+- [エルサレム問題は何が「問題」なのか：池内恵 | 中東の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43091)
 
 ## セキュリティ関連
 
@@ -47,10 +48,21 @@
 - [「Microsoft Office」の脆弱性を悪用するマルウェアが拡散中 - ZDNet Japan](https://japan.zdnet.com/article/35113478/)
 - [Dark Caracal: Global Espionage Malware from Lebanon - Schneier on Security](https://www.schneier.com/blog/archives/2018/01/dark_caracal_gl.html)
 - [Skygofree: New Government Malware for Android - Schneier on Security](https://www.schneier.com/blog/archives/2018/01/skygofree_new_g.html)
+- [About the security content of iTunes 12.7.3 for Windows - Apple サポート](https://support.apple.com/ja-jp/HT208474)
+- [About the security content of iCloud for Windows 7.3 - Apple サポート](https://support.apple.com/ja-jp/HT208473)
+- [About the security content of Safari 11.0.3 - Apple サポート](https://support.apple.com/ja-jp/HT208475)
+- [About the security content of watchOS 4.2.2 - Apple サポート](https://support.apple.com/ja-jp/HT208464)
+- [About the security content of iOS 11.2.5 - Apple サポート](https://support.apple.com/ja-jp/HT208463)
+- [About the security content of tvOS 11.2.5 - Apple サポート](https://support.apple.com/ja-jp/HT208462)
+- [New botnet infects cryptocurrency mining computers, replaces wallet address | Ars Technica](https://arstechnica.com/information-technology/2018/01/in-the-wild-malware-preys-on-computers-dedicated-to-mining-cryptocurrency/)
+    - [New Malware Hijacks Cryptocurrency Mining - Schneier on Security](https://www.schneier.com/blog/archives/2018/01/new_malware_hij.html)
+- [「Tor Browser」v7.5が公開 ～「Tor」ネットワークへの接続画面がリニューアル - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1102663.html)
 
 ## 天文関連
 
 - [1月1日あれこれ - 国立天文台暦計算室](http://eco.mtk.nao.ac.jp/koyomi/topics/html/topics1994.html)
+- [An Important Update From Google Lunar XPRIZE | Google Lunar XPRIZE](https://lunar.xprize.org/news/blog/important-update-google-lunar-xprize)
+    - [月探査レース「Google Lunar XPRIZE」勝者なしで終了へ　日本のHAKUTOも参加 | sorae：宇宙（そら）へのポータルサイト](http://sorae.info/030201/2018_01_24_glxp.html)
 
 ## 知財関連
 
@@ -58,6 +70,8 @@
 - [行方が気になるミッキーマウス、トム＆ジェリー商標登録出願(栗原潔) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/kuriharakiyoshi/20180122-00079227/)
 - [日本では知られていない海賊版の新潮流 – P2Pとかその辺のお話R](http://p2ptk.org/copyright/715)
 - [際限なき著作権保護期間延長は終わりを迎えたのか？ – P2Pとかその辺のお話R](http://p2ptk.org/copyright/735)
+- [The Cyberlaw Guide to Protest Art: Roadmap – Berkman Klein Center Collection – Medium](https://medium.com/berkman-klein-center/the-cyberlaw-guide-to-protest-art-roadmap-c79b8ab4f61b)
+- [DRMがイノベーションを妨げている – P2Pとかその辺のお話R](http://p2ptk.org/copyright/737)
 
 ## その他
 
@@ -68,5 +82,11 @@
 - [2018年1月22日ニュース「南海トラフ地震の発生帯の観測を強化 新たな掘削孔内観測システムを設置へ」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/01/20180122_01.html)
 - [2018年1月19日ニュース「昨年の世界平均気温は過去2番目に高温 気候変動の継続は明らかとWMO」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/01/20180119_01.html)
 - [Facebook、新しい時間単位「フリック」を発表 - CNET Japan](https://japan.cnet.com/article/35113535/)
+- [セガ、スマホゲーム新作「D×2 真・女神転生リベレーション」の配信を開始 - CNET Japan](https://japan.cnet.com/article/35113512/)
+- [Firefox 58では、WebAssembly実行がさらに高速化。飛んでくるパケットごとにコンパイル、実行中に裏でコードを最適化して動的に入れ替え － Publickey](http://www.publickey1.jp/blog/18/firefox_58webassembly_1.html)
+- [「MeToo」VS.「ドヌーブ」があぶりだした米仏の「深い乖離」：西川恵 | 記事 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43248)
+- [GitHub の隠し URL を使って手軽にアバター画像や公開鍵を取得する - Qiita](https://qiita.com/potato4d/items/4b61d7decc0aac59e245)
+- [原子時計のスマートフォンなどへの搭載に道。小型化と低消費電力化の技術開発に成功、NICTが発表 － Publickey](http://www.publickey1.jp/blog/18/nict.html)
+    - [NICT、原子時計をスマホに搭載できるレベルまで小型化  - PC Watch](https://pc.watch.impress.co.jp/docs/news/1102621.html)
 
 (end of file)

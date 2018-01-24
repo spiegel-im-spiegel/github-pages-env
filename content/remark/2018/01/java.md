@@ -1,6 +1,7 @@
 +++
 title = "Java に関するブックマーク"
 date =  "2018-01-22T20:21:30+09:00"
+update = "2018-01-24T20:38:41+09:00"
 description = "訳あって Java に関するブックマークを淡々と記述するページを作ってみた。"
 image = "/images/attention/remark.jpg"
 tags = [ "java", "engineering", "programming", "bookmark" ]
@@ -35,6 +36,10 @@ Java の話はマジで仕事に絡むので（秘守義務に抵触しないよ
 - [Maven2使い方メモ２（Tomcat で JAX-RS） - Qiita](https://qiita.com/opengl-8080/items/f36c570032e1a7555ed2)
 - [EclipseでのMavenプロジェクトの作成、jarファイルの作り方 - k's diary](http://stronger.hatenablog.com/entry/2016/11/19/003404)
 - [Eclipse + Maven + Tomcat の開発環境を快速に!? - Qiita](https://qiita.com/kuh96/items/a6a35f0cd0dd8ed82008)
+- [Java8での文字列連結 - Qiita](https://qiita.com/lonerydeveloper/items/9f7c977c039ad4d24d30)
+- [Java8時代の文字列連結まとめ - きしだのはてな](http://d.hatena.ne.jp/nowokay/20140409)
+- [[Java] Stringの結合について - Qiita](https://qiita.com/yoshi389111/items/67354ba33f9271ef2c68)
+- [JavaBeansの使われ方がどうも納得いかないって話 | たそがれブランチ](http://brbranch.jp/blog/201510/java/javabeans/)
 
 ## 参考図書
 

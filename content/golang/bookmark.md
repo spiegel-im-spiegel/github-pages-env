@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-01-22T19:54:39+09:00"
+update = "2018-01-24T20:38:41+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -234,6 +234,7 @@ title = "Go 言語に関するブックマーク"
 - [go1.9から追加されたsync.Mapを使う - Qiita](https://qiita.com/meta_closure/items/dd228e49aef8b67e872e)
 - [Go1.9から追加されたsync.Mapのパフォーマンス – Straightforward](https://tanksuzuki.com/entries/golang-syncmap/)
 - [Big Sky :: 簡単に goroutine の実行個数を制限する方法](https://mattn.kaoriya.net/software/lang/go/20171221111857.htm)
+- [Big Sky :: goroutine でドハマリした。](https://mattn.kaoriya.net/software/lang/go/20180124171404.htm)
 
 Go 言語で複数 CPU を使った並列処理を行うには明示的な設定が必要。
 
@@ -683,6 +684,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [GASCII.jp：Goならわかるシステムプログラミング](http://ascii.jp/elem/000/001/235/1235262/)
 - [O'Reilly Concurrency in Goの読書メモ - Qiita](https://qiita.com/YmgchiYt/items/420eaf2bcf7bee4ae152)
 - [Goでクリーンアーキテクチャを試す | プログラミング | POSTD](http://postd.cc/golang-clean-archithecture/)
+- [Golangの最新版をソースからビルドする - Qiita](https://qiita.com/tetsu_koba/items/bb3f2801373f64fbc661)
 
 ### 他言語との比較もしくは移行
 

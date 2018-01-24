@@ -1,7 +1,7 @@
 +++
 title = "「CPU に対するサイドチャネル攻撃」に関する覚え書き"
 date =  "2018-01-04T22:01:45+09:00"
-update = "2018-01-23T20:13:49+09:00"
+update = "2018-01-24T20:38:41+09:00"
 description = "投機的実行機能やアウトオブオーダー実行機能を持つ CPU に対してサイドチャネル攻撃を行う手法が報告されている。ただし影響度は低い。"
 image = "/images/attention/remark.jpg"
 tags = [
@@ -98,6 +98,7 @@ CVSS については[解説ページ]({{< relref "remark/2015/cvss-v3-metrics-in
     - [About the security content of iOS 11.2.2 - Apple サポート](https://support.apple.com/ja-jp/HT208401)
     - [About the security content of Safari 11.0.2 - Apple サポート](https://support.apple.com/ja-jp/HT208403)
     - [About the security content of macOS High Sierra 10.13.2 Supplemental Update - Apple サポート](https://support.apple.com/ja-jp/HT208397)
+    - [About the security content of macOS High Sierra 10.13.3, Security Update 2018-001 Sierra, and Security Update 2018-001 El Capitan - Apple サポート](https://support.apple.com/ja-jp/HT208465)
 - Google 製品については1月に各種対応版が出る
     - [Product Status Google’s Mitigations Against CPU Speculative Execution Attack Methods - Google Help](https://support.google.com/faqs/answer/7622138)
 - Mozilla Firefox 等のブラウザについても Spectre 対応（軽減）版が出ている
@@ -157,3 +158,4 @@ CVSS については[解説ページ]({{< relref "remark/2015/cvss-v3-metrics-in
 - [「Vivaldi」にCPU脆弱性“Spectre”緩和策を施したマイナーアップデートが提供される - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1102534.html)
 - [CPU脆弱性への暫定的な緩和策を加えた「Opera」のセキュリティアップデートが公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1102503.html)
 - [トーバルズ氏、インテルの「Meltdown/Spectre」への対応を批判 - ZDNet Japan](https://japan.zdnet.com/article/35113527/)
+- [AppleがSierraとEl Capitanが動いているMacのためにMeltdownのフィックスを発行  |  TechCrunch Japan](http://jp.techcrunch.com/2018/01/24/2018-01-23-apple-issues-meltdown-fix-for-macs-running-sierra-and-el-capitan/)
