@@ -4,9 +4,11 @@ tags = [
   "code",
   "internet",
   "creative-commons",
+  "generativity",
 ]
 draft = false
 date = "2016-12-16T21:14:37+09:00"
+update = "2018-01-26T17:36:37+09:00"
 title = "「インターネットと発酵」"
 
 [author]
@@ -118,4 +120,16 @@ Git/[GitHub](https://github.com/) が作り出すコミュニティでは「ま�
 <div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4845911744/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51pDWTdSdlL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4845911744/baldandersinf-22/">フリーカルチャーをつくるためのガイドブック  クリエイティブ・コモンズによる創造の循環</a></dt><dd>ドミニク・チェン </dd><dd>フィルムアート社 2012-05-25</dd><dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4757103581/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4757103581.09._SCTHUMBZZZ_.jpg"  alt="電脳のレリギオ:ビッグデータ社会で心をつくる"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4791767160/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4791767160.09._SCTHUMBZZZ_.jpg"  alt="インターネットを生命化する プロクロニズムの思想と実践"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4778314379/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4778314379.09._SCTHUMBZZZ_.jpg"  alt="暇と退屈の倫理学 増補新版 (homo Viator)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4761525649/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4761525649.09._SCTHUMBZZZ_.jpg"  alt="シェアをデザインする: 変わるコミュニティ、ビジネス、クリエイションの現場"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4757103506/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4757103506.09._SCTHUMBZZZ_.jpg"  alt="みんなのビッグデータ: リアリティ・マイニングから見える世界"  /></a> </p>
 <p class="description">国内における Free Culture の事例が豊富。取っ掛かりとしてはちょうどよい本。</p>
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-05-07">2015/05/07</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+</div>
+
+<div class="hreview" >
+	<a class="item url" href="https://tatsu-zine.com/books/infoshare"><img src="https://tatsu-zine.com/images/books/15/cover_s.jpg" alt="photo" class="photo"  /></a>
+	<dl>
+		<dt class="fn"><a class="item url" href="https://tatsu-zine.com/books/infoshare">情報共有の未来</a></dt>
+		<dd>yomoyomo</dd>
+		<dd>達人出版会 2011-12-30</dd>
+		<dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr></dd>
+	</dl>
+<p class="description">同名ブログの書籍化。感想は<a href="http://www.baldanders.info/spiegel/log2/000611.shtml">こちら</a>。</p>
+<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-12-14">2017-12-14</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
 </div>

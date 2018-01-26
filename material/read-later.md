@@ -68,7 +68,6 @@
 
 - [CC理事だったジェームズ・ボイルがグラフィックノベルで解き明かす音楽の2000年の歴史 - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20180122/historyofmusic)
 - [行方が気になるミッキーマウス、トム＆ジェリー商標登録出願(栗原潔) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/kuriharakiyoshi/20180122-00079227/)
-- [日本では知られていない海賊版の新潮流 – P2Pとかその辺のお話R](http://p2ptk.org/copyright/715)
 - [際限なき著作権保護期間延長は終わりを迎えたのか？ – P2Pとかその辺のお話R](http://p2ptk.org/copyright/735)
 - [The Cyberlaw Guide to Protest Art: Roadmap – Berkman Klein Center Collection – Medium](https://medium.com/berkman-klein-center/the-cyberlaw-guide-to-protest-art-roadmap-c79b8ab4f61b)
 - [DRMがイノベーションを妨げている – P2Pとかその辺のお話R](http://p2ptk.org/copyright/737)

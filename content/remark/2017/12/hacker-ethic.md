@@ -1,7 +1,7 @@
 +++
 title = "エンジニアこそ「狂狷の徒」たれ"
 date =  "2017-12-14T14:19:18+09:00"
-update = "2017-12-23T18:37:50+09:00"
+update = "2018-01-26T17:36:37+09:00"
 description = "2008年当時の自分の記事を読んで，あれから10年も経つのに「世の中ちっとも変わらない」気がする。それでも私たちエンジニアは，前だけではなく，上を向いて螺旋階段を登るべきだと思うのだ。"
 image = "/images/attention/remark.jpg"
 tags        = [ "code", "hacker-ethic" ]
@@ -116,10 +116,9 @@ yomoyomo さんの「[情報共有の未来](http://archive.wiredvision.co.jp/bl
 
 ## 参考図書
 
-- [情報共有の未来 - 達人出版会](https://tatsu-zine.com/books/infoshare) (EPUB, PDF 形式) : yomoyomo, 達人出版会, 2011-12-30, <img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /> : 同名ブログの書籍化。感想は[こちら](http://www.baldanders.info/spiegel/log2/000611.shtml "『情報共有の未来』を読む — Baldanders.info")
-
 <div class="hreview" >
-	<dl >
+	<a class="item url" href="https://tatsu-zine.com/books/infoshare"><img src="https://tatsu-zine.com/images/books/15/cover_s.jpg" alt="photo" class="photo"  /></a>
+	<dl>
 		<dt class="fn"><a class="item url" href="https://tatsu-zine.com/books/infoshare">情報共有の未来</a></dt>
 		<dd>yomoyomo</dd>
 		<dd>達人出版会 2011-12-30</dd>
