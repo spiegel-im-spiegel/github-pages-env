@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-01-24T20:38:41+09:00"
+update =  "2018-01-27T13:05:38+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -256,6 +256,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [golangの高速な構造化ログライブラリ「zap」の使い方 - Qiita](http://qiita.com/emonuh/items/28dbee9bf2fe51d28153)
 - [zapでログレベルでログの出力先を振り分ける方法 - Qiita](http://qiita.com/emonuh/items/cb3a730979dba7d76920)
 - [go-logging における "module" の意味 - Qiita](https://qiita.com/shinsa82/items/c05a0e8544ecdb87c442)
+- [Golangでlogのタイムスタンプをマイクロ秒単位にする方法 - Qiita](https://qiita.com/tetsu_koba/items/8401f99a39c9757fcff1)
 
 ### エラーハンドリング
 

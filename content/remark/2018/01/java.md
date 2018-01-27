@@ -1,7 +1,7 @@
 +++
 title = "Java に関するブックマーク"
 date =  "2018-01-22T20:21:30+09:00"
-update = "2018-01-24T20:38:41+09:00"
+update =  "2018-01-27T13:05:38+09:00"
 description = "訳あって Java に関するブックマークを淡々と記述するページを作ってみた。"
 image = "/images/attention/remark.jpg"
 tags = [ "java", "engineering", "programming", "bookmark" ]
@@ -34,6 +34,8 @@ Java の話はマジで仕事に絡むので（秘守義務に抵触しないよ
 
 [Maven]: https://maven.apache.org/ "Maven – Welcome to Apache Maven"
 
+- [Eclipse+Maven という便利な開発環境をインストールからプロジェクト作成まで - Qiita](https://qiita.com/daikuro/items/4d4d694ddb3cc620bee1)
+- [Mavenで簡単ライブラリ導入！ - Qiita](https://qiita.com/futo_creid/items/cfe730a4c35dd5f2be75)
 - [EclipseでのMavenプロジェクトの作成、jarファイルの作り方 - k's diary](http://stronger.hatenablog.com/entry/2016/11/19/003404)
 - [Eclipse + Maven + Tomcat の開発環境を快速に!? - Qiita](https://qiita.com/kuh96/items/a6a35f0cd0dd8ed82008)
 - [Mavenリポジトリにないライブラリをpom.xmlで指定する方法 - システム開発メモ](http://progmemo.wp.xdomain.jp/archives/1094)

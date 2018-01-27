@@ -1,7 +1,7 @@
 +++
 title = "Glide から Dep への移行を検討する"
 date =  "2017-10-10T18:02:56+09:00"
-update =  "2017-10-31T14:31:04+09:00"
+update =  "2018-01-27T13:05:38+09:00"
 description = "つまり「依存関係（Vendoring）管理ツールとしては dep を推奨するけど移行できない人のために当面はサポートを続けるよ（でも将来は分からん）」という解釈でいいのだろうか。"
 tags = ["golang", "engineering", "package", "vendoring", "tools", "glide", "dep", "testing"]
 
@@ -610,6 +610,8 @@ github.com/spiegel-im-spiegel/pi/vendor/github.com/spiegel-im-spiegel/gocli
 
 - [Goオフィシャルチーム作成の依存関係管理ツール dep を試してみた ｜ Developers.IO](https://dev.classmethod.jp/go/dep/)
 - [Big Sky :: golang オフィシャル謹製のパッケージ依存解決ツール「dep」](https://mattn.kaoriya.net/software/lang/go/20170125023240.htm)
+- [[go]depでブランチ指定 - Qiita](https://qiita.com/noppefoxwolf/items/49bd460034a5c84e1956)
+    - [Models and Mechanisms · dep](https://golang.github.io/dep/docs/ensure-mechanics.html)
 
 - [GOPATH 汚染問題]({{< relref "golang/gopath-pollution.md" >}})
 - [パッケージの依存状況の視覚化]({{< relref "golang/package-visualization-tool.md" >}})
