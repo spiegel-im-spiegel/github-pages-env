@@ -1,7 +1,7 @@
 +++
 title = "漫画は衰退しました"
 date =  "2018-01-27T12:34:17+09:00"
-description = "description"
+description = "まぁ隆盛を極めたジャンルが衰退するのを目の当たりにできるというのは滅多にない経験かもしれないが（笑）"
 image = "/images/attention/remark.jpg"
 tags        = [ "book", "comic", "media", "generativity" ]
 
