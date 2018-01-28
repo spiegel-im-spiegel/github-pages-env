@@ -618,7 +618,7 @@ github.com/spiegel-im-spiegel/pi/vendor/github.com/spiegel-im-spiegel/gocli
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [glide]: https://github.com/Masterminds/glide "Masterminds/glide"
-[dep]: https://github.com/golang/dep "golang/dep: Go dependency management tool"
+[dep]: https://golang.github.io/dep/ "dep · Dependency management for Go"
 [`Gopkg.toml`]: https://github.com/golang/dep/blob/master/docs/Gopkg.toml.md "dep/Gopkg.toml.md at master · golang/dep"
 [7-Zip]: http://www.7-zip.org/
 [`Get-FileHash`]: http://technet.microsoft.com/en-us/library/dn520872.aspx
