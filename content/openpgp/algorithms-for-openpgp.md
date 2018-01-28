@@ -1,7 +1,7 @@
 +++
 title = "OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）"
 date =  "2017-12-01T17:47:50+09:00"
-update =  "2017-12-03T15:12:36+09:00"
+update =  "2018-01-28T18:00:19+09:00"
 description = "RFC 4880bis は，名前の通り，ドラフト段階なので今後変わる可能性がある。正式な RFC 番号が振られた段階でこの記事の最終稿とする予定である。"
 image = "/images/attention/openpgp.png"
 tags = [
@@ -40,25 +40,23 @@ tags = [
 
 [OpenPGP] で利用可能な共通鍵暗号は以下の通り。
 なお「鍵長」項目の括弧内はブロック長を指す。
-いずれも単位は “bit”。
+いずれも単位は “bit” である。
 
 {{< div-gen >}}
 <figure lang="en">
-<style>
-main table.openpgp-sym td  {
-  vertical-align:middle;
-}
-</style>
-<table class="openpgp-sym">
+<table>
 <thead>
 <tr><th>ID</th><th>アルゴリズム</th><th>鍵長</th><th>参考文献</th></tr>
 </thead>
 <tbody>
 <tr>
+<td class='right'>0</td>
+<td class="nowrap" colspan="3">Plaintext or unencrypted data</td>
+</tr><tr>
 <td class='right'>1</td>
 <td class="nowrap">IDEA</td>
 <td class='right nowrap'>128 (64)</td>
-<td>&nbsp;</td>
+<td><a href="https://link.springer.com/chapter/10.1007%2F978-3-642-29011-4_24">Narrow-Bicliques: Cryptanalysis of Full IDEA</a></td>
 </tr><tr>
 <td class='right'>2</td>
 <td class="nowrap">TripleDES</td>
@@ -75,15 +73,8 @@ main table.openpgp-sym td  {
 <td class='right nowrap'>128 (64)</td>
 <td><q><a href="http://www.schneier.com/paper-blowfish-fse.html">Description of a New Variable-Length Key, 64-Bit Block Cipher (Blowfish)</a></q></td>
 </tr><tr>
-<td class='right'>5</td>
-<td class="nowrap">(Reserved)</td>
-<td class='right nowrap'>--</td>
-<td>&nbsp;</td>
-</tr><tr>
-<td class='right'>6</td>
-<td class="nowrap">(Reserved)</td>
-<td class='right nowrap'>--</td>
-<td>&nbsp;</td>
+<td class='right'>5,6</td>
+<td colspan="3">(Reserved)</td>
 </tr><tr>
 <td class='right'>7</td>
 <td class="nowrap">AES with 128-bit key</td>
@@ -115,6 +106,9 @@ main table.openpgp-sym td  {
 <td class='right'>13</td>
 <td class="nowrap">Camellia with 256-bit key</td>
 <td class='right nowrap'>256 (128)</td>
+</tr><tr>
+<td class='right'>100-110</td>
+<td colspan="3">Private/Experimental algorithm</td>
 </tr>
 </tbody>
 </table>
@@ -124,10 +118,48 @@ main table.openpgp-sym td  {
 
 ID は [OpenPGP] で定義されるもので ”sym 1” のように表記する。
 
-- sym 2 の TripleDES は "MUST implement” である。また sym 3 の CAST5 と sym 7 の AES-128 は "SHOULD implement” である（AES は MUST でいいと思うんだけどなぁ）
-- 古い PGP（2.6 以前）の暗号データを復号するためには sym 1 の IDEA が必要となる
+- [RFC 4880bis] では AES-128 (sym 7) が "MUST implement” で AES-256 (sym 9) が "SHOULD implement” となる
+- 現行の [RFC 4880] では TripleDES (sym 2) が "MUST implement” で CAST5 (sym 3) および AES-128 が "SHOULD implement” であるため，今後も [RFC 4880] に対応するならこれらのアルゴリズムを実装する必要がある
+- 旧 PGP（2.6 およびそれ以前）の暗号鍵および暗号データを利用するのであれば IDEA (sym 1) が必要
 
 ちなみに sym 11 から sym 13 の [Camellia 暗号は日本製](http://www.baldanders.info/spiegel/log2/000451.shtml "The Camellia Cipher in OpenPGP — Baldanders.info")である。
+
+[OpenPGP] では共通鍵暗号を使った暗号化に CFB mode[^cfb1] を使用する。
+なお，認証付き暗号の暗号モードについては以下の通り。
+
+[^cfb1]: 厳密には CFB mode の変形である。
+
+### 認証付き暗号の暗号モード（AEAD Algorithms）
+
+[RFC 4880bis] で追加される認証付き暗号（Authenticated Encryption with Associated Data; AEAD）について [OpenPGP] で利用可能な暗号モードは以下の通り。
+
+{{< div-gen >}}
+<figure>
+<table>
+<thead>
+<tr><th>ID</th><th>暗号モード</th><th>参考文献</th></tr>
+</thead>
+<tbody>
+<tr>
+<td class='right'>1</td>
+<td class="nowrap">EAX</td>
+<td><a href="https://eprint.iacr.org/2003/069">EAX: A Conventional Authenticated-Encryption Mode</a></td>
+</tr><tr>
+<td class='right'>2</td>
+<td class="nowrap">OCB</td>
+<td><a href="https://tools.ietf.org/html/rfc7253">RFC7253</a></td>
+</tr><tr>
+<td class='right'>100-110</td>
+<td colspan="2">Private/Experimental algorithm</td>
+</tr>
+</tbody>
+</table>
+<figcaption>OpenPGP で使用可能な認証付き暗号アルゴリズム一覧</figcaption>
+</figure>
+{{< /div-gen >}}
+
+- [RFC 4880bis] では EAX mode が "MUST implement” となる
+- OCB mode は特許問題が絡むため [RFC 4880bis] での取り扱いについて議論がある
 
 ## 公開鍵暗号アルゴリズム（Public-Key Encryption Algorithms）
 
@@ -135,12 +167,8 @@ ID は [OpenPGP] で定義されるもので ”sym 1” のように表記す�
 
 {{< div-gen >}}
 <figure lang="en">
-<style>
-main table.openpgp-pub td  {
-  vertical-align:middle;
-}
 </style>
-<table class="openpgp-pub">
+<table>
 <thead>
 <tr><th>ID</th><th>アルゴリズム</th><th>参考文献</th></tr>
 </thead>
@@ -156,6 +184,9 @@ main table.openpgp-pub td  {
 <td class='right'>3</td>
 <td class="nowrap">RSA Sign-Only</td>
 </tr><tr>
+<td class='right'>4-15</td>
+<td colspan="2">(Reserved)</td>
+</tr><tr>
 <td class='right'>16</td>
 <td class="nowrap">Elgamal<br>(Encrypt-Only)</td>
 <td><q><a href="http://crypto.csail.mit.edu/classes/6.857/papers/elgamal.pdf">A public key cryptosystem and a signature scheme based on discrete logarithms <sup><i class='far fa-file-pdf'></i></sup></a></q></td>
@@ -166,22 +197,30 @@ main table.openpgp-pub td  {
 </tr><tr>
 <td class='right'>18</td>
 <td class="nowrap">ECDH public key algorithm</td>
-<td><a href="http://doi.org/10.6028/NIST.SP.800-56Ar2">SP800-56A Revision 2 <sup><i class='far fa-file-pdf'></i></sup></a>, <a href="https://tools.ietf.org/html/rfc6637">RFC6637</a></td>
+<td><a href="http://doi.org/10.6028/NIST.SP.800-56Ar2">SP800-56A Revision 2 <sup><i class='far fa-file-pdf'></i></sup></a>, <a href="https://tools.ietf.org/html/rfc6090">RFC6090</a>, <a href="https://tools.ietf.org/html/rfc6637">RFC6637</a></td>
 </tr><tr>
 <td class='right'>19</td>
 <td class="nowrap">ECDSA public key algorithm</td>
 <td><a href="http://doi.org/10.6028/NIST.FIPS.186-4">FIPS PUB 186-4 <sup><i class='far fa-file-pdf'></i></sup></a>, <a href="https://tools.ietf.org/html/rfc6090">RFC6090</a>, <a href="https://tools.ietf.org/html/rfc6637">RFC6637</a></td>
 </tr><tr>
 <td class='right'>20</td>
-<td class="nowrap">(Reserved)</td>
-<td>(formerly Elgamal Encrypt or Sign)</td>
+<td colspan="2">(Reserved; formerly Elgamal Encrypt or Sign)</td>
 </tr><tr>
 <td class='right'>21</td>
-<td class="nowrap" colspan="2">(Reserved for Diffie-Hellman)</td>
+<td colspan="2">(Reserved for Diffie-Hellman)</td>
 </tr><tr>
 <td class='right'>22</td>
 <td class="nowrap">EdDSA</td>
 <td><a href="http://link.springer.com/article/10.1007%2Fs13389-012-0027-1">High-speed high-security signatures</a>, <a href="https://tools.ietf.org/html/rfc8032">RFC8032</a></td>
+</tr><tr>
+<td class='right'>23</td>
+<td colspan="2">(Reserved for AEDH)</td>
+</tr><tr>
+<td class='right'>24</td>
+<td colspan="2">(Reserved for AEDSA)</td>
+</tr><tr>
+<td class='right'>100-110</td>
+<td colspan="2">Private/Experimental algorithm</td>
 </tr>
 </tbody>
 </table>
@@ -191,12 +230,66 @@ main table.openpgp-pub td  {
 
 ID は [OpenPGP] で定義されるもので ”pub 1” のように表記する。
 
-- pub 2 の RSA Encrypt-Only および pub 3 の RSA Sign-Only は deprecated なので，これらの鍵は新たに作成するべきではない（SHOULD NOT be generated）
-- 表には書いてないが pub 4 から pub 15 は予約済み（Reserved）である
-- [RFC 4880bis] では pub 16 の ElGamal, pub 17 の DSA, pub 18 の ECDH, pub 19 の ECDSA が "MUST implement” となる（現行の [RFC 4880] では ElGamal と DSA が "MUST implement”）
-- pub 20 の ElGamal は，元々暗号化と署名の両方できるものだったが，脆弱性が見つかったため [OpenPGP] では使用禁止になった
-- pub 22 の EdDSA は2017年1月に [RFC 8032] として正式に RFC 化された。ただし [OpenPGP] ではまだドラフト段階である
--  pub 18 の ECDH, pub 19 の ECDSA, pub 22 の EdDSA で利用可能な楕円曲線については「[そろそろ GnuPG でも ECC を標準で使うのがいいんじゃないかな]({{< relref "openpgp/using-ecc-with-gnupg.md" >}})」で紹介している
+- [RFC 4880bis] では電子署名用に RSA (pub 1) と ECDSA (pub 19)，暗号化用に RSA (pub 1) と ECDH (pub 18) が "MUST implement” となる
+    - [RFC 4880bis] で追加された EdDSA (pub 22) は "SHOULD implement” となる。ちなみに EdDSA は2017年1月に [RFC 8032] として正式に RFC 化された
+- 現行 [RFC 4880] では ElGamal (pub 16) と DSA (pub 17) が "MUST implement” であるため，今後も [RFC 4880] に対応するならこれらのアルゴリズムを実装する必要がある
+- RSA Encrypt-Only (pub 2) および RSA Sign-Only (pub 3) は deprecated なので，これらの鍵は新たに作成するべきではない（SHOULD NOT be generated）
+- ElGamal (pub 20) は，元々暗号化と署名の両方できるものだったが，脆弱性が見つかったため [OpenPGP] では使用禁止になった
+- pub 23 および pub 24 は AEAD 用に ID のみ予約されている
+
+### 楕円曲線
+
+[RFC 6637] および [RFC 4880bis] で追加される楕円曲線暗号（Elliptic Curve Cryptography; ECC）について [OpenPGP] で利用可能な楕円曲線（Elliptic Curve）は以下の通り。
+なお「鍵長」の単位は “bit” である。
+
+{{< div-gen >}}
+<figure>
+<table>
+<thead>
+<tr><th>楕円曲線名</th><th>適用アルゴリズム</th><th>鍵長</th><th>参考文献</th></tr>
+</thead>
+<tbody>
+<tr>
+<td class='nowrap'>NIST P-256</td>
+<td>ECDSA, ECDH</td>
+<td class='right'>256</td>
+<td rowspan="3"><a href="http://doi.org/10.6028/NIST.SP.800-56Ar2">SP800-56A Revision 2 <sup><i class='far fa-file-pdf'></i></sup></a>, <a href="http://doi.org/10.6028/NIST.FIPS.186-4">FIPS PUB 186-4 <sup><i class='far fa-file-pdf'></i></sup></a>, <a href="https://tools.ietf.org/html/rfc6637">RFC6637</a></td>
+</tr><tr>
+<td class='nowrap'>NIST P-384</td>
+<td>ECDSA, ECDH</td>
+<td class='right'>384</td>
+</tr><tr>
+<td class='nowrap'>NIST P-521</td>
+<td>ECDSA, ECDH</td>
+<td class='right'>521</td>
+</tr><tr>
+<td class='nowrap'>brainpoolP256r1</td>
+<td>ECDSA, ECDH</td>
+<td class='right'>256</td>
+<td rowspan="2"><a href="http://www.ecc-brainpool.org/">ECC-Brainpool</a>, <a href="https://tools.ietf.org/html/rfc5639">RFC5639</a></td>
+</tr><tr>
+<td class='nowrap'>brainpoolP512r1</td>
+<td>ECDSA, ECDH</td>
+<td class='right'>512</td>
+</tr><tr>
+<td class='nowrap'>Ed25519</td>
+<td>EdDSA</td>
+<td class='right'>256</td>
+<td><a href="https://link.springer.com/chapter/10.1007/978-3-642-23951-9_9">High-Speed High-Security Signatures</a>, <a href="https://tools.ietf.org/html/rfc7748">RFC7748</a>, <a href="https://tools.ietf.org/html/rfc8032">RFC8032</a></td>
+</tr><tr>
+<td class='nowrap'>Curve25519</td>
+<td>ECDH</td>
+<td class='right'>256</td>
+<td><a href="https://www.iacr.org/cryptodb/archive/2006/PKC/3351/3351.pdf">Curve25519: new Diffie-Hellman speed records<sup><i class='far fa-file-pdf'></i></sup></a>, <a href="https://tools.ietf.org/html/rfc7748">RFC7748</a></td>
+</tr>
+</tbody>
+</table>
+<figcaption>OpenPGP で使用可能な楕円曲線一覧</figcaption>
+</figure>
+{{< /div-gen >}}
+
+- [RFC 6637] および [RFC 4880bis] では NIST curve P-256 が “MUST implement” となっている。また NIST curve P-521, Ed25519, Curve25519 が “SHOULD implement” となっている
+- 具体的な実装例については「[そろそろ GnuPG でも ECC を標準で使うのがいいんじゃないかな]({{< relref "openpgp/using-ecc-with-gnupg.md" >}})」で紹介している
 
 ## 一方向ハッシュ関数アルゴリズム（Hash Algorithms）
 
@@ -204,12 +297,8 @@ ID は [OpenPGP] で定義されるもので ”pub 1” のように表記す�
 
 {{< div-gen >}}
 <figure lang="en">
-<style>
-main table.openpgp-hash td  {
-  vertical-align:middle;
-}
 </style>
-<table class="openpgp-hash">
+<table>
 <thead>
 <tr><th>ID</th><th>アルゴリズム</th><th>参考文献</th></tr>
 </thead>
@@ -227,21 +316,8 @@ main table.openpgp-hash td  {
 <td class="nowrap">RIPE-MD/160</td>
 <td><q><a href="http://homes.esat.kuleuven.be/~bosselae/ripemd160.html">The hash function RIPEMD-160</a></q></td>
 </tr><tr>
-<td class='right'>4</td>
-<td class="nowrap">(Reserved)</td>
-<td>&nbsp;</td>
-</tr><tr>
-<td class='right'>5</td>
-<td class="nowrap">(Reserved)</td>
-<td>&nbsp;</td>
-</tr><tr>
-<td class='right'>6</td>
-<td class="nowrap">(Reserved)</td>
-<td>&nbsp;</td>
-</tr><tr>
-<td class='right'>7</td>
-<td class="nowrap">(Reserved)</td>
-<td>&nbsp;</td>
+<td class='right'>4-7</td>
+<td colspan="2">(Reserved)</td>
 </tr><tr>
 <td class='right'>8</td>
 <td class="nowrap">SHA2-256</td>
@@ -258,16 +334,18 @@ main table.openpgp-hash td  {
 </tr><tr>
 <td class='right'>12</td>
 <td class="nowrap">SHA3-256</td>
-<td><a href="http://doi.org/10.6028/NIST.FIPS.202">FIPS PUB 202 <sup><i class='far fa-file-pdf'></i></sup></a></td>
+<td rowspan="3"><a href="http://doi.org/10.6028/NIST.FIPS.202">FIPS PUB 202 <sup><i class='far fa-file-pdf'></i></sup></a></td>
 </tr><tr>
 <td class='right'>13</td>
-<td class="nowrap">(Reserved)</td>
-<td>&nbsp;</td>
+<td>(Reserved)</td>
 </tr><tr>
 <td class='right'>14</td>
 <td class="nowrap">SHA3-512</td>
-<td><a href="http://doi.org/10.6028/NIST.FIPS.202">FIPS PUB 202 <sup><i class='far fa-file-pdf'></i></sup></a></td>
-</tr></tbody>
+</tr>><tr>
+<td class='right'>100-110</td>
+<td colspan="2">Private/Experimental algorithm</td>
+</tr>
+</tbody>
 </table>
 <figcaption>OpenPGP で使用可能な一方向ハッシュ関数一覧</figcaption>
 </figure>
@@ -275,9 +353,11 @@ main table.openpgp-hash td  {
 
 ID は [OpenPGP] で定義されるもので ”hash 1” のように表記する。
 
-- [RFC 4880bis] では hash 8 の SHA2-256 が "MUST implement” となる（現行の [RFC 4880] では SHA-1 が "MUST implement”）。鍵指紋（key fingerprint）についても V5 では SHA2-256 を使用することになる（現行は V4）
-- [RFC 4880bis] では hash 1 の MD5 と hash 3 の RIPE-MD/160 は "SHOULD NOT use” となる。これらは古い PGP による鍵や暗号データの互換性のためにのみ残されるだろう
-- [RFC 4880bis] では hash 2 の SHA-1 も基本的に非推奨になる（SHOULD NOT create messages）。ただし V4 の鍵指紋や MDC (Modification Detection Code) 用には引き続き使われる
+- [RFC 4880bis] では SHA2-256 (hash 8) が "MUST implement” となる（現行 [RFC 4880] では SHA-1 (hash 2) が "MUST implement”）
+    - 鍵指紋（key fingerprint）についても V5 では SHA2-256 を使用することになる（現行 [RFC 4880] は V4）
+- [RFC 4880bis] では SHA-1 も基本的に非推奨になる（SHOULD NOT create messages）が，現行 [RFC 4880] の V4 の鍵指紋や MDC (Modification Detection Code) 用に対応するのであれば SHA-1 も実装する必要がある
+- [RFC 4880bis] では MD5 (hash 1) と RIPE-MD/160 (hash 3) は "SHOULD NOT use” となる
+    - ただし，旧 PGP（2.6 およびそれ以前）の暗号鍵および暗号データを利用するのであればこれらが必要
 
 ## その他のアルゴリズム
 
@@ -285,6 +365,7 @@ ID は [OpenPGP] で定義されるもので ”hash 1” のように表記す�
 
 S2K はパスフレーズからセッション鍵を生成するためのハッシュ化の手順である。
 
+{{< div-gen >}}
 <figure>
 <table>
 <thead>
@@ -303,18 +384,22 @@ S2K はパスフレーズからセッション鍵を生成するためのハッ�
 </tr><tr>
 <td class='right'>3</td>
 <td>Iterated and Salted S2K</td>
+</tr><tr>
+<td class='right'>100-110</td>
+<td>Private/Experimental S2K</td>
 </tr>
 </tbody>
 </table>
 <figcaption>OpenPGP で使用可能な S2K アルゴリズム一覧</figcaption>
 </figure>
+{{< /div-gen >}}
 
 ID は [OpenPGP] で定義されるもので ”s2k 1” のように表記する。
 
 [OpenPGP] では，パスフレーズ自体はいかなる形（ハッシュ値を含む）でも保存しない。
 このため，パスフレーズを紛失してしまった場合は復元できない[^pp1]。
 
-[^pp1]: ただし [OpenPGP] では試行回数によるロックアウトは定義されないため無限にパスフレーズ解読を試みることができる。
+[^pp1]: ただし [OpenPGP] では試行回数によるロックアウトは定義されないため，無限にパスフレーズ解読を試みることができる。
 
 ### 乱数生成器（Random Number Generator）
 
@@ -328,6 +413,7 @@ ID は [OpenPGP] で定義されるもので ”s2k 1” のように表記す�
 
 暗号化メッセージや電子署名を圧縮するためのアルゴリズムである。
 
+{{< div-gen >}}
 <figure>
 <table>
 <thead>
@@ -350,11 +436,15 @@ ID は [OpenPGP] で定義されるもので ”s2k 1” のように表記す�
 <td class='right'>3</td>
 <td class="nowrap">BZip2</td>
 <td><a href="http://www.bzip.org/">bzip2</a></td>
+</tr><tr>
+<td class='right'>100-110</td>
+<td colspan="2">Private/Experimental algorithm</td>
 </tr>
 </tbody>
 </table>
 <figcaption>OpenPGP で使用可能なデータ圧縮アルゴリズム一覧</figcaption>
 </figure>
+{{< /div-gen >}}
 
 ID は [OpenPGP] で定義されるもので ”comp 1” のように表記する。
 
@@ -378,9 +468,9 @@ ID は [OpenPGP] で定義されるもので ”comp 1” のように表記す�
 
 - [わかる！ OpenPGP 暗号](http://www.baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
 - [OpenPGP: First RFC4880bis Draft]({{< relref "remark/2015/openpgp-draft-rfc4880bis-first.md" >}})
-- [OpenPGP に関する話題]({{< relref "remark/2017/03/topics-on-openpgp.md" >}})
-- [OpenPGP 鍵管理に関する考察]({{< relref "remark/2017/11/openpgp-key-management.md" >}})
-- [Issuer Fingerprint Signature Subpacket in Next OpenPGP]({{< relref "remark/2017/11/issuer-fingerprint-signature-subpacket-in-next-openpgp.md" >}})
+    - [OpenPGP に関する話題]({{< relref "remark/2017/03/topics-on-openpgp.md" >}})
+    - [Issuer Fingerprint Signature Subpacket in Next OpenPGP]({{< relref "openpgp/issuer-fingerprint-signature-subpacket-in-next-openpgp.md" >}})
+    - [次期 OpenPGP と AEAD]({{< relref "remark/2018/01/next-openpgp-with-aead.md" >}})
 
 [gpgpdump]: https://github.com/spiegel-im-spiegel/gpgpdump "spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer"
 [RFC 4880]: https://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
