@@ -1,6 +1,7 @@
 +++
 title = "次期 OpenPGP と AEAD"
 date =  "2018-01-27T16:21:29+09:00"
+update =  "2018-01-28T18:40:55+09:00"
 description = "ドラフト 03, 04 の主な変更点としては AEAD (Authenticated Encryption with Associated Data; 認証付き暗号) の仕様が追加されたことだろう。"
 image = "/images/attention/remark.jpg"
 tags = ["security", "cryptography", "openpgp", "aead"]
@@ -83,7 +84,7 @@ OCB mode に関しては，特許問題が絡むようで，取り扱いを議�
 
 ## ブックマーク
 
-- [OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）]({{< relref "openpgp/algorithms-for-openpgp.md" >}}) : 修正中
+- [OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）]({{< relref "openpgp/algorithms-for-openpgp.md" >}})
 
 ## 参考図書
 
