@@ -43,17 +43,30 @@
 
 ## Age of Trump
 
+- [三たび言う。自衛隊は軍隊である。 : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/23955586.html)
 
 ## セキュリティ関連
 
+- [systemdにDoSを受ける危険のある脆弱性が発見される | Think IT（シンクイット）](https://thinkit.co.jp/news/bn/13246)
+- [Top 20 OpenSSH Server Best Security Practices - nixCraft](https://www.cyberciti.biz/tips/linux-unix-bsd-openssh-server-best-practices.html)
+    - [OpenSSHサーバセキュリティベストプラクティス20選 | マイナビニュース](https://news.mynavi.jp/article/20180122-573643/)
+- [Coincheckで発生した暗号通貨NEMの不正送金事案についてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20180126/1517012654)
+    - [コインチェックからのNEM流出、なぜ安全対策が遅れたのか(楠正憲) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/kusunokimasanori/20180128-00080965/)
+- [アマゾン、サイバー脅威ハンティングのSqrrl買収--AWSのセキュリティ強化へ - ZDNet Japan](https://japan.zdnet.com/article/35113676/)
 
 ## 天文関連
 
+- [皆既月食が赤い理由と、「第2の地球」の探し方       | 科学コミュニケーターブログ](http://blog.miraikan.jst.go.jp/topics/201504012-3.html)
 
 ## 知財関連
 
+- [著作権のパワーバランスを変えるということ – P2Pとかその辺のお話R](http://p2ptk.org/copyright/745)
 
 ## その他
 
+- [楽天がウォルマートと提携――日本でネットスーパーを協働運営、米国で楽天Kobo展開へ  |  TechCrunch Japan](http://jp.techcrunch.com/2018/01/26/rakuten-walmart/)
+- [独自のスマホ用OS「SUNBLAZE OS」を開発するアメグミが2000万円を調達、快適で安価なスマホ実現へ  |  TechCrunch Japan](http://jp.techcrunch.com/2018/01/25/amegumi-fundraising/)
+- [IIJが仮想通貨取引事業に参入、業界リーダー17社らと合弁会社設立 | TechWave（テックウェーブ） #WAVE](http://techwave.jp/archives/iij-enters-digital-trading-biz-and-est-new-company-with-17companies.html)
+- [Windows で DVD ドライブの使用制限設定を外す - 電気ウナギ的○○](http://blog.netandfield.com/shar/2018/01/windows-dvd.html)
 
 (end of file)
