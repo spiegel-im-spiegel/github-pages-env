@@ -1,7 +1,7 @@
 +++
 title = "Travis CI でクロス・コンパイル（GoReleaser 編）"
 date =  "2017-11-02T14:01:06+09:00"
-update = "2017-11-15T16:11:53+09:00"
+update = "2018-02-01T16:52:35+09:00"
 description = "クロス・コンパイルと GitHub への deploy をまとめてやってくれる GoReleaser というツールがあるらしい。"
 tags = ["golang", "cross-compile", "continuous-integration", "github", "travis-ci", "tools"]
 
@@ -292,16 +292,16 @@ Build log にこの access token が表示されないようにすること。
 
 今回の `.travis.yml` の内容はこんな感じ[^dp1]。
 
-[^dp1]: [Travis CI] への [dep] インストール手順については [FAQ.md](https://github.com/golang/dep/blob/master/docs/FAQ.md "dep/FAQ.md at master · golang/dep") を参考にした。
+[^dp1]: [Travis CI] への [dep] インストール手順については [FAQ.md](https://golang.github.io/dep/docs/FAQ.html "FAQ · dep") を参考にした。
 
 ```yaml
 language: go
 
 go:
-  - 1.9.2
+  - 1.9.*
 
 env:
-  - DEP_VERSION="0.3.2"
+  - DEP_VERSION="0.4.1"
 
 before_install:
   # Download the binary to bin folder in $GOPATH

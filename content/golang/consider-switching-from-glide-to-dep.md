@@ -1,7 +1,7 @@
 +++
 title = "Glide から Dep への移行を検討する"
-date =  "2017-10-10T18:02:56+09:00"
-update =  "2018-01-27T13:05:38+09:00"
+date = "2017-10-10T18:02:56+09:00"
+update = "2018-02-01T16:52:35+09:00"
 description = "つまり「依存関係（Vendoring）管理ツールとしては dep を推奨するけど移行できない人のために当面はサポートを続けるよ（でも将来は分からん）」という解釈でいいのだろうか。"
 tags = ["golang", "engineering", "package", "vendoring", "tools", "glide", "dep", "testing"]
 
@@ -56,19 +56,13 @@ Please consider trying dep on your project or converting to dep.</q>
 まず [dep] の取得から始めないとだが，リポジトリ自体は `go get` コマンドで取得できる。
 
 ```text
-$ go get -v github.com/golang/dep
+$ go get -u github.com/golang/dep/cmd/dep
 ```
 
-これをこのままインストールしてもいいのだが
+これをこのまま使ってもいいのだが，[リリースページ](https://github.com/golang/dep/releases "Releases · golang/dep")にビルド済みのモジュールが置かれているので，ありがたくこれを使わせてもらおう。
 
-```text
-$ go install -v github.com/golang/dep/cmd/dep
-```
-
-[リリースページ](https://github.com/golang/dep/releases "Releases · golang/dep")にビルド済みのモジュールが置かれているので，ありがたくこれを使わせてもらおう。
-
-最新版（現時点で [v0.3.2](https://github.com/golang/dep/releases/tag/v0.3.2 "Release v0.3.2 · golang/dep")）には Windows 用のモジュール `dep-windows-amd64` もある。
-Windows ユーザは何のファイルかと思うかもしれないが，実はこれ実行ファイルなので， `dep.exe` にリネームしてそのまま使える。
+最新版（現時点で [v0.4.1](https://github.com/golang/dep/releases/tag/v0.4.1 "Release v0.4.1 · golang/dep")）には Windows 用のモジュール `dep-windows-amd64.exe` もある。
+これを `dep.exe` にリネームして使う。
 
 万が一があっては困るのでモジュールの SHA256 ハッシュ値を確認しておく（こういうのこそ OpenPGP を使ってくれないものか）。
 Windows ユーザで Windows 8.1 以降であれば PowerShell（4.0 以上）で [`Get-FileHash`] コマンドレットが使える[^ps1]。
@@ -76,14 +70,14 @@ Windows ユーザで Windows 8.1 以降であれば PowerShell（4.0 以上）�
 [^ps1]: Windows 7 の場合は “[Windows Management Framework 4.0](https://www.microsoft.com/ja-jp/download/details.aspx?id=40855)” をインストールすることで PowerShell 4.0 にアップグレードできる。
 
 ```powershell
-PS C:\Users\username> Get-FileHash dep-windows-amd64 -Algorithm SHA256 | Format-List
+PS C:\Users\username\Downloads> Get-FileHash dep-windows-amd64.exe -Algorithm SHA256 | Format-List
 
 Algorithm : SHA256
-Hash      : D4BF3EC10B1808CAB883C6AB2901C396CF463E684FDA350199E93E31806C194A
-Path      : C:\Users\username\Downloads\dep-windows-amd64
+Hash      : F6E6A872C54D5AE7536AC71FD5BCAC9F4E7B8A1DAFA1EF7C23866E2F3069FE4E
+Path      : C:\Users\username\Downloads\dep-windows-amd64.exe
 ```
 
-これを `dep-windows-amd64.sha256` に記載されている値と比較する。
+これを `dep-windows-amd64.exe.sha256` に記載されている値と比較する。
 改竄されてなければ同じ値になるはずである。
 目視は辛いのでテキストエディタ等の検索機能を使えばいいだろう。
 
@@ -145,16 +139,16 @@ $ sha256sum dep-windows-amd64
 
 ```text
 $ dep
-dep is a tool for managing dependencies for Go projects
+Dep is a tool for managing dependencies for Go projects
 
-Usage: dep <command>
+Usage: "dep [command]"
 
 Commands:
 
-  init     Initialize a new project with manifest and lock files
+  init     Set up a new Go project, or migrate an existing one
   status   Report the status of the project's dependencies
   ensure   Ensure a dependency is safely vendored in the project
-  prune    Prune the vendor tree of unused packages
+  prune    Pruning is now performed automatically by dep ensure.
   version  Show the dep version information
 
 Examples:
@@ -167,10 +161,10 @@ Use "dep help [command]" for more information about a command.
 
 $ dep version
 dep:
- version     : v0.3.1
- build date  : 2017-09-19
- git hash    : 83789e2
- go version  : go1.9
+ version     : v0.4.1
+ build date  : 2018-01-24
+ git hash    : 37d9ea0a
+ go version  : go1.9.1
  go compiler : gc
  platform    : windows/amd64
 ```
@@ -223,28 +217,27 @@ testImports: []
 
 ```text
 $ dep init
-Importing configuration from glide. These are only initial constraints, and are further refined during the solve process.
-Detected glide configuration files...
-Converting from glide.yaml and glide.lock...
-  Using * as initial constraint for imported dep github.com/spiegel-im-spiegel/gocli
-  Trying v0.3.0 (5929f04) as initial lock for imported dep github.com/spiegel-im-spiegel/gocli
-  Using * as initial constraint for imported dep github.com/spf13/cobra
-  Trying * (6b74a60) as initial lock for imported dep github.com/spf13/cobra
-  Using * as initial constraint for imported dep github.com/pkg/errors
-  Trying * (248dadf) as initial lock for imported dep github.com/pkg/errors
-  Using * as initial constraint for imported dep github.com/seehuhn/mt19937
-  Trying master (98c0ea5) as initial lock for imported dep github.com/seehuhn/mt19937
-  Using * as initial constraint for imported dep github.com/davidminor/gorand
-  Trying * (189780b) as initial lock for imported dep github.com/davidminor/gorand
-  Using * as initial constraint for imported dep github.com/davidminor/uint128
-  Trying master (5745f1b) as initial lock for imported dep github.com/davidminor/uint128
-  Using * as initial constraint for imported dep github.com/inconshreveable/mousetrap
-  Trying v1.0 (76626ae) as initial lock for imported dep github.com/inconshreveable/mousetrap
-  Using * as initial constraint for imported dep github.com/spf13/pflag
-  Trying * (5ccb023) as initial lock for imported dep github.com/spf13/pflag
+Importing configuration from glide. These are only initial constraints, and are further refined during the solve process.                                                                             
+Detected glide configuration files...                                                              
+Converting from glide.yaml and glide.lock...                                                       
+  Trying v0.3.0 (5929f04) as initial lock for imported dep github.com/spiegel-im-spiegel/gocli     
+  Trying * (6b74a60) as initial lock for imported dep github.com/spf13/cobra                       
+  Trying * (248dadf) as initial lock for imported dep github.com/pkg/errors                        
+  Trying master (98c0ea5) as initial lock for imported dep github.com/seehuhn/mt19937              
+  Trying * (189780b) as initial lock for imported dep github.com/davidminor/gorand                 
+  Trying master (5745f1b) as initial lock for imported dep github.com/davidminor/uint128           
+  Trying v1.0 (76626ae) as initial lock for imported dep github.com/inconshreveable/mousetrap      
+  Trying * (5ccb023) as initial lock for imported dep github.com/spf13/pflag                       
+  Locking in  (248dadf) for direct dep github.com/pkg/errors                                       
+  Locking in  (6b74a60) for direct dep github.com/spf13/cobra                                      
+  Using master as constraint for direct dep github.com/seehuhn/mt19937                             
+  Locking in master (98c0ea5) for direct dep github.com/seehuhn/mt19937                            
+  Using ^0.3.0 as constraint for direct dep github.com/spiegel-im-spiegel/gocli                    
+  Locking in v0.3.0 (5929f04) for direct dep github.com/spiegel-im-spiegel/gocli                   
+  Locking in  (189780b) for direct dep github.com/davidminor/gorand                                
 ```
 
-実は [spiegel-im-spiegel/gocli] パッケージの最新版は v0.4.0 だが， `glide.lock` の内容を読み取って，ちゃんと v0.3.0 のものを取ってきているようだ。
+実は [spiegel-im-spiegel/gocli] パッケージの最新版は v0.5.0 だが， `glide.lock` の内容を読み取って，ちゃんと v0.3.0 のものを取ってきているようだ。
 偉いぞ！
 
 `dep init` コマンドにより [`Gopkg.toml`] および `Gopkg.lock` の2つのファイルと `vendor/` フォルダが作成される。
@@ -252,22 +245,19 @@ Converting from glide.yaml and glide.lock...
 
 ```toml
 [[constraint]]
-  name = "github.com/davidminor/gorand"
-
-[[constraint]]
-  name = "github.com/pkg/errors"
-
-[[constraint]]
+  branch = "master"
   name = "github.com/seehuhn/mt19937"
 
 [[constraint]]
-  name = "github.com/spf13/cobra"
-
-[[constraint]]
   name = "github.com/spiegel-im-spiegel/gocli"
+  version = "0.3.0"
+
+[prune]
+  go-tests = true
+  unused-packages = true
 ```
 
-そして `Gopkg.lock` の内容は以下の通りだ。
+そして `Gopkg.lock` の内容は以下の通り。
 
 ```toml
 [[projects]]
@@ -317,44 +307,44 @@ Converting from glide.yaml and glide.lock...
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "4a7cc1799d386351173ccdf8266d22ebe2971ce7ba417395a0b63ca267ea9267"
+  inputs-digest = "3f9a0c0024e81ba251efaa0cb0014694f8315add84c7e8044a346f370e3e088e"
   solver-name = "gps-cdcl"
   solver-version = 1
 ```
 
-`glide.lock` と `Gopkg.lock` の内容がきちんとマッチしているのが分かると思う。
+`glide.lock` と `Gopkg.lock` の内容がマッチしているのが分かると思う。
 念のため `dep status` も見ておこう。
 
 ```text
 $ dep status
-PROJECT                               CONSTRAINT  VERSION        REVISION  LATEST   PKGS USED
-github.com/davidminor/gorand          *                          189780b            1
-github.com/davidminor/uint128         *           branch master  5745f1b   5745f1b  1
-github.com/inconshreveable/mousetrap  *           v1.0           76626ae   76626ae  1
-github.com/pkg/errors                 *                          248dadf            1
-github.com/seehuhn/mt19937            *           branch master  98c0ea5   98c0ea5  1
-github.com/spf13/cobra                *                          6b74a60            1
-github.com/spf13/pflag                *                          5ccb023            1
-github.com/spiegel-im-spiegel/gocli   *           v0.3.0         5929f04   ce636bb  1
+PROJECT                               CONSTRAINT     VERSION        REVISION  LATEST   PKGS USED
+github.com/davidminor/gorand          *                             189780b            1
+github.com/davidminor/uint128         branch master  branch master  5745f1b   5745f1b  1
+github.com/inconshreveable/mousetrap  v1.0           v1.0           76626ae   v1.0     1
+github.com/pkg/errors                 *                             248dadf            1
+github.com/seehuhn/mt19937            branch master  branch master  98c0ea5   98c0ea5  1
+github.com/spf13/cobra                *                             6b74a60            1
+github.com/spf13/pflag                *                             5ccb023            1
+github.com/spiegel-im-spiegel/gocli   ^0.3.0         v0.3.0         5929f04   v0.3.0   1
 ```
 
 ビルドもちゃんと通る。
 
 ```text
 $ go build -v .
-github.com/spiegel-im-spiegel/pi/vendor/github.com/spiegel-im-spiegel/gocli
-github.com/spiegel-im-spiegel/pi/vendor/github.com/spf13/pflag
-github.com/spiegel-im-spiegel/pi/vendor/github.com/inconshreveable/mousetrap
 github.com/spiegel-im-spiegel/pi/vendor/github.com/davidminor/uint128
+github.com/spiegel-im-spiegel/pi/vendor/github.com/spf13/pflag
 github.com/spiegel-im-spiegel/pi/vendor/github.com/seehuhn/mt19937
-github.com/spiegel-im-spiegel/pi/vendor/github.com/pkg/errors
+github.com/spiegel-im-spiegel/pi/vendor/github.com/inconshreveable/mousetrap
+github.com/spiegel-im-spiegel/pi/vendor/github.com/spiegel-im-spiegel/gocli
 github.com/spiegel-im-spiegel/pi/vendor/github.com/davidminor/gorand/lcg
+github.com/spiegel-im-spiegel/pi/vendor/github.com/pkg/errors
 github.com/spiegel-im-spiegel/pi/gencmplx
 github.com/spiegel-im-spiegel/pi/qq
 github.com/spiegel-im-spiegel/pi/genpi
 github.com/spiegel-im-spiegel/pi/plot
-github.com/spiegel-im-spiegel/pi/estmt
 github.com/spiegel-im-spiegel/pi/vendor/github.com/spf13/cobra
+github.com/spiegel-im-spiegel/pi/estmt
 github.com/spiegel-im-spiegel/pi/cmd
 github.com/spiegel-im-spiegel/pi
 ```
@@ -363,121 +353,86 @@ github.com/spiegel-im-spiegel/pi
 
 ## 依存関係の管理
 
-ところで，この状態で `dep ensure` コマンドを実行すると
-
-```text
-$ dep ensure -v
-Gopkg.lock was already in sync with imports and Gopkg.toml
-(1/8) Wrote github.com/seehuhn/mt19937@master
-(2/8) Wrote github.com/spf13/pflag@5ccb023bc27df288a957c5e994cd44fd19619465
-(3/8) Wrote github.com/davidminor/gorand@189780b8053a44a111339a4248394fd844c1da40
-(4/8) Wrote github.com/inconshreveable/mousetrap@v1.0
-(5/8) Wrote github.com/davidminor/uint128@master
-(6/8) Wrote github.com/spiegel-im-spiegel/gocli@v0.3.0
-(7/8) Wrote github.com/spf13/cobra@6b74a60562f5c1c920299b8f02d153e16f4897fc
-(8/8) Wrote github.com/pkg/errors@248dadf4e9068a0b3e79f02ed0a610d935de5302
-```
-
-という感じで `Gopkg.lock` ファイルも特に更新されないが，いったん `vendor/` フォルダを削除して（またはリネームして）同じことをすると
-
-```text
-$ dep ensure -v
-Root project is "github.com/spiegel-im-spiegel/pi"
- 19 transitively valid internal packages
- 12 external packages imported from 10 projects
-
-...
-
-(1/22) Wrote github.com/mitchellh/mapstructure@master
-(2/22) Wrote github.com/davidminor/gorand@189780b8053a44a111339a4248394fd844c1da40
-(3/22) Wrote gopkg.in/yaml.v2@v2
-(4/22) Wrote github.com/davidminor/uint128@master
-(5/22) Wrote github.com/fsnotify/fsnotify@v1.4.2
-(6/22) Wrote github.com/magiconair/properties@v1.7.3
-(7/22) Wrote github.com/spf13/cobra@6b74a60562f5c1c920299b8f02d153e16f4897fc
-(8/22) Wrote github.com/pkg/errors@248dadf4e9068a0b3e79f02ed0a610d935de5302
-(9/22) Wrote github.com/seehuhn/mt19937@master
-(10/22) Wrote github.com/pelletier/go-toml@v1.0.1
-(11/22) Wrote github.com/spf13/afero@master
-(12/22) Wrote github.com/cpuguy83/go-md2man@v1.0.7
-(13/22) Wrote github.com/spf13/cast@v1.1.0
-(14/22) Wrote github.com/hashicorp/hcl@master
-(15/22) Wrote github.com/spf13/jwalterweatherman@master
-(16/22) Wrote github.com/spf13/pflag@5ccb023bc27df288a957c5e994cd44fd19619465
-(17/22) Wrote github.com/spf13/viper@v1.0.0
-(18/22) Wrote github.com/spiegel-im-spiegel/gocli@v0.3.0
-(19/22) Wrote github.com/russross/blackfriday@v1.5
-(20/22) Wrote golang.org/x/sys@master
-(21/22) Wrote github.com/inconshreveable/mousetrap@v1.0
-(22/22) Wrote golang.org/x/text@master
-```
-
-（途中の表示を省いている。ご容赦）
-
-と「え？ それ要らんやろ」ってなパッケージまで読み込んでくる。
-うーん。
-どうやら使わないサブパッケージまで依存関係を追跡してるみたい。
-
-そこで [`Gopkg.toml`] に以下の記述を加えて余計なパッケージを読み込ませないようにした。
+[`Gopkg.toml`] を以下のように修正してみる。
 
 ```toml
-ignored = [
-  "github.com/cpuguy83/go-md2man/md2man",
-  "github.com/russross/blackfriday",
-  "github.com/spf13/cobra/doc",
-  "github.com/spf13/cobra/cobra/cmd",
-  "github.com/spf13/viper",
-]
+[[constraint]]
+  name = "github.com/davidminor/gorand"
+  branch = "master"
+
+[[constraint]]
+  name = "github.com/pkg/errors"
+  version = "~0.8.0"
+
+[[constraint]]
+  name = "github.com/seehuhn/mt19937"
+  branch = "master"
+
+[[constraint]]
+  name = "github.com/spf13/cobra"
+  version = "~0.0.1"
+
+[[constraint]]
+  name = "github.com/spiegel-im-spiegel/gocli"
+  version = "~0.3.0"
+
+[prune]
+  go-tests = true
+  unused-packages = true
 ```
 
-ついでに [`Gopkg.toml`] で [spiegel-im-spiegel/gocli] パッケージのバージョンを明記する。
+この状態で `dep ensure` コマンドを実行しステータスを見ると，以下のような感じになる。
+
+```text
+$ dep status
+PROJECT                               CONSTRAINT     VERSION        REVISION  LATEST   PKGS USED
+github.com/davidminor/gorand          branch master  branch master  283446f   283446f  1
+github.com/davidminor/uint128         branch master  branch master  5745f1b   5745f1b  1
+github.com/inconshreveable/mousetrap  v1.0           v1.0           76626ae   v1.0     1
+github.com/pkg/errors                 ^0.8.0         v0.8.0         645ef00   v0.8.0   1
+github.com/seehuhn/mt19937            branch master  branch master  98c0ea5   98c0ea5  1
+github.com/spf13/cobra                ^0.0.1         v0.0.1         7b2c5ac   v0.0.1   1
+github.com/spf13/pflag                *                             5ccb023            1
+github.com/spiegel-im-spiegel/gocli   ^0.3.0         v0.3.0         5929f04   v0.3.0   1
+```
+
+たとえば
+
+```toml
+[[constraint]]
+  name = "github.com/davidminor/gorand"
+  branch = "master"
+```
+
+であれば [github.com/davidminor/gorand] パッケージの master ブランチの最新を取ってくる。
+
+また
 
 ```toml
 [[constraint]]
   name = "github.com/spiegel-im-spiegel/gocli"
-  version = "0.3.0"
+  version = "~0.3.0"
 ```
 
-これでもう一度 `dep ensure` コマンドを実行すると
+であれば [spiegel-im-spiegel/gocli] パッケージの v0.3.x のうち最新を取ってくる（ワイルドカードを使って `0.3.*` または `0.3.x` 指定でも可）[^v1]。
 
-```text
-$ dep ensure -v
-Root project is "github.com/spiegel-im-spiegel/pi"
- 19 transitively valid internal packages
- 8 external packages imported from 8 projects
+[^v1]: [`Gopkg.toml`] のバージョンの考え方は “[Semantic Versioning]” に従っている。ワイルドカード等を使ったバージョン指定については [Masterminds/semver] パッケージを参照するとよい。
 
-...
+以下の `[prune]` 指定は `vendor/` フォルダから除外するパッケージやファイルを指定する。
 
-(1/8) Wrote github.com/inconshreveable/mousetrap@v1.0
-(2/8) Wrote github.com/davidminor/gorand@189780b8053a44a111339a4248394fd844c1da40
-(3/8) Wrote github.com/spiegel-im-spiegel/gocli@v0.3.0
-(4/8) Wrote github.com/seehuhn/mt19937@master
-(5/8) Wrote github.com/spf13/cobra@6b74a60562f5c1c920299b8f02d153e16f4897fc
-(6/8) Wrote github.com/pkg/errors@248dadf4e9068a0b3e79f02ed0a610d935de5302
-(7/8) Wrote github.com/davidminor/uint128@master
-(8/8) Wrote github.com/spf13/pflag@5ccb023bc27df288a957c5e994cd44fd19619465
+```toml
+[prune]
+  go-tests = true
+  unused-packages = true
 ```
 
-となり `dep status` コマンドの実行結果も
+`go-tests` はテスト用のファイル（`*_test.go`）を `unused-packages` は未使用のパッケージを指す。
+なお，値は `true` 以外はエラーになるようなので，たとえば未使用パッケージも含めたいのであれば `unused-packages = false` とするのではなく記述自体を削除する。
 
-```text
-$ dep status
-PROJECT                               CONSTRAINT  VERSION        REVISION  LATEST   PKGS USED
-github.com/davidminor/gorand          *                          189780b            1
-github.com/davidminor/uint128         *           branch master  5745f1b   5745f1b  1
-github.com/inconshreveable/mousetrap  *           v1.0           76626ae   76626ae  1
-github.com/pkg/errors                 *                          248dadf            1
-github.com/seehuhn/mt19937            *           branch master  98c0ea5   98c0ea5  1
-github.com/spf13/cobra                *                          6b74a60            1
-github.com/spf13/pflag                *                          5ccb023            1
-github.com/spiegel-im-spiegel/gocli   ^0.3.0      v0.3.0         5929f04   5929f04  1
+```toml
+[prune]
+  go-tests = true
 ```
-
-と元に戻った。
-不要なサブパッケージを排除するのはちょっと面倒くさそうである。
-
-ちなみに [`Gopkg.toml`] のバージョン指定は “[Semantic Versioning]” に従っている。
-具体的には “[Semantic Versioning]” の [Go 言語]実装である [Masterminds/semver] パッケージを参照するとよい。
 
 ## 依存関係の視覚化
 
@@ -501,7 +456,7 @@ GitHub みたいな有名 SaaS に置いてあるパッケージなら [`Gopkg.t
 ```toml
 [[constraint]]
   name = "github.com/spiegel-im-spiegel/gocli"
-  version = "0.3.0"
+  version = "~0.3.0"
 ```
 
 とか書けば適切に処理してくれるけど，有名でない SaaS ディレクトリや職場 LAN のリポジトリ上のパッケージではこうはいかないこともある。
@@ -511,7 +466,7 @@ GitHub みたいな有名 SaaS に置いてあるパッケージなら [`Gopkg.t
 [[constraint]]
   name = "github.com/spiegel-im-spiegel/gocli"
   source = "git@github.com:spiegel-im-spiegel/gocli.git"
-  version = "0.3.0"
+  version = "~0.3.0"
 {{< /highlight >}}
 
 これで `dep ensure` すれば
@@ -553,7 +508,7 @@ $ go test -v $(glide novendor)
 
 [^tst1]: [glide] を使わない場合は `go test -v $(go list ./... | grep -v /vendor/)` とかする。どのみち Windows のコマンドプロンプトでは無理だけど（笑）
 
-ところがところがである！！
+ところがところが！！
 
 [Go 言語] 1.9 からは `./...` の扱いが変更になり
 
@@ -619,11 +574,12 @@ github.com/spiegel-im-spiegel/pi/vendor/github.com/spiegel-im-spiegel/gocli
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [glide]: https://github.com/Masterminds/glide "Masterminds/glide"
 [dep]: https://golang.github.io/dep/ "dep · Dependency management for Go"
-[`Gopkg.toml`]: https://github.com/golang/dep/blob/master/docs/Gopkg.toml.md "dep/Gopkg.toml.md at master · golang/dep"
+[`Gopkg.toml`]: https://golang.github.io/dep/docs/Gopkg.toml.html "Gopkg.toml · dep"
 [7-Zip]: http://www.7-zip.org/
 [`Get-FileHash`]: http://technet.microsoft.com/en-us/library/dn520872.aspx
 [Graphviz]: http://www.graphviz.org/ "Graphviz | Graphviz - Graph Visualization Software"
 [spiegel-im-spiegel/pi]: https://github.com/spiegel-im-spiegel/pi "spiegel-im-spiegel/pi: Estimate of Pi with Monte Carlo method."
 [spiegel-im-spiegel/gocli]: https://github.com/spiegel-im-spiegel/gocli "spiegel-im-spiegel/gocli: Command line interface"
+[github.com/davidminor/gorand]: https://github.com/davidminor/gorand "davidminor/gorand: Basic golang implementation of a permuted congruential generator for pseudorandom number generation"
 [Semantic Versioning]: http://semver.org/ "Semantic Versioning 2.0.0 | Semantic Versioning"
 [Masterminds/semver]: https://github.com/Masterminds/semver "Masterminds/semver: Work with Semantic Versions in Go"
