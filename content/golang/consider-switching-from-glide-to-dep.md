@@ -1,7 +1,7 @@
 +++
 title = "Glide から Dep への移行を検討する"
 date = "2017-10-10T18:02:56+09:00"
-update = "2018-02-01T16:52:35+09:00"
+update = "2018-02-02T16:11:10+09:00"
 description = "つまり「依存関係（Vendoring）管理ツールとしては dep を推奨するけど移行できない人のために当面はサポートを続けるよ（でも将来は分からん）」という解釈でいいのだろうか。"
 tags = ["golang", "engineering", "package", "vendoring", "tools", "glide", "dep", "testing"]
 
@@ -240,7 +240,7 @@ Converting from glide.yaml and glide.lock...
 実は [spiegel-im-spiegel/gocli] パッケージの最新版は v0.5.0 だが， `glide.lock` の内容を読み取って，ちゃんと v0.3.0 のものを取ってきているようだ。
 偉いぞ！
 
-`dep init` コマンドにより [`Gopkg.toml`] および `Gopkg.lock` の2つのファイルと `vendor/` フォルダが作成される。
+`dep init` コマンドにより [`Gopkg.toml`] および [`Gopkg.lock`] の2つのファイルと `vendor/` フォルダが作成される。
 このうち [`Gopkg.toml`] の内容は以下の通り。
 
 ```toml
@@ -257,7 +257,7 @@ Converting from glide.yaml and glide.lock...
   unused-packages = true
 ```
 
-そして `Gopkg.lock` の内容は以下の通り。
+そして [`Gopkg.lock`] の内容は以下の通り。
 
 ```toml
 [[projects]]
@@ -312,7 +312,14 @@ Converting from glide.yaml and glide.lock...
   solver-version = 1
 ```
 
-`glide.lock` と `Gopkg.lock` の内容がマッチしているのが分かると思う。
+`glide.lock` と [`Gopkg.lock`] の内容がマッチしているのが分かると思う。
+
+{{% div-box %}}
+**【2018-02-02 追記】** dep v0.4 から挙動が変わった？
+どうやら `dep init` 時点でリビジョン管理が必要と判断されるパッケージのみ `Gopkg.toml` に記載される感じ。
+それ以外でリビジョン管理が必要なものは手動で `Gopkg.toml` に記述する必要があるかも。
+{{% /div-box %}}
+
 念のため `dep status` も見ておこう。
 
 ```text
@@ -362,7 +369,7 @@ github.com/spiegel-im-spiegel/pi
 
 [[constraint]]
   name = "github.com/pkg/errors"
-  version = "~0.8.0"
+  version = "0.8.*"
 
 [[constraint]]
   name = "github.com/seehuhn/mt19937"
@@ -370,11 +377,11 @@ github.com/spiegel-im-spiegel/pi
 
 [[constraint]]
   name = "github.com/spf13/cobra"
-  version = "~0.0.1"
+  version = "0.0.*"
 
 [[constraint]]
   name = "github.com/spiegel-im-spiegel/gocli"
-  version = "~0.3.0"
+  version = "0.3.*"
 
 [prune]
   go-tests = true
@@ -404,21 +411,20 @@ github.com/spiegel-im-spiegel/gocli   ^0.3.0         v0.3.0         5929f04   v0
   branch = "master"
 ```
 
-であれば [github.com/davidminor/gorand] パッケージの master ブランチの最新を取ってくる。
-
+であれば [github.com/davidminor/gorand] パッケージで master ブランチの最新コミットを取ってくる。
 また
 
 ```toml
 [[constraint]]
   name = "github.com/spiegel-im-spiegel/gocli"
-  version = "~0.3.0"
+  version = "0.3.*"
 ```
 
-であれば [spiegel-im-spiegel/gocli] パッケージの v0.3.x のうち最新を取ってくる（ワイルドカードを使って `0.3.*` または `0.3.x` 指定でも可）[^v1]。
+であれば [spiegel-im-spiegel/gocli] パッケージで v0.3.x の最新バージョンを取ってくる[^v1]。
 
 [^v1]: [`Gopkg.toml`] のバージョンの考え方は “[Semantic Versioning]” に従っている。ワイルドカード等を使ったバージョン指定については [Masterminds/semver] パッケージを参照するとよい。
 
-以下の `[prune]` 指定は `vendor/` フォルダから除外するパッケージやファイルを指定する。
+`[prune]` 指定では `vendor/` フォルダから除外するパッケージやファイルを指定する。
 
 ```toml
 [prune]
@@ -427,7 +433,8 @@ github.com/spiegel-im-spiegel/gocli   ^0.3.0         v0.3.0         5929f04   v0
 ```
 
 `go-tests` はテスト用のファイル（`*_test.go`）を `unused-packages` は未使用のパッケージを指す。
-なお，値は `true` 以外はエラーになるようなので，たとえば未使用パッケージも含めたいのであれば `unused-packages = false` とするのではなく記述自体を削除する。
+なお，値は `true` 以外はエラーになるようだ。
+たとえば未使用パッケージも含めたいのであれば `unused-packages = false` とするのではなく記述自体を削除する。
 
 ```toml
 [prune]
@@ -445,7 +452,7 @@ $ dep status -dot | dot -Tpng -o pi-dependency.png
 
 結果はこんな感じ。
 
-{{< fig-img src="/images/pi-dependency.png" link="/images/pi-dependency.png" title="pi-dependency.png" width="1428" >}}
+{{< fig-img src="./pi-dependency.png" link="./pi-dependency.png" title="pi-dependency.png" width="1275" >}}
 
 ブラボー！
 
@@ -456,7 +463,7 @@ GitHub みたいな有名 SaaS に置いてあるパッケージなら [`Gopkg.t
 ```toml
 [[constraint]]
   name = "github.com/spiegel-im-spiegel/gocli"
-  version = "~0.3.0"
+  version = "0.3.*"
 ```
 
 とか書けば適切に処理してくれるけど，有名でない SaaS ディレクトリや職場 LAN のリポジトリ上のパッケージではこうはいかないこともある。
@@ -466,7 +473,7 @@ GitHub みたいな有名 SaaS に置いてあるパッケージなら [`Gopkg.t
 [[constraint]]
   name = "github.com/spiegel-im-spiegel/gocli"
   source = "git@github.com:spiegel-im-spiegel/gocli.git"
-  version = "~0.3.0"
+  version = "0.3.* "
 {{< /highlight >}}
 
 これで `dep ensure` すれば
@@ -575,6 +582,7 @@ github.com/spiegel-im-spiegel/pi/vendor/github.com/spiegel-im-spiegel/gocli
 [glide]: https://github.com/Masterminds/glide "Masterminds/glide"
 [dep]: https://golang.github.io/dep/ "dep · Dependency management for Go"
 [`Gopkg.toml`]: https://golang.github.io/dep/docs/Gopkg.toml.html "Gopkg.toml · dep"
+[`Gopkg.lock`]: https://golang.github.io/dep/docs/Gopkg.lock.html "Gopkg.lock · dep"
 [7-Zip]: http://www.7-zip.org/
 [`Get-FileHash`]: http://technet.microsoft.com/en-us/library/dn520872.aspx
 [Graphviz]: http://www.graphviz.org/ "Graphviz | Graphviz - Graph Visualization Software"
