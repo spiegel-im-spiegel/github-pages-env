@@ -29,7 +29,11 @@
 - [Go x goqueryでwebスクレイピング - Qiita](https://qiita.com/akif999/items/2d6428c2377e020ce904)
 - [さくらのレンタルサーバ／マネージドサーバ 「バックアップ＆ステージング powered by Snapup」提供開始のお知らせ | さくらインターネット](https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1848)
 
-- [出版、最後の砦マンガ沈む　海賊版横行で販売2ケタ減: 日本経済新聞](https://r.nikkei.com/article/DGXMZO26157560V20C18A1TI1000)
+- [総務省｜公衆無線LANセキュリティ分科会報告書（案）に対する意見募集](http://www.soumu.go.jp/menu_news/s-news/01ryutsu03_02000137.html)
+
+- [Golangでパーセントエンコーディング - 逆さまにした](http://cipepser.hatenablog.com/entry/2017/07/29/083729)
+    - [Golangでパーセントエンコーディングをデコードする - 逆さまにした](http://cipepser.hatenablog.com/entry/2017/08/05/095807)
+    - [encodeURIComponentが世界基準だと誤解してた話 - Qiita](https://qiita.com/shibukawa/items/c0730092371c0e243f62)
 
 ## Autocrypt について
 
@@ -53,6 +57,9 @@
 - [Coincheckで発生した暗号通貨NEMの不正送金事案についてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20180126/1517012654)
     - [コインチェックからのNEM流出、なぜ安全対策が遅れたのか(楠正憲) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/kusunokimasanori/20180128-00080965/)
 - [アマゾン、サイバー脅威ハンティングのSqrrl買収--AWSのセキュリティ強化へ - ZDNet Japan](https://japan.zdnet.com/article/35113676/)
+- [総務省｜公衆無線LANセキュリティ分科会報告書（案）に対する意見募集](http://www.soumu.go.jp/menu_news/s-news/01ryutsu03_02000137.html)
+- [Adobe Flash Player の未修正の脆弱性 (CVE-2018-4878) に関する注意喚起](https://www.jpcert.or.jp/at/2018/at180006.html)
+- [Spectre/Meltdown脆弱性を利用したマルウェアが発見  - PC Watch](https://pc.watch.impress.co.jp/docs/news/1104573.html)
 
 ## 天文関連
 
@@ -61,6 +68,7 @@
 ## 知財関連
 
 - [著作権のパワーバランスを変えるということ – P2Pとかその辺のお話R](http://p2ptk.org/copyright/745)
+- [欧州連合、独自の著作権侵害「監視リスト」を計画 – P2Pとかその辺のお話R](http://p2ptk.org/copyright/756)
 
 ## その他
 
@@ -68,5 +76,9 @@
 - [独自のスマホ用OS「SUNBLAZE OS」を開発するアメグミが2000万円を調達、快適で安価なスマホ実現へ  |  TechCrunch Japan](http://jp.techcrunch.com/2018/01/25/amegumi-fundraising/)
 - [IIJが仮想通貨取引事業に参入、業界リーダー17社らと合弁会社設立 | TechWave（テックウェーブ） #WAVE](http://techwave.jp/archives/iij-enters-digital-trading-biz-and-est-new-company-with-17companies.html)
 - [Windows で DVD ドライブの使用制限設定を外す - 電気ウナギ的○○](http://blog.netandfield.com/shar/2018/01/windows-dvd.html)
+- [オープンソースのコンパイラGCCの最新版「GCC 7.3」リリース | Think IT（シンクイット）](https://thinkit.co.jp/news/bn/13247)
+- [AMDのGPUで深層学習もバッチリできることがわかった - shi3zの長文日記](http://d.hatena.ne.jp/shi3z/20180127/1517026480)
+- [「LibreOffice 6.0」が公開 ～多数の改善を盛り込んだメジャーバージョンアップ - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1104230.html) : OpenPGP 署名に対応！
+- [インフルエンザで「早めの受診」は間違いです！：医療ガバナンス学会 | MRICの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43278)
 
 (end of file)

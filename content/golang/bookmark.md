@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update =  "2018-01-27T13:05:38+09:00"
+update =  "2018-02-02T18:09:04+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -591,6 +591,9 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Goでマイクロサービスやってみる〜gokit〜 - Qiita](https://qiita.com/miya-masa/items/1fefa42458857013b519)
 - [GoでHTTPクライアントを書く時のURLの組み立て方 - Qiita](https://qiita.com/yyoshiki41/items/a0354d9ad70c1b8225b6)
 - [goでWebサーバを書くためのシンプルなライブラリchiの紹介 - Qiita](https://qiita.com/tjun/items/3eea798905b597ec83c0)
+- [Golangでパーセントエンコーディング - 逆さまにした](http://cipepser.hatenablog.com/entry/2017/07/29/083729)
+    - [Golangでパーセントエンコーディングをデコードする - 逆さまにした](http://cipepser.hatenablog.com/entry/2017/08/05/095807)
+    - [encodeURIComponentが世界基準だと誤解してた話 - Qiita](https://qiita.com/shibukawa/items/c0730092371c0e243f62)
 
 ## 他サービスとの連携
 
