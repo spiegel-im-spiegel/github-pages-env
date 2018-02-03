@@ -1,7 +1,7 @@
 +++
 title = "「CPU に対するサイドチャネル攻撃」に関する覚え書き"
 date =  "2018-01-04T22:01:45+09:00"
-update = "2018-01-24T20:38:41+09:00"
+update = "2018-02-04T02:43:43+09:00"
 description = "投機的実行機能やアウトオブオーダー実行機能を持つ CPU に対してサイドチャネル攻撃を行う手法が報告されている。ただし影響度は低い。"
 image = "/images/attention/remark.jpg"
 tags = [
@@ -159,3 +159,4 @@ CVSS については[解説ページ]({{< relref "remark/2015/cvss-v3-metrics-in
 - [CPU脆弱性への暫定的な緩和策を加えた「Opera」のセキュリティアップデートが公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1102503.html)
 - [トーバルズ氏、インテルの「Meltdown/Spectre」への対応を批判 - ZDNet Japan](https://japan.zdnet.com/article/35113527/)
 - [AppleがSierraとEl Capitanが動いているMacのためにMeltdownのフィックスを発行  |  TechCrunch Japan](http://jp.techcrunch.com/2018/01/24/2018-01-23-apple-issues-meltdown-fix-for-macs-running-sierra-and-el-capitan/)
+- [Spectre/Meltdown脆弱性を利用したマルウェアが発見  - PC Watch](https://pc.watch.impress.co.jp/docs/news/1104573.html)
