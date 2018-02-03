@@ -1,6 +1,7 @@
 +++
 title = "Git Extensions に関する覚え書き"
 date =  "2018-01-21T16:07:15+09:00"
+update =  "2018-02-03T18:31:50+09:00"
 description = "毎度のことながらインストールしたときのことを忘れているため，Git Extensions のインストールに絡むあれこれについて覚え書きを記しておく。"
 image = "/images/attention/remark.jpg"
 tags        = [ "git", "tools", "git-extensions", "conemu", "putty" ]
@@ -84,6 +85,7 @@ Windows 用なら [Git Extensions] 本体の他に以下のツールが同梱さ
 
 - [GnuPG for Windows : gpg-agent について]({{< relref "openpgp/using-gnupg-for-windows-2.md" >}}) : SSH の鍵管理も gpg-agent で行う
 - [Git Extensions 2.49 × ConEmu ＝ ♥]({{< relref "remark/2016/11/git-extensions-2_49.md" >}})
+- [Git Extensions と LibreOffice 6 と OpenPGP]({{< relref "openpgp/git-extensions-and-libreoffice-6-with-openpgp.md" >}})
 
 [Git]: https://git-scm.com/
 [Git for Windows]: http://gitforwindows.org/
