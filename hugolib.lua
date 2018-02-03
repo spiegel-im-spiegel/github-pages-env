@@ -17,7 +17,36 @@ end
 
 -- Release Post (hugo undraft ...)
 hugolib.release = function(path)
-	return nyagos.rawexec("hugo.exe", "undraft", "content/"..path)
+	local hugopath = "content/"..path
+
+	local lines = {}
+	local reader, errmsg, errno = io.open(hugopath, "r")
+	if reader == nil then return errno, errmsg end
+	for line in reader:lines() do
+		table.insert(lines, line)
+	end
+
+	local writer, errmsg, errno = io.open(hugopath, "w+b")
+	if writer == nil then return errno, errmsg end
+	local datestr = "date = \""..os.date("%Y-%m-%dT%H:%M:%S+09:00").."\"\n" -- JST only
+	local tomlFlag = false
+	for i, line in ipairs(lines) do
+		if (not tomlFlag) and line == "+++" then
+			writer:write(line.."\n")
+			tomlFlag = true
+		elseif  tomlFlag and line == "+++" then
+			writer:write(line.."\n")
+			tomlFlag = false
+		elseif  tomlFlag and string.sub(line, 0, 4) == "date" then
+			nyagos.write(datestr)
+			writer:write(datestr) -- replace line ("date" element)
+		elseif  tomlFlag and string.sub(line, 0, 5) == "draft" then
+			-- delete line
+		else
+			writer:write(line.."\n")
+		end
+	end
+	return 0, nil
 end
 
 -- Update Post (add "update" element in front matter)
