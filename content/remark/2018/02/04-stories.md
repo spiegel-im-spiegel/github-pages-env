@@ -1,7 +1,7 @@
 +++
 title = "週末スペシャル： 2019年の暦象，他"
 date = "2018-02-04T02:44:22+09:00"
-update = "2018-02-04T09:23:30+09:00"
+update = "2018-02-04T21:04:43+09:00"
 description = "2019年の暦象 / Coincheck のアレ / インフルエンザ過敏症とトリアージ / 「公衆無線LANセキュリティ分科会報告書（案）に対する意見募集」"
 image = "/images/attention/kitten.jpg"
 tags        = [ "astronomy", "calendar", "security", "medical", "risk", "management", "wireless", "fintech", "market" ]
@@ -53,6 +53,7 @@ tags        = [ "astronomy", "calendar", "security", "medical", "risk", "managem
 
 - [Coincheckで発生した暗号通貨NEMの不正送金事案についてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20180126/1517012654)
 - [コインチェックからのNEM流出、なぜ安全対策が遅れたのか(楠正憲) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/kusunokimasanori/20180128-00080965/)
+    - [コインチェック事件から1週間、よく聞かれた疑問と今後の論点(楠正憲) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/kusunokimasanori/20180204-00081229/)
 - [金融庁がコインチェックへの立入検査、CAMPFIREなどみなし仮想通貨交換業者15社にも報告徴求命令  |  TechCrunch Japan](http://jp.techcrunch.com/2018/02/02/fsa-coincheck/)
 
 一応，重大なセキュリティ・インシデント（かつ現在進行形）なんで挙げておくけど，個人的には[「仮想通貨」]の投機には小指の先ほども興味が無いので完全に他人事である。

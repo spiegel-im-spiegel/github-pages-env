@@ -1,7 +1,7 @@
 +++
 title = "OpenPGP に関するブックマーク"
 date =  "2017-12-01T15:15:33+09:00"
-update = "2017-12-01T18:42:22+09:00"
+update = "2018-02-04T21:04:43+09:00"
 description = "OpenPGP に関するリンクをブックマークとして集めてみた（時事ネタは除く）。"
 image = "/images/attention/openpgp.png"
 tags        = [ "openpgp", "gnupg", "bookmark" ]
@@ -96,6 +96,7 @@ tags        = [ "openpgp", "gnupg", "bookmark" ]
     - {{< pdf-file title="PGP/GPG インターネットで広く使われている暗号技術（白黒バージョン）" link="http://www.baldanders.info/spiegel/archive/pgpdump/About_PGP_2002.pdf" >}} （2002年）
     - {{< pdf-file title="PGP/GPG インターネットで広く使われている暗号技術（スライド＋ノート）" link="http://www.baldanders.info/spiegel/archive/pgpdump/About_PGP_2002_NOTE.pdf" >}} （2002年）
     - {{< pdf-file title="OpenPGPとPKI" link="http://www.baldanders.info/spiegel/archive/pgpdump/PGP-001.pdf" >}} （2002年）
+- [OpenPGP(実際はGnuPGなど)の活用事例 - Qiita](https://qiita.com/tsuyoshi_cho/items/b5b37be4f52f0adb0f1b)
 
 ## 自作ツール
 

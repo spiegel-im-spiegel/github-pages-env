@@ -1,6 +1,7 @@
 +++
 title = "LibreOffice と OpenPGP （仕切り直し）"
 date = "2018-02-04T14:58:31+09:00"
+update = "2018-02-04T20:35:04+09:00"
 description = "原因が分かったので仕切り直しの記事を書くことにする。"
 image = "/images/attention/openpgp.png"
 tags        = [ "tools", "libreoffice", "openpgp", "gnupg" ]
@@ -131,16 +132,20 @@ Linux 版では [LibreOffice] 5.4 から [OpenPGP] 署名とその検証が可�
 [OpenPGP] 鍵でドキュメントが暗号化できると取り回しが凄く楽になるんだけどねぇ。
 メールにパスワード書くとかマヌケなことをしなくて良くなるし（笑）
 
+### 追記
 
+真っさらな状態から [OpenPGP] 鍵を作って，その鍵を使って暗号化を行ったら上手くいった。
+更にその状態で自分の公開鍵をインポートし，その公開鍵で暗号化を行ったところ，これも上手くいった。
+どうも，私の鍵束もしくはその設定に問題があるっぽい。
 
+というわけで，暗号化の方も使えるようだ。
 
-
-
-
-
-
+- 暗号化は1つの公開鍵のみ受け入れる？ （2つ以上同時に選ぶとエラーになる）
+- 暗号化して保存した後にデジタル署名を行えば暗号化とデジタル署名を同時に行える 
 
 ## ブックマーク
+
+- [LibreOfficeで文書に電子署名 - Qiita](https://qiita.com/tsuyoshi_cho/items/4cf78f8f1d0a0dd94018)
 
 - [GnuPG チートシート（鍵作成から失効まで）]({{< relref "openpgp/gnupg-cheat-sheet.md" >}})
 - [OpenPGP 鍵管理に関する考察]({{< relref "openpgp/openpgp-key-management.md" >}})

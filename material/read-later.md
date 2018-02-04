@@ -51,5 +51,6 @@
 
 ## その他
 
+- [初めて Google カレンダーの「Gmailから予定を作成」が実行された - 電気ウナギ的○○](http://blog.netandfield.com/shar/2018/02/-google-gmail.html)
 
 (end of file)
