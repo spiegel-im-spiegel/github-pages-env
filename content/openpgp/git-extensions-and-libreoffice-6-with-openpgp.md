@@ -1,6 +1,7 @@
 +++
 title = "Git Extensions と LibreOffice 6 と OpenPGP"
 date =  "2018-02-03T18:18:31+09:00"
+update =  "2018-02-04T15:05:38+09:00"
 description = "LibreOffice での OpenPGP 署名が上手くできないんだけど！"
 image = "/images/attention/openpgp.png"
 tags        = [ "tools", "git-extensions", "libreoffice", "openpgp", "gnupg" ]
@@ -80,6 +81,12 @@ GnuPG 側と上手く連携できていれば「証明書の選択」ダイア�
 何がいけないんだろう。
 誰かやり方を教えてください。
 はっきり言って [Gpg4win] 要らないので使えないなら削除したい。
+
+{{% div-box %}}
+**【2018-02-04 追記】** 原因が分かったので仕切り直した。
+
+- [LibreOffice と OpenPGP （仕切り直し）]({{< relref "openpgp/libreoffice-with-openpgp.md" >}})
+{{% /div-box %}}
 
 ## ブックマーク
 
