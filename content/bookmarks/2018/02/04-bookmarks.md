@@ -1,6 +1,7 @@
 +++
 title = "2018-02-04 のブックマーク"
 date =  "2018-02-04T02:46:56+09:00"
+update =  "2018-02-05T09:25:30+09:00"
 description = "「Adobe Flash Player の未修正の脆弱性 (CVE-2018-4878) に関する注意喚起」他"
 image = "/images/avatar.jpg"
 
@@ -68,6 +69,7 @@ flattr    = "spiegel"
 - [AVAST、自社開発のマシンコード逆コンパイラー「RetDec」をオープンソース化 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1103751.html)
 - [ポケモンGOのNiantic、ARのEscher Realityを買収――マルチプレイヤーARゲームが可能に  |  TechCrunch Japan](http://jp.techcrunch.com/2018/02/02/2018-02-01-niantic-buy-escher-reality-ar-startup/)
 - [「7-Zip」v18が正式公開 ～“LZFSE”アルゴリズムを利用したDMG形式の展開に対応 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1103786.html)
+    - [7-Zip](http://www.7-zip.org/)
 - [「Java SE 8」のパブリックアップデートが延長、新規提供は2019年1月まで継続される - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1103999.html)
 - [データ通信量に優しい「YouTube Go」、130カ国以上で利用可能に - CNET Japan](https://japan.cnet.com/article/35114111/)
 - [アップル、「macOS Server」への大幅な変更を発表--多数のサービスを廃止へ - CNET Japan](https://japan.cnet.com/article/35113907/)
