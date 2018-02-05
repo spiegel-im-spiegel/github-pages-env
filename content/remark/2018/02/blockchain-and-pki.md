@@ -1,10 +1,9 @@
 +++
 title = "「仮想通貨」と公開鍵基盤"
-date =  "2018-02-05T09:40:15+09:00"
+date = "2018-02-05T19:10:06+09:00"
 description = "Bitcoin が気にするのは Blockchain に記載されるアドレスの一貫性と無矛盾性である。今回はこの部分についてもう少し詳しく書いてみる。"
 image = "/images/attention/kitten.jpg"
 tags = ["blockchain", "fintech", "pki", "openpgp", "x509", "trust", "management", "security"]
-draft = true
 
 [author]
   name      = "Spiegel"
@@ -60,7 +59,7 @@ Blockchain もしくは Blockchain に準ずる技術を用い，価値可換な
 
 {{< fig-quote >}}
 \[
-    COIN : A(a) \xrightarrow{T(c)} B(b)
+    COIN : A[a] \xrightarrow{T(c)} B[b]
 \]
 {{< /fig-quote >}}
 
@@ -83,16 +82,16 @@ Blockchain もしくは Blockchain に準ずる技術を用い，価値可換な
 
 - $a$ の帰属先が $A$ であると証明できない
     - $B$ は入金 $c$ を $A$ によるものではないと主張できる。 $B$ は $A$ からの入金を否認し $A$ に尚も $c$ を請求するかもしれない
-    - $a$ は別の誰か（たとえば $E$）に乗っ取られているかもしれない。これにより $B$ は取引不成立とみなし $A$ に何らかのペナルティを課すかもしれない \\[ COIN : E(a) \xrightarrow{T( c )} B(b) \\]
+    - $a$ は別の誰か（たとえば $E$）に乗っ取られているかもしれない。これにより $B$ は取引不成立とみなし $A$ に何らかのペナルティを課すかもしれない \\[ COIN : E[a] \xrightarrow{T( c )} B[b] \\]
 - $b$ の帰属先が $B$ であると証明できない
     - $B$ は $b$ が自身に帰属しないと主張できる。これにより $B$ は $A$ からの入金を否認できる
-    - $b$ は別の誰かに乗っ取られているかもしれない。これにより $A$ は取引不成立とみなして出金を拒否した上で $B$ に何らかのペナルティを課すかもしれない（出金した $c$ を上回る量の賠償請求を行うなど） \\[ COIN : A(a) \xrightarrow{T( c )} E(b) \\]
+    - $b$ は別の誰かに乗っ取られているかもしれない。これにより $A$ は取引不成立とみなして出金を拒否した上で $B$ に何らかのペナルティを課すかもしれない（出金した $c$ を上回る量の賠償請求を行うなど） \\[ COIN : A[a] \xrightarrow{T( c )} E[b] \\]
 
 Coincheck 事例の事実関係は（今のところ）よく分かってない部分もあるが，知らない誰かがアドレスを乗っ取って知らない誰かへ「流出」したということであれば
 
 {{< fig-quote >}}
 \[
-    COIN : E(a) \xrightarrow{T(c)} E(b)
+    COIN : E[a] \xrightarrow{T(c)} E[b]
 \]
 {{< /fig-quote >}}
 
@@ -147,8 +146,8 @@ graph TD
   CA1["root CA"]-- Digital Sign -->CA2
   CA1-- Digital Sign -->CA3
 
-  CA2-- Digital Sign -->Aa(("A(a)"))
-  CA3-- Digital Sign -->Bb(("B(b)"))
+  CA2-- Digital Sign -->Aa(("A[a]"))
+  CA3-- Digital Sign -->Bb(("B[b]"))
 {{< /fig-mermaid >}}
 
 X.509 は「認証局は信用できる」という前提に立った信用モデルと言える。
@@ -170,8 +169,8 @@ X.509 は大規模かつ安定的な運用に向いているが，いったん�
 
 {{< fig-mermaid >}}
 graph LR
-  Aa(("A(a)"))
-  Bb(("B(b)"))
+  Aa(("A[a]"))
+  Bb(("B[b]"))
 
   Aa-- Digital Sign -->Bb
   Bb-- Digital Sign -->Aa
@@ -182,9 +181,9 @@ $B$ と $D$ は面識があって電子署名を交わしているが， $A$ と
 
 {{< fig-mermaid >}}
 graph LR
-  Aa(("A(a)"))
-  Bb(("B(b)"))
-  Dd(("D(d)"))
+  Aa(("A[a]"))
+  Bb(("B[b]"))
+  Dd(("D[d]"))
 
   Aa-- Digital Sign -->Bb
   Bb-- Digital Sign -->Aa
@@ -197,9 +196,9 @@ graph LR
 
 {{< fig-mermaid >}}
 graph LR
-  Aa(("A(a)"))
-  Bb(("B(b)"))
-  Dd(("D(d)"))
+  Aa(("A[a]"))
+  Bb(("B[b]"))
+  Dd(("D[d]"))
 
   Aa-- Digital Sign -->Bb
   Aa-. validate! .->Dd
