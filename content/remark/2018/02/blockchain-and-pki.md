@@ -218,7 +218,7 @@ graph LR
 山根信二さん等の「{{< pdf-file title="OpenPGPとPKI" link="http://www.baldanders.info/spiegel/archive/pgpdump/PGP-001.pdf" >}}」では X.509 と OpenPGP の PKI の比較を行っている[^pki1]。
 以下に比較表を示す。
 
-[^pki1]: この論文は2002年に旧 OpePKSD.org で公開されたが，サイトそのものが消失したため [Internet Archive](https://web.archive.org/web/20110907063003/http://www.openpksd.org/) からサルベージした。
+[^pki1]: この論文は2002年に旧 OpenPKSD.org で公開されたが，サイトそのものが消失したため [Internet Archive](https://web.archive.org/web/20110907063003/http://www.openpksd.org/) からサルベージした。
 
 |                 特徴 | X.509            | OpenPGP            |
 | --------------------:| ---------------- | ------------------ |

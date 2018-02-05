@@ -92,7 +92,7 @@ tags        = [ "openpgp", "gnupg", "bookmark" ]
     - [CRYPTREC暗号リスト(電子政府推奨暗号リスト)](http://www.cryptrec.go.jp/list.html)
     - [CRYPTREC暗号の仕様書](http://www.cryptrec.go.jp/method.html)
     - [CRYPTREC報告書](http://www.cryptrec.go.jp/report.html)
-- 旧 OpePKSD.org（[Internet Archive](https://web.archive.org/web/20110907063003/http://www.openpksd.org/)）からドキュメントをサルベージしてみた
+- 旧 OpenPKSD.org（[Internet Archive](https://web.archive.org/web/20110907063003/http://www.openpksd.org/)）からドキュメントをサルベージしてみた
     - {{< pdf-file title="PGP/GPG インターネットで広く使われている暗号技術（白黒バージョン）" link="http://www.baldanders.info/spiegel/archive/pgpdump/About_PGP_2002.pdf" >}} （2002年）
     - {{< pdf-file title="PGP/GPG インターネットで広く使われている暗号技術（スライド＋ノート）" link="http://www.baldanders.info/spiegel/archive/pgpdump/About_PGP_2002_NOTE.pdf" >}} （2002年）
     - {{< pdf-file title="OpenPGPとPKI" link="http://www.baldanders.info/spiegel/archive/pgpdump/PGP-001.pdf" >}} （2002年）
