@@ -18,6 +18,7 @@
 - [合理性の危機 | 日経サイエンス](http://www.nikkei-science.com/201802_086.html)
 - [もうすぐ絶滅するという開かれたウェブについて  続・情報共有の未来 - 達人出版会](https://tatsu-zine.com/books/infoshare2)
 	- [『もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来』サポートページ公開 - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20171226/openweb)
+    - [もうすぐ絶滅するという開かれたウェブについて　続・情報共有の未来 - pho's blog](http://pho.hatenablog.com/entry/2018/02/04/130937)
 - [Amazon | 男と女-TWO HEARTS TWO VOICES- | 稲垣潤一 | J-POP | 音楽](https://www.amazon.co.jp/exec/obidos/ASIN/B001G6RB7W/baldandersinf-22/)
 - [母・娘・祖母が共存するために | 信田さよ子 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4022515082/baldandersinf-22/)
 
@@ -42,6 +43,7 @@
 
 ## セキュリティ関連
 
+- [「Google Chrome 64」が更新、ゼロデイ脆弱性が公表されたFlashプラグインも新版に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1104756.html)
 
 ## 天文関連
 
@@ -52,5 +54,11 @@
 ## その他
 
 - [初めて Google カレンダーの「Gmailから予定を作成」が実行された - 電気ウナギ的○○](http://blog.netandfield.com/shar/2018/02/-google-gmail.html)
+- [「オープンソース」という言葉が発明されて20年になるとな - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20180205/opensource)
+- [そうか。もう Visual Studio は 2017 だったよな・・・ - 電気ウナギ的○○](http://blog.netandfield.com/shar/2018/02/-visual-studio-2017.html)
+- [Unity 2017 を単体で起動してみる - 電気ウナギ的○○](http://blog.netandfield.com/shar/2018/02/unity-2017.html)
+- [LaTeXコマンド - 矢印の上下に文字列 - xleftarrow, xrightarrow](https://medemanabu.net/latex/xleftarrow-xrightarrow/)
+- [無償のコードエディタVSCode、実行中のJavaアプリのコードを動的に書き換えて修正できる「Hot Code Replacement」（ホットコード置換）を実現 － Publickey](http://www.publickey1.jp/blog/18/vscodejavahot_code_replacement.html)
+- [「Windows 10」の世界シェア、ついに「Windows 7」を抜く - ZDNet Japan](https://japan.zdnet.com/article/35114190/)
 
 (end of file)
