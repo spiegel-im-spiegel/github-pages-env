@@ -44,12 +44,15 @@
 ## セキュリティ関連
 
 - [「Google Chrome 64」が更新、ゼロデイ脆弱性が公表されたFlashプラグインも新版に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1104756.html)
+- [Wi-Fiや小電力無線のセキュリティを評価--PwCが新サービス - ZDNet Japan](https://japan.zdnet.com/article/35114265/)
 
 ## 天文関連
 
+- [観測史上最強の太陽磁場 | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2018/20180206-hinode.html)
 
 ## 知財関連
 
+- [アップル、2018年登場の「iPhone」ではクアルコム製チップを不採用か - CNET Japan](https://japan.cnet.com/article/35114286/) : 特許係争の影響らしい
 
 ## その他
 
@@ -60,5 +63,9 @@
 - [LaTeXコマンド - 矢印の上下に文字列 - xleftarrow, xrightarrow](https://medemanabu.net/latex/xleftarrow-xrightarrow/)
 - [無償のコードエディタVSCode、実行中のJavaアプリのコードを動的に書き換えて修正できる「Hot Code Replacement」（ホットコード置換）を実現 － Publickey](http://www.publickey1.jp/blog/18/vscodejavahot_code_replacement.html)
 - [「Windows 10」の世界シェア、ついに「Windows 7」を抜く - ZDNet Japan](https://japan.zdnet.com/article/35114190/)
+- [自分に都合のいいように環境改変 – 外来種アメリカザリガニの成長戦略 – academist Journal](https://academist-cf.com/journal/?p=6935)
+- [クラウドインフラ、AWSがシェア3割超で突出したリーダーを維持。小規模ベンダは上位ベンダにシェアを奪われている。2017年第4四半期、Synergy Research Group － Publickey](http://www.publickey1.jp/blog/18/aws320174synergy_research_group.html)
+- [タイムゾーン呪いの書 - Qiita](https://qiita.com/dmikurube/items/15899ec9de643e91497c)
+- [信田さよ子×斎藤環　根深い「母娘問題」に共存の道はあるのか？ (1/6) 〈AERA〉｜AERA dot. (アエラドット)](https://dot.asahi.com/aera/2018020200049.html)
 
 (end of file)

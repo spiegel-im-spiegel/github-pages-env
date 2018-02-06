@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update =  "2018-02-02T18:09:04+09:00"
+update = "2018-02-06T20:10:16+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -20,7 +20,6 @@ title = "Go 言語に関するブックマーク"
   flattr    = "spiegel"
 
 [scripts]
-  highlightjs = false
   mathjax = false
   mermaidjs = false
 +++
@@ -177,6 +176,8 @@ title = "Go 言語に関するブックマーク"
 - [sliceの重複チェックを高速化 - Qiita](http://qiita.com/hi-nakamura/items/5671eae147ffa68c4466)
 - [Goのarrayとsliceを理解するときがきた - Qiita](http://qiita.com/seihmd/items/d9bc98a4f4f606ecaef7) : この説明は分かりやすい。おススメ
 - [uint64型を[]bytes型に変換する - Qiita](http://qiita.com/joniyjoniy/items/cbfb7d5c49aec5bf63c0)
+- [golangのequalityの評価について - podhmo's diary](http://pod.hatenablog.com/entry/2016/07/30/204357)
+    - [Goで違うmapであることをテストする - Qiita](https://qiita.com/karupanerura/items/03d6766fd8568c15fc90)
 
 ### 入出力処理
 

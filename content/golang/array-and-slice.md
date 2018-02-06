@@ -3,7 +3,7 @@ tags = ["golang", "programming", "slice"]
 description = "配列と slice との関係について。あくまでも私のための覚え書きである。"
 draft = false
 date = "2017-03-15T00:31:48+09:00"
-update = "2017-11-05T17:32:49+09:00"
+update = "2018-02-06T20:10:16+09:00"
 title = "配列と Slice"
 
 [author]
@@ -19,6 +19,10 @@ title = "配列と Slice"
   facebook = "spiegel.im.spiegel"
   flickr = "spiegel"
   tumblr = "spiegel-im-spiegel"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 以下の記事を見て思わず膝を打った。
@@ -586,6 +590,9 @@ slc1 == slc2
 - [Arrays, slices (and strings): The mechanics of 'append' - The Go Blog](https://blog.golang.org/slices)
 - [Go のスライスでハマッたところ - Block Rockin’ Codes](http://jxck.hatenablog.com/entry/golang-slice-internals2)
 - [golang で string を []byte にキャストしてもメモリコピーが走らない方法を考えてみる - Qiita](http://qiita.com/mattn/items/176459728ff4f854b165) : ネタ記事
+- [golangのequalityの評価について - podhmo's diary](http://pod.hatenablog.com/entry/2016/07/30/204357)
+    - [Goで違うmapであることをテストする - Qiita](https://qiita.com/karupanerura/items/03d6766fd8568c15fc90)
+
 - [関数とポインタ]({{< relref "golang/function-and-pointer.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
