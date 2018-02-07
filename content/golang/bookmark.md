@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-02-06T20:10:16+09:00"
+update = "2018-02-07T21:31:43+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -690,6 +690,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [O'Reilly Concurrency in Goの読書メモ - Qiita](https://qiita.com/YmgchiYt/items/420eaf2bcf7bee4ae152)
 - [Goでクリーンアーキテクチャを試す | プログラミング | POSTD](http://postd.cc/golang-clean-archithecture/)
 - [Golangの最新版をソースからビルドする - Qiita](https://qiita.com/tetsu_koba/items/bb3f2801373f64fbc661)
+- [#golang CodeReviewComments 日本語翻訳  - Qiita](https://qiita.com/knsh14/items/8b73b31822c109d4c497)
 
 ### 他言語との比較もしくは移行
 

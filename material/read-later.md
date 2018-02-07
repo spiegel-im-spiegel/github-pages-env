@@ -46,6 +46,7 @@
 
 - [「Google Chrome 64」が更新、ゼロデイ脆弱性が公表されたFlashプラグインも新版に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1104756.html)
 - [Wi-Fiや小電力無線のセキュリティを評価--PwCが新サービス - ZDNet Japan](https://japan.zdnet.com/article/35114265/)
+- [ニュース解説 - 攻撃を再現して驚いた！ Skypeなど多数のアプリにあまりに致命的な脆弱性：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/14/346926/020501301/?rt=nocnt)
 
 ## 天文関連
 
@@ -68,5 +69,8 @@
 - [クラウドインフラ、AWSがシェア3割超で突出したリーダーを維持。小規模ベンダは上位ベンダにシェアを奪われている。2017年第4四半期、Synergy Research Group － Publickey](http://www.publickey1.jp/blog/18/aws320174synergy_research_group.html)
 - [タイムゾーン呪いの書 - Qiita](https://qiita.com/dmikurube/items/15899ec9de643e91497c)
 - [信田さよ子×斎藤環　根深い「母娘問題」に共存の道はあるのか？ (1/6) 〈AERA〉｜AERA dot. (アエラドット)](https://dot.asahi.com/aera/2018020200049.html)
+- [Qiitaの記事をGitHubで管理してTravisCI経由で自動投稿する - Qiita](https://qiita.com/rednes/items/2d76435434ac632fc6d4)
+- [JavaScriptエンジン「V8 release v6.5」リリース。WebAssemblyバイナリをダウンロードと並行してコンパイル、ダウンロード完了とほぼ同時にコンパイルも完了 － Publickey](http://www.publickey1.jp/blog/18/javascriptv8_release_v65webassembly.html)
+- [Washington Monthly |  How to Fix Facebook—Before It Fixes Us](https://washingtonmonthly.com/magazine/january-february-march-2018/how-to-fix-facebook-before-it-fixes-us/)
 
 (end of file)
