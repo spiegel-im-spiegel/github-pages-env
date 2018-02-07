@@ -1,6 +1,6 @@
 +++
 date = "2016-03-29T22:16:41+09:00"
-update = "2017-11-06T09:17:16+09:00"
+update = "2018-02-07T15:29:42+09:00"
 description = "Go 言語の引数は基本的に「値渡し（call by value）」である。 Instance の値ではなく実体を渡したいときにしたい場合はポインタを使う。"
 draft = false
 tags = ["golang", "function", "pointer", "defer"]
@@ -211,13 +211,13 @@ invalid operation: x += y (operator + not defined on pointer)
 
 なお，ポインタ演算が必要な場合は [`unsafe`] パッケージを使う。
 
-### Slice, Map, Channel はポインタ渡しとして振る舞う
+### Slice, Map, Channel は参照渡しのように振る舞う
 
 [slice], [map], [channel] は組み込み型だが内部状態を持つ[^make]。
-これらの型の instance を引数に渡す場合はポインタ渡しのように振る舞う[^slc]。
+これらの型の instance を引数に渡す場合は参照渡しのように振る舞う[^slc]。
 
 [^make]: [slice], [map], [channel] は内部状態を持つため `new()` 関数ではなく `make()` 関数を使う。  `make()` 関数は生成した instance への参照（実体はポインタ）を返す。
-[^slc]: このうち [slice] については特殊な振る舞いをする。詳しくは「[配列と Slice]({{< relref "golang/array-and-slice.md" >}})」を参照のこと。
+[^slc]: 詳しくは「[配列と Slice]({{< relref "golang/array-and-slice.md" >}})」および「[Map の話]({{< relref "golang/map.md" >}})」を参照のこと。
 
 ```go
 package main
@@ -238,12 +238,11 @@ func main() {
 }
 ```
 
-ただし固定の配列や [string] 型[^str] の instance は「値」として振る舞うため[^n]，引数に指定した場合も値渡しのように振る舞う[^cbr1]。
+ただし固定の配列や [string] 型[^str] の instance は「値」として振る舞うため[^n]，引数に指定した場合も値渡しのように振る舞う。
 [slice] とは挙動が異なるためテキトーなコードを書いていると混乱しやすい。
 
 [^str]: [string] 型の実体は `[]byte` 型である。
 [^n]: 固定の配列や [string] 型の instance は nil 値を持たない「non-null 参照」と言える。ちなみに [string] 型のゼロ値は空文字列である。
-[^cbr1]: むしろこれは「参照渡し（call by reference）」に近い。
 
 ```go
 package main

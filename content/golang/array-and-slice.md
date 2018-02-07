@@ -3,7 +3,7 @@ tags = ["golang", "programming", "slice"]
 description = "配列と slice との関係について。あくまでも私のための覚え書きである。"
 draft = false
 date = "2017-03-15T00:31:48+09:00"
-update = "2018-02-06T20:10:16+09:00"
+update = "2018-02-07T15:29:58+09:00"
 title = "配列と Slice"
 
 [author]
@@ -57,11 +57,11 @@ func main() {
 実行結果は以下の通り。
 
 ```text
-ary = 0x1040a124
-0x1040a124: 0
-0x1040a125: 1
-0x1040a126: 2
-0x1040a127: 3
+ary = 0x10410020
+0x10410020: 0
+0x10410021: 1
+0x10410022: 2
+0x10410023: 3
 ```
 
 まぁ分かりやすいよね。
@@ -74,8 +74,8 @@ import "fmt"
 
 type Array4 [4]int8
 
-func dump(ary Array4) {
-    fmt.Printf("ary(dump) = %p\n", &ary)
+func dumpA(ary Array4) {
+    fmt.Printf("dump(ary) = %p\n", &ary)
     for i := 0; i < len(ary); i++ {
         fmt.Printf("%p: %v\n", &ary[i], ary[i])
     }
@@ -83,25 +83,25 @@ func dump(ary Array4) {
 
 func main() {
     ary := Array4{0, 1, 2, 3}
-    fmt.Printf("ary(org) = %p\n", &ary)
-    dump(ary)
+    fmt.Printf("ary = %p\n", &ary)
+    dumpA(ary)
 }
 ```
 
 このコードの実行結果は以下の通り。
 
 ```text
-ary(org) = 0x1040a124
-ary(dump) = 0x1040a128
-0x1040a128: 0
-0x1040a129: 1
-0x1040a12a: 2
-0x1040a12b: 3
+ary = 0x10410020
+dump(ary) = 0x10410040
+0x10410040: 0
+0x10410041: 1
+0x10410042: 2
+0x10410043: 3
 ```
 
-`dump()` 関数の引数として渡される配列がオリジナルのものと異なることが分かるだろう。
+`dumpA()` 関数の引数として渡される配列（のポインタ）がオリジナルのものと異なることが分かるだろう。
 [Go 言語]では関数の引数は原則として「値渡し（call by value）」であるため，配列を渡す場合でも配列のコピーを作って渡すことになる。
-配列の値（＝コピー）を私のではなく配列の実体を渡すにはポインタを使う。
+配列の値（＝コピー）を渡すのではなく配列の実体を渡すにはポインタを使う。
 
 ```go
 package main
@@ -110,8 +110,8 @@ import "fmt"
 
 type Array4 [4]int8
 
-func dump(ary *Array4) {
-    fmt.Printf("ary(dump) = %p\n", ary)
+func dumpA(ary *Array4) {
+    fmt.Printf("dump(ary) = %p\n", ary)
     for i := 0; i < len(ary); i++ {
         fmt.Printf("%p: %v\n", &ary[i], ary[i])
     }
@@ -119,23 +119,23 @@ func dump(ary *Array4) {
 
 func main() {
     ary := Array4{0, 1, 2, 3}
-    fmt.Printf("ary(org) = %p\n", &ary)
-    dump(&ary)
+    fmt.Printf("ary = %p\n", &ary)
+    dumpA(&ary)
 }
 ```
 
 結果は以下の通り。
 
 ```text
-ary(org) = 0x1040a124
-ary(dump) = 0x1040a124
-0x1040a124: 0
-0x1040a125: 1
-0x1040a126: 2
-0x1040a127: 3
+ary = 0x10410020
+dump(ary) = 0x10410020
+0x10410020: 0
+0x10410021: 1
+0x10410022: 2
+0x10410023: 3
 ```
 
-## Slice は配列への参照である
+## [slice] は配列を参照するオブジェクトである
 
 次は配列を [slice] に置き換えてみよう。
 
@@ -144,8 +144,8 @@ package main
 
 import "fmt"
 
-func dump(slc []int8) {
-    fmt.Printf("slc(dump) = %p\n", slc)
+func dumpS(slc []int8) {
+    fmt.Printf("dump(slc) = %p\n", slc)
     for i := 0; i < len(slc); i++ {
         fmt.Printf("%p: %v\n", &slc[i], slc[i])
     }
@@ -153,22 +153,22 @@ func dump(slc []int8) {
 
 func main() {
     slc := []int8{0, 1, 2, 3}
-    fmt.Printf("slc(org) = %p\n", slc)
-    dump(slc)
+    fmt.Printf("slc = %p\n", slc)
+    dumpS(slc)
 }
 ```
 
 配列の場合の記述の違いが分かるだろうか。
 この場合 `slc` には配列 `{0, 1, 2, 3}` へのポインタがセットされる。
-したがって `dump()` 関数の引数には（見かけ上）配列 `{0, 1, 2, 3}` への参照がセットされていることになる。
+したがって `dumpS()` 関数の引数には（見かけ上）配列 `{0, 1, 2, 3}` への参照がセットされていることになる。
 
 ```text
-slc(org) = 0x1040a124
-slc(dump) = 0x1040a124
-0x1040a124: 0
-0x1040a125: 1
-0x1040a126: 2
-0x1040a127: 3
+slc = 0x10410020
+dump(slc) = 0x10410020
+0x10410020: 0
+0x10410021: 1
+0x10410022: 2
+0x10410023: 3
 ```
 
 では応用として今度はこんなコードを考えてみよう。
@@ -180,15 +180,8 @@ import "fmt"
 
 type Array4 [4]int8
 
-func dumpA(ary Array4) {
-    fmt.Printf("ary(dumpA) = %p\n", &ary)
-    for i := 0; i < len(ary); i++ {
-        fmt.Printf("%p: %v\n", &ary[i], ary[i])
-    }
-}
-
 func dumpS(slc []int8) {
-    fmt.Printf("slc(dumpS) = %p\n", slc)
+    fmt.Printf("dump(slc) = %p\n", slc)
     for i := 0; i < len(slc); i++ {
         fmt.Printf("%p: %v\n", &slc[i], slc[i])
     }
@@ -196,8 +189,7 @@ func dumpS(slc []int8) {
 
 func main() {
     ary := Array4{0, 1, 2, 3}
-    fmt.Printf("ary(org) = %p\n", &ary)
-    dumpA(ary)
+    fmt.Printf("ary = %p\n", &ary)
     slc := ary[:]
     dumpS(slc)
 }
@@ -207,21 +199,16 @@ func main() {
 実行結果は以下の通り。
 
 ```text
-ary(org) = 0x1040a124
-ary(dumpA) = 0x1040a128
-0x1040a128: 0
-0x1040a129: 1
-0x1040a12a: 2
-0x1040a12b: 3
-slc(dumpS) = 0x1040a124
-0x1040a124: 0
-0x1040a125: 1
-0x1040a126: 2
-0x1040a127: 3
+aary = 0x10410020
+dump(slc) = 0x10410020
+0x10410020: 0
+0x10410021: 1
+0x10410022: 2
+0x10410023: 3
 ```
 
-配列 `ary` のオリジナルのポインタ値がそのまま `slc` の値になっているのが分かると思う。
-この「[slice] は配列への参照である」ということを踏まえると，こんな面白いコードも書ける。
+配列 `ary` のオリジナルのポインタ値がそのまま `slc` の配列への参照値になっているのが分かると思う。
+これを踏まえると以下の面白いコードも書ける。
 
 ```go
 package main
@@ -230,17 +217,15 @@ import "fmt"
 
 type Array4 [4]int8
 
-func dumpA(ary Array4) {
-    fmt.Printf("ary(dumpA) = %p\n", &ary)
+func dumpA(ary *Array4) {
+    fmt.Printf("dump(ary) = %p\n", ary)
     for i := 0; i < len(ary); i++ {
         fmt.Printf("%p: %v\n", &ary[i], ary[i])
     }
 }
 
 func dumpS(slc []int8) {
-    fmt.Printf("pointer(dumpS) = %p\n", slc)
-    fmt.Printf("size(dumpS) = %v\n", len(slc))
-    fmt.Printf("capacity(dumpS) = %v\n", cap(slc))
+    fmt.Printf("dump(slc, sz, cap) = %p, %d, %d\n", slc, len(slc), cap(slc))
     for i := 0; i < len(slc); i++ {
         fmt.Printf("%p: %v\n", &slc[i], slc[i])
     }
@@ -248,8 +233,7 @@ func dumpS(slc []int8) {
 
 func main() {
     ary := Array4{0, 1, 2, 3}
-    fmt.Printf("ary(org) = %p\n", &ary)
-    dumpA(ary)
+    dumpA(&ary)
     slc1 := ary[0:2]
     dumpS(slc1)
     slc2 := slc1[0:4]
@@ -261,32 +245,27 @@ func main() {
 このコードの実行結果は以下の通り。
 
 ```text
-ary(org) = 0x1040a124
-ary(dumpA) = 0x1040a128
-0x1040a128: 0
-0x1040a129: 1
-0x1040a12a: 2
-0x1040a12b: 3
-pointer(dumpS) = 0x1040a124
-size(dumpS) = 2
-capacity(dumpS) = 4
-0x1040a124: 0
-0x1040a125: 1
-pointer(dumpS) = 0x1040a124
-size(dumpS) = 4
-capacity(dumpS) = 4
-0x1040a124: 0
-0x1040a125: 1
-0x1040a126: 2
-0x1040a127: 3
+ddump(ary) = 0x10410020
+0x10410020: 0
+0x10410021: 1
+0x10410022: 2
+0x10410023: 3
+dump(slc, sz, cap) = 0x10410020, 2, 4
+0x10410020: 0
+0x10410021: 1
+dump(slc, sz, cap) = 0x10410020, 4, 4
+0x10410020: 0
+0x10410021: 1
+0x10410022: 2
+0x10410023: 3
 ```
 
-実は [slice] は配列に対してポインタとサイズと容量の3つの属性を持つオブジェクトである。
-上述のコードでは配列 `ary` を反映し， `slc1` の容量が4となるため `slc2` ではサイズ4の [slice] が作れるわけだ。
+実は [slice] は配列に対する**ポインタとサイズと容量の3つの属性を持つオブジェクト**である。
+上述のコードでは配列 `ary` のサイズが反映されて `slc1` の容量が4となるため `slc2` ではサイズ4の [slice] を作ることができるわけだ。
 
-たとえば `slc1 := ary[2:4]` と書き換えると
+ここで，たとえば `slc1 := ary[2:4]` と書き換えると
 
-```go
+{{< highlight go "hl_lines=24" >}}
 package main
 
 import "fmt"
@@ -294,16 +273,14 @@ import "fmt"
 type Array4 [4]int8
 
 func dumpA(ary Array4) {
-    fmt.Printf("ary(dumpA) = %p\n", &ary)
+    fmt.Printf("dump(ary) = %p\n", ary)
     for i := 0; i < len(ary); i++ {
         fmt.Printf("%p: %v\n", &ary[i], ary[i])
     }
 }
 
 func dumpS(slc []int8) {
-    fmt.Printf("pointer(dumpS) = %p\n", slc)
-    fmt.Printf("size(dumpS) = %v\n", len(slc))
-    fmt.Printf("capacity(dumpS) = %v\n", cap(slc))
+    fmt.Printf("dump(slc, sz, cap) = %p, %d, %d\n", slc, len(slc), cap(slc))
     for i := 0; i < len(slc); i++ {
         fmt.Printf("%p: %v\n", &slc[i], slc[i])
     }
@@ -311,28 +288,25 @@ func dumpS(slc []int8) {
 
 func main() {
     ary := Array4{0, 1, 2, 3}
-    fmt.Printf("ary(org) = %p\n", &ary)
-    dumpA(ary)
+    dumpA(&ary)
     slc1 := ary[2:4]
     dumpS(slc1)
     slc2 := slc1[0:4]
     dumpS(slc2)
 }
-```
+{{< /highlight >}}
+
 `slc1` の容量が変わるため，以下のように実行時 panic になる。
 
 ```text
-ary(org) = 0x1040a124
-ary(dumpA) = 0x1040a128
-0x1040a128: 0
-0x1040a129: 1
-0x1040a12a: 2
-0x1040a12b: 3
-pointer(dumpS) = 0x1040a126
-size(dumpS) = 2
-capacity(dumpS) = 2
-0x1040a126: 2
-0x1040a127: 3
+dump(ary) = 0x10410020
+0x10410020: 0
+0x10410021: 1
+0x10410022: 2
+0x10410023: 3
+dump(slc, sz, cap) = 0x10410022, 2, 2
+0x10410022: 2
+0x10410023: 3
 panic: runtime error: slice bounds out of range
 ```
 
@@ -347,12 +321,8 @@ package main
 
 import "fmt"
 
-type Array4 [4]int8
-
 func dumpS(slc []int8) {
-    fmt.Printf("pointer(dumpS) = %p\n", slc)
-    fmt.Printf("size(dumpS) = %v\n", len(slc))
-    fmt.Printf("capacity(dumpS) = %v\n", cap(slc))
+    fmt.Printf("dump(slc) = %p\n", slc)
     for i := 0; i < len(slc); i++ {
         fmt.Printf("%p: %v\n", &slc[i], slc[i])
     }
@@ -381,45 +351,37 @@ func main() {
 しかし実際には以下のような実行結果になる。
 
 ```text
-pointer(dumpS) = 0x1040a128
-size(dumpS) = 4
-capacity(dumpS) = 8
-0x1040a128: 0
-0x1040a129: 1
-0x1040a12a: 2
-0x1040a12b: 3
-pointer(dumpS) = 0x1040a128
-size(dumpS) = 5
-capacity(dumpS) = 8
-0x1040a128: 0
-0x1040a129: 1
-0x1040a12a: 2
-0x1040a12b: 3
-0x1040a12c: 4
-pointer(dumpS) = 0x1040a128
-size(dumpS) = 4
-capacity(dumpS) = 8
-0x1040a128: 0
-0x1040a129: 1
-0x1040a12a: 2
-0x1040a12b: 3
-pointer(dumpS) = 0x1040a128
-size(dumpS) = 5
-capacity(dumpS) = 8
-0x1040a128: 0
-0x1040a129: 1
-0x1040a12a: 2
-0x1040a12b: 3
-0x1040a12c: 4
+dump(slc) = 0x10410020
+0x10410020: 0
+0x10410021: 1
+0x10410022: 2
+0x10410023: 3
+dump(slc) = 0x10410020
+0x10410020: 0
+0x10410021: 1
+0x10410022: 2
+0x10410023: 3
+0x10410024: 4
+dump(slc) = 0x10410020
+0x10410020: 0
+0x10410021: 1
+0x10410022: 2
+0x10410023: 3
+dump(slc) = 0x10410020
+0x10410020: 0
+0x10410021: 1
+0x10410022: 2
+0x10410023: 3
+0x10410024: 4
 ```
 
-つまり `addS()` 関数に渡す `slc` は値渡しなので `addS()` 関数内で `slc` のサイズが変わっても関数の呼び出し元には反映されないことになる（配列自体には値がセットされている）。
+つまり `addS()` 関数に渡す `slc` は値渡しなので `addS()` 関数内で `slc` のサイズが変わっても関数の呼び出し元には反映されないことになる（ただし配列自体には値がセットされている）。
 `append()` 関数実行後は必ず状態が変わるため正しく [slice] の「値」を更新する必要がある。
 
-## 配列の複製
+## 配列の複製と比較
 
-配列を明示的に複製して使いたい場合がある。
-[Go 言語]では配列の複製はとても簡単である。
+[Go 言語]では配列は値であるため，代入時に自動的に複製が発生する。
+また同じ型であれば `==` 演算子で配列の内容を比較できる。
 
 ```go
 package main
@@ -428,8 +390,8 @@ import "fmt"
 
 type Array4 [4]int8
 
-func dump(ary *Array4) {
-    fmt.Printf("ary(dump) = %p\n", ary)
+func dumpA(ary *Array4) {
+    fmt.Printf("dump(ary) = %p\n", ary)
     for i := 0; i < len(ary); i++ {
         fmt.Printf("%p: %v\n", &ary[i], ary[i])
     }
@@ -438,10 +400,9 @@ func dump(ary *Array4) {
 func main() {
     ary := Array4{0, 1, 2, 3}
     var ary2 Array4
-    fmt.Printf("ary(org) = %p\n", &ary)
-    dump(&ary)
+    dumpA(&ary)
     ary2 = ary
-    dump(&ary2)
+    dumpA(&ary2)
     if ary == ary2 {
         fmt.Println("ary == ary2")
     } else {
@@ -453,27 +414,105 @@ func main() {
 実行結果は以下の通り。
 
 ```text
-ary(org) = 0x1040a124
-ary(dump) = 0x1040a124
-0x1040a124: 0
-0x1040a125: 1
-0x1040a126: 2
-0x1040a127: 3
-ary(dump) = 0x1040a128
-0x1040a128: 0
-0x1040a129: 1
-0x1040a12a: 2
-0x1040a12b: 3
+dump(ary) = 0x10410020
+0x10410020: 0
+0x10410021: 1
+0x10410022: 2
+0x10410023: 3
+dump(ary) = 0x10410024
+0x10410024: 0
+0x10410025: 1
+0x10410026: 2
+0x10410027: 3
 ary == ary2
 ```
 
-`ary` と `ary2` が同じ内容の異なるインスタンス（instance）であることが分かると思う。
-また配列同士の比較も同じ型であれば単純である。
-`[3]int8` と `[4]int8` は異なる型と見なされるため単純比較はできない。
+ただし配列の型が異なる場合（たとえば `[3]int8` と `[4]int8`）は単純比較はできないので注意が必要である。
 
-一方， [slice] の複製が欲しい場合は `copy()` 関数を使う。
+## [slice] の複製と比較
 
-```go
+一方， [slice] は配列のポインタを属性値として持っているだけなので代入を行っても配列自体は複製されない。
+[slice] の複製が欲しい場合は `copy()` 関数を使う。
+
+
+{{< highlight go "hl_lines=15-16" >}}
+package main
+
+import "fmt"
+
+func dumpS(slc []int8) {
+    fmt.Printf("dump(slc) = %p\n", slc)
+    for i := 0; i < len(slc); i++ {
+        fmt.Printf("%p: %v\n", &slc[i], slc[i])
+    }
+}
+
+func main() {
+    slc1 := []int8{0, 1, 2, 3}
+    dumpS(slc1)
+    slc2 := make([]int8, len(slc1), cap(slc1))
+    copy(slc2, slc1)
+    dumpS(slc2)
+}
+{{< /highlight >}}
+
+コピー先の `slc2` について `make()` 関数であらかじめサイズと容量を確保しておくのがポイント。
+実行結果は以下の通り。
+
+```text
+dump(slc) = 0x10410020
+0x10410020: 0
+0x10410021: 1
+0x10410022: 2
+0x10410023: 3
+dump(slc) = 0x10410024
+0x10410024: 0
+0x10410025: 1
+0x10410026: 2
+0x10410027: 3
+```
+
+なお [slice] インスタンス同士は `==` 演算子による比較ができない。
+
+{{< highlight go "hl_lines=18-22" >}}
+package main
+
+import "fmt"
+
+func dumpS(slc []int8) {
+    fmt.Printf("dump(slc) = %p\n", slc)
+    for i := 0; i < len(slc); i++ {
+        fmt.Printf("%p: %v\n", &slc[i], slc[i])
+    }
+}
+
+func main() {
+    slc1 := []int8{0, 1, 2, 3}
+    dumpS(slc1)
+    slc2 := make([]int8, len(slc1), cap(slc1))
+    copy(slc2, slc1)
+    dumpS(slc2)
+    if slc1 == slc2 {
+        fmt.Println("slc1 == slc2")
+    } else {
+        fmt.Println("slc1 != slc2")
+    }
+}
+{{< /highlight >}}
+
+とやっても
+
+```text
+prog.go:18:10: invalid operation: slc1 == slc2 (slice can only be compared to nil)
+```
+
+という感じでコンパイルエラーになる[^ce1]。
+
+[^ce1]: 同様に比較演算子が使えない基本型としては [map] と関数値（function value）がある。
+
+[slice] の内容を比較したいのであれば [`reflect`]`.DeepEqual()` 関数が使える。
+
+{{< highlight go "hl_lines=21-25" >}}
 package main
 
 import (
@@ -481,12 +520,8 @@ import (
     "reflect"
 )
 
-type Array4 [4]int8
-
 func dumpS(slc []int8) {
-    fmt.Printf("pointer(dumpS) = %p\n", slc)
-    fmt.Printf("size(dumpS) = %v\n", len(slc))
-    fmt.Printf("capacity(dumpS) = %v\n", cap(slc))
+    fmt.Printf("dump(slc) = %p\n", slc)
     for i := 0; i < len(slc); i++ {
         fmt.Printf("%p: %v\n", &slc[i], slc[i])
     }
@@ -503,34 +538,29 @@ func main() {
     } else {
         fmt.Println("slc1 != slc2")
     }
-}
-```
 
-コピー先の `slc2` について `make()` 関数であらかじめサイズと容量を確保しておくのがポイント。
-実行結果は以下の通り。
+}
+{{< /highlight >}}
+
+とすれば以下の結果になる。
 
 ```text
-pointer(dumpS) = 0x1040a124
-size(dumpS) = 4
-capacity(dumpS) = 4
-0x1040a124: 0
-0x1040a125: 1
-0x1040a126: 2
-0x1040a127: 3
-pointer(dumpS) = 0x1040a144
-size(dumpS) = 4
-capacity(dumpS) = 4
-0x1040a144: 0
-0x1040a145: 1
-0x1040a146: 2
-0x1040a147: 3
+dump(slc) = 0x10410020
+0x10410020: 0
+0x10410021: 1
+0x10410022: 2
+0x10410023: 3
+dump(slc) = 0x10410024
+0x10410024: 0
+0x10410025: 1
+0x10410026: 2
+0x10410027: 3
 slc1 == slc2
 ```
 
-[slice] 同士を比較するのも単純ではないが， [`reflect`].`DeepEqual()` 関数が使える。
-ちなみに 宣言構文を使ってもっと単純に
+需要があるかどうか分からないが， [slice] が参照している配列のインスタンスが同一であるかどうか調べるには [`reflect`]`.ValueOf()` 関数で値（＝配列）を取得し，そのポインタ値を `==` 演算子で比較する。
 
-```go
+{{< highlight go "hl_lines=21-25 28-32" >}}
 package main
 
 import (
@@ -538,12 +568,65 @@ import (
     "reflect"
 )
 
-type Array4 [4]int8
+func dumpS(slc []int8) {
+    fmt.Printf("dump(slc) = %p\n", slc)
+    for i := 0; i < len(slc); i++ {
+        fmt.Printf("%p: %v\n", &slc[i], slc[i])
+    }
+}
+
+func main() {
+    slc1 := []int8{0, 1, 2, 3}
+    dumpS(slc1)
+    slc2 := make([]int8, len(slc1), cap(slc1))
+    copy(slc2, slc1)
+    dumpS(slc2)
+    if reflect.ValueOf(slc1).Pointer() == reflect.ValueOf(slc2).Pointer() {
+        fmt.Println("slc1 == slc2")
+    } else {
+        fmt.Println("slc1 != slc2")
+    }
+    slc3 := slc1
+    dumpS(slc3)
+    if reflect.ValueOf(slc1).Pointer() == reflect.ValueOf(slc3).Pointer() {
+        fmt.Println("slc1 == slc3")
+    } else {
+        fmt.Println("slc1 != slc3")
+    }
+}
+{{< /highlight >}}
+
+結果は以下の通り。
+
+```text
+dump(slc) = 0x10410020
+0x10410020: 0
+0x10410021: 1
+0x10410022: 2
+0x10410023: 3
+dump(slc) = 0x10410024
+0x10410024: 0
+0x10410025: 1
+0x10410026: 2
+0x10410027: 3
+slc1 != slc2
+dump(slc) = 0x10410020
+0x10410020: 0
+0x10410021: 1
+0x10410022: 2
+0x10410023: 3
+slc1 == slc3
+```
+
+[slice] のポインタ値を比較すればいいぢゃん，と思うかもしれないが，その場合は単に [slice] インスタンスが同一かどうかを比較しているに過ぎない。
+
+{{< highlight go "hl_lines=17-21" >}}
+package main
+
+import "fmt"
 
 func dumpS(slc []int8) {
-    fmt.Printf("pointer(dumpS) = %p\n", slc)
-    fmt.Printf("size(dumpS) = %v\n", len(slc))
-    fmt.Printf("capacity(dumpS) = %v\n", cap(slc))
+    fmt.Printf("dump(slc) = %p\n", slc)
     for i := 0; i < len(slc); i++ {
         fmt.Printf("%p: %v\n", &slc[i], slc[i])
     }
@@ -554,35 +637,29 @@ func main() {
     dumpS(slc1)
     slc2 := slc1
     dumpS(slc2)
-    if reflect.DeepEqual(slc1, slc2) {
+    if &slc1 == &slc2 {
         fmt.Println("slc1 == slc2")
     } else {
         fmt.Println("slc1 != slc2")
     }
 }
-```
+{{< /highlight >}}
 
-とすればいいじゃない，と思われるかもしれないが，結果は以下の通り。
+なので，結果は以下の通り。
 
 ```text
-pointer(dumpS) = 0x1040a124
-size(dumpS) = 4
-capacity(dumpS) = 4
-0x1040a124: 0
-0x1040a125: 1
-0x1040a126: 2
-0x1040a127: 3
-pointer(dumpS) = 0x1040a124
-size(dumpS) = 4
-capacity(dumpS) = 4
-0x1040a124: 0
-0x1040a125: 1
-0x1040a126: 2
-0x1040a127: 3
-slc1 == slc2
+dump(slc) = 0x10410020
+0x10410020: 0
+0x10410021: 1
+0x10410022: 2
+0x10410023: 3
+dump(slc) = 0x10410020
+0x10410020: 0
+0x10410021: 1
+0x10410022: 2
+0x10410023: 3
+slc1 != slc2
 ```
-
-`slc1` と `slc2` の指す配列が同じになり複製できない。
 
 ## ブックマーク
 
@@ -591,12 +668,12 @@ slc1 == slc2
 - [Go のスライスでハマッたところ - Block Rockin’ Codes](http://jxck.hatenablog.com/entry/golang-slice-internals2)
 - [golang で string を []byte にキャストしてもメモリコピーが走らない方法を考えてみる - Qiita](http://qiita.com/mattn/items/176459728ff4f854b165) : ネタ記事
 - [golangのequalityの評価について - podhmo's diary](http://pod.hatenablog.com/entry/2016/07/30/204357)
-    - [Goで違うmapであることをテストする - Qiita](https://qiita.com/karupanerura/items/03d6766fd8568c15fc90)
 
-- [関数とポインタ]({{< relref "golang/function-and-pointer.md" >}})
+- [Map の話]({{< relref "golang/map.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [slice]: http://golang.org/ref/spec#Slice_types
+[map]: http://golang.org/ref/spec#Map_types
 [`reflect`]: https://golang.org/pkg/reflect/ "reflect - The Go Programming Language"
 
 ## 参考図書

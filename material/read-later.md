@@ -27,6 +27,7 @@
 - [広島市 - 無料公衆無線LAN サービス「Hiroshima Free Wi-Fi」について](http://www.city.hiroshima.lg.jp/www/contents/1409563567640/)
 - [さくらのレンタルサーバ／マネージドサーバ 「バックアップ＆ステージング powered by Snapup」提供開始のお知らせ | さくらインターネット](https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1848)
 
+- [PostgreSQL 9.6.3 インストールからテーブル作成まで | ドラブロ](https://www.doraxdora.com/blog/2017/07/25/post-1748/)
 
 ## Autocrypt について
 
