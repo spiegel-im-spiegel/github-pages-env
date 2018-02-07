@@ -1,10 +1,9 @@
 +++
 title = "Map の話"
-date =  "2018-02-07T13:36:46+09:00"
-description = "description"
+date = "2018-02-07T21:03:54+09:00"
+description = "連想配列： map の複製とか比較とか。"
 image = "/images/attention/go-code.png"
-tags        = [ "golang" ]
-draft = true
+tags        = [ "golang", "programming", "map" ]
 
 [author]
   name      = "Spiegel"
