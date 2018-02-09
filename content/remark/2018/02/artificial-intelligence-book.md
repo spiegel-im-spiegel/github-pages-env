@@ -1,6 +1,6 @@
 +++
 title = "『AI vs. 教科書が読めない子どもたち』を読む"
-date =  "2018-02-06T19:55:41+09:00"
+date =  "2018-02-09T22:08:55+09:00"
 description = "途中まで斜め読みしてて「これはちゃんと読んだほうがいいな」と思い直し，メモを取りながら最初からちゃんと読み直すことにした。"
 image = "/images/attention/kitten.jpg"
 tags = [ "artificial-intelligence", "book", "code", "grigori" ]
@@ -161,3 +161,8 @@ AIT が人間社会に与えるインパクトを測定するために，まず�
     - そして、ＡＩ世界恐慌がやってくる
 {{% /fig-quote %}}
 -->
+
+## ブックマーク
+
+- [白泉社、深層学習技術によりAIが自動着色した漫画の配信を開始 - Book Watch/ブックニュース ―MdN Design Interactive edition― - 窓の杜](https://forest.watch.impress.co.jp/docs/bookwatch/booknewsmdn/1105673.html)
+- [放送前にテレビCMの広告効果を予測――野村総研、AIを活用した効果予測モデルを開発 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1802/07/news055.html)

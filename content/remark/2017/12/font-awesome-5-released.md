@@ -90,6 +90,7 @@ CSS はこんな感じで指定できる。
 ## ブックマーク
 
 - [【保存版】Font Awesomeの使い方：Webアイコンフォントを使おう](https://saruwakakun.com/html-css/basic/font-awesome)
+- [アイコンフォントか？ SVG アイコンか？ — Website Usability Info](https://website-usability.info/2015/12/entry_151217.html)
 
 [本家サイト]: http://www.baldanders.info/ "Baldanders.info"
 [Font Awesome]: https://fontawesome.com/ "Font Awesome 5 | Font Awesome"

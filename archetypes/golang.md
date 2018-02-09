@@ -2,7 +2,7 @@
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date =  "{{ .Date }}"
 description = "description"
-image = "/images/attention/go-code.png"
+image = "/images/attention/go-code2.png"
 tags        = [ "golang" ]
 draft = true
 

@@ -22,12 +22,18 @@
 - [Amazon | 男と女-TWO HEARTS TWO VOICES- | 稲垣潤一 | J-POP | 音楽](https://www.amazon.co.jp/exec/obidos/ASIN/B001G6RB7W/baldandersinf-22/)
 - [母・娘・祖母が共存するために | 信田さよ子 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4022515082/baldandersinf-22/)
 
+## Java / JavaScript / Web
+
+- [PostgreSQL 9.6.3 インストールからテーブル作成まで | ドラブロ](https://www.doraxdora.com/blog/2017/07/25/post-1748/)
+- [WEB色見本 原色大辞典 - HTMLカラーコード](https://www.colordic.org/)
+
 ## あとで遊ぶ
 
 - [広島市 - 無料公衆無線LAN サービス「Hiroshima Free Wi-Fi」について](http://www.city.hiroshima.lg.jp/www/contents/1409563567640/)
 - [さくらのレンタルサーバ／マネージドサーバ 「バックアップ＆ステージング powered by Snapup」提供開始のお知らせ | さくらインターネット](https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1848)
-
-- [PostgreSQL 9.6.3 インストールからテーブル作成まで | ドラブロ](https://www.doraxdora.com/blog/2017/07/25/post-1748/)
+- [GitHub Pagesがhttpsをサポートしたので切り替えてみた - Shogo's Blog](https://shogo82148.github.io/blog/2016/06/10/github-page-supports-https/)
+- [Carbon](https://carbon.now.sh/)
+    - [ソースコードを美しく色分けして共有 ～GitHubが紹介している“Carbon”がクール - やじうまの杜 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1105382.html)
 
 ## Autocrypt について
 
@@ -41,20 +47,36 @@
 
 ## Age of Trump
 
+- [エジプト2011年革命の映像アーカイブ：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43309)
 
 ## セキュリティ関連
 
 - [「Google Chrome 64」が更新、ゼロデイ脆弱性が公表されたFlashプラグインも新版に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1104756.html)
 - [Wi-Fiや小電力無線のセキュリティを評価--PwCが新サービス - ZDNet Japan](https://japan.zdnet.com/article/35114265/)
 - [ニュース解説 - 攻撃を再現して驚いた！ Skypeなど多数のアプリにあまりに致命的な脆弱性：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/14/346926/020501301/?rt=nocnt)
+- [【重要】WordPress手動更新のお願い | さくらインターネット](https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1867)
+- [全銀協のフィッシングサイト出現--URLの末尾に要注意 - ZDNet Japan](https://japan.zdnet.com/article/35114396/)
+- [「ADB.Miner」マルウェア、「Android」機器に拡散--仮想通貨をマイニング - ZDNet Japan](https://japan.zdnet.com/article/35114348/)
+- [「Firefox」v58.0.2が公開 ～クラッシュ問題などを修正したメンテナンスリリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1105472.html)
+- [2018年のパスワードハッシュ - Qiita](https://qiita.com/rana_kualu/items/3ef57485be1103362f56)
+- [Chrome ウェブストアで“消せない”マルウェア「DROIDCLUB」が拡散、42万人に影響か - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1105504.html)
+- [「Windows」版「Google Chrome」をフリーズさせる新手の詐欺が登場 - CNET Japan](https://japan.cnet.com/article/35114409/)
+- [[書評]サイバー攻撃 ネット世界の裏側で起きていること | 徳丸浩の日記](https://blog.tokumaru.org/2018/01/blog-post.html) : 書評
+- [多数のスマートテレビがハッキングに無防備--Consumer Reports調査 - CNET Japan](https://japan.cnet.com/article/35114419/)
+- [Water Utility in Europe Hit by Cryptocurrency Malware Mining Attack](http://www.eweek.com/security/water-utility-in-europe-hit-by-cryptocurrency-malware-mining-attack)
+    - [Water Utility Infected by Cryptocurrency Mining Software - Schneier on Security](https://www.schneier.com/blog/archives/2018/02/water_utility_i.html)
+- [Google Chrome、非暗号化（HTTP）ページに”not secure” の警告を表示  |  TechCrunch Japan](http://jp.techcrunch.com/2018/02/09/2018-02-08-chrome-will-soon-mark-all-unencrypted-pages-as-not-secure/)
+- [スマートホームにおける機能安全の国際標準開発が始まります～スマートホームにおける様々なリスクをいかに低減するか～（METI/経済産業省）](http://www.meti.go.jp/press/2017/01/20180122001/20180122001.html)
 
 ## 天文関連
 
 - [観測史上最強の太陽磁場 | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2018/20180206-hinode.html)
+- [2018年2月9日ニュース「赤道はるか上空の奇妙な風『準2年周期振動』が崩れる様子を、世界で初めて再現」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/02/20180209_01.html)
 
 ## 知財関連
 
 - [アップル、2018年登場の「iPhone」ではクアルコム製チップを不採用か - CNET Japan](https://japan.cnet.com/article/35114286/) : 特許係争の影響らしい
+- [音楽の海賊版は「トップアーティストの売上減」と「中堅アーティストの売上増」をもたらす – P2Pとかその辺のお話R](http://p2ptk.org/copyright/749)
 
 ## その他
 
@@ -72,5 +94,18 @@
 - [Qiitaの記事をGitHubで管理してTravisCI経由で自動投稿する - Qiita](https://qiita.com/rednes/items/2d76435434ac632fc6d4)
 - [JavaScriptエンジン「V8 release v6.5」リリース。WebAssemblyバイナリをダウンロードと並行してコンパイル、ダウンロード完了とほぼ同時にコンパイルも完了 － Publickey](http://www.publickey1.jp/blog/18/javascriptv8_release_v65webassembly.html)
 - [Washington Monthly |  How to Fix Facebook—Before It Fixes Us](https://washingtonmonthly.com/magazine/january-february-march-2018/how-to-fix-facebook-before-it-fixes-us/)
+- [メディア・パブ: 「メディア」も「プラットフォーム」も信頼できないので、「ジャーナリズム」に頼りたい](http://zen.seesaa.net/article/456427314.html)
+- [MozillaがIoT技術の標準化を目指してオープンなゲートウェイを発表、AlexaとSiriが仲良しに？  |  TechCrunch Japan](http://jp.techcrunch.com/2018/02/07/2018-02-06-mozilla-announces-an-open-framework-for-the-internet-of-things/)
+    - [「Raspberry Pi」でIoT機器を管理する「Things Gateway」、Mozillaが新版リリース - CNET Japan](https://japan.cnet.com/article/35114358/)
+- [ソースコードを美しく色分けして共有 ～GitHubが紹介している“Carbon”がクール - やじうまの杜 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1105382.html)
+- [jQuery](https://jquery.com/)
+- [「Googleドライブ」、OfficeファイルやPDFに直接コメント可能に - ZDNet Japan](https://japan.zdnet.com/article/35114412/)
+- [GAE SearchAPI - Qiita](https://qiita.com/takpy/items/5ee8017b88f60536d753)
+- [フリーの高機能コードエディター「Visual Studio Code」の1月アップデートが公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1105605.html)
+- [RustにおけるfutureとgRPC | プログラミング | POSTD](http://postd.cc/futuresandgrpc/)
+- [そろそろ真面目に、HTMLで帳票を描く話をしようか - Qiita](https://qiita.com/cognitom/items/d39d5f19054c8c8fd592)
+- [「エネルギー＝電気・電力」という誤解に注意！：岩瀬昇 | エネルギーの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43314)
+- [第1回　アマゾンがリアル書店を展開する思惑 «  マガジン航[kɔː]](https://magazine-k.jp/2018/02/09/us-bookstore-report-01/)
+- [「民間検閲」はヘイトを排除し、民主主義を守るためのソリューションではない – P2Pとかその辺のお話R](http://p2ptk.org/freedom-of-speech/760)
 
 (end of file)
