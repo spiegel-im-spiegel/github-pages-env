@@ -1,6 +1,6 @@
 +++
 date = "2015-12-09T20:14:59+09:00"
-update = "2017-12-11T19:25:29+09:00"
+update = "2018-02-10T18:01:02+09:00"
 description = "git 各コマンドに関する覚え書き。思い出したら追記予定。"
 draft = false
 tags = ["git", "tools"]
@@ -217,6 +217,7 @@ $ git push -f
 - [Gitでやらかさないための事前予防策 - Qiita](https://qiita.com/muran001/items/f13742b51da3a22117ee)
 - [Pull Request の指摘修正でコミットログが汚れていく問題への対処法の一案 - Qiita](https://qiita.com/thinca/items/44ff57ed56a1f8c7efa2)
 - [Gitでよくあるハプニングの対策とコマンドメモ - Qiita](https://qiita.com/gilly/items/d590528c8309b8e37562)
+- [Git 大文字·小文字ファイル変更を差分対象の設定にする方法 - Qiita](https://qiita.com/yoshihitofujiwara/items/2a776c1ad8ff30122a2a)
 
 ### GitHub
 

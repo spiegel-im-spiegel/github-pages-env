@@ -67,11 +67,14 @@
     - [Water Utility Infected by Cryptocurrency Mining Software - Schneier on Security](https://www.schneier.com/blog/archives/2018/02/water_utility_i.html)
 - [Google Chrome、非暗号化（HTTP）ページに”not secure” の警告を表示  |  TechCrunch Japan](http://jp.techcrunch.com/2018/02/09/2018-02-08-chrome-will-soon-mark-all-unencrypted-pages-as-not-secure/)
 - [スマートホームにおける機能安全の国際標準開発が始まります～スマートホームにおける様々なリスクをいかに低減するか～（METI/経済産業省）](http://www.meti.go.jp/press/2017/01/20180122001/20180122001.html)
+- [Early availability of LibreOffice 5.4.5 and LibreOffice 6.0.1: all users are invited to update for improved robustness and security - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2018/02/09/early-availability-libreoffice-5-4-5-libreoffice-6-0-1/)
+- [The House That Spied on Me](https://gizmodo.com/the-house-that-spied-on-me-1822429852)
 
 ## 天文関連
 
 - [観測史上最強の太陽磁場 | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2018/20180206-hinode.html)
 - [2018年2月9日ニュース「赤道はるか上空の奇妙な風『準2年周期振動』が崩れる様子を、世界で初めて再現」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/02/20180209_01.html)
+- [Interplanetary Teslas and SETI](http://seti.berkeley.edu:8000/tesla/)
 
 ## 知財関連
 
@@ -107,5 +110,8 @@
 - [「エネルギー＝電気・電力」という誤解に注意！：岩瀬昇 | エネルギーの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43314)
 - [第1回　アマゾンがリアル書店を展開する思惑 «  マガジン航[kɔː]](https://magazine-k.jp/2018/02/09/us-bookstore-report-01/)
 - [「民間検閲」はヘイトを排除し、民主主義を守るためのソリューションではない – P2Pとかその辺のお話R](http://p2ptk.org/freedom-of-speech/760)
+- [ニュース - 三菱UFJニコスのシステム障害の原因が判明、3個のHDDが同時に故障：ITpro](http://itpro.nikkeibp.co.jp/atcl/news/17/020803126/?rt=nocnt)
+- [量子コンピュータの挑戦： スーパーコンピュータに勝てるだろうか？](http://www.qmedia.jp/quantum-beat-super-computer/)
+- [Nintendo Switchの上でLinuxを動かすことに成功  |  TechCrunch Japan](http://jp.techcrunch.com/2018/02/10/2018-02-09-hacker-group-manages-to-run-linux-on-a-nintendo-switch/)
 
 (end of file)
