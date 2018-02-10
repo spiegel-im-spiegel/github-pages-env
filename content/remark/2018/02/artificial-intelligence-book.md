@@ -1,10 +1,9 @@
 +++
 title = "『AI vs. 教科書が読めない子どもたち』を読む"
-date =  "2018-02-09T22:08:55+09:00"
+date = "2018-02-11T03:09:57+09:00"
 description = "途中まで斜め読みしてて「これはちゃんと読んだほうがいいな」と思い直し，メモを取りながら最初からちゃんと読み直すことにした。"
 image = "/images/attention/kitten.jpg"
 tags = [ "artificial-intelligence", "book", "code", "grigori" ]
-draft = true
 
 [author]
   name      = "Spiegel"
@@ -88,9 +87,17 @@ AIT が人間社会に与えるインパクトを測定するために，まず�
 {{< /fig-quote >}}
 
 これって現在の AIT の限界を象徴する言葉だよねぇ。
-スパコンを非ノイマン装置や（最近またバズってる）量子コンピュータに置き換えても同じ。
+スパコンを非ノイマン装置や（最近またバズってる）量子コンピュータに置き換えても同じ[^qc1]。
 
-[『シンギュラリティの神話』]のように小難しい哲学用語を駆使しなくても「東ロボくん」を見れば「シンギュラリティなんか起きるわけねぇべ」と自然に思うことができる。
+[^qc1]: 量子コンピュータの現状については「[量子コンピュータの挑戦： スーパーコンピュータに勝てるだろうか？](http://www.qmedia.jp/quantum-beat-super-computer/)」が参考になる。
+
+[『シンギュラリティの神話』]のように小難しい哲学用語を駆使しなくても「東ロボくん」を見れば「シンギュラリティなんか起きるわけねぇべ」と自然に理解することができる。
+
+{{< fig-quote title="AI vs. 教科書が読めない子どもたち" link="https://www.amazon.co.jp/exec/obidos/ASIN/B0791XCYQG/baldandersinf-22/" >}}
+<q>つまり「進の意味でのAI」が人間と同等の知能を得るには、私たちの脳が、意識無意識を問わず認識していることをすべて計算可能な数式に置き換えることができる、ということを意味します。
+しかし、今のところ、数学で数式に置き換えることができるのは、論理的に言えること、統計的に言えること、確率的に言えることの3つだけです。
+そして、私たちの認識をすべて論理、統計、確率に還元することはできません。</q>
+{{< /fig-quote >}}
 
 ### [グリゴリ]に AIT
 
@@ -98,7 +105,9 @@ AIT が人間社会に与えるインパクトを測定するために，まず�
 
 「第3次 AI ブーム」は突然ポッと出てきたわけではない。
 もちろん流行に関係なく継続的に研究している人もいるけれど，大まかな流れとしては「情報社会」の必然として台頭してきたものだ。
-情報ダム兼発電所としての「クラウド」が登場し，その中にいくらでも入る「ビッグデータ」があり，更にそれを活用するのが AIT である。
+情報ダム兼発電所としての「クラウド」が登場し，その中にいくらでも入る「ビッグデータ」があり，更にそれを活用するのが AIT である[^bd1]。
+
+[^bd1]: ただし，単にデータが多いだけではダメらしい。この辺のことは『[AI vs. 教科書が読めない子どもたち]』第2章で解説されている。
 
 {{< fig-quote title="AI vs. 教科書が読めない子どもたち" link="https://www.amazon.co.jp/exec/obidos/ASIN/B0791XCYQG/baldandersinf-22/" >}}
 <q>柔軟性のない機械に、人間並みの物体検出性能を持たせるために必要なもの。
@@ -112,25 +121,78 @@ AIT が人間社会に与えるインパクトを測定するために，まず�
 まさに「鬼に金棒」。
 あるいは「[グリゴリ]に AIT」といったところか。
 
-ということは， AIT が齎すのは単に労働市場の構造変化だけじゃなく，産業構造，ひいては社会構造を大きく変えるものだ，と考えることもできる。
+ということは， AIT が齎すのは単に労働市場の構造変化だけじゃなく，産業構造，ひいては社会構造を大きく変えるものだ，と考えることもできる（この辺の話は第4章に出てくる）。
 
 ## 「人間は「AI にできない仕事」ができるか？」
 
 「東ロボくん」を通じて AIT の限界点が見えてきたところで，次に「AI にできないことを人がどのくらいできるのか」という命題に移ることになる。
-『[AI vs. 教科書が読めない子どもたち]』では第3章に書かれている。
 
-この命題を研究するために「リーディングスキルテスト」を開発したらしい。
-「リーディングスキルテスト」とは AIT が苦手な分野である「文章を読んで内容を理解する」つまり読解力を見るテストらしい。
+{{< fig-quote title="AI vs. 教科書が読めない子どもたち" link="https://www.amazon.co.jp/exec/obidos/ASIN/B0791XCYQG/baldandersinf-22/" >}}
+<q>一学年に子供の数は約100万人。
+半分の約50万人がセンター試験を受験します。
+その上位20%に東ロボくんが入ったのです。
+ホワイトカラーを目指す若者の、中央値どころか平均値をAIが大きく上回った。
+この先、労働市場はどうなるのか。
+どうすれば、当ロボくんに負けた80%の子どもたちに明るい未来を提供できるのか。</q>
+{{< /fig-quote >}}
 
-この「リーディングスキルテスト」を小中学生向けに作成し実際に解かせた結果が，この記事の冒頭で書いた「キーワードとパターンで解いている子、読んでいる子が意外にいる」というフレーズに繋がるわけだ。
+この辺については『[AI vs. 教科書が読めない子どもたち]』の第3章に書かれている。
+この本のメインディッシュは第3章と言えるだろう。
 
+この命題を研究するために「リーディングスキルテスト（RST）」を開発し中高生を中心に「基礎的読解力調査」を実施したそうだ。
+RST は AIT が苦手な分野である「文章を読んで内容を理解する」つまり読解力を見るテストらしい。
 
+RST の開発過程やその調査結果については『[AI vs. 教科書が読めない子どもたち]』の第3章に詳しく書かれているのでそちらを参照していただくとして，簡単なまとめだけ以下に紹介しておく。
 
+{{% fig-quote title="AI vs. 教科書が読めない子どもたち" link="https://www.amazon.co.jp/exec/obidos/ASIN/B0791XCYQG/baldandersinf-22/" %}}
+- 中学校を卒業する段階で、約3割が（内容理解を伴わない）表層的な読解もできない
+- 学力中位の高校でも、半数以上が内容理解を要する読解はできない
+- 進学率100%の進学校でも、内容理解を要する読解問題の正答率は50%強程度である
+- 読解能力値と進学できる高校の偏差値との相関は極めて高い
+- 読解能力値は中学生の間は平均的に向上する
+- 読解能力値は高校では向上していない
+- 読解能力値と家庭の経済状況には負の相関がある
+- 通塾の有無と読解能力値は無関係
+- 読書の好き嫌い、科目の得意不得意、1日のスマートフォンの利用時間や学習時間などの自己申告結果と基礎的読解力には相関はない
+{{% /fig-quote %}}
 
+誤解する馬鹿がいるといけないので念の為に言っておくと，「相関関係」と「因果関係」は別ものだからね。
 
-[AI vs. 教科書が読めない子どもたち]: https://www.amazon.co.jp/exec/obidos/ASIN/B0791XCYQG/baldandersinf-22/ "Amazon.co.jp： ＡＩ　ｖｓ．　教科書が読めない子どもたち eBook: 新井 紀子: Kindleストア"
-[『シンギュラリティの神話』]: {{< relref "remark/2017/09/the-myth-of-the-singularity.md" >}} "『シンギュラリティの神話』を読む"
-[グリゴリ]: http://orion.mt.tama.hosei.ac.jp/hideaki/kenporon.htm "グリゴリの捕縛 あるいは 情報時代の憲法について"
+個人的には読書の好き嫌いが基礎的読解力と相関しない（だろう）というのは痛快だったかな。
+何故か日本人って本を（知識や教養の象徴として）異常に神聖視するよね。
+そういう下らない信仰はもう止めていただきたいものである。
+
+私はよく「[数学の問題を解くのに公式の暗記から始める人はプログラマには向いてないので諦めた方がいい](http://www.baldanders.info/spiegel/log2/000868.shtml "プログラミングは「損得勘定」で考える — Baldanders.info")」と[言っている]({{< relref "remark/2016/09/programming.md" >}} "プログラミングで「計算論的思考」は身につかない")が，プログラマなどという狭い範囲ではなく，これはもう日本の労働市場全体に関わる懸案事項と言えるかも知れない。
+
+{{< fig-quote title="AI vs. 教科書が読めない子どもたち" link="https://www.amazon.co.jp/exec/obidos/ASIN/B0791XCYQG/baldandersinf-22/" >}}
+<q>思い出してください。
+フレームが決まっているタスクはAIが最も得意とする作業です。
+そのような能力は、人間より遥かにスピードが速く、エラーも少ない、そして何よりも、安価なAIに代替されてしまいます。</q>
+{{< /fig-quote >}}
+
+### 基礎的読解力を上げる処方箋はない
+
+『[AI vs. 教科書が読めない子どもたち]』では「文章を読んで内容を理解する」すなわち基礎的読解力を上げるための万能薬のようなものは今のところ見つかっていないとしている（研究はされているらしい）。
+
+「[AI の読解力，人の読解力]({{< relref "remark/2016/11/reading-comprehension.md" >}})」でも書いたが，私は「理解はプロセス」だと思っている。
+読解力については，本当はたぶん「文章を読んで内容を理解する」のではなく「文章を読むことと何かを理解することをリンクさせる」ことが重要なんじゃないのかな。
+
+そういえば，私は「数学ガール」の[結城浩さんの Twitter アカウント](https://twitter.com/hyuki)を（主に情報摂取の目的で）を follow しているのだが，彼のところに来る「数学の授業が分からないけどどうしたらいいか」みたいな質問に対して「学校の先生に聞きなさい」と返されているのをよく見かける。
+これってあたり前だけど重要な事だと思う。
+
+人は社会的動物なのだから理解への起点は対話であるべきだ。
+
+## 「AI 世界恐慌」は来るか
+
+『[AI vs. 教科書が読めない子どもたち]』の第4章では「最悪のシナリオ」という見出しで色々と未来予測をされているが，個人的にはあまり心配していない。
+心配していないというのは「大丈夫だ」という意味ではなく「なるようにしかならない」という意味だ。
+「AI 世界恐慌」は来るかもしれないが，だからといってどうしろというのだ。
+
+既に日本は，人口問題にしても科学技術の分野でも，国家間の「国力を競うゲーム」から降りつつある。
+この上 AIT 時代に不適応と言われたところでどうしようもない。
+というか，生き延びたいなら（できようができまいが）自分で何とかするしかないのだ，結局のところ。
+
+まぁ，当面は「AI 世界恐慌」よりも[「仮想通貨」]バブルがいつ弾けるかのほうが切実だと思うけど。
 
 <!--
 {{% fig-quote title="『AI vs. 教科書が読めない子どもたち』目次" link="https://www.amazon.co.jp/exec/obidos/ASIN/B0791XCYQG/baldandersinf-22/" %}}
@@ -164,5 +226,22 @@ AIT が人間社会に与えるインパクトを測定するために，まず�
 
 ## ブックマーク
 
+- [FraugsterはAIでクレジットカード詐欺を防ぐスタートアップ―すでにVISAが採用 | TechCrunch Japan](http://jp.techcrunch.com/2017/01/17/20170116fraugster/)
+- [人間に近い音声で読み上げるAIアナウンサー「荒木 ゆい」--Specteeが開発 - CNET Japan](https://japan.cnet.com/article/35109916/)
+- - [グーグルの翻訳AIが「独自の言語」を生み出したといえる根拠｜WIRED.jp](http://wired.jp/2016/11/24/google-ai-language-create/)
+- [2017年12月28日ニュース「AIがNASAのデータを分析し新たな太陽系外惑星を発見」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/12/20171228_02.html)
+- [AI ハリー・ポッターの衝撃 - 山形浩生の「経済のトリセツ」](http://cruel.hatenablog.com/entry/2018/01/09/180230)
 - [白泉社、深層学習技術によりAIが自動着色した漫画の配信を開始 - Book Watch/ブックニュース ―MdN Design Interactive edition― - 窓の杜](https://forest.watch.impress.co.jp/docs/bookwatch/booknewsmdn/1105673.html)
 - [放送前にテレビCMの広告効果を予測――野村総研、AIを活用した効果予測モデルを開発 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1802/07/news055.html)
+
+[AI vs. 教科書が読めない子どもたち]: https://www.amazon.co.jp/exec/obidos/ASIN/B0791XCYQG/baldandersinf-22/ "Amazon.co.jp： ＡＩ　ｖｓ．　教科書が読めない子どもたち eBook: 新井 紀子: Kindleストア"
+[『シンギュラリティの神話』]: {{< relref "remark/2017/09/the-myth-of-the-singularity.md" >}} "『シンギュラリティの神話』を読む"
+[グリゴリ]: http://orion.mt.tama.hosei.ac.jp/hideaki/kenporon.htm "グリゴリの捕縛 あるいは 情報時代の憲法について"
+[「仮想通貨」]: {{< relref "remark/2018/01/cryptocurrency-are-not-crypto.md" >}} "「暗号通貨」ってゆーな！"
+
+## 参考図書
+
+<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B0791XCYQG/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51KFIJ%2BqpkL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B0791XCYQG/baldandersinf-22/">ＡＩ　ｖｓ．　教科書が読めない子どもたち</a></dt><dd>新井 紀子 </dd><dd>東洋経済新報社 2018-02-02</dd><dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0797K44CH/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B0797K44CH.09._SCTHUMBZZZ_.jpg"  alt="日本再興戦略 (NewsPicks Book)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0791CLWH8/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B0791CLWH8.09._SCTHUMBZZZ_.jpg"  alt="英語教育の危機 (ちくま新書)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B07919S1LQ/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B07919S1LQ.09._SCTHUMBZZZ_.jpg"  alt="総合教育技術 2018年 2月号 [雑誌] 教育技術シリーズ"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B079JRSVVQ/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B079JRSVVQ.09._SCTHUMBZZZ_.jpg"  alt="ファンベース　──支持され、愛され、長く売れ続けるために (ちくま新書)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B072Z81MHK/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B072Z81MHK.09._SCTHUMBZZZ_.jpg"  alt="働きたくないイタチと言葉がわかるロボット 人工知能から考える「人と言葉」"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0798BNCYG/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B0798BNCYG.09._SCTHUMBZZZ_.jpg"  alt="プラットフォーム革命――経済を支配するビジネスモデルはどう機能し、どう作られるのか"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B078YLH4W2/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B078YLH4W2.09._SCTHUMBZZZ_.jpg"  alt="働く大人のための「学び」の教科書"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0798QLBVC/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B0798QLBVC.09._SCTHUMBZZZ_.jpg"  alt="アルテミス 下 (ハヤカワ文庫SF)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B07919W1YX/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B07919W1YX.09._SCTHUMBZZZ_.jpg"  alt="Rで楽しむベイズ統計入門［しくみから理解するベイズ推定の基礎］ Data Science Library"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0798S7N12/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B0798S7N12.09._SCTHUMBZZZ_.jpg"  alt="最後にして最初のアイドル (ハヤカワ文庫JA)"  /></a> </p>
+<p class="description">4章以外は面白かった。感想文は<a href="/remark/2018/02/artificial-intelligence-book/">こちら</a>。</p>
+<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-02-11">2018-02-11</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+</div>
