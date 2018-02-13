@@ -1,6 +1,7 @@
 +++
 title = "2018-02-11 のブックマーク"
 date = "2018-02-11T10:48:49+09:00"
+update = "2018-02-13T23:58:19+09:00"
 description = "「XMathJax v2.7.3 now available」他"
 image = "/images/avatar.jpg"
 
@@ -46,6 +47,7 @@ flattr    = "spiegel"
 - [Google Chrome、非暗号化（HTTP）ページに”not secure” の警告を表示  |  TechCrunch Japan](http://jp.techcrunch.com/2018/02/09/2018-02-08-chrome-will-soon-mark-all-unencrypted-pages-as-not-secure/)
 - [スマートホームにおける機能安全の国際標準開発が始まります～スマートホームにおける様々なリスクをいかに低減するか～（METI/経済産業省）](http://www.meti.go.jp/press/2017/01/20180122001/20180122001.html)
 - [Early availability of LibreOffice 5.4.5 and LibreOffice 6.0.1: all users are invited to update for improved robustness and security - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2018/02/09/early-availability-libreoffice-5-4-5-libreoffice-6-0-1/)
+    - [「LibreOffice」にリモートからローカルデータの盗み見を許す脆弱性、修正版が公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1106050.html)
 - [The House That Spied on Me](https://gizmodo.com/the-house-that-spied-on-me-1822429852)
 - [Coincheck不正送金に関連する一部のウォレットを調べてみた - piyolog](http://d.hatena.ne.jp/Kango/20180209/1518212500)
 - [平昌オリンピック開会式中のシステム障害についてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20180210/1518296898)

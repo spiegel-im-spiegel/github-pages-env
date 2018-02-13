@@ -1,7 +1,7 @@
 +++
 title = "『AI vs. 教科書が読めない子どもたち』を読む"
 date = "2018-02-11T03:09:57+09:00"
-update = "2018-02-11T10:13:36+09:00"
+update = "2018-02-13T23:58:19+09:00"
 description = "途中まで斜め読みしてて「これはちゃんと読んだほうがいいな」と思い直し，メモを取りながら最初からちゃんと読み直すことにした。"
 image = "/images/attention/kitten.jpg"
 tags = [ "artificial-intelligence", "book", "code", "grigori" ]
@@ -239,6 +239,7 @@ RST の開発過程やその調査結果については『[AI vs. 教科書が�
 - [AI ハリー・ポッターの衝撃 - 山形浩生の「経済のトリセツ」](http://cruel.hatenablog.com/entry/2018/01/09/180230)
 - [白泉社、深層学習技術によりAIが自動着色した漫画の配信を開始 - Book Watch/ブックニュース ―MdN Design Interactive edition― - 窓の杜](https://forest.watch.impress.co.jp/docs/bookwatch/booknewsmdn/1105673.html)
 - [放送前にテレビCMの広告効果を予測――野村総研、AIを活用した効果予測モデルを開発 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1802/07/news055.html)
+- [SoftBankとIBMが協力してWatsonに日本語を教える…その全サービスとAPIを日本語化へ  |  TechCrunch Japan](http://jp.techcrunch.com/2015/02/10/20150209domo-arigato-mr-roboto/)
 
 [AI vs. 教科書が読めない子どもたち]: https://www.amazon.co.jp/exec/obidos/ASIN/B0791XCYQG/baldandersinf-22/ "Amazon.co.jp： ＡＩ　ｖｓ．　教科書が読めない子どもたち eBook: 新井 紀子: Kindleストア"
 [『シンギュラリティの神話』]: {{< relref "remark/2017/09/the-myth-of-the-singularity.md" >}} "『シンギュラリティの神話』を読む"

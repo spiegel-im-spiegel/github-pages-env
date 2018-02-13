@@ -26,6 +26,7 @@
 
 - [PostgreSQL 9.6.3 インストールからテーブル作成まで | ドラブロ](https://www.doraxdora.com/blog/2017/07/25/post-1748/)
 - [WEB色見本 原色大辞典 - HTMLカラーコード](https://www.colordic.org/)
+- [知ってた？ jQueryのready()メソッドはもう書かなくていいらしい - WPJ](https://www.webprofessional.jp/jquery-document-ready-plain-javascript/)
 
 ## あとで遊ぶ
 
@@ -50,6 +51,10 @@
 
 ## セキュリティ関連
 
+- [Hard Olympic Security Choices: What to Watch for in Pyeongchang - Lawfare](https://www.lawfareblog.com/hard-olympic-security-choices-what-watch-pyeongchang)
+- [Internet Security Threats at the Olympics - Schneier on Security](https://www.schneier.com/blog/archives/2018/02/internet_securi.html)
+- [Cisco ASA の脆弱性対策について(CVE-2018-0101)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20180213-cisco.html)
+- [総務省｜「テレワークセキュリティガイドライン（第4版）」（案）に対する意見の募集](http://www.soumu.go.jp/menu_news/s-news/01ryutsu02_02000192.html)
 
 ## 天文関連
 
@@ -59,5 +64,17 @@
 
 ## その他
 
+- [「PostgreSQL 10.2/9.6.7/9.5.11/9.4.16/9.3.21」リリース | Think IT（シンクイット）](https://thinkit.co.jp/news/bn/13309)
+- [YouTube、悪質ユーチューバー対策を強化　広告掲載停止など - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1802/11/news023.html)
+- [Werkzeuge im Kurztest](http://www.linux-magazin.de/ausgaben/2018/03/tooltipps/) : gpgpdump が紹介されててビックリ
+- [ActivityPub、W3C勧告に - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1802/07/news129.html)
+- [nano エディタの使い方 : まだプログラマーですが何か？](http://dotnsf.blog.jp/archives/1066662653.html)
+- [太陽光パネルとテスラ製バッテリを5万戸に無償設置--豪で世界最大の仮想発電所 - CNET Japan](https://japan.cnet.com/article/35114368/)
+- [リチャード・ドーキンス『利己的な遺伝子』40周年記念版が出る - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20180212/selfishgene)
+- [電子フロンティア財団の共同創始者ジョン・ペリー・バーロウ逝く - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20180212/johnperrybarlow)
+- [たつき監督作品をまとめて紹介！ 話題の「ケムリクサ」「傾福さん」など7作品 | アニメ！アニメ！](https://s.animeanime.jp/article/2018/02/11/36758.html)
+- [C++17時代の並列安定ソート - Qiita](https://qiita.com/dc1394/items/4a6d2a83282c9572fc65)
+- [Google、機械学習に最適化したクラウドサービス「Cloud TPU」ベータ公開開始。TensorFlow用の独自ASIC採用 － Publickey](http://www.publickey1.jp/blog/18/googlecloud_tputensorflowasic.html)
+- [AWS大阪ローカルリージョン、今日から利用可能に。利用には申し込みと審査が必要 － Publickey](http://www.publickey1.jp/blog/18/aws_2.html)
 
 (end of file)
