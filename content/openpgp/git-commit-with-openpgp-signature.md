@@ -1,5 +1,6 @@
 +++
 date = "2017-12-01T17:51:38+09:00"
+update = "2018-02-14T23:26:48+09:00"
 description = "Git で commit する際に OpenPGP 署名を付加できるらしい。いやぁ，今まで知らなかったよ。物知らずでごめん。"
 draft = false
 tags = ["git", "github", "gnupg", "openpgp", "cryptography", "certification"]
@@ -165,6 +166,7 @@ Tag や commit に署名することで「なりすまし」に対する抑止�
 ## ブックマーク
 
 - [git(GitHub)でGPGを使った署名をおこなう - Qiita](http://qiita.com/pontago/items/5867b6492e09c34084fe)
+- [Yubikeyを使って、Githubのcommitをverifyする - Qiita](https://qiita.com/akashima/items/4b40ccb13ad13dee5cdb)
 
 [Git]: https://git-scm.com/ "Git"
 [Git for Windows]: http://git-for-windows.github.io/ "Git for Windows"

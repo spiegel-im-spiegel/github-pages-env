@@ -1,6 +1,7 @@
 +++
 title = "Font Awesome 5 がリリースされた"
 date =  "2017-12-12T20:22:50+09:00"
+update = "2018-02-14T23:26:48+09:00"
 description = "5 系では， Web フォントではなく， SVG と JavaScript を組み合わせた方法がオススメらしい。"
 image = "/images/attention/remark.jpg"
 tags        = [ "font", "svg", "javascript", "site" ]
@@ -91,6 +92,7 @@ CSS はこんな感じで指定できる。
 
 - [【保存版】Font Awesomeの使い方：Webアイコンフォントを使おう](https://saruwakakun.com/html-css/basic/font-awesome)
 - [アイコンフォントか？ SVG アイコンか？ — Website Usability Info](https://website-usability.info/2015/12/entry_151217.html)
+- [Font Awesome 5 Freeで疑似要素(:after,:before)のcontent指定する場合 - Qiita](https://qiita.com/Garyuten/items/6d68da5cdac6dab9ba26)
 
 [本家サイト]: http://www.baldanders.info/ "Baldanders.info"
 [Font Awesome]: https://fontawesome.com/ "Font Awesome 5 | Font Awesome"

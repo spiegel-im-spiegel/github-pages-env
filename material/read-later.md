@@ -48,6 +48,7 @@
 
 ## Age of Trump
 
+- [核廃絶は核禁条約の精神を礎にしてこそ (特集日本の外交戦略と積極的平和主義)-Hiroshima City University Institutional Repository](http://harp.lib.hiroshima-u.ac.jp/hiroshima-cu/metadata/12412)
 
 ## セキュリティ関連
 
@@ -55,12 +56,24 @@
 - [Internet Security Threats at the Olympics - Schneier on Security](https://www.schneier.com/blog/archives/2018/02/internet_securi.html)
 - [Cisco ASA の脆弱性対策について(CVE-2018-0101)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20180213-cisco.html)
 - [総務省｜「テレワークセキュリティガイドライン（第4版）」（案）に対する意見の募集](http://www.soumu.go.jp/menu_news/s-news/01ryutsu02_02000192.html)
+- [MIT、公開鍵暗号を高速かつ低消費電力で処理する専用チップを開発 〜IoT分野での省電力性能とセキュリティを両立 - PC Watch](https://pc.watch.impress.co.jp/docs/news/1106421.html)
+- [Microsoft 製品の脆弱性対策について(2018年2月)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20180214-ms.html)
+    - [2018年 2月マイクロソフトセキュリティ更新プログラムに関する注意喚起](https://www.jpcert.or.jp/at/2018/at180008.html)
+- [Adobe Reader および Acrobat の脆弱性対策について(APSB18-02)(CVE-2018-4872等)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20180214-adobereader.html)
+    - [Adobe Reader および Acrobat の脆弱性 (APSB18-02) に関する注意喚起](https://www.jpcert.or.jp/at/2018/at180007.html)
+- [産総研で重大なセキュリティインシデント、ネット遮断で調査中 - ZDNet Japan](https://japan.zdnet.com/article/35114695/)
+- [「Google Chrome 64」に脆弱性、修正版がリリースされる - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1106356.html)
 
 ## 天文関連
 
+- [活動的な超巨大ブラックホールを取り巻くガスと塵のドーナツ―予言されていた回転ガス雲を初めて観測で確認 | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2018/20180214-alma.html)
+- [The Solar System Probably has Thousands of Captured Interstellar Asteroids - Universe Today](https://www.universetoday.com/138494/solar-system-probably-thousands-captured-interstellar-asteroids/)
+- [プレスリリース - 活動的な超巨大ブラックホールを取り巻くガスと塵のドーナツ ― 予言されていた回転ガス雲を初めて観測で確認 - アルマ望遠鏡](https://alma-telescope.jp/news/press/m77-201802)
+- [News | A Piece of Mars is Going Home](https://www.jpl.nasa.gov/news/news.php?feature=7058)
 
 ## 知財関連
 
+- [著作権保護期間延長に「EBPM」はあるのか | COMEMO](https://comemo.io/entries/5270)
 
 ## その他
 
@@ -76,5 +89,7 @@
 - [C++17時代の並列安定ソート - Qiita](https://qiita.com/dc1394/items/4a6d2a83282c9572fc65)
 - [Google、機械学習に最適化したクラウドサービス「Cloud TPU」ベータ公開開始。TensorFlow用の独自ASIC採用 － Publickey](http://www.publickey1.jp/blog/18/googlecloud_tputensorflowasic.html)
 - [AWS大阪ローカルリージョン、今日から利用可能に。利用には申し込みと審査が必要 － Publickey](http://www.publickey1.jp/blog/18/aws_2.html)
+- [IoTプラットフォーム「sakura.io」と「 Google Cloud Platform™ 」連携のお知らせ | さくらインターネット](https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1863)
+- [AppleもiOS/macOSをProgressive Web Apps（PWA）対応へ。次のSafari 11.1でService Workerなど実装 － Publickey](http://www.publickey1.jp/blog/18/apple_ios_macos_progressive_web_apps.html)
 
 (end of file)

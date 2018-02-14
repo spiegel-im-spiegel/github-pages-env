@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-02-07T21:31:43+09:00"
+update = "2018-02-14T23:26:48+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -88,13 +88,14 @@ title = "Go 言語に関するブックマーク"
 
 - [go言語1.9で追加予定の新機能 型エイリアス - Qiita](http://qiita.com/weloan/items/8abbb4003cfa1031a9e9)
 
-### Go 1.10 Beta
+### Go 1.10 RC
 
 “Go 1.10 is expected to be released in February 2018”.
 
 - [Go 1.10 Release Notes - The Go Programming Language](https://beta.golang.org/doc/go1.10)
     - [go1.10beta1の標準パッケの大きな変更点を確認しておく。 - Qiita](https://qiita.com/A_Resas/items/59bf6cda976e29751890)
 - [Go1.10で入るstrings.Builderを検証した #golang - Qiita](https://qiita.com/tenntenn/items/94923a0c527d499db5b9)
+- [go1.10のtest2jsonを試してみた - Qiita](https://qiita.com/dproject21/items/c406b0044280508b41ff)
 
 ## 言語仕様および標準パッケージに関すること
 
