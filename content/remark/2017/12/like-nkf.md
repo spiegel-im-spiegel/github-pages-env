@@ -1,7 +1,7 @@
 +++
 title = "「nkf っぽいなにか」を作った"
 date =  "2017-12-06T01:20:36+09:00"
-update =  "2017-12-08T17:05:45+09:00"
+update =  "2018-02-15T07:19:42+09:00"
 description = "思いつきで文字エンコーディングを変換するロジックを考えていたのだが，その副産物で「nkf っぽいなにか」を作ったので，併せてリリースする。"
 image = "/images/attention/remark.jpg"
 tags = ["tools", "golang", "character", "encoding", "transform"]
@@ -56,7 +56,7 @@ Flags:
 Use "gonkf [command] --help" for more information about a command.
 ```
 
-nikf と異なり，サブコマンド方式にした。
+nkf と異なり，サブコマンド方式にした。
 文字エンコーディング変換なら `conv` サブコマンドを使う。
 
 ```text
