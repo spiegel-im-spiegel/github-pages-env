@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Go 1.8.7 および 1.9.4 がリリース</title>
+  <meta name="GENERATOR" content="Blackfriday Markdown Processor v1.5">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+<h1>Go 1.8.7 および 1.9.4 がリリース</h1>
+
+<p><a href="https://golang.org/" title="The Go Programming Language">Go 言語</a>コンパイラの 1.8.7 および 1.9.4 がリリースされている。
+このバージョンでは脆弱性 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=2018-6574">CVE-2018-6574</a> の修正が行われている。</p>
+
+<h2>脆弱性の内容</h2>
+
+<p><code>#cgo</code> ディレクティブを含む <a href="https://golang.org/" title="The Go Programming Language">Go 言語</a>コードをビルドする際に任意の処理を実行される可能性がある。</p>
+
+<blockquote>
+<p>When cgo is enabled, the build step during “go get” invokes the host C compiler, gcc or clang, adding compiler flags specified in the Go source files.
+Both gcc and clang support a plugin mechanism in which a shared-library plugin is loaded into the compiler, as directed by compiler flags.
+This means that a Go package repository can contain an attack.so file along with a Go source file that says (for example) <code>// #cgo CFLAGS: -fplugin=attack.so</code>, causing the attack plugin to be loaded into the host C compiler during the build.
+Gcc and clang plugins are completely unrestricted in their access to the host system.</p>
+</blockquote>
+
+<h2>影響度（CVSS）</h2>
+
+<p>「<a href="https://access.redhat.com/security/cve/cve-2018-6574">CVE-2018-6574 - Red Hat Customer Portal</a>」より。</p>
+
+<p><strong>CVSSv3 基本評価値 8.3 (<code>CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H</code>)</strong></p>
+
+<table>
+<thead>
+<tr>
+<th align="right">基本評価基準</th>
+<th align="left">評価値</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="right">攻撃元区分（AV）</td>
+<td align="left">ネットワーク（N）</td>
+</tr>
+
+<tr>
+<td align="right">攻撃条件の複雑さ（AC）</td>
+<td align="left">高（H）</td>
+</tr>
+
+<tr>
+<td align="right">必要な特権レベル（PR）</td>
+<td align="left">不要（N）</td>
+</tr>
+
+<tr>
+<td align="right">ユーザ関与レベル（UI）</td>
+<td align="left">要（R）</td>
+</tr>
+
+<tr>
+<td align="right">スコープ（S）</td>
+<td align="left">変更あり（C）</td>
+</tr>
+
+<tr>
+<td align="right">情報漏えいの可能性（機密性への影響, C）</td>
+<td align="left">高（H）</td>
+</tr>
+
+<tr>
+<td align="right">情報改ざんの可能性（完全性への影響, I）</td>
+<td align="left">高（H）</td>
+</tr>
+
+<tr>
+<td align="right">業務停止の可能性（可用性への影響, A）</td>
+<td align="left">高（H）</td>
+</tr>
+</tbody>
+</table>
+
+<p>CVSS については<a href="http://text.baldanders.info/remark/2015/cvss-v3-metrics-in-jvn/" title="JVN が CVSSv3 による脆弱性評価を開始 — しっぽのさきっちょ | text.Baldanders.info">解説ページ</a>を参照のこと。</p>
+
+</body>
+</html>

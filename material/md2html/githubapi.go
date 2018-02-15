@@ -1,0 +1,29 @@
+package main
+
+import (
+	"fmt"
+	"io"
+	"io/ioutil"
+	"os"
+	"strings"
+
+	"github.com/google/go-github/github"
+)
+
+func main() {
+	md, err := ioutil.ReadFile(os.Args[1])
+	if err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return
+	}
+
+	client := github.NewClient(nil)
+	opt := &github.MarkdownOptions{Mode: "gfm", Context: "google/go-github"}
+
+	html, _, err := client.Markdown(string(md), opt)
+	if err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return
+	}
+	io.Copy(os.Stdout, strings.NewReader(html))
+}
