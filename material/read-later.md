@@ -64,12 +64,20 @@
 - [産総研で重大なセキュリティインシデント、ネット遮断で調査中 - ZDNet Japan](https://japan.zdnet.com/article/35114695/)
 - [「Google Chrome 64」に脆弱性、修正版がリリースされる - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1106356.html)
 
+- [MSがブロックチェーンベースのIDシステム開発の取り組み--Authenticatorアプリ利用 - ZDNet Japan](https://japan.zdnet.com/article/35114667/)
+- [Mozilla、アプリキャッシュへのHTTPアクセスを遮断 ～「Firefox 62」から正式導入へ - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1106130.html)
+- [トレンドマイクロ株式会社製の複数の製品における DLL 読み込みに関する脆弱性について(JVN#28865183)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20180215-jvn.html)
+- [Intel、サイドチャネルの脆弱性発見に最大2,600万円の懸賞金  - PC Watch](https://pc.watch.impress.co.jp/docs/news/1106582.html)
+
 ## 天文関連
 
 - [活動的な超巨大ブラックホールを取り巻くガスと塵のドーナツ―予言されていた回転ガス雲を初めて観測で確認 | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2018/20180214-alma.html)
 - [The Solar System Probably has Thousands of Captured Interstellar Asteroids - Universe Today](https://www.universetoday.com/138494/solar-system-probably-thousands-captured-interstellar-asteroids/)
 - [プレスリリース - 活動的な超巨大ブラックホールを取り巻くガスと塵のドーナツ ― 予言されていた回転ガス雲を初めて観測で確認 - アルマ望遠鏡](https://alma-telescope.jp/news/press/m77-201802)
 - [News | A Piece of Mars is Going Home](https://www.jpl.nasa.gov/news/news.php?feature=7058)
+
+- [2018年2月15日ニュース「明滅するオーロラの謎が、探査衛星『あらせ』の高精度観測で解けた」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/02/20180215_01.html)
+- [異星人探索は暗号通貨マニアたちのせいで妨害されている  |  TechCrunch Japan](http://jp.techcrunch.com/2018/02/15/2018-02-14-the-search-for-aliens-is-struggling-thanks-to-cryptocurrency-mania/)
 
 ## 知財関連
 
@@ -91,5 +99,10 @@
 - [AWS大阪ローカルリージョン、今日から利用可能に。利用には申し込みと審査が必要 － Publickey](http://www.publickey1.jp/blog/18/aws_2.html)
 - [IoTプラットフォーム「sakura.io」と「 Google Cloud Platform™ 」連携のお知らせ | さくらインターネット](https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1863)
 - [AppleもiOS/macOSをProgressive Web Apps（PWA）対応へ。次のSafari 11.1でService Workerなど実装 － Publickey](http://www.publickey1.jp/blog/18/apple_ios_macos_progressive_web_apps.html)
+
+- [高機能コードエディター「Atom 1.24」、右クリックメニューを非同期化するなどの改善 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1106347.html)
+- [ぶつぶつってなんでこんなにも気持ち悪いの！？ – トライポフォビア研究のいま – academist Journal](https://academist-cf.com/journal/?p=6966)
+- [【Excel】数式が多用された資料を引き継いでしまった！エクセルで数式のメンテナンスをラクにするテク2選 - いまさら聞けないExcelの使い方講座 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/exceltips/1105545.html)
+- [「Pivotal Container Service」正式リリース。Kubernetesなどコンテナ環境と仮想ネットワーク環境を、VMware、AWS、Azure、GCPなどに構築 － Publickey](http://www.publickey1.jp/blog/18/pivotal_container_servicekubernetesvmwareawsazuregcp.html)
 
 (end of file)

@@ -69,7 +69,6 @@ tags = [
 
 CVSS については[解説ページ]({{< relref "remark/2015/cvss-v3-metrics-in-jvn.md" >}})を参照のこと。
 
-
 ## 影響を受ける製品
 
 以下のバージョンが影響を受ける。
