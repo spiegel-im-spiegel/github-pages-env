@@ -1,50 +1,27 @@
-# 「あとでみる」ブックマーク（Temporary）
++++
+title = "2018-02-17 のブックマーク"
+date =  "2018-02-17T15:55:35+09:00"
+description = "「2018年 2月マイクロソフトセキュリティ更新プログラムに関する注意喚起」他"
+image = "/images/avatar.jpg"
 
-## 積読中
+[author]
+name      = "Spiegel"
+url       = "http://www.baldanders.info/spiegel/profile/"
+avatar    = "/images/avatar.jpg"
+license   = "by-sa"
+github    = "spiegel-im-spiegel"
+twitter   = "spiegel_2007"
+tumblr    = "spiegel-im-spiegel"
+instagram = "spiegel_2007"
+flickr    = "spiegel"
+facebook  = "spiegel.im.spiegel"
+linkedin  = "spiegelimspiegel"
+flattr    = "spiegel"
 
-- [なぜ「えっちなの」は、いけないの？](https://www.buzzfeed.com/jp/yuikoabe/why-h-dame?utm_term=.yp5MolZaw#.bn33n60Y9)
-- [Twitter’s Ban on Russia Today Ads is Dangerous to Free Expression | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2017/10/twitters-ban-russia-today-ads-dangerous-free-expression)
-
-## いつか買う，かも
-
-- [ロボット法 - 株式会社　勁草書房](http://www.keisoshobo.co.jp/book/b324580.html) : こっちは面白そう
-- [AIがつなげる社会 | 弘文堂](http://www.koubundou.co.jp/book/b315740.html)
-- [ロボット法 | 弘文堂](http://www.koubundou.co.jp/book/b324653.html)
-- [テスト駆動開発 | Kent Beck, 和田 卓人 |本 | 通販 | Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/4274217884/baldandersinf-22/)
-- [Amazon.co.jp： 論理哲学論考 eBook: ルートヴィヒ・ヴィトゲンシュタイン, 木村洋平: Kindleストア](https://www.amazon.co.jp/dp/B06ZYR4NJ6/)
-- [プログラマの数学第2版 | 結城 浩 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4797395451/baldandersinf-22/)
-- [地球外生命探査 (別冊日経サイエンス) | 日経サイエンス編集部 |本 | 通販 | Amazon](https://www.amazon.co.jp/dp/4532512239/)
-- [ビジネス法務 2018年 02 月号 [雑誌] | |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/B078DDZBQB/baldandersinf-22/) : AI 特集が面白いらしい
-- [合理性の危機 | 日経サイエンス](http://www.nikkei-science.com/201802_086.html)
-- [もうすぐ絶滅するという開かれたウェブについて  続・情報共有の未来 - 達人出版会](https://tatsu-zine.com/books/infoshare2)
-	- [『もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来』サポートページ公開 - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20171226/openweb)
-    - [もうすぐ絶滅するという開かれたウェブについて　続・情報共有の未来 - pho's blog](http://pho.hatenablog.com/entry/2018/02/04/130937)
-- [Amazon | 男と女-TWO HEARTS TWO VOICES- | 稲垣潤一 | J-POP | 音楽](https://www.amazon.co.jp/exec/obidos/ASIN/B001G6RB7W/baldandersinf-22/)
-- [母・娘・祖母が共存するために | 信田さよ子 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4022515082/baldandersinf-22/)
-
-## Java / JavaScript / Web
-
-- [PostgreSQL 9.6.3 インストールからテーブル作成まで | ドラブロ](https://www.doraxdora.com/blog/2017/07/25/post-1748/)
-- [WEB色見本 原色大辞典 - HTMLカラーコード](https://www.colordic.org/)
-- [知ってた？ jQueryのready()メソッドはもう書かなくていいらしい - WPJ](https://www.webprofessional.jp/jquery-document-ready-plain-javascript/)
-
-## あとで遊ぶ
-
-- [広島市 - 無料公衆無線LAN サービス「Hiroshima Free Wi-Fi」について](http://www.city.hiroshima.lg.jp/www/contents/1409563567640/)
-- [さくらのレンタルサーバ／マネージドサーバ 「バックアップ＆ステージング powered by Snapup」提供開始のお知らせ | さくらインターネット](https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1848)
-- [GitHub Pagesがhttpsをサポートしたので切り替えてみた - Shogo's Blog](https://shogo82148.github.io/blog/2016/06/10/github-page-supports-https/)
-- [Carbon](https://carbon.now.sh/)
-    - [ソースコードを美しく色分けして共有 ～GitHubが紹介している“Carbon”がクール - やじうまの杜 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1105382.html)
-
-## Autocrypt について
-
-- [Autocrypt 1.0.0 documentation](https://autocrypt.org/)
-- [Email green, secure, simple and ad-free - posteo.de - New: Easy email encryption with Autocrypt and OpenPGP header](https://posteo.de/en/blog/new-easy-email-encryption-with-autocrypt-and-openpgp-header)
-
-## RFC4880bis
-
-- [draft-ietf-openpgp-rfc4880bis-04 - OpenPGP Message Format](https://datatracker.ietf.org/doc/draft-ietf-openpgp-rfc4880bis/)
-    - https://tools.ietf.org/id/draft-ietf-openpgp-rfc4880bis-04.txt
+[scripts]
+  mathjax = false
+  mermaidjs = false
++++
 
 ## Age of Trump
 
@@ -112,5 +89,3 @@
 - [2018年2月16日ニュース「海底の『鬼界カルデラ』の内側に、溶岩ドームができていた」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/02/20180216_01.html)
 - [NVIDIAの新GPU「Turing」は仮想通貨マイニング用途となる可能性 - GIGAZINE](https://gigazine.net/news/20180216-nvidia-gpu-turing/)
 - [「Python」ディストリビューション「Anaconda」に「Visual Studio Code」が追加 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1106857.html)
-
-(end of file)

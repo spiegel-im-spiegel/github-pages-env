@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T23:59:59+09:00"
-update = "2018-02-14T23:26:48+09:00"
+update = "2018-02-17T15:55:18+09:00"
 description = "「Go 言語に関するブックマーク」に整理しきれない未整理分。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -109,3 +109,4 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [宣教師と人食い人種の問題をGolangで再帰するクロージャ使って書いてみた。 - Qiita](https://qiita.com/jun68ykt/items/2b7d788d21a4cc5c9a56)
 - [machineryについて - Qiita](https://qiita.com/yellow/items/829863d7344e7808d8ac)
 - [go-prompt v0.2.0の新機能紹介 - Qiita](https://qiita.com/c-bata/items/54eee079cfe3cda02eee)
+- [GoアプリケーションをSupervisorでデーモン化😘 - Qiita](https://qiita.com/gericass/items/fa794bfac5c6bd3e0aab)
