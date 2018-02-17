@@ -1,7 +1,7 @@
 +++
 title = "Markdown テキスト変換ツールの物色"
 date = "2018-02-15T22:40:48+09:00"
-update = "2018-02-16T08:00:34+09:00"
+update = "2018-02-17T13:42:28+09:00"
 description = "どうせならビルドも導入も簡単な Go 言語製のツールがいいな，と思ってたのだが，結構あってビックリした。"
 image = "/images/attention/kitten.jpg"
 tags        = [ "tools", "markdown", "html", "golang" ]
@@ -35,8 +35,10 @@ Markdown テキストを HTML 等の他のドキュメント形式に変換す�
 
 まずは [russross/blackfriday]。
 
-名前はアレだけど，割とちゃんとしたパーサみたい。
+名前はアレだけど，割とちゃんとしたパーサみたい[^hg1]。
 同じ作者によるコマンドライン・ツール [russross/blackfriday-tool] も提供されているのですぐ使える。
+
+[^hg1]: このブログでも利用している [Hugo] も markdown パーサとして [russross/blackfriday] を使っているようである。
 
 [russross/blackfriday-tool] はバイナリ提供はされてないようなので（つか `main.go` ひとつだけだし`w`），素直に `go get` コマンドでインストールする。
 
