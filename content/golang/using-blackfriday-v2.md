@@ -85,6 +85,8 @@ func main() {
 }
 ```
 
+[`blackfriday`]`.WithExtensions()` 関数および [`blackfriday`]`.WithRenderer()` 関数は [Functional Options パターン]({{< relref "golang/functional-options-pattern.md" >}} "インスタンスの生成と Functional Options パターン")の応用で任意に設定できる。
+
 v1.x 系に比べて HTML レンダリング・オプションの指定が面倒くさい感じになっているが，これは [`blackfriday`]`.Renderer` インタフェースに合わせた別のレンダリング・パッケージを使えるようにするためらしい。
 HTML 変換以外のレンダリング・パッケージとしては $\mathrm{\LaTeX}$ への変換パッケージがあるようだ。
 
