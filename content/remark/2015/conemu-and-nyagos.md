@@ -1,8 +1,7 @@
 +++
 date = "2015-10-30T00:56:49+09:00"
-update = "2018-01-11T10:48:16+09:00"
+update = "2018-02-21T16:26:06+09:00"
 description = "そんなわけで，えんやらやっと ConEmu を導入することにした。ついでに NYAGOS も入れなおすことに。"
-draft = false
 tags = ["windows", "tools", "conemu", "nyagos", "terminal", "shell", "putty"]
 title = "ようやく ConEmu と NYAGOS を導入した"
 
@@ -31,27 +30,25 @@ title = "ようやく ConEmu と NYAGOS を導入した"
 ## NYAGOS の導入
 
 - [NYAOS.ORG - NYAGOS](http://www.nyaos.org/index.cgi?p=NYAGOS)
-    - [zetamatta/nyagos](https://github.com/zetamatta/nyagos)
-    - [zetamatta/nyole](https://github.com/zetamatta/nyole)
+    - [zetamatta/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows](https://github.com/zetamatta/nyagos)
 
 以前 [NYAGOS] を導入した時は[どえら苦労した](http://qiita.com/spiegel-im-spiegel/items/9c11acf72fa38ef379f8)が[^a]，[最近のバージョン](https://github.com/zetamatta/nyagos/releases)は64ビット版のビルド済みのものがある。
-ありがたくこのまま使わせて頂く。
-[nyole](https://github.com/zetamatta/nyole) も同梱されているので無問題。
+ありがたくこのまま使わせて頂く[^nyole1]。
 
 [^a]: まぁこれは [MSYS2] を試すきっかけになったので，結果的にはよかったのだが。  [MSYS2] の記事はそのうちちゃんと書かないといけないなぁ。
+[^nyole1]: 最近のバージョンでは [zetamatta/nyole](https://github.com/zetamatta/nyole "zetamatta/nyole: Nihong Yet another OLE extension for lua") は不要になった。
 
 zip ファイル内のファイル群をフォルダ構成ごと適当な場所に展開すればよい。
 展開できたら動作確認。
 
 ```text
 C:\program\nyagos>nyagos.exe
-Nihongo Yet Another GOing Shell 4.0.9_10-amd64 Powered by go1.5.1 & Lua 5.3
-Copyright (c) 2014,2015 HAYAMA_Kaoru and NYAOS.ORG
-C:/program/nyagos>ls
-Doc/               lua53.dll          nyagos.lua*        specialfolders.js*
-catalog.d/         makeicon.cmd*      nyole.dll
-license.txt        nyagos.d/          readme.md
-lnk.js*            nyagos.exe*        readme_ja.md
+Nihongo Yet Another GOing Shell 4.2.3_3-amd64 by go1.9.3 & Lua 5.3
+(c) 2014-2018 NYAOS.ORG <http://www.nyaos.org>
+<hostname:~>
+$ ls
+Doc/          _nyagos       makeicon.cmd* nyagos.exe*   readme_ja.md
+LICENSE       lua53.dll     nyagos.d/     readme.md
 ```
 
 ほい，おっけ。
