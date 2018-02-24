@@ -44,6 +44,7 @@ flattr    = "spiegel"
 
 ## 天文関連
 
+- [超巨大ブラックホールは銀河進化と無関係？〜アルマ望遠鏡で見えてきた電離ガス流と分子ガスの意外な関係〜 | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2018/20180220-alma.html)
 - [アマチュア天文家の捉えた超新星爆発は、爆発の瞬間だった！ | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2018/20180222-cfca.html)
 - [アレシボ天文台が新体制で存続へ。大学コンソーシアムがNSFと5年以上の運用契約間近 - Engadget 日本版](http://japanese.engadget.com/2018/02/23/nsf-5/)
 
@@ -53,6 +54,8 @@ flattr    = "spiegel"
 
 ## その他
 
+- [GoogleがクラウドサービスのIoT基盤強化のためXivelyをLogMeInから買収  |  TechCrunch Japan](http://jp.techcrunch.com/2018/02/16/2018-02-15-google-to-acquire-xively-iot-platform-from-logmein/)
+- [2018年2月19日ニュース「世界の再生可能エネルギーコストは大幅低下 7年で太陽光は73%下落とIRENA」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/02/20180219_01.html)
 - [Rustが、コードのスタイルガイド「Rust Style Guide」と自動整形ツールを導入する理由。コードをめぐる議論を省き、メンタルの負担を減らし、プログラマを参加しやすくする － Publickey](http://www.publickey1.jp/blog/18/rustrust_style_guide.html)
 - [“Amazon S3”プロトコルに対応した「WinSCP」v5.13が正式公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1107401.html)
 - [「死の直前、人がとる行動は3つにわけられる」 ある救急救命士が、生と死の狭間で見たもの - ログミー](http://logmi.jp/32787)

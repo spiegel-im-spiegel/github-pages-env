@@ -1,6 +1,7 @@
 +++
 title = "2018-02-17 のブックマーク"
 date =  "2018-02-17T15:55:35+09:00"
+update =  "2018-02-24T11:23:01+09:00"
 description = "「2018年 2月マイクロソフトセキュリティ更新プログラムに関する注意喚起」他"
 image = "/images/avatar.jpg"
 
@@ -62,7 +63,9 @@ flattr    = "spiegel"
 
 - [著作権保護期間延長に「EBPM」はあるのか | COMEMO](https://comemo.io/entries/5270)
 - [知的財産戦略本部「知的財産推進計画2018」策定に当たっての意見募集に、意見書を提出しました - MIAU](https://miau.jp/ja/842)
-- [米地裁、ツイートのエンベッドが著作権侵害にあたりうるとの判決を下す – P2Pとかその辺のお話R](http://p2ptk.org/copyright/771)
+- [Federal Judge Says Embedding a Tweet Can Be Copyright Infringement | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2018/02/federal-judge-says-embedding-tweet-can-be-copyright-infringement)
+    - [米地裁、ツイートのエンベッドが著作権侵害にあたりうるとの判決を下す – P2Pとかその辺のお話R](http://p2ptk.org/copyright/771)
+    - [ニューヨーク連邦裁判所が埋め込みツイートは著作権侵害となり得ると判断  |  TechCrunch Japan](http://jp.techcrunch.com/2018/02/17/2018-02-16-embedded-tweets-copyright-infringement/)
 
 ## その他
 
