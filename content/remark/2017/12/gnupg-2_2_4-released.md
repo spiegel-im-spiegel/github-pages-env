@@ -119,7 +119,7 @@ License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 
-Home: C:/home/spiegel/keyring
+Home: ********
 サポートしているアルゴリズム:
 公開鍵: RSA, ELG, DSA, ECDH, ECDSA, EDDSA
 暗号方式: IDEA, 3DES, CAST5, BLOWFISH, AES, AES192, AES256, TWOFISH,
