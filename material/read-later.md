@@ -39,8 +39,6 @@
 - [Carbon](https://carbon.now.sh/)
     - [ソースコードを美しく色分けして共有 ～GitHubが紹介している“Carbon”がクール - やじうまの杜 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1105382.html)
 
-- [PuTTY-ranvis - Ranvis software](https://www.ranvis.com/putty)
-
 ## Autocrypt について
 
 - [Autocrypt 1.0.0 documentation](https://autocrypt.org/)
