@@ -1,7 +1,7 @@
 +++
 title = "「暗号通貨」ってゆーな！"
 date =  "2018-01-10T22:21:55+09:00"
-update = "2018-02-04T21:04:43+09:00"
+update = "2018-02-24T10:33:26+09:00"
 description = "このまま進めば間違いなく「仮想通貨」は FinTech の中央集権化に向けた覇権競争に突入するだろう。"
 image = "/images/attention/remark.jpg"
 tags = ["blockchain", "engineering", "fintech", "market", "grigori", "hacker-ethic"]
@@ -144,6 +144,7 @@ Bitcoin 単体は数学的に総量が決まっているが， hard fork すれ�
 - [暗号通貨ブームの裏側で顕在化してきた、その基盤技術の「構造的な問題」｜WIRED.jp](https://wired.jp/2018/01/22/bitcoin-infrastructure/)
 - [MIT Tech Review: 「非中央集権型」通貨ビットコインの理想は儚く消えたのか？](https://www.technologyreview.jp/s/71469/bitcoin-and-ethereum-have-a-hidden-power-structure-and-its-just-been-revealed/)
 - [Blockchain Graveyard](https://magoo.github.io/Blockchain-Graveyard/)
+- [仮想通貨とブロックチェーン、そしてICOの狂乱に思うこと：伊藤穰一｜WIRED.jp](https://wired.jp/2018/02/18/ico-cryptocurrency/)
 
 [Everipedia]: https://everipedia.org/ "Everipedia, the encyclopedia of everything"
 
