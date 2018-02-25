@@ -57,7 +57,6 @@ Java の話はマジで仕事に絡むので（秘守義務に抵触しないよ
 - [Java8時代の文字列連結まとめ - きしだのはてな](http://d.hatena.ne.jp/nowokay/20140409)
 - [[Java] Stringの結合について - Qiita](https://qiita.com/yoshi389111/items/67354ba33f9271ef2c68)
 - [JavaBeansの使われ方がどうも納得いかないって話 | たそがれブランチ](http://brbranch.jp/blog/201510/java/javabeans/)
-- [来月にはJava 10が登場し、9月にはJava 11が登場予定。新しいリリースモデルを採用した今後のJava、入手方法やサポート期間はこう変わる（OpenJDKに関する追記あり） － Publickey](http://www.publickey1.jp/blog/18/java_109java_11java.html)
 
 ## 参考図書
 

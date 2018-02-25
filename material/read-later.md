@@ -54,14 +54,19 @@
 
 ## セキュリティ関連
 
+- [米入国審査はIC旅券のチップを検証できない--議員らが指摘 - CNET Japan](https://japan.cnet.com/article/35115146/)
+- [グーグルが「Windows 10」に存在する脆弱性を新たに公表 - CNET Japan](https://japan.cnet.com/article/35115111/)
 
 ## 天文関連
 
+- [水星磁気圏探査機MMO愛称募集キャンペーン](http://isas-info.jp/mmo/)
+    - [水星磁気圏探査機「MMO」、愛称と搭載メッセージを募集 | sorae：宇宙（そら）へのポータルサイト](http://sorae.info/030201/2018_02_21_mmo.html)
 
 ## 知財関連
 
 
 ## その他
 
+- [Ruby誕生25周年を祝うイベント「Ruby25」開催。まつもと氏にサプライズでお嬢様ふたりから花束贈呈 － Publickey](http://www.publickey1.jp/blog/18/ruby25ruby25.html)
 
 (end of file)
