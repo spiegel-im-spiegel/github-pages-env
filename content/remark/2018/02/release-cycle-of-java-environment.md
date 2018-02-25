@@ -1,6 +1,7 @@
 +++
 title = "Java 環境のリリースとサポートに関する覚え書き"
 date = "2018-02-25T19:31:42+09:00"
+update = "2018-02-26T07:33:44+09:00"
 description = "特にこの記事では嘘や間違いがあればフィードバック等いただけると有り難い。随時加筆・修正する予定。"
 image = "/images/attention/kitten.jpg"
 tags        = [ "java", "engineering", "license", "tools" ]
@@ -44,9 +45,6 @@ Oracle の料金体系とかイマイチよく分かっていないのだ。
 
 - [Java Platform, Standard Edition Oracle JDK 9 Migration Guide, Release 9](https://docs.oracle.com/javase/9/migrate/toc.htm)
     - [The Hitchhiker's Migration Guide to JDK 9 新機能の影で消えた機能](https://kasecato.github.io/migrating2Jdk9/)
-- [［速報］Java 9が正式リリース、Javaをモジュール化するProject Jigsawがついに実現。今後のJavaは6カ月ごとタイムベースのアップデートへ － Publickey](http://www.publickey1.jp/blog/17/java_9_release_project_jigsaw.html)
-- [Java9勘所集 - Qiita](https://qiita.com/shiroma_yuki/items/8725a73493e3fe75155d)
-- [Java 9のモジュール機能「Project Jigsaw」の基本を紹介 (1/2)：CodeZine（コードジン）](https://codezine.jp/article/detail/10524)
 
 ### Java 8 の無償サポートは2019年1月まで
 
@@ -58,6 +56,7 @@ Oracle の料金体系とかイマイチよく分かっていないのだ。
 [^pl1]: Processor License は Web サービスなど不特定多数のユーザが利用する場合のライセンス。なお MPU 単位ではなくコア単位になるため，コア4つの MPU なら料金は4倍になる。サポート料金とは別に600K円/コア必要。単一コア単一プロセッサのみの構成ならユーザ数が50人を超えれば Processor License のほうが割安になる。
 
 - {{< pdf-file title="Oracle Technology Global Price List" link="http://www.oracle.com/jp/corporate/pricing/e-pl101005-101005a-n-176288-ja.pdf" >}}
+- [「Java SE 8」のパブリックアップデートが延長、新規提供は2019年1月まで継続される - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1103999.html)
 
 ## Java のリリースサイクル
 
@@ -83,6 +82,8 @@ Java 9 以降は6ヶ月毎に機能の追加・変更を含むメジャー・バ
 ただし LTS (Long Term Support) 対象のバージョンについては新バージョン・リリース後もサポートが行われる。
 （LTS については次節で解説）
 
+- [［速報］Java 9が正式リリース、Javaをモジュール化するProject Jigsawがついに実現。今後のJavaは6カ月ごとタイムベースのアップデートへ － Publickey](http://www.publickey1.jp/blog/17/java_9_release_project_jigsaw.html)
+
 ### Oracle Java と [OpenJDK]
 
 Java および JDK (Java Development Kit) の実装としては Oracle Java と [OpenJDK] が双璧と言える。
@@ -94,20 +95,22 @@ Java および JDK (Java Development Kit) の実装としては Oracle Java と 
 予定ではJava 11がリリースされる2018年9月にこの作業が完了し、商用ディストリビューションのOracle JDKとオープンソース実装のOpenJDKは機能、品質両面で同じものになる予定です。</q>
 {{< /fig-quote >}}
 
-今のところ Oracle Java と [OpenJDK] は協力関係にあり Java 9 以降の各バージョンのリリースを同時期に行うことになっている。
+今のところ Oracle Java と [OpenJDK] は協力関係にあり Java 9 以降の各バージョンのリリースを同時期に行うことになっている[^ocl1]。
 リリース時期とサポート期間は以下の通り。
 
-|         | Oracle Java                | [OpenJDK]                 |
-| ------- | -------------------------- | ------------------------- |
-| Java 9  | 2017年9月 - 2018年3月      | 2017年9月 - 2018年3月     |
-| Java 10 | 2018年3月 - 2018年9月      | 2018年3月 - 2018年9月     |
-| Java 11 | 2018年9月 - 2026年9月[^s1] | 2018年9月 - 2019年3月     |
-| Java 12 | -                          | 2019年3月 - 2019年9月     |
-| Java 13 | -                          | 2019年9月 - 2020年3月     |
-| Java 14 | -                          | 2020年3月 - 2020年9月     |
-| Java 15 | -                          | 2020年9月 - 2021年3月     |
-| Java 16 | -                          | 2021年3月 - 2021年9月     |
-| Java 17 | 2021年9月 - 2029年9月[^s1] | 2021年9月 - 2022年3月まで |
+[^ocl1]: ただし開発の主導権は Oracle 側が握ってる印象。 [OpenJDK] では，メジャー・バージョンのアナウンスはあれど，不具合や脆弱性に関する周知プロセスが皆無なので，結局のところ Oracle の動向を見ないと何も分からない。これで Oracle が LTS に入ったらどうするつもりなのか...
+
+|         | Oracle Java                | [OpenJDK]             |
+| ------- | -------------------------- | --------------------- |
+| Java 9  | 2017年9月 - 2018年3月      | 2017年9月 - 2018年3月 |
+| Java 10 | 2018年3月 - 2018年9月      | 2018年3月 - 2018年9月 |
+| Java 11 | 2018年9月 - 2026年9月[^s1] | 2018年9月 - 2019年3月 |
+| Java 12 | -                          | 2019年3月 - 2019年9月 |
+| Java 13 | -                          | 2019年9月 - 2020年3月 |
+| Java 14 | -                          | 2020年3月 - 2020年9月 |
+| Java 15 | -                          | 2020年9月 - 2021年3月 |
+| Java 16 | -                          | 2021年3月 - 2021年9月 |
+| Java 17 | 2021年9月 - 2029年9月[^s1] | 2021年9月 - 2022年3月 |
 
 [^s1]: 5年間の Premier Support および3年間の Extended Support を併せた期間。更に延長する場合は Sustaining Support の契約が必要。
 
@@ -124,8 +127,6 @@ LTS 対象のバージョンは3年毎にリリースされるが，サポート
 
 - [Oracle Java SE サポート･ロードマップ](http://www.oracle.com/technetwork/jp/java/eol-135779-ja.html)
 - [OracleがJDKの全ての機能をオープンソース化し、Java EEの欠点に取り組む計画を発表した](https://www.infoq.com/jp/news/2017/11/javaone-opening)
-- [第2回　JDKの新しいリリースモデルに要注目 OpenJDKとOracle JDKの違いにも注意が必要［JavaOne 2017］：Java 9のその先へ～JavaOne Conference 2017レポート｜gihyo.jp … 技術評論社](http://gihyo.jp/news/report/01/JavaOne2017/0002)
-- [「Java SE 8」のパブリックアップデートが延長、新規提供は2019年1月まで継続される - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1103999.html)
 - [来月にはJava 10が登場し、9月にはJava 11が登場予定。新しいリリースモデルを採用した今後のJava、入手方法やサポート期間はこう変わる（OpenJDKに関する追記あり） － Publickey](http://www.publickey1.jp/blog/18/java_109java_11java.html)
 
 ## Java 関連のサービスやアプリケーション
@@ -193,6 +194,9 @@ Java 関連のサービスやアプリケーションについて以下にメモ
 ## ブックマーク
 
 - [ヌーラボのアカウント基盤を Java 9 にマイグレーションして起きた問題と解決法 | ヌーラボ](https://nulab-inc.com/ja/blog/nulab/java9-migration/)
+- [Java9勘所集 - Qiita](https://qiita.com/shiroma_yuki/items/8725a73493e3fe75155d)
+- [Java 9のモジュール機能「Project Jigsaw」の基本を紹介 (1/2)：CodeZine（コードジン）](https://codezine.jp/article/detail/10524)
+- [第2回　JDKの新しいリリースモデルに要注目 OpenJDKとOracle JDKの違いにも注意が必要［JavaOne 2017］：Java 9のその先へ～JavaOne Conference 2017レポート｜gihyo.jp … 技術評論社](http://gihyo.jp/news/report/01/JavaOne2017/0002)
 
 [OpenJDK]: http://openjdk.java.net/
 [Project Jigsaw]: http://openjdk.java.net/projects/jigsaw/ "Project Jigsaw"
