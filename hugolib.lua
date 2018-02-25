@@ -101,19 +101,15 @@ hugolib.build = function(theme, dist)
 end
 
 -- Server Mode (hugo server ...)
-hugolib.server = function(theme, enableDraft, port)
+hugolib.server = function(theme, enableDraft, renderToDisk, port)
+	local thmeOpt = ""
+	if not hugolib.isBlank(theme) then thmeOpt = "--theme="..theme end
+	local draftOpt = ""
+	if enableDraft then draftOpt = "--buildDrafts" end
+	local rtdOpt = ""
+	if renderToDisk then rtdOpt = "--renderToDisk" end
 	if hugolib.isBlank(port) then port = "1313" end
-	if hugolib.isBlank(theme) then
-		if enableDraft then
-			return nyagos.rawexec("hugo.exe", "server", "--watch", "--port="..port, "--buildDrafts")
-		else
-			return nyagos.rawexec("hugo.exe", "server", "--watch", "--port=" .. port)
-		end
-	elseif enableDraft then
-		return nyagos.rawexec("hugo.exe", "server", "--watch", "--port="..port, "--buildDrafts", "--theme="..theme)
-	else
-		return nyagos.rawexec("hugo.exe", "server", "--watch", "--port="..port, "--theme="..theme)
-	end
+	return nyagos.rawexec("hugo.exe", "server", "--watch", "--port="..port, draftOpt, rtdOpt, thmeOpt)
 end
 
 --
