@@ -33,11 +33,11 @@ tags        = [ "golang", "engineering", "programming", "logger" ]
 package main
 
 import (
-	"log"
+    "log"
 )
 
 func main() {
-	log.Println("Hello, World")
+    log.Println("Hello, World")
 }
 ```
 
@@ -57,17 +57,17 @@ func main() {
 // the Writer's Write method. A Logger can be used simultaneously from
 // multiple goroutines; it guarantees to serialize access to the Writer.
 type Logger struct {
-	mu     sync.Mutex // ensures atomic writes; protects the following fields
-	prefix string     // prefix to write at beginning of each line
-	flag   int        // properties
-	out    io.Writer  // destination for output
-	buf    []byte     // for accumulating text to write
+    mu     sync.Mutex // ensures atomic writes; protects the following fields
+    prefix string     // prefix to write at beginning of each line
+    flag   int        // properties
+    out    io.Writer  // destination for output
+    buf    []byte     // for accumulating text to write
 }
 
 // Printf calls l.Output to print to the logger.
 // Arguments are handled in the manner of fmt.Printf.
 func (l * Logger) Printf(format string, v ...interface{}) {
-	l.Output(2, fmt.Sprintf(format, v...))
+    l.Output(2, fmt.Sprintf(format, v...))
 }
 
 // Output writes the output for a logging event. The string s contains
@@ -77,30 +77,30 @@ func (l * Logger) Printf(format string, v ...interface{}) {
 // provided for generality, although at the moment on all pre-defined
 // paths it will be 2.
 func (l * Logger) Output(calldepth int, s string) error {
-	now := time.Now() // get this early.
-	var file string
-	var line int
-	l.mu.Lock()
-	defer l.mu.Unlock()
-	if l.flag&(Lshortfile|Llongfile) != 0 {
-		// Release lock while getting caller info - it's expensive.
-		l.mu.Unlock()
-		var ok bool
-		_ , file, line, ok = runtime.Caller(calldepth)
-		if !ok {
-			file = "???"
-			line = 0
-		}
-		l.mu.Lock()
-	}
-	l.buf = l.buf[:0]
-	l.formatHeader(&l.buf, now, file, line)
-	l.buf = append(l.buf, s...)
-	if len(s) == 0 || s[len(s)-1] != '\n' {
-		l.buf = append(l.buf, '\n')
-	}
-	_ , err := l.out.Write(l.buf)
-	return err
+    now := time.Now() // get this early.
+    var file string
+    var line int
+    l.mu.Lock()
+    defer l.mu.Unlock()
+    if l.flag&(Lshortfile|Llongfile) != 0 {
+        // Release lock while getting caller info - it's expensive.
+        l.mu.Unlock()
+        var ok bool
+        _ , file, line, ok = runtime.Caller(calldepth)
+        if !ok {
+            file = "???"
+            line = 0
+        }
+        l.mu.Lock()
+    }
+    l.buf = l.buf[:0]
+    l.formatHeader(&l.buf, now, file, line)
+    l.buf = append(l.buf, s...)
+    if len(s) == 0 || s[len(s)-1] != '\n' {
+        l.buf = append(l.buf, '\n')
+    }
+    _ , err := l.out.Write(l.buf)
+    return err
 }
 {{< /highlight >}}
 
@@ -115,16 +115,16 @@ func (l * Logger) Output(calldepth int, s string) error {
 package main
 
 import (
-	"log"
-	"os"
+    "log"
+    "os"
 )
 
 func main() {
-	log.SetFlags(log.LstdFlags | log.Lmicroseconds | log.Lshortfile)
-	log.SetOutput(os.Stdout)
-	log.SetPrefix("[Hello] ")
+    log.SetFlags(log.LstdFlags | log.Lmicroseconds | log.Lshortfile)
+    log.SetOutput(os.Stdout)
+    log.SetPrefix("[Hello] ")
 
-	log.Println("Hello, World")
+    log.Println("Hello, World")
 }
 ```
 
@@ -140,14 +140,14 @@ func main() {
 package main
 
 import (
-	"log"
-	"os"
+    "log"
+    "os"
 )
 
 func main() {
-	l := log.New(os.Stdout, "[Hello] ", log.LstdFlags|log.Lmicroseconds|log.Lshortfile)
+    l := log.New(os.Stdout, "[Hello] ", log.LstdFlags|log.Lmicroseconds|log.Lshortfile)
 
-	l.Println("Hello, World")
+    l.Println("Hello, World")
 }
 ```
 
@@ -156,7 +156,7 @@ func main() {
 ## 出力レベルとフィルタリング
 
 [`log`] パッケージの欠点は出力のフィルタリングができないことである。
-ログメッセージ毎に ERROR, WARN, INFO, DEBUG といった出力レベルの設定を行い，あらかじめ指定したレベル以下の，メッセージについてはフィルタリングできる仕掛けが欲しいところである。
+ログメッセージ毎に ERROR, WARN, INFO, DEBUG といった出力レベルの設定を行い，あらかじめ指定したレベル以下のメッセージについてはフィルタリングできる仕掛けが欲しいところである。
 
 サードパーティーではフィルタリング機能を持つ logger が色々あるが，せっかく [`log`] パッケージが「できる子」なんだから，なるべく生かした形で実装を考えてみる。
 
@@ -174,24 +174,24 @@ func main() {
 package main
 
 import (
-	"log"
-	"os"
+    "log"
+    "os"
 
-	"github.com/hashicorp/logutils"
+    "github.com/hashicorp/logutils"
 )
 
 func main() {
-	filter := &logutils.LevelFilter{
-		Levels:   []logutils.LogLevel{"DEBUG", "WARN", "ERROR"},
-		MinLevel: logutils.LogLevel("WARN"),
-		Writer:   os.Stderr,
-	}
-	log.SetOutput(filter)
+    filter := &logutils.LevelFilter{
+        Levels:   []logutils.LogLevel{"DEBUG", "WARN", "ERROR"},
+        MinLevel: logutils.LogLevel("WARN"),
+        Writer:   os.Stderr,
+    }
+    log.SetOutput(filter)
 
-	log.Print("[DEBUG] Debugging")         // this will not print
-	log.Print("[WARN] Warning")            // this will
-	log.Print("[ERROR] Erroring")          // and so will this
-	log.Print("Message I haven't updated") // and so will this
+    log.Print("[DEBUG] Debugging")         // this will not print
+    log.Print("[WARN] Warning")            // this will
+    log.Print("[ERROR] Erroring")          // and so will this
+    log.Print("Message I haven't updated") // and so will this
 }
 ```
 
@@ -218,10 +218,10 @@ func main() {
 ```go
 //Logger is logger class
 type Logger struct {
-	lg   *log.Logger // logger
-	mu   sync.Mutex  // ensures atomic writes; protects the following fields
-	flag int         // properties
-	min  Level
+    lg   *log.Logger // logger
+    mu   sync.Mutex  // ensures atomic writes; protects the following fields
+    flag int         // properties
+    min  Level
 }
 ```
 
@@ -230,13 +230,13 @@ type Logger struct {
 ```go
 //Output writes the output for a logging event.
 func (l *Logger) Output(lv Level, calldepth int, s string) error {
-	if lv >= l.min {
-		if (l.flag & Llevel) != 0 {
-			return l.lg.Output(calldepth, fmt.Sprintf("[%v] %s", lv, s))
-		}
-		return l.lg.Output(calldepth, s)
-	}
-	return nil
+    if lv >= l.min {
+        if (l.flag & Llevel) != 0 {
+            return l.lg.Output(calldepth, fmt.Sprintf("[%v] %s", lv, s))
+        }
+        return l.lg.Output(calldepth, s)
+    }
+    return nil
 }
 ```
 
@@ -248,19 +248,19 @@ func (l *Logger) Output(lv Level, calldepth int, s string) error {
 package main
 
 import (
-	"os"
+    "os"
 
-	"github.com/spiegel-im-spiegel/logf"
+    "github.com/spiegel-im-spiegel/logf"
 )
 
 func main() {
-	logf.SetOutput(os.Stdout)
-	logf.SetMinLevel(logf.WARN)
+    logf.SetOutput(os.Stdout)
+    logf.SetMinLevel(logf.WARN)
 
-	logf.Debug("Debugging")   // this will not print
-	logf.Print("Information") // this will not print
-	logf.Warn("Warning")      // this will
-	logf.Error("Erroring")    // and so will this
+    logf.Debug("Debugging")   // this will not print
+    logf.Print("Information") // this will not print
+    logf.Warn("Warning")      // this will
+    logf.Error("Erroring")    // and so will this
 }
 ```
 
@@ -284,7 +284,11 @@ func main() {
 [hashicorp/logutils]: https://github.com/hashicorp/logutils "hashicorp/logutils: Utilities for slightly better logging in Go (Golang)."
 [`logutils`]: https://github.com/hashicorp/logutils "hashicorp/logutils: Utilities for slightly better logging in Go (Golang)."
 [`logf`]: https://github.com/spiegel-im-spiegel/logf "spiegel-im-spiegel/logf: Simple logging package by Golang"
-
 [goroutine]: http://golang.org/ref/spec#Go_statements "The Go Programming Language Specification - The Go Programming Language"
 
-<!-- eof -->
+## 参考図書
+
+<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4621300253/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/410V3ulwP5L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4621300253/baldandersinf-22/">プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)</a></dt><dd>Alan A.A. Donovan Brian W. Kernighan 柴田 芳樹 </dd><dd>丸善出版 2016-06-20</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798142417/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4798142417.09._SCTHUMBZZZ_.jpg"  alt="スターティングGo言語 (CodeZine BOOKS)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4873117526/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4873117526.09._SCTHUMBZZZ_.jpg"  alt="Go言語によるWebアプリケーション開発"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4865940391/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4865940391.09._SCTHUMBZZZ_.jpg"  alt="Kotlinスタートブック -新しいAndroidプログラミング"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4839959234/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4839959234.09._SCTHUMBZZZ_.jpg"  alt="Docker実戦活用ガイド"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4274218961/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4274218961.09._SCTHUMBZZZ_.jpg"  alt="グッド・マス ギークのための数・論理・計算機科学"  /></a> </p>
+<p class="description">著者のひとりは（あの「バイブル」とも呼ばれる）通称 “K&amp;R” の K のほうである。</p>
+<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-07-13">2016-07-13</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+</div>
