@@ -1,10 +1,9 @@
 +++
 title = "Log パッケージで遊ぶ"
-date =  "2018-02-26T13:19:29+09:00"
-description = "description"
+date = "2018-02-27T01:32:43+09:00"
+description = "log パッケージの欠点は出力のフィルタリングができないことである。せっかく「できる子」なんだから，なるべく生かした形でカスタマイズしてみる。"
 image = "/images/attention/go-code2.png"
 tags        = [ "golang", "engineering", "programming", "logger" ]
-draft = true
 
 [author]
   name      = "Spiegel"
@@ -46,47 +45,6 @@ func main() {
 
 ```text
 2009/11/10 23:00:00 Hello, World
-```
-
-[`log`] パッケージの特徴は複数の [goroutine] を横断して使える，つまり [goroutine] safe であるという点である。
-たとえば以下のような並行処理の場合
-
-```go
-package main
-
-import (
-	"log"
-	"sync"
-)
-
-func main() {
-	wait := &sync.WaitGroup{}
-	for i := 0; i < 10; i++ {
-		index := i + 1
-		wait.Add(1)
-		go func() {
-			defer wait.Done()
-			log.Printf("Hello, No. %d\n", index)
-		}()
-	}
-	wait.Wait()
-}
-```
-
-出力結果は以下のようにきれいに出力される。
-（並行処理なので順番は不定）
-
-```text
-2009/11/10 23:00:00 Hello, No. 10
-2009/11/10 23:00:00 Hello, No. 4
-2009/11/10 23:00:00 Hello, No. 2
-2009/11/10 23:00:00 Hello, No. 5
-2009/11/10 23:00:00 Hello, No. 6
-2009/11/10 23:00:00 Hello, No. 1
-2009/11/10 23:00:00 Hello, No. 7
-2009/11/10 23:00:00 Hello, No. 8
-2009/11/10 23:00:00 Hello, No. 3
-2009/11/10 23:00:00 Hello, No. 9
 ```
 
 ## Log パッケージの中身
@@ -146,7 +104,7 @@ func (l * Logger) Output(calldepth int, s string) error {
 }
 {{< /highlight >}}
 
-`Logger.mu.Lock()` および `Logger.mu.Unlock()` 関数に注目すると [`sync`]`.Mutex` を使って排他的に処理しているのが分かるだろう。
+ログ出力時は [`log`]`.Logger` 内部のバッファを使って整形するため，複数の [goroutine] から非同期に呼ばれる可能性を考慮し， [`sync`]`.Mutex` を使って排他的に処理している。
 
 ## Log のカスタマイズ
 
@@ -170,7 +128,7 @@ func main() {
 }
 ```
 
-この場合，以下のログが標準出力に出力される。
+この場合，以下の形式で標準出力に出力される。
 
 ```text
 [Hello] 2009/11/10 23:00:00.000000 main.go:13: Hello, World
@@ -193,20 +151,19 @@ func main() {
 }
 ```
 
-このコードのログ出力は先ほどと同じになる[^log1]。
-
-[^log1]: ログ出力の排他処理は [`log`]`.Logger` インスタンス毎に行われるため，複数の [`log`]`.Logger` インスタンスがある場合は，出力先が競合しないように注意する必要がある。
+このコードのログ出力は先ほどと同じになる。
 
 ## 出力レベルとフィルタリング
 
 [`log`] パッケージの欠点は出力のフィルタリングができないことである。
-ERROR, WARN, INFO, DEBUG といった出力レベルの設定と指定レベル以下のログについてはフィルタリングできる仕掛けが欲しいところである。
+ログメッセージ毎に ERROR, WARN, INFO, DEBUG といった出力レベルの設定を行い，あらかじめ指定したレベル以下の，メッセージについてはフィルタリングできる仕掛けが欲しいところである。
 
-サードパーティーではフィルタリング機能を持つ logger が色々あるが，せっかく [`log`] パッケージが「できる子」なんだから，できるだけ生かす形で実装を考えてみる。
+サードパーティーではフィルタリング機能を持つ logger が色々あるが，せっかく [`log`] パッケージが「できる子」なんだから，なるべく生かした形で実装を考えてみる。
 
-## フィルタリング付き Writer
+### フィルタリング付き Writer
 
-フィルタリング機能付きの Writer を提供するパッケージがある。
+まずは，出力時にフィルタリングを行う Writer を考えてみる。
+有り難いことに既にこの機能を持ったパッケージが存在する。
 
 - [hashicorp/logutils: Utilities for slightly better logging in Go (Golang).](https://github.com/hashicorp/logutils)
 
@@ -233,7 +190,7 @@ func main() {
 
 	log.Print("[DEBUG] Debugging")         // this will not print
 	log.Print("[WARN] Warning")            // this will
-	log.Print("[ERROR] Erring")            // and so will this
+	log.Print("[ERROR] Erroring")          // and so will this
 	log.Print("Message I haven't updated") // and so will this
 }
 ```
@@ -242,20 +199,80 @@ func main() {
 
 ```text
 2009/11/10 23:00:00 [WARN] Warning
-2009/11/10 23:00:00 [ERROR] Erring
+2009/11/10 23:00:00 [ERROR] Erroring
 2009/11/10 23:00:00 Message I haven't updated
 ```
 
 あらかじめキーワード（`"DEBUG"` など）を決めておいて，ログ出力する文字列にこのキーワードを埋め込むことで出力レベルの設定とフィルタリングを行うようだ。
 実際には埋め込むキーワードの typo を防ぐために何らかの仕掛けを作る必要があると思うが，とてもシンプルな作りなので，気軽に導入できそうである。
 
+### Logger に渡す前にフィルタリングする
 
+[hashicorp/logutils] は Writer への書き込み時にフィルタリングを行うものだったが，別のアプローチで [`log`]`.Logger` に渡す前にフィルタリングすることを考えてみる。
+というわけで作ってみた。
 
+- [spiegel-im-spiegel/logf: Simple logging package by Golang](https://github.com/spiegel-im-spiegel/logf)
 
+[`logf`]`.Logger` はこんな感じで [`log`]`.Logger` インスタンス（へのポインタ）を内部に持つ。
 
+```go
+//Logger is logger class
+type Logger struct {
+	lg   *log.Logger // logger
+	mu   sync.Mutex  // ensures atomic writes; protects the following fields
+	flag int         // properties
+	min  Level
+}
+```
 
+実際の出力はこんな感じにしてみた。
 
+```go
+//Output writes the output for a logging event.
+func (l *Logger) Output(lv Level, calldepth int, s string) error {
+	if lv >= l.min {
+		if (l.flag & Llevel) != 0 {
+			return l.lg.Output(calldepth, fmt.Sprintf("[%v] %s", lv, s))
+		}
+		return l.lg.Output(calldepth, s)
+	}
+	return nil
+}
+```
 
+出力レベルのチェック時に排他処理を行っていないが，値の参照だけで状態を変えるわけではないので，まぁいいかなと。
+
+これを使ってログ出力のコードを書いてみる。
+
+```go
+package main
+
+import (
+	"os"
+
+	"github.com/spiegel-im-spiegel/logf"
+)
+
+func main() {
+	logf.SetOutput(os.Stdout)
+	logf.SetMinLevel(logf.WARN)
+
+	logf.Debug("Debugging")   // this will not print
+	logf.Print("Information") // this will not print
+	logf.Warn("Warning")      // this will
+	logf.Error("Erroring")    // and so will this
+}
+```
+
+これを実行するとこんな感じになる。
+
+```text
+2009/11/10 23:00:00 [WARN] Warning
+2009/11/10 23:00:00 [ERROR] Erroring
+```
+
+んー。
+杜撰なコードだが，取り敢えずこんな感じかな。
 
 ## ブックマーク
 
@@ -266,6 +283,7 @@ func main() {
 [`sync`]: https://golang.org/pkg/sync/ "sync - The Go Programming Language"
 [hashicorp/logutils]: https://github.com/hashicorp/logutils "hashicorp/logutils: Utilities for slightly better logging in Go (Golang)."
 [`logutils`]: https://github.com/hashicorp/logutils "hashicorp/logutils: Utilities for slightly better logging in Go (Golang)."
+[`logf`]: https://github.com/spiegel-im-spiegel/logf "spiegel-im-spiegel/logf: Simple logging package by Golang"
 
 [goroutine]: http://golang.org/ref/spec#Go_statements "The Go Programming Language Specification - The Go Programming Language"
 

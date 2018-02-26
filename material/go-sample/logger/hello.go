@@ -1,22 +1,17 @@
 package main
 
 import (
-	"log"
 	"os"
 
-	"github.com/hashicorp/logutils"
+	"github.com/spiegel-im-spiegel/logf"
 )
 
 func main() {
-	filter := &logutils.LevelFilter{
-		Levels:   []logutils.LogLevel{"DEBUG", "WARN", "ERROR"},
-		MinLevel: logutils.LogLevel("WARN"),
-		Writer:   os.Stderr,
-	}
-	log.SetOutput(filter)
+	logf.SetOutput(os.Stdout)
+	logf.SetMinLevel(logf.WARN)
 
-	log.Print("[DEBUG] Debugging")         // this will not print
-	log.Print("[WARN] Warning")            // this will
-	log.Print("[ERROR] Erring")            // and so will this
-	log.Print("Message I haven't updated") // and so will this
+	logf.Debug("Debugging")   // this will not print
+	logf.Print("Information") // this will not print
+	logf.Warn("Warning")      // this will
+	logf.Error("Erroring")    // and so will this
 }
