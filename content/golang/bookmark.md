@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-02-17T13:36:40+09:00"
+update = "2018-02-26T11:11:02+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -259,6 +259,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [zapでログレベルでログの出力先を振り分ける方法 - Qiita](http://qiita.com/emonuh/items/cb3a730979dba7d76920)
 - [go-logging における "module" の意味 - Qiita](https://qiita.com/shinsa82/items/c05a0e8544ecdb87c442)
 - [Golangでlogのタイムスタンプをマイクロ秒単位にする方法 - Qiita](https://qiita.com/tetsu_koba/items/8401f99a39c9757fcff1)
+- [ええっ！？　文字列で書くの！？　ログレベル付きロガーhashicorp/logutilsのご紹介 - Qiita](https://qiita.com/mackee_w/items/3c0940733b6c0922554c)
 
 ### エラーハンドリング
 
@@ -356,6 +357,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Golangでテストしやすいコードをかく - Qiita](http://qiita.com/chisso/items/1dcc52f404b88d274f29)
 - [Go な WebAPI のテスト＆ドキュメントの模索 - Qiita](https://qiita.com/zaru/items/0bee6c19b056dc72948d)
 - [GAE/Goで書いたアプリのテストが何故か固まるのでgo testのコードをチラ見したメモ - utahta >> log](http://www.ninxit.com/blog/2017/12/08/091108)
+- [Go言語のHTTPサーバのテスト事始め - Qiita](https://qiita.com/theoden9014/items/ac8763381758148e8ce5)
 
 ### ドキュメント・フレームワーク
 
