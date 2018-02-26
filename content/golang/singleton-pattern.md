@@ -181,11 +181,11 @@ Singleton Pattern におあつらえ向きの [`sync`].`Once` というのがあ
 //Hello class
 type Hello struct{}
 
-var instance *Hello
+var instance * Hello
 var once sync.Once
 
 //GetInstance returns singleton instance
-func GetInstance() *Hello {
+func GetInstance() * Hello {
     once.Do(func() {
         instance = &Hello{}
     })
@@ -207,15 +207,15 @@ import (
 //Hello class
 type Hello struct{}
 
-func (h *Hello) String() string {
+func (h * Hello) String() string {
     return "Hello"
 }
 
-var instance *Hello
+var instance * Hello
 var once sync.Once
 
 //GetInstance returns singleton instance
-func GetInstance() *Hello {
+func GetInstance() * Hello {
     once.Do(func() {
         fmt.Println("new instance")
         time.Sleep(1 * time.Second) //delay 1sec
