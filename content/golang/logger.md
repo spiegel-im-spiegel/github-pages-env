@@ -284,7 +284,7 @@ func main() {
 
 - [lestrrat-go/file-rotatelogs: Port of perl5 File::RotateLogs to Go](https://github.com/lestrrat-go/file-rotatelogs) [^rl1]
 
-[^rl1]: [lestrrat-go/file-rotatelogs] は Perl の [File::RotateLogs](https://metacpan.org/release/File-RotateLogs "File-RotateLogs-0.08 - File logger supports log rotation - metacpan.org") からの [Go 言語]ポーティングのようだ。
+[^rl1]: [lestrrat-go/file-rotatelogs] パッケージは Perl の [File::RotateLogs](https://metacpan.org/release/File-RotateLogs "File-RotateLogs-0.08 - File logger supports log rotation - metacpan.org") から [Go 言語]へのポーティングのようだ。
 
 [`rotatelogs`] パッケージと先ほどの [`logf`] パッケージを組み合わせれば，こんな感じに書ける。
 
