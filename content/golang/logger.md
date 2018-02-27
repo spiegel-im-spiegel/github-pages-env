@@ -1,6 +1,7 @@
 +++
 title = "Log パッケージで遊ぶ"
 date = "2018-02-27T01:32:43+09:00"
+update = "2018-02-27T10:33:36+09:00"
 description = "log パッケージの欠点は出力のフィルタリングができないことである。せっかく「できる子」なんだから，なるべく生かした形でカスタマイズしてみる。"
 image = "/images/attention/go-code2.png"
 tags        = [ "golang", "engineering", "programming", "logger" ]
@@ -51,7 +52,7 @@ func main() {
 
 具体的に [`log`] パッケージを見てみよう。
 
-{{< highlight go "hl_lines=29-30 33 40" >}}
+```go
 // A Logger represents an active logging object that generates lines of
 // output to an io.Writer. Each logging operation makes a single call to
 // the Writer's Write method. A Logger can be used simultaneously from
@@ -66,7 +67,7 @@ type Logger struct {
 
 // Printf calls l.Output to print to the logger.
 // Arguments are handled in the manner of fmt.Printf.
-func (l * Logger) Printf(format string, v ...interface{}) {
+func (l *Logger) Printf(format string, v ...interface{}) {
     l.Output(2, fmt.Sprintf(format, v...))
 }
 
@@ -76,7 +77,7 @@ func (l * Logger) Printf(format string, v ...interface{}) {
 // already a newline. Calldepth is used to recover the PC and is
 // provided for generality, although at the moment on all pre-defined
 // paths it will be 2.
-func (l * Logger) Output(calldepth int, s string) error {
+func (l *Logger) Output(calldepth int, s string) error {
     now := time.Now() // get this early.
     var file string
     var line int
@@ -86,7 +87,7 @@ func (l * Logger) Output(calldepth int, s string) error {
         // Release lock while getting caller info - it's expensive.
         l.mu.Unlock()
         var ok bool
-        _ , file, line, ok = runtime.Caller(calldepth)
+        _, file, line, ok = runtime.Caller(calldepth)
         if !ok {
             file = "???"
             line = 0
@@ -99,10 +100,10 @@ func (l * Logger) Output(calldepth int, s string) error {
     if len(s) == 0 || s[len(s)-1] != '\n' {
         l.buf = append(l.buf, '\n')
     }
-    _ , err := l.out.Write(l.buf)
+    _, err := l.out.Write(l.buf)
     return err
 }
-{{< /highlight >}}
+```
 
 ログ出力時は [`log`]`.Logger` 内部のバッファを使って整形するため，複数の [goroutine] から非同期に呼ばれる可能性を考慮し， [`sync`]`.Mutex` を使って排他的に処理している。
 
@@ -274,9 +275,49 @@ func main() {
 んー。
 杜撰なコードだが，取り敢えずこんな感じかな。
 
+## 【追記】ログファイルの分割とローテーション
+
+もうひとつ [`log`] パッケージにない機能としてログファイルの分割とローテーション機能がある。
+たとえば [Apache HTTP Server](http://httpd.apache.org/ "Welcome! - The Apache HTTP Server Project") の [rotatelogs] のような機能があると便利である。
+
+と思って探したらありましたよ。
+
+- [lestrrat-go/file-rotatelogs: Port of perl5 File::RotateLogs to Go](https://github.com/lestrrat-go/file-rotatelogs) [^rl1]
+
+[^rl1]: [lestrrat-go/file-rotatelogs] は Perl の [File::RotateLogs](https://metacpan.org/release/File-RotateLogs "File-RotateLogs-0.08 - File logger supports log rotation - metacpan.org") からの [Go 言語]ポーティングのようだ。
+
+[`rotatelogs`] パッケージと先ほどの [`logf`] パッケージを組み合わせれば，こんな感じに書ける。
+
+```go
+package main
+
+import (
+    rotatelogs "github.com/lestrrat-go/file-rotatelogs"
+    "github.com/spiegel-im-spiegel/logf"
+)
+
+func main() {
+    logf.SetMinLevel(logf.WARN)
+    rl, err := rotatelogs.New("./log.%Y%m%d%H%M.txt")
+    if err != nil {
+        logf.Fatal(err)
+        return
+    }
+    logf.SetOutput(rl)
+
+    logf.Debug("Debugging")   // this will not print
+    logf.Print("Information") // this will not print
+    logf.Warn("Warning")      // this will
+    logf.Error("Erroring")    // and so will this
+}
+```
+
+よーし，うむうむ，よーし。
+
 ## ブックマーク
 
 - [ええっ！？　文字列で書くの！？　ログレベル付きロガーhashicorp/logutilsのご紹介 - Qiita](https://qiita.com/mackee_w/items/3c0940733b6c0922554c)
+- [標準出力に表示をしながらファイルにも保存して、かつローテーションもする - Qiita](https://qiita.com/saka1_p/items/5e37fafb35b10bb3d5a3)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`log`]: https://golang.org/pkg/log/ "log - The Go Programming Language"
@@ -285,6 +326,9 @@ func main() {
 [`logutils`]: https://github.com/hashicorp/logutils "hashicorp/logutils: Utilities for slightly better logging in Go (Golang)."
 [`logf`]: https://github.com/spiegel-im-spiegel/logf "spiegel-im-spiegel/logf: Simple logging package by Golang"
 [goroutine]: http://golang.org/ref/spec#Go_statements "The Go Programming Language Specification - The Go Programming Language"
+[rotatelogs]: https://httpd.apache.org/docs/2.4/programs/rotatelogs.html "rotatelogs - Piped logging program to rotate Apache logs - Apache HTTP Server Version 2.4"
+[lestrrat-go/file-rotatelogs]: https://github.com/lestrrat-go/file-rotatelogs "lestrrat-go/file-rotatelogs: Port of perl5 File::RotateLogs to Go"
+[`rotatelogs`]: https://github.com/lestrrat-go/file-rotatelogs "lestrrat-go/file-rotatelogs: Port of perl5 File::RotateLogs to Go"
 
 ## 参考図書
 
