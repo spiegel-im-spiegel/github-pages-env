@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T23:59:59+09:00"
-update = "2018-02-24T10:33:26+09:00"
+update = "2018-02-28T21:26:17+09:00"
 description = "「Go 言語に関するブックマーク」に整理しきれない未整理分。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -112,3 +112,5 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [GoアプリケーションをSupervisorでデーモン化😘 - Qiita](https://qiita.com/gericass/items/fa794bfac5c6bd3e0aab)
 - [Facebook の Graph API で自分の投稿を取得する (go) - Qiita](https://qiita.com/ekzemplaro/items/b306a3c08c5fd83b5208)
     - [Facebook の Graph API で 団体の情報を得る (go) - Qiita](https://qiita.com/ekzemplaro/items/c269d3e43463b82a81b9)
+- [GoでHTMLをPDFに出力する - Qiita](https://qiita.com/kurkuru/items/65614fd3524fefccf576)
+- [GoでLet's Encryptの証明書を自動で取得するサーバーを作る - Qiita](https://qiita.com/ruyoumo/items/699634f6c62447669f2b)

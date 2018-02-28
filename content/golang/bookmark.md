@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-02-28T11:22:27+09:00"
+update = "2018-02-28T21:26:17+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -116,6 +116,7 @@ title = "Go 言語に関するブックマーク"
     - [packageに複数のinitがあるときの挙動 - Qiita](http://qiita.com/astronoka/items/aa2f271d280863cedf5e)
 - [Big Sky :: golang では変数の宣言位置が大事](http://mattn.kaoriya.net/software/lang/go/20170406003909.htm)
 - [Big Sky :: Names](http://mattn.kaoriya.net/software/20160126101358.htm) : Golang の開発者 Russ Cox 氏による記事の抄訳。「変数名の長さ」について
+- [Go言語のキーワードが少ない理由 - Qiita](https://qiita.com/weloan/items/ce6e6dce36a6f774d841)
 
 ### オブジェクトに関すること
 

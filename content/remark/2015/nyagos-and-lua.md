@@ -1,6 +1,6 @@
 +++
 date = "2015-11-02T21:41:54+09:00"
-update = "2018-01-11T10:48:16+09:00"
+update = "2018-02-28T21:26:17+09:00"
 description = "前回，ConEmu とともに NYAGOS を導入したけど，今回は NYAGOS のセッティングを中心に。"
 draft = false
 tags = ["windows", "tools", "nyagos", "shell", "lua"]
@@ -153,6 +153,7 @@ Pascal 系の構文は目が滑るんだよなぁ。
 - [NYAGOSとconemuでキーボード操作の拡張 - Qiita](http://qiita.com/daxanya1/items/7d4b51bba6c8f3a6016b) : [NYAGOS]+[Lua] で動作を定義， [ConEmu] でキーバインドを変更する
 - [nyagosでbower searchを便利につかいたかった - Qiita](http://qiita.com/JugnautOnishi/items/7bec6008b6bdb1c1fb9a)
 - [【ポエム】 NYAGOSの現在と今後 【2017年版】 - Qiita](http://qiita.com/zetamatta/items/3e83c7bfdfbe7fcc92b5)
+    - [【ポエム】NYAGOS 2017年ふりかえり - Qiita](https://qiita.com/zetamatta/items/e2ae6e2ca232a3164214)
 - [補完候補の既入力部分の文字列をハイライト - Qiita](https://qiita.com/nocd5/items/a5e136285804ba2d02c3)
 - [NYAGOS で環境設定系バッチファイルが期待どおり動かない原因と対策 - Qiita](https://qiita.com/zetamatta/items/f62bafd711755a4cf8d7)
 

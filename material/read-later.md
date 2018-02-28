@@ -51,16 +51,26 @@
 
 ## Age of Trump
 
+- [石破案と安倍案は、どう違うのか : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/24706763.html)
 
 ## セキュリティ関連
 
 - [米入国審査はIC旅券のチップを検証できない--議員らが指摘 - CNET Japan](https://japan.cnet.com/article/35115146/)
 - [グーグルが「Windows 10」に存在する脆弱性を新たに公表 - CNET Japan](https://japan.cnet.com/article/35115111/)
+- [セキュリティ人材の末路--人数不足と育成の必要性は本当なのか？ - ZDNet Japan](https://japan.zdnet.com/article/35114853/)
+- [E-Mail Leaves an Evidence Trail - Schneier on Security](https://www.schneier.com/blog/archives/2018/02/e-mail_leaves_a.html)
+- [memcached のアクセス制御に関する注意喚起](http://www.jpcert.or.jp/at/2018/at180009.html)
+    - [【重要】memcachedのアクセス制御に関する注意喚起 | さくらインターネット](https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1885)
+    - [Memcached脆弱性でDDoS踏み台に使われて、プロバイダによるネットワーク制限発生 - Qiita](https://qiita.com/flyjay/items/b9a379ab4ec0f5c0c96e)
+- [「Wireshark」v2.4.5/2.2.13が公開、脆弱性を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1108330.html)
+- [安易なサイバー攻撃の“犯人探し”はやめるべき--シスコが警鐘 - ZDNet Japan](https://japan.zdnet.com/article/35115313/)
 
 ## 天文関連
 
 - [水星磁気圏探査機MMO愛称募集キャンペーン](http://isas-info.jp/mmo/)
     - [水星磁気圏探査機「MMO」、愛称と搭載メッセージを募集 | sorae：宇宙（そら）へのポータルサイト](http://sorae.info/030201/2018_02_21_mmo.html)
+- [超広視野主焦点カメラ HSC の初期成果がまとまる | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/topics/2018/20180227-hsc-topics.html)
+- [かつてない広さと解像度のダークマター地図 | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2018/20180227-hsc.html)
 
 ## 知財関連
 
@@ -68,5 +78,15 @@
 ## その他
 
 - [Ruby誕生25周年を祝うイベント「Ruby25」開催。まつもと氏にサプライズでお嬢様ふたりから花束贈呈 － Publickey](http://www.publickey1.jp/blog/18/ruby25ruby25.html)
+- [Draftは、ちょっと数式をメモするのに便利なサイトです。結城が作りました。試してみてね。http://draft.textfile.org/math https://t.co/HVWHyfOAmm - 結城浩の連ツイ](https://rentwi.hyuki.net/?857068286164348928s)
+- [go-cve-dictionaryとgoval-dictonaryを出力なしで実行する - Qiita](https://qiita.com/sadayuki-matsuno/items/09e4897b13206b9cbcb0)
+- [wkhtmltopdf](https://wkhtmltopdf.org/)
+- [GoでHTMLをPDFに出力する - Qiita](https://qiita.com/kurkuru/items/65614fd3524fefccf576)
+- [JITコンパイラを初搭載した「Ruby 2.6.0-preview1」リリース。大幅な実行速度向上を目指し － Publickey](http://www.publickey1.jp/blog/18/jitruby_260-preview1.html)
+- [Slack and GitHub: Your Ultimate Productivity Pair · GitHub](https://github.com/blog/2506-slack-and-github-your-ultimate-productivity-pair)
+- [石油需要「ピークは2030年代」という衝撃予測：岩瀬昇 | エネルギーの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43377)
+- [娘に分かりやすく符号付き整数を教えるシナリオ - Qiita](https://qiita.com/Yachida/items/183d3a5f6e63acddb8f0)
+- [AppleはiCloudのデータをGoogle CloudとAmazon S3に保存している  |  TechCrunch Japan](http://jp.techcrunch.com/2018/02/28/2018-02-27-apple-now-relies-on-google-cloud-platform-and-amazon-s3-for-icloud-data/)
+	- [なぜAppleはiCloudにGoogle Cloud Platformを使っているのか？ #GCPUG #gcpja - Qiita](https://qiita.com/Yatima/items/47caca9e07d37295a9cf)
 
 (end of file)

@@ -1,6 +1,7 @@
 +++
 title = "Go 言語による Lua 実装を試してみた"
 date = "2018-02-28T19:00:05+09:00"
+update = "2018-02-28T21:26:17+09:00"
 description = "引数を伴う場合はどうするんだろう。 arg みたいなのはないっぽいのでグローバル変数として自前でセットしないといけないかな？"
 image = "/images/attention/go-code2.png"
 tags        = [ "golang", "lua", "engineering", "programming", "language" ]
@@ -273,6 +274,7 @@ $ go run glua.go fibonacci.lua
 ## ブックマーク
 
 - [inforno :: LuaのGo言語実装を公開しました](http://inforno.net/articles/2015/02/15/gopher-lua-released) : こちらは [Lua] 5.1 を [Go 言語]で実装している
+    - [zetamatta/expect: expect for Command Prompt powered by GopherLua](https://github.com/zetamatta/expect)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Lua]: https://www.lua.org/ "The Programming Language Lua"
