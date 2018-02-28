@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-02-26T11:11:02+09:00"
+update = "2018-02-28T11:22:27+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -260,6 +260,10 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [go-logging における "module" の意味 - Qiita](https://qiita.com/shinsa82/items/c05a0e8544ecdb87c442)
 - [Golangでlogのタイムスタンプをマイクロ秒単位にする方法 - Qiita](https://qiita.com/tetsu_koba/items/8401f99a39c9757fcff1)
 - [ええっ！？　文字列で書くの！？　ログレベル付きロガーhashicorp/logutilsのご紹介 - Qiita](https://qiita.com/mackee_w/items/3c0940733b6c0922554c)
+- [rs/zerolog: Zero Allocation JSON Logger](https://github.com/rs/zerolog) : JSON 形式でログを吐く。おススメ
+- [hnakamur/ltsvlog: a minimalist LTSV logging library in Go](https://github.com/hnakamur/ltsvlog) : LTSV 形式でログを吐く
+    - [GoでLTSV形式でログ出力するライブラリを書いた](https://hnakamur.github.io/blog/2016/06/13/wrote_go_ltsvlog_library/)
+    - [zerologを参考にしてltsvlogを改良してみた](https://hnakamur.github.io/blog/2017/05/28/improve-ltsvlog-with-referring-to-zerolog/)
 
 ### エラーハンドリング
 

@@ -1,7 +1,7 @@
 +++
 title = "Log パッケージで遊ぶ"
 date = "2018-02-27T01:32:43+09:00"
-update = "2018-02-27T10:33:36+09:00"
+update = "2018-02-28T11:22:42+09:00"
 description = "log パッケージの欠点は出力のフィルタリングができないことである。せっかく「できる子」なんだから，なるべく生かした形でカスタマイズしてみる。"
 image = "/images/attention/go-code2.png"
 tags        = [ "golang", "engineering", "programming", "logger" ]
@@ -316,6 +316,17 @@ func main() {
 
 ## ブックマーク
 
+### 構造化ログ
+
+- [rs/zerolog: Zero Allocation JSON Logger](https://github.com/rs/zerolog) : JSON 形式でログを吐く。おススメ
+- [hnakamur/ltsvlog: a minimalist LTSV logging library in Go](https://github.com/hnakamur/ltsvlog) : LTSV 形式でログを吐く
+    - [GoでLTSV形式でログ出力するライブラリを書いた](https://hnakamur.github.io/blog/2016/06/13/wrote_go_ltsvlog_library/)
+    - [zerologを参考にしてltsvlogを改良してみた](https://hnakamur.github.io/blog/2017/05/28/improve-ltsvlog-with-referring-to-zerolog/)
+
+### その他
+
+- [golangでlogを標準出力とテキストファイルの2箇所の出力する - Qiita](http://qiita.com/74th/items/441ffcab80a6a28f7ee3)
+- [Goのバッチで統計を取得するAPIを用意しておくと便利 - Qiita](http://qiita.com/sudix/items/c542e1b59bc94dc741e3)
 - [ええっ！？　文字列で書くの！？　ログレベル付きロガーhashicorp/logutilsのご紹介 - Qiita](https://qiita.com/mackee_w/items/3c0940733b6c0922554c)
 - [標準出力に表示をしながらファイルにも保存して、かつローテーションもする - Qiita](https://qiita.com/saka1_p/items/5e37fafb35b10bb3d5a3)
 
