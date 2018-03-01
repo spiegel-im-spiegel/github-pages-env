@@ -1,10 +1,9 @@
 +++
 title = "time.Ticker で遊ぶ"
-date =  "2018-03-01T14:08:57+09:00"
-description = "description"
+date = "2018-03-01T20:28:49+09:00"
+description = "複数の goroutine が協調して動いている場合は SIGNAL イベントに対して全ての goroutine が適切に処理を行う必要がある。"
 image = "/images/attention/go-code2.png"
-tags        = [ "golang", "programming", "time", "channel", "context" ]
-draft = true
+tags        = [ "golang", "programming", "time", "channel", "context", "goroutine" ]
 
 [author]
   name      = "Spiegel"
@@ -34,7 +33,7 @@ draft = true
 ## 一定周期ごとの処理を行う
 
 [Go 言語]で一定周期ごとに処理を行うには [`time`]`.Ticker` が使える。
-以下は1行ごとに現在時刻を表示する処理である。
+以下は1秒ごとに現在時刻を表示する処理である。
 
 ```go
 package main
@@ -61,7 +60,7 @@ func main() {
 }
 ```
 
-`t.C` は受信 [channel] で，周期イベント発生時の時刻がセットされる。
+[`time`]`.Ticker.C` は受信 [channel] で，周期イベント発生時の時刻がセットされる。
 [defer] 構文を使って終了時に [`time`]`.Ticker.Stop()` 関数で周期イベントを止めようとしているが，実際には無限ループなので， return まで到達しない（笑）
 
 このコードはちゃんと動くが，終了条件を記述していないので Ctrl+C などで外部から強制的に止めない限り動き続ける。
@@ -131,7 +130,7 @@ child, cancelChild := context.WithCancel(parent)
 
 `cancelParent` および `cancelChild` は関数値で，これをキックすることでそれぞれの [`context`]`.Context` にキャンセル・イベントが発生する。
 面白いのは `parent` で発生したイベントは `child` にも伝搬する点である（逆向きには伝搬しない）。
-これを利用して，発生した [SIGNAL] に対して親の [`context`]`.Context` でイベントを発生させることによって全ての子  [`context`]`.Context` にイベントを伝搬させることが可能になる。
+これを利用して，発生した [SIGNAL] に対して親の [`context`]`.Context` にイベントを発生させることによって全ての子  [`context`]`.Context` にイベントを伝搬させることが可能になる。
 
 たとえば，先ほどの [SIGNAL] の処理は以下のように書き直すことができる。
 
@@ -276,7 +275,7 @@ func main() {
 ちなみに [`context`]`.WithTimeout()` 関数は [`context`]`.Context` にタイムアウト・イベントを付加する。
 他にもデッドライン日時を指定する [`context`]`.WithDeadline()` 関数がある。
 
-なんか今回は久しぶりに [Go 言語]っぽいコードだったねぇ。
+なんか今回は久しぶりに [Go 言語]っぽいコードだったねぇ（笑）
 
 ## ブックマーク
 
