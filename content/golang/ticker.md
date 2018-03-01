@@ -274,7 +274,7 @@ func main() {
 ```
 
 ちなみに [`context`]`.WithTimeout()` 関数は [`context`]`.Context` にタイムアウト・イベントを付加する。
-他にもデッドライン日時を指定する [`context`]`.WithDeadline()` 関数もある。
+他にもデッドライン日時を指定する [`context`]`.WithDeadline()` 関数がある。
 
 なんか今回は久しぶりに [Go 言語]っぽいコードだったねぇ。
 
