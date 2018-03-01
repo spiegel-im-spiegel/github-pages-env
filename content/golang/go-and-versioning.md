@@ -1,7 +1,7 @@
 +++
 title = "vgo (Versioned Go) に関する覚え書き"
 date = "2018-02-24T16:10:44+09:00"
-update = "2018-02-26T11:08:24+09:00"
+update = "2018-03-01T09:31:39+09:00"
 description = "Go 言語の次のバージョン（v1.11）から vgo (Versioned Go) を実装する計画があるようで， vgo 関連のドキュメントが公開されている。"
 image = "https://research.swtch.com/impver.png"
 tags        = [ "golang", "engineering", "versioning" ]
@@ -218,6 +218,7 @@ vgo が管理するバージョンは [Semantic Versioning] に従うことが�
 - [和訳: Go & Versioning - Qiita](https://qiita.com/nekketsuuu/items/36f00484ff7c30fd2007)
     - [和訳: Go += Package Versioning (Go & Versioning, Part 1) - Qiita](https://qiita.com/nekketsuuu/items/60634417e6279ccfd95b)
     - [和訳: A Tour of Versioned Go (vgo) (Go & Versioning, Part 2) - Qiita](https://qiita.com/nekketsuuu/items/589bc29f00b507492a96)
+    - [和訳: Semantic Import Versioning (Go & Versioning, Part 3) - Qiita](https://qiita.com/nekketsuuu/items/2dcad7dde29171e1fe3f)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [glide]: https://github.com/Masterminds/glide "Masterminds/glide"
