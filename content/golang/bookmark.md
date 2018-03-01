@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-02-28T21:26:17+09:00"
+update = "2018-03-01T17:36:36+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -323,7 +323,6 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 [`context`]: https://golang.org/pkg/context/ "context - The Go Programming Language"
 
 - [Go1.7のcontextパッケージ | SOTA](http://deeeet.com/writing/2016/07/22/context/)
-- [Goの並行パターン：コンテキスト (Go Concurrency Pattern: Context)](https://ymotongpoo.github.io/goblog-ja/post/context/)
 - [Golangのcontext.Valueの使い方 | SOTA](http://deeeet.com/writing/2017/02/23/go-context-value/)
 - [contextの使い方 - Qiita](http://qiita.com/taizo/items/69d3de8622eabe8da6a2)
 - [context.Contextでリクエストスコープな値を持ち回す - Qiita](http://qiita.com/hogedigo/items/a26d816395b7545ce5f8) : [context](https://golang.org/pkg/context/) の使い方って（名前からいって）本来こっちだよね
