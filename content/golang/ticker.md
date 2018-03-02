@@ -1,7 +1,7 @@
 +++
 title = "time.Ticker で遊ぶ"
 date = "2018-03-01T20:28:49+09:00"
-update = "2018-03-02T11:15:42+09:00"
+update = "2018-03-02T13:23:45+09:00"
 description = "複数の goroutine が協調して動いている場合は SIGNAL イベントに対して全ての goroutine が適切に処理を行う必要がある。"
 image = "/images/attention/go-code2.png"
 tags        = [ "golang", "programming", "time", "channel", "context", "goroutine" ]
@@ -71,7 +71,7 @@ func main() {
 [Go 言語]では SIGINT や SIGTERM といった OS から送信される [SIGNAL] をイベントとして [channel] に送り込む仕掛けがある（ちなみに Ctrl+C は SIGINT として送られる）。
 この仕掛けを組み込んだコードが以下である。
 
-{{< highlight go "hl_lines=15-21 27-32" >}}
+{{< highlight go "hl_lines=15-22 28-33" >}}
 package main
 
 import (
@@ -93,6 +93,7 @@ func ticker() {
 		syscall.SIGTERM,
 		syscall.SIGQUIT,
 	)
+    defer signal.Stop(sig)
 
 	for {
 		select {
@@ -148,7 +149,7 @@ func SignalContext(ctx context.Context) context.Context {
 			syscall.SIGTERM,
 			syscall.SIGQUIT,
 		)
-		defer close(sig)
+        defer signal.Stop(sig)
 
 		select {
 		case <-parent.Done():
@@ -229,7 +230,7 @@ func SignalContext(ctx context.Context) context.Context {
 			syscall.SIGTERM,
 			syscall.SIGQUIT,
 		)
-		defer close(sig)
+        defer signal.Stop(sig)
 
 		select {
 		case <-parent.Done():
