@@ -279,6 +279,48 @@ func main() {
 
 なんか今回は久しぶりに [Go 言語]っぽいコードだったねぇ（笑）
 
+## 【追記】 Windows では SIGNAL を送信できない
+
+今回は [SIGNAL] を受信する場合の話だったが，もちろん [SIGNAL] を送信することもできる。
+以下は自分自身に SIGINT を投げるコード例である（[`syscall`] パッケージを使うやり方もあるが，今回は割愛する）。
+
+```go
+proc, _ := os.FindProcess(os.Getppid())
+proc.Signal(os.Interrupt)
+```
+
+ただし，このコードは Windows ではうまく動かない。
+Windows 用の [`os`]`.Signal()` 関数の実体は以下の通りだが
+
+```go
+func (p *Process) signal(sig Signal) error {
+	handle := atomic.LoadUintptr(&p.handle)
+	if handle == uintptr(syscall.InvalidHandle) {
+		return syscall.EINVAL
+	}
+	if p.done() {
+		return errors.New("os: process already finished")
+	}
+	if sig == Kill {
+		err := terminateProcess(p.Pid, 1)
+		runtime.KeepAlive(p)
+		return err
+	}
+	// TODO(rsc): Handle Interrupt too?
+	return syscall.Errno(syscall.EWINDOWS)
+}
+```
+
+
+
+
+
+
+
+
+
+
+
 ## ブックマーク
 
 - [Go Concurrency Patterns: Pipelines and cancellation - The Go Blog](https://blog.golang.org/pipelines)
@@ -289,6 +331,8 @@ func main() {
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`time`]: http://golang.org/pkg/time/ "time - The Go Programming Language"
 [`context`]: https://golang.org/pkg/context/ "context - The Go Programming Language"
+[`syscall`]: https://golang.org/pkg/syscall/ "syscall - The Go Programming Language"
+[`os`]: https://golang.org/pkg/os/ "os - The Go Programming Language"
 [channel]: http://golang.org/ref/spec#Channel_types "The Go Programming Language Specification - The Go Programming Language"
 [defer]: http://blog.golang.org/defer-panic-and-recover "Defer, Panic, and Recover - The Go Blog"
 [goroutine]: http://golang.org/ref/spec#Go_statements "The Go Programming Language Specification - The Go Programming Language"
