@@ -1,6 +1,7 @@
 +++
 title = "time.Ticker で遊ぶ"
 date = "2018-03-01T20:28:49+09:00"
+update = "2018-03-02T11:15:42+09:00"
 description = "複数の goroutine が協調して動いている場合は SIGNAL イベントに対して全ての goroutine が適切に処理を行う必要がある。"
 image = "/images/attention/go-code2.png"
 tags        = [ "golang", "programming", "time", "channel", "context", "goroutine" ]
@@ -120,7 +121,7 @@ func main() {
 ## キャンセル・イベントの伝搬
 
 [Go 言語] 1.7 から [`context`] が標準パッケージに加わった。
-[`context`] パッケージは名前の通りコンテキスト情報を扱うためのパッケージだが，キャンセル・イベントを扱えるという面白い機能がある。
+[`context`] パッケージは，名前の通り，異なるレイヤやドメイン間でコンテキスト情報を受け渡しするためのパッケージだが，キャンセル・イベントを扱うことができる。
 
 ```go
 ctx := context.Background()
@@ -279,6 +280,7 @@ func main() {
 
 ## ブックマーク
 
+- [Go Concurrency Patterns: Pipelines and cancellation - The Go Blog](https://blog.golang.org/pipelines)
 - [Go1.7のcontextパッケージ | SOTA](https://deeeet.com/writing/2016/07/22/context/)
 - [Golangのcontext.Valueの使い方 | SOTA](http://deeeet.com/writing/2017/02/23/go-context-value/)
 - [goroutine にシグナルを送信する - Qiita](http://qiita.com/Kei-Kamikawa/items/620f9504daf2ec53f0b5)
