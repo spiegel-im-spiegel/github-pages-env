@@ -1,7 +1,7 @@
 +++
 title = "time.Ticker で遊ぶ"
 date = "2018-03-01T20:28:49+09:00"
-update = "2018-03-02T13:23:45+09:00"
+update = "2018-03-02T19:36:47+09:00"
 description = "複数の goroutine が協調して動いている場合は SIGNAL イベントに対して全ての goroutine が適切に処理を行う必要がある。"
 image = "/images/attention/go-code2.png"
 tags        = [ "golang", "programming", "time", "channel", "context", "goroutine" ]
@@ -281,16 +281,18 @@ func main() {
 
 ## 【追記】 Windows では SIGNAL を送信できない
 
-今回は [SIGNAL] を受信する場合の話だったが，もちろん [SIGNAL] を送信することもできる。
-以下は自分自身に SIGINT を投げるコード例である（[`syscall`] パッケージを使うやり方もあるが，今回は割愛する）。
+今回は [SIGNAL] を受信する場合の話だったが，もちろん任意のプロセスに [SIGNAL] を送信することもできる。
+以下は自分自身に SIGINT を投げるコード例である[^syscall1]。
+
+[^syscall1]: [`syscall`] パッケージを使うやり方もあるが，今回は割愛する。つか， Windows 版には [`syscall`]`.Kill()` 関数が存在しないのでやりようがないのだが。
 
 ```go
 proc, _ := os.FindProcess(os.Getppid())
 proc.Signal(os.Interrupt)
 ```
 
-ただし，このコードは Windows ではうまく動かない。
-Windows 用の [`os`]`.Signal()` 関数の実体は以下の通りだが
+ただし，このコードは Windows では（コンパイル・エラーにはならないが）動かない。
+Windows 用の [`os`]`.Process.Signal()` 関数の実体は以下の通りだが
 
 ```go
 func (p *Process) signal(sig Signal) error {
@@ -311,15 +313,10 @@ func (p *Process) signal(sig Signal) error {
 }
 ```
 
+このように [`os`]`.Kill` (SIGKILL) 以外は効かないようになっている。
+理由は不明だが TODO になってるようなので何か理由があるのだろう。
 
-
-
-
-
-
-
-
-
+というわけでテストができないのですよ `orz`
 
 ## ブックマーク
 
