@@ -23,6 +23,7 @@
 - [母・娘・祖母が共存するために | 信田さよ子 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4022515082/baldandersinf-22/)
 - [Amazon.co.jp： ［試して理解］Linuxのしくみ ～実験と図解で学ぶOSとハードウェアの基礎知識 eBook: 武内 覚: Kindleストア](https://www.amazon.co.jp/exec/obidos/ASIN/B079YJS1J1/baldandersinf-22/)
     - [Big Sky :: 書評：［試して理解］Linuxのしくみ](https://mattn.kaoriya.net/etc/linux_in_practice.htm)
+- [天文学者が、宇宙人を本気で探してます！～地球外知的生命探査〈ＳＥＴＩ〉の最前線 | 鳴沢 真也 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4800313716/baldandersinf-22/)
 
 
 ## Java / JavaScript / Web
@@ -39,54 +40,49 @@
 - [Carbon](https://carbon.now.sh/)
     - [ソースコードを美しく色分けして共有 ～GitHubが紹介している“Carbon”がクール - やじうまの杜 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1105382.html)
 
-## Autocrypt について
+### Autocrypt について
 
 - [Autocrypt 1.0.0 documentation](https://autocrypt.org/)
 - [Email green, secure, simple and ad-free - posteo.de - New: Easy email encryption with Autocrypt and OpenPGP header](https://posteo.de/en/blog/new-easy-email-encryption-with-autocrypt-and-openpgp-header)
 
-## RFC4880bis
+### RFC4880bis
 
 - [draft-ietf-openpgp-rfc4880bis-04 - OpenPGP Message Format](https://datatracker.ietf.org/doc/draft-ietf-openpgp-rfc4880bis/)
     - https://tools.ietf.org/id/draft-ietf-openpgp-rfc4880bis-04.txt
 
+### LiveReload
+
+- [LiveReload](http://livereload.com/)
+    - [GitHub - livereload/livereload-js: LiveReload JavaScript code that communicates with the server and implements reloading](https://github.com/livereload/livereload-js)
+- [Big Sky :: 開発速度を加速するツール、goemon を書いた。](https://mattn.kaoriya.net/software/lang/go/20150223224545.htm)
+- [GitHub - jaschaephraim/lrserver: LiveReload server for Go [golang]](https://github.com/jaschaephraim/lrserver)
+
+## リリース情報
+
+- [Draftは、ちょっと数式をメモするのに便利なサイトです。結城が作りました。試してみてね。http://draft.textfile.org/math https://t.co/HVWHyfOAmm - 結城浩の連ツイ](https://rentwi.hyuki.net/?857068286164348928s)
+- [JITコンパイラを初搭載した「Ruby 2.6.0-preview1」リリース。大幅な実行速度向上を目指し － Publickey](http://www.publickey1.jp/blog/18/jitruby_260-preview1.html)
+- [【レビュー】メモ帳代わりにも便利、“Gist”のサンプルコードをローカルで管理できる「Lepton」 - 窓の杜](https://forest.watch.impress.co.jp/docs/review/1108671.html)
+- [Dart言語によるモバイルアプリ(iOS/Android)開発フレームワークFlutterがベータを開始  |  TechCrunch Japan](http://jp.techcrunch.com/2018/02/28/2018-02-27-googles-flutter-ui-framework-is-now-in-beta/)
+- [JVNVU#98536678: 複数の SAML ライブラリに認証回避の脆弱性](https://jvn.jp/vu/JVNVU98536678/)
+- [「Wireshark」v2.4.5/2.2.13が公開、脆弱性を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1108330.html)
+- [NTP 4.2.8p11登場、複数の脆弱性を修正 | マイナビニュース](https://news.mynavi.jp/article/20180301-591386/)
+- [日本トラストテクノロジーより、スティック状に折りたためる小型＆軽量キーボード「Bookey Stick」発売 - ニュース ―MdN Design Interactive edition― - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/newsbymdn/1109367.html)
+- [The Document Foundation announces LibreOffice 6.0.2](https://blog.documentfoundation.org/blog/2018/03/01/libreoffice-6-0-2/)
+
+
 ## Age of Trump
 
-- [石破案と安倍案は、どう違うのか : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/24706763.html)
 
 ## セキュリティ関連
 
-- [米入国審査はIC旅券のチップを検証できない--議員らが指摘 - CNET Japan](https://japan.cnet.com/article/35115146/)
-- [グーグルが「Windows 10」に存在する脆弱性を新たに公表 - CNET Japan](https://japan.cnet.com/article/35115111/)
-- [セキュリティ人材の末路--人数不足と育成の必要性は本当なのか？ - ZDNet Japan](https://japan.zdnet.com/article/35114853/)
-- [E-Mail Leaves an Evidence Trail - Schneier on Security](https://www.schneier.com/blog/archives/2018/02/e-mail_leaves_a.html)
-- [memcached のアクセス制御に関する注意喚起](http://www.jpcert.or.jp/at/2018/at180009.html)
-    - [【重要】memcachedのアクセス制御に関する注意喚起 | さくらインターネット](https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1885)
-    - [Memcached脆弱性でDDoS踏み台に使われて、プロバイダによるネットワーク制限発生 - Qiita](https://qiita.com/flyjay/items/b9a379ab4ec0f5c0c96e)
-- [「Wireshark」v2.4.5/2.2.13が公開、脆弱性を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1108330.html)
-- [安易なサイバー攻撃の“犯人探し”はやめるべき--シスコが警鐘 - ZDNet Japan](https://japan.zdnet.com/article/35115313/)
 
 ## 天文関連
 
-- [水星磁気圏探査機MMO愛称募集キャンペーン](http://isas-info.jp/mmo/)
-    - [水星磁気圏探査機「MMO」、愛称と搭載メッセージを募集 | sorae：宇宙（そら）へのポータルサイト](http://sorae.info/030201/2018_02_21_mmo.html)
-- [超広視野主焦点カメラ HSC の初期成果がまとまる | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/topics/2018/20180227-hsc-topics.html)
-- [かつてない広さと解像度のダークマター地図 | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2018/20180227-hsc.html)
 
 ## 知財関連
 
 
 ## その他
 
-- [Ruby誕生25周年を祝うイベント「Ruby25」開催。まつもと氏にサプライズでお嬢様ふたりから花束贈呈 － Publickey](http://www.publickey1.jp/blog/18/ruby25ruby25.html)
-- [Draftは、ちょっと数式をメモするのに便利なサイトです。結城が作りました。試してみてね。http://draft.textfile.org/math https://t.co/HVWHyfOAmm - 結城浩の連ツイ](https://rentwi.hyuki.net/?857068286164348928s)
-- [go-cve-dictionaryとgoval-dictonaryを出力なしで実行する - Qiita](https://qiita.com/sadayuki-matsuno/items/09e4897b13206b9cbcb0)
-- [wkhtmltopdf](https://wkhtmltopdf.org/)
-- [GoでHTMLをPDFに出力する - Qiita](https://qiita.com/kurkuru/items/65614fd3524fefccf576)
-- [JITコンパイラを初搭載した「Ruby 2.6.0-preview1」リリース。大幅な実行速度向上を目指し － Publickey](http://www.publickey1.jp/blog/18/jitruby_260-preview1.html)
-- [Slack and GitHub: Your Ultimate Productivity Pair · GitHub](https://github.com/blog/2506-slack-and-github-your-ultimate-productivity-pair)
-- [石油需要「ピークは2030年代」という衝撃予測：岩瀬昇 | エネルギーの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43377)
-- [娘に分かりやすく符号付き整数を教えるシナリオ - Qiita](https://qiita.com/Yachida/items/183d3a5f6e63acddb8f0)
-- [AppleはiCloudのデータをGoogle CloudとAmazon S3に保存している  |  TechCrunch Japan](http://jp.techcrunch.com/2018/02/28/2018-02-27-apple-now-relies-on-google-cloud-platform-and-amazon-s3-for-icloud-data/)
-	- [なぜAppleはiCloudにGoogle Cloud Platformを使っているのか？ #GCPUG #gcpja - Qiita](https://qiita.com/Yatima/items/47caca9e07d37295a9cf)
 
 (end of file)
