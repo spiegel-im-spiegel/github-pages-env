@@ -105,6 +105,18 @@
 </section> <!-- 最近の記事 -->
 </section> <!-- OpenPGP の実装 -->
 
+<section>
+<h3><a href="/release">リリース情報</a> <a href='/release/index.xml' title='Feed'><i class='fas fa-rss'></i></a></h3>
+<p>自作パッケージ・ツールのリリース情報と気になるツール・サービスの情報について。</p>
+
+<section>
+<h4>最新記事</h4>
+<ul class="title-list">
+{{ range first 1 (where .Site.Pages "Section" "==" "release") }}{{ partial "li-section.html" . }}{{ end }}
+</ul>
+</section> <!-- 最近の記事 -->
+</section> <!-- リリース情報 -->
+
 </section> <!-- 特集記事 -->
 
 <section>
