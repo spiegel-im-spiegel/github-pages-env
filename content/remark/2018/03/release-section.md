@@ -1,10 +1,9 @@
 +++
 title = "「リリース情報」セクションを開設した"
-date =  "2018-03-03T17:36:24+09:00"
+date = "2018-03-03T18:01:39+09:00"
 description = "自作のパッケージやツールを告知するための「リリース情報」セクションを開設することにした。 ドゾ宜しく。"
 image = "/images/attention/kitten.jpg"
 tags        = [ "site", "section" ]
-draft = true
 
 [author]
   name      = "Spiegel"
