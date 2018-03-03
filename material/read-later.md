@@ -3,7 +3,6 @@
 ## 積読中
 
 - [なぜ「えっちなの」は、いけないの？](https://www.buzzfeed.com/jp/yuikoabe/why-h-dame?utm_term=.yp5MolZaw#.bn33n60Y9)
-- [Twitter’s Ban on Russia Today Ads is Dangerous to Free Expression | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2017/10/twitters-ban-russia-today-ads-dangerous-free-expression)
 
 ## いつか買う，かも
 
@@ -26,29 +25,15 @@
 - [天文学者が、宇宙人を本気で探してます！～地球外知的生命探査〈ＳＥＴＩ〉の最前線 | 鳴沢 真也 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4800313716/baldandersinf-22/)
 
 
-## Java / JavaScript / Web
-
-- [PostgreSQL 9.6.3 インストールからテーブル作成まで | ドラブロ](https://www.doraxdora.com/blog/2017/07/25/post-1748/)
-- [WEB色見本 原色大辞典 - HTMLカラーコード](https://www.colordic.org/)
-- [知ってた？ jQueryのready()メソッドはもう書かなくていいらしい - WPJ](https://www.webprofessional.jp/jquery-document-ready-plain-javascript/)
-
 ## あとで遊ぶ
 
-- [広島市 - 無料公衆無線LAN サービス「Hiroshima Free Wi-Fi」について](http://www.city.hiroshima.lg.jp/www/contents/1409563567640/)
 - [さくらのレンタルサーバ／マネージドサーバ 「バックアップ＆ステージング powered by Snapup」提供開始のお知らせ | さくらインターネット](https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1848)
 - [GitHub Pagesがhttpsをサポートしたので切り替えてみた - Shogo's Blog](https://shogo82148.github.io/blog/2016/06/10/github-page-supports-https/)
-- [Carbon](https://carbon.now.sh/)
-    - [ソースコードを美しく色分けして共有 ～GitHubが紹介している“Carbon”がクール - やじうまの杜 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1105382.html)
 
 ### Autocrypt について
 
 - [Autocrypt 1.0.0 documentation](https://autocrypt.org/)
 - [Email green, secure, simple and ad-free - posteo.de - New: Easy email encryption with Autocrypt and OpenPGP header](https://posteo.de/en/blog/new-easy-email-encryption-with-autocrypt-and-openpgp-header)
-
-### RFC4880bis
-
-- [draft-ietf-openpgp-rfc4880bis-04 - OpenPGP Message Format](https://datatracker.ietf.org/doc/draft-ietf-openpgp-rfc4880bis/)
-    - https://tools.ietf.org/id/draft-ietf-openpgp-rfc4880bis-04.txt
 
 ### LiveReload
 
@@ -57,17 +42,8 @@
 - [Big Sky :: 開発速度を加速するツール、goemon を書いた。](https://mattn.kaoriya.net/software/lang/go/20150223224545.htm)
 - [GitHub - jaschaephraim/lrserver: LiveReload server for Go [golang]](https://github.com/jaschaephraim/lrserver)
 
-## リリース情報
 
-- [Draftは、ちょっと数式をメモするのに便利なサイトです。結城が作りました。試してみてね。http://draft.textfile.org/math https://t.co/HVWHyfOAmm - 結城浩の連ツイ](https://rentwi.hyuki.net/?857068286164348928s)
-- [JITコンパイラを初搭載した「Ruby 2.6.0-preview1」リリース。大幅な実行速度向上を目指し － Publickey](http://www.publickey1.jp/blog/18/jitruby_260-preview1.html)
-- [【レビュー】メモ帳代わりにも便利、“Gist”のサンプルコードをローカルで管理できる「Lepton」 - 窓の杜](https://forest.watch.impress.co.jp/docs/review/1108671.html)
-- [Dart言語によるモバイルアプリ(iOS/Android)開発フレームワークFlutterがベータを開始  |  TechCrunch Japan](http://jp.techcrunch.com/2018/02/28/2018-02-27-googles-flutter-ui-framework-is-now-in-beta/)
-- [JVNVU#98536678: 複数の SAML ライブラリに認証回避の脆弱性](https://jvn.jp/vu/JVNVU98536678/)
-- [「Wireshark」v2.4.5/2.2.13が公開、脆弱性を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1108330.html)
-- [NTP 4.2.8p11登場、複数の脆弱性を修正 | マイナビニュース](https://news.mynavi.jp/article/20180301-591386/)
-- [日本トラストテクノロジーより、スティック状に折りたためる小型＆軽量キーボード「Bookey Stick」発売 - ニュース ―MdN Design Interactive edition― - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/newsbymdn/1109367.html)
-- [The Document Foundation announces LibreOffice 6.0.2](https://blog.documentfoundation.org/blog/2018/03/01/libreoffice-6-0-2/)
+## リリース情報
 
 
 ## Age of Trump
@@ -85,4 +61,4 @@
 ## その他
 
 
-(end of file)
+<!-- eof -->

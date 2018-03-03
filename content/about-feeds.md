@@ -1,7 +1,7 @@
 +++
 date = "2017-01-25T17:28:42+09:00"
+update = "2018-03-03T17:40:42+09:00"
 title = "更新情報について"
-draft = false
 tags = ["site", "feed"]
 description = "text.Baldanders.info ではサイトの更新情報を提供しています。"
 
@@ -39,14 +39,15 @@ description = "text.Baldanders.info ではサイトの更新情報を提供し�
 [本サイト]では以下のセクションごとに更新情報を提供しています。
 URL は以下の通りです。
 
-| セクション名 | 更新情報の URL |
-|:-------------|:-----------|
-| [しっぽのさきっちょ](/remark/) | http://text.baldanders.info/remark/index.xml |
-| [ゼロから始める Hugo](/hugo/) | http://text.baldanders.info/hugo/index.xml |
-| [プログラミング言語 Go](/golang/) | http://text.baldanders.info/golang/index.xml |
+| セクション名                                    | 更新情報の URL                                    |
+|:----------------------------------------------- |:------------------------------------------------- |
+| [しっぽのさきっちょ](/remark/)                  | http://text.baldanders.info/remark/index.xml      |
+| [ゼロから始める Hugo](/hugo/)                   | http://text.baldanders.info/hugo/index.xml        |
+| [プログラミング言語 Go](/golang/)               | http://text.baldanders.info/golang/index.xml      |
 | [改訂3版： CC Licenses について](/cc-licenses/) | http://text.baldanders.info/cc-licenses/index.xml |
-| [OpenPGP の実装](/openpgp/) | http://text.baldanders.info/openpgp/index.xml |
-| [ブックマーク集](/bookmarks/) | http://text.baldanders.info/bookmarks/index.xml |
+| [OpenPGP の実装](/openpgp/)                     | http://text.baldanders.info/openpgp/index.xml     |
+| [ブックマーク集](/bookmarks/)                   | http://text.baldanders.info/bookmarks/index.xml   |
+| [リリース情報](/release/)                       | http://text.baldanders.info/release/index.xml     |
 
 ## タグごとの更新情報
 
