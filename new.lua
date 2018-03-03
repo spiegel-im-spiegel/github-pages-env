@@ -19,11 +19,13 @@ if #arg == 1 then
 		end
 	elseif arg[1] == "bookmarks" then
 		path = Hugolib.pathjoin(arg[1], year, month, day.."-bookmarks.md")
+	elseif arg[1] == "release" then
+		path = Hugolib.pathjoin(arg[1], year, month, day.."-releases.md")
 	end
 else
 	local section = arg[1]
 	local file = arg[2]
-	if section == "remark" or section == "bookmarks" then
+	if section == "remark" or section == "bookmarks" or section == "release" then
 		if year == "2015" then
 			path = Hugolib.pathjoin(section, year, file)
 		else
