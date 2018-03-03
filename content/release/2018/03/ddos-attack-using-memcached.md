@@ -31,7 +31,7 @@ tags = [
 ## 脆弱性の内容
 
 [memcached] は，名前の通り，分散型メモリキャッシュ・システムである。
-この [memcached] を踏み台にしたとみられる大規模な DDoS 攻撃が観測されている。
+この [memcached] を踏み台にしたとみられる大規模な DDoS 攻撃（Distributed Denial of Service attack）が観測されている。
 
 - [memcached のアクセス制御に関する注意喚起](http://www.jpcert.or.jp/at/2018/at180009.html)
 - [【重要】memcachedのアクセス制御に関する注意喚起 | さくらインターネット](https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1885)
