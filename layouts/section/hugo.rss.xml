@@ -5,8 +5,8 @@
 	<id>tag:{{ .Site.Title }},{{ .Date.Format "2006-01-02" }}:/hugo</id>
 	<updated>{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</updated>
 	<subtitle>Hugo に関するメモ。</subtitle>
-	{{ if .Site.Author.avatar }}<icon>{{ .Site.BaseURL }}{{ .Site.Author.avatar }}</icon>{{ end }}
-	{{ if .Site.Author.avatar }}<logo>{{ .Site.BaseURL }}{{ .Site.Author.avatar }}</logo>{{ end }}
+	{{ if .Site.Author.avatar }}<icon>{{ .Site.Author.avatar | absURL }}</icon>{{ end }}
+	<logo>{{ "/images/attention/hugo.jpg" | absURL }}</logo>
 	<generator uri="https://gohugo.io/">Hugo {{ .Hugo.Version }}</generator>
 
 	{{ range first 10 .Data.Pages }}

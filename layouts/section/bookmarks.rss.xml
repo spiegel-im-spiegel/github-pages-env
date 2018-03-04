@@ -5,13 +5,13 @@
 	<id>tag:{{ .Site.Title }},{{ .Date.Format "2006-01-02" }}:/hugo</id>
 	<updated>{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</updated>
 	<subtitle>いままで del.icio.us（旧 delicious.com）で収集していたブックマークの代替として運用してみるテスト。</subtitle>
-	{{ if .Site.Author.avatar }}<icon>{{ .Site.BaseURL }}{{ .Site.Author.avatar }}</icon>{{ end }}
-	{{ if .Site.Author.avatar }}<logo>{{ .Site.BaseURL }}{{ .Site.Author.avatar }}</logo>{{ end }}
+	{{ if .Site.Author.avatar }}<icon>{{ .Site.Author.avatar | absURL }}</icon>{{ end }}
+	{{ if .Site.Author.avatar }}<logo>{{ .Site.Author.avatar | absURL }}</logo>{{ end }}
 	<generator uri="https://gohugo.io/">Hugo {{ .Hugo.Version }}</generator>
 
 	{{ range first 10 .Data.Pages }}
 	<entry>
-		<title>{{ .Title }} | {{ .Site.Title }}</title>
+		<title>{{ .Title }}</title>
 		<link rel="alternate" type="text/html" href="{{ .Permalink }}" />
 		<id>tag:{{ .Site.Title }},{{ .Date.Format "2006-01-02" }}:{{ .RelPermalink }}</id>
 		<published>{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</published>
