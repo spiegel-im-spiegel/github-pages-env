@@ -24,3 +24,21 @@ draft = true
   mathjax = false
   mermaidjs = false
 +++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[著作権法]: http://law.e-gov.go.jp/htmldata/S45/S45HO048.html "著作権法"
+[Creative Commons]: https://creativecommons.org/ "Creative Commons"
+[CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
