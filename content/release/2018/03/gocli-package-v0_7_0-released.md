@@ -1,9 +1,10 @@
 +++
 title = "Gocli Package v0.7.0 Released"
 date = "2018-03-03T21:12:41+09:00"
-description = "v0.7.0 では SIGNAL 制御を行う gocli/signal サブパッケージを追加した。 具体的には context パッケージと組み合わせてキャンセル・イベントとして実装した。"
+update = "2018-03-04T10:50:47+09:00"
+description = "v0.7.0 では SIGNAL 制御を行う gocli/signal サブパッケージを追加した。 具体的には context パッケージと組み合わせてキャンセル・イベントとして実装している。"
 image = "/images/attention/tools.png"
-tags  = [ "tools" ]
+tags  = [ "golang", "package", "cli" ]
 
 [author]
   name      = "Spiegel"
@@ -29,9 +30,9 @@ tags  = [ "tools" ]
 - [spiegel-im-spiegel/gocli: Minimal Packages for Command-Line Interface](https://github.com/spiegel-im-spiegel/gocli)
 
 v0.7.0 では [SIGNAL] 制御を行う [`gocli`]`/signal` サブパッケージを追加した。
-具体的には [context] パッケージと組み合わせてキャンセル・イベントとして実装した。
+具体的には [context] パッケージと組み合わせてキャンセル・イベントとして実装している。
 
-こんな感じで使える。
+例えば，こんな感じで使う。
 
 {{< highlight go "hl_lines=20-22 33" >}}
 package main
@@ -95,6 +96,8 @@ Windows 環境では [SIGNAL] 周りのテストが出来ないので結構困�
 ## ブックマーク
 
 - [time.Ticker で遊ぶ]({{< relref "golang/ticker.md" >}})
+- [コマンドライン・インタフェースとファサード・パターン]({{< relref "golang/cli-and-facade-pattern.md" >}})
+- [Cobra の使い方とテスト]({{< relref "golang/using-and-testing-cobra.md" >}})
 
 [spiegel-im-spiegel/gocli]: https://github.com/spiegel-im-spiegel/gocli "spiegel-im-spiegel/gocli: Minimal Packages for Command-Line Interface"
 [`gocli`]: https://github.com/spiegel-im-spiegel/gocli "spiegel-im-spiegel/gocli: Minimal Packages for Command-Line Interface"
