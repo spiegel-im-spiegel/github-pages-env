@@ -272,7 +272,7 @@ import "fmt"
 
 type Array4 [4]int8
 
-func dumpA(ary Array4) {
+func dumpA(ary * Array4) {
     fmt.Printf("dump(ary) = %p\n", ary)
     for i := 0; i < len(ary); i++ {
         fmt.Printf("%p: %v\n", &ary[i], ary[i])
@@ -311,6 +311,49 @@ panic: runtime error: slice bounds out of range
 ```
 
 このように配列と [slice] の関係が分かると `append()` 関数の挙動も理解しやすくなる。
+
+{{% div-box %}}
+**【追記】**
+
+配列 `ary := Array4{0, 1, 2, 3}` の先頭2要素を slice として切り出す場合，普通は `ary[0:2]` とするのだが，容量を含めて2要素のみとしたい場合は `ary[0:2:2]` と記述する。
+
+```go
+package main
+
+import "fmt"
+
+type Array4 [4]int8
+
+func dumpS(slc []int8) {
+	fmt.Printf("dumpS(slc, sz, cap) = %p, %d, %d\n", slc, len(slc), cap(slc))
+	for i := 0; i < len(slc); i++ {
+		fmt.Printf("%p: %v\n", &slc[i], slc[i])
+	}
+}
+
+func main() {
+	ary := Array4{0, 1, 2, 3}
+	slc1 := ary[0:2:2]
+	dumpS(slc1)
+}
+```
+
+このコードの実行結果は以下の通り。
+
+```text
+dumpS(slc, sz, cap) = 0x10414020, 2, 2
+0x10414020: 0
+0x10414021: 1
+```
+
+`ary[0:2:2]` の3番目の要素は（容量の）サイズではなくインデックス値である点に注意。
+たとえば2番目と3番目の要素を切り出そうとして `ary[1:3:2]` などと書くとコンパイルエラーになる。
+
+```text
+invalid slice index: 3 > 2
+```
+{{% /div-box %}}
+
 
 ところで先ほど [slice] は「ポインタとサイズと容量の3つの属性を持つオブジェクト」と書いた。
 つまり厳密に言えば，関数の引数に [slice] をセットするということは「ポインタとサイズと容量の3つの属性を持つオブジェクト」を値渡しでセットしているということになる。
@@ -668,6 +711,7 @@ slc1 != slc2
 - [Go のスライスでハマッたところ - Block Rockin’ Codes](http://jxck.hatenablog.com/entry/golang-slice-internals2)
 - [golang で string を []byte にキャストしてもメモリコピーが走らない方法を考えてみる - Qiita](http://qiita.com/mattn/items/176459728ff4f854b165) : ネタ記事
 - [golangのequalityの評価について - podhmo's diary](http://pod.hatenablog.com/entry/2016/07/30/204357)
+- [スライスを返すときはcapに注意しよう - Qiita](https://qiita.com/methane/items/2cc4e4a23172f6f9b993)
 
 - [Map の話]({{< relref "golang/map.md" >}})
 
