@@ -2,7 +2,7 @@
 tags = ["golang", "programming", "functional-options"]
 description = "今回も自分用の覚え書きとして書いておく。"
 date = "2017-04-04T01:01:59+09:00"
-update = "2017-04-04T16:22:14+09:00"
+update = "2018-03-05T15:31:08+09:00"
 title = "インスタンスの生成と Functional Options パターン"
 draft = false
 
@@ -166,8 +166,8 @@ func New(opts ...Option) *UI {
 さらにフィールドごとに `Option` 関数を返す関数も定義する（これらの関数を用意することで `ui` パッケージを利用するユーザから関数閉包（closure）を隠蔽できる）。
 
 ```go
-//Reader returns closure as type Option
-func Reader(r io.Reader) Option {
+//WithReader returns closure as type Option
+func WithReader(r io.Reader) Option {
     return func(u *UI) {
         if r != nil {
             u.reader = r
@@ -176,8 +176,8 @@ func Reader(r io.Reader) Option {
     }
 }
 
-//Writer returns closure as type Option
-func Writer(w io.Writer) Option {
+//WithWriter returns closure as type Option
+func WithWriter(w io.Writer) Option {
     return func(u *UI) {
         if w != nil {
             u.writer = w
@@ -185,8 +185,8 @@ func Writer(w io.Writer) Option {
     }
 }
 
-//ErrorWriter returns closure as type Option
-func ErrorWriter(e io.Writer) Option {
+//WithErrorWriter returns closure as type Option
+func WithErrorWriter(e io.Writer) Option {
     return func(u *UI) {
         if e != nil {
             u.errorWriter = e
@@ -198,7 +198,7 @@ func ErrorWriter(e io.Writer) Option {
 こうしておけばインスタンス生成時の記述は
 
 ```go
-u := ui.New(ui.Reader(os.Stdin), ui.Writer(os.Stdout))
+u := ui.New(ui.WithReader(os.Stdin), ui.WithWriter(os.Stdout))
 ```
 
 などと初期化の必要なフィールドのみ引数で指定でき，かつコードの見た目も分かりやすくできる。
