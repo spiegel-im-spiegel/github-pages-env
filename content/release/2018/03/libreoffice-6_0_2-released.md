@@ -1,7 +1,7 @@
 +++
-title = "2018-03-05 のリリース情報"
+title = "LibreOffice 6.0.2 Released"
 date =  "2018-03-05T18:14:47+09:00"
-description = "「XXX」他"
+description = "詳しくは述べられていないが，何やらセキュリティ上の問題が修正されているらしい。"
 image = "/images/attention/tools.png"
 tags  = [ "tools", "libreoffice", "security", "risk" ]
 draft = true
@@ -29,7 +29,7 @@ LibreOffice の 6.0.2 がリリースされている。
 
 - [The Document Foundation announces LibreOffice 6.0.2](https://blog.documentfoundation.org/blog/2018/03/01/libreoffice-6-0-2/)
 
-詳しくは述べられていないが，何やらセキュリティ上の問題があるらしい。
+詳しくは述べられていないが，何やらセキュリティ上の問題が修正されているらしい。
 
 {{< fig-quote title="The Document Foundation announces LibreOffice 6.0.2" link="https://blog.documentfoundation.org/blog/2018/03/01/libreoffice-6-0-2/" lang="en" >}}
 <q>All LibreOffice users are invited to update either to LibreOffice 6.0.2 or to LibreOffice 5.4.5 to solve potential security-related issues.</q>
