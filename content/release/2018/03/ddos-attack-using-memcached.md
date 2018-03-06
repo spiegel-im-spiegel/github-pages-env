@@ -1,6 +1,7 @@
 +++
 title = "Memcached を踏み台にしたとみられる DDoS 攻撃に関する覚え書き"
 date = "2018-03-03T19:39:12+09:00"
+update = "2018-03-06T19:35:50+09:00"
 description = "DDoS 攻撃の踏み台として使われるのは memcached だけではない。ソフトウェアを常に最新に保つとともにアドレス制限を含む適切な設定を行う必要がある。"
 image = "/images/attention/tools.png"
 tags = [
@@ -66,5 +67,6 @@ DDoS 攻撃の踏み台として使われるのは [memcached] だけではな�
 - [GitHubに最大1.35TbpsのDDoS攻撃発生。断続的にサービス停止も、短時間で復旧果たす  |  TechCrunch Japan](http://jp.techcrunch.com/2018/03/02/engadget-github-1-35tbps-ddos/)
 - [第2回　memcachedのセキュリティと脆弱性：memcachedの活用と運用 実践編｜gihyo.jp … 技術評論社](http://gihyo.jp/dev/feature/01/memcached_advanced/0002)
 - [memcachedの開放ポート(11211/tcp, 11211/udp)をサクっと確認する - ろば電子が詰まっている](http://d.hatena.ne.jp/ozuma/20180228/1519828918)
+- [memcachedを用いたUDP Amplification攻撃 – wizSafe Security Signal -安心・安全への道標- IIJ](https://wizsafe.iij.ad.jp/2018/03/269/)
 
 [memcached]: https://memcached.org/ "memcached - a distributed memory object caching system"

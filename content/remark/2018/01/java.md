@@ -1,7 +1,7 @@
 +++
 title = "Java に関するブックマーク"
 date =  "2018-01-22T20:21:30+09:00"
-update =  "2018-02-09T22:50:44+09:00"
+update = "2018-03-06T19:35:50+09:00"
 description = "訳あって Java に関するブックマークを淡々と記述するページを作ってみた。"
 image = "/images/attention/remark.jpg"
 tags = [ "java", "engineering", "programming", "bookmark" ]
@@ -57,6 +57,7 @@ Java の話はマジで仕事に絡むので（秘守義務に抵触しないよ
 - [Java8時代の文字列連結まとめ - きしだのはてな](http://d.hatena.ne.jp/nowokay/20140409)
 - [[Java] Stringの結合について - Qiita](https://qiita.com/yoshi389111/items/67354ba33f9271ef2c68)
 - [JavaBeansの使われ方がどうも納得いかないって話 | たそがれブランチ](http://brbranch.jp/blog/201510/java/javabeans/)
+- [Tomcatをいれてみた - Qiita](https://qiita.com/ynxx/items/9ab3a51c04a4878c2dfa)
 
 ## 参考図書
 

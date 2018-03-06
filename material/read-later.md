@@ -45,20 +45,41 @@
 
 ## リリース情報
 
+- [Java EEに代わる新名称が「Jakarta EE」に決定 － Publickey](http://www.publickey1.jp/blog/18/java_eejakarta_ee.html)
+- [PostgreSQL、脆弱性修正したバージョン公開 - 確認推奨 | マイナビニュース](https://news.mynavi.jp/article/20180304-592713/)
+- [脆弱性修正したPHP 5.6.34、7.0.28、7.2.3公開 | マイナビニュース](https://news.mynavi.jp/article/20180304-592704/)
 
 ## Age of Trump
 
 
 ## セキュリティ関連
 
+- [F1ドライヴァーの命を守る新しい機構「Halo」──安全と引き換えに見えた多くの「課題」とチームの苦悩｜WIRED.jp](https://wired.jp/2018/03/02/formula-1-cars-halo/)
+- [平昌五輪のサイバー関連の出来事をまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20180303/1520093984)
+- [2万3000件以上のSSL/TLS証明書の秘密鍵が電子メールでやりとりされたことが判明し、その全てが失効となる事態に - GIGAZINE](https://gigazine.net/news/20180304-private-keys-on-emails/)
+- [Extracting Secrets from Machine Learning Systems - Schneier on Security](https://www.schneier.com/blog/archives/2018/03/extracting_secr.html)
+- [暗号通貨の採掘用サーバ約600台が盗まれる--アイスランド - CNET Japan](https://japan.cnet.com/article/35115662/)
+- [4G LTEネットワークの脆弱性--位置情報や緊急アラートの偽装が可能に - ZDNet Japan](https://japan.zdnet.com/article/35115581/)
+    - [LTEの新たなセキュリティホールが発見？電話の盗聴や緊急速報を偽装できる脆弱性を報告する論文が公開  |  TechCrunch Japan](http://jp.techcrunch.com/2018/03/05/engadget-lte/)
 
 ## 天文関連
 
+- [太陽よりも低温な恒星をまわる太陽系外惑星を多数発見 | 東工大ニュース | 東京工業大学](https://www.titech.ac.jp/news/2018/040657.html)
+- [宇宙は原始銀河団であふれている | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2018/20180305-hsc.html)
 
 ## 知財関連
 
 
 ## その他
 
+- [[更新]なぜ？ auとソフトバンクの「テザリング実質有料化」 —— ドコモは有料化の予定なし | BUSINESS INSIDER JAPAN](https://www.businessinsider.jp/post-163168)
+- [Twitter健全性指数の先にあるのは「PSYCHO-PASS」の世界？ - ITmedia PC USER](http://www.itmedia.co.jp/pcuser/articles/1803/04/news016.html)
+- [平文のTCP/IPにおいて転送されたデータの信頼性を期待してはいけない - 最速配信研究会(@yamaz)](http://yamaz.hatenablog.com/entry/2018/03/03/214221)
+- [Goole Song Maker は確かにお手軽に楽しめる - 電気ウナギ的○○](http://blog.netandfield.com/shar/2018/03/goole-song-maker.html)
+- [2018年3月5日ニュース「がん10年生存率は昨年調査よりやや上昇 2000年代初めに診断された人は55%」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/03/20180305_01.html)
+- [Gvizの目次 - Rubyの世界からGraphvizの世界にこんにちは！](http://melborne.github.io/2014/02/27/gviz-posts/)
+- [オンプレミスのVMware環境を自動的に探索、情報収集して、Microsoft Azureへの移行を支援する「Azure Migrate」が正式版に － Publickey](http://www.publickey1.jp/blog/18/vmwaremicrosoft_azureazure_migrate.html)
+- [Lua言語のライブラリ関数](http://www.rtpro.yamaha.co.jp/RT/docs/lua/tutorial/library.html)
+- [GitHub - sevlyar/go-daemon: A library for writing system daemons in golang.](https://github.com/sevlyar/go-daemon)
 
 <!-- eof -->
