@@ -1,6 +1,7 @@
 +++
 title = "ATOM エディタを使った作図（PlantUML 編）"
 date =  "2017-12-17T21:56:39+09:00"
+update = "2018-03-06T11:00:35+09:00"
 description = "おおっ。流石にクラス図は PlantUML の方がいいな。"
 image = "/images/attention/remark.jpg"
 tags        = [ "tools", "plantuml", "uml", "atom", "editor", "java" ]
@@ -305,5 +306,5 @@ classDiagram
 [linter]: https://atom.io/packages/linter
 [plantuml-viewer]: https://atom.io/packages/plantuml-viewer
 [PlantUML]: http://plantuml.com/ "Open-source tool that uses simple textual descriptions to draw UML diagrams."
-[Graphviz]: http://www.graphviz.org/ "Graphviz | Graphviz - Graph Visualization Software"
+[Graphviz]: http://graphviz.org/ "Graphviz - Graph Visualization Software"
 [mermaid]: https://mermaidjs.github.io/

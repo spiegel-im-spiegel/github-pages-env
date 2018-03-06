@@ -1,7 +1,7 @@
 +++
 title = "そうだ，シーケンス図を描こう！ （一応クラス図も描けるよ）"
 date =  "2017-09-21T16:54:32+09:00"
-update =  "2017-09-21T20:41:52+09:00"
+update = "2018-03-06T11:00:35+09:00"
 description = "久しぶりに本ブログをいじくって mermaid でシーケンス図を描けるようにしてみる。"
 tags        = [ "tools", "mermaid", "uml", "hugo", "shortcodes", "web", "site" ]
 
@@ -285,7 +285,7 @@ classDiagram
 - [クラス図(Class Diagram) - UML入門 - IT専科](http://www.itsenka.com/contents/development/uml/class.html)
 - [簡単にガントチャートとかクラス図とか書けるやつ - Qiita](https://qiita.com/rana_kualu/items/da394fd33ce019bf0ba7)
 - [ちょっとしたシーケンス図を書くのにatom-mermaidが便利すぎる話 - Qiita](https://qiita.com/ririli/items/64320ed2918b1982f89d)
-- [Drawing Graphs using Dot and Graphviz](http://www.tonyballantyne.com/graphs.html) : 図にこだわるのであれば [Graphviz](http://www.graphviz.org/ "Graphviz | Graphviz - Graph Visualization Software") の DOT 言語を使う手もある
+- [Drawing Graphs using Dot and Graphviz](http://www.tonyballantyne.com/graphs.html) : 図にこだわるのであれば [Graphviz] の DOT 言語を使う手もある
     - [Graphvizとdot言語でグラフを描く方法のまとめ - Qiita](https://qiita.com/rubytomato@github/items/51779135bc4b77c8c20d)
 
 - [エディタ以上ワープロ未満の HackMD]({{< relref "remark/2017/04/hackmd.md" >}})
@@ -293,3 +293,4 @@ classDiagram
 [本ブログ]: / "text.Baldanders.info"
 [mermaid]: https://mermaidjs.github.io/
 [Hugo]: https://gohugo.io/ "Hugo | A Fast and Flexible Website Generator"
+[Graphviz]: http://graphviz.org/ "Graphviz - Graph Visualization Software"

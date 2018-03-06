@@ -1,7 +1,7 @@
 +++
 draft = false
 date = "2017-04-06T22:25:55+09:00"
-update = "2017-04-07T12:47:30+09:00"
+update = "2018-03-06T11:00:35+09:00"
 title = "エディタ以上ワープロ未満の HackMD"
 tags = ["tools", "editor", "markdown"]
 description = "もうしばらく遊んでみて，よさげなら常用してみようかな，と。"
@@ -121,7 +121,7 @@ breaks: false
 [Simplenote]: https://simplenote.com/
 [HackMD]: https://hackmd.io/ "HackMD - 共同編集できるMarkdownノート"
 [imgur]: http://imgur.com/ "Imgur: The most awesome images on the Internet"
-[graphviz]: http://www.graphviz.org/ "Graphviz | Graphviz - Graph Visualization Software"
+[Graphviz]: http://graphviz.org/ "Graphviz - Graph Visualization Software"
 [js-sequence-diagrams]: https://bramp.github.io/js-sequence-diagrams/ "js-sequence-diagrams by bramp"
 [mermaid]: http://knsv.github.io/mermaid/ "mermaid - Generation of diagrams and flowcharts from text in a similar manner as markdown."
 [flowchart.js]: http://flowchart.js.org/

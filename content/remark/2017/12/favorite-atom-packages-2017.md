@@ -1,7 +1,7 @@
 +++
 title = "年末なので ATOM Editor を掃除しましょう（もしくは2017年お気に入り ATOM パッケージ）"
 date =  "2017-12-16T18:16:31+09:00"
-update = "2017-12-17T08:37:00+09:00"
+update = "2018-03-06T11:00:35+09:00"
 description = "というわけで，唐突に ATOM エディタの掃除とか始めてしまう。ついでに最近のお気に入りパッケージとか紹介してみる。"
 image = "/images/attention/remark.jpg"
 tags = ["atom", "editor", "tools", "git", "golang", "japanese", "language"]
@@ -263,4 +263,4 @@ $ apm stars --install
 [ATOM]: https://atom.io/ "Atom"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [NYAGOS]: http://www.nyaos.org/index.cgi?p=NYAGOS "NYAOS.ORG - NYAGOS"
-[Graphviz]: http://www.graphviz.org/ "Graphviz | Graphviz - Graph Visualization Software"
+[Graphviz]: http://graphviz.org/ "Graphviz - Graph Visualization Software"

@@ -1,7 +1,7 @@
 +++
 title = "Glide から Dep への移行を検討する"
 date = "2017-10-10T18:02:56+09:00"
-update = "2018-02-02T16:11:10+09:00"
+update = "2018-03-06T11:00:35+09:00"
 description = "つまり「依存関係（Vendoring）管理ツールとしては dep を推奨するけど移行できない人のために当面はサポートを続けるよ（でも将来は分からん）」という解釈でいいのだろうか。"
 tags = ["golang", "engineering", "package", "vendoring", "tools", "glide", "dep", "testing"]
 
@@ -585,7 +585,7 @@ github.com/spiegel-im-spiegel/pi/vendor/github.com/spiegel-im-spiegel/gocli
 [`Gopkg.lock`]: https://golang.github.io/dep/docs/Gopkg.lock.html "Gopkg.lock · dep"
 [7-Zip]: http://www.7-zip.org/
 [`Get-FileHash`]: http://technet.microsoft.com/en-us/library/dn520872.aspx
-[Graphviz]: http://www.graphviz.org/ "Graphviz | Graphviz - Graph Visualization Software"
+[Graphviz]: http://graphviz.org/ "Graphviz - Graph Visualization Software"
 [spiegel-im-spiegel/pi]: https://github.com/spiegel-im-spiegel/pi "spiegel-im-spiegel/pi: Estimate of Pi with Monte Carlo method."
 [spiegel-im-spiegel/gocli]: https://github.com/spiegel-im-spiegel/gocli "spiegel-im-spiegel/gocli: Command line interface"
 [github.com/davidminor/gorand]: https://github.com/davidminor/gorand "davidminor/gorand: Basic golang implementation of a permuted congruential generator for pseudorandom number generation"

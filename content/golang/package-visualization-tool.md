@@ -1,5 +1,6 @@
 +++
 date = "2015-10-15T20:32:32+09:00"
+update = "2018-03-06T11:00:35+09:00"
 description = "今回はちょっと横道にそれて，パッケージの依存状況を視覚化するツールをご紹介。"
 draft = false
 tags = ["golang", "package", "tools"]
@@ -129,4 +130,4 @@ Help Options:
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 
 [hirokidaichi/goviz]: https://github.com/hirokidaichi/goviz "hirokidaichi/goviz"
-[Graphviz]: http://www.graphviz.org/ "Graphviz | Graphviz - Graph Visualization Software"
+[Graphviz]: http://graphviz.org/ "Graphviz - Graph Visualization Software"
