@@ -1,7 +1,7 @@
 +++
 title = "Cobra の使い方とテスト"
 date =  "2017-12-06T21:01:33+09:00"
-update = "2017-12-07T12:07:01+09:00"
+update = "2018-03-06T11:21:33+09:00"
 description = "spf13/cobra そのものについてちゃんと書いてない気がするので，今回はコードの書き方からテストまでをひと通り紹介していく。"
 image = "/images/attention/go-code.png"
 tags = ["golang", "cli", "programming", "testing"]
@@ -204,9 +204,9 @@ func run(ui *rwi.RWI) exitcode.ExitCode {
 
 func main() {
     run(rwi.New(
-        rwi.Reader(os.Stdin),
-        rwi.Writer(os.Stdout),
-        rwi.ErrorWriter(os.Stderr),
+        rwi.WithReader(os.Stdin),
+        rwi.WithWriter(os.Stdout),
+        rwi.WithErrorWriter(os.Stderr),
     )).Exit()
 }
 ```
@@ -275,9 +275,9 @@ func Execute(ui *rwi.RWI, args []string) (exit exitcode.ExitCode) {
 func main() {
     cmd.Execute(
         rwi.New(
-            rwi.Reader(os.Stdin),
-            rwi.Writer(os.Stdout),
-            rwi.ErrorWriter(os.Stderr),
+            rwi.WithReader(os.Stdin),
+            rwi.WithWriter(os.Stdout),
+            rwi.WithErrorWriter(os.Stderr),
         ),
         os.Args[1:],
     ).Exit()
@@ -576,8 +576,8 @@ func TestShowNormal(t *testing.T) {
         out := new(bytes.Buffer)
         errOut := new(bytes.Buffer)
         ui := rwi.New(
-            rwi.Writer(out),
-            rwi.ErrorWriter(errOut),
+            rwi.WithWriter(out),
+            rwi.WithErrorWriter(errOut),
         )
         exit := Execute(ui, c.args)
         if exit != exitcode.Normal {
@@ -604,15 +604,19 @@ func TestShowNormal(t *testing.T) {
 ```toml
 [[constraint]]
   name = "github.com/spf13/cobra"
-  version = "~0.0.1"
+  version = "0.0.*"
 
 [[constraint]]
   name = "github.com/spiegel-im-spiegel/gocli"
-  version = "~0.5.0"
+  version = "0.7.*"
 
 [[constraint]]
   name = "github.com/pkg/errors"
-  version = "~0.8.0"
+  version = "0.8.*"
+
+[prune]
+  go-tests = true
+  unused-packages = true
 ```
 
 ちなみに今回のデモのパッケージ依存関係はこんな感じになっている。
@@ -621,7 +625,7 @@ func TestShowNormal(t *testing.T) {
 $ dep status -dot | dot -Tpng -o dependency.png
 ```
 
-{{< fig-img src="dependency.png" width="732" link="dependency.png" >}}
+{{< fig-img src="dependency.png" width="754" link="dependency.png" >}}
 
 
 ## ブックマーク
