@@ -1,6 +1,6 @@
 +++
 date = "2015-12-09T20:14:59+09:00"
-update = "2018-02-10T18:01:02+09:00"
+update = "2018-03-06T15:30:17+09:00"
 description = "git 各コマンドに関する覚え書き。思い出したら追記予定。"
 draft = false
 tags = ["git", "tools"]
@@ -182,6 +182,25 @@ $ git push -f
 これで貴方の歴史はなかったことになりました（笑） チームで管理している場合はご注意を。
 
 - [【git】git pushを取り消す - tweeeetyのぶろぐ的めも](http://tweeeety.hateblo.jp/entry/2015/06/10/215753)
+
+## commit ログの収集
+
+タグの `v0.6.0` から `v0.7.0` の間の commit ログを収集する。
+
+```
+$ git log "--pretty=format:- %s %h" v0.6.0..v0.7.0
+- Merge pull request #3 from spiegel-im-spiegel/signal-subpackage 01a70c3
+- Update Document 3fe7b80
+- Add signal subpackage cfff012
+```
+
+Merge のログは不要な場合。
+
+```
+$ git log "--pretty=format:- %s %h" v0.6.0..v0.7.0 | grep -v Merge
+- Update Document 3fe7b80
+- Add signal subpackage cfff012
+```
 
 ## Git に関するブックマーク
 

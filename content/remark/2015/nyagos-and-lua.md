@@ -1,6 +1,6 @@
 +++
 date = "2015-11-02T21:41:54+09:00"
-update = "2018-02-28T21:26:17+09:00"
+update = "2018-03-06T16:44:58+09:00"
 description = "前回，ConEmu とともに NYAGOS を導入したけど，今回は NYAGOS のセッティングを中心に。"
 draft = false
 tags = ["windows", "tools", "nyagos", "shell", "lua"]
@@ -61,7 +61,7 @@ C:\Users\username
 
 となる。
 
-[Lua] 拡張については [NYAGOS のドキュメント](https://github.com/zetamatta/nyagos/blob/master/Doc/nyagos_ja.md)を参照するとよいだろう。
+[Lua] 拡張については[ドキュメント](https://github.com/zetamatta/nyagos/blob/master/Doc/07-LuaFunctions_ja.md)を参照するとよいだろう。
 特筆すべきは `alias` 機能で，単純なコマンドの置き換えだけでなく
 
 ```
@@ -70,7 +70,11 @@ nyagos.alias.cmdname = function(args) ... end
 
 のような形式で新しい内部コマンドを作成することもできる。
 
-ところで `nyagos.exe` を普通に起動して `ls -oF` コマンドでファイルの一覧を表示させてみると，拡張子 `.lua` のファイルは実行可能ファイルになっていることが分かる。
+ところで `nyagos.exe` を普通に起動してプロンプトから `ls -oF` コマンドでファイルの一覧を表示させてみると，拡張子 `.lua` のファイルは実行可能ファイルになっていることが分かる[^rc]。
+
+[^rc]: 拡張子 `.lua` とコマンドの関連付けは [NYAGOS] をインストールしたフォルダにある `_nyagos` ファイルに記述されている。
+
+<!--
 ただ，実際に起動しようとすると
 
 ```
@@ -112,9 +116,12 @@ suffix.ps1={"powershell","-file"}
  ```
 
 これで `nyagos.exe` を起動し直して `hello.lua` ファイルを実行してみる。
+-->
+
+実際に [NYAGOS] のプロンプト上で動かしてみよう。
 
 ```
-~> hello.lua
+$ hello.lua
 Hello World!
 ```
 

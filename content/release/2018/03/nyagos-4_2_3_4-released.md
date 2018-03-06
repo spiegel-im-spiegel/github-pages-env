@@ -25,7 +25,7 @@ draft = true
   mermaidjs = false
 +++
 
-NYAGOS 4.2.3_4 がリリースされた。
+[NYAGOS] 4.2.3_4 がリリースされた。
 
 - [Release 4.2.3_4 (bug fixes) · zetamatta/nyagos](https://github.com/zetamatta/nyagos/releases/tag/4.2.3_4)
 
