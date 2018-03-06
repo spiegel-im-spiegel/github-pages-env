@@ -1,10 +1,9 @@
 +++
 title = "NYAGOS 4.2.3_4 Released"
-date =  "2018-03-05T09:30:02+09:00"
+date = "2018-03-06T18:57:17+09:00"
 description = "今回は不具合の修正がメインのようだ。"
 image = "/images/attention/tools.png"
 tags  = [ "tools", "nyagos", "shell" ]
-draft = true
 
 [author]
   name      = "Spiegel"

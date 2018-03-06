@@ -1,10 +1,9 @@
 +++
 title = "バージョン間のコミット・ログを取得する"
-date =  "2018-03-06T13:46:00+09:00"
+date = "2018-03-06T18:58:09+09:00"
 description = "今度忘れたときに Google 先生のお世話にならなくても済むよう覚え書きとして残しておく。"
 image = "/images/attention/kitten.jpg"
 tags        = [ "tools", "git", "lua", "nyagos" ]
-draft = true
 
 [author]
   name      = "Spiegel"

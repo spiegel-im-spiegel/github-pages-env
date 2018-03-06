@@ -1,10 +1,9 @@
 +++
 title = "LibreOffice 6.0.2 Released"
-date =  "2018-03-05T18:14:47+09:00"
+date = "2018-03-06T18:57:41+09:00"
 description = "詳しくは述べられていないが，何やらセキュリティ上の問題が修正されているらしい。"
 image = "/images/attention/tools.png"
 tags  = [ "tools", "libreoffice", "security", "risk" ]
-draft = true
 
 [author]
   name      = "Spiegel"
