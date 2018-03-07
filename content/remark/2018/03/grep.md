@@ -1,10 +1,9 @@
 +++
 title = "Windows でも Grep したい"
-date =  "2018-03-07T11:00:33+09:00"
-description = "description"
+date = "2018-03-07T19:08:25+09:00"
+description = "既に Go 言語製の grep を公開されてる方がいた。パスの再帰検索が地味にありがたい。"
 image = "/images/attention/kitten.jpg"
 tags        = [ "tools", "grep", "windows" ]
-draft = true
 
 [author]
   name      = "Spiegel"
@@ -58,7 +57,7 @@ $ go get -u -v github.com/mattn/jvgrep
 でインストールする。
 もう [mattn/go-iconv] は使ってないっぽいので `iconv.dll` とかは不要なようだ。
 
-再帰検索が地味にありがたい。
+パスの再帰検索が地味にありがたい。
 
 ## jvgrep を [NYAGOS] の Alias に組み込む
 
