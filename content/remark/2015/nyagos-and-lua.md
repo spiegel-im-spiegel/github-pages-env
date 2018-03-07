@@ -1,6 +1,6 @@
 +++
 date = "2015-11-02T21:41:54+09:00"
-update = "2018-03-06T16:44:58+09:00"
+update = "2018-03-07T10:29:56+09:00"
 description = "前回，ConEmu とともに NYAGOS を導入したけど，今回は NYAGOS のセッティングを中心に。"
 draft = false
 tags = ["windows", "tools", "nyagos", "shell", "lua"]
@@ -161,8 +161,9 @@ Pascal 系の構文は目が滑るんだよなぁ。
 - [nyagosでbower searchを便利につかいたかった - Qiita](http://qiita.com/JugnautOnishi/items/7bec6008b6bdb1c1fb9a)
 - [【ポエム】 NYAGOSの現在と今後 【2017年版】 - Qiita](http://qiita.com/zetamatta/items/3e83c7bfdfbe7fcc92b5)
     - [【ポエム】NYAGOS 2017年ふりかえり - Qiita](https://qiita.com/zetamatta/items/e2ae6e2ca232a3164214)
+- [一見、NYAGOSの不具合に見える事例について（随時追記） - Qiita](https://qiita.com/zetamatta/items/441ff50da7c8f3338260)
+    - [NYAGOS で環境設定系バッチファイルが期待どおり動かない原因と対策 - Qiita](https://qiita.com/zetamatta/items/f62bafd711755a4cf8d7)
 - [補完候補の既入力部分の文字列をハイライト - Qiita](https://qiita.com/nocd5/items/a5e136285804ba2d02c3)
-- [NYAGOS で環境設定系バッチファイルが期待どおり動かない原因と対策 - Qiita](https://qiita.com/zetamatta/items/f62bafd711755a4cf8d7)
 
 [ConEmu]: https://conemu.github.io/ "ConEmu - Handy Windows Terminal"
 [NYAGOS]: http://www.nyaos.org/index.cgi?p=NYAGOS "NYAOS.ORG - NYAGOS"

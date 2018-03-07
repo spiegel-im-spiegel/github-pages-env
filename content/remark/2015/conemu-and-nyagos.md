@@ -1,6 +1,6 @@
 +++
 date = "2015-10-30T00:56:49+09:00"
-update = "2018-02-21T16:26:06+09:00"
+update = "2018-03-07T10:29:56+09:00"
 description = "そんなわけで，えんやらやっと ConEmu を導入することにした。ついでに NYAGOS も入れなおすことに。"
 tags = ["windows", "tools", "conemu", "nyagos", "terminal", "shell", "putty"]
 title = "ようやく ConEmu と NYAGOS を導入した"
@@ -120,6 +120,14 @@ C:\PATH\TO\PuTTY\putty.exe -load "mysession" -new_console
 
 ところで設定ダイアログの左下に [Flattr] ボタンがあるのにお気づきだろうか。
 [Flattr] アカウントのある人は是非。
+
+{{% div-box %}}
+**追記 2018-03-07**
+
+[ConEmu](https://conemu.github.io/ "ConEmu - Handy Windows Terminal") の画面の桁数を大きくすると画面が乱れる場合がある。
+とくに中国語や日本語で発生しやすいらしい。
+この場合は `Setting` → `Main` → `Compress long string to fit space` を無効にすることで改善するようだ。
+{{% /div-box %}}
 
 ## ブックマーク
 

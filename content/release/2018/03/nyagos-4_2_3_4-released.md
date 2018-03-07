@@ -1,6 +1,7 @@
 +++
 title = "NYAGOS 4.2.3_4 Released"
 date = "2018-03-06T18:57:17+09:00"
+update = "2018-03-07T10:29:56+09:00"
 description = "今回は不具合の修正がメインのようだ。"
 image = "/images/attention/tools.png"
 tags  = [ "tools", "nyagos", "shell" ]
@@ -55,6 +56,8 @@ tags  = [ "tools", "nyagos", "shell" ]
 アップデートは上書きコピーでOK。
 
 ## ブックマーク
+
+- [一見、NYAGOSの不具合に見える事例について（随時追記） - Qiita](https://qiita.com/zetamatta/items/441ff50da7c8f3338260)
 
 - [ようやく ConEmu と NYAGOS を導入した]({{< relref "remark/2015/conemu-and-nyagos.md">}})
 - [NYAGOS で Lua]({{< relref "remark/2015/nyagos-and-lua.md">}})
