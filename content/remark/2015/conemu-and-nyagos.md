@@ -125,7 +125,6 @@ C:\PATH\TO\PuTTY\putty.exe -load "mysession" -new_console
 **追記 2018-03-07**
 
 [ConEmu](https://conemu.github.io/ "ConEmu - Handy Windows Terminal") の画面の桁数を大きくすると画面が乱れる場合がある。
-とくに中国語や日本語で発生しやすいらしい。
 この場合は `Setting` → `Main` → `Compress long string to fit space` を無効にすることで改善するようだ。
 {{% /div-box %}}
 
