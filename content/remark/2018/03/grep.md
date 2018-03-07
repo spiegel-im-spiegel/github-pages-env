@@ -25,19 +25,20 @@ draft = true
   mermaidjs = false
 +++
 
-個人的に [ATOM] Editor で不満だったのは grep 機能がアレで微妙に使い勝手が悪いことだった。
+個人的に [ATOM] Editor で不満だったのは [grep] 機能（正しくは `project-find`）がアレで微妙に使い勝手が悪いことだった。
 
 いや， [ATOM] Editor の中で作業する分には不満はないんだよ。
-でも本当は任意の場所にあるファイルを grep して結果をテキストで吐いて欲しかったわけ。
-この点では[秀丸]のほうがよかった[^hm1]。
+でも本当は任意の場所にあるファイルを [grep] して結果をテキストで吐いて欲しかったわけ。
+この点では[秀丸]の使い勝手がよかった[^hm1]。
 
 [^hm1]: 他にも [ATOM] Editor では巨大テキストを実質的に扱えないなど微妙だが大事なところで不満があるのだが，概ね使えてる。
 
-UNIX 系なら当たり前のように grep が付いてるし Windows でも [MSYS2] のようなエミュレータを使う手もあるが，やっぱり Windows で grep したいのである。
+UNIX 系プラットフォームには当然のようにある [grep] だが Windows にはない。
+[MSYS2] のようなエミュレータを使う手もあるが，やっぱり Windows でも普通に [grep] したいのである。
 `findstr.exe` じゃ役不足なんだってば！
 
 いっそ [Go 言語]で自作するか？ いやいや，「車輪の再発明」は絶対ドツボにはまる。
-と，葛藤していたのだが，なんと，既に [Go 言語]製の grep を公開されてる方がいた。
+などと葛藤していたのだが，なんと！ 既に [Go 言語]製の [grep] を公開されてる方がいた。
 
 - [Big Sky :: 日本語grepが出来るjvgrepというのを作った。](https://mattn.kaoriya.net/software/lang/go/20110819203649.htm)
     - [mattn/jvgrep: grep for japanese vimmer](https://github.com/mattn/jvgrep)
@@ -61,7 +62,7 @@ $ go get -u -v github.com/mattn/jvgrep
 
 ## jvgrep を [NYAGOS] の Alias に組み込む
 
-[NYAGOS] では規定で grep を `findstr.exe` の alias として登録している。
+[NYAGOS] では既定の設定で [grep] を `findstr.exe` の alias として登録している。
 これを `~/.nyagos` ファイルで上書きする。
 以下の記述を追加して再起動。
 
@@ -84,6 +85,7 @@ $ grep grep **/*.lua
 
 - [Windowsのfindstrで正規表現を検索する：Tech TIPS - ＠IT](http://www.atmarkit.co.jp/ait/articles/0412/18/news018.html)
 
+[grep]: https://linuxjm.osdn.jp/html/GNU_grep/man1/grep.1.html "Man page of GREP"
 [ATOM]: https://atom.io/ "Atom"
 [秀丸]: http://hide.maruo.co.jp/software/hidemaru.html "秀まるおのホームページ(サイトー企画)－秀丸エディタ"
 [MSYS2]: http://msys2.github.io/ "MSYS2 installer"
