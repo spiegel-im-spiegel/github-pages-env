@@ -1,6 +1,7 @@
 +++
 title = "Windows でも Grep したい"
 date = "2018-03-07T19:08:25+09:00"
+update = "2018-03-08T17:06:23+09:00"
 description = "既に Go 言語製の grep を公開されてる方がいた。パスの再帰検索が地味にありがたい。"
 image = "/images/attention/kitten.jpg"
 tags        = [ "tools", "grep", "windows" ]
@@ -48,7 +49,7 @@ UNIX 系プラットフォームには当然のようにある [grep] だが Win
 
 ありがたや。
 
-最近のバージョンはバイナリを配布してないようなのでおとなしく
+最近のバージョンはバイナリを配布してないようなので，大人しく
 
 ```text
 $ go get -u -v github.com/mattn/jvgrep
