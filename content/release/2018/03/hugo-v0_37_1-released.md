@@ -1,10 +1,9 @@
 +++
 title = "Hugo v0.37.1 Released"
-date =  "2018-03-08T09:59:38+09:00"
+date = "2018-03-08T20:54:03+09:00"
 description = "今回は v0.37 で発生した regression の修正。"
 image = "/images/attention/tools.png"
 tags  = [ "tools", "hugo" ]
-draft = true
 
 [author]
   name      = "Spiegel"
