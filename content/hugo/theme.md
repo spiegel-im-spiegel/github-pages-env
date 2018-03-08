@@ -237,6 +237,6 @@ min_version = 0.14
 
 [Hugo に関するブックマークはこちら]({{< ref "hugo/bookmark.md" >}})。
 
-[Hugo]: https://gohugo.io/ "Hugo :: A fast and modern static website engine"
+[Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
 [前々回]: {{< ref "hugo/hello.md" >}} "インストールから Hello World まで"
 [前回]: {{< ref "hugo/section.md" >}} "Categories, Tags そして Section"

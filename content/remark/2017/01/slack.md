@@ -83,7 +83,7 @@ title = "いまさら聞けない Slack の使い方"
     - [「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/atom.xml)
     - [The Go Programming Language Blog](https://blog.golang.org/feed.atom)
     - [Foresight](http://www.fsight.jp/list/feed/rss)
-    - [Hugo](https://gohugo.io/index.xml "A Fast and Flexible Website Generator on Hugo")
+    - [Hugo](https://gohugo.io/index.xml "The world’s fastest framework for building websites | Hugo")
     - [MathJax](https://www.mathjax.org/feed.xml)
 - #security
     - [IPAセキュリティセンター:重要なセキュリティ情報](https://www.ipa.go.jp/security/rss/alert.rdf)

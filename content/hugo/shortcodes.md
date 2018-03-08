@@ -221,7 +221,7 @@ See the full [analysis](https://wiki.creativecommons.org/wiki/ShareAlike_compati
 
 [Hugo に関するブックマークはこちら]({{< ref "hugo/bookmark.md" >}})。
 
-[Hugo]: https://gohugo.io/ "Hugo :: A fast and modern static website engine"
+[Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
 [Shortcodes]: https://gohugo.io/extras/shortcodes/ "Shortcodes"
 [YouTube]: https://www.youtube.com/ "YouTube"
 [SlideShare]: http://www.slideshare.net/ "Share and Discover Knowledge on LinkedIn SlideShare"

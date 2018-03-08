@@ -300,6 +300,6 @@ tags = [ "hello", "world" ]
 
 [Hugo に関するブックマークはこちら]({{< ref "hugo/bookmark.md" >}})。
 
-[Hugo]: https://gohugo.io/ "Hugo :: A fast and modern static website engine"
+[Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
 [spiegel-im-spiegel/hugo-theme-text]: https://github.com/spiegel-im-spiegel/hugo-theme-text
 [前回]: {{< ref "hugo/theme.md" >}} "Theme を利用する"

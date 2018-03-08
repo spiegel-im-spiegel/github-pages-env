@@ -133,7 +133,7 @@ C:\PATH\TO\PuTTY\putty.exe -load "mysession" -new_console
 - [NYAGOS、かんたん設定 - Qiita](https://qiita.com/zetamatta/items/99feb1d74e36ea5848cd)
 - [NYAGOS で環境設定系バッチファイルが期待どおり動かない原因と対策 - Qiita](https://qiita.com/zetamatta/items/f62bafd711755a4cf8d7)
 
-[Hugo]: https://gohugo.io/ "Hugo :: A fast and modern static website engine"
+[Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
 [ConEmu]: https://conemu.github.io/ "ConEmu - Handy Windows Terminal"
 [NYAGOS]: http://www.nyaos.org/index.cgi?p=NYAGOS "NYAOS.ORG - NYAGOS"
 [MSYS2]: http://msys2.github.io/ "MSYS2 installer"

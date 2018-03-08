@@ -165,7 +165,7 @@ func main() {
 
 
 
-[Hugo]: https://gohugo.io/ "Hugo | A Fast and Flexible Website Generator"
+[Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
 [Chroma]: https://github.com/alecthomas/chroma "alecthomas/chroma: A general purpose syntax highlighter in pure Go"
 [Pygments]: http://pygments.org/
 [highlight.js]: https://highlightjs.org/

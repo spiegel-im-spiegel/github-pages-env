@@ -512,4 +512,4 @@ C:\workspace\hugo>go get -u -v github.com/spf13/hugo
 [Mercurial]: http://mercurial.selenic.com/ "Mercurial SCM"
 [Git]: http://git-scm.com/ "Git"
 [Bazaar]: http://bazaar.canonical.com/ "Bazaar"
-[Hugo]: https://gohugo.io/ "Hugo :: A fast and modern static website engine"
+[Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"

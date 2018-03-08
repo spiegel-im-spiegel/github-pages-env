@@ -696,5 +696,5 @@ C:\HUGO-ENV\WWW
 
 [Hugo に関するブックマークはこちら]({{< ref "hugo/bookmark.md" >}})。
 
-[Hugo]: https://gohugo.io/ "Hugo :: A fast and modern static website engine"
+[Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
 [前回]: {{< ref "hugo/hello.md" >}} "インストールから Hello World まで"

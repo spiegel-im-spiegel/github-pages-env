@@ -292,5 +292,5 @@ classDiagram
 
 [本ブログ]: / "text.Baldanders.info"
 [mermaid]: https://mermaidjs.github.io/
-[Hugo]: https://gohugo.io/ "Hugo | A Fast and Flexible Website Generator"
+[Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
 [Graphviz]: http://graphviz.org/ "Graphviz - Graph Visualization Software"

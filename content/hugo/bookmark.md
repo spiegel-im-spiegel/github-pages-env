@@ -89,4 +89,4 @@ flattr    = "spiegel"
 - [Hugoと自作シェルスクリプトによるMarkdownメモ環境の構築 - Qiita](http://qiita.com/so1_tsuda/items/c5d375d0b6c5dcb0d0cf)
 - [HUGOで作れるCMSっぽいパーツ:関連記事・目次・JSON-LDなど - Qiita](http://qiita.com/y_hokkey/items/f9d8b66b3770a82d4c1c)
 
-[Hugo]: https://gohugo.io/ "Hugo :: A fast and modern static website engine"
+[Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"

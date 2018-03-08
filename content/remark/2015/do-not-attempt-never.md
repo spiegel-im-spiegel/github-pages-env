@@ -47,6 +47,8 @@ title = "『決してマネしないでください』"
 
 そうそう。この作品が面白いと思った人には，以下に紹介する本もお勧めする。
 
+[Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
+
 <div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00R2OALNI/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51bOJrxKkwL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00R2OALNI/baldandersinf-22/">決してマネしないでください。（１）</a></dt><dd>蛇蔵 </dd><dd>講談社 2014-12-22</dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00ZERPNWY/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00ZERPNWY.09._SCTHUMBZZZ_.jpg"  alt="決してマネしないでください。（２）"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00LP8GDKW/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00LP8GDKW.09._SCTHUMBZZZ_.jpg"  alt="ハルロック（１）"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00OJRLZ7W/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00OJRLZ7W.09._SCTHUMBZZZ_.jpg"  alt="ハルロック（２）"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00S8XYHEQ/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00S8XYHEQ.09._SCTHUMBZZZ_.jpg"  alt="ハルロック（３）"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00W2ZZ3KI/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00W2ZZ3KI.09._SCTHUMBZZZ_.jpg"  alt="ハルロック（４）"  /></a> </p>
 <p class="description">科学史の trivial な話題を面白おかしく紹介する漫画，らしい。</p>
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-09-13">2015-09-13</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
@@ -63,5 +65,3 @@ title = "『決してマネしないでください』"
 <p class="description">正直，伝記本とは言いがたいが，読み物としては面白い。</p>
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-09-13">2015-09-13</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
 </div>
-
-[Hugo]: https://gohugo.io/ "Hugo :: A fast and modern static website engine"
