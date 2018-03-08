@@ -1,7 +1,7 @@
 +++
 title = "Memcached を踏み台にしたとみられる DDoS 攻撃に関する覚え書き"
 date = "2018-03-03T19:39:12+09:00"
-update = "2018-03-06T19:35:50+09:00"
+update = "2018-03-08T23:22:55+09:00"
 description = "DDoS 攻撃の踏み台として使われるのは memcached だけではない。ソフトウェアを常に最新に保つとともにアドレス制限を含む適切な設定を行う必要がある。"
 image = "/images/attention/tools.png"
 tags = [
@@ -68,5 +68,9 @@ DDoS 攻撃の踏み台として使われるのは [memcached] だけではな�
 - [第2回　memcachedのセキュリティと脆弱性：memcachedの活用と運用 実践編｜gihyo.jp … 技術評論社](http://gihyo.jp/dev/feature/01/memcached_advanced/0002)
 - [memcachedの開放ポート(11211/tcp, 11211/udp)をサクっと確認する - ろば電子が詰まっている](http://d.hatena.ne.jp/ozuma/20180228/1519828918)
 - [memcachedを用いたUDP Amplification攻撃 – wizSafe Security Signal -安心・安全への道標- IIJ](https://wizsafe.iij.ad.jp/2018/03/269/)
+
+- [In-the-wild DDoSes use new way to achieve unthinkable sizes | Ars Technica](https://arstechnica.com/information-technology/2018/02/in-the-wild-ddoses-use-new-way-to-achieve-unthinkable-sizes/)
+    - [New DDoS Reflection-Attack Variant - Schneier on Security](https://www.schneier.com/blog/archives/2018/03/new_ddos_reflec.html)
+- [【重要】さくらのVPS／クラウド／専用サーバにおけるポート使用状況確認のお願い | さくらインターネット](https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1890)
 
 [memcached]: https://memcached.org/ "memcached - a distributed memory object caching system"
