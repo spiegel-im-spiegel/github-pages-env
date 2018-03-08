@@ -31,7 +31,7 @@ draft = true
 
 今回は v0.37 で発生した regression の修正で
 
-{{< fig-quote title="Release v0.37.1" link="https://github.com/gohugoio/hugo/releases/tag/v0.37.1" >}}
+{{< fig-quote title="Release v0.37.1" link="https://github.com/gohugoio/hugo/releases/tag/v0.37.1" lang="en" >}}
 <q>Image content such as SVG cannot be scaled with the built-in image processing methods, but it should still be possible to use them as page resources. This was a regression in Hugo 0.37 and is now fixed.</q>
 {{< /fig-quote >}}
 
