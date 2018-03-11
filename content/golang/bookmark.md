@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-03-01T17:36:36+09:00"
+update = "2018-03-11T14:28:33+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -362,6 +362,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go な WebAPI のテスト＆ドキュメントの模索 - Qiita](https://qiita.com/zaru/items/0bee6c19b056dc72948d)
 - [GAE/Goで書いたアプリのテストが何故か固まるのでgo testのコードをチラ見したメモ - utahta >> log](http://www.ninxit.com/blog/2017/12/08/091108)
 - [Go言語のHTTPサーバのテスト事始め - Qiita](https://qiita.com/theoden9014/items/ac8763381758148e8ce5)
+- [golang で実際にメール送信せず smtp.SendMail を試すためのモック作り - Qiita](https://qiita.com/Blufe/items/09b63eb113b5ba0064a8)
 
 ### ドキュメント・フレームワーク
 
@@ -394,6 +395,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [goreleaser/goreleaser: Deliver Go binaries as fast and easily as possible](https://github.com/goreleaser/goreleaser)
     - [goreleaserを使ってGoで書いたツールのバイナリをGithub Releasesで配布する - $shibayu36->blog;](http://blog.shibayu36.org/entry/2017/10/04/193000)
     - [goreleaser と Travis CI で Golang のバイナリ配布を自動化する - /storage/tummy.log](http://rnitame.hatenablog.com/entry/automate-golang-binary-distribution)
+- [Go言語利用のレポジトリをInspecodeで静的解析＋テストしてみる - Qiita](https://qiita.com/ks888/items/65d3be0f05e1aecc817b)
+ 
 
 ### クロス環境
 
