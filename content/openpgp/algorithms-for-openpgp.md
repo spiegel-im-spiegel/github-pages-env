@@ -1,7 +1,7 @@
 +++
 title = "OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）"
 date =  "2017-12-01T17:47:50+09:00"
-update =  "2018-01-28T18:00:19+09:00"
+update =  "2018-03-12T14:37:55+09:00"
 description = "RFC 4880bis は，名前の通り，ドラフト段階なので今後変わる可能性がある。正式な RFC 番号が振られた段階でこの記事の最終稿とする予定である。"
 image = "/images/attention/openpgp.png"
 tags = [
@@ -36,7 +36,7 @@ tags = [
 なお [RFC 4880bis] は，名前の通り，ドラフト段階なので今後変わる可能性がある。
 アルゴリズム関連で変更があった場合は随時この記事に加筆・修正していって，正式な RFC 番号が振られた段階でこの記事の最終稿とする予定である。
 
-## 共通鍵暗号アルゴリズム（Symmetric-Key Encryption Algorithms）
+## 共通鍵暗号アルゴリズム（Symmetric-Key Algorithms）
 
 [OpenPGP] で利用可能な共通鍵暗号は以下の通り。
 なお「鍵長」項目の括弧内はブロック長を指す。
@@ -161,9 +161,9 @@ ID は [OpenPGP] で定義されるもので ”sym 1” のように表記す�
 - [RFC 4880bis] では EAX mode が "MUST implement” となる
 - OCB mode は特許問題が絡むため [RFC 4880bis] での取り扱いについて議論がある
 
-## 公開鍵暗号アルゴリズム（Public-Key Encryption Algorithms）
+## 公開鍵暗号・署名アルゴリズム（Public-Key Algorithms）
 
-[OpenPGP] で利用可能な公開鍵暗号は以下の通り。
+[OpenPGP] で利用可能な公開鍵暗号・署名は以下の通り。
 
 {{< div-gen >}}
 <figure lang="en">
@@ -224,7 +224,7 @@ ID は [OpenPGP] で定義されるもので ”sym 1” のように表記す�
 </tr>
 </tbody>
 </table>
-<figcaption>OpenPGP で使用可能な公開鍵暗号アルゴリズム一覧</figcaption>
+<figcaption>OpenPGP で使用可能な公開鍵暗号・署名アルゴリズム一覧</figcaption>
 </figure>
 {{< /div-gen >}}
 
@@ -234,8 +234,10 @@ ID は [OpenPGP] で定義されるもので ”pub 1” のように表記す�
     - [RFC 4880bis] で追加された EdDSA (pub 22) は "SHOULD implement” となる。ちなみに EdDSA は2017年1月に [RFC 8032] として正式に RFC 化された
 - 現行 [RFC 4880] では ElGamal (pub 16) と DSA (pub 17) が "MUST implement” であるため，今後も [RFC 4880] に対応するならこれらのアルゴリズムを実装する必要がある
 - RSA Encrypt-Only (pub 2) および RSA Sign-Only (pub 3) は deprecated なので，これらの鍵は新たに作成するべきではない（SHOULD NOT be generated）
-- ElGamal (pub 20) は，元々暗号化と署名の両方できるものだったが，脆弱性が見つかったため [OpenPGP] では使用禁止になった
+- ElGamal (pub 20) は，元々暗号化と署名の両方できるものだったが，脆弱性が見つかったため [OpenPGP] では使用禁止になった[^elg1]
 - pub 23 および pub 24 は AEAD 用に ID のみ予約されている
+
+[^elg1]: pub 20 が禁止になった経緯については “[GnuPG's ElGamal signing keys compromised](https://lists.gnupg.org/pipermail/gnupg-users/2003-November/020772.html)” を参照のこと。
 
 ### 楕円曲線
 

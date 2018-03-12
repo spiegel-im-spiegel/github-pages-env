@@ -6,6 +6,7 @@
 
 ## いつか買う，かも
 
+- [クラウドを支えるこれからの暗号技術](http://herumi.github.io/ango/)
 - [ロボット法 - 株式会社　勁草書房](http://www.keisoshobo.co.jp/book/b324580.html) : こっちは面白そう
 - [AIがつなげる社会 | 弘文堂](http://www.koubundou.co.jp/book/b315740.html)
 - [ロボット法 | 弘文堂](http://www.koubundou.co.jp/book/b324653.html)
