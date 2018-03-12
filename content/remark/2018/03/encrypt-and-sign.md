@@ -1,10 +1,9 @@
 +++
 title = "電子署名を暗号ってゆーな！"
-date =  "2018-03-12T13:43:24+09:00"
-description = "description"
+date = "2018-03-12T19:48:30+09:00"
+description = "言われてみればその通りで，公開鍵暗号アルゴリズムをもとに組み上げられた電子署名アルゴリズムというのは RSA 署名くらいしかない。"
 image = "/images/attention/kitten.jpg"
 tags = [ "cryptography" ]
-draft = true
 
 [author]
   name      = "Spiegel"
@@ -29,7 +28,7 @@ draft = true
 
 - [「電子署名=『秘密鍵で暗号化』」という良くある誤解の話 - Qiita](https://qiita.com/angel_p_57/items/d7ffb9ec13b4dde3357d)
 
-内容を自分の中で消化するのに1時間くらいかかってしまった。
+内容を自分の中で咀嚼するのに1時間くらいかかってしまった。
 年寄りはこれだから...
 
 要するにこれって
@@ -38,7 +37,7 @@ draft = true
 
 ってことだよね。
 
-言われてみればその通りで，公開鍵暗号アルゴリズムをもとに組み上げられた電子署名アルゴリズムというのは RSA 署名しかない。
+言われてみればその通りで，公開鍵暗号アルゴリズムをもとに組み上げられた電子署名アルゴリズムというのは RSA 署名くらいしかない。
 ElGamal 署名は同じ鍵が使えるというだけでアルゴリズム自体は別物である[^elg1]。
 
 [^elg1]: ちなみに [OpenPGP] では同じ ElGamal 鍵で暗号化と署名を行うことを[禁止した](https://lists.gnupg.org/pipermail/gnupg-users/2003-November/020772.html)。
