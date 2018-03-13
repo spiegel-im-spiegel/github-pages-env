@@ -53,20 +53,33 @@
 
 ## リリース情報
 
+- [「秀丸エディタ」v8.79が正式公開 ～検索機能を強化、“バーチャルストア”警告も導入 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1111079.html)
+- [Windows版「Slack」v3.1.0が公開、日本語フォントの微調整によりデザインがクリアに - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1110915.html)
 
 ## Age of Trump
 
 
 ## セキュリティ関連
 
+- [仮想通貨の採掘を秘密裏に行うツールをバンドルした「oCam」を窓の杜で収録中止 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1111067.html)
+- [老舗の国産FTPサーバー「Tiny FTP Daemon」に致命的な脆弱性、利用の中止を - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1111333.html)
 
 ## 天文関連
 
 
 ## 知財関連
 
+- [電子書店のサービス終了で本が読めなくなるのは、電子書籍のフォーマットが統一されていないことが原因ではなく、デジタル著作権管理（DRM）の問題だ。:見て歩く者 by 鷹野凌](http://www.wildhawkfield.com/2018/03/end-of-service-of-ebookstore-and-DRM-problem.html?m=1)
+- [書籍「エラーメッセージでググれ」「Stack Overflowからコピペ」 | 秋元@サイボウズラボ・プログラマー・ブログ](http://developer.cybozu.co.jp/akky/2018/03/googling-the-error-message/)
 
 ## その他
 
+- [“積ん読”はムダじゃなかった！ 「アンチライブラリー」という考え方 | cafeglobe](https://www.cafeglobe.com/2018/03/library.html)
+- [コンパイラ基盤「LLVM 6.0」リリース | Think IT（シンクイット）](https://thinkit.co.jp/news/bn/13519)
+- [「Microsoft Office 互換機能パック」が4月で引退 ～11年間以上もの長い間ありがとう！ - やじうまの杜 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1110841.html)
+- [マイクロソフト、Windows 10に機械学習の実行環境とAPIを備えた「Windows ML」搭載へ。Windowsを学習済みモデルの実行プラットフォームに － Publickey](http://www.publickey1.jp/blog/18/windows_10apiwindows_mlwindows.html)
+- [マイクロソフト、WindowsアプリのWebViewとしてEdgeレンダリングエンジンを利用可能に。Windowsでもガワネイティブアプリが広まるか － Publickey](http://www.publickey1.jp/blog/18/windowswebviewedgewindows.html)
+- [デジタルガレージと弁護士ドットコム、りそな銀、ローン業務にスマートコントラクトを使う実証実験  |  TechCrunch Japan](http://jp.techcrunch.com/2018/03/12/dg-bengo4-risona-try-elements/)
+- [じぶん銀行、邦銀初のAIによる外貨の自動積立サービスを開始 - CNET Japan](https://japan.cnet.com/article/35115860/)
 
 <!-- eof -->

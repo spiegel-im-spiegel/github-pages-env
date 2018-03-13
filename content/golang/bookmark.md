@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-03-11T14:28:33+09:00"
+update = "2018-03-13T19:41:11+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -297,6 +297,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [JSONSchemaからstructのようなコードを生成する"structr"というのを書いた - Qiita](http://qiita.com/damele0n/items/92a9b845c991b1b29aea)
 - [GolangでEnumをフィールドに持つstructをいい感じにjsonエンコード / デコードする - 一から勉強させてください(￣ω￣;)](http://dangerous-animal141.hatenablog.com/entry/2017/01/19/004650)
 - [golang xml.Marshal でxmlタグで出力する - Qiita](https://qiita.com/dolpher/items/024af13c37926218c3f5)
+- [golangでajaxを使用してrssのデータを取得する - m_shige1979のささやかな抵抗と欲望の日々](http://m-shige1979.hatenablog.com/entry/2016/02/19/080000)
 
 ### [`time`] パッケージ
 
@@ -372,6 +373,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [testingパッケージのExamplesについて - taknb2nchのメモ](http://d.hatena.ne.jp/taknb2nch/20131101/1383285018)
 - [GoのExampleテストが便利 : swdyh](http://swdyh.tumblr.com/post/55771477125/go-example)
 - [godoc.org への掲載方法を調べた - taknb2nchのメモ](http://d.hatena.ne.jp/taknb2nch/20140225/1393302743)
+- [[swaggo]GoのGoDocを書いたら、Swaggerを出せるやばいやつ - Qiita](https://qiita.com/pei0804/items/3a0b481d1e47e5a72078)
 
 ### Refactoring
 

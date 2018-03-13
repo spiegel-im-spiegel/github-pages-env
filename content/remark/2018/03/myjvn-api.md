@@ -1,7 +1,7 @@
 +++
 title = "MyJVN API に関する覚え書き"
 date = "2018-03-12T22:47:09+09:00"
-update = "2018-03-13T11:12:34+09:00"
+update = "2018-03-13T19:41:11+09:00"
 description = "MyJVN API は JVN が提供している「脆弱性対策情報共有フレームワーク」のひとつである。"
 image = "/images/attention/kitten.jpg"
 tags        = [ "security", "risk", "management", "Vulnerability", "cvss", "curl", "jvn" ]
