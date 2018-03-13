@@ -1,6 +1,7 @@
 +++
 title = "MyJVN API に関する覚え書き"
 date = "2018-03-12T22:47:09+09:00"
+update = "2018-03-13T11:12:34+09:00"
 description = "MyJVN API は JVN が提供している「脆弱性対策情報共有フレームワーク」のひとつである。"
 image = "/images/attention/kitten.jpg"
 tags        = [ "security", "risk", "management", "Vulnerability", "cvss", "curl", "jvn" ]
@@ -39,6 +40,19 @@ tags        = [ "security", "risk", "management", "Vulnerability", "cvss", "curl
     - [CLI 版](https://jvndb.jvn.jp/apis/myjvn/vccheckcmd.html) （要 JRE）
 - [MyJVN 脆弱性対策情報収集ツール](https://jvndb.jvn.jp/apis/myjvn/mjcheck.html)
     - [MyJVN 脆弱性対策情報フィルタリング収集ツール](https://jvndb.jvn.jp/apis/myjvn/mjcheck3.html) （要 Adobe AIR）
+
+## [MyJVN API] のライセンス
+
+[MyJVN API] 自体の利用については以下に記載がある。
+
+- [MyJVN - API: 利用上の留意事項](https://jvndb.jvn.jp/apis/termsofuse.html)
+
+これを見る分かるが， [MyJVN API] の利用には制限がありオープンでもフリーでもない点は注意が必要である。
+
+また [JVN] が提供しているデータにはデータベースの著作権が発生する筈だが，データの利用許諾範囲が明示されていないため，このままでは（著作権法上は）利用できない[^c1]。
+データの取り扱いについても一定のリスクがある点も注意すべきだろう。
+
+[^c1]: [MyJVN API] で取得したデータの利用については別途許諾を得る必要がある？
 
 ## [MyJVN API] のバージョンアップ
 
