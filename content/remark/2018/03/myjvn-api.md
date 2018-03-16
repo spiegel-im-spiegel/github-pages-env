@@ -1,7 +1,7 @@
 +++
 title = "MyJVN API に関する覚え書き"
 date = "2018-03-12T22:47:09+09:00"
-update = "2018-03-13T19:41:11+09:00"
+update = "2018-03-16T12:17:55+09:00"
 description = "MyJVN API は JVN が提供している「脆弱性対策情報共有フレームワーク」のひとつである。"
 image = "/images/attention/kitten.jpg"
 tags        = [ "security", "risk", "management", "Vulnerability", "cvss", "curl", "jvn" ]
@@ -90,11 +90,13 @@ RESTful API についてはスキーマが HTTP から HTTPS へ変更となり�
 
 ### [cURL as DSL]
 
-とりあえず必須オプションのみ。
+とりあえず必須オプションのみ[^curl1]。
 過去1週間の情報を取得する。
 
+[^curl1]: `-G` オプションは GET プロトコルを指す。明示するなら `-X GET` とするのがいいかも。
+
 ```
-curl -i -d "method=getVulnOverviewList" -d "feed=hnd" -d "lang=ja" https://jvndb.jvn.jp/myjvn
+curl -G -d "method=getVulnOverviewList" -d "feed=hnd" -d "lang=ja" https://jvndb.jvn.jp/myjvn
 ```
 
 必須オプションの他に期間やフィルタリング条件などを設定できる。
@@ -114,7 +116,7 @@ curl -i -d "method=getVulnOverviewList" -d "feed=hnd" -d "lang=ja" https://jvndb
 以下は JVNDB-2018-000024 の情報を取得する場合。    
 
 ```
-curl -i -d "method=getVulnDetailInfo" -d "feed=hnd" -d "lang=ja" -d "vulnId=JVNDB-2018-000024" https://jvndb.jvn.jp/myjvn
+curl -G -d "method=getVulnDetailInfo" -d "feed=hnd" -d "lang=ja" -d "vulnId=JVNDB-2018-000024" https://jvndb.jvn.jp/myjvn
 ```
 
 脆弱性対策情報ID（`vulnId`）が複数ある場合は `vulnId=JVNDB-2018-000024+JVNDB-2018-000022` という感じに `+` で繋いで指定できる。
