@@ -1,7 +1,7 @@
 +++
 title = "MyJVN API に関する覚え書き"
 date = "2018-03-12T22:47:09+09:00"
-update = "2018-03-16T16:38:43+09:00"
+update = "2018-03-17T02:05:27+09:00"
 description = "MyJVN API は JVN が提供している「脆弱性対策情報共有フレームワーク」のひとつである。"
 image = "/images/attention/kitten.jpg"
 tags        = [ "security", "risk", "management", "Vulnerability", "cvss", "curl", "jvn", "xml" ]
@@ -47,10 +47,10 @@ tags        = [ "security", "risk", "management", "Vulnerability", "cvss", "curl
 
 - [MyJVN - API: 利用上の留意事項](https://jvndb.jvn.jp/apis/termsofuse.html)
 
-これを見る分かるが， [MyJVN API] の利用には制限がありオープンでもフリーでもない点は注意が必要である。
+これを見れば分かるが， [MyJVN API] の利用には制限がありオープンでもフリーでもない点は注意が必要である。
 
 また [JVN] が提供しているデータにはデータベースの著作権が発生する筈だが，データの利用許諾範囲が明示されていないため，このままでは（著作権法上は）利用できない[^c1]。
-データの取り扱いについても一定のリスクがある点も注意すべきだろう。
+データの取り扱いについて一定のリスクがある点も注意すべきだろう。
 
 [^c1]: [MyJVN API] で取得したデータの利用については別途許諾を得る必要がある？
 
@@ -100,7 +100,7 @@ curl -G -d "method=getVulnOverviewList" -d "feed=hnd" -d "lang=ja" https://jvndb
 ```
 
 必須オプションの他に期間やフィルタリング条件などを設定できる。
-最大取得数は50。
+1回の API 発行で取得できる最大件数は50。
 
 出力フォーマットは XML で RSS 1.0 形式。
 ただし [mod_sec] と呼ばれる [JVN] 独自のスキーマを含んでいて，通常のフィード情報の他に脆弱性情報も記述されている。
@@ -120,7 +120,7 @@ curl -G -d "method=getVulnDetailInfo" -d "feed=hnd" -d "lang=ja" -d "vulnId=JVND
 ```
 
 脆弱性対策情報ID（`vulnId`）が複数ある場合は `vulnId=JVNDB-2018-000024+JVNDB-2018-000022` という感じに `+` で繋いで指定できる。
-最大取得数は10。
+1回の API 発行で取得できる最大件数は10。
 
 出力フォーマットは XML で [VULDEF] と呼ばれる [JVN] 独自のスキーマを使っている。
 HTML ページ（たとえば [JVNDB-2018-000024](https://jvndb.jvn.jp/ja/contents/2018/JVNDB-2018-000024.html "JVNDB-2018-000024 - JVN iPedia - 脆弱性対策情報データベース")）に記載されている内容はほぼ網羅されているため HTML ページをわざわざ scraping する必要はない。
@@ -138,6 +138,7 @@ HTML ページ（たとえば [JVNDB-2018-000024](https://jvndb.jvn.jp/ja/conten
 - [“JVN iPedia”がHTTPS対応などのリニューアル、「MyJVNバージョンチェッカ」は要更新 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1107654.html)
 
 - [JVN が CVSSv3 による脆弱性評価を開始]({{< relref "remark/2015/cvss-v3-metrics-in-jvn.md" >}})
+- [go-myjvn パッケージを作ってみた]({{< relref "release/2018/03/go-myjvn-v0_1_0-released.md" >}})
 
 [JVN]: https://jvn.jp/ "Japan Vulnerability Notes"
 [脆弱性対策情報共有フレームワーク]: https://jvndb.jvn.jp/apis/myjvn/ "脆弱性対策情報共有フレームワーク - MyJVN"
