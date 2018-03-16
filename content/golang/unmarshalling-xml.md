@@ -1,10 +1,9 @@
 +++
 title = "XML データの Unmarshalling"
-date =  "2018-03-16T13:41:24+09:00"
-description = "description"
+date = "2018-03-16T20:40:27+09:00"
+description = "Unmarshalling 自体は encoding/xml パッケージを使って簡単にできるが，問題は XML データを受け入れる構造体をどう定義するかである。"
 image = "/images/attention/go-code2.png"
 tags = ["golang", "struct", "tags", "marshal", "xml"]
-draft = true
 
 [author]
   name      = "Spiegel"
@@ -36,7 +35,7 @@ if err := xml.Unmarshal([]byte(xmldata), stdata); err != nil {
 }
 ```
 
-とすればよい。
+などとすればよい。
 問題は XML データを受け入れる構造体（上述のコードで言うなら `StructData`）をどう定義するかだ。
 
 今回のお題となる XML データとして以下を考える。
@@ -52,7 +51,7 @@ if err := xml.Unmarshal([]byte(xmldata), stdata); err != nil {
   <foaf:Document rdf:about="http://text.baldanders.info/">
     <dc:title lang="ja">text.Baldanders.info</dc:title>
     <dc:creator>Spiegel</dc:creator>
-    <dc:date>2018-03-13T11:57:52+09:00</dc:date>
+    <dc:date>2018-03-16T20:40:27+09:00</dc:date>
     <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
   </foaf:Document>
 </rdf:RDF>
@@ -61,10 +60,10 @@ if err := xml.Unmarshal([]byte(xmldata), stdata); err != nil {
 この XML データの特徴は以下の通り。
 
 1. 要素名や属性名が名前空間（namespace）を含んでいる
-2. 要素に対する値として属性値と要素の内容（要素タグで囲まれているエリア）がある
+2. 要素の値として属性値と要素の内容（要素タグで囲まれているエリア）がある
 3. 時刻情報（[RFC 3339] 形式）を含んでいる
 
-これを [struct] タグでどのように記述するか。
+これを [struct] タグでどのように記述するかを次節から検討する。
 
 ## 名前空間について
 
@@ -74,7 +73,7 @@ if err := xml.Unmarshal([]byte(xmldata), stdata); err != nil {
 <creator>Spiegel</creator>
 ```
 
-であれば [struct] タグは
+であれば [struct] タグは単純に
 
 ```go
 Creator string `xml:"creator"`
@@ -94,7 +93,7 @@ Creator string `xml:"http://purl.org/dc/terms/ creator"`
 ```
 
 とする必要がある。
-名前空間の指定は短縮名の `dc` ではなく `http://purl.org/dc/terms/` を指定する点に注意。
+名前空間の指定は短縮名の `dc` ではなく URI `http://purl.org/dc/terms/` を記述する。
 なお（名前空間を除いた）要素名や属性の混濁がないのであれば
 
 ```go
@@ -102,10 +101,11 @@ Creator string `xml:"creator"`
 ```
 
 のままでも問題なく parse できる。
+この場合，名前空間は無視されるようだ。
 
 ## 値の取得
 
-`<dc:title>` には属性値と要素の内容の複数が含まれている。
+`<dc:title>` の値には属性値と要素の内容の複数が含まれている。
 
 ```xml
 <dc:title lang="ja">text.Baldanders.info</dc:title>
@@ -127,7 +127,7 @@ Title struct {
 [`xml`]`.Unmarshal()` 関数には時刻情報を [`time`]`.Time` 型に変換するロジックは用意されていない（基本型ではないので当然だが）。
 したがって文字列から [`time`]`.Time` 型に変換するロジックを自前で組み込む必要がある。
 
-今回は簡単に以下のようにした。
+今回はフォーマットが [RFC 3339] であることを前提に以下のようにした。
 
 ```go
 type Time struct {
@@ -148,8 +148,8 @@ func (t *Time) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 }
 ```
 
-`Time` 型が [`time`]`.Time` 型のラッパー・クラスになっている点に注目。
-この `Time` 型に `UnmarshalXML()` 関数を定義してあげればよい。
+独自定義の `Time` 型が [`time`]`.Time` 型のラッパー・クラスになっている点に注目。
+この `Time` 型に `UnmarshalXML()` 関数を定義している。
 これで構造体の要素は以下のように記述できる。
 
 ```go
@@ -167,7 +167,7 @@ type Unmarshaler interface {
 
 [`xml`]`.Unmarshaler` インタフェースを持つ型であれば XML Unmarshalling 可能である[^marsh1]。
 
-[^marsh1]: もちろん [`xml`]`.Marshaler` インタフェースも存在する。
+[^marsh1]: もちろん Marshalling 用の [`xml`]`.Marshaler` インタフェースも存在する。
 
 ## サンプルコード
 
@@ -194,7 +194,7 @@ var xmldata = `
   <foaf:Document rdf:about="http://text.baldanders.info/">
     <dc:title lang="ja">text.Baldanders.info</dc:title>
     <dc:creator>Spiegel</dc:creator>
-    <dc:date>2018-03-13T11:57:52+09:00</dc:date>
+    <dc:date>2018-03-16T20:40:27+09:00</dc:date>
     <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
   </foaf:Document>
 </rdf:RDF>
@@ -258,7 +258,7 @@ type RDF struct {
 うーん。
 
 XML の Marshalling については機会があれば。
-つか，複雑なデータを XML Marshalling するのは不毛な気がする。
+つか，構造化されたデータを XML Marshalling するのは不毛な気がする。
 フォーマットが決まってるのであればテンプレートを使ったほうが早いんじゃないかなぁ...
 
 ## ブックマーク
@@ -277,4 +277,9 @@ XML の Marshalling については機会があれば。
 <div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4621300253/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/410V3ulwP5L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4621300253/baldandersinf-22/">プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)</a></dt><dd>Alan A.A. Donovan Brian W. Kernighan 柴田 芳樹 </dd><dd>丸善出版 2016-06-20</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798142417/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4798142417.09._SCTHUMBZZZ_.jpg"  alt="スターティングGo言語 (CodeZine BOOKS)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4873117526/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4873117526.09._SCTHUMBZZZ_.jpg"  alt="Go言語によるWebアプリケーション開発"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4865940391/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4865940391.09._SCTHUMBZZZ_.jpg"  alt="Kotlinスタートブック -新しいAndroidプログラミング"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4839959234/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4839959234.09._SCTHUMBZZZ_.jpg"  alt="Docker実戦活用ガイド"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4274218961/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4274218961.09._SCTHUMBZZZ_.jpg"  alt="グッド・マス ギークのための数・論理・計算機科学"  /></a> </p>
 <p class="description">著者のひとりは（あの「バイブル」とも呼ばれる）通称 “K&amp;R” の K のほうである。</p>
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-07-13">2016-07-13</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+</div>
+
+<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/483993195X/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51oaN2iq9xL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/483993195X/baldandersinf-22/">セマンティック HTML/XHTML</a></dt><dd>神崎 正英 </dd><dd>毎日コミュニケーションズ 2009-05-28</dd><dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4627829310/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4627829310.09._SCTHUMBZZZ_.jpg"  alt="セマンティック・ウェブのためのRDF/OWL入門"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4873114527/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4873114527.09._SCTHUMBZZZ_.jpg"  alt="セマンティックWeb プログラミング"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4764904276/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4764904276.09._SCTHUMBZZZ_.jpg"  alt="Linked Data: Webをグローバルなデータ空間にする仕組み"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4274202925/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4274202925.09._SCTHUMBZZZ_.jpg"  alt="オントロジー構築入門"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4501542101/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4501542101.09._SCTHUMBZZZ_.jpg"  alt="トピックマップ入門 (セマンティック技術シリーズ)"  /></a> </p>
+<p class="description">残念ながら紙の本は実質的に絶版なんですよねぇ。是非デジタル化を希望します。</p>
+<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-08-17">2014/08/17</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
 </div>
