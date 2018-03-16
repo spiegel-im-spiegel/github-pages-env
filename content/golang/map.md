@@ -1,6 +1,7 @@
 +++
 title = "Map の話"
 date = "2018-02-07T21:03:54+09:00"
+update = "2018-03-16T11:15:49+09:00"
 description = "連想配列： map の複製とか比較とか。"
 image = "/images/attention/go-code.png"
 tags        = [ "golang", "programming", "map" ]
@@ -211,6 +212,58 @@ Earth 1
 Mars 0.107
 ```
 
+### Nil に注意
+
+当たり前の話ではあるが [map] では空の連想配列と nil では挙動が異なる。
+たとえば nil [map] に要素を追加しようとすると
+
+```go
+package main
+
+type platnets map[string]float64
+
+func main() {
+	var p platnets
+	p["Mars"] = 0.107 //add or set
+}
+```
+
+以下のように実行時 panic になる。
+
+```text
+panic: assignment to entry in nil map
+```
+
+したがって有効な [map] インスタンスを宣言する場合は `make()` 関数で初期化するか nil 以外の初期値を与える必要がある。
+
+```go
+package main
+
+type platnets map[string]float64
+
+func main() {
+	p := platnets{}
+	p["Mars"] = 0.107 //add or set
+}
+```
+
+ちなみに nil [map] に対して `len()` 関数を使っても実行時 panic にならない[^len1]。
+
+[^len1]: これは nil [slice] も同様で， `len()` 関数を使っても実行時 panic にならず 0 が返る。
+
+```go
+package main
+
+import "fmt"
+
+type platnets map[string]float64
+
+func main() {
+	var p platnets
+	fmt.Println(len(p)) // 0
+}
+```
+
 ## 連想配列の複製
 
 [map] 内の連想配列の複製を行う関数は用意されていない[^cpy] ため `for range` 構文で地道に処理する。
@@ -410,6 +463,7 @@ p1 != p2
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [map]: http://golang.org/ref/spec#Map_types
+[slice]: http://golang.org/ref/spec#Slice_types
 [`reflect`]: https://golang.org/pkg/reflect/ "reflect - The Go Programming Language"
 
 ## 参考図書
