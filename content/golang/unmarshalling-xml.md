@@ -261,6 +261,22 @@ XML の Marshalling については機会があれば。
 つか，構造化されたデータを XML Marshalling するのは不毛な気がする。
 フォーマットが決まってるのであればテンプレートを使ったほうが早いんじゃないかなぁ...
 
+## 【おまけ】 xml.Unmarshal() 関数の中身
+
+余談だが [`xml`]`.Unmarshal()` 関数の中身は
+
+```go
+func Unmarshal(data []byte, v interface{}) error {
+	return NewDecoder(bytes.NewReader(data)).Decode(v)
+}
+```
+
+となっている。
+
+したがって入力がバイトデータであれば，わざわざ自前で Reader を作って [`xml`]`.NewDecoder()` を呼び出す必要はない。
+逆に入力が Reader であるなら [`xml`]`.NewDecoder()` で [`xml`]`.Decoder` を生成するほうがいいかもしれない。
+状況で使い分けよう。
+
 ## ブックマーク
 
 - [Struct タグについて]({{< relref "golang/struct-tag.md" >}})
