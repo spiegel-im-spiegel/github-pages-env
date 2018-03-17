@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-03-13T19:41:11+09:00"
+update = "2018-03-17T12:46:39+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -117,6 +117,7 @@ title = "Go 言語に関するブックマーク"
 - [Big Sky :: golang では変数の宣言位置が大事](http://mattn.kaoriya.net/software/lang/go/20170406003909.htm)
 - [Big Sky :: Names](http://mattn.kaoriya.net/software/20160126101358.htm) : Golang の開発者 Russ Cox 氏による記事の抄訳。「変数名の長さ」について
 - [Go言語のキーワードが少ない理由 - Qiita](https://qiita.com/weloan/items/ce6e6dce36a6f774d841)
+- [Go の、型のない定数の精度 - Qiita](https://qiita.com/Nabetani/items/21ea926bb532cb0ac094)
 
 ### オブジェクトに関すること
 
@@ -703,6 +704,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Goでクリーンアーキテクチャを試す | プログラミング | POSTD](http://postd.cc/golang-clean-archithecture/)
 - [Golangの最新版をソースからビルドする - Qiita](https://qiita.com/tetsu_koba/items/bb3f2801373f64fbc661)
 - [#golang CodeReviewComments 日本語翻訳  - Qiita](https://qiita.com/knsh14/items/8b73b31822c109d4c497)
+- [Goにおける等値と等価の考察(struct1==struct2と&struct1==&struct2とreflect.DeepEqual(struct1,struct2)とreflect.DeepEqual(&struct1,&struct2)) - Qiita](https://qiita.com/Sekky0905/items/1ff4979d80b163e0aeb6)
 
 ### 他言語との比較もしくは移行
 

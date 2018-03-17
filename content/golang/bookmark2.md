@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T23:59:59+09:00"
-update = "2018-03-06T19:35:50+09:00"
+update = "2018-03-17T12:46:39+09:00"
 description = "「Go 言語に関するブックマーク」に整理しきれない未整理分。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -116,3 +116,4 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [GoでLet's Encryptの証明書を自動で取得するサーバーを作る - Qiita](https://qiita.com/ruyoumo/items/699634f6c62447669f2b)
 - [How to Tar and Un-tar files in Golang – Steve Domino – Medium](https://medium.com/@skdomino/taring-untaring-files-in-go-6b07cf56bc07)
 - [[Golang]リアルタイムログ転送+閲覧ツール作った | ブログ :: Web notes.log](http://blog.wnotes.net/blog/article/golang-realtime-log-tailing-tool)
+- [Big Sky :: Go言語で ping を打って「にゃーん」を表示させる](https://mattn.kaoriya.net/software/lang/go/20180315230112.htm)
