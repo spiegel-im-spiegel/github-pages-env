@@ -2,7 +2,6 @@
 date = "2017-03-21T20:32:03+09:00"
 update = "2017-03-24T09:31:34+09:00"
 title = "欲しいものリスト2017年3月版"
-draft = false
 tags = ["book"]
 description = "読みたいんだけど（ゆっくり読む暇がなくて）買わずに放置している本が大分溜まってきてるんだけど，今回はそれらを列挙して「欲しいものリスト2017年3月版」とする。"
 
@@ -19,6 +18,10 @@ description = "読みたいんだけど（ゆっくり読む暇がなくて）�
   name = "Spiegel"
   flattr = "spiegel"
   url = "http://www.baldanders.info/spiegel/profile/"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 読みたいんだけど（ゆっくり読む暇がなくて）買わずに放置している本が大分溜まってきてるんだけど，今回はそれらを列挙して「欲しいものリスト2017年3月版」とする。
