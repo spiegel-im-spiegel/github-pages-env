@@ -35,14 +35,18 @@
 
 ## セキュリティ関連
 
+- [Intelが脆弱性「Spectre」「Meltdown」をハードウェアレベルで対策したCPUを2018年後半にリリースすると発表 - GIGAZINE](https://gigazine.net/news/20180316-intel-hardware-based-protection/)
 
 ## 天文関連
 
 
 ## 知財関連
 
+- [AIが作ったコンテンツの著作権はどうなる？--福井弁護士が解説する知財戦略 - CNET Japan](https://japan.cnet.com/article/35115900/)
 
 ## その他
 
+- [Raspberry Pi 3 Model B+が今年のPi Dayに間に合って登場、すべてに高規格で本格商用向け  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/14/2018-03-14-raspberry-pi-model-b-arrives-just-in-time-for-pi-day-2018/)
+- [出版ワークフローにおけるTeX組版 // Speaker Deck](https://speakerdeck.com/yuw/chu-ban-wakuhuroniokerutexzu-ban)
 
 <!-- eof -->
