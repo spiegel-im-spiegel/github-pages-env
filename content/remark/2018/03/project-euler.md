@@ -1,6 +1,7 @@
 +++
 title = "Project Euler で遊ぶ"
 date = "2018-03-19T21:30:42+09:00"
+update = "2018-03-20T09:22:11+09:00"
 description = "Project Euler のポイントは「問題を解く」ことではなく「問題を理解する」ことにあると思う。 "
 image = "/images/attention/kitten.jpg"
 tags        = [ "math", "games", "programming" ]
@@ -45,6 +46,10 @@ Level や Award といったゲーム要素もあり自分のペースで楽し�
 私のような英語不得手の方には日本語訳を公開している奇特な方もおられるので参考になるだろう。
 
 - [Project Euler - PukiWiki](http://odz.sakura.ne.jp/projecteuler/index.php?Project%20Euler)
+
+GitHub で解答集（Solutions）を公開しておられる人も多い。
+
+- [Topic: project-euler](https://github.com/topics/project-euler)
 
 というわけで私も参加してみようかなと。
 方針としては
