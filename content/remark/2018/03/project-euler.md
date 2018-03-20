@@ -1,7 +1,7 @@
 +++
 title = "Project Euler で遊ぶ"
 date = "2018-03-19T21:30:42+09:00"
-update = "2018-03-20T09:22:11+09:00"
+update = "2018-03-20T11:23:33+09:00"
 description = "Project Euler のポイントは「問題を解く」ことではなく「問題を理解する」ことにあると思う。 "
 image = "/images/attention/kitten.jpg"
 tags        = [ "math", "games", "programming" ]
@@ -77,6 +77,9 @@ import "fmt"
  * http://odz.sakura.ne.jp/projecteuler/index.php?cmd=read&page=Problem%201
  * 10未満の自然数のうち, 3 もしくは 5 の倍数になっているものは 3, 5, 6, 9 の4つがあり, これらの合計は 23 になる.
  * 同じようにして, 1000 未満の 3 か 5 の倍数になっている数字の合計を求めよ.
+ *
+ * Contents of Project Euler are licenced under a Creative Commons Licence: Attribution-NonCommercial-ShareAlike 2.0 UK: England & Wales.
+ * http://creativecommons.org/licenses/by-nc-sa/2.0/uk/
  */
 
 func answer0(max int) int {
