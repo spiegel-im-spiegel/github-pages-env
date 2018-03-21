@@ -52,21 +52,18 @@
 
 ## 知財関連
 
-- [AIが作ったコンテンツの著作権はどうなる？--福井弁護士が解説する知財戦略 - CNET Japan](https://japan.cnet.com/article/35115900/)
 - [アプリストアのデベロッパー虐待でフランスがAppleとGoogleを提訴へ  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/15/2018-03-14-france-takes-legal-action-against-apple-and-google-for-their-app-stores/)
-- [GitHub、欧州の著作権保護関連の提案がソフトウェア開発に及ぼす影響に懸念示す - ZDNet Japan](https://japan.zdnet.com/article/35116331/)
 - [マンガ・アニメの海賊版サイト、ブロッキング含め検討＝官房長官 | ロイター](https://jp.reuters.com/article/suga-pirated-copy-idJPKBN1GV0PV)
 
 ## その他
 
 - [Raspberry Pi 3 Model B+が今年のPi Dayに間に合って登場、すべてに高規格で本格商用向け  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/14/2018-03-14-raspberry-pi-model-b-arrives-just-in-time-for-pi-day-2018/)
+    - [「Raspberry Pi 3 Model B+」発表--CPUや通信が高速化した“進化版” - ZDNet Japan](https://japan.zdnet.com/article/35116193/)
 - [出版ワークフローにおけるTeX組版 // Speaker Deck](https://speakerdeck.com/yuw/chu-ban-wakuhuroniokerutexzu-ban)
 - [「フェイクニュース」拡散の原因はボットではなく人間だった――MITが発表  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/18/2018-03-08-false-news-spreads-faster-than-truth-online-thanks-to-human-nature/)
 - [チェルノブイリで暮らす老婆たちの信念とは - ログミー](http://logmi.jp/87588)
-- [「Raspberry Pi 3 Model B+」発表--CPUや通信が高速化した“進化版” - ZDNet Japan](https://japan.zdnet.com/article/35116193/)
 - [Google、仮想通貨の広告を全面禁止へ  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/15/2018-03-14-google-announces-ban-on-cryptocurrency-ads/)
 - [IBMがベアメタルKubernetesを発表  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/14/2018-03-14-ibm-launches-bare-metal-kubernetes/)
-- [月額750円でオーディオブック聴き放題——リリースから10年のオトバンクが“サブスクリプション”に舵を切った  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/19/otobank-audiobook/)
 - [ネットワークスイッチをプログラマブルでgRPC対応にする「Stratum」をONFが発表。ホワイトボックススイッチのリファレンス実装に、Googleがオープンソース提供 － Publickey](http://www.publickey1.jp/blog/18/grpcstratumonfgoogle.html)
 - [DMM、フルカラー化したPC向け「プリンセスメーカー2リファイン」を配信 - CNET Japan](https://japan.cnet.com/article/35116299/)
 - [北米クラウド市場の2015年を見る（前編） - ZDNet Japan](https://japan.zdnet.com/article/35059744/)
