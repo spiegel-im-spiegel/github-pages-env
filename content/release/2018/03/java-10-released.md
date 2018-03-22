@@ -1,7 +1,7 @@
 +++
 title = "Java 10 Released"
 date = "2018-03-21T15:33:51+09:00"
-update = "2018-03-21T19:14:16+09:00"
+update = "2018-03-22T11:59:49+09:00"
 description = "時間はあまり残されていない。 まだ決めかねている方は早期の決断をオススメする。"
 image = "/images/attention/tools.png"
 tags  = [ "programming", "language", "java", "engineering" ]
@@ -76,6 +76,7 @@ Java の特徴とされた "[Write once, run anywhere](https://en.wikipedia.org/
 - [Java 10新機能まとめ - Qiita](https://qiita.com/nowokay/items/d9bc4b3f715d17c2830d)
 - [Eclipse Foundationが、Java EEの新ブランドとなった「Jakarta EE」のロゴをコミュニティから募集中。締め切りは3月21日 － Publickey](http://www.publickey1.jp/blog/18/eclipse_foundationjava_eejakarta_ee321.html)
 - [OpenJDK入手先まとめ - Qiita](https://qiita.com/ykubota/items/582caa8621a5fc86d0a1)
+- [Java 10 で変わる Java のバージョン表記 - Qiita](https://qiita.com/YujiSoftware/items/2c5a9117a577700ea540)
 
 - [Java 環境のリリースとサポートに関する覚え書き]({{< relref "remark/2018/02/release-cycle-of-java-environment.md" >}})
 
