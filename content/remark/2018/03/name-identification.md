@@ -1,0 +1,70 @@
++++
+title = "善悪の葛藤"
+date = "2018-03-25T15:17:25+09:00"
+description = "こうした情報の不均衡の背景に搾取の構造があることは重要で，本来はそうした構造そのものについてもっと議論すべきだと思うのだが，..."
+image = "/images/attention/kitten.jpg"
+tags = [ "code", "privacy", "facebook", "grigori" ]
+
+[author]
+  name      = "Spiegel"
+  url       = "http://www.baldanders.info/spiegel/profile/"
+  avatar    = "/images/avatar.jpg"
+  license   = "by-sa"
+  github    = "spiegel-im-spiegel"
+  twitter   = "spiegel_2007"
+  tumblr    = "spiegel-im-spiegel"
+  instagram = "spiegel_2007"
+  flickr    = "spiegel"
+  facebook  = "spiegel.im.spiegel"
+  linkedin  = "spiegelimspiegel"
+  flattr    = "spiegel"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
++++
+
+Facebook が面白そうなので，覚書として一応残しておく。
+
+- [Facebook’s Surveillance Machine - The New York Times](https://www.nytimes.com/2018/03/19/opinion/facebook-cambridge-analytica.html)
+- [トランプ選挙陣営のデータ分析会社、Facebookユーザー5000万人のデータを不正アクセスか  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/19/2018-03-17-trump-campaign-linked-data-firm-cambridge-analytica-reportedly-collected-info-on-50m-facebook-profiles/)
+- [ザッカーバーグCEO、沈黙を破る--Facebookユーザー情報が不正使用された問題で - CNET Japan](https://japan.cnet.com/article/35116476/)
+
+簡単に言うと Campbridge Analytica (CA) とかいうところが過去に学術調査用に収集した Facebook の個人情報をトランプ陣営側にあるとされるデータ分析会社が利用していた，とするものだ。
+この「ランプ陣営側にあるとされるデータ分析会社」の Facebook アカウントはこの話が表沙汰になる前に停止されていたが， CA が関わっていたということで影響範囲が当初考えられていたよりもかなり大きかったようだ。
+
+まぁ，反トランプな方々にとっては怒り心頭というところだろう。
+この「怒り」がトランプ政権ではなく Facebook に向かっているところがいい感じに誘導されていて面白い。
+
+最初に言っておくが，今更「Facebook のセキュリティ・プライバシー設定を見直しましょう」とか寝ぼけたことを言ってる奴は5,6年ほど遡って人生をやり直したほうがいい。
+もしくは（幼児に銃を持たせるようなもので）危なっかしすぎるので SNS とか今後一切やめるべきだ。
+そんなことは一般的な Facebook ユーザなら当たり前にやってることである。
+
+いわゆる「スノーデン以後」，各 SNS サービスはユーザのプライバシーを重視する方向に舵を切った。
+しかし，それ以前はユーザのプライバシーに対してむしろ敵対的な態度を取る企業やサービスのほうが多かったのだ。
+この辺の善悪の葛藤は「世論（という名の株主の意向）」次第でどちらにも傾き得る。
+それが市場というものである。
+
+個人的には Twitter や Facebook, Instagram といったタイムライン・サービスが広告主に擦り寄るような態度をとっていることについては苦々しく思ってたので，いい気味ではある（笑）
+しかしその「広告主」たちが `#deletefacebook` とかいう政治運動に便乗して自身の広告やページを取り下げるとかいう話は，茶番以下であろう。
+
+- [Elon Muskが自分とSpaceXとTeslaのFacebookページを#deletefacebookに賛同して削除  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/24/2018-03-23-elon-musk-deletes-own-spacex-and-tesla-facebook-pages-after-deletefacebook/)
+- [「Facebookから広告を引き上げる」とMozilla - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1803/23/news107.html)
+
+彼らは明らかに Facebook からもたらされる膨大な個人情報を利用してきた連中である。
+ユーザから見れば，むしろ Facebook より彼らのほうがよほど悪どい（目くそ鼻くそだが）。
+彼らの名前はよく覚えておくといいだろう。
+彼らが Facebook に再出稿することがあったなら指を指して笑ってやる。
+
+なかでもバカウケだったのが Apple である。
+
+- [AppleのクックCEO、Facebookスキャンダルを受け「プライバシー保護の規制が必要」と発言 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1803/25/news014.html)
+
+自身が中国の iCloud ユーザにしたことを棚に上げて「プライバシー」を語るとか，笑いすぎてヘソで茶が沸いてしまうぜ。
+もう社名を「こうもり」とかに変えたほうがいいんじゃないのか（笑）
+
+こうした情報の不均衡の背景に搾取の構造があることは重要で，本来はそうした構造そのものについてもっと議論すべきだと思うのだが，そのような方向に行かないのは残念な話である。
+
+## ブックマーク
+
+- [機械によって引かれた境界線]({{< relref "remark/2018/03/boundary-by-ai.md" >}})

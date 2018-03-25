@@ -1,6 +1,7 @@
 +++
 title = "2018-03-03 のブックマーク"
 date =  "2018-03-03T16:22:52+09:00"
+update =  "2018-03-25T14:26:42+09:00"
 description = "「小惑星探査機「はやぶさ2」小惑星リュウグウの撮影に成功」他"
 image = "/images/avatar.jpg"
 
@@ -57,7 +58,7 @@ flattr    = "spiegel"
 - [JAXA | 小惑星探査機「はやぶさ2」小惑星リュウグウの撮影に成功](http://www.jaxa.jp/press/2018/03/20180301_hayabusa2_j.html)
     - [Hayabusa2 has detected Ryugu! | The Planetary Society](http://www.planetary.org/blogs/emily-lakdawalla/2018/0301-hayabusa2-has-detected-ryugu.html)
 - [An absorption profile centred at 78 megahertz in the sky-averaged spectrum | Nature](https://www.nature.com/articles/nature25792?sf183244859=1&error=cookies_not_supported&code=31834ba5-acdd-4538-8f83-9e9e7599b588)
-- [キャンペーン · 豊後大野市長: 豊後大野市の天文台の存続を！「星に願いを」 · Change.org](https://www.change.org/p/%E8%B1%8A%E5%BE%8C%E5%A4%A7%E9%87%8E%E5%B8%82%E9%95%B7-%E8%B1%8A%E5%BE%8C%E5%A4%A7%E9%87%8E%E5%B8%82%E3%81%AE%E5%A4%A9%E6%96%87%E5%8F%B0%E3%81%AE%E5%AD%98%E7%B6%9A%E3%82%92-%E6%98%9F%E3%81%AB%E9%A1%98%E3%81%84%E3%82%92?recruiter=194636716&utm_source=share_petition&utm_medium=facebook&utm_campaign=share_petition&utm_term=facebook_link)
+- [キャンペーン · 豊後大野市長: 豊後大野市の天文台の存続を！「星に願いを」 · Change.org](https://www.change.org/p/%E8%B1%8A%E5%BE%8C%E5%A4%A7%E9%87%8E%E5%B8%82%E9%95%B7-%E8%B1%8A%E5%BE%8C%E5%A4%A7%E9%87%8E%E5%B8%82%E3%81%AE%E5%A4%A9%E6%96%87%E5%8F%B0%E3%81%AE%E5%AD%98%E7%B6%9A%E3%82%92-%E6%98%9F%E3%81%AB%E9%A1%98%E3%81%84%E3%82%92)
 - [「巨大マゼラン望遠鏡」の建設を支援した意外な企業──それは「風の動き」を熟知したボーイングだった｜WIRED.jp](https://wired.jp/2018/02/28/boeing-giant-magellan-telescope/)
 - [Voyager 2: Sailing Among Giant Planets](https://www.space.com/17693-voyager-2.html)
 - [月はドーナツ状の地球「Synestia」の中から生まれたとの説が発表。月に揮発性元素が少ない理由も説明 - Engadget 日本版](http://japanese.engadget.com/2018/03/01/synestia/)

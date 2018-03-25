@@ -3,6 +3,7 @@
 ## いつか買う，かも
 
 - [Amazon | 男と女-TWO HEARTS TWO VOICES- | 稲垣潤一 | J-POP | 音楽](https://www.amazon.co.jp/exec/obidos/ASIN/B001G6RB7W/baldandersinf-22/)
+- [「iPhone X/8」向けコスパ良好のおすすめアクセサリ - 2/25 - CNET Japan](https://japan.cnet.com/article/35112045/2/)
 
 ## あとで遊ぶ
 
@@ -29,7 +30,6 @@
 
 ## リリース情報
 
-- [Mozilla、ハッキング大会“Pwn2Own 2018”で報告された「Firefox」脆弱性を即日修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1112439.html)
 - [Signal](https://signal.org/)
 
 ## Age of Trump
@@ -37,36 +37,14 @@
 
 ## セキュリティ関連
 
-- [Intelが脆弱性「Spectre」「Meltdown」をハードウェアレベルで対策したCPUを2018年後半にリリースすると発表 - GIGAZINE](https://gigazine.net/news/20180316-intel-hardware-based-protection/)
-- [Sambaに脆弱性、4.0.0以降のすべてのバージョン | マイナビニュース](https://news.mynavi.jp/article/20180317-600991/)
-- [自動化が進むサイバー攻撃とAIを使った防御側の対応--フォーティネットが説明 - ZDNet Japan](https://japan.zdnet.com/article/35116169/)
-- [仮想通貨採掘マルウェア「Dofoil」、PC40万台を狙った攻撃手法が明らかに - ZDNet Japan](https://japan.zdnet.com/article/35116203/)
-- [米政府、ロシアに制裁--大統領選干渉やサイバー攻撃などで - CNET Japan](https://japan.cnet.com/article/35116258/)
-- [Facebookユーザー5000万人超の個人情報、トランプ陣営利用企業が大統領選で不正使用か - CNET Japan](https://japan.cnet.com/article/35116326/)
-- [「Android」のセキュリティ年次報告書--主要なポイントを考察 - CNET Japan](https://japan.cnet.com/article/35116262/)
-- [クラウドのセキュリティ観が逆転する｜塚本 牧生｜note](https://note.mu/tsukamoto/n/n4d5dced4654c)
-- [FirefoxとThunderbirdの「マスターパスワード」は1分で破ることが可能と指摘される - GIGAZINE](https://gigazine.net/news/20180320-firefox-thunderbird-master-password-disable-secure/)
 
 ## 天文関連
 
 
 ## 知財関連
 
-- [アプリストアのデベロッパー虐待でフランスがAppleとGoogleを提訴へ  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/15/2018-03-14-france-takes-legal-action-against-apple-and-google-for-their-app-stores/)
-- [マンガ・アニメの海賊版サイト、ブロッキング含め検討＝官房長官 | ロイター](https://jp.reuters.com/article/suga-pirated-copy-idJPKBN1GV0PV)
 
 ## その他
 
-- [Raspberry Pi 3 Model B+が今年のPi Dayに間に合って登場、すべてに高規格で本格商用向け  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/14/2018-03-14-raspberry-pi-model-b-arrives-just-in-time-for-pi-day-2018/)
-    - [「Raspberry Pi 3 Model B+」発表--CPUや通信が高速化した“進化版” - ZDNet Japan](https://japan.zdnet.com/article/35116193/)
-- [出版ワークフローにおけるTeX組版 // Speaker Deck](https://speakerdeck.com/yuw/chu-ban-wakuhuroniokerutexzu-ban)
-- [「フェイクニュース」拡散の原因はボットではなく人間だった――MITが発表  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/18/2018-03-08-false-news-spreads-faster-than-truth-online-thanks-to-human-nature/)
-- [チェルノブイリで暮らす老婆たちの信念とは - ログミー](http://logmi.jp/87588)
-- [Google、仮想通貨の広告を全面禁止へ  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/15/2018-03-14-google-announces-ban-on-cryptocurrency-ads/)
-- [IBMがベアメタルKubernetesを発表  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/14/2018-03-14-ibm-launches-bare-metal-kubernetes/)
-- [ネットワークスイッチをプログラマブルでgRPC対応にする「Stratum」をONFが発表。ホワイトボックススイッチのリファレンス実装に、Googleがオープンソース提供 － Publickey](http://www.publickey1.jp/blog/18/grpcstratumonfgoogle.html)
-- [DMM、フルカラー化したPC向け「プリンセスメーカー2リファイン」を配信 - CNET Japan](https://japan.cnet.com/article/35116299/)
-- [北米クラウド市場の2015年を見る（前編） - ZDNet Japan](https://japan.zdnet.com/article/35059744/)
-- [自然空冷方式の集大成、新型リーフの電池パックを開けてみた | 日経 xTECH（クロステック）](http://tech.nikkeibp.co.jp/atcl/nxt/column/18/00127/00002/)
 
 <!-- eof -->
