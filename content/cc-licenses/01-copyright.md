@@ -1,6 +1,6 @@
 +++
 date = "2015-10-17T15:51:23+09:00"
-update = "2017-02-28T10:18:20+09:00"
+update = "2018-03-25T12:29:13+09:00"
 description = "まずは「著作権」について簡単におさらい。"
 draft = false
 tags = ["code", "law", "intellectual-property", "copyright"]
@@ -344,6 +344,7 @@ title = "著作権と著作権法"
 - [JASRACが音楽教室からも著作権使用料を徴収しようとする法的根拠は何か？(栗原潔) - 個人 - Yahoo!ニュース](http://bylines.news.yahoo.co.jp/kuriharakiyoshi/20170202-00067263/)
     - [JASRACを気にせずに音楽を演奏できるのはどのような場合か(栗原潔) - 個人 - Yahoo!ニュース](http://bylines.news.yahoo.co.jp/kuriharakiyoshi/20170203-00067314/)
 - [マリオコスプレ・カートレンタル業者の言い分を検証する(栗原潔) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/kuriharakiyoshi/20170227-00068168/) : 貸与権に関する考察は興味深い
+- [今後変わる？　リンクについての著作権法上の考え方　岡本健太郎｜コラム｜骨董通り法律事務所 For the Arts](http://www.kottolaw.com/column/001653.html)
 
 [本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
 [著作権法]: http://law.e-gov.go.jp/htmldata/S45/S45HO048.html "著作権法"

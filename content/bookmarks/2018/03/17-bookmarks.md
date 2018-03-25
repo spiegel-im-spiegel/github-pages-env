@@ -1,6 +1,7 @@
 +++
 title = "2018-03-17 のブックマーク"
 date =  "2018-03-17T12:46:39+09:00"
+update = "2018-03-25T12:29:13+09:00"
 description = "「スティーブン・ホーキング氏が死去、76歳」他"
 image = "/images/avatar.jpg"
 
@@ -39,6 +40,7 @@ flattr    = "spiegel"
 - [IBMがセキュリティやDDoS防御でCloudflareとパートナー、サービスの内製を選ばず  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/15/2018-03-14-ibm-partners-with-cloudflare-to-launch-new-security-and-ddos-protection-features/)
 - [AMDチップの欠陥を発見したセキュリティー調査会社、性急な発表で顰蹙を買う  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/14/2018-03-13-security-researchers-find-flaws-in-amd-chips-but-raise-eyebrows-with-rushed-disclosure/)
     - [トーバルズ氏、AMD製プロセッサの脆弱性に関するCTS Labsの主張を一蹴 - ZDNet Japan](https://japan.zdnet.com/article/35116259/)
+    - [Israeli Security Attacks AMD by Publishing Zero-Day Exploits - Schneier on Security](https://www.schneier.com/blog/archives/2018/03/israeli_securit.html)
 - [「VMware Workstation」「VMware Fusion」の旧版にDoS脆弱性 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1112085.html)
 
 ## 天文関連

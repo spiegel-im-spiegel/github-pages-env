@@ -1,6 +1,7 @@
 +++
 title = "出版業界の自殺に日本のネットを巻き込まないで欲しい"
 date = "2018-03-21T20:35:51+09:00"
+update = "2018-03-25T12:29:13+09:00"
 description = "日本でも Tor や VPN トンネリングがカジュアル・ユーザでも当たり前になるのかねぇ。やれやれ。"
 image = "/images/attention/kitten.jpg"
 tags        = [ "code", "internet", "censorship" ]
@@ -63,5 +64,6 @@ COOL JAPAN など過去の話であり，世界はもう日本のマンガやア
 
 - [GitHub、欧州の著作権保護関連の提案がソフトウェア開発に及ぼす影響に懸念示す - ZDNet Japan](https://japan.zdnet.com/article/35116331/)
 - [月額750円でオーディオブック聴き放題——リリースから10年のオトバンクが“サブスクリプション”に舵を切った  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/19/otobank-audiobook/)
+- [「作家とマンガ誌の温度差がちょっとまずい域に来ている」漫画編集が語る出版社のこれから - Togetter](https://togetter.com/li/1210081)
 
 - [漫画は衰退しました]({{< relref "remark/2018/01/manga-has-delined.md" >}})
