@@ -1,10 +1,10 @@
 +++
 title = "Project Euler で遊ぶ"
 date = "2018-03-19T21:30:42+09:00"
-update = "2018-03-26T11:49:50+09:00"
+update = "2018-03-26T15:18:48+09:00"
 description = "Project Euler のポイントは「問題を解く」ことではなく「問題を理解する」ことにあると思う。 "
 image = "/images/attention/kitten.jpg"
-tags        = [ "math", "games", "programming" ]
+tags = [ "math", "games", "programming" ]
 
 [author]
   name      = "Spiegel"
@@ -54,7 +54,7 @@ GitHub で解答集（Solutions）を公開しておられる人も多い。
 というわけで私も参加してみようかなと。
 方針としては
 
-1. 問題（Problem）を解くのは1日5問まで（ハマりすぎるとサルになる性格なので）
+1. 問題を解くのは1日5問まで（ハマりすぎるとサルになる性格なので）
 2. Go 言語によるプログラミング
 3. 下手でも泥臭いコードでも，とにかく正解を書いてみる
 4. 正解したら解説を読むなどしてコードを改善してみる
@@ -101,8 +101,8 @@ func answer1(max int) int {
 }
 
 func main() {
-    fmt.Println(answer0(999))
-    fmt.Println(answer1(999))
+    fmt.Println(answer0(1000))
+    fmt.Println(answer1(1000))
 }
 ```
 
@@ -116,6 +116,9 @@ func main() {
 
 まぁ，仕事ならこんな悠長なことはやってられないが，遊びだからこそできることもあるのである。
 
+## ブックマーク
+
+- [テスト・フレームワークで Project Euler を解く]({{< relref "golang/testing-for-project-euler.md" >}})
 
 [Project Euler]: https://projecteuler.net/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
