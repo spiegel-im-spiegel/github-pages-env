@@ -84,7 +84,7 @@ import "fmt"
 
 func answer0(max int) int {
     sum := 0
-    for n := 1; n <= max; n++ {
+    for n := 1; n < max; n++ {
         if (n%3) == 0 || (n%5) == 0 {
             sum += n
         }
@@ -93,7 +93,7 @@ func answer0(max int) int {
 }
 
 func sumDivisibleBy(max, n int) int {
-    m := max / n
+    m := (max - 1) / n
     return n * (m * (m + 1)) / 2
 }
 func answer1(max int) int {
