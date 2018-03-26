@@ -1,7 +1,7 @@
 +++
 title = "Project Euler で遊ぶ"
 date = "2018-03-19T21:30:42+09:00"
-update = "2018-03-20T11:23:33+09:00"
+update = "2018-03-26T11:49:50+09:00"
 description = "Project Euler のポイントは「問題を解く」ことではなく「問題を理解する」ことにあると思う。 "
 image = "/images/attention/kitten.jpg"
 tags        = [ "math", "games", "programming" ]
