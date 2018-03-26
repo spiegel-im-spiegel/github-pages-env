@@ -43,17 +43,16 @@ Find the sum of all the multiples of 3 or 5 below 1000.</q>
 
 まず，ベタに解いたコード。
 
-
 ```go
 //Answer0 returns answer to this problem
 func Answer0(max int) int {
-	sum := 0
-	for n := 1; n < max; n++ {
-		if (n%3) == 0 || (n%5) == 0 {
-			sum += n
-		}
-	}
-	return sum
+    sum := 0
+    for n := 1; n < max; n++ {
+        if (n%3) == 0 || (n%5) == 0 {
+            sum += n
+        }
+    }
+    return sum
 }
 ```
 
@@ -65,22 +64,22 @@ package problem1
 import "testing"
 
 func TestAnswer(t *testing.T) {
-	testCases := []struct {
-		max, answer int
-	}{
-		{max: 10, answer: 23},
-	}
+    testCases := []struct {
+        max, answer int
+    }{
+        {max: 10, answer: 23},
+    }
 
-	for _, tc := range testCases {
-		a := Answer0(tc.max)
-		if a != tc.answer {
-			t.Errorf("Answer0(%v) = %v, want %v.", tc.max, a, tc.answer)
-		}
-	}
+    for _, tc := range testCases {
+        a := Answer0(tc.max)
+        if a != tc.answer {
+            t.Errorf("Answer0(%v) = %v, want %v.", tc.max, a, tc.answer)
+        }
+    }
 }
 ```
 
-これを実行すると以下の通り。
+実行すると以下の通り。
 
 ```text
 $ go test -v .
@@ -91,26 +90,26 @@ ok      project-euler/problem-1   0.128s
 ```
 
 これで最初の例示について正しい答えを出していることがわかる。
-では1,000未満についてもやってみよう。
-テストコードはこうなる。
+では1,000未満についてもやってみようか。
+以下のようにテスト項目を追加する。
 
-```go
-func TestAnswer(t *testing.T) {
-	testCases := []struct {
-		max, answer int
-	}{
-		{max: 10, answer: 23},
-		{max: 1000, answer: 0},
-	}
+{{< highlight go "hl_lines=6" >}}
+func TestAnswer(t * testing.T) {
+    testCases := []struct {
+        max, answer int
+    }{
+        {max: 10, answer: 23},
+        {max: 1000, answer: 0},
+    }
 
-	for _, tc := range testCases {
-		a := Answer0(tc.max)
-		if a != tc.answer {
-			t.Errorf("Answer0(%v) = %v, want %v.", tc.max, a, tc.answer)
-		}
-	}
+    for _ , tc := range testCases {
+        a := Answer0(tc.max)
+        if a != tc.answer {
+            t.Errorf("Answer0(%v) = %v, want %v.", tc.max, a, tc.answer)
+        }
+    }
 }
-```
+{{< /highlight >}}
 
 まだ正解が分からないので，とりあえず `0` をぶちこんでいる。
 これを実行する。
@@ -130,23 +129,23 @@ exit status 1
 
 [^ans1]: 一応ネタバレ防止用に伏字にしている。ご容赦。
 
-```go
-func TestAnswer(t *testing.T) {
-	testCases := []struct {
-		max, answer int
-	}{
-		{max: 10, answer: 23},
-		{max: 1000, answer: ******},
-	}
+{{< highlight go "hl_lines=6" >}}
+func TestAnswer(t * testing.T) {
+    testCases := []struct {
+        max, answer int
+    }{
+        {max: 10, answer: 23},
+        {max: 1000, answer: ******},
+    }
 
-	for _, tc := range testCases {
-		a := Answer0(tc.max)
-		if a != tc.answer {
-			t.Errorf("Answer0(%v) = %v, want %v.", tc.max, a, tc.answer)
-		}
-	}
+    for _ , tc := range testCases {
+        a := Answer0(tc.max)
+        if a != tc.answer {
+            t.Errorf("Answer0(%v) = %v, want %v.", tc.max, a, tc.answer)
+        }
+    }
 }
-```
+{{< /highlight >}}
 
 これで再テストすると
 
@@ -168,63 +167,63 @@ ok      project-euler/problem-1   0.128s
 ```go
 //Answer1 returns answer to this problem (refactoring version)
 func Answer1(max int) int {
-	return sumDivisibleBy(max, 3) + sumDivisibleBy(max, 5) - sumDivisibleBy(max, 3*5)
+    return sumDivisibleBy(max, 3) + sumDivisibleBy(max, 5) - sumDivisibleBy(max, 3*5)
 }
 
 func sumDivisibleBy(max, n int) int {
-	m := (max - 1) / n
-	return n * (m * (m + 1)) / 2
+    m := (max - 1) / n
+    return n * (m * (m + 1)) / 2
 }
 ```
 
 このコードも同じテストにかける。
 
-```go
-func TestAnswer(t *testing.T) {
-	testCases := []struct {
-		max, answer int
-	}{
-		{max: 10, answer: 23},
+{{< highlight go "hl_lines=14-17" >}}
+func TestAnswer(t * testing.T) {
+    testCases := []struct {
+        max, answer int
+    }{
+        {max: 10, answer: 23},
         {max: 1000, answer: ******},
-	}
+    }
 
-	for _, tc := range testCases {
-		a := Answer0(tc.max)
-		if a != tc.answer {
-			t.Errorf("Answer0(%v) = %v, want %v.", tc.max, a, tc.answer)
-		}
-		a = Answer1(tc.max)
-		if a != tc.answer {
-			t.Errorf("Answer1(%v) = %v, want %v.", tc.max, a, tc.answer)
-		}
-	}
+    for _ , tc := range testCases {
+        a := Answer0(tc.max)
+        if a != tc.answer {
+            t.Errorf("Answer0(%v) = %v, want %v.", tc.max, a, tc.answer)
+        }
+        a = Answer1(tc.max)
+        if a != tc.answer {
+            t.Errorf("Answer1(%v) = %v, want %v.", tc.max, a, tc.answer)
+        }
+    }
 }
-```
+{{< /highlight >}}
 
 全てのテストケースでパスすればOK。
 
-## ベンチマークを取る。
+## ベンチマークを取る
 
-ここで `Answer0()`, `Answer1()` 両関数のベンチマークを取って比較してみることにする。
+更に `Answer0()`, `Answer1()` 両関数のベンチマークを取って比較してみることにする。
 ベンチマーク用のコードは以下の通り[^bm1]。
 
 [^bm1]: ベンチマーク用のコードは `***_test.go` ファイルに含めること。また関数名は `Benchmark` から始まる名前にする。
 
 ```go
 func BenchmarkAnswer0(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		_ = Answer0(1000)
-	}
+    for i := 0; i < b.N; i++ {
+        _ = Answer0(1000)
+    }
 }
 
 func BenchmarkAnswer1(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		_ = Answer1(1000)
-	}
+    for i := 0; i < b.N; i++ {
+        _ = Answer1(1000)
+    }
 }
 ```
 
-では実際にベンチマークにかけてみる。
+ではベンチマークを実行してみる。
 
 ```text
 $ go test -bench . -benchmem
@@ -240,8 +239,8 @@ ok      project-euler/problem-1   1.952s
 おおっ。
 万倍ちがうぜ（笑）
 
-このようにテストフレームワークを使ってさらに楽しく [Project Euler] で遊ぶことができる。
-テストを書く習慣づけになればさらにいいんだろうけど。
+このようにテストフレームワークを使って楽しく [Project Euler] で遊ぶことができる。
+テストを書く習慣づけになればもっといいんだろうけど。
 
 ## ブックマーク
 
