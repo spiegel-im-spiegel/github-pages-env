@@ -1,10 +1,9 @@
 +++
 title = "テスト・フレームワークで Project Euler を解く"
-date =  "2018-03-26T14:19:50+09:00"
-description = "description"
+date = "2018-03-26T19:27:50+09:00"
+description = "ベンチマーク・テストもできるよ。"
 image = "/images/attention/go-code2.png"
 tags = ["golang", "testing", "benchmark"]
-draft = true
 
 [author]
   name      = "Spiegel"
@@ -202,10 +201,10 @@ func TestAnswer(t * testing.T) {
 
 全てのテストケースでパスすればOK。
 
-## ベンチマークを取る
+## ベンチマーク・テスト
 
-更に `Answer0()`, `Answer1()` 両関数のベンチマークを取って比較してみることにする。
-ベンチマーク用のコードは以下の通り[^bm1]。
+更に `Answer0()`, `Answer1()` 両関数をベンチマーク・テストで比較してみることにする。
+ベンチマーク・テスト用のコードは以下の通り[^bm1]。
 
 [^bm1]: ベンチマーク用のコードは `***_test.go` ファイルに含めること。また関数名は `Benchmark` から始まる名前にする。
 
@@ -223,7 +222,7 @@ func BenchmarkAnswer1(b *testing.B) {
 }
 ```
 
-ではベンチマークを実行してみる。
+ではベンチマーク・テストを実行してみる。
 
 ```text
 $ go test -bench . -benchmem
