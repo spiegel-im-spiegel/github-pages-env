@@ -1,6 +1,7 @@
 +++
 title = "2018-03-25 のブックマーク"
 date =  "2018-03-25T12:33:21+09:00"
+update = "2018-03-27T20:35:32+09:00"
 description = "「100円ショップの三脚とスマホだけで星を撮ろう！」他"
 image = "/images/avatar.jpg"
 
@@ -43,6 +44,7 @@ flattr    = "spiegel"
 - [「第四次産業革命を踏まえた秘密情報の管理と利活用におけるリスクと対策に関する調査」報告書について：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/fy29/reports/ts_research/20180322.html)
 - [IoT製品・サービス開発者のセキュリティ対策と意識の調査結果などを公開：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/fy29/reports/vuln_handling/index.html)
 - [総務省｜「公衆無線LANセキュリティ分科会報告書」の公表](http://www.soumu.go.jp/menu_news/s-news/01ryutsu03_02000147.html)
+    - [公衆無線LANの普及、カギは“4つのセキュリティ脅威”への対策 | トレンドマイクロ is702](https://is702.jp/news/3299/partner/101_g/)
 - [「Electron」に脆弱性、“WebView”を利用する一部アプリケーションに影響 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1112933.html)
 - [英国のEU離脱まで1年、懸念されるサイバーセキュリティリスク - ZDNet Japan](https://japan.zdnet.com/article/35116204/)
 - [GitHubからセキュリティ警告のメールが来た - Qiita](https://qiita.com/taktakfu/items/471333d3dd2c9e935949)
