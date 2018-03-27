@@ -1,6 +1,7 @@
 +++
 title = "NYAGOS 4.2.5_Beta のリリースと環境変数の扱い"
 date = "2018-03-27T19:47:59+09:00"
+update = "2018-03-27T21:34:34+09:00"
 description = "このバージョンからバッチファイル実行時の環境変数の扱いが変わるようだ。"
 image = "/images/attention/tools.png"
 tags  = [ "tools", "nyagos", "shell", "windows" ]
@@ -37,6 +38,15 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 - CMD.EXE と同様に、バッチファイルが変更した環境変数・カレントディレクトリを読み取るようにした。
 - ソースの幾つかを派手にリファクタリングした。
 {{% /fig-quote %}}
+
+{{% div-box %}}
+**【追記 2018-03-27】** 4.2.5_beta2 がリリースされた。
+
+- [Release 4.2.5_beta2 · zetamatta/nyagos](https://github.com/zetamatta/nyagos/releases/tag/4.2.5_beta2)
+
+バッチファイルまわりの不具合がいくつか修正されている。
+{{% /div-box %}}
+
 
 というわけで，このバージョンからバッチファイル（`*.bat`, `*.cmd`）実行時の環境変数の扱いが変わるようだ。
 詳しくは以下を参照のこと。
