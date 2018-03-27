@@ -32,6 +32,10 @@
 
 - [Signal](https://signal.org/)
 
+### NYAGOS 4.2.5
+
+- [NYAGOS 4.2.5βが、いかにしてバッチファイルでの環境変数の変更取り込みを可能としたか - Qiita](https://qiita.com/zetamatta/items/efff93d92ac2150192fb)
+
 ## Age of Trump
 
 

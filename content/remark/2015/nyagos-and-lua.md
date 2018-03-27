@@ -1,6 +1,6 @@
 +++
 date = "2015-11-02T21:41:54+09:00"
-update = "2018-03-25T12:29:13+09:00"
+update = "2018-03-27T09:22:45+09:00"
 description = "前回，ConEmu とともに NYAGOS を導入したけど，今回は NYAGOS のセッティングを中心に。"
 draft = false
 tags = ["windows", "tools", "nyagos", "shell", "lua"]
@@ -163,6 +163,7 @@ Pascal 系の構文は目が滑るんだよなぁ。
     - [【ポエム】NYAGOS 2017年ふりかえり - Qiita](https://qiita.com/zetamatta/items/e2ae6e2ca232a3164214)
 - [一見、NYAGOSの不具合に見える事例について（随時追記） - Qiita](https://qiita.com/zetamatta/items/441ff50da7c8f3338260)
     - [NYAGOS で環境設定系バッチファイルが期待どおり動かない原因と対策 - Qiita](https://qiita.com/zetamatta/items/f62bafd711755a4cf8d7)
+    - [NYAGOS 4.2.5βが、いかにしてバッチファイルでの環境変数の変更取り込みを可能としたか - Qiita](https://qiita.com/zetamatta/items/efff93d92ac2150192fb)
 - [補完候補の既入力部分の文字列をハイライト - Qiita](https://qiita.com/nocd5/items/a5e136285804ba2d02c3)
 - [Nyagos リポジトリブランチ名表示 プロンプトの一例 - Qiita](https://qiita.com/tsuyoshi_cho/items/d029825b6d8d3688da92)
 
