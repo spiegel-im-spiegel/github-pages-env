@@ -1,6 +1,6 @@
 +++
 date = "2016-03-01T22:02:41+09:00"
-update = "2018-03-31T17:40:56+09:00"
+update = "2018-03-31T23:56:06+09:00"
 description = "MSYS の後継（？）とも言える MSYS2 では開発環境を 32bit と 64bit で併設できるらしい。"
 draft = false
 tags = ["msys2", "mingw", "gcc", "tools", "windows"]
@@ -34,15 +34,20 @@ title = "MSYS2 による gcc 開発環境の構築 ― MSYS2 のインストー�
 
 ## gcc と MSYS2
 
-MSYS の後継（？）とも言える [MSYS2] ではgcc を含む開発環境を 32bit と 64bit で併設できるらしい。
+MSYS の後継（？）とも言える [MSYS2] では gcc を含む開発環境を 32bit と 64bit で併設できるらしい。
 
 - [MSYS2 installer](http://msys2.github.io/)
 - [msys2](https://github.com/msys2) : GitHub ページ
 
 今回は [MSYS2] を使って gcc 開発環境を構築する。
 
-なお，単に gcc が欲しいのであれば [TDM-GCC] のほうがお勧めである。
-そうではなく gcc を含む UNIX 互換の開発環境が欲しいのであれば，今回紹介する [MSYS2] が適切と思われる（UNIX 系のコマンドを Windows にポーティングする場合など）。
+なお，単に gcc が欲しいのであれば [MinGW-w64] から Windows 用のバイナリを取得するほうがお勧めである[^mgw1]。
+
+[^mgw1]: この記事では今まで [TDM-GCC] を勧めてきたが，どうも何年もメンテナンスされていないようだ。したがって今後は [MinGW-w64] を推すことにする。
+
+- [MinGW-w64 を導入する]({{< relref "remark/2018/03/mingw-w64.md" >}})
+
+そうではなく autotools などを含む UNIX 互換の環境が必要なのであれば，今回紹介する [MSYS2] が適切と思われる（UNIX 系のコマンドを Windows にポーティングする場合など）。
 また開発環境は要らないが UNIX 互換の動作環境が欲しいだけなら [Git for Windows] を導入する手もある[^gfw]。
 
 [^gfw]: [Git for Windows] には bash などの [MSYS2] サブセットを含んでいるため， [Git for Windows] の bash （通称 git bash）を起動することで UNIX 互換の動作環境を得られる。なお [Git for Windows] の環境は git を動かすための最小限のツールしか入っていないため， Git for Windows SDK も併せて導入し，その中の pacman コマンドで必要に応じてのツールを追加する。 pacman については[次回]説明する。
@@ -98,7 +103,7 @@ MSYSTEM=MSYS
 `MSYSTEM` は `/etc/profile` 内で参照される。
 以下に `/etc/profile` の一部を引用する。
 
-```bash
+```test
 MSYS2_PATH="/usr/local/bin:/usr/bin:/bin"
 MANPATH='/usr/local/man:/usr/share/man:/usr/man:/share/man'
 INFOPATH='/usr/local/info:/usr/share/info:/usr/info:/share/info'
@@ -367,6 +372,7 @@ sub   4096R/576CF231 2014-09-28
 
 [MSYS2]: http://msys2.github.io/ "MSYS2 installer"
 [TDM-GCC]: http://tdm-gcc.tdragon.net/ "TDM-GCC"
+[MinGW-w64]: http://mingw-w64.org/ "Mingw-w64 - GCC for Windows 64 & 32 bits [mingw-w64]"
 [Git for Windows]: http://git-for-windows.github.io/ "Git for Windows"
 [mintty]: https://mintty.github.io/ "Mintty — Cygwin Terminal emulator"
 [ConEmu]: https://conemu.github.io/ "ConEmu - Handy Windows Terminal"
