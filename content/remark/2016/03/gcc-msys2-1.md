@@ -1,9 +1,9 @@
 +++
 date = "2016-03-01T22:02:41+09:00"
-update = "2017-03-24T17:57:25+09:00"
+update = "2018-03-31T17:40:56+09:00"
 description = "MSYS の後継（？）とも言える MSYS2 では開発環境を 32bit と 64bit で併設できるらしい。"
 draft = false
-tags = ["msys2", "gcc", "tools"]
+tags = ["msys2", "mingw", "gcc", "tools", "windows"]
 title = "MSYS2 による gcc 開発環境の構築 ― MSYS2 のインストールから初期化処理まで"
 
 [author]
