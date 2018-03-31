@@ -1,10 +1,9 @@
 +++
 title = "Go 言語で SQLite を使う（Windows 向けの紹介）"
-date =  "2018-03-30T16:03:11+09:00"
-description = "「XXX」他"
+date = "2018-03-31T21:12:23+09:00"
+description = "今回はパッケージの紹介のみ。つか，Windows で cgo を使うための覚え書きのようなものか。"
 image = "/images/attention/go-code2.png"
-tags  = [ "golang", "package", "sqlite", "gcc" ]
-draft = true
+tags  = [ "golang", "package", "sqlite", "gcc", "windows" ]
 
 [author]
   name      = "Spiegel"
@@ -25,26 +24,21 @@ draft = true
   mermaidjs = false
 +++
 
+今回はパッケージの紹介のみ。
+つか， Windows で cgo を使うための覚え書きのようなものか。
+
 [SQLite] はアプリケーションに組み込み可能な簡易 RDBMS で，公有（public domain）のソフトウェアとして公開されている。
-
 C 言語で書かれているため多くのプラットフォームまたは（C 言語とバインド可能な）多くのプログラミング言語で利用可能である。
-コア部分のコードが小さいため組込みソフトウェアでも使われたりする。
+コア部分のコードが（他の製品に比べて）小さいため組込みソフトウェアで使われることもある。
 
-[Go 言語]でも利用可能だがコンパイル時に [GCC] の C コンパイラが必要である。
-Linux などのプラットフォームには当然 [GCC] が入っているが，残念ながら Windows 環境には入ってないので別途用意する必要がある[^sub1]。
+## mattn/go-sqlite3
 
-[^sub1]: Windows 10 用の Linux 系サブシステムになら入ってると思うが，私は Windows 10 を使ったことがないのでよく知らない。
-
-Windows 環境で [GCC] **のみ** が必要なのであれば [TDM-GCC] がおススメである[^gcc1]。
-
-[^gcc1]: ただし [TDM-GCC] のバージョンは 5.1 系でかなり古いので注意が必要である（どうも [TDM-GCC] は開発が止まってるっぽい？）。なお，今回は [TDM-GCC] で全く問題ない。ちなみに [MSYS2] で提供される [Mingw-w64] 版 gcc は32ビット版・64ビット版ともに 7.3 が提供されている（2018-02-31 時点）。また [GCC] だけでなく autotools などの周辺ツールも必要なら [MSYS2] を使うべきだろう。参照： [MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の導入]({{< relref "remark/2016/03/gcc-msys2-2.md" >}})
-
-まぁそれを言ったら [MSYS2] に含まれる [GCC] は 4.8 系で更に古いけどね（笑）
-
-[Go 言語]用の [SQLite] パッケージはいくつか存在するが標準の database/[sql] に対応しているのは [mattn/go-sqlite3] のみのようだ。
+[Go 言語]で利用可能な [SQLite] パッケージはいくつか存在するが，標準の database/[sql] に対応しているのは [mattn/go-sqlite3] のみのようだ。
 
 - [mattn/go-sqlite3: sqlite3 driver for go using database/sql](https://github.com/mattn/go-sqlite3)
 
+このパッケージを利用するには [GCC] が必要である（内部で C 言語コードのコンパイルを行うため）。
+[GCC] がない状態で `go get` しようとすると以下のようにエラーになる。
 
 ```text
 $ go get -v github.com/mattn/go-sqlite3
@@ -53,6 +47,34 @@ github.com/mattn/go-sqlite3
 exec: "gcc": executable file not found in %PATH%
 ```
 
+なお，必要なコードは [mattn/go-sqlite3] に組み込まれているため [SQLite] サイトからソースコードや DLL などのバイナリを別途取ってくる必要はない[^ver1]。
+
+[^ver1]: [mattn/go-sqlite3] に組み込まれている [SQLite] のバージョンは 2018-03-31 時点で 3.22.0 のようだ。
+
+### GCC の導入
+
+Linux などのプラットフォームには最初から [GCC] が入っているが， Windows 環境には残念ながら入ってないので別途用意する必要がある[^sub1]。
+Windows 環境で [GCC] **のみ** が必要なのであれば [MinGW-w64] から Windows 用のバイナリを取得するのがお勧めである[^gcc1]。
+
+[^sub1]: Windows 10 用の Linux 系サブシステムになら入ってると思うが，私は Windows 10 を使ったことがないのでよく知らない。
+[^gcc1]: [GCC] だけでなく autotools などの周辺ツールも必要なら [MSYS2] を導入するほうがいいかもしれない（参考： [MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の導入]({{< relref "remark/2016/03/gcc-msys2-2.md" >}})）。今回は [MinGW-w64] で全く問題ない。
+
+- [Mingw-w64 を導入する]({{< relref "remark/2018/03/mingw-w64.md" >}})
+
+## サンプルをコンパイルしてみる
+
+[mattn/go-sqlite3] に `_example/simple/simple.go` というサンプルファイルがあるので，これを動かして動作確認してみる。
+
+```text
+$ go run simple.go
+```
+
+これで `foo.db` ファイルができていたら成功だ。
+適当なブラウザツールで中身を確認してみるといいだろう。
+
+あぁ [SQLite] 用の SQL 方言を覚えないと。
+なんで製品ごとに SQL の方言がこんなに微妙な感じなんだろうねぇ。
+特定の製品にロックインさせるための陰謀なのだろうか（笑）
 
 ## ブックマーク
 
@@ -62,8 +84,7 @@ exec: "gcc": executable file not found in %PATH%
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [SQLite]: https://www.sqlite.org/
 [GCC]: https://gcc.gnu.org/ "GCC, the GNU Compiler Collection - GNU Project - Free Software Foundation (FSF)"
-[Mingw-w64]: http://mingw-w64.org/doku.php "Mingw-w64 - GCC for Windows 64 & 32 bits [mingw-w64]"
-[TDM-GCC]: http://tdm-gcc.tdragon.net/
+[MinGW-w64]: http://mingw-w64.org/ "Mingw-w64 - GCC for Windows 64 & 32 bits [mingw-w64]"
 [MSYS2]: http://www.msys2.org/
 [sql]: https://golang.org/pkg/database/sql/ "sql - The Go Programming Language"
 [mattn/go-sqlite3]: https://github.com/mattn/go-sqlite3 "mattn/go-sqlite3: sqlite3 driver for go using database/sql"

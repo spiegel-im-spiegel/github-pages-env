@@ -1,6 +1,7 @@
 +++
-title = "Mingw-w64 を導入する"
+title = "MinGW-w64 を導入する"
 date = "2018-03-31T17:40:56+09:00"
+update = "2018-03-31T21:12:23+09:00"
 description = "MinGW-w64 は Windows 用のバイナリを出力可能な GCC を含む開発環境を提供している。もちろん Windows 用のバイナリも存在する。"
 image = "/images/attention/kitten.jpg"
 tags = ["mingw", "gcc", "tools", "windows"]
@@ -28,7 +29,9 @@ tags = ["mingw", "gcc", "tools", "windows"]
 [MSYS2] も [MinGW-w64] の成果を取り込んでいるので馴染みのある人もいるだろう。
 
 [MinGW] および [MinGW-w64] はどちらかと言うと Linux 系のプラットフォームで Windows 向けのビルドを行うクロスコンパイラとしての側面が強いが，もちろん Windows 用のバイナリも存在する。
-[MinGW-w64] の Windows 用インストーラは以下で取得できる（SourceForge からのダウンロードなので取扱い注意）。
+[MinGW-w64] の Windows 用インストーラは以下で取得できる[^sf1]。
+
+[^sf1]: SourceForge からのダウンロードなので取扱いに注意。ページの余計なところを触らないこと（笑）
 
 - [Mingw-builds](http://mingw-w64.org/doku.php/download/mingw-builds)
 
@@ -42,17 +45,17 @@ tags = ["mingw", "gcc", "tools", "windows"]
 
 この画面でインストールする [GCC] の種別を指定する。
 
-- *Version* [GCC] のバージョン。特に理由がない限り最新版でいいだろう（2018-03-31 時点の最新は 7.3.0）
-- *Architecture* ターゲットシステムのアーキテクチャ。 `i686` か `x86_64` のいずれかを選択する。 `x86_64` が64ビット版なのでご注意を
-- *Thread* スレッドモデル。 `posix` か `win32` のいずれかを選択する。 `win32` は Windows ネイティブで速いのだが C++ 11 以降の thread, mutex, future が使えなくなる。特に理由がないのであれば `posix` でいいだろう
-- *Exeption* 例外モデル。アーキテクチャによって以下を選択できる。
+- *Version* : [GCC] のバージョン。特に理由がない限り最新版でいいだろう（2018-03-31 時点の最新は 7.3.0）
+- *Architecture* : ターゲットシステムのアーキテクチャ。 `i686` か `x86_64` のいずれかを選択する。 `x86_64` が64ビット版なのでご注意を
+- *Thread* : スレッドモデル。 `posix` か `win32` のいずれかを選択する。 `win32` は Windows ネイティブ関数を使っていて速いのだが C++ 11 以降の thread, mutex, future が使えなくなる。特に理由がないのであれば `posix` でいいだろう
+- *Exeption* : 例外処理ハンドリング。アーキテクチャによって以下を選択できる。
     - `i686`
-        - `dwarf` [DWARF](http://ja.wikipedia.org/wiki/DWARF)
-        - `sjlj` SetJump/LongJump
+        - `dwarf` : [DWARF](http://ja.wikipedia.org/wiki/DWARF)
+        - `sjlj` : SetJump/LongJump
     - `x86_64`
-        - `seh` Structured Exception Handling （Windows ネイティブ。おすすめ）
-        - `sjlj` SetJump/LongJump
-- *Build Version* ビルドバージョン。特に理由がなければ最新版でいいだろう
+        - `seh` : Structured Exception Handling （Windows ネイティブ。おすすめ）
+        - `sjlj` : SetJump/LongJump
+- *Build Version* : ビルドバージョン。特に理由がなければ最新版でいいだろう
 
 種別を指定したら `[Next >]`。
 
@@ -65,7 +68,7 @@ tags = ["mingw", "gcc", "tools", "windows"]
 
 {{< fig-img src="https://farm1.staticflickr.com/885/40234864195_35a1d24993.jpg" title="Installing Mingw-w64 (4)" link="https://www.flickr.com/photos/spiegel/40234864195/" >}}
 
-どうもネットから指定した種別のバイナリをダウンロードして展開しているようだ。
+どうもネットから指定した種別に対応する圧縮ファイルをダウンロードしてバイナリを展開しているようだ。
 完了したら `[Next >]`。
 
 {{< fig-img src="https://farm1.staticflickr.com/894/40234864325_ea472a14df.jpg" title="Installing Mingw-w64 (5)" link="https://www.flickr.com/photos/spiegel/40234864325/" >}}
