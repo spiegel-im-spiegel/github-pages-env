@@ -1,7 +1,7 @@
 +++
 title = "善悪の葛藤"
 date = "2018-03-25T15:17:25+09:00"
-update = "2018-03-27T20:35:32+09:00"
+update = "2018-03-31T23:20:07+09:00"
 description = "こうした情報の不均衡の背景に搾取の構造があることは重要で，本来はそうした構造そのものについてもっと議論すべきだと思うのだが，..."
 image = "/images/attention/kitten.jpg"
 tags = [ "code", "privacy", "facebook", "grigori" ]
@@ -72,5 +72,6 @@ Facebook が面白そうなので，覚書として一応残しておく。
 - [Facebook scraped call, text message data for years from Android phones [Updated] | Ars Technica](https://arstechnica.com/information-technology/2018/03/facebook-scraped-call-text-message-data-for-years-from-android-phones/)
     - [Facebook、通話やSMSの履歴を無許可で記録しているとする報道を否定 - CNET Japan](https://japan.cnet.com/article/35116650/)
 - [米連邦取引委がFacebookを調査中と発表--ユーザー情報の流出問題めぐり - CNET Japan](https://japan.cnet.com/article/35116724/)
+- [「ソーシャルメディアは民主主義にマイナス」が6割——個人情報流出で窮地に立つFacebook | BUSINESS INSIDER JAPAN](https://www.businessinsider.jp/post-164530)
 
 - [機械によって引かれた境界線]({{< relref "remark/2018/03/boundary-by-ai.md" >}})

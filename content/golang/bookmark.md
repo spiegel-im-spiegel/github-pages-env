@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-03-27T20:35:32+09:00"
+update = "2018-03-31T23:20:07+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -610,6 +610,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Golangでパーセントエンコーディング - 逆さまにした](http://cipepser.hatenablog.com/entry/2017/07/29/083729)
     - [Golangでパーセントエンコーディングをデコードする - 逆さまにした](http://cipepser.hatenablog.com/entry/2017/08/05/095807)
     - [encodeURIComponentが世界基準だと誤解してた話 - Qiita](https://qiita.com/shibukawa/items/c0730092371c0e243f62)
+- [gRPCとREST APIでスループットを比較する - Qiita](https://qiita.com/muroon/items/1c9ad59653c00d8d5e3d)
+- [Big Sky :: Golang と Vue.js で簡単なアプリケーションを作ってみた。](https://mattn.kaoriya.net/software/lang/go/20180330093346.htm)
 
 ## 他サービスとの連携
 

@@ -1,7 +1,7 @@
 +++
 title = "「CPU に対するサイドチャネル攻撃」に関する覚え書き"
 date =  "2018-01-04T22:01:45+09:00"
-update = "2018-03-03T16:22:14+09:00"
+update = "2018-03-31T23:20:07+09:00"
 description = "投機的実行機能やアウトオブオーダー実行機能を持つ CPU に対してサイドチャネル攻撃を行う手法が報告されている。ただし影響度は低い。"
 image = "/images/attention/remark.jpg"
 tags = [
@@ -93,6 +93,7 @@ CVSS については[解説ページ]({{< relref "remark/2015/cvss-v3-metrics-in
     - [ADV180002 | Guidance to mitigate speculative execution side-channel vulnerabilities](https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV180002)
     - [Microsoft 製品の脆弱性対策について(2018年01月)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20180110-ms.html)
     - [2018年 1月マイクロソフトセキュリティ更新プログラムに関する注意喚起](https://www.jpcert.or.jp/at/2018/at180002.html)
+    - [JVNVU#97712677: Meltdown 向けパッチが適用された Windows 7 x64 および Windows Server 2008 R2 x64 でカーネルメモリが適切に保護されない脆弱性](https://jvn.jp/vu/JVNVU97712677/)
 - Apple 製品については2017年12月の更新で Meltdown については対応済み。 Spectre についてはは2018年1月の更新で対応
     - [ARM や Intel の CPU の投機的実行の脆弱性について - Apple サポート](https://support.apple.com/ja-jp/HT208394)
     - [About the security content of iOS 11.2.2 - Apple サポート](https://support.apple.com/ja-jp/HT208401)
