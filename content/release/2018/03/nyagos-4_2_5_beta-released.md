@@ -1,7 +1,7 @@
 +++
-title = "NYAGOS 4.2.5_Beta のリリースと環境変数の扱い"
+title = "NYAGOS 4.2.5 のリリースと環境変数の扱い"
 date = "2018-03-27T19:47:59+09:00"
-update = "2018-03-27T21:34:34+09:00"
+update = "2018-03-31T18:20:17+09:00"
 description = "このバージョンからバッチファイル実行時の環境変数の扱いが変わるようだ。"
 image = "/images/attention/tools.png"
 tags  = [ "tools", "nyagos", "shell", "windows" ]
@@ -25,28 +25,35 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
   mermaidjs = false
 +++
 
-[NYAGOS] 4.2.5_beta がリリースされた。
+（正式版がリリースされたので改題しました）
+
+[NYAGOS] 4.2.5 がリリースされた。
 
 - [Release 4.2.5_beta · zetamatta/nyagos](https://github.com/zetamatta/nyagos/releases/tag/4.2.5_beta)
+- [Release 4.2.5_beta2 · zetamatta/nyagos](https://github.com/zetamatta/nyagos/releases/tag/4.2.5_beta2)
+- [Release 4.2.5_0 · zetamatta/nyagos](https://github.com/zetamatta/nyagos/releases/tag/4.2.5_0)
 
-{{% fig-quote title="Release 4.2.5_beta" link="https://github.com/zetamatta/nyagos/releases/tag/4.2.5_beta" lang="en" %}}
+以下に変更点をまとめて紹介する。
+
+{{% fig-quote title="Release 4.2.5" link="https://github.com/zetamatta/nyagos/releases/tag/4.2.5_0" lang="en" %}}
 - Read the value of environment variables and the current directory that a batchfile changed like CMD.EXE.
 - And refactored a lot of source files
+- Fix: #296 the batchfile could not be executed when the username contains multibyte-character.
+    - Fix that the encoding of the temporary batchfile was UTF8.
+    - Fix that the end of the each line of the temporary batchfile was LF not CRLF.
+- Fix: #297 running the batchfile includes exit without /b option, an error occurs
+- Add Lua-flag: nyagos.option.usesource. When it is false, batchfiles can not change nyagos's environment variables and directory.(default:true)
 
 ----
 
 - CMD.EXE と同様に、バッチファイルが変更した環境変数・カレントディレクトリを読み取るようにした。
 - ソースの幾つかを派手にリファクタリングした。
+- #296 ユーザ名にマルチバイト文字が入っていると、バッチが正常動作しない不具合を修正
+    - 一時バッチファイルのエンコーディングが UTF8 になっていた
+    - 一時バッチファイルの改行コードが CRLF ではなく LF になっていた
+- #297 /b なしの exit をバッチファイルが実行した時、一時ファイルが無い旨のエラーがでていた
+- luaフラグ nyagos.option.usesource を追加。false の時、バッチファイルは NYAGOS の環境変数を変更できなくなる(default:true)
 {{% /fig-quote %}}
-
-{{% div-box %}}
-**【追記 2018-03-27】** 4.2.5_beta2 がリリースされた。
-
-- [Release 4.2.5_beta2 · zetamatta/nyagos](https://github.com/zetamatta/nyagos/releases/tag/4.2.5_beta2)
-
-バッチファイルまわりの不具合がいくつか修正されている。
-{{% /div-box %}}
-
 
 というわけで，このバージョンからバッチファイル（`*.bat`, `*.cmd`）実行時の環境変数の扱いが変わるようだ。
 詳しくは以下を参照のこと。
@@ -56,7 +63,13 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 個人的にはバッチファイルで環境変数が汚れるのは好みではなかったので `source` コマンドのみで環境変数を変えられるという仕様は結構気に入っていたのだが，まぁいいか。
 問題ない。
 
-## 環境変数の汚染を防ぐには
+{{% div-box %}}
+**【追記 2018-03-31】** `nyagos.option.usesource` オプションを追加していただいた。
+これを `false` にすれば従来どおり `source` コマンドのみで環境変数を変更できる。
+ホームディレクトリの `.nyagos` に追記しておけばいいだろう。
+{{% /div-box %}}
+
+## 【付録】 環境変数の汚染を防ぐには
 
 バッチファイルで環境変数を汚さないようにするには `setlocal ... endlocal` で囲めばよい[^sl1]。
 しかも入れ子にできる。
