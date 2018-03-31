@@ -1,10 +1,9 @@
 +++
 title = "Go 1.10.1 and 1.9.5 are Released"
-date =  "2018-03-30T16:03:11+09:00"
+date = "2018-03-31T15:04:22+09:00"
 description = "アップデートは計画的に。"
 image = "/images/attention/tools.png"
 tags  = [ "golang" ]
-draft = true
 
 [author]
   name      = "Spiegel"
