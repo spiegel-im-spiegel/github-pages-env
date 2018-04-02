@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T23:59:59+09:00"
-update = "2018-03-31T23:20:07+09:00"
+update = "2018-04-02T22:15:21+09:00"
 description = "「Go 言語に関するブックマーク」に整理しきれない未整理分。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -118,3 +118,4 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [[Golang]リアルタイムログ転送+閲覧ツール作った | ブログ :: Web notes.log](http://blog.wnotes.net/blog/article/golang-realtime-log-tailing-tool)
 - [Big Sky :: Go言語で ping を打って「にゃーん」を表示させる](https://mattn.kaoriya.net/software/lang/go/20180315230112.htm)
 - [Linuxのユーザーランドをinitから全てまるごとgolangで書く - Qiita](https://qiita.com/tetsu_koba/items/aa2d245a61db98299a89)
+- [Go言語でAWKを作ってみました - Qiita](https://qiita.com/hideshi/items/3280ae6616319a78c8e3)
