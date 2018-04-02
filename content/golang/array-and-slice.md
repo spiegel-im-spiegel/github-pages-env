@@ -313,9 +313,7 @@ panic: runtime error: slice bounds out of range
 このように配列と [slice] の関係が分かると `append()` 関数の挙動も理解しやすくなる。
 
 {{% div-box %}}
-**【追記】**
-
-たとえば，配列 `ary := Array4{0, 1, 2, 3}` の先頭2要素を slice として切り出す場合，普通は `ary[0:2]` でいいのだが，容量を含めて2要素のみとしたい場合は `ary[0:2:2]` と記述する。
+**【追記】** たとえば，配列 `ary := Array4{0, 1, 2, 3}` の先頭2要素を slice として切り出す場合，普通は `ary[0:2]` でいいのだが，容量を含めて2要素のみとしたい場合は `ary[0:2:2]` と記述する。
 
 ```go
 package main
@@ -553,7 +551,9 @@ prog.go:18:10: invalid operation: slc1 == slc2 (slice can only be compared to ni
 
 [^ce1]: 同様に比較演算子が使えない基本型としては [map] と関数値（function value）がある。
 
-[slice] の内容を比較したいのであれば [`reflect`]`.DeepEqual()` 関数が使える。
+[slice] の内容を比較したいのであれば [`reflect`]`.DeepEqual()` 関数が使える[^cmp1]。
+
+[^cmp1]: byte 型の [slice] であれば [`bytes`]`.Compare()` を使って比較できる。
 
 {{< highlight go "hl_lines=21-25" >}}
 package main
@@ -719,6 +719,7 @@ slc1 != slc2
 [slice]: http://golang.org/ref/spec#Slice_types
 [map]: http://golang.org/ref/spec#Map_types
 [`reflect`]: https://golang.org/pkg/reflect/ "reflect - The Go Programming Language"
+[`bytes`]: https://golang.org/pkg/bytes/ "bytes - The Go Programming Language"
 
 ## 参考図書
 
