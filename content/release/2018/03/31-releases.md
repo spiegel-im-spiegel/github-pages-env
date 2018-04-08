@@ -1,6 +1,7 @@
 +++
 title = "2018-03-31 のリリース情報"
 date =  "2018-03-31T23:22:51+09:00"
+update =  "2018-04-08T11:23:36+09:00"
 description = "「6件の脆弱性を修正した「Thunderbird」v52.7.0が公開」他"
 image = "/images/attention/tools.png"
 
@@ -35,7 +36,7 @@ image = "/images/attention/tools.png"
     - [7件の脆弱性を修正した「Apache HTTP Web Server」v2.4.33が公開 ～JVNが更新を勧告 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1113961.html)
 - [Mozilla、「Facebook Container」拡張機能を公開 ～Facebookのデータ不正利用を批判 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1113939.html) : なんで Facebook ばっかりと思ったが，どうも [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) の派生アプリらしい。なんだかなぁ
 - [JVNVU#93502675: OpenSSL に複数の脆弱性](https://jvn.jp/vu/JVNVU93502675/)
-- WinSCP 5.13.1 released ([News :: WinSCP](https://winscp.net/eng/news.php))
+- WinSCP 5.13.1 released ([News :: WinSCP](https://winscp.net/eng/news.php)
 - [Apple security updates - Apple Support](https://support.apple.com/en-us/HT201222)
     - [About the security content of iOS 11.3 - Apple サポート](https://support.apple.com/ja-jp/HT208693)
     - [About the security content of watchOS 4.3 - Apple サポート](https://support.apple.com/ja-jp/HT208696)
