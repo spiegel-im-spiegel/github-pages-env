@@ -41,10 +41,6 @@
 
 ## セキュリティ関連
 
-- [ICS-CERTが公開した制御システムの脆弱性情報（直近の1ヶ月）：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/controlsystem/icsadvisories.html)
-- [アメリカが滞在ビザ発行に個人のSNSアカウントを要求する動き | 秋元@サイボウズラボ・プログラマー・ブログ](http://developer.cybozu.co.jp/akky/2018/03/usa-to-require-social-media-accounts-for-visa-application/)
-- [ネット利用履歴をISPに残さない新ツール「1.1.1.1」--接続も高速化 - CNET Japan](https://japan.cnet.com/article/35117022/)
-    - [Cloudflare、セキュアで最速な一般向けDNSサービス「1.1.1.1」提供開始 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1804/02/news074.html)
 
 ## 天文関連
 
@@ -54,10 +50,5 @@
 
 ## その他
 
-- [「TensorFlow.js」公開、Webブラウザ上で機械学習の開発、学習、実行が可能に。WebGL経由でGPUも活用 － Publickey](http://www.publickey1.jp/blog/18/tensorflowjswebwebglgpu.html)
-- [AWSにおける可用性の柱「アベイラビリティゾーン」、この10年の進化とは？ Azureも可用性ゾーンを正式サービスとして開始 － Publickey](http://www.publickey1.jp/blog/18/aws10_azure.html)
-- [バーレーン、過去最大の油田発見 「既存の埋蔵量圧倒」　写真1枚　国際ニュース：AFPBB News](http://www.afpbb.com/articles/-/3169618)
-- [Linux/Raspberry Pi版「HSP」が“GitHub”で公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1114799.html)
-- [フリーランス・ライターに便利な自動ポートフォリオ作成ツール  |  TechCrunch Japan](https://jp.techcrunch.com/2018/04/01/2018-03-30-cv-portfolios/)
 
 <!-- eof -->
