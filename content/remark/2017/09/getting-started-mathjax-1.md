@@ -1,7 +1,7 @@
 +++
 title = "ちょこっと MathJax： 初期設定"
 date =  "2017-09-27T20:02:09+09:00"
-update = "2017-12-22T19:15:52+09:00"
+update = "2018-04-08T10:18:04+09:00"
 description = "この記事ではまず Web ページ上で MathJax が動くところまで説明していこう。"
 tags        = [ "math", "tex", "mathjax", "javascript", "blog", "site" ]
 
@@ -60,15 +60,15 @@ tags        = [ "math", "tex", "mathjax", "javascript", "blog", "site" ]
 CDN (Content Delivery Network) で配布されているので HTML の `<head>` 要素内に
 
 ```html
-<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML&locale=ja"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML&locale=ja"></script>
 ```
 
 と記述すればよい（`async` を忘れずに）。
-なお URL の “`2.7.2`” 部分はバージョン番号で，2017年8月28日時点の最新バージョンは 2.7.2 である[^cdn1]。
+なお URL の “`2.7.4`” 部分はバージョン番号で，2018年4月3日時点の最新バージョンは 2.7.4 である[^cdn1]。
 
 [^cdn1]: ちなみに2017年5月から CDN の[配布 URL が変わった](https://www.mathjax.org/cdn-shutting-down/ "MathJax CDN shutting down on April 30, 2017.  Alternatives available.")ので，設定が古いままの方は注意が必要である。
 
-- [MathJax v2.7.2 now available](https://www.mathjax.org/mathjax-v2-7-2-now-available/)
+- [MathJax v2.7.4 now available | MathJax](https://www.mathjax.org/mathjax-v2-7-4-now-available/)
 
 URL パラメータ部の `config=TeX-AMS_HTML` については[指定可能なコンフィギュレーション](http://docs.mathjax.org/en/latest/config-files.html "Combined Configurations — MathJax 2.7 documentation")がいくつかあるが，  $\mathrm{\TeX}$ 記法を使うのであれば `TeX-AMS_CHTML` または `TeX-AMS_HTML` を指定するのがいいだろう[^html1]。
 さらにパラメータ部に `locale=ja` を追加すると，数式部分で表示されるコンテキスト・メニューが日本語になる。
@@ -357,7 +357,7 @@ MathJax.Hub.Config({
 - [世界標準が期待される数式用フォント「STIX Fonts」 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/373370.html)
 
 [本ブログ]: / "text.Baldanders.info"
-[MathJax]: https://www.mathjax.org/
+[MathJax]: https://www.mathjax.org/ "MathJax | Beautiful math in all browsers."
 [“CommonHTML” オプション]: http://docs.mathjax.org/en/latest/options/output-processors/CommonHTML.html "The CommonHTML output processor — MathJax 2.7 documentation"
 [“HTML-CSS” オプション]: http://docs.mathjax.org/en/latest/options/output-processors/HTML-CSS.html "The HTML-CSS output processor — MathJax 2.7 documentation"
 [次回]: {{< relref "remark/2017/09/getting-started-mathjax-2.md" >}} "ちょこっと MathJax： 基本的な数式表現"
