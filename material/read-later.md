@@ -33,9 +33,8 @@
 
 ## リリース情報
 
-- https://blog.documentfoundation.org/blog/2018/04/05/libreoffice-6-0-3-now-available-for-download/
+- [LibreOffice 6.0.3 now available for download](https://blog.documentfoundation.org/blog/2018/04/05/libreoffice-6-0-3-now-available-for-download/)
 - [プログラミング言語Rubyに複数の脆弱性、修正を施した「Ryby 2.5.1/2.4.4/2.3.7」がリリース | Think IT（シンクイット）](https://thinkit.co.jp/news/bn/13722)
-- [Hugo 0.38.2: Two Bugfixes | Hugo](https://gohugo.io/news/0.38.2-relnotes/)
 
 ## Age of Trump
 
