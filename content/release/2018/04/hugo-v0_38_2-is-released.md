@@ -1,5 +1,5 @@
 +++
-title = "Hugo v0.38.1 がリリース"
+title = "Hugo v0.38.2 がリリース"
 date = "2018-04-10T20:28:59+09:00"
 description = "不具合の修正がメイン。"
 image = "/images/attention/tools.png"
