@@ -1,6 +1,6 @@
 +++
 date = "2017-04-07T20:01:34+09:00"
-update = "2018-02-13T23:58:19+09:00"
+update = "2018-04-10T19:45:34+09:00"
 title = "ソートを使う"
 description = "ソートをアルゴリズムまで言及すると非常に深いテーマになるのだが，今回は標準の sort パッケージの使い方に絞って「こんな感じ」で説明していく。"
 draft = false
@@ -368,6 +368,7 @@ func main() {
 - [sort.Slice に学ぶ高速化のヒント - Qiita](https://qiita.com/chimatter/items/f908507287fe2c7030e9)
     - [sort.Sort と sort.Slice の速度比較 - Qiita](https://qiita.com/chimatter/items/bc8f3ab3e617211b9a24)
 - [golang でクイックソートを並列化してみる - 長文書くところ](http://zenito9970.hatenablog.com/entry/2015/05/30/155726)
+- [「ソート」を極める！ 〜 なぜソートを学ぶのか 〜 - Qiita](https://qiita.com/drken/items/44c60118ab3703f7727f) : ソート・アルゴリズムの概説。よくまとまっている
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`sort`]: https://golang.org/pkg/sort/ "sort - The Go Programming Language"
