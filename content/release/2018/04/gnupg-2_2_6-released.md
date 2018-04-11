@@ -1,0 +1,93 @@
++++
+title = "GnuPG 2.2.6 がリリース"
+date = "2018-04-11T20:13:15+09:00"
+description = "今回もセキュリティ・アップデートはなし。"
+image = "/images/attention/tools.png"
+tags = [
+  "security",
+  "cryptography",
+  "tools",
+  "openpgp",
+  "gnupg",
+]
+
+[author]
+  name      = "Spiegel"
+  url       = "http://www.baldanders.info/spiegel/profile/"
+  avatar    = "/images/avatar.jpg"
+  license   = "by-sa"
+  github    = "spiegel-im-spiegel"
+  twitter   = "spiegel_2007"
+  tumblr    = "spiegel-im-spiegel"
+  instagram = "spiegel_2007"
+  flickr    = "spiegel"
+  facebook  = "spiegel.im.spiegel"
+  linkedin  = "spiegelimspiegel"
+  flattr    = "spiegel"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
++++
+
+[GnuPG] 2.2.6 がリリースされた。
+
+- [[Announce] GnuPG 2.2.6 released](https://lists.gnupg.org/pipermail/gnupg-announce/2018q2/000421.html)
+
+今回もセキュリティ・アップデートはなし。
+主な修正点は以下の通り。
+
+{{% fig-quote title="GnuPG 2.2.6 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2018q2/000421.html" lang="en" %}}
+* gpg,gpgsm: New option `--request-origin` to pretend requests coming from a browser or a remote site.
+* gpg: Fix race condition on trustdb.gpg updates due to too early released lock.  [#3839]
+* gpg: Emit FAILURE status lines in almost all cases.  [#3872]
+* gpg: Implement `--dry-run` for `--passwd` to make checking a key's passphrase straightforward.
+* gpg: Make sure to only accept a certification capable key for key signatures.  [#3844]
+* gpg: Better user interaction in `--card-edit` for the factory-reset sub-command.
+* gpg: Improve changing key attributes in `--card-edit` by adding an explicit "key-attr" sub-command.  [#3781]
+* gpg: Print the keygrips in the `--card-status`.
+* scd: Support KDF DO setup.  [#3823]
+* scd: Fix some issues with PC/SC on Windows.  [#3825]
+* scd: Fix suspend/resume handling in the CCID driver.
+* agent: Evict cached passphrases also via a timer.  [#3829]
+* agent: Use separate passphrase caches depending on the request origin.  [#3858]
+* ssh: Support signature flags.  [#3880]
+* dirmngr: Handle failures related to missing IPv6 support gracefully.  [#3331]
+* Fix corner cases related to specified home directory with drive letter on Windows.  [#3720]
+* Allow the use of UNC directory names as homedir.  [#3818]
+{{% /fig-quote %}}
+
+最新版をインストールすると以下のようになる。
+
+```text
+$ gpg --version
+gpg (GnuPG) 2.2.6
+libgcrypt 1.8.2
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Home: ********
+サポートしているアルゴリズム:
+公開鍵: RSA, ELG, DSA, ECDH, ECDSA, EDDSA
+暗号方式: IDEA, 3DES, CAST5, BLOWFISH, AES, AES192, AES256, TWOFISH,
+    CAMELLIA128, CAMELLIA192, CAMELLIA256
+ハッシュ: SHA1, RIPEMD160, SHA256, SHA384, SHA512, SHA224
+圧縮: 無圧縮, ZIP, ZLIB, BZIP2
+```
+
+アップデートは計画的に。
+
+## ブックマーク
+
+- [OpenPGP の実装](/openpgp/)
+
+[GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
+
+## 参考図書
+
+<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B015643CPE/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51t6yHHVwEL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B015643CPE/baldandersinf-22/">暗号技術入門 第3版　秘密の国のアリス</a></dt><dd>結城 浩 </dd><dd>SBクリエイティブ 2015-08-25</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0148FQNVC/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B0148FQNVC.09._SCTHUMBZZZ_.jpg"  alt="自作エミュレータで学ぶx86アーキテクチャ　コンピュータが動く仕組みを徹底理解！"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00W6NCLJM/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00W6NCLJM.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート/丸い三角関数"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00Y9EYOIW/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00Y9EYOIW.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート/微分を追いかけて"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B012BYBTZC/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B012BYBTZC.09._SCTHUMBZZZ_.jpg"  alt="情報セキュリティ白書2015: サイバーセキュリティ新時代：あらゆる変化へ柔軟な対応を"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00W6NCLL0/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00W6NCLL0.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート/数列の広場"  /></a> </p>
+<p class="description">SHA-3 や Bitcoin/Blockchain など新しい知見や技術要素を大幅追加。暗号技術を使うだけならこれ1冊でとりあえず無問題。</p>
+<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-09-20">2015-09-20</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+</div>
