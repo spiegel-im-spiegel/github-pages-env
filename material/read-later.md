@@ -35,6 +35,11 @@
 
 - [LibreOffice 6.0.3 now available for download](https://blog.documentfoundation.org/blog/2018/04/05/libreoffice-6-0-3-now-available-for-download/)
 - [プログラミング言語Rubyに複数の脆弱性、修正を施した「Ryby 2.5.1/2.4.4/2.3.7」がリリース | Think IT（シンクイット）](https://thinkit.co.jp/news/bn/13722)
+    - [Ruby on Rails 5.2正式版発表。Active Storageによるクラウドストレージ対応、Redisでのキャッシュ対応など － Publickey](http://www.publickey1.jp/blog/18/ruby_on_rails_52active_storageredis.html)
+- [Microsoft 製品の脆弱性対策について(2018年4月)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20180411-ms.html)
+    - [2018年 4月マイクロソフトセキュリティ更新プログラムに関する注意喚起](https://www.jpcert.or.jp/at/2018/at180016.html)
+- [Adobe Flash Player の脆弱性対策について(APSB18-08)(CVE-2018-4932等)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20180411-adobeflashplayer.html)
+    - [Adobe Flash Player の脆弱性 (APSB18-08) に関する注意喚起](https://www.jpcert.or.jp/at/2018/at180015.html)
 
 ## Age of Trump
 
@@ -52,13 +57,20 @@
 - [【重要】さくらインターネットのウェブページにおけるTLS1.0/1.1無効化のお知らせ | さくらインターネット](https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1919)
 - [Spring Framework の脆弱性に関する注意喚起](http://www.jpcert.or.jp/at/2018/at180014.html)
 - [ランサムウェア「GandCrab」、Flashの脆弱性で拡散開始か - ZDNet Japan](https://japan.zdnet.com/article/35117475/)
+- [YouTubeによる子供の情報収集は違法--人権団体ら、FTCに申し立て - CNET Japan](https://japan.cnet.com/article/35117479/)
+- [FIDOアライアンスおよびW3C、「パスワード」無用の仕組みを提案  |  TechCrunch Japan](https://jp.techcrunch.com/2018/04/11/2018-04-10-fido-alliance-and-w3c-have-a-plan-to-kill-the-password/)
+- [Spring Framework の脆弱性に関する注意喚起](https://www.jpcert.or.jp/at/2018/at180014.html)
 
 ## 天文関連
 
+- [グーグル・ルナーXプライズが再起動へ  |   月探査情報ステーション](https://moonstation.jp/blog/lunarexp/hakuto/google-lunar-x-prize-to-restart)
+- [はやぶさ2、ついに小惑星リュウグウとの距離が38万キロを切る  |   月探査情報ステーション](https://moonstation.jp/blog/asteroidexp/hayabusa2/distance-between-hayabusa2-and-destination-ryugu-now-below-380000-km)
 
 ## 知財関連
 
 - [僕が漫画村を批判しない理由｜佐藤秀峰｜note](https://note.mu/shuho_sato/n/na20ddb5fdfdf)
+- [Cloudflare、MP3Skull判決の「無効化」に失敗 – P2Pとかその辺のお話R](http://p2ptk.org/copyright/834)
+- [政府による海賊版サイトへのブロッキング要請に反対する緊急声明 - MIAU](https://miau.jp/ja/845)
 
 ## その他
 
@@ -82,5 +94,8 @@
 - [モバイルアプリケーションの開発に特化したCIツール「fastlane.ci」オープンソースで公開。fastlaneチームが開発 － Publickey](http://www.publickey1.jp/blog/18/cifastlaneci.html)
 - [「Windows 10 Anniversary Update」のサポートが終了 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1116209.html)
 - [「Microsoft Visual Studio 2008」のサポートが終了 ～無償版「Express Edition」も - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1116235.html)
+- [音楽業界が16.5%の二桁成長したアメリカは、いかに「音楽ストリーミングの国」として成功したか？ | All Digital Music](http://jaykogami.com/2018/04/15100.html)
+- [【西川和久の不定期コラム】手軽にシングルボードコンピュータ環境を試せる「ドスパラ DG-Tinker3288」  - PC Watch](https://pc.watch.impress.co.jp/docs/column/nishikawa/1116189.html)
+- [Facebookは初期のデータ漏洩をFTCに報告していなかった  |  TechCrunch Japan](https://jp.techcrunch.com/2018/04/11/2018-04-10-facebook-did-not-inform-the-ftc-about-initial-cambridge-analytica-leak/)
 
 <!-- eof -->
