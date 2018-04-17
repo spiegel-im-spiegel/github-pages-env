@@ -1,9 +1,9 @@
 +++
 title = "指定桁の数字列の先頭をゼロで埋める遊び"
 date =  "2017-10-09T17:05:06+09:00"
-update =  "2017-10-09T19:10:04+09:00"
+update =  "2018-04-17T17:24:08+09:00"
 description = "今回は 文字列⇔数値 変換と正規表現（のさわり）について書けたからよしとするか。"
-tags        = [ "golang", "programming", "cli", "regexp" ]
+tags        = [ "golang", "programming", "cli", "regexp", "regular-expression" ]
 
 [author]
   name      = "Spiegel"
