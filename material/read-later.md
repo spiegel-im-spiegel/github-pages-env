@@ -47,8 +47,6 @@
 - [NGINX Unitが正式リリース。PHP、Go、Pythonなどに対応した軽量アプリケーションサーバ － Publickey](http://www.publickey1.jp/blog/18/nginx_unitphpgopython.html)
 - [「Google Chrome 66」が正式版に ～新しい開発者機能とセキュリティ・安定性の向上策 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1117707.html)
 
-- [プライバシー保護にやっと本気出すFacebook、顔認識技術もON/OFF可能に | TechWave（テックウェーブ） #WAVE](https://techwave.jp/archives/facebook-ahead-of-gdpr-enhanced-privacy-privacy-controls.html)
-
 ## Age of Trump
 
 - [Apple、クリーンパワー計画撤廃案に反対表明  |  TechCrunch Japan](https://jp.techcrunch.com/2018/04/09/2018-04-06-apple-voices-opposition-to-clean-power-plan-repeal/)
