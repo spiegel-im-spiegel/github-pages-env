@@ -1,10 +1,10 @@
 +++
 title = "正規表現に関する戯れ言"
-date =  "2018-04-17T09:10:59+09:00"
-description = "description"
+date = "2018-04-18T00:28:41+09:00"
+update = "2018-04-18T19:05:45+09:00"
+description = "いや，便利なのは分かるんだけどさ，「その正規表現ホンマにいるの？」ってのがあるのよ，たまに。"
 image = "/images/attention/go-code2.png"
 tags = [ "regular-expression", "programming", "golang" ]
-draft = true
 
 [author]
   name      = "Spiegel"
@@ -90,9 +90,7 @@ if !re.Copy().MatchString(s) {
 どうしても正規表現が必要で Perl や Ruby といった他言語のほうがシステム全体のパフォーマンスがいいというのであれば，それらの言語を使えばいいと思う。
 もしくは正規表現パッケージを自作するか。
 
-でいいんじゃないのかなぁ。
 個人的に「言語の選択は適材適所」と思ってるので，無理に [Go 言語]にこだわる必要はないと思う。
-
 もちろん遊びでやるのなら好きにすればいいんだけど。
 
 ## ブックマーク{#bookmark}
