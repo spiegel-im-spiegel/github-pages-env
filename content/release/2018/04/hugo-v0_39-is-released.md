@@ -1,10 +1,9 @@
 +++
 title = "Hugo v0.39 がリリース"
-date =  "2018-04-18T09:26:31+09:00"
-description = "「XXX」他"
+date = "2018-04-18T19:56:28+09:00"
+description = "かなり派手にリファクタリングが行われている模様。他にもテンプレート関数の追加など。"
 image = "/images/attention/tools.png"
-tags  = [ "tools" ]
-draft = true
+tags  = [ "tools", "hugo" ]
 
 [author]
   name      = "Spiegel"
