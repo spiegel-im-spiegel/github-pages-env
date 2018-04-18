@@ -1,7 +1,7 @@
 +++
 title = "組込みで Go"
 date =  "2018-01-21T18:39:17+09:00"
-update =  "2018-01-22T20:10:35+09:00"
+update = "2018-04-18T21:05:35+09:00"
 description = "組込み関連の記事を見かけたのでブックマークしておく。"
 image = "/images/attention/go-code.png"
 tags        = [ "embedded", "engineering", "golang", "bookmark" ]
@@ -50,9 +50,9 @@ tags        = [ "embedded", "engineering", "golang", "bookmark" ]
 - [GoでFPGAしてみる(Reconfigure.io) - Qiita](https://qiita.com/mjhd-devlion/items/5e6f6f2f40ecb4ad4217)
 - [Goでのシリアル通信でハマった事 - Qiita](https://qiita.com/tomoya0x00/items/d957dc00682c57f96771)
 - [Gobotの招きにあひて、徒然なるままにArduinoとRaspberry PiでIoTっぽいことをやってみるなり - Qiita](https://qiita.com/KemoKemo/items/10fb644f9d359c35646a)
-
 - [Go言語のリアルタイムGC　理論と実践 | プログラミング | POSTD](http://postd.cc/golangs-real-time-gc-in-theory-and-practice/)
 - [Go言語の低レイテンシGC実現のための取り組み | プログラミング | POSTD](http://postd.cc/gos-march-to-low-latency-gc/)
+- [minimumgo: Linuxでgolangの実行ファイルをひとつだけ動かすときに必要最小限の初期化処理をしてくれるgolangのパッケージ - Qiita](https://qiita.com/tetsu_koba/items/059849c0871a7e3bd94f)
 
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"

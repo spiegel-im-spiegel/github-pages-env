@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-03-31T23:20:07+09:00"
+update = "2018-04-18T21:05:35+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -612,6 +612,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
     - [encodeURIComponentが世界基準だと誤解してた話 - Qiita](https://qiita.com/shibukawa/items/c0730092371c0e243f62)
 - [gRPCとREST APIでスループットを比較する - Qiita](https://qiita.com/muroon/items/1c9ad59653c00d8d5e3d)
 - [Big Sky :: Golang と Vue.js で簡単なアプリケーションを作ってみた。](https://mattn.kaoriya.net/software/lang/go/20180330093346.htm)
+- [【echo】ファイルのアップロード方法で詰まった話 - Qiita](https://qiita.com/witchy/items/85768165eb1038e045ec)
+- [いつの間にか go の http/net が renegotiation に対応していた話 - Qiita](https://qiita.com/yossy6954/items/a0afd2e1082d2f0cafa3)
 
 ## 他サービスとの連携
 
@@ -709,6 +711,9 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Golangの最新版をソースからビルドする - Qiita](https://qiita.com/tetsu_koba/items/bb3f2801373f64fbc661)
 - [#golang CodeReviewComments 日本語翻訳  - Qiita](https://qiita.com/knsh14/items/8b73b31822c109d4c497)
 - [Goにおける等値と等価の考察(struct1==struct2と&struct1==&struct2とreflect.DeepEqual(struct1,struct2)とreflect.DeepEqual(&struct1,&struct2)) - Qiita](https://qiita.com/Sekky0905/items/1ff4979d80b163e0aeb6)
+- [golangのruntimeからアクセスする/etcのファイル - Qiita](https://qiita.com/tetsu_koba/items/d9447eadf9c419264603)
+- [Go言語がWebAssemblyをサポートへ。GOARCHは「wasm」、GOOSは「js」に － Publickey](http://www.publickey1.jp/blog/18/gowebassemblygoarchwasmgoosjs.html)
+- [Go にとても長い式を食べさせると死ぬ - Qiita](https://qiita.com/Nabetani/items/e850ad92ba79640bfcd7)
 
 ### 他言語との比較もしくは移行
 

@@ -1,7 +1,7 @@
 +++
 title = "Log パッケージで遊ぶ"
 date = "2018-02-27T01:32:43+09:00"
-update = "2018-02-28T11:22:42+09:00"
+update = "2018-04-18T21:05:35+09:00"
 description = "log パッケージの欠点は出力のフィルタリングができないことである。せっかく「できる子」なんだから，なるべく生かした形でカスタマイズしてみる。"
 image = "/images/attention/go-code2.png"
 tags        = [ "golang", "engineering", "programming", "logger" ]
@@ -329,6 +329,7 @@ func main() {
 - [Goのバッチで統計を取得するAPIを用意しておくと便利 - Qiita](http://qiita.com/sudix/items/c542e1b59bc94dc741e3)
 - [ええっ！？　文字列で書くの！？　ログレベル付きロガーhashicorp/logutilsのご紹介 - Qiita](https://qiita.com/mackee_w/items/3c0940733b6c0922554c)
 - [標準出力に表示をしながらファイルにも保存して、かつローテーションもする - Qiita](https://qiita.com/saka1_p/items/5e37fafb35b10bb3d5a3)
+- [GitHub - spf13/jWalterWeatherman: So you always leave a note](https://github.com/spf13/jwalterweatherman)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`log`]: https://golang.org/pkg/log/ "log - The Go Programming Language"
