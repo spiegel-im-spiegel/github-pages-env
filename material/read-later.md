@@ -47,8 +47,6 @@
 - [NGINX Unitが正式リリース。PHP、Go、Pythonなどに対応した軽量アプリケーションサーバ － Publickey](http://www.publickey1.jp/blog/18/nginx_unitphpgopython.html)
 - [「Google Chrome 66」が正式版に ～新しい開発者機能とセキュリティ・安定性の向上策 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1117707.html)
 
-- [Oracle Java の脆弱性対策について(CVE-2018-2814等)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20180418-jre.html)
-    - [2018年 4月 Oracle 製品のクリティカルパッチアップデートに関する注意喚起](https://www.jpcert.or.jp/at/2018/at180018.html)
 - [プライバシー保護にやっと本気出すFacebook、顔認識技術もON/OFF可能に | TechWave（テックウェーブ） #WAVE](https://techwave.jp/archives/facebook-ahead-of-gdpr-enhanced-privacy-privacy-controls.html)
 
 ## Age of Trump
