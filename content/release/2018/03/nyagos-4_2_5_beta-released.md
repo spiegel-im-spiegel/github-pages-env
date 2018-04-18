@@ -1,7 +1,7 @@
 +++
 title = "NYAGOS 4.2.5 のリリースと環境変数の扱い"
 date = "2018-03-27T19:47:59+09:00"
-update = "2018-03-31T18:20:17+09:00"
+update = "2018-04-18T09:57:00+09:00"
 description = "このバージョンからバッチファイル実行時の環境変数の扱いが変わるようだ。"
 image = "/images/attention/tools.png"
 tags  = [ "tools", "nyagos", "shell", "windows" ]
@@ -68,6 +68,33 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 これを `false` にすれば従来どおり `source` コマンドのみで環境変数を変更できる。
 ホームディレクトリの `.nyagos` に追記しておけばいいだろう。
 {{% /div-box %}}
+
+## 【追記 2018-04-18】 [NYAGOS] 4.2.5_1 がリリース
+
+- [Release 4.2.5_1 · zetamatta/nyagos](https://github.com/zetamatta/nyagos/releases/tag/4.2.5_1)
+
+不具合の修正のみ。
+
+{{% fig-quote title="Release 4.2.5_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.2.5_1" lang="en" %}}
+
+- Fix: `if [not] errorlevel N` did not work on block-if.
+- Fix: that `ls -1F` did not show the indicator such as `/`,`*` or `@`.
+- Fix: the problem that executables reparse-pointed but not symbolic-linked can not be found. ★
+- Fix: `ls -F` marked '`@`' to files and directories which ar reparse-pointed but not symbolic-link nor junction
+- Changed the error message when the command history is called in `_nyagos`
+
+★ This is the reason that executables in OneDrive can not be called.
+
+----
+
+- ブロックif で `if [not] errorlevel N` が動かなかった不具合を修正
+- リパースポイント先の実行ファイルが見付からなくなっている問題を修正（※）
+- `ls -1F` が `/`,`*` や `@` といったインジケーターを出力しない問題を修正
+- `ls -F` が「リパースポイントではあるが、ジャンクション、シンボリックリンクでないファイル・ディレクトリ」に `@` マークをつけていた不具合を修正
+- `_nyagos` で history コマンドを使った時のエラーメッセージを変更
+
+（※ OneDrive の下においた実行ファイルが実行できなくなる問題の原因がコレです）
+{{% /fig-quote %}}
 
 ## 【付録】 環境変数の汚染を防ぐには
 
