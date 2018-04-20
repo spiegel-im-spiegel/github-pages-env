@@ -1,10 +1,10 @@
 +++
 title = "モンティ・ホール問題で遊ぶ"
-date =  "2018-04-19T12:58:37+09:00"
+date = "2018-04-20T10:31:29+09:00"
+update = "2018-04-21T02:39:30+09:00"
 description = "「モンティ・ホール問題」は確かに直感に反するが，こうやって具体的なコードで記述していくと「何故そうなるのか」が何となく分かってくる。"
 image = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Monty_open_door_chances.svg/590px-Monty_open_door_chances.svg.png"
 tags = [ "math", "games", "golang", "programming" ]
-draft = true
 
 [author]
   name      = "Spiegel"
@@ -47,9 +47,9 @@ draft = true
 
 {{< fig-img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Monty_open_door_chances.svg/590px-Monty_open_door_chances.svg.png" title="Monty open door chances.svg - Wikimedia Commons" link="https://commons.wikimedia.org/wiki/File:Monty_open_door_chances.svg" width="590" >}}
 
-「モンティ・ホール問題」は直感と論理との乖離の好例として挙げられることが多く，また簡単な確率シミュレーションとしてプログラミングの演習問題として使われることもあるようだ。
+「モンティ・ホール問題」は直感と論理との乖離を示す好例として挙げられることが多く，また簡単な確率シミュレーションとしてプログラミングの演習問題に使われることもあるようだ。
 
-というわけで「モンティ・ホール問題」を実行するコードを [Go 言語]で組んでみよう（[Go 言語]で書くことに特に意味はない。好きな言語で書けばいいだろう）。
+というわけで「モンティ・ホール問題」をシミュレートするコードを [Go 言語]で組んでみよう（[Go 言語]で書くことに特に意味はない。皆さんはお好きな言語でどうぞ）。
 
 ```go
 package main
@@ -95,10 +95,11 @@ func main() {
 }
 ```
 
-[Go 言語]的に面白いトピックはないのでコードの詳細は省くが，ざっくり説明すると `selectDoor()` 関数は（疑似乱数を使って）ドアを選択する関数で選択したドアを channel で返す。
+[Go 言語]的に面白いトピックはないので詳細は省くが，ざっくり説明すると `selectDoor()` 関数は（疑似乱数を使って）ドアを選択する関数で選択したドアを指定回数だけ channel で返す。
 `challenges()` 関数は「モンティ・ホール問題」を指定回数だけ試行するもので，当たりの回数を返している。
-変数 `doors` がプレイヤーが選択するドアで，当たりが `true` になる。
-for-range 文の中身が実際に「モンティ・ホール問題」を試行している部分で
+ドアを変更するか否かは引数 `shuldChange` で指定する。
+変数 `doors` がプレイヤーが選択するドアで，当たりが `true` に相当する。
+for-range 構文の中身が実際に「モンティ・ホール問題」を試行している部分で
 
 ```go
 for n := range ch {
@@ -136,7 +137,7 @@ nochange: 0.3464
 応用として $n$ 個のドアで「モンティ・ホール問題」を検証してみよう。
 ルールはこんな感じ。
 
-1. プレイヤーの前に閉まった $n$ 個のドアがある。当たりのドアは $1$ つ。残り $n-1$ 個ははずれ
+1. プレイヤーの前に閉まった $n$ 個のドアがある（$n \ge 3$）。当たりのドアは $1$ つ。残り $n-1$ 個ははずれ
 2. プレイヤーが $1$ つのドアを選択
 3. 司会者が残りのドアのうち $n-2$ 個のはずれドアを開ける
 4. プレイヤーは最初に選んだドアを変更してもよい
@@ -145,7 +146,7 @@ nochange: 0.3464
 
 ```go
 func challenges(shuldChange bool, dct, max int) int {
-    doors := make([]bool, dct, dct) //initilized by false
+    doors := make([]bool, dct, dct) //initialized by false
     doors[0] = true
     ch := selectDoor(len(doors), max)
     count := 0
