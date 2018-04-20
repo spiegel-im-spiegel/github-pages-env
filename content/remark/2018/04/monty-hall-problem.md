@@ -1,10 +1,10 @@
 +++
 title = "モンティ・ホール問題で遊ぶ"
 date = "2018-04-20T10:31:29+09:00"
-update = "2018-04-21T02:39:30+09:00"
+update = "2018-04-21T03:44:59+09:00"
 description = "「モンティ・ホール問題」は確かに直感に反するが，こうやって具体的なコードで記述していくと「何故そうなるのか」が何となく分かってくる。"
 image = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Monty_open_door_chances.svg/590px-Monty_open_door_chances.svg.png"
-tags = [ "math", "games", "golang", "programming" ]
+tags = [ "math", "games", "golang", "programming", "floating-point" ]
 
 [author]
   name      = "Spiegel"
@@ -182,7 +182,30 @@ nochange: 0.0114
 何故こういう値になるか考えてみませう。
 簡単だよね。
 
+## おまけ2：有理数表現
+
+[Go 言語]では [math/big] パッケージを使った有理数表現 [`big`]`.Rat` が使える。
+これを使って `main()` 関数を書き直すと
+
+```go
+func main() {
+    dct := 3
+    max := 10000
+    fmt.Println("nochange:", big.NewRat(int64(challenges(false, dct, max)), int64(max)).FloatString(4))
+    fmt.Println("  change:", big.NewRat(int64(challenges(true, dct, max)), int64(max)).FloatString(4))
+}
+```
+
+てな感じになる。
+[math/big] パッケージを使うと，計算コストは高くなるが，[浮動小数点数型特有の計算誤差]({{< relref "golang/loop-counter.md" >}} "1を1億回足して1億にならない場合")を緩和できるメリットがある。
+まぁ，今回はあんまり関係ないけどね。
+
+おおっ。
+なんか [Go 言語] っぽい（笑）
+
 [Go 言語]: https://golang.org/ "The Go Programming Language"
+[math/big]: https://golang.org/pkg/math/big/ "big - The Go Programming Language"
+[`big`]: https://golang.org/pkg/math/big/ "big - The Go Programming Language"
 
 ## 参考図書
 

@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math/big"
 	"math/rand"
 	"time"
 )
@@ -19,7 +20,7 @@ func selectDoor(limit, max int) <-chan int {
 }
 
 func challenges(shuldChange bool, dct, max int) int {
-	doors := make([]bool, dct, dct) //initilized by false
+	doors := make([]bool, dct, dct) //initialized by false
 	doors[0] = true
 	ch := selectDoor(len(doors), max)
 	count := 0
@@ -38,6 +39,6 @@ func challenges(shuldChange bool, dct, max int) int {
 func main() {
 	dct := 100
 	max := 100000
-	fmt.Println("nochange:", float64(challenges(false, dct, max))/float64(max))
-	fmt.Println("  change:", float64(challenges(true, dct, max))/float64(max))
+	fmt.Println("nochange:", big.NewRat(int64(challenges(false, dct, max)), int64(max)).FloatString(6))
+	fmt.Println("  change:", big.NewRat(int64(challenges(true, dct, max)), int64(max)).FloatString(6))
 }
