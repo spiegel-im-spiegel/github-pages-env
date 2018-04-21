@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-04-18T21:05:35+09:00"
+update = "2018-04-21T20:07:34+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -614,6 +614,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Big Sky :: Golang と Vue.js で簡単なアプリケーションを作ってみた。](https://mattn.kaoriya.net/software/lang/go/20180330093346.htm)
 - [【echo】ファイルのアップロード方法で詰まった話 - Qiita](https://qiita.com/witchy/items/85768165eb1038e045ec)
 - [いつの間にか go の http/net が renegotiation に対応していた話 - Qiita](https://qiita.com/yossy6954/items/a0afd2e1082d2f0cafa3)
+- [Big Sky :: golang の html/template でレイアウトを扱う方法](https://mattn.kaoriya.net/software/lang/go/20180418222903.htm)
 
 ## 他サービスとの連携
 

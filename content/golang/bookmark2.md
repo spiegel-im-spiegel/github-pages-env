@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T23:59:59+09:00"
-update = "2018-04-18T21:05:35+09:00"
+update = "2018-04-21T20:07:34+09:00"
 description = "「Go 言語に関するブックマーク」に整理しきれない未整理分。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -120,3 +120,4 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [Linuxのユーザーランドをinitから全てまるごとgolangで書く - Qiita](https://qiita.com/tetsu_koba/items/aa2d245a61db98299a89)
 - [Go言語でAWKを作ってみました - Qiita](https://qiita.com/hideshi/items/3280ae6616319a78c8e3)
 - [パズルゲームをGoで作ってみる - Qiita](https://qiita.com/secondarykey/items/2a5bbd35a98153e1b72f)
+- [Goでゼロからニューラルネットワークを組んでみた - Qiita](https://qiita.com/shotasakamoto/items/97c17f37c152bb83c654)
