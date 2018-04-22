@@ -1,6 +1,7 @@
 +++
 title = "GnuPG 2.2.6 がリリース"
 date = "2018-04-11T20:13:15+09:00"
+update = "2018-04-22T18:15:40+09:00"
 description = "今回もセキュリティ・アップデートはなし。"
 image = "/images/attention/tools.png"
 tags = [
@@ -79,11 +80,27 @@ Home: ********
 
 アップデートは計画的に。
 
+## 追記 2018-04-22
+
+Windows プラットフォーム用 GnuPG 環境である [Gpg4win] の 3.1.0 もリリースされた。
+
+- [[Gpg4win-users-en] [Gpg4win-announce] Gpg4win 3.1.0 released](http://lists.wald.intevation.org/pipermail/gpg4win-users-en/2018-April/001486.html)
+- [English README file for Gpg4win](https://files.gpg4win.org/README-3.1.0.en.txt)
+
+[Gpg4win] 3.1.0 の構成は以下の通り。
+
+- GnuPG:          2.2.6
+- Kleopatra:      3.1.0
+- GPA:            0.9.10
+- GpgOL:          2.1.0
+- GpgEX:          1.0.6
+
 ## ブックマーク
 
 - [OpenPGP の実装](/openpgp/)
 
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
+[Gpg4win]: https://www.gpg4win.org/ "Gpg4win - Secure email and file encryption with GnuPG for Windows"
 
 ## 参考図書
 
