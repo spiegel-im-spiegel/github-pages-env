@@ -46,11 +46,13 @@
 
 ## 天文関連
 
+- [はやぶさ2、リュウグウまで約26万km　6月21日〜7月5日に到着予定 | sorae：宇宙（そら）へのポータルサイト](https://sorae.info/10/2018_04_19_haya.html)
 
 ## 知財関連
 
 
 ## その他
 
+- [暗号化の「殿堂」ジマーマン氏、スイス発仮想通貨の開発に参画 - SWI swissinfo.ch](https://www.swissinfo.ch/jpn/business/44062770)
 
 <!-- eof -->
