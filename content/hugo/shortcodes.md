@@ -76,7 +76,7 @@ See the full <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibi
 {{< fig-quote title="Compatible Licenses - Creative Commons" link="https://creativecommons.org/compatiblelicenses" lang="en" >}}
 <q>The <a href="https://www.gnu.org/copyleft/gpl.html">GNU General Public License version 3 </a> was declared a <q>BY-SA–Compatible License</q> for version 4.0 on 8 October 2015.
 Note that compatibility with the GPLv3 is one-way only, which means you may license your contributions to adaptations of BY-SA 4.0 materials under GPLv3, but you may not license your contributions to adaptations of GPLv3 projects under BY-SA 4.0.
-Other <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3#Considerations_for_adapters_applying_the_GPLv3" target="_blank">special considerations</a> apply.
+Other <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3#Considerations_for_adapters_applying_the_GPLv3">special considerations</a> apply.
 See the full <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3">analysis</a> and <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibility_analysis:_GPL">comparison</a> for more information.</q>
 {{< /fig-quote >}}
 
