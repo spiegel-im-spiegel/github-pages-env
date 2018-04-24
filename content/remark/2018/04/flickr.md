@@ -1,7 +1,7 @@
 +++
 title = "ようやく Yahoo! の呪いから抜け出せる Flickr"
 date = "2018-04-22T10:12:41+09:00"
-update = "2018-04-24T13:29:47+09:00"
+update = "2018-04-24T19:34:17+09:00"
 description = "今更 Flickr が以前の勢いを取り戻せるか分からないが， Verizon/Oath にいたら間違いなく殺されるし，少なくとも Yahoo! アカウントとおさらばできるのだ。"
 image = "https://farm1.staticflickr.com/6/7444837_9f0e5aa6d6_o.jpg"
 tags        = [ "photography", "flickr" ]
@@ -71,6 +71,7 @@ Yahoo! 買収自体は悪いことではない。
 {{< /fig-quote >}}
 
 今後も [Flickr] に残り続けるか否か，規約をよく読んで決定してほしい。
-私は残るけどね。
+ザッと読んだ感じ，今より悪くなることはないような気がするけど。
+でも Pro アカウントの人はよく読んでおいたほうがいいかも。
 
 [Flickr]: https://www.flickr.com/
