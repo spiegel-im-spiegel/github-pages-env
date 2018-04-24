@@ -1,7 +1,7 @@
 +++
 title = "ようやく Yahoo! の呪いから抜け出せる Flickr"
 date = "2018-04-22T10:12:41+09:00"
-update = "2018-04-24T19:34:17+09:00"
+update = "2018-04-24T20:10:27+09:00"
 description = "今更 Flickr が以前の勢いを取り戻せるか分からないが， Verizon/Oath にいたら間違いなく殺されるし，少なくとも Yahoo! アカウントとおさらばできるのだ。"
 image = "https://farm1.staticflickr.com/6/7444837_9f0e5aa6d6_o.jpg"
 tags        = [ "photography", "flickr" ]
@@ -31,6 +31,7 @@ tags        = [ "photography", "flickr" ]
 - [Flickr agrees to be acquired by SmugMug – Q&A | Flickr Blog](https://blog.flickr.net/en/2018/04/20/together-smugmug-flickr-faq/)
 - [Verizon/Oath傘下だったFlickrをSmugMugが買収、写真サイトとしてのFlickrは存続  |  TechCrunch Japan](https://jp.techcrunch.com/2018/04/21/2018-04-20-smugmug-acquires-flickr/)
 - [写真共有のFlickrをOathがSmugmugに売却、当面は現状維持 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1804/22/news014.html)
+- [写真共有サービス“SmugMug”、同業の“Flickr”をVerizon/Oathから買収 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1118508.html)
 
 [Flickr] の不幸は間違いなく Yahoo! による買収から始まっている。
 当時 [Flickr] アカウントを Yahoo! アカウントに統合することについてユーザから猛烈な反発があった。

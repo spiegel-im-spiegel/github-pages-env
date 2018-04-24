@@ -40,13 +40,21 @@
 
 ## Age of Trump
 
+- [縮小と変質が進む「国連PKO」に日本はどう取り組むべきか：篠田英朗 | 記事 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43607)
 
 ## セキュリティ関連
 
+- [「FFmpeg 4.0」が公開 ～Windows XPのサポートは終了 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1118452.html)
+- [「Windows 10」のセキュリティ機能を迂回可能？グーグル「Project Zero」が詳細公表 - ZDNet Japan](https://japan.zdnet.com/article/35118149/)
+- [Russia is Banning Telegram - Schneier on Security](https://www.schneier.com/blog/archives/2018/04/russia_is_banni.html)
+- [“Facebook”を利用していないときにも収集される情報とは ～Facebookが解説 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1118690.html)
+- [IEに脆弱性、ゼロデイ攻撃に悪用と指摘 - ZDNet Japan](https://japan.zdnet.com/article/35118231/)
 
 ## 天文関連
 
 - [はやぶさ2、リュウグウまで約26万km　6月21日〜7月5日に到着予定 | sorae：宇宙（そら）へのポータルサイト](https://sorae.info/10/2018_04_19_haya.html)
+- [太陽の巨大爆発に現実味　「スーパーフレア」甚大な被害懸念 (1/3) - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1804/23/news055.html)
+- [ダイヤモンドを含む隕石は消滅した原始惑星の一部 - アストロアーツ](http://www.astroarts.co.jp/article/hl/a/9866_diamond)
 
 ## 知財関連
 
@@ -54,5 +62,17 @@
 ## その他
 
 - [暗号化の「殿堂」ジマーマン氏、スイス発仮想通貨の開発に参画 - SWI swissinfo.ch](https://www.swissinfo.ch/jpn/business/44062770)
+- [「漫画村」月間売上は6000万前後、利用者データを販売？　サイトブロッキングシンポで調査結果が発表される - ねとらぼ](http://nlab.itmedia.co.jp/nl/articles/1804/22/news025.html)
+- [固有表現認識を使って文書を黒塗りする - Qiita](https://qiita.com/Hironsan/items/a5acf1d121926666907b)
+- [「海賊版サイト」ブロッキングで白熱議論　「抽象論だと結論出ない」「いや、避けて通れない」 - 弁護士ドットコム](https://www.bengo4.com/internet/n_7763/)
+    - [「漫画村」などの海賊版サイトを潰すために出版業界が行ってきたことは？ - 鷹野凌のデジタル出版最前線 - 窓の杜](https://forest.watch.impress.co.jp/docs/bookwatch/digipub/1118474.html)
+- [旭酒造、「獺祭」醸造工程で予測AI活用--AIの有効性と実用化を検証 - ZDNet Japan](https://japan.zdnet.com/article/35118141/)
+- [NTT、海賊版サイトへのブロッキング実施を発表 - ZDNet Japan](https://japan.zdnet.com/article/35118199/)
+    - [ドコモが海賊版サイトのブロッキングを正式発表--ソフトバンクとKDDIは？ - CNET Japan](https://japan.cnet.com/article/35118202/)
+- [会議のない 1 週間で得られた 8 つのメリット](https://navi.dropbox.jp/gains-from-declining-meetings)
+- [Scripting with Java 10 and JShell – Adam B. Goode – Medium](https://medium.com/@adambgoode/-497d6fdbf8b5)
+- [はてなダイアリー to Markdown > v0.1 > sub list対応 - Qiita](https://qiita.com/7of9/items/4e5c586431871e24ad33)
+- [Netflix、自社開発したコンテナマネジメントプラットフォーム「Titus」、オープンソースで公開 － Publickey](http://www.publickey1.jp/blog/18/netflixtitus.html)
+- [#マンガでわかるDocker 〜基本のキ〜 PDFダウンロード版 #技術書典 4｜湊川あい@わかばちゃんと学ぶ本 発売中｜note](https://note.mu/llminatoll/n/n4f419db0effc)
 
 <!-- eof -->
