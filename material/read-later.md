@@ -37,6 +37,7 @@
 
 ## リリース情報
 
+- [Release v0.70.0 · goreleaser/goreleaser · GitHub](https://github.com/goreleaser/goreleaser/releases/tag/v0.70.0)
 
 ## Age of Trump
 
@@ -74,5 +75,7 @@
 - [はてなダイアリー to Markdown > v0.1 > sub list対応 - Qiita](https://qiita.com/7of9/items/4e5c586431871e24ad33)
 - [Netflix、自社開発したコンテナマネジメントプラットフォーム「Titus」、オープンソースで公開 － Publickey](http://www.publickey1.jp/blog/18/netflixtitus.html)
 - [#マンガでわかるDocker 〜基本のキ〜 PDFダウンロード版 #技術書典 4｜湊川あい@わかばちゃんと学ぶ本 発売中｜note](https://note.mu/llminatoll/n/n4f419db0effc)
+- [タイトルでPDFを検索して開くRubyスクリプト](https://snap.textfile.org/20160701151217/)
+- [NTTによるブロッキングの何が許せないのか - Software Transactional Memo](http://kumagi.hatenablog.com/entry/why-ntt-blocking)
 
 <!-- eof -->
