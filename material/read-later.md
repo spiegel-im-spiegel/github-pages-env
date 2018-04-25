@@ -63,19 +63,15 @@
 ## その他
 
 - [暗号化の「殿堂」ジマーマン氏、スイス発仮想通貨の開発に参画 - SWI swissinfo.ch](https://www.swissinfo.ch/jpn/business/44062770)
-- [「漫画村」月間売上は6000万前後、利用者データを販売？　サイトブロッキングシンポで調査結果が発表される - ねとらぼ](http://nlab.itmedia.co.jp/nl/articles/1804/22/news025.html)
 - [固有表現認識を使って文書を黒塗りする - Qiita](https://qiita.com/Hironsan/items/a5acf1d121926666907b)
-- [「海賊版サイト」ブロッキングで白熱議論　「抽象論だと結論出ない」「いや、避けて通れない」 - 弁護士ドットコム](https://www.bengo4.com/internet/n_7763/)
-    - [「漫画村」などの海賊版サイトを潰すために出版業界が行ってきたことは？ - 鷹野凌のデジタル出版最前線 - 窓の杜](https://forest.watch.impress.co.jp/docs/bookwatch/digipub/1118474.html)
 - [旭酒造、「獺祭」醸造工程で予測AI活用--AIの有効性と実用化を検証 - ZDNet Japan](https://japan.zdnet.com/article/35118141/)
-- [NTT、海賊版サイトへのブロッキング実施を発表 - ZDNet Japan](https://japan.zdnet.com/article/35118199/)
-    - [ドコモが海賊版サイトのブロッキングを正式発表--ソフトバンクとKDDIは？ - CNET Japan](https://japan.cnet.com/article/35118202/)
 - [会議のない 1 週間で得られた 8 つのメリット](https://navi.dropbox.jp/gains-from-declining-meetings)
 - [Scripting with Java 10 and JShell – Adam B. Goode – Medium](https://medium.com/@adambgoode/-497d6fdbf8b5)
 - [はてなダイアリー to Markdown > v0.1 > sub list対応 - Qiita](https://qiita.com/7of9/items/4e5c586431871e24ad33)
 - [Netflix、自社開発したコンテナマネジメントプラットフォーム「Titus」、オープンソースで公開 － Publickey](http://www.publickey1.jp/blog/18/netflixtitus.html)
 - [#マンガでわかるDocker 〜基本のキ〜 PDFダウンロード版 #技術書典 4｜湊川あい@わかばちゃんと学ぶ本 発売中｜note](https://note.mu/llminatoll/n/n4f419db0effc)
 - [タイトルでPDFを検索して開くRubyスクリプト](https://snap.textfile.org/20160701151217/)
-- [NTTによるブロッキングの何が許せないのか - Software Transactional Memo](http://kumagi.hatenablog.com/entry/why-ntt-blocking)
+- [「漫画村」月間売上は6000万前後、利用者データを販売？　サイトブロッキングシンポで調査結果が発表される - ねとらぼ](http://nlab.itmedia.co.jp/nl/articles/1804/22/news025.html)
+    - 「漫画村」の売上は，コンテンツに無関係な広告やユーザ・データの販売に依る点に注意。つまり「漫画村」がなかったとしても「月間売上6000万」が作家や出版社に入るわけではない。広告は「注目の搾取」であり注目をお金に変える手法である。そこで何が行われているかには関係がないのだ
 
 <!-- eof -->
