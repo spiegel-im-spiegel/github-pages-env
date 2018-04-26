@@ -1,7 +1,7 @@
 +++
 title = "MinGW-w64 を導入する"
 date = "2018-03-31T17:40:56+09:00"
-update = "2018-03-31T21:12:23+09:00"
+update = "2018-04-26T09:13:34+09:00"
 description = "MinGW-w64 は Windows 用のバイナリを出力可能な GCC を含む開発環境を提供している。もちろん Windows 用のバイナリも存在する。"
 image = "/images/attention/kitten.jpg"
 tags = ["mingw", "gcc", "tools", "windows"]
@@ -48,7 +48,7 @@ tags = ["mingw", "gcc", "tools", "windows"]
 - *Version* : [GCC] のバージョン。特に理由がない限り最新版でいいだろう（2018-03-31 時点の最新は 7.3.0）
 - *Architecture* : ターゲットシステムのアーキテクチャ。 `i686` か `x86_64` のいずれかを選択する。 `x86_64` が64ビット版なのでご注意を
 - *Thread* : スレッドモデル。 `posix` か `win32` のいずれかを選択する。 `win32` は Windows ネイティブ関数を使っていて速いのだが C++ 11 以降の thread, mutex, future が使えなくなる。特に理由がないのであれば `posix` でいいだろう
-- *Exeption* : 例外処理ハンドリング。アーキテクチャによって以下を選択できる。
+- *Exception* : 例外処理ハンドリング。アーキテクチャによって以下を選択できる。
     - `i686`
         - `dwarf` : [DWARF](http://ja.wikipedia.org/wiki/DWARF)
         - `sjlj` : SetJump/LongJump
