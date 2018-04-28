@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-04-21T20:07:34+09:00"
+update = "2018-04-28T18:00:54+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -446,6 +446,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [go 1.5でgomobile(android) - unokun’s blog](http://unokun.hatenablog.jp/entry/2015/08/01/150628)
 - [gomobileでiOSアプリをビルドする手順まとめ - GolangRdyJp](http://golang.rdy.jp/2015/09/21/ios-gomobile/)
 - [gomobileで日本語フォントを扱ってみる - Qiita](http://qiita.com/bowz_standard/items/5a9c987f9242777fff30)
+- [GoでBenchmarking Raspberry Pi Zero W GPIO Speed - Qiita](https://qiita.com/WaToI/items/16938a611f7c026c477d)
 
 ### ビルド時に情報を各種埋め込みたい
 
@@ -749,6 +750,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [6年間におけるGoのベストプラクティス | プログラミング | POSTD](http://postd.cc/go-best-practices-2016/)
 - [Go言語のFunctional Option Pattern - Qiita](http://qiita.com/weloan/items/56f1c7792088b5ede136)
 - [Big Sky :: Golang で物理ファイルの操作に path/filepath でなく path を使うと爆発します。](https://mattn.kaoriya.net/software/lang/go/20171024130616.htm) : URL の操作には `http.ServeFile` を使うとかあるらしい
+- [golang の 引数、戻り値、レシーバをポインタにすべきか、値にすべきかの判断基準について迷っている - pospomeのプログラミング日記](http://pospome.hatenablog.com/entry/2017/08/12/195032) : ケースバイケースだよねぇ。もしくはプロジェクトごとにポリシーを決めるか
 
 ## 参考図書
 

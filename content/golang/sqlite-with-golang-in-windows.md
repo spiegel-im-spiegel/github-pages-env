@@ -1,6 +1,7 @@
 +++
 title = "Go 言語で SQLite を使う（Windows 向けの紹介）"
 date = "2018-03-31T21:12:23+09:00"
+update = "2018-04-28T18:00:54+09:00"
 description = "今回はパッケージの紹介のみ。つか，Windows で cgo を使うための覚え書きのようなものか。"
 image = "/images/attention/go-code2.png"
 tags  = [ "golang", "package", "sqlite", "gcc", "windows" ]
@@ -80,6 +81,7 @@ $ go run simple.go
 
 - [DB Browser for SQLite](http://sqlitebrowser.org/)
     - [「DB Browser for SQLite」“SQLite”のデータベースを管理できるソフト - 窓の杜ライブラリ](https://forest.watch.impress.co.jp/library/software/sqldbbrowser/)
+- [SQLiteのVACUUMメモ | Siguniang's Blog](https://siguniang.wordpress.com/2012/11/10/notes-on-sqlite-vacuum/) : pragma を使って自動で vacuum できるらしい
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [SQLite]: https://www.sqlite.org/

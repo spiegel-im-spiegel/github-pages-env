@@ -1,6 +1,7 @@
 +++
 title = "Hugo v0.40 がリリース"
 date = "2018-04-23T21:45:35+09:00"
+update = "2018-04-28T16:56:12+09:00"
 description = "ちうわけで，マジお疲れ様です。"
 image = "/images/attention/tools.png"
 tags  = [ "tools", "hugo" ]
@@ -42,6 +43,16 @@ tags  = [ "tools", "hugo" ]
 {{% /fig-quote %}}
 
 アップデートは計画的に。
+
+## 【追記 2018-04-28】 [Hugo] v0.40.1 がリリース
+
+不具合修正版。
+
+{{< fig-quote title="Release v0.40.1 · gohugoio/hugo" link="https://github.com/gohugoio/hugo/releases/tag/v0.40.1" lang="en" >}}
+<q>This release fixes some shortcode vs `.Content` corner cases introduced in Hugo 0.40</q>
+{{< /fig-quote >}}
+
+だそうな。
 
 ## ブックマーク
 

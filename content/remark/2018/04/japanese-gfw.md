@@ -1,6 +1,7 @@
 +++
 title = "日本版「グレート・ファイアウォール」に関するブックマーク集"
 date = "2018-04-25T16:12:41+09:00"
+update = "2018-04-28T18:00:54+09:00"
 description = "情報収集しつつ個人でどこまで武装できるか，これから少しずつ考えていくことにする。"
 image = "/images/attention/kitten.jpg"
 tags = [ "censorship", "internet", "code", "law", "politics" ]
@@ -91,6 +92,7 @@ tags = [ "censorship", "internet", "code", "law", "politics" ]
 - [「海賊版サイト」ブロッキングで白熱議論　「抽象論だと結論出ない」「いや、避けて通れない」 - 弁護士ドットコム](https://www.bengo4.com/internet/n_7763/)
 - [「漫画村」などの海賊版サイトを潰すために出版業界が行ってきたことは？ - 鷹野凌のデジタル出版最前線 - 窓の杜](https://forest.watch.impress.co.jp/docs/bookwatch/digipub/1118474.html)
 - [NTTによるブロッキングの何が許せないのか - Software Transactional Memo](http://kumagi.hatenablog.com/entry/why-ntt-blocking)
+- [海賊版サイトブロッキングに関する質問趣意書に「内容のない回答」をする日本政府 – P2Pとかその辺のお話R](http://p2ptk.org/copyright/887)
 
 ## 参考図書
 

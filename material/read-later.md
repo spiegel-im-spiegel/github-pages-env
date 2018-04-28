@@ -22,6 +22,13 @@
 - [Golang: 文字列のバイト数と文字数を数える - Sarabande.jp](http://blog.sarabande.jp/post/61104546593)
     - [人名や地名に含まれる異体字を壊さないようにするために grapheme_substr もしくは grapheme_extract を使う -  Qiita](https://qiita.com/masakielastic/items/cb3a9ebd7a03a01c0709)
 
+- [GitHub - govert/SQLiteForExcel: A lightweight wrapper to give access to the SQLite3 library from VBA.](https://github.com/govert/SQLiteForExcel)
+    - [ExcelからSQLiteを使う方法 | Gabekore Garage](https://gabekore.org/sqlite-for-excel-vba)
+    - [SQLite for Excel | crossframe](http://crossframe.iiv.jp/201603051181/)
+- [Datatypes In SQLite Version 3](http://www.sqlite.org/datatype3.html)
+
+- [Go's New Brand - The Go Blog](https://blog.golang.org/go-brand)
+
 ### Autocrypt について
 
 - [Autocrypt 1.0.0 documentation](https://autocrypt.org/)
@@ -39,6 +46,10 @@
 
 - [Release v0.70.0 · goreleaser/goreleaser · GitHub](https://github.com/goreleaser/goreleaser/releases/tag/v0.70.0)
 
+- [Release Version 2.51.01 · gitextensions/gitextensions · GitHub](https://github.com/gitextensions/gitextensions/releases/tag/v2.51.01)
+- [nyagos で lua53.dll のかわりに GopherLua を使おう - Qiita](https://qiita.com/zetamatta/items/112484eb7fdae87830a0) : 楽しみ
+- [Google、“Gmail”の大規模アップデートを実施 ～本日から新デザインに切り替え可能 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1119246.html)
+
 ## Age of Trump
 
 - [縮小と変質が進む「国連PKO」に日本はどう取り組むべきか：篠田英朗 | 記事 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43607)
@@ -50,6 +61,10 @@
 - [Russia is Banning Telegram - Schneier on Security](https://www.schneier.com/blog/archives/2018/04/russia_is_banni.html)
 - [“Facebook”を利用していないときにも収集される情報とは ～Facebookが解説 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1118690.html)
 - [IEに脆弱性、ゼロデイ攻撃に悪用と指摘 - ZDNet Japan](https://japan.zdnet.com/article/35118231/)
+
+- [Drupal の脆弱性対策について(CVE-2018-7602)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20180426-drupal.html)
+    - [Drupal の脆弱性 (CVE-2018-7602) に関する注意喚起](http://www.jpcert.or.jp/at/2018/at180019.html)
+- [GhostMinerの感染拡大 – wizSafe Security Signal -安心・安全への道標- IIJ](https://wizsafe.iij.ad.jp/2018/04/323/)
 
 ## 天文関連
 
@@ -73,5 +88,12 @@
 - [タイトルでPDFを検索して開くRubyスクリプト](https://snap.textfile.org/20160701151217/)
 - [「漫画村」月間売上は6000万前後、利用者データを販売？　サイトブロッキングシンポで調査結果が発表される - ねとらぼ](http://nlab.itmedia.co.jp/nl/articles/1804/22/news025.html)
     - 「漫画村」の売上は，コンテンツに無関係な広告やユーザ・データの販売に依る点に注意。つまり「漫画村」がなかったとしても「月間売上6000万」が作家や出版社に入るわけではない。広告は「注目の搾取」であり注目をお金に変える手法である。そこで何が行われているかには関係がないのだ
+
+- [クラウドネイティブなJavaの実現にフォーカス、「Jakarta EE」をEclipse Foundationが正式にスタート － Publickey](http://www.publickey1.jp/blog/18/javajakarta_eeeclipse_foundation.html)
+- [家庭用ルーターGoogle Wifi日本版が26日発売。複数台連携前提で小型化した高性能機 - Engadget 日本版](https://japanese.engadget.com/2018/04/25/google-wifi-26/)
+- [新しいLTEドライバーで性能と信頼性が向上 ～「Windows 10 RS5」Build 17655が公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1119252.html)
+- [faviconを動的に変更する - Qiita](https://qiita.com/mo4_9/items/f089cbb547eff7792a78)
+- [PowerShell で Excel をどうのこうのすることに興味を持ってくれると嬉しい - Qiita](https://qiita.com/miyamiya/items/161372111b68bad0744a)
+- [「漫画村、刑事告訴している」　講談社が明らかに　これまで採った対策は (1/2) - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1804/27/news117.html)
 
 <!-- eof -->
