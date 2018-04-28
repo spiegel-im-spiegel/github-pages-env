@@ -8,7 +8,7 @@
 <meta property="og:description" content="{{ .Description }}">{{ else }}
 <meta name="description" content="Go 言語に関する話題。">
 <meta property="og:description" content="Go 言語に関する話題。">{{ end }}
-<meta property="og:image" content="{{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ "/images/attention/go-code.png" | absURL }}{{ end }}">
+<meta property="og:image" content="{{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ "/images/attention/go-logo_blue.png" | absURL }}{{ end }}">
 {{ partial "twitter-card.html" . }}{{ with .Params.author }}{{ if .name }}
 <meta name="author" content="{{ .name }}">{{ end }}{{ end }}
 {{ partial "header-nav.html" . }}

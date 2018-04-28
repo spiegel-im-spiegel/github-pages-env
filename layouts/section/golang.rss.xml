@@ -6,7 +6,7 @@
 	<updated>{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</updated>
 	<subtitle>Go 言語プログラミングに関する話題。</subtitle>
 	{{ if .Site.Author.avatar }}<icon>{{ .Site.Author.avatar | absURL }}</icon>{{ end }}
-	<logo>{{ "/images/attention/go-code.png" | absURL }}</logo>
+	<logo>{{ "/images/attention/go-logo_blue.png" | absURL }}</logo>
 	<generator uri="https://gohugo.io/">Hugo {{ .Hugo.Version }}</generator>
 
 	{{ range first 10 .Data.Pages }}
