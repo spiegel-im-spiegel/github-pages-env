@@ -1,10 +1,9 @@
 +++
 title = "Go 1.10.2 および 1.9.6 がリリース"
-date =  "2018-05-07T10:16:34+09:00"
+date = "2018-05-07T19:24:19+09:00"
 description = "セキュリティアップデートではないが，結構こまかく変わってるみたいなので，早めのアップデートを推奨かな。"
 image = "/images/attention/tools.png"
 tags  = [ "programming", "language", "golang", "engineering" ]
-draft = true
 
 [author]
   name      = "Spiegel"

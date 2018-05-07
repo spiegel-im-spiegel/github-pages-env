@@ -1,9 +1,9 @@
 +++
 date = "2016-03-01T22:02:47+09:00"
-update = "2018-03-31T17:40:56+09:00"
+update = "2018-05-07T22:22:52+09:00"
 description = "前回で gcc を導入できたので，実際にビルドを試してみる。今回はターゲットとして pgpdump を用いる。"
 draft = false
-tags = ["msys2", "mingw", "gcc", "tools", "windows"]
+tags = ["msys2", "mingw", "gcc", "tools", "windows", "pgpdump"]
 title = "MSYS2 による gcc 開発環境の構築 ― pgpdump をビルドする"
 
 [author]

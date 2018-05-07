@@ -1,6 +1,6 @@
 +++
 title = "GnuPG 2.2.7 がリリース"
-date =  "2018-05-07T09:27:47+09:00"
+date = "2018-05-07T19:25:25+09:00"
 description = "今回もセキュリティ・アップデートはなし。"
 image = "/images/attention/tools.png"
 tags = [
@@ -10,7 +10,6 @@ tags = [
   "openpgp",
   "gnupg",
 ]
-draft = true
 
 [author]
   name      = "Spiegel"

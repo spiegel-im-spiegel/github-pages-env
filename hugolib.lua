@@ -26,7 +26,7 @@ hugolib.release = function(path)
 		table.insert(lines, line)
 	end
 
-	local writer, errmsg, errno = io.open(hugopath, "w+b")
+	local writer, errmsg, errno = io.open(hugopath, "wb+")
 	if writer == nil then return errno, errmsg end
 	local datestr = "date = \""..os.date("%Y-%m-%dT%H:%M:%S+09:00").."\"\n" -- JST only
 	local tomlFlag = false
