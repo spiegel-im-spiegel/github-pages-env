@@ -1,10 +1,10 @@
 +++
-title = "Go 1.10.1 and 1.9.5 are Released"
-date = "2018-03-31T15:04:22+09:00"
-update = "2018-04-18T21:46:21+09:00"
-description = "アップデートは計画的に。"
+title = "Go 1.10.2 および 1.9.6 がリリース"
+date =  "2018-05-07T10:16:34+09:00"
+description = "セキュリティアップデートではないが，結構こまかく変わってるみたいなので，早めのアップデートを推奨かな。"
 image = "/images/attention/tools.png"
 tags  = [ "programming", "language", "golang", "engineering" ]
+draft = true
 
 [author]
   name      = "Spiegel"
@@ -25,17 +25,16 @@ tags  = [ "programming", "language", "golang", "engineering" ]
   mermaidjs = false
 +++
 
-うおっ，見逃してた。
-[Go 言語]コンパイラの 1.10.1 と 1.9.5 がリリースされている。
+[Go 言語]コンパイラの 1.10.2 と 1.9.6 がリリースされている。
 
-- [Go 1.10.1 and Go 1.9.5 are released - Google Group](https://groups.google.com/forum/#!topic/golang-announce/IkPkOF8JqLs)
-    - [Go 1.10.1 milestone](https://github.com/golang/go/issues?q=milestone%3AGo1.10.1)
+- [Go 1.10.2 and Go 1.9.6 are released - Google Group](https://groups.google.com/forum/#!topic/golang-announce/qXEbop4t-Wg)
+    - [Go 1.10.2 milestone](https://github.com/golang/go/issues?q=milestone%3AGo1.10.2)
 
-{{< fig-quote title="Go 1.10.1 and Go 1.9.5 are released" link="https://groups.google.com/forum/#!topic/golang-announce/IkPkOF8JqLs" lang="en" >}}
-<q>These releases include fixes to the compiler, runtime, go command, and the archive/zip, crypto/tls, crypto/x509, encoding/json, net, net/http, and net/http/pprof packages.</q>
+{{< fig-quote title="Go 1.10.2 and Go 1.9.6 are released" link="https://groups.google.com/forum/#!topic/golang-announce/qXEbop4t-Wg" lang="en" >}}
+<q>These releases include fixes to the compiler, linker, and go command.</q>
 {{< /fig-quote >}}
 
-ちうわけで，上記のパッケージに心当たりのある方は早めのアップデートを。
+セキュリティアップデートではないが，結構こまかく変わってるみたいなので，早めのアップデートを推奨かな。
 
 アップデートは計画的に。
 
