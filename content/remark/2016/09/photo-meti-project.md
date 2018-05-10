@@ -39,7 +39,7 @@ PC のブラウザで見たときだけヘボいのか[^h]）
 
 ## CC Licenses へのハイパーリンクがない
 
-どうやら [PHOTO METI PROJECT] の写真素材は CC Licenses の「表示 <i class="cc cc-by"></i>」条件で公開されるようである。
+どうやら [PHOTO METI PROJECT] の写真素材は CC Licenses の「表示 <i class="fab fa-creative-commons-by"></i>」条件で公開されるようである。
 が，ライセンス内容へのリンク（もしくは URI 提示）が一切ない。
 
 - [Creative Commons — Attribution 4.0 International — CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) ([日本語](https://creativecommons.org/licenses/by/4.0/deed.ja "Creative Commons — 表示 4.0 国際 — CC BY 4.0"))
@@ -48,7 +48,7 @@ PC のブラウザで見たときだけヘボいのか[^h]）
 
 ### 追記（2016-10-20）
 
-後日，[利用規約]を見直してみたら，CC Licenses の「表示 <i class="cc cc-by"></i>」条件へのハイパーリンクが示されていた。
+後日，[利用規約]を見直してみたら，CC Licenses の「表示 <i class="fab fa-creative-commons-by"></i>」条件へのハイパーリンクが示されていた。
 これでこのプロジェクトで提供される写真素材は正しく CC Licenses で提供されることが明白になった。
 
 なお， Version 4.0 International ではクレジット表記について若干縛りが緩くなっている。

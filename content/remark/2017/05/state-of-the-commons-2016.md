@@ -42,10 +42,10 @@ title = "State of the Commons 2016"
 [CC Licenses] の中で，いわゆる [Free Culture Licenses] で許諾されたコンテンツの占める割合は以下の通り。
 
 | [CC Licenses] | 2015年 | 2016年 |
-|---------:|-------:|-------:|
-| [CC0] <i class="cc cc-zero"></i> or [PDM] <i class="cc cc-pd-alt"></i> |  3% |  8% |
-| [BY] <i class="cc cc-cc"></i>&nbsp;<i class="cc cc-by"></i> | 24% |  20% |
-| [BY-SA] <i class="cc cc-cc"></i>&nbsp;<i class="cc cc-by"></i>&nbsp;<i class="cc cc-sa"></i> | 37% |  37% |
+| -------------:| ------:| ------:|
+| [CC0] <i class="fab fa-creative-commons-pd"></i> or [PDM] <i class="fab fa-creative-commons-pd-alt"></i> |     3% |     8% |
+| [BY] <i class="fab fa-creative-commons"></i>&nbsp;<i class="fab fa-creative-commons-by"></i> |    24% |    20% |
+| [BY-SA] <i class="fab fa-creative-commons"></i>&nbsp;<i class="fab fa-creative-commons-by"></i>&nbsp;<i class="fab fa-creative-commons-sa"></i> |    37% |    37% |
 
 依然 [BY-SA] ライセンスの割合が（[CC Licenses] 全体を通して）最大だが， [BY] ライセンスの割合が減少してるのが面白いねぇ。
 [CC Licenses] で許諾されたコンテンツの数は増加（12億突破！）しているので，新たに [BY] で許諾するケースが減ってきているってことかもしれないけど。

@@ -1,6 +1,6 @@
 +++
 date = "2015-11-08T20:10:15+09:00"
-update = "2016-12-15T21:16:25+09:00"
+update = "2018-05-10T22:46:43+09:00"
 description = "今回はいよいよ Creative Commons Licenses について解説する。"
 draft = false
 tags = ["creative-commons", "copyright", "license"]
@@ -93,30 +93,30 @@ title = "Creative Commons Licenses"
 {{< fig-gen >}}
 <table>
 <tbody>
-<tr><th class='left'><i class="cc cc-by cc-2x"></i></th><th class='left'>表示</th><td class='left'>マテリアルの<a href="{{< relref "#attribution" >}}">クレジットを表示</a>すること</td></tr>
-<tr><th class='left'><i class="cc cc-sa cc-2x"></i></th><th class='left'>継承</th><td class='left'>改変したマテリアルについて，元のマテリアルのライセンスと<a href="{{< relref "#compatible" >}}">同等のライセンス</a>で公開すること</td></tr>
-<tr><th class='left'><i class="cc cc-nc cc-2x"></i>
-                     <i class="cc cc-nc-eu cc-2x"></i>
-                     <i class="cc cc-nc-jp cc-2x"></i></th><th class='left'>非営利</th><td class='left'><a href="{{< relref "#non-commercial" >}}">営利目的での利用をしない</a>こと</td></tr>
-<tr><th class='left'><i class="cc cc-nd cc-2x"></i></th><th class='left'>改変禁止</th><td class='left'>元のマテリアルを改変しないこと</td></tr>
+<tr><th class='left'><i class="fab fa-creative-commons-by fa-2x"></i></th><th class='left'>表示</th><td class='left'>マテリアルの<a href="{{< relref "#attribution" >}}">クレジットを表示</a>すること</td></tr>
+<tr><th class='left'><i class="fab fa-creative-commons-sa fa-2x"></i></th><th class='left'>継承</th><td class='left'>改変したマテリアルについて，元のマテリアルのライセンスと<a href="{{< relref "#compatible" >}}">同等のライセンス</a>で公開すること</td></tr>
+<tr><th class='left'><i class="fab fa-creative-commons-nc fa-2x"></i>
+                     <i class="fab fa-creative-commons-nc-eu fa-2x"></i>
+                     <i class="fab fa-creative-commons-nc-jp fa-2x"></i></th><th class='left'>非営利</th><td class='left'><a href="{{< relref "#non-commercial" >}}">営利目的での利用をしない</a>こと</td></tr>
+<tr><th class='left'><i class="fab fa-creative-commons-nd fa-2x"></i></th><th class='left'>改変禁止</th><td class='left'>元のマテリアルを改変しないこと</td></tr>
 </tbody>
 </table>
 {{< /fig-gen >}}
 
-実際には「表示 <i class="cc cc-by"></i>」は必須の条件[^b] になっていて，さらに「継承 <i class="cc cc-sa"></i>」と「改変禁止 <i class="cc cc-nd"></i>」は条件が衝突するため同時に指定できない。
+実際には「表示 <i class="fab fa-creative-commons-by"></i>」は必須の条件[^b] になっていて，さらに「継承 <i class="fab fa-creative-commons-sa"></i>」と「改変禁止 <i class="fab fa-creative-commons-nd"></i>」は条件が衝突するため同時に指定できない。
 結局以下に示す6つの組み合わせのみが有効になる。
 
-[^b]: バージョン1では「表示 <i class="cc cc-by"></i>」は任意だったが，実際には殆どの人が「表示 <i class="cc cc-by"></i>」条件を指定していたため，（ライセンス選択の煩雑さを防ぐ意味もあり）バージョン2以降は必須になった。
+[^b]: バージョン1では「表示 <i class="fab fa-creative-commons-by"></i>」は任意だったが，実際には殆どの人が「表示 <i class="fab fa-creative-commons-by"></i>」条件を指定していたため，（ライセンス選択の煩雑さを防ぐ意味もあり）バージョン2以降は必須になった。
 
 {{< fig-gen >}}
 <table>
 <tbody>
-<tr><th class='left'><i class="cc cc-BY cc-2x"></i>      </th><td class='left'>表示</td></tr>
-<tr><th class='left'><i class="cc cc-by-sa cc-2x"></i>   </th><td class='left'>表示-継承</td></tr>
-<tr><th class='left'><i class="cc cc-by-nc cc-2x"></i>   </th><td class='left'>表示-非営利</td></tr>
-<tr><th class='left'><i class="cc cc-by-nc-sa cc-2x"></i></th><td class='left'>表示-非営利-継承</td></tr>
-<tr><th class='left'><i class="cc cc-by-nd cc-2x"></i>   </th><td class='left'>表示-改変禁止</td></tr>
-<tr><th class='left'><i class="cc cc-by-nc-nd cc-2x"></i></th><td class='left'>表示-非営利-改変禁止</td></tr>
+<tr><th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>      </th><td class='left'>表示</td></tr>
+<tr><th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-sa fa-2x"></i>   </th><td class='left'>表示-継承</td></tr>
+<tr><th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nc fa-2x"></i>   </th><td class='left'>表示-非営利</td></tr>
+<tr><th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nc fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-sa fa-2x"></i></th><td class='left'>表示-非営利-継承</td></tr>
+<tr><th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nd fa-2x"></i>   </th><td class='left'>表示-改変禁止</td></tr>
+<tr><th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nc fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nd fa-2x"></i></th><td class='left'>表示-非営利-改変禁止</td></tr>
 </tbody>
 </table>
 {{< /fig-gen >}}
@@ -130,7 +130,7 @@ title = "Creative Commons Licenses"
         - 著作隣接権に係るマテリアルの場合は録音・録画を含む
     - マテリアルを公表・配布する（上演，演奏，上映，公衆送信等，口述，展示，頒布（映画の著作物のみ），譲渡・貸与（映画の著作物以外））
         - 著作隣接権に係るマテリアルの場合は（有線放送を含む）放送と再放送，伝達，送信可能化を含む
-- **対象となるマテリアルの二次的著作物[^5] を作成，複製および共有すること** （「改変禁止 <i class="cc cc-nd"></i>」条件がない場合）
+- **対象となるマテリアルの二次的著作物[^5] を作成，複製および共有すること** （「改変禁止 <i class="fab fa-creative-commons-nd"></i>」条件がない場合）
     - マテリアルを改変（翻訳・編曲・変形・翻案等）する
     - マテリアルを改変したものを公表・配布する（二次的著作物の利用に関する原著作者の権利の不行使）
 
@@ -162,12 +162,12 @@ title = "Creative Commons Licenses"
 {{< fig-gen title="Creative Commons Licenses Version 4.0 International" >}}
 <table>
 <tbody>
-<tr><th class='left'><i class="cc cc-BY cc-2x"></i>      </th><th class='left'>表示                </th><td><a href="https://creativecommons.org/licenses/by/4.0/">コモンズ証</a>（<a href="https://creativecommons.org/licenses/by/4.0/deed.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by/4.0/legalcode">法的条項</a>（<a href="https://creativecommons.org/licenses/by/4.0/legalcode.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by/4.0/rdf">メタデータ</a></td></tr>
-<tr><th class='left'><i class="cc cc-by-sa cc-2x"></i>   </th><th class='left'>表示-継承           </th><td><a href="https://creativecommons.org/licenses/by-sa/4.0/">コモンズ証</a>（<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">法的条項</a>（<a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-sa/4.0/rdf">メタデータ</a></td></tr>
-<tr><th class='left'><i class="cc cc-by-nc cc-2x"></i>   </th><th class='left'>表示-非営利         </th><td><a href="https://creativecommons.org/licenses/by-nc/4.0/">コモンズ証</a>（<a href="https://creativecommons.org/licenses/by-nc/4.0/deed.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nc/4.0/legalcode">法的条項</a>（<a href="https://creativecommons.org/licenses/by-nc/4.0/legalcode.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nc/4.0/rdf">メタデータ</a></td></tr>
-<tr><th class='left'><i class="cc cc-by-nc-sa cc-2x"></i></th><th class='left'>表示-非営利-継承    </th><td><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">コモンズ証</a>（<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">法的条項</a>（<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/rdf">メタデータ</a></td></tr>
-<tr><th class='left'><i class="cc cc-by-nd cc-2x"></i>   </th><th class='left'>表示-改変禁止       </th><td><a href="https://creativecommons.org/licenses/by-nd/4.0/">コモンズ証</a>（<a href="https://creativecommons.org/licenses/by-nd/4.0/deed.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nd/4.0/legalcode">法的条項</a>（<a href="https://creativecommons.org/licenses/by-nd/4.0/legalcode.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nd/4.0/rdf">メタデータ</a></td></tr>
-<tr><th class='left'><i class="cc cc-by-nc-nd cc-2x"></i></th><th class='left'>表示-非営利-改変禁止</th><td><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">コモンズ証</a>（<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">法的条項</a>（<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>      </th><th class='left'>表示                </th><td><a href="https://creativecommons.org/licenses/by/4.0/">コモンズ証</a>（<a href="https://creativecommons.org/licenses/by/4.0/deed.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by/4.0/legalcode">法的条項</a>（<a href="https://creativecommons.org/licenses/by/4.0/legalcode.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by/4.0/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-sa fa-2x"></i>   </th><th class='left'>表示-継承           </th><td><a href="https://creativecommons.org/licenses/by-sa/4.0/">コモンズ証</a>（<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">法的条項</a>（<a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-sa/4.0/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nc fa-2x"></i>   </th><th class='left'>表示-非営利         </th><td><a href="https://creativecommons.org/licenses/by-nc/4.0/">コモンズ証</a>（<a href="https://creativecommons.org/licenses/by-nc/4.0/deed.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nc/4.0/legalcode">法的条項</a>（<a href="https://creativecommons.org/licenses/by-nc/4.0/legalcode.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nc/4.0/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nc fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-sa fa-2x"></i></th><th class='left'>表示-非営利-継承    </th><td><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">コモンズ証</a>（<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">法的条項</a>（<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nd fa-2x"></i>   </th><th class='left'>表示-改変禁止       </th><td><a href="https://creativecommons.org/licenses/by-nd/4.0/">コモンズ証</a>（<a href="https://creativecommons.org/licenses/by-nd/4.0/deed.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nd/4.0/legalcode">法的条項</a>（<a href="https://creativecommons.org/licenses/by-nd/4.0/legalcode.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nd/4.0/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nc fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nd fa-2x"></i></th><th class='left'>表示-非営利-改変禁止</th><td><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">コモンズ証</a>（<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">法的条項</a>（<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/rdf">メタデータ</a></td></tr>
 </tbody>
 </table>
 {{< /fig-gen >}}
@@ -197,12 +197,12 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 {{< fig-gen title="クリエイティブ・コモンズ・ライセンス バージョン 2.1 日本版" >}}
 <table>
 <tbody>
-<tr><th class='left'><i class="cc cc-BY cc-2x"></i>         </th><th class='left'>表示                </th><td><a href="https://creativecommons.org/licenses/by/2.1/jp/">コモンズ証</a> <a href="https://creativecommons.org/licenses/by/2.1/jp/legalcode">法的条項</a> <a href="https://creativecommons.org/licenses/by/2.1/jp/rdf">メタデータ</a></td></tr>
-<tr><th class='left'><i class="cc cc-by-sa cc-2x"></i>      </th><th class='left'>表示-継承           </th><td><a href="https://creativecommons.org/licenses/by-sa/2.1/jp/">コモンズ証</a> <a href="https://creativecommons.org/licenses/by-sa/2.1/jp/legalcode">法的条項</a> <a href="https://creativecommons.org/licenses/by-sa/2.1/jp/rdf">メタデータ</a></td></tr>
-<tr><th class='left'><i class="cc cc-by-nc-jp cc-2x"></i>   </th><th class='left'>表示-非営利         </th><td><a href="https://creativecommons.org/licenses/by-nc/2.1/jp/">コモンズ証</a> <a href="https://creativecommons.org/licenses/by-nc/2.1/jp/legalcode">法的条項</a> <a href="https://creativecommons.org/licenses/by-nc/2.1/jp/rdf">メタデータ</a></td></tr>
-<tr><th class='left'><i class="cc cc-by-nc-sa-jp cc-2x"></i></th><th class='left'>表示-非営利-継承    </th><td><a href="https://creativecommons.org/licenses/by-nc-sa/2.1/jp/">コモンズ証</a> <a href="https://creativecommons.org/licenses/by-nc-sa/2.1/jp/legalcode">法的条項</a> <a href="https://creativecommons.org/licenses/by-nc-sa/2.1/jp/rdf">メタデータ</a></td></tr>
-<tr><th class='left'><i class="cc cc-by-nd cc-2x"></i>      </th><th class='left'>表示-改変禁止       </th><td><a href="https://creativecommons.org/licenses/by-nd/2.1/jp/">コモンズ証</a> <a href="https://creativecommons.org/licenses/by-nd/2.1/jp/legalcode">法的条項</a> <a href="https://creativecommons.org/licenses/by-nd/2.1/jp/rdf">メタデータ</a></td></tr>
-<tr><th class='left'><i class="cc cc-by-nc-nd-jp cc-2x"></i></th><th class='left'>表示-非営利-改変禁止</th><td><a href="https://creativecommons.org/licenses/by-nc-nd/2.1/jp/">コモンズ証</a> <a href="https://creativecommons.org/licenses/by-nc-nd/2.1/jp/legalcode">法的条項</a> <a href="https://creativecommons.org/licenses/by-nc-nd/2.1/jp/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>         </th><th class='left'>表示                </th><td><a href="https://creativecommons.org/licenses/by/2.1/jp/">コモンズ証</a> <a href="https://creativecommons.org/licenses/by/2.1/jp/legalcode">法的条項</a> <a href="https://creativecommons.org/licenses/by/2.1/jp/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-sa fa-2x"></i>      </th><th class='left'>表示-継承           </th><td><a href="https://creativecommons.org/licenses/by-sa/2.1/jp/">コモンズ証</a> <a href="https://creativecommons.org/licenses/by-sa/2.1/jp/legalcode">法的条項</a> <a href="https://creativecommons.org/licenses/by-sa/2.1/jp/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nc-jp fa-2x"></i>   </th><th class='left'>表示-非営利         </th><td><a href="https://creativecommons.org/licenses/by-nc/2.1/jp/">コモンズ証</a> <a href="https://creativecommons.org/licenses/by-nc/2.1/jp/legalcode">法的条項</a> <a href="https://creativecommons.org/licenses/by-nc/2.1/jp/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nc-jp fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-sa fa-2x"></i></th><th class='left'>表示-非営利-継承    </th><td><a href="https://creativecommons.org/licenses/by-nc-sa/2.1/jp/">コモンズ証</a> <a href="https://creativecommons.org/licenses/by-nc-sa/2.1/jp/legalcode">法的条項</a> <a href="https://creativecommons.org/licenses/by-nc-sa/2.1/jp/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nd fa-2x"></i>      </th><th class='left'>表示-改変禁止       </th><td><a href="https://creativecommons.org/licenses/by-nd/2.1/jp/">コモンズ証</a> <a href="https://creativecommons.org/licenses/by-nd/2.1/jp/legalcode">法的条項</a> <a href="https://creativecommons.org/licenses/by-nd/2.1/jp/rdf">メタデータ</a></td></tr>
+<tr><th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nc-jp fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nd fa-2x"></i></th><th class='left'>表示-非営利-改変禁止</th><td><a href="https://creativecommons.org/licenses/by-nc-nd/2.1/jp/">コモンズ証</a> <a href="https://creativecommons.org/licenses/by-nc-nd/2.1/jp/legalcode">法的条項</a> <a href="https://creativecommons.org/licenses/by-nc-nd/2.1/jp/rdf">メタデータ</a></td></tr>
 </tbody>
 </table>
 {{< /fig-gen >}}
@@ -240,7 +240,7 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 要は複製物や改変物を利用する人に元の著作（権）者とライセンスが分かるようになっていればよい。
 
 また，このクレジット表示は元の著作（権）者からの要請があれば削除しなければいけない。
-これはちょっと変わっているように見えるが， [CC Licenses] では「表示 <i class="cc cc-by"></i>」条件が必須になっているため，わりと重要な条項である[^g]。
+これはちょっと変わっているように見えるが， [CC Licenses] では「表示 <i class="fab fa-creative-commons-by"></i>」条件が必須になっているため，わりと重要な条項である[^g]。
 
 [^g]: これは [CC Licenses] 初期に「嫌煙家の作った [CC Licenses] 作品をタバコ広告で利用できるか」といった議論があり，利用そのものは取り消せないが，クレジット表示を止めさせることはできるんじゃないの，という話になった。これは，その時の議論をライセンスとして明文化したものといえる。
 
@@ -251,18 +251,18 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 ### CC Licenses における「非営利」とは{#non-commercial}
 
 巷にあるライセンスでは「営利」あるいは「商用」などのキーワードが付くことがあるが，どこまでが「営利」で「商用」なのか分かりにくいことが多い。
-[CC Licenses] では「非営利 <i class="cc cc-nc"></i>」について
+[CC Licenses] では「非営利 <i class="fab fa-creative-commons-nc"></i>」について
 
 {{< fig-quote title="クリエイティブ・コモンズ (Creative Commons) — 表示-非営利 4.0 国際" link="https://creativecommons.org/licenses/by-nc/4.0/legalcode.ja" >}}
 <q>商業的な利得や金銭的報酬を、主たる目的とせず、それらに主に向けられてもいないことを意味します。本パブリック・ライセンスにおいては、デジタル・ファイル共有または類似した手段による、ライセンス対象物と、著作権およびそれに類する権利の対象となるその他のマテリアルとの交換は、その交換に関連して金銭的報酬の支払いがない場合は、非営利に該当します。</q>
 {{< /fig-quote >}}
 
-と定義し「商業的な利得や金銭的報酬」が主目的でなければ「非営利 <i class="cc cc-nc"></i>」条件を満たすとしている[^c2]。
-後半の文言は分かりにくいが，これはファイル交換などオンラインでの取引を念頭に置いたもので，この場合でも金銭的報酬がなければ「非営利 <i class="cc cc-nc"></i>」条件を満たすとみなしている。
+と定義し「商業的な利得や金銭的報酬」が主目的でなければ「非営利 <i class="fab fa-creative-commons-nc"></i>」条件を満たすとしている[^c2]。
+後半の文言は分かりにくいが，これはファイル交換などオンラインでの取引を念頭に置いたもので，この場合でも金銭的報酬がなければ「非営利 <i class="fab fa-creative-commons-nc"></i>」条件を満たすとみなしている。
 
-[^c2]: 一般的に「営利」「商用」という場合にはかなり広い範囲をさすようだ。たとえば企業における業務利用は全て（直接の金銭的報酬がなくとも）「営利」「商用」と見なされる。面白い例を挙げると， IPA が公開している「[GNU GPL v3 逐条解説書](https://www.ipa.go.jp/osc/license1.html "GNU GPL v3 解説書：IPA 独立行政法人 情報処理推進機構")」は日本版（v2.1）の「[表示-非営利-改変禁止](http://creativecommons.org/licenses/by-nc-nd/2.1/jp/)」ライセンスになっているが「出版等営利目的での利用は禁止しますが、企業・団体等の内部における利用（講習会、勉強会等）を目的とした複製及び翻訳については、無償で許可します」という但し書きがある。おそらく [CC Licenses] の「非営利 <i class="cc cc-nc"></i>」について拡大解釈しすぎないよう配慮したものと思われる（実際には「改変禁止 <i class="cc cc-nd"></i>」条件では翻訳は許諾範囲外だが，利用状況によって個別に許可を与えていると解釈できる。このように [CC Licenses] は許諾範囲を広げる方向に対しては割と柔軟に運用できる）。
+[^c2]: 一般的に「営利」「商用」という場合にはかなり広い範囲をさすようだ。たとえば企業における業務利用は全て（直接の金銭的報酬がなくとも）「営利」「商用」と見なされる。面白い例を挙げると， IPA が公開している「[GNU GPL v3 逐条解説書](https://www.ipa.go.jp/osc/license1.html "GNU GPL v3 解説書：IPA 独立行政法人 情報処理推進機構")」は日本版（v2.1）の「[表示-非営利-改変禁止](http://creativecommons.org/licenses/by-nc-nd/2.1/jp/)」ライセンスになっているが「出版等営利目的での利用は禁止しますが、企業・団体等の内部における利用（講習会、勉強会等）を目的とした複製及び翻訳については、無償で許可します」という但し書きがある。おそらく [CC Licenses] の「非営利 <i class="fab fa-creative-commons-nc"></i>」について拡大解釈しすぎないよう配慮したものと思われる（実際には「改変禁止 <i class="fab fa-creative-commons-nd"></i>」条件では翻訳は許諾範囲外だが，利用状況によって個別に許可を与えていると解釈できる。このように [CC Licenses] は許諾範囲を広げる方向に対しては割と柔軟に運用できる）。
 
-ここで微妙なのは，アフィリエイト広告のある Web ページに「非営利 <i class="cc cc-nc"></i>」条件のあるマテリアルを利用することができるかということだが， [Creative Commons] 創設者のひとりである [Lawrence Lessig](http://lessig.tumblr.com/) 教授の2008年当時の発言[^g3] によると
+ここで微妙なのは，アフィリエイト広告のある Web ページに「非営利 <i class="fab fa-creative-commons-nc"></i>」条件のあるマテリアルを利用することができるかということだが， [Creative Commons] 創設者のひとりである [Lawrence Lessig](http://lessig.tumblr.com/) 教授の2008年当時の発言[^g3] によると
 
 {{< fig-quote title="Creative Commons “Non-Commercial” Content on Ad-Supported Sites" link="http://blogoscoped.com/archive/2008-02-07-n77.html" lang="en" >}}
 <q>I’ve asked the Wikipedia mailing list a while ago, and recently received another confirmation from Creative Commons’ Lawrence Lessig: <strong>yes, the CC organization believes this being OK is the best reading of the license.</strong></q>
@@ -271,11 +271,11 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 ということで，ひとまず問題ないようだ[^g4]。
 
 [^g3]: [Lawrence Lessig](http://lessig.tumblr.com/) 教授は現在， [Creative Commons] からは距離を置いて「政治と腐敗」をテーマに研究を行っているが，[2016年の米国大統領選に民主党候補として出馬意向を表明](https://lessig2016.us/)した。
-[^g4]: [Creative Commons] 側は，マテリアルの取り引きによって金銭的報酬が発生するようなことでなければ「非営利 <i class="cc cc-nc"></i>」条件にかかることはないと考えているようである（あとは企業広告の素材として使う場合とか）。ただ，一時期流行ったアフィリエイト報酬を主目的とする「パクりサイト」の場合はダメな気がする。司法判断を仰ぐ必要があるかもしないけど。ちなみにこのサイトは「[表示-継承](https://creativecommons.org/licenses/by-sa/4.0/)」条件を守っていただけるなら，いくらでもパクって稼いで構いませんよ（笑）
+[^g4]: [Creative Commons] 側は，マテリアルの取り引きによって金銭的報酬が発生するようなことでなければ「非営利 <i class="fab fa-creative-commons-nc"></i>」条件にかかることはないと考えているようである（あとは企業広告の素材として使う場合とか）。ただ，一時期流行ったアフィリエイト報酬を主目的とする「パクりサイト」の場合はダメな気がする。司法判断を仰ぐ必要があるかもしないけど。ちなみにこのサイトは「[表示-継承](https://creativecommons.org/licenses/by-sa/4.0/)」条件を守っていただけるなら，いくらでもパクって稼いで構いませんよ（笑）
 
 ### CC Licenses と互換性のあるライセンス{#compatible}
 
-「継承 <i class="cc cc-sa"></i>」条件について「元のマテリアルのライセンスと同等のライセンスで公開すること」と書いたが，「同等のライセンス」とはどこまでを指すのか。
+「継承 <i class="fab fa-creative-commons-sa"></i>」条件について「元のマテリアルのライセンスと同等のライセンスで公開すること」と書いたが，「同等のライセンス」とはどこまでを指すのか。
 具体的には以下のページで示される。
 
 - [Compatible Licenses - Creative Commons](https://creativecommons.org/compatiblelicenses)
@@ -291,7 +291,7 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 ### CC Licenses における「無償」とは{#royalty-free}
 
 [CC Licenses] は許諾に際して「無償（royalty-free）」であることを保証する。
-ただしこれは，利用に対する許諾が無償で行われるという意味で，普通にマテリアルを売り買いすることに関しては「非営利 <i class="cc cc-nc"></i>」条件がなければ問題ない。
+ただしこれは，利用に対する許諾が無償で行われるという意味で，普通にマテリアルを売り買いすることに関しては「非営利 <i class="fab fa-creative-commons-nc"></i>」条件がなければ問題ない。
 
 これには JASRAC のような著作権管理団体からの royalty 徴収も含むが「可能な限り」の但し書きがつく。
 
@@ -322,12 +322,12 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 
 [CC Licenses] では許諾は「非排他的（non-exclusive）」に行われる。
 これは，あるマテリアルについて [CC Licenses] を含む複数のライセンスを付与することが可能であることを指す。
-たとえば「非営利 <i class="cc cc-nc"></i>」条件が付くマテリアルを営利目的で利用したい場合に，著作（権）者と別途契約して，報酬を払う代わりに営利目的での利用を許諾してもらう，といったことも（交渉次第では）可能である。
+たとえば「非営利 <i class="fab fa-creative-commons-nc"></i>」条件が付くマテリアルを営利目的で利用したい場合に，著作（権）者と別途契約して，報酬を払う代わりに営利目的での利用を許諾してもらう，といったことも（交渉次第では）可能である。
 
 ただし，通常は排他的あるいは独占的ライセンスと [CC Licenses] のようなライセンスは両立しないため，複数ライセンスの付与には注意が必要である。
 
 余談だが， [CC Licenses] の許諾者はライセンス利用条件に縛られない。
-たとえば「非営利 <i class="cc cc-nc"></i>」条件を付与したマテリアルを許諾者自身が有料で取り引きする，といったことは自由にできる。
+たとえば「非営利 <i class="fab fa-creative-commons-nc"></i>」条件を付与したマテリアルを許諾者自身が有料で取り引きする，といったことは自由にできる。
 
 ### 責任の制限と消費者契約法{#limit}
 
