@@ -24,6 +24,12 @@
 - [Datatypes In SQLite Version 3](http://www.sqlite.org/datatype3.html)
 - [Base: how to connect to an SQLite database? [closed] - Ask LibreOffice](https://ask.libreoffice.org/en/question/139052/base-how-to-connect-to-an-sqlite-database/)
 - [LibreOffice Base をSQLite のフロントエンドにしてみよう](https://www.slideshare.net/78tch/libreoffice-base-sqlite)
+- [GitHub - go-gorp/gorp: Go Relational Persistence - an ORM-ish library for Go](https://github.com/go-gorp/gorp)
+    - [Big Sky :: Go言語向けの ORM、gorp がなかなか良い](https://mattn.kaoriya.net/software/lang/go/20120914222828.htm)
+    - [gorp(go-mysql-driver)で独自に定義した型をカラムに割り当てる - Qiita](https://qiita.com/itoudium/items/e599daa93ff24a15f5f6)
+- [GitHub - Masterminds/squirrel: Fluent SQL generation for golang](https://github.com/Masterminds/squirrel)
+
+- [GitHub - rwcarlsen/goexif: Decode embedded EXIF meta data from image files.](https://github.com/rwcarlsen/goexif)
 
 ### Autocrypt について
 
@@ -47,7 +53,22 @@
 - [Node.js 10がリリース、N-APIが安定化しV8非依存に。2年半前に初のLTSとなったNode.js 4.xはついにEOL － Publickey](https://www.publickey1.jp/blog/18/nodejs_10n-apiv82ltsnodejs_4xeol.html)
 - [「Linux 4.16.6」リリース | Think IT（シンクイット）](https://thinkit.co.jp/news/bn/13944)
 - [News: KeePass 2.39 available! - KeePass](https://keepass.info/news/n180506_2.39.html)
-- [「Firefox」v59.0.3が公開、「Windows 10 April 2018 Update」との非互換問題を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1120289.html)
+- [Apple security updates - Apple Support](https://support.apple.com/en-us/HT201222)
+    - [iOS 11.3.1 のセキュリティコンテンツについて - Apple サポート](https://support.apple.com/ja-jp/HT208743)
+    - [セキュリティアップデート 2018-001 のセキュリティコンテンツについて - Apple サポート](https://support.apple.com/ja-jp/HT208742)
+    - [Safari 11.1 のセキュリティコンテンツについて - Apple サポート](https://support.apple.com/ja-jp/HT208741)
+    - [Ubuntu 14.04 向けセキュリティアップデート 2018-001 Swift 4.1.1 のセキュリティコンテンツについて - Apple サポート](https://support.apple.com/ja-jp/HT208804)
+- [「Firefox 60」が正式公開 ～ホーム画面を拡張、“Web Authentication API”に対応 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1121001.html)
+    - [「Firefox」v59.0.3が公開、「Windows 10 April 2018 Update」との非互換問題を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1120289.html)
+- [「7-Zip」に任意コード実行の脆弱性、修正版のv18.05が公開 ～「PeaZip」なども更新 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1120644.html)
+- [「Oracle VM VirtualBox」v5.1.36/5.2.10、Windows版が約10日遅れで公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1120296.html)
+- [ARJ形式書庫ファイルの圧縮・解凍DLL「UNARJ32.DLL」がv2.00に ～脆弱性を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1120405.html)
+- [「GIMP」v2.10が公開 ～画像処理エンジンを“GEGL”へ移行した大規模アップデート - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1120669.html)
+- [LibreOffice 6.0: Release Notes - The Document Foundation Wiki](https://wiki.documentfoundation.org/ReleaseNotes/6.0)
+    - [無料オフィスソフト「LibreOffice」v6.0.4が公開 ～80件以上の不具合を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1121112.html)
+- [「Visual Studio Code」の4月更新が公開、インデントガイドの強調機能などを導入 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1120810.html)
+- [Microsoft、Linux/Macでも使える「Microsoft Edge」VMを更新 ～「April 2018 Update」に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1120921.html)
+- [アプリフレームワーク「Electron」がv2.0.0に、セマンティックバージョニングを採用へ - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1121037.html)
 
 ## Age of Trump
 
@@ -61,6 +82,20 @@
 - [NIST Issues Call for "Lightweight Cryptography" Algorithms - Schneier on Security](https://www.schneier.com/blog/archives/2018/05/nist_issues_cal.html)
 - [Twitter、全3.3億人のユーザーにパスワード変更勧める告知　社内バグ発見で - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1805/04/news015.html)
     - [今すぐTwitterのパスワードを変えよう  |  TechCrunch Japan](https://jp.techcrunch.com/2018/05/04/2018-05-03-twitter-password-bug/)
+- [Ray Ozzie's Encryption Backdoor - Schneier on Security](https://www.schneier.com/blog/archives/2018/05/ray_ozzies_encr.html)
+- [JVNVU#92147586: 統合型 GPU に対する WebGL を利用したサイドチャネル攻撃 および Rowhammer 攻撃](https://jvn.jp/vu/JVNVU92147586/)
+- [Twitterに暗号化DM機能が隠されていた  |  TechCrunch Japan](https://jp.techcrunch.com/2018/05/08/2018-05-07-encrypted-dms/)
+- [CRYPTREC ｜ CRYPTREC Report 2016の公開](http://www.cryptrec.go.jp/topics/cryptrec_20170630_c16report.html)
+- [CRYPTREC | 768ビット素数位数の有限体上の離散対数問題の状況とDSA, DHの今後のパラメータ選択について](http://www.cryptrec.go.jp/topics/cryptrec-er-0001-2017.html)
+- [CRYPTREC ｜ SSL/TLS暗号設定ガイドライン 第2.0版の公開](http://www.cryptrec.go.jp/topics/cryptrec_20180508_gl_3001_2.0.html)
+- [CRYPTREC ｜ CRYPTREC暗号技術ガイドライン(SHA-1)改定版の公開](http://www.cryptrec.go.jp/topics/cryptrec_20180427_eval_gl_2001_2013r1.html)
+- [JVNVU#98401336: Intel ハードウェアアーキテクチャのデバッグ例外を適切に処理していない問題](https://jvn.jp/vu/JVNVU98401336/)
+- [Microsoft 製品の脆弱性対策について(2018年5月)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20180509-ms.html)
+    - [2018年 5月マイクロソフトセキュリティ更新プログラムに関する注意喚起](https://www.jpcert.or.jp/at/2018/at180021.html)
+- [Adobe Flash Player の脆弱性対策について(APSB18-16)(CVE-2018-4944)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20180509-adobeflashplayer.html)
+    - [Adobe Flash Player の脆弱性 (APSB18-16) に関する注意喚起](https://www.jpcert.or.jp/at/2018/at180020.html)
+- ["Hide and Seek" Becomes First IoT Botnet Capable of Surviving Device Reboots](https://www.bleepingcomputer.com/news/security/hide-and-seek-becomes-first-iot-botnet-capable-of-surviving-device-reboots/)
+- [MacでSignalを使っているユーザーは通知を無効にしてメッセージのセキュリティの確保を  |  TechCrunch Japan](https://jp.techcrunch.com/2018/05/10/2018-05-09-signal-mac-how-to-turn-off-notifications/)
 
 ## 天文関連
 
@@ -68,11 +103,13 @@
 - [ケプラー宇宙望遠鏡が発見した「地球に似た惑星」は、実は存在しないかもしれない：研究結果｜WIRED.jp](https://wired.jp/2018/04/29/evaporating-exoplanets/)
 - [ヒトは火星に住めるのか？MDRSで探る！ | academist (アカデミスト)](https://academist-cf.com/projects/62)
 - [お知らせ - ハワイ島で発生した地震の影響について - すばる望遠鏡](https://www.subarutelescope.org/Announce/2018/05/05/j_index.html)
+    - [お知らせ - ハワイ島で発生した地震の影響について (第二報) - すばる望遠鏡](https://www.subarutelescope.org/Announce/2018/05/08/j_index.html)
 - [Watching NASA's InSight Mars Lander Launch Saturday? Here's What to Expect](https://www.space.com/40497-insight-mars-lander-launch-what-to-expect.html)
     - [火星探査機「インサイト」打ち上げ成功　11月26日に着陸し地質調査を予定 | sorae：宇宙（そら）へのポータルサイト](https://sorae.info/030201/2018_05_06_insight.html)
 
 ## 知財関連
 
+- [「所有できない電子書籍」問題　サービス閉鎖後、購入者はどうなる？ - ねとらぼ](http://nlab.itmedia.co.jp/nl/articles/1805/01/news073.html)
 
 ## その他
 
@@ -88,5 +125,19 @@
 - [「無料マーケティング」としての図書館の存在意義を認めたアメリカの出版社【連載】幻想と創造の大国、アメリカ(1) ｜FINDERS](https://finders.me/articles.php?id=149)
 - [日本人の良識としての麻（大麻）栽培：医療ガバナンス学会 | MRICの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43663)
 - [UQモバイルではギガが減らない｜塚本 牧生｜note](https://note.mu/tsukamoto/n/n08981840a030)
+- [Microsoft、「.NET Framework 4.7.2」の一般提供を開始 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1120305.html)
+- [マイクロソフト、FPGAを用いたAI処理基盤「Project Brainwave」開発者向けプレビューを発表。GoogleのTPUより高性能と。Build 2018 － Publickey](https://www.publickey1.jp/blog/18/fpgaaiproject_brainwavegoogletpubuild_2018.html)
+- [Apache httpd 2.4.33 + HTTP/2 + Brotli インストールメモ | あぱーブログ](https://blog.apar.jp/linux/9730/)
+    - [LinuxにApache2.4をソースからインストール（APRとAPR-Utilもインストール） - ボールを蹴りたいシステムエンジニア](http://toriaezu-engineer.hatenablog.com/entry/2017/01/10/225059)
+- [コミュニティのあした。｜古賀史健｜note](https://note.mu/fumiken/n/nc18c986f10b4)
+- [キットで遊ぼう電子回路 新PIC入門C言語編 | 株式会社アドウィン | 電子・電気・マイコン・シーケンス制御教材開発・販売](https://www.adwin.com/product/ECB-900T.html)
+- [セガ、スマホゲーム「ポポロクロイス物語 ～ナルシアの涙と妖精の笛」を配信 - CNET Japan](https://japan.cnet.com/article/35118831/)
+- [EFF、ソーシャルメディアのコンテンツ削除、アカウント凍結に透明性、説明責任、異議申立プロセスを求めるガイドライン「サンタクララ原則」を公表 – P2Pとかその辺のお話R](http://p2ptk.org/freedom-of-speech/915)
+- [令嬢はまったりをご所望。 | 小説投稿サイトのアルファポリス](https://www.alphapolis.co.jp/novel/94131096/797099378)
+- [OAuth.ioを使うとJavaScriptたった2行でOAuth認証が出来た - Qiita](https://qiita.com/leafia78/items/abbdd5ffe3850d3a004b)
+- [アニメ観るためにラズパイでWebサーバを作った - Qiita](https://qiita.com/hxbdy625/items/48bb3cd56417bbbf8cc5)
+- [「メモ帳」がLinuxの改行コードをサポート - やじうまの杜 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1120764.html)
+- [Red Hatとマイクロソフト、共同でAzure上にOpenShiftのマネージドサービスを提供へ。OpenShiftでWindows Serverコンテナも利用可能に － Publickey](https://www.publickey1.jp/blog/18/red_hatazureopenshiftopenshiftwindows_server.html)
+- [恐竜に教える現代のCSS – Part 1 | POSTD](https://postd.cc/actualize-networkmodern-css-explained-for-dinosaurs/)
 
 <!-- eof -->

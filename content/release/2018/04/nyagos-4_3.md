@@ -1,7 +1,7 @@
 +++
 title = "NYAGOS 4.3 で GopherLua が採用される"
 date = "2018-04-30T18:49:39+09:00"
-update = "2018-05-10T19:50:11+09:00"
+update = "2018-05-10T21:17:50+09:00"
 description = "NYAGOS 4.3 で Lua の Go 言語実装のひとつである GopherLua が採用された。"
 image = "/images/attention/tools.png"
 tags  = [ "tools", "nyagos", "shell", "windows", "lua", "golang" ]
@@ -134,6 +134,7 @@ C:\Users\username\AppData\Roaming\NYAOS_ORG\amd64.nyagos.luac line:1(column:1) n
 
 ## 【追記 2018-05-10】 [NYAGOS] 4.3.0_3 がリリース
 
+- [Hugo 0.40.3: One Bug Fix | Hugo](https://gohugo.io/news/0.40.3-relnotes/)
 - [Release 4.3.0_3 · zetamatta/nyagos](https://github.com/zetamatta/nyagos/releases/tag/4.3.0_3)
 
 不具合の修正。

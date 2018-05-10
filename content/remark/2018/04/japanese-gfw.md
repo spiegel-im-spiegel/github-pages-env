@@ -1,7 +1,7 @@
 +++
 title = "日本版「グレート・ファイアウォール」に関するブックマーク集"
 date = "2018-04-25T16:12:41+09:00"
-update = "2018-05-07T23:17:54+09:00"
+update = "2018-05-10T21:17:50+09:00"
 description = "情報収集しつつ個人でどこまで武装できるか，これから少しずつ考えていくことにする。"
 image = "/images/attention/kitten.jpg"
 tags = [ "censorship", "internet", "code", "law", "politics" ]
@@ -94,6 +94,8 @@ tags = [ "censorship", "internet", "code", "law", "politics" ]
 - [NTTによるブロッキングの何が許せないのか - Software Transactional Memo](http://kumagi.hatenablog.com/entry/why-ntt-blocking)
 - [海賊版サイトブロッキングに関する質問趣意書に「内容のない回答」をする日本政府 – P2Pとかその辺のお話R](http://p2ptk.org/copyright/887)
 - [出版業界はブロッキング問題で岐路に立っている «  マガジン航[kɔː]](https://magazine-k.jp/2018/05/01/editors-note-32/)
+- [ディズニー、ネットセーフティ、プログラミング教育まで遮断してしまう英国ISPのセーフティ・フィルター – P2Pとかその辺のお話R](http://p2ptk.org/freedom-of-speech/904)
+- [デンマーク、ブロッキング実施後も海賊版サイトへのアクセスが67％増加 – P2Pとかその辺のお話R](http://p2ptk.org/copyright/900)
 
 ## 参考図書
 
