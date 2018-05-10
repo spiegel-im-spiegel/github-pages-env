@@ -1,7 +1,7 @@
 +++
 title = "NYAGOS 4.3 で GopherLua が採用される"
 date = "2018-04-30T18:49:39+09:00"
-update = "2018-05-07T07:07:01+09:00"
+update = "2018-05-10T19:50:11+09:00"
 description = "NYAGOS 4.3 で Lua の Go 言語実装のひとつである GopherLua が採用された。"
 image = "/images/attention/tools.png"
 tags  = [ "tools", "nyagos", "shell", "windows", "lua", "golang" ]
@@ -130,6 +130,25 @@ C:\Users\username\AppData\Roaming\NYAOS_ORG\amd64.nyagos.luac line:1(column:1) n
 ----
 
 - #305: ユーザの .nyagos が二回目以降ロードされない不具合を修正(Thx! @erw7)
+{{% /fig-quote %}}
+
+## 【追記 2018-05-10】 [NYAGOS] 4.3.0_3 がリリース
+
+- [Release 4.3.0_3 · zetamatta/nyagos](https://github.com/zetamatta/nyagos/releases/tag/4.3.0_3)
+
+不具合の修正。
+着々と改善されています。
+
+{{% fig-quote title="Release 4.3.0_3" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.0_3" lang="en" %}}
+- Fix: forgot implement nyagos.setalias , nyagos.getalias (`alias { CMD=XXX}` did not work.)
+- Fix: that the element [0] of the table value returned by alias-function was not used as the new command name to evaluate.
+- Fix: `doc/09-Build_*.md` about how to download sourcefiles from github
+
+----
+
+- nyagos.setalias, nyagos.getalias の実装が漏れており、`alias { CMD=XXX}` が動かなくなっていた
+- エイリアスの戻り値でテーブルが与えられた時、コマンド名として解釈すべき、要素[0]が使われていなかった不具合を修正
+- `doc/09-Build_*.md`: github からのソースダウンロード方法についてドキュメント更新
 {{% /fig-quote %}}
 
 ## ブックマーク

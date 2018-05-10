@@ -1,7 +1,7 @@
 +++
 title = "Hugo v0.40 がリリース"
 date = "2018-04-23T21:45:35+09:00"
-update = "2018-04-30T18:09:13+09:00"
+update = "2018-05-10T19:50:11+09:00"
 description = "ちうわけで，マジお疲れ様です。"
 image = "/images/attention/tools.png"
 tags  = [ "tools", "hugo" ]
@@ -63,6 +63,17 @@ tags  = [ "tools", "hugo" ]
 
 {{< fig-quote title="Release v0.40.2" link="https://github.com/gohugoio/hugo/releases/tag/v0.40.2" lang="en" >}}
 <q>This release fixes some regressions introduced in Hugo 0.40. See the <a href="https://github.com/gohugoio/hugo/milestone/62?closed=1">milestone</a> for an issue list.</q>
+{{< /fig-quote >}}
+
+## 【追記 2018-05-10】 [Hugo] v0.40.3 がリリース
+
+- [Release v0.40.3 · gohugoio/hugo](https://github.com/gohugoio/hugo/releases/tag/v0.40.3)
+
+今回も不具合の修正。
+レアケースのようだ。
+
+{{< fig-quote title="Release v0.40.3" link="https://github.com/gohugoio/hugo/releases/tag/v0.40.3" lang="en" >}}
+<q>Hugo 0.40.3 fixes a possible .Content truncation issue introduced in 0.40.1 90d0d830 @bep #4706. This should be very rare. It has been reported by only one user on a synthetic site. We have tested a number of big sites that does not show this problem with 0.40.2, but this is serious enough to warrant a patch release.</q>
 {{< /fig-quote >}}
 
 ## ブックマーク
