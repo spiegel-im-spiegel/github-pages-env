@@ -1,7 +1,7 @@
 +++
 title = "日本版「グレート・ファイアウォール」に関するブックマーク集"
 date = "2018-04-25T16:12:41+09:00"
-update = "2018-05-10T21:17:50+09:00"
+update = "2018-05-13T13:24:15+09:00"
 description = "情報収集しつつ個人でどこまで武装できるか，これから少しずつ考えていくことにする。"
 image = "/images/attention/kitten.jpg"
 tags = [ "censorship", "internet", "code", "law", "politics" ]
@@ -96,6 +96,9 @@ tags = [ "censorship", "internet", "code", "law", "politics" ]
 - [出版業界はブロッキング問題で岐路に立っている «  マガジン航[kɔː]](https://magazine-k.jp/2018/05/01/editors-note-32/)
 - [ディズニー、ネットセーフティ、プログラミング教育まで遮断してしまう英国ISPのセーフティ・フィルター – P2Pとかその辺のお話R](http://p2ptk.org/freedom-of-speech/904)
 - [デンマーク、ブロッキング実施後も海賊版サイトへのアクセスが67％増加 – P2Pとかその辺のお話R](http://p2ptk.org/copyright/900)
+- [最も「安全」なメッセンジャーアプリ「Signal」がGoogleに続いてAmazonからもBANされ一部の国で利用不可能な状態になる - GIGAZINE](https://gigazine.net/news/20180507-amazon-shut-down-signal-account/)
+- [「ネット中立性」規則、6月に撤廃へ--通信会社の自由が拡大 - CNET Japan](https://japan.cnet.com/article/35119001/)
+- ['Anonymous' Hackers Deface Russian Govt. Site to Protest Web-Blocking (NSFW) - TorrentFreak](https://torrentfreak.com/anonymous-hackers-deface-russian-govt-site-to-protest-web-blocking-nsfw-180512/)
 
 ## 参考図書
 

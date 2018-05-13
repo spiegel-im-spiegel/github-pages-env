@@ -1,7 +1,7 @@
 +++
 title = "Java 環境のリリースとサポートに関する覚え書き"
 date = "2018-02-25T19:31:42+09:00"
-update = "2018-02-26T07:33:44+09:00"
+update = "2018-05-13T13:24:15+09:00"
 description = "特にこの記事では嘘や間違いがあればフィードバック等いただけると有り難い。随時加筆・修正する予定。"
 image = "/images/attention/kitten.jpg"
 tags        = [ "java", "engineering", "license", "tools" ]
@@ -197,6 +197,7 @@ Java 関連のサービスやアプリケーションについて以下にメモ
 - [Java9勘所集 - Qiita](https://qiita.com/shiroma_yuki/items/8725a73493e3fe75155d)
 - [Java 9のモジュール機能「Project Jigsaw」の基本を紹介 (1/2)：CodeZine（コードジン）](https://codezine.jp/article/detail/10524)
 - [第2回　JDKの新しいリリースモデルに要注目 OpenJDKとOracle JDKの違いにも注意が必要［JavaOne 2017］：Java 9のその先へ～JavaOne Conference 2017レポート｜gihyo.jp … 技術評論社](http://gihyo.jp/news/report/01/JavaOne2017/0002)
+- [Javaエンジニアが Java 11 リリースに向けて備えておくべきこと - Qiita](https://qiita.com/mao172/items/dbf41e7a246c3f87dcbe)
 
 [OpenJDK]: http://openjdk.java.net/
 [Project Jigsaw]: http://openjdk.java.net/projects/jigsaw/ "Project Jigsaw"

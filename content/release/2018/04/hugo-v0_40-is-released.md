@@ -1,7 +1,7 @@
 +++
 title = "Hugo v0.40 がリリース"
 date = "2018-04-23T21:45:35+09:00"
-update = "2018-05-10T19:50:11+09:00"
+update = "2018-05-13T13:24:15+09:00"
 description = "ちうわけで，マジお疲れ様です。"
 image = "/images/attention/tools.png"
 tags  = [ "tools", "hugo" ]
@@ -67,6 +67,7 @@ tags  = [ "tools", "hugo" ]
 
 ## 【追記 2018-05-10】 [Hugo] v0.40.3 がリリース
 
+- [Hugo 0.40.3: One Bug Fix | Hugo](https://gohugo.io/news/0.40.3-relnotes/)
 - [Release v0.40.3 · gohugoio/hugo](https://github.com/gohugoio/hugo/releases/tag/v0.40.3)
 
 今回も不具合の修正。

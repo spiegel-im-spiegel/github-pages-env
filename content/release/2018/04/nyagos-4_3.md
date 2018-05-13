@@ -1,7 +1,7 @@
 +++
 title = "NYAGOS 4.3 で GopherLua が採用される"
 date = "2018-04-30T18:49:39+09:00"
-update = "2018-05-10T21:17:50+09:00"
+update = "2018-05-13T13:24:15+09:00"
 description = "NYAGOS 4.3 で Lua の Go 言語実装のひとつである GopherLua が採用された。"
 image = "/images/attention/tools.png"
 tags  = [ "tools", "nyagos", "shell", "windows", "lua", "golang" ]
@@ -30,6 +30,7 @@ tags  = [ "tools", "nyagos", "shell", "windows", "lua", "golang" ]
 [NYAGOS] 4.3 で [Lua] の [Go 言語]実装のひとつである [GopherLua] が採用された。
 
 - [nyagos で lua53.dll のかわりに GopherLua を使おう - Qiita](https://qiita.com/zetamatta/items/112484eb7fdae87830a0)
+    - [続・nyagos で lua53.dll のかわりに GopherLua を使おう - Qiita](https://qiita.com/zetamatta/items/18597ed77c4574796c7b)
 - [Release 4.3_beta · zetamatta/nyagos](https://github.com/zetamatta/nyagos/releases/tag/4.3_beta)
 - [Release 4.3_beta2 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.3_beta2)
 - [Release 4.3.0_0 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.3.0_0)
@@ -134,7 +135,6 @@ C:\Users\username\AppData\Roaming\NYAOS_ORG\amd64.nyagos.luac line:1(column:1) n
 
 ## 【追記 2018-05-10】 [NYAGOS] 4.3.0_3 がリリース
 
-- [Hugo 0.40.3: One Bug Fix | Hugo](https://gohugo.io/news/0.40.3-relnotes/)
 - [Release 4.3.0_3 · zetamatta/nyagos](https://github.com/zetamatta/nyagos/releases/tag/4.3.0_3)
 
 不具合の修正。
@@ -152,9 +152,29 @@ C:\Users\username\AppData\Roaming\NYAOS_ORG\amd64.nyagos.luac line:1(column:1) n
 - `doc/09-Build_*.md`: github からのソースダウンロード方法についてドキュメント更新
 {{% /fig-quote %}}
 
+## 【追記 2018-05-13】 [NYAGOS] 4.3.0_4 がリリース
+
+- [Release 4.3.0_4 · zetamatta/nyagos](https://github.com/zetamatta/nyagos/releases/tag/4.3.0_4)
+
+不具合の修正。
+着々と改善されています。
+
+{{% fig-quote title="Release 4.3.0_3" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.0_3" lang="en" %}}
+- Fix: #309 nyagos.getkey() raised panic (Thx @nocd5)
+- Fix: error-message when command `lnk`'s target is not `*.lnk` nor exist.
+- Fix: the cursor blink was switched to off on the child process.
+
+----
+
+- Fix: #309 nyagos.getkey() が使えない不具合を修正 (Thx @nocd5)
+- `lnk` コマンドの宛先が `*.lnk` でなかったり存在しなかった時のエラーメッセージを修正
+- 子プロセスのカーソルがオフになってしまう不具合を修正
+{{% /fig-quote %}}
+
 ## ブックマーク
 
 - [inforno :: LuaのGo言語実装を公開しました](http://inforno.net/articles/2015/02/15/gopher-lua-released)
+- [nyagos 4.3でもmigemoでディレクトリ移動したい! - Qiita](https://qiita.com/nocd5/items/1736064cd9ee652d5920)
 
 [NYAGOS]: https://github.com/zetamatta/nyagos/ "zetamatta/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"
 [GopherLua]: https://github.com/yuin/gopher-lua "yuin/gopher-lua: GopherLua: VM and compiler for Lua in Go"
