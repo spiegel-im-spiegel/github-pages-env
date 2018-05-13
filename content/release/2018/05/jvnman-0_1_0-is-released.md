@@ -1,9 +1,10 @@
 +++
 title = "脆弱性情報の収集・管理ツール jvnman の最初のリリース"
 date = "2018-05-13T19:43:21+09:00"
+update = "2018-05-13T21:30:45+09:00"
 description = "先月あたりから余暇にコツコツ作ってた脆弱性情報の収集・管理ツール [jvnman] の最初のリリースを行った。"
 image = "/images/attention/tools.png"
-tags  = [ "tools", "security", "Vulnerability", "risk", "management" ]
+tags  = [ "tools", "security", "vulnerability", "risk", "management" ]
 
 [author]
   name      = "Spiegel"
