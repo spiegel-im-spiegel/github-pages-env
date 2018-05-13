@@ -18,22 +18,7 @@
 - [Golang: 文字列のバイト数と文字数を数える - Sarabande.jp](http://blog.sarabande.jp/post/61104546593)
     - [人名や地名に含まれる異体字を壊さないようにするために grapheme_substr もしくは grapheme_extract を使う -  Qiita](https://qiita.com/masakielastic/items/cb3a9ebd7a03a01c0709)
 
-- [GitHub - govert/SQLiteForExcel: A lightweight wrapper to give access to the SQLite3 library from VBA.](https://github.com/govert/SQLiteForExcel)
-    - [ExcelからSQLiteを使う方法 | Gabekore Garage](https://gabekore.org/sqlite-for-excel-vba)
-    - [SQLite for Excel | crossframe](http://crossframe.iiv.jp/201603051181/)
-- [Datatypes In SQLite Version 3](http://www.sqlite.org/datatype3.html)
-- [Base: how to connect to an SQLite database? [closed] - Ask LibreOffice](https://ask.libreoffice.org/en/question/139052/base-how-to-connect-to-an-sqlite-database/)
-- [LibreOffice Base をSQLite のフロントエンドにしてみよう](https://www.slideshare.net/78tch/libreoffice-base-sqlite)
-- [GitHub - go-gorp/gorp: Go Relational Persistence - an ORM-ish library for Go](https://github.com/go-gorp/gorp)
-    - [Big Sky :: Go言語向けの ORM、gorp がなかなか良い](https://mattn.kaoriya.net/software/lang/go/20120914222828.htm)
-    - [gorp(go-mysql-driver)で独自に定義した型をカラムに割り当てる - Qiita](https://qiita.com/itoudium/items/e599daa93ff24a15f5f6)
-- [GitHub - Masterminds/squirrel: Fluent SQL generation for golang](https://github.com/Masterminds/squirrel)
-
 - [GitHub - rwcarlsen/goexif: Decode embedded EXIF meta data from image files.](https://github.com/rwcarlsen/goexif)
-
-- [もう迷わない、「@font-familyはこれでOK！」を色々考えてみた。 | unitopi - ユニトピ -](http://unitopi.com/font-family-css/)
-- [font-familyには何を指定すればいい？ - csstux.com](http://www.csstux.com/font-family.html)
-- [font-family【CSSリファレンス】 |  Webデザインラボ](https://www.webdlab.com/css/font-text-font-family/)
 
 ### Autocrypt について
 
