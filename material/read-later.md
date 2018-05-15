@@ -20,15 +20,6 @@
 
 - [GitHub - rwcarlsen/goexif: Decode embedded EXIF meta data from image files.](https://github.com/rwcarlsen/goexif)
 
-- [JVNVU#95575473: OpenPGP および S/MIME メールクライアントにメッセージの取り扱いに関する脆弱性](https://jvn.jp/vu/JVNVU95575473/)
-- [メールクライアントにおける OpenPGP および S/MIME のメッセージの取り扱いに関する注意喚起](https://www.jpcert.or.jp/at/2018/at180023.html)
-- [暗号化メールの内容が平文で漏洩する“EFAIL”脆弱性、欧州の研究者グループが発表 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1121880.html)
-- [【対策あり】iPhoneやMacのメールアプリに「eFail」と呼ばれる脆弱性 - iPhone Mania](https://iphone-mania.jp/news-212434/)
-- [MIT Tech Review: メールで使われる暗号化技術に脆弱性、内容読まれる恐れ](https://www.technologyreview.jp/nl/an-e-fail-in-e-mail-could-let-hackers-read-your-encrypted-messages/)
-- [暗号化メールを平文で読まれる恐れ、「PGP」「S/MIME」に脆弱性 (1/2) - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1805/15/news062.html)
-- [Efail or OpenPGP is safer than S/MIME](https://lists.gnupg.org/pipermail/gnupg-users/2018-May/060315.html)
-- [Critical PGP Vulnerability - Schneier on Security](https://www.schneier.com/blog/archives/2018/05/critical_pgp_vu.html)
-
 ### Autocrypt について
 
 - [Autocrypt 1.0.0 documentation](https://autocrypt.org/)
