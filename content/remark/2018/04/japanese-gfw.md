@@ -1,7 +1,7 @@
 +++
 title = "日本版「グレート・ファイアウォール」に関するブックマーク集"
 date = "2018-04-25T16:12:41+09:00"
-update = "2018-05-13T13:24:15+09:00"
+update = "2018-05-15T20:42:53+09:00"
 description = "情報収集しつつ個人でどこまで武装できるか，これから少しずつ考えていくことにする。"
 image = "/images/attention/kitten.jpg"
 tags = [ "censorship", "internet", "code", "law", "politics" ]
@@ -99,6 +99,7 @@ tags = [ "censorship", "internet", "code", "law", "politics" ]
 - [最も「安全」なメッセンジャーアプリ「Signal」がGoogleに続いてAmazonからもBANされ一部の国で利用不可能な状態になる - GIGAZINE](https://gigazine.net/news/20180507-amazon-shut-down-signal-account/)
 - [「ネット中立性」規則、6月に撤廃へ--通信会社の自由が拡大 - CNET Japan](https://japan.cnet.com/article/35119001/)
 - ['Anonymous' Hackers Deface Russian Govt. Site to Protest Web-Blocking (NSFW) - TorrentFreak](https://torrentfreak.com/anonymous-hackers-deface-russian-govt-site-to-protest-web-blocking-nsfw-180512/)
+- [ネットの自由を守り、無法地帯にしないために――NTTグループがブロッキングを決断した理由 - ITmedia Mobile](http://www.itmedia.co.jp/mobile/articles/1805/11/news136.html)
 
 ## 参考図書
 

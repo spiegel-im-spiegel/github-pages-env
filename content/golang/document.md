@@ -1,6 +1,6 @@
 +++
 date = "2015-09-19T23:43:25+09:00"
-update = "2015-09-23T19:57:00+09:00"
+update = "2018-05-15T20:42:53+09:00"
 description = "パッケージ化したのならドキュメントを書きましょう。"
 draft = false
 tags = ["golang", "godoc"]
@@ -234,6 +234,7 @@ ok      github.com/spiegel-im-spiegel/astrocalc/modjulian       2.755s
 - [testingパッケージのExamplesについて - taknb2nchのメモ](http://d.hatena.ne.jp/taknb2nch/20131101/1383285018)
 - [GoのExampleテストが便利 : swdyh](http://swdyh.tumblr.com/post/55771477125/go-example)
 - [godoc.org への掲載方法を調べた - taknb2nchのメモ](http://d.hatena.ne.jp/taknb2nch/20140225/1393302743)
+- [GoDocドキュメントで知っていると便利な機能 - Qiita](https://qiita.com/lufia/items/97acb391c26f967048f1) : よくまとまっている
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 

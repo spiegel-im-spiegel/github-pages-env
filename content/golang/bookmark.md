@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-05-07T23:17:54+09:00"
+update = "2018-05-15T20:42:53+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -717,6 +717,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [golangのruntimeからアクセスする/etcのファイル - Qiita](https://qiita.com/tetsu_koba/items/d9447eadf9c419264603)
 - [Go言語がWebAssemblyをサポートへ。GOARCHは「wasm」、GOOSは「js」に － Publickey](http://www.publickey1.jp/blog/18/gowebassemblygoarchwasmgoosjs.html)
 - [Go にとても長い式を食べさせると死ぬ - Qiita](https://qiita.com/Nabetani/items/e850ad92ba79640bfcd7)
+- [Language and Locale Matching in Go - The Go Blog](https://blog.golang.org/matchlang)
+- [Go言語(Golang) はまりどころと解決策](http://www.yunabe.jp/docs/golang_pitfall.html)
 
 ### 他言語との比較もしくは移行
 
