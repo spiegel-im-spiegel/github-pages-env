@@ -1,10 +1,9 @@
 +++
 title = "政府標準利用規約と CC Licenses"
-date =  "2018-05-17T13:03:09+09:00"
+date = "2018-05-19T18:30:25+09:00"
 description = "クレジットと（改変する場合は）原典さえ示せばやりたい放題だし，もちろん文書を有料で売ることもできる。"
 image = "/images/attention/kitten.jpg"
 tags        = [ "copyright", "license", "creative-commons", "politics" ]
-draft = true
 
 [author]
   name      = "Spiegel"
