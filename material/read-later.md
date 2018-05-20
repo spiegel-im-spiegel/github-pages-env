@@ -41,9 +41,6 @@
 - [Atom 1.27 | Atom Blog](https://blog.atom.io/2018/05/15/atom-1-27.html)
     - [無償コードエディター「Atom」の最新版v1.27、「GitHub」連携機能が大幅に改善 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1122212.html)
 
-- [JVN#91151862: Microsoft 製の複数の Windows アプリケーションおよびインストーラにおける DLL 読み込みに関する脆弱性](https://jvn.jp/jp/JVN91151862/)
-- [JVN#81196185: Visual C++ 再頒布可能パッケージのインストーラにおける DLL 読み込みの脆弱性](https://jvn.jp/jp/JVN81196185/)
-
 ## Age of Trump
 
 - [MIT Tech Review: AIでも「米国第一」、トランプ政権が発表したしょぼすぎる政策](https://www.technologyreview.jp/s/87274/the-white-house-says-a-new-ai-task-force-will-protect-workers-and-keep-america-first/)
@@ -57,7 +54,6 @@
 - [安倍首相も参加表明「NATO組織」が恐れるサイバー脅威の実態：山田敏弘 | 記事 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43695)
 - [Facebookユーザーデータ、300万人分が流出の可能性 - CNET Japan](https://japan.cnet.com/article/35119154/)
 - [捜査当局によるバックドア作成要求を禁止する法案、米議会で提出 - ZDNet Japan](https://japan.zdnet.com/article/35119093/)
-    - [cmd.exeのせいで子プロセス呼び出しが脆弱になっちゃう件](https://qiita.com/igrep/items/0f9a9610294fd7de453c)
 - [Sending Inaudible Commands to Voice Assistants - Schneier on Security](https://www.schneier.com/blog/archives/2018/05/sending_inaudib.html)
 - [グーグルのProject Zero、「Microsoft Edge」のセキュリティ機能に不具合を指摘 - ZDNet Japan](https://japan.zdnet.com/article/35119065/)
 - [開発フレームワークElectronのエクスプロイトでWebとモバイルの人気アプリが危険  |  TechCrunch Japan](https://jp.techcrunch.com/2018/05/15/2018-05-14-exploit-puts-popular-web-and-mobile-apps-at-risk/)

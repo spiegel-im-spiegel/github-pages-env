@@ -2,7 +2,7 @@
 
 [{{ .Info.ID }}]({{ .Info.URI }} "{{ .Info.Title }}") が発行されたので以下に書き出しておく。
 
-% fig-quote title=".Info.Title" link="{{ .Info.URI }}" %
+% fig-quote title="{{ .Info.Title }}" link="{{ .Info.URI }}" %
 ## 脆弱性の概要
 
 {{ .Info.Description }}
