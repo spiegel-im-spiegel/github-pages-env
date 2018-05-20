@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-05-15T20:42:53+09:00"
+update = "2018-05-20T18:16:22+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -181,6 +181,7 @@ title = "Go 言語に関するブックマーク"
 - [uint64型を[]bytes型に変換する - Qiita](http://qiita.com/joniyjoniy/items/cbfb7d5c49aec5bf63c0)
 - [golangのequalityの評価について - podhmo's diary](http://pod.hatenablog.com/entry/2016/07/30/204357)
     - [Goで違うmapであることをテストする - Qiita](https://qiita.com/karupanerura/items/03d6766fd8568c15fc90)
+- [文字列をn個後ろにずらす処理を本気でやる - Qiita](https://qiita.com/smith_30/items/eec0ba2e4ec63fe879a0)
 
 ### 入出力処理
 
