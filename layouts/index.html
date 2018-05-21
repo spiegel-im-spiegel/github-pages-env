@@ -27,7 +27,7 @@
 </section> <!-- 最近の記事 -->
 
 <section>
-<h2><a href="{{ "/tags/" | relURL }}">Tags</a> 一覧</h2>
+<h2>主な <a href="{{ "/tags/" | relURL }}">Tags</a> 一覧</h2>
 <ul class="cloud" style="font-size:smaller;">
 	{{ range $key, $value := .Site.Taxonomies.tags.Alphabetical }}{{ if ge $value.Count 20 }}<li>#<a href="/tags/{{ $value.Name | urlize }}">{{ $value.Name }}</a> ({{ $value.Count }})</li>{{ end }}{{ end }}
 </ul>
