@@ -1,6 +1,6 @@
 +++
 date = "2015-09-05T20:32:00+09:00"
-update = "2016-12-06T17:19:18+09:00"
+update = "2018-05-21T13:22:59+09:00"
 description = "text.Baldanders.info の運用方針について説明します。"
 tags = ["site", "policy", "privacy", "copyright", "link"]
 title = "text.Baldanders.info について"
@@ -24,7 +24,7 @@ title = "text.Baldanders.info について"
   mermaidjs = false
 +++
 
-ここでは [text.Baldanders.info](/) （以降「[本サイト]」と呼びます）の運用方針について説明します。
+ここでは [text.Baldanders.info]({{< rlnk "/" >}}) （以降「[本サイト]」と呼びます）の運用方針について説明します。
 
 ## コンテンツの利用について{#rights}
 
@@ -32,9 +32,9 @@ title = "text.Baldanders.info について"
 サイト中のコンテンツ（画像や文章など）のうちクレジットが示されているものについては，それぞれの著作（権）者に著作権が帰属します（リンクが張られている場合はリンク元の著作（権）者に著作権が帰属すると考えてください）。
 
 [Creative Commons Licenses](https://creativecommons.org/licenses/) が設定されているコンテンツは指定された条件の範囲内で自由に複製・配布・改変等を行うことが可能です。
-クリエイティブ・コモンズ・ライセンスについては拙文「[CC Licenses について](/cc-licenses/)」を参照してください。
+クリエイティブ・コモンズ・ライセンスについては拙文「[CC Licenses について]({{< rlnk "/cc-licenses/" >}})」を参照してください。
 
-[本サイト]の各ページへのリンクは自由です。
+[本サイト]の各ページへのリンクは，目的の如何にかかわらず，自由です。
 リンクについての考え方は東北大学の後藤斉さんによる「[ウェブページのリンクおよびその他の利用について](http://www.sal.tohoku.ac.jp/~gothit/webpolicy.html)」が参考になります[^eu]。
 
 [^eu]: 2016年，欧州司法裁判所において営利目的のサイトからのリンクで著作権侵害コンテンツと知っている場合については公衆送信となりうる（つまり著作（権）者に無断でリンクを張れない）という判断が示されました。（参考： [欧州司法裁、侵害コンテンツへのリンクを著作権侵害と判断 – P2Pとかその辺のお話R](http://p2ptk.org/copyright/553)，[「無許諾コンテンツにはリンクを貼るだけで著作権侵害」--EU判決とリンクの自由 - CNET Japan](http://japan.cnet.com/news/business/35088980/)）
@@ -49,17 +49,25 @@ title = "text.Baldanders.info について"
 
 ## プライバシーに関する方針{#privacy}
 
-管理者は[本サイト]ではアクセス監視をしていませんが，[ホスティングを行っている企業](https://github.com/)はユーザの行動を監視している可能性があります。また[本サイト]と連携している他サービスが個人情報の収集や行動追跡を行っている可能性はあります。
+[本サイト]の運用において cookie 等を用いたユーザの情報追跡は行っておらずアクセス履歴も保持していませんが，[ホスティング・サービス提供側](https://pages.github.com/)はユーザ情報の追跡や収集を行っている可能性があります。
+また[本サイト]と連携している他サービスではユーザ情報の追跡や収集を行っている可能性があります。
 
 本サイトと連携しているサービス（主なもの）：
 
+- [Flickr](https://www.flickr.com/)
 - [Twitter](https://twitter.com/)
 - [Facebook](https://www.facebook.com/)
+- [YouTube](https://www.youtube.com/)
 - [Amazonアソシエイト](https://affiliate.amazon.co.jp/)
-- [Disqus](https://disqus.com/)
+- [Google Search Console](https://support.google.com/webmasters/answer/4559176)
+- [Disqus](https://disqus.com/) : フィードバック用のコメント・ツール
 
-[本サイト]において追跡情報等をフィルタリングしても利用に支障はありません。
-追跡情報のフィルタリングとしては追跡情報をブロックする一部の広告ブロック・アプリや VPN アプリ，あるいはプライバシー保護機能付きのブラウザがあります。
+Cookie 等を用いた情報追跡をブロックしても[本サイト]の利用に支障はありません。
+情報追跡のブロック手段としては一部の広告ブロック・アプリや VPN アプリ，あるいはプライバシー保護機能付きのブラウザがあります。
+情報追跡をブロックできるブラウザとして以下を推奨します。
+
+- [Firefox Focus](https://support.mozilla.org/ja/kb/focus)  ([Android](https://play.google.com/store/apps/details?id=org.mozilla.focus)/[iOS](https://itunes.apple.com/app/id1055677337))
+- [Firefox Quantum](https://www.mozilla.org/firefox/)
 
 ### OpenPGP 公開鍵
 
@@ -68,4 +76,4 @@ title = "text.Baldanders.info について"
 
 - [OpenPGP 公開鍵リスト — Baldanders.info](http://www.baldanders.info/spiegel/pubkeys/)
 
-[本サイト]: / "text.Baldanders.info"
+[本サイト]: {{< rlnk "/" >}} "text.Baldanders.info"
