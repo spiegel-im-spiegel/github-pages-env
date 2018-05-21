@@ -1,7 +1,7 @@
 +++
 title = "階級社会としてのインターネット"
 date = "2018-05-21T07:00:53+09:00"
-update = "2018-05-21T17:25:37+09:00"
+update = "2018-05-21T19:02:15+09:00"
 description = "それが暴力であれ財力であれ情報力であれ，結局は “Power” を背景にした階級社会を構成してしまうという点で人類はあまり進歩していないのかもしれない。"
 image = "/images/attention/kitten.jpg"
 tags        = [ "code", "politics", "internet", "blockchain", "grigori" ]
