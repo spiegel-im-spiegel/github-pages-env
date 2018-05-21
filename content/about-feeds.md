@@ -1,6 +1,6 @@
 +++
 date = "2017-01-25T17:28:42+09:00"
-update = "2018-03-03T17:40:42+09:00"
+update = "2018-05-21T19:04:37+09:00"
 title = "更新情報について"
 tags = ["site", "feed"]
 description = "text.Baldanders.info ではサイトの更新情報を提供しています。"
@@ -32,7 +32,8 @@ description = "text.Baldanders.info ではサイトの更新情報を提供し�
 
 [本サイト]全体の更新情報は以下の URL から取得できます。
 
-- {{< lnk "index.xml" >}}
+- [{{< lnk "index.xml" >}}]({{< rlnk "index.xml" >}})
+- [{{< lnk "sitemap.xml" >}}]({{< rlnk "sitemap.xml" >}})
 
 ## セクションごとの更新情報
 
