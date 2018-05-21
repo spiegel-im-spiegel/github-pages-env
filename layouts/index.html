@@ -24,100 +24,70 @@
 <ul class="title-list">
 {{ range first 5 (where .Site.Pages "Section" "!=" "bookmarks") }}{{ partial "li.html" . }}{{ end }}
 </ul>
+</section> <!-- 最近の記事 -->
 
 <section>
-<h3>Popular <a href="/tags/">Tags</a></h3>
+<h2><a href="{{ "/tags/" | relURL }}">Tags</a> 一覧</h2>
 <ul class="cloud" style="font-size:smaller;">
 	{{ range $key, $value := .Site.Taxonomies.tags.Alphabetical }}{{ if ge $value.Count 20 }}<li>#<a href="/tags/{{ $value.Name | urlize }}">{{ $value.Name }}</a> ({{ $value.Count }})</li>{{ end }}{{ end }}
 </ul>
 </section> <!-- Tags -->
 
 <section>
-<h3>本日の<a href="/bookmarks/">ブックマーク</a> <a href='/bookmarks/index.xml' title='Feed'><i class='fas fa-rss'></i></a></h3>
-<ul class="cloud">
-	{{ range first 1 (where .Site.Pages "Section" "==" "bookmarks") }}{{ partial "li-section.html" . }}{{ end }}
-</ul>
-</section> <!-- Tags -->
-</section> <!-- 最近の記事 -->
-
-<section>
-<h2>特集記事</h2>
-
-<section>
-<h3><a href="/remark">しっぽのさきっちょ</a> <a href='/remark/index.xml' title='Feed'><i class='fas fa-rss'></i></a></h3>
-<p>「<a href="http://www.baldanders.info/spiegel/log/">しっぽのさきっちょ</a>」が帰ってきたよ。日記風コンテンツ。</p>
-
-<section>
-<h4>最新記事</h4>
+<h2>Sections 一覧</h2>
 <ul class="title-list">
-{{ range first 1 (where .Site.Pages "Section" "==" "remark") }}{{ partial "li-section.html" . }}{{ end }}
+
+<li><a href="{{ "/remark/" | relURL }}"><em>[remark] しっぽのさきっちょ</em></a> <a href='{{ "/remark/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
+	<span style="font-size:smaller;">{{ range first 1 (where .Site.Pages "Section" "==" "remark") }}
+		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Params.author.name }} by {{ . }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
+		{{ end }}<br>&raquo; 「<a href="http://www.baldanders.info/spiegel/log/">しっぽのさきっちょ</a>」が帰ってきたよ。日記風コンテンツ。
+	</span>
+</li>
+
+<li><a href="{{ "/release/" | relURL }}"><em>[release] リリース情報</em></a> <a href='{{ "/release/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
+	<span style="font-size:smaller;">{{ range first 1 (where .Site.Pages "Section" "==" "release") }}
+		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Params.author.name }} by {{ . }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
+		{{ end }}<br>&raquo; 自作パッケージ・ツールのリリース情報と気になるツール・サービスの情報について。
+	</span>
+</li>
+
+<li><a href="{{ "/golang/" | relURL }}"><em>[golang] プログラミング言語 Go</em></a> <a href='{{ "/golang/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
+	<span style="font-size:smaller;">{{ range first 1 (where .Site.Pages "Section" "==" "golang") }}
+		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Params.author.name }} by {{ . }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
+		{{ end }}<br>&raquo; Go 言語に関する話題。
+	</span>
+</li>
+
+<li><a href="{{ "/openpgp/" | relURL }}"><em>[openpgp] OpenPGP の実装</em></a> <a href='{{ "/openpgp/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
+	<span style="font-size:smaller;">{{ range first 1 (where .Site.Pages "Section" "==" "openpgp") }}
+		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Params.author.name }} by {{ . }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
+		{{ end }}<br>&raquo; OpenPGP とその実装である GnuPG 等に関する話題。
+	</span>
+</li>
+
+<li><a href="{{ "/hugo/" | relURL }}"><em>[hugo] ゼロから始める Hugo</em></a> <a href='{{ "/hugo/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
+	<span style="font-size:smaller;">{{ range first 1 (where .Site.Pages "Section" "==" "hugo") }}
+		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Params.author.name }} by {{ . }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
+		{{ end }}<br>&raquo; <a href="http://www.baldanders.info/">本家サイト</a>のブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。その際のメモを公開する。
+	</span>
+</li>
+
+<li><a href="{{ "/cc-licenses/" | relURL }}"><em>[cc-licenses] 改訂3版： CC Licenses について</em></a> <a href='{{ "/cc-licenses/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
+	<span style="font-size:smaller;">{{ range first 1 (where .Site.Pages "Section" "==" "cc-licenses") }}
+		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Params.author.name }} by {{ . }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
+		{{ end }}<br>&raquo; <a href="http://www.baldanders.info/">本家サイト</a>の「<a href="http://www.baldanders.info/spiegel/archive/cc-license/">クリエイティブ・コモンズ・ライセンスについて</a>」を大幅リニューアル。
+	</span>
+</li>
+
+<li><a href="{{ "/bookmarks/" | relURL }}"><em>[bookmarks] ブックマーク</em></a> <a href='{{ "/bookmarks/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
+	<span style="font-size:smaller;">{{ range first 1 (where .Site.Pages "Section" "==" "bookmarks") }}
+		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Params.author.name }} by {{ . }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
+		{{ end }}<br>&raquo; いままで <a href="http://del.icio.us/">del.icio.us</a> （旧 <a href="https://delicious.com/spiegel">delicious.com</a>）で収集していたブックマークの代替として運用してみるテスト。
+	</span>
+</li>
+
 </ul>
-</section> <!-- 最近の記事 -->
-</section> <!-- しっぽのさきっちょ -->
-
-<section>
-<h3><a href="/hugo">ゼロから始める Hugo</a> <a href='/hugo/index.xml' title='Feed'><i class='fas fa-rss'></i></a></h3>
-<p>
-<a href="http://www.baldanders.info/">本家サイト</a>のブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。
-ここではその時のメモを公開する。
-</p>
-<section>
-<h4>最新記事</h4>
-<ul class="title-list">
-{{ range first 1 (where .Site.Pages "Section" "==" "hugo") }}{{ partial "li-section.html" . }}{{ end }}
-</ul>
-</section> <!-- 最近の記事 -->
-</section> <!-- ゼロから始める Hugo -->
-
-<section>
-<h3><a href="/golang">プログラミング言語 Go</a> <a href='/golang/index.xml' title='Feed'><i class='fas fa-rss'></i></a></h3>
-<p>Go 言語に関する話題。</p>
-
-<section>
-<h4>最新記事</h4>
-<ul class="title-list">
-{{ range first 1 (where .Site.Pages "Section" "==" "golang") }}{{ partial "li-section.html" . }}{{ end }}
-</ul>
-</section> <!-- 最近の記事 -->
-</section> <!-- プログラミング言語 Go -->
-
-<section>
-<h3><a href="/cc-licenses">改訂3版： CC Licenses について</a> <a href='/cc-licenses/index.xml' title='Feed'><i class='fas fa-rss'></i></a></h3>
-<p><a href="http://www.baldanders.info/">本家サイト</a>の「<a href="http://www.baldanders.info/spiegel/archive/cc-license/">クリエイティブ・コモンズ・ライセンスについて</a>」を大幅リニューアル。</p>
-
-<section>
-<h4>最新記事</h4>
-<ul class="title-list">
-{{ range first 1 (where .Site.Pages "Section" "==" "cc-licenses") }}{{ partial "li-section.html" . }}{{ end }}
-</ul>
-</section> <!-- 最近の記事 -->
-</section> <!-- 改訂3版： CC Licenses について -->
-
-<section>
-<h3><a href="/openpgp">OpenPGP の実装</a> <a href='/openpgp/index.xml' title='Feed'><i class='fas fa-rss'></i></a></h3>
-<p>OpenPGP とその実装である GnuPG 等に関する話題。</p>
-
-<section>
-<h4>最新記事</h4>
-<ul class="title-list">
-{{ range first 1 (where .Site.Pages "Section" "==" "openpgp") }}{{ partial "li-section.html" . }}{{ end }}
-</ul>
-</section> <!-- 最近の記事 -->
-</section> <!-- OpenPGP の実装 -->
-
-<section>
-<h3><a href="/release">リリース情報</a> <a href='/release/index.xml' title='Feed'><i class='fas fa-rss'></i></a></h3>
-<p>自作パッケージ・ツールのリリース情報と気になるツール・サービスの情報について。</p>
-
-<section>
-<h4>最新記事</h4>
-<ul class="title-list">
-{{ range first 1 (where .Site.Pages "Section" "==" "release") }}{{ partial "li-section.html" . }}{{ end }}
-</ul>
-</section> <!-- 最近の記事 -->
-</section> <!-- リリース情報 -->
-
-</section> <!-- 特集記事 -->
+</section> <!-- Sections -->
 
 <section>
 <h2>終了した日記・ブログ</h2>
