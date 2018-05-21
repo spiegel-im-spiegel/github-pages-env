@@ -24,7 +24,7 @@ description = "text.Baldanders.info ではサイトの更新情報を提供し�
   mermaidjs = false
 +++
 
-[text.Baldanders.info](/) （以降「[本サイト]」と呼びます）ではサイトの更新情報を提供しています。
+[text.Baldanders.info]({{< rlnk "/" >}}) （以降「[本サイト]」と呼びます）ではサイトの更新情報を提供しています。
 更新情報の詳細は以下の通りです。
 なお，フォーマットはいずれも Atom Syndication 形式で， [Feedly](https://feedly.com/) などお好みの feed reader に取り込めます。
 
@@ -32,29 +32,29 @@ description = "text.Baldanders.info ではサイトの更新情報を提供し�
 
 [本サイト]全体の更新情報は以下の URL から取得できます。
 
-- http://text.baldanders.info/index.xml
+- {{< lnk "index.xml" >}}
 
 ## セクションごとの更新情報
 
 [本サイト]では以下のセクションごとに更新情報を提供しています。
 URL は以下の通りです。
 
-| セクション名                                    | 更新情報の URL                                    |
-|:----------------------------------------------- |:------------------------------------------------- |
-| [しっぽのさきっちょ](/remark/)                  | http://text.baldanders.info/remark/index.xml      |
-| [ゼロから始める Hugo](/hugo/)                   | http://text.baldanders.info/hugo/index.xml        |
-| [プログラミング言語 Go](/golang/)               | http://text.baldanders.info/golang/index.xml      |
-| [改訂3版： CC Licenses について](/cc-licenses/) | http://text.baldanders.info/cc-licenses/index.xml |
-| [OpenPGP の実装](/openpgp/)                     | http://text.baldanders.info/openpgp/index.xml     |
-| [ブックマーク集](/bookmarks/)                   | http://text.baldanders.info/bookmarks/index.xml   |
-| [リリース情報](/release/)                       | http://text.baldanders.info/release/index.xml     |
+| セクション名                                    | 更新情報の URL                      |
+|:----------------------------------------------- |:----------------------------------- |
+| [しっぽのさきっちょ]({{< rlnk "remark/" >}}) | [{{< lnk "remark/index.xml" >}}]({{< rlnk "remark/index.xml" >}})      |
+| [ゼロから始める Hugo]({{< rlnk "hugo/" >}}) | [{{< lnk "hugo/index.xml" >}}]({{< rlnk "hugo/index.xml" >}})        |
+| [プログラミング言語 Go]({{< rlnk "golang/" >}}) | [{{< lnk "golang/index.xml" >}}]({{< rlnk "golang/index.xml" >}})      |
+| [改訂3版： CC Licenses について]({{< rlnk "cc-licenses/" >}}) | [{{< lnk "cc-licenses/index.xml" >}}]({{< rlnk "cc-licenses/index.xml" >}}) |
+| [OpenPGP の実装]({{< rlnk "openpgp/" >}}) | [{{< lnk "openpgp/index.xml" >}}]({{< rlnk "openpgp/index.xml" >}})     |
+| [ブックマーク集]({{< rlnk "bookmarks/" >}}) | [{{< lnk "bookmarks/index.xml" >}}]({{< rlnk "bookmarks/index.xml" >}})   |
+| [リリース情報]({{< rlnk "release/" >}})  | [{{< lnk "release/index.xml" >}}]({{< rlnk "release/index.xml" >}})     |
 
 ## タグごとの更新情報
 
-[本サイト]では[タグ](/tags/)ごとに更新情報を提供しています。
-たとえば [astronomy](/tags/astronomy/) タグであれば以下の URL となります。
+[本サイト]では[タグ]({{< rlnk "tags/" >}})ごとに更新情報を提供しています。
+たとえば [astronomy]({{< rlnk "tags/astronomy/" >}}) タグであれば以下の URL となります。
 
-- [http://text.baldanders.info/tags/**astronomy**/index.xml](http://text.baldanders.info/tags/astronomy/index.xml)
+- [{{< lnk "tags/" >}}**astronomy**/index.xml]({{< rlnk "tags/astronomy/index.xml" >}})
 
 ## ブックマーク
 
@@ -63,4 +63,4 @@ URL は以下の通りです。
 - [最強RSSリーダーを選ぶならfeedlyではなくinoreaderが一番おすすめかもしれない１２の理由 - ウェブ企画ラボ](https://webkikaku.co.jp/blog/software/inoreader/)
 - [SlackをRSSリーダーにしたら、他のRSSリーダーサービスを使わなくなった話 - Qiita](http://qiita.com/kozyty@github/items/f094ae8fea08b471ae08)
 
-[本サイト]: / "text.Baldanders.info"
+[本サイト]: {{< rlnk "/" >}} "text.Baldanders.info"
