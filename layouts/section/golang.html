@@ -27,9 +27,9 @@
 </p>
 
 <h2>記事の一覧</h2>
-<ol>
-{{ range .Data.Pages.ByDate }}{{ partial "li-section.html" . }}{{ end }}
-</ol>
+<ul class="title-list">
+{{ range .Data.Pages }}{{ partial "li-section.html" . }}{{ end }}
+</ul>
 
 </article>
 </main>

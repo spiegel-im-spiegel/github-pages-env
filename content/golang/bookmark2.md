@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T23:59:59+09:00"
-update = "2018-05-07T23:17:54+09:00"
+update = "2018-05-23T21:07:20+09:00"
 description = "「Go 言語に関するブックマーク」に整理しきれない未整理分。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -124,3 +124,5 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [ブラックジャックをGoで実装してみた。 - Qiita](https://qiita.com/aimof/items/2220bc1f1f0754f62870)
 - [golang.org/x/oauth2で色々な認可フローや方言に対応する - Qiita](https://qiita.com/lufia/items/e5344596975676865c3b)
 - [io.Pipe関数の２つのdeadlockポイント - Qiita](https://qiita.com/iwaaya/items/59a51706644a6b86b5d6)
+- [golangで計算量オーダーを実感する - Qiita](https://qiita.com/soy-curd/items/f5757f6a654c51e75deb)
+- [CLI で esa.io の記事を作成するツール esautils を作りました - Qiita](https://qiita.com/uobikiemukot/items/4a34de27a694d9e33649)

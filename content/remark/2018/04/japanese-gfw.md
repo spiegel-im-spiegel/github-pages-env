@@ -1,7 +1,7 @@
 +++
 title = "日本版「グレート・ファイアウォール」に関するブックマーク集"
 date = "2018-04-25T16:12:41+09:00"
-update = "2018-05-15T20:42:53+09:00"
+update = "2018-05-23T21:07:20+09:00"
 description = "情報収集しつつ個人でどこまで武装できるか，これから少しずつ考えていくことにする。"
 image = "/images/attention/kitten.jpg"
 tags = [ "censorship", "internet", "code", "law", "politics" ]
@@ -54,6 +54,7 @@ tags = [ "censorship", "internet", "code", "law", "politics" ]
 - [Cloudflare、セキュアで最速な一般向けDNSサービス「1.1.1.1」提供開始 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1804/02/news074.html)
 - [Cloudflareが1.1.1.1で超高性能DNS始めたし、いっちょ俺のパソコンもDNS over HTTPSしてみる - Qiita](https://qiita.com/onokatio/items/42fb4a2811600680591b)
 - [Cloudflareの1.1.1.1が「DNS over Twitter」を開始。ドメイン名をツイートすると即座にIPアドレスを返答 － Publickey](http://www.publickey1.jp/blog/18/cloudflare1111dns_over_twitterip.html)
+- [ラズパイとBINDでDNSブロッキングを回避する | 日経 xTECH（クロステック）](http://tech.nikkeibp.co.jp/atcl/nxt/column/18/00079/00012/)
 
 ## ネットワーク関連
 
@@ -100,6 +101,7 @@ tags = [ "censorship", "internet", "code", "law", "politics" ]
 - [「ネット中立性」規則、6月に撤廃へ--通信会社の自由が拡大 - CNET Japan](https://japan.cnet.com/article/35119001/)
 - ['Anonymous' Hackers Deface Russian Govt. Site to Protest Web-Blocking (NSFW) - TorrentFreak](https://torrentfreak.com/anonymous-hackers-deface-russian-govt-site-to-protest-web-blocking-nsfw-180512/)
 - [ネットの自由を守り、無法地帯にしないために――NTTグループがブロッキングを決断した理由 - ITmedia Mobile](http://www.itmedia.co.jp/mobile/articles/1805/11/news136.html)
+- [ISP Telenor Will Block The Pirate Bay in Sweden Without a Shot Fired - TorrentFreak](https://torrentfreak.com/isp-telenor-will-block-the-pirate-bay-in-sweden-without-a-shot-fired-180520/)
 
 ## 参考図書
 

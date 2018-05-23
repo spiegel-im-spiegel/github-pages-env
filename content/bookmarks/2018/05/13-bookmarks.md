@@ -1,6 +1,7 @@
 +++
 title = "2018-05-13 のブックマーク"
 date =  "2018-05-13T13:27:21+09:00"
+update = "2018-05-23T21:07:20+09:00"
 description = "「State of the Commons 2017」他"
 image = "/images/avatar.jpg"
 
@@ -62,6 +63,7 @@ flattr    = "spiegel"
 - [ヒトは火星に住めるのか？MDRSで探る！ | academist (アカデミスト)](https://academist-cf.com/projects/62)
 - [お知らせ - ハワイ島で発生した地震の影響について - すばる望遠鏡](https://www.subarutelescope.org/Announce/2018/05/05/j_index.html)
     - [お知らせ - ハワイ島で発生した地震の影響について (第二報) - すばる望遠鏡](https://www.subarutelescope.org/Announce/2018/05/08/j_index.html)
+    - [お知らせ - ハワイ島で発生した地震の影響について (最終報) - すばる望遠鏡](https://www.subarutelescope.org/Announce/2018/05/19/j_index.html)
 - [Watching NASA's InSight Mars Lander Launch Saturday? Here's What to Expect](https://www.space.com/40497-insight-mars-lander-launch-what-to-expect.html)
     - [火星探査機「インサイト」打ち上げ成功　11月26日に着陸し地質調査を予定 | sorae：宇宙（そら）へのポータルサイト](https://sorae.info/030201/2018_05_06_insight.html)
 - [2018年5月11日ニュース「太陽の自転が日本の雷に影響を与えている」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/05/20180511_01.html)
