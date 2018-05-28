@@ -3,7 +3,7 @@ title = "5月25日が近づいたのでサイト・ポリシーを更新した"
 date = "2018-05-21T19:58:25+09:00"
 description = "少なくとも携帯端末での利用は Firefox Focus 等の安全なブラウザを利用しましょう，ということで。"
 image = "/images/attention/kitten.jpg"
-tags = [ "site", "privacy", "policy" ]
+tags = [ "site", "privacy", "policy", "gdpr" ]
 
 [author]
   name      = "Spiegel"
