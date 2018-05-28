@@ -17,10 +17,6 @@
 - [フェイクニュースの需要と供給 | mhatta's mumbo jumbo](http://www.mhatta.org/wp/blog/2018/03/08/supply-and-demand-of-fakenews/)
     - [民主主義のその先へ（1） | mhatta's mumbo jumbo](http://www.mhatta.org/wp/blog/2018/03/15/beyond-democracy-1/)
 
-- [ザッカーバーグはどうやら欧州で味方をつくれなかったようだ  |  TechCrunch Japan](https://jp.techcrunch.com/2018/05/24/2018-05-22-zuckerberg-didnt-make-any-friends-in-europe-today/)
-- [GDPR施行、“同意の強制”でさっそくFacebookとGoogleに対し初の提訴  |  TechCrunch Japan](https://jp.techcrunch.com/2018/05/26/2018-05-25-facebook-google-face-first-gdpr-complaints-over-forced-consent/)
-- [MIT Tech Review: GDPR施行で混乱、EUのアクセスをブロックするメディアも](https://www.technologyreview.jp/nl/gdpr-is-finally-here-and-its-already-chaos/)
-
 ### Autocrypt について
 
 - [Autocrypt 1.0.0 documentation](https://autocrypt.org/)
@@ -40,9 +36,6 @@
 - [「VMware Workstation 14」がWindows 10 April 2018 Update/Ubuntu 18.04をサポート - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1123186.html)
 - [「Wireshark」v2.6.1/2.4.7/2.2.15が公開、脆弱性を修正したメンテナンスリリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1123429.html)
 
-- [Hugo 0.41: Privacy Configuration for GDPR | Hugo](https://gohugo.io/news/0.41-relnotes/)
-    - [Release v0.41 · gohugoio/hugo · GitHub](https://github.com/gohugoio/hugo/releases/tag/v0.41)
-
 ## Age of Trump
 
 - [トランプの「中東和平の世紀のディール」はどのようなものになるのか：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43722)
@@ -50,7 +43,6 @@
 - [トランプ大統領、郵政公社にアマゾン配送料の倍増を要求  |  TechCrunch Japan](https://jp.techcrunch.com/2018/05/20/2018-05-18-trump-reportedly-pushed-usps-to-double-amazons-shipping-rates/)
 - [「リビア・モデル」を口実に北朝鮮が態度硬化：中国の意を受け「非核化」の条件で対立：春名幹男 | インテリジェンス・ナウ | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43732)
 - [イラク日報の"黒塗り"はまだ不十分だった | プレジデントオンライン](http://president.jp/articles/-/25165)
-
 - [トランプ大統領「緩和」の「環境規制」強化を迫られるエネルギー業界：岩瀬昇 | エネルギーの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43742)
 - [米朝首脳会談「中止」の衝撃（1）トランプ大統領「決断」の瞬間：平井久志 | 朝鮮半島の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43747)
     - [米朝首脳会談「中止」の衝撃（2）北朝鮮「5月16日」の豹変：平井久志 | 朝鮮半島の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43749)
@@ -73,7 +65,6 @@
 - [警察庁、システムを探る4種類の不審な通信に注意喚起 - ZDNet Japan](https://japan.zdnet.com/article/35119533/)
 - [JVNDB-2018-003396 - JVN iPedia - 脆弱性対策情報データベース](https://jvndb.jvn.jp/ja/contents/2018/JVNDB-2018-003396.html)
     - [「BIND 9.12.0/9.12.1」に脆弱性、修正版がリリース | Think IT（シンクイット）](https://thinkit.co.jp/news/bn/14100)
-
 - [Windowsの圧縮フォルダ機能にAES暗号が追加されない理由 | マイナビニュース](https://news.mynavi.jp/article/20180524-634985/)
 - [堅調に成長する国内DLPと暗号化／鍵管理製品市場、2022年には合計222億円規模に――IDC Japanが予測：改正個人情報保護法やマイナンバー法、GDPRで需要増 - ＠IT](http://www.atmarkit.co.jp/ait/articles/1805/25/news053.html)
 - [Amazon Echoが盗聴していた会話をアドレス登録した相手に送り付けるという驚愕の事件が発生 - GIGAZINE](https://gigazine.net/news/20180525-amazon-echo-invade-home-privacy/)
@@ -89,7 +80,6 @@
 - [ヒトは火星に住めるのか？ 擬似環境のデータで探る！ | academist (アカデミスト)](https://academist-cf.com/projects/62)
 - [​First interstellar immigrant discovered in the Solar System](http://www.ras.org.uk/news-and-press/3126-first-interstellar-immigrant-discovered-in-the-solar-system)
 - [アメリカの小惑星探査機オサイレス・レックス(オシリス・レックス)、目的地の小惑星到着は12月3日  |   月探査情報ステーション](https://moonstation.jp/blog/asteroidexp/osiris-rex/osiris-rex-to-arrive-at-asteroid-bennu-on-dec-3)
-
 - [SDO is GO: The First Signs of Solar Cycle 25](http://sdoisgo.blogspot.jp/2018/04/the-first-signs-of-solar-cycle-25.html)
 - [NASA 火星着陸探査機”InSight”インサイトに追従するキューブサットが見た「淡い青色の点”A Pale Blue Dot”」 | Space Topics 2018 | The Planetary Society of Japan - 日本惑星協会](http://planetary.jp/topics/JPL/2018-7124-jpl.html)
 
@@ -111,7 +101,6 @@
 - [Excelから関数型言語マスター番外編：なぜ関数型言語は習得できないか？ - Qiita](https://qiita.com/piacere_ex/items/8fad067885aed73bf789)
 - [Slackが「Actions」発表--メッセージからタスクの作成などが可能に - CNET Japan](https://japan.cnet.com/article/35119625/)
 - [RightScale 2018 State of the Cloud Report - Qiita](https://qiita.com/tsukamoto/items/23982691bb3ea7ed7e17)
-
 - [データ活用がもたらす未来が危機にある--“Hadoop産みの親”のカッティング氏 - ZDNet Japan](https://japan.zdnet.com/article/35119125/)
 - [ダンありがとう💕 - あれから5０年・・アンヌのひとりごと](https://blog.goo.ne.jp/anneinfi/e/5d929832e09caf85c2fab69eff3b5b47)
 - [MIT Tech Review: 「嘘つき」はわずか16％、心理学実験でわかった人間の意外な行動](https://www.technologyreview.jp/s/69804/a-field-guide-to-deception/)
