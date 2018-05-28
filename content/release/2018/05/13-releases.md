@@ -1,6 +1,7 @@
 +++
 title = "2018-05-13 のリリース情報"
 date =  "2018-05-13T13:28:55+09:00"
+update = "2018-05-28T20:08:28+09:00"
 description = "「「7-Zip」に任意コード実行の脆弱性、修正版のv18.05が公開 ～「PeaZip」なども更新」他"
 image = "/images/attention/tools.png"
 
@@ -45,6 +46,8 @@ image = "/images/attention/tools.png"
 - [「GIMP」v2.10が公開 ～画像処理エンジンを“GEGL”へ移行した大規模アップデート - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1120669.html)
 - [LibreOffice 6.0: Release Notes - The Document Foundation Wiki](https://wiki.documentfoundation.org/ReleaseNotes/6.0)
     - [無料オフィスソフト「LibreOffice」v6.0.4が公開 ～80件以上の不具合を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1121112.html)
+    - [CVE-2018-10583 | LibreOffice - Free Office Suite - Fun Project - Fantastic People](https://www.libreoffice.org/about-us/security/advisories/cve-2018-10583/)
+    - [「LibreOffice」に1件の脆弱性、ODF文書に埋め込まれたSMBリンクを介して情報が漏洩 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1123907.html)
 - [「Visual Studio Code」の4月更新が公開、インデントガイドの強調機能などを導入 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1120810.html)
 - [Microsoft、Linux/Macでも使える「Microsoft Edge」VMを更新 ～「April 2018 Update」に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1120921.html)
 - [アプリフレームワーク「Electron」がv2.0.0に、セマンティックバージョニングを採用へ - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1121037.html)

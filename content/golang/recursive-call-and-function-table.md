@@ -1,6 +1,6 @@
 +++
 date = "2016-01-18T22:59:07+09:00"
-update = "2017-01-19T11:35:44+09:00"
+update = "2018-05-28T20:08:28+09:00"
 description = "今回は再帰呼び出しの話。"
 draft = false
 tags = ["golang", "recursion"]
@@ -251,6 +251,7 @@ func f3(evt int) int {
 - [Goで再帰使うと遅くなりますがそれが何だ - YAMAGUCHI::weblog](http://ymotongpoo.hatenablog.com/entry/2015/02/23/165341)
 - [.\hoge.go:7: initialization loop - Qiita](http://qiita.com/zetamatta/items/cc0f29441b16d63472ed)
 - [Fibonacci exercise (go tour) - Qiita](http://qiita.com/penguin_dream/items/f1bdeb4c621a3e8d8990)
+- [Golangでゴルーチンにより再帰関数を並列処理](https://qiita.com/hiroykam/items/fdbb68ea21e5c67b8225) : 再帰処理を goroutine で並行処理するという業なコード。 goroutine が大量発生して面白い
 
 [Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
 

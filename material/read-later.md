@@ -17,6 +17,10 @@
 - [フェイクニュースの需要と供給 | mhatta's mumbo jumbo](http://www.mhatta.org/wp/blog/2018/03/08/supply-and-demand-of-fakenews/)
     - [民主主義のその先へ（1） | mhatta's mumbo jumbo](http://www.mhatta.org/wp/blog/2018/03/15/beyond-democracy-1/)
 
+- [ザッカーバーグはどうやら欧州で味方をつくれなかったようだ  |  TechCrunch Japan](https://jp.techcrunch.com/2018/05/24/2018-05-22-zuckerberg-didnt-make-any-friends-in-europe-today/)
+- [GDPR施行、“同意の強制”でさっそくFacebookとGoogleに対し初の提訴  |  TechCrunch Japan](https://jp.techcrunch.com/2018/05/26/2018-05-25-facebook-google-face-first-gdpr-complaints-over-forced-consent/)
+- [MIT Tech Review: GDPR施行で混乱、EUのアクセスをブロックするメディアも](https://www.technologyreview.jp/nl/gdpr-is-finally-here-and-its-already-chaos/)
+
 ### Autocrypt について
 
 - [Autocrypt 1.0.0 documentation](https://autocrypt.org/)
@@ -36,6 +40,9 @@
 - [「VMware Workstation 14」がWindows 10 April 2018 Update/Ubuntu 18.04をサポート - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1123186.html)
 - [「Wireshark」v2.6.1/2.4.7/2.2.15が公開、脆弱性を修正したメンテナンスリリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1123429.html)
 
+- [Hugo 0.41: Privacy Configuration for GDPR | Hugo](https://gohugo.io/news/0.41-relnotes/)
+    - [Release v0.41 · gohugoio/hugo · GitHub](https://github.com/gohugoio/hugo/releases/tag/v0.41)
+
 ## Age of Trump
 
 - [トランプの「中東和平の世紀のディール」はどのようなものになるのか：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43722)
@@ -44,6 +51,13 @@
 - [「リビア・モデル」を口実に北朝鮮が態度硬化：中国の意を受け「非核化」の条件で対立：春名幹男 | インテリジェンス・ナウ | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43732)
 - [イラク日報の"黒塗り"はまだ不十分だった | プレジデントオンライン](http://president.jp/articles/-/25165)
 
+- [トランプ大統領「緩和」の「環境規制」強化を迫られるエネルギー業界：岩瀬昇 | エネルギーの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43742)
+- [米朝首脳会談「中止」の衝撃（1）トランプ大統領「決断」の瞬間：平井久志 | 朝鮮半島の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43747)
+    - [米朝首脳会談「中止」の衝撃（2）北朝鮮「5月16日」の豹変：平井久志 | 朝鮮半島の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43749)
+    - [米朝首脳会談「中止」の衝撃（3）北朝鮮を「強硬姿勢」に変えた中国：平井久志 | 朝鮮半島の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43750)
+    - [米朝首脳会談「中止」の衝撃（4・了）互いに「読み違え」の行方：平井久志 | 朝鮮半島の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43751)
+- [急転直下の「米朝首脳会談」（上）トランプ「瀬戸際外交」に金正恩の「焦り」：平井久志 | 朝鮮半島の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43759)
+
 ## セキュリティ関連
 
 - [セキュリティ関連文書・リンクのまとめ - Qiita](https://qiita.com/hidemaru/items/18923bc01709764ef568)
@@ -51,6 +65,7 @@
     - [NHKスペシャル | 日本の諜報スクープ 最高機密ファイル](http://www6.nhk.or.jp/special/detail/index.html?aid=20180519) : 元記事。そのうち無くなるだろうけど
     - [Japan's Directorate for Signals Intelligence - Schneier on Security](https://www.schneier.com/blog/archives/2018/05/japans_director.html)
 - [Side-Channel Vulnerability Variants 3a and 4 | US-CERT](https://www.us-cert.gov/ncas/alerts/TA18-141A)
+    - [JVNVU#97971879: 投機的実行機能を持つ CPU に対するキャッシュサイドチャネル攻撃](https://jvn.jp/vu/JVNVU97971879/)
     - [「Spectre」「Meltdown」脆弱性に新たな変種 - CNET Japan](https://japan.cnet.com/article/35119525/)
     - [“Spectre”脆弱性の新しい亜種、各ベンダーが一斉に製品への影響と回避策を案内 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1123104.html)
     - [Another Spectre-Like CPU Vulnerability - Schneier on Security](https://www.schneier.com/blog/archives/2018/05/another_spectre.html)
@@ -58,6 +73,11 @@
 - [警察庁、システムを探る4種類の不審な通信に注意喚起 - ZDNet Japan](https://japan.zdnet.com/article/35119533/)
 - [JVNDB-2018-003396 - JVN iPedia - 脆弱性対策情報データベース](https://jvndb.jvn.jp/ja/contents/2018/JVNDB-2018-003396.html)
     - [「BIND 9.12.0/9.12.1」に脆弱性、修正版がリリース | Think IT（シンクイット）](https://thinkit.co.jp/news/bn/14100)
+
+- [Windowsの圧縮フォルダ機能にAES暗号が追加されない理由 | マイナビニュース](https://news.mynavi.jp/article/20180524-634985/)
+- [堅調に成長する国内DLPと暗号化／鍵管理製品市場、2022年には合計222億円規模に――IDC Japanが予測：改正個人情報保護法やマイナンバー法、GDPRで需要増 - ＠IT](http://www.atmarkit.co.jp/ait/articles/1805/25/news053.html)
+- [Amazon Echoが盗聴していた会話をアドレス登録した相手に送り付けるという驚愕の事件が発生 - GIGAZINE](https://gigazine.net/news/20180525-amazon-echo-invade-home-privacy/)
+- [死亡事故を起こしたUberの自動運転車は歩行者検出から衝突まで6秒あったのに緊急ブレーキが無効にされていた  |  TechCrunch Japan](https://jp.techcrunch.com/2018/05/25/2018-05-24-uber-in-fatal-crash-detected-pedestrian-but-had-emergency-braking-disabled/)
 
 ## 天文関連
 
@@ -69,6 +89,9 @@
 - [ヒトは火星に住めるのか？ 擬似環境のデータで探る！ | academist (アカデミスト)](https://academist-cf.com/projects/62)
 - [​First interstellar immigrant discovered in the Solar System](http://www.ras.org.uk/news-and-press/3126-first-interstellar-immigrant-discovered-in-the-solar-system)
 - [アメリカの小惑星探査機オサイレス・レックス(オシリス・レックス)、目的地の小惑星到着は12月3日  |   月探査情報ステーション](https://moonstation.jp/blog/asteroidexp/osiris-rex/osiris-rex-to-arrive-at-asteroid-bennu-on-dec-3)
+
+- [SDO is GO: The First Signs of Solar Cycle 25](http://sdoisgo.blogspot.jp/2018/04/the-first-signs-of-solar-cycle-25.html)
+- [NASA 火星着陸探査機”InSight”インサイトに追従するキューブサットが見た「淡い青色の点”A Pale Blue Dot”」 | Space Topics 2018 | The Planetary Society of Japan - 日本惑星協会](http://planetary.jp/topics/JPL/2018-7124-jpl.html)
 
 ## 知財関連
 
@@ -83,9 +106,19 @@
 - [『もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来』URL一覧への追加 - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20180521/goodbylook)
 - [Google Kubernetes Engine 1.10が正式リリース。ゾーンに分散したストレージのレプリケーション、マルチマスターを3つのゾーンに分散して高可用性を実現 － Publickey](https://www.publickey1.jp/blog/18/google_kubernetes_engine_1103.html)
 - [Rubyコミッター・Yuguiに学ぶ、コードに書くべき「適切なコメント」と「適切な場所」 - エンジニアHub｜若手Webエンジニアのキャリアを考える！](https://employment.en-japan.com/engineerhub/entry/2018/05/22/110000)
-- [さくらインターネット、政府衛星データをオープン、フリーに使えるプラットフォームを提供へ：衛星データと地上データを融合 - ＠IT](http://www.atmarkit.co.jp/ait/articles/1805/22/news131.html)
+- [さくらインターネット、「平成30年度政府衛星データのオープン＆フリー化及びデータ利用環境整備事業」の委託契約を締結](https://www.sakura.ad.jp/press/2018/0522_openandfree/)
+    - [さくらインターネット、政府衛星データをオープン、フリーに使えるプラットフォームを提供へ：衛星データと地上データを融合 - ＠IT](http://www.atmarkit.co.jp/ait/articles/1805/22/news131.html)
 - [Excelから関数型言語マスター番外編：なぜ関数型言語は習得できないか？ - Qiita](https://qiita.com/piacere_ex/items/8fad067885aed73bf789)
 - [Slackが「Actions」発表--メッセージからタスクの作成などが可能に - CNET Japan](https://japan.cnet.com/article/35119625/)
 - [RightScale 2018 State of the Cloud Report - Qiita](https://qiita.com/tsukamoto/items/23982691bb3ea7ed7e17)
+
+- [データ活用がもたらす未来が危機にある--“Hadoop産みの親”のカッティング氏 - ZDNet Japan](https://japan.zdnet.com/article/35119125/)
+- [ダンありがとう💕 - あれから5０年・・アンヌのひとりごと](https://blog.goo.ne.jp/anneinfi/e/5d929832e09caf85c2fab69eff3b5b47)
+- [MIT Tech Review: 「嘘つき」はわずか16％、心理学実験でわかった人間の意外な行動](https://www.technologyreview.jp/s/69804/a-field-guide-to-deception/)
+- [トランプ大統領はTwitterで誰もブロックしてはいけないという判決 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1805/24/news063.html)
+- [GUNはオープンソースのP2Pデータベース――ノードがオフラインでも機能する  |  TechCrunch Japan](https://jp.techcrunch.com/2018/05/24/2018-05-23-gun-raises-more-than-1-5m-for-its-decentralized-database-system/)
+- [Facebook、政治関連広告のラベル表示を米国で開始 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1805/25/news067.html)
+- [2018年5月25日レビュー「科学的に予測された地球温暖化の影響を治水計画に生かす初めての試み」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/review/2018/05/20180525_01.html)
+- [Kubernetes対応コンテナランタイム「containerd 1.1」正式リリース。CRIにネイティブ対応し、Dockerより軽量で高速な動作を実現 － Publickey](https://www.publickey1.jp/blog/18/kubernetescontainerd_11cridocker.html)
 
 <!-- eof -->

@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-05-23T21:07:20+09:00"
+update = "2018-05-28T20:08:28+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -118,6 +118,8 @@ title = "Go 言語に関するブックマーク"
 - [Big Sky :: Names](http://mattn.kaoriya.net/software/20160126101358.htm) : Golang の開発者 Russ Cox 氏による記事の抄訳。「変数名の長さ」について
 - [Go言語のキーワードが少ない理由 - Qiita](https://qiita.com/weloan/items/ce6e6dce36a6f774d841)
 - [Go の、型のない定数の精度 - Qiita](https://qiita.com/Nabetani/items/21ea926bb532cb0ac094)
+- [Goを読むその1：go installの流れ](https://qiita.com/junjis0203/items/de55bb69945f08a9166c)
+    - [Goを読むその2：compileコマンド（構文解析まで）](https://qiita.com/junjis0203/items/616c00086eb336153f4f)
 
 ### オブジェクトに関すること
 
