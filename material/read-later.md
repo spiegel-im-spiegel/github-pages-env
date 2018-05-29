@@ -3,7 +3,7 @@
 ## いつか買う，かも
 
 - [Amazon | 男と女-TWO HEARTS TWO VOICES- | 稲垣潤一 | J-POP | 音楽](https://www.amazon.co.jp/exec/obidos/ASIN/B001G6RB7W/baldandersinf-22/)
-- [「iPhone X/8」向けコスパ良好のおすすめアクセサリ - 2/25 - CNET Japan](https://japan.cnet.com/article/35112045/2/)
+- [「iPhone X/8」向けコスパ良好のおすすめアクセサリ - 2/25 - CNET Japan](https://japan.cnet.com/article/35112045/2/) : イヤホン
 - [O'Reilly Japan - テスト駆動開発による組み込みプログラミング](https://www.oreilly.co.jp/books/9784873116143/)
 
 ## あとで遊ぶ
@@ -13,9 +13,6 @@
 - [エミュレーター＝チートではない、スマホゲーはPCで楽しむ時代 | 日経 xTECH（クロステック）](http://tech.nikkeibp.co.jp/atcl/nxt/column/18/00134/030200021/)
 
 - [Photoshopがなくても簡単に作れる！無料のFavicon作成ツール7選｜ferret [フェレット]](https://ferret-plus.com/2610)
-
-- [フェイクニュースの需要と供給 | mhatta's mumbo jumbo](http://www.mhatta.org/wp/blog/2018/03/08/supply-and-demand-of-fakenews/)
-    - [民主主義のその先へ（1） | mhatta's mumbo jumbo](http://www.mhatta.org/wp/blog/2018/03/15/beyond-democracy-1/)
 
 ### Autocrypt について
 

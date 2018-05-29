@@ -1,9 +1,9 @@
 +++
 date = "2016-05-07T15:04:09+09:00"
-update = "2018-01-13T14:29:34+09:00"
+update = "2018-05-29T14:17:37+09:00"
 description = "『フィルターバブル』の6章は個人的にゲンナリした。これが冒頭に配置されてたらゴミ箱に放り込んでただろう。"
 draft = false
-tags = ["book", "code", "tracking", "internet", "artificial-intelligence", "grigori", "twitter", "facebook"]
+tags = ["book", "code", "tracking", "internet", "artificial-intelligence", "grigori", "twitter", "facebook", "censorship"]
 title = "『フィルターバブル』を読む"
 
 [author]
@@ -150,7 +150,9 @@ Facebook や Twitter のタイムラインにしろ Google の検索窓にしろ
 
 [^hw]: 知らない人のために一応解説しておくと， “Hello, World” は [C 言語の教科書，通称「K&R」](http://www.amazon.co.jp/exec/obidos/ASIN/4320026926/baldandersinf-22/ "プログラミング言語C 第2版 ANSI規格準拠 : B.W. カーニハン, D.M. リッチー, 石田 晴久 : 本 : Amazon")に出てくる最初のコードである。プログラマは新しい言語プラットフォームの動作確認の際に慣習的にこの “Hello, World” を表示するコードを書くことが多い。つまり「最初のテストケース」なのであり宗教的な意味はない。ちなみに GitHub には[各言語の “Hello, World” を集めたリポジトリ](https://github.com/leachim6/hello-world "leachim6/hello-world: Hello world in every programming language. Thanks to everyone who contributes to this, I read all pull requests!")が存在する。
 
-実は『[反知性主義]』は半分くらいまで読んで絶賛積読中なのだが，なんとか GW 中に読了して感想文を書いてみたいものである。
+実は『[反知性主義]』は半分くらいまで読んで絶賛積読中なのだが，なんとか GW 中に読了して感想文を書いてみたいものである[^ai1]。
+
+[^ai1]: 『[反知性主義]』の[感想文はこちら]({{< relref "remark/2016/09/anti-intellectualism.md" >}} "ようやく『反知性主義』を読んだ")。
 
 [フィルターバブル]: http://www.amazon.co.jp/exec/obidos/ASIN/4150504598/baldandersinf-22/ "フィルターバブル──インターネットが隠していること (ハヤカワ文庫NF) : イーライ・パリサー, 井口耕二 : 本 : Amazon"
 [CODE]: http://www.amazon.co.jp/exec/obidos/ASIN/B01CYDGUV8/baldandersinf-22/ "Amazon.co.jp: CODE VERSION 2.0 電子書籍: ローレンス・レッシグ, 山形浩生: Kindleストア"
