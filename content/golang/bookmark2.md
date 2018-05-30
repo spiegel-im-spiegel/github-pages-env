@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T23:59:59+09:00"
-update = "2018-05-23T21:07:20+09:00"
+update = "2018-05-30T19:09:44+09:00"
 description = "「Go 言語に関するブックマーク」に整理しきれない未整理分。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -126,3 +126,4 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [io.Pipe関数の２つのdeadlockポイント - Qiita](https://qiita.com/iwaaya/items/59a51706644a6b86b5d6)
 - [golangで計算量オーダーを実感する - Qiita](https://qiita.com/soy-curd/items/f5757f6a654c51e75deb)
 - [CLI で esa.io の記事を作成するツール esautils を作りました - Qiita](https://qiita.com/uobikiemukot/items/4a34de27a694d9e33649)
+- [KAMINASHI（カミナシ） | 誰でも使える食品工場管理アプリ](https://kaminashi.jp/) : バックエンドは Go 言語で書かれているらしい

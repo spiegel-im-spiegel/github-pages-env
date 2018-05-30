@@ -240,6 +240,8 @@ func (p *PageData) Render() ([]byte, error) {
 
 ## ブックマーク
 
+- [Go言語初学者がConfluenceをMarkdownで書くためのCLIツールを開発した話 - DMM inside](https://inside.dmm.com/entry/2018/05/28/golang-cli-tool) : Markdown 記法から Wiki 記法への変換
+
 - [Glide から Dep への移行を検討する]({{< relref "golang/consider-switching-from-glide-to-dep.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"

@@ -32,6 +32,9 @@
 - [「サクラエディタ」プロジェクトが“SourceForge.net”から“GitHub”への移行を検討 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1122960.html)
 - [「VMware Workstation 14」がWindows 10 April 2018 Update/Ubuntu 18.04をサポート - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1123186.html)
 - [「Wireshark」v2.6.1/2.4.7/2.2.15が公開、脆弱性を修正したメンテナンスリリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1123429.html)
+- [「Google Chrome 67」が正式版に ～“Spectre”脆弱性の緩和策“サイト分離”をテスト - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1124593.html)
+- [Apple、「iOS 11.4」を公開 ～“AirPlay 2”やメッセージの“iCloud”保存をサポート - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1124592.html)
+- [MariaDB Server 10.3/MariaDB TX 3.0リリース。Oracle Database互換機能を搭載し、同じデータ型やPL/SQLのストアドプロシジャをサポート － Publickey](https://www.publickey1.jp/blog/18/mariadb_server_103mariadb_tx_30oracle_databaseplsql.html)
 
 ## Age of Trump
 
@@ -46,6 +49,8 @@
     - [米朝首脳会談「中止」の衝撃（3）北朝鮮を「強硬姿勢」に変えた中国：平井久志 | 朝鮮半島の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43750)
     - [米朝首脳会談「中止」の衝撃（4・了）互いに「読み違え」の行方：平井久志 | 朝鮮半島の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43751)
 - [急転直下の「米朝首脳会談」（上）トランプ「瀬戸際外交」に金正恩の「焦り」：平井久志 | 朝鮮半島の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43759)
+    - [急転直下の「米朝首脳会談」（下）非核化「ロードマップ」の中身：平井久志 | 朝鮮半島の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43769)
+- [やわらかい頭で中東を知りたい人に：池内恵 | 記事 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43760)
 
 ## セキュリティ関連
 
@@ -66,6 +71,11 @@
 - [堅調に成長する国内DLPと暗号化／鍵管理製品市場、2022年には合計222億円規模に――IDC Japanが予測：改正個人情報保護法やマイナンバー法、GDPRで需要増 - ＠IT](http://www.atmarkit.co.jp/ait/articles/1805/25/news053.html)
 - [Amazon Echoが盗聴していた会話をアドレス登録した相手に送り付けるという驚愕の事件が発生 - GIGAZINE](https://gigazine.net/news/20180525-amazon-echo-invade-home-privacy/)
 - [死亡事故を起こしたUberの自動運転車は歩行者検出から衝突まで6秒あったのに緊急ブレーキが無効にされていた  |  TechCrunch Japan](https://jp.techcrunch.com/2018/05/25/2018-05-24-uber-in-fatal-crash-detected-pedestrian-but-had-emergency-braking-disabled/)
+- [虚偽の通報で無関係の人がSWATに誤射殺された事件で起訴された関係者に同様の前科が発覚、有罪であれば一生を刑務所で過ごすことに - GIGAZINE](https://gigazine.net/news/20180528-wichita-swatting-linked-cincinnati/)
+- [FBI、マルウェア「VPNFilter」対策でルータ再起動を呼びかけ - ZDNet Japan](https://japan.zdnet.com/article/35119836/)
+    - [高度なマルウェア「VPNFilter」が猛威、54カ国50万台超のルータに感染 - ZDNet Japan](https://japan.zdnet.com/article/35119707/)
+- [IPAテクニカルウォッチ「ウェブサイト開設等における運営形態の選定方法に関する手引き」：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/technicalwatch/20180530.html)
+- [HIDDEN COBRA – Joanap Backdoor Trojan and Brambul Server Message Block Worm | US-CERT](https://www.us-cert.gov/ncas/alerts/TA18-149A)
 
 ## 天文関連
 
@@ -106,5 +116,10 @@
 - [Facebook、政治関連広告のラベル表示を米国で開始 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1805/25/news067.html)
 - [2018年5月25日レビュー「科学的に予測された地球温暖化の影響を治水計画に生かす初めての試み」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/review/2018/05/20180525_01.html)
 - [Kubernetes対応コンテナランタイム「containerd 1.1」正式リリース。CRIにネイティブ対応し、Dockerより軽量で高速な動作を実現 － Publickey](https://www.publickey1.jp/blog/18/kubernetescontainerd_11cridocker.html)
+- [2018年5月28日ニュース「インフルエンザウイルス侵入の鍵を握るタンパク質が分かった 北大グループ解明」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/05/20180528_01.html)
+- [アナログ盤で続々復刻、再評価されるゲーム音楽の「価値」と可能性｜WIRED.jp](https://wired.jp/2018/05/25/record-store-day-video-game/)
+- [エリック・シュミットが、イーロン・マスクはAIについて「完全に間違っている」と語った  |  TechCrunch Japan](https://jp.techcrunch.com/2018/05/27/2018-05-25-eric-schmidt-musk-exactly-wrong/)
+- [男たちを弄んだ｢かぐや姫｣が犯した本当の罪 | 日本人が知らない古典の読み方 | 東洋経済オンライン | 経済ニュースの新基準](https://toyokeizai.net/articles/-/222193)
+- [初学者でも5分で理解できるようにDI(Dependency Injection)を説明してみた](https://qiita.com/hirodragon/items/73442390d551fe7376ea)
 
 <!-- eof -->

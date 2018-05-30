@@ -1,7 +1,7 @@
 +++
 title = "日本版「グレート・ファイアウォール」に関するブックマーク集"
 date = "2018-04-25T16:12:41+09:00"
-update = "2018-05-23T21:07:20+09:00"
+update = "2018-05-30T19:09:44+09:00"
 description = "情報収集しつつ個人でどこまで武装できるか，これから少しずつ考えていくことにする。"
 image = "/images/attention/kitten.jpg"
 tags = [ "censorship", "internet", "code", "law", "politics" ]
@@ -102,6 +102,7 @@ tags = [ "censorship", "internet", "code", "law", "politics" ]
 - ['Anonymous' Hackers Deface Russian Govt. Site to Protest Web-Blocking (NSFW) - TorrentFreak](https://torrentfreak.com/anonymous-hackers-deface-russian-govt-site-to-protest-web-blocking-nsfw-180512/)
 - [ネットの自由を守り、無法地帯にしないために――NTTグループがブロッキングを決断した理由 - ITmedia Mobile](http://www.itmedia.co.jp/mobile/articles/1805/11/news136.html)
 - [ISP Telenor Will Block The Pirate Bay in Sweden Without a Shot Fired - TorrentFreak](https://torrentfreak.com/isp-telenor-will-block-the-pirate-bay-in-sweden-without-a-shot-fired-180520/)
+- [カナダ権利者団体、裁判によるサイトブロッキングは役に立たないとして民間サイトブロッキングの実施を求める – P2Pとかその辺のお話R](http://p2ptk.org/copyright/951)
 
 ## 参考図書
 
