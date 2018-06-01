@@ -14,6 +14,8 @@
 
 - [Photoshopがなくても簡単に作れる！無料のFavicon作成ツール7選｜ferret [フェレット]](https://ferret-plus.com/2610)
 
+- [Code Playground | SoloLearn: Learn to code for FREE!](https://www.sololearn.com/Codes/)
+
 ### Autocrypt について
 
 - [Autocrypt 1.0.0 documentation](https://autocrypt.org/)
