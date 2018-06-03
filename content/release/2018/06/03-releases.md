@@ -1,4 +1,52 @@
-| ID  | タイトル | 深刻度 | 発見日 | 最終更新日 |
++++
+title = "2018-06-03 のリリース情報"
+date =  "2018-06-03T17:40:07+09:00"
+description = "「「サクラエディタ」プロジェクトが“SourceForge.net”から“GitHub”への移行を検討」他"
+image = "/images/attention/tools.png"
+
+[author]
+  name      = "Spiegel"
+  url       = "http://www.baldanders.info/spiegel/profile/"
+  avatar    = "/images/avatar.jpg"
+  license   = "by-sa"
+  github    = "spiegel-im-spiegel"
+  twitter   = "spiegel_2007"
+  tumblr    = "spiegel-im-spiegel"
+  instagram = "spiegel_2007"
+  flickr    = "spiegel"
+  facebook  = "spiegel.im.spiegel"
+  linkedin  = "spiegelimspiegel"
+  flattr    = "spiegel"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
++++
+
+最近リリースされたツールやサービスについて挙げておく。
+私個人が気になっているものなので全く網羅的ではないが悪しからずご了承の程を。
+
+- [「サクラエディタ」プロジェクトが“SourceForge.net”から“GitHub”への移行を検討 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1122960.html)
+- [「VMware Workstation 14」がWindows 10 April 2018 Update/Ubuntu 18.04をサポート - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1123186.html)
+- [「Wireshark」v2.6.1 / 2.4.7 / 2.2.15 が公開、脆弱性を修正したメンテナンスリリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1123429.html)
+- [「Google Chrome 67」が正式版に ～“Spectre”脆弱性の緩和策“サイト分離”をテスト - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1124593.html)
+- [Apple security updates - Apple Support](https://support.apple.com/en-us/HT201222)
+    - [About the security content of tvOS 11.4 - Apple Support](https://support.apple.com/en-us/HT208850)
+    - [About the security content of iCloud for Windows 7.5 - Apple Support](https://support.apple.com/en-us/HT208853)
+    - [About the security content of Safari 11.1.1 - Apple Support](https://support.apple.com/en-us/HT208854)
+    - [About the security content of macOS High Sierra 10.13.5, Security Update 2018-003 Sierra, Security Update 2018-003 El Capitan - Apple サポート](https://support.apple.com/ja-jp/HT208849)
+    - [About the security content of iOS 11.4 - Apple Support](https://support.apple.com/en-us/HT208848)
+    - [About the security content of watchOS 4.3.1 - Apple Support](https://support.apple.com/en-us/HT208851)
+    - [About the security content of iTunes 12.7.5 for Windows - Apple サポート](https://support.apple.com/ja-jp/HT208852)
+    - [Apple、「iOS 11.4」を公開 ～“AirPlay 2”やメッセージの“iCloud”保存をサポート - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1124592.html)
+- [MariaDB Server 10.3/MariaDB TX 3.0リリース。Oracle Database互換機能を搭載し、同じデータ型やPL/SQLのストアドプロシジャをサポート － Publickey](https://www.publickey1.jp/blog/18/mariadb_server_103mariadb_tx_30oracle_databaseplsql.html)
+- [パスワード管理ツール「1Password 7 for Windows」が正式版に ～“Windows Hello”に対応 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1124908.html)
+
+## 最近の脆弱性情報
+
+最近2週間に公開・更新された脆弱性情報のうち深刻度が高いものを列挙してみる。
+
+| ID  | タイトル | 深刻度 | 　　発見日　　 | 　最終更新日　 |
 | --- | -------- | ------ | ------ | ---------- |
 | [JVNDB-2018-003716](https://jvndb.jvn.jp/ja/contents/2018/JVNDB-2018-003716.html) | Apple macOS のメモコンポーネントにおける特権付きコンテキスト内で任意のコードを実行される脆弱性 | 重要 (7.0) | 2018年3月29日 | 2018年6月1日 |
 | [JVNDB-2018-003715](https://jvndb.jvn.jp/ja/contents/2018/JVNDB-2018-003715.html) | Apple iOS および macOS の iCloud Drive コンポーネントにおける特権付きコンテキスト内で任意のコードを実行される脆弱性 | 重要 (7.0) | 2018年3月29日 | 2018年6月1日 |
@@ -460,6 +508,5 @@
 | [JVNDB-2018-003257](https://jvndb.jvn.jp/ja/contents/2018/JVNDB-2018-003257.html) | ChakraCore におけるリモートでコードを実行される脆弱性 | 重要 (7.5) | 2018年4月10日 | 2018年5月21日 |
 | [JVNDB-2018-003256](https://jvndb.jvn.jp/ja/contents/2018/JVNDB-2018-003256.html) | ChakraCore におけるリモートでコードを実行される脆弱性 | 重要 (7.5) | 2018年4月10日 | 2018年5月21日 |
 | [JVNDB-2018-003255](https://jvndb.jvn.jp/ja/contents/2018/JVNDB-2018-003255.html) | ChakraCore におけるリモートでコードを実行される脆弱性 | 重要 (7.5) | 2018年4月10日 | 2018年5月21日 |
-
 
 (Powerd by [JVN](https://jvn.jp/) & [jvnman](https://github.com/spiegel-im-spiegel/jvnman "spiegel-im-spiegel/jvnman: JVN Vulnerability Data Management"))

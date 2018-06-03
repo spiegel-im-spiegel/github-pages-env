@@ -1,6 +1,7 @@
 +++
 title = "Git for Windows 2.17.1 がリリース（セキュリティアップデート）"
 date = "2018-05-30T20:58:48+09:00"
+update = "2018-06-03T17:32:14+09:00"
 description = "Git v2.17.1 にはセキュリティ・アップデートがある。"
 image = "/images/attention/tools.png"
 tags  = [ "tools", "git", "windows", "security", "vulnerability" ]
@@ -55,5 +56,9 @@ tags  = [ "tools", "git", "windows", "security", "vulnerability" ]
 - Comes with [Git Credential Manager v1.16.1](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases/tag/v1.16.1).
 - Comes with [Git LFS v2.4.2](https://github.com/git-lfs/git-lfs/releases/tag/v2.4.2).
 {{% /fig-quote %}}
+
+## ブックマーク
+
+- [「Git」に複数の脆弱性、修正版が公開 ～Microsoftは「Git for Windows」の更新を推奨 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1124686.html)
 
 [Git for Windows]: https://gitforwindows.org/
