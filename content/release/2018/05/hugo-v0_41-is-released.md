@@ -1,6 +1,7 @@
 +++
 title = "Hugo v0.41 がリリース"
 date = "2018-05-28T20:15:30+09:00"
+update = "2018-06-24T18:36:32+09:00"
 description = "プライバシー関連の設定項目が追加されたらしいのだが使い方がサッパリ分からん。"
 image = "/images/attention/tools.png"
 tags  = [ "tools", "hugo", "gdpr", "privacy" ]
@@ -35,3 +36,5 @@ tags  = [ "tools", "hugo", "gdpr", "privacy" ]
 
 てぇことらしいのだが使い方がサッパリ分からん。
 まぁ，個人サイトはあんまり関係ないだろう。
+
+[Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
