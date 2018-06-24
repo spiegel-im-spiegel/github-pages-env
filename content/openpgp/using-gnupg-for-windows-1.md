@@ -1,5 +1,6 @@
 +++
 date = "2017-12-01T17:48:32+09:00"
+update = "2018-06-24T13:55:41+09:00"
 title = "GnuPG for Windows インストール編"
 description = "Windows 版 GnuPG のインストールについて。"
 draft = false
@@ -19,6 +20,10 @@ image = "/images/attention/openpgp.png"
   tumblr = "spiegel-im-spiegel"
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 この記事は以下の記事を最新版 [GnuPG] 用に再構成したものです。
@@ -51,9 +56,9 @@ PGP の最初のバージョンは1991年に公開された[^1991]。
 
 [GnuPG] の最新バージョンは 2.2 系である。
 2.0 系（旧 stable version）および 2.1 系（旧 modern version）は 2.2 系に統合された。
-また 2.0 系は2017年末でサポートが終了する。
+また 2.0 系は2017年末でサポートが終了した。
 
-なお classic version である 1.4 系はレガシー・システムとの互換性のためにメンテナンスが継続されるが， Windows で新たに導入するのであれば 2.2 系を強くお勧めする。
+なお classic version である 1.4 系はレガシー・システムとの互換性維持のためにメンテナンスが継続されるが， Windows で新たに導入するのであれば 2.2 系を強くお勧めする。
 
 ## 【事前準備】インストーラのダウンロード
 
@@ -113,11 +118,21 @@ $ gpg --export-ownertrust > trust.txt
 
 {{< fig-img src="https://farm2.staticflickr.com/1695/24974542073_20408e1079.jpg" title="Installing GnuPG for Windows (3)" link="https://www.flickr.com/photos/spiegel/24974542073/" >}}
 
+<!--
 {{< fig-img src="https://farm2.staticflickr.com/1472/25305629970_6f5dcb4ef0.jpg" title="Installing GnuPG for Windows (4)" link="https://www.flickr.com/photos/spiegel/25305629970/" >}}
 
 インストール先のフォルダを変えたい場合はここで変更する。
 
 {{< fig-img src="https://farm2.staticflickr.com/1449/25601226555_b07b73e7fa.jpg" title="Installing GnuPG for Windows (5)" link="https://www.flickr.com/photos/spiegel/25601226555/" >}}
+
+-->
+
+{{% div-box %}}
+**【追記 2018-06-24】**
+最近の GnuPG ではインストール先フォルダが `C:\Program Files (x86)\gnupg` 固定になっている（64bit版 GnuPG for Windows のバイナリ提供はない）。
+古いバージョンで左記のフォルダ以外にインストールしている場合はそのフォルダに上書きインストールされる。
+では続きをどうぞ。
+{{% /div-box %}}
 
 {{< fig-img src="https://farm2.staticflickr.com/1633/25575126816_f090b537bf.jpg" title="Installing GnuPG for Windows (6)" link="https://www.flickr.com/photos/spiegel/25575126816/" >}}
 
@@ -153,7 +168,7 @@ Home: C:/Users/username/AppData/Roaming/gnupg
 通常はこれで問題ないが，他のフォルダに変更したい場合は環境変数 `GNUPGHOME` でフォルダを指定する。
 また `gpg.exe` 起動時に `--homedir` オプションでホームディレクトリを直接指定することもできる（`--homedir` オプションが優先）。
 
-[^gh]: 環境変数 `APPDATA` には通常 `C:\Users\username\AppData\Roaming` （`username` はログインユーザの名前）がセットされている。ちなみに UNIX 系のプラットフォームでは `~/.gnupg` が [GnuPG] 既定のホームディレクトリだが Windows は構成が異なるためこのようになっている。
+[^gh]: [GnuPG] のホームディレクトリにはいわゆる鍵束（key ring）の情報が格納される。 [GnuPG] はこの鍵束から暗号鍵を取得して暗号化および復号を行うわけだ。ちなみに，環境変数 `APPDATA` には通常 `C:\Users\username\AppData\Roaming` （`username` はログインユーザの名前）がセットされている。ちなみに UNIX 系のプラットフォームでは `~/.gnupg` が [GnuPG] 既定のホームディレクトリだが Windows は構成が異なるためこのようになっている。
 
 ```text
 $ gpg --version --homedir C:\usr\home

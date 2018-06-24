@@ -20,6 +20,10 @@ image = "/images/attention/openpgp.png"
   tumblr = "spiegel-im-spiegel"
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 (move from [{{< ref "remark/2016/04/git-commit-with-openpgp-signature.md" >}}]({{< ref "remark/2016/04/git-commit-with-openpgp-signature.md" >}} "Git Commit で OpenPGP 署名を行う"))
