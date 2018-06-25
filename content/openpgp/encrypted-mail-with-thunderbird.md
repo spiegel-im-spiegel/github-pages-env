@@ -76,7 +76,7 @@ tags = [ "openpgp", "security", "cryptography", "mua", "thunderbird", "messaging
 これでセットアップ完了。
 なお，アカウント設定ではもう少し詳細な設定が可能である。
 
-{{< fig-img src="https://farm2.staticflickr.com/1807/29125191098_253270a7d2.jpg" title="Enigmail setup-wizard (6)" link="https://www.flickr.com/photos/spiegel/29125191098/" >}}
+{{< fig-img src="https://farm2.staticflickr.com/1807/29125191098_253270a7d2.jpg" title="Enigmail settings" link="https://www.flickr.com/photos/spiegel/29125191098/" >}}
 
 ## 暗号化メールの作成と表示
 
