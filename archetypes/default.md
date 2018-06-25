@@ -3,7 +3,7 @@ title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date =  "{{ .Date }}"
 description = "description"
 image = "/images/avatar.jpg"
-tags        = [ "remark" ]
+tags = [ "remark" ]
 draft = true
 
 [author]

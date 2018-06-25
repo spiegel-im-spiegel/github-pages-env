@@ -1,9 +1,9 @@
 +++
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
-date =  "{{ .Date }}"
+date = "{{ .Date }}"
 description = "description"
 image = "/images/attention/openpgp.png"
-tags        = [ "openpgp" ]
+tags = [ "openpgp" ]
 draft = true
 
 [author]
