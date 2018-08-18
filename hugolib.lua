@@ -25,8 +25,9 @@ hugolib.release = function(path)
 	for line in reader:lines() do
 		table.insert(lines, line)
 	end
+	reader:close()
 
-	local writer, errmsg, errno = io.open(hugopath, "wb+")
+	local writer, errmsg, errno = io.open(hugopath, "w")
 	if writer == nil then return errno, errmsg end
 	local datestr = "date = \""..os.date("%Y-%m-%dT%H:%M:%S+09:00").."\"\n" -- JST only
 	local tomlFlag = false
@@ -46,6 +47,7 @@ hugolib.release = function(path)
 			writer:write(line.."\n")
 		end
 	end
+	writer:close()
 	return 0, nil
 end
 
@@ -60,8 +62,9 @@ hugolib.update = function(path)
 	for line in reader:lines() do
 		table.insert(lines, line)
 	end
+	reader:close()
 
-	local writer, errmsg, errno = io.open(hugopath, "w+b")
+	local writer, errmsg, errno = io.open(hugopath, "w")
 	if writer == nil then return errno, errmsg end
 	local updatestr = "update = \""..os.date("%Y-%m-%dT%H:%M:%S+09:00").."\"\n" -- JST only
 	local tomlFlag = false
@@ -82,6 +85,7 @@ hugolib.update = function(path)
 			writer:write(line.."\n")
 		end
 	end
+	writer:close()
 	return 0, nil
 end
 
