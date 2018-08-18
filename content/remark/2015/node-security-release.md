@@ -29,7 +29,7 @@ title = "Node.js : Security Update"
 - [Node v4.2.3 "Argon" (LTS) | Node.js](https://nodejs.org/en/blog/release/v4.2.3/)
 - [Node v5.1.1 (Stable) | Node.js](https://nodejs.org/en/blog/release/v5.1.1/)
 
-なお， CVSS については[解説ページ]({{< relref "remark/2015/cvss-v3-metrics-in-jvn.md" >}})を参照のこと。
+なお， CVSS については[解説ページ]({{< ref "/remark/2015/cvss-v3-metrics-in-jvn.md" >}})を参照のこと。
 
 ## CVE-2015-8027 Denial of Service Vulnerability
 

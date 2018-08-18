@@ -237,7 +237,7 @@ if err != nil {
 もうひとつ考慮すべき点としてエラー・メッセージの設計が挙げられるだろう。
 [error] に対するメッセージをどのように設計するかは（大規模アプリケーションでは特に）重要である。
 
-（「[Error の構造化]({{< relref "golang/error-handling2.md" >}})」へ続く）
+（「[Error の構造化]({{< relref "error-handling2.md" >}})」へ続く）
 
 
 ## 【追記】 Panic と Recover
@@ -423,7 +423,7 @@ func main() {
 
 このコードを実行すると “(*main.MagicError)(nil)” と出力する。
 `Generate()` 関数が返す nil がどのように機能しているか分かると思う。
-「[Go 言語における「オブジェクト」]({{< relref "golang/object-oriented-programming.md" >}})」で解説するが， [Go 言語]の型（[type]）は C++ や Java で言うところの class のように機能するため，このような動きになると思われる[^nil]。
+「[Go 言語における「オブジェクト」]({{< relref "object-oriented-programming.md" >}})」で解説するが， [Go 言語]の型（[type]）は C++ や Java で言うところの class のように機能するため，このような動きになると思われる[^nil]。
 
 [^nil]: それでもやっぱり nil は nil として扱ってほしいのだが。
 
@@ -440,7 +440,7 @@ func main() {
 - [echoのAPIサーバ実装とエラーハンドリングの落とし穴 - Qiita](http://qiita.com/tienlen/items/5f2bcfe06eb83830ee55)
 - [Golangのエラー処理とpkg/errors | SOTA](http://deeeet.com/writing/2016/04/25/go-pkg-errors/) : 必見！
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [error]: http://blog.golang.org/error-handling-and-go "Error handling and Go - The Go Blog"

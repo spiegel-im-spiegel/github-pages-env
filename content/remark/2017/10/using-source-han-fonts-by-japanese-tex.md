@@ -24,7 +24,7 @@ tags        = [ "tex", "font", "luatex", "japanese" ]
   mermaidjs = false
 +++
 
-さて，[TeX Live 2017 インストール]({{< relref "remark/2017/09/install-tex-live-2017-for-windows.md" >}})後の「$\mathrm{\TeX}$ で遊ぼう」第二弾は
+さて，[TeX Live 2017 インストール]({{< ref "/remark/2017/09/install-tex-live-2017-for-windows.md" >}})後の「$\mathrm{\TeX}$ で遊ぼう」第二弾は
 
 - $\mathrm{\TeX}$ で「源ノ」フォントを使ってみる
 
@@ -402,7 +402,7 @@ $ lualatex otf-sample.tex
 
 **時代は $\mathrm{Lua\TeX}$ で「源ノ」フォント** ってことですね！
 
-ちなみに，[前回]({{< relref "remark/2017/10/lualatex-ja-on-cloud.md" >}})紹介した [Cloud LaTeX] で同じことをしようとしたら「`sourcehan` なんぞ知らん！」と怒られた（笑）
+ちなみに，[前回]({{< ref "/remark/2017/10/lualatex-ja-on-cloud.md" >}})紹介した [Cloud LaTeX] で同じことをしようとしたら「`sourcehan` なんぞ知らん！」と怒られた（笑）
 
 ```text
 /usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty

@@ -32,7 +32,7 @@ tags        = [ "programming", "language" ]
 これで思い出したのが「[頼むからプログラミングを学ばないでくれ](http://jp.techcrunch.com/2016/05/17/20160510please-dont-learn-to-code/ "頼むからプログラミングを学ばないでくれ | TechCrunch Japan")」である。
 この記事については私も以前にブログ記事を書いた。
 
-- [「だれもがプログラミングを学ぶべき」ではない]({{< relref "remark/2016/05/lets-programming.md" >}})
+- [「だれもがプログラミングを学ぶべき」ではない]({{< ref "/remark/2016/05/lets-programming.md" >}})
 
 ちょうど「小学生の学校教育カリキュラムに『プログラミング』を導入する」などという頭の悪い教育政策を聞かされた頃だったので，反発する意味で書いたのだが
 
@@ -78,8 +78,8 @@ tags        = [ "programming", "language" ]
 
 ## ブックマーク
 
-- [プログラミング言語との付き合い方]({{< relref "remark/2015/programming-language.md" >}})
-- [プログラミングで「計算論的思考」は身につかない]({{< relref "remark/2016/09/programming.md" >}})
+- [プログラミング言語との付き合い方]({{< ref "/remark/2015/programming-language.md" >}})
+- [プログラミングで「計算論的思考」は身につかない]({{< ref "/remark/2016/09/programming.md" >}})
 - [Codic ATOM Package - codic blog](http://blog.codic.jp/2015/11/20/release-codic-atom-package/)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"

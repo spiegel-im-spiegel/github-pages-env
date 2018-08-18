@@ -48,7 +48,7 @@ OpenJDK Runtime Environment 18.3 (build 10+46)
 OpenJDK 64-Bit Server VM 18.3 (build 10+46, mixed mode)
 ```
 
-「[Java 環境のリリースとサポートに関する覚え書き]({{< relref "remark/2018/02/release-cycle-of-java-environment.md" >}})」でも書いたが， Oracle が Java を無償サポートするのはこの Java 10 で最後である[^lcs1]。
+「[Java 環境のリリースとサポートに関する覚え書き]({{< ref "/remark/2018/02/release-cycle-of-java-environment.md" >}})」でも書いたが， Oracle が Java を無償サポートするのはこの Java 10 で最後である[^lcs1]。
 2018年9月にリリースされる Java 11 を以って Java 10 の無償サポートは終了し， Java 11 以降は有償の LTS (Long Term Support) のみとなる。
 なお Java 1.8 系（Java 8）の無償サポートも2019年1月で終了する（個人ユーザへの無償サポートは2020年12月まで）。
 つまり，現時点では Java 環境に関する3つの選択肢がある。
@@ -78,7 +78,7 @@ Java の特徴とされた "[Write once, run anywhere](https://en.wikipedia.org/
 - [OpenJDK入手先まとめ - Qiita](https://qiita.com/ykubota/items/582caa8621a5fc86d0a1)
 - [Java 10 で変わる Java のバージョン表記 - Qiita](https://qiita.com/YujiSoftware/items/2c5a9117a577700ea540)
 - [2017年末において、Oracle JDK と OpenJDKに性能差はあるのか？ - Qiita](https://qiita.com/ukiuni@github/items/5bb523c31bb4b4f9a278)
-- [Java 環境のリリースとサポートに関する覚え書き]({{< relref "remark/2018/02/release-cycle-of-java-environment.md" >}})
-- [Java 10.0.1 がリリース（セキュリティ・アップデート）]({{< relref "release/2018/04/java-10_0_1-is-released.md" >}})
+- [Java 環境のリリースとサポートに関する覚え書き]({{< ref "/remark/2018/02/release-cycle-of-java-environment.md" >}})
+- [Java 10.0.1 がリリース（セキュリティ・アップデート）]({{< ref "/release/2018/04/java-10_0_1-is-released.md" >}})
 
 [OpenJDK]: http://openjdk.java.net/

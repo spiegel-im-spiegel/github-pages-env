@@ -29,7 +29,7 @@ title = "同時多発テロ関連のブックマーク（暗号関連）"
 彼らは「テロ」を利用しているだけである。
 私たちは，「9.11 以後」10年以上の時間をかけてそれを悟ったのではないのか。
 
-というわけで，「[同時多発テロ関連のブックマーク]({{< relref "remark/2015/paris-attacks.md" >}})」から暗号・諜報関連の記事を切り出してこの記事で管理することにする。
+というわけで，「[同時多発テロ関連のブックマーク]({{< ref "/remark/2015/paris-attacks.md" >}})」から暗号・諜報関連の記事を切り出してこの記事で管理することにする。
 
 - [ISが使う暗号化メッセージング・サーヴィスは、あなたにも使える « WIRED.jp](http://wired.jp/2015/11/18/isis-encrypted-communications/)
 - [Paris Terrorists Use Double ROT-13 Encryption - Schneier on Security](https://www.schneier.com/blog/archives/2015/11/paris_terrorist.html)

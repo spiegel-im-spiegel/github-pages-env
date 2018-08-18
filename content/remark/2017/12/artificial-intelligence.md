@@ -32,7 +32,7 @@ tags = ["artificial-intelligence", "engineering", "code"]
 
 そういえば以前
 
-- [AI は人（の良心）を殺すか？]({{< relref "remark/2016/10/artificial-intelligence.md" >}})
+- [AI は人（の良心）を殺すか？]({{< ref "/remark/2016/10/artificial-intelligence.md" >}})
 
 という記事を書いた。
 この記事の元ネタは yomoyomo さんの以下の記事なのだが

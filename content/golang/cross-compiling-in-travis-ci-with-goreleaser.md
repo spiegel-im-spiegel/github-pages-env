@@ -24,7 +24,7 @@ tags = ["golang", "cross-compile", "continuous-integration", "github", "travis-c
   mermaidjs = false
 +++
 
-以前「[Travis CI でクロス・コンパイル]({{< relref "golang/cross-compiling-in-travis-ci.md" >}})」で [mitchellh/gox] を使ったクロス・コンパイルと [tcnksm/ghr] を使った [GitHub] への deploy 手順を紹介したが，これらをまとめてやってくれる [GoReleaser] というツールがあるらしい。
+以前「[Travis CI でクロス・コンパイル]({{< relref "cross-compiling-in-travis-ci.md" >}})」で [mitchellh/gox] を使ったクロス・コンパイルと [tcnksm/ghr] を使った [GitHub] への deploy 手順を紹介したが，これらをまとめてやってくれる [GoReleaser] というツールがあるらしい。
 
 - [GoReleaser | Deliver Go binaries as fast and easily as possible](https://goreleaser.com/)
 - [goreleaser/goreleaser: Deliver Go binaries as fast and easily as possible](https://github.com/goreleaser/goreleaser)
@@ -280,7 +280,7 @@ reldemo SNAPSHOT-6b96405452b3b9af8817157629fce00acb81564e
 
 ## [Travis CI] との連携と [GitHub] への Deploy
 
-「[Travis CI でクロス・コンパイル]({{< relref "golang/cross-compiling-in-travis-ci.md" >}})」でも書いたが [Travis CI] から [GitHub] へ Deploy するためには [GitHub] のアクセス・トークンを取得して [Travis CI] の環境変数としてセットする必要がある。
+「[Travis CI でクロス・コンパイル]({{< relref "cross-compiling-in-travis-ci.md" >}})」でも書いたが [Travis CI] から [GitHub] へ Deploy するためには [GitHub] のアクセス・トークンを取得して [Travis CI] の環境変数としてセットする必要がある。
 
 [GitHub] のアクセス・トークンは "Settings” の “Developer settings” → "Personal access tokens” のページで取得できる。
 

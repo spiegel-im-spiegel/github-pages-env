@@ -32,7 +32,7 @@ title = "2015年10月の Flattr もしくは「Flattr × GitHub ＝ ♥」"
 [SETI@home] は Subscription で登録しているので自動的に毎月 [flattr] される。
 [W3C Validator] はこのサイトを構築時にお世話になったので。
 基本的にこのサービスを使う際には [flattr] するようにしている。
-[Maximus5/ConEmu] は[前回導入した]({{< relref "remark/2015/conemu-and-nyagos.md" >}})時に [flattr] した。
+[Maximus5/ConEmu] は[前回導入した]({{< ref "/remark/2015/conemu-and-nyagos.md" >}})時に [flattr] した。
 
 ## Flattr × GitHub ＝ ♥
 

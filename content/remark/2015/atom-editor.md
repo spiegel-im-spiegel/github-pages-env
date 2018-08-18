@@ -164,7 +164,7 @@ Installing show-ideographic-space to C:\Users\username\.atom\packages done
 以下の記事でテーマ・パッケージの感想を書いている。
 個人的な印象なんであんまり参考にならないかもだけど，よろしかったらどうぞ。
 
-- [年末なので ATOM Editor を掃除しましょう（もしくは2017年お気に入り ATOM パッケージ）]({{< relref "remark/2017/12/favorite-atom-packages-2017.md" >}})
+- [年末なので ATOM Editor を掃除しましょう（もしくは2017年お気に入り ATOM パッケージ）]({{< ref "/remark/2017/12/favorite-atom-packages-2017.md" >}})
 
 ## ATOM の設定
 
@@ -283,8 +283,8 @@ trim_trailing_whitespace = false
 - `end_of_line` では改行コードを指定する。 `lf`, `cr`, `crlf` から選択できる。
 - `indent_style` はインデント（タブ）のスタイルを指定する。 `tab` または `space` を指定する。 `space` にすると，いわゆる「ソフトタブ」になる。
 - `indent_size` はタブの幅を指定する。 `indent_style` と `indent_size` は常にセットで指定すると間違いがない。
-- `trim_trailing_whitespace` を `true` にすると行末の空白文字を削除してくれる。残念なことに [ATOM] の場合は，いわゆる「全角空白」を空白文字と見なしてくれない。まぁ全角空白を空白文字と見なす実装のほうが少ないけど（現在は[条件付きで対応]({{< relref "remark/2016/10/warnig-from-editorconfig-at-atom.md" >}} "【ATOM Editor】 EditorConfig を使うなら Whitespace は不要")）。
-- `insert_final_newline` を `true` にするとファイルの末尾が改行文字ではない場合に補完してくれる（現在は[条件付きで対応]({{< relref "remark/2016/10/warnig-from-editorconfig-at-atom.md" >}} "【ATOM Editor】 EditorConfig を使うなら Whitespace は不要")）。
+- `trim_trailing_whitespace` を `true` にすると行末の空白文字を削除してくれる。残念なことに [ATOM] の場合は，いわゆる「全角空白」を空白文字と見なしてくれない。まぁ全角空白を空白文字と見なす実装のほうが少ないけど（現在は[条件付きで対応]({{< ref "/remark/2016/10/warnig-from-editorconfig-at-atom.md" >}} "【ATOM Editor】 EditorConfig を使うなら Whitespace は不要")）。
+- `insert_final_newline` を `true` にするとファイルの末尾が改行文字ではない場合に補完してくれる（現在は[条件付きで対応]({{< ref "/remark/2016/10/warnig-from-editorconfig-at-atom.md" >}} "【ATOM Editor】 EditorConfig を使うなら Whitespace は不要")）。
 
 [EditorConfig] は多くのテキスト・エディタや統合開発環境に対応していて，もちろん [ATOM] にも対応パッケージがある。
 
@@ -317,7 +317,7 @@ trim_trailing_whitespace = false
 
 [ATOM] 1.18 でようやく公式に git 機能が組み込まれた。
 
-- [ATOM 1.18 stable がリリース]({{< relref "remark/2017/06/atom-1_18.md" >}})
+- [ATOM 1.18 stable がリリース]({{< ref "/remark/2017/06/atom-1_18.md" >}})
 
 ただし，キーボード操作なら [git-plus] のほうが便利である。
 
@@ -374,7 +374,7 @@ trim_trailing_whitespace = false
 - [GitHub Wiki の Markdown を Atom で編集するアレコレ - Qiita](https://qiita.com/alt-core/items/491357aadcd856c7ea5a)
 - [GitHub - increments/atom-qiita-syntax: Qiita theme syntax for Atom](https://github.com/increments/atom-qiita-syntax)
 
-- [ATOM で Go — プログラミング言語 Go]({{< relref "golang/golang-with-atom.md" >}})
+- [ATOM で Go — プログラミング言語 Go]({{< ref "/golang/golang-with-atom.md" >}})
 
 Qiita の「[ATOM Editor をそろそろ始めようか](http://qiita.com/spiegel-im-spiegel/items/3d41d98dacc107d73431)」はもうメンテしてません。
 ゴメンペコン。

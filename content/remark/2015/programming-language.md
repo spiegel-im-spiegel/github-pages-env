@@ -148,7 +148,7 @@ Python は Linux 等では実質的に（少なくとも Ruby よりは）標準
 
 [フィードバック](#feedback)で [TensorFlow] について言及があったので，ついでに。
 
-（この項は「[TensorFlow に関するブックマーク]({{< relref "remark/2016/02/tensorflow.md" >}})」に移動しました）
+（この項は「[TensorFlow に関するブックマーク]({{< ref "/remark/2016/02/tensorflow.md" >}})」に移動しました）
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Electron]: http://electron.atom.io/ "Electron"

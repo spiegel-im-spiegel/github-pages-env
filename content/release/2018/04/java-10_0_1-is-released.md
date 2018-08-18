@@ -64,7 +64,7 @@ OpenJDK 64-Bit Server VM (build 10.0.1+10, mixed mode)
 
 ## ブックマーク
 
-- [Java 環境のリリースとサポートに関する覚え書き]({{< relref "remark/2018/02/release-cycle-of-java-environment.md" >}})
+- [Java 環境のリリースとサポートに関する覚え書き]({{< ref "/remark/2018/02/release-cycle-of-java-environment.md" >}})
 
 [OpenJDK]: http://openjdk.java.net/
 <!-- eof -->

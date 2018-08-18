@@ -54,7 +54,7 @@ tags        = [ "tools", "git-extensions", "libreoffice", "openpgp", "gnupg" ]
 
 [Git] と [GnuPG] を連携する方法については以下を参照のこと。
 
-- [Git Commit で OpenPGP 署名を行う]({{< relref "openpgp/git-commit-with-openpgp-signature.md" >}})
+- [Git Commit で OpenPGP 署名を行う]({{< ref "/openpgp/git-commit-with-openpgp-signature.md" >}})
 
 ## [LibreOffice] 6 と [OpenPGP] 署名
 
@@ -85,12 +85,12 @@ GnuPG 側と上手く連携できていれば「証明書の選択」ダイア�
 {{% div-box %}}
 **【2018-02-04 追記】** 原因が分かったので仕切り直した。
 
-- [LibreOffice と OpenPGP （仕切り直し）]({{< relref "openpgp/libreoffice-with-openpgp.md" >}})
+- [LibreOffice と OpenPGP （仕切り直し）]({{< ref "/openpgp/libreoffice-with-openpgp.md" >}})
 {{% /div-box %}}
 
 ## ブックマーク
 
-- [Git Extensions に関する覚え書き]({{< relref "remark/2018/01/git-extensions-in-japanese.md" >}})
+- [Git Extensions に関する覚え書き]({{< ref "/remark/2018/01/git-extensions-in-japanese.md" >}})
 
 [Git Extensions]: http://gitextensions.github.io/ "Git Extensions | Git Extensions is a graphical user interface for Git that allows you to control Git without using the commandline"
 [OpenPGP]: http://openpgp.org/

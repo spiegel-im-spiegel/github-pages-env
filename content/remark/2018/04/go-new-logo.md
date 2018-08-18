@@ -38,7 +38,7 @@ tags        = [ "golang" ]
 
 Createve Commons ライセンスについては以下のを参照のこと。
 
-- [Creative Commons Licenses]({{< relref "cc-licenses/02-creative-commons-licenses.md" >}}) — [改訂3版： CC Licenses について](/cc-licenses/)
+- [Creative Commons Licenses]({{< ref "/cc-licenses/02-creative-commons-licenses.md" >}}) — [改訂3版： CC Licenses について](/cc-licenses/)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [RFC 1436]: https://tools.ietf.org/html/rfc1436 "RFC 1436 - The Internet Gopher Protocol (a distributed document search and retrieval protocol)"

@@ -61,7 +61,7 @@ draft = false
 - [プログラミング言語 Go](/golang/)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[母国語]: {{< relref "remark/2015/programming-language.md" >}} "プログラミング言語との付き合い方"
+[母国語]: {{< ref "/remark/2015/programming-language.md" >}} "プログラミング言語との付き合い方"
 [`context`]: https://golang.org/pkg/context/ "context - The Go Programming Language"
 [`sort`]: https://golang.org/pkg/sort/ "sort - The Go Programming Language"
 [slice]: http://golang.org/ref/spec#Slice_types

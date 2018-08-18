@@ -95,7 +95,7 @@ Windows Update で KB3156417 を導入すればよい。
 あとは Windows 10 のアップグレード強制さえなくなればなぁ。
 早く無料キャンペーン終わってくれ！
 
-- [また Windows 10 にヤラレタ（KB3112343 の恐怖）]({{< relref "remark/2015/windows-10-upgrade-problem.md" >}})
+- [また Windows 10 にヤラレタ（KB3112343 の恐怖）]({{< ref "/remark/2015/windows-10-upgrade-problem.md" >}})
 - [Tech TIPS：終わらないWindows 7のWindows Updateの問題を解決する - ＠IT](http://www.atmarkit.co.jp/ait/articles/1605/26/news029.html)
 
 ## その他の気になる記事{#other}

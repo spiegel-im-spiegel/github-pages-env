@@ -34,7 +34,7 @@ title = "gb でプロジェクト・ベースの開発環境をつくる"
 
 [gb] の導入は `go get` でできる[^b]。
 
-[^b]: コマンド `go get` の使い方については「[go get コマンドでパッケージを管理する]({{< relref "golang/go-get-package.md" >}})」を参照のこと。
+[^b]: コマンド `go get` の使い方については「[go get コマンドでパッケージを管理する]({{< relref "go-get-package.md" >}})」を参照のこと。
 
 ```text
 C:>go get -v github.com/constabulary/gb/...
@@ -52,7 +52,7 @@ Windows の場合，環境変数 `GOPATH` で指定するフォルダ配下の `
 
 ## プロジェクトの構築とビルド
 
-「[機能のパッケージ化]({{< relref "golang/packaging.md" >}})」で最後に作ったコードを使って実際に [gb] でプロジェクトを作成しビルドを行ってみる。
+「[機能のパッケージ化]({{< relref "packaging.md" >}})」で最後に作ったコードを使って実際に [gb] でプロジェクトを作成しビルドを行ってみる。
 
 ```go
 package main
@@ -381,7 +381,7 @@ julian-day
 
 さらにテストもできる[^a]。
 
-[^a]: テストについては「[Go 言語のテスト・フレームワーク]({{< relref "golang/testing.md" >}})」を参照のこと。
+[^a]: テストについては「[Go 言語のテスト・フレームワーク]({{< relref "testing.md" >}})」を参照のこと。
 
 ```text
 C:\workspace\gbdemo>gb test -v github.com/spiegel-im-spiegel/astrocalc/modjulian
@@ -399,7 +399,7 @@ PASS
 - [golang - gbを知ったのでgojiを使ったWEBアプリケーションプロジェクトを管理してみた - Qiita](http://qiita.com/shinofara/items/ac0591fef95c2c6e936e)
 - [Go言語のDependency/Vendoringの問題と今後．gbあるいはGo1.5 | SOTA](http://deeeet.com/writing/2015/06/26/golang-dependency-vendoring/)
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [gb]: http://getgb.io/ "gb - A project based build tool for Go"

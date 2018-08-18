@@ -286,7 +286,7 @@ Tags の一覧のみを取得したいのであれば，もっと簡単に
 ちなみに `.Site.Taxonomies.tags.ByCount` は Tags の一覧をタグされている記事数の順で sort したものである。
 アルファベット順にするには `.Site.Taxonomies.tags.Alphabetical` とする。
 
-（追記： Categories/Tags の一覧ページを作る方法は[こちら]({{< relref "hugo/categories-and-tags-list.md" >}})）
+（追記： Categories/Tags の一覧ページを作る方法は[こちら]({{< ref "/hugo/categories-and-tags-list.md" >}})）
 
 ## Section{#section}
 
@@ -694,7 +694,7 @@ C:\HUGO-ENV\WWW
 - [Hugoサイト構築 | Watanabe-DENKI Inc. 渡辺電気株式会社](http://wdkk.co.jp/lab/hugo/) : お勧め！
 - [Hugoでタグやカテゴリのリンク切れが起こる - Qiita](http://qiita.com/_shun_sato_/items/87888fa8425e55b1c758)
 
-[Hugo に関するブックマークはこちら]({{< ref "hugo/bookmark.md" >}})。
+[Hugo に関するブックマークはこちら]({{< ref "/hugo/bookmark.md" >}})。
 
 [Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
-[前回]: {{< ref "hugo/hello.md" >}} "インストールから Hello World まで"
+[前回]: {{< ref "/hugo/hello.md" >}} "インストールから Hello World まで"

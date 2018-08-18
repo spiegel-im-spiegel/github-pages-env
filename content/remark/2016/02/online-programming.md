@@ -20,7 +20,7 @@ title = "オンラインでプログラミング"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
-先ほどの「[週末スペシャル]({{< relref "remark/2016/02/14-stories.md" >}})」でも紹介したが， [paiza.IO] を試してみる。
+先ほどの「[週末スペシャル]({{< ref "/remark/2016/02/14-stories.md" >}})」でも紹介したが， [paiza.IO] を試してみる。
 
 - [ブラウザでプログラミング・実行ができる「オンライン実行環境」| paiza.IO](https://paiza.io/)
 - [GistをPaiza.ioで使ってみる - Qiita](http://qiita.com/omochiiiY/items/b3b3f7ece1dedca1d4e1)
@@ -60,7 +60,7 @@ Gist との同期は自動ではなく明示的に指定する必要がある。
 
 [paiza.IO] で書いたコードで他の（Twitter API などの）サービスと接続することも可能。
 "[The Go Playground](https://play.golang.org/)” では外部との通信はできないので，これは嬉しい機能である。
-たとえば「[Git.io から短縮 URL を取得するコード]({{< relref "golang/get-shortened-url-from-gitio.md" >}})」を参考に書いたコードがこれ。
+たとえば「[Git.io から短縮 URL を取得するコード]({{< ref "/golang/get-shortened-url-from-gitio.md" >}})」を参考に書いたコードがこれ。
 
 {{< fig-gen >}}
 <iframe src="https://paiza.io/projects/e/uUG8z-Teb45q4RZIBSSAeg?theme=github" width="100%" height="500" scrolling="no" seamless="seamless"></iframe>
@@ -90,7 +90,7 @@ Gist との同期は自動ではなく明示的に指定する必要がある。
 
 ただし， [paiza.IO] では実行時間と使えるメモリに制限があって，大体どの言語でも2秒で512MBが制限になっている模様。
 また [Go 言語]の場合は標準以外の外部パッケージが使えない。
-たとえば以下は「[文字エンコーディング変換]({{< relref "golang/transform-character-encoding.md" >}})」で書いたコードだが
+たとえば以下は「[文字エンコーディング変換]({{< ref "/golang/transform-character-encoding.md" >}})」で書いたコードだが
 
 ```go
 package main

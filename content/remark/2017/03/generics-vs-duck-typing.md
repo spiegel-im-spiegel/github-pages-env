@@ -46,7 +46,7 @@ tags = ["golang", "object-oriented", "java", "design", "refactoring"]
 
 私だけでなく C++ や Java などから来た人は大抵これで面食らうらしい。
 
-このうち1番目については「[プログラミング言語 Go](/golang/)」で[記事にした]({{< relref "golang/error-handling.md" >}} "エラー・ハンドリングについて")ので割愛する。
+このうち1番目については「[プログラミング言語 Go](/golang/)」で[記事にした]({{< ref "/golang/error-handling.md" >}} "エラー・ハンドリングについて")ので割愛する。
 
 さて，2番目の「明示的なクラス定義構文がない」について。
 
@@ -120,7 +120,7 @@ tags = ["golang", "object-oriented", "java", "design", "refactoring"]
     - [[翻訳]なんでGoってみんなに嫌われてるの？ - Qiita](http://qiita.com/hirokidaichi/items/adccebb41f77eaa6132f)
 - [Why Go? | Dave Cheney](https://dave.cheney.net/2017/03/20/why-go)
     - [[翻訳] Why Go? - Qiita](http://qiita.com/methane/items/b627f20457873a504638)
-- [Go 言語における「オブジェクト」]({{< relref "golang/object-oriented-programming.md" >}})
+- [Go 言語における「オブジェクト」]({{< ref "/golang/object-oriented-programming.md" >}})
 - [JavaScriptで継承を使わないプログラミングスタイル - JavaScript勉強会](http://jsstudy.hatenablog.com/entry/2017/03/29/214931) : オブジェクト指向設計について上手くまとめている
 - [Go にジェネリクスがなくても構わない人たちに対する批判について - methaneのブログ](http://methane.hatenablog.jp/entry/2017/09/19/Go_%E3%81%AB%E3%82%B8%E3%82%A7%E3%83%8D%E3%83%AA%E3%82%AF%E3%82%B9%E3%81%8C%E3%81%AA%E3%81%8F%E3%81%A6%E3%82%82%E6%A7%8B%E3%82%8F%E3%81%AA%E3%81%84%E4%BA%BA%E3%81%9F%E3%81%A1%E3%81%AB%E5%AF%BE%E3%81%99)
 

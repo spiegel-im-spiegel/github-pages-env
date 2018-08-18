@@ -99,4 +99,4 @@ Windows 版（64bit）のインストールパッケージで 1.4 系から 1.5 
     - [git repositories (GitHub)](https://github.com/golang) : mirror
 - [golang-jp - The Go Programming Language](http://golang-jp.org/) : 本家の日本語訳サイト（一部のみ）。（[golang.jp](http://golang.jp/) は古いので参考にしない方がいい，らしい）
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。

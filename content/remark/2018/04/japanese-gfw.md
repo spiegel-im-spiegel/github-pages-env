@@ -58,7 +58,7 @@ tags = [ "censorship", "internet", "code", "law", "politics" ]
 
 ## ネットワーク関連
 
-もともと VPN は公衆無線 LAN のセキュリティ不備や [WPA2 脆弱性]({{< relref "remark/2017/10/breaking-wpa2-by-forcing-nonce-reuse.md" >}} "WPA2 脆弱性（KRACKs）に関する覚え書き")の回避手段として注目されているが， VPN 内部や出入口ポイントの安全性を確認するのが（一般の人には）難しいという欠点がある。
+もともと VPN は公衆無線 LAN のセキュリティ不備や [WPA2 脆弱性]({{< ref "/remark/2017/10/breaking-wpa2-by-forcing-nonce-reuse.md" >}} "WPA2 脆弱性（KRACKs）に関する覚え書き")の回避手段として注目されているが， VPN 内部や出入口ポイントの安全性を確認するのが（一般の人には）難しいという欠点がある。
 これについては [TorrentFreak] が時々レビュー記事を載せている。
 
 - [Which VPN Services Keep You Anonymous in 2018? - TorrentFreak](https://torrentfreak.com/vpn-services-keep-anonymous-2018/)
@@ -82,7 +82,7 @@ tags = [ "censorship", "internet", "code", "law", "politics" ]
     - [Orbot: Tor for Android – Guardian Project](https://guardianproject.info/apps/orbot/)
     - [Tor Browser](https://www.torproject.org/projects/torbrowser.html.en)
 
-- [“The Shadow Web” （再掲載）]({{< relref "remark/2016/11/the-shadow-web.md" >}})
+- [“The Shadow Web” （再掲載）]({{< ref "/remark/2016/11/the-shadow-web.md" >}})
 
 ## その他ブックマーク
 

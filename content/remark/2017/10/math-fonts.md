@@ -24,7 +24,7 @@ tags        = [ "tex", "luatex", "font", "math" ]
   mermaidjs = false
 +++
 
-[TeX Live 2017 インストール]({{< relref "remark/2017/09/install-tex-live-2017-for-windows.md" >}})後の「$\mathrm{\TeX}$ で遊ぼう」第四弾は
+[TeX Live 2017 インストール]({{< ref "/remark/2017/09/install-tex-live-2017-for-windows.md" >}})後の「$\mathrm{\TeX}$ で遊ぼう」第四弾は
 
 - 数式用フォントで遊ぼう
 
@@ -95,7 +95,7 @@ $\mathbb{ABCDEFGHIJELMN}$
 ## 本文の欧文書体を OpenType フォントに変更する
 
 $\mathrm{Lua\LaTeX}$ で本文の書体を OpenType フォントに変更するのはとても簡単になった。
-本文の和文フォントを変更する方法は[前々回に紹介した]({{< relref "remark/2017/10/using-source-han-fonts-by-japanese-tex.md" >}} "TeX 日本語環境で「源ノ」フォントを使ってみた")が，たとえば欧文書体として $\mathrm{\TeX}$ Gyre をセットする場合は
+本文の和文フォントを変更する方法は[前々回に紹介した]({{< ref "/remark/2017/10/using-source-han-fonts-by-japanese-tex.md" >}} "TeX 日本語環境で「源ノ」フォントを使ってみた")が，たとえば欧文書体として $\mathrm{\TeX}$ Gyre をセットする場合は
 
 {{< highlight tex "hl_lines=2 5-7" >}}
 \documentclass[fleqn]{ltjsarticle}
@@ -121,7 +121,7 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を OpenType フォントに変更する�
 書体を選択する場合は本文の書体と後述する数式用の書体があまりかけ離れないようバランスをとることが重要である。
 『[LaTeX2ε美文書作成入門]』には欧文書体についてかなりページを割いて解説されているので，一読することをお薦めする。
 
-[^tt1]: 前回の「[LuaLaTeX でコードを書いてみる]({{< relref "remark/2017/10/writing-code-with-lualatex.md" >}})」を参照のこと。
+[^tt1]: 前回の「[LuaLaTeX でコードを書いてみる]({{< ref "/remark/2017/10/writing-code-with-lualatex.md" >}})」を参照のこと。
 
 ## 数式用の書体を変更する
 

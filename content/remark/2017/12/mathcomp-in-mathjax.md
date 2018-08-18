@@ -26,10 +26,10 @@ tags        = [ "math", "tex", "mathjax", "javascript" ]
 
 今回は横道に外れて小ネタでいきます。
 
-1. [ちょこっと MathJax： 初期設定]({{< relref "remark/2017/09/getting-started-mathjax-1.md" >}})
-2. [ちょこっと MathJax： 基本的な数式表現]({{< relref "remark/2017/09/getting-started-mathjax-2.md" >}})
-3. [ちょこっと MathJax： インライン数式と別行立て数式]({{< relref "remark/2017/10/getting-started-mathjax-3.md" >}})
-4. [ちょこっと MathJax 番外編： mathcomp パッケージの代替え]({{< relref "remark/2017/12/mathcomp-in-mathjax.md" >}}) ← イマココ
+1. [ちょこっと MathJax： 初期設定]({{< ref "/remark/2017/09/getting-started-mathjax-1.md" >}})
+2. [ちょこっと MathJax： 基本的な数式表現]({{< ref "/remark/2017/09/getting-started-mathjax-2.md" >}})
+3. [ちょこっと MathJax： インライン数式と別行立て数式]({{< ref "/remark/2017/10/getting-started-mathjax-3.md" >}})
+4. [ちょこっと MathJax 番外編： mathcomp パッケージの代替え]({{< ref "/remark/2017/12/mathcomp-in-mathjax.md" >}}) ← イマココ
 
 たとえば
 

@@ -21,4 +21,4 @@ title = "GnuPG for Windows ― インストール編"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
-(move to [{{< ref "openpgp/using-gnupg-for-windows-1.md" >}}]({{< ref "openpgp/using-gnupg-for-windows-1.md" >}} "GnuPG for Windows インストール編"))
+(move to [{{< ref "/openpgp/using-gnupg-for-windows-1.md" >}}]({{< ref "/openpgp/using-gnupg-for-windows-1.md" >}} "GnuPG for Windows インストール編"))

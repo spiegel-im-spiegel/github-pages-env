@@ -364,7 +364,7 @@ func main() {
 - [Goでのアルゴリズムクイックリファレンス第2版(4.1.1 挿入ソート) - Qiita](http://qiita.com/amesho/items/64dcd231038c96345848)
 - [interface{} をソートする - Qiita](http://qiita.com/tchssk/items/b61f1f06d22a6232d4c8)
 - [Big Sky :: golang の sort インタフェース難しい問題が解決した](http://mattn.kaoriya.net/software/lang/go/20161004092237.htm)
-- [Go 言語 1.8 がリリース]({{< relref "remark/2017/02/go-1_8-released.md" >}}) : [`sort`].`Slice()` 関数はバージョン 1.8 で導入された
+- [Go 言語 1.8 がリリース]({{< ref "/remark/2017/02/go-1_8-released.md" >}}) : [`sort`].`Slice()` 関数はバージョン 1.8 で導入された
 - [sort.Slice に学ぶ高速化のヒント - Qiita](https://qiita.com/chimatter/items/f908507287fe2c7030e9)
     - [sort.Sort と sort.Slice の速度比較 - Qiita](https://qiita.com/chimatter/items/bc8f3ab3e617211b9a24)
 - [golang でクイックソートを並列化してみる - 長文書くところ](http://zenito9970.hatenablog.com/entry/2015/05/30/155726)

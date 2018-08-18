@@ -279,7 +279,7 @@ func Unmarshal(data []byte, v interface{}) error {
 
 ## ブックマーク
 
-- [Struct タグについて]({{< relref "golang/struct-tag.md" >}})
+- [Struct タグについて]({{< relref "struct-tag.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [struct]: https://golang.org/ref/spec#Struct_types "Struct types"

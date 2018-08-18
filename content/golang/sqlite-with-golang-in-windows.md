@@ -58,9 +58,9 @@ Linux などのプラットフォームには最初から [GCC] が入ってい�
 Windows 環境で [GCC] **のみ** が必要なのであれば [MinGW-w64] から Windows 用のバイナリを取得するのがお勧めである[^gcc1]。
 
 [^sub1]: Windows 10 用の Linux 系サブシステムになら入ってると思うが，私は Windows 10 を使ったことがないのでよく知らない。
-[^gcc1]: [GCC] だけでなく autotools などの周辺ツールも必要なら [MSYS2] を導入するほうがいいかもしれない（参考： [MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の導入]({{< relref "remark/2016/03/gcc-msys2-2.md" >}})）。今回は [MinGW-w64] で全く問題ない。
+[^gcc1]: [GCC] だけでなく autotools などの周辺ツールも必要なら [MSYS2] を導入するほうがいいかもしれない（参考： [MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の導入]({{< ref "/remark/2016/03/gcc-msys2-2.md" >}})）。今回は [MinGW-w64] で全く問題ない。
 
-- [Mingw-w64 を導入する]({{< relref "remark/2018/03/mingw-w64.md" >}})
+- [Mingw-w64 を導入する]({{< ref "/remark/2018/03/mingw-w64.md" >}})
 
 ## サンプルをコンパイルしてみる
 

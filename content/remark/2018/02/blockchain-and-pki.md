@@ -28,7 +28,7 @@ Twitter で見かけた記事。
 
 - [Satoshiが注意深く設定した世界の境界線 – Shin'ichiro Matsuo – Medium](https://medium.com/@ShinichiroMatsuo/-cde3f8ffa0e4)
 
-Satoshi Nakamoto 氏の論文を引いていてかなり面白い内容だと思うが，言いたいことは単純で，私がこれまで[述べてきた]({{< relref "remark/2018/01/cryptocurrency-are-not-crypto.md" >}} "「暗号通貨」ってゆーな！")通り
+Satoshi Nakamoto 氏の論文を引いていてかなり面白い内容だと思うが，言いたいことは単純で，私がこれまで[述べてきた]({{< ref "/remark/2018/01/cryptocurrency-are-not-crypto.md" >}} "「暗号通貨」ってゆーな！")通り
 
 - Bitcoin のアドレスの帰属先について Bitcoin/Blockchain は関知しない。Bitcoin が気にするのは Blockchain に記載されるアドレスの一貫性と無矛盾性である。アドレスの証明が必要な場合は外部の PKI を利用するか新たに組み込む必要がある
 
@@ -241,9 +241,9 @@ X.509 と [OpenPGP] の信用モデルはコンセプトが直交しているた
 
 ## ブックマーク
 
-- [OpenPGP 鍵管理に関する考察]({{< relref "openpgp/openpgp-key-management.md" >}})
+- [OpenPGP 鍵管理に関する考察]({{< ref "/openpgp/openpgp-key-management.md" >}})
 
-[「仮想通貨」]: {{< relref "remark/2018/01/cryptocurrency-are-not-crypto.md" >}} "「暗号通貨」ってゆーな！"
+[「仮想通貨」]: {{< ref "/remark/2018/01/cryptocurrency-are-not-crypto.md" >}} "「暗号通貨」ってゆーな！"
 [OpenPGP]: http://openpgp.org/
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 

@@ -65,7 +65,7 @@ func main() {
 
 ## ブックマーク
 
-- [Log パッケージで遊ぶ]({{< relref "golang/logger.md" >}})
+- [Log パッケージで遊ぶ]({{< ref "/golang/logger.md" >}})
 
 [spiegel-im-spiegel/logf]: https://github.com/spiegel-im-spiegel/logf "spiegel-im-spiegel/logf: Simple leveled logging package by Golang"
 [log]: https://golang.org/pkg/log/ "log - The Go Programming Language"

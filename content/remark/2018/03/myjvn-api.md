@@ -395,8 +395,8 @@ XML の大まかな構成は以下の通り。
 
 - [“JVN iPedia”がHTTPS対応などのリニューアル、「MyJVNバージョンチェッカ」は要更新 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1107654.html)
 
-- [JVN が CVSSv3 による脆弱性評価を開始]({{< relref "remark/2015/cvss-v3-metrics-in-jvn.md" >}})
-- [go-myjvn パッケージを作ってみた]({{< relref "release/2018/03/go-myjvn-v0_1_0-released.md" >}})
+- [JVN が CVSSv3 による脆弱性評価を開始]({{< ref "/remark/2015/cvss-v3-metrics-in-jvn.md" >}})
+- [go-myjvn パッケージを作ってみた]({{< ref "/release/2018/03/go-myjvn-v0_1_0-released.md" >}})
 
 [JVN]: https://jvn.jp/ "Japan Vulnerability Notes"
 [脆弱性対策情報共有フレームワーク]: https://jvndb.jvn.jp/apis/myjvn/ "脆弱性対策情報共有フレームワーク - MyJVN"

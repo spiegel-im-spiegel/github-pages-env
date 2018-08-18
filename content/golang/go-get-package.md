@@ -338,7 +338,7 @@ See https://golang.org/s/go15vendor for details.
 ```
 
 （[Go 言語]のバージョン 1.5 から Internal Packages や Vendoring の機能が追加された。
-これについては「[GOPATH 汚染問題]({{< relref "golang/gopath-pollution.md" >}})」および「[パッケージ外部からの呼び出しを禁止する Internal Packages]({{< relref "golang/internal-packages.md" >}})」で解説している）
+これについては「[GOPATH 汚染問題]({{< relref "gopath-pollution.md" >}})」および「[パッケージ外部からの呼び出しを禁止する Internal Packages]({{< relref "internal-packages.md" >}})」で解説している）
 
 また `go get` コマンドでは内部でソースコード管理ツールを呼び出す。
 呼び出される可能性のあるツールは以下のとおり。
@@ -499,10 +499,10 @@ C:\workspace\hugo>go get -u -v github.com/spf13/hugo
 
 - [How to Write Go Code - The Go Programming Language](http://golang.org/doc/code.html) （[日本語版](http://golang-jp.org/doc/code.html)は情報が少し古いので注意）
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[前回]: {{< ref "hugo/hello.md" >}} "インストールから Hello World まで"
+[前回]: {{< relref "hello.md" >}} "インストールから Hello World まで"
 [`os`]: https://golang.org/pkg/os/ "os - The Go Programming Language"
 [`fmt`]: https://golang.org/pkg/fmt/ "fmt - The Go Programming Language"
 [`flag`]: https://golang.org/pkg/flag/ "flag - The Go Programming Language"

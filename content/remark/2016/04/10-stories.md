@@ -98,7 +98,7 @@ Microsoft 自らこういう無茶をすること自体が「Windows の終わ�
 - [Big Sky :: Windows ユーザは cmd.exe で生きるべき。](http://mattn.kaoriya.net/software/why-i-use-cmd-on-windows.htm)
 
 激しく同意。
-もっとも私は [ConEmu & NYAGOS]({{< relref "remark/2015/conemu-and-nyagos.md" >}}) だけど（笑）
+もっとも私は [ConEmu & NYAGOS]({{< ref "/remark/2015/conemu-and-nyagos.md" >}}) だけど（笑）
 
 ## WhatsApp がついに Signal ベースの E2E 暗号化を実装する{#sig}
 
@@ -159,8 +159,8 @@ Value Object の特徴は以下のとおり。
 
 実は [Go 言語]はこの Value Object の実装にとても向いている。
 
-- [Go 言語における「オブジェクト」 — プログラミング言語 Go]({{< relref "golang/object-oriented-programming.md" >}})
-- [関数とポインタ — プログラミング言語 Go]({{< relref "golang/function-and-pointer.md" >}})
+- [Go 言語における「オブジェクト」 — プログラミング言語 Go]({{< ref "/golang/object-oriented-programming.md" >}})
+- [関数とポインタ — プログラミング言語 Go]({{< ref "/golang/function-and-pointer.md" >}})
 
 [Go 言語]の特徴である「強い型付け」も Value Object を念頭に置いて考えるなら合理的な仕様であることが分かるだろう。
 

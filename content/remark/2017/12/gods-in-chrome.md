@@ -25,7 +25,7 @@ tags        = [ "web", "site", "font", "unicode", "normalization", "character" ]
   mermaidjs = false
 +++
 
-「[Go 言語による Unicode 半角/全角変換]({{< relref "golang/character-width-for-unicode.md" >}})」のページを Google Chrome で見ると「神と神」が同じ「神」に見える，という報告をいただきまして，確かにこちらの環境でも再現するので，ちょっと調べてみました。
+「[Go 言語による Unicode 半角/全角変換]({{< ref "/golang/character-width-for-unicode.md" >}})」のページを Google Chrome で見ると「神と神」が同じ「神」に見える，という報告をいただきまして，確かにこちらの環境でも再現するので，ちょっと調べてみました。
 
 （追記： Chrome だけじゃなくて [Android 用の Firefox Focus](https://play.google.com/store/apps/details?id=org.mozilla.focus) でも同じ現象を確認した。どうやら [Android 用の Firefox Focus] は Firefox とはレイアウトエンジンが異なり WebKit からの fork である WebView （Android に既定で入ってるやつ）を[使ってるらしい](http://www.eweek.com/enterprise-apps/mozilla-brings-firefox-focus-to-android-to-improve-privacy "Firefox Focus Debuts on Android With Automatic Tracking Protection")。それって，もしかして全ての元凶は WebKit ってことなのか？）
 
@@ -34,8 +34,8 @@ tags        = [ "web", "site", "font", "unicode", "normalization", "character" ]
 まず，[本サイト]の状態を説明しておくと，サイトの各ページの文字は Web フォントで表示されている。
 ブラウザ側で Web フォントを無効にしていない（または経路途中でフィルタリングされない）限りは，こちらで指定したフォントで表示されるはずである。
 
-- [Web フォントに関する覚え書き]({{< relref "remark/2015/web-font-family.md" >}})
-- [Web フォントに関する覚え書き（明朝体編）]({{< relref "remark/2016/10/japanese-serif-fonts-by-google-cdn.md" >}})
+- [Web フォントに関する覚え書き]({{< ref "/remark/2015/web-font-family.md" >}})
+- [Web フォントに関する覚え書き（明朝体編）]({{< ref "/remark/2016/10/japanese-serif-fonts-by-google-cdn.md" >}})
 
 本文を含む地の文章には「[さわらび明朝]」を利用している。
 [Google Fonts Early Access](https://fonts.google.com/earlyaccess) で唯一ふだん使いできる明朝体の Web フォントだったのが選択した理由である[^ns1]。
@@ -91,7 +91,7 @@ tags        = [ "web", "site", "font", "unicode", "normalization", "character" ]
 
 ここで思い出すのが Unicode 正規化による「神」の正規化である。
 
-- [Go 言語と Unicode 正規化]({{< relref "golang/unicode-normalization.md" >}})
+- [Go 言語と Unicode 正規化]({{< ref "/golang/unicode-normalization.md" >}})
 
 この記事で説明している通り， CJK 互換文字である「`U+FA19 '神'`」は正規化によって「`U+795E '神'`」に変換されてしまうのである。
 
@@ -149,7 +149,7 @@ tags        = [ "web", "site", "font", "unicode", "normalization", "character" ]
 いや，これは酷いだろう。
 同じ文字化けするなら「豆腐 □」や「ゲタ 〓」のほうがまだマシである。
 多分 Chrome の中の人は CJK 互換文字や異体字について（歴史背景などを）よく理解しないまま「正規化できる文字で代替えすればいいぢゃん♥」と軽い感じで実装してしまったのだろう。
-「[Go 言語と Unicode 正規化]({{< relref "golang/unicode-normalization.md" >}})」では Apple の旧ファイルシステム HFS+ を散々に貶したが， ~~Google もタイガイである~~。（Chrome だけじゃなかった）
+「[Go 言語と Unicode 正規化]({{< ref "/golang/unicode-normalization.md" >}})」では Apple の旧ファイルシステム HFS+ を散々に貶したが， ~~Google もタイガイである~~。（Chrome だけじゃなかった）
 
 ちなみに，この現象は Firefox （またはその系列のブラウザ）では発生しない。
 私のメインブラウザは Firefox (Quantum マンセー！) なので，指摘されるまで全く気づかなかった。
@@ -160,7 +160,7 @@ tags        = [ "web", "site", "font", "unicode", "normalization", "character" ]
 とはいえ，これは相当にレアケースなので滅多なことでは発現しないだろう。
 ~~個人的には Noto Serif の和文フォントが Web フォントで登場するまでは「[さわらび明朝]」で頑張るつもりである。
 なので，特に対策しない予定。~~
-（ゴメン。[日和った]({{< relref "remark/2017/12/installing-noto-serif-jp-in-www_baldanders_info.md" >}} "結局 Noto Serif JP を Web フォントとして導入した")）
+（ゴメン。[日和った]({{< ref "/remark/2017/12/installing-noto-serif-jp-in-www_baldanders_info.md" >}} "結局 Noto Serif JP を Web フォントとして導入した")）
 
 ご不便をおかけすることもあるかもですが，悪しからずご了承の程を。
 

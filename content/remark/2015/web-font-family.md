@@ -242,7 +242,7 @@ Google Noto Fonts 以外で利用しているフォントを列挙しておく�
 [Font Awesome] は 5 系がリリースされ， SVG と JavaScript によるアイコン表示と制御がサポートされた。
 詳しくは以下の記事を参照のこと。
 
-- [Font Awesome 5 がリリースされた]({{< relref "remark/2017/12/font-awesome-5-released.md" >}})
+- [Font Awesome 5 がリリースされた]({{< ref "/remark/2017/12/font-awesome-5-released.md" >}})
 
 [Font Awesome]: https://fontawesome.com/
 
@@ -268,4 +268,4 @@ CC License のアイコンは [Font Awesome] 5.0.11 以降に含まれた。
 ## 関連（するかもしれない）記事
 
 - [ちょこっと MathJax — Baldanders.info](http://www.baldanders.info/spiegel/log2/000750.shtml) : MathJax で数式用の Web フォントを使用可能
-- [Web フォントに関する覚え書き（明朝体編）]({{< relref "remark/2016/10/japanese-serif-fonts-by-google-cdn.md" >}}) : 明朝体について追記している
+- [Web フォントに関する覚え書き（明朝体編）]({{< ref "/remark/2016/10/japanese-serif-fonts-by-google-cdn.md" >}}) : 明朝体について追記している

@@ -283,7 +283,7 @@ after_success:
 - [CI-as-a-ServiceでGo言語プロジェクトの最新ビルドを継続的に提供する | SOTA](http://deeeet.com/writing/2014/10/16/golang-in-ci-as-a-service/)
 - [RaspberryPi1(2とzeroも)で動かすgolang製アプリをクロスコンパイル(onMac) - Qiita](http://qiita.com/m0a/items/d933982293dcadd4998c)
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [mitchellh/gox]: https://github.com/mitchellh/gox "mitchellh/gox: A dead simple, no frills Go cross compile tool"

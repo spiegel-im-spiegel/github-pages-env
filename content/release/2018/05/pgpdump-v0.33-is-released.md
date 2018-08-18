@@ -26,7 +26,7 @@ tags  = [ "openpgp", "tools", "pgpdump" ]
 
 [pgpdump] は山本和彦さんによる [OpenPGP] パケットの[視覚化ツール](http://www.mew.org/~kazu/proj/pgpdump/ja/)である。
 
-v0.33 での変更点を [git のログからさらう]({{< relref "remark/2018/03/git-log.md" >}} "バージョン間のコミット・ログを取得する")とこんな感じ。
+v0.33 での変更点を [git のログからさらう]({{< ref "/remark/2018/03/git-log.md" >}} "バージョン間のコミット・ログを取得する")とこんな感じ。
 
 - Make the haskell test driver use UTC. 6118d4a
 - Convert tests to UTC so they work in not-JST locales. c03c140
@@ -44,8 +44,8 @@ v0.33 での変更点を [git のログからさらう]({{< relref "remark/2018/
 
 ## ブックマーク
 
-- [MSYS2 による gcc 開発環境の構築 ― pgpdump をビルドする]({{< relref "remark/2016/03/gcc-msys2-3.md" >}})
-- [gpgpdump 0.3.0 をリリースした]({{< relref "remark/2017/11/gpgpdump-0_3_0-released.md" >}})
+- [MSYS2 による gcc 開発環境の構築 ― pgpdump をビルドする]({{< ref "/remark/2016/03/gcc-msys2-3.md" >}})
+- [gpgpdump 0.3.0 をリリースした]({{< ref "/remark/2017/11/gpgpdump-0_3_0-released.md" >}})
 
 [OpenPGP]: http://openpgp.org/
 [pgpdump]: https://github.com/kazu-yamamoto/pgpdump "kazu-yamamoto/pgpdump: A PGP packet visualizer"

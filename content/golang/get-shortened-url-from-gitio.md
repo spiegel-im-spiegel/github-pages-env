@@ -197,7 +197,7 @@ func main() {
 - [よく使うcurlコマンドのオプションまとめ（12個） - Qiita](https://qiita.com/shtnkgm/items/45b4cd274fa813d29539)
 - [curlコマンドをPythonやnode.jsのコードに変換する方法 - Qiita](https://qiita.com/tottu22/items/9112d30588f0339faf9b) : Python への変換は[こちらのサービス](https://curl.trillworks.com/ "Convert cURL command syntax to Python requests, Node.js code")のほうが簡潔なコードを吐いてくれるらしい
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Git.io]: http://git.io/ "git.io"

@@ -65,7 +65,7 @@ TDD では先に「テスト」を書く。
 つまり「問題と解答」のセットを先に作るのである。
 そして入力した問題に対して必ず「正しい」解答が出力されるよう手順（algorithm）を記述するのがプログラミングである。
 
-たとえば「20と32の最大公約数は4」を導く手順としては[「ユークリッド互除法」が有名]({{< relref "golang/greatest-common-divisor.md" >}})だが，なぜ「ユークリッド互除法」で最大公約数が解けるのかエンジニアは考えない[^gcd1]。
+たとえば「20と32の最大公約数は4」を導く手順としては[「ユークリッド互除法」が有名]({{< ref "/golang/greatest-common-divisor.md" >}})だが，なぜ「ユークリッド互除法」で最大公約数が解けるのかエンジニアは考えない[^gcd1]。
 テストが要求する $gcd(20,32)=4$ を実装できることが重要なのである。
 そもそも大抵の数学ライブラリに入ってるしね（笑）
 
@@ -100,7 +100,7 @@ TDD では先に「テスト」を書く。
     - [立憲民主党の未来は実は改憲にある : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/21571730.html)
     - [長谷部恭男教授の「立憲主義」は、集団的自衛権の違憲性を説明しない : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/21632477.html)
 
-- [第48回衆議院議員総選挙]({{< relref "remark/2017/10/the-48th-general-election.md" >}})
+- [第48回衆議院議員総選挙]({{< ref "/remark/2017/10/the-48th-general-election.md" >}})
 
 [Scrapbox]: https://scrapbox.io/spiegel-branch/ "Spiegel's Branch - Scrapbox"
 [ATOM]: https://atom.io/

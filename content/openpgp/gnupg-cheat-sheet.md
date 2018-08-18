@@ -31,7 +31,7 @@ tags = [
   mermaidjs = false
 +++
 
-(move from [{{< ref "remark/2017/11/gnupg-sheat-sheet.md" >}}]({{< ref "remark/2017/11/gnupg-sheat-sheet.md" >}} "GnuPG チートシート（鍵作成から失効まで）"))
+(move from [{{< ref "/remark/2017/11/gnupg-sheat-sheet.md" >}}]({{< ref "/remark/2017/11/gnupg-sheat-sheet.md" >}} "GnuPG チートシート（鍵作成から失効まで）"))
 
 最近 `git commit` に電子署名する目的などで [GnuPG] を使う記事などをチラホラ見かけるようになったが，やっぱ使い慣れんもんは分からんよねぇ。
 しかもバージョンによって微妙に挙動が異なるのが困りものである。
@@ -176,7 +176,7 @@ There is NO WARRANTY, to the extent permitted by law.
 
 ECC (Elliptic Curve Cryptography; 楕円曲線暗号) 鍵の取り扱いについては以下の記事を参照のこと。
 
-- [そろそろ GnuPG でも ECC を標準で使うのがいいんじゃないかな]({{<relref "openpgp/using-ecc-with-gnupg.md" >}})
+- [そろそろ GnuPG でも ECC を標準で使うのがいいんじゃないかな]({{<ref "/openpgp/using-ecc-with-gnupg.md" >}})
 
 ### --quick-generate-key コマンド
 
@@ -1030,7 +1030,7 @@ kAc/Jx5aYcyrXqcZtxNwHF+oflpRWyd0KA==
 - [Using the GNU Privacy Guard: GPG Configuration Options](https://www.gnupg.org/documentation/manuals/gnupg/GPG-Configuration-Options.html)
 
 - [わかる！ OpenPGP 暗号 — Baldanders.info](http://www.baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
-- [OpenPGP 鍵管理に関する考察]({{< relref "remark/2017/11/openpgp-key-management.md" >}})
+- [OpenPGP 鍵管理に関する考察]({{< ref "/remark/2017/11/openpgp-key-management.md" >}})
 
 [OpenPGP]: http://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
 [RFC 4880]: https://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"

@@ -22,7 +22,7 @@ title = "Categories や Tags の一覧ページを作る"
 
 今回は補足なので簡単に。
 
-「[Categories, Tags そして Section]({{< relref "hugo/section.md" >}})」の回で紹介してなかったのだが[^a]， Categories や Tags の一覧ページを作る機能があるので紹介する。
+「[Categories, Tags そして Section]({{< ref "/hugo/section.md" >}})」の回で紹介してなかったのだが[^a]， Categories や Tags の一覧ページを作る機能があるので紹介する。
 
 [^a]: というか，今までやり方が分かってなかった。
 
@@ -61,7 +61,7 @@ ul.cloud > li {
 <html>
 ```
 
-[以前の記事]({{< relref "hugo/section.md" >}})の [Taxonomy]({{< relref "hugo/section.md#" >}}) の記述に似ているので，それほど難しくないだろう。
+[以前の記事]({{< ref "/hugo/section.md" >}})の [Taxonomy]({{< ref "/hugo/section.md#" >}}) の記述に似ているので，それほど難しくないだろう。
 これをビルドするとこんな感じにファイルが展開される。
 
 ```text
@@ -174,6 +174,6 @@ ul.cloud > li {
 - [Hugoサイト構築 | Watanabe-DENKI Inc. 渡辺電気株式会社](http://wdkk.co.jp/lab/hugo/) : お勧め！
 - [Hugoでタグやカテゴリのリンク切れが起こる - Qiita](http://qiita.com/_shun_sato_/items/87888fa8425e55b1c758)
 
-[Hugo に関するブックマークはこちら]({{< ref "hugo/bookmark.md" >}})。
+[Hugo に関するブックマークはこちら]({{< ref "/hugo/bookmark.md" >}})。
 
 [Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"

@@ -33,7 +33,7 @@ title = "State of the Commons 2016"
 
 2016年の目玉は何と言っても検索サービスのリニューアルと CC0 コンテンツの拡充だろう。
 
-- [新しい CC Search が登場，他]({{< relref "remark/2017/02/new-cc-search.md" >}})
+- [新しい CC Search が登場，他]({{< ref "/remark/2017/02/new-cc-search.md" >}})
 
 {{< fig-quote title="Our biggest report yet: State of the Commons 2016" link="https://creativecommons.org/2017/04/28/state-of-the-commons-2016/" lang="en" >}}
 <q>These stories also echo the work we’ve been doing in areas like 3D printing, usability, and global community building. A spotlight on the British Museum, which released 128 models of sculptures from the Roman and Egyptian periods on the 3D design sharing platform Sketchfab and a tale of remix and community among the more than 1.5 million CC licensed objects on Thingiverse is proof that our community is front and center, and it’s working together better than ever.</q>
@@ -57,7 +57,7 @@ title = "State of the Commons 2016"
 
 - [Creative Commons — State of the Commons 2015 — It's been a remarkable year, most notably for the more than 1.1 billion works under one of the CC licenses, CC0, or the public domain mark.](https://stateof.creativecommons.org/2015/)
 - [Free Culture Licenses — Baldanders.info](http://www.baldanders.info/spiegel/log2/000796.shtml)
-- [「インターネットと発酵」]({{< relref "remark/2016/12/fermented-internet.md" >}})
+- [「インターネットと発酵」]({{< ref "/remark/2016/12/fermented-internet.md" >}})
 - [新連載第1回：情報社会の未来を「発酵」に読む──「ドミニク チェンの醸され『発酵メディア』研究」｜WIRED.jp](http://wired.jp/series/ferment-media-research/01_microbes/)
 
 [State of the Commons]: https://stateof.creativecommons.org/

@@ -72,7 +72,7 @@ tags        = [ "astronomy", "gravity-wave" ]
 
 ## ブックマーク
 
-- [週末スペシャル： LIGO が重力波の「直接検出」に成功する！]({{< relref "remark/2016/02/14-stories.md" >}})
+- [週末スペシャル： LIGO が重力波の「直接検出」に成功する！]({{< ref "/remark/2016/02/14-stories.md" >}})
 
 [LIGO]: https://www.ligo.caltech.edu/ "LIGO Lab | Caltech | MIT"
 [すばる]: https://subarutelescope.org/ "Subaru Telescope"

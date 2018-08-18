@@ -19,7 +19,7 @@ title = "Windows 10 で PSK を共有する"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
-[この前]({{< relref "remark/2015/0923-diary.md#wireless" >}})，「WiFi シェア」を盛大に dis ったわけだが，「Windows 10のWi-fi Senseも仲間に入れてあげてください」とフィードバックを頂いた。
+[この前]({{< ref "/remark/2015/0923-diary.md#wireless" >}})，「WiFi シェア」を盛大に dis ったわけだが，「Windows 10のWi-fi Senseも仲間に入れてあげてください」とフィードバックを頂いた。
 確かにそのとおりだ！
 
 というわけで， Microsoft が Windows 10 で自信を持ってお送りする {{% quote lang="en" %}}Wi-Fi Sense{{% /quote %}} についていくつか記事を紹介する。

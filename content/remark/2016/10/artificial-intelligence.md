@@ -137,7 +137,7 @@ AI (Artificial Intelligence) はたまたま再流行してこれから何か影
 
 ## AI は「トロッコ問題」をどう解くか（再掲載）{#trolley-problem}
 
-（[以前書いた記事]({{< relref "remark/2015/1103-diary.md#trolley-problem" >}})をちょっと弄って再掲載[^replay]）
+（[以前書いた記事]({{< ref "/remark/2015/1103-diary.md#trolley-problem" >}})をちょっと弄って再掲載[^replay]）
 
 [^replay]: 自己防衛的な措置として，このサイトでは安易に「知性（intellect）」という言葉を使わないことにした。今まで私は知性は「知能（intelligence）」の延長線上にあるものとしてあまり区別してなかった（哲学（つか神学）上の intellectus と intelligentia の違いがピンとこなくて）。が，どうもそういう解釈をしている人は少なそうである。なかには知能の反対が知性だという人もいるっぽい。そういう前提条件が異なる状態では議論にも参考にもならない（議論するためには前提となるものの擦りあわせが必要）。このサイトの記事についても遡って修正することにする。本家サイトは（若気の至りということで）とりあえず放置。まぁ「知能」の概念が大きく乖離することはあるまい。「知能＝学力」みたいに勘違いしてる人はいるかもだが。
 
@@ -174,8 +174,8 @@ AI は（今のところ）近似解に葛藤したりしない。
 
 ## ブックマーク{#bookmark}
 
-- [人工知能は「ハイル・ヒトラー」と叫ぶか]({{< relref "remark/2015/artificial-intelligence.md" >}})
-- [「ピノキオ」と AI]({{< relref "remark/2016/08/pinocchio.md" >}})
+- [人工知能は「ハイル・ヒトラー」と叫ぶか]({{< ref "/remark/2015/artificial-intelligence.md" >}})
+- [「ピノキオ」と AI]({{< ref "/remark/2016/08/pinocchio.md" >}})
 - [コンピュータが次々と間違える時代。](http://www.ne.jp/asahi/comp/tarusan/main260.htm)
 - [なぜいま「ロボット倫理学」が必要か〜問題はすでに起きている（岡本 慎平） | 現代ビジネス | 講談社](http://gendai.ismedia.jp/articles/-/50660)
 - [人類と人工知能が共存する未来への第一歩--IBMが「AI倫理」を解説 - ZDNet Japan](https://japan.zdnet.com/article/35108815/)

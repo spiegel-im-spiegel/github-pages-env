@@ -35,7 +35,7 @@ tags = [
 
 昨年で個人的に変わったことと言えば Twitter と Tumblr をよく見るようになったことだが
 
-- [Twitter と Tumblr の設定を見直す]({{< relref "remark/2017/10/setting-tumblr-and-twitter.md" >}})
+- [Twitter と Tumblr の設定を見直す]({{< ref "/remark/2017/10/setting-tumblr-and-twitter.md" >}})
 
 現在も Twitter についてはタイムラインに広告をかますアカウントは問答無用でブロックしている（retweet で流れてくる広告は例外）。
 一方，同じタイムライン・サービスでも Facebook については，よほど不快なものでない限り許容してきた。

@@ -105,7 +105,7 @@ Facebook は昨年の大統領選で「[フィルターバブル]」の批判を
 - [Googleの「強調スニペット」の「Google Home」での危険性をメディアが指摘 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1703/06/news076.html)
 - [Age-of-Trump - Spiegel's Branch - Scrapbox](https://scrapbox.io/spiegel-branch/Age-of-Trump)
 
-[フィルターバブル]: {{< relref "remark/2016/05/filter-bubble.md" >}} "『フィルターバブル』を読む"
+[フィルターバブル]: {{< ref "/remark/2016/05/filter-bubble.md" >}} "『フィルターバブル』を読む"
 [うそはうそであると見抜ける人でないと難しい]: http://dic.nicovideo.jp/a/%E3%81%86%E3%81%9D%E3%81%AF%E3%81%86%E3%81%9D%E3%81%A7%E3%81%82%E3%82%8B%E3%81%A8%E8%A6%8B%E6%8A%9C%E3%81%91%E3%82%8B%E4%BA%BA%E3%81%A7%E3%81%AA%E3%81%84%E3%81%A8(%E6%8E%B2%E7%A4%BA%E6%9D%BF%E3%82%92%E4%BD%BF%E3%81%86%E3%81%AE%E3%81%AF)%E9%9B%A3%E3%81%97%E3%81%84 "うそはうそであると見抜ける人でないと(掲示板を使うのは)難しいとは (ウソハウソデアルトミヌケルヒトデナイトケイジバンヲツカウノハムズカシイとは) [単語記事] - ニコニコ大百科"
 
 ## 参考図書{#books}

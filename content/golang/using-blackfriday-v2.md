@@ -24,7 +24,7 @@ tags        = [ "golang", "programming", "markdown", "template", "html", "tools"
   mermaidjs = false
 +++
 
-この前 [markdown テキスト変換ツールの物色]({{< relref "remark/2018/02/from-markdown-to-html.md" >}})を行っていたのだが，この中で [blackfriday] パッケージがなかなか面白そうなのでちょっと遊んでみることにした。
+この前 [markdown テキスト変換ツールの物色]({{< ref "/remark/2018/02/from-markdown-to-html.md" >}})を行っていたのだが，この中で [blackfriday] パッケージがなかなか面白そうなのでちょっと遊んでみることにした。
 
 ## [blackfriday].v2
 
@@ -85,7 +85,7 @@ func main() {
 }
 ```
 
-[`blackfriday`]`.WithExtensions()` 関数および [`blackfriday`]`.WithRenderer()` 関数は [Functional Options パターン]({{< relref "golang/functional-options-pattern.md" >}} "インスタンスの生成と Functional Options パターン")の応用で任意に設定できる。
+[`blackfriday`]`.WithExtensions()` 関数および [`blackfriday`]`.WithRenderer()` 関数は [Functional Options パターン]({{< relref "functional-options-pattern.md" >}} "インスタンスの生成と Functional Options パターン")の応用で任意に設定できる。
 
 v1.x 系に比べて HTML レンダリング・オプションの指定が面倒くさい感じになっているが，これは [`blackfriday`]`.Renderer` インタフェースに合わせた別のレンダリング・パッケージを使えるようにするためらしい。
 HTML 変換以外のレンダリング・パッケージとしては $\mathrm{\LaTeX}$ への変換パッケージがあるようだ。
@@ -172,8 +172,8 @@ func renderWithGitHub(md []byte) ([]byte, error) {
 [Go 言語]標準のテンプレートパッケージには [`text/template`] と [`html/template`] の2つがある。
 [`html/template`] は `<` や `>` などの特殊文字を適切に変換してくれるので良いのだが，今回は HTML テキストをまるっと埋め込むので（勝手に sanitizing されては困るので） [`text/template`] のほうを使うことにした。
 
-また，テンプレートファイルは [go-assets を使って]({{< relref "golang/using-go-assets.md" >}} "go-assets でシングルバイナリにまとめる")コードに埋め込むことにした。
-いやぁ，[勉強して]({{< relref "golang/using-go-assets.md" >}} "go-assets でシングルバイナリにまとめる")おいてよかった。
+また，テンプレートファイルは [go-assets を使って]({{< relref "using-go-assets.md" >}} "go-assets でシングルバイナリにまとめる")コードに埋め込むことにした。
+いやぁ，[勉強して]({{< relref "using-go-assets.md" >}} "go-assets でシングルバイナリにまとめる")おいてよかった。
 
 用意したテンプレートファイルはこんな感じ。
 
@@ -242,7 +242,7 @@ func (p *PageData) Render() ([]byte, error) {
 
 - [Go言語初学者がConfluenceをMarkdownで書くためのCLIツールを開発した話 - DMM inside](https://inside.dmm.com/entry/2018/05/28/golang-cli-tool) : Markdown 記法から Wiki 記法への変換
 
-- [Glide から Dep への移行を検討する]({{< relref "golang/consider-switching-from-glide-to-dep.md" >}})
+- [Glide から Dep への移行を検討する]({{< relref "consider-switching-from-glide-to-dep.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [blackfriday]: https://github.com/russross/blackfriday "russross/blackfriday: Blackfriday: a markdown processor for Go"

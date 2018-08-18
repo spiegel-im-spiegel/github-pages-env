@@ -49,7 +49,7 @@ Web ブラウザ上で高品質な数式表現を行うための JavaScript パ�
 
 ## ブックマーク
 
-- [ちょこっと MathJax： 初期設定]({{< relref "remark/2017/09/getting-started-mathjax-1.md" >}})
+- [ちょこっと MathJax： 初期設定]({{< ref "/remark/2017/09/getting-started-mathjax-1.md" >}})
 
 ## 参考図書
 

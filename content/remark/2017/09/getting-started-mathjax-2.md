@@ -26,10 +26,10 @@ tags        = [ "math", "tex", "mathjax", "javascript" ]
 
 さて，初期設定は[前回]で完了したので，今回は基本的な数式の書き方を説明していこう。
 
-1. [ちょこっと MathJax： 初期設定]({{< relref "remark/2017/09/getting-started-mathjax-1.md" >}})
-2. [ちょこっと MathJax： 基本的な数式表現]({{< relref "remark/2017/09/getting-started-mathjax-2.md" >}}) ← イマココ
-3. [ちょこっと MathJax： インライン数式と別行立て数式]({{< relref "remark/2017/10/getting-started-mathjax-3.md" >}})
-4. [ちょこっと MathJax 番外編： mathcomp パッケージの代替え]({{< relref "remark/2017/12/mathcomp-in-mathjax.md" >}})
+1. [ちょこっと MathJax： 初期設定]({{< ref "/remark/2017/09/getting-started-mathjax-1.md" >}})
+2. [ちょこっと MathJax： 基本的な数式表現]({{< ref "/remark/2017/09/getting-started-mathjax-2.md" >}}) ← イマココ
+3. [ちょこっと MathJax： インライン数式と別行立て数式]({{< ref "/remark/2017/10/getting-started-mathjax-3.md" >}})
+4. [ちょこっと MathJax 番外編： mathcomp パッケージの代替え]({{< ref "/remark/2017/12/mathcomp-in-mathjax.md" >}})
 
 ## 数式表現の「お約束」 {#rule}
 
@@ -214,12 +214,12 @@ $\mathrm{\TeX}$ 記法では不等号記号はそのまま `<` や `>` 文字を
 - [MathJaxでEuler(オイラー)フォントを使ったときの不具合](http://www.math.sci.hokudai.ac.jp/~yano/memo/mathjax_euler.html) ： `mtextFontInherit` には true または false が入るので，文字列 `"false"` をセットするのは間違い。おそらく文字列を内部で無理やり true に評価してるんだと思う。この辺は流石 JavaScript というところか（笑）
 - [MathJaxによる数式表示](https://oku.edu.mie-u.ac.jp/~okumura/javascript/mathjax.html)
 
-- [数式用フォントで遊ぶ]({{< relref "remark/2017/10/math-fonts.md" >}}) : $\mathrm{TeX}$ における数式表現についてフォントを中心に書いてみた
+- [数式用フォントで遊ぶ]({{< ref "/remark/2017/10/math-fonts.md" >}}) : $\mathrm{TeX}$ における数式表現についてフォントを中心に書いてみた
 
 [本ブログ]: / "text.Baldanders.info"
 [MathJax]: https://www.mathjax.org/
 [AsciiMath]: http://asciimath.org/
-[前回]: {{< relref "remark/2017/09/getting-started-mathjax-1.md" >}} "ちょこっと MathJax： 初期設定"
+[前回]: {{< ref "/remark/2017/09/getting-started-mathjax-1.md" >}} "ちょこっと MathJax： 初期設定"
 [LaTeX2ε美文書作成入門]: http://www.amazon.co.jp/exec/obidos/ASIN/4774187054/baldandersinf-22/ "Amazon | [改訂第7版]LaTeX2ε美文書作成入門 | 奥村 晴彦, 黒木 裕介 通販"
 
 ## 参考図書 {#books}

@@ -266,7 +266,7 @@ $ eval $(/usr/bin/ssh-pageant -r -a "/tmp/.ssh-pageant-$USERNAME")
 - [KeeAgent – lechnology.com](https://lechnology.com/software/keeagent/) : パスワード管理ツール [KeePass] のプラグインで， [KeePass] のパスワードデータベースを使って SSH 鍵を管理し Agent 機能で SSH に鍵を渡す仕組みらしい。  [PuTTY] と [OpenSSH] に対応しているようだ
 
 
-[前回]: {{< relref "openpgp/using-gnupg-for-windows-1.md" >}} "GnuPG for Windows インストール編"
+[前回]: {{< ref "/openpgp/using-gnupg-for-windows-1.md" >}} "GnuPG for Windows インストール編"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 [OpenPGP]: http://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
 [PuTTY]: http://www.chiark.greenend.org.uk/~sgtatham/putty/ "PuTTY: a free SSH and Telnet client"

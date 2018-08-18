@@ -36,7 +36,7 @@ tags  = [ "tools", "hugo" ]
 
 なんだだそうだ。
 
-[Chroma Syntax Highlight]({{< relref "hugo/chroma-syntax-highlighting.md" >}} "Chroma Syntax Highlighting") のアップデートに対応したのは嬉しい。
+[Chroma Syntax Highlight]({{< ref "/hugo/chroma-syntax-highlighting.md" >}} "Chroma Syntax Highlighting") のアップデートに対応したのは嬉しい。
 Jekyll は使ったことないので今回の対応が嬉しいことなのか分からない（笑）
 
 昔に比べて Jekyll のパフォーマンスはかなりよくなったと聞いた気がするのだが，気のせいかな。

@@ -24,7 +24,7 @@ tags = ["golang", "testing", "benchmark"]
   mermaidjs = false
 +++
 
-別のセクションで「[Project Euler で遊ぶ]({{< relref "remark/2018/03/project-euler.md" >}})」話を書いたのだが，この記事のコメントで「ユニットテストを書く練習になる」というのがあって「なるほど！」と膝を打った。
+別のセクションで「[Project Euler で遊ぶ]({{< ref "/remark/2018/03/project-euler.md" >}})」話を書いたのだが，この記事のコメントで「ユニットテストを書く練習になる」というのがあって「なるほど！」と膝を打った。
 つか，自力で気づけよ，自分。
 まだまだ TDD が身につかないなぁ。
 
@@ -243,8 +243,8 @@ ok      project-euler/problem-1   1.952s
 
 ## ブックマーク
 
-- [Go 言語のテスト・フレームワーク]({{<relref "golang/testing.md" >}})
-- [文字列連結はどれが速い？]({{< relref "golang/join-strings.md" >}})
+- [Go 言語のテスト・フレームワーク]({{<relref "testing.md" >}})
+- [文字列連結はどれが速い？]({{< relref "join-strings.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Project Euler]: https://projecteuler.net/

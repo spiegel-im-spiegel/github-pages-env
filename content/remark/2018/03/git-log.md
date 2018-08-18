@@ -99,8 +99,8 @@ $ gitlog v0.6.0 v0.7.0 | grep -v Merge
 - [Git - Book](https://git-scm.com/book/en/v2)
     - [Git - Revision Selection](https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection)
 
-- [あまり使わないけど，たまに使おうとすると忘れてる Git コマンド集]({{< relref "remark/2015/git-commands.md" >}})
-- [NYAGOS で Lua]({{< relref "remark/2015/nyagos-and-lua.md" >}})
+- [あまり使わないけど，たまに使おうとすると忘れてる Git コマンド集]({{< ref "/remark/2015/git-commands.md" >}})
+- [NYAGOS で Lua]({{< ref "/remark/2015/nyagos-and-lua.md" >}})
 
 [Git]: http://git-scm.com/ "Git"
 [GitHub]: https://github.com/ "GitHub"

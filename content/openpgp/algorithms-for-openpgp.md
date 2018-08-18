@@ -29,9 +29,9 @@ tags = [
   mermaidjs = false
 +++
 
-(move from [{{< ref "remark/2017/11/algorithms-for-openpgp.md" >}}]({{< ref "remark/2017/11/algorithms-for-openpgp.md" >}} "OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）"))
+(move from [{{< ref "/remark/2017/11/algorithms-for-openpgp.md" >}}]({{< ref "/remark/2017/11/algorithms-for-openpgp.md" >}} "OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）"))
 
-[gpgpdump] を [RFC 4880bis] に[対応させていく作業]({{< relref "remark/2017/11/gpgpdump-0_3_0-released.md" >}} "gpgpdump 0.3.0 をリリースした")の中で「改めて『[OpenPGP] で利用可能なアルゴリズム』をまとめておいたほうがいいかなぁ」と感じたので，覚え書きとして記しておく。
+[gpgpdump] を [RFC 4880bis] に[対応させていく作業]({{< ref "/remark/2017/11/gpgpdump-0_3_0-released.md" >}} "gpgpdump 0.3.0 をリリースした")の中で「改めて『[OpenPGP] で利用可能なアルゴリズム』をまとめておいたほうがいいかなぁ」と感じたので，覚え書きとして記しておく。
 
 なお [RFC 4880bis] は，名前の通り，ドラフト段階なので今後変わる可能性がある。
 アルゴリズム関連で変更があった場合は随時この記事に加筆・修正していって，正式な RFC 番号が振られた段階でこの記事の最終稿とする予定である。
@@ -291,7 +291,7 @@ ID は [OpenPGP] で定義されるもので ”pub 1” のように表記す�
 {{< /div-gen >}}
 
 - [RFC 6637] および [RFC 4880bis] では NIST curve P-256 が “MUST implement” となっている。また NIST curve P-521, Ed25519, Curve25519 が “SHOULD implement” となっている
-- 具体的な実装例については「[そろそろ GnuPG でも ECC を標準で使うのがいいんじゃないかな]({{< relref "openpgp/using-ecc-with-gnupg.md" >}})」で紹介している
+- 具体的な実装例については「[そろそろ GnuPG でも ECC を標準で使うのがいいんじゃないかな]({{< ref "/openpgp/using-ecc-with-gnupg.md" >}})」で紹介している
 
 ## 一方向ハッシュ関数アルゴリズム（Hash Algorithms）
 
@@ -462,17 +462,17 @@ ID は [OpenPGP] で定義されるもので ”comp 1” のように表記す�
 - SHA2-256, SHA3-256
 
 の中から組み合わせるのが「[ベストマッチ！](https://dic.pixiv.net/a/%E3%83%93%E3%83%AB%E3%83%89%28%E4%BB%AE%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%29)」である[^key1]。
-詳しくは「[暗号鍵関連の各種変数について]({{< relref "remark/2017/10/key-parameters.md" >}})」を参照のこと。
+詳しくは「[暗号鍵関連の各種変数について]({{< ref "/remark/2017/10/key-parameters.md" >}})」を参照のこと。
 
 [^key1]: もちろんアルゴリズムの危殆化が起きない前提での話である。こればっかりは予測しようもないし（笑） 危殆化があり得ることを前提にするなら，ひとつのアルゴリズムに固定するのではなく，常に代替えを用意する（または用意できるよう準備する）ことが大事である。
 
 ## ブックマーク
 
 - [わかる！ OpenPGP 暗号](http://www.baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
-- [OpenPGP: First RFC4880bis Draft]({{< relref "remark/2015/openpgp-draft-rfc4880bis-first.md" >}})
-    - [OpenPGP に関する話題]({{< relref "remark/2017/03/topics-on-openpgp.md" >}})
-    - [Issuer Fingerprint Signature Subpacket in Next OpenPGP]({{< relref "openpgp/issuer-fingerprint-signature-subpacket-in-next-openpgp.md" >}})
-    - [次期 OpenPGP と AEAD]({{< relref "remark/2018/01/next-openpgp-with-aead.md" >}})
+- [OpenPGP: First RFC4880bis Draft]({{< ref "/remark/2015/openpgp-draft-rfc4880bis-first.md" >}})
+    - [OpenPGP に関する話題]({{< ref "/remark/2017/03/topics-on-openpgp.md" >}})
+    - [Issuer Fingerprint Signature Subpacket in Next OpenPGP]({{< ref "/openpgp/issuer-fingerprint-signature-subpacket-in-next-openpgp.md" >}})
+    - [次期 OpenPGP と AEAD]({{< ref "/remark/2018/01/next-openpgp-with-aead.md" >}})
 
 [gpgpdump]: https://github.com/spiegel-im-spiegel/gpgpdump "spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer"
 [RFC 4880]: https://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"

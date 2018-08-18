@@ -25,4 +25,4 @@ image = "/images/attention/remark.jpg"
   mermaidjs = false
 +++
 
-(move to [{{< ref "openpgp/gnupg-cheat-sheet.md" >}}]({{< ref "openpgp/gnupg-cheat-sheet.md" >}} "GnuPG チートシート（鍵作成から失効まで）"))
+(move to [{{< ref "/openpgp/gnupg-cheat-sheet.md" >}}]({{< ref "/openpgp/gnupg-cheat-sheet.md" >}} "GnuPG チートシート（鍵作成から失効まで）"))

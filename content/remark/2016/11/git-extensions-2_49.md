@@ -38,7 +38,7 @@ draft = false
 素敵すぎる。
 
 [Git Extensions] は GUI アプリとしてはかなり出来がいいほうだと思うのだが[^st]，やはり GUI だとどうしても「痒くても手が届かない」局面があるのよね。
-[黒歴史を改竄したい]({{< relref "remark/2015/git-commands.md">}} "あまり使わないけど，たまに使おうとすると忘れてる Git コマンド集")ときとか（笑）
+[黒歴史を改竄したい]({{< ref "/remark/2015/git-commands.md">}} "あまり使わないけど，たまに使おうとすると忘れてる Git コマンド集")ときとか（笑）
 
 [^st]: 少なくとも [SourceTree] よりは好み。ただ [ATOM] を使うようになって以降は通常の commit & push は [ATOM] 上で済ませたりする。
 
@@ -48,7 +48,7 @@ draft = false
 
 ## ブックマーク
 
-- [ようやく ConEmu と NYAGOS を導入した]({{< relref "remark/2015/conemu-and-nyagos.md" >}})
+- [ようやく ConEmu と NYAGOS を導入した]({{< ref "/remark/2015/conemu-and-nyagos.md" >}})
 
 [Git Extensions]: https://gitextensions.github.io/
 [ConEmu]: https://conemu.github.io/ "ConEmu - Handy Windows Terminal"

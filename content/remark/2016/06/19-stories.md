@@ -102,7 +102,7 @@ Home: ********
 はっきり言うが，それは全く無駄なことである。
 それがやりたいのならコンピュータ系の専門学校にでも行かせればいい話である（まぁコンピュータ系の専門学校へ行ってモノになるのは全体の一割弱だろうけど）。
 
-前に「[「だれもがプログラミングを学ぶべき」ではない]({{< relref "remark/2016/05/lets-programming.md" >}})」でも書いたが，プログラミングもプログラミング言語も手段や道具でしかない。
+前に「[「だれもがプログラミングを学ぶべき」ではない]({{< ref "/remark/2016/05/lets-programming.md" >}})」でも書いたが，プログラミングもプログラミング言語も手段や道具でしかない。
 
 プログラミングやプログラミング言語には前提となる学問体系が存在する。
 それはたとえば「コンピュータ科学（computer science）」などと言われたりする。
@@ -212,7 +212,7 @@ Home: ********
 
 {{< fig-img flickr="true" src="https://c8.staticflickr.com/8/7352/27154130743_8690a88078.jpg" title="Branch Protection" link="https://www.flickr.com/photos/spiegel/27154130743/" >}}
 
-更に，前にも紹介したが， [commit に OpenPGP 署名を付与する]({{< relref "remark/2016/04/git-commit-with-openpgp-signature.md" >}} "Git Commit で OpenPGP 署名を行う")ことで不正な merge を検出しやすくできるかもしれない。
+更に，前にも紹介したが， [commit に OpenPGP 署名を付与する]({{< ref "/remark/2016/04/git-commit-with-openpgp-signature.md" >}} "Git Commit で OpenPGP 署名を行う")ことで不正な merge を検出しやすくできるかもしれない。
 
 [GitHub](https://github.com/) アカウントはエンジニアにとっては Twitter や Facebook よりも重要な identity なので，きっちり管理していきたいものである。
 

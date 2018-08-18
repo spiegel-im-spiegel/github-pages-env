@@ -155,7 +155,7 @@ Facebook や Twitter のタイムラインにしろ Google の検索窓にしろ
 
 実は『[反知性主義]』は半分くらいまで読んで絶賛積読中なのだが，なんとか GW 中に読了して感想文を書いてみたいものである[^ai1]。
 
-[^ai1]: 『[反知性主義]』の[感想文はこちら]({{< relref "remark/2016/09/anti-intellectualism.md" >}} "ようやく『反知性主義』を読んだ")。
+[^ai1]: 『[反知性主義]』の[感想文はこちら]({{< ref "/remark/2016/09/anti-intellectualism.md" >}} "ようやく『反知性主義』を読んだ")。
 
 [フィルターバブル]: http://www.amazon.co.jp/exec/obidos/ASIN/4150504598/baldandersinf-22/ "フィルターバブル──インターネットが隠していること (ハヤカワ文庫NF) : イーライ・パリサー, 井口耕二 : 本 : Amazon"
 [CODE]: http://www.amazon.co.jp/exec/obidos/ASIN/B01CYDGUV8/baldandersinf-22/ "Amazon.co.jp: CODE VERSION 2.0 電子書籍: ローレンス・レッシグ, 山形浩生: Kindleストア"

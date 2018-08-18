@@ -24,7 +24,7 @@ tags  = [ "golang", "package", "cli" ]
   mermaidjs = false
 +++
 
-この前 [v0.7.0 をリリースした]({{< relref "release/2018/03/gocli-package-v0_7_0-released.md" >}})ばかりだが，舌の根も乾かぬうちに v0.8.0 をリリースしてしまった。
+この前 [v0.7.0 をリリースした]({{< ref "/release/2018/03/gocli-package-v0_7_0-released.md" >}})ばかりだが，舌の根も乾かぬうちに v0.8.0 をリリースしてしまった。
 
 - [Release v0.8.0 Released · spiegel-im-spiegel/gocli](https://github.com/spiegel-im-spiegel/gocli/releases/tag/v0.8.0)
 

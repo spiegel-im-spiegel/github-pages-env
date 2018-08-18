@@ -76,7 +76,7 @@ trim_trailing_whitespace = false
 
 チームでこうした設定を決めてプロジェクトに組み込んでおけば文字エンコーディングや改行コードやインデント幅といった馬鹿らしいことで悩むことなく作業に専念できる。
 
-- [ATOM Editor に関するメモ]({{< relref "remark/2015/atom-editor.md" >}})
+- [ATOM Editor に関するメモ]({{< ref "/remark/2015/atom-editor.md" >}})
 
 
 [ATOM]: https://atom.io/ "Atom"

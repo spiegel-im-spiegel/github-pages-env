@@ -130,7 +130,7 @@ $ tlmgr update --self --all
 - `sourcehan` [^sh1]
 - `noembed` （フォントを埋め込まない）
 
-[^sh1]: [源ノ明朝]および[源ノ角ゴシック]の仕様例として「[TeX 日本語環境で「源ノ」フォントを使ってみた]({{< relref "remark/2017/10/using-source-han-fonts-by-japanese-tex.md" >}})」を参考にどうぞ。
+[^sh1]: [源ノ明朝]および[源ノ角ゴシック]の仕様例として「[TeX 日本語環境で「源ノ」フォントを使ってみた]({{< ref "/remark/2017/10/using-source-han-fonts-by-japanese-tex.md" >}})」を参考にどうぞ。
 
 追加で以下のオプションも使用できる
 

@@ -20,7 +20,7 @@ title = "text.Baldanders.info 正式オープン"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
-さて[予定]({{< relref "remark/2015/todo-replace-blog.md" >}})通り，正式オープンしました。
+さて[予定]({{< ref "/remark/2015/todo-replace-blog.md" >}})通り，正式オープンしました。
 
 ## かえってきた「しっぽのさきっちょ」
 
@@ -36,7 +36,7 @@ title = "text.Baldanders.info 正式オープン"
 
 このサイトの運営方針は以下を参照して下さい。
 
-- [text.Baldanders.info について]({{< relref "site-policy.md" >}})
+- [text.Baldanders.info について]({{< relref "/site-policy.md" >}})
 
 基本的には[本家サイト](http://www.baldanders.info/policy.shtml)と同じです。
 

@@ -139,11 +139,11 @@ S/MIME 形式で電子署名が一般的になれば spam メールの排除も�
 
 私もしばらく前にアカウントを作っている。
 
-- [ProtonMail のアカウントを作りました]({{< relref "remark/2016/03/protonmail.md" >}})
+- [ProtonMail のアカウントを作りました]({{< ref "/remark/2016/03/protonmail.md" >}})
 
 ## SHA-1 の危殆化と OpenPGP V5{#v5}
 
-現在の OpenPGP は鍵指紋に SHA-1 を使用しているが， [SHA-1 の危殆化]({{< relref "remark/2017/02/sha-1-collision.md" >}})に伴い「どーする？」ってな議論になってるようだ。
+現在の OpenPGP は鍵指紋に SHA-1 を使用しているが， [SHA-1 の危殆化]({{< ref "/remark/2017/02/sha-1-collision.md" >}})に伴い「どーする？」ってな議論になってるようだ。
 
 - [[openpgp] V5 Fingerprint again](https://mailarchive.ietf.org/arch/msg/openpgp/_uV_coJ0CYayv_2ptJMuSraJhws)
 

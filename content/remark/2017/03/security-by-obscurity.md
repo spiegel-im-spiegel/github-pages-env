@@ -21,7 +21,7 @@ description = "よく「隠すセキュリティはダメ」と言われるが�
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
-例の [Vault 7 絡み]({{< relref "remark/2017/03/cia-hacking-tools-from-wikileaks.md" >}} "WikiLeaks がリークした CIA ハッキングツール")の話。
+例の [Vault 7 絡み]({{< ref "/remark/2017/03/cia-hacking-tools-from-wikileaks.md" >}} "WikiLeaks がリークした CIA ハッキングツール")の話。
 
 - [ニュース解説 - CIAの機密文書で発覚、シスコ製品300種類にパッチ提供未定の危険な脆弱性：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/14/346926/032300899/?rt=nocnt)
 

@@ -50,7 +50,7 @@ title = "Go 言語における「オブジェクト」"
 string は不変（immutable）な値で，その実体は byte 配列である。
 基本型は組み込み型であり，振る舞いを追加・変更することはできない。
 
-[^rn]: rune は Unicode 文字の符号点（code point）を示す型で文字そのものを表現する。 string と rune の関係については「[String と Rune]({{< relref "golang/string-and-rune.md" >}})」を参照のこと。
+[^rn]: rune は Unicode 文字の符号点（code point）を示す型で文字そのものを表現する。 string と rune の関係については「[String と Rune]({{< relref "string-and-rune.md" >}})」を参照のこと。
 
 さらにこれらの基本型を集約した構造体 [struct] を定義できる。
 
@@ -72,7 +72,7 @@ func main() {
 
 この他に配列（array/slice）や連想配列（map）あるいは関数値（function value）といったものもあるが，今回は踏み込まない[^slc]。
 
-[^slc]: slice については「[素数探索アルゴリズムで遊ぶ]({{< relref "golang/search-prime-numbers.md" >}})」で少し紹介している。
+[^slc]: slice については「[素数探索アルゴリズムで遊ぶ]({{< relref "search-prime-numbers.md" >}})」で少し紹介している。
 
 ## 型に名前を付ける
 
@@ -164,7 +164,7 @@ func main() {
 
 のようにピリオドで関数を連結して記述する[^pr]。
 
-[^call]: [Go 言語]の関数呼び出しにおいて引数の渡し方は基本的に「値渡し」である。インスタンスの値ではなく実体を渡すにはインスタンスへのポインタを値として渡せばよい。メソッド・レシーバについても同様で，関数の呼び出し側インスタンスが実体かポインタかに関わらず，実体渡しの場合は実体（のコピー）が，ポインタ渡しの場合は実体へのポインタが渡される。詳しくは「[関数とポインタ]({{< relref "golang/function-and-pointer.md" >}})」を参照のこと。
+[^call]: [Go 言語]の関数呼び出しにおいて引数の渡し方は基本的に「値渡し」である。インスタンスの値ではなく実体を渡すにはインスタンスへのポインタを値として渡せばよい。メソッド・レシーバについても同様で，関数の呼び出し側インスタンスが実体かポインタかに関わらず，実体渡しの場合は実体（のコピー）が，ポインタ渡しの場合は実体へのポインタが渡される。詳しくは「[関数とポインタ]({{< relref "function-and-pointer.md" >}})」を参照のこと。
 [^pr]: ちなみに [`fmt`].`Print` などでは引数の型が `String()` を持っていることを期待し，この関数の出力結果をデフォルト書式にしている。したがって `fmt.Println(vertex.String())` と `fmt.Println(vertex)` は同じ結果になる。
 
 構造体そのものには関数を付与できない[^mt]。
@@ -223,7 +223,7 @@ invalid receiver type struct { X int; Y int } (struct { X int; Y int } is an unn
 [interface] で定義された型で最もよく目にするのは [error] だろう。
 [error] は以下のように定義できる[^er1]。
 
-[^er1]: [error] は組み込み型なので，実際にこのような定義が標準パッケージにあるわけではない。 [error] について詳しくは「[エラー・ハンドリングについて]({{< relref "golang/error-handling.md" >}})」を参照のこと。
+[^er1]: [error] は組み込み型なので，実際にこのような定義が標準パッケージにあるわけではない。 [error] について詳しくは「[エラー・ハンドリングについて]({{< relref "error-handling.md" >}})」を参照のこと。
 
 ```go
 type error interface {
@@ -433,7 +433,7 @@ func main() {
 - [Goにatexitやグローバルなデストラクタがない理由 - Qiita](http://qiita.com/ruiu/items/22910a4bae6cb716a391)
 - [Python と Ruby と typing - methaneのブログ](http://methane.hatenablog.jp/entry/ruby-python-go-typing) : [interface] を使った汎化・特化の関係は duck typing ではなく「構造的部分型（structural subtyping）」と言うのが正しいらしい
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [struct]: https://golang.org/ref/spec#Struct_types "Struct types"

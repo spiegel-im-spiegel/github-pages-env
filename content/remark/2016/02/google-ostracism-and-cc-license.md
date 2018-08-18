@@ -83,7 +83,7 @@ Legal Code でも
 
 - [改訂3版： CC Licenses について — text.Baldanders.info](/cc-licenses/)
 
-[人格権]({{< relref "cc-licenses/03-moral-rights.md" >}})と[二次的著作物]({{< relref "cc-licenses/04-derivative-works.md" >}})の話までは書いた[^c]。
+[人格権]({{< ref "/cc-licenses/03-moral-rights.md" >}})と[二次的著作物]({{< ref "/cc-licenses/04-derivative-works.md" >}})の話までは書いた[^c]。
 今後は DRM （技術的保護手段）についてと CC0 および Free Culture Licenses について書く予定。
 予定は未定。
 

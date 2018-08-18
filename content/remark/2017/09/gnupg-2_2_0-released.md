@@ -87,7 +87,7 @@ tags = [
 
 [^rh1]: 一方， [Red Hat の評価](https://access.redhat.com/security/cve/cve-2017-0379)は `CVSS:3.0/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N` で基本評価値 4.4 になっている。ただし[論文]を読むと攻撃シナリオとして Enigmail, Git-crypt, Pidgin-OpenPGP を使った方法が挙げられているので， [NVD] の評価のほうが近いかも。
 
-CVSS については[解説ページ]({{< relref "remark/2015/cvss-v3-metrics-in-jvn.md" >}})を参照のこと。
+CVSS については[解説ページ]({{< ref "/remark/2015/cvss-v3-metrics-in-jvn.md" >}})を参照のこと。
 
 インストールが上手くいけば以下のようになる。
 

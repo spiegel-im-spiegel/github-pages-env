@@ -45,7 +45,7 @@ Firefox を使いだしたのっていつだっけ？ と昔の日記を掘り�
 
 [^ff1]: 実際に携帯端末用の [Firefox Focus](https://play.google.com/store/apps/details?id=org.mozilla.focus "Firefox Focus: プライバシー保護ブラウザー - Google Play") は最初からトラッキングをブロックする設定になっている。
 
-何よりも Mozilla は [Campbridge Analytica の件]({{< relref "remark/2018/03/name-identification.md" >}} "善悪の葛藤")が発覚するまで Facebook に広告を出していたのである。
+何よりも Mozilla は [Campbridge Analytica の件]({{< ref "/remark/2018/03/name-identification.md" >}} "善悪の葛藤")が発覚するまで Facebook に広告を出していたのである。
 その広告から広告主たる Mozilla が何を得ていたか知らなかったとは言わせない。
 あの件以降，そそくさと広告を引っ込めた企業・団体の名前は覚えておいたほうがいい。
 連中は Facebook よりも卑劣である（目くそ鼻くそだけど）。

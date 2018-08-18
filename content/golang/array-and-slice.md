@@ -713,7 +713,7 @@ slc1 != slc2
 - [golangのequalityの評価について - podhmo's diary](http://pod.hatenablog.com/entry/2016/07/30/204357)
 - [スライスを返すときはcapに注意しよう - Qiita](https://qiita.com/methane/items/2cc4e4a23172f6f9b993)
 
-- [Map の話]({{< relref "golang/map.md" >}})
+- [Map の話]({{< relref "map.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [slice]: http://golang.org/ref/spec#Slice_types

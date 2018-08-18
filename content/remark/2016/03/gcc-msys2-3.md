@@ -21,9 +21,9 @@ title = "MSYS2 による gcc 開発環境の構築 ― pgpdump をビルドす�
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
-1. [MSYS2 のインストールから初期化処理まで]({{< relref "remark/2016/03/gcc-msys2-1.md" >}})
-2. [gcc パッケージ群の導入]({{< relref "remark/2016/03/gcc-msys2-2.md" >}})
-3. [pgpdump をビルドする]({{< relref "remark/2016/03/gcc-msys2-3.md" >}}) （← イマココ）
+1. [MSYS2 のインストールから初期化処理まで]({{< ref "/remark/2016/03/gcc-msys2-1.md" >}})
+2. [gcc パッケージ群の導入]({{< ref "/remark/2016/03/gcc-msys2-2.md" >}})
+3. [pgpdump をビルドする]({{< ref "/remark/2016/03/gcc-msys2-3.md" >}}) （← イマココ）
 
 [前回]で gcc を導入できたので，実際にビルドを試してみる。
 今回はターゲットとして [pgpdump] を用いる。
@@ -431,5 +431,5 @@ Old: Signature Packet(tag 2)(577 bytes)
 ちなみに Windows バイナリは[うちのサイトでも公開](http://www.baldanders.info/spiegel/archive/pgpdump/)しているのでご自由にどうぞ。
 
 [MSYS2]: http://msys2.github.io/ "MSYS2 installer"
-[前回]: {{< relref "remark/2016/03/gcc-msys2-2.md" >}} "MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の導入"
+[前回]: {{< ref "/remark/2016/03/gcc-msys2-2.md" >}} "MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の導入"
 [pgpdump]: https://github.com/kazu-yamamoto/pgpdump "kazu-yamamoto/pgpdump: A PGP packet visualizer"

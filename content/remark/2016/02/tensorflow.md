@@ -21,7 +21,7 @@ title = "TensorFlow に関するブックマーク"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
-（この記事は「[プログラミング言語との付き合い方]({{< relref "remark/2015/programming-language.md" >}})」のおまけの項からの転載です）
+（この記事は「[プログラミング言語との付き合い方]({{< ref "/remark/2015/programming-language.md" >}})」のおまけの項からの転載です）
 
 [TensorFlow] は Google がオープンソースとして提供する多次元配列（tensor）[演算（flow）](https://en.wikipedia.org/wiki/Flow_%28mathematics%29)ライブラリ。
 いわゆる「機械学習（machine learning）」で威力を発揮し， [TensorFlow] の元となっている Google 内製のインフラ [DistBelief](http://research.google.com/pubs/pub40565.html) では既に実績がある。

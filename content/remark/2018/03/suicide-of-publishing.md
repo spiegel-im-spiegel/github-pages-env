@@ -69,4 +69,4 @@ COOL JAPAN など過去の話であり，世界はもう日本のマンガやア
 - [マンガの海賊版は「最新作の売り上げ減少」と「旧作の売り上げ促進」の2つの効果をもたらす - GIGAZINE](https://gigazine.net/news/20170222-piracy-boost-book-sales/)
 - [漫画村がつぶれて男性読者が増えた？ | 電脳マヴォ合同会社](https://www.mavo.co.jp/danseidokusya/)
 
-- [漫画は衰退しました]({{< relref "remark/2018/01/manga-has-delined.md" >}})
+- [漫画は衰退しました]({{< ref "/remark/2018/01/manga-has-delined.md" >}})

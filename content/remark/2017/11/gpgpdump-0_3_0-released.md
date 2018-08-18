@@ -151,7 +151,7 @@ Compressed Data Packet (tag 8) (149 bytes)
 
 [RFC 1951] を [Go 言語]でどうやって実装するのか分からなくてさ。
 [`compress/flate`] パッケージを使えばいいと気づくまで試行錯誤しちゃったよ（自作しなくて済んだ）。
-この辺は[別の記事]({{< relref "golang/compress-data.md" >}} "Go 言語でデータ圧縮と解凍")で紹介する。
+この辺は[別の記事]({{< ref "/golang/compress-data.md" >}} "Go 言語でデータ圧縮と解凍")で紹介する。
 
 現在のオプションはこんな感じ。
 
@@ -190,8 +190,8 @@ Flags:
 
 ## ブックマーク
 
-- [gpgpdump - OpenPGP packet visualizer]({{< relref "remark/2016/02/gpgpdump-released.md" >}})
-- [gpgpdump 0.2.0 をリリースした]({{< relref "remark/2017/11/gpgpdump-0_2_0-released.md" >}})
+- [gpgpdump - OpenPGP packet visualizer]({{< ref "/remark/2016/02/gpgpdump-released.md" >}})
+- [gpgpdump 0.2.0 をリリースした]({{< ref "/remark/2017/11/gpgpdump-0_2_0-released.md" >}})
 
 [gpgpdump]: https://github.com/spiegel-im-spiegel/gpgpdump "spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer"
 [pgpdump]: http://www.mew.org/~kazu/proj/pgpdump/ "pgpdump"

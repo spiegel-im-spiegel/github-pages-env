@@ -83,9 +83,9 @@ Windows 用なら [Git Extensions] 本体の他に以下のツールが同梱さ
 - [KDiff3 の日本語化 – 各種パソコン技術情報](http://w3w.nnn2.com/?p=874)
 - [しれっと、GitExtensionを日本語化する。 - Sinatraのあらかると](http://takkii.hatenablog.com/entry/2017/11/06/195156)
 
-- [GnuPG for Windows : gpg-agent について]({{< relref "openpgp/using-gnupg-for-windows-2.md" >}}) : SSH の鍵管理も gpg-agent で行う
-- [Git Extensions 2.49 × ConEmu ＝ ♥]({{< relref "remark/2016/11/git-extensions-2_49.md" >}})
-- [Git Extensions と LibreOffice 6 と OpenPGP]({{< relref "openpgp/git-extensions-and-libreoffice-6-with-openpgp.md" >}})
+- [GnuPG for Windows : gpg-agent について]({{< ref "/openpgp/using-gnupg-for-windows-2.md" >}}) : SSH の鍵管理も gpg-agent で行う
+- [Git Extensions 2.49 × ConEmu ＝ ♥]({{< ref "/remark/2016/11/git-extensions-2_49.md" >}})
+- [Git Extensions と LibreOffice 6 と OpenPGP]({{< ref "/openpgp/git-extensions-and-libreoffice-6-with-openpgp.md" >}})
 
 [Git]: https://git-scm.com/
 [Git for Windows]: http://gitforwindows.org/

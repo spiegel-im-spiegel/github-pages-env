@@ -204,7 +204,7 @@ See the full [analysis](https://wiki.creativecommons.org/wiki/ShareAlike_compati
 たとえば
 
 ```markdown
-[「ブックマーク」ページの「公式サイト」節]({{</* ref "hugo/bookmark.md#official" */>}})
+[「ブックマーク」ページの「公式サイト」節]({{</* ref "/hugo/bookmark.md#official" */>}})
 ```
 
 と記述すると
@@ -219,7 +219,7 @@ See the full [analysis](https://wiki.creativecommons.org/wiki/ShareAlike_compati
 
 - [Hugoサイト構築 | Watanabe-DENKI Inc. 渡辺電気株式会社](http://wdkk.co.jp/lab/hugo/) : お勧め！
 
-[Hugo に関するブックマークはこちら]({{< ref "hugo/bookmark.md" >}})。
+[Hugo に関するブックマークはこちら]({{< ref "/hugo/bookmark.md" >}})。
 
 [Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
 [Shortcodes]: https://gohugo.io/extras/shortcodes/ "Shortcodes"

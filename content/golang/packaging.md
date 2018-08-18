@@ -213,7 +213,7 @@ julian-day-4b.go:10:2: cannot find package "modjulian" in any of:
 
 ### パッケージを GitHub 上に配置する
 
-「[go get コマンドでパッケージを管理する]({{< ref "golang/go-get-package.md" >}})」でも紹介しましたが，インターネット上の repository にあるパッケージを
+「[go get コマンドでパッケージを管理する]({{< relref "go-get-package.md" >}})」でも紹介しましたが，インターネット上の repository にあるパッケージを
 
 ```go
 import "github.com/username/package"
@@ -333,10 +333,10 @@ MJD = 57023日
 
 ## ブックマーク
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[前回]: {{< ref "golang/julian-day-number.md" >}} "「ユリウス日」で遊ぶ"
-[次回]: {{< ref "golang/testing.md" >}} "Go 言語のテスト・フレームワーク"
+[前回]: {{< relref "julian-day-number.md" >}} "「ユリウス日」で遊ぶ"
+[次回]: {{< relref "testing.md" >}} "Go 言語のテスト・フレームワーク"
 [GitHub]: https://github.com/
 [`github.com/spiegel-im-spiegel/astrocalc`]: https://github.com/spiegel-im-spiegel/astrocalc

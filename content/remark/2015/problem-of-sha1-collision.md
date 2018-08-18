@@ -188,7 +188,7 @@ GPU ベースのシステムやクラウド・サービス等による巨大計�
 - [[IT 管理者向け] 残っていませんか? SSL/TLS 証明書の SHA-1 廃止はもうすぐ - 日本のセキュリティチーム - Site Home - TechNet Blogs](http://blogs.technet.com/b/jpsecurity/archive/2016/02/08/sha1-deprecation-tls.aspx)
 - [SHA-1 ウェブサーバー証明書は 2017 年２月から警告！ウェブサイト管理者は影響の最終確認を – 日本のセキュリティチーム](https://blogs.technet.microsoft.com/jpsecurity/2016/11/25/sha1countdown/)
 - [「Google Chrome」の閲覧画面にエラーが！ ～“https://”のサイトにアクセスできない - やじうまの杜 - 窓の杜](http://forest.watch.impress.co.jp/docs/serial/yajiuma/1041798.html)
-- [最初の SHA-1 衝突例]({{< relref "remark/2017/02/sha-1-collision.md" >}})
+- [最初の SHA-1 衝突例]({{< ref "/remark/2017/02/sha-1-collision.md" >}})
 
 ## 関連図書
 

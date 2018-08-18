@@ -156,10 +156,10 @@ script:
 - [Golang におけるサブテストの並行処理実装について | eureka tech blog](https://developers.eure.jp/tech/go1_7-subtests/)
 - [golangのテストはじめ - Qiita](https://qiita.com/tmzkysk/items/8bb37795ac223664d682)
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[前回]: {{< ref "golang/packaging.md" >}} "機能のパッケージ化"
-[次回]: {{< ref "golang/document.md" >}} "Go 言語のドキュメント・フレームワーク"
+[前回]: {{< relref "packaging.md" >}} "機能のパッケージ化"
+[次回]: {{< relref "document.md" >}} "Go 言語のドキュメント・フレームワーク"
 [`testing`]: http://golang.org/pkg/testing/
 [Travis CI]: https://travis-ci.org/ "Travis CI - Test and Deploy Your Code with Confidence"

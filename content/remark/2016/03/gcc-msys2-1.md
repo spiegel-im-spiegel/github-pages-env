@@ -28,9 +28,9 @@ title = "MSYS2 による gcc 開発環境の構築 ― MSYS2 のインストー�
 
 ここでは以下の3部構成になっている。
 
-1. [MSYS2 のインストールから初期化処理まで]({{< relref "remark/2016/03/gcc-msys2-1.md" >}}) （← イマココ）
-2. [gcc パッケージ群の導入]({{< relref "remark/2016/03/gcc-msys2-2.md" >}})
-3. [pgpdump をビルドする]({{< relref "remark/2016/03/gcc-msys2-3.md" >}})
+1. [MSYS2 のインストールから初期化処理まで]({{< ref "/remark/2016/03/gcc-msys2-1.md" >}}) （← イマココ）
+2. [gcc パッケージ群の導入]({{< ref "/remark/2016/03/gcc-msys2-2.md" >}})
+3. [pgpdump をビルドする]({{< ref "/remark/2016/03/gcc-msys2-3.md" >}})
 
 ## gcc と MSYS2
 
@@ -45,7 +45,7 @@ MSYS の後継（？）とも言える [MSYS2] では gcc を含む開発環境�
 
 [^mgw1]: この記事では今まで [TDM-GCC] を勧めてきたが，どうも何年もメンテナンスされていないようだ。したがって今後は [MinGW-w64] を推すことにする。
 
-- [MinGW-w64 を導入する]({{< relref "remark/2018/03/mingw-w64.md" >}})
+- [MinGW-w64 を導入する]({{< ref "/remark/2018/03/mingw-w64.md" >}})
 
 そうではなく autotools などを含む UNIX 互換の環境が必要なのであれば，今回紹介する [MSYS2] が適切と思われる（UNIX 系のコマンドを Windows にポーティングする場合など）。
 また開発環境は要らないが UNIX 互換の動作環境が欲しいだけなら [Git for Windows] を導入する手もある[^gfw]。
@@ -376,4 +376,4 @@ sub   4096R/576CF231 2014-09-28
 [Git for Windows]: http://git-for-windows.github.io/ "Git for Windows"
 [mintty]: https://mintty.github.io/ "Mintty — Cygwin Terminal emulator"
 [ConEmu]: https://conemu.github.io/ "ConEmu - Handy Windows Terminal"
-[次回]: {{< relref "remark/2016/03/gcc-msys2-2.md" >}} "MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の導入"
+[次回]: {{< ref "/remark/2016/03/gcc-msys2-2.md" >}} "MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の導入"

@@ -32,7 +32,7 @@ tags = [
   mermaidjs = true
 +++
 
-(move from [{{< ref "remark/2017/11/openpgp-key-management.md" >}}]({{< ref "remark/2017/11/openpgp-key-management.md" >}} "OpenPGP 鍵管理に関する考察"))
+(move from [{{< ref "/remark/2017/11/openpgp-key-management.md" >}}]({{< ref "/remark/2017/11/openpgp-key-management.md" >}} "OpenPGP 鍵管理に関する考察"))
 
 たまたま以下の記事を見かけたのだが
 
@@ -683,8 +683,8 @@ uid           [  失効  ] Alice <alice@example.com>
 - [Using the GNU Privacy Guard: OpenPGP Key Management](https://www.gnupg.org/documentation/manuals/gnupg/OpenPGP-Key-Management.html)
 
 - [わかる！ OpenPGP 暗号](http://www.baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
-- [GnuPG for Windows ― インストール編]({{< relref "remark/2016/03/using-gnupg-modern-version-1.md" >}})
-- [GnuPG for Windows ― gpg-agent について]({{< relref "remark/2016/03/using-gnupg-modern-version-2.md" >}})
+- [GnuPG for Windows ― インストール編]({{< ref "/remark/2016/03/using-gnupg-modern-version-1.md" >}})
+- [GnuPG for Windows ― gpg-agent について]({{< ref "/remark/2016/03/using-gnupg-modern-version-2.md" >}})
 
 [OpenPGP]: http://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"

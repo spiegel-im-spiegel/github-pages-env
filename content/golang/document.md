@@ -28,7 +28,7 @@ title = "Go 言語のドキュメント・フレームワーク"
 ## godoc のインストール
 
 [`godoc`] は [Go 言語]のドキュメント化ツールです。
-`go get` コマンドで導入できます。（`go get` コマンドについては「[go get コマンドでパッケージを管理する]({{< ref "golang/go-get-package.md" >}})」を参照）
+`go get` コマンドで導入できます。（`go get` コマンドについては「[go get コマンドでパッケージを管理する]({{< relref "go-get-package.md" >}})」を参照）
 
 ```
 C:>mkdir C:\workspace\godoc
@@ -98,7 +98,7 @@ C:>godoc -http=":3000"
 
 ### godoc で modjulian パッケージを見てみる
 
-「[機能のパッケージ化]({{< ref "golang/packaging.md" >}})」で作った [`github.com/spiegel-im-spiegel/astrocalc`]`/modjulian` はどうなっているでしょう。
+「[機能のパッケージ化]({{< relref "packaging.md" >}})」で作った [`github.com/spiegel-im-spiegel/astrocalc`]`/modjulian` はどうなっているでしょう。
 
 {{< fig-img src="https://farm9.staticflickr.com/8831/18023689372_08795d4e8e.jpg" alt="godoc: package list" title="godoc: package list" caption="godoc: package list" link="https://www.flickr.com/photos/spiegel/18023689372/" >}}
 
@@ -236,10 +236,10 @@ ok      github.com/spiegel-im-spiegel/astrocalc/modjulian       2.755s
 - [godoc.org への掲載方法を調べた - taknb2nchのメモ](http://d.hatena.ne.jp/taknb2nch/20140225/1393302743)
 - [GoDocドキュメントで知っていると便利な機能 - Qiita](https://qiita.com/lufia/items/97acb391c26f967048f1) : よくまとまっている
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[前回]: {{< ref "golang/testing.md" >}} "Go 言語のテスト・フレームワーク"
+[前回]: {{< relref "testing.md" >}} "Go 言語のテスト・フレームワーク"
 [`godoc`]: http://godoc.org/golang.org/x/tools/cmd/godoc "godoc - GoDoc"
 [`time`]: http://golang.org/pkg/time/
 [`github.com/spiegel-im-spiegel/astrocalc`]: https://github.com/spiegel-im-spiegel/astrocalc

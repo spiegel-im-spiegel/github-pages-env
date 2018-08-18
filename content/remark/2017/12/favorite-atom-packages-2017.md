@@ -101,7 +101,7 @@ $ apm stars --install
 ```
 
 で一気にインストールすることが可能になる。
-詳しくは「[ATOM Editor に関するメモ]({{< relref "remark/2015/atom-editor.md" >}})」を参照のこと。
+詳しくは「[ATOM Editor に関するメモ]({{< ref "/remark/2015/atom-editor.md" >}})」を参照のこと。
 
 ## 2017年のお気に入りパッケージ
 
@@ -196,8 +196,8 @@ $ apm stars --install
 
 私が組み込んでいるのは以下の機能。
 
-- [ATOM Editor で現在日時を挿入する]({{< relref "remark/2015/insert-datetime-in-atom-editor.md" >}})
-- [ATOM Editor で Amazon Associate ID を含んだ商品 URL を生成する]({{< relref "remark/2015/insert-amazon-url-with-associate-id-in-atom-editor.md" >}})
+- [ATOM Editor で現在日時を挿入する]({{< ref "/remark/2015/insert-datetime-in-atom-editor.md" >}})
+- [ATOM Editor で Amazon Associate ID を含んだ商品 URL を生成する]({{< ref "/remark/2015/insert-amazon-url-with-associate-id-in-atom-editor.md" >}})
 
 ### 日本語関連のパッケージ
 
@@ -256,9 +256,9 @@ $ apm stars --install
 - [Atom - TeX Wiki](https://texwiki.texjp.org/?Atom)
 - [［保存版］Atomエディタ 便利なパッケージ一覧！ 全23社のWebエンジニア・デザイナーがおすすめを紹介 - エンジニアHub｜若手Webエンジニアのキャリアを考える！](https://employment.en-japan.com/engineerhub/entry/2017/08/10/110000)
 
-- [ATOM Editor に関するメモ]({{<relref "remark/2015/atom-editor.md" >}})
-- [ATOM × NYAGOS ＝ ♥]({{< relref "remark/2016/11/nyagos-with-atom.md" >}})
-- [ATOM で Go]({{< relref "golang/golang-with-atom.md" >}})
+- [ATOM Editor に関するメモ]({{<ref "/remark/2015/atom-editor.md" >}})
+- [ATOM × NYAGOS ＝ ♥]({{< ref "/remark/2016/11/nyagos-with-atom.md" >}})
+- [ATOM で Go]({{< ref "/golang/golang-with-atom.md" >}})
 
 [ATOM]: https://atom.io/ "Atom"
 [Go 言語]: https://golang.org/ "The Go Programming Language"

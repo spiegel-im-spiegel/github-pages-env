@@ -28,7 +28,7 @@ tags = ["book"]
 なんとなく恒例になってしまった「欲しいものリスト」の棚卸し。
 どんだけ溜め込んでるのやら。
 
-まずは[昨年]({{< relref "remark/2017/03/wish-list-201703.md" >}} "欲しいものリスト2017年3月版")からまだ買ってない本で，なお読みたい本。
+まずは[昨年]({{< ref "/remark/2017/03/wish-list-201703.md" >}} "欲しいものリスト2017年3月版")からまだ買ってない本で，なお読みたい本。
 
 - [クラウドを支えるこれからの暗号技術 | 光成 滋生 |本 | 通販 | Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/479804413X/baldandersinf-22/)
 - [RSA暗号を可能にしたEulerの定理 | 田中 隆幸 |本 | 通販 | Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/486641040X/baldandersinf-22/)
@@ -74,7 +74,7 @@ Kindle 端末は一覧性で紙の本棚に劣るので買ってたのを忘れ�
 ## ブックマーク
 
 - [「欲しいものリスト」の棚卸し — Baldanders.info](http://www.baldanders.info/spiegel/log2/000824.shtml)
-- [欲しいものリスト2017年3月版]({{< relref "remark/2017/03/wish-list-201703.md" >}})
+- [欲しいものリスト2017年3月版]({{< ref "/remark/2017/03/wish-list-201703.md" >}})
 
 - [この素晴らしい「積読」の世界 | しおまち書房＜公式サイト＞広島](https://shiomachi.com/5021)
 - [“積ん読”はムダじゃなかった！ 「アンチライブラリー」という考え方 | cafeglobe](https://www.cafeglobe.com/2018/03/library.html)

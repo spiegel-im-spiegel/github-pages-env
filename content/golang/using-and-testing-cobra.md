@@ -28,12 +28,12 @@ tags = ["golang", "cli", "programming", "testing"]
 だいぶ [spf13/cobra] の扱いに慣れてきたので，そろそろブログにまとめておこうかなと。
 以前に CLI (Command-Line Interface) とファサード・パターンについては以下の記事に
 
-- [コマンドライン・インタフェースとファサード・パターン]({{< relref "golang/cli-and-facade-pattern.md" >}})
+- [コマンドライン・インタフェースとファサード・パターン]({{< relref "cli-and-facade-pattern.md" >}})
 
 [spf13/cobra] の使い方については，触りの部分を以下の記事に書いた。
 
-- [モンテカルロ法による円周率の推定（その2 CLI）]({{< relref "golang/estimate-of-pi-2-cli.md" >}})
-- [Codic API を利用するパッケージを作ってみた]({{< relref "golang/codic-api.md" >}}) （[spf13/viper] との連携について）
+- [モンテカルロ法による円周率の推定（その2 CLI）]({{< relref "estimate-of-pi-2-cli.md" >}})
+- [Codic API を利用するパッケージを作ってみた]({{< relref "codic-api.md" >}}) （[spf13/viper] との連携について）
 
 ただ [spf13/cobra] そのものについてちゃんと書いてない気がするので，今回はコードの書き方からテストまでをひと通り紹介していく。
 漫然と紹介するのもアレなので，今回は以下の CLI を作ることを目標にする。
@@ -214,7 +214,7 @@ func main() {
 `rwi.New()` の初期化は Functional Options パターンを使っている。
 Functional Options パターンについて詳しくは以下を参照のこと。
 
-- [インスタンスの生成と Functional Options パターン]({{< relref "golang/functional-options-pattern.md" >}})
+- [インスタンスの生成と Functional Options パターン]({{< relref "functional-options-pattern.md" >}})
 
 ## cmd.Execute() 関数を改造する
 
@@ -258,7 +258,7 @@ func Execute(ui *rwi.RWI, args []string) (exit exitcode.ExitCode) {
 前半は [panic] 時のハンドリングで，スタック追跡できるようにしている。
 [panic] 時のハンドリングについて詳しくは以下を参照のこと。
 
-- [スタック追跡とパニック・ハンドリング]({{< relref "golang/stack-trace-and-panic-handling.md" >}})
+- [スタック追跡とパニック・ハンドリング]({{< relref "stack-trace-and-panic-handling.md" >}})
 
 後半では `cmd.rootCmd` に引数と標準出力をセットしてから `cmd.rootCmd.Execute()` 関数を起動している[^so1]。
 エラー時は `os.Exit()` 関数で強制終了するのではなく，ちゃんとステータスを返すようにした。

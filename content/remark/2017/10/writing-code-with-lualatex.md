@@ -26,7 +26,7 @@ tags        = [ "tex", "luatex", "font", "golang", "programming", "language" ]
 
 （なんか，すっかりシリーズ化しちゃったなぁ。別 section にすべきだったか？）
 
-さて，[TeX Live 2017 インストール]({{< relref "remark/2017/09/install-tex-live-2017-for-windows.md" >}})後の「$\mathrm{\TeX}$ で遊ぼう」第三弾は
+さて，[TeX Live 2017 インストール]({{< ref "/remark/2017/09/install-tex-live-2017-for-windows.md" >}})後の「$\mathrm{\TeX}$ で遊ぼう」第三弾は
 
 - $\mathrm{Lua\LaTeX}$ でコードを書いてみる
 

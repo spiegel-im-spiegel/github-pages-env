@@ -55,7 +55,7 @@ title = "「ピノキオ」と AI"
 
 - [Robots in Europe May Become "Electronic Persons"](http://futurism.com/robots-in-europe-may-become-electronic-persons/)
 - [「エイリアン・インテリジェンス」としてのAI──ケヴィン・ケリー｜WIRED.jp](http://wired.jp/2016/07/06/kk-column-1/)
-- [人工知能は「ハイル・ヒトラー」と叫ぶか]({{< relref "remark/2015/artificial-intelligence.md" >}})
+- [人工知能は「ハイル・ヒトラー」と叫ぶか]({{< ref "/remark/2015/artificial-intelligence.md" >}})
 - [non-human person の「人権」 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000788.shtml)
 
 ## 参考図書

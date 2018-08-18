@@ -41,7 +41,7 @@ title = "週末スペシャル： The TPP must be rejected."
 5. Criminal penalties for circumventing digital rights management on works
 6. Investor-state dispute settlement mechanism may be leveraged for intellectual property claims
 
-最初の著作権期限の延長および2番目については，[これまで述べた]({{< relref "remark/2015/1114-diary.md#tppip" >}})ように「公有財産の私有化」と言えるものだが，残りの4つはまさに「[コモンズの悲劇](https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%A2%E3%83%B3%E3%82%BA%E3%81%AE%E6%82%B2%E5%8A%87)」を地で行くような内容であり [Creative Commons] が強い調子に出るのも当然と言える。
+最初の著作権期限の延長および2番目については，[これまで述べた]({{< ref "/remark/2015/1114-diary.md#tppip" >}})ように「公有財産の私有化」と言えるものだが，残りの4つはまさに「[コモンズの悲劇](https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%A2%E3%83%B3%E3%82%BA%E3%81%AE%E6%82%B2%E5%8A%87)」を地で行くような内容であり [Creative Commons] が強い調子に出るのも当然と言える。
 
 「所有」の概念も「共有」の概念も希薄[^a] な日本では，このような強い調子に出る人や団体はない。
 しかし TPP 知財は1国の問題ではなく，かつ今後100年単位で世界に影響を及ぼしうるものだ。
@@ -98,7 +98,7 @@ NTP における「増幅攻撃（amplification attacks）」とは2014年に発
 - [［速報］オープンソース版.NETがリリース候補版に到達。Windows、MacOS X、Linuxで同一の.NETアプリが実行可能に。Microsoft Connect(); 2015 － Publickey](http://www.publickey1.jp/blog/15/netwindowsmacos_xlinux.html)
 - [Microsoft、開発者向けの無償プログラム“Visual Studio Dev Essentials”を発表 - 窓の杜](http://www.forest.impress.co.jp/docs/news/20151119_731485.html)
 
-大盤振る舞い！ まぁでも，残念ながらエディタは [ATOM に乗り換えちゃった]({{< relref "remark/2015/atom-editor.md" >}})ので [Visual Studio Code] は当分出番なしかな。
+大盤振る舞い！ まぁでも，残念ながらエディタは [ATOM に乗り換えちゃった]({{< ref "/remark/2015/atom-editor.md" >}})ので [Visual Studio Code] は当分出番なしかな。
 仕事でも使う予定はないし。
 
 新しい .NET はかなり期待している。

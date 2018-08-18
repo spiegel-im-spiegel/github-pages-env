@@ -163,10 +163,10 @@ title = "Creative Commons Licenses"
     - マテリアルを改変（翻訳・編曲・変形・翻案等）する
     - マテリアルを改変したものを公表・配布する（二次的著作物の利用に関する原著作者の権利の不行使）
 
-[^5]: [著作権法]では二次的著作物を「著作物を翻訳し、編曲し、若しくは変形し、又は脚色し、映画化し、その他翻案することにより創作した著作物」と定義している（第2条）。「[二次的著作物と CC-Licenses]({{< relref "cc-licenses/04-derivative-works.md" >}})」で詳しく解説するが，二次的著作物については「創作的」であることが条件。フォーマット変換や機械翻訳（点字などへの置き換え）などは「逐語的コピー」と呼ばれ複製と見なされる。
+[^5]: [著作権法]では二次的著作物を「著作物を翻訳し、編曲し、若しくは変形し、又は脚色し、映画化し、その他翻案することにより創作した著作物」と定義している（第2条）。「[二次的著作物と CC-Licenses]({{< ref "/cc-licenses/04-derivative-works.md" >}})」で詳しく解説するが，二次的著作物については「創作的」であることが条件。フォーマット変換や機械翻訳（点字などへの置き換え）などは「逐語的コピー」と呼ばれ複製と見なされる。
 
-なお [CC Licenses] は[「公正な利用（fair use）」や「著作権の制限」]({{< relref "cc-licenses/01-copyright.md#fair-use" >}})として利用が認められているものに対しては効力が及ばない。
-[「公正な利用」や「著作権の制限」]({{< relref "cc-licenses/01-copyright.md#fair-use" >}})で認められる利用については条件に関係なく可能である。
+なお [CC Licenses] は[「公正な利用（fair use）」や「著作権の制限」]({{< ref "/cc-licenses/01-copyright.md#fair-use" >}})として利用が認められているものに対しては効力が及ばない。
+[「公正な利用」や「著作権の制限」]({{< ref "/cc-licenses/01-copyright.md#fair-use" >}})で認められる利用については条件に関係なく可能である。
 
 許諾は全世界で適用される。
 また，[無償（royalty-free）]({{< relref "#royalty-free" >}})かつ[再許諾不可（non-sublicensable）]({{< relref "#non-sublicensable" >}})かつ[非排他的（non-exclusive）]({{< relref "#non-exclusive" >}})に許諾される。
@@ -488,7 +488,7 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 これにはいわゆる「技術的保護手段」も含まれる[^d]。
 
 [^j]: ここで「再配布」は，マテリアルの利用者がマテリアルまたはマテリアルの複製を更に下流（downstream）へ公表・配布することを指す。
-[^d]: 更に言うと，マテリアルが「技術的保護手段」によって不当に保護されている場合は，ユーザは「技術的保護手段」を迂回することができる（許諾者は迂回を禁止する権利を放棄する）。「技術的保護手段」については「[CC Licenses における「技術的保護手段」の扱い]({{< relref "cc-licenses/05-technological-measures.md" >}})」で解説する。
+[^d]: 更に言うと，マテリアルが「技術的保護手段」によって不当に保護されている場合は，ユーザは「技術的保護手段」を迂回することができる（許諾者は迂回を禁止する権利を放棄する）。「技術的保護手段」については「[CC Licenses における「技術的保護手段」の扱い]({{< ref "/cc-licenses/05-technological-measures.md" >}})」で解説する。
 
 {{< fig-quote title="クリエイティブ・コモンズ (Creative Commons) — 表示-継承 4.0 国際" link="https://creativecommons.org/licenses/by-sa/4.0/legalcode.ja" >}}
 <q>あなたは、ライセンス対象物の受領者がライセンスされた権利を行使するのを制限されることになる場合には、ライセンス対象物に対して、いかなる追加条項または異なる条項も提案または課してはならず、あるいは、いかなる効果的な技術的保護手段も適用してはなりません。</q>
@@ -560,7 +560,7 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 
 [本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
 [著作権法]: http://law.e-gov.go.jp/htmldata/S45/S45HO048.html "著作権法"
-[前回]: {{< relref "cc-licenses/01-copyright.md" >}} "著作権と著作権法 — 改訂3版： CC Licenses について"
+[前回]: {{< ref "/cc-licenses/01-copyright.md" >}} "著作権と著作権法 — 改訂3版： CC Licenses について"
 [Creative Commons]: https://creativecommons.org/ "Creative Commons"
 [CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
 

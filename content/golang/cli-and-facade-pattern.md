@@ -79,7 +79,7 @@ $ command [golabal options] <sub-command> [sub-options] [arguments]
 CLI をサポートするパッケージはいくつか公開されているのだが[^cobra]，この中で今回は [mitchellh/cli] パッケージを紹介する。
 [mitchellh/cli] はサブコマンドをファサード・パターンで実装するのに便利な機能を実装している。
 
-[^cobra]: 「[モンテカルロ法による円周率の推定（その2 CLI）]({{< relref "golang/estimate-of-pi-2-cli.md" >}})」では [spf13/cobra] パッケージを紹介している。
+[^cobra]: 「[モンテカルロ法による円周率の推定（その2 CLI）]({{< relref "estimate-of-pi-2-cli.md" >}})」では [spf13/cobra] パッケージを紹介している。
 
 ### Command インタフェース
 
@@ -108,7 +108,7 @@ type Command interface {
 [mitchellh/cli] は `Command` インタフェースに適合する型（[type]）のインスタンスを受け取ってサブコマンドの制御を行う[^t]。
 さらに以下の関数値（function value）を示す型 `CommandFactory` も用意されている。
 
-[^t]: 型（[type]）については「[Go 言語における「オブジェクト」]({{< relref "golang/object-oriented-programming.md" >}})」を参照のこと。
+[^t]: 型（[type]）については「[Go 言語における「オブジェクト」]({{< relref "object-oriented-programming.md" >}})」を参照のこと。
 
 ```go
 // CommandFactory is a type of function that is a factory for commands.
@@ -463,7 +463,7 @@ C:\workspace\astrocalc> bin\astrocalc.exe mjdn 2015 1 1
 
 よしよし。
 うまくいった。
-なお [glide] については「[Glide で Vendoring]({{< relref "golang/vendoring-with-glide.md" >}})」を参考にどうぞ。
+なお [glide] については「[Glide で Vendoring]({{< relref "vendoring-with-glide.md" >}})」を参考にどうぞ。
 
 ## ブックマーク
 
@@ -472,9 +472,9 @@ C:\workspace\astrocalc> bin\astrocalc.exe mjdn 2015 1 1
 - [Go言語のflagパッケージを使う - uragami note](http://ryochack.hatenablog.com/entry/2013/04/17/232753)
 - [Go言語のCLIツールのpanicをラップしてクラッシュレポートをつくる | SOTA](http://deeeet.com/writing/2015/04/17/panicwrap/)
 - [flag 並にシンプルでより強力な CLI パーサ kingpin の紹介 - Qiita](http://qiita.com/kumatch/items/258d7984c0270f6dd73a)
-- [spf13/cobra: A Commander for modern Go CLI interactions](https://github.com/spf13/cobra) : [Docker](https://github.com/docker) や [Hugo](https://github.com/gohugoio/hugo) の [Steve Francia (spf13)](https://github.com/spf13) さんが公開しているパッケージ。そのうち試したい → [試してみた]({{< relref "golang/estimate-of-pi-2-cli.md" >}} "モンテカルロ法による円周率の推定（その2 CLI）")
+- [spf13/cobra: A Commander for modern Go CLI interactions](https://github.com/spf13/cobra) : [Docker](https://github.com/docker) や [Hugo](https://github.com/gohugoio/hugo) の [Steve Francia (spf13)](https://github.com/spf13) さんが公開しているパッケージ。そのうち試したい → [試してみた]({{< relref "estimate-of-pi-2-cli.md" >}} "モンテカルロ法による円周率の推定（その2 CLI）")
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`flag`]: https://golang.org/pkg/flag/ "flag - The Go Programming Language"

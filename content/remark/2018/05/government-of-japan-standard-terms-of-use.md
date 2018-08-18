@@ -41,8 +41,8 @@ Tumblr で教えてもらったのだが，日本の「政府標準利用規約�
 
 [^pmp1]: [PHOTO METI PROJECT](https://photo.kankouyohou.com/) はいつの間にか無（亡）くなったようだ。その代わり [FIND/47](https://find47.jp/ "FIND/47 - The all-new photometi") というのができている。名前とドメインは違うが似たような内容で利用規約も同じ。センスも同じ。なので同じ人たちが作ったんだろう。空箱の量産，ご苦労さんである。考えてみたら，一般の人から写真をかき集めて「電子行政オープンデータ」とか，大概にせぇよと言いたい気分。ちなみに “[State of the Commons 2017](https://stateof.creativecommons.org/)” によると Flickr で公開されている [CC Licenses] 下の写真は4.15億枚あるらしい。比べちゃ可哀想か（笑）
 
-- [経産省は CC Licenses を知らない？ （追記あり）]({{< relref "remark/2016/09/photo-meti-project.md" >}})
-    - [「PHOTO METI PROJECT」の利用規約が変わっていた]({{< relref "remark/2016/10/photo-meti-project-2.md" >}})
+- [経産省は CC Licenses を知らない？ （追記あり）]({{< ref "/remark/2016/09/photo-meti-project.md" >}})
+    - [「PHOTO METI PROJECT」の利用規約が変わっていた]({{< ref "/remark/2016/10/photo-meti-project-2.md" >}})
 
 まぁ「CC BY に従うことでも利用することができます」と明記されているので何の問題もない。
 もともと法律文や裁判の判決文は著作権の適用外だが，政府系文書もこれに近い形で利用できるなら色々できそうである。
@@ -53,6 +53,6 @@ Tumblr で教えてもらったのだが，日本の「政府標準利用規約�
 
 ## ブックマーク
 
-- [Creative Commons Licenses]({{< relref "cc-licenses/02-creative-commons-licenses.md" >}}) — [改訂3版： CC Licenses について](/cc-licenses/)
+- [Creative Commons Licenses]({{< ref "/cc-licenses/02-creative-commons-licenses.md" >}}) — [改訂3版： CC Licenses について](/cc-licenses/)
 
 [CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"

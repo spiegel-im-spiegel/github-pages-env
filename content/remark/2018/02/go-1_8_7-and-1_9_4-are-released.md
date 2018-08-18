@@ -67,7 +67,7 @@ tags = [
 | 情報改ざんの可能性（完全性への影響, I） | 高（H）           |
 |   業務停止の可能性（可用性への影響, A） | 高（H）           |
 
-CVSS については[解説ページ]({{< relref "remark/2015/cvss-v3-metrics-in-jvn.md" >}})を参照のこと。
+CVSS については[解説ページ]({{< ref "/remark/2015/cvss-v3-metrics-in-jvn.md" >}})を参照のこと。
 
 ## 影響を受ける製品
 

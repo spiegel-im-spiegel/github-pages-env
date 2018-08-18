@@ -125,10 +125,10 @@ Shift-JIS/EUC-JP の文字集合は基本的に JIS 規格だが UTF-8/UTF-32 �
 - [GO言語で文字コードを扱うライブラリの使用例 - Qiita](http://qiita.com/irugo/items/390bd187871c7716a1e1)
 - [Golangで文字コード判定 - Qiita](http://qiita.com/nobuhito/items/ff782f64e32f7ed95e43)
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[String と Rune]: {{< ref "golang/string-and-rune.md" >}}
+[String と Rune]: {{< relref "string-and-rune.md" >}}
 [string]: http://golang.org/ref/spec#String_types
 [rune]: http://blog.golang.org/strings "Strings, bytes, runes and characters in Go - The Go Blog"
 [`transform`]: https://godoc.org/golang.org/x/text/transform "transform - GoDoc"

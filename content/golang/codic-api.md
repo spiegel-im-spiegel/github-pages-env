@@ -29,13 +29,13 @@ tags        = [ "golang", "programming", "package", "api", "curl", "language", "
 - [プログラマーのためのネーミング辞書 | codic](https://codic.jp/)
 
 簡単に言うと日本語の「名前」を英語に変換してくれるサービスなのだが，プログラマ向けに変数名やメソッド名として使いやすいよう提案してくれる優れものである。
-まさに[英語不得手な私]({{< relref "remark/2017/10/programmin-language-in-english.md" >}} "プログラミング言語の暗黙ルール")のためにあるようなサービスじゃないか！ 何故今までこのサービスに辿り着けなかったのか `orz`
+まさに[英語不得手な私]({{< ref "/remark/2017/10/programmin-language-in-english.md" >}} "プログラミング言語の暗黙ルール")のためにあるようなサービスじゃないか！ 何故今までこのサービスに辿り着けなかったのか `orz`
 
 Web 画面はこんな感じ。
 
 {{< fig-img src="https://farm5.staticflickr.com/4459/37176009973_5026b4c303.jpg" title="codic service" link="https://www.flickr.com/photos/spiegel/37176009973/" >}}
 
-あの時このサービスのことを知っていたら[メソッド名に `regist`]({{< relref "remark/2017/04/regist-dose-not-exist.md" >}} "“regist” という単語は存在しない") とか付けようとして赤っ恥をかかなくて済んだのに。
+あの時このサービスのことを知っていたら[メソッド名に `regist`]({{< ref "/remark/2017/04/regist-dose-not-exist.md" >}} "“regist” という単語は存在しない") とか付けようとして赤っ恥をかかなくて済んだのに。
 とほほ。
 
 というわけで早速サインアップしましたよ。
@@ -121,7 +121,7 @@ func main() {
 
 ## spf13/viper を使ってみたかったのだ
 
-外部パッケージは [dep で管理]({{< relref "golang/consider-switching-from-glide-to-dep.md" >}} "Glide から Dep への移行を検討する")することにした。
+外部パッケージは [dep で管理]({{< relref "consider-switching-from-glide-to-dep.md" >}} "Glide から Dep への移行を検討する")することにした。
 こんな感じである。
 
 ```toml
@@ -151,7 +151,7 @@ func main() {
 というか同じ作者なのだが。
 [spf13/cobra] の使い方は以前紹介したので，そちらを参考にして欲しい。
 
-- [モンテカルロ法による円周率の推定（その2 CLI）]({{< relref "golang/estimate-of-pi-2-cli.md" >}})
+- [モンテカルロ法による円周率の推定（その2 CLI）]({{< relref "estimate-of-pi-2-cli.md" >}})
 
 [spf13/cobra] が生成してくれる `cmd/root.go` に [spf13/viper] 初期化のコードがある。
 

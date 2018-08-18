@@ -56,8 +56,8 @@ Stage や commit/amend や fetch/pull/push といった基本操作はもちろ�
 
 ## ブックマーク
 
-- [ATOM Editor に関するメモ]({{< relref "remark/2015/atom-editor.md" >}})
-- [あまり使わないけど，たまに使おうとすると忘れてる Git コマンド集]({{< relref "remark/2015/git-commands.md" >}})
+- [ATOM Editor に関するメモ]({{< ref "/remark/2015/atom-editor.md" >}})
+- [あまり使わないけど，たまに使おうとすると忘れてる Git コマンド集]({{< ref "/remark/2015/git-commands.md" >}})
 
 [ATOM]: https://atom.io/ "Atom"
 [git]: https://git-scm.com/ "Git"

@@ -36,7 +36,7 @@ func add(x int, y int) int {
 `add` に続く括弧内が引数を定義していて，括弧の後ろの `int` は返り値の型[^t] を示している。
 `add()` 関数を呼び出すには以下のように記述する。
 
-[^t]: 型については「[Go 言語における「オブジェクト」]({{< relref "golang/object-oriented-programming.md" >}})」を参照のこと。
+[^t]: 型については「[Go 言語における「オブジェクト」]({{< relref "object-oriented-programming.md" >}})」を参照のこと。
 
 ```go
 package main
@@ -116,7 +116,7 @@ func f() {
 
 このコード[^p] では `r()` 関数内で [panic] を捕まえ， 返り値の `err` に値をセットしなおしている。
 
-[^p]: このコードについては「[エラー・ハンドリングについて]({{< relref "golang/error-handling.md" >}})」で解説している。ちなみに [panic] を潰して error を返すのはエラー・ハンドリングとしては推奨できない。
+[^p]: このコードについては「[エラー・ハンドリングについて]({{< relref "error-handling.md" >}})」で解説している。ちなみに [panic] を潰して error を返すのはエラー・ハンドリングとしては推奨できない。
 
 ### Go 言語の引数は「値渡し」
 
@@ -207,7 +207,7 @@ invalid operation: x += y (operator + not defined on pointer)
 とコンパイル・エラーになる。
 したがって通常は「[Go 言語]のポインタは nullable 参照[^nr] と同じ」と考えてよい。
 
-[^nr]: nullable 参照は「null を許容する参照」くらいの意味。 [Go 言語]なら nil 値。 [Go 言語]は「null 安全（null safty）」ではないので null 参照（＝無効な参照）の始末について instance を参照する側が責務を負うことになる。（参考： [「null 安全」について]({{< relref "remark/2016/11/null-safety.md" >}})）
+[^nr]: nullable 参照は「null を許容する参照」くらいの意味。 [Go 言語]なら nil 値。 [Go 言語]は「null 安全（null safty）」ではないので null 参照（＝無効な参照）の始末について instance を参照する側が責務を負うことになる。（参考： [「null 安全」について]({{< ref "/remark/2016/11/null-safety.md" >}})）
 
 なお，ポインタ演算が必要な場合は [`unsafe`] パッケージを使う。
 
@@ -217,7 +217,7 @@ invalid operation: x += y (operator + not defined on pointer)
 これらの型の instance を引数に渡す場合は参照渡しのように振る舞う[^slc]。
 
 [^make]: [slice], [map], [channel] は内部状態を持つため `new()` 関数ではなく `make()` 関数を使う。  `make()` 関数は生成した instance への参照（実体はポインタ）を返す。
-[^slc]: 詳しくは「[配列と Slice]({{< relref "golang/array-and-slice.md" >}})」および「[Map の話]({{< relref "golang/map.md" >}})」を参照のこと。
+[^slc]: 詳しくは「[配列と Slice]({{< relref "array-and-slice.md" >}})」および「[Map の話]({{< relref "map.md" >}})」を参照のこと。
 
 ```go
 package main
@@ -567,7 +567,7 @@ func main() {
 
 - [Go 言語の値レシーバとポインタレシーバ | Step by Step](https://skatsuta.github.io/2015/12/29/value-receiver-pointer-receiver/)
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [defer]: http://blog.golang.org/defer-panic-and-recover "Defer, Panic, and Recover - The Go Blog"

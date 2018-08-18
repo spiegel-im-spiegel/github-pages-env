@@ -89,8 +89,8 @@ tags = [
 
 ## ブックマーク
 
-- [2017年の主な暦象]({{< relref "remark/2016/12/astronomical-calendar-2017.md" >}})
-- [ゆく年くる年]({{< relref "remark/2015/1229-stories.md" >}})
+- [2017年の主な暦象]({{< ref "/remark/2016/12/astronomical-calendar-2017.md" >}})
+- [ゆく年くる年]({{< ref "/remark/2015/1229-stories.md" >}})
 
 ## 参考図書
 

@@ -24,7 +24,7 @@ tags        = [ "tex", "luatex", "cloud", "pdf", "japanese" ]
   mermaidjs = false
 +++
 
-[TeX Live 2017 のインストール]({{< relref "remark/2017/09/install-tex-live-2017-for-windows.md" >}})が終わったので，早速 $\mathrm{Lua\TeX}$-ja で遊ぼう。
+[TeX Live 2017 のインストール]({{< ref "/remark/2017/09/install-tex-live-2017-for-windows.md" >}})が終わったので，早速 $\mathrm{Lua\TeX}$-ja で遊ぼう。
 今回の目標は
 
 - $\mathrm{Lua\TeX}$-ja を使い PDF/A フォーマットで出力する。
@@ -215,7 +215,7 @@ Facebook アカウントと Twitter アカウントが使えるようだ。
 
 ## ブックマーク
 
-- [LuaTeX-ja に関する覚え書き]({{< relref "remark/2015/luatex-ja.md" >}})
+- [LuaTeX-ja に関する覚え書き]({{< ref "/remark/2015/luatex-ja.md" >}})
 
 [TeX Live]: http://www.tug.org/texlive/ "TeX Live - TeX Users Group"
 [Evince]: https://wiki.gnome.org/Apps/Evince "Apps/Evince - GNOME Wiki!"

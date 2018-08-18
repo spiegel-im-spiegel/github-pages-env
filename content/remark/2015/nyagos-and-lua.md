@@ -24,7 +24,7 @@ title = "NYAGOS で Lua"
   mermaidjs = false
 +++
 
-[前回]({{< relref "remark/2015/conemu-and-nyagos.md" >}})， [ConEmu] とともに [NYAGOS] を導入したけど，今回は [NYAGOS] のセッティングを中心に。
+[前回]({{< ref "/remark/2015/conemu-and-nyagos.md" >}})， [ConEmu] とともに [NYAGOS] を導入したけど，今回は [NYAGOS] のセッティングを中心に。
 
 [NYAGOS] の特徴のひとつに， [Lua] のエンジンを内蔵し解釈できる点がある。
 というか [NYAGOS] 自身が機能拡張を [Lua] で実装していて，ユーザも hackable に [NYAGOS] をカスタマイズできる。

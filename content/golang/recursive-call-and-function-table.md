@@ -253,7 +253,7 @@ func f3(evt int) int {
 - [Fibonacci exercise (go tour) - Qiita](http://qiita.com/penguin_dream/items/f1bdeb4c621a3e8d8990)
 - [Golangでゴルーチンにより再帰関数を並列処理](https://qiita.com/hiroykam/items/fdbb68ea21e5c67b8225) : 再帰処理を goroutine で並行処理するという業なコード。 goroutine が大量発生して面白い
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [フィボナッチ数]: https://en.wikipedia.org/wiki/Fibonacci_number "Fibonacci number - Wikipedia, the free encyclopedia"

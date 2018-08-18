@@ -348,11 +348,11 @@ Unicode 文字列の等価属性を調べる際には是非参考にどうぞ。
 - [本の虫: Linus Torvalds、HFS+に激怒](http://cpplover.blogspot.jp/2015/01/blog-post_14.html)
 - [「ユニコード」で予期せぬ目に遭った話 - moriyoshiの日記](http://moriyoshi.hatenablog.com/entry/2017/03/13/011005)
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`norm`]: https://godoc.org/golang.org/x/text/unicode/norm "norm - GoDoc"
 [`width`]: https://godoc.org/golang.org/x/text/width "width - GoDoc"
-[String と Rune]: {{< ref "golang/string-and-rune.md" >}}
+[String と Rune]: {{< relref "string-and-rune.md" >}}
 [string]: http://golang.org/ref/spec#String_types
 [rune]: http://blog.golang.org/strings "Strings, bytes, runes and characters in Go - The Go Blog"

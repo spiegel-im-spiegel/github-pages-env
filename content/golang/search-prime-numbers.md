@@ -706,7 +706,7 @@ if !ok {
 - [やはり俺のgolangがCPUを一つしか使わないのはまちがっている。 - Qiita](http://qiita.com/ymko/items/554e3630fefdc29393a8)
 - [Golangで「エラトステネスの篩」で「2.1秒で百万個」の素数を計算できる「無限シーケンス」を作ってみた - Qiita](http://qiita.com/cia_rana/items/2a878181da41033ec1d8)
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [エラトステネスの篩]: https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%A9%E3%83%88%E3%82%B9%E3%83%86%E3%83%8D%E3%82%B9%E3%81%AE%E7%AF%A9 "エラトステネスの篩 - Wikipedia"

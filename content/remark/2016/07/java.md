@@ -61,7 +61,7 @@ Swift はオープンソースになってサーバ用途でも使えるよう�
 ハードウェア寄りの仕事に興味があるなら C/C++ のような手続き型の言語もいまだに有効である。
 たとえば Google の [TensorFlow](https://www.tensorflow.org/ "TensorFlow — an Open Source Software Library for Machine Intelligence") のバックエンドは C++ で実装されているそうな。
 
-- [TensorFlow に関するブックマーク]({{< relref "remark/2016/02/tensorflow.md" >}})
+- [TensorFlow に関するブックマーク]({{< ref "/remark/2016/02/tensorflow.md" >}})
 
 あと，ものすごく個人的な意見として，手続き型言語なら [Go 言語]をお薦めする（笑）
 

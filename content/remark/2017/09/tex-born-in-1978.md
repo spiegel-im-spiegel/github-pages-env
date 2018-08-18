@@ -82,7 +82,7 @@ $\\mathrm{\TeX}$ について調べ物をしていて，何気なく [Wikipedia 
 だって日本語環境でもようやく直接 PDF/A を吐ける処理系が登場したんだよ。
 
 - [TeX 覚え書き（upLaTeX から PDF/A まで） — Baldanders.info](http://www.baldanders.info/spiegel/log2/000731.shtml)
-- [LuaTeX-ja に関する覚え書き]({{< relref "remark/2015/luatex-ja.md" >}})
+- [LuaTeX-ja に関する覚え書き]({{< ref "/remark/2015/luatex-ja.md" >}})
 
 これによってようやく日本語の $\\mathrm{\TeX}$ 処理系でストレスなく PDF/A 形式のデジタル文書を作れるようになったわけだ。
 

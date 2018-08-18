@@ -67,7 +67,7 @@ Kindle もリージョン・ブロックがかかっている。
 - [欧州で施行された「GDPR」は、あらゆる企業の経済活動に変化を迫る｜WIRED.jp](https://wired.jp/2018/05/29/gdpr-will-change-the-web-and-more/)
 - [個人情報を巡る新たな「冷戦」とデータ経済の行方：「GDPR：データとインターネット〜EUが描く未来」第7回｜WIRED.jp](https://wired.jp/series/gdpr/07_data-wars/)
 
-- [日本版「グレート・ファイアウォール」に関するブックマーク集]({{< relref "remark/2018/04/japanese-gfw.md" >}})
+- [日本版「グレート・ファイアウォール」に関するブックマーク集]({{< ref "/remark/2018/04/japanese-gfw.md" >}})
 
 [GDPR]: https://en.wikipedia.org/wiki/General_Data_Protection_Regulation "General Data Protection Regulation - Wikipedia"
 

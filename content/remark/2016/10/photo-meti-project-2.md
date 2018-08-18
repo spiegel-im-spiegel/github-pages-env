@@ -100,11 +100,11 @@ CC Licenses でも（特に Free Culture License に分類される [CC0], [BY],
 もちろんそれが本当に著作者の名誉・声望を害するものであるなら，ライセンス云々に関係なく，「名誉毀損」に該当する事案だし，その過程で名誉回復のために該当する写真を含むコンテンツが削除されることもあると思う。
 
 - [改訂3版： CC Licenses について](/cc-licenses/)
-    - [人格権と CC Licenses]({{< relref "cc-licenses/03-moral-rights.md" >}})
+    - [人格権と CC Licenses]({{< ref "/cc-licenses/03-moral-rights.md" >}})
 
 [PHOTO METI PROJECT]: https://photo.kankouyohou.com/
 [利用規約]: https://photo.kankouyohou.com/terms.html "PHOTO METI PROJECT 利用規約"
-[経産省は CC Licenses を知らない？]: {{< relref "remark/2016/09/photo-meti-project.md" >}}
+[経産省は CC Licenses を知らない？]: {{< ref "/remark/2016/09/photo-meti-project.md" >}}
 [CC0]: https://creativecommons.org/publicdomain/zero/1.0/ "Creative Commons — CC0 1.0 Universal"
 [BY]: https://creativecommons.org/licenses/by/4.0/ "Creative Commons — Attribution 4.0 International — CC BY 4.0"
 [BY-SA]: https://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons — Attribution-ShareAlike 4.0 International — CC BY-SA 4.0"

@@ -54,7 +54,7 @@ Copyleft であれば寄与されたコードも自動的に元のライセン�
 
 ## ブックマーク{#bookmark}
 
-[Hugo に関するブックマークはこちら]({{< ref "hugo/bookmark.md" >}})。
+[Hugo に関するブックマークはこちら]({{< ref "/hugo/bookmark.md" >}})。
 
 [Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
 [SimPL-2.0]: https://opensource.org/licenses/Simple-2.0 "Simple Public License (SimPL-2.0) | Open Source Initiative"

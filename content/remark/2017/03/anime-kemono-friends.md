@@ -46,7 +46,7 @@ niconico や Twitter も（S/N 比が悪すぎて）ほぼ見ないのでそっ�
 - [けものフレンズ語録から出来たプログラミング言語「Kemono」の使い方[Brainf**k]](https://nijipi.com/it-news/kemono-lang_ruby-brainfuck/)
 
 という記事を見たのがきっかけ。
-同時に [Qiita](http://qiita.com/) にまで「[けものフレンズ]」が浸食しつつあるのを目の当たりにしたってのもある（実はこのブログも[徐々に浸食]({{< relref "golang/operators-and-statements.md" >}} "演算子とステートメント")されていったのだが）。
+同時に [Qiita](http://qiita.com/) にまで「[けものフレンズ]」が浸食しつつあるのを目の当たりにしたってのもある（実はこのブログも[徐々に浸食]({{< ref "/golang/operators-and-statements.md" >}} "演算子とステートメント")されていったのだが）。
 
 で，手っ取り早く [Amazon Video でレンタル](http://www.amazon.co.jp/exec/obidos/ASIN/B01N6Q78XP/baldandersinf-22/)（1話あたり税込216円）して6話くらい一気に観たのだが，そのときは「普通に面白い作品」という感想だった[^kf1]。
 要するに「わーい」とか「たーのしー」とかいった台詞がインターネット・ミーム（Internet meme）として独自に伝搬してるのかな，という印象。

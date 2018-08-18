@@ -61,4 +61,4 @@ tags        = [ "facebook", "privacy" ]
 
 ## ブックマーク
 
-- [誰がプライバシーを支配するのか]({{< relref "remark/2018/04/handling-privacy.md" >}})
+- [誰がプライバシーを支配するのか]({{< ref "/remark/2018/04/handling-privacy.md" >}})

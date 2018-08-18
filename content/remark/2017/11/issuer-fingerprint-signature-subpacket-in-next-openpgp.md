@@ -25,4 +25,4 @@ image = "/images/attention/remark.jpg"
   mermaidjs = false
 +++
 
-(move to [{{< ref "openpgp/issuer-fingerprint-signature-subpacket-in-next-openpgp.md" >}}]({{< ref "openpgp/issuer-fingerprint-signature-subpacket-in-next-openpgp.md" >}} "Issuer Fingerprint Signature Subpacket in Next OpenPGP"))
+(move to [{{< ref "/openpgp/issuer-fingerprint-signature-subpacket-in-next-openpgp.md" >}}]({{< ref "/openpgp/issuer-fingerprint-signature-subpacket-in-next-openpgp.md" >}} "Issuer Fingerprint Signature Subpacket in Next OpenPGP"))

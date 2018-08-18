@@ -23,7 +23,7 @@ title = "スタック追跡とパニック・ハンドリング"
 
 今回は軽めの小ネタで。
 
-「[エラー・ハンドリングについて]({{< relref "golang/error-handling.md" >}})」でも少し説明したが， [Go 言語]では回復不能のエラー（ゼロ除算やメモリ不足など）が発生した場合には [panic] を投げる仕様になっている。
+「[エラー・ハンドリングについて]({{< relref "error-handling.md" >}})」でも少し説明したが， [Go 言語]では回復不能のエラー（ゼロ除算やメモリ不足など）が発生した場合には [panic] を投げる仕様になっている。
 たとえば以下のコードでは
 
 ```go
@@ -148,7 +148,7 @@ for depth := 0; ; depth++ {
 - [Goでfunctionが実行された順番を追いかける - sgykfjsm.github.com](http://sgykfjsm.github.io/blog/2016/01/20/golang-function-tracing/)
 - [Go のバイナリには -ldflags '-w -s' でコンパイルしてもたくさんパスが埋め込まれていた - Qiita](http://qiita.com/kitsuyui/items/d03a9de90330d8c275c8)
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [error]: http://blog.golang.org/error-handling-and-go "Error handling and Go - The Go Blog"

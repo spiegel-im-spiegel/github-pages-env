@@ -26,10 +26,10 @@ description = "math/rand パッケージでは rand.Source interface を持つ�
   github = "spiegel-im-spiegel"
 +++
 
-1. [モンテカルロ法による円周率の推定（その1）]({{< relref "golang/estimate-of-pi.md" >}})
-2. [モンテカルロ法による円周率の推定（その2 CLI）]({{< relref "golang/estimate-of-pi-2-cli.md" >}})
-3. [モンテカルロ法による円周率の推定（その3 Gaussian）]({{< relref "golang/estimate-of-pi-3-gaussian.md" >}})
-4. [モンテカルロ法による円周率の推定（その4 PRNG）]({{< relref "golang/estimate-of-pi-4-prng.md" >}}) ← イマココ
+1. [モンテカルロ法による円周率の推定（その1）]({{< relref "estimate-of-pi.md" >}})
+2. [モンテカルロ法による円周率の推定（その2 CLI）]({{< relref "estimate-of-pi-2-cli.md" >}})
+3. [モンテカルロ法による円周率の推定（その3 Gaussian）]({{< relref "estimate-of-pi-3-gaussian.md" >}})
+4. [モンテカルロ法による円周率の推定（その4 PRNG）]({{< relref "estimate-of-pi-4-prng.md" >}}) ← イマココ
 
 「モンテカルロ法による円周率の推定」もひととおり終わったので，今回は擬似乱数生成器（pseudo random number generator）の話。
 
@@ -39,7 +39,7 @@ description = "math/rand パッケージでは rand.Source interface を持つ�
 [`math/rand`] パッケージに実装されている擬似乱数生成器はラグ付フィボナッチ法（Lagged Fibonacci Generator）のバリエーションらしい。
 
 {{< fig-quote title="[Announce] A rand package for high quality 64bit random numbers (possibly go2)" link="https://groups.google.com/forum/#!topic/golang-nuts/RZ1G3_cxMcM" lang="en" >}}
-<q>If I am not mistaken again, the generator is an ALFG (Additive Lagged Fibonacci Generator, thats what Wikipedia calls it). Knuth describes the algorithm in Volume 2 of The art of computer programming in section 3.2.2 (around equation 7). Both Wikipedia and Knuth state the parameter combination 607,273 as possible combination with a period length of 2^(e-1)*(2^607-1) where e is the length of the random number in bits.<br>
+<q>If I am not mistaken again, the generator is an ALFG (Additive Lagged Fibonacci Generator, thats what Wikipedia calls it). Knuth describes the algorithm in Volume 2 of The art of computer programming in section 3.2.2 (around equation 7). Both Wikipedia and Knuth state the parameter combination 607,273 as possible combination with a period length of 2^(e-1) * (2^607-1) where e is the length of the random number in bits.<br>
 I actually found a few references examining its properties and it seems to be a good rng so faar, but there is still seems to be a lack of mathematical background and it is fairly easy to get into trouble by not seeding properly.</q>
 {{< /fig-quote >}}
 
@@ -55,7 +55,7 @@ S_{n} \equiv S_{n-j} * S_{n-k} \pmod{m}, & \; & 0 \lt j \lt k
 \end{alignat*}
 {{< /fig-quote >}}
 
-ラグ付フィボナッチ法は $*$ 演算子によってバリエーションがあるが [`math/rand`] パッケージの実装では加算を使うため “**Additive** Lagged Fibonacci Generator” ということらしい。
+ラグ付フィボナッチ法は $ * $ 演算子によってバリエーションがあるが [`math/rand`] パッケージの実装では加算を使うため “**Additive** Lagged Fibonacci Generator” ということらしい。
 ソースコードで言うとこの部分かな。
 
 ```go
@@ -180,7 +180,7 @@ func NewRndSource(rng RNGs, seed int64) rand.Source {
 `gencmplx.NewRndSource()` 関数で `rand.Source` オブジェクトを生成する[^pm]。
 これを「[その1]」で作った `gencmplx.New()` 関数に渡せばよい。
 
-[^pm]: [Go 言語]におけるオブジェクトの多態性については「[Go 言語における「オブジェクト」]({{< relref "golang/object-oriented-programming.md" >}})」を参考にどうぞ。
+[^pm]: [Go 言語]におけるオブジェクトの多態性については「[Go 言語における「オブジェクト」]({{< relref "object-oriented-programming.md" >}})」を参考にどうぞ。
 
 CLI は以下のように調整してみた。
 
@@ -259,16 +259,16 @@ standard deviation: 0.00517 (67.8%)
 
 ## ブックマーク
 
-- [Mersenne Twister に関する覚え書き]({{< relref "remark/2016/03/mersenne-twister.md" >}})
+- [Mersenne Twister に関する覚え書き]({{< ref "/remark/2016/03/mersenne-twister.md" >}})
 - [PCG, A Family of Better Random Number Generators | PCG, A Better Random Number Generator](http://www.pcg-random.org/)
 - [/dev/randomではなく/dev/urandomを使うべき理由? | マイナビニュース](http://news.mynavi.jp/news/2014/03/11/037/)
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`math/rand`]: https://golang.org/pkg/math/rand/ "rand - The Go Programming Language"
 [`crypto/rand`]: https://golang.org/pkg/crypto/rand/ "rand - The Go Programming Language"
-[その1]: {{< relref "golang/estimate-of-pi.md" >}} "モンテカルロ法による円周率の推定（その1）"
+[その1]: {{< relref "estimate-of-pi.md" >}} "モンテカルロ法による円周率の推定（その1）"
 [interface]: https://golang.org/doc/effective_go.html#interfaces_and_types "Effective Go - The Go Programming Language"
 [`github.com/davidminor/gorand`]: https://github.com/davidminor/gorand "davidminor/gorand: Basic golang implementation of a permuted congruential generator for pseudorandom number generation"
 [`github.com/spiegel-im-spiegel/gorand`]: https://github.com/davidminor/gorand "spiegel-im-spiegel/gorand: Basic golang implementation of a permuted congruential generator for pseudorandom number generation"

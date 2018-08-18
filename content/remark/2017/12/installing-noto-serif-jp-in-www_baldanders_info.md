@@ -24,7 +24,7 @@ tags        = [ "web", "site", "font", "character" ]
   mermaidjs = false
 +++
 
-[昨日の話]({{< relref "remark/2017/12/gods-in-chrome.md" >}} "「神」と「神」と Chrome の文字化け")で「Noto Serif の和文フォントが Web フォントで登場するまでは「[さわらび明朝]」で頑張る」と書いたばっかりなのに，日和りました。
+[昨日の話]({{< ref "/remark/2017/12/gods-in-chrome.md" >}} "「神」と「神」と Chrome の文字化け")で「Noto Serif の和文フォントが Web フォントで登場するまでは「[さわらび明朝]」で頑張る」と書いたばっかりなのに，日和りました。
 意思が弱いな，私。
 
 厳密には[本家サイト]の方に導入してその設定を丸々こっちにも適用した。
@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6, em, strong {
 - [さくらのサーバに置いたWebフォントをはてなブログから使う - にせねこメモ](http://nixeneko.hatenablog.com/entry/2016/10/11/231435)
 - [「Noto Serif Japanese」を使ってみたので、自分用メモ。 - Qiita](https://qiita.com/umeume66/items/01291353fc43c17da992)
 
-- [Web フォントに関する覚え書き（明朝体編）]({{< relref "remark/2016/10/japanese-serif-fonts-by-google-cdn.md" >}})
+- [Web フォントに関する覚え書き（明朝体編）]({{< ref "/remark/2016/10/japanese-serif-fonts-by-google-cdn.md" >}})
 
 [本家サイト]: http://www.baldanders.info/ "Baldanders.info"
 [さわらび明朝]: http://sawarabi-fonts.osdn.jp/ "さわらびフォント"

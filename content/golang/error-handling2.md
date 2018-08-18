@@ -24,7 +24,7 @@ tags = [
   license = "by-sa"
 +++
 
-今回は「[エラー・ハンドリングについて]({{< relref "golang/error-handling.md" >}})」の続き。
+今回は「[エラー・ハンドリングについて]({{< relref "error-handling.md" >}})」の続き。
 とりあえず，エラーハンドリングのデモ用にこんなパッケージを考える。
 
 ```go
@@ -260,7 +260,7 @@ func Cause(err error) error {
 
 - [Golangでエラー時にスタックトレースを表示する - Qiita](http://qiita.com/deeeet/items/dacc71932393ab35d9f8)
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [error]: http://blog.golang.org/error-handling-and-go "Error handling and Go - The Go Blog"

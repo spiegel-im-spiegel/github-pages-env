@@ -74,7 +74,7 @@ Windows 10 が悪いとは言わない（まぁ敢えてオススメはしない
 しかし，その気がない人にまで強制的にアップグレードさせようというのは悪質すぎる。
 こういうことやるから Microsoft は嫌われるんだってそろそろ自覚しろよ。
 
-個人的には Windows 7 のサポートが切れる2020年までにメインの環境を Linux に移行する予定なんで（そのために[秀丸から ATOM に乗り換え]({{< relref "remark/2015/atom-editor.md" >}})たりしてるんだし），要らんことしないでほしい。
+個人的には Windows 7 のサポートが切れる2020年までにメインの環境を Linux に移行する予定なんで（そのために[秀丸から ATOM に乗り換え]({{< ref "/remark/2015/atom-editor.md" >}})たりしてるんだし），要らんことしないでほしい。
 
 ## 参考
 
@@ -82,7 +82,7 @@ Windows 10 が悪いとは言わない（まぁ敢えてオススメはしない
 - [【続】 Windows7でWindows10 無償アップデートのアイコンをアンインストール | 空中庭園](http://fortune-work.com/2015/windows10-2.html)
 - [Windows 7のWindows Updateで表示される「Windows 10 にアップグレード」を削除する方法 | 空中庭園](http://fortune-work.com/2015/windows10-4.html)
 - [エフセキュアブログ : Windows 10を安心して使用するために知っておくべき5つのこと](http://blog.f-secure.jp/archives/50752605.html)
-- [Windows 10 で PSK を共有する — しっぽのさきっちょ | text.Baldanders.info]({{< relref "remark/2015/wifi-sense.md" >}})
+- [Windows 10 で PSK を共有する — しっぽのさきっちょ | text.Baldanders.info]({{< ref "/remark/2015/wifi-sense.md" >}})
 - [「Windows 10」へのアップグレード、来年には「推奨される更新プログラム」に“格上げ”へ - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1511/02/news076.html)
 - [「Windows 10にアップグレードしませんか？」のポップアップ広告プログラムがさらにアグレッシブに変更される - GIGAZINE](http://gigazine.net/news/20160113-new-kb3035583/)
 - [MS、「Windows 10」を「推奨される」更新プログラムとして提供開始 - CNET Japan](http://japan.cnet.com/news/service/35077208/)

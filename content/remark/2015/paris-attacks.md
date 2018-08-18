@@ -145,7 +145,7 @@ title = "同時多発テロ関連のブックマーク"
 - [2015年のまとめ：「イスラーム国」支配領域の拡大と縮小：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40789)
 - [【寄稿】「アラブの春から５年」をテーマに『毎日新聞』に談話を – 中東・イスラーム学の風姿花伝](http://ikeuchisatoshi.com/%E3%80%90%E5%AF%84%E7%A8%BF%E3%80%91%E3%80%8C%E3%82%A2%E3%83%A9%E3%83%96%E3%81%AE%E6%98%A5%E3%81%8B%E3%82%89%EF%BC%95%E5%B9%B4%E3%80%8D%E3%82%92%E3%83%86%E3%83%BC%E3%83%9E%E3%81%AB%E3%80%8E%E6%AF%8E/)
 
-[暗号関連の話題はこちら]({{< relref "remark/2015/paris-attacks-and-cipher.md" >}})。
+[暗号関連の話題はこちら]({{< ref "/remark/2015/paris-attacks-and-cipher.md" >}})。
 
 ### 余談ですが...
 

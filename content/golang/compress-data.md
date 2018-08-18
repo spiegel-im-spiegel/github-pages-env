@@ -25,7 +25,7 @@ tags        = [ "golang", "compress", "zlib", "gzip", "bzip2" ]
   mermaidjs = false
 +++
 
-最近データ圧縮と解凍で[ちょっと悩んだ]({{< relref "remark/2017/11/gpgpdump-0_3_0-released.md" >}} "gpgpdump 0.3.0 をリリースした")ので覚え書きとしてまとめておく。
+最近データ圧縮と解凍で[ちょっと悩んだ]({{< ref "/remark/2017/11/gpgpdump-0_3_0-released.md" >}} "gpgpdump 0.3.0 をリリースした")ので覚え書きとしてまとめておく。
 
 ## ZLIB 圧縮と解凍（[RFC 1950]）
 
@@ -173,7 +173,7 @@ Hello world
 
 [Go 言語]では標準パッケージの [`compress/gzip`] で提供されるのだが，実は以前に紹介している。
 
-- [Gzip 操作について覚え書き]({{< relref "golang/gzip-operation.md" >}})
+- [Gzip 操作について覚え書き]({{< relref "gzip-operation.md" >}})
 
 今回は上述のコードに合わせて書き直してみる。
 

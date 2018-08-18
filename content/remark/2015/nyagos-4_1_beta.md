@@ -97,7 +97,7 @@ $
 
 ## 参考
 
-- [NYAGOS で Lua]({{< relref "remark/2015/nyagos-and-lua.md" >}})
+- [NYAGOS で Lua]({{< ref "/remark/2015/nyagos-and-lua.md" >}})
 - [何がちがう？NYAGOS 4.0 と 4.1β - Qiita](http://qiita.com/zetamatta/items/75840096f8279dd641a8)
 
 [NYAGOS]: http://www.nyaos.org/index.cgi?p=NYAGOS "NYAOS.ORG - NYAGOS"

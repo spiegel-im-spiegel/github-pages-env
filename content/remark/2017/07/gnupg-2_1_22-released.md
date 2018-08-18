@@ -69,7 +69,7 @@ CVSSv3 基本評価値 6.1 (`CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:N/A:N`)
 | 情報改ざんの可能性（完全性への影響, I） | なし（N）         |
 | 業務停止の可能性（可用性への影響, A）   | なし（N）         |
 
-CVSS については[解説ページ]({{< relref "remark/2015/cvss-v3-metrics-in-jvn.md" >}})を参照のこと。
+CVSS については[解説ページ]({{< ref "/remark/2015/cvss-v3-metrics-in-jvn.md" >}})を参照のこと。
 
 [論文]では 1024 bits RSA 鍵の解読を行っている。
 今時 1024 bits RSA 鍵で運用している人はいないと思うが，もしまだの方がいたらこの機会に 2048 bits 以上にアップデートすることをお勧めする。

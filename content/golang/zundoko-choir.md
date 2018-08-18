@@ -302,7 +302,7 @@ func (c *Choirs) CountZunDoko() (int, int) {
 [string]: http://golang.org/ref/spec#String_types
 [slice]: http://golang.org/ref/spec#Slice_types
 [`strings`]: https://golang.org/pkg/strings/ "strings - The Go Programming Language"
-[文字列連結はどれが速い？]: {{< relref "golang/join-strings.md" >}} "文字列連結はどれが速い？ — プログラミング言語 Go"
+[文字列連結はどれが速い？]: {{< relref "join-strings.md" >}} "文字列連結はどれが速い？ — プログラミング言語 Go"
 [`container/list`]: https://golang.org/pkg/container/list/ "list - The Go Programming Language"
 [`container/ring`]: https://golang.org/pkg/container/ring/ "ring - The Go Programming Language"
 

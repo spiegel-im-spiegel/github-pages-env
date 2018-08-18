@@ -25,7 +25,7 @@ tags = ["golang", "unicode", "transform", "character"]
   mermaidjs = false
 +++
 
-もう2年近く前の記事だが，「[Go 言語と Unicode 正規化]({{< relref "golang/unicode-normalization.md" >}})」の脚注でこっそり「単に全角・半角変換ができればいいのなら `golang.org/x/text/`[`width`] パッケージをお勧めする」と書いていたのだが，今回はその話。
+もう2年近く前の記事だが，「[Go 言語と Unicode 正規化]({{< relref "unicode-normalization.md" >}})」の脚注でこっそり「単に全角・半角変換ができればいいのなら `golang.org/x/text/`[`width`] パッケージをお勧めする」と書いていたのだが，今回はその話。
 
 ## golang.org/x/text/width パッケージ
 
@@ -105,7 +105,7 @@ fmt.Println(width.Fold.String("神と神"))
 と影響を受けない[^un1]。
 ブラボー！
 
-[^un1]: Unicode 正規化と異体字の問題については「[Go 言語と Unicode 正規化]({{< relref "golang/unicode-normalization.md" >}})」を参照のこと。
+[^un1]: Unicode 正規化と異体字の問題については「[Go 言語と Unicode 正規化]({{< relref "unicode-normalization.md" >}})」を参照のこと。
 
 ちなみに Unicode の円記号（YEN SIGN）は，通常文字（半角相当）が「¥：U+00A5[^yen1]」で全角文字が「￥：U+FFE5」である。
 JIS ラテン文字（JIS X 0201）の半角円記号（0x5C）は機械的に変換しても同じ値の「`\` (REVERSE SOLIDUS)」のままなので（当たり前だけど）ご注意を[^ws]。
@@ -129,7 +129,7 @@ fmt.Println(buf)
 // 1234567890アイウエオカキクケコABCDEFGHIJK
 ```
 
-あと，このパッケージの CLI 実装用に作った「[nkf っぽいなにか]({{< relref "remark/2017/12/like-nkf.md" >}})」にもサブコマンド `width` として組み込んでいる。
+あと，このパッケージの CLI 実装用に作った「[nkf っぽいなにか]({{< ref "/remark/2017/12/like-nkf.md" >}})」にもサブコマンド `width` として組み込んでいる。
 
 ```text
 $ gonkf width -h

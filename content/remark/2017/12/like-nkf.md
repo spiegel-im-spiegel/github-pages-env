@@ -25,7 +25,7 @@ tags = ["tools", "golang", "character", "encoding", "transform"]
   mermaidjs = false
 +++
 
-思いつきで[文字エンコーディングを変換するロジックを考えていた]({{< relref "golang/detecting-character-encoding.md" >}})のだが，その副産物で「nkf っぽいなにか」を作ったので，併せてリリースする。
+思いつきで[文字エンコーディングを変換するロジックを考えていた]({{< ref "/golang/detecting-character-encoding.md" >}})のだが，その副産物で「nkf っぽいなにか」を作ったので，併せてリリースする。
 
 - [Release v0.3.0 · spiegel-im-spiegel/text · GitHub](https://github.com/spiegel-im-spiegel/text/releases/tag/v0.3.0)
 
@@ -106,7 +106,7 @@ $ echo ﾍﾟﾝｷﾞﾝ | gonkf norm -f NFKC
 となる。
 Unicode 正規化については以下の記事を参照のこと。
 
-- [Go 言語と Unicode 正規化]({{< relref "golang/unicode-normalization.md" >}})
+- [Go 言語と Unicode 正規化]({{< ref "/golang/unicode-normalization.md" >}})
 
 文字エンコーディング変換で元テキストの文字エンコーディングを推測する場合，文字列が短いと誤判定する確率が跳ね上がるので注意（特に Shift-JIS と EUC）。
 また ISO-2022-JP (`jis`) に変換する際，変換ロジックにバグがあるようで，文字列の末尾が改行で終わらない場合に文字セットを US-ASCII に戻す指示シーケンス（1BH 28H 42H）が出力されない[^jis1]。
@@ -119,7 +119,7 @@ nkf みたいなツールは15年以上前なら割と重宝してたけど，�
 
 ## 【追記】 半角/全角変換機能を追加した
 
-- [Go 言語による Unicode 半角/全角変換]({{< relref "golang/character-width-for-unicode.md" >}})
+- [Go 言語による Unicode 半角/全角変換]({{< ref "/golang/character-width-for-unicode.md" >}})
 
 というわけで，半角/全角変換機能の追加と諸々修正・変更した v0.5.0 をリリースした。
 

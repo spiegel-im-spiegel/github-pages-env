@@ -28,7 +28,7 @@ tags        = [ "golang", "programming", "sqlite", "sql", "orm" ]
 
 - [spiegel-im-spiegel/jvnman: JVN Vulnerability Data Management](https://github.com/spiegel-im-spiegel/jvnman)
     - [Release v0.1.0 · spiegel-im-spiegel/jvnman](https://github.com/spiegel-im-spiegel/jvnman/releases/tag/v0.1.0)
-- [脆弱性情報の収集・管理ツール jvnman の最初のリリース]({{< relref "release/2018/05/jvnman-0_1_0-is-released.md" >}})
+- [脆弱性情報の収集・管理ツール jvnman の最初のリリース]({{< ref "/release/2018/05/jvnman-0_1_0-is-released.md" >}})
 
 [jvnman] についての説明は上の記事を見ていただくとして，この記事ではツールの内部で行っている SQL 文のハンドリングについて。
 
@@ -38,7 +38,7 @@ tags        = [ "golang", "programming", "sqlite", "sql", "orm" ]
 
 （ゆえに最初は軽く考えていて [spiegel-im-spiegel/go-myjvn] の{{< ruby "おまけ" >}}サンプル{{< /ruby >}}として [jvnman] を組み込む予定だった。思ったより依存パッケージが多いことが分かってリポジトリを別にしたんだけど）
 
-私は SQL 文を手書きで書くのは苦にならない性質なのだが（そもそも最初は [A5:SQL Mk-2 みたいなツール]({{< relref "remark/2018/04/sqlite3.md" >}} "SQLite 3 データを A5:SQL Mk-2 で開く")で試して最適化を行うものだし），途中までコードを書いて流石に煩わしくなってきたので [Go 言語]製の ORM (Object-Relational Mapping) および SQL Builder パッケージを探すことにした。
+私は SQL 文を手書きで書くのは苦にならない性質なのだが（そもそも最初は [A5:SQL Mk-2 みたいなツール]({{< ref "/remark/2018/04/sqlite3.md" >}} "SQLite 3 データを A5:SQL Mk-2 で開く")で試して最適化を行うものだし），途中までコードを書いて流石に煩わしくなってきたので [Go 言語]製の ORM (Object-Relational Mapping) および SQL Builder パッケージを探すことにした。
 
 というわけで，以下のパッケージを紹介。
 
@@ -132,7 +132,7 @@ if psql, args, err := squirrel.Select("date_update").From("vulnlist").Where(squi
 
 - [Go 言語で SQLite を使う（Windows 向けの紹介）]({{< relref "localhost:1313/golang/sqlite-with-golang-in-windows.md" >}})
 - [spiegel-im-spiegel/go-myjvn: Handling MyJVN RESTful API by Golang](https://github.com/spiegel-im-spiegel/go-myjvn)
-    - [go-myjvn パッケージを作ってみた]({{< relref "release/2018/03/go-myjvn-v0_1_0-released.md" >}})
+    - [go-myjvn パッケージを作ってみた]({{< ref "/release/2018/03/go-myjvn-v0_1_0-released.md" >}})
     - [MyJVN API に関する覚え書き — しっぽのさきっちょ | text.Baldanders.info](http://text.baldanders.info/remark/2018/03/myjvn-api/)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"

@@ -67,8 +67,8 @@ Facebook の TL に書き散らしたものを再構成してお送りする。
 - [[鏡] Analemma （アナレンマ） -- 戯れ言++](http://www.baldanders.info/spiegel/remark/archives/000007.shtml)
 - [朔旦冬至と授時 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000784.shtml)
 - [暦の改訂（DE405 から DE430 へ） — Baldanders.info](http://www.baldanders.info/spiegel/log2/000840.shtml)
-- [「暦」日本史 （再掲載）]({{< relref "remark/2015/japanese-koyomi.md" >}})
-- [『猫暦』を読んだ]({{< relref "remark/2016/05/nekoyomi.md" >}})
+- [「暦」日本史 （再掲載）]({{< ref "/remark/2015/japanese-koyomi.md" >}})
+- [『猫暦』を読んだ]({{< ref "/remark/2016/05/nekoyomi.md" >}})
 
 ## 参考図書
 

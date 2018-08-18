@@ -25,7 +25,7 @@ draft = false
   twitter = "spiegel_2007"
 +++
 
-[以前に紹介した]({{< relref "remark/2016/07/10-stories.md#ls" >}})けど，年も押し迫ってきたし関連情報も出てき始めているので，あらためて記事を再構成し関連リンクを順次追加していくことにする。
+[以前に紹介した]({{< ref "/remark/2016/07/10-stories.md#ls" >}})けど，年も押し迫ってきたし関連情報も出てき始めているので，あらためて記事を再構成し関連リンクを順次追加していくことにする。
 
 - [プレスリリース | 「うるう秒」挿入のお知らせ | NICT-情報通信研究機構](http://www.nict.go.jp/press/2016/07/08-1.html)
 - [2016年12月31日にうるう秒が追加へ - CNET Japan](http://japan.cnet.com/news/business/35085582/)
@@ -157,7 +157,7 @@ UT が観測値である以上「いつ閏秒が発生するか」は長期的�
 - {{< pdf-file title="暦象年表の改訂について" link="http://www.nao.ac.jp/contents/about-naoj/reports/report-naoj/11-34-2.pdf" >}}
 - [暦の改訂（DE405 から DE430 へ） — Baldanders.info](http://www.baldanders.info/spiegel/log2/000840.shtml)
 - [Linux開発者リーナス・トーヴァルズ、来る「うるう秒」を語る｜WIRED.jp](http://wired.jp/2015/06/30/torvalds_leapsecond/) ： 2015年の記事
-- [うるう秒は当分存続らしい]({{< relref "remark/2015/leap-second.md" >}})
+- [うるう秒は当分存続らしい]({{< ref "/remark/2015/leap-second.md" >}})
 - [うるう秒で1秒長かった今年の元日｜ニュース/アーカイブ｜準天頂衛星システム（QZSS）公式サイト - 内閣府](http://qzss.go.jp/news/archive/nict_170110.html) : 地球の自転について現在の観測方法を紹介している
 
 昔書いた以下の記事は内容が古くて地球時（terrestrial time; TT）などを含む座標時系への言及がないけど，閏秒に関する歴史的経緯を知るという意味では参考になるかもしれない。

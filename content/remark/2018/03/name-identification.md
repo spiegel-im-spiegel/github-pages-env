@@ -93,4 +93,4 @@ Facebook が面白そうなので，覚書として一応残しておく。
 - [米連邦取引委がFacebookを調査中と発表--ユーザー情報の流出問題めぐり - CNET Japan](https://japan.cnet.com/article/35116724/)
 - [「ソーシャルメディアは民主主義にマイナス」が6割——個人情報流出で窮地に立つFacebook | BUSINESS INSIDER JAPAN](https://www.businessinsider.jp/post-164530)
 
-- [機械によって引かれた境界線]({{< relref "remark/2018/03/boundary-by-ai.md" >}})
+- [機械によって引かれた境界線]({{< ref "/remark/2018/03/boundary-by-ai.md" >}})

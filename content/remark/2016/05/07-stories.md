@@ -28,7 +28,7 @@ title = "週末スペシャル： 自前でブックマークを運用するこ�
 
 先月
 
-- [delicious.com が del.icio.us に移行するらしい（出戻り？）]({{< relref "remark/2016/04/delicious-to-del_icio_us.md" >}})
+- [delicious.com が del.icio.us に移行するらしい（出戻り？）]({{< ref "/remark/2016/04/delicious-to-del_icio_us.md" >}})
 
 と書いたのだが，その後無事に移行が完了した。
 
@@ -39,9 +39,9 @@ Markdown でリンクを列挙するのがメチャメチャ楽ちんなこと�
 というわけで [Bookmarks](/bookmarks/) セクションを追加して，そこにブックマークを蓄積していくことにした。
 タグが使えなくなるけどソースコードの markdown ファイルを全文検索できるので，まぁ問題ないかと。
 
-[del.icio.us/spiegel](https://del.icio.us/spiegel) にあるブックマークは「[Export from Delicious.com]({{< relref "bookmarks/2016/04/export-from-delicious.html" >}})」に移した。
+[del.icio.us/spiegel](https://del.icio.us/spiegel) にあるブックマークは「[Export from Delicious.com]({{< ref "/bookmarks/2016/04/export-from-delicious.html" >}})」に移した。
 ただ [del.icio.us](https://del.icio.us/) の Export 機能がうまく動いてなくて古いブックマークが取れない。
-あと「[Export from Delicious.com]({{< relref "bookmarks/2016/04/export-from-delicious.html" >}})」にあるリンクが膨大で表示に結構時間がかかるので迂闊に開かないほうがいいようだ（笑）
+あと「[Export from Delicious.com]({{< ref "/bookmarks/2016/04/export-from-delicious.html" >}})」にあるリンクが膨大で表示に結構時間がかかるので迂闊に開かないほうがいいようだ（笑）
 
 [Bookmarks](/bookmarks/) セクションの記事は[メインの RSS](/index.xml) に含めないことにした。
 RSS を撮りたいという奇特な方は[こちら](/bookmarks/index.xml)からどうぞ。

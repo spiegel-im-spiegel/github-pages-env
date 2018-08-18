@@ -54,10 +54,10 @@ tags = [ "creative-commons", "web", "font", "site" ]
 
 ## ブックマーク
 
-- [Font Awesome 5 がリリースされた]({{< relref "remark/2017/12/font-awesome-5-released.md" >}})
-- [Web フォントに関する覚え書き]({{< relref "remark/2015/web-font-family.md" >}})
+- [Font Awesome 5 がリリースされた]({{< ref "/remark/2017/12/font-awesome-5-released.md" >}})
+- [Web フォントに関する覚え書き]({{< ref "/remark/2015/web-font-family.md" >}})
 
-- [Creative Commons Licenses]({{< relref "cc-licenses/02-creative-commons-licenses.md" >}}) — [改訂3版： CC Licenses について](/cc-licenses/)
+- [Creative Commons Licenses]({{< ref "/cc-licenses/02-creative-commons-licenses.md" >}}) — [改訂3版： CC Licenses について](/cc-licenses/)
 
 [Font Awesome]: https://fontawesome.com/ "Font Awesome 5 | Font Awesome"
 [Creative Commons]: https://creativecommons.org/

@@ -25,7 +25,7 @@ tags        = [ "tools", "libreoffice", "openpgp", "gnupg" ]
   mermaidjs = false
 +++
 
-「[Git Extensions と LibreOffice 6 と OpenPGP]({{< relref "openpgp/git-extensions-and-libreoffice-6-with-openpgp.md" >}})」で [LibreOffice] 文書に [OpenPGP] 署名できなくて「何がいけないんだろう。 誰かやり方を教えてください」と締めくくっていたが，原因が分かったので仕切り直しの記事を書くことにする。
+「[Git Extensions と LibreOffice 6 と OpenPGP]({{< ref "/openpgp/git-extensions-and-libreoffice-6-with-openpgp.md" >}})」で [LibreOffice] 文書に [OpenPGP] 署名できなくて「何がいけないんだろう。 誰かやり方を教えてください」と締めくくっていたが，原因が分かったので仕切り直しの記事を書くことにする。
 情報を下さった方には感謝を捧げます。
 
 ## [OpenPGP] 署名について
@@ -68,7 +68,7 @@ Linux 版では [LibreOffice] 5.4 から [OpenPGP] 署名とその検証が可�
 [OpenPGP] 署名を行うために [GnuPG] をインストールする。
 インストールの手順については以下を参照のこと。
 
-- [GnuPG for Windows インストール編]({{< relref "openpgp/using-gnupg-for-windows-1.md" >}})
+- [GnuPG for Windows インストール編]({{< ref "/openpgp/using-gnupg-for-windows-1.md" >}})
 
 そしてインストール先だが，**必ず既定の “`C:\Program Files (x86)\gnupg`” フォルダにインストールすること**。
 
@@ -147,10 +147,10 @@ Linux 版では [LibreOffice] 5.4 から [OpenPGP] 署名とその検証が可�
 
 - [LibreOfficeで文書に電子署名 - Qiita](https://qiita.com/tsuyoshi_cho/items/4cf78f8f1d0a0dd94018)
 
-- [GnuPG チートシート（鍵作成から失効まで）]({{< relref "openpgp/gnupg-cheat-sheet.md" >}})
-- [OpenPGP 鍵管理に関する考察]({{< relref "openpgp/openpgp-key-management.md" >}})
+- [GnuPG チートシート（鍵作成から失効まで）]({{< ref "/openpgp/gnupg-cheat-sheet.md" >}})
+- [OpenPGP 鍵管理に関する考察]({{< ref "/openpgp/openpgp-key-management.md" >}})
 
-[前回]: {{< relref "openpgp/git-extensions-and-libreoffice-6-with-openpgp.md" >}} "Git Extensions と LibreOffice 6 と OpenPGP"
+[前回]: {{< ref "/openpgp/git-extensions-and-libreoffice-6-with-openpgp.md" >}} "Git Extensions と LibreOffice 6 と OpenPGP"
 [OpenPGP]: http://openpgp.org/
 [RFC 4880]: https://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
 [RFC 4880bis]: https://datatracker.ietf.org/doc/draft-ietf-openpgp-rfc4880bis/ "draft-ietf-openpgp-rfc4880bis - OpenPGP Message Format"

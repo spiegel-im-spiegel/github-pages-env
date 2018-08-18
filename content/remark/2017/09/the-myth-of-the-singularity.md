@@ -20,7 +20,7 @@ tags        = [ "book", "artificial-intelligence", "singularity" ]
   flattr    = "spiegel"
 +++
 
-（この記事は「[AI と哲学？]({{< relref "remark/2017/09/artificial-intelligence.md" >}})」の続編である）
+（この記事は「[AI と哲学？]({{< ref "/remark/2017/09/artificial-intelligence.md" >}})」の続編である）
 
 『[そろそろ、人工知能の真実を話そう]』読んだ。
 めっさ疲れた。

@@ -67,7 +67,7 @@ graph RL
 [^gh1]: 現在「バザール型のコラボレーション」活動を象徴するのは GitHub かな。 GitHub のドキュメント記法が Wiki 記法じゃなく Markdown ってのも象徴的だよねぇ（笑） そう考えるとインターネットは「古き良き時代」に固執するクラスタ，「テレビ化」に迎合するクラスタ，社交（SNS）に引きこもるクラスタなどに多極化している，と見なすこともできるかもしれない。
 
 一方 Wiki が衰退し始めた中で台頭してきたのが Twitter である。
-Twitter が登場したときのフィーバーぶりも大変なもので，これのクローンもぼこぼこと登場したことを覚えている人もいるだろう（そういう意味じゃ「[マストどん]({{< relref "remark/2017/04/mastodon.md" >}} "GW 過ぎたらみんな忘れてるに100カノッサ")」なんていまさら過ぎるよね）。
+Twitter が登場したときのフィーバーぶりも大変なもので，これのクローンもぼこぼこと登場したことを覚えている人もいるだろう（そういう意味じゃ「[マストどん]({{< ref "/remark/2017/04/mastodon.md" >}} "GW 過ぎたらみんな忘れてるに100カノッサ")」なんていまさら過ぎるよね）。
 当然ながら Twitter は社会現象となり Twitternomics なる造語まで登場した。
 今や Twitter が差別と排除を増幅する{{< ruby "メディア" >}}装置{{< /ruby >}}として機能している現状からは考えられないかもしれないが（笑）
 
@@ -82,7 +82,7 @@ Twitter が登場したときのフィーバーぶりも大変なもので，こ
 
 - [伽藍とバザール（The Cathedral and the Bazaar）](http://cruel.org/freeware/cathedral.html)
 
-- [Scrapbox または Wiki で再び遊ぶ]({{< relref "remark/2017/01/scrapbox-and-wiki.md" >}})
+- [Scrapbox または Wiki で再び遊ぶ]({{< ref "/remark/2017/01/scrapbox-and-wiki.md" >}})
 
 [WikiWikiWeb]: http://www.hyuki.com/yukiwiki/wiki.cgi?WikiWikiWeb "WikiWikiWeb - WikiWikiWebとは何か"
 

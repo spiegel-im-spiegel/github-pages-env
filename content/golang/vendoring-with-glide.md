@@ -28,7 +28,7 @@ title = "Glide で Vendoring"
 **【2017-10-10 追記】**
 [glide] プロジェクトは Vendoring ツールとして公式ツールの [dep] を推し始めたようである。
 
-- [Glide から Dep への移行を検討する]({{< relref "golang/consider-switching-from-glide-to-dep.md" >}})
+- [Glide から Dep への移行を検討する]({{< relref "consider-switching-from-glide-to-dep.md" >}})
 
 そこで当セクションでも今後は [dep] を推していくことにする。
 この記事はメンテナンスされない可能性があるが，あしからずご了承の程を。
@@ -37,7 +37,7 @@ title = "Glide で Vendoring"
 
 ----
 
-以前「[GOPATH 汚染問題]({{< relref "golang/gopath-pollution.md" >}})」で [Go 言語] 1.5 の vendoring 機能を紹介したが，この vendoring のヘルパ・ツールと言えるのが [glide] である。
+以前「[GOPATH 汚染問題]({{< relref "gopath-pollution.md" >}})」で [Go 言語] 1.5 の vendoring 機能を紹介したが，この vendoring のヘルパ・ツールと言えるのが [glide] である。
 [glide] では依存する外部パッケージの情報を YAML 形式の定義ファイルに記述し，この定義ファイルを基に外部パッケージの管理を行う。
 
 （[glide] 0.8 から挙動が少し変わった。
@@ -169,7 +169,7 @@ GLOBAL OPTIONS:
 
 ## 開発環境の準備
 
-動作検証用に「[GOPATH 汚染問題]({{< relref "golang/gopath-pollution.md" >}})」で使ったコードを利用する。
+動作検証用に「[GOPATH 汚染問題]({{< relref "gopath-pollution.md" >}})」で使ったコードを利用する。
 まず，以下の環境を作る。
 
 ```text
@@ -376,13 +376,13 @@ devImports: []
 [^v]: `vendor` フォルダ以下は外部パッケージなので通常はさわることはない。
 
 更に言うと， [glide] は [Go 言語]の標準機能に準拠しているため，他のサポートツールとの相性がいいのも利点だろう。
-たとえば， [ATOM ベースの開発環境]({{< relref "golang/golang-with-atom.md" >}})は [glide] と相性がいい[^gov]。
+たとえば， [ATOM ベースの開発環境]({{< relref "golang-with-atom.md" >}})は [glide] と相性がいい[^gov]。
 あと，（多少強引な手を使っているが[^tci]） [Travis CI](https://travis-ci.org/) のような CI (Continuous Integration) と組み合わせることも難しくない。
 
-[^gov]: 残念ながら，「[パッケージの依存状況の視覚化]({{< relref "golang/package-visualization-tool.md" >}})」ツールは vendoring 機能に対応していないため上手く表示できない。なお， [glide] では `glide list` および `glide tree` で依存パッケージを見ることができる。
+[^gov]: 残念ながら，「[パッケージの依存状況の視覚化]({{< relref "package-visualization-tool.md" >}})」ツールは vendoring 機能に対応していないため上手く表示できない。なお， [glide] では `glide list` および `glide tree` で依存パッケージを見ることができる。
 [^tci]: [glide] の [`.travis.yml`](https://github.com/Masterminds/glide/blob/master/.travis.yml) や [`Makefile`](https://github.com/Masterminds/glide/blob/master/Makefile) を参照。
 
-こう考えると [glide] は[前に紹介]({{< relref "golang/project-based-development.md" >}})した [gb](http://getgb.io/) よりも筋がいいツールといえるかもしれない。
+こう考えると [glide] は[前に紹介]({{< relref "project-based-development.md" >}})した [gb](http://getgb.io/) よりも筋がいいツールといえるかもしれない。
 
 ## おまけ： vender フォルダ以下をテストから除外する
 
@@ -411,10 +411,10 @@ $ go test -v $(glide novendor)
 - [glide - パッケージ管理のお困りの方へ - - Qiita](http://qiita.com/tienlen/items/8e192e68d6b18bec3b4a)
 - [Golangでプロジェクト内のテストを全件実行する - Qiita](http://qiita.com/ktsujichan/items/c78e2515c459316cb1f6)
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[GOPATH 汚染問題]: {{< relref "golang/gopath-pollution.md" >}} "GOPATH 汚染問題 — プログラミング言語 Go | text.Baldanders.info"
+[GOPATH 汚染問題]: {{< relref "gopath-pollution.md" >}} "GOPATH 汚染問題 — プログラミング言語 Go | text.Baldanders.info"
 [glide]: https://github.com/Masterminds/glide "Masterminds/glide"
 [astrocalc]: https://github.com/spiegel-im-spiegel/astrocalc "spiegel-im-spiegel/astrocalc"
 [GitHub]: https://github.com/ "GitHub"

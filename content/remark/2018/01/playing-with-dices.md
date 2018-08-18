@@ -54,7 +54,7 @@ Twitter で面白そうな遊びを見つけた。
 サイコロ1とサイコロ2の出目が同じ場合もあり得るが，その場合は全員増減なしということで。
 じゃあこれを [Go 言語]で書いてみる[^rnd1]。
 
-[^rnd1]: ちなみに [Go 言語]標準の疑似乱数生成器（非暗号用）のアルゴリズムは「ラグ付フィボナッチ法（Lagged Fibonacci Generator）」と呼ばれるものだそうだ。詳しくは「[モンテカルロ法による円周率の推定（その4 PRNG）]({{< relref "golang/estimate-of-pi-4-prng.md" >}})」を参照のこと。
+[^rnd1]: ちなみに [Go 言語]標準の疑似乱数生成器（非暗号用）のアルゴリズムは「ラグ付フィボナッチ法（Lagged Fibonacci Generator）」と呼ばれるものだそうだ。詳しくは「[モンテカルロ法による円周率の推定（その4 PRNG）]({{< ref "/golang/estimate-of-pi-4-prng.md" >}})」を参照のこと。
 
 ```go
 package main

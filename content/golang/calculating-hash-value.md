@@ -210,7 +210,7 @@ matched
 
 ## ブックマーク
 
-- [Glide から Dep への移行を検討する]({{< relref "golang/consider-switching-from-glide-to-dep.md" >}})
+- [Glide から Dep への移行を検討する]({{< relref "consider-switching-from-glide-to-dep.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`crypto`]: https://golang.org/pkg/crypto/ "crypto - The Go Programming Language"

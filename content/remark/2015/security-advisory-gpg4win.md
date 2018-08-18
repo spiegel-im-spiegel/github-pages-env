@@ -35,7 +35,7 @@ Windows 用の [GnuPG] を含む暗号ツール群 [Gpg4win] の 2.3.0 がリリ
 まぁ Windows ではありがちな脆弱性である。
 GnuPG 自体に問題があるわけではなく，[インストーラのバグ](http://sourceforge.net/p/nsis/bugs/1125/ "NSIS: Nullsoft Scriptable Install System / Bugs / #1125 Code execution / Privilege escalation problems with NSIS installers")っぽい。
 
-世の中は[10人にひとりもまともに OpenPGP 製品を使えない]({{< relref "remark/2015/use-the-signal-luke.md" >}})らしいのに [Gpg4win] を使ってる人がどの程度いるのかかなり怪しいのだが，まぁ一応。
+世の中は[10人にひとりもまともに OpenPGP 製品を使えない]({{< ref "/remark/2015/use-the-signal-luke.md" >}})らしいのに [Gpg4win] を使ってる人がどの程度いるのかかなり怪しいのだが，まぁ一応。
 
 影響度はよく分からないが， DLL プリロード攻撃の脆弱性も権限昇格の脆弱性も割とヤバめなので，さっさとアップデートすることをおすすめする。
 ひょっとして，これ他の Windows 向けオンラインソフトにも影響出るかなぁ。

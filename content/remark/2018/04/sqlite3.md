@@ -45,7 +45,7 @@ tags = [ "sqlite", "tools" ]
 
 ## ブックマーク
 
-- [Go 言語で SQLite を使う（Windows 向けの紹介）]({{< relref "golang/sqlite-with-golang-in-windows.md" >}})
+- [Go 言語で SQLite を使う（Windows 向けの紹介）]({{< ref "/golang/sqlite-with-golang-in-windows.md" >}})
 - [xeodou/go-sqlcipher: Golang SQLCipher driver conforming to the built-in database/sql interface and using the latest sqlite3 code.](https://github.com/xeodou/go-sqlcipher)
 
 [SQLite]: https://www.sqlite.org/

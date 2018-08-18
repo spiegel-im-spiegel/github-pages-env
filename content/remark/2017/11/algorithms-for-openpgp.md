@@ -25,4 +25,4 @@ image = "/images/attention/remark.jpg"
   mermaidjs = false
 +++
 
-(move to [{{< ref "openpgp/algorithms-for-openpgp.md" >}}]({{< ref "openpgp/algorithms-for-openpgp.md" >}} "OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）"))
+(move to [{{< ref "/openpgp/algorithms-for-openpgp.md" >}}]({{< ref "/openpgp/algorithms-for-openpgp.md" >}} "OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）"))

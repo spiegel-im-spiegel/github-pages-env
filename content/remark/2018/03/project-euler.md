@@ -118,7 +118,7 @@ func main() {
 
 ## ブックマーク
 
-- [テスト・フレームワークで Project Euler を解く]({{< relref "golang/testing-for-project-euler.md" >}})
+- [テスト・フレームワークで Project Euler を解く]({{< ref "/golang/testing-for-project-euler.md" >}})
 
 [Project Euler]: https://projecteuler.net/
 [Go 言語]: https://golang.org/ "The Go Programming Language"

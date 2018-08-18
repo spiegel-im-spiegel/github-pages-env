@@ -43,9 +43,9 @@ title = "週末スペシャル： 「UNIX コマンドを SQL で抽出できる
 - [Big Sky :: UNIX コマンドを SQL で抽出できるツール qq を作った。](http://mattn.kaoriya.net/software/lang/go/20160805190022.htm)
 
 さっそくビルドしようとしたが Windows 環境では gcc がないと怒られた。
-多分 [MSYS2]({{< relref "remark/2016/03/gcc-msys2-1.md" >}}) なら何とかなると思うが，そこまでする気力がない[^a] のでまた今度。
+多分 [MSYS2]({{< ref "/remark/2016/03/gcc-msys2-1.md" >}}) なら何とかなると思うが，そこまでする気力がない[^a] のでまた今度。
 
-[^a]: 自宅マシンを Linux ベースに換装すると[決めて]({{< relref "remark/2016/03/13-stories.md#win" >}})から（年内を目標に準備中） Windows 環境のカスタマイズへの興味が薄れつつある。
+[^a]: 自宅マシンを Linux ベースに換装すると[決めて]({{< ref "/remark/2016/03/13-stories.md#win" >}})から（年内を目標に準備中） Windows 環境のカスタマイズへの興味が薄れつつある。
 
 [qq] では文字エンコーディングを指定できるようで，
 
@@ -55,7 +55,7 @@ $ cat meisai.csv | qq -ic -e cp932 -q "select 単価 from stdin where 品目 = '
 
 とかできるらしい。
 一瞬「CP932」のエンコーディングができるの？ と思ったが，使われている [go-encoding] を見たら，どうやら Shift-JIS として解釈するようだ。
-やっぱ Shift-JIS や EUC-JP の[方言は簡単じゃない]({{< relref "golang/transform-character-encoding.md" >}})よなぁ。
+やっぱ Shift-JIS や EUC-JP の[方言は簡単じゃない]({{< ref "/golang/transform-character-encoding.md" >}})よなぁ。
 
 ## Pokémon GO 最大の失敗は{#pg}
 
@@ -77,7 +77,7 @@ $ cat meisai.csv | qq -ic -e cp932 -q "select 単価 from stdin where 品目 = '
 - [Kindle Unlimited開始でKindleダイレクト・パブリッシング（KDP）冬の時代が到来？ 出版社が優遇され過ぎ:見て歩く者 by 鷹野凌](http://www.wildhawkfield.com/2016/08/major-publishers-have-been-special-treatment-on-Kindle-Unlimited.html)
 - [キンドル・アンリミテッド登場は何を意味するか « マガジン航[kɔː]](http://magazine-k.jp/2014/07/30/kindle-unlimited/) ： 2014年の記事
 
-実は [paperwhite]({{< relref "remark/2016/07/kindle-paperwhite.md" >}} "今更 Kindle Paperwhite を買う") では以前から unlimited 対象の書籍が見えるようになっていて，そのラインナップのあまりのつまらなさに今回のニュースにもほとんど食指が動かなかった。
+実は [paperwhite]({{< ref "/remark/2016/07/kindle-paperwhite.md" >}} "今更 Kindle Paperwhite を買う") では以前から unlimited 対象の書籍が見えるようになっていて，そのラインナップのあまりのつまらなさに今回のニュースにもほとんど食指が動かなかった。
 
 {{< fig-quote title="電子書籍読み放題の「Kindle Unlimited」が月額980円で日本でもスタート" link="http://ascii.jp/elem/000/001/205/1205073/" >}}
 <q>読み放題の対象となる作品は、ウェブ上でアイコンが表示されるようになります。読む手順はカンタンで、通常の単体購入時と同じく、読みたい作品をまず自分のクラウドライブラリーに登録し、読みたい端末にダウンロード。Kindle Unlimited対象書籍は一度に10冊まで登録可能で、11冊目を登録する際は事前に1冊分を解除しておく必要があります。</q>

@@ -222,7 +222,7 @@ func BenchmarkWriteBuffer2Cap1K(b *testing.B) {
 }
 ```
 
-[Go 言語]のテストについては[以前紹介した]({{< ref "golang/testing.md" >}})が，同じ要領で `Benchmark` から始まる名前の関数を作るとベンチマーク用のコードとして認識される。
+[Go 言語]のテストについては[以前紹介した]({{< relref "testing.md" >}})が，同じ要領で `Benchmark` から始まる名前の関数を作るとベンチマーク用のコードとして認識される。
 引数には `b *testing.B` を指定する。
 
 ベンチマークの内訳は以下のとおり。
@@ -286,9 +286,9 @@ ok      join    13.589s
 - [Go でベンチマーク - Block Rockin’ Codes](http://jxck.hatenablog.com/entry/20131123/1385189088)
 - [go言語でベンチマーク - Qiita](http://qiita.com/Mulyu/items/ed585f2777496f29a725)
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[前回]: {{< ref "golang/string-and-rune.md" >}} "String と Rune"
+[前回]: {{< relref "string-and-rune.md" >}} "String と Rune"
 [string]: http://golang.org/ref/spec#String_types
 [`bytes`]: http://golang.org/pkg/bytes/

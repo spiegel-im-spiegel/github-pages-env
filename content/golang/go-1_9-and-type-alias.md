@@ -129,7 +129,7 @@ The type alias design document and an article on refactoring cover the problem i
 もともと [Go 言語]はリファクタリングを厚遇する言語と言える。
 たとえば「構造的部分型（structural subtyping）」などはその最たる例だろう。
 
-- [きみは Generics がとくいなフレンズなんだね，または「制約は構造を生む」]({{< relref "remark/2017/03/generics-vs-duck-typing.md" >}})
+- [きみは Generics がとくいなフレンズなんだね，または「制約は構造を生む」]({{< ref "/remark/2017/03/generics-vs-duck-typing.md" >}})
 
 まぁ，あまり積極的に使う機能ではないかもしれないが，こういうこともできると覚えておくといいだろう。
 
@@ -137,7 +137,7 @@ The type alias design document and an article on refactoring cover the problem i
 
 - [go言語1.9で追加予定の新機能 型エイリアス - Qiita](http://qiita.com/weloan/items/8abbb4003cfa1031a9e9)
 
-- [Go 言語における「オブジェクト」]({{< relref "golang/object-oriented-programming.md" >}})
+- [Go 言語における「オブジェクト」]({{< relref "object-oriented-programming.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [type]: https://golang.org/ref/spec#Properties_of_types_and_values "Properties of types and values"

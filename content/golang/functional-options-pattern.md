@@ -209,7 +209,7 @@ u := ui.New(ui.WithReader(os.Stdin), ui.WithWriter(os.Stdout))
 - [command center: Self-referential functions and the design of options](https://commandcenter.blogspot.jp/2014/01/self-referential-functions-and-design.html)
 - [Functional options for friendly APIs | Dave Cheney](https://dave.cheney.net/2014/10/17/functional-options-for-friendly-apis)
 
-- [Go 言語における「オブジェクト」]({{< relref "golang/object-oriented-programming.md" >}})
+- [Go 言語における「オブジェクト」]({{< relref "object-oriented-programming.md" >}})
 - [spiegel-im-spiegel/gocli: Command line interface](https://github.com/spiegel-im-spiegel/gocli) : 本記事と全く同じではないが， Functional Options パターンの実装例を作ってみた
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"

@@ -78,7 +78,7 @@ AlphaGo が他の “AI” （と敢えて言うけど）と一線を画すの�
 - [「AIを搭載」は「全て自然」同様の技術的ナンセンスだ | TechCrunch Japan](http://jp.techcrunch.com/2017/01/11/20170110ai-powered-is-techs-meaningless-equivalent-of-all-natural/)
 - [ケヴィン・ケリー(WIRED創刊編集長) x Slack 「感情的にAIを怖れるな。」−非中央集権化された情報社会でかつてないコラボレーションが実現する− – Medium Japan – Medium](https://medium.com/japan/-42e6840d6711)
 
-- [人工知能は「ハイル・ヒトラー」と叫ぶか]({{< relref "remark/2015/artificial-intelligence.md" >}})
-- [「ピノキオ」と AI]({{< relref "remark/2016/08/pinocchio.md" >}})
-- [AI は人（の良心）を殺すか？]({{< relref "remark/2016/10/artificial-intelligence.md" >}})
-- [AI の読解力，人の読解力]({{< relref "remark/2016/11/reading-comprehension.md" >}})
+- [人工知能は「ハイル・ヒトラー」と叫ぶか]({{< ref "/remark/2015/artificial-intelligence.md" >}})
+- [「ピノキオ」と AI]({{< ref "/remark/2016/08/pinocchio.md" >}})
+- [AI は人（の良心）を殺すか？]({{< ref "/remark/2016/10/artificial-intelligence.md" >}})
+- [AI の読解力，人の読解力]({{< ref "/remark/2016/11/reading-comprehension.md" >}})

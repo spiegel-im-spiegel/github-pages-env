@@ -83,7 +83,7 @@ Path      : C:\Users\username\Downloads\dep-windows-amd64.exe
 
 {{% div-box %}}
 **【2017-10-31 追記】** だんだん面倒になってきたので[ハッシュ値を計算するツール](https://github.com/spiegel-im-spiegel/hash "spiegel-im-spiegel/hash: Calculating Hash Value")を作った。
-詳しくは「[Hash 値を計算するパッケージを作ってみた]({{< relref "golang/calculating-hash-value.md" >}})」を参照のこと。
+詳しくは「[Hash 値を計算するパッケージを作ってみた]({{< relref "calculating-hash-value.md" >}})」を参照のこと。
 {{% /div-box %}}
 
 <!--
@@ -575,8 +575,8 @@ github.com/spiegel-im-spiegel/pi/vendor/github.com/spiegel-im-spiegel/gocli
 - [[go]depでブランチ指定 - Qiita](https://qiita.com/noppefoxwolf/items/49bd460034a5c84e1956)
     - [Models and Mechanisms · dep](https://golang.github.io/dep/docs/ensure-mechanics.html)
 
-- [GOPATH 汚染問題]({{< relref "golang/gopath-pollution.md" >}})
-- [パッケージの依存状況の視覚化]({{< relref "golang/package-visualization-tool.md" >}})
+- [GOPATH 汚染問題]({{< relref "gopath-pollution.md" >}})
+- [パッケージの依存状況の視覚化]({{< relref "package-visualization-tool.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [glide]: https://github.com/Masterminds/glide "Masterminds/glide"

@@ -27,10 +27,10 @@ update = "2016-12-11T15:19:30+09:00"
   tumblr = "spiegel-im-spiegel"
 +++
 
-1. [モンテカルロ法による円周率の推定（その1）]({{< relref "golang/estimate-of-pi.md" >}})
-2. [モンテカルロ法による円周率の推定（その2 CLI）]({{< relref "golang/estimate-of-pi-2-cli.md" >}})
-3. [モンテカルロ法による円周率の推定（その3 Gaussian）]({{< relref "golang/estimate-of-pi-3-gaussian.md" >}}) ← イマココ
-4. [モンテカルロ法による円周率の推定（その4 PRNG）]({{< relref "golang/estimate-of-pi-4-prng.md" >}})
+1. [モンテカルロ法による円周率の推定（その1）]({{< relref "estimate-of-pi.md" >}})
+2. [モンテカルロ法による円周率の推定（その2 CLI）]({{< relref "estimate-of-pi-2-cli.md" >}})
+3. [モンテカルロ法による円周率の推定（その3 Gaussian）]({{< relref "estimate-of-pi-3-gaussian.md" >}}) ← イマココ
+4. [モンテカルロ法による円周率の推定（その4 PRNG）]({{< relref "estimate-of-pi-4-prng.md" >}})
 
 ## 推定結果の分布
 
@@ -303,9 +303,9 @@ standard deviation: 0.01654 (68.0%)
 - [簡単な例題](http://dsl4.eee.u-ryukyu.ac.jp/DOCS/gnuplot/node180.html)：最小2乗法でデータに曲線や曲面をあてはめる
 - [付表：正規分布表　（ P から z を求める表） - 中川雅央（滋賀大学）](http://www.biwako.shiga-u.ac.jp/sensei/mnaka/ut/normdistinvtab.html)
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
-[前回]: {{< relref "golang/estimate-of-pi-2-cli.md" >}} "モンテカルロ法による円周率の推定（その2 CLI）"
+[前回]: {{< relref "estimate-of-pi-2-cli.md" >}} "モンテカルロ法による円周率の推定（その2 CLI）"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [gnuplot]: http://www.gnuplot.info/ "gnuplot homepage"
 

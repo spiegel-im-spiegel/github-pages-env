@@ -21,10 +21,10 @@ draft = false
   name = "Spiegel"
 +++
 
-1. [モンテカルロ法による円周率の推定（その1）]({{< relref "golang/estimate-of-pi.md" >}})
-2. [モンテカルロ法による円周率の推定（その2 CLI）]({{< relref "golang/estimate-of-pi-2-cli.md" >}}) ← イマココ
-3. [モンテカルロ法による円周率の推定（その3 Gaussian）]({{< relref "golang/estimate-of-pi-3-gaussian.md" >}})
-4. [モンテカルロ法による円周率の推定（その4 PRNG）]({{< relref "golang/estimate-of-pi-4-prng.md" >}})
+1. [モンテカルロ法による円周率の推定（その1）]({{< relref "estimate-of-pi.md" >}})
+2. [モンテカルロ法による円周率の推定（その2 CLI）]({{< relref "estimate-of-pi-2-cli.md" >}}) ← イマココ
+3. [モンテカルロ法による円周率の推定（その3 Gaussian）]({{< relref "estimate-of-pi-3-gaussian.md" >}})
+4. [モンテカルロ法による円周率の推定（その4 PRNG）]({{< relref "estimate-of-pi-4-prng.md" >}})
 
 ## コマンドライン・インタフェース
 
@@ -80,7 +80,7 @@ func main() {
 
 CLI については以前に解説した。
 
-- [コマンドライン・インタフェースとファサード・パターン]({{< relref "golang/cli-and-facade-pattern.md" >}})
+- [コマンドライン・インタフェースとファサード・パターン]({{< relref "cli-and-facade-pattern.md" >}})
 
 このときは [`mitchellh/cli`] を紹介したが，今回は [`spf13/cobra`] を使うことにする。
 
@@ -458,10 +458,10 @@ $ go run main.go estmt -e 10 -p 100000
 - [GolangでCLIの場合にcobraを使うことにした件 | FLAMA技術Blog](http://lab.flama.co.jp/archives/1536/)
 - [packageに複数のinitがあるときの挙動 - Qiita](http://qiita.com/astronoka/items/aa2f271d280863cedf5e)
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[前回]: {{< relref "golang/estimate-of-pi.md" >}} "モンテカルロ法による円周率の推定（その1）"
+[前回]: {{< relref "estimate-of-pi.md" >}} "モンテカルロ法による円周率の推定（その1）"
 [`mitchellh/cli`]: https://github.com/mitchellh/cli "mitchellh/cli"
 [`spf13/cobra`]: https://github.com/spf13/cobra "spf13/cobra: A Commander for modern Go CLI interactions"
 [Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"

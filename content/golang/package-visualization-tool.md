@@ -127,7 +127,7 @@ Help Options:
 - [そろそろ理解しておきたいのでDockerのソースコードをビジュアルに読む！ - Qiita](http://qiita.com/hirokidaichi/items/52fc6286c9e432792a07) : [hirokidaichi/goviz] : 作者による解説
 - [データのビジュアル化を最少の労力で: Graphviz](http://www.showa-corp.jp/special/graphtools/graphviz.html)
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [hirokidaichi/goviz]: https://github.com/hirokidaichi/goviz "hirokidaichi/goviz"
 [Graphviz]: http://graphviz.org/ "Graphviz - Graph Visualization Software"

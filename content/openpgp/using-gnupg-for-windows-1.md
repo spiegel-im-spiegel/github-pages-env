@@ -231,9 +231,9 @@ sub   rsa2048 2011-01-12 [A] [有効期限: 2019-12-31]
 
 ## 参考になる（かもしれない） Web ページ
 
-[ブックマークはこちら]({{< relref "openpgp/bookmark.md" >}})に移動した。
+[ブックマークはこちら]({{< ref "/openpgp/bookmark.md" >}})に移動した。
 
-[次回]: {{< relref "openpgp/using-gnupg-for-windows-2.md" >}} "GnuPG for Windows : gpg-agent について"
+[次回]: {{< ref "/openpgp/using-gnupg-for-windows-2.md" >}} "GnuPG for Windows : gpg-agent について"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 [OpenPGP]: http://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
 [RFC 4880]: http://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"

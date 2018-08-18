@@ -64,7 +64,7 @@ fmt.Println("CVSS Vector =", v)
 
 ## ブックマーク
 
-- [MyJVN API に関する覚え書き]({{< relref "remark/2018/03/myjvn-api.md" >}})
+- [MyJVN API に関する覚え書き]({{< ref "/remark/2018/03/myjvn-api.md" >}})
 
 [spiegel-im-spiegel/go-myjvn]: https://github.com/spiegel-im-spiegel/go-myjvn "spiegel-im-spiegel/go-myjvn: Handling MyJVN RESTful API by Golang"
 [Go 言語]: https://golang.org/ "The Go Programming Language"

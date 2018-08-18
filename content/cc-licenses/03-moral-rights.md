@@ -25,7 +25,7 @@ title = "人格権と CC Licenses"
   mermaidjs = false
 +++
 
-[前回紹介した「Creative Commons Licenses」]({{< relref "cc-licenses/02-creative-commons-licenses.md" >}})の内容を踏まえた上で今回は人格権と [CC Licenses] との関係について解説する。
+[前回紹介した「Creative Commons Licenses」]({{< ref "/cc-licenses/02-creative-commons-licenses.md" >}})の内容を踏まえた上で今回は人格権と [CC Licenses] との関係について解説する。
 
 1. [「著作者人格権」とは]({{< relref "#about" >}})
 1. [その他の「人格権」]({{< relref "#other" >}})

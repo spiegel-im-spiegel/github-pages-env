@@ -77,7 +77,7 @@ before_install:
 
 ## ブックマーク
 
-- [Glide から Dep への移行を検討する]({{< relref "golang/consider-switching-from-glide-to-dep.md" >}})
+- [Glide から Dep への移行を検討する]({{< ref "/golang/consider-switching-from-glide-to-dep.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [dep]: https://golang.github.io/dep/ "dep · Dependency management for Go"

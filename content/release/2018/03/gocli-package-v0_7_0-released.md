@@ -95,9 +95,9 @@ Windows 環境では [SIGNAL] 周りのテストが出来ないので結構困�
 
 ## ブックマーク
 
-- [time.Ticker で遊ぶ]({{< relref "golang/ticker.md" >}})
-- [コマンドライン・インタフェースとファサード・パターン]({{< relref "golang/cli-and-facade-pattern.md" >}})
-- [Cobra の使い方とテスト]({{< relref "golang/using-and-testing-cobra.md" >}})
+- [time.Ticker で遊ぶ]({{< ref "/golang/ticker.md" >}})
+- [コマンドライン・インタフェースとファサード・パターン]({{< ref "/golang/cli-and-facade-pattern.md" >}})
+- [Cobra の使い方とテスト]({{< ref "/golang/using-and-testing-cobra.md" >}})
 
 [spiegel-im-spiegel/gocli]: https://github.com/spiegel-im-spiegel/gocli "spiegel-im-spiegel/gocli: Minimal Packages for Command-Line Interface"
 [`gocli`]: https://github.com/spiegel-im-spiegel/gocli "spiegel-im-spiegel/gocli: Minimal Packages for Command-Line Interface"

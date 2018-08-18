@@ -24,7 +24,7 @@ title = "ATOM Editor で Amazon Associate ID を含んだ商品 URL を生成す
 - [アマゾン・アソシエイトID（アフィリエイト用のID）を含んだ商品URLを生成する秀丸マクロ - 結城浩のはてな日記](http://d.hatena.ne.jp/hyuki/20120413/amazon)
 
 これがとても便利で重宝していたのだが， [ATOM] Editor では使えないためどうしたものかと思っていた。
-で，先日 [`init.coffee` に簡単なコマンドを書く方法を習った]({{< relref "remark/2015/insert-datetime-in-atom-editor.md" >}})ので，上の秀丸マクロを [ATOM] Editor に移植してみた。
+で，先日 [`init.coffee` に簡単なコマンドを書く方法を習った]({{< ref "/remark/2015/insert-datetime-in-atom-editor.md" >}})ので，上の秀丸マクロを [ATOM] Editor に移植してみた。
 
 以下が `init.coffee` に追記する内容。
 
@@ -62,7 +62,7 @@ atom.commands.add 'atom-text-editor', 'my-tools:amazon', ->
 ```
 
 コードがやっつけでダサいのはご勘弁ということで[^a]。
-`insertText` 関数は[前のとき]({{< relref "remark/2015/insert-datetime-in-atom-editor.md" >}})の使い回し。
+`insertText` 関数は[前のとき]({{< ref "/remark/2015/insert-datetime-in-atom-editor.md" >}})の使い回し。
 
 [^a]: [CoffeeScript](http://coffeescript.org/) は慣れん。
 

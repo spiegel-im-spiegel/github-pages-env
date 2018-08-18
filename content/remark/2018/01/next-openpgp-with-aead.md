@@ -84,7 +84,7 @@ OCB mode に関しては，特許問題が絡むようで，取り扱いを議�
 
 ## ブックマーク
 
-- [OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）]({{< relref "openpgp/algorithms-for-openpgp.md" >}})
+- [OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）]({{< ref "/openpgp/algorithms-for-openpgp.md" >}})
 
 ## 参考図書
 

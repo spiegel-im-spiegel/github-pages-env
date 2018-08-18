@@ -128,7 +128,7 @@ I could tell you my pass phrase, but then I would have to kill you.
 
 2番目の要件は既に散々言われていることなので今更であろう。
 
-- [週末スペシャル： 「パスワードの定期変更はすべきでない」，他]({{< relref "remark/2016/07/02-stories.md" >}})
+- [週末スペシャル： 「パスワードの定期変更はすべきでない」，他]({{< ref "/remark/2016/07/02-stories.md" >}})
 
 ### 【追記】 パスワード定期変更の起源？
 

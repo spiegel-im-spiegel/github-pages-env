@@ -63,7 +63,7 @@ tags        = [ "astronomy", "calendar", "security", "medical", "risk", "managem
 
 以上，終わり。
 
-[「仮想通貨」]: {{< relref "remark/2018/01/cryptocurrency-are-not-crypto.md" >}} "「暗号通貨」ってゆーな！"
+[「仮想通貨」]: {{< ref "/remark/2018/01/cryptocurrency-are-not-crypto.md" >}} "「暗号通貨」ってゆーな！"
 
 ## インフルエンザ過敏症とトリアージ{#triage}
 

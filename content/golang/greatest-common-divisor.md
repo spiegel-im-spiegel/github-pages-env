@@ -195,7 +195,7 @@ func main() {
 ただし，似たような機能を持つパッケージを公開しておられる人はいる。
 わざわざ自作するのもナニなので今回は以下のパッケージを利用させてもらおう。
 
-[^fp1]: あくまでも「ぽい」である。たとえば [Go 言語]では if 文や for 文などは関数でも演算子でもない単なる制御[構文（stateement）]({{< relref "golang/operators-and-statements.md" >}} "演算子とステートメント")であり，直接ロジックにコンパイルされる。これまでの手続き型言語と関数型言語の利点を合わせたような言語は「マルチパラダイム・プログラミング言語（multiparadigm programming language）」などと呼ばれたりする。 Python や Swift といった近頃流行りの言語もマルチパラダイムの流れのひとつである。
+[^fp1]: あくまでも「ぽい」である。たとえば [Go 言語]では if 文や for 文などは関数でも演算子でもない単なる制御[構文（stateement）]({{< relref "operators-and-statements.md" >}} "演算子とステートメント")であり，直接ロジックにコンパイルされる。これまでの手続き型言語と関数型言語の利点を合わせたような言語は「マルチパラダイム・プログラミング言語（multiparadigm programming language）」などと呼ばれたりする。 Python や Swift といった近頃流行りの言語もマルチパラダイムの流れのひとつである。
 
 - [robpike/filter: Simple apply/filter/reduce package.](https://github.com/robpike/filter)
 
@@ -271,7 +271,7 @@ You shouldn't use it either.</q>
 [`filter`].`Reduce()` 関数を駆動するコストを考えれば[^rf1] 普通に for 文で回したほうが安上がりだよね。
 イマドキっぽく関数型言語の利点をいくつか取り込んでいるとはいえ Haskell のようなガッツリした関数型言語とは役割が異なるので，無理に関数型にこだわらなくてもいいということである。
 
-[^rf1]: [Go 言語]には総称型（Generics）がないため [`filter`].`Reduce()` 関数内部で [`reflect`] パッケージを駆使することになるが，その分はどうしてもパフォーマンスに影響を与えてしまう（参考： [きみは Generics がとくいなフレンズなんだね，または「制約は構造を生む」]({{< relref "remark/2017/03/generics-vs-duck-typing.md" >}})）。しかし [`reflect`] パッケージが悪というわけではなく，たとえば[先日紹介]({{< relref "golang/sort.md" >}} "ソートを使う")した [`sort`].`Slice()` 関数は [`reflect`] パッケージを効果的に使用した例といえる。高階関数は見た目はクールだが，それに惑わされることなく目的に適うコードを選ぶことが重要である。とはいえ，勉強のために [Go 言語]で高階関数を組んでみようというのは悪くないと思う。
+[^rf1]: [Go 言語]には総称型（Generics）がないため [`filter`].`Reduce()` 関数内部で [`reflect`] パッケージを駆使することになるが，その分はどうしてもパフォーマンスに影響を与えてしまう（参考： [きみは Generics がとくいなフレンズなんだね，または「制約は構造を生む」]({{< ref "/remark/2017/03/generics-vs-duck-typing.md" >}})）。しかし [`reflect`] パッケージが悪というわけではなく，たとえば[先日紹介]({{< relref "sort.md" >}} "ソートを使う")した [`sort`].`Slice()` 関数は [`reflect`] パッケージを効果的に使用した例といえる。高階関数は見た目はクールだが，それに惑わされることなく目的に適うコードを選ぶことが重要である。とはいえ，勉強のために [Go 言語]で高階関数を組んでみようというのは悪くないと思う。
 
 ## ブックマーク
 
@@ -280,7 +280,7 @@ You shouldn't use it either.</q>
 - [Go言語では高階関数よりforループを使え(by Rob Pike氏) - Qiita](https://qiita.com/yohhoy/items/d3c12361bb5eed3cbede)
 - [関数型言語のウソとホント - Qiita](https://qiita.com/hiruberuto/items/26a813ab2b188ca39019)
 
-- [再帰呼び出しと関数テーブル]({{< relref "golang/recursive-call-and-function-table.md" >}})
+- [再帰呼び出しと関数テーブル]({{< relref "recursive-call-and-function-table.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [配列の全ての要素の最大公約数を求める]: https://qiita.com/rsky/items/a39070208eaea38394c5

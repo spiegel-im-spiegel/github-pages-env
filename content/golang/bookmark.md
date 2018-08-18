@@ -25,7 +25,7 @@ title = "Go 言語に関するブックマーク"
 +++
 
 本業が忙しくて [Go 言語]をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。
-なお，ここにない場合は「[未整理分]({{< relref "golang/bookmark2.md" >}})」にあるかも。
+なお，ここにない場合は「[未整理分]({{< relref "bookmark2.md" >}})」にあるかも。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 
@@ -444,7 +444,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 
 ### 組込み開発
 
-主なものは「[組込みで Go]({{< relref "golang/embedded-engineering-with-golang.md" >}})」に移動。
+主なものは「[組込みで Go]({{< relref "embedded-engineering-with-golang.md" >}})」に移動。
 以下は携帯端末開発に関するブックマーク：
 
 - [go 1.5でgomobile(android) - unokun’s blog](http://unokun.hatenablog.jp/entry/2015/08/01/150628)

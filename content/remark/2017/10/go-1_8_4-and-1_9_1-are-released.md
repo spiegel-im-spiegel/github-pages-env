@@ -40,7 +40,7 @@ tags = [
 
 これって CVE-2017-1000117 と似たような問題かなぁ？
 
-- [SCM ツールの脆弱性]({{< relref "remark/2017/08/vulnerabilities-in-scm-tools.md" >}})
+- [SCM ツールの脆弱性]({{< ref "/remark/2017/08/vulnerabilities-in-scm-tools.md" >}})
 
 バージョン管理ツールの方は既に改修版が出てるんだけど， [Go 言語]コンパイラも対応しましたよ，ってことなんだろうか。
 （git の submodule などとは別に）こういう入れ子構造のリポジトリの問題って根が深そうだなぁ。

@@ -42,7 +42,7 @@ description = "もうみんな SHA-1 とはオサラバしてるよね（笑）"
 SHA-1 衝突問題については以下を参照のこと。
 NIST などでは2014年以降 SHA-1 を電子署名等に使わないよう勧告している。
 
-- [SHA-1 衝突問題： 廃止の前倒し]({{< relref "remark/2015/problem-of-sha1-collision.md" >}})
+- [SHA-1 衝突問題： 廃止の前倒し]({{< ref "/remark/2015/problem-of-sha1-collision.md" >}})
 - [CRYPTREC | SHA-1の安全性について](http://www.cryptrec.go.jp/topics/cryptrec_20151218_sha1_cryptanalysis.html)
 
 現時点で主要な CA では証明書に SHA-1 は使っていないはずである。
@@ -63,7 +63,7 @@ git の commit hash 値はあくまで identity として付与されるもの�
 
 git による悪意のなりすまし等を警戒する必要があるのなら commit hash 値を気にするのではなく commit にきちんと電子署名を行うことをお勧めする（チームで作業する人は是非習慣化するべきである）。
 
-- [Git Commit で OpenPGP 署名を行う]({{< relref "remark/2016/04/git-commit-with-openpgp-signature.md" >}})
+- [Git Commit で OpenPGP 署名を行う]({{< ref "/remark/2016/04/git-commit-with-openpgp-signature.md" >}})
 
 ただし，かつて標準として使われていた MD5 が危殆化とともに廃れていったように，今後 SHA-1 は電子署名以外でも使われなくなると思われる。
 念のため， NIST による現在の SHA アルゴリズムの評価と有効期限を以下に示す。

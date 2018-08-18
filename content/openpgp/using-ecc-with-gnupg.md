@@ -34,7 +34,7 @@ tags = [
 最初に言っておくと [OpenPGP] では（秘密鍵の漏洩や暗号アルゴリズム等の危殆化がない限り）永続的に使われるのがよい鍵とされている[^km1]。
 なので，無理に新しい鍵に切り替える必要はないのだが，もし [GnuPG] で新しい鍵を作るのであれば ECC (Elliptic Curve Cryptography; 楕円曲線暗号) を選択するのがいいんじゃないかな？ という提案である。
 
-[^km1]: この辺については「[OpenPGP 鍵管理に関する考察]({{< relref "openpgp/openpgp-key-management.md" >}})」を参照のこと。
+[^km1]: この辺については「[OpenPGP 鍵管理に関する考察]({{< ref "/openpgp/openpgp-key-management.md" >}})」を参照のこと。
 
 ## 手っ取り早く ECC 鍵を作る
 
@@ -349,8 +349,8 @@ $ gpg --full-gen-key --expert
 - {{< pdf-file title="楕円曲線暗号の整備動向＋楕円暗号の実装状況" link="http://www.jnsa.org/seminar/pki-day/2011/data/02_kanaoka.pdf">}}
 - [楕円曲線暗号の鍵長に512bitがなく521bitがある理由 | maidsphere](http://www.maidsphere.jp/archive/%E6%A5%95%E5%86%86%E6%9B%B2%E7%B7%9A%E6%9A%97%E5%8F%B7%E3%81%AE%E9%8D%B5%E9%95%B7%E3%81%AB512bit%E3%81%8C%E3%81%AA%E3%81%8F521bit%E3%81%8C%E3%81%82%E3%82%8B%E7%90%86%E7%94%B1)
 
-- [OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）]({{< relref "openpgp/algorithms-for-openpgp.md" >}})
-- [GnuPG チートシート（鍵作成から失効まで）]({{< relref "openpgp/gnupg-cheat-sheet.md" >}})
+- [OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）]({{< ref "/openpgp/algorithms-for-openpgp.md" >}})
+- [GnuPG チートシート（鍵作成から失効まで）]({{< ref "/openpgp/gnupg-cheat-sheet.md" >}})
 
 [OpenPGP]: http://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"

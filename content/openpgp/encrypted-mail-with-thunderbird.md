@@ -31,9 +31,9 @@ tags = [ "openpgp", "security", "cryptography", "mua", "thunderbird", "messaging
 なので今回は [Thunderbird] で [OpenPGP] 暗号化メールをやり取りする手順について簡単に紹介する。
 なお [GnuPG] の導入と鍵の生成は完了しているものとする。
 
-- [GnuPG for Windows インストール編]({{< relref "openpgp/using-gnupg-for-windows-1.md" >}})
-    - [GnuPG for Windows : gpg-agent について]({{< relref "openpgp/using-gnupg-for-windows-2.md" >}})
-- [GnuPG チートシート（鍵作成から失効まで）]({{< relref "openpgp/gnupg-cheat-sheet.md" >}})
+- [GnuPG for Windows インストール編]({{< ref "/openpgp/using-gnupg-for-windows-1.md" >}})
+    - [GnuPG for Windows : gpg-agent について]({{< ref "/openpgp/using-gnupg-for-windows-2.md" >}})
+- [GnuPG チートシート（鍵作成から失効まで）]({{< ref "/openpgp/gnupg-cheat-sheet.md" >}})
 
 ## [Enigmail] の導入
 
@@ -69,7 +69,7 @@ tags = [ "openpgp", "security", "cryptography", "mua", "thunderbird", "messaging
 ここで失効証明書を作っておく[^rvk1]。
 `[失効証明書の生成]` ボタンを押して失効証明書を保存すると `[次へ]` ボタンが有効になる。
 
-[^rvk1]: 失効証明書は鍵を失効させる際に必要となる。失効した公開鍵を配布するのを忘れずに。詳しくは「[GnuPG チートシート（鍵作成から失効まで）]({{< relref "openpgp/gnupg-cheat-sheet.md" >}})」を参照のこと。
+[^rvk1]: 失効証明書は鍵を失効させる際に必要となる。失効した公開鍵を配布するのを忘れずに。詳しくは「[GnuPG チートシート（鍵作成から失効まで）]({{< ref "/openpgp/gnupg-cheat-sheet.md" >}})」を参照のこと。
 
 {{< fig-img src="https://farm2.staticflickr.com/1785/42997052861_13d6919259.jpg" title="Enigmail setup-wizard (6)" link="https://www.flickr.com/photos/spiegel/42997052861/" >}}
 

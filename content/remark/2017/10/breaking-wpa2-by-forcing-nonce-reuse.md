@@ -35,7 +35,7 @@ tags = [
 そこで WPA2 脆弱性の話と中性子星衝突を重力波望遠鏡で観測した話をまとめておく。
 
 今回は，世界中で大騒ぎになっている Wi-Fi の WPA2 認証に関する脆弱性について。
-[Bluetooth でやらかした]({{< relref "remark/2017/09/vulnerability-in-bluetooth-implementation.md" >}} "Bluetooth 実装の脆弱性に関する覚え書き")ばっかりなのに追い打ちですやん。
+[Bluetooth でやらかした]({{< ref "/remark/2017/09/vulnerability-in-bluetooth-implementation.md" >}} "Bluetooth 実装の脆弱性に関する覚え書き")ばっかりなのに追い打ちですやん。
 
 - [KRACK Attacks: Breaking WPA2](https://www.krackattacks.com/)
     - {{< pdf-file title="Key Reinstallation Attacks: Forcing Nonce Reuse in WPA2" link="https://papers.mathyvanhoef.com/ccs2017.pdf" >}}
@@ -91,7 +91,7 @@ Nonce （ノンスまたはナンスと読むらしい）ってのは暗号通�
 | 情報改ざんの可能性（完全性への影響, I） | 低（L）           |
 | 業務停止の可能性（可用性への影響, A）   | 低（L）           |
 
-CVSS については[解説ページ]({{< relref "remark/2015/cvss-v3-metrics-in-jvn.md" >}})を参照のこと。
+CVSS については[解説ページ]({{< ref "/remark/2015/cvss-v3-metrics-in-jvn.md" >}})を参照のこと。
 
 ## 影響を受ける製品
 
@@ -156,7 +156,7 @@ WPA2 がダメだからと言って WEP を使うのは事態を悪化させる�
 
 はっきりいってネットワーク機器のアップデートはあまり期待できない。
 とくに安ものの無線 LAN ルータとか，古い機種のスマホとかは事実上の放置プレイである。
-先月の [Bluetooth 脆弱性]({{< relref "remark/2017/09/vulnerability-in-bluetooth-implementation.md" >}} "Bluetooth 実装の脆弱性に関する覚え書き")に対応しなかったベンダ企業やその製品については，今回も何もないと考えたほうがいい。
+先月の [Bluetooth 脆弱性]({{< ref "/remark/2017/09/vulnerability-in-bluetooth-implementation.md" >}} "Bluetooth 実装の脆弱性に関する覚え書き")に対応しなかったベンダ企業やその製品については，今回も何もないと考えたほうがいい。
 
 はっきり言って Android 端末はもう潮時かなと思ってる。
 他の選択肢が Apple 製品しかないってのが業腹だけど（個人的に嫌いなんだよ）。

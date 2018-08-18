@@ -852,6 +852,6 @@ title = "Hello! Part 2"
 
 - [Hugoサイト構築 | Watanabe-DENKI Inc. 渡辺電気株式会社](http://wdkk.co.jp/lab/hugo/) : お勧め！
 
-[Hugo に関するブックマークはこちら]({{< ref "hugo/bookmark.md" >}})。
+[Hugo に関するブックマークはこちら]({{< ref "/hugo/bookmark.md" >}})。
 
 [Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"

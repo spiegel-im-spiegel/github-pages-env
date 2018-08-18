@@ -34,7 +34,7 @@ tags = ["tools", "openpgp", "golang", "gpgpdump"]
 - [RFC 4880], [RFC 5581] および [RFC 6637] をサポート
 - [Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
-[これまでの 0.1.x]({{< relref "remark/2016/02/gpgpdump-released.md" >}} "gpgpdump - OpenPGP packet visualizer") から全面的に書き換えた。
+[これまでの 0.1.x]({{< ref "/remark/2016/02/gpgpdump-released.md" >}} "gpgpdump - OpenPGP packet visualizer") から全面的に書き換えた。
 一応 60% くらいは元のコードは残ってるかな。
 不正パケットで [panic] になる状況はだいぶ減ったと思う。
 

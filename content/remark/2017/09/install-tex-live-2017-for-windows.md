@@ -479,7 +479,7 @@ $ ps2pdf14 -dPDFA -dPDFACompatibilityPolicy=1 -sProcessColorModel=DeviceCMYK cha
 - [TeX 覚え書き（upLaTeX から PDF/A まで） — Baldanders.info](http://www.baldanders.info/spiegel/log2/000731.shtml)
 - [LuaTeX の練習（About CC-License） — Baldanders.info](http://www.baldanders.info/spiegel/log2/000735.shtml)
 
-- [LuaTeX-ja に関する覚え書き]({{< relref "remark/2015/luatex-ja.md" >}})
+- [LuaTeX-ja に関する覚え書き]({{< ref "/remark/2015/luatex-ja.md" >}})
 
 [TeX Live]: http://www.tug.org/texlive/ "TeX Live - TeX Users Group"
 [LaTeX2ε美文書作成入門]: http://www.amazon.co.jp/exec/obidos/ASIN/4774187054/baldandersinf-22/ "Amazon | [改訂第7版]LaTeX2ε美文書作成入門 | 奥村 晴彦, 黒木 裕介 通販"

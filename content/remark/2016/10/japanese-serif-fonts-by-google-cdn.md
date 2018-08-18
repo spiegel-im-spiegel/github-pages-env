@@ -21,7 +21,7 @@ draft = false
   flattr = "spiegel"
 +++
 
-以前，[ここで使っている Web フォントの話]({{< relref "remark/2015/web-font-family.md" >}} "Web フォントに関する覚え書き")を書いた。
+以前，[ここで使っている Web フォントの話]({{< ref "/remark/2015/web-font-family.md" >}} "Web フォントに関する覚え書き")を書いた。
 実は今まで日本語の Serif （明朝体）フォントがどうにも気に食わなかったのだが，最近 Google の Early Access のページを見たら随分と日本語の書体が増えている気がする。
 
 - [Early Access - Google Fonts](https://fonts.google.com/earlyaccess)

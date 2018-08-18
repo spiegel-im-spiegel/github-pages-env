@@ -264,7 +264,7 @@ C:>git submodule update
 C:>go install ./...
 ```
 
-（「[Glide で Vendoring]({{< relref "golang/vendoring-with-glide.md" >}})」に続く）
+（「[Glide で Vendoring]({{< relref "vendoring-with-glide.md" >}})」に続く）
 
 ## ブックマーク
 
@@ -273,9 +273,9 @@ C:>go install ./...
 - [改めて、direnvを使いましょう！ - HDE BLOG](http://blog.hde.co.jp/entry/2015/02/27/182117)
 - [さくら - homeにgolang, direnv とvirtualenvを入れて動かす - Qiita](http://qiita.com/aminamid/items/5a0e9461385c80d0c8a6)
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[前回]: {{< ref "golang/project-based-development.md" >}} "プロジェクト・ベースの開発環境をつくる"
+[前回]: {{< relref "project-based-development.md" >}} "プロジェクト・ベースの開発環境をつくる"
 [gb]: http://getgb.io/ "gb - A project based build tool for Go"
 [direnv]: http://direnv.net/ "direnv - unclutter your .profile"

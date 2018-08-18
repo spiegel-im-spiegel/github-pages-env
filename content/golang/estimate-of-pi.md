@@ -30,10 +30,10 @@ draft = false
 ので早速試してみる。
 ちなみに「モンテカルロ法」というのは数値計算やシミュレーションに乱数を用いる手法をさす。
 
-1. [モンテカルロ法による円周率の推定（その1）]({{< relref "golang/estimate-of-pi.md" >}}) ← イマココ
-2. [モンテカルロ法による円周率の推定（その2 CLI）]({{< relref "golang/estimate-of-pi-2-cli.md" >}})
-3. [モンテカルロ法による円周率の推定（その3 Gaussian）]({{< relref "golang/estimate-of-pi-3-gaussian.md" >}})
-4. [モンテカルロ法による円周率の推定（その4 PRNG）]({{< relref "golang/estimate-of-pi-4-prng.md" >}})
+1. [モンテカルロ法による円周率の推定（その1）]({{< relref "estimate-of-pi.md" >}}) ← イマココ
+2. [モンテカルロ法による円周率の推定（その2 CLI）]({{< relref "estimate-of-pi-2-cli.md" >}})
+3. [モンテカルロ法による円周率の推定（その3 Gaussian）]({{< relref "estimate-of-pi-3-gaussian.md" >}})
+4. [モンテカルロ法による円周率の推定（その4 PRNG）]({{< relref "estimate-of-pi-4-prng.md" >}})
 
 ## モンテカルロ法による円周率の推定
 
@@ -192,7 +192,7 @@ $ go run main.go > plot-1.dat
 
 うーん。
 均等？ なのかなぁ。
-まぁ，この辺の評価については「[その3]({{< relref "golang/estimate-of-pi-3-gaussian.md" >}} "モンテカルロ法による円周率の推定（その3 Gaussian）")」以降で。
+まぁ，この辺の評価については「[その3]({{< relref "estimate-of-pi-3-gaussian.md" >}} "モンテカルロ法による円周率の推定（その3 Gaussian）")」以降で。
 
 最後に，生成した点の集合から円周率を推定するところまでやってみよう。
 `main()` 関数はこのように変える。
@@ -242,7 +242,7 @@ n = 100000, m = 78397, 4m/n = 3.13588
     - [golang complex(複素数)型の計算をする - Qiita](http://qiita.com/intelfike/items/f92f5c9ff2e515e16d47)
 - [GNUPLOTを用いたグラフ作成](http://www.cse.kyoto-su.ac.jp/~oomoto/lecture/program/gnuplot/gnuplot.html)
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`math/rand`]: https://golang.org/pkg/math/rand/ "rand - The Go Programming Language"

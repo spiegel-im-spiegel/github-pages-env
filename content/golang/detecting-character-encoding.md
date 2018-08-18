@@ -25,9 +25,9 @@ tags = ["golang", "character", "encoding", "transform"]
   mermaidjs = false
 +++
 
-以前に洒落で作った「[Markdown 形式のリンクを生成するツール]({{< relref "golang/make-link-with-markdown-format.md" >}} "Markdown 形式のリンクを生成するツールを作ってみた")」が思いのほか便利で重宝しているのだが，実際に使ってみると EUC-JP や Shift-JIS な日本語サイトが今だにあって，最初は手で修正していたのだが，だんだん面倒臭くなってきたので変換ロジックを入れることにした。
+以前に洒落で作った「[Markdown 形式のリンクを生成するツール]({{< relref "make-link-with-markdown-format.md" >}} "Markdown 形式のリンクを生成するツールを作ってみた")」が思いのほか便利で重宝しているのだが，実際に使ってみると EUC-JP や Shift-JIS な日本語サイトが今だにあって，最初は手で修正していたのだが，だんだん面倒臭くなってきたので変換ロジックを入れることにした。
 
-[文字エンコーディングを変換する]({{< relref "golang/transform-character-encoding.md" >}} "文字エンコーディング変換")のはいいのだが，そのためには元の文字列の文字エンコーディングが分かってないといけない。
+[文字エンコーディングを変換する]({{< relref "transform-character-encoding.md" >}} "文字エンコーディング変換")のはいいのだが，そのためには元の文字列の文字エンコーディングが分かってないといけない。
 HTML の中の "charset” を見て変換する手もあるのだが， HTML のバージョンによってお作法が違うし，そもそもそれが正しいとは限らない。
 あぁ，これみんな苦労してるやつだよね。
 
@@ -225,7 +225,7 @@ if err != nil {
 これで [saintfish/chardet] を使って文字エンコーディングを検出するコードがまるっと要らなくなったけど，いろいろと勉強になったので良しとしよう。
 そして [mattn/go-encoding] を導入したおかげで何気に対応する文字エンコードディングが増えてしまった（笑）
 
-というわけで「[Markdown 形式のリンクを生成するツール]({{< relref "golang/make-link-with-markdown-format.md" >}} "Markdown 形式のリンクを生成するツールを作ってみた")」の v0.1.10 が絶賛リリース中です。
+というわけで「[Markdown 形式のリンクを生成するツール]({{< relref "make-link-with-markdown-format.md" >}} "Markdown 形式のリンクを生成するツールを作ってみた")」の v0.1.10 が絶賛リリース中です。
 
 - [Release v0.1.10 · spiegel-im-spiegel/mklink · GitHub](https://github.com/spiegel-im-spiegel/mklink/releases/tag/v0.1.10)
 

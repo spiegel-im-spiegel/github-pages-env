@@ -45,7 +45,7 @@ ElGamal 署名は同じ鍵が使えるというだけでアルゴリズム自体
 まぁ，でも，公開鍵暗号といえば今でも RSA なイメージだし，そうなると「電子署名は公開鍵暗号の一種」という印象に引きずられるんだよなぁ。
 今後は気を付けよう。
 
-というわけで「[OpenPGP で利用可能なアルゴリズム]({{< relref "openpgp/algorithms-for-openpgp.md" >}})」の文言を少し変えてみた。
+というわけで「[OpenPGP で利用可能なアルゴリズム]({{< ref "/openpgp/algorithms-for-openpgp.md" >}})」の文言を少し変えてみた。
 本家で絶賛放置プレイになっている「[わかる！ OpenPGP 暗号](http://www.baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)」も内容が色々アレなのでいい加減書き直さないといけないんだけど，モチベーションが上がらないんだよねぇ[^openpgp1]。
 どうせ [RFC 4880bis] が正式版になったら書き直さないといけないし，もうしばらく放置でいいか。
 

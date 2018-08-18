@@ -80,4 +80,4 @@ Nexus 7 は最近はリビングパソコンになりつつあって，あまり
 
 ## 追記
 
-[マンガモデルに買い換えました]({{< relref "remark/2016/12/kindle-paperwhite-manga-version.md" >}})。
+[マンガモデルに買い換えました]({{< ref "/remark/2016/12/kindle-paperwhite-manga-version.md" >}})。

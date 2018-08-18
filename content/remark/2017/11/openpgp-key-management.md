@@ -25,4 +25,4 @@ image = "/images/attention/remark.jpg"
   mermaidjs = false
 +++
 
-(move to [{{< ref "openpgp/openpgp-key-management.md" >}}]({{< ref "openpgp/openpgp-key-management.md" >}} "OpenPGP 鍵管理に関する考察"))
+(move to [{{< ref "/openpgp/openpgp-key-management.md" >}}]({{< ref "/openpgp/openpgp-key-management.md" >}} "OpenPGP 鍵管理に関する考察"))

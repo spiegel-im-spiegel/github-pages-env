@@ -95,7 +95,7 @@ title = "二次的著作物と CC Licenses"
 
 なお [CC Licenses] では「表示 <i class="fab fa-creative-commons-by"></i>」条件が必須になっているため，翻案物およびその複製や翻案物に対しても原著作者のクレジット表示が必要になる[^attr]。
 
-[^attr]: クレジット表示については[前に書いた記事]({{< relref "cc-licenses/02-creative-commons-licenses.md#attribution" >}})を参照のこと。
+[^attr]: クレジット表示については[前に書いた記事]({{< ref "/cc-licenses/02-creative-commons-licenses.md#attribution" >}})を参照のこと。
 
 ## Copyleft のすすめ{#cl}
 
@@ -128,7 +128,7 @@ title = "二次的著作物と CC Licenses"
 [CC Licenses] の使われ方を見ても，[2015年時点](https://stateof.creativecommons.org/2015/)では「[表示-継承]」条件が37%で最も多い。
 この機会に検討してみてはいかがだろうか。
 
-なお [CC Licenses] は[「公正な利用（fair use）」や「著作権の制限」]({{< relref "cc-licenses/01-copyright.md#fair-use" >}})として利用が認められていることに対しては効力が及ばないため， [CC Licenses] の条件に関わらず利用可能である。
+なお [CC Licenses] は[「公正な利用（fair use）」や「著作権の制限」]({{< ref "/cc-licenses/01-copyright.md#fair-use" >}})として利用が認められていることに対しては効力が及ばないため， [CC Licenses] の条件に関わらず利用可能である。
 
 ## パロディについて{#parody}
 
@@ -184,7 +184,7 @@ title = "二次的著作物と CC Licenses"
 {{< /fig-quote >}}
 
 などとしているが，翻案は「二次創作文化」だけではなく日常生活の広い範囲に関わる「活動」である。
-「[著作権と著作権法]({{< relref "cc-licenses/01-copyright.md" >}})」でも書いたが，ユーザを無視した知財政策を続けていると本当に「ガラパゴス」になっちゃうよ。
+「[著作権と著作権法]({{< ref "/cc-licenses/01-copyright.md" >}})」でも書いたが，ユーザを無視した知財政策を続けていると本当に「ガラパゴス」になっちゃうよ。
 
 ## 「改変禁止」が意図するもの{#nd}
 

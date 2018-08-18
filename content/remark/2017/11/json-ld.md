@@ -25,7 +25,7 @@ tags        = [ "site", "semantic ", "web", "metadata", "json" ]
   mermaidjs = false
 +++
 
-以前，このサイトを [Twitter Cards に対応させた]({{< relref "remark/2017/10/twitter-card-metadata.md" >}} "Twitter Card メタデータに対応した")のだが，今回も思いつきで [JSON-LD] に対応させることにした。
+以前，このサイトを [Twitter Cards に対応させた]({{< ref "/remark/2017/10/twitter-card-metadata.md" >}} "Twitter Card メタデータに対応した")のだが，今回も思いつきで [JSON-LD] に対応させることにした。
 
 - [JSON-LD - JSON for Linking Data](https://json-ld.org/)
 

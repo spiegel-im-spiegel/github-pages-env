@@ -40,7 +40,7 @@ title = "年始スペシャル：2016年から公有になった作品の著作�
 <blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">乱歩、谷崎に隠れがちですが、米川正夫の翻訳がパブリックドメイン入りすることに大変注目しています。トルストイ、ドストエフスキー、ツルゲーネフ、プーシキンら、ロシア文学の大作家の膨大な作品の日本語訳がPDになる。大きな意味があります。 <a href="https://t.co/74RNz7GYBP">https://t.co/74RNz7GYBP</a></p>&mdash; 丹治吉順 aka 朝P (@tanji_y) <a href="https://twitter.com/tanji_y/status/682689790978859008">2015, 12月 31</a></blockquote>
 
 江戸川乱歩や谷崎潤一郎って今年からなんだねぇ。
-[Anne Frank の作品]({{< relref "remark/2015/anne-frank-scandal.md" >}})も公有になったようだ。
+[Anne Frank の作品]({{< ref "/remark/2015/anne-frank-scandal.md" >}})も公有になったようだ。
 
 - [Anne Frank's diary is in the public domain; editors aren't co-authors / Boing Boing](http://boingboing.net/2016/01/02/anne-franks-diary-is-in-the.html)
 - [アンネ・フランク財団の主張は認められず『アンネの日記』はパブリックドメイン入り（ついでに書くとアドルフ・ヒトラー『我が闘争』も） - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20160104/annefrank)

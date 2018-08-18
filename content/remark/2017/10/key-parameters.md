@@ -24,7 +24,7 @@ tags = ["security", "cryptography", "hash", "risk", "management"]
   mermaidjs = false
 +++
 
-「[ECDSA鍵をGitHubで使う方法](https://qiita.com/darai0512/items/c7b47d1b3fe06c4dea7d)」で SP 800-56 が Rev.4 になってるのを見て一瞬「ふぁ！」となったが，よく考えたら今年始めに書いた「[最初の SHA-1 衝突例]({{< relref "remark/2017/02/sha-1-collision.md" >}})」では既に Rev.4 を参照していたのだった。
+「[ECDSA鍵をGitHubで使う方法](https://qiita.com/darai0512/items/c7b47d1b3fe06c4dea7d)」で SP 800-56 が Rev.4 になってるのを見て一瞬「ふぁ！」となったが，よく考えたら今年始めに書いた「[最初の SHA-1 衝突例]({{< ref "/remark/2017/02/sha-1-collision.md" >}})」では既に Rev.4 を参照していたのだった。
 でも古い記事を見返したら結構 Rev.3 のままになってるので，このさい全部アップデートすることにした。
 
 この記事は将来の記事で再利用するための snippet 置き場として使うことにする。
@@ -211,7 +211,7 @@ main table.nist4 td  {
 
 ## OpenPGP で利用可能なアルゴリズム
 
-この項は「[OpenPGP で利用可能なアルゴリズム]({{< relref "openpgp/algorithms-for-openpgp.md" >}})」に移動した。
+この項は「[OpenPGP で利用可能なアルゴリズム]({{< ref "/openpgp/algorithms-for-openpgp.md" >}})」に移動した。
 
 ## パスワードの強度
 
@@ -272,8 +272,8 @@ main table.nist4 td  {
     - {{< pdf-file title="CRYPTREC暗号技術ガイドライン(SHA-1)" link="http://www.cryptrec.go.jp/report/c13_tech_guideline_SHA-1_web.pdf" >}}
 - [scryptがGPUに破られる時 | びりあるの研究ノート](https://blog.visvirial.com/articles/519)
 
-- [最初の SHA-1 衝突例]({{< relref "remark/2017/02/sha-1-collision.md" >}})
-- [「パスワードのベストプラクティス」が変わる]({{< relref "remark/2017/10/changes-in-password-best-practices.md" >}})
+- [最初の SHA-1 衝突例]({{< ref "/remark/2017/02/sha-1-collision.md" >}})
+- [「パスワードのベストプラクティス」が変わる]({{< ref "/remark/2017/10/changes-in-password-best-practices.md" >}})
 
 [NIST]: https://www.nist.gov/ "National Institute of Standards and Technology | NIST"
 [RFC 4880]: https://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"

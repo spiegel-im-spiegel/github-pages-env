@@ -21,4 +21,4 @@ title = "Git Commit で OpenPGP 署名を行う"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
-(move to [{{< ref "openpgp/git-commit-with-openpgp-signature.md" >}}]({{< ref "openpgp/git-commit-with-openpgp-signature.md" >}} "Git Commit で OpenPGP 署名を行う"))
+(move to [{{< ref "/openpgp/git-commit-with-openpgp-signature.md" >}}]({{< ref "/openpgp/git-commit-with-openpgp-signature.md" >}} "Git Commit で OpenPGP 署名を行う"))

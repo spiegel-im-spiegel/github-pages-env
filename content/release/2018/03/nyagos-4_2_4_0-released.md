@@ -73,7 +73,7 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 
 - [一見、NYAGOSの不具合に見える事例について（随時追記） - Qiita](https://qiita.com/zetamatta/items/441ff50da7c8f3338260)
 
-- [ようやく ConEmu と NYAGOS を導入した]({{< relref "remark/2015/conemu-and-nyagos.md">}})
-- [NYAGOS で Lua]({{< relref "remark/2015/nyagos-and-lua.md">}})
+- [ようやく ConEmu と NYAGOS を導入した]({{< ref "/remark/2015/conemu-and-nyagos.md">}})
+- [NYAGOS で Lua]({{< ref "/remark/2015/nyagos-and-lua.md">}})
 
 [NYAGOS]: https://github.com/zetamatta/nyagos/ "zetamatta/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"

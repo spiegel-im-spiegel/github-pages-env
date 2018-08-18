@@ -42,7 +42,7 @@ vgo サポートについての詳細は以下を参考にするといいだろ�
 
 なお vgo の考え方については以下を参考にどうぞ。
 
-- [vgo (Versioned Go) に関する覚え書き]({{< relref "golang/go-and-versioning.md" >}})
+- [vgo (Versioned Go) に関する覚え書き]({{< ref "/golang/go-and-versioning.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 

@@ -21,4 +21,4 @@ title = "GnuPG for Windows ― gpg-agent について"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
-(move to [{{< ref "openpgp/using-gnupg-for-windows-2.md" >}}]({{< ref "openpgp/using-gnupg-for-windows-2.md" >}} "GnuPG for Windows : gpg-agent について"))
+(move to [{{< ref "/openpgp/using-gnupg-for-windows-2.md" >}}]({{< ref "/openpgp/using-gnupg-for-windows-2.md" >}} "GnuPG for Windows : gpg-agent について"))

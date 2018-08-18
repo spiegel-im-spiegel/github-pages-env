@@ -33,7 +33,7 @@ description = "「常識」は「知能（intelligence）」というより「�
 
 「トロッコ問題」については以前に言及した。
 
-- [AI は「トロッコ問題」をどう解くか]({{< relref "remark/2016/10/artificial-intelligence.md#trolley-problem" >}})
+- [AI は「トロッコ問題」をどう解くか]({{< ref "/remark/2016/10/artificial-intelligence.md#trolley-problem" >}})
 
 「トロッコ問題」のポイントは「正解が存在しない」ことにある。
 ゆえにヒトは葛藤し（どちらを選んでも）後悔するのだ。
@@ -74,7 +74,7 @@ description = "「常識」は「知能（intelligence）」というより「�
 - [対話する「未来論」：イスラームの宗教と脳の機能は交差する。](http://30th.rcast.u-tokyo.ac.jp/future/future01.html)
 - [人工知能を「正しい道」へと導くのは誰か──学会で語られたAIの倫理への懸念｜WIRED.jp](https://wired.jp/2018/01/04/ai-seeks-an-ethical-conscience/)
 
-- [人工知能は「ハイル・ヒトラー」と叫ぶか]({{< relref "remark/2015/artificial-intelligence.md" >}})
-- [「ピノキオ」と AI]({{< relref "remark/2016/08/pinocchio.md" >}})
-- [AI は人（の良心）を殺すか？]({{< relref "remark/2016/10/artificial-intelligence.md" >}})
-- [ゲーム AI の本領]({{< relref "remark/2017/01/game-ai.md" >}})
+- [人工知能は「ハイル・ヒトラー」と叫ぶか]({{< ref "/remark/2015/artificial-intelligence.md" >}})
+- [「ピノキオ」と AI]({{< ref "/remark/2016/08/pinocchio.md" >}})
+- [AI は人（の良心）を殺すか？]({{< ref "/remark/2016/10/artificial-intelligence.md" >}})
+- [ゲーム AI の本領]({{< ref "/remark/2017/01/game-ai.md" >}})

@@ -86,7 +86,7 @@ prog.go:7: cannot use strlist (type []string) as type []interface {} in argument
 type Msg []string
 ```
 
-のように配列やポインタも型として定義できてしまうことを[思い出して]({{< relref "golang/object-oriented-programming.md" >}})欲しい。
+のように配列やポインタも型として定義できてしまうことを[思い出して]({{< relref "object-oriented-programming.md" >}})欲しい。
 
 じゃあ，明示的なキャストならいけるのかと思ったが
 
@@ -151,7 +151,7 @@ alpha beta gamma
 - [Why Go is a poorly designed language — Medium](https://medium.com/@tucnak/why-go-is-a-poorly-designed-language-1cc04e5daf2#.ucutrogyz) （[日本語訳](http://postd.cc/why-go-is-a-poorly-designed-language/)）
 - [InterfaceSlice · golang/go Wiki](https://github.com/golang/go/wiki/InterfaceSlice)
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [slice]: http://golang.org/ref/spec#Slice_types

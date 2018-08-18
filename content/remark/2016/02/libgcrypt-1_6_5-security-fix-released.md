@@ -62,7 +62,7 @@ CVSS については[デモページ](http://www.baldanders.info/spiegel/archive
 
 - [Libgcrypt] を利用する [GnuPG] 2.x (stable および modern バージョン)
 
-Windows 版 [GnuPG] については [2.1.11]({{< relref "remark/2016/01/30-stories.md#gpg" >}}) の 20160209 版がリリースされているので入れ替えること。
+Windows 版 [GnuPG] については [2.1.11]({{< ref "/remark/2016/01/30-stories.md#gpg" >}}) の 20160209 版がリリースされているので入れ替えること。
 
 [GnuPG] や [Libgcrypt] はよく研究対象にされるので，今回のような脆弱性報告は割とあるのだが，他の暗号実装（たとえば OpenSSL とか）はどうなんだろうと心配になる。
 実際どうなんだろう。

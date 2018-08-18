@@ -21,9 +21,9 @@ title = "MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 
-1. [MSYS2 のインストールから初期化処理まで]({{< relref "remark/2016/03/gcc-msys2-1.md" >}})
-2. [gcc パッケージ群の導入]({{< relref "remark/2016/03/gcc-msys2-2.md" >}}) （← イマココ）
-3. [pgpdump をビルドする]({{< relref "remark/2016/03/gcc-msys2-3.md" >}})
+1. [MSYS2 のインストールから初期化処理まで]({{< ref "/remark/2016/03/gcc-msys2-1.md" >}})
+2. [gcc パッケージ群の導入]({{< ref "/remark/2016/03/gcc-msys2-2.md" >}}) （← イマココ）
+3. [pgpdump をビルドする]({{< ref "/remark/2016/03/gcc-msys2-3.md" >}})
 
 いよいよ gcc をインストールする。
 その前に...
@@ -193,8 +193,8 @@ If you create a 32-bit binary with the TDM64 edition, it will use SJLJ exception
 [次回]は実際にビルドを行う。
 
 [MSYS2]: http://msys2.github.io/ "MSYS2 installer"
-[前回]: {{< relref "remark/2016/03/gcc-msys2-1.md" >}} "MSYS2 による gcc 開発環境の構築 ― インストールから初期化処理まで"
-[次回]: {{< relref "remark/2016/03/gcc-msys2-3.md" >}} "MSYS2 による gcc 開発環境の構築 ― pgpdump をビルドする"
+[前回]: {{< ref "/remark/2016/03/gcc-msys2-1.md" >}} "MSYS2 による gcc 開発環境の構築 ― インストールから初期化処理まで"
+[次回]: {{< ref "/remark/2016/03/gcc-msys2-3.md" >}} "MSYS2 による gcc 開発環境の構築 ― pgpdump をビルドする"
 [ConEmu]: https://conemu.github.io/ "ConEmu - Handy Windows Terminal"
 [MinGW-w64]: http://mingw-w64.org/ "Mingw-w64 - GCC for Windows 64 & 32 bits [mingw-w64]"
 [TDM-GCC]: http://tdm-gcc.tdragon.net/ "TDM-GCC"

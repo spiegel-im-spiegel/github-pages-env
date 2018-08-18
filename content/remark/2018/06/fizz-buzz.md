@@ -56,7 +56,7 @@ tags        = [ "programming", "language" ]
 
 学校教育の問題でも習慣の問題でもなく読解力の弱い人は一定数いる。
 これについて端的に語られているのが『[AI vs. 教科書が読めない子どもたち]』であろう。
-（[感想文]({{< relref "remark/2018/02/artificial-intelligence-book.md" >}} "『AI vs. 教科書が読めない子どもたち』を読む")にも書いたが）この本に書かれている将来予測はともかく，読解力に対する調査結果は非常に興味深い。
+（[感想文]({{< ref "/remark/2018/02/artificial-intelligence-book.md" >}} "『AI vs. 教科書が読めない子どもたち』を読む")にも書いたが）この本に書かれている将来予測はともかく，読解力に対する調査結果は非常に興味深い。
 以下に一部を挙げてみる。
 
 {{% fig-quote title="AI vs. 教科書が読めない子どもたち" link="https://www.amazon.co.jp/exec/obidos/ASIN/B0791XCYQG/baldandersinf-22/" %}}
@@ -198,18 +198,18 @@ int main() {
 ロートル・エンジニアから見ると auto 変数めっさ便利（笑）
 でも if 文や for 文の式を括弧で括るのかったるいし，型を前置するの違和感が半端ない。
 
-[^gcc1]: 手元では C++ コードの動作確認を [MinGW-w64 Windows版]({{< relref "remark/2018/03/mingw-w64.md" >}} "MinGW-w64 を導入する")の GCC 7.3 でコンパイルしたバイナリで行った。
+[^gcc1]: 手元では C++ コードの動作確認を [MinGW-w64 Windows版]({{< ref "/remark/2018/03/mingw-w64.md" >}} "MinGW-w64 を導入する")の GCC 7.3 でコンパイルしたバイナリで行った。
 
-今ふと思ったが，私の[母国語]({{< relref "remark/2015/programming-language.md" >}})って既に [Go 言語]になってるな。
+今ふと思ったが，私の[母国語]({{< ref "/remark/2015/programming-language.md" >}})って既に [Go 言語]になってるな。
 Fizz Buzz のコードを脳内で記述するときに [Go 言語]で考えてたもんな。
 この歳になって母国語が変わるとか結構すごいことなんじゃないだろうか。
 
 
 ## ブックマーク
 
-- [「だれもがプログラミングを学ぶべき」ではない]({{< relref "remark/2016/05/lets-programming.md" >}})
-- [プログラミングで「計算論的思考」は身につかない]({{< relref "remark/2016/09/programming.md" >}})
-- [AI の読解力，人の読解力]({{< relref "remark/2016/11/reading-comprehension.md" >}})
+- [「だれもがプログラミングを学ぶべき」ではない]({{< ref "/remark/2016/05/lets-programming.md" >}})
+- [プログラミングで「計算論的思考」は身につかない]({{< ref "/remark/2016/09/programming.md" >}})
+- [AI の読解力，人の読解力]({{< ref "/remark/2016/11/reading-comprehension.md" >}})
 
 [AI vs. 教科書が読めない子どもたち]: https://www.amazon.co.jp/exec/obidos/ASIN/B0791XCYQG/baldandersinf-22/ "Amazon.co.jp： ＡＩ　ｖｓ．　教科書が読めない子どもたち eBook: 新井 紀子: Kindleストア"
 [Go 言語]: https://golang.org/ "The Go Programming Language"

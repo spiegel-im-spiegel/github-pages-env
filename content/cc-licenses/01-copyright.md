@@ -121,7 +121,7 @@ title = "著作権と著作権法"
 
 [^cc]: ただし，全てのゲームが「映画の著作物」となるわけではない（参考： [ビデオ・ゲームの中古販売と著作権法](http://www.ben.li/essay/Second-handed-game.html)）。
 
-「二次的著作物」については「[二次的著作物と CC-Licenses]({{< relref "cc-licenses/04-derivative-works.md" >}})」で改めて紹介する。
+「二次的著作物」については「[二次的著作物と CC-Licenses]({{< ref "/cc-licenses/04-derivative-works.md" >}})」で改めて紹介する。
 
 例外として，以下のものには著作権は適用されない（[著作権法] 第13条）。
 
@@ -270,7 +270,7 @@ title = "著作権と著作権法"
 ある利用パターンが社会的に見て「公正」であれば認めようというものだ。
 実際にどのような場合に認められるかは司法の場で議論されることが多い[^fu]。
 
-[^fu]: 米国の fair use では「利用の目的や本質」「原作品の本質」「抜粋の量や実質性」「原作品の価値への影響」の4つの観点に基づいて「公正」かどうかが議論される。最近の例としては [Google Books の Library Book Scan に関する訴訟]({{< relref "remark/2015/google-books-library-project.md" >}})が参考になる。
+[^fu]: 米国の fair use では「利用の目的や本質」「原作品の本質」「抜粋の量や実質性」「原作品の価値への影響」の4つの観点に基づいて「公正」かどうかが議論される。最近の例としては [Google Books の Library Book Scan に関する訴訟]({{< ref "/remark/2015/google-books-library-project.md" >}})が参考になる。
 
 一方日本では，「公正な利用」というものは存在しない。
 その代わり[著作権法]では「著作権の制限」（第30-50条）を設けている。

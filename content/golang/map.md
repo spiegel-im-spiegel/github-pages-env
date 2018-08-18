@@ -120,7 +120,7 @@ Earth 1
 ```
 
 ちなみに `for range` 構文で [map] を使う場合，取り出しの順番は不定になる[^rnd]。
-例えば，アルファベット順に取り出したければ以下のようにキーを[ソート]({{< relref "golang/sort.md" >}} "ソートを使う")した配列を用意する。
+例えば，アルファベット順に取り出したければ以下のようにキーを[ソート]({{< relref "sort.md" >}} "ソートを使う")した配列を用意する。
 
 [^rnd]: 言語仕様上定義されていないという意味ではなく，意図的に乱択されるらしい。
 
@@ -459,7 +459,7 @@ p1 != p2
 - [golangのequalityの評価について - podhmo's diary](http://pod.hatenablog.com/entry/2016/07/30/204357)
 - [Goで違うmapであることをテストする - Qiita](https://qiita.com/karupanerura/items/03d6766fd8568c15fc90)
 
-- [配列と Slice]({{< relref "golang/array-and-slice.md" >}})
+- [配列と Slice]({{< relref "array-and-slice.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [map]: http://golang.org/ref/spec#Map_types

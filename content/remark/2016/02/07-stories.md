@@ -55,7 +55,7 @@ Windwos 10 のように継続的に改良を続けていくならともかく，
 
 昨年から続く Windows 10 への強引なアップグレード要請も鼻についていたが（ちなみにボリュームライセンスではアップグレード要請は出ない）
 
-- [また Windows 10 にヤラレタ（KB3112343 の恐怖）]({{< relref "remark/2015/windows-10-upgrade-problem.md" >}})
+- [また Windows 10 にヤラレタ（KB3112343 の恐怖）]({{< ref "/remark/2015/windows-10-upgrade-problem.md" >}})
 - [MS、「Windows 10」を「推奨される」更新プログラムとして提供開始 - CNET Japan](http://japan.cnet.com/news/service/35077208/)
 - [Windows 7／8.1→Windows 10が“推奨される更新”に - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1602/02/news081.html)
 

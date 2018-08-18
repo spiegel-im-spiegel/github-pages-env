@@ -76,7 +76,7 @@ Amazon Drive の “send-to-kindle” フォルダにぶち込めば楽々♪
 当然ながら「9.11 以後」については言及がない。
 「9.11 以後」の国際政治および軍事の風景はガラッと変わった。
 近代先進国と新興国以外の第3国も核を持てるに至り，核による抑止力が緩みつつある。
-中東を中心とした地域はまた[100年前]({{< relref "remark\2016\07\02-stories.md#sp" >}})を繰り返そうとしている。
+中東を中心とした地域はまた[100年前]({{< ref "/remark\2016\07\02-stories.md#sp" >}})を繰り返そうとしている。
 
 でも「9.11 以後」を盛り込んだとしても論旨は殆ど変わらないと思う。
 改憲云々の議論が盛んだが，まずはこれを読んで，これから先の未来における power balance をどう設計していくのか考えていけばいいと思う。
@@ -119,7 +119,7 @@ Amazon Drive の “send-to-kindle” フォルダにぶち込めば楽々♪
 
 ### 「ヒトは誰かがいてはじめて自分を証明できる」（By “BOOM TOWN”）
 
-人工知能「B」は哲学者が言うところの「[強い人工知能]({{< relref "remark/2017/09/the-myth-of-the-singularity.md" >}} "『シンギュラリティの神話』を読む")」である[^sm1]。
+人工知能「B」は哲学者が言うところの「[強い人工知能]({{< ref "/remark/2017/09/the-myth-of-the-singularity.md" >}} "『シンギュラリティの神話』を読む")」である[^sm1]。
 
 [^sm1]: 「[Spiegelさんへの回答。](http://d.hatena.ne.jp/ced/20171015/1508027814 "Spiegelさんへの回答。 - 雑記帳")」で指摘していただいて気がついたけど，この記事では「スマートな機械」と「強い人工知能」を対置するように記述してしまっているが，哲学的には「強い人工知能」に対置されるのは「弱い人工知能（＝そもそもの意味での人工知能）」となる。私が「スマートな機械」と書くのはビジネス用語としての「AI」に対する強烈な皮肉である（参考：[「AIを搭載」は「全て自然」同様の技術的ナンセンスだ | TechCrunch Japan](http://jp.techcrunch.com/2017/01/11/20170110ai-powered-is-techs-meaningless-equivalent-of-all-natural/)）
 
@@ -223,15 +223,15 @@ P2P ネットワークは「中央集権的ネットワーク」であるイン�
 
 - [「グリゴリの捕縛」に関する公開往復書簡](http://orion.mt.tama.hosei.ac.jp/hideaki/kenpoletter.htm)
 
-- [AI は「トロッコ問題」をどう解くか]({{< relref "remark/2016/10/artificial-intelligence.md#trolley-problem" >}})
-- [『シンギュラリティの神話』を読む]({{< relref "remark/2017/09/the-myth-of-the-singularity.md" >}})
-- [『法のデザイン』を斜め読みした]({{< relref "remark/2017/05/legal-design-book.md" >}})
-- [孵卵器の中のインターネット]({{< relref "remark/2017/01/internet-in-the-incubator.md" >}})
+- [AI は「トロッコ問題」をどう解くか]({{< ref "/remark/2016/10/artificial-intelligence.md#trolley-problem" >}})
+- [『シンギュラリティの神話』を読む]({{< ref "/remark/2017/09/the-myth-of-the-singularity.md" >}})
+- [『法のデザイン』を斜め読みした]({{< ref "/remark/2017/05/legal-design-book.md" >}})
+- [孵卵器の中のインターネット]({{< ref "/remark/2017/01/internet-in-the-incubator.md" >}})
 - [“The Shadow Web” — Baldanders.info](http://www.baldanders.info/spiegel/log2/000599.shtml)
 
 
 [グリゴリの捕縛]: http://orion.mt.tama.hosei.ac.jp/hideaki/kenporon.htm "グリゴリの捕縛 あるいは 情報時代の憲法について"
-[シンギュラリティの神話]: {{< relref "remark/2017/09/the-myth-of-the-singularity.md" >}} "『シンギュラリティの神話』を読む"
+[シンギュラリティの神話]: {{< ref "/remark/2017/09/the-myth-of-the-singularity.md" >}} "『シンギュラリティの神話』を読む"
 [ced]: http://d.hatena.ne.jp/ced/ "雑記帳"
 [Dynalist]: https://dynalist.io/
 

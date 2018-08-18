@@ -49,7 +49,7 @@ C:>go run string01.go
 nihongo = 9 bytes : e6 97 a5 e6 9c ac e8 aa 9e
 ```
 
-[^1]: ちなみに [Go 言語]で取り扱う文字列の文字エンコーディングは UTF-8 が既定である。ソースコードがそもそも UTF-8 を要求しているし（つまりリテラルの文字列はかならず UTF-8 になる）， [string] と [rune] の相互変換も文字列が UTF-8 であることを前提にしている。しかし，実際には [string] の実体はただの byte 配列であり，中身が UTF-8 文字列であることを保証しているわけではない。通常は，未知の文字列についてはいったん byte 配列に格納しておいて，何らかの方法で UTF-8 に変換してから [string] にキャストするのが安全である（または各文字エンコーディング用の独自 type を作るか）。なお，文字エンコーディングの変換については[別の記事]({{< ref "golang/transform-character-encoding.md" >}} "文字エンコーディング変換")で改めて紹介する。
+[^1]: ちなみに [Go 言語]で取り扱う文字列の文字エンコーディングは UTF-8 が既定である。ソースコードがそもそも UTF-8 を要求しているし（つまりリテラルの文字列はかならず UTF-8 になる）， [string] と [rune] の相互変換も文字列が UTF-8 であることを前提にしている。しかし，実際には [string] の実体はただの byte 配列であり，中身が UTF-8 文字列であることを保証しているわけではない。通常は，未知の文字列についてはいったん byte 配列に格納しておいて，何らかの方法で UTF-8 に変換してから [string] にキャストするのが安全である（または各文字エンコーディング用の独自 type を作るか）。なお，文字エンコーディングの変換については[別の記事]({{< relref "transform-character-encoding.md" >}} "文字エンコーディング変換")で改めて紹介する。
 
 （[string] なんて名前なのに）文字単位で情報を保持しているわけではないため，最初の2文字を取り出すつもりでうっかり
 
@@ -158,7 +158,7 @@ nippon = 日本
 - [Goでマルチバイトが混在した文字列をtruncateする - Qiita](http://qiita.com/hokaccha/items/3d3f45b5927b4584dbac)
 - [Go で UTF-8 の文字列を扱う - Qiita](http://qiita.com/masakielastic/items/01a4fb691c572dd71a19)
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [string]: http://golang.org/ref/spec#String_types

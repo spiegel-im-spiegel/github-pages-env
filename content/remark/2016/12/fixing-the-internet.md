@@ -65,7 +65,7 @@ Xanadu については以下の記事が参考になるだろう。
 
 - [その画像は誰のもの？　Mediachainが画像の帰属を検索できるアトリビューション・エンジンを公開 | ビットコインの最新情報 BTCN｜ビットコインニュース](http://btcnews.jp/mediachain-attribution-engine/)
 
-このタイプの DRM (Digital Rights Management) については拙文「[CC Licenses における「技術的保護手段」の扱い]({{< relref "cc-licenses/05-technological-measures.md" >}})」でも取り上げた。
+このタイプの DRM (Digital Rights Management) については拙文「[CC Licenses における「技術的保護手段」の扱い]({{< ref "/cc-licenses/05-technological-measures.md" >}})」でも取り上げた。
 
 > もうひとつは DRM が「監視型」に移行したことである。「電子透かし」や「電子指紋」を使ってネット上に流通するコンテンツを比較的容易に監視できるようになった。これがうまく機能すれば一般ユーザのネット上での活動を妨げることなく悪質なものだけを排除することができる。
 
@@ -90,7 +90,7 @@ Xanadu については以下の記事が参考になるだろう。
 
 暗号化メッセージングについては以下で言及しているので，ここでは割愛する。
 
-- [PGP ってゆーな！]({{< relref "remark/2016/12/do-not-call-it-pgp.md" >}})
+- [PGP ってゆーな！]({{< ref "/remark/2016/12/do-not-call-it-pgp.md" >}})
 
 ぶっちゃけサーバ間でバケツリレーするメッセージング・サービスは（spam も含めて）攻撃の対象になりやすい。
 伝統的な「電子メール」はゆるゆると役目を終えていくと思うよ。
@@ -114,7 +114,7 @@ Xanadu については以下の記事が参考になるだろう。
 これはプログラミング言語でも同様[^pr]。
 
 [^cr]: 故に暗号システムを実装する際には必ず複数のアルゴリズムを実装または実装可能にする必要がある。
-[^pr]: もちろんプログラミング言語側でも努力をしているよ。先日紹介した「[null 安全]({{< relref "remark/2016/11/null-safety.md" >}} "「null 安全」について")」もうそうした努力のひとつである。
+[^pr]: もちろんプログラミング言語側でも努力をしているよ。先日紹介した「[null 安全]({{< ref "/remark/2016/11/null-safety.md" >}} "「null 安全」について")」もうそうした努力のひとつである。
 
 これはぜひ肝に銘じておいた方がいいと思うが，コンピュータ・ネットワークのセキュリティに関しては常に攻撃者の方が有利なのである。
 不利な戦いを何とか凌ぐにはチップに籠城するよりは攻撃者に適応してこちらも動的に力を付けていくしかない。
@@ -156,7 +156,7 @@ Bitcoin というか Blockchain を使う以上，認証および否認防止は
 - [RFC 6962 - Certificate Transparency](https://tools.ietf.org/html/rfc6962)
     - [Certificate Transparency | GMOグローバルサインブログ](https://jp.globalsign.com/blog/2014/certificate_transparency.html)
     - [Google による OpenPGP 鍵配送の解決提案 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000785.shtml)
-- [Blockchain と Smart Contract]({{< relref "remark/2016/01/blockchain-and-smart-contract.md" >}})
+- [Blockchain と Smart Contract]({{< ref "/remark/2016/01/blockchain-and-smart-contract.md" >}})
 
 [yomoyomo さんの記事]: http://d.hatena.ne.jp/yomoyomo/20161226/walterisaacson "ウォルター・アイザックソン「インターネットは壊れている。初めからやり直すなら、私はこのようにそれを正す」 - YAMDAS現更新履歴"
 [Fixing The Internet]: http://avc.com/2016/12/fixing-the-internet/ "Fixing The Internet – AVC"

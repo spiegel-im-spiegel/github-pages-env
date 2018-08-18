@@ -62,7 +62,7 @@ tags = [
 
 - メールの暗号化や復号については [Thunderbird](https://www.mozilla.org/thunderbird/)＋[Enigmail](https://addons.mozilla.org/thunderbird/addon/enigmail/) でも行うことができる
 - Gmail や Outlook.com といった Web メール用に [Mailvelope](https://www.mailvelope.com/) という製品がある。こちらは [GnuPG] ではなく [OpenPGP.js] を使っている。 Chrome や Firefox の拡張機能として機能し，メールの暗号化や復号を行う。 Google も Chrome 拡張として [E2EMail](https://github.com/e2email-org/e2email "e2email-org/e2email: E2EMail is a simple Chrome application - a Gmail client that exchanges OpenPGP mail.") を公開しているが [Mailvelope](https://www.mailvelope.com/) のほうが先んじている印象だ
-- [Git for Windows](https://git-for-windows.github.io/) は commit への電子署名に内部で [GnuPG] を呼び出す（「[Git Commit で OpenPGP 署名を行う]({{< relref "remark/2016/04/git-commit-with-openpgp-signature.md" >}})」を参照）
+- [Git for Windows](https://git-for-windows.github.io/) は commit への電子署名に内部で [GnuPG] を呼び出す（「[Git Commit で OpenPGP 署名を行う]({{< ref "/remark/2016/04/git-commit-with-openpgp-signature.md" >}})」を参照）
 
 とまぁ，地味ながら Windows でも [GnuPG] は活躍してますよ，ということで。
 
@@ -71,8 +71,8 @@ tags = [
 - [グーグルのメール暗号化Chromeアプリケーション「E2EMail」がオープンソースに - ZDNet Japan](https://japan.zdnet.com/article/35097359/)
 
 - [わかる！ OpenPGP 暗号](http://www.baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
-- [GnuPG for Windows ― インストール編]({{< relref "remark/2016/03/using-gnupg-modern-version-1.md" >}})
-- [GnuPG for Windows ― gpg-agent について]({{< relref "remark/2016/03/using-gnupg-modern-version-2.md" >}})
+- [GnuPG for Windows ― インストール編]({{< ref "/remark/2016/03/using-gnupg-modern-version-1.md" >}})
+- [GnuPG for Windows ― gpg-agent について]({{< ref "/remark/2016/03/using-gnupg-modern-version-2.md" >}})
 
 [GnuPG]: https://www.gnupg.org/ "The GNU Privacy Guard"
 [Gpg4win]: https://www.gpg4win.org/ "Gpg4win - Secure email and file encryption with GnuPG for Windows"

@@ -22,7 +22,7 @@ title = "パッケージ外部からの呼び出しを禁止する Internal Pack
 
 （初出： [そろそろ真面目に Golang 開発環境について考える — Internal Packages と Vendoring - Qiita](http://qiita.com/spiegel-im-spiegel/items/baa3671c7e1b8a6594a9)）
 
-「[GOPATH 汚染問題]({{< relref "golang/gopath-pollution.md" >}})」で言及しそこねたので，今回は軽く。
+「[GOPATH 汚染問題]({{< relref "gopath-pollution.md" >}})」で言及しそこねたので，今回は軽く。
 
 Internal Packages の仕組みは 1.4 から存在したが標準パッケージのみの適用だった。
 1.5 からは `GOPATH` 配下のパッケージまで拡張される。
@@ -67,7 +67,7 @@ C:\GO\SRC\NET
 
 ## ブックマーク
 
-[Go 言語に関するブックマーク集はこちら]({{< ref "golang/bookmark.md" >}})。
+[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`net`]: https://golang.org/pkg/net/ "net - The Go Programming Language"

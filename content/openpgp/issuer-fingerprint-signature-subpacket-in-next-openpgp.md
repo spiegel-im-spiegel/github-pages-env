@@ -25,9 +25,9 @@ tags        = [ "openpgp", "gnupg", "cryptography" ]
   mermaidjs = false
 +++
 
-(move from [{{< ref "remark/2017/11/issuer-fingerprint-signature-subpacket-in-next-openpgp.md" >}}]({{< ref "remark/2017/11/issuer-fingerprint-signature-subpacket-in-next-openpgp.md" >}} "Issuer Fingerprint Signature Subpacket in Next OpenPGP"))
+(move from [{{< ref "/remark/2017/11/issuer-fingerprint-signature-subpacket-in-next-openpgp.md" >}}]({{< ref "/remark/2017/11/issuer-fingerprint-signature-subpacket-in-next-openpgp.md" >}} "Issuer Fingerprint Signature Subpacket in Next OpenPGP"))
 
-「[OpenPGP 鍵管理に関する考察]({{< relref "openpgp/openpgp-key-management.md" >}})」を書いていて気づいたのだが，署名パケット（signature packet）に関して，次期 OpenPGP ([RFC 4880bis]) の実装が既に [GnuPG] に一部入っているようである[^gpg1]。
+「[OpenPGP 鍵管理に関する考察]({{< ref "/openpgp/openpgp-key-management.md" >}})」を書いていて気づいたのだが，署名パケット（signature packet）に関して，次期 OpenPGP ([RFC 4880bis]) の実装が既に [GnuPG] に一部入っているようである[^gpg1]。
 
 [^gpg1]: 先行してドラフト仕様が [GnuPG] に組み込まれるのは珍しいことではない。
 
@@ -96,8 +96,8 @@ Old: Signature Packet(tag 2)(117 bytes)
 
 ## ブックマーク
 
-- [OpenPGP: First RFC4880bis Draft]({{< relref "remark/2015/openpgp-draft-rfc4880bis-first.md" >}})
-- [OpenPGP に関する話題]({{< relref "remark/2017/03/topics-on-openpgp.md" >}})
+- [OpenPGP: First RFC4880bis Draft]({{< ref "/remark/2015/openpgp-draft-rfc4880bis-first.md" >}})
+- [OpenPGP に関する話題]({{< ref "/remark/2017/03/topics-on-openpgp.md" >}})
 
 [OpenPGP]: http://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
 [RFC 4880]: https://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"

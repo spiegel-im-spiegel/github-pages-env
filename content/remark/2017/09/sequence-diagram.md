@@ -288,7 +288,7 @@ classDiagram
 - [Drawing Graphs using Dot and Graphviz](http://www.tonyballantyne.com/graphs.html) : 図にこだわるのであれば [Graphviz] の DOT 言語を使う手もある
     - [Graphvizとdot言語でグラフを描く方法のまとめ - Qiita](https://qiita.com/rubytomato@github/items/51779135bc4b77c8c20d)
 
-- [エディタ以上ワープロ未満の HackMD]({{< relref "remark/2017/04/hackmd.md" >}})
+- [エディタ以上ワープロ未満の HackMD]({{< ref "/remark/2017/04/hackmd.md" >}})
 
 [本ブログ]: / "text.Baldanders.info"
 [mermaid]: https://mermaidjs.github.io/

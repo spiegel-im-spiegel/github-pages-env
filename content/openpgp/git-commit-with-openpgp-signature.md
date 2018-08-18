@@ -26,7 +26,7 @@ image = "/images/attention/openpgp.png"
   mermaidjs = false
 +++
 
-(move from [{{< ref "remark/2016/04/git-commit-with-openpgp-signature.md" >}}]({{< ref "remark/2016/04/git-commit-with-openpgp-signature.md" >}} "Git Commit で OpenPGP 署名を行う"))
+(move from [{{< ref "/remark/2016/04/git-commit-with-openpgp-signature.md" >}}]({{< ref "/remark/2016/04/git-commit-with-openpgp-signature.md" >}} "Git Commit で OpenPGP 署名を行う"))
 
 
 [Git] で commit する際に OpenPGP 署名を付加できるらしい。
