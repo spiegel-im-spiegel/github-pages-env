@@ -219,6 +219,8 @@ See the full [analysis](https://wiki.creativecommons.org/wiki/ShareAlike_compati
 
 - [Hugoサイト構築 | Watanabe-DENKI Inc. 渡辺電気株式会社](http://wdkk.co.jp/lab/hugo/) : お勧め！
 
+- [Hugo におけるサイト内相互参照]({{< relref "cross-references-with-shortcodes.md">}})
+
 [Hugo に関するブックマークはこちら]({{< ref "/hugo/bookmark.md" >}})。
 
 [Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"

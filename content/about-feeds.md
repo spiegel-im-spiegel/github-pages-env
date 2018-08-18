@@ -40,22 +40,22 @@ description = "text.Baldanders.info ではサイトの更新情報を提供し�
 [本サイト]では以下のセクションごとに更新情報を提供しています。
 URL は以下の通りです。
 
-| セクション名                                    | 更新情報の URL                      |
-|:----------------------------------------------- |:----------------------------------- |
-| [しっぽのさきっちょ]({{< rlnk "remark/" >}}) | [{{< lnk "remark/index.xml" >}}]({{< rlnk "remark/index.xml" >}})      |
-| [ゼロから始める Hugo]({{< rlnk "hugo/" >}}) | [{{< lnk "hugo/index.xml" >}}]({{< rlnk "hugo/index.xml" >}})        |
-| [プログラミング言語 Go]({{< rlnk "golang/" >}}) | [{{< lnk "golang/index.xml" >}}]({{< rlnk "golang/index.xml" >}})      |
-| [改訂3版： CC Licenses について]({{< rlnk "cc-licenses/" >}}) | [{{< lnk "cc-licenses/index.xml" >}}]({{< rlnk "cc-licenses/index.xml" >}}) |
-| [OpenPGP の実装]({{< rlnk "openpgp/" >}}) | [{{< lnk "openpgp/index.xml" >}}]({{< rlnk "openpgp/index.xml" >}})     |
-| [ブックマーク集]({{< rlnk "bookmarks/" >}}) | [{{< lnk "bookmarks/index.xml" >}}]({{< rlnk "bookmarks/index.xml" >}})   |
-| [リリース情報]({{< rlnk "release/" >}})  | [{{< lnk "release/index.xml" >}}]({{< rlnk "release/index.xml" >}})     |
+| セクション名                                                      | 更新情報の URL                                                                                           |
+|:----------------------------------------------------------------- |:-------------------------------------------------------------------------------------------------------- |
+| [しっぽのさきっちょ]({{< ref path="/remark" >}})                  | [{{< ref path="/remark" outputFormat="rss" >}}]({{< ref path="/remark" outputFormat="rss" >}})           |
+| [ゼロから始める Hugo]({{< ref path="/hugo" >}})                   | [{{< ref path="/hugo" outputFormat="rss" >}}]({{< ref path="/hugo" outputFormat="rss" >}})               |
+| [プログラミング言語 Go]({{< ref path="/golang" >}})               | [{{< ref path="/golang" outputFormat="rss" >}}]({{< ref path="/golang" outputFormat="rss" >}})           |
+| [改訂3版： CC Licenses について]({{< ref path="/cc-licenses" >}}) | [{{< ref path="/cc-licenses" outputFormat="rss" >}}]({{< ref path="/cc-licenses" outputFormat="rss" >}}) |
+| [[OpenPGP の実装]({{< ref path="/openpgp" >}})                    | [{{< ref path="/openpgp" outputFormat="rss" >}}]({{< ref path="/openpgp" outputFormat="rss" >}})         |
+| [ブックマーク集]({{< ref path="/bookmarks" >}})                   | [{{< ref path="/bookmarks" outputFormat="rss" >}}]({{< ref path="/bookmarks" outputFormat="rss" >}})     |
+| [リリース情報]({{< ref path="/release" >}})                       | [{{< ref path="/release" outputFormat="rss" >}}]({{< ref path="/release" outputFormat="rss" >}})         |
 
 ## タグごとの更新情報
 
-[本サイト]では[タグ]({{< rlnk "tags/" >}})ごとに更新情報を提供しています。
-たとえば [astronomy]({{< rlnk "tags/astronomy/" >}}) タグであれば以下の URL となります。
+[本サイト]では[タグ]({{< ref "/tags" >}})ごとに更新情報を提供しています。
+たとえば [astronomy]({{< ref "/tags/astronomy" >}}) タグであれば以下の URL となります。
 
-- [{{< lnk "tags/" >}}**astronomy**/index.xml]({{< rlnk "tags/astronomy/index.xml" >}})
+- [{{< ref "/tags" >}}**astronomy**/index.xml]({{< ref "/tags/astronomy" >}}index.xml)
 
 ## ブックマーク
 
