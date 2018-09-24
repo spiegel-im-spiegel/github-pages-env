@@ -3,7 +3,7 @@ title = "そうだ， TeX Live 2017 (for Windows) をインストールしよう
 date =  "2017-10-01T17:06:19+09:00"
 update =  "2017-10-02T17:35:32+09:00"
 description = "久しぶりに TeX をいじってみようかな，と思い立ったり。私の環境は TeX Live 2014 のままだったので，この機会にいったん環境を削除して TeX Live 2017 を入れ直すことにした。"
-tags        = [ "tex", "windows" ]
+tags        = [ "tex", "windows", "install" ]
 
 [author]
   name      = "Spiegel"
