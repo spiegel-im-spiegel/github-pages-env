@@ -136,7 +136,7 @@ LuaTeX is Copyright 2018 Taco Hoekwater and the LuaTeX Team.
 ## 【おまけの注意喚起】 Ghostscript の脆弱性に注意
 
 Ghostscript 9.23 およびそれ以前には任意のコマンドを実行する脆弱性が存在する。
-該当するバージョンを使用している方は [9.24](https://www.ghostscript.com/doc/9.24/News.htm) 以降へアップでオートを。
+該当するバージョンを使用している方は [9.24](https://www.ghostscript.com/doc/9.24/News.htm) 以降へアップデートを。
 
 - [Vulnerability Note VU#332928 - Ghostscript contains multiple -dSAFER sandbox bypass vulnerabilities](https://www.kb.cert.org/vuls/id/332928)
 - [Ghostscript の -dSAFER オプションの脆弱性に関する注意喚起](https://www.jpcert.or.jp/at/2018/at180035.html)
