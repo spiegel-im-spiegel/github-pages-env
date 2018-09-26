@@ -1,6 +1,7 @@
 +++
 title = "Go 1.11 のリリースと「モジュール」機能の実験的サポート"
 date = "2018-09-26T13:53:04+09:00"
+update = "2018-09-26T19:18:26+09:00"
 description = "「モジュール」とは，これまで vgo (Versioned Go) として開発が進められてきたものである。この機能について簡単に紹介する。"
 image = "/images/attention/tools.png"
 tags  = [ "programming", "language", "golang", "engineering", "module", "vendoring", "versioning" ]
@@ -239,6 +240,7 @@ require (
 
 ## ブックマーク
 
+- [Using Go modules with Travis CI | Dave Cheney](https://dave.cheney.net/2018/07/16/using-go-modules-with-travis-ci)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [dep]: https://golang.github.io/dep/ "dep · Dependency management for Go"
