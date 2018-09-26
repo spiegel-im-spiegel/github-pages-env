@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-06-03T17:32:14+09:00"
+update = "2018-09-26T09:51:35+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -96,6 +96,11 @@ title = "Go 言語に関するブックマーク"
 - [go1.10beta1の標準パッケの大きな変更点を確認しておく。 - Qiita](https://qiita.com/A_Resas/items/59bf6cda976e29751890)
 - [Go1.10で入るstrings.Builderを検証した #golang - Qiita](https://qiita.com/tenntenn/items/94923a0c527d499db5b9)
 - [go1.10のtest2jsonを試してみた - Qiita](https://qiita.com/dproject21/items/c406b0044280508b41ff)
+
+### Go 1.11 is released
+
+- [Go 1.11 is released - The Go Blog](https://blog.golang.org/go1.11)
+- [Go 1.11 Release Notes - The Go Programming Language](https://golang.org/doc/go1.11)
 
 ## 言語仕様および標準パッケージに関すること
 

@@ -4,7 +4,7 @@ date = "2018-02-24T16:10:44+09:00"
 update = "2018-03-01T09:31:39+09:00"
 description = "Go 言語の次のバージョン（v1.11）から vgo (Versioned Go) を実装する計画があるようで， vgo 関連のドキュメントが公開されている。"
 image = "https://research.swtch.com/impver.png"
-tags        = [ "golang", "engineering", "versioning" ]
+tags        = [ "golang", "engineering", "versioning", "module" ]
 
 [author]
   name      = "Spiegel"

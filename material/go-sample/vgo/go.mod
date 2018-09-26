@@ -1,3 +1,3 @@
-module "github.com/spiegel-im-spiegel/hello"
+module hello
 
-require "rsc.io/quote" v1.5.2
+require rsc.io/quote v1.5.2

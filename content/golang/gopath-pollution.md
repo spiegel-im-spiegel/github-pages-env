@@ -1,6 +1,6 @@
 +++
 date = "2015-09-29T23:40:59+09:00"
-update = "2017-01-31T09:29:41+09:00"
+update = "2018-09-26T13:52:50+09:00"
 description = "go get コマンドは外部パッケージの revision 等をコントロールできず，常に repository の最新コードを取ってこようとする。GOPATH 内に複数のプロジェクトが同居している場合は同じ外部パッケージでもプロジェクトごとに異なるリビジョンを要求する場合があり，管理が煩雑になってしまう。"
 draft = false
 tags = ["golang", "engineering", "environment", "pollution", "vendoring", "package"]
@@ -19,6 +19,12 @@ title = "GOPATH 汚染問題"
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
+
+{{% div-box %}}
+**【注意 2018-09-26】**
+この問題はバージョン 1.11 からサポートされる「モジュール」機能によって解消可能です。
+もはやこの記事の内容は古いものであり「こんな時代もあったね」と生暖かい気持ちで読んでいただければ幸いです。
+{{% /div-box %}}
 
 （初出： [そろそろ真面目に Golang 開発環境について考える — GOPATH 汚染問題 - Qiita](http://qiita.com/spiegel-im-spiegel/items/73ebc684b5807277b7e2)，[そろそろ真面目に Golang 開発環境について考える — Internal Packages と Vendoring - Qiita](http://qiita.com/spiegel-im-spiegel/items/baa3671c7e1b8a6594a9)）
 
@@ -273,7 +279,7 @@ C:>go install ./...
 - [改めて、direnvを使いましょう！ - HDE BLOG](http://blog.hde.co.jp/entry/2015/02/27/182117)
 - [さくら - homeにgolang, direnv とvirtualenvを入れて動かす - Qiita](http://qiita.com/aminamid/items/5a0e9461385c80d0c8a6)
 
-[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
+- [Go 1.11 のリリースと「モジュール」機能の実験的サポート]({{< ref "/release/2018/09/go-1_11-ise-released.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [前回]: {{< relref "project-based-development.md" >}} "プロジェクト・ベースの開発環境をつくる"
