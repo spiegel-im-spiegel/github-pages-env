@@ -1,7 +1,7 @@
 +++
-title = "{{ substr .Date 0 -15 }} のリリース情報"
+title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date =  "{{ .Date }}"
-description = "「XXX」他"
+description = "description"
 image = "/images/attention/tools.png"
 tags  = [ "tools" ]
 draft = true
@@ -25,12 +25,8 @@ draft = true
   mermaidjs = false
 +++
 
-最近リリースされたツールやサービスについて挙げておく。
-私個人が気になっているものなので全く網羅的ではないが悪しからずご了承の程を。
 
-## 最近の脆弱性情報
 
-最近1週間に公開・更新された脆弱性情報のうち深刻度が高いものを列挙してみる。
 
 
 
