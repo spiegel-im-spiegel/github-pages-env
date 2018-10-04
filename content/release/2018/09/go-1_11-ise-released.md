@@ -1,7 +1,7 @@
 +++
 title = "Go 1.11 のリリースと「モジュール」機能の実験的サポート"
 date = "2018-09-26T13:53:04+09:00"
-update = "2018-09-26T19:18:26+09:00"
+update = "2018-10-04T17:36:51+09:00"
 description = "「モジュール」とは，これまで vgo (Versioned Go) として開発が進められてきたものである。この機能について簡単に紹介する。"
 image = "/images/attention/tools.png"
 tags  = [ "programming", "language", "golang", "engineering", "module", "vendoring", "versioning" ]
@@ -237,6 +237,12 @@ require (
 んー。
 これで [dep] からの置き換えができそうかな。
 ようやく「[GOPATH 汚染問題]({{< ref "/golang/gopath-pollution.md" >}})」が解消されるかねぇ。
+
+## 【2018-10-04 追記】 Go 1.11.1 がリリース
+
+{{% fig-quote title="Release History - The Go Programming Language" link="https://golang.org/doc/devel/release.html#go1.11.minor" %}}
+“go1.11.1 (released 2018/10/01) includes fixes to the compiler, documentation, go command, runtime, and the `crypto/x509`, `encoding/json`, `go/types`, `net`, `net/http`, and `reflect` packages. See the [Go 1.11.1 milestone](https://github.com/golang/go/issues?q=milestone%3AGo1.11.1) on our issue tracker for details.”
+{{% /fig-quote %}}
 
 ## ブックマーク
 
