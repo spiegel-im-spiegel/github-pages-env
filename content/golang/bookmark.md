@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-09-26T09:51:35+09:00"
+update = "2018-10-06T13:40:55+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -101,6 +101,9 @@ title = "Go 言語に関するブックマーク"
 
 - [Go 1.11 is released - The Go Blog](https://blog.golang.org/go1.11)
 - [Go 1.11 Release Notes - The Go Programming Language](https://golang.org/doc/go1.11)
+
+- [Go 1.11 リリースノート（和訳）](https://qiita.com/pokeh/items/c6511ca15c9a33b48fcc)
+- [サクッと Go → WebAssembly を試す](https://qiita.com/cia_rana/items/bbb4112b480636ab9d87)
 
 ## 言語仕様および標準パッケージに関すること
 
@@ -467,6 +470,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Golangで静的ファイルをバイナリに含めるライブラリを書いてみた - Qiita](http://qiita.com/konohazuku/items/131b251a5fa29213ac5e)
 - [GolangのGin/bindataでシングルバイナリを試してみた(+React) - Qiita](http://qiita.com/wadahiro/items/4173788d54f028936723)
 - [Goで任意のbuild tagsをつけてビルドファイルを切り替える - Qiita](http://qiita.com/ueokande/items/fac0d1219dbbc8f44db7)
+- [Goでビルドしたバイナリに製品名やファイルバージョンを追加する方法](https://qiita.com/Targityen/items/6125d4fa83fca28879a9) : Windows 専用
 
 ### Build Tools for Golang
 

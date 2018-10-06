@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T23:59:59+09:00"
-update = "2018-05-30T19:09:44+09:00"
+update = "2018-10-06T13:40:55+09:00"
 description = "「Go 言語に関するブックマーク」に整理しきれない未整理分。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -127,3 +127,5 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [golangで計算量オーダーを実感する - Qiita](https://qiita.com/soy-curd/items/f5757f6a654c51e75deb)
 - [CLI で esa.io の記事を作成するツール esautils を作りました - Qiita](https://qiita.com/uobikiemukot/items/4a34de27a694d9e33649)
 - [KAMINASHI（カミナシ） | 誰でも使える食品工場管理アプリ](https://kaminashi.jp/) : バックエンドは Go 言語で書かれているらしい
+- [Go GoCSVでShift_JISでCRLFなCSVを作る](https://qiita.com/hiro9/items/ff9333fcf66c8a3f1c3c) : `github.com/gocarina/gocsv` というパッケージが便利っぽい
+- [Golangでグラフを描く](https://qiita.com/yutsuki/items/7de97e09289a915f86b9)

@@ -1,7 +1,7 @@
 +++
 title = "Go 1.11 のリリースと「モジュール」機能の実験的サポート"
 date = "2018-09-26T13:53:04+09:00"
-update = "2018-10-04T17:36:51+09:00"
+update = "2018-10-06T13:40:55+09:00"
 description = "「モジュール」とは，これまで vgo (Versioned Go) として開発が進められてきたものである。この機能について簡単に紹介する。"
 image = "/images/attention/tools.png"
 tags  = [ "programming", "language", "golang", "engineering", "module", "vendoring", "versioning" ]
@@ -246,6 +246,7 @@ require (
 
 ## ブックマーク
 
+- [Go 1.11 リリースノート（和訳） - Qiita](https://qiita.com/pokeh/items/c6511ca15c9a33b48fcc)
 - [Using Go modules with Travis CI | Dave Cheney](https://dave.cheney.net/2018/07/16/using-go-modules-with-travis-ci)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
