@@ -1,7 +1,7 @@
 +++
 title = "GDPR で加速するインターネット分断"
 date = "2018-05-28T21:19:19+09:00"
-update = "2018-05-30T19:09:44+09:00"
+update = "2018-10-07T09:10:11+09:00"
 description = "GDPR は「技術で社会は変わらない」という典型的な例と言えよう。 社会を変えるのはあくまでも社会を構成する「ヒト」である。"
 image = "/images/attention/kitten.jpg"
 tags = [ "code", "law", "politics", "internet", "gdpr" ]
@@ -66,6 +66,7 @@ Kindle もリージョン・ブロックがかかっている。
 - [GDPRの次は「ePrivacy Regulation」──FacebookやGoogleが警戒する規則とは - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1805/29/news075.html)
 - [欧州で施行された「GDPR」は、あらゆる企業の経済活動に変化を迫る｜WIRED.jp](https://wired.jp/2018/05/29/gdpr-will-change-the-web-and-more/)
 - [個人情報を巡る新たな「冷戦」とデータ経済の行方：「GDPR：データとインターネット〜EUが描く未来」第7回｜WIRED.jp](https://wired.jp/series/gdpr/07_data-wars/)
+- [The Effects of GDPR's 72-Hour Notification Rule - Schneier on Security](https://www.schneier.com/blog/archives/2018/10/the_effects_of_5.html)
 
 - [日本版「グレート・ファイアウォール」に関するブックマーク集]({{< ref "/remark/2018/04/japanese-gfw.md" >}})
 

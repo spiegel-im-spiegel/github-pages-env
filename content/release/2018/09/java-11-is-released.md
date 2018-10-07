@@ -1,6 +1,7 @@
 +++
 title = "Java 11 がリリース"
 date = "2018-09-27T09:57:29+09:00"
+update = "2018-10-07T09:10:11+09:00"
 description = "Oracle Java に関しては，予告どおり，有償の LTS (Long Term Support) としてのリリースとなる。"
 image = "/images/attention/tools.png"
 tags  = [ "programming", "language", "java", "engineering" ]
@@ -66,6 +67,9 @@ Java 9 以降でそれを投げ捨ててしまった今， Java の優位性は�
 ## ブックマーク
 
 - [Java 11正式版がリリース、本バージョンからOracle JDKのサポートは有償に。OpenJDKで無償の長期サポート提供は現時点で期待薄 － Publickey](https://www.publickey1.jp/blog/18/java_11oracle_jdkopenjdk.html)
+- [Microsoft Azure上での実行目的ならJavaの長期サポート（LTS）を無料提供、MacやWindowsでの開発用途もOK。マイクロソフトとAzul Systemsが提携で － Publickey](https://www.publickey1.jp/blog/18/microsoft_azurejavaltsmacwindowsokazul_systems.html)
+- [【GlassFish勉強会レポート】各JDKベンダの動向を知ってJava 11に備えよう：レポート｜gihyo.jp … 技術評論社](https://gihyo.jp/news/report/2018/10/0501)
+- [Java Is Still Free - Google Document](https://docs.google.com/document/d/1nFGazvrCvHMZJgFstlbzoHjpAVwv5DEdnaBr_5pKuHo/edit#heading=h.p3qt2oh5eczi)
 
 - [Java 環境のリリースとサポートに関する覚え書き]({{< ref "/remark/2018/02/release-cycle-of-java-environment.md" >}})
 
