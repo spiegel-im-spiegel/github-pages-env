@@ -23,6 +23,10 @@ draft = false
   license = "by-sa"
   url = "http://www.baldanders.info/spiegel/profile/"
   twitter = "spiegel_2007"
+
+[scripts]
+  mathjax = true
+  mermaidjs = false
 +++
 
 [以前に紹介した]({{< ref "/remark/2016/07/10-stories.md#ls" >}})けど，年も押し迫ってきたし関連情報も出てき始めているので，あらためて記事を再構成し関連リンクを順次追加していくことにする。

@@ -1,0 +1,186 @@
++++
+title = "UNIX 時刻に関する四方山話"
+date = "2018-10-07T21:48:19+09:00"
+description = "UNIX 時刻について色々と補足を交えながら簡単に紹介してみる。"
+image = "/images/attention/kitten.jpg"
+tags = [ "engineering", "unix-time", "leap-second" ]
+
+[author]
+  name      = "Spiegel"
+  url       = "http://www.baldanders.info/spiegel/profile/"
+  avatar    = "/images/avatar.jpg"
+  license   = "by-sa"
+  github    = "spiegel-im-spiegel"
+  twitter   = "spiegel_2007"
+  tumblr    = "spiegel-im-spiegel"
+  instagram = "spiegel_2007"
+  flickr    = "spiegel"
+  facebook  = "spiegel.im.spiegel"
+  linkedin  = "spiegelimspiegel"
+  flattr    = "spiegel"
+
+[scripts]
+  mathjax = true
+  mermaidjs = false
++++
+
+- [（Tips）これから100年のunix時間は10桁数字。５桁の固定長文字列でも表現できる。 - Qiita](https://qiita.com/Nimimal/items/8b2de87a6870707ba60a)
+
+この記事はなかなか面白かったが UNIX 時刻[^c1]  に関する説明がざっくりしすぎているので，補足を交えながら簡単に紹介してみる。
+
+[^c1]: この記事では時刻とはある時点からの経過時間を指すものとして書き分けている。時刻を表すには原点となる時点が必須である。
+
+## 時刻系に関するおさらい
+
+UNIX 時刻の説明に入る前に，前提となる時刻系についておさらいしておこう。
+
+時刻系というのは，時間および時刻を測るために地球人類が考えた「決まりごと」である。
+「決まりごと」なので「正しい時刻系」というのは存在しない。
+強いて言うなら「考えた人の数だけ時刻系が存在する」。
+とはいえ，やたら滅多に林立しても困るので，ある程度の統一を図る必要がある。
+
+時刻系の歴史について語ると長くなるので，ここでは現代の日常生活で使われる2つの時刻系のみ紹介する。
+
+**世界時系** : 私達は太陽の日周運動[^s1] を基準に生活している。
+そこで太陽の日周運動を時刻の基準にすればいいと考えた。
+つまり天球[^cs1] 上の平均太陽 (mean solar)[^ms1] と子午線との時角を **観測** し，そこから基準となる時間（の長さ）を決めればいいわけだ。
+こうして決めた時刻系を世界時系と呼ぶ。
+世界時系の代表が UT (世界時; universal time)[^ut1] である。
+
+[^s1]: もちろん地球を中心とした見かけ上の話。正しくは地球の自転運動および太陽を中心とした公転運動を基準にしている，というべきだろう。ちなみに地球の自転運動を基にした時刻系を恒星時系と呼ぶ。世界時系は恒星時系の一種と言える。
+[^cs1]: 天球とは地球を中心とした無限遠の仮想球体である。地球から見える月や惑星や太陽などの星々は天球への写像と見做すわけですね。
+[^ms1]: 太陽に対する地球の公転軌道は（ほぼ円に近い）楕円なので，天球上を移動する太陽（真太陽）の移動速度は季節によって僅かに進み遅れが発生する。これに対し，天球上の移動速度が年間で一定となるような仮想的な太陽を平均太陽と呼ぶ。
+[^ut1]: 厳密には UT には UT0 から UT2 まである。 UT0 はほぼ生の観測値で，観測地点ごとの UT0 を集計し極運動等の補正をかけたものを UT1 と呼ぶ。 UT2 は UT1 から更に自転速度の年間の進み遅れを補正したものである。現在では UT2 は使われていないようだ。
+
+**原子時系** : いわゆる原子時計のこと。最初の原子時計の **定義** は「セシウム133原子の基底状態における2つの超微細準位（$F=4, M=0$ および $F=3, M=0$）の間の遷移に対応する放射の周期の9,192,631,770倍を1秒とする」というもので，基本的に現在でもこの定義が踏襲されている。この原子時計に対して1958年1月1日0時0分0秒 UT2 を原点とした経過時間を TAI (国際原子時; international atomic time) と呼ぶ。
+ちなみに GPS の時計も原子時系の一種である。
+
+世界時系は私達の日常生活にマッチしているが観測値であり一定の時間を刻まない。
+原子時系は定義された一定の時間を刻む[^at1] が日常生活の基準である世界時系から僅かずつ乖離していく。
+
+[^at1]: 「原子時系は一定の時間を刻む」というのは相対論的効果を除外した場合の話。実は，厳密に言うと現在の TAI は相対論的効果などを加味した座標時系として再定義されている。だが日常生活でそれを意識することはないだろう。更に余談だが，座標時系のひとつに TT (地球時; terrestrial time) というのがあって天体力学や位置計算の分野で使われている。 TAI と TT の間には $TT = TAI + 32.184\,\mathrm{sec}$ という関係がある（したがって，ある時点の UTC が分かれば TT も自動的に求められる）。何故こんな事になっているかについては聞くも涙の歴史物語があったりする（笑）
+
+UT と TAI を整合させるために考えられたのが UTC (協定世界時; coordinated universal time) である。
+UTC は原子時系の一種だが， UT1 との差が1秒未満になるよう閏秒による調整が行われる。
+閏秒による調整は不定期だが，遅くとも半年前には告知される。
+
+現在の UTC は1972年1月1日から運用を開始している。
+運用開始時点では $TAI - UTC = 10\,\mathrm{sec}$ だったが，2017年1月1日時点では37秒まで拡大している[^ls1]。
+
+[^ls1]: 閏秒に関する議論については「[2017年直前の閏秒について]({{<ref "/remark/2016/11/leap-second-2017.md" >}})」あたりを参考にどうぞ。
+
+## UNIX 時刻（UNIX Time）とは
+
+いよいよ本題へ。
+
+大抵の文献では， POSIX 標準の UNIX 時刻の定義は「1970年1月1日0時0分0秒 UTC からの経過秒数」となっていて，かつては32ビット符号付き整数値で表されていた。
+32ビットつまり4オクテット固定長データで表現できるためとても重宝されたが，2,147,483,647秒までしか表現できないため，2038年1月19日3時14分7秒より以降は桁あふれをおこしてしまう。
+これがいわゆる「2038年問題」である。
+
+### 「2038年問題」の回避策
+
+「2038年問題」の回避方法としては以下の2つがある。
+
+**UNIX 時刻を32ビット符号なし整数で表す** : 場当たり的な対処だが時刻を表すデータの長さを変更することなく移行できるため，古いデータ・フォーマットをそのまま流用できる利点がある。
+ただし1970年1月1日0時0分0秒より前の時刻は取り扱えなくなる。
+これにより UNIX 時刻は4,294,967,295秒（2106年2月7日6時28分15秒）まで拡張される。
+
+**UNIX 時刻を64ビット符号付き整数で表す** : データ長が倍の8オクテットになるが，抜本的に対応するのであればこちらを選択すべきだろう。
+現行の多くのシステムはこちらでの対応になっている筈である。
+これなら9,223,372,036,854,775,807秒（約3000億年）まで表現できる。
+ビッグバンからビッグクランチまで対応可能である（笑）
+
+もっとも時刻情報については UNIX 時刻以外にも様々な形式が存在するため，あえて UNIX 時刻に拘る必要はないかもしれない。
+そもそも1秒未満の桁を表現できない UNIX 時刻はタイムスタンプとしてはもはや機能不足と言える。
+
+### 【実装例1】 OpenPGP における時刻情報
+
+OpenPGP ([RFC 4880]) パケットにおける時刻情報は，古い仕様を踏襲する形で，4オクテット固定長で定義されている。
+現在，次期仕様（[RFC 4880bis]）で V5 パケットの仕様が検討されているが，時刻情報に関しては4オクテットのままでいくようだ。
+
+### 【実装例2】 [Go 言語]の time パッケージ
+
+[Go 言語]には標準ライブラリとして [`time`] パッケージが用意されているが，時刻を表す [`time`]`.Time` 型は西暦元年1月1日0時を原点としナノ秒単位まで対応している。
+また UNIX 時刻を返す関数も用意されているが，この関数の返り値は int64 (64ビット符号付き整数) の値を返す。
+
+このように最近のシステムやプログラミング言語は時刻に関する独自のクラス・オブジェクトを用意し，後方互換性を保つために UNIX 時刻を扱うメソッドが用意されていることが多い。
+
+## UNIX 時刻と UTC
+
+ところで，前述した UNIX 時刻の定義を見ておかしいとは思わなかっただろうか。
+
+現在の UTC の運用が始まったのは1972年からである。
+なのに UNIX 時刻の原点は「1970年1月1日0時0分0秒 UTC」となっているのだ。
+存在しない時刻[^utc2] を原点にするなんて，おかしいよね！
+
+[^utc2]: 厳密に言うと1972年以前にも UTC と呼ばれる時刻系は存在していたが，現在の UTC とは全く異なり，どちらかというと UT に近いルールだった。このため管理が煩雑になりすぎて破綻してしまったのだ。
+
+つまり実際の UNIX 時刻は「1970年1月1日0時0分0秒 UTC からの経過秒数」ではなく，グレゴリオ暦と現在の時制のルールに基づいて，2時点間の差分を単純計算しているだけなのである。
+このことが最も顕著に現れるのが UTC における閏秒の扱いである。
+
+[Go 言語]で簡単なコードを書いてみよう。
+
+かつて2017年1月1日0時0分0秒 UTC の直前に[閏秒が挿入]({{< ref "/remark/2016/11/leap-second-2017.md" >}} "2017年直前の閏秒について")された。
+したがって
+
+```go
+package main
+
+import (
+    "fmt"
+    "time"
+)
+
+func main() {
+    t1 := time.Date(2016, time.December, 31, 23, 59, 59, 0, time.UTC)
+    t2 := time.Date(2017, time.January, 1, 0, 0, 0, 0, time.UTC)
+    fmt.Printf("t1 = %v (%v)\n", t1, t1.Unix())
+    fmt.Printf("t2 = %v (%v)\n", t2, t2.Unix())
+    fmt.Printf("t2 - t1 = %v sec\n", t2.Unix()-t1.Unix())
+}
+```
+
+というコードを書いたとき，もし UNIX 時刻が閏秒を考慮しているのであれば，2時点の UNIX 時刻の差は2になる筈である。
+しかし実際に実行してみると
+
+```text
+$ go run unix-time.go
+t1 = 2016-12-31 23:59:59 +0000 UTC (1483228799)
+t2 = 2017-01-01 00:00:00 +0000 UTC (1483228800)
+t2 - t1 = 1 sec
+```
+
+となる。
+これは他の言語でも（独自に閏秒に対応していないのであれば）同じようになる筈である。
+
+まぁ，しかし，これは UNIX 時刻を設計した人を責めるべきではないだろう。
+
+そもそも UT と UTC の違いを意識してる人なんて殆どいない。
+閏秒がネット上で騒がれるようになったのは2012年頃からである[^ls2]。
+今さら UNIX 時刻の仕様を変えようものなら逆に大変な騒ぎになりそうである（UNIX 時刻で格納している過去の時刻データが全てオシャカになる）。
+
+[^ls2]: 情報処理の高速化により秒単位ではギャップが大きくなりすぎるため。またサービスの可用性（availability）に対する要求が高くなったという点も挙げられるだろう。
+
+- [うるう秒は当分存続らしい]({{< ref "/remark/2015/leap-second.md" >}})
+
+[RFC 4880]: https://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
+[RFC 4880bis]: https://datatracker.ietf.org/doc/draft-ietf-openpgp-rfc4880bis/ "draft-ietf-openpgp-rfc4880bis - OpenPGP Message Format"
+[Go 言語]: https://golang.org/ "The Go Programming Language"
+[`time`]: https://golang.org/pkg/time/ "time - The Go Programming Language"
+
+## 参考図書
+
+<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B079YJS1J1/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51CPvtuv%2BwL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B079YJS1J1/baldandersinf-22/">［試して理解］Linuxのしくみ ～実験と図解で学ぶOSとハードウェアの基礎知識</a></dt><dd>武内 覚 </dd><dd>技術評論社 2018-02-23</dd><dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B079TLW41L/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B079TLW41L.09._SCTHUMBZZZ_.jpg"  alt="エンジニアリング組織論への招待　～不確実性に向き合う思考と組織のリファクタリング"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B07C3JFK3V/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B07C3JFK3V.09._SCTHUMBZZZ_.jpg"  alt="前処理大全［データ分析のためのSQL/R/Python実践テクニック］"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B07BKVP9QY/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B07BKVP9QY.09._SCTHUMBZZZ_.jpg"  alt="独学プログラマー Python言語の基本から仕事のやり方まで"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B078J4TNT1/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B078J4TNT1.09._SCTHUMBZZZ_.jpg"  alt="低レベルプログラミング"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B07CM2YNVD/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B07CM2YNVD.09._SCTHUMBZZZ_.jpg"  alt="まんがでわかるLinux シス管系女子3"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B07B8T1F4R/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B07B8T1F4R.09._SCTHUMBZZZ_.jpg"  alt="江添亮の詳説C++17 (アスキードワンゴ)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B075ST51Y5/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B075ST51Y5.09._SCTHUMBZZZ_.jpg"  alt="ふつうのLinuxプログラミング 第2版　Linuxの仕組みから学べるgccプログラミングの王道"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B079Q6S12G/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B079Q6S12G.09._SCTHUMBZZZ_.jpg"  alt="コンテナ・ベース・オーケストレーション Docker/Kubernetesで作るクラウド時代のシステム基盤"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B07BBTSX65/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B07BBTSX65.09._SCTHUMBZZZ_.jpg"  alt="クラウドエンジニア養成読本［クラウドを武器にするための知識＆実例満載！］ Software Design plus"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B07B8GH29F/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B07B8GH29F.09._SCTHUMBZZZ_.jpg"  alt="C言語本格入門 ～基礎知識からコンピュータの本質まで"  /></a> </p>
+<p class="description">コンテナ全盛のこの時代にかなり硬派な内容の Linux 解説書。コンピュータの教科書としても使えそう。</p>
+<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-04-30">2018-04-30</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+</div>
+
+<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4805202254/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51mQCyP04rL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4805202254/baldandersinf-22/">天体の位置計算</a></dt><dd>長沢 工 </dd><dd>地人書館 1985-09</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4805206349/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4805206349.09._SCTHUMBZZZ_.jpg"  alt="日の出・日の入りの計算―天体の出没時刻の求め方"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4769908180/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4769908180.09._SCTHUMBZZZ_.jpg"  alt="天文計算入門―一球面三角から軌道計算まで"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4805204141/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4805204141.09._SCTHUMBZZZ_.jpg"  alt="パソコンで見る天体の動き"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4416114710/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4416114710.09._SCTHUMBZZZ_.jpg"  alt="天文年鑑2015年版"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00R4X7R0M/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00R4X7R0M.09._SCTHUMBZZZ_.jpg"  alt="月刊 星ナビ 2015年 02月号 [雑誌]"  /></a> </p>
+<p class="description">B1950.0 分点から J2000.0 分点への過渡期に書かれた本なので情報が古いものもあるが，基本的な内容は位置天文学の教科書として充分通用する。</p>
+<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-01-11">2015/01/11</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+</div>
+
+<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B01JFLCW5K/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51EnYDL31WL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B01JFLCW5K/baldandersinf-22/">猫暦 ねこよみ コミック 1-3巻セット (ねこぱんちコミックス)</a></dt><dd>ねこしみず 美濃 </dd><dd>少年画報社 2016-07-11</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
+<p class="description">「寛政の改暦」のころの伊能勘解由（忠敬）とその妻とされる「おえい」の物語。感想は<a href="http://text.baldanders.info/remark/2016/05/nekoyomi/">こちら</a>。</p>
+<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-11-29">2016-11-29</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+</div>
