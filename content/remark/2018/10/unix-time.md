@@ -167,6 +167,7 @@ t2 - t1 = 1 sec
 [^ls2]: 情報処理の高速化により秒単位ではギャップが大きくなりすぎるため。またサービスの可用性（availability）に対する要求が高くなったという点も挙げられるだろう。
 
 - [うるう秒は当分存続らしい]({{< ref "/remark/2015/leap-second.md" >}})
+- [「暦」日本史 （再掲載）]({{< ref "/remark/2015/japanese-koyomi.md" >}})
 
 [RFC 4880]: https://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
 [RFC 4880bis]: https://datatracker.ietf.org/doc/draft-ietf-openpgp-rfc4880bis/ "draft-ietf-openpgp-rfc4880bis - OpenPGP Message Format"
