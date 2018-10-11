@@ -1,7 +1,7 @@
 +++
 description = "これはどちらが正しいかという問題ではない。"
 date = "2017-03-11T14:55:06+09:00"
-update = "2018-01-23T16:07:00+09:00"
+update = "2018-10-11T18:49:00+09:00"
 title = "きみは Generics がとくいなフレンズなんだね，または「制約は構造を生む」"
 draft = false
 tags = ["golang", "object-oriented", "java", "design", "refactoring"]
@@ -113,6 +113,14 @@ tags = ["golang", "object-oriented", "java", "design", "refactoring"]
 [^wf]: 「ウォータフォール型」とは滝の水が上から下へと落ちていくように 要件定義→設計→製造 と上流工程から下流工程へ順番にプロセスを進めていく開発スタイル。工程ごとにマイルストーンを設けてチェックを行い，各工程が完了しないと先に進めないようにする。まぁ実際にはスケジュールやらの関係でチェックを端折って先に進めてしまうことが多く，下流工程に入ってから致命的な欠陥に気づいて抜き差しならない状況に陥ることもしばしばある（笑）
 
 個人的には「プログラマは要件定義の段階から参加してコードを書くべき」と思ってるので，これを容易にするであろう [Go 言語]には注目している。
+
+## 2018-10-11 追記
+
+“[Go 2 Draft Designs](https://blog.golang.org/go2draft)” において将来バージョンにおける Generics 対応の言及がある。
+
+{{< fig-youtube id="6wIP3rO6On8" title="Go 2 Drafts Announcement - YouTube" >}}
+
+- [Go 2のgenerics/contract簡易まとめ](https://qiita.com/lufia/items/242d25e8c93d88e22a2e)
 
 ## ブックマーク
 
