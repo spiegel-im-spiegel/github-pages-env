@@ -1,6 +1,6 @@
 +++
 date = "2015-12-09T20:14:59+09:00"
-update = "2018-03-08T23:22:55+09:00"
+update = "2018-10-13T23:08:02+09:00"
 description = "git 各コマンドに関する覚え書き。思い出したら追記予定。"
 draft = false
 tags = ["git", "tools"]
@@ -238,6 +238,7 @@ $ git log "--pretty=format:- %s %h" v0.6.0..v0.7.0 | grep -v Merge
 - [Gitでよくあるハプニングの対策とコマンドメモ - Qiita](https://qiita.com/gilly/items/d590528c8309b8e37562)
 - [Git 大文字·小文字ファイル変更を差分対象の設定にする方法 - Qiita](https://qiita.com/yoshihitofujiwara/items/2a776c1ad8ff30122a2a)
 - [git cloneする時にローカルユーザーを同時に指定できるサブコマンド作ったよ！ - Qiita](https://qiita.com/k_keisuke/items/142efc5b183d090ff867)
+- [VSSからGitにリポジトリ移行](https://qiita.com/ryo2i/items/96f47d5f32487ed0ade0)
 
 ### GitHub
 

@@ -16,6 +16,8 @@
 
 - [Code Playground | SoloLearn: Learn to code for FREE!](https://www.sololearn.com/Codes/)
 
+- [トランスコンパイラ LuneScript で Lua の開発をもっと楽に!!](https://qiita.com/dwarfJP/items/21d4d4099ab0feb68eaf)
+
 ### Autocrypt について
 
 - [Autocrypt 1.0.0 documentation](https://autocrypt.org/)
@@ -37,6 +39,7 @@
 
 ## セキュリティ関連
 
+- [Mozilla、「Thunderbird 60.2.1」で修正された脆弱性の内容を公表 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1146782.html)
 
 ## 天文関連
 
@@ -46,5 +49,10 @@
 
 ## その他
 
+- [組み込み技術者向けTLS1.3基礎解説（前編）：まずはSSL/TLSについて知ろう (1/3) - MONOist（モノイスト）](http://monoist.atmarkit.co.jp/mn/articles/1809/18/news004.html)
+- [組み込み技術者向けTLS1.3基礎解説（後編）：IoTでTLS1.3を活用すべき3つの理由 (1/3) - MONOist（モノイスト）](http://monoist.atmarkit.co.jp/mn/articles/1810/10/news005.html)
+- [Kotlin/Nativeがベータに到達、Kotlin 1.3にバンドル。Win/Mac/iOS/Android/WebAssemblyのバイナリ生成。KotlinConf 2018 － Publickey](https://www.publickey1.jp/blog/18/kotlinnativekotlin_13winmaciosandroidwebassemblykotlinconf_2018.html)
+- [Kotlin 1.3でノンブロッキング非同期処理のCoroutinesが正式版に。非同期処理フレームワークの「Ktor 1.0」も登場。KotlinConf 2018 － Publickey](https://www.publickey1.jp/blog/18/kotlin_13coroutinesktor_10kotlinconf_2018.html)
+- [なぜPythonはこんなにも遅いのか？ | POSTD](https://postd.cc/why-is-python-so-slow/)
 
 <!-- eof -->
