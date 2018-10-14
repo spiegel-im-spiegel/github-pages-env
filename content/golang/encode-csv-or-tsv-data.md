@@ -1,6 +1,7 @@
 +++
 title = "CSV/TSV データの読み書き"
 date = "2018-10-14T05:41:02+09:00"
+update = "2018-10-14T11:20:56+09:00"
 description = "関数型言語に慣れている人から見ると Go 言語が標準で提供しているコンテナ操作のアレコレはまだるっこしい感じに見えると思う。"
 image = "/images/attention/go-logo_blue.png"
 tags = [ "golang", "programming", "map", "slice" ]
@@ -50,7 +51,7 @@ type CsvTable struct {
 }
 ```
 
-その上でデータの読み込み時にヘッダの列名とカラム位置の関係を `col フィールドに`保持ってしまえばいいのである。
+その上でデータの読み込み時にヘッダの列名とカラム位置の関係を `col` フィールドに保持ってしまえばいいのである。
 
 ```go
 //New returns new CsvTable instance
