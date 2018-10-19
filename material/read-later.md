@@ -16,7 +16,6 @@
 
 - [Code Playground | SoloLearn: Learn to code for FREE!](https://www.sololearn.com/Codes/)
 
-- [トランスコンパイラ LuneScript で Lua の開発をもっと楽に!!](https://qiita.com/dwarfJP/items/21d4d4099ab0feb68eaf)
 
 ### Autocrypt について
 
@@ -54,5 +53,7 @@
 - [Kotlin/Nativeがベータに到達、Kotlin 1.3にバンドル。Win/Mac/iOS/Android/WebAssemblyのバイナリ生成。KotlinConf 2018 － Publickey](https://www.publickey1.jp/blog/18/kotlinnativekotlin_13winmaciosandroidwebassemblykotlinconf_2018.html)
 - [Kotlin 1.3でノンブロッキング非同期処理のCoroutinesが正式版に。非同期処理フレームワークの「Ktor 1.0」も登場。KotlinConf 2018 － Publickey](https://www.publickey1.jp/blog/18/kotlin_13coroutinesktor_10kotlinconf_2018.html)
 - [なぜPythonはこんなにも遅いのか？ | POSTD](https://postd.cc/why-is-python-so-slow/)
+- [トランスコンパイラ LuneScript で Lua の開発をもっと楽に!!](https://qiita.com/dwarfJP/items/21d4d4099ab0feb68eaf)
+- [AmazonアフィリエイトツールAmakuriの使い方とCSSデザインサンプル](https://naifix.com/amakuri/)
 
 <!-- eof -->
