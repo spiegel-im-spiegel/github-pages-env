@@ -46,7 +46,7 @@ main .hreview {
   color: inherit;
   background-color: inherit;
 }
-.hreview img.photo {
+.hreview div.photo, .hreview img.photo {
   float:left;
   border: none;
   color: inherit;
@@ -54,7 +54,7 @@ main .hreview {
   margin: 0 15px 10px 10px;
   padding: 0.5rem;
 }
-.hreview p.gtools {
+.hreview p.gtools, .hreview p.powered-by {
   font-size: smaller;
   line-height: inherit;
   text-align: right;
