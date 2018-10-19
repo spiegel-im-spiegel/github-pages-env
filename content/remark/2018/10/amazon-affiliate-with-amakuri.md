@@ -1,6 +1,7 @@
 +++
 title = "Amazon アフィリエイトリンク作成サービスを Amakuri へ移行する"
 date = "2018-10-19T17:19:05+09:00"
+update = "2018-10-19T20:45:14+09:00"
 description = "G-Tools が 2018-10-13 付けでサービスが終わってしまったので Amakuri へ移行することにした。"
 image = "/images/attention/kitten.jpg"
 tags = [ "amazon", "web", "site", "market" ]
@@ -32,7 +33,7 @@ tags = [ "amazon", "web", "site", "market" ]
 
 んで，何か代わりになるサービスはないかなぁ，と探してみたら [Amakuri] という Web サービスが良さげである。
 
-- [Amakuri [Amazonアフィリエイトリンク作成ツール]](https://naifix.com/amakuri/)
+- [Amakuri [Amazonアフィリエイトリンク作成ツール]](https://dadadadone.com/amakuri/)
 
 基本的な使い方は [G-Tools] と似ていて，商品名, ASIN コード, ISBN 番号などをキーに検索してページに貼り付ける HTML コードを取得するというもの。
 リンクに Amazon Associate ID を設定できる。
@@ -103,25 +104,25 @@ Associate ID を持っているなら「アソシエイトID」の項目に入�
 テンプレート・コード中の `<%title%>` などのタグが実際の商品データに置き換わる。
 テンプレート用の主なタグを以下に挙げる。
 
-| タグ                                 | 内容                                                                                               |
-| ------------------------------------ | -------------------------------------------------------------------------------------------------- |
-| <%title%>                            | 商品名                                                                                             |
-| <%author%>                           | 著者名                                                                                             |
-| <%label%>                            | 出版社                                                                                             |
-| <%ranking%>                          | 売上ランキング順位                                                                                 |
-| <%ranking_tag%> ... </%ranking_tag%> | 例: `<%ranking_tag%>売上げランキング： <%ranking%></%ranking_tag%>`                                |
-| <%platform%>                         | プラットフォーム                                                                                   |
-| <%image_small%>                      | 商品画像(小) : img タグ                                                                            |
-| <%image_medium%>                     | 商品画像(中) : img タグ                                                                            |
-| <%image_large%>                      | 商品画像(大) : img タグ                                                                            |
-| <%comment%>                          | コメント（任意文字列）                                                                             |
-| <%link_text%>                        | Amazon への誘導リンクテキスト（固定文字列）                                                        |
-| <%link_url%>                         | Amazon へのリンクURL                                                                               |
-| <%amakuri%>                          | `Posted with <a href="https://dadadadone.com/amakuri/" target="_blank">Amakuri</a>` （固定文字列） |
-| <%amakuri_url%>                      | `https://dadadadone.com/amakuri/` （固定文字列）                                                   |
-| <%posted_date%>                      | 作成日（例: 2014.8.28）                                                                            |
-| <%hanbai_price%>                     | 販売価格                                                                                           |
-| <%hanbai_tag%> ... <%/hanbai_tag%>   | 例: `<%hanbai_tag%>販売価格 <%hanbai_price%><%/hanbai_tag%>`                                       |
+| タグ                                   | 内容                                                     |
+| -------------------------------------- | -------------------------------------------------------- |
+| `<%title%>`                            | 商品名                                                   |
+| `<%author%>`                           | 著者名                                                   |
+| `<%label%>`                            | 出版社名                                                 |
+| `<%ranking%>`                          | 売上ランキング順位                                       |
+| `<%ranking_tag%> ... </%ranking_tag%>` | （売上ランキング情報が存在する場合のみ要素内を展開する） |
+| `<%platform%>`                         | プラットフォーム名                                       |
+| `<%image_small%>`                      | 商品画像(小) : img タグに展開                            |
+| `<%image_medium%>`                     | 商品画像(中) : img タグに展開                            |
+| `<%image_large%>`                      | 商品画像(大) : img タグに展開                            |
+| `<%comment%>`                          | コメント（任意文字列）                                   |
+| `<%link_text%>`                        | （固定文字列） Amazon への誘導リンクテキスト             |
+| `<%link_url%>`                         | Amazon へのリンクURL                                     |
+| `<%amakuri%>`                          | （固定文字列） [Amakuri] へのクレジット表記              |
+| `<%amakuri_url%>`                      | （固定文字列） [Amakuri] への                            |
+| `<%posted_date%>`                      | 作成日（例: 2014.8.28）                                  |
+| `<%hanbai_price%>`                     | 販売価格                                                 |
+| `<%hanbai_tag%> ... <%/hanbai_tag%>`   | （販売価格情報が存在する場合のみ要素内を展開する）       |
 
 出版日のタグがないのがなぁ。
 せめて年だけでも...
