@@ -1,7 +1,7 @@
 +++
 title = "Java 11 がリリース"
 date = "2018-09-27T09:57:29+09:00"
-update = "2018-10-07T09:10:11+09:00"
+update = "2018-10-21T19:16:32+09:00"
 description = "Oracle Java に関しては，予告どおり，有償の LTS (Long Term Support) としてのリリースとなる。"
 image = "/images/attention/tools.png"
 tags  = [ "programming", "language", "java", "engineering" ]
@@ -64,12 +64,33 @@ Java 9 以降でそれを投げ捨ててしまった今， Java の優位性は�
 
 まぁ Java 8 互換バージョンを legacy Java としてできるだけ維持しつつ徐々に Java 縛りから脱却するのが中長期戦略として妥当だと思うのだけどねぇ。
 
+## 【2018-10-21 追記】 Java 11.0.1 がリリース（セキュリティ・リリース）
+
+2018年10月の定期アップデートに伴い脆弱性の報告が行われている。
+
+- [Oracle Java の脆弱性対策について(CVE-2018-3183等)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20181017-jre.html)
+- [2018年10月 Oracle 製品のクリティカルパッチアップデートに関する注意喚起](http://www.jpcert.or.jp/at/2018/at180042.html)
+
+Oracle Java だけでなく [OpenJDK] も更新されているのでアップデートを行うこと。
+以下は Windows 64bit 版の場合
+
+```text
+$ java --version
+openjdk 11.0.1 2018-10-16
+OpenJDK Runtime Environment 18.9 (build 11.0.1+13)
+OpenJDK 64-Bit Server VM 18.9 (build 11.0.1+13, mixed mode)
+```
+
+アップデートは計画的に。
+
 ## ブックマーク
 
 - [Java 11正式版がリリース、本バージョンからOracle JDKのサポートは有償に。OpenJDKで無償の長期サポート提供は現時点で期待薄 － Publickey](https://www.publickey1.jp/blog/18/java_11oracle_jdkopenjdk.html)
 - [Microsoft Azure上での実行目的ならJavaの長期サポート（LTS）を無料提供、MacやWindowsでの開発用途もOK。マイクロソフトとAzul Systemsが提携で － Publickey](https://www.publickey1.jp/blog/18/microsoft_azurejavaltsmacwindowsokazul_systems.html)
 - [【GlassFish勉強会レポート】各JDKベンダの動向を知ってJava 11に備えよう：レポート｜gihyo.jp … 技術評論社](https://gihyo.jp/news/report/2018/10/0501)
 - [Java Is Still Free - Google Document](https://docs.google.com/document/d/1nFGazvrCvHMZJgFstlbzoHjpAVwv5DEdnaBr_5pKuHo/edit#heading=h.p3qt2oh5eczi)
+- [Oracle、「Java SE 11.0.1」「Java SE 8 Update 191」を公開 ～12件の脆弱性を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1148283.html)
+- [Oracle、Javaやデータベースなど301件の脆弱性を修正　速やかに適用を - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1810/17/news074.html)
 
 - [Java 環境のリリースとサポートに関する覚え書き]({{< ref "/remark/2018/02/release-cycle-of-java-environment.md" >}})
 
