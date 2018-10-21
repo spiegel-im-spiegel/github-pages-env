@@ -1,6 +1,6 @@
 +++
 date = "2016-02-21T22:33:47+09:00"
-update = "2016-02-22T14:12:09+09:00"
+update = "2018-10-21T14:57:24+09:00"
 description = "最近の子どもは知らないが，私はこれ（誤差論）を大学に入ってから正式に習った。「小学生には無理」とは言わないが，有効桁数を含め誤差について論じるのならきちんと手順を踏んで教える必要がある。"
 draft = false
 tags = ["math"]
@@ -123,7 +123,7 @@ func main() {
 ちなみに円周率は先ほどの計算結果を考慮して大きめに 3.1416 としてみた。
 
 [^0]: 有効桁数が云々というのなら他の誤差評価も必ず必要。なお，ここでは誤差を平均2乗誤差とみなす。
-[^1]: 平均2乗誤差の $11.00\pm0.40\,\mathrm{cm}$ は厳密には「測定値が 10.6 から 11.4 の間にある」という意味ではないのだが，ここでは計算結果の振れ方を見て欲しいので，こんな感じになっている。専門家の方，怒らないでね。
+[^1]: 平均2乗誤差の $11.00\pm0.40\,\mathrm{cm}$ は厳密には「測定値が 10.6 から 11.4 の間にある」という意味ではない（ふつうは測定結果に対する平均や標準偏差等から誤差を求め，求めた誤差から測定の精度を評価する）のだが，ここでは計算結果の振れ方を見て欲しいので，こんな感じになっている。専門家の方，怒らないでね。
 
 ```go
 package main
@@ -221,12 +221,40 @@ func main() {
 高校の数学レベルでいけるはず。
 あるいは結城浩さんの「数学ガール」シリーズを読む手もある。
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4797382317/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/411g%2BaRmCzL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4797382317/baldandersinf-22/">数学ガールの秘密ノート/微分を追いかけて</a></dt><dd>結城 浩 </dd><dd>SBクリエイティブ 2015-04-18</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797375698/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4797375698.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート/数列の広場"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/479737568X/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/479737568X.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート/丸い三角関数"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797374152/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4797374152.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート/整数で遊ぼう"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4480095268/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4480095268.09._SCTHUMBZZZ_.jpg"  alt="数学文章作法 推敲編 (ちくま学芸文庫)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/434402740X/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/434402740X.09._SCTHUMBZZZ_.jpg"  alt="数学の言葉で世界を見たら 父から娘に贈る数学"  /></a> </p>
-<p class="description" >三角関数や微分方程式は物理学，特に天文学を理解するには必須の道具。学校で教えてくれるのを待ってる暇はないのだよ。そして三角関数や微分（と積分）を理解すると理科も数学も抜群に面白くなる。</p>
-<p class="gtools" >reviewed by <a href="#maker" class="reviewer">Spiegel</a> on <abbr class="dtreviewed" title="2015-04-30">2015/04/30</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html">G-Tools</a>)</p>
+## 参考図書
+
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00Y9EYOIW/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41pgiwRb0zL._SL160_.jpg" width="111" height="160" alt="数学ガールの秘密ノート／微分を追いかけて"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00Y9EYOIW/baldandersinf-22">数学ガールの秘密ノート／微分を追いかけて</a></dt>
+    <dd>結城 浩</dd>
+    <dd>SBクリエイティブ</dd>
+    <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </span></dd>
+  </dl>
+  <p class="description">三角関数や微分方程式は物理学，特に天文学を理解するには必須の道具。学校で教えてくれるのを待ってる暇はないのだよ。そして三角関数や微分（と積分）を理解すると理科も数学も抜群に面白くなる。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.21</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4320030885/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/41n4-gFkFPL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4320030885/baldandersinf-22/">基礎物理学実験 増訂版</a></dt><dd>下村 健次 </dd><dd>共立出版 1977-10-05</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl>
-<p class="description">学生時代，私はコレで実験の基礎を習いました。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-02-21">2016-02-21</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4320030885/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41n4-gFkFPL._SL160_.jpg" width="113" height="160" alt="基礎物理学実験 増訂版"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4320030885/baldandersinf-22">基礎物理学実験 増訂版</a></dt>
+    <dd>下村 健次, 井上 則好, 上垣内 孝彦, 大内 侃, 小此木 久一郎, 岡本 哲彦, 尾田 年充</dd>
+    <dd>共立出版</dd>
+    <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </span></dd>
+  </dl>
+  <p class="description">>学生時代，私はコレで実験の基礎を習いました。もちろん絶版本。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.21</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>

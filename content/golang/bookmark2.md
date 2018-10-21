@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T23:59:59+09:00"
-update = "2018-10-13T23:08:02+09:00"
+update = "2018-10-21T13:35:22+09:00"
 description = "「Go 言語に関するブックマーク」に整理しきれない未整理分。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -130,3 +130,4 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [Go GoCSVでShift_JISでCRLFなCSVを作る](https://qiita.com/hiro9/items/ff9333fcf66c8a3f1c3c) : `github.com/gocarina/gocsv` というパッケージが便利っぽい
 - [Golangでグラフを描く](https://qiita.com/yutsuki/items/7de97e09289a915f86b9)
 - [grpcの練習がてらgoのディレクトリ転送パッケージを作成した](https://qiita.com/youtanagai/items/73557a8be4f643d044b8)
+- [golangによるグラフ理論ライブラリの実装](https://qiita.com/G0nta/items/7455fd0656693dd17ef6)

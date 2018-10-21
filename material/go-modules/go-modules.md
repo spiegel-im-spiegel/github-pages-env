@@ -348,6 +348,7 @@ builds:
 
 - [go - The Go Programming Language](https://golang.org/cmd/go/)
 - [Go 1.11 リリースノート（和訳） - Qiita](https://qiita.com/pokeh/items/c6511ca15c9a33b48fcc)
+- [Go 1.11 の modules・vgo を試す - 実際に使っていく上で考えないといけないこと #golang | Wantedly Engineer Blog](https://www.wantedly.com/companies/wantedly/post_articles/132270)
 - [Go 1.11 のリリースと「モジュール」機能の実験的サポート — リリース情報 | text.Baldanders.info](http://text.baldanders.info/release/2018/09/go-1_11-ise-released/)
 - [Using Go modules with Travis CI | Dave Cheney](https://dave.cheney.net/2018/07/16/using-go-modules-with-travis-ci)
 

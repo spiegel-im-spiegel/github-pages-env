@@ -9,6 +9,13 @@
     <dt><a href="<%link_url%>"><%title%></a></dt>
     <dd><%author%></dd>
     <dd><%label%></dd>
+    <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+      <i class="far fa-star"></i>
+    </span></dd>
   </dl>
   <p class="description"><%comment%></p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed"><%posted_date%></abbr> (powered by <a href="<%amakuri_url%>" >Amakuri</a>)</p>

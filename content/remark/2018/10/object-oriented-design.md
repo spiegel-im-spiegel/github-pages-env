@@ -1,7 +1,7 @@
 +++
 title = "「オブジェクト指向」の黒歴史"
 date = "2018-10-11T18:54:19+09:00"
-update = "2018-10-11T20:45:15+09:00"
+update = "2018-10-21T13:34:31+09:00"
 description = "オブジェクト指向の価値を利便性に置くという考え方には激しく同意する。"
 image = "/images/attention/kitten.jpg"
 tags = [ "engineering", "object-oriented", "design", "programming", "language" ]
@@ -118,6 +118,7 @@ Go 言語の構造的部分型（structural subtyping）のような記述だっ
 ## ブックマーク
 
 - [バッドノウハウと「奥が深い症候群」](http://0xcc.net/misc/bad-knowhow.html)
+- [なぜPythonはこんなにも遅いのか？ | POSTD](https://postd.cc/why-is-python-so-slow/)
 
 - [「null 安全」について]({{< ref "/remark/2016/11/null-safety.md" >}})
 - [きみは Generics がとくいなフレンズなんだね，または「制約は構造を生む」]({{< ref "/remark/2017/03/generics-vs-duck-typing.md" >}})

@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-10-19T15:16:01+09:00"
+update = "2018-10-20T23:07:55+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -789,6 +789,13 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
       <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4621300253/baldandersinf-22">プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)</a></dt>
       <dd>Alan A.A. Donovan, Brian W. Kernighan</dd>
       <dd>丸善出版</dd>
+	  <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </span></dd>
   </dl>
   <p class="description">著者のひとりは（あの「バイブル」とも呼ばれる）通称 “K&amp;R” の K のほうである。</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.19</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
@@ -800,6 +807,13 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
       <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4908686033/baldandersinf-22">Goならわかるシステムプログラミング</a></dt>
       <dd>渋川 よしき</dd>
       <dd>ラムダノート</dd>
+	  <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </span></dd>
   </dl>
   <p class="description">ァイルやソケットなどに代表される順次アクセスの汎化である io.Reader / io.Writer およびその派生・特化クラス，またプロセスやスレッドに関する解説が秀逸だと思う。 さらに Docker コアの libcontainer についても解説がある。</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.19</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
@@ -811,6 +825,13 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
       <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/477418392X/baldandersinf-22">みんなのGo言語【現場で使える実践テクニック】</a></dt>
       <dd>松木雅幸, mattn, 藤原俊一郎, 中島大一, 牧 大輔, 鈴木健太</dd>
       <dd>技術評論社</dd>
+	  <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </span></dd>
   </dl>
   <p class="description">リファレンス本なのに索引が貧弱。これなら Kindle で買ってもよかったか。 1.7 への言及があるのはよかった。</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.19</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
@@ -822,6 +843,13 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
       <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4873117526/baldandersinf-22">Go言語によるWebアプリケーション開発</a></dt>
       <dd>Mat Ryer</dd>
       <dd>オライリージャパン</dd>
+	  <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </span></dd>
   </dl>
   <p class="description">日本語監訳者による解説（付録 B）が意外に役に立つ感じ。 Web アプリケーションだけでなく，サーバサイドで動く CLI アプリへの言及もある。</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.19</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>

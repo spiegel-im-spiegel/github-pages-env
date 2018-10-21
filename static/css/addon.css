@@ -12,7 +12,7 @@ main div.box {
   border: solid thin lightgray;
 }
 div.box p {
-  margin: 0;
+  margin: 0.5rem 0rem 0.5rem 0rem;
   line-height: 1.2
 }
 

@@ -1,7 +1,7 @@
 +++
 title = "『Go ならわかるシステムプログラミング』を眺める"
 date = "2018-10-19T15:31:01+09:00"
-update = "2018-10-19T20:45:14+09:00"
+update = "2018-10-20T23:07:55+09:00"
 description = "Go 言語でシステム寄りのプログラミングを行うのであれば，是非とも目を通しておくべきだろう。"
 image = "/images/attention/kitten.jpg"
 tags = [ "book", "golang", "engineering", "programming" ]
@@ -77,8 +77,33 @@ tags = [ "book", "golang", "engineering", "programming" ]
       <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4908686033/baldandersinf-22">Goならわかるシステムプログラミング</a></dt>
       <dd>渋川 よしき</dd>
       <dd>ラムダノート</dd>
+	  <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </span></dd>
   </dl>
   <p class="description">ァイルやソケットなどに代表される順次アクセスの汎化である io.Reader / io.Writer およびその派生・特化クラス，またプロセスやスレッドに関する解説が秀逸だと思う。 さらに Docker コアの libcontainer についても解説がある。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.19</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+</div>
+
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4621300253/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41meaSLNFfL._SL160_.jpg" width="123" height="160" alt="プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)"></a></div>
+	<dl class="fn">
+      <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4621300253/baldandersinf-22">プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)</a></dt>
+      <dd>Alan A.A. Donovan, Brian W. Kernighan</dd>
+      <dd>丸善出版</dd>
+	  <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </span></dd>
+  </dl>
+  <p class="description">著者のひとりは（あの「バイブル」とも呼ばれる）通称 “K&amp;R” の K のほうである。</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.19</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>
 

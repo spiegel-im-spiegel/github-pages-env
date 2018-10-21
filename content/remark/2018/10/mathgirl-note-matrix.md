@@ -1,6 +1,7 @@
 +++
 title = "『数学ガールの秘密ノート／行列が描くもの』を読んで子供の頃を思い出す"
 date = "2018-10-20T15:39:26+09:00"
+update = "2018-10-21T18:21:51+09:00"
 description = "今回の『行列が描くもの』は，私には微妙に違和感があるものだった。この違和感については何となく思い当たることがある。"
 image = "/images/attention/kitten.jpg"
 tags = ["book", "math", "matrix"]
@@ -26,8 +27,10 @@ tags = ["book", "math", "matrix"]
 
 （脚注に若干のネタバレあり）
 
-私が学校で行列を習ったのっていつだっけ？ 高校生かな？ 大昔のことで忘れてしまったよ（笑） 今はどうなんだろう。
+私が学校で行列を習ったのっていつだっけ？ 高校生かな？ 大昔のことで忘れてしまったよ（笑） 今はどうなんだろう[^mm1]。
 『[行列が描くもの]』本編を読む限り今だに高校で習うっぽいけど。
+
+[^mm1]: Twitter で教えていただいたが，[最近の高校生は行列を学ばないらしい](https://twitter.com/hyuki/status/1053935701270573056)。もったいない（笑）
 
 学校教育の「行列」って「三角関数」と並んで躓きやすいところだよね。
 私はこの辺りから公式集が手放せなくなった。
@@ -86,6 +89,13 @@ tags = ["book", "math", "matrix"]
     <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B07JB2MSQT/baldandersinf-22">数学ガールの秘密ノート／行列が描くもの</a></dt>
     <dd>結城 浩</dd>
     <dd>SBクリエイティブ</dd>
+	<dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </span></dd>
   </dl>
   <p class="description">三角関数，ベクトルときたら次は行列だよね。リサちゃん大活躍で嬉しい。</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
@@ -97,6 +107,13 @@ tags = ["book", "math", "matrix"]
     <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00W6NCLJM/baldandersinf-22">数学ガールの秘密ノート／丸い三角関数</a></dt>
     <dd>結城 浩</dd>
     <dd>SBクリエイティブ</dd>
+	<dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </span></dd>
   </dl>
   <p class="description">丸と三角の楽しい関係。頑張れば小学生高学年でも大丈夫。</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
@@ -108,6 +125,13 @@ tags = ["book", "math", "matrix"]
     <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B018VE46YW/baldandersinf-22">数学ガールの秘密ノート／ベクトルの真実</a></dt>
     <dd>結城 浩</dd>
     <dd>SBクリエイティブ</dd>
+	<dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </span></dd>
   </dl>
   <p class="description">図形（具象）と数式（抽象）の往復は楽しい。</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
@@ -119,6 +143,13 @@ tags = ["book", "math", "matrix"]
     <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00EYXMA9I/baldandersinf-22">数学ガール</a></dt>
     <dd>結城 浩</dd>
     <dd>SBクリエイティブ</dd>
+	<dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </span></dd>
   </dl>
   <p class="description">ミルカさんとの衝撃の encounter。数学ガールがワルツを踊る。</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
@@ -130,6 +161,13 @@ tags = ["book", "math", "matrix"]
     <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4621045938/baldandersinf-22">いかにして問題をとくか</a></dt>
     <dd>G. ポリア</dd>
     <dd>丸善</dd>
+	<dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </span></dd>
   </dl>
   <p class="description">数学書。というか問いの立てかたやものの考え方についての指南書。のようなものかな。</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
@@ -141,6 +179,13 @@ tags = ["book", "math", "matrix"]
     <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4805202254/baldandersinf-22">天体の位置計算</a></dt>
     <dd>長沢 工</dd>
     <dd>地人書館</dd>
+	<dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+    </span></dd>
   </dl>
   <p class="description">B1950.0 分点から J2000.0 分点への過渡期に書かれた本なので情報が古いものもあるが，基本的な内容は位置天文学の教科書として充分通用する。</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
@@ -152,6 +197,13 @@ tags = ["book", "math", "matrix"]
     <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4320001389/baldandersinf-22">数学公式集 (共立全書 (138))</a></dt>
     <dd>小林 幹雄</dd>
     <dd>共立出版</dd>
+	<dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+    </span></dd>
   </dl>
   <p class="description">学生の頃から愛用している数学公式集。簡潔な記述がグッド！ 現在は絶版で<a href="https://www.amazon.co.jp/exec/obidos/ASIN/4320017854/baldandersinf-22/">新装版</a>が出ているらしい。</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
@@ -163,6 +215,13 @@ tags = ["book", "math", "matrix"]
     <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4257904623/baldandersinf-22">ちまりまわるつ (Izumi Takemoto dashinaoshi)</a></dt>
     <dd>竹本 泉</dd>
     <dd>朝日ソノラマ</dd>
+	<dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </span></dd>
   </dl>
   <p class="description">竹本泉さんの魔法（ちまちまじっく）世界線の原点とも言える作品。ただしリニューアル版。</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
