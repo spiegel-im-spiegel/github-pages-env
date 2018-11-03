@@ -25,7 +25,7 @@ tags = [ "book", "golang", "programming", "concurrency", "goroutine", "channel",
   mermaidjs = false
 +++
 
-やぁ！ ついに “Concurrency in Go” の邦訳版が登場したですよ。
+やぁ！ ついに “[Concurrency in Go](https://katherine.cox-buday.com/concurrency-in-go/)” の邦訳版が登場したですよ。
 めでたい！
 
 [Go 言語]の特徴はいくつかあるが，大きなものとして「並行処理[^cm1]」を前提とした言語設計が挙げられる。
