@@ -1,10 +1,10 @@
 +++
 title = "time.Ticker で遊ぶ"
 date = "2018-03-01T20:28:49+09:00"
-update = "2018-11-03T09:50:43+09:00"
+update = "2018-11-03T21:25:18+09:00"
 description = "複数の goroutine が協調して動いている場合は SIGNAL イベントに対して全ての goroutine が適切に処理を行う必要がある。"
 image = "/images/attention/go-code2.png"
-tags        = [ "golang", "programming", "time", "channel", "context", "goroutine", "concurrency" ]
+tags = [ "golang", "programming", "time", "channel", "context", "goroutine", "concurrency", "message-passing" ]
 
 [author]
   name      = "Spiegel"
