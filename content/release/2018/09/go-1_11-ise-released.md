@@ -1,7 +1,7 @@
 +++
 title = "Go 1.11 のリリースと「モジュール」機能の実験的サポート"
 date = "2018-09-26T13:53:04+09:00"
-update = "2018-10-06T19:03:01+09:00"
+update = "2018-11-03T10:15:28+09:00"
 description = "「モジュール」とは，これまで vgo (Versioned Go) として開発が進められてきたものである。この機能について簡単に紹介する。"
 image = "/images/attention/tools.png"
 tags  = [ "programming", "language", "golang", "engineering", "module", "vendoring", "versioning" ]
@@ -242,6 +242,12 @@ require (
 
 {{% fig-quote title="Release History - The Go Programming Language" link="https://golang.org/doc/devel/release.html#go1.11.minor" %}}
 “go1.11.1 (released 2018/10/01) includes fixes to the compiler, documentation, go command, runtime, and the `crypto/x509`, `encoding/json`, `go/types`, `net`, `net/http`, and `reflect` packages. See the [Go 1.11.1 milestone](https://github.com/golang/go/issues?q=milestone%3AGo1.11.1) on our issue tracker for details.”
+{{% /fig-quote %}}
+
+## 【2018-11-03 追記】 Go 1.11.2 がリリース
+
+{{% fig-quote title="Release History - The Go Programming Language" link="https://golang.org/doc/devel/release.html#go1.11.minor" %}}
+“go1.11.2 (released 2018/11/02) includes fixes to the compiler, linker, documentation, go command, and the database/sql and go/types packages. See the [Go 1.11.2 milestone](https://github.com/golang/go/issues?q=milestone%3AGo1.11.2) on our issue tracker for details.”
 {{% /fig-quote %}}
 
 ## ブックマーク
