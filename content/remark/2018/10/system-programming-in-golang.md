@@ -1,10 +1,10 @@
 +++
 title = "『Go ならわかるシステムプログラミング』を眺める"
 date = "2018-10-19T15:31:01+09:00"
-update = "2018-10-20T23:07:55+09:00"
+update = "2018-11-03T09:50:43+09:00"
 description = "Go 言語でシステム寄りのプログラミングを行うのであれば，是非とも目を通しておくべきだろう。"
 image = "/images/attention/kitten.jpg"
-tags = [ "book", "golang", "engineering", "programming" ]
+tags = [ "book", "golang", "engineering", "programming", "concurrency" ]
 
 [author]
   name      = "Spiegel"
@@ -52,11 +52,7 @@ tags = [ "book", "golang", "engineering", "programming" ]
 
 ## ブックマーク
 
-- [Go言語の並行性を映像化する | プログラミング | POSTD](http://postd.cc/go_concurrency_visualize/)
-- [Go言語の並行処理デザインパターン by Rob Pike 前編 - Qiita](http://qiita.com/tfutada/items/a289628d8b2d0af6152d)
-    - [Go言語の並行処理デザインパターン by Rob Pike 後編 - Qiita](http://qiita.com/tfutada/items/dc8db894ac270a79ef2b)
-- [Big Sky :: golang の channel を使ったテクニックあれこれ](http://mattn.kaoriya.net/software/lang/go/20160706165757.htm)
-- [Big Sky :: Go 言語の非同期パターン](https://mattn.kaoriya.net/software/lang/go/20180531104907.htm)
+- [『Go 言語による並行処理』は Go 言語プログラマ必読書だろう]({{< ref "/remark/2018/11/concurrency-in-go.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`syscall`]: https://golang.org/pkg/syscall/ "syscall - The Go Programming Language"
@@ -104,16 +100,5 @@ tags = [ "book", "golang", "engineering", "programming" ]
       </span></dd>
   </dl>
   <p class="description">著者のひとりは（あの「バイブル」とも呼ばれる）通称 “K&amp;R” の K のほうである。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.19</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4873118468/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51pUKQajnaL._SL160_.jpg" width="125" height="160" alt="Go言語による並行処理"></a></div>
-	<dl class="fn">
-      <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4873118468/baldandersinf-22">Go言語による並行処理</a></dt>
-      <dd>Katherine Cox-Buday</dd>
-      <dd>オライリージャパン</dd>
-  </dl>
-  <p class="description"></p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.19</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>

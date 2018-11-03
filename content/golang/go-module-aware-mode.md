@@ -1,8 +1,8 @@
 +++
 title = "モジュール対応モードへの移行を検討する"
 date = "2018-10-22T15:55:11+09:00"
-update = "2018-10-22T16:13:52+09:00"
-description = "だからみんな。なにはさておき go.mod ファイルを作成するんだ！"
+update = "2018-10-23T13:48:39+09:00"
+description = "みんな。なにはさておき go.mod ファイルを作成するんだ！"
 image = "/images/attention/go-logo_blue.png"
 tags  = [ "golang", "engineering", "module", "versioning" ]
 
