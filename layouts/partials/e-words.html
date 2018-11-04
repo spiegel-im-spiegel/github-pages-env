@@ -7,8 +7,9 @@
 }
 </style>
 <h1>Technical Terms</h1>
-<div class="cloud" style="font-size:smaller;">
+<div class="cloud" style="font-size:smaller;">{{ if .Site.IsServer }}
+<p>Running in Hugo server mode.</p>{{ else }}
 <script src="http://e-words.jp/embed.x?e=utf8"></script>
 <p class="right">Powered by <a href="http://e-words.jp/p/s-embed.html">e-Words</a></p>
-</div>
+{{ end }}</div>
 </aside>
