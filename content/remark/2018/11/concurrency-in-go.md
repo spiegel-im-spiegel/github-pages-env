@@ -1,7 +1,7 @@
 +++
 title = "『Go 言語による並行処理』は Go 言語プログラマ必読書だろう"
 date = "2018-11-03T09:50:43+09:00"
-update = "2018-11-04T10:40:59+09:00"
+update = "2018-11-10T19:07:16+09:00"
 description = "並行処理プログラミングが難しいのは，デザイン・パターンの熟成がまだ若いことと，パターンの組み合わせの選択が複雑な点にあると思う。"
 image = "/images/attention/kitten.jpg"
 tags = [ "book", "golang", "programming", "concurrency", "goroutine", "channel", "context", "message-passing" ]
@@ -46,7 +46,6 @@ OS スレッドの仕様がどうなってるとか無駄にデカいスレッ�
 
 Channel は入出力プリミティブで，これによって goroutine 間のメッセージ・パッシング（message passing）を実現している。
 たとえば以下のような感じで記述する[^ch1]。
-`go` キーワードでキックされた関数が sub goroutine となる。関数閉包（closure）になっている点に注目。
 
 [^ch1]: 受信（`<-chan`）は単項演算子で，送信（`chan<-`）は送信構文（send statement）で記述する。
 
@@ -65,6 +64,8 @@ func main() {
 }
 ```
 
+（`go` 構文（[go statement](https://golang.org/ref/spec#Go_statements "The Go Programming Language Specification - The Go Programming Language")）でキックされた関数が sub goroutine となる。関数閉包（closure）になっている点に注目）
+
 これらに加えて，同期をとるための [`sync`] パッケージやコールグラフの各枝をキャンセルするための [`context`] パッケージが標準ライブラリで用意されている。
 
 メッセージ・パッシングを構成するか [`sync`] パッケージ等を用いて legacy なメモリアクセス同期を構成するか（あるいはそれらを組み合わせるか）の判断は難しいが，2.4章に大まかな指針が挙げられているので参考になるだろう。
@@ -79,12 +80,16 @@ func main() {
 並行処理プログラミングが難しいのは，デザイン・パターン（4章で言及されている）の熟成がまだ若いこと，パターンの組み合わせ最適化が複雑なこと，もっと言うなら並行処理の設計は context driven であること，にあると思う（だからこそ [`context`] パッケージは秀逸なのよ）。
 デザイン・パターンは（数学の公式と同じく）思考のショートカットなので，そのパターンを構成することの意味を分かった上で適用しないと失敗することが多いんじゃないだろうか。
 
+この本を読んで「よっしゃ，明日から立派な goroutine 使いだ！」とはならないと思うけど，有象無象なコピペ・プログラマじゃなく，きちんと [Go 言語]のプログラミングを勉強したいのであれば，この本は必読書になると思う。
+少なくとも（立ち読みででも）2章までは熟読すべき。
+
 ところで余談だが，補遺Bは日本語版オリジナルの章だそうだけど，その中に [Go 2 ドラフト](https://blog.golang.org/go2draft "Go 2 Draft Designs - The Go Blog")で提案されている Generics についてしれっと書かれている。
 
 {{< fig-youtube id="6wIP3rO6On8" title="Go 2 Drafts Announcement - YouTube" >}}
 
-この本を読んで「よっしゃ，明日から立派な goroutine 使いだ！」とはならないと思うけど，有象無象なコピペ・プログラマじゃなく，きちんと [Go 言語]のプログラミングを勉強したいのであれば，この本は必読書になると思う。
-少なくとも（立ち読みででも）2章までは熟読すべき。
+次期 [Go 言語]に搭載される（かもしれない） Generics についての解説は以下を参考にどうぞ。
+
+- [Go 2のgenerics/contract簡易まとめ](https://qiita.com/lufia/items/242d25e8c93d88e22a2e)
 
 ## ブックマーク
 
@@ -94,7 +99,6 @@ func main() {
 - [Go言語の並行性を映像化する | プログラミング | POSTD](http://postd.cc/go_concurrency_visualize/)
 - [Go言語の並行処理デザインパターン by Rob Pike 前編 - Qiita](http://qiita.com/tfutada/items/a289628d8b2d0af6152d)
     - [Go言語の並行処理デザインパターン by Rob Pike 後編 - Qiita](http://qiita.com/tfutada/items/dc8db894ac270a79ef2b)
-- [Go 2のgenerics/contract簡易まとめ](https://qiita.com/lufia/items/242d25e8c93d88e22a2e)
 
 - [time.Ticker で遊ぶ]({{< ref "/golang/ticker.md" >}})
 
