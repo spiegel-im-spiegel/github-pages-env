@@ -1,7 +1,7 @@
 +++
 description = "これはどちらが正しいかという問題ではない。"
 date = "2017-03-11T14:55:06+09:00"
-update = "2018-11-11T03:53:59+09:00"
+update = "2018-11-11T15:28:29+09:00"
 title = "きみは Generics がとくいなフレンズなんだね，または「制約は構造を生む」"
 draft = false
 tags = ["golang", "object-oriented", "java", "design", "refactoring", "generics"]
@@ -121,6 +121,7 @@ tags = ["golang", "object-oriented", "java", "design", "refactoring", "generics"
 {{< fig-youtube id="6wIP3rO6On8" title="Go 2 Drafts Announcement - YouTube" >}}
 
 - [Go 2のgenerics/contract簡易まとめ](https://qiita.com/lufia/items/242d25e8c93d88e22a2e)
+- [次期 Go 言語で導入される（かもしれない）総称型について予習する]({{< ref "/golang/generics-in-go-2.md" >}})
 
 ## ブックマーク
 

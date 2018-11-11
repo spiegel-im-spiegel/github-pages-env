@@ -1,6 +1,6 @@
 +++
 date = "2015-12-15T21:19:58+09:00"
-update = "2018-01-23T16:07:00+09:00"
+update = "2018-11-11T15:28:29+09:00"
 description = "Go 言語がいわゆる「オブジェクト指向言語」と言えるかどうかについては色々とあるようだが，オブジェクト指向プログラミングを助けるための仕掛けはいくつか存在する。今回はその中の type キーワードを中心に解説していく。"
 draft = false
 tags = ["golang", "object-oriented", "programming", "type", "interface"]
@@ -70,13 +70,13 @@ func main() {
 
 ちなみに構造体のフィールド（field）には構造体を含めることができ，入れ子構造にすることもできる。
 
-この他に配列（array/slice）や連想配列（map）あるいは関数値（function value）といったものもあるが，今回は踏み込まない[^slc]。
+この他に配列（slice[^slc] を含む）や連想配列（map）あるいは関数値（function value）といったものもあるが，今回は踏み込まない。
 
-[^slc]: slice については「[素数探索アルゴリズムで遊ぶ]({{< relref "search-prime-numbers.md" >}})」で少し紹介している。
+[^slc]: 配列と slice の関係については「[配列と Slice]({{< relref "array-and-slice.md" >}})」で紹介している。
 
 ## 型に名前を付ける
 
-全ての型には [type] キーワードを使って名前を付けることができる。
+全ての型には [type] キーワードを使った宣言（type declaration）により名前を付けることができる。
 例えば先ほどのコードは
 
 ```go
@@ -97,10 +97,10 @@ func main() {
 
 と書き直すことができる。
 
-[type] キーワードが使えるのは構造体だけではない。
-上述の基本型も [type] キーワードを使って型を再定義できる。
+[type] 宣言が使えるのは構造体だけではない。
+上述の基本型も [type] 宣言を使って型を再定義できる。
 
-たとえば，2つの時点間の時間を表す [`time`].`Duration` は以下のように定義されている。
+たとえば，2つの時点間の時間を表す [`time`]`.Duration` は以下のように定義されている。
 
 ```go
 type Duration int64
@@ -112,13 +112,15 @@ type Duration int64
 type Msgs []string
 ```
 
-[type] キーワードを使って型に名前を付ける利点は3つある。
+[type] 宣言を使って型に名前を付ける利点は3つある。
 
 1. 名前を付けることでコードの可読性を上げる（オブジェクト指向設計では名前がとても重要）
 2. 再利用性の向上（特に構造体の場合）
 3. 型に関数を関連付けることができる。
 
-[type] キーワードによる名付けは単なる別名定義ではないということだ。
+[type] 宣言による名付けは単なる別名定義ではないということだ[^ta1]。
+
+[^ta1]: 型の別名定義はバージョン 1.9 から導入された。詳しくは「[Go 1.9 と Type Alias]({{< relref "go-1_9-and-type-alias.md" >}})」を参照のこと
 
 ## 型に関数を関連付ける
 
@@ -162,13 +164,15 @@ func main() {
 }
 ```
 
-のようにピリオドで関数を連結して記述する[^pr]。
+のようにインスタンスと関数をピリオドで連結して記述する[^pr]。
 
-[^call]: [Go 言語]の関数呼び出しにおいて引数の渡し方は基本的に「値渡し」である。インスタンスの値ではなく実体を渡すにはインスタンスへのポインタを値として渡せばよい。メソッド・レシーバについても同様で，関数の呼び出し側インスタンスが実体かポインタかに関わらず，実体渡しの場合は実体（のコピー）が，ポインタ渡しの場合は実体へのポインタが渡される。詳しくは「[関数とポインタ]({{< relref "function-and-pointer.md" >}})」を参照のこと。
-[^pr]: ちなみに [`fmt`].`Print` などでは引数の型が `String()` を持っていることを期待し，この関数の出力結果をデフォルト書式にしている。したがって `fmt.Println(vertex.String())` と `fmt.Println(vertex)` は同じ結果になる。
+[^call]: [Go 言語]の関数呼び出しにおいて引数の渡し方は基本的に「値渡し」である。詳しくは「[関数とポインタ]({{< relref "function-and-pointer.md" >}})」を参照のこと。
+[^pr]: ちなみに [`fmt`]`.Print` などでは引数の型が `String()` を持っていることを期待し，この関数の出力結果をデフォルト書式にしている。したがって `fmt.Println(vertex)` と書いても同じ結果になる。
 
 構造体そのものには関数を付与できない[^mt]。
 たとえば
+
+[^mt]: 他にも基本型や他パッケージで定義されている型に関数を追加することはできない。当たり前だけど。
 
 ```go
 package main
@@ -195,11 +199,9 @@ invalid receiver type struct { X int; Y int } (struct { X int; Y int } is an unn
 ```
 
 と怒られる。
-[type] キーワードによって型に名前が付けられていることが重要なのだ。
+[type] 宣言によって型に名前が付けられていることが重要なのだ。
 
-[^mt]: 他にも基本型や他パッケージで定義されている型に関数を追加することはできない。
-
-[Go 言語]には class キーワードはないが， [type] キーワードを使うことで，名前と属性と操作を持つクラスを記述することができる[^cls]。
+[Go 言語]には class キーワードはないが， [type] 宣言を使うことで，名前と属性と操作を持つクラスを記述することができる[^cls]。
 
 [^cls]: クラスは名前と属性と操作の3つの要素で構成されている。名前は他クラスと識別できるものを1個。属性と操作は0個以上存在する。 [Go 言語]では空のフィールドの [struct] を定義することにより0個の属性を持つクラスを構成できる。
 
@@ -218,7 +220,7 @@ invalid receiver type struct { X int; Y int } (struct { X int; Y int } is an unn
 
 ### 振る舞いのみを定義した型
 
-[interface] を使うと振る舞いのみを定義した型を表現することができる。
+[interface] を使うと振る舞いのみを定義した汎化クラスを表現することができる。
 
 [interface] で定義された型で最もよく目にするのは [error] だろう。
 [error] は以下のように定義できる[^er1]。
@@ -231,10 +233,10 @@ type error interface {
 }
 ```
 
-つまり [error] は「string 型を返す `Error()` 関数」のみが定義されている。
+定義が示すように [error] は「string 型を返す `Error()` 関数」のみが定義されている。
 逆に言うと「string 型を返す `Error()` 関数」を持つ全ての型は [error] の一種（つまり is-a 関係）であると見なすことができる[^dt]。
 
-[^dt]: [Go 言語]では Java の implement のような継承を明示するキーワードはない。記述された振る舞いからクラス関係を決定する方法を「構造的部分型（structural subtyping）」と呼ぶ。構造的部分型のメリットのひとつは多重継承で発生する様々な問題（名前の衝突や菱形継承など）を気にする必要がない点である。
+[^dt]: [Go 言語]では Java の implement のような interface クラスからの継承を明示するキーワードはない。記述された振る舞いからクラス関係を決定する方法を「構造的部分型（structural subtyping）」と呼ぶ。構造的部分型のメリットのひとつは多重継承で発生する様々な問題（名前の衝突や菱形継承など）を気にする必要がない点である。
 
 たとえば
 
@@ -251,19 +253,25 @@ type PathError struct {
 func (e *PathError) Error() string { return e.Op + " " + e.Path + ": " + e.Err.Error() }
 ```
 
-と定義される [`os`].`PathError` は [error] の一種である。
+と定義される [`os`]`.PathError` は [error] の一種である。
 
-[interface] も [type] キーワードで名前を付けることができ，他の型と同じように扱うことができる。
+[interface] も [type] 宣言で名前を付けることができ，他の型と同じように扱うことができる。
 さらに [interface] で定義した型は振る舞いのみで具体的な実装を含まないため，多態性を持たせた記述が可能になる[^if]。
 
-[^if]: たとえば `interface{}` と記述すればあらゆる型を含むことになる。これを利用して [`fmt`].`Print` は `func Print(a ...interface{}) (n int, err error) { ... }` と定義されている。ちなみに [Go 言語]にはいわゆる[「総称型」はサポートされていない](https://golang.org/doc/faq#generics)。
+[^if]: たとえば `interface{}` と記述すればあらゆる型を含むことになる。これを利用して [`fmt`]`.Print` は `func Print(a ...interface{}) (n int, err error) { ... }` と定義されている。
+
+### 将来バージョンで総称型（generics）がサポートされるかも。
+
+現行版の [Go 言語]ではいわゆる[「総称型」はサポートされていない](https://golang.org/doc/faq#generics)が，将来バージョンで導入される可能性がある。
+
+- [次期 Go 言語で導入される（かもしれない）総称型について予習する]({{< relref "generics-in-go-2.md" >}})
 
 ### 型の埋め込み
 
 もうひとつの汎化・特化の機能が型の埋め込み（embedding）である。
 構造体や [interface] には別の型を埋め込むことができる。
 
-たとえば [`io`].`ReadWriter` は以下のように `Reader` および `Writer` を埋め込んでいる。
+たとえば [`io`]`.ReadWriter` は以下のように `Reader` および `Writer` を埋め込んでいる。
 （このときの `Reader` および `Writer` を「埋め込みインタフェース（embedding interface）」と呼ぶ）
 
 ```go
@@ -289,7 +297,7 @@ type ReadWriter interface {
 これによって `ReadWriter` は `Read()` および `Write()` を自身の振る舞いのように扱うことができる。
 この場合も `ReadWriter` は `Reader` および `Writer` の一種であると見なすことができる。
 
-同様に [`bufio`].`ReadWriter` についても
+同様に [`bufio`]`.ReadWriter` についても
 
 ```go
 package bufio
@@ -307,8 +315,9 @@ func NewReadWriter(r *Reader, w *Writer) *ReadWriter {
 }
 ```
 
-と実装されていて， [`bufio`] の `Reader` および `Writer` を埋め込み，これらの型の一種として実装されている（このときの `Reader` および `Writer` を「埋め込みフィールド（embedded field）」または「匿名フィールド（anonymous field）」と呼ぶ）。
-なお， [`bufio`].`ReadWriter` は [`io`].`ReadWriter` の一種として機能している点にも注目してほしい。
+と実装されていて， [`bufio`] の `Reader` および `Writer` を埋め込み，これらの型の一種として実装されている。
+このときの `Reader` および `Writer` を「埋め込みフィールド（embedded field）」または「匿名フィールド（anonymous field）」と呼ぶ。
+[`bufio`]`.ReadWriter` は [`io`]`.ReadWriter` の一種として機能している点にも注目してほしい。
 
 ### 関数のオーバーライドと処理の委譲
 
@@ -348,10 +357,12 @@ func main() {
 }
 ```
 
-[error] の拡張として `ErrorInfo` を定義する。
-`ErrorInfo` では [error] を埋め込み，さらに `Errno()` を追加している。
-これを実装したのが `ErrorInfo1` である。
-したがって実行結果は “`Error Information: 1`” が出力される。
+[error] の拡張として `ErrorInfo` [interface] を定義する。
+`ErrorInfo` [interface] では [error] を埋め込み，さらに `Errno()` 関数を追加定義している。
+更に `ErrorInfo` [interface] に適合するクラスとして `ErrorInfo1` 型を作った。
+このコードの実行すると “`Error Information: 1`” が出力される。
+
+{{< fig-img src="./interface.svg" title="ErrorInfo interface" link="./interface.svg" >}}
 
 次に `ErrorInfo1` のバリエーションとして `ErrorInfo2` を追加してみよう。
 
@@ -397,27 +408,29 @@ func main() {
 }
 ```
 
-`ErrorInfo2` では `Error()` は `ErrorInfo1` のものをそのまま使い回したいが `Errno()` では異なる値を出力したい，と考えた。
-実行結果として “`Error Information: 2`” が出力されることを期待したが，実際には前回と同じ “`Error Information: 1`” が出力される。
+`ErrorInfo2` では `Error()` 関数は `ErrorInfo1` のものをそのまま使い回したいが `Errno()` 関数では異なる値を出力したい，と考えた。
+そこで `Errno()` 関数をオーバライドしようと考えた。
+図で書くと以下のような構成を期待したわけだ。
 
-埋め込みフィールド（`ErrorInfo1`）の関数の名前が埋め込みを行った型（`ErrorInfo2`）の名前と衝突する場合は埋め込みを行った型のほうが優先的される[^ovr] が，これは C++ や Java などにある仮想関数のオーバーライドとは少し異なる。
+{{< fig-img src="./override.svg" title="Override ?" link="./override.svg" width="518" >}}
 
-[^ovr]: 複数の型を埋め込んでいる場合，埋め込みフィールド間で名前が衝突しているフィールドや関数を使おうとするとコンパイルエラーになる。この場合は `err.ErrorInfo1.Error()` のように型を明示して回避できる。
+しかし実際には，期待した “`Error Information: 2`”  ではなく，前回と同じ “`Error Information: 1`” が出力される。
 
 上のコードでは `ErrorInfo2` と直接関連付けられた `Error()` がないため `ErrorInfo1` の `Error()` が呼ばれるが，その関数の中で呼ばれる `Errno()` は `ErrorInfo2` と関連付けられた関数ではなく `ErrorInfo1` と関連付けられた関数になる。
 
-{{< fig-img src="/images/delegation.svg" title="delegation" link="/images/delegation.svg" width="530" >}}
+{{< fig-img src="./delegation.svg" title="delegation" link="./delegation.svg" width="518" >}}
 
-これは [Go 言語]では埋め込みフィールドの関数呼び出しが「委譲」として機能しているためである[^ef]。
-たとえば C++ 言語では virtual 修飾子を付与して仮想関数化することで意図的にオーバーライドできるが[^dlg]， [Go 言語]ではこのような仕掛けがないため，呼ばれた関数は常に委譲として機能する。
+これは [Go 言語]では埋め込みフィールドの関数呼び出しが「委譲」として機能しているためである。
+たとえば C++ 言語では virtual 修飾子を付与して仮想関数化することで意図的にオーバーライドできるが[^dlg]， [Go 言語]ではこのような仕掛けがないため[^ef]，呼ばれた関数は常に委譲として機能する[^ovr]。
 
-[^ef]: [Go 言語]的には埋め込みフィールドはフィールドのバリエーションのひとつにすぎないため，動作も通常のフィールドが持つ関数を呼び出した場合と変わらない。そういう意味では構造体への埋め込みは，見かけ上は「is-a 関係」でも，実質的には「has-a 関係」に近いと言えるかもしれない。
 [^dlg]: 逆に Java では関数は常に仮想関数として機能しオーバーライドされる可能性がある。これを抑止するためには final 修飾子を付加する。
+[^ef]: [Go 言語]的には埋め込みフィールドはフィールドのバリエーションのひとつにすぎないため，動作も通常のフィールドが持つ関数を呼び出した場合と変わらない。そういう意味では構造体への埋め込みは，見かけ上は「is-a 関係」でも，実質的には「has-a 関係」に近いと言えるかもしれない。
+[^ovr]: 複数の型を埋め込んでいる場合，埋め込みフィールド間で名前が衝突しているフィールドや関数を使おうとするとコンパイルエラーになる。この場合は `err.ErrorInfo1.Error()` のように型を明示して回避できる。
 
 上の例はクラス構成からして明らかにダメダメなのだが，今回のポイントはサブクラスである `ErrorInfo2` から `Errno()` 関数を上書きすることでスーパークラス `ErrorInfo1` の `Error()` 関数の処理を書き換えようとした点にある。
 継承[^ih] の実装で一番よくあるミスがこの「カプセル化の破れ」で， [Go 言語]の場合は敢えて移譲を強制することでこの手の不具合が発生するのを回避しようとしているように見える。
 
-また，他の言語では明示的に委譲を実装しようとすると冗長な記述になることが多いが， [Go 言語]の場合は埋め込みを使うことでシンプルな記述で委譲を実装できる点がメリットと言える。
+他の言語では明示的に委譲を実装しようとすると冗長な記述になることが多いが， [Go 言語]の場合は埋め込みを使うことでシンプルな記述で委譲を実装できる点がメリットと言える。
 
 [^ih]: ここで言う継承は設計時の「汎化・特化」のことではなく，言語機能などを使った実装上の継承のこと。
 
@@ -446,3 +459,23 @@ func main() {
 [`io`]: https://golang.org/pkg/io/ "io - The Go Programming Language"
 [`bufio`]: https://golang.org/pkg/bufio/ "io - The Go Programming Language"
 [`unsafe`]: https://golang.org/pkg/unsafe/ "unsafe - The Go Programming Language"
+
+## 参考図書
+
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4621300253/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41meaSLNFfL._SL160_.jpg" width="123" height="160" alt="プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)"></a></div>
+    <dl class="fn">
+      <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4621300253/baldandersinf-22">プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)</a></dt>
+      <dd>Alan A.A. Donovan, Brian W. Kernighan</dd>
+      <dd>丸善出版</dd>
+      <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </span></dd>
+  </dl>
+  <p class="description">著者のひとりは（あの「バイブル」とも呼ばれる）通称 “K&amp;R” の K のほうである。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.19</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+</div>
