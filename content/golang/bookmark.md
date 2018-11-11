@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-11-03T08:59:03+09:00"
+update = "2018-11-11T03:53:59+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -110,6 +110,10 @@ title = "Go 言語に関するブックマーク"
 次期 Go 言語の仕様について
 
 - [Go 2 Draft Designs - The Go Blog](https://blog.golang.org/go2draft)
+- [Go 2 Draft Designs](https://go.googlesource.com/proposal/+/master/design/go2draft.md)
+    - [Error Inspection — Draft Design](https://go.googlesource.com/proposal/+/master/design/go2draft-error-inspection.md)
+    - [Generics — Problem Overview](https://go.googlesource.com/proposal/+/master/design/go2draft-generics-overview.md)
+    - [Contracts — Draft Design](https://go.googlesource.com/proposal/+/master/design/go2draft-contracts.md)
 - [Go 2のgenerics/contract簡易まとめ](https://qiita.com/lufia/items/242d25e8c93d88e22a2e)
 
 ## 言語仕様および標準パッケージに関すること
