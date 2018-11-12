@@ -1,0 +1,17 @@
+\def\target{blank.pdf}%% 対象PDFファイル名
+
+\documentclass{minimal}
+%%% 先頭ページの読み込み
+\pdfximage{\target}
+%%% pdfTeX の機能で BoundingBox を取得
+\dimen1=\pdfximagebbox\pdflastximage 1 %% 左下x
+\dimen2=\pdfximagebbox\pdflastximage 2 %% 左下y
+\dimen3=\pdfximagebbox\pdflastximage 3 %% 右上x
+\dimen4=\pdfximagebbox\pdflastximage 4 %% 右上y
+%%% 生成PDFのページサイズを決定
+\usepackage[papersize={\dimexpr(\dimen3-\dimen1)*2\relax,\dimexpr\dimen4-\dimen2\relax}]{geometry}
+\usepackage{pdfpages}
+
+\begin{document}
+\includepdf[nup=2x1,pages=-]{\target}
+\end{document}
