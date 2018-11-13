@@ -37,14 +37,17 @@ tags = [ "golang", "language", "programming", "generics", "type", "contract" ]
 
 紹介されているドラフト案は大きく2つある。
 
-- エラー・ハンドリングに関するもの
-    - [Error Inspection — Draft Design](https://go.googlesource.com/proposal/+/master/design/go2draft-error-inspection.md)
 - 総称型（generics）
     - [Generics — Problem Overview](https://go.googlesource.com/proposal/+/master/design/go2draft-generics-overview.md)
     - [Contracts — Draft Design](https://go.googlesource.com/proposal/+/master/design/go2draft-contracts.md)
+- エラー・ハンドリングに関するもの
+    - [Error Handling — Draft Design](https://go.googlesource.com/proposal/+/master/design/go2draft-error-handling.md)
+    - [Error Inspection — Draft Design](https://go.googlesource.com/proposal/+/master/design/go2draft-error-inspection.md)
+    - [Error Printing — Draft Design](https://go.googlesource.com/proposal/+/master/design/go2draft-error-printing.md)
 
-このうち今回は総称型について考えてみる。
-なお “Go 2” の総称型はまだドラフト段階なので大幅に変更になったり場合によっては立ち消えになる可能性もある。
+このうち今回は総称型について予習してみる。
+
+なお “Go 2” の提案はまだドラフト段階なので大幅に変更になったり場合によっては立ち消えになる可能性もある。
 なので，この記事では深いところまで踏み込まずフワっとした説明になるけど，あしからずご了承の程を。
 
 ## 総称型のメリット
