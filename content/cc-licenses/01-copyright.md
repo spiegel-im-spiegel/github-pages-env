@@ -1,6 +1,6 @@
 +++
 date = "2015-10-17T15:51:23+09:00"
-update = "2018-05-22T15:40:44+09:00"
+update = "2018-11-13T13:34:22+09:00"
 description = "まずは「著作権」について簡単におさらい。"
 tags = ["code", "law", "intellectual-property", "copyright"]
 title = "著作権と著作権法"
@@ -346,22 +346,61 @@ title = "著作権と著作権法"
 - [今後変わる？　リンクについての著作権法上の考え方　岡本健太郎｜コラム｜骨董通り法律事務所 For the Arts](http://www.kottolaw.com/column/001653.html)
 
 [本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
-[著作権法]: http://law.e-gov.go.jp/htmldata/S45/S45HO048.html "著作権法"
+[著作権法]: http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048 "著作権法"
 [CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
 
 ### 参考図書
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4757102852/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/41YkbcP5IyL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4757102852/baldandersinf-22/">著作権２．０ ウェブ時代の文化発展をめざして (NTT出版ライブラリー―レゾナント)</a></dt><dd>名和 小太郎 </dd><dd>エヌティティ出版 2010-06-24</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4569812902/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4569812902.09._SCTHUMBZZZ_.jpg"  alt="著作権法がソーシャルメディアを殺す (PHP新書)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4334037070/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4334037070.09._SCTHUMBZZZ_.jpg"  alt="「ネットの自由」vs.著作権: TPPは、終わりの始まりなのか (光文社新書)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4087202941/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4087202941.09._SCTHUMBZZZ_.jpg"  alt="著作権とは何か―文化と創造のゆくえ (集英社新書)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4166608347/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4166608347.09._SCTHUMBZZZ_.jpg"  alt="ビジネスパーソンのための契約の教科書 (文春新書 834)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798119806/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4798119806.09._SCTHUMBZZZ_.jpg"  alt="REMIX ハイブリッド経済で栄える文化と商業のあり方"  /></a> </p>
-<p class="description">名著です。今すぐ買うべきです。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-08-02">2014/08/02</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4757102852/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41YkbcP5IyL._SL160_.jpg" width="108" height="160" alt="著作権２．０ ウェブ時代の文化発展をめざして (NTT出版ライブラリー―レゾナント)"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4757102852/baldandersinf-22">著作権２．０ ウェブ時代の文化発展をめざして (NTT出版ライブラリー―レゾナント)</a></dt>
+    <dd>名和 小太郎</dd>
+    <dd>エヌティティ出版</dd>
+    <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </span></dd>
+  </dl>
+  <p class="description">名著です。今すぐ買うべきです。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.11.13</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4622073455/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/41WpTRWCAvL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4622073455/baldandersinf-22/">〈海賊版〉の思想‐18世紀英国の永久コピーライト闘争</a></dt><dd>山田 奨治 </dd><dd>みすず書房 2007-12-20</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4121023390/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4121023390.09._SCTHUMBZZZ_.jpg"  alt="ロラン・バルト -言語を愛し恐れつづけた批評家 (中公新書)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4087207846/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4087207846.09._SCTHUMBZZZ_.jpg"  alt="盗作の言語学 表現のオリジナリティーを考える (集英社新書)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4480689281/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4480689281.09._SCTHUMBZZZ_.jpg"  alt="18歳の著作権入門 (ちくまプリマー新書)"  /></a> </p>
-<p class="description">「コピーライト永久独占を目論む大書店主に挑む〈海賊出版者〉ドナルドソンの肖像。法廷闘争を軸に著作権を史的に考察する。」（帯文より）</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-10-17">2015-10-17</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4622073455/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41bepOIquwL._SL160_.jpg" width="111" height="160" alt="〈海賊版〉の思想‐18世紀英国の永久コピーライト闘争"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4622073455/baldandersinf-22">〈海賊版〉の思想‐18世紀英国の永久コピーライト闘争</a></dt>
+    <dd>山田 奨治</dd>
+    <dd>みすず書房</dd>
+    <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </span></dd>
+  </dl>
+  <p class="description">「コピーライト永久独占を目論む大書店主に挑む〈海賊出版者〉ドナルドソンの肖像。法廷闘争を軸に著作権を史的に考察する。」（帯文より）</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.11.13</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00SM7G6SI/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/41ZC-Qu61LL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00SM7G6SI/baldandersinf-22/">18歳の著作権入門 (ちくまプリマー新書)</a></dt><dd>福井健策 </dd><dd>筑摩書房 2015-01-10</dd><dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00R3U0XTS/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00R3U0XTS.09._SCTHUMBZZZ_.jpg"  alt="誰が「知」を独占するのか ――デジタルアーカイブ戦争 (集英社新書)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00RF1QG82/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00RF1QG82.09._SCTHUMBZZZ_.jpg"  alt="知的財産法入門 (岩波新書)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00W535LOU/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00W535LOU.09._SCTHUMBZZZ_.jpg"  alt="HARD THINGS　答えがない難問と困難にきみはどう立ち向かうか"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00RKUS0IC/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00RKUS0IC.09._SCTHUMBZZZ_.jpg"  alt="条文の読み方"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00J4ECEFW/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00J4ECEFW.09._SCTHUMBZZZ_.jpg"  alt="「ネットの自由」ＶＳ．著作権～ＴＰＰは、終わりの始まりなのか～ (光文社新書)"  /></a> </p>
-<p class="description">福井健策弁護士による「<a href="http://japan.cnet.com/sp/copyright_study/">18歳からの著作権入門</a>」の書籍化。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-05-07">2015/05/07</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00SM7G6SI/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41ZC-Qu61LL._SL160_.jpg" width="98" height="160" alt="18歳の著作権入門 (ちくまプリマー新書)"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00SM7G6SI/baldandersinf-22">18歳の著作権入門 (ちくまプリマー新書)</a></dt>
+    <dd>福井健策</dd>
+    <dd>筑摩書房</dd>
+    <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+    </span></dd>
+  </dl>
+  <p class="description">福井健策弁護士による「<a href="http://japan.cnet.com/sp/copyright_study/">18歳からの著作権入門</a>」の書籍化。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.11.13</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>

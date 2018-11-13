@@ -39,6 +39,6 @@ draft = true
 
 
 
-[著作権法]: http://law.e-gov.go.jp/htmldata/S45/S45HO048.html "著作権法"
+[著作権法]: http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048 "著作権法"
 [Creative Commons]: https://creativecommons.org/ "Creative Commons"
 [CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"

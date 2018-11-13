@@ -1,6 +1,6 @@
 +++
 date = "2016-01-26T20:29:34+09:00"
-update = "2018-05-10T22:46:43+09:00"
+update = "2018-11-13T13:34:22+09:00"
 description = "CC Licenses では「改変禁止」条件がなければ「翻案物を作成、複製および共有すること」を許諾する。また翻案物を受け取ったユーザは原著作者の許諾を（提示されている CC Licenses の条件に従って）自動的に得る。"
 draft = false
 tags = ["derivative-works", "creative-commons", "copyright", "license", "tpp"]
@@ -227,7 +227,7 @@ title = "二次的著作物と CC Licenses"
 - [Trans-Pacific Partnership Would Harm User Rights and the Commons - Creative Commons - Creative Commons](https://creativecommons.org/campaigns/trans-pacific-partnership-would-harm-user-rights-and-the-commons/)
 
 [本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
-[著作権法]: http://law.e-gov.go.jp/htmldata/S45/S45HO048.html "著作権法"
+[著作権法]: http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048 "著作権法"
 [Creative Commons]: https://creativecommons.org/ "Creative Commons"
 [CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
 [表示-継承]: https://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons — Attribution-ShareAlike 4.0 International — CC BY-SA 4.0"

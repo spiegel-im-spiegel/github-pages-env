@@ -3,7 +3,7 @@ tags = ["drm", "creative-commons", "copyright", "license"]
 draft = false
 description = "CC Licenses v4 では利用者側の技術的保護手段回避を許諾するという形に大きく変わった。"
 date = "2016-12-15T21:17:29+09:00"
-update = "2018-05-10T22:46:43+09:00"
+update = "2018-11-13T13:34:22+09:00"
 title = "CC Licenses における「技術的保護手段」の扱い"
 
 [author]
@@ -173,7 +173,7 @@ DRM についてはこれからも注視していく必要がある。
 - [Copyright Filtering Mechanisms Don’t (and can’t) Respect Fair Use - Creative Commons](https://creativecommons.org/2017/02/22/copyright-filtering-mechanisms-dont-cant-respect-fair-use/)
 
 [本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
-[著作権法]: http://law.e-gov.go.jp/htmldata/S45/S45HO048.html "著作権法"
+[著作権法]: http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048 "著作権法"
 [Creative Commons]: https://creativecommons.org/ "Creative Commons"
 [CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
 [表示-継承]: https://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons — Attribution-ShareAlike 4.0 International — CC BY-SA 4.0"

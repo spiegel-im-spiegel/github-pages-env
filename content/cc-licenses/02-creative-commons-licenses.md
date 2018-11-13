@@ -1,6 +1,6 @@
 +++
 date = "2015-11-08T20:10:15+09:00"
-update = "2018-11-13T10:00:52+09:00"
+update = "2018-11-13T13:34:22+09:00"
 description = "今回はいよいよ Creative Commons Licenses について解説する。"
 tags = ["creative-commons", "copyright", "license"]
 title = "Creative Commons Licenses"
@@ -559,14 +559,27 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 - [GitHub リポジトリに CC Licenses を設定したい - Qiita](https://qiita.com/spiegel-im-spiegel/items/0997f1693a24e3fd3a74)
 
 [本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
-[著作権法]: http://law.e-gov.go.jp/htmldata/S45/S45HO048.html "著作権法"
+[著作権法]: http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048 "著作権法"
 [前回]: {{< ref "/cc-licenses/01-copyright.md" >}} "著作権と著作権法 — 改訂3版： CC Licenses について"
 [Creative Commons]: https://creativecommons.org/ "Creative Commons"
 [CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
 
 ### 参考図書
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/475710152X/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/41WPNBY7HZL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/475710152X/baldandersinf-22/">クリエイティブ・コモンズ―デジタル時代の知的財産権</a></dt><dd>ローレンス レッシグ 椙山 敬士 上村 圭介 林 紘一郎 若槻 絵美 土屋 大洋 クリエイティブコモンズジャパン </dd><dd>NTT出版 2005-03</dd><dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798106801/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4798106801.09._SCTHUMBZZZ_.jpg"  alt="Free Culture"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798102040/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4798102040.09._SCTHUMBZZZ_.jpg"  alt="コモンズ"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798119806/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4798119806.09._SCTHUMBZZZ_.jpg"  alt="REMIX ハイブリッド経済で栄える文化と商業のあり方"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4087205274/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4087205274.09._SCTHUMBZZZ_.jpg"  alt="著作権の世紀―変わる「情報の独占制度」 (集英社新書 527A)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4480065733/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4480065733.09._SCTHUMBZZZ_.jpg"  alt="デジタル時代の著作権 (ちくま新書)"  /></a> </p>
-<p class="description">残念ながら紙の本は実質的に絶版なんですよねぇ。是非デジタル化を希望します。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-08-02">2014/08/02</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/475710152X/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41WPNBY7HZL._SL160_.jpg" width="110" height="160" alt="クリエイティブ・コモンズ―デジタル時代の知的財産権"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/475710152X/baldandersinf-22">クリエイティブ・コモンズ―デジタル時代の知的財産権</a></dt>
+    <dd>ローレンス レッシグ, 椙山 敬士, 上村 圭介, 林 紘一郎, 若槻 絵美, 土屋 大洋</dd>
+    <dd>NTT出版</dd>
+    <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+    </span></dd>
+  </dl>
+  <p class="description">残念ながら紙の本は実質的に絶版なんですよねぇ。是非デジタル化を希望します。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.11.13</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>
