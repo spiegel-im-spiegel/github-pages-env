@@ -1,2 +1,1 @@
-{{ if $.IsPage }}{{ with .Params.scripts }}{{ if .highlightjs }}{{ partial "highlightjs-footer.html" $ }}{{ end }}{{ else }}{{ partial "highlightjs-footer.html" $ }}{{ end }}
-{{ with .Params.scripts }}{{ if .mermaidjs }}{{ partial "mermaidjs.html" $ }}{{ end }}{{ end }}{{ end }}
+{{ if $.IsPage }}{{ with .Params.scripts }}{{ if .mermaidjs }}{{ partial "mermaidjs.html" $ }}{{ end }}{{ end }}{{ end }}
