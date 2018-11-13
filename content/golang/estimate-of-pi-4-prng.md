@@ -7,7 +7,7 @@ tags = [
 ]
 draft = false
 date = "2016-11-20T23:33:55+09:00"
-update = "2017-10-09T21:44:27+09:00"
+update = "2018-11-13T10:00:52+09:00"
 title = "モンテカルロ法による円周率の推定（その4 PRNG）"
 description = "math/rand パッケージでは rand.Source interface を持つ別の擬似乱数生成器を使うことができる。"
 
@@ -24,6 +24,10 @@ description = "math/rand パッケージでは rand.Source interface を持つ�
   avatar = "/images/avatar.jpg"
   tumblr = "spiegel-im-spiegel"
   github = "spiegel-im-spiegel"
+
+[scripts]
+  mathjax = true
+  mermaidjs = false
 +++
 
 1. [モンテカルロ法による円周率の推定（その1）]({{< relref "estimate-of-pi.md" >}})
@@ -212,9 +216,9 @@ average value: 3.14164
 standard deviation: 0.00524 (68.3%)
 ```
 
-{{< fig-img src="/images/histogram-lcg.png" link="/images/histogram-lcg.png" width="611" >}}
+{{< fig-img src="./histogram-lcg.png" link="./histogram-lcg.png" width="611" >}}
 
-{{< fig-img src="/images/qq100k-plot-lcg.png" link="/images/qq100k-plot-lcg.png" width="611" >}}
+{{< fig-img src="./qq100k-plot-lcg.png" link="./qq100k-plot-lcg.png" width="611" >}}
 
 次は [Mersenne Twister]({{< relref "#mt" >}}) の場合。
 
@@ -227,9 +231,9 @@ average value: 3.14165
 standard deviation: 0.00517 (67.8%)
 ```
 
-{{< fig-img src="/images/histogram-mt.png" link="/images/histogram-mt.png" width="611" >}}
+{{< fig-img src="./histogram-mt.png" link="./histogram-mt.png" width="611" >}}
 
-{{< fig-img src="/images/qq100k-plot-mt.png" link="/images/qq100k-plot-mt.png" width="611" >}}
+{{< fig-img src="./qq100k-plot-mt.png" link="./qq100k-plot-mt.png" width="611" >}}
 
 もっと多次元だったりすると変わってくるのかなぁ。
 

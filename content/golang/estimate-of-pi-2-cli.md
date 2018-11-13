@@ -2,7 +2,7 @@
 description = "さっそく推定結果について評価を行いたいところだが，その前に CLI (command-line interface) を整備する。今回は spf13/cobra パッケージを使うことにする。"
 tags = ["golang", "cli", "facade", "circle-ratio", "init"]
 date = "2016-11-06T17:57:37+09:00"
-update = "2017-10-24T13:42:41+09:00"
+update = "2018-11-13T10:00:52+09:00"
 title = "モンテカルロ法による円周率の推定（その2 CLI）"
 draft = false
 
@@ -19,6 +19,10 @@ draft = false
   avatar = "/images/avatar.jpg"
   github = "spiegel-im-spiegel"
   name = "Spiegel"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 1. [モンテカルロ法による円周率の推定（その1）]({{< relref "estimate-of-pi.md" >}})
@@ -394,7 +398,7 @@ github.com/spiegel-im-spiegel/pi
 
 そして各パッケージの構成は以下のようになっている。
 
-{{< fig-img src="/images/estimate-of-pi.svg" title="パッケージ構成" link="/images/estimate-of-pi.svg" width="640" >}}
+{{< fig-img src="./estimate-of-pi.svg" title="パッケージ構成" link="./estimate-of-pi.svg" width="640" >}}
 
 [前回]と変わったところは `genpi` パッケージを追加したことだろうか。
 こんな感じ。

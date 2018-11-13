@@ -10,7 +10,7 @@ tags = [
 ]
 draft = false
 date = "2016-11-14T20:50:56+09:00"
-update = "2016-12-11T15:19:30+09:00"
+update = "2018-11-13T10:00:52+09:00"
 
 [author]
   instagram = "spiegel_2007"
@@ -25,6 +25,10 @@ update = "2016-12-11T15:19:30+09:00"
   github = "spiegel-im-spiegel"
   twitter = "spiegel_2007"
   tumblr = "spiegel-im-spiegel"
+
+[scripts]
+  mathjax = true
+  mermaidjs = false
 +++
 
 1. [モンテカルロ法による円周率の推定（その1）]({{< relref "estimate-of-pi.md" >}})
@@ -98,7 +102,7 @@ gnuplot> plot "estmt100k.dat" u (filter($1,0.001)):(1) smooth frequency with box
 
 [gnuplot] の出力結果はこんな感じ。
 
-{{< fig-img src="/images/histogram.png" link="/images/histogram.png" width="640" >}}
+{{< fig-img src="./histogram.png" link="./histogram.png" width="640" >}}
 
 んー。
 まぁ正規分布っぽい？
@@ -112,7 +116,7 @@ gnuplot> plot "estmt100k.dat" u (filter($1,0.001)):(1) smooth frequency with box
 
 とりあえず結果だけ。
 
-{{< fig-img src="/images/qq-plot.png" link="/images/qq-plot.png" width="653" >}}
+{{< fig-img src="./qq-plot.png" link="./qq-plot.png" width="653" >}}
 
 プロットが直線状に並んでいれば正規分布であると言える。
 図から見る限り，概ね正規分布になっているようである。
@@ -231,7 +235,7 @@ func qnorm(p float64) float64 {
 $ go run main.go qq estmt100k.dat > qq100k.dat
 ```
 
-生成した `qq100k.dat` ファイルを [gnuplot] に食わせる。
+生成した [`qq100k.dat`](./qq100k.dat) ファイルを [gnuplot] に食わせる。
 こんな感じでいいだろう。
 
 ```text
@@ -242,7 +246,7 @@ gnuplot> plot "qq100k.dat" linestyle 1
 
 結果はこんな感じ。
 
-{{< fig-img src="/images/qq-plot2.png" link="/images/qq-plot2.png" width="640" >}}
+{{< fig-img src="./qq-plot2.png" link="./qq-plot2.png" width="640" >}}
 
 ついでにこの分布図にフィットする直線 $y=ax+b$ の $a, b$ 値を調べてみる。
 
@@ -278,7 +282,7 @@ b               0.000  1.000
 ここで $a$ が標準偏差， $b$ が平均値にマッチしている点に注目。
 分布図と上の直線を重ねあわせるとこうなる。
 
-{{< fig-img src="/images/qq-plot2b.png" link="/images/qq-plot2b.png" width="640" >}}
+{{< fig-img src="./qq-plot2b.png" link="./qq-plot2b.png" width="640" >}}
 
 んー。
 こんなもんかな。

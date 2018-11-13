@@ -1,6 +1,6 @@
 +++
 date = "2016-01-05T22:06:41+09:00"
-update = "2017-06-21T16:17:11+09:00"
+update = "2018-11-13T10:00:52+09:00"
 description = "ファサード・パターンは DDD (Domain-Driven Design) と相性がよい。普通は Web アプリケーションのような多様なサブシステムを持つシステムを設計する際に導入する考え方だが， CLI の場合でもサブコマンドを構成するのであればファサード・パターンがよいだろう。"
 draft = false
 tags = ["golang", "cli", "facade"]
@@ -19,6 +19,10 @@ title = "コマンドライン・インタフェースとファサード・パ�
   tumblr = "spiegel-im-spiegel"
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 [Go 言語]コンパイラには [`flag`] パッケージが標準で提供されており，いわゆるコマンドライン・インタフェース（Command line interface; CLI）の操作はこれでまかなうことができる。
@@ -69,7 +73,7 @@ $ command [golabal options] <sub-command> [sub-options] [arguments]
 
 [^fcd]: ファサード自身はサブシステムの詳細を知らず context 情報を渡して処理をキックするのみなのが特徴。サブシステム側はファサードに依存せず， context 情報さえあれば処理可能にするのがコツである。
 
-{{< fig-img src="/images/facade-pattern.svg" title="Facade Pattern" link="/images/facade-pattern.svg" width="640" >}}
+{{< fig-img src="./facade-pattern.svg" title="Facade Pattern" link="./facade-pattern.svg" width="640" >}}
 
 この図のようにファサード・パターンは DDD (Domain-Driven Design) と相性がよい。
 普通は Web アプリケーションのような多様なサブシステムを含むシステムを設計する際に導入する考え方だが， CLI の場合でもサブコマンドを構成するのであればファサード・パターンがよいだろう。

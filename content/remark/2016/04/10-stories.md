@@ -1,6 +1,6 @@
 +++
 date = "2016-04-10T18:44:29+09:00"
-update = "2018-01-23T16:07:00+09:00"
+update = "2018-11-13T10:00:52+09:00"
 description = "まじめに規制に従っている人ほど馬鹿を見る社会 / Linux サブシステムは Windows の終わりの始まり / 鍵管理システム CONIKS / Go 言語を使うようになって変わったこと / その他の気になる記事"
 draft = false
 tags = ["code", "security", "risk", "management", "cryptography", "windows", "linux", "messaging", "pki", "engineering", "golang", "grigori"]
@@ -143,7 +143,7 @@ WhatsApp がその辺を埋めることになるかどうか。
 
 さて，いつもの図。
 
-{{< fig-img src="/images/DDD.svg" title="Domain-Driven Design" link="/images/DDD.svg" width="640" >}}
+{{< fig-img src="./DDD.svg" title="Domain-Driven Design" link="./DDD.svg" width="640" >}}
 
 Domain Layer の中身は Domain Service, Entity, そして Value Object に分類される。
 ビジネスロジックは図の右側，つまり Entity や Value Object に記述されるのが良い設計だと言われている（記述の重複を避けられるため）。

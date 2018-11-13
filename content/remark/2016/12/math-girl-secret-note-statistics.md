@@ -7,6 +7,7 @@ tags = [
 ]
 draft = false
 date = "2016-12-11T15:59:26+09:00"
+update = "2018-11-13T10:00:52+09:00"
 title = "『数学ガールの秘密ノート／やさしい統計』で遊ぶ"
 description = "今回はテトラちゃん回かなぁ。1,2章のユーリちゃんとのやり取りも面白いけど，新しい用語が次々登場する状況で，言葉や名前に敏感なテトラちゃんがアワアワする感じがよかった。"
 
@@ -23,6 +24,10 @@ description = "今回はテトラちゃん回かなぁ。1,2章のユーリち�
   name = "Spiegel"
   github = "spiegel-im-spiegel"
   linkedin = "spiegelimspiegel"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 （今回はネタバレをガッツリ含むので見たくない方は静かにページを閉じてください）
@@ -71,7 +76,7 @@ description = "今回はテトラちゃん回かなぁ。1,2章のユーリち�
 
 パッケージ構成は概ねこんな感じ。
 
-{{< fig-img src="/images/ddd-cointoss.svg" title="パッケージ構成" link="/images/ddd-cointoss.svg" width="640" >}}
+{{< fig-img src="./ddd-cointoss.svg" title="パッケージ構成" link="./ddd-cointoss.svg" width="640" >}}
 
 `gen` パッケージで擬似乱数を使ってコイントスを行う。
 こんな感じのコード。
@@ -152,9 +157,9 @@ average value: 4.99690
 standard deviation: 1.57477
 ```
 
-結果データは `cointoss.dat` ファイルに保存している。
+結果データは [`cointoss.dat`](./cointoss.dat) ファイルに保存している。
 ここでは表が出た回数の最小値が0，最大値が10，平均値が約5.0，標準偏差が約1.57となった。
-では `cointoss.dat` ファイルを [gnuplot] に食わせてヒストグラムにしてみる（階級幅は1）[^h]。
+では [`cointoss.dat`](./cointoss.dat) ファイルを [gnuplot] に食わせてヒストグラムにしてみる（階級幅は1）[^h]。
 
 [^h]: 「[gnuplot でヒストグラム（頻度分布図）を描画する - Qiita](http://qiita.com/iwiwi/items/4c7635d4c84bc785e47a)」を参考にした。
 
@@ -167,7 +172,7 @@ gnuplot> plot "cointoss.dat"  u (filter($1,1)):(1) smooth frequency with boxes l
 
 結果はこんな感じ。
 
-{{< fig-img src="/images/cointoss-hist.png" title="ヒストグラム" link="/images/cointoss-hist.png" width="750" >}}
+{{< fig-img src="./cointoss-hist.png" title="ヒストグラム" link="./cointoss-hist.png" width="750" >}}
 
 おおっ。
 きれいに正規分布っぽくなっている。

@@ -1,6 +1,6 @@
 +++
 date = "2016-02-25T16:45:01+09:00"
-update = "2017-10-25T12:55:08+09:00"
+update = "2018-11-13T10:00:52+09:00"
 description = "IPA が提供する “icat for JSON” にアクセスする Go 言語用のパッケージを公開した。"
 draft = false
 tags = ["golang", "package", "json", "ipa", "security", "vulnerability", "api"]
@@ -19,6 +19,10 @@ title = "icat4json 公開"
   tumblr = "spiegel-im-spiegel"
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 IPA が提供する “[icat for JSON]” にアクセスする [Go 言語]用のパッケージを公開した。
@@ -108,7 +112,7 @@ JavaScript コードを見ると `item_identifier` 項目は使ってない模�
 JSON データを使うのならサーバサイドでやるべきだよね。
 [`icat4json`] パッケージはドメイン・レイヤのエンティティとして使われることを意識している。
 
-{{< fig-img src="/images/icat4json.svg" title="icat4json entity" link="/images/icat4json.svg" width="640" >}}
+{{< fig-img src="./icat4json.svg" title="icat4json entity" link="./icat4json.svg" width="640" >}}
 
 私はたまたま [Go 言語]を勉強中なので [Go 言語]のパッケージとして実装したけど，本当なら Java とか Ruby とか node.js とかサーバサイドの実装があるといいよね。
 IPA も jQuery じゃなくて，そういうので実装すればいいのに。

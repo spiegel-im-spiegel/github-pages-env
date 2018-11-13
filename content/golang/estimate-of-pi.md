@@ -1,6 +1,6 @@
 +++
 date = "2016-11-05T23:26:29+09:00"
-update = "2016-11-20T23:32:40+09:00"
+update = "2018-11-13T10:00:52+09:00"
 title = "モンテカルロ法による円周率の推定（その1）"
 description = "乱数（random number）についていい例題がないかなぁ，と考えて「円周率をモンテカルロ法で求めるやつやればいいぢゃん」と思いついた。ので早速試してみる。"
 tags = [
@@ -24,6 +24,10 @@ draft = false
   url = "http://www.baldanders.info/spiegel/profile/"
   avatar = "/images/avatar.jpg"
   github = "spiegel-im-spiegel"
+
+[scripts]
+  mathjax = true
+  mermaidjs = false
 +++
 
 乱数（random number）についていい例題がないかなぁ，と考えて「円周率をモンテカルロ法で求めるやつやればいいぢゃん」と思いついた。
@@ -41,7 +45,7 @@ draft = false
 まずは以下のように原点を中心とした半径 $1$ の円を考える。
 ただしここでは第一象限のみを対象とする。
 
-{{< fig-img src="/images/circle.png" link="/images/circle.png" >}}
+{{< fig-img src="./circle.png" link="./circle.png" >}}
 
 そして $0 \le y \le 1$ および $0 \le y \le 1$ の範囲でランダムに点をプロットしていく。
 （以下の[図は Wikimedia Commons のもの](https://commons.wikimedia.org/wiki/File:Pi_30K.gif "File:Pi 30K.gif - Wikimedia Commons")を拝借した。 [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/ "Creative Commons — Attribution 3.0 Unported — CC BY 3.0") で公開されている）
@@ -185,10 +189,10 @@ func main() {
 $ go run main.go > plot-1.dat
 ```
 
-これで1万個の点を `plot-1.dat` に格納したことになる。
-`plot-1.dat` を [gnuplot] に食わせてみるとこんな感じ。
+これで1万個の点を [`plot-1.dat`](./plot-1.dat) に格納したことになる。
+[`plot-1.dat`](./plot-1.dat) を [gnuplot] に食わせてみるとこんな感じ。
 
-{{< fig-img src="/images/random-plot-1.png" >}}
+{{< fig-img src="./random-plot-1.png" link="./random-plot-1.png" >}}
 
 うーん。
 均等？ なのかなぁ。
