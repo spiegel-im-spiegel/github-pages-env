@@ -38,7 +38,7 @@ title = "二次的著作物と CC Licenses"
 
 [著作権法]第2条では「二次的著作物」は以下のように定義されている。
 
-{{< fig-quote title="著作権法" link="http://law.e-gov.go.jp/htmldata/S45/S45HO048.html" >}}
+{{< fig-quote title="著作権法" link="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
 <q>著作物を翻訳し、編曲し、若しくは変形し、又は脚色し、映画化し、その他翻案することにより創作した著作物をいう。</q>
 {{< /fig-quote >}}
 
@@ -74,7 +74,7 @@ title = "二次的著作物と CC Licenses"
 の2つの権利を持っている。
 ポイントは二次的著作物の原著作者（元の著作物の著作者）も二次的著作物に対して一連の著作財産権を持っていることである。
 
-{{< fig-quote title="著作権法" link="http://law.e-gov.go.jp/htmldata/S45/S45HO048.html" >}}
+{{< fig-quote title="著作権法" link="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
 <q>二次的著作物の原著作物の著作者は、当該二次的著作物の利用に関し、この款に規定する権利で当該二次的著作物の著作者が有するものと同一の種類の権利を専有する。</q>
 {{< /fig-quote >}}
 

@@ -51,7 +51,7 @@ title = "人格権と CC Licenses"
 
 このうちもっとも強力な権利が「同一性保持権」である。
 
-{{< fig-quote title="著作権法" link="http://law.e-gov.go.jp/htmldata/S45/S45HO048.html" >}}
+{{< fig-quote title="著作権法" link="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
 <q>著作者は、その著作物及びその題号の同一性を保持する権利を有し、その意に反してこれらの変更、切除その他の改変を受けないものとする。</q>
 {{< /fig-quote >}}
 
@@ -73,7 +73,7 @@ title = "人格権と CC Licenses"
 著作者人格権と同じく一身専属性を持ち譲渡できないし，実演家の死後も機能する（[著作権法] 第101条）。
 ただし同一性保持権については
 
-{{< fig-quote title="著作権法" link="http://law.e-gov.go.jp/htmldata/S45/S45HO048.html" >}}
+{{< fig-quote title="著作権法" link="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
 <q>実演家は、その実演の同一性を保持する権利を有し、自己の名誉又は声望を害するその実演の変更、切除その他の改変を受けないものとする。</q>
 {{< /fig-quote >}}
 
