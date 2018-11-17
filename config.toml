@@ -8,6 +8,9 @@ disqusShortname = "textbaldandersinfo"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
+[blackfriday]
+  smartypants = false
+
 [taxonomies]
   tags = "tags"
 

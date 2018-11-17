@@ -3,7 +3,7 @@ tags = ["drm", "creative-commons", "copyright", "license"]
 draft = false
 description = "CC Licenses v4 では利用者側の技術的保護手段回避を許諾するという形に大きく変わった。"
 date = "2016-12-15T21:17:29+09:00"
-update = "2018-11-13T13:34:22+09:00"
+update = "2018-11-17T22:38:26+09:00"
 title = "CC Licenses における「技術的保護手段」の扱い"
 
 [author]
@@ -46,13 +46,13 @@ title = "CC Licenses における「技術的保護手段」の扱い"
 通常は「変換」や「復元」には暗号技術が用いられる。
 ぶっちゃけて言うなら「技術的保護手段」とは「著作物等を暗号化する手段」と思っていただいて構わない。
 
-[^m1]: [著作権法]第2条では「著作物、実演、レコード、放送又は有線放送」としている。ちなみに [CC Licenses] では同様のものを「マテリアル（material）」と定義している。これについては「[Creative Commons Licenses]({{< ref "/cc-licenses/02-creative-commons-licenses.md" >}})」を参照のこと。
+[^m1]: [著作権法]第2条では「著作物、実演、レコード、放送又は有線放送」としている。ちなみに [CC Licenses] では同様のものを「マテリアル（material）」と定義している。これについては「[Creative Commons Licenses]({{< relref "02-creative-commons-licenses.md" >}})」を参照のこと。
 
 具体的には，「著作物等」を変換（暗号化）するのは著作（権）者またはコンテンツ・ホルダー（contents holder）で，彼等が許可した（つまり正規ルートでコンテンツを購入した）ユーザのみが専用の再生装置を使って著作物等を復元（復号）し使用できる，という仕組みだ。
 
 ## 技術的保護手段の回避{#avoid}
 
-この方式の問題のひとつはユーザは「著作物等」の「利用」のみならず[「公正な利用（fair use）」や「著作権の制限」]({{< ref "/cc-licenses/01-copyright.md#fair-use" >}})更には（著作権の範囲外である）「使用」まで制限してしまうことである。
+この方式の問題のひとつはユーザは「著作物等」の「利用」のみならず[「公正な利用（fair use）」や「著作権の制限」]({{< relref "01-copyright.md#fair-use" >}})更には（著作権の範囲外である）「使用」まで制限してしまうことである。
 
 たとえば DVD や BD は対応する再生装置でなければ再生（つまり復元して使用）することができないが，市場から再生装置が無くなれば DVD や BD などベランダに吊るしてカラス除けにするくらいにしか役に立たない（実際そうやって消えていく機器は山ほどある）。
 
@@ -66,10 +66,10 @@ title = "CC Licenses における「技術的保護手段」の扱い"
 
 「技術的保護手段の回避」は（仕様や実装によるが）技術的にものすごく難しいというわけではない。
 しかも「技術的保護手段の回避」は非常にカジュアルな動機で行われる。
-何故なら，上述したように技術的保護手段は「[「公正な利用」や「著作権の制限」]({{< ref "/cc-licenses/01-copyright.md#fair-use" >}})更には「使用」まで制限してしまう」からだ。
+何故なら，上述したように技術的保護手段は「[「公正な利用」や「著作権の制限」]({{< relref "01-copyright.md#fair-use" >}})更には「使用」まで制限してしまう」からだ。
 
 これに対して著作権システムを守りたい側はあまり賢明でない方法をとった。
-[著作権法]では「私的使用のための複製（第30条）」を「[著作権の制限]({{< ref "/cc-licenses/01-copyright.md#fair-use" >}})」として認めているが，「技術的保護手段の回避」を除外することにより事実上禁止してしまったのだ。
+[著作権法]では「私的使用のための複製（第30条）」を「[著作権の制限]({{< relref "01-copyright.md#fair-use" >}})」として認めているが，「技術的保護手段の回避」を除外することにより事実上禁止してしまったのだ。
 
 たしかに多くのユーザはこれを律儀に守って無理に技術的保護手段の回避を行うことはないだろうが，一部の悪質なユーザには（罰則を強めにしたところで）抑止効果はない。
 一方で技術的保護手段の仕様や実装に欠陥があったとしても，これを報告する動機は抑止される。
@@ -100,7 +100,7 @@ title = "CC Licenses における「技術的保護手段」の扱い"
 
 [CC Licenses] 下のマテリアルを再配布する場合には注意が必要である[^sl]。
 
-[^sl]: [CC Licenses] ではライセンスの再許諾（sublicense）を許可していない。詳しくは「[Creative Commons Licenses]({{< ref "/cc-licenses/02-creative-commons-licenses.md" >}})」を参照のこと。
+[^sl]: [CC Licenses] ではライセンスの再許諾（sublicense）を許可していない。詳しくは「[Creative Commons Licenses]({{< relref "02-creative-commons-licenses.md" >}})」を参照のこと。
 
 ### 「技術的保護手段回避の許諾」に至る経緯{#proc}
 
@@ -151,7 +151,7 @@ title = "CC Licenses における「技術的保護手段」の扱い"
 - [コンテンツの識別で流通の価値をお金に変える](http://techon.nikkeibp.co.jp/article/NEWS/20080812/156366/ "コピーに自由を ―生まれ変わるDRM―（第3回） - 日経テクノロジーオンライン")
 
 しかし，一方でこれもコンテンツ・ホルダーやサービス・プロバイダの力が大きくなりすぎる傾向がある。
-コンテンツ・ホルダーやサービス・プロバイダはボットなどを使って機械的に監視と排除を行うが，判断を間違えたり「[公正な利用]({{< ref "/cc-licenses/01-copyright.md#fair-use" >}})」まで排除される例があるようだ。
+コンテンツ・ホルダーやサービス・プロバイダはボットなどを使って機械的に監視と排除を行うが，判断を間違えたり「[公正な利用]({{< relref "01-copyright.md#fair-use" >}})」まで排除される例があるようだ。
 
 このような感じで技術的保護手段が時代遅れになる一方で新しい形の DRM に対する問題も出てきている。
 DRM についてはこれからも注視していく必要がある。
@@ -172,7 +172,7 @@ DRM についてはこれからも注視していく必要がある。
 - [Fox、番組にYouTube動画を無断使用した挙句に元動画を権利者削除 – P2Pとかその辺のお話R](http://p2ptk.org/copyright/346)
 - [Copyright Filtering Mechanisms Don’t (and can’t) Respect Fair Use - Creative Commons](https://creativecommons.org/2017/02/22/copyright-filtering-mechanisms-dont-cant-respect-fair-use/)
 
-[本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
+[本シリーズ]: {{< rlnk "/cc-licenses/" >}} "改訂3版： CC-License について — text.Baldanders.info"
 [著作権法]: http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048 "著作権法"
 [Creative Commons]: https://creativecommons.org/ "Creative Commons"
 [CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"

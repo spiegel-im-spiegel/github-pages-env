@@ -1,0 +1,291 @@
++++
+title = "「技術的保護手段」と「技術的利用制限手段」"
+date = "2018-11-17T22:38:26+09:00"
+description = "ていうか，どう書いても愚痴にしかならないので予め謝っておきます。ゴメンペコン。"
+image = "/images/attention/kitten.jpg"
+tags = ["code", "law", "intellectual-property", "copyright", "drm", "creative-commons", "gpl"]
+
+[author]
+  name      = "Spiegel"
+  url       = "http://www.baldanders.info/spiegel/profile/"
+  avatar    = "/images/avatar.jpg"
+  license   = "by-sa"
+  github    = "spiegel-im-spiegel"
+  twitter   = "spiegel_2007"
+  tumblr    = "spiegel-im-spiegel"
+  instagram = "spiegel_2007"
+  flickr    = "spiegel"
+  facebook  = "spiegel.im.spiegel"
+  linkedin  = "spiegelimspiegel"
+  flattr    = "spiegel"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
++++
+
+[Twitter で面白いやり取り](https://twitter.com/ootani01/status/1062202455226642432)を見つけたので，前回の「[年末年始に施行される改正著作権法に関する覚え書き]({{< ref "/remark/2018/11/copyright-law-is-revised.md" >}})」の中の「アクセスコントロールの回避等に関する措置」についてもう少し詳しく書いてみる。
+
+ていうか，既に決まったことに対してどう書いても愚痴にしかならないので予め謝っておきます。
+ゴメンペコン。
+
+## World Intellectual Property Organization Copyright Treaty
+
+事の始まりは WIPO (World Intellectual Property Organization; 世界知的所有権機関) により1996年に作成（2002年に発効）された WCT (WIPO Copyright Treaty; WIPO 著作権条約) にある。
+この中の11章に技術的保護手段（technological measures for the protection）の記述がある。
+
+WCT を受けて各国または各地域で国内法が整備されていく。
+
+## Digital Millennium Copyright Act
+
+有名なのが米国の DMCA (Digital Millennium Copyright Act) である。
+DMCA の §1201 が技術的保護手段に関する部分で，大まかに以下の3つで構成されている。
+
+1. **§1201 (a)** : 著作権者が技術的手段により著作物へのアクセスをコントロールすることを認める（アクセス・コントロール）
+1. **§1201 (b)** : 複製権の実効的な保護のために複製回数や複製行為自体を禁止する技術的手段を保護することを認める（コピー・コントロール）
+1. **§1201 (c) 以降** : §1201 (a) および §1201 (b) が fair use 等の他の権利[^ex1] に影響を及ぼさないようにする
+
+[^ex1]: §1201 (c) が fair use や言論の自由等に関するもの，§1201 (d) が図書館や教育機関に関するもの，§1201 (e) が政府関連，§1201 (f) がリバース・エンジニアリングに関するもの，§1201 (g) が暗号研究に関するもの，§1201 (h) が未成年者保護に関するもの，§1201 (i) がプライバシー関連，§1201 (j) が安全性試験に関するもの，といった感じ。
+
+§1201 の例外規定については3年毎に見直され，近年（2010年以降？）は緩和される傾向にある。
+
+- [Rulemaking Proceedings Under Section 1201 of Title 17 | U.S. Copyright Office](https://www.copyright.gov/1201/)
+- [DMCA Rulemaking | Electronic Frontier Foundation](https://www.eff.org/issues/dmca-rulemaking)
+- [New DMCA Exemptions | Copyright Corner](https://library.osu.edu/blogs/copyright/2015/12/30/new-dmca-exemptions/)
+- [速報！　米著作権庁、合法利用の範囲を大幅拡大―iPhone脱獄など全6項目  |  TechCrunch Japan](https://jp.techcrunch.com/2010/07/27/20100726now-legal-in-the-u-s-jailbreaking-your-iphone-ripping-a-dvd-for-educational-purposes/)
+- [デジタル著作権法が消費者に歩み寄ってきた――DMCA除外決定で今週からスマートアシスタントも脱獄できる  |  TechCrunch Japan](https://jp.techcrunch.com/2018/11/01/2018-10-29-what-the-newly-revised-copyright-law-lets-and-doesnt-let-you-do-with-your-gadgets/)
+
+## 日本の[著作権法]における「技術的保護手段」
+
+WCT について，日本は[著作権法]改正で対応している。
+
+まず[著作権法]第2条にて「技術的保護手段」を以下のように定義した。
+
+{{< fig-quote title="著作権法" link="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+<q>電子的方法、磁気的方法その他の人の知覚によつて認識することができない方法 [...] により、第十七条第一項に規定する著作者人格権若しくは著作権又は第八十九条第一項に規定する実演家人格権若しくは同条第六項に規定する著作隣接権（以下 [...] 「著作権等」という。）を侵害する行為の防止又は抑止 [...] をする手段（著作権等を有する者の意思に基づくことなく用いられているものを除く。）であつて、著作物、実演、レコード、放送又は有線放送 [...] の利用（著作者又は実演家の同意を得ないで行つたとしたならば著作者人格権又は実演家人格権の侵害となるべき行為を含む。）に際し、これに用いられる機器が特定の反応をする信号を著作物、実演、レコード若しくは放送若しくは有線放送に係る音若しくは影像とともに記録媒体に記録し、若しくは送信する方式又は当該機器が特定の変換を必要とするよう著作物、実演、レコード若しくは放送若しくは有線放送に係る音若しくは影像を変換して記録媒体に記録し、若しくは送信する方式によるものをいう。</q>
+{{< /fig-quote >}}
+
+なげーよ！ これでもだいぶ端折ってるのだが（笑）
+
+要するに「著作物等」を何らかの形で変換し，特定の手段を用いなければ復元できないような方式を指す。
+通常は「変換」や「復元」には暗号技術が用いられる。
+ぶっちゃけて言うなら「技術的保護手段」とは「著作物等を暗号化する手段」と思っていただいて構わない。
+
+この「技術的保護手段」に対して「著作権の制限」のひとつである「私的複製（第30条）」で
+
+{{< fig-quote title="著作権法" link="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+<q>技術的保護手段の回避 [...] により可能となり、又はその結果に障害が生じないようになつた複製を、その事実を知りながら行う場合</q>
+{{< /fig-quote >}}
+
+を除外した。
+また罰則（第120条）として
+
+{{< fig-quote title="著作権法" link="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+<q>技術的保護手段の回避を行うことをその機能とする装置 [...] 若しくは技術的保護手段の回避を行うことをその機能とするプログラムの複製物を公衆に譲渡し、若しくは貸与し、公衆への譲渡若しくは貸与の目的をもつて製造し、輸入し、若しくは所持し、若しくは公衆の使用に供し、又は当該プログラムを公衆送信し、若しくは送信可能化する行為 [...] をした者</q>
+{{< /fig-quote >}}
+
+または
+
+{{< fig-quote title="著作権法" link="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+<q>業として公衆からの求めに応じて技術的保護手段の回避を行つた者</q>
+{{< /fig-quote >}}
+
+を「三年以下の懲役若しくは三百万円以下の罰金に処し、又はこれを併科する」とした。
+
+注目するポイントとしては，日本の著作権法における「技術的保護手段」は DMCA で言うところのコピー・コントロールに近いものである，ということだ。
+これは私的複製から「技術的保護手段」の回避を除外したことからも分かるだろう。
+
+## 日本の[著作権法]における「技術的利用制限手段」
+
+今度の[著作権法]改正では「技術的保護手段」とは別に「技術的利用制限手段」という用語が登場する（第2条）。
+
+{{< fig-quote title="環太平洋パートナーシップ協定の締結及び環太平洋パートナーシップに関する包括的及び先進的な協定の締結に伴う関係法律の整備に関する法律（抄）条文" link="http://www.bunka.go.jp/seisaku/chosakuken/hokaisei/kantaiheiyo_hokaisei/pdf/r1408266_02.pdf" >}}
+<q>電磁的方法により、著作物等の視聴 [...] を制限する手段 [...] であつて、著作物等の視聴に際し、これに用いられる機器が特定の反応をする信号を著作物、実演、レコード若しくは放送若しくは有線放送に係る音若しくは影像とともに記録媒体に記録し、若しくは送信する方式又は当該機器が特定の変換を必要とするよう著作物、実演、レコード若しくは放送若しくは有線放送に係る音若しくは影像を変換して記録媒体に記録し、若しくは送信する方式によるものをいう。</q>
+{{< /fig-quote >}}
+
+「技術的保護手段」との違いは「著作物等の視聴を制限する手段」つまり明確なアクセス・コントロールだということである（複製を要件としない）。
+
+これに対し
+
+{{< fig-quote title="環太平洋パートナーシップ協定の締結及び環太平洋パートナーシップに関する包括的及び先進的な協定の締結に伴う関係法律の整備に関する法律（抄）条文" link="http://www.bunka.go.jp/seisaku/chosakuken/hokaisei/kantaiheiyo_hokaisei/pdf/r1408266_02.pdf" >}}
+<q>技術的利用制限手段の回避 [...] を行う行為は、技術的利用制限手段に係る研究又は技術の開発の目的上正当な範囲内で行われる場合その他著作権者等の利益を不当に害しない場合を除き、当該技術的利用制限手段に係る著作権、出版権又は著作隣接権を侵害する行為とみなす。</q>
+{{< /fig-quote >}}
+
+と「技術的利用制限手段」の侵害（第113条）を規定し，「技術的保護手段」の侵害と併せ，罰則（第120条）として
+
+{{< fig-quote title="環太平洋パートナーシップ協定の締結及び環太平洋パートナーシップに関する包括的及び先進的な協定の締結に伴う関係法律の整備に関する法律（抄）条文" link="http://www.bunka.go.jp/seisaku/chosakuken/hokaisei/kantaiheiyo_hokaisei/pdf/r1408266_02.pdf" >}}
+<q>技術的保護手段の回避若しくは技術的利用制限手段の回避を行うことをその機能とする装置 [...] 若しくは技術的保護手段の回避若しくは技術的利用制限手段の回避を行うことをその機能とするプログラムの複製物を公衆に譲渡し、若しくは貸与し、公衆への譲渡若しくは貸与の目的をもつて製造し、輸入し、若しくは所持し、若しくは公衆の使用に供し、又は当該プログラムを公衆送信し、若しくは送信可能化する行為 [...] をした者</q>
+{{< /fig-quote >}}
+
+または
+
+{{< fig-quote title="環太平洋パートナーシップ協定の締結及び環太平洋パートナーシップに関する包括的及び先進的な協定の締結に伴う関係法律の整備に関する法律（抄）条文" link="http://www.bunka.go.jp/seisaku/chosakuken/hokaisei/kantaiheiyo_hokaisei/pdf/r1408266_02.pdf" >}}
+<q>業として公衆からの求めに応じて技術的保護手段の回避又は技術的利用制限手段の回避を行つた者</q>
+{{< /fig-quote >}}
+
+について「三年以下の懲役若しくは三百万円以下の罰金に処し、又はこれを併科する」とした。
+
+## 日本の[不正競争防止法]における「技術的制限手段」
+
+ところで「技術的利用制限手段」の用語と定義を見て既視感がないだろうか。
+そう，これって[不正競争防止法]の「技術的制限手段」と殆ど同じなのである。
+
+{{< fig-quote title="不正競争防止法" link="https://www.ron.gr.jp/law/law/fuseikyo.htm" >}}
+<q>この法律において「技術的制限手段」とは、電磁的方法（電子的方法、磁気的方法その他の人の知覚によって認識することができない方法をいう。）により影像若しくは音の視聴若しくはプログラムの実行又は影像、音若しくはプログラムの記録を制限する手段であって、視聴等機器（影像若しくは音の視聴若しくはプログラムの実行又は影像、音若しくはプログラムの記録のために用いられる機器をいう。以下同じ。）が特定の反応をする信号を影像、音若しくはプログラムとともに記録媒体に記録し、若しくは送信する方式又は視聴等機器が特定の変換を必要とするよう影像、音若しくはプログラムを変換して記録媒体に記録し、若しくは送信する方式によるものをいう。</q>
+{{< /fig-quote >}}
+
+もともと，[不正競争防止法]の「技術的制限手段」は DVD の CSS (Content Scramble System) や BD の AACS (Advanced Access Content System) 等を指したもので，[著作権法]と同じく WCT を受けて盛り込まれたものである。
+更に近年では地上波デジタル放送の B-CAS 迂回やマジコン騒動などを受けて規制が強化された経緯がある[^f1]。
+
+[^f1]: 2018年も「技術的制限手段」に関して[不正競争防止法の改正](https://innoventier.com/archives/2018/08/6847 "不正競争防止法の改正（技術的制限手段に関する不正競争行為の規律強化）について – イノベンティア")が行われている。
+
+つまり日本では，アクセス・コントロールは[著作権法]と[不正競争防止法]で二重に規制されているのである。
+
+## 自由なライセンスまたは Free Culture Licenses での取り組み
+
+幸いなことに自由なライセンスまたは Free Culture Licenses では，技術的保護手段を禁止するか回避を禁止しないことを明言している。
+こうしたライセンスで許諾していくことで技術的保護手段への対抗になっていけばいいと思う。
+
+### [CC Licenses] の場合
+
+（「[CC Licenses における「技術的保護手段」の扱い]({{< ref "/cc-licenses/05-technological-measures.md" >}})」より抜粋）
+
+[CC Licenses] では技術的保護手段を以下のように定義している。
+
+{{< fig-quote title="クリエイティブ・コモンズ (Creative Commons) — 表示-継承 4.0 国際" link="https://creativecommons.org/licenses/by-sa/4.0/legalcode.ja" >}}
+<q><strong>「効果的な技術的保護手段」</strong>とは、1996年12月20日に採択されたWIPO著作権条約第11条、および／または類似の国際協定の義務を満たす諸法規の下で、正当な権限なしに回避されてはならないものとされる諸手段をいいます。</q>
+{{< /fig-quote >}}
+
+簡単に書かれてるが，[著作権法]の定義と概ね同じだと思っていい。
+その上で，利用条件に従う限り，技術的保護手段の回避を許諾している。
+
+{{< fig-quote title="クリエイティブ・コモンズ (Creative Commons) — 表示-継承 4.0 国際" link="https://creativecommons.org/licenses/by-sa/4.0/legalcode.ja" >}}
+<q>許諾者は、あなたに対し、あらゆる媒体や形式（現在知られているか、または今後作られるか否かを問いません）において、ライセンスされた権利を行使する権限、およびその行使に必要とされる技術的な改変を行う権限を付与します。許諾者は、あなたが、ライセンスされた権利を行使するために必要とされる技術的な改変（効果的な技術的保護手段を回避するために必要とされる技術的な改変を含みます）を禁止するいかなる権利または権限を放棄し、および／またはこれらの権利または権限を行使しないことに同意します。</q>
+{{< /fig-quote >}}
+
+さらに [CC Licenses] では技術的保護手段の回避を翻案と見なさないことで「改変禁止 <i class="fab fa-creative-commons-nd"></i>」条件でも技術的保護手段の回避を許諾している。
+
+またこれとは別に，下流側（downstream）へ再配布を行う場合は技術的保護手段を適用してはならないともある。
+
+{{< fig-quote title="クリエイティブ・コモンズ (Creative Commons) — 表示-継承 4.0 国際" link="https://creativecommons.org/licenses/by-sa/4.0/legalcode.ja" >}}
+<q>あなたは、ライセンス対象物の受領者がライセンスされた権利を行使するのを制限されることになる場合には、ライセンス対象物に対して、いかなる追加条項または異なる条項も提案または課してはならず、あるいは、いかなる効果的な技術的保護手段も適用してはなりません。</q>
+{{< /fig-quote >}}
+
+[CC Licenses] 下のマテリアルを再配布する場合には注意が必要である[^sl]。
+
+[^sl]: [CC Licenses] ではライセンスの再許諾（sublicense）を許可していない。詳しくは「[Creative Commons Licenses]({{< ref "/cc-licenses/02-creative-commons-licenses.md" >}})」を参照のこと。
+
+### GNU GPL v3 の場合
+
+IPA が提供する「[GNU GPL v3 解説書](https://www.ipa.go.jp/osc/license1.html "GNU GPL v3 解説書：IPA 独立行政法人 情報処理推進機構")」では技術的保護手段の扱いについて以下のように解説されている。
+
+{{< fig-quote title="GPLv3 逐条解説" link="https://www.ipa.go.jp/files/000028320.pdf" >}}
+<q>GPLv3は、GPLv3プログラムを技術的保護手段の実現に用いることは禁止していない。GPLv3プログラムを用いて技術的保護手段のソフトウェアを開発すること自体は可能である。しかしながら、GPLv3プログラムを技術的保護手段の実現に用いた場合、その保護手段を回避するプログラム（例えばコピープロテクトを解除して、デジタルコンテンツのコピーの作成を可能とするもの）を第三者が開発・公開したとしても、当該回避プログラムに対しては技術的保護手段の回避を禁止する権利を放棄すべきものとされている。また、回避に関するプログラムを使用する行為や、プログラムを改変する行為を制限しないことも要求されている。</q>
+{{< /fig-quote >}}
+
+自由なライセンスなので技術的保護手段を構成するコードを書いて公開するのは止められないけど，それを回避するプログラムも止められないよね，ということのようだ。
+理にかなってる。
+
+## ここからは愚痴です
+
+技術的な巧拙は別として，対象物を横取りして我が物のように利益を得る行為は市場の発展を阻害する不正である。
+ここに異論は少ないと思う（中国のように市場を破壊してでも利益を得ることを優先するものもいるだろうが）。
+問題は「それって著作権法で規制することか？」ってことだ。
+だって不正競争防止法で規制できるぢゃん。
+アクセス・コントロールは市場の問題である。
+
+そもそも著作物へのアクセスは「本を読む」とか「音楽を聞く」とかと同じ「使用」である。
+著作権は著作物の「利用」を規制するものだが「使用」に関しては関知しないというのが原則。
+しかし WCT 以後この原則はすっかり崩れてしまった。
+
+日本でも「輸入権」や「ダウンロード違法化」などが俎上に登るたびに議論になっていた筈だが，そういう基本的な部分があまり語られていない気がするのは「なんだかなぁ」である。
+
+21世紀に入って大きく変わったことのひとつが，コンテンツからメディアへのシフトだろう[^tv1]。
+
+[^tv1]: 一方でインターネットのテレビ化も急速に進んでいく。アクセス・コントロールはインターネットのテレビ化にとって必要条件になるだろう。音楽も映画もテレビもネットで配信され，ユーザはそれらを水のように「消費」するだけ。昭和時代の「一億総白痴化」はネットで再放送（[rerun](https://en.wikipedia.org/wiki/Rerun_van_Pelt "Rerun van Pelt - Wikipedia")）される。
+
+例えば携帯端末にカメラが標準搭載されたことで写真や動画はコミュニケーションの手段となった。
+SNS やチャットでのやり取りも文字のみならず映像や音声をミックスしたものになった。
+ニュースやゲームを実況中継する YouTuber が登場した。
+バーチャル・アイドルが登場し，最近では YouTuber もバーチャル化し始めた（笑） 他にも色々イロイロ...
+
+あらゆる表現に著作権が発生するなら，ネット上の全てのコミュニケーションは著作物の集合であり，創造と利用（remix）の差異は曖昧になる。
+その結果として何が起こったかというと「利用」が「使用」を侵食していくのだ，主に市場の圧力によって。
+
+その起点となっているのが20世紀末の{{< ruby "W C T" >}}悪夢{{< /ruby >}}だということにウンザリしてしまう。
+いっそのこと著作権を含む知的財産権を根本的に設計し直すのはどうだろうか。
+
+## ブックマーク
+
+- [著作権 (2) DMCA §1201](http://www.law.tohoku.ac.jp/~serizawa/2000/cyberspace/7.html)
+
+- [【CCPLv3.0】ＤＲＭ条項の改正に関する議論 | クリエイティブ・コモンズ・ジャパン](https://creativecommons.jp/2006/11/15/discussion-drm/)
+- [コピーに自由を ―生まれ変わるDRM―（目次） - 日経テクノロジーオンライン](http://techon.nikkeibp.co.jp/article/NEWS/20080812/156363/)
+- [「オープンソースDRM」の不可能性について | OSDN Magazine](https://mag.osdn.jp/08/10/26/2237236)
+- [小寺信良：「補償金もDRMも必要ない」――音楽家 平沢進氏の提言 (1/4) - ITmedia LifeStyle](http://www.itmedia.co.jp/lifestyle/articles/0606/12/news005.html)
+- [『デジタル音楽の行方』から10年経って - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2015/06/32173/)
+
+- [DRM に関する覚え書き — Baldanders.info](http://www.baldanders.info/spiegel/log2/000295.shtml)
+- [監視をコントロールする — Baldanders.info](http://www.baldanders.info/spiegel/log2/000490.shtml)
+- [「プロテクト破り」への攻撃に注意せよ！ — Baldanders.info](http://www.baldanders.info/spiegel/log2/000501.shtml)
+
+
+[著作権法]: http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048 "著作権法"
+[不正競争防止法]: http://www.japaneselawtranslation.go.jp/law/detail_main?id=83&vm=1 "不正競争防止法"
+[CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
+
+## 参考図書
+
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B01CYDGUV8/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/31Q2jh%2B5SgL._SL160_.jpg" width="113" height="160" alt="CODE VERSION 2.0"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B01CYDGUV8/baldandersinf-22">CODE VERSION 2.0</a></dt>
+    <dd>ローレンス・レッシグ</dd>
+    <dd>翔泳社</dd>
+    <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+    </span></dd>
+  </dl>
+  <p class="description">前著『CODE』改訂版。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.11.17</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+</div>
+
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4757102852/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41YkbcP5IyL._SL160_.jpg" width="108" height="160" alt="著作権２．０ ウェブ時代の文化発展をめざして (NTT出版ライブラリー―レゾナント)"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4757102852/baldandersinf-22">著作権２．０ ウェブ時代の文化発展をめざして (NTT出版ライブラリー―レゾナント)</a></dt>
+    <dd>名和 小太郎</dd>
+    <dd>エヌティティ出版</dd>
+    <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </span></dd>
+  </dl>
+  <p class="description">名著です。今すぐ買うべきです。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.11.13</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+</div>
+
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4757122349/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51ftPU2g7FL._SL160_.jpg" width="112" height="160" alt="〈反〉知的独占　―特許と著作権の経済学"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4757122349/baldandersinf-22">〈反〉知的独占　―特許と著作権の経済学</a></dt>
+    <dd>ミケーレ・ボルドリン, デイヴィッド・Ｋ・レヴァイン</dd>
+    <dd>エヌティティ出版</dd>
+    <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+    </span></dd>
+  </dl>
+  <p class="description">「知的財産権は、人類進歩を阻害する！」（帯文より）</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.11.17</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+</div>
