@@ -1,6 +1,7 @@
 +++
 title = "「技術的保護手段」と「技術的利用制限手段」"
 date = "2018-11-17T22:38:26+09:00"
+update = "2018-11-20T12:04:18+09:00"
 description = "ていうか，どう書いても愚痴にしかならないので予め謝っておきます。ゴメンペコン。"
 image = "/images/attention/kitten.jpg"
 tags = ["code", "law", "intellectual-property", "copyright", "drm", "creative-commons", "gpl"]
@@ -34,7 +35,9 @@ tags = ["code", "law", "intellectual-property", "copyright", "drm", "creative-co
 事の始まりは WIPO (World Intellectual Property Organization; 世界知的所有権機関) により1996年に作成（2002年に発効）された WCT (WIPO Copyright Treaty; WIPO 著作権条約) にある。
 この中の11章に技術的保護手段（technological measures for the protection）の記述がある。
 
-WCT を受けて各国または各地域で国内法が整備されていく。
+WCT を受けて各国または各地域で国内法が整備されていく[^law1]。
+
+[^law1]: 簡単に書いているが国内法の整備については{{< ruby "生臭い" >}}政治的な{{< /ruby >}}やり取りが交わされている。面倒なのでいちいち取り上げないが，日本の場合は，海外の議論を言葉じりだけ「輸入」して正論の如く見せかけたり，その時々の政局によって言わば「抱き合わせ商法」的に法律が成立したりする「ポリシー・ロンダリング」の手法が横行したため，出来の悪いパッチだらけの{{< ruby "コード" >}}法律{{< /ruby >}}になりがちなのが困ったものである。
 
 ## Digital Millennium Copyright Act
 
@@ -47,7 +50,7 @@ DMCA の §1201 が技術的保護手段に関する部分で，大まかに以�
 
 [^ex1]: §1201 (c) が fair use や言論の自由等に関するもの，§1201 (d) が図書館や教育機関に関するもの，§1201 (e) が政府関連，§1201 (f) がリバース・エンジニアリングに関するもの，§1201 (g) が暗号研究に関するもの，§1201 (h) が未成年者保護に関するもの，§1201 (i) がプライバシー関連，§1201 (j) が安全性試験に関するもの，といった感じ。
 
-§1201 の例外規定については3年毎に見直され，近年（2010年以降？）は緩和される傾向にある。
+§1201 の例外規定については3年毎に見直され，近年（2010年以降？）は市場と公益のバランスをはかりつつ徐々に緩和される傾向にある。
 
 - [Rulemaking Proceedings Under Section 1201 of Title 17 | U.S. Copyright Office](https://www.copyright.gov/1201/)
 - [DMCA Rulemaking | Electronic Frontier Foundation](https://www.eff.org/issues/dmca-rulemaking)
@@ -177,7 +180,7 @@ WCT について，日本は[著作権法]改正で対応している。
 
 ### GNU GPL v3 の場合
 
-IPA が提供する「[GNU GPL v3 解説書](https://www.ipa.go.jp/osc/license1.html "GNU GPL v3 解説書：IPA 独立行政法人 情報処理推進機構")」では技術的保護手段の扱いについて以下のように解説されている。
+IPA が提供する「[GNU GPL v3 解説書](https://www.ipa.go.jp/osc/license1.html "GNU GPL v3 解説書：IPA 独立行政法人 情報処理推進機構")」には技術的保護手段の扱いについて以下のように解説されている。
 
 {{< fig-quote title="GPLv3 逐条解説" link="https://www.ipa.go.jp/files/000028320.pdf" >}}
 <q>GPLv3は、GPLv3プログラムを技術的保護手段の実現に用いることは禁止していない。GPLv3プログラムを用いて技術的保護手段のソフトウェアを開発すること自体は可能である。しかしながら、GPLv3プログラムを技術的保護手段の実現に用いた場合、その保護手段を回避するプログラム（例えばコピープロテクトを解除して、デジタルコンテンツのコピーの作成を可能とするもの）を第三者が開発・公開したとしても、当該回避プログラムに対しては技術的保護手段の回避を禁止する権利を放棄すべきものとされている。また、回避に関するプログラムを使用する行為や、プログラムを改変する行為を制限しないことも要求されている。</q>
@@ -192,21 +195,32 @@ IPA が提供する「[GNU GPL v3 解説書](https://www.ipa.go.jp/osc/license1.
 ここに異論は少ないと思う（中国のように市場を破壊してでも利益を得ることを優先するものもいるだろうが）。
 問題は「それって著作権法で規制することか？」ってことだ。
 だって不正競争防止法で規制できるぢゃん。
-アクセス・コントロールは市場の問題である。
+アクセス・コントロールは市場の問題であり，少なくとも文科省や文化庁の管轄ではない。
 
 そもそも著作物へのアクセスは「本を読む」とか「音楽を聞く」とかと同じ「使用」である。
 著作権は著作物の「利用」を規制するものだが「使用」に関しては関知しないというのが原則。
 しかし WCT 以後この原則はすっかり崩れてしまった。
 
-日本でも「輸入権」や「ダウンロード違法化」などが俎上に登るたびに議論になっていた筈だが，そういう基本的な部分があまり語られていない気がするのは「なんだかなぁ」である。
+日本では「公益」の考え方が酷く歪んでいて，特定の企業・団体や場合によっては政治家（屋）にとっての利益にすり替えられる。
+この辺は「輸入権」や「ダウンロード違法化」等いくらでも事例がある。
+知的財産権以外でも，例えば “WikiLeaks” が社会問題になった際の[「公益通報」に関する議論](http://www.baldanders.info/spiegel/log2/000510.shtml)を見てもあからさまだ。
 
-21世紀に入って大きく変わったことのひとつが，コンテンツからメディアへのシフトだろう[^tv1]。
+この辺は DMCA 以後も市場と公益のバランスをとろうとした米国オバマ政権とは異なる展開である。
+もっともトランプ政権下でまた傾き始めたけど。
+
+この悪癖が治らない限り，日本では真面目な議論をするだけ無駄で「[まじめに規制に従っている人ほど馬鹿を見る社会]({{< ref "/remark/2016/04/10-stories.md#code" >}})」は変わらないと思う。
+
+### 著作物が「コンテンツ」ではなくなった時代
+
+21世紀に入り「著作物」の入れ物について大きく変わったことのひとつが，コンテンツ[^c1] からメディアへのシフトだろう[^tv1]。
+
+[^c1]: 入れ物というニュアンスならコンテンツではなく「コンテナ（container）」と呼ぶべきだろうけど，著作物に関しては（これまで入れ物と中身が不可分だったため）本やレコード（CD, DVD 等を含む）といった入れ物とその中身（content）をまとめてコンテンツと言うらしい。ちなみに日本の著作権法では「放送」はコンテンツの送信手段として例外的に扱われている。少なくとも日本ではネットは放送に含まれない。これは近年定着した定額制のストリーム配信でも同じである。
 
 [^tv1]: 一方でインターネットのテレビ化も急速に進んでいく。アクセス・コントロールはインターネットのテレビ化にとって必要条件になるだろう。音楽も映画もテレビもネットで配信され，ユーザはそれらを水のように「消費」するだけ。昭和時代の「一億総白痴化」はネットで再放送（[rerun](https://en.wikipedia.org/wiki/Rerun_van_Pelt "Rerun van Pelt - Wikipedia")）される。
 
 例えば携帯端末にカメラが標準搭載されたことで写真や動画はコミュニケーションの手段となった。
 SNS やチャットでのやり取りも文字のみならず映像や音声をミックスしたものになった。
-ニュースやゲームを実況中継する YouTuber が登場した。
+ニュースやゲーム等を「実況」配信する YouTuber が登場した。
 バーチャル・アイドルが登場し，最近では YouTuber もバーチャル化し始めた（笑） 他にも色々イロイロ...
 
 あらゆる表現に著作権が発生するなら，ネット上の全てのコミュニケーションは著作物の集合であり，創造と利用（remix）の差異は曖昧になる。
@@ -288,4 +302,40 @@ SNS やチャットでのやり取りも文字のみならず映像や音声を�
   </dl>
   <p class="description">「知的財産権は、人類進歩を阻害する！」（帯文より）</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.11.17</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+</div>
+
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4797334673/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41tEJvyOO2L._SL160_.jpg" width="97" height="160" alt="インターネットの法と慣習　かなり奇妙な法学入門 [ソフトバンク新書]"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4797334673/baldandersinf-22">インターネットの法と慣習　かなり奇妙な法学入門 [ソフトバンク新書]</a></dt>
+    <dd>白田 秀彰</dd>
+    <dd>ソフトバンククリエイティブ</dd>
+    <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+    </span></dd>
+  </dl>
+  <p class="description">ライアカ本。 Web 2.0 真っ只中に書かれた本だが，時事的な部分を除けば古びてはいないと思う。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.11.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+</div>
+
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4862486932/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41OTZHSZDXL._SL160_.jpg" width="96" height="160" alt="日本人が知らないウィキリークス (新書ｙ)"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4862486932/baldandersinf-22">日本人が知らないウィキリークス (新書ｙ)</a></dt>
+    <dd>小林 恭子, 白井 聡, 塚越 健司, 津田 大介, 八田 真行, 浜野 喬士, 孫崎 享</dd>
+    <dd>洋泉社</dd>
+    <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+    </span></dd>
+  </dl>
+  <p class="description">WikiLeaks のインパクトと「WikiLeaks 以後」について分かりやすく解説した論説集。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.11.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>
