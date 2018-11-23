@@ -29,7 +29,7 @@
 <section>
 <h2>主な <a href="{{ "/tags/" | relURL }}">Tags</a> 一覧</h2>
 <ul class="cloud" style="font-size:smaller;">
-	{{ range $key, $value := .Site.Taxonomies.tags.Alphabetical }}{{ if ge $value.Count 20 }}<li>#<a href="/tags/{{ $value.Name | urlize }}">{{ $value.Name }}</a> ({{ $value.Count }})</li>{{ end }}{{ end }}
+	{{ range $key, $value := .Site.Taxonomies.tags.Alphabetical }}{{ if ge $value.Count 30 }}<li>#<a href="/tags/{{ $value.Name | urlize }}">{{ $value.Name }}</a> ({{ $value.Count }})</li>{{ end }}{{ end }}
 </ul>
 </section> <!-- Tags -->
 
