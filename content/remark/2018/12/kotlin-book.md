@@ -1,6 +1,7 @@
 +++
 title = "Kotlin の予備学習"
 date = "2018-12-02T15:07:36+09:00"
+update = "2018-12-02T17:44:21+09:00"
 description = "「Kotlin をふわっと覚えられる」教材を探していた。 そしたら偶々 Kindle unlimited で『速習 Kotlin』という本を見かけたので予備学習教材として読んでみた。"
 image = "/images/attention/kitten.jpg"
 tags = [ "book", "kotlin", "programming", "language", "object-oriented" ]
@@ -39,7 +40,7 @@ tags = [ "book", "kotlin", "programming", "language", "object-oriented" ]
 無理やり喩えるなら，昔の（C言語などの）言語は「数独[^sd1]」でオブジェクト指向言語は「クロスワードパズル」といった感じだろうか[^pz1]。
 
 [^go1]: この点で [Go 言語]における全てを「オブジェクト指向」に包摂しようとしない設計上の割り切り方は個人的に好印象である。スクリプト言語ならともかく，バイナリ・コードにコンパイルする言語は（泥臭さを許容してでも）パフォーマンスが要求されることも多く，無理にオブジェクト指向でマニピュレータを書くより「for 文で回したほうがはやい」なんてなこともあるのだ。
-[^sd1]: 「数独」は[ニコリ](https://www.nikoli.co.jp/)の登録商標である。ちなみに数独のオリジナルは米国の方が考えられた ”Number Place” なのだが，海外では “Sudoku” のほうが有名である。詳しくは日経サイエンス 2006年9月号「[数独の科学](https://www.nikkei-science.net/modules/flash/index.php?id=200609_052)」を参照のこと。
+[^sd1]: 「数独（「数字は独身に限る」の略称）」は[ニコリ](https://www.nikoli.co.jp/)の商標である。ちなみに数独のオリジナルは米国の方が考えられた ”Number Place” なのだが，海外では “Sudoku” の名称のほうが有名である。詳しくは日経サイエンス 2006年9月号「[数独の科学](https://www.nikkei-science.net/modules/flash/index.php?id=200609_052)」を参照のこと。
 [^pz1]: クロスワードパズルは出題者と解答者との間で共通の語彙がなければ絶対に解けない。
 
 この手の解説本でありがちなミスは，言語「仕様」と言語周辺の「知識」がゴッチャになって記述が混沌としてしまうことだ。
