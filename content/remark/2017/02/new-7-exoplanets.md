@@ -17,7 +17,7 @@ description = "あちこちで報道されているようなので，ブック�
   linkedin = "spiegelimspiegel"
   facebook = "spiegel.im.spiegel"
   instagram = "spiegel_2007"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   github = "spiegel-im-spiegel"
 +++
 

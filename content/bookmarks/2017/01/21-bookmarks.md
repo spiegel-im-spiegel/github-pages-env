@@ -5,7 +5,7 @@ title = "2017-01-21 のブックマーク"
 draft = false
 
 [author]
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   instagram = "spiegel_2007"
   avatar = "/images/avatar.jpg"
   name = "Spiegel"

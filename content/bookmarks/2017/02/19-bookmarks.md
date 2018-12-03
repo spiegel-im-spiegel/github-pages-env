@@ -15,7 +15,7 @@ date = "2017-02-19T13:46:40+09:00"
   facebook = "spiegel.im.spiegel"
   avatar = "/images/avatar.jpg"
   instagram = "spiegel_2007"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   url = "http://www.baldanders.info/spiegel/profile/"
 +++
 

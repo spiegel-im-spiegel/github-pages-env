@@ -15,7 +15,7 @@ draft = false
   facebook = "spiegel.im.spiegel"
   flattr = "spiegel"
   avatar = "/images/avatar.jpg"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   license = "by-sa"
 +++
 

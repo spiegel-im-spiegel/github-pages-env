@@ -14,7 +14,7 @@ title = "ATOM Editor で Amazon Associate ID を含んだ商品 URL を生成す
   license = "by-sa"
   linkedin = "spiegelimspiegel"
   name = "Spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++

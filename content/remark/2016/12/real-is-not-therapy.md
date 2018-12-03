@@ -12,7 +12,7 @@ update = "2016-12-06T12:40:01+09:00"
 [author]
   instagram = "spiegel_2007"
   name = "Spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   github = "spiegel-im-spiegel"
   url = "http://www.baldanders.info/spiegel/profile/"
   license = "by-sa"

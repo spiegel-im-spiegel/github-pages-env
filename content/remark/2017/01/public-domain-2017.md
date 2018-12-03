@@ -7,7 +7,7 @@ title = "2017年のパブリックドメイン作品と青空文庫20周年"
 draft = false
 
 [author]
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   linkedin = "spiegelimspiegel"
   license = "by-sa"
   name = "Spiegel"

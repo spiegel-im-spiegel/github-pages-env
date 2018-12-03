@@ -21,7 +21,7 @@ description = "いわゆる「サイバー・マンデー」でどえら値引�
   flattr = "spiegel"
   license = "by-sa"
   flickr = "spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
 +++
 
 いやぁ，最初は買うつもりなんかなかったんだけどねぇ。

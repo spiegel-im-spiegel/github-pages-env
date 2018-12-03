@@ -17,7 +17,7 @@ description = "2015年の CERT/CC ブログ記事「The Risks of SSL Inspection�
   flickr = "spiegel"
   instagram = "spiegel_2007"
   name = "Spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   twitter = "spiegel_2007"
 +++
 

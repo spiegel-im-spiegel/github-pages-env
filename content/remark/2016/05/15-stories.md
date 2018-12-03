@@ -15,7 +15,7 @@ title = "週末スペシャル： 水星の日面経過"
   license = "by-sa"
   linkedin = "spiegelimspiegel"
   name = "Spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++

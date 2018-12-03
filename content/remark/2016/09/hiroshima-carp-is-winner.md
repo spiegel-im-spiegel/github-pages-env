@@ -15,7 +15,7 @@ title = "広島東洋カープ，リーグ優勝おめでとう！"
   license = "by-sa"
   linkedin = "spiegelimspiegel"
   name = "Spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++

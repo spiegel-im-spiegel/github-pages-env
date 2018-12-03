@@ -5,7 +5,7 @@ description = "「JASRACが音楽教室からも著作権使用料を徴収し�
 date = "2017-02-04T12:06:42+09:00"
 
 [author]
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   twitter = "spiegel_2007"
   facebook = "spiegel.im.spiegel"
   instagram = "spiegel_2007"

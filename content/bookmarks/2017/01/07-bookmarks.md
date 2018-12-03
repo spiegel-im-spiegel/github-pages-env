@@ -5,7 +5,7 @@ draft = false
 description = "「draft-ietf-openpgp-rfc4880bis-01.txt」他"
 
 [author]
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   avatar = "/images/avatar.jpg"
   url = "http://www.baldanders.info/spiegel/profile/"
   flattr = "spiegel"

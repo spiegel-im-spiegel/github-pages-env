@@ -8,7 +8,7 @@ tags = ["golang", "programming", "language"]
 
 [author]
   license = "by-sa"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   url = "http://www.baldanders.info/spiegel/profile/"
   avatar = "/images/avatar.jpg"
   instagram = "spiegel_2007"

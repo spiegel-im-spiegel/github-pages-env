@@ -16,7 +16,7 @@ description = "もちろん息抜きである。潤いは大事。でも実用�
   url = "http://www.baldanders.info/spiegel/profile/"
   avatar = "/images/avatar.jpg"
   facebook = "spiegel.im.spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   github = "spiegel-im-spiegel"
   instagram = "spiegel_2007"
 +++

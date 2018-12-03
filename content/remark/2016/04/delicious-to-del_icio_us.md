@@ -16,7 +16,7 @@ title = "delicious.com が del.icio.us に移行するらしい（出戻り？�
   license = "by-sa"
   linkedin = "spiegelimspiegel"
   name = "Spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++

@@ -16,7 +16,7 @@ title = "広告をブロックしたスペースに広告を入れる Adblock"
   license = "by-sa"
   linkedin = "spiegelimspiegel"
   name = "Spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++

@@ -12,11 +12,9 @@ description = "text.Baldanders.info ではサイトの更新情報を提供し�
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
   twitter   = "spiegel_2007"
-  tumblr    = "spiegel-im-spiegel"
   instagram = "spiegel_2007"
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
   flattr    = "spiegel"
 
 [scripts]

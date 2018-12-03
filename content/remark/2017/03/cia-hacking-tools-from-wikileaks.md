@@ -8,7 +8,7 @@ description = "とりあえずブックマークを中心に。以後，追記�
 
 [author]
   avatar = "/images/avatar.jpg"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   github = "spiegel-im-spiegel"
   name = "Spiegel"
   linkedin = "spiegelimspiegel"

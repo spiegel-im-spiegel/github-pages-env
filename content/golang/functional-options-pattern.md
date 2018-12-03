@@ -9,7 +9,7 @@ draft = false
 [author]
   avatar = "/images/avatar.jpg"
   github = "spiegel-im-spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   flattr = "spiegel"
   license = "by-sa"
   instagram = "spiegel_2007"

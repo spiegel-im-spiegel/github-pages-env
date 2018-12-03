@@ -7,7 +7,7 @@ tags = ["artificial-intelligence", "engineering"]
 description = "「常識」は「知能（intelligence）」というより「知性（intellect）」に近い。果たして人工知能（artificial intelligence）に「常識」は必要なのか。"
 
 [author]
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   facebook = "spiegel.im.spiegel"
   twitter = "spiegel_2007"
   flickr = "spiegel"

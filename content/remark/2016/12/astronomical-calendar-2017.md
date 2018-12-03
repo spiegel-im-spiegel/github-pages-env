@@ -12,7 +12,7 @@ update = "2016-12-26T09:53:22+09:00"
 [author]
   url = "http://www.baldanders.info/spiegel/profile/"
   license = "by-sa"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   github = "spiegel-im-spiegel"
   flattr = "spiegel"
   facebook = "spiegel.im.spiegel"

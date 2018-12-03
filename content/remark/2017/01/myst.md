@@ -8,7 +8,7 @@ description = "まだちょこっと触っただけだが，ゲームパッド�
 [author]
   twitter = "spiegel_2007"
   instagram = "spiegel_2007"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   flattr = "spiegel"
   facebook = "spiegel.im.spiegel"
   github = "spiegel-im-spiegel"

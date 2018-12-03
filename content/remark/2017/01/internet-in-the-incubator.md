@@ -15,7 +15,7 @@ tags = ["internet", "politics", "hacker-ethic"]
   github = "spiegel-im-spiegel"
   license = "by-sa"
   name = "Spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   flickr = "spiegel"
   instagram = "spiegel_2007"
 +++

@@ -12,7 +12,7 @@ tags = [
 draft = false
 
 [author]
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   instagram = "spiegel_2007"
   facebook = "spiegel.im.spiegel"
   linkedin = "spiegelimspiegel"

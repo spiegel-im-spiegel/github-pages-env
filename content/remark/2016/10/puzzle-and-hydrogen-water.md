@@ -18,7 +18,7 @@ draft = false
   github = "spiegel-im-spiegel"
   twitter = "spiegel_2007"
   instagram = "spiegel_2007"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   flickr = "spiegel"
   flattr = "spiegel"
 +++

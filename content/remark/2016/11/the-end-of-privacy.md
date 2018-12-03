@@ -21,7 +21,7 @@ draft = false
   twitter = "spiegel_2007"
   flickr = "spiegel"
   flattr = "spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   name = "Spiegel"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++

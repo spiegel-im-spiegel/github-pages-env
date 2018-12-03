@@ -18,7 +18,7 @@ title = "配列と Slice"
   name = "Spiegel"
   facebook = "spiegel.im.spiegel"
   flickr = "spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
 
 [scripts]
   mathjax = false

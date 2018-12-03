@@ -11,7 +11,7 @@ draft = false
 
 [author]
   avatar = "/images/avatar.jpg"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   flattr = "spiegel"
   instagram = "spiegel_2007"
   facebook = "spiegel.im.spiegel"

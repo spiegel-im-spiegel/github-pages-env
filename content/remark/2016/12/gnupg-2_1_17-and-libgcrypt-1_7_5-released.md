@@ -15,7 +15,7 @@ description = "Libgcrypt はバグフィックスがメイン， GnuPG 2.1 系 �
 [author]
   flickr = "spiegel"
   twitter = "spiegel_2007"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   avatar = "/images/avatar.jpg"
   url = "http://www.baldanders.info/spiegel/profile/"
   license = "by-sa"

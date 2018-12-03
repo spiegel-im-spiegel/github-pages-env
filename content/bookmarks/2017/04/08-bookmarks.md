@@ -5,7 +5,7 @@ date = "2017-04-08T14:21:42+09:00"
 title = "2017-04-08 のブックマーク"
 
 [author]
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   twitter = "spiegel_2007"
   flattr = "spiegel"
   github = "spiegel-im-spiegel"

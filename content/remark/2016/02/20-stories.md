@@ -16,7 +16,7 @@ title = "週末スペシャル： X 線天文衛星 ASTRO-H の打上げ成功"
   license = "by-sa"
   linkedin = "spiegelimspiegel"
   name = "Spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++

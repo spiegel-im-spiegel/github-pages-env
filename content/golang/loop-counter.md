@@ -18,7 +18,7 @@ draft = false
   instagram = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
   linkedin = "spiegelimspiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
 
 [scripts]
   mathjax = true

@@ -9,7 +9,7 @@ title = "いまさら聞けない Slack の使い方"
 [author]
   github = "spiegel-im-spiegel"
   facebook = "spiegel.im.spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   license = "by-sa"
   instagram = "spiegel_2007"
   avatar = "/images/avatar.jpg"

@@ -20,7 +20,7 @@ title = "2016年の「よかったこと」"
   twitter = "spiegel_2007"
   name = "Spiegel"
   license = "by-sa"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
 +++
 
 結城浩さん主催で毎年行われる「[よかった探しリース](http://www.hyuki.com/ring/)」だが，今年は「個人的な事情（キャパ）により開催を見送ります」とのことなので，この記事でさくっと済ませることにする。

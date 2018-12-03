@@ -15,7 +15,7 @@ title = "Go 言語 1.6.1 および 1.5.4 のセキュリティ・アップデー
   license = "by-sa"
   linkedin = "spiegelimspiegel"
   name = "Spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++

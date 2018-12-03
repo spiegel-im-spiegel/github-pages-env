@@ -17,7 +17,7 @@ tags = ["golang", "programming", "sort"]
   url = "http://www.baldanders.info/spiegel/profile/"
   linkedin = "spiegelimspiegel"
   flattr = "spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   twitter = "spiegel_2007"
 +++
 

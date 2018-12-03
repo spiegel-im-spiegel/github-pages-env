@@ -16,7 +16,7 @@ draft = false
   github = "spiegel-im-spiegel"
   license = "by-sa"
   linkedin = "spiegelimspiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   facebook = "spiegel.im.spiegel"
   instagram = "spiegel_2007"
 +++

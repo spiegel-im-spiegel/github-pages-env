@@ -15,7 +15,7 @@ title = "GnuPG 2.1.16 released"
   flickr = "spiegel"
   facebook = "spiegel.im.spiegel"
   license = "by-sa"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   linkedin = "spiegelimspiegel"
   github = "spiegel-im-spiegel"
 +++

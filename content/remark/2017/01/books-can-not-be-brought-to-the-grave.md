@@ -16,7 +16,7 @@ update = "2017-01-18T22:53:07+09:00"
   name = "Spiegel"
   flattr = "spiegel"
   facebook = "spiegel.im.spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   github = "spiegel-im-spiegel"
   license = "by-sa"
 +++

@@ -8,7 +8,7 @@ description = "読みたいんだけど（ゆっくり読む暇がなくて）�
 [author]
   flickr = "spiegel"
   instagram = "spiegel_2007"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   twitter = "spiegel_2007"
   avatar = "/images/avatar.jpg"
   linkedin = "spiegelimspiegel"

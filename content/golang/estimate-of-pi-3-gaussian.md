@@ -24,7 +24,7 @@ update = "2018-11-13T10:00:52+09:00"
   license = "by-sa"
   github = "spiegel-im-spiegel"
   twitter = "spiegel_2007"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
 
 [scripts]
   mathjax = true

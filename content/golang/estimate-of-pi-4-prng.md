@@ -22,7 +22,7 @@ description = "math/rand パッケージでは rand.Source interface を持つ�
   facebook = "spiegel.im.spiegel"
   url = "http://www.baldanders.info/spiegel/profile/"
   avatar = "/images/avatar.jpg"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   github = "spiegel-im-spiegel"
 
 [scripts]

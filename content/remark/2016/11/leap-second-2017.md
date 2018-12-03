@@ -12,7 +12,7 @@ draft = false
 
 [author]
   github = "spiegel-im-spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   facebook = "spiegel.im.spiegel"
   flattr = "spiegel"
   avatar = "/images/avatar.jpg"

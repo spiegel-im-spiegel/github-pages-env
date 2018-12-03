@@ -19,7 +19,7 @@ title = "【ATOM Editor】 EditorConfig を使うなら Whitespace は不要"
   github = "spiegel-im-spiegel"
   instagram = "spiegel_2007"
   license = "by-sa"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   facebook = "spiegel.im.spiegel"
 +++
 

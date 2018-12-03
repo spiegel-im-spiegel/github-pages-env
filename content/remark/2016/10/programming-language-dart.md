@@ -11,7 +11,7 @@ title = "Dart 言語に関する覚え書き"
 
 [author]
   github = "spiegel-im-spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   facebook = "spiegel.im.spiegel"
   instagram = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"

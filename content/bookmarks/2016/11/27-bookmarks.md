@@ -6,7 +6,7 @@ title = "2016-11-27 のブックマーク"
 
 [author]
   flattr = "spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   linkedin = "spiegelimspiegel"
   instagram = "spiegel_2007"
   name = "Spiegel"

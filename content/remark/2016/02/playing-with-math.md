@@ -16,7 +16,7 @@ title = "算数で遊ぼう または 11 × 11 × 3.14 = 379.94 は誤りか"
   license = "by-sa"
   linkedin = "spiegelimspiegel"
   name = "Spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++

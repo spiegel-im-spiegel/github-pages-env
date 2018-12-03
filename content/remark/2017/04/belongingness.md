@@ -9,7 +9,7 @@ description = "熊代亨さんの『認められたい』が面白そうなの�
 [author]
   facebook = "spiegel.im.spiegel"
   flickr = "spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   avatar = "/images/avatar.jpg"
   instagram = "spiegel_2007"
   flattr = "spiegel"

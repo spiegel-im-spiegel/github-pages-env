@@ -11,7 +11,7 @@ draft = false
 
 [author]
   name = "Spiegel"
-  tumblr = "spiegel-im-spiegel"
+  tumblr = ""
   twitter = "spiegel_2007"
   flattr = "spiegel"
   flickr = "spiegel"
