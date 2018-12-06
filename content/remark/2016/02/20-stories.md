@@ -1,6 +1,6 @@
 +++
 date = "2016-02-20T18:03:21+09:00"
-update = "2016-03-22T19:50:22+09:00"
+update = "2018-12-07T07:24:56+09:00"
 description = "X 線天文衛星 ASTRO-H の打上げ成功 / TMT 建設に関する報道 / スマホへ「ブルートフォース攻撃」を要求するアメリカ / C 言語はどう書くべきか / Bitcoin は「群衆の知恵」を前提とする / Amazon Prime 入ろうかと / 「ムラ社会」という名の多文化主義的エポケー"
 draft = false
 tags = ["astronomy", "telescope", "astro-h", "tmt", "security", "privacy", "risk", "programming", "blockchain", "amazon", "politics", "media"]
@@ -38,7 +38,7 @@ title = "週末スペシャル： X 線天文衛星 ASTRO-H の打上げ成功"
 - [Japan Launches Observatory To Study Black Holes And Dying Stars | TechCrunch](http://techcrunch.com/2016/02/20/japan-launches-observatory-to-study-black-holes-and-dying-stars/)
 - [JAXA | X線天文衛星「ひとみ」（ASTRO-H）のクリティカル運用期間の終了について](http://www.jaxa.jp/press/2016/02/20160229_hitomi_j.html)
 
-{{< fig-img src="http://apod.nasa.gov/apod/image/1602/IMG_0193PorterAstroH.jpg" height="333" width="500" title="APOD: 2016 February 18 - Hitomi Launches" link="http://apod.nasa.gov/apod/ap160218.html" lang="en" >}}
+{{< fig-img src="http://apod.nasa.gov/apod/image/1602/IMG_0193PorterAstroH.jpg" width="5472" title="APOD: 2016 February 18 - Hitomi Launches" link="http://apod.nasa.gov/apod/ap160218.html" lang="en" >}}
 
 「ひとみ」と命名されたらしい。
 「ひとみ」には広島大学も関わってたんだそうで，なんかちょっと嬉しい。
@@ -128,11 +128,9 @@ Google はかつて「プライバシーなど存在しない」と言い放っ�
 いや，最近 Blockchain の話題をまた見るようになったけど， Blockchain 最大の弱点は追記プロセスにあることをみんな分かっているのだろうか。
 そこを見ないで「Blockchain は改竄不可能」というのは言いすぎだと思う。
 
-Blockchain の代表的な実装である Bitcoin は追記プロセスを「群衆の知恵（wisdom of crowds）」を前提に実装している[^wc]。
+Blockchain の代表的な実装である Bitcoin は追記プロセスを「群衆の知恵（wisdom of crowds）」を前提に実装している。
 
-[^wc]: 「[集団的知性（Collective Intelligence）と、群衆の知恵（Wisdom of Crowds）の違い](http://blog.keiichimaeda.com/archives/97)」は既にリンクが切れていたので [Tumblr の reblog](http://sousu.tumblr.com/post/12854295698/) を参照した。 reblog バンザイ！
-
-{{< fig-quote title="集団的知性（Collective Intelligence）と、群衆の知恵（Wisdom of Crowds）の違い" link="http://blog.keiichimaeda.com/archives/97" >}}
+{{< fig-quote title="MEMO: 集団的知性（Collective Intelligence）と、群衆の知恵（Wisdom of Crowds）の違い" link="http://kzk-memo.blogspot.com/2010/04/collective-intelligencewisdom-of-crowds.html" >}}
 <q>「群衆の知恵」モデルは、多様性をもった参加者が、個々に自律していて、まわりの人々の考えに影響を受けないことが前提となっている。参加者がお互いに影響を与え、同質なグループができあがってしまうと、結果がゆがめられてしまうからだ。しかし、現実には、参加者はお互いに影響を与えあうため、「群集の知恵」モデルは問題をかかえている。</q>
 {{< /fig-quote >}}
 
@@ -183,9 +181,22 @@ Box や Dropbox は他の用途で使っていて混ぜたくないし， Flickr
 この本を読む限り，リベラリズムは「多文化主義的エポケー」に陥ったまま足が抜けなくなってるようにしか見えない。
 （そういや，多文化主義ってリベラリズムの考え方だっけ）
 
-## 参考
+## 参考図書
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4903127044/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/417iD4x5N%2BL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4903127044/baldandersinf-22/">排除型社会―後期近代における犯罪・雇用・差異</a></dt><dd>ジョック ヤング Jock Young </dd><dd>洛北出版 2007-03</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4791764331/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4791764331.09._SCTHUMBZZZ_.jpg"  alt="後期近代の眩暈―排除から過剰包摂へ"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4255008515/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4255008515.09._SCTHUMBZZZ_.jpg"  alt="断片的なものの社会学"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4796700439/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4796700439.09._SCTHUMBZZZ_.jpg"  alt="スティグマの社会学―烙印を押されたアイデンティティ"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4791764242/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4791764242.09._SCTHUMBZZZ_.jpg"  alt="新しい貧困 労働消費主義ニュープア"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4062881357/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4062881357.09._SCTHUMBZZZ_.jpg"  alt="弱者の居場所がない社会――貧困・格差と社会的包摂 (講談社現代新書)"  /></a> </p>
-<p class="description"><a href="http://www.baldanders.info/spiegel/log2/000410.shtml">感想はこちら</a>。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-09-15">2015-09-15</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4903127044/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41uBRNdBygL._SL160_.jpg" width="110" height="160" alt="排除型社会―後期近代における犯罪・雇用・差異"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4903127044/baldandersinf-22">排除型社会―後期近代における犯罪・雇用・差異</a></dt>
+    <dd>ジョック ヤング</dd>
+    <dd>洛北出版</dd>
+    <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </span></dd>
+  </dl>
+  <p class="description"><a href="http://www.baldanders.info/spiegel/log2/000410.shtml">感想はこちら</a>。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.12.7</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>

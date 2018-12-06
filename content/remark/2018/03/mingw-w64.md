@@ -1,7 +1,7 @@
 +++
 title = "MinGW-w64 を導入する"
 date = "2018-03-31T17:40:56+09:00"
-update = "2018-04-26T09:13:34+09:00"
+update = "2018-12-07T08:41:56+09:00"
 description = "MinGW-w64 は Windows 用のバイナリを出力可能な GCC を含む開発環境を提供している。もちろん Windows 用のバイナリも存在する。"
 image = "/images/attention/kitten.jpg"
 tags = ["mingw", "gcc", "tools", "windows"]
@@ -26,7 +26,9 @@ tags = ["mingw", "gcc", "tools", "windows"]
 +++
 
 [MinGW-w64] は [MinGW (Minimalist GNU for Windows)](http://www.mingw.org/) の後継とも言えるプロジェクトで Windows 用のバイナリを出力可能な [GCC] を含む開発環境を提供している。
-[MSYS2] も [MinGW-w64] の成果を取り込んでいるので馴染みのある人もいるだろう。
+[MSYS2] も [MinGW-w64] の成果を取り込んでいるので馴染みのある人もいるだろう[^msys2]。
+
+[^msys2]: [MSYS2] のインストールについては拙文「[MSYS2 による gcc 開発環境の構築 ― MSYS2 のインストールから初期化処理まで]({{< ref "/remark/2016/03/gcc-msys2-1.md" >}})」を参照のこと。
 
 [MinGW] および [MinGW-w64] はどちらかと言うと Linux 系のプラットフォームで Windows 向けのビルドを行うクロスコンパイラとしての側面が強いが，もちろん Windows 用のバイナリも存在する。
 [MinGW-w64] の Windows 用インストーラは以下で取得できる[^sf1]。
@@ -128,14 +130,40 @@ hello world
 [MinGW]: http://www.mingw.org/ "MinGW | Minimalist GNU for Windows"
 [MSYS2]: http://msys2.github.io/ "MSYS2 installer"
 
-## 参考文献
+## 参考図書
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4320026926/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/41W69WGATNL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4320026926/baldandersinf-22/">プログラミング言語C 第2版 ANSI規格準拠</a></dt><dd>B.W. カーニハン D.M. リッチー 石田 晴久 </dd><dd>共立出版 1989-06-15</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4320027485/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4320027485.09._SCTHUMBZZZ_.jpg"  alt="プログラミング言語Cアンサー・ブック 第2版"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4874084141/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4874084141.09._SCTHUMBZZZ_.jpg"  alt="C言語による最新アルゴリズム事典 (ソフトウェアテクノロジー)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774111422/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4774111422.09._SCTHUMBZZZ_.jpg"  alt="C言語ポインタ完全制覇 (標準プログラマーズライブラリ)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797304952/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4797304952.09._SCTHUMBZZZ_.jpg"  alt="定本 Cプログラマのためのアルゴリズムとデータ構造 (SOFTBANK BOOKS)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4900900648/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4900900648.09._SCTHUMBZZZ_.jpg"  alt="C実践プログラミング 第3版"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4781908535/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4781908535.09._SCTHUMBZZZ_.jpg"  alt="工科系の数学 (5)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4781908896/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4781908896.09._SCTHUMBZZZ_.jpg"  alt="工科系の数学〈6〉関数論"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4756136494/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4756136494.09._SCTHUMBZZZ_.jpg"  alt="プログラミング作法"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798030147/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4798030147.09._SCTHUMBZZZ_.jpg"  alt="苦しんで覚えるC言語"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798101036/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4798101036.09._SCTHUMBZZZ_.jpg"  alt="Cの絵本―C言語が好きになる9つの扉"  /></a> </p>
-<p class="description">通称 “K&amp;R”。その筋の人々には「バイブル」と呼ばれる名著（当時は）。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-02-19">2017-02-19</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4320026926/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41W69WGATNL._SL160_.jpg" width="112" height="160" alt="プログラミング言語C 第2版 ANSI規格準拠"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4320026926/baldandersinf-22">プログラミング言語C 第2版 ANSI規格準拠</a></dt>
+    <dd>B.W. カーニハン, D.M. リッチー</dd>
+    <dd>共立出版</dd>
+    <dd>評価&nbsp;<abbr class="rating fa-sm" title="5">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </abbr></dd>
+  </dl>
+  <p class="description">通称 “K&amp;R”。その筋の人々には「バイブル」と呼ばれる名著（当時は）。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.12.7</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4873117364/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51ng4usMVYL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4873117364/baldandersinf-22/">Effective Modern C++ ―C++11/14プログラムを進化させる42項目</a></dt><dd>Scott Meyers 千住 治郎 </dd><dd>オライリージャパン 2015-09-18</dd><dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4048694243/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4048694243.09._SCTHUMBZZZ_.jpg"  alt="C++11/14 コア言語"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797375957/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4797375957.09._SCTHUMBZZZ_.jpg"  alt="プログラミング言語C++第4版"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4621066099/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4621066099.09._SCTHUMBZZZ_.jpg"  alt="Effective C++ 第3版 (ADDISON-WESLEY PROFESSIONAL COMPUTI)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797384778/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4797384778.09._SCTHUMBZZZ_.jpg"  alt="C++のエッセンス"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4048930516/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4048930516.09._SCTHUMBZZZ_.jpg"  alt="C++によるプログラミングの原則と実践"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797376686/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4797376686.09._SCTHUMBZZZ_.jpg"  alt="C++テンプレートテクニック 第2版"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4844338900/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4844338900.09._SCTHUMBZZZ_.jpg"  alt="Game Programming Patterns ソフトウェア開発の問題解決メニュー (impress top gear)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4873117569/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4873117569.09._SCTHUMBZZZ_.jpg"  alt="Effective Python ―Pythonプログラムを改良する59項目"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774174084/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4774174084.09._SCTHUMBZZZ_.jpg"  alt="改訂新版　C++ポケットリファレンス"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4862462928/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4862462928.09._SCTHUMBZZZ_.jpg"  alt="Computer Graphics Gems JP 2015 - コンピュータグラフィックス技術の最前線 -"  /></a> </p>
-<p class="description">C++ 再勉強中。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-09-22">2016-09-22</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4873117364/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51ng4usMVYL._SL160_.jpg" width="125" height="160" alt="Effective Modern C++ ―C++11/14プログラムを進化させる42項目"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4873117364/baldandersinf-22">Effective Modern C++ ―C++11/14プログラムを進化させる42項目</a></dt>
+    <dd>Scott Meyers</dd>
+    <dd>オライリージャパン</dd>
+    <dd>評価&nbsp;<abbr class="rating fa-sm" title="4">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+    </abbr></dd>
+  </dl>
+  <p class="description">C++ 再勉強中。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.12.7</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>

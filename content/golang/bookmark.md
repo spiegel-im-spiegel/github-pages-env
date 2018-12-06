@@ -115,6 +115,7 @@ title = "Go 言語に関するブックマーク"
     - [Generics — Problem Overview](https://go.googlesource.com/proposal/+/master/design/go2draft-generics-overview.md)
     - [Contracts — Draft Design](https://go.googlesource.com/proposal/+/master/design/go2draft-contracts.md)
 - [Go 2のgenerics/contract簡易まとめ](https://qiita.com/lufia/items/242d25e8c93d88e22a2e)
+- [Go 2, here we come! - The Go Blog](https://blog.golang.org/go2-here-we-come)
 
 ## 言語仕様および標準パッケージに関すること
 
@@ -642,6 +643,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Big Sky :: golang の html/template でレイアウトを扱う方法](https://mattn.kaoriya.net/software/lang/go/20180418222903.htm)
 - [ぼくのかんがえたさいきょうのまいくろさーびすあーきてくちゃ - Qiita](https://qiita.com/gaku3601/items/afb4bcd6e854e93e67e1)
 - [【Go】ファイルアップロード - Qiita](https://qiita.com/huji0327/items/b8fee669323777a6d41a)
+- [Go製WebToolKit Buffalo[概要編] - Qiita](https://qiita.com/k-kurikuri/items/f46356b70fe3e7e8da7d)
+- [Go+Echoの環境にNewRelicを導入する - Qiita](https://qiita.com/daisukeoda/items/b02aefa4f464e63729b5)
 
 ## 他サービスとの連携
 
@@ -669,6 +672,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [GOのORM sqlboiler 使ってみた　 - Qiita](https://qiita.com/gougyan/items/5295e4a30697a73868b5)
 - [GoでMySQLにアクセスしてみる（gorp編） - Qiita](https://qiita.com/hanenao/items/103774f76abdbc853abf)
 - [go-sqlrow](https://blog.web-apps.tech/go-sqlrow/)
+- [Go言語のために、すべてのORMに対応できるデータベースシャーディングライブラリを作った - Qiita](https://qiita.com/goccy/items/a54af6db3b8623e90c38)
 
 ### GAE/Go
 

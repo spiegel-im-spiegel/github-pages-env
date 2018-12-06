@@ -1,6 +1,6 @@
 +++
 date = "2016-11-13T05:20:11+09:00"
-update = "2016-12-05T10:41:13+09:00"
+update = "2018-11-11T03:53:59+09:00"
 description = "nullable 参照と non-null 参照の区別は，コードに「意図」を記述することを言語仕様レベルで規定するものである。"
 draft = false
 tags = ["programming", "null-safety"]
@@ -75,5 +75,6 @@ nullable 参照と non-null 参照の区別は，コードに「意図」を記�
 - [Null安全な言語をめぐるエトセトラ　その１　３種の「現場」 - Qiita](http://qiita.com/kmry2045/items/0d412a6461de70719ec4)
 - [null安全はいいぞ。だって、型安全はいいぞ。 - Qiita](http://qiita.com/takasek/items/119218a2bae2f75062c0)
 - [「null安全」という訳語の背景 - Qiita](http://qiita.com/koher/items/04025f0e4bba738f188c)
+- [Swiftのエラーハンドリングはなぜ最先端なのか - Qiita](https://qiita.com/omochimetaru/items/c30f7a021fb9b8f0fa92)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"

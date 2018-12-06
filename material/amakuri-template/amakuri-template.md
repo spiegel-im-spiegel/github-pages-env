@@ -9,13 +9,13 @@
     <dt><a href="<%link_url%>"><%title%></a></dt>
     <dd><%author%></dd>
     <dd><%label%></dd>
-    <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
+    <dd>評価&nbsp;<abbr class="rating fa-sm" title="3">
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
       <i class="far fa-star"></i>
       <i class="far fa-star"></i>
-    </span></dd>
+    </abbr></dd>
   </dl>
   <p class="description"><%comment%></p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed"><%posted_date%></abbr> (powered by <a href="<%amakuri_url%>" >Amakuri</a>)</p>
@@ -29,7 +29,7 @@
 | <%title%>                            | 商品名                                                                                             |
 | <%author%>                           | 著者名                                                                                             |
 | <%label%>                            | 出版社                                                                                             |
-| <%ranking%>                          | 売上ランキング順位                                                                               |
+| <%ranking%>                          | 売上ランキング順位                                                                                 |
 | <%ranking_tag%> ... </%ranking_tag%> | 例: `<%ranking_tag%>売上げランキング： <%ranking%></%ranking_tag%>`                                |
 | <%platform%>                         | プラットフォーム                                                                                   |
 | <%image_small%>                      | 商品画像(小) : img タグ                                                                            |

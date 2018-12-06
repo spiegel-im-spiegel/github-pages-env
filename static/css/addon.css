@@ -46,6 +46,10 @@ main .hreview {
   color: inherit;
   background-color: inherit;
 }
+.hreview dl > dd abbr.rating {
+  color: goldenrod;
+  background-color: inherit;
+}
 .hreview div.photo, .hreview img.photo {
   float:left;
   border: none;
