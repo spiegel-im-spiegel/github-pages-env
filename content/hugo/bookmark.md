@@ -2,7 +2,7 @@
 title       = "Hugo に関するブックマーク"
 description = "当サイトを Hugo で構築するにあたって参考になったページを紹介する。"
 date        = "2015-09-05T00:00:00+09:00"
-update = "2018-01-04T20:41:28+09:00"
+update = "2018-12-07T17:08:24+09:00"
 tags        = [ "hugo", "bookmark" ]
 
 [author]
@@ -88,5 +88,6 @@ flattr    = "spiegel"
 - [Hugoでタグやカテゴリのリンク切れが起こる - Qiita](http://qiita.com/_shun_sato_/items/87888fa8425e55b1c758)
 - [Hugoと自作シェルスクリプトによるMarkdownメモ環境の構築 - Qiita](http://qiita.com/so1_tsuda/items/c5d375d0b6c5dcb0d0cf)
 - [HUGOで作れるCMSっぽいパーツ:関連記事・目次・JSON-LDなど - Qiita](http://qiita.com/y_hokkey/items/f9d8b66b3770a82d4c1c)
+- [Hugo でローカルサーバーかどうかで条件分岐する - Qiita](https://qiita.com/peaceiris/items/70fca0ba3cb5cce753eb)
 
 [Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"

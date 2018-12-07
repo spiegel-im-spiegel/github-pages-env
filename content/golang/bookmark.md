@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-11-11T03:53:59+09:00"
+update = "2018-12-07T17:08:24+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -204,6 +204,7 @@ title = "Go 言語に関するブックマーク"
 - [golangのequalityの評価について - podhmo's diary](http://pod.hatenablog.com/entry/2016/07/30/204357)
     - [Goで違うmapであることをテストする - Qiita](https://qiita.com/karupanerura/items/03d6766fd8568c15fc90)
 - [文字列をn個後ろにずらす処理を本気でやる - Qiita](https://qiita.com/smith_30/items/eec0ba2e4ec63fe879a0)
+- [Golangのmapとsliceはどちらが速いのか - 逆さまにした](https://cipepser.hatenablog.com/entry/go-map-slice)
 
 ### 入出力処理
 
@@ -353,6 +354,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [contextの使い方 - Qiita](http://qiita.com/taizo/items/69d3de8622eabe8da6a2)
 - [context.Contextでリクエストスコープな値を持ち回す - Qiita](http://qiita.com/hogedigo/items/a26d816395b7545ce5f8) : [context](https://golang.org/pkg/context/) の使い方って（名前からいって）本来こっちだよね
 - [goroutine にシグナルを送信する - Qiita](http://qiita.com/Kei-Kamikawa/items/620f9504daf2ec53f0b5)
+- [Go言語のContextパッケージのTODO( )って何？いつ使うの？ - Qiita](https://qiita.com/po3rin/items/3556c36182e0c635791c)
 
 ## 開発支援
 
@@ -645,6 +647,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [【Go】ファイルアップロード - Qiita](https://qiita.com/huji0327/items/b8fee669323777a6d41a)
 - [Go製WebToolKit Buffalo[概要編] - Qiita](https://qiita.com/k-kurikuri/items/f46356b70fe3e7e8da7d)
 - [Go+Echoの環境にNewRelicを導入する - Qiita](https://qiita.com/daisukeoda/items/b02aefa4f464e63729b5)
+- [golangのechoで静的なサイトを建てるならNowがお手軽という話 - DEV Community 👩‍💻👨‍💻](https://dev.to/fk2000/golangechonow-3kic)
 
 ## 他サービスとの連携
 
@@ -673,6 +676,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [GoでMySQLにアクセスしてみる（gorp編） - Qiita](https://qiita.com/hanenao/items/103774f76abdbc853abf)
 - [go-sqlrow](https://blog.web-apps.tech/go-sqlrow/)
 - [Go言語のために、すべてのORMに対応できるデータベースシャーディングライブラリを作った - Qiita](https://qiita.com/goccy/items/a54af6db3b8623e90c38)
+- [GoのGORMでiterate - Qiita](https://qiita.com/iz-j/items/09097c494292e0f03636)
 
 ### GAE/Go
 
@@ -691,6 +695,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [GAE/Goでメールを受信する](https://qiita.com/keitaro_1020/items/667bb1396015d32df09e)
 - [GAE Go 開発環境の構築からテストアプリのデプロイまで【MacOS】](https://qiita.com/IJN-Penguin/items/782a23662d68aab1316c)
 - [Go 言語で Google Cloud Storage の既存のバケットにオブジェクトを保存する](https://qiita.com/shinkiro/items/6d79b12d06de34119b46)
+- [GAE/Go1.11試行（その1：「クイックスタート」） - Qiita](https://qiita.com/sky0621/items/8a42ee24cb417940228c)
 
 ## AWS Lambda
 

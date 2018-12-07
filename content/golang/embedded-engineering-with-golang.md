@@ -1,7 +1,7 @@
 +++
 title = "組込みで Go"
 date =  "2018-01-21T18:39:17+09:00"
-update = "2018-04-18T21:05:35+09:00"
+update = "2018-12-07T17:08:24+09:00"
 description = "組込み関連の記事を見かけたのでブックマークしておく。"
 image = "/images/attention/go-code.png"
 tags        = [ "embedded", "engineering", "golang", "bookmark" ]
@@ -53,7 +53,7 @@ tags        = [ "embedded", "engineering", "golang", "bookmark" ]
 - [Go言語のリアルタイムGC　理論と実践 | プログラミング | POSTD](http://postd.cc/golangs-real-time-gc-in-theory-and-practice/)
 - [Go言語の低レイテンシGC実現のための取り組み | プログラミング | POSTD](http://postd.cc/gos-march-to-low-latency-gc/)
 - [minimumgo: Linuxでgolangの実行ファイルをひとつだけ動かすときに必要最小限の初期化処理をしてくれるgolangのパッケージ - Qiita](https://qiita.com/tetsu_koba/items/059849c0871a7e3bd94f)
-
+- [CHIP-8 &amp; Golang でエミュレータ作成入門してみた - Qiita](https://qiita.com/tuboc/items/b87f9a346fdf522a40fa)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Qiita]: https://qiita.com/

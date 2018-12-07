@@ -1,7 +1,7 @@
 +++
 title = "Java 環境のリリースとサポートに関する覚え書き"
 date = "2018-02-25T19:31:42+09:00"
-update = "2018-05-13T13:24:15+09:00"
+update = "2018-12-07T17:08:24+09:00"
 description = "特にこの記事では嘘や間違いがあればフィードバック等いただけると有り難い。随時加筆・修正する予定。"
 image = "/images/attention/kitten.jpg"
 tags        = [ "java", "engineering", "license", "tools" ]
@@ -45,6 +45,8 @@ Oracle の料金体系とかイマイチよく分かっていないのだ。
 
 - [Java Platform, Standard Edition Oracle JDK 9 Migration Guide, Release 9](https://docs.oracle.com/javase/9/migrate/toc.htm)
     - [The Hitchhiker's Migration Guide to JDK 9 新機能の影で消えた機能](https://kasecato.github.io/migrating2Jdk9/)
+- [Oracle JDK 8にあってOpenJDKにない機能 - Qiita](https://qiita.com/yamadamn/items/bb813dccaa1dc5585c9b)
+- [Java 8でも安心。Dockerに対するCPU・メモリ対応。（2018年11月現在） - Mitsuyuki.Shiiba](https://bufferings.hatenablog.com/entry/2018/11/11/114534)
 
 ### Java 8 の無償サポートは2019年1月まで
 
@@ -198,6 +200,7 @@ Java 関連のサービスやアプリケーションについて以下にメモ
 - [Java 9のモジュール機能「Project Jigsaw」の基本を紹介 (1/2)：CodeZine（コードジン）](https://codezine.jp/article/detail/10524)
 - [第2回　JDKの新しいリリースモデルに要注目 OpenJDKとOracle JDKの違いにも注意が必要［JavaOne 2017］：Java 9のその先へ～JavaOne Conference 2017レポート｜gihyo.jp … 技術評論社](http://gihyo.jp/news/report/01/JavaOne2017/0002)
 - [Javaエンジニアが Java 11 リリースに向けて備えておくべきこと - Qiita](https://qiita.com/mao172/items/dbf41e7a246c3f87dcbe)
+- [AWSが独自のOpenJDK「Amazon Corretto」発表。AWS内部で使っていたJavaを外部提供へ。Java 8は2023年まで、Java 11は2024年まで無償でLTSを提供 － Publickey](https://www.publickey1.jp/blog/18/awsopenjdkamazon_correttoawsjavajava_82023java_112024lts.html)
 
 [OpenJDK]: http://openjdk.java.net/
 [Project Jigsaw]: http://openjdk.java.net/projects/jigsaw/ "Project Jigsaw"

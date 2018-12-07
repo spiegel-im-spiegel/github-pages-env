@@ -1,7 +1,7 @@
 +++
 title = "Cobra の使い方とテスト"
 date =  "2017-12-06T21:01:33+09:00"
-update = "2018-03-06T11:21:33+09:00"
+update = "2018-12-07T17:08:24+09:00"
 description = "spf13/cobra そのものについてちゃんと書いてない気がするので，今回はコードの書き方からテストまでをひと通り紹介していく。"
 image = "/images/attention/go-code.png"
 tags = ["golang", "cli", "programming", "testing"]
@@ -631,6 +631,7 @@ $ dep status -dot | dot -Tpng -o dependency.png
 ## ブックマーク
 
 - [Golangのコマンドライブラリcobraを使って少しうまく実装する - Qiita](https://qiita.com/tkit/items/3cdeafcde2bd98612428) : [`cobra`].`Command` の関数化のアイデアはこちらからいただいた。感謝
+- [cobra / pflags でフラグをパースせずに args に残す - Qiita](https://qiita.com/izumin5210/items/b06a81002a6934c05185)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [goroutine]: http://golang.org/ref/spec#Go_statements
