@@ -1,7 +1,7 @@
 +++
 title = "Go 言語における Singleton Pattern"
 date =  "2017-10-24T14:43:01+09:00"
-update = "2018-12-07T06:50:23+09:00"
+update = "2018-12-07T10:08:03+09:00"
 description = "はっきり言って「Singleton なめんな！」ですよ。"
 tags        = [ "golang", "programming", "singleton", "init", "sync", "goroutine" ]
 
@@ -271,17 +271,56 @@ Hello Bob
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4621300253/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/410V3ulwP5L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4621300253/baldandersinf-22/">プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)</a></dt><dd>Alan A.A. Donovan Brian W. Kernighan 柴田 芳樹 </dd><dd>丸善出版 2016-06-20</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798142417/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4798142417.09._SCTHUMBZZZ_.jpg"  alt="スターティングGo言語 (CodeZine BOOKS)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4873117526/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4873117526.09._SCTHUMBZZZ_.jpg"  alt="Go言語によるWebアプリケーション開発"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4865940391/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4865940391.09._SCTHUMBZZZ_.jpg"  alt="Kotlinスタートブック -新しいAndroidプログラミング"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4839959234/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4839959234.09._SCTHUMBZZZ_.jpg"  alt="Docker実戦活用ガイド"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4274218961/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4274218961.09._SCTHUMBZZZ_.jpg"  alt="グッド・マス ギークのための数・論理・計算機科学"  /></a> </p>
-<p class="description">著者のひとりは（あの「バイブル」とも呼ばれる）通称 “K&amp;R” の K のほうである。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-07-13">2016-07-13</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4621300253/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41meaSLNFfL._SL160_.jpg" width="123" height="160" alt="プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)"></a></div>
+	<dl class="fn">
+      <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4621300253/baldandersinf-22">プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)</a></dt>
+      <dd>Alan A.A. Donovan, Brian W. Kernighan</dd>
+      <dd>丸善出版</dd>
+	  <dd>評価&nbsp;<abbr class="rating fa-sm" title="5">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </abbr></dd>
+  </dl>
+  <p class="description">著者のひとりは（あの「バイブル」とも呼ばれる）通称 “K&amp;R” の K のほうである。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.19</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1EU/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/41GPVATQiZL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1EU/baldandersinf-22/">Java言語で学ぶリファクタリング入門</a></dt><dd>結城 浩 </dd><dd>SBクリエイティブ 2007-01-26</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1BS/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8AT1BS.09._SCTHUMBZZZ_.jpg"  alt="増補改訂版 Java言語で学ぶデザインパターン入門 マルチスレッド編"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8ATHGW/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8ATHGW.09._SCTHUMBZZZ_.jpg"  alt="増補改訂版 Java言語で学ぶデザインパターン入門"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B073F45B97/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B073F45B97.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート／積分を見つめて"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00H372H40/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00H372H40.09._SCTHUMBZZZ_.jpg"  alt="プログラマの数学"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1AO/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8AT1AO.09._SCTHUMBZZZ_.jpg"  alt="Java言語プログラミングレッスン 第3版（下）　オブジェクト指向を始めよう"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0185E10ZQ/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B0185E10ZQ.09._SCTHUMBZZZ_.jpg"  alt="実践Javaコーディング作法"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B071V7MY82/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B071V7MY82.09._SCTHUMBZZZ_.jpg"  alt="プリンシプル オブ プログラミング 3年目までに身につけたい 一生役立つ101の原理原則"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00Y9EYOIW/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00Y9EYOIW.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート／微分を追いかけて"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00L0PDMK4/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00L0PDMK4.09._SCTHUMBZZZ_.jpg"  alt="数学ガール／ガロア理論"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1A4/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8AT1A4.09._SCTHUMBZZZ_.jpg"  alt="Java言語プログラミングレッスン 第3版（上）　Java言語を始めよう"  /></a> </p>
-<p class="description">結城浩さんによる「リファクタリング本」。意外に Java 以外でも使える優れもの。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-10-24">2017-10-24</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1EU/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41GPVATQiZL._SL160_.jpg" width="125" height="160" alt="Java言語で学ぶリファクタリング入門"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1EU/baldandersinf-22">Java言語で学ぶリファクタリング入門</a></dt>
+    <dd>結城 浩</dd>
+    <dd>SBクリエイティブ</dd>
+    <dd>評価&nbsp;<abbr class="rating fa-sm" title="5">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </abbr></dd>
+  </dl>
+  <p class="description">結城浩さんによる「リファクタリング本」の Kindle 版。意外にも Java 以外でも応用できる優れもの。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.12.7</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1BS/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/41uoMp5etSL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1BS/baldandersinf-22/">増補改訂版 Java言語で学ぶデザインパターン入門 マルチスレッド編</a></dt><dd>結城 浩 </dd><dd>SBクリエイティブ 2004-06-18</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8ATHGW/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8ATHGW.09._SCTHUMBZZZ_.jpg"  alt="増補改訂版 Java言語で学ぶデザインパターン入門"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1EU/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8AT1EU.09._SCTHUMBZZZ_.jpg"  alt="Java言語で学ぶリファクタリング入門"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B073F45B97/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B073F45B97.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート／積分を見つめて"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B076BY4VJH/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B076BY4VJH.09._SCTHUMBZZZ_.jpg"  alt="アプリケーションアーキテクチャ設計パターン"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B06Y114CHD/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B06Y114CHD.09._SCTHUMBZZZ_.jpg"  alt="C言語による スーパーLinuxプログラミング　Cライブラリの活用と実装・開発テクニック"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00H372H40/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00H372H40.09._SCTHUMBZZZ_.jpg"  alt="プログラマの数学"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00L0PDMK4/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00L0PDMK4.09._SCTHUMBZZZ_.jpg"  alt="数学ガール／ガロア理論"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00Y9EYOIW/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00Y9EYOIW.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート／微分を追いかけて"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00W6NCLL0/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00W6NCLL0.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート／数列の広場"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00L0PDMJ0/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00L0PDMJ0.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート／整数で遊ぼう"  /></a> </p>
-<p class="description">結城浩さんによる通称「デザパタ本」のマルチスレッド編。 Java 以外でも使える優れもの。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-10-24">2017-10-24</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1BS/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41uoMp5etSL._SL160_.jpg" width="126" height="160" alt="増補改訂版 Java言語で学ぶデザインパターン入門 マルチスレッド編"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1BS/baldandersinf-22">増補改訂版 Java言語で学ぶデザインパターン入門 マルチスレッド編</a></dt>
+    <dd>結城 浩</dd>
+    <dd>SBクリエイティブ</dd>
+	<dd>評価&nbsp;<abbr class="rating fa-sm" title="5">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </abbr></dd>
+  </dl>
+  <p class="description">結城浩さんによる通称「デザパタ本」のマルチスレッド編。 Kindle 版が出ていた。意外にも Java 以外でも応用できる優れもの。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.12.7</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>
