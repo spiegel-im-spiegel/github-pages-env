@@ -3,7 +3,7 @@ description = "個人で Slack を使ってみる。"
 draft = false
 tags = ["slack", "tools", "feed"]
 date = "2017-01-09T17:24:54+09:00"
-update = "2018-01-13T14:11:18+09:00"
+update = "2018-12-10T13:12:36+09:00"
 title = "いまさら聞けない Slack の使い方"
 
 [author]
@@ -77,24 +77,17 @@ title = "いまさら聞けない Slack の使い方"
     - [Publickey](http://www.publickey1.jp/atom.xml)
     - [aozorablog](http://www.aozora.gr.jp/aozorablog/?feed=atom)
     - [ぽじとろんの竹本泉観察記](http://rss.exblog.jp/rss/exblog/positron/index.xml)
-    - [中東・イスラーム学の風姿花伝](http://ikeuchisatoshi.com/feed/)
     - [お知らせ | さくらインターネット](https://www.sakura.ad.jp/rss/info.rdf)
     - [Blog – Creative Commons](https://creativecommons.org/blog/feed/)
-    - [「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/atom.xml)
     - [The Go Programming Language Blog](https://blog.golang.org/feed.atom)
-    - [Foresight](http://www.fsight.jp/list/feed/rss)
     - [Hugo](https://gohugo.io/index.xml "The world’s fastest framework for building websites | Hugo")
     - [MathJax](https://www.mathjax.org/feed.xml)
 - #security
     - [IPAセキュリティセンター:重要なセキュリティ情報](https://www.ipa.go.jp/security/rss/alert.rdf)
     - [情報セキュリティ新着情報RSS](https://www.ipa.go.jp/security/rss/info.rdf)
     - [JPCERT/CC RSS Feed](https://www.jpcert.or.jp/rss/jpcert.rdf)
-    - [JVNRSS Feed - Update Entry](http://jvn.jp/rss/jvn.rdf)
-    - [US-CERT Alerts](http://www.us-cert.gov/ncas/alerts.xml)
     - [piyolog](http://d.hatena.ne.jp/Kango/rss)
     - [Schneier on Security](https://www.schneier.com/blog/atom.xml)
-    - [wizSafe Security Signal -安心・安全への道標- IIJ](https://wizsafe.iij.ad.jp/feed/)
-    - [エフセキュアブログ](http://blog.f-secure.jp/atom.xml)
 
 メールや Facebook TL で取れる情報は除いたつもりだが，ちょっと多かったかな。
 調整しながら運用してみよう。
