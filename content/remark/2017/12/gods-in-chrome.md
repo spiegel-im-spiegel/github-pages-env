@@ -1,10 +1,10 @@
 +++
 title = "「神」と「神」と Chrome の文字化け"
 date =  "2017-12-10T12:35:07+09:00"
-update = "2017-12-11T19:25:29+09:00"
+update = "2018-12-10T22:28:16+09:00"
 description = "Google Chrome では「神」と「神」が同じ「神」に見える，という報告をいただきまして，確かにこちらの環境でも再現するので，ちょっと調べてみました。"
 image = "https://farm5.staticflickr.com/4586/38061039025_a61bb35c85.jpg"
-tags        = [ "web", "site", "font", "unicode", "normalization", "character" ]
+tags        = [ "web", "site", "font", "unicode", "normalization", "character", "firefox", "chromium", "webkit" ]
 
 [author]
   name      = "Spiegel"
@@ -28,6 +28,8 @@ tags        = [ "web", "site", "font", "unicode", "normalization", "character" ]
 「[Go 言語による Unicode 半角/全角変換]({{< ref "/golang/character-width-for-unicode.md" >}})」のページを Google Chrome で見ると「神と神」が同じ「神」に見える，という報告をいただきまして，確かにこちらの環境でも再現するので，ちょっと調べてみました。
 
 （追記： Chrome だけじゃなくて [Android 用の Firefox Focus](https://play.google.com/store/apps/details?id=org.mozilla.focus) でも同じ現象を確認した。どうやら [Android 用の Firefox Focus] は Firefox とはレイアウトエンジンが異なり WebKit からの fork である WebView （Android に既定で入ってるやつ）を[使ってるらしい](http://www.eweek.com/enterprise-apps/mozilla-brings-firefox-focus-to-android-to-improve-privacy "Firefox Focus Debuts on Android With Automatic Tracking Protection")。それって，もしかして全ての元凶は WebKit ってことなのか？）
+
+（追記2： [Android 用の Firefox Focus] のレンダリングエンジンが [GechoView に変わった](https://support.mozilla.org/ja/kb/geckoview-firefox-focus "Firefox Focus の GeckoView | Firefox Focus ヘルプ")が影響があるかどうか確認してない）
 
 ちなみに「神と神」のうち前者の「神」は所謂 CJK 互換文字と呼ばれるもので Unicode コードポイントで「`U+FA19 '神'`」にマッピングされるものです。
 

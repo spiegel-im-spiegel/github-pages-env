@@ -1,9 +1,10 @@
 +++
 title = "技術的負債としての Web ブラウザ"
 date = "2018-06-04T21:12:37+09:00"
+update = "2018-12-10T22:28:16+09:00"
 description = "しかし，結局ユーザはプライバシーより利便性を選択し，同じ口で Facebook を避難するのだ。"
 image = "/images/attention/kitten.jpg"
-tags = [ "web", "code", "privacy", "engineering" ]
+tags = [ "web", "code", "privacy", "engineering", "firefox" ]
 
 [author]
   name      = "Spiegel"
@@ -41,7 +42,7 @@ Firefox を使いだしたのっていつだっけ？ と昔の日記を掘り�
 もし本当に Firefox がユーザのプライバシーに配慮していると言うなら既定で 3rd party cookie を無効にしているはずだし検索窓の標準も [DuckDuckGo] になっている筈である。
 昨年リリースされた Quantum だって既定でトラッキングをブロックする設定にすべきだったのだ[^ff1]。
 そうしなかったのは何故か。
-私企業ではない彼らもやはり市場原理の下に行動せざるを得ないからだ。
+営利企業ではない彼らもやはり市場原理の下に行動せざるを得ないからだ。
 
 [^ff1]: 実際に携帯端末用の [Firefox Focus](https://play.google.com/store/apps/details?id=org.mozilla.focus "Firefox Focus: プライバシー保護ブラウザー - Google Play") は最初からトラッキングをブロックする設定になっている。
 
@@ -59,5 +60,10 @@ Firefox を使いだしたのっていつだっけ？ と昔の日記を掘り�
 [^ddg1]: そういえば最初に "[Schneier on Security](https://www.schneier.com/)” を見たとき，サイト内検索窓が [DuckDuckGo] なのを見つけて「やっぱちゃんとした人はちゃんとしてるんだな」と改めて思ったものである。
 
 こうしてブラウザは（市場原理の名の下に）いつまでもその技術的負債を背負い続けるのであろう。
+
+## ブックマーク
+
+- [GitHub - Eloston/ungoogled-chromium: Google Chromium, sans integration with Google](https://github.com/Eloston/ungoogled-chromium)
+    - [Google Chromeからプライバシーを侵す機能を全削除したブラウザ「ungoogled-chromium」 - GIGAZINE](https://gigazine.net/news/20161109-ungoogled-chromium/)
 
 [DuckDuckGo]: https://duckduckgo.com/ "DuckDuckGo — Privacy, simplified."
