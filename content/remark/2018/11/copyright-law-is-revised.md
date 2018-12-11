@@ -1,7 +1,7 @@
 +++
 title = "年末年始に施行される改正著作権法に関する覚え書き"
 date = "2018-11-13T14:20:00+09:00"
-update = "2018-11-17T22:38:26+09:00"
+update = "2018-12-11T10:41:17+09:00"
 description = "もう今さらグダグダ言ってもしょうがないので，この記事では今回の改正ポイントについて簡単に紹介するに留める。"
 image = "/images/attention/kitten.jpg"
 tags = ["code", "law", "intellectual-property", "copyright", "tpp"]
@@ -198,6 +198,8 @@ AI の学習データ素材などを柔軟に利用できるよう考えられ�
 
 - [著しく短縮して語る著作権延長問題の歴史と、これからどうなり、何をしていくのか　福井健策｜コラム | 骨董通り法律事務所 For the Arts](https://www.kottolaw.com/column/181102.html)
 - [著作権の保護と制限の規定がもうすぐ変わる ～ 保護期間延長、非親告罪化、柔軟な権利制限、教育の情報化対応など、まとめて解説 – HON.jp News Blog](https://hon.jp/news/1.0/0/14387)
+- [シンポジウム「著作権延長後の世界で、我われは何をすべきか」 | TPPの知的財産権と協議の透明化を考えるフォーラム](http://thinktppip.jp/?p=853)
+- [アメリカにパブリックドメインが帰ってくることを祝してインターネット・アーカイブに寄付した - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20181210/reopeningpublicdomain)
 
 [CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
 

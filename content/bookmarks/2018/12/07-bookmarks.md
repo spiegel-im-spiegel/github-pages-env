@@ -1,6 +1,7 @@
 +++
 title = "2018-12-07 のブックマーク"
 date =  "2018-12-07T17:08:24+09:00"
+update = "2018-12-11T10:41:17+09:00"
 description = "「Kotlin 1.3正式リリース。ネイティブコードで実行されJavaVMに依存しないKotlin/Nativeバンドル開始」他"
 image = "/images/avatar.jpg"
 
@@ -51,7 +52,8 @@ image = "/images/avatar.jpg"
     - [Distributing Malware By Becoming an Admin on an Open-Source Project - Schneier on Security](https://www.schneier.com/blog/archives/2018/11/distributing_ma.html)
 - [「Kubernetes」に深刻な脆弱性 - ZDNet Japan](https://japan.zdnet.com/article/35129584/)
 - [「うんこボタン」全品交換の理由 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1811/28/news077.html)
-- [ソフトバンク、通信障害の原因を公表　エリクソン製交換機ソフトの「期限切れ」 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1812/07/news060.html)
+- [2018年12月に発生したソフトバンクの広域通信障害についてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20181207/1544132076)
+    - [ソフトバンク、通信障害の原因を公表　エリクソン製交換機ソフトの「期限切れ」 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1812/07/news060.html)
 
 ## 天文関連
 

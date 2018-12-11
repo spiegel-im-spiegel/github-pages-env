@@ -56,6 +56,10 @@
 
 ## セキュリティ関連
 
+- [WordPress5.0へのアップデートについて | さくらインターネット](https://www.sakura.ad.jp/information/announcements/2018/12/05/1968198878/)
+- [Bad Consumer Security Advice - Schneier on Security](https://www.schneier.com/blog/archives/2018/12/bad_consumer_se.html)
+    - [Plant Your Flag, Mark Your Territory —  Krebs on Security](https://krebsonsecurity.com/2018/06/plant-your-flag-mark-your-territory/)
+- [Oracle、「JDK」でSymantec発行のTLS証明書を無効に ～来年4月のパッチから - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1157470.html)
 
 ## 天文関連
 
@@ -65,5 +69,13 @@
 
 ## その他
 
+- [Kubernetes 1.13リリース。Container Storage Interface仕様が正式版に、CoreDNSがデフォルトのDNSサーバへ － Publickey](https://www.publickey1.jp/blog/18/kubernetes_113container_storage_interfacecorednsdns.html)
+- [Dart用UIツールキット「Flutter」がバージョン1.0に到達。iOS／Androidネイティブアプリを単一コードで開発。Flutter Live '18 － Publickey](https://www.publickey1.jp/blog/18/dartuiflutter10iosandroidflutter_live_18.html)
+    - [Flutter対応した2Dのベクターアニメーション作成ツール「Flare」無償公開。Flutter Live '18 － Publickey](https://www.publickey1.jp/blog/18/flutter2dflareflutter_live_18.html)
+    - [Google、FlutterアプリをWebアプリへ変換する「Hummingbird」発表。Web開発言語としてDartが帰ってくる。Flutter Live '18 － Publickey](https://www.publickey1.jp/blog/18/googleflutterwebhummingbirdwebdartflutter_live_18.html)
+    - [FlutterアプリをWindows/Mac/Linuxのデスクトップで実行可能にする「Flutter Desktop Embedding」発表。Flutter Live '18 － Publickey](https://www.publickey1.jp/blog/18/flutterwindowsmaclinuxflutter_desktop_embeddingflutter_live_18.html)
+- [2018年12月10日ニュース「AIの『アルファゼロ』が３つの盤ゲーム最強ソフトを打ち破る」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/12/20181210_01.html)
+- [［速報］.NET Coreがデスクトップアプリケーション対応。Windows Forms／WPF／UI XAML Libraryもオープンソース化。Microsoft Connect(); 2018 － Publickey](https://www.publickey1.jp/blog/18/net_corewindows_formswpfui_xaml_librarymicrosoft_connect_2018.html)
+- [オープンなCPUの命令セットを開発する「RISC-V Foundation」がLinux Foundationと提携。「RISC-V」の推進を後押し － Publickey](https://www.publickey1.jp/blog/18/cpurisc-v_foundationlinux_foundationrisc-v.html)
 
 <!-- eof -->
