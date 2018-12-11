@@ -1,10 +1,10 @@
 +++
 title = "「技術的保護手段」と「技術的利用制限手段」"
 date = "2018-11-17T22:38:26+09:00"
-update = "2018-11-20T12:04:18+09:00"
+update = "2018-12-11T18:03:27+09:00"
 description = "ていうか，どう書いても愚痴にしかならないので予め謝っておきます。ゴメンペコン。"
 image = "/images/attention/kitten.jpg"
-tags = ["code", "law", "intellectual-property", "copyright", "drm", "creative-commons", "gpl"]
+tags = ["code", "law", "intellectual-property", "copyright", "drm", "creative-commons", "gpl", "access-control"]
 
 [author]
   name      = "Spiegel"
