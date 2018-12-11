@@ -1,6 +1,7 @@
 +++
 title = "オープンソースはコードの多様性を担保しない"
 date = "2018-12-10T22:28:16+09:00"
+update = "2018-12-11T09:44:23+09:00"
 description = "オープンソースは自由かもしれないが多様とは限らない。"
 image = "/images/attention/kitten.jpg"
 tags = [ "web", "engineering", "firefox", "chromium", "webkit" ]
@@ -27,14 +28,16 @@ tags = [ "web", "engineering", "firefox", "chromium", "webkit" ]
 - [Microsoft Edge、Chromiumベースに――旧Windowsでも作動、macOS版も登場へ  |  TechCrunch Japan](https://jp.techcrunch.com/2018/12/07/2018-12-06-microsoft-edge-goes-chromium-and-macos/)
 - [EdgeブラウザがついにChromiumを採用へ　Mozillaは「独占は危険」と警告 - ITmedia PC USER](http://www.itmedia.co.jp/pcuser/articles/1812/09/news016.html)
 - [マイクロソフトのEdgeがChromiumベースになることによりウェブから多様性が失われることを懸念するのでモジラ財団に寄付した - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20181210/mozilla)
+- [どうなる、「Microsoft Edge」？ ～「Chromium」ベースになってよい点、悪い点 - やじうまの杜 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1157671.html)
 
 これでブラウザエンジンはいよいよ [WebKit] と [Blink]/[V8] と [Servo] に絞られたか。
 確か W3C で標準と認められるには2種類以上の実装実績が必要だったはず。
 親戚同士[^ch1] の [WebKit] と [Blink] で実装してしまえば，なし崩し的に標準になるわけだ（笑）
 しかも携帯端末の世界では既に [WebKit]/[Blink] でほぼ独占状態。
-更に JavaScript エンジンに至っては今や [V8] 一択だろうし [Mozilla] の言い分は今更すぎる話ではある。
+更に JavaScript エンジンに至っては今や [V8] 一択だろうし[^e1]， [Mozilla] の言い分は今更すぎる話ではある。
 
 [^ch1]: [Chromium] と [V8] はもともと [WebKit] のポーティングのひとつだったが，レンダリングエンジンや JavaScript エンジンの一部を fork して独立したプロジェクトになった。 [Blink] は [Chromium] プロジェクトで開発しているレンダリングエンジンという位置づけ。ちなみに Chrome for iOS は [Chromium] プロジェクトのひとつだが iOS では [WebKit] を使うことが要求されているため [Blink] を使わない実装になっている。
+[^e1]: そういえば [ATOM](https://atom.io/) エディタなどで採用されている [Electron](https://electronjs.org/ "Electron | Build cross platform desktop apps with JavaScript, HTML, and CSS.") は [Chromium] ベースだったっけ。ブラウザのみならずデスクトップ・アプリでも [Chromium] による侵食は進行しているわけやね。他にも Google は Unicode で大きな発言権を持ってるし（Unicode に絵文字を追加することを最初に提案したのは Google）自前で開発したプログラミング言語もいくつかある。更に AI 技術についても大きなクラウド資源を持っていて，それを十全に発揮している。本当に，本当に今更な話で，これが[「情報力」が台頭した現代]({{< ref "/remark/2017/10/too-many-ghosts.md" >}} "今こそ「グリゴリの捕縛」を読め！ または遍在する草薙素子")における Google の強さ・凄みであり怖さと言える。市場の独占はそれに付随するものに過ぎない。
 
 {{< fig-quote title="Microsoft Edge、Chromiumベースに――旧Windowsでも作動、macOS版も登場へ" link="https://jp.techcrunch.com/2018/12/07/2018-12-06-microsoft-edge-goes-chromium-and-macos/" >}}
 <q>数日前にEdgeがリニューアルされるといいう情報が流れたとき、一部の専門家はChromiumプロジェクトが力を持ちすぎることになるという懸念を示した。<br>
@@ -73,4 +76,23 @@ Linux より優れた OS をフルスクラッチで作ろうという人は少�
 [WebKit]: https://webkit.org/
 [Mozilla]: https://www.mozilla.org/
 [Servo]: https://servo.org/ "Servo, the parallel browser engine"
-<!-- eof -->
+
+## 参考図書
+
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B009LFBL4Y/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/412TwuSJT1L._SL160_.jpg" width="114" height="160" alt="グーグル　ネット覇者の真実"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B009LFBL4Y/baldandersinf-22">グーグル　ネット覇者の真実</a></dt>
+    <dd>スティーブン・レヴィ</dd>
+    <dd>CCCメディアハウス</dd>
+    <dd>評価&nbsp;<abbr class="rating fa-sm" title="3">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+      <i class="far fa-star"></i>
+    </abbr></dd>
+  </dl>
+  <p class="description">そういえばこれ Kindle で買い直したのに途中ま読んでそのまま積ん読だったよ。ゼロ年代の Google を中心とした話なのでちょっと古びた感はあるが歴史書としては今でも通用するだろう。書評は<a href="https://www.yamdas.org/booklog/intheplex.html" title="yomoyomoの読書記録 - スティーブン・レヴィ『グーグル　ネット覇者の真実　追われる立場から追う立場へ』（阪急コミュニケーションズ）">こちら</a>が参考になる。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.12.11</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+</div>
