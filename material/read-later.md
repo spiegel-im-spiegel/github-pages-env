@@ -50,6 +50,7 @@
 
 ## リリース情報
 
+- [「Firefox 64」が正式公開 ～複数タブの選択やタブ・アドオンの電力消費確認に対応 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1157921.html)
 
 ## Age of Trump
 
@@ -60,6 +61,10 @@
 - [Bad Consumer Security Advice - Schneier on Security](https://www.schneier.com/blog/archives/2018/12/bad_consumer_se.html)
     - [Plant Your Flag, Mark Your Territory —  Krebs on Security](https://krebsonsecurity.com/2018/06/plant-your-flag-mark-your-territory/)
 - [Oracle、「JDK」でSymantec発行のTLS証明書を無効に ～来年4月のパッチから - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1157470.html)
+- [“Google+”に新たな不具合、シャットダウンが来年8月から4月へ前倒しされる - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1157691.html)
+- [「Thunderbird 60」への移行で保存されたパスワードと秘密鍵を失う問題 ～v60.3.3で解決 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1157842.html) : ヤバかった...
+- [中国製スパイチップは「証拠なし」--Super Microが調査結果を発表 - CNET Japan](https://japan.cnet.com/article/35129982/)
+- [グーグルCEO、中国での検索サービス提供を否定--透明性を約束 - CNET Japan](https://japan.cnet.com/article/35129981/)
 
 ## 天文関連
 
@@ -77,5 +82,7 @@
 - [2018年12月10日ニュース「AIの『アルファゼロ』が３つの盤ゲーム最強ソフトを打ち破る」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/12/20181210_01.html)
 - [［速報］.NET Coreがデスクトップアプリケーション対応。Windows Forms／WPF／UI XAML Libraryもオープンソース化。Microsoft Connect(); 2018 － Publickey](https://www.publickey1.jp/blog/18/net_corewindows_formswpfui_xaml_librarymicrosoft_connect_2018.html)
 - [オープンなCPUの命令セットを開発する「RISC-V Foundation」がLinux Foundationと提携。「RISC-V」の推進を後押し － Publickey](https://www.publickey1.jp/blog/18/cpurisc-v_foundationlinux_foundationrisc-v.html)
+- [Mozilla、ARM版Windows 10にネイティブ対応した「Firefox」の開発を発表 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1157536.html)
+- [How to Live Without Google](https://spreadprivacy.com/how-to-remove-google/)
 
 <!-- eof -->

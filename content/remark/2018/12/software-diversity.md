@@ -1,7 +1,7 @@
 +++
 title = "オープンソースはコードの多様性を担保しない"
 date = "2018-12-10T22:28:16+09:00"
-update = "2018-12-11T09:44:23+09:00"
+update = "2018-12-12T10:28:57+09:00"
 description = "オープンソースは自由かもしれないが多様とは限らない。"
 image = "/images/attention/kitten.jpg"
 tags = [ "web", "engineering", "firefox", "chromium", "webkit" ]
@@ -67,6 +67,7 @@ Linux より優れた OS をフルスクラッチで作ろうという人は少�
 ## ブックマーク
 
 - [iOS版Chromeがオープンソース化される - GIGAZINE](https://gigazine.net/news/20170201-ios-chrome-open-source/)
+- [「Edgeで既存のChrome拡張機能をサポートする意向」とMicrosoftの担当者がRedditで - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1812/11/news072.html)
 
 - [技術的負債としての Web ブラウザ]({{< ref "/remark/2018/06/web-browser-as-the-technical-debt.md" >}})
 
