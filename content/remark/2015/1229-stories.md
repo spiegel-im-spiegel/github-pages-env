@@ -1,8 +1,9 @@
 +++
 date = "2015-12-29T16:11:05+09:00"
+update = "2018-12-12T15:48:49+09:00"
 description = "2016年の主な暦象 / 年末年始のセキュリティ / 年末年始の引きこもり予定"
 draft = false
-tags = ["astronomy", "security", "risk", "management", "games"]
+tags = ["astronomy", "ephemeris", "security", "risk", "management", "games"]
 title = "ゆく年くる年"
 
 [author]
@@ -120,4 +121,3 @@ title = "ゆく年くる年"
 <p class="description">天文ファン必携。2016年版</p>
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-12-29">2015-12-29</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
 </div>
-

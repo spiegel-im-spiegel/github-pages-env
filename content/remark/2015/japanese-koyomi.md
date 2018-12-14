@@ -1,8 +1,9 @@
 +++
 date = "2015-09-21T21:43:15+09:00"
+update = "2018-12-12T15:48:49+09:00"
 description = "この記事は2004年初出の記事を再構成したものです。"
 draft = false
-tags = ["astronomy", "history", "calendar"]
+tags = ["astronomy", "history", "calendar", "ephemeris"]
 title = "「暦」日本史 （再掲載）"
 
 [author]

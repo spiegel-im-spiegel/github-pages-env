@@ -1,9 +1,9 @@
 +++
 date = "2016-03-13T13:03:59+09:00"
-update = "2016-05-17T22:33:36+09:00"
+update = "2018-12-12T15:48:49+09:00"
 description = "サイバーテロ企業 Microsoft / 3月9日は皆既日食でした / いまさら「2033年問題」 / 『プログラミング言語 Go』"
 draft = false
-tags = ["risk", "windows", "astronomy", "eclipse", "calendar", "book", "golang"]
+tags = ["risk", "windows", "astronomy", "eclipse", "ephemeris", "book", "golang"]
 title = "週末スペシャル： サイバーテロ企業 Microsoft"
 
 [author]

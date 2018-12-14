@@ -1,10 +1,10 @@
 +++
 title = "週末スペシャル： 2019年の暦象，他"
 date = "2018-02-04T02:44:22+09:00"
-update = "2018-02-04T21:04:43+09:00"
+update = "2018-12-12T15:48:49+09:00"
 description = "2019年の暦象 / Coincheck のアレ / インフルエンザ過敏症とトリアージ / 「公衆無線LANセキュリティ分科会報告書（案）に対する意見募集」"
 image = "/images/attention/kitten.jpg"
-tags        = [ "astronomy", "calendar", "security", "medical", "risk", "management", "wireless", "fintech", "market" ]
+tags        = [ "astronomy", "ephemeris", "security", "medical", "risk", "management", "wireless", "fintech", "market" ]
 
 [author]
   name      = "Spiegel"

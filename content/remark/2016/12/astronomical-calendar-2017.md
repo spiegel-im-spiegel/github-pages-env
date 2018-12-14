@@ -3,11 +3,12 @@ title = "2017年の主な暦象"
 description = "2017年版の『天文年鑑』をつらつらと眺めながら2017年の主な暦象を紹介する。"
 tags = [
   "astronomy",
+  "ephemeris",
   "book",
 ]
 draft = false
 date = "2016-12-24T14:01:57+09:00"
-update = "2016-12-26T09:53:22+09:00"
+update = "2018-12-12T15:48:49+09:00"
 
 [author]
   url = "http://www.baldanders.info/spiegel/profile/"
