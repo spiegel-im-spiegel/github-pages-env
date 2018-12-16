@@ -1,7 +1,7 @@
 +++
 title = "Firefox の Cipher Suite"
 date = "2018-12-16T11:24:32+09:00"
-update = "2018-12-16T14:07:16+09:00"
+update = "2018-12-16T17:55:21+09:00"
 description = "たまには Firefox のことも思い出してあげてください"
 image = "/images/attention/kitten.jpg"
 tags = [
@@ -74,18 +74,20 @@ Firefox 側の思惑は不明だが，古い cipher suite は PFS (Perfect Forwa
 
 ## Cipher Suites for Modern Browser
 
-（おそらくもうサポートされていない）古いブラウザを切り捨てていいのであれば，以下の cipher suite のいずれかをサポートしておけば問題ないらしい。
+（おそらくもうサポートされていない）古いブラウザを切り捨てていいのであれば，以下の cipher suite をサポートしておけば問題ないらしい。
 
-| HEX       | Pri. | IANA                                      | OpenSSL                         |
-| --------- | ----:| ----------------------------------------- | ------------------------------- |
-| 0xC0,0x2F |    1 | `TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256`   | `ECDHE-RSA-AES128-GCM-SHA256`   |
-| 0xC0,0x2B |    2 | `TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256` | `ECDHE-ECDSA-AES128-GCM-SHA256` |
-| 0xC0,0x30 |    3 | `TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384`   | `ECDHE-RSA-AES256-GCM-SHA384`   |
-| 0xC0,0x2C |    4 | `TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384` | `ECDHE-ECDSA-AES256-GCM-SHA384` |
-| 0xC0,0x27 |    9 | `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256`   | `ECDHE-RSA-AES128-SHA256`       |
-| 0xC0,0x23 |   10 | `TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256` | `ECDHE-ECDSA-AES128-SHA256`     |
-| 0xC0,0x28 |   13 | `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384`   | `ECDHE-RSA-AES256-SHA384`       |
-| 0xC0,0x24 |   14 | `TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384` | `ECDHE-ECDSA-AES256-SHA384`     |
+| HEX       | IANA                                            | OpenSSL                         |
+| --------- | ----------------------------------------------- | ------------------------------- |
+| 0xC0,0x2C | `TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384`       | `ECDHE-ECDSA-AES256-GCM-SHA384` |
+| 0xC0,0x30 | `TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384`         | `ECDHE-RSA-AES256-GCM-SHA384`   |
+| 0xCC,0xA9 | `TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256` | `ECDHE-ECDSA-CHACHA20-POLY1305` |
+| 0xCC,0xA8 | `TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256`   | `ECDHE-RSA-CHACHA20-POLY1305`   |
+| 0xC0,0x2B | `TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256`       | `ECDHE-ECDSA-AES128-GCM-SHA256` |
+| 0xC0,0x2F | `TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256`         | `ECDHE-RSA-AES128-GCM-SHA256`   |
+| 0xC0,0x24 | `TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384`       | `ECDHE-ECDSA-AES256-SHA384`     |
+| 0xC0,0x28 | `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384`         | `ECDHE-RSA-AES256-SHA384`       |
+| 0xC0,0x23 | `TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256`       | `ECDHE-ECDSA-AES128-SHA256`     |
+| 0xC0,0x27 | `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256`         | `ECDHE-RSA-AES128-SHA256`       |
 
 これらの cipher suite は Firefox 27 以降, Chrome 30 以降, IE 11 以降, Edge, Opera 17 以降, Safari 9 以降, Android 5.0 以降, Java 8 以降であれば対応している。
 
@@ -101,6 +103,12 @@ Firefox 側の思惑は不明だが，古い cipher suite は PFS (Perfect Forwa
 
 - [How can I disable arbitrary SSL/TLS cipher suites in Firefox? | Firefox Support Forum | Mozilla Support](https://support.mozilla.org/en-US/questions/1119007)
 - [Security/Server Side TLS - MozillaWiki](https://wiki.mozilla.org/Security/Server_Side_TLS)
+- [RFC 7905 - ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS)](https://tools.ietf.org/html/rfc7905)
+
+- [SSL Server Test (Powered by Qualys SSL Labs)](https://www.ssllabs.com/ssltest/)
+- [SSL Cipher Suites Supported By Your Browser](https://cc.dcsec.uni-hannover.de/)
+- [GitHub - mozilla/cipherscan: A very simple way to find out which SSL ciphersuites are supported by a target.](https://github.com/mozilla/cipherscan)
+- [GitHub - square/certigo: A utility to examine and validate certificates in a variety of formats](https://github.com/square/certigo)
 
 - [暗号鍵関連の各種変数について]({{< ref "/remark/2017/10/key-parameters.md" >}})
 
