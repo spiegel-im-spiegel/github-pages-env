@@ -1,6 +1,7 @@
 +++
 title = "2018年お気に入り ATOM パッケージ"
 date = "2018-12-17T22:45:24+09:00"
+update = "2018-12-18T08:08:33+09:00"
 description = "年末なので ATOM エディタの整理を。 "
 image = "/images/attention/kitten.jpg"
 tags = ["atom", "editor", "tools", "golang"]
@@ -27,26 +28,24 @@ tags = ["atom", "editor", "tools", "golang"]
 
 ## gocode を巡るあれこれ
 
-本当いうと [Go 言語]用の支援パッケージを LSP (Language Server Protocol) ベースにしたいんだけど，最近流行りの [golsp] や [bingo] を扱えるパッケージはなさそう。
+本当のことを言うと [Go 言語]用の支援パッケージを LSP (Language Server Protocol) ベースにしたいんだけど，最近流行りの [golsp] や [bingo] を扱えるパッケージはなさそう。
 
-以前からある [go-langserver] はバックエンドに gocode を利用しているのだが，本家の [nsf/gocode] が [Go] 1.10 以降で組み込まれたビルドキャッシュ機能に追従できず fork が乱立して混沌としている[^gc1]。
+以前からある [go-langserver] はバックエンドに gocode を利用しているのだが（今は違う？），本家の [nsf/gocode] が [Go] 1.10 以降で組み込まれたビルドキャッシュ機能に追従できず fork が乱立して混沌としている[^gc1]。
 
 [^gc1]: gocode を巡るゴタゴタについては「[gocode やめます(そして Language Server へ)](https://mattn.kaoriya.net/software/lang/go/20181217000056.htm)」が参考になる。
 
-結局 [ATOM] で [Go 言語]用の支援パッケージを利用するなら
+結局 [ATOM] で [Go 言語]用の支援パッケージを利用するなら [go-plus] 一択で
 
 1. [atom-ide-ui] をインストール，またはインストール済みであることを確認する
 2. [go-plus] をインストールする。この際，サブパッケージおよび各種支援ツールが自動インストールされるのを確認する
 3. [stamblerre/gocode] を `go get` コマンドで上書きインストールする[^gp1]
-4. [ide-go] をインストールする。この際 [go-plus] を経由して [go-langserver] が自動インストールされるのを確認する
 
-[^gp1]: [go-plus] では [mdempsky/gocode] が自動インストールされるが， [mdempsky/gocode] はビルドキャッシュに対応していないらしいので [stamblerre/gocode] を上書きインストールする必要がある。ちなみに [stamblerre/gocode] 単体では [go-plus] と上手く連携しない。
+[^gp1]: [go-plus] では [mdempsky/gocode] が自動インストールされるが， [mdempsky/gocode] は[モジュール対応モード]に対応していないらしいので [stamblerre/gocode] を手動でインストールする必要がある。実は [ide-go] で [go-langserver] を駆動させていたのだが [ide-go] 自体が [go-plus] を要求するので意味がなかったっぽい。
 
 という手順になるだろう。
-[ide-go] が直接 [golsp] や [bingo] を制御してくれれば楽なんだけどねぇ。
-面倒なことである。
+[golsp] や [bingo] が使えれば将来的に楽なんだけどねぇ。
 
-それ以前に 1.12 で[モジュール対応モード]({{< ref "/golang/go-module-aware-mode.md" >}} "モジュール対応モードへの移行を検討する")に本格的に移行した場合に [go-plus] が追従できるかどうかなんだけど。
+それ以前に 1.12 で[モジュール対応モード]に本格的に移行した場合に [go-plus] が追従できるかどうかなんだけど。
 最悪の場合は [Visual Studio Code] に乗り換えるか（vim は若い頃のデスマーチなトラウマがフラッシュバックするので使いたくない）。
 
 ## [atom-ide-ui] と連携する [document-outline]
@@ -89,6 +88,7 @@ tags = ["atom", "editor", "tools", "golang"]
 [atom-ide-ui]: https://atom.io/packages/atom-ide-ui
 [go-plus]: https://atom.io/packages/go-plus
 [ide-go]: https://atom.io/packages/ide-go
+[モジュール対応モード]: {{< ref "/golang/go-module-aware-mode.md" >}} "モジュール対応モードへの移行を検討する"
 [nav-panel-plus]: https://atom.io/packages/nav-panel-plus
 [document-outline]: https://atom.io/packages/document-outline
 [ide-html]: https://atom.io/packages/ide-html
