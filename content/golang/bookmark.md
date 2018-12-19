@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-12-07T17:08:24+09:00"
+update = "2018-12-19T20:09:38+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -359,6 +359,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 ## 開発支援
 
 - [GoのSSA最適化制御オプション - Qiita](https://qiita.com/tooru/items/a55bcdac0500d9a93f39)
+- [Big Sky :: gocode やめます(そして Language Server へ)](https://mattn.kaoriya.net/software/lang/go/20181217000056.htm)
 
 ### デバッガ
 

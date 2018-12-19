@@ -1,7 +1,7 @@
 +++
 title = "年末年始に施行される改正著作権法に関する覚え書き"
 date = "2018-11-13T14:20:00+09:00"
-update = "2018-12-12T10:28:57+09:00"
+update = "2018-12-19T20:09:38+09:00"
 description = "もう今さらグダグダ言ってもしょうがないので，この記事では今回の改正ポイントについて簡単に紹介するに留める。"
 image = "/images/attention/kitten.jpg"
 tags = ["code", "law", "intellectual-property", "copyright", "tpp", "access-control"]
@@ -202,6 +202,7 @@ AI の学習データ素材などを柔軟に利用できるよう考えられ�
 - [アメリカにパブリックドメインが帰ってくることを祝してインターネット・アーカイブに寄付した - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20181210/reopeningpublicdomain)
 - [CPTPPによる著作権保護期間延長への対応と年末年始のお休みについて](https://www.aozora.gr.jp/soramoyou/soramoyouindex.html#000503)
     - [これからの20年に向けて](https://www.aozora.gr.jp/soramoyou/soramoyouindex.html#000500)
+    - [三島由紀夫や志賀直哉、川端康成らの作品が青空文庫で公開されるのは20年先に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1158484.html)
 
 - [漫画は衰退しました]({{< ref "/remark/2018/01/manga-has-delined.md" >}})
 - [出版業界の自殺に日本のネットを巻き込まないで欲しい]({{< ref "/remark/2018/03/suicide-of-publishing.md" >}})
