@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-12-19T20:09:38+09:00"
+update = "2018-12-23T12:13:45+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -104,6 +104,10 @@ title = "Go 言語に関するブックマーク"
 
 - [Go 1.11 リリースノート（和訳）](https://qiita.com/pokeh/items/c6511ca15c9a33b48fcc)
 - [サクッと Go → WebAssembly を試す](https://qiita.com/cia_rana/items/bbb4112b480636ab9d87)
+
+### Next Release
+
+- [Go Modules in 2019 - The Go Blog](https://blog.golang.org/modules2019)
 
 ### Go 2 Draft
 

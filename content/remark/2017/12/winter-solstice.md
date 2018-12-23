@@ -1,7 +1,7 @@
 +++
 title = "冬至に関する与太話"
 date =  "2017-12-22T15:54:39+09:00"
-update = "2018-12-12T15:48:49+09:00"
+update = "2018-12-23T12:13:45+09:00"
 description = "現在の冬至の定義は「太陽が黄道上の黄経 270° の位置を通過する日」である。"
 image = "https://upload.wikimedia.org/wikipedia/commons/b/be/Celestial_sphere%28in_Japanese%29.png"
 tags = ["astronomy", "ephemeris"]
@@ -72,7 +72,20 @@ Facebook の TL に書き散らしたものを再構成してお送りする。
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4805202254/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51mQCyP04rL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4805202254/baldandersinf-22/">天体の位置計算</a></dt><dd>長沢 工 </dd><dd>地人書館 1985-09</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4805206349/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4805206349.09._SCTHUMBZZZ_.jpg"  alt="日の出・日の入りの計算―天体の出没時刻の求め方"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4769908180/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4769908180.09._SCTHUMBZZZ_.jpg"  alt="天文計算入門―一球面三角から軌道計算まで"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4805204141/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4805204141.09._SCTHUMBZZZ_.jpg"  alt="パソコンで見る天体の動き"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4416114710/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4416114710.09._SCTHUMBZZZ_.jpg"  alt="天文年鑑2015年版"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00R4X7R0M/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00R4X7R0M.09._SCTHUMBZZZ_.jpg"  alt="月刊 星ナビ 2015年 02月号 [雑誌]"  /></a> </p>
-<p class="description">B1950.0 分点から J2000.0 分点への過渡期に書かれた本なので情報が古いものもあるが，基本的な内容は位置天文学の教科書として充分通用する。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-01-11">2015/01/11</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4805202254/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51mQCyP04rL._SL160_.jpg" width="108" height="160" alt="天体の位置計算"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4805202254/baldandersinf-22">天体の位置計算</a></dt>
+    <dd>長沢 工</dd>
+    <dd>地人書館</dd>
+	<dd>評価&nbsp;<abbr class="rating fa-sm" title="4">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+    </abbr></dd>
+  </dl>
+  <p class="description">B1950.0 分点から J2000.0 分点への過渡期に書かれた本なので情報が古いものもあるが，基本的な内容は位置天文学の教科書として充分通用する。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>
