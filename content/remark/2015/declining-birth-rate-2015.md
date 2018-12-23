@@ -1,6 +1,6 @@
 +++
 date = "2015-10-31T20:22:12+09:00"
-update = "2017-12-16T18:51:18+09:00"
+update = "2018-12-23T09:17:12+09:00"
 description = "この記事は2014年末に書いた本家ブログの記事「「少子化」に関する覚え書き」を再構成して掲載している。"
 draft = false
 tags = ["code", "politics", "declining-birth-rate"]
@@ -21,11 +21,12 @@ title = "「少子化」に関する覚え書き（再掲載）"
 +++
 
 この記事は2014年末に書いた[本家ブログ](http://www.baldanders.info/archives.shtml)の記事「[「少子化」に関する覚え書き](http://www.baldanders.info/spiegel/log2/000786.shtml)」を再構成して掲載している。
-ちなみに2014年以降の合計特殊出生率は増減を繰り返しながら僅かに上昇傾向（？）である。
+ちなみに015年までの合計特殊出生率は僅かに上昇傾向だった。
 この辺の話も追記している。
 
 1. [「少子化」とは]({{< relref "#about}" >}})
 1. [「少子化」で何が起きるか]({{< relref "#impact" >}})
+1. [【追記】近年の出生率の傾向]({{< relref "#recently" >}})
 1. [「少子化対策」ではなく「少子社会」を前提とした「育児支援」を]({{< relref "#politics" >}})
 
 ## 「少子化」とは{#about}
@@ -70,7 +71,8 @@ title = "「少子化」に関する覚え書き（再掲載）"
 
 実は（短期的には）合計特殊出生率は出生数と連動しているとは限らない。
 現に「第二次ベビーブーム（1960-1973）」のときは（丙午となる1966年を除いても）合計特殊出生率の上昇はほとんどなかった。
-でも長期的には確実に出生数は減少するし，最終的には人口も減少する。
+
+でも長期的に見れば出生率低下によって出生数は減少するし，最終的には人口も減少する。
 
 ちなみに日本では1974年に初めて合計特殊出生率が人口置換水準（2.08）を割り込み，その30年後の2005年以降「人口減」に転じている（一方，近年では，合計特殊出生率は2005年を底にして少しずつ回復している。これについては[後述]({{< relref "#politics" >}})する）。
 
@@ -83,6 +85,28 @@ title = "「少子化」に関する覚え書き（再掲載）"
 もちろん今は状況が反転している。
 
 「少子化」は相対的に「高齢化社会」の要因になる（もちろん社会が安定し，医療等の文明レベルが高いことが条件だが）。
+
+## 【追記】近年の出生率の傾向{#recently}
+
+### 2014年の合計特殊出生率
+
+2014年の合計特殊出生率は 1.42 と僅かに下がった。
+これは若い世代で下がり続ける出生率を30歳以降の先行世代の出生率で賄いきれなくなったことによるらしい。
+
+### 2015年の合計特殊出生率
+
+2015年の合計特殊出生率は 1.45 となり2013年の値をも上回った。
+出生数も前年を僅かに上回った。
+
+### 2016年の合計特殊出生率
+
+2016年の合計特殊出生率は 1.44 と僅かに下がった。
+これは[30歳代前半までの出生率が一様に落ちてきた](http://www.garbagenews.net/archives/2013446.html)ためらしい。
+
+### 2017年の合計特殊出生率
+
+2017年の合計特殊出生率は 1.43 とまた僅かに下がった。
+理由は2016年のときと同じ。
 
 ## 「少子化対策」ではなく「少子社会」を前提とした「育児支援」を{#politics}
 
@@ -115,14 +139,6 @@ title = "「少子化」に関する覚え書き（再掲載）"
 近年，合計特殊出生率が回復している背景には高齢出産の増加があるらしい。
 20歳代の出生率は下がり続けているが，それ以降の世代は上がっている。
 社会的要因としては晩婚化（とそれに対する社会的受容の変化），医療技術の進歩が挙げられるかもしれない。
-
-**追記** 2014年の合計特殊出生率は 1.42 と僅かに下がった。
-これは若い世代で下がり続ける出生率を30歳以降の先行世代の出生率で賄いきれなくなったことによるらしい。
-
-**追記2** 2015年の合計特殊出生率は 1.45 となり2013年の値をも上回った。出生数も前年を僅かに上回った。
-
-**追記3** 2016年の合計特殊出生率は 1.44 と僅かに下がった。
-これは[30歳代前半までの出生率が一様に落ちてきた](http://www.garbagenews.net/archives/2013446.html)ためらしい。
 
 人口の減少および人口バランスの悪化を解消したいのなら「少子化対策」を当てにすべきではない。
 これを政治問題として解決したければ「人の流動化」を促進し外部から人を入れるしかない[^c]。
@@ -168,15 +184,28 @@ title = "「少子化」に関する覚え書き（再掲載）"
 
 - [少子化 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%B0%91%E5%AD%90%E5%8C%96)
 - [合計特殊出生率 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%90%88%E8%A8%88%E7%89%B9%E6%AE%8A%E5%87%BA%E7%94%9F%E7%8E%87)
-- [日本の出生率と出生数をグラフ化してみる(最新) - ガベージニュース](http://www.garbagenews.net/archives/2013423.html) : 2016年までのデータあり
-    - [日本の高齢出産状況をグラフ化してみる(最新) - ガベージニュース](http://www.garbagenews.net/archives/2013446.html) : 2016年までのデータあり
-    - [いわゆる「未婚の母」による出生率をグラフ化してみる(最新) - ガベージニュース](http://www.garbagenews.net/archives/1654837.html) : 2016年までのデータあり
+- [日本の出生率と出生数をグラフ化してみる(最新) - ガベージニュース](http://www.garbagenews.net/archives/2013423.html) : 2017年までのデータあり
+    - [日本の高齢出産状況をグラフ化してみる(最新) - ガベージニュース](http://www.garbagenews.net/archives/2013446.html) : 2017年までのデータあり
+    - [いわゆる「未婚の母」による出生率をグラフ化してみる(最新) - ガベージニュース](http://www.garbagenews.net/archives/1654837.html) : 2017年までのデータあり
 - [チームラボ・猪子氏「ひとりで子育てできるなんて幻想」 子どもは集団で、いい加減に育てるべき | ログミー](http://logmi.jp/30580)
 - [外国人技能実習制度における問題のツケは現若者が払うことになりかねない - 空気を読まない中杜カズサ](http://nakamorikzs.net/entry/ginoujissyusei)
 
 ### 参考図書
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4903127044/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/417iD4x5N%2BL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4903127044/baldandersinf-22/">排除型社会―後期近代における犯罪・雇用・差異</a></dt><dd>ジョック ヤング Jock Young </dd><dd>洛北出版 2007-03</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4791764331/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4791764331.09._SCTHUMBZZZ_.jpg"  alt="後期近代の眩暈―排除から過剰包摂へ"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4255008515/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4255008515.09._SCTHUMBZZZ_.jpg"  alt="断片的なものの社会学"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4796700439/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4796700439.09._SCTHUMBZZZ_.jpg"  alt="スティグマの社会学―烙印を押されたアイデンティティ"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4791764242/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4791764242.09._SCTHUMBZZZ_.jpg"  alt="新しい貧困 労働消費主義ニュープア"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4062881357/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4062881357.09._SCTHUMBZZZ_.jpg"  alt="弱者の居場所がない社会――貧困・格差と社会的包摂 (講談社現代新書)"  /></a> </p>
-<p class="description"><a href="http://www.baldanders.info/spiegel/log2/000410.shtml">感想はこちら</a>。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-09-15">2015-09-15</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4903127044/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41uBRNdBygL._SL160_.jpg" width="110" height="160" alt="排除型社会―後期近代における犯罪・雇用・差異"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4903127044/baldandersinf-22">排除型社会―後期近代における犯罪・雇用・差異</a></dt>
+    <dd>ジョック ヤング</dd>
+    <dd>洛北出版</dd>
+	<dd>評価&nbsp;<abbr class="rating fa-sm" title="5">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </abbr></dd>
+  </dl>
+  <p class="description"><a href="http://www.baldanders.info/spiegel/log2/000410.shtml">感想はこちら</a>。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.12.7</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>
