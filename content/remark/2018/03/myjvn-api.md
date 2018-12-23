@@ -18,7 +18,7 @@ tags        = [ "security", "risk", "management", "vulnerability", "cvss", "curl
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = false

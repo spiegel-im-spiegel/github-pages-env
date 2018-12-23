@@ -8,7 +8,7 @@ title = "第24回参議院議員通常選挙 広島県選挙区候補者"
 [author]
   avatar = "/images/avatar.jpg"
   facebook = "spiegel.im.spiegel"
-  flattr = "spiegel"
+  flattr = ""
   flickr = "spiegel"
   github = "spiegel-im-spiegel"
   instagram = "spiegel_2007"

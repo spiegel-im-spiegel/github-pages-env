@@ -9,7 +9,7 @@ title = "Punycode によるホモグラフ攻撃例とその回避"
 [author]
   avatar = "/images/avatar.jpg"
   facebook = "spiegel.im.spiegel"
-  flattr = "spiegel"
+  flattr = ""
   flickr = "spiegel"
   github = "spiegel-im-spiegel"
   instagram = "spiegel_2007"

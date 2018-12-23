@@ -18,7 +18,7 @@ tags = [ "math", "games", "golang", "programming", "floating-point" ]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = true

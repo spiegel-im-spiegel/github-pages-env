@@ -9,7 +9,7 @@ title = "TLS における Diffie-Hellman 鍵交換の脆弱性（再掲載）"
 [author]
   avatar = "/images/avatar.jpg"
   facebook = "spiegel.im.spiegel"
-  flattr = "spiegel"
+  flattr = ""
   flickr = "spiegel"
   github = "spiegel-im-spiegel"
   instagram = "spiegel_2007"

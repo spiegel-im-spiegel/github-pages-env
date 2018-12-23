@@ -9,7 +9,7 @@ title = "週末スペシャル： Barack Obama 米国大統領の来広"
 [author]
   avatar = "/images/avatar.jpg"
   facebook = "spiegel.im.spiegel"
-  flattr = "spiegel"
+  flattr = ""
   flickr = "spiegel"
   github = "spiegel-im-spiegel"
   instagram = "spiegel_2007"

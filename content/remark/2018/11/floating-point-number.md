@@ -17,7 +17,7 @@ tags = [ "engineering", "math" ]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = true

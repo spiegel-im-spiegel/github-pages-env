@@ -9,7 +9,7 @@ title = "週末スペシャル： 3月9日は皆既日食（日本では部分�
 [author]
   avatar = "/images/avatar.jpg"
   facebook = "spiegel.im.spiegel"
-  flattr = "spiegel"
+  flattr = ""
   flickr = "spiegel"
   github = "spiegel-im-spiegel"
   instagram = "spiegel_2007"

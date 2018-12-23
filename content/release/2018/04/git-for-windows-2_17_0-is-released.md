@@ -17,7 +17,7 @@ tags  = [ "tools", "git", "windows", "openssl", "security", "vulnerability" ]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = false

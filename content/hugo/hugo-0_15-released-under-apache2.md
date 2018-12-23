@@ -9,7 +9,7 @@ title = "Hugo 0.15 が Apache License 2.0 下でリリース"
 [author]
   avatar = "/images/avatar.jpg"
   facebook = "spiegel.im.spiegel"
-  flattr = "spiegel"
+  flattr = ""
   github = "spiegel-im-spiegel"
   instagram = "spiegel_2007"
   license = "by-sa"

@@ -16,7 +16,7 @@ image = "/images/attention/kitten.jpg"
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = false

@@ -9,7 +9,7 @@ title = "「少子化」に関する覚え書き（再掲載）"
 [author]
   avatar = "/images/avatar.jpg"
   facebook = "spiegel.im.spiegel"
-  flattr = "spiegel"
+  flattr = ""
   github = "spiegel-im-spiegel"
   instagram = "spiegel_2007"
   license = "by-sa"

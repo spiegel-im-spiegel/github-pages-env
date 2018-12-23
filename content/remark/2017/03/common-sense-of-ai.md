@@ -18,7 +18,7 @@ description = "「常識」は「知能（intelligence）」というより「�
   github = "spiegel-im-spiegel"
   url = "http://www.baldanders.info/spiegel/profile/"
   linkedin = "spiegelimspiegel"
-  flattr = "spiegel"
+  flattr = ""
 +++
 
 「常識」は「知能（intelligence）」というより「知性（intellect）」に近い。

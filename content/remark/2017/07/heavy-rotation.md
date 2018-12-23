@@ -17,7 +17,7 @@ draft = false
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 +++
 
 あぁ，1年が半分終わっちまったですよ。

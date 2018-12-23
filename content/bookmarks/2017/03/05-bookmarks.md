@@ -7,7 +7,7 @@ description = "「スペースX、2018年に2名を乗せた有人月周回飛�
 
 [author]
   url = "http://www.baldanders.info/spiegel/profile/"
-  flattr = "spiegel"
+  flattr = ""
   instagram = "spiegel_2007"
   facebook = "spiegel.im.spiegel"
   tumblr = ""

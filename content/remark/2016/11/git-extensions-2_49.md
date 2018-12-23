@@ -13,7 +13,7 @@ draft = false
 
 [author]
   linkedin = "spiegelimspiegel"
-  flattr = "spiegel"
+  flattr = ""
   license = "by-sa"
   instagram = "spiegel_2007"
   facebook = "spiegel.im.spiegel"

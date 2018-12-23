@@ -17,7 +17,7 @@ tags        = [ "book", "artificial-intelligence", "singularity" ]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 +++
 
 （この記事は「[AI と哲学？]({{< ref "/remark/2017/09/artificial-intelligence.md" >}})」の続編である）

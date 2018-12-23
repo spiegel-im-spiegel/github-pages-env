@@ -9,7 +9,7 @@ title = "Apple の日本語サポートがクズ過ぎるので"
 [author]
   avatar = "/images/avatar.jpg"
   facebook = "spiegel.im.spiegel"
-  flattr = "spiegel"
+  flattr = ""
   github = "spiegel-im-spiegel"
   instagram = "spiegel_2007"
   license = "by-sa"

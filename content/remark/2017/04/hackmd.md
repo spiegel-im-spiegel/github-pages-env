@@ -8,7 +8,7 @@ description = "もうしばらく遊んでみて，よさげなら常用して�
 
 [author]
   github = "spiegel-im-spiegel"
-  flattr = "spiegel"
+  flattr = ""
   linkedin = "spiegelimspiegel"
   url = "http://www.baldanders.info/spiegel/profile/"
   name = "Spiegel"

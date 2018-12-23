@@ -16,7 +16,7 @@ tags        = [ "artificial-intelligence" ]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 +++
 
 この記事は2017年7月頃に Facebook の TL に書き散らしてた記事を再構成したものです。

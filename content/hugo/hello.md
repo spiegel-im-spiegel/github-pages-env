@@ -17,7 +17,7 @@ medium    = "@spiegel"
 instagram = "spiegel_2007"
 facebook  = "spiegel.im.spiegel"
 linkedin  = "spiegelimspiegel"
-flattr    = "spiegel"
+flattr    = ""
 +++
 
 （初出： [ゼロから始める Hugo — インストールから Hello World まで - Qiita](http://qiita.com/spiegel-im-spiegel/items/eac7bf2a3c0fc19afcbf)）

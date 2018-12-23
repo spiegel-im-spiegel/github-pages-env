@@ -17,7 +17,7 @@ title = "Go 言語に関するブックマーク（未整理分）"
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
   name = "Spiegel"
-  flattr = "spiegel"
+  flattr = ""
   instagram = "spiegel_2007"
   
 [scripts]

@@ -16,7 +16,7 @@ draft = true
   instagram = "spiegel_2007"
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = false

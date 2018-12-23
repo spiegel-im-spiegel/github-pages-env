@@ -16,7 +16,7 @@ description = "読みたいんだけど（ゆっくり読む暇がなくて）�
   github = "spiegel-im-spiegel"
   license = "by-sa"
   name = "Spiegel"
-  flattr = "spiegel"
+  flattr = ""
   url = "http://www.baldanders.info/spiegel/profile/"
 
 [scripts]

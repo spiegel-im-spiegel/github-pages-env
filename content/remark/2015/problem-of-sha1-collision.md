@@ -9,7 +9,7 @@ title = "SHA-1 衝突問題： 廃止の前倒し"
 [author]
   avatar = "/images/avatar.jpg"
   facebook = "spiegel.im.spiegel"
-  flattr = "spiegel"
+  flattr = ""
   github = "spiegel-im-spiegel"
   instagram = "spiegel_2007"
   license = "by-sa"

@@ -8,7 +8,7 @@ tags = ["anime", "book", "comic"]
 [author]
   facebook = "spiegel.im.spiegel"
   url = "http://www.baldanders.info/spiegel/profile/"
-  flattr = "spiegel"
+  flattr = ""
   flickr = "spiegel"
   github = "spiegel-im-spiegel"
   instagram = "spiegel_2007"

@@ -17,7 +17,7 @@ tags        = [ "site", "semantic", "web", "metadata", "twitter", "open-graph" ]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = false

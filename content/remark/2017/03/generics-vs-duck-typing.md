@@ -9,7 +9,7 @@ tags = ["golang", "object-oriented", "java", "design", "refactoring", "generics"
 [author]
   license = "by-sa"
   flickr = "spiegel"
-  flattr = "spiegel"
+  flattr = ""
   avatar = "/images/avatar.jpg"
   instagram = "spiegel_2007"
   tumblr = ""

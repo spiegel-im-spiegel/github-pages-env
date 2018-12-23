@@ -7,7 +7,7 @@ draft = false
 tags = ["code", "intellectual-property", "copyright", "music", "management"]
 
 [author]
-  flattr = "spiegel"
+  flattr = ""
   facebook = "spiegel.im.spiegel"
   flickr = "spiegel"
   twitter = "spiegel_2007"

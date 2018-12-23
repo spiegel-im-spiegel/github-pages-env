@@ -9,7 +9,7 @@ draft = false
 [author]
   flickr = "spiegel"
   twitter = "spiegel_2007"
-  flattr = "spiegel"
+  flattr = ""
   linkedin = "spiegelimspiegel"
   tumblr = ""
   github = "spiegel-im-spiegel"

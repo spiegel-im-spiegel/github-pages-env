@@ -17,7 +17,7 @@ tags = ["book", "e-book"]
   flickr = "spiegel"
   github = "spiegel-im-spiegel"
   license = "by-sa"
-  flattr = "spiegel"
+  flattr = ""
 +++
 
 （この記事は Facebool TL に書き散らした戯れ言を手直しした上で再掲載したものです）

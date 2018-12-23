@@ -17,7 +17,7 @@ tags = ["golang", "struct", "tags", "marshal", "xml"]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = true

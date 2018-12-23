@@ -9,7 +9,7 @@ title = "Google Books の Library Book Scan すら Fair Use と言われたの�
 [author]
   avatar = "/images/avatar.jpg"
   facebook = "spiegel.im.spiegel"
-  flattr = "spiegel"
+  flattr = ""
   github = "spiegel-im-spiegel"
   instagram = "spiegel_2007"
   license = "by-sa"

@@ -18,7 +18,7 @@ tags        = [ "tools", "git-extensions", "libreoffice", "openpgp", "gnupg" ]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = false

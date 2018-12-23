@@ -18,7 +18,7 @@ tags = [ "golang", "language", "programming", "generics", "type", "contract" ]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = false

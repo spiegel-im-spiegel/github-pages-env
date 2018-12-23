@@ -18,7 +18,7 @@ draft = false
   url = "http://www.baldanders.info/spiegel/profile/"
   avatar = "/images/avatar.jpg"
   linkedin = "spiegelimspiegel"
-  flattr = "spiegel"
+  flattr = ""
 +++
 
 以前，[ここで使っている Web フォントの話]({{< ref "/remark/2015/web-font-family.md" >}} "Web フォントに関する覚え書き")を書いた。

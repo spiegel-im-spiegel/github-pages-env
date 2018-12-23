@@ -10,7 +10,7 @@ date = "2016-11-20T16:29:24+09:00"
 title = "ATOM × NYAGOS ＝ ♥"
 
 [author]
-  flattr = "spiegel"
+  flattr = ""
   twitter = "spiegel_2007"
   flickr = "spiegel"
   avatar = "/images/avatar.jpg"

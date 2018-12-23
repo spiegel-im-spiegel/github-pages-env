@@ -9,7 +9,7 @@ title = "今日の戯れ言： 「ふたご座流星群を眺めよう 2015」�
 [author]
   avatar = "/images/avatar.jpg"
   facebook = "spiegel.im.spiegel"
-  flattr = "spiegel"
+  flattr = ""
   github = "spiegel-im-spiegel"
   instagram = "spiegel_2007"
   license = "by-sa"

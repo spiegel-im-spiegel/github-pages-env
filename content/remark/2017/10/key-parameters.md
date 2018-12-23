@@ -17,7 +17,7 @@ tags = ["security", "cryptography", "hash", "risk", "management"]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = true

@@ -18,7 +18,7 @@ tags = [ "code", "law", "intellectual-property", "hacker-ethic", "internet", "en
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = false

@@ -17,7 +17,7 @@ tags        = [ "golang", "programming", "sqlite", "sql", "orm" ]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = true

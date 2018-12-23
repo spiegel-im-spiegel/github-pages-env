@@ -7,7 +7,7 @@ description = "「European Space Agency announces new Open Access Policy for Ima
 [author]
   instagram = "spiegel_2007"
   twitter = "spiegel_2007"
-  flattr = "spiegel"
+  flattr = ""
   facebook = "spiegel.im.spiegel"
   linkedin = "spiegelimspiegel"
   tumblr = ""

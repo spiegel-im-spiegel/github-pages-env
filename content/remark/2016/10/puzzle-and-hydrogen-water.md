@@ -20,7 +20,7 @@ draft = false
   instagram = "spiegel_2007"
   tumblr = ""
   flickr = "spiegel"
-  flattr = "spiegel"
+  flattr = ""
 +++
 
 まずはこちらをどうぞ。

@@ -17,7 +17,7 @@ tags        = [ "golang", "programming", "cli", "regexp", "regular-expression" ]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = true

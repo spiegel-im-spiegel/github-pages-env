@@ -13,7 +13,7 @@ title = "「インターネットと発酵」"
 
 [author]
   linkedin = "spiegelimspiegel"
-  flattr = "spiegel"
+  flattr = ""
   facebook = "spiegel.im.spiegel"
   url = "http://www.baldanders.info/spiegel/profile/"
   instagram = "spiegel_2007"

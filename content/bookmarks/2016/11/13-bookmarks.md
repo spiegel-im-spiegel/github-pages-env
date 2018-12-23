@@ -14,7 +14,7 @@ title = "2016-11-13 のブックマーク"
   name = "Spiegel"
   license = "by-sa"
   github = "spiegel-im-spiegel"
-  flattr = "spiegel"
+  flattr = ""
   twitter = "spiegel_2007"
   flickr = "spiegel"
 +++

@@ -9,7 +9,7 @@ title = "「シルバー・ウィーク」スペシャル： C++ 再勉強中。
 [author]
   avatar = "/images/avatar.jpg"
   facebook = "spiegel.im.spiegel"
-  flattr = "spiegel"
+  flattr = ""
   flickr = "spiegel"
   github = "spiegel-im-spiegel"
   instagram = "spiegel_2007"

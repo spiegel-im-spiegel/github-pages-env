@@ -12,7 +12,7 @@ draft = false
 [author]
   avatar = "/images/avatar.jpg"
   tumblr = ""
-  flattr = "spiegel"
+  flattr = ""
   instagram = "spiegel_2007"
   facebook = "spiegel.im.spiegel"
   url = "http://www.baldanders.info/spiegel/profile/"

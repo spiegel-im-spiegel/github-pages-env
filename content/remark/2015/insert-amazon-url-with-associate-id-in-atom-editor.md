@@ -8,7 +8,7 @@ title = "ATOM Editor で Amazon Associate ID を含んだ商品 URL を生成す
 [author]
   avatar = "/images/avatar.jpg"
   facebook = "spiegel.im.spiegel"
-  flattr = "spiegel"
+  flattr = ""
   github = "spiegel-im-spiegel"
   instagram = "spiegel_2007"
   license = "by-sa"

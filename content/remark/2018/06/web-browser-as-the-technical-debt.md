@@ -18,7 +18,7 @@ tags = [ "web", "code", "privacy", "engineering", "firefox" ]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = false

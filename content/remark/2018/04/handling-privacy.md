@@ -17,7 +17,7 @@ tags        = [ "privacy", "code", "market", "censorship", "grigori" ]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = false

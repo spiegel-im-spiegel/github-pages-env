@@ -8,7 +8,7 @@ title = "セキュリティ脆弱性を修正した Go 1.4.3 がリリース"
 [author]
   avatar = "/images/avatar.jpg"
   facebook = "spiegel.im.spiegel"
-  flattr = "spiegel"
+  flattr = ""
   github = "spiegel-im-spiegel"
   instagram = "spiegel_2007"
   license = "by-sa"

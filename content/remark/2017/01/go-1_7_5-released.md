@@ -15,7 +15,7 @@ title = "Go 1.7.5 がリリース"
   name = "Spiegel"
   twitter = "spiegel_2007"
   avatar = "/images/avatar.jpg"
-  flattr = "spiegel"
+  flattr = ""
   facebook = "spiegel.im.spiegel"
   flickr = "spiegel"
 +++

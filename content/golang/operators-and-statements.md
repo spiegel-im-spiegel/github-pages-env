@@ -16,7 +16,7 @@ tags = ["golang", "programming", "language"]
   flickr = "spiegel"
   twitter = "spiegel_2007"
   github = "spiegel-im-spiegel"
-  flattr = "spiegel"
+  flattr = ""
   linkedin = "spiegelimspiegel"
   facebook = "spiegel.im.spiegel"
 +++

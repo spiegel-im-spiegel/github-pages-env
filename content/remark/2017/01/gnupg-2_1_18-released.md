@@ -21,7 +21,7 @@ date = "2017-01-25T18:16:00+09:00"
   tumblr = ""
   avatar = "/images/avatar.jpg"
   name = "Spiegel"
-  flattr = "spiegel"
+  flattr = ""
   twitter = "spiegel_2007"
   linkedin = "spiegelimspiegel"
 +++

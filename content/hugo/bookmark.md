@@ -16,7 +16,7 @@ medium    = "@spiegel"
 instagram = "spiegel_2007"
 facebook  = "spiegel.im.spiegel"
 linkedin  = "spiegelimspiegel"
-flattr    = "spiegel"
+flattr    = ""
 +++
 
 当サイトを [Hugo] で構築するにあたって参考になったページを紹介する。

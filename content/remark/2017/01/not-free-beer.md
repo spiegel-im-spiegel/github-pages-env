@@ -17,7 +17,7 @@ title = "「無料」という手段"
   instagram = "spiegel_2007"
   license = "by-sa"
   avatar = "/images/avatar.jpg"
-  flattr = "spiegel"
+  flattr = ""
   github = "spiegel-im-spiegel"
 +++
 

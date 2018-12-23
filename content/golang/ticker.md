@@ -18,7 +18,7 @@ tags = [ "golang", "programming", "time", "channel", "context", "goroutine", "co
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = true

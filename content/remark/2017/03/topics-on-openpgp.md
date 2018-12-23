@@ -24,7 +24,7 @@ date = "2017-03-05T17:19:39+09:00"
   tumblr = ""
   name = "Spiegel"
   instagram = "spiegel_2007"
-  flattr = "spiegel"
+  flattr = ""
   github = "spiegel-im-spiegel"
   license = "by-sa"
 +++

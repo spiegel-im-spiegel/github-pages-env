@@ -14,7 +14,7 @@ title = "GnuPG 2.1.20 がリリース"
 
 [author]
   avatar = "/images/avatar.jpg"
-  flattr = "spiegel"
+  flattr = ""
   linkedin = "spiegelimspiegel"
   flickr = "spiegel"
   instagram = "spiegel_2007"

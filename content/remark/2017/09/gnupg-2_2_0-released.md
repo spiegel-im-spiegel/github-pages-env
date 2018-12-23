@@ -23,7 +23,7 @@ tags = [
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 +++
 
 個人的に色々あって更新が滞ってます。

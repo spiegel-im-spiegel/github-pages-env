@@ -17,7 +17,7 @@ draft = false
   twitter = "spiegel_2007"
   github = "spiegel-im-spiegel"
   license = "by-sa"
-  flattr = "spiegel"
+  flattr = ""
   linkedin = "spiegelimspiegel"
 +++
 

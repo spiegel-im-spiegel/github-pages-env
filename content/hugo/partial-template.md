@@ -9,7 +9,7 @@ title = "Template の部品化"
 [author]
   avatar = "/images/avatar.jpg"
   facebook = "spiegel.im.spiegel"
-  flattr = "spiegel"
+  flattr = ""
   github = "spiegel-im-spiegel"
   instagram = "spiegel_2007"
   license = "by-sa"
@@ -259,7 +259,7 @@ medium    = "@spiegel"
 instagram = "spiegel_2007"
 facebook  = "spiegel.im.spiegel"
 linkedin  = "spiegelimspiegel"
-flattr    = "spiegel"
+flattr    = ""
 ```
 
 {{< fig-img src="https://farm6.staticflickr.com/5779/21504929379_e29706db7c.jpg" alt="Top Page of “hugo-theme-text”" title="Top Page of “hugo-theme-text”" link="https://www.flickr.com/photos/spiegel/21504929379/" >}}
@@ -277,7 +277,7 @@ tags = [ "hello", "world" ]
 [author]
   avatar = "/images/avatar.jpg"
   facebook = "spiegel.im.spiegel"
-  flattr = "spiegel"
+  flattr = ""
   github = "spiegel-im-spiegel"
   instagram = "spiegel_2007"
   license = "by-sa"

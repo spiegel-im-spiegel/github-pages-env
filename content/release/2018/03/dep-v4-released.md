@@ -17,7 +17,7 @@ tags  = [ "golang", "tools", "dep", "package", "vendoring" ]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = false

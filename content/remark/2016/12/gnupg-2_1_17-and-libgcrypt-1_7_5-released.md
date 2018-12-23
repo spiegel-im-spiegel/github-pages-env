@@ -24,7 +24,7 @@ description = "Libgcrypt はバグフィックスがメイン， GnuPG 2.1 系 �
   facebook = "spiegel.im.spiegel"
   linkedin = "spiegelimspiegel"
   name = "Spiegel"
-  flattr = "spiegel"
+  flattr = ""
 +++
 
 Libgcrypt 1.7.5 および GnuPG 2.1.17 がリリースされている。

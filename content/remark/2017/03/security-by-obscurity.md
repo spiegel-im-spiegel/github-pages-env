@@ -16,7 +16,7 @@ description = "よく「隠すセキュリティはダメ」と言われるが�
   twitter = "spiegel_2007"
   license = "by-sa"
   avatar = "/images/avatar.jpg"
-  flattr = "spiegel"
+  flattr = ""
   github = "spiegel-im-spiegel"
   url = "http://www.baldanders.info/spiegel/profile/"
 +++

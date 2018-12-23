@@ -9,7 +9,7 @@ title = "MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の
 [author]
   avatar = "/images/avatar.jpg"
   facebook = "spiegel.im.spiegel"
-  flattr = "spiegel"
+  flattr = ""
   flickr = "spiegel"
   github = "spiegel-im-spiegel"
   instagram = "spiegel_2007"

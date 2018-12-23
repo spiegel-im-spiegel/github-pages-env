@@ -15,7 +15,7 @@ description = "text.Baldanders.info ではサイトの更新情報を提供し�
   instagram = "spiegel_2007"
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = false

@@ -7,7 +7,7 @@ title = "新しい CC Search が登場，他"
 description = "ほほう。リストを作って公開できるのか。どうやら Creative Commons のアカウントを作って sign in すると検索結果で出てきた写真を Favorites や Lists に入れることができるようだ。"
 
 [author]
-  flattr = "spiegel"
+  flattr = ""
   facebook = "spiegel.im.spiegel"
   flickr = "spiegel"
   license = "by-sa"

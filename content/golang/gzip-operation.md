@@ -17,7 +17,7 @@ tags        = [ "golang", "compress", "gzip", "defer" ]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 +++
 
 - [gzip のやり方 - Qiita](http://qiita.com/ta_ta_ta_miya/items/3a1cba3a13418b732811)

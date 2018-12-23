@@ -17,7 +17,7 @@ tags        = [ "tools", "mermaid", "uml", "hugo", "shortcodes", "web", "site" ]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   highlightjs = true

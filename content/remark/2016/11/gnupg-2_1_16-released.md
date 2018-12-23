@@ -8,7 +8,7 @@ title = "GnuPG 2.1.16 released"
 [author]
   name = "Spiegel"
   avatar = "/images/avatar.jpg"
-  flattr = "spiegel"
+  flattr = ""
   url = "http://www.baldanders.info/spiegel/profile/"
   instagram = "spiegel_2007"
   twitter = "spiegel_2007"

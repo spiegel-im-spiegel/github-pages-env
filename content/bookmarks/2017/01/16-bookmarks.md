@@ -5,7 +5,7 @@ draft = false
 description = "「科学者がいま、福島の若い世代に伝えたいこと　「福島に生まれたことを後悔する必要はどこにもない」」他"
 
 [author]
-  flattr = "spiegel"
+  flattr = ""
   license = "by-sa"
   url = "http://www.baldanders.info/spiegel/profile/"
   linkedin = "spiegelimspiegel"

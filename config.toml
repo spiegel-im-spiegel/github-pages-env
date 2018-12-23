@@ -24,7 +24,6 @@ pygmentsUseClasses = true
   instagram = "spiegel_2007"
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
-  flattr    = "spiegel"
 
 [params]
   since       = "2015-10-01"

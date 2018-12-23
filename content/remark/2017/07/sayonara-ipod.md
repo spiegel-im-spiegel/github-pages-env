@@ -16,7 +16,7 @@ tags        = [ "tools", "engineering", "music", "artificial-intelligence" ]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 +++
 
 （これは Facebook のタイムラインに書いた記事を加筆修正したものです）

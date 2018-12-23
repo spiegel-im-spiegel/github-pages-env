@@ -8,7 +8,7 @@ title = "Go 言語 1.6.1 および 1.5.4 のセキュリティ・アップデー
 [author]
   avatar = "/images/avatar.jpg"
   facebook = "spiegel.im.spiegel"
-  flattr = "spiegel"
+  flattr = ""
   flickr = "spiegel"
   github = "spiegel-im-spiegel"
   instagram = "spiegel_2007"

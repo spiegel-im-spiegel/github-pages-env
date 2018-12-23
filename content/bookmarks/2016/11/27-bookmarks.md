@@ -5,7 +5,7 @@ date = "2016-11-27T16:48:13+09:00"
 title = "2016-11-27 のブックマーク"
 
 [author]
-  flattr = "spiegel"
+  flattr = ""
   tumblr = ""
   linkedin = "spiegelimspiegel"
   instagram = "spiegel_2007"

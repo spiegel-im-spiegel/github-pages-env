@@ -23,7 +23,7 @@ tags = [
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 +++
 
 溜まりに溜まってた更新情報をまとめて挙げておく。

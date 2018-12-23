@@ -18,7 +18,7 @@ tags = [ "artificial-intelligence", "book", "code", "grigori" ]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = false

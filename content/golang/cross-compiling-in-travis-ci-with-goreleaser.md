@@ -17,7 +17,7 @@ tags = ["golang", "cross-compile", "continuous-integration", "github", "travis-c
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = false

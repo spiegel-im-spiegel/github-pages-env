@@ -16,7 +16,7 @@ tags        = [ "book" ]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 +++
 
 - [失われていくデジタル作品をどうアーカイブすべきか？　「メディアが消える時代」のマンガ・アニメ・ゲームを守るには (1/2) - ねとらぼ](http://nlab.itmedia.co.jp/nl/articles/1709/16/news007.html)

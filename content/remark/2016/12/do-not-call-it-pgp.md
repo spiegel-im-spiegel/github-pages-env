@@ -12,7 +12,7 @@ update = "2017-12-23T18:37:50+09:00"
 [author]
   github = "spiegel-im-spiegel"
   twitter = "spiegel_2007"
-  flattr = "spiegel"
+  flattr = ""
   name = "Spiegel"
   license = "by-sa"
   tumblr = ""

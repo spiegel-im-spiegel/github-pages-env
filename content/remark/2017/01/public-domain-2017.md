@@ -18,7 +18,7 @@ draft = false
   twitter = "spiegel_2007"
   github = "spiegel-im-spiegel"
   url = "http://www.baldanders.info/spiegel/profile/"
-  flattr = "spiegel"
+  flattr = ""
 +++
 
 明けましておめでとうございます。

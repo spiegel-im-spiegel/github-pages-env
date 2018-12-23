@@ -18,7 +18,7 @@ tags = ["tools", "golang", "character", "encoding", "transform"]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = false

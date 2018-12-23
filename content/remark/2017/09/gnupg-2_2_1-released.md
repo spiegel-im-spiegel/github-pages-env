@@ -22,7 +22,7 @@ tags = [
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 +++
 
 [GnuPG] 2.2.1 がリリースされた。

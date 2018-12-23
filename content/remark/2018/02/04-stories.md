@@ -18,7 +18,7 @@ tags        = [ "astronomy", "ephemeris", "security", "medical", "risk", "manage
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = false

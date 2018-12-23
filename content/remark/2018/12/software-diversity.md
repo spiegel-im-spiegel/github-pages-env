@@ -16,7 +16,7 @@ tags = [ "web", "engineering", "firefox", "chromium", "webkit" ]
   instagram = "spiegel_2007"
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = false

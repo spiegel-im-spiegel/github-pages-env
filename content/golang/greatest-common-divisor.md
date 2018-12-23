@@ -17,7 +17,7 @@ tags        = [ "golang", "function", "programming", "math", "greatest-common-di
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   highlightjs = true

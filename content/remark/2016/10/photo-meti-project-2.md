@@ -16,7 +16,7 @@ title = "「PHOTO METI PROJECT」の利用規約が変わっていた"
   twitter = "spiegel_2007"
   facebook = "spiegel.im.spiegel"
   tumblr = ""
-  flattr = "spiegel"
+  flattr = ""
   linkedin = "spiegelimspiegel"
   name = "Spiegel"
 +++

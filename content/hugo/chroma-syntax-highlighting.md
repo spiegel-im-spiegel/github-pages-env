@@ -16,7 +16,7 @@ tags        = [ "hugo", "syntax-highlight", "shortcodes", "markdown" ]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = false

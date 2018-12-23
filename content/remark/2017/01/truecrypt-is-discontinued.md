@@ -9,7 +9,7 @@ description = "現在メンテナンスが止まっている TrueCrypt の代替
 [author]
   github = "spiegel-im-spiegel"
   license = "by-sa"
-  flattr = "spiegel"
+  flattr = ""
   facebook = "spiegel.im.spiegel"
   instagram = "spiegel_2007"
   tumblr = ""

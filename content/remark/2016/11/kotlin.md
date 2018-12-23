@@ -22,7 +22,7 @@ tags = [
   twitter = "spiegel_2007"
   tumblr = ""
   flickr = "spiegel"
-  flattr = "spiegel"
+  flattr = ""
   facebook = "spiegel.im.spiegel"
   linkedin = "spiegelimspiegel"
 +++

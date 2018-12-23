@@ -6,7 +6,7 @@ tags = ["movie"]
 description = "ちうわけで，2003年当時に書いた感想文を再掲載してみる。これを読んでジブリ・アニメの悪趣味具合を少しでも感じていただけたら幸いである。"
 
 [author]
-  flattr = "spiegel"
+  flattr = ""
   linkedin = "spiegelimspiegel"
   flickr = "spiegel"
   instagram = "spiegel_2007"

@@ -20,7 +20,7 @@ title = "Security Release Go 1.7.4 and 1.6.4"
   license = "by-sa"
   twitter = "spiegel_2007"
   url = "http://www.baldanders.info/spiegel/profile/"
-  flattr = "spiegel"
+  flattr = ""
   name = "Spiegel"
   avatar = "/images/avatar.jpg"
 +++

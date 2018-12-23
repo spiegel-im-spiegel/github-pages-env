@@ -18,7 +18,7 @@ tags = ["atom", "editor", "tools", "git", "golang", "japanese", "language"]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = false

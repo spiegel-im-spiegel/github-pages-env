@@ -9,7 +9,7 @@ title = "週末スペシャル： FBI 曰く「Ransomware 感染時は身代金�
 [author]
   avatar = "/images/avatar.jpg"
   facebook = "spiegel.im.spiegel"
-  flattr = "spiegel"
+  flattr = ""
   github = "spiegel-im-spiegel"
   instagram = "spiegel_2007"
   license = "by-sa"

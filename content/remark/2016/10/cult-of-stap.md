@@ -20,7 +20,7 @@ tags = [
   instagram = "spiegel_2007"
   facebook = "spiegel.im.spiegel"
   url = "http://www.baldanders.info/spiegel/profile/"
-  flattr = "spiegel"
+  flattr = ""
 +++
 
 ちょっと訳あって昔の自分の記事を掘り返してたら懐かしいものを見つけた。

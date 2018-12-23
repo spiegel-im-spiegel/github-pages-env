@@ -16,7 +16,7 @@ draft = false
   github = "spiegel-im-spiegel"
   linkedin = "spiegelimspiegel"
   flickr = "spiegel"
-  flattr = "spiegel"
+  flattr = ""
   instagram = "spiegel_2007"
   twitter = "spiegel_2007"
   

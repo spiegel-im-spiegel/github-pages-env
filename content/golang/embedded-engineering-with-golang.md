@@ -18,7 +18,7 @@ tags        = [ "embedded", "engineering", "golang", "bookmark" ]
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = false

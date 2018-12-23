@@ -8,7 +8,7 @@ draft = false
 
 [author]
   name = "Spiegel"
-  flattr = "spiegel"
+  flattr = ""
   facebook = "spiegel.im.spiegel"
   avatar = "/images/avatar.jpg"
   flickr = "spiegel"

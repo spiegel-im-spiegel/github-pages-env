@@ -17,7 +17,7 @@ tags        = [ "golang", "programming", "singleton", "init", "sync", "goroutine
   flickr    = "spiegel"
   facebook  = "spiegel.im.spiegel"
   linkedin  = "spiegelimspiegel"
-  flattr    = "spiegel"
+  flattr    = ""
 
 [scripts]
   mathjax = false

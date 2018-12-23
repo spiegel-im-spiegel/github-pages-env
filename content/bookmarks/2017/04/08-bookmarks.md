@@ -7,7 +7,7 @@ title = "2017-04-08 のブックマーク"
 [author]
   tumblr = ""
   twitter = "spiegel_2007"
-  flattr = "spiegel"
+  flattr = ""
   github = "spiegel-im-spiegel"
   license = "by-sa"
   avatar = "/images/avatar.jpg"
