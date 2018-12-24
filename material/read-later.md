@@ -33,15 +33,6 @@
 - [Big Sky :: 開発速度を加速するツール、goemon を書いた。](https://mattn.kaoriya.net/software/lang/go/20150223224545.htm)
 - [GitHub - jaschaephraim/lrserver: LiveReload server for Go [golang]](https://github.com/jaschaephraim/lrserver)
 
-### Trello で引越し
-
-- [Trello で施策の優先度決めを超高速でやる｜ヌノカワ ユウスケ / SmartDrive｜note](https://note.mu/ynunokawa/n/nd9df585d2399)
-- [かんばん方式とは・意味｜MBAのグロービス経営大学院](https://mba.globis.ac.jp/about_mba/glossary/detail-11756.html)
-- [trelloで使えるMarkDown構文 - Qiita](https://qiita.com/hirokishirai/items/77b59a13ddb8b7d782c1)
-- [Trello の各カードに期限日を設定して、Google Calendar に同期させる - Qiita](https://qiita.com/matsuoshi/items/293608fbacf5d9d09d0d)
-- [Integromat による Trello・GitHub 連携 – 株式会社スタメン | stmn, inc.](https://stmn.co.jp/tech/1227)
-- [タスク管理ツールはTrello一択 - 木牛流馬が動かない](http://euphoniumize-45th.hatenablog.com/entry/2017/12/04/230113)
-- [タスク管理ツール｢Trello｣の使い方をTrello社の社員たちに聞いてみた | ライフハッカー［日本版］](https://www.lifehacker.jp/2017/01/170117_trellotrello.html)
 
 ### Flickr 
 
