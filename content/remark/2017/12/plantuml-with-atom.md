@@ -1,7 +1,7 @@
 +++
 title = "ATOM エディタを使った作図（PlantUML 編）"
 date =  "2017-12-17T21:56:39+09:00"
-update = "2018-03-06T11:00:35+09:00"
+update = "2018-12-27T17:07:42+09:00"
 description = "おおっ。流石にクラス図は PlantUML の方がいいな。"
 image = "/images/attention/remark.jpg"
 tags        = [ "tools", "plantuml", "uml", "atom", "editor", "java" ]
@@ -53,7 +53,7 @@ UML の構文（に相当するもの）は図形で表されるが，それを�
 
 [plantuml-viewer] を導入したら Settings を開いて “Charset” および “Graphviz Dot Executable” 各項目の設定をしておく。
 
-{{< fig-img src="https://farm5.staticflickr.com/4736/38219245875_7b15a4bf02.jpg" title="settings of plantuml-viewer package" link="https://www.flickr.com/photos/spiegel/38219245875/" >}}
+{{< fig-img src="./38219245875_o.png" title="settings of plantuml-viewer package" link="./38219245875_o.png" width="847" >}}
 
 “Graphviz Dot Executable” 項目には [Graphviz] の dot コマンドへのフルパスをセットする。
 “Charset” 項目については， [ATOM] で書くんだから UTF-8 にしておけばいいだろう。
@@ -293,7 +293,7 @@ classDiagram
 
 - [UML入門 - IT専科](http://www.itsenka.com/contents/development/uml/)
 - [Changing colors and fonts](http://plantuml.com/skinparam)
-- [PlantUML の使い方 | プログラマーズ雑記帳](http://yohshiy.blog.fc2.com/blog-category-22.html)
+- [PlantUML の使い方 | プログラマーズ雑記帳](http://yohshiy.blog.fc2.com/blog-entry-152.html)
 - [PlantUML Cheat Sheet - Qiita](https://qiita.com/ogomr/items/0b5c4de7f38fd1482a48)
 
 - [AtomとPlantUMLで爆速UMLモデリング - Qiita](https://qiita.com/nakahashi/items/3d88655f055ca6a2617c)

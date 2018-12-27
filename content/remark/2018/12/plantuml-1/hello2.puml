@@ -1,0 +1,8 @@
+@startuml
+
+skinparam dpi 300
+
+Alice->Bob : hello
+Alice<-Bob : はろー
+
+@enduml

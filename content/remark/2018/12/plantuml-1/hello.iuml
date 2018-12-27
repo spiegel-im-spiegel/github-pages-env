@@ -1,0 +1,30 @@
+skinparam shadowing false
+skinparam backgroundColor transparent
+skinparam dpi 300
+
+skinparam arrow {
+  FontColor Black
+  FontName Noto Serif JP
+  FontSize 10
+  FontStyle plain
+  Color Black
+  Thickness 1
+}
+skinparam participant {
+  FontColor Black
+  FontName Noto Sans
+  FontSize 14
+  FontStyle plain
+  BackgroundColor WhiteSmoke
+  BorderColor Black
+  BorderThickness 1
+  Padding 20
+}
+skinparam sequence {
+  LifeLineBackgroundColor transparent
+  LifeLineBorderColor Black
+  LifeLineBorderThickness 1
+  MessageAlignment center
+}
+hide footbox
+skinparam BoxPadding 10
