@@ -1,0 +1,16 @@
+@startuml
+
+participant "Object A" as A
+participant "Object B" as B
+
+A ->> B : Asynchronous Message
+activate B
+
+hnote over A : Waiting...
+
+A x<-- B : No Reply
+deactivate B
+
+hnote over A : Timeout
+
+@enduml

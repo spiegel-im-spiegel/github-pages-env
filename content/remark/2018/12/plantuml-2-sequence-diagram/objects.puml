@@ -1,0 +1,11 @@
+@startuml
+
+actor Actor
+participant Participant
+boundary Boundary
+control Control
+entity Entity
+database Database
+collections Collections
+
+@enduml

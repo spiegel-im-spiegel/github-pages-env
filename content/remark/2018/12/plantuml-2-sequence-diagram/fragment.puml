@@ -1,0 +1,17 @@
+@startuml
+
+actor Alice
+actor Bob
+
+Alice ->> Bob: Hello
+
+alt successful case
+  Bob -->> Alice: Hello
+else failure case
+  Bob -->> Alice: Who?
+  loop 3 times
+    Alice ->> Bob: Hello again
+  end loop
+end alt
+
+@enduml

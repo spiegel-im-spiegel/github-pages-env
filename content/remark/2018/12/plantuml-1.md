@@ -1,6 +1,7 @@
 +++
-title = "真面目に PlantUML : PlantUML のインストール"
+title = "真面目に PlantUML (1) : PlantUML のインストール"
 date = "2018-12-27T19:55:14+09:00"
+update = "2018-12-28T18:18:03+09:00"
 description = " せっかく時間ができたのだから PlantUML についてちゃんと調べてみることにした。"
 image = "/images/attention/kitten.jpg"
 tags = [ "java", "plantuml", "uml", "tools" ]
@@ -24,7 +25,10 @@ tags = [ "java", "plantuml", "uml", "tools" ]
 1年ほど前に [ATOM] エディタを使って [PlantUML] を使って UML で遊んだのだが， [PlantUML] 自体は「とりあえず動かしてみた」というレベルできちんと調べていなかった。
 せっかく時間ができたのだから，この機会にちゃんと調べてみることにした。
 
+## 目次
+
 1. [PlantUML のインストール]({{< ref "/remark/2018/12/plantuml-1.md" >}}) ← イマココ
+1. [シーケンス図]({{< ref "/remark/2018/12/plantuml-2-sequence-diagram.md" >}})
 
 ## [PlantUML] のインストール
 
@@ -207,7 +211,7 @@ Alice<-Bob : はろー
 @enduml
 ```
 
-[PlantUML] ではドキュメントの中にコードを埋め込むことを想定して `@startuml ... enduml` 内の記述のみが処理の対象となる。
+[PlantUML] ではドキュメントの中にコードを埋め込むことを想定して `@startuml ... @enduml` 内の記述のみが処理の対象となる。
 
 ではこのファイルを処理してみよう。
 
@@ -368,6 +372,35 @@ $ java -jar plantuml.jar -charset UTF-8 -config hello.iuml hello.puml
 
 と `-config` オプションで `hello.iuml` ファイルを指定しても同じ結果が得られる。
 これで再利用しやすくなっただろう。
+
+## 【追記】 [PlantUML] のコメント
+
+[PlantUML] の `@startuml ... @enduml` 領域内にコメントを記述する際には以下の２通りの書き方がある。
+
+```puml
+@startuml
+
+' 一行コメント
+
+/'
+複数行に渡る
+コメント
+'/
+
+@enduml
+```
+
+なお，行の途中に
+
+```puml
+@startuml
+
+skinparam dpi 300 '解像度の設定
+
+@enduml
+```
+
+のような記述はできない（しかもエラーにもならない）のでご注意を。
 
 ## ブックマーク
 

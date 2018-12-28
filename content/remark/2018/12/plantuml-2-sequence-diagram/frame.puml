@@ -1,0 +1,7 @@
+@startuml
+
+frame "sd Sequence Diagram" {
+	note "diagram in this frame" as Note1
+}
+
+@enduml

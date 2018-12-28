@@ -1,0 +1,9 @@
+@startuml
+
+participant Alice
+participant Bob
+
+Alice->>Bob : hello
+Alice<<-Bob : hello
+
+@enduml

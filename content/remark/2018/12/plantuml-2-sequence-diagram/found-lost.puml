@@ -1,0 +1,21 @@
+@startuml
+
+participant "Object A" as A
+participant "Object B" as B
+
+[o->> A : Found Message
+activate A
+
+A -> B : Synchronous Message
+activate B
+
+B -> B : Internal call
+activate B
+
+B ->>o] : Lost Message
+deactivate B
+
+A <<-- B : Reply Message
+deactivate B
+
+@enduml
