@@ -1,7 +1,7 @@
 +++
 title = "真面目に PlantUML (1) : PlantUML のインストール"
 date = "2018-12-27T19:55:14+09:00"
-update = "2018-12-28T18:18:03+09:00"
+update = "2018-12-29T18:11:06+09:00"
 description = " せっかく時間ができたのだから PlantUML についてちゃんと調べてみることにした。"
 image = "/images/attention/kitten.jpg"
 tags = [ "java", "plantuml", "uml", "tools" ]
@@ -29,6 +29,7 @@ tags = [ "java", "plantuml", "uml", "tools" ]
 
 1. [PlantUML のインストール]({{< ref "/remark/2018/12/plantuml-1.md" >}}) ← イマココ
 1. [シーケンス図]({{< ref "/remark/2018/12/plantuml-2-sequence-diagram.md" >}})
+1. [クラス図]({{< ref "/remark/2018/12/plantuml-3-class-diagrams.md" >}})
 
 ## [PlantUML] のインストール
 
@@ -37,7 +38,7 @@ UML の構文（に相当するもの）は図形で表されるが，それを�
 [PlantUML] では UML 2.0 のうち以下の図（Diagrams）を作成できるようだ。
 
 - 構造図（Structural Diagrams）
-    - [クラス図（Class Diagram）](http://plantuml.com/class-diagram)
+    - [クラス図（Class Diagram）](http://plantuml.com/class-diagram) ※同じ機能でパッケージ図も作成可能
     - [コンポーネント図（Component Diagram）](http://plantuml.com/component-diagram)
     - [オブジェクト図（Object Diagram）](http://plantuml.com/object-diagram)
     - [配置図（Deployment Diagram）](http://plantuml.com/deployment-diagram)

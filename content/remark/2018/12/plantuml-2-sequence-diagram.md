@@ -1,10 +1,10 @@
 +++
 title = "真面目に PlantUML (2) : シーケンス図"
 date = "2018-12-28T18:18:03+09:00"
-update = "2018-12-29T09:38:55+09:00"
+update = "2018-12-29T18:11:06+09:00"
 description = "さっそく今回はシーケンス図を PlantUML で書いてみようか。"
 image = "/images/attention/kitten.jpg"
-tags = [ "java", "plantuml", "uml", "tools" ]
+tags = [ "plantuml", "uml", "tools" ]
 
 [author]
   name      = "Spiegel"
@@ -35,6 +35,7 @@ $ java -Dfile.encoding=UTF-8 -jar plantuml.jar -nometadata -charset UTF-8 -confi
 
 1. [PlantUML のインストール]({{< ref "/remark/2018/12/plantuml-1.md" >}})
 1. [シーケンス図]({{< ref "/remark/2018/12/plantuml-2-sequence-diagram.md" >}}) ← イマココ
+1. [クラス図]({{< ref "/remark/2018/12/plantuml-3-class-diagrams.md" >}})
 
 ## オブジェクトとライフライン
 
@@ -72,16 +73,29 @@ collections Collections
 
 {{< fig-img src="./objects.png" link="./objects.puml" width="1950" >}}
 
-本来ならシーケンス図はこんな感じの
+## メインフレーム
 
-{{< fig-img src="./frame.png" link="./frame.puml" width="606" >}}
+全体を囲むフレームを表示する場合には `mainframe` で指定する。
 
-フレームで囲む必要があるが [PlantUML] にはこれに該当するものが用意されていない。
-まぁ実務で作図したときもシーケンス図をちゃんとフレームで囲ってるのをあまり見なかったので，気にする人はいないのだろう。
+{{< highlight puml "hl_lines=3" >}}
+@startuml
+
+mainframe sd Hello World
+
+participant Alice
+participant Bob
+
+Alice->>Bob : hello
+Alice<<-Bob : hello
+
+@enduml
+{{< /highlight >}}
+
+{{< fig-img src="./mainframe.png" link="./mainframe.puml" width="684" >}}
 
 ## メッセージ詳細
 
-ではシーケンス図におけるメッセージのやりとりについて，いくつかパターンを書いてみよう。
+シーケンス図におけるメッセージのやりとりについて，いくつかパターンを書いてみる。
 
 ### 同期メッセージ（Synchronous Message）
 

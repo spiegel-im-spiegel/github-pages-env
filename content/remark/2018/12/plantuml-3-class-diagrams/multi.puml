@@ -1,0 +1,11 @@
+@startuml
+
+hide circle
+hide empty members
+
+class "Class A" as A
+class "Class B" as B
+
+A "1" -- "*" B
+
+@enduml
