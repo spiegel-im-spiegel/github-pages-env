@@ -29,9 +29,9 @@ activate C
 
 B<<--C : Done
 deactivate C
+destroy C
 
 A <<-- B : Success
 deactivate B
-destroy C
 
 @enduml

@@ -1,6 +1,7 @@
 +++
 title = "真面目に PlantUML (2) : シーケンス図"
 date = "2018-12-28T18:18:03+09:00"
+update = "2018-12-29T09:38:55+09:00"
 description = "さっそく今回はシーケンス図を PlantUML で書いてみようか。"
 image = "/images/attention/kitten.jpg"
 tags = [ "java", "plantuml", "uml", "tools" ]
@@ -84,7 +85,7 @@ collections Collections
 
 ### 同期メッセージ（Synchronous Message）
 
-```puml
+{{< highlight puml "hl_lines=7 12" >}}
 @startuml
 
 participant "Object A" as A
@@ -99,7 +100,7 @@ A <<-- B : Reply Message
 deactivate B
 
 @enduml
-```
+{{< /highlight >}}
 
 {{< fig-img src="./sync.png" link="./sync.puml" width="857" >}}
 
@@ -108,6 +109,7 @@ deactivate B
 「メッセージ」となっているが必ずしも通信を行っているわけではなく，相手オブジェクトのメソッドを呼び出す場合もこのような記述になる。
 
 Object B のライフラインにある縦長の矩形は「実行仕様（execution specification）」と呼ばれるもので，その期間中に何らかの処理を行っていることを示す。
+[PlantUML] では `activate`/`deactivate` で指定可能（直前のメッセージがトリガとなる）。
 Object B は Object A からのメッセージを受けて内部処理を行って結果を Object A に返しているわけやね。
 
 ### 非同期メッセージ（Asynchronous Message）
@@ -140,12 +142,14 @@ deactivate C
 
 矢印の種類，特に同期メッセージとの違いに注意。
 
-Object A と Object B の間，および Object A と Object B の間は同期していないため，処理の終了を待っているわけですね。
+Object A と Object B の間，および Object A と Object C の間は同期していないため，処理の終了を待っているわけですね。
 分かります。
+ちなみに `hnote` はコメントを表す。
+`note` だと付箋紙っぽい図形だが `hnote` なら六角形（hexagon）になる。
 
 ### メッセージの不達
 
-```puml
+{{< highlight puml "hl_lines=11" >}}
 @startuml
 
 participant "Object A" as A
@@ -162,16 +166,16 @@ deactivate B
 hnote over A : Timeout
 
 @enduml
-```
+{{< /highlight >}}
 
 {{< fig-img src="./timeout.png" link="./timeout.puml" width="790" >}}
 
 異常系シーケンスでよく見かけるやつ。
-Object B からの応答がなくてタイムアウトしちゃったとか。
+この例は Object B からの応答がなくてタイムアウトしちゃった状態を表す。
 
 ### スコープ外からのメッセージ（Found/Lost Message）
 
-```puml
+{{< highlight puml "hl_lines=6 15" >}}
 @startuml
 
 participant "Object A" as A
@@ -193,11 +197,11 @@ A <<-- B : Reply Message
 deactivate B
 
 @enduml
-```
+{{< /highlight >}}
 
 {{< fig-img src="./found-lost.png" link="./found-lost.puml" width="1126" >}}
 
-図のスコープ外とのやり取り。
+スコープ外のオブジェクトとのやり取りを表す。
 メッセージがロストしているわけではない。
 本当は黒丸なんだけど，何故か黒丸が使えない。
 
@@ -227,7 +231,9 @@ end alt
 
 {{< fig-img src="./fragment.png" link="./fragment.puml" width="596" >}}
 
-複合フラグメントとして以下のものがある。
+この例では `alt ... else ... end`, `loop ... end` で囲まれた部分が複合フラグメントに相当する。
+
+[PlantUML] では複合フラグメントとして以下のものが使える（`group` は汎用）。
 
 | Operator   | [PlantUML]       | 意味                                                  |
 | ---------- | ---------------- | ----------------------------------------------------- |
@@ -244,9 +250,10 @@ end alt
 
 ### 外部参照
 
-複合フラグメントとはちょっと違うが， `ref` を使ってシーケンスの一部を外部参照にできる。
+複合フラグメントとはちょっと違うが [PlantUML] では `ref` を使ってシーケンスの一部を外部参照として表せる。
+使い方は `note`/`hnote` と同じ。
 
-```puml
+{{< highlight puml "hl_lines=8-10" >}}
 @startuml
 
 participant "Object A" as A
@@ -261,7 +268,7 @@ end ref
 A <<-- B : Complete
 
 @enduml
-```
+{{< /highlight >}}
 
 {{< fig-img src="./refer.png" link="./refer.puml" width="1215" >}}
 
@@ -269,8 +276,9 @@ A <<-- B : Complete
 
 ## オブジェクトの生成と消滅
 
-`create`/`destroy` を使って以下のようにオブジェクトの生成と消滅を記述できる。
-```puml
+[PlantUML] では `create`/`destroy` を使って以下のようにオブジェクトの生成と消滅を記述できる。
+
+{{< highlight puml "hl_lines=12 31" >}}
 @startuml
 
 participant "Object A" as A
@@ -307,7 +315,7 @@ A <<-- B: Success
 deactivate B
 
 @enduml
-```
+{{< /highlight >}}
 
 {{< fig-img src="./create.png" link="./create.puml" width="1215" >}}
 
