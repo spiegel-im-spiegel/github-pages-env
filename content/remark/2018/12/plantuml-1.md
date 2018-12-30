@@ -1,7 +1,7 @@
 +++
 title = "真面目に PlantUML (1) : PlantUML のインストール"
 date = "2018-12-27T19:55:14+09:00"
-update = "2018-12-29T18:11:06+09:00"
+update =  "2018-12-30T16:08:46+09:00"
 description = " せっかく時間ができたのだから PlantUML についてちゃんと調べてみることにした。"
 image = "/images/attention/kitten.jpg"
 tags = [ "java", "plantuml", "uml", "tools" ]
@@ -407,6 +407,7 @@ skinparam dpi 300 '解像度の設定
 
 - [UML入門 - IT専科](http://www.itsenka.com/contents/development/uml/)
 - [Changing colors and fonts](http://plantuml.com/skinparam)
+- [call it from your script using command line](http://plantuml.com/command-line)
 - [PlantUML の使い方 | プログラマーズ雑記帳](http://yohshiy.blog.fc2.com/blog-entry-152.html)
 
 

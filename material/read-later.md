@@ -7,6 +7,8 @@
 - [O'Reilly Japan - テスト駆動開発による組み込みプログラミング](https://www.oreilly.co.jp/books/9784873116143/)
 - [Kotlinイン・アクション | Dmitry Jemerov, Svetlana Isakova, 長澤 太郎, 藤原 聖, 山本 純平, yy_yank | 工学 | Kindleストア | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/B076Q2L1M6/baldandersinf-22/)
 - [Amazon | Tonor カセットテープ MP3 変換 プレーヤー USB保存 PC不要 コンバータ【Web日本語説明書あり】 | Tonor | 家電＆カメラ](https://www.amazon.co.jp/exec/obidos/ASIN/B01LZCE8J2/baldandersinf-22/)
+- [上馬キリスト教会の世界一ゆるい聖書入門 | 上馬キリスト教会 | 宗教入門 | Kindleストア | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/B07KLG2CMN/baldandersinf-22/)
+- [木澤佐登志『ダークウェブ・アンダーグラウンド 社会秩序を逸脱するネット暗部の住人たち』がかなり禍々しい本みたいで楽しみだ - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20181229/darkweb)
 
 ## あとで遊ぶ
 
