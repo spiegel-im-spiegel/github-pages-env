@@ -1,0 +1,21 @@
+@startuml
+/'
+ ' Factory Method Pattern
+ '/
+ skinparam minClassWidth 130
+
+class Creator {
+  {field} # getInstance : func() Product
+  {method} + anOperation()
+}
+abstract class Product {
+}
+class ConcreteProduct {
+  {classifier} {method} + getInstance() : Product
+}
+
+Creator *-down- ConcreteProduct : < <<injection>>
+Product <|.down. ConcreteProduct
+Creator .right.> Product : <<use>>
+
+@enduml

@@ -1,0 +1,18 @@
+@startuml
+/'
+ ' Factory Method Pattern
+ '/
+ skinparam minClassWidth 130
+
+class Creator {
+  # factoryMethod() : Product
+  + anOperation()
+}
+class ConcreteCreator {
+  + Creator {enbedded}
+  # factoryMethod() : Product
+}
+
+Creator <|-o ConcreteCreator : < <<delegation>>
+
+@enduml

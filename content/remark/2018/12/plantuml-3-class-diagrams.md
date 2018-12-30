@@ -1,7 +1,8 @@
 +++
 title = "真面目に PlantUML (3) : クラス図"
 date = "2018-12-29T18:11:06+09:00"
-description = "今回はクラス図（Class Diagram）について。 オブジェクト図やパッケージ図までだどりつけなかった orz"
+update = "2018-12-30T13:10:09+09:00"
+description = "今回はクラス図について。 オブジェクト図やパッケージ図までだどりつけなかった orz"
 image = "/images/attention/kitten.jpg"
 tags = [ "plantuml", "uml", "tools" ]
 
@@ -21,7 +22,7 @@ tags = [ "plantuml", "uml", "tools" ]
   mermaidjs = false
 +++
 
-今回はクラス図（Class Diagram）について。
+今回はクラス図（class diagram）について。
 クラス図はシステムの構成要素であるクラスを定義しクラス同士の関係を表現したものである。
 
 ## 目次
@@ -67,7 +68,7 @@ abstract class "Interface Class" as Class2  <<interface>>
 
 {{< fig-img src="./declare-abstract-class.png" link="./declare-abstract-class.puml" width="784" >}}
 
-`<<interface>>` はステレオタイプ（sterotype）と呼ばれているもので，ここではクラスの種別を表している。
+`<<interface>>` はステレオタイプ（stereotype）と呼ばれているもので，ここではクラスの種別を表している。
 
 なお [PlantUML] ではアイコンを使ってクラス種別を表現できる。
 

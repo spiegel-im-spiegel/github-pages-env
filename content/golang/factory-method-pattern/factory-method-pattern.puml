@@ -1,0 +1,24 @@
+@startuml
+/'
+ ' Factory Method Pattern
+ '/
+ skinparam minClassWidth 130
+
+abstract class Creator {
+  {abstract} # factoryMethod() : Product
+  + anOperation()
+}
+class ConcreteCreator {
+  # factoryMethod() : Product
+}
+abstract class Product {
+}
+class ConcreteProduct {
+}
+
+ConcreteCreator "n" -up-|> "1" Creator
+ConcreteProduct "n" .up.|> "1" Product
+Creator .right.> Product : <<use>> >
+ConcreteCreator "1" .right.> "1" ConcreteProduct : <<create>> >
+
+@enduml

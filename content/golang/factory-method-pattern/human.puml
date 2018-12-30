@@ -1,0 +1,26 @@
+@startuml
+/'
+ ' Factory Method Pattern
+ '/
+ skinparam minClassWidth 130
+
+abstract class Human <<interface>> {
+  {abstract} + SelfIntroduction() : string
+}
+class NamedHuman {
+  + MyName : string
+  + Name() : string
+}
+class Man {
+  + SelfIntroduction() : string
+}
+class Woman {
+  + SelfIntroduction() : string
+}
+
+Human <|.. Man
+NamedHuman <|-- Man
+Human <|.. Woman
+NamedHuman <|-- Woman
+
+@enduml
