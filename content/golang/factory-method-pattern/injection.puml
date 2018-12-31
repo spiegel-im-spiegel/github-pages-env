@@ -4,18 +4,22 @@
  '/
  skinparam minClassWidth 130
 
-class Creator {
-  {field} # getInstance : func() Product
-  {method} + anOperation()
-}
-abstract class Product {
-}
-class ConcreteProduct {
-  {classifier} {method} + getInstance() : Product
-}
+ abstract class Creator {
+   {field} # injector : func() Product
+   {method} + anOperation()
+ }
+ abstract class Product {
+ }
+ class ConcreteProduct {
+ }
+ class "injector() : Product" as Injector <<injector>> {
+ }
 
-Creator *-down- ConcreteProduct : < <<injection>>
-Product <|.down. ConcreteProduct
-Creator .right.> Product : <<use>>
+hide <<injector>> member
+
+Creator .right.> Product : <<use>> >
+Product "1" <|.down. "n" ConcreteProduct
+Injector "1" .right.> "1" ConcreteProduct : <<create>> >
+Creator "1" .down.> "n" Injector : < <<inject>>
 
 @enduml

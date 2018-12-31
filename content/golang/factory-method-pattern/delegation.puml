@@ -9,7 +9,7 @@ class Creator {
   + anOperation()
 }
 class ConcreteCreator {
-  + Creator {enbedded}
+  + Creator {embedded}
   # factoryMethod() : Product
 }
 

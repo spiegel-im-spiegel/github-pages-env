@@ -1,6 +1,7 @@
 +++
 title = "Go 言語で Factory Method Pattern を構成できるか"
 date = "2018-12-30T15:24:48+09:00"
+update = "2018-12-31T09:01:54+09:00"
 description = "継承できないなら注入すればいいじゃない。"
 image = "/images/attention/go-logo_blue.png"
 tags = ["golang", "object-oriented", "programming", "type", "interface"]
@@ -321,11 +322,11 @@ func main() {
 ```
 
 [よーし，うむうむ，よーし](https://play.golang.org/p/_QFnKteL_c6 "The Go Playground")。
-クラス図にするとこんな感じだろうか。
+クラス図にするとこんな感じだろうか（factory method pattern のクラス図と比較してみよう）。
 
-{{< fig-img src="./injection.png" link="./injection.puml" width="1167" >}}
+{{< fig-img src="./injection.png" link="./injection.puml" width="1168" >}}
 
-これって，だいぶ不格好だけど，まさしく依存（オブジェクト）の注入（dependency injection）だよね[^di1]。
+これってだいぶ不格好だけど，まさしく依存（オブジェクト）の注入（dependency injection pattern）だよね[^di1]。
 
 [^di1]: 私は dependency injection を「依存性の注入」と訳すことに懐疑的だという[主張]に同意します。
 
@@ -334,6 +335,7 @@ func main() {
 ## ブックマーク
 
 - [Factory Method パターン - Wikipedia](https://ja.wikipedia.org/wiki/Factory_Method_%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3) : クラス図はこちらを参考にした
+- [Dependency injection - Wikipedia](https://en.wikipedia.org/wiki/Dependency_injection) : 英語版と日本語版でかなり内容が異なるのだが大丈夫か？
 
 - [Go 言語における「オブジェクト」]({{< ref "./object-oriented-programming.md" >}})
 

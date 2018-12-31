@@ -12,15 +12,17 @@ class NamedHuman {
   + Name() : string
 }
 class Man {
+  + NamedHuman {embedded}
   + SelfIntroduction() : string
 }
 class Woman {
+  + NamedHuman {embedded}
   + SelfIntroduction() : string
 }
 
 Human <|.. Man
-NamedHuman <|-- Man
+NamedHuman <|--o Man
 Human <|.. Woman
-NamedHuman <|-- Woman
+NamedHuman <|--o Woman
 
 @enduml
