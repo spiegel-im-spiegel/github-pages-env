@@ -1,7 +1,7 @@
 +++
 title = "エンジニアこそ「狂狷の徒」たれ"
 date =  "2017-12-14T14:19:18+09:00"
-update = "2018-01-26T17:36:37+09:00"
+update = "2018-12-31T13:39:09+09:00"
 description = "2008年当時の自分の記事を読んで，あれから10年も経つのに「世の中ちっとも変わらない」気がする。それでも私たちエンジニアは，前だけではなく，上を向いて螺旋階段を登るべきだと思うのだ。"
 image = "/images/attention/remark.jpg"
 tags        = [ "code", "hacker-ethic" ]
@@ -57,7 +57,7 @@ tags        = [ "code", "hacker-ethic" ]
 まっ，私の不穏当な意見は置いておくとして，もうひとつ「おおおっ」と思った記事がある。
 yomoyomo さんの「[情報共有の未来](http://archive.wiredvision.co.jp/blog/yomoyomo/ "yomoyomoの「情報共有の未来」 | ワイアードビジョン アーカイブ")」の記事のひとつ「[「自由の真の代償」と「自由の真価」 ― サイバースペース独立宣言を越えて](http://archive.wiredvision.co.jp/blog/yomoyomo/200804/200804161100.html "「自由の真の代償」と「自由の真価」 〜 サイバースペース独立宣言を越えて | ワイアードビジョン アーカイブ")」 で紹介されている以下の記事だ。
 
-- [クーリエ連載；エコノミスト紹介、自由のためなら人が死んでもいい](http://cruel.org/economist/courier200712.html)（この中で紹介されている[「自由の本当のコスト」の原文](http://www.economist.com/node/9833041 "The real price of freedom | The Economist")）
+- [クーリエ連載；エコノミスト紹介、自由のためなら人が死んでもいい](http://cruel.org/economist/courier200712.html)（この中で紹介されている[「自由の本当のコスト」の原文](https://www.economist.com/leaders/2007/09/20/the-real-price-of-freedom "The real price of freedom - Civil liberties under threat")）
 
 内容の全く異なるこれら2つの記事を読んで私は何故か両者に共通するものがあるように感じた。
 それは何だろうと考えて「狂狷の徒」というフレーズを思い出した。 
@@ -117,23 +117,55 @@ yomoyomo さんの「[情報共有の未来](http://archive.wiredvision.co.jp/bl
 ## 参考図書
 
 <div class="hreview" >
-	<a class="item url" href="https://tatsu-zine.com/books/infoshare"><img src="https://tatsu-zine.com/images/books/15/cover_s.jpg" alt="photo" class="photo"  /></a>
-	<dl>
-		<dt class="fn"><a class="item url" href="https://tatsu-zine.com/books/infoshare">情報共有の未来</a></dt>
-		<dd>yomoyomo</dd>
-		<dd>達人出版会 2011-12-30</dd>
-		<dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr></dd>
-	</dl>
-<p class="description">同名ブログの書籍化。感想は<a href="http://www.baldanders.info/spiegel/log2/000611.shtml">こちら</a>。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-12-14">2017-12-14</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+	<div class="photo"><a class="item url" href="https://tatsu-zine.com/books/infoshare"><img src="https://tatsu-zine.com/images/books/15/cover_s.jpg" alt="photo"></a></div>
+    <dl class="fn">
+      <dt><a href="https://tatsu-zine.com/books/infoshare">情報共有の未来</a></dt>
+      <dd>yomoyomo</dd>
+      <dd>達人出版会 2011-12-30</dd>
+      <dd>評価&nbsp;<abbr class="rating fa-sm" title="4">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </abbr></dd>
+    </dl>
+    <p class="description">同名ブログの書籍化。感想は<a href="http://www.baldanders.info/spiegel/log2/000611.shtml">こちら</a>。早く<a href="https://tatsu-zine.com/books/infoshare2">続編</a>読まないと。</p>
+    <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.12.7</abbr></p>
 </div>
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4000280872/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/31e2h91IUWL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4000280872/baldandersinf-22/">イノベーション 悪意なき嘘 (双書 時代のカルテ)</a></dt><dd>名和 小太郎 </dd><dd>岩波書店 2007-01-11</dd><dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
-<p class="description">「両用技術とはどのようなものか。その核心には「矛と楯の論理」がある」（まえがき「予断・診断・独断 そんなばかな」より）</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-10-01">2015-10-01</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4000280872/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/31e2h91IUWL._SL160_.jpg" width="103" height="160" alt="イノベーション 悪意なき嘘 (双書 時代のカルテ)"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4000280872/baldandersinf-22">イノベーション 悪意なき嘘 (双書 時代のカルテ)</a></dt>
+    <dd>名和 小太郎</dd>
+    <dd>岩波書店</dd>
+    <dd>評価&nbsp;<abbr class="rating fa-sm" title="3">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+    </abbr></dd>
+  </dl>
+  <p class="description">「両用技術とはどのようなものか。その核心には「矛と楯の論理」がある」（まえがき「予断・診断・独断 そんなばかな」より）</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.12.31</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4797334673/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/41tEJvyOO2L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4797334673/baldandersinf-22/">インターネットの法と慣習　かなり奇妙な法学入門 [ソフトバンク新書]</a></dt><dd>白田 秀彰 </dd><dd>ソフトバンククリエイティブ 2006-07-15</dd><dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4087202941/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4087202941.09._SCTHUMBZZZ_.jpg"  alt="著作権とは何か―文化と創造のゆくえ (集英社新書)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4480065733/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4480065733.09._SCTHUMBZZZ_.jpg"  alt="デジタル時代の著作権 (ちくま新書)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4087205274/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4087205274.09._SCTHUMBZZZ_.jpg"  alt="著作権の世紀―変わる「情報の独占制度」 (集英社新書 527A)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4087206122/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4087206122.09._SCTHUMBZZZ_.jpg"  alt="文化のための追及権　─日本人の知らない著作権 (集英社新書)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4334037070/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4334037070.09._SCTHUMBZZZ_.jpg"  alt="「ネットの自由」vs.著作権: TPPは、終わりの始まりなのか (光文社新書)"  /></a> </p>
-<p class="description" >ライアカ本。 Web 2.0 真っ只中に書かれた本だが，時事的な部分を除けば古びてはいないと思う。</p>
-<p class="gtools" >reviewed by <a href="#maker" class="reviewer">Spiegel</a> on <abbr class="dtreviewed" title="2014-09-14">2014/09/14</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html">G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4797334673/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41tEJvyOO2L._SL160_.jpg" width="97" height="160" alt="インターネットの法と慣習　かなり奇妙な法学入門 [ソフトバンク新書]"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4797334673/baldandersinf-22">インターネットの法と慣習　かなり奇妙な法学入門 [ソフトバンク新書]</a></dt>
+    <dd>白田 秀彰</dd>
+    <dd>ソフトバンククリエイティブ</dd>
+	<dd>評価&nbsp;<abbr class="rating fa-sm" title="4">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+    </abbr></dd>
+  </dl>
+  <p class="description">ライアカ本。 Web 2.0 真っ只中に書かれた本だが，時事的な部分を除けば古びてはいないと思う。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.11.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>
