@@ -1,8 +1,6 @@
 @startuml
-/'
- ' Factory Method Pattern
- '/
- skinparam minClassWidth 130
+
+skinparam minClassWidth 130
 
 abstract class Human <<interface>> {
   {abstract} + SelfIntroduction() : string
