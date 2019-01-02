@@ -200,8 +200,8 @@ AI の学習データ素材などを柔軟に利用できるよう考えられ�
 - [著作権の保護と制限の規定がもうすぐ変わる ～ 保護期間延長、非親告罪化、柔軟な権利制限、教育の情報化対応など、まとめて解説 – HON.jp News Blog](https://hon.jp/news/1.0/0/14387)
 - [シンポジウム「著作権延長後の世界で、我われは何をすべきか」 | TPPの知的財産権と協議の透明化を考えるフォーラム](http://thinktppip.jp/?p=853)
 - [アメリカにパブリックドメインが帰ってくることを祝してインターネット・アーカイブに寄付した - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20181210/reopeningpublicdomain)
-- [CPTPPによる著作権保護期間延長への対応と年末年始のお休みについて](https://www.aozora.gr.jp/soramoyou/soramoyouindex.html#000503)
-    - [これからの20年に向けて](https://www.aozora.gr.jp/soramoyou/soramoyouindex.html#000500)
+- [CPTPPによる著作権保護期間延長への対応と年末年始のお休みについて](https://www.aozora.gr.jp/soramoyou/soramoyou2018.html#000503)
+    - [これからの20年に向けて](https://www.aozora.gr.jp/soramoyou/soramoyou2018.html#000500)
     - [三島由紀夫や志賀直哉、川端康成らの作品が青空文庫で公開されるのは20年先に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1158484.html)
 
 - [漫画は衰退しました]({{< ref "/remark/2018/01/manga-has-delined.md" >}})
