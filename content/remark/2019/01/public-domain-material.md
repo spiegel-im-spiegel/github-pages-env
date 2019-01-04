@@ -1,6 +1,7 @@
 +++
 title = "2019年 公有化に関する2つの話題"
 date = "2019-01-02T11:06:50+09:00"
+update = "2019-01-04T09:46:58+09:00"
 description = "むしろこれを機会に「自由」について日本人もそろそろ真面目に考えてみるというのはどうだろう。そういう2019年になれば幸いである。"
 image = "/images/attention/kitten.jpg"
 tags = ["code", "intellectual-property", "copyright", "creative-commons"]
@@ -42,7 +43,7 @@ tags = ["code", "intellectual-property", "copyright", "creative-commons"]
 
 こういった先行例を見ても今回の（政局によりなし崩し的に決められた）著作権期間延長が著作権法の目的（第1条「文化の発展に寄与することを目的とする」）に背くものであることが分かると思う。
 
-まぁ，いつまでも愚痴ってもしょうがない。
+まぁ，いつまで愚痴っていてもしょうがない。
 できることをしよう。
 
 まず『[インターネット図書館 青空文庫](https://www.amazon.co.jp/exec/obidos/ASIN/4899840721/baldandersinf-22)』の巻末に寄せられた[富田倫生]さんの文章が[青空文庫]に収録された。
@@ -53,14 +54,14 @@ tags = ["code", "intellectual-property", "copyright", "creative-commons"]
 広島でこの手のイベントをやればいいのに。
 
 [2019年に公有化される筈だった作品の作家リスト](https://www.aozora.gr.jp/soramoyou/soramoyouindex.html#000503 "20年先の種を蒔く――真実は時の娘")を見ると翻訳家の方が2人ほどいらっしゃる。
-ご存知と思うが，翻案された作品には（原作者とは別に）翻案者にも著作権が発生する。
-したがって原作者の作品の著作権が切れていても翻案者の保護期間が残っている場合もあるのだ。
+ご存知とは思うが，翻案された作品には（原作者とは別に）翻案者にも著作権が発生する。
+したがって原作者の作品の著作権が切れていても翻案者の保護期間が残っている場合もあるわけだ。
 
-これに対して翻訳者の方が翻訳文に [CC Licenses] を付けるなどして意図的に[青空文庫]に収録されている方もいる。
+これに対して翻訳者の方が翻訳文に [CC Licenses] を付けるなどして意図的に[青空文庫]に収録する場合もある。
 ちなみに私は[大久保ゆう](https://www.aozora.gr.jp/index_pages/person10.html "作家別作品リスト：大久保 ゆう")さんによるシャーロック・ホームズ・シリーズの翻訳のファンである。
+また，翻訳文に限らずとも[白田秀彰](https://www.aozora.gr.jp/index_pages/person21.html "作家別作品リスト：白田 秀彰")さんのように自身の論文を[青空文庫]に登録している方もおられる。
 
-また[白田秀彰](https://www.aozora.gr.jp/index_pages/person21.html "作家別作品リスト：白田 秀彰")さんのように自身の論文を[青空文庫]に登録している方もおられる。
-公有化されていなくても「作品を自由にする」ことはできるのだ。
+公有化されていなくても作品を「自由」にすることはできるのだ。
 
 余談だが Change.org で以下のキャンペーンが上がっている。
 
@@ -117,4 +118,22 @@ tags = ["code", "intellectual-property", "copyright", "creative-commons"]
   </dl>
   <p class="description">e-book の未来を予見する試みの書。あるいは本とコンピュータの関係について。<a href="https://www.aozora.gr.jp/cards/000055/card56499.html">青空文庫</a>にも収録されている。</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2019.1.2</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+</div>
+
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4775929259/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51KBkKGu6NL._SL160_.jpg" width="160" height="160" alt="シャーロック・ホームズ「赤毛連盟」"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4775929259/baldandersinf-22">シャーロック・ホームズ「赤毛連盟」</a></dt>
+    <dd>アーサー コナン・ドイル, Arthur Conan Doyle</dd>
+    <dd>でじじ発行/パンローリング発売</dd>
+    <dd>評価&nbsp;<abbr class="rating fa-sm" title="3">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+    </abbr></dd>
+  </dl>
+  <p class="description"><a href=""https://www.aozora.gr.jp/>青空文庫</a>に収録された「赤毛連盟（Red-Headed League）」他シャーロック・ホームズ・シリーズの翻訳を佐々木健さんが朗読する。一人で何役もこなす佐々木健さんがかっこいい！</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2019.1.4</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>
