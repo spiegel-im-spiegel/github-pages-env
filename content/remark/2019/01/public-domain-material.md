@@ -1,7 +1,7 @@
 +++
 title = "2019年 公有化に関する2つの話題"
 date = "2019-01-02T11:06:50+09:00"
-update = "2019-01-04T09:46:58+09:00"
+update = "2019-01-05T10:08:21+09:00"
 description = "むしろこれを機会に「自由」について日本人もそろそろ真面目に考えてみるというのはどうだろう。そういう2019年になれば幸いである。"
 image = "/images/attention/kitten.jpg"
 tags = ["code", "intellectual-property", "copyright", "creative-commons"]
@@ -134,6 +134,6 @@ tags = ["code", "intellectual-property", "copyright", "creative-commons"]
       <i class="far fa-star"></i>
     </abbr></dd>
   </dl>
-  <p class="description"><a href=""https://www.aozora.gr.jp/>青空文庫</a>に収録された「赤毛連盟（Red-Headed League）」他シャーロック・ホームズ・シリーズの翻訳を佐々木健さんが朗読する。一人で何役もこなす佐々木健さんがかっこいい！</p>
+  <p class="description"><a href=""https://www.aozora.gr.jp/>青空文庫</a>に収録されているシャーロック・ホームズ・シリーズの翻訳を朗読する。第一弾は「赤毛連盟（Red-Headed League）」で佐々木健さんによる朗読。一人で何役もこなす佐々木健さんがかっこいい！</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2019.1.4</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>
