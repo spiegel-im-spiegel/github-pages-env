@@ -1,6 +1,6 @@
 +++
 date = "2016-11-29T22:06:59+09:00"
-update = "2017-01-12T11:11:28+09:00"
+update = "2019-01-07T11:40:33+09:00"
 title = "2017年直前の閏秒について"
 description = "年も押し迫ってきたし関連情報も出てき始めているので，あらためて記事を再構成し関連リンクを順次追加していくことにする。"
 tags = [
@@ -21,7 +21,7 @@ draft = false
   flickr = "spiegel"
   name = "Spiegel"
   license = "by-sa"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   twitter = "spiegel_2007"
 
 [scripts]
@@ -159,29 +159,55 @@ UT が観測値である以上「いつ閏秒が発生するか」は長期的�
 
 - [閏秒(うるう秒)とは何か - 国立天文台暦計算室](http://eco.mtk.nao.ac.jp/koyomi/topics/html/topics2013_1.html)
 - {{< pdf-file title="暦象年表の改訂について" link="http://www.nao.ac.jp/contents/about-naoj/reports/report-naoj/11-34-2.pdf" >}}
-- [暦の改訂（DE405 から DE430 へ） — Baldanders.info](http://www.baldanders.info/spiegel/log2/000840.shtml)
+- [暦の改訂（DE405 から DE430 へ） — Baldanders.info](https://baldanders.info/spiegel/log2/000840.shtml)
 - [Linux開発者リーナス・トーヴァルズ、来る「うるう秒」を語る｜WIRED.jp](http://wired.jp/2015/06/30/torvalds_leapsecond/) ： 2015年の記事
 - [うるう秒は当分存続らしい]({{< ref "/remark/2015/leap-second.md" >}})
 - [うるう秒で1秒長かった今年の元日｜ニュース/アーカイブ｜準天頂衛星システム（QZSS）公式サイト - 内閣府](http://qzss.go.jp/news/archive/nict_170110.html) : 地球の自転について現在の観測方法を紹介している
 
 昔書いた以下の記事は内容が古くて地球時（terrestrial time; TT）などを含む座標時系への言及がないけど，閏秒に関する歴史的経緯を知るという意味では参考になるかもしれない。
 
-- [時刻系の話： 閏秒ができるまで － 序章 -- 戯れ言++](http://www.baldanders.info/spiegel/remark/archives/000109.shtml)
-- [時刻系の話： 閏秒ができるまで － 恒星時系と世界時系 -- 戯れ言++](http://www.baldanders.info/spiegel/remark/archives/000118.shtml)
-- [時刻系の話： 閏秒ができるまで － 暦表時系 -- 戯れ言++](http://www.baldanders.info/spiegel/remark/archives/000127.shtml)
-- [時刻系の話： 閏秒ができるまで － 原子時系と閏秒 -- 戯れ言++](http://www.baldanders.info/spiegel/remark/archives/000130.shtml)
-- [時刻系の話： 閏秒ができるまで － 新しい暦計算システムと力学時 -- 戯れ言++](http://www.baldanders.info/spiegel/remark/archives/000147.shtml)
+- [時刻系の話： 閏秒ができるまで － 序章 -- 戯れ言++](https://baldanders.info/spiegel/remark/archives/000109.shtml)
+- [時刻系の話： 閏秒ができるまで － 恒星時系と世界時系 -- 戯れ言++](https://baldanders.info/spiegel/remark/archives/000118.shtml)
+- [時刻系の話： 閏秒ができるまで － 暦表時系 -- 戯れ言++](https://baldanders.info/spiegel/remark/archives/000127.shtml)
+- [時刻系の話： 閏秒ができるまで － 原子時系と閏秒 -- 戯れ言++](https://baldanders.info/spiegel/remark/archives/000130.shtml)
+- [時刻系の話： 閏秒ができるまで － 新しい暦計算システムと力学時 -- 戯れ言++](https://baldanders.info/spiegel/remark/archives/000147.shtml)
 
 [NTP]: https://tools.ietf.org/html/rfc5905 "RFC 5905 - Network Time Protocol Version 4: Protocol and Algorithms Specification"
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4805202254/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51mQCyP04rL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4805202254/baldandersinf-22/">天体の位置計算</a></dt><dd>長沢 工 </dd><dd>地人書館 1985-09</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4805206349/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4805206349.09._SCTHUMBZZZ_.jpg"  alt="日の出・日の入りの計算―天体の出没時刻の求め方"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4769908180/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4769908180.09._SCTHUMBZZZ_.jpg"  alt="天文計算入門―一球面三角から軌道計算まで"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4805204141/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4805204141.09._SCTHUMBZZZ_.jpg"  alt="パソコンで見る天体の動き"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4416114710/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4416114710.09._SCTHUMBZZZ_.jpg"  alt="天文年鑑2015年版"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00R4X7R0M/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00R4X7R0M.09._SCTHUMBZZZ_.jpg"  alt="月刊 星ナビ 2015年 02月号 [雑誌]"  /></a> </p>
-<p class="description">B1950.0 分点から J2000.0 分点への過渡期に書かれた本なので情報が古いものもあるが，基本的な内容は位置天文学の教科書として充分通用する。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-01-11">2015/01/11</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4805202254/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51mQCyP04rL._SL160_.jpg" width="108" height="160" alt="天体の位置計算"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4805202254/baldandersinf-22">天体の位置計算</a></dt>
+    <dd>長沢 工</dd>
+    <dd>地人書館</dd>
+	<dd>評価&nbsp;<abbr class="rating fa-sm" title="4">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+    </abbr></dd>
+  </dl>
+  <p class="description">B1950.0 分点から J2000.0 分点への過渡期に書かれた本なので情報が古いものもあるが，基本的な内容は位置天文学の教科書として充分通用する。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B01JFLCW5K/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51EnYDL31WL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B01JFLCW5K/baldandersinf-22/">猫暦 ねこよみ コミック 1-3巻セット (ねこぱんちコミックス)</a></dt><dd>ねこしみず 美濃 </dd><dd>少年画報社 2016-07-11</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
-<p class="description">「寛政の改暦」のころの伊能勘解由（忠敬）とその妻とされる「おえい」の物語。感想は<a href="http://text.baldanders.info/remark/2016/05/nekoyomi/">こちら</a>。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-11-29">2016-11-29</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B07BNZQSZZ/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/61fCTlgexuL._SL160_.jpg" width="160" height="149" alt="猫暦"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B07BNZQSZZ/baldandersinf-22">猫暦</a></dt>
+    <dd>ねこしみず美濃</dd>
+    <dd></dd>
+    <dd>評価&nbsp;<abbr class="rating fa-sm" title="3">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </abbr></dd>
+  </dl>
+  <p class="description">「寛政の改暦」のころの伊能勘解由（忠敬）とその妻とされる「おえい」の物語。感想は<a href="https://text.baldanders.info/remark/2016/05/nekoyomi/">こちら</a>。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2019.1.7</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>

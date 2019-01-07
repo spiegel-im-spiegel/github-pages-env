@@ -18,7 +18,7 @@ title = "週末スペシャル： Barack Obama 米国大統領の来広"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 今参加してるプロジェクトが「徒労感」半端ない。
@@ -67,7 +67,7 @@ title = "週末スペシャル： Barack Obama 米国大統領の来広"
 - [グーグルがJava API訴訟でオラクルに勝利--開発者にとって朗報か - ZDNet Japan](http://japan.zdnet.com/article/35083475/)
 - [Google’s fair use victory is good for open source | Ars Technica](http://arstechnica.com/tech-policy/2016/06/googles-fair-use-victory-is-good-for-open-source/)
 
-以前「[Google vs Oracle の訴訟の行方](http://www.baldanders.info/spiegel/log2/000861.shtml)」でも書いたが， Java API の著作権を巡る争いは「著作権の有無」から著作権を認めた上で Java API の（使用ではなく）利用が fair use にあたるかどうかに争点が移った。
+以前「[Google vs Oracle の訴訟の行方](https://baldanders.info/spiegel/log2/000861.shtml)」でも書いたが， Java API の著作権を巡る争いは「著作権の有無」から著作権を認めた上で Java API の（使用ではなく）利用が fair use にあたるかどうかに争点が移った。
 
 米国で fair use が成立するためには以下の観点において「公正」であることが認められなければならない。
 

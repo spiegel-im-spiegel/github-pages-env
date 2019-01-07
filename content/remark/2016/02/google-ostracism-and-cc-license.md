@@ -17,7 +17,7 @@ title = "Google 八分とファッションとしての CC License"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 結城浩さんが懐かしい記事を tweet しておられる。
@@ -99,7 +99,7 @@ Legal Code でも
 </div>
 
 <div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00DI8TMPU/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51zmlOAOaFL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00DI8TMPU/baldandersinf-22/">オープン化する創造の時代　著作権を拡張するクリエイティブ・コモンズの方法論 (カドカワ・ミニッツブック)</a></dt><dd>ドミニク・チェン </dd><dd>ブックウォーカー 2013-06-27</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00JMAIKJM/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00JMAIKJM.09._SCTHUMBZZZ_.jpg"  alt="クリエーティブ・テクノロジスト (カドカワ・ミニッツブック)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00EHAUQEE/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00EHAUQEE.09._SCTHUMBZZZ_.jpg"  alt="インターネットを生命化する プロクロニズムの思想と実践"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00CJ5NNGM/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00CJ5NNGM.09._SCTHUMBZZZ_.jpg"  alt="子どもたちは電子羊の夢を見るか？(１）　０歳からはじまるデジタル教育: 1 (カドカワ・ミニッツブック)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00KAOQXTS/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00KAOQXTS.09._SCTHUMBZZZ_.jpg"  alt="アメリカの電子書籍“ブーム”は今 (カドカワ・ミニッツブック)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00DB1AZ1E/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00DB1AZ1E.09._SCTHUMBZZZ_.jpg"  alt="進化するアカデミア　「ユーザー参加型研究」が連れてくる未来"  /></a> </p>
-<p class="description" ><a href='http://www.baldanders.info/spiegel/log2/000643.shtml'>手軽に読める</a>。お薦め。</p>
+<p class="description" ><a href='https://baldanders.info/spiegel/log2/000643.shtml'>手軽に読める</a>。お薦め。</p>
 <p class="gtools" >reviewed by <a href="#maker" class="reviewer">Spiegel</a> on <abbr class="dtreviewed" title="2014-09-13">2014/09/13</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html">G-Tools</a>)</p>
 </div>
 

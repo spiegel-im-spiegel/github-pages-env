@@ -16,7 +16,7 @@ title = "2015年も「よかった探しリース」に参加します"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 今年も結城浩さん主催の「[よかった探しリース](http://www.hyuki.com/ring/)」に参加します。
@@ -28,7 +28,7 @@ title = "2015年も「よかった探しリース」に参加します"
 私は今回で13回目の参加。
 今年も色々ありましたねぇ。
 
-- [よかった探しリース 2015 — Baldanders.info](http://www.baldanders.info/spiegel/profile/wreath2015.shtml)
+- [よかった探しリース 2015 — Baldanders.info](https://baldanders.info/spiegel/profile/wreath2015.shtml)
 
 昨年はこのイベントが「はやぶさ2」の打ち上げ時期と前後していて「よかったこと」にしていいかやきもきしてたけど，今年は今年で「はやぶさ2」の地球スウィングバイと「あかつき」の金星周回軌道への投入イベントがある。
 これらも是非「よかったこと」に含まれますように。

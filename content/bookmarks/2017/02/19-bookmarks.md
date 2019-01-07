@@ -16,7 +16,7 @@ date = "2017-02-19T13:46:40+09:00"
   avatar = "/images/avatar.jpg"
   instagram = "spiegel_2007"
   tumblr = ""
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 ## Age of Trump

@@ -8,7 +8,7 @@ tags = [ "web", "code", "privacy", "engineering", "firefox" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -31,7 +31,7 @@ tags = [ "web", "code", "privacy", "engineering", "firefox" ]
 Firefox を使いだしたのっていつだっけ？ と昔の日記を掘り返してみたら，どうやら2003年頃らしい。
 たった15年前か。
 
-- [火の鳥導入 しっぽのさきっちょ 2003年04月 -- Spiegel's Trunk](http://www.baldanders.info/spiegel/log/200304.html#d29)
+- [火の鳥導入 しっぽのさきっちょ 2003年04月 -- Spiegel's Trunk](https://baldanders.info/spiegel/log/200304.html#d29)
 
 （ちなみに当時は Phoenix とか Firebird とかなかなか名前が定着しなかった）
 

@@ -18,7 +18,7 @@ title = "週末スペシャル： ゆのっち，木星の衛星になる"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 1. [ゆのっち，木星の衛星になる]({{< relref "#juno" >}})
@@ -105,9 +105,9 @@ Juno はこれから1年間木星やその衛星を観測し，最終的には�
 
 “Electronic Persons” というのは，以前紹介した “non-human person” の一種と考えればいいのだろうか。
 
-- [non-human person の「人権」 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000788.shtml)
+- [non-human person の「人権」 — Baldanders.info](https://baldanders.info/spiegel/log2/000788.shtml)
 
-{{< fig-quote title="non-human person の「人権」" link="http://www.baldanders.info/spiegel/log2/000788.shtml" >}}
+{{< fig-quote title="non-human person の「人権」" link="https://baldanders.info/spiegel/log2/000788.shtml" >}}
 <q>オランウータンのサンドラもロボットの AI も，ヒトの外部に存在する「異質の知性」とどう向き合うかという問題に帰着するのではないだろうか。 私たちは私たちが長い時間をかけて構築した社会システムとその中にある「人権」という概念に慣れすぎていて，それはもうほとんど刷り込みのようになっている。 しかし，ヒトの外部にも「知性」が存在する（存在し得る）ということを私たちはようやく認知した。 これは新しい事態である。
 <br>もしかしたら動物愛護活動家たちは，自分たちの主義・主張を正当化するために non-human person という言葉を使っているだけなのかもしれないが，これはおそらくそんなレベルの話ではない。 なぜなら「人権」の拡張は「人権」が根ざしている（と私たちが思い込んでいる）ものを根底から覆す可能性があるからだ。 これは例えば「自由」という概念も変わる可能性があることを示唆する。</q>
 {{< /fig-quote >}}

@@ -18,7 +18,7 @@ title = "『シン・ゴジラ』を観た"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 なんだか妙に大絶賛のこの作品。
@@ -52,7 +52,7 @@ title = "『シン・ゴジラ』を観た"
 
 [^b]: ハリウッドでさえ既存の地球生物をベースにした想像力でしか「怪獣」を描けなかったのだ。
 
-2013年に[『パシフィック・リム』を観た](http://www.baldanders.info/spiegel/log2/000653.shtml "『パシフィック・リム』を観た！ — Baldanders.info")とき
+2013年に[『パシフィック・リム』を観た](https://baldanders.info/spiegel/log2/000653.shtml "『パシフィック・リム』を観た！ — Baldanders.info")とき
 
 > ハリウッドの有り余るリソースでこんなもん作られた日にゃあ日本の映画はもう太刀打ち出来ないよね。
 

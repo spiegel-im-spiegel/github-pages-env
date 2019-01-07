@@ -7,7 +7,7 @@ tags        = [ "living" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -62,5 +62,5 @@ tags        = [ "living" ]
 
 ## ブックマーク
 
-- [近しい人の死を縁にして — Baldanders.info](http://www.baldanders.info/spiegel/log2/000543.shtml)
-- [じゃあね。 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000867.shtml)
+- [近しい人の死を縁にして — Baldanders.info](https://baldanders.info/spiegel/log2/000543.shtml)
+- [じゃあね。 — Baldanders.info](https://baldanders.info/spiegel/log2/000867.shtml)

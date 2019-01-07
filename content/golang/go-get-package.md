@@ -17,7 +17,7 @@ title = "go get コマンドでパッケージを管理する"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 
 +++
 
@@ -82,7 +82,7 @@ See also: go fix, go vet.
 ```
 
 [Go 言語]は比較的冗長な表現を許容している。
-こういうタイプの言語にはとっつきやすい利点はあるが，記述形式を巡って宗教論争が起きることも多い（あるいは[品質を落とすコーディングというのも存在する](http://www.baldanders.info/spiegel/remark/archives/000195.shtml)）。
+こういうタイプの言語にはとっつきやすい利点はあるが，記述形式を巡って宗教論争が起きることも多い（あるいは[品質を落とすコーディングというのも存在する](https://baldanders.info/spiegel/remark/archives/000195.shtml)）。
 そこで `gofmt` コマンドを使ってある程度記述形式を統一することで，この手の混乱を避ける狙いがある。
 
 ## 外部パッケージ{#external}

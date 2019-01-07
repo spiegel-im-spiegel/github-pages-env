@@ -17,7 +17,7 @@ title = "週末スペシャル： 公開鍵暗号の研究者がチューリン�
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 2月は逃げました。

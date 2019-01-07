@@ -15,7 +15,7 @@ description = "現在メンテナンスが止まっている TrueCrypt の代替
   tumblr = ""
   flickr = "spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   name = "Spiegel"
   linkedin = "spiegelimspiegel"
   avatar = "/images/avatar.jpg"
@@ -25,7 +25,7 @@ description = "現在メンテナンスが止まっている TrueCrypt の代替
 
 - [TrueCrypt is discontinued, try these free alternative disk encryption tools](https://www.comparitech.com/blog/information-security/truecrypt-is-discoutinued-try-these-free-alternatives/)
 
-メールをくれた方は，どうやら私の[古い日記の記述](http://www.baldanders.info/spiegel/log/200506.html#d07_t2)を見てアドバイスを下さったようだ。
+メールをくれた方は，どうやら私の[古い日記の記述](https://baldanders.info/spiegel/log/200506.html#d07_t2)を見てアドバイスを下さったようだ。
 感謝。
 
 TrueCrypt はフリーのストレージ暗号化ツールである。
@@ -69,7 +69,7 @@ TrueCrypt はフリーのストレージ暗号化ツールである。
 - [TrueCrypt 終了宣言？｜Der Spiegel im Spiegel｜note](https://note.mu/spiegel/n/na028940a6872)
 - [TrueCrypt must not die｜Der Spiegel im Spiegel｜note](https://note.mu/spiegel/n/n655406068534)
 - [CIA（および NSA）による iOS および Windows BitLocker への攻撃 – Medium](https://medium.com/@spiegel/-a58a0cae2464)
-- [【レビュー】秘密のファイルを隠しておくための暗号化仮想ドライブを作成できる「VeraCrypt」 - 窓の杜](http://text.baldanders.info/remark/2017/01/truecrypt-is-discontinued/)
+- [【レビュー】秘密のファイルを隠しておくための暗号化仮想ドライブを作成できる「VeraCrypt」 - 窓の杜](https://forest.watch.impress.co.jp/docs/review/1084645.html)
 
 [TrueCrypt is discontinued]: https://www.comparitech.com/blog/information-security/truecrypt-is-discoutinued-try-these-free-alternatives/ "TrueCrypt is discontinued, try these free alternative disk encryption tools"
 [VeraCrypt]: https://veracrypt.codeplex.com/

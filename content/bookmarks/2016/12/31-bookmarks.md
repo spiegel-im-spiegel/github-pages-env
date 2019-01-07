@@ -6,7 +6,7 @@ title = "2016-12-31 のブックマーク"
 draft = false
 
 [author]
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   flickr = "spiegel"
   twitter = "spiegel_2007"
   github = "spiegel-im-spiegel"

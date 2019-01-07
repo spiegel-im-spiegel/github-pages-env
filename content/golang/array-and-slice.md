@@ -8,7 +8,7 @@ title = "配列と Slice"
 
 [author]
   license = "by-sa"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   linkedin = "spiegelimspiegel"
   twitter = "spiegel_2007"
   github = "spiegel-im-spiegel"

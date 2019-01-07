@@ -17,7 +17,7 @@ title = "JVN が CVSSv3 による脆弱性評価を開始"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 ## JVN が CVSSv3 による脆弱性評価を開始
@@ -84,7 +84,7 @@ title = "JVN が CVSSv3 による脆弱性評価を開始"
 ## CVSSv3 の変更点
 
 CVSSv2 から CVSSv3 への変更点は以下の通り。
-（なおこれは，以前書いた「[CVSS に関するメモ 3](http://www.baldanders.info/spiegel/log2/000864.shtml)」の再掲載である）
+（なおこれは，以前書いた「[CVSS に関するメモ 3](https://baldanders.info/spiegel/log2/000864.shtml)」の再掲載である）
 
 バージョン2からの大きな違いは深刻度をコンポーネント単位で評価できるようになったことだろう。
 以前は攻撃対象となるシステムやホストマシンが対象だったので，更に細かい評価ができるようになったと言える。
@@ -137,4 +137,4 @@ CVSS を使ってセキュリティ対策のプロセスをきちんと回せる
 - [CVSSv3 用の node.js モジュールを作ってみた - Qiita](http://qiita.com/spiegel-im-spiegel/items/d6fe10d3df92b9d8556b) : 記事では「基本評価基準のみ実装」と書いているが，一応フルセット実装している
     - [spiegel-im-spiegel/cvss3](https://github.com/spiegel-im-spiegel/cvss3) : node.js 0.12 で動作確認。 4.x や 5.x で動作するかどうかは分からない
 - [node.js の CVSS v3 モジュールを使ってデモページを作ってみた - Qiita](http://qiita.com/spiegel-im-spiegel/items/f2db3759b957206d4521)
-    - [Demo for CVSS v3](http://www.baldanders.info/spiegel/archive/cvss/cvss3.html)
+    - [Demo for CVSS v3](https://baldanders.info/spiegel/archive/cvss/cvss3.html)

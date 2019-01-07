@@ -15,7 +15,7 @@ tags = [
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -682,7 +682,7 @@ uid           [  失効  ] Alice <alice@example.com>
 
 - [Using the GNU Privacy Guard: OpenPGP Key Management](https://www.gnupg.org/documentation/manuals/gnupg/OpenPGP-Key-Management.html)
 
-- [わかる！ OpenPGP 暗号](http://www.baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
+- [わかる！ OpenPGP 暗号](https://baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
 - [GnuPG for Windows ― インストール編]({{< ref "/remark/2016/03/using-gnupg-modern-version-1.md" >}})
 - [GnuPG for Windows ― gpg-agent について]({{< ref "/remark/2016/03/using-gnupg-modern-version-2.md" >}})
 

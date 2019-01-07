@@ -18,7 +18,7 @@ title = "gpgpdump - OpenPGP packet visualizer"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 余暇でちまちま作っていたが，とりあえず使えるようになったので。
@@ -227,7 +227,7 @@ type Item struct {
 
 ## ブックマーク
 
-- [わかる！ OpenPGP 暗号 — Baldanders.info](http://www.baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
+- [わかる！ OpenPGP 暗号 — Baldanders.info](https://baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
 - [プログラミング言語 Go — text.Baldanders.info](/golang/)
 
 [gpgpdump]: https://github.com/spiegel-im-spiegel/gpgpdump "spiegel-im-spiegel/gpgpdump: gpgpdump - OpenPGP packet visualizer"

@@ -16,7 +16,7 @@ title = "2016-05-05 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [この無名の天才がビットコイン発明者「サトシ・ナカモト」である証拠（3）｜WIRED.jp](http://wired.jp/2016/05/05/bitcoins-creator-satoshi-nakamoto-is-3/)

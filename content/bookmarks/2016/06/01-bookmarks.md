@@ -16,7 +16,7 @@ title = "2016-06-01 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [携帯電話のSMSで情報共有　ウガンダで小規模農家の営農力アップをめざす · Global Voices 日本語](https://jp.globalvoices.org/2016/06/01/40290/)

@@ -17,7 +17,7 @@ title = "Shortcodes で HTML コードを埋め込む"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 今回は [Shortcodes] の話。
@@ -210,7 +210,7 @@ See the full [analysis](https://wiki.creativecommons.org/wiki/ShareAlike_compati
 と記述すると
 
 ```html
-<a href="http://text.baldanders.info/hugo/bookmark/#official:9bacfa348e5fe42acc9342a16675997d">「ブックマーク」ページの「公式サイト」節</a>
+<a href="https://text.baldanders.info/hugo/bookmark/#official:9bacfa348e5fe42acc9342a16675997d">「ブックマーク」ページの「公式サイト」節</a>
 ```
 
 のように展開される。

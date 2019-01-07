@@ -7,7 +7,7 @@ tags = [ "astronomy", "ephemeris" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -22,7 +22,7 @@ tags = [ "astronomy", "ephemeris" ]
   mermaidjs = false
 +++
 
-この記事は[本家サイト](http://www.baldanders.info/ "Baldanders.info")で 2015-05-02 に書いた「[暦の改訂（DE405 から DE430 へ）](http://www.baldanders.info/spiegel/log2/000840.shtml)」 を再構成したものです。
+この記事は[本家サイト](https://baldanders.info/ "Baldanders.info")で 2015-05-02 に書いた「[暦の改訂（DE405 から DE430 へ）](https://baldanders.info/spiegel/log2/000840.shtml)」 を再構成したものです。
 
 ----
 

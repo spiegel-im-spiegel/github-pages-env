@@ -1,14 +1,14 @@
 +++
 title = "UNIX 時刻に関する四方山話"
 date = "2018-10-07T21:48:19+09:00"
-update = "2018-10-11T12:44:21+09:00"
+update = "2019-01-07T11:54:37+09:00"
 description = "UNIX 時刻について色々と補足を交えながら簡単に紹介してみる。"
 image = "/images/attention/kitten.jpg"
 tags = [ "engineering", "unix-time", "leap-second" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -176,17 +176,56 @@ t2 - t1 = 1 sec
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B079YJS1J1/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51CPvtuv%2BwL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B079YJS1J1/baldandersinf-22/">［試して理解］Linuxのしくみ ～実験と図解で学ぶOSとハードウェアの基礎知識</a></dt><dd>武内 覚 </dd><dd>技術評論社 2018-02-23</dd><dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B079TLW41L/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B079TLW41L.09._SCTHUMBZZZ_.jpg"  alt="エンジニアリング組織論への招待　～不確実性に向き合う思考と組織のリファクタリング"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B07C3JFK3V/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B07C3JFK3V.09._SCTHUMBZZZ_.jpg"  alt="前処理大全［データ分析のためのSQL/R/Python実践テクニック］"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B07BKVP9QY/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B07BKVP9QY.09._SCTHUMBZZZ_.jpg"  alt="独学プログラマー Python言語の基本から仕事のやり方まで"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B078J4TNT1/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B078J4TNT1.09._SCTHUMBZZZ_.jpg"  alt="低レベルプログラミング"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B07CM2YNVD/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B07CM2YNVD.09._SCTHUMBZZZ_.jpg"  alt="まんがでわかるLinux シス管系女子3"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B07B8T1F4R/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B07B8T1F4R.09._SCTHUMBZZZ_.jpg"  alt="江添亮の詳説C++17 (アスキードワンゴ)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B075ST51Y5/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B075ST51Y5.09._SCTHUMBZZZ_.jpg"  alt="ふつうのLinuxプログラミング 第2版　Linuxの仕組みから学べるgccプログラミングの王道"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B079Q6S12G/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B079Q6S12G.09._SCTHUMBZZZ_.jpg"  alt="コンテナ・ベース・オーケストレーション Docker/Kubernetesで作るクラウド時代のシステム基盤"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B07BBTSX65/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B07BBTSX65.09._SCTHUMBZZZ_.jpg"  alt="クラウドエンジニア養成読本［クラウドを武器にするための知識＆実例満載！］ Software Design plus"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B07B8GH29F/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B07B8GH29F.09._SCTHUMBZZZ_.jpg"  alt="C言語本格入門 ～基礎知識からコンピュータの本質まで"  /></a> </p>
-<p class="description">コンテナ全盛のこの時代にかなり硬派な内容の Linux 解説書。コンピュータの教科書としても使えそう。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-04-30">2018-04-30</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B079YJS1J1/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51CPvtuv%2BwL._SL160_.jpg" width="123" height="160" alt="［試して理解］Linuxのしくみ ～実験と図解で学ぶOSとハードウェアの基礎知識"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B079YJS1J1/baldandersinf-22">［試して理解］Linuxのしくみ ～実験と図解で学ぶOSとハードウェアの基礎知識</a></dt>
+    <dd>武内 覚</dd>
+    <dd>技術評論社</dd>
+    <dd>評価&nbsp;<abbr class="rating fa-sm" title="4">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+    </abbr></dd>
+  </dl>
+  <p class="description">コンテナ全盛のこの時代にかなり硬派な内容の Linux 解説書。コンピュータの教科書としても使えそう。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2019.1.7</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4805202254/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51mQCyP04rL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4805202254/baldandersinf-22/">天体の位置計算</a></dt><dd>長沢 工 </dd><dd>地人書館 1985-09</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4805206349/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4805206349.09._SCTHUMBZZZ_.jpg"  alt="日の出・日の入りの計算―天体の出没時刻の求め方"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4769908180/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4769908180.09._SCTHUMBZZZ_.jpg"  alt="天文計算入門―一球面三角から軌道計算まで"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4805204141/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4805204141.09._SCTHUMBZZZ_.jpg"  alt="パソコンで見る天体の動き"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4416114710/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4416114710.09._SCTHUMBZZZ_.jpg"  alt="天文年鑑2015年版"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00R4X7R0M/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00R4X7R0M.09._SCTHUMBZZZ_.jpg"  alt="月刊 星ナビ 2015年 02月号 [雑誌]"  /></a> </p>
-<p class="description">B1950.0 分点から J2000.0 分点への過渡期に書かれた本なので情報が古いものもあるが，基本的な内容は位置天文学の教科書として充分通用する。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-01-11">2015/01/11</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4805202254/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51mQCyP04rL._SL160_.jpg" width="108" height="160" alt="天体の位置計算"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4805202254/baldandersinf-22">天体の位置計算</a></dt>
+    <dd>長沢 工</dd>
+    <dd>地人書館</dd>
+	<dd>評価&nbsp;<abbr class="rating fa-sm" title="4">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+    </abbr></dd>
+  </dl>
+  <p class="description">B1950.0 分点から J2000.0 分点への過渡期に書かれた本なので情報が古いものもあるが，基本的な内容は位置天文学の教科書として充分通用する。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B01JFLCW5K/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51EnYDL31WL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B01JFLCW5K/baldandersinf-22/">猫暦 ねこよみ コミック 1-3巻セット (ねこぱんちコミックス)</a></dt><dd>ねこしみず 美濃 </dd><dd>少年画報社 2016-07-11</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
-<p class="description">「寛政の改暦」のころの伊能勘解由（忠敬）とその妻とされる「おえい」の物語。感想は<a href="http://text.baldanders.info/remark/2016/05/nekoyomi/">こちら</a>。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-11-29">2016-11-29</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B07BNZQSZZ/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/61fCTlgexuL._SL160_.jpg" width="160" height="149" alt="猫暦"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B07BNZQSZZ/baldandersinf-22">猫暦</a></dt>
+    <dd>ねこしみず美濃</dd>
+    <dd></dd>
+    <dd>評価&nbsp;<abbr class="rating fa-sm" title="3">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </abbr></dd>
+  </dl>
+  <p class="description">「寛政の改暦」のころの伊能勘解由（忠敬）とその妻とされる「おえい」の物語。感想は<a href="https://text.baldanders.info/remark/2016/05/nekoyomi/">こちら</a>。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2019.1.7</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>

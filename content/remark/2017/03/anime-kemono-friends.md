@@ -18,7 +18,7 @@ draft = false
   twitter = "spiegel_2007"
   instagram = "spiegel_2007"
   license = "by-sa"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 いやぁ衝撃の11話を観た後，ドキドキの1週間でしたよ。

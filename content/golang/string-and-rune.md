@@ -17,7 +17,7 @@ title = "String と Rune"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 （初出： [はじめての Go 言語 (on Windows) その4 - Qiita](http://qiita.com/spiegel-im-spiegel/items/556166b6631c0369754f)）

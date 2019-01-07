@@ -18,13 +18,13 @@ title = "「自分で面倒見られる子」だけが CMS を導入しなさい
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 私の場合，それまで使っていた[オープンソース版 Movable Type (MTOS)](https://www.movabletype.jp/opensource/ "Movable Type Open Source | MovableType.jp - CMSプラットフォーム Movable Type -") を捨ててローカルでサイト管理するようにした[^0]。
 直接のきっかけは開発元が [MTOS](https://www.movabletype.jp/opensource/ "Movable Type Open Source | MovableType.jp - CMSプラットフォーム Movable Type -") のサポートを打ち切ったことだが，自前でサーバ・サイドの CMS (Content Management System) を導入・運用することが高コストになり，それを個人レベルで運用することに意義を見いだせなくなってきたというのが大きい。
 
-[^0]: 経緯については本家サイトの「[ブログ移転準備中または Take the Hugo!](http://www.baldanders.info/spiegel/log2/000870.shtml)」を参照のこと。
+[^0]: 経緯については本家サイトの「[ブログ移転準備中または Take the Hugo!](https://baldanders.info/spiegel/log2/000870.shtml)」を参照のこと。
 
 というわけで以下の話題。
 いつもは「セキュリティクラスタ」の話題はまるっと無視しているのだが，今回は気になる点があったので。
@@ -57,7 +57,7 @@ title = "「自分で面倒見られる子」だけが CMS を導入しなさい
 
 今でこそ「セキュリティは投資」とみなされ PDCA サイクルで回されるようになってきたが[^s]，ちょっと前まではセキュリティ管理は典型的なコストセンターだったのだ。
 JTB の情報漏えい騒ぎに関する今回の事後の振る舞いには批判が多いが，結局のところ「セキュリティ」を経営レベルでどう捉えるかということに尽きる。
-セキュリティ管理をコストとみなすうちは[昨年の日本年機構](http://www.baldanders.info/spiegel/log2/000850.shtml)や今回の JTB のような失敗は必ずまた繰り返される。
+セキュリティ管理をコストとみなすうちは[昨年の日本年機構](https://baldanders.info/spiegel/log2/000850.shtml)や今回の JTB のような失敗は必ずまた繰り返される。
 
 [^s]: そしてセキュリティへの投資につけ入る「輩」も増えてきた。
 

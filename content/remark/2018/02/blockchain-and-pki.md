@@ -7,7 +7,7 @@ tags = ["blockchain", "fintech", "pki", "openpgp", "x509", "trust", "management"
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -214,7 +214,7 @@ graph LR
 
 ### X.509 と [OpenPGP]
 
-山根信二さん等の「{{< pdf-file title="OpenPGPとPKI" link="http://www.baldanders.info/spiegel/archive/pgpdump/PGP-001.pdf" >}}」では X.509 と OpenPGP の PKI の比較を行っている[^pki1]。
+山根信二さん等の「{{< pdf-file title="OpenPGPとPKI" link="https://baldanders.info/spiegel/archive/pgpdump/PGP-001.pdf" >}}」では X.509 と OpenPGP の PKI の比較を行っている[^pki1]。
 以下に比較表を示す。
 
 [^pki1]: この論文は2002年に旧 OpenPKSD.org で公開されたが，サイトそのものが消失したため [Internet Archive](https://web.archive.org/web/20110907063003/http://www.openpksd.org/) からサルベージした。

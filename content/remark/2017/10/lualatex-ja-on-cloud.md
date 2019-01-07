@@ -7,7 +7,7 @@ tags        = [ "tex", "luatex", "cloud", "pdf", "japanese" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -116,12 +116,12 @@ PDF/A に対応するには `hyperref` パッケージを使う。
     pdfkeywords={LuaTeX-ja, PDF/A},
     pdfcopyright={Written by Spiegel on 2017, and licensed under CC-BY.},
     pdflicenseurl={http://creativecommons.org/licenses/by/4.0/},
-    pdfcontacturl={http://www.baldanders.info/},
+    pdfcontacturl={https://baldanders.info/},
     pdfcontactcity={Hiroshima},
     pdfcontactcountry={Japan},
     pdfcontactregion={JA},
     pdfcaptionwriter={Spiegel},
-    baseurl={http://text.baldanders.info/remark/2015/luatex-ja/},
+    baseurl={https://text.baldanders.info/remark/2015/luatex-ja/},
     draft=false,
     bookmarks=true,
     bookmarksnumbered=true,

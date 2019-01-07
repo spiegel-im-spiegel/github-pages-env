@@ -18,7 +18,7 @@ title = "週末スペシャル： GnuPG 2.1.13 および Libgcrypt 1.7.1 がリ�
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 1. [GnuPG 2.1.13 および Libgcrypt 1.7.1 がリリース]({{< relref "#gpg" >}})
@@ -112,7 +112,7 @@ Home: ********
 コンピュータオタクには偏執者が多く，彼等は手段や道具そのものに異常な執着を見せるが，一般の人達には関係のないことだし，そんな執着心を真似すべきではない。
 
 コンピュータ科学や社会学・経済学（の基礎となるもの）について小さい頃から学ばせる事自体は賛成だ。
-しかし，何度でも言うが「[掛け算は順序が大事](http://www.baldanders.info/spiegel/log2/000744.shtml "日本の「算数」は壊れてる？ — Baldanders.info")」などと言ってはばからない未開人の国がどうやってそれらを教えるというのだ。
+しかし，何度でも言うが「[掛け算は順序が大事](https://baldanders.info/spiegel/log2/000744.shtml "日本の「算数」は壊れてる？ — Baldanders.info")」などと言ってはばからない未開人の国がどうやってそれらを教えるというのだ。
 
 ちなみに「人工知能」の台頭を意識しているのなら，なおさら「プログラミング教育」は不要である。
 なぜなら「問題を解決する仕事」はこれからどんどん機械が奪っていくから。
@@ -203,7 +203,7 @@ Home: ********
 
 12文字を目安に数字と英字（大文字小文字）を絡めたランダムな文字列にする。
 人間の脳は無意識に規則性を求めてしまうものなので，横着せずパスワード生成ツールを使ったほうがよい。
-もっと言うなら「[パスワードを覚えるなんて脳みその無駄遣い](http://www.baldanders.info/spiegel/log2/000739.shtml "「パスワードを覚える」なんて脳みその無駄遣い — Baldanders.info")」である。
+もっと言うなら「[パスワードを覚えるなんて脳みその無駄遣い](https://baldanders.info/spiegel/log2/000739.shtml "「パスワードを覚える」なんて脳みその無駄遣い — Baldanders.info")」である。
 [KeePass](http://keepass.info/ "KeePass Password Safe") のようなパスワード管理ツールを使うこと。
 
 ちなみに [GitHub](https://github.com/) は2要素認証が使えるが，2要素認証を使うと https で git push する際にパスワードが有効でなくなる。

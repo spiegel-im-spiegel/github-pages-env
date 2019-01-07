@@ -17,7 +17,7 @@ title = "今日の戯れ言：TPP 大筋合意"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 1. [TPP 大筋合意]({{< relref "#tpp" >}})
@@ -41,7 +41,7 @@ title = "今日の戯れ言：TPP 大筋合意"
 
 ## 「クリエイティブ・コモンズ・ライセンスについて」改訂版{#cc}
 
-そういうわけでもないのだが，[本家サイト](http://www.baldanders.info/)の「[クリエイティブ・コモンズ・ライセンスについて](http://www.baldanders.info/spiegel/archive/cc-license/)」の改訂版を作成中[^a]。
+そういうわけでもないのだが，[本家サイト](https://baldanders.info/)の「[クリエイティブ・コモンズ・ライセンスについて](https://baldanders.info/spiegel/archive/cc-license/)」の改訂版を作成中[^a]。
 
 [^a]: [Hugo] の Section 機能を使うとこういった特集記事を組みやすい。いやぁ，ホンマに [Hugo] にしてよかったよ。
 

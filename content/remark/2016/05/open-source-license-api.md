@@ -17,7 +17,7 @@ title = "Open Source License API ?"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 [yomoyomo さんの記事](http://d.hatena.ne.jp/yomoyomo/20160529/ossapi)から。
@@ -174,7 +174,7 @@ Mozilla Public License, Version 2.0
 {{< /fig-quote >}}
 
 OSI がやることに意味があるということだろうか。
-あるいは [API に著作権があるとされた昨年の判決](http://www.baldanders.info/spiegel/log2/000861.shtml "Google vs Oracle の訴訟の行方 — Baldanders.info")を受けての防衛措置だったりして。
+あるいは [API に著作権があるとされた昨年の判決](https://baldanders.info/spiegel/log2/000861.shtml "Google vs Oracle の訴訟の行方 — Baldanders.info")を受けての防衛措置だったりして。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [SPDX]: https://spdx.org/ "SPDX | Software Package Data Exchange"

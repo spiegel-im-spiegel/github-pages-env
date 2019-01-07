@@ -17,7 +17,7 @@ description = "読みたいんだけど（ゆっくり読む暇がなくて）�
   license = "by-sa"
   name = "Spiegel"
   flattr = ""
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 
 [scripts]
   mathjax = false

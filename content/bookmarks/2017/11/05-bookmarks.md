@@ -5,7 +5,7 @@ description = "「Twitter’s Ban on Russia Today Ads is Dangerous to Free Expre
 
 [author]
 name      = "Spiegel"
-url       = "http://www.baldanders.info/spiegel/profile/"
+url       = "https://baldanders.info/spiegel/profile/"
 avatar    = "/images/avatar.jpg"
 license   = "by-sa"
 github    = "spiegel-im-spiegel"

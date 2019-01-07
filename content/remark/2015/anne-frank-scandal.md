@@ -17,7 +17,7 @@ title = "Anne Frank Scandal"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 日本でもボチボチ話題になってるようだけど，いろいろ考えるものだねぇ。

@@ -14,7 +14,7 @@ title = "「キュレーション」じゃなく，はっきり「注目の搾�
 
 [author]
   flickr = "spiegel"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   avatar = "/images/avatar.jpg"
   license = "by-sa"
   tumblr = ""

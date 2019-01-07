@@ -18,7 +18,7 @@ title = "Punycode によるホモグラフ攻撃例とその回避"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [Phishing with Unicode Domains - Xudong Zheng](https://www.xudongz.com/blog/2017/idn-phishing/)

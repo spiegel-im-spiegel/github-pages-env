@@ -9,7 +9,7 @@ tags = ["golang", "programming", "language"]
 [author]
   license = "by-sa"
   tumblr = ""
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   avatar = "/images/avatar.jpg"
   instagram = "spiegel_2007"
   name = "Spiegel"

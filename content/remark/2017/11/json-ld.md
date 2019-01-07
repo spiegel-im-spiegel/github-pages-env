@@ -8,7 +8,7 @@ tags        = [ "site", "semantic ", "web", "metadata", "json" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -111,21 +111,21 @@ Microdata は未完成のまま開発が終了しており，もはや推奨さ�
 {
   "@context": "http://schema.org",
   "@type": "WebSite",
-  "@id": "http://text.baldanders.info/",
+  "@id": "https://text.baldanders.info/",
   "inLanguage": "ja",
   "name": "text.Baldanders.info",
-  "url": "http://text.baldanders.info/",
+  "url": "https://text.baldanders.info/",
   "publisher": {
-    "@id": "http://text.baldanders.info/#org"
+    "@id": "https://text.baldanders.info/#org"
   },
   "author": {
     "@type": "Person",
-    "@id": "http://text.baldanders.info/#maker",
+    "@id": "https://text.baldanders.info/#maker",
     "name": "Spiegel",
-    "url": "http://www.baldanders.info/spiegel/profile/",
-    "image": "http://text.baldanders.info/images/avatar.jpg"
+    "url": "https://baldanders.info/spiegel/profile/",
+    "image": "https://text.baldanders.info/images/avatar.jpg"
   },
-  "image": "http://text.baldanders.info/images/avatar.jpg",
+  "image": "https://text.baldanders.info/images/avatar.jpg",
   "description": "帰ってきた「しっぽのさきっちょ」"
 }
 </script>
@@ -133,12 +133,12 @@ Microdata は未完成のまま開発が終了しており，もはや推奨さ�
 {
   "@context": "http://schema.org",
   "@type": "Organization",
-  "@id": "http://text.baldanders.info/#org",
+  "@id": "https://text.baldanders.info/#org",
   "name": "text.Baldanders.info",
   "logo": {
     "@type": "ImageObject",
-    "@id": "http://text.baldanders.info/#logo",
-    "url": "http://text.baldanders.info/images/avatar.jpg"
+    "@id": "https://text.baldanders.info/#logo",
+    "url": "https://text.baldanders.info/images/avatar.jpg"
   }
 }
 </script>
@@ -163,21 +163,21 @@ Microdata は未完成のまま開発が終了しており，もはや推奨さ�
 {
   "@context": "http://schema.org",
   "@type": "Blog",
-  "@id": "http://text.baldanders.info/remark/",
-  "url": "http://text.baldanders.info/remark/",
+  "@id": "https://text.baldanders.info/remark/",
+  "url": "https://text.baldanders.info/remark/",
   "inLanguage": "ja",
   "name": "しっぽのさきっちょ",
   "description": "とりとめのない四方山話。",
-  "image": "http://text.baldanders.info/images/attention/remark.jpg",
+  "image": "https://text.baldanders.info/images/attention/remark.jpg",
   "publisher": {
-    "@id": "http://text.baldanders.info/#org"
+    "@id": "https://text.baldanders.info/#org"
   },
   "author": {
     "@type": "Person",
-    "@id": "http://text.baldanders.info/remark/#maker",
+    "@id": "https://text.baldanders.info/remark/#maker",
     "name": "Spiegel",
-    "url": "http://www.baldanders.info/spiegel/profile/",
-    "image": "http://text.baldanders.info/images/avatar.jpg"
+    "url": "https://baldanders.info/spiegel/profile/",
+    "image": "https://text.baldanders.info/images/avatar.jpg"
   }
 }
 </script>
@@ -196,26 +196,26 @@ Microdata は未完成のまま開発が終了しており，もはや推奨さ�
 {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
-  "@id": "http://text.baldanders.info/remark/2017/11/qiitadon/",
-  "url": "http://text.baldanders.info/remark/2017/11/qiitadon/",
-  "mainEntityOfPage": "http://text.baldanders.info/remark/2017/11/qiitadon/",
+  "@id": "https://text.baldanders.info/remark/2017/11/qiitadon/",
+  "url": "https://text.baldanders.info/remark/2017/11/qiitadon/",
+  "mainEntityOfPage": "https://text.baldanders.info/remark/2017/11/qiitadon/",
   "inLanguage": "ja",
   "name": "Qiita って Mastodon やってたのか",
   "description": "私にとって今年最初の大外しは「GW 過ぎたら Mastodon のことなんかみんな忘れてる」だったが，本当に忘れていたのは私だけだったようだ。",
   "headline": "私にとって今年最初の大外しは「GW 過ぎたら Mastodon のことなんかみんな忘れてる」だったが，本当に忘れていたのは私だけだったようだ。",
   "keywords": "mastodon, communication",
-  "image": "http://text.baldanders.info/images/attention/remark.jpg",
+  "image": "https://text.baldanders.info/images/attention/remark.jpg",
   "datePublished": "2017-11-10T13:49:58+09:00",
   "dateModified": "2017-11-16T10:09:40+09:00",
   "publisher": {
-    "@id": "http://text.baldanders.info/#org"
+    "@id": "https://text.baldanders.info/#org"
   },
   "author": {
     "@type": "Person",
-    "@id": "http://text.baldanders.info/remark/2017/11/qiitadon/#maker",
+    "@id": "https://text.baldanders.info/remark/2017/11/qiitadon/#maker",
     "name": "Spiegel",
-    "url": "http://www.baldanders.info/spiegel/profile/",
-    "image": "http://text.baldanders.info/images/avatar.jpg"
+    "url": "https://baldanders.info/spiegel/profile/",
+    "image": "https://text.baldanders.info/images/avatar.jpg"
   },
   "license": "http://creativecommons.org/licenses/by-sa/4.0/"
 }
@@ -260,20 +260,20 @@ AMP (Accelerated Mobile Pages) と non-AMP で要求が異なるが，[テスト
 {
   "@context": "http://schema.org",
   "@type": "BreadcrumbList",
-  "@id": "http://text.baldanders.info/remark/2017/11/qiitadon/#breadcrumb-list",
+  "@id": "https://text.baldanders.info/remark/2017/11/qiitadon/#breadcrumb-list",
   "itemListElement": [
     {
       "@type": "ListItem",
       "position": 1,
       "item": {
-        "@id": "http://text.baldanders.info/"
+        "@id": "https://text.baldanders.info/"
       }
     },
     {
       "@type": "ListItem",
       "position": 2,
       "item": {
-        "@id": "http://text.baldanders.info/remark/"
+        "@id": "https://text.baldanders.info/remark/"
       }
     }
   ]

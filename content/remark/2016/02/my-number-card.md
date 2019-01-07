@@ -17,7 +17,7 @@ title = "個人番号カードを発行してもらいました"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 実は昨年末に申請したのにさっぱり音沙汰なしで私も忘れてたんだけど，先日交付の案内が来たので区役所に行ってきた。
@@ -104,7 +104,7 @@ IPA の「[情報漏えいを防ぐためのモバイルデバイス等設定マ
 
 ### パスワードを覚えるなんて脳味噌の無駄遣い
 
-これはいつも言っていることだが「[パスワードを覚えるなんて脳味噌の無駄遣い](http://www.baldanders.info/spiegel/log2/000739.shtml)」である。
+これはいつも言っていることだが「[パスワードを覚えるなんて脳味噌の無駄遣い](https://baldanders.info/spiegel/log2/000739.shtml)」である。
 人間の頭で考えるパスワードなんてたかが知れている。
 brute-force を使うまでもなくもっと簡単に解読できる。
 

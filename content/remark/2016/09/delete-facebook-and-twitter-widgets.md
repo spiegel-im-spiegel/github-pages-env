@@ -18,7 +18,7 @@ title = "Facebook と Twitter の Widget を削除した"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 いいわけだけど，あんまり自分のサイトとかちゃんと見ないじゃないですか。
@@ -43,7 +43,7 @@ Facebook の share ボタンはこんな感じ。
 
 まぁ，こんな感じでいいだろう。
 
-[本家サイト](http://www.baldanders.info/ "Baldanders.info")は申し訳ないが放置。
+[本家サイト](https://baldanders.info/ "Baldanders.info")は申し訳ないが放置。
 全ページ手動で直さないといけないので今は無理。
 
 [Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"

@@ -18,7 +18,7 @@ title = "ゆく年くる年"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 ## 2016年の主な暦象
@@ -88,7 +88,7 @@ title = "ゆく年くる年"
 
 （以降 MFF と略称する）
 
-いやぁ，[「風来のシレン」で怒りまくってた](http://www.baldanders.info/spiegel/log2/000561.shtml)頃に比べると隔世の感があるね。
+いやぁ，[「風来のシレン」で怒りまくってた](https://baldanders.info/spiegel/log2/000561.shtml)頃に比べると隔世の感があるね。
 丹下桜さん，いいわぁ。
 
 基本的にガチャ[^s] の出目で難易度が激変するゲームは嫌いなのだが（これが射幸心を煽る元だし）， MFF はその辺のバランスがよく，いい感じに RPG のシナリオに没頭できるようになっている。

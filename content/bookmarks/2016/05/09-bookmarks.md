@@ -16,7 +16,7 @@ title = "2016-05-09 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [NIST Starts Planning for Post-Quantum Cryptography - Schneier on Security](https://www.schneier.com/blog/archives/2016/05/nist_starts_pla.html)

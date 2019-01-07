@@ -14,7 +14,7 @@ title = "2017-03-20 のブックマーク"
   linkedin = "spiegelimspiegel"
   instagram = "spiegel_2007"
   avatar = "/images/avatar.jpg"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   flattr = ""
   github = "spiegel-im-spiegel"
 +++

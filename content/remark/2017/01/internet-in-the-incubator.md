@@ -8,7 +8,7 @@ tags = ["internet", "politics", "hacker-ethic"]
 [author]
   facebook = "spiegel.im.spiegel"
   flattr = ""
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   linkedin = "spiegelimspiegel"
   avatar = "/images/avatar.jpg"
   twitter = "spiegel_2007"

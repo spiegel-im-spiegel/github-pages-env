@@ -7,7 +7,7 @@ tags        = [ "wireless" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -26,7 +26,7 @@ tags        = [ "wireless" ]
 
 この度，再開することにした。
 
-古い記事をひっくり返して探してみたところ，私が [WiMAX を解約したのは2013年末](http://www.baldanders.info/spiegel/log2/000669.shtml "UQ WiMAX 解約しました — Baldanders.info")のことだった。
+古い記事をひっくり返して探してみたところ，私が [WiMAX を解約したのは2013年末](https://baldanders.info/spiegel/log2/000669.shtml "UQ WiMAX 解約しました — Baldanders.info")のことだった。
 数年ぶりの再開である。
 
 {{< fig-img src="https://farm5.staticflickr.com/4709/39688424175_449633fec8.jpg" title="ふっふっふ。数年ぶりに UQ WiMAX 再導入。" link="https://www.flickr.com/photos/spiegel/39688424175/" >}}

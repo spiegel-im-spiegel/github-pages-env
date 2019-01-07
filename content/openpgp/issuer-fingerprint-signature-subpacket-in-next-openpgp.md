@@ -8,7 +8,7 @@ tags        = [ "openpgp", "gnupg", "cryptography" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -60,7 +60,7 @@ HCPUAP4npfesVUOXy/RbFn65Ci6rgtvrFNeNIfmFjYit/xMEywD/eHflgDJQWY+Y
 -----END PGP SIGNATURE-----
 ```
 
-ちなみに `0x7E20B81C` は[私の鍵](http://www.baldanders.info/spiegel/pubkeys/ "OpenPGP 公開鍵リスト — Baldanders.info")の鍵 ID である。
+ちなみに `0x7E20B81C` は[私の鍵](https://baldanders.info/spiegel/pubkeys/ "OpenPGP 公開鍵リスト — Baldanders.info")の鍵 ID である。
 `--clear-sign` コマンドは署名対象のテキストとその電子署名を ASCII armor で出力する。
 これをそのまま [pgpdump] にかけてみよう。
 

@@ -17,7 +17,7 @@ title = "週末スペシャル： 水星の日面経過"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 1. [水星の日面経過]({{< relref "#tran" >}})

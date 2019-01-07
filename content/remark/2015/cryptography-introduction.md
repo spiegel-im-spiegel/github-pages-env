@@ -17,7 +17,7 @@ title = "『暗号技術入門 第3版』をななめ読み"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 結城浩さんの『[暗号技術入門 第3版](http://www.hyuki.com/cr/)』がついに登場。

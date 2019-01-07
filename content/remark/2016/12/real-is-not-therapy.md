@@ -14,7 +14,7 @@ update = "2016-12-06T12:40:01+09:00"
   name = "Spiegel"
   tumblr = ""
   github = "spiegel-im-spiegel"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   license = "by-sa"
   flickr = "spiegel"
   linkedin = "spiegelimspiegel"
@@ -39,10 +39,10 @@ update = "2016-12-06T12:40:01+09:00"
 
 私は親から「冷血漢」の称号をいただくほどの薄情な人間だが，それでも近しい人や親しい人が亡くなれば人並みにヘコむのですよ。
 
-- [見送ってきました](http://www.baldanders.info/spiegel/log/200310.html#d20_t1 "[鏡] しっぽのさきっちょ 2003年10月 -- Spiegel's Trunk")
-    - [「クリエイティブ・コモンズ」は誰のもの？/やたらと長いあとがき](http://www.baldanders.info/spiegel/docs/cc-report_s2.html)
-- [近しい人の死を縁にして — Baldanders.info](http://www.baldanders.info/spiegel/log2/000543.shtml)
-- [じゃあね。 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000867.shtml)
+- [見送ってきました](https://baldanders.info/spiegel/log/200310.html#d20_t1 "[鏡] しっぽのさきっちょ 2003年10月 -- Spiegel's Trunk")
+    - [「クリエイティブ・コモンズ」は誰のもの？/やたらと長いあとがき](https://baldanders.info/spiegel/docs/cc-report_s2.html)
+- [近しい人の死を縁にして — Baldanders.info](https://baldanders.info/spiegel/log2/000543.shtml)
+- [じゃあね。 — Baldanders.info](https://baldanders.info/spiegel/log2/000867.shtml)
 
 こうして親しい人たちが亡くなるという事実は「いずれ私の番になる」ことを強く思い起こさせる。
 それは事故死や病死かもしれないし「もう死ぬしかない」ところまで追いつめられてるかもしれない。

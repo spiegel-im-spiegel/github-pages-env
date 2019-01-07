@@ -16,7 +16,7 @@ title = "「はやぶさ2」の目的地の小惑星の名前が「リュウグ�
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [JAXA | 小惑星探査機「はやぶさ2」の目指す小惑星1999 JU3の名称決定について](http://www.jaxa.jp/press/2015/10/20151005_ryugu_j.html)

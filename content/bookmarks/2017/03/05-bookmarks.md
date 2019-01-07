@@ -6,7 +6,7 @@ draft = false
 description = "「スペースX、2018年に2名を乗せた有人月周回飛行を実施すると発表」他"
 
 [author]
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   flattr = ""
   instagram = "spiegel_2007"
   facebook = "spiegel.im.spiegel"

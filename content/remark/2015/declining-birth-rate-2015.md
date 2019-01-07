@@ -17,10 +17,10 @@ title = "「少子化」に関する覚え書き（再掲載）"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
-この記事は2014年末に書いた[本家ブログ](http://www.baldanders.info/archives.shtml)の記事「[「少子化」に関する覚え書き](http://www.baldanders.info/spiegel/log2/000786.shtml)」を再構成して掲載している。
+この記事は2014年末に書いた[本家ブログ](https://baldanders.info/archives.shtml)の記事「[「少子化」に関する覚え書き](https://baldanders.info/spiegel/log2/000786.shtml)」を再構成して掲載している。
 ちなみに015年までの合計特殊出生率は僅かに上昇傾向だった。
 この辺の話も追記している。
 
@@ -206,6 +206,6 @@ title = "「少子化」に関する覚え書き（再掲載）"
       <i class="fas fa-star"></i>
     </abbr></dd>
   </dl>
-  <p class="description"><a href="http://www.baldanders.info/spiegel/log2/000410.shtml">感想はこちら</a>。</p>
+  <p class="description"><a href="https://baldanders.info/spiegel/log2/000410.shtml">感想はこちら</a>。</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.12.7</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>

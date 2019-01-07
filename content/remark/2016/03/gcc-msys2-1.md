@@ -18,7 +18,7 @@ title = "MSYS2 による gcc 開発環境の構築 ― MSYS2 のインストー�
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 これは Qiita の以下の記事からの再構成である。

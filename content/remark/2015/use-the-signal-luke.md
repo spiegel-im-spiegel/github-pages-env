@@ -16,7 +16,7 @@ title = "ルークよ， Signal を使え！"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 「[なぜジョニーは今もやっぱり暗号化できないのか：現在のPGPクライアントの使いやすさ評価 - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20151112/jonnycantencrypt)」経由。
@@ -40,10 +40,10 @@ This demonstrates that encrypting email with PGP, as implemented in Mailvelope, 
 [^a2]: 現在，このプラグインはメンテナンスされてない。使わないように。 Windows パソコンでメールの暗号化がしたいなら [Thunderbird](https://www.mozilla.org/thunderbird/)＋[Enigmail](https://addons.mozilla.org/thunderbird/addon/enigmail/) がオススメである。
 
 ちなみに [Mailvelope] は Chrome や Firefox の拡張機能として使える MUA（Mail User Agent）で， Gmail などと連携して使える。
-[以前にも紹介](http://www.baldanders.info/spiegel/log2/000782.shtml "安全なメッセージング・アプリとは（追記あり） — Baldanders.info")したが， [EFF の Secure Messaging Scorecard](https://www.eff.org/secure-messaging-scorecard) で MUA の中では（PFS の項目を除いて[^b]）唯一満点だった製品である。
+[以前にも紹介](https://baldanders.info/spiegel/log2/000782.shtml "安全なメッセージング・アプリとは（追記あり） — Baldanders.info")したが， [EFF の Secure Messaging Scorecard](https://www.eff.org/secure-messaging-scorecard) で MUA の中では（PFS の項目を除いて[^b]）唯一満点だった製品である。
 [Mailvelope] は [OpenPGP] 実装を含んでいるため [GnuPG] や [PGP] のような製品を必要としない利点がある。
 
-[^b]: [前にも書いた](http://www.baldanders.info/spiegel/log2/000782.shtml "安全なメッセージング・アプリとは（追記あり） — Baldanders.info")が， MUA はその性質上 PFS（Perfect Forward Secrecy）を満たせない。 PFS は通信経路の暗号化や IM（Instant Messaging）など使い捨てのメッセージを扱う場合には必要な要件だが，電子メールには向いていない。電子メールは過去のやり取りに対して「否認防止（non-repudiation）」できなければならないからだ。
+[^b]: [前にも書いた](https://baldanders.info/spiegel/log2/000782.shtml "安全なメッセージング・アプリとは（追記あり） — Baldanders.info")が， MUA はその性質上 PFS（Perfect Forward Secrecy）を満たせない。 PFS は通信経路の暗号化や IM（Instant Messaging）など使い捨てのメッセージを扱う場合には必要な要件だが，電子メールには向いていない。電子メールは過去のやり取りに対して「否認防止（non-repudiation）」できなければならないからだ。
 
 - [mailvelopeの使い方 | セキュリティの意識と知識](http://security.hondaclinic.jp/%E6%9A%97%E5%8F%B7%E3%81%AE%E3%81%99%E3%81%99%E3%82%81/mailvelope%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/)
 

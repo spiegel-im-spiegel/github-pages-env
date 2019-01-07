@@ -5,7 +5,7 @@
 モジュール対応モードの利点は以下の2つであろう。
 
 1. パッケージとそのバージョン情報を一括管理できる
-2. 「[GOPATH 汚染問題](http://text.baldanders.info/golang/gopath-pollution/ "GOPATH 汚染問題 — プログラミング言語 Go | text.Baldanders.info")」の解消
+2. 「[GOPATH 汚染問題](https://text.baldanders.info/golang/gopath-pollution/ "GOPATH 汚染問題 — プログラミング言語 Go | text.Baldanders.info")」の解消
 
 特に2番目が重要だろう。私達はようやく GOPATH の呪いから解放されるのである（笑）
 
@@ -212,7 +212,7 @@ module github.com/you/hello
 
 特殊な例だが `gopkg.in/russross/blackfriday.v2` パッケージを例にモジュール・パスとパッケージ・パスが一致しない場合の対応を紹介する。
 
-（ちなみに `gopkg.in/russross/blackfriday.v2` パッケージは Markdown コードを HTML 等の書式に変換するパッケージである。参考：[Markdown パーサ blackfriday.v2 で遊ぶ](http://text.baldanders.info/golang/using-blackfriday-v2/ "Markdown パーサ blackfriday.v2 で遊ぶ — プログラミング言語 Go | text.Baldanders.info")）
+（ちなみに `gopkg.in/russross/blackfriday.v2` パッケージは Markdown コードを HTML 等の書式に変換するパッケージである。参考：[Markdown パーサ blackfriday.v2 で遊ぶ](https://text.baldanders.info/golang/using-blackfriday-v2/ "Markdown パーサ blackfriday.v2 で遊ぶ — プログラミング言語 Go | text.Baldanders.info")）
 
 まず以下のコードを書く。ファイル名は `md2html.go` とでもしておこう。
 
@@ -334,7 +334,7 @@ after_success:
   - test -n "$TRAVIS_TAG" && curl -sL https://git.io/goreleaser | bash
 ```
 
-最後の行のように [GoReleaser] を使って[複数の実行モジュールをビルド](http://text.baldanders.info/golang/cross-compiling-in-travis-ci-with-goreleaser/ "Travis CI でクロス・コンパイル（GoReleaser 編） — プログラミング言語 Go | text.Baldanders.info")する場合には `.goreleaser.yml` ファイルの `builds` 項目に以下の記述を追加する。
+最後の行のように [GoReleaser] を使って[複数の実行モジュールをビルド](https://text.baldanders.info/golang/cross-compiling-in-travis-ci-with-goreleaser/ "Travis CI でクロス・コンパイル（GoReleaser 編） — プログラミング言語 Go | text.Baldanders.info")する場合には `.goreleaser.yml` ファイルの `builds` 項目に以下の記述を追加する。
 
 ```yaml:.goreleaser.yml
 builds:
@@ -349,7 +349,7 @@ builds:
 - [go - The Go Programming Language](https://golang.org/cmd/go/)
 - [Go 1.11 リリースノート（和訳） - Qiita](https://qiita.com/pokeh/items/c6511ca15c9a33b48fcc)
 - [Go 1.11 の modules・vgo を試す - 実際に使っていく上で考えないといけないこと #golang | Wantedly Engineer Blog](https://www.wantedly.com/companies/wantedly/post_articles/132270)
-- [Go 1.11 のリリースと「モジュール」機能の実験的サポート — リリース情報 | text.Baldanders.info](http://text.baldanders.info/release/2018/09/go-1_11-ise-released/)
+- [Go 1.11 のリリースと「モジュール」機能の実験的サポート — リリース情報 | text.Baldanders.info](https://text.baldanders.info/release/2018/09/go-1_11-ise-released/)
 - [Using Go modules with Travis CI | Dave Cheney](https://dave.cheney.net/2018/07/16/using-go-modules-with-travis-ci)
 
 

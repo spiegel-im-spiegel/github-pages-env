@@ -14,7 +14,7 @@ tags = [
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -465,7 +465,7 @@ cat alice-key.asc | gpg --import
 また Web ページ上に公開鍵のファイルを置いている場合は `--fetch-keys` コマンドで直接インポートすることもできる。
 
 ```text
-$ gpg --fetch-keys http://www.baldanders.info/spiegel/pubkeys/spiegel.asc
+$ gpg --fetch-keys https://baldanders.info/spiegel/pubkeys/spiegel.asc
 ```
 
 
@@ -575,7 +575,7 @@ default-key alice
 
 ハイブリッド暗号は [OpenPGP] の基本機能で，平文を暗号化する「セッション鍵」とセッション鍵を暗号化する公開鍵で構成される。
 
-{{< fig-img src="http://www.baldanders.info/spiegel/archive/pgpdump/hybrid-enc.svg" width="715" title="「わかる！ OpenPGP 暗号」より" link="http://www.baldanders.info/spiegel/archive/pgpdump/openpgp.shtml" >}}
+{{< fig-img src="https://baldanders.info/spiegel/archive/pgpdump/hybrid-enc.svg" width="715" title="「わかる！ OpenPGP 暗号」より" link="https://baldanders.info/spiegel/archive/pgpdump/openpgp.shtml" >}}
 
 セッション鍵は [GnuPG] が自動的にし生成するのでコマンドラインではセッション鍵を暗号化する公開鍵を指定する。
 
@@ -1029,7 +1029,7 @@ kAc/Jx5aYcyrXqcZtxNwHF+oflpRWyd0KA==
 - [Using the GNU Privacy Guard: Unattended GPG key generation](https://www.gnupg.org/documentation/manuals/gnupg/Unattended-GPG-key-generation.html)
 - [Using the GNU Privacy Guard: GPG Configuration Options](https://www.gnupg.org/documentation/manuals/gnupg/GPG-Configuration-Options.html)
 
-- [わかる！ OpenPGP 暗号 — Baldanders.info](http://www.baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
+- [わかる！ OpenPGP 暗号 — Baldanders.info](https://baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
 - [OpenPGP 鍵管理に関する考察]({{< ref "/remark/2017/11/openpgp-key-management.md" >}})
 
 [OpenPGP]: http://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"

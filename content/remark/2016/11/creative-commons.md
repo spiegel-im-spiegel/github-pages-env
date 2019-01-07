@@ -17,7 +17,7 @@ title = "「2004年」に留まり続ける日本の Creative Commons"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 Facebook の TL で見かけたので早速見てみたのだが...
@@ -59,7 +59,7 @@ Facebook の TL で見かけたので早速見てみたのだが...
 ## ブックマーク
 
 - [改訂3版： CC Licenses について](/cc-licenses/)
-- [Free Culture Licenses — Baldanders.info](http://www.baldanders.info/spiegel/log2/000796.shtml)
+- [Free Culture Licenses — Baldanders.info](https://baldanders.info/spiegel/log2/000796.shtml)
 - [Understanding Free Cultural Works - Creative Commons](https://creativecommons.org/share-your-work/public-domain/freeworks/)
 - [3Dプリンティングと著作権を考える - 達人出版会](http://tatsu-zine.com/books/copyright-3dprinting)
     - [How should we attribute 3D printed objects? - Creative Commons](https://creativecommons.org/2016/04/19/attribute-3d-printed-objects/) （[日本語訳](https://creativecommons.jp/2016/07/26/3d%E3%83%97%E3%83%AA%E3%83%B3%E3%83%88%E3%81%A7%E3%81%A7%E3%81%8D%E3%81%9F%E7%89%A9%E3%81%AB%E3%81%AF%E3%81%A9%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E8%A1%A8/ "3Dプリントでできた物にはどのようなライセンス表示をすべきか？ | クリエイティブ・コモンズ・ジャパン")）

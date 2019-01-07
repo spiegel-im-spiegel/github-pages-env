@@ -50,7 +50,7 @@ $ dep ensure -add github.com/pkg/errors
 
 ## 利点と欠点
 
-このやり方の利点は「プロジェクトごとに環境を切り替えなくていい」ということに尽きる。自身の開発環境は（上の例で言うところの） `go-wkspace` フォルダ配下に集約されるため「[GOPATH 汚染](http://text.baldanders.info/golang/gopath-pollution/ "GOPATH 汚染問題 — プログラミング言語 Go | text.Baldanders.info")」みたいなことは一切気にしなくてよくなる。
+このやり方の利点は「プロジェクトごとに環境を切り替えなくていい」ということに尽きる。自身の開発環境は（上の例で言うところの） `go-wkspace` フォルダ配下に集約されるため「[GOPATH 汚染](https://text.baldanders.info/golang/gopath-pollution/ "GOPATH 汚染問題 — プログラミング言語 Go | text.Baldanders.info")」みたいなことは一切気にしなくてよくなる。
 
 また開発環境の管理に使用するツールとその手順が少ないのも利点に挙げていいかもしれない。 [dep] は事実上の公式ツールなので，余程のことがない限りなくなることはないだろう（go コマンドに組み込まれることはあるかもしれないがw）。
 
@@ -60,10 +60,10 @@ $ dep ensure -add github.com/pkg/errors
 
 ## 参考
 
-- [GOPATH 汚染問題 — プログラミング言語 Go | text.Baldanders.info](http://text.baldanders.info/golang/gopath-pollution/)
-- [Glide から Dep への移行を検討する — プログラミング言語 Go | text.Baldanders.info](http://text.baldanders.info/golang/consider-switching-from-glide-to-dep/)
-- [ATOM で Go — プログラミング言語 Go | text.Baldanders.info](http://text.baldanders.info/golang/golang-with-atom/) : この記事で紹介している [go-plus](https://atom.io/packages/go-plus) がバックグラウンドで自動的に [Go 言語]ツールチェーンを導入・更新するので `GOPATH` の指定を動かしづらいというのも正直に言ってあった
-- [Travis CI でクロス・コンパイル（GoReleaser 編） — プログラミング言語 Go | text.Baldanders.info](http://text.baldanders.info/golang/cross-compiling-in-travis-ci-with-goreleaser/) : この記事の後半で [Travis CI](https://travis-ci.org/) で [dep] を使う方法をしれっと紹介している 
+- [GOPATH 汚染問題 — プログラミング言語 Go | text.Baldanders.info](https://text.baldanders.info/golang/gopath-pollution/)
+- [Glide から Dep への移行を検討する — プログラミング言語 Go | text.Baldanders.info](https://text.baldanders.info/golang/consider-switching-from-glide-to-dep/)
+- [ATOM で Go — プログラミング言語 Go | text.Baldanders.info](https://text.baldanders.info/golang/golang-with-atom/) : この記事で紹介している [go-plus](https://atom.io/packages/go-plus) がバックグラウンドで自動的に [Go 言語]ツールチェーンを導入・更新するので `GOPATH` の指定を動かしづらいというのも正直に言ってあった
+- [Travis CI でクロス・コンパイル（GoReleaser 編） — プログラミング言語 Go | text.Baldanders.info](https://text.baldanders.info/golang/cross-compiling-in-travis-ci-with-goreleaser/) : この記事の後半で [Travis CI](https://travis-ci.org/) で [dep] を使う方法をしれっと紹介している 
 - [モノリシックなバージョン管理の利点 | プログラミング | POSTD](http://postd.cc/monorepo/)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"

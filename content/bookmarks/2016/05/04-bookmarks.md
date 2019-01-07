@@ -16,7 +16,7 @@ title = "2016-05-04 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [Three Potentially Habitable Worlds Found Around Nearby Ultracool Dwarf Star | ESO](http://www.eso.org/public/news/eso1615/)

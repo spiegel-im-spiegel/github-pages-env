@@ -17,7 +17,7 @@ title = "週末スペシャル： DELL よ，お前もか"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 1. [DELL よ，お前もか]({{< relref "#pki" >}})
@@ -41,15 +41,15 @@ title = "週末スペシャル： DELL よ，お前もか"
 - [不注意で公開されたデジタル証明書により、なりすましが行われる - マイクロソフト セキュリティ アドバイザリ 3119884](https://technet.microsoft.com/ja-jp/library/security/3119884)
     - [MSが証明書信頼リストを更新--デルのルート証明書問題に対応 - ZDNet Japan](http://japan.zdnet.com/article/35074332/)
 
-[Lenovo のとき](http://www.baldanders.info/spiegel/log2/000809.shtml)も書いたけど， PC ベンダ側がどう言い訳しようとも，これは純然たる「悪意」なの！
+[Lenovo のとき](https://baldanders.info/spiegel/log2/000809.shtml)も書いたけど， PC ベンダ側がどう言い訳しようとも，これは純然たる「悪意」なの！
 
-{{< fig-quote title="Malware Spoofing HTTPS — Baldanders.info" link="http://www.baldanders.info/spiegel/log2/000809.shtml" >}}
+{{< fig-quote title="Malware Spoofing HTTPS — Baldanders.info" link="https://baldanders.info/spiegel/log2/000809.shtml" >}}
 <q>セキュリティ企業や組織は「脆弱性（vulnerability）」などと比較的穏当な表現をしているが，オレオレ・ルート証明書をインストールする行為自体が明確な「悪意」である。 なぜなら（上述した通り）これは PKI の信用モデルに対する攻撃（破壊）だからだ。</q>
 {{< /fig-quote >}}
 
 ちなみに EV SSL も前提が崩れ始めていることをお忘れなく。
 
-- [踊る PKI — Baldanders.info](http://www.baldanders.info/spiegel/log2/000828.shtml)
+- [踊る PKI — Baldanders.info](https://baldanders.info/spiegel/log2/000828.shtml)
 
 Lenovo のときは「中国企業だから」なんてなこともちょっと思ったが， DELL もやっているとなると X.509 がいよいよ「バベルの塔」になる日も近いということかねぇ。
 
@@ -103,9 +103,9 @@ Google はユーザに対して「[デバイスマネージャ](https://www.goog
 
 もちろんデータをクラウドに置いている場合はクラウドごとに個別に対処する必要があるし，そもそも携帯端末は tracking が容易であり警察・諜報組織は端末の中身が見れなくてもさほど困らないということをお忘れなく。
 
-- [スマートフォンのセキュリティ管理 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000516.shtml)
-- [「パスワードを覚える」なんて脳みその無駄遣い — Baldanders.info](http://www.baldanders.info/spiegel/log2/000739.shtml)
-- [「オーウェルが描いた悪夢のような監視社会をさまざまな点で超えてしまっているこの世界」で私たちはいかにして生き残るか — Baldanders.info](http://www.baldanders.info/spiegel/log2/000768.shtml)
+- [スマートフォンのセキュリティ管理 — Baldanders.info](https://baldanders.info/spiegel/log2/000516.shtml)
+- [「パスワードを覚える」なんて脳みその無駄遣い — Baldanders.info](https://baldanders.info/spiegel/log2/000739.shtml)
+- [「オーウェルが描いた悪夢のような監視社会をさまざまな点で超えてしまっているこの世界」で私たちはいかにして生き残るか — Baldanders.info](https://baldanders.info/spiegel/log2/000768.shtml)
 - [警察がテロリストの捨てた携帯からわかること : ギズモード・ジャパン](http://www.gizmodo.jp/2015/11/what-police-can-learn-from-a-terrorist.html)
 
 ## 参考図書

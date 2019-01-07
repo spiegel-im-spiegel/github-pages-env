@@ -17,7 +17,7 @@ title = "週末スペシャル： FBI 曰く「Ransomware 感染時は身代金�
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 最近，週末に小ネタをまとめて放出するパターンなので「週末スペシャル」と銘打ってみた。
@@ -92,7 +92,7 @@ Facebook の TL にもちょろんと書いたけど，これって Facebook な
 
 SNS は相手との距離感をはかるのが難しい側面はあるし，私もそれで時々失敗するが，上手に使えば良い道具ではある。
 
-[^b]: 最近の斎藤環さんの著作は「[う～んな感じ](http://www.baldanders.info/spiegel/log2/000765.shtml)」だが，このころの著作本は好き。
+[^b]: 最近の斎藤環さんの著作は「[う～んな感じ](https://baldanders.info/spiegel/log2/000765.shtml)」だが，このころの著作本は好き。
 
 ## 日本における TPP 知財のこれから{#tppip}
 

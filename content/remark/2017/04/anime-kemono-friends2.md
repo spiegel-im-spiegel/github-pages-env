@@ -9,7 +9,7 @@ draft = false
 [author]
   facebook = "spiegel.im.spiegel"
   avatar = "/images/avatar.jpg"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   name = "Spiegel"
   tumblr = ""
   license = "by-sa"

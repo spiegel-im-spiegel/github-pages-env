@@ -16,7 +16,7 @@ title = "制約は構造を生む"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 「制約は構造を生む」というのは確か結城浩さんの『数学ガール』の中にあったフレーズだと思うが，私はこの言葉が好きである。
@@ -29,7 +29,7 @@ title = "制約は構造を生む"
 
 [^1]: 逆に言うと自己改変しなくなった言語は緩慢な死を迎える。
 
-[前にも書いた](http://www.baldanders.info/spiegel/log2/000529.shtml)けど，私は職業プログラマなので，プログラミングが好きでも嫌いでもない。
+[前にも書いた](https://baldanders.info/spiegel/log2/000529.shtml)けど，私は職業プログラマなので，プログラミングが好きでも嫌いでもない。
 私から見れば「プログラミングが好き」というのは「鋸が好き」と言ってるのと大差ない。
 プログラミング言語も同様で，基本的にはどんな言語にも対応できる自信はあるが，特定の言語が好きというのはない。
 

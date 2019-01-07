@@ -16,7 +16,7 @@ title = "2016-04-27 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [岩瀬昇のエネルギーブログ 169．「イスラム国」石油将軍の興亡｜岩瀬昇のエネルギーブログ](http://ameblo.jp/nobbypapa/entry-12154428325.html)

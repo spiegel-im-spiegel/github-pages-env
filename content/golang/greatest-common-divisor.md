@@ -7,7 +7,7 @@ tags        = [ "golang", "function", "programming", "math", "greatest-common-di
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -306,7 +306,7 @@ You shouldn't use it either.</q>
 </div>
 
 <div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00L0PDMJ0/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51-nVSeXaNL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00L0PDMJ0/baldandersinf-22/">数学ガールの秘密ノート／整数で遊ぼう</a></dt><dd>結城 浩 </dd><dd>SBクリエイティブ株式会社 2014-07-24</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00L0PDMIQ/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00L0PDMIQ.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート／式とグラフ"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00L0PDMK4/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00L0PDMK4.09._SCTHUMBZZZ_.jpg"  alt="数学ガール／ガロア理論"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00NAQA33A/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00NAQA33A.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの誕生 　理想の数学対話を求めて"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1FO/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8AT1FO.09._SCTHUMBZZZ_.jpg"  alt="数学ガール／乱択アルゴリズム"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1D6/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00I8AT1D6.09._SCTHUMBZZZ_.jpg"  alt="数学ガール／ゲーデルの不完全性定理"  /></a> </p>
-<p class="description" ><a href='http://www.baldanders.info/spiegel/log2/000670.shtml'>小中学生にお薦め</a>。小学生高学年くらいならギリで理解可能と思われ。</p>
+<p class="description" ><a href='https://baldanders.info/spiegel/log2/000670.shtml'>小中学生にお薦め</a>。小学生高学年くらいならギリで理解可能と思われ。</p>
 <p class="gtools" >reviewed by <a href="#maker" class="reviewer">Spiegel</a> on <abbr class="dtreviewed" title="2014-09-26">2014/09/26</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html">G-Tools</a>)</p>
 </div>
 

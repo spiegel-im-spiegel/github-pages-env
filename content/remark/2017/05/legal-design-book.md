@@ -17,7 +17,7 @@ title = "『法のデザイン』を斜め読みした"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 GW の読書の課題として『[法のデザイン]』を読み始めたのだが，既に第一部で「えー？ うーん？」な感じになり挫折してしまった。
@@ -96,7 +96,7 @@ Google に[機械翻訳](https://translate.google.com/)させると大抵「下�
 [^cms2]: 「空き地で遊ぶ子供」といっても今時の人はピンとこないかもしれない。「ドラえもん」など昭和の作品で描写されるくらいか。
 
 これの大規模なものが「同人市場[^cms3]」である。
-[Creative Commons] について[日本で活発に議論された2003年から2004年](http://www.baldanders.info/spiegel/log/cclog.html "日記／Weblog でみる Creative Commons -- Spiegel's Trunk")頃にかけて同人市場についてもよく議論に上ったが，当事者たちの考え方は決まっていて「怒られたら逃げればいい」というものだった。
+[Creative Commons] について[日本で活発に議論された2003年から2004年](https://baldanders.info/spiegel/log/cclog.html "日記／Weblog でみる Creative Commons -- Spiegel's Trunk")頃にかけて同人市場についてもよく議論に上ったが，当事者たちの考え方は決まっていて「怒られたら逃げればいい」というものだった。
 
 [^cms3]: 同人活動と言っても本来的な意味での「同好の士による閉じた活動」もあれば「パクリ上等」なものまで様々なレベルがあるので一絡げに論じるのは無茶だと分かっているのだが今回はご容赦。今では大規模なイベントにおいては国際的な認知度も上がったため「自主規制」されているし，職業作家や出版社も出品するので煩く言われることも少なくなっているように見えるが，結局は職業作家や出版社の「お目こぼし」で回っているという事実には変わらない。これは TPP 知財部門に対して[「二次創作」の部分だけに反応する](http://internet.watch.impress.co.jp/docs/news/730105.html "TPPで“違法ダウンロード”適用拡大も、文化庁の審議会で再び検討か -INTERNET Watch Watch")という点からも窺い知れる。
 

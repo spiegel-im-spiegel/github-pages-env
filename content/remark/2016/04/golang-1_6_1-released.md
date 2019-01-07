@@ -17,7 +17,7 @@ title = "Go 言語 1.6.1 および 1.5.4 のセキュリティ・アップデー
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 [Go 言語]に2つの脆弱性がある。

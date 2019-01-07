@@ -8,7 +8,7 @@ tags = ["astronomy", "ephemeris"]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -64,9 +64,9 @@ Facebook の TL に書き散らしたものを再構成してお送りする。
 
 - [旧暦2033年問題について - 国立天文台暦計算室](http://eco.mtk.nao.ac.jp/koyomi/topics/html/topics2014.html)
 
-- [[鏡] Analemma （アナレンマ） -- 戯れ言++](http://www.baldanders.info/spiegel/remark/archives/000007.shtml)
-- [朔旦冬至と授時 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000784.shtml)
-- [暦の改訂（DE405 から DE430 へ） — Baldanders.info](http://www.baldanders.info/spiegel/log2/000840.shtml)
+- [[鏡] Analemma （アナレンマ） -- 戯れ言++](https://baldanders.info/spiegel/remark/archives/000007.shtml)
+- [朔旦冬至と授時 — Baldanders.info](https://baldanders.info/spiegel/log2/000784.shtml)
+- [暦の改訂（DE405 から DE430 へ） — Baldanders.info](https://baldanders.info/spiegel/log2/000840.shtml)
 - [「暦」日本史 （再掲載）]({{< ref "/remark/2015/japanese-koyomi.md" >}})
 - [『猫暦』を読んだ]({{< ref "/remark/2016/05/nekoyomi.md" >}})
 

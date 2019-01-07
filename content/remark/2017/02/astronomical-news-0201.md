@@ -18,7 +18,7 @@ tags = ["astronomy", "politics", "ephemeris", "moon", "kaguya"]
   avatar = "/images/avatar.jpg"
   name = "Spiegel"
   github = "spiegel-im-spiegel"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 やぁ。

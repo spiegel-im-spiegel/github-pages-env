@@ -18,7 +18,7 @@ title = "年始スペシャル：2016年から公有になった作品の著作�
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 
 +++
 
@@ -91,7 +91,7 @@ PV という虚構に人や金が群がり，釣りコンテンツや無意味�
 それはただのテレビの延長にすぎないからだ。
 
 思うのは，文脈を含めたユーザの Activty を測定可能なら，そこに広告を置く必然性はないんじゃないかということだ。
-たとえば [Intention Economy（意思の経済）](http://www.baldanders.info/spiegel/log2/000638.shtml)と呼ばれるような。
+たとえば [Intention Economy（意思の経済）](https://baldanders.info/spiegel/log2/000638.shtml)と呼ばれるような。
 そうなれば広告に依存した Web 2.0 型のマネタイズから脱却できるし，上で例示した下らない SEO も駆逐できる。
 
 まぁそれができないからこの有様なんだろうけど。

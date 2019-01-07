@@ -8,7 +8,7 @@ tags = ["code", "law", "intellectual-property", "copyright", "drm", "creative-co
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -203,7 +203,7 @@ IPA が提供する「[GNU GPL v3 解説書](https://www.ipa.go.jp/osc/license1.
 
 日本では「公益」の考え方が酷く歪んでいて，特定の企業・団体や場合によっては政治家（屋）にとっての利益にすり替えられる。
 この辺は「輸入権」や「ダウンロード違法化」等いくらでも事例がある。
-知的財産権以外でも，例えば “WikiLeaks” が社会問題になった際の[「公益通報」に関する議論](http://www.baldanders.info/spiegel/log2/000510.shtml)を見てもあからさまだ。
+知的財産権以外でも，例えば “WikiLeaks” が社会問題になった際の[「公益通報」に関する議論](https://baldanders.info/spiegel/log2/000510.shtml)を見てもあからさまだ。
 
 この辺は DMCA 以後も市場と公益のバランスをとろうとした米国オバマ政権とは異なる展開である。
 もっともトランプ政権下でまた傾き始めたけど。
@@ -239,9 +239,9 @@ SNS やチャットでのやり取りも文字のみならず映像や音声を�
 - [小寺信良：「補償金もDRMも必要ない」――音楽家 平沢進氏の提言 (1/4) - ITmedia LifeStyle](http://www.itmedia.co.jp/lifestyle/articles/0606/12/news005.html)
 - [『デジタル音楽の行方』から10年経って - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2015/06/32173/)
 
-- [DRM に関する覚え書き — Baldanders.info](http://www.baldanders.info/spiegel/log2/000295.shtml)
-- [監視をコントロールする — Baldanders.info](http://www.baldanders.info/spiegel/log2/000490.shtml)
-- [「プロテクト破り」への攻撃に注意せよ！ — Baldanders.info](http://www.baldanders.info/spiegel/log2/000501.shtml)
+- [DRM に関する覚え書き — Baldanders.info](https://baldanders.info/spiegel/log2/000295.shtml)
+- [監視をコントロールする — Baldanders.info](https://baldanders.info/spiegel/log2/000490.shtml)
+- [「プロテクト破り」への攻撃に注意せよ！ — Baldanders.info](https://baldanders.info/spiegel/log2/000501.shtml)
 
 
 [著作権法]: http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048 "著作権法"

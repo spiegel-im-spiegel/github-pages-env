@@ -7,7 +7,7 @@ tags        = [ "site", "semantic", "web", "metadata", "twitter", "open-graph" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -82,7 +82,7 @@ tags        = [ "site", "semantic", "web", "metadata", "twitter", "open-graph" ]
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Codic API を利用するパッケージを作ってみた — プログラミング言語 Go | text.Baldanders.info">
 <meta name="twitter:description" content="spf13/viper を使ってみたかったのだ。">
-<meta name="twitter:image" content="http://text.baldanders.info/images/attention/go-code.png">
+<meta name="twitter:image" content="https://text.baldanders.info/images/attention/go-code.png">
 ```
 
 以上のメタデータを `<head>` 要素内に設置する。
@@ -111,7 +111,7 @@ tags        = [ "site", "semantic", "web", "metadata", "twitter", "open-graph" ]
 
 一応説明しておくと， [OGP] は Facebook が最初に考えた仕様で，元々はネット上のコンテンツと Facebook のアプリを関連付けて制御する仕組みだったのだが
 
-{{< fig-img src="http://www.baldanders.info/spiegel/archive/rdfa/ogp.svg" title="Open Graph の相関図"  link="http://www.baldanders.info/spiegel/archive/rdfa/ogp.svg" >}}
+{{< fig-img src="https://baldanders.info/spiegel/archive/rdfa/ogp.svg" title="Open Graph の相関図"  link="https://baldanders.info/spiegel/archive/rdfa/ogp.svg" >}}
 
 RDFa の仕様の一部を借用した大変筋の悪いもので，本来の目的は明後日方向に飛んでいき，現在は `<head>` 要素内にメタデータを記述するための迂遠な手段に堕している[^rdfa1]。
 ただし [OGP] で記述したメタデータを参照するサービスは多いため，今だに SEO 対策として用いられているようだ。
@@ -140,7 +140,7 @@ RDFa の仕様の一部を借用した大変筋の悪いもので，本来の目
   ...
   <meta property="og:title" content="Codic API を利用するパッケージを作ってみた — プログラミング言語 Go | text.Baldanders.info">
   <meta property="og:description" content="spf13/viper を使ってみたかったのだ。">
-  <meta property="og:image" content="http://text.baldanders.info/images/attention/go-code.png">
+  <meta property="og:image" content="https://text.baldanders.info/images/attention/go-code.png">
   ...
 </head>
 ```
@@ -163,7 +163,7 @@ RDFa の仕様の一部を借用した大変筋の悪いもので，本来の目
 - [ツイートにページ情報を表示する「Twitterカード（Twitter Cards）」を設定してみた | 株式会社グランフェアズ](http://www.granfairs.com/blog/staff/setting-twitter-cards)
 - [【2017年版】Twitterカードとは？使い方と設定方法まとめ](https://saruwakakun.com/html-css/reference/twitter-card)
 
-- [RDFa 入門 — Baldanders.info](http://www.baldanders.info/spiegel/archive/rdfa/)
+- [RDFa 入門 — Baldanders.info](https://baldanders.info/spiegel/archive/rdfa/)
 - [タイムラインの奴隷 - Spiegel's Branch - Scrapbox](https://scrapbox.io/spiegel-branch/%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%AE%E5%A5%B4%E9%9A%B7)
 
 [Twitter Cards]: https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview "Summary card — Twitter Developers"

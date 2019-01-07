@@ -16,7 +16,7 @@ title = "2016-07-10 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [Sony Pictures Tries to Censor Wikileaks With Dubious DMCA Notice - TorrentFreak](https://torrentfreak.com/sony-tries-censor-wikileaks-160709/)

@@ -17,7 +17,7 @@ title = "広島東洋カープ，リーグ優勝おめでとう！"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 広島地元のファンは「しわい」。

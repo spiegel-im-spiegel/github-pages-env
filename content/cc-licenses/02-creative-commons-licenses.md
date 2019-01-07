@@ -16,7 +16,7 @@ title = "Creative Commons Licenses"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 
 [scripts]
   mathjax = false
@@ -261,7 +261,7 @@ title = "Creative Commons Licenses"
 </table>
 {{< /fig-gen >}}
 
-RDFa を使って Web ページにメタデータを埋め込む方法については拙文「[RDFa 入門](http://www.baldanders.info/spiegel/archive/rdfa/)」が参考になるだろう。
+RDFa を使って Web ページにメタデータを埋め込む方法については拙文「[RDFa 入門](https://baldanders.info/spiegel/archive/rdfa/)」が参考になるだろう。
 ページ全体にライセンスを指示したいなら `head` 要素に
 
 ```html

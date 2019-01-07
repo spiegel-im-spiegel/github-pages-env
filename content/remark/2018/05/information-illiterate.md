@@ -8,7 +8,7 @@ tags = [ "code", "internet", "censorship", "grigori" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -94,7 +94,7 @@ Eli Pariser 氏による “THE FILTER BUBBLE” については私も（随分�
 - [フェイクニュースの需要と供給 | mhatta's mumbo jumbo](http://www.mhatta.org/wp/blog/2018/03/08/supply-and-demand-of-fakenews/)
     - [民主主義のその先へ（1） | mhatta's mumbo jumbo](http://www.mhatta.org/wp/blog/2018/03/15/beyond-democracy-1/)
 
-- [監視をコントロールする — Baldanders.info](http://www.baldanders.info/spiegel/log2/000490.shtml)
+- [監視をコントロールする — Baldanders.info](https://baldanders.info/spiegel/log2/000490.shtml)
 
 [GDPR]: https://en.wikipedia.org/wiki/General_Data_Protection_Regulation "General Data Protection Regulation - Wikipedia"
 

@@ -18,7 +18,7 @@ title = "『数学ガールの秘密ノート／ベクトルの真実』で遊�
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 いやぁ，昨年の発売直後に買った（というか予約してた）のに，仕事が忙しかったりプライベートでも色々あってなかなか読み進められなかった。
@@ -38,7 +38,7 @@ title = "『数学ガールの秘密ノート／ベクトルの真実』で遊�
 今回は「丸い三角関数」の続編と言えるかもしれない。
 「丸い三角関数」で書いた感想は以下のとおり。
 
-- [「丸い三角関数」を読む 他 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000685.shtml)
+- [「丸い三角関数」を読む 他 — Baldanders.info](https://baldanders.info/spiegel/log2/000685.shtml)
 
 この時も書いたが，三角関数は空間をイメージしながら考えると楽に理解できる。
 「ベクトル」はそういった空間をイメージするのに最適な題材である。

@@ -17,18 +17,18 @@ title = "text.Baldanders.info 正式オープン"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 さて[予定]({{< ref "/remark/2015/todo-replace-blog.md" >}})通り，正式オープンしました。
 
 ## かえってきた「しっぽのさきっちょ」
 
-「[しっぽのさきっちょ](http://www.baldanders.info/spiegel/log/)」は，むかし運営していた日記コンテンツの名前です。
+「[しっぽのさきっちょ](https://baldanders.info/spiegel/log/)」は，むかし運営していた日記コンテンツの名前です。
 「しっぽ」というのはもちろん {{< quote lang="en" >}}long tail{{< /quote >}} のことで，つまり「しっぽのさきっちょ」とは Web における「辺境」を意味します。
 辺境へようこそ。
 
-[以前も書いた](http://www.baldanders.info/spiegel/log/200604.html#d27_t2)けど，「しっぽ」の部分で谷山浩子ちっくな感受性を，「さきっちょ」の部分でそこはかとないエロスを感じていただければ幸いです。
+[以前も書いた](https://baldanders.info/spiegel/log/200604.html#d27_t2)けど，「しっぽ」の部分で谷山浩子ちっくな感受性を，「さきっちょ」の部分でそこはかとないエロスを感じていただければ幸いです。
 
 私もいい歳ですし，辺境に帰って，これからは慎ましく生きていく所存です。
 
@@ -38,7 +38,7 @@ title = "text.Baldanders.info 正式オープン"
 
 - [text.Baldanders.info について]({{< relref "/site-policy.md" >}})
 
-基本的には[本家サイト](http://www.baldanders.info/policy.shtml)と同じです。
+基本的には[本家サイト](https://baldanders.info/policy.shtml)と同じです。
 
 ### ホスティングについて
 
@@ -53,10 +53,10 @@ title = "text.Baldanders.info 正式オープン"
 
 ### ライセンスについて
 
-個々の記事については，原則として， [CC License](http://www.baldanders.info/spiegel/archive/cc-license/) の [by-sa] を設定することにしました。
+個々の記事については，原則として， [CC License](https://baldanders.info/spiegel/archive/cc-license/) の [by-sa] を設定することにしました。
 ここは本家との違い。
 
-[前にも紹介](http://www.baldanders.info/spiegel/log2/000796.shtml)しましたが， [Creative Commons] が提供しているライセンスツールのうち， Free Culture License に分類されるもの[^a] が過半数を超え，更にその中では [by-sa] が一番多いようです。
+[前にも紹介](https://baldanders.info/spiegel/log2/000796.shtml)しましたが， [Creative Commons] が提供しているライセンスツールのうち， Free Culture License に分類されるもの[^a] が過半数を超え，更にその中では [by-sa] が一番多いようです。
 これにはいろんな理由があるんでしょうけど，私は {{< quote lang="en" >}}copyleft{{< /quote >}} がプログラム・コード以外にも浸透しつつあると好意的に解釈しています。
 
 [^a]: [cc0], [by], [by-sa]。

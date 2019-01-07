@@ -3,7 +3,7 @@
 [GnuPG] の使い方に関する簡単な「虎の巻（cheat sheet）」を作ってみることにした。
 なお詳細版は以下の記事にまとめている。
 
-- [GnuPG チートシート（鍵作成から失効まで） — しっぽのさきっちょ | text.Baldanders.info](http://text.baldanders.info/remark/2017/11/gnupg-sheat-sheet/)
+- [GnuPG チートシート（鍵作成から失効まで） — しっぽのさきっちょ | text.Baldanders.info](https://text.baldanders.info/remark/2017/11/gnupg-sheat-sheet/)
 
 ## 鍵の生成
 

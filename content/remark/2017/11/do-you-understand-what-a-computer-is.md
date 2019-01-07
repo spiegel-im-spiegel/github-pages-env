@@ -7,7 +7,7 @@ tags        = [ "engineering", "design", "programming" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -32,7 +32,7 @@ tags        = [ "engineering", "design", "programming" ]
 
 というのがあって，続きの tweets から見ても（プログラミングというよりは）システム設計（もしくは base design）のことを指しているのは明らかなんだけど，私が連想したのは梅津信幸さんの『[あなたはコンピュータを理解していますか？](http://www.amazon.co.jp/exec/obidos/ASIN/4774116009/baldandersinf-22/)』だった。
 
-この本は[2002年に出版](http://www.baldanders.info/spiegel/log/nikki-s/200211.html#1706)されていて，これ自体は恐らく絶版なのだが，[2007年にリニュール本が出ている](http://www.amazon.co.jp/exec/obidos/ASIN/4797339497/baldandersinf-22/)ようだ。
+この本は[2002年に出版](https://baldanders.info/spiegel/log/nikki-s/200211.html#1706)されていて，これ自体は恐らく絶版なのだが，[2007年にリニュール本が出ている](http://www.amazon.co.jp/exec/obidos/ASIN/4797339497/baldandersinf-22/)ようだ。
 さっそく発注してしまった（笑）
 
 この本で一番印象に残っていたのが第3章の「自動販売機はコンピュータ理解の始まり」である。

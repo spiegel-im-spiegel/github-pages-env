@@ -7,7 +7,7 @@ tags = ["golang", "struct", "tags", "marshal", "xml"]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -48,7 +48,7 @@ if err := xml.Unmarshal([]byte(xmldata), stdata); err != nil {
   xmlns:dc="http://purl.org/dc/terms/"
   xmlns:cc="http://web.resource.org/cc/"
 >
-  <foaf:Document rdf:about="http://text.baldanders.info/">
+  <foaf:Document rdf:about="https://text.baldanders.info/">
     <dc:title lang="ja">text.Baldanders.info</dc:title>
     <dc:creator>Spiegel</dc:creator>
     <dc:date>2018-03-16T20:40:27+09:00</dc:date>
@@ -191,7 +191,7 @@ var xmldata = `
   xmlns:dc="http://purl.org/dc/terms/"
   xmlns:cc="http://web.resource.org/cc/"
 >
-  <foaf:Document rdf:about="http://text.baldanders.info/">
+  <foaf:Document rdf:about="https://text.baldanders.info/">
     <dc:title lang="ja">text.Baldanders.info</dc:title>
     <dc:creator>Spiegel</dc:creator>
     <dc:date>2018-03-16T20:40:27+09:00</dc:date>

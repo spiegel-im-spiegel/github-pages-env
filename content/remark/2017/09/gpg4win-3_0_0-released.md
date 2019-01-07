@@ -14,7 +14,7 @@ tags = [
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -70,7 +70,7 @@ tags = [
 
 - [グーグルのメール暗号化Chromeアプリケーション「E2EMail」がオープンソースに - ZDNet Japan](https://japan.zdnet.com/article/35097359/)
 
-- [わかる！ OpenPGP 暗号](http://www.baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
+- [わかる！ OpenPGP 暗号](https://baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
 - [GnuPG for Windows ― インストール編]({{< ref "/remark/2016/03/using-gnupg-modern-version-1.md" >}})
 - [GnuPG for Windows ― gpg-agent について]({{< ref "/remark/2016/03/using-gnupg-modern-version-2.md" >}})
 

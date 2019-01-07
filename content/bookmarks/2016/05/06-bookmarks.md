@@ -16,7 +16,7 @@ title = "2016-05-06 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [「OpenSSL」に6件の脆弱性、修正を施した最新版v1.0.2h/v1.0.1tが公開 - 窓の杜](http://www.forest.impress.co.jp/docs/news/20160506_756180.html)

@@ -16,7 +16,7 @@ title = "2016-05-25 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [JASRAC対ファンキー末吉氏の地裁判決文が公開されました(栗原潔) - 個人 - Yahoo!ニュース](http://bylines.news.yahoo.co.jp/kuriharakiyoshi/20160525-00058033/)

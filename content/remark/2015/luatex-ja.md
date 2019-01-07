@@ -8,7 +8,7 @@ title = "LuaTeX-ja に関する覚え書き"
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -25,7 +25,7 @@ title = "LuaTeX-ja に関する覚え書き"
   mermaidjs = false
 +++
 
-（これは[2014年9月12日に公開した記事](http://www.baldanders.info/mdwiki/#!luatexja.md)を再構成したものです）
+（これは[2014年9月12日に公開した記事](https://baldanders.info/mdwiki/#!luatexja.md)を再構成したものです）
 
 $\mathrm{Lua\TeX}$ では $\mathrm{pdf\TeX}$ と同等のことができ， DVI ファイルではなく PDF ファイルを直接出力する。
 なおかつ callback を記述することにより内部処理に割り込みをかけ機能拡張することが可能になっている。
@@ -206,12 +206,12 @@ $ tlmgr update --self --all
     pdfkeywords={LuaTeX-ja, PDF/A},
     pdfcopyright={Written by Spiegel on 2014,2017, and licensed under CC-BY.},
     pdflicenseurl={http://creativecommons.org/licenses/by/4.0/},
-    pdfcontacturl={http://www.baldanders.info/},
+    pdfcontacturl={https://baldanders.info/},
     pdfcontactcity={Hiroshima},
     pdfcontactcountry={Japan},
     pdfcontactregion={JA},
     pdfcaptionwriter={Spiegel},
-    baseurl={http://text.baldanders.info/remark/2015/luatex-ja/},
+    baseurl={https://text.baldanders.info/remark/2015/luatex-ja/},
     draft=false,
     bookmarks=true,
     bookmarksnumbered=true,
@@ -309,12 +309,12 @@ $max_repeat                  = 5;
     pdfkeywords={LuaTeX-ja, PDF/A},
     pdfcopyright={Written by Spiegel on 2014,2017, and licensed under CC-BY.},
     pdflicenseurl={http://creativecommons.org/licenses/by/4.0/},
-    pdfcontacturl={http://www.baldanders.info/},
+    pdfcontacturl={https://baldanders.info/},
     pdfcontactcity={Hiroshima},
     pdfcontactcountry={Japan},
     pdfcontactregion={JA},
     pdfcaptionwriter={Spiegel},
-    baseurl={http://text.baldanders.info/remark/2015/luatex-ja/},
+    baseurl={https://text.baldanders.info/remark/2015/luatex-ja/},
     draft=false,
     bookmarks=true,
     bookmarksnumbered=true,

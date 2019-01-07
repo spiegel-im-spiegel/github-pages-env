@@ -7,7 +7,7 @@ tags = ["security", "cryptography", "hash", "risk", "management"]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -264,8 +264,8 @@ main table.nist4 td  {
 
 ## ブックマーク
 
-- [CRYPTREC Report 2013 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000740.shtml)
-- [Prohibiting RC4 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000810.shtml)
+- [CRYPTREC Report 2013 — Baldanders.info](https://baldanders.info/spiegel/log2/000740.shtml)
+- [Prohibiting RC4 — Baldanders.info](https://baldanders.info/spiegel/log2/000810.shtml)
 - [CRYPTREC | SHA-1の安全性について](http://www.cryptrec.go.jp/topics/cryptrec_20151218_sha1_cryptanalysis.html)
     - {{< pdf-file title="CRYPTREC暗号技術ガイドライン(SHA-1)" link="http://www.cryptrec.go.jp/report/c13_tech_guideline_SHA-1_web.pdf" >}}
 - [scryptがGPUに破られる時 | びりあるの研究ノート](https://blog.visvirial.com/articles/519)

@@ -12,7 +12,7 @@
 
 - [spiegel-im-spiegel/pi: Estimate of Pi with Monte Carlo method.](https://github.com/spiegel-im-spiegel/pi)
 
-これは[モンテカルロ法で遊んでた](http://text.baldanders.info/golang/estimate-of-pi/)ときに作ったものなので，最悪ぶっ壊れてもいいのである。
+これは[モンテカルロ法で遊んでた](https://text.baldanders.info/golang/estimate-of-pi/)ときに作ったものなので，最悪ぶっ壊れてもいいのである。
 では移行を始めよう。
 
 ## [dep] の取得

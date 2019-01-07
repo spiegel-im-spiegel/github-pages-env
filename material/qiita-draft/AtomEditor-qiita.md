@@ -155,7 +155,7 @@ indent_size = 4
 ```
 
 - [行末の空白は EditorConfig で始末しましょう - Qiita](http://qiita.com/spiegel-im-spiegel/items/a1b4d1ad2a6693ae33e4) : ファイル読み込み時の文字エンコーディングの自動判別についても紹介
-- [【ATOM Editor】 EditorConfig を使うなら Whitespace は不要 — しっぽのさきっちょ | text.Baldanders.info](http://text.baldanders.info/remark/2016/10/warnig-from-editorconfig-at-atom/)
+- [【ATOM Editor】 EditorConfig を使うなら Whitespace は不要 — しっぽのさきっちょ | text.Baldanders.info](https://text.baldanders.info/remark/2016/10/warnig-from-editorconfig-at-atom/)
 
 [EditorConfig]: http://editorconfig.org/ "EditorConfig"
 
@@ -282,7 +282,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 順次更新予定。
 
 - grep。 `project-find` ではなくて普通の grep。 Windows には grep は標準ではないので，今まではエディタ内蔵の grep を使ってた。
-- [結城浩さんの amazon.mac](http://d.hatena.ne.jp/hyuki/20120413/amazon) が結構便利でよく使うのだが，同等の機能のものがないだろうか。処理自体は簡単だし自前で作る手もあるが，それならちゃんとパッケージについて勉強しないとなぁ。 → [自作しました](http://text.baldanders.info/remark/2015/insert-amazon-url-with-associate-id-in-atom-editor/)
+- [結城浩さんの amazon.mac](http://d.hatena.ne.jp/hyuki/20120413/amazon) が結構便利でよく使うのだが，同等の機能のものがないだろうか。処理自体は簡単だし自前で作る手もあるが，それならちゃんとパッケージについて勉強しないとなぁ。 → [自作しました](https://text.baldanders.info/remark/2015/insert-amazon-url-with-associate-id-in-atom-editor/)
 - ファイル読み込み時の文字エンコーディング自動判別は[自前で何とかできた](http://qiita.com/spiegel-im-spiegel/items/a1b4d1ad2a6693ae33e4)が，あとは文字エンコード変換かぁ → [auto-encoding](https://atom.io/packages/auto-encoding) パッケージで自動判別できるようだ
 
 ちなみに，10万行の CSV ファイル（Shit-JIS エンコード）を読み込ませたら，文字エンコード変換中にハングアップした。たかだかそれくらいで動かなくなるとか，まだまだ秀丸は手放せないなぁ sigh...
@@ -348,7 +348,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - [Atomのパッケージが急に動かなくなった！ - Qiita](http://qiita.com/wh11e7rue/items/545c0a26c609cec9487d) : パッケージの修復方法
 - [Atomに現在日時を挿入するコマンドを追加する - Qiita](http://qiita.com/toruot/items/b26fde1a898bb52985e1)
     - [日付を挿入するキーマップをAtomに追加 | Jun Nishii](http://bcl.sci.yamaguchi-u.ac.jp/~jun/ja/blog/150221-insert_date_keymap_to_atom)
-    - [ATOM Editor で現在日時を挿入する — しっぽのさきっちょ | text.Baldanders.info](http://text.baldanders.info/remark/2015/insert-datetime-in-atom-editor/)
+    - [ATOM Editor で現在日時を挿入する — しっぽのさきっちょ | text.Baldanders.info](https://text.baldanders.info/remark/2015/insert-datetime-in-atom-editor/)
 - [ATOMでながら作業が捗るパッケージ紹介 - Qiita](http://qiita.com/nekobato/items/5b1e4e2f4f328466cc1d)
 - [Atom でリモートのファイルを操作するプラグイン remote-ftp | Lonely Mobiler](http://loumo.jp/wp/archive/20151004000041/) : [remote-ftp](https://atom.io/packages/remote-ftp) の使い方 FTP/FTPS/SFTP が使えるようだ。 Windows 環境では pageant が使えるらしい
 	- [Atom Package「Remote-ftp」のローカルでのあれこれ - Qiita](http://qiita.com/makoto1007/items/3fb628796a880ddbea15)
@@ -359,7 +359,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - [Atomのscriptパッケージでbundle exec付きで実行する - Qiita](http://qiita.com/Kesin11/items/75b400e45220124e1569)
 - [JSON・CSVからピボットテーブルを作ってくれるAtomパッケージ - Qiita](http://qiita.com/takeyuichi/items/1ea77ce7f3d0eeb1c206)
 - [gitでcloneしてきたAtomのPackageをインストールする - Qiita](http://qiita.com/CODA/items/b0086a9aac858132c419)
-- [ATOM Editor で Amazon Associate ID を含んだ商品 URL を生成する — しっぽのさきっちょ | text.Baldanders.info](http://text.baldanders.info/remark/2015/insert-amazon-url-with-associate-id-in-atom-editor/)
+- [ATOM Editor で Amazon Associate ID を含んだ商品 URL を生成する — しっぽのさきっちょ | text.Baldanders.info](https://text.baldanders.info/remark/2015/insert-amazon-url-with-associate-id-in-atom-editor/)
 
 ### パッケージを作ってみた
 
@@ -404,7 +404,7 @@ GitHub が作ったという割には git 機能が貧弱なのは何故なの�
 - [AtomでSalesforceの開発環境構築 - Qiita](http://qiita.com/s_ikezawa/items/ffd656f51af538ceaccb)
 - [Atomのterminal-plusが動かないのでplatformio-ide-terminalを入れてみた | spiffieldLabs](http://labs.spiffield.net/archives/508)
 	- [ATOMエディタではじめるマイナー言語探訪(あんま怖くないNim②) - Qiita](http://qiita.com/kmry2045/items/b61a000ff257c01720e4)
-    - [ATOM × NYAGOS ＝ ♥ — しっぽのさきっちょ | text.Baldanders.info](http://text.baldanders.info/remark/2016/11/nyagos-with-atom/)
+    - [ATOM × NYAGOS ＝ ♥ — しっぽのさきっちょ | text.Baldanders.info](https://text.baldanders.info/remark/2016/11/nyagos-with-atom/)
 - [ATOMでJavaScriptの最強開発環境を作る - Qiita](http://qiita.com/uk-taniyama/items/35aad2e9280939201c4f)
 - [AtomにESLint導入した - Qiita](http://qiita.com/pechefamille/items/40966a0c78846f4053c9)
 

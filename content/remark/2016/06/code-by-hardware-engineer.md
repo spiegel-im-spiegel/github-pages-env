@@ -17,7 +17,7 @@ title = "ハード屋が書く C ソースコードが凄まじかった思い�
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 これは[ちょうど1年前に Medium で書いた記事](https://medium.com/@spiegel/-1ca9e4895f4c)の再掲載である。
@@ -34,7 +34,7 @@ title = "ハード屋が書く C ソースコードが凄まじかった思い�
 この件では，若いころのほろ苦い思い出がある。
 
 私は若いころは「システムハウス」と呼ばれる類の会社にいたのだが，そこではハードとソフトの両面で開発を進められるのが「売り」だった。
-[私はハードは壊滅的にダメ](http://www.baldanders.info/spiegel/log2/000529.shtml "私はこうしてプログラミングを覚えた — Baldanders.info")なのでソフトウェア担当。
+[私はハードは壊滅的にダメ](https://baldanders.info/spiegel/log2/000529.shtml "私はこうしてプログラミングを覚えた — Baldanders.info")なのでソフトウェア担当。
 当時のハード屋は自分が組んだ回路の実証のために自分でもプログラムを組んで動作確認する。
 私たちソフト屋はそのコードをもらって実際のコードを書くわけだが，この実証コードが凄まじかった。
 

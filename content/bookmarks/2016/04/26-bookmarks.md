@@ -16,7 +16,7 @@ title = "2016-04-26 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [さくらのクラウドにおいて共通のSSHホスト鍵が使用されている問題 - Qiita](http://qiita.com/suzukis/items/599e0bf9aab531101d5e)

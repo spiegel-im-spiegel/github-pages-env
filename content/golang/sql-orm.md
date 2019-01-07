@@ -7,7 +7,7 @@ tags        = [ "golang", "programming", "sqlite", "sql", "orm" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -133,7 +133,7 @@ if psql, args, err := squirrel.Select("date_update").From("vulnlist").Where(squi
 - [Go 言語で SQLite を使う（Windows 向けの紹介）]({{< relref "localhost:1313/golang/sqlite-with-golang-in-windows.md" >}})
 - [spiegel-im-spiegel/go-myjvn: Handling MyJVN RESTful API by Golang](https://github.com/spiegel-im-spiegel/go-myjvn)
     - [go-myjvn パッケージを作ってみた]({{< ref "/release/2018/03/go-myjvn-v0_1_0-released.md" >}})
-    - [MyJVN API に関する覚え書き — しっぽのさきっちょ | text.Baldanders.info](http://text.baldanders.info/remark/2018/03/myjvn-api/)
+    - [MyJVN API に関する覚え書き]({{< ref "/remark/2018/03/myjvn-api.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [jvnman]: https://github.com/spiegel-im-spiegel/jvnman "spiegel-im-spiegel/jvnman: JVN Vulnerability Data Management"

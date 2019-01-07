@@ -17,7 +17,7 @@ draft = false
   license = "by-sa"
   twitter = "spiegel_2007"
   github = "spiegel-im-spiegel"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   linkedin = "spiegelimspiegel"
 +++
 
@@ -38,7 +38,7 @@ draft = false
 
 そもそもインターネットが（現状はともかく理想としては）分散型のネットワークだし，電子メールだって Web だって分散型のサービスだ。
 今世紀に入ってからなら Tor や Blockchain を含めてもいいかもしれない。
-いわゆる「[技術的ゲートキーパ](http://www.baldanders.info/spiegel/log2/000490.shtml "監視をコントロールする — Baldanders.info")」を迂回できるというのは大きい。
+いわゆる「[技術的ゲートキーパ](https://baldanders.info/spiegel/log2/000490.shtml "監視をコントロールする — Baldanders.info")」を迂回できるというのは大きい。
 
 でも実際には分散型サービスって成功例があんまり無いんだよね。
 みんな思いつくけど（そして作ろうと思えば作れるけど）続かない。

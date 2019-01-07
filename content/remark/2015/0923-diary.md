@@ -16,7 +16,7 @@ title = "今日の戯れ言：SW 終わった"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 シルバー・ウィーク終わりましたね。
@@ -42,7 +42,7 @@ title = "今日の戯れ言：SW 終わった"
 たとえば，無線 LAN は素通しでも上位レイヤで認証を行う [FON](https://corp.fon.com/) のようなやり方や，いっそ全てのアクセスポイントを無線メッシュネットワークでつなぐ[^b] というのならまだ分かる。
 [Makuake](https://www.makuake.com/) は無線 LAN へのアクセスを売り買いすることでマネタイズできると考えているようだが， PSK が知れ渡れば誰でもいくらでもサービスを迂回できてしまう（あるいは WIFI シェアを迂回して接続するアプリだって作れるだろう）。
 
-[^b]: 拙文「[“The Shadow Web” — Baldanders.info](http://www.baldanders.info/spiegel/log2/000599.shtml)」参照。
+[^b]: 拙文「[“The Shadow Web” — Baldanders.info](https://baldanders.info/spiegel/log2/000599.shtml)」参照。
 
 なんでこんなサービスがうまくいくと考えているのかよく分からないが，クラウド・ファンディングで資金を集めたところを見ると「うまくいく」と思っている人が多いということなのだろう。
 やれやれ。
@@ -67,7 +67,7 @@ content blocker って何でもブロックできちゃうのね。
 ブラックリストがかろうじて機能しているのは parental control や企業向けファイアウォールくらいだろう。
 この場合でもフィルタ設定をかなり慎重にやらないと，やはり「能動的失敗」を引き起こすことになる。
 
-その昔， [iPad を使ってた頃](http://www.baldanders.info/spiegel/log2/000487.shtml)は微妙に Safari が気に食わなかった。
+その昔， [iPad を使ってた頃](https://baldanders.info/spiegel/log2/000487.shtml)は微妙に Safari が気に食わなかった。
 何故か Safari はコンテンツを勝手に改変する。
 たとえばコンテンツ中に数字列があれば電話番号と判断して妙ちきりんなリンクを張ってくさる。
 まぁ，もう Apple 製品は懲りたので，今となってはどうでもいい話なのだが。

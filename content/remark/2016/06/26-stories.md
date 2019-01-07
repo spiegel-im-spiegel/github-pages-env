@@ -18,7 +18,7 @@ title = "週末スペシャル： 英国の EU 離脱，他"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 最近のカープは何事ですか。

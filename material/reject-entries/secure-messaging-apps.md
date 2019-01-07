@@ -8,7 +8,7 @@ draft = true
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -27,8 +27,8 @@ draft = true
 
 4年前に EFF (Electronic Frontier Foundation) による暗号化メッセージング・アプリの評価を紹介した。
 
-- [安全なメッセージング・アプリとは（追記あり） — Baldanders.info](http://www.baldanders.info/spiegel/log2/000782.shtml)
-- [安全なメッセージング・アプリ（ちょびっと改訂） — Baldanders.info](http://www.baldanders.info/spiegel/log2/000800.shtml)
+- [安全なメッセージング・アプリとは（追記あり） — Baldanders.info](https://baldanders.info/spiegel/log2/000782.shtml)
+- [安全なメッセージング・アプリ（ちょびっと改訂） — Baldanders.info](https://baldanders.info/spiegel/log2/000800.shtml)
 
 これは7つの要件を挙げて，それぞれの要件を
 

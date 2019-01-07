@@ -15,7 +15,7 @@ var xmldata = `
   xmlns:dc="http://purl.org/dc/terms/"
   xmlns:cc="http://web.resource.org/cc/"
 >
-  <foaf:Document rdf:about="http://text.baldanders.info/">
+  <foaf:Document rdf:about="https://text.baldanders.info/">
     <dc:title lang="ja">text.Baldanders.info</dc:title>
 	<dc:creator>Spiegel</dc:creator>
 	<dc:date>2018-03-13T11:57:52+09:00</dc:date>

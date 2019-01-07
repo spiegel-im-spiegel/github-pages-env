@@ -17,7 +17,7 @@ title = "ATOM で Go"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 今回もまた横道に逸れてツールの話。

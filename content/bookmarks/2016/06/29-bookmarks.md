@@ -16,7 +16,7 @@ title = "2016-06-29 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [フリーのオフィス統合環境「LibreOffice」に脆弱性、最新版で修正済み - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1007779.html)

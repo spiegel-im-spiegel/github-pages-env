@@ -17,7 +17,7 @@ title = "文字列連結はどれが速い？"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 （初出： [Golang の文字列連結はどちらが速い？ - Qiita](http://qiita.com/spiegel-im-spiegel/items/16ab7dabbd0749281227)）
@@ -236,7 +236,7 @@ func BenchmarkWriteBuffer2Cap1K(b *testing.B) {
 | `BenchmarkWriteBuffer2Cap128` | [`bytes`]`.Buffer` に追記する（ capacity 128B） |
 | `BenchmarkWriteBuffer2Cap1K`  | [`bytes`]`.Buffer` に追記する（ capacity 1KB） |
 
-入力テキストだが，小さいファイルではテストにならない気がしたので，大昔に書いたテキスト [`CollisionsForHashFunctions.txt`](http://www.baldanders.info/spiegel/archive/CollisionsForHashFunctions.txt) を使うことにした。
+入力テキストだが，小さいファイルではテストにならない気がしたので，大昔に書いたテキスト [`CollisionsForHashFunctions.txt`](https://baldanders.info/spiegel/archive/CollisionsForHashFunctions.txt) を使うことにした。
 サイズは70行，7KB ほど。
 
 ## テスト結果

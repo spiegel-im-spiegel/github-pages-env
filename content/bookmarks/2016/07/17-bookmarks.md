@@ -17,7 +17,7 @@ title = "2016-07-17 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [[Announce] Libgcrypt 1.7.2 released](https://lists.gnupg.org/pipermail/gnupg-announce/2016q3/000392.html)

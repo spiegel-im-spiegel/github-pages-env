@@ -17,7 +17,7 @@ title = "JavaScipt の演算誤差"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 今回は小ネタ。

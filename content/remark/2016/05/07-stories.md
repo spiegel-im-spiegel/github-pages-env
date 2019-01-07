@@ -17,7 +17,7 @@ title = "週末スペシャル： 自前でブックマークを運用するこ�
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 1. [自前でブックマークを運用することにしました]({{< relref "#bkmk" >}})

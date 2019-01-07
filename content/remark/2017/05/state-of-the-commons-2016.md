@@ -17,7 +17,7 @@ title = "State of the Commons 2016"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 
 +++
 
@@ -56,7 +56,7 @@ title = "State of the Commons 2016"
 ## ブックマーク
 
 - [Creative Commons — State of the Commons 2015 — It's been a remarkable year, most notably for the more than 1.1 billion works under one of the CC licenses, CC0, or the public domain mark.](https://stateof.creativecommons.org/2015/)
-- [Free Culture Licenses — Baldanders.info](http://www.baldanders.info/spiegel/log2/000796.shtml)
+- [Free Culture Licenses — Baldanders.info](https://baldanders.info/spiegel/log2/000796.shtml)
 - [「インターネットと発酵」]({{< ref "/remark/2016/12/fermented-internet.md" >}})
 - [新連載第1回：情報社会の未来を「発酵」に読む──「ドミニク チェンの醸され『発酵メディア』研究」｜WIRED.jp](http://wired.jp/series/ferment-media-research/01_microbes/)
 

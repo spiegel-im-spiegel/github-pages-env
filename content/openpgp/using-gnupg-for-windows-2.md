@@ -19,7 +19,7 @@ image = "/images/attention/openpgp.png"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 
 [scripts]
   mathjax = false

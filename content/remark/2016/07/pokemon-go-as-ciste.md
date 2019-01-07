@@ -17,7 +17,7 @@ title = "「シスト」としての Pokémon GO"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 ゲームというのはどんなものでも，そこに如何にして「物語」（あるいは「文脈」）を乗せるかがとても重要。
@@ -31,7 +31,7 @@ title = "「シスト」としての Pokémon GO"
 
 [^a]: ただし，マクドナルドのように提携店がポケストップやジムになっている場合もある。 [Ingress] では原則として店舗はポータルになれないため，これらは [Pokémon GO] 独自の場所である。もっとも [Ingress] でもローソンのような例外がある。今のところローソンはポケストップやジムになれないようだ。スポンサー提携は面白いけど「大人の事情」が大きく絡むので痛し痒しである。
 
-[Ingress] を始めた時に[思った](http://www.baldanders.info/spiegel/log2/000757.shtml "遅れてきた Agent — Baldanders.info")けど，見慣れた近所の風景でも知らないものがあって，そういうのを探して回るのが意外に楽しかったりする。
+[Ingress] を始めた時に[思った](https://baldanders.info/spiegel/log2/000757.shtml "遅れてきた Agent — Baldanders.info")けど，見慣れた近所の風景でも知らないものがあって，そういうのを探して回るのが意外に楽しかったりする。
 だから寧ろこれは「シスト」に近い。
 そういうワクワク感が [Ingress] や [Pokémon GO] にはある。
 単なる「虫捕りゲーム」ではないのですよ。

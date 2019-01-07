@@ -17,7 +17,7 @@ description = "まだちょこっと触っただけだが，ゲームパッド�
   flickr = "spiegel"
   license = "by-sa"
   avatar = "/images/avatar.jpg"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [MystがAndroidに登場、Rivenもまもなく | TechCrunch Japan](http://jp.techcrunch.com/2017/01/27/20170126myst-arrives-on-android-riven-to-follow-soon/)

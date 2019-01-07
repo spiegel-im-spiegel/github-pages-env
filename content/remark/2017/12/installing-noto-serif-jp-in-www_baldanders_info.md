@@ -7,7 +7,7 @@ tags        = [ "web", "site", "font", "character" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -78,21 +78,21 @@ WOFF2 は比較的新しいフォーマットだが，データの圧縮率が W
 /*
  * Original: Noto Serif CJK (Subset OTF; Japanese) https://www.google.com/get/noto/help/cjk/
  * Converted by WOFF Converter https://opentype.jp/woffconv.htm
- * License: http://www.baldanders.info/fonts/NotoSerifJP/LICENSE_OFL.txt
- * README: http://www.baldanders.info/fonts/NotoSerifJP/README
+ * License: https://baldanders.info/fonts/NotoSerifJP/LICENSE_OFL.txt
+ * README: https://baldanders.info/fonts/NotoSerifJP/README
  */
 @font-face {
   font-family: 'Noto Serif JP';
   font-style: normal;
-  src: url('http://www.baldanders.info/fonts/NotoSerifJP/NotoSerifJP-Regular.woff2') format('woff2'),
-       url('http://www.baldanders.info/fonts/NotoSerifJP/NotoSerifJP-Regular.woff') format('woff');
+  src: url('https://baldanders.info/fonts/NotoSerifJP/NotoSerifJP-Regular.woff2') format('woff2'),
+       url('https://baldanders.info/fonts/NotoSerifJP/NotoSerifJP-Regular.woff') format('woff');
   font-weight: 400;
 }
 @font-face {
   font-family: 'Noto Serif JP';
   font-style: normal;
-  src: url('http://www.baldanders.info/fonts/NotoSerifJP/NotoSerifJP-Bold.woff2') format('woff2'),
-       url('http://www.baldanders.info/fonts/NotoSerifJP/NotoSerifJP-Bold.woff') format('woff');
+  src: url('https://baldanders.info/fonts/NotoSerifJP/NotoSerifJP-Bold.woff2') format('woff2'),
+       url('https://baldanders.info/fonts/NotoSerifJP/NotoSerifJP-Bold.woff') format('woff');
   font-weight: 700;
 }
 ```
@@ -113,7 +113,7 @@ body {
 今回は[本家サイト]に Noto Serif JP を導入し，それをこのブログサイトでも使おうと目論んでいるのだが，単純に
 
 ```html
-<link rel='stylesheet' href='http://www.baldanders.info/fonts/NotoSerifJP/NotoSerifJP.css' type='text/css'>
+<link rel='stylesheet' href='https://baldanders.info/fonts/NotoSerifJP/NotoSerifJP.css' type='text/css'>
 ```
 
 と Web フォントを記述した CSS ファイルをリンクしただけでは使えない。
@@ -198,5 +198,5 @@ h1, h2, h3, h4, h5, h6, em, strong {
 
 - [Web フォントに関する覚え書き（明朝体編）]({{< ref "/remark/2016/10/japanese-serif-fonts-by-google-cdn.md" >}})
 
-[本家サイト]: http://www.baldanders.info/ "Baldanders.info"
+[本家サイト]: https://baldanders.info/ "Baldanders.info"
 [さわらび明朝]: http://sawarabi-fonts.osdn.jp/ "さわらびフォント"

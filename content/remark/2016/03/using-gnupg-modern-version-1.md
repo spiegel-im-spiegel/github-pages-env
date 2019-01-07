@@ -18,7 +18,7 @@ title = "GnuPG for Windows ― インストール編"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 (move to [{{< ref "/openpgp/using-gnupg-for-windows-1.md" >}}]({{< ref "/openpgp/using-gnupg-for-windows-1.md" >}} "GnuPG for Windows インストール編"))

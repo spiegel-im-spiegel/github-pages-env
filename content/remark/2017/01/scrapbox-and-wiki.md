@@ -8,7 +8,7 @@ title = "Scrapbox または Wiki で再び遊ぶ"
 
 [author]
   facebook = "spiegel.im.spiegel"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   license = "by-sa"
   linkedin = "spiegelimspiegel"
   flattr = ""
@@ -63,7 +63,7 @@ TL をもつサービスでは，上げたものはただ流れ去るだけで�
 で，当面の問題は私が Wiki 記法をほとんど忘れてるってことなんだよなぁ[^w]。
 Markdown に慣れすぎてしまった。
 
-[^w]: 昔は[本家サイト](http://www.baldanders.info/ "Baldanders.info")に Wiki を設置して遊んでいたが， spam の対処に困って閉鎖してしまった。ユーザ認証とかしてなかったからなぁ。
+[^w]: 昔は[本家サイト](https://baldanders.info/ "Baldanders.info")に Wiki を設置して遊んでいたが， spam の対処に困って閉鎖してしまった。ユーザ認証とかしてなかったからなぁ。
 
 ## ブックマーク
 

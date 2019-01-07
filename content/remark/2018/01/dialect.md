@@ -8,7 +8,7 @@ tags        = [ "japanese", "language" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -72,5 +72,5 @@ Facebook で知り合いが話題にしてて，最初何を言ってるのか�
 
 ## ブックマーク
 
-- [『排除型社会』を読む — Baldanders.info](http://www.baldanders.info/spiegel/log2/000410.shtml)
-- [多文化主義的言語論 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000421.shtml)
+- [『排除型社会』を読む — Baldanders.info](https://baldanders.info/spiegel/log2/000410.shtml)
+- [多文化主義的言語論 — Baldanders.info](https://baldanders.info/spiegel/log2/000421.shtml)

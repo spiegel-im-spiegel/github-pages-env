@@ -18,7 +18,7 @@ title = "ようやく『反知性主義』を読んだ"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 これ買ったのは[昨年の10月]({{< ref "/remark/2015/1017-diary.md" >}} "今日の戯れ言：TUTAYA というか CCC 図書館")なので読み終わるのに11ヶ月もかかったことになる。

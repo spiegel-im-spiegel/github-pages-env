@@ -15,7 +15,7 @@ title = "「インターネットと発酵」"
   linkedin = "spiegelimspiegel"
   flattr = ""
   facebook = "spiegel.im.spiegel"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   instagram = "spiegel_2007"
   license = "by-sa"
   github = "spiegel-im-spiegel"
@@ -39,8 +39,8 @@ title = "「インターネットと発酵」"
 実は2005年頃に既に [essa](http://d.hatena.ne.jp/essa/ "アンカテ") さんを中心として話題にのぼってるのよ。
 上の対談記事を読んでて思い出した。
 
-- [腐敗と発酵](http://www.baldanders.info/spiegel/log/200511.html#d26_t1 "[鏡] しっぽのさきっちょ 2005年11月 -- Spiegel's Trunk")
-- [腐敗と発酵 2](http://www.baldanders.info/spiegel/log/200512.html#d01_t2 "[鏡] しっぽのさきっちょ 2005年12月 -- Spiegel's Trunk")
+- [腐敗と発酵](https://baldanders.info/spiegel/log/200511.html#d26_t1 "[鏡] しっぽのさきっちょ 2005年11月 -- Spiegel's Trunk")
+- [腐敗と発酵 2](https://baldanders.info/spiegel/log/200512.html#d01_t2 "[鏡] しっぽのさきっちょ 2005年12月 -- Spiegel's Trunk")
 
 プチプチとリンク切れを起こしてるので当時の全てを追うことはできないが，せっかくなので当時の私の戯れ言を少し引いてみる。
 
@@ -50,23 +50,23 @@ title = "「インターネットと発酵」"
 
 > 今や「オープンソース」といえば Linux だが， Linux はまさに「自然発酵」時代が生んだ特異な製品だと思う。同じことはおそらくもう二度と起こらないのではないだろうか。その代わり GNU からオープンソースへ繋がる貴重な経験を手にした。その経験は理論と技術に昇華される。
 
-ちなみに私は日本酒の[杜氏は本物のハッカー](http://www.baldanders.info/spiegel/log/200508.html#d21_t1 "[鏡] しっぽのさきっちょ 2005年08月 -- Spiegel's Trunk")だと思っている。
+ちなみに私は日本酒の[杜氏は本物のハッカー](https://baldanders.info/spiegel/log/200508.html#d21_t1 "[鏡] しっぽのさきっちょ 2005年08月 -- Spiegel's Trunk")だと思っている。
 だから上の発言になるわけだ。
 
 「制御発酵」を比喩としてとらえ，インターネット（当時は Web 2.0 と呼んでいたがやっぱりバズワードのまま終わったね）に重ねあわせるのは，今にして思えば，案外うまいやり方だったかもしれない。
 
 [対談記事](https://note.mu/1000yalab/n/n1f63c339aeb8)でもうひとつ思い出したのは東浩紀さんの『ゲーム的リアリズムの誕生』だ。
 
-- [『ゲーム的リアリズムの誕生』を読む — Baldanders.info](http://www.baldanders.info/spiegel/log2/000306.shtml)
+- [『ゲーム的リアリズムの誕生』を読む — Baldanders.info](https://baldanders.info/spiegel/log2/000306.shtml)
 
 私自身はもう彼の文章を全く参照しないし，現時点では『ゲーム的リアリズムの誕生』を推すこともないのだが，当時の私にとっては頭の整理にちょうどよい本だった。
 これも当時の私の戯れ言から少し引いてみよう。
 
-{{< fig-quote title="『ゲーム的リアリズムの誕生』を読む" link="http://www.baldanders.info/spiegel/log2/000306.shtml" >}}
+{{< fig-quote title="『ゲーム的リアリズムの誕生』を読む" link="https://baldanders.info/spiegel/log2/000306.shtml" >}}
 <q>「コンテンツ志向メディア」の「物語」はコンテンツとして取引の対象にできる。つまり「コンテンツ志向メディア」ってのは私がよく書く「コンテナ」を指すものであり，また市場を指すものでもある。一方，「コミュニケーション志向メディア」の「物語」は取引の対象にできない。なぜならそれは「コミュニケーション」の構成員の間で共有されることによってのみ存続し得るからだ。すなわち「コミュニケーション志向メディア」とはコミュニティ（あるいはコミュニティの間にあるなにか。コモンズ？）を指すものだと言えないだろうか。</q>
 {{< /fig-quote >}}
 
-{{< fig-quote title="『ゲーム的リアリズムの誕生』を読む" link="http://www.baldanders.info/spiegel/log2/000306.shtml" >}}
+{{< fig-quote title="『ゲーム的リアリズムの誕生』を読む" link="https://baldanders.info/spiegel/log2/000306.shtml" >}}
 <q>一度「コンテンツ志向メディア」に載ったコンテンツは，そのままでは「コミュニケーション志向メディア」に回収できない。「コミュニケーション志向メディア」に回収するには一度ガジェットにまで解体する必要がある。消費者は「授かった物語（＝コンテンツ）」をただ貪り食うのではなく，「活動（Action）」すなわちコミュニケーションの中で解体し無数の「物語」に再構築する。再構築された「物語」は再びコンテンツに実装され消費者に降りてくる。「物語」は2つのメディアを往復する間に破壊と再生を繰り返し多様性を増していく。つまり「物語」自体にリアルがあるのではなく，「物語」の生成サイクルにこそリアルがある。</q>
 {{< /fig-quote >}}
 
@@ -75,7 +75,7 @@ title = "「インターネットと発酵」"
 
 Generativity といえば yomoyomo さんの「情報共有の未来」かな。
 
-- [『情報共有の未来』を読む — Baldanders.info](http://www.baldanders.info/spiegel/log2/000611.shtml)
+- [『情報共有の未来』を読む — Baldanders.info](https://baldanders.info/spiegel/log2/000611.shtml)
 
 Generativity は造語なので訳すのが難しいっぽいのだがドミニク・チェンさんは「継承性」と訳されているようだ。
 「継承性」は生物の繁殖と密接な関係がある。
@@ -94,7 +94,7 @@ Generativity は造語なので訳すのが難しいっぽいのだがドミニ�
 量や強度が重要なのであれば互いに ACK (acknowledgement)[^l] を返し合っていればいいのであって，それなら手段にこだわる必要もない。
 
 [^e]: Engagement は本来は量を意味するものじゃないのに，ネットでは量を示す指標として評価される。
-[^l]: Facebook の「いいね」とか Twitter の ♥ とか。（[「好き」の反対は「嫌い」ではなく「無関心」](http://www.baldanders.info/spiegel/log2/000511.shtml)）
+[^l]: Facebook の「いいね」とか Twitter の ♥ とか。（[「好き」の反対は「嫌い」ではなく「無関心」](https://baldanders.info/spiegel/log2/000511.shtml)）
 
 今回読んだ[対談記事](https://note.mu/1000yalab/n/n1f63c339aeb8)では出てこなかったが，現在ネットでもっとも「継承性」が高い（もしくは発酵している）のは git/[GitHub](https://github.com/) 周辺だと思う[^q]。
 Git/[GitHub](https://github.com/) が作り出すコミュニティでは「まずコードをアウトプットする」ことが求められる。
@@ -130,6 +130,6 @@ Git/[GitHub](https://github.com/) が作り出すコミュニティでは「ま�
 		<dd>達人出版会 2011-12-30</dd>
 		<dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr></dd>
 	</dl>
-<p class="description">同名ブログの書籍化。感想は<a href="http://www.baldanders.info/spiegel/log2/000611.shtml">こちら</a>。</p>
+<p class="description">同名ブログの書籍化。感想は<a href="https://baldanders.info/spiegel/log2/000611.shtml">こちら</a>。</p>
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-12-14">2017-12-14</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
 </div>

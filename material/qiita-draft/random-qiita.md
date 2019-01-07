@@ -58,7 +58,7 @@ $ go run zundoko.go
 
 この処理の内容については本家ブログで解説している。
 
-- [「ズンドコチェック」なるものが流行っているらしい — プログラミング言語 Go | text.Baldanders.info](http://text.baldanders.info/golang/zundoko-choir/)
+- [「ズンドコチェック」なるものが流行っているらしい — プログラミング言語 Go | text.Baldanders.info](https://text.baldanders.info/golang/zundoko-choir/)
 
 今回は「ズン」「ドコ」の配列を生成している部分 `generate()` のうち擬似乱数について紹介しておく。
 

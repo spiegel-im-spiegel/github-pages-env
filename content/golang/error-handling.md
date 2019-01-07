@@ -17,7 +17,7 @@ title = "エラー・ハンドリングについて（追記あり）"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 C++ や Java のような言語圏から来た（私のような）人間にとって [Go 言語]の「オブジェクト指向」はかなり異質なのだが，慣れてみると逆にとても合理的に見えてくる。

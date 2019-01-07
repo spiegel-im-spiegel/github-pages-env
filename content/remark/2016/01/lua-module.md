@@ -17,7 +17,7 @@ title = "Lua のモジュール"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 [NYAGOS] 4.1.0_0 がリリースされた。

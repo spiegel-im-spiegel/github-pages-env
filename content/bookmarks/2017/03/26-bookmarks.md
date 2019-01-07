@@ -6,7 +6,7 @@ draft = false
 
 [author]
   license = "by-sa"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   twitter = "spiegel_2007"
   flattr = ""
   github = "spiegel-im-spiegel"

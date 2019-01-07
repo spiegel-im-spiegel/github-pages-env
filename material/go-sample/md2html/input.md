@@ -29,7 +29,7 @@
 | 情報改ざんの可能性（完全性への影響, I） | 高（H）           |
 |   業務停止の可能性（可用性への影響, A） | 高（H）           |
 
-CVSS については[解説ページ](http://text.baldanders.info/remark/2015/cvss-v3-metrics-in-jvn/ "JVN が CVSSv3 による脆弱性評価を開始 — しっぽのさきっちょ | text.Baldanders.info")を参照のこと。
+CVSS については[解説ページ](https://text.baldanders.info/remark/2015/cvss-v3-metrics-in-jvn/ "JVN が CVSSv3 による脆弱性評価を開始 — しっぽのさきっちょ | text.Baldanders.info")を参照のこと。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [CVE-2018-6574]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=2018-6574

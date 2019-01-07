@@ -17,7 +17,7 @@ title = "ATOM Editor に関するメモ"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 この記事は [ATOM] エディタに関する情報を Qiita に投稿した記事から再構成したものである。

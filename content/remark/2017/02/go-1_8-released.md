@@ -9,7 +9,7 @@ draft = false
 [author]
   flickr = "spiegel"
   avatar = "/images/avatar.jpg"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   name = "Spiegel"
   flattr = ""
   twitter = "spiegel_2007"

@@ -17,7 +17,7 @@ title = "Categories や Tags の一覧ページを作る"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 今回は補足なので簡単に。

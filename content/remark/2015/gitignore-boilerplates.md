@@ -17,7 +17,7 @@ title = "gibo による .gitignore 生成（再掲載）"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 以前 [Qiita で書いた](http://qiita.com/spiegel-im-spiegel/items/45a4619aafcacc161521)が，復習を兼ねて再掲載する。

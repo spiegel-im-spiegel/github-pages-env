@@ -8,7 +8,7 @@ tags        = [ "tools", "markdown", "html", "golang" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -119,7 +119,7 @@ Options:
 | 情報改ざんの可能性（完全性への影響, I） | 高（H）           |
 |   業務停止の可能性（可用性への影響, A） | 高（H）           |
 
-CVSS については[解説ページ](http://text.baldanders.info/remark/2015/cvss-v3-metrics-in-jvn/ "JVN が CVSSv3 による脆弱性評価を開始 — しっぽのさきっちょ | text.Baldanders.info")を参照のこと。
+CVSS については[解説ページ](https://text.baldanders.info/remark/2015/cvss-v3-metrics-in-jvn/ "JVN が CVSSv3 による脆弱性評価を開始 — しっぽのさきっちょ | text.Baldanders.info")を参照のこと。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [CVE-2018-6574]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=2018-6574
@@ -216,7 +216,7 @@ Gcc and clang plugins are completely unrestricted in their access to the host sy
 </tbody>
 </table>
 
-<p>CVSS については<a href="http://text.baldanders.info/remark/2015/cvss-v3-metrics-in-jvn/" title="JVN が CVSSv3 による脆弱性評価を開始 — しっぽのさきっちょ | text.Baldanders.info">解説ページ</a>を参照のこと。</p>
+<p>CVSS については<a href="https://text.baldanders.info/remark/2015/cvss-v3-metrics-in-jvn/" title="JVN が CVSSv3 による脆弱性評価を開始 — しっぽのさきっちょ | text.Baldanders.info">解説ページ</a>を参照のこと。</p>
 
 </body>
 </html>
@@ -336,7 +336,7 @@ Gcc and clang plugins are completely unrestricted in their access to the host sy
 <td align="right">業務停止の可能性（可用性への影響, A）</td>
 <td align="left">高（H）</td>
 </tr></tbody></table>
-<p>CVSS については<a href="http://text.baldanders.info/remark/2015/cvss-v3-metrics-in-jvn/" title="JVN が CVSSv3 による脆弱性評価を開始 — しっぽのさきっちょ | text.Baldanders.info" rel="nofollow">解説ページ</a>を参照のこと。</p>
+<p>CVSS については<a href="https://text.baldanders.info/remark/2015/cvss-v3-metrics-in-jvn/" title="JVN が CVSSv3 による脆弱性評価を開始 — しっぽのさきっちょ | text.Baldanders.info" rel="nofollow">解説ページ</a>を参照のこと。</p>
 ```
 
 出力されるのは `<body>` 要素内の部分のみなので，ページとして体裁を整えるには別途 `<head>` 要素などを補う必要がある。

@@ -7,7 +7,7 @@ tags = [ "book", "code", "internet", "generativity", "grigori" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -80,7 +80,7 @@ tags = [ "book", "code", "internet", "generativity", "grigori" ]
 <q>理学は、真理の探究であり、工学は善の実現である。そして、藝術は美の表現である－－これで所謂「真美善」が揃う</q>
 {{< /fig-quote >}}
 
-何を以って「善」とするかは[非常に難しい](http://www.baldanders.info/spiegel/log2/000242.shtml "本当にヤバいのは「技術者」ではない人達だと思う — Baldanders.info")ところだが，少なくとも職業エンジニアとしての私はこれを自らの矜持として行動してきたつもりである。
+何を以って「善」とするかは[非常に難しい](https://baldanders.info/spiegel/log2/000242.shtml "本当にヤバいのは「技術者」ではない人達だと思う — Baldanders.info")ところだが，少なくとも職業エンジニアとしての私はこれを自らの矜持として行動してきたつもりである。
 
 『[情報共有の未来]』も，その続編たる『[続・情報共有の未来]』も [generativity] をキーワードにしている。
 もし [generativity] を「善」と位置付けるなら，如何にしてそれを実装するか試行錯誤するのが「狂狷の徒」たるエンジニアがインターネットに「参加」する条件だろう。
@@ -100,13 +100,13 @@ tags = [ "book", "code", "internet", "generativity", "grigori" ]
 以下に『[続・情報共有の未来]』の Web 連載時に反応した記事や関連しそうな記事を挙げてみた。
 参考になれば（私が）ラッキーということで。
 
-- [本当にヤバいのは「技術者」ではない人達だと思う — Baldanders.info](http://www.baldanders.info/spiegel/log2/000242.shtml)
-- [ディズニーランド的コモンズと Creative Commons — Baldanders.info](http://www.baldanders.info/spiegel/log2/000401.shtml)
-- [『情報共有の未来』を読む — Baldanders.info](http://www.baldanders.info/spiegel/log2/000611.shtml)
-- [『インテンション・エコノミー』を読む — Baldanders.info](http://www.baldanders.info/spiegel/log2/000638.shtml)
-- [恐るべき結婚 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000692.shtml)
-- [「ネット上の中傷やヘイトスピーチにどう対処すべきか」より — Baldanders.info](http://www.baldanders.info/spiegel/log2/000737.shtml)
-- [俺達がインターネットだ！ — Baldanders.info](http://www.baldanders.info/spiegel/log2/000794.shtml)
+- [本当にヤバいのは「技術者」ではない人達だと思う — Baldanders.info](https://baldanders.info/spiegel/log2/000242.shtml)
+- [ディズニーランド的コモンズと Creative Commons — Baldanders.info](https://baldanders.info/spiegel/log2/000401.shtml)
+- [『情報共有の未来』を読む — Baldanders.info](https://baldanders.info/spiegel/log2/000611.shtml)
+- [『インテンション・エコノミー』を読む — Baldanders.info](https://baldanders.info/spiegel/log2/000638.shtml)
+- [恐るべき結婚 — Baldanders.info](https://baldanders.info/spiegel/log2/000692.shtml)
+- [「ネット上の中傷やヘイトスピーチにどう対処すべきか」より — Baldanders.info](https://baldanders.info/spiegel/log2/000737.shtml)
+- [俺達がインターネットだ！ — Baldanders.info](https://baldanders.info/spiegel/log2/000794.shtml)
 
 - [『つながりっぱなしの日常を生きる』を読む]({{< ref "/remark/2016/05/its-complicated.md" >}})
 - [『フィルターバブル』を読む]({{< ref "/remark/2016/05/filter-bubble.md" >}})
@@ -177,7 +177,7 @@ tags = [ "book", "code", "internet", "generativity", "grigori" ]
         <i class="far fa-star"></i>
       </abbr></dd>
     </dl>
-    <p class="description">同名ブログの書籍化。感想は<a href="http://www.baldanders.info/spiegel/log2/000611.shtml">こちら</a>。</p>
+    <p class="description">同名ブログの書籍化。感想は<a href="https://baldanders.info/spiegel/log2/000611.shtml">こちら</a>。</p>
     <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018-12-31</abbr></p>
 </div>
 

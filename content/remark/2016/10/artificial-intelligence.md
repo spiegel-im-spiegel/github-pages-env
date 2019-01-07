@@ -18,7 +18,7 @@ title = "AI は人（の良心）を殺すか？"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 （[yomoyomo] さんの最近の記事は文章や記事の間の「行間」が絶妙に繋がってる感じで色々と触発されます。
@@ -186,7 +186,7 @@ AI は（今のところ）近似解に葛藤したりしない。
 ## 参考図書{#reference}
 
 <div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4903127044/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/417iD4x5N%2BL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4903127044/baldandersinf-22/">排除型社会―後期近代における犯罪・雇用・差異</a></dt><dd>ジョック ヤング Jock Young </dd><dd>洛北出版 2007-03</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4791764331/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4791764331.09._SCTHUMBZZZ_.jpg"  alt="後期近代の眩暈―排除から過剰包摂へ"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4255008515/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4255008515.09._SCTHUMBZZZ_.jpg"  alt="断片的なものの社会学"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4796700439/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4796700439.09._SCTHUMBZZZ_.jpg"  alt="スティグマの社会学―烙印を押されたアイデンティティ"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4791764242/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4791764242.09._SCTHUMBZZZ_.jpg"  alt="新しい貧困 労働消費主義ニュープア"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4062881357/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4062881357.09._SCTHUMBZZZ_.jpg"  alt="弱者の居場所がない社会――貧困・格差と社会的包摂 (講談社現代新書)"  /></a> </p>
-<p class="description"><a href="http://www.baldanders.info/spiegel/log2/000410.shtml">感想はこちら</a>。</p>
+<p class="description"><a href="https://baldanders.info/spiegel/log2/000410.shtml">感想はこちら</a>。</p>
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-09-15">2015-09-15</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
 </div>
 

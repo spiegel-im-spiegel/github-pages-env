@@ -17,7 +17,7 @@ title = "プログラミング言語との付き合い方"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [考えてみると結城はC, Perl, Javaの本は書いたけれど... - 結城浩の連ツイ](http://rentwi.textfile.org/?666213569055166464s)
@@ -77,7 +77,7 @@ title = "プログラミング言語との付き合い方"
 顧客の「言語化されない意図」をいかに聞き取れるかが重要。
 ホンマ「コミュニケーション用言語」なるものがあるなら欲しいよ。
 
-あぁでも，[要求開発](http://www.baldanders.info/spiegel/log2/000869.shtml)で使う「概念モデリング」は「コミュニケーション用言語」と言えなくもない？
+あぁでも，[要求開発](https://baldanders.info/spiegel/log2/000869.shtml)で使う「概念モデリング」は「コミュニケーション用言語」と言えなくもない？
 
 ## 言語を巡る愛憎
 

@@ -16,7 +16,7 @@ title = "2016-07-05 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [ジュノー、木星周回軌道へ投入成功 | 月探査情報ステーション](http://moonstation.jp/blog/planetaryexp/juno/successful-jupiter-orbit-entry-of-juno)

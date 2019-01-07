@@ -18,7 +18,7 @@ title = "週末スペシャル： まじめに規制に従っている人ほど�
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 
 [scripts]
   mathjax = false

@@ -17,7 +17,7 @@ title = "週末スペシャル： 「なぜ、いま「著作権」について�
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 1. [「なぜ、いま「著作権」について考えなければならないのか？」]({{< relref "#eu" >}})

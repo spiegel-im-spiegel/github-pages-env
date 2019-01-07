@@ -16,7 +16,7 @@ title = "うるう秒は当分存続らしい"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 某新聞で記事を見かけたが，このブログでは基本的に日本の新聞記事にリンクは張らない方針なので Facebook に愚痴だけ書いて済ませていたが， INTERNET Watch で詳しい記事を見つけたので，これをベースにグダグダ書いてみる。

@@ -8,7 +8,7 @@ update = "2017-01-18T22:53:07+09:00"
 
 [author]
   avatar = "/images/avatar.jpg"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   flickr = "spiegel"
   instagram = "spiegel_2007"
   twitter = "spiegel_2007"

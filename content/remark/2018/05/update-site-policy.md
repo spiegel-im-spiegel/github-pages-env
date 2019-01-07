@@ -7,7 +7,7 @@ tags = [ "site", "privacy", "policy", "gdpr" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -26,7 +26,7 @@ tags = [ "site", "privacy", "policy", "gdpr" ]
 
 GDPR (General Data Protection Regulation) 施行直前ということで，[本家サイト]とこのサイトのサイト・ポリシーを更新した。
 
-- [Baldanders.info について](http://www.baldanders.info/policy.shtml)
+- [Baldanders.info について](https://baldanders.info/policy.shtml)
 - [text.Baldanders.info について]({{< rlnk "/site-policy/" >}})
 
 といってもどちらも個人サイトだし（サーバが欧州にあるわけでもない），こちらで用意した盗聴器（Web bug）はないよ，と明記しただけ。
@@ -40,4 +40,4 @@ GDPR (General Data Protection Regulation) 施行直前ということで，[本�
 - [GDPR (EU 一般データ保護規則) 対策のために考えるべきポイント](https://www.avepoint.co.jp/community/japan-blog/gdpr-obligations-notice-choice-purpose-limitation-jp/)
 - [第11回　GDPR対応のための規程類の整備｜GDPRコラム｜EY Japan](https://www.eyjapan.jp/services/advisory/column/2018-01-23.html)
 
-[本家サイト]: http://www.baldanders.info/ "Baldanders.info"
+[本家サイト]: https://baldanders.info/ "Baldanders.info"

@@ -23,7 +23,7 @@ title = "GnuPG 2.1.20 がリリース"
   twitter = "spiegel_2007"
   license = "by-sa"
   facebook = "spiegel.im.spiegel"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   name = "Spiegel"
 +++
 

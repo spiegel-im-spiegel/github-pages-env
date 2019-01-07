@@ -17,7 +17,7 @@ title = "Apple の日本語サポートがクズ過ぎるので"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 今週出た Apple 製品の一連の脆弱性情報。
@@ -32,7 +32,7 @@ title = "Apple の日本語サポートがクズ過ぎるので"
 [iOS がロックスクリーンの脆弱性](http://news.mynavi.jp/news/2015/09/29/338/)に迅速に対処したのは（何かのついでなんだろうけど）素晴らしいんだけどね。
 OS X のほう。
 これ酷すぎないかい。
-たとえば bash の CVE-2014-6277, CVE-2014-7186, CVE-2014-7187 ってこれ1年前の [shellshock 脆弱性](http://www.baldanders.info/spiegel/log2/000743.shtml)じゃん。
+たとえば bash の CVE-2014-6277, CVE-2014-7186, CVE-2014-7187 ってこれ1年前の [shellshock 脆弱性](https://baldanders.info/spiegel/log2/000743.shtml)じゃん。
 あんなに大騒ぎになったのに，今頃かよ！
 
 ほんでもってこれらの脆弱性は Yosemite （およびそれ以前の）ユーザには手当てしないんだよね。

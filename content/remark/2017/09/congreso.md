@@ -6,7 +6,7 @@ tags        = [ "book" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by"
   github    = "spiegel-im-spiegel"
@@ -26,7 +26,7 @@ tags        = [ "book" ]
 
 [^gp]: Google Books の Google Print 計画が始まったのは2003年12月である。つまり，今更アーカイブがどうとか10年以上も周回遅れの話である。当時はデジタル・アーカイブやそれに伴う著作権処理について[世界中の「作家」を巻き込んでの大論争と大訴訟]({{< ref "/remark/2015/google-books-library-project.md" >}} "Google Books の Library Book Scan すら Fair Use と言われたのに...")が起こったが日本ではまるで認知されてないのかね。あるいはかつて「私的録音録画補償金制度」に関連して議論された，特定の DRM や再生機器に依存することの危険性について結局は誰も何も気にしていなかったということなのか。記録や記憶は（ものによってタイムスケールの違いはあれ）必ず風化する。君たちは風化して「なくなった」ものを「なかったことにする」つもりなのか。つくづく日本は「クール」じゃないよなぁ。
 
-ちうわけで，以前に[本家サイトで書いた記事](http://www.baldanders.info/spiegel/log2/000383.shtml "『砂の本』より： 「会議」 — Baldanders.info")を思い出したので再掲載してみる。
+ちうわけで，以前に[本家サイトで書いた記事](https://baldanders.info/spiegel/log2/000383.shtml "『砂の本』より： 「会議」 — Baldanders.info")を思い出したので再掲載してみる。
 これはホルヘ・ルイス・ボルヘスの『[砂の本]』に収録されている短編「会議」の読書感想文である。
 ネタバレに注意 ...しなくても大丈夫かな？
 

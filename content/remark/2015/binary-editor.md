@@ -18,7 +18,7 @@ title = "Windows 用バイナリ・エディタ"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 長らく組込み開発から離れているせいもあるが，昨今めっきりバイナリデータを触る機会が減った。

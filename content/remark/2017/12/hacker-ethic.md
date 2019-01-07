@@ -8,7 +8,7 @@ tags        = [ "code", "hacker-ethic" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by"
   github    = "spiegel-im-spiegel"
@@ -27,7 +27,7 @@ tags        = [ "code", "hacker-ethic" ]
 
 ここのところ立て続けに「狂」の字を見かけたせいで10年近く前に書いたこの記事を思い出してしまった。
 
-- [「狂狷の徒」 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000379.shtml)
+- [「狂狷の徒」 — Baldanders.info](https://baldanders.info/spiegel/log2/000379.shtml)
 
 折角なので再構成して再掲載する。
 記述は2008年当時のものなので，悪しからずご了承の程を。
@@ -130,7 +130,7 @@ yomoyomo さんの「[情報共有の未来](http://archive.wiredvision.co.jp/bl
         <i class="far fa-star"></i>
       </abbr></dd>
     </dl>
-    <p class="description">同名ブログの書籍化。感想は<a href="http://www.baldanders.info/spiegel/log2/000611.shtml">こちら</a>。早く<a href="https://tatsu-zine.com/books/infoshare2">続編</a>読まないと。</p>
+    <p class="description">同名ブログの書籍化。感想は<a href="https://baldanders.info/spiegel/log2/000611.shtml">こちら</a>。早く<a href="https://tatsu-zine.com/books/infoshare2">続編</a>読まないと。</p>
     <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.12.7</abbr></p>
 </div>
 

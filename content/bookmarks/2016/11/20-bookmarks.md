@@ -14,7 +14,7 @@ date = "2016-11-20T18:14:31+09:00"
   tumblr = ""
   facebook = "spiegel.im.spiegel"
   linkedin = "spiegelimspiegel"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   github = "spiegel-im-spiegel"
   flickr = "spiegel"
 +++

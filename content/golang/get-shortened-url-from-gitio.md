@@ -17,7 +17,7 @@ title = "Git.io から短縮 URL を取得するコード"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 （初出： [Git.io 短縮 URL を golang コードで取得してみる - Qiita](http://qiita.com/spiegel-im-spiegel/items/042751d98e315e4e3382)）

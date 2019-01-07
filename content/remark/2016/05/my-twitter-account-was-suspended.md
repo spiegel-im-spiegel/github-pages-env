@@ -18,7 +18,7 @@ title = "Twitter アカウントが凍結されました"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 つっても[メイン](https://twitter.com/spiegel_2007)じゃなくて [@security_inci](https://twitter.com/security_inci) のほう。
@@ -40,8 +40,8 @@ title = "Twitter アカウントが凍結されました"
 
 さてこれからセキュリティ情報をどうやって取るかな。
 
-- [Twitter によるセキュリティ情報配信をはじめました — Baldanders.info](http://www.baldanders.info/spiegel/log2/000387.shtml)
-- [@security_inci を整理した — Baldanders.info](http://www.baldanders.info/spiegel/log2/000710.shtml)
+- [Twitter によるセキュリティ情報配信をはじめました — Baldanders.info](https://baldanders.info/spiegel/log2/000387.shtml)
+- [@security_inci を整理した — Baldanders.info](https://baldanders.info/spiegel/log2/000710.shtml)
 
 ## 追記
 

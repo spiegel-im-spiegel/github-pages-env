@@ -8,7 +8,7 @@ tags        = [ "book", "comic", "media", "generativity" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -133,6 +133,6 @@ Kindle で作品を読む → あとがきで紹介されている Web 版も読
 		<dd>達人出版会 2011-12-30</dd>
 		<dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr></dd>
 	</dl>
-<p class="description">同名ブログの書籍化。感想は<a href="http://www.baldanders.info/spiegel/log2/000611.shtml">こちら</a>。早く<a href="https://tatsu-zine.com/books/infoshare2">続編</a>読まないと。</p>
+<p class="description">同名ブログの書籍化。感想は<a href="https://baldanders.info/spiegel/log2/000611.shtml">こちら</a>。早く<a href="https://tatsu-zine.com/books/infoshare2">続編</a>読まないと。</p>
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-01-26">2018-01-26</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
 </div>

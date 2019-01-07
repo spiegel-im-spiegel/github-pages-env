@@ -5,7 +5,7 @@ description = "「[ISO Rejects NSA Encryption Algorithms」他"
 
 [author]
 name      = "Spiegel"
-url       = "http://www.baldanders.info/spiegel/profile/"
+url       = "https://baldanders.info/spiegel/profile/"
 avatar    = "/images/avatar.jpg"
 license   = "by-sa"
 github    = "spiegel-im-spiegel"
@@ -47,7 +47,7 @@ flattr    = ""
     - [ISO Rejects NSA Encryption Algorithms - Schneier on Security](https://www.schneier.com/blog/archives/2017/09/iso_rejects_nsa.html)
         - [SIMON and SPECK: New NSA Encryption Algorithms - Schneier on Security](https://www.schneier.com/blog/archives/2013/07/simon_and_speck.html)
     - [擬似乱数生成アルゴリズム Dual_EC_DRBG について](http://www.cryptrec.go.jp/topics/cryptrec_20131106_dual_ec_drbg.html) : 疑惑の発端となった Dual_EC_DRBG に関する CRYPTREC の記事（2013年）
-        - [CRYPTREC Report 2013 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000740.shtml#rnd)
+        - [CRYPTREC Report 2013 — Baldanders.info](https://baldanders.info/spiegel/log2/000740.shtml#rnd)
 - [【重要】シマンテック社SSLサーバー証明書に関する再発行対応について | さくらインターネット](https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1742)
 - [WordPressが「4.8.2」にアップデート、5件のXSS脆弱性、2件のパストラバーサル脆弱性などを修正 -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/1081802.html)
 - [Mozilla、iOS版「Firefox」とAndroid版「Firefox Focus」をアップデート - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1082228.html)

@@ -7,7 +7,7 @@ tags        = [ "tex" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -58,10 +58,10 @@ $\\mathrm{\TeX}$ について調べ物をしていて，何気なく [Wikipedia 
 議事録すら $\\mathrm{\LaTeX}$ で書いたことがあって，お客さんに「どこの論文かと思った」と皮肉を言われたのも今は良い思い出である（笑）
 ちなみに今でも履歴書は $\\mathrm{\LaTeX}$ で[書いている](https://www.tamacom.com/rireki-j.html "履歴書スタイルファイル")。
 
-当時に社内で書いた文書の一部は[本家サイト](http://www.baldanders.info/ "Baldanders.info")でも公開している。
+当時に社内で書いた文書の一部は[本家サイト](https://baldanders.info/ "Baldanders.info")でも公開している。
 
-- {{< pdf-file title="文字コードとその実装" link="http://www.baldanders.info/spiegel/archive/charset-pdfa.pdf" >}} （[GitHub](https://github.com/spiegel-im-spiegel/charset_document "spiegel-im-spiegel/charset_document: 「文字コードとその実装」 upLaTeX ドキュメント")）
-- {{< pdf-file title="SH マイコン C プログラミング虎の巻" link="http://www.baldanders.info/spiegel/archive/ProgSH.pdf" >}} （[GitHub](https://github.com/spiegel-im-spiegel/progSH_document "spiegel-im-spiegel/progSH_document: SHマイコン Cプログラミング虎の巻 (pLaTeX ドキュメント")）
+- {{< pdf-file title="文字コードとその実装" link="https://baldanders.info/spiegel/archive/charset-pdfa.pdf" >}} （[GitHub](https://github.com/spiegel-im-spiegel/charset_document "spiegel-im-spiegel/charset_document: 「文字コードとその実装」 upLaTeX ドキュメント")）
+- {{< pdf-file title="SH マイコン C プログラミング虎の巻" link="https://baldanders.info/spiegel/archive/ProgSH.pdf" >}} （[GitHub](https://github.com/spiegel-im-spiegel/progSH_document "spiegel-im-spiegel/progSH_document: SHマイコン Cプログラミング虎の巻 (pLaTeX ドキュメント")）
 
 その後，証券会社が倒産するほどの不況のずんどこが訪れ，勤務先もその煽りでプリンタ販売業務を止めてしまったが，私は $\\mathrm{\TeX}$ で遊び続けた。
 最初の頃のバイブルだった『てくてく$\\mathrm{\TeX}$』とか『$\\mathrm{\LaTeX}$入門』とかいまだに本棚に並んでるですよ[^bs1]。
@@ -75,13 +75,13 @@ $\\mathrm{\TeX}$ について調べ物をしていて，何気なく [Wikipedia 
 
 そのうち FTP や HTTP で大量にダウンロードできる環境が整って（ADSL 万歳！），長いあいだ一番お世話になったのはいわゆる「[角藤版](http://w32tex.org/index-ja.html "W32TeX")」だった（今でも成果については大変恩恵を受けてますが）。
 
-[TeX Live](http://www.tug.org/texlive/ "TeX Live - TeX Users Group") を利用するようになったのは[2013年](http://www.baldanders.info/spiegel/log2/000640.shtml "TeX Live 2013 のインストールに挑戦 — Baldanders.info")から。
+[TeX Live](http://www.tug.org/texlive/ "TeX Live - TeX Users Group") を利用するようになったのは[2013年](https://baldanders.info/spiegel/log2/000640.shtml "TeX Live 2013 のインストールに挑戦 — Baldanders.info")から。
 いや，めっさ簡単になったものだよ。
 
 しかし，最近いちばん衝撃を受けたのは [LuaTeX-ja](https://ja.osdn.net/projects/luatex-ja/wiki/FrontPage) か。
 だって日本語環境でもようやく直接 PDF/A を吐ける処理系が登場したんだよ。
 
-- [TeX 覚え書き（upLaTeX から PDF/A まで） — Baldanders.info](http://www.baldanders.info/spiegel/log2/000731.shtml)
+- [TeX 覚え書き（upLaTeX から PDF/A まで） — Baldanders.info](https://baldanders.info/spiegel/log2/000731.shtml)
 - [LuaTeX-ja に関する覚え書き]({{< ref "/remark/2015/luatex-ja.md" >}})
 
 これによってようやく日本語の $\\mathrm{\TeX}$ 処理系でストレスなく PDF/A 形式のデジタル文書を作れるようになったわけだ。

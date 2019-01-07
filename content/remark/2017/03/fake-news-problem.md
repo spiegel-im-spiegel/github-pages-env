@@ -17,7 +17,7 @@ tags = ["media", "communication", "spam", "censorship", "facebook", "grigori"]
   tumblr = ""
   twitter = "spiegel_2007"
   avatar = "/images/avatar.jpg"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   license = "by-sa"
 +++
 

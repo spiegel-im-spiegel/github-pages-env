@@ -5,7 +5,7 @@ description = "「DRYと不当な抽象化によるコストについて」他"
 draft = false
 
 [author]
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   twitter = "spiegel_2007"
   flickr = "spiegel"
   linkedin = "spiegelimspiegel"

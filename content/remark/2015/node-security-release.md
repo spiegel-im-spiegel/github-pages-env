@@ -18,7 +18,7 @@ title = "Node.js : Security Update"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 前々から予告があったが node.js に関する複数の脆弱性に対するアップデートが行われた。

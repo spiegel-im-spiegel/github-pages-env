@@ -18,7 +18,7 @@ title = "あまり使わないけど，たまに使おうとすると忘れて�
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 [git] 各コマンドに関する覚え書き。

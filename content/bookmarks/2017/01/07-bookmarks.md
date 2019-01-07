@@ -7,7 +7,7 @@ description = "「draft-ietf-openpgp-rfc4880bis-01.txt」他"
 [author]
   tumblr = ""
   avatar = "/images/avatar.jpg"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   flattr = ""
   facebook = "spiegel.im.spiegel"
   flickr = "spiegel"

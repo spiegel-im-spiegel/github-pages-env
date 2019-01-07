@@ -16,7 +16,7 @@ description = "ちうわけで，2003年当時に書いた感想文を再掲載�
   facebook = "spiegel.im.spiegel"
   tumblr = ""
   license = "by-sa"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   name = "Spiegel"
 +++
 
@@ -26,7 +26,7 @@ description = "ちうわけで，2003年当時に書いた感想文を再掲載�
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">子供の頃は気付かなかったけど、湯女達が無駄に色っぽく描かれている点や最上階の極端な豪勢さと風呂屋に似つかわしくない金銀宝石類や調度品、湯婆婆の衣装が19世紀西洋売春宿の女主人風である事、彼女が「死ぬより辛い仕事」と形容したのがただの雑用を指していた訳ではない事も全て腑に落ちた。</p>&mdash; TAKUMI™画集発売中Ⓜ︎ (@takumitoxin) <a href="https://twitter.com/takumitoxin/status/822423719821778944">2017年1月20日</a></blockquote>
 
-これ見て[大昔に書いた感想文](http://www.baldanders.info/spiegel/log/200303.html#d06_t2)を思い出した。
+これ見て[大昔に書いた感想文](https://baldanders.info/spiegel/log/200303.html#d06_t2)を思い出した。
 やっぱ子どもは見ても分からんよねぇ。
 
 ちうわけで，2003年当時に書いた感想文を再掲載してみる。
@@ -40,7 +40,7 @@ description = "ちうわけで，2003年当時に書いた感想文を再掲載�
 まぁ私ならこの作品を R 指定にするけどね。
 だってこっぱずかしいじゃん。
 『千と千尋の神隠し』の描写は明らかに日本の色町の風景だよなぁ。
-そういう意味じゃ，[海外から見てあれが「日本的」と評されている](http://www.baldanders.info/spiegel/log/nikki-s/200202.html#2703)のはあながち的外れでもない訳だ。
+そういう意味じゃ，[海外から見てあれが「日本的」と評されている](https://baldanders.info/spiegel/log/nikki-s/200202.html#2703)のはあながち的外れでもない訳だ。
 
 まぁ私も「同伴」の際，待ち合わせ場所でリビング・デッドのごとく立ちんぼ状態になっていることもあるが，『千と千尋の神隠し』の序盤の夕暮れシーンなどはまさにあの時の情景にぴったりハマる。
 ハマり過ぎる！ 更に「カオナシ」君の奇行に至っては完全に悪酔いサラリーマンのそれと同じである。

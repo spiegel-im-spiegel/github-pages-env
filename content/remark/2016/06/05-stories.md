@@ -18,7 +18,7 @@ title = "週末スペシャル： 古いパソコンに Ubuntu を入れよう�
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 1. [古いパソコンに Ubuntu を入れようと思ったが...]({{< relref "#ubnt" >}})
@@ -50,7 +50,7 @@ USB メモリを買ってまでやる気はないので，この件はしばら�
 
 {{< fig-img flickr="true" src="https://c1.staticflickr.com/8/7093/27191657840_3dc02bc2b3.jpg" title="使ってない古い PC から（PC の処分を前提に） HDD を抜き取った" link="https://www.flickr.com/photos/spiegel/27191657840/" >}}
 
-この写真で下のほうの HDD は IDE/ATAPI だ！ なんせ[2005年に買った「牛丼パソコン」](http://www.baldanders.info/spiegel/log/200510.html#d18_t1)だからな。
+この写真で下のほうの HDD は IDE/ATAPI だ！ なんせ[2005年に買った「牛丼パソコン」](https://baldanders.info/spiegel/log/200510.html#d18_t1)だからな。
 幸運なことに，私は今まで自宅のマシンで HDD のトラブルに遭ったことは一度もない（仕事では何度かある）。
 まぁでも，今時 ATAPI が繋がるマシンなんてないだろうから，このまま自宅の隅っこで朽ち果てていくんだろうな，これ。
 
@@ -72,7 +72,7 @@ USB メモリを買ってまでやる気はないので，この件はしばら�
 
 ネットワーク・セキュリティは「予防」から（事後の対処を睨んだ）「監視」へと比重が移りつつある。
 理由は簡単で，ネットワークに接続する機器が多すぎて管理しきれなくなっているためである。
-また，昨年の[日本年金機構の例](http://www.baldanders.info/spiegel/log2/000850.shtml "人を排除するシステムは人に殺される — Baldanders.info")を見れば分かるように，いかにルールや罰則を決めても逸脱はなくならないし人為的なミスは避けようがない。
+また，昨年の[日本年金機構の例](https://baldanders.info/spiegel/log2/000850.shtml "人を排除するシステムは人に殺される — Baldanders.info")を見れば分かるように，いかにルールや罰則を決めても逸脱はなくならないし人為的なミスは避けようがない。
 
 企業やそれなりの組織ならセキュリティ対策を「投資」とみなして PDCA サイクルを回すこともできるけど[^b]，一般家庭では無理筋な話である。
 ならばこのガイドライン案のターゲットは企業・組織に向けたもので，全く一般向けではないと考えることもできる[^bb]。

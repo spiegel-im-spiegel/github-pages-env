@@ -16,7 +16,7 @@ title = "2016-07-25 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [Node Inspectorを用いてDockerでnode.jsをデバッグする方法 | インフラ・ミドルウェア | POSTD](http://postd.cc/debugging-nodejs-in-docker-using-node-inspector/)

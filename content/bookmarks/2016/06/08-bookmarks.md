@@ -16,7 +16,7 @@ title = "2016-06-08 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [Big Sky :: Web Component を簡単に作れる JavaScript ライブラリ「X-Tag」](http://mattn.kaoriya.net/software/lang/javascript/20160608023552.htm)

@@ -1,6 +1,6 @@
 # Document Environment for GitHub Pages
 
-GitHub Page [spiegel-im-spiegel.github.io](https://github.com/spiegel-im-spiegel/spiegel-im-spiegel.github.io)（[text.Baldanders.info](http://text.baldanders.info/)）の作業環境です。
+GitHub Page [spiegel-im-spiegel.github.io](https://github.com/spiegel-im-spiegel/spiegel-im-spiegel.github.io)（[text.Baldanders.info](https://text.baldanders.info/)）の作業環境です。
 
 - コンテンツの生成には [Hugo](https://gohugo.io/) を使用しています。
 - [Hugo](https://gohugo.io/) の theme として拙作の [spiegel-im-spiegel/hugo-theme-text](https://github.com/spiegel-im-spiegel/hugo-theme-text) を使用しています。

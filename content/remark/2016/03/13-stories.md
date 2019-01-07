@@ -18,7 +18,7 @@ title = "週末スペシャル： サイバーテロ企業 Microsoft"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 1. [サイバーテロ企業 Microsoft]({{< relref "#win" >}})

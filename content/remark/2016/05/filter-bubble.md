@@ -17,7 +17,7 @@ title = "『フィルターバブル』を読む"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 
 [scripts]
   mathjax = false
@@ -123,8 +123,8 @@ Windows のようなプロプライエタリ・ソフトウェアだけではな
 ちなみに VRM は Doc Searls の {{< quote lang="en" >}}The Intention Economy{{< /quote >}}（『[インテンション・エコノミー](http://www.amazon.co.jp/exec/obidos/ASIN/B00DIM6BE6/baldandersinf-22/)』） に登場する概念である。
 
 - [yomoyomoの読書記録 - ドク・サールズ『インテンション・エコノミー 顧客が支配する経済』（翔泳社）](http://www.yamdas.org/booklog/intentioneconomy.html)
-- [『インテンション・エコノミー』を読む — Baldanders.info](http://www.baldanders.info/spiegel/log2/000638.shtml)
-- [俺達がインターネットだ！ — Baldanders.info](http://www.baldanders.info/spiegel/log2/000794.shtml)
+- [『インテンション・エコノミー』を読む — Baldanders.info](https://baldanders.info/spiegel/log2/000638.shtml)
+- [俺達がインターネットだ！ — Baldanders.info](https://baldanders.info/spiegel/log2/000794.shtml)
 
 Facebook や Twitter のタイムラインにしろ Google の検索窓にしろ，彼等は単に結果を「表示」しているのではない。
 むしろ彼等はユーザの反応を「監視」している。

@@ -29,6 +29,6 @@ GitHub リポジトリのライセンスはリポジトリ直下の `LICENSE` �
 
 - [Plaintext versions of Creative Commons licenses and CC0 - Creative Commons](https://creativecommons.org/2011/04/15/plaintext-versions-of-creative-commons-licenses-and-cc0/)
 - [Plaintext versions of Creative Commons 4.0 licenses - Creative Commons](https://creativecommons.org/2014/01/07/plaintext-versions-of-creative-commons-4-0-licenses/)
-- [改訂3版： CC Licenses について | text.Baldanders.info](http://text.baldanders.info/cc-licenses/)
+- [改訂3版： CC Licenses について | text.Baldanders.info](https://text.baldanders.info/cc-licenses/)
 
 [CC Licenses]: https://creativecommons.org/licenses/

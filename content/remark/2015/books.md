@@ -17,7 +17,7 @@ title = "本を売りたいなら本屋である必然性がない，または�
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [書店に「生活提案」は可能か？ « マガジン航[kɔː]](http://magazine-k.jp/2015/12/13/no-concierge-for-bookstore/)

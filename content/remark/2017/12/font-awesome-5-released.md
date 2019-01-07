@@ -8,7 +8,7 @@ tags        = [ "font", "svg", "javascript", "site" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -94,5 +94,5 @@ CSS はこんな感じで指定できる。
 - [アイコンフォントか？ SVG アイコンか？ — Website Usability Info](https://website-usability.info/2015/12/entry_151217.html)
 - [Font Awesome 5 Freeで疑似要素(:after,:before)のcontent指定する場合 - Qiita](https://qiita.com/Garyuten/items/6d68da5cdac6dab9ba26)
 
-[本家サイト]: http://www.baldanders.info/ "Baldanders.info"
+[本家サイト]: https://baldanders.info/ "Baldanders.info"
 [Font Awesome]: https://fontawesome.com/ "Font Awesome 5 | Font Awesome"

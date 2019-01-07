@@ -18,7 +18,7 @@ title = "週末スペシャル： Go コンパイラのセキュリティアッ�
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 
 +++
 

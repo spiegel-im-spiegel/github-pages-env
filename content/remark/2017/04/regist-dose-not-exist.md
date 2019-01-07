@@ -18,7 +18,7 @@ title = "“regist” という単語は存在しない"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 ちょうど[2年前に書いた記事](https://medium.com/@spiegel/-f067ee75ff3c "“regist” という単語は存在しない – Der Spiegel im Spiegel – Medium")の再掲載です。

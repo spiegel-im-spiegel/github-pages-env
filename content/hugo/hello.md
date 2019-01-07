@@ -8,7 +8,7 @@ draft = false
 
 [author]
 name      = "Spiegel"
-url       = "http://www.baldanders.info/spiegel/profile/"
+url       = "https://baldanders.info/spiegel/profile/"
 avatar    = "/images/avatar.jpg"
 license   = "by-sa"
 github    = "spiegel-im-spiegel"
@@ -22,7 +22,7 @@ flattr    = ""
 
 （初出： [ゼロから始める Hugo — インストールから Hello World まで - Qiita](http://qiita.com/spiegel-im-spiegel/items/eac7bf2a3c0fc19afcbf)）
 
-[私の本家サイトのブログ機能を外出しにする作業](http://www.baldanders.info/spiegel/log2/000870.shtml)を行うにあたり，ツールとしては [Hugo] を使うことにしたのだが，初めて使うツールなので，いろいろ試しながら作業している。
+[私の本家サイトのブログ機能を外出しにする作業](https://baldanders.info/spiegel/log2/000870.shtml)を行うにあたり，ツールとしては [Hugo] を使うことにしたのだが，初めて使うツールなので，いろいろ試しながら作業している。
 ここではその時のメモを公開する。
 
 ## Hugo のインストール{#install}

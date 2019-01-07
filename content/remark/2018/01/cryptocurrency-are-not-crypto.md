@@ -8,7 +8,7 @@ tags = ["blockchain", "engineering", "fintech", "market", "grigori", "hacker-eth
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -51,7 +51,7 @@ tags = ["blockchain", "engineering", "fintech", "market", "grigori", "hacker-eth
 
 さて，今まで書いた Blockchain に関する記事は以下の通り
 
-- [そろそろ Blockchain について勉強を始めるか — Baldanders.info](http://www.baldanders.info/spiegel/log2/000827.shtml)
+- [そろそろ Blockchain について勉強を始めるか — Baldanders.info](https://baldanders.info/spiegel/log2/000827.shtml)
 - [Blockchain と Smart Contract]({{< ref "/remark/2016/01/blockchain-and-smart-contract.md" >}})
 
 なのだが，2017年で大きく状況が変わったようなので再々勉強。

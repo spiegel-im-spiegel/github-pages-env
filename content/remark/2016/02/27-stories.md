@@ -18,7 +18,7 @@ title = "週末スペシャル： 3月9日は皆既日食（日本では部分�
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 1. [3月9日は皆既日食（日本では部分日食）]({{< relref "#eclipse" >}})

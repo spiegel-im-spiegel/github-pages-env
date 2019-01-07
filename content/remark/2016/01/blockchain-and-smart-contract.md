@@ -18,7 +18,7 @@ title = "Blockchain と Smart Contract"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 年末忙しくて書き損ねてるネタを回収中。
@@ -55,7 +55,7 @@ Blockchain の特徴は完全性と可用性にある，ということのよう
 
 ちなみに昨年までの私の Bitcoin や Blockchain に関する理解は以下の通り。
 
-- [そろそろ Blockchain について勉強を始めるか — Baldanders.info](http://www.baldanders.info/spiegel/log2/000827.shtml)
+- [そろそろ Blockchain について勉強を始めるか — Baldanders.info](https://baldanders.info/spiegel/log2/000827.shtml)
 
 このときのまとめをもう一度整理して再掲載しておくと
 

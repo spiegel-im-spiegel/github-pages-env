@@ -16,17 +16,17 @@ title = "オトナの社会科見学： 中秋の月山富田城跡"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 これまでの「オトナの社会科見学」シリーズ
 
-1. [旭酒造株式会社](http://www.baldanders.info/spiegel/log2/000273.shtml)
-1. [旭鳳酒造株式会社](http://www.baldanders.info/spiegel/log2/000368.shtml)
-1. [備中松山城](http://www.baldanders.info/spiegel/log2/000563.shtml)
-1. [須佐神社 ほか](http://www.baldanders.info/spiegel/log2/000822.shtml)
-1. [盛川酒造株式会社](http://www.baldanders.info/spiegel/log2/000830.shtml)
-1. [「華鳩」蔵開きバスツアー](http://www.baldanders.info/spiegel/log2/000838.shtml)
+1. [旭酒造株式会社](https://baldanders.info/spiegel/log2/000273.shtml)
+1. [旭鳳酒造株式会社](https://baldanders.info/spiegel/log2/000368.shtml)
+1. [備中松山城](https://baldanders.info/spiegel/log2/000563.shtml)
+1. [須佐神社 ほか](https://baldanders.info/spiegel/log2/000822.shtml)
+1. [盛川酒造株式会社](https://baldanders.info/spiegel/log2/000830.shtml)
+1. [「華鳩」蔵開きバスツアー](https://baldanders.info/spiegel/log2/000838.shtml)
 
 社会科見学と言っても酒蔵見学か「旅行部」の日帰り旅行くらいなのだが，今回は「旅行部」の方。
 今年3回目。

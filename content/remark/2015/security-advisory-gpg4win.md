@@ -16,7 +16,7 @@ title = "Security Advisory Gpg4win"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 Windows 用の [GnuPG] を含む暗号ツール群 [Gpg4win] の 2.3.0 がリリースされた。

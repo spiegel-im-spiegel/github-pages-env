@@ -17,7 +17,7 @@ title = "Mersenne Twister に関する覚え書き"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 [「ズンドコキヨシ」で興味が出た](http://qiita.com/spiegel-im-spiegel/items/6a5bc07dbfa46a328e26 "「ズンドコキヨシ」と擬似乱数 - Qiita")ので [Mersenne Twister] について調べている。

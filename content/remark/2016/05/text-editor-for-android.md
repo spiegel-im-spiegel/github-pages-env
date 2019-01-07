@@ -17,7 +17,7 @@ title = "Android で使えるテキストエディタ"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 わけあって Android で使えるテキストエディタを物色中。

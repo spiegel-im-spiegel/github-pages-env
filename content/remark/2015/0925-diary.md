@@ -16,7 +16,7 @@ title = "今日の戯れ言：セクサロイドは電気ウナギの夢を見�
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 ブックマークしたネタが溜まってきたので，ここらで吐き出しておく
@@ -49,7 +49,7 @@ title = "今日の戯れ言：セクサロイドは電気ウナギの夢を見�
 
 という記事も見かけてウケてしまった。
 
-これって実は著作権ではなく，いわゆる {{% quote lang="en" %}}[non-human person](http://www.baldanders.info/spiegel/log2/000788.shtml){{% /quote %}} の問題であるように思える。だから動物愛護団体が動いているわけだ。
+これって実は著作権ではなく，いわゆる {{% quote lang="en" %}}[non-human person](https://baldanders.info/spiegel/log2/000788.shtml){{% /quote %}} の問題であるように思える。だから動物愛護団体が動いているわけだ。
 もっとも米国では
 
 {{< fig-quote  title="アルゼンチンの裁判所、オランウータンに「人権」を認める" link="http://wired.jp/2014/12/24/orangutan-personhood/" >}}
@@ -60,7 +60,7 @@ title = "今日の戯れ言：セクサロイドは電気ウナギの夢を見�
 らしいので，著作権も認められないんじゃないのかなぁ。
 だって著作権法って「インセンティブ法」なんでしょ。
 
-ロボットが「モノ」であればどんなに精巧であっても「ダッチワイフ」や「張り型」の延長でしかないし[^b]， {{% quote lang="en" %}}[non-human person](http://www.baldanders.info/spiegel/log2/000788.shtml){{% /quote %}} だというなら，ヒトの都合で行為を禁止すること自体が「権利の侵害」と見なしうるよね。
+ロボットが「モノ」であればどんなに精巧であっても「ダッチワイフ」や「張り型」の延長でしかないし[^b]， {{% quote lang="en" %}}[non-human person](https://baldanders.info/spiegel/log2/000788.shtml){{% /quote %}} だというなら，ヒトの都合で行為を禁止すること自体が「権利の侵害」と見なしうるよね。
 
 [^b]: 性欲がモノに向かっていくなら，むしろ性犯罪の抑制になる？
 
@@ -118,7 +118,7 @@ title = "今日の戯れ言：セクサロイドは電気ウナギの夢を見�
 
 - [階級闘争としてのシェアリング（またはオンデマンド）エコノミー | On Off and Beyond](http://chikawatanabe.com/2015/09/22/sharing_economy_labor_issues/)
 
-これって「階級闘争」というよりはむしろ「[相対的剥奪](http://www.baldanders.info/spiegel/log2/000410.shtml)」じゃないのかなぁ。
+これって「階級闘争」というよりはむしろ「[相対的剥奪](https://baldanders.info/spiegel/log2/000410.shtml)」じゃないのかなぁ。
 
 ## 金融インフラを Block Chain で代替する{#p2p}
 

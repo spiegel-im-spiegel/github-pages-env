@@ -17,7 +17,7 @@ title = "機能のパッケージ化"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 （初出： [はじめての Go 言語 (on Windows) その6 - Qiita](http://qiita.com/spiegel-im-spiegel/items/404871d2bafd22bdbb90)）

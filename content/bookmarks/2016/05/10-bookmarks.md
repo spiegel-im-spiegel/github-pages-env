@@ -16,7 +16,7 @@ title = "2016-05-10 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [エフセキュアブログ : 暗号化ランサムウェアのマネタイズ](http://blog.f-secure.jp/archives/50767847.html)

@@ -8,7 +8,7 @@ tags        = [ "code", "norm", "market" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -53,7 +53,7 @@ SF 作家（多分）の野尻抱介さんによれば「黄色矮星人は2人�
 
 ## ブックマーク
 
-- [「テレビという共同体」 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000307.shtml)
+- [「テレビという共同体」 — Baldanders.info](https://baldanders.info/spiegel/log2/000307.shtml)
 - [『法のデザイン』を斜め読みした]({{< ref "/remark/2017/05/legal-design-book.md" >}})
 
 ## 参考図書

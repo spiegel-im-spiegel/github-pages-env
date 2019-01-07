@@ -17,13 +17,13 @@ title = "もう紙の本は買わない - 私のEブック管理法"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 最初に言っておくが，私は紙の本が大好きである。
 巷にあるEブック[^eb] が紙の本に比べて決定的に劣っている点は「Eブックでは所有欲を満たせない」ことだ。
 
-[^eb]: 日本で[「電子書籍」という言葉は官製用語](http://www.baldanders.info/spiegel/log2/000650.shtml "「さようなら、「電子書籍」」他 — Baldanders.info")なので，もう使うべきではない。
+[^eb]: 日本で[「電子書籍」という言葉は官製用語](https://baldanders.info/spiegel/log2/000650.shtml "「さようなら、「電子書籍」」他 — Baldanders.info")なので，もう使うべきではない。
 
 しかし考えてみて欲しい。
 自分の体重の何百倍（ひとによっては何千倍）もある「紙の本」達は所詮「あの世」へは持って行けないのだ。
@@ -42,9 +42,9 @@ Kindle に関して面白い記事があった。
 
 - [Kindleで二千冊持っているぼくの管理方法 - 水星さん家](http://mercury-c.hateblo.jp/entry/2016/02/12/223324)
 
-私が Kindle サービスを利用するようになったのは[2012年の後半](http://www.baldanders.info/spiegel/log2/000610.shtml "Nexus 7 と Kindle と... — Baldanders.info")から。
+私が Kindle サービスを利用するようになったのは[2012年の後半](https://baldanders.info/spiegel/log2/000610.shtml "Nexus 7 と Kindle と... — Baldanders.info")から。
 Nexus 7 と Kindle の相性は非常によい。
-[初代 iPad](http://www.baldanders.info/spiegel/log2/000487.shtml "iPad は「窮屈な箱」か — Baldanders.info") が3年で置き時計と成り果てた[^cb] のとは対照的に， Nexus 7 は今でも大活躍中である。
+[初代 iPad](https://baldanders.info/spiegel/log2/000487.shtml "iPad は「窮屈な箱」か — Baldanders.info") が3年で置き時計と成り果てた[^cb] のとは対照的に， Nexus 7 は今でも大活躍中である。
 
 [^cb]: ちなみに我が家の目覚まし時計としては [Chumby](https://www.chumby.com/) が今だに現役を続けている。 iPad はホンマにただの置き時計（日曜朝だけワンセグテレビ）である。
 

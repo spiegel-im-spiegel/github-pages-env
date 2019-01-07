@@ -18,7 +18,7 @@ title = "「だれもがプログラミングを学ぶべき」ではない"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 {{< fig-quote title="頼むからプログラミングを学ばないでくれ | TechCrunch Japan" link="http://jp.techcrunch.com/2016/05/17/20160510please-dont-learn-to-code/" >}}
@@ -42,7 +42,7 @@ title = "「だれもがプログラミングを学ぶべき」ではない"
 最近はプログラミング言語を「第三言語」などともてはやしたり，あまつさえ小学校の必修科目にしようなどというお馬鹿な国まで登場する始末だ。
 しかし。
 考えてもみたまえ。
-「[掛け算は順序が大事](http://www.baldanders.info/spiegel/log2/000744.shtml "日本の「算数」は壊れてる？ — Baldanders.info")」などと言ってはばからない未開人の国がどうやってプログラミングを教えるというのだ。
+「[掛け算は順序が大事](https://baldanders.info/spiegel/log2/000744.shtml "日本の「算数」は壊れてる？ — Baldanders.info")」などと言ってはばからない未開人の国がどうやってプログラミングを教えるというのだ。
 どう考えても破滅的な未来しか想像できない。
 
 私がよくひきあいに出すのは「数学の問題を解くのに公式の暗記から始める人はプログラマには向かない」というものだ。

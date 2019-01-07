@@ -16,7 +16,7 @@ title = "行末の空白文字を削除する"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 テキストエディタで行末の空白文字を削除する小ネタ。

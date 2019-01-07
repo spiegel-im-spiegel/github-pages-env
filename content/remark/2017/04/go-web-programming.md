@@ -18,7 +18,7 @@ title = "『Goプログラミング実践入門』を眺める"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 [原書のタイトルが “Go Web Programming"](https://www.manning.com/books/go-web-programming "Manning | Go Web Programming") となっている通り，『[Goプログラミング実践入門]』は「Web アプリケーションまたはサービスのプログラミング」について [Go 言語]のコードを使って解説している本である。

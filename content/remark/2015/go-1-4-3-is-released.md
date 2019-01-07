@@ -16,7 +16,7 @@ title = "セキュリティ脆弱性を修正した Go 1.4.3 がリリース"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 {{< fig-quote lang="en" title="Go 1.4.3 is released (security fix) - Google グループ" link="https://groups.google.com/forum/#!topic/golang-announce/iSIyW4lM4hY" >}}
@@ -48,7 +48,7 @@ CVSS 基本評価値 6.8 (AV:N/AC:M/Au:N/C:P/I:P/A:P) （暫定値）
 | 業務停止の可能性（可用性への影響, A）   | 部分的（P）       |
 {{% /fig-gen %}}
 
-CVSS については[デモページ](http://www.baldanders.info/spiegel/archive/cvss/cvss2.html)を参照のこと。
+CVSS については[デモページ](https://baldanders.info/spiegel/archive/cvss/cvss2.html)を参照のこと。
 
 ## 参考
 

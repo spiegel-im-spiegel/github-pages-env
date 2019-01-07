@@ -16,7 +16,7 @@ title = "2016-05-21 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [Blue Moon Rises Saturday — But It's Not That Blue: A Full Moon History](http://www.space.com/32932-blue-moon-may-full-moon-name-2016.html)

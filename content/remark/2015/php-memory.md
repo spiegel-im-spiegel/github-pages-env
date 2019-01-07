@@ -16,7 +16,7 @@ title = "PHP の思ひ出"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 （この記事は「プリキュア・メモリ」を脳内 BGM にお送りしています）
@@ -35,7 +35,7 @@ MS ですら ASP.NET に移行していたあの当時に [PHP] が魅力的に�
 
 ## PHP で制御を行う
 
-[最後に PHP の仕事をしたのは2010年](http://www.baldanders.info/spiegel/log2/000481.shtml)かな。
+[最後に PHP の仕事をしたのは2010年](https://baldanders.info/spiegel/log2/000481.shtml)かな。
 ネットワークに繋がっている機器を [PHP] で（もちろん Web インタフェースで）制御するという仕事で，初めて [PHP] が面白いと思った仕事だった。
 ちなみにこの時のフレームワークは [Smarty](http://www.smarty.net/) だった。
 
@@ -64,7 +64,7 @@ Web サービス限定であっても「後ろから前まで JavaScript でい�
 
 まぁでも，安いレンタルサーバを借りてる場合は選択肢は少ないし，既に [PHP] が稼働している環境なら [PHP] のほうが手軽なことも多々ある[^c]。
 
-[^c]: 昔， [Perl で RSS を JSON に変換しようとしてどえら苦労した](http://www.baldanders.info/spiegel/log2/000236.shtml)が， PHP なら数行の記述でほぼ同じことができる。
+[^c]: 昔， [Perl で RSS を JSON に変換しようとしてどえら苦労した](https://baldanders.info/spiegel/log2/000236.shtml)が， PHP なら数行の記述でほぼ同じことができる。
 
 あるいは[日本以外にも PHP が人気な国もある](http://qiita.com/naru0504/items/9bd56998a187d101a777)そうなので，「ただ消え去る（fade away）のみ」とはならないかもしれない。
 ただ，時々舞い込んでくる「汎用機の COBOL システムをオープン系のシステムに replace する」案件に関わってると，似たようなことが [PHP] 界隈でも起きないか心配なところではある。

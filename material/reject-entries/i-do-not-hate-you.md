@@ -6,7 +6,7 @@ tags = ["communication", "engineering", "management"]
 description = "プロジェクト全体を見回して，いったい何がボトルネックになっているのか正しく把握すること。"
 
 [author]
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   linkedin = "spiegelimspiegel"
   flickr = "spiegel"
   instagram = "spiegel_2007"

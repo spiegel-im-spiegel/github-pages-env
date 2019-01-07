@@ -13,7 +13,7 @@ description = "2015年の CERT/CC ブログ記事「The Risks of SSL Inspection�
   license = "by-sa"
   flattr = ""
   avatar = "/images/avatar.jpg"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   flickr = "spiegel"
   instagram = "spiegel_2007"
   name = "Spiegel"
@@ -54,7 +54,7 @@ HTTPS 通信監視機器のいくつかにはセキュリティ上の問題が�
 <q>SSL and TLS do not provide the level of end-to-end security that users may expect. Even in absence of SSL inspection, there are problems with how well browsers are conveying SSL information to users. The fact that "SSL inspection" is a phrase that exists, should be a blazing red flag that what you think SSL is doing for you is fundamentally broken.</q>
 {{< /fig-quote >}}
 
-[以前も書いた](http://www.baldanders.info/spiegel/log2/000812.shtml "HTTPS Deep Inspection — Baldanders.info")が，HTTPS 通信監視機器（あるいは HTTPS Deep Inspection）の存在自体がインターネットの “End to End” 原則を崩すものであり，ひいては「ネットの中立性」に楔を入れるものである。
+[以前も書いた](https://baldanders.info/spiegel/log2/000812.shtml "HTTPS Deep Inspection — Baldanders.info")が，HTTPS 通信監視機器（あるいは HTTPS Deep Inspection）の存在自体がインターネットの “End to End” 原則を崩すものであり，ひいては「ネットの中立性」に楔を入れるものである。
 しかし「[馬も鹿も暗号化する時代]({{< ref "/remark/2016/03/vulnerability-cross-protocol-attack-on-tls-using-sslv2.md" >}} "SSLv2 を有効にしている TLS 実装の脆弱性 ― 馬も鹿も暗号化する時代のセキュリティ")」にこの原則は風前の灯である。
 たとえば [CMS の面倒すらろくすっぽ見られない]({{< ref "/remark/2016/07/cms.md">}} "「自分で面倒見られる子」だけが CMS を導入しなさい")ユーザが「うちも [Let's la Encrypt]」とか言い出して脆弱性だらけのサイトを暗号化したらどうなるのか。
 
@@ -80,12 +80,12 @@ X.509 型の公開鍵基盤は認証局（Certification Authority; CA）が信�
 この問題は Symantec と Google の2者間の喧嘩だと思ったら物事を見誤る。
 現在 Web を支配している公開鍵基盤の根幹に関わる問題なのである。
 
-それにしても，昔「[EV SSL は『屋上屋を架す』ようにしか見えない](http://www.baldanders.info/spiegel/log2/000277.shtml "Extended Validation SSL — Baldanders.info")」と書いたが，まったくもってその通りだったな（笑）
+それにしても，昔「[EV SSL は『屋上屋を架す』ようにしか見えない](https://baldanders.info/spiegel/log2/000277.shtml "Extended Validation SSL — Baldanders.info")」と書いたが，まったくもってその通りだったな（笑）
 
 ## ブックマーク
 
-- [Malware Spoofing HTTPS（3月2日，追記あり） — Baldanders.info](http://www.baldanders.info/spiegel/log2/000809.shtml)
-- [HTTPS Deep Inspection — Baldanders.info](http://www.baldanders.info/spiegel/log2/000812.shtml)
+- [Malware Spoofing HTTPS（3月2日，追記あり） — Baldanders.info](https://baldanders.info/spiegel/log2/000809.shtml)
+- [HTTPS Deep Inspection — Baldanders.info](https://baldanders.info/spiegel/log2/000812.shtml)
 - [HTTPS監視装置にセキュリティ低下の危険性--日米機関で注意喚起 - ZDNet Japan](https://japan.zdnet.com/article/35098402/)
 - [New Paper on Encryption Workarounds - Schneier on Security](https://www.schneier.com/blog/archives/2017/03/new_paper_on_en.html)
     - [Encryption Workarounds by Orin S. Kerr, Bruce Schneier :: SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2938033)

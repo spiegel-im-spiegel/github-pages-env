@@ -17,7 +17,7 @@ title = "2015年10月の Flattr もしくは「Flattr × GitHub ＝ ♥」"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 2015年10月分の [Flattr] Report が来た。
@@ -79,8 +79,8 @@ title = "2015年10月の Flattr もしくは「Flattr × GitHub ＝ ♥」"
 
 ## 参考ページ
 
-- [Flattr で寄付するついでに... — Baldanders.info](http://www.baldanders.info/spiegel/log2/000507.shtml)
-- [Like でチャリ～ン — Baldanders.info](http://www.baldanders.info/spiegel/log2/000631.shtml)
+- [Flattr で寄付するついでに... — Baldanders.info](https://baldanders.info/spiegel/log2/000507.shtml)
+- [Like でチャリ～ン — Baldanders.info](https://baldanders.info/spiegel/log2/000631.shtml)
 
 [Flattr]: https://flattr.com/ "Flattr - Social microdonations"
 [flattr]: https://flattr.com/ "Flattr - Social microdonations"

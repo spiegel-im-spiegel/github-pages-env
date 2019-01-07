@@ -18,7 +18,7 @@ title = "週末スペシャル： X 線天文衛星 ASTRO-H の打上げ成功"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 1. [X 線天文衛星 ASTRO-H の打上げ成功]({{< relref "#hitomi" >}})
@@ -197,6 +197,6 @@ Box や Dropbox は他の用途で使っていて混ぜたくないし， Flickr
       <i class="fas fa-star"></i>
     </span></dd>
   </dl>
-  <p class="description"><a href="http://www.baldanders.info/spiegel/log2/000410.shtml">感想はこちら</a>。</p>
+  <p class="description"><a href="https://baldanders.info/spiegel/log2/000410.shtml">感想はこちら</a>。</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.12.7</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
 </div>

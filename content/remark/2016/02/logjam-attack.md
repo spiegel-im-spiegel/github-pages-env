@@ -18,7 +18,7 @@ title = "TLS における Diffie-Hellman 鍵交換の脆弱性（再掲載）"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 なんか [node.js](https://nodejs.org/) が今さら Logjam 攻撃に対応したとか言ってるので
@@ -105,7 +105,7 @@ main table.nist td  {
 2030年以降も安全に使える暗号強度は $128\,\mathrm{bits}$ 以上だと言われている。
 Logjam 攻撃では $L=512\,\mathrm{bits}$ にダウングレードさせられるが全くお話にならない強度だということが分かるだろう。
 
-暗号について詳しくは拙文「[わかる！ OpenPGP 暗号](http://www.baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)」の「[暗号に関する雑多な話](http://www.baldanders.info/spiegel/archive/pgpdump/openpgp.shtml#appendix)」あたりをどうぞ。
+暗号について詳しくは拙文「[わかる！ OpenPGP 暗号](https://baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)」の「[暗号に関する雑多な話](https://baldanders.info/spiegel/archive/pgpdump/openpgp.shtml#appendix)」あたりをどうぞ。
 また [FREAK については Gist にまとめている](https://gist.github.com/spiegel-im-spiegel/47f340122c895ccc8bb8)ので，そちらも参考にどうぞ。
 
 ## 影響度（CVSS）
@@ -136,7 +136,7 @@ CVSSv2 基本値 4.3 (AV:N/AC:M/Au:N/C:N/I:P/A:N)
 | 情報改ざんの可能性（完全性への影響, I） | 部分的（P）       |
 | 業務停止の可能性（可用性への影響, A）   | なし（N）         |
 
-CVSS については[デモページ](http://www.baldanders.info/spiegel/archive/cvss/cvss2.html)を参照のこと。
+CVSS については[デモページ](https://baldanders.info/spiegel/archive/cvss/cvss2.html)を参照のこと。
 
 [CVE-2015-1716]: https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-1716
 [CVE-2015-4000]: https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-4000

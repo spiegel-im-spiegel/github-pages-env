@@ -18,7 +18,7 @@ title = "週末スペシャル： NIST SP 800-175B Draft"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 1. [NIST SP 800-175B Draft]({{< relref "#nist" >}})

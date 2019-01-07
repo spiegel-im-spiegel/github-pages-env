@@ -18,7 +18,7 @@ title = "AI の読解力，人の読解力"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [AI研究者が問う　ロボットは文章を読めない　では子どもたちは「読めて」いるのか？(湯浅誠) - 個人 - Yahoo!ニュース](http://bylines.news.yahoo.co.jp/yuasamakoto/20161114-00064079/)
@@ -78,7 +78,7 @@ Human readable な言葉と machine readable な言葉は異なっていて当�
 
 ## ブックマーク
 
-- [プログラミングは「損得勘定」で考える — Baldanders.info](http://www.baldanders.info/spiegel/log2/000868.shtml)
+- [プログラミングは「損得勘定」で考える — Baldanders.info](https://baldanders.info/spiegel/log2/000868.shtml)
 - [グーグルの翻訳AIが「独自の言語」を生み出したといえる根拠｜WIRED.jp](http://wired.jp/2016/11/24/google-ai-language-create/)
 - [人工知能は「機械同士で会話する」独自の言語を覚え始めている｜WIRED.jp](http://wired.jp/2017/03/30/bots-learn-speak-language/)
 

@@ -8,7 +8,7 @@ tags = ["code", "law", "intellectual-property", "copyright", "tpp", "access-cont
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -34,7 +34,7 @@ tags = ["code", "law", "intellectual-property", "copyright", "tpp", "access-cont
 もう今さらグダグダ言ってもしょうがないので，この記事では今回の改正ポイントについて簡単に紹介するに留める。
 なお「[改訂3版： CC Licenses について]({{< rlnk "/cc-licenses/" >}})」の各記事は施行後にゆるゆると改訂する予定である。
 
-あと「[著作権の保護期間延長に反対します](http://www.baldanders.info/spiegel/log2/000820.shtml "Stop Fast Track TPP")」ロゴは今後も貼り付けておくので，よろしくどうぞ。
+あと「[著作権の保護期間延長に反対します](https://baldanders.info/spiegel/log2/000820.shtml "Stop Fast Track TPP")」ロゴは今後も貼り付けておくので，よろしくどうぞ。
 せめてもの悪あがきである。
 
 ## TPP11 締結に伴う法改正

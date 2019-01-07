@@ -5,7 +5,7 @@ description = "「Track Trump. The First 100 Days」他"
 date = "2017-01-28T15:37:04+09:00"
 
 [author]
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   instagram = "spiegel_2007"
   avatar = "/images/avatar.jpg"
   linkedin = "spiegelimspiegel"

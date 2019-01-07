@@ -18,7 +18,7 @@ title = "また Windows 10 にヤラレタ（KB3112343 の恐怖）"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 ## KB3112343 の恐怖

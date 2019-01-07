@@ -18,7 +18,7 @@ title = "今更 Kindle Paperwhite を買う"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 今更ですが [Kindle Paperwhite](http://www.amazon.co.jp/exec/obidos/ASIN/B00QJDQM9U/baldandersinf-22/) を購入しました。

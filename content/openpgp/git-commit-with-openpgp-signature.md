@@ -19,7 +19,7 @@ image = "/images/attention/openpgp.png"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 
 [scripts]
   mathjax = false
@@ -46,7 +46,7 @@ $ git config --global user.signingkey 7E20B81C
 
 “`7E20B81C`” は OpenPGP 鍵の鍵 ID である。
 鍵ごとに異なる値になるので注意。
-今回は「[OpenPGP 公開鍵リスト](http://www.baldanders.info/spiegel/pubkeys/)」で公開している鍵の鍵 ID を登録している。
+今回は「[OpenPGP 公開鍵リスト](https://baldanders.info/spiegel/pubkeys/)」で公開している鍵の鍵 ID を登録している。
 この設定で `.gitconfig` ファイルに以下の記述が追加される。
 
 ```ini

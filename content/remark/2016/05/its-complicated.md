@@ -18,7 +18,7 @@ title = "『つながりっぱなしの日常を生きる』を読む"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 『[つながりっぱなしの日常を生きる]』は Danah Boyd さんによって2014年に発刊された。

@@ -8,7 +8,7 @@ tags = ["book", "math", "matrix"]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -73,7 +73,7 @@ tags = ["book", "math", "matrix"]
 
 ## ブックマーク
 
-- [「丸い三角関数」を読む 他 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000685.shtml)
+- [「丸い三角関数」を読む 他 — Baldanders.info](https://baldanders.info/spiegel/log2/000685.shtml)
 - [『数学ガールの秘密ノート／ベクトルの真実』で遊ぶ]({{< ref "/remark/2016/03/mathgirl-note-vector.md" >}})
 
 [秘密ノート]: http://www.hyuki.com/girl/#note "『数学ガール』シリーズ"

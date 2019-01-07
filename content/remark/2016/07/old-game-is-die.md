@@ -17,7 +17,7 @@ title = "ネット（だけの）ゲームは死ぬか？"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 「若者のネトゲ離れ」って奴ですね。
@@ -66,6 +66,6 @@ AR (Augmented Reality; 拡張現実) を使ったアプリやサービスは昔�
 [Ingress]: https://www.ingress.com/
 
 <div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00DIM6BE6/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/519%2BkIHb71L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00DIM6BE6/baldandersinf-22/">インテンション・エコノミー～顧客が支配する経済</a></dt><dd>Doc Searls 栗原潔 </dd><dd>翔泳社 2013-03-14</dd><dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00W535LOU/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00W535LOU.09._SCTHUMBZZZ_.jpg"  alt="HARD THINGS　答えがない難問と困難にきみはどう立ち向かうか"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00TXZXE5Q/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00TXZXE5Q.09._SCTHUMBZZZ_.jpg"  alt="パーソナルデータの衝撃"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00T3YFXJM/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00T3YFXJM.09._SCTHUMBZZZ_.jpg"  alt="UX侍 スマホアプリでユーザーが使いやすいデザインとは (impress Digital Books)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00J9ZGYQQ/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00J9ZGYQQ.09._SCTHUMBZZZ_.jpg"  alt="位置情報ビッグデータ (NextPublishing)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00LTCR0IS/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00LTCR0IS.09._SCTHUMBZZZ_.jpg"  alt="起業のエクイティ・ファイナンス"  /></a> </p>
-<p class="description" >時代はソーシャル CRM から VRM へ。<a href='http://www.baldanders.info/spiegel/log2/000794.shtml'>俺達がインターネットだ！</a></p>
+<p class="description" >時代はソーシャル CRM から VRM へ。<a href='https://baldanders.info/spiegel/log2/000794.shtml'>俺達がインターネットだ！</a></p>
 <p class="gtools" >reviewed by <a href="#maker" class="reviewer">Spiegel</a> on <abbr class="dtreviewed" title="2015-04-26">2015/04/26</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html">G-Tools</a>)</p>
 </div>

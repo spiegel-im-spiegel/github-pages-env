@@ -17,10 +17,10 @@ title = "人工知能は「ハイル・ヒトラー」と叫ぶか"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
-サイトリニューアルの余波で[昔の日記](http://www.baldanders.info/spiegel/log/)なんか眺めてたら「[たるさんのパソコンフィールド](http://www.ne.jp/asahi/comp/tarusan/index.html)」が復活していることに気が付いた。
+サイトリニューアルの余波で[昔の日記](https://baldanders.info/spiegel/log/)なんか眺めてたら「[たるさんのパソコンフィールド](http://www.ne.jp/asahi/comp/tarusan/index.html)」が復活していることに気が付いた。
 当時はよく読んでたなぁ。
 スパコンネタは（そっち方面には詳しくないので）当時は本当に勉強になりました。
 

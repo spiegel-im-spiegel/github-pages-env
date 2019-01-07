@@ -1,5 +1,5 @@
 theme           = "text"
-baseurl         = "http://text.baldanders.info/"
+baseurl         = "https://text.baldanders.info/"
 title           = "text.Baldanders.info"
 languageCode    = "ja"
 DefaultContentLanguage = "ja"
@@ -16,7 +16,7 @@ pygmentsUseClasses = true
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"

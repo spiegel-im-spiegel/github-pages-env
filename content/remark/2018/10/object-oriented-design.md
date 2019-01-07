@@ -8,7 +8,7 @@ tags = [ "engineering", "object-oriented", "design", "programming", "language" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -49,7 +49,7 @@ Qiita で面白い記事を見かけた。
 
 そう思ってた時代がありました。
 
-それから，まぁ，[紆余曲折](http://www.baldanders.info/spiegel/log2/000529.shtml "私はこうしてプログラミングを覚えた — Baldanders.info")あって（バブル最盛期に）某システムハウスに潜り込んだのだが，初仕事の設計書で書かせられたのはフローチャートではなく状態遷移表だった。
+それから，まぁ，[紆余曲折](https://baldanders.info/spiegel/log2/000529.shtml "私はこうしてプログラミングを覚えた — Baldanders.info")あって（バブル最盛期に）某システムハウスに潜り込んだのだが，初仕事の設計書で書かせられたのはフローチャートではなく状態遷移表だった。
 むしろ「フローチャートなんか要らん（コードを見れば分かる）」と言われましたよ。
 これが「社会の現実」ってやつですね，分かります。
 

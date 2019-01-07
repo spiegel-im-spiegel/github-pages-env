@@ -18,7 +18,7 @@ title = "Libgcrypt 1.6.5 with security fix released"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 [Libgcrypt] の 1.6.5 がリリースされた。
@@ -56,7 +56,7 @@ CVSSv2 基本値 4.3 (`AV:A/AC:M/Au:N/C:P/I:P/A:N`)
 | 情報改ざんの可能性（完全性への影響, I） | 部分的（P）       |
 | 業務停止の可能性（可用性への影響, A）   | なし（N）         |
 
-CVSS については[デモページ](http://www.baldanders.info/spiegel/archive/cvss/cvss2.html)を参照のこと。
+CVSS については[デモページ](https://baldanders.info/spiegel/archive/cvss/cvss2.html)を参照のこと。
 
 ## 影響を受ける実装
 

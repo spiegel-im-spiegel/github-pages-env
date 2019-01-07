@@ -7,7 +7,7 @@ tags = ["golang", "engineering", "package", "vendoring", "tools", "glide", "dep"
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -48,7 +48,7 @@ Please consider trying dep on your project or converting to dep.</q>
 
 - [spiegel-im-spiegel/pi: Estimate of Pi with Monte Carlo method.](https://github.com/spiegel-im-spiegel/pi)
 
-これって[モンテカルロ法で遊んでた](http://text.baldanders.info/golang/estimate-of-pi/)ときに作ったものだ。
+これって[モンテカルロ法で遊んでた]({{< relref "./estimate-of-pi.md" >}})ときに作ったものだ。
 最悪ぶっ壊れてもいいので，これ使って試してみるか。
 
 ## [dep] の取得

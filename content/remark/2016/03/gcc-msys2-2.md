@@ -18,7 +18,7 @@ title = "MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 1. [MSYS2 のインストールから初期化処理まで]({{< ref "/remark/2016/03/gcc-msys2-1.md" >}})

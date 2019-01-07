@@ -18,7 +18,7 @@ title = "電話機を交換してもらったのですよ"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 この夏は大変でしたが，少しずつ再起動中です。
@@ -41,7 +41,7 @@ au ショップに持ち込んだら「修理か交換か」と言われたが�
 HTC は今 VR に力を入れているらしいが，ケータイも満足に作れないメーカーが VR とかヘソでお茶が沸いてしまう。
 次に機種変更するときはもう HTC は選ばない。
 
-そうして新しい端末が来たのだが，[前にも書いた](http://www.baldanders.info/spiegel/log2/000852.shtml "HTC J butterfly HTV31（もしくは最近のスマホ？）がなかなか酷い")とおり，ホンマに面倒くさい。
+そうして新しい端末が来たのだが，[前にも書いた](https://baldanders.info/spiegel/log2/000852.shtml "HTC J butterfly HTV31（もしくは最近のスマホ？）がなかなか酷い")とおり，ホンマに面倒くさい。
 どうでもいいアプリは山ほどプリインストールしてくさるのに，なぜ「[Google 認証システム]」が最初から入ってないのだ。
 
 Google Play を開くには Google アカウントが必要で，2要素認証でログインするには「[Google 認証システム]」が必要になる[^iij]。
@@ -98,7 +98,7 @@ Google Play を開くには Google アカウントが必要で，2要素認証�
 
 ## ブックマーク
 
-- [HTC J butterfly HTV31（もしくは最近のスマホ？）がなかなか酷い](http://www.baldanders.info/spiegel/log2/000852.shtml)
+- [HTC J butterfly HTV31（もしくは最近のスマホ？）がなかなか酷い](https://baldanders.info/spiegel/log2/000852.shtml)
 
 [Google 認証システム]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2
 [TOTP]: https://tools.ietf.org/html/rfc6238 "RFC 6238 - TOTP: Time-based One-time Password Algorithm"

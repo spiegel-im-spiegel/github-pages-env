@@ -17,7 +17,7 @@ title = "『決してマネしないでください』"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 [Hugo] で HTML 構文混じりの Markdown を上手く処理できるか実験。

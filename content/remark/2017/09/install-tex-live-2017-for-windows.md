@@ -7,7 +7,7 @@ tags        = [ "tex", "windows", "install" ]
 
 [author]
   name      = "Spiegel"
-  url       = "http://www.baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/spiegel/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"
@@ -473,11 +473,11 @@ $ ps2pdf14 -dPDFA -dPDFACompatibilityPolicy=1 -sProcessColorModel=DeviceCMYK cha
     - [外部コマンドの実行 - TeX Wiki](https://texwiki.texjp.org/?%E5%A4%96%E9%83%A8%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%81%AE%E5%AE%9F%E8%A1%8C)
 - [updmap and kanji - TeX Live - TeX Users Group](http://tug.org/texlive/updmap-kanji.html)
 
-- [TeX Live 2013 のインストールに挑戦 — Baldanders.info](http://www.baldanders.info/spiegel/log2/000640.shtml)
-    - [TeX Live へようこそ！ — Baldanders.info](http://www.baldanders.info/spiegel/log2/000698.shtml)
-- [TeX Live 2014 for Windows — Baldanders.info](http://www.baldanders.info/spiegel/log2/000730.shtml) : この記事の中で pxjahyper パッケージについて説明しているが [TeX Live] 2017 には既に含まれていた。ブラボー！
-- [TeX 覚え書き（upLaTeX から PDF/A まで） — Baldanders.info](http://www.baldanders.info/spiegel/log2/000731.shtml)
-- [LuaTeX の練習（About CC-License） — Baldanders.info](http://www.baldanders.info/spiegel/log2/000735.shtml)
+- [TeX Live 2013 のインストールに挑戦 — Baldanders.info](https://baldanders.info/spiegel/log2/000640.shtml)
+    - [TeX Live へようこそ！ — Baldanders.info](https://baldanders.info/spiegel/log2/000698.shtml)
+- [TeX Live 2014 for Windows — Baldanders.info](https://baldanders.info/spiegel/log2/000730.shtml) : この記事の中で pxjahyper パッケージについて説明しているが [TeX Live] 2017 には既に含まれていた。ブラボー！
+- [TeX 覚え書き（upLaTeX から PDF/A まで） — Baldanders.info](https://baldanders.info/spiegel/log2/000731.shtml)
+- [LuaTeX の練習（About CC-License） — Baldanders.info](https://baldanders.info/spiegel/log2/000735.shtml)
 
 - [LuaTeX-ja に関する覚え書き]({{< ref "/remark/2015/luatex-ja.md" >}})
 

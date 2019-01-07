@@ -18,7 +18,7 @@ title = "『数学ガールの秘密ノート／場合の数』はプログラ�
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 今回は最初から Kindle で購入したのだが何となく先延ばしにしていた。

@@ -16,7 +16,7 @@ title = "2016-05-12 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [Amazonがディープラーニングのライブラリ「DSSTNE」をオープンソースで公開。TensorFlowよりも約2倍高速と主張 － Publickey](http://www.publickey1.jp/blog/16/amazon_dsstne.html)

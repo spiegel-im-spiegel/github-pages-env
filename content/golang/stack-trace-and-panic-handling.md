@@ -18,7 +18,7 @@ title = "スタック追跡とパニック・ハンドリング"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 今回は軽めの小ネタで。

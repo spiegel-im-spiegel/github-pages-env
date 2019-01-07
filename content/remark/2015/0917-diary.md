@@ -17,7 +17,7 @@ title = "今日の戯れ言"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 
 +++
 
@@ -60,7 +60,7 @@ CRYPTREC といえば [CRYPTREC Report 2014](http://cryptrec.go.jp/topics/cryptr
 {{< fig-youtube id="d8MtmKrXlKQ" title="The RC4 NOMORE Attack: Demonstration in Practice - YouTube" width="500" height="281" >}}
 
 これも随分前の話でゴメン。
-既に[死に体の RC4](http://www.baldanders.info/spiegel/log2/000810.shtml) に追い打ち。
+既に[死に体の RC4](https://baldanders.info/spiegel/log2/000810.shtml) に追い打ち。
 
 ### IETF-94 で OpenPGP WG がなんかやるらしい？{#openpgp}
 

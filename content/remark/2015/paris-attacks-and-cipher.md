@@ -17,7 +17,7 @@ title = "同時多発テロ関連のブックマーク（暗号関連）"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 いや，もうね，バカかと。

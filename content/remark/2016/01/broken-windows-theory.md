@@ -17,7 +17,7 @@ title = "ボットネット・テイクダウンと割れ窓理論"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 「[管子](https://ja.wikipedia.org/wiki/%E7%AE%A1%E5%AD%90)」の中の有名な言葉に「倉廩満ちて礼節を知り，衣食足りて栄辱を知る」というのがある。

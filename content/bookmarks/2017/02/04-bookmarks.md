@@ -14,7 +14,7 @@ date = "2017-02-04T12:06:42+09:00"
   name = "Spiegel"
   github = "spiegel-im-spiegel"
   license = "by-sa"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
   flattr = ""
   linkedin = "spiegelimspiegel"
 +++

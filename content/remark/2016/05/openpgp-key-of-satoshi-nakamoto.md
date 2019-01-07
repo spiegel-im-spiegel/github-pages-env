@@ -18,7 +18,7 @@ title = "Satoshi Nakamoto の OpenPGP 鍵"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 色々話題になっているようで。
@@ -225,7 +225,7 @@ Old: Signature Packet(tag 2)(421 bytes)
 
 ## 参考ページ
 
-- [わかる！ OpenPGP 暗号 — Baldanders.info](http://www.baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
+- [わかる！ OpenPGP 暗号 — Baldanders.info](https://baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
 - [Craig Wright、「証拠は公表したくない」―オーストラリア人起業家、Bitcoinを発明したとの主張から後退 | TechCrunch Japan](http://jp.techcrunch.com/2016/05/06/20160505craig-wright-backs-out-and-wont-prove-that-he-is-bitcoin-creator-satoshi-nakamoto/) : この話はどうやら収束したらしい。やれやれ
 
 [`pgpdump`]: (http://www.mew.org/~kazu/proj/pgpdump/

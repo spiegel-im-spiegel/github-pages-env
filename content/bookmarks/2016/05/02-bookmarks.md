@@ -16,7 +16,7 @@ title = "2016-05-02 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 - [Googleは「モバイルファーストからAIファーストへ」。その理由は、いずれデバイスという概念は消え去り、インテリジェントなアシスタントになるから － Publickey](http://www.publickey1.jp/blog/16/googleai.html)

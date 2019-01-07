@@ -17,7 +17,7 @@ title = "原爆記念日"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "http://www.baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/spiegel/profile/"
 +++
 
 そういえば昨年の今日，こんな記事を Facebook のタイムラインに投げたんだった。
