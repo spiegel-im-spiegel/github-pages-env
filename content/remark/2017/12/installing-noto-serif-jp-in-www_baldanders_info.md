@@ -1,6 +1,7 @@
 +++
 title = "結局 Noto Serif JP を Web フォントとして導入した"
 date =  "2017-12-11T19:03:01+09:00"
+update =  "2019-01-07T16:14:23+09:00"
 description = "昨日の話で「Noto Serif の和文フォントが Web フォントで登場するまでは「さわらび明朝」で頑張る」と書いたばっかりなのに，日和りました。"
 image = "/images/attention/remark.jpg"
 tags        = [ "web", "site", "font", "character" ]
@@ -72,7 +73,7 @@ WOFF2 は比較的新しいフォーマットだが，データの圧縮率が W
 - [WOFF 2.0 - Web Open Font Format](https://caniuse.com/#feat=woff2)
 
 作成したフォント・ファイルを読み込むための CSS ファイルを書く。
-こんな感じに書いてみた。
+フォント・ファイルと同じディレクトリに CSS ファイルを置いて，こんな感じに書いてみた。
 
 ```css
 /*
@@ -84,15 +85,15 @@ WOFF2 は比較的新しいフォーマットだが，データの圧縮率が W
 @font-face {
   font-family: 'Noto Serif JP';
   font-style: normal;
-  src: url('https://baldanders.info/fonts/NotoSerifJP/NotoSerifJP-Regular.woff2') format('woff2'),
-       url('https://baldanders.info/fonts/NotoSerifJP/NotoSerifJP-Regular.woff') format('woff');
+  src: url('./NotoSerifJP-Regular.woff2') format('woff2'),
+       url('./NotoSerifJP-Regular.woff') format('woff');
   font-weight: 400;
 }
 @font-face {
   font-family: 'Noto Serif JP';
   font-style: normal;
-  src: url('https://baldanders.info/fonts/NotoSerifJP/NotoSerifJP-Bold.woff2') format('woff2'),
-       url('https://baldanders.info/fonts/NotoSerifJP/NotoSerifJP-Bold.woff') format('woff');
+  src: url('./NotoSerifJP-Bold.woff2') format('woff2'),
+       url('./NotoSerifJP-Bold.woff') format('woff');
   font-weight: 700;
 }
 ```
@@ -124,12 +125,16 @@ JavaScript の `XMLHttpRequest` と同じく， Web フォントも（主にセ�
 さくらのレンタルサーバなら `.htaccess` ファイルに
 
 ```text
-# Cross-Origin Resource Sharing 
-Header append Access-Control-Allow-Origin: http://text.baldanders.info
+# Cross-Origin Resource Sharing
+<FilesMatch "\.(woff|woff2)$">
+  <IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin: https://text.baldanders.info
+  </IfModule>
+</FilesMatch>
 ```
 
 と記述すればヘッダに追加されるようだ。
-相手先の指定を `*` にすると任意のサイトから（Web フォントだけでなく JavaScript も）アクセスし放題になるので，ご注意を。
+相手先の指定を `*` にすると任意のサイトからアクセスし放題になるので，ご注意を。
 
 ## ローカルのフォントも有効にする
 

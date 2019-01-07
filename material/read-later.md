@@ -36,12 +36,6 @@
 - [GitHub - jaschaephraim/lrserver: LiveReload server for Go [golang]](https://github.com/jaschaephraim/lrserver)
 
 
-### Flickr 
-
-- [Why we’re changing Flickr  free accounts | Flickr Blog](https://blog.flickr.net/en/2018/11/01/changing-flickr-free-accounts-1000-photos/)
-- [Flickrの新しいビジネスモデルでCreative Commonsの作品は消されるのか  |  TechCrunch Japan](https://jp.techcrunch.com/2018/11/03/2018-11-02-flickrs-new-business-model-could-see-works-deleted-from-creative-commons/)
-
-
 ## リリース情報
 
 
