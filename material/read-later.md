@@ -25,6 +25,16 @@
     - [Product Advertising API](https://images-na.ssl-images-amazon.com/images/G/09/associates/paapi/dg/index.html)
 - [AmazonのProduct Advertising APIの使い方 | Apitore blog](http://blog.apitore.com/2016/08/01/amazon-product-advertising-api/)
 - [「Amazon API」の使い方を紹介します！最安値やランキング取得できるよ①－アソシエイトID（タグ）登録編－ | HPcode](https://haniwaman.com/amazon-api-1/)
+- [GitHub - ngs/go-amazon-product-advertising-api: Go Client Library for Amazon Product Advertising API](https://github.com/ngs/go-amazon-product-advertising-api)
+- [GitHub - eliseosoto/go-amazon-product-api: Interact with the Amazon Product Advertising API using golang.](https://github.com/eliseosoto/go-amazon-product-api)
+- [GitHub - DDRBoxman/go-amazon-product-api: Wrapper for the Amazon Product Advertising API](https://github.com/DDRBoxman/go-amazon-product-api)
+
+- [アソシエイト・セントラル](https://affiliate.amazon.co.jp/)
+    - [Product Advertising API](https://affiliate.amazon.co.jp/assoc_credentials/home)
+    - [Product Advertising API Scratchpad (beta)](https://webservices.amazon.co.jp/scratchpad/)
+
+- [Product Advertising API](https://docs.aws.amazon.com/ja_jp/AWSECommerceService/latest/DG/Welcome.html)
+- [Product Advertising API](https://images-na.ssl-images-amazon.com/images/G/09/associates/paapi/dg/index.html) : 内容は古いが日本語
 
 ## リリース情報
 

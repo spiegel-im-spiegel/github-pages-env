@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2018-12-23T12:13:45+09:00"
+update = "2019-01-12T15:52:57+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
@@ -328,6 +328,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [GolangでEnumをフィールドに持つstructをいい感じにjsonエンコード / デコードする - 一から勉強させてください(￣ω￣;)](http://dangerous-animal141.hatenablog.com/entry/2017/01/19/004650)
 - [golang xml.Marshal でxmlタグで出力する - Qiita](https://qiita.com/dolpher/items/024af13c37926218c3f5)
 - [golangでajaxを使用してrssのデータを取得する - m_shige1979のささやかな抵抗と欲望の日々](http://m-shige1979.hatenablog.com/entry/2016/02/19/080000)
+- [Big Sky :: GolangでAPI Clientを実装する、の続き](https://mattn.kaoriya.net/software/lang/go/20161101151118.htm)
+    - [GolangでAPI Clientを実装する | SOTA](https://deeeet.com/writing/2016/11/01/go-api-client/)
 
 ### [`time`] パッケージ
 
