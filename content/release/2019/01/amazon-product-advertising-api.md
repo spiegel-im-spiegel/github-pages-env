@@ -299,7 +299,11 @@ $ amazon-item lookup -d B01IGW5IIW -t template/lookup.html
 
 ## ブックマーク
 
-- [Product Advertising API Scratchpad (beta)](https://webservices.amazon.co.jp/scratchpad/)
+- [アソシエイト・セントラル](https://affiliate.amazon.co.jp/)
+    - [Product Advertising API](https://affiliate.amazon.co.jp/assoc_credentials/home)
+    - [Product Advertising API Scratchpad (beta)](https://webservices.amazon.co.jp/scratchpad/)
+- [Product Advertising API](https://docs.aws.amazon.com/ja_jp/AWSECommerceService/latest/DG/Welcome.html)
+- [Product Advertising API](https://images-na.ssl-images-amazon.com/images/G/09/associates/paapi/dg/index.html) : 内容は古いが日本語
 
 - [AmazonのProduct Advertising APIの使い方 | Apitore blog](http://blog.apitore.com/2016/08/01/amazon-product-advertising-api/)
 - [「Amazon API」の使い方を紹介します！最安値やランキング取得できるよ①－アソシエイトID（タグ）登録編－ | HPcode](https://haniwaman.com/amazon-api-1/)
