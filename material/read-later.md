@@ -9,6 +9,7 @@
 ## あとで遊ぶ
 
 - [さくらのレンタルサーバ／マネージドサーバ 「バックアップ＆ステージング powered by Sn
+
 ### Autocrypt について
 
 - [Autocrypt 1.0.0 documentation](https://autocrypt.org/)
@@ -28,6 +29,8 @@
 
 ## セキュリティ関連
 
+- [艦隊これくしょんへのDoS攻撃についてまとめみた - piyolog](http://d.hatena.ne.jp/Kango/20190112/1547244881)
+- [ロシア外務省が発表した公式サイトへのサイバー攻撃についてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20190113/1547339177)
 
 ## 天文関連
 
@@ -37,5 +40,7 @@
 
 ## その他
 
+- [本人を特定できない安全なネットアクセスを提供するTorに記録的な額の寄付が集まる  |  TechCrunch Japan](https://jp.techcrunch.com/2019/01/12/2019-01-11-tor-lessens-reliance-us-grants/)
+- [フォルクスワーゲン、アップル元幹部を引き抜き--自動運転車の開発強化へ - CNET Japan](https://japan.cnet.com/article/35131098/)
 
 <!-- eof -->

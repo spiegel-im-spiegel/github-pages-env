@@ -1,6 +1,7 @@
 +++
 title = "2019-01-12 のブックマーク"
 date =  "2019-01-12T10:46:16+09:00"
+update =  "2019-01-14T09:06:33+09:00"
 description = "「朗報、GitHub無料ユーザーも無制限にプライベートリポジトリを使えるようになる」他"
 image = "/images/avatar.jpg"
 
@@ -56,6 +57,7 @@ image = "/images/avatar.jpg"
 - [Opinion | Our Cellphones Aren’t Safe - The New York Times](https://www.nytimes.com/2018/12/26/opinion/cellphones-security-spying.html)
     - [Security Vulnerabilities in Cell Phone Systems - Schneier on Security](https://www.schneier.com/blog/archives/2019/01/security_vulner_19.html)
 - [Linuxの「systemd」に新たなセキュリティホール - ZDNet Japan](https://japan.zdnet.com/article/35131151/)
+    - [OSブートシステム「systemd」に脆弱性、修正版が公開 | Think IT（シンクイット）](https://thinkit.co.jp/news/bn/15683)
 - [Hackers Make a Fake Hand to Beat Vein Authentication - Motherboard](https://motherboard.vice.com/en_us/article/59v8dk/hackers-fake-hand-vein-authentication-biometrics-chaos-communication-congress)
 
 ## 天文関連
