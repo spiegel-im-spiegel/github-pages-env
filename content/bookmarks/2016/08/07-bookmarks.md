@@ -34,7 +34,7 @@ title = "2016-08-07 のブックマーク"
     - [Kindle Unlimited開始でKindleダイレクト・パブリッシング（KDP）冬の時代が到来？ 出版社が優遇され過ぎ:見て歩く者 by 鷹野凌](http://www.wildhawkfield.com/2016/08/major-publishers-have-been-special-treatment-on-Kindle-Unlimited.html)
 - [Appleが待ち望まれていたバグ報奨金プログラムを開始 | TechCrunch Japan](http://jp.techcrunch.com/2016/08/05/20160804apple-announces-long-awaited-bug-bounty-program/)
 - [The four cybersecurity terms everyone is talking about at Black Hat | TechCrunch](https://techcrunch.com/2016/08/04/the-four-cybersecurity-terms-everyone-is-talking-about-at-black-hat/)
-- [「憲法改正」の比較政治学 : 駒村 圭吾, 待鳥 聡史 : 本 : Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/433535679X/baldandersinf-22/)
+- [「憲法改正」の比較政治学 : 駒村 圭吾, 待鳥 聡史 : 本 : Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/433535679X/baldandersinf-22/)
 - [仕様書を用意しない「対面開発」のメリットと課題 - ZDNet Japan](http://japan.zdnet.com/article/35086930/)
 - [火星探査機、ローバー・キュリオシティーの活動が4周年―NASAがかわいいゲームを発表 | TechCrunch Japan](http://jp.techcrunch.com/2016/08/05/20160804red-rover/)
 - [米国初の洋上風力発電所、ロードアイランド州に建設｜WIRED.jp](http://wired.jp/2016/08/03/ge-offshore-wind-farm/)

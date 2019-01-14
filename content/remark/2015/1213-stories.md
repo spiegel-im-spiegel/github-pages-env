@@ -107,7 +107,7 @@ title = "週末スペシャル： 「あかつき」金星の衛星になる"
 記者やアナウンサのキャラや演出なんかどうでもいいのである。
 
 一方で現場に近い人達（たとえば上述の谷本真由美さんや原ケイさんなど）の記事は（ご本人はギャラを貰ってるのかもしれないが），私たちユーザは無料でアクセスできる。
-『[石油の「埋蔵量」は誰が決めるのか?](http://www.amazon.co.jp/exec/obidos/ASIN/B00OT5IZR2/baldandersinf-22/)』を読んで最近チェックしだした岩瀬昇さんなどは [ameblo で書かれている](http://ameblo.jp/nobbypapa/) [^ambl]。
+『[石油の「埋蔵量」は誰が決めるのか?](https://www.amazon.co.jp/exec/obidos/ASIN/B00OT5IZR2/baldandersinf-22/)』を読んで最近チェックしだした岩瀬昇さんなどは [ameblo で書かれている](http://ameblo.jp/nobbypapa/) [^ambl]。
 
 [^ambl]: 本や漫画を書いてる方が ameblo なんかで記事を書くのはブランドの毀損じゃないかと思ってしまうのだが，まぁいいか。
 

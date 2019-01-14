@@ -63,7 +63,7 @@ title = "『つながりっぱなしの日常を生きる』を読む"
 
 『[つながりっぱなしの日常を生きる]』では「プライバシー」をこう記述している。
 
-{{< fig-quote title="つながりっぱなしの日常を生きる" link="http://www.amazon.co.jp/exec/obidos/ASIN/B0125TZSZ0/baldandersinf-22/" >}}
+{{< fig-quote title="つながりっぱなしの日常を生きる" link="https://www.amazon.co.jp/exec/obidos/ASIN/B0125TZSZ0/baldandersinf-22/" >}}
 <q>それは人々が印象や情報の流れや文脈を管理することにより社会的状況をコントロールしようとするのに用いられるプロセスなのだ。</q>（p.122）
 {{< /fig-quote >}}
 
@@ -72,11 +72,11 @@ title = "『つながりっぱなしの日常を生きる』を読む"
 ネットは空間概念を無意味化する。
 故に「プライバシーは信用の問題」（p.118）であり，プライバシーを守るということは「ひとつの主体性の表現」（p.123）なのである。
 
-{{< fig-quote title="つながりっぱなしの日常を生きる" link="http://www.amazon.co.jp/exec/obidos/ASIN/B0125TZSZ0/baldandersinf-22/" >}}
+{{< fig-quote title="つながりっぱなしの日常を生きる" link="https://www.amazon.co.jp/exec/obidos/ASIN/B0125TZSZ0/baldandersinf-22/" >}}
 <q>ティーンは自分たちが見られていることを前提として、公共性に対立するのではなく、公的環境の中でプライバシーを見つけようとする。</q>（p.119）
 {{< /fig-quote >}}
 
-{{< fig-quote title="つながりっぱなしの日常を生きる" link="http://www.amazon.co.jp/exec/obidos/ASIN/B0125TZSZ0/baldandersinf-22/" >}}
+{{< fig-quote title="つながりっぱなしの日常を生きる" link="https://www.amazon.co.jp/exec/obidos/ASIN/B0125TZSZ0/baldandersinf-22/" >}}
 <q>僅かにシェアしていることによって、何もシェアしないでいるよりもプライバシーがもたらされる</q>（p.120）
 {{< /fig-quote >}}
 
@@ -107,9 +107,9 @@ title = "『つながりっぱなしの日常を生きる』を読む"
 
 子どもたちが直面する障壁とそれをどのように迂回または乗り越えているかを知ることは社会と社会に連接するネットを知る大きな手がかりとなるだろう。
 
-[つながりっぱなしの日常を生きる]: http://www.amazon.co.jp/exec/obidos/ASIN/B0125TZSZ0/baldandersinf-22/ "Amazon.co.jp: つながりっぱなしの日常を生きる：ソーシャルメディアが若者にもたらしたもの 電子書籍: ダナ・ボイド, 野中 モモ: Kindleストア"
+[つながりっぱなしの日常を生きる]: https://www.amazon.co.jp/exec/obidos/ASIN/B0125TZSZ0/baldandersinf-22/ "Amazon.co.jp: つながりっぱなしの日常を生きる：ソーシャルメディアが若者にもたらしたもの 電子書籍: ダナ・ボイド, 野中 モモ: Kindleストア"
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B0125TZSZ0/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/616sjle5ITL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B0125TZSZ0/baldandersinf-22/">つながりっぱなしの日常を生きる：ソーシャルメディアが若者にもたらしたもの</a></dt><dd>ダナ・ボイド 野中 モモ </dd><dd>草思社 2014-10-09</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0141TUJHY/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B0141TUJHY.09._SCTHUMBZZZ_.jpg"  alt="角川インターネット講座５　ネットコミュニティの設計と力　つながる私たちの時代<角川インターネット講座> (角川学芸出版全集)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B01CZK0B2Y/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B01CZK0B2Y.09._SCTHUMBZZZ_.jpg"  alt="これからの世界をつくる仲間たちへ"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B01B1CKZQO/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B01B1CKZQO.09._SCTHUMBZZZ_.jpg"  alt="ForbesJapan (フォーブスジャパン) 2016年 03月号 [雑誌]"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B010LYGB34/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B010LYGB34.09._SCTHUMBZZZ_.jpg"  alt="「炎上」と「拡散」の考現学"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0191AIN6W/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B0191AIN6W.09._SCTHUMBZZZ_.jpg"  alt="ぼくらの仮説が世界をつくる"  /></a> </p>
+<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B0125TZSZ0/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/616sjle5ITL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B0125TZSZ0/baldandersinf-22/">つながりっぱなしの日常を生きる：ソーシャルメディアが若者にもたらしたもの</a></dt><dd>ダナ・ボイド 野中 モモ </dd><dd>草思社 2014-10-09</dd><dd>評価<abbr class="rating" title="5"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B0141TUJHY/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B0141TUJHY.09._SCTHUMBZZZ_.jpg"  alt="角川インターネット講座５　ネットコミュニティの設計と力　つながる私たちの時代<角川インターネット講座> (角川学芸出版全集)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B01CZK0B2Y/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B01CZK0B2Y.09._SCTHUMBZZZ_.jpg"  alt="これからの世界をつくる仲間たちへ"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B01B1CKZQO/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B01B1CKZQO.09._SCTHUMBZZZ_.jpg"  alt="ForbesJapan (フォーブスジャパン) 2016年 03月号 [雑誌]"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B010LYGB34/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B010LYGB34.09._SCTHUMBZZZ_.jpg"  alt="「炎上」と「拡散」の考現学"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B0191AIN6W/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B0191AIN6W.09._SCTHUMBZZZ_.jpg"  alt="ぼくらの仮説が世界をつくる"  /></a> </p>
 <p class="description">読むのに1年半以上かかってしまった。ネット，特に SNS 上で自身のアイデンティティやプライバシーを保つにはどうすればいいか。豊富な事例を交えて考察する。</p>
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-05-10">2016-05-10</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
 </div>

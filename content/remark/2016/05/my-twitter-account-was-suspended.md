@@ -35,7 +35,7 @@ title = "Twitter アカウントが凍結されました"
 
 - [サイバーセキュリティ注意喚起サービス「icat for JSON」：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/vuln/icat.html)
 
-個人的には津田大介さんの『[Twitter 社会論](http://www.amazon.co.jp/exec/obidos/ASIN/4862484824/baldandersinf-22/ "Amazon.co.jp： Twitter社会論 ~新たなリアルタイム・ウェブの潮流: 津田 大介: 本")』が登場した時点で Twiter は終わったと思ってるので，まぁしょうがないかな，と。
+個人的には津田大介さんの『[Twitter 社会論](https://www.amazon.co.jp/exec/obidos/ASIN/4862484824/baldandersinf-22/ "Amazon.co.jp： Twitter社会論 ~新たなリアルタイム・ウェブの潮流: 津田 大介: 本")』が登場した時点で Twiter は終わったと思ってるので，まぁしょうがないかな，と。
 [メイン](https://twitter.com/spiegel_2007)のほうも垢バンされる前に手を打ったほうがいいかな。
 
 さてこれからセキュリティ情報をどうやって取るかな。

@@ -47,7 +47,7 @@ draft = true
 [K&R] では C 言語は call by value だと明記されているが，引数にポインタを渡すことを call by reference だとは一言も書かれていない。
 Call by reference は Fortran などの既存の言語で使われるシーケンスであり， C 言語は{{< ruby "ザク" >}}奴等{{< /ruby >}}とは違うのだよ，と謳っている。
 
-{{< fig-quote title="プログラミング言語C" link="http://www.amazon.co.jp/exec/obidos/ASIN/4320026926/baldandersinf-22/" >}}
+{{< fig-quote title="プログラミング言語C" link="https://www.amazon.co.jp/exec/obidos/ASIN/4320026926/baldandersinf-22/" >}}
 <q>この “call by value” は資産であり負債ではない。通常は余分な変数はほとんど使わずにすみ，プログラムはよりコンパクトになる。というのは，呼ばれたサブルーチン内では，パラメータは，都合よく初期化された局所的変数として扱えるからである。</q>
 {{< /fig-quote >}}
 
@@ -98,6 +98,6 @@ C++ 言語の「参照」型は，言語仕様上は存在しない。
 
 - [なぜ、Java等で「参照渡し」の言葉を使うべきではないのか？ - Qiita](https://qiita.com/raccy/items/59a6ac6c818918dd9651)
 
-[K&R]: http://www.amazon.co.jp/exec/obidos/ASIN/4320026926/baldandersinf-22/ "プログラミング言語C 第2版 ANSI規格準拠 | B.W. カーニハン, D.M. リッチー, 石田 晴久 |本 | 通販 | Amazon"
+[K&R]: https://www.amazon.co.jp/exec/obidos/ASIN/4320026926/baldandersinf-22/ "プログラミング言語C 第2版 ANSI規格準拠 | B.W. カーニハン, D.M. リッチー, 石田 晴久 |本 | 通販 | Amazon"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [string]: http://golang.org/ref/spec#String_types

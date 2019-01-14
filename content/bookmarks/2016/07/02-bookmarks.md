@@ -40,7 +40,7 @@ title = "2016-07-02 のブックマーク"
 - [Cisco、危険度最高値「10.0」の脆弱性など多数修正 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1607/01/news075.html)
 - [次世代Androidは「ヌガー」―Google、Android NはNougatと発表 | TechCrunch Japan](http://jp.techcrunch.com/2016/07/01/20160518nutella-mcnutellaface-2/)
 - [横にも動く「次世代エレヴェーター」で地下鉄はどう変わる？｜WIRED.jp](http://wired.jp/2016/06/28/maglev-elevator-sideways/)
-- [Amazon.co.jp： 素数夜曲―女王陛下のLISP: 吉田 武: 本](http://www.amazon.co.jp/exec/obidos/ASIN/4486019245/baldandersinf-22/)
+- [Amazon.co.jp： 素数夜曲―女王陛下のLISP: 吉田 武: 本](https://www.amazon.co.jp/exec/obidos/ASIN/4486019245/baldandersinf-22/)
 - [Googleマップ・アプリ、簡単に複数目標の設定が可能に―タイムラインにメモも書ける | TechCrunch Japan](http://jp.techcrunch.com/2016/07/01/20160630google-maps-gets-multi-stop-directions-and-vacation-memories-on-mobile/)
 - [Tesla driver using Autopilot feature killed by tractor trailer | Fox News](http://www.foxnews.com/leisure/2016/07/01/tesla-driver-using-autopilot-feature-killed-by-tractor-trailer/)
     - [「Tesla S」の自動運転中の死亡事故、米運輸省当局が予備調査開始 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1607/01/news081.html)

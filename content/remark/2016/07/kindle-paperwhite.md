@@ -21,7 +21,7 @@ title = "今更 Kindle Paperwhite を買う"
   url = "https://baldanders.info/spiegel/profile/"
 +++
 
-今更ですが [Kindle Paperwhite](http://www.amazon.co.jp/exec/obidos/ASIN/B00QJDQM9U/baldandersinf-22/) を購入しました。
+今更ですが [Kindle Paperwhite](https://www.amazon.co.jp/exec/obidos/ASIN/B00QJDQM9U/baldandersinf-22/) を購入しました。
 
 いや Prime Day で半額セールやってたし，ついカッとなってやった。
 後悔はしていない。

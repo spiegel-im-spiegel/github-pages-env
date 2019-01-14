@@ -52,7 +52,7 @@ title = "2016-07-17 のブックマーク"
 - [脳に関する研究結果に誤りの可能性？ fMRIのソフトウェアにバグを発見 ─欠陥はすでに修正も残る不安 | Forbes JAPAN（フォーブス ジャパン）](http://forbesjapan.com/articles/detail/12794/1/1/1)
 - [シンプルなコンテンツベースのレコメンデーション・エンジンをPythonで実装する | プログラミング | POSTD](http://postd.cc/simple-similar-products-recommendation-engine-in-python/)
 - [JAXA | X線天文衛星ASTRO-H「ひとみ」の後継機の検討について](http://www.jaxa.jp/press/2016/07/20160714_hitomi_j.html)
-- [Amazon.co.jp： なぜ核はなくならないのかII: 「核なき世界」への視座と展望: 吉川 元, 水本 和実, 佐渡 紀子, 福井 康人, 広瀬 訓, 倉科 一希, 茅原 郁生, 吉村 慎太郎, 孫 賢鎮, ロバート・ジェイコブズ, 国末 憲人, 中村 桂子, 広島市立大学 広島平和研究所: 本](http://www.amazon.co.jp/exec/obidos/ASIN/4589037858/baldandersinf-22/)
+- [Amazon.co.jp： なぜ核はなくならないのかII: 「核なき世界」への視座と展望: 吉川 元, 水本 和実, 佐渡 紀子, 福井 康人, 広瀬 訓, 倉科 一希, 茅原 郁生, 吉村 慎太郎, 孫 賢鎮, ロバート・ジェイコブズ, 国末 憲人, 中村 桂子, 広島市立大学 広島平和研究所: 本](https://www.amazon.co.jp/exec/obidos/ASIN/4589037858/baldandersinf-22/)
 - [プラネタリウム番組「ネイチャーリウム オーロラの調べ 神秘の光を探る」：広島市こども文化科学館](http://www.pyonta.city.hiroshima.jp/event/detail/id/2904.html)
 - [ハミング符号 : データの誤り検知/訂正をインタラクティブに学ぶ | コンピュータサイエンス | POSTD](http://postd.cc/hamming-codes/)
 - [若い星のフラッシュが氷の円盤を焦がす - ニュース＆コラム - アルマ望遠鏡 国立天文台](http://alma.mtk.nao.ac.jp/j/news/info/2016/0714post_663.html)

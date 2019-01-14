@@ -30,9 +30,9 @@ tags = ["book"]
 
 まずは[昨年]({{< ref "/remark/2017/03/wish-list-201703.md" >}} "欲しいものリスト2017年3月版")からまだ買ってない本で，なお読みたい本。
 
-- [クラウドを支えるこれからの暗号技術 | 光成 滋生 |本 | 通販 | Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/479804413X/baldandersinf-22/)
-- [RSA暗号を可能にしたEulerの定理 | 田中 隆幸 |本 | 通販 | Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/486641040X/baldandersinf-22/)
-- [一般相対性理論を一歩一歩数式で理解する | 石井 俊全 |本 | 通販 | Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/4860644980/baldandersinf-22/)
+- [クラウドを支えるこれからの暗号技術 | 光成 滋生 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/479804413X/baldandersinf-22/)
+- [RSA暗号を可能にしたEulerの定理 | 田中 隆幸 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/486641040X/baldandersinf-22/)
+- [一般相対性理論を一歩一歩数式で理解する | 石井 俊全 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4860644980/baldandersinf-22/)
 
 で，以下は追加の「欲しいもの」。
 
@@ -48,7 +48,7 @@ AI 関連はもうお腹いっぱいだし，そもそも AI 技術とか FinTec
 今は一身上の都合で PayPal が使えないので，買えてません。
 Google Pay か Amazon ギフトで買えたりしないのだろうか（笑） 年内には何とか手に入れたいとは思ってるんだけど，まず自分自身の立て直しが急務なので後回し。
 
-- [テスト駆動開発 | Kent Beck, 和田 卓人 |本 | 通販 | Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/4274217884/baldandersinf-22/)
+- [テスト駆動開発 | Kent Beck, 和田 卓人 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4274217884/baldandersinf-22/)
 
 実は読んでない。
 恥ずかしいです。

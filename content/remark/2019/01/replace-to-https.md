@@ -1,6 +1,7 @@
 +++
 title = "（不完全ながら） HTTPS 接続に対応した"
 date = "2019-01-07T17:53:06+09:00"
+update = "2019-01-14T09:49:19+09:00"
 description = "各ページに埋め込まれる他サイトのスクリプトや画像等のマテリアルに HTTPS に対応していないものがあるため不完全な対応になっている点はご了承の程を。"
 image = "/images/attention/kitten.jpg"
 tags = [ "site", "web", "tls", "cryptography" ]
@@ -76,7 +77,7 @@ tags = [ "site", "web", "tls", "cryptography" ]
 
 こちらも当面は HTTP と HTTPS の両方とも有効にして運用するが Flickr の写真と Amazon アフィリエイト・リンクの目処が立てば HTTPS 強制にしてもいいかも知れない。
 
-### 【追記】 e-Words 用語集止めました
+### 【追記1】 e-Words 用語集止めました
 
 [ここのブログ]ではページ下部に [e-Words] 用語集のブログパーツを貼り付けていたのだが，既にメンテナンスされていないようで，かなり前から説明ページが消えてるし，しかも HTTP 接続オンリーで HTTPS なページに貼り付けるとブラウザから reject されるので，今回を機に削除することにした。
 
@@ -86,6 +87,46 @@ tags = [ "site", "web", "tls", "cryptography" ]
 [Twitter](https://twitter.com/spiegel_2007) か [Facebook ページ](https://www.facebook.com/baldanders.info/ "Baldanders.info")でフィードバックを，という手もあるが...
 
 [^dq1]: どうも Firefox 側でホワイトリストまたはブラックリストを持っていて，トラッキング・コードの配信元から有効/無効を判断してるっぽい。ホワイトリスト方式またはブラックリスト方式は運用する側にどうしても恣意が混入してしまう。この辺は spam メール対策で懲りているので賢いやり方に見えない。
+
+### 【追記2】 Amazon 関連の URL 変換
+
+Amazon の商品ページへのリンク URL や書影等のイメージの URL について以下のように変換した。
+
+{{< fig-gen title="Amazon 関連の URL 変換" >}}
+
+<style>
+main table.amazon th  {
+  vertical-align:middle;
+  text-align: center;
+}
+main table.amazon td  {
+  vertical-align:middle;
+  text-align: left;
+}
+</style>
+<table class="amazon">
+<thead>
+    <tr>
+        <th>変換前</th>
+        <th>変換後</th>
+    </tr>
+</thead><tbody>
+    <tr>
+        <td><code>http://www.amazon.co.jp/</code></td>
+        <td><code>https://www.amazon.co.jp/</code></td>
+    </tr><tr>
+        <td><code>http://ecx.images-amazon.com/</code></td>
+        <td rowspan="3"><code>https://images-fe.ssl-images-amazon.com/</code></td>
+    </tr><tr>
+        <td><code>http://images.amazon.com/</code></td>
+    </tr><tr>
+        <td><code>http://g-images.amazon.com/</code></td>
+    </tr>
+</tbody>
+</table>
+
+{{< /fig-gen >}}
+
 
 ## ブックマーク
 

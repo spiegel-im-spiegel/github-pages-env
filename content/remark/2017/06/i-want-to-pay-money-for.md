@@ -105,7 +105,7 @@ Role-Playing Game ってのは文字通り「ごっこ遊び」なんだから�
 [MFF]: http://www.jp.square-enix.com/MOBIUSFF/ "MOBIUS FINAL FANTASY | SQUARE ENIX"
 [リセマラ]: http://dic.nicovideo.jp/a/%E3%83%AA%E3%82%BB%E3%83%9E%E3%83%A9 "リセマラとは (リセマラとは) [単語記事] - ニコニコ大百科"
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B06XYM74MZ/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/E1RAuHmAdES._SL160_.png" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B06XYM74MZ/baldandersinf-22/">[まとめ買い] 賢者の弟子を名乗る賢者（GCノベルズ）</a></dt><dd>りゅうせんひろつぐ 藤ちょこ </dd><dd> </dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
+<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B06XYM74MZ/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/E1RAuHmAdES._SL160_.png" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B06XYM74MZ/baldandersinf-22/">[まとめ買い] 賢者の弟子を名乗る賢者（GCノベルズ）</a></dt><dd>りゅうせんひろつぐ 藤ちょこ </dd><dd> </dd><dd>評価<abbr class="rating" title="5"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
 <p class="description">最近のお気に入りラノベ。 <a href="http://ncode.syosetu.com/n6829bd/">Web 版</a>も愛読している。こういう設定のゲームとかあったら楽しいかなぁ。</p>
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-06-09">2017-06-09</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
 </div>

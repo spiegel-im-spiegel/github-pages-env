@@ -45,7 +45,7 @@ title = "「ピノキオ」と AI"
 「人に非ざる」ものを人に「包摂」しなければ向き合えないのか（ヒト・ショーヴィニズム[^hc]）。
 それとも[異質な知能](http://wired.jp/2016/07/06/kk-column-1/ "「エイリアン・インテリジェンス」としてのAI──ケヴィン・ケリー｜WIRED.jp")として対象に「接続」し理解していくのか。
 
-[^hc]: 「ショーヴィニズム（chauvinism）」とは「盲目的愛国主義」とかもっと一般的に「◯◯至上主義」みたいなニュアンスの言葉らしい。排外主義の一種といえる。故 [Carl Sagan](https://en.wikipedia.org/wiki/Carl_Sagan "Carl Sagan - Wikipedia, the free encyclopedia") 博士は1971年の通称「ビュラカン会議」においてこの「ショーヴィニズム」という単語を用い，宇宙生命を考える際に私たち地球人が如何に地球中心思想に毒されているかという主張および議論を行った。（金子隆一著『[ファースト・コンタクト](http://www.amazon.co.jp/exec/obidos/ASIN/4166600044/baldandersinf-22/)』 p.50-51 より）
+[^hc]: 「ショーヴィニズム（chauvinism）」とは「盲目的愛国主義」とかもっと一般的に「◯◯至上主義」みたいなニュアンスの言葉らしい。排外主義の一種といえる。故 [Carl Sagan](https://en.wikipedia.org/wiki/Carl_Sagan "Carl Sagan - Wikipedia, the free encyclopedia") 博士は1971年の通称「ビュラカン会議」においてこの「ショーヴィニズム」という単語を用い，宇宙生命を考える際に私たち地球人が如何に地球中心思想に毒されているかという主張および議論を行った。（金子隆一著『[ファースト・コンタクト](https://www.amazon.co.jp/exec/obidos/ASIN/4166600044/baldandersinf-22/)』 p.50-51 より）
 
 まぁ個人的には「キカイダー」のほうがピノキオぽいけどね[^p]。
 
@@ -60,12 +60,12 @@ title = "「ピノキオ」と AI"
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B013UQUH80/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/C1RBaQMQg4S._SL160_.png" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B013UQUH80/baldandersinf-22/">[まとめ買い] キカイダー02（角川コミックス・エース）</a></dt><dd>ＭＥＩＭＵ 石ノ森 章太郎 </dd><dd> </dd><dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
+<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B013UQUH80/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/C1RBaQMQg4S._SL160_.png" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B013UQUH80/baldandersinf-22/">[まとめ買い] キカイダー02（角川コミックス・エース）</a></dt><dd>ＭＥＩＭＵ 石ノ森 章太郎 </dd><dd> </dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
 <p class="description">「キカイダー」を神秘学的視点で再解釈する（笑）</p>
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-08-18">2016-08-18</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00WS87F6E/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/D1thZQuixAS._SL160_.png" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00WS87F6E/baldandersinf-22/">[まとめ買い] イヴの時間（デジタル版ヤングガンガンコミックス）</a></dt><dd>吉浦康裕 太田優姫 </dd><dd> </dd><dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
+<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00WS87F6E/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/D1thZQuixAS._SL160_.png" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00WS87F6E/baldandersinf-22/">[まとめ買い] イヴの時間（デジタル版ヤングガンガンコミックス）</a></dt><dd>吉浦康裕 太田優姫 </dd><dd> </dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
 <p class="description">同名アニメーション作品のコミカライズ。ヒトとロボットが交わる時間。</p>
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-08-18">2016-08-18</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
 </div>

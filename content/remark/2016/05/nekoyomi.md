@@ -34,7 +34,7 @@ title = "『猫暦』を読んだ"
 実は2月頃に Facebook の天文関連のグループで紹介され， Kindle 版が出てたのでソッコー買ってしまった。
 舞台は江戸時代でいわゆる「寛政の改暦」のころの話である。
 
-日本人の手による最初の暦「{{< ruby "じょうきょうれき" >}}貞享暦{{< /ruby >}}」については『[天地明察](http://www.amazon.co.jp/exec/obidos/ASIN/B0095OEG3Y/baldandersinf-22/)』が映画化されたのでご存じの方も多いだろう。
+日本人の手による最初の暦「{{< ruby "じょうきょうれき" >}}貞享暦{{< /ruby >}}」については『[天地明察](https://www.amazon.co.jp/exec/obidos/ASIN/B0095OEG3Y/baldandersinf-22/)』が映画化されたのでご存じの方も多いだろう。
 「{{< ruby "かんせいれき" >}}寛政暦{{< /ruby >}}」はそこから更に時代を下っている。
 
 簡単に背景を説明しておくと，まず17世紀から「和算家」が台頭し始める。
@@ -77,17 +77,17 @@ title = "『猫暦』を読んだ"
 さて，これからおえいちゃんはどうなるのか。
 続きが楽しみであります。
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B01BHGVLOY/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51mwPBTov5L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B01BHGVLOY/baldandersinf-22/">猫暦(1) (ねこぱんちコミックス)</a></dt><dd>ねこしみず美濃 </dd><dd>少年画報社 2014-10-14</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
+<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B01BHGVLOY/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51mwPBTov5L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B01BHGVLOY/baldandersinf-22/">猫暦(1) (ねこぱんちコミックス)</a></dt><dd>ねこしみず美濃 </dd><dd>少年画報社 2014-10-14</dd><dd>評価<abbr class="rating" title="5"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
 <p class="description">「寛政の改暦」のころの伊能勘解由（忠敬）とその妻とされる「おえい」の物語。</p>
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-04-17">2016-05-05</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4254102372/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/518zIufy4fL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4254102372/baldandersinf-22/">暦の大事典</a></dt><dd>岡田 芳朗 </dd><dd>朝倉書店 2014-07-29</dd><dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
+<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4254102372/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/518zIufy4fL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4254102372/baldandersinf-22/">暦の大事典</a></dt><dd>岡田 芳朗 </dd><dd>朝倉書店 2014-07-29</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
 <p class="description">古今東西の暦について網羅されている。結構なお値段だが，今回は図書館で借りて読んだ。</p>
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-05-05">2016-05-05</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B0095OEG3Y/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51U5H1U7SlL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B0095OEG3Y/baldandersinf-22/">天地明察 上<天地明察> (角川文庫)</a></dt><dd>冲方 丁 </dd><dd>KADOKAWA / 角川書店 2012-05-25</dd></dl><p class="similar"></p>
+<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B0095OEG3Y/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51U5H1U7SlL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B0095OEG3Y/baldandersinf-22/">天地明察 上<天地明察> (角川文庫)</a></dt><dd>冲方 丁 </dd><dd>KADOKAWA / 角川書店 2012-05-25</dd></dl><p class="similar"></p>
 <p class="description">日本人の手による初の暦「貞享暦」の中心人物である渋川春海の物語。実は積ん読状態。</p>
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-04-17">2016-05-05</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
 </div>

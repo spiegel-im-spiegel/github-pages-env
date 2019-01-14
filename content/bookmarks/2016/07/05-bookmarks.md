@@ -35,7 +35,7 @@ title = "2016-07-05 のブックマーク"
 - [史上最大の金融スキャンダル「パナマ文書」はこうして暴かれた──2人の独紙記者の告白｜WIRED.jp](http://wired.jp/2016/07/04/panama-papers-story/)
 - [人工知能、戦闘機バトルでも人間を打ち負かす｜WIRED.jp](http://wired.jp/2016/07/04/ai-fighter-pilot/)
 - [[Gpg4win-announce] Gpg4win 2.3.2 released](http://lists.wald.intevation.org/pipermail/gpg4win-announce/2016-July/000069.html)
-- [帝都物語 (ドラゴンコミックス) | 高橋 葉介, 荒俣 宏 | 本 | Amazon.co.jp](http://www.amazon.co.jp/exec/obidos/ASIN/404926014X/baldandersinf-22/)
+- [帝都物語 (ドラゴンコミックス) | 高橋 葉介, 荒俣 宏 | 本 | Amazon.co.jp](https://www.amazon.co.jp/exec/obidos/ASIN/404926014X/baldandersinf-22/)
 - [第135話：Windows 8/10がUSBメモリを破壊する噂 - ＃モリトーク - 窓の杜](http://forest.watch.impress.co.jp/docs/serial/moritalk/1008690.html)
 - {{< pdf-file title="近代ジハード論の系譜学" link="https://www.jstage.jst.go.jp/article/kokusaiseiji/2014/175/2014_175_115/_pdf" >}}
 - {{< pdf-file title="グローバル・ジハードの変容" link="https://www.jstage.jst.go.jp/article/nenpouseijigaku/64/1/64_1_189/_pdf" >}}

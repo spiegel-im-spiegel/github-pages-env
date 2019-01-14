@@ -36,7 +36,7 @@ title = "2016-06-15 のブックマーク"
     - [フロリダ州オーランドのゲイ・ナイトクラブへのテロに対するオバマの言葉：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41273)
     - [グローバル・ジハードの「触発」と「指示」の相違：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41275)
     - [フロリダのテロが示す、宗教規範と世俗・リベラルな規範の間の「葛藤」：池内恵 | 中東の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41276)
-    - [Amazon.co.jp： 増補新版 イスラーム世界の論じ方: 池内 恵: 本](http://www.amazon.co.jp/exec/obidos/ASIN/4120048349/baldandersinf-22/)
+    - [Amazon.co.jp： 増補新版 イスラーム世界の論じ方: 池内 恵: 本](https://www.amazon.co.jp/exec/obidos/ASIN/4120048349/baldandersinf-22/)
 
 - [2016 年 6 月のセキュリティ情報 (月例) – MS16-063, MS16-068 ～ MS16-082 | 日本のセキュリティチーム](https://blogs.technet.microsoft.com/jpsecurity/2016/06/15/201606-security-bulletin/)
     - [2016年 6月 Microsoft セキュリティ情報 (緊急 5件含) に関する注意喚起](https://www.jpcert.or.jp/at/2016/at160025.html)

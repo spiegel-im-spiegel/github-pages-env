@@ -118,7 +118,7 @@ title = "週明けから戯れ言： Go 1.6.3 セキュリティ・アップデ�
 - [テロの時代の論理と倫理 – 中東・イスラーム学の風姿花伝](http://ikeuchisatoshi.com/%E3%83%86%E3%83%AD%E3%81%AE%E6%99%82%E4%BB%A3%E3%81%AE%E8%AB%96%E7%90%86%E3%81%A8%E5%80%AB%E7%90%86/)
     - [日本でテロ事件の議論が見当はずれになる背景 – アゴラ](http://agora-web.jp/archives/2020343.html)
 - [JAXA | X線天文衛星ASTRO-H「ひとみ」の後継機の検討について](http://www.jaxa.jp/press/2016/07/20160714_hitomi_j.html)
-- [Amazon.co.jp： なぜ核はなくならないのかII: 「核なき世界」への視座と展望: 吉川 元, 水本 和実, 佐渡 紀子, 福井 康人, 広瀬 訓, 倉科 一希, 茅原 郁生, 吉村 慎太郎, 孫 賢鎮, ロバート・ジェイコブズ, 国末 憲人, 中村 桂子, 広島市立大学 広島平和研究所: 本](http://www.amazon.co.jp/exec/obidos/ASIN/4589037858/baldandersinf-22/)
+- [Amazon.co.jp： なぜ核はなくならないのかII: 「核なき世界」への視座と展望: 吉川 元, 水本 和実, 佐渡 紀子, 福井 康人, 広瀬 訓, 倉科 一希, 茅原 郁生, 吉村 慎太郎, 孫 賢鎮, ロバート・ジェイコブズ, 国末 憲人, 中村 桂子, 広島市立大学 広島平和研究所: 本](https://www.amazon.co.jp/exec/obidos/ASIN/4589037858/baldandersinf-22/)
 - [Adobe Reader および Acrobat の脆弱性 (APSB16-26) に関する注意喚起](https://www.jpcert.or.jp/at/2016/at160030.html)
     - [Adobe Reader および Acrobat の脆弱性対策について(APSB16-26)(CVE-2016-4210等)：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/ciadr/vul/20160713-adobereader.html)
 - [Adobe Flash Player の脆弱性 (APSB16-25) に関する注意喚起](https://www.jpcert.or.jp/at/2016/at160029.html)

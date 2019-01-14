@@ -257,7 +257,7 @@ Home: ********
     - [フロリダ州オーランドのゲイ・ナイトクラブへのテロに対するオバマの言葉：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41273)
     - [グローバル・ジハードの「触発」と「指示」の相違：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41275)
     - [フロリダのテロが示す、宗教規範と世俗・リベラルな規範の間の「葛藤」：池内恵 | 中東の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41276)
-- [Amazon.co.jp： 増補新版 イスラーム世界の論じ方: 池内 恵: 本](http://www.amazon.co.jp/exec/obidos/ASIN/4120048349/baldandersinf-22/)
+- [Amazon.co.jp： 増補新版 イスラーム世界の論じ方: 池内 恵: 本](https://www.amazon.co.jp/exec/obidos/ASIN/4120048349/baldandersinf-22/)
 - [ASCII.jp：脆弱性情報のサイトでよく目にする「CVE」とは？](http://ascii.jp/elem/000/001/178/1178273/)
 - [Apple、iPadでコーディングして学べる「Swift Playgrounds」を無償提供 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1606/14/news071.html)
 - [MicrosoftがLinkedInを262億ドルで買収、エンタープライズ向けソーシャルメディアに参入 | TechCrunch Japan](http://jp.techcrunch.com/2016/06/14/20160613microsoft-to-buy-linkedin-for-26b-in-cash-makes-big-move-into-enterprise-social-media/)

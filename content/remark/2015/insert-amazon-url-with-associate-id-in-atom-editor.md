@@ -47,9 +47,9 @@ amazonUrl = (id) ->
     return url
   asin = result[1]
   if id == ""
-    "http://www.amazon.co.jp/exec/obidos/ASIN/#{asin}/"
+    "https://www.amazon.co.jp/exec/obidos/ASIN/#{asin}/"
   else
-    "http://www.amazon.co.jp/exec/obidos/ASIN/#{asin}/#{id}/"
+    "https://www.amazon.co.jp/exec/obidos/ASIN/#{asin}/#{id}/"
 
 insertText = (str) ->
   return unless editor = atom.workspace.getActiveTextEditor()
@@ -69,13 +69,13 @@ atom.commands.add 'atom-text-editor', 'my-tools:amazon', ->
 これで `id` に Associate ID （たとえば私の `baldandersinf-22`）をセットして
 
 ```
-http://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB-%E7%B5%90%E5%9F%8E-%E6%B5%A9/dp/4797341378
+https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB-%E7%B5%90%E5%9F%8E-%E6%B5%A9/dp/4797341378
 ```
 
 をクリップボードにコピーした状態でコマンドパレットから「My Tools: Amazon」を起動すると
 
 ```
-http://www.amazon.co.jp/exec/obidos/ASIN/4797341378/baldandersinf-22/
+https://www.amazon.co.jp/exec/obidos/ASIN/4797341378/baldandersinf-22/
 ```
 
 と出力される。

@@ -21,7 +21,7 @@ title = "「null 安全」について"
   url = "https://baldanders.info/spiegel/profile/"
 +++
 
-{{< fig-quote title="数学ガール／フェルマーの最終定理" link="http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1CM/baldandersinf-22/" >}}
+{{< fig-quote title="数学ガール／フェルマーの最終定理" link="https://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1CM/baldandersinf-22/" >}}
 <q>公理によって与えられる暗黙の制約。この制約が集合の要素同士をしっかり結びつける。単純にしばるのではない、相互に秩序ある関係を結ぶ。言い換えれば――公理によって与えられる制約が構造を生み出しているのだ</q>
 {{< /fig-quote >}}
 

@@ -57,7 +57,7 @@ yomoyomo さんによる[『フィルターバブル』紹介記事](http://d.ha
 
 [^title]: いやぁ，タイトルというか「モノに名前をつける」のってすごく大事ですよ。『閉じこもるインターネット』なんてタイトルを誰がつけたのか知らないけど（訳者じゃないんだろうな多分），こういうのって購買意欲に直結するんだから，もうちょっと考えましょうよ。
 
-最初のあたりを読んでて早くも痛感したのは，『[スパム[spam]:インターネットのダークサイド](http://www.amazon.co.jp/exec/obidos/ASIN/430924744X/baldandersinf-22/)』は読んでおくべき，だったことだ。
+最初のあたりを読んでて早くも痛感したのは，『[スパム[spam]:インターネットのダークサイド](https://www.amazon.co.jp/exec/obidos/ASIN/430924744X/baldandersinf-22/)』は読んでおくべき，だったことだ。
 「フィルターバブル」と「注目の搾取」には密接な関係がある気がする。
 
 - [メディアは（常に）スパムか？ « マガジン航[kɔː]](http://magazine-k.jp/2016/01/25/spam-and-media/)
@@ -94,7 +94,7 @@ Windows のようなプロプライエタリ・ソフトウェアだけではな
 なぜなら「フィルターバブル」はその3規制との癒着がもたらしているからだ。
 まさに
 
-{{< fig-quote title="フィルターバブル" link="http://www.amazon.co.jp/exec/obidos/ASIN/4150504598/baldandersinf-22/" >}}
+{{< fig-quote title="フィルターバブル" link="https://www.amazon.co.jp/exec/obidos/ASIN/4150504598/baldandersinf-22/" >}}
 <q>技術は善でも悪でもない。中立でもない</q>（p.254）
 {{< /fig-quote >}}
 
@@ -112,7 +112,7 @@ Windows のようなプロプライエタリ・ソフトウェアだけではな
 
 『[フィルターバブル]』の7章を読んでからこの記事を見ると「ぞんぞがさばる」に違いない（笑）
 
-個人的に「インテリジェントアシスタント」と聞いて連想するのは Greg Egan  の {{< quote lang="en" >}}DISTRESS{{< /quote >}}（『[万物理論](http://www.amazon.co.jp/exec/obidos/ASIN/4488711022/baldandersinf-22/)』）である。
+個人的に「インテリジェントアシスタント」と聞いて連想するのは Greg Egan  の {{< quote lang="en" >}}DISTRESS{{< /quote >}}（『[万物理論](https://www.amazon.co.jp/exec/obidos/ASIN/4488711022/baldandersinf-22/)』）である。
 この作品の中で情報探索ソフトの「シジフォス」をはじめ様々な「インテリジェントアシスタント」が登場する。
 概ね「インテリジェントアシスタント」と聞いて連想するのはこういったものではないだろうか。
 しかし Google が言う「インテリジェントアシスタント」は指し示しているものが恐らく異なる。
@@ -120,7 +120,7 @@ Windows のようなプロプライエタリ・ソフトウェアだけではな
 ユーザから見て「アシスタント」は VRM（Vendor Releationship Management; 企業関係管理）でなければならない。
 そうでなければ「アシスタント」はただの広告媒体にすぎないからだ。
 しかしその Vendor のひとつに過ぎない Google が「アシスタント」を VRM として設計するはずがないのだ。
-ちなみに VRM は Doc Searls の {{< quote lang="en" >}}The Intention Economy{{< /quote >}}（『[インテンション・エコノミー](http://www.amazon.co.jp/exec/obidos/ASIN/B00DIM6BE6/baldandersinf-22/)』） に登場する概念である。
+ちなみに VRM は Doc Searls の {{< quote lang="en" >}}The Intention Economy{{< /quote >}}（『[インテンション・エコノミー](https://www.amazon.co.jp/exec/obidos/ASIN/B00DIM6BE6/baldandersinf-22/)』） に登場する概念である。
 
 - [yomoyomoの読書記録 - ドク・サールズ『インテンション・エコノミー 顧客が支配する経済』（翔泳社）](http://www.yamdas.org/booklog/intentioneconomy.html)
 - [『インテンション・エコノミー』を読む — Baldanders.info](https://baldanders.info/spiegel/log2/000638.shtml)
@@ -144,24 +144,24 @@ Facebook や Twitter のタイムラインにしろ Google の検索窓にしろ
 先ほどゲンナリしたと言った6章では特にこれが顕著だった。
 表示される “Hello, World” を見て
 
-{{< fig-quote title="フィルターバブル" link="http://www.amazon.co.jp/exec/obidos/ASIN/4150504598/baldandersinf-22/" >}}
+{{< fig-quote title="フィルターバブル" link="https://www.amazon.co.jp/exec/obidos/ASIN/4150504598/baldandersinf-22/" >}}
 <q>作品に対する神からのあいさつ、いや神に対する作品のあいさつかもしれない。この1行を目にしたとき、人はしびれるほどの喜びを感じる</q>（p.226）
 {{< /fig-quote >}}
 
 とかキ◯ガイとしか思えない[^hw]。
 でも『[反知性主義]』を読んでると，これこそが「アメリカ的」という感じがする。
 
-[^hw]: 知らない人のために一応解説しておくと， “Hello, World” は [C 言語の教科書，通称「K&R」](http://www.amazon.co.jp/exec/obidos/ASIN/4320026926/baldandersinf-22/ "プログラミング言語C 第2版 ANSI規格準拠 : B.W. カーニハン, D.M. リッチー, 石田 晴久 : 本 : Amazon")に出てくる最初のコードである。プログラマは新しい言語プラットフォームの動作確認の際に慣習的にこの “Hello, World” を表示するコードを書くことが多い。つまり「最初のテストケース」なのであり宗教的な意味はない。ちなみに GitHub には[各言語の “Hello, World” を集めたリポジトリ](https://github.com/leachim6/hello-world "leachim6/hello-world: Hello world in every programming language. Thanks to everyone who contributes to this, I read all pull requests!")が存在する。
+[^hw]: 知らない人のために一応解説しておくと， “Hello, World” は [C 言語の教科書，通称「K&R」](https://www.amazon.co.jp/exec/obidos/ASIN/4320026926/baldandersinf-22/ "プログラミング言語C 第2版 ANSI規格準拠 : B.W. カーニハン, D.M. リッチー, 石田 晴久 : 本 : Amazon")に出てくる最初のコードである。プログラマは新しい言語プラットフォームの動作確認の際に慣習的にこの “Hello, World” を表示するコードを書くことが多い。つまり「最初のテストケース」なのであり宗教的な意味はない。ちなみに GitHub には[各言語の “Hello, World” を集めたリポジトリ](https://github.com/leachim6/hello-world "leachim6/hello-world: Hello world in every programming language. Thanks to everyone who contributes to this, I read all pull requests!")が存在する。
 
 実は『[反知性主義]』は半分くらいまで読んで絶賛積読中なのだが，なんとか GW 中に読了して感想文を書いてみたいものである[^ai1]。
 
 [^ai1]: 『[反知性主義]』の[感想文はこちら]({{< ref "/remark/2016/09/anti-intellectualism.md" >}} "ようやく『反知性主義』を読んだ")。
 
-[フィルターバブル]: http://www.amazon.co.jp/exec/obidos/ASIN/4150504598/baldandersinf-22/ "フィルターバブル──インターネットが隠していること (ハヤカワ文庫NF) : イーライ・パリサー, 井口耕二 : 本 : Amazon"
-[CODE]: http://www.amazon.co.jp/exec/obidos/ASIN/B01CYDGUV8/baldandersinf-22/ "Amazon.co.jp: CODE VERSION 2.0 電子書籍: ローレンス・レッシグ, 山形浩生: Kindleストア"
-[反知性主義]: http://www.amazon.co.jp/exec/obidos/ASIN/B012VRLPRG/baldandersinf-22/ "Amazon.co.jp: 反知性主義―アメリカが生んだ「熱病」の正体―（新潮選書） 電子書籍: 森本 あんり: Kindleストア"
+[フィルターバブル]: https://www.amazon.co.jp/exec/obidos/ASIN/4150504598/baldandersinf-22/ "フィルターバブル──インターネットが隠していること (ハヤカワ文庫NF) : イーライ・パリサー, 井口耕二 : 本 : Amazon"
+[CODE]: https://www.amazon.co.jp/exec/obidos/ASIN/B01CYDGUV8/baldandersinf-22/ "Amazon.co.jp: CODE VERSION 2.0 電子書籍: ローレンス・レッシグ, 山形浩生: Kindleストア"
+[反知性主義]: https://www.amazon.co.jp/exec/obidos/ASIN/B012VRLPRG/baldandersinf-22/ "Amazon.co.jp: 反知性主義―アメリカが生んだ「熱病」の正体―（新潮選書） 電子書籍: 森本 あんり: Kindleストア"
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4150504598/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/41UdjkE4OpL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/4150504598/baldandersinf-22/">フィルターバブル──インターネットが隠していること (ハヤカワ文庫NF)</a></dt><dd>イーライ・パリサー 井口耕二 </dd><dd>早川書房 2016-03-09</dd><dd>評価<abbr class="rating" title="4"><img src="http://g-images.amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4569762468/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4569762468.09._SCTHUMBZZZ_.jpg"  alt="インターネット的 (PHP文庫)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4140912073/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4140912073.09._SCTHUMBZZZ_.jpg"  alt="ウェブ社会のゆくえ―<多孔化>した現実のなかで (NHKブックス No.1207)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4122033985/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4122033985.09._SCTHUMBZZZ_.jpg"  alt="情報の文明学 (中公文庫)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4480062858/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4480062858.09._SCTHUMBZZZ_.jpg"  alt="ウェブ進化論 本当の大変化はこれから始まる (ちくま新書)"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4152096098/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/4152096098.09._SCTHUMBZZZ_.jpg"  alt="五〇億年の孤独:宇宙に生命を探す天文学者たち"  /></a> </p>
+<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4150504598/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/41UdjkE4OpL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4150504598/baldandersinf-22/">フィルターバブル──インターネットが隠していること (ハヤカワ文庫NF)</a></dt><dd>イーライ・パリサー 井口耕二 </dd><dd>早川書房 2016-03-09</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4569762468/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4569762468.09._SCTHUMBZZZ_.jpg"  alt="インターネット的 (PHP文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4140912073/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4140912073.09._SCTHUMBZZZ_.jpg"  alt="ウェブ社会のゆくえ―<多孔化>した現実のなかで (NHKブックス No.1207)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4122033985/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4122033985.09._SCTHUMBZZZ_.jpg"  alt="情報の文明学 (中公文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4480062858/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4480062858.09._SCTHUMBZZZ_.jpg"  alt="ウェブ進化論 本当の大変化はこれから始まる (ちくま新書)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4152096098/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4152096098.09._SCTHUMBZZZ_.jpg"  alt="五〇億年の孤独:宇宙に生命を探す天文学者たち"  /></a> </p>
 <p class="description">ネットにおいて私たちは自由ではなく，それと知らず「フィルターバブル」に捕らわれている。</p>
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-05-07">2016-05-07</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
 </div>

@@ -261,7 +261,7 @@ Hello Bob
 - [Goでスレッド（goroutine）セーフなプログラムを書くために必ず注意しなければいけない点 - Qiita](https://qiita.com/ruiu/items/54f0dbdec0d48082a5b1)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[デザパタ本]: http://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1BS/baldandersinf-22/ "増補改訂版 Java言語で学ぶデザインパターン入門 マルチスレッド編 | 結城 浩 | コンピュータ・IT | Kindleストア | Amazon"
+[デザパタ本]: https://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1BS/baldandersinf-22/ "増補改訂版 Java言語で学ぶデザインパターン入門 マルチスレッド編 | 結城 浩 | コンピュータ・IT | Kindleストア | Amazon"
 [channel]: http://golang.org/ref/spec#Channel_types "The Go Programming Language Specification - The Go Programming Language"
 [goroutine]: http://golang.org/ref/spec#Go_statements "The Go Programming Language Specification - The Go Programming Language"
 [var]: https://golang.org/ref/spec#Variables "The Go Programming Language Specification - The Go Programming Language"

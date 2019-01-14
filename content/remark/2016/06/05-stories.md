@@ -106,7 +106,7 @@ USB メモリを買ってまでやる気はないので，この件はしばら�
 
 今更な話で申し訳ないんだけど。
 
-今朝気がついたのだが，内田美奈子さんの『BOOM TOWN』で[単行本未収録の第30話を Kindle で売ってる](http://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4N4/baldandersinf-22/ "Amazon.co.jp: BOOM TOWN　TRIP.30 電子書籍: 内田 美奈子: Kindleストア")じゃないか！
+今朝気がついたのだが，内田美奈子さんの『BOOM TOWN』で[単行本未収録の第30話を Kindle で売ってる](https://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4N4/baldandersinf-22/ "Amazon.co.jp: BOOM TOWN　TRIP.30 電子書籍: 内田 美奈子: Kindleストア")じゃないか！
 
 早速購入。
 で，奥付を見たら今回のこれは「[マンガ図書館Z]」の仕事らしい。
@@ -147,7 +147,7 @@ USB メモリを買ってまでやる気はないので，この件はしばら�
 もう何度目かの流行になっている人工知能や仮想現実（あるいは Metaverse）のアイデアの殆どは20世紀までに出尽くしている。
 『BOOM TOWN』はコンピュータ・エンジニアなら必読書だと思うぞ（あとは『スノウ・クラッシュ』とか）。
 
-ちなみに『BOOM TOWN』のスピンオフ作品とも言える『サーキットワンダラーズ』が[「画楽.mag」 VOL.5](http://www.amazon.co.jp/exec/obidos/ASIN/4834284387/baldandersinf-22/) から連載されてるらしい。
+ちなみに『BOOM TOWN』のスピンオフ作品とも言える『サーキットワンダラーズ』が[「画楽.mag」 VOL.5](https://www.amazon.co.jp/exec/obidos/ASIN/4834284387/baldandersinf-22/) から連載されてるらしい。
 （追記：さっき教えてもらったけど『サーキットワンダラーズ』は未完で終わってるらしい。残念）
 
 ## 「Googleアカウントがアップデート」{#dm}
@@ -188,7 +188,7 @@ iOS 機器の遠隔操作は iOS の標準機能でやったほうがいいと�
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4N4/baldandersinf-22/"><img src="http://ecx.images-amazon.com/images/I/51Ia%2B77IpiL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="http://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4N4/baldandersinf-22/">BOOM TOWN　TRIP.30</a></dt><dd>内田 美奈子 </dd><dd> 2014-09-26</dd><dd>評価<abbr class="rating" title="5"><img src="http://g-images.amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4DE/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00NWQI4DE.09._SCTHUMBZZZ_.jpg"  alt="BOOM TOWN　４"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4D4/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00NWQI4D4.09._SCTHUMBZZZ_.jpg"  alt="BOOM TOWN　２"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4CA/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00NWQI4CA.09._SCTHUMBZZZ_.jpg"  alt="BOOM TOWN　３"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI49S/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00NWQI49S.09._SCTHUMBZZZ_.jpg"  alt="BOOM TOWN　１"  /></a> <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4B6/baldandersinf-22/" target="_top"><img src="http://images.amazon.com/images/P/B00NWQI4B6.09._SCTHUMBZZZ_.jpg"  alt="アンバランス・トーキョー"  /></a> </p>
+<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4N4/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51Ia%2B77IpiL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4N4/baldandersinf-22/">BOOM TOWN　TRIP.30</a></dt><dd>内田 美奈子 </dd><dd> 2014-09-26</dd><dd>評価<abbr class="rating" title="5"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4DE/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00NWQI4DE.09._SCTHUMBZZZ_.jpg"  alt="BOOM TOWN　４"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4D4/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00NWQI4D4.09._SCTHUMBZZZ_.jpg"  alt="BOOM TOWN　２"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4CA/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00NWQI4CA.09._SCTHUMBZZZ_.jpg"  alt="BOOM TOWN　３"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI49S/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00NWQI49S.09._SCTHUMBZZZ_.jpg"  alt="BOOM TOWN　１"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4B6/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00NWQI4B6.09._SCTHUMBZZZ_.jpg"  alt="アンバランス・トーキョー"  /></a> </p>
 <p class="description">掲載誌「コミックガンマ」が休刊になって単行本収録できなかった<del>まるぼし</del>まぼろしの30話。これが Kindle で読めるとはいい時代になったものです。</p>
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-06-05">2016-06-05</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
 </div>
