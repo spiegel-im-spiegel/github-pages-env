@@ -1,7 +1,7 @@
 +++
 title = "2019-01-12 のブックマーク"
 date =  "2019-01-12T10:46:16+09:00"
-update =  "2019-01-14T09:06:33+09:00"
+update =  "2019-01-15T21:43:06+09:00"
 description = "「朗報、GitHub無料ユーザーも無制限にプライベートリポジトリを使えるようになる」他"
 image = "/images/avatar.jpg"
 
@@ -48,6 +48,7 @@ image = "/images/avatar.jpg"
 - [Microsoft 製品の脆弱性対策について(2019年1月) ：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20190109-ms.html)
     - [2019年 1月マイクロソフトセキュリティ更新プログラムに関する注意喚起](https://www.jpcert.or.jp/at/2019/at190002.html)
     - [Windows 7とWindows Server 2008 R2向け月例パッチ、ネットワーク共有とライセンス認証の不具合 - ZDNet Japan](https://japan.zdnet.com/article/35131157/)
+    - [1月のパッチが原因でWindows 7/Server 2008 R2の共有ファイルへリモートアクセスできなくなる問題が解決 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1164614.html)
 - [「CVSS」とはそもそも何か？　脆弱性対応の優先順位付けではない!?【海外セキュリティ】 - INTERNET Watch](https://internet.watch.impress.co.jp/docs/column/security/1161142.html)
 - [Intel製品に複数の脆弱性、修正版が一斉公開 ～最大深刻度は“HIGH” - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1163808.html)
 - [Julia Reda   –  In January, the EU starts running Bug Bounties on Free and Open Source Software](https://juliareda.eu/2018/12/eu-fossa-bug-bounties/)
