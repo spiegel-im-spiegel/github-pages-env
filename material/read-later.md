@@ -5,6 +5,7 @@
 - [O'Reilly Japan - テスト駆動開発による組み込みプログラミング](https://www.oreilly.co.jp/books/9784873116143/)
 - [Amazon | Tonor カセットテープ MP3 変換 プレーヤー USB保存 PC不要 コンバータ【Web日本語説明書あり】 | Tonor | 家電＆カメラ](https://www.amazon.co.jp/exec/obidos/ASIN/B01LZCE8J2/baldandersinf-22/)
 - [木澤佐登志『ダークウェブ・アンダーグラウンド 社会秩序を逸脱するネット暗部の住人たち』がかなり禍々しい本みたいで楽しみだ - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20181229/darkweb)
+- [O'Reilly Japan - Go言語でつくるインタプリタ](https://www.oreilly.co.jp/books/9784873118222/)
 
 ## あとで遊ぶ
 
