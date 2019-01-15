@@ -57,5 +57,5 @@ rem type 4320001389.html | amazon-item review -t review-book.html -d 4320001389 
 rem type 4257904623.html | amazon-item review -t review-book.html -d 4257904623 -r 5 --review-date 2018-10-20
 rem type 4908686033.html | amazon-item review -t review-book.html -d 4908686033 -r 4 --review-date 2018-10-20
 rem type 4621300253.html | amazon-item review -t review-book.html -d 4621300253 -r 5 --review-date 2018-10-20
-rem type 477418392X.html | amazon-item review -t review-book.html -d 477418392X -r 5 --review-date 2018-10-20
-rem type 4873117526.html | amazon-item review -t review-book.html -d 4873117526 -r 5 --review-date 2018-10-20
+rem type 477418392X.html | amazon-item review -t review-book.html -d 477418392X -r 4 --review-date 2018-10-20
+rem type 4873117526.html | amazon-item review -t review-book.html -d 4873117526 -r 4 --review-date 2018-10-20
