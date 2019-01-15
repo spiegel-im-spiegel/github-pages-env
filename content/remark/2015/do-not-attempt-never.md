@@ -3,7 +3,7 @@ date = "2015-09-13T14:51:52+09:00"
 update = "2015-09-13T22:35:00+09:00"
 description = "タイトルから『子どもが体験するべき50の危険なこと』みたいなのを連想したのだけど，そうではなくて，科学史の trivial な話題を面白おかしく紹介する漫画らしい。"
 draft = false
-tags = ["review", "book", "comic", "science"]
+tags = ["book", "comic", "science"]
 title = "『決してマネしないでください』"
 
 [author]
