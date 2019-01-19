@@ -1,6 +1,7 @@
 +++
 title = "NYAGOS 4.4.0 がリリースされた"
 date = "2019-01-12T17:23:12+09:00"
+update =  "2019-01-19T12:27:55+09:00"
 description = "実験レベルながら Linux に対応したですよ。"
 image = "/images/attention/tools.png"
 tags  = [ "tools", "nyagos", "shell", "windows", " linux" ]
@@ -71,6 +72,24 @@ tags  = [ "tools", "nyagos", "shell", "windows", " linux" ]
 まぁ，当分先の話だが。
 
 [^lua1]: 普段は bash でいいのだが，現在 [NYAGOS] 上で運用している Lua スクリプトを Linux でも使いたいなぁ，なんて。
+
+## 【追記 2019-01-19】 NYAGOS 4.4.0_1 がリリースされた
+
+- [Release 4.4.0_1 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.4.0_1)
+
+{{% fig-quote title="Release 4.4.0_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.0_1" lang="en" %}}
+- Abolished "--go-colorable" and "--enable-virtual-terminal-processing"
+- Implemented `killall`
+- Implemented `copy` and `move` for Linux
+- (#351) Fix that `END` (and `F11`) key did not work
+
+----
+
+- "--go-colorable" と "--enable-virtual-terminal-processing" を廃止
+- `killall` コマンドを実装
+- Linux用の `copy` と `move` を実装
+- (#351) `END` と `F11` キーが動作もキー割り当てもできなかった不具合を修正
+{{% /fig-quote %}}
 
 ## ブックマーク
 
