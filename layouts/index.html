@@ -22,7 +22,7 @@
 <section>
 <h2>最近の記事</h2>
 <ul class="title-list">
-{{ range first 5 (where .Site.Pages "Section" "!=" "bookmarks") }}{{ partial "li.html" . }}{{ end }}
+{{ range first 5 (where .Site.RegularPages "Section" "!=" "bookmarks") }}{{ partial "li.html" . }}{{ end }}
 </ul>
 </section> <!-- 最近の記事 -->
 
