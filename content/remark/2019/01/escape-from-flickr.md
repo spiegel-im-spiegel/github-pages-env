@@ -1,6 +1,7 @@
 +++
 title = "Flickr から写真を引き揚げました"
 date = "2019-01-20T19:16:46+09:00"
+update = "2019-01-21T20:48:11+09:00"
 description = "ただの「写真置き場」なら自分のところに置いておけばいいぢゃん，と気がついた。"
 image = "/images/attention/kitten.jpg"
 tags = [ "site", "web", "photography", "flickr", "creative-commons" ]
@@ -27,7 +28,7 @@ tags = [ "site", "web", "photography", "flickr", "creative-commons" ]
 当時は私も Pro 会員だった。
 それも今は昔の話。
 
-昨年11月に [Flickr] から無料会員についてアップできる写真を最大1,000枚に制限する旨のアナウンスがあった。
+昨年11月に [Flickr] から無料会員に対し，アップできる写真を最大1,000枚に制限する旨のアナウンスがあった（CC Licenses 下で既に公開しているものについては執行猶予あり）。
 
 - [Why we’re changing Flickr  free accounts | Flickr Blog](https://blog.flickr.net/en/2018/11/01/changing-flickr-free-accounts-1000-photos/)
 - [Flickrの新しいビジネスモデルでCreative Commonsの作品は消されるのか  |  TechCrunch Japan](https://jp.techcrunch.com/2018/11/03/2018-11-02-flickrs-new-business-model-could-see-works-deleted-from-creative-commons/)
@@ -40,7 +41,7 @@ tags = [ "site", "web", "photography", "flickr", "creative-commons" ]
 
 現在の殆どの Web サービスは，人と情報をサービス内部に囲い込むように構成されている。
 でも写真共有サービスはサービスを横断して，息をするように共有できなければただの「写真置き場」になってしまう。
-ただの「写真置き場」なら自分のところに置いておけばいいぢゃん，と気がついた（今更`w`）。
+ただの「写真置き場」なら自分のところに置いておけばいいぢゃんか（今更`w`）。
 
 ちうわけで [Flickr] の写真を引き揚げて自サイトに写真置き場を作りました。
 
