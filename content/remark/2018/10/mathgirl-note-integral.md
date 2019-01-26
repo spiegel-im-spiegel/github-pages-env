@@ -131,73 +131,57 @@ tags = ["book", "math", "integral"]
 ## 参考図書
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B073F45B97/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41WTBPbSEtL._SL160_.jpg" width="115" height="160" alt="数学ガールの秘密ノート／積分を見つめて"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E7%A9%8D%E5%88%86%E3%82%92%E8%A6%8B%E3%81%A4%E3%82%81%E3%81%A6-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B073F45B97?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B073F45B97"><img src="https://images-fe.ssl-images-amazon.com/images/I/41WTBPbSEtL._SL160_.jpg" width="115" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B073F45B97/baldandersinf-22">数学ガールの秘密ノート／積分を見つめて</a></dt>
-    <dd>結城 浩</dd>
-    <dd>SBクリエイティブ</dd>
-    <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-    </span></dd>
+    <dt><a href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E7%A9%8D%E5%88%86%E3%82%92%E8%A6%8B%E3%81%A4%E3%82%81%E3%81%A6-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B073F45B97?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B073F45B97">数学ガールの秘密ノート／積分を見つめて</a></dt>
+	<dd>結城 浩</dd>
+    <dd>SBクリエイティブ 2017-06-29 (Release 2017-06-30)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B073F45B97</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">三角関数や微積分は物理学，特に天文学を理解するには必須の道具。学校で教えてくれるのを待ってる暇はないのだよ。そして，これらを通してものの位置や形について理解が進むと理科も数学も抜群に面白くなる。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.21</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-21">2018-10-21</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00W6NCLL0/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41n9NfuGsIL._SL160_.jpg" width="113" height="160" alt="数学ガールの秘密ノート／数列の広場"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E6%95%B0%E5%88%97%E3%81%AE%E5%BA%83%E5%A0%B4-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00W6NCLL0?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00W6NCLL0"><img src="https://images-fe.ssl-images-amazon.com/images/I/41n9NfuGsIL._SL160_.jpg" width="113" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00W6NCLL0/baldandersinf-22">数学ガールの秘密ノート／数列の広場</a></dt>
-    <dd>結城 浩</dd>
-    <dd>SBクリエイティブ</dd>
-    <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-    </span></dd>
+    <dt><a href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E6%95%B0%E5%88%97%E3%81%AE%E5%BA%83%E5%A0%B4-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00W6NCLL0?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00W6NCLL0">数学ガールの秘密ノート／数列の広場</a></dt>
+	<dd>結城 浩</dd>
+    <dd>SBクリエイティブ 2014-10-17 (Release 2015-04-18)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B00W6NCLL0</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">「無限」と「極限」について。頑張れば小学生の高学年くらいなら理解可能。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.21</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-21">2018-10-21</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00Y9EYOIW/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41pgiwRb0zL._SL160_.jpg" width="111" height="160" alt="数学ガールの秘密ノート／微分を追いかけて"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E5%BE%AE%E5%88%86%E3%82%92%E8%BF%BD%E3%81%84%E3%81%8B%E3%81%91%E3%81%A6-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00Y9EYOIW?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00Y9EYOIW"><img src="https://images-fe.ssl-images-amazon.com/images/I/41pgiwRb0zL._SL160_.jpg" width="111" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00Y9EYOIW/baldandersinf-22">数学ガールの秘密ノート／微分を追いかけて</a></dt>
-    <dd>結城 浩</dd>
-    <dd>SBクリエイティブ</dd>
-    <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-    </span></dd>
+    <dt><a href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E5%BE%AE%E5%88%86%E3%82%92%E8%BF%BD%E3%81%84%E3%81%8B%E3%81%91%E3%81%A6-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00Y9EYOIW?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00Y9EYOIW">数学ガールの秘密ノート／微分を追いかけて</a></dt>
+	<dd>結城 浩</dd>
+    <dd>SBクリエイティブ 2015-04-17 (Release 2015-05-26)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B00Y9EYOIW</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">三角関数や微分方程式は物理学，特に天文学を理解するには必須の道具。学校で教えてくれるのを待ってる暇はないのだよ。そして三角関数や微分（と積分）を理解すると理科も数学も抜群に面白くなる。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.21</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-21">2018-10-21</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00AXUD4MS/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51Hz%2BE6YF0L._SL160_.jpg" width="113" height="160" alt="数学ガール　ゲーデルの不完全性定理　1 (MFコミックス　アライブシリーズ)"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB-%E3%82%B2%E3%83%BC%E3%83%87%E3%83%AB%E3%81%AE%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%80%A7%E5%AE%9A%E7%90%86-1-MF%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E3%82%A2%E3%83%A9%E3%82%A4%E3%83%96%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-%E8%8C%89%E5%B4%8E-%E3%83%9F%E3%83%A6%E3%82%AD-ebook/dp/B00AXUD4MS?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00AXUD4MS"><img src="https://images-fe.ssl-images-amazon.com/images/I/51Hz%2BE6YF0L._SL160_.jpg" width="113" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00AXUD4MS/baldandersinf-22">数学ガール　ゲーデルの不完全性定理　1 (MFコミックス　アライブシリーズ)</a></dt>
-    <dd>茉崎 ミユキ</dd>
-    <dd>KADOKAWA / メディアファクトリー</dd>
-    <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="far fa-star"></i>
-    </span></dd>
+    <dt><a href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB-%E3%82%B2%E3%83%BC%E3%83%87%E3%83%AB%E3%81%AE%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%80%A7%E5%AE%9A%E7%90%86-1-MF%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E3%82%A2%E3%83%A9%E3%82%A4%E3%83%96%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-%E8%8C%89%E5%B4%8E-%E3%83%9F%E3%83%A6%E3%82%AD-ebook/dp/B00AXUD4MS?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00AXUD4MS">数学ガール　ゲーデルの不完全性定理　1 (MFコミックス　アライブシリーズ)</a></dt>
+	<dd>茉崎 ミユキ</dd>
+    <dd>KADOKAWA / メディアファクトリー 2012-11-01 (Release 2012-12-19)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B00AXUD4MS</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">原作『<a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1D6/baldandersinf-22">数学ガール／ゲーデルの不完全性定理</a>』のコミカライズ版。茉崎ミユキさんの描くテトラちゃんがめっさ可愛いの！</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.21</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-21">2018-10-21</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>

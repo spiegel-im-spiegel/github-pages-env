@@ -224,37 +224,29 @@ func main() {
 ## 参考図書
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00Y9EYOIW/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41pgiwRb0zL._SL160_.jpg" width="111" height="160" alt="数学ガールの秘密ノート／微分を追いかけて"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E5%BE%AE%E5%88%86%E3%82%92%E8%BF%BD%E3%81%84%E3%81%8B%E3%81%91%E3%81%A6-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00Y9EYOIW?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00Y9EYOIW"><img src="https://images-fe.ssl-images-amazon.com/images/I/41pgiwRb0zL._SL160_.jpg" width="111" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00Y9EYOIW/baldandersinf-22">数学ガールの秘密ノート／微分を追いかけて</a></dt>
-    <dd>結城 浩</dd>
-    <dd>SBクリエイティブ</dd>
-    <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-    </span></dd>
+    <dt><a href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E5%BE%AE%E5%88%86%E3%82%92%E8%BF%BD%E3%81%84%E3%81%8B%E3%81%91%E3%81%A6-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00Y9EYOIW?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00Y9EYOIW">数学ガールの秘密ノート／微分を追いかけて</a></dt>
+	<dd>結城 浩</dd>
+    <dd>SBクリエイティブ 2015-04-17 (Release 2015-05-26)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B00Y9EYOIW</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">三角関数や微分方程式は物理学，特に天文学を理解するには必須の道具。学校で教えてくれるのを待ってる暇はないのだよ。そして三角関数や微分（と積分）を理解すると理科も数学も抜群に面白くなる。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.21</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-21">2018-10-21</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4320030885/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41n4-gFkFPL._SL160_.jpg" width="113" height="160" alt="基礎物理学実験 増訂版"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%9F%BA%E7%A4%8E%E7%89%A9%E7%90%86%E5%AD%A6%E5%AE%9F%E9%A8%93-%E5%A2%97%E8%A8%82%E7%89%88-%E4%B8%8B%E6%9D%91-%E5%81%A5%E6%AC%A1/dp/4320030885?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4320030885"><img src="https://images-fe.ssl-images-amazon.com/images/I/41n4-gFkFPL._SL160_.jpg" width="113" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4320030885/baldandersinf-22">基礎物理学実験 増訂版</a></dt>
-    <dd>下村 健次, 井上 則好, 上垣内 孝彦, 大内 侃, 小此木 久一郎, 岡本 哲彦, 尾田 年充</dd>
-    <dd>共立出版</dd>
-    <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-    </span></dd>
+    <dt><a href="https://www.amazon.co.jp/%E5%9F%BA%E7%A4%8E%E7%89%A9%E7%90%86%E5%AD%A6%E5%AE%9F%E9%A8%93-%E5%A2%97%E8%A8%82%E7%89%88-%E4%B8%8B%E6%9D%91-%E5%81%A5%E6%AC%A1/dp/4320030885?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4320030885">基礎物理学実験 増訂版</a></dt>
+	<dd>下村 健次 (編集), 井上 則好 (編集), 上垣内 孝彦 (編集), 大内 侃 (編集), 小此木 久一郎 (編集), 岡本 哲彦 (編集), 尾田 年充 (編集)</dd>
+    <dd>共立出版 1977-10-05</dd>
+    <dd>Book 単行本</dd>
+    <dd>ASIN: 4320030885, EAN: 9784320030886</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
-  <p class="description">>学生時代，私はコレで実験の基礎を習いました。もちろん絶版本。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.21</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="description">学生時代，私はコレで実験の基礎を習いました。もちろん絶版本。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-21">2018-10-21</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>

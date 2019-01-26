@@ -67,7 +67,16 @@ description = "とりあえずブックマークを中心に。以後，追記�
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4862486932/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/41OTZHSZDXL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4862486932/baldandersinf-22/">日本人が知らないウィキリークス (新書ｙ)</a></dt><dd>小林 恭子 白井 聡 塚越 健司 津田 大介 八田 真行 浜野 喬士 孫崎 享 </dd><dd>洋泉社 2011-02-05</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4797672897/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4797672897.09._SCTHUMBZZZ_.jpg"  alt="日本はなぜ、「基地」と「原発」を止められないのか"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4480067876/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4480067876.09._SCTHUMBZZZ_.jpg"  alt="日本劣化論 (ちくま新書)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4152091975/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4152091975.09._SCTHUMBZZZ_.jpg"  alt="全貌ウィキリークス"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4396112106/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4396112106.09._SCTHUMBZZZ_.jpg"  alt="日本人のための戦略的思考入門――日米同盟を超えて（祥伝社新書210）"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4062881497/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4062881497.09._SCTHUMBZZZ_.jpg"  alt="不愉快な現実  中国の大国化、米国の戦略転換 (講談社現代新書)"  /></a> </p>
-<p class="description" >WikiLeaks のインパクトと「WikiLeaks 以後」について分かりやすく解説した論説集。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-10-23">2014/10/23</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%97%A5%E6%9C%AC%E4%BA%BA%E3%81%8C%E7%9F%A5%E3%82%89%E3%81%AA%E3%81%84%E3%82%A6%E3%82%A3%E3%82%AD%E3%83%AA%E3%83%BC%E3%82%AF%E3%82%B9-%E6%96%B0%E6%9B%B8%EF%BD%99-%E5%B0%8F%E6%9E%97-%E6%81%AD%E5%AD%90/dp/4862486932?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4862486932"><img src="https://images-fe.ssl-images-amazon.com/images/I/41OTZHSZDXL._SL160_.jpg" width="96" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E6%97%A5%E6%9C%AC%E4%BA%BA%E3%81%8C%E7%9F%A5%E3%82%89%E3%81%AA%E3%81%84%E3%82%A6%E3%82%A3%E3%82%AD%E3%83%AA%E3%83%BC%E3%82%AF%E3%82%B9-%E6%96%B0%E6%9B%B8%EF%BD%99-%E5%B0%8F%E6%9E%97-%E6%81%AD%E5%AD%90/dp/4862486932?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4862486932">日本人が知らないウィキリークス (新書ｙ)</a></dt>
+	<dd>小林 恭子, 白井 聡, 塚越 健司, 津田 大介, 八田 真行, 浜野 喬士, 孫崎 享</dd>
+    <dd>洋泉社 2011-02-05</dd>
+    <dd>Book 新書</dd>
+    <dd>ASIN: 4862486932, EAN: 9784862486936</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">WikiLeaks のインパクトと「WikiLeaks 以後」について分かりやすく解説した論説集。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-20">2018-11-20</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>

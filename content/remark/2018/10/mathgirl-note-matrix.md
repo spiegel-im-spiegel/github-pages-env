@@ -102,127 +102,100 @@ tags = ["book", "math", "matrix"]
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00W6NCLJM/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41X-TzJ7xRL._SL160_.jpg" width="111" height="160" alt="数学ガールの秘密ノート／丸い三角関数"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E4%B8%B8%E3%81%84%E4%B8%89%E8%A7%92%E9%96%A2%E6%95%B0-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00W6NCLJM?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00W6NCLJM"><img src="https://images-fe.ssl-images-amazon.com/images/I/41X-TzJ7xRL._SL160_.jpg" width="111" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00W6NCLJM/baldandersinf-22">数学ガールの秘密ノート／丸い三角関数</a></dt>
-    <dd>結城 浩</dd>
-    <dd>SBクリエイティブ</dd>
-	<dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-    </span></dd>
+    <dt><a href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E4%B8%B8%E3%81%84%E4%B8%89%E8%A7%92%E9%96%A2%E6%95%B0-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00W6NCLJM?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00W6NCLJM">数学ガールの秘密ノート／丸い三角関数</a></dt>
+	<dd>結城 浩</dd>
+    <dd>SBクリエイティブ 2014-04-23 (Release 2015-04-18)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B00W6NCLJM</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">丸と三角の楽しい関係。頑張れば小学生高学年でも大丈夫。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B018VE46YW/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41Oi1m%2Bp3PL._SL160_.jpg" width="111" height="160" alt="数学ガールの秘密ノート／ベクトルの真実"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%81%AE%E7%9C%9F%E5%AE%9F-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B018VE46YW?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B018VE46YW"><img src="https://images-fe.ssl-images-amazon.com/images/I/41Oi1m%2Bp3PL._SL160_.jpg" width="111" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B018VE46YW/baldandersinf-22">数学ガールの秘密ノート／ベクトルの真実</a></dt>
-    <dd>結城 浩</dd>
-    <dd>SBクリエイティブ</dd>
-	<dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-    </span></dd>
+    <dt><a href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%81%AE%E7%9C%9F%E5%AE%9F-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B018VE46YW?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B018VE46YW">数学ガールの秘密ノート／ベクトルの真実</a></dt>
+	<dd>結城 浩</dd>
+    <dd>SBクリエイティブ 2015-11-17 (Release 2015-12-03)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B018VE46YW</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">図形（具象）と数式（抽象）の往復は楽しい。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00EYXMA9I/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41ETMZ7i9qL._SL160_.jpg" width="114" height="160" alt="数学ガール"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00EYXMA9I?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00EYXMA9I"><img src="https://images-fe.ssl-images-amazon.com/images/I/41ETMZ7i9qL._SL160_.jpg" width="114" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00EYXMA9I/baldandersinf-22">数学ガール</a></dt>
-    <dd>結城 浩</dd>
-    <dd>SBクリエイティブ</dd>
-	<dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-    </span></dd>
+    <dt><a href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00EYXMA9I?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00EYXMA9I">数学ガール</a></dt>
+	<dd>結城 浩</dd>
+    <dd>SBクリエイティブ 2007-06-26 (Release 2014-03-12)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B00EYXMA9I</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">ミルカさんとの衝撃の encounter。数学ガールがワルツを踊る。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4621045938/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51XGP8AFX2L._SL160_.jpg" width="112" height="160" alt="いかにして問題をとくか"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%95%8F%E9%A1%8C%E3%82%92%E3%81%A8%E3%81%8F%E3%81%8B-G-%E3%83%9D%E3%83%AA%E3%82%A2/dp/4621045938?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621045938"><img src="https://images-fe.ssl-images-amazon.com/images/I/51XGP8AFX2L._SL160_.jpg" width="112" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4621045938/baldandersinf-22">いかにして問題をとくか</a></dt>
-    <dd>G. ポリア</dd>
-    <dd>丸善</dd>
-	<dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-    </span></dd>
+    <dt><a href="https://www.amazon.co.jp/%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%95%8F%E9%A1%8C%E3%82%92%E3%81%A8%E3%81%8F%E3%81%8B-G-%E3%83%9D%E3%83%AA%E3%82%A2/dp/4621045938?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621045938">いかにして問題をとくか</a></dt>
+	<dd>G. ポリア</dd>
+	<dd>G. Polya (原著), 柿内 賢信 (翻訳)</dd>
+    <dd>丸善 1975-04-01</dd>
+    <dd>Book 単行本</dd>
+    <dd>ASIN: 4621045938, EAN: 9784621045930</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">数学書。というか問いの立てかたやものの考え方についての指南書。のようなものかな。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4805202254/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51mQCyP04rL._SL160_.jpg" width="108" height="160" alt="天体の位置計算"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%A4%A9%E4%BD%93%E3%81%AE%E4%BD%8D%E7%BD%AE%E8%A8%88%E7%AE%97-%E9%95%B7%E6%B2%A2-%E5%B7%A5/dp/4805202254?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4805202254"><img src="https://images-fe.ssl-images-amazon.com/images/I/51mQCyP04rL._SL160_.jpg" width="108" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4805202254/baldandersinf-22">天体の位置計算</a></dt>
-    <dd>長沢 工</dd>
-    <dd>地人書館</dd>
-	<dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="far fa-star"></i>
-    </span></dd>
+    <dt><a href="https://www.amazon.co.jp/%E5%A4%A9%E4%BD%93%E3%81%AE%E4%BD%8D%E7%BD%AE%E8%A8%88%E7%AE%97-%E9%95%B7%E6%B2%A2-%E5%B7%A5/dp/4805202254?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4805202254">天体の位置計算</a></dt>
+	<dd>長沢 工</dd>
+    <dd>地人書館 1985-09-01</dd>
+    <dd>Book 単行本</dd>
+    <dd>ASIN: 4805202254, EAN: 9784805202258</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">B1950.0 分点から J2000.0 分点への過渡期に書かれた本なので情報が古いものもあるが，基本的な内容は位置天文学の教科書として充分通用する。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4320001389/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/315ObJ%2BYw0L._SL160_.jpg" width="112" height="160" alt="数学公式集 (共立全書 (138))"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%9B%86-%E5%85%B1%E7%AB%8B%E5%85%A8%E6%9B%B8-138-%E5%B0%8F%E6%9E%97-%E5%B9%B9%E9%9B%84/dp/4320001389?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4320001389"><img src="https://images-fe.ssl-images-amazon.com/images/I/315ObJ%2BYw0L._SL160_.jpg" width="112" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4320001389/baldandersinf-22">数学公式集 (共立全書 (138))</a></dt>
-    <dd>小林 幹雄</dd>
-    <dd>共立出版</dd>
-	<dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="far fa-star"></i>
-    </span></dd>
+    <dt><a href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E9%9B%86-%E5%85%B1%E7%AB%8B%E5%85%A8%E6%9B%B8-138-%E5%B0%8F%E6%9E%97-%E5%B9%B9%E9%9B%84/dp/4320001389?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4320001389">数学公式集 (共立全書 (138))</a></dt>
+	<dd>小林 幹雄</dd>
+    <dd>共立出版 1959-06</dd>
+    <dd>Book 単行本</dd>
+    <dd>ASIN: 4320001389, EAN: 9784320001381</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">学生の頃から愛用している数学公式集。簡潔な記述がグッド！ 現在は絶版で<a href="https://www.amazon.co.jp/exec/obidos/ASIN/4320017854/baldandersinf-22/">新装版</a>が出ているらしい。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4257904623/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51EJVRC0iML._SL160_.jpg" width="113" height="160" alt="ちまりまわるつ (Izumi Takemoto dashinaoshi)"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%A1%E3%81%BE%E3%82%8A%E3%81%BE%E3%82%8F%E3%82%8B%E3%81%A4-Izumi-Takemoto-dashinaoshi-%E7%AB%B9%E6%9C%AC/dp/4257904623?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4257904623"><img src="https://images-fe.ssl-images-amazon.com/images/I/51EJVRC0iML._SL160_.jpg" width="113" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4257904623/baldandersinf-22">ちまりまわるつ (Izumi Takemoto dashinaoshi)</a></dt>
-    <dd>竹本 泉</dd>
-    <dd>朝日ソノラマ</dd>
-	<dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-    </span></dd>
+    <dt><a href="https://www.amazon.co.jp/%E3%81%A1%E3%81%BE%E3%82%8A%E3%81%BE%E3%82%8F%E3%82%8B%E3%81%A4-Izumi-Takemoto-dashinaoshi-%E7%AB%B9%E6%9C%AC/dp/4257904623?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4257904623">ちまりまわるつ (Izumi Takemoto dashinaoshi)</a></dt>
+	<dd>竹本 泉</dd>
+    <dd>朝日ソノラマ 2002-12-01</dd>
+    <dd>Book コミック</dd>
+    <dd>ASIN: 4257904623, EAN: 9784257904625</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">竹本泉さんの魔法（ちまちまじっく）世界線の原点とも言える作品。ただしリニューアル版。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>

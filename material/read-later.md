@@ -8,6 +8,7 @@
 - [O'Reilly Japan - Go言語でつくるインタプリタ](https://www.oreilly.co.jp/books/9784873118222/)
 - [C言語プログラミングレッスン　入門編　第3版 | 結城 浩 | プログラミング | Kindleストア | Amazon](https://www.amazon.co.jp/dp/B07MX3K72G/)
 - [キングジム、ふせんサイズの電子メモパッド「ブギーボード BB-12」を発売 - ニュース ―MdN Design Interactive edition― - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/newsbymdn/1165166.html)
+- [ロボット法 | Ugo Pagallo, ウゴ パガロ, 新保 史生, 松尾 剛行, 工藤 郁子, 赤坂 亮太 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4326403454/baldandersinf-22/)
 
 ## あとで遊ぶ
 

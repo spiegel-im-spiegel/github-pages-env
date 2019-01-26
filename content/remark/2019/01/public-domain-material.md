@@ -85,55 +85,44 @@ tags = ["code", "intellectual-property", "copyright", "creative-commons"]
 ## 参考図書
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4899840721/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51V8S7TXJ5L._SL160_.jpg" width="112" height="160" alt="インターネット図書館 青空文庫"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E5%9B%B3%E6%9B%B8%E9%A4%A8-%E9%9D%92%E7%A9%BA%E6%96%87%E5%BA%AB-%E9%87%8E%E5%8F%A3-%E8%8B%B1%E5%8F%B8/dp/4899840721?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4899840721"><img src="https://images-fe.ssl-images-amazon.com/images/I/51V8S7TXJ5L._SL160_.jpg" width="112" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4899840721/baldandersinf-22">インターネット図書館 青空文庫</a></dt>
-    <dd>野口 英司</dd>
-    <dd>はる書房</dd>
-    <dd>評価&nbsp;<abbr class="rating fa-sm" title="3">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="far fa-star"></i>
-    </abbr></dd>
+    <dt><a href="https://www.amazon.co.jp/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E5%9B%B3%E6%9B%B8%E9%A4%A8-%E9%9D%92%E7%A9%BA%E6%96%87%E5%BA%AB-%E9%87%8E%E5%8F%A3-%E8%8B%B1%E5%8F%B8/dp/4899840721?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4899840721">インターネット図書館 青空文庫</a></dt>
+	<dd>野口 英司</dd>
+    <dd>はる書房 2005-11-01</dd>
+    <dd>Book 単行本</dd>
+    <dd>ASIN: 4899840721, EAN: 9784899840725</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">青空文庫の活動について紹介。作品を収録した DVD も付いてる！ 巻末に載っている<a href="https://www.tomita-michio.jp/">富田倫生</a>さんの文章は<a href="https://www.aozora.gr.jp/cards/000055/card59489.html">青空文庫に収録</a>されている。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2019.1.2</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-01-02">2019-01-02</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4756117074/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/5131GA04AHL._SL160_.jpg" width="108" height="160" alt="本の未来 (Ascii books)"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%9C%AC%E3%81%AE%E6%9C%AA%E6%9D%A5-Ascii-books-%E5%AF%8C%E7%94%B0-%E5%80%AB%E7%94%9F/dp/4756117074?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4756117074"><img src="https://images-fe.ssl-images-amazon.com/images/I/5131GA04AHL._SL160_.jpg" width="108" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4756117074/baldandersinf-22">本の未来 (Ascii books)</a></dt>
-    <dd>富田 倫生</dd>
-    <dd>アスキー</dd>
-    <dd>評価&nbsp;<abbr class="rating fa-sm" title="3">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="far fa-star"></i>
-    </abbr></dd>
+    <dt><a href="https://www.amazon.co.jp/%E6%9C%AC%E3%81%AE%E6%9C%AA%E6%9D%A5-Ascii-books-%E5%AF%8C%E7%94%B0-%E5%80%AB%E7%94%9F/dp/4756117074?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4756117074">本の未来 (Ascii books)</a></dt>
+	<dd>富田 倫生</dd>
+    <dd>アスキー 1997-02</dd>
+    <dd>Book 単行本</dd>
+    <dd>ASIN: 4756117074, EAN: 9784756117076</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">e-book の未来を予見する試みの書。あるいは本とコンピュータの関係について。<a href="https://www.aozora.gr.jp/cards/000055/card56499.html">青空文庫にも収録</a>されている。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2019.1.2</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-01-02">2019-01-02</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4775929259/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51KBkKGu6NL._SL160_.jpg" width="160" height="160" alt="シャーロック・ホームズ「赤毛連盟」"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF%E3%83%BB%E3%83%9B%E3%83%BC%E3%83%A0%E3%82%BA%E3%80%8C%E8%B5%A4%E6%AF%9B%E9%80%A3%E7%9B%9F%E3%80%8D-%E3%82%A2%E3%83%BC%E3%82%B5%E3%83%BC-%E3%82%B3%E3%83%8A%E3%83%B3%E3%83%BB%E3%83%89%E3%82%A4%E3%83%AB/dp/4775929259?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4775929259"><img src="https://images-fe.ssl-images-amazon.com/images/I/51KBkKGu6NL._SL160_.jpg" width="160" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4775929259/baldandersinf-22">シャーロック・ホームズ「赤毛連盟」</a></dt>
-    <dd>アーサー コナン・ドイル, Arthur Conan Doyle</dd>
-    <dd>でじじ発行/パンローリング発売</dd>
-    <dd>評価&nbsp;<abbr class="rating fa-sm" title="3">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="far fa-star"></i>
-    </abbr></dd>
+    <dt><a href="https://www.amazon.co.jp/%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF%E3%83%BB%E3%83%9B%E3%83%BC%E3%83%A0%E3%82%BA%E3%80%8C%E8%B5%A4%E6%AF%9B%E9%80%A3%E7%9B%9F%E3%80%8D-%E3%82%A2%E3%83%BC%E3%82%B5%E3%83%BC-%E3%82%B3%E3%83%8A%E3%83%B3%E3%83%BB%E3%83%89%E3%82%A4%E3%83%AB/dp/4775929259?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4775929259">シャーロック・ホームズ「赤毛連盟」</a></dt>
+	<dd>アーサー コナン・ドイル, Arthur Conan Doyle</dd>
+	<dd>三上 於菟吉 (翻訳), 大久保 ゆう (翻訳)</dd>
+    <dd>でじじ発行/パンローリング発売 2007-05-01</dd>
+    <dd>Book CD</dd>
+    <dd>ASIN: 4775929259, EAN: 9784775929254</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
-  <p class="description"><a href=""https://www.aozora.gr.jp/>青空文庫</a>に収録されているシャーロック・ホームズ・シリーズの翻訳を朗読する。第一弾は「赤毛連盟（Red-Headed League）」で佐々木健さんによる朗読。一人で何役もこなす佐々木健さんがかっこいい！</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2019.1.4</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="description"><a href="https://www.aozora.gr.jp">青空文庫</a>に収録されているシャーロック・ホームズ・シリーズの翻訳を朗読する。第一弾は「赤毛連盟（Red-Headed League）」で佐々木健さんによる朗読。一人で何役もこなす佐々木健さんがかっこいい！</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-01-04">2019-01-04</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>

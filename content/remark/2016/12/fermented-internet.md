@@ -123,13 +123,19 @@ Git/[GitHub](https://github.com/) が作り出すコミュニティでは「ま�
 </div>
 
 <div class="hreview" >
-	<a class="item url" href="https://tatsu-zine.com/books/infoshare"><img src="https://tatsu-zine.com/images/books/15/cover_s.jpg" alt="photo" class="photo"  /></a>
-	<dl>
-		<dt class="fn"><a class="item url" href="https://tatsu-zine.com/books/infoshare">情報共有の未来</a></dt>
-		<dd>yomoyomo</dd>
-		<dd>達人出版会 2011-12-30</dd>
-		<dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr></dd>
-	</dl>
-<p class="description">同名ブログの書籍化。感想は<a href="https://baldanders.info/spiegel/log2/000611.shtml">こちら</a>。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-12-14">2017-12-14</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+	<div class="photo"><a class="item url" href="https://tatsu-zine.com/books/infoshare"><img src="https://tatsu-zine.com/images/books/15/cover_s.jpg" alt="photo"></a></div>
+    <dl class="fn">
+      <dt><a href="https://tatsu-zine.com/books/infoshare">情報共有の未来</a></dt>
+      <dd>yomoyomo</dd>
+      <dd>達人出版会 2011-12-30</dd>
+      <dd>評価&nbsp;<abbr class="rating fa-sm" title="4">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </abbr></dd>
+    </dl>
+    <p class="description">同名ブログの書籍化。感想は<a href="https://baldanders.info/spiegel/log2/000611.shtml">こちら</a>。</p>
+    <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018-12-31</abbr></p>
 </div>

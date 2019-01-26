@@ -177,14 +177,34 @@ Bitcoin ってどうしてもかつての「地域通貨」を連想しちゃう
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-09-15">2015-09-15</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4757143044/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/413qoSjODUL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4757143044/baldandersinf-22/">信頼と裏切りの社会</a></dt><dd>ブルース・シュナイアー 山形 浩生 </dd><dd>エヌティティ出版 2013-12-24</dd><dd>評価<abbr class="rating" title="5"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4622078007/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4622078007.09._SCTHUMBZZZ_.jpg"  alt="殺人ザルはいかにして経済に目覚めたか?―― ヒトの進化からみた経済学"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4140816872/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4140816872.09._SCTHUMBZZZ_.jpg"  alt="限界費用ゼロ社会―<モノのインターネット>と共有型経済の台頭"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4478017883/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4478017883.09._SCTHUMBZZZ_.jpg"  alt="第五の権力---Googleには見えている未来"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4621089188/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4621089188.09._SCTHUMBZZZ_.jpg"  alt="リスク 不確実性の中での意思決定 (サイエンス・パレット)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/412102138X/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/412102138X.09._SCTHUMBZZZ_.jpg"  alt="ソーシャル・キャピタル入門　- 孤立から絆へ (中公新書)"  /></a> </p>
-<p class="description">社会における「信頼」とは。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-01-23">2016-01-23</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E4%BF%A1%E9%A0%BC%E3%81%A8%E8%A3%8F%E5%88%87%E3%82%8A%E3%81%AE%E7%A4%BE%E4%BC%9A-%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%83%BB%E3%82%B7%E3%83%A5%E3%83%8A%E3%82%A4%E3%82%A2%E3%83%BC/dp/4757143044?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4757143044"><img src="https://images-fe.ssl-images-amazon.com/images/I/413qoSjODUL._SL160_.jpg" width="108" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E4%BF%A1%E9%A0%BC%E3%81%A8%E8%A3%8F%E5%88%87%E3%82%8A%E3%81%AE%E7%A4%BE%E4%BC%9A-%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%83%BB%E3%82%B7%E3%83%A5%E3%83%8A%E3%82%A4%E3%82%A2%E3%83%BC/dp/4757143044?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4757143044">信頼と裏切りの社会</a></dt>
+	<dd>ブルース・シュナイアー</dd>
+	<dd>山形 浩生 (翻訳)</dd>
+    <dd>エヌティティ出版 2013-12-24</dd>
+    <dd>Book 単行本（ソフトカバー）</dd>
+    <dd>ASIN: 4757143044, EAN: 9784757143043</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">社会における「信頼」とは。そういいえば『<a href="https://www.amazon.co.jp/exec/obidos/ASIN/B01MZGVHOA/baldandersinf-22">超監視社会</a>』は積ん読のまま読んでない。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4903127044/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/417iD4x5N%2BL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4903127044/baldandersinf-22/">排除型社会―後期近代における犯罪・雇用・差異</a></dt><dd>ジョック ヤング Jock Young </dd><dd>洛北出版 2007-03</dd><dd>評価<abbr class="rating" title="5"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4791764331/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4791764331.09._SCTHUMBZZZ_.jpg"  alt="後期近代の眩暈―排除から過剰包摂へ"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4255008515/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4255008515.09._SCTHUMBZZZ_.jpg"  alt="断片的なものの社会学"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4796700439/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4796700439.09._SCTHUMBZZZ_.jpg"  alt="スティグマの社会学―烙印を押されたアイデンティティ"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4791764242/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4791764242.09._SCTHUMBZZZ_.jpg"  alt="新しい貧困 労働消費主義ニュープア"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4062881357/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4062881357.09._SCTHUMBZZZ_.jpg"  alt="弱者の居場所がない社会――貧困・格差と社会的包摂 (講談社現代新書)"  /></a> </p>
-<p class="description"><a href="https://baldanders.info/spiegel/log2/000410.shtml">感想はこちら</a>。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-09-15">2015-09-15</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%8E%92%E9%99%A4%E5%9E%8B%E7%A4%BE%E4%BC%9A%E2%80%95%E5%BE%8C%E6%9C%9F%E8%BF%91%E4%BB%A3%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E7%8A%AF%E7%BD%AA%E3%83%BB%E9%9B%87%E7%94%A8%E3%83%BB%E5%B7%AE%E7%95%B0-%E3%82%B8%E3%83%A7%E3%83%83%E3%82%AF-%E3%83%A4%E3%83%B3%E3%82%B0/dp/4903127044?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4903127044"><img src="https://images-fe.ssl-images-amazon.com/images/I/41uBRNdBygL._SL160_.jpg" width="110" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E6%8E%92%E9%99%A4%E5%9E%8B%E7%A4%BE%E4%BC%9A%E2%80%95%E5%BE%8C%E6%9C%9F%E8%BF%91%E4%BB%A3%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E7%8A%AF%E7%BD%AA%E3%83%BB%E9%9B%87%E7%94%A8%E3%83%BB%E5%B7%AE%E7%95%B0-%E3%82%B8%E3%83%A7%E3%83%83%E3%82%AF-%E3%83%A4%E3%83%B3%E3%82%B0/dp/4903127044?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4903127044">排除型社会―後期近代における犯罪・雇用・差異</a></dt>
+	<dd>ジョック ヤング</dd>
+	<dd>Jock Young (原著), 青木 秀男 (翻訳), 伊藤 泰郎 (翻訳), 岸 政彦 (翻訳), 村澤 真保呂 (翻訳)</dd>
+    <dd>洛北出版 2007-03</dd>
+    <dd>Book 単行本</dd>
+    <dd>ASIN: 4903127044, EAN: 9784903127040</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description"><a href="https://baldanders.info/spiegel/log2/000410.shtml">感想はこちら</a>。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-07">2018-12-07</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
 もっとも，ちゃんと最後まで読んだのは『排除型社会』だけであとは途中まで読んで積ん読状態。

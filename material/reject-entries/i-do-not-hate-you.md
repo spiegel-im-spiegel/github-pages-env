@@ -85,7 +85,17 @@ description = "プロジェクト全体を見回して，いったい何がボ�
 <p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-01-24">2017-01-24</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4621045938/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51XGP8AFX2L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4621045938/baldandersinf-22/">いかにして問題をとくか</a></dt><dd>G. ポリア 柿内 賢信 </dd><dd>丸善 1975-04-01</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4621085298/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4621085298.09._SCTHUMBZZZ_.jpg"  alt="いかにして問題をとくか・実践活用編"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4061497863/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4061497863.09._SCTHUMBZZZ_.jpg"  alt="数学的思考法―説明力を鍛えるヒント  講談社現代新書"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/462108819X/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/462108819X.09._SCTHUMBZZZ_.jpg"  alt="数学×思考=ざっくりと  いかにして問題をとくか"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4797375698/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4797375698.09._SCTHUMBZZZ_.jpg"  alt="数学ガールの秘密ノート/数列の広場"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4185086180/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4185086180.09._SCTHUMBZZZ_.jpg"  alt="授業研究に学ぶ高校新数学科の在り方"  /></a> </p>
-<p class="description" >数学書。というか問いの立てかたやものの考え方についての指南書。のようなものかな。</p>
-<p class="gtools" >reviewed by <a href="#maker" class="reviewer">Spiegel</a> on <abbr class="dtreviewed" title="2014-09-26">2014/09/26</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html">G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%95%8F%E9%A1%8C%E3%82%92%E3%81%A8%E3%81%8F%E3%81%8B-G-%E3%83%9D%E3%83%AA%E3%82%A2/dp/4621045938?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621045938"><img src="https://images-fe.ssl-images-amazon.com/images/I/51XGP8AFX2L._SL160_.jpg" width="112" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%95%8F%E9%A1%8C%E3%82%92%E3%81%A8%E3%81%8F%E3%81%8B-G-%E3%83%9D%E3%83%AA%E3%82%A2/dp/4621045938?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621045938">いかにして問題をとくか</a></dt>
+	<dd>G. ポリア</dd>
+	<dd>G. Polya (原著), 柿内 賢信 (翻訳)</dd>
+    <dd>丸善 1975-04-01</dd>
+    <dd>Book 単行本</dd>
+    <dd>ASIN: 4621045938, EAN: 9784621045930</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">数学書。というか問いの立てかたやものの考え方についての指南書。のようなものかな。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>

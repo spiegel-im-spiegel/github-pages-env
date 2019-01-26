@@ -67,30 +67,28 @@ tags = [ "book", "kotlin", "programming", "language", "object-oriented" ]
 ## 参考図書
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B07HQMNLCV/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51opWCuz3YL._SL160_.jpg" width="100" height="160" alt="速習 Kotlin: Javaより簡単！新Android開発言語を今すぐマスター 速習シリーズ"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E9%80%9F%E7%BF%92-Kotlin-Java%E3%82%88%E3%82%8A%E7%B0%A1%E5%8D%98%EF%BC%81%E6%96%B0Android%E9%96%8B%E7%99%BA%E8%A8%80%E8%AA%9E%E3%82%92%E4%BB%8A%E3%81%99%E3%81%90%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC-%E9%80%9F%E7%BF%92%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-%E5%B1%B1%E7%94%B0%E7%A5%A5%E5%AF%9B-ebook/dp/B07HQMNLCV?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07HQMNLCV"><img src="https://images-fe.ssl-images-amazon.com/images/I/51opWCuz3YL._SL160_.jpg" width="100" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B07HQMNLCV/baldandersinf-22">速習 Kotlin: Javaより簡単！新Android開発言語を今すぐマスター 速習シリーズ</a></dt>
-    <dd>山田祥寛</dd>
-    <dd>WINGSプロジェクト</dd>
-    <dd>評価&nbsp;<span class="fa-sm" style="color:goldenrod;">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="far fa-star"></i>
-      <i class="far fa-star"></i>
-    </span></dd>
+    <dt><a href="https://www.amazon.co.jp/%E9%80%9F%E7%BF%92-Kotlin-Java%E3%82%88%E3%82%8A%E7%B0%A1%E5%8D%98%EF%BC%81%E6%96%B0Android%E9%96%8B%E7%99%BA%E8%A8%80%E8%AA%9E%E3%82%92%E4%BB%8A%E3%81%99%E3%81%90%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC-%E9%80%9F%E7%BF%92%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-%E5%B1%B1%E7%94%B0%E7%A5%A5%E5%AF%9B-ebook/dp/B07HQMNLCV?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07HQMNLCV">速習 Kotlin: Javaより簡単！新Android開発言語を今すぐマスター 速習シリーズ</a></dt>
+	<dd>山田祥寛</dd>
+    <dd>WINGSプロジェクト 2018-09-26 (Release 2018-09-26)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B07HQMNLCV</dd>
+    <dd>評価<abbr class="rating fa-sm" title="3">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">Kindle unlimited で読める。 Java コードと比較しながらふんわりとイメージを掴むにはよい。予備学習教材。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.12.2</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-02">2018-12-02</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B077PDFQ4S/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/513eTXxTlJL._SL160_.jpg" width="160" height="139" alt="STARTSIDE 数独 すうどく 脳トレ 卓上 ボード ゲーム 9ブロックパズル (ブラック)"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/STARTSIDE-%E3%81%99%E3%81%86%E3%81%A9%E3%81%8F-%E8%84%B3%E3%83%88%E3%83%AC-9%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%91%E3%82%BA%E3%83%AB-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF/dp/B077PDFQ4S?psc=1&SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B077PDFQ4S"><img src="https://images-fe.ssl-images-amazon.com/images/I/513eTXxTlJL._SL160_.jpg" width="160" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B077PDFQ4S/baldandersinf-22">STARTSIDE 数独 すうどく 脳トレ 卓上 ボード ゲーム 9ブロックパズル (ブラック)</a></dt>
-    <dd></dd>
+    <dt><a href="https://www.amazon.co.jp/STARTSIDE-%E3%81%99%E3%81%86%E3%81%A9%E3%81%8F-%E8%84%B3%E3%83%88%E3%83%AC-9%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%91%E3%82%BA%E3%83%AB-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF/dp/B077PDFQ4S?psc=1&SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B077PDFQ4S">STARTSIDE 数独 すうどく 脳トレ 卓上 ボード ゲーム 9ブロックパズル (ブラック)</a></dt>
     <dd>STARTSIDE</dd>
+    <dd>Toy おもちゃ＆ホビー</dd>
+    <dd>ASIN: B077PDFQ4S, EAN: 4562440102073</dd>
+    <dd>評価<abbr class="rating fa-sm" title="3">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">「数独」がボードゲームに（笑）</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.12.2</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-02">2018-12-02</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>

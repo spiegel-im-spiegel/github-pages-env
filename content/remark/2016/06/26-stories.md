@@ -111,8 +111,16 @@ EU というのは「包摂」型の政治システムだと思う。
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4106037866/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51QsC2WBr5L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4106037866/baldandersinf-22/">【中東大混迷を解く】 サイクス=ピコ協定 百年の呪縛 (新潮選書)</a></dt><dd>池内 恵 </dd><dd>新潮社 2016-05-27</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4120048349/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4120048349.09._SCTHUMBZZZ_.jpg"  alt="増補新版 イスラーム世界の論じ方"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4140884908/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4140884908.09._SCTHUMBZZZ_.jpg"  alt="中東から世界が崩れる―イランの復活、サウジアラビアの変貌 (NHK出版新書 490)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4106037890/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4106037890.09._SCTHUMBZZZ_.jpg"  alt="世界地図の中で考える (新潮選書)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4484162164/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4484162164.09._SCTHUMBZZZ_.jpg"  alt="アステイオン84 【特集】帝国の崩壊と呪縛"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4106037874/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4106037874.09._SCTHUMBZZZ_.jpg"  alt="憲法改正とは何か: アメリカ改憲史から考える (新潮選書)"  /></a> </p>
-<p class="description">まだ読んでる途中だが，欧州および中東の近代史を「サイクス=ピコ協定」を特異点として網羅的に解説していいる。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-06-26">2016-06-26</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%80%90%E4%B8%AD%E6%9D%B1%E5%A4%A7%E6%B7%B7%E8%BF%B7%E3%82%92%E8%A7%A3%E3%81%8F%E3%80%91-%E3%82%B5%E3%82%A4%E3%82%AF%E3%82%B9-%E3%83%94%E3%82%B3%E5%8D%94%E5%AE%9A-%E7%99%BE%E5%B9%B4%E3%81%AE%E5%91%AA%E7%B8%9B-%E6%96%B0%E6%BD%AE%E9%81%B8%E6%9B%B8/dp/4106037866?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4106037866"><img src="https://images-fe.ssl-images-amazon.com/images/I/51QsC2WBr5L._SL160_.jpg" width="106" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E3%80%90%E4%B8%AD%E6%9D%B1%E5%A4%A7%E6%B7%B7%E8%BF%B7%E3%82%92%E8%A7%A3%E3%81%8F%E3%80%91-%E3%82%B5%E3%82%A4%E3%82%AF%E3%82%B9-%E3%83%94%E3%82%B3%E5%8D%94%E5%AE%9A-%E7%99%BE%E5%B9%B4%E3%81%AE%E5%91%AA%E7%B8%9B-%E6%96%B0%E6%BD%AE%E9%81%B8%E6%9B%B8/dp/4106037866?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4106037866">【中東大混迷を解く】 サイクス=ピコ協定 百年の呪縛 (新潮選書)</a></dt>
+	<dd>池内 恵</dd>
+    <dd>新潮社 2016-05-27</dd>
+    <dd>Book 単行本（ソフトカバー）</dd>
+    <dd>ASIN: 4106037866, EAN: 9784106037863</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">欧州および中東の近代および現代を「サイクス=ピコ協定」を特異点として網羅的に解説していいる。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-07-02">2016-07-02</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
-

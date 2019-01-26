@@ -130,42 +130,34 @@ yomoyomo さんの「[情報共有の未来](http://archive.wiredvision.co.jp/bl
         <i class="far fa-star"></i>
       </abbr></dd>
     </dl>
-    <p class="description">同名ブログの書籍化。感想は<a href="https://baldanders.info/spiegel/log2/000611.shtml">こちら</a>。早く<a href="https://tatsu-zine.com/books/infoshare2">続編</a>読まないと。</p>
-    <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.12.7</abbr></p>
+    <p class="description">同名ブログの書籍化。感想は<a href="https://baldanders.info/spiegel/log2/000611.shtml">こちら</a>。</p>
+    <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018-12-31</abbr></p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4000280872/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/31e2h91IUWL._SL160_.jpg" width="103" height="160" alt="イノベーション 悪意なき嘘 (双書 時代のカルテ)"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%A4%E3%83%8E%E3%83%99%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-%E6%82%AA%E6%84%8F%E3%81%AA%E3%81%8D%E5%98%98-%E5%8F%8C%E6%9B%B8-%E6%99%82%E4%BB%A3%E3%81%AE%E3%82%AB%E3%83%AB%E3%83%86-%E5%B0%8F%E5%A4%AA%E9%83%8E/dp/4000280872?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4000280872"><img src="https://images-fe.ssl-images-amazon.com/images/I/31e2h91IUWL._SL160_.jpg" width="103" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4000280872/baldandersinf-22">イノベーション 悪意なき嘘 (双書 時代のカルテ)</a></dt>
-    <dd>名和 小太郎</dd>
-    <dd>岩波書店</dd>
-    <dd>評価&nbsp;<abbr class="rating fa-sm" title="3">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="far fa-star"></i>
-    </abbr></dd>
+    <dt><a href="https://www.amazon.co.jp/%E3%82%A4%E3%83%8E%E3%83%99%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-%E6%82%AA%E6%84%8F%E3%81%AA%E3%81%8D%E5%98%98-%E5%8F%8C%E6%9B%B8-%E6%99%82%E4%BB%A3%E3%81%AE%E3%82%AB%E3%83%AB%E3%83%86-%E5%B0%8F%E5%A4%AA%E9%83%8E/dp/4000280872?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4000280872">イノベーション 悪意なき嘘 (双書 時代のカルテ)</a></dt>
+	<dd>名和 小太郎</dd>
+    <dd>岩波書店 2007-01-11</dd>
+    <dd>Book 単行本</dd>
+    <dd>ASIN: 4000280872, EAN: 9784000280877</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">「両用技術とはどのようなものか。その核心には「矛と楯の論理」がある」（まえがき「予断・診断・独断 そんなばかな」より）</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.12.31</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4797334673/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41tEJvyOO2L._SL160_.jpg" width="97" height="160" alt="インターネットの法と慣習　かなり奇妙な法学入門 [ソフトバンク新書]"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E3%81%AE%E6%B3%95%E3%81%A8%E6%85%A3%E7%BF%92-%E3%81%8B%E3%81%AA%E3%82%8A%E5%A5%87%E5%A6%99%E3%81%AA%E6%B3%95%E5%AD%A6%E5%85%A5%E9%96%80-%E3%82%BD%E3%83%95%E3%83%88%E3%83%90%E3%83%B3%E3%82%AF%E6%96%B0%E6%9B%B8-%E7%99%BD%E7%94%B0-%E7%A7%80%E5%BD%B0/dp/4797334673?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4797334673"><img src="https://images-fe.ssl-images-amazon.com/images/I/41tEJvyOO2L._SL160_.jpg" width="97" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4797334673/baldandersinf-22">インターネットの法と慣習　かなり奇妙な法学入門 [ソフトバンク新書]</a></dt>
-    <dd>白田 秀彰</dd>
-    <dd>ソフトバンククリエイティブ</dd>
-	<dd>評価&nbsp;<abbr class="rating fa-sm" title="4">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="far fa-star"></i>
-    </abbr></dd>
+    <dt><a href="https://www.amazon.co.jp/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E3%81%AE%E6%B3%95%E3%81%A8%E6%85%A3%E7%BF%92-%E3%81%8B%E3%81%AA%E3%82%8A%E5%A5%87%E5%A6%99%E3%81%AA%E6%B3%95%E5%AD%A6%E5%85%A5%E9%96%80-%E3%82%BD%E3%83%95%E3%83%88%E3%83%90%E3%83%B3%E3%82%AF%E6%96%B0%E6%9B%B8-%E7%99%BD%E7%94%B0-%E7%A7%80%E5%BD%B0/dp/4797334673?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4797334673">インターネットの法と慣習　かなり奇妙な法学入門 [ソフトバンク新書]</a></dt>
+	<dd>白田 秀彰</dd>
+    <dd>ソフトバンククリエイティブ 2006-07-15</dd>
+    <dd>Book 新書</dd>
+    <dd>ASIN: 4797334673, EAN: 9784797334678</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">ライアカ本。 Web 2.0 真っ只中に書かれた本だが，時事的な部分を除けば古びてはいないと思う。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.11.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-20">2018-11-20</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>

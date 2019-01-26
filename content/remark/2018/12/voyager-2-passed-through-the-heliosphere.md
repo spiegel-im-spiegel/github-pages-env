@@ -56,19 +56,14 @@ NASA が1977年に打ち上げた探査機 [Voyager] 2 が太陽圏を抜けて�
 [Voyager]: https://voyager.jpl.nasa.gov/
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B000I2JEA2/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51zWeacU4GL._SL160_.jpg" width="112" height="160" alt="ほしのこえ(サービスプライス版) [DVD]"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%BB%E3%81%97%E3%81%AE%E3%81%93%E3%81%88-%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%97%E3%83%A9%E3%82%A4%E3%82%B9%E7%89%88-DVD-%E6%AD%A6%E8%97%A4%E5%AF%BF%E7%BE%8E/dp/B000I2JEA2?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B000I2JEA2"><img src="https://images-fe.ssl-images-amazon.com/images/I/51zWeacU4GL._SL160_.jpg" width="112" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B000I2JEA2/baldandersinf-22">ほしのこえ(サービスプライス版) [DVD]</a></dt>
-    <dd></dd>
-    <dd>コミックス・ウェーブ・フィルム</dd>
-    <dd>評価&nbsp;<abbr class="rating fa-sm" title="3">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="far fa-star"></i>
-    </abbr></dd>
+    <dt><a href="https://www.amazon.co.jp/%E3%81%BB%E3%81%97%E3%81%AE%E3%81%93%E3%81%88-%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%97%E3%83%A9%E3%82%A4%E3%82%B9%E7%89%88-DVD-%E6%AD%A6%E8%97%A4%E5%AF%BF%E7%BE%8E/dp/B000I2JEA2?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B000I2JEA2">ほしのこえ(サービスプライス版) [DVD]</a></dt>
+    <dd>コミックス・ウェーブ・フィルム (Release 2006-11-17)</dd>
+    <dd>DVD DVD</dd>
+    <dd>ASIN: B000I2JEA2, EAN: 4560107150238</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">観たら泣く。 Amazon で<a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00UY3Z8LE/baldandersinf-22">レンタルも可能</a>。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.12.12</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-12">2018-12-12</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>

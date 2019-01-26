@@ -96,19 +96,15 @@ DE430 では DE405 以後の観測値が反映されている。
 ## 参考図書
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4805202254/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51mQCyP04rL._SL160_.jpg" width="108" height="160" alt="天体の位置計算"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%A4%A9%E4%BD%93%E3%81%AE%E4%BD%8D%E7%BD%AE%E8%A8%88%E7%AE%97-%E9%95%B7%E6%B2%A2-%E5%B7%A5/dp/4805202254?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4805202254"><img src="https://images-fe.ssl-images-amazon.com/images/I/51mQCyP04rL._SL160_.jpg" width="108" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4805202254/baldandersinf-22">天体の位置計算</a></dt>
-    <dd>長沢 工</dd>
-    <dd>地人書館</dd>
-	<dd>評価&nbsp;<abbr class="rating fa-sm" title="4">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="far fa-star"></i>
-    </abbr></dd>
+    <dt><a href="https://www.amazon.co.jp/%E5%A4%A9%E4%BD%93%E3%81%AE%E4%BD%8D%E7%BD%AE%E8%A8%88%E7%AE%97-%E9%95%B7%E6%B2%A2-%E5%B7%A5/dp/4805202254?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4805202254">天体の位置計算</a></dt>
+	<dd>長沢 工</dd>
+    <dd>地人書館 1985-09-01</dd>
+    <dd>Book 単行本</dd>
+    <dd>ASIN: 4805202254, EAN: 9784805202258</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">B1950.0 分点から J2000.0 分点への過渡期に書かれた本なので情報が古いものもあるが，基本的な内容は位置天文学の教科書として充分通用する。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>

@@ -68,7 +68,17 @@ Wikipedia でリンク切れになってるやつは「[「クリエイティブ
 
 [Creative Commons]: https://creativecommons.org/ "When we share, everyone wins - Creative Commons"
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/475710152X/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/41WPNBY7HZL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/475710152X/baldandersinf-22/">クリエイティブ・コモンズ―デジタル時代の知的財産権</a></dt><dd>ローレンス レッシグ 椙山 敬士 上村 圭介 林 紘一郎 若槻 絵美 土屋 大洋 クリエイティブコモンズジャパン </dd><dd>NTT出版 2005-03</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4798106801/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4798106801.09._SCTHUMBZZZ_.jpg"  alt="Free Culture"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4798102040/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4798102040.09._SCTHUMBZZZ_.jpg"  alt="コモンズ"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4798119806/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4798119806.09._SCTHUMBZZZ_.jpg"  alt="REMIX ハイブリッド経済で栄える文化と商業のあり方"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4087205274/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4087205274.09._SCTHUMBZZZ_.jpg"  alt="著作権の世紀―変わる「情報の独占制度」 (集英社新書 527A)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4480065733/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4480065733.09._SCTHUMBZZZ_.jpg"  alt="デジタル時代の著作権 (ちくま新書)"  /></a> </p>
-<p class="description">残念ながら紙の本は実質的に絶版なんですよねぇ。是非デジタル化を希望します。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-08-02">2014/08/02</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%BB%E3%82%B3%E3%83%A2%E3%83%B3%E3%82%BA%E2%80%95%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%99%82%E4%BB%A3%E3%81%AE%E7%9F%A5%E7%9A%84%E8%B2%A1%E7%94%A3%E6%A8%A9-%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9-%E3%83%AC%E3%83%83%E3%82%B7%E3%82%B0/dp/475710152X?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=475710152X"><img src="https://images-fe.ssl-images-amazon.com/images/I/41WPNBY7HZL._SL160_.jpg" width="110" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%BB%E3%82%B3%E3%83%A2%E3%83%B3%E3%82%BA%E2%80%95%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%99%82%E4%BB%A3%E3%81%AE%E7%9F%A5%E7%9A%84%E8%B2%A1%E7%94%A3%E6%A8%A9-%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9-%E3%83%AC%E3%83%83%E3%82%B7%E3%82%B0/dp/475710152X?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=475710152X">クリエイティブ・コモンズ―デジタル時代の知的財産権</a></dt>
+	<dd>ローレンス レッシグ, 椙山 敬士, 上村 圭介, 林 紘一郎, 若槻 絵美, 土屋 大洋</dd>
+	<dd>クリエイティブコモンズジャパン (編集), Lawrence Lessig (原著)</dd>
+    <dd>NTT出版 2005-03</dd>
+    <dd>Book 単行本</dd>
+    <dd>ASIN: 475710152X, EAN: 9784757101524</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">残念ながら紙の本は実質的に絶版なんですよねぇ。是非デジタル化を希望します。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-13">2018-11-13</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>

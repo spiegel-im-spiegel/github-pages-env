@@ -110,7 +110,17 @@ Google はユーザに対して「[デバイスマネージャ](https://www.goog
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4757143044/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/413qoSjODUL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4757143044/baldandersinf-22/">信頼と裏切りの社会</a></dt><dd>ブルース・シュナイアー 山形 浩生 </dd><dd>エヌティティ出版 2013-12-24</dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4622078007/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4622078007.09._SCTHUMBZZZ_.jpg"  alt="殺人ザルはいかにして経済に目覚めたか?―― ヒトの進化からみた経済学"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4620323098/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4620323098.09._SCTHUMBZZZ_.jpg"  alt="リベラルのことは嫌いでも、リベラリズムは嫌いにならないでください－－井上達夫の法哲学入門"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4152094362/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4152094362.09._SCTHUMBZZZ_.jpg"  alt="楽観主義者の未来予測(上): テクノロジーの爆発的進化が世界を豊かにする"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/413052027X/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/413052027X.09._SCTHUMBZZZ_.jpg"  alt="社会調査の考え方　下"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4326302402/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4326302402.09._SCTHUMBZZZ_.jpg"  alt="歴史から理論を創造する方法: 社会科学と歴史学を統合する"  /></a> </p>
-<p class="description">ゴメン。途中まで読んで積読中。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-09-20">2015-09-20</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E4%BF%A1%E9%A0%BC%E3%81%A8%E8%A3%8F%E5%88%87%E3%82%8A%E3%81%AE%E7%A4%BE%E4%BC%9A-%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%83%BB%E3%82%B7%E3%83%A5%E3%83%8A%E3%82%A4%E3%82%A2%E3%83%BC/dp/4757143044?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4757143044"><img src="https://images-fe.ssl-images-amazon.com/images/I/413qoSjODUL._SL160_.jpg" width="108" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E4%BF%A1%E9%A0%BC%E3%81%A8%E8%A3%8F%E5%88%87%E3%82%8A%E3%81%AE%E7%A4%BE%E4%BC%9A-%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%83%BB%E3%82%B7%E3%83%A5%E3%83%8A%E3%82%A4%E3%82%A2%E3%83%BC/dp/4757143044?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4757143044">信頼と裏切りの社会</a></dt>
+	<dd>ブルース・シュナイアー</dd>
+	<dd>山形 浩生 (翻訳)</dd>
+    <dd>エヌティティ出版 2013-12-24</dd>
+    <dd>Book 単行本（ソフトカバー）</dd>
+    <dd>ASIN: 4757143044, EAN: 9784757143043</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">社会における「信頼」とは。そういいえば『<a href="https://www.amazon.co.jp/exec/obidos/ASIN/B01MZGVHOA/baldandersinf-22">超監視社会</a>』は積ん読のまま読んでない。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>

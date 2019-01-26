@@ -188,7 +188,16 @@ iOS 機器の遠隔操作は iOS の標準機能でやったほうがいいと�
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4N4/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51Ia%2B77IpiL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4N4/baldandersinf-22/">BOOM TOWN　TRIP.30</a></dt><dd>内田 美奈子 </dd><dd> 2014-09-26</dd><dd>評価<abbr class="rating" title="5"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4DE/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00NWQI4DE.09._SCTHUMBZZZ_.jpg"  alt="BOOM TOWN　４"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4D4/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00NWQI4D4.09._SCTHUMBZZZ_.jpg"  alt="BOOM TOWN　２"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4CA/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00NWQI4CA.09._SCTHUMBZZZ_.jpg"  alt="BOOM TOWN　３"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI49S/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00NWQI49S.09._SCTHUMBZZZ_.jpg"  alt="BOOM TOWN　１"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4B6/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00NWQI4B6.09._SCTHUMBZZZ_.jpg"  alt="アンバランス・トーキョー"  /></a> </p>
-<p class="description">掲載誌「コミックガンマ」が休刊になって単行本収録できなかった<del>まるぼし</del>まぼろしの30話。これが Kindle で読めるとはいい時代になったものです。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-06-05">2016-06-05</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/BOOM-TOWN-TRIP-30-%E5%86%85%E7%94%B0-%E7%BE%8E%E5%A5%88%E5%AD%90-ebook/dp/B00NWQI4N4?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00NWQI4N4"><img src="https://images-fe.ssl-images-amazon.com/images/I/51Ia%2B77IpiL._SL160_.jpg" width="113" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/BOOM-TOWN-TRIP-30-%E5%86%85%E7%94%B0-%E7%BE%8E%E5%A5%88%E5%AD%90-ebook/dp/B00NWQI4N4?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00NWQI4N4">BOOM TOWN　TRIP.30</a></dt>
+	<dd>内田 美奈子</dd>
+    <dd> 2014-09-26 (Release 2014-09-26)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B00NWQI4N4</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">掲載誌「コミックガンマ」が休刊になって単行本収録できなかった<del>まるぼし</del>まぼろしの30話。これが Kindle で読めるとはいい時代になったものです。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-06-05">2016-06-05</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>

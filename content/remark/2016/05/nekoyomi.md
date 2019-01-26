@@ -77,17 +77,44 @@ title = "『猫暦』を読んだ"
 さて，これからおえいちゃんはどうなるのか。
 続きが楽しみであります。
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B01BHGVLOY/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51mwPBTov5L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B01BHGVLOY/baldandersinf-22/">猫暦(1) (ねこぱんちコミックス)</a></dt><dd>ねこしみず美濃 </dd><dd>少年画報社 2014-10-14</dd><dd>評価<abbr class="rating" title="5"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
-<p class="description">「寛政の改暦」のころの伊能勘解由（忠敬）とその妻とされる「おえい」の物語。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-04-17">2016-05-05</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E7%8C%AB%E6%9A%A6/dp/B07BNZQSZZ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07BNZQSZZ"><img src="https://images-fe.ssl-images-amazon.com/images/I/61fCTlgexuL._SL160_.jpg" width="160" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E7%8C%AB%E6%9A%A6/dp/B07BNZQSZZ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07BNZQSZZ">猫暦</a></dt>
+	<dd>ねこしみず美濃</dd>
+    <dd></dd>
+    <dd>Collections Kindle版</dd>
+    <dd>ASIN: B07BNZQSZZ</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">「寛政の改暦」のころの伊能勘解由（忠敬）とその妻とされる「おえい」の物語。感想は<a href="https://text.baldanders.info/remark/2016/05/nekoyomi/">こちら</a>。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-01-07">2019-01-07</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4254102372/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/518zIufy4fL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4254102372/baldandersinf-22/">暦の大事典</a></dt><dd>岡田 芳朗 </dd><dd>朝倉書店 2014-07-29</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
-<p class="description">古今東西の暦について網羅されている。結構なお値段だが，今回は図書館で借りて読んだ。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-05-05">2016-05-05</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%9A%A6%E3%81%AE%E5%A4%A7%E4%BA%8B%E5%85%B8-%E5%B2%A1%E7%94%B0-%E8%8A%B3%E6%9C%97/dp/4254102372?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4254102372"><img src="https://images-fe.ssl-images-amazon.com/images/I/61GxZdYPMfL._SL160_.jpg" width="113" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E6%9A%A6%E3%81%AE%E5%A4%A7%E4%BA%8B%E5%85%B8-%E5%B2%A1%E7%94%B0-%E8%8A%B3%E6%9C%97/dp/4254102372?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4254102372">暦の大事典</a></dt>
+	<dd>岡田 芳朗 (編集), 神田 泰 (編集), 佐藤 次高 (編集), 高橋 正男 (編集), 古川 麒一郎 (編集), 松井 吉昭 (編集)</dd>
+    <dd>朝倉書店 2014-07-29</dd>
+    <dd>Book 大型本</dd>
+    <dd>ASIN: 4254102372, EAN: 9784254102376</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">古今東西の暦について網羅されている。結構なお値段だが図書館で借りて読んだ。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-05-05">2016-05-05</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B0095OEG3Y/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51U5H1U7SlL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B0095OEG3Y/baldandersinf-22/">天地明察 上<天地明察> (角川文庫)</a></dt><dd>冲方 丁 </dd><dd>KADOKAWA / 角川書店 2012-05-25</dd></dl><p class="similar"></p>
-<p class="description">日本人の手による初の暦「貞享暦」の中心人物である渋川春海の物語。実は積ん読状態。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-04-17">2016-05-05</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%A4%A9%E5%9C%B0%E6%98%8E%E5%AF%9F-%E4%B8%8A-%E8%A7%92%E5%B7%9D%E6%96%87%E5%BA%AB-%E5%86%B2%E6%96%B9-%E4%B8%81-ebook/dp/B0095OEG3Y?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0095OEG3Y"><img src="https://images-fe.ssl-images-amazon.com/images/I/51U5H1U7SlL._SL160_.jpg" width="113" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E5%A4%A9%E5%9C%B0%E6%98%8E%E5%AF%9F-%E4%B8%8A-%E8%A7%92%E5%B7%9D%E6%96%87%E5%BA%AB-%E5%86%B2%E6%96%B9-%E4%B8%81-ebook/dp/B0095OEG3Y?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0095OEG3Y">天地明察 上 (角川文庫)</a></dt>
+	<dd>冲方 丁</dd>
+    <dd>KADOKAWA / 角川書店 2012-05-25 (Release 2012-09-01)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B0095OEG3Y</dd>
+    <dd>評価<abbr class="rating fa-sm" title="3">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">日本人の手による初の暦「貞享暦」の中心人物である渋川春海の物語。安売りしてたので買ったが，実は途中までで積ん読状態。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-04-17">2016-04-17</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>

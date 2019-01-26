@@ -177,37 +177,29 @@ UT が観測値である以上「いつ閏秒が発生するか」は長期的�
 ## 参考図書
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4805202254/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51mQCyP04rL._SL160_.jpg" width="108" height="160" alt="天体の位置計算"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%A4%A9%E4%BD%93%E3%81%AE%E4%BD%8D%E7%BD%AE%E8%A8%88%E7%AE%97-%E9%95%B7%E6%B2%A2-%E5%B7%A5/dp/4805202254?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4805202254"><img src="https://images-fe.ssl-images-amazon.com/images/I/51mQCyP04rL._SL160_.jpg" width="108" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4805202254/baldandersinf-22">天体の位置計算</a></dt>
-    <dd>長沢 工</dd>
-    <dd>地人書館</dd>
-	<dd>評価&nbsp;<abbr class="rating fa-sm" title="4">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="far fa-star"></i>
-    </abbr></dd>
+    <dt><a href="https://www.amazon.co.jp/%E5%A4%A9%E4%BD%93%E3%81%AE%E4%BD%8D%E7%BD%AE%E8%A8%88%E7%AE%97-%E9%95%B7%E6%B2%A2-%E5%B7%A5/dp/4805202254?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4805202254">天体の位置計算</a></dt>
+	<dd>長沢 工</dd>
+    <dd>地人書館 1985-09-01</dd>
+    <dd>Book 単行本</dd>
+    <dd>ASIN: 4805202254, EAN: 9784805202258</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">B1950.0 分点から J2000.0 分点への過渡期に書かれた本なので情報が古いものもあるが，基本的な内容は位置天文学の教科書として充分通用する。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018.10.20</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B07BNZQSZZ/baldandersinf-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/61fCTlgexuL._SL160_.jpg" width="160" height="149" alt="猫暦"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E7%8C%AB%E6%9A%A6/dp/B07BNZQSZZ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07BNZQSZZ"><img src="https://images-fe.ssl-images-amazon.com/images/I/61fCTlgexuL._SL160_.jpg" width="160" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B07BNZQSZZ/baldandersinf-22">猫暦</a></dt>
-    <dd>ねこしみず美濃</dd>
+    <dt><a href="https://www.amazon.co.jp/%E7%8C%AB%E6%9A%A6/dp/B07BNZQSZZ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07BNZQSZZ">猫暦</a></dt>
+	<dd>ねこしみず美濃</dd>
     <dd></dd>
-    <dd>評価&nbsp;<abbr class="rating fa-sm" title="3">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-    </abbr></dd>
+    <dd>Collections Kindle版</dd>
+    <dd>ASIN: B07BNZQSZZ</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">「寛政の改暦」のころの伊能勘解由（忠敬）とその妻とされる「おえい」の物語。感想は<a href="https://text.baldanders.info/remark/2016/05/nekoyomi/">こちら</a>。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2019.1.7</abbr> (powered by <a href="https://dadadadone.com/amakuri/" >Amakuri</a>)</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-01-07">2019-01-07</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>

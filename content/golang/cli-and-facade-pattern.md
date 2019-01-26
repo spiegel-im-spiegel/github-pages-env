@@ -497,7 +497,16 @@ C:\workspace\astrocalc> bin\astrocalc.exe mjdn 2015 1 1
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00I8ATHGW/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/41mh5r0NwLL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00I8ATHGW/baldandersinf-22/">増補改訂版 Java言語で学ぶデザインパターン入門</a></dt><dd>結城 浩 </dd><dd>SBクリエイティブ 2004-06-18</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1BS/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00I8AT1BS.09._SCTHUMBZZZ_.jpg"  alt="増補改訂版 Java言語で学ぶデザインパターン入門 マルチスレッド編"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1EU/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00I8AT1EU.09._SCTHUMBZZZ_.jpg"  alt="Java言語で学ぶリファクタリング入門"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00JEYPPOE/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00JEYPPOE.09._SCTHUMBZZZ_.jpg"  alt="Code Complete 第2版 上　完全なプログラミングを目指して"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B0197SZZZ0/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B0197SZZZ0.09._SCTHUMBZZZ_.jpg"  alt="日経Linux（リナックス） 2016年 1月号 [雑誌]"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00V2WMQNE/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00V2WMQNE.09._SCTHUMBZZZ_.jpg"  alt="改訂2版　パーフェクトJava"  /></a> </p>
-<p class="description">結城浩さんによる通称「デザパタ本」。 Java 以外でも使える優れもの。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-01-05">2016-01-05</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%A2%97%E8%A3%9C%E6%94%B9%E8%A8%82%E7%89%88-Java%E8%A8%80%E8%AA%9E%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3%E5%85%A5%E9%96%80-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00I8ATHGW?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00I8ATHGW"><img src="https://images-fe.ssl-images-amazon.com/images/I/41mh5r0NwLL._SL160_.jpg" width="126" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E5%A2%97%E8%A3%9C%E6%94%B9%E8%A8%82%E7%89%88-Java%E8%A8%80%E8%AA%9E%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3%E5%85%A5%E9%96%80-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00I8ATHGW?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00I8ATHGW">増補改訂版 Java言語で学ぶデザインパターン入門</a></dt>
+	<dd>結城 浩</dd>
+    <dd>SBクリエイティブ 2004-06-18 (Release 2014-03-12)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B00I8ATHGW</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">結城浩さんによる通称「デザパタ本」の Kindle 版。 Java 以外でも使える優れもの。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-01-05">2016-01-05</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
