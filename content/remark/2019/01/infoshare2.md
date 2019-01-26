@@ -73,7 +73,7 @@ tags = [ "book", "code", "internet", "generativity", "grigori" ]
 私を含む多くのユーザはクラウドや XaaS を通じてインターネットに「参加」しているつもりかも知れないが，本当はそれをただ「使用」しているに過ぎないかも知れない。
 テレビ・リモコンの4色ボタンを押すだけではテレビというシステムに参加しているとは言わない。
 
-## [エンジニアこそ「狂狷の徒」たれ]({{< ref "/remark/2017/12/hacker-ethic.md" >}})
+## [エンジニアこそ「狂狷の徒」たれ]({{< ref "/remark/2017/12/hacker-ethic.md" >}}) {#hacker-ethic}
 
 『[はやぶさ―不死身の探査機と宇宙研の物語](https://www.amazon.co.jp/exec/obidos/ASIN/4344980158/baldandersinf-22)』にこんな一節がある。
 
