@@ -1,7 +1,7 @@
 +++
 title = "年末年始に施行される改正著作権法に関する覚え書き"
 date = "2018-11-13T14:20:00+09:00"
-update = "2018-12-19T20:09:38+09:00"
+update = "2019-01-26T22:54:06+09:00"
 description = "もう今さらグダグダ言ってもしょうがないので，この記事では今回の改正ポイントについて簡単に紹介するに留める。"
 image = "/images/attention/kitten.jpg"
 tags = ["code", "law", "intellectual-property", "copyright", "tpp", "access-control"]
@@ -206,6 +206,8 @@ AI の学習データ素材などを柔軟に利用できるよう考えられ�
 
 - [漫画は衰退しました]({{< ref "/remark/2018/01/manga-has-delined.md" >}})
 - [出版業界の自殺に日本のネットを巻き込まないで欲しい]({{< ref "/remark/2018/03/suicide-of-publishing.md" >}})
+- [「技術的保護手段」と「技術的利用制限手段」]({{< relref "./copy-control-and-access-control.md" >}})
+- [2019年 公有化に関する2つの話題]({{< ref "/remark/2019/01/public-domain-material.md" >}})
 
 [CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
 
