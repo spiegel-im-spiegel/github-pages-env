@@ -1,9 +1,10 @@
 +++
 title = "しょうがないので Amazon アフィリエイト・リンク作成ツールを作ったですよ"
 date = "2019-01-13T22:45:09+09:00"
+update = "2019-01-27T17:45:46+09:00"
 description = "ただし CLI (Command-Line Interface) ツール。"
 image = "/images/attention/go-logo_blue.png"
-tags = [ "tools", "amazon", "market", "golang", "engineering", "site" ]
+tags = [ "tools", "amazon", "market", "golang", "engineering", "site", "amazon-item", "template" ]
 
 [author]
   name      = "Spiegel"
@@ -74,6 +75,15 @@ Flags:
 
 Use "amazon-item [command] --help" for more information about a command.
 ```
+
+### 【追記 2019-01-27】 バイナリを含む v0.2.1 をリリースした
+
+v0.2.1 をリリースした。
+
+- [Amazon アイテム検索・情報取得ツール v0.2.1 をリリースした]({{< relref "./amazon-item-v0_2_1-is-released.md" >}})
+
+各種プラットフォーム向けのバイナリも併せてリリースしているので，自前でビルドしなくてもよくなった。
+改めてよろしく。
 
 ## 使用準備
 
