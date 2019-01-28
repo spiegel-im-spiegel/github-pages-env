@@ -223,7 +223,9 @@ $ amazon-item review -d B00I8AT1CM -r 4 -t template/review.html "数学ガール
 ```
 
 という感じになる。
-これを Web ページで表示させるとこんな感じになる。
+これを Web ページで表示させるとこんな感じになる[^css1]。
+
+[^css1]: スタイルシートは[こちら]({{< rlnk "/css/addon.css" >}})。
 
 {{< fig-gen title="amazon-item 出力例" >}}
 <div class="hreview">
@@ -241,10 +243,8 @@ $ amazon-item review -d B00I8AT1CM -r 4 -t template/review.html "数学ガール
 </div>
 {{< /fig-gen >}}
 
-レビューの description は標準入力から指定することもできる[^css1]。
+レビューの description は標準入力から指定することもできる。
 たとえば以下のように cat (Windows なら type) コマンドの出力をパイプで繋いで 
-
-[^css1]: スタイルシートは[こちら]({{< rlnk "/css/addon.css" >}})。
 
 ```text
 $ cat B00I8AT1CM.txt
