@@ -1,6 +1,7 @@
 +++
 title = "2019-01-27 のブックマーク"
 date =  "2019-01-27T18:15:48+09:00"
+update =  "2019-01-28T21:38:32+09:00"
 description = "「自動ビルド＆テストツールの「Travis CI」が、エンバカデロなどを買収したIderaに買収されたことを発表。サービスはそのまま継続」他"
 image = "/images/avatar.jpg"
 
@@ -47,6 +48,7 @@ image = "/images/avatar.jpg"
 - [JAXA | 小型実証衛星1号機（RAPIS-1）のクリティカルフェーズの終了について](http://www.jaxa.jp/press/2019/01/20190119_rapis-1_j.html)
 - [Amazing Photos of the Super Blood Wolf Moon of 2019!](https://www.space.com/43070-super-blood-wolf-moon-lunar-eclipse-2019-photos.html)
     - [Meteoroid impact on the Moon while eclipsed | IMO](https://www.imo.net/meteoroid-impact-on-the-moon-while-eclipsed/)
+    - [皆既月食中にとらえられた月面衝突閃光 - アストロアーツ](http://www.astroarts.co.jp/article/hl/a/10452_flash)
 - [2019年1月24日ニュース「土星の輪ができたのは太陽系の歴史では『ごく最近』だったようだ」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2019/01/20190124_01.html)
 
 ## 知財関連

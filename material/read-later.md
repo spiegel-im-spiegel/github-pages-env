@@ -14,6 +14,12 @@
 
 - [さくらのレンタルサーバ／マネージドサーバ 「バックアップ＆ステージング powered by Sn
 
+### golangCI
+
+- [Automated code review for Go](https://golangci.com/)
+- [golangci · GitHub](https://github.com/golangci)
+    - [Configuration · golangci/golangci Wiki · GitHub](https://github.com/golangci/golangci/wiki/Configuration)
+
 ### Autocrypt について
 
 - [Autocrypt 1.0.0 documentation](https://autocrypt.org/)
@@ -39,8 +45,14 @@
 
 ## 知財関連
 
+- [Replacing DVDs With Online Screeners Won't Stop Pirates - TorrentFreak](https://torrentfreak.com/replacing-dvd-screeners-with-online-versions-wont-stop-pirates-190126/)
+- [クラウドベンダなどによるサービス利用を制限したMongoDBの新ライセンス「SSPL」を理由にDebian、Fedora、RHELがMongoDBの配布取りやめを表明 － Publickey](https://www.publickey1.jp/blog/19/mongodbsspldebianfedorarhelmongodb.html)
 
 ## その他
 
+- [「Power Platform」は今後マイクロソフトの大きな柱に - ZDNet Japan](https://japan.zdnet.com/article/35131794/)
+- [誤送信ご注意、自分のメールアドレスこそ間違えます。｜塚本 牧生｜note](https://note.mu/tsukamoto/n/nf4f81b92b20b)
+- [サイエンスクリップ「待望のコムギゲノム解読が完了」| SciencePortal](https://scienceportal.jst.go.jp/clip/20190128_01.html)
+- [YouTube、誤情報や陰謀論をおすすめ動画から排除へ - CNET Japan](https://japan.cnet.com/article/35131872/)
 
 <!-- eof -->
