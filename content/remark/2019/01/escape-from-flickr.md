@@ -4,7 +4,7 @@ date = "2019-01-20T19:16:46+09:00"
 update = "2019-01-21T20:48:11+09:00"
 description = "ただの「写真置き場」なら自分のところに置いておけばいいぢゃん，と気がついた。"
 image = "/images/attention/kitten.jpg"
-tags = [ "site", "web", "photography", "flickr", "creative-commons" ]
+tags = [ "site", "web", "photography", "image", "flickr", "creative-commons" ]
 
 [author]
   name      = "Spiegel"
