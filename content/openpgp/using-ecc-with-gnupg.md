@@ -1,7 +1,7 @@
 +++
 title = "そろそろ GnuPG でも ECC を標準で使うのがいいんじゃないかな"
 date =  "2017-12-02T16:20:26+09:00"
-update =  "2018-01-28T18:00:19+09:00"
+update =  "2019-02-03T17:00:13+09:00"
 description = "手っ取り早く ECC 鍵を作りたいなら --quick-generate-key コマンドでアルゴリズムに future-default を指定すればよい。"
 image = "/images/attention/openpgp.png"
 tags = [
@@ -348,6 +348,7 @@ $ gpg --full-gen-key --expert
 
 - {{< pdf-file title="楕円曲線暗号の整備動向＋楕円暗号の実装状況" link="http://www.jnsa.org/seminar/pki-day/2011/data/02_kanaoka.pdf">}}
 - [楕円曲線暗号の鍵長に512bitがなく521bitがある理由 | maidsphere](http://www.maidsphere.jp/archive/%E6%A5%95%E5%86%86%E6%9B%B2%E7%B7%9A%E6%9A%97%E5%8F%B7%E3%81%AE%E9%8D%B5%E9%95%B7%E3%81%AB512bit%E3%81%8C%E3%81%AA%E3%81%8F521bit%E3%81%8C%E3%81%82%E3%82%8B%E7%90%86%E7%94%B1)
+- [TLS 1.3 開発日記 その22 公開鍵暗号の動向 - あどけない話](https://kazu-yamamoto.hatenablog.jp/entry/20171114/1510635277)
 
 - [OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）]({{< ref "/openpgp/algorithms-for-openpgp.md" >}})
 - [GnuPG チートシート（鍵作成から失効まで）]({{< ref "/openpgp/gnupg-cheat-sheet.md" >}})

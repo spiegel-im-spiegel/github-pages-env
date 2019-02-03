@@ -1,6 +1,7 @@
 +++
 title = "我々は「情報弱者」である"
 date = "2019-02-01T23:17:14+09:00"
+update =  "2019-02-03T17:00:13+09:00"
 description = "今年はいよいよ本腰を入れて I2P とか検討してみるかねぇ。"
 image = "https://photo.baldanders.info/flickr/image/36958536904_o.jpg"
 tags = [ "code", "internet", "censorship", "grigori", "privacy" ]
@@ -31,6 +32,7 @@ tags = [ "code", "internet", "censorship", "grigori", "privacy" ]
 - [若者に金を払い彼らをスパイするアプリをインストールさせるFacebook  |  TechCrunch Japan](https://jp.techcrunch.com/2019/01/31/2019-01-29-facebook-project-atlas/)
     - [Apple、Googleの証明書乱用を受け社内iOSアプリを使用禁止に  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/01/2019-01-31-apple-ban-google-data-app/)
     - [グーグルの社内用iOSアプリも使用禁止に--規約違反で - CNET Japan](https://japan.cnet.com/article/35132111/)
+    - [Apple、スパイ活動制裁の後Facebookの社内アプリを復活  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/01/2019-01-31-mess-with-the-cook/)
 - [Amazonのただでさえ透明でない透明性レポートがいっそう不透明になった  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/01/2019-01-31-amazon-government-data-demands/)
 - [安物のIoT機器は、たとえゴミ箱に叩き込んだあとでも持ち主を裏切り続ける  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/01/2019-01-30-cheap-internet-of-things-gadgets-betray-you-even-after-you-toss-them-in-the-trash/)
 
