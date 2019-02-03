@@ -1,6 +1,7 @@
 +++
 title = "Go 言語で画像のサイズを変更する"
 date = "2019-02-02T17:54:21+09:00"
+update = "2019-02-03T11:30:42+09:00"
 description = " ちょっと画像データを弄る機会があったので，やったことを忘れないうちに記しておく。"
 image = "/images/attention/go-logo_blue.png"
 tags = [ "golang", "programming", "image" ]
@@ -73,9 +74,11 @@ func main() {
 }
 ```
 
-[`image`]`.Decode()` 関数で画像データをデコードし [`image`]`.Image.Bounds()` 関数で画像全体の矩形情報（[`image`]`.Rectangle`）を取得する。
+[`image`]`.Decode()` 関数で画像データをデコードし [`image`]`.Image.Bounds()` 関数で画像全体の矩形情報（[`image`]`.Rectangle`）を取得する[^img1]。
 ポイントは [`image`]`.Decode()` 関数が factory method のように機能していて画像フォーマットを意識する必要はないという点。
 ではどこで依存（dependency）を注入しているかというと，パッケージのインポート
+
+[^img1]: [`image`]`.Image` は interface 型で抽象化されている。
 
 ```go
 import (
@@ -89,7 +92,7 @@ import (
 この場合は GIF, JPEG, PNG 形式に対応していることを示す。
 もちろんこれらと互換性のある独自パッケージを使ってもよい[^register1]。
 
-[^register1]: 厳密に言うと [`image`]`.RegisterFormat()` 関数で登録する。例えば [`image/jpeg`] パッケージの場合は `init()` 関数内で [`image`]`.RegisterFormat()` 関数が呼ばれている。
+[^register1]: 厳密に言うと [`image`]`.RegisterFormat()` 関数で登録する。例えば [`image/jpeg`] パッケージの場合は `init()` 関数内で [`image`]`.RegisterFormat()` 関数が呼ばれている。このようなデザイン・パターンは [Go 言語]ではよく見られるので覚えておくとよいだろう（参考：[Hash 値を計算するパッケージを作ってみた]({{< relref "./calculating-hash-value.md" >}})）。
 
 では早速
 
@@ -210,7 +213,7 @@ func main() {
 その次に [`image`]`.NewRGBA()` 関数で Width/Height を半分のサイズにした空のインスタンスを生成し [`draw`]`.CatmullRom.Scale()` 関数で変換した画像データを流し込んでいる。
 その後ファイルに出力するのだが，出力するフォーマットごとに異なる `Encode()` 関数になっている。
 
-[`draw`]`.CatmullRom` はサイズ変換するための [`draw`]`.Kernel` 型インスタンスで，以下のように定義されている。
+[`draw`]`.CatmullRom` はサイズ変換のための [`draw`]`.Scaler` インタフェースを持つ [`draw`]`.Kernel` 型インスタンスで，以下のように定義されている。
 
 ```go
 var (
@@ -229,20 +232,8 @@ var (
 )
 ```
 
-他にも [`draw`]`.BiLinear` インスタンスが定義されている。
-
-```go
-var (
-    // BiLinear is the tent kernel. It is slow, but usually gives high quality
-    // results.
-    BiLinear = &Kernel{1, func(t float64) float64 {
-        return 1 - t
-    }}
-)
-```
-
-速度優先なら [`draw`]`.BiLinear`，品質優先なら [`draw`]`.CatmullRom` というところだろうか。
-もちろん自前で [`draw`]`.Kernel` 型（もしくは [`draw`]`.Scaler` インタフェースを持つ）インスタンスを作ってもいいだろうが。
+[`draw`]`.CatmullRom` はどちらかというと品質優先の [`draw`]`.Scaler` のようだが，他にもいくつか定義済みのインスタンスがある。
+性能について詳しくは[次回の記事]({{< relref "./resize-image-2.md" >}} "Go 言語で画像のサイズ変更：定義済み draw.Scaler の比較")を参考にしてほしい。
 
 では，実際に動かしてみよう。
 
