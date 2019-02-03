@@ -109,21 +109,21 @@ $ gpg --export-ownertrust > trust.txt
 準備ができたところでインストールを始めよう。
 ダウンロードしたインストーラを起動する（スクリーンショットが古いがご容赦）。
 
-{{< fig-img src="https://farm2.staticflickr.com/1502/24974542243_4e83a1d7b1.jpg" title="Installing GnuPG for Windows (1)" link="https://www.flickr.com/photos/spiegel/24974542243/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/24974542243_m.png" title="Installing GnuPG for Windows (1)" link="https://photo.baldanders.info/flickr/24974542243/" >}}
 
 英語だけど無問題。
 ほとんど選択肢はないので `[Next]` ボタンで先に進めていけばいい。
 
-{{< fig-img src="https://farm2.staticflickr.com/1545/25482633892_d9dc023e1a.jpg" title="Installing GnuPG for Windows (2)" link="https://www.flickr.com/photos/spiegel/25482633892/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/25482633892_m.png" title="Installing GnuPG for Windows (2)" link="https://photo.baldanders.info/flickr/25482633892/" >}}
 
-{{< fig-img src="https://farm2.staticflickr.com/1695/24974542073_20408e1079.jpg" title="Installing GnuPG for Windows (3)" link="https://www.flickr.com/photos/spiegel/24974542073/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/24974542073_m.png" title="Installing GnuPG for Windows (3)" link="https://photo.baldanders.info/flickr/24974542073/" >}}
 
 <!--
-{{< fig-img src="https://farm2.staticflickr.com/1472/25305629970_6f5dcb4ef0.jpg" title="Installing GnuPG for Windows (4)" link="https://www.flickr.com/photos/spiegel/25305629970/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/25305629970_m.png" title="Installing GnuPG for Windows (4)" link="https://photo.baldanders.info/flickr/25305629970/" >}}
 
 インストール先のフォルダを変えたい場合はここで変更する。
 
-{{< fig-img src="https://farm2.staticflickr.com/1449/25601226555_b07b73e7fa.jpg" title="Installing GnuPG for Windows (5)" link="https://www.flickr.com/photos/spiegel/25601226555/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/25601226555_o.png" title="Installing GnuPG for Windows (5)" link="https://photo.baldanders.info/flickr/25601226555/" >}}
 
 -->
 
@@ -134,9 +134,9 @@ $ gpg --export-ownertrust > trust.txt
 では続きをどうぞ。
 {{% /div-box %}}
 
-{{< fig-img src="https://farm2.staticflickr.com/1633/25575126816_f090b537bf.jpg" title="Installing GnuPG for Windows (6)" link="https://www.flickr.com/photos/spiegel/25575126816/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/25575126816_m.png" title="Installing GnuPG for Windows (6)" link="https://photo.baldanders.info/flickr/25575126816/" >}}
 
-{{< fig-img src="https://farm2.staticflickr.com/1587/24970753344_5da4faf427.jpg" title="Installing GnuPG for Windows (7)" link="https://www.flickr.com/photos/spiegel/24970753344/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/24970753344_m.png" title="Installing GnuPG for Windows (7)" link="https://photo.baldanders.info/flickr/24970753344/" >}}
 
 `[Finish]` ボタンを押してインストール完了。
 
@@ -203,7 +203,7 @@ $ gpg --import-ownertrust trust.txt
 
 秘密鍵（`secring.gpg`）のインポートでは鍵の数だけパスフレーズの入力をを要求される。
 
-{{< fig-img flickr="true" src="https://farm2.staticflickr.com/1507/25316582890_9ff8c3d2ea_o.png" title="GnuPG pinentry" link="https://www.flickr.com/photos/spiegel/25316582890/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/25316582890_m.png" title="GnuPG pinentry" link="https://photo.baldanders.info/flickr/25316582890/" >}}
 
 このプロンプト画面（Pinentry）については[次回]に `gpg-agent` の話と絡めて説明する。
 

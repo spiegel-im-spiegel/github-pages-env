@@ -32,7 +32,7 @@ title = "行末の空白文字を削除する"
 行末の空白を一気に削除したいならコマンドパレットで `whitespace` を検索すると “Remove Trailing Whitespace” があるので，これを実行する。
 保存するたびに自動的に行末の空白文字を削除したいのであれば [whitespace] の Settings にある “Remove Trailing Whitespace” を有効にする。
 
-{{< fig-img flickr="true" src="https://farm1.staticflickr.com/778/23214924646_fb830df03b.jpg" title="settings for whitespace (ATOM)" link="https://www.flickr.com/photos/spiegel/23214924646/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/23214924646_m.png" title="settings for whitespace (ATOM)" link="https://photo.baldanders.info/flickr/23214924646/" >}}
 
 おまけだが，同じ Settings 画面で “Ensure Single Trailing Newline” を有効にすると，テキストファイル末尾が改行になっていない場合は改行を補ってくれる。
 他にもこまごまとした設定があり，しかもファイルタイプごとに設定できるようだ。

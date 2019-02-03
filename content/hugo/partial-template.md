@@ -262,7 +262,7 @@ linkedin  = "spiegelimspiegel"
 flattr    = ""
 ```
 
-{{< fig-img src="https://farm6.staticflickr.com/5779/21504929379_e29706db7c.jpg" alt="Top Page of “hugo-theme-text”" title="Top Page of “hugo-theme-text”" link="https://www.flickr.com/photos/spiegel/21504929379/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/21504929379_m.png" title="Top Page of &#34;hugo-theme-text&#34; theme" link="https://photo.baldanders.info/flickr/21504929379/" >}}
 
 記事ページでは front matter に `[author]` 項目を加える事で front matter の値が優先して表示される。
 
@@ -289,7 +289,7 @@ tags = [ "hello", "world" ]
 +++
 ```
 
-{{< fig-img src="https://farm1.staticflickr.com/718/21069070064_4a0e51cbbd.jpg" alt="Entry Page of “hugo-theme-text”" title="Entry Page of “hugo-theme-text”" link="https://www.flickr.com/photos/spiegel/21069070064/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/21069070064_m.png" title="Entry Page of &#34;hugo-theme-text&#34; theme" link="https://photo.baldanders.info/flickr/21069070064/" >}}
 
 他にも favicon や Disqus などを設置可能。
 詳しくは [`README.md`](https://github.com/spiegel-im-spiegel/hugo-theme-text#simple-text-hugo-theme) を参照のこと。

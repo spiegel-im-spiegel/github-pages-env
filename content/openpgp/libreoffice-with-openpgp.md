@@ -86,33 +86,33 @@ Linux 版では [LibreOffice] 5.4 から [OpenPGP] 署名とその検証が可�
 
 まずメニューから「ファイル(F)」→「デジタル署名(Q)」→「デジタル署名(R)...」と辿っていく。
 
-{{< fig-img src="https://farm5.staticflickr.com/4657/26181610768_acaa5d2e1c_o.png" title="LibreOffice: digital sign" link="https://www.flickr.com/photos/spiegel/26181610768/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/26181610768_m.png" title="LibreOffice: digital sign" link="https://photo.baldanders.info/flickr/26181610768/" >}}
 
 すると以下のウィンドウが表示される。
 
-{{< fig-img src="https://farm5.staticflickr.com/4627/40071712341_13c8f8c2b7.jpg" title="List of digital sigs (1)" link="https://www.flickr.com/photos/spiegel/40071712341/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/40071712341_m.png" title="List of digital sigs (1)" link="https://photo.baldanders.info/flickr/40071712341/" >}}
 
 ここで「ドキュメントに署名（D）...」ボタンを押すと署名可能な鍵のリストが表示される。
 
-{{< fig-img src="https://farm5.staticflickr.com/4747/26198104318_ced43cb690.jpg" title="Select key" link="https://www.flickr.com/photos/spiegel/26198104318/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/26198104318_m.png" title="Select key" link="https://photo.baldanders.info/flickr/26198104318/" >}}
 
 [OpenPGP] 鍵であれば「支払期日」（何で？）の項目が “OpenPGP” と表記されている筈である（X.509 鍵なら “X.509” と表記される）。
 鍵を選択して「署名」ボタンを押すとデジタル署名が付与される[^pe1]。
 
 [^pe1]: 必要に応じて `gpg-agent` が Pinentry を起動して PIN またはパスフレーズの入力を促す。
 
-{{< fig-img src="https://farm5.staticflickr.com/4741/40071712521_f1dbbfb8c3.jpg" title="List of digital sigs (2)" link="https://www.flickr.com/photos/spiegel/40071712521/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/40071712521_m.png" title="List of digital sigs (2)" link="https://photo.baldanders.info/flickr/40071712521/" >}}
 
 デジタル署名は複数付与できる。
 署名が完了したら「閉じる」ボタンを押して作業を終える。
 
 正しいデジタル署名が付与されていれば，編集画面が以下のようになる筈である。
 
-{{< fig-img src="https://farm5.staticflickr.com/4674/39172914465_05e85ab216.jpg" title="Valid sig" link="https://www.flickr.com/photos/spiegel/39172914465/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/39172914465_m.png" title="Valid sig" link="https://photo.baldanders.info/flickr/39172914465/" >}}
 
 またこの状態で編集作業を行うと以下の表示になる。
 
-{{< fig-img src="https://farm5.staticflickr.com/4724/40038567142_c99e4f0848.jpg" title="Editing" link="https://www.flickr.com/photos/spiegel/40038567142/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/40038567142_m.png" title="Editing" link="https://photo.baldanders.info/flickr/40038567142/" >}}
 
 ドキュメントの保存を実行するとデジタル署名が削除されるのでご注意を。
 
@@ -120,11 +120,11 @@ Linux 版では [LibreOffice] 5.4 から [OpenPGP] 署名とその検証が可�
 
 文書を「名前を付けて保存」すると以下のオプションが表示される。
 
-{{< fig-img src="https://farm5.staticflickr.com/4650/40072008511_1b320717d5.jpg" title="Save as..." link="https://www.flickr.com/photos/spiegel/40072008511/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/40072008511_m.png" title="Save as..." link="https://photo.baldanders.info/flickr/40072008511/" >}}
 
 ここで「GPGキーで暗号化する」をチェックして保存すると暗号化可能な鍵のリストが表示されて暗号化できるっぽいんだけど，実際にやってみると
 
-{{< fig-img src="https://farm5.staticflickr.com/4669/40072008591_44d719908c.jpg" title="Encryption error" link="https://www.flickr.com/photos/spiegel/40072008591/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/40072008591_m.png" title="Encryption error" link="https://photo.baldanders.info/flickr/40072008591/" >}}
 
 となって上手くいかない。
 自分の鍵でもダメだったので，まだ機能が組み込まれてないとか？

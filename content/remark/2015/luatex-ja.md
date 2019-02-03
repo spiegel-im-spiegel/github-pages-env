@@ -243,7 +243,7 @@ $ tlmgr update --self --all
 どういうわけか `hyperxmp` パッケージを使ってもいわゆる「タグ入り PDF」として Adobe Reader で認識されない。
 [Evince](https://wiki.gnome.org/Apps/Evince) では著作権情報は読み取れているみたい。
 
-{{< fig-img src="https://farm1.staticflickr.com/756/21544622778_b7fa689c47_o.png" title="property" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/21544622778_m.png" title="PDF property (Evince)" link="https://photo.baldanders.info/flickr/21544622778/" >}}
 
 ###  参考文献の管理
 

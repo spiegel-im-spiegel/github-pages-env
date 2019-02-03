@@ -33,7 +33,7 @@ tags        = [ "golang", "programming", "package", "api", "curl", "language", "
 
 Web 画面はこんな感じ。
 
-{{< fig-img src="https://farm5.staticflickr.com/4459/37176009973_5026b4c303.jpg" title="codic service" link="https://www.flickr.com/photos/spiegel/37176009973/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37176009973_m.png" title="codic service" link="https://photo.baldanders.info/flickr/37176009973/" >}}
 
 あの時このサービスのことを知っていたら[メソッド名に `regist`]({{< ref "/remark/2017/04/regist-dose-not-exist.md" >}} "“regist” という単語は存在しない") とか付けようとして赤っ恥をかかなくて済んだのに。
 とほほ。

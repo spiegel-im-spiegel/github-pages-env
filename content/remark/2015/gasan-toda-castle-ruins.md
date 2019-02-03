@@ -42,18 +42,17 @@ title = "オトナの社会科見学： 中秋の月山富田城跡"
 さて，今回は割と近場なので（四国の宇和島とかに比べればね）昼前には現地に到着。
 早速，山中鹿介くんがお出迎え。
 
-{{< fig-img flickr="true" src="https://farm6.staticflickr.com/5653/21136614083_b4b6e07de7.jpg" alt="鹿之助くん自販機" title="鹿之助くん自販機" link="https://www.flickr.com/photos/spiegel/21136614083/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/21136614083_m.jpg" title="鹿之助くん自販機" link="https://photo.baldanders.info/flickr/21136614083/" >}}
 
 道の駅でブラブラしたあと
 
-{{< fig-gen >}}
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/spiegel/21570763869/" title="機織り機械"><img src="https://farm1.staticflickr.com/701/21570763869_20412d7f28_m.jpg" width="240" height="240" alt="機織り機械"></a>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/spiegel/21134920044/" title="鼻水出た！"><img src="https://farm1.staticflickr.com/701/21134920044_323a903cff_m.jpg" width="240" height="240" alt="鼻水出た！"></a>
-{{< /fig-gen >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/21570763869_m.jpg" title="機織り機械" link="https://photo.baldanders.info/flickr/21570763869/" >}}
+
+{{< fig-img src="https://photo.baldanders.info/flickr/image/21134920044_m.jpg" title="鼻水出た！" link="https://photo.baldanders.info/flickr/21134920044/" >}}
 
 さっそく「登山」ですよ。
 
-{{< fig-img flickr="true" src="https://farm1.staticflickr.com/590/21745986372_5645414e13.jpg" alt="月山登るよ" title="月山登るよ" link="https://www.flickr.com/photos/spiegel/21745986372/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/21745986372_m.jpg" title="月山登るよ" link="https://photo.baldanders.info/flickr/21745986372/" >}}
 
 まずは千畳平へ。
 着いた途端，いきなり記憶がフラッシュバックした。
@@ -69,19 +68,20 @@ title = "オトナの社会科見学： 中秋の月山富田城跡"
 あとはもう何見ても子供の頃の思い出とリンクしてしまう。
 鹿介くんの像とか石垣[^b] とか本丸からの眺めとかも。
 
-{{< fig-gen >}}
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/spiegel/21767034061/" title="尼子神社"><img src="https://farm1.staticflickr.com/647/21767034061_35c486489c_m.jpg" width="240" height="240" alt="尼子神社"></a>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/spiegel/21757632485/" title="鹿之助くんの像"><img src="https://farm6.staticflickr.com/5710/21757632485_d5ef157fe9_m.jpg" width="240" height="240" alt="鹿之助くんの像"></a><br>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/spiegel/21570092130/in/photostream/" title="二の丸"><img src="https://farm6.staticflickr.com/5678/21570092130_d9e075f158_m.jpg" width="192" height="240" alt="二の丸"></a>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/spiegel/21732002826/in/photostream/" title="本丸からの眺望"><img src="https://farm1.staticflickr.com/696/21732002826_0b62cf6850_m.jpg" width="240" height="240" alt="本丸からの眺望"></a>
-{{< /fig-gen >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/21767034061_m.jpg" title="尼子神社" link="https://photo.baldanders.info/flickr/21767034061/" >}}
+
+{{< fig-img src="https://photo.baldanders.info/flickr/image/21757632485_m.jpg" title="鹿之助くんの像" link="https://photo.baldanders.info/flickr/21757632485/" >}}
+
+{{< fig-img src="https://photo.baldanders.info/flickr/image/21570092130_m.jpg" title="二の丸" link="https://photo.baldanders.info/flickr/21570092130/" >}}
+
+{{< fig-img src="https://photo.baldanders.info/flickr/image/21732002826_m.jpg" title="本丸からの眺望" link="https://photo.baldanders.info/flickr/21732002826/" >}}
 
 [^b]: ちなみに石垣マニアに言わせると，ここの石垣は「普通」らしい（笑）
 
 別の記憶とリンクしているものもあった。
 山中御殿跡。
 
-{{< fig-img flickr="true" src="https://farm1.staticflickr.com/575/21135364294_b0d24d89b0.jpg" alt="兵どもが..." title="兵どもが..." link="https://www.flickr.com/photos/spiegel/21135364294/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/21135364294_m.jpg" title="兵どもが..." link="https://photo.baldanders.info/flickr/21135364294/" >}}
 
 この光景では別の思い出がフラッシュバックした。
 実はここ20代の終わりにお見合いで来たことがあるのだ。
@@ -98,24 +98,23 @@ title = "オトナの社会科見学： 中秋の月山富田城跡"
 
 今回の個人的ベストショット。
 
-{{< fig-gen >}}
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/spiegel/21767521961/" title="御殿の石垣"><img src="https://farm1.staticflickr.com/623/21767521961_3679fd1950_m.jpg" width="240" height="240" alt="御殿の石垣"></a>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/spiegel/21767521211/" title="山中御殿の大もみじ"><img src="https://farm1.staticflickr.com/571/21767521211_ce16d77f78_m.jpg" width="240" height="240" alt="山中御殿の大もみじ"></a>
-{{< /fig-gen >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/21767521961_m.jpg" title="御殿の石垣" link="https://photo.baldanders.info/flickr/21767521961/" >}}
+
+{{< fig-img src="https://photo.baldanders.info/flickr/image/21767521211_m.jpg" title="山中御殿の大もみじ" link="https://photo.baldanders.info/flickr/21767521211/" >}}
 
 そうそう。月山のあちらこちらに猫溜まりがあってなかなか楽しかった。
 
-{{< fig-gen >}}
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/spiegel/21571254299/" title="猫まみれ"><img src="https://farm6.staticflickr.com/5773/21571254299_9d5509aebc.jpg" width="500" height="500" alt="猫まみれ"></a><br>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/spiegel/21758108155/" title="猫まみれ"><img src="https://farm6.staticflickr.com/5631/21758108155_11a73b46e6_m.jpg" width="240" height="240" alt="猫まみれ"></a>
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/spiegel/21135405444/" title="猫まみれ"><img src="https://farm6.staticflickr.com/5744/21135405444_b0b600b47f_n.jpg" width="263" height="320" alt="猫まみれ"></a>
-{{< /fig-gen >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/21571254299_m.jpg" title="猫まみれ" link="https://photo.baldanders.info/flickr/21571254299/" >}}
+
+{{< fig-img src="https://photo.baldanders.info/flickr/image/21758108155_m.jpg" title="猫まみれ" link="https://photo.baldanders.info/flickr/21758108155/" >}}
+
+{{< fig-img src="https://photo.baldanders.info/flickr/image/21135405444_m.jpg" title="猫まみれ" link="https://photo.baldanders.info/flickr/21135405444/" >}}
 
 月山でひととおり遊んでたら15時になってた。
 昼飯食ってないよ。
 ちうわけで，[どじょう亭](http://www.y-engeikan.com/04_ryouri.html)へ。
 
-{{< fig-img flickr="true" src="https://farm1.staticflickr.com/698/21746465042_21f06374f4.jpg" alt="どぜう" title="どぜう" link="https://www.flickr.com/photos/spiegel/21746465042/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/21746465042_m.jpg" title="どぜう" link="https://photo.baldanders.info/flickr/21746465042/" >}}
 
 いや正直に言って，どじょうどうなの？ って思ったけど，美味かったね。
 「まるごと安来丼」はお薦め。
@@ -125,10 +124,10 @@ title = "オトナの社会科見学： 中秋の月山富田城跡"
 
 隣の土産物屋でもさんざん遊んだ挙句，夕方になったので，[富田山荘で入浴](http://fureai.shikanosuke.net/gassan/tdhigaeri.htm)。
 
-{{< fig-img flickr="true" src="https://farm6.staticflickr.com/5796/21746467032_932719aa9e.jpg" alt="風呂上がりの木次牛乳" title="風呂上がりの木次牛乳" link="https://www.flickr.com/photos/spiegel/21746467032/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/21746467032_m.jpg" title="風呂上がりの木次牛乳" link="https://photo.baldanders.info/flickr/21746467032/" >}}
 
 外に出ると中秋の名月がお出ましの時刻になっていたのでした。
 
-{{< fig-img flickr="true" src="https://farm6.staticflickr.com/5741/21571253159_164dd1783b.jpg" alt="旅先で中秋の名月" title="旅先で中秋の名月" link="https://www.flickr.com/photos/spiegel/21571253159/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/21571253159_m.jpg" title="旅先で中秋の名月" link="https://photo.baldanders.info/flickr/21571253159/" >}}
 
 いやぁ，今回も堪能しました。

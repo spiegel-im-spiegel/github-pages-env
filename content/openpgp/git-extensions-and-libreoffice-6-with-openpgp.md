@@ -37,20 +37,20 @@ tags        = [ "tools", "git-extensions", "libreoffice", "openpgp", "gnupg" ]
 
 [^v1]: 一部文字化けなのはご容赦。文字化けしてるのは時差表示の部分なのだが，うちの Windows 環境ではこの部分を Shift-JIS で吐き出すので文字化けしてしまうのだ。 `display-charset` オプションを弄ってもダメぽい。コマンドプロンプトや NYAGOS で使うぶんには問題ないんだけどねぇ。
 
-{{< fig-img src="https://farm5.staticflickr.com/4609/39343646184_55ecfa512f.jpg" title="GitEx: gpg validation" link="https://www.flickr.com/photos/spiegel/39343646184/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/39343646184_m.png" title="GitEx: gpg validation" link="https://photo.baldanders.info/flickr/39343646184/" >}}
 
 “GPG” タブを表示させるには設定で「GPG 情報を表示」にチェックを入れる。
 
-{{< fig-img src="https://farm5.staticflickr.com/4743/25182287037_1396a310bd.jpg" title="GitEx: setting" link="https://www.flickr.com/photos/spiegel/25182287037/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/25182287037_m.png" title="GitEx: setting" link="https://photo.baldanders.info/flickr/25182287037/" >}}
 
 更にコミットやタグ作成時に電子署名を付与することもできる。
 コミット時はこんな感じ。
 
-{{< fig-img src="https://farm5.staticflickr.com/4632/40021720412_f00cd337af.jpg" title="GitEx: commit" link="https://www.flickr.com/photos/spiegel/40021720412/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/40021720412_m.png" title="GitEx: commit" link="https://photo.baldanders.info/flickr/40021720412/" >}}
 
 タグ作成時はこんな感じ。
 
-{{< fig-img src="https://farm5.staticflickr.com/4662/25182287227_6e94fcd134_o.png" title="GitEx: create tag" link="https://www.flickr.com/photos/spiegel/25182287227/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/25182287227_m.png" title="GitEx: create tag" link="https://photo.baldanders.info/flickr/25182287227/" >}}
 
 [Git] と [GnuPG] を連携する方法については以下を参照のこと。
 
@@ -66,7 +66,7 @@ tags        = [ "tools", "git-extensions", "libreoffice", "openpgp", "gnupg" ]
 これも色々と機能追加・改善があるが，この記事ではやはり OpenPGP 署名について。
 Linux 版では以前からできてたそうだがバージョン 6 で Windows や macOS でもできるようになった。
 
-{{< fig-img src="https://farm5.staticflickr.com/4657/26181610768_acaa5d2e1c_o.png" title="LibreOffice: digital sign" link="https://www.flickr.com/photos/spiegel/26181610768/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/26181610768_m.png" title="LibreOffice: digital sign" link="https://photo.baldanders.info/flickr/26181610768/" >}}
 
 つか，うまくいかないんだけど！
 
@@ -76,7 +76,7 @@ GnuPG 側と上手く連携できていれば「証明書の選択」ダイア�
 
 でもダメなんだよねー。
 
-{{< fig-img src="https://farm5.staticflickr.com/4604/40055187561_2ceefb559b.jpg" title="Empty" link="https://www.flickr.com/photos/spiegel/40055187561/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/40055187561_m.png" title="Empty" link="https://photo.baldanders.info/flickr/40055187561/" >}}
 
 何がいけないんだろう。
 誰かやり方を教えてください。

@@ -139,21 +139,21 @@ $ git merge -S branch
 
 たとえばこんな感じに表示される。
 
-{{< fig-img src="https://farm2.staticflickr.com/1671/26315000570_ba79ae50b1.jpg" title="OpenPGP Key in GitHub (4)" link="https://www.flickr.com/photos/spiegel/26315000570/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/26315000570_m.png" title="OpenPGP Key in GitHub (4)" link="https://photo.baldanders.info/flickr/26315000570/" >}}
 
 これを有効にするには [GitHub] に OpenPGP 公開鍵を登録して署名検証可能にしなければならない。
 公開鍵の登録は設定画面で行う。
 
-{{< fig-img src="https://farm2.staticflickr.com/1679/26494073882_e53d80376b.jpg" title="OpenPGP Key in GitHub (1)" link="https://www.flickr.com/photos/spiegel/26494073882/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/26494073882_m.png" title="OpenPGP Key in GitHub (1)" link="https://photo.baldanders.info/flickr/26494073882/" >}}
 
 この画面で「New GPG key」ボタンを押すと以下の入力画面になる。
 
-{{< fig-img src="https://farm2.staticflickr.com/1598/26520705641_81e21edd32.jpg" title="OpenPGP Key in GitHub (2)" link="https://www.flickr.com/photos/spiegel/26520705641/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/26520705641_m.png" title="OpenPGP Key in GitHub (2)" link="https://photo.baldanders.info/flickr/26520705641/" >}}
 
 ここに公開鍵の armor テキストを貼り付けて「Add GPG key」ボタンを押せばよい。
 これで OpenPGP 公開鍵の登録は完了である。
 
-{{< fig-img src="https://farm2.staticflickr.com/1493/26586667165_9b7d41f16d.jpg" title="OpenPGP Key in GitHub (4)" link="https://www.flickr.com/photos/spiegel/26586667165/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/26586667165_m.png" title="OpenPGP Key in GitHub (3)" link="https://photo.baldanders.info/flickr/26586667165/" >}}
 
 なお公開鍵の armor テキストは以下のコマンドで取得できる。
 

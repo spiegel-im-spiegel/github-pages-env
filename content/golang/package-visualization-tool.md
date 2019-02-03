@@ -76,7 +76,7 @@ digraph main{
 C:>goviz.exe -i github.com/hirokidaichi/goviz | dot.exe -Tpng -o goviz.png
 ```
 
-{{< fig-img flickr="true" src="https://farm6.staticflickr.com/5782/21563262573_630b0eed8a.jpg" alt="output by goviz + graphviz" title="output by goviz + graphviz" link="https://www.flickr.com/photos/spiegel/21563262573/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/21563262573_m.png" title="output by goviz + graphviz" link="https://photo.baldanders.info/flickr/21563262573/" >}}
 
 ## パッケージ依存度の評価
 

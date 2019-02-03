@@ -67,33 +67,33 @@ LICENSE       lua53.dll     nyagos.d/     readme.md
 
 以降，覚え書きで [ConEmu] の設定を晒しておく。
 
-{{< fig-img flickr="true" src="https://farm1.staticflickr.com/716/22385157049_4c7af6ef0a.jpg" alt="ConEmu Setting" title="ConEmu Setting" link="https://www.flickr.com/photos/spiegel/22385157049/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/22385157049_m.png" title="ConEmu Setting" link="https://photo.baldanders.info/flickr/22385157049/" >}}
 
 フォントは既定のままで問題ない（もちろん好きなフォントに変えてもよい）。
 ただし，日本語を使う場合は “Monospace” のチェックは必ず外すこと。
 
-{{< fig-img flickr="true" src="https://farm6.staticflickr.com/5792/21949162924_ba2742c857.jpg" alt="ConEmu Setting" title="ConEmu Setting" link="https://www.flickr.com/photos/spiegel/21949162924/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/21949162924_m.png" title="ConEmu Setting" link="https://photo.baldanders.info/flickr/21949162924/" >}}
 
 “Center console in ConEmu workspace” にチェックを入れて数ピクセル程度アキを入れるとウィンドウ境界付近の窮屈感が解消される。
 おススメ。
 
-{{< fig-img flickr="true" src="https://farm1.staticflickr.com/591/22583116011_9e109f185e.jpg" alt="ConEmu Setting" title="ConEmu Setting" link="https://www.flickr.com/photos/spiegel/22583116011/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/22583116011_m.png" title="ConEmu Setting" link="https://photo.baldanders.info/flickr/22583116011/" >}}
 
 Windows Explorer の context menu 設定。
 上段の “ConEmu Here” を登録（register）すると， context menu を開いたフォルダで [ConEmu] を起動してくれる。
 
-{{< fig-img flickr="true" src="https://farm6.staticflickr.com/5630/22583116021_222c1acaee.jpg" alt="ConEmu Setting" title="ConEmu Setting" link="https://www.flickr.com/photos/spiegel/22583116021/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/22583116021_m.png" title="ConEmu Setting" link="https://photo.baldanders.info/flickr/22583116021/" >}}
 
 [ConEmu] 起動時の状態。
 “Auto save/restore opened tabs” を選択すると，タブの状態を保持してくれる。
 
-{{< fig-img flickr="true" src="https://farm1.staticflickr.com/644/22575095305_4d0c7752e6.jpg" alt="ConEmu Setting" title="ConEmu Setting" link="https://www.flickr.com/photos/spiegel/22575095305/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/22575095305_m.png" title="ConEmu Setting" link="https://photo.baldanders.info/flickr/22575095305/" >}}
 
 [ConEmu] 起動時の環境設定。
 コードページの設定（`chcp` コマンド）もここでできるし alias の設定もできたりする。
 ただし，環境設定は shell 呼び出し時にも個別にできるので，ここでは [ConEmu] 全体の設定に限定すべきだろう。
 
-{{< fig-img flickr="true" src="https://farm1.staticflickr.com/698/22388493089_73bb752b56.jpg" alt="ConEmu Setting" title="ConEmu Setting" link="https://www.flickr.com/photos/spiegel/22388493089/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/22388493089_m.png" title="ConEmu Setting" link="https://photo.baldanders.info/flickr/22388493089/" >}}
 
 Shell 呼び出しの設定例。
 ここでは [MSYS2] の bash を呼んでいる。

@@ -27,7 +27,7 @@ title = "また Windows 10 にヤラレタ（KB3112343 の恐怖）"
 
 これ見て慌てて自宅のマシンをチェックしたら，既に遅かった。
 
-{{< fig-img src="https://farm1.staticflickr.com/630/23083745173_dddce0d481.jpg" title="windows update 201512" link="https://www.flickr.com/photos/spiegel/23083745173/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/23083745173_m.png" title="windows update 201512" link="https://photo.baldanders.info/flickr/23083745173/" >}}
 
 Windows Update にこういうの混ぜないで欲しいなぁ。
 しょうがない。
@@ -37,7 +37,7 @@ Windows Update にこういうの混ぜないで欲しいなぁ。
 
 まずはコントロールパネルから「プログラムと機能」を表示し，その中の「インストールされた更新プログラムを表示」する。
 
-{{< fig-img src="https://farm1.staticflickr.com/763/23082675514_d35d3628e3.jpg" title="windows update 201512" link="https://www.flickr.com/photos/spiegel/23082675514/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/23082675514_m.png" title="windows update 201512a" link="https://photo.baldanders.info/flickr/23082675514/" >}}
 
 これで今までインストールした Windows Update の一覧が表示されるので，この中から以下の項目があればアンインストールする。
 
@@ -54,18 +54,18 @@ Windows Update にこういうの混ぜないで欲しいなぁ。
 次にコントロールパネルから「Windows Update」を開く。
 利用可能な更新プログラムの中に「Windows 10 にアップグレード」の文言のある項目や上に挙げた KB3112343 等の更新プログラムがあれば全て「非表示」にする。
 
-{{< fig-img src="https://farm6.staticflickr.com/5674/23684736236_3a5b44e179.jpg" title="windows update 201512" link="https://www.flickr.com/photos/spiegel/23684736236/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/23684736236_m.png" title="windows update 201512b" link="https://photo.baldanders.info/flickr/23684736236/" >}}
 
 トドメにローカル・グループ・ポリシーを変更する。
 今度は `gpedit.msc` を起動する（起動の方法はご随意に，多分管理者権限が必要）。
 
 起動したら「コンピュータの構成」→「管理用テンプレート」→「Windows コンポーネント」→「Windows Update」を開く。
 
-{{< fig-img src="https://farm1.staticflickr.com/655/23343726479_f484fe8914.jpg" title="local group policy editor" link="https://www.flickr.com/photos/spiegel/23343726479/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/23343726479_m.png" title="local group policy editor" link="https://photo.baldanders.info/flickr/23343726479/" >}}
 
 右側に表示されている一覧から「Turn off the upgrade to the latest version of Windows through Windows Update」をダブルクリックで開く。
 
-{{< fig-img src="https://farm1.staticflickr.com/637/23685672316_5cd228bfc0.jpg" title="Turn off the upgrade to the latest version of Windows through Windows Update" link="https://www.flickr.com/photos/spiegel/23685672316/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/23685672316_m.png" title="Turn off the upgrade to the latest version of Windows through Windows Update" link="https://photo.baldanders.info/flickr/23685672316/" >}}
 
 左上にある「有効(E)」のラジオボタンをチェックして「適用」ボタンを押せば OK。
 もとの画面で「Turn off the upgrade to the latest version of Windows through Windows Update」の項目が「有効」になっていれば設定が効いている。

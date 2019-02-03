@@ -153,11 +153,11 @@ $ pageant.exe id_rsa.PPK
 
 すると Pageant のプロンプトが1回， `gpg-agent` のプロンプトが2回表示され，都合3回パスフレーズを入力させられる。
 
-{{< fig-img flickr="true" src="https://farm2.staticflickr.com/1454/25558118892_045f0a9b8f_o.png" title="Pageant" link="https://www.flickr.com/photos/spiegel/25558118892/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/25558118892_m.png" title="Pagent" link="https://photo.baldanders.info/flickr/25558118892/" >}}
 
-{{< fig-img flickr="true" src="https://farm2.staticflickr.com/1485/25558116832_dd02c5d7ec_o.png" title="GnuPG Pinentry (1)" link="https://www.flickr.com/photos/spiegel/25558116832/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/25558116832_m.png" title="GnuPG Pinentry (1)" link="https://photo.baldanders.info/flickr/25558116832/" >}}
 
-{{< fig-img flickr="true" src="https://farm2.staticflickr.com/1467/25376004580_58a790993c_o.png" title="GnuPG Pinentry (2)" link="https://www.flickr.com/photos/spiegel/25376004580/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/25376004580_m.png" title="GnuPG Pinentry (2)" link="https://photo.baldanders.info/flickr/25376004580/" >}}
 
 これで秘密鍵が `private-keys-v1.d` フォルダに格納される。
 また `sshcontrol` ファイルが作成され，インポートした鍵の情報が書き込まれる。
@@ -185,7 +185,7 @@ F65BB98767E88930612C6EABC4D4918E2A573903 0
 
 これで鍵のインポートができたので [PuTTY] で実際に SSH 接続してみると
 
-{{< fig-img flickr="true" src="https://farm2.staticflickr.com/1586/25585468551_0447584a65_o.png" title="GnuPG Pinentry (3)" link="https://www.flickr.com/photos/spiegel/25585468551/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/25585468551_m.png" title="GnuPG Pinentry (3)" link="https://photo.baldanders.info/flickr/25585468551/" >}}
 
 とプロンプトが表示された。
 めでたし！
@@ -264,7 +264,6 @@ $ eval $(/usr/bin/ssh-pageant -r -a "/tmp/.ssh-pageant-$USERNAME")
 - [Windowsでのssh agent - Qiita](https://qiita.com/tsuyoshi_cho/items/79c09905ae3f192b3a0f)
 - [Big Sky :: Windowsでもssh-agentとssh-addを使ってパスフレーズ入力を省略する。](https://mattn.kaoriya.net/software/20081106192615.htm)
 - [KeeAgent – lechnology.com](https://lechnology.com/software/keeagent/) : パスワード管理ツール [KeePass] のプラグインで， [KeePass] のパスワードデータベースを使って SSH 鍵を管理し Agent 機能で SSH に鍵を渡す仕組みらしい。  [PuTTY] と [OpenSSH] に対応しているようだ
-
 
 [前回]: {{< ref "/openpgp/using-gnupg-for-windows-1.md" >}} "GnuPG for Windows インストール編"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"

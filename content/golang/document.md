@@ -88,11 +88,11 @@ C:>godoc -http=":3000"
 
 これでブラウザで http://localhost:3000/ にアクセスするとドキュメントを見ることができます。
 
-{{< fig-img src="https://farm9.staticflickr.com/8788/18026303435_7b136c64bb.jpg" alt="godoc" title="godoc" caption="godoc" link="https://www.flickr.com/photos/spiegel/18026303435/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/18026303435_m.png" title="godoc" link="https://photo.baldanders.info/flickr/18026303435/" >}}
 
 たとえば [`time`] パッケージはこんなふうに表示されます。
 
-{{< fig-img src="https://farm9.staticflickr.com/8847/18023061102_e5474f1ddc.jpg" alt="godoc: time package" title="godoc: time package" caption="godoc: time package" link="https://www.flickr.com/photos/spiegel/18023061102/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/18023061102_m.png" title="godoc: time package" link="https://photo.baldanders.info/flickr/18023061102/" >}}
 
 本家サイトと同じですね。
 
@@ -100,9 +100,9 @@ C:>godoc -http=":3000"
 
 「[機能のパッケージ化]({{< relref "packaging.md" >}})」で作った [`github.com/spiegel-im-spiegel/astrocalc`]`/modjulian` はどうなっているでしょう。
 
-{{< fig-img src="https://farm9.staticflickr.com/8831/18023689372_08795d4e8e.jpg" alt="godoc: package list" title="godoc: package list" caption="godoc: package list" link="https://www.flickr.com/photos/spiegel/18023689372/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/18023689372_m.png" title="godoc; package list" link="https://photo.baldanders.info/flickr/18023689372/" >}}
 
-{{< fig-img src="https://farm9.staticflickr.com/8835/17839022348_4315878c95.jpg" alt="godoc: modjulian package" title="godoc: modjulian package" caption="godoc: modjulian package" link="https://www.flickr.com/photos/spiegel/17839022348/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/17839022348_m.png" title="godoc: modjulian package" link="https://photo.baldanders.info/flickr/17839022348/" >}}
 
 全くコメントがないので，さすがに一覧には何もないですが，個別ページには最小限の情報が載っています。凄いなぁ。
 
@@ -171,9 +171,9 @@ func dnUnix(t time.Time) int64 {
 }
 ```
 
-{{< fig-img src="https://farm8.staticflickr.com/7732/18002607746_9990483503.jpg" alt="godoc: package list" title="godoc: package list" caption="godoc: package list" link="https://www.flickr.com/photos/spiegel/18002607746/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/18002607746_m.png" title="godoc: package list 2" link="https://photo.baldanders.info/flickr/18002607746/" >}}
 
-{{< fig-img src="https://farm9.staticflickr.com/8897/17408544863_f0f5649e32.jpg" alt="godoc: modjulian 2" title="godoc: modjulian 2" caption="godoc: modjulian 2" link="https://www.flickr.com/photos/spiegel/17408544863/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/17408544863_m.png" title="godoc: modjulian 2" link="https://photo.baldanders.info/flickr/17408544863/" >}}
 
 日本語ですみません。
 英語不得手なもので。
@@ -207,7 +207,7 @@ func ExampleDayNumber() {
 
 このようなテスト `example_test.go` を作ると，ドキュメントが以下のようになります。
 
-{{< fig-img src="https://farm6.staticflickr.com/5327/17843944479_024f2f4073.jpg" alt="godoc: modjulian 3" title="godoc: modjulian 3" caption="godoc: modjulian 3" link="https://www.flickr.com/photos/spiegel/17843944479/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/17843944479_m.png" title="godoc: modjulian 3" link="https://photo.baldanders.info/flickr/17843944479/" >}}
 
 
 もちろん，テストもできます。

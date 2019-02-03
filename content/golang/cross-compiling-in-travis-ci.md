@@ -240,7 +240,7 @@ $ ghr --username spiegel-im-spiegel --token $GITHUB_TOKEN v0.1.2 goxdist/dist/
 ちなみに `$GITHUB_TOKEN` には [GitHub] の access token をセットする。
 Access token は [GitHub] の "Settings” の "Personal access tokens” のページで取得できる。
 
-{{< fig-img flickr="true" src="https://farm2.staticflickr.com/1626/24367702843_e72366313f.jpg" title="Get access token in GitHub" link="https://www.flickr.com/photos/spiegel/24367702843/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/24367702843_m.png" title="get access token in GitHub" link="https://photo.baldanders.info/flickr/24367702843/" >}}
 
 repo の権限を付けること。
 この access token を [Travis CI] で参照するには， "Settings” の "Environment Variables” でセットすればよい。

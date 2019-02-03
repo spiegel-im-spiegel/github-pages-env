@@ -284,7 +284,7 @@ reldemo SNAPSHOT-6b96405452b3b9af8817157629fce00acb81564e
 
 [GitHub] のアクセス・トークンは "Settings” の “Developer settings” → "Personal access tokens” のページで取得できる。
 
-{{< fig-img flickr="true" src="https://farm2.staticflickr.com/1626/24367702843_e72366313f.jpg" title="Get access token in GitHub" link="https://www.flickr.com/photos/spiegel/24367702843/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/24367702843_m.png" title="get access token in GitHub" link="https://photo.baldanders.info/flickr/24367702843/" >}}
 
 repo の権限のみを付けること。
 この access token を [Travis CI] で参照するには， "Settings” の "Environment Variables” でセットすればよい。
@@ -362,7 +362,7 @@ tar -xf "$TAR_FILE" -C "$TMPDIR"
 これで全ての準備が整ったので，コミットして origin/master にマージし，タグを討つ。
 しばらくして [Travis CI] 側の処理が終われば [Releases](https://github.com/spiegel-im-spiegel/reldemo/releases "Releases · spiegel-im-spiegel/reldemo") ページに反映される。
 
-{{< fig-img src="https://farm5.staticflickr.com/4477/26327727169_039d07e64d.jpg" title="Release page in GitHub" link="https://www.flickr.com/photos/spiegel/26327727169/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/26327727169_m.png" title="Release page in GitHub" link="https://photo.baldanders.info/flickr/26327727169/" >}}
 
 Changelog も [GoReleaser] が生成している。
 コミット・ログを元に生成しているので，ログがショボいと，上の図のように， Changelog もショボくなる。

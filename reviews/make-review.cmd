@@ -1,7 +1,10 @@
 @echo off
-type B0095OEG3Y.html | amazon-item review -t review-book.html -d B0095OEG3Y -r 3 --review-date 2016-04-17
-type 4254102372.html | amazon-item review -t review-book.html -d 4254102372 -r 4 --review-date 2016-05-05
 rem ---
+rem type 4048689606.html | amazon-item review -t review-book.html -d 4048689606 -r 5 --review-date 2014-10-18
+rem type B009IMAGYQ.html | amazon-item review -t review-book.html -d B009IMAGYQ -r 4 --review-date 2015-04-26
+rem type B00KAOQXTS.html | amazon-item review -t review-book.html -d B00KAOQXTS -r 5 --review-date 2014-10-18
+rem type B0095OEG3Y.html | amazon-item review -t review-book.html -d B0095OEG3Y -r 3 --review-date 2016-04-17
+rem type 4254102372.html | amazon-item review -t review-book.html -d 4254102372 -r 4 --review-date 2016-05-05
 rem type 4797339497.html | amazon-item review -t review-book.html -d 4797339497 -r 4 --review-date 2017-11-24
 rem type 4488711022.html | amazon-item review -t review-book.html -d 4488711022 -r 4 --review-date 2017-09-18
 rem type B00DIM6BE6.html | amazon-item review -t review-book.html -d B00DIM6BE6 -r 4 --review-date 2015-04-26

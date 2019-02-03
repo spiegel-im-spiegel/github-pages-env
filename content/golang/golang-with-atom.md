@@ -57,11 +57,11 @@ $ apm install go-plus
 [go-plus] には支援ツールごとに設定項目がいくつかあるが，ほとんど既定値のままで使える。
 たとえばフォーマッタの設定画面は以下のようになっている。
 
-{{< fig-img flickr="true" src="https://farm1.staticflickr.com/735/22767398347_86d14e29f9.jpg" title="settings for gofmt@go-plus (ATOM)" link="https://www.flickr.com/photos/spiegel/22767398347/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/22767398347_m.png" title="settings for gofmt@go-plus (ATOM)" link="https://photo.baldanders.info/flickr/22767398347/" >}}
 
 コマンドパレットからも機能を呼び出しできる。
 
-{{< fig-img flickr="true" src="https://farm6.staticflickr.com/5794/22710708563_f49bdbb61c.jpg" title="menu for go-plus (ATOM)" link="https://www.flickr.com/photos/spiegel/22710708563/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/22710708563_m.png" title="menu for go-plus (ATOM)" link="https://photo.baldanders.info/flickr/22710708563/" >}}
 
 ## シンボルの定義元へジャンプする
 
@@ -91,7 +91,7 @@ $ apm install go-plus
 
 [^b]: `language` でインストール済みパッケージを検索するとメジャーな言語は大抵入っているのが分かる。
 
-{{< fig-img flickr="true" src="https://farm6.staticflickr.com/5675/22712254763_f8fb9f6735.jpg" title="Snippets for golang (ATOM)" link="https://www.flickr.com/photos/spiegel/22712254763/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/22712254763_m.png" title="Snippets for golang (ATOM)" link="https://photo.baldanders.info/flickr/22712254763/" >}}
 
 こんなよぅけ覚えれるか！ まぁとりあえず，よく使うものだけ覚えておけばいいのだろうけど。
 
