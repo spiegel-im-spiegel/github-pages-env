@@ -1,6 +1,6 @@
 +++
 date = "2015-09-11T23:59:59+09:00"
-update = "2018-12-07T17:08:24+09:00"
+update = "2019-02-04T21:52:43+09:00"
 description = "「Go 言語に関するブックマーク」に整理しきれない未整理分。"
 draft = false
 tags = ["golang", "bookmark"]
@@ -135,3 +135,4 @@ title = "Go 言語に関するブックマーク（未整理分）"
     - [Big Sky :: Golang だけでやる機械学習と画像分類](https://mattn.kaoriya.net/software/lang/go/20181108123756.htm)
 - [Goでods(Open Office Spreadsheet)ファイルを読み込む - Qiita](https://qiita.com/jp_ibis/items/506911b0deaa5ff94687)
 - [golangでi18n - Qiita](https://qiita.com/shibukawa/items/f0e4df597e62372fe7d5)
+- [Golangで日本語PDFを出力する方法 - Qiita](https://qiita.com/tobita0000/items/f0c2e69a00773cdac9c0)
