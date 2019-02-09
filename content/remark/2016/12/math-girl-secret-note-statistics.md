@@ -35,7 +35,7 @@ description = "今回はテトラちゃん回かなぁ。1,2章のユーリち�
 本当は「この世界の片隅に」を観に行こうかと思っていたのだが，さすが地元広島は大人気のようで満席になっていた。
 こりゃあ劇場で観るのは無理そうだな。
 
-{{< fig-img src="https://c3.staticflickr.com/1/547/31524625546_7ecb84c98b.jpg" title="残念。こりゃあ劇場で見るのは無理そうだな。シネコンで見る気はないし。" link="https://www.flickr.com/photos/spiegel/31524625546/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/31524625546_m.jpg" title="残念。こりゃあ劇場で見るのは無理そうだな。シネコンで見る気はないし。" link="https://photo.baldanders.info/flickr/31524625546/" >}}
 
 ということで映画は諦めて，夕方の待ち合わせ時間まで喫茶店で積ん読状態だった『[数学ガールの秘密ノート／やさしい統計]』を一気読みすることにした。
 

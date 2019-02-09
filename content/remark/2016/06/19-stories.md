@@ -210,7 +210,7 @@ Home: ********
 この場合は access token を取得してパスワードとして使えばよい。
 また master branch にプロテクトを掛けることで直接 master branch に push させないようにする手もある（pull request でのみ merge 可能にする）。
 
-{{< fig-img flickr="true" src="https://c8.staticflickr.com/8/7352/27154130743_8690a88078.jpg" title="Branch Protection" link="https://www.flickr.com/photos/spiegel/27154130743/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/27154130743_m.png" title="Branch Protection" link="https://photo.baldanders.info/flickr/27154130743/" >}}
 
 更に，前にも紹介したが， [commit に OpenPGP 署名を付与する]({{< ref "/remark/2016/04/git-commit-with-openpgp-signature.md" >}} "Git Commit で OpenPGP 署名を行う")ことで不正な merge を検出しやすくできるかもしれない。
 

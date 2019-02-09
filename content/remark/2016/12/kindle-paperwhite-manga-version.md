@@ -28,7 +28,7 @@ description = "いわゆる「サイバー・マンデー」でどえら値引�
 結構な値段だし（それでも32GBのその辺のタブレットを買うよりは安いと思うけど）。
 いわゆる「サイバー・マンデー」でどえら値引きされてたんでついポチってしまった。
 
-{{< fig-img src="https://c8.staticflickr.com/1/632/30906757983_dbdcbd6e61.jpg" title="ふっふっふ。サイバーマンデーに乗じて自分にクリスマスプレゼント。マンガ版だよ" link="https://www.flickr.com/photos/spiegel/30906757983/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/30906757983_m.jpg" title="ふっふっふ。サイバーマンデーに乗じて自分にクリスマスプレゼント。マンガ版だよ" link="https://photo.baldanders.info/flickr/30906757983/" >}}
 
 Kindle Paperwhite，ストレージ容量32GBのマンガモデル。
 これでも漫画700冊分程度らしい。

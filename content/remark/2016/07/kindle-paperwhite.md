@@ -26,12 +26,12 @@ title = "今更 Kindle Paperwhite を買う"
 いや Prime Day で半額セールやってたし，ついカッとなってやった。
 後悔はしていない。
 
-{{< fig-img flickr="true" src="https://c1.staticflickr.com/9/8380/28345048256_f167bfae08.jpg" title="Kindle paperwhite 初期化" link="https://www.flickr.com/photos/spiegel/28345048256/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/28345048256_m.jpg" title="Kindle paperwhite 初期化" link="https://photo.baldanders.info/flickr/28345048256/" >}}
 
 初期の Paperwhite は漫画の表示がイマイチという評価を見かけて， Kindle で購入している本の 2/3 以上が漫画本の私としては忌避していたのですよ。
 なので初期設定後に早速漫画を表示してみた。
 
-{{< fig-img flickr="true" src="https://c2.staticflickr.com/9/8693/28299689601_88ff149e9c.jpg" title="paperwhite で「ねこめ」" link="https://www.flickr.com/photos/spiegel/28299689601/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/28299689601_m.jpg" title="paperwhite で「ねこめ」" link="https://photo.baldanders.info/flickr/28299689601/" >}}
 
 なんだ。
 全く遜色ないじゃん。
@@ -40,14 +40,14 @@ title = "今更 Kindle Paperwhite を買う"
 
 ついでに固定レイアウトの「数学ガール」も表示してみる。
 
-{{< fig-img flickr="true" src="https://c7.staticflickr.com/9/8043/28345047646_424ca88ef5.jpg" title="paperwhite で「数学ガール」" link="https://www.flickr.com/photos/spiegel/28345047646/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/28345047646_m.jpg" title="paperwhite で「数学ガール」" link="https://photo.baldanders.info/flickr/28345047646/" >}}
 
 おおう。
 綺麗な数式である。
 
 普通の本も表示してみる。
 
-{{< fig-img flickr="true" src="https://c3.staticflickr.com/9/8626/28096077890_55d81f9bc6.jpg" title="paperwhite の明朝体" link="https://www.flickr.com/photos/spiegel/28096077890/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/28096077890_m.jpg" title="paperwhite の明朝体" link="https://photo.baldanders.info/flickr/28096077890/" >}}
 
 この Paperwhite には無印の明朝体と筑紫明朝とゴシックの3つのフォントが用意されている。
 写真の表示は無印の明朝体で，これも悪くないが，筑紫明朝のほうがいい感じである。

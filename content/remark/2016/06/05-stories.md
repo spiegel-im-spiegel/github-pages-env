@@ -48,7 +48,7 @@ USB メモリを買ってまでやる気はないので，この件はしばら�
 しかし DVD ドライブが壊れてるということは，今の環境が壊れたら復旧できないということなので，このパソコンはもう[廃棄](http://www.city.hiroshima.lg.jp/www/contents/1111215356400/index.html)だな。
 というわけで，とりあえずパソコンから HDD とメモリを抜き取った。
 
-{{< fig-img flickr="true" src="https://c1.staticflickr.com/8/7093/27191657840_3dc02bc2b3.jpg" title="使ってない古い PC から（PC の処分を前提に） HDD を抜き取った" link="https://www.flickr.com/photos/spiegel/27191657840/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/27191657840_m.jpg" title="使ってない古い PC から（PC の処分を前提に） HDD を抜き取った" link="https://photo.baldanders.info/flickr/27191657840/" >}}
 
 この写真で下のほうの HDD は IDE/ATAPI だ！ なんせ[2005年に買った「牛丼パソコン」](https://baldanders.info/spiegel/log/200510.html#d18_t1)だからな。
 幸運なことに，私は今まで自宅のマシンで HDD のトラブルに遭ったことは一度もない（仕事では何度かある）。

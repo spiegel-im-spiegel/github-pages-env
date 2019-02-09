@@ -154,7 +154,7 @@ Amazon Drive の “send-to-kindle” フォルダにぶち込めば楽々♪
 
 これって寧ろタチコマ（フチコマ）を連想してしまうのだが（笑）
 
-{{< fig-img src="https://farm5.staticflickr.com/4452/36958536904_3ed46ec081.jpg" title="天然オイルについて語るタチコマ"  link="https://www.flickr.com/photos/spiegel/36958536904/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/36958536904_m.jpg" title="天然オイルについて語るタチコマ" link="https://photo.baldanders.info/flickr/36958536904/" >}}
 
 タチコマは記憶をリンクし個体差がなくなるよう運用されているが，全体で統合されたひとつの人格（？）を持っているというわけではない。
 まぁ，後にエージェント機能により個体差も発生するのだが。

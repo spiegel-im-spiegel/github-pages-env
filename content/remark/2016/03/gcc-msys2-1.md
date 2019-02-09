@@ -56,17 +56,17 @@ MSYS の後継（？）とも言える [MSYS2] では gcc を含む開発環境�
 
 では早速 64bit 版インストーラ（今回は `msys2-x86_64-20161025.exe` を使用）でインストールを行ってみる。
 
-{{< fig-img flickr="true" src="https://farm2.staticflickr.com/1462/25210363812_7cd554cc78.jpg" title="MSYS2 Installing (1)" link="https://www.flickr.com/photos/spiegel/25210363812/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/25210363812_m.png" title="MSYS2 Installing (1)" link="https://photo.baldanders.info/flickr/25210363812/" >}}
 
 わお！ 日本語だ。
 
-{{< fig-img flickr="true" src="https://farm2.staticflickr.com/1540/25032985150_5bc67480e8.jpg" title="MSYS2 Installing (2)" link="https://www.flickr.com/photos/spiegel/25032985150/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/25032985150_m.png" title="MSYS2 Installing (2)" link="https://photo.baldanders.info/flickr/25032985150/" >}}
 
-{{< fig-img flickr="true" src="https://farm2.staticflickr.com/1594/24960938719_0dba3ebf95.jpg" title="MSYS2 Installing (3)" link="https://www.flickr.com/photos/spiegel/24960938719/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/24960938719_m.png" title="MSYS2 Installing (3)" link="https://photo.baldanders.info/flickr/24960938719/" >}}
 
-{{< fig-img flickr="true" src="https://farm2.staticflickr.com/1621/25210363972_b14f16a013.jpg" title="MSYS2 Installing (4)" link="https://www.flickr.com/photos/spiegel/25210363972/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/25235500391_m.png" title="MSYS2 Installing (5)" link="https://photo.baldanders.info/flickr/25235500391/" >}}
 
-{{< fig-img flickr="true" src="https://farm2.staticflickr.com/1473/25235500391_d1bf4d5f3b.jpg" title="MSYS2 Installing (5)" link="https://www.flickr.com/photos/spiegel/25235500391/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/25235500391_m.png" title="MSYS2 Installing (5)" link="https://photo.baldanders.info/flickr/25235500391/" >}}
 
 このまま「完了」するとターミナル（[mintty]）が起動する。
 のだが，ここでちょっと寄り道する。
@@ -158,7 +158,7 @@ esac
 ここでは [ConEmu] から [MSYS2] の bash を起動することを考える。
 以下のように Tasks 設定で [MSYS2] の bash を起動するシーケンスを設定すればよい。
 
-{{< fig-img flickr="true" src="https://farm1.staticflickr.com/698/22388493089_73bb752b56.jpg" alt="ConEmu Setting" title="ConEmu Setting" link="https://www.flickr.com/photos/spiegel/22388493089/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/22388493089_m.png" title="ConEmu Setting" link="https://photo.baldanders.info/flickr/22388493089/" >}}
 
 起動シーケンスは以下のとおり。
 

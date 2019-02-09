@@ -134,11 +134,11 @@ $$
 
 を処理すると以下のような表示になる。
 
-{{< fig-img src="https://farm5.staticflickr.com/4361/37112149590_888aff535c_o.png" title="Neo-Euler web fonts"  link="https://www.flickr.com/photos/spiegel/37112149590/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37112149590_m.png" title="Neo-Euler web fonts" link="https://photo.baldanders.info/flickr/37112149590/" >}}
 
 一方，同じものを $\mathrm{\LaTeX}$ で Euler ＋ Concrete を指定して 処理すると以下のようになる。
 
-{{< fig-img src="https://farm5.staticflickr.com/4390/36657659994_8abc048bb7_o.png" title="Euler fonts"  link="https://www.flickr.com/photos/spiegel/36657659994/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/36657659994_m.png" title="Euler fonts" link="https://photo.baldanders.info/flickr/36657659994/" >}}
 
 両者の違いが分かるだろうか（文字の大きさとかは無視してね）。
 ポイントは数字と $\sin$ 関数である。
@@ -172,7 +172,7 @@ MathJax.Hub.Config({
 そして `\sin` コマンドを `\text{sin}` に書き換える。
 以下がその結果である。
 
-{{< fig-img src="https://farm5.staticflickr.com/4432/36698887063_0e218e1705_o.png" title="Neo-Euler web fonts 2"  link="https://www.flickr.com/photos/spiegel/36698887063/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/36698887063_m.png" title="Neo-Euler web fonts 2" link="https://photo.baldanders.info/flickr/36698887063/" >}}
 
 どうやったかというと `\text{sin}` によって `sin` を（数式フォントではなく）本文のフォントに書き換えたのだ。
 

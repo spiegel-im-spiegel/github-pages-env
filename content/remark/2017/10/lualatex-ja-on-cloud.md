@@ -76,7 +76,7 @@ $ lualatex hello.tex
 $\mathrm{Lua\TeX}$ では直接 PDF を吐く。
 出力結果はこんな感じ。
 
-{{< fig-img src="https://farm5.staticflickr.com/4513/37448584791_9b74093e59.jpg" title="LuaLaTeX-ja (1)"  link="https://www.flickr.com/photos/spiegel/37448584791/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37448584791_m.png" title="LuaLaTeX-ja (1)" link="https://photo.baldanders.info/flickr/37448584791/" >}}
 
 余談だが PDF ビュアはオープンソース製品を使おう。
 個人的には [Evince] がおすすめ。
@@ -87,8 +87,9 @@ $\mathrm{Lua\TeX}$ では直接 PDF を吐く。
 
 で，出力した PDF のプロパティを [Evince] で見るとこんな感じになる。
 
-{{< fig-img src="https://farm5.staticflickr.com/4438/23596684168_c877fd563c_o.png"  link="https://www.flickr.com/photos/spiegel/23596684168/" >}}
-{{< fig-img src="https://farm5.staticflickr.com/4373/23596684238_c2f77f7534_o.png"  link="https://www.flickr.com/photos/spiegel/23596684238/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/23596684168_m.png" title="LuaLaTeX-ja (2)" link="https://photo.baldanders.info/flickr/23596684168/" >}}
+
+{{< fig-img src="https://photo.baldanders.info/flickr/image/23596684238_m.png" title="LuaLaTeX-ja (3)" link="https://photo.baldanders.info/flickr/23596684238/" >}}
 
 フォーマットは PDF 1.5。
 [IPAex] フォントが埋め込み済みである。
@@ -148,12 +149,12 @@ PDF/A に対応するには `hyperref` パッケージを使う。
 `hyperxmp` パッケージは `hyperref` パッケージに対して XMP（Extensible Metadata Platform）拡張を行う。
 これでタイプセットした結果について，先ほどと同じようにプロパティを確認する。
 
-{{< fig-img src="https://farm5.staticflickr.com/4342/23596684308_4f3600d2b7_o.png" title="LuaLaTeX-ja (4)"  link="https://www.flickr.com/photos/spiegel/23596684308/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/23596684308_m.png" title="LuaLaTeX-ja (4)" link="https://photo.baldanders.info/flickr/23596684308/" >}}
 
 フォーマットが PDF/A-1b になっていることが確認できる。
 ライセンス情報もちゃんと付与されてるな。
 
-{{< fig-img src="https://farm5.staticflickr.com/4433/37418815792_8de8637bdb_o.png" title="LuaLaTeX-ja (5)"  link="https://www.flickr.com/photos/spiegel/37418815792/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37418815792_m.png" title="LuaLaTeX-ja (5)" link="https://photo.baldanders.info/flickr/37418815792/" >}}
 
 ところで『[LaTeX2ε美文書作成入門]』を改めて眺めていたが， [Cloud LaTeX] というサービスがあるらしい。
 
@@ -162,43 +163,43 @@ PDF/A に対応するには `hyperref` パッケージを使う。
 $\mathrm{p\LaTeX}$, $\mathrm{up\LaTeX}$ だけじゃなく $\mathrm{Lua\LaTeX}$ にも対応しているみたい。
 早速サインアップしてみた。
 
-{{< fig-img src="https://farm5.staticflickr.com/4441/37192503250_58c2c8c1d7.jpg" title="Sign-up Cloud LaTeX"  link="https://www.flickr.com/photos/spiegel/37192503250/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37192503250_m.png" title="Sign-up Cloud LaTeX" link="https://photo.baldanders.info/flickr/37192503250/" >}}
 
 Facebook アカウントと Twitter アカウントが使えるようだ。
 まぁ，昔はともかく，[今の Twitter アカウントには一貫性も永続性もない](http://www.itmedia.co.jp/news/articles/1710/01/news035.html "「仕事にも支障が」　Twitterを凍結され、日本法人を訪れて抗議したエンジニアに聞く - ITmedia NEWS")ので認証に使うのは避けたほうがいいだろう（笑）
 
 サインアップ後の初期画面はこんな感じ。
 
-{{< fig-img src="https://farm5.staticflickr.com/4419/36739275654_f2c069d976.jpg" title="Cloud LaTeX (1)"  link="https://www.flickr.com/photos/spiegel/36739275654/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/36739275654_m.png" title="Cloud LaTeX (1)" link="https://photo.baldanders.info/flickr/36739275654/" >}}
 
 容量は 1 GB，プロジェクトは999個まで作成できるようだ。
 バージョン管理みたいなのはできなさそうだが Dropbox と連携が可能だ。
 あらかじめいくつかのテンプレートが登録されている。
 
-{{< fig-img src="https://farm5.staticflickr.com/4411/37419240592_545c19302a.jpg" title="Templete in Cloud LaTeX"  link="https://www.flickr.com/photos/spiegel/37419240592/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37419240592_m.png" title="Templete in Cloud LaTeX" link="https://photo.baldanders.info/flickr/37419240592/" >}}
 
 学生や研究者向けのテンプレートがほとんどだが，履歴書のテンプレートもあったりする。
 
 それでは，新しく空のプロジェクトを作ってみよう。
 
-{{< fig-img src="https://farm5.staticflickr.com/4500/37448667041_f279e0e649.jpg" title="Cloud LaTeX (2)"  link="https://www.flickr.com/photos/spiegel/37448667041/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37448667041_m.png" title="Cloud LaTeX (2)" link="https://photo.baldanders.info/flickr/37448667041/" >}}
 
-{{< fig-img src="https://farm5.staticflickr.com/4348/36739275764_bcc40cb274.jpg" title="Cloud LaTeX (3)"  link="https://www.flickr.com/photos/spiegel/36739275764/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/36739275764_m.png" title="Cloud LaTeX (3)" link="https://photo.baldanders.info/flickr/36739275764/" >}}
 
 プロジェクトに入って先程の文書の内容を入力する。
 さらにプロジェクトの設定で処理系を選択する。
 
-{{< fig-img src="https://farm5.staticflickr.com/4433/36739275864_0420af8d49_o.png" title="Cloud LaTeX (4)"  link="https://www.flickr.com/photos/spiegel/36739275864/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/36739275864_m.png" title="Cloud LaTeX (4)" link="https://photo.baldanders.info/flickr/36739275864/" >}}
 
 ここでは lualatex を選択する。
 この状態で「コンパイル」した結果が以下の通り。
 
-{{< fig-img src="https://farm5.staticflickr.com/4436/36739275814_59bcea74d8.jpg" title="Cloud LaTeX (5)"  link="https://www.flickr.com/photos/spiegel/36739275814/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/36739275814_m.png" title="Cloud LaTeX (5)" link="https://photo.baldanders.info/flickr/36739275814/" >}}
 
 見た目は OK かな。
 生成した PDF をダウンロードしてプロパティを見てみる。
 
-{{< fig-img src="https://farm5.staticflickr.com/4431/37448667361_24bf5b262e_o.png" title="Cloud LaTeX (6)"  link="https://www.flickr.com/photos/spiegel/37448667361/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37448667361_m.png" title="Cloud LaTeX (6)" link="https://photo.baldanders.info/flickr/37448667361/" >}}
 
 おっ。
 バージョン0.95なのか。

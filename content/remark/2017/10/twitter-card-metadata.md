@@ -88,7 +88,7 @@ tags        = [ "site", "semantic", "web", "metadata", "twitter", "open-graph" ]
 以上のメタデータを `<head>` 要素内に設置する。
 これで以下のように表示される（筈）。
 
-{{< fig-img src="https://farm5.staticflickr.com/4510/37949847556_0867f5741b_o.png" title="Twitter Card: Summary"  link="https://www.flickr.com/photos/spiegel/37949847556/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37949847556_m.png" title="Twitter Card: Summary" link="https://photo.baldanders.info/flickr/37949847556/" >}}
 
 以前は `twitter:image` 等を `property`-`content` 属性の組み合わせで記述させようとしていたが（これのせいで [HTML Validator] がエラーを吐いていた），さすがに改心したようである（笑）
 
@@ -177,7 +177,16 @@ RDFa の仕様の一部を借用した大変筋の悪いもので，本来の目
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/483993195X/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51oaN2iq9xL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/483993195X/baldandersinf-22/">セマンティック HTML/XHTML</a></dt><dd>神崎 正英 </dd><dd>毎日コミュニケーションズ 2009-05-28</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4627829310/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4627829310.09._SCTHUMBZZZ_.jpg"  alt="セマンティック・ウェブのためのRDF/OWL入門"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4873114527/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4873114527.09._SCTHUMBZZZ_.jpg"  alt="セマンティックWeb プログラミング"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4764904276/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4764904276.09._SCTHUMBZZZ_.jpg"  alt="Linked Data: Webをグローバルなデータ空間にする仕組み"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4274202925/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4274202925.09._SCTHUMBZZZ_.jpg"  alt="オントロジー構築入門"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4501542101/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4501542101.09._SCTHUMBZZZ_.jpg"  alt="トピックマップ入門 (セマンティック技術シリーズ)"  /></a> </p>
-<p class="description">残念ながら紙の本は実質的に絶版なんですよねぇ。是非デジタル化を希望します。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-08-17">2014/08/17</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF-HTML-XHTML-%E7%A5%9E%E5%B4%8E-%E6%AD%A3%E8%8B%B1/dp/483993195X?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=483993195X"><img src="https://images-fe.ssl-images-amazon.com/images/I/51oaN2iq9xL._SL160_.jpg" width="124" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF-HTML-XHTML-%E7%A5%9E%E5%B4%8E-%E6%AD%A3%E8%8B%B1/dp/483993195X?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=483993195X">セマンティック HTML/XHTML</a></dt>
+	<dd>神崎 正英</dd>
+    <dd>毎日コミュニケーションズ 2009-05-28</dd>
+    <dd>Book 単行本（ソフトカバー）</dd>
+    <dd>ASIN: 483993195X, EAN: 9784839931957</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">残念ながら紙の本は実質的に絶版なんですよねぇ。是非デジタル化を希望します。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-08-17">2014-08-17</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>

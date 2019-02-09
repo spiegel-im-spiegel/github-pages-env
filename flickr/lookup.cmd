@@ -1,1 +1,1 @@
-flickr.exe lookup -t img-link.md %*
+flickr.exe lookup -t img-link.md -i

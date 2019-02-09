@@ -68,7 +68,7 @@ $\\mathrm{\TeX}$ について調べ物をしていて，何気なく [Wikipedia 
 
 [^bs1]: 先日，納戸にしまった本を発掘してたら [$\\mathrm{\TeX}$ 関連の本やらパッケージが大量に出てきて](https://www.instagram.com/p/BZs5cUuHDNO/)我ながら笑ってしまった。どんだけ好きだったんだろう（笑）
 
-{{< fig-img src="https://farm5.staticflickr.com/4448/36713793483_453ca1483a.jpg" title="私はコレで TeX を覚えましたw"  link="https://www.flickr.com/photos/spiegel/36713793483/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/36713793483_m.jpg" title="私はコレで TeX を覚えましたw" link="https://photo.baldanders.info/flickr/36713793483/" >}}
 
 そういや昔は，テープを物理的に「回覧」して配布してたんだよねぇ。
 私はテープを扱えるデバイスを（私的には）持ってなかったので回覧に参加できなかったんだけど。

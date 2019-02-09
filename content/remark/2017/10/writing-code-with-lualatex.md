@@ -83,7 +83,7 @@ func main() {
 と書いてみる。
 結果はこんな感じ。
 
-{{< fig-img src="https://farm5.staticflickr.com/4505/37440154426_9d1a97aa3d.jpg" title="code with LuaLaTeX (1)"  link="https://www.flickr.com/photos/spiegel/37440154426/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37440154426_m.png" title="code with LuaLaTeX (1)" link="https://photo.baldanders.info/flickr/37440154426/" >}}
 
 悪かないけど，キーワードの強調表示くらい欲しいよね。
 [`listings`] パッケージでは `language=C++` みたいな感じに言語を指定できるらしい。
@@ -154,7 +154,7 @@ func main() {
 
 結果はこんな感じ。
 
-{{< fig-img src="https://farm5.staticflickr.com/4443/37488315861_e3ecc8b840.jpg" title="code with LuaLaTeX (2)"  link="https://www.flickr.com/photos/spiegel/37488315861/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37488315861_m.png" title="code with LuaLaTeX (2)" link="https://photo.baldanders.info/flickr/37488315861/" >}}
 
 おっとお。
 原色は派手すぎたか。
@@ -234,7 +234,7 @@ func main() {
 
 結果はこんな感じ。
 
-{{< fig-img src="https://farm5.staticflickr.com/4451/37441473856_10ccde1a0c.jpg" title="code with LuaLaTeX (4)"  link="https://www.flickr.com/photos/spiegel/37441473856/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37441473856_m.png" title="code with LuaLaTeX (3)" link="https://photo.baldanders.info/flickr/37441473856/" >}}
 
 数字のゼロに斜線が入っているのがお分かりだろうか。
 以前は[ゼロやバッククォート等の表示で苦労してた](http://d.hatena.ne.jp/zrbabbler/20130421/1366560678 "LaTeX の inconsolata がアレなので何とかする - マクロツイーター")気がするが，最近のものなら問題ないようだ。

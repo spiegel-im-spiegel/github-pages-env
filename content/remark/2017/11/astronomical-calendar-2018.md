@@ -3,7 +3,7 @@ title = "2018年の主な暦象"
 date =  "2017-11-27T18:36:16+09:00"
 update = "2018-12-12T15:48:49+09:00"
 description = "2018年版の『天文年鑑』をつらつらと眺めながら2018年の主な暦象を紹介する。"
-image = "https://farm5.staticflickr.com/4522/38632868121_718e6f09e1.jpg"
+image = "https://photo.baldanders.info/flickr/image/38632868121_o.jpg"
 tags = [
   "astronomy",
   "ephemeris",
@@ -35,7 +35,7 @@ tags = [
 
 [2018年版の『天文年鑑』](https://www.amazon.co.jp/exec/obidos/ASIN/4416717407/baldandersinf-22/ "天文年鑑 2018年版 | 天文年鑑編集委員会 |本 | 通販 | Amazon")をつらつらと眺めながら2018年の主な暦象を紹介する。
 
-{{< fig-img src="https://farm5.staticflickr.com/4522/38632868121_718e6f09e1.jpg" title="たぶん今年最後に買う紙の本（って何回言ったことかw）" link="https://www.flickr.com/photos/spiegel/38632868121/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/38632868121_m.jpg" title="たぶん今年最後に買う紙の本（って何回言ったことかw）。図書カードは欲しいなぁ" link="https://photo.baldanders.info/flickr/38632868121/" >}}
 
 ## 流星群
 

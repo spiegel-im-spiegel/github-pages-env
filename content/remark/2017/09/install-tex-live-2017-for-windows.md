@@ -48,7 +48,7 @@ $ install-tl-windows.exe
 
 インストーラを起動して最初の画面がこれ。
 
-{{< fig-img src="https://farm5.staticflickr.com/4495/23550763638_69e23884f3_o.png" title="Install TeX Live 2017 (1)"  link="https://www.flickr.com/photos/spiegel/23550763638/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/23550763638_m.png" title="Install TeX Live 2017 (1)" link="https://photo.baldanders.info/flickr/23550763638/" >}}
 
 特に理由がなければ “Simple install (big)” を選択すればいいようだ。
 まぁ simple と言いつつ**全部**入ってしまうんだけど（笑）[^tljp1]
@@ -60,49 +60,49 @@ $ install-tl-windows.exe
 
 “Next” ボタンを押して次の画面へ。
 
-{{< fig-img src="https://farm5.staticflickr.com/4386/37355502656_9aa4243436_o.png" title="Install TeX Live 2017 (2)"  link="https://www.flickr.com/photos/spiegel/37355502656/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37355502656_m.png" title="Install TeX Live 2017 (2)" link="https://photo.baldanders.info/flickr/37355502656/" >}}
 
 さらに “Install” ボタンを押して次の画面へ。
 
-{{< fig-img src="https://farm5.staticflickr.com/4349/37355502726_7907d3266d_o.png" title="Install TeX Live 2017 (3)"  link="https://www.flickr.com/photos/spiegel/37355502726/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37355502726_m.png" title="Install TeX Live 2017 (3)" link="https://photo.baldanders.info/flickr/37355502726/" >}}
 
 この画面でファイルを展開し，以下の画面を起動する。
 この画面が本当のインストーラである。
 
-{{< fig-img src="https://farm5.staticflickr.com/4419/23550763878_eed5744a31.jpg" title="Install TeX Live 2017 (4)"  link="https://www.flickr.com/photos/spiegel/23550763878/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/23550763878_m.png" title="Install TeX Live 2017 (4)" link="https://photo.baldanders.info/flickr/23550763878/" >}}
 
 既定では「既定リポジトリを変更」のチェックが外れているが，リポジトリを手動で選択できるようチェックを入れる。
 
 「次へ」ボタンを押して次の画面へ。
 
-{{< fig-img src="https://farm5.staticflickr.com/4426/23550763928_fae06af303.jpg" title="Install TeX Live 2017 (5)"  link="https://www.flickr.com/photos/spiegel/23550763928/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/23550763928_m.png" title="Install TeX Live 2017 (5)" link="https://photo.baldanders.info/flickr/23550763928/" >}}
 
 この画面でリポジトリを選択する。
 日本国内であれば “Japan” のリポジトリのどれかを選択すればいいだろう。
 
 「次へ」ボタンを押して次の画面へ。
 
-{{< fig-img src="https://farm5.staticflickr.com/4499/23550764378_fbf4f57091.jpg" title="Install TeX Live 2017 (6a)"  link="https://www.flickr.com/photos/spiegel/23550764378/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/23550764378_m.png" title="Install TeX Live 2017 (6a)" link="https://photo.baldanders.info/flickr/23550764378/" >}}
 
 この画面でインストール先のフォルダを決定する。
 既定は `C:\texlive\2017` フォルダだが，変更するなら「変更」ボタンを押して以下のプロンプトでインストール先のフォルダを変更できる。
 
-{{< fig-img src="https://farm5.staticflickr.com/4441/37355503256_3fe5943b3a_o.png" title="Install TeX Live 2017 (6b)"  link="https://www.flickr.com/photos/spiegel/37355503256/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37355503256_m.png" title="Install TeX Live 2017 (6b)" link="https://photo.baldanders.info/flickr/37355503256/" >}}
 
 インストール先を決定したら「次へ」ボタンを押して次の画面へ。
 
-{{< fig-img src="https://farm5.staticflickr.com/4445/37355503416_a63a2dbf2f.jpg" title="Install TeX Live 2017 (7)"  link="https://www.flickr.com/photos/spiegel/37355503416/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37355503416_m.png" title="Install TeX Live 2017 (7)" link="https://photo.baldanders.info/flickr/37355503416/" >}}
 
 この画面では各種オプションを指定する。
 分からなければ規定値のままでも特に問題はない。
 
 「次へ」ボタンを押して次の画面へ。
 
-{{< fig-img src="https://farm5.staticflickr.com/4451/37355503286_ac02d01b46.jpg" title="Install TeX Live 2017 (8)"  link="https://www.flickr.com/photos/spiegel/37355503286/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37355503286_m.png" title="Install TeX Live 2017 (8)" link="https://photo.baldanders.info/flickr/37355503286/" >}}
 
 これまでの指定内容で問題なければ「導入」ボタンを押してインストール処理を開始する。
 
-{{< fig-img src="https://farm5.staticflickr.com/4355/37355503336_2ddc73822f.jpg" title="Install TeX Live 2017 (9a)"  link="https://www.flickr.com/photos/spiegel/37355503336/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37355503336_m.png" title="Install TeX Live 2017 (9a)" link="https://photo.baldanders.info/flickr/37355503336/" >}}
 
 上述したようにインストール処理が完了するまでにかなりの時間がかかる。
 私の場合は5時間以上もかかった。
@@ -110,7 +110,7 @@ $ install-tl-windows.exe
 
 処理が完了すると以下の表示になる。
 
-{{< fig-img src="https://farm5.staticflickr.com/4503/37355503396_6b5430d4fe.jpg" title="Install TeX Live 2017 (9b)"  link="https://www.flickr.com/photos/spiegel/37355503396/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37355503396_m.png" title="Install TeX Live 2017 (9b)" link="https://photo.baldanders.info/flickr/37355503396/" >}}
 
 これで画面下にある「終了」ボタンを押して画面を閉じればインストール完了である。
 
@@ -459,7 +459,7 @@ $ ps2pdf14 -dPDFA -dPDFACompatibilityPolicy=1 -sProcessColorModel=DeviceCMYK cha
 
 生成したファイルをチェックする。
 
-{{< fig-img src="https://farm5.staticflickr.com/4475/23572647868_cb8eb6d545_o.png" title="Output PDF/A"  link="https://www.flickr.com/photos/spiegel/23572647868/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/23572647868_m.png" title="Output PDF/A" link="https://photo.baldanders.info/flickr/23572647868/" >}}
 
 よしよし。
 ちゃんと PDF/A になってるな。

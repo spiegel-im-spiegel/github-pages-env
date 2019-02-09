@@ -317,11 +317,11 @@ $ latexmk otf-sample.tex
 
 結果はこんな感じ。
 
-{{< fig-img src="https://farm5.staticflickr.com/4480/36799783933_5636b7ff13.jpg" title="Output PDF by upLaTeX with Source Han Fonts (1)"  link="https://www.flickr.com/photos/spiegel/36799783933/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/36799783933_m.png" title="Output PDF by upLaTeX with Source Han Fonts (1)" link="https://photo.baldanders.info/flickr/36799783933/" >}}
 
 ちなみに埋め込まれたフォントの状態は以下の通り。
 
-{{< fig-img src="https://farm5.staticflickr.com/4445/23617581598_dabb14dddb_o.png" title="Output PDF by upLaTeX with Source Han Fonts (2)"  link="https://www.flickr.com/photos/spiegel/23617581598/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/23617581598_m.png" title="Output PDF by upLaTeX with Source Han Fonts (2)" link="https://photo.baldanders.info/flickr/23617581598/" >}}
 
 ## LuaLaTeX で「源ノ」フォントを使ってみる {#lualatex}
 
@@ -382,12 +382,12 @@ $ lualatex otf-sample.tex
 
 結果は以下の通り。
 
-{{< fig-img src="https://farm5.staticflickr.com/4489/36800606433_53eb6f2055.jpg" title="Output PDF by LuaLaTeX with Source Han Fonts (1)"  link="https://www.flickr.com/photos/spiegel/36800606433/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/36800606433_m.png" title="Output PDF by LuaLaTeX with Source Han Fonts (1)" link="https://photo.baldanders.info/flickr/36800606433/" >}}
 
 んー。
 ウェイトがさっきと違う？
 
-{{< fig-img src="https://farm5.staticflickr.com/4502/36800606553_51b818871e_o.png" title="Output PDF by LuaLaTeX with Source Han Fonts (2)"  link="https://www.flickr.com/photos/spiegel/36800606553/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/36800606553_m.png" title="Output PDF by LuaLaTeX with Source Han Fonts (2)" link="https://photo.baldanders.info/flickr/36800606553/" >}}
 
 いや，同じか。
 まぁいいや。

@@ -31,7 +31,7 @@ draft = false
 あいにく風邪を引いてしまってラスト・イベントには参加できなかったのだが，食材やお酒が余ってたらしく，翌日に「飲みに来ない？」と誘ってもらった。
 ありがたや。
 
-{{< fig-img src="https://c8.staticflickr.com/6/5681/31269009055_b06cd5a21a.jpg" title="ふくろう" link="https://www.flickr.com/photos/spiegel/31269009055/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/31269009055_m.jpg" title="ふくろう" link="https://photo.baldanders.info/flickr/31269009055/" >}}
 
 お好み焼き屋と言いながらあんまりお好み焼きは食べなかったり（めっさ美味いんだけどね。全粒粉のソバがねぇ）。
 いや，大将の創作料理（？）が美味しくって。
@@ -39,7 +39,7 @@ draft = false
 
 今回は「1ポンドステーキ」をいただいた。
 
-{{< fig-img src="https://c1.staticflickr.com/6/5468/31232932936_779273aa65.jpg" title="1ポンドステーキ。大ラス？" link="https://www.flickr.com/photos/spiegel/31232932936/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/31232932936_m.jpg" title="1ポンドステーキ。大ラス？" link="https://photo.baldanders.info/flickr/31232932936/" >}}
 
 私は全部は無理なので，他のお客さんと分けっこして食べた。
 料理をシェアするのって楽しいよね。

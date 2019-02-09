@@ -56,7 +56,7 @@ official r\^ole in fluffy souffl\'es!?''
 
 以下のような感じで適切に組んでくれる。
 
-{{< fig-img src="https://farm5.staticflickr.com/4488/37446584446_ebe4790867.jpg" title="equation (1)"  link="https://www.flickr.com/photos/spiegel/37446584446/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37446584446_m.png" title="equation (1)" link="https://photo.baldanders.info/flickr/37446584446/" >}}
 
 もう少し変わった式やシンボルを使う場合には `amsmath` および `amssymb` パッケージを使って（同じく『[LaTeX2ε美文書作成入門]』より引用）
 
@@ -85,7 +85,7 @@ $\mathbb{ABCDEFGHIJELMN}$
 
 このように記述すれば，タイプセットの結果は
 
-{{< fig-img src="https://farm5.staticflickr.com/4498/36825338243_1828366bd9_o.png" title="equation (2)"  link="https://www.flickr.com/photos/spiegel/36825338243/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/36825338243_m.png" title="equation (2)" link="https://photo.baldanders.info/flickr/36825338243/" >}}
 
 こんな感じになる。
 ちなみに本文の欧文書体は Latin Modern，数式は Computer Modern で，`amssymb` パッケージで提供される黒板太文字は AMSFonts と呼ばれるものだ[^ams]。
@@ -150,7 +150,7 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を OpenType フォントに変更する�
 
 結果は以下の通り。
 
-{{< fig-img src="https://farm5.staticflickr.com/4488/37464960082_597b2201f8.jpg" title="equation (Concrete + Euler)"  link="https://www.flickr.com/photos/spiegel/37464960082/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37464960082_m.png" title="equation (Concrete + Euler)" link="https://photo.baldanders.info/flickr/37464960082/" >}}
 
 ### OpenType フォントを使う（unicode-math パッケージ）
 
@@ -180,7 +180,7 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を OpenType フォントに変更する�
 
 結果は以下の通り。
 
-{{< fig-img src="https://farm5.staticflickr.com/4443/23644212118_015177e851.jpg" title="equation (TeXGyrePagella-Math)"  link="https://www.flickr.com/photos/spiegel/23644212118/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/23644212118_m.png" title="equation (TeXGyrePagella-Math)" link="https://photo.baldanders.info/flickr/23644212118/" >}}
 
 他の書体も紹介しよう。
 [Asana Math](https://ctan.org/pkg/asana-math "CTAN: Package asana-math") を利用する場合は，以下のように指定する。
@@ -191,7 +191,7 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を OpenType フォントに変更する�
 
 結果は以下の通り。
 
-{{< fig-img src="https://farm5.staticflickr.com/4477/23644821888_21ddd217dc.jpg" title="equation (Asana-Math)"  link="https://www.flickr.com/photos/spiegel/23644821888/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/23644821888_m.png" title="equation (Asana-Math)" link="https://photo.baldanders.info/flickr/23644821888/" >}}
 
 [Neo Euler] を利用する場合は，[フォントを取得]({{< relref "#elr-inst" >}})して以下のように指定する。
 
@@ -202,7 +202,7 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を OpenType フォントに変更する�
 `math-style` オプションについては[後述]({{< relref "#opt" >}})する。
 結果は以下の通り。
 
-{{< fig-img src="https://farm5.staticflickr.com/4443/37239500550_c7fe31fd8b.jpg" title="equation (Neo Euler)"  link="https://www.flickr.com/photos/spiegel/37239500550/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37239500550_m.png" title="equation (Neo Euler)" link="https://photo.baldanders.info/flickr/37239500550/" >}}
 
 [STIX] については [TeX Live] 2017 に収録されているものはデザインがイマイチな気がする。
 なので[バージョン2を取得]({{< relref "#stx2-inst" >}})して以下のように指定する。
@@ -213,7 +213,7 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を OpenType フォントに変更する�
 
 結果は以下の通り。
 
-{{< fig-img src="https://farm5.staticflickr.com/4461/36788335984_9c09a582cd.jpg" title="equation (STIX2 Math)"  link="https://www.flickr.com/photos/spiegel/36788335984/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/36788335984_m.png" title="equation (STIX2 Math)" link="https://photo.baldanders.info/flickr/36788335984/" >}}
 
 [STIX] の fork とも言える（？） [XITS](https://github.com/khaledhosny/xits "khaledhosny/xits: XITS - OpenType implementation of STIX fonts with math support") を利用する場合は，以下のように指定する。
 
@@ -223,7 +223,7 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を OpenType フォントに変更する�
 
 結果は以下の通り。
 
-{{< fig-img src="https://farm5.staticflickr.com/4502/37450915146_5686199d65.jpg" title="equation (XITS Math)"  link="https://www.flickr.com/photos/spiegel/37450915146/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37450915146_m.png" title="equation (XITS Math)" link="https://photo.baldanders.info/flickr/37450915146/" >}}
 
 ## unicode-math パッケージのオプション {#opt}
 
@@ -282,7 +282,7 @@ $\mathrm{Lua\LaTeX}$ で本文の書体を OpenType フォントに変更する�
 
 [Neo Euler] のギリシア文字には斜体がないようで， `math-style` の値を `ISO` または `TeX` に設定するとギリシア文字が表示されない。
 
-{{< fig-img src="https://farm5.staticflickr.com/4459/23648392388_2c8049cc57.jpg" title="equation (Neo Euler 2)"  link="https://www.flickr.com/photos/spiegel/23648392388/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/23648392388_m.png" title="equation (Neo Euler 2)" link="https://photo.baldanders.info/flickr/23648392388/" >}}
 
 他にも AMSFonts にあるシンボル（先程の黒板太文字とか）が存在しなかったりするようだ。
 Euler フォントに関しては，使うのであれば， OpenType ではなく既存のパッケージを使うほうが簡単だろう。

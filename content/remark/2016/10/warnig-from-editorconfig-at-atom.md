@@ -29,7 +29,7 @@ title = "【ATOM Editor】 EditorConfig を使うなら Whitespace は不要"
 
 ところで [ATOM] の [EditorConfig] が 1.7 になって面白いワーニングを吐くようになった。
 
-{{< fig-img src="https://c2.staticflickr.com/6/5761/30550165591_c0ca944e12_o.png" title="warning from editorconfig @atom" link="https://www.flickr.com/photos/spiegel/30550165591/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/30550165591_m.png" title="warning from editorconfig @atom" link="https://photo.baldanders.info/flickr/30550165591/" >}}
 
 どうやら `trim_trailing_whitespace` と `insert_final_newline` に対応したらしいんだけど， Core Package の [whitespace] と conflict しているようだ。
 この場合は [whitespace] を Disable にすれば解消する（[whitespace] は Core Package なので削除できない）。

@@ -1,6 +1,9 @@
 @echo off
-type 4542503461.html | amazon-item review -t review-book.html -d 4542503461 -r 4 --review-date 2019-02-06
 rem ---
+rem type B00DI8TMPU.html | amazon-item review -t review-book.html -d B00DI8TMPU -r 5 --review-date 2014-09-13
+rem type 483993195X.html | amazon-item review -t review-book.html -d 483993195X -r 4 --review-date 2014-08-17
+rem type 4845911744.html | amazon-item review -t review-book.html -d 4845911744 -r 4 --review-date 2015-05-07
+rem type 4542503461.html | amazon-item review -t review-book.html -d 4542503461 -r 4 --review-date 2019-02-06
 rem type 4048689606.html | amazon-item review -t review-book.html -d 4048689606 -r 5 --review-date 2014-10-18
 rem type B009IMAGYQ.html | amazon-item review -t review-book.html -d B009IMAGYQ -r 4 --review-date 2015-04-26
 rem type B00KAOQXTS.html | amazon-item review -t review-book.html -d B00KAOQXTS -r 5 --review-date 2014-10-18

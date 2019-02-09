@@ -148,7 +148,7 @@ Microdata は未完成のまま開発が終了しており，もはや推奨さ�
 `@id` によって [Organization] のデータを `publisher` から参照しているのがお分かりだろうか。
 これを[テストツール]にかけるとこんな感じになる。
 
-{{< fig-img src="https://farm5.staticflickr.com/4576/38448664942_e96760dd5e.jpg" title="Structured Data Testing Tool (1)" link="https://www.flickr.com/photos/spiegel/38448664942/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/38448664942_m.png" title="Structured Data Testing Tool (1)" link="https://photo.baldanders.info/flickr/38448664942/" >}}
 
 `publisher` に [Organization] のデータが入っているのがわかると思う。
 
@@ -186,7 +186,7 @@ Microdata は未完成のまま開発が終了しており，もはや推奨さ�
 `publisher` の参照先は [WebSite] と同じなので省略する。
 これを[テストツール]にかけるとこんな感じになる。
 
-{{< fig-img src="https://farm5.staticflickr.com/4554/37593823405_a6651f6a94.jpg" title="Structured Data Testing Tool (2)" link="https://www.flickr.com/photos/spiegel/37593823405/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37593823405_m.png" title="Structured Data Testing Tool (2)" link="https://photo.baldanders.info/flickr/37593823405/" >}}
 
 どんどん行こう。
 [BlogPosting] はこんな感じ。
@@ -225,22 +225,22 @@ Microdata は未完成のまま開発が終了しており，もはや推奨さ�
 Google 検索は [BlogPosting] の内容を参照している。
 Google 検索が [BlogPosting] で要求するプロパティは以下の通り。
 
-| Properties | Data Type | AMP | non-AMP |
-|:-----------|:---------:|:---:|:-------:|
-| `mainEntityOfPage` | `URL` | recommended | ignored |
-| `headline` | `Text` | required | recommended |
-| `image` | ` ImageObject` or `URL` | required | recommended |
-| `publisher` | ` Organization` | required | ignored |
-| `publisher.name` | ` Text` | required | ignored |
-| `publisher.logo` | ` ImageObject` | required | ignored |
-| `publisher.logo.url` | ` URL` | required | ignored |
-| `publisher.logo.height` | ` Number` | required | ignored |
-| `publisher.logo.width` | ` Number` | required | ignored |
-| `datePublished` | ` DateTime` | required | ignored |
-| `dateModified` | ` DateTime` | required | ignored |
-| `author` | ` Person` or `Organization` | required | ignored |
-| `author.name` | ` Text` | required | ignored |
-| `description` | ` Text` | recommended  | ignored |
+| Properties              |          Data Type          |     AMP     |   non-AMP   |
+|:----------------------- |:---------------------------:|:-----------:|:-----------:|
+| `mainEntityOfPage`      |            `URL`            | recommended |   ignored   |
+| `headline`              |           `Text`            |  required   | recommended |
+| `image`                 |   ` ImageObject` or `URL`   |  required   | recommended |
+| `publisher`             |       ` Organization`       |  required   |   ignored   |
+| `publisher.name`        |           ` Text`           |  required   |   ignored   |
+| `publisher.logo`        |       ` ImageObject`        |  required   |   ignored   |
+| `publisher.logo.url`    |           ` URL`            |  required   |   ignored   |
+| `publisher.logo.height` |          ` Number`          |  required   |   ignored   |
+| `publisher.logo.width`  |          ` Number`          |  required   |   ignored   |
+| `datePublished`         |         ` DateTime`         |  required   |   ignored   |
+| `dateModified`          |         ` DateTime`         |  required   |   ignored   |
+| `author`                | ` Person` or `Organization` |  required   |   ignored   |
+| `author.name`           |           ` Text`           |  required   |   ignored   |
+| `description`           |           ` Text`           | recommended |   ignored   |
 
 AMP (Accelerated Mobile Pages) と non-AMP で要求が異なるが，[テストツール]は AMP を前提にしているようで，これらのプロパティがないとエラーまたは警告を吐く[^tst1]。
 
@@ -249,7 +249,7 @@ AMP (Accelerated Mobile Pages) と non-AMP で要求が異なるが，[テスト
 これも[テストツール]にかけてみよう。
 こんな感じ。
 
-{{< fig-img src="https://farm5.staticflickr.com/4577/37594061745_323d131e43.jpg" title="Structured Data Testing Tool (3)" link="https://www.flickr.com/photos/spiegel/37594061745/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37594061745_m.png" title="Structured Data Testing Tool (3)" link="https://photo.baldanders.info/flickr/37594061745/" >}}
 
 最後に [BreadcrumbList] （パンくずリスト[^bcl1]）はこんな感じになる。
 
@@ -285,11 +285,11 @@ Google 検索は [BreadcrumbList] の内容も参照している。
 Google 検索が [BreadcrumbList] で要求するプロパティは以下の通り。
 
 | Properties | Data Type | Requirement |
-|:-----------|:---------:|:-----------:|
-| `image` | `URL` | optional |
-| `item` | `Thing` | required |
-| `name` | `Text` | required |
-| `position` | `Integer` | required |
+|:---------- |:---------:|:-----------:|
+| `image`    |   `URL`   |  optional   |
+| `item`     |  `Thing`  |  required   |
+| `name`     |  `Text`   |  required   |
+| `position` | `Integer` |  required   |
 
 上述のコードでは `item` を `@id` の参照先と繋げている。
 具体的には，最初の階層に [WebSite] データの `@id` を，2番目の階層に [Blog] データの `@id` を指定している。

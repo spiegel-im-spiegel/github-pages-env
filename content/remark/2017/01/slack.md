@@ -56,11 +56,11 @@ title = "いまさら聞けない Slack の使い方"
 フィード（feed）を読み込むには [RSS integration](https://slack.com/apps/A0F81R7U7-rss) をインストールする。
 あっ，その前にフィード情報を出力するチャネルを作成しておくとよい。
 
-{{< fig-img src="https://c2.staticflickr.com/1/335/32179569785_c3f97eeaeb.jpg" title="Slack RSS integration 1"  link="https://www.flickr.com/photos/spiegel/32179569785/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/32179569785_m.png" title="Slack RSS integration 1" link="https://photo.baldanders.info/flickr/32179569785/" >}}
 
 続けて参照するフィードの URL と出力先のチャネルを設定する（チャネルはその時点で存在するものしか指定できないので注意）。
 
-{{< fig-img src="https://c5.staticflickr.com/1/524/31804596620_fb500bec88.jpg" title="Slack RSS integration 2"  link="https://www.flickr.com/photos/spiegel/31804596620/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/31804596620_m.png" title="Slack RSS integration 2" link="https://photo.baldanders.info/flickr/31804596620/" >}}
 
 フィードはいくらでも登録できるようなので，よく見るサイトのフィードを片っ端から登録しておけばいい。
 とりあえず私は以下のフィードを登録した。
@@ -106,11 +106,11 @@ title = "いまさら聞けない Slack の使い方"
 これで「フィードを読み込んでチャネルに出力する」で出力された発言にスターを付ければ自動的に [Pcoket] に転送される。
 たとえば [Slack] で以下のように発言が出力されるとすると
 
-{{< fig-img src="https://c7.staticflickr.com/1/316/31361991614_8ec3890765.jpg" title="Feed to Slack"  link="https://www.flickr.com/photos/spiegel/31361991614/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/31361991614_m.png" title="Feed to Slack" link="https://photo.baldanders.info/flickr/31361991614/" >}}
 
 [Zapier] 側はは以下のように `Massage Attachments From Url` および `Massage Attachments Title` をテンプレートにセットすればきれいに [Pcoket] に出力される。
 
-{{< fig-img src="https://c7.staticflickr.com/1/680/31827692990_61360c3ac8.jpg" title="Zap in Zapier"  link="https://www.flickr.com/photos/spiegel/31827692990/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/31827692990_m.png" title="Zap in Zapier" link="https://photo.baldanders.info/flickr/31827692990/" >}}
 
 ## その他
 

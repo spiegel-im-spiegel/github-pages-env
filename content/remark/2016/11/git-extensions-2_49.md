@@ -32,7 +32,7 @@ draft = false
 
 で，早速アップデートしたら凄いの。
 
-{{< fig-img src="https://c2.staticflickr.com/6/5536/31050770385_6303a5b486.jpg" title="Git Extensions 2.49" link="https://www.flickr.com/photos/spiegel/31050770385/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/31050770385_m.png" title="Git Extensions 2.49" link="https://photo.baldanders.info/flickr/31050770385/" >}}
 
 コンソールとして [ConEmu] がバインドされてて，そこから git bash が立ち上がってるじゃん。
 素敵すぎる。

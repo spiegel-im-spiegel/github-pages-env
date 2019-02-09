@@ -60,7 +60,7 @@ title = "週末スペシャル： 公開鍵暗号の研究者がチューリン�
 
 具体的には管理用の DB から公開可能なサブセットを公開 DB として使えるようにしたいらしい。
 
-{{< fig-img src="https://farm2.staticflickr.com/1473/24920649843_83bff63a6e.jpg" title="aozorahackと青空文庫の現状とこれから (OSC 2016 Tokyo/Spring)" link="http://www.slideshare.net/takahashim/osc-2016-tokyospring-aozorahack" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/24920649843_m.png" title="「aozorahackと青空文庫の現状とこれから (OSC 2016 Tokyo/Spring)」" link="http://www.slideshare.net/takahashim/osc-2016-tokyospring-aozorahack" >}}
 
 多分ファイルも公開可能なものを別にして切り出したほうがいいのだろう（公開していない校正中の作品にはまだ著作権が切れていないものもあるので）。
 公開 DB およびファイルにアクセスする API を作れば様々な人が様々なシーンで公有作品を利用できる。

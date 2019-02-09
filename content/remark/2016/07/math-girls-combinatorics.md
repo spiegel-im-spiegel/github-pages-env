@@ -26,7 +26,7 @@ title = "『数学ガールの秘密ノート／場合の数』はプログラ�
 でもこう忙しくちゃねぇ。
 おぢさんはもっと気楽に生きたいのに。
 
-{{< fig-img flickr="true" src="https://c7.staticflickr.com/9/8043/28345047646_424ca88ef5.jpg" title="paperwhite で「数学ガール」" link="https://www.flickr.com/photos/spiegel/28345047646/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/28345047646_m.jpg" title="paperwhite で「数学ガール」" link="https://photo.baldanders.info/flickr/28345047646/" >}}
 
 [「ベクトルの真実」は個人的にミルカさんの回]({{< ref "/remark/2016/03/mathgirl-note-vector.md">}} "『数学ガールの秘密ノート／ベクトルの真実』で遊ぶ")だったけど，今回は「僕」の回だね。
 「僕」の暴走を押さえこむテトラちゃんとミルカさん。

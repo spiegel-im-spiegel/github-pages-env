@@ -75,7 +75,7 @@ URL パラメータ部の `config=TeX-AMS_HTML` については[指定可能な�
 
 [^html1]: `TeX-AMS_CHTML` を指定すると `HTML-CSS` オプションをまるっと無視してしまい Web フォントの指定ができない。逆に `TeX-AMS_HTML` では `CommonHTML` オプションを無視してしまうようだ。 [MathJax] 側は `TeX-AMS_HTML` を古いブラウザ向けのレガシーなコンフィギュレーションと位置付けているようだが，やはり `TeX-AMS_CHTML` では Web フォントのカスタマイズができない（現在は `"TeX"` のみサポート）のが致命的だろう。この辺は今後のバージョンアップに期待したいところ。
 
-{{< fig-img src="https://farm5.staticflickr.com/4498/37316621442_fc895ffc22_o.png" title="MathJax: context menu"  link="https://www.flickr.com/photos/spiegel/37316621442/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/37316621442_m.png" title="MathJax: context menu" link="https://photo.baldanders.info/flickr/37316621442/" >}}
 
 ブラボー！
 

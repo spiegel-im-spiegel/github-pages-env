@@ -33,7 +33,7 @@ $ ggr -i ググレカス
 
 と打ち込めば，既定のブラウザが開いて
 
-{{< fig-img flickr="true" src="https://farm8.staticflickr.com/7117/27143946615_45a9c04842.jpg" title="ググレカス" link="https://www.flickr.com/photos/spiegel/27143946615/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/27143946615_m.png" title="ググレカス" link="https://photo.baldanders.info/flickr/27143946615/" >}}
 
 などと表示される。
 ちょっとしたことなんだけどね。

@@ -33,7 +33,7 @@ title = "ATOM × NYAGOS ＝ ♥"
 インストールは，他のパッケージと同じように， Settings の Install から選択してインストールすれば OK。
 マジ簡単。
 
-{{< fig-img src="https://c7.staticflickr.com/6/5820/31089552246_cc66a5a325.jpg" title="platformio-ide-terminal (1)" link="https://www.flickr.com/photos/spiegel/31089552246/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/31089552246_m.png" title="platformio-ide-terminal (1)" link="https://photo.baldanders.info/flickr/31089552246/" >}}
 
 ふむむ。
 どうやら既定では PawerShell が立ち上がるようだ。
@@ -41,14 +41,14 @@ title = "ATOM × NYAGOS ＝ ♥"
 
 ということで Settings を見ると
 
-{{< fig-img src="https://c1.staticflickr.com/6/5339/31089552576_cfa8e26522.jpg" title="platformio-ide-terminal (2)" link="https://www.flickr.com/photos/spiegel/31089552576/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/31089552576_m.png" title="platformio-ide-terminal (2)" link="https://photo.baldanders.info/flickr/31089552576/" >}}
 
 おおっ。
 やっぱり shell を変えられるんだ。
 ほんじゃあ [NYAGOS] を入れてみよっか。
 「Shell Override」の項目に [NYAGOS] をフルパスで指定して  [platformio-ide-terminal] を起動する。
 
-{{< fig-img src="https://c1.staticflickr.com/6/5615/31089552456_609a1b8c62.jpg" title="platformio-ide-terminal (3)" link="https://www.flickr.com/photos/spiegel/31089552456/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/31089552456_m.png" title="platformio-ide-terminal (3)" link="https://photo.baldanders.info/flickr/31089552456/" >}}
 
 おおおおっ！ なにこれ素敵。
 [NYAGOS] であれば UTF-8 を受け入れるので文字コードがどうとかあまり考えなくてよい。
@@ -56,7 +56,7 @@ title = "ATOM × NYAGOS ＝ ♥"
 ん？ 待てよ。
 ってことは git bash もいけるのか？ では同じように「Shell Override」の項目に git bash をフルパスで指定指定して  [platformio-ide-terminal] を起動してみる。
 
-{{< fig-img src="https://c3.staticflickr.com/6/5745/31089552546_7a38f046da.jpg" title="platformio-ide-terminal (4)" link="https://www.flickr.com/photos/spiegel/31089552546/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/31089552546_m.png" title="platformio-ide-terminal (4)" link="https://photo.baldanders.info/flickr/31089552546/" >}}
 
 よいではないか。
 

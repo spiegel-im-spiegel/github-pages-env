@@ -34,7 +34,7 @@ title = "Pokémon GO 始めました"
 そりゃあ，あの [Niantic](https://www.nianticlabs.com/) が作ったゲームが面白くならないわけがない。
 というわけで，私も [Pokémon GO] を始めました。
 
-{{< fig-img flickr="true" src="https://c5.staticflickr.com/9/8804/27863899404_7d40a20fa9.jpg" title="ポケモン始めました" link="https://www.flickr.com/photos/spiegel/27863899404/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/27863899404_m.jpg" title="ポケモン始めました" link="https://photo.baldanders.info/flickr/27863899404/" >}}
 
 [Pokémon GO] は Google アカウントでユーザ登録できるのだが，13歳未満は Google アカウントを持てないので「ポケモントレーナークラブ（PTC）アカウント」を取得する必要がある。
 現在，公式サイトが混雑していて新規の PTC アカウント取得ができないようだ。
