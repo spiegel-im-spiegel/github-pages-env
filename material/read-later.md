@@ -31,6 +31,7 @@
 - [I2P - Wikipedia](https://ja.wikipedia.org/wiki/I2P)
 - [Speeding up your I2P network – Masayuki Hatta – Medium](https://medium.com/@mhatta/speeding-up-your-i2p-network-c08ec9de225d)
 - [How to use I2P on Android – Masayuki Hatta – Medium](https://medium.com/@mhatta/how-to-use-i2p-on-android-91dd379fdb65?fbclid=IwAR1kckWLLLJv1U_8-FIreYOm0rWJcckV_p_OUpolUFe_BH2G-4voDfDyyxk)
+- [The I2P Out-of-the-Box: Try I2P easily with I2P Firefox Browser Profile](https://medium.com/@mhatta/the-i2p-out-of-the-box-try-i2p-easily-with-i2p-firefox-browser-profile-3649ab8e8ff2)
 
 
 ## リリース情報
@@ -41,23 +42,14 @@
 
 ## セキュリティ＆プライバシー関連
 
-- [Google Playストアに悪質ポップアップ広告や画像収集のカメラアプリ29本　Trend Microの指摘でGoogleが削除 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1902/04/news062.html)
-- [GOMPlayer終了後の不正広告表示について調べてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/02/04/022531)
-- [2019年2月のCARDNETセンターの障害についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/02/03/065153)
-- [3G、4Gだけでなく5Gネットワークにも影響--AKAプロトコルに脆弱性 - CNET Japan](https://japan.cnet.com/article/35132205/)
-- [CVE-2018-16858 | LibreOffice - Free Office Suite - Fun Project - Fantastic People](https://www.libreoffice.org/about-us/security/advisories/cve-2018-16858/)
 
 ## 天文関連
 
 
 ## 知財関連
 
-- [Does Piracy Create Online Word-of-Mouth? An Empirical Analysis in Movie Industry by Shijie Lu, Xin (Shane) Wang, Neil Thomas Bendle :: SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3308905)
 
 ## その他
 
-- [Itaniumプロセッサシリーズ、ついに終了へ。2020年1月に最終受注、2021年7月に最終出荷。インテルが発表 － Publickey](https://www.publickey1.jp/blog/19/itanium2020120217.html)
-- [Linux/WSLを正式サポート ～macOS向けパッケージマネージャー「Homebrew 2.0.0」が公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1167988.html)
-- [target=&quot;_blank&quot;には気をつけよう - Qiita](https://qiita.com/Apprentice_engineer/items/5db19a6d9bd4e7978aec)
 
 <!-- eof -->

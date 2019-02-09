@@ -1,6 +1,7 @@
 +++
 title = "2019-02-03 のブックマーク"
 date =  "2019-02-03T17:00:13+09:00"
+update = "2019-02-09T11:17:42+09:00"
 description = "「ChromeとFirefoxに脆弱性、アップデートを - US-CERT」他"
 image = "/images/avatar.jpg"
 
@@ -31,6 +32,7 @@ image = "/images/avatar.jpg"
 
 - [Japanese government plans to hack into citizens' IoT devices | ZDNet](https://www.zdnet.com/article/japanese-government-plans-to-hack-into-citizens-iot-devices/)
     - [Japanese Government Will Hack Citizens' IoT Devices - Schneier on Security](https://www.schneier.com/blog/archives/2019/01/japanese_govern.html)
+    - [なぜ日本で「国による不正アクセス」が適法に？ アクティブサイバーディフェンスとは ｜ビジネス+IT](https://www.sbbit.jp/article/cont1/35989)
 - [「モジラはChromiumを採用すべき」--マイクロソフト社員がツイート、反撃を受ける - CNET Japan](https://japan.cnet.com/article/35131920/)
 - [Mozilla、トラッキング防止ポリシーを公開 ～「Firefox」におけるプライバシー保護の姿勢を鮮明に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1167068.html)
 - [Major iPhone FaceTime bug lets you hear the audio of the person you are calling ... before they pick up - 9to5Mac](https://9to5mac.com/2019/01/28/facetime-bug-hear-audio/)

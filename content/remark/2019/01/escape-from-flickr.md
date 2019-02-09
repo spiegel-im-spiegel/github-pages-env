@@ -1,7 +1,7 @@
 +++
 title = "Flickr から写真を引き揚げました"
 date = "2019-01-20T19:16:46+09:00"
-update = "2019-01-21T20:48:11+09:00"
+update = "2019-02-09T11:17:42+09:00"
 description = "ただの「写真置き場」なら自分のところに置いておけばいいぢゃん，と気がついた。"
 image = "/images/attention/kitten.jpg"
 tags = [ "site", "web", "photography", "image", "flickr", "creative-commons" ]
@@ -63,5 +63,10 @@ tags = [ "site", "web", "photography", "image", "flickr", "creative-commons" ]
 これでようやく肩の荷が下りたよ。
 今後は呑気に本家サイトの再構築に取り掛かるとしよう。
 今回の作業で再構築に必要なものとか大体わかったので，今度はもう少し上手くやる。
+
+## ブックマーク
+
+- [Flickrのバックアップを急げ、今日から1000枚+の写真削除開始  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/06/2019-02-05-flickr-deleting-photos-how-to-backup/)
+- [Flickrは写真の削除を3月12日までに延期  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/07/2019-02-06-flickr-will-hold-off-on-deleting-photos-until-march-12th/)
 
 [Flickr]: https://www.flickr.com/
