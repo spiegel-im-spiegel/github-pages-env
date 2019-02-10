@@ -2,7 +2,7 @@
 title = "節分どうでしょう"
 date = "2018-02-06T19:55:21+09:00"
 description = "いや，ベランダや室内に豆撒いたら後の掃除が大変じゃないですか。恵方巻？ 知りませんよ，そんな習慣。"
-image = "/images/attention/kitten.jpg"
+image = "https://photo.baldanders.info/flickr/image/26183322098_o.jpg"
 tags        = [ "market", "folklore" ]
 
 [author]
@@ -30,7 +30,7 @@ tags        = [ "market", "folklore" ]
 いや，ベランダや室内に豆撒いたら後の掃除が大変じゃないですか。
 恵方巻？ 知りませんよ，そんな習慣。
 
-{{< fig-img src="https://farm5.staticflickr.com/4664/26183322098_d868d22af4.jpg" title="節分なのでビールと枝豆" link="https://www.flickr.com/photos/spiegel/26183322098/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/26183322098_m.jpg" title="節分なのでビールと枝豆" link="https://photo.baldanders.info/flickr/26183322098/" >}}
 
 と思ってたら，実家から電話がかかってきて「恵方巻食べた？」と訊かれました。
 どうやら実家はもう「恵方巻」が完全に定着しているようです。

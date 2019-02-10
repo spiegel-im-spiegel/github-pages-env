@@ -28,7 +28,7 @@ tags = ["mastodon", "communication"]
 
 [Qiita] の記事を眺めててふと見ると「Toot」ボタンが追加されているのに気がついた。
 
-{{< fig-img src="https://farm5.staticflickr.com/4558/38300241091_dfc4d51ace_o.png" title="Qiitadon Button" link="https://www.flickr.com/photos/spiegel/38300241091/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/38300241091_m.png" title="Qiitadon Button" link="https://photo.baldanders.info/flickr/38300241091/" >}}
 
 [Pixiv が Mastodon を運営してる](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=62406690)ってのは知ってたし，こういうやり方は上手いと感じていたので「[Qiita] もやればいいのに」と当時は思っていたが，2017年5月末には既に始めてたのか。
 いや，もう，完全にスルーしてたよ。

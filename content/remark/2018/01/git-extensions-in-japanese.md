@@ -66,11 +66,11 @@ Windows 用なら [Git Extensions] 本体の他に以下のツールが同梱さ
 これで言語を日本語にできる。
 言語の変更は Settings ダイアログの以下の部分をクリックする。
 
-{{< fig-img src="https://farm5.staticflickr.com/4765/24939315857_34f8968be0.jpg" title="Setting of Git Extensions" link="https://www.flickr.com/photos/spiegel/24939315857/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/24939315857_m.png" title="Setting of Git Extensions" link="https://photo.baldanders.info/flickr/24939315857/" >}}
 
 すると以下のウィンドウが表示されるので日本の国旗を選択すれば日本語に切り替わる。
 
-{{< fig-img src="https://farm5.staticflickr.com/4754/39100077644_db52f99e03.jpg" title="Choose language in Git Extensions Setting" link="https://www.flickr.com/photos/spiegel/39100077644/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/39100077644_m.png" title="Choose language in Git Extensions Setting" link="https://photo.baldanders.info/flickr/39100077644/" >}}
 
 やってみるとわかると思うが，けっこう英語のままである（そのせいで Setup ファイルに含まれないのかな）。
 `Japanese.xlf` および `Japanese.Plugins.xlf` はテキストファイルなので，ここをいじれば日本語化できそうだ。
@@ -94,5 +94,3 @@ Windows 用なら [Git Extensions] 本体の他に以下のツールが同梱さ
 [ConEmu]: https://conemu.github.io/ "ConEmu - Handy Windows Terminal"
 [GCM]: https://github.com/Microsoft/Git-Credential-Manager-for-Windows "Git Credential Manager for Windows"
 [Git Extensions]: http://gitextensions.github.io/ "Git Extensions | Git Extensions is a graphical user interface for Git that allows you to control Git without using the commandline"
-
-<!-- eof -->

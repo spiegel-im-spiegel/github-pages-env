@@ -39,7 +39,7 @@ title = "週末スペシャル： 3月9日は皆既日食（日本では部分�
 
 オススメは木漏れ日とかかな。
 
-{{< fig-img flickr="true" src="https://farm8.staticflickr.com/7072/7239249856_bda0f91b27.jpg" title="Eclipse Shadows" link="https://www.flickr.com/photos/8106459@N07/7239249856/" >}}
+{{< fig-img src="https://farm8.staticflickr.com/7072/7239249856_bda0f91b27.jpg" title="Eclipse Shadows" link="https://www.flickr.com/photos/8106459@N07/7239249856/" >}}
 
 ## サーバサイド CMS はリスクか{#cms}
 

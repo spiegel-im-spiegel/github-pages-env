@@ -45,11 +45,11 @@ tags = [ "amazon", "web", "site", "market" ]
 今回は『[Go言語による並行処理]』というタイトルで本を探してみる。
 検索結果はこんな感じ。
 
-{{< fig-img src="https://farm2.staticflickr.com/1917/43605887110_74272bd08b.jpg" alt="godoc" title="Amakuri" link="https://www.flickr.com/photos/spiegel/43605887110/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/43605887110_m.png" title="Search by Amakuri" link="https://photo.baldanders.info/flickr/43605887110/" >}}
 
 検索結果の「商品リンクを作る」ボタンを押下（クリック）すると以下の画面になる。
 
-{{< fig-img src="https://farm2.staticflickr.com/1975/45371115622_853e53c65d.jpg" alt="godoc" title="Amakuri" link="https://www.flickr.com/photos/spiegel/45371115622/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/45371115622_m.png" title="Amakuri" link="https://photo.baldanders.info/flickr/45371115622/" >}}
 
 Associate ID を持っているなら「アソシエイトID」の項目に入力して「登録」すれば「貼り付け用リンクコード」に出力結果が即時反映される。
 なくても無問題。

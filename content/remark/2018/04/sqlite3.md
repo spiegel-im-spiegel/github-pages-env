@@ -30,11 +30,11 @@ tags = [ "sqlite", "tools" ]
 
 で，よく見たらネイティブで [SQLite] に対応してるのか，これ。
 
-{{< fig-img src="https://farm1.staticflickr.com/967/26816747937_2b4195bd3a_o.png" title="A5:SQL Mk-2" link="https://www.flickr.com/photos/spiegel/26816747937/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/26816747937_m.png" title="A5:SQL Mk-2" link="https://photo.baldanders.info/flickr/26816747937/" >}}
 
 追加もDBファイルを指定するだけなので簡単（sqlite3.dll が別途必要）。
 
-{{< fig-img src="https://farm1.staticflickr.com/979/27815800168_0fa56d9c07.jpg" title="SQLite 3 w/ A5:SQL Mk-2" link="https://www.flickr.com/photos/spiegel/27815800168/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/27815800168_m.png" title="SQLite 3 w/ A5:SQL Mk-2" link="https://photo.baldanders.info/flickr/27815800168/" >}}
 
 ただしDBファイルを暗号化している場合は [SQLite ODBC Driver](http://www.ch-werner.de/sqliteodbc/) を経由する必要があるようだ。
 

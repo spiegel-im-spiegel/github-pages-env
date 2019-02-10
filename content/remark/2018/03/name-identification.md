@@ -77,7 +77,7 @@ Facebook が面白そうなので，覚書として一応残しておく。
 
 具体的には
 
-{{< fig-img src="https://farm1.staticflickr.com/890/40426031674_bb597f9296.jpg" title="facebook settings" link="https://www.flickr.com/photos/spiegel/40426031674/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/40426031674_m.png" title="facebook settings" link="https://photo.baldanders.info/flickr/40426031674/" >}}
 
 この中の「このアプリに提供される情報」に友達リストや誕生日などが列挙されている場合がある。
 「代わり」になってない気がするのだが，まぁいいや。

@@ -123,7 +123,7 @@ $ gpg --export-ownertrust > trust.txt
 
 インストール先のフォルダを変えたい場合はここで変更する。
 
-{{< fig-img src="https://photo.baldanders.info/flickr/image/25601226555_o.png" title="Installing GnuPG for Windows (5)" link="https://photo.baldanders.info/flickr/25601226555/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/25601226555_o.png" title="Installing GnuPG for Windows (5)" link="https://photo.baldanders.info/flickr/25601226555/" width="513" >}}
 
 -->
 

@@ -3,7 +3,7 @@ title = "ようやく Yahoo! の呪いから抜け出せる Flickr"
 date = "2018-04-22T10:12:41+09:00"
 update = "2018-04-24T20:10:27+09:00"
 description = "今更 Flickr が以前の勢いを取り戻せるか分からないが， Verizon/Oath にいたら間違いなく殺されるし，少なくとも Yahoo! アカウントとおさらばできるのだ。"
-image = "https://farm1.staticflickr.com/6/7444837_9f0e5aa6d6_o.jpg"
+image = "https://photo.baldanders.info/flickr/image/7444837_o.jpg"
 tags        = [ "photography", "flickr" ]
 
 [author]
@@ -56,7 +56,7 @@ Yahoo! 買収自体は悪いことではない。
 
 10年代もあと2年ほどで終わるが，この10年に登場したサービスでどれだけのものが残るやら。
 
-{{< fig-img src="https://farm1.staticflickr.com/6/7444837_9f0e5aa6d6.jpg" title="Frog" link="https://www.flickr.com/photos/spiegel/7444837/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/7444837_m.jpg" title="Frog" link="https://photo.baldanders.info/flickr/7444837/" >}}
 
 ## 【追記 2018-04-24】 利用規約およびプライバシー・ポリシーの移行
 
@@ -74,5 +74,9 @@ Yahoo! 買収自体は悪いことではない。
 今後も [Flickr] に残り続けるか否か，規約をよく読んで決定してほしい。
 ザッと読んだ感じ，今より悪くなることはないような気がするけど。
 でも Pro アカウントの人はよく読んでおいたほうがいいかも。
+
+## 【追記】 Flickr から写真を引き揚げました
+
+- [Flickr から写真を引き揚げました]({{< ref "/remark/2019/01/escape-from-flickr.md" >}})
 
 [Flickr]: https://www.flickr.com/

@@ -39,11 +39,11 @@ tags = ["mingw", "gcc", "tools", "windows"]
 
 インストーラを起動すると以下のウィザード画面になる。
 
-{{< fig-img src="https://farm1.staticflickr.com/868/40234864025_5e6b30727f.jpg" title="Installing Mingw-w64 (1)" link="https://www.flickr.com/photos/spiegel/40234864025/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/40234864025_m.png" title="Installing Mingw-w64 (1)" link="https://photo.baldanders.info/flickr/40234864025/" >}}
 
 このまま `[Next >]`。
 
-{{< fig-img src="https://farm1.staticflickr.com/898/41129922281_1cd3e899a2.jpg" title="Installing Mingw-w64 (2)" link="https://www.flickr.com/photos/spiegel/41129922281/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/41129922281_m.png" title="Installing Mingw-w64 (2)" link="https://photo.baldanders.info/flickr/41129922281/" >}}
 
 この画面でインストールする [GCC] の種別を指定する。
 
@@ -61,19 +61,19 @@ tags = ["mingw", "gcc", "tools", "windows"]
 
 種別を指定したら `[Next >]`。
 
-{{< fig-img src="https://farm1.staticflickr.com/798/27256804608_3c74aed9e4.jpg" title="Installing Mingw-w64 (3)" link="https://www.flickr.com/photos/spiegel/27256804608/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/27256804608_m.png" title="Installing Mingw-w64 (3)" link="https://photo.baldanders.info/flickr/27256804608/" >}}
 
 インストール先のフォルダを指定する。
 既定のままではめっさ長い名前になるので変更したほうがいいかも？
 
 `[Next >]` でインストールを開始する。
 
-{{< fig-img src="https://farm1.staticflickr.com/885/40234864195_35a1d24993.jpg" title="Installing Mingw-w64 (4)" link="https://www.flickr.com/photos/spiegel/40234864195/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/40234864195_m.png" title="Installing Mingw-w64 (4)" link="https://photo.baldanders.info/flickr/40234864195/" >}}
 
 どうもネットから指定した種別に対応する圧縮ファイルをダウンロードしてバイナリを展開しているようだ。
 完了したら `[Next >]`。
 
-{{< fig-img src="https://farm1.staticflickr.com/894/40234864325_ea472a14df.jpg" title="Installing Mingw-w64 (5)" link="https://www.flickr.com/photos/spiegel/40234864325/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/40234864325_m.png" title="Installing Mingw-w64 (5)" link="https://photo.baldanders.info/flickr/40234864325/" >}}
 
 これで完了。
 お疲れ様でした。
@@ -97,7 +97,7 @@ gcc version 7.3.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project)
 
 削除する際はコントロールパネルの「プログラムと機能」から可能だがメチャメチャ分かりにくい名前になっている。
 
-{{< fig-img src="https://farm1.staticflickr.com/789/40235231465_d253312aa0.jpg" title="Uninstalling Mingw-w64" link="https://www.flickr.com/photos/spiegel/40235231465/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/40235231465_m.png" title="Uninstalling Mingw-w64" link="https://photo.baldanders.info/flickr/40235231465/" >}}
 
 「プログラムと機能」の右上に検索窓があるのでそこで「mingw」と入力すれば上の画面のようになるので，これで該当プログラムを選択して削除すればいいだろう。
 

@@ -36,7 +36,7 @@ tags        = [ "facebook", "privacy" ]
 
 顔認識機能については設定ページ内の「顔認識機能」で設定できる。
 
-{{< fig-img src="https://farm1.staticflickr.com/801/40645332555_61e1ed1fbb.jpg" title="Setteing Facebook (1)" link="https://www.flickr.com/photos/spiegel/40645332555/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/40645332555_m.png" title="Setteing Facebook (1)" link="https://photo.baldanders.info/flickr/40645332555/" >}}
 
 説明には
 
@@ -52,7 +52,7 @@ tags        = [ "facebook", "privacy" ]
 もうひとつ。
 設定ページ内の「広告」をクリックすると以下のページに飛ぶ（こういうデザインの「揺れ」も facebook 内の混乱を連想させる）。
 
-{{< fig-img src="https://farm1.staticflickr.com/861/41498065802_25e10a6811.jpg" title="Setteing Facebook (2)" link="https://www.flickr.com/photos/spiegel/41498065802/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/41498065802_m.png" title="Setteing Facebook (2)" link="https://photo.baldanders.info/flickr/41498065802/" >}}
 
 これらの設定項目はひととおり目を通して不要なものや見せたくない情報については無効状態にしておくといいだろう。
 私は片っ端から無効にした。

@@ -3,7 +3,7 @@ title = "「神」と「神」と Chrome の文字化け"
 date =  "2017-12-10T12:35:07+09:00"
 update = "2018-12-10T22:28:16+09:00"
 description = "Google Chrome では「神」と「神」が同じ「神」に見える，という報告をいただきまして，確かにこちらの環境でも再現するので，ちょっと調べてみました。"
-image = "https://farm5.staticflickr.com/4586/38061039025_a61bb35c85.jpg"
+image = "https://photo.baldanders.info/flickr/image/38061039025_o.png"
 tags        = [ "web", "site", "font", "unicode", "normalization", "character", "firefox", "chromium", "webkit" ]
 
 [author]
@@ -81,7 +81,7 @@ tags        = [ "web", "site", "font", "unicode", "normalization", "character", 
 
 これを表示させた結果は以下の通り。
 
-{{< fig-img src="https://farm5.staticflickr.com/4729/38947212091_dceb4778f1.jpg" title="Google Chrome (1)" link="https://www.flickr.com/photos/spiegel/38947212091/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/38947212091_m.png" title="Google Chrome (1)" link="https://photo.baldanders.info/flickr/38947212091/" >}}
 
 最初の3行が Chrome デフォルトの Sans Serif で表示させたもの，次の3行が「[さわらび明朝]」で表示させたものである。
 ただし「[さわらび明朝]」にない文字は Sans Serif で表示するよう設定している。
@@ -130,7 +130,7 @@ tags        = [ "web", "site", "font", "unicode", "normalization", "character", 
 
 これを表示させた結果は以下の通り。
 
-{{< fig-img src="https://farm5.staticflickr.com/4586/38061039025_a61bb35c85.jpg" title="Google Chrome (2)" link="https://www.flickr.com/photos/spiegel/38061039025/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/38061039025_m.png" title="Google Chrome (2)" link="https://photo.baldanders.info/flickr/38061039025/" >}}
 
 ビンゴ！
 

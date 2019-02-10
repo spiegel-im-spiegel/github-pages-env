@@ -2,7 +2,7 @@
 title = "今更ですが，年が明けました。"
 date =  "2018-01-11T13:17:31+09:00"
 description = "このままだと大赤字を垂れ流しながら人生終了な気がするなぁ，と心を新たにする2018年。"
-image = "https://farm5.staticflickr.com/4726/25571919808_1fc98fe4fe.jpg"
+image = "https://photo.baldanders.info/flickr/image/25571919808_o.jpg"
 tags        = [ "living" ]
 
 [author]
@@ -48,7 +48,7 @@ tags        = [ "living" ]
 
 本家への年始挨拶では{{< ruby "じゅうてつ" >}}従姪{{< /ruby >}}（従兄の娘）に Hand Spinner を貰ってしまった。
 
-{{< fig-img src="https://farm5.staticflickr.com/4726/25571919808_1fc98fe4fe.jpg" title="こうやって遊ぶらしい。ジャイロな感じ" link="https://www.flickr.com/photos/spiegel/25571919808/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/25571919808_m.jpg" title="こうやって遊ぶらしい。ジャイロな感じ" link="https://photo.baldanders.info/flickr/25571919808/" >}}
 
 これってお年玉？ いや年上へ「お年玉」はないか（笑） その代わりといってはなんだが，{{< ruby "じゅうてっそん" >}}従姪孫{{< /ruby >}}（従兄の孫！）と仮面ライダーごっこして遊びましたよ。
 
