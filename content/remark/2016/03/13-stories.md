@@ -159,9 +159,18 @@ Windows の（マネタイズを含めた）思想は20年以上も**大昔**の
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4416115458/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51XoyiTnmFL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4416115458/baldandersinf-22/">天文年鑑2016年版</a></dt><dd>天文年鑑編集委員会 </dd><dd>誠文堂新光社 2015-11-16</dd><dd>評価<abbr class="rating" title="5"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4805208899/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4805208899.09._SCTHUMBZZZ_.jpg"  alt="天文手帳 2016年版: 星座早見盤付 天文ポケット年鑑"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/462108965X/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/462108965X.09._SCTHUMBZZZ_.jpg"  alt="理科年表 平成28年"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B016YNZD0I/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B016YNZD0I.09._SCTHUMBZZZ_.jpg"  alt="天文ガイド 2016年 01 月号  [特大号 付録付き]"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B017VPHTX2/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B017VPHTX2.09._SCTHUMBZZZ_.jpg"  alt="月刊 星ナビ 2016年 1月号"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4416115512/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4416115512.09._SCTHUMBZZZ_.jpg"  alt="藤井 旭の天文年鑑 2016年版: スターウォッチング完全ガイド"  /></a> </p>
-<p class="description">天文ファン必携。2016年版</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-12-29">2015-12-29</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%912016%E5%B9%B4%E7%89%88-%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%91%E7%B7%A8%E9%9B%86%E5%A7%94%E5%93%A1%E4%BC%9A/dp/4416115458?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4416115458"><img src="https://images-fe.ssl-images-amazon.com/images/I/51XoyiTnmFL._SL160_.jpg" width="112" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%912016%E5%B9%B4%E7%89%88-%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%91%E7%B7%A8%E9%9B%86%E5%A7%94%E5%93%A1%E4%BC%9A/dp/4416115458?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4416115458">天文年鑑2016年版</a></dt>
+	<dd>天文年鑑編集委員会 (編集)</dd>
+    <dd>誠文堂新光社 2015-11-16</dd>
+    <dd>Book 単行本</dd>
+    <dd>ASIN: 4416115458, EAN: 9784416115459</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">天文ファン必携。2016年版。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-12-29">2015-12-29</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
 
 <div class="hreview">

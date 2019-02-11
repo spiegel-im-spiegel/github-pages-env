@@ -42,14 +42,24 @@
 
 ## セキュリティ＆プライバシー関連
 
+- [AMIがジェフ・ベゾスと「信義のもとに交渉している」と主張、しかし「脅迫問題を調べる」とも  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/10/2019-02-08-ami-jeff-bezos/)
+- [Appleは画面録画コードの使用を明らかにするか、さもなくば止めるよう、デベロッパーに指示  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/10/2019-02-07-apple-glassbox-apps/)
+- [公式サイトと錯覚させる広告表示について調べてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/02/10/040950)
+- [How to keep your privacy while using dating apps](https://blog.f-secure.com/dating-apps/)
 
 ## 天文関連
 
 
 ## 知財関連
 
+- [Nearly 4,000 Pirate Sites Are Blocked by ISPs Around The World - TorrentFreak](https://torrentfreak.com/nearly-4000-pirate-sites-are-blocked-by-isps-around-the-world-190210/)
 
 ## その他
 
+- [Hugoテーマ「viBook」を使ったCSS組版（前編） - Qiita](https://qiita.com/shunito/items/6a628d993cce3cd55b65)
+    - [Hugoテーマ「viBook」を使ったCSS組版（後編） - Qiita](https://qiita.com/shunito/items/28eedf461b911dc9c15d)
+- [Adopting CI/CD in Your Java Project with the Gitflow Branching Model](https://www.infoq.com/articles/CI-CD-Gitflow)
+- [TITANIUM: Tools for the Investigation of Transactions in Underground Markets](https://www.titanium-project.eu/)
+- [MIT Tech Review: AIは規制するべき——米調査で明るみになった市民の意外な評価](https://www.technologyreview.jp/s/121180/americans-want-to-regulate-ai-but-dont-trust-anyone-to-do-it/)
 
 <!-- eof -->

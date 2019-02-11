@@ -106,7 +106,7 @@ title = "映画『火星の人』を観た"
 
 映画を観る際に科学やコンピュータの基礎知識があるとニヤニヤできる（いや，私は爆笑しかけたけど）。
 たとえばラストシーンで低軌道にいるワトニー君に近づくために「ヘルメス」が制動をかけるが，なぜそれで近づくことができるのかピンと来ない人もいるだろう（そしてそれがいかに危険な行為なのかも）。
-この辺の知識はあさりよしとおさんの「[アステロイド・マイナーズ](https://www.amazon.co.jp/exec/obidos/ASIN/4199501460/baldandersinf-22/)」をお薦めする。
+この辺の知識はあさりよしとおさんの「[アステロイド・マイナーズ](https://www.amazon.co.jp/%E3%82%A2%E3%82%B9%E3%83%86%E3%83%AD%E3%82%A4%E3%83%89%E3%83%BB%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%BC%E3%82%BA/dp/B077LH3RL8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B077LH3RL8)」をお薦めする。
 
 既に原作を読んだ方はアラ探しでも面白いと思う。
 小説を映像化するのはなかなか難しいと思うが，この作品はよく出来ている部類だ。
@@ -117,19 +117,46 @@ title = "映画『火星の人』を観た"
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00O1VJZLO/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51DLzSbrC9L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00O1VJZLO/baldandersinf-22/">火星の人</a></dt><dd>アンディ ウィアー 小野田和子 </dd><dd>早川書房 2014-08-25</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00PGNZFD8/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00PGNZFD8.09._SCTHUMBZZZ_.jpg"  alt="星を継ぐもの (創元ＳＦ文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00EMXBDMA/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00EMXBDMA.09._SCTHUMBZZZ_.jpg"  alt="The Martian: A Novel"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00LWWO75E/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00LWWO75E.09._SCTHUMBZZZ_.jpg"  alt="ウール　上<ウール> (角川文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B019FV4BGS/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B019FV4BGS.09._SCTHUMBZZZ_.jpg"  alt="中継ステーション〔新訳版〕 (ハヤカワ文庫SF)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B01BL4TZRW/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B01BL4TZRW.09._SCTHUMBZZZ_.jpg"  alt="スティーブズ（４） (ビッグコミックス)"  /></a> </p>
-<p class="description">面白かった。やっぱ原作のほうがいいな。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-02-20">2016-02-20</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E7%81%AB%E6%98%9F%E3%81%AE%E4%BA%BA-%E3%82%A2%E3%83%B3%E3%83%87%E3%82%A3-%E3%82%A6%E3%82%A3%E3%82%A2%E3%83%BC-ebook/dp/B00O1VJZLO?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00O1VJZLO"><img src="https://images-fe.ssl-images-amazon.com/images/I/51DLzSbrC9L._SL160_.jpg" width="107" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E7%81%AB%E6%98%9F%E3%81%AE%E4%BA%BA-%E3%82%A2%E3%83%B3%E3%83%87%E3%82%A3-%E3%82%A6%E3%82%A3%E3%82%A2%E3%83%BC-ebook/dp/B00O1VJZLO?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00O1VJZLO">火星の人</a></dt>
+	<dd>アンディ ウィアー</dd>
+	<dd>小野田和子 (翻訳)</dd>
+    <dd>早川書房 2014-08-25 (Release 2014-09-30)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B00O1VJZLO</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">面白かった。やっぱ原作のほうがいいな。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-02-20">2016-02-20</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4199501460/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/61nz%2B0LcZRL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4199501460/baldandersinf-22/">アステロイド・マイナーズ 1 (リュウコミックス)</a></dt><dd>あさり よしとお </dd><dd>徳間書店 2010-02-13</dd><dd>評価<abbr class="rating" title="5"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4199502092/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4199502092.09._SCTHUMBZZZ_.jpg"  alt="アステロイド・マイナーズ 2(リュウコミックス)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4592710584/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4592710584.09._SCTHUMBZZZ_.jpg"  alt="小惑星に挑む"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4199501665/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4199501665.09._SCTHUMBZZZ_.jpg"  alt="あさりよしとお短篇集 毒入りカプセル篇 (リュウコミックス)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4056070962/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4056070962.09._SCTHUMBZZZ_.jpg"  alt="まんがサイエンス 14 (ノーラコミックス)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4847035399/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4847035399.09._SCTHUMBZZZ_.jpg"  alt="新装版 HAL―Hyper Academic Laboratory (ガムコミックスプラス)"  /></a> </p>
-<p class="description" >宇宙をなめるな！ って感じ（笑）</p>
-<p class="gtools" >reviewed by <a href="#maker" class="reviewer">Spiegel</a> on <abbr class="dtreviewed" title="2014-09-27">2014/09/27</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html">G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%A2%E3%82%B9%E3%83%86%E3%83%AD%E3%82%A4%E3%83%89%E3%83%BB%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%BC%E3%82%BA/dp/B077LH3RL8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B077LH3RL8"><img src="https://images-fe.ssl-images-amazon.com/images/I/61%2BpRaYSTSL._SL160_.jpg" width="160" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E3%82%A2%E3%82%B9%E3%83%86%E3%83%AD%E3%82%A4%E3%83%89%E3%83%BB%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%BC%E3%82%BA/dp/B077LH3RL8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B077LH3RL8">アステロイド・マイナーズ</a></dt>
+	<dd>あさりよしとお</dd>
+    <dd></dd>
+    <dd>Collections Kindle版</dd>
+    <dd>ASIN: B077LH3RL8</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">宇宙をなめるな！ って感じ（笑）</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-09-27">2014-09-27</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4873114985/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51171H-Wh0L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4873114985/baldandersinf-22/">子どもが体験するべき50の危険なこと (Make: Japan Books)</a></dt><dd>Gever Tulley Julie Spiegler 金井 哲夫 </dd><dd>オライリージャパン 2011-05-26</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4873116368/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4873116368.09._SCTHUMBZZZ_.jpg"  alt="ギークマム ―21世紀のママと家族のための実験、工作、冒険アイデア (Make: Japan Books)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/486410168X/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/486410168X.09._SCTHUMBZZZ_.jpg"  alt="秘密基地の作り方"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4845913151/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4845913151.09._SCTHUMBZZZ_.jpg"  alt="子どもの創造力スイッチ!   遊びと学びのひみつ基地CANVASの実践"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4873115094/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4873115094.09._SCTHUMBZZZ_.jpg"  alt="Cooking for Geeks ―料理の科学と実践レシピ (Make: Japan Books)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4873115000/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4873115000.09._SCTHUMBZZZ_.jpg"  alt="Made by Hand ―ポンコツDIYで自分を取り戻す (Make: Japan Books)"  /></a> </p>
-<p class="description" >ただ守るだけではダメなのよ。</p>
-<p class="gtools" >reviewed by <a href="#maker" class="reviewer">Spiegel</a> on <abbr class="dtreviewed" title="2014-10-08">2014/10/08</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html">G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%AD%90%E3%81%A9%E3%82%82%E3%81%8C%E4%BD%93%E9%A8%93%E3%81%99%E3%82%8B%E3%81%B9%E3%81%8D50%E3%81%AE%E5%8D%B1%E9%99%BA%E3%81%AA%E3%81%93%E3%81%A8-Make-Japan-Gever-Tulley/dp/4873114985?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4873114985"><img src="https://images-fe.ssl-images-amazon.com/images/I/512xgQsxaML._SL160_.jpg" width="114" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E5%AD%90%E3%81%A9%E3%82%82%E3%81%8C%E4%BD%93%E9%A8%93%E3%81%99%E3%82%8B%E3%81%B9%E3%81%8D50%E3%81%AE%E5%8D%B1%E9%99%BA%E3%81%AA%E3%81%93%E3%81%A8-Make-Japan-Gever-Tulley/dp/4873114985?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4873114985">子どもが体験するべき50の危険なこと (Make: Japan Books)</a></dt>
+	<dd>Gever Tulley, Julie Spiegler</dd>
+	<dd>金井 哲夫 (翻訳)</dd>
+    <dd>オライリージャパン 2011-05-26</dd>
+    <dd>Book 単行本（ソフトカバー）</dd>
+    <dd>ASIN: 4873114985, EAN: 9784873114989</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">ただ守るだけではダメなのよ。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-10-08">2014-10-08</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
-
-

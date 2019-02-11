@@ -148,7 +148,16 @@ MIAU から「知的財産推進計画2016」が公開されている。
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4166600044/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/41GPXP2HRVL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4166600044/baldandersinf-22/">ファースト・コンタクト―地球外知性体と出会う日 (文春新書)</a></dt><dd>金子 隆一 </dd><dd>文藝春秋 1998-10</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
-<p class="description">地球外文明探査の歴史を俯瞰する良書。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-01-30">2016-01-30</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%83%BB%E3%82%B3%E3%83%B3%E3%82%BF%E3%82%AF%E3%83%88%E2%80%95%E5%9C%B0%E7%90%83%E5%A4%96%E7%9F%A5%E6%80%A7%E4%BD%93%E3%81%A8%E5%87%BA%E4%BC%9A%E3%81%86%E6%97%A5-%E6%96%87%E6%98%A5%E6%96%B0%E6%9B%B8-%E9%87%91%E5%AD%90-%E9%9A%86%E4%B8%80/dp/4166600044?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4166600044"><img src="https://images-fe.ssl-images-amazon.com/images/I/41GPXP2HRVL._SL160_.jpg" width="100" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%83%BB%E3%82%B3%E3%83%B3%E3%82%BF%E3%82%AF%E3%83%88%E2%80%95%E5%9C%B0%E7%90%83%E5%A4%96%E7%9F%A5%E6%80%A7%E4%BD%93%E3%81%A8%E5%87%BA%E4%BC%9A%E3%81%86%E6%97%A5-%E6%96%87%E6%98%A5%E6%96%B0%E6%9B%B8-%E9%87%91%E5%AD%90-%E9%9A%86%E4%B8%80/dp/4166600044?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4166600044">ファースト・コンタクト―地球外知性体と出会う日 (文春新書)</a></dt>
+	<dd>金子 隆一</dd>
+    <dd>文藝春秋 1998-10</dd>
+    <dd>Book 新書</dd>
+    <dd>ASIN: 4166600044, EAN: 9784166600045</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">地球外文明探査の歴史を俯瞰する良書。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-01-30">2016-01-30</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>

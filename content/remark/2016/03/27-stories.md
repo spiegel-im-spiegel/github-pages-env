@@ -102,7 +102,16 @@ Markdown が RFC になったらしい。
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/483544213X/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/518uMdKYp3L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/483544213X/baldandersinf-22/">すくらっぷ・ブック (1) (fukkan.com―小山田いく選集)</a></dt><dd>小山田 いく </dd><dd>ブッキング 2006-06-01</dd><dd>評価<abbr class="rating" title="5"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/425310200X/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/425310200X.09._SCTHUMBZZZ_.jpg"  alt="週刊少年チャンピオン40th 創刊40周年記念特別編集"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4835442970/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4835442970.09._SCTHUMBZZZ_.jpg"  alt="魑魅 (小山田いく選集 2期)"  /></a> </p>
-<p class="description">思春期の頃の愛読書でした。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-07-01">2015/07/01</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%99%E3%81%8F%E3%82%89%E3%81%A3%E3%81%B7%E3%83%BB%E3%83%96%E3%83%83%E3%82%AF%EF%BC%91%E5%B7%BB-%E5%B0%8F%E5%B1%B1%E7%94%B0%E3%81%84%E3%81%8F%E9%81%B8%E9%9B%86%EF%BC%93-%E5%B0%8F%E5%B1%B1%E7%94%B0-%E3%81%84%E3%81%8F/dp/4835400941?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4835400941"><img src="https://images-fe.ssl-images-amazon.com/images/I/51--YN7-K2L._SL160_.jpg" width="111" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E3%81%99%E3%81%8F%E3%82%89%E3%81%A3%E3%81%B7%E3%83%BB%E3%83%96%E3%83%83%E3%82%AF%EF%BC%91%E5%B7%BB-%E5%B0%8F%E5%B1%B1%E7%94%B0%E3%81%84%E3%81%8F%E9%81%B8%E9%9B%86%EF%BC%93-%E5%B0%8F%E5%B1%B1%E7%94%B0-%E3%81%84%E3%81%8F/dp/4835400941?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4835400941">すくらっぷ・ブック１巻 (小山田いく選集３)</a></dt>
+	<dd>小山田 いく</dd>
+    <dd>復刊ドットコム 2006-07-10 (Release 2006-07-10)</dd>
+    <dd>Book オンデマンド (ペーパーバック)</dd>
+    <dd>ASIN: 4835400941, EAN: 9784835400945</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">思春期の頃の愛読書でした。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-07-01">2015-07-01</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>

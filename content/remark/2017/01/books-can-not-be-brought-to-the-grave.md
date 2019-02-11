@@ -160,14 +160,14 @@ Amazon.co.jp はいったい何がしたいのだろうか。
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E7%8A%AC%E3%81%A8%E3%83%8F%E3%82%B5%E3%83%9F%E3%81%AF%E4%BD%BF%E3%81%84%E3%82%88%E3%81%86-%E3%83%95%E3%82%A1%E3%83%9F%E9%80%9A%E6%96%87%E5%BA%AB-%E6%9B%B4%E4%BC%8A-%E4%BF%8A%E4%BB%8B-ebook/dp/B009IMAGYQ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B009IMAGYQ"><img src="https://images-fe.ssl-images-amazon.com/images/I/51z%2BiAd-8QL._SL160_.jpg" width="113" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%BE%E3%81%A8%E3%82%81%E8%B2%B7%E3%81%84-%E7%8A%AC%E3%81%A8%E3%83%8F%E3%82%B5%E3%83%9F%E3%81%AF%E4%BD%BF%E3%81%84%E3%82%88%E3%81%86/dp/B012Z14W64?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B012Z14W64"><img src="https://images-fe.ssl-images-amazon.com/images/I/C1%2BK8Ed3IkS._SL160_.png" width="160" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E7%8A%AC%E3%81%A8%E3%83%8F%E3%82%B5%E3%83%9F%E3%81%AF%E4%BD%BF%E3%81%84%E3%82%88%E3%81%86-%E3%83%95%E3%82%A1%E3%83%9F%E9%80%9A%E6%96%87%E5%BA%AB-%E6%9B%B4%E4%BC%8A-%E4%BF%8A%E4%BB%8B-ebook/dp/B009IMAGYQ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B009IMAGYQ">犬とハサミは使いよう (ファミ通文庫)</a></dt>
-	<dd>更伊 俊介</dd>
+    <dt><a href="https://www.amazon.co.jp/%E3%81%BE%E3%81%A8%E3%82%81%E8%B2%B7%E3%81%84-%E7%8A%AC%E3%81%A8%E3%83%8F%E3%82%B5%E3%83%9F%E3%81%AF%E4%BD%BF%E3%81%84%E3%82%88%E3%81%86/dp/B012Z14W64?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B012Z14W64">[まとめ買い] 犬とハサミは使いよう</a></dt>
+	<dd>更伊 俊介, 鍋島 テツヒロ</dd>
 	<dd>鍋島 テツヒロ (イラスト)</dd>
-    <dd>KADOKAWA / エンターブレイン 2011-08-25 (Release 2012-09-07)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B009IMAGYQ</dd>
+    <dd></dd>
+    <dd>Ebook Bundle Kindle版</dd>
+    <dd>ASIN: B012Z14W64</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">犬になっても本を読む！</p>

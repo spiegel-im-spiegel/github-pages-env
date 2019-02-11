@@ -119,7 +119,17 @@ LTS 版って Firefox で言うところの [ESR (Extended Support Release) 版]
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00O1VK072/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51UzGYXJ70L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00O1VK072/baldandersinf-22/">われはロボット〔決定版〕</a></dt><dd>アイザック アシモフ 小尾芙佐 </dd><dd>早川書房 2014-04-25</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00O2O7JFY/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00O2O7JFY.09._SCTHUMBZZZ_.jpg"  alt="鋼鉄都市"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00N4FBCR8/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00N4FBCR8.09._SCTHUMBZZZ_.jpg"  alt="第二ファウンデーション"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00N4FBCUU/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00N4FBCUU.09._SCTHUMBZZZ_.jpg"  alt="ファウンデーション対帝国"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00N4FBCO6/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00N4FBCO6.09._SCTHUMBZZZ_.jpg"  alt="ファウンデーション"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00N4FBCQO/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00N4FBCQO.09._SCTHUMBZZZ_.jpg"  alt="サリーはわが恋人"  /></a> </p>
-<p class="description">ロボットや AI の SF ならこれが古典で定番か？ 面白かったら続けて『<a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00O2O7JFY/baldandersinf-22/">鋼鉄都市</a>』も読むとよい。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-11-03">2015-11-03</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%8F%E3%82%8C%E3%81%AF%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E3%80%94%E6%B1%BA%E5%AE%9A%E7%89%88%E3%80%95-%E3%82%A2%E3%82%A4%E3%82%B6%E3%83%83%E3%82%AF-%E3%82%A2%E3%82%B7%E3%83%A2%E3%83%95-ebook/dp/B00O1VK072?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00O1VK072"><img src="https://images-fe.ssl-images-amazon.com/images/I/51UzGYXJ70L._SL160_.jpg" width="108" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E3%82%8F%E3%82%8C%E3%81%AF%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E3%80%94%E6%B1%BA%E5%AE%9A%E7%89%88%E3%80%95-%E3%82%A2%E3%82%A4%E3%82%B6%E3%83%83%E3%82%AF-%E3%82%A2%E3%82%B7%E3%83%A2%E3%83%95-ebook/dp/B00O1VK072?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00O1VK072">われはロボット〔決定版〕</a></dt>
+	<dd>アイザック アシモフ</dd>
+	<dd>小尾芙佐 (翻訳)</dd>
+    <dd>早川書房 2014-04-25 (Release 2014-09-30)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B00O1VK072</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">ロボットや AI の SF ならこれが古典で定番か？ 面白かったら続けて『<a href="https://www.amazon.co.jp/%E9%8B%BC%E9%89%84%E9%83%BD%E5%B8%82-%E3%82%A2%E3%82%A4%E3%82%B6%E3%83%83%E3%82%AF-%E3%82%A2%E3%82%B7%E3%83%A2%E3%83%95-ebook/dp/B00O2O7JFY?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00O2O7JFY">鋼鉄都市</a>』も読むとよい。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-11-03">2015-11-03</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>

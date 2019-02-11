@@ -172,9 +172,19 @@ Bitcoin ってどうしてもかつての「地域通貨」を連想しちゃう
 うーむ，「『いま読むべき本』３冊」かぁ。
 私が人様に本を勧めるなどおこがましい話ではあるが，敢えて3冊選べというなら，今のところこれかな。
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4798115002/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/41bC8pdM2iL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4798115002/baldandersinf-22/">CODE VERSION 2.0</a></dt><dd>ローレンス・レッシグ Lawrence Lessig </dd><dd>翔泳社 2007-12-20</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4798102040/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4798102040.09._SCTHUMBZZZ_.jpg"  alt="コモンズ"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4798119806/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4798119806.09._SCTHUMBZZZ_.jpg"  alt="REMIX ハイブリッド経済で栄える文化と商業のあり方"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4798106801/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4798106801.09._SCTHUMBZZZ_.jpg"  alt="Free Culture"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4480431837/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4480431837.09._SCTHUMBZZZ_.jpg"  alt="アーキテクチャの生態系: 情報環境はいかに設計されてきたか (ちくま文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4757102453/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4757102453.09._SCTHUMBZZZ_.jpg"  alt="アーキテクチャの生態系――情報環境はいかに設計されてきたか"  /></a> </p>
-<p class="description">前著『CODE』改訂版。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-09-15">2015-09-15</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/CODE-VERSION-2-0-%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%AC%E3%83%83%E3%82%B7%E3%82%B0-ebook/dp/B01CYDGUV8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01CYDGUV8"><img src="https://images-fe.ssl-images-amazon.com/images/I/31Q2jh%2B5SgL._SL160_.jpg" width="113" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/CODE-VERSION-2-0-%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%AC%E3%83%83%E3%82%B7%E3%82%B0-ebook/dp/B01CYDGUV8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01CYDGUV8">CODE VERSION 2.0</a></dt>
+	<dd>ローレンス・レッシグ</dd>
+	<dd>山形浩生 (翻訳)</dd>
+    <dd>翔泳社 2007-12-19 (Release 2016-03-14)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B01CYDGUV8</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">前著『CODE』改訂版。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-17">2018-11-17</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
 <div class="hreview">

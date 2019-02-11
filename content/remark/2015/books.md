@@ -49,7 +49,17 @@ title = "本を売りたいなら本屋である必然性がない，または�
 もちろん再構築（restructuring）はいつだって痛みを伴うものだけど。
 でも，このままダラダラと成り行きに任せてたら三者共倒れだよ。
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B009IMAGYQ/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51z%2BiAd-8QL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B009IMAGYQ/baldandersinf-22/">犬とハサミは使いよう　１</a></dt><dd>更伊 俊介 鍋島 テツヒロ </dd><dd>KADOKAWA / エンターブレイン 2011-02-28</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00CFJIZYM/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00CFJIZYM.09._SCTHUMBZZZ_.jpg"  alt="犬とハサミは使いよう2"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00CFJJ01O/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00CFJJ01O.09._SCTHUMBZZZ_.jpg"  alt="犬とハサミは使いよう3"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00CFJJ05A/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00CFJJ05A.09._SCTHUMBZZZ_.jpg"  alt="犬とハサミは使いよう4"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00CFJJ03M/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00CFJJ03M.09._SCTHUMBZZZ_.jpg"  alt="犬とハサミは使いよう5"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00CPEB6PW/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00CPEB6PW.09._SCTHUMBZZZ_.jpg"  alt="犬とハサミは使いよう6"  /></a> </p>
-<p class="description" >犬になっても本を読む！</p>
-<p class="gtools" >reviewed by <a href="#maker" class="reviewer">Spiegel</a> on <abbr class="dtreviewed" title="2015-04-26">2015/04/26</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html">G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%BE%E3%81%A8%E3%82%81%E8%B2%B7%E3%81%84-%E7%8A%AC%E3%81%A8%E3%83%8F%E3%82%B5%E3%83%9F%E3%81%AF%E4%BD%BF%E3%81%84%E3%82%88%E3%81%86/dp/B012Z14W64?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B012Z14W64"><img src="https://images-fe.ssl-images-amazon.com/images/I/C1%2BK8Ed3IkS._SL160_.png" width="160" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E3%81%BE%E3%81%A8%E3%82%81%E8%B2%B7%E3%81%84-%E7%8A%AC%E3%81%A8%E3%83%8F%E3%82%B5%E3%83%9F%E3%81%AF%E4%BD%BF%E3%81%84%E3%82%88%E3%81%86/dp/B012Z14W64?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B012Z14W64">[まとめ買い] 犬とハサミは使いよう</a></dt>
+	<dd>更伊 俊介, 鍋島 テツヒロ</dd>
+	<dd>鍋島 テツヒロ (イラスト)</dd>
+    <dd></dd>
+    <dd>Ebook Bundle Kindle版</dd>
+    <dd>ASIN: B012Z14W64</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">犬になっても本を読む！</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-04-26">2015-04-26</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>

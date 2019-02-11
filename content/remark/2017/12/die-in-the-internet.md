@@ -86,17 +86,45 @@ tags        = [ "internet", "code" ]
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B0096I6YD4/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/519n5WuN-FL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B0096I6YD4/baldandersinf-22/">ゆめのかよいじ (ニュータイプ100%コミックス)</a></dt><dd>大野 安之 </dd><dd>KADOKAWA / 角川書店 2011-12-01</dd><dd>評価<abbr class="rating" title="5"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B017B6TSSA/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B017B6TSSA.09._SCTHUMBZZZ_.jpg"  alt="精霊伝説ヒューディー 3巻"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B017B6TSQW/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B017B6TSQW.09._SCTHUMBZZZ_.jpg"  alt="精霊伝説ヒューディー 1巻"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B017B6TSRG/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B017B6TSRG.09._SCTHUMBZZZ_.jpg"  alt="精霊伝説ヒューディー 2巻"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B017B6TT8O/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B017B6TT8O.09._SCTHUMBZZZ_.jpg"  alt="Lip"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B017B6TSE4/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B017B6TSE4.09._SCTHUMBZZZ_.jpg"  alt="Thats!イズミコ 1巻"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B075RWWT7Y/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B075RWWT7Y.09._SCTHUMBZZZ_.jpg"  alt="ともだちごっこ (2) (バーズコミックス　スピカコレクション)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B017B6TSOO/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B017B6TSOO.09._SCTHUMBZZZ_.jpg"  alt="Thats!イズミコ 3巻"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B017B6TSNU/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B017B6TSNU.09._SCTHUMBZZZ_.jpg"  alt="Thats!イズミコ 6巻"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B017B6TS2Q/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B017B6TS2Q.09._SCTHUMBZZZ_.jpg"  alt="Thats!イズミコ 2巻"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B017B6TSNK/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B017B6TSNK.09._SCTHUMBZZZ_.jpg"  alt="Thats!イズミコ 5巻"  /></a> </p>
-<p class="description">ふっふっふ。少年画報社版も持ってるぜ！</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-12-19">2017-12-19</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%86%E3%82%81%E3%81%AE%E3%81%8B%E3%82%88%E3%81%84%E3%81%98-%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%97100%25%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%A4%A7%E9%87%8E-%E5%AE%89%E4%B9%8B-ebook/dp/B0096I6YD4?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0096I6YD4"><img src="https://images-fe.ssl-images-amazon.com/images/I/519n5WuN-FL._SL160_.jpg" width="110" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E3%82%86%E3%82%81%E3%81%AE%E3%81%8B%E3%82%88%E3%81%84%E3%81%98-%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%97100%25%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%A4%A7%E9%87%8E-%E5%AE%89%E4%B9%8B-ebook/dp/B0096I6YD4?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0096I6YD4">ゆめのかよいじ (ニュータイプ100%コミックス)</a></dt>
+	<dd>大野 安之</dd>
+    <dd>KADOKAWA / 角川書店 2011-12-01 (Release 2012-09-01)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B0096I6YD4</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">ふっふっふ。少年画報社版も持ってるぜ！</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-12-19">2017-12-19</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B0756XN84P/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/61mqSfwnOzL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B0756XN84P/baldandersinf-22/">マップス</a></dt><dd>長谷川 裕一 </dd><dd> </dd><dd>評価<abbr class="rating" title="5"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
-<p class="description">20世紀を代表するスペースオペラ漫画（のひとつ）</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-12-19">2017-12-19</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%9E%E3%83%83%E3%83%97%E3%82%B9/dp/B0756XN84P?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0756XN84P"><img src="https://images-fe.ssl-images-amazon.com/images/I/61mqSfwnOzL._SL160_.jpg" width="160" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E3%83%9E%E3%83%83%E3%83%97%E3%82%B9/dp/B0756XN84P?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0756XN84P">マップス</a></dt>
+	<dd>長谷川 裕一</dd>
+    <dd></dd>
+    <dd>Collections Kindle版</dd>
+    <dd>ASIN: B0756XN84P</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">20世紀を代表するスペースオペラ漫画（のひとつ）</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-12-19">2017-12-19</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B077ZN772M/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/6181ZNasAKL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B077ZN772M/baldandersinf-22/">[まとめ買い] 転生したら剣でした (文庫版)</a></dt><dd>棚架ユウ るろお </dd><dd> </dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
-<p class="description">フランちゃんが可愛い。特に尻尾が。あと師匠のカレーが食べたい。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-12-19">2017-12-19</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%BE%E3%81%A8%E3%82%81%E8%B2%B7%E3%81%84-%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%82%89%E5%89%A3%E3%81%A7%E3%81%97%E3%81%9F-%E6%96%87%E5%BA%AB%E7%89%88/dp/B07KB1YB3F?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07KB1YB3F"><img src="https://images-fe.ssl-images-amazon.com/images/I/B1qO-QmiUpS._SL160_.png" width="160" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E3%81%BE%E3%81%A8%E3%82%81%E8%B2%B7%E3%81%84-%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%82%89%E5%89%A3%E3%81%A7%E3%81%97%E3%81%9F-%E6%96%87%E5%BA%AB%E7%89%88/dp/B07KB1YB3F?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07KB1YB3F">[まとめ買い] 転生したら剣でした (文庫版)</a></dt>
+	<dd>棚架ユウ</dd>
+	<dd>るろお (イラスト)</dd>
+    <dd></dd>
+    <dd>Ebook Bundle Kindle版</dd>
+    <dd>ASIN: B07KB1YB3F</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">フランちゃんが可愛い。特に尻尾が。あと師匠のカレーが食べたい。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-12-19">2017-12-19</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>

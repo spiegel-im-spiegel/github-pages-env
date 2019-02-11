@@ -189,7 +189,16 @@ title = "同時多発テロ関連のブックマーク"
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-01-31">2015-01-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4062585103/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/41X1JAIWl3L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4062585103/baldandersinf-22/">中東戦記 ポスト9.11時代への政治的ガイド (講談社選書メチエ)</a></dt><dd>ジル・ケペル 池内 恵 </dd><dd>講談社 2011-09-09</dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4061495887/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4061495887.09._SCTHUMBZZZ_.jpg"  alt="現代アラブの社会思想 (講談社現代新書)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4106036436/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4106036436.09._SCTHUMBZZZ_.jpg"  alt="中東 危機の震源を読む (新潮選書)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4130331043/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4130331043.09._SCTHUMBZZZ_.jpg"  alt="「アラブの春」とは何だったのか"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4797234024/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4797234024.09._SCTHUMBZZZ_.jpg"  alt="安全保障関連法 ― 変わる安保体制"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4166610139/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4166610139.09._SCTHUMBZZZ_.jpg"  alt="イスラーム国の衝撃 (文春新書)"  /></a> </p>
-<p class="description">読むべきかなぁ，と思いつつもまだ。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-11-15">2015-11-15</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E4%B8%AD%E6%9D%B1%E6%88%A6%E8%A8%98-%E3%83%9D%E3%82%B9%E3%83%889-11%E6%99%82%E4%BB%A3%E3%81%B8%E3%81%AE%E6%94%BF%E6%B2%BB%E7%9A%84%E3%82%AC%E3%82%A4%E3%83%89-%E8%AC%9B%E8%AB%87%E7%A4%BE%E9%81%B8%E6%9B%B8%E3%83%A1%E3%83%81%E3%82%A8-%E3%82%B8%E3%83%AB%E3%83%BB%E3%82%B1%E3%83%9A%E3%83%AB/dp/4062585103?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4062585103"><img src="https://images-fe.ssl-images-amazon.com/images/I/41X1JAIWl3L._SL160_.jpg" width="109" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E4%B8%AD%E6%9D%B1%E6%88%A6%E8%A8%98-%E3%83%9D%E3%82%B9%E3%83%889-11%E6%99%82%E4%BB%A3%E3%81%B8%E3%81%AE%E6%94%BF%E6%B2%BB%E7%9A%84%E3%82%AC%E3%82%A4%E3%83%89-%E8%AC%9B%E8%AB%87%E7%A4%BE%E9%81%B8%E6%9B%B8%E3%83%A1%E3%83%81%E3%82%A8-%E3%82%B8%E3%83%AB%E3%83%BB%E3%82%B1%E3%83%9A%E3%83%AB/dp/4062585103?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4062585103">中東戦記 ポスト9.11時代への政治的ガイド (講談社選書メチエ)</a></dt>
+	<dd>ジル・ケペル</dd>
+	<dd>池内 恵 (翻訳)</dd>
+    <dd>講談社 2011-09-09</dd>
+    <dd>Book 単行本（ソフトカバー）</dd>
+    <dd>ASIN: 4062585103, EAN: 9784062585101</dd>
+  </dl>
+  <p class="description">読むべきかなぁ，と思いつつもまだ。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-11-15">2015-11-15</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>

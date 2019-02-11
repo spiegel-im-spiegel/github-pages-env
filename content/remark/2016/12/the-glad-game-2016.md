@@ -52,12 +52,30 @@ title = "2016年の「よかったこと」"
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00005EWJM/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51%2Bt-3PwozL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00005EWJM/baldandersinf-22/">ボヘミアの森から</a></dt><dd>イルカ </dd><dd>日本クラウン 1995-11-01</dd><dd>評価<abbr class="rating" title="5"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl>
-<p class="description" >年末はこのアルバムを聴きながら過ごします。</p>
-<p class="gtools" >reviewed by <a href="#maker" class="reviewer">Spiegel</a> on <abbr class="dtreviewed" title="2014-11-09">2014/11/09</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html">G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%9C%E3%83%98%E3%83%9F%E3%82%A2%E3%81%AE%E6%A3%AE%E3%81%8B%E3%82%89-%E3%82%A4%E3%83%AB%E3%82%AB/dp/B00005EWJM?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00005EWJM"><img src="https://images-fe.ssl-images-amazon.com/images/I/51%2Bt-3PwozL._SL160_.jpg" width="160" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E3%83%9C%E3%83%98%E3%83%9F%E3%82%A2%E3%81%AE%E6%A3%AE%E3%81%8B%E3%82%89-%E3%82%A4%E3%83%AB%E3%82%AB/dp/B00005EWJM?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00005EWJM">ボヘミアの森から</a></dt>
+    <dd>日本クラウン 1995-11-01</dd>
+    <dd>Music CD</dd>
+    <dd>ASIN: B00005EWJM, EAN: 4988007114349</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">年末はこのアルバムを聴きながら過ごします。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-11-09">2014-11-09</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00AF0YG28/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/41PD5ldEqTL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00AF0YG28/baldandersinf-22/">賢者の贈り物</a></dt><dd>オー・ヘンリー 結城浩 </dd><dd>結城浩 2012-11-28</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00AEWFZBI/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00AEWFZBI.09._SCTHUMBZZZ_.jpg"  alt="幸福の王子"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00ASMS2YQ/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00ASMS2YQ.09._SCTHUMBZZZ_.jpg"  alt="最後の一葉"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00DE2KFB0/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00DE2KFB0.09._SCTHUMBZZZ_.jpg"  alt="オー・ヘンリー　名作傑作選"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00ANWTJP2/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00ANWTJP2.09._SCTHUMBZZZ_.jpg"  alt="わがままな大男"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00AEFOAGQ/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00AEFOAGQ.09._SCTHUMBZZZ_.jpg"  alt="マッチ売りの少女"  /></a> </p>
-<p class="description" >クリスマスと言えばこのお話だよね。</p>
-<p class="gtools" >reviewed by <a href="#maker" class="reviewer">Spiegel</a> on <abbr class="dtreviewed" title="2014-11-09">2014/11/09</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html">G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E8%B3%A2%E8%80%85%E3%81%AE%E8%B4%88%E3%82%8A%E7%89%A9-%E3%82%AA%E3%83%BC%E3%83%BB%E3%83%98%E3%83%B3%E3%83%AA%E3%83%BC-ebook/dp/B00AF0YG28?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00AF0YG28"><img src="https://images-fe.ssl-images-amazon.com/images/I/41PD5ldEqTL._SL160_.jpg" width="100" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E8%B3%A2%E8%80%85%E3%81%AE%E8%B4%88%E3%82%8A%E7%89%A9-%E3%82%AA%E3%83%BC%E3%83%BB%E3%83%98%E3%83%B3%E3%83%AA%E3%83%BC-ebook/dp/B00AF0YG28?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00AF0YG28">賢者の贈り物</a></dt>
+	<dd>オー・ヘンリー</dd>
+	<dd>結城浩 (翻訳)</dd>
+    <dd>結城浩 2012-11-28 (Release 2012-11-28)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B00AF0YG28</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">クリスマスと言えばこのお話だよね。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-11-09">2014-11-09</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>

@@ -214,19 +214,47 @@ AI は（今のところ）近似解に葛藤したりしない。
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4167107120/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51SERF7MQRL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4167107120/baldandersinf-22/">考えるヒント (文春文庫)</a></dt><dd>小林 秀雄 </dd><dd>文藝春秋 2004-08</dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4167107139/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4167107139.09._SCTHUMBZZZ_.jpg"  alt="考えるヒント〈2〉 (文春文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4167107147/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4167107147.09._SCTHUMBZZZ_.jpg"  alt="考えるヒント3〈新装版〉 (文春文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4122005426/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4122005426.09._SCTHUMBZZZ_.jpg"  alt="人生について (中公文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4101007098/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4101007098.09._SCTHUMBZZZ_.jpg"  alt="直観を磨くもの: 小林秀雄対話集 (新潮文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4101007047/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4101007047.09._SCTHUMBZZZ_.jpg"  alt="モオツァルト・無常という事 (新潮文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/410100708X/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/410100708X.09._SCTHUMBZZZ_.jpg"  alt="人間の建設 (新潮文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4101007063/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4101007063.09._SCTHUMBZZZ_.jpg"  alt="本居宣長〈上〉 (新潮文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4101007071/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4101007071.09._SCTHUMBZZZ_.jpg"  alt="本居宣長〈下〉 (新潮文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4120045404/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4120045404.09._SCTHUMBZZZ_.jpg"  alt="読書について"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4101007039/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4101007039.09._SCTHUMBZZZ_.jpg"  alt="ドストエフスキイの生活 (新潮文庫)"  /></a> </p>
-<p class="description">学生時代に受験対策で読んでるはずなんだけどなぁ。あんまり憶えてない。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-10-12">2016-10-12</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E8%80%83%E3%81%88%E3%82%8B%E3%83%92%E3%83%B3%E3%83%88-%E5%B0%8F%E6%9E%97-%E7%A7%80%E9%9B%84-ebook/dp/B009HO50XC?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B009HO50XC"><img src="https://images-fe.ssl-images-amazon.com/images/I/41LkjyVMoKL._SL160_.jpg" width="111" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E8%80%83%E3%81%88%E3%82%8B%E3%83%92%E3%83%B3%E3%83%88-%E5%B0%8F%E6%9E%97-%E7%A7%80%E9%9B%84-ebook/dp/B009HO50XC?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B009HO50XC">考えるヒント</a></dt>
+	<dd>小林 秀雄</dd>
+    <dd>文藝春秋 1974-06-25 (Release 2012-09-20)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B009HO50XC</dd>
+  </dl>
+  <p class="description">学生時代に受験対策で読んでるはずなんだけどなぁ。あんまり憶えてない。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-10-12">2016-10-12</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B013UQUH80/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/C1RBaQMQg4S._SL160_.png" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B013UQUH80/baldandersinf-22/">[まとめ買い] キカイダー02（角川コミックス・エース）</a></dt><dd>ＭＥＩＭＵ 石ノ森 章太郎 </dd><dd> </dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
-<p class="description">「キカイダー」を神秘学的視点で再解釈する（笑）</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-08-18">2016-08-18</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%BE%E3%81%A8%E3%82%81%E8%B2%B7%E3%81%84-%E3%82%AD%E3%82%AB%E3%82%A4%E3%83%80%E3%83%BC02%EF%BC%88%E8%A7%92%E5%B7%9D%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%E3%83%BB%E3%82%A8%E3%83%BC%E3%82%B9%EF%BC%89/dp/B013UQUH80?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B013UQUH80"><img src="https://images-fe.ssl-images-amazon.com/images/I/C1RBaQMQg4S._SL160_.png" width="160" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E3%81%BE%E3%81%A8%E3%82%81%E8%B2%B7%E3%81%84-%E3%82%AD%E3%82%AB%E3%82%A4%E3%83%80%E3%83%BC02%EF%BC%88%E8%A7%92%E5%B7%9D%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%E3%83%BB%E3%82%A8%E3%83%BC%E3%82%B9%EF%BC%89/dp/B013UQUH80?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B013UQUH80">[まとめ買い] キカイダー02（角川コミックス・エース）</a></dt>
+	<dd>ＭＥＩＭＵ</dd>
+	<dd>石ノ森 章太郎 (その他)</dd>
+    <dd></dd>
+    <dd>Ebook Bundle Kindle版</dd>
+    <dd>ASIN: B013UQUH80</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">「キカイダー」を神秘学的視点で再解釈する（笑）</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-08-18">2016-08-18</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00O1VK072/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51UzGYXJ70L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00O1VK072/baldandersinf-22/">われはロボット〔決定版〕</a></dt><dd>アイザック アシモフ 小尾芙佐 </dd><dd>早川書房 2014-04-25</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00O2O7JFY/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00O2O7JFY.09._SCTHUMBZZZ_.jpg"  alt="鋼鉄都市"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00N4FBCR8/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00N4FBCR8.09._SCTHUMBZZZ_.jpg"  alt="第二ファウンデーション"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00N4FBCUU/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00N4FBCUU.09._SCTHUMBZZZ_.jpg"  alt="ファウンデーション対帝国"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00N4FBCO6/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00N4FBCO6.09._SCTHUMBZZZ_.jpg"  alt="ファウンデーション"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00N4FBCQO/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00N4FBCQO.09._SCTHUMBZZZ_.jpg"  alt="サリーはわが恋人"  /></a> </p>
-<p class="description">ロボットや AI の SF ならこれが古典で定番か？ 面白かったら続けて『<a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00O2O7JFY/baldandersinf-22/">鋼鉄都市</a>』も読むとよい。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-11-03">2015-11-03</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%8F%E3%82%8C%E3%81%AF%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E3%80%94%E6%B1%BA%E5%AE%9A%E7%89%88%E3%80%95-%E3%82%A2%E3%82%A4%E3%82%B6%E3%83%83%E3%82%AF-%E3%82%A2%E3%82%B7%E3%83%A2%E3%83%95-ebook/dp/B00O1VK072?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00O1VK072"><img src="https://images-fe.ssl-images-amazon.com/images/I/51UzGYXJ70L._SL160_.jpg" width="108" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E3%82%8F%E3%82%8C%E3%81%AF%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E3%80%94%E6%B1%BA%E5%AE%9A%E7%89%88%E3%80%95-%E3%82%A2%E3%82%A4%E3%82%B6%E3%83%83%E3%82%AF-%E3%82%A2%E3%82%B7%E3%83%A2%E3%83%95-ebook/dp/B00O1VK072?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00O1VK072">われはロボット〔決定版〕</a></dt>
+	<dd>アイザック アシモフ</dd>
+	<dd>小尾芙佐 (翻訳)</dd>
+    <dd>早川書房 2014-04-25 (Release 2014-09-30)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B00O1VK072</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">ロボットや AI の SF ならこれが古典で定番か？ 面白かったら続けて『<a href="https://www.amazon.co.jp/%E9%8B%BC%E9%89%84%E9%83%BD%E5%B8%82-%E3%82%A2%E3%82%A4%E3%82%B6%E3%83%83%E3%82%AF-%E3%82%A2%E3%82%B7%E3%83%A2%E3%83%95-ebook/dp/B00O2O7JFY?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00O2O7JFY">鋼鉄都市</a>』も読むとよい。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-11-03">2015-11-03</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
 
 <div class="hreview">

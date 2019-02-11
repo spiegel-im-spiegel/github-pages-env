@@ -60,12 +60,31 @@ title = "「ピノキオ」と AI"
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B013UQUH80/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/C1RBaQMQg4S._SL160_.png" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B013UQUH80/baldandersinf-22/">[まとめ買い] キカイダー02（角川コミックス・エース）</a></dt><dd>ＭＥＩＭＵ 石ノ森 章太郎 </dd><dd> </dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
-<p class="description">「キカイダー」を神秘学的視点で再解釈する（笑）</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-08-18">2016-08-18</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%BE%E3%81%A8%E3%82%81%E8%B2%B7%E3%81%84-%E3%82%AD%E3%82%AB%E3%82%A4%E3%83%80%E3%83%BC02%EF%BC%88%E8%A7%92%E5%B7%9D%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%E3%83%BB%E3%82%A8%E3%83%BC%E3%82%B9%EF%BC%89/dp/B013UQUH80?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B013UQUH80"><img src="https://images-fe.ssl-images-amazon.com/images/I/C1RBaQMQg4S._SL160_.png" width="160" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E3%81%BE%E3%81%A8%E3%82%81%E8%B2%B7%E3%81%84-%E3%82%AD%E3%82%AB%E3%82%A4%E3%83%80%E3%83%BC02%EF%BC%88%E8%A7%92%E5%B7%9D%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%E3%83%BB%E3%82%A8%E3%83%BC%E3%82%B9%EF%BC%89/dp/B013UQUH80?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B013UQUH80">[まとめ買い] キカイダー02（角川コミックス・エース）</a></dt>
+	<dd>ＭＥＩＭＵ</dd>
+	<dd>石ノ森 章太郎 (その他)</dd>
+    <dd></dd>
+    <dd>Ebook Bundle Kindle版</dd>
+    <dd>ASIN: B013UQUH80</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">「キカイダー」を神秘学的視点で再解釈する（笑）</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-08-18">2016-08-18</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00WS87F6E/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/D1thZQuixAS._SL160_.png" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00WS87F6E/baldandersinf-22/">[まとめ買い] イヴの時間（デジタル版ヤングガンガンコミックス）</a></dt><dd>吉浦康裕 太田優姫 </dd><dd> </dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
-<p class="description">同名アニメーション作品のコミカライズ。ヒトとロボットが交わる時間。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-08-18">2016-08-18</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%BE%E3%81%A8%E3%82%81%E8%B2%B7%E3%81%84-%E3%82%A4%E3%83%B4%E3%81%AE%E6%99%82%E9%96%93%EF%BC%88%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E7%89%88%E3%83%A4%E3%83%B3%E3%82%B0%E3%82%AC%E3%83%B3%E3%82%AC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%EF%BC%89/dp/B00WS87F6E?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00WS87F6E"><img src="https://images-fe.ssl-images-amazon.com/images/I/D1thZQuixAS._SL160_.png" width="160" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E3%81%BE%E3%81%A8%E3%82%81%E8%B2%B7%E3%81%84-%E3%82%A4%E3%83%B4%E3%81%AE%E6%99%82%E9%96%93%EF%BC%88%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E7%89%88%E3%83%A4%E3%83%B3%E3%82%B0%E3%82%AC%E3%83%B3%E3%82%AC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%EF%BC%89/dp/B00WS87F6E?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00WS87F6E">[まとめ買い] イヴの時間（デジタル版ヤングガンガンコミックス）</a></dt>
+	<dd>吉浦康裕, 太田優姫</dd>
+    <dd></dd>
+    <dd>Ebook Bundle Kindle版</dd>
+    <dd>ASIN: B00WS87F6E</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">同名アニメーション作品のコミカライズ。ヒトとロボットが交わる時間。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-08-18">2016-08-18</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>

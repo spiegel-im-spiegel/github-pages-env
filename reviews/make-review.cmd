@@ -1,5 +1,38 @@
 @echo off
 rem ---
+rem type B0096I6YD4.html | amazon-item review -t review-book.html -d B0096I6YD4 -r 5 --review-date 2017-12-19
+rem type B0756XN84P.html | amazon-item review -t review-book.html -d B0756XN84P -r 5 --review-date 2017-12-19
+rem type B07KB1YB3F.html | amazon-item review -t review-book.html -d B07KB1YB3F -r 4 --review-date 2017-12-19
+rem type B00GJOESS6.html | amazon-item review -t review-book.html -d B00GJOESS6 -r 4 --review-date 2016-04-17
+rem type 4832252836.html | amazon-item review -t review-book.html -d 4832252836 -r 4 --review-date 2016-03-07
+rem type 4835400941.html | amazon-item review -t review-book.html -d 4835400941 -r 4 --review-date 2015-07-01
+rem type B00O1VJZLO.html | amazon-item review -t review-book.html -d B00O1VJZLO -r 4 --review-date 2016-02-20
+rem type B077LH3RL8.html | amazon-item review -t review-book.html -d B077LH3RL8 -r 5 --review-date 2014-09-27
+rem type 4166600044.html | amazon-item review -t review-book.html -d 4166600044 -r 5 --review-date 2016-01-30
+rem type B00FONW2V8.html | amazon-item review -t review-book.html -d B00FONW2V8 -r 5 --review-date 2018-02-04
+rem type B074CJ5VJJ.html | amazon-item review -t review-book.html -d B074CJ5VJJ -r 4 --review-date 2016-01-07
+rem type B00005EWJM.html | amazon-item review -t review-music.html -d B00005EWJM -r 5 --review-date 2014-11-09
+rem type B00AF0YG28.html | amazon-item review -t review-book.html -d B00AF0YG28 -r 4 --review-date 2014-11-09
+rem type 4062585103.html | amazon-item review -t review-book.html -d 4062585103     --review-date 2015-11-15
+rem type B00R2OALNI.html | amazon-item review -t review-book.html -d B00R2OALNI -r 3 --review-date 2015-09-13
+rem type 4873114985.html | amazon-item review -t review-book.html -d 4873114985 -r 4 --review-date 2014-10-08
+rem type 4588276484.html | amazon-item review -t review-book.html -d 4588276484 -r 5 --review-date 2014-10-08
+rem type 4875932685.html | amazon-item review -t review-book.html -d 4875932685 -r 5 --review-date 2015-09-13
+rem type B012Z14W64.html | amazon-item review -t review-book.html -d B012Z14W64 -r 4 --review-date 2015-04-26
+rem type 4416718020.html | amazon-item review -t review-book.html -d 4416718020 -r 5 --review-date 2018-11-23
+rem type 4416717407.html | amazon-item review -t review-book.html -d 4416717407 -r 5 --review-date 2017-11-27
+rem type 4416716516.html | amazon-item review -t review-book.html -d 4416716516 -r 5 --review-date 2016-12-24
+rem type 4416115458.html | amazon-item review -t review-book.html -d 4416115458 -r 5 --review-date 2015-12-29
+rem type 4416114710.html | amazon-item review -t review-book.html -d 4416114710 -r 5 --review-date 2014-10-10
+rem type B00CZCW9BE.html | amazon-item review -t review-book.html -d B00CZCW9BE -r 5 --review-date 2015-11-14
+rem type 4822282686.html | amazon-item review -t review-book.html -d 4822282686      --review-date 2015-08-31
+rem type B074C53545.html | amazon-item review -t review-book.html -d B074C53545 -r 4 --review-date 2019-02-11
+rem type B00WS87F6E.html | amazon-item review -t review-book.html -d B00WS87F6E -r 4 --review-date 2016-08-18
+rem type B013UQUH80.html | amazon-item review -t review-book.html -d B013UQUH80 -r 4 --review-date 2016-08-18
+rem type B009HO50XC.html | amazon-item review -t review-book.html -d B009HO50XC      --review-date 2016-10-12
+rem type B00O1VK072.html | amazon-item review -t review-book.html -d B00O1VK072 -r 4 --review-date 2015-11-03
+rem type B00O2O7JFY.html | amazon-item review -t review-book.html -d B00O2O7JFY      --review-date 2015-11-03
+rem type 4787233912.html | amazon-item review -t review-book.html -d 4787233912      --review-date 2015-10-16
 rem type B00SINS1HU.html | amazon-item review -t review-book.html -d B00SINS1HU -r 4 --review-date 2015-01-31
 rem type B00E7HMI7U.html | amazon-item review -t review-book.html -d B00E7HMI7U -r 4 --review-date 2016-02-03
 rem type 4641280304.html | amazon-item review -t review-book.html -d 4641280304 -r 4 --review-date 2016-02-03
@@ -10,7 +43,6 @@ rem type 483993195X.html | amazon-item review -t review-book.html -d 483993195X 
 rem type 4845911744.html | amazon-item review -t review-book.html -d 4845911744 -r 4 --review-date 2015-05-07
 rem type 4542503461.html | amazon-item review -t review-book.html -d 4542503461 -r 4 --review-date 2019-02-06
 rem type 4048689606.html | amazon-item review -t review-book.html -d 4048689606 -r 5 --review-date 2014-10-18
-rem type B009IMAGYQ.html | amazon-item review -t review-book.html -d B009IMAGYQ -r 4 --review-date 2015-04-26
 rem type B00KAOQXTS.html | amazon-item review -t review-book.html -d B00KAOQXTS -r 5 --review-date 2014-10-18
 rem type B0095OEG3Y.html | amazon-item review -t review-book.html -d B0095OEG3Y -r 3 --review-date 2016-04-17
 rem type 4254102372.html | amazon-item review -t review-book.html -d 4254102372 -r 4 --review-date 2016-05-05
@@ -98,3 +130,4 @@ rem type 4621300253.html | amazon-item review -t review-book.html -d 4621300253 
 rem type 477418392X.html | amazon-item review -t review-book.html -d 477418392X -r 4 --review-date 2018-10-20
 rem type 4873117526.html | amazon-item review -t review-book.html -d 4873117526 -r 4 --review-date 2018-10-20
 rem type 430924744X.html | amazon-item review -t review-book.html -d 430924744X -r 3 --review-date 2016-12-10
+rem type B009IMAGYQ.html | amazon-item review -t review-book.html -d B009IMAGYQ -r 4 --review-date 2015-04-26 -> B012Z14W64

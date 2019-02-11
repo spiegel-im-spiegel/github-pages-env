@@ -135,14 +135,31 @@ TPP 知財の中身についての詳細情報は以下が参考になる。
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4822282686/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/512Y77Y5WDL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4822282686/baldandersinf-22/">要求開発~価値ある要求を導き出すプロセスとモデリング</a></dt><dd>山岸 耕二 安井 昌男 萩本 順三 河野 正幸 野田 伊佐夫 平鍋 健児 細川 努 依田 智夫 ［要求開発アライアンス］ </dd><dd>日経BP社 2006-03-02</dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4774142573/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4774142573.09._SCTHUMBZZZ_.jpg"  alt="[改訂第2版] [入門+実践]要求を仕様化する技術・表現する技術 -仕様が書けていますか?"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4822283585/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4822283585.09._SCTHUMBZZZ_.jpg"  alt="UMLモデリング入門"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4320023528/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4320023528.09._SCTHUMBZZZ_.jpg"  alt="要求仕様の探検学―設計に先立つ品質の作り込み"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/490531819X/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/490531819X.09._SCTHUMBZZZ_.jpg"  alt="SECBOOKS 共通フレーム2013 (SEC books)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4822283666/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4822283666.09._SCTHUMBZZZ_.jpg"  alt="上流工程UMLモデリング"  /></a> </p>
-<p class="description" >「要求定義」から「要求開発」へ</p>
-<p class="gtools" >reviewed by <a href="#me" class="reviewer">Spiegel</a> on <abbr class="dtreviewed" title="2015-08-31">2015/08/31</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html">G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E8%A6%81%E6%B1%82%E9%96%8B%E7%99%BA~%E4%BE%A1%E5%80%A4%E3%81%82%E3%82%8B%E8%A6%81%E6%B1%82%E3%82%92%E5%B0%8E%E3%81%8D%E5%87%BA%E3%81%99%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9%E3%81%A8%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0-%E5%B1%B1%E5%B2%B8-%E8%80%95%E4%BA%8C/dp/4822282686?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4822282686"><img src="https://images-fe.ssl-images-amazon.com/images/I/512Y77Y5WDL._SL160_.jpg" width="111" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E8%A6%81%E6%B1%82%E9%96%8B%E7%99%BA~%E4%BE%A1%E5%80%A4%E3%81%82%E3%82%8B%E8%A6%81%E6%B1%82%E3%82%92%E5%B0%8E%E3%81%8D%E5%87%BA%E3%81%99%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9%E3%81%A8%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0-%E5%B1%B1%E5%B2%B8-%E8%80%95%E4%BA%8C/dp/4822282686?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4822282686">要求開発~価値ある要求を導き出すプロセスとモデリング</a></dt>
+	<dd>山岸 耕二, 安井 昌男, 萩本 順三, 河野 正幸, 野田 伊佐夫, 平鍋 健児, 細川 努, 依田 智夫, ［要求開発アライアンス］</dd>
+    <dd>日経BP社 2006-03-02</dd>
+    <dd>Book 単行本</dd>
+    <dd>ASIN: 4822282686, EAN: 9784822282684</dd>
+  </dl>
+  <p class="description">「要求定義」から「要求開発」へ</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-08-31">2015-08-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00CZCW9BE/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/41H4JSiPBYL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00CZCW9BE/baldandersinf-22/">思春期ポストモダン　成熟はいかにして可能か</a></dt><dd>斎藤環 </dd><dd>幻冬舎 2013-05-31</dd><dd>評価<abbr class="rating" title="5"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B0099FB10A/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B0099FB10A.09._SCTHUMBZZZ_.jpg"  alt="「社会的うつ病」の治し方―人間関係をどう見直すか―（新潮選書）"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B0125T1JYE/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B0125T1JYE.09._SCTHUMBZZZ_.jpg"  alt="世界が土曜の夜の夢なら　ヤンキーと精神分析 (角川文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00IE7MAZY/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00IE7MAZY.09._SCTHUMBZZZ_.jpg"  alt="ひきこもりはなぜ「治る」のか？　―精神分析的アプローチ―"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00S7A03K2/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00S7A03K2.09._SCTHUMBZZZ_.jpg"  alt="承認をめぐる病"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00799R36Y/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00799R36Y.09._SCTHUMBZZZ_.jpg"  alt="社会的ひきこもり 終わらない思春期 (PHP新書)"  /></a> </p>
-<p class="description">終わらない思春期の2つのモードについて。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-11-14">2015-11-14</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%80%9D%E6%98%A5%E6%9C%9F%E3%83%9D%E3%82%B9%E3%83%88%E3%83%A2%E3%83%80%E3%83%B3-%E6%88%90%E7%86%9F%E3%81%AF%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%8F%AF%E8%83%BD%E3%81%8B-%E6%96%8E%E8%97%A4%E7%92%B0-ebook/dp/B00CZCW9BE?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00CZCW9BE"><img src="https://images-fe.ssl-images-amazon.com/images/I/41H4JSiPBYL._SL160_.jpg" width="101" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E6%80%9D%E6%98%A5%E6%9C%9F%E3%83%9D%E3%82%B9%E3%83%88%E3%83%A2%E3%83%80%E3%83%B3-%E6%88%90%E7%86%9F%E3%81%AF%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%8F%AF%E8%83%BD%E3%81%8B-%E6%96%8E%E8%97%A4%E7%92%B0-ebook/dp/B00CZCW9BE?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00CZCW9BE">思春期ポストモダン　成熟はいかにして可能か</a></dt>
+	<dd>斎藤環</dd>
+    <dd>幻冬舎 (Release 2013-05-31)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B00CZCW9BE</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">終わらない思春期の2つのモードについて。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-11-14">2015-11-14</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
 
 <div class="hreview">

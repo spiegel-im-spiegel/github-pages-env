@@ -127,9 +127,18 @@ Android端末な脆弱なシステムを改善するには、Googleがアップ�
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B0157LNEWM/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/613xEfueYiL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B0157LNEWM/baldandersinf-22/">北欧女子オーサが見つけた日本の不思議２<北欧女子オーサが見つけた日本の不思議> (コミックエッセイ)</a></dt><dd>オーサ・イェークストロム </dd><dd>KADOKAWA / メディアファクトリー 2015-09-18</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00U6VZVUM/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00U6VZVUM.09._SCTHUMBZZZ_.jpg"  alt="北欧女子オーサが見つけた日本の不思議<北欧女子オーサが見つけた日本の不思議> (コミックエッセイ)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B016VNDMSG/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B016VNDMSG.09._SCTHUMBZZZ_.jpg"  alt="くまみこ 5<くまみこ> (コミックフラッパー)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B017CHJYAK/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B017CHJYAK.09._SCTHUMBZZZ_.jpg"  alt="だがしかし（３） (少年サンデーコミックス)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B0168FEHG8/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B0168FEHG8.09._SCTHUMBZZZ_.jpg"  alt="ラーメン大好き小泉さん（３） (バンブーコミックス)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B012CTW270/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B012CTW270.09._SCTHUMBZZZ_.jpg"  alt="さよならセプテンバー 3"  /></a> </p>
-<p class="description">1巻が面白かったので引き続き。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-11-08">2015-11-08</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%8C%97%E6%AC%A7%E5%A5%B3%E5%AD%90%E3%82%AA%E3%83%BC%E3%82%B5%E3%81%8C%E8%A6%8B%E3%81%A4%E3%81%91%E3%81%9F%E6%97%A5%E6%9C%AC%E3%81%AE%E4%B8%8D%E6%80%9D%E8%AD%B0/dp/B074C53545?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B074C53545"><img src="https://images-fe.ssl-images-amazon.com/images/I/61BBxBeJC0L._SL160_.jpg" width="160" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E5%8C%97%E6%AC%A7%E5%A5%B3%E5%AD%90%E3%82%AA%E3%83%BC%E3%82%B5%E3%81%8C%E8%A6%8B%E3%81%A4%E3%81%91%E3%81%9F%E6%97%A5%E6%9C%AC%E3%81%AE%E4%B8%8D%E6%80%9D%E8%AD%B0/dp/B074C53545?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B074C53545">北欧女子オーサが見つけた日本の不思議</a></dt>
+	<dd>オーサ・イェークストロム</dd>
+    <dd></dd>
+    <dd>Collections Kindle版</dd>
+    <dd>ASIN: B074C53545</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description"><a href="https://ameblo.jp/hokuoujoshi/" title="北欧女子オーサ オフィシャルブログ「北欧女子が見つけた日本の不思議」">同名サイト</a>で連載されていた漫画の書籍化。感想は<a href="https://medium.com/manga-magazine/-388cac939eb6">こちら</a>。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-02-11">2019-02-11</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
 
 <div class="hreview">

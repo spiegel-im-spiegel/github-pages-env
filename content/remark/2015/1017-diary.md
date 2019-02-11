@@ -62,9 +62,17 @@ title = "今日の戯れ言：TUTAYA というか CCC 図書館"
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4787233912/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/5173zbJcVpL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4787233912/baldandersinf-22/">ソーシャルメディア論: つながりを再設計する</a></dt><dd>藤代 裕之 </dd><dd>青弓社 2015-10-23</dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4864561567/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4864561567.09._SCTHUMBZZZ_.jpg"  alt="地域ではたらく「風の人」という新しい選択"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4794220871/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4794220871.09._SCTHUMBZZZ_.jpg"  alt="つながりっぱなしの日常を生きる: ソーシャルメディアが若者にもたらしたもの"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4334037984/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4334037984.09._SCTHUMBZZZ_.jpg"  alt="メディアの苦悩――28人の証言 (光文社新書)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4140912073/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4140912073.09._SCTHUMBZZZ_.jpg"  alt="ウェブ社会のゆくえ―<多孔化>した現実のなかで (NHKブックス No.1207)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4480067450/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4480067450.09._SCTHUMBZZZ_.jpg"  alt="1995年 (ちくま新書)"  /></a> </p>
-<p class="description">紹介してくださった方によると「情報ネットワーク法学会の研究会メンバーで」書かれたものらしい。教科書としても使えるようになっているとか。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-10-16">2015-10-16</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%BD%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E8%AB%96-%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8A%E3%82%92%E5%86%8D%E8%A8%AD%E8%A8%88%E3%81%99%E3%82%8B-%E8%97%A4%E4%BB%A3-%E8%A3%95%E4%B9%8B/dp/4787233912?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4787233912"><img src="https://images-fe.ssl-images-amazon.com/images/I/51dzE7I0cHL._SL160_.jpg" width="109" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E3%82%BD%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E8%AB%96-%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8A%E3%82%92%E5%86%8D%E8%A8%AD%E8%A8%88%E3%81%99%E3%82%8B-%E8%97%A4%E4%BB%A3-%E8%A3%95%E4%B9%8B/dp/4787233912?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4787233912">ソーシャルメディア論: つながりを再設計する</a></dt>
+	<dd>藤代 裕之</dd>
+    <dd>青弓社 2015-10-23</dd>
+    <dd>Book 単行本</dd>
+    <dd>ASIN: 4787233912, EAN: 9784787233912</dd>
+  </dl>
+  <p class="description">紹介してくださった方によると「情報ネットワーク法学会の研究会メンバーで」書かれたものらしい。教科書としても使えるようになっているとか。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-10-16">2015-10-16</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
 
 森本あんりさんの本は Kindle 版を見つけたので，そっちでゲット。
