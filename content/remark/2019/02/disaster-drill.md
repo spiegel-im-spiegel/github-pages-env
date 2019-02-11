@@ -116,6 +116,7 @@ tags = [ "security", "risk", "management", "password", "politics" ]
 - [安物のIoT機器は、たとえゴミ箱に叩き込んだあとでも持ち主を裏切り続ける  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/01/2019-01-30-cheap-internet-of-things-gadgets-betray-you-even-after-you-toss-them-in-the-trash/)
 
 - [リスク認知とトレードオフ]({{< ref "/remark/2016/02/risk-trade-off.md" >}})
+- [「パスワードのベストプラクティス」が変わる]({{< ref "/remark/2017/10/changes-in-password-best-practices.md" >}})
 
 ## 参考図書
 
