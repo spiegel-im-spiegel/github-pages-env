@@ -122,7 +122,16 @@ title = "週末スペシャル： 「パスワードの定期変更はすべき�
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-07-02">2016-07-02</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00SINS1HU/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/41MCLvboP0L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00SINS1HU/baldandersinf-22/">イスラーム国の衝撃 (文春新書)</a></dt><dd>池内　恵 </dd><dd>文藝春秋 2015-01-20</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00OXHROBO/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00OXHROBO.09._SCTHUMBZZZ_.jpg"  alt="「イスラム国」の正体　なぜ、空爆が効かないのか Wedgeセレクション No.37"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00BIXNMMG/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00BIXNMMG.09._SCTHUMBZZZ_.jpg"  alt="メディアとテロリズム（新潮新書）"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00PS2FI1Q/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00PS2FI1Q.09._SCTHUMBZZZ_.jpg"  alt="現代アラブの社会思想　終末論とイスラーム主義 講談社現代新書"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00S9D5A78/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00S9D5A78.09._SCTHUMBZZZ_.jpg"  alt="イスラム国　テロリストが国家をつくる時 (文春e-book)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00M3OESYU/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00M3OESYU.09._SCTHUMBZZZ_.jpg"  alt="知らないと恥をかく世界の大問題　学べる図解版　第4弾　池上彰が読む「イスラム」世界 (―)"  /></a> </p>
-<p class="description">「イスラーム国」だけでなく近代以後（特に 9.11 以後）の中東の歴史について理解を深められる良書</a>。</p>
-<p class="gtools" >reviewed by <a href='#me' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-01-31">2015/01/31</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%BC%E3%83%A0%E5%9B%BD%E3%81%AE%E8%A1%9D%E6%92%83-%E6%96%87%E6%98%A5%E6%96%B0%E6%9B%B8-%E6%B1%A0%E5%86%85-%E6%81%B5-ebook/dp/B00SINS1HU?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00SINS1HU"><img src="https://images-fe.ssl-images-amazon.com/images/I/41MCLvboP0L._SL160_.jpg" width="101" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%BC%E3%83%A0%E5%9B%BD%E3%81%AE%E8%A1%9D%E6%92%83-%E6%96%87%E6%98%A5%E6%96%B0%E6%9B%B8-%E6%B1%A0%E5%86%85-%E6%81%B5-ebook/dp/B00SINS1HU?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00SINS1HU">イスラーム国の衝撃 (文春新書)</a></dt>
+	<dd>池内　恵</dd>
+    <dd>文藝春秋 2015-01-20 (Release 2015-01-28)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B00SINS1HU</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">「イスラーム国」だけでなく近代以後（特に 9.11 以後）の中東の歴史について理解を深められる良書</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-01-31">2015-01-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
