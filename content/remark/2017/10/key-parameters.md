@@ -189,13 +189,13 @@ main table.nist4 td  {
 
 各用語はそれぞれ
 
-| 用語 | 意味 |
-|:-----|:-----|
-| Applying | 適用 |
-| Processing | 処理 |
-| Acceptable | 許容 |
+| 用語       | 意味                     |
+|:---------- |:------------------------ |
+| Applying   | 適用                     |
+| Processing | 処理                     |
+| Acceptable | 許容                     |
 | Legacy-use | 許容（レガシー使用のみ） |
-| Disallowed | 禁止 |
+| Disallowed | 禁止                     |
 
 という意味だ。
 例を挙げると，セキュリティ強度 112bit の暗号スイート（Cipher Suites）を適用する場合は2030年までは許容するけど2031年以降は禁止。
