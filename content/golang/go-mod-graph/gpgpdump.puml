@@ -1,0 +1,21 @@
+@startuml
+hide circle
+hide empty members
+class "github.com/inconshreveable/mousetrap\nv1.0.0" as P3
+class "github.com/pkg/errors\nv0.8.1" as P4
+class "github.com/spf13/cobra\nv0.0.3" as P5
+class "github.com/spf13/pflag\nv1.0.3" as P6
+class "github.com/spiegel-im-spiegel/gocli\nv0.9.1" as P7
+class "github.com/mattn/go-isatty\nv0.0.4" as P9
+class "github.com/BurntSushi/toml\nv0.3.1" as P2
+class "golang.org/x/crypto\nv0.0.0-20190208162236-193df9c0f06f" as P8
+class "github.com/spiegel-im-spiegel/gpgpdump" as P1
+"P1" ..> "P2"
+"P1" ..> "P3"
+"P1" ..> "P4"
+"P1" ..> "P5"
+"P1" ..> "P6"
+"P1" ..> "P7"
+"P1" ..> "P8"
+"P7" ..> "P9"
+@enduml

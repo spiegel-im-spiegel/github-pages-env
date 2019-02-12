@@ -36,6 +36,7 @@
 
 ## リリース情報
 
+- [Go 1.12 Release Notes - The Go Programming Language](https://tip.golang.org/doc/go1.12)
 
 ## Age of Trump
 
