@@ -1,6 +1,6 @@
 local Hugolib = require("hugolib")
 
-local theme = "text"
+local theme = "baldanders-info"
 
 local diskFlag = true
 if #arg > 0 and arg[1] == "-m" then diskFlag = false end

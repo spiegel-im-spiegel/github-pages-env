@@ -1,4 +1,4 @@
-theme           = "text"
+theme           = "baldanders-info"
 baseurl         = "https://text.baldanders.info/"
 title           = "text.Baldanders.info"
 languageCode    = "ja"

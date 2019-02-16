@@ -1,3 +1,3 @@
-[submodule "themes/text"]
-	path = themes/text
-	url = https://github.com/spiegel-im-spiegel/hugo-theme-text.git
+[submodule "themes/baldanders-info"]
+	path = themes/baldanders-info
+	url = https://github.com/spiegel-im-spiegel/hugo-theme-baldanders-info
