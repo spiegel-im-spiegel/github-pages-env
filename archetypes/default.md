@@ -4,6 +4,7 @@ date =  "{{ .Date }}"
 description = "description"
 image = "/images/attention/site.jpg"
 tags = [ "remark" ]
+pageType = "text"
 draft = true
 
 [scripts]

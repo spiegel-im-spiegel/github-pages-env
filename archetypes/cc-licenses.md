@@ -4,6 +4,7 @@ date =  "{{ .Date }}"
 description = "description"
 image = "/images/attention/cc-licenses.jpg"
 tags = ["creative-commons", "copyright", "license"]
+pageType = "text"
 draft = true
 
 [scripts]

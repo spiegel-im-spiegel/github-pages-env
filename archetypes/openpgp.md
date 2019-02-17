@@ -4,6 +4,7 @@ date = "{{ .Date }}"
 description = "description"
 image = "/images/attention/openpgp.png"
 tags = [ "openpgp" ]
+pageType = "text"
 draft = true
 
 [scripts]

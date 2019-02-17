@@ -4,6 +4,7 @@ date =  "{{ .Date }}"
 description = "description"
 image = "/images/attention/go-logo_blue.png"
 tags = [ "golang" ]
+pageType = "text"
 draft = true
 
 [scripts]
