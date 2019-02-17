@@ -1,4 +1,4 @@
-{{ partial "json-ld-site.html" . }}{{ $maker := printf "%s#maker" .Site.BaseURL }}
+{{ partial "json-ld-site.html" . }}{{ $maker := printf "%s#maker" .Site.BaseURL }}{{ $org := printf "%s#org" $.Site.BaseURL }}
 <script type="application/ld+json">{{ $sec := "release" }}{{ $secURL := printf "/%s/" ($sec | urlize) }}
 {
 	"@context": "http://schema.org",
@@ -10,7 +10,7 @@
 	"description": {{ .Site.Data.section.release.description | safeHTML | jsonify }},
 	"image": {{ .Site.Data.section.release.image | absURL | jsonify }},
 	"publisher": {
-		"@id": {{ $maker | jsonify }}
+		"@id": {{ $org | jsonify }}
 	},
 	"author": {
 		"@id": {{ $maker | jsonify }}
@@ -56,7 +56,7 @@
 	"datePublished": {{ .Date.Format "2006-01-02T15:04:05-07:00" | jsonify }},
 	"dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | jsonify }}{{ with .Site.Data.author }},
 	"publisher": {
-		"@id": {{ $maker | jsonify }}
+		"@id": {{ $org | jsonify }}
 	},
 	"author": {
 		"@id": {{ $maker | jsonify }}

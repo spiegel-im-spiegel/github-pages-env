@@ -6,7 +6,7 @@
 <meta property="og:title" content="{{ .Site.Data.section.golang.name | safeHTML }} | {{ .Site.Title }}">
 <meta name="description" content="{{ .Site.Data.section.golang.description | safeHTML }}">
 <meta property="og:description" content="{{ .Site.Data.section.golang.description | safeHTML }}">
-<meta property="og:image" content="{{ .Site.Data.section.golang.image | relURL }}">
+<meta property="og:image" content="{{ .Site.Data.section.golang.image | absURL }}">
 {{ partial "twitter-card.html" . }}
 
 {{ partial "json-ld-golang.html" . }}

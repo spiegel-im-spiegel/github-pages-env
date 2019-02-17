@@ -6,7 +6,7 @@
 <meta property="og:title" content="{{ .Site.Data.section.cclicenses.name | safeHTML }} | {{ .Site.Title }}">
 <meta name="description" content="{{ .Site.Data.section.cclicenses.description | safeHTML }}">
 <meta property="og:description" content="{{ .Site.Data.section.cclicenses.description | safeHTML }}">
-<meta property="og:image" content="{{ .Site.Data.section.cclicenses.image | relURL }}">
+<meta property="og:image" content="{{ .Site.Data.section.cclicenses.image | absURL }}">
 {{ partial "twitter-card.html" . }}
 
 {{ partial "json-ld-cclicenses.html" . }}

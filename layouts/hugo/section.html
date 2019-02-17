@@ -6,7 +6,7 @@
 <meta property="og:title" content="{{ .Site.Data.section.hugo.name | safeHTML }} | {{ .Site.Title }}">
 <meta name="description" content="{{ .Site.Data.section.hugo.description | safeHTML }}">
 <meta property="og:description" content="{{ .Site.Data.section.hugo.description | safeHTML }}">
-<meta property="og:image" content="{{ .Site.Data.section.hugo.image | relURL }}">
+<meta property="og:image" content="{{ .Site.Data.section.hugo.image | absURL }}">
 {{ partial "twitter-card.html" . }}
 
 {{ partial "json-ld-hugo.html" . }}

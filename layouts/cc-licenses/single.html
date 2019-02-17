@@ -5,7 +5,7 @@
 <meta property="og:title" content="{{ .Title | safeHTML }} — {{ .Site.Data.section.cclicenses.name | safeHTML }} | {{ .Site.Title | safeHTML }}">
 <meta name="description" content="{{ .Description | safeHTML }}">
 <meta property="og:description" content="{{ .Description | safeHTML }}">
-<meta property="og:image" content="{{ if .Params.image }}{{ .Params.image | relURL }}{{ else }}{{ .Site.Data.section.cclicenses.image | relURL }}{{ end }}">{{ with .Site.Data.author }}{{ if .name }}
+<meta property="og:image" content="{{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ .Site.Data.section.cclicenses.image | absURL }}{{ end }}">{{ with .Site.Data.author }}{{ if .name }}
 <meta name="author" content="{{ .name }}">{{ end }}{{ end }}
 {{ partial "twitter-card.html" . }}
 {{ partial "header-nav.html" . }}

@@ -6,7 +6,7 @@
 <meta property="og:title" content="{{ .Site.Data.section.release.name | safeHTML }} | {{ .Site.Title }}">
 <meta name="description" content="{{ .Site.Data.section.release.description | safeHTML }}">
 <meta property="og:description" content="{{ .Site.Data.section.release.description | safeHTML }}">
-<meta property="og:image" content="{{ .Site.Data.section.release.image | relURL }}">
+<meta property="og:image" content="{{ .Site.Data.section.release.image | absURL }}">
 {{ partial "twitter-card.html" . }}
 
 {{ partial "json-ld-release.html" . }}
