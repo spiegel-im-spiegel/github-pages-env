@@ -5,17 +5,6 @@ description = "久しぶりで抜群に面白い記事を見た。こういう�
 image = "/images/attention/kitten.jpg"
 tags = [ "security", "trust", "blockchain" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -50,6 +39,10 @@ tags = [ "security", "trust", "blockchain" ]
 こういうとき英語不得手なのが本当に不便だよ。
 若い方たち，英語はしっかり習得するんだよ。
 日本語なんて辺境な言語に引き篭もってると世界から取り残されるぞ。
+
+## ブックマーク
+
+- [解説「ゼロトラスト」シフト--“境界”セキュリティの誕生と限界までの道のり - ZDNet Japan](https://japan.zdnet.com/article/35132483/)
 
 ## 参考図書
 

@@ -3,22 +3,11 @@ draft = false
 tags = ["wiki", "slack", "tools"]
 description = "で，当面の問題は私が Wiki 記法をほとんど忘れてるってことなんだよなぁ。"
 date = "2017-01-10T20:21:13+09:00"
-update = "2017-10-11T19:18:24+09:00"
 title = "Scrapbox または Wiki で再び遊ぶ"
 
-[author]
-  facebook = "spiegel.im.spiegel"
-  url = "https://baldanders.info/spiegel/profile/"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  flattr = ""
-  name = "Spiegel"
-  flickr = "spiegel"
-  instagram = "spiegel_2007"
-  tumblr = ""
-  github = "spiegel-im-spiegel"
-  avatar = "/images/avatar.jpg"
-  twitter = "spiegel_2007"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 私事だが [Scrapbox] のアカウントを取った。
@@ -70,6 +59,7 @@ Markdown に慣れすぎてしまった。
 - [Scrapboxページの文章をMarkdownに変換するBookmarkletを書いた - #daiizメモ](http://daiiz.hatenablog.com/entry/2017/02/17/074508)
 - [Scrapboxの良さ - 西尾泰和のScrapbox - Scrapbox](https://scrapbox.io/nishio/Scrapbox%E3%81%AE%E8%89%AF%E3%81%95)
 - [Scrapbox.ioで思考を気持ちよく繋げる · the world as code](https://chroju.github.io/blog/2017/10/08/i_love_scrapbox/)
+- [Auto Project Backup - 橋本商会](https://scrapbox.io/shokai/Auto_Project_Backup)
 
 [Scrapbox]: https://scrapbox.io/ "Scrapbox - A new style of team wiki"
 [Spiegel's Branch]: https://scrapbox.io/spiegel-branch/ "Spiegel's Branch - Scrapbox"

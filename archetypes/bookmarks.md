@@ -2,19 +2,8 @@
 title = "{{ substr .Date 0 -15 }} のブックマーク"
 date =  "{{ .Date }}"
 description = "「XXX」他"
-image = "/images/avatar.jpg"
+image = "/images/attention/bookmarks.jpg"
 draft = true
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
 
 [scripts]
   mathjax = false

@@ -1,23 +1,8 @@
 +++
 date = "2015-09-11T17:58:42+09:00"
-update = "2019-01-15T22:10:14+09:00"
 description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク"
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false
@@ -38,7 +23,7 @@ title = "Go 言語に関するブックマーク"
 
 ## リリース情報
 
-### Go 1.5 Released.
+### Go 1.5 Released. 
 
 - [Go 1.5 is released - The Go Blog](https://blog.golang.org/go1.5)
 - [Go 1.5 Release Notes - The Go Programming Language](https://golang.org/doc/go1.5)
@@ -108,6 +93,7 @@ title = "Go 言語に関するブックマーク"
 ### Next Release
 
 - [Go Modules in 2019 - The Go Blog](https://blog.golang.org/modules2019)
+- [Go 1.12 Release Notes - The Go Programming Language](https://tip.golang.org/doc/go1.12)
 
 ### Go 2 Draft
 
