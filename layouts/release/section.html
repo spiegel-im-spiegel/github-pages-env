@@ -1,0 +1,33 @@
+{{ partial "top.html" . }}
+<head>
+{{ partial "header.html" . }}
+<link rel="canonical" href="{{ .Permalink }}">
+<title>{{ .Site.Data.section.release.name | safeHTML }} | {{ .Site.Title }}</title>
+<meta property="og:title" content="{{ .Site.Data.section.release.name | safeHTML }} | {{ .Site.Title }}">
+<meta name="description" content="{{ .Site.Data.section.release.description | safeHTML }}">
+<meta property="og:description" content="{{ .Site.Data.section.release.description | safeHTML }}">
+<meta property="og:image" content="{{ .Site.Data.section.release.image | relURL }}">
+{{ partial "twitter-card.html" . }}
+
+{{ partial "json-ld-release.html" . }}
+</head>
+<body>
+{{ partial "prepare.html" . }}
+<div id='container'><!-- Container Area -->
+{{ partial "banner.html" . }}
+
+<main>
+<article>
+<h1>{{ .Site.Data.section.release.name }} <a href='{{ .RSSLink }}' title='Feed'><i class='fas fa-rss'></i></a></h1>
+<p>自作パッケージ・ツールと気になるツール・サービスのリリース情報について。</p>
+<ul class="title-list">
+{{ range .Data.Pages }}{{ partial "li-section.html" . }}{{ end }}
+</ul>
+</article>
+</main>
+
+{{ partial "footer.html" . }}
+</div><!-- Container Area -->
+{{ partial "cleanup.html" . }}
+</body>
+{{ partial "end.html" . }}

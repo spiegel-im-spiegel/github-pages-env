@@ -1,23 +1,23 @@
-{{ partial "json-ld-site.html" . }}
-<script type="application/ld+json">
+{{ partial "json-ld-site.html" . }}{{ $maker := printf "%s#maker" .Site.BaseURL }}
+<script type="application/ld+json">{{ $sec := "openpgp" }}{{ $secURL := printf "/%s/" ($sec | urlize) }}
 {
 	"@context": "http://schema.org",
 	"@type": "Blog",
-	"@id": "{{ "/openpgp/" | absURL }}",
-	"url": "{{ "/openpgp/" | absURL }}",
-	"inLanguage": "{{ .Site.LanguageCode }}",
-	"name": "OpenPGP の実装",
-	"description": "OpenPGP とその実装である GnuPG 等に関する話題。",
-	"image": "{{ "/images/attention/openpgp.png" | absURL }}",
+	"@id": {{ $secURL | absURL | jsonify }},
+	"url": {{ $secURL | absURL | jsonify }},
+	"inLanguage": {{ .Site.Data.section.openpgp.languageCode | jsonify }},
+	"name": {{ .Site.Data.section.openpgp.name | safeHTML | jsonify }},
+	"description": {{ .Site.Data.section.openpgp.description | safeHTML | jsonify }},
+	"image": {{ .Site.Data.section.openpgp.image | absURL | jsonify }},
 	"publisher": {
-		"@id": "{{ .Site.BaseURL }}#org"
-	}{{ with .Site.Author }},
+		"@id": {{ $maker | jsonify }}
+	},
 	"author": {
-		"@id": "{{ $.Site.BaseURL }}#maker"
-	}{{ end }}
+		"@id": {{ $maker | jsonify }}
+	}
 }
 </script>
-<script type="application/ld+json">
+<script type="application/ld+json">{{ $breadcrumb := printf "%s#breadcrumb-list" .Permalink }}
 {
 	"@context": "http://schema.org",
 	"@type": "BreadcrumbList",
@@ -27,14 +27,14 @@
 			"@type": "ListItem",
 			"position": 1,
 			"item": {
-				"@id": "{{ .Site.BaseURL }}"
+				"@id": {{ .Site.BaseURL | jsonify }}
 			}
 		}{{ if .IsPage }},
 		{
 			"@type": "ListItem",
 			"position": 2,
 			"item": {
-				"@id": "{{ "/openpgp/" | absURL }}"
+				"@id": {{ $secURL | absURL | jsonify }}
 			}
 		}{{ end }}
 	]
@@ -44,26 +44,22 @@
 {
 	"@context": "http://schema.org",
 	"@type": "BlogPosting",
-	"@id": "{{ .Permalink }}",
-	"url": "{{ .Permalink }}",
-	"mainEntityOfPage": "{{ .Permalink }}",
-	"inLanguage": "{{ .Site.LanguageCode }}",
-	"name": {{ .Title | jsonify }}{{ if .Description }},
+	"@id": {{ .Permalink | jsonify }},
+	"url": {{ .Permalink | jsonify }},
+	"mainEntityOfPage": {{ .Permalink | jsonify }},
+	"inLanguage": {{ .Site.Data.section.openpgp.languageCode | jsonify }},
+	"name": {{ .Title | jsonify }},
 	"description": {{ .Description | jsonify }},
-	"headline": {{ .Description | jsonify }}{{ end }}{{if .Params.tags }},
+	"headline": {{ .Description | jsonify }}{{if .Params.tags }},
 	"keywords": "{{ delimit .Params.tags ", " }}"{{ end }},
-	"image": "{{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ "/images/attention/openpgp.png" | absURL }}{{ end }}",
-	"datePublished": {{ .Date.Format "2006-01-02T15:04:05-07:00" | jsonify }}{{ if .Params.update }},
-	"dateModified": {{ .Params.update | dateFormat "2006-01-02T15:04:05-07:00" | jsonify }}{{ end }},
+	"image": {{ if .Params.image }}{{ .Params.image | absURL | jsonify }}{{ else }}{{ .Site.Data.section.openpgp.image | absURL | jsonify }}{{ end }},
+	"datePublished": {{ .Date.Format "2006-01-02T15:04:05-07:00" | jsonify }},
+	"dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | jsonify }}{{ with .Site.Data.author }},
 	"publisher": {
-		"@id": "{{ .Site.BaseURL }}#org"
-	}{{ with .Params.author }},
+		"@id": {{ $maker | jsonify }}
+	},
 	"author": {
-		"@type": "Person",
-		"@id": "{{ $.Permalink | absURL }}#maker"{{ if .name }},
-		"name": "{{ .name }}"{{ end }}{{ if .url }},
-		"url": "{{ .url }}"{{ end }}{{ if .avatar }},
-		"image": "{{ .avatar | absURL }}"{{ end }}
+		"@id": {{ $maker | jsonify }}
 	}{{ if .license }},
 	"license": "http://creativecommons.org/licenses/{{ .license }}/4.0/"{{ end }}{{ end }}
 }

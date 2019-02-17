@@ -1,0 +1,33 @@
+{{ partial "top.html" . }}
+<head>
+{{ partial "header.html" . }}
+<link rel="canonical" href="{{ .Permalink }}">
+<title>{{ .Site.Data.section.remark.name | safeHTML }} | {{ .Site.Title }}</title>
+<meta property="og:title" content="{{ .Site.Data.section.remark.name | safeHTML }} | {{ .Site.Title }}">
+<meta name="description" content="{{ .Site.Data.section.remark.description | safeHTML }}">
+<meta property="og:description" content="{{ .Site.Data.section.remark.description | safeHTML }}">
+<meta property="og:image" content="{{ .Site.Data.section.remark.image | relURL }}">
+{{ partial "twitter-card.html" . }}
+
+{{ partial "json-ld-remark.html" . }}
+</head>
+<body>
+{{ partial "prepare.html" . }}
+<div id='container'><!-- Container Area -->
+{{ partial "banner.html" . }}
+
+<main>
+<article>
+<h1>{{ .Site.Data.section.remark.name }} <a href='{{ .RSSLink }}' title='Feed'><i class='fas fa-rss'></i></a></h1>
+<p>「<a href="https://baldanders.info/spiegel/log/">しっぽのさきっちょ</a>」が帰ってきたよ。</p>
+<ul class="title-list">
+{{ range .Data.Pages }}{{ partial "li-section.html" . }}{{ end }}
+</ul>
+</article>
+</main>
+
+{{ partial "footer.html" . }}
+</div><!-- Container Area -->
+{{ partial "cleanup.html" . }}
+</body>
+{{ partial "end.html" . }}

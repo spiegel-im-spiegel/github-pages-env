@@ -1,7 +1,7 @@
 local Hugolib = require("hugolib")
 
 local pubdir = "../published"
-local theme = "text"
+local theme = "baldanders-info"
 
 nyagos.write("build for "..pubdir.." folder.\n")
 local errorlevel, errormessage = Hugolib.build(theme, pubdir)

@@ -1,3 +1,0 @@
-{{ with .Params.tags }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}{{ with .PrevInSection }}
-<link rel='prev' href='{{ .Permalink }}' title='{{ .Title }}' />{{ end }}{{ with .NextInSection }}
-<link rel='next' href='{{ .Permalink }}' title='{{ .Title }}' />{{ end }}

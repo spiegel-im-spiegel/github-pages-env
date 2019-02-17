@@ -1,0 +1,37 @@
+{{ partial "top.html" . }}
+<head>
+{{ partial "header.html" . }}
+<link rel="canonical" href="{{ .Permalink }}">
+<title>{{ .Site.Data.section.hugo.name | safeHTML }} | {{ .Site.Title }}</title>
+<meta property="og:title" content="{{ .Site.Data.section.hugo.name | safeHTML }} | {{ .Site.Title }}">
+<meta name="description" content="{{ .Site.Data.section.hugo.description | safeHTML }}">
+<meta property="og:description" content="{{ .Site.Data.section.hugo.description | safeHTML }}">
+<meta property="og:image" content="{{ .Site.Data.section.hugo.image | relURL }}">
+{{ partial "twitter-card.html" . }}
+
+{{ partial "json-ld-hugo.html" . }}
+</head>
+<body>
+{{ partial "prepare.html" . }}
+<div id='container'><!-- Container Area -->
+{{ partial "banner.html" . }}
+
+<main>
+<article>
+<h1>{{ .Site.Data.section.hugo.name }} <a href='{{ .RSSLink }}' title='Feed'><i class='fas fa-rss'></i></a></h1>
+<p><a href="https://baldanders.info/">本家サイト</a>のブログ機能を <a href="https://gohugo.io/">Hugo</a> で外出しにする作業を行うにあたって，いろいろ試しながら作業している。
+ここではその時のメモを公開する。</p>
+<p>記事中に出てくるサンプル・コードは <a href="https://github.com/spiegel-im-spiegel/hugo-practice">spiegel-im-spiegel/hugo-practice</a> で公開している。
+コードの取り扱いは <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.ja">by-sa</a> 相当でどうぞ。
+</p>
+<ol>
+{{ range .Data.Pages.ByDate }}{{ partial "li-section.html" . }}{{ end }}
+</ol>
+</article>
+</main>
+
+{{ partial "footer.html" . }}
+</div><!-- Container Area -->
+{{ partial "cleanup.html" . }}
+</body>
+{{ partial "end.html" . }}

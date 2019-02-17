@@ -1,0 +1,36 @@
+{{ partial "top.html" . }}
+<head>
+{{ partial "header.html" . }}
+<link rel="canonical" href="{{ .Permalink }}">
+<title>{{ .Site.Data.section.openpgp.name | safeHTML }} | {{ .Site.Title }}</title>
+<meta property="og:title" content="{{ .Site.Data.section.openpgp.name | safeHTML }} | {{ .Site.Title }}">
+<meta name="description" content="{{ .Site.Data.section.openpgp.description | safeHTML }}">
+<meta property="og:description" content="{{ .Site.Data.section.openpgp.description | safeHTML }}">
+<meta property="og:image" content="{{ .Site.Data.section.openpgp.image | relURL }}">
+{{ partial "twitter-card.html" . }}
+
+{{ partial "json-ld-openpgp.html" . }}
+</head>
+<body>
+{{ partial "prepare.html" . }}
+<div id='container'><!-- Container Area -->
+{{ partial "banner.html" . }}
+
+<main>
+<article>
+<h1>{{ .Site.Data.section.openpgp.name }} <a href='{{ .RSSLink }}' title='Feed'><i class='fas fa-rss'></i></a></h1>
+<p><a href="https://www.openpgp.org/">OpenPGP</a> とその実装である <a href="https://gnupg.org/">GnuPG</a> 等に関する話題。</p>
+
+<h2>記事の一覧</h2>
+<ol>
+{{ range .Data.Pages.ByDate }}{{ partial "li-section.html" . }}{{ end }}
+</ol>
+
+</article>
+</main>
+
+{{ partial "footer.html" . }}
+</div><!-- Container Area -->
+{{ partial "cleanup.html" . }}
+</body>
+{{ partial "end.html" . }}

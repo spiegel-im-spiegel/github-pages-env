@@ -1,19 +1,16 @@
 {{ partial "top.html" . }}
 <head prefix="og: http://ogp.me/ns#">
 {{ partial "header.html" . }}
-<link rel="canonical" href="{{ .Permalink }}">
-<title>{{ .Title }} — 改訂3版： CC Licenses について | {{ .Site.Title }}</title>
-<meta property="og:title" content="{{ .Title }} — 改訂3版： CC Licenses について | {{ .Site.Title }}">{{ if .Description }}
-<meta name="description" content="{{ .Description }}">
-<meta property="og:description" content="{{ .Description }}">{{ else }}
-<meta name="description" content="CC License について。">
-<meta property="og:description" content="CC License について。">{{ end }}
-<meta property="og:image" content="{{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ "/images/attention/cc-licenses.jpg" | absURL }}{{ end }}">
-{{ partial "twitter-card.html" . }}{{ with .Params.author }}{{ if .name }}
+<title>{{ .Title | safeHTML }} — {{ .Site.Data.section.cclicenses.name | safeHTML }} | {{ .Site.Title | safeHTML }}</title>
+<meta property="og:title" content="{{ .Title | safeHTML }} — {{ .Site.Data.section.cclicenses.name | safeHTML }} | {{ .Site.Title | safeHTML }}">
+<meta name="description" content="{{ .Description | safeHTML }}">
+<meta property="og:description" content="{{ .Description | safeHTML }}">
+<meta property="og:image" content="{{ if .Params.image }}{{ .Params.image | relURL }}{{ else }}{{ .Site.Data.section.cclicenses.image | relURL }}{{ end }}">{{ with .Site.Data.author }}{{ if .name }}
 <meta name="author" content="{{ .name }}">{{ end }}{{ end }}
+{{ partial "twitter-card.html" . }}
 {{ partial "header-nav.html" . }}
 
-{{ partial "json-ld-cc-licenses.html" . }}
+{{ partial "json-ld-cclicenses.html" . }}
 </head>
 <body>
 {{ partial "prepare.html" . }}
@@ -21,16 +18,14 @@
 
 <main>
 <nav class="breadcrumb">
-<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>{{ if .Section }} &raquo; <a href="{{ .Site.BaseURL }}{{ .Section | urlize }}/">改訂3版： CC Licenses について</a>{{ end }}
+<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>{{ if .Section }}{{ $secURL := printf "/%s/" (.Section | urlize) }} &raquo; <a href="{{ $secURL | relURL }}">{{ .Site.Data.section.cclicenses.name }}</a>{{ end }}
 </nav>
 <article>
 <h1>{{ .Title }}</h1>
 {{ partial "navi-tag.html" . }}
 
 <section><div>
-<div style="float:right;margin-left:0.5rem;margin-bottom:0.5rem;padding-left:0.5rem;padding-bottom:0.5rem;">
-<a href="{{ "/remark/2018/11/copyright-law-is-revised/" | relURL }}" title="年末年始に施行される改正著作権法に関する覚え書き"><img src="{{ "/images/noextension.png" | relURL }}" alt="no extension" width="165" height="50" /></a>
-</div>
+{{ partial "noextension.html" . }}
 {{ .Content }}
 </div></section>
 

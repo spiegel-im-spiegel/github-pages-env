@@ -7,6 +7,14 @@ preserveTaxonomyNames = false
 disqusShortname = "textbaldandersinfo"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
+dataDir = "data"
+enableGitInfo = true
+
+[frontmatter]
+  lastmod = [":git", "update", "lastmod", "date", "publishDate"]
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 [blackfriday]
   smartypants = false

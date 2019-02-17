@@ -1,6 +1,0 @@
-<figure style='margin:0 auto;text-align:center;'>
-<div style="position: relative; margin: 0 2rem; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-	<iframe class="youtube-player" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" src="https://www.youtube-nocookie.com/embed/{{ .Get "id" }}" allowfullscreen></iframe>
-</div>{{ if .Get "title"}}
-<figcaption><a href="https://www.youtube.com/watch?v={{ .Get "id" }}">{{ .Get "title" }}</a></figcaption>
-{{ end }}</figure>

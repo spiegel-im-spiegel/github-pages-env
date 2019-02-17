@@ -1,14 +1,14 @@
 {{ partial "json-ld-site.html" . }}{{ $maker := printf "%s#maker" .Site.BaseURL }}
-<script type="application/ld+json">{{ $sec := "hugo" }}{{ $secURL := printf "/%s/" ($sec | urlize) }}
+<script type="application/ld+json">{{ $sec := "cc-licenses" }}{{ $secURL := printf "/%s/" ($sec | urlize) }}
 {
 	"@context": "http://schema.org",
 	"@type": "Blog",
 	"@id": {{ $secURL | absURL | jsonify }},
 	"url": {{ $secURL | absURL | jsonify }},
-	"inLanguage": {{ .Site.Data.section.hugo.languageCode | jsonify }},
-	"name": {{ .Site.Data.section.hugo.name | safeHTML | jsonify }},
-	"description": {{ .Site.Data.section.hugo.description | safeHTML | jsonify }},
-	"image": {{ .Site.Data.section.hugo.image | absURL | jsonify }},
+	"inLanguage": {{ .Site.Data.section.cclicenses.languageCode | jsonify }},
+	"name": {{ .Site.Data.section.cclicenses.name | safeHTML | jsonify }},
+	"description": {{ .Site.Data.section.cclicenses.description | safeHTML | jsonify }},
+	"image": {{ .Site.Data.section.cclicenses.image | absURL | jsonify }},
 	"publisher": {
 		"@id": {{ $maker | jsonify }}
 	},
@@ -47,12 +47,12 @@
 	"@id": {{ .Permalink | jsonify }},
 	"url": {{ .Permalink | jsonify }},
 	"mainEntityOfPage": {{ .Permalink | jsonify }},
-	"inLanguage": {{ .Site.Data.section.hugo.languageCode | jsonify }},
+	"inLanguage": {{ .Site.Data.section.cclicenses.languageCode | jsonify }},
 	"name": {{ .Title | jsonify }},
 	"description": {{ .Description | jsonify }},
 	"headline": {{ .Description | jsonify }}{{if .Params.tags }},
 	"keywords": "{{ delimit .Params.tags ", " }}"{{ end }},
-	"image": {{ if .Params.image }}{{ .Params.image | absURL | jsonify }}{{ else }}{{ .Site.Data.section.hugo.image | absURL | jsonify }}{{ end }},
+	"image": {{ if .Params.image }}{{ .Params.image | absURL | jsonify }}{{ else }}{{ .Site.Data.section.cclicenses.image | absURL | jsonify }}{{ end }},
 	"datePublished": {{ .Date.Format "2006-01-02T15:04:05-07:00" | jsonify }},
 	"dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | jsonify }}{{ with .Site.Data.author }},
 	"publisher": {

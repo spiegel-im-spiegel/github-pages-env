@@ -1,0 +1,5 @@
+languageCode = "ja"
+name = "リリース情報"
+description = "自作パッケージ・ツールと気になるツール・サービスのリリース情報について。"
+sectionType = "text"
+image = "/images/attention/tools.png"

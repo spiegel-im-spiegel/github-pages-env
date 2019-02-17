@@ -1,0 +1,5 @@
+languageCode = "ja"
+name = "プログラミング言語 Go"
+description = "Go 言語プログラミングに関する話題。"
+sectionType = "text"
+image = "/images/attention/go-logo_blue.png"

@@ -1,0 +1,5 @@
+languageCode = "ja"
+name = "ブックマーク集"
+description = "いままで del.icio.us（旧 delicious.com）で収集していたブックマークの代替として運用してみるテスト。"
+sectionType = "text"
+image = "/images/attention/bookmarks.jpg"

@@ -1,16 +1,13 @@
 {{ partial "top.html" . }}
 <head prefix="og: http://ogp.me/ns#">
 {{ partial "header.html" . }}
-<link rel="canonical" href="{{ .Permalink }}">
-<title>{{ .Title }} — プログラミング言語 Go | {{ .Site.Title }}</title>
-<meta property="og:title" content="{{ .Title }} — プログラミング言語 Go | {{ .Site.Title }}">{{ if .Description }}
-<meta name="description" content="{{ .Description }}">
-<meta property="og:description" content="{{ .Description }}">{{ else }}
-<meta name="description" content="Go 言語に関する話題。">
-<meta property="og:description" content="Go 言語に関する話題。">{{ end }}
-<meta property="og:image" content="{{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ "/images/attention/go-logo_blue.png" | absURL }}{{ end }}">
-{{ partial "twitter-card.html" . }}{{ with .Params.author }}{{ if .name }}
+<title>{{ .Title | safeHTML }} — {{ .Site.Data.section.golang.name | safeHTML }} | {{ .Site.Title | safeHTML }}</title>
+<meta property="og:title" content="{{ .Title | safeHTML }} — {{ .Site.Data.section.golang.name | safeHTML }} | {{ .Site.Title | safeHTML }}">
+<meta name="description" content="{{ .Description | safeHTML }}">
+<meta property="og:description" content="{{ .Description | safeHTML }}">
+<meta property="og:image" content="{{ if .Params.image }}{{ .Params.image | relURL }}{{ else }}{{ .Site.Data.section.golang.image | relURL }}{{ end }}">{{ with .Site.Data.author }}{{ if .name }}
 <meta name="author" content="{{ .name }}">{{ end }}{{ end }}
+{{ partial "twitter-card.html" . }}
 {{ partial "header-nav.html" . }}
 
 {{ partial "json-ld-golang.html" . }}
@@ -21,7 +18,7 @@
 
 <main>
 <nav class="breadcrumb">
-<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>{{ if .Section }} &raquo; <a href="{{ .Site.BaseURL }}{{ .Section | urlize }}/">プログラミング言語 Go</a>{{ end }}
+<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>{{ if .Section }}{{ $secURL := printf "/%s/" (.Section | urlize) }} &raquo; <a href="{{ $secURL | relURL }}">{{ .Site.Data.section.golang.name }}</a>{{ end }}
 </nav>
 <article>
 <h1>{{ .Title }}</h1>
