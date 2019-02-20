@@ -36,49 +36,49 @@
 
 <li><a href='{{ "/remark/" | relURL }}'><em>[remark] しっぽのさきっちょ</em></a> <a href='{{ "/remark/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
 	<span style="font-size:smaller;">{{ range first 1 (where .Site.Pages "Section" "==" "remark") }}
-		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Params.author.name }} by {{ . }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
+		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
 		{{ end }}<br>&raquo; 「<a href="https://baldanders.info/spiegel/log/">しっぽのさきっちょ</a>」が帰ってきたよ。日記風コンテンツ。
 	</span>
 </li>
 
 <li><a href='{{ "/golang/" | relURL }}'><em>[golang] プログラミング言語 Go</em></a> <a href='{{ "/golang/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
 	<span style="font-size:smaller;">{{ range first 1 (where .Site.Pages "Section" "==" "golang") }}
-		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Params.author.name }} by {{ . }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
+		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
 		{{ end }}<br>&raquo; Go 言語に関する話題。
 	</span>
 </li>
 
 <li><a href='{{ "/openpgp/" | relURL }}'><em>[openpgp] OpenPGP の実装</em></a> <a href='{{ "/openpgp/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
 	<span style="font-size:smaller;">{{ range first 1 (where .Site.Pages "Section" "==" "openpgp") }}
-		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Params.author.name }} by {{ . }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
+		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
 		{{ end }}<br>&raquo; OpenPGP とその実装である GnuPG 等に関する話題。
 	</span>
 </li>
 
 <li><a href='{{ "/cc-licenses/" | relURL }}'><em>[cc-licenses] 改訂3版： CC Licenses について</em></a> <a href='{{ "/cc-licenses/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
 	<span style="font-size:smaller;">{{ range first 1 (where .Site.Pages "Section" "==" "cc-licenses") }}
-		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Params.author.name }} by {{ . }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
+		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
 		{{ end }}<br>&raquo; <a href="https://baldanders.info/">本家サイト</a>の「<a href="https://baldanders.info/spiegel/archive/cc-license/">クリエイティブ・コモンズ・ライセンスについて</a>」を大幅リニューアル。
 	</span>
 </li>
 
 <li><a href='{{ "/hugo/" | relURL }}'><em>[hugo] ゼロから始める Hugo</em></a> <a href='{{ "/hugo/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
 	<span style="font-size:smaller;">{{ range first 1 (where .Site.Pages "Section" "==" "hugo") }}
-		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Params.author.name }} by {{ . }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
+		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
 		{{ end }}<br>&raquo; <a href="https://baldanders.info/">本家サイト</a>のブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。その際のメモを公開する。
 	</span>
 </li>
 
 <li><a href='{{ "/release/" | relURL }}'><em>[release] リリース情報</em></a> <a href='{{ "/release/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
 	<span style="font-size:smaller;">{{ range first 1 (where .Site.Pages "Section" "==" "release") }}
-		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Params.author.name }} by {{ . }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
+		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
 		{{ end }}<br>&raquo; 自作パッケージ・ツールのリリース情報と気になるツール・サービスの情報について。
 	</span>
 </li>
 
 <li><a href='{{ "/bookmarks/" | relURL }}'><em>[bookmarks] ブックマーク</em></a> <a href='{{ "/bookmarks/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
 	<span style="font-size:smaller;">{{ range first 1 (where .Site.Pages "Section" "==" "bookmarks") }}
-		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Params.author.name }} by {{ . }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
+		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
 		{{ end }}<br>&raquo; いままで <a href="http://del.icio.us/">del.icio.us</a> （旧 <a href="https://delicious.com/spiegel">delicious.com</a>）で収集していたブックマークの代替として運用してみるテスト。
 	</span>
 </li>
