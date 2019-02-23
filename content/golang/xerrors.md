@@ -488,7 +488,7 @@ type Formatter interface {
 
 `CustomPathError` を UML で描くとこんな感じ。
 
-{{< fig-img src="./custumerror.png" title="custumerror.png" link="./custumerror.puml" width="1859" >}}
+{{< fig-img src="./custumerror.png" title="custumerror.png" link="./custumerror.puml" width="1912" >}}
 
 この `CustomPathError` を使って [`os`]`.Open()` 関数の返り値の error をラップする。
 

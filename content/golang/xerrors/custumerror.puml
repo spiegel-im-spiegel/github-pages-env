@@ -27,7 +27,7 @@ class CustomPathError {
 
 CustomPathError .up.|> error
 CustomPathError .up.|> Formatter
-Formatter .up.> error
+Formatter .up.> error : dependency
 CustomPathError .up.|> fmtFormatter
 CustomPathError .up.|> Wrapper
 
