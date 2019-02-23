@@ -1,0 +1,34 @@
+@startuml
+
+skinparam minClassWidth 130
+
+abstract class error <<interface>> {
+  {abstract} {method} + Error() : string
+}
+abstract class "xerrors.Wrapper" as Wrapper <<interface>> {
+  {abstract} {method} + Unwrap() : error
+}
+abstract class "xerrors.Formatter" as Formatter <<interface>> {
+  {abstract} {method} + FormatError(xerrors.Printer) : error
+}
+abstract class "fmt.Formatter" as fmtFormatter <<interface>> {
+  {abstract} {method} + Format(fmt.State, rune)
+}
+class CustomPathError {
+  {field} + Op : string
+  {field} + Path : string
+  {field} + Err : error
+  {field} ~ frame : Frame
+  {method} + Error() : string
+  {method} + Unwrap() : error
+  {method} + Format(fmt.State, rune)
+  {method} + FormatError(xerrors.Printer) : error
+}
+
+CustomPathError .up.|> error
+CustomPathError .up.|> Formatter
+Formatter .up.> error
+CustomPathError .up.|> fmtFormatter
+CustomPathError .up.|> Wrapper
+
+@enduml

@@ -1,27 +1,17 @@
 +++
 draft = false
 date = "2016-11-03T20:51:00+09:00"
-update = "2016-11-08T20:41:58+09:00"
 title = "Error の構造化"
 description = "エラーハンドリングのために error を構造化する手段として github.com/pkg/errors というパッケージがあるそうだ。"
 tags = [
   "golang",
+  "programming",
   "error",
 ]
 
-[author]
-  name = "Spiegel"
-  linkedin = "spiegelimspiegel"
-  twitter = "spiegel_2007"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  url = "https://baldanders.info/spiegel/profile/"
-  avatar = "/images/avatar.jpg"
-  tumblr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  flickr = "spiegel"
-  license = "by-sa"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 今回は「[エラー・ハンドリングについて]({{< relref "error-handling.md" >}})」の続き。
