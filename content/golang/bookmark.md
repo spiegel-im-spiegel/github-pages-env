@@ -749,6 +749,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go にとても長い式を食べさせると死ぬ - Qiita](https://qiita.com/Nabetani/items/e850ad92ba79640bfcd7)
 - [Language and Locale Matching in Go - The Go Blog](https://blog.golang.org/matchlang)
 - [Go言語(Golang) はまりどころと解決策](http://www.yunabe.jp/docs/golang_pitfall.html)
+- [go - Creating call graph in golang - Stack Overflow](https://stackoverflow.com/questions/31362332/creating-call-graph-in-golang#31369718)
 
 ### 他言語との比較もしくは移行
 
