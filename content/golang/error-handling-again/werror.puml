@@ -13,6 +13,7 @@ abstract class "fmt.Formatter" as fmtFormatter <<interface>> {
 }
 class "werror.Num" as Num {
   {method} + Error() : string
+  {method} + Is(error) : bool
 }
 class "werror.wrapError" as wrapError {
   {field} + Num {embedded}

@@ -233,13 +233,22 @@ return werror.New(werror.ErrInstance1)
 などとすれば定義された error 値を使って `werror.New()` 関数の起動位置で error インスタンスを生成することが出来る。
 ただし，このままでは [`xerrors`]`.Is()` 関数によるインスタンスの等値性を正しく検証できない。
 
-そこで `wrapError` に以下の関数を追加する。
+そこで `Num` および `wrapError` に以下の関数を追加する。
 
 ```go
+func (n Num) Is(target error) bool {
+	var t1 *wrapError
+	if xerrors.As(target, &t1) {
+		return n == t1.Num
+	}
+	var t2 Num
+	if xerrors.As(target, &t2) {
+		return n == t2
+	}
+	return false
+}
+
 func (we *wrapError) Is(target error) bool {
-    if we == nil || target == nil {
-        return we == target
-    }
     var t1 *wrapError
     if xerrors.As(target, &t1) {
         return we.Num == t1.Num
@@ -252,7 +261,7 @@ func (we *wrapError) Is(target error) bool {
 }
 ```
 
-これで等値演算子 `==` の代わりに `wrapError.Is()` 関数がインスタンスの等値性をチェックしてくれる。
+これで等値演算子 `==` の代わりに `Num.Is()` および `wrapError.Is()` 関数がインスタンスの等値性をチェックしてくれる。
 
 この `werror` パッケージのクラス図はこんな感じかな。
 
