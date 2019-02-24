@@ -250,7 +250,7 @@ func Cause(err error) error {
 
 - [Golangでエラー時にスタックトレースを表示する - Qiita](http://qiita.com/deeeet/items/dacc71932393ab35d9f8)
 
-[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
+- [エラー・ハンドリング再考]({{< relref "./error-handling-again.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [error]: http://blog.golang.org/error-handling-and-go "Error handling and Go - The Go Blog"

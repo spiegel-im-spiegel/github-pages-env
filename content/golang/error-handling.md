@@ -1,23 +1,12 @@
 +++
 date = "2015-09-30T00:27:48+09:00"
-update = "2017-09-19T17:22:06+09:00"
 description = "C++ や Java のような言語圏から来た（私のような）人間にとって Go 言語の「オブジェクト指向」はかなり異質なのだが，慣れてみると逆にとても合理的に見えてくる。この最たるものが error 型である。（追記あり）"
-draft = false
-tags = ["golang", "error", "exception", "panic", "interface", "defer"]
+tags = ["golang", "error", "exception", "panic", "interface", "defer", "design"]
 title = "エラー・ハンドリングについて（追記あり）"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 C++ や Java のような言語圏から来た（私のような）人間にとって [Go 言語]の「オブジェクト指向」はかなり異質なのだが，慣れてみると逆にとても合理的に見えてくる。
@@ -237,8 +226,7 @@ if err != nil {
 もうひとつ考慮すべき点としてエラー・メッセージの設計が挙げられるだろう。
 [error] に対するメッセージをどのように設計するかは（大規模アプリケーションでは特に）重要である。
 
-（「[Error の構造化]({{< relref "error-handling2.md" >}})」へ続く）
-
+（「[Error の構造化]({{< relref "error-handling2.md" >}})」および「[エラー・ハンドリング再考]({{< relref "./error-handling-again.md" >}})」へ続く）
 
 ## 【追記】 Panic と Recover
 

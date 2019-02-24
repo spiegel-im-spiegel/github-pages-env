@@ -20,7 +20,13 @@ pageType = "text"
 
 これは朗報！ というわけで早速試してみることにした。
 
-## Error インスタンスの生成
+1. [Error インスタンスの生成]({{< relref "#new" >}})
+1. [Error の階層化]({{< relref "#wrap" >}})
+1. [Error の等値性]({{< relref "#is" >}})
+1. [階層化された Error を検索する]({{< relref "#as" >}})
+1. [独自の階層化 error 型を作成する]({{< relref "#custom" >}})
+
+## Error インスタンスの生成{#new}
 
 さっそく簡単なコードを書いてみよう。
 
@@ -107,7 +113,7 @@ func New(text string) error {
 `frame` フィールドに [`xerrors`]`.New()` 関数の呼び出し情報が格納されているのが分かると思う。
 これでデバッグ作業がかなり楽になるだろう。
 
-## Error の階層化
+## Error の階層化{#wrap}
 
 たとえば以下のようなファイルをオープンするだけの簡単なコードを書いてみる。
 
@@ -241,7 +247,7 @@ func (e *wrapError) Unwrap() error {
 }
 ```
 
-## Error の等値性
+## Error の等値性{#is}
 
 上述した [`xerrors`]`.Wrapper` インタフェースがなんの役に立つかというと error インスタンスの等値性（equality）をチェックするのに役立つのだ。
 
@@ -327,7 +333,7 @@ $ go run demo3/demo3.go
 Result: ファイルが存在しない。
 ```
 
-## 階層化された Error を検索する
+## 階層化された Error を検索する{#as}
 
  [`xerrors`]`.As()` 関数を使うと階層化された Error の中から指定した型の error インスタンスを抽出できる。
  これも [`xerrors`]`.Wrapper` インタフェースが実装されていることが前提となる。
@@ -427,7 +433,7 @@ $ go run demo3/demo3.go
 Result: ファイルが存在しない。
 ```
 
-## 独自の階層化 error 型を作成する
+## 独自の階層化 error 型を作成する{#custom}
 
 ここまで分かったので，次は [`xerrors`] 互換の階層化 error 型を自作してみよう。
 具体的には [`os`]`.PathError` をカスタマイズした型を書いてみる。
@@ -566,7 +572,6 @@ Error in fileOpen():
 - [エラー・ハンドリングについて]({{< relref "./error-handling.md" >}})
 - [Error の構造化]({{< relref "./error-handling2.md" >}})
 - [次期 Go 言語で導入される（かもしれない）新しいエラー・ハンドリングについて予習する]({{< relref "./error-handling-in-go-2.md" >}})
-
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [golang.org/x/xerrors]: https://godoc.org/golang.org/x/xerrors "xerrors - GoDoc"

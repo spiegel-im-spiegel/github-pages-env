@@ -1,0 +1,31 @@
+@startuml
+
+skinparam minClassWidth 130
+
+abstract class error <<interface>> {
+  {abstract} {method} + Error() : string
+}
+abstract class "xerrors.Formatter" as Formatter <<interface>> {
+  {abstract} {method} + FormatError(xerrors.Printer) : error
+}
+abstract class "fmt.Formatter" as fmtFormatter <<interface>> {
+  {abstract} {method} + Format(fmt.State, rune)
+}
+class "werror.Num" as Num {
+  {method} + Error() : string
+}
+class "werror.wrapError" as wrapError {
+  {field} + Num {embedded}
+  {field} ~ frame : Frame
+  {method} + Format(fmt.State, rune)
+  {method} + FormatError(xerrors.Printer) : error
+  {method} + Is(error) : bool
+}
+
+wrapError o-up-|> Num : <<delegation>> >
+Num .up.|> error
+wrapError .up.|> Formatter
+Formatter .up.> error : dependency
+wrapError .up.|> fmtFormatter
+
+@enduml
