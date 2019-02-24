@@ -38,9 +38,9 @@ func bar() error {
 
 ```go
 var (
-	ErrInstance1 = errors.New("error instance 1")
-	ErrInstance2 = errors.New("error instance 2")
-	ErrInstance3 = errors.New("error instance 3")
+    ErrInstance1 = errors.New("error instance 1")
+    ErrInstance2 = errors.New("error instance 2")
+    ErrInstance3 = errors.New("error instance 3")
 )
 ```
 
@@ -48,20 +48,20 @@ var (
 
 ```go
 func errorHandling(err error) {
-	switch err {
-	case ErrInstance1:
-		fmt.Fprintln(os.Stderr, "Error number 1 was triggered.")
-		return
-	case ErrInstance2:
-		fmt.Fprintln(os.Stderr, "Error number 2 was triggered.")
-		return
-	case ErrInstance3:
-		fmt.Fprintln(os.Stderr, "Error number 3 was triggered.")
-		return
-	default:
-		fmt.Fprintln(os.Stderr, "Unknown error")
-		return
-	}
+    switch err {
+    case ErrInstance1:
+        fmt.Fprintln(os.Stderr, "Error number 1 was triggered.")
+        return
+    case ErrInstance2:
+        fmt.Fprintln(os.Stderr, "Error number 2 was triggered.")
+        return
+    case ErrInstance3:
+        fmt.Fprintln(os.Stderr, "Error number 3 was triggered.")
+        return
+    default:
+        fmt.Fprintln(os.Stderr, "Unknown error")
+        return
+    }
 }
 ```
 
@@ -75,48 +75,48 @@ func errorHandling(err error) {
 package main
 
 import (
-	"fmt"
-	"os"
+    "fmt"
+    "os"
 
-	"golang.org/x/xerrors"
+    "golang.org/x/xerrors"
 )
 
 var (
-	ErrInstance1 = xerrors.New("error instance 1")
-	ErrInstance2 = xerrors.New("error instance 2")
-	ErrInstance3 = xerrors.New("error instance 3")
+    ErrInstance1 = xerrors.New("error instance 1")
+    ErrInstance2 = xerrors.New("error instance 2")
+    ErrInstance3 = xerrors.New("error instance 3")
 )
 
 func errorHandling(err error) {
-	switch err {
-	case ErrInstance1:
-		fmt.Fprintf(os.Stderr, "Error number 1 was triggered.\n%+v\n", err)
-		return
-	case ErrInstance2:
-		fmt.Fprintf(os.Stderr, "Error number 2 was triggered.\n%+v\n", err)
-		return
-	case ErrInstance3:
-		fmt.Fprintf(os.Stderr, "Error number 3 was triggered.\n%+v\n", err)
-		return
-	default:
+    switch err {
+    case ErrInstance1:
+        fmt.Fprintf(os.Stderr, "Error number 1 was triggered.\n%+v\n", err)
+        return
+    case ErrInstance2:
+        fmt.Fprintf(os.Stderr, "Error number 2 was triggered.\n%+v\n", err)
+        return
+    case ErrInstance3:
+        fmt.Fprintf(os.Stderr, "Error number 3 was triggered.\n%+v\n", err)
+        return
+    default:
         fmt.Fprintf(os.Stderr, "Unknown error.\n%+v\n", err)
-		return
-	}
+        return
+    }
 }
 
 func foo() error {
-	return ErrInstance1
+    return ErrInstance1
 }
 func bar() error {
-	return ErrInstance1
+    return ErrInstance1
 }
 
 func main() {
-	err1 := foo()
-	err2 := bar()
-	fmt.Println("foo() error == bar() error ?", err1 == err2)
-	errorHandling(err1)
-	errorHandling(err2)
+    err1 := foo()
+    err2 := bar()
+    fmt.Println("foo() error == bar() error ?", err1 == err2)
+    errorHandling(err1)
+    errorHandling(err2)
 }
 ```
 
@@ -140,10 +140,10 @@ error instance 1:
 
 ```go
 func foo() error {
-	return xerrors.New("error instance 1")
+    return xerrors.New("error instance 1")
 }
 func bar() error {
-	return xerrors.New("error instance 1")
+    return xerrors.New("error instance 1")
 }
 ```
 
@@ -179,22 +179,22 @@ package werror
 type Num int
 
 const (
-	ErrInstance1 Num = iota + 1
-	ErrInstance2
-	ErrInstance3
+    ErrInstance1 Num = iota + 1
+    ErrInstance2
+    ErrInstance3
 )
 
 var errMessage = map[Num]string{
-	ErrInstance1: "error instance 1",
-	ErrInstance2: "error instance 2",
-	ErrInstance3: "error instance 3",
+    ErrInstance1: "error instance 1",
+    ErrInstance2: "error instance 2",
+    ErrInstance3: "error instance 3",
 }
 
 func (n Num) Error() string {
-	if s, ok := errMessage[n]; ok {
-		return s
-	}
-	return "unknown error"
+    if s, ok := errMessage[n]; ok {
+        return s
+    }
+    return "unknown error"
 }
 ```
 
@@ -204,22 +204,22 @@ func (n Num) Error() string {
 
 ```go
 type wrapError struct {
-	Num
-	frame xerrors.Frame
+    Num
+    frame xerrors.Frame
 }
 
 func New(n Num) error {
-	return &wrapError{Num: n, frame: xerrors.Caller(1)}
+    return &wrapError{Num: n, frame: xerrors.Caller(1)}
 }
 
 func (we *wrapError) Format(s fmt.State, v rune) {
-	xerrors.FormatError(we, s, v)
+    xerrors.FormatError(we, s, v)
 }
 
 func (we *wrapError) FormatError(p xerrors.Printer) error {
-	p.Print(we.Error())
-	we.frame.Format(p)
-	return nil
+    p.Print(we.Error())
+    we.frame.Format(p)
+    return nil
 }
 ```
 
@@ -237,18 +237,18 @@ return werror.New(werror.ErrInstance1)
 
 ```go
 func (we *wrapError) Is(target error) bool {
-	if we == nil || target == nil {
-		return we == target
-	}
-	var t1 *wrapError
-	if xerrors.As(target, &t1) {
-		return we.Num == t1.Num
-	}
-	var t2 Num
-	if xerrors.As(target, &t2) {
-		return we.Num == t2
-	}
-	return false
+    if we == nil || target == nil {
+        return we == target
+    }
+    var t1 *wrapError
+    if xerrors.As(target, &t1) {
+        return we.Num == t1.Num
+    }
+    var t2 Num
+    if xerrors.As(target, &t2) {
+        return we.Num == t2
+    }
+    return false
 }
 ```
 
@@ -264,44 +264,44 @@ func (we *wrapError) Is(target error) bool {
 package main
 
 import (
-	"fmt"
-	"os"
+    "fmt"
+    "os"
 
-	"demo-xerrors/handling2/werror"
+    "demo-xerrors/handling2/werror"
 
-	"golang.org/x/xerrors"
+    "golang.org/x/xerrors"
 )
 
 func errorHandling(err error) {
-	switch true {
-	case xerrors.Is(err, werror.ErrInstance1):
-		fmt.Fprintf(os.Stderr, "Error number 1 was triggered.\n%+v\n", err)
-		return
-	case xerrors.Is(err, werror.ErrInstance2):
-		fmt.Fprintf(os.Stderr, "Error number 2 was triggered.\n%+v\n", err)
-		return
-	case xerrors.Is(err, werror.ErrInstance3):
-		fmt.Fprintf(os.Stderr, "Error number 3 was triggered.\n%+v\n", err)
-		return
-	default:
-		fmt.Fprintf(os.Stderr, "Unknown error.\n%+v\n", err)
-		return
-	}
+    switch true {
+    case xerrors.Is(err, werror.ErrInstance1):
+        fmt.Fprintf(os.Stderr, "Error number 1 was triggered.\n%+v\n", err)
+        return
+    case xerrors.Is(err, werror.ErrInstance2):
+        fmt.Fprintf(os.Stderr, "Error number 2 was triggered.\n%+v\n", err)
+        return
+    case xerrors.Is(err, werror.ErrInstance3):
+        fmt.Fprintf(os.Stderr, "Error number 3 was triggered.\n%+v\n", err)
+        return
+    default:
+        fmt.Fprintf(os.Stderr, "Unknown error.\n%+v\n", err)
+        return
+    }
 }
 
 func foo() error {
-	return werror.New(werror.ErrInstance1)
+    return werror.New(werror.ErrInstance1)
 }
 func bar() error {
-	return werror.New(werror.ErrInstance1)
+    return werror.New(werror.ErrInstance1)
 }
 
 func main() {
-	err1 := foo()
-	err2 := bar()
-	fmt.Println("foo() error == bar() error ?", xerrors.Is(err1, err2))
-	errorHandling(err1)
-	errorHandling(err2)
+    err1 := foo()
+    err2 := bar()
+    fmt.Println("foo() error == bar() error ?", xerrors.Is(err1, err2))
+    errorHandling(err1)
+    errorHandling(err2)
 }
 ```
 
@@ -339,8 +339,8 @@ error instance 1:
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9EGo-ADDISON-WESLEY-PROFESSIONAL-COMPUTING-Donovan/dp/4621300253?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621300253"><img src="https://images-fe.ssl-images-amazon.com/images/I/41meaSLNFfL._SL160_.jpg" width="123" alt="photo"></a></div>
   <dl class="fn">
     <dt><a href="https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9EGo-ADDISON-WESLEY-PROFESSIONAL-COMPUTING-Donovan/dp/4621300253?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621300253">プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)</a></dt>
-	<dd>Alan A.A. Donovan, Brian W. Kernighan</dd>
-	<dd>柴田 芳樹 (翻訳)</dd>
+    <dd>Alan A.A. Donovan, Brian W. Kernighan</dd>
+    <dd>柴田 芳樹 (翻訳)</dd>
     <dd>丸善出版 2016-06-20</dd>
     <dd>Book 単行本（ソフトカバー）</dd>
     <dd>ASIN: 4621300253, EAN: 9784621300251</dd>

@@ -34,19 +34,19 @@ pageType = "text"
 package main
 
 import (
-	"fmt"
-	"os"
+    "fmt"
+    "os"
 
-	"golang.org/x/xerrors"
+    "golang.org/x/xerrors"
 )
 
 func foo() error {
-	return xerrors.New("an error instance")
+    return xerrors.New("an error instance")
 }
 func main() {
-	if err := foo(); err != nil {
-		fmt.Fprintf(os.Stderr, "%v\n", err)
-	}
+    if err := foo(); err != nil {
+        fmt.Fprintf(os.Stderr, "%v\n", err)
+    }
 }
 ```
 
@@ -65,19 +65,19 @@ an error instance
 package main
 
 import (
-	"fmt"
-	"os"
+    "fmt"
+    "os"
 
-	"golang.org/x/xerrors"
+    "golang.org/x/xerrors"
 )
 
 func foo() error {
-	return xerrors.New("an error instance")
+    return xerrors.New("an error instance")
 }
 func main() {
-	if err := foo(); err != nil {
-		fmt.Fprintf(os.Stderr, "%+v\n", err)
-	}
+    if err := foo(); err != nil {
+        fmt.Fprintf(os.Stderr, "%+v\n", err)
+    }
 }
 {{< /highlight  >}}
 
@@ -97,8 +97,8 @@ an error instance:
 ```go
 // errorString is a trivial implementation of error.
 type errorString struct {
-	s     string
-	frame Frame
+    s     string
+    frame Frame
 }
 
 // New returns an error that formats as the given text.
@@ -106,7 +106,7 @@ type errorString struct {
 // The returned error contains a Frame set to the caller's location and
 // implements Formatter to show this information when printed with details.
 func New(text string) error {
-	return &errorString{text, Caller(1)}
+    return &errorString{text, Caller(1)}
 }
 ```
 
@@ -121,31 +121,31 @@ func New(text string) error {
 package main
 
 import (
-	"fmt"
-	"os"
+    "fmt"
+    "os"
 )
 
 func fileOpen(fname string) error {
-	file, err := os.Open(fname)
-	if err != nil {
-		switch e := err.(type) {
-		case *os.PathError:
-			return fmt.Errorf("Error in fileOpen(\"%v\"): %v", e.Path, e.Err)
-		default:
-			return fmt.Errorf("Error in fileOpen(): %v", err)
-		}
-	}
-	defer file.Close()
-	return nil
+    file, err := os.Open(fname)
+    if err != nil {
+        switch e := err.(type) {
+        case *os.PathError:
+            return fmt.Errorf("Error in fileOpen(\"%v\"): %v", e.Path, e.Err)
+        default:
+            return fmt.Errorf("Error in fileOpen(): %v", err)
+        }
+    }
+    defer file.Close()
+    return nil
 }
 
 func main() {
-	fmt.Print("Result: ")
-	if err := fileOpen("null.txt"); err != nil {
-		fmt.rintf("%+v\n", err)
-	} else {
-		fmt.Println("OK")
-	}
+    fmt.Print("Result: ")
+    if err := fileOpen("null.txt"); err != nil {
+        fmt.rintf("%+v\n", err)
+    } else {
+        fmt.Println("OK")
+    }
 }
 ```
 
@@ -166,33 +166,33 @@ Result: Error in fileOpen("null.txt"): The system cannot find the file specified
 package main
 
 import (
-	"fmt"
-	"os"
+    "fmt"
+    "os"
 
-	"golang.org/x/xerrors"
+    "golang.org/x/xerrors"
 )
 
 func fileOpen(fname string) error {
-	file, err := os.Open(fname)
-	if err != nil {
-		switch e := err.(type) {
-		case * os.PathError:
-			return xerrors.Errorf("Error in fileOpen(\"%v\"): %w", e.Path, e.Err)
-		default:
-			return xerrors.Errorf("Error in fileOpen(): %w", err)
-		}
-	}
-	defer file.Close()
-	return nil
+    file, err := os.Open(fname)
+    if err != nil {
+        switch e := err.(type) {
+        case * os.PathError:
+            return xerrors.Errorf("Error in fileOpen(\"%v\"): %w", e.Path, e.Err)
+        default:
+            return xerrors.Errorf("Error in fileOpen(): %w", err)
+        }
+    }
+    defer file.Close()
+    return nil
 }
 
 func main() {
-	fmt.Print("Result: ")
+    fmt.Print("Result: ")
     if err := fileOpen("null.txt"); err != nil {
-		fmt.Printf("%+v\n", err)
-	} else {
-		fmt.Println("OK")
-	}
+        fmt.Printf("%+v\n", err)
+    } else {
+        fmt.Println("OK")
+    }
 }
 {{< /highlight  >}}
 
@@ -219,9 +219,9 @@ error を階層化するためには [`xerrors`]`.Wrapper` インタフェース
 ```go
 // A Wrapper provides context around another error.
 type Wrapper interface {
-	// Unwrap returns the next error in the error chain.
-	// If there is no next error, Unwrap returns nil.
-	Unwrap() error
+    // Unwrap returns the next error in the error chain.
+    // If there is no next error, Unwrap returns nil.
+    Unwrap() error
 }
 ```
 
@@ -233,17 +233,17 @@ UML で描くとこんな感じかな。
 
 ```go
 type wrapError struct {
-	msg   string
-	err   error
-	frame Frame
+    msg   string
+    err   error
+    frame Frame
 }
 
 func (e *wrapError) Error() string {
-	return fmt.Sprint(e)
+    return fmt.Sprint(e)
 }
 
 func (e *wrapError) Unwrap() error {
-	return e.err
+    return e.err
 }
 ```
 
@@ -260,23 +260,23 @@ error インスタンスの等値性を調べるには [`xerrors`]`.Is()` 関数
 // An error is considered to match a target if it is equal to that target or if
 // it implements a method Is(error) bool such that Is(target) returns true.
 func Is(err, target error) bool {
-	if target == nil {
-		return err == target
-	}
-	for {
-		if err == target {
-			return true
-		}
-		if x, ok := err.(interface{ Is(error) bool }); ok && x.Is(target) {
-			return true
-		}
-		// TODO: consider supporing target.Is(err). This would allow
-		// user-definable predicates, but also may allow for coping with sloppy
-		// APIs, thereby making it easier to get away with them.
-		if err = Unwrap(err); err == nil {
-			return false
-		}
-	}
+    if target == nil {
+        return err == target
+    }
+    for {
+        if err == target {
+            return true
+        }
+        if x, ok := err.(interface{ Is(error) bool }); ok && x.Is(target) {
+            return true
+        }
+        // TODO: consider supporing target.Is(err). This would allow
+        // user-definable predicates, but also may allow for coping with sloppy
+        // APIs, thereby making it easier to get away with them.
+        if err = Unwrap(err); err == nil {
+            return false
+        }
+    }
 }
 ```
 
@@ -291,38 +291,38 @@ func Is(err, target error) bool {
 package main
 
 import (
-	"fmt"
-	"os"
-	"syscall"
+    "fmt"
+    "os"
+    "syscall"
 
-	"golang.org/x/xerrors"
+    "golang.org/x/xerrors"
 )
 
 func fileOpen(fname string) error {
-	file, err := os.Open(fname)
-	if err != nil {
-		switch e := err.(type) {
-		case * os.PathError:
-			return xerrors.Errorf("Error in fileOpen(\"%v\"): %w", e.Path, e.Err)
-		default:
-			return xerrors.Errorf("Error in fileOpen(): %w", err)
-		}
-	}
-	defer file.Close()
-	return nil
+    file, err := os.Open(fname)
+    if err != nil {
+        switch e := err.(type) {
+        case * os.PathError:
+            return xerrors.Errorf("Error in fileOpen(\"%v\"): %w", e.Path, e.Err)
+        default:
+            return xerrors.Errorf("Error in fileOpen(): %w", err)
+        }
+    }
+    defer file.Close()
+    return nil
 }
 
 func main() {
-	fmt.Print("Result: ")
-	if err := fileOpen("null.txt"); err != nil {
-		if xerrors.Is(err, syscall.ENOENT) {
-			fmt.Println("ファイルが存在しない。")
-		} else {
-			fmt.Println("その他のエラー:", err)
-		}
-	} else {
-		fmt.Println("OK")
-	}
+    fmt.Print("Result: ")
+    if err := fileOpen("null.txt"); err != nil {
+        if xerrors.Is(err, syscall.ENOENT) {
+            fmt.Println("ファイルが存在しない。")
+        } else {
+            fmt.Println("その他のエラー:", err)
+        }
+    } else {
+        fmt.Println("OK")
+    }
 }
 {{< /highlight  >}}
 
@@ -348,30 +348,30 @@ Result: ファイルが存在しない。
 // The As method should set the target to its value and return true if err
 // matches the type to which target points.
 func As(err error, target interface{}) bool {
-	if target == nil {
-		panic("errors: target cannot be nil")
-	}
-	val := reflect.ValueOf(target)
-	typ := val.Type()
-	if typ.Kind() != reflect.Ptr || val.IsNil() {
-		panic("errors: target must be a non-nil pointer")
-	}
-	if e := typ.Elem(); e.Kind() != reflect.Interface && !e.Implements(errorType) {
-		panic("errors: *target must be interface or implement error")
-	}
-	targetType := typ.Elem()
-	for {
-		if reflect.TypeOf(err).AssignableTo(targetType) {
-			val.Elem().Set(reflect.ValueOf(err))
-			return true
-		}
-		if x, ok := err.(interface{ As(interface{}) bool }); ok && x.As(target) {
-			return true
-		}
-		if err = Unwrap(err); err == nil {
-			return false
-		}
-	}
+    if target == nil {
+        panic("errors: target cannot be nil")
+    }
+    val := reflect.ValueOf(target)
+    typ := val.Type()
+    if typ.Kind() != reflect.Ptr || val.IsNil() {
+        panic("errors: target must be a non-nil pointer")
+    }
+    if e := typ.Elem(); e.Kind() != reflect.Interface && !e.Implements(errorType) {
+        panic("errors: *target must be interface or implement error")
+    }
+    targetType := typ.Elem()
+    for {
+        if reflect.TypeOf(err).AssignableTo(targetType) {
+            val.Elem().Set(reflect.ValueOf(err))
+            return true
+        }
+        if x, ok := err.(interface{ As(interface{}) bool }); ok && x.As(target) {
+            return true
+        }
+        if err = Unwrap(err); err == nil {
+            return false
+        }
+    }
 }
 
 var errorType = reflect.TypeOf((*error)(nil)).Elem()
@@ -385,44 +385,44 @@ var errorType = reflect.TypeOf((*error)(nil)).Elem()
 package main
 
 import (
-	"fmt"
-	"os"
-	"syscall"
+    "fmt"
+    "os"
+    "syscall"
 
-	"golang.org/x/xerrors"
+    "golang.org/x/xerrors"
 )
 
 func fileOpen(fname string) error {
-	file, err := os.Open(fname)
-	if err != nil {
-		switch e := err.(type) {
-		case * os.PathError:
-			return xerrors.Errorf("Error in fileOpen(\"%v\"): %w", e.Path, e.Err)
-		default:
-			return xerrors.Errorf("Error in fileOpen(): %w", err)
-		}
-	}
-	defer file.Close()
-	return nil
+    file, err := os.Open(fname)
+    if err != nil {
+        switch e := err.(type) {
+        case * os.PathError:
+            return xerrors.Errorf("Error in fileOpen(\"%v\"): %w", e.Path, e.Err)
+        default:
+            return xerrors.Errorf("Error in fileOpen(): %w", err)
+        }
+    }
+    defer file.Close()
+    return nil
 }
 
 func main() {
-	fmt.Print("Result: ")
-	if err := fileOpen("null.txt"); err != nil {
-		var errno syscall.Errno
-		if xerrors.As(err, &errno) {
+    fmt.Print("Result: ")
+    if err := fileOpen("null.txt"); err != nil {
+        var errno syscall.Errno
+        if xerrors.As(err, &errno) {
             switch errno {
-			case syscall.ENOENT:
-				fmt.Println("ファイルが存在しない。")
-			default:
-				fmt.Println("Errno =", errno)
-			}
-		} else {
-			fmt.Println("その他のエラー:", err)
-		}
-	} else {
-		fmt.Println("OK")
-	}
+            case syscall.ENOENT:
+                fmt.Println("ファイルが存在しない。")
+            default:
+                fmt.Println("Errno =", errno)
+            }
+        } else {
+            fmt.Println("その他のエラー:", err)
+        }
+    } else {
+        fmt.Println("OK")
+    }
 }
 {{< /highlight  >}}
 
@@ -440,28 +440,28 @@ Result: ファイルが存在しない。
 
 ```go
 type CustomPathError struct {
-	Op    string
-	Path  string
-	Err   error
-	frame xerrors.Frame
+    Op    string
+    Path  string
+    Err   error
+    frame xerrors.Frame
 }
 
 func (e *CustomPathError) Error() string {
-	return "error in " + e.Op + " \"" + e.Path + "\""
+    return "error in " + e.Op + " \"" + e.Path + "\""
 }
 
 func (e *CustomPathError) Unwrap() error {
-	return e.Err
+    return e.Err
 }
 
 func (e *CustomPathError) Format(s fmt.State, v rune) {
-	xerrors.FormatError(e, s, v)
+    xerrors.FormatError(e, s, v)
 }
 
 func (e *CustomPathError) FormatError(p xerrors.Printer) error {
-	p.Print(e.Error())
-	e.frame.Format(p)
-	return e.Err
+    p.Print(e.Error())
+    e.frame.Format(p)
+    return e.Err
 }
 ```
 
@@ -475,7 +475,7 @@ func (e *CustomPathError) FormatError(p xerrors.Printer) error {
 // The implementation of Format may call Sprint(f) or Fprint(f) etc.
 // to generate its output.
 type Formatter interface {
-	Format(f State, c rune)
+    Format(f State, c rune)
 }
 ```
 
@@ -484,11 +484,11 @@ type Formatter interface {
 ```go
 // A Formatter formats error messages.
 type Formatter interface {
-	error
+    error
 
-	// FormatError prints the receiver's first error and returns the next error in
-	// the error chain, if any.
-	FormatError(p Printer) (next error)
+    // FormatError prints the receiver's first error and returns the next error in
+    // the error chain, if any.
+    FormatError(p Printer) (next error)
 }
 ```
 
@@ -500,16 +500,16 @@ type Formatter interface {
 
 ```go
 func OpenWrapper(name string) (*os.File, error) {
-	file, err := os.Open(name)
-	if err != nil {
-		switch e := err.(type) {
-		case *os.PathError:
-			return file, &CustomPathError{Op: e.Op, Path: e.Path, Err: e.Err, frame: xerrors.Caller(0)}
-		default:
-			return file, &CustomPathError{Op: "open", Path: name, Err: err, frame: xerrors.Caller(0)}
-		}
-	}
-	return file, nil
+    file, err := os.Open(name)
+    if err != nil {
+        switch e := err.(type) {
+        case *os.PathError:
+            return file, &CustomPathError{Op: e.Op, Path: e.Path, Err: e.Err, frame: xerrors.Caller(0)}
+        default:
+            return file, &CustomPathError{Op: "open", Path: name, Err: err, frame: xerrors.Caller(0)}
+        }
+    }
+    return file, nil
 }
 ```
 
@@ -517,27 +517,27 @@ func OpenWrapper(name string) (*os.File, error) {
 
 ```go
 func fileOpen(fname string) error {
-	file, err := OpenWrapper(fname)
-	if err != nil {
-		return xerrors.Errorf("Error in fileOpen(): %w", err)
-	}
-	defer file.Close()
-	return nil
+    file, err := OpenWrapper(fname)
+    if err != nil {
+        return xerrors.Errorf("Error in fileOpen(): %w", err)
+    }
+    defer file.Close()
+    return nil
 }
 
 func main() {
-	fmt.Print("Result: ")
-	if err := fileOpen("null.txt"); err != nil {
-		fmt.Printf("%v\n", err)
-		fmt.Printf("%+v\n", err)
-		if xerrors.Is(err, syscall.ENOENT) {
-			fmt.Println("ファイルが存在しない。")
-		} else {
-			fmt.Println("その他のエラー:", err)
-		}
-	} else {
-		fmt.Println("OK")
-	}
+    fmt.Print("Result: ")
+    if err := fileOpen("null.txt"); err != nil {
+        fmt.Printf("%v\n", err)
+        fmt.Printf("%+v\n", err)
+        if xerrors.Is(err, syscall.ENOENT) {
+            fmt.Println("ファイルが存在しない。")
+        } else {
+            fmt.Println("その他のエラー:", err)
+        }
+    } else {
+        fmt.Println("OK")
+    }
 }
 ```
 
@@ -586,8 +586,8 @@ Error in fileOpen():
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9EGo-ADDISON-WESLEY-PROFESSIONAL-COMPUTING-Donovan/dp/4621300253?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621300253"><img src="https://images-fe.ssl-images-amazon.com/images/I/41meaSLNFfL._SL160_.jpg" width="123" alt="photo"></a></div>
   <dl class="fn">
     <dt><a href="https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9EGo-ADDISON-WESLEY-PROFESSIONAL-COMPUTING-Donovan/dp/4621300253?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621300253">プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)</a></dt>
-	<dd>Alan A.A. Donovan, Brian W. Kernighan</dd>
-	<dd>柴田 芳樹 (翻訳)</dd>
+    <dd>Alan A.A. Donovan, Brian W. Kernighan</dd>
+    <dd>柴田 芳樹 (翻訳)</dd>
     <dd>丸善出版 2016-06-20</dd>
     <dd>Book 単行本（ソフトカバー）</dd>
     <dd>ASIN: 4621300253, EAN: 9784621300251</dd>
