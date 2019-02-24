@@ -72,6 +72,6 @@ pageType = "text"
 - [「等値」と「等価」 | 株式会社きじねこ](http://www.kijineko.co.jp/node/720)
 - [Pinstagram? Instagram code reveals Public Collections feature – TechCrunch](https://techcrunch.com/2019/02/22/instagram-make-collection-public/)
 - [意志力にまつわる30年の誤解を解く | HBR.ORG翻訳マネジメント記事｜DIAMOND ハーバード・ビジネス・レビュー](http://www.dhbr.net/articles/-/4676)
-    - {{ odf-file title="自我消耗が不正行為に及ぼす影響―自我消耗するとズルしやすいのか？" link="http://repository.ris.ac.jp/dspace/bitstream/11266/6569/1/kiyo16_p037_kobayashi_etal.pdf" }}
+    - {{< pdf-file title="自我消耗が不正行為に及ぼす影響―自我消耗するとズルしやすいのか？" link="http://repository.ris.ac.jp/dspace/bitstream/11266/6569/1/kiyo16_p037_kobayashi_etal.pdf" >}}
 - [「ココログ」全面リニューアルのお知らせ(2019/3/19): お知らせココログ:@nifty](http://info.cocolog-nifty.com/info/2019/02/2019319-3dc9.html)
 - [IPFSを使って無料で静的サイトをホスティング（公開）してみる - Qiita](https://qiita.com/ngo275/items/01bcf2b53917de40b5b8)
