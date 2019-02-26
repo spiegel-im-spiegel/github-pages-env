@@ -19,6 +19,12 @@ tags = [ "security", "trust", "blockchain" ]
 なんで WIRED.jp はこの記事の翻訳を出さないのだろう。
 まぁ，いいや。
 
+{{% div-box %}}
+【追記 2019-02-26】非公式だが翻訳記事を公開されている方がおられた。感謝。
+
+- [ブログ: ブロックチェーンと信頼](https://okuranagaimo.blogspot.com/2019/02/blog-post_14.html)
+{{% /div-box %}}
+
 この記事に関連する記事もいくつか紹介されている。
 
 - [Bruce Schneier's Wired Op-Ed Slams Blockchain, But Why? - Blockonomi](https://blockonomi.com/bruce-schneiers-slams-blockchain/)
@@ -43,6 +49,7 @@ tags = [ "security", "trust", "blockchain" ]
 ## ブックマーク
 
 - [解説「ゼロトラスト」シフト--“境界”セキュリティの誕生と限界までの道のり - ZDNet Japan](https://japan.zdnet.com/article/35132483/)
+- [ブルース・シュナイアーが「ブロックチェーンと信頼」について語る - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20190224/blockchainandtrust)
 
 ## 参考図書
 
