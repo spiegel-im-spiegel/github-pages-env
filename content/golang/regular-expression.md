@@ -1,24 +1,9 @@
 +++
 title = "正規表現に関する戯れ言"
 date = "2018-04-18T00:28:41+09:00"
-update = "2018-04-18T19:05:45+09:00"
 description = "いや，便利なのは分かるんだけどさ，「その正規表現ホンマにいるの？」ってのがあるのよ，たまに。"
-image = "/images/attention/go-code2.png"
+image = "/images/attention/go-logo_blue.png"
 tags = [ "regular-expression", "programming", "golang" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false
@@ -74,13 +59,18 @@ var re = regexp.MustCompile("^[0-9a-fA-F]+$")
 複数の正規表現を動的に切り替えるのであれば map 等を使ってコンパイル結果をキャッシュするのもいいかもしれない。
 
 さらに正規表現による評価を実行する際は排他制御がかかるため，並行処理下でコンパイル済みインスタンスをそのまま使うとパフォーマンスが落ちる。
-そこで  [`regexp`]`.Regexp.Copy()` 関数を使ってインスタンスのコピーを生成し，コピーを使って評価を行う。
+そこで [`regexp`]`.Regexp.Copy()` 関数を使ってインスタンスのコピーを生成し，コピーを使って評価を行う。
 
 ```go
 if !re.Copy().MatchString(s) {
     fmt.Println(s, "is not hexadecimal.")
 }
 ```
+
+{{% div-box %}}
+【追記 2019-02-26】[Go 1.12]({{< ref "/release/2019/02/go-1_12-is-released.md" >}}) からは [`regexp`]`.Regexp.Copy()` 関数は必要なくなった。
+ブラボー！
+{{% /div-box %}}
 
 ## その正規表現ホンマにいるの？
 
@@ -107,3 +97,20 @@ if !re.Copy().MatchString(s) {
 [strings]: https://golang.org/pkg/strings/ "strings - The Go Programming Language"
 [`strings`]: https://golang.org/pkg/strings/ "strings - The Go Programming Language"
 [unicode]: https://golang.org/pkg/unicode/ "unicode - The Go Programming Language"
+
+## 参考図書
+
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9EGo-ADDISON-WESLEY-PROFESSIONAL-COMPUTING-Donovan/dp/4621300253?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621300253"><img src="https://images-fe.ssl-images-amazon.com/images/I/41meaSLNFfL._SL160_.jpg" width="123" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9EGo-ADDISON-WESLEY-PROFESSIONAL-COMPUTING-Donovan/dp/4621300253?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621300253">プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)</a></dt>
+	<dd>Alan A.A. Donovan, Brian W. Kernighan</dd>
+	<dd>柴田 芳樹 (翻訳)</dd>
+    <dd>丸善出版 2016-06-20</dd>
+    <dd>Book 単行本（ソフトカバー）</dd>
+    <dd>ASIN: 4621300253, EAN: 9784621300251</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">著者のひとりは（あの「バイブル」とも呼ばれる）通称 “K&amp;R” の K のほうである。この本は Go 言語の教科書と言ってもいいだろう。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+</div>

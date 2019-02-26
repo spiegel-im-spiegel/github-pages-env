@@ -49,7 +49,7 @@ tags  = [ "golang", "engineering", "module", "versioning" ]
 モジュール対応モードでは，標準ライブラリを除くパッケージを「モジュール（module）」として管理する。
 パッケージが [git] 等のバージョン管理ツールで管理されている場合はバージョン毎に異なるモジュールと見なされる。
 つまりモジュールの実体は「パッケージ＋バージョン」ということになる。
-
+ 
 ただしコード上ではパッケージとモジュールの間に区別はなく，したがってソースコードを書き換える必要はない。
 モジュールはソースコードではなく `go.mod` ファイルで管理される。
 
@@ -516,6 +516,12 @@ go: downloading github.com/shurcooL/sanitized_anchor_name v0.0.0-20170918181015-
 
 ## バージョンを指定して go get を実行する
 
+{{% div-box %}}
+【追記 2019-02-26】[Go 1.12]({{< ref "/release/2019/02/go-1_12-is-released.md" >}}) からはダミーの `go.mod` ファイルは必要なくなった。
+任意の場所で `go get` コマンドを起動できる。
+ブラボー！
+{{% /div-box %}}
+
 たとえば私の自作ツールである [gpgpdump] を自前でビルドすることを考える。
 
 GOPATH モードでパッケージをダウンロードし実行ファイルをビルドするには以下のコマンドを実行すればよい。
@@ -538,86 +544,42 @@ github.com/spiegel-im-spiegel/gpgpdump/cli/gpgpdump
 ダウンロードした `github.com/spiegel-im-spiegel/gpgpdump` パッケージのソースコードとコンパイル結果（実行ファイルを含む）は `$GOPATH` 以下に格納される。
 
 では，モジュール対応モードでバージョンを指定して [gpgpdump] をビルドしてみよう。
-まずは安直に `path@version` 形式で実行してみる。
 
 ```text
 $ export GO111MODULE=on
 
 $ go get github.com/spiegel-im-spiegel/gpgpdump/cli/gpgpdump@latest
-go: cannot find main module; see 'go help modules'
-```
-
-（ちなみに `latest` は最新バージョンを指す）
-
-うーん。
-やっぱダメか。
-じゃあ `go.mod` ファイルを作ってみたらどうなるか。
-適当なディレクトリに `go.mod` ファイルを作り，再び `go get` してみよう。
-
-```text
-$ go mod init tools
-go: creating new go.mod: module tools
-
-$ go get github.com/spiegel-im-spiegel/gpgpdump/cli/gpgpdump@latest
 go: finding github.com/spiegel-im-spiegel/gpgpdump/cli/gpgpdump latest
 go: finding github.com/spiegel-im-spiegel/gpgpdump/cli latest
-go: finding github.com/spiegel-im-spiegel/gpgpdump v0.3.8
-go: downloading github.com/spiegel-im-spiegel/gpgpdump v0.3.8
-go: finding github.com/spf13/pflag v1.0.2
-go: finding github.com/pkg/errors v0.8.0
-go: finding github.com/inconshreveable/mousetrap v1.0.0
-go: finding github.com/spiegel-im-spiegel/gocli v0.8.0
+go: finding github.com/spiegel-im-spiegel/gpgpdump v0.3.9
+go: downloading github.com/spiegel-im-spiegel/gpgpdump v0.3.9
+go: extracting github.com/spiegel-im-spiegel/gpgpdump v0.3.9
+go: finding github.com/pkg/errors v0.8.1
+go: finding github.com/spf13/pflag v1.0.3
 go: finding github.com/BurntSushi/toml v0.3.1
+go: finding github.com/spiegel-im-spiegel/gocli v0.9.1
 go: finding github.com/spf13/cobra v0.0.3
-go: finding golang.org/x/crypto v0.0.0-20181001203147-e3636079e1a4
-go: downloading github.com/spiegel-im-spiegel/gocli v0.8.0
+go: finding github.com/inconshreveable/mousetrap v1.0.0
+go: finding golang.org/x/crypto v0.0.0-20190208162236-193df9c0f06f
+go: finding github.com/mattn/go-isatty v0.0.4
+go: downloading github.com/spiegel-im-spiegel/gocli v0.9.1
 go: downloading github.com/spf13/cobra v0.0.3
-go: downloading golang.org/x/crypto v0.0.0-20181001203147-e3636079e1a4
+go: downloading github.com/pkg/errors v0.8.1
+go: downloading golang.org/x/crypto v0.0.0-20190208162236-193df9c0f06f
 go: downloading github.com/BurntSushi/toml v0.3.1
-go: downloading github.com/pkg/errors v0.8.0
-go: downloading github.com/spf13/pflag v1.0.2
+go: extracting github.com/spiegel-im-spiegel/gocli v0.9.1
+go: extracting github.com/pkg/errors v0.8.1
+go: extracting github.com/BurntSushi/toml v0.3.1
+go: extracting github.com/spf13/cobra v0.0.3
+go: downloading github.com/spf13/pflag v1.0.3
 go: downloading github.com/inconshreveable/mousetrap v1.0.0
+go: extracting golang.org/x/crypto v0.0.0-20190208162236-193df9c0f06f
+go: extracting github.com/inconshreveable/mousetrap v1.0.0
+go: extracting github.com/spf13/pflag v1.0.3
 ```
 
 おおっ，上手くいった（ちなみにモジュール名に意味はない）。
-
-ソースコードは `$GOPATH/pkg/mod` 以下に，ビルド結果の実行ファイルは `$GOPATH/bin` に格納される。
-ビルド後の `go.mod` ファイルの内容は以下の通り。
-
-```text
-module tools
-
-require github.com/spiegel-im-spiegel/gpgpdump v0.3.8 // indirect
-```
-
-ここで異なるバージョンのビルドも試してみよう。
-
-```text
-$ go get github.com/spiegel-im-spiegel/gpgpdump/cli/gpgpdump@v0.3.9-rc3
-go: finding github.com/spiegel-im-spiegel/gpgpdump/cli/gpgpdump v0.3.9-rc3
-go: finding github.com/spiegel-im-spiegel/gpgpdump/cli v0.3.9-rc3
-go: finding github.com/spiegel-im-spiegel/gpgpdump v0.3.9-rc3
-go: downloading github.com/spiegel-im-spiegel/gpgpdump v0.3.9-rc3
-go: finding github.com/spiegel-im-spiegel/gocli v0.8.1
-go: finding github.com/spf13/pflag v1.0.3
-go: finding golang.org/x/crypto v0.0.0-20181015023909-0c41d7ab0a0e
-go: downloading github.com/spiegel-im-spiegel/gocli v0.8.1
-go: downloading golang.org/x/crypto v0.0.0-20181015023909-0c41d7ab0a0e
-go: downloading github.com/spf13/pflag v1.0.3
-```
-
-依存パッケージも含めて異なるバージョンのモジュールがダウンロードされているのが分かるだろうか。
-ビルド後の `go.mod` ファイルの内容も
-
-{{< highlight tex "hl_lines=3" >}}
-module tools
-
-require github.com/spiegel-im-spiegel/gpgpdump v0.3.9-rc3 // indirect
-{{< /highlight >}}
-
-とバージョンが書き換わっている。
-
-というわけで `go.mod` ファイルがあればモジュール対応モードでバージョンを指定しビルドすることができるようだ。
+ソースコードは `$GOPATH/pkg/mod` 以下に，ビルド結果の実行ファイルは `$GOPATH/bin` に格納されるようだ。
 
 ちなみに `path@version` 形式でモジュールを指定できるのは `go get` コマンドのみらしい。
 
@@ -626,29 +588,39 @@ $ go run github.com/spiegel-im-spiegel/gpgpdump/cli/gpgpdump@latest
 package github.com/spiegel-im-spiegel/gpgpdump/cli/gpgpdump@latest: can only use path@version syntax with 'go get'
 ```
 
-ただし `go.mod` ファイルに `require` でモジュールを指定している状態ならバージョン指定を省略して `go build` や `go run` コマンドが使えるようだ。
+ただし，バージョン指定を省略して latest バージョンで `go build` や `go run` コマンドを使うことはできるようだ。
 
 ```text
 $ go clean -modcache
-can't load package: package tools: unknown import path "tools": cannot find module providing package tools
 
 $ go run github.com/spiegel-im-spiegel/gpgpdump/cli/gpgpdump -h
-go: finding github.com/spiegel-im-spiegel/gpgpdump v0.3.9-rc3
-go: finding github.com/spiegel-im-spiegel/gocli v0.8.1
-go: finding github.com/inconshreveable/mousetrap v1.0.0
-go: finding github.com/pkg/errors v0.8.0
-go: finding github.com/BurntSushi/toml v0.3.1
+go: finding github.com/spiegel-im-spiegel/gpgpdump/cli/gpgpdump latest
+go: finding github.com/spiegel-im-spiegel/gpgpdump/cli latest
+go: finding github.com/spiegel-im-spiegel/gpgpdump v0.3.9
+go: downloading github.com/spiegel-im-spiegel/gpgpdump v0.3.9
+go: extracting github.com/spiegel-im-spiegel/gpgpdump v0.3.9
+go: finding github.com/spiegel-im-spiegel/gocli v0.9.1
 go: finding github.com/spf13/cobra v0.0.3
 go: finding github.com/spf13/pflag v1.0.3
-go: finding golang.org/x/crypto v0.0.0-20181015023909-0c41d7ab0a0e
-go: downloading github.com/spiegel-im-spiegel/gpgpdump v0.3.9-rc3
-go: downloading github.com/spiegel-im-spiegel/gocli v0.8.1
+go: finding github.com/BurntSushi/toml v0.3.1
+go: finding github.com/pkg/errors v0.8.1
+go: finding github.com/inconshreveable/mousetrap v1.0.0
+go: finding golang.org/x/crypto v0.0.0-20190208162236-193df9c0f06f
+go: finding github.com/mattn/go-isatty v0.0.4
+go: downloading github.com/spiegel-im-spiegel/gocli v0.9.1
+go: downloading github.com/pkg/errors v0.8.1
+go: downloading golang.org/x/crypto v0.0.0-20190208162236-193df9c0f06f
 go: downloading github.com/spf13/cobra v0.0.3
-go: downloading golang.org/x/crypto v0.0.0-20181015023909-0c41d7ab0a0e
-go: downloading github.com/pkg/errors v0.8.0
 go: downloading github.com/BurntSushi/toml v0.3.1
+go: extracting github.com/pkg/errors v0.8.1
+go: extracting github.com/spiegel-im-spiegel/gocli v0.9.1
+go: extracting github.com/BurntSushi/toml v0.3.1
+go: extracting github.com/spf13/cobra v0.0.3
+go: extracting golang.org/x/crypto v0.0.0-20190208162236-193df9c0f06f
 go: downloading github.com/spf13/pflag v1.0.3
 go: downloading github.com/inconshreveable/mousetrap v1.0.0
+go: extracting github.com/inconshreveable/mousetrap v1.0.0
+go: extracting github.com/spf13/pflag v1.0.3
 Usage:
   gpgpdump [flags] [OpenPGP file]
 
@@ -664,24 +636,6 @@ Flags:
   -t, --toml      output with TOML format
   -u, --utc       output with UTC time
   -v, --version   output version of gpgpdump
-```
-
-テストもできる。
-
-```text
-$ go test github.com/spiegel-im-spiegel/gpgpdump/...
-ok      github.com/spiegel-im-spiegel/gpgpdump  0.070s
-?       github.com/spiegel-im-spiegel/gpgpdump/cli/gpgpdump     [no test files]
-ok      github.com/spiegel-im-spiegel/gpgpdump/cli/gpgpdump/facade      0.482s
-ok      github.com/spiegel-im-spiegel/gpgpdump/info     0.124s
-ok      github.com/spiegel-im-spiegel/gpgpdump/options  0.131s
-ok      github.com/spiegel-im-spiegel/gpgpdump/packet   0.412s
-ok      github.com/spiegel-im-spiegel/gpgpdump/packet/context   0.164s
-ok      github.com/spiegel-im-spiegel/gpgpdump/packet/pubkey    0.124s
-ok      github.com/spiegel-im-spiegel/gpgpdump/packet/reader    0.236s
-ok      github.com/spiegel-im-spiegel/gpgpdump/packet/s2k       0.040s
-ok      github.com/spiegel-im-spiegel/gpgpdump/packet/tags      0.161s
-ok      github.com/spiegel-im-spiegel/gpgpdump/packet/values    0.175s
 ```
 
 こりゃあ，便利だ。
