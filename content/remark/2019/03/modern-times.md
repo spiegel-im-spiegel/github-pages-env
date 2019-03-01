@@ -1,11 +1,10 @@
 +++
 title = "近代社会は「大人」という期間を最小とすることを目的としている"
-date =  "2019-03-01T22:07:27+09:00"
+date = "2019-03-01T23:06:49+09:00"
 description = " 「ヒト」の考えることや行動を理解できなくても予測できれば統制は可能というわけ（笑）"
 image = "/images/attention/kitten.jpg"
 tags = [ "code", "politics" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
