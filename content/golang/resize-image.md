@@ -1,21 +1,9 @@
 +++
 title = "Go 言語で画像のサイズを変更する"
 date = "2019-02-02T17:54:21+09:00"
-update = "2019-02-03T11:30:42+09:00"
 description = " ちょっと画像データを弄る機会があったので，やったことを忘れないうちに記しておく。"
 image = "/images/attention/go-logo_blue.png"
 tags = [ "golang", "programming", "image" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
 
 [scripts]
   mathjax = false
@@ -256,6 +244,7 @@ Height: 480
 - [GolangでアニメーションGifをリサイズする - Qiita](https://qiita.com/from_Unknown/items/40d1947292c53fe7ea74)
 - [Scale down by 2x using x/image/draw · GitHub](https://gist.github.com/aclements/599107a2e3f187f8a2c0)
 - [Golang resize png images using different interpolations · GitHub](https://gist.github.com/logrusorgru/570d64fd6a051e0441014387b89286ca)
+- [大量のPNG画像を標準パッケージのみで2.4倍高速に処理する - Qiita](https://qiita.com/cia_rana/items/a56269b11e909b3a246d)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`image`]: https://golang.org/pkg/image/ "image - The Go Programming Language"

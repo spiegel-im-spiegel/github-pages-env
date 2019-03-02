@@ -1,24 +1,9 @@
 +++
 title = "モジュール対応モードへの移行を検討する"
 date = "2018-10-22T15:55:11+09:00"
-update = "2018-10-23T13:48:39+09:00"
 description = "みんな。なにはさておき go.mod ファイルを作成するんだ！"
 image = "/images/attention/go-logo_blue.png"
 tags  = [ "golang", "engineering", "module", "versioning" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false
@@ -646,6 +631,7 @@ Flags:
 - [Go 1.11 のリリースと「モジュール」機能の実験的サポート]({{< relref "/release/2018/09/go-1_11-ise-released.md" >}})
 - [GOPATH モードからモジュール対応モードへ移行せよ](https://qiita.com/spiegel-im-spiegel/items/5cb1587cb55d6f6a34d7)
 - [Go 1.11 の modules・vgo を試す - 実際に使っていく上で考えないといけないこと #golang | Wantedly Engineer Blog](https://www.wantedly.com/companies/wantedly/post_articles/132270)
+- [Goモジュールモードでモジュール内に作ったモジュールを扱う - Qiita](https://qiita.com/k-motoyan/items/4213d5ef09963ffea489)
 
 - [GOPATH 汚染問題]({{< ref "/golang/gopath-pollution.md" >}})
 - [vgo (Versioned Go) に関する覚え書き]({{< ref "/golang/go-and-versioning.md" >}})

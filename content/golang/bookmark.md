@@ -13,7 +13,7 @@ title = "Go 言語に関するブックマーク"
 なお，ここにない場合は「[未整理分]({{< relref "bookmark2.md" >}})」にあるかも。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-
+ 
 ## 公式サイト
 
 - [The Go Programming Language](https://golang.org/) : 2017年8月24日時点での最新は 1.9
@@ -689,6 +689,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [GAE Go 開発環境の構築からテストアプリのデプロイまで【MacOS】](https://qiita.com/IJN-Penguin/items/782a23662d68aab1316c)
 - [Go 言語で Google Cloud Storage の既存のバケットにオブジェクトを保存する](https://qiita.com/shinkiro/items/6d79b12d06de34119b46)
 - [GAE/Go1.11試行（その1：「クイックスタート」） - Qiita](https://qiita.com/sky0621/items/8a42ee24cb417940228c)
+- [Go言語でGoogle Drive APIとGmail APIを使う方法 - Qiita](https://qiita.com/KMim/items/f6e14cdaed8ad1907930)
 
 ## AWS Lambda
 
