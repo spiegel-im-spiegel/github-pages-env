@@ -40,6 +40,10 @@ Instagram の写真を [photo.Baldanders.info](https://photo.baldanders.info/) �
 この記事はこの曲をヘヴィローテーションで聴きながら書いている。
 こういう曲も書ける菅野よう子さんは偉大だと思う。
 
+## ブックマーク
+
+- [「荒れた農場の掘ったて小屋でがなりたてる、いかさま師の集団」へ]({{< ref "/remark/2017/09/congreso.md" >}})
+
 [続・情報共有の未来]: https://www.yamdas.org/infoshare2/ "『もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来』サポートページ"
 [達人出版会]: https://tatsu-zine.com/
 [感想文]: {{< ref "/remark/2019/01/infoshare2.md" >}} "『もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来』を読む（ボーナストラック以外）"
