@@ -48,7 +48,7 @@ title = "週末スペシャル： 「あかつき」金星の衛星になる"
 ## State of the Commons 2015{#cc}
 
 - [Creative Commons — State of the Commons 2015 — It's been a remarkable year, most notably for the more than 1.1 billion works under one of the CC licenses, CC0, or the public domain mark.](https://stateof.creativecommons.org/2015/)
-- [State of the Commons: 1 Billion Creative Commons Works - Creative Commons](http://creativecommons.org/weblog/2015/12/08/46651)
+- [State of the Commons: 1 Billion Creative Commons Works - Creative Commons](https://creativecommons.org/weblog/2015/12/08/46651)
 - [STATE OF THE COMMONS 2015 — Medium](https://medium.com/@creativecommons/state-of-the-commons-2015-86016ee719c4#.d8hq9r28k)
 - [State of the Commons: 1 Billion Creative Commons Works — Medium](https://medium.com/@creativecommons/state-of-the-commons-1-billion-creative-commons-works-82a08592e6dd#.yl7oaj7v9)
 - [クリエイティブ・コモンズ（CC）、2015年版の”State of the Commons”を公開、10億件以上の作品がCCライセンスを使用 | カレントアウェアネス・ポータル](http://current.ndl.go.jp/node/30172)
@@ -59,7 +59,7 @@ title = "週末スペシャル： 「あかつき」金星の衛星になる"
 
 ...まぁ，日本にはあんまり関係ない話かもだけど。
 
-[CC Licenses]: http://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
+[CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
 
 ## 「往復書簡・クールジャパンを超えて」{#jpn}
 

@@ -79,7 +79,7 @@ import "fmt"
  * 同じようにして, 1000 未満の 3 か 5 の倍数になっている数字の合計を求めよ.
  *
  * Contents of Project Euler are licenced under a Creative Commons Licence: Attribution-NonCommercial-ShareAlike 2.0 UK: England & Wales.
- * http://creativecommons.org/licenses/by-nc-sa/2.0/uk/
+ * https://creativecommons.org/licenses/by-nc-sa/2.0/uk/
  */
 
 func answer0(max int) int {

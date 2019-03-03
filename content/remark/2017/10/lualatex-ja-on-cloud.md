@@ -116,7 +116,7 @@ PDF/A に対応するには `hyperref` パッケージを使う。
     pdfauthor={Spiegel},
     pdfkeywords={LuaTeX-ja, PDF/A},
     pdfcopyright={Written by Spiegel on 2017, and licensed under CC-BY.},
-    pdflicenseurl={http://creativecommons.org/licenses/by/4.0/},
+    pdflicenseurl={https://creativecommons.org/licenses/by/4.0/},
     pdfcontacturl={https://baldanders.info/},
     pdfcontactcity={Hiroshima},
     pdfcontactcountry={Japan},

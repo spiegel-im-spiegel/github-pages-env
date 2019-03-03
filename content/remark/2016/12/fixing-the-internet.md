@@ -36,7 +36,7 @@ draft = false
 4. Enforce critical properties and security at the lowest levels of the system possible, such as in the hardware or in the programming language, instead of leaving it to programmers to incorporate security into every line of code they write. （クリティカルなプロパティやセキュリティをシステムの可能な限り最も低い層にする。セキュリティをプログラマが書くすべての行に組み込むようプログラマ任せにするのではなく、ハードウェアやプログラミング言語のレベルで実現させる）
 5. Build chips and machines that update the notion of an internet packet. For those who want, their packets could be encoded or tagged with metadata that describe what they contain and give the rules for how it can be used. （インターネットのパケットの概念を更新するチップやマシンを作る。希望する人は、パケットを暗号化し、どのように利用可能かルールを指定するメタデータでタグ付け可能にする）
 
-（日本語訳は [yomoyomo さんの記事]を拝借した。なお [yomoyomo さんの記事]は [BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/) で公開されているので取り扱いに注意）
+（日本語訳は [yomoyomo さんの記事]を拝借した。なお [yomoyomo さんの記事]は [BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) で公開されているので取り扱いに注意）
 
 最初の2つはコンテンツ・マネジメントをネットワークレベルで組み込むという話。
 3番目は暗号化メッセージングだね。

@@ -79,7 +79,7 @@ pageType = "text"
       "section": "hugo",
       "description": "Hugo の環境を git で管理している場合はコミット情報等をテンプレートに組み込むことができる。",
       "author": "Spiegel",
-      "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
       "url": "https://text.baldanders.info/hugo/gitinfo/",
       "published": "2019-02-16T13:15:35+00:00",
       "update": "2019-02-16T13:20:26+00:00"

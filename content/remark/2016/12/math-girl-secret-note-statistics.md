@@ -84,7 +84,7 @@ description = "今回はテトラちゃん回かなぁ。1,2章のユーリち�
 ```go
 /**
  * These codes are licensed under CC0.
- * http://creativecommons.org/publicdomain/zero/1.0/
+ * https://creativecommons.org/publicdomain/zero/1.0/
  */
 
 package gen

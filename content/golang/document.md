@@ -114,7 +114,7 @@ C:>godoc -http=":3000"
 /**
  * Astronomical calculation for Golang.
  * These codes are licensed under CC0.
- * http://creativecommons.org/publicdomain/zero/1.0/deed.ja
+ * https://creativecommons.org/publicdomain/zero/1.0/deed.ja
  */
 
 // modjulian パッケージは

@@ -217,7 +217,7 @@ Microdata は未完成のまま開発が終了しており，もはや推奨さ�
     "url": "https://baldanders.info/spiegel/profile/",
     "image": "https://text.baldanders.info/images/avatar.jpg"
   },
-  "license": "http://creativecommons.org/licenses/by-sa/4.0/"
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/"
 }
 </script>
 ```

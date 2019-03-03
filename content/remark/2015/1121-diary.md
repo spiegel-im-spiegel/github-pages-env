@@ -29,7 +29,7 @@ title = "週末スペシャル： The TPP must be rejected."
 
 [Creative Commons] から TPP の分析とかなり強い調子の提言。
 
-- [Trans-Pacific Partnership Would Harm User Rights and the Commons - Creative Commons](http://creativecommons.org/weblog/entry/46455) : 要旨
+- [Trans-Pacific Partnership Would Harm User Rights and the Commons - Creative Commons](https://creativecommons.org/weblog/entry/46455) : 要旨
 - [Trans-Pacific Partnership Would Harm User Rights and the Commons - Creative Commons](https://creativecommons.org/campaigns/trans-pacific-partnership-would-harm-user-rights-and-the-commons)
 
 要点は以下のとおり（英語のままでごめん）
@@ -104,6 +104,6 @@ NTP における「増幅攻撃（amplification attacks）」とは2014年に発
 新しい .NET はかなり期待している。
 希望としては [Git Extensions](http://gitextensions.github.io/) や [KeePass](http://keepass.info/) など今まで [Mono](http://www.mono-project.com/) で動いていたものが新しい .NET に置き換えれるなら私が嬉しい。
 
-[Creative Commons]: http://creativecommons.org/ "Creative Commons"
+[Creative Commons]: https://creativecommons.org/ "Creative Commons"
 [NTPsec]: https://www.ntpsec.org/ "Welcome to NTPsec"
 [Visual Studio Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined."

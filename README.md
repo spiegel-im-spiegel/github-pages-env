@@ -7,7 +7,7 @@ GitHub Page [spiegel-im-spiegel.github.io](https://github.com/spiegel-im-spiegel
 
 # ライセンス
 
-コンテンツのライセンスは基本的に [Creative Commons Liscense Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) で公開しています。ご利用はライセンスの許諾範囲内でご自由にどうぞ。
+コンテンツのライセンスは基本的に [Creative Commons Liscense Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) で公開しています。ご利用はライセンスの許諾範囲内でご自由にどうぞ。
 
 また Web フォントや外部から呼び出している CSS や JavaScript ファイル等のライセンスについてはそれぞれの発行元を確認してください。
 

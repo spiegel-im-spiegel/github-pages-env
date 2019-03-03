@@ -91,8 +91,8 @@ Theme のほうは [cc0] で公開しているため自由に利用していた�
 なお， [Hugo] については Section を立てて[連載中](/hugo)です。
 
 
-[Creative Commons]: http://creativecommons.org/ "Creative Commons"
-[cc0]: http://creativecommons.org/publicdomain/zero/1.0/deed.ja "Creative Commons — CC0 1.0 Universal"
-[by]: http://creativecommons.org/licenses/by/4.0/deed.ja "Creative Commons — Attribution 4.0 International — CC BY 4.0"
-[by-sa]: http://creativecommons.org/licenses/by-sa/4.0/deed.ja "Creative Commons — Attribution-ShareAlike 4.0 International — CC BY-SA 4.0"
+[Creative Commons]: https://creativecommons.org/ "Creative Commons"
+[cc0]: https://creativecommons.org/publicdomain/zero/1.0/deed.ja "Creative Commons — CC0 1.0 Universal"
+[by]: https://creativecommons.org/licenses/by/4.0/deed.ja "Creative Commons — Attribution 4.0 International — CC BY 4.0"
+[by-sa]: https://creativecommons.org/licenses/by-sa/4.0/deed.ja "Creative Commons — Attribution-ShareAlike 4.0 International — CC BY-SA 4.0"
 [Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"

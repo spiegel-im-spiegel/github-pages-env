@@ -52,7 +52,7 @@ if err := xml.Unmarshal([]byte(xmldata), stdata); err != nil {
     <dc:title lang="ja">text.Baldanders.info</dc:title>
     <dc:creator>Spiegel</dc:creator>
     <dc:date>2018-03-16T20:40:27+09:00</dc:date>
-    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <cc:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
   </foaf:Document>
 </rdf:RDF>
 ```
@@ -195,7 +195,7 @@ var xmldata = `
     <dc:title lang="ja">text.Baldanders.info</dc:title>
     <dc:creator>Spiegel</dc:creator>
     <dc:date>2018-03-16T20:40:27+09:00</dc:date>
-    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <cc:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
   </foaf:Document>
 </rdf:RDF>
 `

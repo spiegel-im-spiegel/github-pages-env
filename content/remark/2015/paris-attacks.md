@@ -124,7 +124,7 @@ title = "同時多発テロ関連のブックマーク"
 
 ### その他
 
-- [Message to our community about the Paris and Beirut attacks - Creative Commons](http://creativecommons.org/weblog/entry/46487)
+- [Message to our community about the Paris and Beirut attacks - Creative Commons](https://creativecommons.org/weblog/entry/46487)
 - [Je suis Paris | Flickr Blog](http://blog.flickr.net/en/2015/11/15/je-suis-paris/)
 - [パリ同時多発テロ：そこにいた人たちの「声」 « WIRED.jp](http://wired.jp/2015/11/14/paris-attacks-following-bataclan-benjamin-cazenoves-facebook-updates/)
 - [Hacking Collective Anonymous Declares Total War On ISIS Following Paris Terror Attacks | TechCrunch](http://techcrunch.com/2015/11/16/hacking-collective-anonymous-declares-total-war-on-isis-following-paris-terror-attacks/)
