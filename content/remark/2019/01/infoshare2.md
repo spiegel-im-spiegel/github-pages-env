@@ -1,21 +1,9 @@
 +++
 title = "『もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来』を読む（ボーナストラック以外）"
 date = "2019-01-04T19:53:34+09:00"
-update = "2019-01-15T21:42:47+09:00"
 description = "具体的な話はせず与太話をいくつか書くに留めておくことにするので悪しからずご了承のほどを。"
 image = "/images/attention/kitten.jpg"
 tags = [ "book", "code", "internet", "generativity", "grigori" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
 
 [scripts]
   mathjax = false
@@ -24,7 +12,7 @@ tags = [ "book", "code", "internet", "generativity", "grigori" ]
 
 『もうすぐ絶滅するという開かれたウェブについて [続・情報共有の未来]』（以後「[続・情報共有の未来]」と略称する）をよーやく読み終わったですよ。
 
-買ったのも2018年の5月に入ってからだし，私的事情で積ん読期間が結構あったということもあるけど，50章は（長いとか多いとかじゃなくて）デカい！ 読み終わった直後はクラクラしたですよ（笑） ちなみに2018年9月時点で v1.0.1 がリリースされている。
+買ったのも2018年の5月に入ってからだし，私的事情で積ん読期間が結構あったということもあるけど，50章は（長いとか多いとかじゃなくて）デカい！ 読み終わった直後はクラクラしたですよ（笑） ちなみに2018年9月時点で v1.0.1 がリリースされている（追記：2019年3月に [v1.1.1 が出た]({{< ref "/remark/2019/03/infoshare2.md" >}}) "『続・情報共有の未来』は付録から読むのがオススメ"）。
 
 今回も [Dynalist] でメモを取りながら読んだ。
 最初に目次を拾ってコピペし，章ごとに思ったことをメモったり，気になるフレーズを引用したりする。
@@ -128,7 +116,6 @@ tags = [ "book", "code", "internet", "generativity", "grigori" ]
 - [階級社会としてのインターネット]({{< ref "/remark/2018/05/internet-as-a-class-system.md" >}})
 - [「情報弱者」を再々定義する]({{< ref "/remark/2018/05/information-illiterate.md" >}})
 - [年末年始に施行される改正著作権法に関する覚え書き]({{< ref "/remark/2018/11/copyright-law-is-revised.md" >}})
-
 
 ## ブックマーク
 

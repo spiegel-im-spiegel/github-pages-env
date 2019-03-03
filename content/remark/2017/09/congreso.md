@@ -1,22 +1,12 @@
 +++
 title = "「荒れた農場の掘ったて小屋でがなりたてる、いかさま師の集団」へ"
 date =  "2017-09-17T16:28:42+09:00"
-description = "ちうわけで，以前に本家サイトで書いた記事を再掲載してみる。これはホルヘ・ルイス・ボルヘスの『砂の本』に収録されている短編「会議」の読書感想文である。ネタバレに注意 ...しなくても大丈夫かな？"
+description = "これはホルヘ・ルイス・ボルヘスの『砂の本』に収録されている短編「会議」の読書感想文である。ネタバレに注意 ...しなくても大丈夫かな？"
 tags        = [ "book" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 - [失われていくデジタル作品をどうアーカイブすべきか？　「メディアが消える時代」のマンガ・アニメ・ゲームを守るには (1/2) - ねとらぼ](http://nlab.itmedia.co.jp/nl/articles/1709/16/news007.html)
@@ -56,7 +46,17 @@ Google は「世界中のあらゆる情報をグラフ化」しようと目論�
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4087606244/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51Q1RWgKY8L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4087606244/baldandersinf-22/">砂の本 (集英社文庫)</a></dt><dd>ホルヘ・ルイス ボルヘス Jorge Luis Borges </dd><dd>集英社 2011-06-28</dd><dd>評価<abbr class="rating" title="5"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4003279212/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4003279212.09._SCTHUMBZZZ_.jpg"  alt="伝奇集 (岩波文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4003279220/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4003279220.09._SCTHUMBZZZ_.jpg"  alt="創造者 (岩波文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4003279247/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4003279247.09._SCTHUMBZZZ_.jpg"  alt="七つの夜 (岩波文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/400327928X/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/400327928X.09._SCTHUMBZZZ_.jpg"  alt="アレフ (岩波文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4309464084/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4309464084.09._SCTHUMBZZZ_.jpg"  alt="幻獣辞典 (河出文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4582765491/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4582765491.09._SCTHUMBZZZ_.jpg"  alt="エル・アレフ (平凡社ライブラリー)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4003279271/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4003279271.09._SCTHUMBZZZ_.jpg"  alt="ブロディーの報告書 (岩波文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4480022775/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4480022775.09._SCTHUMBZZZ_.jpg"  alt="エレンディラ (ちくま文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4003279255/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4003279255.09._SCTHUMBZZZ_.jpg"  alt="詩という仕事について (岩波文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4560071144/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4560071144.09._SCTHUMBZZZ_.jpg"  alt="不死の人 (白水Uブックス―海外小説の誘惑)"  /></a> </p>
-<p class="description">ボルヘスの作品群で個人的に一番好きな作品。13編の独立した短編をしりとりのように繋げて全体で輪を構成している。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-09-17">2017-09-17</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E7%A0%82%E3%81%AE%E6%9C%AC-%E9%9B%86%E8%8B%B1%E7%A4%BE%E6%96%87%E5%BA%AB-%E3%83%9B%E3%83%AB%E3%83%98%E3%83%BB%E3%83%AB%E3%82%A4%E3%82%B9-%E3%83%9C%E3%83%AB%E3%83%98%E3%82%B9/dp/4087606244?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4087606244"><img src="https://images-fe.ssl-images-amazon.com/images/I/51Q1RWgKY8L._SL160_.jpg" width="113" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E7%A0%82%E3%81%AE%E6%9C%AC-%E9%9B%86%E8%8B%B1%E7%A4%BE%E6%96%87%E5%BA%AB-%E3%83%9B%E3%83%AB%E3%83%98%E3%83%BB%E3%83%AB%E3%82%A4%E3%82%B9-%E3%83%9C%E3%83%AB%E3%83%98%E3%82%B9/dp/4087606244?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4087606244">砂の本 (集英社文庫)</a></dt>
+	<dd>ホルヘ・ルイス ボルヘス</dd>
+	<dd>Jorge Luis Borges (原著), 篠田 一士 (翻訳)</dd>
+    <dd>集英社 2011-06-28 (Release 2011-06-28)</dd>
+    <dd>Book 文庫</dd>
+    <dd>ASIN: 4087606244, EAN: 9784087606249</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">ボルヘスの作品群で個人的に一番好きな作品。13編の独立した短編をしりとりのように繋げて全体で輪を構成している。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-09-17">2017-09-17</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
