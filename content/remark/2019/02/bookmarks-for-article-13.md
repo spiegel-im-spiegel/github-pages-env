@@ -26,6 +26,10 @@ pageType = "text"
 あれ？ もっとあったような気がしたが... まぁいいや。
 随時追加，ということで。
 
+## 追加ブックマーク
+
+- [A final x-ray of Article 13: legislative wishful thinking that will hurt user rights - International Communia Association](https://www.communia-association.org/2019/03/05/final-x-ray-article-13-dangerous-legislative-wishful-thinking/)
+
 ## 参考図書
 
 <div class="hreview">

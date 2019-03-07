@@ -1,24 +1,13 @@
 +++
 date = "2015-12-09T20:14:59+09:00"
-update = "2018-10-13T23:08:02+09:00"
 description = "git 各コマンドに関する覚え書き。思い出したら追記予定。"
 draft = false
 tags = ["git", "tools"]
 title = "あまり使わないけど，たまに使おうとすると忘れてる Git コマンド集"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 [git] 各コマンドに関する覚え書き。
@@ -239,6 +228,7 @@ $ git log "--pretty=format:- %s %h" v0.6.0..v0.7.0 | grep -v Merge
 - [Git 大文字·小文字ファイル変更を差分対象の設定にする方法 - Qiita](https://qiita.com/yoshihitofujiwara/items/2a776c1ad8ff30122a2a)
 - [git cloneする時にローカルユーザーを同時に指定できるサブコマンド作ったよ！ - Qiita](https://qiita.com/k_keisuke/items/142efc5b183d090ff867)
 - [VSSからGitにリポジトリ移行](https://qiita.com/ryo2i/items/96f47d5f32487ed0ade0)
+- [Git でよく使われるコマンドにイラストによる説明を加えて1枚のチートシートにまとめてみた（SVG画像追加） - Qiita](https://qiita.com/kozzy/items/b42ba59a8bac190a16ab)
 
 ### GitHub
 

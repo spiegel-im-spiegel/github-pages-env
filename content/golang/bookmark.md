@@ -107,6 +107,10 @@ title = "Go 言語に関するブックマーク"
 - [Go 2のgenerics/contract簡易まとめ](https://qiita.com/lufia/items/242d25e8c93d88e22a2e)
 - [Go 2, here we come! - The Go Blog](https://blog.golang.org/go2-here-we-come)
 
+### Go Cloud Development Kit
+
+- [What's new in the Go Cloud Development Kit - The Go Blog](https://blog.golang.org/gcdk-whats-new-in-march-2019)
+
 ## 言語仕様および標準パッケージに関すること
 
 ### はじめての [Go 言語]
@@ -362,6 +366,9 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go言語でプリント文デバッグするときのTips - Qiita](http://qiita.com/ohac/items/0aa8eb6ff8ee5f599dcd)
 - [GitHub - derekparker/delve: Delve is a debugger for the Go programming language.](https://github.com/derekparker/delve)
     - [Golangのデバッガdelveの使い方 - Qiita](https://qiita.com/minamijoyo/items/4da68467c1c5d94c8cd7)
+- [Go言語のバリデーションチェックライブラリ(ozzo-validation)を分かりやすくまとめてみた - Qiita](https://qiita.com/gold-kou/items/201a19d9d0c760cc2104)
+- [go-playground/validator リクエストパラメータ向けValidationパターンまとめ - Qiita](https://qiita.com/RunEagler/items/ad79fc860c3689797ccc)
+- [Go言語のモック(gomock)を触ってみた - Qiita](https://qiita.com/gold-kou/items/81562f9142323b364a60)
 
 ### テスト・フレームワーク
 
@@ -691,7 +698,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [GAE/Go1.11試行（その1：「クイックスタート」） - Qiita](https://qiita.com/sky0621/items/8a42ee24cb417940228c)
 - [Go言語でGoogle Drive APIとGmail APIを使う方法 - Qiita](https://qiita.com/KMim/items/f6e14cdaed8ad1907930)
 
-## AWS Lambda
+### AWS Lambda
 
 - [AWS LambdaのGoサポートについて今知れるいくつかのこと - Qiita](https://qiita.com/curepine/items/bd67276c9cae543bc0b8)
 
@@ -710,6 +717,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go で 0 から始まる連続する n 個の整数を重複無く k 個選んだ時の組み合わせの列挙 - Qiita](http://qiita.com/yumura_s/items/68760d6b902aee9c78f0)
 - [ピーマンとハトと数学を Go 言語で試す - Qiita](http://qiita.com/nirasan/items/69643d0ddf8a7345cf7c)
 - [golangでニュートン法を使って平方根の計算をする - Qiita](http://qiita.com/k-yamada@github/items/0a7baa61bd668c3cb3dc)
+- [Big Sky :: TensorFlow Lite の Go binding を書いた。](https://mattn.kaoriya.net/software/lang/go/20190307190947.htm)
 
 ### ソートアルゴリズム
 

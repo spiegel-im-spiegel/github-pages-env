@@ -1,24 +1,9 @@
 +++
 title = "新元号「文字」という技術的負債"
 date =  "2017-12-06T10:36:57+09:00"
-update =  "2018-11-12T09:32:35+09:00"
 description = "改めて提案しよう。「日常生活に元号は必要ない」"
 image = "/images/attention/remark.jpg"
 tags        = [ "character", "unicode", "calendar" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false
@@ -53,7 +38,7 @@ tags        = [ "character", "unicode", "calendar" ]
 長くても数十年で代わる年号のために毎回こんな大騒ぎをするつもりなのか。
 これに比べれば「うるう秒」とか可愛いもんだよな。
 
-これは間違いなく**「技術的負債」**である。
+これは間違いなく **「技術的負債」** である。
 技術的負債は取り除くのが「未来の子どもたち[^ch1]」に対する正しい姿勢である。
 
 [^ch1]: みんな好きでしょ，この言葉（笑）
@@ -79,3 +64,4 @@ tags        = [ "character", "unicode", "calendar" ]
 ## ブックマーク
 
 - [GitHub - 1l0/sumeragi: Japanese calendar](https://github.com/1l0/sumeragi) : 皇紀や元号を出力する Go 言語パッケージ
+- [Unicode 12.0正式版が登場。日本語では小文字の「ゐ」「ゑ」「を」「ヰ」「ヱ」「ヲ」「ン」が追加。新元号が発表され次第、次の12.1で新元号キャラクタを追加 － Publickey](https://www.publickey1.jp/blog/19/unicode_120121.html)

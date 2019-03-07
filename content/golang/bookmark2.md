@@ -1,24 +1,9 @@
 +++
 date = "2015-09-11T23:59:59+09:00"
-update = "2019-02-04T21:52:43+09:00"
 description = "「Go 言語に関するブックマーク」に整理しきれない未整理分。"
 draft = false
 tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク（未整理分）"
-
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  license = "by-sa"
-  tumblr = ""
-  linkedin = "spiegelimspiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
-  name = "Spiegel"
-  flattr = ""
-  instagram = "spiegel_2007"
   
 [scripts]
   highlightjs = false
@@ -136,3 +121,4 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [Goでods(Open Office Spreadsheet)ファイルを読み込む - Qiita](https://qiita.com/jp_ibis/items/506911b0deaa5ff94687)
 - [golangでi18n - Qiita](https://qiita.com/shibukawa/items/f0e4df597e62372fe7d5)
 - [Golangで日本語PDFを出力する方法 - Qiita](https://qiita.com/tobita0000/items/f0c2e69a00773cdac9c0)
+- [Go初心者が書くarXiv APIを使って論文リストから論文を取ってくるアプリ - Qiita](https://qiita.com/k4saNova/items/61f41a2e56a786cd75b8)
