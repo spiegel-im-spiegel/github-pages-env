@@ -24,7 +24,7 @@ pageType = "text"
 - Incremental Saving Attack (ISA) : [CVE-2018-18688](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18688)
 - Signature Wrapping Attack (SWA) : [CVE-2018-18689](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18689)
 
-対象となるアプリケーションあるいはサービスは以下の通り。
+対象となるアプリケーションあるいはサービスは以下のリンク先ページの通り。
 
 - [PDF Viewer](https://www.pdf-insecurity.org/signature/viewer.html)
 - [PDF Online Validation Services](https://www.pdf-insecurity.org/signature/services.html)
