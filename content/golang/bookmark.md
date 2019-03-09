@@ -473,6 +473,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [gomobileでiOSアプリをビルドする手順まとめ - GolangRdyJp](http://golang.rdy.jp/2015/09/21/ios-gomobile/)
 - [gomobileで日本語フォントを扱ってみる - Qiita](http://qiita.com/bowz_standard/items/5a9c987f9242777fff30)
 - [GoでBenchmarking Raspberry Pi Zero W GPIO Speed - Qiita](https://qiita.com/WaToI/items/16938a611f7c026c477d)
+- [Raspberry Pi 3 Model B+のUbuntu 64bitに golang の導入を試みて失敗した話 - Qiita](https://qiita.com/shibta/items/97369fa4ca8c5361ddf3)
 
 ### ビルド時に情報を各種埋め込みたい
 

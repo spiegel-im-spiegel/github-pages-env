@@ -29,6 +29,7 @@ pageType = "text"
 ## 追加ブックマーク
 
 - [A final x-ray of Article 13: legislative wishful thinking that will hurt user rights - International Communia Association](https://www.communia-association.org/2019/03/05/final-x-ray-article-13-dangerous-legislative-wishful-thinking/)
+- [European Parliament's Pro-Article 13 Video Has Backfired - TorrentFreak](https://torrentfreak.com/european-parliaments-pro-article-13-video-has-backfired-190308/)
 
 ## 参考図書
 

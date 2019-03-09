@@ -1,21 +1,9 @@
 +++
 title = "Flickr から写真を引き揚げました"
 date = "2019-01-20T19:16:46+09:00"
-update = "2019-02-09T11:17:42+09:00"
 description = "ただの「写真置き場」なら自分のところに置いておけばいいぢゃん，と気がついた。"
 image = "/images/attention/kitten.jpg"
 tags = [ "site", "web", "photography", "image", "flickr", "creative-commons" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
 
 [scripts]
   mathjax = false
@@ -68,5 +56,7 @@ tags = [ "site", "web", "photography", "image", "flickr", "creative-commons" ]
 
 - [Flickrのバックアップを急げ、今日から1000枚+の写真削除開始  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/06/2019-02-05-flickr-deleting-photos-how-to-backup/)
 - [Flickrは写真の削除を3月12日までに延期  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/07/2019-02-06-flickr-will-hold-off-on-deleting-photos-until-march-12th/)
+- [Update on Creative Commons licenses and “In Memoriam” accounts. | Flickr Blog](https://blog.flickr.net/en/2019/03/08/update-on-creative-commons-licenses-and-in-memoriam-accounts/)
+    - [Big Flickr Announcement: All CC-licensed images will be protected - Creative Commons](https://creativecommons.org/2019/03/08/flickr-announcement/?utm_source=hootsuite&utm_medium=&utm_term=&utm_content=&utm_campaign=social)
 
 [Flickr]: https://www.flickr.com/
