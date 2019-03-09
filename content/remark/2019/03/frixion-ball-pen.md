@@ -2,7 +2,7 @@
 title = "FRIXION ボールペンの替芯を買うた"
 date = "2019-03-09T15:10:46+09:00"
 description = "普段使うボールペンが黒と赤なので（間違えないよう）区別するために色は青で。"
-image = "/images/attention/kitten.jpg"
+image = "/remark/2019/03/frixion-ball-pen/frixion-ball-pen.jpg"
 tags = [ "tools" ]
 pageType = "text"
 
