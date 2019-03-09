@@ -22,6 +22,7 @@ pageType = "text"
 ## Age of Trump
 
 - [会談決裂「トランプvs.金正恩」（上）「全会話」と「全内幕」：平井久志 | 朝鮮半島の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](https://www.fsight.jp/articles/-/44977)
+    - [会談決裂「トランプvs.金正恩」（中）「全部」と「一部」主張食い違いの「真相」：平井久志 | 朝鮮半島の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](https://www.fsight.jp/articles/-/44982)
 - [MIT Tech Review: GAFAの税逃れ許すな、フランスが「デジタル課税」導入へ](https://www.technologyreview.jp/nl/france-is-about-to-hit-big-tech-firms-like-amazon-with-a-3-digital-tax/)
 
 ## セキュリティ＆プライバシー関連

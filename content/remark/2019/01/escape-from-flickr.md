@@ -56,7 +56,7 @@ tags = [ "site", "web", "photography", "image", "flickr", "creative-commons" ]
 
 - [Flickrのバックアップを急げ、今日から1000枚+の写真削除開始  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/06/2019-02-05-flickr-deleting-photos-how-to-backup/)
 - [Flickrは写真の削除を3月12日までに延期  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/07/2019-02-06-flickr-will-hold-off-on-deleting-photos-until-march-12th/)
-- [Update on Creative Commons licenses and “In Memoriam” accounts. | Flickr Blog](https://blog.flickr.net/en/2019/03/08/update-on-creative-commons-licenses-and-in-memoriam-accounts/)
-    - [Big Flickr Announcement: All CC-licensed images will be protected - Creative Commons](https://creativecommons.org/2019/03/08/flickr-announcement/?utm_source=hootsuite&utm_medium=&utm_term=&utm_content=&utm_campaign=social)
+
+- [Flickr は監視資本主義に向かわない]({{< ref "/remark/2019/03/flickr-has-not-turned-to-surveillance-capitalism.md" >}})
 
 [Flickr]: https://www.flickr.com/
