@@ -5,19 +5,9 @@ draft = false
 tags = ["book", "code", "law", "intellectual-property", "hacker-ethic", "artificial-intelligence", "creative-commons"]
 title = "『法のデザイン』を斜め読みした"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 GW の読書の課題として『[法のデザイン]』を読み始めたのだが，既に第一部で「えー？ うーん？」な感じになり挫折してしまった。
@@ -142,9 +132,18 @@ SIer とか企業の法務部向けの本って感じかな。
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B071V8J53D/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/41df%2BhdoLfL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B071V8J53D/baldandersinf-22/">法のデザイン</a></dt><dd>水野祐 </dd><dd>フィルムアート社 2017-02-28</dd><dd>評価<abbr class="rating" title="3"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-3-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00W1FH0AU/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00W1FH0AU.09._SCTHUMBZZZ_.jpg"  alt="知ろうとすること。（新潮文庫）"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B06XDM85QK/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B06XDM85QK.09._SCTHUMBZZZ_.jpg"  alt="遙かなる他者のためのデザイン ―久保田晃弘の思索と実装"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B06ZYQRMM1/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B06ZYQRMM1.09._SCTHUMBZZZ_.jpg"  alt="ウェルビーイングの設計論 ―人がよりよく生きるための情報技術"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B01N9ZT9NP/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B01N9ZT9NP.09._SCTHUMBZZZ_.jpg"  alt="未来を築くデザインの思想 ―ポスト人間中心デザインへ向けて読むべき24のテキスト"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B06Y1G4X1F/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B06Y1G4X1F.09._SCTHUMBZZZ_.jpg"  alt="ブリッジング"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B01N4S2LMB/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B01N4S2LMB.09._SCTHUMBZZZ_.jpg"  alt="これからの僕らの働き方　次世代のスタンダードを創る10人に聞く (早川書房)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B06XTR4GFP/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B06XTR4GFP.09._SCTHUMBZZZ_.jpg"  alt="逆説のスタートアップ思考 (中公新書ラクレ)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B071XSG4XS/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B071XSG4XS.09._SCTHUMBZZZ_.jpg"  alt="Processing クリエイティブ・コーディング入門 ―コードが生み出す創造表現"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B06XY66JS9/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B06XY66JS9.09._SCTHUMBZZZ_.jpg"  alt="完全対応 新個人情報保護法－Q＆Aと書式例－"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B01N3ABWZ9/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B01N3ABWZ9.09._SCTHUMBZZZ_.jpg"  alt="ケース・スタディ ネット権利侵害対応の実務－発信者情報開示請求と削除請求－"  /></a> </p>
-<p class="description">Kindle 版出てたのかよ待てばよかった orz 強いて言うなら第二部の各論は参考になる部分も多い。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-04-07">2017-04-07</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%B3%95%E3%81%AE%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3-%E6%B0%B4%E9%87%8E%E7%A5%90-ebook/dp/B071V8J53D?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B071V8J53D"><img src="https://images-fe.ssl-images-amazon.com/images/I/41fWm05dTNL._SL160_.jpg" width="106" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E6%B3%95%E3%81%AE%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3-%E6%B0%B4%E9%87%8E%E7%A5%90-ebook/dp/B071V8J53D?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B071V8J53D">法のデザイン</a></dt>
+	<dd>水野祐</dd>
+    <dd>フィルムアート社 2017-02-28 (Release 2018-08-03)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B071V8J53D</dd>
+    <dd>評価<abbr class="rating fa-sm" title="3">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">Kindle 版出てたのかよ待てばよかった orz 強いて言うなら第二部の各論は参考になる部分も多い。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-04-07">2017-04-07</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
 
 <div class="hreview">
