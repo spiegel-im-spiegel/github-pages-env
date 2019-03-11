@@ -47,12 +47,17 @@
 
 ## Age of Trump
 
+- [Tell Congress to Restore Full Net Neutrality Protections | EFF Action Center](https://act.eff.org/action/tell-congress-to-restore-full-net-neutrality-protections)
+    - [米民主党、「ネット中立性」の復活を目指す法案を公表 - ZDNet Japan](https://japan.zdnet.com/article/35133907/)
+- [会談決裂「トランプvs.金正恩」（下）合意拒否を後押しした「コーエン議会証言」：平井久志 | 朝鮮半島の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](https://www.fsight.jp/articles/-/44997)
 
 ## セキュリティ＆プライバシー関連
 
-- [for文無限ループURL投稿で補導された件についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/03/05/060955)
-    - [いたずらスクリプトのURL貼った女子中学生の補導、海外でも波紋 - CNET Japan](https://japan.cnet.com/article/35133776/)
-- [「モモは死んだ」--「モモチャレンジ」のデマに利用された作品、作者が廃棄 - CNET Japan](https://japan.cnet.com/article/35133644/)
+- [Kodi Users at Risk From Github Repo 'Hijack' But Solution is Already Available - TorrentFreak](https://torrentfreak.com/kodi-users-at-risk-from-github-repo-hijack-but-solution-is-already-available-190309/)
+- [Facebookとのデータ共有を継続するAndroidアプリを英プライバシー団体が指摘 - CNET Japan](https://japan.cnet.com/article/35133823/)
+- [DNS Manipulation in Venezuela in regards to the Humanitarian Aid Campaign | Securelist](https://securelist.com/dns-manipulation-in-venezuela/89592/)
+- [米Citrix、FBIからの連絡でサイバー攻撃により社内ネットワークに侵入されたことを知る。政府機関などを狙った大規模な攻撃の一部か？ － Publickey](https://www.publickey1.jp/blog/19/citrixfbi.html)
+- [脆弱性が修正されたPHP最新版登場、アップデート推奨 | マイナビニュース](https://news.mynavi.jp/article/20190310-785438/)
 
 ## 天文関連
 
@@ -62,5 +67,8 @@
 
 ## その他
 
+- [【解説】自動運転解禁への道路交通法と道路運送車両法の改正案の概要 | 自動運転ラボ](https://jidounten-lab.com/u_autonomous-japan-law-2)
+- [スーザン・クロフォードの新刊とアメリカにおける光回線の問題（とGoogle Fiberの失敗） - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20190311/fiber)
+- [我々の弱点を前提として、民主主義を「改善」することはできないだろうか | 八田真行 | コラム | ニューズウィーク日本版 オフィシャルサイト](https://www.newsweekjapan.jp/hatta/2019/03/post-5.php)
 
 <!-- eof -->
