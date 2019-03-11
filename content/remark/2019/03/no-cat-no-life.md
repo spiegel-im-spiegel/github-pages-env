@@ -12,7 +12,7 @@ pageType = "text"
 +++
 
 まずは2011年3月11日より今だ困難な生活と気持ちを強いられている方々には心よりお見舞いを申し上げます。
-三十数年ぶりに日本屈指の過疎県の「原発の町」に[{{< ruby "かえ" >}}帰郷{{< /ruby >}}ってきた]({{< ref "/remark/2018/12/i-am-a-sunday-programmer.md" >}})身としては昨年とはまた違う想いで今日を過ごしている。
+三十数年ぶりに日本屈指の過疎県の「原発の町」に[{{< ruby "かえ" >}}帰郷{{< /ruby >}}ってきた]({{< ref "/remark/2018/12/i-am-a-sunday-programmer.md" >}})身としては昨年までとはまた違う想いで今日を過ごしている。
 
 それはさておき「[YAMDAS現更新履歴](https://yamdas.hatenablog.com/)」でまた[私の拙文を紹介していただいた](https://yamdas.hatenablog.com/entry/20190311/openweb)のだが，その記事の後半の[八田真行さんの記事](https://news.yahoo.co.jp/byline/hattamasayuki/20190309-00117554/)の引用といい感じにリンクしているのでネタにさせてもらおう。
 
