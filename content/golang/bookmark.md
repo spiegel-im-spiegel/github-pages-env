@@ -24,7 +24,7 @@ title = "Go 言語に関するブックマーク"
 ## リリース情報
 
 ### Go 1.5 Released. 
-
+ 
 - [Go 1.5 is released - The Go Blog](https://blog.golang.org/go1.5)
 - [Go 1.5 Release Notes - The Go Programming Language](https://golang.org/doc/go1.5)
     - [Go 1.4 "Internal" Packages](https://docs.google.com/document/d/1e8kOo3r51b2BWtTs_1uADIA5djfXhPT36s6eHVRIvaU/edit) : Internal Packages は 1.5 で GOPATH まで拡張された
@@ -760,6 +760,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Language and Locale Matching in Go - The Go Blog](https://blog.golang.org/matchlang)
 - [Go言語(Golang) はまりどころと解決策](http://www.yunabe.jp/docs/golang_pitfall.html)
 - [go - Creating call graph in golang - Stack Overflow](https://stackoverflow.com/questions/31362332/creating-call-graph-in-golang#31369718)
+- [Goのインクリメントとデクリメントのベンチマーク比較 - Qiita](https://qiita.com/qushot/items/306a9c9c0321304def8e)
+- [Goの shortcircuit 最適化パスを読んだので解説する - Qiita](https://qiita.com/osamu329/items/3ac05c3b71f495fc1e61)
 
 ### 他言語との比較もしくは移行
 
