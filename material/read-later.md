@@ -13,8 +13,6 @@
 
 ## あとで遊ぶ
 
-- [さくらのレンタルサーバ／マネージドサーバ 「バックアップ＆ステージング powered by Sn
-- [Chrome拡張『URL Shortener for Amazon』の紹介 - dadadadoneのメモ帳](https://blog.dadadadone.com/archives/470)
 
 ### golangCI
 
