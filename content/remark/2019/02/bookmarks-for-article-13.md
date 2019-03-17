@@ -32,6 +32,7 @@ pageType = "text"
 - [European Parliament's Pro-Article 13 Video Has Backfired - TorrentFreak](https://torrentfreak.com/european-parliaments-pro-article-13-video-has-backfired-190308/)
 - [OHCHR | EU must align copyright reform with international human rights standards, says expert](https://www.ohchr.org/EN/NewsEvents/Pages/DisplayNews.aspx?NewsID=24298&LangID=E)
 - [欧州議会、著作権フィルターの推進ビデオで大炎上 – P2Pとかその辺のお話R](https://p2ptk.org/copyright/1686)
+- [「欧州著作権フィルターはバランスを欠いた侵害対策」国連特別報告者が警告 – P2Pとかその辺のお話R](https://p2ptk.org/copyright/1691)
 
 ## 参考図書
 

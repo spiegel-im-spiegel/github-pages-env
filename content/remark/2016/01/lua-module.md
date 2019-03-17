@@ -5,19 +5,9 @@ draft = false
 tags = ["lua", "module", "nyagos"]
 title = "Lua のモジュール"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 [NYAGOS] 4.1.0_0 がリリースされた。
@@ -105,6 +95,7 @@ nyagos.write(module1.method2().."\n")
 - [c++ - Using the 'module' function in Lua 5.2? - Stack Overflow](http://stackoverflow.com/questions/16849422/using-the-module-function-in-lua-5-2)
 - [その４ 会得必須！Luaの真髄「テーブル」](http://marupeke296.com/LUA_No4_Table.html)
 - [第 4 回: Lua のオブジェクト指向について紹介する — WTOPIA v1.0 documentation](http://www.ie.u-ryukyu.ac.jp/~e085739/lua.hajime.4.html)
+- [Luaのモジュール徹底解説（Lua 5.1〜5.3対応） - Qiita](https://qiita.com/mod_poppo/items/ef3d8a6fe03f7f426426)
 
 [NYAGOS]: http://www.nyaos.org/index.cgi?p=NYAGOS "NYAOS.ORG - NYAGOS"
 [Lua]: http://www.lua.org/ "The Programming Language Lua"

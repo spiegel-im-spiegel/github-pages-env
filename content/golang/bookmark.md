@@ -110,6 +110,7 @@ title = "Go 言語に関するブックマーク"
 ### Go Cloud Development Kit
 
 - [What's new in the Go Cloud Development Kit - The Go Blog](https://blog.golang.org/gcdk-whats-new-in-march-2019)
+- [The New Go Developer Network - The Go Blog](https://blog.golang.org/go-developer-network)
 
 ## 言語仕様および標準パッケージに関すること
 
@@ -649,6 +650,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go製WebToolKit Buffalo[概要編] - Qiita](https://qiita.com/k-kurikuri/items/f46356b70fe3e7e8da7d)
 - [Go+Echoの環境にNewRelicを導入する - Qiita](https://qiita.com/daisukeoda/items/b02aefa4f464e63729b5)
 - [golangのechoで静的なサイトを建てるならNowがお手軽という話 - DEV Community 👩‍💻👨‍💻](https://dev.to/fk2000/golangechonow-3kic)
+- [golangでWebアプリケーションのルーティングを実装する！ - Qiita](https://qiita.com/micropig3402/items/ff2a3fd7673e849c5982)
+- [Goのhttpルーター「Chi」の紹介 - Qiita](https://qiita.com/minoritea/items/afaf10de3c5b6ebafa84)
 
 ## 他サービスとの連携
 
