@@ -652,6 +652,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [golangのechoで静的なサイトを建てるならNowがお手軽という話 - DEV Community 👩‍💻👨‍💻](https://dev.to/fk2000/golangechonow-3kic)
 - [golangでWebアプリケーションのルーティングを実装する！ - Qiita](https://qiita.com/micropig3402/items/ff2a3fd7673e849c5982)
 - [Goのhttpルーター「Chi」の紹介 - Qiita](https://qiita.com/minoritea/items/afaf10de3c5b6ebafa84)
+- [go で gorma を使ってAPI開発してみる。まずはgoa編 - Qiita](https://qiita.com/keiichi-hikita/items/0cebf00e85f47858c948)
 
 ## 他サービスとの連携
 

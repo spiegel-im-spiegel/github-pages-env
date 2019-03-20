@@ -33,6 +33,7 @@ pageType = "text"
 - [OHCHR | EU must align copyright reform with international human rights standards, says expert](https://www.ohchr.org/EN/NewsEvents/Pages/DisplayNews.aspx?NewsID=24298&LangID=E)
 - [欧州議会、著作権フィルターの推進ビデオで大炎上 – P2Pとかその辺のお話R](https://p2ptk.org/copyright/1686)
 - [「欧州著作権フィルターはバランスを欠いた侵害対策」国連特別報告者が警告 – P2Pとかその辺のお話R](https://p2ptk.org/copyright/1691)
+- [A final x-ray of Article 13: legislative wishful thinking that will hurt user rights - International Communia Association](https://www.communia-association.org/2019/03/05/final-x-ray-article-13-dangerous-legislative-wishful-thinking/)
 
 ## 参考図書
 
