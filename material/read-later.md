@@ -38,8 +38,6 @@
 
 - [「GitKraken 5.0」がリリース ～GPGコミットや“Interactive Rebase”をサポート - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1175019.html)
 
-- [[Announce] GnuPG 2.2.14 released](https://lists.gnupg.org/pipermail/gnupg-announce/2019q1/000435.html)
-
 - [Java 12 / JDK 12: General Availability](https://mail.openjdk.java.net/pipermail/jdk-dev/2019-March/002718.html)
 - [Java 12正式版がリリース、大きな変更などはなし。新ガベージコレクタの実験的導入、Switch文の拡張がプレビューなど － Publickey](https://www.publickey1.jp/blog/19/java_12switch.html)
 

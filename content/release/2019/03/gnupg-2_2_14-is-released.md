@@ -1,6 +1,6 @@
 +++
-title = "GnuPG 2.2.13 がリリースされた"
-date = "2019-02-13T22:07:18+09:00"
+title = "GnuPG 2.2.14 がリリースされた"
+date = "2019-03-20T22:37:08+09:00"
 description = "今回もセキュリティ・アップデートはなし。"
 image = "/images/attention/openpgp.png"
 tags = [
@@ -10,38 +10,46 @@ tags = [
   "openpgp",
   "gnupg",
 ]
+pageType = "text"
 
 [scripts]
   mathjax = false
   mermaidjs = false
 +++
 
-[GnuPG] 2.2.13 がリリースされた。
+[GnuPG] 2.2.14 がリリースされた。
 
-- [[Announce] GnuPG 2.2.13 released](https://lists.gnupg.org/pipermail/gnupg-announce/2019q1/000434.html)
+- [[Announce] GnuPG 2.2.14 released](https://lists.gnupg.org/pipermail/gnupg-announce/2019q1/000435.html)
+
 
 今回もセキュリティ・アップデートはなし。
 主な機能追加・修正点は以下の通り。
 
-{{% fig-quote title="GnuPG 2.2.13 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q1/000434.html" lang="en" %}}
-* gpg: Implement key lookup via keygrip (using the & prefix).
-* gpg: Allow generating Ed25519 key from existing key.
-* gpg: Emit an ERROR status line if no key was found with `-k`.
-* gpg: Stop early when trying to create a primary Elgamal key.  [#4329]
-* gpgsm: Print the card's key algorithms along with their keygrips in interactive key generation.
-* agent: Clear bogus pinentry cache in the error case.  [#4348]
-* scd: Support "acknowledge button" feature.
-* scd: Fix for USB INTERRUPT transfer.  [#4308]
-* wks: Do no use compression for the the encrypted challenge and response.
+{{% fig-quote title="GnuPG 2.2.14 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q1/000435.html" lang="en" %}}
+* gpg: Allow import of PGP desktop exported secret keys.  Also avoid importing secret keys if the secret keyblock is not valid.  [#4392]
+* gpg: Do not error out on version 5 keys in the local keyring.
+* gpg: Make invalid primary key algo obvious in key listings.
+* sm: Do not mark a certificate in a key listing as de-vs compliant if its use for a signature will not be possible.
+* sm: Fix certificate creation with key on card.
+* sm: Create rsa3072 bit certificates by default.
+* sm: Print Yubikey attestation extensions with `--dump-cert`.
+* agent: Fix cancellation handling for scdaemon.
+* agent: Support `--mode=ssh` option for CLEAR_PASSPHRASE.  [#4340]
+* scd: Fix flushing of the CA-FPR DOs in app-openpgp.
+* scd: Avoid a conflict error with the "undefined" app.
+* dirmngr: Add CSRF protection exception for protonmail.
+* dirmngr: Fix build problems with gcc 9 in libdns.
+* gpgconf: New option `--show-socket` for use wity `--launch`.
+* gpgtar: Make option `-C` work for archive creation.
 
-Release-info: https://dev.gnupg.org/T4290
+Release-info: https://dev.gnupg.org/T4412
 {{% /fig-quote %}}
 
 最新版をインストールすると以下のようになる。
 
 ```text
 $ gpg --version
-gpg (GnuPG) 2.2.13
+gpg (GnuPG) 2.2.14
 libgcrypt 1.8.4
 Copyright (C) 2019 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
