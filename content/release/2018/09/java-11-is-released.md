@@ -1,24 +1,9 @@
 +++
 title = "Java 11 がリリース"
 date = "2018-09-27T09:57:29+09:00"
-update = "2018-10-21T19:16:32+09:00"
 description = "Oracle Java に関しては，予告どおり，有償の LTS (Long Term Support) としてのリリースとなる。"
 image = "/images/attention/tools.png"
 tags  = [ "programming", "language", "java", "engineering" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false

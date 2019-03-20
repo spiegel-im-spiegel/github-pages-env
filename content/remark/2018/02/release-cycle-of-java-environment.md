@@ -188,7 +188,6 @@ Java 関連のサービスやアプリケーションについて以下にメモ
 - [AWSが独自のOpenJDK「Amazon Corretto」発表。AWS内部で使っていたJavaを外部提供へ。Java 8は2023年まで、Java 11は2024年まで無償でLTSを提供 － Publickey](https://www.publickey1.jp/blog/18/awsopenjdkamazon_correttoawsjavajava_82023java_112024lts.html)
     - [AWS版OpenJDKの「Amazon Corretto 8」正式版リリース。少なくとも2023年6月まで無償でアップデート提供 － Publickey](https://www.publickey1.jp/blog/19/awsopenjdkamazon_corretto_820236.html)
 - [Red Hat、Windows版OpenJDKの長期商用サポート提供を発表 － Publickey](https://www.publickey1.jp/blog/18/red_hatwindowsopenjdklts.html)
-- [Java 環境のリリースとサポートに関する覚え書き — しっぽのさきっちょ | text.Baldanders.info](https://text.baldanders.info/remark/2018/02/release-cycle-of-java-environment/)
 
 [OpenJDK]: http://openjdk.java.net/
 [Project Jigsaw]: http://openjdk.java.net/projects/jigsaw/ "Project Jigsaw"
