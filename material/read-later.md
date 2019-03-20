@@ -36,11 +36,6 @@
 - [The I2P Out-of-the-Box: Try I2P easily with I2P Firefox Browser Profile](https://medium.com/@mhatta/the-i2p-out-of-the-box-try-i2p-easily-with-i2p-firefox-browser-profile-3649ab8e8ff2)
 
 
-- [「GitKraken 5.0」がリリース ～GPGコミットや“Interactive Rebase”をサポート - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1175019.html)
-
-- [Java 12 / JDK 12: General Availability](https://mail.openjdk.java.net/pipermail/jdk-dev/2019-March/002718.html)
-- [Java 12正式版がリリース、大きな変更などはなし。新ガベージコレクタの実験的導入、Switch文の拡張がプレビューなど － Publickey](https://www.publickey1.jp/blog/19/java_12switch.html)
-
 ## リリース情報
 
 - [「Thunderbird」v60.6.0が公開 ～特定条件下で繰り返し予定が作成不能な問題を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1175710.html)
