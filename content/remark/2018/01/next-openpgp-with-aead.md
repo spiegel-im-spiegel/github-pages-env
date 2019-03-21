@@ -1,24 +1,9 @@
 +++
 title = "次期 OpenPGP と AEAD"
 date =  "2018-01-27T16:21:29+09:00"
-update =  "2018-01-28T18:40:55+09:00"
 description = "ドラフト 03, 04 の主な変更点としては AEAD (Authenticated Encryption with Associated Data; 認証付き暗号) の仕様が追加されたことだろう。"
-image = "/images/attention/remark.jpg"
+image = "/images/attention/openpgp.png"
 tags = ["security", "cryptography", "openpgp", "aead"]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false
@@ -83,6 +68,9 @@ OCB mode に関しては，特許問題が絡むようで，取り扱いを議�
 [RFC 4880bis]: https://datatracker.ietf.org/doc/draft-ietf-openpgp-rfc4880bis/ "draft-ietf-openpgp-rfc4880bis - OpenPGP Message Format"
 
 ## ブックマーク
+
+- [draft-ietf-openpgp-rfc4880bis-05.txt](https://www.ietf.org/archive/id/draft-ietf-openpgp-rfc4880bis-05.txt)
+- [draft-ietf-openpgp-rfc4880bis-06.txt](https://www.ietf.org/archive/id/draft-ietf-openpgp-rfc4880bis-06.txt)
 
 - [OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）]({{< ref "/openpgp/algorithms-for-openpgp.md" >}})
 
