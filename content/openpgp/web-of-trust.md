@@ -73,7 +73,7 @@ X.509 の「信用モデル（trust model）」では hierarchical な CA (Certi
 何故 PGP/[OpenPGP] が X.509 のような「権威による認証」を採用しなかったかというと，それは PGP の出自に関係がある。
 PGP の作者である Phil Zimmermann は，当時は反核運動家であり国家等の「権威」に依らない信用モデルを必要としていたわけだ[^gpg2]。
 
-[^gpg2]: なお [OpenPGP] 実装のひとつである [GnuPG] では伝統的な「信用の輪」以外にも X.509 の信用モデルや [TOFU (Trust On First Use)](https://en.wikipedia.org/wiki/Trust_on_first_use) と呼ばれる信用モデルもサポートしている。
+[^gpg2]: 本当のことろ，作者である Phil Zimmermann がどこまで企図していたのかは知らないが， PGP の登場によって暗号は初めて（国家や大企業のものではなく）一般の人も「使える」ものになったことは確かである。なお [OpenPGP] 実装のひとつである [GnuPG] では伝統的な「信用の輪」以外にも X.509 の信用モデルや [TOFU (Trust On First Use)](https://en.wikipedia.org/wiki/Trust_on_first_use) と呼ばれる信用モデルもサポートしている。
 
 OpenPGP は名前だけならどんな鍵でも作れる。
 たとえば Bitcoin の作者と言われる Satoshi Nakamoto の公開鍵は[公開鍵サーバを探せば簡単に見つかる]({{< ref "/remark/2016/05/openpgp-key-of-satoshi-nakamoto.md" >}})が，それが「あの」 Satoshi Nakamoto 本人であると示す証拠は（少なくとも公開鍵自体には）存在しない。
@@ -88,6 +88,7 @@ OpenPGP 公開鍵やその電子署名で赤の他人の「身元を保証」す
 この辺について詳しくは，拙文「[OpenPGP 鍵管理に関する考察]({{< relref "./openpgp-key-management.md" >}})」を書いたので興味があれば参照してほしい。
 
 また GitHub のようにアカウントと公開鍵を紐つけることによってサービス内における強力なポートフォリオとして機能している点は見逃せないだろう。
+GitHub 上の活動がそのまま「エンジニアとしてのユーザ」の身元を保証しているわけだ。
 
 ホンマ git ってよく出来たシステムだよなぁ。
 
