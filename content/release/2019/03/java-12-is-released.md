@@ -33,6 +33,8 @@ OpenJDK 64-Bit Server VM (build 12+33, mixed mode, sharing)
 
 ## ブックマーク
 
+- [Java12が出たので、とりあえずswitch式を試してみた - Qiita](https://qiita.com/dhirabayashi/items/2999b04a369379f41675)
+
 - [Java 環境のリリースとサポートに関する覚え書き]({{< ref "/remark/2018/02/release-cycle-of-java-environment.md" >}})
 
 [OpenJDK]: http://openjdk.java.net/

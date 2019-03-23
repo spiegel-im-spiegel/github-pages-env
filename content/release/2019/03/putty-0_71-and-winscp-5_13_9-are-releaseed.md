@@ -1,5 +1,5 @@
 +++
-title = "PuTTY 0.71 および WinCSP 5.13.9 がリリースされた【セキュリティ・アップデート】"
+title = "PuTTY 0.71 および WinSCP 5.13.9 がリリースされた【セキュリティ・アップデート】"
 date = "2019-03-22T22:41:00+09:00"
 description = "ただし PuTTY 関しては具体的な攻略方法がなく，単なる不具合として処理されたようだ。"
 image = "/images/attention/tools.png"
@@ -26,15 +26,17 @@ pageType = "text"
 
 ただし [PuTTY] 関しては具体的な攻略方法がなく，単なる不具合として処理されたようだ。
 
-また，これに関連して [WinCSP] も 5.13.9 にアップデートされた。
+また，これに関連して [WinSCP] も 5.13.9 にアップデートされた。
 
 アップデートは計画的に。
 
 ## ブックマーク
 
+- [PuTTYrv (PuTTY-ranvis) - Ranvis software](https://www.ranvis.com/putty) : 日本語対応 PuTTY。オススメ
+
 - [64ビット版 PuTTY を導入する]({{< ref "/remark/2018/02/putty-64bit-version.md" >}})
 - [GnuPG for Windows : gpg-agent について]({{< ref "/openpgp/using-gnupg-for-windows-2.md" >}}) : GnuPG の gpg-agent を使ってログインを行う方法について
 
 [PuTTY]: https://www.chiark.greenend.org.uk/~sgtatham/putty/ "PuTTY: a free SSH and Telnet client"
-[WinCSP]: https://winscp.net/ "WinSCP :: Official Site :: Free SFTP and FTP client for Windows"
+[WinSCP]: https://winscp.net/ "WinSCP :: Official Site :: Free SFTP and FTP client for Windows"
 <!-- eof -->

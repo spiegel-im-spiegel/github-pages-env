@@ -653,6 +653,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [golangでWebアプリケーションのルーティングを実装する！ - Qiita](https://qiita.com/micropig3402/items/ff2a3fd7673e849c5982)
 - [Goのhttpルーター「Chi」の紹介 - Qiita](https://qiita.com/minoritea/items/afaf10de3c5b6ebafa84)
 - [go で gorma を使ってAPI開発してみる。まずはgoa編 - Qiita](https://qiita.com/keiichi-hikita/items/0cebf00e85f47858c948)
+- [grpc-gatewayでgRPCのREST対応を試しました - Qiita](https://qiita.com/nisitanisubaru/items/abe11ff4248997d1fee2)
 
 ## 他サービスとの連携
 

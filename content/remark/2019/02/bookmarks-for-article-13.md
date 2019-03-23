@@ -34,6 +34,12 @@ pageType = "text"
 - [欧州議会、著作権フィルターの推進ビデオで大炎上 – P2Pとかその辺のお話R](https://p2ptk.org/copyright/1686)
 - [「欧州著作権フィルターはバランスを欠いた侵害対策」国連特別報告者が警告 – P2Pとかその辺のお話R](https://p2ptk.org/copyright/1691)
 - [A final x-ray of Article 13: legislative wishful thinking that will hurt user rights - International Communia Association](https://www.communia-association.org/2019/03/05/final-x-ray-article-13-dangerous-legislative-wishful-thinking/)
+- [欧州著作権指令とは何なのか？ 欧州史上最大級の反発を受けているのはなぜか？ – P2Pとかその辺のお話R](https://p2ptk.org/copyright/1707)
+- [Privacy-Focused Search Engine Wants Copyright Directive to Pass - TorrentFreak](https://torrentfreak.com/privacy-focused-search-engine-wants-copyright-directive-to-pass-190320/)
+- [The Best of Europe’s Web Went Dark Today. We Can’t Let That Be Our Future. | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2019/03/best-europes-web-went-dark-today-we-cant-let-be-our-future)
+- [Anti Article 13 Petition Signed by Five Million People - TorrentFreak](https://torrentfreak.com/anti-article-13-petition-signed-by-five-million-people-190321/)
+- [Europeans should tell Parliament to vote NO to copyright filters - Creative Commons](https://creativecommons.org/2019/03/21/europeans-should-tell-parliament-to-vote-no-to-copyright-filters/)
+- [4言語のWikipediaがEU著作権指令に反対するブラックアウトを実施 – P2Pとかその辺のお話R](https://p2ptk.org/copyright/1709)
 
 ## 参考図書
 
