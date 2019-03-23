@@ -3,7 +3,7 @@ title = "『もうすぐ絶滅するという開かれたウェブについて �
 date = "2019-01-04T19:53:34+09:00"
 description = "具体的な話はせず与太話をいくつか書くに留めておくことにするので悪しからずご了承のほどを。"
 image = "/images/attention/kitten.jpg"
-tags = [ "book", "code", "internet", "generativity", "grigori" ]
+tags = [ "book", "code", "internet", "generativity", "grigori", "surveillance-capitalism" ]
 
 [scripts]
   mathjax = false
@@ -209,8 +209,8 @@ tags = [ "book", "code", "internet", "generativity", "grigori" ]
     <dd>ASIN: 4757143044, EAN: 9784757143043</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
-  <p class="description">社会における「信頼」とは。そういいえば『<a href="https://www.amazon.co.jp/exec/obidos/ASIN/B01MZGVHOA/baldandersinf-22">超監視社会</a>』は積ん読のまま読んでない。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="description">社会における「信頼」とは。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-03-23">2019-03-23</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
 
 <div class="hreview">

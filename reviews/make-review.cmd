@@ -1,6 +1,8 @@
 @echo off
-type B0732279VT.html | amazon-item review -t review-book.html -d B0732279VT -r 4 --review-date 2019-03-17
+type 4757143044.html | amazon-item review -t review-book.html -d 4757143044 -r 5 --review-date 2019-03-23
+type B01MZGVHOA.html | amazon-item review -t review-book.html -d B01MZGVHOA -r 0 --review-date 2019-03-23
 rem ---
+rem type B0732279VT.html | amazon-item review -t review-book.html -d B0732279VT -r 4 --review-date 2019-03-17
 rem type B071V8J53D.html | amazon-item review -t review-book.html -d B071V8J53D -r 3 --review-date 2017-04-07
 rem type B07PBTXR6X.html | amazon-item review -t review-book.html -d B07PBTXR6X -r 5 --review-date 2019-02-09
 rem type B006CQUMUO.html | amazon-item review -t review-book.html -d B006CQUMUO -r 5 --review-date 2019-02-09
@@ -92,7 +94,6 @@ rem type cr.txt
 rem type cr.txt
 rem type 4344980158.html | amazon-item review -t review-book.html -d 4344980158 -r 4 --review-date 2018-12-31
 rem type B012VRLPRG.html | amazon-item review -t review-book.html -d B012VRLPRG -r 4 --review-date 2018-12-31
-rem type 4757143044.html | amazon-item review -t review-book.html -d 4757143044 -r 5 --review-date 2018-12-31
 rem type 4150504598.html | amazon-item review -t review-book.html -d 4150504598 -r 4 --review-date 2018-12-31
 rem type B0125TZSZ0.html | amazon-item review -t review-book.html -d B0125TZSZ0 -r 5 --review-date 2018-12-31
 rem type B01J1I8PRQ.html | amazon-item review -t review-book.html -d B01J1I8PRQ -r 5 --review-date 2018-12-31

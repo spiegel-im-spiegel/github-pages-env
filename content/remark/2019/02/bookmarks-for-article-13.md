@@ -3,7 +3,7 @@ title = "“Article 13” に関するブックマーク"
 date = "2019-02-19T22:04:51+09:00"
 description = "英語不得手の私としては難儀していたが，ようやく日本語の記事を見かけるようになった。"
 image = "/images/attention/kitten.jpg"
-tags = [ "code", "law", "politics", "copyright" ]
+tags = [ "code", "law", "politics", "copyright", "surveillance-capitalism" ]
 pageType = "text"
 
 [scripts]

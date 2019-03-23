@@ -35,13 +35,6 @@
 - [How to use I2P on Android – Masayuki Hatta – Medium](https://medium.com/@mhatta/how-to-use-i2p-on-android-91dd379fdb65?fbclid=IwAR1kckWLLLJv1U_8-FIreYOm0rWJcckV_p_OUpolUFe_BH2G-4voDfDyyxk)
 - [The I2P Out-of-the-Box: Try I2P easily with I2P Firefox Browser Profile](https://medium.com/@mhatta/the-i2p-out-of-the-box-try-i2p-easily-with-i2p-firefox-browser-profile-3649ab8e8ff2)
 
-## lets-leave-facebook
-
-- [Facebookが一部ユーザーのパスワードを平文記録していた問題についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/03/22/061503)
-- [Change your Facebook password. And don't try to remember it. - F-Secure Blog](https://blog.f-secure.com/change-your-facebook-password-and-dont-try-to-remember-it/)
-- [Facebookが数億人のパスワードを平文で保存していたと認める  |  TechCrunch Japan](https://jp.techcrunch.com/2019/03/22/2019-03-21-facebook-plaintext-passwords/)
-- [Facebookが数億件分のパスワードを暗号化しないままサーバーに保存していたことが明らかに - GIGAZINE](https://gigazine.net/news/20190322-facebook-stored-user-passwords-plain-text/)
-
 
 ## リリース情報
 
@@ -102,5 +95,6 @@
 - [textlint と VS Code で始める文章校正 - Qiita](https://qiita.com/takasp/items/22f7f72b691fda30aea2)
 - [浮動小数点演算1回は100京分の1秒、IntelとCrayが超高速次世代スパコンを共同開発中  |  TechCrunch Japan](https://jp.techcrunch.com/2019/03/21/2019-03-18-intel-and-cray-are-building-a-500-million-exascale-supercomputer-for-argonne-national-lab/)
 - [2019年3月22日ニュース「世界最長の多関節ロボットアームの保持性能を確認 構造物点検のほか廃炉作業への応用も期待」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2019/03/20190322_01.html)
+- [FirefoxのiOSバージョンがiPad向けに最適化、デスクトップに近い機能も  |  TechCrunch Japan](https://jp.techcrunch.com/2019/03/23/2019-03-22-firefox-is-now-a-better-ipad-browser/)
 
 <!-- eof -->

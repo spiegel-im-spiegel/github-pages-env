@@ -6,18 +6,9 @@ draft = false
 tags = ["book", "cryptography", "security", "trust", "sha-3", "blockchain", "ecc"]
 title = "『暗号技術入門 第3版』をななめ読み"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 結城浩さんの『[暗号技術入門 第3版](http://www.hyuki.com/cr/)』がついに登場。
@@ -77,6 +68,6 @@ Bitcoin や Block Chain に関する解説本はすでにたくさん出てい�
     <dd>ASIN: 4757143044, EAN: 9784757143043</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
-  <p class="description">社会における「信頼」とは。そういいえば『<a href="https://www.amazon.co.jp/exec/obidos/ASIN/B01MZGVHOA/baldandersinf-22">超監視社会</a>』は積ん読のまま読んでない。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="description">社会における「信頼」とは。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-03-23">2019-03-23</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>

@@ -3,7 +3,7 @@ title = "『続・情報共有の未来』は付録から読むのがオスス�
 date = "2019-03-03T11:48:46+09:00"
 description = "この付録は「続・情報共有の未来」を読む際に思考のアンカーとして機能するだろう。こういう風に追記できるのはEブックならではだよね。"
 image = "/images/attention/kitten.jpg"
-tags = [ "book", "code", "internet", "generativity", "grigori" ]
+tags = [ "book", "code", "internet", "generativity", "grigori", "surveillance-capitalism" ]
 pageType = "text"
 
 [scripts]

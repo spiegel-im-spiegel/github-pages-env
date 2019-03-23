@@ -4,7 +4,7 @@ date = "2019-02-01T23:17:14+09:00"
 update =  "2019-02-03T17:00:13+09:00"
 description = "今年はいよいよ本腰を入れて I2P とか検討してみるかねぇ。"
 image = "https://photo.baldanders.info/flickr/image/36958536904_o.jpg"
-tags = [ "code", "internet", "censorship", "grigori", "privacy" ]
+tags = [ "code", "internet", "censorship", "grigori", "privacy", "surveillance-capitalism", "tracking" ]
 
 [author]
   name      = "Spiegel"
