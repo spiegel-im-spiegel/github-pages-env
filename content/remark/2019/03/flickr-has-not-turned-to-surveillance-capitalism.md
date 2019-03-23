@@ -3,7 +3,7 @@ title = "Flickr は監視資本主義に向かわない"
 date = "2019-03-09T19:06:43+09:00"
 description = "いや，もうね，死んだと思っていた Flickr がここまでのガッツを見せてくれたのなら，元 Pro ユーザとして応えないわけにはいかないだろう。"
 image = "/images/attention/kitten.jpg"
-tags = [ "photography", "flickr", "creative-commons", "code", "internet", "generativity" ]
+tags = [ "photography", "flickr", "creative-commons", "code", "internet", "generativity", "surveillance-capitalism" ]
 pageType = "text"
 
 [scripts]

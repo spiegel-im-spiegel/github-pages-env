@@ -1,31 +1,16 @@
 +++
 title = "善悪の葛藤"
 date = "2018-03-25T15:17:25+09:00"
-update = "2018-05-29T22:41:42+09:00"
 description = "こうした情報の非対称の背景に搾取の構造があることは重要で，本来はそうした構造そのものについてもっと議論すべきだと思うのだが..."
 image = "/images/attention/kitten.jpg"
-tags = [ "code", "privacy", "facebook", "grigori" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
+tags = [ "code", "privacy", "facebook", "grigori", "surveillance-capitalism" ]
 
 [scripts]
   mathjax = false
   mermaidjs = false
 +++
 
-Facebook が面白そうなので，覚書として一応残しておく。
+Facebook が面白そうなので，覚え書として一応残しておく。
 
 - [Facebook’s Surveillance Machine - The New York Times](https://www.nytimes.com/2018/03/19/opinion/facebook-cambridge-analytica.html)
 - [トランプ選挙陣営のデータ分析会社、Facebookユーザー5000万人のデータを不正アクセスか  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/19/2018-03-17-trump-campaign-linked-data-firm-cambridge-analytica-reportedly-collected-info-on-50m-facebook-profiles/)
