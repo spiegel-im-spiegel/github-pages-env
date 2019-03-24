@@ -52,6 +52,12 @@ tags  = [ "golang", "engineering", "module", "versioning" ]
 バージョン 1.11 では，環境変数 `$GO111MODULE` の既定値には `auto` が設定されている。
 独自の開発環境や IDE を使用しているためモジュール対応モードへの移行が難しい場合には `$GO111MODULE` を `off` にするとよいだろう。
 
+{{% div-box %}}
+【追記 2019-03-24】[Go 1.12]({{< ref "/release/2019/02/go-1_12-is-released.md" >}}) でも引き続き `auto` が規定値になっている。
+なお 1.13 からはモジュール対応モードが既定になるらしい。
+そうなれば環境変数 `$GO111MODULE` はお役御免になるかな。
+{{% /div-box %}}
+
 ## モジュール対応モード移行への準備
 
 本格的にモジュール対応モードへ移行する前に，以下の準備を行う。
@@ -105,10 +111,20 @@ go: creating new go.mod: module github.com/my/package
 
 ```text
 $ go env GOMOD
+/home/username/workspace/gpgpdump/go.mod
 ```
 
 カレント・ディレクトリに `go.mod` ファイルがない場合は親ディレクトリに遡って探すようだ。
 まぁ，サブパッケージはディレクトリで階層化されているから当然なんだけど。
+
+なお，カレント・ディレクトリにも親ディレクトリを遡っても `go.mod` ファイルがない場合は `/dev/null` （Windows 環境では `NUL`）を空の `go.mod` ファイルと見なして処理を継続する[^go112a]。
+
+[^go112a]: `/dev/null` ファイルの仮定は [Go 1.12]({{< ref "/release/2019/02/go-1_12-is-released.md" >}}) から有効になっている。
+
+```text
+$ go env GOMOD
+/dev/null
+```
 
 #### [dep] からの移行
 
@@ -127,19 +143,21 @@ go: copying requirements from Gopkg.lock
 
 ここで作成した `go.mod` ファイルの中身を見てみよう。
 
-`github.com/spiegel-im-spiegel/gpgpdump` パッケージのリポジトリに対して `go mod init` した結果は以下の通りだった。
+たとえば `github.com/spiegel-im-spiegel/gpgpdump` パッケージの `go.mod` ファイルの内容は以下の通り。
 
 ```text
 module github.com/spiegel-im-spiegel/gpgpdump
 
+go 1.12
+
 require (
-    github.com/BurntSushi/toml v0.3.0
-    github.com/inconshreveable/mousetrap v1.0.0
-    github.com/pkg/errors v0.8.0
-    github.com/spf13/cobra v0.0.3
-    github.com/spf13/pflag v1.0.2
-    github.com/spiegel-im-spiegel/gocli v0.8.0
-    golang.org/x/crypto v0.0.0-20180816225734-aabede6cba87
+	github.com/BurntSushi/toml v0.3.1
+	github.com/inconshreveable/mousetrap v1.0.0 // indirect
+	github.com/spf13/cobra v0.0.3
+	github.com/spf13/pflag v1.0.3 // indirect
+	github.com/spiegel-im-spiegel/gocli v0.9.4
+	golang.org/x/crypto v0.0.0-20190320223903-b7391e95e576
+	golang.org/x/xerrors v0.0.0-20190315151331-d61658bd2e18
 )
 ```
 
@@ -149,12 +167,17 @@ require (
 | 命令      | 記述例                                          |
 | --------- | ----------------------------------------------- |
 | `module`  | `module my/thing`                               |
+| `go`      | `1.12`                                          |
 | `require` | `require other/thing v1.0.2`                    |
 | `exclude` | `exclude old/thing v1.2.3`                      |
 | `replace` | `replace bad/thing v1.4.5 => good/thing v1.4.5` |
 
 `module` はカレント以下のディレクトリにあるパッケージに対するモジュール名を定義する。
 前述したようにモジュール名（モジュール・パス）はパッケージ名（パッケージ・パス）と合わせておくほうが面倒がない。
+
+`go` は対応する [Go 言語]のバージョンを指定する。
+マイナーバージョンまで指定すれば OK だが，指定しなくても動作に支障はない。
+おそらく将来的に `go.mod` ファイルの後方互換性が確保できなくなった場合の保険だろう。
 
 `require` はカレントのモジュールが要求するモジュール名とバージョンを指定する。
 つまり `require` で指定したモジュールが，カレント・モジュールが依存する外部モジュールとなるわけだ。
@@ -258,6 +281,8 @@ Use "go help mod <command>" for more information about a command.
 `go mod download` は `go get -u ./...` の代わりに使える。
 `go mod graph` はモジュール間の依存関係を調べるときに使えるだろう。
 
+- [“go mod graph” を視覚化する]({{< relref "./go-mod-graph.md" >}})
+
 `go mod edit` は `go.mod` ファイルを編集するためのコマンドだが手で書いたほうが早い（笑） まぁ何らかのバッチ処理で使える感じだろうか。
 
 ## モジュール間の依存関係の構造化
@@ -323,14 +348,21 @@ graph TD
 
 ## モジュールのキャッシュとビルド・キャッシュ
 
-パッケージのコンパイル結果は環境変数 `$GOCACHE` の示すディレクトリ[^bc1] にキャッシュされる。
+パッケージのコンパイル結果は環境変数 `$GOCACHE` の示すディレクトリにキャッシュされる。
 モジュール対応モードではモジュール単位でキャッシュされるようだ。
-したがって `$GOCACHE` の値は `off` にせず，正しいディレクトリを指定する必要がある[^bc2]。
+したがって `$GOCACHE` の値は `off` にせず，正しいディレクトリを指定する必要がある。
+
+[Go 1.12]({{< ref "/release/2019/02/go-1_12-is-released.md" >}}) からは `$GOCACHE` を `off` にできなくなった。
+`off` をセットするとビルドに失敗するようだ。
+
+{{< fig-quote title="Go 1.12 Release Notes - The Go Programming Language" link="https://golang.org/doc/go1.12" lang="en" >}}
+<q>The <a href="https://golang.org/cmd/go/#hdr-Build_and_test_caching">build cache</a> is now required as a step toward eliminating <code>$GOPATH/pkg</code>.
+Setting the environment variable <code>GOCACHE=off</code> will cause go commands that write to the cache to fail. </q>
+{{< /fig-quote >}}
+
+`$GOCACHE` の値は `go env` コマンドで確認できる[^bc1]。
 
 [^bc1]: Windows 環境では `$GOCACHE` の既定値は `%USERPROFILE%\AppData\Local\go-build` となっているようだ。
-[^bc2]: バージョン 1.12 以降では `$GOCACHE` の値を `off` にできなくなる予定である。
-
-`$GOCACHE` の値は `go env` コマンドで確認できる。
 
 ```text
 $ go env GOCACHE
@@ -342,14 +374,14 @@ $ go env GOCACHE
 $ go clean -cache
 ```
 
-バージョン 1.11 ではダウンロードしたモジュールのソースコードは `$GOPATH/pkg/mod` 以下に格納される。
+ダウンロードしたモジュールのソースコードは今のところ `$GOPATH/pkg/mod` 以下に格納される。
 モジュールのソースコードを含めて全てのキャッシュをクリアするには以下のコマンドを実行する。
 
 ```text
 $ go clean -modcache
 ```
 
-[Go 言語]コンパイラの将来バージョンでは `$GOPATH/pkg` を廃止する予定があるようで，モジュールのキャッシュの置き場が変更される可能性がある。
+[Go 言語]コンパイラの将来バージョンでは `$GOPATH/pkg` を廃止する予定があるようで，その場合にはソースコード・キャッシュの置き場が変更される可能性がある。
 
 ## モジュール対応モード in Travis CI
 
@@ -360,7 +392,7 @@ CI (Continuous Integration) サービスのひとつである [Travis CI] は [G
 language: go
 
 go:
-- "1.11.x"
+- "1.12.x"
 
 env:
   global:
@@ -391,7 +423,7 @@ builds:
 language: go
 
 go:
-- "1.11.x"
+- "1.12.x"
 
 env:
   global:
@@ -563,7 +595,7 @@ go: extracting github.com/inconshreveable/mousetrap v1.0.0
 go: extracting github.com/spf13/pflag v1.0.3
 ```
 
-おおっ，上手くいった（ちなみにモジュール名に意味はない）。
+おおっ，上手くいった。
 ソースコードは `$GOPATH/pkg/mod` 以下に，ビルド結果の実行ファイルは `$GOPATH/bin` に格納されるようだ。
 
 ちなみに `path@version` 形式でモジュールを指定できるのは `go get` コマンドのみらしい。
@@ -634,6 +666,7 @@ Flags:
 - [GOPATH モードからモジュール対応モードへ移行せよ](https://qiita.com/spiegel-im-spiegel/items/5cb1587cb55d6f6a34d7)
 - [Go 1.11 の modules・vgo を試す - 実際に使っていく上で考えないといけないこと #golang | Wantedly Engineer Blog](https://www.wantedly.com/companies/wantedly/post_articles/132270)
 - [Goモジュールモードでモジュール内に作ったモジュールを扱う - Qiita](https://qiita.com/k-motoyan/items/4213d5ef09963ffea489)
+- [Go Modulesの概要とGo1.12に含まれるModulesに関する変更 #golangjp #go112party - My External Storage](https://budougumi0617.github.io/2019/02/15/go-modules-on-go112/)
 
 - [GOPATH 汚染問題]({{< ref "/golang/gopath-pollution.md" >}})
 - [vgo (Versioned Go) に関する覚え書き]({{< ref "/golang/go-and-versioning.md" >}})
