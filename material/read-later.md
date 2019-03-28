@@ -35,12 +35,6 @@
 - [The I2P Out-of-the-Box: Try I2P easily with I2P Firefox Browser Profile](https://medium.com/@mhatta/the-i2p-out-of-the-box-try-i2p-easily-with-i2p-firefox-browser-profile-3649ab8e8ff2)
 
 
-[A Dark Day for the Web: EU Parliament Approves Damaging Copyright Rules - Creative Commons](https://creativecommons.org/2019/03/26/a-dark-day-for-the-web-eu-parliament-approves-damaging-copyright-rules/)- [欧州議会が「第13条」を含む著作権指令を採択 – P2Pとかその辺のお話R](https://p2ptk.org/copyright/1728)
-
-- [兵庫県警ブラクラ摘発の何が恐怖なのか - bonotakeの日記](http://bonotake.hatenablog.com/entry/2019/03/26/085052)
-- [コインハイブ事件で無罪判決　弁護人「警察の暴走、食い止められることを願う」 - 弁護士ドットコム](https://www.bengo4.com/c_23/n_9430/)
-
-
 ## リリース情報
 
 - [WebAssemblyに正式対応した「LLVM 8.0」がリリース － Publickey](https://www.publickey1.jp/blog/19/webassemblyllvm_80.html)
@@ -63,6 +57,7 @@
 - [Study shows programmers will take the easy way out and not implement proper password security | ZDNet](https://www.zdnet.com/article/study-shows-programmers-will-take-the-easy-way-out-and-not-implement-proper-password-security/)
     - [Programmers Who Don't Understand Security Are Poor at Security - Schneier on Security](https://www.schneier.com/blog/archives/2019/03/programmers_who.html)
 - [Web Application Firewall 読本：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/vuln/waf.html)
+- [兵庫県警ブラクラ摘発の何が恐怖なのか - bonotakeの日記](http://bonotake.hatenablog.com/entry/2019/03/26/085052)
 
 ## 天文関連
 
