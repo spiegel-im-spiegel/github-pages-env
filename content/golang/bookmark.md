@@ -90,14 +90,16 @@ title = "Go 言語に関するブックマーク"
 - [Go 1.11 リリースノート（和訳）](https://qiita.com/pokeh/items/c6511ca15c9a33b48fcc)
 - [サクッと Go → WebAssembly を試す](https://qiita.com/cia_rana/items/bbb4112b480636ab9d87)
 
-### Next Release
+### Go 1.12 is released
 
 - [Go Modules in 2019 - The Go Blog](https://blog.golang.org/modules2019)
-- [Go 1.12 Release Notes - The Go Programming Language](https://tip.golang.org/doc/go1.12)
+- [Go 1.12 is released - The Go Blog](https://blog.golang.org/go1.12)
+- [Go 1.12 Release Notes - The Go Programming Language](https://golang.org/doc/go1.12)
+- [Debugging what you deploy in Go 1.12 - The Go Blog](https://blog.golang.org/debugging-what-you-deploy)
 
 ### Go 2 Draft
 
-次期 Go 言語の仕様について
+次期 Go 言語の仕様について（一部は 1.11, 1.12 に取り込まれている）
 
 - [Go 2 Draft Designs - The Go Blog](https://blog.golang.org/go2draft)
 - [Go 2 Draft Designs](https://go.googlesource.com/proposal/+/master/design/go2draft.md)
@@ -575,6 +577,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go最後の秘宝「GUI」を探しに行く - Qiita](http://qiita.com/shibukawa/items/cd8d122dfeb41e1608d1)
 - [golangのGUIパッケージgo-gtkを試す - Qiita](http://qiita.com/intelf___/items/2207c02c306a495d99e6)
 - [gocui の基本的な使い方 - Qiita](https://qiita.com/zenwerk/items/97ebd5e470bdafdb6e42) : CUI (Console User Interface)
+- [GolangでクロスプラットフォームGUIアプリを作る - Qiita](https://qiita.com/nozo_moto/items/40e0fd89bd7fc3eb8b5d)
 
 ## Web Microframework for Golang
 
@@ -654,6 +657,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Goのhttpルーター「Chi」の紹介 - Qiita](https://qiita.com/minoritea/items/afaf10de3c5b6ebafa84)
 - [go で gorma を使ってAPI開発してみる。まずはgoa編 - Qiita](https://qiita.com/keiichi-hikita/items/0cebf00e85f47858c948)
 - [grpc-gatewayでgRPCのREST対応を試しました - Qiita](https://qiita.com/nisitanisubaru/items/abe11ff4248997d1fee2)
+- [Go言語のRESTサーバーを Clean Architecture で作ってみる - Qiita](https://qiita.com/nijuya_o/items/392cd3e4fa5641b3dec1)
 
 ## 他サービスとの連携
 

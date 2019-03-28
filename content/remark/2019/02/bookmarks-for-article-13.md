@@ -40,6 +40,9 @@ pageType = "text"
 - [Anti Article 13 Petition Signed by Five Million People - TorrentFreak](https://torrentfreak.com/anti-article-13-petition-signed-by-five-million-people-190321/)
 - [Europeans should tell Parliament to vote NO to copyright filters - Creative Commons](https://creativecommons.org/2019/03/21/europeans-should-tell-parliament-to-vote-no-to-copyright-filters/)
 - [4言語のWikipediaがEU著作権指令に反対するブラックアウトを実施 – P2Pとかその辺のお話R](https://p2ptk.org/copyright/1709)
+- [ISPs: We're Definitely Not the Internet Police, Until We Decide We Should Be - TorrentFreak](https://torrentfreak.com/isps-were-definitely-not-the-internet-police-until-we-decide-we-should-be-190324/)
+    - [ISPはインターネット警察ではない、ISPがそう望む限りは – P2Pとかその辺のお話R](https://p2ptk.org/freedom-of-speech/1718)
+- [欧州著作権指令の反対デモに10万人を超える欧州市民が集まる – P2Pとかその辺のお話R](https://p2ptk.org/copyright/1722)
 
 ## 参考図書
 
