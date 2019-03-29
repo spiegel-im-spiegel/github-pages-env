@@ -1,24 +1,9 @@
 +++
 title = "2017年最後の戯れ言（多分）"
 date =  "2017-12-28T17:54:26+09:00"
-update = "2018-01-04T20:41:28+09:00"
 description = "おひとりさまクリスマス / 祝♪ 「 続・情報共有の未来」書籍化 / サイトオーナーがページの広告掲載の代わりにマイニング・コードを仕込むのはヤクザの「みかじめ料」と同じ"
 image = "/images/attention/remark.jpg"
 tags        = [ "code", "internet", "security" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false
@@ -106,7 +91,16 @@ PayPal が使えないのよ。
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00C41BSHM/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51Sunuy6dwL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00C41BSHM/baldandersinf-22/">超人ロック　ミラーリング access.1　Locke The Superman　Mirror Ring 1 (コミックフラッパー)</a></dt><dd>聖 悠紀 </dd><dd>KADOKAWA / メディアファクトリー 2013-04-05</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00C41BSI6/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00C41BSI6.09._SCTHUMBZZZ_.jpg"  alt="超人ロック　ミラーリング access.2　Locke The Superman　Mirror Ring 2 (コミックフラッパー)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00C41BTJE/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00C41BTJE.09._SCTHUMBZZZ_.jpg"  alt="超人ロック　天空の魔法士　Locke The Superman　The Wizard from The sky (コミックフラッパー)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00C41BSHC/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00C41BSHC.09._SCTHUMBZZZ_.jpg"  alt="超人ロック　メヌエット　Locke The Superman　Menuet (コミックフラッパー)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00C41BU0M/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00C41BU0M.09._SCTHUMBZZZ_.jpg"  alt="超人ロック　荒野の騎士　Locke The Superman　The Wild Knight (コミックフラッパー)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00C41BSGI/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00C41BSGI.09._SCTHUMBZZZ_.jpg"  alt="超人ロック　ブレインシュリンカー／不死者たち (コミックフラッパー)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00C41BRFA/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00C41BRFA.09._SCTHUMBZZZ_.jpg"  alt="超人ロック　エピタフ 2 (コミックフラッパー)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00C41BRCI/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00C41BRCI.09._SCTHUMBZZZ_.jpg"  alt="超人ロック　エピタフ 1 (コミックフラッパー)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00C41BTM6/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00C41BTM6.09._SCTHUMBZZZ_.jpg"  alt="超人ロック　猫の散歩引き受けます　Locke The Superman　Take Care of Cat Walking (コミックフラッパー)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00C7P094S/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00C7P094S.09._SCTHUMBZZZ_.jpg"  alt="超人ロック　エピタフ 3 (コミックフラッパー)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00CM0F3JY/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00CM0F3JY.09._SCTHUMBZZZ_.jpg"  alt="超人ロック　エピタフ 4 (コミックフラッパー)"  /></a> </p>
-<p class="description">「エレナ」続編。分散 AI といえばこれだよね。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-12-28">2017-12-28</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E8%B6%85%E4%BA%BA%E3%83%AD%E3%83%83%E3%82%AF-%E3%83%9F%E3%83%A9%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0-access-1-Locke-Superman-Mirror-Ring-%E3%82%A8%E3%83%A0%E3%82%A8%E3%83%95%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E3%83%95%E3%83%A9%E3%83%83%E3%83%91%E3%83%BC%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-ebook/dp/B00C41BSHM?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00C41BSHM"><img src="https://images-fe.ssl-images-amazon.com/images/I/51Sunuy6dwL._SL160_.jpg" width="109" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E8%B6%85%E4%BA%BA%E3%83%AD%E3%83%83%E3%82%AF-%E3%83%9F%E3%83%A9%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0-access-1-Locke-Superman-Mirror-Ring-%E3%82%A8%E3%83%A0%E3%82%A8%E3%83%95%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E3%83%95%E3%83%A9%E3%83%83%E3%83%91%E3%83%BC%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-ebook/dp/B00C41BSHM?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00C41BSHM">超人ロック　ミラーリング access.1　Locke The Superman　Mirror Ring 1 (エムエフコミックス　フラッパーシリーズ)</a></dt>
+	<dd>聖 悠紀</dd>
+    <dd>KADOKAWA / メディアファクトリー 2013-04-05 (Release 2013-04-05)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B00C41BSHM</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">「エレナ」続編。分散 AI といえばこれだよね。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-12-28">2017-12-28</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
