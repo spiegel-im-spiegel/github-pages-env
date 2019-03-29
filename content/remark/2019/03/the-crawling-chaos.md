@@ -77,7 +77,7 @@ Kindle 端末に本をまとめてダウンロードしてネットは「機内�
 </div>
 
 <div class="hreview" >
-    <div class="photo"><a class="item url" href="https://lovecraft.fandom.com/wiki/Nyarlathotep"><img src="https://vignette.wikia.nocookie.net/lovecraft/images/6/6e/Cthulhu_header.png" width="150" alt="photo"></a></div>
+    <div class="photo"><a href="https://commons.wikimedia.org/w/index.php?curid=53946210"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/The_Haunter_of_the_Dark_by_Ern%C5%91_Juh%C3%A1sz.jpg" alt="The Haunter of the Dark by Ernő Juhász.jpg" width="160"></a></div>
     <dl class="fn">
       <dt><a href="https://www.aozora.gr.jp/cards/001699/card56839.html">ニャルラトホテプ（Nyarlathotep）</a></dt>
       <dd>Lovecraft, Howard Phillips</dd>
@@ -85,7 +85,7 @@ Kindle 端末に本をまとめてダウンロードしてネットは「機内�
       <dd>青空文庫 2014-03-23</dd>
       <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
     </dl>
-    <p class="description">SAN 値が下がる。</p>
+    <p class="description">SAN 値が下がる。 (Image by Ernő Juhász (vsqs), <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>)</p>
 	<p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2019-03-28</abbr></p>
 </div>
 
