@@ -1,11 +1,10 @@
 +++
 title = "「青空文庫」用の書影がほしい"
-date =  "2019-03-30T11:33:57+09:00"
+date = "2019-03-30T13:27:29+09:00"
 description = "青空文庫収録作品の書影に使えるかっこいい画像を教えてください。 CC0 下で aozora-cover リポジトリに含めてもいいよ，という奇特な方がいらっしゃいましたらバンバン pull request していただいて構いません。"
 image = "https://photo.baldanders.info/flickr/image/32118886_o.jpg"
 tags = [ "book", "aozora", "image" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
