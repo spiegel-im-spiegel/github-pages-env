@@ -1,7 +1,6 @@
 +++
 title = "今こそ「グリゴリの捕縛」を読め！ または遍在する草薙素子"
 date =  "2017-10-14T01:12:32+09:00"
-update = "2017-10-15T12:07:39+09:00"
 description = "折角なので私も何か書いてみる。オチはないです。駄文ですみません。"
 tags = [
   "code",
@@ -13,20 +12,6 @@ tags = [
   "blockchain",
   "grigori"
 ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false
@@ -236,6 +221,21 @@ P2P ネットワークは「中央集権的ネットワーク」であるイン�
 [Dynalist]: https://dynalist.io/
 
 ## 参考図書
+
+<div class="hreview" >
+    <div class="photo"><a href="https://www.aozora.gr.jp/cards/000021/card4307.html"><img src="/images/aozora/card4307.svg" alt="グリゴリの捕縛" width="106"></a></div>
+    <dl class="fn">
+      <dt><a href="https://www.aozora.gr.jp/cards/000021/card4307.html">グリゴリの捕縛</a></dt>
+      <dd>白田 秀彰</dd>
+      <dd>青空文庫 2001-11-26</dd>
+      <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+    </dl>
+    <p class="description">白田秀彰さんの「<a href="http://orion.mt.tama.hosei.ac.jp/hideaki/kenporon.htm">グリゴリの捕縛</a>」が青空文庫に収録されていた。
+		内容は <strike>怪獣大決戦</strike> おっと憲法（基本法）についてのお話。
+		古代社会 → 中世社会 → 近代社会 → 現代社会 と順を追って法と慣習そして力（power）との関係について解説し，その中で憲法（基本法）がどのように望まれ実装されていったか指摘してる。
+        その後，現代社会の次のパラダイムに顕現する「情報力」と社会との関係に言及していくわけだ。</p>
+	<p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2019-03-30</abbr></p>
+</div>
 
 <div class="hreview">
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/CODE-VERSION-2-0-%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%AC%E3%83%83%E3%82%B7%E3%82%B0-ebook/dp/B01CYDGUV8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01CYDGUV8"><img src="https://images-fe.ssl-images-amazon.com/images/I/31Q2jh%2B5SgL._SL160_.jpg" width="113" alt="photo"></a></div>
