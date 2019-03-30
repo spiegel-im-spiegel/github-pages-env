@@ -30,6 +30,10 @@ pageType = "text"
 
 アップデートは計画的に。
 
+## 【追記 2019-03-30】 [WinSCP] 5.15 がリリースされた
+
+- [「WinSCP」がダークモードをサポート、ファイルの暗号化バックアップも可能に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1177129.html)
+
 ## ブックマーク
 
 - [PuTTYrv (PuTTY-ranvis) - Ranvis software](https://www.ranvis.com/putty) : 日本語対応 PuTTY。オススメ
@@ -39,4 +43,3 @@ pageType = "text"
 
 [PuTTY]: https://www.chiark.greenend.org.uk/~sgtatham/putty/ "PuTTY: a free SSH and Telnet client"
 [WinSCP]: https://winscp.net/ "WinSCP :: Official Site :: Free SFTP and FTP client for Windows"
-<!-- eof -->
