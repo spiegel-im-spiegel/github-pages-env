@@ -162,6 +162,7 @@ $ mount ~/nas
 - [samba-client／cifs-utilsを使ってWindowsの共有フォルダをマウントする - Qiita](https://qiita.com/You_name_is_YU/items/85ffbffee744f6f494ed)
 - [Windows 10 に cifs 接続する - Qiita](https://qiita.com/office-itou/items/0f8df0c5f8c7022b7fad)
 - [Linuxはサンバ（Samba）で踊る――WindowsとLinuxのファイル共有のいま (1/2)：その知識、ホントに正しい？ Windowsにまつわる都市伝説（25） - ＠IT](https://www.atmarkit.co.jp/ait/articles/1502/13/news042.html)
+- [fstab - ArchWiki](https://wiki.archlinux.jp/index.php/Fstab)
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [Samba]: https://www.samba.org/ "Samba - opening windows to a wider world"
