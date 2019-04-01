@@ -12,6 +12,7 @@
 - [ロボット法 | Ugo Pagallo, ウゴ パガロ, 新保 史生, 松尾 剛行, 工藤 郁子, 赤坂 亮太 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4326403454/baldandersinf-22/)
 - [πの歴史 (ちくま学芸文庫) | ペートル ベックマン, Petr Beckmann, 田尾 陽一, 清水 韶光 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4480089853/baldandersinf-22/)
 - [考える英文法 (ちくま学芸文庫) | 吉川 美夫 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4480099107/baldandersinf-22/)
+- [組込みエンジニアの教科書 | 渡辺 登, 牧野 進二 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4863542755/baldandersinf-22/)
 
 ## あとで遊ぶ
 
