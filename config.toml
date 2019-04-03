@@ -18,6 +18,7 @@ enableGitInfo = true
 
 [blackfriday]
   smartypants = false
+  extensionsmask = ["autoHeaderIds"]
 
 [taxonomies]
   tags = "tags"
