@@ -13,6 +13,8 @@
 - [πの歴史 (ちくま学芸文庫) | ペートル ベックマン, Petr Beckmann, 田尾 陽一, 清水 韶光 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4480089853/baldandersinf-22/)
 - [考える英文法 (ちくま学芸文庫) | 吉川 美夫 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4480099107/baldandersinf-22/)
 - [組込みエンジニアの教科書 | 渡辺 登, 牧野 進二 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4863542755/baldandersinf-22/)
+- [数学ガールの秘密ノート/ビットとバイナリー | 結城 浩 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4797391391/baldandersinf-22/)
+
 
 ## あとで遊ぶ
 
@@ -38,20 +40,36 @@
 
 ## リリース情報
 
+- [「RubyGems」の脆弱性に対処した「Ruby」v2.4.6が公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1177841.html)
+- [Visual Studio 2019正式版リリース。メモリ使用量が4分の1以下に激減、リモートペアプロ機能のLive Share、AIによる支援機能IntelliCodeも正式機能に。Mac版も同時リリース － Publickey](https://www.publickey1.jp/blog/19/visual_studio_201941live_shareaiintellicodemac.html)
 
 ## Age of Trump
 
 
 ## セキュリティ＆プライバシー関連
 
+- [Kaspersky、「WinRAR」で発覚した19年来の脆弱性を警告 ～関連マルウェアは今も増加中 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1177254.html)
+- [VMware、セキュリティコンテスト“Pwn2Own 2019”で報告された脆弱性に対策 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1177227.html?fbclid=IwAR1Mto02nvllwGmtMIMPvoe4iLMBiarWL_PvZEE4y2HHpVTwskcaQFjj1JM)
+- [トヨタ関連会社への不正アクセスについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/03/31/030835)
+- [MIT Tech Review: 欧州連合の改正著作権法は何が問題なのか？](https://www.technologyreview.jp/s/132827/europes-copyright-dispute-shows-just-how-hard-it-is-to-fix-the-internets-problems/)
+- [MIT Tech Review: 「殺人犯逮捕のために協力を」米DNA検査会社が批判逆手にテレビCM](https://www.technologyreview.jp/nl/help-us-catch-killers-is-now-the-new-advertising-angle-for-dna-companies/)
+- [神奈川県警職員が10年以上行っていた不正アクセス事案についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/04/01/052921)
+- [新元号発表に乗じたスパムメールや政府の情報漏れ対策をまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/04/02/063831)
+- [QEMU脆弱性を利用したVM ESCAPE攻撃の検証：概要＆テスト環境構築編 (1/2)：OSS脆弱性ウォッチ（12） - ＠IT](https://www.atmarkit.co.jp/ait/articles/1903/20/news020.html)
+- [ゴールデンウィークにおける情報セキュリティに関する注意喚起：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/topics/alert20190402.html)
 
 ## 天文関連
 
+- [MIT Tech Review: NASA長官がインドの衛星撃墜実験を非難、デブリ問題が深刻化](https://www.technologyreview.jp/nl/debris-from-indias-anti-satellite-test-could-put-the-space-station-at-risk-says-nasa/)
 
 ## 知財関連
 
+- [European Commission adopts CC BY and CC0 for sharing information - Creative Commons](https://creativecommons.org/2019/04/02/european-commission-adopts-cc-by-and-cc0-for-sharing-information/)
 
 ## その他
 
+- [ファーウェイの通信機器を巡る「疑惑」は、実は悪用可能なバグだった？ 英政府機関が指摘｜WIRED.jp](https://wired.jp/2019/03/30/huawei-threat-isnt-backdoors-its-bugs/)
+- [Firefoxのための無料パスワードマネジャー「Lockbox」がAndroidでも使えるように! | Techable(テッカブル)](https://techable.jp/archives/96657)
+- [MIT Tech Review: ビットコイン取引の95％が「ウソ」、取引所が人気装う](https://www.technologyreview.jp/nl/nearly-all-bitcoin-trades-are-fake-apparently/)
 
 <!-- eof -->

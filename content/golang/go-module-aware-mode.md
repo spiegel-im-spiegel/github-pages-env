@@ -667,6 +667,7 @@ Flags:
 - [Go 1.11 の modules・vgo を試す - 実際に使っていく上で考えないといけないこと #golang | Wantedly Engineer Blog](https://www.wantedly.com/companies/wantedly/post_articles/132270)
 - [Goモジュールモードでモジュール内に作ったモジュールを扱う - Qiita](https://qiita.com/k-motoyan/items/4213d5ef09963ffea489)
 - [Go Modulesの概要とGo1.12に含まれるModulesに関する変更 #golangjp #go112party - My External Storage](https://budougumi0617.github.io/2019/02/15/go-modules-on-go112/)
+- [GoにおけるSemantic versioningとgo.modにある+incompatibleについて - Qiita](https://qiita.com/Tommy_/items/32d2d0d9f56365ee61fc)
 
 - [GOPATH 汚染問題]({{< ref "/golang/gopath-pollution.md" >}})
 - [vgo (Versioned Go) に関する覚え書き]({{< ref "/golang/go-and-versioning.md" >}})

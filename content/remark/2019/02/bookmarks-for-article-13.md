@@ -43,6 +43,7 @@ pageType = "text"
 - [ISPs: We're Definitely Not the Internet Police, Until We Decide We Should Be - TorrentFreak](https://torrentfreak.com/isps-were-definitely-not-the-internet-police-until-we-decide-we-should-be-190324/)
     - [ISPはインターネット警察ではない、ISPがそう望む限りは – P2Pとかその辺のお話R](https://p2ptk.org/freedom-of-speech/1718)
 - [欧州著作権指令の反対デモに10万人を超える欧州市民が集まる – P2Pとかその辺のお話R](https://p2ptk.org/copyright/1722)
+- [EU著作権指令第13条（著作権フィルター）の国内法整備を急ぐフランス – P2Pとかその辺のお話R](https://p2ptk.org/copyright/1740)
 
 ## 参考図書
 
