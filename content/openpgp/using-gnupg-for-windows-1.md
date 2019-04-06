@@ -1,25 +1,10 @@
 +++
 date = "2017-12-01T17:48:32+09:00"
-update = "2018-06-24T13:55:41+09:00"
 title = "GnuPG for Windows インストール編"
 description = "Windows 版 GnuPG のインストールについて。"
 draft = false
 tags = ["security", "cryptography", "openpgp", "gnupg", "tools"]
 image = "/images/attention/openpgp.png"
-
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
 
 [scripts]
   mathjax = false

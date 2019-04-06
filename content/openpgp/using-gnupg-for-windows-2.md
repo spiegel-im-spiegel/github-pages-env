@@ -1,25 +1,10 @@
 +++
 date = "2017-12-01T17:48:43+09:00"
-update = "2017-12-02T21:55:18+09:00"
 title = "GnuPG for Windows : gpg-agent について"
 description = "今回は gpg-agent について解説する。"
 draft = false
 tags = ["security", "cryptography", "openpgp", "gnupg", "tools", "ssh", "putty"]
 image = "/images/attention/openpgp.png"
-
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
 
 [scripts]
   mathjax = false
@@ -94,7 +79,7 @@ max-cache-ttl 7200
 `gpg-agent.conf` ファイルで使いそうなオプションを以下に挙げる。
 
 | オプション名        | 内容 |
-|:--------------------|:-----|
+|---------------------|------|
 | `log-file`          | ログの出力先をフルパスで指定する。 挙動をチェックしたい場合など |
 | `default-cache-ttl` | 直前にアクセスしたキャッシュ・エントリの有効期間を秒単位で指定する。 既定値は 600 |
 | `max-cache-ttl`     | キャッシュ・エントリの有効期間の最大値を秒単位で指定する。 アクセスの有無にかかわらずこの期間が過ぎるとキャッシュがクリアされる。 既定値は 7200 |
@@ -117,7 +102,7 @@ max-cache-ttl 7200
 `gpg-agent.conf` ファイルに以下のオプションを追加する（`enable-putty-support` 以外は任意）。
 
 | オプション名            | 内容 |
-|:------------------------|:-----|
+|-------------------------|------|
 | `enable-putty-support`  | Pageant プロトコルを有効にする |
 | `default-cache-ttl-ssh` | 直前にアクセスしたキャッシュ・エントリの有効期間を秒単位で指定する。 既定値は 1800 |
 | `max-cache-ttl-ssh`     | キャッシュ・エントリの有効期間の最大値を秒単位で指定する。 アクセスの有無にかかわらずこの期間が過ぎるとキャッシュがクリアされる。 既定値は 7200 |

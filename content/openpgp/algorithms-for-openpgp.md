@@ -1,7 +1,6 @@
 +++
 title = "OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）"
 date =  "2017-12-01T17:47:50+09:00"
-update =  "2018-03-12T14:37:55+09:00"
 description = "RFC 4880bis は，名前の通り，ドラフト段階なので今後変わる可能性がある。正式な RFC 番号が振られた段階でこの記事の最終稿とする予定である。"
 image = "/images/attention/openpgp.png"
 tags = [
@@ -9,20 +8,6 @@ tags = [
   "cryptography",
   "openpgp",
 ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false
