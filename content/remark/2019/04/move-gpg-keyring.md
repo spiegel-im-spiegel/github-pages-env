@@ -244,7 +244,7 @@ $ ssh username@remotehost
 {{< fig-img src="./ssh-login.png" link="./ssh-login.png" >}}
 
 パスフレーズを入力後ログインできれば成功。
-`SSH_AUTH_SOCK` 値の書き換えコマンドは `~/.profile` ファイルにでも書いておけばいいだろうか。
+`SSH_AUTH_SOCK` 値の書き換えコマンドは `~/.bashrc` ファイルにでも書いておけばいいだろうか。
 
 ちなみに `gpg-agent.conf` ファイルに設定できる [OpenSSH] 連携関連のオプションは以下の通り。
 
