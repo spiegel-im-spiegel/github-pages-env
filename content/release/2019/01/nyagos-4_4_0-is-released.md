@@ -6,17 +6,6 @@ description = "実験レベルながら Linux に対応したですよ。"
 image = "/images/attention/tools.png"
 tags  = [ "tools", "nyagos", "shell", "windows", " linux" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-
 [scripts]
   mathjax = false
   mermaidjs = false
