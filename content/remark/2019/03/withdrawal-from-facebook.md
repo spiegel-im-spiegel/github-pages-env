@@ -152,6 +152,7 @@ GitHub に BAN されたらメガっさ困るが Facebook なら大して未練�
 - [MIT Tech Review: フェイスブックの個人情報「裏提供」問題、米検察が捜査へ](https://www.technologyreview.jp/nl/facebooks-data-deals-are-now-under-criminal-investigation/)
 - [ニュージーランドの大量殺人事件に関するEFFの考え：恐怖が導く検閲へ道 – P2Pとかその辺のお話R](https://p2ptk.org/freedom-of-speech/1702)
 - [Change your Facebook password. And don't try to remember it. - F-Secure Blog](https://blog.f-secure.com/change-your-facebook-password-and-dont-try-to-remember-it/)
+- [MIT Tech Review: フェイスブックのデータがまた漏洩、5億件以上がクラウドに放置](https://www.technologyreview.jp/nl/more-than-half-a-billion-facebook-records-were-left-exposed-on-the-public-internet/)
 
 [Signal]: https://signal.org/
 [Feedly]: https://feedly.com/ "Feedly. Read more, know more."
