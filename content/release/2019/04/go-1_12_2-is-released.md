@@ -1,11 +1,10 @@
 +++
 title = "Go 1.12.2 がリリースされた"
-date =  "2019-04-07T13:47:19+09:00"
+date = "2019-04-07T14:15:13+09:00"
 description = "コンパイラ本体は通常のアップデート。外部パッケージで脆弱性の情報あり。"
 image = "/images/attention/go-logo_blue.png"
 tags  = [ "programming", "language", "golang", "security", "vulnerability" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
