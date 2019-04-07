@@ -17,7 +17,7 @@ image = "/images/attention/openpgp.png"
 `gpg-agent` は `gpg`, `gpgsm`, `gpgconf`, `gpg-connect-agent` といったコンポーネントから常駐プロセスとして起動されお互いに通信を行う[^od]。
 
 [^sr]: [前回]も書いたが， classic version と現行バージョンでは鍵（特に秘密鍵）の管理の仕方が異なるため両者を混在させる場合は注意が必要である。 Classic version で作成した鍵を現行バージョンにも反映させたいのであれば `gpg-v21-migrated` ファイルを削除すると再度移行処理が走るらしい。 Classic version を使わなければならない状況（Linux などではパッケージ管理ツールがアプリケーションの証明用に [GnuPG] の classic version を使うことがある）でないのなら現行バージョンに一本化するほうがお勧めである。
-[^od]: 現行バージョンでは `gpg-agent` が必須である。したがって，かつての `--use-agent`, `--no-use-agent`, `--gpg-agent-info` 各オプションは無効（ダミーオプション）になっている。また UNIX 互換プラットフォームで `gpg-agent` 利用する際は `GPG_TTY` 環境変数をセットする必要があるが， Windows では不要なためここでは割愛する。
+[^od]: 現行バージョンでは `gpg-agent` が必須である。したがって，かつての `--use-agent`, `--no-use-agent`, `--gpg-agent-info` 各オプションは無効（ダミーオプション）になっている。また UNIX 互換プラットフォームで `gpg-agent` 利用する際は `GPG_AGENT_INFO` 環境変数でソケットを指定する必要があるが， Windows では不要なためここでは割愛する。
 
 `gpg-agent` が稼働中かどうかは `gpg-agent` を引数なしで起動すれば分かる。
 以下は既に起動している場合。
@@ -249,6 +249,8 @@ $ eval $(/usr/bin/ssh-pageant -r -a "/tmp/.ssh-pageant-$USERNAME")
 - [Windowsでのssh agent - Qiita](https://qiita.com/tsuyoshi_cho/items/79c09905ae3f192b3a0f)
 - [Big Sky :: Windowsでもssh-agentとssh-addを使ってパスフレーズ入力を省略する。](https://mattn.kaoriya.net/software/20081106192615.htm)
 - [KeeAgent – lechnology.com](https://lechnology.com/software/keeagent/) : パスワード管理ツール [KeePass] のプラグインで， [KeePass] のパスワードデータベースを使って SSH 鍵を管理し Agent 機能で SSH に鍵を渡す仕組みらしい。  [PuTTY] と [OpenSSH] に対応しているようだ
+
+- [Windows 環境で作った GnuPG の鍵束を Ubuntu に移行する]({{< ref "/remark/2019/04/move-gpg-keyring.md" >}})
 
 [前回]: {{< ref "/openpgp/using-gnupg-for-windows-1.md" >}} "GnuPG for Windows インストール編"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"

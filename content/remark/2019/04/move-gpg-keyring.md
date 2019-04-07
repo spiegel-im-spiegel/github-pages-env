@@ -130,6 +130,56 @@ bXBsZS5jb20ACgkQeXlmLml83YogagD6A6tRm+uEgphlYrORJBZ9oRmFpRzImXO6
 
 よーし，うむうむ，よーし。
 
+## [GnuPG] の環境変数
+
+[GnuPG] の環境変数は以下のコマンドで取得できるようだ。
+
+```text
+$ gpgconf --list-dirs
+sysconfdir:/etc/gnupg
+bindir:/usr/bin
+libexecdir:/usr/lib/gnupg
+libdir:/usr/lib/x86_64-linux-gnu/gnupg
+datadir:/usr/share/gnupg
+localedir:/usr/share/locale
+socketdir:/run/user/1000/gnupg
+dirmngr-socket:/run/user/1000/gnupg/S.dirmngr
+agent-ssh-socket:/run/user/1000/gnupg/S.gpg-agent.ssh
+agent-extra-socket:/run/user/1000/gnupg/S.gpg-agent.extra
+agent-browser-socket:/run/user/1000/gnupg/S.gpg-agent.browser
+agent-socket:/run/user/1000/gnupg/S.gpg-agent
+homedir:/home/username/.gnupg
+```
+
+また shell 側の環境変数は
+
+```text
+$ env | grep GPG
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+```
+
+となっていて `GPG_AGENT_INFO` に `agent-socket` の値がセットされているのが分かる。
+古いバージョンで要ると言われた `GPG_TTY` 環境変数は要らなそうである。
+
+もし `GPG_AGENT_INFO` に手動で値をセットするなら
+
+```text
+$ export GPG_AGENT_INFO=$(gpgconf --list-dirs agent-socket):0:1
+```
+
+って感じでいいかな。
+
+通信ソケットが置かれている `/run/user/1000/gnupg/` ディレクトリはどうやら [XDG Base Directory Specification] に準拠したディレクトリらしい。
+`XDG_RUNTIME_DIR` 環境変数が
+
+```text
+$ env | grep XDG_RUNTIME_DIR
+XDG_RUNTIME_DIR=/run/user/1000
+```
+
+と定義されているので多分そうだろう（`1000` は `username` ユーザの UID）。
+環境変数 `XDG_RUNTIME_DIR` で示されるディレクトリはユーザがログインしている間のみ存在が保証されているそうだ。
+
 ### Pinentry の定義
 
 [Ubuntu] では Pinentry として `pinentry-gnome3` と `pinentry-curses` が組み込まれているようだ。
@@ -187,7 +237,7 @@ lrwxrwxrwx 1 root root 40  4月  2 21:13 /etc/alternatives/pinentry.1.gz -> /usr
 
 `gpg.conf`, `gpg-agent.conf`, `sshcontrol` 各ファイルの中身はテキストなのだが，改行コードが `CRLF` になっているかもしれないのであらかじめ始末しておくこと[^gnkf1]。
 
-[^gnkf1]: 改行コードを始末するなら拙作の「[nkf っぽいなにか](https://github.com/spiegel-im-spiegel/text "spiegel-im-spiegel/text: Encoding/Decoding Text Package by Golang")」をどうぞ。コマンドラインで `gnkf nwline gpg.conf` とすれば改行コードを LF に変換してくれる。以上宣伝でした（笑）
+[^gnkf1]: 改行コードを始末するなら拙作の「[nkf っぽいなにか](https://github.com/spiegel-im-spiegel/text "spiegel-im-spiegel/text: Encoding/Decoding Text Package by Golang")」をどうぞ。コマンドラインで `gonkf nwline gpg.conf` とすれば改行コードを LF に変換してくれる。以上宣伝でした（笑）
 
 これで完了。
 試しに私の鍵束に入っている [JPCERT/CC の公開鍵](https://www.jpcert.or.jp/jpcert-pgp.html "JPCERT コーディネーションセンター PGP公開鍵")を表示してみた。
@@ -215,10 +265,10 @@ $ env | grep SSH_AUTH_SOCK
 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
 ```
 
-とかなっていた。
+と定義されていた。
 原因はお前かよ！ もっと早く気付け，自分 `orz`
 
-環境変数 `SSH_AUTH_SOCK` を `gpg-agent` に書き換えるには以下のようにする。
+環境変数 `SSH_AUTH_SOCK` を `gpg-agent` のソケットに置き換えるには以下のコマンドラインを叩く。
 
 ```text
 $ export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
@@ -248,7 +298,7 @@ $ ssh username@remotehost
 
 ちなみに `gpg-agent.conf` ファイルに設定できる [OpenSSH] 連携関連のオプションは以下の通り。
 
-| 　　　オプション名　　　 | 既定値 | 内容 |
+| オプション名 | 既定値 | 内容 |
 | ------------------------ | ------ | ---- |
 | `enable-ssh-support`    | ―      | `ssh-agent` 互換プロトコルを有効にする |
 | `default-cache-ttl-ssh` | `1800`  | 直前にアクセスしたキャッシュ・エントリの有効期間を秒単位で指定する |
@@ -256,7 +306,7 @@ $ ssh username@remotehost
 
 [OpenSSH] との連携を調べ始め，試行錯誤してここまでたどり着くまでに3時間くらいかかっちまったよ。
 [GnuPG] の公式サイトも含めて資料がなさすぎるんだよ。
-特に日本語の記事は壊滅状態。
+特に日本語の記事は内容が古すぎて壊滅状態。
 いかに [GnuPG] が使われてないか分かるよなぁ。
 
 まっ，とにかく， [Ubuntu] でも（バージョンの問題に目をつぶれば）普通に [GnuPG] が使えることが分かったので今回はよしとする。
@@ -265,6 +315,8 @@ $ ssh username@remotehost
 まだまだ道のりは遠い。
 
 ## ブックマーク
+
+- [Ubuntu フォルダー構造 その10 - XDG Base Directory Specificationについて - kledgeb](https://kledgeb.blogspot.com/2013/04/ubuntu-10-xdg-base-directory.html)
 
 - [Change pinentry program temporarily with gpg-agent - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/236746/change-pinentry-program-temporarily-with-gpg-agent)
 - [Using GnuPG (2.1) for SSH authentication](https://incenp.org/notes/2015/gnupg-for-ssh-authentication.html)
@@ -280,6 +332,7 @@ $ ssh username@remotehost
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 [PuTTY]: http://www.chiark.greenend.org.uk/~sgtatham/putty/ "PuTTY: a free SSH and Telnet client"
 [OpenSSH]: http://www.openssh.com/ "OpenSSH"
+[XDG Base Directory Specification]: https://specifications.freedesktop.org/basedir-spec/latest/
 
 ## 参考図書
 
