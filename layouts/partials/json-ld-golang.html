@@ -3,17 +3,17 @@
 {
 	"@context": "http://schema.org",
 	"@type": "Blog",
-	"@id": {{ $secURL | absURL | jsonify }},
-	"url": {{ $secURL | absURL | jsonify }},
-	"inLanguage": {{ .Site.Data.section.golang.languageCode | jsonify }},
-	"name": {{ .Site.Data.section.golang.name | safeHTML | jsonify }},
-	"description": {{ .Site.Data.section.golang.description | safeHTML | jsonify }},
-	"image": {{ .Site.Data.section.golang.image | absURL | jsonify }},
+	"@id": {{ $secURL | absURL }},
+	"url": {{ $secURL | absURL }},
+	"inLanguage": {{ .Site.Data.section.golang.languageCode }},
+	"name": {{ .Site.Data.section.golang.name | safeHTML }},
+	"description": {{ .Site.Data.section.golang.description | safeHTML }},
+	"image": {{ .Site.Data.section.golang.image | absURL }},
 	"publisher": {
-		"@id": {{ $org | jsonify }}
+		"@id": {{ $org }}
 	},
 	"author": {
-		"@id": {{ $maker | jsonify }}
+		"@id": {{ $maker }}
 	}
 }
 </script>
@@ -27,14 +27,14 @@
 			"@type": "ListItem",
 			"position": 1,
 			"item": {
-				"@id": {{ .Site.BaseURL | jsonify }}
+				"@id": {{ .Site.BaseURL }}
 			}
 		}{{ if .IsPage }},
 		{
 			"@type": "ListItem",
 			"position": 2,
 			"item": {
-				"@id": {{ $secURL | absURL | jsonify }}
+				"@id": {{ $secURL | absURL }}
 			}
 		}{{ end }}
 	]
@@ -44,22 +44,22 @@
 {
 	"@context": "http://schema.org",
 	"@type": "BlogPosting",
-	"@id": {{ .Permalink | jsonify }},
-	"url": {{ .Permalink | jsonify }},
-	"mainEntityOfPage": {{ .Permalink | jsonify }},
-	"inLanguage": {{ .Site.Data.section.golang.languageCode | jsonify }},
-	"name": {{ .Title | jsonify }},
-	"description": {{ .Description | jsonify }},
-	"headline": {{ .Description | jsonify }}{{if .Params.tags }},
+	"@id": {{ .Permalink }},
+	"url": {{ .Permalink }},
+	"mainEntityOfPage": {{ .Permalink }},
+	"inLanguage": {{ .Site.Data.section.golang.languageCode }},
+	"name": {{ .Title }},
+	"description": {{ .Description }},
+	"headline": {{ .Description }}{{if .Params.tags }},
 	"keywords": "{{ delimit .Params.tags ", " }}"{{ end }},
-	"image": {{ if .Params.image }}{{ .Params.image | absURL | jsonify }}{{ else }}{{ .Site.Data.section.golang.image | absURL | jsonify }}{{ end }},
-	"datePublished": {{ .Date.UTC.Format "2006-01-02T15:04:05-07:00" | jsonify }},
-	"dateModified": {{ .Lastmod.UTC.Format "2006-01-02T15:04:05-07:00" | jsonify }}{{ with .Site.Data.author }},
+	"image": {{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ .Site.Data.section.golang.image | absURL }}{{ end }},
+	"datePublished": {{ .Date.UTC.Format "2006-01-02T15:04:05-07:00" }},
+	"dateModified": {{ .Lastmod.UTC.Format "2006-01-02T15:04:05-07:00" }}{{ with .Site.Data.author }},
 	"publisher": {
-		"@id": {{ $org | jsonify }}
+		"@id": {{ $org }}
 	},
 	"author": {
-		"@id": {{ $maker | jsonify }}
+		"@id": {{ $maker }}
 	}{{ if .license }},
 	"license": "https://creativecommons.org/licenses/{{ .license }}/4.0/"{{ end }}{{ end }}
 }
