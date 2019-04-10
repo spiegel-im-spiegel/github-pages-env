@@ -81,10 +81,10 @@ Path      : C:\Users\username\Downloads\dep-windows-amd64.exe
 改竄されてなければ同じ値になるはずである。
 目視は辛いのでテキストエディタ等の検索機能を使えばいいだろう。
 
-{{% div-box %}}
+{{% md-box %}}
 **【2017-10-31 追記】** だんだん面倒になってきたので[ハッシュ値を計算するツール](https://github.com/spiegel-im-spiegel/hash "spiegel-im-spiegel/hash: Calculating Hash Value")を作った。
 詳しくは「[Hash 値を計算するパッケージを作ってみた]({{< relref "calculating-hash-value.md" >}})」を参照のこと。
-{{% /div-box %}}
+{{% /md-box %}}
 
 <!--
 Windows ユーザには（`sha256sum` といった）標準ツールがないのが痛いのだが， [7-Zip] があるなら，これを使ってハッシュ値を確認できる。
@@ -314,11 +314,11 @@ Converting from glide.yaml and glide.lock...
 
 `glide.lock` と [`Gopkg.lock`] の内容がマッチしているのが分かると思う。
 
-{{% div-box %}}
+{{% md-box %}}
 **【2018-02-02 追記】** dep v0.4 から挙動が変わった？
 どうやら `dep init` 時点でリビジョン管理が必要と判断されるパッケージのみ `Gopkg.toml` に記載される感じ。
 それ以外でリビジョン管理が必要なものは手動で `Gopkg.toml` に記述する必要があるかも。
-{{% /div-box %}}
+{{% /md-box %}}
 
 念のため `dep status` も見ておこう。
 
@@ -519,9 +519,9 @@ $ go test -v $(glide novendor)
 
 [Go 言語] 1.9 からは `./...` の扱いが変更になり
 
-{{% fig-quote title="Go 1.9 Release Notes" link="https://golang.org/doc/go1.9#vendor-dotdotdot" lang="en" %}}
+{{% fig-quote-md title="Go 1.9 Release Notes" link="https://golang.org/doc/go1.9#vendor-dotdotdot" lang="en" %}}
 “By popular request, `./...` no longer matches packages in `vendor` directories in tools accepting package names, such as `go test`.”
-{{% /fig-quote %}}
+{{% /fig-quote-md %}}
 
 ということで `./...` に `vendor/` フォルダ以下が含まれないことになったのだ。
 たとえば [spiegel-im-spiegel/pi] パッケージの場合は

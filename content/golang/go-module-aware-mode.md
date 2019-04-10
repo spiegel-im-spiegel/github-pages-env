@@ -52,11 +52,11 @@ tags  = [ "golang", "engineering", "module", "versioning" ]
 バージョン 1.11 では，環境変数 `$GO111MODULE` の既定値には `auto` が設定されている。
 独自の開発環境や IDE を使用しているためモジュール対応モードへの移行が難しい場合には `$GO111MODULE` を `off` にするとよいだろう。
 
-{{% div-box %}}
-【追記 2019-03-24】[Go 1.12]({{< ref "/release/2019/02/go-1_12-is-released.md" >}}) でも引き続き `auto` が規定値になっている。
+{{% md-box %}}
+【追記 2019-03-24】 [Go 1.12]({{< ref "/release/2019/02/go-1_12-is-released.md" >}}) でも引き続き `auto` が規定値になっている。
 なお 1.13 からはモジュール対応モードが既定になるらしい。
 そうなれば環境変数 `$GO111MODULE` はお役御免になるかな。
-{{% /div-box %}}
+{{% /md-box %}}
 
 ## モジュール対応モード移行への準備
 
@@ -533,11 +533,11 @@ go: downloading github.com/shurcooL/sanitized_anchor_name v0.0.0-20170918181015-
 
 ## バージョンを指定して go get を実行する
 
-{{% div-box %}}
-【追記 2019-02-26】[Go 1.12]({{< ref "/release/2019/02/go-1_12-is-released.md" >}}) からはダミーの `go.mod` ファイルは必要なくなった。
+{{% md-box %}}
+【追記 2019-02-26】 [Go 1.12]({{< ref "/release/2019/02/go-1_12-is-released.md" >}}) からはダミーの `go.mod` ファイルは必要なくなった。
 任意の場所で `go get` コマンドを起動できる。
 ブラボー！
-{{% /div-box %}}
+{{% /md-box %}}
 
 たとえば私の自作ツールである [gpgpdump] を自前でビルドすることを考える。
 

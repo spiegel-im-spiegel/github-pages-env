@@ -21,7 +21,7 @@
 {
 	"@context": "http://schema.org",
 	"@type": "BreadcrumbList",
-	"@id": "{{ .Permalink }}#breadcrumb-list",
+	"@id": {{ $breadcrumb }},
 	"itemListElement": [
 		{
 			"@type": "ListItem",
@@ -51,7 +51,7 @@
 	"name": {{ .Title }},
 	"description": {{ .Description }},
 	"headline": {{ .Description }}{{if .Params.tags }},
-	"keywords": "{{ delimit .Params.tags ", " }}"{{ end }},
+	"keywords": {{ delimit .Params.tags ", " }}{{ end }},
 	"image": {{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ .Site.Data.section.release.image | absURL }}{{ end }},
 	"datePublished": {{ .Date.UTC.Format "2006-01-02T15:04:05-07:00" }},
 	"dateModified": {{ .Lastmod.UTC.Format "2006-01-02T15:04:05-07:00" }}{{ with .Site.Data.author }},

@@ -312,7 +312,7 @@ panic: runtime error: slice bounds out of range
 
 このように配列と [slice] の関係が分かると `append()` 関数の挙動も理解しやすくなる。
 
-{{% div-box %}}
+{{% md-box %}}
 **【追記】** たとえば，配列 `ary := Array4{0, 1, 2, 3}` の先頭2要素を slice として切り出す場合，普通は `ary[0:2]` でいいのだが，容量を含めて2要素のみとしたい場合は `ary[0:2:2]` と記述する。
 
 ```go
@@ -323,16 +323,16 @@ import "fmt"
 type Array4 [4]int8
 
 func dumpS(slc []int8) {
-	fmt.Printf("dumpS(slc, sz, cap) = %p, %d, %d\n", slc, len(slc), cap(slc))
-	for i := 0; i < len(slc); i++ {
-		fmt.Printf("%p: %v\n", &slc[i], slc[i])
-	}
+    fmt.Printf("dumpS(slc, sz, cap) = %p, %d, %d\n", slc, len(slc), cap(slc))
+    for i := 0; i < len(slc); i++ {
+        fmt.Printf("%p: %v\n", &slc[i], slc[i])
+    }
 }
 
 func main() {
-	ary := Array4{0, 1, 2, 3}
-	slc1 := ary[0:2:2]
-	dumpS(slc1)
+    ary := Array4{0, 1, 2, 3}
+    slc1 := ary[0:2:2]
+    dumpS(slc1)
 }
 ```
 
@@ -350,7 +350,7 @@ dumpS(slc, sz, cap) = 0x10414020, 2, 2
 ```text
 invalid slice index: 3 > 2
 ```
-{{% /div-box %}}
+{{% /md-box %}}
 
 
 ところで先ほど [slice] は「ポインタとサイズと容量の3つの属性を持つオブジェクト」と書いた。
@@ -727,8 +727,8 @@ slc1 != slc2
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9EGo-ADDISON-WESLEY-PROFESSIONAL-COMPUTING-Donovan/dp/4621300253?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621300253"><img src="https://images-fe.ssl-images-amazon.com/images/I/41meaSLNFfL._SL160_.jpg" width="123" alt="photo"></a></div>
   <dl class="fn">
     <dt><a href="https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9EGo-ADDISON-WESLEY-PROFESSIONAL-COMPUTING-Donovan/dp/4621300253?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621300253">プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)</a></dt>
-	<dd>Alan A.A. Donovan, Brian W. Kernighan</dd>
-	<dd>柴田 芳樹 (翻訳)</dd>
+    <dd>Alan A.A. Donovan, Brian W. Kernighan</dd>
+    <dd>柴田 芳樹 (翻訳)</dd>
     <dd>丸善出版 2016-06-20</dd>
     <dd>Book 単行本（ソフトカバー）</dd>
     <dd>ASIN: 4621300253, EAN: 9784621300251</dd>

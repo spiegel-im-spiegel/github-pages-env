@@ -422,7 +422,7 @@ C:\hugo-env\www\content\hello.md created
 
 作成されたファイルを見てみると
 
-```markdown
+```text
 +++
 date = "2015-09-05T16:40:41+09:00"
 draft = true
@@ -437,7 +437,7 @@ title = "hello"
 
 このファイルに記事を入力する。
 
-```markdown
+```text
 +++
 date = "2015-09-05T16:40:41+09:00"
 draft = false

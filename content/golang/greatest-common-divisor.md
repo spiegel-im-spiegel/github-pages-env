@@ -36,27 +36,27 @@ tags        = [ "golang", "function", "programming", "math", "greatest-common-di
 まずは定義から。
 最大公約数の定義は以下の通り。
 
-{{% fig-quote %}}
+{{% fig-quote-md %}}
 2つ以上の正の整数に共通な約数（公約数）のうち最大のもの
-{{% /fig-quote %}}
+{{% /fig-quote-md %}}
 
 折角なので何か例題を立ててみよう。
 
-{{% fig-quote %}}
+{{% fig-quote-md %}}
 **例題1**
 
 20 と 32 の最大公約数を求めよ。
-{{% /fig-quote %}}
+{{% /fig-quote-md %}}
 
 簡単な数だし，まずは暗算で解いてみる。
 それぞれの値を素因数分解すると以下のようになる。
 
-{{< fig-gen >}}
+{{< fig-math >}}
 \begin{align*}
 20 &= 2^2 \times 5 \\
 32 &= 2^5
 \end{align*}
-{{< /fig-gen >}}
+{{< /fig-math >}}
 
 これにより最大公約数は $2^2 = 4$ だということが分かる。
 簡単でよかったね。
