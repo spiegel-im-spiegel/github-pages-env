@@ -30,7 +30,7 @@ tags  = [ "tools", "hugo" ]
 
 不具合の修正がメインのようだ。
 
-{{% fig-quote title="Release v0.38.1" link="https://github.com/gohugoio/hugo/releases/tag/v0.38.1" lang="en" %}}
+{{% fig-quote-md title="Release v0.38.1" link="https://github.com/gohugoio/hugo/releases/tag/v0.38.1" lang="en" %}}
 This is a bug-fix that is mainly motivated by some issues with server live reloading introduced in Hugo 0.38.
 
 - Fix livereload for the home page bundle f87239e4 @bep #4576
@@ -43,7 +43,7 @@ This release also contains some improvements:
 
 - Add bash completion 874159b5 @anthonyfok
 - Handle mass content etc. edits in server mode 730b66b6 @bep #4563
-{{% /fig-quote %}}
+{{% /fig-quote-md %}}
 
 アップデートは計画的に。
 

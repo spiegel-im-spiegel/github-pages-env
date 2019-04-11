@@ -33,7 +33,7 @@ tags        = [ "code", "politics", "internet", "blockchain", "grigori" ]
 
 一部を抜き出す。
 
-{{% fig-quote title="JavaScriptの生みの親ブレンダン・アイクが語る「壊れてしまったウェブの正し方」" link="http://d.hatena.ne.jp/yomoyomo/20180521/webisbroken" %}}
+{{% fig-quote-md title="JavaScriptの生みの親ブレンダン・アイクが語る「壊れてしまったウェブの正し方」" link="http://d.hatena.ne.jp/yomoyomo/20180521/webisbroken" %}}
 要点を日本語に訳しておく。
 
 - 壊れてしまったウェブを正す：監視資本主義（surveillance capitalism）が大手を振り、消費者はプライバシーやデータのやり取りに疲弊している
@@ -43,7 +43,7 @@ tags        = [ "code", "politics", "internet", "blockchain", "grigori" ]
 - オープンソースは企業にとって手持ちの掛け金だ：ブロックチェーンの大きな価値は、コードがオープンソースであり、その台帳がすべてオープンで公開されており、監査可能であることにある。
 - ユーザの興味と合致する企業を作る
 - ブラウザ戦争は終わっていない：Chrome などのブラウザが広告企業の手にある世界では、新たなブラウザが必要だ。
-{{% /fig-quote %}}
+{{% /fig-quote-md %}}
 
 うーむ。
 P2P ファイル共有が泡沫の夢で終わったように[^p2p] Blockchain を礼賛する季節も終わりつつあると思うのだが。

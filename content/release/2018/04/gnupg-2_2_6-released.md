@@ -38,7 +38,7 @@ tags = [
 今回もセキュリティ・アップデートはなし。
 主な修正点は以下の通り。
 
-{{% fig-quote title="GnuPG 2.2.6 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2018q2/000421.html" lang="en" %}}
+{{% fig-quote-md title="GnuPG 2.2.6 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2018q2/000421.html" lang="en" %}}
 * gpg,gpgsm: New option `--request-origin` to pretend requests coming from a browser or a remote site.
 * gpg: Fix race condition on trustdb.gpg updates due to too early released lock.  [#3839]
 * gpg: Emit FAILURE status lines in almost all cases.  [#3872]
@@ -56,7 +56,7 @@ tags = [
 * dirmngr: Handle failures related to missing IPv6 support gracefully.  [#3331]
 * Fix corner cases related to specified home directory with drive letter on Windows.  [#3720]
 * Allow the use of UNC directory names as homedir.  [#3818]
-{{% /fig-quote %}}
+{{% /fig-quote-md %}}
 
 最新版をインストールすると以下のようになる。
 

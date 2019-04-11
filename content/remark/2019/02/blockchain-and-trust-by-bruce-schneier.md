@@ -19,11 +19,11 @@ tags = [ "security", "trust", "blockchain" ]
 なんで WIRED.jp はこの記事の翻訳を出さないのだろう。
 まぁ，いいや。
 
-{{% div-box %}}
+{{% md-box %}}
 【追記 2019-02-26】非公式だが翻訳記事を公開されている方がおられた。感謝。
 
 - [ブログ: ブロックチェーンと信頼](https://okuranagaimo.blogspot.com/2019/02/blog-post_14.html)
-{{% /div-box %}}
+{{% /md-box %}}
 
 この記事に関連する記事もいくつか紹介されている。
 

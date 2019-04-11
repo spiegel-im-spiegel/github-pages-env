@@ -31,7 +31,7 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 
 今回は不具合の修正がメインのようだ。
 
-{{% fig-quote title="Release 4.2.3_4 (bug fixes)" link="https://github.com/zetamatta/nyagos/releases/tag/4.2.3_4" lang="en" %}}
+{{% fig-quote-md title="Release 4.2.3_4 (bug fixes)" link="https://github.com/zetamatta/nyagos/releases/tag/4.2.3_4" lang="en" %}}
 - `ls -?` for help instead of `ls -h`
 - Building with go build instead of make.cmd, print version as `snapshot-GOARCH`
 - Show an error when `type DIRECTORY` is executed.
@@ -51,7 +51,7 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 - #281 `cd \\server\folder ; open` で `C:\Windows\system32` 開く不具合を修正
 - #286 Fix: 二重引用符内の空白に続く ~ が %USERPROFILE% と解釈されていた不具合を修正
 - #287 ヒストリの最後のエントリの時、↓をタイプしても何もしないようにした
-{{% /fig-quote %}}
+{{% /fig-quote-md %}}
 
 アップデートは上書きコピーでOK。
 

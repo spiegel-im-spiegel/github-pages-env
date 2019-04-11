@@ -25,7 +25,7 @@ pageType = "text"
 今回もセキュリティ・アップデートはなし。
 主な機能追加・修正点は以下の通り。
 
-{{% fig-quote title="GnuPG 2.2.14 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q1/000435.html" lang="en" %}}
+{{% fig-quote-md title="GnuPG 2.2.14 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q1/000435.html" lang="en" %}}
 * gpg: Allow import of PGP desktop exported secret keys.  Also avoid importing secret keys if the secret keyblock is not valid.  [#4392]
 * gpg: Do not error out on version 5 keys in the local keyring.
 * gpg: Make invalid primary key algo obvious in key listings.
@@ -43,7 +43,7 @@ pageType = "text"
 * gpgtar: Make option `-C` work for archive creation.
 
 Release-info: https://dev.gnupg.org/T4412
-{{% /fig-quote %}}
+{{% /fig-quote-md %}}
 
 最新版をインストールすると以下のようになる。
 

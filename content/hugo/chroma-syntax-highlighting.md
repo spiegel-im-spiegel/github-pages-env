@@ -65,7 +65,7 @@ $ hugo gen chromastyles --style=tango > chroma-styles.css
 
 [Hugo] でハイライトを指定するには以下の [shortcode] を使う。
 
-```markdown
+```text
 {{</* highlight go */>}}
 package main
 
@@ -91,7 +91,7 @@ func main() {
 
 行番号を表示するには以下のように指定する
 
-```markdown
+```text
 {{</* highlight go "linenos=inline,linenostart=1" */>}}
 package main
 
@@ -115,7 +115,7 @@ func main() {
 
 特定の行を強調するには以下のように指定する。
 
-```markdown
+```text
 {{</* highlight go "linenos=inline,linenostart=1,hl_lines=5-7" */>}}
 package main
 
@@ -139,7 +139,7 @@ func main() {
 
 一方，設定ファイルで `pygmentsCodeFences` を有効にすることで GitHub Flavored Markdown の Syntax Highlight も使えるようになる。
 
-{{< highlight markdown >}}
+{{< highlight text >}}
 ```go
 package main
 
@@ -160,10 +160,6 @@ func main() {
     fmt.Println("Hello, world!")
 }
 ```
-
-
-
-
 
 [Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
 [Chroma]: https://github.com/alecthomas/chroma "alecthomas/chroma: A general purpose syntax highlighter in pure Go"

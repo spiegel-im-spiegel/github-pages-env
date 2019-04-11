@@ -25,7 +25,7 @@ pageType = "text"
 今回もセキュリティ・アップデートはなし。
 主な機能追加・修正点は以下の通り。
 
-{{% fig-quote title="GnuPG 2.2.15 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q1/000436.html" lang="en" %}}
+{{% fig-quote-md title="GnuPG 2.2.15 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q1/000436.html" lang="en" %}}
 * sm: Fix `--logger-fd` and `--status-fd` on Windows for non-standard file descriptors.
 * sm: Allow decryption even if expired keys are configured.  [#4431]
 * agent: Change command KEYINFO to print ssh fingerprints with other hash algos.
@@ -33,7 +33,7 @@ pageType = "text"
 * wkd: New commands `--print-wkd-hash` and `--print-wkd-url` for gpg-wks-client.
 
 Release-info: https://dev.gnupg.org/T4434
-{{% /fig-quote %}}
+{{% /fig-quote-md %}}
 
 最新版をインストールすると以下のようになる。
 

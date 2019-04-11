@@ -40,16 +40,16 @@ tags = [
 今回もセキュリティ・アップデートはなし。
 主な修正点は以下の通り（2.2.10 と併せて載せておきます）。
 
-{{% fig-quote title="GnuPG 2.2.10 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2018q3/000428.html" lang="en" %}}
+{{% fig-quote-md title="GnuPG 2.2.10 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2018q3/000428.html" lang="en" %}}
 - gpg: Refresh expired keys originating from the WKD.  [#2917]
 - gpg: Use a 256 KiB limit for a WKD imported key.
 - gpg: New option `--known-notation`.  [#4060]
 - scd: Add support for the Trustica Cryptoucan reader.
 - agent: Speed up starting during on-demand launching.  [#3490]
 - dirmngr: Validate SRV records in WKD queries.
-{{% /fig-quote %}}
+{{% /fig-quote-md %}}
 
-{{% fig-quote title="GnuPG 2.2.11 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2018q4/000432.html" lang="en" %}}
+{{% fig-quote-md title="GnuPG 2.2.11 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2018q4/000432.html" lang="en" %}}
 * gpgsm: Fix CRL loading when intermediate certicates are not yet trusted.
 * gpgsm: Fix an error message about the digest algo.  [#4219]
 * gpg: Fix a wrong warning due to new sign usage check introduced with 2.2.9.  [#4014]
@@ -65,7 +65,7 @@ tags = [
 * wks: Add option `--with-colons` to the client.  Support sites which use the policy file instead of the submission-address file.
 * Fix EBADF when gpg et al. are called by broken CGI scripts.
 * Fix some minor memory leaks and bugs.
-{{% /fig-quote %}}
+{{% /fig-quote-md %}}
 
 
 最新版をインストールすると以下のようになる。
