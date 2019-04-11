@@ -28,10 +28,10 @@ tags  = [ "tools", "git", "windows" ]
 
 - [Release Git for Windows 2.18.0 · git-for-windows/git](https://github.com/git-for-windows/git/releases/tag/v2.18.0.windows.1)
 
-{{% fig-quote title="Release Git for Windows 2.18.0" link="https://github.com/git-for-windows/git/releases/tag/v2.18.0.windows.1" lang="en" %}}
+{{% fig-quote-md title="Release Git for Windows 2.18.0" link="https://github.com/git-for-windows/git/releases/tag/v2.18.0.windows.1" lang="en" %}}
 - Comes with [Git v2.18.0](https://github.com/git/git/blob/v2.18.0/Documentation/RelNotes/2.18.0.txt).
 - Comes with [Git Credential Manager v1.16.2](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases/tag/v1.16.2).
-{{% /fig-quote %}}
+{{% /fig-quote-md %}}
 
 他にもいくつか不具合の修正がある。
 

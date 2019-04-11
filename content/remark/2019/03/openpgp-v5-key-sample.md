@@ -21,7 +21,7 @@ pageType = "text"
 
 全文引用ご容赦。
 
-{{% fig-gen title="v5 sample key" link="https://mailarchive.ietf.org/arch/msg/openpgp/9SheW_LENE0Kxf7haNllovPyAdY" lang="en" %}}
+{{% fig-gen-md title="v5 sample key" link="https://mailarchive.ietf.org/arch/msg/openpgp/9SheW_LENE0Kxf7haNllovPyAdY" lang="en" %}}
 ```text
 Hi!
 
@@ -63,7 +63,7 @@ TcIYl5/Uyoi+FOvPLcNw4hOv2nwUzSSVAw==
 
 --8<---------------cut here---------------end--------------->8---
 ```
-{{% /fig-gen %}}
+{{% /fig-gen-md %}}
 
 とりあえず [gpgpdump] で中身を見てみる[^pd1]。
 

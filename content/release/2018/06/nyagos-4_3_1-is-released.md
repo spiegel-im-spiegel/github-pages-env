@@ -31,7 +31,7 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 
 いくつかの起動時オプションが追加された。
 
-{{% fig-quote title="Release 4.3.1_0" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.1_0" lang="en" %}}
+{{% fig-quote-md title="Release 4.3.1_0" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.1_0" lang="en" %}}
 
 - Support Windows10's native ESCAPE SEQUENCE processing with `--no-go-colorable` and `--enable-virtual-terminal-processing`
 - For #304,#312, added options to search for the executable from the current directory
@@ -50,14 +50,14 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
     - `--look-curdir-never`: `%PATH%` だけから実行ファイルを探す(UNIX Shells互換動作)
 - nyagos.prompt にプロンプトテンプレートの文字列を直接代入できるようになった。
 - #314 rmdir がジャンクションを削除できなかった問題を修正
-{{% /fig-quote %}}
+{{% /fig-quote-md %}}
 
-{{% div-box %}}
+{{% md-box %}}
 **【追記 2018-06-24】**
 下記の件は 4.3.1_3 で改修されたようだ。
 `--look-curdir-never` 指定時はカレントディレクトリ直下の `hoge.exe` は `./hoge` でのみ起動する。
 
-{{% div-box %}}
+{{% md-box %}}
 実行ファイルの検索オプションだが `--look-curdir-never` について `--look-curdir-last` との違いがよく分からなかったり。
 たとえばカレントディレクトリに `hoge.exe` があって PATH 上に同名のファイルが存在しない場合に，どちらのオプションでも
 
@@ -68,8 +68,8 @@ $ hoge
 で起動してしまう。
 私としては `--look-curdir-never` 指定時は `./hoge` のみで起動することを期待したのだが違うのだろうか。
 まぁ，大した問題ではないのでよかろう。
-{{% /div-box %}}
-{{% /div-box %}}
+{{% /md-box %}}
+{{% /md-box %}}
 
 にしても，コマンドプロンプトと PowerShell ってそんなところで挙動が違うんだなぁ。
 いいのか，それ。
@@ -78,7 +78,7 @@ $ hoge
 
 不具合等の改修。
 
-{{% fig-quote title="Release 4.3.1_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.1_1" lang="en" %}}
+{{% fig-quote-md title="Release 4.3.1_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.1_1" lang="en" %}}
 - Remove source code for lua53.dll
 - #317: deadlock when `use "subcomplete"` is enabled and rclone.exe is found.
     - See also: [yuin/gopher-lua#181](https://github.com/yuin/gopher-lua/issues/181)
@@ -94,13 +94,13 @@ $ hoge
 - #318,#319 下記の Lua 5.3 互換関数を追加
     - bit32.band/bitor/bxor
     - utf8.char/charpattern/codes
-{{% /fig-quote %}}
+{{% /fig-quote-md %}}
 
 ## 【追記 2018-06-24】 [NYAGOS] 4.3.1_2 がリリース
 
 不具合等の改修。
 
-{{% fig-quote title="Release 4.3.1_2" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.1_2" lang="en" %}}
+{{% fig-quote-md title="Release 4.3.1_2" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.1_2" lang="en" %}}
 - #320: fix the imcompatibility: nyagos.rawexec & raweval did not expand tables in arguments.
 - --show-version-only enables --norc automatically
 
@@ -108,13 +108,13 @@ $ hoge
 
 - #320: nyagos.rawexec & raweval が引数内のテーブルを展開していなかった非互換性を修正
 - --show-version-only を指定すると --norc を自動的に有効化するようにした
-{{% /fig-quote %}}
+{{% /fig-quote-md %}}
 
 ## 【追記 2018-06-24】 [NYAGOS] 4.3.1_3 がリリース
 
 不具合等の改修。
 
-{{% fig-quote title="Release 4.3.1_3" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.1_3" lang="en" %}}
+{{% fig-quote-md title="Release 4.3.1_3" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.1_3" lang="en" %}}
 - #316 Fix: zero-length directory-name in %PATH% is regarded as the current directory
 - #321 Fix: key function names `previous_history` & `next_history` were not registered.
 - Add -h and --help option
@@ -130,6 +130,6 @@ $ hoge
 - バッチファイル組み込みのため、Luaスクリプトの `@` で始まる行を無視するようにした
 - #322 バッチファイルの引数のエンコーディングをスレッドのコードページから、コンソールのコードページへ変更した。
 - Lua変数 `nyagos.option.*` の全てを nyagos.exe のコマンドラインオプションで設定できるようにした。
-{{% /fig-quote %}}
+{{% /fig-quote-md %}}
 
 [NYAGOS]: https://github.com/zetamatta/nyagos/ "zetamatta/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"

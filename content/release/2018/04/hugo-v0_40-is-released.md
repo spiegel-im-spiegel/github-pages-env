@@ -36,11 +36,11 @@ tags  = [ "tools", "hugo" ]
 
 ちうわけで，マジお疲れ様です。
 
-{{% fig-quote title="Release v0.40" link="https://github.com/gohugoio/hugo/releases/tag/v0.40" lang="en" %}}
+{{% fig-quote-md title="Release v0.40" link="https://github.com/gohugoio/hugo/releases/tag/v0.40" lang="en" %}}
 - `.Content` for a page retrieved in a query in a shortcode is now almost always available. Note that shortcodes can include content that can include shortcodes that can include content... It is possible to bite your tail. See more below.
 - Shortcodes are now processed and rendered in their order of appearance.
 - Related to the above, we have now added a zero-based `.Ordinal` to the shortcode.
-{{% /fig-quote %}}
+{{% /fig-quote-md %}}
 
 アップデートは計画的に。
 

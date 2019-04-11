@@ -37,7 +37,7 @@ tags = [
 今回はセキュリティ・アップデートはなし。
 主な修正点は以下の通り。
 
-{{% fig-quote title="GnuPG 2.2.9 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2018q3/000427.html" lang="en" %}}
+{{% fig-quote-md title="GnuPG 2.2.9 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2018q3/000427.html" lang="en" %}}
 * dirmngr: Fix recursive resolver mode and other bugs in the libdns code.  [#3374,#3803,#3610] 
 * dirmngr: When using libgpg-error 1.32 or later a GnuPG build with NTBTLS support (e.g. the standard Windows installer) does not anymore block for dozens of seconds before returning data.  If you still have problems on Windows, please consider to use one of the options `disable-ipv4` or `disable-ipv6`.
 * gpg: Fix bug in `--show-keys` which actually imported revocation certificates.  [#4017]
@@ -50,7 +50,7 @@ tags = [
 * gpg: Add revocation reason to the "rev" and "rvs" records of the option `--with-colons`.  [#1173]
 * gpg: Export option `export-clean` does now remove certain expired subkeys; `export-minimal` removes all expired subkeys.  [#3622]
 * gpg: New "usage" property for the `drop-subkey` filters.  [#4019]
-{{% /fig-quote %}}
+{{% /fig-quote-md %}}
 
 最新版をインストールすると以下のようになる。
 

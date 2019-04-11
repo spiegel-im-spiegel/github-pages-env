@@ -34,7 +34,7 @@ tags  = [ "golang", "package", "cli" ]
 
 [Go 言語]標準の [`filepath`]`.Glob()` 関数はなかなか性能がよくて，パス検索に以下のワイルドカードが使える。
 
-{{% fig-quote title="filepath - The Go Programming Language" link="https://golang.org/pkg/path/filepath/" lang="en" %}}
+{{% fig-gen-md title="filepath - The Go Programming Language" link="https://golang.org/pkg/path/filepath/" lang="en" %}}
 ```
 pattern:
     { term }
@@ -51,7 +51,7 @@ character-range:
     '\\' c      matches character c
     lo '-' hi   matches character c for lo <= c <= hi
 ```
-{{% /fig-quote %}}
+{{% /fig-gen-md %}}
 
 しかし，残念ながら Ruby の [`Dir`]`.glob` にあるようなディレクトリの再帰検索（`**/`）は用意されていない。
 そこで今回  [`filepath`]`.Glob()` と [`filepath`]`.Walk()` を組み合わせる形で `file.Glob()` 関数を作ってみた。

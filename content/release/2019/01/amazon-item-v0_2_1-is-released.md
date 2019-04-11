@@ -279,13 +279,13 @@ $ cat B00I8AT1CM.txt | amazon-item review -d B00I8AT1CM -r 4 --review-date 2019-
 
 この記事から少し引用すると
 
-{{% fig-quote title="Product Advertising API 利用ポリシーの変更について" link="https://affiliate.amazon.co.jp/help/topic/t52/" %}}
+{{% fig-quote-md title="Product Advertising API 利用ポリシーの変更について" link="https://affiliate.amazon.co.jp/help/topic/t52/" %}}
 - 初期リクエスト可能数 : 1日あたり 8,640リクエスト（API利用開始より60日間）
 - PA-APIより取得した商品リンクより発生した、過去30日間の発送済み商品売上$0.05（日本円で約5円）ごとに1リクエスト追加
 - 1日の最大リクエスト可能数は、1日あたり864,000リクエスト
 
 また、発送済み商品売上が過去30日以内に発生していない場合、PA-APIをご利用いただけなくなる恐れがございます。
-{{% /fig-quote %}}
+{{% /fig-quote-md %}}
 
 となるらしい[^wp1]。
 また商品へのリンク URL についても `https://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1CM/mytag-20` のような従来の形式ではなく [PA-API] が吐き出す長ったらしい URL を使う必要がある。

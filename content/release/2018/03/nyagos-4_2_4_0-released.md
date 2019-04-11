@@ -31,7 +31,7 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 
 細かい機能の変更や修正がメイン。
 
-{{% fig-quote title="Release 4.2.4_0" link="https://github.com/zetamatta/nyagos/releases/tag/4.2.4_0" lang="en" %}}
+{{% fig-quote-md title="Release 4.2.4_0" link="https://github.com/zetamatta/nyagos/releases/tag/4.2.4_0" lang="en" %}}
 - lua: ole: `variable = OLE.property` is avaliable instead of `OLE:_get('property')`
 - lua: ole: `OLE.property = value` is avaliable instead of `OLE:_set('property',value)`
 - Load `nyagos.d/*.ny` as batchlike file
@@ -61,7 +61,7 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 - (`bytes.Buffer` を `strings.Builder` に置き換えた。Go 1.10 が必要になった)
 - 複数のファイルが「open」で一度に開こうとした時、`open: ambiguous shellexecute` とエラーを表示するようにした。
 - `nyagos.alias.NAME = nil` で alias を削除できなかった動作を修正
-{{% /fig-quote %}}
+{{% /fig-quote-md %}}
 
 `nyagos.d/*.ny` は今回のリリース・パッケージには含まれてなかったのだけど，次回以降で入ってくるってことかなぁ？ それとも自前のスクリプトは `*.lua` じゃなくて `*.ny` にしろってことなのだろうか。
 

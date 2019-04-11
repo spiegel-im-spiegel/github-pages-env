@@ -114,7 +114,7 @@ Everything is Ok
 改竄されてなければ同じ値になるはずである。
 目視は辛いのでテキストエディタ等の検索機能を使えばいいだろう。
 
-{{% div-box %}}
+{{% md-box %}}
 [NYAGOS](http://www.nyaos.org/index.cgi?p=NYAGOS "NYAOS.ORG - NYAGOS") を使っている人なら `.nyagos` ファイルに
 
 ```lua
@@ -132,7 +132,7 @@ $ sha256sum dep-windows-amd64
 
 で同じ結果が得られる。
 改竄の有無を確認するためにファイルのハッシュ値を調べることはよくあるので準備しておくとよい。
-{{% /div-box %}}
+{{% /md-box %}}
 -->
 
 実行モジュールの動作確認もしておく。

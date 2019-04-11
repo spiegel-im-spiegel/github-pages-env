@@ -37,7 +37,7 @@ CVSS 基本評価値 6.8 (AV:N/AC:M/Au:N/C:P/I:P/A:P) （暫定値）
 - [access.redhat.com | CVE-2015-5740](https://access.redhat.com/security/cve/CVE-2015-5740)
 - [access.redhat.com | CVE-2015-5741](https://access.redhat.com/security/cve/CVE-2015-5741)
 
-{{% fig-gen title="CVSSv2 基本評価値" %}}
+{{% fig-gen-md title="CVSSv2 基本評価値" %}}
 | 基本評価基準                            | 評価値            |
 |----------------------------------------:|:------------------|
 | 攻撃元区分（AV）                        | ネットワーク（N） |
@@ -46,7 +46,7 @@ CVSS 基本評価値 6.8 (AV:N/AC:M/Au:N/C:P/I:P/A:P) （暫定値）
 | 情報漏えいの可能性（機密性への影響, C） | 部分的（P）       |
 | 情報改ざんの可能性（完全性への影響, I） | 部分的（P）       |
 | 業務停止の可能性（可用性への影響, A）   | 部分的（P）       |
-{{% /fig-gen %}}
+{{% /fig-gen-md %}}
 
 CVSS については[デモページ](https://baldanders.info/spiegel/archive/cvss/cvss2.html)を参照のこと。
 

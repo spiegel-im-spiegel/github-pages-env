@@ -38,7 +38,7 @@ tags = [
 今回もセキュリティ・アップデートはなし。
 主な修正点は以下の通り。
 
-{{% fig-quote title="GnuPG 2.2.7 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2018q2/000421.html" lang="en" %}}
+{{% fig-quote-md title="GnuPG 2.2.7 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2018q2/000421.html" lang="en" %}}
 * gpg: New option `--no-symkey-cache` to disable the passphrase cache for symmetrical en- and decryption.
 * gpg: The ERRSIG status now prints the fingerprint if that is part of the signature.
 * gpg: Relax emitting of FAILURE status lines
@@ -52,7 +52,7 @@ tags = [
 * dirmngr: Implement CRL fetching via https.  Here a redirection to http is explictly allowed.
 * dirmngr: Make LDAP searching and CRL fetching work under Windows.  This stopped working with 2.1.  [#3937]
 * agent,dirmngr: New sub-command "getenv" for "getinfo" to ease debugging.
-{{% /fig-quote %}}
+{{% /fig-quote-md %}}
 
 最新版をインストールすると以下のようになる。
 

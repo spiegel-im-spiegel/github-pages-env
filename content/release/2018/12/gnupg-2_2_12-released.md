@@ -35,7 +35,7 @@ tags = [
 今回もセキュリティ・アップデートはなし。
 主な機能追加・修正点は以下の通り。
 
-{{% fig-quote title="GnuPG 2.2.12 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2018q4/000433.html" lang="en" %}}
+{{% fig-quote-md title="GnuPG 2.2.12 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2018q4/000433.html" lang="en" %}}
 * tools: New commands `--install-key` and `--remove-key` for gpg-wks-client.  This allows to prepare a Web Key Directory on a local file system for later upload to a web server.
 * gpg: New `--list-option` "show-only-fpr-mbox".  This makes the use of the new gpg-wks-client `--install-key` command easier on Windows.
 * gpg: Improve processing speed when `--skip-verify` is used.
@@ -46,7 +46,7 @@ tags = [
 * dirmngr: Avoid possible CSRF attacks via http redirects.  A HTTP query will not anymore follow a 3xx redirect unless the Location header gives the same host.  If the host is different only the host and port is taken from the Location header and the original path and query parts are kept.
 * dirmngr: New command FLUSHCRL to flush all CRLS from disk and memory.  [https://dev.gnupg.org/T3967]
 * New simplified Chinese translation (zh_CN).
-{{% /fig-quote %}}
+{{% /fig-quote-md %}}
 
 最新版をインストールすると以下のようになる。
 
