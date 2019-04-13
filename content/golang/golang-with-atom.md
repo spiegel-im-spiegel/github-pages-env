@@ -26,10 +26,10 @@ title = "ATOM で Go"
 
 例によって Windows 環境を前提にしているので，他の環境の方は適当に脳内補完してください。
 
-{{% md-box %}}
+{{% div-box type="md" %}}
 - *2016年3月：* [go-plus](https://atom.io/packages/go-plus) バージョン 4 以降で大きく構成が変わったので改訂した
 - *2017年12月：* [go-plus](https://atom.io/packages/go-plus) がかなり大きく変わってるので改訂
-{{% /md-box %}}
+{{% /div-box %}}
 
 ## [go-plus] パッケージの導入
 

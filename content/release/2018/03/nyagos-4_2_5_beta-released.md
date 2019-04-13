@@ -35,7 +35,7 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 
 以下に変更点をまとめて紹介する。
 
-{{% fig-quote-md title="Release 4.2.5" link="https://github.com/zetamatta/nyagos/releases/tag/4.2.5_0" lang="en" %}}
+{{% fig-quote type="md" title="Release 4.2.5" link="https://github.com/zetamatta/nyagos/releases/tag/4.2.5_0" lang="en" %}}
 - Read the value of environment variables and the current directory that a batchfile changed like CMD.EXE.
 - And refactored a lot of source files
 - Fix: #296 the batchfile could not be executed when the username contains multibyte-character.
@@ -53,7 +53,7 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
     - 一時バッチファイルの改行コードが CRLF ではなく LF になっていた
 - #297 /b なしの exit をバッチファイルが実行した時、一時ファイルが無い旨のエラーがでていた
 - luaフラグ nyagos.option.usesource を追加。false の時、バッチファイルは NYAGOS の環境変数を変更できなくなる(default:true)
-{{% /fig-quote-md %}}
+{{% /fig-quote %}}
 
 というわけで，このバージョンからバッチファイル（`*.bat`, `*.cmd`）実行時の環境変数の扱いが変わるようだ。
 詳しくは以下を参照のこと。
@@ -63,11 +63,11 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 個人的にはバッチファイルで環境変数が汚れるのは好みではなかったので `source` コマンドのみで環境変数を変えられるという仕様は結構気に入っていたのだが，まぁいいか。
 問題ない。
 
-{{% md-box %}}
+{{% div-box type="md" %}}
 **【追記 2018-03-31】** `nyagos.option.usesource` オプションを追加していただいた。
 これを `false` にすれば従来どおり `source` コマンドのみで環境変数を変更できる。
 ホームディレクトリの `.nyagos` に追記しておけばいいだろう。
-{{% /md-box %}}
+{{% /div-box %}}
 
 ## 【追記 2018-04-18】 [NYAGOS] 4.2.5_1 がリリース
 
@@ -75,7 +75,7 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 
 不具合の修正のみ。
 
-{{% fig-quote-md title="Release 4.2.5_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.2.5_1" lang="en" %}}
+{{% fig-quote type="md" title="Release 4.2.5_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.2.5_1" lang="en" %}}
 - Fix: `if [not] errorlevel N` did not work on block-if.
 - Fix: that `ls -1F` did not show the indicator such as `/`,`*` or `@`.
 - Fix: the problem that executables reparse-pointed but not symbolic-linked can not be found. ★
@@ -93,7 +93,7 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 - `_nyagos` で history コマンドを使った時のエラーメッセージを変更
 
 （※ OneDrive の下においた実行ファイルが実行できなくなる問題の原因がコレです）
-{{% /fig-quote-md %}}
+{{% /fig-quote %}}
 
 ## 【付録】 環境変数の汚染を防ぐには
 

@@ -67,10 +67,10 @@ if !re.Copy().MatchString(s) {
 }
 ```
 
-{{% md-box %}}
+{{% div-box type="md" %}}
 【追記 2019-02-26】 [Go 1.12]({{< ref "/release/2019/02/go-1_12-is-released.md" >}}) からは [`regexp`]`.Regexp.Copy()` 関数は必要なくなった。
 ブラボー！
-{{% /md-box %}}
+{{% /div-box %}}
 
 ## その正規表現ホンマにいるの？
 

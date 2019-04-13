@@ -20,11 +20,11 @@ title = "GOPATH 汚染問題"
   url = "https://baldanders.info/spiegel/profile/"
 +++
 
-{{% md-box %}}
+{{% div-box type="md" %}}
 **【注意 2018-09-26】**
 この問題はバージョン 1.11 からサポートされる「モジュール」機能によって解消可能です。
 もはやこの記事の内容は古いものであり「こんな時代もあったね」と生暖かい気持ちで読んでいただければ幸いです。
-{{% /md-box %}}
+{{% /div-box %}}
 
 （初出： [そろそろ真面目に Golang 開発環境について考える — GOPATH 汚染問題 - Qiita](http://qiita.com/spiegel-im-spiegel/items/73ebc684b5807277b7e2)，[そろそろ真面目に Golang 開発環境について考える — Internal Packages と Vendoring - Qiita](http://qiita.com/spiegel-im-spiegel/items/baa3671c7e1b8a6594a9)）
 

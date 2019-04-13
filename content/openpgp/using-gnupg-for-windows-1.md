@@ -112,12 +112,12 @@ $ gpg --export-ownertrust > trust.txt
 
 -->
 
-{{% md-box %}}
+{{% div-box type="md" %}}
 **【追記 2018-06-24】**
 最近の GnuPG ではインストール先フォルダが `C:\Program Files (x86)\gnupg` 固定になっている（64bit版 GnuPG for Windows のバイナリ提供はない）。
 古いバージョンで左記のフォルダ以外にインストールしている場合はそのフォルダに上書きインストールされる。
 では続きをどうぞ。
-{{% /md-box %}}
+{{% /div-box %}}
 
 {{< fig-img src="https://photo.baldanders.info/flickr/image/25575126816_m.png" title="Installing GnuPG for Windows (6)" link="https://photo.baldanders.info/flickr/25575126816/" >}}
 

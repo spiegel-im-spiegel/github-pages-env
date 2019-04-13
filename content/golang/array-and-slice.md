@@ -312,7 +312,7 @@ panic: runtime error: slice bounds out of range
 
 このように配列と [slice] の関係が分かると `append()` 関数の挙動も理解しやすくなる。
 
-{{% md-box %}}
+{{% div-box type="md" %}}
 **【追記】** たとえば，配列 `ary := Array4{0, 1, 2, 3}` の先頭2要素を slice として切り出す場合，普通は `ary[0:2]` でいいのだが，容量を含めて2要素のみとしたい場合は `ary[0:2:2]` と記述する。
 
 ```go
@@ -350,7 +350,7 @@ dumpS(slc, sz, cap) = 0x10414020, 2, 2
 ```text
 invalid slice index: 3 > 2
 ```
-{{% /md-box %}}
+{{% /div-box %}}
 
 
 ところで先ほど [slice] は「ポインタとサイズと容量の3つの属性を持つオブジェクト」と書いた。

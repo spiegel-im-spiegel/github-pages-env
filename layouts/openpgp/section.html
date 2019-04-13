@@ -1,11 +1,12 @@
 {{ partial "top.html" . }}
-<head>
-{{ partial "header.html" . }}
+<head prefix="og: http://ogp.me/ns#">{{ $secTitle := .Site.Data.section.openpgp.name | plainify }}{{ $siteTitle := .Site.Title | plainify }}{{ $desc := .Site.Data.section.openpgp.description | plainify | safeHTML }}
+{{ partial "header.html" . }}{{ with .AlternativeOutputFormats.Get "RSS" }}
+<link rel="alternate" href="{{ .Permalink }}" type="application/rss+xml" title="{{ $secTitle }} | {{ $siteTitle }}">{{ end }}
 <link rel="canonical" href="{{ .Permalink }}">
-<title>{{ .Site.Data.section.openpgp.name | safeHTML }} | {{ .Site.Title }}</title>
-<meta property="og:title" content="{{ .Site.Data.section.openpgp.name | safeHTML }} | {{ .Site.Title }}">
-<meta name="description" content="{{ .Site.Data.section.openpgp.description | safeHTML }}">
-<meta property="og:description" content="{{ .Site.Data.section.openpgp.description | safeHTML }}">
+<title>{{ $secTitle }} | {{ $siteTitle }}</title>
+<meta property="og:title" content="{{ $secTitle }} | {{ $siteTitle }}">
+<meta name="description" content="{{ $desc }}">
+<meta property="og:description" content="{{ $desc }}">
 <meta property="og:image" content="{{ .Site.Data.section.openpgp.image | absURL }}">
 {{ partial "twitter-card.html" . }}
 
@@ -18,7 +19,7 @@
 
 <main>
 <article>
-<h1>{{ .Site.Data.section.openpgp.name }} <a href='{{ .RSSLink }}' title='Feed'><i class='fas fa-rss'></i></a></h1>
+<h1>{{ $secTitle }}{{ with .OutputFormats.Get "RSS" }} <a href='{{ .RelPermalink }}' title='Feed'><i class='fas fa-rss'></i></a>{{ end }}</h1>
 <p><a href="https://www.openpgp.org/">OpenPGP</a> とその実装である <a href="https://gnupg.org/">GnuPG</a> 等に関する話題。</p>
 
 <h2>記事の一覧</h2>

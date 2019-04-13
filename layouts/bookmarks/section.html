@@ -1,11 +1,12 @@
 {{ partial "top.html" . }}
-<head>
-{{ partial "header.html" . }}
+<head prefix="og: http://ogp.me/ns#">{{ $secTitle := .Site.Data.section.bookmarks.name | plainify }}{{ $siteTitle := .Site.Title | plainify }}{{ $desc := .Site.Data.section.bookmarks.description | plainify | safeHTML }}
+{{ partial "header.html" . }}{{ with .AlternativeOutputFormats.Get "RSS" }}
+<link rel="alternate" href="{{ .Permalink }}" type="application/rss+xml" title="{{ $secTitle }} | {{ $siteTitle }}">{{ end }}
 <link rel="canonical" href="{{ .Permalink }}">
-<title>{{ .Site.Data.section.bookmarks.name | safeHTML }} | {{ .Site.Title }}</title>
-<meta property="og:title" content="{{ .Site.Data.section.bookmarks.name | safeHTML }} | {{ .Site.Title }}">
-<meta name="description" content="{{ .Site.Data.section.bookmarks.description | safeHTML }}">
-<meta property="og:description" content="{{ .Site.Data.section.bookmarks.description | safeHTML }}">
+<title>{{ $secTitle }} | {{ $siteTitle }}</title>
+<meta property="og:title" content="{{ $secTitle }} | {{ $siteTitle }}">
+<meta name="description" content="{{ $desc }}">
+<meta property="og:description" content="{{ $desc }}">
 <meta property="og:image" content="{{ .Site.Data.section.bookmarks.image | absURL }}">
 {{ partial "twitter-card.html" . }}
 
@@ -18,7 +19,7 @@
 
 <main>
 <article>
-<h1>{{ .Site.Data.section.bookmarks.name }} <a href='{{ .RSSLink }}' title='Feed'><i class='fas fa-rss'></i></a></h1>
+<h1>{{ $secTitle }}{{ with .OutputFormats.Get "RSS" }} <a href='{{ .RelPermalink }}' title='Feed'><i class='fas fa-rss'></i></a>{{ end }}</h1>
 <p>いままで <a href="http://del.icio.us/">del.icio.us</a> （旧 <a href="https://delicious.com/spiegel">delicious.com</a>）で収集していたブックマークの代替として運用してみるテスト。</p>
 <ul class="title-list">
 {{ range .Data.Pages }}{{ partial "li-section.html" . }}{{ end }}

@@ -35,8 +35,8 @@ pageType = "text"
 ```text
 {
   "title": {{ .Site.Title | jsonify }},
-  "url": {{ .Permalink | jsonify }},
-  "feed": {{ .RSSLink | jsonify }},
+  "url": {{ .Permalink | jsonify }},{{ with .OutputFormats.Get "RSS" }}
+  "feed": {{ .Permalink | jsonify }},{{ end }}
   "entry": [{{ range $i, $v := first 3 .Data.Pages }}{{ if ne $i 0 }},{{ end }}{{ with $v }}
     {
       "title": {{ .Title | jsonify }},{{ with .Section }}

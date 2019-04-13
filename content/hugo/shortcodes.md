@@ -135,12 +135,12 @@ See the full <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibi
 </figure>
 ```
 
-{{% fig-quote-md title="Compatible Licenses - Creative Commons" link="https://creativecommons.org/compatiblelicenses" lang="en" %}}
+{{% fig-quote type="md" title="Compatible Licenses - Creative Commons" link="https://creativecommons.org/compatiblelicenses" lang="en" %}}
 “The [GNU General Public License version 3](https://www.gnu.org/copyleft/gpl.html) was declared a “BY-SA–Compatible License” for version 4.0 on 8 October 2015.
 Note that compatibility with the GPLv3 is one-way only, which means you may license your contributions to adaptations of BY-SA 4.0 materials under GPLv3, but you may not license your contributions to adaptations of GPLv3 projects under BY-SA 4.0.
 Other [special considerations](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3#Considerations_for_adapters_applying_the_GPLv3) apply.
 See the full [analysis](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3) and [comparison](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility_analysis:_GPL) for more information.”
-{{% /fig-quote-md %}}
+{{% /fig-quote %}}
 
 ### [Shortcodes] のみで HTML 展開する場合
 

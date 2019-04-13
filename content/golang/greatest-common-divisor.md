@@ -36,17 +36,17 @@ tags        = [ "golang", "function", "programming", "math", "greatest-common-di
 まずは定義から。
 最大公約数の定義は以下の通り。
 
-{{% fig-quote-md %}}
+{{% fig-quote type="md" %}}
 2つ以上の正の整数に共通な約数（公約数）のうち最大のもの
-{{% /fig-quote-md %}}
+{{% /fig-quote %}}
 
 折角なので何か例題を立ててみよう。
 
-{{% fig-quote-md %}}
+{{% fig-quote type="md" %}}
 **例題1**
 
 20 と 32 の最大公約数を求めよ。
-{{% /fig-quote-md %}}
+{{% /fig-quote %}}
 
 簡単な数だし，まずは暗算で解いてみる。
 それぞれの値を素因数分解すると以下のようになる。
@@ -146,11 +146,11 @@ func main() {
 では例題を立ててみよう。
 これは「[配列の全ての要素の最大公約数を求める]」の設問と同等と言える。
 
-{{% fig-quote-md %}}
+{{% fig-quote type="md" %}}
 **例題2**
 
 (290021904, 927964716, 826824516, 817140688) の最大公約数を求めよ。
-{{% /fig-quote-md %}}
+{{% /fig-quote %}}
 
 まずはベタに for 文を回してベタに解いてみる。
 

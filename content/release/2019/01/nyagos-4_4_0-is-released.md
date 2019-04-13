@@ -17,7 +17,7 @@ tags  = [ "tools", "nyagos", "shell", "windows", " linux" ]
 
 変更点は以下の通り。
 
-{{% fig-quote-md title="Release 4.4.0_beta" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.0_beta" lang="en" %}}
+{{% fig-quote type="md" title="Release 4.4.0_beta" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.0_beta" lang="en" %}}
 - Support Linux (experimental)
 - Fix the problem that current directories per drive were not inherited to child processes.
 - Use the library "mattn/go-tty" instead of "zetamatta/go-getch"
@@ -43,10 +43,10 @@ tags  = [ "tools", "nyagos", "shell", "windows", " linux" ]
     - git.exe pushが無効にしても再び有効にする
 - (#339) ワイルドカード .??* が .. にマッチする問題を修正
     - 要 github.com/zetamatta/go-findfile tagged 20181230-2
-{{% /fig-quote-md %}}
+{{% /fig-quote %}}
 
 
-{{% fig-quote-md title="Release 4.4.0_0" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.0_0" lang="en" %}}
+{{% fig-quote type="md" title="Release 4.4.0_0" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.0_0" lang="en" %}}
 - Remove beta
 - To call a batchfile, stop to use `/V:ON` for CMD.EXE
 
@@ -54,7 +54,7 @@ tags  = [ "tools", "nyagos", "shell", "windows", " linux" ]
 
 - βを外した
 - バッチファイルを呼ぶ時に、`/V:ON` を CMD.EXE に使わないようにした
-{{% /fig-quote-md %}}
+{{% /fig-quote %}}
 
 実験レベルながら Linux に対応したですよ。
 これって Windows を捨てようとしている私へのご褒美？ 正直に言って Linux に移行する際の shell をどうしようか悩んでたのよ[^lua1]。
@@ -66,7 +66,7 @@ tags  = [ "tools", "nyagos", "shell", "windows", " linux" ]
 
 - [Release 4.4.0_1 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.4.0_1)
 
-{{% fig-quote-md title="Release 4.4.0_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.0_1" lang="en" %}}
+{{% fig-quote type="md" title="Release 4.4.0_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.0_1" lang="en" %}}
 - Abolished "--go-colorable" and "--enable-virtual-terminal-processing"
 - Implemented `killall`
 - Implemented `copy` and `move` for Linux
@@ -78,7 +78,7 @@ tags  = [ "tools", "nyagos", "shell", "windows", " linux" ]
 - `killall` コマンドを実装
 - Linux用の `copy` と `move` を実装
 - (#351) `END` と `F11` キーが動作もキー割り当てもできなかった不具合を修正
-{{% /fig-quote-md %}}
+{{% /fig-quote %}}
 
 ## ブックマーク
 

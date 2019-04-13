@@ -121,12 +121,12 @@ C:\PATH\TO\PuTTY\putty.exe -load "mysession" -new_console
 ところで設定ダイアログの左下に [Flattr] ボタンがあるのにお気づきだろうか。
 [Flattr] アカウントのある人は是非。
 
-{{% md-box %}}
+{{% div-box type="md" %}}
 **追記 2018-03-07**
 
 [ConEmu](https://conemu.github.io/ "ConEmu - Handy Windows Terminal") の画面の桁数を大きくすると画面が乱れる場合がある。
 この場合は `Setting` → `Main` → `Compress long string to fit space` を無効にすることで改善するようだ。
-{{% /md-box %}}
+{{% /div-box %}}
 
 ## ブックマーク
 

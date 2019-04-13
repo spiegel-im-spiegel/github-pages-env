@@ -24,9 +24,9 @@ draft = false
 
 - [Go 1.8.1 is released - Google グループ](https://groups.google.com/forum/#!topic/golang-announce/1-2Uow_7TjQ)
 
-{{% fig-quote-md title="Release History - The Go Programming Language" link="https://golang.org/doc/devel/release.html#go1.8.minor" lang="en" %}}
+{{% fig-quote type="md" title="Release History - The Go Programming Language" link="https://golang.org/doc/devel/release.html#go1.8.minor" lang="en" %}}
 “go1.8.1 (released 2017/04/07) includes fixes to the compiler, linker, runtime, documentation, go command and the `crypto/tls`, `encoding/xml`, `image/png`, `net`, `net/http`, `reflect`, `text/template`, and `time` packages."
-{{% /fig-quote-md %}}
+{{% /fig-quote %}}
 
 セキュリティ・アップデートではないようだがかなり広範囲に改修が行われているようだ。
 アップデートは計画的に。

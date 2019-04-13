@@ -82,11 +82,11 @@ GnuPG 側と上手く連携できていれば「証明書の選択」ダイア�
 誰かやり方を教えてください。
 はっきり言って [Gpg4win] 要らないので使えないなら削除したい。
 
-{{% md-box %}}
+{{% div-box type="md" %}}
 **【2018-02-04 追記】** 原因が分かったので仕切り直した。
 
 - [LibreOffice と OpenPGP （仕切り直し）]({{< ref "/openpgp/libreoffice-with-openpgp.md" >}})
-{{% /md-box %}}
+{{% /div-box %}}
 
 ## ブックマーク
 

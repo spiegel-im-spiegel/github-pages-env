@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html>{{ $title := .Title | plainify }}{{ $siteTitle := .Site.Title | plainify }}
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-{{ .Hugo.Generator }}
 {{ with .Site.Params.favicon }}<link rel="icon" type="image/x-icon" href="{{ . }}">{{ end }}
-<title>{{ .Title }} — {{ .Site.Title }}</title>
+<title>{{ $title }} | {{ $siteTitle }}</title>
 </head>
 <body>
-<h1>{{ .Title }} — <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+<h1>{{ $title }} | <a href="{{ .Site.BaseURL }}">{{ $siteTitle }}</a></h1>
 <p>あると思った？ 残念！ 404 でした。</p>
 <p><a href="remark/2017/12/character-of-the-new-era-name/">「新元号「文字」という技術的負債」を探してた人はこちらへ。</a></p>
 </body>

@@ -20,7 +20,7 @@ pageType = "text"
 変更点は以下の通り。
 盛り沢山だぞ！
 
-{{% fig-quote-md title="Release 4.4.2_0" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.2_0" lang="en" %}}
+{{% fig-quote type="md" title="Release 4.4.2_0" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.2_0" lang="en" %}}
 - Fix converting OLE-Object to Lua-Object causes panic on `VT_DATE` and some types.
 - Fix: lua.LNumber was treated as integer. It should be as float64
 - Lua: add function: `nyagos.to_ole_integer(n)` for `nyagos.d/trash.lua`
@@ -74,9 +74,9 @@ pageType = "text"
 - (#363) nyagos.alias.COMMAND="string" 中では逆クォート置換が機能しない問題を修正 (Thx! tostos5963 & sambatriste )
 - (#259) アプリケーションをダイアログで選んでファイルを開くコマンド `select` を実装
 - `diskfree` の出力フォーマットを修正
-{{% /fig-quote-md %}}
+{{% /fig-quote %}}
 
-{{% fig-quote-md title="Release 4.4.2_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.2_1" lang="en" %}}
+{{% fig-quote type="md" title="Release 4.4.2_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.2_1" lang="en" %}}
 - diskfree: trim spaces from the end of line
 - Fix: on `~"\Program Files"`, the first quotation disappeared and `Files` was not contained in the argument.
 
@@ -84,7 +84,7 @@ pageType = "text"
 
 - diskfree: 行末の空白を削除
 - `~"\Program Files"` の最初の引用符が消えて、`Files` が引数に含まれない不具合を修正
-{{% /fig-quote-md %}}
+{{% /fig-quote %}}
 
 新たに追加された `select` コマンドはエクスプローラのコンテキストメニュー「プログラムから開く」に近い機能を提供していて，たとえば
 

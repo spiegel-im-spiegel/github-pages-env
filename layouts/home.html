@@ -1,10 +1,10 @@
 {{ partial "top.html" . }}
-<head>
+<head prefix="og: http://ogp.me/ns#">{{ $siteTitle := .Site.Title | plainify }}
 {{ partial "header.html" . }}
-<title>{{ .Site.Title | safeHTML }}</title>
-<meta property="og:title" content="{{ .Site.Title | safeHTML }}">{{ with .Site.Data.site }}{{ with .description }}
-<meta name="description" content="{{ . | safeHTML }}">
-<meta property="og:description" content="{{ . | safeHTML }}">{{ end }}{{ with .image }}
+<title>{{ $siteTitle }}</title>
+<meta property="og:title" content="{{ $siteTitle }}">{{ with .Site.Data.site }}{{ with .description }}
+<meta name="description" content="{{ . | plainify }}">
+<meta property="og:description" content="{{ . | plainify }}">{{ end }}{{ with .image }}
 <meta property="og:image" content="{{ . | absURL }}">{{ end }}{{ end }}
 {{ partial "twitter-card.html" . }}
 

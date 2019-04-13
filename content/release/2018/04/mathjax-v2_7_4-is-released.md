@@ -31,7 +31,7 @@ Web ブラウザ上で高品質な数式表現を行うための JavaScript パ�
 
 不具合の修正がメインのようだ。
 
-{{% fig-quote-md title="MathJax v2.7.4 now available" link="https://www.mathjax.org/mathjax-v2-7-4-now-available/" lang="en" %}}
+{{% fig-quote type="md" title="MathJax v2.7.4 now available" link="https://www.mathjax.org/mathjax-v2-7-4-now-available/" lang="en" %}}
 - Prevent infinite loop if an autoloaded component fails to load. (#1936)
 - Always set movablelimits to false in `\overset` and `\underset`. (#1929)
 - CSS reset for box-sizing in HTML-CSS output. (#1942)
@@ -41,7 +41,7 @@ Web ブラウザ上で高品質な数式表現を行うための JavaScript パ�
 - Fix minimum height of accents in scripts. (#1956)
 - Make monospaced non-breaking space be of correct width. (#1953)
 - Handle size of centered large operators correctly in mrows. (#1933)
-{{% /fig-quote-md %}}
+{{% /fig-quote %}}
 
 アップデートは計画的に。
 

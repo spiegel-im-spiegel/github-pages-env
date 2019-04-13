@@ -31,7 +31,7 @@ tags  = [ "tools", "hugo" ]
 
 不具合の修正がメインのようだ。
 
-{{% fig-quote-md title="Release v0.38.2" link="https://github.com/gohugoio/hugo/releases/tag/v0.38.2" lang="en" %}}
+{{% fig-quote type="md" title="Release v0.38.2" link="https://github.com/gohugoio/hugo/releases/tag/v0.38.2" lang="en" %}}
 This is a bug-fix release with a couple of important fixes:
 
 - Fix handling of the `--contentDir` and possibly other related flags 080302eb @bep #4589
@@ -40,7 +40,7 @@ This is a bug-fix release with a couple of important fixes:
 Also in this release:
 
 - Set .Parent in bundled pages to its owner 6792d86a @bep #4582
-{{% /fig-quote-md %}}
+{{% /fig-quote %}}
 
 アップデートは計画的に。
 

@@ -1,11 +1,12 @@
 {{ partial "top.html" . }}
-<head>
-{{ partial "header.html" . }}
+<head prefix="og: http://ogp.me/ns#">{{ $secTitle := .Site.Data.section.golang.name | plainify }}{{ $siteTitle := .Site.Title | plainify }}{{ $desc := .Site.Data.section.golang.description | plainify | safeHTML }}
+{{ partial "header.html" . }}{{ with .AlternativeOutputFormats.Get "RSS" }}
+<link rel="alternate" href="{{ .Permalink }}" type="application/rss+xml" title="{{ $secTitle }} | {{ $siteTitle }}">{{ end }}
 <link rel="canonical" href="{{ .Permalink }}">
-<title>{{ .Site.Data.section.golang.name | safeHTML }} | {{ .Site.Title }}</title>
-<meta property="og:title" content="{{ .Site.Data.section.golang.name | safeHTML }} | {{ .Site.Title }}">
-<meta name="description" content="{{ .Site.Data.section.golang.description | safeHTML }}">
-<meta property="og:description" content="{{ .Site.Data.section.golang.description | safeHTML }}">
+<title>{{ $secTitle }} | {{ $siteTitle }}</title>
+<meta property="og:title" content="{{ $secTitle }} | {{ $siteTitle }}">
+<meta name="description" content="{{ $desc }}">
+<meta property="og:description" content="{{ $desc }}">
 <meta property="og:image" content="{{ .Site.Data.section.golang.image | absURL }}">
 {{ partial "twitter-card.html" . }}
 
@@ -18,7 +19,7 @@
 
 <main>
 <article>
-<h1>{{ .Site.Data.section.golang.name }} <a href='{{ .RSSLink }}' title='Feed'><i class='fas fa-rss'></i></a></h1>
+<h1>{{ $secTitle }}{{ with .OutputFormats.Get "RSS" }} <a href='{{ .RelPermalink }}' title='Feed'><i class='fas fa-rss'></i></a>{{ end }}</h1>
 <p><a href="https://golang.org/" title="The Go Programming Language">Go 言語</a>プログラミングに関する話題。</p>
 <p>記事中に出てくるサンプル・コードについては，特に断りがない限り， <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.ja">CC0</a> 相当での取り扱いで（つまり自由に再利用して）構わない。
 </p><p>
