@@ -34,7 +34,7 @@ title = "Shortcodes で HTML コードを埋め込む"
 
 書式は以下のとおりである。
 
-```
+```text
 {{</* shortcodename */>}} ... {{</* /shortcodename */>}}
 ```
 
@@ -50,7 +50,7 @@ title = "Shortcodes で HTML コードを埋め込む"
 
 これを使って
 
-```html
+```text
 {{</* fig-quote title="Compatible Licenses - Creative Commons" link="https://creativecommons.org/compatiblelicenses" lang="en" */>}}
 <q>The <a href="https://www.gnu.org/copyleft/gpl.html">GNU General Public License version 3 </a> was declared a <q>BY-SA–Compatible License</q> for version 4.0 on 8 October 2015.
 Note that compatibility with the GPLv3 is one-way only, which means you may license your contributions to adaptations of BY-SA 4.0 materials under GPLv3, but you may not license your contributions to adaptations of GPLv3 projects under BY-SA 4.0.
@@ -80,9 +80,9 @@ Other <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_G
 See the full <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3">analysis</a> and <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibility_analysis:_GPL">comparison</a> for more information.</q>
 {{< /fig-quote >}}
 
-`{{</* fig-quote */>}} ... {{</* /fig-quote */>}}` で囲まれている部分が `{{ .Inner }}` として展開されているのがお分かりだろうか。
+`{{</* fig-quote */>}} ... {{</* /fig-quote */>}}` で囲まれている部分が `.Inner` 変数に格納され展開されているのがお分かりだろうか。
 
-[Shortcodes] では `{{ .Inner }}` 以外に任意のパラメータを持たせることができる。
+[Shortcodes] では `.Inner` 変数以外に任意のパラメータを持たせることができる。
 上の例で言うなら `lang`, `title`, `link` が `{{</* fig-quote */>}}` に対するパラメータである。
 
 名前を持たないパラメータでも有効である。
@@ -110,37 +110,86 @@ See the full <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibi
 と展開される。
 パラメータの順番に意味ができるので，多数のパラメータが必要な場合には向かないかもしれない。
 
-更に `{{%/* fig-quote */%}} ... {{%/* /fig-quote */%}}` と表記すると，囲まれた部分を Markdown と解釈する。
-先程の `fig-quote` を例にすると
+### 指定した範囲を Markdown ドキュメントとして処理する
 
-```html
-{{%/* fig-quote title="Compatible Licenses - Creative Commons" link="https://creativecommons.org/compatiblelicenses" lang="en" */%}}
-“The [GNU General Public License version 3](https://www.gnu.org/copyleft/gpl.html) was declared a “BY-SA–Compatible License” for version 4.0 on 8 October 2015.
+`.Inner` 変数の内容を `markdownify` 関数に渡すことで Markdown ドキュメントとして処理する事ができる。
+先程の `layouts/shortcodes/fig-quote.html` を少し改造した  `layouts/shortcodes/fig-quote-md.html` を作ってみよう。
+
+{{< highlight html "hl_lines=2" >}}
+{{ with .Get "lang" }}<figure lang="{{ . }}">{{ else }}<figure>{{ end }}
+<blockquote>{{ .Inner | markdownify }}</blockquote>
+{{ if .Get "title"}}<figcaption>via <q>{{ with .Get "link"}}<a href="{{.}}">{{ end }}{{ .Get "title" }}{{ with .Get "link"}}</a>{{ end }}</q></figcaption>{{ end }}
+</figure>
+{{< /highlight >}}
+
+これを使って以下の Markdown 記述を処理してみる。
+
+```text
+{{</* fig-quote-md title="Compatible Licenses - Creative Commons" link="https://creativecommons.org/compatiblelicenses" lang="en" */>}}
+The [GNU General Public License version 3](https://www.gnu.org/copyleft/gpl.html) was declared a “BY-SA–Compatible License” for version 4.0 on 8 October 2015.
 Note that compatibility with the GPLv3 is one-way only, which means you may license your contributions to adaptations of BY-SA 4.0 materials under GPLv3, but you may not license your contributions to adaptations of GPLv3 projects under BY-SA 4.0.
 Other [special considerations](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3#Considerations_for_adapters_applying_the_GPLv3) apply.
-See the full [analysis](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3) and [comparison](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility_analysis:_GPL) for more information.”
-{{%/* /fig-quote */%}}
+See the full [analysis](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3) and [comparison](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility_analysis:_GPL) for more information.
+{{</* /fig-quote-md */>}}
 ```
 
-と Markdown で記述すれば以下のようになる。
+結果は以下の通り。
 
 ```html
 <figure lang="en">
-<blockquote><p>“The <a href="https://www.gnu.org/copyleft/gpl.html">GNU General Public License version 3</a> was declared a “BY-SA–Compatible License” for version 4.0 on 8 October 2015.
+<blockquote>The <a href="https://www.gnu.org/copyleft/gpl.html">GNU General Public License version 3</a> was declared a “BY-SA–Compatible License” for version 4.0 on 8 October 2015.
 Note that compatibility with the GPLv3 is one-way only, which means you may license your contributions to adaptations of BY-SA 4.0 materials under GPLv3, but you may not license your contributions to adaptations of GPLv3 projects under BY-SA 4.0.
 Other <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3#Considerations_for_adapters_applying_the_GPLv3">special considerations</a> apply.
-See the full <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3">analysis</a> and <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibility_analysis:_GPL">comparison</a> for more information.”</p>
-</blockquote>
+See the full <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3">analysis</a> and <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibility_analysis:_GPL">comparison</a> for more information.</blockquote>
 <figcaption>via <q><a href="https://creativecommons.org/compatiblelicenses">Compatible Licenses - Creative Commons</a></q></figcaption>
 </figure>
 ```
 
-{{% fig-quote type="md" title="Compatible Licenses - Creative Commons" link="https://creativecommons.org/compatiblelicenses" lang="en" %}}
-“The [GNU General Public License version 3](https://www.gnu.org/copyleft/gpl.html) was declared a “BY-SA–Compatible License” for version 4.0 on 8 October 2015.
+{{< fig-quote type="md" title="Compatible Licenses - Creative Commons" link="https://creativecommons.org/compatiblelicenses" lang="en" >}}
+The [GNU General Public License version 3](https://www.gnu.org/copyleft/gpl.html) was declared a “BY-SA–Compatible License” for version 4.0 on 8 October 2015.
 Note that compatibility with the GPLv3 is one-way only, which means you may license your contributions to adaptations of BY-SA 4.0 materials under GPLv3, but you may not license your contributions to adaptations of GPLv3 projects under BY-SA 4.0.
 Other [special considerations](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3#Considerations_for_adapters_applying_the_GPLv3) apply.
-See the full [analysis](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3) and [comparison](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility_analysis:_GPL) for more information.”
-{{% /fig-quote %}}
+See the full [analysis](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3) and [comparison](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility_analysis:_GPL) for more information.
+{{< /fig-quote >}}
+
+### [Shortcodes] を入れ子にする
+
+もうひとつ，以下の内容の `layouts/shortcodes/quote.html` ファイルを作ってみよう。
+
+```html
+{{ with .Get "lang" }}<q lang="{{ . }}">{{ else }}<q>{{ end }}{{ .Inner }}</q>
+```
+
+これは `.Inner` 変数の内容を `<q>` 要素で囲むだけの簡単なコードだが，先程の `fig-quote-md` と組み合わせて
+
+```text
+{{</* fig-quote-md title="Compatible Licenses - Creative Commons" link="https://creativecommons.org/compatiblelicenses" lang="en" */>}}
+{{</* quote */>}}The [GNU General Public License version 3](https://www.gnu.org/copyleft/gpl.html) was declared a “BY-SA–Compatible License” for version 4.0 on 8 October 2015.
+Note that compatibility with the GPLv3 is one-way only, which means you may license your contributions to adaptations of BY-SA 4.0 materials under GPLv3, but you may not license your contributions to adaptations of GPLv3 projects under BY-SA 4.0.
+Other [special considerations](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3#Considerations_for_adapters_applying_the_GPLv3) apply.
+See the full [analysis](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3) and [comparison](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility_analysis:_GPL) for more information.{{</* /quote */>}}
+{{</* /fig-quote-md */>}}
+```
+
+と入れ子構造にしてみる。
+結果は以下の通り入れ子でも上手く処理されているのが分かる。
+
+```html
+<figure lang="en">
+<blockquote><q>The <a href="https://www.gnu.org/copyleft/gpl.html">GNU General Public License version 3</a> was declared a “BY-SA–Compatible License” for version 4.0 on 8 October 2015.
+Note that compatibility with the GPLv3 is one-way only, which means you may license your contributions to adaptations of BY-SA 4.0 materials under GPLv3, but you may not license your contributions to adaptations of GPLv3 projects under BY-SA 4.0.
+Other <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3#Considerations_for_adapters_applying_the_GPLv3">special considerations</a> apply.
+See the full <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3">analysis</a> and <a href="https://wiki.creativecommons.org/wiki/ShareAlike_compatibility_analysis:_GPL">comparison</a> for more information.</q></blockquote>
+<figcaption>via <q><a href="https://creativecommons.org/compatiblelicenses">Compatible Licenses - Creative Commons</a></q></figcaption>
+</figure>
+```
+
+{{< fig-quote type="md" title="Compatible Licenses - Creative Commons" link="https://creativecommons.org/compatiblelicenses" lang="en" >}}
+{{< quote >}}The [GNU General Public License version 3](https://www.gnu.org/copyleft/gpl.html) was declared a “BY-SA–Compatible License” for version 4.0 on 8 October 2015.
+Note that compatibility with the GPLv3 is one-way only, which means you may license your contributions to adaptations of BY-SA 4.0 materials under GPLv3, but you may not license your contributions to adaptations of GPLv3 projects under BY-SA 4.0.
+Other [special considerations](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3#Considerations_for_adapters_applying_the_GPLv3) apply.
+See the full [analysis](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility:_GPLv3) and [comparison](https://wiki.creativecommons.org/wiki/ShareAlike_compatibility_analysis:_GPL) for more information.{{< /quote >}}
+{{< /fig-quote >}}
 
 ### [Shortcodes] のみで HTML 展開する場合
 
@@ -175,11 +224,6 @@ See the full [analysis](https://wiki.creativecommons.org/wiki/ShareAlike_compati
 
 {{< fig-youtube id="Kjqff5bkUrE" width="500" height="281" title="「はやぶさ2」地球スイングバイ解説CG ／ Hayabusa2's Earth Swing-by CG - YouTube" >}}
 
-## Shortcodes の例
-
-[spiegel-im-spiegel/hugo-theme-text] theme では [Shortcodes] を収録してないが，この[サイトの作業用リポジトリ](https://github.com/spiegel-im-spiegel/github-pages-env)には[いくつか置いてある](https://github.com/spiegel-im-spiegel/github-pages-env/tree/master/layouts/shortcodes)。
-再利用はご自由に。
-
 ## 組み込みの Shortcodes
 
 [Hugo] にはあらかじめ組み込まれた [Shortcodes] が幾つかある。
@@ -194,7 +238,7 @@ See the full [analysis](https://wiki.creativecommons.org/wiki/ShareAlike_compati
 とすると
 
 ```html
-<a href="#bookmark:10ef41a6c37b90d6a6452868d5ba00ba">このページのブックマーク</a>
+<a href="#bookmark">このページのブックマーク</a>
 ```
 
 のように展開される。
@@ -227,4 +271,3 @@ See the full [analysis](https://wiki.creativecommons.org/wiki/ShareAlike_compati
 [Shortcodes]: https://gohugo.io/extras/shortcodes/ "Shortcodes"
 [YouTube]: https://www.youtube.com/ "YouTube"
 [SlideShare]: http://www.slideshare.net/ "Share and Discover Knowledge on LinkedIn SlideShare"
-[spiegel-im-spiegel/hugo-theme-text]: https://github.com/spiegel-im-spiegel/hugo-theme-text
