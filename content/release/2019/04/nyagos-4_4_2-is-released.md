@@ -21,34 +21,6 @@ pageType = "text"
 盛り沢山だぞ！
 
 {{% fig-quote type="md" title="Release 4.4.2_0" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.2_0" lang="en" %}}
-- Fix converting OLE-Object to Lua-Object causes panic on `VT_DATE` and some types.
-- Fix: lua.LNumber was treated as integer. It should be as float64
-- Lua: add function: `nyagos.to_ole_integer(n)` for `nyagos.d/trash.lua`
-- Lua: support for p in `OLEObject:_iter() do ... end`
-- Lua: add function: `OLEObject:_release()`
-- Fix: trash.lua COM leak
-- Fix: IUnknown instance created by `create_object` was not released.
-- Implemented: expanding ~username
-- Fix: exit status of executables (not batchfile) was not printed
-- Fix: aliases using CMD.EXE (ren,mklink,dir...) did not work when %COMSPEC% is not defined.
-- Fix: %U+3000% was regarded as a charactor of parameter separators
-- (#359) -c and -k option can received multi arguments like CMD.EXE
-- vFix: (not exist dir)\something [TAB] -> The system cannot find the path specified.(Thx! tsuyoshicho)
-- (#360) Draw zero-width or surrogate paired characters as `<NNNNN>` (Thx! tsuyoshicho)
-- Add the option --output-surrogate-pair to output them as it is (not `<NNNNN>`)
-- su: network drives is not lost now after UNC-dialog
-- (#197) `ln` makes Junction when the source-path is directory and -s is not given)
-- Implemented built-in `mklink` command and remove the alias mklink as `CMD.exe /c mklink`
-- Remove zero-bytes Lua files (cdlnk.lua, open.lua, su.lua, swapstdfunc.lua )
-- (#262) `diskfree` shows volume label and filesystem
-- Enabled to execute batch file even if UNC path is current directory.
-- Fix rename,assoc,dir & for did not run when the current directory is UNC-path
-- Fix (#363) Fix backquote did not work in nyagos.alias.COMMAND="string" (Thx! tostos5963 & sambatriste )
-- (#259) Implemented `select` command to open a file with dialog to `select` application.
-- Fix the format of `diskfree`'s output
-
-----
-
 - OLEオブジェクトからLuaオブジェクトへの変換が日付型などでパニックを起こす不具合を修正
 - Luaの数値が実数として OLE に渡されるべきだったのに、整数として渡されていた。
 - Lua: 関数: `nyagos.to_ole_integer(n)` (数値を OLE 向けの整数に変換)を追加(trash.lua用)
@@ -77,11 +49,6 @@ pageType = "text"
 {{% /fig-quote %}}
 
 {{% fig-quote type="md" title="Release 4.4.2_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.2_1" lang="en" %}}
-- diskfree: trim spaces from the end of line
-- Fix: on `~"\Program Files"`, the first quotation disappeared and `Files` was not contained in the argument.
-
-----
-
 - diskfree: 行末の空白を削除
 - `~"\Program Files"` の最初の引用符が消えて、`Files` が引数に含まれない不具合を修正
 {{% /fig-quote %}}
@@ -104,5 +71,12 @@ $ select index.html
 まぁ今は余裕があるかと言われればそうでもないんだけど...
 
 アップデートは計画的に。
+
+## 【2019-04-13 追記】 NYAGOS 4.4.2_2 がリリースされた
+
+{{% fig-quote type="md" title="Release 4.4.2_2" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.2_2" lang="en" %}}
+- Ctrl-RIGHT,ALT-F(次の単語へ), Ctrl-LEFT,ALT-B(前の単語へ)を実装
+- インクリメンタルサーチ開始時にトップへ移動する時のバックスペースの数が間違っていた不具合を修正
+- (#364) `ESC[0A` というエスケープシーケンスが使われていた不具合を修正
 
 [NYAGOS]: https://github.com/zetamatta/nyagos/ "zetamatta/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"
