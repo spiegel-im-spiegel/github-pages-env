@@ -1,7 +1,7 @@
 {{ partial "top.html" . }}
-<head prefix="og: http://ogp.me/ns#">{{ $title := .Title | plainify }}{{ $siteTitle := .Site.Title | plainify }}{{ $desc := .Description | plainify }}
+<head prefix="og: http://ogp.me/ns#">{{ $title := .Title | plainify }}{{ $siteTitle := .Site.Title | plainify }}{{ $desc := .Description | plainify | safeHTML }}
 {{ partial "header.html" . }}
-<title>{{ $title}} — {{ $siteTitle }}</title>
+<title>{{ $title}} | {{ $siteTitle }}</title>
 <meta property="og:title" content="{{ $title}} — {{ $siteTitle }}">
 <meta name="description" content="{{ $desc }}">
 <meta property="og:description" content="{{ $desc }}">{{ with .Site.Data.site }}{{ with .image }}
