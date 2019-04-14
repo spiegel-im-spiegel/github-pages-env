@@ -1,11 +1,10 @@
 +++
 title = "Ubuntu に Mono を導入する"
-date =  "2019-04-14T16:38:26+09:00"
+date = "2019-04-14T19:36:23+09:00"
 description = "今回は Mono および Mono で動くアプリケーションを導入する。"
 image = "/images/attention/kitten.jpg"
 tags = [ "linux", "ubuntu", "password", "management", "tools", "git", "git-extensions" ,"dot-net", "mono" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
