@@ -39,23 +39,6 @@
 - [How to use I2P on Android – Masayuki Hatta – Medium](https://medium.com/@mhatta/how-to-use-i2p-on-android-91dd379fdb65?fbclid=IwAR1kckWLLLJv1U_8-FIreYOm0rWJcckV_p_OUpolUFe_BH2G-4voDfDyyxk)
 - [The I2P Out-of-the-Box: Try I2P easily with I2P Firefox Browser Profile](https://medium.com/@mhatta/the-i2p-out-of-the-box-try-i2p-easily-with-i2p-firefox-browser-profile-3649ab8e8ff2)
 
-## Mono と .NET Core
-
-- [Mono](https://www.mono-project.com/)
-- [.NET Foundation](https://www.dotnetfoundation.org/)
-
-- [C#7に完全対応した「Mono 5.0」が公開 | OSDN Magazine](https://mag.osdn.jp/17/05/22/150000)
-- [ASCII.jp：.NET Core / .NET Framework / Xamarin / Monoの関係を整理する (1/3)](https://ascii.jp/elem/000/001/156/1156721/)
-- [.NET Core について | Microsoft Docs](https://docs.microsoft.com/ja-jp/dotnet/core/about)
-- [.NETの派生を理解する](https://www.infoq.com/jp/articles/varieties-dotnet)
-- [オープンソースのMonoと.NET Coreを比較](https://www.ossnews.jp/compare/Mono/dotNET_Core)
-
-## SNS
-
-- [MIT Tech Review: フェイスブック広告が 「差別」を排除できない 根本的な理由](https://www.technologyreview.jp/s/134723/facebooks-ad-serving-algorithm-discriminates-by-gender-and-race/)
-- [「馬鹿げたたわ言も言えなくなった」--復帰後のトーバルズ氏が自己評価 - ZDNet Japan](https://japan.zdnet.com/article/35135332/)
-- [フェイスブック、広告主が意図しないユーザー選別による「差別」 | 新聞紙学的](https://kaztaira.wordpress.com/2019/04/07/%e3%83%95%e3%82%a7%e3%82%a4%e3%82%b9%e3%83%96%e3%83%83%e3%82%af%e3%81%ae%e5%ba%83%e5%91%8a%e3%82%a2%e3%83%ab%e3%82%b4%e3%83%aa%e3%82%ba%e3%83%a0%e3%81%8c%e5%b7%ae%e5%88%a5%e3%82%92%e5%ba%83%e3%81%92-2/)
-
 
 ## リリース情報
 
