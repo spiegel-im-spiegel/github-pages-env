@@ -1,0 +1,21 @@
+<table>{{ $hugo := hugo }}
+<tr>
+	<th>テンプレート</th>
+	<th>出力内容</th>
+</tr><tr>
+	<td><code>{{ `{{` }} hugo.Generator {{ `}}` }}</code></td>
+	<td><code>{{ $hugo.Generator | htmlEscape | safeHTML }}</code></td>
+</tr><tr>
+	<td><code>{{ `{{` }} hugo.Version {{ `}}` }}</code></td>
+	<td><code>{{ $hugo.Version | htmlEscape | safeHTML }}</code></td>
+</tr><tr>
+	<td><code>{{ `{{` }} hugo.CommitHash {{ `}}` }}</code></td>
+	<td><code>{{ $hugo.CommitHash | htmlEscape | safeHTML }}</code></td>
+</tr><tr>
+	<td><code>{{ `{{` }} hugo.BuildDate {{ `}}` }}</code></td>
+	<td><code>{{ $hugo.BuildDate | htmlEscape | safeHTML }}</code></td>
+</tr><tr>
+	<td><code>{{ `{{` }} hugo.Environment {{ `}}` }}</code></td>
+	<td><code>{{ $hugo.Environment | htmlEscape | safeHTML }}</code></td>
+</tr>
+</table>

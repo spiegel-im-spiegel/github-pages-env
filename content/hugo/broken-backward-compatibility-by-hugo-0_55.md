@@ -23,7 +23,7 @@ pageType = "text"
 
 具体的な例を挙げたほうが分かりやすいだろう。
 
-たとえば文章を `<div>` 要素で囲むだけの簡単な [shortcode] “`div-box`” を作ってみる。
+たとえば記述内容を `<div>` 要素で囲むだけの簡単な [shortcode] “`div-box`” を作ってみる。
 コードはこんな感じ。
 
 ```html
@@ -70,16 +70,16 @@ pageType = "text"
 
 と `.Inner` 変数の内容を `markdownify` 関数に渡して明示的に変換する必要がある[^c1]。
 
-[^c1]: もうひとつの方法としてはテンプレート・ファイルの先頭で `{{ $_hugo_config := `{ "version": 1 }` }}` と呪文を唱えることで 0.55 以前の動作に戻る。が，これ将来バージョンで無効になるよなぁ，多分。
+[^c1]: もうひとつの方法としてはテンプレート・ファイルの先頭で ``{{ $_hugo_config := `{ "version": 1 }` }}`` と呪文を唱えることで 0.55 以前の動作に戻る。が，これ将来バージョンで無効になるよなぁ，多分。
 
-なんでこんなことになったかというと，地の記述と連動しているらしい。
-たとえば `span` という名前で以下の内容の [shortcode] をつくる。
+なんでこんなことになったかというと `{{%/* */%}}` での処理は地の記述と連動しているらしい。
+たとえば `span` という名前で以下の内容の [shortcode] をつくり
 
 ```html
 <span>{{ .Inner }}</span>
 ```
 
-表の中でこの `span` を使うと
+これを markdown の表の中で使うと
 
 ```markdown
 | 強調したい |
@@ -95,13 +95,18 @@ pageType = "text"
 
 という感じに `{{</* */>}}` と `{{%/* */%}}` で違いが生じる。
 
-[Hugo] のテンプレート処理は内部で文脈情報を持っているようで，同じ記述でもどの要素の中で書かれるか（`<head>` 要素か `<body>` 要素か，あるいは JavaScript か CSS か）で出力が違ったりする。
+[Hugo] のテンプレート処理は文脈依存になっていて，同じ記述でもどの要素の中で書かれるか（`<head>` 要素か `<body>` 要素か，あるいは JavaScript か CSS か）で出力が違ったりする。
 おそらく [shortcode] の `{{%/* */%}}` 記述でも同じように文脈依存で出力が変わるようにしたかったのだろう。
 
 でも，私は `.Inner` 変数の展開を `{{</* */>}}` か `{{%/* */%}}` かで使い分けていたので，今回のアップデートで大ダメージを食らってしまったですよ。
 しょうがないので [shortcode] を設計し直したけどね `orz`
 
-後方互換性が壊れる変更は（少なくとも最初は）オプトインで組み込めるようにして欲しい。
+今後の [shortcode] の運用方針は以下のような感じだろうか。
+
+- `.Inner` の内容を markdown ドキュメントとして処理するかどうか明示的に制御する場合は `{{</* */>}}` を使う
+- `.Inner` の処理を文脈依存で行う（[shortcode] を入れ子にするなどの）場合は `{{%/* */%}}` を使う
+
+後方互換性が壊れる変更は，少なくとも最初はオプトアウトではなくオプトインで組み込めるようにして欲しい。
 
 ## Shortcode の入れ子ができてる
 
@@ -148,17 +153,22 @@ WARN 2019/04/13 09:00:00 Page's .GetParam is deprecated and will be removed in a
 
 テンプレート内で `.Hugo`, `.RSSLink` 変数および `.GetParam` 関数が使われていると上記ワーニングが出る。
 
-`.Hugo` 変数では [Hugo] のバージョン情報や `<head>` 要素に埋め込む `generator` メタデータなどを取得できるが，今のところ代替手段が提供されてないっぽい。
-ので，バッサリ削除することにした。
-ドキュメントに
+### .Hugo の廃止と代替手段
 
-{{% fig-quote type="md" title="Hugo-specific Variables | Hugo" link="https://gohugo.io/variables/hugo/" lang="en" %}}
-{{% quote %}}We highly recommend using `.Hugo.Generator` in your website’s `<head>`. `.Hugo.Generator` is included by default in all themes hosted on [themes.gohugo.io](http://themes.gohugo.io/). The generator tag allows the Hugo team to track the usage and popularity of Hugo.{{% /quote %}}
-{{% /fig-quote %}}
+（以前の内容を書き換えた）
 
-って書いてあるんだけどねぇ。
+`.Hugo` 変数は将来バージョンで削除されるようだ。
+代替として（変数ではなく） `hugo` 関数が用意されている（Thanx [@peaceiris](https://twitter.com/piris314/status/1117092823159853057)）。
+出力例は以下の通り。
 
-`.RSSLink` 変数は既に代替手段が用意されている。
+{{< hugo-info >}}
+
+この手が使えるなら `.Site` 変数も関数で用意してほしいものである。
+
+### .RSSLink の廃止と代替手段
+
+`.RSSLink` 変数も将来バージョンで削除されるようだ。
+代替として `.AlternativeOutputFormats` および `.OutputFormats` 変数が使える。
 たとえば `<head>` 要素内なら
 
 ```html
@@ -175,9 +185,8 @@ WARN 2019/04/13 09:00:00 Page's .GetParam is deprecated and will be removed in a
 {{ end }}
 ```
 
-などと書けばいいようだ。
-
-`.AlternativeOutputFormats` および `.OutputFormats` 変数はかなり応用範囲が広くて，たとえば私はフィードを JSON 形式でも用意しているが，
+などと書ける。
+`.AlternativeOutputFormats` および `.OutputFormats` 変数はかなり応用範囲が広くて，たとえば私は[フィードを JSON 形式でも用意]({{< relref "./feed-with-json-format.md" >}} "JSON 形式で Feed を出力する")しているが，
 
 ```html
 {{ with .Site.Home.AlternativeOutputFormats.Get "JSON" }}
@@ -185,11 +194,16 @@ WARN 2019/04/13 09:00:00 Page's .GetParam is deprecated and will be removed in a
 {{ end }}
 ```
 
-などと書けば簡単に `<head>` 要素に組み込める。
+と書けば簡単に `<head>` 要素に組み込める。
+
+### .GetParam の廃止と代替手段
 
 `.GetParam` 関数については随分前からアナウンスがあったので使っている人はいないと思うが `.Param` 関数で代替できる。
 
 ## ブックマーク
+
+- [0.55.1: 3 Bug Fixes | Hugo](https://gohugo.io/news/0.55.1-relnotes/)
+- [.Hugo.Generator は廃止されるので hugo.Generator を使おう - Qiita](https://qiita.com/peaceiris/items/b6d611e184b2f28cc0ab)
 
 - [Shortcodes で HTML コードを埋め込む]({{< relref "./shortcodes.md">}})
 
