@@ -69,4 +69,5 @@ pageType = "text"
 - [Amazonサードパーティいじめをやめる、検索結果で自社ブランド商品を目立たせる宣伝廃止  |  TechCrunch Japan](https://jp.techcrunch.com/2019/04/05/2019-04-03-amazon-reportedly-removes-the-most-obvious-promotions-for-its-private-brands-from-search-results/)
 - [MySpaceの大規模データ喪失の前に集めた45万曲をInternet Archiveがアップロード  |  TechCrunch Japan](https://jp.techcrunch.com/2019/04/05/2019-04-03-the-internet-archive-has-uploaded-450000-songs-collected-before-myspaces-massive-data-loss/)
 - [MIT Tech Review: グーグルが新設した「AI倫理委員会」に社員が猛反発した理由](https://www.technologyreview.jp/s/133900/googles-ai-council-faces-blowback-over-a-conservative-member/)
+    - [MIT Tech Review: グーグルの「AI倫理委員会」、設置発表から1週間余りで解散](https://www.technologyreview.jp/nl/google-has-now-cancelled-its-ai-ethics-board-after-a-backlash-from-staff/)
 - [人間の作業を手伝うCMUのバックパック型ロボットアーム  |  TechCrunch Japan](https://jp.techcrunch.com/2019/04/06/2019-04-05-cmus-robotic-arm-attaches-to-a-backpack-to-lend-a-helping-hand/)

@@ -153,6 +153,7 @@ GitHub に BAN されたらメガっさ困るが Facebook なら大して未練�
 - [ニュージーランドの大量殺人事件に関するEFFの考え：恐怖が導く検閲へ道 – P2Pとかその辺のお話R](https://p2ptk.org/freedom-of-speech/1702)
 - [Change your Facebook password. And don't try to remember it. - F-Secure Blog](https://blog.f-secure.com/change-your-facebook-password-and-dont-try-to-remember-it/)
 - [MIT Tech Review: フェイスブックのデータがまた漏洩、5億件以上がクラウドに放置](https://www.technologyreview.jp/nl/more-than-half-a-billion-facebook-records-were-left-exposed-on-the-public-internet/)
+- [サードパーティ取得のFacebookデータが公開状態だった件についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/04/09/063000)
 
 [Signal]: https://signal.org/
 [Feedly]: https://feedly.com/ "Feedly. Read more, know more."
