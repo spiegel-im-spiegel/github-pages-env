@@ -3,7 +3,7 @@ title = "Ubuntu で遊ぶ"
 date = "2019-03-31T10:14:36+09:00"
 description = "この記事は覚え書きとして随時更新していく予定。"
 image = "/images/attention/kitten.jpg"
-tags = [ "virtualbox", "linux", "ubuntu", "security" ]
+tags = [ "virtualbox", "linux", "ubuntu", "security", "golang" ]
 pageType = "text"
 
 [scripts]
@@ -228,11 +228,160 @@ $ sudo apt install kdiff3
 
 と設定しておけば [git] のマージ等で [KDiff3] が呼び出される。
 
+### [Go] コンパイラを導入する
+
+APT で [Go 言語]コンパイラを入れれるかなぁ，と思ったが
+
+```text
+$ sudo apt show golang
+[sudo] spiegel のパスワード: 
+Package: golang
+Version: 2:1.10~4ubuntu1
+Priority: optional
+Section: devel
+Source: golang-defaults
+Origin: Ubuntu
+...
+```
+
+なんだこれ。
+2世代も前じゃん。
+やる気がなさすぎる `orz`
+
+[Go] コンパイラは APT を使わず自前で入れたほうがいいようだ。
+それなら `/usr/local` とかじゃなくてユーザのホームディレクトリ下に入れようか。
+私は標準ライブラリのソースコードも頻繁に見るし，そのほうがいいだろう。
+
+```text
+$ mkdir ~/local
+$ cd local
+$ curl https://dl.google.com/go/go1.12.4.linux-amd64.tar.gz -O
+
+Command 'curl' not found, but can be installed with:
+
+sudo apt install curl
+```
+
+まじすか。
+[curl] が入ってないとか。
+しょうがない入れるか。
+
+```text
+$ sudo apt install curl
+
+$ curl -V
+curl 7.61.0 (x86_64-pc-linux-gnu) libcurl/7.61.0 OpenSSL/1.1.1 zlib/1.2.11 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.4) nghttp2/1.32.1 librtmp/2.3
+Release-Date: 2018-07-11
+Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtmp rtsp smb smbs smtp smtps telnet tftp 
+Features: AsynchDNS IDN IPv6 Largefile GSS-API Kerberos SPNEGO NTLM NTLM_WB SSL libz TLS-SRP HTTP2 UnixSockets HTTPS-proxy PSL 
+```
+
+うーん？ 微妙にバージョンが古い気がするが... まぁいいか。
+
+では気を取り直して。
+
+```text
+$ curl https://dl.google.com/go/go1.12.4.linux-amd64.tar.gz -O
+$ tar -xvf go1.12.4.linux-amd64.tar.gz
+$ cd go/bin
+$ ./go version
+go version go1.12.4 linux/amd64
+```
+
+よし。
+ちゃんと動く。
+
+`go env` で環境周りを見てみると
+
+```text
+$ go env
+GOARCH="amd64"
+GOBIN=""
+GOCACHE="/home/username/.cache/go-build"
+GOEXE=""
+GOFLAGS=""
+GOHOSTARCH="amd64"
+GOHOSTOS="linux"
+GOOS="linux"
+GOPATH="/home/username/go"
+GOPROXY=""
+GORACE=""
+GOROOT="/home/username/local/go"
+...
+```
+
+というわけで環境変数 `GOPATH` には `~/go` ディレクトリがセットされているようだ。
+設定はこのまま使うとして `~/.profile` に以下の記述を追加しておく。
+
+```text
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/local/go/bin" ] ; then
+    PATH="$PATH:$HOME/local/go/bin:$HOME/go/bin"
+    export GO111MODULE=on
+fi
+```
+
+これで再ログインすれば
+
+```text
+$ go version
+go version go1.12.4 linux/amd64
+
+$ env | grep GO111MODULE
+GO111MODULE=on
+```
+
+と設定が反映されているのが分かる。
+
+一応動作確認をしておこう。
+
+```text
+$ go get github.com/spiegel-im-spiegel/gpgpdump/cli/gpgpdump@latest
+go: finding github.com/spiegel-im-spiegel/gpgpdump/cli/gpgpdump latest
+go: finding github.com/spiegel-im-spiegel/gpgpdump/cli latest
+go: finding github.com/spiegel-im-spiegel/gpgpdump v0.5.0
+go: downloading github.com/spiegel-im-spiegel/gpgpdump v0.5.0
+go: extracting github.com/spiegel-im-spiegel/gpgpdump v0.5.0
+go: finding github.com/inconshreveable/mousetrap v1.0.0
+go: finding github.com/BurntSushi/toml v0.3.1
+go: finding github.com/spf13/pflag v1.0.3
+go: finding github.com/spiegel-im-spiegel/gocli v0.9.4
+go: finding github.com/spf13/cobra v0.0.3
+go: finding golang.org/x/crypto v0.0.0-20190320223903-b7391e95e576
+go: finding golang.org/x/xerrors v0.0.0-20190315151331-d61658bd2e18
+go: finding github.com/mattn/go-isatty v0.0.7
+go: finding golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a
+go: finding golang.org/x/sys v0.0.0-20190222072716-a9d3bda3a223
+go: downloading github.com/spiegel-im-spiegel/gocli v0.9.4
+go: downloading github.com/spf13/cobra v0.0.3
+go: downloading golang.org/x/xerrors v0.0.0-20190315151331-d61658bd2e18
+go: downloading golang.org/x/crypto v0.0.0-20190320223903-b7391e95e576
+go: downloading github.com/BurntSushi/toml v0.3.1
+go: extracting github.com/spiegel-im-spiegel/gocli v0.9.4
+go: extracting golang.org/x/xerrors v0.0.0-20190315151331-d61658bd2e18
+go: extracting github.com/BurntSushi/toml v0.3.1
+go: extracting github.com/spf13/cobra v0.0.3
+go: downloading github.com/spf13/pflag v1.0.3
+go: extracting github.com/spf13/pflag v1.0.3
+go: extracting golang.org/x/crypto v0.0.0-20190320223903-b7391e95e576
+
+$ ~/go/bin/gpgpdump -v
+gpgpdump dev-version
+Copyright 2016-2019 Spiegel (based on pgpdump by kazu-yamamoto)
+Licensed under Apache License, Version 2.0
+```
+
+よしよし。
+ちゃんとビルドできてるな。
+
 [VirtualBox]: https://www.virtualbox.org/ "Oracle VM VirtualBox"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [Debian]: https://www.debian.org/ "Debian -- The Universal Operating System"
 [git]: https://git-scm.com/
 [KDiff3]: http://kdiff3.sourceforge.net/
+[Go 言語]: https://golang.org/ "The Go Programming Language"
+[Go]: https://golang.org/ "The Go Programming Language"
+[curl]: https://curl.haxx.se/
 
 ## 参考図書
 
