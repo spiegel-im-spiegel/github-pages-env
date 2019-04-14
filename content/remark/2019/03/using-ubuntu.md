@@ -193,10 +193,46 @@ Copyright (C) 1988-2016 Free Software Foundation, Inc.
 法律の許す限り、　無保証　です.
 ```
 
+### [KDiff3] の導入
+
+[KDiff3] は普通に APT からインストールできる。
+
+```text
+$ sudo apt show kdiff3
+Package: kdiff3
+Version: 0.9.98-4
+Priority: optional
+Section: universe/kde
+Origin: Ubuntu
+```
+
+よし，最新版があるな。
+ではインストールしてしまおう。
+
+```text
+$ sudo apt install kdiff3
+```
+
+インストールが完了するとドックのアプリボタンで表示されるアプリ一覧にアイコンが追加される。
+
+ちなみに `/usr/bin/kdiff3` にインストールされるので，たとえば `~/.gitconfig` に
+
+```text
+[merge]
+    tool = kdiff3
+[diff]
+    guitool = kdiff3
+[difftool "kdiff3"]
+    path = /usr/bin/kdiff3
+```
+
+と設定しておけば [git] のマージ等で [KDiff3] が呼び出される。
 
 [VirtualBox]: https://www.virtualbox.org/ "Oracle VM VirtualBox"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [Debian]: https://www.debian.org/ "Debian -- The Universal Operating System"
+[git]: https://git-scm.com/
+[KDiff3]: http://kdiff3.sourceforge.net/
 
 ## 参考図書
 
@@ -204,7 +240,7 @@ Copyright (C) 1988-2016 Free Software Foundation, Inc.
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/Ubuntu-18-04-Remix-%E4%BD%BF%E3%81%84%E6%96%B9%E3%81%8C%E5%85%A8%E9%83%A8%E3%82%8F%E3%81%8B%E3%82%8B%E6%9C%AC-%E6%97%A5%E7%B5%8CBP%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E3%83%99%E3%82%B9%E3%83%88%E3%83%A0%E3%83%83%E3%82%AF/dp/4296100742?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4296100742"><img src="https://images-fe.ssl-images-amazon.com/images/I/519EJD1-MXL._SL160_.jpg" width="113" alt="photo"></a></div>
   <dl class="fn">
     <dt><a href="https://www.amazon.co.jp/Ubuntu-18-04-Remix-%E4%BD%BF%E3%81%84%E6%96%B9%E3%81%8C%E5%85%A8%E9%83%A8%E3%82%8F%E3%81%8B%E3%82%8B%E6%9C%AC-%E6%97%A5%E7%B5%8CBP%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E3%83%99%E3%82%B9%E3%83%88%E3%83%A0%E3%83%83%E3%82%AF/dp/4296100742?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4296100742">Ubuntu 18.04 LTS 日本語 Remix 使い方が全部わかる本 (日経BPパソコンベストムック)</a></dt>
-	<dd>日経Linux (編集)</dd>
+    <dd>日経Linux (編集)</dd>
     <dd>日経BP社 2018-10-02 (Release 2018-10-02)</dd>
     <dd>Book ムック</dd>
     <dd>ASIN: 4296100742, EAN: 9784296100743</dd>
