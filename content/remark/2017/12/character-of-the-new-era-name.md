@@ -3,7 +3,7 @@ title = "新元号「文字」という技術的負債"
 date =  "2017-12-06T10:36:57+09:00"
 description = "改めて提案しよう。「日常生活に元号は必要ない」"
 image = "/images/attention/remark.jpg"
-tags        = [ "character", "unicode", "calendar" ]
+tags        = [ "character", "unicode", "calendar", "engineering" ]
 
 [scripts]
   mathjax = false

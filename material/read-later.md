@@ -39,10 +39,6 @@
 - [How to use I2P on Android – Masayuki Hatta – Medium](https://medium.com/@mhatta/how-to-use-i2p-on-android-91dd379fdb65?fbclid=IwAR1kckWLLLJv1U_8-FIreYOm0rWJcckV_p_OUpolUFe_BH2G-4voDfDyyxk)
 - [The I2P Out-of-the-Box: Try I2P easily with I2P Firefox Browser Profile](https://medium.com/@mhatta/the-i2p-out-of-the-box-try-i2p-easily-with-i2p-firefox-browser-profile-3649ab8e8ff2)
 
-
-- [令和へ対応せよ！元号のアルゴリズム - Qiita](https://qiita.com/sakdor/items/e13421c60438408e0e5b)
-- [USN-3949-1: OpenJDK 11 vulnerability | Ubuntu security notices](https://usn.ubuntu.com/3949-1/)
-
 ## リリース情報
 
 
@@ -65,6 +61,7 @@
     - [Vulnerabilities in the WPA3 Wi-Fi Security Protocol - Schneier on Security](https://www.schneier.com/blog/archives/2019/04/vulnerabilities_7.html)
     - [「WPA3」に脆弱性、最新のWi-Fiセキュリティプロトコルにもパスワード盗難の恐れあり：実行のハードルが低い - ＠IT](https://www.atmarkit.co.jp/ait/articles/1904/15/news046.html)
 - [A Guide to Common Types of Two-Factor Authentication on the Web | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2017/09/guide-common-types-two-factor-authentication-web)
+- [USN-3949-1: OpenJDK 11 vulnerability | Ubuntu security notices](https://usn.ubuntu.com/3949-1/)
 
 ## 天文関連
 
