@@ -373,6 +373,7 @@ trim_trailing_whitespace = false
 - [Atom - TeX Wiki](https://texwiki.texjp.org/?Atom)
 - [GitHub Wiki の Markdown を Atom で編集するアレコレ - Qiita](https://qiita.com/alt-core/items/491357aadcd856c7ea5a)
 - [GitHub - increments/atom-qiita-syntax: Qiita theme syntax for Atom](https://github.com/increments/atom-qiita-syntax)
+- [ATOMエディタでコメントアウトの色がグレーで困った | エクサディア](https://www.exaddia.com/archives/588)
 
 - [ATOM で Go — プログラミング言語 Go]({{< ref "/golang/golang-with-atom.md" >}})
 

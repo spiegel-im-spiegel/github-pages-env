@@ -168,6 +168,7 @@ $ fc-list | grep Noto | grep JP
 - [UbuntuTips/Desktop/InstallFont - Ubuntu Japanese Wiki](https://wiki.ubuntulinux.jp/UbuntuTips/Desktop/InstallFont)
 - [CentOS/Ubuntuでフォントを追加する方法 | 俺的備忘録 〜なんかいろいろ〜](https://orebibou.com/2017/01/centosubuntu%E3%81%A7%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88%E3%82%92%E8%BF%BD%E5%8A%A0%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/)
 - [GitHub、フリーのコードエディター「Atom 1.36」を正式公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1180090.html)
+- [Items in the Menu Bar are invisible on Ubuntu 18.10 when atom window is focused. · Issue #18535 · atom/atom · GitHub](https://github.com/atom/atom/issues/18535)
 
 - [ATOM Editor に関するメモ]({{< ref "/remark/2015/atom-editor.md" >}})
 
