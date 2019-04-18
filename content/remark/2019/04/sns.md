@@ -49,6 +49,7 @@ pageType = "text"
 
 - [MIT Tech Review: フェイスブック広告が 「差別」を排除できない 根本的な理由](https://www.technologyreview.jp/s/134723/facebooks-ad-serving-algorithm-discriminates-by-gender-and-race/)
 - [フェイスブック、広告主が意図しないユーザー選別による「差別」 | 新聞紙学的](https://kaztaira.wordpress.com/2019/04/07/%e3%83%95%e3%82%a7%e3%82%a4%e3%82%b9%e3%83%96%e3%83%83%e3%82%af%e3%81%ae%e5%ba%83%e5%91%8a%e3%82%a2%e3%83%ab%e3%82%b4%e3%83%aa%e3%82%ba%e3%83%a0%e3%81%8c%e5%b7%ae%e5%88%a5%e3%82%92%e5%ba%83%e3%81%92-2/)
+- [フェイスブックの広告プラットフォームは、根幹から「差別的」かもしれない｜WIRED.jp](https://wired.jp/2019/04/17/facebooks-ad-system-discrimination/) : 考えるこたぁ皆同じ（笑）
 
 といった記事を見かけるが， SNS そのものが「選別装置」であるなら，そこに「差別」が生まれるのはむしろ必然なんじゃないか。
 もし SNS から「差別」をなくしたいなら「SNS でないもの」になるしかない。

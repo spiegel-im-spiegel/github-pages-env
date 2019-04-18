@@ -354,6 +354,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [context.Contextでリクエストスコープな値を持ち回す - Qiita](http://qiita.com/hogedigo/items/a26d816395b7545ce5f8) : [context](https://golang.org/pkg/context/) の使い方って（名前からいって）本来こっちだよね
 - [goroutine にシグナルを送信する - Qiita](http://qiita.com/Kei-Kamikawa/items/620f9504daf2ec53f0b5)
 - [Go言語のContextパッケージのTODO( )って何？いつ使うの？ - Qiita](https://qiita.com/po3rin/items/3556c36182e0c635791c)
+- [Go 言語 context パッケージ誕生の背景と使用方法](https://ayasuda.github.io/pages/what_is_context_at_go.html)
 
 ## 開発支援
 
@@ -771,6 +772,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [go - Creating call graph in golang - Stack Overflow](https://stackoverflow.com/questions/31362332/creating-call-graph-in-golang#31369718)
 - [Goのインクリメントとデクリメントのベンチマーク比較 - Qiita](https://qiita.com/qushot/items/306a9c9c0321304def8e)
 - [Goの shortcircuit 最適化パスを読んだので解説する - Qiita](https://qiita.com/osamu329/items/3ac05c3b71f495fc1e61)
+- [goumlでgoプロジェクトのUML図を出力する - Qiita](https://qiita.com/rubyu/items/d78470be2ddd9e86ebb5)
 
 ### 他言語との比較もしくは移行
 

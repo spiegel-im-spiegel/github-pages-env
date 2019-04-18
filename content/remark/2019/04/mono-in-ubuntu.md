@@ -156,6 +156,7 @@ Xamarin は  [Mono] Project のオーナー企業であると同時に [Mono] �
 - [.NET Core について | Microsoft Docs](https://docs.microsoft.com/ja-jp/dotnet/core/about)
 - [.NETの派生を理解する](https://www.infoq.com/jp/articles/varieties-dotnet)
 - [オープンソースのMonoと.NET Coreを比較](https://www.ossnews.jp/compare/Mono/dotNET_Core)
+- [Xamarin 最近どうよ？ - Qiita](https://qiita.com/amay077/items/399002a02c1abf9d620b)
 
 - [How To: run Git Extensions on Linux · gitextensions/gitextensions Wiki](https://github.com/gitextensions/gitextensions/wiki/How-To%3A-run-Git-Extensions-on-Linux)
 

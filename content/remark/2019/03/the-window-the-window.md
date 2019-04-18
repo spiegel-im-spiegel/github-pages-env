@@ -105,6 +105,7 @@ Microsoft は Windows 7 を2020年1月まで **ちゃんと** サポートする
 ## ブックマーク
 
 - [「Oracle VM VirtualBox 6.0」が正式版に ～「Hyper-V」フォールバックをサポート - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1159338.html)
+    - [Oracle、フリーの仮想PCソフト「Oracle VM VirtualBox」v6.0.6/v5.2.28を公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1180552.html)
 - [VirtualBox を Windows にインストール - 山崎屋の技術メモ](https://www.shookuro.com/entry/2018/01/28/162252)
 - [VirtualBox で作成した仮想マシンに CentOS をインストール - 山崎屋の技術メモ](https://www.shookuro.com/entry/2018/02/03/165526)
 - [VirtualBox その93 - VirtualBox 6.0.4がリリースされました・VirtualBoxをインストールするには - kledgeb](https://kledgeb.blogspot.com/2019/01/virtualbox-93-virtualbox-604virtualbox.html)
