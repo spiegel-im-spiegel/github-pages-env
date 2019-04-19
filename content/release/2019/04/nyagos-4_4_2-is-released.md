@@ -78,5 +78,6 @@ $ select index.html
 - Ctrl-RIGHT,ALT-F(次の単語へ), Ctrl-LEFT,ALT-B(前の単語へ)を実装
 - インクリメンタルサーチ開始時にトップへ移動する時のバックスペースの数が間違っていた不具合を修正
 - (#364) `ESC[0A` というエスケープシーケンスが使われていた不具合を修正
+{{% /fig-quote %}}
 
 [NYAGOS]: https://github.com/zetamatta/nyagos/ "zetamatta/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"

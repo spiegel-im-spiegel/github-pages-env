@@ -374,6 +374,10 @@ Licensed under Apache License, Version 2.0
 よしよし。
 ちゃんとビルドできてるな。
 
+## ブックマーク
+
+- [Installing LibreOffice on Linux - The Document Foundation Wiki](https://wiki.documentfoundation.org/Documentation/Install/Linux)
+
 [VirtualBox]: https://www.virtualbox.org/ "Oracle VM VirtualBox"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [Debian]: https://www.debian.org/ "Debian -- The Universal Operating System"
