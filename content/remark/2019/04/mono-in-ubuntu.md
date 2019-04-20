@@ -80,7 +80,7 @@ $ sudo apt install keepass2
 
 ## [Git Extensions] の導入
 
-[Git Extensions] は .NET Framework 上で動く [git] 用の GUI ツールだが， [Mono] 版もあって他プラットフォームでも利用できる。
+[Git Extensions] は .NET Framework 上で動く [git] 用の GUI フロントエンドだが， [Mono] 版もあって他プラットフォームでも利用できる。
 ただし [Mono] 版はバージョン 2 系までしか対応していないので注意が必要である。
 
 ダウンロードページから [Mono] 版の[最新バージョン](https://github.com/gitextensions/gitextensions/releases/tag/v2.51.05 "Release Version 2.51.05 · gitextensions/gitextensions")をダウンロードする。
@@ -100,6 +100,19 @@ $ sudo apt install keepass2
 
 けど Windows 版と比べて操作感がイマイチなんだよなぁ。
 まぁ [Git Extensions] をメインに作業するわけではないので，これでもいいか。
+
+### 【追記 2019-04-20】 [Git Extensions] が落ちる
+
+[Ubuntu] を [19.04 にアップグレード]({{ ref "/remark/2019/04/upgrade-ubuntu-19_04.md" }} "Ubuntu 19.04 へのアップグレードを試す")したら [Git Extensions] が落ちるようになってしまった。
+似た事例がないかと探してみたら `GitExtensions/Plugins/Bitbucket.dll` を削除したら行けるみたいな記述を見かけたので試してみたら上手く行ったっぽい？
+
+- [How to install GitExtensions in Ubuntu](https://www.codeofclimber.ru/2015/how-to-install-gitextensions-in-ubuntu/)
+
+やれやれだぜ。
+
+[Git Extensions] の代わりになるような GUI フロントエンドを探しているのだがいいのがない。
+コミットやタギングで電子署名を付与できて結果を検証できればいいのだが，特にタギングに署名できる製品がない。
+[GitKraken v5.0](https://blog.axosoft.com/gitkraken-v5-0/) ならいけると思ったのだが設定画面が分かりにくい上にフリー版だと署名の検証ができないっぽい？
 
 ## .NET Framework と [Mono] と .NET Core
 

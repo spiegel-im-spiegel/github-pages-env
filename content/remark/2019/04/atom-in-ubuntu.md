@@ -21,7 +21,7 @@ pageType = "text"
 [ATOM] の[リポジトリ](https://github.com/atom/atom/ "atom/atom: The hackable text editor")に各バージョンの `atom-amd64.deb` ファイルが公開されているので，これを使う。
 
 deb ファイルを使ってインストールを行うには `gdebi` というコマンドを使うらしい。
-これは ATP で取得可能だ。
+これは APT で取得可能だ。
 
 ```text
 $ sudo apt show gdebi-core

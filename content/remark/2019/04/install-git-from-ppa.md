@@ -251,6 +251,9 @@ Unpacking objects: 100% (51/51), done.
 - [UbuntuのPPAて何？ [Linuxの使い方] All About](https://allabout.co.jp/gm/gc/438675/)
 - [ubuntuのapt-getで最新版のgitをインストールする方法 - spangled shalalala blog](http://spangled-shalalala.hatenablog.com/entry/2017/09/05/060106)
 - [Git - Gitのインストール](https://git-scm.com/book/ja/v1/%E4%BD%BF%E3%81%84%E5%A7%8B%E3%82%81%E3%82%8B-Git%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
+- [Linuxで使えるGitクライアントを集めてみた](http://note.kurodigi.com/linux-gitclient/)
+- [Ubuntu/Linuxで使えるGitのGUIクライアント(無料)まとめ - Qiita](https://qiita.com/solmin719/items/f174aab0fc73ddbc9cdf)
+
 - [Git Commit で OpenPGP 署名を行う]({{< ref "/openpgp/git-commit-with-openpgp-signature.md" >}})
 
 [前回]: {{< relref "./move-gpg-keyring.md" >}} "Windows 環境で作った GnuPG の鍵束を Ubuntu に移行する"
