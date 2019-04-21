@@ -3,7 +3,7 @@ title = "Windows に Ubuntu を入れる"
 date = "2019-03-27T22:54:51+09:00"
 description = "ここまで来るのにものすごい試行錯誤しちゃったよ。これでようやく色々試せる。"
 image = "/images/attention/kitten.jpg"
-tags = [ "windows", "virtualbox", "linux", "ubuntu" ]
+tags = [ "windows", "virtualbox", "linux", "ubuntu", "install" ]
 pageType = "text"
 
 [scripts]
