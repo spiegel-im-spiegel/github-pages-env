@@ -1,11 +1,10 @@
 +++
 title = "Git GUI フロントエンドをたずねて三千里"
-date =  "2019-04-21T10:33:01+09:00"
+date = "2019-04-21T14:37:37+09:00"
 description = "ブランチやタグや履歴を見ながらちょっと込み入った処理をする際はやはり GUI があるといいよねってことで。"
 image = "/images/attention/kitten.jpg"
 tags = [ "linux", "ubuntu", "git", "gnupg", "ssh" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
