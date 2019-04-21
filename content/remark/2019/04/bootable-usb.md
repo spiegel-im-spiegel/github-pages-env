@@ -32,7 +32,7 @@ USB メモリを挿してメニューから「ブータブルUSBの作成」を�
 
 ## [VirtualBox] を使って USB メモリからのインストールを試す
 
-とりあえず [VirtualBox] を USB メモリからのインストールを試そうと思ったが， USB からの仮想ブートの仕方が分からない。
+とりあえず [VirtualBox] で USB メモリからのインストールを試そうと思ったが， USB からの仮想ブートの仕方が分からない。
 どうやらちょっと特殊な方法があるようだ。
 
 - [Boot your USB Drive in VirtualBox - AgniPulse](http://agnipulse.com/2009/07/boot-your-usb-drive-in-virtualbox/)
