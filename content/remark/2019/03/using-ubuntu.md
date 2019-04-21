@@ -24,6 +24,7 @@ pageType = "text"
     - [gcc もないのかよ！]({{< relref "#gcc" >}})
     - [KDiff3 の導入]({{< relref "#kdiff3" >}})
     - [Go コンパイラを導入する]({{< relref "#golang" >}})
+    - [OpenJDK を入れる]({{< relref "#jdk" >}})
 
 ## VirtualBox との連携{#vb}
 
@@ -482,7 +483,7 @@ Press enter to keep the current choice[*], or type selection number:
 
 - [Java 環境のリリースとサポートに関する覚え書き]({{<ref "/remark/2018/02/release-cycle-of-java-environment.md" >}})
 
-## ブックマーク
+## その他ブックマーク
 
 - [Installing LibreOffice on Linux - The Document Foundation Wiki](https://wiki.documentfoundation.org/Documentation/Install/Linux)
 - [Ubuntu 19.04 その17 - Xorgセッションで分数スケーリング（Fractional Scaling）を有効にするには - kledgeb](https://kledgeb.blogspot.com/2019/04/ubuntu-1904-17-xorgfractional-scaling.html)
