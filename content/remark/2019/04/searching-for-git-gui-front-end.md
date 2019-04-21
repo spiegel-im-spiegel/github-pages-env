@@ -113,7 +113,7 @@ Look&Feel や機能は申し分ないのだが，一点だけ [OpenSSH] の扱�
 ちゃんと `SSH_AUTH_SOCK` 環境変数でソケットを指定してるだろ。
 見ろよ！
 
-私は SSH 鍵の管理を [GnuPG] で[行ってる]({{< ref "./move-gpg-keyring.md" >}})。
+私は SSH 鍵の管理を [GnuPG] で[行ってる]({{< ref "./move-gpg-keyring.md" >}} "Windows 環境で作った GnuPG の鍵束を Ubuntu に移行する")。
 [SmartGit] は [OpenSSH] をまともに扱えないという理由で却下[^gpg1]。
 残念！
 
