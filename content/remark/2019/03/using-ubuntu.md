@@ -15,9 +15,19 @@ pageType = "text"
 
 なお，この記事は覚え書きとして随時更新していく予定なので悪しからず。
 
-## [VirtualBox] との連携
+- [VirtualBox との連携]({{< relref "#vb" >}})
+    - [クリップボードの内容を共有する]({{< relref "#clipboard" >}})
+- [Ubuntu に関する雑多なこと]({{< relref "#ubuntu" >}})
+    - [Advanced Package Tool]({{< relref "#apt" >}})
+    - [セキュリティ情報をチェックする]({{< relref "#secinfo" >}})
+    - [えっ ifconfig って入ってないの？]({{< relref "#ifconfig" >}})
+    - [gcc もないのかよ！]({{< relref "#gcc" >}})
+    - [KDiff3 の導入]({{< relref "#kdiff3" >}})
+    - [Go コンパイラを導入する]({{< relref "#golang" >}})
 
-### クリップボードの内容を共有する
+## VirtualBox との連携{#vb}
+
+### クリップボードの内容を共有する{#clipboard}
 
 [Ubuntu] の動作確認はテキストファイルでメモを取りながら行っているのだが，ホスト OS とゲスト OS との間でクリップボードが共有できないか調べてみたら簡単にできるようだ。
 
@@ -32,11 +42,11 @@ pageType = "text"
 この画面の「一般」カテゴリの「高度」タブに「クリップボードの共有」の項目がある。
 ここを「双方向」にすればホスト OS とゲスト OS との間でクリップボードを共有できる。
 
-## [Ubuntu] に関する雑多なこと
+## Ubuntu に関する雑多なこと{#ubuntu}
 
 そもそも [Ubuntu] でターミナルってどうやって開くんだろうと思ったが，デスクトップを右クリックして「端末を開く」でよかった。
 
-### Advanced Package Tool
+### Advanced Package Tool{#apt}
 
 [Ubuntu] は [Debian] 系のディストリビューションなのでパッケージやシステムの管理には APT (Advanced Package Tool) を使う。
 `apt-get` 等が `apt` コマンドに統合されているとは知らなかったよ。
@@ -101,7 +111,7 @@ libc-bin (2.28-0ubuntu1) のトリガを処理しています ...
 
 今回はなかったが保留パッケージを含めて更新する場合は `apt full-upgrade` を実行する。
 
-### セキュリティ情報をチェックする
+### セキュリティ情報をチェックする{#secinfo}
 
 本家の [Debian] ディストリビューションのセキュリティ情報は以下から取得できる。
 
@@ -113,7 +123,7 @@ libc-bin (2.28-0ubuntu1) のトリガを処理しています ...
 
 フィードも提供されているので巡回先に加えることにしよう。
 
-### えっ ifconfig って入ってないの？
+### えっ ifconfig って入ってないの？{#ifconfig}
 
 なにはともあれネットワーク設定を見ようと `ifconfig` コマンドを叩いてみたが
 
@@ -161,7 +171,7 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 
 ちなみに IP アドレスの `10.0.2.xx` は [VirtualBox] 側の仮想 DHCP ネットワークらしい。
 
-### gcc もないのかよ！
+### gcc もないのかよ！{#gcc}
 
 [Ubuntu] って gcc とかって後から入れるの？ 最近の UNIX 系ディストリビューションってそんな感じ？ まぁいいや。
 ないなら入れればいいよね。
@@ -193,7 +203,7 @@ Copyright (C) 1988-2016 Free Software Foundation, Inc.
 法律の許す限り、　無保証　です.
 ```
 
-### [KDiff3] の導入
+### KDiff3 の導入{#kdiff3}
 
 [KDiff3] は普通に APT からインストールできる。
 
@@ -228,7 +238,7 @@ $ sudo apt install kdiff3
 
 と設定しておけば [git] のマージ等で [KDiff3] が呼び出される。
 
-### [Go] コンパイラを導入する
+### Go コンパイラを導入する{#golang}
 
 APT で [Go 言語]コンパイラを入れれるかなぁ，と思ったが
 
@@ -374,9 +384,108 @@ Licensed under Apache License, Version 2.0
 よしよし。
 ちゃんとビルドできてるな。
 
+### OpenJDK を入れる{#jdk}
+
+[OpenJDK] は3月と9月の半年毎にバージョンアップが行われる。
+リリース時期とサポート期間は以下の通り（ディストリビューションによっては延長サポートあり）。
+
+|         | Oracle Java           | [OpenJDK]             |
+| ------- | --------------------- | --------------------- |
+| Java 9  | 2017年9月 - 2018年3月 | 2017年9月 - 2018年3月 |
+| Java 10 | 2018年3月 - 2018年9月 | 2018年3月 - 2018年9月 |
+| Java 11 | 2018年9月 - 2026年9月 | 2018年9月 - 2019年3月 |
+| Java 12 | -                     | 2019年3月 - 2019年9月 |
+| Java 13 | -                     | 2019年9月 - 2020年3月 |
+| Java 14 | -                     | 2020年3月 - 2020年9月 |
+| Java 15 | -                     | 2020年9月 - 2021年3月 |
+| Java 16 | -                     | 2021年3月 - 2021年9月 |
+| Java 17 | 2021年9月 - 2029年9月 | 2021年9月 - 2022年3月 |
+
+[OpenJDK] のインストールは APT で普通にできるが複数のバージョンがあるので注意が必要だ。
+まずは提供しているバージョンを調べてみる（[Ubuntu] 19.04 の場合）。
+
+```text
+$ sudo apt search openjdk-\(\.\)\+-jre$
+ソート中... 完了
+全文検索... 完了  
+nvidia-openjdk-8-jre/disco 9.+8u77~10.1.105-0ubuntu1 amd64
+  NVIDIA provided OpenJDK Java runtime, using Hotspot JIT
+
+openjdk-11-jre/disco-updates 11.0.3+7-1ubuntu1 amd64
+  OpenJDK Java ランタイム - Hotspot JIT 版
+
+openjdk-12-jre/disco,now 12.0.1+12-1 amd64
+  OpenJDK Java ランタイム - Hotspot JIT 版
+
+openjdk-13-jre/disco 13~13-0ubunt1 amd64
+  OpenJDK Java ランタイム - Hotspot JIT 版
+```
+
+開発環境を含めるのであれば `jdk` で探す。
+
+```text
+$ sudo apt search openjdk-\(\.\)\+-jdk$
+ソート中... 完了
+全文検索... 完了  
+openjdk-11-jdk/disco-updates 11.0.3+7-1ubuntu1 amd64
+  OpenJDK Development Kit (JDK)
+
+openjdk-12-jdk/disco 12.0.1+12-1 amd64
+  OpenJDK Development Kit (JDK)
+
+openjdk-13-jdk/disco 13~13-0ubunt1 amd64
+  OpenJDK Development Kit (JDK)
+```
+
+今回は [OpenJDK] 12 のランタイムのみを入れたいので
+
+```text
+$ sudo apt install openjdk-12-jre
+```
+
+とすればよい。
+上手くインストールできていれば
+
+```text
+$ java -version
+openjdk version "12.0.1" 2019-04-16
+OpenJDK Runtime Environment (build 12.0.1+12-Ubuntu-1)
+OpenJDK 64-Bit Server VM (build 12.0.1+12-Ubuntu-1, mixed mode, sharing)
+```
+
+てな感じになる。
+よしよし，[先日のアップデート](https://forest.watch.impress.co.jp/docs/news/1180549.html "Oracle、「Java SE 12.0.1」「Java SE 8 Update 211」を公開 ～新元号“令和”に対応 - 窓の杜")も反映されているな。
+
+自分の環境に
+複数バージョンの Java が入っている場合は
+
+```
+$ sudo update-alternatives --config java
+```
+
+とする。
+
+```text
+There are 2 choices for the alternative java (providing /usr/bin/java).  
+Selection Path Priority Status 
+———————————————————— 
+* 0 /usr/lib/jvm/java-6-openjdk/jre/bin/java 1061 auto mode 
+1 /usr/lib/jvm/jre1.7.0/jre/bin/java 3 manual mode  
+
+Press enter to keep the current choice[*], or type selection number:
+```
+
+みたいな感じになって切り替えができるようだ。
+
+- [OpenJDK（Java）を最新のUbuntuにインストール - Qiita](https://qiita.com/terappy/items/537c069923144a9d9755)
+- [Java - Community Help Wiki](https://help.ubuntu.com/community/Java)
+
+- [Java 環境のリリースとサポートに関する覚え書き]({{<ref "/remark/2018/02/release-cycle-of-java-environment.md" >}})
+
 ## ブックマーク
 
 - [Installing LibreOffice on Linux - The Document Foundation Wiki](https://wiki.documentfoundation.org/Documentation/Install/Linux)
+- [Ubuntu 19.04 その17 - Xorgセッションで分数スケーリング（Fractional Scaling）を有効にするには - kledgeb](https://kledgeb.blogspot.com/2019/04/ubuntu-1904-17-xorgfractional-scaling.html)
 
 [VirtualBox]: https://www.virtualbox.org/ "Oracle VM VirtualBox"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
@@ -386,6 +495,7 @@ Licensed under Apache License, Version 2.0
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Go]: https://golang.org/ "The Go Programming Language"
 [curl]: https://curl.haxx.se/
+[OpenJDK]: http://openjdk.java.net/
 
 ## 参考図書
 

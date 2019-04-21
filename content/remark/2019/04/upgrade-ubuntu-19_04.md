@@ -117,6 +117,8 @@ OpenSSH_7.9p1 Ubuntu-10, OpenSSL 1.1.1b  26 Feb 2019
 
 ## ブックマーク
 
+- [Ubuntu 18.10 その172 - Ubuntu 19.04へアップグレードするには・アップグレードの注意事項 - kledgeb](https://kledgeb.blogspot.com/2019/04/ubuntu-1810-172-ubuntu-1904.html)
+
 - [PPA から Git をインストールする]({{< relref "./install-git-from-ppa.md" >}})
 - [Ubuntu に Mono を導入する]({{< ref "/remark/2019/04/mono-in-ubuntu.md" >}})
 

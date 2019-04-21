@@ -80,5 +80,6 @@ tags = [ "hugo", "bookmark" ]
 - [HUGOで作れるCMSっぽいパーツ:関連記事・目次・JSON-LDなど - Qiita](http://qiita.com/y_hokkey/items/f9d8b66b3770a82d4c1c)
 - [Hugo でローカルサーバーかどうかで条件分岐する - Qiita](https://qiita.com/peaceiris/items/70fca0ba3cb5cce753eb)
 - [GitHub - hugojapan/hugoDocs: Hugo 日本語ドキュメント](https://github.com/hugojapan/hugoDocs) : 公式リポジトリに組み込むことを最終目標にしているらしい
+- [初心者向けとして静的サイトジェネレーター「Hugo」についてまとめてみた！  |  PlusPlus](https://plu-plu.net/hugo-kaisetsu/)
 
 [Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"

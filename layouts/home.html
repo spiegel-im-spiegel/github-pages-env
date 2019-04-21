@@ -18,10 +18,10 @@
 <main><article>
 <h1>What's New</h1>
 
-<section>
-<h2>最近の記事</h2>
+<section>{{ $ct := 5 }}
+<h2>最近の記事（{{ printf "%d/%d" $ct (len .Site.RegularPages) }}）</h2>
 <ul class="title-list">
-{{ range first 5 .Site.RegularPages }}{{ partial "li.html" . }}{{ end }}
+{{ range first $ct .Site.RegularPages }}{{ partial "li.html" . }}{{ end }}
 </ul>
 </section> <!-- 最近の記事 -->
 
