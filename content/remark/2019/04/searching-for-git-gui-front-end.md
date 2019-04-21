@@ -13,7 +13,7 @@ pageType = "text"
 
 私は [Git] の GUI フロントエンドに [Git Extensions] を使っている。
 個人的には FOSS の GUI フロントエンドではこれ以上のものはないと思っているが，残念なことに .NET Framework 上で動く製品なのである。
-Windows プラットフォームではこれで何の問題もなかったが，どうにも[（.NET Framework の別実装である） Mono]({{< relref "./mono-in-ubuntu.md" >}} "Ubuntu に Mono を導入する") と相性が悪いようで，メジャーバージョンは挙げられないしチョットしたことで落っこちてしまう。
+Windows プラットフォームではこれで何の問題もなかったが，どうにも[（.NET Framework の別実装である） Mono]({{< relref "./mono-in-ubuntu.md" >}} "Ubuntu に Mono を導入する") と相性が悪いようで，メジャーバージョンは上げられないしチョットしたことで落っこちてしまう。
 
 というわけで Linux/[Ubuntu] で動作する GUI フロントエンドを探してみることした。
 今回の評価ポイントは以下の通り。
