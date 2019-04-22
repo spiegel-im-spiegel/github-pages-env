@@ -79,7 +79,7 @@
 <li><a href='{{ "/bookmarks/" | relURL }}'><em>[bookmarks] ブックマーク</em></a> <a href='{{ "/bookmarks/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
 	<span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "bookmarks") }}
 		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
-		{{ end }}<br>&raquo; いままで <a href="http://del.icio.us/">del.icio.us</a> （旧 <a href="https://delicious.com/spiegel">delicious.com</a>）で収集していたブックマークの代替として運用してみるテスト。
+		{{ end }}<br>&raquo; いままで del.icio.us （旧 delicious.com）で収集していたブックマークの代替として運用してみるテスト。
 	</span>
 </li>
 

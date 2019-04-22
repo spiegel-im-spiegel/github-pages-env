@@ -38,7 +38,7 @@ tags        = [ "photography", "flickr" ]
 またゼロ年代後半からの Yahoo! 凋落に巻き込まれる形で [Flickr] もネットにおけるプレゼンスを失い Instagram などの新興サービスに譲る形になってしまった。
 
 Yahoo! 買収自体は悪いことではない。
-当時は Web 2.0 真っ盛りで，ほとんどのサービスは CV から融資を受けつつ Yahoo! か Google に買収されるのが最終的な「ゴール」だったのだから。
+当時は Web 2.0 真っ盛りで，ほとんどのサービスは VC から融資を受けつつ Yahoo! か Google に買収されるのが最終的な「ゴール」だったのだから。
 そういう意味で [Flickr] は「{{< ruby "Happy End" >}}幸せな結末{{< /ruby >}}」を迎えたはずだったのだ。
 
 今更 [Flickr] が以前の勢いを取り戻せるか分からないが， Verizon/Oath にいたら間違いなく殺されるし，少なくとも Yahoo! アカウントとおさらばできるのだ（アカウントの分離がいつになるかは決まってない模様）。
@@ -75,8 +75,10 @@ Yahoo! 買収自体は悪いことではない。
 ザッと読んだ感じ，今より悪くなることはないような気がするけど。
 でも Pro アカウントの人はよく読んでおいたほうがいいかも。
 
-## 【追記】 Flickr から写真を引き揚げました
+## 【おまけ】あれからの Flickr
 
 - [Flickr から写真を引き揚げました]({{< ref "/remark/2019/01/escape-from-flickr.md" >}})
+- [Flickr は監視資本主義に向かわない]({{< ref "/remark/2019/03/flickr-has-not-turned-to-surveillance-capitalism.md" >}})
+- [ようやく縁が切れました（もしくは Web 2.0 終焉の象徴としての Yahoo!）]({{< ref "/remark/2019/04/goodbye-yahoo.md" >}})
 
 [Flickr]: https://www.flickr.com/
