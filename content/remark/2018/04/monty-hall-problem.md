@@ -4,7 +4,7 @@ date = "2018-04-20T10:31:29+09:00"
 update = "2018-04-21T03:44:59+09:00"
 description = "「モンティ・ホール問題」は確かに直感に反するが，こうやって具体的なコードで記述していくと「何故そうなるのか」が何となく分かってくる。"
 image = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Monty_open_door_chances.svg/590px-Monty_open_door_chances.svg.png"
-tags = [ "math", "games", "golang", "programming", "floating-point" ]
+tags = [ "math", "games", "golang", "programming", "floating-point", "probability" ]
 
 [author]
   name      = "Spiegel"
@@ -208,6 +208,20 @@ func main() {
 [`big`]: https://golang.org/pkg/math/big/ "big - The Go Programming Language"
 
 ## 参考図書
+
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%81%AE%E6%95%B0%E5%AD%A6-%E7%AC%AC2%E7%89%88-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B079JLW5YN?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B079JLW5YN"><img src="https://images-fe.ssl-images-amazon.com/images/I/51QDhrqqEtL._SL160_.jpg" width="113" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%81%AE%E6%95%B0%E5%AD%A6-%E7%AC%AC2%E7%89%88-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B079JLW5YN?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B079JLW5YN">プログラマの数学 第2版</a></dt>
+	<dd>結城 浩</dd>
+    <dd>SBクリエイティブ 2018-01-16 (Release 2018-02-08)</dd>
+    <dd>eBooks Kindle版</dd>
+    <dd>ASIN: B079JLW5YN</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">タイトル通りプログラマ必読書。第2版では機械学習に関する章が付録に追加された。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-03-19">2018-03-19</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+</div>
 
 <div class="hreview">
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9EGo-ADDISON-WESLEY-PROFESSIONAL-COMPUTING-Donovan/dp/4621300253?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621300253"><img src="https://images-fe.ssl-images-amazon.com/images/I/41meaSLNFfL._SL160_.jpg" width="123" alt="photo"></a></div>
