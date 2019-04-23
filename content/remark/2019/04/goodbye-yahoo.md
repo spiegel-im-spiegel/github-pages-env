@@ -13,6 +13,16 @@ pageType = "text"
 
 先週の話でナニだが [Flickr] サイトを訪ねたところアカウントを（Yahoo! から）移行するよう言われた。
 
+{{< div-box type="md" >}}
+**【2019-04-23 追記】**
+実は2019年3月初めの時点でアナウンスが出ていたのだがすっかり忘れきっていた。
+テヘペロ `:-P`
+
+- [Flickr login freedom is here. | Flickr Blog](https://blog.flickr.net/en/2019/03/04/flickr-login-freedom-is-here/)
+
+{{< fig-youtube id="cQjHL5RZvng" title="Flickr login freedom is here. - YouTube" >}}
+{{< /div-box >}}
+
 ## よーやく Yahoo! からオサラバできるぜ！
 
 思えば Verizon/Oath (旧 Yahoo! の身売り先) が [Flickr] を SmugMug に売り飛ばしたのはもう1年も前の話である。
