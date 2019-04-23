@@ -51,7 +51,7 @@ func New(p float64) <-chan bool {
 		limit := percent(p, max)
 		rnd := rand.New(rand.NewSource(time.Now().UnixNano()))
 		for {
-			n := rnd.Intn(max)
+			n := rnd.Intn(max) + 1
 			ch <- n < limit
 		}
 	}()
@@ -132,10 +132,10 @@ func main() {
 
 ```text
 $ go run prob/sample/sample.go
-minimum value: 0.08880
-maximum value: 0.11320
-average: 0.10005
-standard deviation: 0.00301 (68.7%)
+minimum value: 0.08930
+maximum value: 0.11160
+average: 0.09999
+standard deviation: 0.00299 (67.9%)
 ```
 
 まぁこんなもんかな（笑）
@@ -274,10 +274,10 @@ $ go run note257/sample/sample.go 10000
 
 ```text
 $ go run note257/sample/sample.go 10000
-minimum value: 0.08036
-maximum value: 0.10239
-average: 0.09090
-standard deviation: 0.00278 (68.5%)
+minimum value: 0.08061
+maximum value: 0.10279
+average: 0.09092
+standard deviation: 0.00272 (68.5%)
 ```
 
 平均値が少し高めに出たけど，こんなものかな。
