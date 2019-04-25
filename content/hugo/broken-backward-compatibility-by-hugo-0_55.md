@@ -35,7 +35,7 @@ pageType = "text"
 ```text
 {{</* div-box */>}}**Hello world!**{{</* /div-box */>}}
 ```
-
+ 
 と書けば `.Inner` 変数の内容がそのまま展開されて
 
 ```html
@@ -205,6 +205,7 @@ WARN 2019/04/13 09:00:00 Page's .GetParam is deprecated and will be removed in a
 - [0.55.1: 3 Bug Fixes | Hugo](https://gohugo.io/news/0.55.1-relnotes/)
 - [Hugo 0.55.2: Some Important Bug Fixes | Hugo](https://gohugo.io/news/0.55.2-relnotes/)
 - [Hugo 0.55.3: A Few More Bug Fixes! | Hugo](https://gohugo.io/news/0.55.3-relnotes/)
+- [Hugo 0.55.4: Some Bug Fixes | Hugo](https://gohugo.io/news/0.55.4-relnotes/)
 
 - [.Hugo.Generator は廃止されるので hugo.Generator を使おう - Qiita](https://qiita.com/peaceiris/items/b6d611e184b2f28cc0ab)
 

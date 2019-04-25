@@ -249,6 +249,7 @@ $ eval $(/usr/bin/ssh-pageant -r -a "/tmp/.ssh-pageant-$USERNAME")
 - [Windowsでのssh agent - Qiita](https://qiita.com/tsuyoshi_cho/items/79c09905ae3f192b3a0f)
 - [Big Sky :: Windowsでもssh-agentとssh-addを使ってパスフレーズ入力を省略する。](https://mattn.kaoriya.net/software/20081106192615.htm)
 - [KeeAgent – lechnology.com](https://lechnology.com/software/keeagent/) : パスワード管理ツール [KeePass] のプラグインで， [KeePass] のパスワードデータベースを使って SSH 鍵を管理し Agent 機能で SSH に鍵を渡す仕組みらしい。  [PuTTY] と [OpenSSH] に対応しているようだ
+- [How to enable SSH access using a GPG key for authentication | Opensource.com](https://opensource.com/article/19/4/gpg-subkeys-ssh)
 
 - [Windows 環境で作った GnuPG の鍵束を Ubuntu に移行する]({{< ref "/remark/2019/04/move-gpg-keyring.md" >}})
 

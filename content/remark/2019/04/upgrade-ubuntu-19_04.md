@@ -122,6 +122,11 @@ OpenSSH_7.9p1 Ubuntu-10, OpenSSL 1.1.1b  26 Feb 2019
 - [PPA から Git をインストールする]({{< relref "./install-git-from-ppa.md" >}})
 - [Ubuntu に Mono を導入する]({{< ref "/remark/2019/04/mono-in-ubuntu.md" >}})
 
+### 既に [Ubuntu] 19.10 の話題が
+
+- [Ubuntu 19.10 その2 - LibreOfficeをSnapで提供する提案 - kledgeb](https://kledgeb.blogspot.com/2019/04/ubuntu-1910-2-libreofficesnap.html)
+- [Ubuntu 19.10 その3 - デフォルトのメールクライアントをGearyに変更する提案 - kledgeb](https://kledgeb.blogspot.com/2019/04/ubuntu-1910-3-geary.html)
+
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [Ubuntu Japanese Team]: http://www.ubuntulinux.jp/
 [VirtualBox]: https://www.virtualbox.org/ "Oracle VM VirtualBox"
