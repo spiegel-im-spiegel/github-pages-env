@@ -208,5 +208,6 @@ $ go run main.go 2019 5 1
 
 - [1l0/sumeragi](https://github.com/1l0/sumeragi) : 皇紀や元号を出力するパッケージ
 - [新元号「文字」という技術的負債]({{< ref "/remark/2017/12/character-of-the-new-era-name.md" >}})
+- [Windows で、とりあえず「令和」対応をする - 電気ウナギ的○○](http://blog.netandfield.com/shar/2019/04/windows-4.html)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"

@@ -287,6 +287,9 @@ standard deviation: 0.00272 (68.5%)
 
 ## ブックマーク
 
+- [第257回　確率の冒険：《命》に関わる確率（前編）｜数学ガールの秘密ノート｜結城浩｜cakes（ケイクス）](https://cakes.mu/posts/25349)
+    - [第258回　確率の冒険：《命》に関わる確率（後編）｜数学ガールの秘密ノート｜結城浩｜cakes（ケイクス）](https://cakes.mu/posts/25465)
+
 - [モンテカルロ法による円周率の推定（その3 Gaussian）]({{< ref "/golang/estimate-of-pi-3-gaussian.md" >}})
 - [モンティ・ホール問題で遊ぶ]({{< ref "/remark/2018/04/monty-hall-problem.md" >}})
 

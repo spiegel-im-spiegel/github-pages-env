@@ -124,3 +124,4 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [Go初心者が書くarXiv APIを使って論文リストから論文を取ってくるアプリ - Qiita](https://qiita.com/k4saNova/items/61f41a2e56a786cd75b8)
 - [Golangでメソッド呼び出しによる部分適用 - Qiita](https://qiita.com/k-motoyan/items/89755685349cbfa956b4)
 - [Excelize version 2.0.0 Released - Qiita](https://qiita.com/xuri/items/73488c5f5f8aa02f240c)
+- [golangでtemplateの読み込みパスを複数定義する - Qiita](https://qiita.com/kazu22002/items/3e7e167fb238cc4779d7)
