@@ -4,7 +4,7 @@ date =  "2017-11-17T23:40:05+09:00"
 update =  "2017-11-18T12:50:11+09:00"
 description = "以前，このサイトを Twitter Cards に対応させたのだが，今回も思いつきで JSON-LD に対応させることにした。"
 image = "/images/attention/remark.jpg"
-tags        = [ "site", "semantic ", "web", "metadata", "json" ]
+tags = [ "site", "semantic", "web", "metadata", "json" ]
 
 [author]
   name      = "Spiegel"
