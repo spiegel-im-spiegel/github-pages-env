@@ -30,6 +30,11 @@ OS を換えるだけで「もっさり」感がかなり軽減してしまっ�
 
 [^vi1]: ちょっと開いてちょちょっと弄る程度であれば vi で十分だしね。実は vi/vim は若い頃のトラウマ（現地調整で部屋の隅っこで VT 端末でデバッグさせられたとか）がフラッシュバックするのであまり使いたくないのだけど，位置付け的には Windows で言うところの notepad みたいなもんだし，これから長い付き合いになるのだろう。ちなみに vim は既定で入ってなかったので後で入れる予定。
 
+あと [Hugo]。
+こちらは処理時間がはっきり数値で出る。
+5分の1以下に一気に短縮ですよ。
+今までは何だったのか。
+
 本当はこんなに急いでやるつもりはなくて2019年内に移行できればよかったんだけど，[前にも書いた]({{< ref "/remark/2019/03/the-window-the-window.md" >}})とおり Microsoft は随分前から Windows 7 を見捨てている（考えてみれば[4年前から Win7 ユーザを脅してた]({{< ref "/remark/2015/windows-10-upgrade-problem.md" >}})）し，個人的にもこの GW を逃せば当分の間まとまった休みはとれそうもなかったので（ビンボー暇なし），丁度いい機会だったのだろう。
 
 脅しをかけてくれた Microsoft にはお礼を言わなきゃ。
@@ -37,6 +42,7 @@ OS を換えるだけで「もっさり」感がかなり軽減してしまっ�
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [ATOM]: https://atom.io/
+[Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
 
 <div class="hreview">
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/GOLDEN%E2%98%86BEST-%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%87%E3%82%A3%E3%83%BC%E3%82%BA-%E3%82%B3%E3%83%B3%E3%83%97%E3%83%AA%E3%83%BC%E3%83%88%E3%83%BB%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/dp/B01721ECA8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01721ECA8"><img src="https://images-fe.ssl-images-amazon.com/images/I/61TVUMXImML._SL160_.jpg" width="160" alt="photo"></a></div>
