@@ -37,9 +37,11 @@ Home: /home/username/.gnupg
 ```
 
 いやいや。
-なんぼなんでも古すぎるじゃろ。
+なんぼなんでも古すぎるじゃろ[^u1]。
 確かに最後にセキュリティアップデートが行われたのは[2018年の 2.2.8 のとき]({{< ref "/release/2018/06/gnupg-2_2_8-and-libgcrypt-1_8_3-are-released.md" >}} "GnuPG 2.2.8 および Libgcrypt 1.8.3 がリリース（セキュリティ・アップデート）")だけどさ。
 あれから不具合の修正とかも結構あったのよ。
+
+[^u1]: [Ubuntu] 19.04 では v2.2.12 までサポートしていた。それでもまだ古いけど [GnuPG] はパッケージ管理などで中核のツールとして使われるため運用が特に保守的なんだそうだ。まぁしょうがないか。 [GnuPG] は複数のコンポーネントで成り立っているのでうかつに弄りたくないというのはよく分かる。
 
 調べてみたら [Ubuntu] や [Debian] では [GnuPG] のアップデートに積極的ではない様子。
 まぁ使えないことはないので，最新版の導入は~~諦めて~~もとい後々のお楽しみにとっておいて，今回はこの 2.2.8 を使っていろいろやってみることにする。
@@ -296,6 +298,11 @@ $ ssh username@remotehost
 パスフレーズを入力後ログインできれば成功。
 `SSH_AUTH_SOCK` 値の書き換えコマンドは `~/.bashrc` ファイルにでも書いておけばいいだろうか。
 
+```bash
+export -n SSH_AGENT_PID
+export SSH_AUTH_SOCK="$(gpgconf --list-dirs agent-ssh-socket)"
+```
+
 ちなみに `gpg-agent.conf` ファイルに設定できる [OpenSSH] 連携関連のオプションは以下の通り。
 
 | オプション名 | 既定値 | 内容 |
@@ -317,6 +324,7 @@ $ ssh username@remotehost
 ## ブックマーク
 
 - [Ubuntu フォルダー構造 その10 - XDG Base Directory Specificationについて - kledgeb](https://kledgeb.blogspot.com/2013/04/ubuntu-10-xdg-base-directory.html)
+- [GNOME/Keyring - ArchWiki](https://wiki.archlinux.org/index.php/GNOME/Keyring)
 
 - [Change pinentry program temporarily with gpg-agent - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/236746/change-pinentry-program-temporarily-with-gpg-agent)
 - [Using GnuPG (2.1) for SSH authentication](https://incenp.org/notes/2015/gnupg-for-ssh-authentication.html)

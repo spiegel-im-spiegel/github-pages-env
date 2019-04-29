@@ -246,6 +246,60 @@ Unpacking objects: 100% (51/51), done.
 
 ちなみにこのときのパスワードは Web ページにサインインするときのパスワードじゃなくて，設定画面で振り出した personal access token を使うのでご注意を（つか，私がすっかり忘れててハマったのだが`w`）。
 
+### 【追記】 Libsecret を使う
+
+gnome-keyring の代わりに libsecret を使う方法もあるようだ。
+
+- [hawksnowlog: git credential を使おう](https://hawksnowlog.blogspot.com/2018/10/try-git-credential.html)
+- [GNOME/Keyring - ArchWiki](https://wiki.archlinux.org/index.php/GNOME/Keyring)
+
+```text
+$ sudo apt show libsecret-1-dev
+Package: libsecret-1-dev
+Version: 0.18.8-1
+Priority: optional
+Section: libdevel
+Source: libsecret
+Origin: Ubuntu
+...
+```
+
+既定では入ってないっぽいのでインストールする。
+
+```text
+$ sudo apt install libsecret-1-dev
+```
+
+以降は nome-keyring のときと同じ
+
+```text
+$ cp -r /usr/share/doc/git/contrib/credential/libsecret ~/work
+$ cd ~/work/libsecret
+$ make
+gcc -g -O2 -Wall  -pthread -I/usr/include/libsecret-1 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -o git-credential-libsecret.o -c git-credential-libsecret.c
+gcc -o git-credential-libsecret  git-credential-libsecret.o -lsecret-1 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+```
+
+おおっ。
+ワーニングが出ない。
+こっちのほうがいいかな。
+
+ビルドした git-credential-libsecret をパスの通ったディレクトリに入れれば完了。
+[Git] 側が認識しているか確認してみよう。
+
+```text
+$ git help -a | grep credential-
+   credential-cache     Helper to temporarily store passwords in memory
+   credential-store     Helper to store credentials on disk
+   credential-libsecret
+```
+
+あとは [git] の設定に組み込めば終了。
+
+```text
+$ git config --global credential.helper libsecret
+```
+
 ## ブックマーク
 
 - [UbuntuのPPAて何？ [Linuxの使い方] All About](https://allabout.co.jp/gm/gc/438675/)
@@ -257,6 +311,7 @@ Unpacking objects: 100% (51/51), done.
 [前回]: {{< relref "./move-gpg-keyring.md" >}} "Windows 環境で作った GnuPG の鍵束を Ubuntu に移行する"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [git]: https://git-scm.com/
+[Git]: https://git-scm.com/
 [PPA]: https://launchpad.net/ubuntu/+ppas "Personal Package Archives : Ubuntu"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 [OpenSSH]: http://www.openssh.com/ "OpenSSH"
