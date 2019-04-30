@@ -3,7 +3,7 @@ title = "Ubuntu で遊ぶ"
 date = "2019-03-31T10:14:36+09:00"
 description = "この記事は覚え書きとして随時更新していく予定。"
 image = "/images/attention/kitten.jpg"
-tags = [ "virtualbox", "linux", "ubuntu", "security", "golang" ]
+tags = [ "virtualbox", "linux", "ubuntu", "security", "golang", "java", "gcc", "curl", "install" ]
 pageType = "text"
 
 [scripts]
@@ -22,6 +22,7 @@ pageType = "text"
     - [セキュリティ情報をチェックする]({{< relref "#secinfo" >}})
     - [えっ ifconfig って入ってないの？]({{< relref "#ifconfig" >}})
     - [gcc もないのかよ！]({{< relref "#gcc" >}})
+    - [gpgpdump をビルドしてみる]({{< relref "#pgpdump" >}})
     - [KDiff3 の導入]({{< relref "#kdiff3" >}})
     - [Go コンパイラを導入する]({{< relref "#golang" >}})
     - [OpenJDK を入れる]({{< relref "#jdk" >}})
@@ -42,6 +43,8 @@ pageType = "text"
 
 この画面の「一般」カテゴリの「高度」タブに「クリップボードの共有」の項目がある。
 ここを「双方向」にすればホスト OS とゲスト OS との間でクリップボードを共有できる。
+
+[VirtualBox]: https://www.virtualbox.org/ "Oracle VM VirtualBox"
 
 ## Ubuntu に関する雑多なこと{#ubuntu}
 
@@ -174,6 +177,12 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 
 ### gcc もないのかよ！{#gcc}
 
+{{< div-box type="md" >}}
+**【追記 1019-04-30】**
+[Ubuntu] 19.04 なら最初から gcc が入っているようだ。
+つか，なんで 18.10 には入ってなかったんだろう。
+{{< /div-box >}}
+
 [Ubuntu] って gcc とかって後から入れるの？ 最近の UNIX 系ディストリビューションってそんな感じ？ まぁいいや。
 ないなら入れればいいよね。
 
@@ -203,6 +212,145 @@ Copyright (C) 1988-2016 Free Software Foundation, Inc.
 これはフリーソフトウェアです: 自由に変更および配布できます.
 法律の許す限り、　無保証　です.
 ```
+
+### gpgpdump をビルドしてみる{#pgpdump}
+
+gcc の動作確認を兼ねて [pgpdump] のビルドを行ってみよう。
+
+[リポジトリ](https://github.com/kazu-yamamoto/pgpdump "kazu-yamamoto/pgpdump: A PGP packet visualizer")からソースコードを取ってきて `configure` コマンドを叩く。
+
+```text
+$ ./configure 
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for inflate in -lz... yes
+checking for BZ2_bzBuffToBuffDecompress in -lbz2... no
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for unistd.h... (cached) yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking unixlib/local.h usability... no
+checking unixlib/local.h presence... no
+checking for unixlib/local.h... no
+checking whether time.h and sys/time.h may both be included... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for struct tm.tm_zone... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: WARNING:  'Makefile.in' seems to ignore the --datarootdir setting
+config.status: creating config.h
+```
+
+ありゃりゃ。
+`libbz2` がないのか[^bz2]。
+なきゃ入れるだけど。
+
+[^bz2]: `libbz2` がなくても [pgpdump] のビルドはできるが， bz2 圧縮されたパケットを扱えなくなる。
+
+```text
+$ apt show libbz2-dev
+Package: libbz2-dev
+Version: 1.0.6-9
+Priority: optional
+Section: libdevel
+Source: bzip2
+Origin: Ubuntu
+...
+```
+
+これでいいかな。
+ではインストール。
+
+```text
+$ sudo apt install libbz2-dev
+```
+
+ビルドを続行しよう。
+
+```text
+$ ./configure
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for inflate in -lz... yes
+checking for BZ2_bzBuffToBuffDecompress in -lbz2... yes
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for unistd.h... (cached) yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking unixlib/local.h usability... no
+checking unixlib/local.h presence... no
+checking for unixlib/local.h... no
+checking whether time.h and sys/time.h may both be included... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for struct tm.tm_zone... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: WARNING:  'Makefile.in' seems to ignore the --datarootdir setting
+config.status: creating config.h
+
+$ make
+gcc -c  -g -O2 -O -Wall pgpdump.c
+gcc -c  -g -O2 -O -Wall types.c
+gcc -c  -g -O2 -O -Wall tagfuncs.c
+gcc -c  -g -O2 -O -Wall packet.c
+gcc -c  -g -O2 -O -Wall subfunc.c
+gcc -c  -g -O2 -O -Wall signature.c
+gcc -c  -g -O2 -O -Wall keys.c
+gcc -c  -g -O2 -O -Wall buffer.c
+gcc -c  -g -O2 -O -Wall uatfunc.c
+gcc -g -O2 -O -Wall -o pgpdump pgpdump.o types.o tagfuncs.o packet.o subfunc.o signature.o keys.o buffer.o uatfunc.o -lbz2 -lz  
+
+$ ./pgpdump -v
+pgpdump version 0.33, Copyright (C) 1998-2017 Kazu Yamamoto
+```
+
+よーし，うむうむ，よーし。
+
+[pgpdump]: http://www.mew.org/~kazu/proj/pgpdump/
 
 ### KDiff3 の導入{#kdiff3}
 
@@ -238,6 +386,9 @@ $ sudo apt install kdiff3
 ```
 
 と設定しておけば [git] のマージ等で [KDiff3] が呼び出される。
+
+[KDiff3]: http://kdiff3.sourceforge.net/
+[git]: https://git-scm.com/
 
 ### Go コンパイラを導入する{#golang}
 
@@ -385,6 +536,10 @@ Licensed under Apache License, Version 2.0
 よしよし。
 ちゃんとビルドできてるな。
 
+[Go 言語]: https://golang.org/ "The Go Programming Language"
+[Go]: https://golang.org/ "The Go Programming Language"
+[curl]: https://curl.haxx.se/
+
 ### OpenJDK を入れる{#jdk}
 
 [OpenJDK] は3月と9月の半年毎にバージョンアップが行われる。
@@ -483,6 +638,8 @@ Press enter to keep the current choice[*], or type selection number:
 
 - [Java 環境のリリースとサポートに関する覚え書き]({{<ref "/remark/2018/02/release-cycle-of-java-environment.md" >}})
 
+[OpenJDK]: http://openjdk.java.net/
+
 ## その他ブックマーク
 
 - [Installing LibreOffice on Linux - The Document Foundation Wiki](https://wiki.documentfoundation.org/Documentation/Install/Linux)
@@ -491,15 +648,8 @@ Press enter to keep the current choice[*], or type selection number:
 - [Amazon DriveをUbuntu（Linux）で自動マウントする | web net FORCE](https://webnetforce.net/amazon-drive-auto-mount-for-ubuntu/)
 - [gFTP――多機能で便利なLinuxファイル転送の万能ナイフ (1/2) - ITmedia エンタープライズ](https://www.itmedia.co.jp/enterprise/articles/0705/29/news010.html)
 
-[VirtualBox]: https://www.virtualbox.org/ "Oracle VM VirtualBox"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [Debian]: https://www.debian.org/ "Debian -- The Universal Operating System"
-[git]: https://git-scm.com/
-[KDiff3]: http://kdiff3.sourceforge.net/
-[Go 言語]: https://golang.org/ "The Go Programming Language"
-[Go]: https://golang.org/ "The Go Programming Language"
-[curl]: https://curl.haxx.se/
-[OpenJDK]: http://openjdk.java.net/
 
 ## 参考図書
 

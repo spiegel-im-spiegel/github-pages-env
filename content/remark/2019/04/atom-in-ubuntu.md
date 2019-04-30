@@ -3,7 +3,7 @@ title = "Ubuntu に ATOM エディタを導入する"
 date = "2019-04-15T23:32:39+09:00"
 description = "この記事は随時更新します。 悪しからずご了承の程を。"
 image = "/images/attention/kitten.jpg"
-tags = ["atom", "editor", "ubuntu", "linux", "font"]
+tags = ["atom", "editor", "ubuntu", "linux", "font", "install"]
 pageType = "text"
 
 [scripts]

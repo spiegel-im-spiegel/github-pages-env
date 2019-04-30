@@ -3,7 +3,7 @@ title = "PPA から Git をインストールする"
 date = "2019-04-08T00:12:49+09:00"
 description = "Git に関しては PPA (Personal Package Archive) で最新版のビルドを提供されている方がいるらしい。ありがたや。"
 image = "/images/attention/kitten.jpg"
-tags = [ "linux", "ubuntu", "ppa", "git", "ssh", "credential" ]
+tags = [ "linux", "ubuntu", "ppa", "git", "ssh", "credential", "install" ]
 pageType = "text"
 
 [scripts]
