@@ -39,6 +39,15 @@
 - [How to use I2P on Android – Masayuki Hatta – Medium](https://medium.com/@mhatta/how-to-use-i2p-on-android-91dd379fdb65?fbclid=IwAR1kckWLLLJv1U_8-FIreYOm0rWJcckV_p_OUpolUFe_BH2G-4voDfDyyxk)
 - [The I2P Out-of-the-Box: Try I2P easily with I2P Firefox Browser Profile](https://medium.com/@mhatta/the-i2p-out-of-the-box-try-i2p-easily-with-i2p-firefox-browser-profile-3649ab8e8ff2)
 
+- [Ubuntu – Package Search Results -- graphviz](https://packages.ubuntu.com/search?keywords=graphviz&searchon=names)
+- [GitHub - kazukousen/gouml: Automatically generate PlantUML from Go Code.](https://github.com/kazukousen/gouml)
+    - [GoのコードからPlantUMLコードを生成する静的解析ツールを作っている - 日記マン](https://i101330.hatenablog.com/entry/2019/04/14/205522)
+- [GitHub - windler/dotgraph: Go package to create and render graphviz dot graphs](https://github.com/windler/dotgraph)
+- [Awesome GraphViz | awesome-graphviz](https://codefreezr.github.io/awesome-graphviz/)
+- [GitHub - emicklei/dot: Go package for writing descriptions using the Graphviz DOT language](https://github.com/emicklei/dot)
+- [GitHub - awalterschulze/gographviz: Parses the Graphviz DOT language in golang](https://github.com/awalterschulze/gographviz)
+
+
 ## リリース情報
 
 
@@ -47,12 +56,25 @@
 
 ## セキュリティ＆プライバシー関連
 
+- [A 'Blockchain Bandit' Is Guessing Private Keys and Scoring Millions | WIRED](https://www.wired.com/story/blockchain-bandit-ethereum-weak-private-keys/)
+    - [Stealing Ethereum by Guessing Weak Private Keys - Schneier on Security](https://www.schneier.com/blog/archives/2019/04/stealing_ethere.html)
+- [Docker Hubの不正アクセスについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/04/29/031838)
+- [マイクロソフトはパスワードを期限切れにするポリシーの廃止を検討  |  TechCrunch Japan](https://jp.techcrunch.com/2019/04/29/2019-04-24-windows-password-expiry/)
+- [アップルがスクリーンタイム監視アプリ削除の正当性を主張  |  TechCrunch Japan](https://jp.techcrunch.com/2019/04/29/2019-04-28-apple-defends-its-takedown-of-some-apps-monitoring-screen-time/)
+- [A hotspot finder app exposed 2 million Wi-Fi network passwords – TechCrunch](https://techcrunch.com/2019/04/22/hotspot-password-leak/)
+- [TVerの改ざんについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/04/30/011810)
+- [あやしいソフトも安全・気軽に試せる「Windows サンドボックス」 - 窓の杜](https://forest.watch.impress.co.jp/docs/shseri/win10may2019/1182586.html)
+- [3 reasons Google and Facebook may listen to you (and what you can do about it) - F-Secure Blog](https://blog.f-secure.com/google-and-facebook-listen-to-you/)
+- [「ac.jp」ドメインの審査不備問題についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/05/01/102032)
 
 ## 天文関連
 
+- [ブラックホールが放つ弾丸のようなプラズマから歳差運動の周期を解析 | sorae：宇宙へのポータルサイト](https://sorae.info/030201/2019_4_30_cygni.html)
 
 ## 知財関連
 
+- [オープンソース海賊版アドオンの「撲滅」は難しい、が…… – P2Pとかその辺のお話R](https://p2ptk.org/copyright/1861)
+- [CC Search is out of beta with 300M images and easier attribution - Creative Commons](https://creativecommons.org/2019/04/30/cc-search-images/)
 
 ## その他
 

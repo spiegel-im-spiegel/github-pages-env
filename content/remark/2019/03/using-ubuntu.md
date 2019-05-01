@@ -647,6 +647,7 @@ Press enter to keep the current choice[*], or type selection number:
 - [Debian Linuxで7zファイルを圧縮・解凍する / p7zipの使い方 -- ぺけみさお](https://www.xmisao.com/2014/09/25/debian-linux-extract-7z.html)
 - [Amazon DriveをUbuntu（Linux）で自動マウントする | web net FORCE](https://webnetforce.net/amazon-drive-auto-mount-for-ubuntu/)
 - [gFTP――多機能で便利なLinuxファイル転送の万能ナイフ (1/2) - ITmedia エンタープライズ](https://www.itmedia.co.jp/enterprise/articles/0705/29/news010.html)
+- [Ubuntu 16.04 で MinGW を使い C++11 プログラムの Windows バイナリをクロスコンパイルする - Qiita](https://qiita.com/syoyo/items/678f9c3c82d5f6f5607c)
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [Debian]: https://www.debian.org/ "Debian -- The Universal Operating System"
