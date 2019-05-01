@@ -1,5 +1,5 @@
 +++
-title = "gpgpdump v0.5.1 をリリースした"
+title = "gpgpdump v0.5.1 をリリースした（v0.5.2 もリリースした）"
 date =  "2019-05-01T13:37:53+09:00"
 description = "リテラルパケットのファイル名に含まれる改行コードなどの制御コードを符号点表示に展開するようにした。"
 image = "/images/attention/openpgp.png"
@@ -26,7 +26,7 @@ pageType = "text"
 具体的にはリテラルパケットのファイル名に含まれる改行コードなどの制御コードを `(U+000A)` のように符号点表示に展開するようにした。
 制御コードの判定には [Go 言語]標準の [`unicode`]`.IsControl()` 関数を使っている（手抜き実装`w`）。
 
-他にも UTF-8 以外の文字エンコーディングの場合は `<invalid text string>` と表記するようにした。
+他にも UTF-8 以外の文字エンコーディングの場合は `"invalid text string"` と表記するようにした。
 まぁ Shift-JIS とか EUC とか軒並み引っかかっちゃうんだけど，もう気にしないことにした（今までだって文字化けしてまともに表示できなかった筈）。
 
 それにしても [Ubuntu] は快適だね。
@@ -34,6 +34,18 @@ pageType = "text"
 Microsoft が今後 PWA (Progressive Web Apps) へのシフトを進めていくと Windows はどんどん「{{% ruby "Progammable Controller" %}}コントローラ{{% /ruby %}}」になっていくだろうし，そうなると「{{% ruby "Personal Computer" %}}パソコン{{% /ruby %}}」と言えるのは macOS や [Ubuntu] のような UNIX 系のデスクトップ OS だけになるかもしれないねぇ[^subs1]。
 
 [^subs1]: と考えると Windows のサブシステムに Linux を入れたのは本当にお馬鹿な選択だったと言わざるを得ない。包含関係が逆だよ。 Linux 環境下で Windows がサブシステムとして動作できるようにしないと。
+
+## 【追記】 [gpgpdump] v0.5.2 をリリースした
+
+v0.5.1 をリリースしたばっかだが v0.5.2 を出した。
+
+- [Release v0.5.2 · spiegel-im-spiegel/gpgpdump · GitHub](https://github.com/spiegel-im-spiegel/gpgpdump/releases/tag/v0.5.2)
+
+いやぁ，よく考えたらリテラルのテキストを扱うのはリテラルパケットだけじゃなかった。
+ちうわけでコード内を浚って生データをそのまま string にキャストして出力してる部分を修正した。
+アホだなぁ，私。
+
+これで大丈夫なはず。
 
 [gpgpdump]: https://github.com/spiegel-im-spiegel/gpgpdump "spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer"
 [`gpgpdump`]: https://github.com/spiegel-im-spiegel/gpgpdump "spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer"
