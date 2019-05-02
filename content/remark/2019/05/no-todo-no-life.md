@@ -1,11 +1,10 @@
 +++
 title = "ビンボー人は TODO をやってはいけない"
-date =  "2019-05-02T13:10:35+09:00"
+date =  "2019-05-02T15:07:38+09:00"
 description = "富裕層は経済力でリスクを回避し経済力で「時間」を買う。ビンボー人はそれ以外の方法でリスクを回避し時間を作り出すしかない。"
 image = "/images/attention/kitten.jpg"
 tags = [ "management" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
