@@ -692,6 +692,33 @@ dot - graphviz version 2.40.1 (20161225.0304)
 [Graphviz]: https://www.graphviz.org/ "Graphviz - Graph Visualization Software"
 [graphviz]: https://www.graphviz.org/ "Graphviz - Graph Visualization Software"
 
+### vim の導入{#vim}
+
+[Ubuntu] に標準で入っている vi は vim-tiny なんだそうで [vim] を使いたければ別途インストールする必要があるらしい。
+
+ちうわけで
+
+```text
+$ sudo apt install vim
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています                
+状態情報を読み取っています... 完了
+以下の追加パッケージがインストールされます:
+  vim-runtime
+提案パッケージ:
+  ctags vim-doc vim-scripts
+以下のパッケージが新たにインストールされます:
+  vim vim-runtime
+アップグレード: 0 個、新規インストール: 2 個、削除: 0 個、保留: 0 個。
+6,789 kB のアーカイブを取得する必要があります。
+この操作後に追加で 33.0 MB のディスク容量が消費されます。
+続行しますか? [Y/n] 
+```
+
+提案パッケージは必要になってからでいいか。
+
+[vim]: https://www.vim.org/
+
 ## その他ブックマーク
 
 - [Installing LibreOffice on Linux - The Document Foundation Wiki](https://wiki.documentfoundation.org/Documentation/Install/Linux)
