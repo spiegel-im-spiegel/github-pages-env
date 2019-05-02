@@ -62,7 +62,7 @@ tags = [ "openpgp", "security", "cryptography", "mua", "thunderbird", "messaging
 
 {{< fig-img src="https://photo.baldanders.info/flickr/image/29124707788_m.png" title="Enigmail setup-wizard (3)" link="https://photo.baldanders.info/flickr/29124707788/" >}}
 
-{{< fig-img src="https://photo.baldanders.info/flickr/image/42278604034_m.png" title="Enigmail setup-wizard (5)" link="https://photo.baldanders.info/flickr/42278604034/" >}}
+{{< fig-img src="https://photo.baldanders.info/flickr/image/42947411712_m.png" title="Enigmail setup-wizard (4)" link="https://photo.baldanders.info/flickr/42947411712/" >}}
 
 {{< fig-img src="https://photo.baldanders.info/flickr/image/42278604034_m.png" title="Enigmail setup-wizard (5)" link="https://photo.baldanders.info/flickr/42278604034/" >}}
 

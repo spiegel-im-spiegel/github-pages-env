@@ -26,6 +26,7 @@ pageType = "text"
     - [KDiff3 の導入]({{< relref "#kdiff3" >}})
     - [Go コンパイラを導入する]({{< relref "#golang" >}})
     - [OpenJDK を入れる]({{< relref "#jdk" >}})
+    - [Graphviz の導入]({{< relref "#gvz" >}})
 
 ## VirtualBox との連携{#vb}
 
@@ -639,6 +640,57 @@ Press enter to keep the current choice[*], or type selection number:
 - [Java 環境のリリースとサポートに関する覚え書き]({{<ref "/remark/2018/02/release-cycle-of-java-environment.md" >}})
 
 [OpenJDK]: http://openjdk.java.net/
+
+### Graphviz の導入{#gvz}
+
+[Graphviz] は APT で導入できる。
+
+```text
+$ apt show graphviz
+Package: graphviz
+Version: 2.40.1-6
+Priority: optional
+Section: universe/graphics
+Origin: Ubuntu
+```
+
+えっ， Linux 版の [graphviz] って 2.40.1 なんだ。
+Windows 版のほうがバージョンが古いのか。
+
+まぁいいや。
+インストールしてしまおう。
+
+```text
+$ sudo apt install graphviz
+[sudo] spiegel のパスワード: 
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています                
+状態情報を読み取っています... 完了
+以下の追加パッケージがインストールされます:
+  libcdt5 libcgraph6 libgts-0.7-5 libgts-bin libgvc6 libgvpr2 liblab-gamut1 libpathplan4
+提案パッケージ:
+  graphviz-doc
+以下のパッケージが新たにインストールされます:
+  graphviz libcdt5 libcgraph6 libgts-0.7-5 libgts-bin libgvc6 libgvpr2 liblab-gamut1 libpathplan4
+アップグレード: 0 個、新規インストール: 9 個、削除: 0 個、保留: 0 個。
+1,778 kB のアーカイブを取得する必要があります。
+この操作後に追加で 8,496 kB のディスク容量が消費されます。
+続行しますか? [Y/n] y
+...
+```
+
+[Graphviz] を入れたのは勿論 DOT 言語が使いたかったから。
+一応，動作確認しておこう。
+
+```text
+$ dot -V
+dot - graphviz version 2.40.1 (20161225.0304)
+```
+
+よーし，うむうむ，よーし。
+
+[Graphviz]: https://www.graphviz.org/ "Graphviz - Graph Visualization Software"
+[graphviz]: https://www.graphviz.org/ "Graphviz - Graph Visualization Software"
 
 ## その他ブックマーク
 

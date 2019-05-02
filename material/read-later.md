@@ -39,7 +39,7 @@
 - [How to use I2P on Android – Masayuki Hatta – Medium](https://medium.com/@mhatta/how-to-use-i2p-on-android-91dd379fdb65?fbclid=IwAR1kckWLLLJv1U_8-FIreYOm0rWJcckV_p_OUpolUFe_BH2G-4voDfDyyxk)
 - [The I2P Out-of-the-Box: Try I2P easily with I2P Firefox Browser Profile](https://medium.com/@mhatta/the-i2p-out-of-the-box-try-i2p-easily-with-i2p-firefox-browser-profile-3649ab8e8ff2)
 
-- [Ubuntu – Package Search Results -- graphviz](https://packages.ubuntu.com/search?keywords=graphviz&searchon=names)
+- [Ubuntu – Package Search Results -- graphviz](https://packages.ubuntu.com/search?keywords=graphviz)
 - [GitHub - kazukousen/gouml: Automatically generate PlantUML from Go Code.](https://github.com/kazukousen/gouml)
     - [GoのコードからPlantUMLコードを生成する静的解析ツールを作っている - 日記マン](https://i101330.hatenablog.com/entry/2019/04/14/205522)
 - [GitHub - windler/dotgraph: Go package to create and render graphviz dot graphs](https://github.com/windler/dotgraph)
