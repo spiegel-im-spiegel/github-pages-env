@@ -42,6 +42,7 @@
 
 ## リリース情報
 
+- [News: KeePass 2.42 available! - KeePass](https://keepass.info/news/n190501_2.42.html)
 
 ## Age of Trump
 
@@ -58,10 +59,15 @@
 - [あやしいソフトも安全・気軽に試せる「Windows サンドボックス」 - 窓の杜](https://forest.watch.impress.co.jp/docs/shseri/win10may2019/1182586.html)
 - [3 reasons Google and Facebook may listen to you (and what you can do about it) - F-Secure Blog](https://blog.f-secure.com/google-and-facebook-listen-to-you/)
 - [「ac.jp」ドメインの審査不備問題についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/05/01/102032)
+- [「Google Chrome 74」に2件の脆弱性 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1182903.html)
+- [There Used to Be An App For That – OurPact – Medium](https://medium.com/@ourpactapp/there-used-to-be-an-app-for-that-41344f61fb6f)
+    - [Appleのペアレンタルコントロール機能を持つアプリ削除の説明はおかしい？ - iPhone Mania](https://iphone-mania.jp/news-246697/)
 
 ## 天文関連
 
 - [ブラックホールが放つ弾丸のようなプラズマから歳差運動の周期を解析 | sorae：宇宙へのポータルサイト](https://sorae.info/030201/2019_4_30_cygni.html)
+- [MIT Tech Review: 巨大衝突による月の誕生に新説、地球はマグマで覆われていた？](https://www.technologyreview.jp/nl/the-moon-may-be-made-from-a-magma-ocean-that-once-covered-earth/)
+- [時には昔の話を - 国立天文台暦計算室](https://eco.mtk.nao.ac.jp/koyomi/topics/html/topics2020_1.html)
 
 ## 知財関連
 
@@ -70,5 +76,7 @@
 
 ## その他
 
+- [改元特番でＮＨＫだけが伝えた”不都合な真実”(水島宏明) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/mizushimahiroaki/20190501-00124418/)
+- [Nature ハイライト：暑さの感受性：海生動物は陸生動物よりも気候温暖化に対して脆弱であることが示された | Nature | Nature Research](https://www.natureasia.com/ja-jp/nature/highlights/98575)
 
 <!-- eof -->
