@@ -1,0 +1,11 @@
+digraph gomod {
+	N1 [ fontname="Inconsolata",label="hello\nv1.0.0" ];
+	subgraph cluster_hello {
+		fontname="Inconsolata"
+		label = "rev: a8f02ef988d2";
+		N2 [ fontname="Inconsolata",cluste="hello",label="hello\na8f02ef988d2" ];
+		N3 [ fontname="Inconsolata",cluste="hello",label="hello/v2\nv2.0.1" ];
+	};
+	N1->N2;
+	N1->N3;
+}
