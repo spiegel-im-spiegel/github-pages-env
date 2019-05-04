@@ -669,8 +669,9 @@ Flags:
 - [Go Modulesの概要とGo1.12に含まれるModulesに関する変更 #golangjp #go112party - My External Storage](https://budougumi0617.github.io/2019/02/15/go-modules-on-go112/)
 - [GoにおけるSemantic versioningとgo.modにある+incompatibleについて - Qiita](https://qiita.com/Tommy_/items/32d2d0d9f56365ee61fc)
 
-- [GOPATH 汚染問題]({{< ref "/golang/gopath-pollution.md" >}})
-- [vgo (Versioned Go) に関する覚え書き]({{< ref "/golang/go-and-versioning.md" >}})
+- [GOPATH 汚染問題]({{< relref "./gopath-pollution.md" >}})
+- [vgo (Versioned Go) に関する覚え書き]({{< relref "./go-and-versioning.md" >}})
+- [Go モジュールのバージョン管理]({{<relref "./versioning-of-go-modules.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [dep]: https://golang.github.io/dep/ "dep · Dependency management for Go"
