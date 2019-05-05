@@ -29,6 +29,8 @@ hello/
 ```
 
 `go.mod` ファイルの内容は以下の通り。
+今回の記事では先頭行の `module` ディレクティブに注目する。
+`module` ディレクティブはパッケージのモジュール・パスを定義するもので，このモジュールパスとバージョンのセットがモジュールの IDentity となる。
 
 ```text
 module github.com/spiegel-im-spiegel/hello
@@ -48,9 +50,9 @@ func Hello() {
 }
 ```
 
-これをリポジトリに push してバージョンタグ `v1.0.0` を付ける。
+このパッケージをリポジトリに push してバージョンタグ `v1.0.0` を付ける。
 
-このパッケージを使うコードも書いてみよう。
+パッケージを使う側のコードも書いておこう。
 
 ```go
 package main
@@ -72,7 +74,7 @@ go: extracting github.com/spiegel-im-spiegel/hello v1.0.0
 Hello World
 ```
 
-このときの `go.mod` は以下のようになっているはずである。
+このとき，パッケージを使う側の `go.mod` は以下のようになっているはずである（モジュール名は適当）。
 
 ```text
 module work
@@ -89,7 +91,7 @@ require github.com/spiegel-im-spiegel/hello v1.0.0
 ではこの `hello` パッケージを少し弄ってみよう。
 まずは安直に `hello.go` 関数を以下のように変更する。
 
-```go
+{{< highlight go "hl_lines=5-7" >}}
 package hello
 
 import "fmt"
@@ -97,14 +99,14 @@ import "fmt"
 func Hello(name string) {
 	fmt.Println("Hello", name, "by v2")
 }
-```
+{{< /highlight >}}
 
-`Hello()` 関数の後方互換性が失われたためメジャーバージョンを上げることにする。
+`Hello()` 関数の後方互換性が失われたのでメジャーバージョンを上げることにしよう。
 このコードを push してバージョンタグ `v2.0.0` を付ける。
 
-この新しいパッケージを使って先程のコードを修正してみる。
+この新しいパッケージで使う側のコードを修正してみる。
 
-```go
+{{< highlight go "hl_lines=6" >}}
 package main
 
 import "github.com/spiegel-im-spiegel/hello"
@@ -112,17 +114,17 @@ import "github.com/spiegel-im-spiegel/hello"
 func main() {
 	hello.Hello("Golang")
 }
-```
+{{< /highlight >}}
 
 `go.mod` ファイルも直さないとね。
 
-```text
+{{< highlight text "hl_lines=5" >}}
 module work
 
 go 1.12
 
 require github.com/spiegel-im-spiegel/hello v2.0.0
-```
+{{< /highlight >}}
 
 これを実行すると以下のようになる。
 
@@ -134,6 +136,7 @@ go: extracting github.com/spiegel-im-spiegel/hello v0.0.0-20190503134808-f31e6a7
 Hello Golang by v2
 ```
 
+ありゃりゃ。
 `v2.0.0` のモジュールを見つけたまではよかったが，ダウンロード時にバージョンタグを認識していない？
 
 ここで思い出したのが [Semantic Versioning] のルールである。
@@ -146,7 +149,7 @@ Hello Golang by v2
 
 ## v2 ディレクトリによる分離
 
-先ほどのコミットはなかったことにして以下のような構成にする。
+先ほどのコミットはなかったことにして， `hello` パッケージの構成を以下のように変える。
 
 ```text
 hello/
@@ -156,11 +159,11 @@ hello/
     └── hello.go
 ```
 
-`hello.go` が `v1` のコードで `v2/hello.go` が新しいコードである。
+`hello.go` が `v1` のコードで `v2/hello.go` が `v2` のコードである。
 
-このパッケージを使うコードを書いてみる。
+このパッケージを使う側のコードも以下のように変える。
 
-```go
+{{< highlight go "hl_lines=3" >}}
 package main
 
 import "github.com/spiegel-im-spiegel/hello/v2"
@@ -168,19 +171,19 @@ import "github.com/spiegel-im-spiegel/hello/v2"
 func main() {
 	hello.Hello("Golang")
 }
-```
+{{< /highlight >}}
 
 `go.mod` はこんな感じ？
 
-```text
+{{< highlight text "hl_lines=5" >}}
 module work
 
 go 1.12
 
 require github.com/spiegel-im-spiegel/hello/v2 v2.0.0
-```
+{{< /highlight >}}
 
-これで実行してみる。
+これで実行してみよう。
 
 ```text
 $ go run main.go 
@@ -223,7 +226,7 @@ Hello Golang by v2
 
 ようやく動いたよ... `orz`
 
-## インポートパスをリダイレクトしたい
+## インポートパスをリダイレクトしたかったのだが...
 
 パッケージ側の構成はこれでいいとして，パッケージをインポートする側は
 
@@ -300,8 +303,6 @@ replace github.com/spiegel-im-spiegel/hello v1.0.1 => github.com/spiegel-im-spie
 
 としたところで更なる混乱を招くだけだけどね。
 
-結局，モジュール対応モード下でメジャー・バージョンを上げたならインポート・パスも変えるしかない，といういうことらしい。
-
 ### “Malformed Module Path”
 
 ならば，旧い `v1` の方を別ディレクトリに移動すればいんじゃね？ って思うよね。
@@ -337,9 +338,9 @@ invalid module version github.com/spiegel-im-spiegel/hello/v1: malformed module 
 ```
 
 とか言われたですよ。
-いや “malformed module path” て。
+いや “malformed module path” て `orz`
 
-とほほ `orz`
+結局 *モジュール対応モード下でメジャー・バージョンを上げたならモジュール・パスも変えるしかない* ということらしい。
 
 ## v2 ブランチを切って運用する
 
@@ -356,11 +357,11 @@ hello/
 
 これに対して `v2` ブランチを切り， `v2` ブランチ上で `go.mod` を以下のように変更する。
 
-```text
+{{< highlight text "hl_lines=1" >}}
 module github.com/spiegel-im-spiegel/hello2/v2
 
 go 1.12
-```
+{{< /highlight >}}
 
 *モジュールのパスと物理パスが異なっている* が気にしないで先に進む。
 `hello.go` を
@@ -375,7 +376,7 @@ func Hello(name string) {
 }
 ```
 
-に変更して  `go.mod` とともに `v2` ブランチに commit & push し，バージョンタグ `v2.0.0` を付与する。
+として `go.mod` とともに `v2` ブランチに commit & push し，バージョンタグ `v2.0.0` を付与する。
 
 パッケージを使用する側のコードは以下の通り。
 
@@ -424,7 +425,7 @@ require github.com/spiegel-im-spiegel/hello/v2 v2.0.0 // indirect
     - パスの最後がバージョン番号（`v2` など）になっていれば，暗黙的にバージョンタグが対応する
 2. モジュール・パスを変更するには `go.mod` ファイルの `module` ディレクティブを変更する
     - 物理的にディレクトリを切るのであれば `go.mod` ファイルも含める
-    - バージョンごとにブランチを切って管理するのであれば，それぞれの `go.mod` ファイルで指定するモジュール・パスに注意する
+    - バージョンごとにブランチを切って管理するのであれば，各ブランチの `go.mod` ファイルで指定するモジュール・パスに注意する
 3. パッケージを利用する側はリポジトリの物理パスとモジュール・パスが異なる場合があるため `go.mod` ファイルに記述されているモジュール・パスを確認する
 4. 同一パッケージの異なるメジャー・バージョンのモジュール・パスを `replace` で繋がないこと。更に分かりにくくなるか指定によってはエラーになる
 
