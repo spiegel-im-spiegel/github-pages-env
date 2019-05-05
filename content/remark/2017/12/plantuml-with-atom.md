@@ -298,6 +298,7 @@ classDiagram
 
 - [AtomとPlantUMLで爆速UMLモデリング - Qiita](https://qiita.com/nakahashi/items/3d88655f055ca6a2617c)
 - [Atom+PlantUMLで見た目もいい感じのシーケンス図を作成する - Qiita](https://qiita.com/k_nakayama/items/77ca73753ebd049a66de)
+- [PlantUMLでER図を描く！ – VELTRA Engineering – Medium](https://medium.com/veltra-engineering/how-to-draw-er-diagram-with-plantuml-86ec2095645e)
 
 [前回]: {{< ref "/remark/2017/12/favorite-atom-packages-2017.md" >}} "年末なので ATOM Editor を掃除しましょう（もしくは2017年お気に入り ATOM パッケージ）"
 [そうだ，シーケンス図を描こう！]: {{<ref "/remark/2017/09/sequence-diagram.md" >}} "そうだ，シーケンス図を描こう！ （一応クラス図も描けるよ）"

@@ -33,50 +33,34 @@
 
 ### I2P について
 
+- [I2P Anonymous Network](https://geti2p.net/)
 - [I2P 匿名ネットワーク](https://geti2p.net/ja/)
 - [I2P - Wikipedia](https://ja.wikipedia.org/wiki/I2P)
 - [Speeding up your I2P network – Masayuki Hatta – Medium](https://medium.com/@mhatta/speeding-up-your-i2p-network-c08ec9de225d)
 - [How to use I2P on Android – Masayuki Hatta – Medium](https://medium.com/@mhatta/how-to-use-i2p-on-android-91dd379fdb65?fbclid=IwAR1kckWLLLJv1U_8-FIreYOm0rWJcckV_p_OUpolUFe_BH2G-4voDfDyyxk)
 - [The I2P Out-of-the-Box: Try I2P easily with I2P Firefox Browser Profile](https://medium.com/@mhatta/the-i2p-out-of-the-box-try-i2p-easily-with-i2p-firefox-browser-profile-3649ab8e8ff2)
 
+- [ClamavNet](https://www.clamav.net/)
+- [The 8 Best Free Anti-Virus Programs for Linux](https://www.tecmint.com/best-antivirus-programs-for-linux/)
+    - [Linux向けアンチウイルスソフト8選 | マイナビニュース](https://news.mynavi.jp/article/20170420-a074/)
+
 
 ## リリース情報
 
-- [News: KeePass 2.42 available! - KeePass](https://keepass.info/news/n190501_2.42.html)
 
 ## Age of Trump
 
 
 ## セキュリティ＆プライバシー関連
 
-- [A 'Blockchain Bandit' Is Guessing Private Keys and Scoring Millions | WIRED](https://www.wired.com/story/blockchain-bandit-ethereum-weak-private-keys/)
-    - [Stealing Ethereum by Guessing Weak Private Keys - Schneier on Security](https://www.schneier.com/blog/archives/2019/04/stealing_ethere.html)
-- [Docker Hubの不正アクセスについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/04/29/031838)
-- [マイクロソフトはパスワードを期限切れにするポリシーの廃止を検討  |  TechCrunch Japan](https://jp.techcrunch.com/2019/04/29/2019-04-24-windows-password-expiry/)
-- [アップルがスクリーンタイム監視アプリ削除の正当性を主張  |  TechCrunch Japan](https://jp.techcrunch.com/2019/04/29/2019-04-28-apple-defends-its-takedown-of-some-apps-monitoring-screen-time/)
-- [A hotspot finder app exposed 2 million Wi-Fi network passwords – TechCrunch](https://techcrunch.com/2019/04/22/hotspot-password-leak/)
-- [TVerの改ざんについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/04/30/011810)
-- [あやしいソフトも安全・気軽に試せる「Windows サンドボックス」 - 窓の杜](https://forest.watch.impress.co.jp/docs/shseri/win10may2019/1182586.html)
-- [3 reasons Google and Facebook may listen to you (and what you can do about it) - F-Secure Blog](https://blog.f-secure.com/google-and-facebook-listen-to-you/)
-- [「ac.jp」ドメインの審査不備問題についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/05/01/102032)
-- [「Google Chrome 74」に2件の脆弱性 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1182903.html)
-- [There Used to Be An App For That – OurPact – Medium](https://medium.com/@ourpactapp/there-used-to-be-an-app-for-that-41344f61fb6f)
-    - [Appleのペアレンタルコントロール機能を持つアプリ削除の説明はおかしい？ - iPhone Mania](https://iphone-mania.jp/news-246697/)
 
 ## 天文関連
 
-- [ブラックホールが放つ弾丸のようなプラズマから歳差運動の周期を解析 | sorae：宇宙へのポータルサイト](https://sorae.info/030201/2019_4_30_cygni.html)
-- [MIT Tech Review: 巨大衝突による月の誕生に新説、地球はマグマで覆われていた？](https://www.technologyreview.jp/nl/the-moon-may-be-made-from-a-magma-ocean-that-once-covered-earth/)
-- [時には昔の話を - 国立天文台暦計算室](https://eco.mtk.nao.ac.jp/koyomi/topics/html/topics2020_1.html)
 
 ## 知財関連
 
-- [オープンソース海賊版アドオンの「撲滅」は難しい、が…… – P2Pとかその辺のお話R](https://p2ptk.org/copyright/1861)
-- [CC Search is out of beta with 300M images and easier attribution - Creative Commons](https://creativecommons.org/2019/04/30/cc-search-images/)
 
 ## その他
 
-- [改元特番でＮＨＫだけが伝えた”不都合な真実”(水島宏明) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/mizushimahiroaki/20190501-00124418/)
-- [Nature ハイライト：暑さの感受性：海生動物は陸生動物よりも気候温暖化に対して脆弱であることが示された | Nature | Nature Research](https://www.natureasia.com/ja-jp/nature/highlights/98575)
 
 <!-- eof -->

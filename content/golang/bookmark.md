@@ -163,6 +163,7 @@ title = "Go 言語に関するブックマーク"
 #### 数値型
 
 - [Golang の 数値型 - Qiita](http://qiita.com/tanaka0325/items/9c61a022cd32be0c65a6)
+- [Go言語での初期化における&amp;とnewの挙動の違い - Qiita](https://qiita.com/wannabe/items/87200a2cfc62cd7859bb)
 
 #### 文字列型と操作・変換
 
