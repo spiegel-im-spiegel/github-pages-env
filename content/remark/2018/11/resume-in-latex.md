@@ -5,20 +5,6 @@ description = "履歴書を LaTeX で書くことのメリットは入力ファ�
 image = "/images/attention/kitten.jpg"
 tags = [ "tex" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = true
   mermaidjs = false
@@ -113,3 +99,19 @@ $\mathrm{\LaTeX}$ 環境なんか用意できねーよ，って方は [Cloud LaT
 - [学会スタイル等 - TeX Wiki](https://texwiki.texjp.org/?%E5%AD%A6%E4%BC%9A%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E7%AD%89)
 - [LaTeX pdf変換(dvipdfmx)](http://www.yamamo10.jp/~yamamoto/comp/latex/dvipdfmx/dvipdfmx.html)
 - [西暦・元号対照表](http://www2.japanriver.or.jp/search_kasen/search_help/refer_year.htm)
+
+## 参考図書
+
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%94%B9%E8%A8%82%E7%AC%AC7%E7%89%88-LaTeX2%CE%B5%E7%BE%8E%E6%96%87%E6%9B%B8%E4%BD%9C%E6%88%90%E5%85%A5%E9%96%80-%E5%A5%A5%E6%9D%91-%E6%99%B4%E5%BD%A6/dp/4774187054?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4774187054"><img src="https://images-fe.ssl-images-amazon.com/images/I/51E5K7B53aL._SL160_.jpg" width="127" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E6%94%B9%E8%A8%82%E7%AC%AC7%E7%89%88-LaTeX2%CE%B5%E7%BE%8E%E6%96%87%E6%9B%B8%E4%BD%9C%E6%88%90%E5%85%A5%E9%96%80-%E5%A5%A5%E6%9D%91-%E6%99%B4%E5%BD%A6/dp/4774187054?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4774187054">[改訂第7版]LaTeX2ε美文書作成入門</a></dt>
+	<dd>奥村 晴彦, 黒木 裕介</dd>
+    <dd>技術評論社 2017-01-24</dd>
+    <dd>Book 大型本</dd>
+    <dd>ASIN: 4774187054, EAN: 9784774187051</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">ついに第7版が登場。紙の本で買って常に側に置いておくのが吉。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-09-27">2017-09-27</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+</div>
