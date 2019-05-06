@@ -236,6 +236,8 @@ Phishing メールやそれに含まれる malware 検知などはサービス�
 - [Ubuntu 18.04 LTS DesktopでClamAVによるウィルスチェックを実行 – LAB4ICT](https://lab4ict.com/system/archives/934)
 - [ClamAV - ArchWiki](https://wiki.archlinux.org/index.php/ClamAV)
 
+- [Free Linux Malware Scanner | Lightweight Agent for Linux Malware Detection and Removal | Sophos](https://www.sophos.com/en-us/products/free-tools/sophos-antivirus-for-linux.aspx) : [ClamAV] がダメそうならこっちにする（笑）
+
 - [Ubuntu16.04(さくらVPS)で１からcronの設定をし、pythonプログラムを定期実行する - Qiita](https://qiita.com/gano/items/802519add83c524e3019)
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
