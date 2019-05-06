@@ -40,10 +40,6 @@
 - [How to use I2P on Android – Masayuki Hatta – Medium](https://medium.com/@mhatta/how-to-use-i2p-on-android-91dd379fdb65?fbclid=IwAR1kckWLLLJv1U_8-FIreYOm0rWJcckV_p_OUpolUFe_BH2G-4voDfDyyxk)
 - [The I2P Out-of-the-Box: Try I2P easily with I2P Firefox Browser Profile](https://medium.com/@mhatta/the-i2p-out-of-the-box-try-i2p-easily-with-i2p-firefox-browser-profile-3649ab8e8ff2)
 
-- [ClamavNet](https://www.clamav.net/)
-- [The 8 Best Free Anti-Virus Programs for Linux](https://www.tecmint.com/best-antivirus-programs-for-linux/)
-    - [Linux向けアンチウイルスソフト8選 | マイナビニュース](https://news.mynavi.jp/article/20170420-a074/)
-
 
 ## リリース情報
 
@@ -53,6 +49,9 @@
 
 ## セキュリティ＆プライバシー関連
 
+- [「Firefox」でインストール済みアドオンが利用不能になる問題が発生中 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1182954.html)
+    - [Firefoxのアドオンが無効化される不具合が発生中。新規ダウンロード、インストールも不可（更新） - Engadget 日本版](https://japanese.engadget.com/2019/05/04/firefox/)
+    - [「Firefox」v66.0.4が公開 ～アドオンが利用不能になる問題を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1182988.html)
 
 ## 天文関連
 
