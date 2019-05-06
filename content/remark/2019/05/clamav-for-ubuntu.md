@@ -224,7 +224,7 @@ Phishing メールやそれに含まれる malware 検知などはサービス�
 
 かといって malware 対策ソフトそのものに金銭は払いたくないし[^fd1]，もうしばらく運用してから評価してみるですよ。
 
-[^fd1]: Android 端末には [F-Secure 社の FREEDOME](https://www.f-secure.com/en/home/products/freedome) を入れている FREEDOME 自体は VPN ソフトだが malware 対策機能も付いていて追跡コードもある程度ブロックしてくれる優れもの。実はこれの Linux 版があれば買ってもよかったのだがなかったのだ。仮想ネットワークについては I2P を試してみるか，と思っていたりする。
+[^fd1]: Android 端末には [F-Secure 社の FREEDOME](https://www.f-secure.com/en/home/products/freedome) を入れている。 FREEDOME 自体は VPN ソフトだが malware 対策機能も付いていて追跡コードもある程度ブロックしてくれる優れもの。実はこれの Linux 版があれば買ってもよかったのだがなかったのだ。仮想ネットワークについては I2P を試してみるか，と思っていたりする。
 
 ## ブックマーク
 
