@@ -1,9 +1,9 @@
 +++
-title = "Ununtu に ClamAV 導入する"
+title = "Ununtu に ClamAV を導入する"
 date =  "2019-05-06T17:39:20+09:00"
 description = "こんなに面倒臭いとは思わなかった。もうしばらく運用してから評価してみるですよ。"
 image = "/images/attention/kitten.jpg"
-tags = [ "security", "malware", "risk", "management", "tools", "linux", "ubuntu" ]
+tags = [ "security", "malware", "risk", "management", "tools", "linux", "ubuntu", "install" ]
 pageType = "text"
 
 [scripts]
