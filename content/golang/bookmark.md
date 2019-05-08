@@ -729,7 +729,13 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go で 0 から始まる連続する n 個の整数を重複無く k 個選んだ時の組み合わせの列挙 - Qiita](http://qiita.com/yumura_s/items/68760d6b902aee9c78f0)
 - [ピーマンとハトと数学を Go 言語で試す - Qiita](http://qiita.com/nirasan/items/69643d0ddf8a7345cf7c)
 - [golangでニュートン法を使って平方根の計算をする - Qiita](http://qiita.com/k-yamada@github/items/0a7baa61bd668c3cb3dc)
+- [[Go]重み付き乱択アルゴリズムを整数だけで完結させる - Qiita](https://qiita.com/cia_rana/items/dca5b008fcee67adda50)
+- [宣教師と人食い人種の問題をGolangで再帰するクロージャ使って書いてみた。 - Qiita](https://qiita.com/jun68ykt/items/2b7d788d21a4cc5c9a56)
+- [golangによるグラフ理論ライブラリの実装](https://qiita.com/G0nta/items/7455fd0656693dd17ef6)
+- [Big Sky :: golang で tensorflow のススメ](https://mattn.kaoriya.net/software/lang/go/20180825013735.htm)
+    - [Big Sky :: Golang だけでやる機械学習と画像分類](https://mattn.kaoriya.net/software/lang/go/20181108123756.htm)
 - [Big Sky :: TensorFlow Lite の Go binding を書いた。](https://mattn.kaoriya.net/software/lang/go/20190307190947.htm)
+- [Go による機械学習 推論フレームワークの最新動向 2019 - Qiita](https://qiita.com/mattn/items/b01f9bb5c2fa3678734a)
 
 ### ソートアルゴリズム
 

@@ -41,6 +41,12 @@
 - [The I2P Out-of-the-Box: Try I2P easily with I2P Firefox Browser Profile](https://medium.com/@mhatta/the-i2p-out-of-the-box-try-i2p-easily-with-i2p-firefox-browser-profile-3649ab8e8ff2)
 
 
+## ブログネタ
+
+- 忘れるためのメモ
+- [Protecting Yourself from Identity Theft - Schneier on Security](https://www.schneier.com/blog/archives/2019/05/protecting_your_2.html)
+
+
 ## リリース情報
 
 
@@ -51,15 +57,43 @@
 
 - [「Firefox」でインストール済みアドオンが利用不能になる問題が発生中 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1182954.html)
     - [Firefoxのアドオンが無効化される不具合が発生中。新規ダウンロード、インストールも不可（更新） - Engadget 日本版](https://japanese.engadget.com/2019/05/04/firefox/)
+    - [Firefoxのエクステンションが証明関連の不具合でどれも動かず  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/05/2019-05-03-a-glitch-is-breaking-all-firefox-extensions/)
     - [「Firefox」v66.0.4が公開 ～アドオンが利用不能になる問題を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1182988.html)
+    - [Mozilla、「Firefox」v66.0.5を公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1183243.html)
+- [改元関連の不具合やシステム障害についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/05/05/063320)
+- [あなたのルーターも狙われる？ 旧式のネットワーク機器がハッカーたちの“宝の山”に｜WIRED.jp](https://wired.jp/2019/05/06/router-wifi-security-settings/)
+- [中国のとあるスマートシティ監視システムのデータが公開状態になっていた  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/06/2019-05-03-china-smart-city-exposed/)
+- [Protecting Yourself from Identity Theft - Schneier on Security](https://www.schneier.com/blog/archives/2019/05/protecting_your_2.html)
+- [解説「ゼロトラスト」シフト--脱“境界セキュリティー”への3つの技術 - ZDNet Japan](https://japan.zdnet.com/article/35136217/)
+- [First Physical Retaliation for a Cyberattack - Schneier on Security](https://www.schneier.com/blog/archives/2019/05/first_physical_.html)
+- [Androidの月例セキュリティ情報公開、リモート攻撃につながる脆弱性に対処へ - ITmedia エンタープライズ](https://www.itmedia.co.jp/enterprise/articles/1905/07/news072.html)
+- [諜報機関のハッキングツールが敵のハッカーに分析され「再利用」されていたと判明 - GIGAZINE](https://gigazine.net/news/20190507-chinese-got-nsa-hacking-tools/)
+- [プライバシーが気になる人は、いますぐAlexaデバイスを海に投げ捨てたほうが良い | ギズモード・ジャパン](https://www.gizmodo.jp/2019/05/alexa-address.html)
+- [Malicious MS Office Macro Creator - Schneier on Security](https://www.schneier.com/blog/archives/2019/05/malicious_ms_of.html)
 
 ## 天文関連
 
 
 ## 知財関連
 
+- [EU、アップルを独禁法違反調査へ。Spotifyの「アップル税が競争を阻害する」主張により - Engadget 日本版](https://japanese.engadget.com/2019/05/06/eu-spotify/)
+- [実証実験その１「出版社と組んで、海賊版の投稿システムを合法化しよう」 - (株)Ｊコミックテラスの中の人](https://kenakamatsu.hatenablog.com/entry/20180806/p1)
+- [著作権侵害に「少額賠償」制度を導入する米CASE法案に賛否の声 – P2Pとかその辺のお話R](https://p2ptk.org/copyright/1900)
 
 ## その他
 
+- [ウィキペディアの弱点を補完するGoldenは最新技術やスタートアップに強い  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/05/2019-04-30-golden-launch/)
+- [［速報］Windows上でフル互換のLinuxシステムコールを実現する「WSL 2」発表、Dockerも実行可能に。Microsoft Build 2019 － Publickey](https://www.publickey1.jp/blog/19/windowslinuxwsl_2dockermicrosoft_build_2019.html)
+- [［速報］マイクロソフト、「Windows Terminal」発表。タブ機能、コマンドプロンプト、PowerShell、SSHなどを統合、オープンソースで開発中。Microsoft Build 2019 － Publickey](https://www.publickey1.jp/blog/19/windows_terminalpowershellsshmicrosoft_build_2019.html)
+- [［速報］WindowsにLinuxカーネルをバンドルへ、Windows Subsystem for Linuxに最適化。Microsoft Build 2019 － Publickey](https://www.publickey1.jp/blog/19/windowslinuxwindows_linux_subsystemmicrosoft_build_2019.html)
+- [［速報］GitHubアカウントでAzureにサインイン可能に。GitHubとAzure Active Directoryとの同期サポートで企業ユーザーの管理が容易に。Microsoft Build 2019 － Publickey](https://www.publickey1.jp/blog/19/githubazuregithubazure_active_directorymicrosoft_build_2019.html)
+- [［速報］マイクロソフト、Webブラウザで動作する「Visual Studio Online」発表。VSCodeベース、IntelliCode、Live Share、拡張機能にも対応。Microsoft Build 2019 － Publickey](https://www.publickey1.jp/blog/19/webvisual_studio_onlinevscodeintellicodelive_sharemicrosoft_build_2019.html)
+- [みずほ銀行、「Amazon Connect」の導入実証--インフラ構築を数時間に短縮 - ZDNet Japan](https://japan.zdnet.com/article/35136419/)
+- [ChromiumベースのEdgeブラウザ、IEモードやプライバシーコントロールなどを追加  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/07/2019-05-07-microsofts-chromium-based-edge-browser-will-get-new-privacy-controls-ie-mode-and-collections/)
+- [Google、Androidにおける「Kotlinファースト」強化を表明。Google I/O 2019 － Publickey](https://www.publickey1.jp/blog/19/googleandroidkotlingoogle_io_2019.html)
+- [Google、「Flutter for Web」発表。FlutterからWebアプリを生成。Flutterはマルチプラットフォーム対応のフレームワークに。Google I/O 2019 － Publickey](https://www.publickey1.jp/blog/19/googleflutter_for_webflutterwebfluttergoogle_io_2019.html)
+- [無料の定番CADソフト「Jw_cad」がアップデート ～新元号“令和”や“Surface Dial”に対応 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1183306.html)
+- [GoogleがKotlinベースのオープンソースUI開発ツールキット「Jetpack Compose」を公開  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/08/2019-05-07-google-launches-jetpack-compose-an-open-source-kotlin-based-ui-development-toolkit/)
+- [Ubuntu 19.10 その5 - 開発コードの決定とリリーススケジュール - kledgeb](https://kledgeb.blogspot.com/2019/05/ubuntu-1910-5.html)
 
 <!-- eof -->

@@ -6,7 +6,6 @@ tags = ["golang", "bookmark"]
 title = "Go 言語に関するブックマーク（未整理分）"
   
 [scripts]
-  highlightjs = false
   mathjax = false
   mermaidjs = false
 +++
@@ -89,9 +88,7 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [Goからlocalのtest用DB(MySQL)をdockerで起動する - Qiita](https://qiita.com/YmgchiYt/items/cc97142614f5b61a69e9)
 - [GoでHTMLをPDFに出力する - Qiita](https://qiita.com/kurkuru/items/65614fd3524fefccf576)
 - [golang 3ways to iterate - Qiita](https://qiita.com/YmgchiYt/items/fe5936ccbc440cbb6214)
-- [[Go]重み付き乱択アルゴリズムを整数だけで完結させる - Qiita](https://qiita.com/cia_rana/items/dca5b008fcee67adda50)
 - [flagdayという日本の祝日を Go で扱うライブラリを作った - Qiita](https://qiita.com/pinzolo/items/970b0b980396a1ba0fa0)
-- [宣教師と人食い人種の問題をGolangで再帰するクロージャ使って書いてみた。 - Qiita](https://qiita.com/jun68ykt/items/2b7d788d21a4cc5c9a56)
 - [machineryについて - Qiita](https://qiita.com/yellow/items/829863d7344e7808d8ac)
 - [go-prompt v0.2.0の新機能紹介 - Qiita](https://qiita.com/c-bata/items/54eee079cfe3cda02eee)
 - [GoアプリケーションをSupervisorでデーモン化😘 - Qiita](https://qiita.com/gericass/items/fa794bfac5c6bd3e0aab)
@@ -115,9 +112,6 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [Go GoCSVでShift_JISでCRLFなCSVを作る](https://qiita.com/hiro9/items/ff9333fcf66c8a3f1c3c) : `github.com/gocarina/gocsv` というパッケージが便利っぽい
 - [Golangでグラフを描く](https://qiita.com/yutsuki/items/7de97e09289a915f86b9)
 - [grpcの練習がてらgoのディレクトリ転送パッケージを作成した](https://qiita.com/youtanagai/items/73557a8be4f643d044b8)
-- [golangによるグラフ理論ライブラリの実装](https://qiita.com/G0nta/items/7455fd0656693dd17ef6)
-- [Big Sky :: golang で tensorflow のススメ](https://mattn.kaoriya.net/software/lang/go/20180825013735.htm)
-    - [Big Sky :: Golang だけでやる機械学習と画像分類](https://mattn.kaoriya.net/software/lang/go/20181108123756.htm)
 - [Goでods(Open Office Spreadsheet)ファイルを読み込む - Qiita](https://qiita.com/jp_ibis/items/506911b0deaa5ff94687)
 - [golangでi18n - Qiita](https://qiita.com/shibukawa/items/f0e4df597e62372fe7d5)
 - [Golangで日本語PDFを出力する方法 - Qiita](https://qiita.com/tobita0000/items/f0c2e69a00773cdac9c0)
