@@ -780,8 +780,8 @@ SFTP で公開鍵認証をを行う場合はログオンタイプを「インタ
 エージェントに `gpg-agent` を利用する場合は[拙文]({{< ref "/remark/2019/04/move-gpg-keyring.md" >}} "Windows 環境で作った GnuPG の鍵束を Ubuntu に移行する")を参考にどうぞ。
 [FileZilla] に限らず，セキュリティ製品でもないソフトウェアにパスワードや秘密鍵を登録するのはオススメしない。
 
-[gFTP]:http://www.gftp.org/
-[FileZilla]: https://www.gftp.org/ "FileZilla - The free FTP solution"
+[gFTP]: https://www.gftp.org/
+[FileZilla]: https://filezilla-project.org/ "FileZilla - The free FTP solution"
 
 ## その他ブックマーク
 
