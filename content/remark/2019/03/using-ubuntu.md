@@ -27,6 +27,8 @@ pageType = "text"
     - [Go コンパイラを導入する]({{< relref "#golang" >}})
     - [OpenJDK を入れる]({{< relref "#jdk" >}})
     - [Graphviz の導入]({{< relref "#gvz" >}})
+    - [vim の導入]({{< relref "#vim" >}})
+    - [GUI な SFTP クライアントを導入する]({{< relref "#sftp" >}})
 
 ## VirtualBox との連携{#vb}
 
@@ -718,6 +720,68 @@ $ sudo apt install vim
 提案パッケージは必要になってからでいいか。
 
 [vim]: https://www.vim.org/
+
+### GUI な SFTP クライアントを導入する{#sftp}
+
+[Ubuntu] で GUI な SFTP クライアントというと [gFTP] か [FileZilla] になりそうだが [gFTP] の最終リリースが2008年というのを見て [FileZilla] を選択した。
+いや古いのが悪いってわけじゃないんだけど，10年以上セキュリティ・アップデートもないってのはちょっと信じられない。
+やはりソフトウェアを取り巻くコミュニティが活況でないということなんだろう。
+
+[FileZilla] ドキュメントには
+
+{{< fig-quote title="Client Installation - FileZilla Wiki" link="https://wiki.filezilla-project.org/Client_Installation#Installing_on_GNU.2FLinux_and_other_Unix.28-like.29_systems" lang="en" >}}
+<q>It is recommended that you use the package manager of your distribution.<br>
+If you're using GNU/Linux, you can also try using the precompiled binaries. After extracting the files to any location (location does not matter, FileZilla can detect its own installation prefix), you can start the program using the filezilla executable in the bin/ subdirectory. Please note that due to differences in distributions, the provided binaries might not work on your system. </q>
+{{< /fig-quote >}}
+
+と書かれていて，とりあえず APT で調べてみると
+
+```text
+$ apt show filezilla
+Package: filezilla
+Version: 3.39.0-2
+Priority: optional
+Section: universe/net
+Origin: Ubuntu
+...
+```
+
+いや，古すぎるだろ。
+こんなんばっかだな APT は。
+
+ちうわけで[ダウンロードページ](https://filezilla-project.org/download.php "Download FileZilla Client for Linux")から取ってきたファイルを展開して使うことにする。
+
+```text
+$ sudo mv ./FileZilla_3.42.1_x86_64-linux-gnu.tar.bz2 /usr/local/src/
+$ cd /usr/local/
+$ sudo tar xvf src/FileZilla_3.42.1_x86_64-linux-gnu.tar.bz2
+$ sudo chown -R root:root FileZilla3
+```
+
+展開時のファイル・ディレクトリ構成を維持していれば [FileZilla] は起動時のパスを見て適切に起動できるようだ。
+なので，別にパスを通さなくても `.bashrc` などで
+
+```bash
+alias fz='/usr/local//FileZilla3/bin/filezilla'
+```
+
+とか定義しておけば
+
+```text
+$ fz &
+```
+
+で起動できる。
+
+使い方は見れば分かる（笑）
+「サイト マネージャー」で接続先を設定して「接続」すればよい。
+SFTP で公開鍵認証をを行う場合はログオンタイプを「インタラクティブ」にしておけば接続時に `SSH_AUTH_SOCK` 環境変数で指定したソケットからエージェントが起動する。
+
+エージェントに `gpg-agent` を利用する場合は[拙文]({{< ref "/remark/2019/04/move-gpg-keyring.md" >}} "Windows 環境で作った GnuPG の鍵束を Ubuntu に移行する")を参考にどうぞ。
+[FileZilla] に限らず，セキュリティ製品でもないソフトウェアにパスワードや秘密鍵を登録するのはオススメしない。
+
+[gFTP]:http://www.gftp.org/
+[FileZilla]: https://www.gftp.org/ "FileZilla - The free FTP solution"
 
 ## その他ブックマーク
 
