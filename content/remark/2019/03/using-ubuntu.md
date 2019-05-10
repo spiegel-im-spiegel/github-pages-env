@@ -359,6 +359,8 @@ SFTP で公開鍵認証をを行う場合はログオンタイプを「インタ
 - [Amazon DriveをUbuntu（Linux）で自動マウントする | web net FORCE](https://webnetforce.net/amazon-drive-auto-mount-for-ubuntu/)
 - [gFTP――多機能で便利なLinuxファイル転送の万能ナイフ (1/2) - ITmedia エンタープライズ](https://www.itmedia.co.jp/enterprise/articles/0705/29/news010.html)
 - [Ubuntu 16.04 で MinGW を使い C++11 プログラムの Windows バイナリをクロスコンパイルする - Qiita](https://qiita.com/syoyo/items/678f9c3c82d5f6f5607c)
+- [GNOMEユーザー必見！「GSConnect」でAndroidと常時連携！ブラウザ拡張も登場！ | LFI](https://linuxfan.info/gsconnect)
+- [Linuxでネットワークトラフィックを監視する方法 | マイナビニュース](https://news.mynavi.jp/article/20100730-linux-freebsd-net-traffic-tools/)
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [Debian]: https://www.debian.org/ "Debian -- The Universal Operating System"

@@ -338,6 +338,10 @@ gcc -o git-credential-libsecret  git-credential-libsecret.o -lsecret-1 -lgio-2.0
 - [Ubuntu security notices](https://usn.ubuntu.com/)
 - [Debian -- Security Information](https://www.debian.org/security/)
 
+- [「apt-get」はもう古い？新しい「apt」コマンドを使ったUbuntuのパッケージ管理 | LFI](https://linuxfan.info/package-management-ubuntu)
+- [Use GDebi for Quickly Installing DEB Packages in Ubuntu - It's FOSS](https://itsfoss.com/gdebi-default-ubuntu-software-center/)
+- [【Linux FAQ】.debファイルをダウンロードしたのですが、どうやってインストールすればいいですか？ | LFI](https://linuxfan.info/post-1881)
+
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [Debian]: https://www.debian.org/ "Debian -- The Universal Operating System"
 [dpkg]: https://debian-handbook.info/browse/ja-JP/stable/sect.manipulating-packages-with-dpkg.html "5.4. dpkg を用いたパッケージの操作"

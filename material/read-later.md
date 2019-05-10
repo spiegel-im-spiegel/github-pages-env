@@ -49,6 +49,7 @@
 
 ## リリース情報
 
+- [「LibreOffice」に1件の脆弱性 ～v6.1.6/v6.2.3ですでに修正済み - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1183531.html)
 
 ## Age of Trump
 
@@ -67,9 +68,14 @@
 - [解説「ゼロトラスト」シフト--脱“境界セキュリティー”への3つの技術 - ZDNet Japan](https://japan.zdnet.com/article/35136217/)
 - [First Physical Retaliation for a Cyberattack - Schneier on Security](https://www.schneier.com/blog/archives/2019/05/first_physical_.html)
 - [Androidの月例セキュリティ情報公開、リモート攻撃につながる脆弱性に対処へ - ITmedia エンタープライズ](https://www.itmedia.co.jp/enterprise/articles/1905/07/news072.html)
-- [諜報機関のハッキングツールが敵のハッカーに分析され「再利用」されていたと判明 - GIGAZINE](https://gigazine.net/news/20190507-chinese-got-nsa-hacking-tools/)
+- [Leaked NSA Hacking Tools - Schneier on Security](https://www.schneier.com/blog/archives/2019/05/leaked_nsa_hack.html)
+    - [諜報機関のハッキングツールが敵のハッカーに分析され「再利用」されていたと判明 - GIGAZINE](https://gigazine.net/news/20190507-chinese-got-nsa-hacking-tools/)
 - [プライバシーが気になる人は、いますぐAlexaデバイスを海に投げ捨てたほうが良い | ギズモード・ジャパン](https://www.gizmodo.jp/2019/05/alexa-address.html)
 - [Malicious MS Office Macro Creator - Schneier on Security](https://www.schneier.com/blog/archives/2019/05/malicious_ms_of.html)
+- [Microsoft Azure、DNSの設定変更に失敗して全世界的にサービス障害。日本は十連休中だったのが不幸中の幸いか － Publickey](https://www.publickey1.jp/blog/19/microsoft_azuredns.html)
+- [Jenkinsの脆弱性突くマルウェアが横行、プラグインにも多数の脆弱性か――米セキュリティ機関が発表 - ITmedia エンタープライズ](https://www.itmedia.co.jp/enterprise/articles/1905/09/news061.html)
+- [MIT Tech Review: グーグルがプライバシー保護強化を発表、クッキーの制限など](https://www.technologyreview.jp/nl/google-has-promised-to-make-it-easier-to-protect-your-privacy/)
+- [Amazon Is Losing the War on Fraudulent Sellers - Schneier on Security](https://www.schneier.com/blog/archives/2019/05/amazon_is_losin.html)
 
 ## 天文関連
 
@@ -84,6 +90,7 @@
 
 - [ウィキペディアの弱点を補完するGoldenは最新技術やスタートアップに強い  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/05/2019-04-30-golden-launch/)
 - [［速報］Windows上でフル互換のLinuxシステムコールを実現する「WSL 2」発表、Dockerも実行可能に。Microsoft Build 2019 － Publickey](https://www.publickey1.jp/blog/19/windowslinuxwsl_2dockermicrosoft_build_2019.html)
+    - [Ubuntu 18.04 その330 - Canonical、WSL 2上でUbuntuのサポートを表明 - kledgeb](https://kledgeb.blogspot.com/2019/05/ubuntu-1804-330-canonicalwsl-2ubuntu.html)
 - [［速報］マイクロソフト、「Windows Terminal」発表。タブ機能、コマンドプロンプト、PowerShell、SSHなどを統合、オープンソースで開発中。Microsoft Build 2019 － Publickey](https://www.publickey1.jp/blog/19/windows_terminalpowershellsshmicrosoft_build_2019.html)
 - [［速報］WindowsにLinuxカーネルをバンドルへ、Windows Subsystem for Linuxに最適化。Microsoft Build 2019 － Publickey](https://www.publickey1.jp/blog/19/windowslinuxwindows_linux_subsystemmicrosoft_build_2019.html)
 - [［速報］GitHubアカウントでAzureにサインイン可能に。GitHubとAzure Active Directoryとの同期サポートで企業ユーザーの管理が容易に。Microsoft Build 2019 － Publickey](https://www.publickey1.jp/blog/19/githubazuregithubazure_active_directorymicrosoft_build_2019.html)
@@ -95,5 +102,9 @@
 - [無料の定番CADソフト「Jw_cad」がアップデート ～新元号“令和”や“Surface Dial”に対応 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1183306.html)
 - [GoogleがKotlinベースのオープンソースUI開発ツールキット「Jetpack Compose」を公開  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/08/2019-05-07-google-launches-jetpack-compose-an-open-source-kotlin-based-ui-development-toolkit/)
 - [Ubuntu 19.10 その5 - 開発コードの決定とリリーススケジュール - kledgeb](https://kledgeb.blogspot.com/2019/05/ubuntu-1910-5.html)
+- [反ワクチンであろうと、安易に検閲に頼ってはならない – P2Pとかその辺のお話R](https://p2ptk.org/freedom-of-speech/1919)
+- [Linuxカーネル「Linux 5.1.0」リリース | Think IT（シンクイット）](https://thinkit.co.jp/news/bn/16097)
+- [GoogleのFlutterはmacOSやWindowsも含む真のマルチプラットフォーム対応へ  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/09/2019-05-07-googles-flutter-framework-spreads-its-wings-and-goes-multi-platform/)
+- [MIT Tech Review: 米国の有名美術館に偏り、収蔵作品は「白人男性」に集中](https://www.technologyreview.jp/s/117648/more-than-75-of-artists-in-us-museums-are-white-men-data-mining-reveals/)
 
 <!-- eof -->

@@ -329,6 +329,8 @@ export SSH_AUTH_SOCK="$(gpgconf --list-dirs agent-ssh-socket)"
 - [Change pinentry program temporarily with gpg-agent - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/236746/change-pinentry-program-temporarily-with-gpg-agent)
 - [Using GnuPG (2.1) for SSH authentication](https://incenp.org/notes/2015/gnupg-for-ssh-authentication.html)
 
+- [Gnupg Download (DEB, RPM, TGZ, TXZ, XZ)](https://pkgs.org/download/gnupg) : こうやって見ると最新バージョンに追随しているディストリビューションの方が珍しいのか
+
 - [GnuPG for Windows インストール編]({{< ref "/openpgp/using-gnupg-for-windows-1.md" >}})
 - [GnuPG for Windows : gpg-agent について]({{< ref "/openpgp/using-gnupg-for-windows-2.md" >}})
 - [GnuPG チートシート（鍵作成から失効まで）]({{< ref "/openpgp/gnupg-cheat-sheet.md" >}})

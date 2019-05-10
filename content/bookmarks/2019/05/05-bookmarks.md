@@ -49,6 +49,7 @@ pageType = "text"
 
 - [オープンソース海賊版アドオンの「撲滅」は難しい、が…… – P2Pとかその辺のお話R](https://p2ptk.org/copyright/1861)
 - [CC Search is out of beta with 300M images and easier attribution - Creative Commons](https://creativecommons.org/2019/04/30/cc-search-images/)
+    - [クリエイティブ・コモンズが独自のサーチエンジン搭載開始 – HON.jp News Blog](https://hon.jp/news/1.0/0/24582/)
 
 ## その他
 

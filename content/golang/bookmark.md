@@ -398,6 +398,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [golang で実際にメール送信せず smtp.SendMail を試すためのモック作り - Qiita](https://qiita.com/Blufe/items/09b63eb113b5ba0064a8)
 - [Goのテスト結果をCIでちょっと詳しく表示する - Qiita](https://qiita.com/take_cheeze/items/4c987cbde09807f8806b)
 - [go vet の shadow を知る – Eureka Engineering – Medium](https://medium.com/eureka-engineering/-dabccd4571ea)
+- [Ginkgoでgolangのビヘイビア駆動(BDD)開発入門 - Qiita](https://qiita.com/myoshimi/items/62bc89b8065e08834b02)
 
 ### ドキュメント・フレームワーク
 

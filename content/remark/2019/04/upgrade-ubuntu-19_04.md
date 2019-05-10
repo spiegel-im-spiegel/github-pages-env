@@ -118,6 +118,8 @@ OpenSSH_7.9p1 Ubuntu-10, OpenSSL 1.1.1b  26 Feb 2019
 ## ブックマーク
 
 - [Ubuntu 18.10 その172 - Ubuntu 19.04へアップグレードするには・アップグレードの注意事項 - kledgeb](https://kledgeb.blogspot.com/2019/04/ubuntu-1810-172-ubuntu-1904.html)
+- [Ubuntu 19.04 日本語 Remix リリース | Ubuntu Japanese Team](http://www.ubuntulinux.jp/News/ubuntu1904-ja-remix)
+    - [Ubuntu 19.04のインストール直後にやっておきたいことまとめ | LFI](https://linuxfan.info/ubuntu-19-04-basic-settings) : 「言語サポートの設定」はやっておいたほうがいいかも
 
 - [PPA から Git をインストールする]({{< relref "./install-git-from-ppa.md" >}})
 - [Ubuntu に Mono を導入する]({{< ref "/remark/2019/04/mono-in-ubuntu.md" >}})
@@ -126,8 +128,6 @@ OpenSSH_7.9p1 Ubuntu-10, OpenSSL 1.1.1b  26 Feb 2019
 
 - [Ubuntu 19.10 その2 - LibreOfficeをSnapで提供する提案 - kledgeb](https://kledgeb.blogspot.com/2019/04/ubuntu-1910-2-libreofficesnap.html)
 - [Ubuntu 19.10 その3 - デフォルトのメールクライアントをGearyに変更する提案 - kledgeb](https://kledgeb.blogspot.com/2019/04/ubuntu-1910-3-geary.html)
-- [Ubuntu 19.04 日本語 Remix リリース | Ubuntu Japanese Team](http://www.ubuntulinux.jp/News/ubuntu1904-ja-remix)
-    - [Ubuntu 19.04のインストール直後にやっておきたいことまとめ | LFI](https://linuxfan.info/ubuntu-19-04-basic-settings) : 「言語サポートの設定」はやっておいたほうがいいかも
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [Ubuntu Japanese Team]: http://www.ubuntulinux.jp/
