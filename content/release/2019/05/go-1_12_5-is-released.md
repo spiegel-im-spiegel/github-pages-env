@@ -78,8 +78,6 @@ GOPATH="/home/username/go"
 
 となっている。
 
-[Go 言語]の標準パッケージのソースコードは眺めるだけでも勉強になるので，私は自身の[ホーム・ディレクトリに入れている]({{< ref "/remark/2019/03/using-ubuntu.md#golang" >}} "Ubuntu で遊ぶ")。
-
 [Go]: https://golang.org/ "The Go Programming Language"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
