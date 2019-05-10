@@ -29,6 +29,7 @@ pageType = "text"
     - [Graphviz の導入]({{< relref "#gvz" >}})
     - [vim の導入]({{< relref "#vim" >}})
     - [GUI な SFTP クライアントを導入する]({{< relref "#sftp" >}})
+    - [GNOME Shell をリスタートする]({{< relref "#sftp" >}})
 
 ## VirtualBox との連携{#vb}
 
@@ -782,6 +783,22 @@ SFTP で公開鍵認証をを行う場合はログオンタイプを「インタ
 
 [gFTP]: https://www.gftp.org/
 [FileZilla]: https://filezilla-project.org/ "FileZilla - The free FTP solution"
+
+### GNOME Shell をリスタートする{#sftp}
+
+現在 [Ubuntu] の GUI Shell である GNOME Shell はコマンド一発で簡単にリスタートできるらしい。
+
+- [GNOME Shellを「リスタート」して軽くしよう！ | LFI](https://linuxfan.info/restart-gnome-shell)
+
+手順は以下の通り
+
+1. `alt-F2` で「コマンドを入力」を表示させる
+2. コマンド「`r`」を入力してリターンキーを押す
+
+以上。
+
+システムモニタを見ると `gnome-shell` プロセスの使用メモリが減っているのが分かる。
+再起動や再ログインなしでできるのは嬉しい。
 
 ## その他ブックマーク
 
