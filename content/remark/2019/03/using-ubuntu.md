@@ -25,6 +25,11 @@ pageType = "text"
     - [GUI な SFTP クライアントを導入する]({{< relref "#sftp" >}})
     - [GNOME Shell をリスタートする]({{< relref "#sftp" >}})
 
+{{< div-box type="md" >}}
+いくつかの記事（インストール情報だけ書いた節）は「[Advanced Package Tool に関する覚え書き]({{< ref "/remark/2019/05/advanced-package-tool.md" >}})」へ移動した。
+併せてどうぞ。
+{{< /div-box >}}
+
 ## VirtualBox との連携{#vb}
 
 ### クリップボードの内容を共有する{#clipboard}
@@ -111,7 +116,16 @@ libc-bin (2.28-0ubuntu1) のトリガを処理しています ...
 
 これでオッケ。
 
-今回はなかったが保留パッケージを含めて更新する場合は `apt full-upgrade` を実行する。
+今回はなかったが保留パッケージを含めて更新する場合は
+
+```text
+$ sudo apt full-upgrade
+```
+
+を実行する。
+
+ちなみに APT のログは `/var/log/apt/` ディレクトリにある。
+あと `/var/log/dpkg.log` ファイルも参考になるだろう。
 
 ### セキュリティ情報をチェックする{#secinfo}
 

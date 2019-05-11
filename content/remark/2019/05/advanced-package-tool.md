@@ -88,9 +88,11 @@ pageType = "text"
 ### [APT] に任せて安心なパッケージ
 
 以下は何も考えずに [APT] に任せても大丈夫だろう。
+不具合や脆弱性への対応はどうしても遅れるが今のところは許容範囲ということで。
 
 | 製品名        | パッケージ名                    | 備考                                                                                |
 | ------------- | ------------------------------- | ----------------------------------------------------------------------------------- |
+| [Firefox]     | `firefox`                       | 既定でインストール済                                                                |
 | [Thunderbird] | `thunderbird`                   | 既定でインストール済                                                                |
 | [LibreOffice] | `libreoffice`                   | 既定でインストール済                                                                |
 | ifconfig      | `net-tools` [^nt1]              | 何故か既定で入ってなかった                                                          |
@@ -104,13 +106,17 @@ pageType = "text"
 
 [^nt1]: パッケージ `net-tools` をインストールすると ifconfig のほかに arp, netstat, rarp, nameif, route といったツールがインストールされる。
 
+[Firefox], [LibreOffice], [Thunderbird] については公式サイトで実行イメージがダウンロード可能になっていて，そちらを取ってきて使うこともできるが，完全に APT の管理を離れてしまい，かつ APT で管理されるバージョンと混在になってしまうので考えどころではある。
+[Firefox Developer Edition](https://www.mozilla.org/firefox/developer/) を使うなら混在もありかも。
+
+[Firefox]: https://www.mozilla.org/ "Internet for people, not profit — Mozilla"
+[LibreOffice]: https://www.libreoffice.org/ "LibreOffice - Free Office Suite - Fun Project - Fantastic People"
+[Thunderbird]: https://www.thunderbird.net/ "Thunderbird — Software made to make email easier. — Mozilla"
 [KDiff3]: http://kdiff3.sourceforge.net/
 [curl]: https://curl.haxx.se/
 [OpenJDK]: http://openjdk.java.net/
 [Graphviz]: https://www.graphviz.org/ "Graphviz - Graph Visualization Software"
 [BOINC]: https://boinc.berkeley.edu/
-[LibreOffice]: https://www.libreoffice.org/ "LibreOffice - Free Office Suite - Fun Project - Fantastic People"
-[Thunderbird]: https://www.thunderbird.net/ "Thunderbird — Software made to make email easier. — Mozilla"
 
 ### その他
 
@@ -199,13 +205,6 @@ $ sudo gdebi ./hugo_0.55.5_Linux-64bit.deb
 ```
 
 [Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
-
-### もうひとつの [LibreOffice]
-
-[LibreOffice] については安定版が [APT] で取得可能で既定で入っているのだが，[ダウンロードページ](https://www.libreoffice.org/download/download/ "Download LibreOffice | LibreOffice - Free Office Suite - Fun Project - Fantastic People")から deb ファイルを取ってきてインストールする方法もある。
-この場合 [APT] 管理のバージョンと混在になってしまうので注意が必要である。
-
-実はどうするか悩み中。
 
 ## ビルド済みバイナリを直接展開して導入する
 
