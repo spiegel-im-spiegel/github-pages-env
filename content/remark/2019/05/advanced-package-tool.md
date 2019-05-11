@@ -340,6 +340,7 @@ gcc -o git-credential-libsecret  git-credential-libsecret.o -lsecret-1 -lgio-2.0
 - [「apt-get」はもう古い？新しい「apt」コマンドを使ったUbuntuのパッケージ管理 | LFI](https://linuxfan.info/package-management-ubuntu)
 - [Use GDebi for Quickly Installing DEB Packages in Ubuntu - It's FOSS](https://itsfoss.com/gdebi-default-ubuntu-software-center/)
 - [【Linux FAQ】.debファイルをダウンロードしたのですが、どうやってインストールすればいいですか？ | LFI](https://linuxfan.info/post-1881)
+- [Installing LibreOffice on Linux - The Document Foundation Wiki](https://wiki.documentfoundation.org/Documentation/Install/Linux)
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [Debian]: https://www.debian.org/ "Debian -- The Universal Operating System"

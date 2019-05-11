@@ -45,6 +45,10 @@ USB メモリを挿してメニューから「ブータブルUSBの作成」を�
 
 さて， GW に入ったらいよいよ OS を換装するんだ（フラグ）
 
+## ブックマーク
+
+- [Ubuntu 18.04 その85 - UbuntuのライブUSBメモリーを作成するには（Ubuntu/GNOME Disks編） - kledgeb](https://kledgeb.blogspot.com/2018/04/ubuntu-1804-85-ubuntuusbubuntugnome.html) : 「ディスク」ツールを使ってブータブル USB を作成する方法。 19.04 でもできることを確認済み
+
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [VirtualBox]: https://www.virtualbox.org/ "Oracle VM VirtualBox"
 

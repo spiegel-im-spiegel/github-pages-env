@@ -367,7 +367,6 @@ SFTP で公開鍵認証をを行う場合はログオンタイプを「インタ
 
 ## その他ブックマーク
 
-- [Installing LibreOffice on Linux - The Document Foundation Wiki](https://wiki.documentfoundation.org/Documentation/Install/Linux)
 - [Ubuntu 19.04 その17 - Xorgセッションで分数スケーリング（Fractional Scaling）を有効にするには - kledgeb](https://kledgeb.blogspot.com/2019/04/ubuntu-1904-17-xorgfractional-scaling.html)
 - [Debian Linuxで7zファイルを圧縮・解凍する / p7zipの使い方 -- ぺけみさお](https://www.xmisao.com/2014/09/25/debian-linux-extract-7z.html)
 - [Amazon DriveをUbuntu（Linux）で自動マウントする | web net FORCE](https://webnetforce.net/amazon-drive-auto-mount-for-ubuntu/)
