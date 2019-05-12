@@ -690,6 +690,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [go-sqlrow](https://blog.web-apps.tech/go-sqlrow/)
 - [Go言語のために、すべてのORMに対応できるデータベースシャーディングライブラリを作った - Qiita](https://qiita.com/goccy/items/a54af6db3b8623e90c38)
 - [GoのGORMでiterate - Qiita](https://qiita.com/iz-j/items/09097c494292e0f03636)
+- [Big Sky :: SQLite3 でロジスティック回帰](https://mattn.kaoriya.net/software/ml/20190512003509.htm)
 
 ### GAE/Go
 
