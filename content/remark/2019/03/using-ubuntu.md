@@ -19,6 +19,7 @@ pageType = "text"
     - [クリップボードの内容を共有する]({{< relref "#clipboard" >}})
 - [Ubuntu に関する雑多なこと]({{< relref "#ubuntu" >}})
     - [Advanced Package Tool]({{< relref "#apt" >}})
+    - [Snap でパッケージ管理をする]({{< ref "#snap" >}})
     - [セキュリティ情報をチェックする]({{< relref "#secinfo" >}})
     - [えっ ifconfig って入ってないの？]({{< relref "#ifconfig" >}})
     - [OpenJDK を入れる]({{< relref "#jdk" >}})
@@ -57,7 +58,7 @@ pageType = "text"
 
 [Ubuntu] は [Debian] 系のディストリビューションなのでパッケージやシステムの管理には APT (Advanced Package Tool) を使う。
 `apt-get` 等が `apt` コマンドに統合されているとは知らなかったよ。
-[Debian] 系は古いバージョンしか使ったことなかったからなぁ （笑）
+[Debian] 系は古いバージョンしか使ったことなかったからなぁ（笑）
 
 - [第 6 章 メンテナンスと更新、APT ツール](https://debian-handbook.info/browse/ja-JP/stable/apt.html)
 - [aptコマンドチートシート - Qiita](https://qiita.com/SUZUKI_Masaya/items/1fd9489e631c78e5b007)
@@ -126,6 +127,69 @@ $ sudo apt full-upgrade
 
 ちなみに APT のログは `/var/log/apt/` ディレクトリにある。
 あと `/var/log/dpkg.log` ファイルも参考になるだろう。
+
+### Snap でパッケージ管理をする{#snap}
+
+APT 以外では [Snap] を使ったパッケージ管理もあるらしい。
+[Snap] は [Ubuntu] 18.04 以降は既定で入っているらしい。
+
+```text
+$ apt show snapd
+Package: snapd
+Version: 2.38+19.04
+Built-Using: apparmor (= 2.12-4ubuntu10), golang-1.10 (= 1.10.4-2ubuntu1), libcap2 (= 1:2.25-2), libseccomp (= 2.3.3-3ubuntu2)
+Priority: optional
+Section: devel
+Origin: Ubuntu
+...
+```
+
+ただし APT とは別管理になるため取り扱いには注意が必要だろう。
+たとえば LibreOffice や Firefox は APT 版と [Snap] 版が混在してしまう。
+また Thunderbird のように [Snap] 版のほうがバージョンが古かったりする場合もある。
+
+[Snap] で自機に導入されているパッケージは
+
+```text
+$ snap list
+```
+
+で見れる。
+また [Snap] が提供しているパッケージは
+
+```text
+$ snap find packagename
+```
+
+で検索でき
+
+```text
+$ sudo snap install packagename
+```
+
+でインストールできる。
+削除は
+
+```text
+$ sudo snap remove packagename
+```
+
+で OK。
+更新は
+
+```text
+$ sudo snap refresh
+```
+
+で一括更新できるようだ。
+
+- [uApp Explorer](https://uappexplorer.com/snaps)
+- [Ubuntu 18.04 LTSでSnapパッケージをデフォルト同梱提案 | マイナビニュース](https://news.mynavi.jp/article/20180214-582997/)
+- [snapdインストール方法まとめ【Ubuntu・Linux Mint・Debian・Fedoraなど】 | LFI](https://linuxfan.info/snapd)
+- [第515回　Ubuntu 18.04 LTSとSnapパッケージ：Ubuntu Weekly Recipe｜gihyo.jp … 技術評論社](https://gihyo.jp/admin/serial/01/ubuntu-recipe/0515)
+- [UbuntuにVSCodeをインストールする3つの方法 - Qiita](https://qiita.com/yoshiyasu1111/items/e21a77ed68b52cb5f7c8) : VS Code は [Snap] でインストールしたほうがいいかも
+
+[Snap]: https://github.com/snapcore/snapd "snapcore/snapd: The snapd and snap tools enable systems to work with .snap files."
 
 ### セキュリティ情報をチェックする{#secinfo}
 
