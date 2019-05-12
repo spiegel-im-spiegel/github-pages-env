@@ -23,7 +23,7 @@ pageType = "text"
     - [えっ ifconfig って入ってないの？]({{< relref "#ifconfig" >}})
     - [OpenJDK を入れる]({{< relref "#jdk" >}})
     - [GUI な SFTP クライアントを導入する]({{< relref "#sftp" >}})
-    - [GNOME Shell をリスタートする]({{< relref "#sftp" >}})
+    - [GNOME Shell をリスタートする]({{< relref "#restart" >}})
 
 {{< div-box type="md" >}}
 いくつかの記事（インストール情報だけ書いた節）は「[Advanced Package Tool に関する覚え書き]({{< ref "/remark/2019/05/advanced-package-tool.md" >}})」へ移動した。
@@ -349,7 +349,7 @@ SFTP で公開鍵認証をを行う場合はログオンタイプを「インタ
 [gFTP]: https://www.gftp.org/
 [FileZilla]: https://filezilla-project.org/ "FileZilla - The free FTP solution"
 
-### GNOME Shell をリスタートする{#sftp}
+### GNOME Shell をリスタートする{#restart}
 
 現在 [Ubuntu] の GUI Shell である GNOME Shell はコマンド一発で簡単にリスタートできるらしい。
 
