@@ -39,6 +39,12 @@ pageType = "text"
 
 どや，楷書体かっこええやろ！ （CV [久川綾](https://www.aoni.co.jp/search/hisakawa-aya.html)）
 
+## ブックマーク
+
+- [楷書体の“令”を新元号発表時の墨書と同じ字形に ～モトヤが無料フォントを提供 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1184390.html) : ほらな。こういうことになるだろ
+
+## 参考図書
+
 <div class="hreview">
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%AB%E3%83%BC%E3%83%89%E3%82%AD%E3%83%A3%E3%83%97%E3%82%BF%E3%83%BC%E3%81%95%E3%81%8F%E3%82%89-1%E6%9C%9F-2%E6%9C%9F-%E3%82%B3%E3%83%B3%E3%83%97%E3%83%AA%E3%83%BC%E3%83%88-DVD-BOX/dp/B004JSTW5S?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B004JSTW5S"><img src="https://images-fe.ssl-images-amazon.com/images/I/51nAq5nBXKL._SL160_.jpg" width="106" alt="photo"></a></div>
   <dl class="fn">

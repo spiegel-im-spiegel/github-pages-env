@@ -30,29 +30,42 @@
 
 ## ブログネタ
 
-- 忘れるためのメモ
 - [Protecting Yourself from Identity Theft - Schneier on Security](https://www.schneier.com/blog/archives/2019/05/protecting_your_2.html)
 
 
 ## リリース情報
 
+- [PostgreSQL 11.3、10.8、9.6.13、9.5.17、9.4.22登場 | マイナビニュース](https://news.mynavi.jp/article/20190513-821163/)
 
 ## バベルのインターネット
 
 
 ## セキュリティ＆プライバシー関連
 
+- [データを暗号化するフラッシュドライブeyeDiskは簡単にハックできた  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/12/2019-05-10-eyedisk-encrypted-flash-drive-unhackable/)
+- [China: How Mass Surveillance Works in Xinjiang | Human Rights Watch](https://www.hrw.org/video-photos/interactive/2019/05/02/china-how-mass-surveillance-works-xinjiang)
+    - [Reverse Engineering a Chinese Surveillance App - Schneier on Security](https://www.schneier.com/blog/archives/2019/05/reverse_enginee_1.html)
+- [アパートにスマートロックを導入した家主、入居者に提訴される--鍵提供で和解 - CNET Japan](https://japan.cnet.com/article/35136842/)
+- [大手ウイルス対策ベンダ3社への不正アクセスについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/05/14/183000)
 
 ## 天文関連
 
+- [MIT Tech Review: ハッブル宇宙望遠鏡の成果の集大成、26万の銀河を捉えた写真](https://www.technologyreview.jp/nl/this-hubble-photo-captures-more-than-265000-galaxies-in-one-image/)
+- [観測成果 - すばる望遠鏡が写し出す、惑星が隠れた若い惑星系の姿 - すばる望遠鏡](https://subarutelescope.org/Pressrelease/2019/05/13/j_index.html)
 
 ## 知財関連
 
+- [HDMIの規格仕様書アーカイブ、機密性と著作権侵害を理由にDMCA削除される – P2Pとかその辺のお話R](https://p2ptk.org/copyright/1946)
+- [違法ダウンロードに巻き込まれたTor出口ノード運営者、手続きの不備で（今のところ）難を逃れる – P2Pとかその辺のお話R](https://p2ptk.org/copyright/1941)
 
 ## Linux または Ubuntu に関する話題
 
+- [Ubuntu 19.04 その37 - Snapストアからインストール可能なSnapアプリ13選 - kledgeb](https://kledgeb.blogspot.com/2019/05/ubuntu-1904-37-snapsnap13.html)
+- [2019年発売の全てのChromebookがLinux対応に - ZDNet Japan](https://japan.zdnet.com/article/35136835/)
 
 ## その他
 
+- [グループFaceTimeの盗聴バグ訴訟、原告の弁護士が敗訴。アップルの予見可能性が証明されず - Engadget 日本版](https://japanese.engadget.com/2019/05/11/facetime/)
+- [理性としての「反緊縮」 - 梶ピエールのブログ](http://kaikaji.hatenablog.com/entry/2019/05/12/235432)
 
 <!-- eof -->
