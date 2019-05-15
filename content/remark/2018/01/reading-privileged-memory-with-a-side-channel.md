@@ -10,20 +10,6 @@ tags = [
   "device",
 ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -163,3 +149,5 @@ CVSS については[解説ページ]({{< ref "/remark/2015/cvss-v3-metrics-in-j
 - [Spectre/Meltdown脆弱性を利用したマルウェアが発見  - PC Watch](https://pc.watch.impress.co.jp/docs/news/1104573.html)
 - [「Meltdown」「Spectre」を狙うマルウェアサンプル、大量に発見 - ZDNet Japan](https://japan.zdnet.com/article/35114230/)
 - [Spectre対策の「Windows 10」向けアップデート、「Skylake」搭載機に提供 - ZDNet Japan](https://japan.zdnet.com/article/35115509/)
+
+- [Intel チップの Microarchitectural Data Sampling 脆弱性について]({{< ref "/remark/2019/05/zombieload-attack.md" >}})

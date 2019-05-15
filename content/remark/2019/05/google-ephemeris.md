@@ -34,6 +34,7 @@ pageType = "text"
 
 ちなみに国立天文台では毎年2月1日に翌年の「[暦要項](https://eco.mtk.nao.ac.jp/koyomi/yoko/ "暦要項 - 国立天文台暦計算室")」が官報で発表される。
 
+- [平成31（2019）年暦要項の発表 | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/topics/2018/20180201-rekiyoko.html)
 - [平成32（2020）年暦要項の発表 | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/topics/2019/20190201-rekiyoko.html)
 
 日本の暦はこれが国家公式データである。
