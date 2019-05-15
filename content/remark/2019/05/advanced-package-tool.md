@@ -158,6 +158,25 @@ pageType = "text"
 
 [Mono]: https://www.mono-project.com/
 
+### [ATOM] エディタ
+
+インストールにはサードパーティ・リポジトリの登録と署名検証用の公開鍵の取得が必要。
+詳しくは
+
+- [ATOM v1.37 がリリースされた]({{< ref "/release/2019/05/atom-v1_37-released.md" >}})
+
+で紹介している。
+
+また deb ファイルを使って直接インストールすることも可能。
+詳しくは
+
+
+- [Ubuntu に ATOM エディタを導入する]({{< ref "/remark/2019/04/atom-in-ubuntu.md" >}})
+
+を参照のこと。
+
+[ATOM]: https://atom.io/
+
 ## deb ファイルを使って直接インストールする
 
 deb ファイルを使って直接インストールするには gdebi を使うのがオススメである。
@@ -177,22 +196,6 @@ $ sudo gdebi foo.deb
 内部で [APT] のデータベースを使ってるのかな。
 
 自前で導入する場合は最新バージョンに常に注意すること。
-
-### [ATOM] エディタ
-
-[リリースページ](https://github.com/atom/atom/releases "Releases · atom/atom") から最新版の `atom-amd64.deb` ファイルをダウンロードしてインストールする。
-
-```text
-$ sudo gdebi ./atom-amd64.deb
-```
-
-詳しくは
-
-- [Ubuntu に ATOM エディタを導入する]({{< ref "/remark/2019/04/atom-in-ubuntu.md" >}})
-
-を参照のこと。
-
-[ATOM]: https://atom.io/
 
 ### [Hugo]
 

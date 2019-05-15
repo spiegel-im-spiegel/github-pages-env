@@ -171,6 +171,7 @@ $ fc-list | grep Noto | grep JP
 - [Items in the Menu Bar are invisible on Ubuntu 18.10 when atom window is focused. · Issue #18535 · atom/atom · GitHub](https://github.com/atom/atom/issues/18535)
 
 - [ATOM Editor に関するメモ]({{< ref "/remark/2015/atom-editor.md" >}})
+- [ATOM v1.37 がリリースされた]({{< ref "/release/2019/05/atom-v1_37-released.md" >}}) : この記事ではサードパーティ・リポジトリを使ってインストールする方法を紹介している
 
 [ATOM]: https://atom.io/
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
