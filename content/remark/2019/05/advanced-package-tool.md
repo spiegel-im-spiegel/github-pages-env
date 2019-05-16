@@ -94,7 +94,6 @@ pageType = "text"
 | ------------- | ------------------------------- | ----------------------------------------------------------------------------------- |
 | [Firefox]     | `firefox`                       | 既定でインストール済                                                                |
 | [Thunderbird] | `thunderbird`                   | 既定でインストール済                                                                |
-| [LibreOffice] | `libreoffice`                   | 既定でインストール済                                                                |
 | ifconfig      | `net-tools` [^nt1]              | 何故か既定で入ってなかった                                                          |
 | [curl]        | `curl`                          | 何故か既定で入ってなかった                                                          |
 | [OpenJDK]     | `openjdk-12-jre`                | JRE のみの場合。バージョンごとにパッケージ名が異なるので注意（左は Java 12 の場合） |
@@ -106,11 +105,10 @@ pageType = "text"
 
 [^nt1]: パッケージ `net-tools` をインストールすると ifconfig のほかに arp, netstat, rarp, nameif, route といったツールがインストールされる。
 
-[Firefox], [LibreOffice], [Thunderbird] については公式サイトで実行イメージがダウンロード可能になっていて，そちらを取ってきて使うこともできるが，完全に APT の管理を離れてしまい，かつ APT で管理されるバージョンと混在になってしまうので考えどころではある。
+[Firefox], [Thunderbird] については公式サイトで実行イメージがダウンロード可能になっていて，そちらを取ってきて使うこともできるが，完全に APT の管理を離れてしまい，かつ APT で管理されるバージョンと混在になってしまうので考えどころではある。
 [Firefox Developer Edition](https://www.mozilla.org/firefox/developer/) を使うなら混在もありかも。
 
 [Firefox]: https://www.mozilla.org/ "Internet for people, not profit — Mozilla"
-[LibreOffice]: https://www.libreoffice.org/ "LibreOffice - Free Office Suite - Fun Project - Fantastic People"
 [Thunderbird]: https://www.thunderbird.net/ "Thunderbird — Software made to make email easier. — Mozilla"
 [KDiff3]: http://kdiff3.sourceforge.net/
 [curl]: https://curl.haxx.se/
@@ -208,6 +206,15 @@ $ sudo gdebi ./hugo_0.55.5_Linux-64bit.deb
 ```
 
 [Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
+
+### [LibreOffice]
+
+[LibreOffice] は公式ページにあるバージョンが無難なようである。
+詳しくは
+
+- [Ubuntu に LibreOffice をインストールする3つの方法]({{< ref "./installing-libreoffice-in-ubuntu.md" >}})
+
+[LibreOffice]: https://www.libreoffice.org/ "LibreOffice - Free Office Suite - Fun Project - Fantastic People"
 
 ## ビルド済みバイナリを直接展開して導入する
 
