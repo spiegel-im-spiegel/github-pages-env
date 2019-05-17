@@ -1,24 +1,12 @@
 +++
 date = "2016-03-29T22:16:41+09:00"
-update = "2018-02-07T15:29:42+09:00"
 description = "Go 言語の引数は基本的に「値渡し（call by value）」である。 Instance の値ではなく実体を渡したいときにしたい場合はポインタを使う。"
-draft = false
 tags = ["golang", "function", "pointer", "defer"]
 title = "関数とポインタ"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 いまさらな内容なのだが覚え書きとして記しておく。
@@ -216,7 +204,7 @@ invalid operation: x += y (operator + not defined on pointer)
 [slice], [map], [channel] は組み込み型だが内部状態を持つ[^make]。
 これらの型の instance を引数に渡す場合は参照渡しのように振る舞う[^slc]。
 
-[^make]: [slice], [map], [channel] は内部状態を持つため `new()` 関数ではなく `make()` 関数を使う。  `make()` 関数は生成した instance への参照（実体はポインタ）を返す。
+[^make]: [slice], [map], [channel] は内部状態を持つため `new()` 関数ではなく `make()` 関数を使う。
 [^slc]: 詳しくは「[配列と Slice]({{< relref "array-and-slice.md" >}})」および「[Map の話]({{< relref "map.md" >}})」を参照のこと。
 
 ```go
@@ -357,7 +345,7 @@ func (v Vertex) String() string {
     return fmt.Sprint("X = ", v.X, ", Y = ", v.Y)
 }
 
-func (v *Vertex) Add(dv Vertex) {
+func (v * Vertex) Add(dv Vertex) {
     if v == nil {
         return
     }
@@ -566,8 +554,7 @@ func main() {
 ## ブックマーク
 
 - [Go 言語の値レシーバとポインタレシーバ | Step by Step](https://skatsuta.github.io/2015/12/29/value-receiver-pointer-receiver/)
-
-[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
+- [Big Sky :: Go のポインタの躓きやすい点](https://mattn.kaoriya.net/software/lang/go/20190516095124.htm)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [defer]: http://blog.golang.org/defer-panic-and-recover "Defer, Panic, and Recover - The Go Blog"

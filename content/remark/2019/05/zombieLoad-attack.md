@@ -57,9 +57,14 @@ Windows は MDS よりヤバい脆弱性があるみたいで
 
 ## ブックマーク
 
+- [Ubuntu 19.04 その44 - Microarchitectural Data Sampling（MDS）とUbuntuの対応方針 - kledgeb](https://kledgeb.blogspot.com/2019/05/ubuntu-1904-44-microarchitectural-data.html)
+- [Ubuntu 19.04 その47 - Microarchitectural Data Sampling（MDS）の対応状況を調べるには - kledgeb](https://kledgeb.blogspot.com/2019/05/ubuntu-1904-47-microarchitectural-data.html)
+- [Ubuntu 18.04 その331 - Microarchitectural Data Sampling（MDS）の緩和策はライブパッチ不可・Linux kernelのアップデートと再起動を - kledgeb](https://kledgeb.blogspot.com/2019/05/ubuntu-1804-331-microarchitectural-data.html)
 - [Intel 製品の複数の脆弱性 (INTEL-SA-00213) に関する注意喚起](https://www.jpcert.or.jp/at/2019/at190024.html)
 - [インテルCPUに重大バグZombieLoad発見、各社がパッチを相次いでリリース  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/15/2019-05-14-intel-chip-flaws-patches-released/)
 - [Intel製CPUに新たな脆弱性 ～“Microarchitectural Data Sampling（MDS）”が公表される - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1184519.html)
 - [インテルのチップに新たな脆弱性--「Microarchitectural Data Sampling（MDS）」 - CNET Japan](https://japan.cnet.com/article/35136950/)
+- [Another Intel Chip Flaw - Schneier on Security](https://www.schneier.com/blog/archives/2019/05/another_intel_c.html)
+- [Intel製品に複数の脆弱性、セキュリティアドバイザリが公開 ～“MDS”脆弱性も含む - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1184857.html)
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
