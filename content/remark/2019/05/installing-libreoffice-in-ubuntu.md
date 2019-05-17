@@ -37,7 +37,7 @@ pageType = "text"
 ちなみに [APT] 版を削除するには
 
 ```text
-$ suso apt remove libreoffice*
+$ sudo apt remove libreoffice*
 ```
 
 でいけるようだ。
@@ -52,14 +52,14 @@ $ suso apt remove libreoffice*
 [Snap] 版をインストールするには
 
 ```text
-$ suso snap install libreoffice
+$ sudo snap install libreoffice
 ```
 
 とすればよい。
 削除するには
 
 ```text
-$ suso snap remove libreoffice
+$ sudo snap remove libreoffice
 ```
 
 で OK。
