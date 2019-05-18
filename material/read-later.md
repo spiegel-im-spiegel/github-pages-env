@@ -7,6 +7,7 @@
 - [ロボット法 | Ugo Pagallo, ウゴ パガロ, 新保 史生, 松尾 剛行, 工藤 郁子, 赤坂 亮太 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4326403454/baldandersinf-22/)
 - [組込みエンジニアの教科書 | 渡辺 登, 牧野 進二 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4863542755/baldandersinf-22/)
 - [数学ガールの秘密ノート/ビットとバイナリー | 結城 浩 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4797391391/baldandersinf-22/)
+- [これでいいのか！2018年著作権法改正 (NextPublishing) eBook: 中山 信弘ほか, 城所 岩生: Kindleストア](https://www.amazon.co.jp/exec/obidos/ASIN/B07NQ75YQC/baldandersinf-22/)
 
 
 ## あとで遊ぶ
@@ -43,11 +44,14 @@
 
 ## 知財関連
 
+- [米国政府、海賊版サイトを摘発し数百万ドル分の現金・暗号通貨を押収 – P2Pとかその辺のお話R](https://p2ptk.org/copyright/1970)
+- [Rightscorp Done Anti-Pirating? Stock Worthless, Website Gone - TorrentFreak](https://torrentfreak.com/rightscorp-done-stock-worthless-website-gone-190518/)
 
 ## Linux または Ubuntu に関する話題
 
 
 ## その他
 
+- [ヒューレット・パッカード・エンタープライズがスパコン大手クレイを1430億円で買収  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/18/2019-05-17-hpe-is-buying-cray-for-1-3-billion/)
 
 <!-- eof -->
