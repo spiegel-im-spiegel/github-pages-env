@@ -34,13 +34,13 @@ pageType = "text"
 
 ```go
 type A struct {
-	N string
+    N string
 }
 
 func (a *A) GenFunc() func() {
-	return func() {
+    return func() {
         fmt.Printf("%s : %p\n", a.N, a)
-	}
+    }
 }
 ```
 
@@ -55,24 +55,24 @@ package main
 import "fmt"
 
 type A struct {
-	N string
+    N string
 }
 
 func (a *A) GenFunc() func() {
-	return func() {
+    return func() {
         fmt.Printf("%s : %p\n", a.N, a)
-	}
+    }
 }
 
 func main() {
-	as := []A{
-		{"foo"},
-		{"bar"},
-	}
-	for i := 0; i < len(as); i++ {
-    	fmt.Printf("instance: %s : %p\n", as[i].N, &as[i])
-		as[i].GenFunc()()
-	}
+    as := []A{
+        {"foo"},
+        {"bar"},
+    }
+    for i := 0; i < len(as); i++ {
+        fmt.Printf("instance: %s : %p\n", as[i].N, &as[i])
+        as[i].GenFunc()()
+    }
 }
 ```
 
@@ -94,19 +94,19 @@ bar : 0x40a0e8
 
 {{< highlight go "hl_lines=11-14" >}}
 func main() {
-	as := []A{
-		{"foo"},
-		{"bar"},
-	}
-	for i := 0; i < len(as); i++ {
-    	fmt.Printf("instance: %s : %p\n", as[i].N, &as[i])
-		as[i].GenFunc()()
-	}
+    as := []A{
+        {"foo"},
+        {"bar"},
+    }
+    for i := 0; i < len(as); i++ {
+        fmt.Printf("instance: %s : %p\n", as[i].N, &as[i])
+        as[i].GenFunc()()
+    }
     fmt.Println()
     for _ , a := range as {
-		fmt.Printf("instance: %s : %p\n", a.N, &a)
-		a.GenFunc()()
-	}
+        fmt.Printf("instance: %s : %p\n", a.N, &a)
+        a.GenFunc()()
+    }
 }
 {{< /highlight >}}
 
@@ -131,8 +131,8 @@ bar : 0x40c160
 
 ```go
 for i, a := 0, as[0]; i < len(as); i, a = i+1, as[i+1] {
-	fmt.Printf("instance: %s : %p\n", a.N, &a)
-	a.GenFunc()()
+    fmt.Printf("instance: %s : %p\n", a.N, &a)
+    a.GenFunc()()
 }
 ```
 
@@ -144,17 +144,17 @@ for i, a := 0, as[0]; i < len(as); i, a = i+1, as[i+1] {
 
 ```go
 func main() {
-	as := []A{
-		{"foo"},
-		{"bar"},
-	}
-	fs := []func(){}
-	for _, a := range as {
-		fs = append(fs, a.GenFunc())
-	}
-	for _, f := range fs {
-		f()
-	}
+    as := []A{
+        {"foo"},
+        {"bar"},
+    }
+    fs := []func(){}
+    for _, a := range as {
+        fs = append(fs, a.GenFunc())
+    }
+    for _, f := range fs {
+        f()
+    }
 }
 ```
 
@@ -172,18 +172,18 @@ bar : 0x40c128
 
 {{< highlight go "hl_lines=8-9" >}}
 func main() {
-	as := []A{
-		{"foo"},
-		{"bar"},
-	}
-	fs := []func(){}
-	for _ , a := range as {
+    as := []A{
+        {"foo"},
+        {"bar"},
+    }
+    fs := []func(){}
+    for _ , a := range as {
         aa := a //create copy instance
         fs = append(fs, aa.GenFunc())
-	}
-	for _ , f := range fs {
-		f()
-	}
+    }
+    for _ , f := range fs {
+        f()
+    }
 }
 {{< /highlight >}}
 
@@ -200,17 +200,17 @@ bar : 0x40c140
 
 {{< highlight go "hl_lines=7-9" >}}
 func main() {
-	as := []A{
-		{"foo"},
-		{"bar"},
-	}
-	fs := []func(){}
+    as := []A{
+        {"foo"},
+        {"bar"},
+    }
+    fs := []func(){}
     for i := 0; i < len(as); i++ {
-		fs = append(fs, as[i].GenFunc())
-	}
-	for _ , f := range fs {
-		f()
-	}
+        fs = append(fs, as[i].GenFunc())
+    }
+    for _ , f := range fs {
+        f()
+    }
 }
 {{< /highlight >}}
 
@@ -237,8 +237,8 @@ bar : 0x40a0e8
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9EGo-ADDISON-WESLEY-PROFESSIONAL-COMPUTING-Donovan/dp/4621300253?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621300253"><img src="https://images-fe.ssl-images-amazon.com/images/I/41meaSLNFfL._SL160_.jpg" width="123" alt="photo"></a></div>
   <dl class="fn">
     <dt><a href="https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9EGo-ADDISON-WESLEY-PROFESSIONAL-COMPUTING-Donovan/dp/4621300253?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621300253">プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)</a></dt>
-	<dd>Alan A.A. Donovan, Brian W. Kernighan</dd>
-	<dd>柴田 芳樹 (翻訳)</dd>
+    <dd>Alan A.A. Donovan, Brian W. Kernighan</dd>
+    <dd>柴田 芳樹 (翻訳)</dd>
     <dd>丸善出版 2016-06-20</dd>
     <dd>Book 単行本（ソフトカバー）</dd>
     <dd>ASIN: 4621300253, EAN: 9784621300251</dd>
@@ -252,8 +252,8 @@ bar : 0x40a0e8
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9EC-%E7%AC%AC2%E7%89%88-ANSI%E8%A6%8F%E6%A0%BC%E6%BA%96%E6%8B%A0-B-W-%E3%82%AB%E3%83%BC%E3%83%8B%E3%83%8F%E3%83%B3/dp/4320026926?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4320026926"><img src="https://images-fe.ssl-images-amazon.com/images/I/41W69WGATNL._SL160_.jpg" width="112" alt="photo"></a></div>
   <dl class="fn">
     <dt><a href="https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9EC-%E7%AC%AC2%E7%89%88-ANSI%E8%A6%8F%E6%A0%BC%E6%BA%96%E6%8B%A0-B-W-%E3%82%AB%E3%83%BC%E3%83%8B%E3%83%8F%E3%83%B3/dp/4320026926?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4320026926">プログラミング言語C 第2版 ANSI規格準拠</a></dt>
-	<dd>B.W. カーニハン, D.M. リッチー</dd>
-	<dd>石田 晴久 (翻訳)</dd>
+    <dd>B.W. カーニハン, D.M. リッチー</dd>
+    <dd>石田 晴久 (翻訳)</dd>
     <dd>共立出版 1989-06-15</dd>
     <dd>Book 単行本</dd>
     <dd>ASIN: 4320026926, EAN: 9784320026926</dd>
