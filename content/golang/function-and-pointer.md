@@ -1,6 +1,6 @@
 +++
 date = "2016-03-29T22:16:41+09:00"
-description = "Go 言語の引数は基本的に「値渡し（call by value）」である。 Instance の値ではなく実体を渡したいときにしたい場合はポインタを使う。"
+description = "Go 言語の引数は基本的に「値渡し（call by value）」である。 Instance の値ではなく実体を渡したいときはポインタを使う。"
 tags = ["golang", "function", "pointer", "defer"]
 title = "関数とポインタ"
 
