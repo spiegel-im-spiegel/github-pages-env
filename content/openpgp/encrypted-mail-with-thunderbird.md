@@ -5,20 +5,6 @@ description = "今回は Thunderbird で OpenPGP 暗号化メールをやり取�
 image = "/images/attention/openpgp.png"
 tags = [ "openpgp", "security", "cryptography", "mua", "thunderbird", "messaging" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -85,8 +71,11 @@ tags = [ "openpgp", "security", "cryptography", "mua", "thunderbird", "messaging
 {{< fig-img src="https://photo.baldanders.info/flickr/image/29125311968_m.png" title="Make mail" link="https://photo.baldanders.info/flickr/29125311968/" >}}
 
 矢印で示した部分で暗号化および電子署名の有無を指定する。
-ここでは暗号化と電子署名を有効にしてメールを送信する。
+左側が暗号化ボタン，右側が電子署名ボタンである。
+2つのボタンはトグルになっていて，押す度にオン・オフを切り替えることができる。
+上の図では暗号化と電子署名の両方を有効にしている。
 
+暗号化または電子署名はメール送信時に行われる。
 送信時に件名を保護するか問い合わせがある。
 
 {{< fig-img src="https://photo.baldanders.info/flickr/image/42948011252_m.png" title="Encrypt title" link="https://photo.baldanders.info/flickr/42948011252/" >}}
