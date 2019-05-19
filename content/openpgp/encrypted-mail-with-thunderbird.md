@@ -99,9 +99,14 @@ tags = [ "openpgp", "security", "cryptography", "mua", "thunderbird", "messaging
 
 鍵の管理で公開鍵のインポート・エクスポートや電子署名等の操作ができる。
 
+## ブックマーク
+
+- [p≡p Security](https://www.pep.security/) : [Enigmail] は [p≡p] にも対応しているらしいが試してない
+
 [OpenPGP]: http://openpgp.org/
 [RFC 4880]: https://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
 [RFC 4880bis]: https://datatracker.ietf.org/doc/draft-ietf-openpgp-rfc4880bis/ "draft-ietf-openpgp-rfc4880bis - OpenPGP Message Format"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 [Thunderbird]: https://www.thunderbird.net/ "Thunderbird — Software made to make email easier. — Mozilla"
 [Enigmail]: https://addons.mozilla.org/thunderbird/addon/enigmail/ "Enigmail :: Add-ons for Thunderbird"
+[p≡p]; https://www.pep.security/ "p≡p Security"
