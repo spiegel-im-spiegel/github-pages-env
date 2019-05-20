@@ -109,4 +109,4 @@ tags = [ "openpgp", "security", "cryptography", "mua", "thunderbird", "messaging
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 [Thunderbird]: https://www.thunderbird.net/ "Thunderbird — Software made to make email easier. — Mozilla"
 [Enigmail]: https://addons.mozilla.org/thunderbird/addon/enigmail/ "Enigmail :: Add-ons for Thunderbird"
-[p≡p]; https://www.pep.security/ "p≡p Security"
+[p≡p]: https://www.pep.security/ "p≡p Security"
