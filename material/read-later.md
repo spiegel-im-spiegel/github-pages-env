@@ -32,12 +32,23 @@
 
 ## リリース情報
 
+- [MathJax v3 beta.4 released | MathJax](https://www.mathjax.org/MathJax-v3-beta.4/)
 
 ## バベルのインターネット
 
+- [Googleがファーウェイに対してAndroidのサポートを中止へ  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/20/2019-05-19-google-reportedly-suspends-select-business-with-huawei-following-u-s-ban/)
+    - [MIT Tech Review: グーグルが一部取引を中止、「ファーウェイ排除」の波紋](https://www.technologyreview.jp/nl/google-has-blocked-huawei-from-using-android-in-any-new-phones/)
+    - [既存ファーウェイ端末はGoogle Playストアを継続利用可能とグーグルが声明  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/21/2019-05-21-google-says-its-app-store-will-continue-to-work-for-existing-huawei-smartphone-owners/)
 
 ## セキュリティ＆プライバシー関連
 
+- [Stack Overflowがセキュリティ侵害を公表 - ZDNet Japan](https://japan.zdnet.com/article/35137157/)
+- [Microsoft、セキュリティ分析ツール「Attack Surface Analyzer 2.0」を無償公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1185544.html)
+- [Return on Data by Noam Kolt :: SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3362880)
+    - [The Concept of "Return on Data" - Schneier on Security](https://www.schneier.com/blog/archives/2019/05/the_concept_of_.html)
+- [CRYPTREC | 耐量子計算機暗号の研究動向調査報告書の公開](https://www.cryptrec.go.jp/topics/cryptrec_20190405_tr_2001_2018.html)
+- [情報処理推進機構：情報セキュリティ：ITセキュリティ評価及び認証制度(JISEC)：入退管理システム　チェックリスト](https://www.ipa.go.jp/security/jisec/choutatsu/ecs/index.html)
+    - [IPA、入退管理システムにおける情報セキュリティ対策要件チェックリストを公開 - クラウド Watch](https://cloud.watch.impress.co.jp/docs/news/1185478.html)
 
 ## 天文関連
 
@@ -49,9 +60,15 @@
 
 ## Linux または Ubuntu に関する話題
 
+- [Canonicalが統合したインフラストラクチャを提供](https://www.infoq.com/jp/news/2019/05/infrastructure-unified-canonical/)
 
 ## その他
 
 - [ヒューレット・パッカード・エンタープライズがスパコン大手クレイを1430億円で買収  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/18/2019-05-17-hpe-is-buying-cray-for-1-3-billion/)
+- [イスラエルのAIチップメーカーが最新ディープラーニングチップを発表  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/19/2019-05-14-hailo-launches-its-newest-deep-learning-chip/)
+- [MIT Tech Review: AI業界の「白人男性偏重」がなくならない根本的な理由](https://www.technologyreview.jp/s/136870/ais-white-guy-problem-isnt-going-away/)
+- [JavaScriptエンジンのV8、WebAssemblyのコンパイル済みモジュールをキャッシュすることで2度目の訪問からは即実行可能に。V8 r7.5で － Publickey](https://www.publickey1.jp/blog/19/javascriptv8webassembly2v8_r75.html)
+- [東京都保健医療公社 多摩北部医療センターの不正アクセスについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/05/21/063000)
+- [人材不足について正直よく分からないこと｜masanork｜note](https://note.mu/masanork/n/n9f880e4649c8)
 
 <!-- eof -->

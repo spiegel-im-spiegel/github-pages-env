@@ -1,21 +1,9 @@
 +++
 title = "（不完全ながら） HTTPS 接続に対応した"
 date = "2019-01-07T17:53:06+09:00"
-update = "2019-01-14T09:49:19+09:00"
 description = "各ページに埋め込まれる他サイトのスクリプトや画像等のマテリアルに HTTPS に対応していないものがあるため不完全な対応になっている点はご了承の程を。"
 image = "/images/attention/kitten.jpg"
 tags = [ "site", "web", "tls", "cryptography" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
 
 [scripts]
   mathjax = false
@@ -76,6 +64,12 @@ tags = [ "site", "web", "tls", "cryptography" ]
 - [Custom domains on GitHub Pages gain support for HTTPS | The GitHub Blog](https://blog.github.com/2018-05-01-github-pages-custom-domains-https/)
 
 こちらも当面は HTTP と HTTPS の両方とも有効にして運用するが Flickr の写真と Amazon アフィリエイト・リンクの目処が立てば HTTPS 強制にしてもいいかも知れない。
+
+{{< div-box type="md" >}}
+*【2019-05-21】* 以下を参考に HTTP 強制にしました。
+
+- [Securing your GitHub Pages site with HTTPS - GitHub Help](https://help.github.com/en/articles/securing-your-github-pages-site-with-https)
+{{< /div-box >}}
 
 ### 【追記1】 e-Words 用語集止めました
 
