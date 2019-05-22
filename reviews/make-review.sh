@@ -1,6 +1,9 @@
 #!/bin/sh
-cat 4532149029.html | amazon-item review -t review-book.html -d 4532149029 -r 4 --review-date 2015-01-14
+cat B00DIM6BE6.html | amazon-item review -t review-book.html -d B00DIM6BE6 -r 4 --review-date 2015-04-26
 # ---
+# cat B074CH93XJ.html | amazon-item review -t review-book.html -d B074CH93XJ -r 4 --review-date 2016-07-10
+# cat B07H5TLTJ4.html | amazon-item review -t review-book.html -d B07H5TLTJ4 -r 5 --review-date 2016-07-10
+# cat 4532149029.html | amazon-item review -t review-book.html -d 4532149029 -r 4 --review-date 2015-01-14
 # cat B00FIX664S.html | amazon-item review -t review-book.html -d B00FIX664S -r 4 --review-date 2019-05-20
 # cat B00CHIFA1M.html | amazon-item review -t review-book.html -d B00CHIFA1M -r 5 --review-date 2019-05-20
 # cat B07JKP4CG8.html | amazon-item review -t review-book.html -d B07JKP4CG8 -r 0 --review-date 2019-05-14
@@ -80,7 +83,6 @@ cat 4532149029.html | amazon-item review -t review-book.html -d 4532149029 -r 4 
 # cat 4254102372.html | amazon-item review -t review-book.html -d 4254102372 -r 4 --review-date 2016-05-05
 # cat 4797339497.html | amazon-item review -t review-book.html -d 4797339497 -r 4 --review-date 2017-11-24
 # cat 4488711022.html | amazon-item review -t review-book.html -d 4488711022 -r 4 --review-date 2017-09-18
-# cat B00DIM6BE6.html | amazon-item review -t review-book.html -d B00DIM6BE6 -r 4 --review-date 2015-04-26
 # cat 4106037866.html | amazon-item review -t review-book.html -d 4106037866 -r 4 --review-date 2016-07-02
 # cat B071FHBGW8.html | amazon-item review -t review-book.html -d B071FHBGW8 -r 3 --review-date 2016-07-02
 # cat B00NWQI4N4.html | amazon-item review -t review-book.html -d B00NWQI4N4 -r 5 --review-date 2016-06-05
