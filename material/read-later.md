@@ -33,6 +33,9 @@
 ## リリース情報
 
 - [MathJax v3 beta.4 released | MathJax](https://www.mathjax.org/MathJax-v3-beta.4/)
+- [「Firefox 67」が正式公開 ～暗号通貨採掘・フィンガープリンティング防止機能を搭載 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1185902.html)
+- [無料メールソフト「Thunderbird」v60.7.0が正式公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1185913.html)
+- [The Document Foundation releases LibreOffice 6.2.4 - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/05/22/tdf-releases-libreoffice-6-2-4/)
 
 ## バベルのインターネット
 
@@ -46,6 +49,7 @@
 - [CRYPTREC | 耐量子計算機暗号の研究動向調査報告書の公開](https://www.cryptrec.go.jp/topics/cryptrec_20190405_tr_2001_2018.html)
 - [情報処理推進機構：情報セキュリティ：ITセキュリティ評価及び認証制度(JISEC)：入退管理システム　チェックリスト](https://www.ipa.go.jp/security/jisec/choutatsu/ecs/index.html)
     - [IPA、入退管理システムにおける情報セキュリティ対策要件チェックリストを公開 - クラウド Watch](https://cloud.watch.impress.co.jp/docs/news/1185478.html)
+- [Googleが2005年以来G Suiteのパスワードが平文保存されていたことを公表  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/22/2019-05-21-google-g-suite-passwords-plaintext/)
 
 ## 天文関連
 
