@@ -25,6 +25,7 @@ pageType = "text"
     - [OpenJDK を入れる]({{< relref "#jdk" >}})
     - [GUI な SFTP クライアントを導入する]({{< relref "#sftp" >}})
     - [GNOME Shell をリスタートする]({{< relref "#restart" >}})
+    - [スワップの解放]({{< relref "#swap" >}})
 
 {{< div-box type="md" >}}
 いくつかの記事（インストール情報だけ書いた節）は「[Advanced Package Tool に関する覚え書き]({{< ref "/remark/2019/05/advanced-package-tool.md" >}})」へ移動した。
@@ -429,6 +430,22 @@ SFTP で公開鍵認証をを行う場合はログオンタイプを「インタ
 システムモニタを見ると `gnome-shell` プロセスの使用メモリが減っているのが分かる。
 再起動や再ログインなしでできるのは嬉しい。
 
+### スワップの解放{#swap}
+
+マシンを稼働させっぱなしにしていると少しずつスワップ領域が食われていくので以下のコマンドで解放する。
+
+```text
+$ sudo swapoff -a
+$ sudo swapon -a
+```
+
+`swapoff`コマンドでスワップアウトされているデータをメモリに戻しているのだが，当然ながらメモリに空きがないと失敗する。
+この場合は不要なプロセスを終了させるなどして空きを作ればいいのだが，無理そうなら諦めて再起動したほうが早いかもしれない。
+まぁ，サーバ機では簡単に再起動とはいかないだろうが，デスクトップならね。
+メモリに空きを作る手順は以下を参考にそうぞ。
+
+- [[Linux]Swap領域をクリアする方法 ·  DQNEO起業日記](http://dqn.sakusakutto.jp/2014/01/linux_swap.html)
+
 ## その他ブックマーク
 
 - [Ubuntu 19.04 その17 - Xorgセッションで分数スケーリング（Fractional Scaling）を有効にするには - kledgeb](https://kledgeb.blogspot.com/2019/04/ubuntu-1904-17-xorgfractional-scaling.html)
@@ -438,6 +455,7 @@ SFTP で公開鍵認証をを行う場合はログオンタイプを「インタ
 - [Ubuntu 16.04 で MinGW を使い C++11 プログラムの Windows バイナリをクロスコンパイルする - Qiita](https://qiita.com/syoyo/items/678f9c3c82d5f6f5607c)
 - [GNOMEユーザー必見！「GSConnect」でAndroidと常時連携！ブラウザ拡張も登場！ | LFI](https://linuxfan.info/gsconnect)
 - [Linuxでネットワークトラフィックを監視する方法 | マイナビニュース](https://news.mynavi.jp/article/20100730-linux-freebsd-net-traffic-tools/)
+    - [Wireshark · Go Deep.](https://www.wireshark.org/) : Wireshark って元々 Linux 用のツールだったんだな。もの知らずでゴメンペコン
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [Debian]: https://www.debian.org/ "Debian -- The Universal Operating System"
