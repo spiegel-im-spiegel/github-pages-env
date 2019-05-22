@@ -36,9 +36,6 @@
 
 ## バベルのインターネット
 
-- [Googleがファーウェイに対してAndroidのサポートを中止へ  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/20/2019-05-19-google-reportedly-suspends-select-business-with-huawei-following-u-s-ban/)
-    - [MIT Tech Review: グーグルが一部取引を中止、「ファーウェイ排除」の波紋](https://www.technologyreview.jp/nl/google-has-blocked-huawei-from-using-android-in-any-new-phones/)
-    - [既存ファーウェイ端末はGoogle Playストアを継続利用可能とグーグルが声明  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/21/2019-05-21-google-says-its-app-store-will-continue-to-work-for-existing-huawei-smartphone-owners/)
 
 ## セキュリティ＆プライバシー関連
 
@@ -61,6 +58,7 @@
 ## Linux または Ubuntu に関する話題
 
 - [Canonicalが統合したインフラストラクチャを提供](https://www.infoq.com/jp/news/2019/05/infrastructure-unified-canonical/)
+- [インテル「Clear Linux Developer Edition」--あらゆるものがソフトウェアで定義される未来を作るための準備 - ZDNet Japan](https://japan.zdnet.com/article/35137133/)
 
 ## その他
 
@@ -70,5 +68,7 @@
 - [JavaScriptエンジンのV8、WebAssemblyのコンパイル済みモジュールをキャッシュすることで2度目の訪問からは即実行可能に。V8 r7.5で － Publickey](https://www.publickey1.jp/blog/19/javascriptv8webassembly2v8_r75.html)
 - [東京都保健医療公社 多摩北部医療センターの不正アクセスについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/05/21/063000)
 - [人材不足について正直よく分からないこと｜masanork｜note](https://note.mu/masanork/n/n9f880e4649c8)
+- [MIT Tech Review: 「あなたの声」のまま翻訳、グーグルが開発した新しいAI](https://www.technologyreview.jp/s/143044/googles-ai-can-now-translate-your-speech-while-keeping-your-voice/)
+- [GoogleのKubernetes Engineが3種のリリースチャネルとWindows Containerをサポート  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/22/2019-05-21-google-brings-release-channels-and-windows-container-support-to-its-kubernetes-engine/)
 
 <!-- eof -->
