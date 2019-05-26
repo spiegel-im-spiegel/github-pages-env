@@ -661,6 +661,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [go で gorma を使ってAPI開発してみる。まずはgoa編 - Qiita](https://qiita.com/keiichi-hikita/items/0cebf00e85f47858c948)
 - [grpc-gatewayでgRPCのREST対応を試しました - Qiita](https://qiita.com/nisitanisubaru/items/abe11ff4248997d1fee2)
 - [Go言語のRESTサーバーを Clean Architecture で作ってみる - Qiita](https://qiita.com/nijuya_o/items/392cd3e4fa5641b3dec1)
+- [SSOサービスKeycloakとgolangのHTTPサーバを連携する - Qiita](https://qiita.com/myoshimi/items/8337aab1b17d89938be0)
 
 ## 他サービスとの連携
 

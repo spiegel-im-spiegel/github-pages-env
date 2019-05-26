@@ -47,6 +47,10 @@ OS ないしはハードウェア・ベンダが「アプリケーション・�
 モノやサービスで溢れかえる時代に生きている私達の自由は意外に貧弱なものである。
 それを握っているのは「私達」ではないのだから。
 
+## ブックマーク
+
+- [ARMが米方針に従いファーウェイとの取引を停止  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/23/2019-05-23-arm-halts-huawei-relationship-following-us-ban/)
+
 [OpenPGP]: http://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
 
 ## 参考図書
