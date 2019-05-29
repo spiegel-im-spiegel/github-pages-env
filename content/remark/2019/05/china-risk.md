@@ -50,6 +50,7 @@ OS ないしはハードウェア・ベンダが「アプリケーション・�
 ## ブックマーク
 
 - [ARMが米方針に従いファーウェイとの取引を停止  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/23/2019-05-23-arm-halts-huawei-relationship-following-us-ban/)
+- [中国最大のチップメーカーがニューヨーク証券取引所上場廃止へ  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/27/2019-05-24-smic-nasdaq-delisting/)
 
 [OpenPGP]: http://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
 

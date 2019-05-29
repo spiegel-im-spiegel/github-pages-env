@@ -38,9 +38,22 @@
 
 ## セキュリティ＆プライバシー関連
 
+- [全国で発生した電子マネーやギフトカードのシステム障害についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/05/26/063000)
+- [秘密鍵・公開鍵ペアの意図的な重複生成が発覚 コールドウォレット作成サービス「ウォレットジェネレーター」を利用しないよう呼びかけ](https://jp.cointelegraph.com/news/computer-researcher-finds-wallet-vulnerability-that-gave-same-key-to-multiple-users)
+- [Macのネットワーク共有に脆弱性の報告。ZIPファイル組み合わせマルウェア感染の危険 - Engadget 日本版](https://japanese.engadget.com/2019/05/27/mac-zip/)
+- [GDPR施行から1年、世界のプライバシーとデータ保護を巡る状況をどう変えたか - ZDNet Japan](https://japan.zdnet.com/article/35137389/)
+- [First American Financial Corp. Leaked Hundreds of Millions of Title Insurance Records —  Krebs on Security](https://krebsonsecurity.com/2019/05/first-american-financial-corp-leaked-hundreds-of-millions-of-title-insurance-records/)
+    - [First American Financial Corp. Data Records Leak - Schneier on Security](https://www.schneier.com/blog/archives/2019/05/first_american_.html)
+- [Amazon株主が政府への顔認識技術提供の禁止を求める提案を否決  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/23/2019-05-22-amazon-reject-facial-recognition-proposals/)
+    - [Amazonに顔認証技術の政府提供禁止を求める案は大差で否決されていた  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/29/2019-05-28-amazon-facial-recognition-vote/)
+- [依然として100万台弱のWindowsシステムに「BlueKeep」の脆弱性 - CNET Japan](https://japan.cnet.com/article/35137653/)
 
 ## 天文関連
 
+- [MIT Tech Review: アポロ計画から50年 月軌道ランデブーを支えた 技術者は今もNASAにいた](https://www.technologyreview.jp/s/143401/the-nasa-engineer-who-helped-apollo-astronauts-catch-their-ride-home/)
+- [【転載】VSOLJニュース No.355 さそり座に新星が出現](https://news.local-group.jp/vsolj_news/355.html)
+- [MIT Tech Review: スペースX、インターネット衛星60基を打ち上げ](https://www.technologyreview.jp/nl/spacex-has-launched-the-first-60-satellites-of-its-space-internet-system/)
+    - [MIT Tech Review: 「明るすぎる」スペースXの人工衛星群、天文学者から批判](https://www.technologyreview.jp/nl/spacexs-starlink-satellites-are-clearly-visible-in-the-sky-and-astronomers-arent-happy/)
 
 ## 知財関連
 
@@ -50,5 +63,7 @@
 
 ## その他
 
+- [データセンターの冷やし方も“デル流”--冷却システムの取り組み - ZDNet Japan](https://japan.zdnet.com/article/35137418/)
+- [HTML標準仕様の策定についてW3CとWHATWGが合意発表。今後はWHATWGのリビングスタンダードが唯一のHTML標準仕様に － Publickey](https://www.publickey1.jp/blog/19/htmlw3cwhatwgwhatwghtml.html)
 
 <!-- eof -->

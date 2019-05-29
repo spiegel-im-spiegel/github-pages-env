@@ -189,6 +189,8 @@ title = "Go 言語に関するブックマーク"
 - [golang で string を []byte にキャストしてもメモリコピーが走らない方法を考えてみる - Qiita](https://qiita.com/mattn/items/176459728ff4f854b165) : `unsafe` パッケージで無理やり処理（笑）
 - [utf8としてvalidなバイト列を判定する方法をGoから見る - Qiita](https://qiita.com/catatsuy/items/bccc2c76be501e98382a)
     - [Go言語で文字列がASCIIコード内であるか判定したい - Qiita](https://qiita.com/catatsuy/items/7a9773f9ea3db7069fc1)
+- [String interpolation in Golang – Ly Channa – Medium](https://medium.com/@channaly/string-interpolation-in-golang-ecb3bcb2d600)
+    - [Golang の文字列内で変数を展開する方法（各種） - Qiita](https://qiita.com/KEINOS/items/baef1be88f15515026ec)
 
 ### 配列と [slice]
 
