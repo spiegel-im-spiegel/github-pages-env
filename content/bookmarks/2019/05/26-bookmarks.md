@@ -15,6 +15,7 @@ pageType = "text"
 - [MathJax v3 beta.4 released | MathJax](https://www.mathjax.org/MathJax-v3-beta.4/)
 - [「Firefox 67」が正式公開 ～暗号通貨採掘・フィンガープリンティング防止機能を搭載 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1185902.html)
 - [無料メールソフト「Thunderbird」v60.7.0が正式公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1185913.html)
+    - [Ubuntu 19.04 その56 - Thunderbirdにクラッシュや任意コード実行など複数の脆弱性・今すぐアップデートを - kledgeb](https://kledgeb.blogspot.com/2019/05/ubuntu-1904-56-thunderbird.html)
 - [The Document Foundation releases LibreOffice 6.2.4 - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/05/22/tdf-releases-libreoffice-6-2-4/)
 - [TDF、「LibreOffice 6.2.4」を公開 ～オープンソースのオフィス統合環境 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1186077.html)
 - [「Tor Browser 8.5」が正式リリース ～デスクトップ版に加えAndroid版が登場 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1186498.html)

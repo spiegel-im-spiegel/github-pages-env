@@ -30,6 +30,9 @@
 - [The I2P Out-of-the-Box: Try I2P easily with I2P Firefox Browser Profile](https://medium.com/@mhatta/the-i2p-out-of-the-box-try-i2p-easily-with-i2p-firefox-browser-profile-3649ab8e8ff2)
 
 
+- [ヤマダ電機通販サイトの不正アクセスについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/05/30/063417)
+- [ヤマダ電機のクレジットカード情報流出事件、「セキュリティコードを保存」の誤解広がる(篠原修司) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/shinoharashuji/20190530-00127999/)
+
 ## リリース情報
 
 
@@ -47,6 +50,12 @@
 - [Amazon株主が政府への顔認識技術提供の禁止を求める提案を否決  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/23/2019-05-22-amazon-reject-facial-recognition-proposals/)
     - [Amazonに顔認証技術の政府提供禁止を求める案は大差で否決されていた  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/29/2019-05-28-amazon-facial-recognition-vote/)
 - [依然として100万台弱のWindowsシステムに「BlueKeep」の脆弱性 - CNET Japan](https://japan.cnet.com/article/35137653/)
+- [全国で発生した電子マネーやギフトカードのシステム障害についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/05/26/063000)
+- [MIT Tech Review: 流出NSA製ハッキングツールが米国を標的に、市システムがダウン](https://www.technologyreview.jp/nl/hackers-are-using-a-leaked-us-cyber-weapon-against-american-targets/)
+- [生体認証データの収集に関する法規制の動き、その影響を探る - ZDNet Japan](https://japan.zdnet.com/article/35137279/)
+- [Alex Stamos on Content Moderation and Security - Schneier on Security](https://www.schneier.com/blog/archives/2019/05/alex_stamos_on.html)
+- {{< pdf-file title="情報セキュリティ早期警戒パートナーシップガイドライン-2019年版" link="https://www.jpcert.or.jp/vh/partnership_guideline2019.pdf" >}}
+    - [JPCERT/CCとIPA、脆弱性情報の取り扱いに関するガイドラインの2019年版を公開 - クラウド Watch](https://cloud.watch.impress.co.jp/docs/news/1187404.html)
 
 ## 天文関連
 
@@ -60,10 +69,17 @@
 
 ## Linux または Ubuntu に関する話題
 
+- [Ubuntu 19.10 その7 - sudo実行時に$HOMEを引き継ぐか、それとも引き継ぎをやめるか - kledgeb](https://kledgeb.blogspot.com/2019/05/ubuntu-1910-7-sudohome.html)
+- [Linux その41 - アプリのテーマとアイコンのカスタマイズはやめて・アプリの開発者がコミュニティーに公開状 - kledgeb](https://kledgeb.blogspot.com/2019/05/linux-41.html)
 
 ## その他
 
 - [データセンターの冷やし方も“デル流”--冷却システムの取り組み - ZDNet Japan](https://japan.zdnet.com/article/35137418/)
 - [HTML標準仕様の策定についてW3CとWHATWGが合意発表。今後はWHATWGのリビングスタンダードが唯一のHTML標準仕様に － Publickey](https://www.publickey1.jp/blog/19/htmlw3cwhatwgwhatwghtml.html)
+- [あなたの知らない「詐欺グラフ」の世界（随時更新中）｜けんけん｜note](https://note.mu/kenxxxken/n/nce7762dcec30)
+- [NHKのネット同時配信、受信料「PC・スマホからも請求」は間違い - 弁護士ドットコム](https://www.bengo4.com/c_23/n_9336/)
+- [MIT Tech Review: 暗号通貨に春の兆し？ブロックチェーン・ウィークで感じた変化](https://www.technologyreview.jp/s/142704/blockchain-week-gives-us-presidential-candidates-parties-and-signs-of-crypto-spring/)
+- [MIT Tech Review: AI利用のルールづくり目指す、世界経済フォーラムが評議会設立へ](https://www.technologyreview.jp/s/144326/the-world-economic-forum-wants-to-develop-global-rules-for-ai/)
+- [「Cloudflare Workers KV」正式版がリリース。約180個所のグローバルなCDNエッジで提供される大規模分散キーバリューストア － Publickey](https://www.publickey1.jp/blog/19/cloudflare_workers_kv180cdn.html)
 
 <!-- eof -->

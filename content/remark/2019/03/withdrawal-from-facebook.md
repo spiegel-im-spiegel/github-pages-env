@@ -156,6 +156,7 @@ GitHub に BAN されたらメガっさ困るが Facebook なら大して未練�
 - [サードパーティ取得のFacebookデータが公開状態だった件についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/04/09/063000)
 - [Facebookは「利用解除」したユーザーも追跡し続けている - CNET Japan](https://japan.cnet.com/article/35135675/)
 - [Facebookがパスワードが漏れたInstagramユーザー数を「数百万人」に訂正  |  TechCrunch Japan](https://jp.techcrunch.com/2019/04/19/2019-04-18-instagram-password-leak-millions/)
+- [Facebookを“マシ”にするためにFTCは何をすべきか – P2Pとかその辺のお話R](https://p2ptk.org/privacy/2028)
 
 [Signal]: https://signal.org/
 [Feedly]: https://feedly.com/ "Feedly. Read more, know more."
