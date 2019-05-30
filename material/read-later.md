@@ -30,9 +30,6 @@
 - [The I2P Out-of-the-Box: Try I2P easily with I2P Firefox Browser Profile](https://medium.com/@mhatta/the-i2p-out-of-the-box-try-i2p-easily-with-i2p-firefox-browser-profile-3649ab8e8ff2)
 
 
-- [ヤマダ電機通販サイトの不正アクセスについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/05/30/063417)
-- [ヤマダ電機のクレジットカード情報流出事件、「セキュリティコードを保存」の誤解広がる(篠原修司) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/shinoharashuji/20190530-00127999/)
-
 ## リリース情報
 
 
