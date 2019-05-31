@@ -78,6 +78,8 @@ $ sudo apt install keepass2
 パスワードを覚えるなんて脳みその無駄遣い。
 適切な管理ツールでパスワード管理を行いましょう。
 
+- [Keepass2のフォントを日本語化 | Pagent](http://pagent.github.io/2015/03/14/keepass2-font/)
+
 ## [Git Extensions] の導入
 
 [Git Extensions] は .NET Framework 上で動く [git] 用の GUI フロントエンドだが， [Mono] 版もあって他プラットフォームでも利用できる。
