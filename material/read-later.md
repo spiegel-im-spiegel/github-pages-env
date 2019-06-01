@@ -29,15 +29,16 @@
 - [How to use I2P on Android – Masayuki Hatta – Medium](https://medium.com/@mhatta/how-to-use-i2p-on-android-91dd379fdb65?fbclid=IwAR1kckWLLLJv1U_8-FIreYOm0rWJcckV_p_OUpolUFe_BH2G-4voDfDyyxk)
 - [The I2P Out-of-the-Box: Try I2P easily with I2P Firefox Browser Profile](https://medium.com/@mhatta/the-i2p-out-of-the-box-try-i2p-easily-with-i2p-firefox-browser-profile-3649ab8e8ff2)
 
+### VGnuPG のビルド
+
+- [GitHub - hsaito/gnupg-buildkit: Build Kit for GNU Privacy Guard (2.1.x -- Modern)](https://github.com/hsaito/gnupg-buildkit)
+- [GitHub - hsaito/GnuPG_Buildkit_Package_Lister: A simple program to grab GnuPG file list ot be used for gnupg-buildkit](https://github.com/hsaito/GnuPG_Buildkit_Package_Lister) : .NET Core が要るみたい
+
 ### Vuls
 
 - [あなたのサーバは本当に安全ですか？今もっともイケてる脆弱性検知ツールVulsを使ってみた - Qiita](https://qiita.com/sadayuki-matsuno/items/0bb8bb1689425bb9a21c)
 - [FutureVuls(脆弱性管理サービス) Advent Calendar 2018 - Qiita](https://qiita.com/advent-calendar/2018/futurevuls)
 - [Tutorial - Local Scan Mode · Vuls](https://vuls.io/docs/ja/tutorial-local-scan.html)
-
-- [Linuxでログの内容をGmailにメールを送信する](https://www.virment.com/send-log-gmail/)
-- [Ubuntu 16.04 コマンドラインから Gmail 送信 | あんまり長いことは書けないブログ](https://off.tokyo/blog/ubuntu-mail-send/)
-- [mailコマンドでgmailを送る - Qiita](https://qiita.com/zaburo/items/a6244d32ce5f5fe2c3d1)
 
 ### ブログネタ
 
