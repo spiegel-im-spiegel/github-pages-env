@@ -3,7 +3,7 @@ title = "新元号「文字」という技術的負債"
 date =  "2017-12-06T10:36:57+09:00"
 description = "改めて提案しよう。「日常生活に元号は必要ない」"
 image = "/images/attention/remark.jpg"
-tags        = [ "character", "unicode", "calendar", "engineering" ]
+tags = [ "character", "unicode", "calendar", "engineering" ]
 
 [scripts]
   mathjax = false
@@ -68,3 +68,4 @@ tags        = [ "character", "unicode", "calendar", "engineering" ]
 - [日本の新しい元号がインターネットをほんの少し混乱させた理由  |  TechCrunch Japan](https://jp.techcrunch.com/2019/04/03/2019-04-02-how-japans-new-imperial-era-broke-the-internet-in-a-very-tiny-way/)
 - [Adobe、新元号“令和”の合字を追加した「源ノ角ゴシック」v2.001をリリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1179218.html)
 - [情報処理推進機構、新元号“令和”の合字に対応した「IPAexフォント」v004.01を公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1182604.html)
+- [新元号“令和”の合字に対応した無料の明朝体フォント「IPAmj明朝フォント」v006.01 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1187710.html)
