@@ -34,17 +34,6 @@
 - [GitHub - hsaito/gnupg-buildkit: Build Kit for GNU Privacy Guard (2.1.x -- Modern)](https://github.com/hsaito/gnupg-buildkit)
 - [GitHub - hsaito/GnuPG_Buildkit_Package_Lister: A simple program to grab GnuPG file list ot be used for gnupg-buildkit](https://github.com/hsaito/GnuPG_Buildkit_Package_Lister) : .NET Core が要るみたい
 
-### Vuls
-
-- [あなたのサーバは本当に安全ですか？今もっともイケてる脆弱性検知ツールVulsを使ってみた - Qiita](https://qiita.com/sadayuki-matsuno/items/0bb8bb1689425bb9a21c)
-- [FutureVuls(脆弱性管理サービス) Advent Calendar 2018 - Qiita](https://qiita.com/advent-calendar/2018/futurevuls)
-- [Tutorial - Local Scan Mode · Vuls](https://vuls.io/docs/ja/tutorial-local-scan.html)
-
-### ブログネタ
-
-- [Microsoft’s Universal Windows Platform app dream is dead and buried - The Verge](https://www.theverge.com/platform/amp/2019/5/30/18645609/microsofts-universal-windows-app-dead-microsoft-store-windows-store?__twitter_impression=true)
-- [なぜ日本では世界的ヒットのアメコミ映画が当たらないのか？ 稲田豊史の「コンテンツビジネス疑問氷解」｜ビジネス+IT](https://www.sbbit.jp/article/cont1/36447)
-
 
 ## リリース情報
 
