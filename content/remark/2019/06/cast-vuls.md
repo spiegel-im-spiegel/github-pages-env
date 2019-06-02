@@ -1,11 +1,10 @@
 +++
 title = "そろそろ Vuls を唱えるか"
-date =  "2019-06-02T11:00:19+09:00"
+date =  "2019-06-02T22:22:06+09:00"
 description = "セットアップ自体はうまく行ったが，このままでは使えないなぁ。しょうがない。少しずつ調べてみるか。"
 image = "/images/attention/kitten.jpg"
 tags = [ "security", "vulnerability", "risk", "management", "tools", "vuls", "linux", "ubuntu" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
