@@ -1,11 +1,10 @@
 +++
 title = "「のぼる ほし」"
-date =  "2019-06-05T14:08:15+09:00"
+date =  "2019-06-05T18:48:35+09:00"
 description = "「なぜなら そういう思いまで失くしてしまったら その子の人生が否定されてしまうと考えるからだ」"
 image = "/images/attention/kitten.jpg"
 tags = [ "code" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
