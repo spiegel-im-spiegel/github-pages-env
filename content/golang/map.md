@@ -3,25 +3,11 @@ title = "Map の話"
 date = "2018-02-07T21:03:54+09:00"
 update = "2018-03-16T11:15:49+09:00"
 description = "連想配列： map の複製とか比較とか。"
-image = "/images/attention/go-code.png"
-tags        = [ "golang", "programming", "map" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
+image = "/images/attention/go-logo_blue.png"
+tags = [ "golang", "programming", "map" ]
 
 [scripts]
-  mathjax = true
+  mathjax = false
   mermaidjs = false
 +++
 
@@ -166,7 +152,7 @@ Venus 0.815
 ## [map] は連想配列を参照するオブジェクトである
 
 [map] は**連想配列への参照を属性として持つオブジェクト**である。
-したがって [map] インスタンスを引数として渡した場合は見かけ上「参照渡し」として機能する。
+したがって [map] インスタンスを引数として渡した場合は[見かけ上「参照渡し」として機能する]({{< relref "./map-as-a-associative-array.md" >}} "Map は連想配列ではなく連想配列への「参照」である")。
 
 {{< highlight go "hl_lines=13-15" >}}
 package main
