@@ -39,7 +39,6 @@
 - [今さら聞けない！コマンドプロンプトの使い方【初心者向け】 | TechAcademyマガジン](https://techacademy.jp/magazine/5318)
 - [Windowsのコマンドプロンプトでディレクトリを移動する方法](https://tonari-it.com/windows-cmd-cd/)
 
-- [TeX Live - TeX Users Group](http://www.tug.org/texlive/) : 2019 出てる。アップグレードしないと
 
 ## リリース情報
 
