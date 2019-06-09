@@ -19,7 +19,7 @@ pageType = "text"
 きっと「伝統的七夕」の対義語として考えた造語だろうが「なんだかなぁ」というセンスである。
 
 いわゆる「五節句（{{< ruby "じんじつ" >}}人日{{< /ruby >}}，{{< ruby "じょうし" >}}上巳{{< /ruby >}}，{{< ruby "たんご" >}}端午{{< /ruby >}}，{{< ruby "しちせき" >}}七夕{{< /ruby >}}，{{< ruby "ちょうよう" >}}重陽{{< /ruby >}}）」は江戸幕府によって定められたそうだが「明治の改暦」で廃止された。
-なので現行歴には七夕を含む五節句は，暦象としては，**存在しない**。
+なので現行歴には七夕を含む五節句は，公式には，**存在しない**。
 
 ただし，盂蘭盆と同じく五節句も民間信仰として深く浸透していたため改暦後も廃れることなく残っている。
 もっとも現行歴に無理やり日付を合わせて祝ったり「月遅れ」で祝ったりと地域によって差異があるが[^ep1]。
@@ -41,7 +41,7 @@ pageType = "text"
 たとえば2019年の処暑は8月23日で「処暑に最も近い朔」は8月1日なので伝統的七夕は8月7日ということになる[^ep2]。
 
 [^oc1]: 現在「旧暦」と呼ばれているものは江戸時代の「天保歴」がベースになっていると言われているが，当時と今では天文観測基準が異なるため，厳密には「天保歴」を再現できているとは言えない。実際の「旧暦」の運用は現行歴の暦象（朔望月や二十四節気等）を元に「天保歴」のルールを当てはめて運用しているらしい。なので「[旧暦2033年問題](https://eco.mtk.nao.ac.jp/koyomi/topics/html/topics2014.html "旧暦2033年問題について - 国立天文台暦計算室")」みたいなことも起こったりする。
-[^ep2]: 日本では[国立天文台]が毎年2月1日に翌年の[暦要項](http://eco.mtk.nao.ac.jp/koyomi/yoko/ "暦要項 - 国立天文台暦計算室")を公表する。
+[^ep2]: 日本では[国立天文台]が毎年2月1日に翌年の[暦要項]を公表する。なお伝統的七夕は雑節にも入らないので[暦要項]には載っていない。キャンペーン・イベントみたいなものだからね。
 
 なお伝統的七夕とは別に毎年8月最初の1週間は「[スター・ウィーク]」として日本各地で星に関するイベントが行われている。
 2019年のキャッチフレーズは
@@ -54,6 +54,7 @@ pageType = "text"
 
 [国立天文台]: https://www.nao.ac.jp/ "国立天文台(NAOJ)"
 [スター・ウィーク]: http://www.starweek.jp/ "STARWEEK"
+[暦要項]: http://eco.mtk.nao.ac.jp/koyomi/yoko/ "暦要項 - 国立天文台暦計算室"
 
 <div class="hreview">
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%91-2019%E5%B9%B4%E7%89%88-%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%91%E7%B7%A8%E9%9B%86%E5%A7%94%E5%93%A1%E4%BC%9A/dp/4416718020?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4416718020"><img src="https://images-fe.ssl-images-amazon.com/images/I/41qe16Zl-7L._SL160_.jpg" width="113" alt="photo"></a></div>
@@ -81,4 +82,18 @@ pageType = "text"
   </dl>
   <p class="description">「寛政の改暦」のころの伊能勘解由（忠敬）とその妻とされる「おえい」の物語。感想は<a href="https://text.baldanders.info/remark/2016/05/nekoyomi/">こちら</a>。</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-01-07">2019-01-07</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+</div>
+
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/7%E6%9C%887%E6%97%A5%E3%80%81%E6%99%B4%E3%82%8C/dp/B00FXUQGN2?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00FXUQGN2"><img src="https://images-fe.ssl-images-amazon.com/images/I/51dNfFm5xHL._SL160_.jpg" width="160" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/7%E6%9C%887%E6%97%A5%E3%80%81%E6%99%B4%E3%82%8C/dp/B00FXUQGN2?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00FXUQGN2">7月7日、晴れ</a></dt>
+	<dd>DREAMS COME TRUE (メインアーティスト)</dd>
+    <dd>Sony Music Labels Inc. 1996-04-01 (Release 2014-04-01)</dd>
+    <dd>Digital Music Track MP3 ダウンロード</dd>
+    <dd>ASIN: B00FXUQGN2</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">ドリカムで唯一持ってる楽曲。大きな声では言えないが，個人的には失恋ソングである（笑）</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-06-09">2019-06-09</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
