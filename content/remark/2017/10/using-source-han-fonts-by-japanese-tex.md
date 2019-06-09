@@ -408,6 +408,7 @@ line 392
 - [源ノ明朝/源ノ角ゴシックをLuaLaTeXで使用する (Windows)](https://jb102.blogspot.jp/2017/04/11-luatex.html)
 - [upLaTeX文書で源ノ明朝／Noto Serif CJKを簡単に使う方法（最新のdvipdfmxとpxchfonを使用） - Qiita](https://qiita.com/zr_tex8r/items/9dfeafecca2d091abd02)
 - [小形克宏の「文字の海、ビットの舟」――文字コードが私たちに問いかけるもの](http://internet.watch.impress.co.jp/www/column/ogata/index.htm)
+- [updmap and kanji - TeX Live - TeX Users Group](https://www.tug.org/texlive/updmap-kanji.html)
 
 [源ノ角ゴシック]: https://github.com/adobe-fonts/source-han-sans "adobe-fonts/source-han-sans: Source Han Sans | 思源黑体 | 思源黑體 | 源ノ角ゴシック | 본고딕"
 [源ノ明朝]: https://github.com/adobe-fonts/source-han-serif "adobe-fonts/source-han-serif: Source Han Serif | 思源宋体 | 思源宋體 | 源ノ明朝 | 본명조"
