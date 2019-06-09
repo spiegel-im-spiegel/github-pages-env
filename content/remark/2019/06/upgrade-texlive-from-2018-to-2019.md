@@ -1,11 +1,10 @@
 +++
 title = "TeX Live 2018 から 2019 へのアップグレード"
 date =  "2019-06-09T14:58:35+09:00"
-description = "description"
+description = " 以前に Windows で2018年版にアップグレードしたが，やり方はだいたい同じ。"
 image = "/images/attention/kitten.jpg"
 tags = [ "tex", "install", "linux", "ubuntu" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = true
