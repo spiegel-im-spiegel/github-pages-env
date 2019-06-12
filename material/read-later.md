@@ -39,18 +39,27 @@
 - [今さら聞けない！コマンドプロンプトの使い方【初心者向け】 | TechAcademyマガジン](https://techacademy.jp/magazine/5318)
 - [Windowsのコマンドプロンプトでディレクトリを移動する方法](https://tonari-it.com/windows-cmd-cd/)
 
+- [spf13/cobraで作ったCLIツールのbash/zsh補完スクリプトを自動生成する - Qiita](https://qiita.com/minamijoyo/items/9dceb1d8a66e48ab45cd)
+
 
 ## リリース情報
 
 
 ## バベルのインターネット
 
+- [セールスフォース・ドットコム、同社のSaaSを用いた銃や火器の販売を全世界的に禁止 － Publickey](https://www.publickey1.jp/blog/19/saas_2.html)
+- [デイヴィッド・ケイ著『言論警察』：「誰が・何を発言してよいか」の判断をテクノロジー企業に委ねてしまってよいのか – P2Pとかその辺のお話R](https://p2ptk.org/freedom-of-speech/2075)
+- [MIT Tech Review: ロシア当局がVPNプロバイダーに接続要請、9社が「ブラリ入り」か](https://www.technologyreview.jp/nl/russia-will-block-vpn-providers-who-dont-comply-with-a-blacklist-request/) : ユーザから見れば Kaspersky こそ「ブラリ入り」
 
 ## セキュリティ＆プライバシー関連
 
+- [クレジットカードの偽決済画面が稼働していたサーバーについて調べてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/06/10/063000)
+- [グーグル、大規模クラウド障害に関する詳細な情報を明らかに - ZDNet Japan](https://japan.zdnet.com/article/35138224/)
+- [「SHA-1証明書」の無効化を表明、Apple - ITmedia エンタープライズ](https://www.itmedia.co.jp/enterprise/articles/1906/07/news084.html)
 
 ## 天文関連
 
+- {{< pdf-file title=" IAU戦略計画 2020–2030" link="https://drive.google.com/file/d/1DwLqjog00EQJHjGrEHuYs98YM986Rtvs/view" >}}
 
 ## 知財関連
 
@@ -60,5 +69,11 @@
 
 ## その他
 
+- [MIT Tech Review: 1泊3万5000ドル、NASAがISSの商業利用受け入れへ](https://www.technologyreview.jp/nl/nasa-is-opening-the-iss-up-to-private-astronauts-and-commercial-business/)
+- [MIT Tech Review: トランプ支持者にも変化あり 米国の「保守」が気候変動を認め始めた理由](https://www.technologyreview.jp/s/139210/conservative-climate-groups-hope-to-seize-the-green-new-deal-moment-too/)
+- [spf13/cobraで作ったCLIツールのbash/zsh補完スクリプトを自動生成する - Qiita](https://qiita.com/minamijoyo/items/9dceb1d8a66e48ab45cd)
+- [さまざまな個人化用機械学習モデル構築APIがAWSから提供開始  |  TechCrunch Japan](https://jp.techcrunch.com/2019/06/11/2019-06-10-aws-is-now-making-amazon-personalize-available-to-all-customers/)
+- [MIT Tech Review: 世界最大規模のCO2大気回収プラント計画が抱える根本的な矛盾](https://www.technologyreview.jp/s/144155/why-the-worlds-biggest-co2-sucking-plant-would-be-used-to-err-dig-up-more-oil/)
+- [富士フイルム、一度は販売終了した「黒白フィルム」を立体的な階調再現などの高性能にして再販 - ニュース ―MdN Design Interactive edition― - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/newsbymdn/1189786.html)
 
 <!-- eof -->

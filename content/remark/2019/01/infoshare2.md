@@ -125,6 +125,7 @@ tags = [ "book", "code", "internet", "generativity", "grigori", "surveillance-ca
 - [総務省、IoT機器に「認証マーク」導入へ　サイバー攻撃急増で - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1712/26/news104.html)
 - [クーリエ連載；エコノミスト紹介、自由のためなら人が死んでもいい](https://cruel.org/economist/courier200712.html)
 - [『もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来』への反応 その18 - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20190115/openweb) : あざっす！
+- [『もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来』が国会図書館に納本された - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20190609/openweb)
 
 [情報共有の未来]: https://www.yamdas.org/infoshare/ "『情報共有の未来』サポートページ"
 [続・情報共有の未来]: https://www.yamdas.org/infoshare2/ "『もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来』サポートページ"
