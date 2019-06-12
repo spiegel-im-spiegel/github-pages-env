@@ -40,7 +40,7 @@ Origin: Ubuntu
 $ cd /usr/local/src
 $ sudo curl https://dl.google.com/go/go1.12.5.linux-amd64.tar.gz -O
 $ cd ..
-$ unlink go # 以前の Go が入っている場合
+$ sudo unlink go # 以前の Go が入っている場合
 $ sudo tar xvf src/go1.12.5.linux-amd64.tar.gz
 $ sudo mv go go1.12.5
 $ sudo ln -s go1.12.5 go
