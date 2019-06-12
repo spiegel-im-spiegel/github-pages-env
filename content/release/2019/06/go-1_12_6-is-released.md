@@ -2,7 +2,7 @@
 title = "Go 1.12.6 がリリースされた"
 date =  "2019-06-12T22:01:59+09:00"
 description = "今回もセキュリティ・アップデートはなし。"
-image = "/images/attention/tools.png"
+image = "/images/attention/go-logo_blue.png"
 tags  = [ "programming", "language", "golang", "ubuntu" ]
 pageType = "text"
 
