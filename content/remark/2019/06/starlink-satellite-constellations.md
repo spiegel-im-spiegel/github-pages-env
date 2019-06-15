@@ -47,7 +47,6 @@ pageType = "text"
 
 - [RAS statement on Starlink satellite constellation | The Royal Astronomical Society](https://ras.ac.uk/news-and-press/news/ras-statement-starlink-satellite-constellation)
 - [AAS Issues Position Statement on Satellite Constellations | American Astronomical Society](https://aas.org/media/press-releases/aas-issues-position-statement-satellite-constellations)
-- [AAS Issues Position Statement on Satellite Constellations | American Astronomical Society](https://aas.org/posts/news/2019/06/aas-issues-position-statement-satellite-constellations)
 
 これらの声明は IAU のものより踏み込んだ内容になっていて
 

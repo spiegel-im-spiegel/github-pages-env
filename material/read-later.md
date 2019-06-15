@@ -52,7 +52,6 @@
 - [セールスフォース・ドットコム、同社のSaaSを用いた銃や火器の販売を全世界的に禁止 － Publickey](https://www.publickey1.jp/blog/19/saas_2.html)
 - [デイヴィッド・ケイ著『言論警察』：「誰が・何を発言してよいか」の判断をテクノロジー企業に委ねてしまってよいのか – P2Pとかその辺のお話R](https://p2ptk.org/freedom-of-speech/2075)
 - [MIT Tech Review: ロシア当局がVPNプロバイダーに接続要請、9社が「ブラリ入り」か](https://www.technologyreview.jp/nl/russia-will-block-vpn-providers-who-dont-comply-with-a-blacklist-request/) : ユーザから見れば Kaspersky こそ「ブラリ入り」
-
 - [MIT Tech Review: GAFAは分割より共有を——オックスフォード大教授が主張する理由](https://www.technologyreview.jp/s/146025/making-big-tech-companies-share-data-could-do-more-good-than-breaking-them-up/)
 
 ## セキュリティ＆プライバシー関連
@@ -60,7 +59,6 @@
 - [クレジットカードの偽決済画面が稼働していたサーバーについて調べてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/06/10/063000)
 - [グーグル、大規模クラウド障害に関する詳細な情報を明らかに - ZDNet Japan](https://japan.zdnet.com/article/35138224/)
 - [「SHA-1証明書」の無効化を表明、Apple - ITmedia エンタープライズ](https://www.itmedia.co.jp/enterprise/articles/1906/07/news084.html)
-
 - [Intel製品に複数の脆弱性、セキュリティアドバイザリが公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1189940.html)
 - [GoogleがAndroidのセキュリティキー技術をiPhoneやiPadに開放  |  TechCrunch Japan](https://jp.techcrunch.com/2019/06/13/2019-06-13-android-security-key-iphones/)
 - [グーグル研究者が「Windows」で使われる「SymCrypt」のバグについて情報公開 - ZDNet Japan](https://japan.zdnet.com/article/35138431/)
@@ -93,7 +91,6 @@
 - [さまざまな個人化用機械学習モデル構築APIがAWSから提供開始  |  TechCrunch Japan](https://jp.techcrunch.com/2019/06/11/2019-06-10-aws-is-now-making-amazon-personalize-available-to-all-customers/)
 - [MIT Tech Review: 世界最大規模のCO2大気回収プラント計画が抱える根本的な矛盾](https://www.technologyreview.jp/s/144155/why-the-worlds-biggest-co2-sucking-plant-would-be-used-to-err-dig-up-more-oil/)
 - [富士フイルム、一度は販売終了した「黒白フィルム」を立体的な階調再現などの高性能にして再販 - ニュース ―MdN Design Interactive edition― - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/newsbymdn/1189786.html)
-
 - [モジラがFirefoxの新ロゴを発表、ブラウザーだけではないことを強調  |  TechCrunch Japan](https://jp.techcrunch.com/2019/06/12/2019-06-11-mozilla-gives-firefox-a-new-logo-as-it-looks-beyond-the-browser/)
 - [Google検索に表示されない古いサイトを見つける方法 | ライフハッカー［日本版］](https://www.lifehacker.jp/2019/04/how-to-find-old-websites-that-google-won-t-show.html)
 - [>森口 博子「GUNDAM SONG COVERS　LPサイズ盤」特設サイト](http://kingeshop.jp/shop/pages/hiroko_moriguchi_gundam40th.aspx)
