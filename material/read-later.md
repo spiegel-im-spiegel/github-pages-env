@@ -71,13 +71,9 @@
 
 ## 天文関連
 
-
-- [星が好きな人のための新着情報(2019-06-13)](https://news.local-group.jp/20190613.html)
-- [RAS statement on Starlink satellite constellation | The Royal Astronomical Society](https://ras.ac.uk/news-and-press/news/ras-statement-starlink-satellite-constellation)
-- [AAS Issues Position Statement on Satellite Constellations | American Astronomical Society](https://aas.org/posts/news/2019/06/aas-issues-position-statement-satellite-constellations)
-
 - {{< pdf-file title=" IAU戦略計画 2020–2030" link="https://drive.google.com/file/d/1DwLqjog00EQJHjGrEHuYs98YM986Rtvs/view" >}}
 - [惑星協会、宇宙ヨットLightSail 2を24日打上げへ。周回軌道上で管制制御に挑戦 - Engadget 日本版](https://japanese.engadget.com/2019/06/11/lightsail-2-24/)
+- [APOD: 2019 May 16 - Dark Skies: Turn on the Night](https://apod.nasa.gov/apod/ap190516.html)
 
 ## 知財関連
 
