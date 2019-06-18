@@ -8,7 +8,7 @@
 - [組込みエンジニアの教科書 | 渡辺 登, 牧野 進二 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4863542755/baldandersinf-22/)
 - [数学ガールの秘密ノート/ビットとバイナリー | 結城 浩 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4797391391/baldandersinf-22/)
 - [これでいいのか！2018年著作権法改正 (NextPublishing) eBook: 中山 信弘ほか, 城所 岩生: Kindleストア](https://www.amazon.co.jp/exec/obidos/ASIN/B07NQ75YQC/baldandersinf-22/)
-- [>森口 博子「GUNDAM SONG COVERS　LPサイズ盤」特設サイト](http://kingeshop.jp/shop/pages/hiroko_moriguchi_gundam40th.aspx)
+- [森口 博子「GUNDAM SONG COVERS　LPサイズ盤」特設サイト](http://kingeshop.jp/shop/pages/hiroko_moriguchi_gundam40th.aspx)
 
 ## あとで遊ぶ
 
