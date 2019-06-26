@@ -51,7 +51,7 @@ pageType = "text"
 あとは [FREEDOME](https://www.f-secure.com/en/home/products/freedome "F-Secure FREEDOME VPN — Protect your privacy | F-Secure") でトラッキング・コードをブロックすれば多少はマシかな。
 マシになるといいなぁ。
 
-[^no1]: でもたまにケータイを付けたまま値落ちしてることがあるんだよなぁ。
+[^no1]: でもたまにケータイを点けたまま値落ちしてることがあるんだよなぁ。
 
 ## {{< quote lang="en" >}}Cambridge Analytica was just the beginning{{< /quote >}}
 
