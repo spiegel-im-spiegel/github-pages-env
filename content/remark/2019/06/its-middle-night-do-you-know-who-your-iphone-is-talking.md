@@ -3,7 +3,7 @@ title = "午前3時のケータイ・トーク"
 date =  "2019-06-26T14:53:22+09:00"
 description = "“It’s 3 a.m. Do you know what your iPhone is doing?”"
 image = "/images/attention/kitten.jpg"
-tags = [ "security", "privacy", "censorship", "risk", "k-tai", "surveillance-capitalism" ]
+tags = [ "security", "privacy", "risk", "k-tai", "surveillance-capitalism" ]
 pageType = "text"
 
 [scripts]
