@@ -30,7 +30,7 @@ Android に [Firefox Preview] なるものが登場したらしい。
 
 ちなみにパソコン用の Firefox Quantum ではトラッキング防止機能は2段階あって
 
-{{< fig-img src="/release/2019/05/firefox-67-is-released/block-list.png" link="/release/2019/05/firefox-67-is-released/block-list.png" width="877" >}}
+{{< fig-img src="/release/2019/05/firefox-67-is-released/block-list.png" title="Firefox 67 がリリースされた" link="/release/2019/05/firefox-67-is-released/" width="877" >}}
 
 レベル2に設定するとこのページのフィードバックに使っている Disqus もブロックされるくらい強力に効くのだが [Firefox Preview] ではそこまでに至らないないようだ。
 この辺り，何とも中途半端な感じで Mozilla はユーザのプライバシーを重視していないということが今回の出来を見ても分かろうというものである（それでも Chrome よりはマシというのがにんともかんとも）。
