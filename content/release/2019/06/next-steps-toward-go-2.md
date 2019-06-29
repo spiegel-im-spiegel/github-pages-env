@@ -75,7 +75,7 @@ $ go env -w GOPROXY=direct
 また `GOPRIVATE` 環境変数を使えばミラーリングやチェックサム・データベースの対象から外すモジュールを指定できるようだ。
 
 {{< fig-quote type="md" title="Go 1.13 Release Notes" link="https://tip.golang.org/doc/go1.13" lang="en" >}}
-{{< quote >}}The new `GOPRIVATE` environment variable indicates module paths that are not publicly available. It serves as the default value for the lower-level `GONOPROXY` and `GONOSUMDB` variables, which provide finer-grained control over which modules are fetched via proxy and verified using the checksum database.{{< /quote >}}
+{{< quote >}}The new [`GOPRIVATE`](https://tip.golang.org/cmd/go/#hdr-Module_configuration_for_non_public_modules) environment variable indicates module paths that are not publicly available. It serves as the default value for the lower-level `GONOPROXY` and `GONOSUMDB` variables, which provide finer-grained control over which modules are fetched via proxy and verified using the checksum database.{{< /quote >}}
 {{< /fig-quote >}}
 
 Google はミラーリング・サービスとして [`proxy.golang.org`](https://proxy.golang.org) を，データベース・サービスとして [`sum.golang.org`](https://sum.golang.org/) を提供しているが，個人的には
