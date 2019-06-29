@@ -2,7 +2,7 @@
 title = "Go 1.13 と 1.14 （Go 2 へ向けて）"
 date =  "2019-06-29T16:50:58+09:00"
 description = "Go 1.13 のベータ版が登場したようだ。リリースノートも併せて公開されている。"
-image = "/images/attention/tools.png"
+image = "/images/attention/go-logo_blue.png"
 tags  = [ "programming", "language", "golang" ]
 pageType = "text"
 
