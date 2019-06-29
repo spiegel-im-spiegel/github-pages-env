@@ -97,6 +97,11 @@ title = "Go 言語に関するブックマーク"
 - [Go 1.12 Release Notes - The Go Programming Language](https://golang.org/doc/go1.12)
 - [Debugging what you deploy in Go 1.12 - The Go Blog](https://blog.golang.org/debugging-what-you-deploy)
 
+### Go 1.13 is released
+
+- [Go 1.13 Release Notes - The Go Programming Language](https://tip.golang.org/doc/go1.13)
+- [Next steps toward Go 2 - The Go Blog](https://blog.golang.org/go2-next-steps)
+
 ### Go 2 Draft
 
 次期 Go 言語の仕様について（一部は 1.11, 1.12 に取り込まれている）

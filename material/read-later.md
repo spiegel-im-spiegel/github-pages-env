@@ -44,8 +44,6 @@
 - [spf13/cobraで作ったCLIツールのbash/zsh補完スクリプトを自動生成する - Qiita](https://qiita.com/minamijoyo/items/9dceb1d8a66e48ab45cd)
 - [ER図を書くのに疲れたら - Qiita](https://qiita.com/genzouw/items/23cd0119715403e6e110)
 
-- [Next steps toward Go 2 - The Go Blog](https://blog.golang.org/go2-next-steps)
-
 
 ## リリース情報
 
