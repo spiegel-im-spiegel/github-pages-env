@@ -57,6 +57,14 @@ Android 用の開発環境でもあればよかったのかもしれないが，
 
 今回の経験を経て，ケータイを使わないときは節電モードにしてデータ通信を行わせないようにした。
 
+## 追記2
+
+- [Google、「古いAndroid端末で異常な大量通信」問題認める　「修正プログラム展開中」 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/1906/27/news089.html)
+
+上の件も併せれば犯人は WebView でほぼ確定かな。
+やっぱ WebView は滅びるべきだな。
+ついでに WebKit も（笑）
+
 ## ブックマーク
 
 - [技術的負債としての Web ブラウザ]({{< ref "/remark/2018/06/web-browser-as-the-technical-debt.md" >}})
