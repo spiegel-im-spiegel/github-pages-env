@@ -18,7 +18,7 @@ title = "週末スペシャル： 「はやぶさ2」地球 Swing-by"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 1. [「はやぶさ2」地球 Swing-by]({{< relref "#hayabusa" >}})

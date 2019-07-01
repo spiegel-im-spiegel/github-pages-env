@@ -17,7 +17,7 @@ title = "人工知能は「ハイル・ヒトラー」と叫ぶか"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 サイトリニューアルの余波で[昔の日記](https://baldanders.info/spiegel/log/)なんか眺めてたら「[たるさんのパソコンフィールド](http://www.ne.jp/asahi/comp/tarusan/index.html)」が復活していることに気が付いた。

@@ -18,7 +18,7 @@ title = "週末スペシャル： 安全と安心をいっしょくたにする�
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 1. [安全と安心をいっしょくたにする輩を信用してはいけない]({{< relref "#sec" >}})

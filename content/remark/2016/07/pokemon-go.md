@@ -6,19 +6,9 @@ draft = false
 tags = ["games", "ingress", "pokemon", "security", "privacy"]
 title = "Pokémon GO 始めました"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 日本では話題ばかり先行していた [Pokémon GO] だが，ようやく日本でも配信になったようだ。
@@ -60,7 +50,7 @@ title = "Pokémon GO 始めました"
 プライバシーに気をつけている方もやらないほうがいいだろう。
 この辺は [Ingress] のときと同じである[^ac]。
 
-[^ac]: 参考： [遅れてきた Agent — Baldanders.info](https://baldanders.info/spiegel/log2/000757.shtml)
+[^ac]: 参考： [遅れてきた Agent — Baldanders.info](https://baldanders.info/blog/000757/)
 
 仕事が忙しくて全然遊べないのだが，ちょろんと遊んでみた感じでは本当に「虫捕り」である。
 実はポケモンはゲームもやったことないしアニメもほぼ見てないのでゼロ知識から始めている。

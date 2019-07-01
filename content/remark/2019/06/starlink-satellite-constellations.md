@@ -65,7 +65,7 @@ pageType = "text"
 
 ## 【おまけの再掲載】 天文学と光害
 
-この文章は[2003年に公開したブログ記事](https://baldanders.info/spiegel/remark/archives/000011.shtml "天文学と光害 -- 戯れ言++")の再掲載だ。
+この文章は[2003年に公開したブログ記事](https://baldanders.info/blog/000011/ "天文学と光害 -- 戯れ言++")の再掲載だ。
 古い記事だが「光害問題」について考える際の参考になれば幸い。
 
 {{< div-box type="md" >}}

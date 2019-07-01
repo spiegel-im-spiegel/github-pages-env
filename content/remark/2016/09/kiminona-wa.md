@@ -18,7 +18,7 @@ title = "「君の名は。」を観た"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [映画『君の名は。』公式サイト](http://www.kiminona.com/)

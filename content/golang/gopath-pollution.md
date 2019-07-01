@@ -17,7 +17,7 @@ title = "GOPATH 汚染問題"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 {{% div-box type="md" %}}

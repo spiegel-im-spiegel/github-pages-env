@@ -17,7 +17,7 @@ draft = false
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 [前々回]，[前回]とちょっと飛ばしすぎたので今回は軽めに theme の話題を。

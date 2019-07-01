@@ -18,7 +18,7 @@ title = "TensorFlow に関するブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 （この記事は「[プログラミング言語との付き合い方]({{< ref "/remark/2015/programming-language.md" >}})」のおまけの項からの転載です）

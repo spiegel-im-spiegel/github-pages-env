@@ -7,7 +7,7 @@ tags  = [ "golang", "tools", "dep", "package", "vendoring" ]
 
 [author]
   name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"

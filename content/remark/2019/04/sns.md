@@ -28,7 +28,7 @@ pageType = "text"
 これで思い出したのが2011年に公開された映画「[ソーシャル・ネットワーク](https://www.amazon.co.jp/exec/obidos/ASIN/B00FW5SSCK/baldandersinf-22/)」である。
 当時私は Facebook の利用について友人と議論や実践を模索していて，この映画も観に行った。
 
-{{< fig-quote title="「ソーシャル・ネットワーク」と Facebook" link="https://baldanders.info/spiegel/log2/000509.shtml" >}}
+{{< fig-quote title="「ソーシャル・ネットワーク」と Facebook" link="https://baldanders.info/blog/000509/" >}}
 <q>「ソーシャル・ネットワーク」の前半では学生たちが集まる社交クラブについての描写がいくつかある。それは社交クラブというよりは友愛結社というべきもので，初期の “The Facebook” はまさにリアルの友愛結社の仕組みを取り込み，そして友愛結社そのものを取り込んで急成長していく（映画の内容がどこまで事実に即しているかは分からないが）</q>
 {{< /fig-quote >}}
 

@@ -16,7 +16,7 @@ title = "2016-06-18 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [Node v6.2.2 (Current) | Node.js](https://nodejs.org/en/blog/release/v6.2.2/)

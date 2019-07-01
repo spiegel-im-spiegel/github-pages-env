@@ -5,19 +5,9 @@ draft = false
 tags = ["games", "pokemon", "ingress", "market"]
 title = "ネット（だけの）ゲームは死ぬか？"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 「若者のネトゲ離れ」って奴ですね。
@@ -76,6 +66,6 @@ AR (Augmented Reality; 拡張現実) を使ったアプリやサービスは昔�
     <dd>ASIN: B00DIM6BE6</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
-  <p class="description">時代はソーシャル CRM から VRM へ。<a href='https://baldanders.info/spiegel/log2/000794.shtml'>俺達がインターネットだ！</a></p>
+  <p class="description">時代はソーシャル CRM から VRM へ。<a href='https://baldanders.info/blog/000794/'>俺達がインターネットだ！</a></p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-04-26">2015-04-26</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>

@@ -6,21 +6,12 @@ draft = false
 tags = ["astronomy", "history", "calendar", "ephemeris"]
 title = "「暦」日本史 （再掲載）"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
-この記事は[2004年初出の記事](https://baldanders.info/spiegel/remark/archives/000045.shtml)を再構成したものです。
+この記事は[2004年初出の記事](https://baldanders.info/blog/000045/)を再構成したものです。
 記事中の知見や意見は現在のものとは異なる可能性があります。
 
 ## 『万有こよみ百科』
@@ -134,5 +125,5 @@ title = "「暦」日本史 （再掲載）"
 - [質問3-4）「旧暦」ってなに？ | 国立天文台(NAOJ)](http://www.nao.ac.jp/faq/a0304.html)
 - [旧暦2033年問題について](http://eco.mtk.nao.ac.jp/koyomi/topics/html/topics2014.html)
 - [神武天皇即位紀元 - Wikipedia](https://ja.wikipedia.org/wiki/%E7%A5%9E%E6%AD%A6%E5%A4%A9%E7%9A%87%E5%8D%B3%E4%BD%8D%E7%B4%80%E5%85%83)
-- [朔旦冬至と授時 — Baldanders.info](https://baldanders.info/spiegel/log2/000784.shtml)
-- [暦の改訂（DE405 から DE430 へ） — Baldanders.info](https://baldanders.info/spiegel/log2/000840.shtml)
+- [朔旦冬至と授時 — Baldanders.info](https://baldanders.info/blog/000784/)
+- [暦の改訂（DE405 から DE430 へ） — Baldanders.info](https://baldanders.info/blog/000840/)

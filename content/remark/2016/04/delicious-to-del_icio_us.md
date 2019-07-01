@@ -18,7 +18,7 @@ title = "delicious.com が del.icio.us に移行するらしい（出戻り？�
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 昨日から [delicious.com](https://delicious.com/spiegel) に繋がらねー！ と思ったら， [del.icio.us](http://del.icio.us/) に移行するというアナウンスが。

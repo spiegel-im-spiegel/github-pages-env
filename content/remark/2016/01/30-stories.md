@@ -18,7 +18,7 @@ title = "週末スペシャル： フェルミのパラドックス"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 1. [フェルミのパラドックス]({{< relref "#seti" >}})

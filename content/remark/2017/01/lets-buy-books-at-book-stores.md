@@ -2,22 +2,11 @@
 date = "2017-01-09T19:07:53+09:00"
 title = "「本屋に行って本を買って読みましょう」だと？"
 description = "この記事は Facebool TL に書き散らした戯れ言を手直しした上で再掲載したものです。"
-draft = false
 tags = ["book", "e-book"]
 
-[author]
-  linkedin = "spiegelimspiegel"
-  facebook = "spiegel.im.spiegel"
-  twitter = "spiegel_2007"
-  avatar = "/images/avatar.jpg"
-  instagram = "spiegel_2007"
-  tumblr = ""
-  name = "Spiegel"
-  url = "https://baldanders.info/spiegel/profile/"
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  license = "by-sa"
-  flattr = ""
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 （この記事は Facebool TL に書き散らした戯れ言を手直しした上で再掲載したものです）
@@ -87,8 +76,8 @@ Eブックに期待がないのではなく君らがそれを測定しない（�
 - [英米のEブックを支えている読者は誰？ « マガジン航[kɔː]](http://magazine-k.jp/2016/05/24/beyond-cool-japan-06/)
 - [さようなら、「電子書籍」｜WIRED.jp](http://wired.jp/2013/08/02/farewell-ebooks/)
 - [もう紙の本は買わない - 私のEブック管理法]({{< ref "/remark/2016/02/no-more-paper-books.md" >}})
-- [電子書籍という「熱さ」は喉元を過ぎた — Baldanders.info](https://baldanders.info/spiegel/log2/000756.shtml)
-- [もはやリアル書店で本は「発見」できない — Baldanders.info](https://baldanders.info/spiegel/log2/000676.shtml) : ちなみに昨年（2016年）は本屋に2回くらい（？）しか行ってない。しかも何も買わなかった
+- [電子書籍という「熱さ」は喉元を過ぎた — Baldanders.info](https://baldanders.info/blog/000756/)
+- [もはやリアル書店で本は「発見」できない — Baldanders.info](https://baldanders.info/blog/000676/) : ちなみに昨年（2016年）は本屋に2回くらい（？）しか行ってない。しかも何も買わなかった
 
 ## 参考図書
 

@@ -17,7 +17,7 @@ title = "文字エンコーディング変換"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 （初出： [Golang による文字エンコーディング変換 - Qiita](http://qiita.com/spiegel-im-spiegel/items/2e475b48226330aa5570)）

@@ -16,7 +16,7 @@ title = "2016-05-14 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [ProtonMail v3.2 Release Notes - ProtonMail Blog - ProtonMail Support](https://protonmail.com/blog/protonmail-beta-v3-2-release-notes/)

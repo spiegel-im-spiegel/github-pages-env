@@ -17,7 +17,7 @@ title = "2016-06-06 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [Release v0.16 · gohugoio/hugo](https://github.com/gohugoio/hugo/releases/tag/v0.16)

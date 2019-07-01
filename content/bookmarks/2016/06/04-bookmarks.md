@@ -16,7 +16,7 @@ title = "2016-06-04 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [Go 1.7 Beta 1 is released - Google グループ](https://groups.google.com/forum/#!topic/golang-announce/ITzPaJnZGZw)

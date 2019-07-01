@@ -1,24 +1,9 @@
 +++
 title = "『数学ガールの秘密ノート／積分を見つめて』の感想を書くのを忘れていた"
 date = "2018-10-21T17:44:16+09:00"
-update = "2018-10-21T18:21:51+09:00"
 description = "今さら読み直して感想をアップしてみる。1年以上も放置とか orz"
 image = "/images/attention/kitten.jpg"
 tags = ["book", "math", "integral"]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = true
@@ -38,9 +23,9 @@ tags = ["book", "math", "integral"]
 
 ニュートン以来，微分と積分はペアで考えるのが正しい。
 
-というわけで，以前に[本家サイトで書いた『微分を追いかけて』の感想](https://baldanders.info/spiegel/log2/000839.shtml "『数学ガールの秘密ノート』 微分で遊ぶ — Baldanders.info")を再掲載する。
+というわけで，以前に[本家サイトで書いた『微分を追いかけて』の感想](https://baldanders.info/blog/000839/ "『数学ガールの秘密ノート』 微分で遊ぶ — Baldanders.info")を再掲載する。
 
-{{% div-box type="md" title="『数学ガールの秘密ノート』 微分で遊ぶ — Baldanders.info" link="https://baldanders.info/spiegel/log2/000839.shtml" %}}
+{{% div-box type="md" title="『数学ガールの秘密ノート』 微分で遊ぶ — Baldanders.info" link="https://baldanders.info/blog/000839/" %}}
 毎度言っているが，「数学ガールの秘密ノート」シリーズは数学成分多めで中学生以上を対象にしているが，小学生高学年なら頑張れば理解できるはず。 
 てか，是非挑戦して欲しい。
 「かけ算の順序」とか「$6\div2\sqrt{3}$」とか瑣末なことに躓いている場合ではないのだ。 
@@ -55,7 +40,7 @@ tags = ["book", "math", "integral"]
 このやりとりに痺れまくりですよ。
 若いっていいなぁ。 
 
-[「丸い三角関数」の感想](https://baldanders.info/spiegel/log2/000685.shtml "「丸い三角関数」を読む 他 — Baldanders.info")でも書いたけど，三角関数や微分方程式は物理学，特に天文学を理解するには必須の道具。
+[「丸い三角関数」の感想](https://baldanders.info/blog/000685/ "「丸い三角関数」を読む 他 — Baldanders.info")でも書いたけど，三角関数や微分方程式は物理学，特に天文学を理解するには必須の道具。
 学校で教えてくれるのを待ってる暇はないのだよ。
 そして三角関数や微分（と積分）を理解すると理科も数学も抜群に面白くなる。
 「分かった！」の振れ幅が桁違いになるのだ。 

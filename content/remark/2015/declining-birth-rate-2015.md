@@ -6,21 +6,12 @@ draft = false
 tags = ["code", "politics", "declining-birth-rate"]
 title = "「少子化」に関する覚え書き（再掲載）"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = true
+  mermaidjs = false
 +++
 
-この記事は2014年末に書いた[本家ブログ](https://baldanders.info/archives.shtml)の記事「[「少子化」に関する覚え書き](https://baldanders.info/spiegel/log2/000786.shtml)」を再構成して掲載している。
+この記事は2014年末に書いた[本家ブログ](https://baldanders.info/blog/)の記事「[「少子化」に関する覚え書き](https://baldanders.info/blog/000786/)」を再構成して掲載している。
 ちなみに015年までの合計特殊出生率は僅かに上昇傾向だった。
 この辺の話も追記している。
 
@@ -203,6 +194,6 @@ title = "「少子化」に関する覚え書き（再掲載）"
     <dd>ASIN: 4903127044, EAN: 9784903127040</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
-  <p class="description"><a href="https://baldanders.info/spiegel/log2/000410.shtml">感想はこちら</a>。</p>
+  <p class="description"><a href="https://baldanders.info/blog/000410/">感想はこちら</a>。</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-07">2018-12-07</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>

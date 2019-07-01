@@ -1,23 +1,8 @@
 +++
 date = "2016-05-07T15:04:09+09:00"
-update = "2018-05-30T09:52:34+09:00"
 description = "『フィルターバブル』の6章は個人的にゲンナリした。これが冒頭に配置されてたらゴミ箱に放り込んでただろう。"
 tags = ["book", "code", "tracking", "internet", "artificial-intelligence", "grigori", "twitter", "facebook", "censorship"]
 title = "『フィルターバブル』を読む"
-
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
 
 [scripts]
   mathjax = false
@@ -123,8 +108,8 @@ Windows のようなプロプライエタリ・ソフトウェアだけではな
 ちなみに VRM は Doc Searls の {{< quote lang="en" >}}The Intention Economy{{< /quote >}}（『[インテンション・エコノミー](https://www.amazon.co.jp/exec/obidos/ASIN/B00DIM6BE6/baldandersinf-22/)』） に登場する概念である。
 
 - [yomoyomoの読書記録 - ドク・サールズ『インテンション・エコノミー 顧客が支配する経済』（翔泳社）](http://www.yamdas.org/booklog/intentioneconomy.html)
-- [『インテンション・エコノミー』を読む — Baldanders.info](https://baldanders.info/spiegel/log2/000638.shtml)
-- [俺達がインターネットだ！ — Baldanders.info](https://baldanders.info/spiegel/log2/000794.shtml)
+- [『インテンション・エコノミー』を読む — Baldanders.info](https://baldanders.info/blog/000638/)
+- [俺達がインターネットだ！ — Baldanders.info](https://baldanders.info/blog/000794/)
 
 Facebook や Twitter のタイムラインにしろ Google の検索窓にしろ，彼等は単に結果を「表示」しているのではない。
 むしろ彼等はユーザの反応を「監視」している。

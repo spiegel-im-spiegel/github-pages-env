@@ -16,7 +16,7 @@ title = "ATOM Editor で現在日時を挿入する"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [Atomに現在日時を挿入するコマンドを追加する - Qiita](http://qiita.com/toruot/items/b26fde1a898bb52985e1)

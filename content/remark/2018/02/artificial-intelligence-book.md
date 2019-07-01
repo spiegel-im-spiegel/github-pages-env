@@ -1,24 +1,9 @@
 +++
 title = "『AI vs. 教科書が読めない子どもたち』を読む"
 date = "2018-02-11T03:09:57+09:00"
-update = "2018-03-17T11:58:01+09:00"
 description = "途中まで斜め読みしてて「これはちゃんと読んだほうがいいな」と思い直し，メモを取りながら最初からちゃんと読み直すことにした。"
 image = "/images/attention/kitten.jpg"
 tags = [ "artificial-intelligence", "book", "code", "grigori" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false
@@ -163,7 +148,7 @@ RST の開発過程やその調査結果については『[AI vs. 教科書が�
 何故か日本人って本を（知識や教養の象徴として）異常に神聖視するよね。
 そういう下らない信仰はもう止めていただきたいものである。
 
-私はよく「[数学の問題を解くのに公式の暗記から始める人はプログラマには向いてないので諦めた方がいい](https://baldanders.info/spiegel/log2/000868.shtml "プログラミングは「損得勘定」で考える — Baldanders.info")」と[言っている]({{< ref "/remark/2016/09/programming.md" >}} "プログラミングで「計算論的思考」は身につかない")が，プログラマなどという狭い範囲ではなく，これはもう日本の労働市場全体に関わる懸案事項と言えるかも知れない。
+私はよく「[数学の問題を解くのに公式の暗記から始める人はプログラマには向いてないので諦めた方がいい](https://baldanders.info/blog/000868/ "プログラミングは「損得勘定」で考える — Baldanders.info")」と[言っている]({{< ref "/remark/2016/09/programming.md" >}} "プログラミングで「計算論的思考」は身につかない")が，プログラマなどという狭い範囲ではなく，これはもう日本の労働市場全体に関わる懸案事項と言えるかも知れない。
 
 {{< fig-quote title="AI vs. 教科書が読めない子どもたち" link="https://www.amazon.co.jp/exec/obidos/ASIN/B0791XCYQG/baldandersinf-22/" >}}
 <q>思い出してください。

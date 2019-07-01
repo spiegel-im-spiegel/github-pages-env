@@ -17,7 +17,7 @@ title = "Hugo 0.15 が Apache License 2.0 下でリリース"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 [Repository](https://github.com/gohugoio/hugo/) ではしばらく前からリリース準備が行われていて wktk 状態で待っていたのだが，ようやくリリースの運びとなった。

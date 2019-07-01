@@ -7,24 +7,13 @@ tags = [
   "internet",
   "politics",
 ]
-draft = false
 
-[author]
-  avatar = "/images/avatar.jpg"
-  tumblr = ""
-  flattr = ""
-  instagram = "spiegel_2007"
-  facebook = "spiegel.im.spiegel"
-  url = "https://baldanders.info/spiegel/profile/"
-  license = "by"
-  github = "spiegel-im-spiegel"
-  flickr = "spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  linkedin = "spiegelimspiegel"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
-この記事は[本家サイト](https://baldanders.info/ "Baldanders.info")で2012年に公開した「[“The Shadow Web”](https://baldanders.info/spiegel/log2/000599.shtml)」を加筆・修正して再掲載したものです。
+この記事は[本家サイト](https://baldanders.info/ "Baldanders.info")で2012年に公開した「[“The Shadow Web”](https://baldanders.info/blog/000599/)」を加筆・修正して再掲載したものです。
 なお，本文中で紹介している記事「[介入されないもうひとつのウェブ]」は今年出た[別冊日経サイエンス『サイバーセキュリティ』](http://www.nikkei-science.com/page/sci_book/bessatu/51212.html)に再録されています。
 興味のある方は是非どうぞ。
 

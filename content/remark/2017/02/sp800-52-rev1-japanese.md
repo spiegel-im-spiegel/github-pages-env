@@ -1,23 +1,12 @@
 +++
 date = "2017-02-01T23:06:06+09:00"
 title = "NIST SP800-52 Rev.1 の邦訳が登場"
-draft = false
 tags = ["security", "cryptography", "tls", "nist"]
 description = "NIST SP800-52 Rev.1 の邦訳が登場したようだ。"
 
-[author]
-  github = "spiegel-im-spiegel"
-  license = "by-sa"
-  url = "https://baldanders.info/spiegel/profile/"
-  flattr = ""
-  name = "Spiegel"
-  linkedin = "spiegelimspiegel"
-  facebook = "spiegel.im.spiegel"
-  flickr = "spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  instagram = "spiegel_2007"
-  avatar = "/images/avatar.jpg"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 IPA は [NIST のセキュリティ関連文書の邦訳を積極的に行っている](http://www.ipa.go.jp/security/publications/nist/ "セキュリティ関連NIST文書：IPA 独立行政法人 情報処理推進機構")が，SP800-52 Rev.1 の邦訳が登場したようだ。
@@ -25,7 +14,7 @@ IPA は [NIST のセキュリティ関連文書の邦訳を積極的に行って
 - [Guidelines for the Selection, Configuration, and Use of Transport Layer Security (TLS) Implementations | NIST](https://www.nist.gov/node/562891?pub_id=915295)
 - {{< pdf-file title="NIST Special Publication 800-52 Revision 1 トランスポート層セキュリティ (TLS) 実装の選択、設定、および使用のためのガイドライン" link="http://www.ipa.go.jp/files/000057084.pdf" >}}
 
-古い話になるが，2013年までに [RC4 の危殆化](https://baldanders.info/spiegel/log2/000626.shtml "RC4 終了のお知らせ — Baldanders.info")や SSL/TLS の攻略コードがいくつか「開発」されたことにより TLS 1.2 への移行が強く推奨されることになった。
+古い話になるが，2013年までに [RC4 の危殆化](https://baldanders.info/blog/000626/ "RC4 終了のお知らせ — Baldanders.info")や SSL/TLS の攻略コードがいくつか「開発」されたことにより TLS 1.2 への移行が強く推奨されることになった。
 それを受けての SP800-52 改訂だったのだが，その後の SSL/TLS やその実装である OpenSSL 等のソフトウェアへの攻撃の激しさはみなさんご存じのとおりである。
 
 そうそう。
@@ -43,9 +32,9 @@ IPA と言えば最近になってヤバい注意喚起が上がっている。
 
 ## ブックマーク
 
-- [CRYPTREC Report 2013 — Baldanders.info](https://baldanders.info/spiegel/log2/000740.shtml)
-- [パスワード変更は計画的に — Baldanders.info](https://baldanders.info/spiegel/log2/000682.shtml)
-- [Prohibiting RC4 — Baldanders.info](https://baldanders.info/spiegel/log2/000810.shtml)
+- [CRYPTREC Report 2013 — Baldanders.info](https://baldanders.info/blog/000740/)
+- [パスワード変更は計画的に — Baldanders.info](https://baldanders.info/blog/000682/)
+- [Prohibiting RC4 — Baldanders.info](https://baldanders.info/blog/000810/)
 
 ## 参考図書
 

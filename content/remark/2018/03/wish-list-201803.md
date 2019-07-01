@@ -5,20 +5,6 @@ description = " なんとなく恒例になってしまった年度末の「欲�
 image = "/images/attention/kitten.jpg"
 tags = ["book"]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -73,7 +59,7 @@ Kindle 端末は一覧性で紙の本棚に劣るので買ってたのを忘れ�
 
 ## ブックマーク
 
-- [「欲しいものリスト」の棚卸し — Baldanders.info](https://baldanders.info/spiegel/log2/000824.shtml)
+- [「欲しいものリスト」の棚卸し — Baldanders.info](https://baldanders.info/blog/000824/)
 - [欲しいものリスト2017年3月版]({{< ref "/remark/2017/03/wish-list-201703.md" >}})
 
 - [この素晴らしい「積読」の世界 | しおまち書房＜公式サイト＞広島](https://shiomachi.com/5021)

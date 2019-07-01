@@ -16,7 +16,7 @@ title = "2016-08-14 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [私がどのようにしてキーロガーをクラックし、最終的に第三者の受信トレイに行きついたか | インフラ・ミドルウェア | POSTD](http://postd.cc/how-i-cracked-a-keylogger-and-ended-up-in-someone-s-inbox/)

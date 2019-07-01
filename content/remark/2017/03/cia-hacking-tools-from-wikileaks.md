@@ -18,7 +18,7 @@ description = "とりあえずブックマークを中心に。以後，追記�
   flattr = ""
   twitter = "spiegel_2007"
   license = "by-sa"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 とりあえずブックマークを中心に。

@@ -5,20 +5,6 @@ description = "あぁ，久しぶりにとりとめのない戯れ言を書い�
 image = "/images/attention/kitten.jpg"
 tags = [ "artificial-intelligence", "code", "grigori" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -31,7 +17,7 @@ tags = [ "artificial-intelligence", "code", "grigori" ]
 最近読んだ記事で面白いものがあった。
 有料記事で会員[^nid1] 以外はもう読めないのだが一応リンクだけ挙げておく。
 
-[^nid1]: [日経IDでは以前に酷い目にあった](https://baldanders.info/spiegel/log2/000709.shtml "NIKKEI is Worst of Worsts. もしくは「無料（ただ）より高くつくものはない」 — Baldanders.info")ので私は絶対に会員にはならない。
+[^nid1]: [日経IDでは以前に酷い目にあった](https://baldanders.info/blog/000709/ "NIKKEI is Worst of Worsts. もしくは「無料（ただ）より高くつくものはない」 — Baldanders.info")ので私は絶対に会員にはならない。
 
 - [トヨタやJapanTaxiなどAI活用するタクシー配車を検証、ドライバーの売上高2割増の効果 | 日経 xTECH（クロステック）](http://tech.nikkeibp.co.jp/atcl/nxt/news/18/00408/)
 

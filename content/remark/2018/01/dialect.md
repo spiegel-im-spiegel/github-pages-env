@@ -6,20 +6,6 @@ description = "まじすか！"
 image = "/images/attention/remark.jpg"
 tags        = [ "japanese", "language" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -72,5 +58,5 @@ Facebook で知り合いが話題にしてて，最初何を言ってるのか�
 
 ## ブックマーク
 
-- [『排除型社会』を読む — Baldanders.info](https://baldanders.info/spiegel/log2/000410.shtml)
-- [多文化主義的言語論 — Baldanders.info](https://baldanders.info/spiegel/log2/000421.shtml)
+- [『排除型社会』を読む — Baldanders.info](https://baldanders.info/blog/000410/)
+- [多文化主義的言語論 — Baldanders.info](https://baldanders.info/blog/000421/)

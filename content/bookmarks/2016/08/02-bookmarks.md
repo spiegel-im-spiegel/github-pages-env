@@ -17,7 +17,7 @@ title = "2016-08-02 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [動的配列について – JavaのLinkedListとArrayListを分析・比較する | プログラミング | POSTD](http://postd.cc/on-dynamic-arrays/)

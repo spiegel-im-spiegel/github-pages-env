@@ -4,19 +4,9 @@ description = "「QuickTime for Windows の脆弱性対策について」他"
 draft = false
 title = "2016-05-10 のブックマーク"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 - [エフセキュアブログ : 暗号化ランサムウェアのマネタイズ](http://blog.f-secure.jp/archives/50767847.html)

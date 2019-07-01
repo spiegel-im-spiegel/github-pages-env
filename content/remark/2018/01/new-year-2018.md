@@ -5,20 +5,6 @@ description = "このままだと大赤字を垂れ流しながら人生終了�
 image = "https://photo.baldanders.info/flickr/image/25571919808_o.jpg"
 tags        = [ "living" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -62,5 +48,5 @@ tags        = [ "living" ]
 
 ## ブックマーク
 
-- [近しい人の死を縁にして — Baldanders.info](https://baldanders.info/spiegel/log2/000543.shtml)
-- [じゃあね。 — Baldanders.info](https://baldanders.info/spiegel/log2/000867.shtml)
+- [近しい人の死を縁にして — Baldanders.info](https://baldanders.info/blog/000543/)
+- [じゃあね。 — Baldanders.info](https://baldanders.info/blog/000867/)

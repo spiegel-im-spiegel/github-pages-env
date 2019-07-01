@@ -6,19 +6,9 @@ tags = ["mastodon", "twitter", "communication"]
 description = "んー。要するに今回の「お祭り」は，どこぞの院生が Mastodon のインスタンスを立ち上げたらうっかりユーザが殺到しちゃって，さくらや Azure の中の人なんかも巻き込んで今に至る。ということでおっけ？"
 draft = false
 
-[author]
-  name = "Spiegel"
-  flattr = ""
-  facebook = "spiegel.im.spiegel"
-  avatar = "/images/avatar.jpg"
-  flickr = "spiegel"
-  instagram = "spiegel_2007"
-  tumblr = ""
-  license = "by-sa"
-  twitter = "spiegel_2007"
-  github = "spiegel-im-spiegel"
-  url = "https://baldanders.info/spiegel/profile/"
-  linkedin = "spiegelimspiegel"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 んー。
@@ -38,7 +28,7 @@ draft = false
 
 そもそもインターネットが（現状はともかく理想としては）分散型のネットワークだし，電子メールだって Web だって分散型のサービスだ。
 今世紀に入ってからなら Tor や Blockchain を含めてもいいかもしれない。
-いわゆる「[技術的ゲートキーパ](https://baldanders.info/spiegel/log2/000490.shtml "監視をコントロールする — Baldanders.info")」を迂回できるというのは大きい。
+いわゆる「[技術的ゲートキーパ](https://baldanders.info/blog/000490/ "監視をコントロールする — Baldanders.info")」を迂回できるというのは大きい。
 
 でも実際には分散型サービスって成功例があんまり無いんだよね。
 みんな思いつくけど（そして作ろうと思えば作れるけど）続かない。

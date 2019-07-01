@@ -18,7 +18,7 @@ title = "最初に「◯◯円安くなります」と言うセールスには�
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 「光コラボ」というサービスがあるらしい。

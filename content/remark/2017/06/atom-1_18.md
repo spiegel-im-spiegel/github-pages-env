@@ -17,7 +17,7 @@ title = "ATOM 1.18 stable リリースで公式に Git 機能に対応"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 先週 [ATOM] 1.18 の stable 版がリリースされたが，公式に [git] 機能が組み込まれたようだ。

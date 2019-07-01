@@ -18,7 +18,7 @@ title = "週末スペシャル： 「UNIX コマンドを SQL で抽出できる
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 ~~明日~~今日は立秋です[^0]。

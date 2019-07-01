@@ -16,7 +16,7 @@ title = "2016-08-07 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [Big Sky :: UNIX コマンドを SQL で抽出できるツール qq を作った。](http://mattn.kaoriya.net/software/lang/go/20160805190022.htm)

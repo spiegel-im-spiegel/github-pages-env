@@ -18,7 +18,7 @@ title = "GnuPG for Windows ― gpg-agent について"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 (move to [{{< ref "/openpgp/using-gnupg-for-windows-2.md" >}}]({{< ref "/openpgp/using-gnupg-for-windows-2.md" >}} "GnuPG for Windows : gpg-agent について"))

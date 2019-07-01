@@ -18,7 +18,7 @@ title = "Struct タグについて"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 たとえば [struct] で構造化されている情報を特定のファイルやデータベースに出力したり，逆にファイルやデータベースの情報を [struct] に流し込みたい場合に [struct] の各フィールドに目印になる情報があると便利である。

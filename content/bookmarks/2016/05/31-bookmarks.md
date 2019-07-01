@@ -16,7 +16,7 @@ title = "2016-05-31 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [IPAテクニカルウォッチ「増加するインターネット接続機器の不適切な情報公開とその対策」：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/technicalwatch/20160531.html)

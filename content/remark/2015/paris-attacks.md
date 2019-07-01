@@ -17,7 +17,7 @@ title = "同時多発テロ関連のブックマーク"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 今回の連続あるいは同時多発テロは池内恵さんの Facebook TL で知った。

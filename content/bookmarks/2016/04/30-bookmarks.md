@@ -4,19 +4,9 @@ description = "「なぜ、いま「著作権」について考えなければ�
 draft = false
 title = "2016-04-30 のブックマーク"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 - [Software error doomed Japanese Hitomi spacecraft : Nature News & Comment](http://www.nature.com/news/software-error-doomed-japanese-hitomi-spacecraft-1.19835)

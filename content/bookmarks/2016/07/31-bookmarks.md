@@ -17,7 +17,7 @@ title = "2016-07-31 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [Facebookがすべてのオープンソースプロジェクトの窓口をGitHub上に一本化、それをFacebook Incubatorと呼ぶ | TechCrunch Japan](http://jp.techcrunch.com/2016/07/30/20160729facebook-tries-a-new-way-to-release-open-source-projects/)

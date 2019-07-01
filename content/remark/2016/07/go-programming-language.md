@@ -18,7 +18,7 @@ title = "『プログラミング言語 Go』を眺める"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 [Go 言語]のよいところのひとつは[ドキュメント](http://golang-jp.org/doc/ "")が分かりやすい形で提供されている点である。

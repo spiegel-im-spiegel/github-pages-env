@@ -4,23 +4,12 @@ tags = [
   "games",
   "christmas",
 ]
-draft = false
 date = "2016-12-26T20:45:27+09:00"
 title = "2016年の「よかったこと」"
 
-[author]
-  url = "https://baldanders.info/spiegel/profile/"
-  flickr = "spiegel"
-  facebook = "spiegel.im.spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  linkedin = "spiegelimspiegel"
-  flattr = ""
-  avatar = "/images/avatar.jpg"
-  twitter = "spiegel_2007"
-  name = "Spiegel"
-  license = "by-sa"
-  tumblr = ""
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 結城浩さん主催で毎年行われる「[よかった探しリース](http://www.hyuki.com/ring/)」だが，今年は「個人的な事情（キャパ）により開催を見送ります」とのことなので，この記事でさくっと済ませることにする。
@@ -45,7 +34,7 @@ title = "2016年の「よかったこと」"
 
 ## ブックマーク
 
-- [よかった探しリース 2015 — Baldanders.info](https://baldanders.info/spiegel/profile/wreath2015.shtml)
+- [よかった探しリース 2015 — Baldanders.info](https://baldanders.info/profile/wreath2015.shtml)
 - [ENGLISH STUDIO » ポリアンナのよかった探し](http://www.sanctio.jp/archives/6453)
 - [ベツレヘムの星](http://www.asahi-net.or.jp/~nr8c-ab/ktisrbethlehem.htm)
 - [サンタクロースはいるんだ](http://www.aozora.gr.jp/cards/001237/card46346.html) ： 1897年9月21日 ニューヨーク・サン紙の社説（[原文](http://www.nysun.com/editorials/yes-virginia/68502/ "Yes, Virginia ... - The New York Sun")， [Wikipedia の記事](https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%B3%E3%82%BF%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%B9%E3%81%AF%E5%AE%9F%E5%9C%A8%E3%81%99%E3%82%8B%E3%81%AE%E3%81%8B "サンタクロースは実在するのか - Wikipedia")）

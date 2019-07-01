@@ -6,19 +6,9 @@ draft = false
 tags = ["astronomy", "ephemeris", "security", "risk", "management", "games"]
 title = "ゆく年くる年"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 ## 2016年の主な暦象
@@ -88,7 +78,7 @@ title = "ゆく年くる年"
 
 （以降 MFF と略称する）
 
-いやぁ，[「風来のシレン」で怒りまくってた](https://baldanders.info/spiegel/log2/000561.shtml)頃に比べると隔世の感があるね。
+いやぁ，[「風来のシレン」で怒りまくってた](https://baldanders.info/blog/000561/)頃に比べると隔世の感があるね。
 丹下桜さん，いいわぁ。
 
 基本的にガチャ[^s] の出目で難易度が激変するゲームは嫌いなのだが（これが射幸心を煽る元だし）， MFF はその辺のバランスがよく，いい感じに RPG のシナリオに没頭できるようになっている。

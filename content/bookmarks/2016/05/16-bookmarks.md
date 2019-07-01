@@ -16,7 +16,7 @@ title = "2016-05-16 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [デジタル・ジャーナリズムを巡る新刊や邦訳全文公開情報など - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20160515/digitaljournalism)

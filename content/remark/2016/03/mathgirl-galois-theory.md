@@ -1,23 +1,12 @@
 +++
 date = "2016-03-22T23:19:00+09:00"
 description = "というわけで，以前に「ガロア理論」の中身がよく分からなかったって方は「数学ガールの秘密ノート」シリーズを読んでから再読してみると理解が進むかもしれない。"
-draft = false
 tags = ["book", "math", "galois-theory"]
 title = "いまさら『数学ガール／ガロア理論』を読んだ時の話"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 [Qiita](http://qiita.com/) で面白い記事を見つける。
@@ -34,7 +23,7 @@ title = "いまさら『数学ガール／ガロア理論』を読んだ時の�
 そういう意味で「数学を記述する」この連載は教科書としてうってつけである。
 Swift は Apple 製ということで Objective-C 並に毛嫌いしていたが（仕事ならやりますよ，もちろん），オープンソースになったことだし， iOS 以外にも使えるのならちょっと勉強してみようかと思っていたところなのだった。
 
-そういえば「ガロア理論」って「数学ガール」シリーズでもやってたなぁ... と思って[昔のブログ記事](https://baldanders.info/archives.shtml)を探しまわったが，ない。
+そういえば「ガロア理論」って「数学ガール」シリーズでもやってたなぁ... と思って[昔のブログ記事](https://baldanders.info/blog/)を探しまわったが，ない。
 あれ？ 読書感想文を書いてないじゃん，私。
 そういや2012年頃ってエラい仕事が忙しくて「ガロア理論」もすぐには読めなかったんだっけ。
 やっちまったなぁ。
@@ -63,7 +52,7 @@ Swift は Apple 製ということで Objective-C 並に毛嫌いしていたが
 今回この記事を書くために再読したが，やっぱりワクワクしながら読めた。
 
 改めて読んで気づいたんだけど，「数学ガールの秘密ノート」シリーズは「数学ガール」シリーズの「補題」になってるんだね。
-とくに昨年出た「[ベクトルの真実]({{< ref "/remark/2016/03/mathgirl-note-vector.md" >}})」やさらにその前の「[丸い三角関数](https://baldanders.info/spiegel/log2/000685.shtml)」なんかは今回の「ガロア理論」と直接リンクしている。
+とくに昨年出た「[ベクトルの真実]({{< ref "/remark/2016/03/mathgirl-note-vector.md" >}})」やさらにその前の「[丸い三角関数](https://baldanders.info/blog/000685/)」なんかは今回の「ガロア理論」と直接リンクしている。
 
 というわけで，以前に「ガロア理論」の中身がよく分からなかったって方は「数学ガールの秘密ノート」シリーズを読んでから再読してみると理解が進むかもしれない。
 そんで「ガロア理論」を読んだら改めて最初のリンク先の記事へ GO！

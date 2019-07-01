@@ -6,18 +6,9 @@ draft = false
 tags = ["code", "politics", "internet", "grigori"]
 title = "『「情報社会」が「社会」になった時代』"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 [2015年社会情報学会学会大会](http://2015ssi.mond.jp/?page_id=251)のワークショップ「『情報社会論』の変遷と再編――統治の再設計に向けて」の資料だそうな。
@@ -29,7 +20,7 @@ title = "『「情報社会」が「社会」になった時代』"
 スライドでも紹介されている佐藤俊樹さんの『社会は情報化の夢を見る ― ［新世紀版］ノイマンの夢・近代の欲望』は技術決定論に基づく安易な未来予測を「情報化」社会論だとして批判する。
 この本の初版『ノイマンの夢・近代の欲望―情報化社会を解体する』は1996年に発行されたものだが，2010年に新世紀版を出すにあたって時事的な話題以外はほとんど手を入れる必要がなかったという。
 
-随分前に「[“The Shadow Web”](https://baldanders.info/spiegel/log2/000599.shtml)」で紹介したが，もともとインターネットというのは障害や（国家などによる）検閲に強いシステムとして開発されてきた。
+随分前に「[“The Shadow Web”](https://baldanders.info/blog/000599/)」で紹介したが，もともとインターネットというのは障害や（国家などによる）検閲に強いシステムとして開発されてきた。
 「インターネットは検閲をダメージであると解釈し，それを回避する」（John Gilmore）のである。
 
 しかし現状のインターネットはこのようには機能していないし，このような機能こそを（セキュリティの名のもとに）回避しようとする動きがある。
@@ -49,7 +40,7 @@ title = "『「情報社会」が「社会」になった時代』"
 ## 参考
 
 - [ノイマンの夢・近代の欲望―情報化社会を解体する - 雑記帳](http://d.hatena.ne.jp/ced/20060514/1147585867)
-- [“The Shadow Web”](https://baldanders.info/spiegel/log2/000599.shtml)
+- [“The Shadow Web”](https://baldanders.info/blog/000599/)
 - [20年後：インターネットの自由という夢の死 - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2015/09/46083/)
 
 <div class="hreview">
@@ -77,7 +68,7 @@ title = "『「情報社会」が「社会」になった時代』"
     <dd>ASIN: 4903127044, EAN: 9784903127040</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
-  <p class="description"><a href="https://baldanders.info/spiegel/log2/000410.shtml">感想はこちら</a>。</p>
+  <p class="description"><a href="https://baldanders.info/blog/000410/">感想はこちら</a>。</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-07">2018-12-07</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 

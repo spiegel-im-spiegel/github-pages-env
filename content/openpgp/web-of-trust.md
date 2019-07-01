@@ -45,7 +45,7 @@ pageType = "text"
 このうちデータへの電子署名では主に完全性と否認防止を行う。
 否認防止という言葉はちょっと耳慣れないかもしれないが，要するに「あなたはこのデータに署名した」という事実を否認することが出来ない，という意味である[^pki1]。
 
-[^pki1]: メッセージング・システムを含む暗号通信においては「否認防止」よりむしろ「否認可能 (Deniability)」が要求される場合がある。詳しくは拙文「[OTR over XMPP](https://baldanders.info/spiegel/log2/000787.shtml "OTR over XMPP — Baldanders.info")」を参考にどうぞ。
+[^pki1]: メッセージング・システムを含む暗号通信においては「否認防止」よりむしろ「否認可能 (Deniability)」が要求される場合がある。詳しくは拙文「[OTR over XMPP](https://baldanders.info/blog/000787/ "OTR over XMPP — Baldanders.info")」を参考にどうぞ。
 
 これらを達成するためには電子署名に使う公開鍵が鍵オーナーと正しく紐付いている必要がある[^bt1]。
 おそらく最初の記事は「公開鍵が鍵オーナーと正しく紐付いている」という前提で「ユーザーの身元を保証」などと書いているのかもしれないが，話はそう簡単ではないのだ。
@@ -62,7 +62,7 @@ X.509 の「信用モデル（trust model）」では hierarchical な「認証�
 
 でも実は認証局が証明しているのは「公開鍵が鍵オーナーと正しく紐付いている」ことだけで，鍵オーナーの「身元を保証」しているわけではない。
 
-そこで HTTPS には [EV SSL (Extended Validation SSL) なる奇っ怪な仕組み](https://baldanders.info/spiegel/log2/000277.shtml "Extended Validation SSL — Baldanders.info")が組み込まれた。
+そこで HTTPS には [EV SSL (Extended Validation SSL) なる奇っ怪な仕組み](https://baldanders.info/blog/000277/ "Extended Validation SSL — Baldanders.info")が組み込まれた。
 これは鍵オーナーの「身元を保証」するための仕組みで，鍵オーナーは認証局に対して自身の身元を証明するものを提出し認証局は公開鍵の管理をより厳格に行う，ということらしい。
 
 正直に言って「屋上屋を架す」仕組みであり認証局の責務を逸脱していると思うのだが，まぁ深くは突っ込むまい。
@@ -100,7 +100,7 @@ GitHub 上の{{< ruby "contribution" >}}活動{{< /ruby >}}がそのまま「エ
 ## ブックマーク
 
 - [Git Commit で OpenPGP 署名を行う]({{< relref "./git-commit-with-openpgp-signature.md" >}})
-- [わかる！ OpenPGP 暗号 — Baldanders.info](https://baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
+- [わかる！ OpenPGP 暗号 — Baldanders.info](https://baldanders.info/spiegel/cc-license/)
 
 - [spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer](https://github.com/spiegel-im-spiegel/gpgpdump) : OpenPGP 鍵や電子署名のダンプには拙作をどうぞ（宣伝`w`）
 

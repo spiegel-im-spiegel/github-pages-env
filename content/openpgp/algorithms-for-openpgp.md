@@ -107,7 +107,7 @@ ID は [OpenPGP] で定義されるもので ”sym 1” のように表記す�
 - 現行の [RFC 4880] では TripleDES (sym 2) が "MUST implement” で CAST5 (sym 3) および AES-128 が "SHOULD implement” であるため，今後も [RFC 4880] に対応するならこれらのアルゴリズムを実装する必要がある
 - 旧 PGP（2.6 およびそれ以前）の暗号鍵および暗号データを利用するのであれば IDEA (sym 1) が必要
 
-ちなみに sym 11 から sym 13 の [Camellia 暗号は日本製](https://baldanders.info/spiegel/log2/000451.shtml "The Camellia Cipher in OpenPGP — Baldanders.info")である。
+ちなみに sym 11 から sym 13 の [Camellia 暗号は日本製](https://baldanders.info/blog/000451/ "The Camellia Cipher in OpenPGP — Baldanders.info")である。
 
 [OpenPGP] では共通鍵暗号を使った暗号化に CFB mode[^cfb1] を使用する。
 なお，認証付き暗号の暗号モードについては以下の通り。
@@ -453,7 +453,7 @@ ID は [OpenPGP] で定義されるもので ”comp 1” のように表記す�
 
 ## ブックマーク
 
-- [わかる！ OpenPGP 暗号](https://baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
+- [わかる！ OpenPGP 暗号](https://baldanders.info/spiegel/cc-license/)
 - [OpenPGP: First RFC4880bis Draft]({{< ref "/remark/2015/openpgp-draft-rfc4880bis-first.md" >}})
     - [OpenPGP に関する話題]({{< ref "/remark/2017/03/topics-on-openpgp.md" >}})
     - [Issuer Fingerprint Signature Subpacket in Next OpenPGP]({{< ref "/openpgp/issuer-fingerprint-signature-subpacket-in-next-openpgp.md" >}})

@@ -17,7 +17,7 @@ title = "Security fixes for Libgcrypt and GnuPG 1.4"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 いやぁ，先月の話でゴメン。

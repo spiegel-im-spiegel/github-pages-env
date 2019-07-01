@@ -5,19 +5,9 @@ draft = false
 tags = ["creative-commons", "google"]
 title = "Google 八分とファッションとしての CC License"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 結城浩さんが懐かしい記事を tweet しておられる。
@@ -120,6 +110,6 @@ Legal Code でも
     <dd>ASIN: B00DI8TMPU</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
-  <p class="description"><a href='https://baldanders.info/spiegel/log2/000643.shtml'>手軽に読める</a>。お薦め。</p>
+  <p class="description"><a href='https://baldanders.info/blog/000643/'>手軽に読める</a>。お薦め。</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-09-13">2014-09-13</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>

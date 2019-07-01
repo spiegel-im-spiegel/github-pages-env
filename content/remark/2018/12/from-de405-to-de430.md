@@ -5,24 +5,12 @@ description = "この記事は本家サイトで 2015-05-02 に書いた「暦�
 image = "/images/attention/kitten.jpg"
 tags = [ "astronomy", "ephemeris" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = true
   mermaidjs = false
 +++
 
-この記事は[本家サイト](https://baldanders.info/ "Baldanders.info")で 2015-05-02 に書いた「[暦の改訂（DE405 から DE430 へ）](https://baldanders.info/spiegel/log2/000840.shtml)」 を再構成したものです。
+この記事は[本家サイト](https://baldanders.info/ "Baldanders.info")で 2015-05-02 に書いた「[暦の改訂（DE405 から DE430 へ）](https://baldanders.info/blog/000840/)」 を再構成したものです。
 
 ----
 

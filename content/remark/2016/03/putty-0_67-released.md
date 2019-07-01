@@ -17,7 +17,7 @@ title = "PuTTY 0.67 リリース（Security Fix）"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 Windows 用の SSH（Secure SHell） クライアント [PuTTY] 0.67 がリリースされている。

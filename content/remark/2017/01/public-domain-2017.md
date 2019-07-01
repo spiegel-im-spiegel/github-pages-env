@@ -17,7 +17,7 @@ draft = false
   avatar = "/images/avatar.jpg"
   twitter = "spiegel_2007"
   github = "spiegel-im-spiegel"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
   flattr = ""
 +++
 

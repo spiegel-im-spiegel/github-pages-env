@@ -1,6 +1,5 @@
 +++
 title = "OpenPGP に関する話題"
-draft = false
 tags = [
   "security",
   "cryptography",
@@ -14,19 +13,9 @@ tags = [
 description = "GnuPG 2.1.19 がリリース / 映像の証明 / 電子メールの暗号化 / SHA-1 の危殆化と OpenPGP V5"
 date = "2017-03-05T17:19:39+09:00"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  url = "https://baldanders.info/spiegel/profile/"
-  flickr = "spiegel"
-  twitter = "spiegel_2007"
-  linkedin = "spiegelimspiegel"
-  facebook = "spiegel.im.spiegel"
-  tumblr = ""
-  name = "Spiegel"
-  instagram = "spiegel_2007"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  license = "by-sa"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 さてさて。
@@ -124,7 +113,7 @@ Proof Mode の設計目標は以下の通り。
 
 「[グーグルのメール暗号化Chromeアプリケーション「E2EMail」がオープンソースに](https://japan.zdnet.com/article/35097359/)」の最後の方に出てくる [Key Transparency](https://security.googleblog.com/2017/01/security-through-transparency.html "Google Online Security Blog: Security Through Transparency") については以前に本家サイトで紹介したので参考にどうぞ。
 
-- [Google による OpenPGP 鍵配送の解決提案 — Baldanders.info](https://baldanders.info/spiegel/log2/000785.shtml)
+- [Google による OpenPGP 鍵配送の解決提案 — Baldanders.info](https://baldanders.info/blog/000785/)
 
 個人的には（OpenPGP ではないが）「[Android版Gmail v7.2でS/MIMEの暗号化機能をサポート](http://getnews.jp/archives/1638152)」のほうに注目している。
 S/MIME は X.509 型の PKI で鍵を運用するもので Web メールやケータイアプリでの鍵管理がやりやすいのが特徴。

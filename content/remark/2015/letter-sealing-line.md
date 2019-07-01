@@ -1,22 +1,12 @@
 +++
 date = "2015-10-14T22:44:28+09:00"
 description = "昨年 EFF が安全なメッセージングアプリの条件を示した。この条件に照らせば Letter Sealing は最初の2つはクリアしたけど，残りは「もっと頑張りましょう」な状態。"
-draft = false
 tags = ["security", "privacy", "cryptography", "messaging", "line"]
 title = "LINE： Letter Sealing による End-to-End 暗号化"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 - [LINE、トークを高度な暗号化で保護する「Letter Sealing」を実装　設定方法も紹介 | アプリオ](http://appllio.com/how-to-set-line-letter-sealing)
@@ -46,7 +36,7 @@ Letter Sealing に関する詳細情報も公開されている。
 ぶっちゃけて言うなら LINE サーバ上で中間者攻撃（man-in-the-middle attack）が可能ということだ[^a]。
 「[LINEのE2EE実装「Letter Sealing」初見](http://ja.hideki.hclippr.com/2015/09/01/line%E3%81%AEe2ee%E5%AE%9F%E8%A3%85%E3%80%8Cletter-sealing%E3%80%8D%E5%88%9D%E8%A6%8B/)」によるとクライアントごとに異なる鍵を生成するようなので[^b]，なおさら鍵の証明が重要になってくると思うのだけど。
 
-[^a]: ただし中間者攻撃は（昨年の [OpenSSL に対する HeartBleed](https://baldanders.info/spiegel/log2/000682.shtml) のように）既に攻撃が可能な状態なら相当な脅威だけど，攻撃を行うための前提条件を揃えるのは結構面倒なので，全体としてのリスクはそれほど高いわけではない。
+[^a]: ただし中間者攻撃は（昨年の [OpenSSL に対する HeartBleed](https://baldanders.info/blog/000682/) のように）既に攻撃が可能な状態なら相当な脅威だけど，攻撃を行うための前提条件を揃えるのは結構面倒なので，全体としてのリスクはそれほど高いわけではない。
 [^b]: これ自体は妥当。もっと言うなら， ephemeral な鍵であればおそらくセッション毎に異なる。
 
 どうも最近は「暗号鍵がユーザに見えるのはダサい」みたいな風潮があるけど，公開鍵暗号方式を使うなら鍵の証明と管理の scheme が生命線になるので，これを怠ると今回のような中途半端な実装になってしまう。
@@ -76,7 +66,7 @@ LINE の場合，アカウントの乗っ取りや成りすましが（手を変
 
 ## 参考
 
-- [安全なメッセージング・アプリとは — Baldanders.info](https://baldanders.info/spiegel/log2/000782.shtml)
-- [安全なメッセージング・アプリ（ちょびっと改訂） — Baldanders.info](https://baldanders.info/spiegel/log2/000800.shtml)
+- [安全なメッセージング・アプリとは — Baldanders.info](https://baldanders.info/blog/000782/)
+- [安全なメッセージング・アプリ（ちょびっと改訂） — Baldanders.info](https://baldanders.info/blog/000800/)
 - [LINEのLetter Sealingに関するフォローアップ | Hideki's Random Stuff Japanese](http://ja.hideki.hclippr.com/2015/10/14/line%E3%81%AEletter-sealing%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%83%95%E3%82%A9%E3%83%AD%E3%83%BC%E3%82%A2%E3%83%83%E3%83%97/)
 - [【注意喚起】 友人や知人になりすまして電話番号やSMS認証番号を聞き出すメッセージにご注意ください : LINE公式ブログ](http://official-blog.line.me/ja/archives/39021529.html) : 今年の夏ごろに流行った乗っ取り手口

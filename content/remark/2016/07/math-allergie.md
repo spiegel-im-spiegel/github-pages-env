@@ -1,23 +1,12 @@
 +++
 date = "2016-07-31T14:20:10+09:00"
 description = "外国語にせよ数式にせよプログラミング言語にせよ，自身とは異質な「言語」を学ぶというのは背後にある学問体系や思想や哲学といったものを丸ごと学ぶのに等しい。それは人の「想像力の地平線」を拡大する数少ない手段のひとつである。"
-draft = false
 tags = ["math", "language"]
 title = "「「私は数式アレルギーの文系でして」とへらへら笑う大人に耳を貸すな」は正しい"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 （「アレルギー」ってドイツ語なのね）
@@ -53,14 +42,14 @@ title = "「「私は数式アレルギーの文系でして」とへらへら�
 だからこそ大人は言うのである。
 {{< ruby "ヒマ" >}}学生{{< /ruby >}}なうちに勉強しておけ，と。
 
-[^s]: [ずい分前に書いた](https://baldanders.info/spiegel/log2/000529.shtml "私はこうしてプログラミングを覚えた — Baldanders.info")が，私は企業の新人研修で専門学校2年分のカリキュラムを3ヶ月でやらされた。なので「学校で習うプログラミング」に対する評価が低い。
+[^s]: [ずい分前に書いた](https://baldanders.info/blog/000529/ "私はこうしてプログラミングを覚えた — Baldanders.info")が，私は企業の新人研修で専門学校2年分のカリキュラムを3ヶ月でやらされた。なので「学校で習うプログラミング」に対する評価が低い。
 
 前にも[書いた]({{< ref "/remark/2016/06/19-stories.md#ed" >}})が
 
 > ちなみに「人工知能」の台頭を意識しているのなら，なおさら「プログラミング教育」は不要である。 なぜなら「問題を解決する仕事」はこれからどんどん機械が奪っていくから。 そうなった時に望まれる人材は「問題を解決できる人」ではなく「正しい問いを立てられる人」である。 親や学校教師に言われた通りのことしかできない子どもは，大人社会の中では機械以下の底辺でしか生きられなくなる。
 
 「正しい問いを立てられる」ことはこれからの人にとって必須スキルになる。
-「正しい問いを立てられる」ようになるには数学をきちんと修めることである（「[掛け算は順序が大事](https://baldanders.info/spiegel/log2/000744.shtml "日本の「算数」は壊れてる？ — Baldanders.info")」などは問題外）。
+「正しい問いを立てられる」ようになるには数学をきちんと修めることである（「[掛け算は順序が大事](https://baldanders.info/blog/000744/ "日本の「算数」は壊れてる？ — Baldanders.info")」などは問題外）。
 学術分野に進まなくても「数学的なものの考え方」は将来の貴方の役に立つはずである。
 
 外国語にせよ数式にせよプログラミング言語にせよ，自身とは異質な「言語」を学ぶというのは背後にある学問体系や思想や哲学といったものを丸ごと学ぶのに等しい。
@@ -68,7 +57,7 @@ title = "「「私は数式アレルギーの文系でして」とへらへら�
 
 ## 関連する（かも知れない）記事
 
-- [プログラミングは「損得勘定」で考える — Baldanders.info](https://baldanders.info/spiegel/log2/000868.shtml)
+- [プログラミングは「損得勘定」で考える — Baldanders.info](https://baldanders.info/blog/000868/)
 - [「だれもがプログラミングを学ぶべき」ではない]({{< ref "/remark/2016/05/lets-programming.md" >}})
 
 ## 参考文献

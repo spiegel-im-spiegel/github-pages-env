@@ -1,23 +1,12 @@
 +++
 date = "2016-02-16T12:47:08+09:00"
 description = "実は昨年末に申請したのにさっぱり音沙汰なしで私も忘れてたんだけど，先日交付の案内が来たので区役所に行ってきた。"
-draft = false
 tags = ["my-number", "security", "risk", "authentication", "certification", "password", "pki"]
 title = "個人番号カードを発行してもらいました"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 実は昨年末に申請したのにさっぱり音沙汰なしで私も忘れてたんだけど，先日交付の案内が来たので区役所に行ってきた。
@@ -104,7 +93,7 @@ IPA の「[情報漏えいを防ぐためのモバイルデバイス等設定マ
 
 ### パスワードを覚えるなんて脳味噌の無駄遣い
 
-これはいつも言っていることだが「[パスワードを覚えるなんて脳味噌の無駄遣い](https://baldanders.info/spiegel/log2/000739.shtml)」である。
+これはいつも言っていることだが「[パスワードを覚えるなんて脳味噌の無駄遣い](https://baldanders.info/blog/000739/)」である。
 人間の頭で考えるパスワードなんてたかが知れている。
 brute-force を使うまでもなくもっと簡単に解読できる。
 

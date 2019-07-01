@@ -5,19 +5,6 @@ description = "今回はいよいよ Creative Commons Licenses について解�
 tags = ["creative-commons", "copyright", "license"]
 title = "Creative Commons Licenses"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -261,7 +248,7 @@ title = "Creative Commons Licenses"
 </table>
 {{< /fig-gen >}}
 
-RDFa を使って Web ページにメタデータを埋め込む方法については拙文「[RDFa 入門](https://baldanders.info/spiegel/archive/rdfa/)」が参考になるだろう。
+RDFa を使って Web ページにメタデータを埋め込む方法については拙文「[RDFa 入門](https://baldanders.info/spiegel/rdfa/)」が参考になるだろう。
 ページ全体にライセンスを指示したいなら `head` 要素に
 
 ```html

@@ -1,24 +1,9 @@
 +++
 title = "エンジニアこそ「狂狷の徒」たれ"
 date =  "2017-12-14T14:19:18+09:00"
-update = "2018-12-31T13:39:09+09:00"
 description = "2008年当時の自分の記事を読んで，あれから10年も経つのに「世の中ちっとも変わらない」気がする。それでも私たちエンジニアは，前だけではなく，上を向いて螺旋階段を登るべきだと思うのだ。"
 image = "/images/attention/remark.jpg"
 tags        = [ "code", "hacker-ethic" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false
@@ -27,7 +12,7 @@ tags        = [ "code", "hacker-ethic" ]
 
 ここのところ立て続けに「狂」の字を見かけたせいで10年近く前に書いたこの記事を思い出してしまった。
 
-- [「狂狷の徒」 — Baldanders.info](https://baldanders.info/spiegel/log2/000379.shtml)
+- [「狂狷の徒」 — Baldanders.info](https://baldanders.info/blog/000379/)
 
 折角なので再構成して再掲載する。
 記述は2008年当時のものなので，悪しからずご了承の程を。
@@ -130,7 +115,7 @@ yomoyomo さんの「[情報共有の未来](http://archive.wiredvision.co.jp/bl
         <i class="far fa-star"></i>
       </abbr></dd>
     </dl>
-    <p class="description">同名ブログの書籍化。感想は<a href="https://baldanders.info/spiegel/log2/000611.shtml">こちら</a>。</p>
+    <p class="description">同名ブログの書籍化。感想は<a href="https://baldanders.info/blog/000611/">こちら</a>。</p>
     <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018-12-31</abbr></p>
 </div>
 

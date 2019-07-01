@@ -17,7 +17,7 @@ title = "文字列連結はどれが速い？"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 （初出： [Golang の文字列連結はどちらが速い？ - Qiita](http://qiita.com/spiegel-im-spiegel/items/16ab7dabbd0749281227)）

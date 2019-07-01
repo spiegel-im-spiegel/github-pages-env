@@ -5,20 +5,6 @@ description = "いやぁ，なんちうか，5GHz帯いいわ。快適。"
 image = "https://photo.baldanders.info/flickr/image/39688424175_o.jpg"
 tags        = [ "wireless" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -26,7 +12,7 @@ tags        = [ "wireless" ]
 
 この度，再開することにした。
 
-古い記事をひっくり返して探してみたところ，私が [WiMAX を解約したのは2013年末](https://baldanders.info/spiegel/log2/000669.shtml "UQ WiMAX 解約しました — Baldanders.info")のことだった。
+古い記事をひっくり返して探してみたところ，私が [WiMAX を解約したのは2013年末](https://baldanders.info/blog/000669/ "UQ WiMAX 解約しました — Baldanders.info")のことだった。
 数年ぶりの再開である。
 
 {{< fig-img src="https://photo.baldanders.info/flickr/image/39688424175_m.jpg" title="ふっふっふ。数年ぶりに UQ WiMAX 再導入。" link="https://photo.baldanders.info/flickr/39688424175/" >}}

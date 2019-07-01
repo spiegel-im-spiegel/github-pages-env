@@ -1,24 +1,12 @@
 +++
 date = "2016-05-28T22:59:50+09:00"
-update = "2016-06-18T15:00:40+09:00"
 description = "Barack Obama 米国大統領の来広 / Google vs Oracle の訴訟の行方 2 / Windows 7 用の Rollup が出た / その他の気になる記事"
-draft = false
 tags = ["politics", "international", "hiroshima", "code", "intellectual-property", "copyright", "java", "windows"]
 title = "週末スペシャル： Barack Obama 米国大統領の来広"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 今参加してるプロジェクトが「徒労感」半端ない。
@@ -67,7 +55,7 @@ title = "週末スペシャル： Barack Obama 米国大統領の来広"
 - [グーグルがJava API訴訟でオラクルに勝利--開発者にとって朗報か - ZDNet Japan](http://japan.zdnet.com/article/35083475/)
 - [Google’s fair use victory is good for open source | Ars Technica](http://arstechnica.com/tech-policy/2016/06/googles-fair-use-victory-is-good-for-open-source/)
 
-以前「[Google vs Oracle の訴訟の行方](https://baldanders.info/spiegel/log2/000861.shtml)」でも書いたが， Java API の著作権を巡る争いは「著作権の有無」から著作権を認めた上で Java API の（使用ではなく）利用が fair use にあたるかどうかに争点が移った。
+以前「[Google vs Oracle の訴訟の行方](https://baldanders.info/blog/000861/)」でも書いたが， Java API の著作権を巡る争いは「著作権の有無」から著作権を認めた上で Java API の（使用ではなく）利用が fair use にあたるかどうかに争点が移った。
 
 米国で fair use が成立するためには以下の観点において「公正」であることが認められなければならない。
 

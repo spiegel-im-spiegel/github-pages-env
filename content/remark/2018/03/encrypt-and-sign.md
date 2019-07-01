@@ -5,20 +5,6 @@ description = "言われてみればその通りで，公開鍵暗号アルゴ�
 image = "/images/attention/kitten.jpg"
 tags = [ "cryptography" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -46,7 +32,7 @@ ElGamal 署名は同じ鍵が使えるというだけでアルゴリズム自体
 今後は気を付けよう。
 
 というわけで「[OpenPGP で利用可能なアルゴリズム]({{< ref "/openpgp/algorithms-for-openpgp.md" >}})」の文言を少し変えてみた。
-本家で絶賛放置プレイになっている「[わかる！ OpenPGP 暗号](https://baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)」も内容が色々アレなのでいい加減書き直さないといけないんだけど，モチベーションが上がらないんだよねぇ[^openpgp1]。
+本家で絶賛放置プレイになっている「[わかる！ OpenPGP 暗号](https://baldanders.info/spiegel/cc-license/)」も内容が色々アレなのでいい加減書き直さないといけないんだけど，モチベーションが上がらないんだよねぇ[^openpgp1]。
 どうせ [RFC 4880bis] が正式版になったら書き直さないといけないし，もうしばらく放置でいいか。
 
 [^openpgp1]: いや，ほら，最近は『[暗号技術入門](https://www.amazon.co.jp/exec/obidos/ASIN/B015643CPE/baldandersinf-22/)』みたいな良書もあるし，暗号技術に対する要件も多様化してるしね。

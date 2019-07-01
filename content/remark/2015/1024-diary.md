@@ -17,7 +17,7 @@ title = "今日の戯れ言： GitHub-flow を捨てた ATOM Editor"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 1. [GitHub-flow を捨てた ATOM Editor]({{< relref "#atom" >}})

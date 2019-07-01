@@ -16,7 +16,7 @@ description = "「常識」は「知能（intelligence）」というより「�
   avatar = "/images/avatar.jpg"
   name = "Spiegel"
   github = "spiegel-im-spiegel"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
   linkedin = "spiegelimspiegel"
   flattr = ""
 +++

@@ -6,18 +6,9 @@ draft = false
 tags = ["flattr", "github", "conemu"]
 title = "2015年10月の Flattr もしくは「Flattr × GitHub ＝ ♥」"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 2015年10月分の [Flattr] Report が来た。
@@ -79,8 +70,8 @@ title = "2015年10月の Flattr もしくは「Flattr × GitHub ＝ ♥」"
 
 ## 参考ページ
 
-- [Flattr で寄付するついでに... — Baldanders.info](https://baldanders.info/spiegel/log2/000507.shtml)
-- [Like でチャリ～ン — Baldanders.info](https://baldanders.info/spiegel/log2/000631.shtml)
+- [Flattr で寄付するついでに... — Baldanders.info](https://baldanders.info/blog/000507/)
+- [Like でチャリ～ン — Baldanders.info](https://baldanders.info/blog/000631/)
 
 [Flattr]: https://flattr.com/ "Flattr - Social microdonations"
 [flattr]: https://flattr.com/ "Flattr - Social microdonations"

@@ -16,7 +16,7 @@ title = "セキュリティ脆弱性を修正した Go 1.4.3 がリリース"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 {{< fig-quote lang="en" title="Go 1.4.3 is released (security fix) - Google グループ" link="https://groups.google.com/forum/#!topic/golang-announce/iSIyW4lM4hY" >}}

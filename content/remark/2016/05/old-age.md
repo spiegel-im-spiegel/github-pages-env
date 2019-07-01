@@ -18,7 +18,7 @@ title = "「老いに備える知的生活」を読む"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 [結城浩さんのミニ文庫](http://www.hyuki.com/mini/)より。

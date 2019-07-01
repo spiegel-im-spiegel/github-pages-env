@@ -1,23 +1,8 @@
 +++
 title = "「改憲」という要求開発"
 date =  "2017-10-23T17:45:41+09:00"
-update = "2017-10-26T14:08:23+09:00"
 description = "やぁ，選挙が終わりましたよ。ようやくこれで胡乱なことが喋れるよ（笑）"
 tags        = [ "engineering", "politics", "code", "requirement-revelopment" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = true
@@ -56,7 +41,7 @@ tags        = [ "engineering", "politics", "code", "requirement-revelopment" ]
 そこで「$1+1$」について考察し解答である「$2$」を導き出すのが西欧的思考で，「$1+1=2$ である」を絶対として無条件に受け入れるのがイスラーム教的思考と考えればいいのだろうか（算数に関しては日本の学校教育は後者な気もするが[^ed1]）。
 
 [^math1]: 厳密には $1+1=2$ というのは「$1+1$ と $2$ は常に等しい」という意味の恒等式であるが，細かいことは言わないでおく。
-[^ed1]: そうでなければ「[掛け算は順序が大事](https://baldanders.info/spiegel/log2/000744.shtml "日本の「算数」は壊れてる？ — Baldanders.info")」みたいな大惨事にはならないだろう。
+[^ed1]: そうでなければ「[掛け算は順序が大事](https://baldanders.info/blog/000744/ "日本の「算数」は壊れてる？ — Baldanders.info")」みたいな大惨事にはならないだろう。
 
 実はコンピュータ・エンジニアも似たようなことをする。
 それは TDD (Test-Driven Development) である。

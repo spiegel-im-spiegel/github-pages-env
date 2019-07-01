@@ -5,28 +5,19 @@ draft = false
 tags = ["study", "castle", "shimane", "izumo"]
 title = "オトナの社会科見学： 中秋の月山富田城跡"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 これまでの「オトナの社会科見学」シリーズ
 
-1. [旭酒造株式会社](https://baldanders.info/spiegel/log2/000273.shtml)
-1. [旭鳳酒造株式会社](https://baldanders.info/spiegel/log2/000368.shtml)
-1. [備中松山城](https://baldanders.info/spiegel/log2/000563.shtml)
-1. [須佐神社 ほか](https://baldanders.info/spiegel/log2/000822.shtml)
-1. [盛川酒造株式会社](https://baldanders.info/spiegel/log2/000830.shtml)
-1. [「華鳩」蔵開きバスツアー](https://baldanders.info/spiegel/log2/000838.shtml)
+1. [旭酒造株式会社](https://baldanders.info/blog/000273/)
+1. [旭鳳酒造株式会社](https://baldanders.info/blog/000368/)
+1. [備中松山城](https://baldanders.info/blog/000563/)
+1. [須佐神社 ほか](https://baldanders.info/blog/000822/)
+1. [盛川酒造株式会社](https://baldanders.info/blog/000830/)
+1. [「華鳩」蔵開きバスツアー](https://baldanders.info/blog/000838/)
 
 社会科見学と言っても酒蔵見学か「旅行部」の日帰り旅行くらいなのだが，今回は「旅行部」の方。
 今年3回目。

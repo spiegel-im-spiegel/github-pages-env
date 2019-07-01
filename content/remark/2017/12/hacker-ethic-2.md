@@ -6,20 +6,6 @@ description = "自分用にメモしておくことは大事なので，覚え�
 image = "/images/attention/remark.jpg"
 tags = [ "code", "law", "intellectual-property", "hacker-ethic", "internet", "engineering", "media", "censorship" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -116,7 +102,7 @@ NVIDIA と AMD で一種の「住み分け」ができてることも知らな�
 
 [^media1]: おそらくある分野の最先端にいる人から見れば「ネットの情報は遅い」と感じるのではないだろうか。たとえばセキュリティ分野であれば，インシデントが公衆空間にて顕在化するか「対応済み」となった後でなければ公開されない。更にそれをテレビ・新聞等のメディアが報道するか否かは相当に恣意的である。
 
-- [「テレビという共同体」 — Baldanders.info](https://baldanders.info/spiegel/log2/000307.shtml)
+- [「テレビという共同体」 — Baldanders.info](https://baldanders.info/blog/000307/)
 
 これはネットが情報摂取に関して優位であるということではない。
 「情報の事実性に関する S/N 比が悪すぎる」というのはネットにも当てはまる。
@@ -142,7 +128,7 @@ Twitter も（検閲に血道を上げるんじゃなく）これを真似して
 
 ## ブックマーク{#bookmark}
 
-- [“The Shadow Web” — Baldanders.info](https://baldanders.info/spiegel/log2/000599.shtml)
+- [“The Shadow Web” — Baldanders.info](https://baldanders.info/blog/000599/)
 
 ## 参考図書
 
@@ -172,7 +158,7 @@ Twitter も（検閲に血道を上げるんじゃなく）これを真似して
     <dd>ASIN: B00DIM6BE6</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
-  <p class="description">時代はソーシャル CRM から VRM へ。<a href='https://baldanders.info/spiegel/log2/000794.shtml'>俺達がインターネットだ！</a></p>
+  <p class="description">時代はソーシャル CRM から VRM へ。<a href='https://baldanders.info/blog/000794/'>俺達がインターネットだ！</a></p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-04-26">2015-04-26</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 

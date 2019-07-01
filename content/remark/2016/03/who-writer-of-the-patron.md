@@ -17,7 +17,7 @@ title = "だれがパトロンなのか"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [「読みたい」以外に本を買う理由があるか｜塚本 牧生｜note](https://note.mu/tsukamoto/n/n1688cfdc287a)

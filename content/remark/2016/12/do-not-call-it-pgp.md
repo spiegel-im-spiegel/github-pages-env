@@ -1,27 +1,15 @@
 +++
 title = "PGP ってゆーな！"
-draft = false
 description = "暗号ツールを比較したいのなら，最低でもこの程度は言及していただきたいものである。"
 tags = [
   "cryptography",
   "openpgp",
 ]
 date = "2016-12-23T12:57:28+09:00"
-update = "2017-12-23T18:37:50+09:00"
 
-[author]
-  github = "spiegel-im-spiegel"
-  twitter = "spiegel_2007"
-  flattr = ""
-  name = "Spiegel"
-  license = "by-sa"
-  tumblr = ""
-  linkedin = "spiegelimspiegel"
-  instagram = "spiegel_2007"
-  flickr = "spiegel"
-  facebook = "spiegel.im.spiegel"
-  avatar = "/images/avatar.jpg"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 （Facebook の TL に書いた戯言の再録＋αと補足）
@@ -101,12 +89,12 @@ OpenPGP は PKI (public key infrastructure; 公開鍵基盤) の一種であり�
     - [Op-ed: Why I’m not giving up on PGP | Ars Technica](http://arstechnica.com/information-technology/2016/12/signal-does-not-replace-pgp/)
 
 - [RFC 4880 - OpenPGP Message Format](https://tools.ietf.org/html/rfc4880)
-- [わかる！ OpenPGP 暗号 — Baldanders.info](https://baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
+- [わかる！ OpenPGP 暗号 — Baldanders.info](https://baldanders.info/spiegel/cc-license/)
 - [Lavabit 事件とその余波、そして Forward Secrecy - セキュリティは楽しいかね？ Part 2](http://negi.hatenablog.com/entry/2013/11/05/093606)
     - [OTRでオフレコチャット！ - セキュリティは楽しいかね？ Part 2](http://negi.hatenablog.com/entry/2013/11/09/103401)
-- [メッセージングは E2E 暗号化および PFS が肝 — Baldanders.info](https://baldanders.info/spiegel/log2/000675.shtml)
-- [CRYPTREC Report 2013 — Baldanders.info](https://baldanders.info/spiegel/log2/000740.shtml)
-- [安全なメッセージング・アプリとは（追記あり） — Baldanders.info](https://baldanders.info/spiegel/log2/000782.shtml)
+- [メッセージングは E2E 暗号化および PFS が肝 — Baldanders.info](https://baldanders.info/blog/000675/)
+- [CRYPTREC Report 2013 — Baldanders.info](https://baldanders.info/blog/000740/)
+- [安全なメッセージング・アプリとは（追記あり） — Baldanders.info](https://baldanders.info/blog/000782/)
 
 - [OpenPGP の実装](/openpgp/)
 

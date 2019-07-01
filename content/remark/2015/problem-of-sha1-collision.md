@@ -6,18 +6,9 @@ draft = false
 tags = ["security", "cryptography", "hash", "sha-1", "collision", "risk"]
 title = "SHA-1 衝突問題： 廃止の前倒し"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 SHA-1 の廃止プロセスが前倒しになるかもしれない。
@@ -171,12 +162,12 @@ GPU ベースのシステムやクラウド・サービス等による巨大計�
 
 ## 関連記事
 
-- [ハッシュ値の衝突問題 -- 戯れ言++](https://baldanders.info/spiegel/remark/archives/000048.shtml)
-- [暗号の危殆化と新しいアルゴリズム -- 戯れ言++](https://baldanders.info/spiegel/remark/archives/000204.shtml)
-- [「安全な鍵長の下限」とは -- 戯れ言++](https://baldanders.info/spiegel/remark/archives/000210.shtml)
-- ["NIST's Plan for New Cryptographic Hash Functions" — Baldanders.info](https://baldanders.info/spiegel/log2/000267.shtml)
-- [『暗号をめぐる最近の話題』 — Baldanders.info](https://baldanders.info/spiegel/log2/000586.shtml)
-- [SHA-3 が正式リリース： あれから10年も... — Baldanders.info](https://baldanders.info/spiegel/log2/000865.shtml)
+- [ハッシュ値の衝突問題 -- 戯れ言++](https://baldanders.info/blog/000048/)
+- [暗号の危殆化と新しいアルゴリズム -- 戯れ言++](https://baldanders.info/blog/000204/)
+- [「安全な鍵長の下限」とは -- 戯れ言++](https://baldanders.info/blog/000210/)
+- ["NIST's Plan for New Cryptographic Hash Functions" — Baldanders.info](https://baldanders.info/blog/000267/)
+- [『暗号をめぐる最近の話題』 — Baldanders.info](https://baldanders.info/blog/000586/)
+- [SHA-3 が正式リリース： あれから10年も... — Baldanders.info](https://baldanders.info/blog/000865/)
 - [自堕落な技術者の日記 : 「RFC 7525 TLSとDTLSの安全な利用に関する推奨事項」の公開 - livedoor Blog（ブログ）](http://blog.livedoor.jp/k_urushima/archives/1768181.html)
 - [「Y!mobileケータイ」で一部サイトへ接続不能に--サーバ証明書の切り替えで - CNET Japan](http://japan.cnet.com/news/service/35067422/)
 - [scryptがGPUに破られる時 | びりあるの研究ノート](https://blog.visvirial.com/articles/519) : GPU 耐性が高いと言われる scrypt も実時間で攻略できるようになってきたという話

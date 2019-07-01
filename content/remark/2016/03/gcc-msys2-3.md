@@ -6,19 +6,9 @@ draft = false
 tags = ["msys2", "mingw", "gcc", "tools", "windows", "pgpdump"]
 title = "MSYS2 による gcc 開発環境の構築 ― pgpdump をビルドする"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 1. [MSYS2 のインストールから初期化処理まで]({{< ref "/remark/2016/03/gcc-msys2-1.md" >}})
@@ -428,7 +418,7 @@ Old: Signature Packet(tag 2)(577 bytes)
 ```
 
 うむ，問題ないようだな。
-ちなみに Windows バイナリは[うちのサイトでも公開](https://baldanders.info/spiegel/archive/pgpdump/)しているのでご自由にどうぞ。
+ちなみに Windows バイナリは[うちのサイトでも公開](https://baldanders.info/spiegel/pgpdump/)しているのでご自由にどうぞ。
 
 [MSYS2]: http://msys2.github.io/ "MSYS2 installer"
 [前回]: {{< ref "/remark/2016/03/gcc-msys2-2.md" >}} "MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の導入"

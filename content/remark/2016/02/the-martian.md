@@ -1,23 +1,12 @@
 +++
 date = "2016-02-20T13:17:20+09:00"
 description = "いやぁ。 誰だって「オデッセイ」なんてセンス皆無なタイトルの映画なんか見ようと思わないよね。しかも前宣伝があまりに酷くて完全にスルーしていた私を誰が責められよう（笑）"
-draft = false
 tags = ["movie", "astronomy", "mars"]
 title = "映画『火星の人』を観た"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 最初に。
@@ -50,7 +39,7 @@ title = "映画『火星の人』を観た"
 あと Facebook で天文研時代の先輩が絶賛しておられたので，[個人番号カードをもらった]({{< ref "/remark/2016/02/my-number-card.md" >}})ついでに観に行くことにした。
 
 広島市内で『火星の人』（敢えてそう言うが）を上映しているところはいくつかあったが，「[八丁座]」でもやっていたのは僥倖であった。
-[八丁座]は以前も[大絶賛](https://baldanders.info/spiegel/log2/000833.shtml)したサロンシネマ系列の箱で，名前の通り広島市の中心街にある。
+[八丁座]は以前も[大絶賛](https://baldanders.info/blog/000833/)したサロンシネマ系列の箱で，名前の通り広島市の中心街にある。
 ここではコーラやポップコーンといったジャンクフードは売っていない。
 オススメは自家製レモネードだ。
 座席も足元もゆったりしているので多少のデブでも大丈夫（関取クラスの人は分からないがw）。

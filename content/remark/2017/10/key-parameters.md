@@ -1,23 +1,8 @@
 +++
 title = "暗号鍵関連の各種変数について"
 date =  "2017-10-17T16:32:03+09:00"
-update = "2018-12-16T14:07:16+09:00"
 description = "この記事は将来の記事で再利用するための snippet 置き場として使うことにする。"
 tags = ["security", "cryptography", "hash", "risk", "management"]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = true
@@ -264,8 +249,8 @@ main table.nist4 td  {
 
 ## ブックマーク
 
-- [CRYPTREC Report 2013 — Baldanders.info](https://baldanders.info/spiegel/log2/000740.shtml)
-- [Prohibiting RC4 — Baldanders.info](https://baldanders.info/spiegel/log2/000810.shtml)
+- [CRYPTREC Report 2013 — Baldanders.info](https://baldanders.info/blog/000740/)
+- [Prohibiting RC4 — Baldanders.info](https://baldanders.info/blog/000810/)
 - [CRYPTREC | SHA-1の安全性について](http://www.cryptrec.go.jp/topics/cryptrec_20151218_sha1_cryptanalysis.html)
     - {{< pdf-file title="CRYPTREC暗号技術ガイドライン(SHA-1)" link="http://www.cryptrec.go.jp/report/c13_tech_guideline_SHA-1_web.pdf" >}}
 - [scryptがGPUに破られる時 | びりあるの研究ノート](https://blog.visvirial.com/articles/519)

@@ -1,23 +1,12 @@
 +++
 date = "2015-11-17T21:52:50+09:00"
-update = "2016-02-18T12:56:03+09:00"
 description = "こういう話は好きなので便乗してみる。"
-draft = false
 tags = ["programming", "language"]
 title = "プログラミング言語との付き合い方"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 - [考えてみると結城はC, Perl, Javaの本は書いたけれど... - 結城浩の連ツイ](http://rentwi.textfile.org/?666213569055166464s)
@@ -77,7 +66,7 @@ title = "プログラミング言語との付き合い方"
 顧客の「言語化されない意図」をいかに聞き取れるかが重要。
 ホンマ「コミュニケーション用言語」なるものがあるなら欲しいよ。
 
-あぁでも，[要求開発](https://baldanders.info/spiegel/log2/000869.shtml)で使う「概念モデリング」は「コミュニケーション用言語」と言えなくもない？
+あぁでも，[要求開発](https://baldanders.info/blog/000869/)で使う「概念モデリング」は「コミュニケーション用言語」と言えなくもない？
 
 ## 言語を巡る愛憎
 

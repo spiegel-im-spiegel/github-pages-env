@@ -18,7 +18,7 @@ pageType = "text"
 20世紀の大昔で言うところの「ホームページ」はもっと前からやってたんだけどね。
 本格的にネットで活動を始めたのが1999年からということで。
 
-元々は [SETI@home] の[グループ運営](https://huaa.baldanders.info/ "Club-HUAA サポートページ")等の余興で日記を始めたのだが，だんだん [SETI@home] 活動から外れていったので，放浪の後に[今のサイト](https://baldanders.info/ "Baldanders.info")に腰を落ち着けたのが[15年前の2004年](https://baldanders.info/spiegel/remark/archives/000005.shtml "Baldanders.info 正式オープン -- 戯れ言++")。
+元々は [SETI@home] の[グループ運営](https://huaa.baldanders.info/ "Club-HUAA サポートページ")等の余興で日記を始めたのだが，だんだん [SETI@home] 活動から外れていったので，放浪の後に[今のサイト](https://baldanders.info/ "Baldanders.info")に腰を落ち着けたのが[15年前の2004年](https://baldanders.info/blog/000005/ "Baldanders.info 正式オープン -- 戯れ言++")。
 それからもチマチマ活動を続けて気がついたら20年も経ってたですよ。
 歳をとるわけだなぁ。
 
@@ -31,8 +31,8 @@ pageType = "text"
 
 ## ブックマーク
 
-- [ひょっとして10周年か！？ — Baldanders.info](https://baldanders.info/spiegel/log2/000428.shtml)
-- [Baldanders.info 10周年だった！ — Baldanders.info](https://baldanders.info/spiegel/log2/000764.shtml)
+- [ひょっとして10周年か！？ — Baldanders.info](https://baldanders.info/blog/000428/)
+- [Baldanders.info 10周年だった！ — Baldanders.info](https://baldanders.info/blog/000764/)
 
 [SETI@home]: https://setiathome.berkeley.edu/
 [Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"

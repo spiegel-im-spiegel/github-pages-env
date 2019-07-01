@@ -4,20 +4,6 @@ date =  "2017-10-08T19:09:28+09:00"
 description = "こういうのはお祭りだからね（笑） 来年2018年は2003年以来と言われる火星大接近の年だ。無事火星まで行って活躍していただきたいものである。"
 tags        = [ "astronomy", "mars" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -53,7 +39,7 @@ tags        = [ "astronomy", "mars" ]
 さっそく登録した。
 これが私の Boarding Pass だよん。
 
-{{< fig-img src="https://baldanders.info/spiegel/profile/BoardingPass_MyNameOnInSight.png" title="Boarding Pass" width="1034" >}}
+{{< fig-img src="https://baldanders.info/profile/BoardingPass_MyNameOnInSight.png" title="Boarding Pass" width="1034" >}}
 
 来年2018年は2003年以来と言われる火星大接近の年だ。
 無事火星まで行って活躍していただきたいものである。

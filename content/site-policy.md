@@ -1,21 +1,8 @@
 +++
 date = "2015-09-05T20:32:00+09:00"
-update = "2018-05-21T19:34:33+09:00"
 description = "text.Baldanders.info の運用方針について説明します。"
 tags = ["site", "policy", "privacy", "copyright", "link"]
 title = "text.Baldanders.info について"
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false
@@ -26,7 +13,7 @@ title = "text.Baldanders.info について"
 
 ## コンテンツの利用について{#rights}
 
-[本サイト]全体のデザインと構成はサイト管理者である[荒川靖弘（Spiegel）](https://baldanders.info/spiegel/profile/)によるものです。
+[本サイト]全体のデザインと構成はサイト管理者である[荒川靖弘（Spiegel）](https://baldanders.info/profile/)によるものです。
 サイト中のコンテンツ（画像や文章など）のうちクレジットが示されているものについては，それぞれの著作（権）者に著作権が帰属します（リンクが張られている場合はリンク元の著作（権）者に著作権が帰属すると考えてください）。
 
 [Creative Commons Licenses] が設定されているコンテンツは指定された条件の範囲内で自由に複製・配布・改変等を行うことが可能です。
@@ -72,7 +59,7 @@ Cookie 等を用いた情報追跡をブロックしても[本サイト]の利�
 管理者の OpenPGP 公開鍵を公開しています。
 管理者との連絡で暗号化等が必要な場合にはこちらをご利用ください。
 
-- [OpenPGP 公開鍵リスト — Baldanders.info](https://baldanders.info/spiegel/pubkeys/)
+- [OpenPGP 公開鍵リスト — Baldanders.info](https://baldanders.info/pubkeys/)
 
 [本サイト]: {{< rlnk "/" >}} "text.Baldanders.info"
 [Creative Commons Licenses]: https://creativecommons.org/licenses/

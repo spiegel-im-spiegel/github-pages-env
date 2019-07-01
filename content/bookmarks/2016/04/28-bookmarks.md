@@ -4,20 +4,9 @@ description = "「Apache Struts 2 の脆弱性 (S2-032) に関する注意喚起
 draft = false
 title = "2016-04-28 のブックマーク"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
-
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 - [JVNVU#91176422: NTP daemon (ntpd) に複数の脆弱性](http://jvn.jp/vu/JVNVU91176422/)

@@ -1,24 +1,12 @@
 +++
 date = "2016-05-04T23:28:56+09:00"
-update = "2016-05-06T22:26:53+09:00"
 description = "“Satoshi Nakamoto” の OpenPGP 鍵について。"
-draft = false
 tags = ["cryptography", "openpgp", "certification"]
 title = "Satoshi Nakamoto の OpenPGP 鍵"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 色々話題になっているようで。
@@ -225,7 +213,7 @@ Old: Signature Packet(tag 2)(421 bytes)
 
 ## 参考ページ
 
-- [わかる！ OpenPGP 暗号 — Baldanders.info](https://baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
+- [わかる！ OpenPGP 暗号 — Baldanders.info](https://baldanders.info/spiegel/cc-license/)
 - [Craig Wright、「証拠は公表したくない」―オーストラリア人起業家、Bitcoinを発明したとの主張から後退 | TechCrunch Japan](http://jp.techcrunch.com/2016/05/06/20160505craig-wright-backs-out-and-wont-prove-that-he-is-bitcoin-creator-satoshi-nakamoto/) : この話はどうやら収束したらしい。やれやれ
 
 [`pgpdump`]: (http://www.mew.org/~kazu/proj/pgpdump/

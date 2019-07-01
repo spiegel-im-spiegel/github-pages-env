@@ -18,7 +18,7 @@ title = "週末スペシャル： LIGO が重力波の「直接検出」に成�
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 1. [LIGO が重力波の「直接検出」に成功する！]({{< relref "#ligo" >}})

@@ -17,7 +17,7 @@ title = "今日の戯れ言：ロボット法学会"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 1. [「ロボット法学会」設立準備研究会]({{< relref "#law" >}})

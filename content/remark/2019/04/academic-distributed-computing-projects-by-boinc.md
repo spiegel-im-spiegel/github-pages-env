@@ -49,7 +49,7 @@ $ sudo apt install boinc-client boinc-manager
 
 私としては [SETI@home](https://setiathome.berkeley.edu/) を通じて学んだ
 
-「[**計算機・ネットワークは有益な目的に使おう**](https://baldanders.info/spiegel/log2/000581.shtml)」
+「[**計算機・ネットワークは有益な目的に使おう**](https://baldanders.info/blog/000581/)」
 
 という教えを胸に刻みつつ，今後も活動を継続していく所存である。
 

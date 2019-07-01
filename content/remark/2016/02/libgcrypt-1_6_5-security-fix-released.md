@@ -18,7 +18,7 @@ title = "Libgcrypt 1.6.5 with security fix released"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 [Libgcrypt] の 1.6.5 がリリースされた。

@@ -6,20 +6,6 @@ description = "検閲や注目の搾取がもたらす「情報の非対称性�
 image = "/images/attention/kitten.jpg"
 tags = [ "code", "internet", "censorship", "grigori" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -94,7 +80,7 @@ Eli Pariser 氏による “THE FILTER BUBBLE” については私も（随分�
 - [フェイクニュースの需要と供給 | mhatta's mumbo jumbo](http://www.mhatta.org/wp/blog/2018/03/08/supply-and-demand-of-fakenews/)
     - [民主主義のその先へ（1） | mhatta's mumbo jumbo](http://www.mhatta.org/wp/blog/2018/03/15/beyond-democracy-1/)
 
-- [監視をコントロールする — Baldanders.info](https://baldanders.info/spiegel/log2/000490.shtml)
+- [監視をコントロールする — Baldanders.info](https://baldanders.info/blog/000490/)
 
 [GDPR]: https://en.wikipedia.org/wiki/General_Data_Protection_Regulation "General Data Protection Regulation - Wikipedia"
 

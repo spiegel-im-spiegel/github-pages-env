@@ -5,23 +5,11 @@ tags = [
   "code",
   "internet",
 ]
-draft = false
 date = "2016-12-02T20:58:38+09:00"
-update = "2016-12-06T12:40:01+09:00"
 
-[author]
-  instagram = "spiegel_2007"
-  name = "Spiegel"
-  tumblr = ""
-  github = "spiegel-im-spiegel"
-  url = "https://baldanders.info/spiegel/profile/"
-  license = "by-sa"
-  flickr = "spiegel"
-  linkedin = "spiegelimspiegel"
-  flattr = ""
-  twitter = "spiegel_2007"
-  facebook = "spiegel.im.spiegel"
-  avatar = "/images/avatar.jpg"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 - [ネットにしか居場所がないということ（前編） - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2016/11/57893/)
@@ -40,9 +28,9 @@ update = "2016-12-06T12:40:01+09:00"
 私は親から「冷血漢」の称号をいただくほどの薄情な人間だが，それでも近しい人や親しい人が亡くなれば人並みにヘコむのですよ。
 
 - [見送ってきました](https://baldanders.info/spiegel/log/200310.html#d20_t1 "[鏡] しっぽのさきっちょ 2003年10月 -- Spiegel's Trunk")
-    - [「クリエイティブ・コモンズ」は誰のもの？/やたらと長いあとがき](https://baldanders.info/spiegel/docs/cc-report_s2.html)
-- [近しい人の死を縁にして — Baldanders.info](https://baldanders.info/spiegel/log2/000543.shtml)
-- [じゃあね。 — Baldanders.info](https://baldanders.info/spiegel/log2/000867.shtml)
+    - [「クリエイティブ・コモンズ」は誰のもの？/やたらと長いあとがき](https://baldanders.info/spiegel/archive/docs/cc-report_s2.html)
+- [近しい人の死を縁にして — Baldanders.info](https://baldanders.info/blog/000543/)
+- [じゃあね。 — Baldanders.info](https://baldanders.info/blog/000867/)
 
 こうして親しい人たちが亡くなるという事実は「いずれ私の番になる」ことを強く思い起こさせる。
 それは事故死や病死かもしれないし「もう死ぬしかない」ところまで追いつめられてるかもしれない。

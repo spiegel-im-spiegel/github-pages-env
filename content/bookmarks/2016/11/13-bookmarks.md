@@ -7,7 +7,7 @@ title = "2016-11-13 のブックマーク"
 [author]
   facebook = "spiegel.im.spiegel"
   linkedin = "spiegelimspiegel"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
   avatar = "/images/avatar.jpg"
   tumblr = ""
   instagram = "spiegel_2007"

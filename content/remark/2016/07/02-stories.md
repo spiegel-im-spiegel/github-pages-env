@@ -18,7 +18,7 @@ title = "週末スペシャル： 「パスワードの定期変更はすべき�
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 最近「週末スペシャル」しか記事がないのはマジで忙しいからです。

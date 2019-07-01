@@ -4,19 +4,9 @@ description = "「Apache Struts2 の脆弱性対策について(CVE-2016-3081)(S
 draft = false
 title = "2016-04-27 のブックマーク"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 - [岩瀬昇のエネルギーブログ 169．「イスラム国」石油将軍の興亡｜岩瀬昇のエネルギーブログ](http://ameblo.jp/nobbypapa/entry-12154428325.html)

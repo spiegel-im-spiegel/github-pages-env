@@ -14,7 +14,7 @@ update = "2018-11-13T10:00:52+09:00"
 
 [author]
   instagram = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
   facebook = "spiegel.im.spiegel"
   flattr = ""
   flickr = "spiegel"

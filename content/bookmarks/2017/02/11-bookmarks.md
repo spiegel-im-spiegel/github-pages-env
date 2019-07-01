@@ -5,7 +5,7 @@ draft = false
 description = "「けものフレンズ語録から出来たプログラミング言語「Kemono」の使い方」他"
 
 [author]
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
   license = "by-sa"
   name = "Spiegel"
   facebook = "spiegel.im.spiegel"

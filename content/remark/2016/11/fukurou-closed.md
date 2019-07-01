@@ -9,19 +9,9 @@ tags = [
 ]
 draft = false
 
-[author]
-  twitter = "spiegel_2007"
-  avatar = "/images/avatar.jpg"
-  instagram = "spiegel_2007"
-  facebook = "spiegel.im.spiegel"
-  linkedin = "spiegelimspiegel"
-  flattr = ""
-  license = "by-sa"
-  github = "spiegel-im-spiegel"
-  tumblr = ""
-  flickr = "spiegel"
-  name = "Spiegel"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 丸2年お世話になったお好み焼き屋の「ふくろう」がよんどころない事情で閉店になった。
@@ -35,7 +25,7 @@ draft = false
 
 お好み焼き屋と言いながらあんまりお好み焼きは食べなかったり（めっさ美味いんだけどね。全粒粉のソバがねぇ）。
 いや，大将の創作料理（？）が美味しくって。
-[「野菜三昧」イベント](https://baldanders.info/spiegel/log2/000836.shtml "ふくろう「野菜三昧」イベント — Baldanders.info")とか，幻の塩ラーメンとか，広島バーガーとか，芋煮会とか，たこ焼きのデスソース添えとか... （笑）
+[「野菜三昧」イベント](https://baldanders.info/blog/000836/ "ふくろう「野菜三昧」イベント — Baldanders.info")とか，幻の塩ラーメンとか，広島バーガーとか，芋煮会とか，たこ焼きのデスソース添えとか... （笑）
 
 今回は「1ポンドステーキ」をいただいた。
 
@@ -50,9 +40,9 @@ draft = false
 
 ## ブックマーク
 
-- [The お好み焼 ふくろう — Baldanders.info](https://baldanders.info/spiegel/log2/000760.shtml)
-- [いいにく（11.29）の日，他 — Baldanders.info](https://baldanders.info/spiegel/log2/000775.shtml)
-- [ふくろう「野菜三昧」イベント — Baldanders.info](https://baldanders.info/spiegel/log2/000836.shtml)
+- [The お好み焼 ふくろう — Baldanders.info](https://baldanders.info/blog/000760/)
+- [いいにく（11.29）の日，他 — Baldanders.info](https://baldanders.info/blog/000775/)
+- [ふくろう「野菜三昧」イベント — Baldanders.info](https://baldanders.info/blog/000836/)
 - [巨大パエリアパンと大将の魂を受け継ぎました - 電気ウナギ的○○](http://blog.netandfield.com/shar/2016/11/post-2715.html)
 
 ## 参考図書

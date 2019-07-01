@@ -34,7 +34,7 @@ pageType = "text"
 
 ## ブックマーク
 
-- [『思春期ポストモダン』を読む — Baldanders.info](https://baldanders.info/spiegel/log2/000362.shtml)
+- [『思春期ポストモダン』を読む — Baldanders.info](https://baldanders.info/blog/000362/)
 - [『AI vs. 教科書が読めない子どもたち』を読む]({{< ref "/remark/2018/02/artificial-intelligence-book.md" >}})
 
 ## 参考図書

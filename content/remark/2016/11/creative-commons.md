@@ -1,23 +1,12 @@
 +++
 date = "2016-11-23T12:48:40+09:00"
 description = "日本の「クリエイティブ・コモンズ・ジャパン」や「出版業界」はどこへ行きたいのだろう。独占か？ それとも囲い込みか？ 「現状維持」は停滞ではなく退行だよ。それをこの十数年の間に音楽出版も書籍出版も他の知財分野も思い知ったんじゃないの？"
-draft = false
 tags = ["creative-commons", "copyright", "license", "code", "free-culture"]
 title = "「2004年」に留まり続ける日本の Creative Commons"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 Facebook の TL で見かけたので早速見てみたのだが...
@@ -59,7 +48,7 @@ Facebook の TL で見かけたので早速見てみたのだが...
 ## ブックマーク
 
 - [改訂3版： CC Licenses について](/cc-licenses/)
-- [Free Culture Licenses — Baldanders.info](https://baldanders.info/spiegel/log2/000796.shtml)
+- [Free Culture Licenses — Baldanders.info](https://baldanders.info/blog/000796/)
 - [Understanding Free Cultural Works - Creative Commons](https://creativecommons.org/share-your-work/public-domain/freeworks/)
 - [3Dプリンティングと著作権を考える - 達人出版会](http://tatsu-zine.com/books/copyright-3dprinting)
     - [How should we attribute 3D printed objects? - Creative Commons](https://creativecommons.org/2016/04/19/attribute-3d-printed-objects/) （[日本語訳](https://creativecommons.jp/2016/07/26/3d%E3%83%97%E3%83%AA%E3%83%B3%E3%83%88%E3%81%A7%E3%81%A7%E3%81%8D%E3%81%9F%E7%89%A9%E3%81%AB%E3%81%AF%E3%81%A9%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E8%A1%A8/ "3Dプリントでできた物にはどのようなライセンス表示をすべきか？ | クリエイティブ・コモンズ・ジャパン")）

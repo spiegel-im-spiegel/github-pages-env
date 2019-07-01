@@ -17,7 +17,7 @@ title = "リスク認知とトレードオフ"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 繰り返し語られていることではあるけれど。

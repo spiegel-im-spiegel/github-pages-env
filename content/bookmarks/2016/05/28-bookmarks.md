@@ -16,7 +16,7 @@ title = "2016-05-28 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [もうBabelじゃない - Bubleだ。 - Qiita](http://qiita.com/aggre/items/6f5d5d710a9e53bc77e8)

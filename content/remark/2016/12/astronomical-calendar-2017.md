@@ -11,7 +11,7 @@ date = "2016-12-24T14:01:57+09:00"
 update = "2018-12-12T15:48:49+09:00"
 
 [author]
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
   license = "by-sa"
   tumblr = ""
   github = "spiegel-im-spiegel"

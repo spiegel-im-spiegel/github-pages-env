@@ -4,19 +4,9 @@ description = "「「OpenSSL」に6件の脆弱性、修正を施した最新版
 draft = false
 title = "2016-05-06 のブックマーク"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 - [「OpenSSL」に6件の脆弱性、修正を施した最新版v1.0.2h/v1.0.1tが公開 - 窓の杜](http://www.forest.impress.co.jp/docs/news/20160506_756180.html)

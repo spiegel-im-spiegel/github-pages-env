@@ -5,18 +5,9 @@ draft = false
 tags = ["security", "cryptography", "openpgp", "rfc"]
 title = "OpenPGP: First RFC4880bis Draft"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 おおっ！ 次期 OpenPGP の最初のドラフトが登場している。
@@ -36,15 +27,15 @@ $ git clone git://git.gnupg.org/people/wk/rfc4880bis.git
 
 - [git.gnupg.org Git - people/wk/rfc4880bis.git/summary](http://git.gnupg.org/cgi-bin/gitweb.cgi?p=people/wk/rfc4880bis.git)
 
-現行の [RFC 4880](https://tools.ietf.org/html/rfc4880) が[2007年にリリース](https://baldanders.info/spiegel/log2/000356.shtml)され，その後に追加された日本国産の Camellia 暗号（[RFC 5581](https://tools.ietf.org/html/rfc5581)）や ECC（Elliptic Curve Cryptography; [RFC 6637](https://tools.ietf.org/html/rfc6637)）が今回ひとつに統合される。
-以前 [SHA-3 が OpenPGP に組み込まれるかも](https://baldanders.info/spiegel/log2/000866.shtml)，という話があったが，今のところドラフト版には記述がない感じ。
+現行の [RFC 4880](https://tools.ietf.org/html/rfc4880) が[2007年にリリース](https://baldanders.info/blog/000356/)され，その後に追加された日本国産の Camellia 暗号（[RFC 5581](https://tools.ietf.org/html/rfc5581)）や ECC（Elliptic Curve Cryptography; [RFC 6637](https://tools.ietf.org/html/rfc6637)）が今回ひとつに統合される。
+以前 [SHA-3 が OpenPGP に組み込まれるかも](https://baldanders.info/blog/000866/)，という話があったが，今のところドラフト版には記述がない感じ。
 Fingerprint を SHA-2 ベースにするとかいう議論もあったような気がするが，これもないか？
 
 まぁ週末にでもゆっくり読むか。
 
 ## 参考ページ
 
-- [わかる！ OpenPGP 暗号 — Baldanders.info](https://baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
+- [わかる！ OpenPGP 暗号 — Baldanders.info](https://baldanders.info/spiegel/cc-license/)
 
 ## 参考図書
 

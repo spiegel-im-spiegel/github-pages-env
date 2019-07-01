@@ -16,7 +16,7 @@ title = "2016-05-17 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [整数の公式でフィボナッチ数列を求める | プログラミング | POSTD](http://postd.cc/fibonacci/)

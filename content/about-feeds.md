@@ -5,18 +5,6 @@ title = "更新情報について"
 tags = ["site", "feed"]
 description = "text.Baldanders.info ではサイトの更新情報を提供しています。"
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false

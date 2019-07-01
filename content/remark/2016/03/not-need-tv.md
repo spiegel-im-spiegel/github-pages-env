@@ -17,7 +17,7 @@ title = "「テレビは既に生活の中心ではない」"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [4K放送での録画禁止発言でCCCDの「失敗」を思い出す - 空気を読まない中杜カズサ](http://nakamorikzs.net/entry/2016/03/20/061040)

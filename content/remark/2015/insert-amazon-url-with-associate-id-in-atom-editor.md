@@ -16,7 +16,7 @@ title = "ATOM Editor で Amazon Associate ID を含んだ商品 URL を生成す
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 昔，結城浩さんが Amazon の商品 URL を変換する秀丸マクロを公開されていて

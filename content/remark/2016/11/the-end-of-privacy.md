@@ -1,7 +1,6 @@
 +++
 description = "キーワードは「公開されたプライバシー」である。つまり，公開された私的情報であってもプライバシー権は失われることはなく，そのコントロールは情報へのアクセス性にある，という考え方だ。"
 date = "2016-11-05T11:46:10+09:00"
-update = "2017-10-15T09:23:00+09:00"
 title = "「ネットが蝕むプライバシー」を読む（再掲載）"
 tags = [
   "internet",
@@ -9,24 +8,13 @@ tags = [
   "book",
   "grigori",
 ]
-draft = false
 
-[author]
-  facebook = "spiegel.im.spiegel"
-  linkedin = "spiegelimspiegel"
-  avatar = "/images/avatar.jpg"
-  license = "by"
-  instagram = "spiegel_2007"
-  github = "spiegel-im-spiegel"
-  twitter = "spiegel_2007"
-  flickr = "spiegel"
-  flattr = ""
-  tumblr = ""
-  name = "Spiegel"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
-この記事は[本家サイト](https://baldanders.info/ "Baldanders.info")で2008年に公開した「[「ネットが蝕むプライバシー」を読む](https://baldanders.info/spiegel/log2/000415.shtml)」を加筆・修正して再掲載したものです。
+この記事は[本家サイト](https://baldanders.info/ "Baldanders.info")で2008年に公開した「[「ネットが蝕むプライバシー」を読む](https://baldanders.info/blog/000415/)」を加筆・修正して再掲載したものです。
 なお，本文中で紹介している記事「[プライバシーに無分別な若者]」は今年出た[別冊日経サイエンス『サイバーセキュリティ』](http://www.nikkei-science.com/page/sci_book/bessatu/51212.html)に「プライバシーの終焉？」と原題に近いタイトルで再録されています。
 興味のある方は是非どうぞ。
 
@@ -70,7 +58,7 @@ draft = false
 日本は私的領域と公的領域の区別が曖昧なことが多く日常生活が（たとえそれが公道であっても）生活道路にまで漏れ出てしまう（日本以外はどうかというのは[高木浩光さんがまとめておられる](http://takagi-hiromitsu.jp/diary/20081026.html#p01 "高木浩光＠自宅の日記 - 住宅ストリートビューの国際比較 アメリカ・フランス・日本, 修正（27日）")）。
 これを「公開されたプライバシー」の問題として捉えるのなら前言は撤回しなければならない。
 
-[^2]: 「[Street View のアレ](https://baldanders.info/spiegel/log2/000404.shtml)」および「[Street View のアレ 2](https://baldanders.info/spiegel/log2/000406.shtml)」。そういえば当時 GSV を使った窃盗団がどうとかほざいていた人がいたが，あの人は今（笑）
+[^2]: 「[Street View のアレ](https://baldanders.info/blog/000404/)」および「[Street View のアレ 2](https://baldanders.info/blog/000406/)」。そういえば当時 GSV を使った窃盗団がどうとかほざいていた人がいたが，あの人は今（笑）
 
 あと，ちょっとぎょっとなったのが特集記事のあとの茂木健一郎さんと木村忠正さんの対談記事（茂木健一郎さんのこの連載記事自体はあまり面白くないんだけどね）。
 この部分も少し引用してみる。

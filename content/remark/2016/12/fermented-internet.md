@@ -6,24 +6,12 @@ tags = [
   "creative-commons",
   "generativity",
 ]
-draft = false
 date = "2016-12-16T21:14:37+09:00"
-update = "2018-01-26T17:36:37+09:00"
 title = "「インターネットと発酵」"
 
-[author]
-  linkedin = "spiegelimspiegel"
-  flattr = ""
-  facebook = "spiegel.im.spiegel"
-  url = "https://baldanders.info/spiegel/profile/"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  github = "spiegel-im-spiegel"
-  tumblr = ""
-  flickr = "spiegel"
-  name = "Spiegel"
-  avatar = "/images/avatar.jpg"
-  twitter = "spiegel_2007"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 ドミニク・チェン（Dominick Chen）さんへのインタビュー記事が面白い（[note](https://note.mu/ "note ――つくる、つながる、とどける。") も良質な記事を吐き出すようになったねぇ）。
@@ -57,16 +45,16 @@ title = "「インターネットと発酵」"
 
 [対談記事](https://note.mu/1000yalab/n/n1f63c339aeb8)でもうひとつ思い出したのは東浩紀さんの『ゲーム的リアリズムの誕生』だ。
 
-- [『ゲーム的リアリズムの誕生』を読む — Baldanders.info](https://baldanders.info/spiegel/log2/000306.shtml)
+- [『ゲーム的リアリズムの誕生』を読む — Baldanders.info](https://baldanders.info/blog/000306/)
 
 私自身はもう彼の文章を全く参照しないし，現時点では『ゲーム的リアリズムの誕生』を推すこともないのだが，当時の私にとっては頭の整理にちょうどよい本だった。
 これも当時の私の戯れ言から少し引いてみよう。
 
-{{< fig-quote title="『ゲーム的リアリズムの誕生』を読む" link="https://baldanders.info/spiegel/log2/000306.shtml" >}}
+{{< fig-quote title="『ゲーム的リアリズムの誕生』を読む" link="https://baldanders.info/blog/000306/" >}}
 <q>「コンテンツ志向メディア」の「物語」はコンテンツとして取引の対象にできる。つまり「コンテンツ志向メディア」ってのは私がよく書く「コンテナ」を指すものであり，また市場を指すものでもある。一方，「コミュニケーション志向メディア」の「物語」は取引の対象にできない。なぜならそれは「コミュニケーション」の構成員の間で共有されることによってのみ存続し得るからだ。すなわち「コミュニケーション志向メディア」とはコミュニティ（あるいはコミュニティの間にあるなにか。コモンズ？）を指すものだと言えないだろうか。</q>
 {{< /fig-quote >}}
 
-{{< fig-quote title="『ゲーム的リアリズムの誕生』を読む" link="https://baldanders.info/spiegel/log2/000306.shtml" >}}
+{{< fig-quote title="『ゲーム的リアリズムの誕生』を読む" link="https://baldanders.info/blog/000306/" >}}
 <q>一度「コンテンツ志向メディア」に載ったコンテンツは，そのままでは「コミュニケーション志向メディア」に回収できない。「コミュニケーション志向メディア」に回収するには一度ガジェットにまで解体する必要がある。消費者は「授かった物語（＝コンテンツ）」をただ貪り食うのではなく，「活動（Action）」すなわちコミュニケーションの中で解体し無数の「物語」に再構築する。再構築された「物語」は再びコンテンツに実装され消費者に降りてくる。「物語」は2つのメディアを往復する間に破壊と再生を繰り返し多様性を増していく。つまり「物語」自体にリアルがあるのではなく，「物語」の生成サイクルにこそリアルがある。</q>
 {{< /fig-quote >}}
 
@@ -75,7 +63,7 @@ title = "「インターネットと発酵」"
 
 Generativity といえば yomoyomo さんの「情報共有の未来」かな。
 
-- [『情報共有の未来』を読む — Baldanders.info](https://baldanders.info/spiegel/log2/000611.shtml)
+- [『情報共有の未来』を読む — Baldanders.info](https://baldanders.info/blog/000611/)
 
 Generativity は造語なので訳すのが難しいっぽいのだがドミニク・チェンさんは「継承性」と訳されているようだ。
 「継承性」は生物の繁殖と密接な関係がある。
@@ -94,7 +82,7 @@ Generativity は造語なので訳すのが難しいっぽいのだがドミニ�
 量や強度が重要なのであれば互いに ACK (acknowledgement)[^l] を返し合っていればいいのであって，それなら手段にこだわる必要もない。
 
 [^e]: Engagement は本来は量を意味するものじゃないのに，ネットでは量を示す指標として評価される。
-[^l]: Facebook の「いいね」とか Twitter の ♥ とか。（[「好き」の反対は「嫌い」ではなく「無関心」](https://baldanders.info/spiegel/log2/000511.shtml)）
+[^l]: Facebook の「いいね」とか Twitter の ♥ とか。（[「好き」の反対は「嫌い」ではなく「無関心」](https://baldanders.info/blog/000511/)）
 
 今回読んだ[対談記事](https://note.mu/1000yalab/n/n1f63c339aeb8)では出てこなかったが，現在ネットでもっとも「継承性」が高い（もしくは発酵している）のは git/[GitHub](https://github.com/) 周辺だと思う[^q]。
 Git/[GitHub](https://github.com/) が作り出すコミュニティでは「まずコードをアウトプットする」ことが求められる。
@@ -145,6 +133,6 @@ Git/[GitHub](https://github.com/) が作り出すコミュニティでは「ま�
         <i class="far fa-star"></i>
       </abbr></dd>
     </dl>
-    <p class="description">同名ブログの書籍化。感想は<a href="https://baldanders.info/spiegel/log2/000611.shtml">こちら</a>。</p>
+    <p class="description">同名ブログの書籍化。感想は<a href="https://baldanders.info/blog/000611/">こちら</a>。</p>
     <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018-12-31</abbr></p>
 </div>

@@ -17,7 +17,7 @@ title = "内容に関係のない広告で掠りをとるやり方はゼロ年�
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 何故だかよく分からないのだが，私の観測範囲で広告ブロックアプリが話題になっているようなので，便乗して書いておく。

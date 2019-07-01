@@ -1,6 +1,5 @@
 +++
 date = "2016-11-29T22:06:59+09:00"
-update = "2019-01-07T11:40:33+09:00"
 title = "2017年直前の閏秒について"
 description = "年も押し迫ってきたし関連情報も出てき始めているので，あらためて記事を再構成し関連リンクを順次追加していくことにする。"
 tags = [
@@ -8,21 +7,6 @@ tags = [
   "leap-second",
   "engineering",
 ]
-draft = false
-
-[author]
-  github = "spiegel-im-spiegel"
-  tumblr = ""
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  avatar = "/images/avatar.jpg"
-  linkedin = "spiegelimspiegel"
-  instagram = "spiegel_2007"
-  flickr = "spiegel"
-  name = "Spiegel"
-  license = "by-sa"
-  url = "https://baldanders.info/spiegel/profile/"
-  twitter = "spiegel_2007"
 
 [scripts]
   mathjax = true
@@ -159,18 +143,18 @@ UT が観測値である以上「いつ閏秒が発生するか」は長期的�
 
 - [閏秒(うるう秒)とは何か - 国立天文台暦計算室](http://eco.mtk.nao.ac.jp/koyomi/topics/html/topics2013_1.html)
 - {{< pdf-file title="暦象年表の改訂について" link="http://www.nao.ac.jp/contents/about-naoj/reports/report-naoj/11-34-2.pdf" >}}
-- [暦の改訂（DE405 から DE430 へ） — Baldanders.info](https://baldanders.info/spiegel/log2/000840.shtml)
+- [暦の改訂（DE405 から DE430 へ） — Baldanders.info](https://baldanders.info/blog/000840/)
 - [Linux開発者リーナス・トーヴァルズ、来る「うるう秒」を語る｜WIRED.jp](http://wired.jp/2015/06/30/torvalds_leapsecond/) ： 2015年の記事
 - [うるう秒は当分存続らしい]({{< ref "/remark/2015/leap-second.md" >}})
 - [うるう秒で1秒長かった今年の元日｜ニュース/アーカイブ｜準天頂衛星システム（QZSS）公式サイト - 内閣府](http://qzss.go.jp/news/archive/nict_170110.html) : 地球の自転について現在の観測方法を紹介している
 
 昔書いた以下の記事は内容が古くて地球時（terrestrial time; TT）などを含む座標時系への言及がないけど，閏秒に関する歴史的経緯を知るという意味では参考になるかもしれない。
 
-- [時刻系の話： 閏秒ができるまで － 序章 -- 戯れ言++](https://baldanders.info/spiegel/remark/archives/000109.shtml)
-- [時刻系の話： 閏秒ができるまで － 恒星時系と世界時系 -- 戯れ言++](https://baldanders.info/spiegel/remark/archives/000118.shtml)
-- [時刻系の話： 閏秒ができるまで － 暦表時系 -- 戯れ言++](https://baldanders.info/spiegel/remark/archives/000127.shtml)
-- [時刻系の話： 閏秒ができるまで － 原子時系と閏秒 -- 戯れ言++](https://baldanders.info/spiegel/remark/archives/000130.shtml)
-- [時刻系の話： 閏秒ができるまで － 新しい暦計算システムと力学時 -- 戯れ言++](https://baldanders.info/spiegel/remark/archives/000147.shtml)
+- [時刻系の話： 閏秒ができるまで － 序章 -- 戯れ言++](https://baldanders.info/blog/000109/)
+- [時刻系の話： 閏秒ができるまで － 恒星時系と世界時系 -- 戯れ言++](https://baldanders.info/blog/000118/)
+- [時刻系の話： 閏秒ができるまで － 暦表時系 -- 戯れ言++](https://baldanders.info/blog/000127/)
+- [時刻系の話： 閏秒ができるまで － 原子時系と閏秒 -- 戯れ言++](https://baldanders.info/blog/000130/)
+- [時刻系の話： 閏秒ができるまで － 新しい暦計算システムと力学時 -- 戯れ言++](https://baldanders.info/blog/000147/)
 
 [NTP]: https://tools.ietf.org/html/rfc5905 "RFC 5905 - Network Time Protocol Version 4: Protocol and Algorithms Specification"
 

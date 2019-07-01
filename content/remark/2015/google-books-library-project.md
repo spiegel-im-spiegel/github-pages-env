@@ -17,7 +17,7 @@ title = "Google Books の Library Book Scan すら Fair Use と言われたの�
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 ## 事の発端は...

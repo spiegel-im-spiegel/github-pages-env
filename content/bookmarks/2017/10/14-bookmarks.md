@@ -5,7 +5,7 @@ description = "「米当局、「強すぎる通信の暗号化は重大な問�
 
 [author]
 name      = "Spiegel"
-url       = "https://baldanders.info/spiegel/profile/"
+url       = "https://baldanders.info/profile/"
 avatar    = "/images/avatar.jpg"
 license   = "by-sa"
 github    = "spiegel-im-spiegel"

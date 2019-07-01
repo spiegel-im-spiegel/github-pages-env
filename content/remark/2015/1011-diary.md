@@ -6,18 +6,9 @@ draft = false
 tags = ["code", "politics", "tpp", "intellectual-property", "copyright", "creative-commons", "git"]
 title = "今日の戯れ言：TPP 大筋合意"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 1. [TPP 大筋合意]({{< relref "#tpp" >}})
@@ -41,7 +32,7 @@ title = "今日の戯れ言：TPP 大筋合意"
 
 ## 「クリエイティブ・コモンズ・ライセンスについて」改訂版{#cc}
 
-そういうわけでもないのだが，[本家サイト](https://baldanders.info/)の「[クリエイティブ・コモンズ・ライセンスについて](https://baldanders.info/spiegel/archive/cc-license/)」の改訂版を作成中[^a]。
+そういうわけでもないのだが，[本家サイト](https://baldanders.info/)の「[クリエイティブ・コモンズ・ライセンスについて](https://baldanders.info/spiegel/cc-license/)」の改訂版を作成中[^a]。
 
 [^a]: [Hugo] の Section 機能を使うとこういった特集記事を組みやすい。いやぁ，ホンマに [Hugo] にしてよかったよ。
 

@@ -18,7 +18,7 @@ title = "Go 言語と Unicode 正規化"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 今回は少し目先を変えて「Unicode 正規化（normalization）」のお話。

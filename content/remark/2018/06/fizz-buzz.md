@@ -6,20 +6,6 @@ description = "私はこれをセンスの（優劣ではなく）差異と考�
 image = "/images/attention/kitten.jpg"
 tags        = [ "programming", "language" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = true
   mermaidjs = false
@@ -31,7 +17,7 @@ tags        = [ "programming", "language" ]
 
 この手の話はこの時期特有の風物詩みたいなものだ。
 春の季語といってもいいかもしれない（笑）
-似たような話で印象深かったのが[3年前に読んだ](https://baldanders.info/spiegel/log2/000868.shtml "プログラミングは「損得勘定」で考える — Baldanders.info")この記事。
+似たような話で印象深かったのが[3年前に読んだ](https://baldanders.info/blog/000868/ "プログラミングは「損得勘定」で考える — Baldanders.info")この記事。
 
 - [ペアプログラミングして気がついた新人プログラマの成長を阻害する悪習 - Qiita](https://qiita.com/ukiuni@github/items/4a252f47a37e17d99c59)
 

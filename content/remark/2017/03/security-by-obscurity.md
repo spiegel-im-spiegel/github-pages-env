@@ -18,7 +18,7 @@ description = "よく「隠すセキュリティはダメ」と言われるが�
   avatar = "/images/avatar.jpg"
   flattr = ""
   github = "spiegel-im-spiegel"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 例の [Vault 7 絡み]({{< ref "/remark/2017/03/cia-hacking-tools-from-wikileaks.md" >}} "WikiLeaks がリークした CIA ハッキングツール")の話。

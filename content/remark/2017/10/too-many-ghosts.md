@@ -116,7 +116,7 @@ Amazon Drive の “send-to-kindle” フォルダにぶち込めば楽々♪
 すなわち，特定の動物も「（人間ではない）人」とみなして一定の「人権」を付与すべき，という考え方である。
 しかもこの言葉，政治的に効果を上げているのだ。
 
-- [non-human person の「人権」 — Baldanders.info](https://baldanders.info/spiegel/log2/000788.shtml)
+- [non-human person の「人権」 — Baldanders.info](https://baldanders.info/blog/000788/)
 
 実はこれと似たような話で機械（＝人工知能？）も人のように見なすべきという議論がある。
 
@@ -212,7 +212,7 @@ P2P ネットワークは「中央集権的ネットワーク」であるイン�
 - [『シンギュラリティの神話』を読む]({{< ref "/remark/2017/09/the-myth-of-the-singularity.md" >}})
 - [『法のデザイン』を斜め読みした]({{< ref "/remark/2017/05/legal-design-book.md" >}})
 - [孵卵器の中のインターネット]({{< ref "/remark/2017/01/internet-in-the-incubator.md" >}})
-- [“The Shadow Web” — Baldanders.info](https://baldanders.info/spiegel/log2/000599.shtml)
+- [“The Shadow Web” — Baldanders.info](https://baldanders.info/blog/000599/)
 
 
 [グリゴリの捕縛]: http://orion.mt.tama.hosei.ac.jp/hideaki/kenporon.htm "グリゴリの捕縛 あるいは 情報時代の憲法について"
@@ -277,7 +277,7 @@ P2P ネットワークは「中央集権的ネットワーク」であるイン�
     <dd>ASIN: B00DIM6BE6</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
-  <p class="description">時代はソーシャル CRM から VRM へ。<a href='https://baldanders.info/spiegel/log2/000794.shtml'>俺達がインターネットだ！</a></p>
+  <p class="description">時代はソーシャル CRM から VRM へ。<a href='https://baldanders.info/blog/000794/'>俺達がインターネットだ！</a></p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-04-26">2015-04-26</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 

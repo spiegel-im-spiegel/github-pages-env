@@ -17,7 +17,7 @@ title = "第24回参議院議員通常選挙 広島県選挙区候補者"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 あ゛ー。

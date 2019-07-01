@@ -6,20 +6,6 @@ description = "署名パケットに関して，次期 OpenPGP (RFC 4880bis) の
 image = "/images/attention/openpgp.png"
 tags        = [ "openpgp", "gnupg", "cryptography" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -60,7 +46,7 @@ HCPUAP4npfesVUOXy/RbFn65Ci6rgtvrFNeNIfmFjYit/xMEywD/eHflgDJQWY+Y
 -----END PGP SIGNATURE-----
 ```
 
-ちなみに `0x7E20B81C` は[私の鍵](https://baldanders.info/spiegel/pubkeys/ "OpenPGP 公開鍵リスト — Baldanders.info")の鍵 ID である。
+ちなみに `0x7E20B81C` は[私の鍵](https://baldanders.info/pubkeys/ "OpenPGP 公開鍵リスト — Baldanders.info")の鍵 ID である。
 `--clear-sign` コマンドは署名対象のテキストとその電子署名を ASCII armor で出力する。
 これをそのまま [pgpdump] にかけてみよう。
 

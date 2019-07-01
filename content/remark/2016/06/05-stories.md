@@ -6,19 +6,9 @@ draft = false
 tags = ["linux", "ubuntu", "security", "risk", "politics", "e-book", "comic", "google"]
 title = "週末スペシャル： 古いパソコンに Ubuntu を入れようと思ったが..."
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 1. [古いパソコンに Ubuntu を入れようと思ったが...]({{< relref "#ubnt" >}})
@@ -72,7 +62,7 @@ USB メモリを買ってまでやる気はないので，この件はしばら�
 
 ネットワーク・セキュリティは「予防」から（事後の対処を睨んだ）「監視」へと比重が移りつつある。
 理由は簡単で，ネットワークに接続する機器が多すぎて管理しきれなくなっているためである。
-また，昨年の[日本年金機構の例](https://baldanders.info/spiegel/log2/000850.shtml "人を排除するシステムは人に殺される — Baldanders.info")を見れば分かるように，いかにルールや罰則を決めても逸脱はなくならないし人為的なミスは避けようがない。
+また，昨年の[日本年金機構の例](https://baldanders.info/blog/000850/ "人を排除するシステムは人に殺される — Baldanders.info")を見れば分かるように，いかにルールや罰則を決めても逸脱はなくならないし人為的なミスは避けようがない。
 
 企業やそれなりの組織ならセキュリティ対策を「投資」とみなして PDCA サイクルを回すこともできるけど[^b]，一般家庭では無理筋な話である。
 ならばこのガイドライン案のターゲットは企業・組織に向けたもので，全く一般向けではないと考えることもできる[^bb]。

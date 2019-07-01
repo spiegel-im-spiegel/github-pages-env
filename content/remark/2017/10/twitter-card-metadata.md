@@ -1,23 +1,8 @@
 +++
 title = "Twitter Card メタデータに対応した"
 date =  "2017-10-29T16:00:38+09:00"
-update =  "2017-11-17T23:45:12+09:00"
 description = "もう Semantic Web なんか誰も見向きもしなくなってるみたいだし， Web コンテンツを解析する手段は AI 技術を利用したものへシフトしてるようだし，もう（どうでも）いいかな，と。"
 tags        = [ "site", "semantic", "web", "metadata", "twitter", "open-graph" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false
@@ -111,7 +96,7 @@ tags        = [ "site", "semantic", "web", "metadata", "twitter", "open-graph" ]
 
 一応説明しておくと， [OGP] は Facebook が最初に考えた仕様で，元々はネット上のコンテンツと Facebook のアプリを関連付けて制御する仕組みだったのだが
 
-{{< fig-img src="https://baldanders.info/spiegel/archive/rdfa/ogp.svg" title="Open Graph の相関図"  link="https://baldanders.info/spiegel/archive/rdfa/ogp.svg" >}}
+{{< fig-img src="https://baldanders.info/spiegel/rdfa/ogp.svg" title="Open Graph の相関図"  link="https://baldanders.info/spiegel/rdfa/ogp.svg" >}}
 
 RDFa の仕様の一部を借用した大変筋の悪いもので，本来の目的は明後日方向に飛んでいき，現在は `<head>` 要素内にメタデータを記述するための迂遠な手段に堕している[^rdfa1]。
 ただし [OGP] で記述したメタデータを参照するサービスは多いため，今だに SEO 対策として用いられているようだ。
@@ -163,7 +148,7 @@ RDFa の仕様の一部を借用した大変筋の悪いもので，本来の目
 - [ツイートにページ情報を表示する「Twitterカード（Twitter Cards）」を設定してみた | 株式会社グランフェアズ](http://www.granfairs.com/blog/staff/setting-twitter-cards)
 - [【2017年版】Twitterカードとは？使い方と設定方法まとめ](https://saruwakakun.com/html-css/reference/twitter-card)
 
-- [RDFa 入門 — Baldanders.info](https://baldanders.info/spiegel/archive/rdfa/)
+- [RDFa 入門 — Baldanders.info](https://baldanders.info/spiegel/rdfa/)
 - [タイムラインの奴隷 - Spiegel's Branch - Scrapbox](https://scrapbox.io/spiegel-branch/%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%AE%E5%A5%B4%E9%9A%B7)
 
 [Twitter Cards]: https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview "Summary card — Twitter Developers"

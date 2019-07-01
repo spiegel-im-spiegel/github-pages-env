@@ -1,24 +1,12 @@
 +++
 date = "2016-11-20T01:04:36+09:00"
-update = "2018-12-21T19:05:32+09:00"
 description = "「キーワードとパターンで解いている子、読んでいる子が意外にいる」ことに驚いているということが私には驚きだ。そんなの当たり前じゃないか。"
-draft = false
 tags = ["artificial-intelligence", "comprehension"]
 title = "AI の読解力，人の読解力"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 - [AI研究者が問う　ロボットは文章を読めない　では子どもたちは「読めて」いるのか？(湯浅誠) - 個人 - Yahoo!ニュース](http://bylines.news.yahoo.co.jp/yuasamakoto/20161114-00064079/)
@@ -78,7 +66,7 @@ Human readable な言葉と machine readable な言葉は異なっていて当�
 
 ## ブックマーク
 
-- [プログラミングは「損得勘定」で考える — Baldanders.info](https://baldanders.info/spiegel/log2/000868.shtml)
+- [プログラミングは「損得勘定」で考える — Baldanders.info](https://baldanders.info/blog/000868/)
 - [グーグルの翻訳AIが「独自の言語」を生み出したといえる根拠｜WIRED.jp](http://wired.jp/2016/11/24/google-ai-language-create/)
 - [人工知能は「機械同士で会話する」独自の言語を覚え始めている｜WIRED.jp](http://wired.jp/2017/03/30/bots-learn-speak-language/)
 

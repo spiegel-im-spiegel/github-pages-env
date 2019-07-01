@@ -17,7 +17,7 @@ title = "パッケージ外部からの呼び出しを禁止する Internal Pack
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 （初出： [そろそろ真面目に Golang 開発環境について考える — Internal Packages と Vendoring - Qiita](http://qiita.com/spiegel-im-spiegel/items/baa3671c7e1b8a6594a9)）

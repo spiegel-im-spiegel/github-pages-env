@@ -6,23 +6,14 @@ update      = "2017-10-09T22:12:13+09:00"
 tags        = [ "hugo", "install", "helloworld" ]
 draft = false
 
-[author]
-name      = "Spiegel"
-url       = "https://baldanders.info/spiegel/profile/"
-avatar    = "/images/avatar.jpg"
-license   = "by-sa"
-github    = "spiegel-im-spiegel"
-twitter   = "spiegel_2007"
-medium    = "@spiegel"
-instagram = "spiegel_2007"
-facebook  = "spiegel.im.spiegel"
-linkedin  = "spiegelimspiegel"
-flattr    = ""
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 （初出： [ゼロから始める Hugo — インストールから Hello World まで - Qiita](http://qiita.com/spiegel-im-spiegel/items/eac7bf2a3c0fc19afcbf)）
 
-[私の本家サイトのブログ機能を外出しにする作業](https://baldanders.info/spiegel/log2/000870.shtml)を行うにあたり，ツールとしては [Hugo] を使うことにしたのだが，初めて使うツールなので，いろいろ試しながら作業している。
+[私の本家サイトのブログ機能を外出しにする作業](https://baldanders.info/blog/000870/)を行うにあたり，ツールとしては [Hugo] を使うことにしたのだが，初めて使うツールなので，いろいろ試しながら作業している。
 ここではその時のメモを公開する。
 
 ## Hugo のインストール{#install}

@@ -1,24 +1,12 @@
 +++
 date = "2016-02-11T03:59:41+09:00"
-update = "2017-10-17T16:44:55+09:00"
 description = "以前 Qiita に書いた記事を再掲載する。ちなみに元記事は2015年5月に公開している。"
-draft = false
 tags = ["security", "vulnerability", "cryptography", "openssl"]
 title = "TLS における Diffie-Hellman 鍵交換の脆弱性（再掲載）"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 なんか [node.js](https://nodejs.org/) が今さら Logjam 攻撃に対応したとか言ってるので
@@ -105,7 +93,7 @@ main table.nist td  {
 2030年以降も安全に使える暗号強度は $128\,\mathrm{bits}$ 以上だと言われている。
 Logjam 攻撃では $L=512\,\mathrm{bits}$ にダウングレードさせられるが全くお話にならない強度だということが分かるだろう。
 
-暗号について詳しくは拙文「[わかる！ OpenPGP 暗号](https://baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)」の「[暗号に関する雑多な話](https://baldanders.info/spiegel/archive/pgpdump/openpgp.shtml#appendix)」あたりをどうぞ。
+暗号について詳しくは拙文「[わかる！ OpenPGP 暗号](https://baldanders.info/spiegel/cc-license/)」の「[暗号に関する雑多な話](https://baldanders.info/spiegel/cc-license/#appendix)」あたりをどうぞ。
 また [FREAK については Gist にまとめている](https://gist.github.com/spiegel-im-spiegel/47f340122c895ccc8bb8)ので，そちらも参考にどうぞ。
 
 ## 影響度（CVSS）

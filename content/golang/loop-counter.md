@@ -16,7 +16,7 @@ draft = false
   github = "spiegel-im-spiegel"
   avatar = "/images/avatar.jpg"
   instagram = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
   linkedin = "spiegelimspiegel"
   tumblr = ""
 

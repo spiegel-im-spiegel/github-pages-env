@@ -5,22 +5,7 @@ update = "2017-10-09T21:44:27+09:00"
 description = "そうだ。最大公約数（greatest common divisor）の話をしよう。"
 tags        = [ "golang", "function", "programming", "math", "greatest-common-divisor", "recursion" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
-  highlightjs = true
   mathjax = true
   mermaidjs = false
 +++
@@ -335,7 +320,7 @@ You shouldn't use it either.</q>
     <dd>ASIN: B00L0PDMJ0</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
-  <p class="description"><a href='https://baldanders.info/spiegel/log2/000670.shtml'>小中学生にお薦め</a>。小学生高学年くらいならギリで理解可能と思われ。</p>
+  <p class="description"><a href='https://baldanders.info/blog/000670/'>小中学生にお薦め</a>。小学生高学年くらいならギリで理解可能と思われ。</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-09-26">2014-09-26</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 

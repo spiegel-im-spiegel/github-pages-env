@@ -6,19 +6,9 @@ draft = false
 tags = ["windows", "security", "risk", "line", "astronomy", "book", "aozora"]
 title = "週末スペシャル： Microsoft はもはや Windows を維持できない？"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 1月は行きました。
@@ -75,7 +65,7 @@ Windows 10 の他にも Microsoft は .NET Core や Visual Studio Code といっ
 だから私は最初から言ってるじゃない。
 PIN コードは認証には使えないって。
 
-- [セキュリティ劇場の喜劇王： LINE — Baldanders.info](https://baldanders.info/spiegel/log2/000718.shtml)
+- [セキュリティ劇場の喜劇王： LINE — Baldanders.info](https://baldanders.info/blog/000718/)
 
 芸能人のゴシップには全く関心がないのだが（他人のプライベートがそんなに面白いのか），たまには役に立つということなのであろう。
 
@@ -84,7 +74,7 @@ PIN コードは認証には使えないって。
 {{< /fig-quote >}}
 
 まぁ遅まきながらではあるが， LINE が自身の道化っぷりに気づいたのであればよいことである。
-[LINE を捨て](https://baldanders.info/spiegel/log2/000718.shtml)て1年半ほどになるが，ようやくまともな方に揺り戻したと考えていいだろうか。
+[LINE を捨て](https://baldanders.info/blog/000718/)て1年半ほどになるが，ようやくまともな方に揺り戻したと考えていいだろうか。
 
 もっとも1年半ほどの間に LINE がなくて困った事態には全く遭遇しなかったので，今後も導入しないと思うが。
 LINE ってもうメッセージングというより広告アプリだしな（笑）

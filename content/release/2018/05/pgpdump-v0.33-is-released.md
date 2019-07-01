@@ -5,20 +5,6 @@ description = "例によってソースコードのみのリリースだが Wind
 image = "/images/attention/tools.png"
 tags  = [ "openpgp", "tools", "pgpdump" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -38,7 +24,7 @@ v0.33 での変更点を [git のログからさらう]({{< ref "/remark/2018/03
 
 例によってソースコードのみのリリースだが，こちらで Windows 用にコンパイルしたものを置いている。
 
-- [pgpdump (patched version) — Baldanders.info](https://baldanders.info/spiegel/archive/pgpdump/)
+- [pgpdump (patched version) — Baldanders.info](https://baldanders.info/spiegel/pgpdump/)
 
 とりあえず暗号アルゴリズムの名前だけ表示できるようにしたって感じだが，作者の方は既に Haskell の人なので積極的にメンテナンスする気はないんだろうな。
 

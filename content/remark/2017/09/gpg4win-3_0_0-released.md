@@ -1,7 +1,6 @@
 +++
 title = "GnuPG 2.2 に対応した Gpg4win 3.0.0 がリリース"
 date =  "2017-09-22T23:13:02+09:00"
-update =  "2017-11-21T22:51:31+09:00"
 description = "Gpg4win (GNU Privacy Guard for Windows) は GnuPG を含む Windows 用のパッケージ群である。"
 tags = [
   "security",
@@ -12,22 +11,7 @@ tags = [
   "windows",
 ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
-  highlightjs = false
   mathjax = false
   mermaidjs = false
 +++
@@ -70,7 +54,7 @@ tags = [
 
 - [グーグルのメール暗号化Chromeアプリケーション「E2EMail」がオープンソースに - ZDNet Japan](https://japan.zdnet.com/article/35097359/)
 
-- [わかる！ OpenPGP 暗号](https://baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
+- [わかる！ OpenPGP 暗号](https://baldanders.info/spiegel/cc-license/)
 - [GnuPG for Windows ― インストール編]({{< ref "/remark/2016/03/using-gnupg-modern-version-1.md" >}})
 - [GnuPG for Windows ― gpg-agent について]({{< ref "/remark/2016/03/using-gnupg-modern-version-2.md" >}})
 

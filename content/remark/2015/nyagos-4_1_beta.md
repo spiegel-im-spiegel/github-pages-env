@@ -18,7 +18,7 @@ title = "NYAGOS 4.1-beta がリリース"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 ここのところ忙しくしてたら，いつの間にか [NYAGOS] の [4.1-beta](https://github.com/zetamatta/nyagos/releases/tag/4.1-beta) が出てた。

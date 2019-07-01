@@ -16,7 +16,7 @@ description = "ほほう。リストを作って公開できるのか。どう�
   instagram = "spiegel_2007"
   tumblr = ""
   github = "spiegel-im-spiegel"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
   name = "Spiegel"
   linkedin = "spiegelimspiegel"
 +++

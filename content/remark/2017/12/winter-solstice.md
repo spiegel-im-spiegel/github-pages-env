@@ -1,24 +1,9 @@
 +++
 title = "冬至に関する与太話"
 date =  "2017-12-22T15:54:39+09:00"
-update = "2018-12-23T12:13:45+09:00"
 description = "現在の冬至の定義は「太陽が黄道上の黄経 270° の位置を通過する日」である。"
 image = "https://upload.wikimedia.org/wikipedia/commons/b/be/Celestial_sphere%28in_Japanese%29.png"
 tags = ["astronomy", "ephemeris"]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = true
@@ -64,9 +49,9 @@ Facebook の TL に書き散らしたものを再構成してお送りする。
 
 - [旧暦2033年問題について - 国立天文台暦計算室](http://eco.mtk.nao.ac.jp/koyomi/topics/html/topics2014.html)
 
-- [[鏡] Analemma （アナレンマ） -- 戯れ言++](https://baldanders.info/spiegel/remark/archives/000007.shtml)
-- [朔旦冬至と授時 — Baldanders.info](https://baldanders.info/spiegel/log2/000784.shtml)
-- [暦の改訂（DE405 から DE430 へ） — Baldanders.info](https://baldanders.info/spiegel/log2/000840.shtml)
+- [[鏡] Analemma （アナレンマ） -- 戯れ言++](https://baldanders.info/blog/000007/)
+- [朔旦冬至と授時 — Baldanders.info](https://baldanders.info/blog/000784/)
+- [暦の改訂（DE405 から DE430 へ） — Baldanders.info](https://baldanders.info/blog/000840/)
 - [「暦」日本史 （再掲載）]({{< ref "/remark/2015/japanese-koyomi.md" >}})
 - [『猫暦』を読んだ]({{< ref "/remark/2016/05/nekoyomi.md" >}})
 

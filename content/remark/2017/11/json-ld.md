@@ -6,20 +6,6 @@ description = "以前，このサイトを Twitter Cards に対応させたの�
 image = "/images/attention/remark.jpg"
 tags = [ "site", "semantic", "web", "metadata", "json" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -122,7 +108,7 @@ Microdata は未完成のまま開発が終了しており，もはや推奨さ�
     "@type": "Person",
     "@id": "https://text.baldanders.info/#maker",
     "name": "Spiegel",
-    "url": "https://baldanders.info/spiegel/profile/",
+    "url": "https://baldanders.info/profile/",
     "image": "https://text.baldanders.info/images/avatar.jpg"
   },
   "image": "https://text.baldanders.info/images/avatar.jpg",
@@ -176,7 +162,7 @@ Microdata は未完成のまま開発が終了しており，もはや推奨さ�
     "@type": "Person",
     "@id": "https://text.baldanders.info/remark/#maker",
     "name": "Spiegel",
-    "url": "https://baldanders.info/spiegel/profile/",
+    "url": "https://baldanders.info/profile/",
     "image": "https://text.baldanders.info/images/avatar.jpg"
   }
 }
@@ -214,7 +200,7 @@ Microdata は未完成のまま開発が終了しており，もはや推奨さ�
     "@type": "Person",
     "@id": "https://text.baldanders.info/remark/2017/11/qiitadon/#maker",
     "name": "Spiegel",
-    "url": "https://baldanders.info/spiegel/profile/",
+    "url": "https://baldanders.info/profile/",
     "image": "https://text.baldanders.info/images/avatar.jpg"
   },
   "license": "https://creativecommons.org/licenses/by-sa/4.0/"

@@ -4,19 +4,9 @@ description = "「Googleは「モバイルファーストからAIファースト
 draft = false
 title = "2016-05-02 のブックマーク"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 - [Googleは「モバイルファーストからAIファーストへ」。その理由は、いずれデバイスという概念は消え去り、インテリジェントなアシスタントになるから － Publickey](http://www.publickey1.jp/blog/16/googleai.html)

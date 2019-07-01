@@ -16,7 +16,7 @@ title = "2016-09-22 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [Python bindings for GPGME](https://gnupg.org/blog/20160921-python-bindings-for-gpgme.html)

@@ -17,7 +17,7 @@ title = "今日の戯れ言： 人工知能で弁護士は絶滅するか"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 週末に書く予定だった記事。

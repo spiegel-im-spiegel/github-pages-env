@@ -5,20 +5,6 @@ description = "死んだら消失してしまう Web 上のコンテンツを保
 image = "/images/attention/remark.jpg"
 tags        = [ "internet", "code" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -60,7 +46,7 @@ tags        = [ "internet", "code" ]
 サービスに帰属する記憶や記録は，そのサービスのライフサイクルの中でしか生きられないからだ。
 
 たとえば2003年末に，当時の HotWired Japan で「日本の「クリエイティブ・コモンズ」の可能性 ── 創造的な著作物の共有地を広げよう」という特集記事が組まれたんだけど，その記事群は HotWired Japan のサイトごと消失してしまってるのよ（[Internet Archive に痕跡](https://web.archive.org/web/20040615000000*/http://hotwired.goo.ne.jp/matrix/0311/)が残っている）。
-私は当時の編集長さんにお願いして寄稿文の[草稿版を自サイトで公開](https://baldanders.info/spiegel/docs/cc-report.html "「クリエイティブ・コモンズ」は誰のもの？")することを許可してもらっていた[^cc1]。
+私は当時の編集長さんにお願いして寄稿文の[草稿版を自サイトで公開](https://baldanders.info/spiegel/archive/docs/cc-report.html "「クリエイティブ・コモンズ」は誰のもの？")することを許可してもらっていた[^cc1]。
 
 [^cc1]: 寄稿文自体は CC License の by で公開してるんだけどメディアとしての露出タイミングとかもあったので，特集記事の公開後半年以降ならということで快諾を頂いた。ちなみに草稿版のあとがきで件の先輩のことに少し言及している。
 

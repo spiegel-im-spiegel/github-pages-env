@@ -16,7 +16,7 @@ title = "いまさら聞けない Slack の使い方"
   name = "Spiegel"
   flattr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
   linkedin = "spiegelimspiegel"
   flickr = "spiegel"
 +++

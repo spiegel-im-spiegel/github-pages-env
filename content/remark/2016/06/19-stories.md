@@ -1,24 +1,12 @@
 +++
 date = "2016-06-19T19:49:11+09:00"
-update = "2017-06-21T16:13:55+09:00"
 description = "GnuPG 2.1.13 および Libgcrypt 1.7.1 がリリース / 学校で「プログラミング」を学ばせる必要はない / 今週はセキュリティ・アップデート週間でした / Pokémon GO / その他の気になる記事"
-draft = false
 tags = ["security", "cryptography", "tools", "openpgp", "gnupg", "games", "ingress", "pokemon", "programming"]
 title = "週末スペシャル： GnuPG 2.1.13 および Libgcrypt 1.7.1 がリリース"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 1. [GnuPG 2.1.13 および Libgcrypt 1.7.1 がリリース]({{< relref "#gpg" >}})
@@ -112,7 +100,7 @@ Home: ********
 コンピュータオタクには偏執者が多く，彼等は手段や道具そのものに異常な執着を見せるが，一般の人達には関係のないことだし，そんな執着心を真似すべきではない。
 
 コンピュータ科学や社会学・経済学（の基礎となるもの）について小さい頃から学ばせる事自体は賛成だ。
-しかし，何度でも言うが「[掛け算は順序が大事](https://baldanders.info/spiegel/log2/000744.shtml "日本の「算数」は壊れてる？ — Baldanders.info")」などと言ってはばからない未開人の国がどうやってそれらを教えるというのだ。
+しかし，何度でも言うが「[掛け算は順序が大事](https://baldanders.info/blog/000744/ "日本の「算数」は壊れてる？ — Baldanders.info")」などと言ってはばからない未開人の国がどうやってそれらを教えるというのだ。
 
 ちなみに「人工知能」の台頭を意識しているのなら，なおさら「プログラミング教育」は不要である。
 なぜなら「問題を解決する仕事」はこれからどんどん機械が奪っていくから。
@@ -148,7 +136,6 @@ Home: ********
     - [GitHub、不正アクセスを確認--他サービスから流出したパスワードを試行の可能性 - ZDNet Japan](http://japan.zdnet.com/article/35084420/)
 - [JTBへの不正アクセスについてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20160614/1465925330)
     - [JTB、793万人分の個人情報流出か--外部への通信で不正アクセスと判明 - ZDNet Japan](http://japan.zdnet.com/article/35084254/)
-
 
 “[Have I been pwned?](https://haveibeenpwned.com/ "Have I been pwned? Check if your email has been compromised in a data breach")” のサイトには過去漏洩したアカウント情報のデータベースがあり，自分のアカウントが漏洩しているかどうか調べれることができる。
 ご利用の際は自己責任でどうぞ。
@@ -203,7 +190,7 @@ Home: ********
 
 12文字を目安に数字と英字（大文字小文字）を絡めたランダムな文字列にする。
 人間の脳は無意識に規則性を求めてしまうものなので，横着せずパスワード生成ツールを使ったほうがよい。
-もっと言うなら「[パスワードを覚えるなんて脳みその無駄遣い](https://baldanders.info/spiegel/log2/000739.shtml "「パスワードを覚える」なんて脳みその無駄遣い — Baldanders.info")」である。
+もっと言うなら「[パスワードを覚えるなんて脳みその無駄遣い](https://baldanders.info/blog/000739/ "「パスワードを覚える」なんて脳みその無駄遣い — Baldanders.info")」である。
 [KeePass](http://keepass.info/ "KeePass Password Safe") のようなパスワード管理ツールを使うこと。
 
 ちなみに [GitHub](https://github.com/) は2要素認証が使えるが，2要素認証を使うと https で git push する際にパスワードが有効でなくなる。

@@ -6,20 +6,6 @@ date = "2016-12-15T21:17:29+09:00"
 update = "2019-01-30T23:12:03+09:00"
 title = "CC Licenses における『技術的保護手段』の扱い"
 
-[author]
-  facebook = "spiegel.im.spiegel"
-  url = "https://baldanders.info/spiegel/profile/"
-  license = "by-sa"
-  flattr = ""
-  tumblr = ""
-  flickr = "spiegel"
-  instagram = "spiegel_2007"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  avatar = "/images/avatar.jpg"
-  twitter = "spiegel_2007"
-  github = "spiegel-im-spiegel"
-  
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -200,8 +186,8 @@ DRM についてはこれからも注視していく必要がある。
 - [「オープンソースDRM」の不可能性について | OSDN Magazine](https://mag.osdn.jp/08/10/26/2237236)
 - [小寺信良：「補償金もDRMも必要ない」――音楽家 平沢進氏の提言 (1/4) - ITmedia LifeStyle](http://www.itmedia.co.jp/lifestyle/articles/0606/12/news005.html)
 - [Problem on anti-circumvention provision in Copyright protection プロテクト破り規制法案の問題点](http://www-vacia.media.is.tohoku.ac.jp/member/o/s-yamane2004/articles/crypto/circumvention.html)
-- [DRM に関する覚え書き — Baldanders.info](https://baldanders.info/spiegel/log2/000295.shtml)
-- [監視をコントロールする — Baldanders.info](https://baldanders.info/spiegel/log2/000490.shtml)
+- [DRM に関する覚え書き — Baldanders.info](https://baldanders.info/blog/000295/)
+- [監視をコントロールする — Baldanders.info](https://baldanders.info/blog/000490/)
 - [『デジタル音楽の行方』から10年経って - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2015/06/32173/)
 - [テイラー効果広がる―プリンスもストリーミング条件に反発してSpotify他から楽曲を引き上げ | TechCrunch Japan](http://jp.techcrunch.com/2015/07/03/20150702prince-wont-stream-4-u/)
 - [YouTubeが著作者をあべこべに判断　音源を無断使用された音楽家の動画が再生できなくなるトラブルが発生 - ねとらぼ](http://nlab.itmedia.co.jp/nl/articles/1609/02/news120.html)

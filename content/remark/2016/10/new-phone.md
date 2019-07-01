@@ -1,24 +1,12 @@
 +++
 date = "2016-10-15T15:20:41+09:00"
-update = "2016-10-16T15:54:04+09:00"
 description = "今回は完全に失敗だった。次に機種変更するときはもう HTC は選ばない。"
-draft = false
 tags = ["k-tai"]
 title = "電話機を交換してもらったのですよ"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 この夏は大変でしたが，少しずつ再起動中です。
@@ -41,7 +29,7 @@ au ショップに持ち込んだら「修理か交換か」と言われたが�
 HTC は今 VR に力を入れているらしいが，ケータイも満足に作れないメーカーが VR とかヘソでお茶が沸いてしまう。
 次に機種変更するときはもう HTC は選ばない。
 
-そうして新しい端末が来たのだが，[前にも書いた](https://baldanders.info/spiegel/log2/000852.shtml "HTC J butterfly HTV31（もしくは最近のスマホ？）がなかなか酷い")とおり，ホンマに面倒くさい。
+そうして新しい端末が来たのだが，[前にも書いた](https://baldanders.info/blog/000852/ "HTC J butterfly HTV31（もしくは最近のスマホ？）がなかなか酷い")とおり，ホンマに面倒くさい。
 どうでもいいアプリは山ほどプリインストールしてくさるのに，なぜ「[Google 認証システム]」が最初から入ってないのだ。
 
 Google Play を開くには Google アカウントが必要で，2要素認証でログインするには「[Google 認証システム]」が必要になる[^iij]。
@@ -98,11 +86,10 @@ Google Play を開くには Google アカウントが必要で，2要素認証�
 
 ## ブックマーク
 
-- [HTC J butterfly HTV31（もしくは最近のスマホ？）がなかなか酷い](https://baldanders.info/spiegel/log2/000852.shtml)
+- [HTC J butterfly HTV31（もしくは最近のスマホ？）がなかなか酷い](https://baldanders.info/blog/000852/)
 
 [Google 認証システム]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2
 [TOTP]: https://tools.ietf.org/html/rfc6238 "RFC 6238 - TOTP: Time-based One-time Password Algorithm"
 [Keepass2Android]: https://play.google.com/store/apps/details?id=keepass2android.keepass2android "Keepass2Android Password Safe"
 [Signal]: https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms "Signal Private Messenger"
 [Messenger]: https://play.google.com/store/apps/details?id=com.facebook.orca "Messenger"
-

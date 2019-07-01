@@ -17,7 +17,7 @@ title = "Shortcodes で HTML コードを埋め込む"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 今回は [Shortcodes] の話。

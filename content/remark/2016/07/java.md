@@ -18,7 +18,7 @@ title = "Java はやめておけ"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [ITエンジニアがこれから重要になると思うプログラミング言語TOP10｜ニフティニュース](https://news.nifty.com/article/item/neta/dime-269849/)

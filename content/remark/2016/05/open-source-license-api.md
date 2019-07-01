@@ -1,23 +1,12 @@
 +++
 date = "2016-05-30T04:14:11+09:00"
 description = "どうやらオープンソース・ライセンスに関する情報（メタデータ）を取り出せる仕組みのようだ。"
-draft = false
 tags = ["license", "tools"]
 title = "Open Source License API ?"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 [yomoyomo さんの記事](http://d.hatena.ne.jp/yomoyomo/20160529/ossapi)から。
@@ -174,7 +163,7 @@ Mozilla Public License, Version 2.0
 {{< /fig-quote >}}
 
 OSI がやることに意味があるということだろうか。
-あるいは [API に著作権があるとされた昨年の判決](https://baldanders.info/spiegel/log2/000861.shtml "Google vs Oracle の訴訟の行方 — Baldanders.info")を受けての防衛措置だったりして。
+あるいは [API に著作権があるとされた昨年の判決](https://baldanders.info/blog/000861/ "Google vs Oracle の訴訟の行方 — Baldanders.info")を受けての防衛措置だったりして。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [SPDX]: https://spdx.org/ "SPDX | Software Package Data Exchange"

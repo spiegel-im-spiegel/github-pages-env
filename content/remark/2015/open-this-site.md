@@ -6,18 +6,9 @@ draft = false
 tags = ["site", "policy", "creative-commons", "license", "hugo", "github"]
 title = "text.Baldanders.info 正式オープン"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 さて[予定]({{< ref "/remark/2015/todo-replace-blog.md" >}})通り，正式オープンしました。
@@ -53,10 +44,10 @@ title = "text.Baldanders.info 正式オープン"
 
 ### ライセンスについて
 
-個々の記事については，原則として， [CC License](https://baldanders.info/spiegel/archive/cc-license/) の [by-sa] を設定することにしました。
+個々の記事については，原則として， [CC License](https://baldanders.info/spiegel/cc-license/) の [by-sa] を設定することにしました。
 ここは本家との違い。
 
-[前にも紹介](https://baldanders.info/spiegel/log2/000796.shtml)しましたが， [Creative Commons] が提供しているライセンスツールのうち， Free Culture License に分類されるもの[^a] が過半数を超え，更にその中では [by-sa] が一番多いようです。
+[前にも紹介](https://baldanders.info/blog/000796/)しましたが， [Creative Commons] が提供しているライセンスツールのうち， Free Culture License に分類されるもの[^a] が過半数を超え，更にその中では [by-sa] が一番多いようです。
 これにはいろんな理由があるんでしょうけど，私は {{< quote lang="en" >}}copyleft{{< /quote >}} がプログラム・コード以外にも浸透しつつあると好意的に解釈しています。
 
 [^a]: [cc0], [by], [by-sa]。

@@ -17,7 +17,7 @@ title = "Template の部品化"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 今回は Template について，もう少しだけ詳しく紹介してみる。
@@ -250,7 +250,7 @@ C:\HUGO-ENV\WWW\THEMES\HUGO-THEME-TEXT
 ```toml
 [params.author]
 name      = "Spiegel"
-url       = "https://baldanders.info/spiegel/profile/"
+url       = "https://baldanders.info/profile/"
 avatar    = "/images/avatar.jpg"
 license   = "by-sa"
 github    = "spiegel-im-spiegel"
@@ -285,7 +285,7 @@ tags = [ "hello", "world" ]
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 ```
 

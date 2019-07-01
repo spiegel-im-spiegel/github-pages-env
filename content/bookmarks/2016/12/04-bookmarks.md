@@ -15,7 +15,7 @@ title = "2016-12-04 のブックマーク"
   twitter = "spiegel_2007"
   tumblr = ""
   linkedin = "spiegelimspiegel"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
   avatar = "/images/avatar.jpg"
 +++
 

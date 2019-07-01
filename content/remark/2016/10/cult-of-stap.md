@@ -8,24 +8,14 @@ tags = [
   "medical",
 ]
 
-[author]
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  name = "Spiegel"
-  avatar = "/images/avatar.jpg"
-  twitter = "spiegel_2007"
-  tumblr = ""
-  instagram = "spiegel_2007"
-  facebook = "spiegel.im.spiegel"
-  url = "https://baldanders.info/spiegel/profile/"
-  flattr = ""
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 ちょっと訳あって昔の自分の記事を掘り返してたら懐かしいものを見つけた。
 
-{{< fig-quote title="紅塵の巷の錬金術師" link="https://baldanders.info/spiegel/log2/000683.shtml" >}}
+{{< fig-quote title="紅塵の巷の錬金術師" link="https://baldanders.info/blog/000683/" >}}
 <q>多分，件の研究者は理研内で失脚後独立して，数年後には（「水が日本語を理解する」とか「ゲームをやると脳がいかれる」とか言ってた人みたいに）「私は波動で万能細胞を作った」とか言って本を出して，小学校の道徳の時間に紹介されるですよ。めでたしめでたし（笑）</q>
 {{< /fig-quote >}}
 
@@ -86,7 +76,7 @@ tags = [
 
 そういや10年近く前に「あるある某」とかいう捏造番組があったな。
 
-{{< fig-quote title="「テレビという共同体」" link="https://baldanders.info/spiegel/log2/000307.shtml" >}}
+{{< fig-quote title="「テレビという共同体」" link="https://baldanders.info/blog/000307/" >}}
 <q>そもそも「メディアリテラシー」なるものが高い人は「あるある...」なんか見ない。それを見るのは（「あるある...」をネタとして楽しんでいる人を除けば）「メディアリテラシー」が低い人なのだ。つまり包含関係が逆。「視聴者が無批判に番組情報を受け入れる」のではなく「無批判に番組情報を受け入れる」タイプの視聴者が「あるある...」のような<a href="https://baldanders.info/spiegel/log/nikki-s/200206.html#2303">説教番組</a>を見るのである。</q>
 {{< /fig-quote >}}
 

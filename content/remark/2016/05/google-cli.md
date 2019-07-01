@@ -17,7 +17,7 @@ title = "コマンドラインからググる"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 面白いツールが公開されている。

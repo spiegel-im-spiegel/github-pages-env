@@ -13,7 +13,7 @@ image = "/images/attention/openpgp.png"
 
 この記事は以下の記事を最新版 [GnuPG] 用に再構成したものです。
 
-- [GnuPG 2.1.0 (modern) for Windows のインストール — Baldanders.info](https://baldanders.info/spiegel/log2/000770.shtml)
+- [GnuPG 2.1.0 (modern) for Windows のインストール — Baldanders.info](https://baldanders.info/blog/000770/)
 
 ECC への対応については以下の Gist ページを参照のこと。
 （これもそのうち再構成してここで公開する予定）

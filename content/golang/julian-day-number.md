@@ -17,7 +17,7 @@ title = "「ユリウス日」で遊ぶ"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 （初出： [はじめての Go 言語 (on Windows) その5 - Qiita](http://qiita.com/spiegel-im-spiegel/items/e743d63ef5165d750eff)）

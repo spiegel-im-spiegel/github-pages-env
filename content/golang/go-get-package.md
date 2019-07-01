@@ -6,19 +6,9 @@ draft = false
 tags = ["golang", "package" ]
 title = "go get コマンドでパッケージを管理する"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
-
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 （初出： [はじめての Go 言語 (on Windows) その3 - Qiita](http://qiita.com/spiegel-im-spiegel/items/a52a47942fd3946bb583)）
@@ -82,7 +72,7 @@ See also: go fix, go vet.
 ```
 
 [Go 言語]は比較的冗長な表現を許容している。
-こういうタイプの言語にはとっつきやすい利点はあるが，記述形式を巡って宗教論争が起きることも多い（あるいは[品質を落とすコーディングというのも存在する](https://baldanders.info/spiegel/remark/archives/000195.shtml)）。
+こういうタイプの言語にはとっつきやすい利点はあるが，記述形式を巡って宗教論争が起きることも多い（あるいは[品質を落とすコーディングというのも存在する](https://baldanders.info/blog/000195/)）。
 そこで `gofmt` コマンドを使ってある程度記述形式を統一することで，この手の混乱を避ける狙いがある。
 
 ## 外部パッケージ{#external}

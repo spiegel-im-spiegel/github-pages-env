@@ -18,7 +18,7 @@ title = "週末スペシャル： 2016年熊本地震"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 疲れが溜まってるのか，ここのところ自宅帰って飯食ったらそのまま寝落ちしていることが多い。

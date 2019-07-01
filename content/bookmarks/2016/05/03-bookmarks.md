@@ -4,19 +4,9 @@ description = "「5/1 訃報　長谷川一郎先生逝去」他"
 draft = false
 title = "2016-05-03 のブックマーク"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 - [Github上のリリースを見逃さない - Qiita](http://qiita.com/takecy/items/690cf140ce2eddacee56)

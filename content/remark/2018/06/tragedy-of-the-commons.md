@@ -6,20 +6,6 @@ description = "つまりこれは「規範」側と「市場」側との間の�
 image = "/images/attention/kitten.jpg"
 tags        = [ "code", "norm", "market" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -53,7 +39,7 @@ SF 作家（多分）の野尻抱介さんによれば「黄色矮星人は2人�
 
 ## ブックマーク
 
-- [「テレビという共同体」 — Baldanders.info](https://baldanders.info/spiegel/log2/000307.shtml)
+- [「テレビという共同体」 — Baldanders.info](https://baldanders.info/blog/000307/)
 - [『法のデザイン』を斜め読みした]({{< ref "/remark/2017/05/legal-design-book.md" >}})
 
 ## 参考図書

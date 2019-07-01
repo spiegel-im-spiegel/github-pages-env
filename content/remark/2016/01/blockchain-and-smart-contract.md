@@ -1,24 +1,12 @@
 +++
 date = "2016-01-07T20:50:45+09:00"
-update = "2016-01-18T12:18:27+09:00"
 description = "Bitcoin は「誰が」取り引きしているかについて気にしないが，もっと広く smart contract を考えるのなら何らかの形で「誰が」を保証しなければならないし，そのための基盤（infrastructure）が必要となる，と思うのだがどうだろう。"
-draft = false
 tags = ["blockchain", "smart-contract", "fintech", "engineering"]
 title = "Blockchain と Smart Contract"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 年末忙しくて書き損ねてるネタを回収中。
@@ -55,7 +43,7 @@ Blockchain の特徴は完全性と可用性にある，ということのよう
 
 ちなみに昨年までの私の Bitcoin や Blockchain に関する理解は以下の通り。
 
-- [そろそろ Blockchain について勉強を始めるか — Baldanders.info](https://baldanders.info/spiegel/log2/000827.shtml)
+- [そろそろ Blockchain について勉強を始めるか — Baldanders.info](https://baldanders.info/blog/000827/)
 
 このときのまとめをもう一度整理して再掲載しておくと
 

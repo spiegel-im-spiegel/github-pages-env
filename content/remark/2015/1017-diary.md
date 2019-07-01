@@ -17,7 +17,7 @@ title = "今日の戯れ言：TUTAYA というか CCC 図書館"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 1. [TUTAYA というか CCC 図書館]({{< relref "#library">}})

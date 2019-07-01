@@ -8,7 +8,7 @@ tags        = [ "golang", "compress", "zlib", "gzip", "bzip2" ]
 
 [author]
   name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
+  url       = "https://baldanders.info/profile/"
   avatar    = "/images/avatar.jpg"
   license   = "by-sa"
   github    = "spiegel-im-spiegel"

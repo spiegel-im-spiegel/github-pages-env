@@ -18,7 +18,7 @@ title = "人格権と CC Licenses"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
   
 [scripts]
   mathjax = false

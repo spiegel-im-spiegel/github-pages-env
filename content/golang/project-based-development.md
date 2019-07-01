@@ -17,7 +17,7 @@ title = "gb でプロジェクト・ベースの開発環境をつくる"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 
 [scripts]
   mathjax = false

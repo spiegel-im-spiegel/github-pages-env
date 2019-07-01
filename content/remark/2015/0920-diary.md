@@ -17,7 +17,7 @@ title = "今日の戯れ言：週末は掃除三昧"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 世間ではシルバーウィークとかなんとか言うらしいですが，私には関わりのねぇこってござんす。

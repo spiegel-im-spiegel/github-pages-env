@@ -1,23 +1,12 @@
 +++
 date = "2016-01-06T21:04:43+09:00"
 description = "結局これは他の犯罪と同じで，「割れ窓」をせっせと補修して回るだけではきりがなく，犯罪を起こす「社会の物質的条件」を変えていくことこそが本命なのである。"
-draft = false
 tags = ["security", "risk", "management", "botnet"]
 title = "ボットネット・テイクダウンと割れ窓理論"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 「[管子](https://ja.wikipedia.org/wiki/%E7%AE%A1%E5%AD%90)」の中の有名な言葉に「倉廩満ちて礼節を知り，衣食足りて栄辱を知る」というのがある。
@@ -68,7 +57,7 @@ GOZ のテイクダウン作戦は有名だが，これ以外のボットネッ�
     <dd>ASIN: 4903127044, EAN: 9784903127040</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
-  <p class="description"><a href="https://baldanders.info/spiegel/log2/000410.shtml">感想はこちら</a>。</p>
+  <p class="description"><a href="https://baldanders.info/blog/000410/">感想はこちら</a>。</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-07">2018-12-07</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 

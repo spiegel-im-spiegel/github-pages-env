@@ -9,7 +9,7 @@ title = "「PHOTO METI PROJECT」の利用規約が変わっていた"
 [author]
   instagram = "spiegel_2007"
   flickr = "spiegel"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
   avatar = "/images/avatar.jpg"
   license = "by-sa"
   github = "spiegel-im-spiegel"

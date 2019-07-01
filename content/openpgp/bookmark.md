@@ -6,20 +6,6 @@ description = "OpenPGP に関するリンクをブックマークとして集め
 image = "/images/attention/openpgp.png"
 tags        = [ "openpgp", "gnupg", "bookmark" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -93,9 +79,9 @@ tags        = [ "openpgp", "gnupg", "bookmark" ]
     - [CRYPTREC暗号の仕様書](http://www.cryptrec.go.jp/method.html)
     - [CRYPTREC報告書](http://www.cryptrec.go.jp/report.html)
 - 旧 OpenPKSD.org（[Internet Archive](https://web.archive.org/web/20110907063003/http://www.openpksd.org/)）からドキュメントをサルベージしてみた
-    - {{< pdf-file title="PGP/GPG インターネットで広く使われている暗号技術（白黒バージョン）" link="https://baldanders.info/spiegel/archive/pgpdump/About_PGP_2002.pdf" >}} （2002年）
-    - {{< pdf-file title="PGP/GPG インターネットで広く使われている暗号技術（スライド＋ノート）" link="https://baldanders.info/spiegel/archive/pgpdump/About_PGP_2002_NOTE.pdf" >}} （2002年）
-    - {{< pdf-file title="OpenPGPとPKI" link="https://baldanders.info/spiegel/archive/pgpdump/PGP-001.pdf" >}} （2002年）
+    - {{< pdf-file title="PGP/GPG インターネットで広く使われている暗号技術（白黒バージョン）" link="https://baldanders.info/spiegel/pgpdump/About_PGP_2002.pdf" >}} （2002年）
+    - {{< pdf-file title="PGP/GPG インターネットで広く使われている暗号技術（スライド＋ノート）" link="https://baldanders.info/spiegel/pgpdump/About_PGP_2002_NOTE.pdf" >}} （2002年）
+    - {{< pdf-file title="OpenPGPとPKI" link="https://baldanders.info/spiegel/pgpdump/PGP-001.pdf" >}} （2002年）
 - [OpenPGP(実際はGnuPGなど)の活用事例 - Qiita](https://qiita.com/tsuyoshi_cho/items/b5b37be4f52f0adb0f1b)
 
 ## 自作ツール
@@ -105,11 +91,11 @@ tags        = [ "openpgp", "gnupg", "bookmark" ]
 
 ## [本家サイト]の記事
 
-- [わかる！ OpenPGP 暗号 — Baldanders.info](https://baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
-- [pgpdump (patched version) — Baldanders.info](https://baldanders.info/spiegel/archive/pgpdump/) : [pgpdump] の Windows 用バイナリを公開中
+- [わかる！ OpenPGP 暗号 — Baldanders.info](https://baldanders.info/spiegel/cc-license/)
+- [pgpdump (patched version) — Baldanders.info](https://baldanders.info/spiegel/pgpdump/) : [pgpdump] の Windows 用バイナリを公開中
 - [PGP/GnuPG 用語一覧](https://baldanders.info/spiegel/archive/pgp-vocabulary/) : 作りかけ放置プレイ中
-- [OpenPGP で利用可能なアルゴリズム一覧（RFC4880 対応版） — Baldanders.info](https://baldanders.info/spiegel/log2/000452.shtml)
-- [Google による OpenPGP 鍵配送の解決提案 — Baldanders.info](https://baldanders.info/spiegel/log2/000785.shtml)
+- [OpenPGP で利用可能なアルゴリズム一覧（RFC4880 対応版） — Baldanders.info](https://baldanders.info/blog/000452/)
+- [Google による OpenPGP 鍵配送の解決提案 — Baldanders.info](https://baldanders.info/blog/000785/)
 
 [OpenPGP]: https://www.openpgp.org/
 [本家サイト]: https://baldanders.info/ "Baldanders.info"

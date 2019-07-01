@@ -6,19 +6,9 @@ draft = false
 tags = ["security", "cryptography", "cryptrec", "misty1", "rc4", "engineering", "artificial-intelligence"]
 title = "今日の戯れ言"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
-
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 日を跨いじゃったけど，溜まってたものを吐き出す。
@@ -60,7 +50,7 @@ CRYPTREC といえば [CRYPTREC Report 2014](http://cryptrec.go.jp/topics/cryptr
 {{< fig-youtube id="d8MtmKrXlKQ" title="The RC4 NOMORE Attack: Demonstration in Practice - YouTube" width="500" height="281" >}}
 
 これも随分前の話でゴメン。
-既に[死に体の RC4](https://baldanders.info/spiegel/log2/000810.shtml) に追い打ち。
+既に[死に体の RC4](https://baldanders.info/blog/000810/) に追い打ち。
 
 ### IETF-94 で OpenPGP WG がなんかやるらしい？{#openpgp}
 

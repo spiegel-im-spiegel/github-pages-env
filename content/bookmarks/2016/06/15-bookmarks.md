@@ -16,7 +16,7 @@ title = "2016-06-15 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [Web Storage: セッショントークンのマシな手段 ― cookieとセキュリティ面を比較してみる | インフラ・ミドルウェア | POSTD](http://postd.cc/web-storage-the-lesser-evil-for-session-tokens/)

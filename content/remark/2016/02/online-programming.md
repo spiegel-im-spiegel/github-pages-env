@@ -17,7 +17,7 @@ title = "オンラインでプログラミング"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 先ほどの「[週末スペシャル]({{< ref "/remark/2016/02/14-stories.md" >}})」でも紹介したが， [paiza.IO] を試してみる。

@@ -4,19 +4,9 @@ description = "「生命の存在可能な「地球に似た惑星」 40光年�
 draft = false
 title = "2016-05-04 のブックマーク"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 - [Three Potentially Habitable Worlds Found Around Nearby Ultracool Dwarf Star | ESO](http://www.eso.org/public/news/eso1615/)

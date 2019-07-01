@@ -16,7 +16,7 @@ title = "2016-08-17 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [Google、MySQL互換の第二世代「Cloud SQL」正式リリース。ベンチマークを公開し、Amazon Auroraより高速だとアピール － Publickey](http://www.publickey1.jp/blog/16/googlemysqlcloud_sqlamazon_aurora.html)

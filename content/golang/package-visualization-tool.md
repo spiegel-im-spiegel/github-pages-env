@@ -17,7 +17,7 @@ title = "パッケージの依存状況の視覚化"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 今回はちょっと横道にそれて，パッケージの依存状況を視覚化するツールをご紹介。

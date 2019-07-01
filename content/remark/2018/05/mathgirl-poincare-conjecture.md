@@ -5,20 +5,6 @@ description = "子供の頃にこの本に出会ってたらなぁ。"
 image = "/images/attention/kitten.jpg"
 tags        = [ "book", "math" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -31,7 +17,7 @@ tags        = [ "book", "math" ]
 特に一般相対性理論では必須の知識。
 でも独学で勉強してた（当時）中学生の私には少々難しかったんだよなぁ。
 
-以前「数学ガール」の感想で「[結城浩さんの本はよく整備された遊歩道を散歩するような気楽さと安心感がある](https://baldanders.info/spiegel/log2/000465.shtml)」と書いたが，今回もそれは健在である。
+以前「数学ガール」の感想で「[結城浩さんの本はよく整備された遊歩道を散歩するような気楽さと安心感がある](https://baldanders.info/blog/000465/)」と書いたが，今回もそれは健在である。
 子供の頃にこの本に出会ってたなら。
 
 まぁ，私は数学の専門家ではないし，ラノベとして感想を書こうにも面白いか面白くないかの2値評価では話が続かないので（もちろんラノベとしても面白いよ），そういうのは[他の方々](https://togetter.com/li/1220310)にお任せして，私はメタな話で。

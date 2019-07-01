@@ -6,19 +6,9 @@ draft = false
 tags = ["communication", "book"]
 description = "熊代亨さんの『認められたい』が面白そうなので発注をかけたのだが，読む前に「所属欲求」について同じ著者によるブログ記事を読んでみた。"
 
-[author]
-  facebook = "spiegel.im.spiegel"
-  flickr = "spiegel"
-  tumblr = ""
-  avatar = "/images/avatar.jpg"
-  instagram = "spiegel_2007"
-  flattr = ""
-  linkedin = "spiegelimspiegel"
-  license = "by-sa"
-  url = "https://baldanders.info/spiegel/profile/"
-  name = "Spiegel"
-  github = "spiegel-im-spiegel"
-  twitter = "spiegel_2007"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 さて，3月も去っていきましたよ。
@@ -130,6 +120,6 @@ GW が終わるまでには感想文が書けるよう努力します（笑）
     <dd>ASIN: 4903127044, EAN: 9784903127040</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
-  <p class="description"><a href="https://baldanders.info/spiegel/log2/000410.shtml">感想はこちら</a>。</p>
+  <p class="description"><a href="https://baldanders.info/blog/000410/">感想はこちら</a>。</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-07">2018-12-07</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>

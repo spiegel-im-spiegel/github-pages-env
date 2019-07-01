@@ -7,7 +7,7 @@ draft = false
 
 [author]
   name = "Spiegel"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
   instagram = "spiegel_2007"
   tumblr = ""
   flattr = ""

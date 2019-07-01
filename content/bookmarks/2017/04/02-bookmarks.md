@@ -6,7 +6,7 @@ description = "「ISPがユーザーの承諾なしで個人データを収集�
 
 [author]
   instagram = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
   flickr = "spiegel"
   tumblr = ""
   twitter = "spiegel_2007"

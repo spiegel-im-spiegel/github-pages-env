@@ -6,19 +6,9 @@ draft = false
 tags = ["astronomy", "iau", "exoplanet", "hiroshima", "media", "boinc", "android", "code", "law", "artificial-intelligence"]
 title = "週末スペシャル： 太陽系外惑星命名コンテスト"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 1. [太陽系外惑星命名コンテスト]({{< relref "#exoplanet" >}})
@@ -44,7 +34,7 @@ title = "週末スペシャル： 太陽系外惑星命名コンテスト"
 
 - [糞みたいなカープファンには消えて欲しいわと思いつつ、おでん15個 - 電気ウナギ的○○](http://blog.netandfield.com/shar/2015/12/15-3.html)
 
-実はこのとき私も「[ふくろう](https://baldanders.info/spiegel/log2/000760.shtml)」でおでんを貪っておりまして，この緊迫した試合を観ていた。
+実はこのとき私も「[ふくろう](https://baldanders.info/blog/000760/)」でおでんを貪っておりまして，この緊迫した試合を観ていた。
 ちょうど忘年会シーズンのピーク時期でもあり繁華街はどこも大盛り上がりだったのですよ。
 いやぁ，負けたのは悔しいけど，ダレることのない面白い試合であった。
 

@@ -6,19 +6,9 @@ draft = false
 tags = ["math"]
 title = "算数で遊ぼう または 11 × 11 × 3.14 = 379.94 は誤りか"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = true
+  mermaidjs = false
 +++
 
 - [算数の問題「円周率を3.14とするとき、半径11の円の面積を求めよ」の解を379.94とするのは誤り？ - Togetterまとめ](http://togetter.com/li/940931)
@@ -35,7 +25,7 @@ title = "算数で遊ぼう または 11 × 11 × 3.14 = 379.94 は誤りか"
 
 そもそもこれを正解か不正解かという観点で論じる時点で阿呆である。
 日本の学校教育の悪影響がいかんなく発揮されている例と言えよう。
-だから「[掛け算は順序が大事](https://baldanders.info/spiegel/log2/000744.shtml)」とか言う馬鹿がはびこるんだよ。
+だから「[掛け算は順序が大事](https://baldanders.info/blog/000744/)」とか言う馬鹿がはびこるんだよ。
 
 これは計算問題である。
 上の問題を言い換えるのなら

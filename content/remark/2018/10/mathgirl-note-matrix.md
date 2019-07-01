@@ -6,20 +6,6 @@ description = "今回の『行列が描くもの』は，私には微妙に違�
 image = "/images/attention/kitten.jpg"
 tags = ["book", "math", "matrix"]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -73,7 +59,7 @@ tags = ["book", "math", "matrix"]
 
 ## ブックマーク
 
-- [「丸い三角関数」を読む 他 — Baldanders.info](https://baldanders.info/spiegel/log2/000685.shtml)
+- [「丸い三角関数」を読む 他 — Baldanders.info](https://baldanders.info/blog/000685/)
 - [『数学ガールの秘密ノート／ベクトルの真実』で遊ぶ]({{< ref "/remark/2016/03/mathgirl-note-vector.md" >}})
 
 [秘密ノート]: http://www.hyuki.com/girl/#note "『数学ガール』シリーズ"

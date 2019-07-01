@@ -1,23 +1,12 @@
 +++
 date = "2015-11-08T16:43:35+09:00"
-update = "2017-09-22T01:57:18+09:00"
 description = "「ふたご座流星群を眺めよう 2015」キャンペーン / Pinga / 「「校閲君」と「チェッカー君」を汎用化したい」らしい / Android 端末のセキュリティ"
-draft = false
 tags = ["astronomy", "web", "comic", "book", "e-book", "aozora", "security", "vulnerability", "android"]
 title = "今日の戯れ言： 「ふたご座流星群を眺めよう 2015」キャンペーン"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 今日は立冬です。
@@ -88,7 +77,7 @@ Feed があれば [Feedly](https://feedly.com/) とか [IFTTT](https://ifttt.com
 以上を踏まえつつも、日々の作品公開作業に相当の労力を割いている青空文庫の実情を勘案すると、寄付金を送金するだけではほんとうに必要な支援にはならないのではないかという懸念が表明されました。これは基金の今後の活動方針にも関わる重要な課題であり、今後さらに詰めていく必要が確認されました。</q>
 {{< /fig-quote >}}
 
-[前にも書いた](https://baldanders.info/spiegel/log2/000846.shtml)けど，「本の未来基金」はきちんと NPO 化すべきだと思う。
+[前にも書いた](https://baldanders.info/blog/000846/)けど，「本の未来基金」はきちんと NPO 化すべきだと思う。
 その上で青空文庫を含む「公有知財」を守る活動に commit していくようにすればいいと思う。
 
 [aozorahack]: https://github.com/aozorahack "aozorahack"

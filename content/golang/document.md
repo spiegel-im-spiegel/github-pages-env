@@ -17,7 +17,7 @@ title = "Go 言語のドキュメント・フレームワーク"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 （初出： [はじめての Go 言語 (on Windows) その8 - Qiita](http://qiita.com/spiegel-im-spiegel/items/5f9e96f226f46089388f)）

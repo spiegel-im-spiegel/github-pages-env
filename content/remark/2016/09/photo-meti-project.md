@@ -18,7 +18,7 @@ title = "経産省は CC Licenses を知らない？ （追記あり）"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [PHOTO METI PROJECT]

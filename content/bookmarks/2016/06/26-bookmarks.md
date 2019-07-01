@@ -16,7 +16,7 @@ title = "2016-06-26 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [draft-koch-openpgp-rfc4880bis-02 - OpenPGP Message Format](https://tools.ietf.org/html/draft-koch-openpgp-rfc4880bis-02)

@@ -1,23 +1,12 @@
 +++
 date = "2015-12-02T19:18:01+09:00"
 description = "当面（2017年度末まで）は CVSSv2 と CVSSv3 の併記で運用するらしい。"
-draft = false
 tags = ["security", "vulnerability", "risk", "management", "cvss", "ipa", "jpcert"]
 title = "JVN が CVSSv3 による脆弱性評価を開始"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 ## JVN が CVSSv3 による脆弱性評価を開始
@@ -84,7 +73,7 @@ title = "JVN が CVSSv3 による脆弱性評価を開始"
 ## CVSSv3 の変更点
 
 CVSSv2 から CVSSv3 への変更点は以下の通り。
-（なおこれは，以前書いた「[CVSS に関するメモ 3](https://baldanders.info/spiegel/log2/000864.shtml)」の再掲載である）
+（なおこれは，以前書いた「[CVSS に関するメモ 3](https://baldanders.info/blog/000864/)」の再掲載である）
 
 バージョン2からの大きな違いは深刻度をコンポーネント単位で評価できるようになったことだろう。
 以前は攻撃対象となるシステムやホストマシンが対象だったので，更に細かい評価ができるようになったと言える。

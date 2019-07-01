@@ -1,6 +1,8 @@
 #!/bin/sh
-cat B07R6FTSMT.html | amazon-item review -t review-book.html -d B07R6FTSMT -r 0 --review-date 2019-06-29
+cat B074CKDQGB.html | amazon-item review -t review-book.html -d B074CKDQGB -r 4 --review-date 2016-07-23
 # ---
+# cat B07TSZZPWN.html | amazon-item review -t review-book.html -d B07TSZZPWN -r 4 --review-date 2014-09-21
+# cat B07R6FTSMT.html | amazon-item review -t review-book.html -d B07R6FTSMT -r 0 --review-date 2019-06-29
 # cat B07STKKM3D.html | amazon-item review -t review-book.html -d B07STKKM3D -r 4 --review-date 2019-06-26
 # cat B00JGIN6YE.html | amazon-item review -t review-book.html -d B00JGIN6YE -r 4 --review-date 2014-08-02
 # cat B00CZ711QS.html | amazon-item review -t review-book.html -d B00CZ711QS -r 4 --review-date 2014-08-17

@@ -7,7 +7,7 @@ description = "「科学者がいま、福島の若い世代に伝えたいこ�
 [author]
   flattr = ""
   license = "by-sa"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
   linkedin = "spiegelimspiegel"
   instagram = "spiegel_2007"
   tumblr = ""

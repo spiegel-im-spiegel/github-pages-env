@@ -16,7 +16,7 @@ title = "Windows 10 で PSK を共有する"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 [この前]({{< ref "/remark/2015/0923-diary.md#wireless" >}})，「WiFi シェア」を盛大に dis ったわけだが，「Windows 10のWi-fi Senseも仲間に入れてあげてください」とフィードバックを頂いた。

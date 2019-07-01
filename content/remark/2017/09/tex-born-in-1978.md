@@ -5,20 +5,6 @@ update =  "2017-10-05T17:51:09+09:00"
 description = "TeX の最初のバージョンって1978年なのか。それってもうすぐ40周年ぢゃん！"
 tags        = [ "tex" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = true
   mermaidjs = false
@@ -75,13 +61,13 @@ $\\mathrm{\TeX}$ について調べ物をしていて，何気なく [Wikipedia 
 
 そのうち FTP や HTTP で大量にダウンロードできる環境が整って（ADSL 万歳！），長いあいだ一番お世話になったのはいわゆる「[角藤版](http://w32tex.org/index-ja.html "W32TeX")」だった（今でも成果については大変恩恵を受けてますが）。
 
-[TeX Live](http://www.tug.org/texlive/ "TeX Live - TeX Users Group") を利用するようになったのは[2013年](https://baldanders.info/spiegel/log2/000640.shtml "TeX Live 2013 のインストールに挑戦 — Baldanders.info")から。
+[TeX Live](http://www.tug.org/texlive/ "TeX Live - TeX Users Group") を利用するようになったのは[2013年](https://baldanders.info/blog/000640/ "TeX Live 2013 のインストールに挑戦 — Baldanders.info")から。
 いや，めっさ簡単になったものだよ。
 
 しかし，最近いちばん衝撃を受けたのは [LuaTeX-ja](https://ja.osdn.net/projects/luatex-ja/wiki/FrontPage) か。
 だって日本語環境でもようやく直接 PDF/A を吐ける処理系が登場したんだよ。
 
-- [TeX 覚え書き（upLaTeX から PDF/A まで） — Baldanders.info](https://baldanders.info/spiegel/log2/000731.shtml)
+- [TeX 覚え書き（upLaTeX から PDF/A まで） — Baldanders.info](https://baldanders.info/blog/000731/)
 - [LuaTeX-ja に関する覚え書き]({{< ref "/remark/2015/luatex-ja.md" >}})
 
 これによってようやく日本語の $\\mathrm{\TeX}$ 処理系でストレスなく PDF/A 形式のデジタル文書を作れるようになったわけだ。

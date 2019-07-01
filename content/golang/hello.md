@@ -17,7 +17,7 @@ title = "インストールから Hello World まで"
   medium = "@spiegel"
   name = "Spiegel"
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 （初出： [はじめての Go 言語 (on Windows) - Qiita](http://qiita.com/spiegel-im-spiegel/items/dca0df389df1470bdbfa)）

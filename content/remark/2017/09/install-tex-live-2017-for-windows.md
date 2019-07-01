@@ -5,20 +5,6 @@ update =  "2017-10-02T17:35:32+09:00"
 description = "久しぶりに TeX をいじってみようかな，と思い立ったり。私の環境は TeX Live 2014 のままだったので，この機会にいったん環境を削除して TeX Live 2017 を入れ直すことにした。"
 tags        = [ "tex", "windows", "install" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = true
   mermaidjs = false
@@ -473,11 +459,11 @@ $ ps2pdf14 -dPDFA -dPDFACompatibilityPolicy=1 -sProcessColorModel=DeviceCMYK cha
     - [外部コマンドの実行 - TeX Wiki](https://texwiki.texjp.org/?%E5%A4%96%E9%83%A8%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%81%AE%E5%AE%9F%E8%A1%8C)
 - [updmap and kanji - TeX Live - TeX Users Group](http://tug.org/texlive/updmap-kanji.html)
 
-- [TeX Live 2013 のインストールに挑戦 — Baldanders.info](https://baldanders.info/spiegel/log2/000640.shtml)
-    - [TeX Live へようこそ！ — Baldanders.info](https://baldanders.info/spiegel/log2/000698.shtml)
-- [TeX Live 2014 for Windows — Baldanders.info](https://baldanders.info/spiegel/log2/000730.shtml) : この記事の中で pxjahyper パッケージについて説明しているが [TeX Live] 2017 には既に含まれていた。ブラボー！
-- [TeX 覚え書き（upLaTeX から PDF/A まで） — Baldanders.info](https://baldanders.info/spiegel/log2/000731.shtml)
-- [LuaTeX の練習（About CC-License） — Baldanders.info](https://baldanders.info/spiegel/log2/000735.shtml)
+- [TeX Live 2013 のインストールに挑戦 — Baldanders.info](https://baldanders.info/blog/000640/)
+    - [TeX Live へようこそ！ — Baldanders.info](https://baldanders.info/blog/000698/)
+- [TeX Live 2014 for Windows — Baldanders.info](https://baldanders.info/blog/000730/) : この記事の中で pxjahyper パッケージについて説明しているが [TeX Live] 2017 には既に含まれていた。ブラボー！
+- [TeX 覚え書き（upLaTeX から PDF/A まで） — Baldanders.info](https://baldanders.info/blog/000731/)
+- [LuaTeX の練習（About CC-License） — Baldanders.info](https://baldanders.info/blog/000735/)
 
 - [LuaTeX-ja に関する覚え書き]({{< ref "/remark/2015/luatex-ja.md" >}})
 

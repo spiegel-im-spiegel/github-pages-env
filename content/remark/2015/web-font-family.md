@@ -6,18 +6,9 @@ draft = false
 tags = ["character", "font", "web", "google", "ipa", "site"]
 title = "Web フォントに関する覚え書き"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 このサイトの Web フォントまわりを整理したので，覚え書きとして残しておく。
@@ -267,5 +258,5 @@ CC License のアイコンは [Font Awesome] 5.0.11 以降に含まれた。
 
 ## 関連（するかもしれない）記事
 
-- [ちょこっと MathJax — Baldanders.info](https://baldanders.info/spiegel/log2/000750.shtml) : MathJax で数式用の Web フォントを使用可能
+- [ちょこっと MathJax — Baldanders.info](https://baldanders.info/blog/000750/) : MathJax で数式用の Web フォントを使用可能
 - [Web フォントに関する覚え書き（明朝体編）]({{< ref "/remark/2016/10/japanese-serif-fonts-by-google-cdn.md" >}}) : 明朝体について追記している

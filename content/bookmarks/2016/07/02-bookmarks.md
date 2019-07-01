@@ -16,7 +16,7 @@ title = "2016-07-02 のブックマーク"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [MongoDBのクエリは必ずしもマッチするすべてのドキュメントを返すわけではない | インフラ・ミドルウェア | POSTD](http://postd.cc/mongodb-queries-dont-always-return-all-matching-documents/)

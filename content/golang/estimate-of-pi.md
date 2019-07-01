@@ -21,7 +21,7 @@ draft = false
   flickr = "spiegel"
   license = "by-sa"
   name = "Spiegel"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
   avatar = "/images/avatar.jpg"
   github = "spiegel-im-spiegel"
 

@@ -5,19 +5,9 @@ draft = false
 tags = ["security", "cryptography", "risk", "politics"]
 title = "強すぎる結界は更なる魔を引き寄せる"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 - [我匿す、ゆえに我あり - WirelessWire News](https://wirelesswire.jp/2015/12/48567/ "我匿す、ゆえに我あり - WirelessWire News（ワイヤレスワイヤーニュース）")
@@ -35,7 +25,7 @@ title = "強すぎる結界は更なる魔を引き寄せる"
 
 ## 秘密なんてないさ
 
-[個人的に今年イチオシ](https://baldanders.info/spiegel/log2/000833.shtml)の映画である『イミテーション・ゲーム』に印象的なシーンがある。
+[個人的に今年イチオシ](https://baldanders.info/blog/000833/)の映画である『イミテーション・ゲーム』に印象的なシーンがある。
 ドイツの暗号機械「エニグマ」の暗号鍵を短時間で解読することに成功したアラン等のチームは，この事実を（政府や軍にも）知らせないことに決めた。
 理由は（政治的な思惑もあるだろうが）事実を敵国に知られないためである。
 敵国に知られれば相手は暗号システムを変えるだろうから。
@@ -50,7 +40,7 @@ title = "強すぎる結界は更なる魔を引き寄せる"
 たとえ暗号データそのものを解読できなくても，いったん対象を絞り込むことができれば，行動履歴をかき集め「名寄せ」することで追い詰めることができるのだ。
 これを回避するのは並大抵ではない。
 
-- [「オーウェルが描いた悪夢のような監視社会をさまざまな点で超えてしまっているこの世界」で私たちはいかにして生き残るか — Baldanders.info](https://baldanders.info/spiegel/log2/000768.shtml)
+- [「オーウェルが描いた悪夢のような監視社会をさまざまな点で超えてしまっているこの世界」で私たちはいかにして生き残るか — Baldanders.info](https://baldanders.info/blog/000768/)
 
 だから問題はどうやって「対象を絞り込む」か，つまりフィルタリングあるいはスクリーニングの問題である。
 

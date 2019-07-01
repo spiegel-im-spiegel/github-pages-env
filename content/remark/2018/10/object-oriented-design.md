@@ -6,20 +6,6 @@ description = "オブジェクト指向の価値を利便性に置くという�
 image = "/images/attention/kitten.jpg"
 tags = [ "engineering", "object-oriented", "design", "programming", "language" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -49,7 +35,7 @@ Qiita で面白い記事を見かけた。
 
 そう思ってた時代がありました。
 
-それから，まぁ，[紆余曲折](https://baldanders.info/spiegel/log2/000529.shtml "私はこうしてプログラミングを覚えた — Baldanders.info")あって（バブル最盛期に）某システムハウスに潜り込んだのだが，初仕事の設計書で書かせられたのはフローチャートではなく状態遷移表だった。
+それから，まぁ，[紆余曲折](https://baldanders.info/blog/000529/ "私はこうしてプログラミングを覚えた — Baldanders.info")あって（バブル最盛期に）某システムハウスに潜り込んだのだが，初仕事の設計書で書かせられたのはフローチャートではなく状態遷移表だった。
 むしろ「フローチャートなんか要らん（コードを見れば分かる）」と言われましたよ。
 これが「社会の現実」ってやつですね，分かります。
 

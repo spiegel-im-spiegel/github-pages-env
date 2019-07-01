@@ -1,24 +1,12 @@
 +++
 date = "2016-02-07T00:18:50+09:00"
-update = "2017-11-07T22:03:13+09:00"
 description = "OpenPGP パケットの内容を視覚化する gpgpdump の 0.1.0 をリリースした。"
-draft = false
 tags = ["tools", "openpgp", "golang", "gpgpdump"]
 title = "gpgpdump - OpenPGP packet visualizer"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 余暇でちまちま作っていたが，とりあえず使えるようになったので。
@@ -227,7 +215,7 @@ type Item struct {
 
 ## ブックマーク
 
-- [わかる！ OpenPGP 暗号 — Baldanders.info](https://baldanders.info/spiegel/archive/pgpdump/openpgp.shtml)
+- [わかる！ OpenPGP 暗号 — Baldanders.info](https://baldanders.info/spiegel/cc-license/)
 - [プログラミング言語 Go — text.Baldanders.info](/golang/)
 
 [gpgpdump]: https://github.com/spiegel-im-spiegel/gpgpdump "spiegel-im-spiegel/gpgpdump: gpgpdump - OpenPGP packet visualizer"

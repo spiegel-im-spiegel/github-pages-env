@@ -1,23 +1,12 @@
 +++
 date = "2016-07-24T08:07:58+09:00"
 description = "自分たちで「物語」をつくる。そういう遊び方もあるのですよ。でも子どもの頃はみんなそうやって遊んでたでしょ。"
-draft = false
 tags = ["games", "pokemon", "ingress"]
 title = "「シスト」としての Pokémon GO"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 ゲームというのはどんなものでも，そこに如何にして「物語」（あるいは「文脈」）を乗せるかがとても重要。
@@ -31,7 +20,7 @@ title = "「シスト」としての Pokémon GO"
 
 [^a]: ただし，マクドナルドのように提携店がポケストップやジムになっている場合もある。 [Ingress] では原則として店舗はポータルになれないため，これらは [Pokémon GO] 独自の場所である。もっとも [Ingress] でもローソンのような例外がある。今のところローソンはポケストップやジムになれないようだ。スポンサー提携は面白いけど「大人の事情」が大きく絡むので痛し痒しである。
 
-[Ingress] を始めた時に[思った](https://baldanders.info/spiegel/log2/000757.shtml "遅れてきた Agent — Baldanders.info")けど，見慣れた近所の風景でも知らないものがあって，そういうのを探して回るのが意外に楽しかったりする。
+[Ingress] を始めた時に[思った](https://baldanders.info/blog/000757/ "遅れてきた Agent — Baldanders.info")けど，見慣れた近所の風景でも知らないものがあって，そういうのを探して回るのが意外に楽しかったりする。
 だから寧ろこれは「シスト」に近い。
 そういうワクワク感が [Ingress] や [Pokémon GO] にはある。
 単なる「虫捕りゲーム」ではないのですよ。
@@ -50,7 +39,16 @@ title = "「シスト」としての Pokémon GO"
 [Pokémon GO]: http://www.pokemongo.jp/ "『Pokémon GO』公式サイト"
 [Ingress]: https://www.ingress.com/
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B015GVZA3E/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51Z2iWruqoL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B015GVZA3E/baldandersinf-22/">ご注文はうさぎですか？　４ (芳文社コミックス)</a></dt><dd>Ｋｏｉ </dd><dd>芳文社 2015-09-26</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00MIDW7J4/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00MIDW7J4.09._SCTHUMBZZZ_.jpg"  alt="ご注文はうさぎですか？　３ (芳文社コミックス)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00IZ7R7B0/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00IZ7R7B0.09._SCTHUMBZZZ_.jpg"  alt="ご注文はうさぎですか？　２ (芳文社コミックス)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00IZ7R7LK/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00IZ7R7LK.09._SCTHUMBZZZ_.jpg"  alt="ご注文はうさぎですか？　１ (芳文社コミックス)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B01IOL6L36/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B01IOL6L36.09._SCTHUMBZZZ_.jpg"  alt="普通の女子校生が【ろこどる】やってみた。: 5 (4コマKINGSぱれっとコミックス)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B01IT5TZIA/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B01IT5TZIA.09._SCTHUMBZZZ_.jpg"  alt="ＮＥＷ　ＧＡＭＥ！　５巻 (まんがタイムKRコミックス)"  /></a> </p>
-<p class="description">この巻ではチマメ隊がシストで遊ぶ回がある。楽しそう！</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-07-23">2016-07-24</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%94%E6%B3%A8%E6%96%87%E3%81%AF%E3%81%86%E3%81%95%E3%81%8E%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F/dp/B074CKDQGB?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B074CKDQGB"><img src="https://images-fe.ssl-images-amazon.com/images/I/61SVhz1msFL._SL160_.jpg" width="160" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E3%81%94%E6%B3%A8%E6%96%87%E3%81%AF%E3%81%86%E3%81%95%E3%81%8E%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F/dp/B074CKDQGB?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B074CKDQGB">ご注文はうさぎですか？</a></dt>
+	<dd>Ｋｏｉ</dd>
+    <dd></dd>
+    <dd>Collections Kindle版</dd>
+    <dd>ASIN: B074CKDQGB</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">可愛らしい作品。2巻ではチマメ隊がシストで遊ぶ回がある。楽しそう！</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-07-23">2016-07-23</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>

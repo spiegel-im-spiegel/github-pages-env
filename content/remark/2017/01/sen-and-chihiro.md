@@ -16,7 +16,7 @@ description = "ちうわけで，2003年当時に書いた感想文を再掲載�
   facebook = "spiegel.im.spiegel"
   tumblr = ""
   license = "by-sa"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
   name = "Spiegel"
 +++
 

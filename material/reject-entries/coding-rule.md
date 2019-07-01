@@ -17,10 +17,10 @@ title = "コーディング規約の勘所（再掲載）"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
-これは[2006年に書いた記事](https://baldanders.info/spiegel/remark/archives/000195.shtml "[鏡] コーディング規約の勘所 -- 戯れ言++")を加筆・修正して再掲載したものです。
+これは[2006年に書いた記事](https://baldanders.info/blog/000195/ "[鏡] コーディング規約の勘所 -- 戯れ言++")を加筆・修正して再掲載したものです。
 
 なにせ10年も前の記事なので内容がだいぶ古いですし，実は私自身も当時からは考え方が少し変わってきています。
 でも責任分担やルール設計の考え方は今でも通じるものがあると思っています。

@@ -1,23 +1,12 @@
 +++
 date = "2015-11-14T17:49:15+09:00"
-update = "2018-01-13T13:15:06+09:00"
 description = "FBI 曰く「Ransomware 感染時は身代金払え」 / 移動式プラネタリウム製作資金を集める Crowd-Funding / 家事を「要求開発」する / Facebook のない人生は幸せ？ / 日本における TPP 知財のこれから"
-draft = false
 tags = ["security", "risk", "ransomware", "astronomy", "planetarium", "engineering", "communication", "code", "intellectual-property", "copyright", "tpp", "grigori", "facebook"]
 title = "週末スペシャル： FBI 曰く「Ransomware 感染時は身代金払え」"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 最近，週末に小ネタをまとめて放出するパターンなので「週末スペシャル」と銘打ってみた。
@@ -92,7 +81,7 @@ Facebook の TL にもちょろんと書いたけど，これって Facebook な
 
 SNS は相手との距離感をはかるのが難しい側面はあるし，私もそれで時々失敗するが，上手に使えば良い道具ではある。
 
-[^b]: 最近の斎藤環さんの著作は「[う～んな感じ](https://baldanders.info/spiegel/log2/000765.shtml)」だが，このころの著作本は好き。
+[^b]: 最近の斎藤環さんの著作は「[う～んな感じ](https://baldanders.info/blog/000765/)」だが，このころの著作本は好き。
 
 ## 日本における TPP 知財のこれから{#tppip}
 

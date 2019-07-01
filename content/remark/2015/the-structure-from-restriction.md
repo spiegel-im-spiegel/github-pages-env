@@ -5,18 +5,9 @@ draft = false
 tags = ["engineering", "programming", "error", "exception"]
 title = "制約は構造を生む"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 「制約は構造を生む」というのは確か結城浩さんの『数学ガール』の中にあったフレーズだと思うが，私はこの言葉が好きである。
@@ -29,7 +20,7 @@ title = "制約は構造を生む"
 
 [^1]: 逆に言うと自己改変しなくなった言語は緩慢な死を迎える。
 
-[前にも書いた](https://baldanders.info/spiegel/log2/000529.shtml)けど，私は職業プログラマなので，プログラミングが好きでも嫌いでもない。
+[前にも書いた](https://baldanders.info/blog/000529/)けど，私は職業プログラマなので，プログラミングが好きでも嫌いでもない。
 私から見れば「プログラミングが好き」というのは「鋸が好き」と言ってるのと大差ない。
 プログラミング言語も同様で，基本的にはどんな言語にも対応できる自信はあるが，特定の言語が好きというのはない。
 

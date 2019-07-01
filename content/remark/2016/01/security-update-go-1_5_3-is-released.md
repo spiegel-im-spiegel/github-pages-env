@@ -18,7 +18,7 @@ title = "[security] Go 1.5.3 is released"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 2週間前の話ですみません。

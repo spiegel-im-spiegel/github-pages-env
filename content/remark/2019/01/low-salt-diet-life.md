@@ -5,17 +5,6 @@ description = "でも，たまには「おおごっつぉ」もいいぢゃな�
 image = "/images/attention/kitten.jpg"
 tags = [ "life" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/spiegel/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-
 [scripts]
   mathjax = true
   mermaidjs = false
@@ -25,7 +14,7 @@ tags = [ "life" ]
 利尿作用が少ないタイプだそうで，これでシモの不安が少し解消された（笑）
 
 その代わり，改めて塩分コントロールに留意するよう釘を差された。
-[以前はかなり気を使っていた](https://baldanders.info/spiegel/remark/archives/000042.shtml "減塩生活 -- 戯れ言++")が近年は忘れてたな。
+[以前はかなり気を使っていた](https://baldanders.info/blog/000042/ "減塩生活 -- 戯れ言++")が近年は忘れてたな。
 ちうわけで「食塩1グラム相当の調味料」の一覧を再掲載しておこう。
 
 | 調味料                 | 食塩（グラム） | カロリー（Kcal） |

@@ -52,7 +52,7 @@ pageType = "text"
 
 ## ブックマーク
 
-- [「テレビという共同体」 — Baldanders.info](https://baldanders.info/spiegel/log2/000307.shtml)
+- [「テレビという共同体」 — Baldanders.info](https://baldanders.info/blog/000307/)
 - [STAP 教と「説教サイト」]({{< ref "/remark/2016/10/cult-of-stap.md" >}})
 
 [説教番組]: https://baldanders.info/spiegel/log/nikki-s/200206.html#2303 "せち日記 - 2002年06月分"

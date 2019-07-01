@@ -17,7 +17,7 @@ title = "週明けから戯れ言： Go 1.6.3 セキュリティ・アップデ�
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 久しぶりに低血圧ですよ。

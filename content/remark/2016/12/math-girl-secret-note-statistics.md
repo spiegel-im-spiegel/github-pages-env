@@ -13,7 +13,7 @@ description = "今回はテトラちゃん回かなぁ。1,2章のユーリち�
 
 [author]
   facebook = "spiegel.im.spiegel"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
   license = "by-sa"
   avatar = "/images/avatar.jpg"
   twitter = "spiegel_2007"

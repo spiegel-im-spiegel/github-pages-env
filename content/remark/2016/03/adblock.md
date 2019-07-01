@@ -18,7 +18,7 @@ title = "広告をブロックしたスペースに広告を入れる Adblock"
   name = "Spiegel"
   tumblr = ""
   twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+  url = "https://baldanders.info/profile/"
 +++
 
 - [スノーデン氏らのメッセージが広告スペースに--アムネスティとAdBlockがキャンペーン展開 - CNET Japan](http://japan.cnet.com/news/society/35079474/)

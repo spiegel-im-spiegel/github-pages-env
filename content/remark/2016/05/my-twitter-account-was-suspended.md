@@ -6,19 +6,9 @@ draft = false
 tags = ["twitter", "security"]
 title = "Twitter アカウントが凍結されました"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 つっても[メイン](https://twitter.com/spiegel_2007)じゃなくて [@security_inci](https://twitter.com/security_inci) のほう。
@@ -40,8 +30,8 @@ title = "Twitter アカウントが凍結されました"
 
 さてこれからセキュリティ情報をどうやって取るかな。
 
-- [Twitter によるセキュリティ情報配信をはじめました — Baldanders.info](https://baldanders.info/spiegel/log2/000387.shtml)
-- [@security_inci を整理した — Baldanders.info](https://baldanders.info/spiegel/log2/000710.shtml)
+- [Twitter によるセキュリティ情報配信をはじめました — Baldanders.info](https://baldanders.info/blog/000387/)
+- [@security_inci を整理した — Baldanders.info](https://baldanders.info/blog/000710/)
 
 ## 追記
 

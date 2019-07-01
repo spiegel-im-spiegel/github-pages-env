@@ -4,19 +4,9 @@ description = "「NIST Starts Planning for Post-Quantum Cryptography」他"
 draft = false
 title = "2016-05-09 のブックマーク"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/spiegel/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 - [NIST Starts Planning for Post-Quantum Cryptography - Schneier on Security](https://www.schneier.com/blog/archives/2016/05/nist_starts_pla.html)

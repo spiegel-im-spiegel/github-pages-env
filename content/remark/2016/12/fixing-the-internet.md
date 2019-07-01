@@ -2,23 +2,11 @@
 tags = ["code", "internet", "cryptography", "drm", "bitcoin", "blockchain", "grigori"]
 description = "「ウォルター・アイザックソン「インターネットは壊れている。初めからやり直すなら、私はこのようにそれを正す」 - YAMDAS現更新履歴」より"
 date = "2016-12-28T12:49:19+09:00"
-update = "2017-10-15T09:23:00+09:00"
 title = "ぼくがかんがえたさいきょうのいんたねっと"
-draft = false
 
-[author]
-  name = "Spiegel"
-  flickr = "spiegel"
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  tumblr = ""
-  url = "https://baldanders.info/spiegel/profile/"
-  instagram = "spiegel_2007"
-  twitter = "spiegel_2007"
-  github = "spiegel-im-spiegel"
-  license = "by-sa"
-  flattr = ""
-  linkedin = "spiegelimspiegel"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 - [ウォルター・アイザックソン「インターネットは壊れている。初めからやり直すなら、私はこのようにそれを正す」 - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20161226/walterisaacson)
@@ -74,7 +62,7 @@ Xanadu については以下の記事が参考になるだろう。
 サービス・プロバイダ側が「私たちはコンテンツの監視しかしてませんよ」と無邪気に言ったところで通用するものではないのである。
 おそらく監視型 DRM は知財トロルにとって最も効果的な道具になるだろう。
 
-[^tgk]: 「技術的ゲートキーパー」については拙文「[監視をコントロールする](https://baldanders.info/spiegel/log2/000490.shtml)」を参考にどうぞ。
+[^tgk]: 「技術的ゲートキーパー」については拙文「[監視をコントロールする](https://baldanders.info/blog/000490/)」を参考にどうぞ。
 
 ## 暗号化メッセージング
 
@@ -98,7 +86,7 @@ Xanadu については以下の記事が参考になるだろう。
 ## 暗号化の機能をチップレベルで実装
 
 これには苦笑せざるを得ない。
-「それなんて[クリッパーチップ](https://baldanders.info/spiegel/log2/000854.shtml "米国は今もクリッパーチップの夢を見るか，他 — Baldanders.info")？」である。
+「それなんて[クリッパーチップ](https://baldanders.info/blog/000854/ "米国は今もクリッパーチップの夢を見るか，他 — Baldanders.info")？」である。
 
 ネットワーク通信のプロトコルスタックを組み込んだチップというのは既に存在する。
 たとえば車載ネットワークではリアルタイム[^rt] が要求されるため CAN/LIN など[^vn] はチップレベルで実装されている。
@@ -142,9 +130,9 @@ Bitcoin のアドレス（Blockchain の識別子でもある）は公開鍵暗�
 確かに Bitcoin に機密性は不要だが，他の認証や否認防止といった要件は意図的に削除されている。
 そうすることによってひたすら log の完全性のみを追求したのが Bitcoin でありその中核技術たる Blockchain なのだ。
 
-[^em]: ただし近年は「暗号化メッセージング」について要件が変わってきている。詳しくは拙文「[メッセージングは E2E 暗号化および PFS が肝](https://baldanders.info/spiegel/log2/000675.shtml "メッセージングは E2E 暗号化および PFS が肝 — Baldanders.info")」を参考にどうぞ。今回はコンテンツの取引に絡む話なので「否認防止」は必須要件になる。また「否認防止」を満たすには「完全性」と「認証」が必要条件になる。
+[^em]: ただし近年は「暗号化メッセージング」について要件が変わってきている。詳しくは拙文「[メッセージングは E2E 暗号化および PFS が肝](https://baldanders.info/blog/000675/ "メッセージングは E2E 暗号化および PFS が肝 — Baldanders.info")」を参考にどうぞ。今回はコンテンツの取引に絡む話なので「否認防止」は必須要件になる。また「否認防止」を満たすには「完全性」と「認証」が必要条件になる。
 
-- [そろそろ Blockchain について勉強を始めるか — Baldanders.info](https://baldanders.info/spiegel/log2/000827.shtml)
+- [そろそろ Blockchain について勉強を始めるか — Baldanders.info](https://baldanders.info/blog/000827/)
 
 Bitcoin というか Blockchain を使う以上，認証および否認防止は別の手段（不特定多数と取引するのなら何らかの認証基盤）を以って担保する必要がある。
 なので少なくとも「Blockchain があればおっけー」とはならないと思う。
@@ -155,7 +143,7 @@ Bitcoin というか Blockchain を使う以上，認証および否認防止は
 - [誰も教えてくれないけれど、これを読めば分かるビットコインの仕組みと可能性 | TechCrunch Japan](http://jp.techcrunch.com/2015/03/31/bitcoin-essay/)
 - [RFC 6962 - Certificate Transparency](https://tools.ietf.org/html/rfc6962)
     - [Certificate Transparency | GMOグローバルサインブログ](https://jp.globalsign.com/blog/2014/certificate_transparency.html)
-    - [Google による OpenPGP 鍵配送の解決提案 — Baldanders.info](https://baldanders.info/spiegel/log2/000785.shtml)
+    - [Google による OpenPGP 鍵配送の解決提案 — Baldanders.info](https://baldanders.info/blog/000785/)
 - [Blockchain と Smart Contract]({{< ref "/remark/2016/01/blockchain-and-smart-contract.md" >}})
 
 [yomoyomo さんの記事]: http://d.hatena.ne.jp/yomoyomo/20161226/walterisaacson "ウォルター・アイザックソン「インターネットは壊れている。初めからやり直すなら、私はこのようにそれを正す」 - YAMDAS現更新履歴"
