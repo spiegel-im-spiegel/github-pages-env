@@ -1,2 +1,2 @@
 #!/bin/sh
-hugo --gc --destination=../published || exit 1
+hugo --gc --destination=../text-publishd || exit 1

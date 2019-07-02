@@ -1,6 +1,6 @@
 #!/bin/bash
 ./build.sh || exit 1
-pushd ../published
+pushd ../text-publishd
 comment="Auto commit in $(date -u '+%FT%T+00:00')"
 if [ $# -ne 0 ]; then
   comment=$1
