@@ -11,7 +11,7 @@ dataDir = "data"
 enableGitInfo = true
 
 [frontmatter]
-  lastmod = [":git", "update", "lastmod", "date", "publishDate"]
+  lastmod = ["lastmod", ":git", "update", "date", "publishDate"]
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
