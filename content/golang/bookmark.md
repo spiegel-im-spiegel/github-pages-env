@@ -164,6 +164,7 @@ title = "Go 言語に関するブックマーク"
 - [Go で型を抽象的に扱うには - Qiita](https://qiita.com/nirasan/items/d1b80ecc7a7a7f0af2b7)
 - [GoのInterfaceとは何者なのか #golang #go - niconegoto Blog](http://niconegoto.hatenadiary.jp/entry/2017/12/03/222922)
 - [インタフェースの実装パターン #golang - Qiita](https://qiita.com/tenntenn/items/eac962a49c56b2b15ee8)
+- [Big Sky :: Go で型がインタフェースを実装している事を保証するには](https://mattn.kaoriya.net/software/lang/go/20190702104455.htm)
 
 #### 数値型
 
@@ -269,6 +270,7 @@ title = "Go 言語に関するブックマーク"
 - [Big Sky :: 簡単に goroutine の実行個数を制限する方法](https://mattn.kaoriya.net/software/lang/go/20171221111857.htm)
 - [Big Sky :: goroutine でドハマリした。](https://mattn.kaoriya.net/software/lang/go/20180124171404.htm)
 - [Big Sky :: Go 言語の非同期パターン](https://mattn.kaoriya.net/software/lang/go/20180531104907.htm)
+- [goroutineとチャネルの動きを図を使って理解する(和訳) - Qiita](https://qiita.com/hirano00o/items/828393342efcd80aa2e6)
 
 Go 言語で複数 CPU を使った並列処理を行うには明示的な設定が必要。
 
