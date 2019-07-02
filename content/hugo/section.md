@@ -1,23 +1,13 @@
 +++
-title       = "Categories, Tags そして Section"
+title = "Categories, Tags そして Section"
 description = "前回の続き。今回は Categories, Tags そして Section について書いてみる。"
-date        = "2015-09-11T17:58:32+09:00"
-update      = "2017-10-09T22:21:22+09:00"
-tags        = [ "hugo", "categories", "tags", "taxonomy", "section" ]
-draft = false
+date = "2015-09-11T17:58:32+09:00"
+lastmod = "2015-09-11T17:58:32+09:00"
+tags = [ "hugo", "categories", "tags", "taxonomy", "section" ]
 
-[author]
-name      = "Spiegel"
-url       = "https://baldanders.info/profile/"
-avatar    = "/images/avatar.jpg"
-license   = "by-sa"
-github    = "spiegel-im-spiegel"
-twitter   = "spiegel_2007"
-medium    = "@spiegel"
-instagram = "spiegel_2007"
-facebook  = "spiegel.im.spiegel"
-linkedin  = "spiegelimspiegel"
-flattr    = ""
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 （初出： [ゼロから始める Hugo — Categories, Tags そして Section - Qiita](http://qiita.com/spiegel-im-spiegel/items/4c5859f7cac877068742)）

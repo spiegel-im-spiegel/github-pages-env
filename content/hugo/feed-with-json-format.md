@@ -1,6 +1,7 @@
 +++
 title = "JSON 形式で Feed を出力する"
 date = "2019-02-19T22:54:05+09:00"
+lastmod = "2019-02-19T22:54:05+09:00"
 description = "Hugo では JSON 形式のファイルも出力できる。"
 image = "/images/attention/hugo.jpg"
 tags = [ "hugo", "feed", "json" ]

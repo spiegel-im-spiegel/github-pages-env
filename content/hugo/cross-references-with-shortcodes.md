@@ -1,23 +1,10 @@
 +++
 title = "Hugo におけるサイト内相互参照"
 date = "2018-08-18T14:46:11+09:00"
+lastmod = "2018-08-18T14:46:11+09:00"
 description = "Hugo 0.45 から ref/relref の仕様が変わったので紹介する。"
 image = "/images/attention/hugo.jpg"
 tags = [ "hugo", "shortcodes" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false

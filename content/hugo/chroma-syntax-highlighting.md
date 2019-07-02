@@ -1,22 +1,9 @@
 +++
 title = "Chroma Syntax Highlighting"
 date =  "2017-09-25T22:57:09+09:00"
+lastmod =  "2017-09-25T22:57:09+09:00"
 description = "今回のアップデートの目玉は純正 Golang 製の Chroma を組み込んで Syntax Highlight に対応したことだろう。"
 tags        = [ "hugo", "syntax-highlight", "shortcodes", "markdown" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false

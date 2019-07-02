@@ -1,23 +1,14 @@
 +++
 title = "Theme を利用する"
 date = "2015-09-11T17:59:18+09:00"
-update = "2017-06-21T16:17:51+09:00"
+lastmod = "2015-09-11T17:59:18+09:00"
 description = "前々回，前回とちょっと飛ばしすぎたので今回は軽めに theme の話題を。"
 tags = [ "hugo", "theme" ]
 draft = false
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 [前々回]，[前回]とちょっと飛ばしすぎたので今回は軽めに theme の話題を。

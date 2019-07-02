@@ -1,10 +1,9 @@
 +++
-title       = "インストールから Hello World まで"
+title = "インストールから Hello World まで"
 description = "自サイトのブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。ここではその時のメモを公開する。"
-date        = "2015-09-11T17:58:23+09:00"
-update      = "2017-10-09T22:12:13+09:00"
-tags        = [ "hugo", "install", "helloworld" ]
-draft = false
+date = "2015-09-11T17:58:23+09:00"
+lastmod = "2015-09-11T17:58:23+09:00"
+tags = [ "hugo", "install", "helloworld" ]
 
 [scripts]
   mathjax = false

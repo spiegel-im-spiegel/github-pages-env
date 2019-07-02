@@ -1,20 +1,10 @@
 +++
 title = "Hugo で Git 情報を取得する"
 date = "2019-02-16T22:15:35+09:00"
+lastmod = "2019-02-16T22:15:35+09:00"
 description = "Hugo の環境を git で管理している場合はコミット情報等をテンプレートに組み込むことができる。"
 image = "/images/attention/hugo.jpg"
 tags = [ "hugo", "site", "git" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
 
 [scripts]
   mathjax = false

@@ -2,6 +2,7 @@
 title = "Hugo に関するブックマーク"
 description = "当サイトを Hugo で構築するにあたって参考になったページを紹介する。"
 date = "2015-09-05T00:00:00+09:00"
+lastmod = "2015-09-05T00:00:00+09:00"
 tags = [ "hugo", "bookmark" ]
 
 [scripts]

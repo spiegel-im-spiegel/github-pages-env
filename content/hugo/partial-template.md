@@ -1,23 +1,13 @@
 +++
 date = "2015-09-25T11:14:44+09:00"
-update = "2015-10-04T19:56:00+09:00"
+lastmod = "2015-09-25T11:14:44+09:00"
 description = "今回は Template について，もう少しだけ詳しく紹介してみる。"
-draft = false
 tags = [ "hugo", "template" ]
 title = "Template の部品化"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 今回は Template について，もう少しだけ詳しく紹介してみる。

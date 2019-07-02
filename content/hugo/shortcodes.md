@@ -1,23 +1,13 @@
 +++
 date = "2015-10-24T16:36:04+09:00"
-update = "2017-10-27T17:27:50+09:00"
+lastmod = "2015-10-24T16:36:04+09:00"
 description = "たとえば記事の中に YouTube の動画や SlideShare の HTML コードを埋め込みたいとする。こういうときは Shortcodes の機能を使うと便利だ。"
-draft = false
 tags = [ "hugo", "shortcodes" ]
 title = "Shortcodes で HTML コードを埋め込む"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 今回は [Shortcodes] の話。

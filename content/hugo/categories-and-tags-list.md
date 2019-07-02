@@ -1,23 +1,13 @@
 +++
 date = "2015-10-04T20:21:54+09:00"
-update      = "2016-12-14T10:20:58+09:00"
+lastmod = "2015-10-04T20:21:54+09:00"
 description = "以前の回で紹介してなかったのだが， Categories や Tags の一覧ページを作る機能があるので紹介する。"
-draft = false
 tags = [ "hugo", "categories", "tags" ]
 title = "Categories や Tags の一覧ページを作る"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 今回は補足なので簡単に。
