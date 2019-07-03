@@ -1,5 +1,5 @@
 languageCode = "ja"
-name = "ゼロから始める Hugo"
-description = "本家サイトのブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。ここではその時のメモを公開する。"
+name = "ゼロから始める Hugo 【跡地】"
+description = "内容が古くなって最新情報に追従できなくなったので本家サイトに移転しました。"
 sectionType = "text"
 image = "/images/attention/hugo.jpg"

@@ -2,9 +2,9 @@
 title = "Hugo 0.55 リリースでまた後方互換性が壊れた"
 date = "2019-04-13T19:05:15+09:00"
 lastmod = "2019-04-13T19:05:15+09:00"
-description = "この記事はRelease セクションに移動しました。"
+description = "この記事は Release セクションに移動しました。"
 image = "/images/attention/hugo.jpg"
-tags = ["obsolete "]
+tags = ["obsolete"]
 pageType = "text"
 
 [scripts]

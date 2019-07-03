@@ -2,8 +2,8 @@
 title = "Hugo 0.15 が Apache License 2.0 下でリリース"
 date = "2015-11-26T20:26:45+09:00"
 lastmod = "2015-11-26T20:26:45+09:00"
-description = "この記事はRelease セクションに移動しました。"
-tags = ["obsolete "]
+description = "この記事は Release セクションに移動しました。"
+tags = ["obsolete"]
 
 [scripts]
   mathjax = false

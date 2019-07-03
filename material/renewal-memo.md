@@ -7,8 +7,10 @@
 Redirect permanent /policy.shtml /site-policy/
 Redirect permanent /sitemap.shtml /sitemap/
 Redirect permanent /archives.shtml /blog/
+RedirectMatch permanent /spiegel/log2/([0-9]*).shtml /blog/$1/
 Redirect permanent /spiegel/log2/ /blog/
 Redirect permanent /spiegel/remark/archives.shtml /blog/
+RedirectMatch permanent /remark/archives/([0-9]*).shtml /blog/$1/
 Redirect permanent /spiegel/remark/archives/ /blog/
 Redirect permanent /spiegel/remark/ /blog/
 Redirect permanent /spiegel/profile/ /profile/
@@ -29,3 +31,7 @@ Redirect permanent /rss.rdf.xml https://text.baldanders.info/index.xml
 検索文字列2: `https://baldanders.info/remark/archives/([0-9]*).shtml`
 
 置換文字列: `https://baldanders.info/blog/$1/`
+
+## ブックマーク
+
+- [htaccessで正規表現を使ったリダイレクト - Qiita](https://qiita.com/bass-inu/items/d239cdee54a74ec0d3ef)

@@ -68,13 +68,6 @@
 	</span>
 </li>
 
-<li><a href='{{ "/hugo/" | relURL }}'><em>[hugo] ゼロから始める Hugo</em></a> <a href='{{ "/hugo/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
-	<span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "hugo") }}
-		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
-		{{ end }}<br>&raquo; <a href="https://baldanders.info/">本家サイト</a>のブログ機能を Hugo で外出しにする作業を行うにあたって，いろいろ試しながら作業している。その際のメモを公開する。
-	</span>
-</li>
-
 <li><a href='{{ "/release/" | relURL }}'><em>[release] リリース情報</em></a> <a href='{{ "/release/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
 	<span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "release") }}
 		（最終更新：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
