@@ -1,24 +1,13 @@
 +++
 date = "2016-03-11T12:39:07+09:00"
-update = "2017-12-01T16:38:39+09:00"
+lastmod = "2016-03-11T12:39:07+09:00"
 description = "この記事は移動しました。"
-draft = false
 tags = ["obsolete"]
 title = "GnuPG for Windows ― gpg-agent について"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
-(move to [{{< ref "/openpgp/using-gnupg-for-windows-2.md" >}}]({{< ref "/openpgp/using-gnupg-for-windows-2.md" >}} "GnuPG for Windows : gpg-agent について"))
+この記事は [OpenPGP セクション]({{< ref "/openpgp/using-gnupg-for-windows-2.md" >}})に移動しました。

@@ -1,17 +1,14 @@
 +++
 title = "Issuer Fingerprint Signature Subpacket in Next OpenPGP"
-date =  "2017-12-01T17:52:08+09:00"
-update =  "2018-01-28T18:00:19+09:00"
+date = "2017-12-01T17:52:08+09:00"
 description = "署名パケットに関して，次期 OpenPGP (RFC 4880bis) の実装が既に GnuPG に一部入っているようである。"
 image = "/images/attention/openpgp.png"
-tags        = [ "openpgp", "gnupg", "cryptography" ]
+tags = [ "openpgp", "gnupg", "cryptography" ]
 
 [scripts]
   mathjax = false
   mermaidjs = false
 +++
-
-(move from [{{< ref "/remark/2017/11/issuer-fingerprint-signature-subpacket-in-next-openpgp.md" >}}]({{< ref "/remark/2017/11/issuer-fingerprint-signature-subpacket-in-next-openpgp.md" >}} "Issuer Fingerprint Signature Subpacket in Next OpenPGP"))
 
 「[OpenPGP 鍵管理に関する考察]({{< ref "/openpgp/openpgp-key-management.md" >}})」を書いていて気づいたのだが，署名パケット（signature packet）に関して，次期 OpenPGP ([RFC 4880bis]) の実装が既に [GnuPG] に一部入っているようである[^gpg1]。
 

@@ -12,4 +12,4 @@ pageType = "text"
   mermaidjs = false
 +++
 
-この記事は[Release セクション]({{< ref "/release/2019/04/broken-backward-compatibility-by-hugo-0_55.md" >}})に移動しました。
+この記事は [Release セクション]({{< ref "/release/2019/04/broken-backward-compatibility-by-hugo-0_55.md" >}})に移動しました。

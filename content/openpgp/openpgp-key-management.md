@@ -1,7 +1,6 @@
 +++
 title = "OpenPGP 鍵管理に関する考察"
 date =  "2017-12-01T17:51:59+09:00"
-update =  "2017-12-02T16:20:26+09:00"
 description = "OpenPGP 鍵の管理について考えてみるテスト。"
 image = "/images/attention/openpgp.png"
 tags = [
@@ -17,8 +16,6 @@ tags = [
   mathjax = false
   mermaidjs = true
 +++
-
-(move from [{{< ref "/remark/2017/11/openpgp-key-management.md" >}}]({{< ref "/remark/2017/11/openpgp-key-management.md" >}} "OpenPGP 鍵管理に関する考察"))
 
 たまたま以下の記事を見かけたのだが
 

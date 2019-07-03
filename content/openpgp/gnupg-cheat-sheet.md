@@ -17,8 +17,6 @@ tags = [
   mermaidjs = false
 +++
 
-(move from [{{< ref "/remark/2017/11/gnupg-sheat-sheet.md" >}}]({{< ref "/remark/2017/11/gnupg-sheat-sheet.md" >}} "GnuPG チートシート（鍵作成から失効まで）"))
-
 最近 `git commit` に電子署名する目的などで [GnuPG] を使う記事などをチラホラ見かけるようになったが，やっぱ使い慣れんもんは分からんよねぇ。
 しかもバージョンによって微妙に挙動が異なるのが困りものである。
 

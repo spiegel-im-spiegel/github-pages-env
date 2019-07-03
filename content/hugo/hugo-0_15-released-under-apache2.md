@@ -10,4 +10,4 @@ tags = ["obsolete "]
   mermaidjs = false
 +++
 
-この記事は[Release セクション]({{< ref "/release/2015/11/hugo-0_15-released-under-apache2.md" >}})に移動しました。
+この記事は [Release セクション]({{< ref "/release/2015/11/hugo-0_15-released-under-apache2.md" >}})に移動しました。

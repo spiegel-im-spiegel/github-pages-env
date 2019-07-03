@@ -14,8 +14,6 @@ tags = [
   mermaidjs = false
 +++
 
-(move from [{{< ref "/remark/2017/11/algorithms-for-openpgp.md" >}}]({{< ref "/remark/2017/11/algorithms-for-openpgp.md" >}} "OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）"))
-
 [gpgpdump] を [RFC 4880bis] に[対応させていく作業]({{< ref "/remark/2017/11/gpgpdump-0_3_0-released.md" >}} "gpgpdump 0.3.0 をリリースした")の中で「改めて『[OpenPGP] で利用可能なアルゴリズム』をまとめておいたほうがいいかなぁ」と感じたので，覚え書きとして記しておく。
 
 なお [RFC 4880bis] は，名前の通り，ドラフト段階なので今後変わる可能性がある。

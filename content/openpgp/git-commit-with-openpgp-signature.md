@@ -1,8 +1,6 @@
 +++
 date = "2017-12-01T17:51:38+09:00"
-update = "2018-12-07T17:08:24+09:00"
 description = "Git で commit する際に OpenPGP 署名を付加できるらしい。いやぁ，今まで知らなかったよ。物知らずでごめん。"
-draft = false
 tags = ["git", "github", "gnupg", "openpgp", "cryptography", "certification"]
 title = "Git Commit で OpenPGP 署名を行う"
 image = "/images/attention/openpgp.png"
@@ -11,9 +9,6 @@ image = "/images/attention/openpgp.png"
   mathjax = false
   mermaidjs = false
 +++
-
-(move from [{{< ref "/remark/2016/04/git-commit-with-openpgp-signature.md" >}}]({{< ref "/remark/2016/04/git-commit-with-openpgp-signature.md" >}} "Git Commit で OpenPGP 署名を行う"))
-
 
 [Git] で commit する際に OpenPGP 署名を付加できるらしい。
 いやぁ，今まで知らなかったよ。

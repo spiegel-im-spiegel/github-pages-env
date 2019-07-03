@@ -1,24 +1,14 @@
 +++
 date = "2016-04-23T15:17:49+09:00"
-update = "2017-12-01T16:52:53+09:00"
+lastmod = "2016-04-23T15:17:49+09:00"
 tags = ["obsolete"]
 description = "この記事は移動しました。"
 draft = false
 title = "Git Commit で OpenPGP 署名を行う"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
-(move to [{{< ref "/openpgp/git-commit-with-openpgp-signature.md" >}}]({{< ref "/openpgp/git-commit-with-openpgp-signature.md" >}} "Git Commit で OpenPGP 署名を行う"))
+この記事は [OpenPGP セクション]({{< ref "/openpgp/git-commit-with-openpgp-signature.md" >}})に移動しました。
