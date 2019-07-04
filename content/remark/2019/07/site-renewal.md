@@ -22,7 +22,7 @@ pageType = "text"
 実は知らなかったのだが（もの知らずでゴメン）[さくらのレンサバ](https://www.sakura.ne.jp/ "さくらのレンタルサーバ")では `.htaccess` を使ったリダイレクトに正規表現が使えるそうなので
 
 ```text
-RedirectMatch permanent /spiegel/log2/([0-9]*).shtml /blog/$1/
+RedirectMatch permanent /spiegel/log2/(\d{6}?).shtml /blog/$1/
 ```
 
 旧 URL の多くは自動でリダイレクトしてくれるはずである。
