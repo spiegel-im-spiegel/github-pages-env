@@ -640,6 +640,7 @@ $ wget -O - "http://keyserver.ubuntu.com/pks/lookup?search=0x3FA7E0328081BFF6A14
 - [Someone Is Spamming and Breaking a Core Component of PGP’s Ecosystem - VICE](https://www.vice.com/en_us/article/8xzj45/someone-is-spamming-and-breaking-a-core-component-of-pgps-ecosystem)
 - [SKS Keyserver Network Under Attack · GitHub](https://gist.github.com/rjhansen/67ab921ffb4084c865b3618d6955275f)
 - [dkg's blog - OpenPGP Certificate Flooding](https://dkg.fifthhorseman.net/blog/openpgp-certificate-flooding.html)
+- [Impact of SKS keyserver poisoning on Gentoo – Gentoo Linux](https://www.gentoo.org/news/2019/07/03/sks-key-poisoning.html)
 
 - [GnuPG チートシート（鍵作成から失効まで）]({{< ref "http://localhost:1313/openpgp/gnupg-cheat-sheet.md" >}})
 
