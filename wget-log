@@ -1,0 +1,6 @@
+--2019-07-05 21:36:56--  http://keyserver.ubuntu.com/pks/lookup?search=0x3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+keyserver.ubuntu.com (keyserver.ubuntu.com) をDNSに問いあわせています... 91.189.89.49, 91.189.90.55
+keyserver.ubuntu.com (keyserver.ubuntu.com)|91.189.89.49|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 503 Service Unavailable
+2019-07-05 21:36:57 エラー 503: Service Unavailable。
+
