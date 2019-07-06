@@ -127,503 +127,112 @@ $ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E03
 $ wget -O - "http://keyserver.ubuntu.com/pks/lookup?search=0x3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF&op=get"
 ```
 
-とすればテキスト形式でダウンロードできるので，をれを [gpgpdump] に食わせれば
+などとすればとすれば Armor テキストでダウンロードできる。
+汚染されている公開鍵であればかなり巨大になっているだろうから，ある程度の判断はできそうである。
+
+### 【追記 2019-07-06】 [gpgpdump] に HKP アクセスモードを追加した
+
+[gpgpdump] の v0.6.0 をリリースしたが，このバージョンから HKP アクセスモードを追加した。
+
+- [gpgpdump v0.6.0 をリリースした]({{<ref "/release/2019/07/gpgpdump-v0_6_0-is-released.md" >}})
+
+この機能を使えば
 
 ```text
-$ wget -O - "http://keyserver.ubuntu.com/pks/lookup?search=0x3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF&op=get" | gpgpdump
+$ gpgpdump hkp --keyserver keyserver.ubuntu.com --port 80 0x3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
 Public-Key Packet (tag 6) (269 bytes)
-	Version: 4 (current)
-	Public key creation time: 2014-08-05T00:35:03+09:00
-		53 df a8 27
-	Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
-	RSA public modulus n (2048 bits)
-	RSA public encryption exponent e (17 bits)
+    Version: 4 (current)
+    Public key creation time: 2014-08-04T15:35:03Z
+        53 df a8 27
+    Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
+    RSA public modulus n (2048 bits)
+    RSA public encryption exponent e (17 bits)
 User ID Packet (tag 13) (58 bytes)
-	User ID: Xamarin Public Jenkins (auto-signing) <releng@xamarin.com>
+    User ID: Xamarin Public Jenkins (auto-signing) <releng@xamarin.com>
 Signature Packet (tag 2) (284 bytes)
-	Version: 4 (current)
-	Signiture Type: Generic certification of a User ID and Public-Key packet (0x10)
-	Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
-	Hash Algorithm: SHA-1 (hash 2)
-	Hashed Subpacket (6 bytes)
-		Signature Creation Time (sub 2): 2014-09-05T00:26:28+09:00
-	Unhashed Subpacket (10 bytes)
-		Issuer (sub 16): 0xc90f9cb90e1fad0c
-	Hash left 2 bytes
-		9c d7
-	RSA signature value m^d mod n (2046 bits)
+    Version: 4 (current)
+    Signiture Type: Generic certification of a User ID and Public-Key packet (0x10)
+    Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
+    Hash Algorithm: SHA-1 (hash 2)
+    Hashed Subpacket (6 bytes)
+        Signature Creation Time (sub 2): 2014-09-04T15:26:28Z
+    Unhashed Subpacket (10 bytes)
+        Issuer (sub 16): 0xc90f9cb90e1fad0c
+    Hash left 2 bytes
+        9c d7
+    RSA signature value m^d mod n (2046 bits)
 Signature Packet (tag 2) (284 bytes)
-	Version: 4 (current)
-	Signiture Type: Generic certification of a User ID and Public-Key packet (0x10)
-	Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
-	Hash Algorithm: SHA2-256 (hash 8)
-	Hashed Subpacket (6 bytes)
-		Signature Creation Time (sub 2): 2016-12-11T10:14:48+09:00
-	Unhashed Subpacket (10 bytes)
-		Issuer (sub 16): 0x01150a655bbd8102
-	Hash left 2 bytes
-		7f cf
-	RSA signature value m^d mod n (2048 bits)
+    Version: 4 (current)
+    Signiture Type: Generic certification of a User ID and Public-Key packet (0x10)
+    Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
+    Hash Algorithm: SHA2-256 (hash 8)
+    Hashed Subpacket (6 bytes)
+        Signature Creation Time (sub 2): 2016-12-11T01:14:48Z
+    Unhashed Subpacket (10 bytes)
+        Issuer (sub 16): 0x01150a655bbd8102
+    Hash left 2 bytes
+        7f cf
+    RSA signature value m^d mod n (2048 bits)
 Signature Packet (tag 2) (312 bytes)
-	Version: 4 (current)
-	Signiture Type: Positive certification of a User ID and Public-Key packet (0x13)
-	Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
-	Hash Algorithm: SHA-1 (hash 2)
-	Hashed Subpacket (34 bytes)
-		Signature Creation Time (sub 2): 2014-08-05T00:35:03+09:00
-		Key Flags (sub 27) (1 bytes)
-			Flag: This key may be used to certify other keys.
-			Flag: This key may be used to sign data.
-		Preferred Symmetric Algorithms (sub 11) (5 bytes)
-			Symmetric Algorithm: AES with 256-bit key (sym 9)
-			Symmetric Algorithm: AES with 192-bit key (sym 8)
-			Symmetric Algorithm: AES with 128-bit key (sym 7)
-			Symmetric Algorithm: CAST5 (128 bit key, as per) (sym 3)
-			Symmetric Algorithm: TripleDES (168 bit key derived from 192) (sym 2)
-		Preferred Hash Algorithms (sub 21) (5 bytes)
-			Hash Algorithm: SHA2-256 (hash 8)
-			Hash Algorithm: SHA-1 (hash 2)
-			Hash Algorithm: SHA2-384 (hash 9)
-			Hash Algorithm: SHA2-512 (hash 10)
-			Hash Algorithm: SHA2-224 (hash 11)
-		Preferred Compression Algorithms (sub 22) (3 bytes)
-			Compression Algorithm: ZLIB <RFC1950> (comp 2)
-			Compression Algorithm: BZip2 (comp 3)
-			Compression Algorithm: ZIP <RFC1951> (comp 1)
-		Features (sub 30) (1 bytes)
-			Flag: Modification Detection (packets 18 and 19)
-		Key Server Preferences (sub 23) (1 bytes)
-			Flag: No-modify
-	Unhashed Subpacket (10 bytes)
-		Issuer (sub 16): 0xa6a19b38d3d831ef
-	Hash left 2 bytes
-		90 e8
-	RSA signature value m^d mod n (2047 bits)
+    Version: 4 (current)
+    Signiture Type: Positive certification of a User ID and Public-Key packet (0x13)
+    Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
+    Hash Algorithm: SHA-1 (hash 2)
+    Hashed Subpacket (34 bytes)
+        Signature Creation Time (sub 2): 2014-08-04T15:35:03Z
+        Key Flags (sub 27) (1 bytes)
+            Flag: This key may be used to certify other keys.
+            Flag: This key may be used to sign data.
+        Preferred Symmetric Algorithms (sub 11) (5 bytes)
+            Symmetric Algorithm: AES with 256-bit key (sym 9)
+            Symmetric Algorithm: AES with 192-bit key (sym 8)
+            Symmetric Algorithm: AES with 128-bit key (sym 7)
+            Symmetric Algorithm: CAST5 (128 bit key, as per) (sym 3)
+            Symmetric Algorithm: TripleDES (168 bit key derived from 192) (sym 2)
+        Preferred Hash Algorithms (sub 21) (5 bytes)
+            Hash Algorithm: SHA2-256 (hash 8)
+            Hash Algorithm: SHA-1 (hash 2)
+            Hash Algorithm: SHA2-384 (hash 9)
+            Hash Algorithm: SHA2-512 (hash 10)
+            Hash Algorithm: SHA2-224 (hash 11)
+        Preferred Compression Algorithms (sub 22) (3 bytes)
+            Compression Algorithm: ZLIB <RFC1950> (comp 2)
+            Compression Algorithm: BZip2 (comp 3)
+            Compression Algorithm: ZIP <RFC1951> (comp 1)
+        Features (sub 30) (1 bytes)
+            Flag: Modification Detection (packets 18 and 19)
+        Key Server Preferences (sub 23) (1 bytes)
+            Flag: No-modify
+    Unhashed Subpacket (10 bytes)
+        Issuer (sub 16): 0xa6a19b38d3d831ef
+    Hash left 2 bytes
+        90 e8
+    RSA signature value m^d mod n (2047 bits)
 Public-Subkey Packet (tag 14) (269 bytes)
-	Version: 4 (current)
-	Public key creation time: 2014-08-05T00:35:03+09:00
-		53 df a8 27
-	Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
-	RSA public modulus n (2048 bits)
-	RSA public encryption exponent e (17 bits)
+    Version: 4 (current)
+    Public key creation time: 2014-08-04T15:35:03Z
+        53 df a8 27
+    Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
+    RSA public modulus n (2048 bits)
+    RSA public encryption exponent e (17 bits)
 Signature Packet (tag 2) (287 bytes)
-	Version: 4 (current)
-	Signiture Type: Subkey Binding Signature (0x18)
-	Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
-	Hash Algorithm: SHA-1 (hash 2)
-	Hashed Subpacket (9 bytes)
-		Signature Creation Time (sub 2): 2014-08-05T00:35:03+09:00
-		Key Flags (sub 27) (1 bytes)
-			Flag: This key may be used to encrypt communications.
-			Flag: This key may be used to encrypt storage.
-	Unhashed Subpacket (10 bytes)
-		Issuer (sub 16): 0xa6a19b38d3d831ef
-	Hash left 2 bytes
-		ac 35
-	RSA signature value m^d mod n (2048 bits)
+    Version: 4 (current)
+    Signiture Type: Subkey Binding Signature (0x18)
+    Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
+    Hash Algorithm: SHA-1 (hash 2)
+    Hashed Subpacket (9 bytes)
+        Signature Creation Time (sub 2): 2014-08-04T15:35:03Z
+        Key Flags (sub 27) (1 bytes)
+            Flag: This key may be used to encrypt communications.
+            Flag: This key may be used to encrypt storage.
+    Unhashed Subpacket (10 bytes)
+        Issuer (sub 16): 0xa6a19b38d3d831ef
+    Hash left 2 bytes
+        ac 35
+    RSA signature value m^d mod n (2048 bits)
 ```
 
-と公開鍵の中身をダンプ表示できる。
-ちなみに [gpgpdump] は `-j` オプションを使って JSON 形式で出力できるので
-
-```json
-$ wget -O - "http://keyserver.ubuntu.com/pks/lookup?search=0x3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF&op=get" | gpgpdump -j | jq .
-{
-  "Packet": [
-    {
-      "name": "Public-Key Packet (tag 6)",
-      "note": "269 bytes",
-      "Item": [
-        {
-          "name": "Version",
-          "value": "4",
-          "note": "current"
-        },
-        {
-          "name": "Public key creation time",
-          "value": "2014-08-05T00:35:03+09:00",
-          "dump": "53 df a8 27"
-        },
-        {
-          "name": "Public-key Algorithm",
-          "value": "RSA (Encrypt or Sign) (pub 1)"
-        },
-        {
-          "name": "RSA public modulus n",
-          "note": "2048 bits"
-        },
-        {
-          "name": "RSA public encryption exponent e",
-          "note": "17 bits"
-        }
-      ]
-    },
-    {
-      "name": "User ID Packet (tag 13)",
-      "note": "58 bytes",
-      "Item": [
-        {
-          "name": "User ID",
-          "value": "Xamarin Public Jenkins (auto-signing) <releng@xamarin.com>"
-        }
-      ]
-    },
-    {
-      "name": "Signature Packet (tag 2)",
-      "note": "284 bytes",
-      "Item": [
-        {
-          "name": "Version",
-          "value": "4",
-          "note": "current"
-        },
-        {
-          "name": "Signiture Type",
-          "value": "Generic certification of a User ID and Public-Key packet (0x10)"
-        },
-        {
-          "name": "Public-key Algorithm",
-          "value": "RSA (Encrypt or Sign) (pub 1)"
-        },
-        {
-          "name": "Hash Algorithm",
-          "value": "SHA-1 (hash 2)"
-        },
-        {
-          "name": "Hashed Subpacket",
-          "note": "6 bytes",
-          "Item": [
-            {
-              "name": "Signature Creation Time (sub 2)",
-              "value": "2014-09-05T00:26:28+09:00"
-            }
-          ]
-        },
-        {
-          "name": "Unhashed Subpacket",
-          "note": "10 bytes",
-          "Item": [
-            {
-              "name": "Issuer (sub 16)",
-              "value": "0xc90f9cb90e1fad0c"
-            }
-          ]
-        },
-        {
-          "name": "Hash left 2 bytes",
-          "dump": "9c d7"
-        },
-        {
-          "name": "RSA signature value m^d mod n",
-          "note": "2046 bits"
-        }
-      ]
-    },
-    {
-      "name": "Signature Packet (tag 2)",
-      "note": "284 bytes",
-      "Item": [
-        {
-          "name": "Version",
-          "value": "4",
-          "note": "current"
-        },
-        {
-          "name": "Signiture Type",
-          "value": "Generic certification of a User ID and Public-Key packet (0x10)"
-        },
-        {
-          "name": "Public-key Algorithm",
-          "value": "RSA (Encrypt or Sign) (pub 1)"
-        },
-        {
-          "name": "Hash Algorithm",
-          "value": "SHA2-256 (hash 8)"
-        },
-        {
-          "name": "Hashed Subpacket",
-          "note": "6 bytes",
-          "Item": [
-            {
-              "name": "Signature Creation Time (sub 2)",
-              "value": "2016-12-11T10:14:48+09:00"
-            }
-          ]
-        },
-        {
-          "name": "Unhashed Subpacket",
-          "note": "10 bytes",
-          "Item": [
-            {
-              "name": "Issuer (sub 16)",
-              "value": "0x01150a655bbd8102"
-            }
-          ]
-        },
-        {
-          "name": "Hash left 2 bytes",
-          "dump": "7f cf"
-        },
-        {
-          "name": "RSA signature value m^d mod n",
-          "note": "2048 bits"
-        }
-      ]
-    },
-    {
-      "name": "Signature Packet (tag 2)",
-      "note": "312 bytes",
-      "Item": [
-        {
-          "name": "Version",
-          "value": "4",
-          "note": "current"
-        },
-        {
-          "name": "Signiture Type",
-          "value": "Positive certification of a User ID and Public-Key packet (0x13)"
-        },
-        {
-          "name": "Public-key Algorithm",
-          "value": "RSA (Encrypt or Sign) (pub 1)"
-        },
-        {
-          "name": "Hash Algorithm",
-          "value": "SHA-1 (hash 2)"
-        },
-        {
-          "name": "Hashed Subpacket",
-          "note": "34 bytes",
-          "Item": [
-            {
-              "name": "Signature Creation Time (sub 2)",
-              "value": "2014-08-05T00:35:03+09:00"
-            },
-            {
-              "name": "Key Flags (sub 27)",
-              "note": "1 bytes",
-              "Item": [
-                {
-                  "name": "Flag",
-                  "value": "This key may be used to certify other keys."
-                },
-                {
-                  "name": "Flag",
-                  "value": "This key may be used to sign data."
-                }
-              ]
-            },
-            {
-              "name": "Preferred Symmetric Algorithms (sub 11)",
-              "note": "5 bytes",
-              "Item": [
-                {
-                  "name": "Symmetric Algorithm",
-                  "value": "AES with 256-bit key (sym 9)"
-                },
-                {
-                  "name": "Symmetric Algorithm",
-                  "value": "AES with 192-bit key (sym 8)"
-                },
-                {
-                  "name": "Symmetric Algorithm",
-                  "value": "AES with 128-bit key (sym 7)"
-                },
-                {
-                  "name": "Symmetric Algorithm",
-                  "value": "CAST5 (128 bit key, as per) (sym 3)"
-                },
-                {
-                  "name": "Symmetric Algorithm",
-                  "value": "TripleDES (168 bit key derived from 192) (sym 2)"
-                }
-              ]
-            },
-            {
-              "name": "Preferred Hash Algorithms (sub 21)",
-              "note": "5 bytes",
-              "Item": [
-                {
-                  "name": "Hash Algorithm",
-                  "value": "SHA2-256 (hash 8)"
-                },
-                {
-                  "name": "Hash Algorithm",
-                  "value": "SHA-1 (hash 2)"
-                },
-                {
-                  "name": "Hash Algorithm",
-                  "value": "SHA2-384 (hash 9)"
-                },
-                {
-                  "name": "Hash Algorithm",
-                  "value": "SHA2-512 (hash 10)"
-                },
-                {
-                  "name": "Hash Algorithm",
-                  "value": "SHA2-224 (hash 11)"
-                }
-              ]
-            },
-            {
-              "name": "Preferred Compression Algorithms (sub 22)",
-              "note": "3 bytes",
-              "Item": [
-                {
-                  "name": "Compression Algorithm",
-                  "value": "ZLIB <RFC1950> (comp 2)"
-                },
-                {
-                  "name": "Compression Algorithm",
-                  "value": "BZip2 (comp 3)"
-                },
-                {
-                  "name": "Compression Algorithm",
-                  "value": "ZIP <RFC1951> (comp 1)"
-                }
-              ]
-            },
-            {
-              "name": "Features (sub 30)",
-              "note": "1 bytes",
-              "Item": [
-                {
-                  "name": "Flag",
-                  "value": "Modification Detection (packets 18 and 19)"
-                }
-              ]
-            },
-            {
-              "name": "Key Server Preferences (sub 23)",
-              "note": "1 bytes",
-              "Item": [
-                {
-                  "name": "Flag",
-                  "value": "No-modify"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Unhashed Subpacket",
-          "note": "10 bytes",
-          "Item": [
-            {
-              "name": "Issuer (sub 16)",
-              "value": "0xa6a19b38d3d831ef"
-            }
-          ]
-        },
-        {
-          "name": "Hash left 2 bytes",
-          "dump": "90 e8"
-        },
-        {
-          "name": "RSA signature value m^d mod n",
-          "note": "2047 bits"
-        }
-      ]
-    },
-    {
-      "name": "Public-Subkey Packet (tag 14)",
-      "note": "269 bytes",
-      "Item": [
-        {
-          "name": "Version",
-          "value": "4",
-          "note": "current"
-        },
-        {
-          "name": "Public key creation time",
-          "value": "2014-08-05T00:35:03+09:00",
-          "dump": "53 df a8 27"
-        },
-        {
-          "name": "Public-key Algorithm",
-          "value": "RSA (Encrypt or Sign) (pub 1)"
-        },
-        {
-          "name": "RSA public modulus n",
-          "note": "2048 bits"
-        },
-        {
-          "name": "RSA public encryption exponent e",
-          "note": "17 bits"
-        }
-      ]
-    },
-    {
-      "name": "Signature Packet (tag 2)",
-      "note": "287 bytes",
-      "Item": [
-        {
-          "name": "Version",
-          "value": "4",
-          "note": "current"
-        },
-        {
-          "name": "Signiture Type",
-          "value": "Subkey Binding Signature (0x18)"
-        },
-        {
-          "name": "Public-key Algorithm",
-          "value": "RSA (Encrypt or Sign) (pub 1)"
-        },
-        {
-          "name": "Hash Algorithm",
-          "value": "SHA-1 (hash 2)"
-        },
-        {
-          "name": "Hashed Subpacket",
-          "note": "9 bytes",
-          "Item": [
-            {
-              "name": "Signature Creation Time (sub 2)",
-              "value": "2014-08-05T00:35:03+09:00"
-            },
-            {
-              "name": "Key Flags (sub 27)",
-              "note": "1 bytes",
-              "Item": [
-                {
-                  "name": "Flag",
-                  "value": "This key may be used to encrypt communications."
-                },
-                {
-                  "name": "Flag",
-                  "value": "This key may be used to encrypt storage."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Unhashed Subpacket",
-          "note": "10 bytes",
-          "Item": [
-            {
-              "name": "Issuer (sub 16)",
-              "value": "0xa6a19b38d3d831ef"
-            }
-          ]
-        },
-        {
-          "name": "Hash left 2 bytes",
-          "dump": "ac 35"
-        },
-        {
-          "name": "RSA signature value m^d mod n",
-          "note": "2048 bits"
-        }
-      ]
-    }
-  ]
-}
-```
-
-てなこともできる（自画自賛`w`）。
-
+といった感じに [OpenPGP] 公開鍵サーバ上の公開鍵を直接検査できる。
 これなら最悪でも [gpgpdump] がコケるだけなので [OpenPGP] の鍵束にはダメージがいかないだろう。
 
 ## 新しい keys.openpgp.org を使う
@@ -659,8 +268,8 @@ $ wget -O - "http://keyserver.ubuntu.com/pks/lookup?search=0x3FA7E0328081BFF6A14
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/PGP%E2%80%95%E6%9A%97%E5%8F%B7%E3%83%A1%E3%83%BC%E3%83%AB%E3%81%A8%E9%9B%BB%E5%AD%90%E7%BD%B2%E5%90%8D-%E3%82%B7%E3%83%A0%E3%82%BD%E3%83%B3-%E3%82%AC%E3%83%BC%E3%83%95%E3%82%A3%E3%83%B3%E3%82%B1%E3%83%AB/dp/4900900028?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4900900028"><img src="https://images-fe.ssl-images-amazon.com/images/I/5132396FFQL._SL160_.jpg" width="124" alt="photo"></a></div>
   <dl class="fn">
     <dt><a href="https://www.amazon.co.jp/PGP%E2%80%95%E6%9A%97%E5%8F%B7%E3%83%A1%E3%83%BC%E3%83%AB%E3%81%A8%E9%9B%BB%E5%AD%90%E7%BD%B2%E5%90%8D-%E3%82%B7%E3%83%A0%E3%82%BD%E3%83%B3-%E3%82%AC%E3%83%BC%E3%83%95%E3%82%A3%E3%83%B3%E3%82%B1%E3%83%AB/dp/4900900028?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4900900028">PGP―暗号メールと電子署名</a></dt>
-	<dd>シムソン ガーフィンケル</dd>
-	<dd>Simson Garfinkel (原著), ユニテック (翻訳)</dd>
+    <dd>シムソン ガーフィンケル</dd>
+    <dd>Simson Garfinkel (原著), ユニテック (翻訳)</dd>
     <dd>オライリー・ジャパン 1996-04</dd>
     <dd>Book 単行本</dd>
     <dd>ASIN: 4900900028, EAN: 9784900900028</dd>
@@ -674,7 +283,7 @@ $ wget -O - "http://keyserver.ubuntu.com/pks/lookup?search=0x3FA7E0328081BFF6A14
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%9A%97%E5%8F%B7%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80-%E7%AC%AC3%E7%89%88-%E7%A7%98%E5%AF%86%E3%81%AE%E5%9B%BD%E3%81%AE%E3%82%A2%E3%83%AA%E3%82%B9-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B015643CPE?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B015643CPE"><img src="https://images-fe.ssl-images-amazon.com/images/I/51t6yHHVwEL._SL160_.jpg" width="113" alt="photo"></a></div>
   <dl class="fn">
     <dt><a href="https://www.amazon.co.jp/%E6%9A%97%E5%8F%B7%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80-%E7%AC%AC3%E7%89%88-%E7%A7%98%E5%AF%86%E3%81%AE%E5%9B%BD%E3%81%AE%E3%82%A2%E3%83%AA%E3%82%B9-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B015643CPE?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B015643CPE">暗号技術入門 第3版　秘密の国のアリス</a></dt>
-	<dd>結城 浩</dd>
+    <dd>結城 浩</dd>
     <dd>SBクリエイティブ 2015-08-25 (Release 2015-09-17)</dd>
     <dd>eBooks Kindle版</dd>
     <dd>ASIN: B015643CPE</dd>
@@ -688,8 +297,8 @@ $ wget -O - "http://keyserver.ubuntu.com/pks/lookup?search=0x3FA7E0328081BFF6A14
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%9A%97%E5%8F%B7%E5%8C%96-%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%82%92%E6%95%91%E3%81%A3%E3%81%9F%E5%8F%8D%E4%B9%B1%E8%80%85%E3%81%9F%E3%81%A1-%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%83%96%E3%83%B3%E3%83%BB%E3%83%AC%E3%83%93%E3%83%BC/dp/4314009071?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4314009071"><img src="https://images-fe.ssl-images-amazon.com/images/I/51ZRZ62WKCL._SL160_.jpg" width="108" alt="photo"></a></div>
   <dl class="fn">
     <dt><a href="https://www.amazon.co.jp/%E6%9A%97%E5%8F%B7%E5%8C%96-%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%82%92%E6%95%91%E3%81%A3%E3%81%9F%E5%8F%8D%E4%B9%B1%E8%80%85%E3%81%9F%E3%81%A1-%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%83%96%E3%83%B3%E3%83%BB%E3%83%AC%E3%83%93%E3%83%BC/dp/4314009071?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4314009071">暗号化 プライバシーを救った反乱者たち</a></dt>
-	<dd>スティーブン・レビー</dd>
-	<dd>斉藤 隆央 (翻訳)</dd>
+    <dd>スティーブン・レビー</dd>
+    <dd>斉藤 隆央 (翻訳)</dd>
     <dd>紀伊國屋書店 2002-02-16</dd>
     <dd>Book 単行本</dd>
     <dd>ASIN: 4314009071, EAN: 9784314009072</dd>
