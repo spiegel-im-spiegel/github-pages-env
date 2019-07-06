@@ -311,6 +311,7 @@ Literal Data Packet (tag 11) (45 bytes)
 - [The OpenPGP HTTP Keyserver Protocol (HKP) draft-shaw-openpgp-hkp-00.txt](https://tools.ietf.org/id/draft-shaw-openpgp-hkp-00.txt) : HKP の元ネタになっている（らしい）ドラフト案
 - [PGP HKP Keyservers](https://people.spodhuis.org/phil.pennock/pgp-keyservers)
 - [HKPプロトコル](http://ccm.sherry.jp/documents/hkp_protocol.html)
+- [cURL as DSL — cURL as DSL 1.0 documentation](https://shibukawa.github.io/curl_as_dsl/)
 
 [gpgpdump]: https://github.com/spiegel-im-spiegel/gpgpdump "spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer"
 [pgpdump]: http://www.mew.org/~kazu/proj/pgpdump/ "pgpdump"
