@@ -20,7 +20,7 @@ pageType = "text"
 {{< quote >}}go1.12.7 (released 2019/07/08) includes fixes to cgo, the compiler, and the linker. See the [Go 1.12.7 milestone](https://github.com/golang/go/issues?q=milestone%3AGo1.12.7) on our issue tracker for details.{{< /quote >}}
 {{< /fig-quote >}}
 
-さらっと書いてるが[マイルストーン](https://github.com/golang/go/issues?q=milestone%3AGo1.12.7)を見ると結構ヤバげな内容なのだが。
+さらっと書いてるが[マイルストーン](https://github.com/golang/go/issues?q=milestone%3AGo1.12.7)を見ると結構ヤバげな内容なんだよねぇ。
 
 
 例によって [Ubuntu] の APT が提供する [Go] コンパイラは2世代も古くて使いものにならないため[^gosup1]，[ダウンロードページ](https://golang.org/dl/ "Downloads - The Go Programming Language")から [`go1.12.7.linux-amd64.tar.gz`](https://dl.google.com/go/go1.12.7.linux-amd64.tar.gz) を取ってきて任意の場所に展開する。
