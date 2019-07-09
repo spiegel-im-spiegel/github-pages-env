@@ -1,24 +1,9 @@
 +++
 title = "TeX Live 2017 から 2018 へのアップグレード"
 date = "2018-09-24T17:24:14+09:00"
-update = "2018-09-24T17:33:15+09:00"
 description = "今回は update-tlmgr コマンドを使って2017年版から2018年版へアップグレードする方法を考える。"
 image = "/images/attention/kitten.jpg"
 tags = [ "tex", "install" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = true
@@ -148,6 +133,8 @@ Ghostscript 9.23 およびそれ以前には任意のコマンドを実行する
 - [TeX Wiki](https://texwiki.texjp.org/)
     - [TeX Live - TeX Wiki](https://texwiki.texjp.org/?TeX%20Live)
     - [tlmgr - TeX Wiki](https://texwiki.texjp.org/?tlmgr)
+
+- [TeX Live 2018 から 2019 へのアップグレード]({{< ref "/remark/2019/06/upgrade-texlive-from-2018-to-2019.md" >}})
 
 [TeX Live]: http://www.tug.org/texlive/ "TeX Live - TeX Users Group"
 

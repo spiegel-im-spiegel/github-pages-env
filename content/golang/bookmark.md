@@ -165,6 +165,7 @@ title = "Go 言語に関するブックマーク"
 - [GoのInterfaceとは何者なのか #golang #go - niconegoto Blog](http://niconegoto.hatenadiary.jp/entry/2017/12/03/222922)
 - [インタフェースの実装パターン #golang - Qiita](https://qiita.com/tenntenn/items/eac962a49c56b2b15ee8)
 - [Big Sky :: Go で型がインタフェースを実装している事を保証するには](https://mattn.kaoriya.net/software/lang/go/20190702104455.htm)
+- [Goの基本的な型変換 - Qiita](https://qiita.com/lostfind/items/ad7bfc1a4860bb108b9c)
 
 #### 数値型
 

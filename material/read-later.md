@@ -53,14 +53,30 @@
 
 ## セキュリティ＆プライバシー関連
 
+- [Mozillaがセキュリティソフトに起因する「ウェブページに接続できない」問題の対策を発表 - GIGAZINE](https://gigazine.net/news/20190703-mozilla-fixing-antivirus-errors/)
+- [OpenID Foundation、「Sign In with Apple」に懸念--「セキュリティとプライバシーにリスク」 - ZDNet Japan](https://japan.zdnet.com/article/35139458/)
+- [MIT Tech Review: ロンドン警察の顔認識システム、8割が「誤り」＝初の第三者評価で](https://www.technologyreview.jp/nl/london-polices-face-recognition-system-gets-it-wrong-81-of-the-time/)
+- [MIT Tech Review: 「ハッカーへの反撃」認める米新法案、どこが問題か？](https://www.technologyreview.jp/s/148819/five-reasons-hacking-back-is-a-recipe-for-cybersecurity-chaos/)
+- [「スミッシング」が拡大する気配--SMSを使うフィッシングに注意 - ZDNet Japan](https://japan.zdnet.com/article/35139629/)
+- [1000件以上の「Android」アプリが無許可でデータ収集--ICSI調査 - ZDNet Japan](https://japan.zdnet.com/article/35139639/)
+- [TwitterのスパムDM「ONLY FOR YOU」についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/07/09/183000)
 
 ## 天文関連
 
+- [太陽系誕生時のガスからモノへの進化の過程 – 隕石から鉱物の結晶化の証拠を探る | academist Journal](https://academist-cf.com/journal/?p=8097)
+- [アルマ望遠鏡が初めて明らかにした、大質量原始星を取り巻くガス円盤の姿 | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2019/20190708-alma.html)
 
 ## 知財関連
 
 
 ## その他
 
+- [ハイライト ロドルフォ・レーシー 氏（経済協力開発機構(OECD)環境局長）「『排出されるプラスチックごみを減らすことが基本』『各国政府が集まって新しい対策の国際枠組みが必要』」| SciencePortal](https://scienceportal.jst.go.jp/columns/highlight/20190704_01.html)
+- [Amazonはサードパーティが売っている製品の欠陥にも責任があるとの判決  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/04/2019-07-03-appeals-court-rules-amazon-can-be-held-liable-for-third-party-products/)
+- [Google Cloud、複数のファイバケーブルで物理的な損傷によるネットワーク障害。米東1リージョンで － Publickey](https://www.publickey1.jp/blog/19/google_cloud1.html)
+    - [インターネットにとって最悪の1カ月  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/09/2019-07-05-bad-month-for-the-internet/)
+- [SpotifyがミスによりKubernetesの本番クラスタを二度も削除。しかし顧客へのサービスにほとんど影響しなかったのはなぜか？ － Publickey](https://www.publickey1.jp/blog/19/spotifykubernetes.html)
+- [pgpdump 1.5 on PyPI - Libraries.io](https://libraries.io/pypi/pgpdump) : Python 版の pgpdump らしい
+- [国内でDockerコンテナを本番利用しているのは9.2％。コンテナオーケストレーションツールはKubernetesがデファクト。IDC Japanの調査結果 － Publickey](https://www.publickey1.jp/blog/19/docker92kubernetesidc_japan.html)
 
 <!-- eof -->

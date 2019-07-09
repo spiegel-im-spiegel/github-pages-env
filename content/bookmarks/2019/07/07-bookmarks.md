@@ -13,6 +13,7 @@ pageType = "text"
 ## リリース情報
 
 - [The Document Foundation announces LibreOffice 6.2.5 - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/07/04/tdf-announces-libreoffice-625/)
+    - [フリーのオフィス統合環境「LibreOffice 6.2.5」が公開 ～100件超の問題を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1194651.html)
 
 ## セキュリティ＆プライバシー関連
 
