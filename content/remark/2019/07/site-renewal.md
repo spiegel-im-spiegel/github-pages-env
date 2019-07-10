@@ -42,6 +42,7 @@ RedirectMatch permanent /spiegel/log2/(\d{6}?).shtml /blog/$1/
 ## ブックマーク
 
 - [rinopo/sakura-init: さくらのレンタルサーバを借りたとき最初にすること](https://github.com/rinopo/sakura-init)
+- [htaccessで正規表現を使ったリダイレクト - Qiita](https://qiita.com/bass-inu/items/d239cdee54a74ec0d3ef)
 
 - [（不完全ながら） HTTPS 接続に対応した]({{< ref "/remark/2019/01/replace-to-https.md" >}})
 - [さくらのレンタルサーバ上で Hugo によるサイト管理を行う]({{< ref "/remark/2019/01/sakura-and-hugo.md" >}})

@@ -41,6 +41,7 @@ pageType = "text"
 - [MIT Tech Review: 火星で高濃度メタン検出、生命存在の可能性は？](https://www.technologyreview.jp/nl/nasas-mars-rover-has-spotted-a-huge-methane-spike-could-it-be-life/)
 - [MIT Tech Review: 2020年に火星を目指す、探査ミッション4つ](https://www.technologyreview.jp/s/149547/all-the-new-mars-missions-being-launched-in-2020/)
 - [NASAのDragonflyが海のある土星の月「タイタン」の探査に向かう  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/01/2019-06-27-nasas-dragonfly-will-fly-across-the-surface-of-titan-saturns-ocean-moon/)
+    - [2019年7月3日ニュース「大気がある土星の衛星タイタンでドローンを飛ばして探査 NASAがユニークな計画」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2019/07/20190703_01.html)
 - [LightSail 2 Mission Control | The Planetary Society](http://www.planetary.org/explore/projects/lightsail-solar-sailing/lightsail-mission-control.html)
     - [太陽帆走に挑戦中のLightSail 2が見られるダッシュボード  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/06/2019-07-05-new-lightsail-2-mission-dashboard-lets-anyone-check-in-on-solar-sail-spacecrafts-progress/)
 - [Solar eclipse in the Southern Hemisphere «  CIMSS Satellite Blog](http://cimss.ssec.wisc.edu/goes/blog/archives/33670)
