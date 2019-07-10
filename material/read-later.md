@@ -63,7 +63,6 @@
 - [「スミッシング」が拡大する気配--SMSを使うフィッシングに注意 - ZDNet Japan](https://japan.zdnet.com/article/35139629/)
 - [1000件以上の「Android」アプリが無許可でデータ収集--ICSI調査 - ZDNet Japan](https://japan.zdnet.com/article/35139639/)
 - [TwitterのスパムDM「ONLY FOR YOU」についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/07/09/183000)
-
 - [NASA、サイバー攻撃で機密データ流出　侵入口は無許可接続の「Raspberry Pi」 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/1906/23/news012.html)
 - [「Raspberry Pi 4」登場　4Kサポート、CPUも高速化で35ドルから - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/1906/25/news065.html)
 - [マイクロソフトがOneDriveに暗号化機能を追加してセキュリティ強化  |  TechCrunch Japan](https://jp.techcrunch.com/2019/06/26/2019-06-26-microsoft-adds-an-extra-security-layer-to-its-onedrive-storage-service/)
@@ -79,7 +78,6 @@
 
 - [太陽系誕生時のガスからモノへの進化の過程 – 隕石から鉱物の結晶化の証拠を探る | academist Journal](https://academist-cf.com/journal/?p=8097)
 - [アルマ望遠鏡が初めて明らかにした、大質量原始星を取り巻くガス円盤の姿 | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2019/20190708-alma.html)
-
 - [プレスリリース - アルマ望遠鏡、惑星誕生の現場をピンポイントで特定 - アルマ望遠鏡](https://alma-telescope.jp/news/press/twhya-201906)
 - [MIT Tech Review: どこからが「宇宙」か答えられますか？](https://www.technologyreview.jp/s/149540/where-does-space-begin/)
 - [安心できる？隕石が大気中で爆発した「ツングースカ大爆発」レベルの天体衝突、想定よりも低確率だった | sorae：宇宙へのポータルサイト](https://sorae.info/030201/2019_7_8_tunguska.html)
@@ -104,7 +102,6 @@
 - [SpotifyがミスによりKubernetesの本番クラスタを二度も削除。しかし顧客へのサービスにほとんど影響しなかったのはなぜか？ － Publickey](https://www.publickey1.jp/blog/19/spotifykubernetes.html)
 - [pgpdump 1.5 on PyPI - Libraries.io](https://libraries.io/pypi/pgpdump) : Python 版の pgpdump らしい
 - [国内でDockerコンテナを本番利用しているのは9.2％。コンテナオーケストレーションツールはKubernetesがデファクト。IDC Japanの調査結果 － Publickey](https://www.publickey1.jp/blog/19/docker92kubernetesidc_japan.html)
-
 - [やっぱりあったイラン・中国「秘密取引」：岩瀬昇 | エネルギーの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](https://www.fsight.jp/articles/-/45544)
 - [ペパプ・イン・ザ・スカイ! by PPP on Spotify](https://open.spotify.com/album/7u4RFhE5qRdulvCFK1VqhW?si=F7b6i_vPQIG-szeTscH3-g)
 - [MIT Tech Review: 南極の海氷が激減、35年分の増加量が数年で消えた？](https://www.technologyreview.jp/nl/south-pole-sea-ice-is-now-vanishing-at-an-alarming-rate-too/)

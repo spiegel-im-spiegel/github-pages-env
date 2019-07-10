@@ -3,7 +3,7 @@ title = "OpenPGP 公開鍵サーバにおける公開鍵の汚染問題"
 date =  "2019-07-05T23:46:33+09:00"
 description = "新しい OpenPGP 公開鍵サーバや Autocrypt について調査したほうがいいかしらん。"
 image = "/images/attention/openpgp.png"
-tags = [ "openpgp", "pki", "security", "risk", "pgpdump", "gpgpdump" ]
+tags = [ "openpgp", "pki", "security", "certification", "risk", "pgpdump", "gpgpdump" ]
 pageType = "text"
 
 [scripts]
@@ -26,7 +26,7 @@ pageType = "text"
 というのも，そもそも [OpenPGP] の元祖である [PGP] は必ずしも公開鍵サーバを要件としていたわけではなく（[PGP 本](https://www.amazon.co.jp/exec/obidos/ASIN/4900900028/baldandersinf-22/)を読めば分かるが，当時はフロッピー運用とか当たり前の時代だった），後継である [OpenPGP] においてもそのコンセプトが踏襲されているからだ。
 [OpenPGP] の信用モデル（web of trust; 信用の輪）については拙文ながら以下を参考にしてほしい。
 
-- [OpenPGP 鍵管理に関する考察 — OpenPGP の実装 | text.Baldanders.info](https://text.baldanders.info/openpgp/openpgp-key-management/)
+- [OpenPGP 鍵管理に関する考察]({{< ref "/openpgp/openpgp-key-management.md" >}})
 
 この信用モデルの下では
 
@@ -235,6 +235,15 @@ Signature Packet (tag 2) (287 bytes)
 といった感じに [OpenPGP] 公開鍵サーバ上の公開鍵を直接検査できる。
 これなら最悪でも [gpgpdump] がコケるだけなので [OpenPGP] の鍵束にはダメージがいかないだろう。
 
+## 回避策3： [GnuPG] 2.2.17 以降を使って電子署名のインポートを拒否する（2019-07-10 追記）
+
+[GnuPG] 2.2.17 から公開鍵サーバ上の公開鍵について付帯する電子署名を（自己署名を除いて）捨てることにしたようだ。
+
+- [GnuPG 2.2.17 リリース： 公開鍵サーバ・アクセスに関する過激な変更あり]({{< ref "/release/2019/07/gnupg-2_2_17-is-released.md" >}})
+
+これなら最悪は免れるかな。
+公開鍵の管理の仕方が大幅に変わるかもしれないけど。
+
 ## 新しい keys.openpgp.org を使う
 
 今後の話になるだろうが，新しい [OpenPGP] 公開鍵サーバが登場したので，公開鍵の運用をそちらに移行する手もある。
@@ -251,7 +260,7 @@ Signature Packet (tag 2) (287 bytes)
 - [dkg's blog - OpenPGP Certificate Flooding](https://dkg.fifthhorseman.net/blog/openpgp-certificate-flooding.html)
 - [Impact of SKS keyserver poisoning on Gentoo – Gentoo Linux](https://www.gentoo.org/news/2019/07/03/sks-key-poisoning.html)
 
-- [GnuPG チートシート（鍵作成から失効まで）]({{< ref "http://localhost:1313/openpgp/gnupg-cheat-sheet.md" >}})
+- [GnuPG チートシート（鍵作成から失効まで）]({{< ref "/openpgp/gnupg-cheat-sheet.md" >}})
 
 [PGP]: https://tools.ietf.org/html/rfc1991 "RFC 1991 - PGP Message Exchange Formats"
 [OpenPGP]: http://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
