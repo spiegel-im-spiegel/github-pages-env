@@ -99,10 +99,10 @@ tags = [
 </figure>
 {{< /div-gen >}}
 
-ID は [OpenPGP] で定義されるもので ”sym 1” のように表記する。
+ID は [OpenPGP] で定義されるもので “sym 1” のように表記する。
 
-- [RFC 4880bis] では AES-128 (sym 7) が "MUST implement” で AES-256 (sym 9) が "SHOULD implement” となる
-- 現行の [RFC 4880] では TripleDES (sym 2) が "MUST implement” で CAST5 (sym 3) および AES-128 が "SHOULD implement” であるため，今後も [RFC 4880] に対応するならこれらのアルゴリズムを実装する必要がある
+- [RFC 4880bis] では AES-128 (sym 7) が “MUST implement” で AES-256 (sym 9) が “SHOULD implement” となる
+- 現行の [RFC 4880] では TripleDES (sym 2) が “MUST implement” で CAST5 (sym 3) および AES-128 が “SHOULD implement” であるため，今後も [RFC 4880] に対応するならこれらのアルゴリズムを実装する必要がある
 - 旧 PGP（2.6 およびそれ以前）の暗号鍵および暗号データを利用するのであれば IDEA (sym 1) が必要
 
 ちなみに sym 11 から sym 13 の [Camellia 暗号は日本製](https://baldanders.info/blog/000451/ "The Camellia Cipher in OpenPGP — Baldanders.info")である。
@@ -141,8 +141,8 @@ ID は [OpenPGP] で定義されるもので ”sym 1” のように表記す�
 </figure>
 {{< /div-gen >}}
 
-- [RFC 4880bis] では EAX mode が "MUST implement” となる
-- OCB mode は特許問題が絡むため [RFC 4880bis] での取り扱いについて議論がある
+- [RFC 4880bis] では EAX mode が “MUST implement” となる
+- ~~OCB mode は特許問題が絡むため [RFC 4880bis] での取り扱いについて議論がある~~
 
 ## 公開鍵暗号・署名アルゴリズム（Public-Key Algorithms）
 
@@ -211,11 +211,11 @@ ID は [OpenPGP] で定義されるもので ”sym 1” のように表記す�
 </figure>
 {{< /div-gen >}}
 
-ID は [OpenPGP] で定義されるもので ”pub 1” のように表記する。
+ID は [OpenPGP] で定義されるもので “pub 1” のように表記する。
 
-- [RFC 4880bis] では電子署名用に RSA (pub 1) と ECDSA (pub 19)，暗号化用に RSA (pub 1) と ECDH (pub 18) が "MUST implement” となる
-    - [RFC 4880bis] で追加された EdDSA (pub 22) は "SHOULD implement” となる。ちなみに EdDSA は2017年1月に [RFC 8032] として正式に RFC 化された
-- 現行 [RFC 4880] では ElGamal (pub 16) と DSA (pub 17) が "MUST implement” であるため，今後も [RFC 4880] に対応するならこれらのアルゴリズムを実装する必要がある
+- [RFC 4880bis] では電子署名用に RSA (pub 1) と ECDSA (pub 19)，暗号化用に RSA (pub 1) と ECDH (pub 18) が “MUST implement” となる
+    - [RFC 4880bis] で追加された EdDSA (pub 22) は “SHOULD implement” となる。ちなみに EdDSA は2017年1月に [RFC 8032] として正式に RFC 化された
+- 現行 [RFC 4880] では ElGamal (pub 16) と DSA (pub 17) が “MUST implement” であるため，今後も [RFC 4880] に対応するならこれらのアルゴリズムを実装する必要がある
 - RSA Encrypt-Only (pub 2) および RSA Sign-Only (pub 3) は deprecated なので，これらの鍵は新たに作成するべきではない（SHOULD NOT be generated）
 - ElGamal (pub 20) は，元々暗号化と署名の両方できるものだったが，脆弱性が見つかったため [OpenPGP] では使用禁止になった[^elg1]
 - pub 23 および pub 24 は AEAD 用に ID のみ予約されている
@@ -336,12 +336,12 @@ ID は [OpenPGP] で定義されるもので ”pub 1” のように表記す�
 </figure>
 {{< /div-gen >}}
 
-ID は [OpenPGP] で定義されるもので ”hash 1” のように表記する。
+ID は [OpenPGP] で定義されるもので “hash 1” のように表記する。
 
-- [RFC 4880bis] では SHA2-256 (hash 8) が "MUST implement” となる（現行 [RFC 4880] では SHA-1 (hash 2) が "MUST implement”）
+- [RFC 4880bis] では SHA2-256 (hash 8) が “MUST implement” となる（現行 [RFC 4880] では SHA-1 (hash 2) が “MUST implement”）
     - 鍵指紋（key fingerprint）についても V5 では SHA2-256 を使用することになる（現行 [RFC 4880] は V4）
 - [RFC 4880bis] では SHA-1 も基本的に非推奨になる（SHOULD NOT create messages）が，現行 [RFC 4880] の V4 の鍵指紋や MDC (Modification Detection Code) 用に対応するのであれば SHA-1 も実装する必要がある
-- [RFC 4880bis] では MD5 (hash 1) と RIPE-MD/160 (hash 3) は "SHOULD NOT use” となる
+- [RFC 4880bis] では MD5 (hash 1) と RIPE-MD/160 (hash 3) は “SHOULD NOT use” となる
     - ただし，旧 PGP（2.6 およびそれ以前）の暗号鍵および暗号データを利用するのであればこれらが必要
 
 ## その他のアルゴリズム
@@ -379,7 +379,7 @@ S2K はパスフレーズからセッション鍵を生成するためのハッ�
 </figure>
 {{< /div-gen >}}
 
-ID は [OpenPGP] で定義されるもので ”s2k 1” のように表記する。
+ID は [OpenPGP] で定義されるもので “s2k 1” のように表記する。
 
 [OpenPGP] では，パスフレーズ自体はいかなる形（ハッシュ値を含む）でも保存しない。
 このため，パスフレーズを紛失してしまった場合は復元できない[^pp1]。
@@ -431,7 +431,10 @@ ID は [OpenPGP] で定義されるもので ”s2k 1” のように表記す�
 </figure>
 {{< /div-gen >}}
 
-ID は [OpenPGP] で定義されるもので ”comp 1” のように表記する。
+ID は [OpenPGP] で定義されるもので “comp 1” のように表記する。
+
+- 非圧縮（comp 0）は “MUST implement” である
+- [RFC 4880] では ZIP (comp 1) が “SHOULD implement” だが [RFC 4880bis] では ZLIB (comp 2) が “SHOULD implement” となっていて， ZIP (comp 1) については “SHOULD be able to decompress using” と復号時の後方互換性のみ確保されていればいいようだ 
 
 ## アルゴリズムの選択
 
