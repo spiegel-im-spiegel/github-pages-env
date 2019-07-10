@@ -2,7 +2,7 @@
 title = "GnuPG 2.2.17 リリース： 公開鍵サーバ・アクセスに関する過激な変更あり"
 date =  "2019-07-10T21:29:53+09:00"
 description = "今回の変更で公開鍵サーバ上の公開鍵について付帯する電子署名は（自己署名を除いて）捨てられることになった。"
-image = "/images/attention/tools.png"
+image = "/images/attention/openpgp.png"
 tags = [
   "security",
   "cryptography",
