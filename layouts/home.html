@@ -21,7 +21,7 @@
 <section>
 <h2>最新記事（{{ printf "in %d Entries" (len .Site.RegularPages) }}）</h2>
 <ul class="title-list">
-{{ range first 1 .Site.RegularPages }}{{ partial "li.html" . }}{{ end }}
+{{ range first 3 .Site.RegularPages }}{{ partial "li.html" . }}{{ end }}
 </ul>
 
 <h3>最近更新した記事</h3>{{ $ct := 5 }}
