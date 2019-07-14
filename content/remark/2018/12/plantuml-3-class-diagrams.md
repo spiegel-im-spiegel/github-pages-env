@@ -1,21 +1,9 @@
 +++
 title = "真面目に PlantUML (3) : クラス図"
 date = "2018-12-29T18:11:06+09:00"
-update = "2018-12-30T13:10:09+09:00"
 description = "今回はクラス図について。 オブジェクト図やパッケージ図までだどりつけなかった orz"
 image = "/images/attention/kitten.jpg"
-tags = [ "plantuml", "uml", "tools" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
+tags = [ "tools", "plantuml", "uml", "class" ]
 
 [scripts]
   mathjax = false
@@ -30,6 +18,7 @@ tags = [ "plantuml", "uml", "tools" ]
 1. [PlantUML のインストール]({{< ref "/remark/2018/12/plantuml-1.md" >}})
 1. [シーケンス図]({{< ref "/remark/2018/12/plantuml-2-sequence-diagram.md" >}})
 1. [クラス図]({{< ref "/remark/2018/12/plantuml-3-class-diagrams.md" >}}) ← イマココ
+1. [実体関連図]({{< ref "/remark/2019/07/plantuml-4-entity-relationship-diagrams.md" >}})
 
 ## クラスの定義
 

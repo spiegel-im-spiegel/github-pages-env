@@ -40,14 +40,6 @@
 - [openBDのAPIライブラリをGoでつくりました - Qiita](https://qiita.com/seihmd/items/d1f8b3b54cbc93346d78)
 - [Golangでグラフを描く - Qiita](https://qiita.com/yutsuki/items/7de97e09289a915f86b9)
 
-- [ER図を書くのに疲れたら - Qiita](https://qiita.com/genzouw/items/23cd0119715403e6e110)
-- [GitHub - achiku/planter: Generate PlantUML ER diagram textual description from PostgreSQL tables](https://github.com/achiku/planter)
-- [テキストベースでER図を書く - Qiita](https://qiita.com/nori3tsu/items/c36591b8091e9ff89ce5)
-- [5分でわかる、ER図かんたんガイド | Lucidchart](https://www.lucidchart.com/pages/ja/er-diagram)
-- [Entity Relationship diagram syntax and features](http://plantuml.com/ja/ie-diagram)
-- [PlantUMLでER図を描く！ - VELTRA Engineering - Medium](https://medium.com/veltra-engineering/how-to-draw-er-diagram-with-plantuml-86ec2095645e)
-- [PlantUMLでER図を書いて、githubで管理してみた - Qiita](https://qiita.com/2ndponpu/items/23210cd080d358780d79)
-
 
 ## リリース情報
 

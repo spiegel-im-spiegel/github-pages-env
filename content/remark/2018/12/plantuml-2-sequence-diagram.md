@@ -1,21 +1,9 @@
 +++
 title = "真面目に PlantUML (2) : シーケンス図"
 date = "2018-12-28T18:18:03+09:00"
-update = "2018-12-29T18:11:06+09:00"
 description = "さっそく今回はシーケンス図を PlantUML で書いてみようか。"
 image = "/images/attention/kitten.jpg"
-tags = [ "plantuml", "uml", "tools" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
+tags = [ "tools", "plantuml", "uml", "sequence" ]
 
 [scripts]
   mathjax = false
@@ -36,6 +24,7 @@ $ java -Dfile.encoding=UTF-8 -jar plantuml.jar -nometadata -charset UTF-8 -confi
 1. [PlantUML のインストール]({{< ref "/remark/2018/12/plantuml-1.md" >}})
 1. [シーケンス図]({{< ref "/remark/2018/12/plantuml-2-sequence-diagram.md" >}}) ← イマココ
 1. [クラス図]({{< ref "/remark/2018/12/plantuml-3-class-diagrams.md" >}})
+1. [実体関連図]({{< ref "/remark/2019/07/plantuml-4-entity-relationship-diagrams.md" >}})
 
 ## オブジェクトとライフライン
 

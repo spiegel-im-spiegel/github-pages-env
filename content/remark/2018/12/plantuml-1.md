@@ -18,6 +18,7 @@ tags = [ "java", "plantuml", "uml", "tools" ]
 1. [PlantUML のインストール]({{< ref "/remark/2018/12/plantuml-1.md" >}}) ← イマココ
 1. [シーケンス図]({{< ref "/remark/2018/12/plantuml-2-sequence-diagram.md" >}})
 1. [クラス図]({{< ref "/remark/2018/12/plantuml-3-class-diagrams.md" >}})
+1. [実体関連図]({{< ref "/remark/2019/07/plantuml-4-entity-relationship-diagrams.md" >}})
 
 ## [PlantUML] のインストール
 
@@ -397,7 +398,6 @@ skinparam dpi 300 '解像度の設定
 - [Changing colors and fonts](http://plantuml.com/skinparam)
 - [call it from your script using command line](http://plantuml.com/command-line)
 - [PlantUML の使い方 | プログラマーズ雑記帳](http://yohshiy.blog.fc2.com/blog-entry-152.html)
-
 
 [ATOM]: https://atom.io/ "Atom"
 [PlantUML]: http://plantuml.com/ "Open-source tool that uses simple textual descriptions to draw UML diagrams."

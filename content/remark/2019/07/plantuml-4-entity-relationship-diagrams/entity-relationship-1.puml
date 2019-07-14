@@ -1,0 +1,16 @@
+@startuml
+
+class "Entity A" as A {
+  {field} id : int <<PK>>
+  {field} name : string
+  {field} location : string
+}
+class "Entity B" as B {
+  {field} subid : int <<PK>>
+  {field} id : int <<PK,FK>>
+  {field} subname : string
+}
+
+A "1" <.left. "0..n" B : more info >
+
+@enduml

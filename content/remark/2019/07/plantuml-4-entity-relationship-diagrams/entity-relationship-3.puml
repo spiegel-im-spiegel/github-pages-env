@@ -1,0 +1,18 @@
+@startuml
+
+entity "Entity A" as A {
+  id : int
+  --
+  name : string
+  location : string
+}
+entity "Entity B" as B {
+  subid : int
+  id : int <<FK>>
+  --
+  subname : string
+}
+
+A "1" <.left. "0..n" B : more info >
+
+@enduml
