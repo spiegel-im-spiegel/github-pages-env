@@ -35,16 +35,9 @@
 
 - [GitHub - hsaito/gnupg-buildkit: Build Kit for GNU Privacy Guard (2.1.x -- Modern)](https://github.com/hsaito/gnupg-buildkit)
 - [GitHub - hsaito/GnuPG_Buildkit_Package_Lister: A simple program to grab GnuPG file list ot be used for gnupg-buildkit](https://github.com/hsaito/GnuPG_Buildkit_Package_Lister) : .NET Core が要るみたい
-
-- [劉慈欣の話題の『三体』と「暗い森」になりつつあるインターネット - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20190603/darkforresttheory)
-
-- [今さら聞けない！コマンドプロンプトの使い方【初心者向け】 | TechAcademyマガジン](https://techacademy.jp/magazine/5318)
-- [Windowsのコマンドプロンプトでディレクトリを移動する方法](https://tonari-it.com/windows-cmd-cd/)
-
 - [spf13/cobraで作ったCLIツールのbash/zsh補完スクリプトを自動生成する - Qiita](https://qiita.com/minamijoyo/items/9dceb1d8a66e48ab45cd)
-- [ER図を書くのに疲れたら - Qiita](https://qiita.com/genzouw/items/23cd0119715403e6e110)
 
-- [HTTP(S) Proxy in Golang in less than 100 lines of code](https://medium.com/@mlowicki/http-s-proxy-in-golang-in-less-than-100-lines-of-code-6a51c2f2c38c)
+- [ER図を書くのに疲れたら - Qiita](https://qiita.com/genzouw/items/23cd0119715403e6e110)
 
 
 ## リリース情報
