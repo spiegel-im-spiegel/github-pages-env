@@ -591,6 +591,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [golangのGUIパッケージgo-gtkを試す - Qiita](http://qiita.com/intelf___/items/2207c02c306a495d99e6)
 - [gocui の基本的な使い方 - Qiita](https://qiita.com/zenwerk/items/97ebd5e470bdafdb6e42) : CUI (Console User Interface)
 - [GolangでクロスプラットフォームGUIアプリを作る - Qiita](https://qiita.com/nozo_moto/items/40e0fd89bd7fc3eb8b5d)
+- [GoCV - Golang Computer Vision Using OpenCV 4](https://gocv.io/)
+    - [golangでOpenCVを使おう - Qiita](https://qiita.com/besood/items/0045c62b3bc09332c421)
 
 ## Web Microframework for Golang
 

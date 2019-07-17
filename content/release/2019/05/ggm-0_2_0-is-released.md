@@ -91,6 +91,10 @@ $ go mod graph | ggm -c ggm.toml | dot -Tpng -o ggm.png
 [TOML]: https://github.com/toml-lang/toml "toml-lang/toml: Tom's Obvious, Minimal Language"
 [DOT 言語]: https://graphviz.gitlab.io/_pages/doc/info/lang.html "The DOT Language"
 
+## ブックマーク
+
+- [“go mod graph” を視覚化する]({{< ref "/golang/go-mod-graph.md" >}})
+
 ## 参考図書
 
 <div class="hreview">

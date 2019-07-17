@@ -5,17 +5,6 @@ description = "やっつけでコードを書いてみた。"
 image = "/images/attention/go-logo_blue.png"
 tags  = [ "golang", "module" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -150,6 +139,8 @@ java -jar plantuml.jar -nometadata -charset utf-8 -tpng *.puml
 ## ブックマーク
 
 - [真面目に PlantUML]({{< ref "/remark/2018/12/plantuml-1.md" >}})
+- [Go モジュールの依存関係を可視化するツールを作った]({{< ref "/release/2019/05/ggm-0_2_0-is-released.md" >}})
+- [Go モジュールの依存関係を可視化するツール ggm v0.2.0 をリリースした]({{< ref "/release/2019/05/ggm-0_2_0-is-released.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [PlantUML]: http://plantuml.com/ "Open-source tool that uses simple textual descriptions to draw UML diagrams."

@@ -46,20 +46,40 @@
 
 ## バベルのインターネット
 
+- [ウィキペディアの共同創始者が唱えるデジタル独立宣言、並びに非中央集権型ソーシャルネットワークの原則 - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20190715/larrysanger)
 
 ## セキュリティ＆プライバシー関連
 
+- [Oracle Java の脆弱性対策について(CVE-2019-7317等)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20190717-jre.html)
+    - [2019年 7月 Oracle 製品のクリティカルパッチアップデートに関する注意喚起](https://www.jpcert.or.jp/at/2019/at190030.html)
+    - [Oracle、「Java SE 12.0.2」「Java SE 11.0.4」「Java SE 8 Update 221」を公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1196419.html)
+- [MIT Tech Review: 広がる「民間製」スパイウェア、ミャンマーでも見つかる](https://www.technologyreview.jp/nl/spyware-dealers-spotted-in-myanmar/)
 
 ## 天文関連
 
+- [部分月食（2019年7月） | 国立天文台(NAOJ)](https://www.nao.ac.jp/astro/sky/2019/07-topics04.html)
+- [生命が居住可能な惑星にスーパーフレアが与える影響 | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2019/20190716-kyoto.html)
+    - [生命が居住可能な系外惑星へのスーパーフレアの影響を算出　―ハビタブル惑星における宇宙線被ばくの定量化に成功―｜日本原子力研究開発機構：プレス発表](https://www.jaea.go.jp/02/press2019/p19071601/)
+- [はやぶさ２の２度のリュウグウ試料採取成功の意義と今後の課題 | オピニオンの「ビューポイント」](https://vpoint.jp/column/hiroi/140225.html)
 
 ## 知財関連
 
+- ['Repeat Copyright Infringer' Case Against Cloudflare Can Continue, Court Rules - TorrentFreak](https://torrentfreak.com/repeat-copyright-infringer-case-against-cloudflare-can-continue-court-rules-190716/)
 
 ## Linux または Ubuntu に関する話題
 
+- [Ubuntu 19.04 その108 - 令和に対応したNotoフォントがリリースされました - kledgeb](https://kledgeb.blogspot.com/2019/07/ubuntu-1904-108-noto.html)
 
 ## その他
 
+- [「AWS Toolkit for Visual Studio Code」正式版がリリース。AWS Lambdaのステップ実行、ローカルデバッグなど可能に － Publickey](https://www.publickey1.jp/blog/19/aws_toolkit_for_visual_studio_codeaws_lmabda.html)
+- [プライムデー初日にアマゾン労働者と人権団体が抗議  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/16/2019-07-15-amazon-prime-day-protest/)
+- [Libraはスイスの規制下に入るとFacebookが米国議会で証言予定  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/16/2019-07-15-libra-testimony/) : Libre に関しては完全にスルーしているが，この記事は面白かった
+- [デンソー、製造現場のナレッジ活用を促進--自然言語理解ソフトを利用 - ZDNet Japan](https://japan.zdnet.com/article/35139911/)
+- [Python機能 | CASIO カラーグラフ関数電卓 fx-CG50](https://web.casio.jp/dentaku/fxcg50/python.html) : ほしい！ オープン価格だって
+- [MIT Tech Review: フェイスブックが作ったポーカーAIがプロに圧勝、 強すぎて「非公開」](https://www.technologyreview.jp/s/152581/facebooks-new-poker-playing-ai-could-wreck-the-online-poker-industry-so-its-not-being-released/) : 「はったり」ができる AI
+- [CESがセックステック企業の出展を1年限定の試行として認可  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/17/2019-07-16-ces-will-allow-sex-tech-on-a-one-year-trial-bias-and-finally-bans-booth-babes/)
+- [針の頭に載るLiDAR開発のVoyant Photonicsが約4億円超を調達  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/17/2019-07-16-voyant-photonics-raises-4-3m-to-fit-lidar-on-the-head-of-a-pin/)
+- [Amazonプライムデーに便乗する競合店が昨年よりさらに増加して300店超に  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/17/2019-07-16-amazon-prime-day-sees-competition-from-more-than-expected-number-of-retailers/)
 
 <!-- eof -->
