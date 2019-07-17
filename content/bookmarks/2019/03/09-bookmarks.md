@@ -59,7 +59,6 @@ pageType = "text"
     - [How We Know about the Oort Cloud, Distant Home of Comets | Space](https://www.space.com/what-is-the-oort-cloud.html)
     - [Dinosaurs were thriving before asteroid strike that wiped them out | Imperial News | Imperial College London](https://www.imperial.ac.uk/news/190446/dinosaurs-were-thriving-before-asteroid-strike/)
     - [Watch Japan's Hayabusa2 Grab a Piece of an Asteroid in This Incredible Video! | Space](https://www.space.com/hayabusa2-asteroid-ryugu-sampling-video.html)
-- [MIT Tech Review: 蔓延する暗号通貨の「風説の流布」、機械学習で詐欺の兆候を検出](https://www.technologyreview.jp/s/115463/machine-learning-identifies-cryptocurrency-scams-before-they-happen/)
 - [はやぶさ2、4月初週に人工クレーター形成実験へ | sorae：宇宙へのポータルサイト](https://sorae.info/030201/2019_03_05_haya.html)
 - [被災地を宇宙から支えた「きずな」、11年の活躍を終え運用終了へ | sorae：宇宙へのポータルサイト](https://sorae.info/030201/2019_3_2_winds.html)
 - [After 10 Years, the First Kepler Exoplanet Candidate is Confirmed | SETI Institute](https://seti.org/after-10-years-first-kepler-exoplanet-candidate-confirmed)
@@ -97,3 +96,4 @@ pageType = "text"
 - [Microsoft、「Windows電卓」をGitHubでオープンソース化 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/1903/07/news098.html)
 - [デザインパターン ～Chain of Responsibility～ - Qiita](https://qiita.com/i-tanaka730/items/073c106c58d7c74c1706)
 - [ヴイエムウェア、新型ファイアウォールを開発--アプリケーションの正規動作に着目 - ZDNet Japan](https://japan.zdnet.com/article/35133866/)
+- [MIT Tech Review: 蔓延する暗号通貨の「風説の流布」、機械学習で詐欺の兆候を検出](https://www.technologyreview.jp/s/115463/machine-learning-identifies-cryptocurrency-scams-before-they-happen/)
