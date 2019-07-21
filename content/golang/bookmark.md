@@ -753,6 +753,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Big Sky :: TensorFlow Lite の Go binding を書いた。](https://mattn.kaoriya.net/software/lang/go/20190307190947.htm)
 - [Go による機械学習 推論フレームワークの最新動向 2019 - Qiita](https://qiita.com/mattn/items/b01f9bb5c2fa3678734a)
     - [Big Sky :: Go 言語で TensorFlow の学習](https://mattn.kaoriya.net/software/ml/20190516010115.htm)
+- [Go + gonum を使った行列計算まとめ - Qiita](https://qiita.com/po3rin/items/82c9c0195f9e3e38e2f1)
 
 ### ソートアルゴリズム
 

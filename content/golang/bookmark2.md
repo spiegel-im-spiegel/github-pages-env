@@ -120,3 +120,6 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [Excelize version 2.0.0 Released - Qiita](https://qiita.com/xuri/items/73488c5f5f8aa02f240c)
 - [golangでtemplateの読み込みパスを複数定義する - Qiita](https://qiita.com/kazu22002/items/3e7e167fb238cc4779d7)
 - [Dropbox SDK for Goを使ったファイルのアップロードやダウンロード - Qiita](https://qiita.com/maniju/items/0dd9c4c1ae901ce60605)
+- [Go言語で日本語フォーマットをpdf出力 - Qiita](https://qiita.com/ikeponsu/items/bb2fc22a2a7969cb622c)
+- [Go 1.12でgopdf使ってテンプレートのPDFに色々埋め込み - Qiita](https://qiita.com/tao_s/items/be145dc85169689a2a4f)
+- [Big Sky :: 如何にしてけしからん画像を超高速でダウンロードするか](https://mattn.kaoriya.net/software/lang/go/20120322190727.htm)

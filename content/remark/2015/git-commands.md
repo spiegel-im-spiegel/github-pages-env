@@ -229,6 +229,7 @@ $ git log "--pretty=format:- %s %h" v0.6.0..v0.7.0 | grep -v Merge
 - [git cloneする時にローカルユーザーを同時に指定できるサブコマンド作ったよ！ - Qiita](https://qiita.com/k_keisuke/items/142efc5b183d090ff867)
 - [VSSからGitにリポジトリ移行](https://qiita.com/ryo2i/items/96f47d5f32487ed0ade0)
 - [Git でよく使われるコマンドにイラストによる説明を加えて1枚のチートシートにまとめてみた（SVG画像追加） - Qiita](https://qiita.com/kozzy/items/b42ba59a8bac190a16ab)
+- [.gitignoreについて - Qiita](https://qiita.com/sf213471118/items/efbc0abf028a3ead72e7)
 
 ### GitHub
 

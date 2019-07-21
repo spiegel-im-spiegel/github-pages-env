@@ -47,6 +47,8 @@ pageType = "text"
     - [Hayabusa 2 lands on distant asteroid and collects another sample | New Scientist](https://www.newscientist.com/article/2209567-hayabusa-2-lands-on-distant-asteroid-and-collects-another-sample/)
     - [MIT Tech Review: はやぶさ2が小惑星リュウグウに2回目の接地、試料採取に成功](https://www.technologyreview.jp/nl/a-japanese-spacecraft-just-grabbed-more-rocks-from-the-asteroid-ryugu/)
     - [はやぶさ2は小惑星リュウグウへの2回目の着地に成功  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/12/2019-07-11-hayabusa2-lands-on-an-asteroid-and-sends-back-amazing-pictures-to-prove-it/)
+- [はやぶさ２の２度のリュウグウ試料採取成功の意義と今後の課題 | オピニオンの「ビューポイント」](https://vpoint.jp/column/hiroi/140225.html)
+
 
 網羅的に見てないし，特に JAXA のページは見にくいのであまり立ち寄ってなかったりするが，「こんな面白いページがあるよ」とかいう情報があればバンバン下さい。
 できるだけ反映するようにします。
