@@ -1,0 +1,14 @@
+<div class="hreview">{{ if .Book.Image.URL }}
+  <div class="photo">{{ if .Book.URL }}<a class="item url" href="{{ .Book.URL }}">{{ end }}<img src="{{ .Book.Image.URL }}" width="{{ with .Book.Image.Width }}{{ . }}{{ else }}110{{ end }}" alt="photo">{{ if .Book.URL }}</a>{{ end }}</div>{{ end }}
+  <dl class="fn">
+    <dt>{{ if .Book.URL }}<a href="{{ .Book.URL }}">{{ end }}{{ .Book.Title }}{{ if .Book.URL }}</a>{{ end }}</dt>{{ if .Book.Authors }}
+    <dd>{{ range $i, $v := .Book.Authors }}{{ if ne $i 0 }}, {{ end }}{{ $v }}{{ end }}</dd>{{ end }}{{ if .Book.Creators }}
+    <dd>{{ range $i, $v := .Book.Creators }}{{ if ne $i 0 }}, {{ end }}{{ $v }}{{ end }}</dd>{{ end }}
+    <dd>{{ .Book.Publisher }}{{ if gt .Book.PublicationDate.Year 1 }} {{ .Book.PublicationDate }}{{ end }}{{ if gt .Book.LastRelease.Year 1 }} (Release {{ .Book.LastRelease }}){{ end }}</dd>
+    <dd>{{ .Book.ProductType }}</dd>{{ if .Book.Codes }}
+    <dd>{{ range $i, $v := .Book.Codes }}{{ if ne $i 0 }}, {{ end }}{{ $v }}{{ end }}</dd>{{ end }}{{ if gt .Rating 0 }}
+    <dd>Rating<abbr class="rating fa-sm" title="{{ .Rating }}">{{ range .Star }}&nbsp;{{ if . }}<i class="fas fa-star"></i>{{ else }}<i class="far fa-star"></i>{{ end }}{{ end }}</abbr></dd>{{ end }}
+  </dl>
+  <p class="description">{{ .Description }}</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="{{ .Date }}">{{ .Date }}</abbr> (powered by {{ if .Book.Service.URL }}<a href="{{ .Book.Service.URL }}" >{{ end }}{{ .Book.Service.Name }}{{ if .Book.Service.URL }}</a>{{ end }})</p>
+</div>

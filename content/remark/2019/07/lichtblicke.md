@@ -55,6 +55,20 @@ Kindle の肥やしにならないことを祈ろう（読めって！）。
 ## 参考図書
 
 <div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E4%B8%89%E4%BD%93-%E5%8A%89-%E6%85%88%E6%AC%A3-ebook/dp/B07TS9XTSD?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07TS9XTSD"><img src="https://images-fe.ssl-images-amazon.com/images/I/41H5EUGcemL._SL160_.jpg" width="110" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E4%B8%89%E4%BD%93-%E5%8A%89-%E6%85%88%E6%AC%A3-ebook/dp/B07TS9XTSD?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07TS9XTSD">三体</a></dt>
+    <dd>劉 慈欣</dd>
+    <dd>大森 望 (翻訳), 光吉 さくら (翻訳), ワン チャイ (翻訳), 立原 透耶 (監修)</dd>
+    <dd>早川書房 2019-07-04 (Release 2019-07-04)</dd>
+    <dd>Kindle版</dd>
+    <dd>B07TS9XTSD (ASIN)</dd>
+  </dl>
+  <p class="description">流行ってるらしいので買ってみた。 Kindle の肥やしにならないことを祈ろう（読めって！）。</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-07-14">2019-07-14</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home" >PA-API</a>)</p>
+</div>
+
+<div class="hreview">
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%86%E3%82%B9%E3%83%A9%E2%80%95%E7%99%BA%E6%98%8E%E7%9A%84%E6%83%B3%E5%83%8F%E5%8A%9B%E3%81%AE%E8%AC%8E-%E6%96%B0%E6%88%B8-%E9%9B%85%E7%AB%A0/dp/4875932685?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4875932685"><img src="https://images-fe.ssl-images-amazon.com/images/I/51V0LihgIKL._SL160_.jpg" width="106" alt="photo"></a></div>
   <dl class="fn">
     <dt><a href="https://www.amazon.co.jp/%E3%83%86%E3%82%B9%E3%83%A9%E2%80%95%E7%99%BA%E6%98%8E%E7%9A%84%E6%83%B3%E5%83%8F%E5%8A%9B%E3%81%AE%E8%AC%8E-%E6%96%B0%E6%88%B8-%E9%9B%85%E7%AB%A0/dp/4875932685?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4875932685">テスラ―発明的想像力の謎</a></dt>
