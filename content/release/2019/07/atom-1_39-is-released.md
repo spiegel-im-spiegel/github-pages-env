@@ -3,7 +3,7 @@ title = "ATOM エディタ v.1.39.0 がリリースされたのだが..."
 date =  "2019-07-25T22:39:18+09:00"
 description = "実験的に組み込まれている ripgrep がめっさ速い。 こりゃあええわ。"
 image = "/images/attention/tools.png"
-tags = ["atom", "editor", "ubuntu", "install"]
+tags = ["atom", "editor", "ubuntu", "grep", "terminal"]
 pageType = "text"
 
 [scripts]
