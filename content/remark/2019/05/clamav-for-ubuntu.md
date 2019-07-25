@@ -176,8 +176,8 @@ $ curl http://www.eicar.org/download/eicar.com -O
 
 ```text
 $ clamdscan --infected --remove ./eicar.com
-/home/spiegel/work/./eicar.com: Eicar-Test-Signature FOUND
-/home/spiegel/work/./eicar.com: Removed.
+/home/username/work/./eicar.com: Eicar-Test-Signature FOUND
+/home/username/work/./eicar.com: Removed.
 
 ----------- SCAN SUMMARY -----------
 Infected files: 1
