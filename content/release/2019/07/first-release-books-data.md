@@ -49,9 +49,9 @@ Use "books-data [command] --help" for more information about a command.
 
 `openbd` および `paapi` コマンドで取得先を切り換える。
 
-## [PA-API] による初期情報の取得
+## [PA-API] による書籍情報の取得
 
-[PA-API] による初期情報の取得は以下のコマンドラインで行う。
+[PA-API] による書籍情報の取得は以下のコマンドラインで行う。
 
 ```text
 $ books-data paapi -h
@@ -195,9 +195,9 @@ $ books-data paapi -a 427406932X -r 4 -t template/template.html
 
 ってな感じに整形してくれる。
 
-## [openBD] による初期情報の取得
+## [openBD] による書籍情報の取得
 
-[openBD] による初期情報の取得は以下のコマンドラインで行う。
+[openBD] による書籍情報の取得は以下のコマンドラインで行う。
 
 ```text
 $ books-data openbd -h
@@ -306,4 +306,3 @@ $ books-data openbd -i 427406932X -t template/template.bib.txt
 [PA-API]: https://affiliate.amazon.co.jp/assoc_credentials/home "Product Advertising API"
 [openBD]: https://openbd.jp/ "openBD | 書誌情報・書影を自由に"
 [BiBTeX]: https://texwiki.texjp.org/?BibTeX%E9%96%A2%E9%80%A3%E3%83%84%E3%83%BC%E3%83%AB "BibTeX関連ツール - TeX Wiki"
-<!-- eof -->
