@@ -3,18 +3,7 @@ title = "Amazon アイテム検索・情報取得ツール v0.2.1 をリリー�
 date = "2019-01-27T17:45:46+09:00"
 description = "amazon-item review コマンドは v0.2.0 で追加した。せめてバイナリをリリースしておこう。"
 image = "/images/attention/tools.png"
-tags = [ "tools", "amazon", "market", "amazon-item", "golang", "template" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
+tags = [ "tools", "amazon", "market", "amazon-item", "pa-api", "golang", "template" ]
 
 [scripts]
   mathjax = false

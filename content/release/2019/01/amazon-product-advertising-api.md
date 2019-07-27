@@ -1,21 +1,9 @@
 +++
 title = "しょうがないので Amazon アフィリエイト・リンク作成ツールを作ったですよ"
 date = "2019-01-13T22:45:09+09:00"
-update = "2019-01-27T17:45:46+09:00"
 description = "ただし CLI (Command-Line Interface) ツール。"
 image = "/images/attention/go-logo_blue.png"
-tags = [ "tools", "amazon", "market", "golang", "engineering", "site", "amazon-item", "template" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
+tags = [ "tools", "amazon", "market", "golang", "engineering", "site", "amazon-item", "pa-api", "template" ]
 
 [scripts]
   mathjax = false
