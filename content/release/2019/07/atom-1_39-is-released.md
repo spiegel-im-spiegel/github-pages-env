@@ -1,5 +1,5 @@
 +++
-title = "ATOM エディタ v.1.39.0 がリリースされたのだが..."
+title = "ATOM エディタ v.1.39 がリリースされたのだが..."
 date =  "2019-07-25T22:39:18+09:00"
 description = "実験的に組み込まれている ripgrep がめっさ速い。 こりゃあええわ。"
 image = "/images/attention/tools.png"
@@ -75,6 +75,8 @@ ripgrep 0.10.0
 [Microsoft も興味を持ってるみたい](https://japan.zdnet.com/article/35140212/ "マイクロソフト、セキュアなコード実現に向けプログラミング言語「Rust」評価 - ZDNet Japan")だし。
 
 ## ブックマーク
+
+- [Release 1.39.1 · atom/atom · GitHub](https://github.com/atom/atom/releases/tag/v1.39.1)
 
 - [GitHub、フリーのコードエディター「Atom 1.39」をリリース ～あいまい検索が大幅に高速化 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1197983.html)
 

@@ -39,6 +39,8 @@
 
 - [Golangでグラフを描く - Qiita](https://qiita.com/yutsuki/items/7de97e09289a915f86b9)
 
+- [ブログ: オブジェクト指向プログラミング -- 1兆ドル規模の大失敗](https://okuranagaimo.blogspot.com/2019/07/1.html)
+
 
 ## リリース情報
 
