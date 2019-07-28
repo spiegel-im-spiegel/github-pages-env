@@ -409,7 +409,7 @@ func main() {
 }
 ```
 
-このコードを実行すると “(*main.MagicError)(nil)” と出力する。
+このコードを実行すると “`(*main.MagicError)(nil)`” と出力する。
 `Generate()` 関数が返す nil がどのように機能しているか分かると思う。
 「[Go 言語における「オブジェクト」]({{< relref "object-oriented-programming.md" >}})」で解説するが， [Go 言語]の型（[type]）は C++ や Java で言うところの class のように機能するため，このような動きになると思われる[^nil]。
 
