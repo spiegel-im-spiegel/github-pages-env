@@ -49,6 +49,30 @@ Electron が3系になったおかげで [Ubuntu] 環境でメニューバーの
 
 エディタ上でターミナルが使えないのはめっさ不便なんだが。
 
+{{< div-box type="md" >}}
+**追記 2019-07-30**
+
+直った。
+というか，私が間違ってました。
+
+[ATOM](https://atom.io/) 起動時のエラー詳細を開くと以下のような画面になるのだが
+
+{{< fig-img src="./error.png" link="./error.png" width="1918" >}}
+
+ここで右上の `[Rebuild Package]` ボタンを押すと（ボタンだったのかよ `orz`）パッケージのリビルドを行う。
+リビルドが終わると
+
+{{< fig-img src="./done.png" link="./done.png" width="1021" >}}
+
+と表示が変わる。
+これで完了。
+以後は普通に [platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal) が使えるようになる。
+
+- [Incompatible with Atom 1.39.0 - Discussion on Current state of affairs · Issue #707 · platformio/platformio-atom-ide-terminal · GitHub](https://github.com/platformio/platformio-atom-ide-terminal/issues/707)
+
+あぁ，快適。
+{{< /div-box >}}
+
 朗報。
 
 実験的に組み込まれている [ripgrep] がめっさ速い。
