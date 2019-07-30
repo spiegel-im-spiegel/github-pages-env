@@ -39,6 +39,8 @@ pageType = "text"
 ## ブックマーク
 
 - [7payの「二段階認証導入」は正解か？　セキュリティ専門家、徳丸氏の視点 (1/2) - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/1907/13/news020.html)
+- [セブン、「7iD」全ユーザーのパスワードをリセット　セキュリティ強化の一環で - ねとらぼ](https://nlab.itmedia.co.jp/nl/articles/1907/30/news093.html) 
+    - 「よーやくか」と思ったが，よく考えたら 7iD はパスワード変更機能が腐っていて，そこからパスワードが漏洩したんじゃないかって当初言われてたっけ。やっぱ設計がクソだと何もかもが裏目に出るな
 
 - [ひさしぶり「サイバーノーガード戦法」 | Baldanders.info](https://baldanders.info/blog/000470/)
 

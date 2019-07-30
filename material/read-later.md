@@ -44,23 +44,43 @@
 
 ## リリース情報
 
+- [0.56.1: Two Bug Fixes | Hugo](https://gohugo.io/news/0.56.1-relnotes/)
+    - [Hugo 0.56.2: A couple of Bug Fixes | Hugo](https://gohugo.io/news/0.56.2-relnotes/)
 
 ## バベルのインターネット
 
+- [GitHubがイランなどからアクセス不可に、米国の経済制裁により。CEOのフリードマン氏「望んでやっているのではない」 － Publickey](https://www.publickey1.jp/blog/19/githubceo.html)
+- [MIT Tech Review: ローレンス・レッシグに聞く、データ駆動型社会のプライバシー規制](https://www.technologyreview.jp/s/154785/interview-with-lessig-privacy-regulation-in-the-data-driven-society/)
+- [ローレンス・レッシグ教授のインタビューがしみじみ興味深い - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20190730/lawrencelessig)
 
 ## セキュリティ＆プライバシー関連
 
+- https://piyolog.hatenadiary.jp/entry/2019/07/27/041537
+- [Slackが一時ダウンするも復帰  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/30/2019-07-30-yes-slack-is-down-2/)
+- [d払い不正使用発覚後の問合せ対応についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/07/30/065754)
+- [「VxWorks」にゼロデイ脆弱性、「URGENT/11」は2億個のデバイスに影響 - MONOist（モノイスト）](https://monoist.atmarkit.co.jp/mn/articles/1907/30/news047.html)
+    - [2億台のデバイスに影響か――組み込み用リアルタイムOS「VxWorks」に11件の脆弱性を発見 - ITmedia エンタープライズ](https://www.itmedia.co.jp/enterprise/articles/1907/30/news069.html)
+- [JPCERT/CC、マルウェア分析支援ツールをGitHubで公開 - ZDNet Japan](https://japan.zdnet.com/article/35140620/)
+- [米銀行のクラウドサーバーから1億人規模の個人情報流出、AWS元従業員が逮捕 - Engadget 日本版](https://japanese.engadget.com/2019/07/30/capital-one-1-aws/)
+- [ACLU on the GCHQ Backdoor Proposal - Schneier on Security](https://www.schneier.com/blog/archives/2019/07/aclu_on_the_gch.html)
 
 ## 天文関連
 
+- [2019年7月30日ニュース「小惑星が25日午前に地球にニアミスしていた 落下すれば都市壊滅の可能性も直前まで気づかず」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2019/07/20190730_01.html)
 
 ## 知財関連
 
+- [海賊版サイト対策 ブロッキングの前にやるべきこと｜楠 正憲（国際大学GLOCOM 客員研究員）](https://comemo.nikkei.com/n/n576ff142d5f9)
 
 ## Linux または Ubuntu に関する話題
 
 
 ## その他
 
+- [noteがTypeScript×WebGL活用の高速コミックビューア開発、「キャプテン翼」サイトが採用  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/28/note-comic-viewer/)
+- [「報復」でも「禁輸」でもない「日韓輸出管理問題」4つの「誤解と曲解」：鈴木一人 | 国際機関の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](https://www.fsight.jp/articles/-/45673) : 有料記事
+- [Golangで郵便番号から住所を取得するAPIを作成する - Qiita](https://qiita.com/komatzz/items/822acfb273ccb0db3f48)
+- [インターネットは書くことをより良いものにしている？ - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20190730/becauseinternet)
+- [トーバルズ氏：Linuxでフロッピーディスクドライバーは「面倒を見る人がいなくなった」 - ZDNet Japan](https://japan.zdnet.com/article/35140578/)
 
 <!-- eof -->
