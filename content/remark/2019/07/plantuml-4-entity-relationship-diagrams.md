@@ -60,7 +60,7 @@ A "1" <.left. "0..n" B : more info >
 @enduml
 ```
 
-{{< fig-img src="./entity-relationship-1.png" link="./entity-relationship-1.punl" width="973" >}}
+{{< fig-img src="./entity-relationship-1.png" link="./entity-relationship-1.puml" width="973" >}}
 
 これで `Entity B` が `Entity A` の依存エンティティであることが分かる（これに対して外部キーを含まない `Entity A` を独立エンティティと呼ぶ）。
 またステレオタイプを使って `PK` や `FK` を表現している。
@@ -93,7 +93,7 @@ A ||.right.o{ B : more info >
 @enduml
 ```
 
-{{< fig-img src="./entity-relationship-2.png" link="./entity-relationship-2.punl" width="973" >}}
+{{< fig-img src="./entity-relationship-2.png" link="./entity-relationship-2.puml" width="973" >}}
 
 実体の属性は `--` や `==` や `..` を使って任意に仕切ることができるが，通常は2つに分けて上半分を主キー属性，下半分を非キー属性とする。
 
@@ -106,7 +106,7 @@ Entity05 ||--o{ Entity06
 Entity07 |o--|| Entity08
 ```
 
-{{< fig-img src="./crows-foot.png" link="./crows-foot.punl" width="1140" >}}
+{{< fig-img src="./crows-foot.png" link="./crows-foot.puml" width="1140" >}}
 
 という感じに記述して濃度を表現する。
 これは多重度表現の
@@ -118,14 +118,14 @@ Entity05 "1" -- "0..n" Entity06
 Entity07 "0,1" -- "1" Entity08
 ```
 
-{{< fig-img src="./multiplicity.png" link="./multiplicity.punl" width="1140" >}}
+{{< fig-img src="./multiplicity.png" link="./multiplicity.puml" width="1140" >}}
 
 と同等である。
 
 なお [PlantUML] では IE 記法の依存エンティティを表現できない。
 したがって先ほどの
 
-{{< fig-img src="./entity-relationship-2.png" link="./entity-relationship-2.punl" width="973" >}}
+{{< fig-img src="./entity-relationship-2.png" link="./entity-relationship-2.puml" width="973" >}}
 
 において `Entity A` と `Entity B` のどちらが依存エンティティなのか分かりにくい（まぁ属性を見れば分かるけど）。
 独立エンティティと依存エンティティを明示的に区別したいのであれば，苦肉の策ではあるが UML の[クラス図]と IE 記法を混ぜて
@@ -151,7 +151,7 @@ A "1" <.left. "0..n" B : more info >
 @enduml
 ```
 
-{{< fig-img src="./entity-relationship-3.png" link="./entity-relationship-3.punl" width="973" >}}
+{{< fig-img src="./entity-relationship-3.png" link="./entity-relationship-3.puml" width="973" >}}
 
 などとするのがいいかもしれない。
 その辺はお好みで。
