@@ -254,6 +254,11 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 
 ### OpenJDK を入れる{#jdk}
 
+{{< div-box type="md" >}}
+**【追記 2019-07-31】**
+どうも Java 12 は放置プレイっぽいので [APT は使わない方向]({{< ref "/remark/2019/07/reinstalling-openjdk.md" >}} "結局 OpenJDK をインストールし直すことにした")で。
+{{< /div-box >}}
+
 [OpenJDK] は3月と9月の半年毎にバージョンアップが行われる。
 リリース時期とサポート期間は以下の通り（ディストリビューションによっては延長サポートあり）。
 

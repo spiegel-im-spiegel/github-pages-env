@@ -96,7 +96,6 @@ pageType = "text"
 | [Thunderbird] | `thunderbird`                   | 既定でインストール済                                                                |
 | ifconfig      | `net-tools` [^nt1]              | 何故か既定で入ってなかった                                                          |
 | [curl]        | `curl`                          | 何故か既定で入ってなかった                                                          |
-| [OpenJDK]     | `openjdk-12-jre`                | JRE のみの場合。バージョンごとにパッケージ名が異なるので注意（左は Java 12 の場合） |
 | [KDiff3]      | `kdiff3`                        |                                                                                     |
 | [Graphviz]    | `graphviz`                      |                                                                                     |
 | [vim]         | `vim`                           | 既定で入ってるのは `vim-tiny` で `vim` を入れると置き換わる                         |
@@ -112,7 +111,6 @@ pageType = "text"
 [Thunderbird]: https://www.thunderbird.net/ "Thunderbird — Software made to make email easier. — Mozilla"
 [KDiff3]: http://kdiff3.sourceforge.net/
 [curl]: https://curl.haxx.se/
-[OpenJDK]: http://openjdk.java.net/
 [Graphviz]: https://www.graphviz.org/ "Graphviz - Graph Visualization Software"
 [BOINC]: https://boinc.berkeley.edu/
 
@@ -297,6 +295,16 @@ $ sudo tlmgr update --self --all
 を参照のこと。
 
 [TeX Live]: http://www.tug.org/texlive/ "TeX Live - TeX Users Group"
+
+### [OpenJDK]
+
+詳しくは
+
+- [結局 OpenJDK をインストールし直すことにした]({{< ref "http://localhost:1313/remark/2019/07/reinstalling-openjdk.md" >}})
+
+を参照のこと。
+
+[OpenJDK]: http://openjdk.java.net/
 
 ## ソースファイルから直接ビルドを行う
 

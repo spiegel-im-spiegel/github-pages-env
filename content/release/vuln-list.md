@@ -59,7 +59,7 @@ pageType = "text"
 - [フリーのメールソフト「Thunderbird」v60.8.0が正式公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1195473.html)
 - [「Thunderbird」v60.7.2が公開 ～「Firefox」で悪用されているゼロデイ脆弱性に対処 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1191820.html)
 
-## Libre Office
+## LibreOffice
 
 現在は APT を使わず公式バイナリをダウンロードして手動でインストールしているが，参考情報として残しておく。
 
@@ -73,11 +73,7 @@ pageType = "text"
 
 ## Java
 
-[Ubuntu] 19.04 リリース時の 12.0.1 から動かない。
-どうやら全くやる気がない模様 `orz`
-
-Java には Oracle Java と OpenJDK の2系統があるが，両者は連動しているため，ここでは Oracle Java を横目に見つつ OpenJDK のリリースのみを追いかけることにする。
-追いかけても無駄な気がするが。
+現在は APT を使わず公式バイナリをダウンロードして手動でインストールしているが，参考情報として残しておく。
 
 | Official Version | Release Date | Update by Ubuntu | Release Date |   delay |
 | ----------------:| ------------ | ----------------:| ------------ | -------:|
@@ -87,6 +83,6 @@ Java には Oracle Java と OpenJDK の2系統があるが，両者は連動し�
 
 - [Oracle Java の脆弱性対策について(CVE-2019-7317等)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20190717-jre.html)
 
-- [jdk.java.net/12](http://jdk.java.net/12/)
+- [結局 OpenJDK をインストールし直すことにした]({{< ref "/remark/2019/07/reinstalling-openjdk.md" >}})
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
