@@ -46,6 +46,7 @@
 
 - [0.56.1: Two Bug Fixes | Hugo](https://gohugo.io/news/0.56.1-relnotes/)
     - [Hugo 0.56.2: A couple of Bug Fixes | Hugo](https://gohugo.io/news/0.56.2-relnotes/)
+- [「Google Chrome 76」が正式公開 ～オムニバーからPWAのインストールが可能に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1199187.html)
 
 ## バベルのインターネット
 
@@ -55,7 +56,10 @@
 
 ## セキュリティ＆プライバシー関連
 
-- https://piyolog.hatenadiary.jp/entry/2019/07/27/041537
+- [Mozillaは悪名漂うUAEのDarkMatterをHTTPSの証明提供者として否認  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/10/2019-07-09-darkmatter-firefox-certificates/)
+- [MIT Tech Review: グーグル・アシスタントの音声データが漏洩、GDPR違反の疑いも](https://www.technologyreview.jp/nl/humans-might-be-listening-to-your-google-assistant-recordings/)
+- [MIT Tech Review: 位置情報などこっそり収集、グーグルがストーカーアプリを削除](https://www.technologyreview.jp/nl/google-has-booted-seven-stalkerware-apps-off-its-play-store/)
+- [クロネコメンバーズの不正ログインについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/07/27/041537)
 - [Slackが一時ダウンするも復帰  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/30/2019-07-30-yes-slack-is-down-2/)
 - [d払い不正使用発覚後の問合せ対応についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/07/30/065754)
 - [「VxWorks」にゼロデイ脆弱性、「URGENT/11」は2億個のデバイスに影響 - MONOist（モノイスト）](https://monoist.atmarkit.co.jp/mn/articles/1907/30/news047.html)
@@ -63,20 +67,35 @@
 - [JPCERT/CC、マルウェア分析支援ツールをGitHubで公開 - ZDNet Japan](https://japan.zdnet.com/article/35140620/)
 - [米銀行のクラウドサーバーから1億人規模の個人情報流出、AWS元従業員が逮捕 - Engadget 日本版](https://japanese.engadget.com/2019/07/30/capital-one-1-aws/)
 - [ACLU on the GCHQ Backdoor Proposal - Schneier on Security](https://www.schneier.com/blog/archives/2019/07/aclu_on_the_gch.html)
+- [「iOS」に潜む脆弱性のPoC、グーグルの研究者が公開 - ZDNet Japan](https://japan.zdnet.com/article/35140666/)
+- [100万台以上のProFTPdサーバに脆弱性、アップデートまでは回避策を | マイナビニュース](https://news.mynavi.jp/article/20190731-867820/)
+- [「GNU Patch」に複数の脆弱性 | Think IT（シンクイット）](https://thinkit.co.jp/news/bn/16514)
 
 ## 天文関連
 
+- [MIT Tech Review: 観測史上最高エネルギーの光子を検出、「かに星雲」の謎に光](https://www.technologyreview.jp/s/148840/the-crab-nebula-just-blasted-earth-with-the-highest-energy-photons-ever-recorded/)
+- [お知らせ - 共同利用観測の一時休止について - すばる望遠鏡](https://subarutelescope.org/Announce/2019/07/16/j_index.html)
+    - [Maunakea Observatories Suspend Summit Activities to Ensure Safety of All During TMT Construction Preparations – W. M. Keck Observatory](http://www.keckobservatory.org/mko-news/)
+    - [ハワイ島、マウナケア山頂の望遠鏡建設開始へ](https://www.hawaii-arukikata.com/news/2019_0717_maunakea.html)
 - [2019年7月30日ニュース「小惑星が25日午前に地球にニアミスしていた 落下すれば都市壊滅の可能性も直前まで気づかず」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2019/07/20190730_01.html)
+- [MIT Tech Review: 原因不明の「銃創探し」からダークマターの特徴を導く新研究](https://www.technologyreview.jp/s/155344/what-a-lack-of-unexplained-gory-deaths-tells-us-about-dark-matter/)
 
 ## 知財関連
 
+- [Fake MPAA Asks Google to Remove Thousands of URLs, Including MPAA.org - TorrentFreak](https://torrentfreak.com/fake-mpaa-asks-google-to-remove-thousands-of-urls-including-mpaa-org-190714/)
+- [海賊版サイトの敵は海賊版サイト？ 権利者を騙る虚偽のDMCA削除要請が横行 | P2Pとかその辺のお話R](https://p2ptk.org/copyright/2642)
 - [海賊版サイト対策 ブロッキングの前にやるべきこと｜楠 正憲（国際大学GLOCOM 客員研究員）](https://comemo.nikkei.com/n/n576ff142d5f9)
 
 ## Linux または Ubuntu に関する話題
 
+- [Ubuntu 19.10 その18 - ちらつきのない起動画面の提供とテストの呼び掛け - kledgeb](https://kledgeb.blogspot.com/2019/07/ubuntu-1910-18.html)
 
 ## その他
 
+- [MIT Tech Review: ブロックチェーン・ベースのカードゲームが示す、「所有」の未来](https://www.technologyreview.jp/s/152574/this-blockchain-based-card-game-shows-us-the-future-of-ownership/)
+- [MIT Tech Review: 人工パターンに集光できるメタレンズ、チップ応用に期待も](https://www.technologyreview.jp/s/152196/why-metalenses-are-about-to-revolutionize-chip-making/)
+- [Facebookが解体されるべき理由をティム・ウー教授が改めて解説する - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20190723/facebookbrokenup)
+- [ASCII.jp：実際に動作する「マクスウェルの悪魔」が作られる](https://ascii.jp/elem/000/001/104/1104305/)
 - [noteがTypeScript×WebGL活用の高速コミックビューア開発、「キャプテン翼」サイトが採用  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/28/note-comic-viewer/)
 - [「報復」でも「禁輸」でもない「日韓輸出管理問題」4つの「誤解と曲解」：鈴木一人 | 国際機関の部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](https://www.fsight.jp/articles/-/45673) : 有料記事
 - [Golangで郵便番号から住所を取得するAPIを作成する - Qiita](https://qiita.com/komatzz/items/822acfb273ccb0db3f48)

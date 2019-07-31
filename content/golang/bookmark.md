@@ -100,6 +100,7 @@ title = "Go 言語に関するブックマーク"
 ### Go 1.13 is released
 
 - [Go 1.13 Release Notes - The Go Programming Language](https://tip.golang.org/doc/go1.13)
+    - [ドラフトリリースノート - Go 1.13 の紹介 - Qiita](https://qiita.com/c-yan/items/b2f5e5c168d517594eb2)
 - [Next steps toward Go 2 - The Go Blog](https://blog.golang.org/go2-next-steps)
 
 ### Go 2 Draft

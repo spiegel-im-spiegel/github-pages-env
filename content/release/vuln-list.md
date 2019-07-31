@@ -81,7 +81,8 @@ pageType = "text"
 
 ### ブックマーク
 
-- [Oracle Java の脆弱性対策について(CVE-2019-7317等)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20190717-jre.html)
+- [OpenJDK Vulnerability Advisory: 2019/7/16](https://openjdk.java.net/groups/vulnerability/advisories/2019-07-16)
+    - [Oracle Java の脆弱性対策について(CVE-2019-7317等)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20190717-jre.html)
 
 - [結局 OpenJDK をインストールし直すことにした]({{< ref "/remark/2019/07/reinstalling-openjdk.md" >}})
 

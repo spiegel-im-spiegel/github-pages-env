@@ -22,6 +22,10 @@ pageType = "text"
 
 ## セキュリティ＆プライバシー関連
 
+- [ドコモ、「身に覚えのないdアカウントのセキュリティコードの通知」で注意呼び掛け - ケータイ Watch](https://k-tai.watch.impress.co.jp/docs/news/1197345.html)
+- [Instagramアカウントをハッキングする方法をハッカーが公開 - GIGAZINE](https://gigazine.net/news/20190722-hack-instagram-account/)
+- [Linux 5.1.17以前にローカルユーザの権限昇格の脆弱性 | Think IT（シンクイット）](https://thinkit.co.jp/news/bn/16467)
+- [「Windows 7」サポート終了控え、医療業界などでやはり移行に課題？ - ZDNet Japan](https://japan.zdnet.com/article/35140183/)
 - [Oracle Java の脆弱性対策について(CVE-2019-7317等)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20190717-jre.html)
     - [2019年 7月 Oracle 製品のクリティカルパッチアップデートに関する注意喚起](https://www.jpcert.or.jp/at/2019/at190030.html)
     - [Oracle、「Java SE 12.0.2」「Java SE 11.0.4」「Java SE 8 Update 221」を公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1196419.html)
