@@ -42,6 +42,8 @@
 - [ブログ: オブジェクト指向プログラミング -- 1兆ドル規模の大失敗](https://okuranagaimo.blogspot.com/2019/07/1.html)
 
 
+- [「インターノット」の敗北 | おごちゃんの雑文](http://www.nurs.or.jp/~ogochan/essay/archives/5487)
+
 ## リリース情報
 
 - [0.56.1: Two Bug Fixes | Hugo](https://gohugo.io/news/0.56.1-relnotes/)
@@ -53,6 +55,8 @@
 - [GitHubがイランなどからアクセス不可に、米国の経済制裁により。CEOのフリードマン氏「望んでやっているのではない」 － Publickey](https://www.publickey1.jp/blog/19/githubceo.html)
 - [MIT Tech Review: ローレンス・レッシグに聞く、データ駆動型社会のプライバシー規制](https://www.technologyreview.jp/s/154785/interview-with-lessig-privacy-regulation-in-the-data-driven-society/)
 - [ローレンス・レッシグ教授のインタビューがしみじみ興味深い - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20190730/lawrencelessig)
+- [GitHubがイランなどからアクセス不可に、米国の経済制裁により。CEOのフリードマン氏「望んでやっているのではない」 － Publickey](https://www.publickey1.jp/blog/19/githubceo.html)
+    - [「インターノット」の敗北 | おごちゃんの雑文](http://www.nurs.or.jp/~ogochan/essay/archives/5487)
 
 ## セキュリティ＆プライバシー関連
 
@@ -66,10 +70,14 @@
     - [2億台のデバイスに影響か――組み込み用リアルタイムOS「VxWorks」に11件の脆弱性を発見 - ITmedia エンタープライズ](https://www.itmedia.co.jp/enterprise/articles/1907/30/news069.html)
 - [JPCERT/CC、マルウェア分析支援ツールをGitHubで公開 - ZDNet Japan](https://japan.zdnet.com/article/35140620/)
 - [米銀行のクラウドサーバーから1億人規模の個人情報流出、AWS元従業員が逮捕 - Engadget 日本版](https://japanese.engadget.com/2019/07/30/capital-one-1-aws/)
+    - [凄腕なのにSNSでドヤって逮捕。とあるハッカーが米大手銀行Capital Oneから一億人以上の個人情報を盗み出す | ギズモード・ジャパン](https://www.gizmodo.jp/2019/07/a-hacker-stole-capital-one-data-on-106-million-customer.html)
 - [ACLU on the GCHQ Backdoor Proposal - Schneier on Security](https://www.schneier.com/blog/archives/2019/07/aclu_on_the_gch.html)
 - [「iOS」に潜む脆弱性のPoC、グーグルの研究者が公開 - ZDNet Japan](https://japan.zdnet.com/article/35140666/)
 - [100万台以上のProFTPdサーバに脆弱性、アップデートまでは回避策を | マイナビニュース](https://news.mynavi.jp/article/20190731-867820/)
 - [「GNU Patch」に複数の脆弱性 | Think IT（シンクイット）](https://thinkit.co.jp/news/bn/16514)
+- [MIT Tech Review: 米司法長官らが「バックドア」設置を再び要求、合法化訴え](https://www.technologyreview.jp/nl/barrs-call-for-encryption-backdoors-has-reawakened-a-years-old-debate/)
+- [Another Attack Against Driverless Cars - Schneier on Security](https://www.schneier.com/blog/archives/2019/07/another_attack_.html)
+- [ホンダの内部ネットワーク情報を格納したElasticSearchが公開されていた件についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/08/01/070316)
 
 ## 天文関連
 
@@ -79,6 +87,7 @@
     - [ハワイ島、マウナケア山頂の望遠鏡建設開始へ](https://www.hawaii-arukikata.com/news/2019_0717_maunakea.html)
 - [2019年7月30日ニュース「小惑星が25日午前に地球にニアミスしていた 落下すれば都市壊滅の可能性も直前まで気づかず」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2019/07/20190730_01.html)
 - [MIT Tech Review: 原因不明の「銃創探し」からダークマターの特徴を導く新研究](https://www.technologyreview.jp/s/155344/what-a-lack-of-unexplained-gory-deaths-tells-us-about-dark-matter/)
+- [NASAの最新の惑星探索衛星が3つの新世界を見つけた  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/31/2019-07-30-nasas-newest-planet-hunting-satellite-finds-three-new-worlds/)
 
 ## 知財関連
 
@@ -101,5 +110,17 @@
 - [Golangで郵便番号から住所を取得するAPIを作成する - Qiita](https://qiita.com/komatzz/items/822acfb273ccb0db3f48)
 - [インターネットは書くことをより良いものにしている？ - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20190730/becauseinternet)
 - [トーバルズ氏：Linuxでフロッピーディスクドライバーは「面倒を見る人がいなくなった」 - ZDNet Japan](https://japan.zdnet.com/article/35140578/)
+- [VMware、GPUやFPGAの仮想化機能をvSphereに統合へ、「Bitfusion」買収を発表 － Publickey](https://www.publickey1.jp/blog/19/vmwaregpufpgabitfusionvsphere.html)
+- [スキルの選択と育成から始めるデータ分析組織の作り方--R言語を土台に体制構築 - ZDNet Japan](https://japan.zdnet.com/article/35140624/)
+- [旭酒造、販売管理システムの基盤強化--「獺祭」のグローバル市場拡大を狙う - ZDNet Japan](https://japan.zdnet.com/article/35140614/)
+- [「順調な上半期」という発表の裏でファーウェイが語らなかったのは「スマホの伸びゼロ」  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/31/2019-07-30-huawei-hides-quarterly-halt/)
+- [<webview>からBrowserViewへの移行 - Qiita](https://qiita.com/nekobato/items/476cf1ce626626972f30)
+- [Kazuho's Weblog: HTTP のプライオリティが大きく変わろうとしている話（その他 IETF 105 雑感）](http://blog.kazuhooku.com/2019/07/http-ietf-105.html)
+- [エンタープライズ向けに磨き上げられた機能を活用して、中小規模システムのITインフラを変革する「C190」 | マイナビニュース](https://news.mynavi.jp/kikaku/20190723-860957/)
+- [GraphQL | A query language for your API](https://graphql.org/)
+    - [GraphQL入門 - 使いたくなるGraphQL - Qiita](https://qiita.com/bananaumai/items/3eb77a67102f53e8a1ad)
+- [Google CloudでもvSphere仮想マシンの実行環境を提供へ、VMwareとGoogle Clooudが提携 － Publickey](https://www.publickey1.jp/blog/19/google_cloudvspherevmwaregoogle_clooud.html)
+- [UAEアブダビは急転回でイランとの対話に邁進：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](https://www.fsight.jp/articles/-/45687)
+- [夏休みの工作特別企画　壁のスイッチをwifiにする - Qiita](https://qiita.com/hiratarich/items/37f09f06b3a75178f515)
 
 <!-- eof -->

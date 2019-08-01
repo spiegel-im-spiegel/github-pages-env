@@ -1,24 +1,9 @@
 +++
 title = "次期 Go 言語で導入される（かもしれない）総称型について予習する"
 date = "2018-11-11T06:10:48+09:00"
-update = "2018-11-11T15:28:29+09:00"
 description = "現時点ではまだドラフト案なのでフワっとした説明になるけど，あしからずご了承の程を。"
 image = "/images/attention/go-logo_blue.png"
 tags = [ "golang", "language", "programming", "generics", "type", "contract" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false
@@ -285,6 +270,7 @@ contract readable(r T) {
 ## ブックマーク
 
 - [Go 2のgenerics/contract簡易まとめ](https://qiita.com/lufia/items/242d25e8c93d88e22a2e)
+- [Why Generics? - The Go Blog](https://blog.golang.org/why-generics)
 
 - [Go 言語における「オブジェクト」]({{< relref "object-oriented-programming.md" >}})
 - [きみは Generics がとくいなフレンズなんだね，または「制約は構造を生む」]({{< ref "/remark/2017/03/generics-vs-duck-typing.md" >}})
