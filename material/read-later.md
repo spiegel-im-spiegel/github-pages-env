@@ -79,6 +79,9 @@
 - [Another Attack Against Driverless Cars - Schneier on Security](https://www.schneier.com/blog/archives/2019/07/another_attack_.html)
 - [ホンダの内部ネットワーク情報を格納したElasticSearchが公開されていた件についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/08/01/070316)
 
+- [Facebook Plans on Backdooring WhatsApp - Schneier on Security](https://www.schneier.com/blog/archives/2019/08/facebook_plans_.html)
+- [リクナビDMPフォローの一時休止についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/08/02/175641)
+
 ## 天文関連
 
 - [MIT Tech Review: 観測史上最高エネルギーの光子を検出、「かに星雲」の謎に光](https://www.technologyreview.jp/s/148840/the-crab-nebula-just-blasted-earth-with-the-highest-energy-photons-ever-recorded/)
@@ -89,11 +92,18 @@
 - [MIT Tech Review: 原因不明の「銃創探し」からダークマターの特徴を導く新研究](https://www.technologyreview.jp/s/155344/what-a-lack-of-unexplained-gory-deaths-tells-us-about-dark-matter/)
 - [NASAの最新の惑星探索衛星が3つの新世界を見つけた  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/31/2019-07-30-nasas-newest-planet-hunting-satellite-finds-three-new-worlds/)
 
+- [お知らせ - TMT 工事に関するマウナケアの状況について - すばる望遠鏡](https://subarutelescope.org/Announce/2019/07/19/j_index.html)
+- [David Y. Ige  |  OFFICE OF THE GOVERNOR – News Release – State extends Thirty Meter Telescope permit](https://governor.hawaii.gov/newsroom/latest-news/office-of-the-governor-news-release-state-extends-thirty-meter-telescope-permit/)
+    - [TMT Granted 2-Year Time Extension, Emergency Proclamation Rescinded](https://www.bigislandvideonews.com/2019/07/30/tmt-granted-2-year-time-extension-emergency-proclamation-rescinded/)
+- [LightSail 2がついに太陽の光だけによる飛行に成功  |  TechCrunch Japan](https://jp.techcrunch.com/2019/08/01/2019-07-31-crowdfunded-lightsail-2-spacecraft-succeeds-in-flying-on-sunlight-alone/)
+
 ## 知財関連
 
 - [Fake MPAA Asks Google to Remove Thousands of URLs, Including MPAA.org - TorrentFreak](https://torrentfreak.com/fake-mpaa-asks-google-to-remove-thousands-of-urls-including-mpaa-org-190714/)
 - [海賊版サイトの敵は海賊版サイト？ 権利者を騙る虚偽のDMCA削除要請が横行 | P2Pとかその辺のお話R](https://p2ptk.org/copyright/2642)
 - [海賊版サイト対策 ブロッキングの前にやるべきこと｜楠 正憲（国際大学GLOCOM 客員研究員）](https://comemo.nikkei.com/n/n576ff142d5f9)
+
+- [IPTV Service SET TV Must Pay $7.6 Million in Piracy Damages - TorrentFreak](https://torrentfreak.com/iptv-service-set-tv-must-pay-7-6-million-in-piracy-damages-190801/)
 
 ## Linux または Ubuntu に関する話題
 
@@ -122,5 +132,8 @@
 - [Google CloudでもvSphere仮想マシンの実行環境を提供へ、VMwareとGoogle Clooudが提携 － Publickey](https://www.publickey1.jp/blog/19/google_cloudvspherevmwaregoogle_clooud.html)
 - [UAEアブダビは急転回でイランとの対話に邁進：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](https://www.fsight.jp/articles/-/45687)
 - [夏休みの工作特別企画　壁のスイッチをwifiにする - Qiita](https://qiita.com/hiratarich/items/37f09f06b3a75178f515)
+
+- [「Migrate for Anthos」、Googleがベータ公開。物理サーバやVMware/AWS/Azureの仮想マシンからコンテナ化、Google Kubernetes Engineへの移行ツール － Publickey](https://www.publickey1.jp/blog/19/migrate_for_anthosgooglevmwareawsazuregoogle_kubernetes_engine.html)
+- [Experiment, Simplify, Ship - The Go Blog](https://blog.golang.org/experiment)
 
 <!-- eof -->
