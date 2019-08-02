@@ -19,7 +19,7 @@ pageType = "text"
 
 ## GnuPG & Libgcrypt
 
-[Ubuntu] 19.04 リリース時の 2.2.12 (libgcrypt 1.8.4) から動いていない...
+GnuPG は [Ubuntu] 19.04 リリース時の 2.2.12 (libgcrypt 1.8.4) から動いていない。
 ちなみに [Ubuntu] 19.04 リリース時の公式版最新バージョンは 2.2.15 である。
 
 | Official Version | Release Date | Update by Ubuntu | Release Date |   delay |
@@ -73,6 +73,7 @@ pageType = "text"
 
 ## Java
 
+Java 12 は [Ubuntu] 19.04 リリース時の 12.0.1 から動いていない。
 現在は APT を使わず公式バイナリをダウンロードして手動でインストールしているが，参考情報として残しておく。
 
 | Official Version | Release Date | Update by Ubuntu | Release Date |   delay |
