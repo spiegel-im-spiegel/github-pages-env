@@ -7946,5 +7946,45 @@
       false
     ],
     "Description": "流行ってるらしいので買ってみた。 Kindle の肥やしにならないことを祈ろう（読めって！）。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07TYKJQFK",
+      "Title": "数学ガールの秘密ノート／ビットとバイナリー",
+      "URL": "https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E3%83%93%E3%83%83%E3%83%88%E3%81%A8%E3%83%90%E3%82%A4%E3%83%8A%E3%83%AA%E3%83%BC-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B07TYKJQFK?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B07TYKJQFK",
+      "Image": {
+        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Q0Hyr8g3L._SL160_.jpg",
+        "Height": 160,
+        "Width": 111
+      },
+      "ProductType": "Kindle版",
+      "Authors": [
+        "結城 浩"
+      ],
+      "Publisher": "SBクリエイティブ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07TYKJQFK"
+        }
+      ],
+      "PublicationDate": "2019-07-19",
+      "LastRelease": "2019-07-20",
+      "Service": {
+        "Name": "PA-API",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2019-08-04",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "まだ読んでる途中。後日，感想を書く予定。"
   }
 ]
