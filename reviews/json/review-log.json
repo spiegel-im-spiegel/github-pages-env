@@ -7986,5 +7986,55 @@
       false
     ],
     "Description": "まだ読んでる途中。後日，感想を書く予定。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07VPSXF6N",
+      "Title": "改訂2版 みんなのGo言語",
+      "URL": "https://www.amazon.co.jp/%E6%94%B9%E8%A8%822%E7%89%88-%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AEGo%E8%A8%80%E8%AA%9E-%E6%9D%BE%E6%9C%A8-%E9%9B%85%E5%B9%B8-ebook/dp/B07VPSXF6N?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B07VPSXF6N",
+      "Image": {
+        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51jif840ScL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Authors": [
+        "松木 雅幸",
+        "mattn",
+        "藤原 俊一郎",
+        "中島 大一",
+        "上田 拓也",
+        "牧 大輔",
+        "鈴木 健太"
+      ],
+      "Publisher": "技術評論社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07VPSXF6N"
+        },
+        {
+          "Name": "EISBN",
+          "Value": "9784297107284"
+        }
+      ],
+      "PublicationDate": "2019-08-01",
+      "LastRelease": "2019-08-01",
+      "Service": {
+        "Name": "PA-API",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2019-08-05",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "今読んでるとこ。"
   }
 ]
