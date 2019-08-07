@@ -21,8 +21,8 @@
           "Value": "B074CKDQGB"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -234,7 +234,7 @@
           "Value": "B007EEGL58"
         }
       ],
-      "PublicationDate": "0001-01-01",
+      "PublicationDate": "",
       "LastRelease": "2012-04-01",
       "Service": {
         "Name": "PA-API",
@@ -320,7 +320,7 @@
           "Value": "4988014706469"
         }
       ],
-      "PublicationDate": "0001-01-01",
+      "PublicationDate": "",
       "LastRelease": "1992-04-25",
       "Service": {
         "Name": "PA-API",
@@ -375,7 +375,7 @@
         }
       ],
       "PublicationDate": "2015-01-22",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -497,7 +497,7 @@
           "Value": "0841667162539"
         }
       ],
-      "PublicationDate": "0001-01-01",
+      "PublicationDate": "",
       "LastRelease": "2018-11-07",
       "Service": {
         "Name": "PA-API",
@@ -537,8 +537,8 @@
           "Value": "B074CH93XJ"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -577,8 +577,8 @@
           "Value": "B07H5TLTJ4"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -646,8 +646,8 @@
           "Value": "9784532149024"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -731,7 +731,7 @@
         }
       ],
       "PublicationDate": "2014-10-27",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -772,8 +772,8 @@
           "Value": "3760000568838"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -812,7 +812,7 @@
           "Value": "B0105ZQSEQ"
         }
       ],
-      "PublicationDate": "0001-01-01",
+      "PublicationDate": "",
       "LastRelease": "2015-06-22",
       "Service": {
         "Name": "PA-API",
@@ -901,7 +901,7 @@
         }
       ],
       "PublicationDate": "2009-10-24",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -956,7 +956,7 @@
           "Value": "B00FW5SSCK"
         }
       ],
-      "PublicationDate": "0001-01-01",
+      "PublicationDate": "",
       "LastRelease": "2013-11-26",
       "Service": {
         "Name": "PA-API",
@@ -1212,7 +1212,7 @@
         }
       ],
       "PublicationDate": "1984-05-20",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -1251,8 +1251,8 @@
           "Value": "B0756XN84P"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -1377,7 +1377,7 @@
           "Value": "4988007114349"
         }
       ],
-      "PublicationDate": "0001-01-01",
+      "PublicationDate": "",
       "LastRelease": "1995-11-01",
       "Service": {
         "Name": "PA-API",
@@ -1472,7 +1472,7 @@
         }
       ],
       "PublicationDate": "2018-11-21",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -1520,7 +1520,7 @@
         }
       ],
       "PublicationDate": "2017-11-21",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -1568,7 +1568,7 @@
         }
       ],
       "PublicationDate": "2016-11-18",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -1616,7 +1616,7 @@
         }
       ],
       "PublicationDate": "2015-11-16",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -1656,8 +1656,8 @@
           "Value": "B00WS87F6E"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -1702,8 +1702,8 @@
           "Value": "B013UQUH80"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -1787,7 +1787,7 @@
         }
       ],
       "PublicationDate": "2015-10-23",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -1935,7 +1935,7 @@
         }
       ],
       "PublicationDate": "2014-07-29",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -1985,7 +1985,7 @@
         }
       ],
       "PublicationDate": "2004-10-28",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -2029,7 +2029,7 @@
         }
       ],
       "PublicationDate": "2016-05-27",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -2073,7 +2073,7 @@
         }
       ],
       "PublicationDate": "2000-05-01",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -2118,7 +2118,7 @@
         }
       ],
       "PublicationDate": "2017-01-24",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -2377,7 +2377,7 @@
         }
       ],
       "PublicationDate": "2007-05-01",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -2421,7 +2421,7 @@
         }
       ],
       "PublicationDate": "2005-11-01",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -2464,8 +2464,8 @@
           "Value": "9784756117076"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -2508,7 +2508,7 @@
         }
       ],
       "PublicationDate": "2007-01-11",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -2558,7 +2558,7 @@
         }
       ],
       "PublicationDate": "2002-02-16",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -2740,7 +2740,7 @@
         }
       ],
       "PublicationDate": "2011-02-05",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -2784,7 +2784,7 @@
         }
       ],
       "PublicationDate": "2006-07-15",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -2828,7 +2828,7 @@
         }
       ],
       "PublicationDate": "2010-06-24",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -2918,7 +2918,7 @@
         }
       ],
       "PublicationDate": "2018-10-26",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -3082,7 +3082,7 @@
         }
       ],
       "PublicationDate": "2002-12-01",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -3133,7 +3133,7 @@
         }
       ],
       "PublicationDate": "2016-06-20",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -3188,7 +3188,7 @@
         }
       ],
       "PublicationDate": "2016-09-09",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -3230,7 +3230,7 @@
           "Value": "B07STKKM3D"
         }
       ],
-      "PublicationDate": "0001-01-01",
+      "PublicationDate": "",
       "LastRelease": "2019-06-19",
       "Service": {
         "Name": "PA-API",
@@ -3316,8 +3316,8 @@
           "Value": "B06WD5SGXL"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -3361,7 +3361,7 @@
         }
       ],
       "PublicationDate": "2013-06-18",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -3400,8 +3400,8 @@
           "Value": "B013URFRLQ"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -3494,7 +3494,7 @@
           "Value": "B00FIX664S"
         }
       ],
-      "PublicationDate": "0001-01-01",
+      "PublicationDate": "",
       "LastRelease": "2013-11-26",
       "Service": {
         "Name": "PA-API",
@@ -3589,7 +3589,7 @@
         }
       ],
       "PublicationDate": "2001-01-16",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -3633,7 +3633,7 @@
         }
       ],
       "PublicationDate": "2006-07-01",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -3715,7 +3715,7 @@
           "Value": "4712702655292"
         }
       ],
-      "PublicationDate": "0001-01-01",
+      "PublicationDate": "",
       "LastRelease": "2017-02-01",
       "Service": {
         "Name": "PA-API",
@@ -3770,7 +3770,7 @@
         }
       ],
       "PublicationDate": "2008-09-10",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -3905,8 +3905,8 @@
           "Value": "9784898140864"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -3956,7 +3956,7 @@
         }
       ],
       "PublicationDate": "2013-12-24",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -4039,8 +4039,8 @@
           "Value": "B0732279VT"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -4082,7 +4082,7 @@
         }
       ],
       "PublicationDate": "2014-10-01",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -4183,7 +4183,7 @@
         }
       ],
       "PublicationDate": "2001-05-10",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -4227,7 +4227,7 @@
         }
       ],
       "PublicationDate": "2012-02-01",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -4396,8 +4396,8 @@
           "Value": "B077LH3RL8"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -4440,8 +4440,8 @@
           "Value": "9784166600045"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -4524,8 +4524,8 @@
           "Value": "B074CJ5VJJ"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -4575,7 +4575,7 @@
         }
       ],
       "PublicationDate": "2011-09-09",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -4666,7 +4666,7 @@
         }
       ],
       "PublicationDate": "2011-05-26",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -4716,7 +4716,7 @@
         }
       ],
       "PublicationDate": "2011-12-09",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -4760,7 +4760,7 @@
         }
       ],
       "PublicationDate": "2002-02-01",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -4806,8 +4806,8 @@
           "Value": "B012Z14W64"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -4855,7 +4855,7 @@
         }
       ],
       "PublicationDate": "2014-11-17",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -4894,7 +4894,7 @@
           "Value": "B00CZCW9BE"
         }
       ],
-      "PublicationDate": "0001-01-01",
+      "PublicationDate": "",
       "LastRelease": "2013-05-31",
       "Service": {
         "Name": "PA-API",
@@ -4947,7 +4947,7 @@
         }
       ],
       "PublicationDate": "2006-03-02",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -4986,8 +4986,8 @@
           "Value": "B074C53545"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -5117,7 +5117,7 @@
           "Value": "B00E7HMI7U"
         }
       ],
-      "PublicationDate": "0001-01-01",
+      "PublicationDate": "",
       "LastRelease": "2013-08-01",
       "Service": {
         "Name": "PA-API",
@@ -5161,8 +5161,8 @@
           "Value": "9784641280304"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -5212,7 +5212,7 @@
         }
       ],
       "PublicationDate": "2007-02-15",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -5340,7 +5340,7 @@
         }
       ],
       "PublicationDate": "2009-05-28",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -5384,7 +5384,7 @@
         }
       ],
       "PublicationDate": "2012-05-25",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -5431,8 +5431,8 @@
           "Value": "9784542503465"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -5476,7 +5476,7 @@
         }
       ],
       "PublicationDate": "2010-09-09",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -5560,7 +5560,7 @@
         }
       ],
       "PublicationDate": "2007-03-16",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -5771,8 +5771,8 @@
           "Value": "4562440102073"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -6145,8 +6145,8 @@
           "Value": "9784414429145"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -6185,8 +6185,8 @@
           "Value": "B07BNZQSZZ"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -6230,7 +6230,7 @@
         }
       ],
       "PublicationDate": "2006-11-01",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -6320,7 +6320,7 @@
         }
       ],
       "PublicationDate": "2016-03-09",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -6542,7 +6542,7 @@
           "Value": "4560107150238"
         }
       ],
-      "PublicationDate": "0001-01-01",
+      "PublicationDate": "",
       "LastRelease": "2006-11-17",
       "Service": {
         "Name": "PA-API",
@@ -6634,7 +6634,7 @@
         }
       ],
       "PublicationDate": "1989-06-15",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -6687,8 +6687,8 @@
           "Value": "9784900900028"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -6738,7 +6738,7 @@
         }
       ],
       "PublicationDate": "2015-09-18",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -6803,8 +6803,8 @@
           "Value": "9784903127040"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -7003,7 +7003,7 @@
         }
       ],
       "PublicationDate": "2010-10-22",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -7061,8 +7061,8 @@
           "Value": "9784757101524"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -7106,7 +7106,7 @@
         }
       ],
       "PublicationDate": "2007-12-20",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -7258,7 +7258,7 @@
         }
       ],
       "PublicationDate": "1977-10-05",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -7432,7 +7432,7 @@
         }
       ],
       "PublicationDate": "1975-04-01",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -7476,7 +7476,7 @@
         }
       ],
       "PublicationDate": "1985-09-01",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -7519,8 +7519,8 @@
           "Value": "9784320001381"
         }
       ],
-      "PublicationDate": "0001-01-01",
-      "LastRelease": "0001-01-01",
+      "PublicationDate": "",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -7570,7 +7570,7 @@
         }
       ],
       "PublicationDate": "2017-10-23",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -7624,7 +7624,7 @@
         }
       ],
       "PublicationDate": "2016-01-22",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -7682,7 +7682,7 @@
         }
       ],
       "PublicationDate": "2015-12-25",
-      "LastRelease": "0001-01-01",
+      "LastRelease": "",
       "Service": {
         "Name": "PA-API",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
