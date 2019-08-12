@@ -7613,16 +7613,16 @@
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2018-10-20",
-    "Rating": 4,
+    "Date": "2019-08-12",
+    "Rating": 3,
     "Star": [
       true,
       true,
       true,
-      true,
+      false,
       false
     ],
-    "Description": "日本語監訳者による解説（付録 B）が意外に役に立つ感じ。 Web アプリケーションだけでなく，サーバサイドで動く CLI アプリへの言及もある。"
+    "Description": "日本語監訳者による解説（付録 B）が意外に役に立つ感じ。 Web アプリケーションだけでなく，サーバサイドで動く CLI アプリへの言及もある。良書だが今となってはちょっと内容が古い。"
   },
   {
     "Book": {
@@ -8009,16 +8009,16 @@
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2019-08-05",
-    "Rating": 0,
+    "Date": "2019-08-12",
+    "Rating": 4,
     "Star": [
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
       false
     ],
-    "Description": "今読んでるとこ。"
+    "Description": "改訂2版の目玉は7章の「データベースの扱い方」が追加されたことだろう。他の章では，大まかな構成は1版と同じだが細かい部分が変わっていて Go 1.12 への言及まであるのには驚いた。"
   },
   {
     "Book": {
