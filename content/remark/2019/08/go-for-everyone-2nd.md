@@ -1,11 +1,10 @@
 +++
 title = "『みんなのGo言語』改訂2版はとりあえず買っとけ！"
-date =  "2019-08-12T17:54:54+09:00"
-description = "description"
+date =  "2019-08-12T19:11:03+09:00"
+description = "改訂2版の目玉は7章の「データベースの扱い方」が追加されたことだろう。"
 image = "/images/attention/kitten.jpg"
 tags = [ "book", "golang", "programming", "engineering" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
