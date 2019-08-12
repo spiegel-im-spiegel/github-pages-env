@@ -8139,5 +8139,55 @@
       false
     ],
     "Description": "白田秀彰さんの「\u003ca href=\"http://orion.mt.tama.hosei.ac.jp/hideaki/kenporon.htm\"\u003eグリゴリの捕縛\u003c/a\u003e」が青空文庫に収録されていた。\n内容は \u003cdelete\u003e怪獣大決戦\u003c/delete\u003e おっと憲法（基本法）についてのお話。\n古代社会 → 中世社会 → 近代社会 → 現代社会 と順を追って法と慣習そして力（power）との関係について解説し，その中で憲法（基本法）がどのように望まれ実装されていったか指摘してる。\nその後，現代社会の次のパラダイムに顕現する「情報力」と社会との関係に言及していくわけだ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "456008193X",
+      "Title": "鬼と天皇（新装版）",
+      "URL": "https://www.amazon.co.jp/%E9%AC%BC%E3%81%A8%E5%A4%A9%E7%9A%87%EF%BC%88%E6%96%B0%E8%A3%85%E7%89%88%EF%BC%89-%E5%A4%A7%E5%92%8C-%E5%B2%A9%E9%9B%84/dp/456008193X?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=456008193X",
+      "Image": {
+        "URL": "https://images-fe.ssl-images-amazon.com/images/I/315iNBEKHLL._SL160_.jpg",
+        "Height": 160,
+        "Width": 110
+      },
+      "ProductType": "単行本",
+      "Authors": [
+        "大和 岩雄"
+      ],
+      "Creators": [
+        {
+          "Name": "大和 岩雄",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "白水社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "456008193X"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784560081938"
+        }
+      ],
+      "PublicationDate": "2012-01-18",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-API",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2016-11-03",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "「鬼は天皇の影法師であり，両者の関係は「かくれんぼう遊び」に喩えることができる」（当時の帯より）"
   }
 ]

@@ -7,21 +7,10 @@ tags = [
   "engineering",
   "politics",
 ]
-draft = false
 
-[author]
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  flattr = ""
-  flickr = "spiegel"
-  facebook = "spiegel.im.spiegel"
-  linkedin = "spiegelimspiegel"
-  instagram = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
-  avatar = "/images/avatar.jpg"
-  license = "by-sa"
-  github = "spiegel-im-spiegel"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 もともとの Internet of Things はいわゆる [Sensorware](http://www.yamdas.org/column/technique/sensor.html) の文脈で語られたもののようだが，2010年代に入って定義が変質する（よくある話）。
@@ -67,7 +56,17 @@ draft = false
 
 ## 参考図書？
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/456008193X/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/315iNBEKHLL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/456008193X/baldandersinf-22/">鬼と天皇（新装版）</a></dt><dd>大和 岩雄 </dd><dd>白水社 2012-01-18</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4584393788/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4584393788.09._SCTHUMBZZZ_.jpg"  alt="もうひとつの日本史 闇の修験道 異端の古代史5 (ワニ文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4309226159/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4309226159.09._SCTHUMBZZZ_.jpg"  alt="諏訪の神: 封印された縄文の血祭り"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4908117039/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4908117039.09._SCTHUMBZZZ_.jpg"  alt="天皇と鬼"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/499065692X/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/499065692X.09._SCTHUMBZZZ_.jpg"  alt="失われた十部族の足跡　イスラエルの地から日本まで　－新書版－"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4480083774/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4480083774.09._SCTHUMBZZZ_.jpg"  alt="雨月物語 (ちくま学芸文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4054061605/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4054061605.09._SCTHUMBZZZ_.jpg"  alt="日本とユダヤ 聖徳太子の謎 (ムー・スーパー・ミステリー・ブックス)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4884698207/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4884698207.09._SCTHUMBZZZ_.jpg"  alt="富士山、2200年の秘密 なぜ日本最大の霊山は古事記に無視されたのか"  /></a> </p>
-<p class="description">「鬼は天皇の影法師であり，両者の関係は「かくれんぼう遊び」に喩えることができる」（当時の帯より）</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-11-03">2016-11-03</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E9%AC%BC%E3%81%A8%E5%A4%A9%E7%9A%87%EF%BC%88%E6%96%B0%E8%A3%85%E7%89%88%EF%BC%89-%E5%A4%A7%E5%92%8C-%E5%B2%A9%E9%9B%84/dp/456008193X?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=456008193X"><img src="https://images-fe.ssl-images-amazon.com/images/I/315iNBEKHLL._SL160_.jpg" width="110" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E9%AC%BC%E3%81%A8%E5%A4%A9%E7%9A%87%EF%BC%88%E6%96%B0%E8%A3%85%E7%89%88%EF%BC%89-%E5%A4%A7%E5%92%8C-%E5%B2%A9%E9%9B%84/dp/456008193X?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=456008193X">鬼と天皇（新装版）</a></dt>
+    <dd>大和 岩雄</dd>
+    <dd>大和 岩雄 (翻訳)</dd>
+    <dd>白水社 2012-01-18</dd>
+    <dd>単行本</dd>
+    <dd>456008193X (ASIN), 9784560081938 (EAN)</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">「鬼は天皇の影法師であり，両者の関係は「かくれんぼう遊び」に喩えることができる」（当時の帯より）</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-11-03">2016-11-03</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-API</a>)</p>
 </div>
