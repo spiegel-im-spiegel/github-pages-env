@@ -97,13 +97,16 @@ Kindle の肥やしにならないことを祈ろう（読めって！）。
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-10-08">2014-10-08</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
 
-<div class="hreview" >
-    <div class="photo"><a href="https://www.aozora.gr.jp/cards/001383/card56642.html"><img src="/images/aozora/card56642.svg" alt="陰翳礼讃" width="106"></a></div>
-    <dl class="fn">
-      <dt><a href="https://www.aozora.gr.jp/cards/001383/card56642.html">陰翳礼讃</a></dt>
-      <dd>谷崎 潤一郎 1933,1934</dd>
-      <dd>青空文庫 2016-06-10</dd>
-    </dl>
-    <p class="description">実はちゃんと読んでない（笑） 学生時代に読んでおけばよかった。</p>
-	<p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2019-07-14</abbr></p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.aozora.gr.jp/cards/001383/card56642.html"><img src="https://text.baldanders.info/images/aozora/card56642.svg" width="110" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.aozora.gr.jp/cards/001383/card56642.html">陰翳礼讃</a></dt>
+    <dd>（初出: 「経済往来」1933（昭和8）年12月号、1934（昭和9）年1月号）</dd>
+    <dd>谷崎 潤一郎</dd>
+    <dd> 2016-08-23 (Release 2016-06-10)</dd>
+    <dd>青空文庫 (Public Domain)</dd>
+    <dd>56642 (図書カードNo.)</dd>
+  </dl>
+  <p class="description">実はちゃんと読んでない（笑） 学生時代に読んでおけばよかった。</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-03-28">2019-03-28</abbr> (powered by <a href="https://aozorahack.org/">aozorahack</a>)</p>
 </div>

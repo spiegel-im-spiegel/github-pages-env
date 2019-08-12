@@ -14,7 +14,6 @@
       "Authors": [
         "Ｋｏｉ"
       ],
-      "Publisher": "",
       "Codes": [
         {
           "Name": "ASIN",
@@ -101,7 +100,6 @@
       "Authors": [
         "吉良野すた"
       ],
-      "Publisher": "",
       "Codes": [
         {
           "Name": "ASIN",
@@ -530,7 +528,6 @@
       "Authors": [
         "蒼樹うめ"
       ],
-      "Publisher": "",
       "Codes": [
         {
           "Name": "ASIN",
@@ -570,7 +567,6 @@
       "Authors": [
         "竹本泉"
       ],
-      "Publisher": "",
       "Codes": [
         {
           "Name": "ASIN",
@@ -949,7 +945,6 @@
           "Role": "プロデュース"
         }
       ],
-      "Publisher": "",
       "Codes": [
         {
           "Name": "ASIN",
@@ -1244,7 +1239,6 @@
       "Authors": [
         "長谷川 裕一"
       ],
-      "Publisher": "",
       "Codes": [
         {
           "Name": "ASIN",
@@ -1649,7 +1643,6 @@
         "吉浦康裕",
         "太田優姫"
       ],
-      "Publisher": "",
       "Codes": [
         {
           "Name": "ASIN",
@@ -1695,7 +1688,6 @@
           "Role": "その他"
         }
       ],
-      "Publisher": "",
       "Codes": [
         {
           "Name": "ASIN",
@@ -3310,7 +3302,6 @@
           "Role": "イラスト"
         }
       ],
-      "Publisher": "",
       "Codes": [
         {
           "Name": "ASIN",
@@ -3394,7 +3385,6 @@
       "Authors": [
         "聖 悠紀"
       ],
-      "Publisher": "",
       "Codes": [
         {
           "Name": "ASIN",
@@ -3488,7 +3478,6 @@
           "Role": "プロデュース"
         }
       ],
-      "Publisher": "",
       "Codes": [
         {
           "Name": "ASIN",
@@ -4033,7 +4022,6 @@
       },
       "ProductType": "Prime Video",
       "Authors": null,
-      "Publisher": "",
       "Codes": [
         {
           "Name": "ASIN",
@@ -4390,7 +4378,6 @@
       "Authors": [
         "あさりよしとお"
       ],
-      "Publisher": "",
       "Codes": [
         {
           "Name": "ASIN",
@@ -4518,7 +4505,6 @@
       "Authors": [
         "唐草ミチル"
       ],
-      "Publisher": "",
       "Codes": [
         {
           "Name": "ASIN",
@@ -4800,7 +4786,6 @@
           "Role": "イラスト"
         }
       ],
-      "Publisher": "",
       "Codes": [
         {
           "Name": "ASIN",
@@ -4980,7 +4965,6 @@
       "Authors": [
         "オーサ・イェークストロム"
       ],
-      "Publisher": "",
       "Codes": [
         {
           "Name": "ASIN",
@@ -5643,7 +5627,6 @@
       "Authors": [
         "内田 美奈子"
       ],
-      "Publisher": "",
       "Codes": [
         {
           "Name": "ASIN",
@@ -6179,7 +6162,6 @@
       "Authors": [
         "ねこしみず美濃"
       ],
-      "Publisher": "",
       "Codes": [
         {
           "Name": "ASIN",
@@ -8037,5 +8019,125 @@
       false
     ],
     "Description": "今読んでるとこ。"
+  },
+  {
+    "Book": {
+      "Type": "aozora",
+      "ID": "56839",
+      "Title": "ニャルラトホテプ",
+      "OriginalTitle": "NYARLATHOTEP",
+      "URL": "https://www.aozora.gr.jp/cards/001699/card56839.html",
+      "Image": {
+        "URL": "https://text.baldanders.info/images/aozora/card56839.svg"
+      },
+      "ProductType": "青空文庫",
+      "Authors": [
+        "ラヴクラフト ハワード・フィリップス"
+      ],
+      "Creators": [
+        {
+          "Name": "大久保 ゆう",
+          "Role": "翻訳"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "図書カードNo.",
+          "Value": "56839"
+        }
+      ],
+      "PublicationDate": "2014-04-04",
+      "LastRelease": "2015-08-19",
+      "Service": {
+        "Name": "aozorahack",
+        "URL": "https://aozorahack.org/"
+      }
+    },
+    "Date": "2019-03-28",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "SAN 値が下がる。"
+  },
+  {
+    "Book": {
+      "Type": "aozora",
+      "ID": "56642",
+      "Title": "陰翳礼讃",
+      "URL": "https://www.aozora.gr.jp/cards/001383/card56642.html",
+      "Image": {
+        "URL": "https://text.baldanders.info/images/aozora/card56642.svg"
+      },
+      "ProductType": "青空文庫",
+      "Authors": [
+        "谷崎 潤一郎"
+      ],
+      "Codes": [
+        {
+          "Name": "図書カードNo.",
+          "Value": "56642"
+        }
+      ],
+      "PublicationDate": "2016-08-23",
+      "LastRelease": "2016-06-10",
+      "PublicDomain": true,
+      "FirstAppearance": "「経済往来」1933（昭和8）年12月号、1934（昭和9）年1月号",
+      "Service": {
+        "Name": "aozorahack",
+        "URL": "https://aozorahack.org/"
+      }
+    },
+    "Date": "2019-07-14",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "実はちゃんと読んでない（笑） 学生時代に読んでおけばよかった。"
+  },
+  {
+    "Book": {
+      "Type": "aozora",
+      "ID": "4307",
+      "Title": "グリゴリの捕縛",
+      "URL": "https://www.aozora.gr.jp/cards/000021/card4307.html",
+      "Image": {
+        "URL": "https://text.baldanders.info/images/aozora/card4307.svg"
+      },
+      "ProductType": "青空文庫",
+      "Authors": [
+        "白田 秀彰"
+      ],
+      "Codes": [
+        {
+          "Name": "図書カードNo.",
+          "Value": "4307"
+        }
+      ],
+      "PublicationDate": "2001-11-26",
+      "LastRelease": "2014-09-17",
+      "Service": {
+        "Name": "aozorahack",
+        "URL": "https://aozorahack.org/"
+      }
+    },
+    "Date": "2019-03-30",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "白田秀彰さんの「\u003ca href=\"http://orion.mt.tama.hosei.ac.jp/hideaki/kenporon.htm\"\u003eグリゴリの捕縛\u003c/a\u003e」が青空文庫に収録されていた。\n内容は \u003cdelete\u003e怪獣大決戦\u003c/delete\u003e おっと憲法（基本法）についてのお話。\n古代社会 → 中世社会 → 近代社会 → 現代社会 と順を追って法と慣習そして力（power）との関係について解説し，その中で憲法（基本法）がどのように望まれ実装されていったか指摘してる。\nその後，現代社会の次のパラダイムに顕現する「情報力」と社会との関係に言及していくわけだ。"
   }
 ]

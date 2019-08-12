@@ -1,7 +1,6 @@
 +++
 title = "「暗号通貨」ってゆーな！"
 date =  "2018-01-10T22:21:55+09:00"
-update = "2018-03-06T19:35:50+09:00"
 description = "このまま進めば間違いなく「仮想通貨」は FinTech の中央集権化に向けた覇権競争に突入するだろう。"
 image = "/images/attention/remark.jpg"
 tags = ["blockchain", "engineering", "fintech", "market", "grigori", "hacker-ethic"]
@@ -126,7 +125,6 @@ Bitcoin 単体は数学的に総量が決まっているが， hard fork すれ�
 ## ブックマーク
 
 - [Krugman: Baby Sitting the Economy (経済を子守りしてみると。)](http://cruel.org/krugman/babysitj.html)
-- [グリゴリの捕縛 あるいは 情報時代の憲法について](http://orion.mt.tama.hosei.ac.jp/hideaki/kenporon.htm)
 - [暗号通貨ブームの裏側で顕在化してきた、その基盤技術の「構造的な問題」｜WIRED.jp](https://wired.jp/2018/01/22/bitcoin-infrastructure/)
 - [MIT Tech Review: 「非中央集権型」通貨ビットコインの理想は儚く消えたのか？](https://www.technologyreview.jp/s/71469/bitcoin-and-ethereum-have-a-hidden-power-structure-and-its-just-been-revealed/)
 - [Blockchain Graveyard](https://magoo.github.io/Blockchain-Graveyard/)
@@ -150,4 +148,21 @@ Bitcoin 単体は数学的に総量が決まっているが， hard fork すれ�
   </dl>
   <p class="description">20世紀末，暗号技術の世界で何があったのか。知りたかったらこちらを読むべし！</p>
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-16">2018-12-16</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+</div>
+
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.aozora.gr.jp/cards/000021/card4307.html"><img src="https://text.baldanders.info/images/aozora/card4307.svg" width="110" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.aozora.gr.jp/cards/000021/card4307.html">グリゴリの捕縛</a></dt>
+    <dd>白田 秀彰</dd>
+    <dd> 2001-11-26 (Release 2014-09-17)</dd>
+    <dd>青空文庫</dd>
+    <dd>4307 (図書カードNo.)</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">白田秀彰さんの「<a href="http://orion.mt.tama.hosei.ac.jp/hideaki/kenporon.htm">グリゴリの捕縛</a>」が青空文庫に収録されていた。
+内容は <delete>怪獣大決戦</delete> おっと憲法（基本法）についてのお話。
+古代社会 → 中世社会 → 近代社会 → 現代社会 と順を追って法と慣習そして力（power）との関係について解説し，その中で憲法（基本法）がどのように望まれ実装されていったか指摘してる。
+その後，現代社会の次のパラダイムに顕現する「情報力」と社会との関係に言及していくわけだ。</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-03-30">2019-03-30</abbr> (powered by <a href="https://aozorahack.org/">aozorahack</a>)</p>
 </div>
