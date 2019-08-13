@@ -7959,16 +7959,16 @@
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2019-08-04",
-    "Rating": 0,
+    "Date": "2019-08-13",
+    "Rating": 5,
     "Star": [
-      false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true,
+      true,
+      true,
+      true
     ],
-    "Description": "まだ読んでる途中。後日，感想を書く予定。"
+    "Description": "サブタイトルから期待はしてたけど，今回はリサちゃんが大盛りだ！ （《ちゃん》は不要）"
   },
   {
     "Book": {
@@ -8189,5 +8189,61 @@
       false
     ],
     "Description": "「鬼は天皇の影法師であり，両者の関係は「かくれんぼう遊び」に喩えることができる」（当時の帯より）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01KYBJDB6",
+      "Title": "TVアニメ『装神少女まとい』OPテーマ「蝶結びアミュレット」",
+      "URL": "https://www.amazon.co.jp/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E8%A3%85%E7%A5%9E%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A8%E3%81%84%E3%80%8FOP%E3%83%86%E3%83%BC%E3%83%9E%E3%80%8C%E8%9D%B6%E7%B5%90%E3%81%B3%E3%82%A2%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%83%E3%83%88%E3%80%8D-Mia-REGINA/dp/B01KYBJDB6?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B01KYBJDB6",
+      "Image": {
+        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51heNY0-b2L._SL160_.jpg",
+        "Height": 158,
+        "Width": 160
+      },
+      "ProductType": "CD",
+      "Authors": null,
+      "Creators": [
+        {
+          "Name": "Mia REGINA",
+          "Role": "演奏"
+        },
+        {
+          "Name": "ささかまリス子",
+          "Role": "その他"
+        },
+        {
+          "Name": "大竹智之",
+          "Role": "その他"
+        }
+      ],
+      "Publisher": "ランティス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01KYBJDB6"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4540774145416"
+        }
+      ],
+      "PublicationDate": "2016-10-25",
+      "LastRelease": "2016-10-26",
+      "Service": {
+        "Name": "PA-API",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2019-08-13",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "深夜アニメの名作『装神少女まとい』OP曲。たまに通勤時にヘヴィ・ローテーションしてる（笑）"
   }
 ]
