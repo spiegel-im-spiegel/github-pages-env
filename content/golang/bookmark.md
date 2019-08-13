@@ -13,7 +13,7 @@ title = "Go 言語に関するブックマーク"
 なお，ここにない場合は「[未整理分]({{< relref "bookmark2.md" >}})」にあるかも。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
- 
+
 ## 公式サイト
 
 - [The Go Programming Language](https://golang.org/) : 2017年8月24日時点での最新は 1.9
@@ -199,6 +199,7 @@ title = "Go 言語に関するブックマーク"
     - [Go言語で文字列がASCIIコード内であるか判定したい - Qiita](https://qiita.com/catatsuy/items/7a9773f9ea3db7069fc1)
 - [String interpolation in Golang – Ly Channa – Medium](https://medium.com/@channaly/string-interpolation-in-golang-ecb3bcb2d600)
     - [Golang の文字列内で変数を展開する方法（各種） - Qiita](https://qiita.com/KEINOS/items/baef1be88f15515026ec)
+- [Big Sky :: Go で大文字小文字無視の文字列比較ベンチマーク](https://mattn.kaoriya.net/software/lang/go/20190806152526.htm)
 
 ### 配列と [slice]
 
@@ -755,6 +756,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go による機械学習 推論フレームワークの最新動向 2019 - Qiita](https://qiita.com/mattn/items/b01f9bb5c2fa3678734a)
     - [Big Sky :: Go 言語で TensorFlow の学習](https://mattn.kaoriya.net/software/ml/20190516010115.htm)
 - [Go + gonum を使った行列計算まとめ - Qiita](https://qiita.com/po3rin/items/82c9c0195f9e3e38e2f1)
+- [Goで作った数値計算の関数をまとめとく - Qiita](https://qiita.com/ken_sumi1019/items/cdf5ee01a4e2c725c185)
 
 ### ソートアルゴリズム
 
@@ -799,6 +801,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Goのインクリメントとデクリメントのベンチマーク比較 - Qiita](https://qiita.com/qushot/items/306a9c9c0321304def8e)
 - [Goの shortcircuit 最適化パスを読んだので解説する - Qiita](https://qiita.com/osamu329/items/3ac05c3b71f495fc1e61)
 - [goumlでgoプロジェクトのUML図を出力する - Qiita](https://qiita.com/rubyu/items/d78470be2ddd9e86ebb5)
+- [Goとrdtscの謎を追う - Qiita](https://qiita.com/kubo39/items/4319fa243fd18acc0981)
+- [Go言語のアプリケーション設定・環境変数をStructにまとめる - Qiita](https://qiita.com/yuukive/items/27593cd6f3e7f264516b)
 
 ### 他言語との比較もしくは移行
 

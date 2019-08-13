@@ -47,6 +47,7 @@ pageType = "text"
 
 ## ブックマーク
 
+- [MIT Tech Review: レッシグ、村井純、伊藤穰一が語り合ったデータ保護と活用のあり方](https://www.technologyreview.jp/s/152374/the-new-context-conference-2019-tokyo-01/)
 - [ビッグデータ時代の犯罪とセキュリティを考えるのに有益な四冊 - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2015/04/29831/)
 
 - [本当に「良心」を無意味化する時代がやってくる？]({{< ref "/remark/2017/12/artificial-intelligence.md" >}})

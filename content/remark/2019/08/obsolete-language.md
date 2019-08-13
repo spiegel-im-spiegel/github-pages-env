@@ -36,7 +36,13 @@ pageType = "text"
 それは単なるトレンドの変化ではなくもっと大きなパラダイムシフトである。
 その「手続き型言語でないもの」が次の世代の「[母国語]」になれば，その言語は本当に「あと10年は戦える」と言っていいんじゃないだろうか。
 
+## ブックマーク
+
+- [5 Powerful Programming Languages to Stretch Your Brain - DEV Community 👩‍💻👨‍💻](https://dev.to/jacobherrington/5-programming-languages-to-stretch-your-brain-mmg)
+
 [母国語]: {{< ref "/remark/2015/programming-language.md" >}} "プログラミング言語との付き合い方"
+
+## 参考図書
 
 <div class="hreview">
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9EGo-ADDISON-WESLEY-PROFESSIONAL-COMPUTING-Donovan/dp/4621300253?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621300253"><img src="https://images-fe.ssl-images-amazon.com/images/I/41meaSLNFfL._SL160_.jpg" width="123" alt="photo"></a></div>
