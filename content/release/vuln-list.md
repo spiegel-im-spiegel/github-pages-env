@@ -36,6 +36,7 @@ GnuPG は [Ubuntu] 19.04 リリース時の 2.2.12 (libgcrypt 1.8.4) から動�
 
 | Official | Release    |                       Ubuntu | Release    |  delay |
 | --------:| ---------- | ----------------------------:| ---------- | ------:|
+|   68.0.2 | 2019-08-14 |              68.0.2+build1-0 | 2019-08-16 | 2 days |
 |   68.0.1 | 2019-07-18 | 68.0.1+build1-0 (USN-4054-1) | 2019-07-25 | 7 days |
 |     68.0 | 2019-07-09 |   68.0+build3-0 (USN-4054-1) | 2019-07-12 | 3 days |
 |   67.0.4 | 2019-06-20 | 67.0.4+build1-0 (USN-4032-1) | 2019-06-24 | 4 days |
@@ -68,16 +69,19 @@ GnuPG は [Ubuntu] 19.04 リリース時の 2.2.12 (libgcrypt 1.8.4) から動�
 | --------:| ---------- | ------:| ------- | -------:|
 |      6.3 | 2019-08-08 |        |         | ∞ days |
 
-| Official | Release    |               Ubuntu | Release    |  delay |
-| --------:| ---------- | --------------------:| ---------- | ------:|
-|    6.2.5 | 2019-07-04 | 6.2.5-0 (USN-4063-1) | 2019-07-12 | 8 days |
+| Official | Release    |               Ubuntu | Release    |   delay |
+| --------:| ---------- | --------------------:| ---------- | -------:|
+|    6.2.6 | 2019-08-14 |                      |            | ∞ days |
+|    6.2.5 | 2019-07-04 | 6.2.5-0 (USN-4063-1) | 2019-07-12 |  8 days |
 
 6.1 以前のバージョンは公式サポートから外れているため使うべきではない。
 
 ### ブックマーク
 
 - [The Document Foundation announces LibreOffice 6.3 - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/08/08/tdf-announces-libreoffice-63/)
+
 - [The Document Foundation announces LibreOffice 6.2.5 - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/07/04/tdf-announces-libreoffice-625/)
+- [LibreOffice 6.2.6 is ready, all users should update for enhanced security - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/08/14/libreoffice-626/)
 
 - [Ubuntu に LibreOffice をインストールする3つの方法]({{< ref "/remark/2019/05/installing-libreoffice-in-ubuntu.md" >}})
 

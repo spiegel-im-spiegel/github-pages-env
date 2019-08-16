@@ -3,7 +3,7 @@ title = "NYAGOS 4.4.2 がリリースされた"
 date = "2019-04-07T09:16:12+09:00"
 description = "今回は盛り沢山だぞ！"
 image = "/images/attention/tools.png"
-tags  = [ "tools", "nyagos", "shell", "windows", " linux" ]
+tags  = [ "tools", "nyagos", "shell", "windows", "linux" ]
 pageType = "text"
 
 [scripts]

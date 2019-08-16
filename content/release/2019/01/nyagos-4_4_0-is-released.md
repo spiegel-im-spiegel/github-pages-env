@@ -4,7 +4,7 @@ date = "2019-01-12T17:23:12+09:00"
 update =  "2019-01-19T12:27:55+09:00"
 description = "実験レベルながら Linux に対応したですよ。"
 image = "/images/attention/tools.png"
-tags  = [ "tools", "nyagos", "shell", "windows", " linux" ]
+tags  = [ "tools", "nyagos", "shell", "windows", "linux" ]
 
 [scripts]
   mathjax = false
