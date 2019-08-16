@@ -33,7 +33,7 @@
 
 <section>
 <h2>主な <a href='{{ "/tags/" | relURL }}'>Tags</a> 一覧</h2>
-<ul class="cloud" style="font-size:smaller;">{{ range $key, $value := .Site.Taxonomies.tags.Alphabetical }}{{ if ge $value.Count 30 }}{{ $tag := lower $value.Name }}{{ $tagURL := printf "/tags/%s/" $tag | urlize }}<li>#<a href="{{ $tagURL | relURL }}">{{ $tag }}</a> ({{ $value.Count }})</li>{{ end }}{{ end }}</ul>
+<ul class="cloud" style="font-size:smaller;">{{ range $key, $value := .Site.Taxonomies.tags.Alphabetical }}{{ if ge $value.Count 40 }}{{ $tag := lower $value.Name }}{{ $tagURL := printf "/tags/%s/" $tag | urlize }}<li>#<a href="{{ $tagURL | relURL }}">{{ $tag }}</a> ({{ $value.Count }})</li>{{ end }}{{ end }}</ul>
 </section> <!-- Tags -->
 
 <section>
