@@ -1,24 +1,12 @@
 +++
-date = "2016-11-13T05:20:11+09:00"
-update = "2018-11-11T03:53:59+09:00"
-description = "nullable 参照と non-null 参照の区別は，コードに「意図」を記述することを言語仕様レベルで規定するものである。"
-draft = false
-tags = ["programming", "null-safety"]
 title = "「null 安全」について"
+date = "2016-11-13T05:20:11+09:00"
+description = "nullable 参照と non-null 参照の区別は，コードに「意図」を記述することを言語仕様レベルで規定するものである。"
+tags = ["programming", "null", "null-safety"]
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 {{< fig-quote title="数学ガール／フェルマーの最終定理" link="https://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1CM/baldandersinf-22/" >}}
@@ -52,7 +40,7 @@ title = "「null 安全」について"
 「null 参照」をいかにハンドリングするのかは相変わらずプログラマの責任なのだから。
 機械がやってくれるのは nullable 参照をそのままアドホックに使いまわさないようコンパイルエラーを出すところまでだ。（ただし，そのコードがコンパイルエラーになるのなら少なくとも製品として世に出ることはない）
 
-[^vo]: たとえば安直に null をセットするのではなく null 状態を扱える適切な value object を使う（デフォルトの動作が決まっているなら null object pattern を構成する）など。そういえば [Go 言語]ではある変数が nil 値でもその型に紐付く関数を参照渡しで呼び出すことができ（故に nil は必ず何らかの型を持っている）， nil を正しくハンドリングするのは呼び出した関数の責務となっている（「[関数とポインタ]({{< ref "/golang/function-and-pointer.md" >}})」参照）。そういう意味でも [Go 言語]は value object を構成するのに都合がいい。なお [Go 言語]は「null 安全」ではない，残念ながら。
+[^vo]: たとえば安直に null をセットするのではなく null 状態を扱える適切な value object を使う（デフォルトの動作が決まっているなら null object pattern を構成する）など。そういえば [Go 言語]ではある型の値が nil でもその型に紐付く関数を参照渡しで呼び出すことができ， nil を正しくハンドリングするのは型で定義された関数側の責務となっている（「[関数とポインタ]({{< ref "/golang/function-and-pointer.md" >}})」参照）。そういう意味でも [Go 言語]は value object を構成するのに都合がいい。なお [Go 言語]は「null 安全」ではない，残念ながら。
 
 私はアセンブラや C 言語（それも K&R バージョン）が全盛のころからの（今やロートル）エンジニアだが，こうして見ていくと人と機械の責務分担が時代ごとに変わっていくのを感じる。
 
