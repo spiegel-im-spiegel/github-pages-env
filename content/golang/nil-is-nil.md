@@ -1,11 +1,10 @@
 +++
 title = "nil は nil"
-date =  "2019-08-18T03:10:25+09:00"
+date =  "2019-08-18T08:46:56+09:00"
 description = "nil は状態を表す「識別子」あるいは「表現」に過ぎず，それ自身は型も値も持たない。"
 image = "/images/attention/go-logo_blue.png"
 tags = [ "golang", "programming", "null", "interface", "error" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
