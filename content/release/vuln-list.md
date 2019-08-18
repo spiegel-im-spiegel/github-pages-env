@@ -32,11 +32,25 @@ GnuPG は [Ubuntu] 19.04 リリース時の 2.2.12 (libgcrypt 1.8.4) から動�
 
 - [Gnupg-announce Info Page](https://lists.gnupg.org/mailman/listinfo/gnupg-announce)
 
+## Git
+
+Git については [Ubuntu] 公式リポジトリではなく PPA のリポジトリからインストールしている。
+
+| Official | Release    |       Ubuntu | Release    |  delay |
+| --------:| ---------- | ------------:| ---------- | ------:|
+|     2.23 | 2019-08-16 | 2.23.0-0ppa1 | 2019-08-18 | 2 days |
+
+### ブックマーク
+
+- [[ANNOUNCE] Git v2.23.0 - Junio C Hamano](https://public-inbox.org/git/xmqqy2zszuz7.fsf@gitster-ct.c.googlers.com/)
+
+- [PPA から Git をインストールする]({{< ref "/remark/2019/04/install-git-from-ppa.md" >}})
+
 ## Firefox
 
 | Official | Release    |                       Ubuntu | Release    |  delay |
 | --------:| ---------- | ----------------------------:| ---------- | ------:|
-|   68.0.2 | 2019-08-14 |              68.0.2+build1-0 | 2019-08-16 | 2 days |
+|   68.0.2 | 2019-08-14 | 68.0.2+build1-0 (USN-4101-1) | 2019-08-16 | 2 days |
 |   68.0.1 | 2019-07-18 | 68.0.1+build1-0 (USN-4054-1) | 2019-07-25 | 7 days |
 |     68.0 | 2019-07-09 |   68.0+build3-0 (USN-4054-1) | 2019-07-12 | 3 days |
 |   67.0.4 | 2019-06-20 | 67.0.4+build1-0 (USN-4032-1) | 2019-06-24 | 4 days |

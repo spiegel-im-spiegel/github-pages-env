@@ -62,6 +62,11 @@ go version go1.12.8 linux/amd64
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 
+## ブックマーク
+
+- [VU#605641 - HTTP/2 implementations do not robustly handle abnormal traffic and resource exhaustion](https://www.kb.cert.org/vuls/id/605641/)
+    - [[HTTP/2実装に脆弱性、DoS攻撃のおそれ | マイナビニュース](https://news.mynavi.jp/article/20190816-877630/)]
+
 ## 参考図書
 
 <div class="hreview">

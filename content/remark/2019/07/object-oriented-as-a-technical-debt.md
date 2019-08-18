@@ -101,6 +101,8 @@ REST の背景には多分「オブジェクト指向」の考え方があるの
 
 ## ブックマーク
 
+- [Goodbye, Object Oriented Programming - Charles Scalfani - Medium](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53)
+
 - [「オブジェクト指向」の黒歴史]({{< ref "/remark/2018/10/object-oriented-design.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
