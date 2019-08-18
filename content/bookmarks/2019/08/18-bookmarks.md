@@ -14,6 +14,7 @@ pageType = "text"
 
 - [Hugo 0.57: The Cascading Edition | Hugo](https://gohugo.io/news/0.57.0-relnotes/)
     - [Hugo 0.57.1: A couple of Bug Fixes | Hugo](https://gohugo.io/news/0.57.1-relnotes/)
+    - [Hugo 0.57.2: A couple of Bug Fixes | Hugo](https://gohugo.io/news/0.57.2-relnotes/)
 - [Highlights from Git 2.23 - The GitHub Blog](https://github.blog/2019-08-16-highlights-from-git-2-23/)
 
 ## セキュリティ＆プライバシー関連
