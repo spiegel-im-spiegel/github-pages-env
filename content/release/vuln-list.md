@@ -58,9 +58,12 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ### ブックマーク
 
-- [Mozilla、「Firefox 68.0.1」を公開 ～不具合の修正を中心としたメンテナンス更新 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1196976.html)
-- [「Firefox 68」が正式公開 ～アドオン管理を改善、新しい拡張機能との出会いの場に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1195193.html)
-- [Firefox の脆弱性 (CVE-2019-11707) に関する注意喚起](https://www.jpcert.or.jp/at/2019/at190027.html)
+- [Firefox  68.0.2, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/68.0.2/releasenotes/)
+- [Firefox  68.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/68.0.1/releasenotes/)
+- [Firefox  68.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/68.0/releasenotes/)
+- [Firefox  67.0.4, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/67.0.4/releasenotes/)
+- [Firefox  67.0.3, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/67.0.3/releasenotes/)
+    - [Firefox の脆弱性 (CVE-2019-11707) に関する注意喚起](https://www.jpcert.or.jp/at/2019/at190027.html)
 
 ## Thunderbird
 
