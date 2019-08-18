@@ -1,23 +1,8 @@
 +++
 title = "重力波望遠鏡で中性子星同士の衝突を観測"
 date =  "2017-10-17T17:50:25+09:00"
-update = "2017-10-26T14:08:23+09:00"
-description = "今回は中性子星同士の衝突を LIGO を始めとする重力波望遠鏡で観測した話。もう，片っ端からシンクを張り付けておくよ。"
+description = "今回は中性子星同士の衝突を LIGO を始めとする重力波望遠鏡で観測した話。もう，片っ端からリンクを張り付けておくよ。"
 tags        = [ "astronomy", "gravity-wave" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false
@@ -28,7 +13,7 @@ tags        = [ "astronomy", "gravity-wave" ]
 そこで WPA2 脆弱性の話と中性子星衝突を重力波望遠鏡で観測した話をまとめておく。
 
 今回は中性子星同士の衝突を LIGO を始めとする重力波望遠鏡で観測した話。
-もう，片っ端からシンクを張り付けておくよ。
+もう，片っ端からリンクを張り付けておくよ。
 
 - [NASA Missions Catch First Light from a Gravitational-Wave Event | NASA](https://www.nasa.gov/press-release/nasa-missions-catch-first-light-from-a-gravitational-wave-event)
 - [Integral sees blast travelling with gravitational waves / Space Science / Our Activities / ESA](http://www.esa.int/Our_Activities/Space_Science/Integral_sees_blast_travelling_with_gravitational_waves)
