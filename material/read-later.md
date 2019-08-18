@@ -35,9 +35,6 @@
 - [spf13/cobraで作ったCLIツールのbash/zsh補完スクリプトを自動生成する - Qiita](https://qiita.com/minamijoyo/items/9dceb1d8a66e48ab45cd)
 
 
-- https://news.local-group.jp/20190815.html#p07
-- [APOD: 2019 August 13 - Supernova Cannon Expels Pulsar J0002](https://apod.nasa.gov/apod/ap190813.html)
-
 ## リリース情報
 
 - [Hugo 0.57: The Cascading Edition | Hugo](https://gohugo.io/news/0.57.0-relnotes/)
@@ -68,7 +65,10 @@
 - [８信用金庫のシステム障害についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/08/17/082050)
 - [ASCII.jp：一部Windows Serverに脆弱性が見つかり、さくらがアップデートを促す](https://ascii.jp/elem/000/001/917/1917157/)
 - [VU#605641 - HTTP/2 implementations do not robustly handle abnormal traffic and resource exhaustion](https://www.kb.cert.org/vuls/id/605641/)
-    - [[HTTP/2実装に脆弱性、DoS攻撃のおそれ | マイナビニュース](https://news.mynavi.jp/article/20190816-877630/)]
+    - [JVNVU#98433488: HTTP/2 の実装に対するサービス運用妨害 (DoS) 攻撃手法](https://jvn.jp/vu/JVNVU98433488/)
+    - [JVNVU#98790275: Apache HTTP Web Server 2.4 における複数の脆弱性に対するアップデート](https://jvn.jp/vu/JVNVU98790275/)
+    - [JVNVU#93696206: Apple SwiftNIO HTTP/2 における脆弱性に対するアップデート](https://jvn.jp/vu/JVNVU93696206/)
+    - [HTTP/2実装に脆弱性、DoS攻撃のおそれ | マイナビニュース](https://news.mynavi.jp/article/20190816-877630/)
 - [Androidユーザー800万人がGoogle Playから85種の新手のアドウェアをダウンロードしていた  |  TechCrunch Japan](https://jp.techcrunch.com/2019/08/17/2019-08-16-android-users-tricked-adware-apps/)
 
 ## 天文関連
