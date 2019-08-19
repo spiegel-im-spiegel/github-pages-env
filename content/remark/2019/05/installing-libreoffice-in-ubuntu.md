@@ -76,10 +76,10 @@ $ sudo snap remove libreoffice
 まず[公式サイト]から deb ファイルが同梱された `*.tar.gz` ファイルをダウンロードする。
 たとえばこんなファイル名になっている。
 
-- `LibreOffice_6.2.3_Linux_x86-64_deb.tar.gz`
+- `LibreOffice_6.3.0_Linux_x86-64_deb.tar.gz`
 
-このファイルを適当な場所で展開すると `LibreOffice_6.2.3_Linux_x86-64_deb/` ディレクトリが作成される。
-`LibreOffice_6.2.3_Linux_x86-64_deb/DEBS/` ディレクトリに降りると複数の deb ファイルがあることが分かるだろう。
+このファイルを適当な場所で展開すると `LibreOffice_6.3.0_Linux_x86-64_deb/` ディレクトリが作成される。
+`LibreOffice_6.3.0_Linux_x86-64_deb/DEBS/` ディレクトリに降りると複数の deb ファイルがあることが分かるだろう。
 基本的にはこれを全てインストールする。
 全てのファイルに対していちいち `gdebi` コマンドを使うのはかったるいので
 
@@ -93,15 +93,15 @@ $ sudo apt install ./*.deb
 これで導入した [LibreOffice] では英語とフランス語くらいしか対応していないため日本語パックとヘルプも導入する。
 同じく[公式サイト]から以下の `*.tar.gz` ファイルをダウンロードする。
 
-- `LibreOffice_6.2.3_Linux_x86-64_deb_langpack_ja.tar.gz`
-- `LibreOffice_6.2.3_Linux_x86-64_deb_helppack_ja.tar.gz`
+- `LibreOffice_6.3.0_Linux_x86-64_deb_langpack_ja.tar.gz`
+- `LibreOffice_6.3.0_Linux_x86-64_deb_helppack_ja.tar.gz`
 
 これらのファイルを適当な場所で展開して中に入っている deb ファイルを片っ端からインストールしていく。
 
 削除する場合は
 
 ```text
-$ sudo apt remove libreoffice6.2* libobasis6.2*
+$ sudo apt remove libreoffice6.3* libobasis6.3*
 ```
 
 のようにバージョンとワイルドカードを指定すること。
