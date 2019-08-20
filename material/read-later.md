@@ -35,6 +35,11 @@
 - [spf13/cobraで作ったCLIツールのbash/zsh補完スクリプトを自動生成する - Qiita](https://qiita.com/minamijoyo/items/9dceb1d8a66e48ab45cd)
 
 
+- [ホームディレクトリのドットファイルを整理する。](https://chiyosuke.blogspot.com/2019/04/blog-post_27.html)
+- [~/.gitconfigをホームディレクトリのトップから移動させる - Qiita](https://qiita.com/kob-u/items/9921cd3594d7641cab2a)
+- [XDG Base Directory サポート - ArchWiki](https://wiki.archlinux.jp/index.php/XDG_Base_Directory_%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88)
+
+
 ## リリース情報
 
 
