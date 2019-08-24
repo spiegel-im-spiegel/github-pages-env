@@ -34,6 +34,17 @@ tags = [
 なお “Go 2” の提案はまだドラフト段階なので大幅に変更になったり場合によっては立ち消えになる可能性もある。
 なので，この記事では深いところまで踏み込まずフワっとした説明になるけど，あしからずご了承の程を。
 
+{{< div-box type="md" >}}
+## 追記 2019-08-24
+
+[Go] 1.13 で後半の “[Wrapper interface]({{< relref "#wrapper" >}})” に関連する仕様追加が行われた。
+詳しくは以下の記事を参照のこと。
+
+- [Go 1.13 のエラー・ハンドリング]({{< relref "./error-handling-in-go-1_3.md" >}})
+
+[Go]: https://golang.org/ "The Go Programming Language"
+{{< /div-box >}}
+
 ## Check 式（Check Expression）と Handle 構文（Handle Statement）
 
 まずはファイルをコピーする簡単なコマンドを書いてみよう。
@@ -169,7 +180,7 @@ func process(user string, files chan string) (n int, err error) {
 のように書けるらしい。
 Handle 構文の処理はスタック状に積まれていく感じかな。
 
-## Wrapper interface
+## Wrapper interface{#wrapper}
 
 たとえば [`os`]`.PathError` は以下のように内部に error 情報を持っている。
 
@@ -254,6 +265,7 @@ if pe, ok := errors.As(*os.PathError)(err); ok {
 
 - [エラー・ハンドリングについて]({{< relref "error-handling.md" >}})
 - [Error の構造化]({{< relref "error-handling2.md" >}})
+- [Go 1.13 と 1.14 （Go 2 へ向けて）]({{< ref "/release/2019/06/next-steps-toward-go-2.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [総称型]: {{< relref "generics-in-go-2.md" >}} "次期 Go 言語で導入される（かもしれない）新しいエラー・ハンドリングについて予習する"
