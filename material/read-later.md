@@ -40,9 +40,6 @@
 - [XDG Base Directory サポート - ArchWiki](https://wiki.archlinux.jp/index.php/XDG_Base_Directory_%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88)
 
 
-- [Linux Journalの終焉とともに考える、ウェブがインターネット・アーカイブと同義になる恐ろしく悲しい未来 - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20190820/web-archive)
-
-
 ## リリース情報
 
 
