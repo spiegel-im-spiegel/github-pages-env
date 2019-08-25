@@ -40,10 +40,7 @@
 - [XDG Base Directory サポート - ArchWiki](https://wiki.archlinux.jp/index.php/XDG_Base_Directory_%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88)
 
 
-- [MathJax v2.7.6 now available | MathJax](https://www.mathjax.org/mathjax-v2-7-6-now-available/)
 - [Linux Journalの終焉とともに考える、ウェブがインターネット・アーカイブと同義になる恐ろしく悲しい未来 - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20190820/web-archive)
-- [Ubuntu 19.04 その146 - Snap Storeからインストール可能なセキュリティーアプリ5選 - kledgeb](https://kledgeb.blogspot.com/2019/08/ubuntu-1904-146-snap-store5.html)
-    - [GitHub - keepassxreboot/keepassxc: KeePassXC is a cross-platform community-driven port of the Windows application “Keepass Password Safe”.](https://github.com/keepassxreboot/keepassxc)
 
 
 ## リリース情報
