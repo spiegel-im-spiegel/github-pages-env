@@ -42,6 +42,8 @@ pageType = "text"
     - [JVNVU#98790275: Apache HTTP Web Server 2.4 における複数の脆弱性に対するアップデート](https://jvn.jp/vu/JVNVU98790275/)
     - [JVNVU#93696206: Apple SwiftNIO HTTP/2 における脆弱性に対するアップデート](https://jvn.jp/vu/JVNVU93696206/)
     - [HTTP/2実装に脆弱性、DoS攻撃のおそれ | マイナビニュース](https://news.mynavi.jp/article/20190816-877630/)
+    - [「Node.js」の2019年8月セキュリティ更新が公開 ～HTTP/2実装のDoS脆弱性を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1201865.html)
+    - [Apple SwiftNIO HTTP/2に脆弱性、アップデートを | マイナビニュース](https://news.mynavi.jp/article/20190818-878476/)
 - [Androidユーザー800万人がGoogle Playから85種の新手のアドウェアをダウンロードしていた  |  TechCrunch Japan](https://jp.techcrunch.com/2019/08/17/2019-08-16-android-users-tricked-adware-apps/)
 - [「監視カメラの画像認識をだます服」をハッカー兼ファッションデザイナーが発表 - GIGAZINE](https://gigazine.net/news/20190816-fashion-trick-surveillance-camera/)
 

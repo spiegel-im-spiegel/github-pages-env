@@ -1,29 +1,13 @@
 +++
+title = "モンテカルロ法による円周率の推定（その4 PRNG）"
+date = "2016-11-20T23:33:55+09:00"
+description = "math/rand パッケージでは rand.Source interface を持つ別の擬似乱数生成器を使うことができる。"
 tags = [
  "golang",
   "math",
   "random",
   "circle-ratio",
 ]
-draft = false
-date = "2016-11-20T23:33:55+09:00"
-update = "2018-11-13T10:00:52+09:00"
-title = "モンテカルロ法による円周率の推定（その4 PRNG）"
-description = "math/rand パッケージでは rand.Source interface を持つ別の擬似乱数生成器を使うことができる。"
-
-[author]
-  flickr = "spiegel"
-  linkedin = "spiegelimspiegel"
-  license = "by-sa"
-  instagram = "spiegel_2007"
-  flattr = ""
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  facebook = "spiegel.im.spiegel"
-  url = "https://baldanders.info/profile/"
-  avatar = "/images/avatar.jpg"
-  tumblr = ""
-  github = "spiegel-im-spiegel"
 
 [scripts]
   mathjax = true
@@ -266,6 +250,7 @@ standard deviation: 0.00517 (67.8%)
 - [Mersenne Twister に関する覚え書き]({{< ref "/remark/2016/03/mersenne-twister.md" >}})
 - [PCG, A Family of Better Random Number Generators | PCG, A Better Random Number Generator](http://www.pcg-random.org/)
 - [/dev/randomではなく/dev/urandomを使うべき理由? | マイナビニュース](http://news.mynavi.jp/news/2014/03/11/037/)
+- [与えられた重みに従ってランダムに値を返す「Weighted Random Selection」をGoで実装する！ - Qiita](https://qiita.com/po3rin/items/f28a8ce322cb1bd95175)
 
 [Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
@@ -285,27 +270,27 @@ standard deviation: 0.00517 (67.8%)
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9EGo-ADDISON-WESLEY-PROFESSIONAL-COMPUTING-Donovan/dp/4621300253?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621300253"><img src="https://images-fe.ssl-images-amazon.com/images/I/41meaSLNFfL._SL160_.jpg" width="123" alt="photo"></a></div>
   <dl class="fn">
     <dt><a href="https://www.amazon.co.jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9EGo-ADDISON-WESLEY-PROFESSIONAL-COMPUTING-Donovan/dp/4621300253?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621300253">プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)</a></dt>
-	<dd>Alan A.A. Donovan, Brian W. Kernighan</dd>
-	<dd>柴田 芳樹 (翻訳)</dd>
+    <dd>Alan A.A. Donovan, Brian W. Kernighan</dd>
+    <dd>柴田 芳樹 (翻訳)</dd>
     <dd>丸善出版 2016-06-20</dd>
-    <dd>Book 単行本（ソフトカバー）</dd>
-    <dd>ASIN: 4621300253, EAN: 9784621300251</dd>
+    <dd>単行本（ソフトカバー）</dd>
+    <dd>4621300253 (ASIN), 9784621300251 (EAN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">著者のひとりは（あの「バイブル」とも呼ばれる）通称 “K&amp;R” の K のほうである。この本は Go 言語の教科書と言ってもいいだろう。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-API</a>)</p>
 </div>
 
 <div class="hreview">
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%9A%97%E5%8F%B7%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80-%E7%AC%AC3%E7%89%88-%E7%A7%98%E5%AF%86%E3%81%AE%E5%9B%BD%E3%81%AE%E3%82%A2%E3%83%AA%E3%82%B9-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B015643CPE?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B015643CPE"><img src="https://images-fe.ssl-images-amazon.com/images/I/51t6yHHVwEL._SL160_.jpg" width="113" alt="photo"></a></div>
   <dl class="fn">
     <dt><a href="https://www.amazon.co.jp/%E6%9A%97%E5%8F%B7%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80-%E7%AC%AC3%E7%89%88-%E7%A7%98%E5%AF%86%E3%81%AE%E5%9B%BD%E3%81%AE%E3%82%A2%E3%83%AA%E3%82%B9-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B015643CPE?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B015643CPE">暗号技術入門 第3版　秘密の国のアリス</a></dt>
-	<dd>結城 浩</dd>
+    <dd>結城 浩</dd>
     <dd>SBクリエイティブ 2015-08-25 (Release 2015-09-17)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B015643CPE</dd>
+    <dd>Kindle版</dd>
+    <dd>B015643CPE (ASIN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">SHA-3 や Bitcoin/Blockchain など新しい知見や技術要素を大幅追加。暗号技術を使うだけならこれ1冊でとりあえず無問題。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-09-20">2015-09-20</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-09-20">2015-09-20</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-API</a>)</p>
 </div>

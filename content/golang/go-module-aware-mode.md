@@ -662,6 +662,7 @@ Flags:
 
 - [Using Go Modules - The Go Blog](https://blog.golang.org/using-go-modules)
 - [Modules · golang/go Wiki · GitHub](https://github.com/golang/go/wiki/Modules)
+- [Migrating to Go Modules - The Go Blog](https://blog.golang.org/migrating-to-go-modules)
 
 - [Go 1.11 のリリースと「モジュール」機能の実験的サポート]({{< relref "/release/2018/09/go-1_11-ise-released.md" >}})
 - [GOPATH モードからモジュール対応モードへ移行せよ](https://qiita.com/spiegel-im-spiegel/items/5cb1587cb55d6f6a34d7)

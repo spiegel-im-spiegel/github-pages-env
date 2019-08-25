@@ -1,7 +1,6 @@
 +++
 title = "Map の話"
 date = "2018-02-07T21:03:54+09:00"
-update = "2018-03-16T11:15:49+09:00"
 description = "連想配列： map の複製とか比較とか。"
 image = "/images/attention/go-logo_blue.png"
 tags = [ "golang", "programming", "map" ]
@@ -444,6 +443,7 @@ p1 != p2
 
 - [golangのequalityの評価について - podhmo's diary](http://pod.hatenablog.com/entry/2016/07/30/204357)
 - [Goで違うmapであることをテストする - Qiita](https://qiita.com/karupanerura/items/03d6766fd8568c15fc90)
+- [Goでmapをjson文字列に変換する - Qiita](https://qiita.com/konchan_____/items/dce130f79c49e04e9931)
 
 - [配列と Slice]({{< relref "array-and-slice.md" >}})
 

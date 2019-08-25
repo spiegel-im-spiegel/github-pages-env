@@ -1,23 +1,8 @@
 +++
 title = "ちょこっと MathJax： 初期設定"
 date =  "2017-09-27T20:02:09+09:00"
-update = "2018-04-08T10:18:04+09:00"
 description = "この記事ではまず Web ページ上で MathJax が動くところまで説明していこう。"
-tags        = [ "math", "tex", "mathjax", "javascript", "blog", "site" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
+tags = [ "math", "tex", "mathjax", "javascript", "blog", "site" ]
 
 [scripts]
   mathjax = true
@@ -60,15 +45,15 @@ tags        = [ "math", "tex", "mathjax", "javascript", "blog", "site" ]
 CDN (Content Delivery Network) で配布されているので HTML の `<head>` 要素内に
 
 ```html
-<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML&locale=ja"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/latest.js?config=TeX-AMS_HTML&amp;locale=ja"></script>
 ```
 
 と記述すればよい（`async` を忘れずに）。
-なお URL の “`2.7.4`” 部分はバージョン番号で，2018年4月3日時点の最新バージョンは 2.7.4 である[^cdn1]。
+なお URL の “`2.7.6`” 部分はバージョン番号で，2019年8月21日時点の最新バージョンは 2.7.6 である[^cdn1]。
 
 [^cdn1]: ちなみに2017年5月から CDN の[配布 URL が変わった](https://www.mathjax.org/cdn-shutting-down/ "MathJax CDN shutting down on April 30, 2017.  Alternatives available.")ので，設定が古いままの方は注意が必要である。
 
-- [MathJax v2.7.4 now available | MathJax](https://www.mathjax.org/mathjax-v2-7-4-now-available/)
+- [MathJax v2.7.6 now available | MathJax](https://www.mathjax.org/mathjax-v2-7-6-now-available/)
 
 URL パラメータ部の `config=TeX-AMS_HTML` については[指定可能なコンフィギュレーション](http://docs.mathjax.org/en/latest/config-files.html "Combined Configurations — MathJax 2.7 documentation")がいくつかあるが，  $\mathrm{\TeX}$ 記法を使うのであれば `TeX-AMS_CHTML` または `TeX-AMS_HTML` を指定するのがいいだろう[^html1]。
 さらにパラメータ部に `locale=ja` を追加すると，数式部分で表示されるコンテキスト・メニューが日本語になる。
