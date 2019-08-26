@@ -126,12 +126,12 @@ var errorType = reflectlite.TypeOf((*error)(nil)).Elem()
 コードが微妙にダサいのは [Go 言語]が[総称型を持っていない]({{< relref "./generics-in-go-2.md" >}} "次期 Go 言語で導入される（かもしれない）総称型について予習する")ため。
 逆に言うと，総称型がなくともこの程度はできる，ということで（笑）
 
-ここまでが準備運動（笑）
+ここまでが準備運動。
 
 ## fmt.Errorf 関数による error のラッピング
 
-[`fmt`]`.Errorf()` 関数の書式で `%w` 使えるようになった。
-`%w` を使うと対応する error インスタンスをラッピングする `wrapError` 型のインスタンスを生成する。
+[`fmt`]`.Errorf()` 関数の書式で `%w` が使えるようになった。
+`%w` を使うことで，対応する error インスタンスをラッピングする `wrapError` 型のインスタンスを生成する。
 
 ```go
 // Errorf formats according to a format specifier and returns the string as a
