@@ -44,7 +44,7 @@ func Unwrap(err error) error {
 [golang.org/x/xerrors] パッケージでは [`xerrors`]`.Wrapper` interface 型が定義されていたが，まぁ `Unwrap()` 関数以外で `Wrapper` 型を使う局面はないので，これでもいいっちゃあいいのかな。
 
 [`errors`]`.Is()` は2つの error インスタンスの同値性（equality）を検査する[^eq1]。
-[`errors`]`.As()` 関数 error インスタンスから指定した型へ変換または抽出する。
+[`errors`]`.As()` 関数は error インスタンスから指定した型へ変換または抽出する。
 先ほどの [`errors`]`.Unwrap()` 関数はこれらの関数内で呼び出される。
 
 [^eq1]: 比較対象の error インスタンス（第2引数）と被検査対象の error インスタンス（第1引数）内にラッピングされている error インスタンスのいずれかが同値であるなら両インスタンは同値であると見做す。
