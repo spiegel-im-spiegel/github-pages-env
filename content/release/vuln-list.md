@@ -17,7 +17,7 @@ pageType = "text"
 
 - [Ubuntu security notices](https://usn.ubuntu.com/)
 
-## GnuPG & Libgcrypt
+## GnuPG
 
 GnuPG は [Ubuntu] 19.04 リリース時の 2.2.12 (libgcrypt 1.8.4) から動いていない。
 ちなみに [Ubuntu] 19.04 リリース時の公式版最新バージョンは 2.2.15 である。
@@ -25,6 +25,12 @@ GnuPG は [Ubuntu] 19.04 リリース時の 2.2.12 (libgcrypt 1.8.4) から動�
 | Official | Release    | Ubuntu | Release |   delay |
 | --------:| ---------- | ------:| ------- | -------:|
 |   2.2.17 | 2019-07-09 |        |         | ∞ days |
+
+### Libgcrypt
+
+| Official | Release    | Ubuntu | Release |   delay |
+| --------:| ---------- | ------:| ------- | -------:|
+|    1.8.5 | 2019-08-29 |        |         | ∞ days |
 
 ### ブックマーク
 
