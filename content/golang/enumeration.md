@@ -21,16 +21,16 @@ pageType = "text"
 
 ```go
 const (
-	ONE   = 1
-	TWO   = 2
-	THREE = 3
+    ONE   = 1
+    TWO   = 2
+    THREE = 3
 )
 ```
 
 などといちいち書いていくのは面倒である。
 そこで [Go 言語]には `iota` と呼ばれる定数生成器が用意されている。
 
-たとえば先ほどのコードであれば
+先ほどのコードであれば
 
 {{< highlight go "hl_lines=5-9" >}}
 package main
@@ -38,15 +38,15 @@ package main
 import "fmt"
 
 const (
-	ONE = iota + 1
-	TWO
-	THREE
+    ONE = iota + 1
+    TWO
+    THREE
 )
 
 func main() {
-	fmt.Println(ONE, TWO, THREE)
-	//Output:
-	//1 2 3
+    fmt.Println(ONE, TWO, THREE)
+    //Output:
+    //1 2 3
 }
 {{< /highlight >}}
 
@@ -55,10 +55,10 @@ func main() {
 
 ```go
 const (
-	BIT0 = 1 << iota
-	BIT1
-	BIT2
-	BIT3
+    BIT0 = 1 << iota
+    BIT1
+    BIT2
+    BIT3
 )
 ```
 
@@ -77,19 +77,19 @@ type BitFlag uint
 
 ```go
 const (
-	BIT0 BitFlag = 1 << iota
-	BIT1
-	BIT2
-	BIT3
+    BIT0 BitFlag = 1 << iota
+    BIT1
+    BIT2
+    BIT3
 )
 ```
 
 という感じに書ける。
-型にはメソッドを関連付けられるので，たとえば `BitFlag` 型に対して
+型にはメソッドを関連付けられるので，上の `BitFlag` 型に対して
 
 ```go
 func (f BitFlag) String() string {
-	return fmt.Sprintf("%#02x", uint(f))
+    return fmt.Sprintf("%#02x", uint(f))
 }
 ```
 
@@ -97,9 +97,9 @@ func (f BitFlag) String() string {
 
 ```go
 func main() {
-	fmt.Println(BIT0, BIT1, BIT2, BIT3)
-	//Output:
-	//0x01 0x02 0x04 0x08
+    fmt.Println(BIT0, BIT1, BIT2, BIT3)
+    //Output:
+    //0x01 0x02 0x04 0x08
 }
 ```
 
@@ -108,17 +108,18 @@ func main() {
 ## 列挙シンボルに「値」を関連付ける
 
 ここまで説明すれば列挙シンボルに「値」を関連付けるのはそんなに難しくないと気づくだろう。
-たとえば，以下のような列挙シンボルを考える。
+
+以下のような列挙シンボルを考える。
 
 ```go
 type CharEncoding int
 
 const (
-	Unknown CharEncoding = iota
-	UTF8
-	ShiftJIS
-	EUCJP
-	ISO2022JP
+    Unknown CharEncoding = iota
+    UTF8
+    ShiftJIS
+    EUCJP
+    ISO2022JP
 )
 ```
 
@@ -126,11 +127,11 @@ const (
 こんな感じ。
 
 ```go
-var encodingMap = map[CharEncoding]string{
-	UTF8:      "UTF-8",
-	ShiftJIS:  "Shift_JIS",
-	EUCJP:     "EUC-JP",
-	ISO2022JP: "ISO-2022-JP",
+var encodingNameMap = map[CharEncoding]string{
+    UTF8:      "UTF-8",
+    ShiftJIS:  "Shift_JIS",
+    EUCJP:     "EUC-JP",
+    ISO2022JP: "ISO-2022-JP",
 }
 ```
 
@@ -138,10 +139,10 @@ var encodingMap = map[CharEncoding]string{
 
 ```go
 func (c CharEncoding) String() string {
-	if s, ok := encodingMap[c]; ok {
-		return s
-	}
-	return "Unknown"
+    if s, ok := encodingNameMap[c]; ok {
+        return s
+    }
+    return "Unknown"
 }
 ```
 
@@ -149,9 +150,9 @@ func (c CharEncoding) String() string {
 
 ```go
 func main() {
-	fmt.Println(UTF8)
-	//Output:
-	//UTF-8
+    fmt.Println(UTF8)
+    //Output:
+    //UTF-8
 }
 ```
 
@@ -160,13 +161,13 @@ func main() {
 あるいは文字列から列挙シンボルに変換する
 
 ```go
-func GetEncoding(s string) CharEncoding {
-	for key, value := range encodingMap {
-		if strings.ToLower(value) == strings.ToLower(s) {
-			return key
-		}
-	}
-	return Unknown
+func GetCharEncoding(s string) CharEncoding {
+    for key, value := range encodingNameMap {
+        if strings.ToLower(value) == strings.ToLower(s) {
+            return key
+        }
+    }
+    return Unknown
 }
 ```
 
@@ -174,14 +175,39 @@ func GetEncoding(s string) CharEncoding {
 
 ```go
 func main() {
-	fmt.Println(GetEncoding("utf-8"))
-	//Output:
-	//UTF-8
+    fmt.Println(GetCharEncoding("utf-8"))
+    //Output:
+    //UTF-8
 }
 ```
 
 といった感じで簡易バリデーションみたいなこともできるだろう。
 
+もちろん「値」との関連付けは文字列に限るわけではなく，たとえば
+
+```go
+import (
+    "golang.org/x/text/encoding"
+    "golang.org/x/text/encoding/japanese"
+    "golang.org/x/text/encoding/unicode"
+)
+
+var encodingMap = map[CharEncoding]encoding.Encoding{
+    UTF8:      unicode.UTF8,
+    ShiftJIS:  japanese.ShiftJIS,
+    EUCJP:     japanese.EUCJP,
+    ISO2022JP: japanese.ISO2022JP,
+}
+
+func (c CharEncoding) Encoding() encoding.Encoding {
+    if e, ok := encodingMap[c]; ok {
+        return e
+    }
+    return nil
+}
+```
+
+などと幾らでも追加できる。
 
 [Go]: https://golang.org/ "The Go Programming Language"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
