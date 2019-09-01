@@ -79,6 +79,7 @@ $ sudo snap refresh
 
 - [GitHub - keepassxreboot/keepassxc: KeePassXC is a cross-platform community-driven port of the Windows application “Keepass Password Safe”.](https://github.com/keepassxreboot/keepassxc)
 - [Ubuntu 19.04 その146 - Snap Storeからインストール可能なセキュリティーアプリ5選 - kledgeb](https://kledgeb.blogspot.com/2019/08/ubuntu-1904-146-snap-store5.html)
+- [Snapから使いやすいセキュリティソフトウェア5選 | マイナビニュース](https://news.mynavi.jp/article/20190825-883052/)
 
 [KeePassXC]: https://keepassxc.org/ "KeePassXC Password Manager"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"

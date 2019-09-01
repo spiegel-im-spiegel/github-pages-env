@@ -274,6 +274,7 @@ title = "Go 言語に関するブックマーク"
 - [Big Sky :: goroutine でドハマリした。](https://mattn.kaoriya.net/software/lang/go/20180124171404.htm)
 - [Big Sky :: Go 言語の非同期パターン](https://mattn.kaoriya.net/software/lang/go/20180531104907.htm)
 - [goroutineとチャネルの動きを図を使って理解する(和訳) - Qiita](https://qiita.com/hirano00o/items/828393342efcd80aa2e6)
+- [goleakでgoroutine leakのリスクを減らす - Qiita](https://qiita.com/smith-30/items/67c4f894bec45a6fd82a)
 
 Go 言語で複数 CPU を使った並列処理を行うには明示的な設定が必要。
 

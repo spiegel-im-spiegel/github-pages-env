@@ -32,12 +32,16 @@
 
 - [GitHub - hsaito/gnupg-buildkit: Build Kit for GNU Privacy Guard (2.1.x -- Modern)](https://github.com/hsaito/gnupg-buildkit)
 - [GitHub - hsaito/GnuPG_Buildkit_Package_Lister: A simple program to grab GnuPG file list ot be used for gnupg-buildkit](https://github.com/hsaito/GnuPG_Buildkit_Package_Lister) : .NET Core が要るみたい
+
 - [spf13/cobraで作ったCLIツールのbash/zsh補完スクリプトを自動生成する - Qiita](https://qiita.com/minamijoyo/items/9dceb1d8a66e48ab45cd)
+- [転職サイトのビズリーチ、OSSの脆弱性管理ツールを開発　きっかけは「社内の悩み」 (1/2) - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/1908/29/news034.html)
 
 
 - [ホームディレクトリのドットファイルを整理する。](https://chiyosuke.blogspot.com/2019/04/blog-post_27.html)
 - [~/.gitconfigをホームディレクトリのトップから移動させる - Qiita](https://qiita.com/kob-u/items/9921cd3594d7641cab2a)
 - [XDG Base Directory サポート - ArchWiki](https://wiki.archlinux.jp/index.php/XDG_Base_Directory_%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88)
+
+- [What’s New in Thunderbird 68 | The Mozilla Thunderbird Blog](https://blog.mozilla.org/thunderbird/2019/08/whats-new-in-thunderbird-68/)
 
 
 ## リリース情報
