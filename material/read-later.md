@@ -8,6 +8,7 @@
 - [これでいいのか！2018年著作権法改正 (NextPublishing) eBook: 中山 信弘ほか, 城所 岩生: Kindleストア](https://www.amazon.co.jp/exec/obidos/ASIN/B07NQ75YQC/baldandersinf-22/)
 - [森口 博子「GUNDAM SONG COVERS　LPサイズ盤」特設サイト](http://kingeshop.jp/shop/pages/hiroko_moriguchi_gundam40th.aspx)
 - [プログラミングHaskell 第2版（電子書籍） – 技術書出版と販売のラムダノート](https://www.lambdanote.com/products/haskell-ebook)
+- [数学ガールの秘密ノート/学ぶための対話 (数学ガールの秘密ノートシリーズ) | 結城浩 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4815603995/baldandersinf-22/)
 
 ## あとで遊ぶ
 
