@@ -465,6 +465,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [CI-as-a-ServiceでGo言語プロジェクトの最新ビルドを継続的に提供する | SOTA](http://deeeet.com/writing/2014/10/16/golang-in-ci-as-a-service/)
 - [RaspberryPi1(2とzeroも)で動かすgolang製アプリをクロスコンパイル(onMac) - Qiita](http://qiita.com/m0a/items/d933982293dcadd4998c)
 - [GoでFPGAしてみる(Reconfigure.io) - Qiita](https://qiita.com/mjhd-devlion/items/5e6f6f2f40ecb4ad4217)
+- [GoでCLIツールを作成してRaspberryPiで実行する - Qiita](https://qiita.com/marumaru-n/items/13ef552adad2d3a4ed1e)
 
 ### C 言語との連携
 
@@ -677,6 +678,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [grpc-gatewayでgRPCのREST対応を試しました - Qiita](https://qiita.com/nisitanisubaru/items/abe11ff4248997d1fee2)
 - [Go言語のRESTサーバーを Clean Architecture で作ってみる - Qiita](https://qiita.com/nijuya_o/items/392cd3e4fa5641b3dec1)
 - [SSOサービスKeycloakとgolangのHTTPサーバを連携する - Qiita](https://qiita.com/myoshimi/items/8337aab1b17d89938be0)
+- [Go 言語のフレームワーク比較 - Qiita](https://qiita.com/inexp_eng4432/items/50d05262eb6ccbcfda1f)
 
 ## 他サービスとの連携
 

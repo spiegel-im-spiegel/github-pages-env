@@ -42,28 +42,67 @@
 - [~/.gitconfigをホームディレクトリのトップから移動させる - Qiita](https://qiita.com/kob-u/items/9921cd3594d7641cab2a)
 - [XDG Base Directory サポート - ArchWiki](https://wiki.archlinux.jp/index.php/XDG_Base_Directory_%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88)
 
+- [xsel(1): change X selection - Linux man page](https://linux.die.net/man/1/xsel) : mklink のクリップボード機能はこれを使っているらしい
+
 - [What’s New in Thunderbird 68 | The Mozilla Thunderbird Blog](https://blog.mozilla.org/thunderbird/2019/08/whats-new-in-thunderbird-68/)
 
+- [Go 1.13 is released - The Go Blog](https://blog.golang.org/go1.13)
+    - [Go 1.13 Release Notes - The Go Programming Language](https://golang.org/doc/go1.13)
+    - [Go 1.13 is released - Google Group](https://groups.google.com/forum/#!topic/golang-announce/wQqVlKJiMBA)
 
 ## リリース情報
 
+- [Google、「Android 10」を正式リリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1205164.html)
+- [Firefox  69.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/69.0/releasenotes/)
+    - [Today’s Firefox Blocks Third-Party Tracking Cookies and Cryptomining by Default - The Mozilla Blog](https://blog.mozilla.org/blog/2019/09/03/todays-firefox-blocks-third-party-tracking-cookies-and-cryptomining-by-default/)
+    - [「Firefox 69」が公開 ～全ユーザーをサードパーティートラッカーと暗号通貨マイニングから保護 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1205169.html)
+- [GoogleがAndroid 10をリリース、日本でも配信中  |  TechCrunch Japan](https://jp.techcrunch.com/2019/09/04/2019-09-03-google-releases-android-10/)
 
 ## バベルのインターネット
 
 
 ## セキュリティ＆プライバシー関連
 
+- [Twitterのジャック・ドーシーCEOのTwitterアカウントが乗っ取られる  |  TechCrunch Japan](https://jp.techcrunch.com/2019/09/01/2019-08-30-someone-hacked-jack-dorseys-own-twitter-account/)
+- [脆弱なAWS S3侵害によるユニクロオーストラリアの入力フォーム改ざんについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/09/02/065836)
+- [SIMスワッピングによるTwitter CEOアカウントのっとりについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/09/01/064336)
+- [複数の SSL VPN 製品の脆弱性に関する注意喚起](https://www.jpcert.or.jp/at/2019/at190033.html)
+- [Avastと仏警察、85万台感染の暗号通貨マイニング・ボットネットを壊滅  |  TechCrunch Japan](https://jp.techcrunch.com/2019/09/02/2019-09-01-police-botnet-takedown-infections/)
+- [MIT Tech Review: 積極攻撃に乗り出す米サイバー軍、イラン軍のデータベースを破壊](https://www.technologyreview.jp/nl/american-cyber-command-hamstrung-irans-paramilitary-force/)
+- [DDoS攻撃の最新動向--小規模で巧妙な攻撃増加 - ZDNet Japan](https://japan.zdnet.com/article/35142110/)
+- [Sources say China used iPhone hacks to target Uyghur Muslims – TechCrunch](https://techcrunch.com/2019/08/31/china-google-iphone-uyghur/)
+    - [iPhoneハッキングは中国政府によるウイグルのムスリム攻撃の疑い  |  TechCrunch Japan](https://jp.techcrunch.com/2019/09/02/2019-08-31-china-google-iphone-uyghur/)
+    - [MIT Tech Review: iPhone安全神話崩壊、グーグルが発見した大規模攻撃の驚きの中身](https://www.technologyreview.jp/s/160736/websites-have-been-quietly-hacking-iphones-for-years-says-google/)
+    - [Massive iPhone Hack Targets Uyghurs - Schneier on Security](https://www.schneier.com/blog/archives/2019/09/massive_iphone_.html)
+    - [ブログ: ウイグル人を標的にした大規模なiPhoneハッキング](https://okuranagaimo.blogspot.com/2019/09/iphone.html)
+- [パンダくろしお運行スケジュールサイトの改ざんについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/09/04/070734)
+- [LINE、プロフ画像が第三者に変更される脆弱性　「プロフ画像、変えられてないか確認を」とユーザーに呼び掛け - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/1909/04/news077.html)
 
 ## 天文関連
 
+- [MIT Tech Review: スペースXのネット衛星、ESAの気象衛星とニアミス](https://www.technologyreview.jp/nl/one-of-spacexs-starlink-satellites-almost-collided-with-a-weather-forecasting-satellite-today/)
 
 ## 知財関連
 
+- [国際調査研究：正規版の価格の手頃さと入手のしやすさこそが海賊版を減らす | P2Pとかその辺のお話R](https://p2ptk.org/copyright/2721)
 
 ## Linux または Ubuntu に関する話題
 
+- [さくらのVPS 初期提供時の標準OSを「CentOS 7」へ変更 | さくらインターネット](https://www.sakura.ad.jp/information/announcements/2019/09/03/1968201089/)
 
 ## その他
 
+- [LibreOffice で「Arial」が「MS Pゴシック」になる - 電気ウナギ的○○](http://blog.netandfield.com/shar/2019/09/libreoffice-arialms-p.html)
+- [ヴイエムウェアとデルのCEOが語る、米中貿易摩擦と2つの貿易圏への対応 - ZDNet Japan](https://japan.zdnet.com/article/35141933/)
+- [Google App EngineでRubyのスタンダード環境でのサポート開始。負荷がないときはゼロインスタンスまで縮退可能 － Publickey](https://www.publickey1.jp/blog/19/google_app_engineruby.html)
+- [Microsoft、Edge/IE11のFlash削除ロードマップを更新 ～次期EdgeはChromiumと歩を揃えて段階的に廃止 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1204644.html)
+- [Rustこそがシステムプログラミングの未来（で、C言語はもはやアセンブリ相当）なら、Rustで書かれたドライバのコードをLinuxカーネルは受け入れるべきなのか？ - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20190902/rust-is-the-future-of-systems-programming)
+- [プロジェクト管理ツール「Jooto」がフル機能を無料開放、5人目以降からの有料プランに刷新  |  TechCrunch Japan](https://jp.techcrunch.com/2019/03/04/jooto/)
+- [HugoでGravater登録画像を表示するサンプル - Qiita](https://qiita.com/alkn203/items/298688584094d265b96e)
+- [Facebookが近い将来「いいね！」カウントを廃止する可能性  |  TechCrunch Japan](https://jp.techcrunch.com/2019/09/03/2019-09-02-facebook-hidden-likes/)
+- [MIT Tech Review: SNSからヘイトを排除するには？ 物理学者が提唱する過激な対策](https://www.technologyreview.jp/s/159502/heres-how-social-media-firms-should-tackle-online-hate-according-to-physics/)
+- [仮想マシンのメモリを、ネットワーク経由でほかのサーバから拝借して増やせる「VMware Cluster Memory」、VMwareが開発中 － Publickey](https://www.publickey1.jp/blog/19/vmware_cluster_memoryvmware.html)
+- [英「合意なき離脱」なら欧州に深刻なダメージ--静かに響く「EU崩壊」の足音 - ZDNet Japan](https://japan.zdnet.com/article/35142100/)
+- [ハイライト 山中伸弥 氏（京都大学iPS細胞研究所所長・教授）「iPS細胞の発見をもたらした『必要』と『偶然』 ―ノーベル生理学・医学賞を授賞した研究の背景」| SciencePortal](https://scienceportal.jst.go.jp/columns/highlight/20190904_01.html)
 
 <!-- eof -->
