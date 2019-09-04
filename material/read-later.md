@@ -46,9 +46,6 @@
 
 - [What’s New in Thunderbird 68 | The Mozilla Thunderbird Blog](https://blog.mozilla.org/thunderbird/2019/08/whats-new-in-thunderbird-68/)
 
-- [Go 1.13 is released - The Go Blog](https://blog.golang.org/go1.13)
-    - [Go 1.13 Release Notes - The Go Programming Language](https://golang.org/doc/go1.13)
-    - [Go 1.13 is released - Google Group](https://groups.google.com/forum/#!topic/golang-announce/wQqVlKJiMBA)
 
 ## リリース情報
 
