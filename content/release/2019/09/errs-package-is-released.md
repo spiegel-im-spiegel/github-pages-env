@@ -2,7 +2,7 @@
 title = "Go 言語用エラーハンドリング・パッケージをリリースした"
 date =  "2019-09-05T23:54:45+09:00"
 description = "実は以前にこっそり v0.1.0 をリリースして自作ツールのエラーハンドリングに用いていたのだが， Go 1.13 のリリースに合わせて中身を作り直した。"
-image = "/images/attention/tools.png"
+image = "/images/attention/go-logo_blue.png"
 tags = [ "package", "module", "golang", "error" ]
 pageType = "text"
 

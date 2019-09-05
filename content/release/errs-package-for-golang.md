@@ -2,7 +2,7 @@
 title = "Go 言語用エラーハンドリング・パッケージ"
 date =  "2019-09-05T23:54:45+09:00"
 description = "本パッケージは Go 言語によるプログラミングに於いて標準の errors パッケージを補完しエラーハンドリングを行うことができる。"
-image = "/images/attention/tools.png"
+image = "/images/attention/go-logo_blue.png"
 tags = [ "package", "module", "golang", "error" ]
 pageType = "text"
 
