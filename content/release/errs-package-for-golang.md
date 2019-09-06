@@ -98,7 +98,7 @@ func main() {
 
 ```text
 $ go run sample.go 
-errs.Error{Msg:"file open error", Params:map[string]string{"function":"main.checkFileOpen", "path":"not-exist.txt"}, Cause:&os.PathError{Op:"open", Path:"not-exist.txt", Err:0x2}}
+&errs.Error{Msg:"file open error", Params:map[string]string{"function":"main.checkFileOpen", "path":"not-exist.txt"}, Cause:&os.PathError{Op:"open", Path:"not-exist.txt", Err:0x2}}
 ```
 
 という感じに構造体のダンプ表示ぽい出力になる。

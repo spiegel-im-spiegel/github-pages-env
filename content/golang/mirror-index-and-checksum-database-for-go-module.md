@@ -74,6 +74,26 @@ go env -w GOSUMDB=off
 
 まぁ，最初から悪意のあるモジュールは排除しようがないが malicious code 混入は検知しやすくなるかも知れない。
 
+### 【2019-09-06 追記】 バージョンタグの管理に注意
+
+上で述べたように標準の [`sum.golang.org`] は追記型のデータベースで，既存データの変更はできない仕様になっている。
+
+たとえばパッケージ/モジュールのリポジトリにバージョンタグ（`v0.1.0` など）を付ける際に，うっかり間違ったコミットにタグを付けたとしても，一度 [`sum.golang.org`] に登録されると取り消すことができない。
+手動でタグの位置を変えても，モジュール読み込み時に
+
+```text
+SECURITY ERROR
+This download does NOT match the one reported by the checksum server.
+The bits may have been replaced on the origin server, or an attacker may
+have intercepted the download attempt.
+
+For more information, see 'go help module-auth'.
+```
+
+などと表示されビルドに失敗する。
+
+少なくとも公開されているパッケージ/モジュールでは迂闊にバージョンタグを付け換えないよう，管理は慎重に行う必要がある。
+
 ## ミラーリング・サービスのプライバシー・ポリシー
 
 今回，正式稼働したミラーリング・サービスのプライバシー・ポリシーは以下のページある。
