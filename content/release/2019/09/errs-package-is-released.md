@@ -23,6 +23,28 @@ Go 言語用エラーハンドリング・パッケージ [`errs`] の v0.2.0 �
 
 これで先に進めるな。
 
+## 【2019-09-06 追記】 v0.2.1 をリリースした
+
+- [Release v0.2.1 · spiegel-im-spiegel/errs · GitHub](https://github.com/spiegel-im-spiegel/errs/releases/tag/v0.2.1)
+
+つか，実はバージョンタグを付け間違えただけなのだが，バージョンタグを付け換えるとチェックサム・データベース [`sum.golang.org`] が怒って
+
+```text
+SECURITY ERROR
+This download does NOT match the one reported by the checksum server.
+The bits may have been replaced on the origin server, or an attacker may
+have intercepted the download attempt.
+
+For more information, see 'go help module-auth'.
+```
+
+とか言ってくさるので，しょうが無しにバージョン番号を上げることにした。
+やれやれ。
+
+バージョンタグの管理は慎重に。
+
+[`sum.golang.org`]: https://sum.golang.org/
+
 ## ブックマーク
 
 - [Go 1.13 のエラー・ハンドリング]({{< ref "/golang/error-handling-in-go-1_3.md" >}})
