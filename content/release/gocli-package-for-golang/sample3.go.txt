@@ -1,0 +1,16 @@
+package main
+
+import (
+	"fmt"
+
+	"github.com/spiegel-im-spiegel/gocli/file"
+)
+
+func main() {
+	result := file.Glob(
+		"**/*.[ch]",
+		file.NewGlobOption(file.WithFlags(file.GlobStdFlags|file.GlobAbsolutePath)))
+	fmt.Println(result)
+	// Output:
+	// [testdata/include/source.h testdata/source.c]
+}

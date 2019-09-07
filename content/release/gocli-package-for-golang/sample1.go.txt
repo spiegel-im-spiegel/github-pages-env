@@ -1,0 +1,21 @@
+package main
+
+import (
+	"os"
+
+	"github.com/spiegel-im-spiegel/gocli/exitcode"
+	"github.com/spiegel-im-spiegel/gocli/rwi"
+)
+
+func run(ui *rwi.RWI) exitcode.ExitCode {
+	ui.Outputln("Hello world")
+	return exitcode.Normal
+}
+
+func main() {
+	run(rwi.New(
+		rwi.WithReader(os.Stdin),
+		rwi.WithWriter(os.Stdout),
+		rwi.WithErrorWriter(os.Stderr),
+	)).Exit()
+}

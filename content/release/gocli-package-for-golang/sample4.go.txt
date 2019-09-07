@@ -1,0 +1,14 @@
+package main
+
+import (
+	"fmt"
+
+	"github.com/spiegel-im-spiegel/gocli/config"
+)
+
+func main() {
+	path := config.Path("app", "config.json")
+	fmt.Println(path)
+	// Output:
+	// /home/username/.config/app/config.json
+}
