@@ -68,7 +68,7 @@ code := run(rwi.New(
 ))
 ```
 
-として実行委結果を `code`, `outBuf` および `outErrBuf` から取り出し評価することができる。
+として実行結果を `code`, `outBuf` および `outErrBuf` から取り出し評価することができる。
 
 ## SIGNAL をハンドリングする
 
@@ -182,7 +182,7 @@ func main() {
 指定できるフラグは以下の通り。
 
 ```go
-/Operation flag in Glob() function.
+//Operation flag in Glob() function.
 const (
 	GlobContainsFile GlobFlag = 1 << iota
 	GlobContainsDir
