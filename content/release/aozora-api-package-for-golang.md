@@ -3,7 +3,7 @@ title = "Go 言語用青空文庫 API クライアント・パッケージ"
 date =  "2019-09-07T22:10:02+09:00"
 description = "本パッケージは青空文庫 API を通じて青空文庫に収録されている作品情報等を取得できる。"
 image = "/images/attention/go-logo_blue.png"
-tags = [ "package", "module", "golang", "aozora", "book" ]
+tags = [ "package", "module", "golang", "aozora", "aozora-api", "book" ]
 pageType = "text"
 
 [scripts]

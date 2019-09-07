@@ -3,7 +3,7 @@ title = "Go 言語用 openBD クライアント・パッケージ"
 date =  "2019-09-07T22:10:02+09:00"
 description = "本パッケージは openBD が提供する書籍情報を取得できる。"
 image = "/images/attention/go-logo_blue.png"
-tags = [ "package", "module", "golang", "openbd", "book" ]
+tags = [ "package", "module", "golang", "openbd", "openbd-api", "book" ]
 pageType = "text"
 
 [scripts]
