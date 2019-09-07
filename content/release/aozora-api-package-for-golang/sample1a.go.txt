@@ -1,0 +1,22 @@
+package main
+
+import (
+	"bytes"
+	"fmt"
+	"io"
+	"os"
+
+	"github.com/spiegel-im-spiegel/aozora-api"
+)
+
+func main() {
+	b, err := aozora.DefaultClient().SearchBooksRaw(
+		aozora.WithBookTitle("/天に積む宝/"),
+		aozora.WithBookAuthor("富田倫生"),
+	)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	io.Copy(os.Stdout, bytes.NewReader(b))
+}

@@ -1,0 +1,28 @@
+package main
+
+import (
+	"bytes"
+	"context"
+	"fmt"
+	"io"
+	"net/http"
+	"os"
+
+	"github.com/spiegel-im-spiegel/aozora-api"
+)
+
+func main() {
+	client := aozora.New(
+		aozora.WithScheme("http"),
+		aozora.WithServerName("pubserver2.herokuapp.com"),
+	).CreateClient(
+		context.Background(),
+		&http.Client{},
+	)
+	b, err := client.LookupBookRaw(59489)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	io.Copy(os.Stdout, bytes.NewReader(b))
+}

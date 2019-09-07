@@ -1,0 +1,21 @@
+package main
+
+import (
+	"bytes"
+	"fmt"
+	"io"
+	"os"
+
+	"github.com/spiegel-im-spiegel/aozora-api"
+)
+
+func main() {
+	b, err := aozora.DefaultClient().SearchWorkersRaw(
+		aozora.WithWorkerName("雪森"),
+	)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	io.Copy(os.Stdout, bytes.NewReader(b))
+}
