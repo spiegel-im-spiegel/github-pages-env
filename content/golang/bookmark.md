@@ -14,7 +14,7 @@ title = "Go 言語に関するブックマーク"
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 
-## 公式サイト
+## 公式サイト 
 
 - [The Go Programming Language](https://golang.org/) : 2017年8月24日時点での最新は 1.9
     - [git repositories (Google)](https://go.googlesource.com/)
@@ -102,6 +102,7 @@ title = "Go 言語に関するブックマーク"
 - [Go 1.13 Release Notes - The Go Programming Language](https://tip.golang.org/doc/go1.13)
     - [ドラフトリリースノート - Go 1.13 の紹介 - Qiita](https://qiita.com/c-yan/items/b2f5e5c168d517594eb2)
 - [Next steps toward Go 2 - The Go Blog](https://blog.golang.org/go2-next-steps)
+- [Go1.13で導入されたsyscall/jsのjs.CopyBytesToGoとjs.CopyBytesToJSを試してみた - Qiita](https://qiita.com/neko-suki/items/a39dc56523b3d761621b)
 
 ### Go 2 Draft
 
@@ -167,6 +168,7 @@ title = "Go 言語に関するブックマーク"
 - [インタフェースの実装パターン #golang - Qiita](https://qiita.com/tenntenn/items/eac962a49c56b2b15ee8)
 - [Big Sky :: Go で型がインタフェースを実装している事を保証するには](https://mattn.kaoriya.net/software/lang/go/20190702104455.htm)
 - [Goの基本的な型変換 - Qiita](https://qiita.com/lostfind/items/ad7bfc1a4860bb108b9c)
+- [[Go]Sliceを含んだ構造体が等値演算子（==）でpanicを引き起こすのを回避する #golang - My External Storage](https://budougumi0617.github.io/2019/07/07/prevent-runtime-error-by-pointer/)
 
 #### 数値型
 
@@ -679,6 +681,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go言語のRESTサーバーを Clean Architecture で作ってみる - Qiita](https://qiita.com/nijuya_o/items/392cd3e4fa5641b3dec1)
 - [SSOサービスKeycloakとgolangのHTTPサーバを連携する - Qiita](https://qiita.com/myoshimi/items/8337aab1b17d89938be0)
 - [Go 言語のフレームワーク比較 - Qiita](https://qiita.com/inexp_eng4432/items/50d05262eb6ccbcfda1f)
+- [Go言語のnet/httpクライアントでリダイレクトをやめる - Qiita](https://qiita.com/daijuk/items/d5c52b780e90387f2390)
 
 ## 他サービスとの連携
 

@@ -123,3 +123,4 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [Go言語で日本語フォーマットをpdf出力 - Qiita](https://qiita.com/ikeponsu/items/bb2fc22a2a7969cb622c)
 - [Go 1.12でgopdf使ってテンプレートのPDFに色々埋め込み - Qiita](https://qiita.com/tao_s/items/be145dc85169689a2a4f)
 - [Big Sky :: 如何にしてけしからん画像を超高速でダウンロードするか](https://mattn.kaoriya.net/software/lang/go/20120322190727.htm)
+- [goceleryを使ってみた - Qiita](https://qiita.com/es-h-sugihara/items/a376380dd2ef9b353d99)
