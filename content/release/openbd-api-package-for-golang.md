@@ -440,19 +440,20 @@ type Summary struct {
 ```
 
 [`openbd`]`.Book` 構造体はこのままでは使い辛いので以下のヘルパ関数を用意した。
+引数がないのでテンプレートでは値のように扱うことができる。
 
-- `Book.Valid() bool`
-- `Book.Id() string`
-- `Book.ISBN() string`
-- `Book.Title() string`
-- `Book.SubTitle() string` : 現在は空文字列のみ返す
-- `Book.SeriesTitle() string`
-- `Book.Label() string`
-- `Book.ImageURL() string`
-- `Book.Authors() []string`
-- `Book.Publisher() string`
-- `Book.PublicationDate()` [`openbd`]`.Date` 
-- `Book.Id() Description`
+- [`openbd`]`.Book.IsValid() bool`
+- [`openbd`]`.Book.Id() string`
+- [`openbd`]`.Book.ISBN() string`
+- [`openbd`]`.Book.Title() string`
+- [`openbd`]`.Book.SubTitle() string` : 現在は空文字列のみ返す
+- [`openbd`]`.Book.SeriesTitle() string`
+- [`openbd`]`.Book.Label() string`
+- [`openbd`]`.Book.ImageURL() string`
+- [`openbd`]`.Book.Authors() []string`
+- [`openbd`]`.Book.Publisher() string`
+- [`openbd`]`.Book.PublicationDate()` [`openbd`]`.Date` 
+- [`openbd`]`.Book.Description() string`
 
 ## Server および Client インスタンスの生成
 
