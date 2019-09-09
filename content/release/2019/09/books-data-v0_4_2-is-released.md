@@ -24,7 +24,7 @@ pageType = "text"
 設定ファイルの既定の置き場所を変更して [XDG Base Directory] に対応した。
 詳しくは以下の記事を参照のこと。
 
-- [書籍データ取得ツール]({{< ref "/release/books-data.md" >}})
+- [書籍データ取得ツール books-data]({{< ref "/release/books-data.md" >}})
 
 他には [openBD] クライアント側のハンドリング・パッケージを自前のもの  [spiegel-im-spiegel/openbd-api]  に換装した。
 [spiegel-im-spiegel/aozora-api] もバージョンアップしている。

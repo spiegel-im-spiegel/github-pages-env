@@ -1,5 +1,5 @@
 +++
-title = "書籍データ取得ツール"
+title = "書籍データ取得ツール books-data"
 date =  "2019-09-08T15:22:41+09:00"
 description = "本ツールは PA-API, openBD および 青空文庫 API より書籍情報を取得・加工するための CLI ツールである。"
 image = "/images/attention/tools.png"
