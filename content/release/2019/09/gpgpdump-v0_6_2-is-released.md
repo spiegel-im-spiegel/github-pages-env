@@ -11,7 +11,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-[OpenPGP] パケットの内容を視覚化する [gpgpdump] の v0.6.2 をリリースした。
+[OpenPGP] パケットの内容を可視化する [gpgpdump] の v0.6.2 をリリースした。
 
 - [Release v0.6.2 · spiegel-im-spiegel/gpgpdump · GitHub](https://github.com/spiegel-im-spiegel/gpgpdump/releases/tag/v0.6.2)
 
@@ -22,6 +22,10 @@ pageType = "text"
 あ，そうそう。
 [draft-ietf-openpgp-rfc4880bis-08](https://tools.ietf.org/html/draft-ietf-openpgp-rfc4880bis-08 "draft-ietf-openpgp-rfc4880bis-08 - OpenPGP Message Format") への追随も行った。
 でも試す対象がないからなぁ（笑）
+
+[gpgpdump] の使い方等は以下を参照のこと。
+
+- [OpenPGP パケットを可視化する gpgpdump]({{< ref "/release/gpgpdump.md" >}})
 
 ## ブックマーク
 

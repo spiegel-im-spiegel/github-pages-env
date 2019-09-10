@@ -1,0 +1,37 @@
+package main
+
+import (
+	"bytes"
+	"fmt"
+	"os"
+
+	"github.com/spiegel-im-spiegel/gpgpdump"
+	"github.com/spiegel-im-spiegel/gpgpdump/options"
+)
+
+const openpgpStr = `
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iF4EARMIAAYFAlTDCN8ACgkQMfv9qV+7+hg2HwEA6h2iFFuCBv3VrsSf2BREQaT1
+T1ZprZqwRPOjiLJg9AwA/ArTwCPz7c2vmxlv7sRlRLUI6CdsOqhuO1KfYXrq7idI
+=ZOTN
+-----END PGP SIGNATURE-----
+`
+
+func main() {
+	info, err := gpgpdump.Parse(
+		bytes.NewBufferString(openpgpStr),
+		options.New(
+			options.Set(options.ARMOR, true),
+			options.Set(options.UTC, true),
+		),
+	)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "%+v", err)
+		return
+	}
+	if json, err := info.JSON(2); err == nil {
+		fmt.Printf("%s", json)
+	}
+}
