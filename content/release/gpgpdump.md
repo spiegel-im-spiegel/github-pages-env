@@ -234,7 +234,7 @@ Global Flags:
   -u, --utc          output with UTC time
 ```
 
-`hkp` コマンドを指定することで [OpenPGP] 鍵サーバから HKP おプロトコルを使い，直接公開鍵を取得して中身を検証することができる。
+`hkp` コマンドを指定することで [OpenPGP] 鍵サーバから HKP プロトコルを使い，直接公開鍵を取得して中身を検証することができる。
 
 ```text
 $ gpgpdump hkp 0x44ce6900e2b307a4
