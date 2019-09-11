@@ -36,4 +36,8 @@
 - [GitHub - hsaito/gnupg-buildkit: Build Kit for GNU Privacy Guard (2.1.x -- Modern)](https://github.com/hsaito/gnupg-buildkit)
 - [GitHub - hsaito/GnuPG_Buildkit_Package_Lister: A simple program to grab GnuPG file list ot be used for gnupg-buildkit](https://github.com/hsaito/GnuPG_Buildkit_Package_Lister) : .NET Core が要るみたい
 
+
+- [GitHub Actions による GitHub Pages への自動デプロイ - Qiita](https://qiita.com/peaceiris/items/d401f2e5724fdcb0759d)
+
+
 <!-- eof -->

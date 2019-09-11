@@ -1,7 +1,6 @@
 +++
 title = "年末年始に施行される改正著作権法に関する覚え書き"
 date = "2018-11-13T14:20:00+09:00"
-update = "2019-01-26T22:54:06+09:00"
 description = "もう今さらグダグダ言ってもしょうがないので，この記事では今回の改正ポイントについて簡単に紹介するに留める。"
 image = "/images/attention/kitten.jpg"
 tags = ["code", "law", "intellectual-property", "copyright", "tpp", "access-control"]
@@ -20,7 +19,7 @@ tags = ["code", "law", "intellectual-property", "copyright", "tpp", "access-cont
 もう今さらグダグダ言ってもしょうがないので，この記事では今回の改正ポイントについて簡単に紹介するに留める。
 なお「[改訂3版： CC Licenses について]({{< rlnk "/cc-licenses/" >}})」の各記事は施行後にゆるゆると改訂する予定である。
 
-あと「[著作権の保護期間延長に反対します](https://baldanders.info/blog/000820/ "Stop Fast Track TPP")」ロゴは今後も貼り付けておくので，よろしくどうぞ。
+あと「[著作権の保護期間延長に反対します](https://baldanders.info/noextension/ "「著作権の保護期間延長に反対します」に関するブックマーク")」ロゴは今後も貼り付けておくので，よろしくどうぞ。
 せめてもの悪あがきである。
 
 ## TPP11 締結に伴う法改正

@@ -92,18 +92,18 @@ T1ZprZqwRPOjiLJg9AwA/ArTwCPz7c2vmxlv7sRlRLUI6CdsOqhuO1KfYXrq7idI
 ```text
 $ gpgpdump -f sig.asc 
 Signature Packet (tag 2) (94 bytes)
-	Version: 4 (current)
-	Signiture Type: Signature of a canonical text document (0x01)
-	Public-key Algorithm: ECDSA public key algorithm (pub 19)
-	Hash Algorithm: SHA2-256 (hash 8)
-	Hashed Subpacket (6 bytes)
-		Signature Creation Time (sub 2): 2015-01-24T11:52:15+09:00
-	Unhashed Subpacket (10 bytes)
-		Issuer (sub 16): 0x31fbfda95fbbfa18
-	Hash left 2 bytes
-		36 1f
-	ECDSA value r (256 bits)
-	ECDSA value s (252 bits)
+    Version: 4 (current)
+    Signiture Type: Signature of a canonical text document (0x01)
+    Public-key Algorithm: ECDSA public key algorithm (pub 19)
+    Hash Algorithm: SHA2-256 (hash 8)
+    Hashed Subpacket (6 bytes)
+        Signature Creation Time (sub 2): 2015-01-24T11:52:15+09:00
+    Unhashed Subpacket (10 bytes)
+        Issuer (sub 16): 0x31fbfda95fbbfa18
+    Hash left 2 bytes
+        36 1f
+    ECDSA value r (256 bits)
+    ECDSA value s (252 bits)
 ```
 
 入力は標準入力からも可能である。
@@ -111,18 +111,18 @@ Signature Packet (tag 2) (94 bytes)
 ```text
 $ cat sig.asc | gpgpdump
 Signature Packet (tag 2) (94 bytes)
-	Version: 4 (current)
-	Signiture Type: Signature of a canonical text document (0x01)
-	Public-key Algorithm: ECDSA public key algorithm (pub 19)
-	Hash Algorithm: SHA2-256 (hash 8)
-	Hashed Subpacket (6 bytes)
-		Signature Creation Time (sub 2): 2015-01-24T11:52:15+09:00
-	Unhashed Subpacket (10 bytes)
-		Issuer (sub 16): 0x31fbfda95fbbfa18
-	Hash left 2 bytes
-		36 1f
-	ECDSA value r (256 bits)
-	ECDSA value s (252 bits)
+    Version: 4 (current)
+    Signiture Type: Signature of a canonical text document (0x01)
+    Public-key Algorithm: ECDSA public key algorithm (pub 19)
+    Hash Algorithm: SHA2-256 (hash 8)
+    Hashed Subpacket (6 bytes)
+        Signature Creation Time (sub 2): 2015-01-24T11:52:15+09:00
+    Unhashed Subpacket (10 bytes)
+        Issuer (sub 16): 0x31fbfda95fbbfa18
+    Hash left 2 bytes
+        36 1f
+    ECDSA value r (256 bits)
+    ECDSA value s (252 bits)
 ```
 
 `-j` または `--json` オプションを指定すれば JSON フォーマットで出力される。
@@ -239,71 +239,71 @@ Global Flags:
 ```text
 $ gpgpdump hkp 0x44ce6900e2b307a4
 Public-Key Packet (tag 6) (269 bytes)
-	Version: 4 (current)
-	Public key creation time: 2009-11-09T00:20:55+09:00
-		4a f6 e1 d7
-	Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
-	RSA public modulus n (2048 bits)
-	RSA public encryption exponent e (17 bits)
+    Version: 4 (current)
+    Public key creation time: 2009-11-09T00:20:55+09:00
+        4a f6 e1 d7
+    Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
+    RSA public modulus n (2048 bits)
+    RSA public encryption exponent e (17 bits)
 User ID Packet (tag 13) (25 bytes)
-	User ID: Alice <alice@example.com>
+    User ID: Alice <alice@example.com>
 Signature Packet (tag 2) (312 bytes)
-	Version: 4 (current)
-	Signiture Type: Positive certification of a User ID and Public-Key packet (0x13)
-	Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
-	Hash Algorithm: SHA-1 (hash 2)
-	Hashed Subpacket (34 bytes)
-		Signature Creation Time (sub 2): 2009-11-09T00:20:55+09:00
-		Key Flags (sub 27) (1 bytes)
-			Flag: This key may be used to certify other keys.
-			Flag: This key may be used to sign data.
-		Preferred Symmetric Algorithms (sub 11) (5 bytes)
-			Symmetric Algorithm: AES with 256-bit key (sym 9)
-			Symmetric Algorithm: AES with 192-bit key (sym 8)
-			Symmetric Algorithm: AES with 128-bit key (sym 7)
-			Symmetric Algorithm: CAST5 (128 bit key, as per) (sym 3)
-			Symmetric Algorithm: TripleDES (168 bit key derived from 192) (sym 2)
-		Preferred Hash Algorithms (sub 21) (5 bytes)
-			Hash Algorithm: SHA2-256 (hash 8)
-			Hash Algorithm: SHA-1 (hash 2)
-			Hash Algorithm: SHA2-384 (hash 9)
-			Hash Algorithm: SHA2-512 (hash 10)
-			Hash Algorithm: SHA2-224 (hash 11)
-		Preferred Compression Algorithms (sub 22) (3 bytes)
-			Compression Algorithm: ZLIB <RFC1950> (comp 2)
-			Compression Algorithm: BZip2 (comp 3)
-			Compression Algorithm: ZIP <RFC1951> (comp 1)
-		Features (sub 30) (1 bytes)
-			Flag: Modification Detection (packets 18 and 19)
-		Key Server Preferences (sub 23) (1 bytes)
-			Flag: No-modify
-	Unhashed Subpacket (10 bytes)
-		Issuer (sub 16): 0x44ce6900e2b307a4
-	Hash left 2 bytes
-		93 62
-	RSA signature value m^d mod n (2045 bits)
+    Version: 4 (current)
+    Signiture Type: Positive certification of a User ID and Public-Key packet (0x13)
+    Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
+    Hash Algorithm: SHA-1 (hash 2)
+    Hashed Subpacket (34 bytes)
+        Signature Creation Time (sub 2): 2009-11-09T00:20:55+09:00
+        Key Flags (sub 27) (1 bytes)
+            Flag: This key may be used to certify other keys.
+            Flag: This key may be used to sign data.
+        Preferred Symmetric Algorithms (sub 11) (5 bytes)
+            Symmetric Algorithm: AES with 256-bit key (sym 9)
+            Symmetric Algorithm: AES with 192-bit key (sym 8)
+            Symmetric Algorithm: AES with 128-bit key (sym 7)
+            Symmetric Algorithm: CAST5 (128 bit key, as per) (sym 3)
+            Symmetric Algorithm: TripleDES (168 bit key derived from 192) (sym 2)
+        Preferred Hash Algorithms (sub 21) (5 bytes)
+            Hash Algorithm: SHA2-256 (hash 8)
+            Hash Algorithm: SHA-1 (hash 2)
+            Hash Algorithm: SHA2-384 (hash 9)
+            Hash Algorithm: SHA2-512 (hash 10)
+            Hash Algorithm: SHA2-224 (hash 11)
+        Preferred Compression Algorithms (sub 22) (3 bytes)
+            Compression Algorithm: ZLIB <RFC1950> (comp 2)
+            Compression Algorithm: BZip2 (comp 3)
+            Compression Algorithm: ZIP <RFC1951> (comp 1)
+        Features (sub 30) (1 bytes)
+            Flag: Modification Detection (packets 18 and 19)
+        Key Server Preferences (sub 23) (1 bytes)
+            Flag: No-modify
+    Unhashed Subpacket (10 bytes)
+        Issuer (sub 16): 0x44ce6900e2b307a4
+    Hash left 2 bytes
+        93 62
+    RSA signature value m^d mod n (2045 bits)
 Public-Subkey Packet (tag 14) (269 bytes)
-	Version: 4 (current)
-	Public key creation time: 2009-11-09T00:20:55+09:00
-		4a f6 e1 d7
-	Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
-	RSA public modulus n (2048 bits)
-	RSA public encryption exponent e (17 bits)
+    Version: 4 (current)
+    Public key creation time: 2009-11-09T00:20:55+09:00
+        4a f6 e1 d7
+    Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
+    RSA public modulus n (2048 bits)
+    RSA public encryption exponent e (17 bits)
 Signature Packet (tag 2) (287 bytes)
-	Version: 4 (current)
-	Signiture Type: Subkey Binding Signature (0x18)
-	Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
-	Hash Algorithm: SHA-1 (hash 2)
-	Hashed Subpacket (9 bytes)
-		Signature Creation Time (sub 2): 2009-11-09T00:20:55+09:00
-		Key Flags (sub 27) (1 bytes)
-			Flag: This key may be used to encrypt communications.
-			Flag: This key may be used to encrypt storage.
-	Unhashed Subpacket (10 bytes)
-		Issuer (sub 16): 0x44ce6900e2b307a4
-	Hash left 2 bytes
-		66 f3
-	RSA signature value m^d mod n (2048 bits)
+    Version: 4 (current)
+    Signiture Type: Subkey Binding Signature (0x18)
+    Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
+    Hash Algorithm: SHA-1 (hash 2)
+    Hashed Subpacket (9 bytes)
+        Signature Creation Time (sub 2): 2009-11-09T00:20:55+09:00
+        Key Flags (sub 27) (1 bytes)
+            Flag: This key may be used to encrypt communications.
+            Flag: This key may be used to encrypt storage.
+    Unhashed Subpacket (10 bytes)
+        Issuer (sub 16): 0x44ce6900e2b307a4
+    Hash left 2 bytes
+        66 f3
+    RSA signature value m^d mod n (2048 bits)
 ```
 
 `--raw` オプションを使うとダンプ表示はせず HKP リクエストの結果をそのまま表示する。
@@ -373,10 +373,10 @@ PrMW9QsmqRw/5A1YirEupzsd7z8/UVEKFIdPCxrMNWM/QArO22qEZjE3
 package main
 
 import (
-	"fmt"
+    "fmt"
 
-	"github.com/spiegel-im-spiegel/gpgpdump"
-	"github.com/spiegel-im-spiegel/gpgpdump/options"
+    "github.com/spiegel-im-spiegel/gpgpdump"
+    "github.com/spiegel-im-spiegel/gpgpdump/options"
 )
 
 const openpgpStr = `
@@ -390,17 +390,17 @@ T1ZprZqwRPOjiLJg9AwA/ArTwCPz7c2vmxlv7sRlRLUI6CdsOqhuO1KfYXrq7idI
 `
 
 func main() {
-	info, err := gpgpdump.ParseByte(
-		[]byte(openpgpStr),
-		options.New(
-			options.Set(options.ARMOR, true),
-			options.Set(options.UTC, true),
-		),
-	)
-	if err != nil {
+    info, err := gpgpdump.ParseByte(
+        []byte(openpgpStr),
+        options.New(
+            options.Set(options.ARMOR, true),
+            options.Set(options.UTC, true),
+        ),
+    )
+    if err != nil {
         fmt.Fprintf(os.Stderr, "%+v", err)
-		return
-	}
+        return
+    }
     fmt.Println(info)
 }
 ```
@@ -424,18 +424,18 @@ info, err := gpgpdump.Parse(
 ```text
 $ go run sample.go 
 Signature Packet (tag 2) (94 bytes)
-	Version: 4 (current)
-	Signiture Type: Signature of a canonical text document (0x01)
-	Public-key Algorithm: ECDSA public key algorithm (pub 19)
-	Hash Algorithm: SHA2-256 (hash 8)
-	Hashed Subpacket (6 bytes)
-		Signature Creation Time (sub 2): 2015-01-24T02:52:15Z
-	Unhashed Subpacket (10 bytes)
-		Issuer (sub 16): 0x31fbfda95fbbfa18
-	Hash left 2 bytes
-		36 1f
-	ECDSA value r (256 bits)
-	ECDSA value s (252 bits)
+    Version: 4 (current)
+    Signiture Type: Signature of a canonical text document (0x01)
+    Public-key Algorithm: ECDSA public key algorithm (pub 19)
+    Hash Algorithm: SHA2-256 (hash 8)
+    Hashed Subpacket (6 bytes)
+        Signature Creation Time (sub 2): 2015-01-24T02:52:15Z
+    Unhashed Subpacket (10 bytes)
+        Issuer (sub 16): 0x31fbfda95fbbfa18
+    Hash left 2 bytes
+        36 1f
+    ECDSA value r (256 bits)
+    ECDSA value s (252 bits)
 ```
 
 `options.New()` 関数で CLI 版と同等のオプションを設定できる。
@@ -459,16 +459,16 @@ Signature Packet (tag 2) (94 bytes)
 ```go
 //Info is information class for OpenPGP packets
 type Info struct {
-	Packets []*Item `toml:"Packet,omitempty" json:"Packet,omitempty"`
+    Packets []*Item `toml:"Packet,omitempty" json:"Packet,omitempty"`
 }
 
 //Item is information item class
 type Item struct {
-	Name  string  `toml:"name" json:"name"`
-	Value string  `toml:"value,omitempty" json:"value,omitempty"`
-	Dump  string  `toml:"dump,omitempty" json:"dump,omitempty"`
-	Note  string  `toml:"note,omitempty" json:"note,omitempty"`
-	Items []*Item `toml:"Item,omitempty" json:"Item,omitempty"`
+    Name  string  `toml:"name" json:"name"`
+    Value string  `toml:"value,omitempty" json:"value,omitempty"`
+    Dump  string  `toml:"dump,omitempty" json:"dump,omitempty"`
+    Note  string  `toml:"note,omitempty" json:"note,omitempty"`
+    Items []*Item `toml:"Item,omitempty" json:"Item,omitempty"`
 }
 ```
 
@@ -476,20 +476,20 @@ type Item struct {
 
 {{< highlight go "hl_lines=13-15" >}}
 func main() {
-	info, err := gpgpdump.Parse(
-		bytes.NewBufferString(openpgpStr),
-		options.New(
-			options.Set(options.ARMOR, true),
-			options.Set(options.UTC, true),
-		),
-	)
-	if err != nil {
-		fmt.Fprintf(os.Stderr, "%+v", err)
-		return
-	}
-	if json, err := info.JSON(2); err == nil {
-		fmt.Printf("%s", json)
-	}
+    info, err := gpgpdump.Parse(
+        bytes.NewBufferString(openpgpStr),
+        options.New(
+            options.Set(options.ARMOR, true),
+            options.Set(options.UTC, true),
+        ),
+    )
+    if err != nil {
+        fmt.Fprintf(os.Stderr, "%+v", err)
+        return
+    }
+    if json, err := info.JSON(2); err == nil {
+        fmt.Printf("%s", json)
+    }
 }
 {{< /highlight >}}
 
