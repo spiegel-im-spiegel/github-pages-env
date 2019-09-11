@@ -21,6 +21,20 @@
 <article>
 <h1>{{ $secTitle }}{{ with .OutputFormats.Get "RSS" }} <a href='{{ .RelPermalink }}' title='Feed'><i class='fas fa-rss'></i></a>{{ end }}</h1>
 <p>自作パッケージ・ツールと気になるツール・サービスのリリース情報について。</p>
+
+<h2>運営中の公開プロジェクト</h2>
+
+<ol>
+	<li><a href="{{ ref . "/release/gpgpdump.md" }}">OpenPGP パケットを可視化する gpgpdump</a></li>
+	<li><a href="{{ ref . "/release/books-data.md" }}">書籍データ取得ツール books-data</a></li>
+	<li><a href="{{ ref . "/release/gocli-package-for-golang.md" }}">Go 言語用 CLI プログラミング支援パッケージ</a></li>
+	<li><a href="{{ ref . "/release/errs-package-for-golang.md" }}">Go 言語用エラーハンドリング・パッケージ</a></li>
+	<li><a href="{{ ref . "/release/aozora-api-package-for-golang.md" }}">Go 言語用青空文庫 API クライアント・パッケージ</a></li>
+	<li><a href="{{ ref . "/release/openbd-api-package-for-golang.md" }}">Go 言語用 openBD クライアント・パッケージ</a></li>
+</ol>
+
+<h2>記事の一覧</h2>
+
 <ul class="title-list">
 {{ range .Data.Pages }}{{ partial "li-section.html" . }}{{ end }}
 </ul>
