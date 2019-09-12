@@ -38,7 +38,7 @@ pageType = "text"
 
 構造体や配列などの複合オブジェクトについては以下のように展開される。
 
-| Compound Cbject  | Format                             |
+| Compound Object  | Format                             |
 | ---------------- | ---------------------------------- |
 | struct           | `{field0 field1 ...}`              |
 | array, slice     | `[elem0 elem1 ...]`                |
