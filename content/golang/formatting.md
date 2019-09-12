@@ -43,7 +43,7 @@ pageType = "text"
 | struct           | `{field0 field1 ...}`              |
 | array, slice     | `[elem0 elem1 ...]`                |
 | maps             | `map[key1:value1 key2:value2 ...]` |
-| pointer to above | &{}, &[], &map[]                   |
+| pointer to above | `&{}`, `&[]`, `&map[]`             |
 
 ちょっと試し書きをしてみよう。
 たとえば，以下のような構造体とデータを考えてみる。
@@ -143,7 +143,7 @@ fmt.Printf("%#v", planets)
 
 ## Formatter インタフェース
 
-[`fmt`]`.Stringer` インタフェースを使ったカスタマイズの欠点は `%v` と `%+v` が区別できないことだ。
+[`fmt`]`.Stringer` インタフェースを使ったカスタマイズの欠点は `%v` と `%+v` を区別できないことだ。
 `%v` と `%+v` を区別できるよう詳細な操作を行いたいのであれば [`fmt`]`.Formatter` インタフェースを組み込む。
 [`fmt`]`.Formatter` インタフェースの定義は以下の通り。
 
