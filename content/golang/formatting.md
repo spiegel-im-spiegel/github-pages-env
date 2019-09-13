@@ -50,15 +50,15 @@ pageType = "text"
 
 ```go
 type Planet struct {
-	Name string
-	Mass float64
+    Name string
+    Mass float64
 }
 
 var planets = []Planet{
-	{Name: "Mercury", Mass: 0.055},
-	{Name: "Venus", Mass: 0.815},
-	{Name: "Earth", Mass: 1.0},
-	{Name: "Mars", Mass: 0.107},
+    {Name: "Mercury", Mass: 0.055},
+    {Name: "Venus", Mass: 0.815},
+    {Name: "Earth", Mass: 1.0},
+    {Name: "Mars", Mass: 0.107},
 }
 ```
 
@@ -95,7 +95,7 @@ fmt.Printf("%#v", planets)
 // to any format that accepts a string or to an unformatted printer
 // such as Print.
 type Stringer interface {
-	String() string
+    String() string
 }
 
 // GoStringer is implemented by any value that has a GoString method,
@@ -103,7 +103,7 @@ type Stringer interface {
 // The GoString method is used to print values passed as an operand
 // to a %#v format.
 type GoStringer interface {
-	GoString() string
+    GoString() string
 }
 ```
 
@@ -111,11 +111,11 @@ type GoStringer interface {
 
 ```go
 func (p Planet) String() string {
-	return fmt.Sprintf("%s (%.3f)", p.Name, p.Mass)
+    return fmt.Sprintf("%s (%.3f)", p.Name, p.Mass)
 }
 
 func (p Planet) GoString() string {
-	return fmt.Sprintf(`{"Name":%s, "Mass":%.3f}`, strconv.Quote(p.Name), p.Mass)
+    return fmt.Sprintf(`main.Planet{Name:%s, Mass:%.3f}`, strconv.Quote(p.Name), p.Mass)
 }
 ```
 
@@ -152,7 +152,7 @@ fmt.Printf("%#v", planets)
 // The implementation of Format may call Sprint(f) or Fprint(f) etc.
 // to generate its output.
 type Formatter interface {
-	Format(f State, c rune)
+    Format(f State, c rune)
 }
 ```
 
@@ -161,19 +161,19 @@ type Formatter interface {
 
 ```go
 func (p Planet) Format(s fmt.State, verb rune) {
-	switch verb {
-	case 'v':
-		switch {
-		case s.Flag('#'):
-			s.Write([]byte(p.GoString()))
-		case s.Flag('+'):
-			s.Write([]byte(fmt.Sprintf(`{"Name":%s,"Mass":%.3f}`, strconv.Quote(p.Name), p.Mass)))
-		default:
-			s.Write([]byte(p.String()))
-		}
-	case 's':
-		s.Write([]byte(p.String()))
-	}
+    switch verb {
+    case 'v':
+        switch {
+        case s.Flag('#'):
+            s.Write([]byte(p.GoString()))
+        case s.Flag('+'):
+            s.Write([]byte(fmt.Sprintf(`{"Name":%s,"Mass":%.3f}`, strconv.Quote(p.Name), p.Mass)))
+        default:
+            s.Write([]byte(p.String()))
+        }
+    case 's':
+        s.Write([]byte(p.String()))
+    }
 }
 ```
 
