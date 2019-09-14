@@ -17,6 +17,7 @@ pageType = "text"
 - [Gemini Observatory Captures Multicolor Image of First-ever Interstellar Comet | Gemini Observatory](https://www.gemini.edu/node/21240)
 - [Newly Discovered Comet Is Likely Interstellar Visitor | NASA](https://www.nasa.gov/feature/jpl/newly-discovered-comet-is-likely-interstellar-visitor/)
 - [オウムアムアに次ぐ恒星間天体らしき彗星が接近中。その大きさはキロメートル級？ | sorae 宇宙へのポータルサイト](https://sorae.info/astronomy/2019_9_12_c2019q4.html)
+- [C/2019 Q4 (Borisov) 彗星の動き - StellaCloud](https://stellacloud.jp/charts/frqrirkab)
 
 {{< div-gen >}}
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">彗星活動を初めて示すインターステラ天体 C/2019 Q4 (Borisov)の2色カラー画像(ハワイ8.2m Gemini望遠鏡)。g&#39;-r&#39;=0.63 ± 0.03は、太陽系起源の彗星に類似。エアマス2以上の悪条件だが、今後好条件になるので、インターステラ物質についての研究が進むものと期待。 ghttps://www.gemini.edu/node/21240 <a href="https://t.co/4Aw7gMi6h6">pic.twitter.com/4Aw7gMi6h6</a></p>&mdash; Abe S. 阿部新之助 (@AvellSky) <a href="https://twitter.com/AvellSky/status/1172710521738448897?ref_src=twsrc%5Etfw">September 14, 2019</a></blockquote>
