@@ -62,6 +62,10 @@ go version go1.13 linux/amd64
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 
+## ブックマーク
+
+- [スライドまとめ on Go 1.13 Release Party in Tokyo（非公式） - Qiita](https://qiita.com/usk81/items/b2803b47e658a905af98)
+
 ## 参考図書
 
 <div class="hreview">

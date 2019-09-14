@@ -199,6 +199,7 @@ $ books-data review -c 56642 --image-url https://text.baldanders.info/images/aoz
 
 - [#aozorahack に関する覚え書き]({{< ref "/remark/2019/08/about-aozorahack.md" >}})
 - [「青空文庫」用の書影がほしい]({{< ref "/remark/2019/03/book-cover-for-aozora-bunko.md" >}})
+- [Go 言語用青空文庫 API クライアント・パッケージ]({{< ref "/release/aozora-api-package-for-golang.md" >}})
 
 [books-data]: https://github.com/spiegel-im-spiegel/books-data "spiegel-im-spiegel/books-data: Search for Books Data"
 [PA-API]: https://affiliate.amazon.co.jp/assoc_credentials/home "Product Advertising API"

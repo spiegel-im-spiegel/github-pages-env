@@ -14,7 +14,7 @@ title = "Go 言語に関するブックマーク"
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 
-## 公式サイト 
+## 公式サイト
 
 - [The Go Programming Language](https://golang.org/) : 2017年8月24日時点での最新は 1.9
     - [git repositories (Google)](https://go.googlesource.com/)
@@ -102,6 +102,7 @@ title = "Go 言語に関するブックマーク"
 - [Go 1.13 Release Notes - The Go Programming Language](https://tip.golang.org/doc/go1.13)
     - [ドラフトリリースノート - Go 1.13 の紹介 - Qiita](https://qiita.com/c-yan/items/b2f5e5c168d517594eb2)
 - [Next steps toward Go 2 - The Go Blog](https://blog.golang.org/go2-next-steps)
+- [スライドまとめ on Go 1.13 Release Party in Tokyo（非公式） - Qiita](https://qiita.com/usk81/items/b2803b47e658a905af98)
 - [Go1.13で導入されたsyscall/jsのjs.CopyBytesToGoとjs.CopyBytesToJSを試してみた - Qiita](https://qiita.com/neko-suki/items/a39dc56523b3d761621b)
 
 ### Go 2 Draft

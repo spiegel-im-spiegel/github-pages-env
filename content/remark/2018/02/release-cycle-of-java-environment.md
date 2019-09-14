@@ -190,6 +190,7 @@ Java 関連のサービスやアプリケーションについて以下にメモ
 - [Red Hat、Windows版OpenJDKの長期商用サポート提供を発表 － Publickey](https://www.publickey1.jp/blog/18/red_hatwindowsopenjdklts.html)
 - [Java 7、Java 8、Java 11、Java 12の新元号対応アップデートが4月16日に登場予定。オラクルが発表 － Publickey](https://www.publickey1.jp/blog/19/java_7java_8java_11java_12416.html) : `www`
 - [「Oracle Java」のライセンスが変更 ～無償利用は個人での開発・テスト・デモ目的のみに - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1180607.html)
+- [Java EE 8フル互換の「Jakarta EE 8」がEclipse Foundationから正式リリース。これからはクラウドネイティブのためのフレームワークへと進化する － Publickey](https://www.publickey1.jp/blog/19/java_ee_8jakarta_ee_8eclipse_foundation.html)
 
 [OpenJDK]: http://openjdk.java.net/
 [Project Jigsaw]: http://openjdk.java.net/projects/jigsaw/ "Project Jigsaw"
