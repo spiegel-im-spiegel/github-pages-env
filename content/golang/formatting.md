@@ -173,12 +173,8 @@ func (p Planet) Format(s fmt.State, verb rune) {
         }
     case 's':
         s.Write([]byte(p.String()))
-    default:
-        s.Write([]byte("%!"))
-        s.Write([]byte(string([]rune{verb})))
-        s.Write([]byte("("))
-        s.Write([]byte(p.GoString()))
-        s.Write([]byte(")"))
+    default: //bad verb
+        s.Write([]byte(fmt.Sprintf(`%%!%c(%s)`, verb, p.GoString())))
     }
 }
 ```
