@@ -8245,5 +8245,61 @@
       true
     ],
     "Description": "深夜アニメの名作『装神少女まとい』OP曲。たまに通勤時にヘヴィ・ローテーションしてる（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4798110035",
+      "Title": "デジタル音楽の行方",
+      "URL": "https://www.amazon.co.jp/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E9%9F%B3%E6%A5%BD%E3%81%AE%E8%A1%8C%E6%96%B9-David-Kusek/dp/4798110035?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4798110035",
+      "Image": {
+        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51HINm31mtL._SL160_.jpg",
+        "Height": 160,
+        "Width": 111
+      },
+      "ProductType": "単行本",
+      "Authors": [
+        "David Kusek",
+        "Gerd Leonhard",
+        "yomoyomo"
+      ],
+      "Creators": [
+        {
+          "Name": "yomoyomo",
+          "Role": "翻訳"
+        },
+        {
+          "Name": "津田 大介",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "翔泳社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4798110035"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784798110035"
+        }
+      ],
+      "PublicationDate": "2005-12-06",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-API",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2017-07-30",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "読んでない。絶賛絶版中？ もはや歴史的価値の有無さえ不明。「デジタル」とタイトルに冠されているにも関わらず Kindle 化すらされてないことに出版側のやる気を感じる（笑）"
   }
 ]

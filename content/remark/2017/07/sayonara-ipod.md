@@ -2,21 +2,11 @@
 title = "さよなら iPod"
 date =  "2017-07-30T14:59:36+09:00"
 description = "「さよなら iPod」がそのまま「さよなら Apple」にならなきゃいいけど。"
-tags        = [ "tools", "engineering", "music", "artificial-intelligence" ]
+tags = [ "tools", "engineering", "music", "artificial-intelligence" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 （これは Facebook のタイムラインに書いた記事を加筆修正したものです）
@@ -95,7 +85,16 @@ Echo については AI というバズワードばかり先行しているが�
 
 ## 参考文献
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4798110035/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51HINm31mtL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4798110035/baldandersinf-22/">デジタル音楽の行方</a></dt><dd>David Kusek Gerd Leonhard yomoyomo </dd><dd>翔泳社 2005-12-06</dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4787272217/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4787272217.09._SCTHUMBZZZ_.jpg"  alt="音楽は死なない!―音楽業界の裏側"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/402331157X/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/402331157X.09._SCTHUMBZZZ_.jpg"  alt="誰がJ-POPを救えるか?  マスコミが語れない業界盛衰記"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4791766903/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4791766903.09._SCTHUMBZZZ_.jpg"  alt="ソーシャル化する音楽 「聴取」から「遊び」へ"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4787272527/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4787272527.09._SCTHUMBZZZ_.jpg"  alt="音楽業界で起こっていること"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4492762183/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4492762183.09._SCTHUMBZZZ_.jpg"  alt="音楽産業 再成長のための組織戦略"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4326698616/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4326698616.09._SCTHUMBZZZ_.jpg"  alt="拡散する音楽文化をどうとらえるか (双書音楽文化の現在)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4845626705/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4845626705.09._SCTHUMBZZZ_.jpg"  alt="新時代ミュージックビジネス最終講義 新しい地図を手に、音楽とテクノロジーの蜜月時代を生きる!"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4798036471/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4798036471.09._SCTHUMBZZZ_.jpg"  alt="図解入門業界研究最新音楽業界の動向とカラクリがよ~くわかる本[第3版] (How‐nual Industry Trend Guide Book)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4845620243/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4845620243.09._SCTHUMBZZZ_.jpg"  alt="次世代ミュージシャンのためのセルフマネージメント・バイブル 自分を作る・売る・守る!"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4845619261/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4845619261.09._SCTHUMBZZZ_.jpg"  alt="よくわかる音楽著作権ビジネス 基礎編 4th Edition"  /></a> </p>
-<p class="description">読んでない。絶賛絶版中？ もはや読む価値があるのかどうかさえ不明。「デジタル」とタイトルに冠されているにも関わらず Kindle 化さえされてないことに出版側のやる気を感じる（笑）</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-07-30">2017-07-30</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E9%9F%B3%E6%A5%BD%E3%81%AE%E8%A1%8C%E6%96%B9-David-Kusek/dp/4798110035?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4798110035"><img src="https://images-fe.ssl-images-amazon.com/images/I/51HINm31mtL._SL160_.jpg" width="111" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E9%9F%B3%E6%A5%BD%E3%81%AE%E8%A1%8C%E6%96%B9-David-Kusek/dp/4798110035?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4798110035">デジタル音楽の行方</a></dt>
+    <dd>David Kusek, Gerd Leonhard, yomoyomo</dd>
+    <dd>yomoyomo (翻訳), 津田 大介 (翻訳)</dd>
+    <dd>翔泳社 2005-12-06</dd>
+    <dd>単行本</dd>
+    <dd>4798110035 (ASIN), 9784798110035 (EAN)</dd>
+  </dl>
+  <p class="description">読んでない。絶賛絶版中？ もはや歴史的価値の有無さえ不明。「デジタル」とタイトルに冠されているにも関わらず Kindle 化すらされてないことに出版側のやる気を感じる（笑）</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-07-30">2017-07-30</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-API</a>)</p>
 </div>
