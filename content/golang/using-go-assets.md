@@ -3,7 +3,7 @@ title = "go-assets でシングルバイナリにまとめる"
 date = "2018-02-13T23:31:39+09:00"
 description = "実行モジュール以外の外部ファイルをソースコードに取り込んでマージすることにより，全部ひっくるめてシングルバイナリにする方法を考える。"
 image = "/images/attention/go-logo_blue.png"
-tags = [ "golang", "tools", "engineering" ]
+tags = [ "golang", "package", "programming" ]
 
 [scripts]
   mathjax = true
@@ -27,6 +27,18 @@ tags = [ "golang", "tools", "engineering" ]
 ただし [jteeuwen/go-bindata] のほうは [awesome-go から削除される](https://pinzolo.github.io/2017/11/13/go-bindata-was-remove-from-awesome-go.html "go-bindata が awesome-go から削除された | tail -f pinzo.log")などちょっとアレな感じになってるみたいで，今後使うなら [jessevdk/go-assets] のほうがいいかもしれない。
 
 というわけで，この記事では [jessevdk/go-assets] の使い方を簡単に紹介する。
+
+{{< div-box type="md" >}}
+## 【2019-09-15 追記】
+
+[jessevdk/go-assets] は長い間メンテナンスされてないらしい。
+というわけで，以下の記事を書いてみた。
+
+- [rakyll/statik でシングルバイナリにまとめる]({{< relref "./using-statik-package.md" >}})
+
+[jessevdk/go-assets]: https://github.com/jessevdk/go-assets "jessevdk/go-assets: Simple embedding of assets in go"
+{{< /div-box >}}
+
 
 ## まずはファイルを用意
 
@@ -274,7 +286,6 @@ Press ctrl+c to stop
 
 - [go-assets 使い方 - トミールの技術系日記](http://tomi-ru.hatenablog.com/entry/2016/09/22/go-assets_%E4%BD%BF%E3%81%84%E6%96%B9)
 - [Big Sky :: Re: Go でシングルバイナリな Web アプリを開発しているときに webpack --watch をうまいところやる](https://mattn.kaoriya.net/software/lang/go/20170119180147.htm)
-- [Go のバイナリに静的ファイルを埋め込む assets-life を使ってみた   - Qiita](https://qiita.com/akif999/items/c892448b56615503e100) : 最近はこちららしい
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`http`]: https://golang.org/pkg/net/http/ "http - The Go Programming Language"
