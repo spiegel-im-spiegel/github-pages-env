@@ -45,6 +45,12 @@ For more information, see 'go help module-auth'.
 
 [`sum.golang.org`]: https://sum.golang.org/
 
+## 【2019-09-15 追記】 v0.2.2 をリリースした
+
+- [Release v0.2.2 · spiegel-im-spiegel/errs · GitHub](https://github.com/spiegel-im-spiegel/errs/releases/tag/v0.2.2)
+
+Formatting に関するバグを修正した。
+
 ## ブックマーク
 
 - [Go 1.13 のエラー・ハンドリング]({{< ref "/golang/error-handling-in-go-1_3.md" >}})

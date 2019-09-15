@@ -199,9 +199,10 @@ fmt.Printf("%#v", planets)
 // []main.Planet{main.Planet{Name:"Mercury", Mass:0.055}, main.Planet{Name:"Venus", Mass:0.815}, main.Planet{Name:"Earth", Mass:1.000}, main.Planet{Name:"Mars", Mass:0.107}}
 ```
 
-[`fmt`]`.Formatter` インタフェースを組み込めば細かい制御ができるようになるが，取りうる書式を全て記述しないといけないのが面倒である。
+[`fmt`]`.Formatter` インタフェースを組み込めば細かい制御ができるようになるが，取りうる書式を全て記述しないといけないのが面倒である[^f1]。
 状況によって使い分けるのがいいだろう。
 
+[^f1]: 型名（`%T`）とポインタ値（`%p`）は [`fmt`]`.Formatter` の制御外になるようだ。
 
 [Go]: https://golang.org/ "The Go Programming Language"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
