@@ -1,0 +1,31 @@
+package main
+
+import (
+	"math/rand"
+	"sync"
+	"time"
+)
+
+//var randSource = NewRandSource()
+
+func NewRandSource() *rand.Rand {
+	return rand.New(rand.NewSource(time.Now().UnixNano()))
+}
+
+func calcRnad(rnd *rand.Rand) {
+	for i := 0; i < 10000; i++ {
+		rnd.Intn(1000)
+	}
+}
+
+func main() {
+	wg := sync.WaitGroup{}
+	for i := 0; i < 1000; i++ {
+		wg.Add(1)
+		go func() {
+			calcRnad(NewRandSource())
+			wg.Done()
+		}()
+	}
+	wg.Wait()
+}
