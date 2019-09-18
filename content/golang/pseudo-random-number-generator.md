@@ -17,7 +17,7 @@ pageType = "text"
 
 折角なので便乗記事を書いてみる。
 
-まぁ，内部状態を持つオブジェクトは，状態が変わらないことが保証されている（value object）か仕様として goroutine-safe であることが明確であるものでない限り，複数の goroutine 間でインスタンスを共有してはいけない，というのは基本中の基本である。
+まぁ，内部状態を持つオブジェクトは，状態が変わらない（immutable）か操作が goroutine-safe であることが仕様・設計として明確であるものでない限り，複数の goroutine 間でインスタンスを共有してはいけない，というのは基本中の基本である。
 
 ましてや標準の [math/rand] パッケージは [`rand`]`.Source` インタフェースを満たすのであればユーザ側で任意のアルゴリズムを用意することもできるので， goroutine-safe であることを期待するほうが間違っているとも言える。
 
@@ -39,7 +39,7 @@ func NewRandSource() *rand.Rand {
     return rand.New(rand.NewSource(time.Now().UnixNano()))
 }
 
-func calcRnad() {
+func calcRand() {
     for i := 0; i < 10000; i++ {
         randSource.Intn(1000)
     }
@@ -50,7 +50,7 @@ func main() {
     for i := 0; i < 1000; i++ {
         wg.Add(1)
         go func() {
-            calcRnad()
+            calcRand()
             wg.Done()
         }()
     }
@@ -78,7 +78,7 @@ math/rand.(*Rand).Int31n(0xc000088090, 0x3e8, 0x1fd)
     math/rand/rand.go:134 +0x5f
 math/rand.(*Rand).Intn(0xc000088090, 0x3e8, 0x1fd)
     math/rand/rand.go:172 +0x45
-main.calcRnad()
+main.calcRand()
     sample@/sample.go:17 +0x3f
 main.main.func1(0xc000098000)
     sample@/sample.go:26 +0x22
@@ -97,7 +97,7 @@ panic が発生する仕組みは[件の記事]に分かりやすく解説され
 こんな感じに変えたらどうだろう。
 
 {{< highlight go "hl_lines=1 3 12" >}}
-func calcRnad(rnd* rand.Rand) {
+func calcRand(rnd* rand.Rand) {
     for i := 0; i < 10000; i++ {
         rnd.Intn(1000)
     }
@@ -108,7 +108,7 @@ func main() {
     for i := 0; i < 1000; i++ {
         wg.Add(1)
         go func() {
-            calcRnad(NewRandSource())
+            calcRand(NewRandSource())
             wg.Done()
         }()
     }
@@ -147,7 +147,7 @@ func NewGenerator() <-chan int {
 乱数の取り出し側はこう書き換えればよい。
 
 {{< highlight go "hl_lines=1 3-5 11 15" >}}
-func calcRnad(gen <-chan int) {
+func calcRand(gen <-chan int) {
     for i := 0; i < 10000; i++ {
         if _ , ok := <-gen; !ok {
             return
@@ -161,7 +161,7 @@ func main() {
     for i := 0; i < 1000; i++ {
         wg.Add(1)
         go func() {
-            calcRnad(gen)
+            calcRand(gen)
             wg.Done()
         }()
     }
