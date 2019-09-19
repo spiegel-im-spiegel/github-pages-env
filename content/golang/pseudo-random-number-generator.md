@@ -1,5 +1,5 @@
 +++
-title = "Go の疑似乱数生成器は Goroutine-Safe ではないらしい"
+title = "Go の疑似乱数生成器は Goroutine-Safe ではないらしい（追記あり）"
 date =  "2019-09-17T23:27:18+09:00"
 description = "件の記事では解決方法が（具体的には）示されていないので，いくつか対策を考えてみよう。"
 image = "/images/attention/go-logo_blue.png"
@@ -204,6 +204,90 @@ func NewGenerator(ctx context.Context) <-chan int {
 
 外部からキャンセルイベントを流し込めるようにするといいかもしれない。
 
+## 【2019-09-20 追記】 実は標準で Goroutine-Safe な疑似乱数生成器が用意されていた
+
+あれから [math/rand] のソースコードを眺めてて気がついたのだが，実は goroutine-safe な疑似乱数生成器が標準で用意されていた。
+
+たとえば [`rand`]`.Intn()` 関数を見ると
+
+```go
+// Intn returns, as an int, a non-negative pseudo-random number in [0,n)
+// from the default Source.
+// It panics if n <= 0.
+func Intn(n int) int { return globalRand.Intn(n) }
+```
+
+とか書かれていて，じゃあ `globalRand` って何なん？ と思って見てみたら
+
+```go
+type lockedSource struct {
+	lk  sync.Mutex
+	src Source64
+}
+
+
+func (r *lockedSource) Int63() (n int64) {
+	r.lk.Lock()
+	n = r.src.Int63()
+	r.lk.Unlock()
+	return
+}
+
+func (r *lockedSource) Uint64() (n uint64) {
+	r.lk.Lock()
+	n = r.src.Uint64()
+	r.lk.Unlock()
+	return
+}
+
+func (r *lockedSource) Seed(seed int64) {
+	r.lk.Lock()
+	r.src.Seed(seed)
+	r.lk.Unlock()
+}
+
+...
+
+var globalRand = New(&lockedSource{src: NewSource(1).(Source64)})
+```
+
+とか書かれているわけですよ。
+なんだ，ちゃんと [`sync`]`.Mutex` で排他制御してるんぢゃん。
+
+というわけで，最初のコードは
+
+```go
+package main
+
+import (
+	"math/rand"
+	"sync"
+	"time"
+)
+
+func calcRnad() {
+	for i := 0; i < 10000; i++ {
+		rand.Intn(1000)
+	}
+}
+
+func main() {
+	rand.Seed(time.Now().UnixNano())
+	wg := sync.WaitGroup{}
+	for i := 0; i < 1000; i++ {
+		wg.Add(1)
+		go func() {
+			calcRnad()
+			wg.Done()
+		}()
+	}
+	wg.Wait()
+}
+```
+
+と書けば panic を吐くことなくちゃんと終了する。
+若干遅くはなるけど，それでも Generator Pattern を使うよりは全然速い。
+
 ## ブックマーク
 
 - [Go の channel 処理パターン集](https://hori-ryota.com/blog/golang-channel-pattern/)
@@ -215,6 +299,7 @@ func NewGenerator(ctx context.Context) <-chan int {
 [件の記事]: https://qiita.com/hiromichi_n/items/d0636b9444dca18ef357 "【Go】rand.Sourceを並列で使いまわすなんて何事だ - Qiita"
 [math/rand]: https://golang.org/pkg/math/rand/ "rand - The Go Programming Language"
 [`rand`]: https://golang.org/pkg/math/rand/ "rand - The Go Programming Language"
+[`sync`]: https://golang.org/pkg/sync/ "sync - The Go Programming Language"
 
 ## 参考図書
 
