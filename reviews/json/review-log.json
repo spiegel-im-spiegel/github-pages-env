@@ -8301,5 +8301,115 @@
       false
     ],
     "Description": "読んでない。絶賛絶版中？ もはや歴史的価値の有無さえ不明。「デジタル」とタイトルに冠されているにも関わらず Kindle 化すらされてないことに出版側のやる気を感じる（笑）"
+  },
+  {
+    "Book": {
+      "Type": "aozora",
+      "ID": "226",
+      "Title": "ボヘミアの醜聞",
+      "OriginalTitle": "A Scandal in Bohemia",
+      "URL": "https://www.aozora.gr.jp/cards/000009/card226.html",
+      "Image": {
+        "URL": "https://text.baldanders.info/images/aozora/card226.svg"
+      },
+      "ProductType": "青空文庫",
+      "Authors": [
+        "ドイル アーサー・コナン"
+      ],
+      "Creators": [
+        {
+          "Name": "大久保 ゆう",
+          "Role": "翻訳"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "図書カードNo.",
+          "Value": "226"
+        }
+      ],
+      "PublicationDate": "1998-12-28",
+      "LastRelease": "2014-09-17",
+      "Service": {
+        "Name": "aozorahack",
+        "URL": "https://aozorahack.org/"
+      }
+    },
+    "Date": "2019-09-21",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "『シャーロック・ホームズの冒険』に収録された作品のひとつ。「あの女」アイリーン・アドラー登場。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4309610439",
+      "Title": "シャーロック・ホームズの冒険 (シャーロック・ホームズ全集 3)",
+      "URL": "https://www.amazon.co.jp/%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF%E3%83%BB%E3%83%9B%E3%83%BC%E3%83%A0%E3%82%BA%E3%81%AE%E5%86%92%E9%99%BA-%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF%E3%83%BB%E3%83%9B%E3%83%BC%E3%83%A0%E3%82%BA%E5%85%A8%E9%9B%86-3-%E3%82%A2%E3%83%BC%E3%82%B5%E3%83%BC%E3%83%BB%E3%82%B3%E3%83%8A%E3%83%B3-%E3%83%89%E3%82%A4%E3%83%AB/dp/4309610439?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4309610439",
+      "Image": {
+        "URL": "https://images-fe.ssl-images-amazon.com/images/I/516PKGP56XL._SL160_.jpg",
+        "Height": 160,
+        "Width": 108
+      },
+      "ProductType": "単行本",
+      "Authors": [
+        "アーサー・コナン ドイル"
+      ],
+      "Creators": [
+        {
+          "Name": "Arthur Conan Doyle",
+          "Role": "原著"
+        },
+        {
+          "Name": "Richard Lancelyn Green",
+          "Role": "原著"
+        },
+        {
+          "Name": "小林 司",
+          "Role": "翻訳"
+        },
+        {
+          "Name": "東山 あかね",
+          "Role": "翻訳"
+        },
+        {
+          "Name": "高田 寛",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "河出書房新社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4309610439"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784309610436"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-API",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2019-09-21",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "「シャーロック・ホームズ」シリーズの邦訳はいくつかあるが，これはオックスフォード大学版の注釈や解説まで完備された濃い内容である。さすがシャーロッキアンは業が深い（笑）"
   }
 ]
