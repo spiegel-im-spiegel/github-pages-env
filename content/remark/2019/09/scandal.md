@@ -11,7 +11,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-この手の醜聞には全く興味がないのだが， [Creative Common の言い訳じみた記事](https://creativecommons.org/2019/09/10/message-to-the-creative-commons-community-regarding-joi-ito/ "Message to the Creative Commons Community Regarding Joi Ito - Creative Commons")を見て「これは面白いことになるか？」と思ってたらホンマに面白いことになっているようだ。
+この手の醜聞には全く興味がないのだが， [Creative Commons の言い訳じみた記事](https://creativecommons.org/2019/09/10/message-to-the-creative-commons-community-regarding-joi-ito/ "Message to the Creative Commons Community Regarding Joi Ito - Creative Commons")を見て「これは面白いことになるか？」と思ってたらホンマに面白いことになっているようだ。
 
 対岸の火事ほど面白い見世物はない。
 日本にも延焼すればいいのに。
