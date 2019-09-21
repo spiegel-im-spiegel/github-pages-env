@@ -15,6 +15,7 @@ pageType = "text"
 - [TDF、「LibreOffice 6.3.1」「LibreOffice 6.2.7」を公開 ～2件の脆弱性を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1206027.html)
 - [「Google Chrome 77」が正式公開 ～アドレスバーのEV証明書発行元表示は廃止 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1206272.html)
 - [「Thunderbird」v68.1.0が公開 ～“Office365”のExchangeアカウントの登録処理を改善 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1206860.html) : 「「Thunderbird 60」系統へのアップグレード提供は、次期バージョンのv68.2からになる予定」とのこと。ホンマかなぁ。もう少し待ってみるか
+    - [「Thunderbird 60.9」「Thunderbird 68.1」で修正された脆弱性はCVE番号ベースで7件 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1207871.html)
 - [Hugo 0.58.2: A couple of Bug Fixes | Hugo](https://gohugo.io/news/0.58.2-relnotes/)
 - [ESLint v6.4.0 - Qiita](https://qiita.com/mysticatea/items/4164b162fb37dcc443a1)
 

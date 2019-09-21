@@ -9,6 +9,7 @@
 - [森口 博子「GUNDAM SONG COVERS　LPサイズ盤」特設サイト](http://kingeshop.jp/shop/pages/hiroko_moriguchi_gundam40th.aspx)
 - [プログラミングHaskell 第2版（電子書籍） – 技術書出版と販売のラムダノート](https://www.lambdanote.com/products/haskell-ebook)
 - [数学ガールの秘密ノート/学ぶための対話 (数学ガールの秘密ノートシリーズ) | 結城浩 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4815603995/baldandersinf-22/)
+- [超人ロック Classic 上 (上巻) (YKコミックス) | 聖 悠紀 |本 | 通販 | Amazon](https://www.amazon.co.jp/exec/obidos/ASIN/4785965649/baldandersinf-22/)
 
 ## あとで遊ぶ
 
