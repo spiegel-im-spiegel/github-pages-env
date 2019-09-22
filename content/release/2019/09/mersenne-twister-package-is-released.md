@@ -16,7 +16,7 @@ pageType = "text"
 
 - [spiegel-im-spiegel/mt: Mersenne Twister; Pseudo Random Number Generator, Implemented by Golang](https://github.com/spiegel-im-spiegel/mt)
 
-[Mersenne Twister] の [Go 言語]はいくつかあるのだが，やっぱ他人が作る道具は使いにくいよね，というわけで自分で書いてしまった（笑）
+[Mersenne Twister] の [Go 言語]実装はいくつかあるのだが，やっぱ他人が作る道具は使いにくいよね，というわけで自分で書いてしまった（笑）
 [spiegel-im-spiegel/mt] の特徴は以下の通り。
 
 - [math/rand] 互換で [`rand`]`.Rand` のソースとして利用できる
