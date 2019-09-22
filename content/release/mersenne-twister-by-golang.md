@@ -26,6 +26,10 @@ Ruby などの一部のプログラミング言語では標準の疑似乱数生
 
 [spiegel-im-spiegel/mt] は[64bit版 Mersenne Twister](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/mt64.html) を元に pure [Go] で書き直したものである。
 
+[![Build Status](https://travis-ci.org/spiegel-im-spiegel/mt.svg?branch=master)](https://travis-ci.org/spiegel-im-spiegel/mt)
+[![GitHub license](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/spiegel-im-spiegel/mt/master/LICENSE)
+[![GitHub release](http://img.shields.io/github/release/spiegel-im-spiegel/mt.svg)](https://github.com/spiegel-im-spiegel/mt/releases/latest)
+
 [spiegel-im-spiegel/mt] の特徴は以下の通り。
 
 - [math/rand] 互換で [`rand`]`.Rand` のソースとして利用できる
@@ -164,6 +168,17 @@ func main() {
 
 [`mt`]`.Reader` 型は [`io`]`.Reader` インタフェースと互換性がある。
 また [`mt`]`.Reader` インスタンスも goroutine-safe なので goroutine 間で共有可能である。
+
+## ライセンスについて
+
+[spiegel-im-spiegel/mt] は MIT ライセンスで提供している。
+
+オリジナルの [Mersenne Twister] コードは GPL または BSD ライセンスで提供されているが MIT ライセンスに書き換えてもいいらしい。
+
+- [Mersenne Twisterの商業利用について](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/MT2002/license.html)
+
+というわけで [spiegel-im-spiegel/mt] は MIT ライセンスで提供することにした。
+ご利用はお気軽に。
 
 [Go]: https://golang.org/ "The Go Programming Language"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
