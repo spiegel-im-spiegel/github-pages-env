@@ -27,6 +27,9 @@ pageType = "text"
 - [少女人身売買のエプスタイン事件、テック業界の関わりは？ | ギズモード・ジャパン](https://www.gizmodo.jp/2019/09/epstein-money-report.html)
 - [Stallman's final interview as FSF president: Last week we quizzed him over Microsoft visit. Now he quits top roles amid rape remarks outcry • The Register](https://www.theregister.co.uk/2019/09/17/richard_stallman_final_interview/)
     - [ブログ: FSF理事としてのストールマンの最後のインタビュー: 先週、マイクロソフトの訪問について彼に質問しました。 今、彼はエプスタインの電子メールの嵐の中でトップの役割を辞めます](https://okuranagaimo.blogspot.com/2019/09/fsf.html)
+- [ジェフリー・エプスタインからの寄付をめぐるMITメディアラボと伊藤穣一の火だるま状態はともかくとして、ローナン・ファローのタイムリーな新刊が出る - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20190917/ronan-farrow)
+- [A reflection on the departure of RMS - Thomas Bushnell, BSG - Medium](https://medium.com/@thomas.bushnell/a-reflection-on-the-departure-of-rms-18e6a835fd84)
+    - [ブログ: RMSの辞任に関する意見](https://okuranagaimo.blogspot.com/2019/09/rms.html)
 
 ## （本記事とはなんの関係もない）参考図書
 

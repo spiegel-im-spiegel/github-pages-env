@@ -54,6 +54,10 @@ DRM (Digital Rights Management) などと嘯き，人を「表現」から締め
 
 [^ow1]: いま見たら[検索にも出てきた](https://ndlonline.ndl.go.jp/#!/detail/R300000001-I029721938-00 "もうすぐ絶滅するという開かれたウェブについて : 続・情報共有の未来｜書誌詳細｜国立国会図書館オンライン")。うむうむ。
 
+## ブックマーク
+
+- [9月22日開催の「技術書典7」にて『もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来』特別版を販売します - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20190917/techbookfest7)
+
 ## 参考図書
 
 <div class="hreview">
@@ -87,4 +91,19 @@ DRM (Digital Rights Management) などと嘯き，人を「表現」から締め
     </dl>
     <p class="description"><a href="https://wirelesswire.jp/author/yomoyomo/">WirelessWire News 連載</a>の書籍化。感想は<a href="/remark/2019/01/infoshare2/">こちら</a></p>
 	<p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018-12-31</abbr></p>
+</div>
+
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/CODE-VERSION-2-0-%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%AC%E3%83%83%E3%82%B7%E3%82%B0-ebook/dp/B01CYDGUV8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01CYDGUV8"><img src="https://images-fe.ssl-images-amazon.com/images/I/31Q2jh%2B5SgL._SL160_.jpg" width="113" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/CODE-VERSION-2-0-%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%AC%E3%83%83%E3%82%B7%E3%82%B0-ebook/dp/B01CYDGUV8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01CYDGUV8">CODE VERSION 2.0</a></dt>
+    <dd>ローレンス・レッシグ</dd>
+    <dd>山形浩生 (翻訳)</dd>
+    <dd>翔泳社 2007-12-19 (Release 2016-03-14)</dd>
+    <dd>Kindle版</dd>
+    <dd>B01CYDGUV8 (ASIN), 9784798147307 (EISBN)</dd>
+    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">前著『CODE』改訂版。</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-17">2018-11-17</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-API</a>)</p>
 </div>

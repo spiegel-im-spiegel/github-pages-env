@@ -170,6 +170,7 @@ title = "Go 言語に関するブックマーク"
 - [Big Sky :: Go で型がインタフェースを実装している事を保証するには](https://mattn.kaoriya.net/software/lang/go/20190702104455.htm)
 - [Goの基本的な型変換 - Qiita](https://qiita.com/lostfind/items/ad7bfc1a4860bb108b9c)
 - [[Go]Sliceを含んだ構造体が等値演算子（==）でpanicを引き起こすのを回避する #golang - My External Storage](https://budougumi0617.github.io/2019/07/07/prevent-runtime-error-by-pointer/)
+- [Go言語のInterfaceの考え方、Accept interfaces,return structs - Qiita](https://qiita.com/weloan/items/de3b1bcabd329ec61709)
 
 #### 数値型
 
