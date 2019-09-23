@@ -24,7 +24,7 @@ pageType = "text"
 特に2番目が重要で，モンテカルロ法などの科学技術計算に向いている。
 Ruby などの一部のプログラミング言語では標準の疑似乱数生成器として組み込まれているらしい。
 
-[spiegel-im-spiegel/mt] は[64bit版 Mersenne Twister](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/mt64.html) を元に pure [Go] で書き直したものである。
+[spiegel-im-spiegel/mt] は [Mersenne Twister] のオリジナルコード（C/C++）を pure [Go] で書き直したものである。
 
 [![Build Status](https://travis-ci.org/spiegel-im-spiegel/mt.svg?branch=master)](https://travis-ci.org/spiegel-im-spiegel/mt)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/spiegel-im-spiegel/mt/master/LICENSE)
@@ -36,6 +36,8 @@ Ruby などの一部のプログラミング言語では標準の疑似乱数生
 - goroutine-safe な構成にできる（[`mt`]`.PRNG` 型を利用した場合）
 
 ## mt/mt19937.Source の機能
+
+[`mt`]`/mt19937` パッケージは [64bit版 Mersenne Twister](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/mt64.html) を元に pure [Go] で書き直したものである。
 
 [`mt`]`/mt19937.Source` はそのまま疑似乱数生成器として使える。
 たとえば以下のように記述する。
