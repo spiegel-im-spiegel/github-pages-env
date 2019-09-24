@@ -61,7 +61,7 @@ fmt.Println(mt19937.NewSource(19650218).Uint64())
 | `Source.Seed(int64)`         | 乱数のシードをセットする                          |
 | `Source.SeedArray([]uint64)` | 乱数のシード（配列）をセットする                  |
 | `Source.Uint64() uint64`     | 乱数として範囲 $[0, 2^{64}-1]$ の整数値を生成する |
-| `Source.Uint64() uint64`     | 乱数として範囲 $[0, 2^{63}-1]$ の整数値を生成する |
+| `Source.Int63() int64`       | 乱数として範囲 $[0, 2^{63}-1]$ の整数値を生成する |
 | `Source.Real(int) float64`   | 乱数として浮動小数点数値を生成する                |
 
 `Source.Real()` 関数の引数による乱数の出力範囲は以下の通り。
