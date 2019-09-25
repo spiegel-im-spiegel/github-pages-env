@@ -54,15 +54,15 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ## Firefox
 
-| Official | Release    |                       Ubuntu | Release    |   delay |
-| --------:| ---------- | ----------------------------:| ---------- | -------:|
-|   69.0.1 | 2019-09-18 |                              |            | ∞ days |
-|     69.0 | 2019-09-03 |   69.0+build2-0 (USN-4122-1) | 2019-09-03 |  1 days |
-|   68.0.2 | 2019-08-14 | 68.0.2+build1-0 (USN-4101-1) | 2019-08-16 |  2 days |
-|   68.0.1 | 2019-07-18 | 68.0.1+build1-0 (USN-4054-1) | 2019-07-25 |  7 days |
-|     68.0 | 2019-07-09 |   68.0+build3-0 (USN-4054-1) | 2019-07-12 |  3 days |
-|   67.0.4 | 2019-06-20 | 67.0.4+build1-0 (USN-4032-1) | 2019-06-24 |  4 days |
-|   67.0.3 | 2019-06-18 | 67.0.3+build1-0 (USN-4020-1) | 2019-07-20 |  2 days |
+| Official | Release    |                       Ubuntu | Release    |  delay |
+| --------:| ---------- | ----------------------------:| ---------- | ------:|
+|   69.0.1 | 2019-09-18 |              69.0.1+build1-0 | 2019-09-24 | 6 days |
+|     69.0 | 2019-09-03 |   69.0+build2-0 (USN-4122-1) | 2019-09-03 | 1 days |
+|   68.0.2 | 2019-08-14 | 68.0.2+build1-0 (USN-4101-1) | 2019-08-16 | 2 days |
+|   68.0.1 | 2019-07-18 | 68.0.1+build1-0 (USN-4054-1) | 2019-07-25 | 7 days |
+|     68.0 | 2019-07-09 |   68.0+build3-0 (USN-4054-1) | 2019-07-12 | 3 days |
+|   67.0.4 | 2019-06-20 | 67.0.4+build1-0 (USN-4032-1) | 2019-06-24 | 4 days |
+|   67.0.3 | 2019-06-18 | 67.0.3+build1-0 (USN-4020-1) | 2019-07-20 | 2 days |
 
 ### ブックマーク
 
@@ -94,12 +94,14 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 現在は APT を使わず公式バイナリをダウンロードして手動でインストールしているが，参考情報として残しておく。
 なお [Ubuntu] 19.04 では 6.2 系のみサポートされているようだ。
 
-| Official | Release    | Ubuntu | Release |   delay |
-| --------:| ---------- | ------:| ------- | -------:|
-|      6.3 | 2019-08-08 |        |         | ∞ days |
+| Official | Release    |  Ubuntu | Release |   delay |
+| --------:| ---------- | -------:| ------- | -------:|
+|    6.3.1 | 2019-09-05 | &mdash; | &mdash; | &mdash; |
+|      6.3 | 2019-08-08 | &mdash; | &mdash; | &mdash; |
 
 | Official | Release    |               Ubuntu | Release    |  delay |
 | --------:| ---------- | --------------------:| ---------- | ------:|
+|    6.2.7 | 2019-09-05 | 6.2.7-0 (USN-4138-1) | 2019-09-24 | 9 days |
 |    6.2.6 | 2019-08-14 | 6.2.6-0 (USN-4102-1) | 2019-08-19 | 5 days |
 |    6.2.5 | 2019-07-04 | 6.2.5-0 (USN-4063-1) | 2019-07-12 | 8 days |
 
@@ -107,6 +109,7 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ### ブックマーク
 
+- [LibreOffice 6.3.1 and LibreOffice 6.2.7 announced, focusing on security - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/09/05/lo-6-3-1-and-lo-6-2-7-announced/)
 - [The Document Foundation announces LibreOffice 6.3 - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/08/08/tdf-announces-libreoffice-63/)
 
 - [The Document Foundation announces LibreOffice 6.2.5 - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/07/04/tdf-announces-libreoffice-625/)
