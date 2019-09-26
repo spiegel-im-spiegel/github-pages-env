@@ -2,7 +2,7 @@
 title = "Go 1.13.1 のリリース【セキュリティ・アップデート】"
 date =  "2019-09-26T20:58:03+09:00"
 description = "Go 言語で Web サービスまたはクライアント・ツールを構築している人は要注意だ。"
-image = "/images/attention/tools.png"
+image = "/images/attention/go-logo_blue.png"
 tags  = [ "programming", "language", "golang", "ubuntu", "security", "vulnerability" ]
 pageType = "text"
 
