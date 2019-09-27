@@ -15,6 +15,7 @@ pageType = "text"
 
 - [[security] Go 1.13.1 and Go 1.12.10 are released - Google Group](https://groups.google.com/forum/#!topic/golang-announce/cszieYyuL9Q)
 - [CVE-2019-16276](https://nvd.nist.gov/vuln/detail/CVE-2019-16276)
+    - [CVE-2019-16276 - Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2019-16276) : `CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L` (Score:6.3, Severity:Medium)
 
 今回はセキュリティ・アップデートを含んでいる。
 [Go 言語]で Web サービスまたはクライアント・ツールを構築している人は要注意だ。
