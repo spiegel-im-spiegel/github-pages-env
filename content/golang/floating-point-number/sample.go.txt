@@ -1,0 +1,30 @@
+package main
+
+import (
+	"fmt"
+)
+
+const value = 0xa0000001
+
+var (
+	i64 = int64(value)
+	f64 = float64(value)
+	f32 = float32(value)
+)
+
+func main() {
+	fmt.Printf("%d\n", i64)
+	fmt.Printf("%b\n", i64)
+
+	fmt.Printf("%f\n", f64)
+	fmt.Printf("%f\n", f32)
+	fmt.Printf("%e\n", f64)
+	fmt.Printf("%e\n", f32)
+	fmt.Printf("%g\n", f64)
+	fmt.Printf("%g\n", f32)
+	fmt.Printf("%g\n", float64(f32))
+
+	fmt.Printf("%b (%b)\n", f64, int64(5629499536310272))
+	fmt.Printf("%b (%b)\n", f32, int64(10485760))
+	fmt.Printf("%b (%b)\n", float64(f32), int64(5629499534213120))
+}
