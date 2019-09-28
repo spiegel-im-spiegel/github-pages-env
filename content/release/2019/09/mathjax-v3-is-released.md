@@ -35,7 +35,7 @@ MathJax = {
 
 [MathJax] v3 の特定のバージョンを指定するには
 
-```html
+{{< highlight html "hl_lines=7" >}}
 <script>
 MathJax = {
   ...
@@ -43,7 +43,7 @@ MathJax = {
 </script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/tex-mml-chtml.js"></script>
-```
+{{< /highlight >}}
 
 などとする。
 
@@ -59,7 +59,7 @@ v2.7.x までとはフォーマットが異なるので注意。
 
 ### [TeX Input Processor Options](https://docs.mathjax.org/en/latest/options/input/tex.html "TeX Input Processor Options — MathJax 3.0 documentation")
 
-設定項目と規定値は以下の通り。
+設定項目と既定値は以下の通り。
 
 ```js
 MathJax = {
@@ -109,7 +109,7 @@ macros: {
 
 ### [CommonHTML Output Processor Options](https://docs.mathjax.org/en/latest/options/output/chtml.html "CommonHTML Output Processor Options — MathJax 3.0 documentation")
 
-設定項目と規定値は以下の通り。
+設定項目と既定値は以下の通り。
 
 ```js
 MathJax = {
