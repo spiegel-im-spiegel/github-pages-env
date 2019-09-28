@@ -1,0 +1,32 @@
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	displayAlign: "left",
+	displayIndent: "2em",
+	tex2jax: {
+		inlineMath: [['$','$'], ['\\(','\\)']],
+		processEscapes: true
+	},
+	TeX: {
+		equationNumbers: { autoNumber: "AMS" },
+	    extensions: ["mhchem.js"],
+		Macros: {
+			ssqrt: ['\\sqrt{\\smash[b]{\\mathstrut #1}}', 1],
+			tcdegree: ['\\unicode{xb0}'],
+			tccelsius: ['\\unicode{x2103}'],
+			tcperthousand: ['\\unicode{x2030}'],
+			tcmu: ['\\unicode{x3bc}'],
+			tcohm: ['\\unicode{x3a9}']
+		}
+	},
+	CommonHTML: {
+		matchFontHeight: false
+	},
+	"HTML-CSS": {
+		availableFonts: ["STIX"],
+	    preferredFont: "STIX",
+		webFont: "STIX-Web",
+		matchFontHeight: false,
+	    mtextFontInherit: true
+	}
+});
+</script>
