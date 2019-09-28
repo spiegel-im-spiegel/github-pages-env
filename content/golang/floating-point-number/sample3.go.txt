@@ -1,0 +1,27 @@
+package main
+
+import (
+	"encoding/json"
+	"fmt"
+)
+
+const value = 0xa0000001
+
+type Float32 float32
+
+func (f Float32) MarshalJSON() ([]byte, error) {
+	return []byte(fmt.Sprintf("%f", f)), nil
+	//return []byte(strconv.FormatFloat(float64(f), 'f', -1, 64)), nil
+}
+
+type Hoge struct {
+	Foo1 json.Number
+	Foo2 Float32
+	Bar  float64
+}
+
+func main() {
+	hoge := Hoge{Foo1: json.Number(fmt.Sprint(value)), Foo2: value, Bar: value}
+	j, _ := json.Marshal(hoge)
+	fmt.Println(string(j))
+}

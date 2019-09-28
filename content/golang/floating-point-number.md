@@ -72,7 +72,7 @@ JSON ([RFC 7159]) における数値（numbers）の内部表現は倍精度浮�
 type Float32 float32
 
 func (f Float32) MarshalJSON() ([]byte, error) {
-	return []byte(fmt.Sprintf("%v", f)), nil
+    return []byte(fmt.Sprintf("%v", f)), nil
 }
 ```
 
@@ -88,9 +88,9 @@ func (f Float32) MarshalJSON() ([]byte, error) {
 const value = 0xa0000001
 
 var (
-	i64 = int64(value)
-	f64 = float64(value)
-	f32 = float32(value)
+    i64 = int64(value)
+    f64 = float64(value)
+    f32 = float32(value)
 )
 ```
 
@@ -131,6 +131,56 @@ var (
 
 [Go] 1.13 で浮動小数点数の内部構造が簡単に見れるようになって，より理解が進むというものである。
 
+## 【おまけの追記】 encoding/json パッケージにおける浮動小数点数の扱いと json.Number 型
+
+[Go 言語]の標準パッケージである [encoding/json] で構造体の要素に `float64` を割り当てた際の JSON へのエンコードでは，最終的に [`strconv`]`.AppendFloat()` 関数で文字列に変換される。
+
+[`strconv`]`.AppendFloat()` 関数とほぼ同じ機能を持つ [`strconv`]`.FormatFloat()` 関数で出力を確認してみよう。
+
+| Conversion                                       | Output       |
+| ------------------------------------------------ | ------------ |
+| `strconv.FormatFloat(f64, 'f', -1, 64)`          | `2684354561` |
+| `strconv.FormatFloat(f64, 'f', -1, 32)`          | `2684354600` |
+| `strconv.FormatFloat(float64(f32), 'f', -1, 64)` | `2684354560` |
+| `strconv.FormatFloat(float64(f32), 'f', -1, 32)` | `2684354600` |
+
+これを使えば JavaScript に近い表現になるだろう。
+
+例えば，先程の `float32` のラッパとして定義した `Float32` 型は以下のように書き直せる。
+
+{{< highlight go "hl_lines=4" >}}
+type Float32 float32
+
+func (f Float32) MarshalJSON() ([]byte, error) {
+    return []byte(strconv.FormatFloat(float64(f), 'f', -1, 64)), nil
+}
+{{< /highlight >}}
+
+ところで，ちょっと反則的（？）かもしれないが [encoding/json] パッケージには [`json`]`.Number` という型が用意されている。
+[`json`]`.Number` 型は名前に反して `string` 型のラッパになっている。
+
+```go
+// A Number represents a JSON number literal.
+type Number string
+
+// String returns the literal text of the number.
+func (n Number) String() string { return string(n) }
+
+// Float64 returns the number as a float64.
+func (n Number) Float64() (float64, error) {
+	return strconv.ParseFloat(string(n), 64)
+}
+
+// Int64 returns the number as an int64.
+func (n Number) Int64() (int64, error) {
+	return strconv.ParseInt(string(n), 10, 64)
+}
+```
+
+つまり JSON としては文字列と同じ扱いだが，必要に応じて数値（`int64` または `float64` 型）に変換できるというわけだ。
+
+これまで述べたように JSON の number を浮動小数点数に変換すると計算誤差が発生するため破壊的な変換になりがちだが [`json`]`.Number` 型であれば最小限に抑えられるだろう。
+
 ## ブックマーク
 
 - [1を1億回足して1億にならない場合]({{< relref "./loop-counter.md" >}})
@@ -139,7 +189,10 @@ var (
 [Go]: https://golang.org/ "The Go Programming Language"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [RFC 7159]: https://tools.ietf.org/html/rfc7159 "RFC 7159 - The JavaScript Object Notation (JSON) Data Interchange Format"
-[`fmt`]: https://golang.org/pkg/fmt/ "fmt - The Go Programming Language"
+[encoding/json]: https://golang.org/pkg/encoding/json/ "json - The Go Programming Language"
+[`json`]: https://golang.org/pkg/encoding/json/ "json - The Go Programming Language"
+[`fmt`]: https://golang.org/pkg/encoding/json/ "json - The Go Programming Language"
+[`strconv`]: https://golang.org/pkg/strconv/ "strconv - The Go Programming Language"
 
 ## 参考図書
 
