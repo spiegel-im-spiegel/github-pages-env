@@ -41,4 +41,7 @@
 - [GitHub Actions による GitHub Pages への自動デプロイ - Qiita](https://qiita.com/peaceiris/items/d401f2e5724fdcb0759d)
 
 
+- [PA-API v5移行のご案内](https://affiliate.amazon.co.jp/help/node/topic/GZBFW3F79Y7FADBL)
+
+
 <!-- eof -->

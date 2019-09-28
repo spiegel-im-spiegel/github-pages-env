@@ -1,7 +1,7 @@
 +++
 title = "星間天体 Borisov に関するブックマーク"
 date =  "2019-09-15T07:50:40+09:00"
-description = "2017年の 1I/2017 U1 (ʻOumuamua) に続いて2つ目の観測例となる（であろう）星間天体 C/2019 Q4 (Borisov) に関するメモ。"
+description = "2017年の 1I/2017 U1 (ʻOumuamua) に続いて2つ目の観測例となる（であろう）星間天体 2I/Borisov に関するメモ。"
 image = "/images/attention/kitten.jpg"
 tags = [ "astronomy", "interstellar-object" ]
 pageType = "text"
@@ -11,8 +11,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-2017年の 1I/2017 U1 (ʻOumuamua) に続いて2つ目の観測例となる（であろう）星間天体 [C/2019 Q4 (Borisov)](https://minorplanetcenter.net/mpec/K19/K19RB3.html) に関するメモ。
-なお，正式に星間天体（interstellar object）として認められれば新しいコードが割り振られると思われ。
+2017年の 1I/2017 U1 (ʻOumuamua) に続いて2つ目の観測例となる星間天体 [2I/Borisov](https://www.minorplanetcenter.net/mpec/K19/K19S72.html) （旧 [C/2019 Q4 (Borisov)](https://minorplanetcenter.net/mpec/K19/K19RB3.html)） に関するメモ。
 
 - [Gemini Observatory Captures Multicolor Image of First-ever Interstellar Comet | Gemini Observatory](https://www.gemini.edu/node/21240)
 - [Newly Discovered Comet Is Likely Interstellar Visitor | NASA](https://www.nasa.gov/feature/jpl/newly-discovered-comet-is-likely-interstellar-visitor/)
@@ -22,6 +21,8 @@ pageType = "text"
 {{< div-gen >}}
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">彗星活動を初めて示すインターステラ天体 C/2019 Q4 (Borisov)の2色カラー画像(ハワイ8.2m Gemini望遠鏡)。g&#39;-r&#39;=0.63 ± 0.03は、太陽系起源の彗星に類似。エアマス2以上の悪条件だが、今後好条件になるので、インターステラ物質についての研究が進むものと期待。 ghttps://www.gemini.edu/node/21240 <a href="https://t.co/4Aw7gMi6h6">pic.twitter.com/4Aw7gMi6h6</a></p>&mdash; Abe S. 阿部新之助 (@AvellSky) <a href="https://twitter.com/AvellSky/status/1172710521738448897?ref_src=twsrc%5Etfw">September 14, 2019</a></blockquote>
 {{< /div-gen >}}
+
+- [MPEC 2019-S72 : 2I/Borisov = C/2019 Q4 (Borisov)](https://www.minorplanetcenter.net/mpec/K19/K19S72.html)
 
 ちなみに2017年の 1I/2017 U1 (ʻOumuamua) のときはこんな感じで話題になった。
 当時は何故か記事にまとめてなかったのでこの記事で挙げておく。

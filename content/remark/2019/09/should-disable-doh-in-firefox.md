@@ -87,6 +87,8 @@ pageType = "text"
 - [Blocking Firefox DoH with Bind - SANS Internet Storm Center](https://isc.sans.edu/forums/diary/Blocking+Firefox+DoH+with+Bind/25316/)
 - [Encrypted DNS Could Help Close the Biggest Privacy Gap on the Internet. Why Are Some Groups Fighting Against It? | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2019/09/encrypted-dns-could-help-close-biggest-privacy-gap-internet-why-are-some-groups)
     - [DNS暗号化はプライバシーギャップの克服にきわめて有効……なのになぜ反対の声が上がっているのか？ | P2Pとかその辺のお話R](https://p2ptk.org/privacy/2794)
+- [ISP Column - September 2019](https://www.potaroo.net/ispcol/2019-09/centrality.html)
+    - [ブログ: DNSリゾルバーの中心性](https://okuranagaimo.blogspot.com/2019/09/dns.html)
 
 - [監視をコントロールする](https://baldanders.info/blog/000490/)
 

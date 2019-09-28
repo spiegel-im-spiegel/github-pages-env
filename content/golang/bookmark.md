@@ -279,6 +279,7 @@ title = "Go 言語に関するブックマーク"
 - [Big Sky :: Go 言語の非同期パターン](https://mattn.kaoriya.net/software/lang/go/20180531104907.htm)
 - [goroutineとチャネルの動きを図を使って理解する(和訳) - Qiita](https://qiita.com/hirano00o/items/828393342efcd80aa2e6)
 - [goleakでgoroutine leakのリスクを減らす - Qiita](https://qiita.com/smith-30/items/67c4f894bec45a6fd82a)
+- [Go の -race option は内部で何をしているのか。何を検知しないのか。 - Qiita](https://qiita.com/po3rin/items/18a6621f39e9a6f6f7c4)
 
 Go 言語で複数 CPU を使った並列処理を行うには明示的な設定が必要。
 
@@ -715,6 +716,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go言語のために、すべてのORMに対応できるデータベースシャーディングライブラリを作った - Qiita](https://qiita.com/goccy/items/a54af6db3b8623e90c38)
 - [GoのGORMでiterate - Qiita](https://qiita.com/iz-j/items/09097c494292e0f03636)
 - [Big Sky :: SQLite3 でロジスティック回帰](https://mattn.kaoriya.net/software/ml/20190512003509.htm)
+- [golang-migrate/migrateパッケージを使ってみる - Qiita](https://qiita.com/daijuk/items/2b43781c5a38923f864b)
 
 ### GAE/Go
 
