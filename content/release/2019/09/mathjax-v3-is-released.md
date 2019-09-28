@@ -1,11 +1,10 @@
 +++
 title = "MathJax v3 がリリースされていた"
-date =  "2019-09-28T16:45:18+09:00"
+date =  "2019-09-28T18:29:26+09:00"
 description = "v2.7.x までとはだいぶ変わったので注意。"
 image = "/images/attention/tools.png"
 tags = [ "math", "tex", "mathjax", "javascript", "site" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = true
