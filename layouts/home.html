@@ -47,6 +47,13 @@
 	</span>
 </li>
 
+<li><a href='{{ "/release/" | relURL }}'><em>[release] リリース情報</em></a> <a href='{{ "/release/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
+	<span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "release") }}
+		（最新記事：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
+		{{ end }}<br>&raquo; 自作パッケージ・ツールのリリース情報と気になるツール・サービスの情報について。
+	</span>
+</li>
+
 <li><a href='{{ "/golang/" | relURL }}'><em>[golang] プログラミング言語 Go</em></a> <a href='{{ "/golang/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
 	<span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "golang") }}
 		（最新記事：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
@@ -65,13 +72,6 @@
 	<span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "cc-licenses") }}
 		（最新記事：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
 		{{ end }}<br>&raquo; <a href="https://baldanders.info/">本家サイト</a>の「<a href="https://baldanders.info/spiegel/cc-license/">クリエイティブ・コモンズ・ライセンスについて</a>」を大幅リニューアル。
-	</span>
-</li>
-
-<li><a href='{{ "/release/" | relURL }}'><em>[release] リリース情報</em></a> <a href='{{ "/release/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
-	<span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "release") }}
-		（最新記事：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
-		{{ end }}<br>&raquo; 自作パッケージ・ツールのリリース情報と気になるツール・サービスの情報について。
 	</span>
 </li>
 

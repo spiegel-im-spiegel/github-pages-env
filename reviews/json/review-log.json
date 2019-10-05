@@ -11,9 +11,6 @@
         "Width": 160
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "Ｋｏｉ"
-      ],
       "Codes": [
         {
           "Name": "ASIN",
@@ -50,10 +47,6 @@
         "Width": 121
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "上田 隆一",
-        "後藤 大地"
-      ],
       "Creators": [
         {
           "Name": "ＵＳＰ研究所",
@@ -97,9 +90,6 @@
         "Width": 100
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "吉良野すた"
-      ],
       "Codes": [
         {
           "Name": "ASIN",
@@ -136,9 +126,6 @@
         "Width": 124
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "エ・ビスコム・テック・ラボ"
-      ],
       "Publisher": "マイナビ出版",
       "Codes": [
         {
@@ -176,7 +163,6 @@
         "Width": 160
       },
       "ProductType": "CD",
-      "Authors": null,
       "Publisher": "エイベックス・ピクチャーズ株式会社(Music)",
       "Codes": [
         {
@@ -218,7 +204,6 @@
         "Width": 160
       },
       "ProductType": "MP3 ダウンロード",
-      "Authors": null,
       "Creators": [
         {
           "Name": "Various artists",
@@ -262,7 +247,6 @@
         "Width": 160
       },
       "ProductType": "MP3 ダウンロード",
-      "Authors": null,
       "Creators": [
         {
           "Name": "DREAMS COME TRUE",
@@ -306,7 +290,6 @@
         "Width": 160
       },
       "ProductType": "CD",
-      "Authors": null,
       "Publisher": "ダブリューイーエー・ジャパン",
       "Codes": [
         {
@@ -348,9 +331,6 @@
         "Width": 114
       },
       "ProductType": "単行本",
-      "Authors": [
-        "イヴォンヌ シェラット"
-      ],
       "Creators": [
         {
           "Name": "三ッ木 道夫",
@@ -402,9 +382,6 @@
         "Width": 107
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "斉藤 徹"
-      ],
       "Publisher": "日本経済新聞出版社",
       "Codes": [
         {
@@ -442,10 +419,6 @@
         "Width": 113
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "りゅうせんひろつぐ",
-        "藤ちょこ"
-      ],
       "Publisher": "マイクロマガジン社",
       "Codes": [
         {
@@ -483,7 +456,6 @@
         "Width": 160
       },
       "ProductType": "エレクトロニクス",
-      "Authors": null,
       "Publisher": "Amazon",
       "Codes": [
         {
@@ -525,9 +497,6 @@
         "Width": 160
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "蒼樹うめ"
-      ],
       "Codes": [
         {
           "Name": "ASIN",
@@ -564,9 +533,6 @@
         "Width": 160
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "竹本泉"
-      ],
       "Codes": [
         {
           "Name": "ASIN",
@@ -603,12 +569,6 @@
         "Width": 111
       },
       "ProductType": "単行本",
-      "Authors": [
-        "リック レバイン",
-        "ドク サールズ",
-        "クリストファー ロック",
-        "デビッド ワインバーガー"
-      ],
       "Creators": [
         {
           "Name": "Rick Levine",
@@ -672,9 +632,6 @@
         "Width": 113
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "神宮館編集部"
-      ],
       "Publisher": "神宮館",
       "Codes": [
         {
@@ -712,9 +669,6 @@
         "Width": 114
       },
       "ProductType": "単行本",
-      "Authors": [
-        "中山 信弘"
-      ],
       "Publisher": "有斐閣",
       "Codes": [
         {
@@ -756,7 +710,6 @@
         "Width": 106
       },
       "ProductType": "DVD",
-      "Authors": null,
       "Publisher": "IDP",
       "Codes": [
         {
@@ -798,9 +751,6 @@
         "Width": 113
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "長田佳奈"
-      ],
       "Publisher": "ぶんか社",
       "Codes": [
         {
@@ -838,7 +788,6 @@
         "Width": 160
       },
       "ProductType": "MP3 ダウンロード",
-      "Authors": null,
       "Creators": [
         {
           "Name": "キャンディーズ",
@@ -882,9 +831,6 @@
         "Width": 107
       },
       "ProductType": "単行本",
-      "Authors": [
-        "芳沢 光雄"
-      ],
       "Publisher": "新潮社",
       "Codes": [
         {
@@ -926,7 +872,6 @@
         "Width": 107
       },
       "ProductType": "Prime Video",
-      "Authors": null,
       "Creators": [
         {
           "Name": "Scott Rudin",
@@ -981,9 +926,6 @@
         "Width": 115
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "海野　弘"
-      ],
       "Publisher": "朝日新聞出版",
       "Codes": [
         {
@@ -1021,9 +963,6 @@
         "Width": 109
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "聖 悠紀"
-      ],
       "Publisher": "KADOKAWA",
       "Codes": [
         {
@@ -1061,9 +1000,6 @@
         "Width": 113
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "逢空 万太"
-      ],
       "Creators": [
         {
           "Name": "狐印",
@@ -1107,9 +1043,6 @@
         "Width": 106
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "水野祐"
-      ],
       "Publisher": "フィルムアート社",
       "Codes": [
         {
@@ -1147,9 +1080,6 @@
         "Width": 113
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "水瀬るるう"
-      ],
       "Publisher": "芳文社",
       "Codes": [
         {
@@ -1186,9 +1116,6 @@
         "Width": 99
       },
       "ProductType": "新書",
-      "Authors": [
-        "J.D.サリンジャー"
-      ],
       "Creators": [
         {
           "Name": "野崎 孝",
@@ -1236,9 +1163,6 @@
         "Width": 160
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "長谷川 裕一"
-      ],
       "Codes": [
         {
           "Name": "ASIN",
@@ -1275,9 +1199,6 @@
         "Width": 108
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "小川一水"
-      ],
       "Publisher": "早川書房",
       "Codes": [
         {
@@ -1315,9 +1236,6 @@
         "Width": 113
       },
       "ProductType": "コミック",
-      "Authors": [
-        "ナントカ"
-      ],
       "Publisher": "芳文社",
       "Codes": [
         {
@@ -1359,7 +1277,6 @@
         "Width": 160
       },
       "ProductType": "CD",
-      "Authors": null,
       "Publisher": "日本クラウン",
       "Codes": [
         {
@@ -1401,9 +1318,6 @@
         "Width": 100
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "オー・ヘンリー"
-      ],
       "Creators": [
         {
           "Name": "結城浩",
@@ -1447,7 +1361,6 @@
         "Width": 113
       },
       "ProductType": "単行本",
-      "Authors": null,
       "Creators": [
         {
           "Name": "天文年鑑編集委員会",
@@ -1495,7 +1408,6 @@
         "Width": 112
       },
       "ProductType": "単行本",
-      "Authors": null,
       "Creators": [
         {
           "Name": "天文年鑑編集委員会",
@@ -1543,7 +1455,6 @@
         "Width": 112
       },
       "ProductType": "単行本",
-      "Authors": null,
       "Creators": [
         {
           "Name": "天文年鑑編集委員会",
@@ -1591,7 +1502,6 @@
         "Width": 112
       },
       "ProductType": "単行本",
-      "Authors": null,
       "Creators": [
         {
           "Name": "天文年鑑編集委員会",
@@ -1639,10 +1549,6 @@
         "Width": 160
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "吉浦康裕",
-        "太田優姫"
-      ],
       "Codes": [
         {
           "Name": "ASIN",
@@ -1679,9 +1585,6 @@
         "Width": 160
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "ＭＥＩＭＵ"
-      ],
       "Creators": [
         {
           "Name": "石ノ森 章太郎",
@@ -1724,9 +1627,6 @@
         "Width": 111
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "小林 秀雄"
-      ],
       "Publisher": "文藝春秋",
       "Codes": [
         {
@@ -1764,9 +1664,6 @@
         "Width": 109
       },
       "ProductType": "単行本",
-      "Authors": [
-        "藤代 裕之"
-      ],
       "Publisher": "青弓社",
       "Codes": [
         {
@@ -1808,9 +1705,6 @@
         "Width": 101
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "池内　恵"
-      ],
       "Publisher": "文藝春秋",
       "Codes": [
         {
@@ -1848,9 +1742,6 @@
         "Width": 113
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "冲方 丁"
-      ],
       "Publisher": "KADOKAWA",
       "Codes": [
         {
@@ -1888,7 +1779,6 @@
         "Width": 113
       },
       "ProductType": "大型本",
-      "Authors": null,
       "Creators": [
         {
           "Name": "岡田 芳朗",
@@ -1956,9 +1846,6 @@
         "Width": 112
       },
       "ProductType": "文庫",
-      "Authors": [
-        "グレッグ・イーガン"
-      ],
       "Creators": [
         {
           "Name": "山岸 真",
@@ -2006,9 +1893,6 @@
         "Width": 106
       },
       "ProductType": "単行本（ソフトカバー）",
-      "Authors": [
-        "池内 恵"
-      ],
       "Publisher": "新潮社",
       "Codes": [
         {
@@ -2050,9 +1934,6 @@
         "Width": 113
       },
       "ProductType": "コミック",
-      "Authors": [
-        "竹本 泉"
-      ],
       "Publisher": "エンターブレイン",
       "Codes": [
         {
@@ -2094,10 +1975,6 @@
         "Width": 127
       },
       "ProductType": "大型本",
-      "Authors": [
-        "奥村 晴彦",
-        "黒木 裕介"
-      ],
       "Publisher": "技術評論社",
       "Codes": [
         {
@@ -2139,9 +2016,6 @@
         "Width": 113
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "結城 浩"
-      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -2179,9 +2053,6 @@
         "Width": 126
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "結城 浩"
-      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -2219,9 +2090,6 @@
         "Width": 112
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "結城 浩"
-      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -2259,9 +2127,6 @@
         "Width": 113
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "服部 昇大"
-      ],
       "Publisher": "一迅社",
       "Codes": [
         {
@@ -2299,9 +2164,6 @@
         "Width": 123
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "武内 覚"
-      ],
       "Publisher": "技術評論社",
       "Codes": [
         {
@@ -2343,10 +2205,6 @@
         "Width": 160
       },
       "ProductType": "CD",
-      "Authors": [
-        "アーサー コナン・ドイル",
-        "Arthur Conan Doyle"
-      ],
       "Creators": [
         {
           "Name": "三上 於菟吉",
@@ -2398,9 +2256,6 @@
         "Width": 112
       },
       "ProductType": "単行本",
-      "Authors": [
-        "野口 英司"
-      ],
       "Publisher": "はる書房",
       "Codes": [
         {
@@ -2442,9 +2297,6 @@
         "Width": 108
       },
       "ProductType": "単行本",
-      "Authors": [
-        "富田 倫生"
-      ],
       "Publisher": "アスキー",
       "Codes": [
         {
@@ -2486,9 +2338,6 @@
         "Width": 103
       },
       "ProductType": "単行本",
-      "Authors": [
-        "名和 小太郎"
-      ],
       "Publisher": "岩波書店",
       "Codes": [
         {
@@ -2530,9 +2379,6 @@
         "Width": 108
       },
       "ProductType": "単行本",
-      "Authors": [
-        "スティーブン・レビー"
-      ],
       "Creators": [
         {
           "Name": "斉藤 隆央",
@@ -2580,9 +2426,6 @@
         "Width": 114
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "スティーブン・レヴィ"
-      ],
       "Creators": [
         {
           "Name": "仲達志；池村千秋",
@@ -2626,9 +2469,6 @@
         "Width": 125
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "結城 浩"
-      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -2666,9 +2506,6 @@
         "Width": 113
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "綾瀬 紗葵"
-      ],
       "Creators": [
         {
           "Name": "笠井",
@@ -2712,15 +2549,6 @@
         "Width": 96
       },
       "ProductType": "新書",
-      "Authors": [
-        "小林 恭子",
-        "白井 聡",
-        "塚越 健司",
-        "津田 大介",
-        "八田 真行",
-        "浜野 喬士",
-        "孫崎 享"
-      ],
       "Publisher": "洋泉社",
       "Codes": [
         {
@@ -2762,9 +2590,6 @@
         "Width": 97
       },
       "ProductType": "新書",
-      "Authors": [
-        "白田 秀彰"
-      ],
       "Publisher": "ソフトバンククリエイティブ",
       "Codes": [
         {
@@ -2806,9 +2631,6 @@
         "Width": 108
       },
       "ProductType": "単行本（ソフトカバー）",
-      "Authors": [
-        "名和 小太郎"
-      ],
       "Publisher": "NTT出版",
       "Codes": [
         {
@@ -2850,9 +2672,6 @@
         "Width": 98
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "福井健策"
-      ],
       "Publisher": "筑摩書房",
       "Codes": [
         {
@@ -2890,9 +2709,6 @@
         "Width": 125
       },
       "ProductType": "単行本（ソフトカバー）",
-      "Authors": [
-        "Katherine Cox-Buday"
-      ],
       "Creators": [
         {
           "Name": "山口 能迪",
@@ -2940,9 +2756,6 @@
         "Width": 113
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "結城 浩"
-      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -2980,9 +2793,6 @@
         "Width": 113
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "茉崎 ミユキ"
-      ],
       "Publisher": "KADOKAWA",
       "Codes": [
         {
@@ -3020,9 +2830,6 @@
         "Width": 114
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "結城 浩"
-      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -3060,9 +2867,6 @@
         "Width": 113
       },
       "ProductType": "コミック",
-      "Authors": [
-        "竹本 泉"
-      ],
       "Publisher": "朝日ソノラマ",
       "Codes": [
         {
@@ -3104,10 +2908,6 @@
         "Width": 123
       },
       "ProductType": "単行本（ソフトカバー）",
-      "Authors": [
-        "Alan A.A. Donovan",
-        "Brian W. Kernighan"
-      ],
       "Creators": [
         {
           "Name": "柴田 芳樹",
@@ -3155,14 +2955,6 @@
         "Width": 113
       },
       "ProductType": "大型本",
-      "Authors": [
-        "松木雅幸",
-        "mattn",
-        "藤原俊一郎",
-        "中島大一",
-        "牧 大輔",
-        "鈴木健太"
-      ],
       "Creators": [
         {
           "Name": "稲葉貴洋",
@@ -3209,7 +3001,6 @@
         "Width": 160
       },
       "ProductType": "MP3 ダウンロード",
-      "Authors": null,
       "Creators": [
         {
           "Name": "吉七味。",
@@ -3253,9 +3044,6 @@
         "Width": 99
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "野口祐子"
-      ],
       "Publisher": "筑摩書房",
       "Codes": [
         {
@@ -3293,9 +3081,6 @@
         "Width": 160
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "七条 剛"
-      ],
       "Creators": [
         {
           "Name": "希望 つばめ",
@@ -3338,9 +3123,6 @@
         "Width": 116
       },
       "ProductType": "コミック",
-      "Authors": [
-        "大野安之"
-      ],
       "Publisher": "復刊ドットコム",
       "Codes": [
         {
@@ -3382,9 +3164,6 @@
         "Width": 160
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "聖 悠紀"
-      ],
       "Codes": [
         {
           "Name": "ASIN",
@@ -3421,9 +3200,6 @@
         "Width": 111
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "Doc Searls"
-      ],
       "Creators": [
         {
           "Name": "栗原潔",
@@ -3471,7 +3247,6 @@
         "Width": 120
       },
       "ProductType": "Prime Video",
-      "Authors": null,
       "Creators": [
         {
           "Name": "スタンリー・キューブリック",
@@ -3514,9 +3289,6 @@
         "Width": 108
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "藤井 太洋"
-      ],
       "Publisher": "早川書房",
       "Codes": [
         {
@@ -3554,9 +3326,6 @@
         "Width": 112
       },
       "ProductType": "文庫",
-      "Authors": [
-        "ミヒャエル エンデ"
-      ],
       "Creators": [
         {
           "Name": "Michael Ende",
@@ -3608,9 +3377,6 @@
         "Width": 114
       },
       "ProductType": "単行本",
-      "Authors": [
-        "二宮 洸三"
-      ],
       "Publisher": "オーム社",
       "Codes": [
         {
@@ -3652,10 +3418,6 @@
         "Width": 112
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "ミヒャエル・エンデ",
-        "大島 かおり"
-      ],
       "Publisher": "岩波書店",
       "Codes": [
         {
@@ -3693,7 +3455,6 @@
         "Width": 160
       },
       "ProductType": "Personal Computers",
-      "Authors": null,
       "Publisher": "シリコンパワー",
       "Codes": [
         {
@@ -3735,9 +3496,6 @@
         "Width": 113
       },
       "ProductType": "文庫",
-      "Authors": [
-        "S. ワインバーグ"
-      ],
       "Creators": [
         {
           "Name": "Steven Weinberg",
@@ -3789,9 +3547,6 @@
         "Width": 113
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "髙橋基信"
-      ],
       "Publisher": "技術評論社",
       "Codes": [
         {
@@ -3833,7 +3588,6 @@
         "Width": 113
       },
       "ProductType": "ムック",
-      "Authors": null,
       "Creators": [
         {
           "Name": "日経Linux",
@@ -3881,9 +3635,6 @@
         "Width": 108
       },
       "ProductType": "単行本",
-      "Authors": [
-        "野尻 抱介"
-      ],
       "Publisher": "ローカス",
       "Codes": [
         {
@@ -3925,9 +3676,6 @@
         "Width": 108
       },
       "ProductType": "単行本（ソフトカバー）",
-      "Authors": [
-        "ブルース・シュナイアー"
-      ],
       "Creators": [
         {
           "Name": "山形 浩生",
@@ -3975,9 +3723,6 @@
         "Width": 108
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "ブルース・シュナイアー"
-      ],
       "Creators": [
         {
           "Name": "池村 千秋",
@@ -4021,7 +3766,6 @@
         "Width": 160
       },
       "ProductType": "Prime Video",
-      "Authors": null,
       "Codes": [
         {
           "Name": "ASIN",
@@ -4058,7 +3802,6 @@
         "Width": 27
       },
       "ProductType": "オフィス用品",
-      "Authors": null,
       "Publisher": "Pilot",
       "Codes": [
         {
@@ -4100,9 +3843,6 @@
         "Width": 111
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "リチャード・バック"
-      ],
       "Creators": [
         {
           "Name": "五木 寛之",
@@ -4146,10 +3886,6 @@
         "Width": 111
       },
       "ProductType": "単行本",
-      "Authors": [
-        "リーナス トーバルズ",
-        "デビッド ダイヤモンド"
-      ],
       "Creators": [
         {
           "Name": "風見 潤",
@@ -4201,9 +3937,6 @@
         "Width": 114
       },
       "ProductType": "文庫",
-      "Authors": [
-        "斎藤 環"
-      ],
       "Publisher": "筑摩書房",
       "Codes": [
         {
@@ -4245,9 +3978,6 @@
         "Width": 110
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "大野 安之"
-      ],
       "Publisher": "KADOKAWA",
       "Codes": [
         {
@@ -4285,9 +4015,6 @@
         "Width": 111
       },
       "ProductType": "オンデマンド (ペーパーバック)",
-      "Authors": [
-        "小山田 いく"
-      ],
       "Publisher": "復刊ドットコム",
       "Codes": [
         {
@@ -4329,9 +4056,6 @@
         "Width": 107
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "アンディ ウィアー"
-      ],
       "Creators": [
         {
           "Name": "小野田和子",
@@ -4375,9 +4099,6 @@
         "Width": 160
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "あさりよしとお"
-      ],
       "Codes": [
         {
           "Name": "ASIN",
@@ -4414,9 +4135,6 @@
         "Width": 100
       },
       "ProductType": "新書",
-      "Authors": [
-        "金子 隆一"
-      ],
       "Publisher": "文藝春秋",
       "Codes": [
         {
@@ -4458,9 +4176,6 @@
         "Width": 116
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "藤井太洋"
-      ],
       "Publisher": "朝日新聞出版",
       "Codes": [
         {
@@ -4502,9 +4217,6 @@
         "Width": 160
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "唐草ミチル"
-      ],
       "Codes": [
         {
           "Name": "ASIN",
@@ -4541,9 +4253,6 @@
         "Width": 109
       },
       "ProductType": "単行本（ソフトカバー）",
-      "Authors": [
-        "ジル・ケペル"
-      ],
       "Creators": [
         {
           "Name": "池内 恵",
@@ -4591,9 +4300,6 @@
         "Width": 113
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "蛇蔵"
-      ],
       "Publisher": "講談社",
       "Codes": [
         {
@@ -4631,10 +4337,6 @@
         "Width": 114
       },
       "ProductType": "単行本（ソフトカバー）",
-      "Authors": [
-        "Gever Tulley",
-        "Julie Spiegler"
-      ],
       "Creators": [
         {
           "Name": "金井 哲夫",
@@ -4682,9 +4384,6 @@
         "Width": 114
       },
       "ProductType": "単行本",
-      "Authors": [
-        "ヴォルフガング・シヴェルブシュ"
-      ],
       "Creators": [
         {
           "Name": "小川 さくえ",
@@ -4732,9 +4431,6 @@
         "Width": 106
       },
       "ProductType": "単行本",
-      "Authors": [
-        "新戸 雅章"
-      ],
       "Publisher": "工学社",
       "Codes": [
         {
@@ -4776,10 +4472,6 @@
         "Width": 160
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "更伊 俊介",
-        "鍋島 テツヒロ"
-      ],
       "Creators": [
         {
           "Name": "鍋島 テツヒロ",
@@ -4822,7 +4514,6 @@
         "Width": 112
       },
       "ProductType": "単行本",
-      "Authors": null,
       "Creators": [
         {
           "Name": "天文年鑑編集委員会",
@@ -4870,9 +4561,6 @@
         "Width": 101
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "斎藤環"
-      ],
       "Publisher": "幻冬舎",
       "Codes": [
         {
@@ -4910,17 +4598,6 @@
         "Width": 111
       },
       "ProductType": "単行本",
-      "Authors": [
-        "山岸 耕二",
-        "安井 昌男",
-        "萩本 順三",
-        "河野 正幸",
-        "野田 伊佐夫",
-        "平鍋 健児",
-        "細川 努",
-        "依田 智夫",
-        "［要求開発アライアンス］"
-      ],
       "Publisher": "日経BP",
       "Codes": [
         {
@@ -4962,9 +4639,6 @@
         "Width": 160
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "オーサ・イェークストロム"
-      ],
       "Codes": [
         {
           "Name": "ASIN",
@@ -5001,9 +4675,6 @@
         "Width": 108
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "アイザック アシモフ"
-      ],
       "Creators": [
         {
           "Name": "小尾芙佐",
@@ -5047,9 +4718,6 @@
         "Width": 107
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "アイザック アシモフ"
-      ],
       "Creators": [
         {
           "Name": "福島正実",
@@ -5092,9 +4760,6 @@
         "Width": 108
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "中西準子"
-      ],
       "Publisher": "日本評論社",
       "Codes": [
         {
@@ -5132,9 +4797,6 @@
         "Width": 110
       },
       "ProductType": "単行本",
-      "Authors": [
-        "吉川 肇子"
-      ],
       "Publisher": "有斐閣",
       "Codes": [
         {
@@ -5176,9 +4838,6 @@
         "Width": 107
       },
       "ProductType": "単行本",
-      "Authors": [
-        "ブルース・シュナイアー"
-      ],
       "Creators": [
         {
           "Name": "井口 耕二",
@@ -5226,9 +4885,6 @@
         "Width": 100
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "Bruce Schneier"
-      ],
       "Publisher": "Copernicus",
       "Codes": [
         {
@@ -5270,9 +4926,6 @@
         "Width": 106
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "ドミニク・チェン"
-      ],
       "Publisher": "ブックウォーカー",
       "Codes": [
         {
@@ -5310,9 +4963,6 @@
         "Width": 124
       },
       "ProductType": "単行本（ソフトカバー）",
-      "Authors": [
-        "神崎 正英"
-      ],
       "Publisher": "毎日コミュニケーションズ",
       "Codes": [
         {
@@ -5354,9 +5004,6 @@
         "Width": 115
       },
       "ProductType": "単行本",
-      "Authors": [
-        "ドミニク・チェン"
-      ],
       "Publisher": "フィルムアート社",
       "Codes": [
         {
@@ -5398,7 +5045,6 @@
         "Width": 113
       },
       "ProductType": "単行本",
-      "Authors": null,
       "Creators": [
         {
           "Name": "MISRA‐C研究会",
@@ -5446,9 +5092,6 @@
         "Width": 101
       },
       "ProductType": "新書",
-      "Authors": [
-        "大原 ケイ"
-      ],
       "Publisher": "アスキー・メディアワークス",
       "Codes": [
         {
@@ -5490,9 +5133,6 @@
         "Width": 106
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "大原 ケイ"
-      ],
       "Publisher": "ブックウォーカー",
       "Codes": [
         {
@@ -5530,9 +5170,6 @@
         "Width": 102
       },
       "ProductType": "新書",
-      "Authors": [
-        "梅津 信幸"
-      ],
       "Publisher": "ソフトバンククリエイティブ",
       "Codes": [
         {
@@ -5574,9 +5211,6 @@
         "Width": 111
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "ジャン＝ガブリエル ガナシア"
-      ],
       "Creators": [
         {
           "Name": "小林 重裕・他",
@@ -5624,9 +5258,6 @@
         "Width": 113
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "内田 美奈子"
-      ],
       "Codes": [
         {
           "Name": "ASIN",
@@ -5663,9 +5294,6 @@
         "Width": 98
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "橋本健二"
-      ],
       "Publisher": "講談社",
       "Codes": [
         {
@@ -5703,9 +5331,6 @@
         "Width": 111
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "新井 紀子"
-      ],
       "Publisher": "東洋経済新報社",
       "Codes": [
         {
@@ -5743,7 +5368,6 @@
         "Width": 160
       },
       "ProductType": "おもちゃ＆ホビー",
-      "Authors": null,
       "Publisher": "STARTSIDE",
       "Codes": [
         {
@@ -5785,9 +5409,6 @@
         "Width": 111
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "結城 浩"
-      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -5825,9 +5446,6 @@
         "Width": 111
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "結城 浩"
-      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -5865,9 +5483,6 @@
         "Width": 110
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "結城 浩"
-      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -5905,9 +5520,6 @@
         "Width": 113
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "結城 浩"
-      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -5945,9 +5557,6 @@
         "Width": 111
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "結城 浩"
-      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -5985,9 +5594,6 @@
         "Width": 113
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "結城 浩"
-      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -6025,9 +5631,6 @@
         "Width": 113
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "結城 浩"
-      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -6065,9 +5668,6 @@
         "Width": 113
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "結城 浩"
-      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -6105,9 +5705,6 @@
         "Width": 110
       },
       "ProductType": "単行本",
-      "Authors": [
-        "アン・ウィルソン シェフ"
-      ],
       "Creators": [
         {
           "Name": "Anne Wilson Schaef",
@@ -6159,9 +5756,6 @@
         "Width": 160
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "ねこしみず美濃"
-      ],
       "Codes": [
         {
           "Name": "ASIN",
@@ -6198,9 +5792,6 @@
         "Width": 100
       },
       "ProductType": "新書",
-      "Authors": [
-        "吉田 武"
-      ],
       "Publisher": "幻冬舎",
       "Codes": [
         {
@@ -6242,9 +5833,6 @@
         "Width": 106
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "森本 あんり"
-      ],
       "Publisher": "新潮社",
       "Codes": [
         {
@@ -6282,9 +5870,6 @@
         "Width": 109
       },
       "ProductType": "文庫",
-      "Authors": [
-        "イーライ・パリサー"
-      ],
       "Creators": [
         {
           "Name": "井口耕二",
@@ -6332,9 +5917,6 @@
         "Width": 109
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "ダナ・ボイド"
-      ],
       "Creators": [
         {
           "Name": "野中 モモ",
@@ -6378,9 +5960,6 @@
         "Width": 112
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "佐藤俊樹"
-      ],
       "Publisher": "河出書房新社",
       "Codes": [
         {
@@ -6418,10 +5997,6 @@
         "Width": 113
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "ＨｅｎｒｉｋＫｎｉｂｅｒｇ",
-        "角谷信太郎"
-      ],
       "Creators": [
         {
           "Name": "市谷聡啓",
@@ -6473,9 +6048,6 @@
         "Width": 111
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "結城 浩"
-      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -6513,7 +6085,6 @@
         "Width": 112
       },
       "ProductType": "DVD",
-      "Authors": null,
       "Publisher": "コミックス・ウェーブ・フィルム",
       "Codes": [
         {
@@ -6555,9 +6126,6 @@
         "Width": 126
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "結城 浩"
-      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -6595,10 +6163,6 @@
         "Width": 112
       },
       "ProductType": "単行本",
-      "Authors": [
-        "B.W. カーニハン",
-        "D.M. リッチー"
-      ],
       "Creators": [
         {
           "Name": "石田 晴久",
@@ -6646,9 +6210,6 @@
         "Width": 124
       },
       "ProductType": "単行本",
-      "Authors": [
-        "シムソン ガーフィンケル"
-      ],
       "Creators": [
         {
           "Name": "Simson Garfinkel",
@@ -6700,9 +6261,6 @@
         "Width": 125
       },
       "ProductType": "大型本",
-      "Authors": [
-        "Scott Meyers"
-      ],
       "Creators": [
         {
           "Name": "千住 治郎",
@@ -6750,9 +6308,6 @@
         "Width": 110
       },
       "ProductType": "単行本",
-      "Authors": [
-        "ジョック ヤング"
-      ],
       "Creators": [
         {
           "Name": "Jock Young",
@@ -6816,9 +6371,6 @@
         "Width": 100
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "山田祥寛"
-      ],
       "Publisher": "WINGSプロジェクト",
       "Codes": [
         {
@@ -6856,9 +6408,6 @@
         "Width": 113
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "ローレンス・レッシグ"
-      ],
       "Creators": [
         {
           "Name": "山形浩生",
@@ -6906,9 +6455,6 @@
         "Width": 113
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "ローレンス・レッシグ"
-      ],
       "Creators": [
         {
           "Name": "山形浩生",
@@ -6960,10 +6506,6 @@
         "Width": 112
       },
       "ProductType": "単行本",
-      "Authors": [
-        "ミケーレ・ボルドリン",
-        "デイヴィッド・Ｋ・レヴァイン"
-      ],
       "Creators": [
         {
           "Name": "山形浩生",
@@ -7015,14 +6557,6 @@
         "Width": 110
       },
       "ProductType": "単行本",
-      "Authors": [
-        "ローレンス レッシグ",
-        "椙山 敬士",
-        "上村 圭介",
-        "林 紘一郎",
-        "若槻 絵美",
-        "土屋 大洋"
-      ],
       "Creators": [
         {
           "Name": "クリエイティブコモンズジャパン",
@@ -7074,9 +6608,6 @@
         "Width": 111
       },
       "ProductType": "単行本",
-      "Authors": [
-        "山田 奨治"
-      ],
       "Publisher": "みすず書房",
       "Codes": [
         {
@@ -7118,9 +6649,6 @@
         "Width": 113
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "結城 浩"
-      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -7158,9 +6686,6 @@
         "Width": 111
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "結城 浩"
-      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -7198,7 +6723,6 @@
         "Width": 113
       },
       "ProductType": "単行本",
-      "Authors": null,
       "Creators": [
         {
           "Name": "下村 健次",
@@ -7270,9 +6794,6 @@
         "Width": 115
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "結城 浩"
-      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -7310,9 +6831,6 @@
         "Width": 111
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "結城 浩"
-      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -7350,9 +6868,6 @@
         "Width": 111
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "結城 浩"
-      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -7390,9 +6905,6 @@
         "Width": 112
       },
       "ProductType": "単行本",
-      "Authors": [
-        "G. ポリア"
-      ],
       "Creators": [
         {
           "Name": "G. Polya",
@@ -7444,9 +6956,6 @@
         "Width": 108
       },
       "ProductType": "単行本",
-      "Authors": [
-        "長沢 工"
-      ],
       "Publisher": "地人書館",
       "Codes": [
         {
@@ -7488,9 +6997,6 @@
         "Width": 112
       },
       "ProductType": "単行本",
-      "Authors": [
-        "小林 幹雄"
-      ],
       "Publisher": "共立出版",
       "Codes": [
         {
@@ -7532,9 +7038,6 @@
         "Width": 113
       },
       "ProductType": "単行本（ソフトカバー）",
-      "Authors": [
-        "渋川 よしき"
-      ],
       "Creators": [
         {
           "Name": "ごっちん",
@@ -7582,9 +7085,6 @@
         "Width": 125
       },
       "ProductType": "大型本",
-      "Authors": [
-        "Mat Ryer"
-      ],
       "Creators": [
         {
           "Name": "鵜飼 文敏",
@@ -7636,9 +7136,6 @@
         "Width": 109
       },
       "ProductType": "単行本",
-      "Authors": [
-        "フィン・ブラントン"
-      ],
       "Creators": [
         {
           "Name": "生貝直人",
@@ -7694,9 +7191,6 @@
         "Width": 110
       },
       "ProductType": "文庫",
-      "Authors": [
-        "ホルへ・ルイス・ボルヘス"
-      ],
       "Creators": [
         {
           "Name": "篠田 一士",
@@ -7744,9 +7238,6 @@
         "Width": 115
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "結城 浩"
-      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -7784,7 +7275,6 @@
         "Width": 120
       },
       "ProductType": "ムック",
-      "Authors": null,
       "Creators": [
         {
           "Name": "日経サイエンス編集部",
@@ -7832,7 +7322,6 @@
         "Width": 160
       },
       "ProductType": "CD",
-      "Authors": null,
       "Creators": [
         {
           "Name": "青島幸男",
@@ -7884,9 +7373,6 @@
         "Width": 110
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "劉 慈欣"
-      ],
       "Creators": [
         {
           "Name": "大森 望",
@@ -7935,15 +7421,18 @@
       "Type": "paapi",
       "ID": "B07TYKJQFK",
       "Title": "数学ガールの秘密ノート／ビットとバイナリー",
-      "URL": "https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E3%83%93%E3%83%83%E3%83%88%E3%81%A8%E3%83%90%E3%82%A4%E3%83%8A%E3%83%AA%E3%83%BC-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B07TYKJQFK?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B07TYKJQFK",
+      "URL": "https://www.amazon.co.jp/dp/B07TYKJQFK?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Q0Hyr8g3L._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41Q0Hyr8g3L._SL160_.jpg",
         "Height": 160,
         "Width": 111
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "結城 浩"
+      "Creators": [
+        {
+          "Name": "結城 浩",
+          "Role": "著"
+        }
       ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
@@ -7955,11 +7444,11 @@
       "PublicationDate": "2019-07-19",
       "LastRelease": "2019-07-20",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2019-08-13",
+    "Date": "2019-09-08",
     "Rating": 5,
     "Star": [
       true,
@@ -7968,7 +7457,7 @@
       true,
       true
     ],
-    "Description": "サブタイトルから期待はしてたけど，今回はリサちゃんが大盛りだ！ （《ちゃん》は不要）"
+    "Description": "面白かった！\n"
   },
   {
     "Book": {
@@ -7982,15 +7471,6 @@
         "Width": 113
       },
       "ProductType": "Kindle版",
-      "Authors": [
-        "松木 雅幸",
-        "mattn",
-        "藤原 俊一郎",
-        "中島 大一",
-        "上田 拓也",
-        "牧 大輔",
-        "鈴木 健太"
-      ],
       "Publisher": "技術評論社",
       "Codes": [
         {
@@ -8031,9 +7511,6 @@
         "URL": "https://text.baldanders.info/images/aozora/card56839.svg"
       },
       "ProductType": "青空文庫",
-      "Authors": [
-        "ラヴクラフト ハワード・フィリップス"
-      ],
       "Creators": [
         {
           "Name": "大久保 ゆう",
@@ -8074,9 +7551,6 @@
         "URL": "https://text.baldanders.info/images/aozora/card56642.svg"
       },
       "ProductType": "青空文庫",
-      "Authors": [
-        "谷崎 潤一郎"
-      ],
       "Codes": [
         {
           "Name": "図書カードNo.",
@@ -8113,9 +7587,6 @@
         "URL": "https://text.baldanders.info/images/aozora/card4307.svg"
       },
       "ProductType": "青空文庫",
-      "Authors": [
-        "白田 秀彰"
-      ],
       "Codes": [
         {
           "Name": "図書カードNo.",
@@ -8152,9 +7623,6 @@
         "Width": 110
       },
       "ProductType": "単行本",
-      "Authors": [
-        "大和 岩雄"
-      ],
       "Creators": [
         {
           "Name": "大和 岩雄",
@@ -8202,7 +7670,6 @@
         "Width": 160
       },
       "ProductType": "CD",
-      "Authors": null,
       "Creators": [
         {
           "Name": "Mia REGINA",
@@ -8258,11 +7725,6 @@
         "Width": 111
       },
       "ProductType": "単行本",
-      "Authors": [
-        "David Kusek",
-        "Gerd Leonhard",
-        "yomoyomo"
-      ],
       "Creators": [
         {
           "Name": "yomoyomo",
@@ -8313,9 +7775,6 @@
         "URL": "https://text.baldanders.info/images/aozora/card226.svg"
       },
       "ProductType": "青空文庫",
-      "Authors": [
-        "ドイル アーサー・コナン"
-      ],
       "Creators": [
         {
           "Name": "大久保 ゆう",
@@ -8358,9 +7817,6 @@
         "Width": 108
       },
       "ProductType": "単行本",
-      "Authors": [
-        "アーサー・コナン ドイル"
-      ],
       "Creators": [
         {
           "Name": "Arthur Conan Doyle",

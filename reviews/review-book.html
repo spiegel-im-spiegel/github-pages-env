@@ -3,8 +3,7 @@
   <dl class="fn">
     <dt>{{ if .Book.URL }}<a href="{{ .Book.URL }}">{{ end }}{{ .Book.Title }}{{ with .Book.SubTitle }} {{ . }}{{ end }}{{ with .Book.SeriesTitle }} ({{ . }}){{ end }}{{ if .Book.URL }}</a>{{ end }}</dt>{{ if .Book.OriginalTitle }}
     <dd>原題: {{ .Book.OriginalTitle }}</dd>{{ end }}{{ if .Book.FirstAppearance }}
-    <dd>（初出: {{ .Book.FirstAppearance }}）</dd>{{ end }}{{ if .Book.Authors }}
-    <dd>{{ range $i, $v := .Book.Authors }}{{ if ne $i 0 }}, {{ end }}{{ $v }}{{ end }}</dd>{{ end }}{{ if .Book.Creators }}
+    <dd>（初出: {{ .Book.FirstAppearance }}）</dd>{{ end }}{{ if .Book.Creators }}
     <dd>{{ range $i, $v := .Book.Creators }}{{ if ne $i 0 }}, {{ end }}{{ $v }}{{ end }}</dd>{{ end }}
     <dd>{{ .Book.Publisher }}{{ if not .Book.PublicationDate.IsZero }} {{ .Book.PublicationDate }}{{ end }}{{ if not .Book.LastRelease.IsZero }} (Release {{ .Book.LastRelease }}){{ end }}</dd>
     <dd>{{ .Book.ProductType }}{{ if .Book.PublicDomain }} (Public Domain){{ end }}</dd>{{ if .Book.Codes }}

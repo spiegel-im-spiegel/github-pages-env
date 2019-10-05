@@ -61,7 +61,7 @@ Flags:
       --debug                  for debug
   -h, --help                   help for books-data
   -i, --isbn string            ISBN code
-      --marketplace string     Config: PA-API Marketplace (default "webservices.amazon.co.jp")
+      --marketplace string     Config: PA-API Marketplace (default "www.amazon.co.jp")
   -l, --review-log string      Config: Review log file (JSON format)
       --secret-key string      Config: PA-API Secret Access Key
   -t, --template-file string   Template file for formatted output
@@ -74,19 +74,19 @@ Use "books-data [command] --help" for more information about a command.
 [books-data] のオプションの一部は設定ファイルであらかじめ指定しておくことができる。
 指定可能なオプションは以下の通り
 
-| オプション名    | 既定値                     | 内容                                        |
-| --------------- | -------------------------- | ------------------------------------------- |
-| `marketplace`   | `webservices.amazon.co.jp` | [PA-API] サーバ名                           |
-| `associate-tag` | なし                       | [PA-API] アソシエイト・タグ（アカウント名） |
-| `access-key`    | なし                       | [PA-API] アクセスキー                       |
-| `secret-key`    | なし                       | [PA-API] 秘密キー                           |
-| `review-log`    | なし                       | レビューデータ作成時の保存ログファイル名    |
+| オプション名    | 既定値             | 内容                                        |
+| --------------- | ------------------ | ------------------------------------------- |
+| `marketplace`   | `www.amazon.co.jp` | [PA-API] サーバ名                           |
+| `associate-tag` | なし               | [PA-API] アソシエイト・タグ（アカウント名） |
+| `access-key`    | なし               | [PA-API] アクセスキー                       |
+| `secret-key`    | なし               | [PA-API] 秘密キー                           |
+| `review-log`    | なし               | レビューデータ作成時の保存ログファイル名    |
 
 設定ファイルの書式は YAML 形式で以下のような感じに記述する。
 
 ```text
 $ cat ~/.config/books-data/config.yaml
-marketplace: webservices.amazon.co.jp
+marketplace: www.amazon.co.jp
 associate-tag: mytag-20
 access-key: AKIAIOSFODNN7EXAMPLE
 secret-key: 1234567890
@@ -129,7 +129,7 @@ Global Flags:
       --config string          Config file (default /home/username/.config/books-data/config.yaml)
       --debug                  for debug
   -i, --isbn string            ISBN code
-      --marketplace string     Config: PA-API Marketplace (default "webservices.amazon.co.jp")
+      --marketplace string     Config: PA-API Marketplace (default "www.amazon.co.jp")
   -l, --review-log string      Config: Review log file (JSON format)
       --secret-key string      Config: PA-API Secret Access Key
   -t, --template-file string   Template file for formatted output
@@ -139,21 +139,21 @@ Global Flags:
 
 ```text
 $ books-data search -a B07TYKJQFK
-{"Type":"paapi","ID":"B07TYKJQFK","Title":"数学ガールの秘密ノート／ビットとバイナリー","URL":"https://www.amazon.co.jp/exec/obidos/ASIN/B07TYKJQFK/baldandersinf-22/","Image":{"URL":"https://images-fe.ssl-images-amazon.com/images/I/41Q0Hyr8g3L._SL160_.jpg","Height":160,"Width":111},"ProductType":"Kindle版","Authors":["結城 浩"],"Publisher":"SBクリエイティブ","Codes":[{"Name":"ASIN","Value":"B07TYKJQFK"}],"PublicationDate":"2019-07-19","LastRelease":"2019-07-20","Service":{"Name":"PA-API","URL":"https://affiliate.amazon.co.jp/assoc_credentials/home"}}
+{"Type":"paapi","ID":"B07TYKJQFK","Title":"数学ガールの秘密ノート／ビットとバイナリー","URL":"https://www.amazon.co.jp/dp/B07TYKJQFK?tag=mytag-20\u0026linkCode=ogi\u0026th=1\u0026psc=1","Image":{"URL":"https://m.media-amazon.com/images/I/41Q0Hyr8g3L._SL160_.jpg","Height":160,"Width":111},"ProductType":"Kindle版","Creators":[{"Name":"結城 浩","Role":"著"}],"Publisher":"SBクリエイティブ","Codes":[{"Name":"ASIN","Value":"B07TYKJQFK"}],"PublicationDate":"2019-07-19","LastRelease":"2019-07-20","Service":{"Name":"PA-APIv5","URL":"https://affiliate.amazon.co.jp/assoc_credentials/home"}}
 ```
 
 実行結果は JSON 形式で出力される。
 
 他に指定可能な検索オプションは以下の通り。
 
-| オプション          | 内容                      |
-| ------------------- | ------------------------- |
-| `-a, --asin`        | Amazon ASIN コード        |
-| `-i, --isbn`        | ISBN 番号                 |
+| オプション          | 内容                     |
+| ------------------- | ------------------------ |
+| `-a, --asin`        | Amazon ASIN コード       |
+| `-i, --isbn`        | ISBN 番号                |
 | `-c, --aozora-card` | [青空文庫]図書カード No. |
 
 これらは同時に指定可能だが Amazon ASIN コード → ISBN 番号 → [青空文庫]図書カード No. の順で検索を行う。
-また検索キーとして ISBN コードを指定した場合は [openBD] → [PA-API] の順で検索する。
+検索キーとして ISBN コードを指定した場合は [openBD] による検索を行う。
 
 ### レビュー・データの作成
 
@@ -180,7 +180,7 @@ Global Flags:
       --config string          Config file (default /home/username/.config/books-data/config.yaml)
       --debug                  for debug
   -i, --isbn string            ISBN code
-      --marketplace string     Config: PA-API Marketplace (default "webservices.amazon.co.jp")
+      --marketplace string     Config: PA-API Marketplace (default "www.amazon.co.jp")
   -l, --review-log string      Config: Review log file (JSON format)
       --secret-key string      Config: PA-API Secret Access Key
   -t, --template-file string   Template file for formatted output
@@ -200,7 +200,7 @@ ASIN, ISBN または [青空文庫]図書カード No. で指定した書籍情�
 
 ```text
 $ books-data review -a B07TYKJQFK -r 5 --review-date 2019-09-08 "面白かった！"
-{"Book":{"Type":"paapi","ID":"B07TYKJQFK","Title":"数学ガールの秘密ノート／ビットとバイナリー","URL":"https://www.amazon.co.jp/exec/obidos/ASIN/B07TYKJQFK/baldandersinf-22/","Image":{"URL":"https://images-fe.ssl-images-amazon.com/images/I/41Q0Hyr8g3L._SL160_.jpg","Height":160,"Width":111},"ProductType":"Kindle版","Authors":["結城 浩"],"Publisher":"SBクリエイティブ","Codes":[{"Name":"ASIN","Value":"B07TYKJQFK"}],"PublicationDate":"2019-07-19","LastRelease":"2019-07-20","Service":{"Name":"PA-API","URL":"https://affiliate.amazon.co.jp/assoc_credentials/home"}},"Date":"2019-09-08","Rating":5,"Star":[true,true,true,true,true],"Description":"面白かった！"}
+{"Book":{"Type":"paapi","ID":"B07TYKJQFK","Title":"数学ガールの秘密ノート／ビットとバイナリー","URL":"https://www.amazon.co.jp/dp/B07TYKJQFK?tag=mytag-20\u0026linkCode=ogi\u0026th=1\u0026psc=1","Image":{"URL":"https://m.media-amazon.com/images/I/41Q0Hyr8g3L._SL160_.jpg","Height":160,"Width":111},"ProductType":"Kindle版","Creators":[{"Name":"結城 浩","Role":"著"}],"Publisher":"SBクリエイティブ","Codes":[{"Name":"ASIN","Value":"B07TYKJQFK"}],"PublicationDate":"2019-07-19","LastRelease":"2019-07-20","Service":{"Name":"PA-APIv5","URL":"https://affiliate.amazon.co.jp/assoc_credentials/home"}},"Date":"2019-09-08","Rating":5,"Star":[true,true,true,true,true],"Description":"面白かった！"}
 ```
 
 実行結果は JSON 形式で出力される。
@@ -208,7 +208,7 @@ $ books-data review -a B07TYKJQFK -r 5 --review-date 2019-09-08 "面白かった
 
 ```text
 $ echo "面白かった！" | books-data review -a B07TYKJQFK -r 5 --review-date 2019-09-08 --pipe
-{"Book":{"Type":"paapi","ID":"B07TYKJQFK","Title":"数学ガールの秘密ノート／ビットとバイナリー","URL":"https://www.amazon.co.jp/exec/obidos/ASIN/B07TYKJQFK/baldandersinf-22/","Image":{"URL":"https://images-fe.ssl-images-amazon.com/images/I/41Q0Hyr8g3L._SL160_.jpg","Height":160,"Width":111},"ProductType":"Kindle版","Authors":["結城 浩"],"Publisher":"SBクリエイティブ","Codes":[{"Name":"ASIN","Value":"B07TYKJQFK"}],"PublicationDate":"2019-07-19","LastRelease":"2019-07-20","Service":{"Name":"PA-API","URL":"https://affiliate.amazon.co.jp/assoc_credentials/home"}},"Date":"2019-09-08","Rating":5,"Star":[true,true,true,true,true],"Description":"面白かった！\n"}
+{"Book":{"Type":"paapi","ID":"B07TYKJQFK","Title":"数学ガールの秘密ノート／ビットとバイナリー","URL":"https://www.amazon.co.jp/dp/B07TYKJQFK?tag=mytag-20\u0026linkCode=ogi\u0026th=1\u0026psc=1","Image":{"URL":"https://m.media-amazon.com/images/I/41Q0Hyr8g3L._SL160_.jpg","Height":160,"Width":111},"ProductType":"Kindle版","Creators":[{"Name":"結城 浩","Role":"著"}],"Publisher":"SBクリエイティブ","Codes":[{"Name":"ASIN","Value":"B07TYKJQFK"}],"PublicationDate":"2019-07-19","LastRelease":"2019-07-20","Service":{"Name":"PA-APIv5","URL":"https://affiliate.amazon.co.jp/assoc_credentials/home"}},"Date":"2019-09-08","Rating":5,"Star":[true,true,true,true,true],"Description":"面白かった！\n"}
 ```
 
 ### レビュー履歴の参照
@@ -231,7 +231,7 @@ Global Flags:
       --config string          Config file (default /home/spiegel/.config/books-data/config.yaml)
       --debug                  for debug
   -i, --isbn string            ISBN code
-      --marketplace string     Config: PA-API Marketplace (default "webservices.amazon.co.jp")
+      --marketplace string     Config: PA-API Marketplace (default "www.amazon.co.jp")
   -l, --review-log string      Config: Review log file (JSON format)
       --secret-key string      Config: PA-API Secret Access Key
   -t, --template-file string   Template file for formatted output
@@ -241,7 +241,7 @@ Global Flags:
 
 ```text
 $ books-data history -a B07TYKJQFK
-{"Book":{"Type":"paapi","ID":"B07TYKJQFK","Title":"数学ガールの秘密ノート／ビットとバイナリー","URL":"https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E3%83%93%E3%83%83%E3%83%88%E3%81%A8%E3%83%90%E3%82%A4%E3%83%8A%E3%83%AA%E3%83%BC-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B07TYKJQFK?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B07TYKJQFK","Image":{"URL":"https://images-fe.ssl-images-amazon.com/images/I/41Q0Hyr8g3L._SL160_.jpg","Height":160,"Width":111},"ProductType":"Kindle版","Authors":["結城 浩"],"Publisher":"SBクリエイティブ","Codes":[{"Name":"ASIN","Value":"B07TYKJQFK"}],"PublicationDate":"2019-07-19","LastRelease":"2019-07-20","Service":{"Name":"PA-API","URL":"https://affiliate.amazon.co.jp/assoc_credentials/home"}},"Date":"2019-08-04","Rating":5,"Star":[true,true,true,true,true],"Description":"面白かった！\n"}
+{"Book":{"Type":"paapi","ID":"B07TYKJQFK","Title":"数学ガールの秘密ノート／ビットとバイナリー","URL":"https://www.amazon.co.jp/dp/B07TYKJQFK?tag=mytag-20\u0026linkCode=ogi\u0026th=1\u0026psc=1","Image":{"URL":"https://m.media-amazon.com/images/I/41Q0Hyr8g3L._SL160_.jpg","Height":160,"Width":111},"ProductType":"Kindle版","Creators":[{"Name":"結城 浩","Role":"著"}],"Publisher":"SBクリエイティブ","Codes":[{"Name":"ASIN","Value":"B07TYKJQFK"}],"PublicationDate":"2019-07-19","LastRelease":"2019-07-20","Service":{"Name":"PA-APIv5","URL":"https://affiliate.amazon.co.jp/assoc_credentials/home"}},"Date":"2019-09-08","Rating":5,"Star":[true,true,true,true,true],"Description":"面白かった！\n"}
 ```
 
 ### 出力の整形
@@ -253,8 +253,8 @@ $ books-data history -a B07TYKJQFK
 ```text
 $ cat reviews/template.bib.txt 
 @BOOK{Book:{{ .Book.ID }},
-    TITLE = "{{ .Book.Title }}"{{ if .Book.Authors }},
-    AUTHOR = "{{ range $i, $v := .Book.Authors }}{{ if ne $i 0 }} and {{ end }}{{ $v }}{{ end }}{{ if .Book.Creators }}{{ range .Book.Creators }} and {{ . }}{{ end }}{{ end }}"{{ end }}{{ if .Book.Publisher }},
+    TITLE = "{{ .Book.Title }}",
+    AUTHOR = "{{ with .Book.Creators }}{{ range $i, $v := . }}{{ if ne $i 0 }} and {{ end }}{{ . }}{{ end }}{{ end }}"{{ if .Book.Publisher }},
     PUBLISHER = {{ "{" }}{{ .Book.Publisher }}{{ "}" }}{{ end }}{{ if gt .Book.PublicationDate.Year 1 }},
     YEAR = {{ .Book.PublicationDate.Year }}{{ end }}
 }
@@ -266,7 +266,7 @@ $ cat reviews/template.bib.txt
 $ books-data history -a B07TYKJQFK -t reviews/template.bib.txt 
 @BOOK{Book:B07TYKJQFK,
     TITLE = "数学ガールの秘密ノート／ビットとバイナリー",
-    AUTHOR = "結城 浩",
+    AUTHOR = "結城 浩 (著)",
     PUBLISHER = {SBクリエイティブ},
     YEAR = 2019
 }
@@ -277,49 +277,48 @@ $ books-data history -a B07TYKJQFK -t reviews/template.bib.txt
 ```go
 //Book is entity class of information for book
 type Book struct {
-	Type            string
-	ID              string
-	Title           string
-	SubTitle        string `json:",omitempty"`
-	SeriesTitle     string `json:",omitempty"`
-	OriginalTitle   string `json:",omitempty"`
-	URL             string `json:",omitempty"`
-	Image           BookCover
-	ProductType     string `json:",omitempty"`
-	Authors         []string
-	Creators        []Creator `json:",omitempty"`
-	Publisher       string    `json:",omitempty"`
-	Codes           []Code
-	PublicationDate values.Date
-	LastRelease     values.Date
-	PublicDomain    bool   `json:",omitempty"`
-	FirstAppearance string `json:",omitempty"`
-	Service         Service
+    Type            string
+    ID              string
+    Title           string
+    SubTitle        string `json:",omitempty"`
+    SeriesTitle     string `json:",omitempty"`
+    OriginalTitle   string `json:",omitempty"`
+    URL             string `json:",omitempty"`
+    Image           BookCover
+    ProductType     string    `json:",omitempty"`
+    Creators        []Creator `json:",omitempty"`
+    Publisher       string    `json:",omitempty"`
+    Codes           []Code
+    PublicationDate values.Date
+    LastRelease     values.Date
+    PublicDomain    bool   `json:",omitempty"`
+    FirstAppearance string `json:",omitempty"`
+    Service         Service
 }
 
 //Code is entity class of book code
 type Code struct {
-	Name  string
-	Value string
+    Name  string
+    Value string
 }
 
 //Creator is entity class of creator info.
 type Creator struct {
-	Name string
-	Role string `json:",omitempty"`
+    Name string
+    Role string `json:",omitempty"`
 }
 
 //BookCover is entity class of book cover image info.
 type BookCover struct {
-	URL    string
-	Height uint16 `json:",omitempty"`
-	Width  uint16 `json:",omitempty"`
+    URL    string
+    Height uint16 `json:",omitempty"`
+    Width  uint16 `json:",omitempty"`
 }
 
 //Service is entity class of API service info.
 type Service struct {
-	Name string
-	URL  string
+    Name string
+    URL  string
 }
 ```
 
@@ -328,11 +327,11 @@ type Service struct {
 ```go
 //Review is entity class for review info.
 type Review struct {
-	Book        *entity.Book
-	Date        values.Date
-	Rating      int
-	Star        [MAX_STAR]bool
-	Description string `json:",omitempty"`
+    Book        *entity.Book
+    Date        values.Date
+    Rating      int
+    Star        [MAX_STAR]bool
+    Description string `json:",omitempty"`
 }
 ```
 
@@ -344,8 +343,7 @@ type Review struct {
   <dl class="fn">
     <dt>{{ if .Book.URL }}<a href="{{ .Book.URL }}">{{ end }}{{ .Book.Title }}{{ with .Book.SubTitle }} {{ . }}{{ end }}{{ with .Book.SeriesTitle }} ({{ . }}){{ end }}{{ if .Book.URL }}</a>{{ end }}</dt>{{ if .Book.OriginalTitle }}
     <dd>原題: {{ .Book.OriginalTitle }}</dd>{{ end }}{{ if .Book.FirstAppearance }}
-    <dd>（初出: {{ .Book.FirstAppearance }}）</dd>{{ end }}{{ if .Book.Authors }}
-    <dd>{{ range $i, $v := .Book.Authors }}{{ if ne $i 0 }}, {{ end }}{{ $v }}{{ end }}</dd>{{ end }}{{ if .Book.Creators }}
+    <dd>（初出: {{ .Book.FirstAppearance }}）</dd>{{ end }}{{ if .Book.Creators }}
     <dd>{{ range $i, $v := .Book.Creators }}{{ if ne $i 0 }}, {{ end }}{{ $v }}{{ end }}</dd>{{ end }}
     <dd>{{ .Book.Publisher }}{{ if not .Book.PublicationDate.IsZero }} {{ .Book.PublicationDate }}{{ end }}{{ if not .Book.LastRelease.IsZero }} (Release {{ .Book.LastRelease }}){{ end }}</dd>
     <dd>{{ .Book.ProductType }}{{ if .Book.PublicDomain }} (Public Domain){{ end }}</dd>{{ if .Book.Codes }}
@@ -365,8 +363,6 @@ type Review struct {
 - [Go 言語用エラーハンドリング・パッケージ]({{< ref "/release/errs-package-for-golang.md" >}})
 - [Go 言語用青空文庫 API クライアント・パッケージ]({{< ref "/release/aozora-api-package-for-golang.md" >}})
 - [Go 言語用 openBD クライアント・パッケージ]({{< ref "/release/openbd-api-package-for-golang.md" >}})
-
-
 
 [Go]: https://golang.org/ "The Go Programming Language"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
