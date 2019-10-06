@@ -363,6 +363,7 @@ type Review struct {
 - [Go 言語用エラーハンドリング・パッケージ]({{< ref "/release/errs-package-for-golang.md" >}})
 - [Go 言語用青空文庫 API クライアント・パッケージ]({{< ref "/release/aozora-api-package-for-golang.md" >}})
 - [Go 言語用 openBD クライアント・パッケージ]({{< ref "/release/openbd-api-package-for-golang.md" >}})
+- [Go 言語用 PA-API v5 クライアント・パッケージ]({{< ref "/release/pa-api-v5.md" >}})
 
 [Go]: https://golang.org/ "The Go Programming Language"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
@@ -370,4 +371,3 @@ type Review struct {
 [PA-API]: https://affiliate.amazon.co.jp/assoc_credentials/home "Product Advertising API"
 [openBD]: https://openbd.jp/ "openBD | 書誌情報・書影を自由に"
 [青空文庫]: https://www.aozora.gr.jp/ "青空文庫　Aozora Bunko"
-<!-- eof -->

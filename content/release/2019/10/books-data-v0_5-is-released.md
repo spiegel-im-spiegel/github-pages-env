@@ -11,9 +11,9 @@ pageType = "text"
   mermaidjs = false
 +++
 
-書籍データ取得ツール [books-data] v0.5.1 をリリースした。
+書籍データ取得ツール [books-data] v0.5.2 をリリースした。
 
-- [Release v0.5.1 · spiegel-im-spiegel/books-data · GitHub](https://github.com/spiegel-im-spiegel/books-data/releases/tag/v0.5.1)
+- [Release v0.5.2 · spiegel-im-spiegel/books-data · GitHub](https://github.com/spiegel-im-spiegel/books-data/releases/tag/v0.5.2)
 
 パッチバージョンが妙に進んでいるが気にしないように（笑）
 
