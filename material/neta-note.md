@@ -41,7 +41,7 @@
 - [GitHub Actions による GitHub Pages への自動デプロイ - Qiita](https://qiita.com/peaceiris/items/d401f2e5724fdcb0759d)
 
 
-- [PA-API v5移行のご案内](https://affiliate.amazon.co.jp/help/node/topic/GZBFW3F79Y7FADBL)
-
+- [「無料」で使えるお問い合わせフォームのPHPテンプレート7選！静的HTMLサイトの強い味方です | HPcode](https://haniwaman.com/mail-form/)
+    - [最強のPHPお問い合わせフォームテンプレート「Responsive Mailform」の使い方とカスタマイズ方法 | HPcode](https://haniwaman.com/responsive-mailform/)
 
 <!-- eof -->

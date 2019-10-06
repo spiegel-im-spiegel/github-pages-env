@@ -124,3 +124,4 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [Go 1.12でgopdf使ってテンプレートのPDFに色々埋め込み - Qiita](https://qiita.com/tao_s/items/be145dc85169689a2a4f)
 - [Big Sky :: 如何にしてけしからん画像を超高速でダウンロードするか](https://mattn.kaoriya.net/software/lang/go/20120322190727.htm)
 - [goceleryを使ってみた - Qiita](https://qiita.com/es-h-sugihara/items/a376380dd2ef9b353d99)
+- [golangにおけるJSONPの解析 - Qiita](https://qiita.com/shohei-ojs/items/dcc24bf1928fff575838)
