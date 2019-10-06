@@ -20,12 +20,12 @@ pageType = "text"
 今回のメインは [PA-API] v5 に対応したことだろう。
 ざっと見回したが  [PA-API] v5 に対応した [Go 言語]パッケージが見当たらなかったので自作した。
 
-- [spiegel-im-spiegel/pa-api: APIs for Amazon Product Advertising API v5 by Golang](https://github.com/spiegel-im-spiegel/pa-api)
+- [Go 言語用 PA-API v5 クライアント・パッケージ]({{< ref "/release/pa-api-v5.md" >}})
 
 なんか2019年11月末までに v5 に切り替えないといけないらしい。
 Java と PHP は SDK が用意されているが，他の言語は見当たらなかったので必要なら自作するしかないだろう。
 
-[spiegel-im-spiegel/pa-api] については後でリリース記事を書く。
+- [PA-API V5 への移行]({{< ref "/remark/2019/10/pa-api-v5.md" >}})
 
 他にはまた少しデータ構成を変えた。
 後方互換性が崩れるが，私以外に使っている人はおるまぁ（笑）
