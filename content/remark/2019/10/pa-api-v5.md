@@ -1,5 +1,5 @@
 +++
-title = "PA-API V5 への移行"
+title = "PA-API v5 への移行"
 date =  "2019-10-06T15:46:03+09:00"
 description = "これによると 2019-11-30 までに v5 に移行する必要があるらしい。"
 image = "/images/attention/kitten.jpg"
