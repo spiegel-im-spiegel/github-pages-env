@@ -33,7 +33,7 @@ import "github.com/spiegel-im-spiegel/pa-api"
 
 ### [PA-API] アクセス用のパラメータ
 
-使い方の前に，この記事で使用する [PA-API] アクセス用のパラメータをいかに例示しておく。
+使い方の前に，この記事で使用する [PA-API] アクセス用のパラメータを以下に例示しておく。
 
 | パラメータ名       | 値                     |
 | ------------------ | ---------------------- |
@@ -44,7 +44,7 @@ import "github.com/spiegel-im-spiegel/pa-api"
 
 もちろん実際には使えないのでご安心を（笑）
 
-### クエリの生成とリクエストの発行
+### サンプル・コード
 
 以下に簡単なコード例を示す。
 
@@ -79,7 +79,7 @@ func main() {
 }
 ```
 
-実行結果はこんな感じ。
+このコードの実行結果はこんな感じ。
 
 ```json
 $ go run sample.go | jq .
@@ -190,21 +190,49 @@ $ go run sample.go | jq .
 }
 ```
 
-リクエストを発行する [`paapi5`]`.Client.Request(`[`paapi5`]`.Query) ([]byte, error)` 関数の引数は interface 型で以下のように定義している。
+### リクエスト実行インスタンスの生成
+
+上のコード例の
+
+```go
+client := paapi5.DefaultClient("mytag-20", "AKIAIOSFODNN7EXAMPLE", "1234567890")
+```
+
+がリクエストを実行する [`paapi5`]`.Client` 型のインスタンスを生成している部分である。
+このコードは
+
+```go
+client := paapi5.New(
+    paapi5.WithMarketplace("www.amazon.co.jp"),
+).CreateClient(
+    "mytag-20",
+    "AKIAIOSFODNN7EXAMPLE",
+    "1234567890",
+    paapi5.WithContext(context.Background()),
+    paapi5.WithHttpCilent(http.DefaultClient),
+)
+```
+
+と等価である。
+マーケットプレイスを指定したり [`context`]`.Context` インスタンスや [`http`]`.Client` インスタンスを指定する際にはこれを活用するとよい。
+
+### クエリの生成とリクエストの実行
+
+リクエストを実行する関数
+
+```go
+func (c *Client) Request(q Query) ([]byte, error) {
+    ...
+}
+```
+
+の引数 [`paapi5`]`.Query` は interface 型で以下のように定義している。
 
 ```go
 type Query interface {
     Operation() Operation
     Payload() ([]byte, error)
 }
-```
-
-つまり [`paapi5`]`.Query` 型に適合する型であれば利用者側でクエリを自由に設計できる。
-
-余談だが，ある型が特定の interface 型に適合するかコンパイル時点でチェックするには以下の記述を加えるとよい。
-
-```go
-var _ paapi5.Query = (*CustomQuery)(nil)
 ```
 
 [`paapi5`]`.Query.Operation()` 関数の返り値の [`paapi5`]`.Operation` 型は以下のように定義している。
@@ -220,8 +248,8 @@ const (
 )
 ```
 
-[`paapi5`]`.Query.Payload()` 関数はリクエストのペイロードにセットする JSON データを出力する。
-たとえばこんな感じ。
+[`paapi5`]`.Query.Payload()` 関数はリクエストのペイロードにセットする JSON データを返す。
+JSON データの内容は，例えばこんな感じ。
 
 ```go
 {
@@ -246,6 +274,18 @@ const (
 }
 ```
 
+適切な [`paapi5`]`.Operation` 値と JSON データを出力できるのであれば，利用者側でクエリ・オブジェクトを自由に設計できる。
+
+{{< div-box type="md" >}}
+#### 余談だが...
+
+ある型が特定の interface 型に適合するかコンパイル時点でチェックするには以下の記述を加えるとよい。
+
+```go
+var _ paapi5.Query = (*CustomQuery)(nil)
+```
+{{< /div-box >}}
+
 ### クエリの実例とレスポンスの取り込み例
 
 [spiegel-im-spiegel/pa-api] パッケージではクエリ用のサンプルとして [`paapi5`]`.query` サブパッケージを用意している。
@@ -258,7 +298,7 @@ q.ASINs([]string{"B07YCM5K55"}).EnableImages(true).EnableParentASIN(true)
 
 の部分がそれである。
 また [`paapi5`]`.Client.Request()` 関数の出力結果を構造体に落とし込むための [`paapi5`]`.entity` サブパッケージも用意した。
-いずれもそのままではあまり使い勝手がいいとは言えないが，コード例として自由に使っていただいて構わない。
+どちらもそのままではあまり使い勝手がいいとは言えないが，コード例として自由に利用していただいて構わない。
 
 なお [spiegel-im-spiegel/pa-api] パッケージは [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) でライセンスしている。
 
@@ -273,3 +313,5 @@ q.ASINs([]string{"B07YCM5K55"}).EnableImages(true).EnableParentASIN(true)
 [PA-API]: https://affiliate.amazon.co.jp/assoc_credentials/home "Product Advertising API"
 [Go]: https://golang.org/ "The Go Programming Language"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
+[`context`]: https://golang.org/pkg/context/ "context - The Go Programming Language"
+[`http`]: https://golang.org/pkg/net/http/ "http - The Go Programming Language"
