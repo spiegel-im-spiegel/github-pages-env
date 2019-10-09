@@ -7,6 +7,7 @@
 
 ## バベルのインターネット
 
+- [アドビ、ベネズエラの全アカウントを無効にすると発表。米政府による対ベネズエラ制裁に従い － Publickey](https://www.publickey1.jp/blog/19/post_274.html)
 
 ## セキュリティ＆プライバシー関連
 
@@ -15,6 +16,8 @@
 - [Developer of Checkm8 explains why iDevice jailbreak exploit is a game changer | Ars Technica](https://arstechnica.com/information-technology/2019/09/developer-of-checkm8-explains-why-idevice-jailbreak-exploit-is-a-game-changer/)
     - [‘Unpatchable’ iOS exploit may bring permanent iPhone jailbreak - 9to5Mac](https://9to5mac.com/2019/09/27/ios-unpatchable-ios-exploit-jailbreak-iphone-x/)
     - [New Unpatchable iPhone Exploit Allows Jailbreaking - Schneier on Security](https://www.schneier.com/blog/archives/2019/10/new_unpatchable.html)
+- [Microsoft 製品の脆弱性対策について(2019年10月) ：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20191009-ms.html)
+    - [2019年10月マイクロソフトセキュリティ更新プログラムに関する注意喚起](https://www.jpcert.or.jp/at/2019/at190038.html)
 
 ## 天文関連
 
