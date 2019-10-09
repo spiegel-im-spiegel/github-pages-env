@@ -62,7 +62,7 @@ tags = [ "math", "tex", "mathjax", "javascript", "blog", "site" ]
 
 なお 2019-09-28 時点の最新バージョンは 3.0.0 である。
 
-<!--
+<!-- MathJax v3 ではメニューの多言語化はサポートしていないっぽい？
 さらにパラメータ部に `locale=ja` を追加すると，数式部分で表示されるコンテキスト・メニューが日本語になる。
 
 {{< fig-img src="https://photo.baldanders.info/flickr/image/37316621442_m.png" title="MathJax: context menu" link="https://photo.baldanders.info/flickr/37316621442/" >}}
@@ -223,7 +223,7 @@ MathJax = {
 `matchFontHeight` が `true` であれば本文の文字の大きさにマッチするよう数式の文字の高さを調節してくれるが，本文が日本語だと却ってバランスが悪いようだ。
 したがって `false` にしておくのがお薦めである。
 
-<!--
+<!-- MathJax v3 で mtextFontInherit の挙動が変わった？ よーわからんので，とりあえずコメントアウトしておく
 `mtextFontInherit` は `\text` コマンドで囲まれた文字列の組版規則と書体を指定する。
 false なら数式の規則のままだが true であれば数式の周囲の地文（大抵は本文）の組版規則[^rl1]と書体が継承される。
 既定値は false。
