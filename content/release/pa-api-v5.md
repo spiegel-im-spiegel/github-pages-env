@@ -14,7 +14,7 @@ pageType = "text"
 - [spiegel-im-spiegel/pa-api: APIs for Amazon Product Advertising API v5 by Golang](https://github.com/spiegel-im-spiegel/pa-api)
 
 本パッケージは Amazon [Product Advertising API] v5 へアクセスできる [Go 言語]用クライアント・パッケージだ。
-API を通じて Ammazon で取り扱っている商品の情報を取得できる。
+API を通じて Amazon で取り扱っている商品の情報を取得できる。
 
 なお [spiegel-im-spiegel/pa-api] パッケージは [Go] 1.13 以上を要求する。
 ご注意を。
