@@ -16,13 +16,6 @@ tags = [ "math", "tex", "mathjax", "javascript" ]
 3. [ちょこっと MathJax： インライン数式と別行立て数式]({{< ref "/remark/2017/10/getting-started-mathjax-3.md" >}})
 4. [ちょこっと MathJax 番外編： mathcomp パッケージの代替え]({{< ref "/remark/2017/12/mathcomp-in-mathjax.md" >}})
 
-{{< div-box type="md" >}}
-## 2019-09-28 追記
-
-[MathJax v3 がリリース]({{< ref "/release/2019/09/mathjax-v3-is-released.md" >}} "MathJax v3 がリリースされていた")された。
-v2.7.x までとは大きく変わったためこの記事も改訂する予定である。
-{{< /div-box >}}
-
 ## 数式表現の「お約束」 {#rule}
 
 初っ端からナニだが，数式を書く際には昔からある「お約束」が存在する。
@@ -32,7 +25,9 @@ v2.7.x までとは大きく変わったためこの記事も改訂する予定�
 
 [^it1]: $\\mathrm{\TeX}$ ではイタリック体（italics）と斜体（slanted）は異なる字体である。また斜体はしばしばローマン体（Roman）から合成される場合がある。
 
-> エネルギーと質量には $$E=mc^2$$ の関係がある。
+{{< div-box >}}
+エネルギーと質量には $$E=mc^2$$ の関係がある。
+{{< /div-box >}}
 
 $E$ や $m$ や $c$ の文字がイタリック体になっているのが分かるだろうか。
 この大原則をベースに以下の3つの例外が存在する（『[LaTeX2ε美文書作成入門]』より引用）。
@@ -57,13 +52,13 @@ $\sin$ 関数のように有名な名前については `\sin` のようにあ�
 
 実は ISO や JIS で決められている数式の組版規則はもう少し複雑である。
 
-たとえば円周率 $\pi$ は1文字だけど定数の名前なので
+たとえば円周率 $\mathit{\pi}$ は1文字だけど定数の名前なので
 
 $$
     \mathrm{\pi}=3.1415\dots
 $$
 
-とローマン体にする。
+とローマン体にする（TeX フォントだと違いが分からないが）。
 また以下の式について
 
 $$
@@ -93,8 +88,8 @@ $\mathrm{d}x$ の d はイタリック体 $d$ ではなくローマン体 $\math
 ## [MathJax] の制限事項 {#limit}
 
 残念ながら [MathJax] には $\\mathrm{\TeX}$ にない制限が存在する。
-ここに2つほど紹介しよう。
 
+<!--
 ### Neo-Euler には斜体がない
 
 数式好きの方に人気がある（らしい） Euler 書体は [MathJax] では Web フォント `Neo-Euler` として提供されている。
@@ -171,6 +166,7 @@ MathJax.Hub.Config({
 まぁ，これで見た目はそれっぽくなったが，やはり無理矢理な感じが強いので， [MathJax] で `Neo-Euler` を使うのは（今のところ）お薦めできない[^euler2]。 
 
 [^euler2]: $\mathrm{\LaTeX}$ でも Euler を Concrete と組み合わせるのが普通みたいなので， [MathJax] でも Web フォントを複数指定できるようにするか Concrete ＋ Euler の組み合わせをひとつのフォントセットとして定義しないとダメだと思う。
+-->
 
 ### 不等号に注意
 
@@ -194,38 +190,45 @@ $\mathrm{\TeX}$ 記法では不等号記号はそのまま `<` や `>` 文字を
 
 こうした細かい面倒がありつつも $\mathrm{\TeX}$ 記法を使う理由は，記述の可搬性にある。
 数式を $\mathrm{\TeX}$ 記法で書けば，それはそのまま他のブログや論文に流用できるし，式の構成をちょこちょこっと変えて「翻案」するのも簡単である。
+これは MathML のような見た目だけを制御する記述形式にはない利点と言える。
+
+<!--
 これは MathML のような見た目だけを制御する記述形式にはない利点と言える[^acm]。
 
 [^acm]: [本ブログ]では触れないが， [MathJax] は [AsciiMath] にも対応している。 [AsciiMath] にも $\mathrm{\TeX}$ 記法と同様のメリットがある。 [AsciiMath] と $\mathrm{\TeX}$ 記法の比較記事は時々目にするが，個人的には使いやすい方を使えばいいと思う。私が $\mathrm{\TeX}$， というか $\mathrm{\LaTeX}$ を気に入っているのは，見た目の美麗さだけを追求する（出来の悪いペイント・ツールのごとき）ことではなく，かといって届かない理想ばかりを追いかける潔癖症なシステムでもなく，賢さと泥臭さを上手く融合させている点にある。そうでなければ，ひとつのシステムが（中身が変貌しつつも）40年近くも継続して使われ続ける筈がない。
+-->
 
 というわけで， [MathJax] で積極的に数式を書いて読んで流用していくのがいいと思う。
 
 ## ブックマーク {#bookmark}
 
 - [斜体とイタリック体 – Pineapple Blog](https://pineapple.blog/%E6%96%9C%E4%BD%93%E3%81%A8%E3%82%A4%E3%82%BF%E3%83%AA%E3%83%83%E3%82%AF%E4%BD%93-68dda513eca2)
-- [MathJaxでEuler(オイラー)フォントを使ったときの不具合](http://www.math.sci.hokudai.ac.jp/~yano/memo/mathjax_euler.html) ： `mtextFontInherit` には true または false が入るので，文字列 `"false"` をセットするのは間違い。おそらく文字列を内部で無理やり true に評価してるんだと思う。この辺は流石 JavaScript というところか（笑）
 - [MathJaxによる数式表示](https://oku.edu.mie-u.ac.jp/~okumura/javascript/mathjax.html)
 
-- [数式用フォントで遊ぶ]({{< ref "/remark/2017/10/math-fonts.md" >}}) : $\mathrm{TeX}$ における数式表現についてフォントを中心に書いてみた
+<!--
+- [MathJaxでEuler(オイラー)フォントを使ったときの不具合](http://www.math.sci.hokudai.ac.jp/~yano/memo/mathjax_euler.html) ： `mtextFontInherit` には true または false が入るので，文字列 `"false"` をセットするのは間違い。おそらく文字列を内部で無理やり true に評価してるんだと思う。この辺は流石 JavaScript というところか（笑）
 
-[本ブログ]: / "text.Baldanders.info"
-[MathJax]: https://www.mathjax.org/
+- [数式用フォントで遊ぶ]({{< ref "/remark/2017/10/math-fonts.md" >}}) : $\mathrm{TeX}$ における数式表現についてフォントを中心に書いてみた
+-->
+
+[本ブログ]: {{< rlnk "/" >}} "text.Baldanders.info"
+[MathJax]: https://www.mathjax.org/ "MathJax | Beautiful math in all browsers."
 [AsciiMath]: http://asciimath.org/
 [前回]: {{< ref "/remark/2017/09/getting-started-mathjax-1.md" >}} "ちょこっと MathJax： 初期設定"
-[LaTeX2ε美文書作成入門]: https://www.amazon.co.jp/exec/obidos/ASIN/4774187054/baldandersinf-22/ "Amazon | [改訂第7版]LaTeX2ε美文書作成入門 | 奥村 晴彦, 黒木 裕介 通販"
+[LaTeX2ε美文書作成入門]: https://www.amazon.co.jp/dp/4774187054?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon | [改訂第7版]LaTeX2ε美文書作成入門 | 奥村 晴彦, 黒木 裕介 通販"
 
 ## 参考図書 {#books}
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%94%B9%E8%A8%82%E7%AC%AC7%E7%89%88-LaTeX2%CE%B5%E7%BE%8E%E6%96%87%E6%9B%B8%E4%BD%9C%E6%88%90%E5%85%A5%E9%96%80-%E5%A5%A5%E6%9D%91-%E6%99%B4%E5%BD%A6/dp/4774187054?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4774187054"><img src="https://images-fe.ssl-images-amazon.com/images/I/51E5K7B53aL._SL160_.jpg" width="127" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4774187054?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51E5K7B53aL._SL160_.jpg" width="127" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E6%94%B9%E8%A8%82%E7%AC%AC7%E7%89%88-LaTeX2%CE%B5%E7%BE%8E%E6%96%87%E6%9B%B8%E4%BD%9C%E6%88%90%E5%85%A5%E9%96%80-%E5%A5%A5%E6%9D%91-%E6%99%B4%E5%BD%A6/dp/4774187054?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4774187054">[改訂第7版]LaTeX2ε美文書作成入門</a></dt>
-    <dd>奥村 晴彦, 黒木 裕介</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4774187054?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">[改訂第7版]LaTeX2ε美文書作成入門</a></dt>
+    <dd>奥村 晴彦 (著), 黒木 裕介 (著)</dd>
     <dd>技術評論社 2017-01-24</dd>
     <dd>大型本</dd>
-    <dd>4774187054 (ASIN), 9784774187051 (EAN)</dd>
+    <dd>4774187054 (ASIN), 9784774187051 (EAN), 4774187054 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">ついに第7版が登場。紙の本で買って常に側に置いておくのが吉。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-09-27">2017-09-27</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-API</a>)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-09-27">2017-09-27</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>

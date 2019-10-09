@@ -25,196 +25,205 @@ tags = [ "math", "tex", "mathjax", "javascript", "blog", "site" ]
 [^mj0]: 厳密には $\mathrm{\TeX}$ 記法ではなく $\mathrm{\LaTeX}$ 記法である。が，ここでは両者を区別することにあまり意味が無いので「$\mathrm{\TeX}$ 記法」で通すことにする。
 
 ```html
-エネルギーと質量には $E=mc^2$ の関係がある。
+エネルギーと質量には \( E=mc^2 \) の関係がある。
 ```
 
 と書くとブラウザ側では
 
-> エネルギーと質量には $E=mc^2$ の関係がある。
+{{< div-box >}}
+エネルギーと質量には \( E=mc^2 \) の関係がある。
+{{< /div-box >}}
 
 と適切に表示してくれる[^mj1]。
+
+[^mj1]: `$E=mc^2$` という入力に対して $E=mc^2$ と，各文字間を適切に空けたり詰めたりしてくれるのがお分かりだろうか。このように $\mathrm{\TeX}$ では数式を半自動的かつ適切に「組版」してくれるのが特徴である。ただし万能ではない。
 
 この記事ではまず Web ページ上で [MathJax] が動くところまでを説明していこう。
 数式の書き方については[次回]以降に解説していく予定である。
 
-[^mj1]: `$E=mc^2$` という入力に対して $E=mc^2$ と，各文字間を適切に空けたり詰めたりしてくれるのがお分かりだろうか。このように $\mathrm{\TeX}$ では数式を半自動的かつ適切に「組版」してくれるのが特徴である。ただし万能ではない。
+## [MathJax] の組み込み {#install}
 
-{{< div-box type="md" >}}
-## 2019-09-28 追記
+[MathJax] は v3 より完全に node.js ベースでの開発になった。
+したがってサーバ側に組み込むこともできる。
+今回は Web ページごとにクライアント側の JavaScript として組み込む方法を紹介する。
 
-[MathJax v3 がリリース]({{< ref "/release/2019/09/mathjax-v3-is-released.md" >}} "MathJax v3 がリリースされていた")された。
-v2.7.x までとは大きく変わったためこの記事も改訂する予定である。
-{{< /div-box >}}
-
-## [MathJax] のインストール {#install}
-
-[MathJax] は JavaScript パッケージなので `<script>` 要素で指定する。
-CDN (Content Delivery Network) で配布されているので HTML の `<head>` 要素内に
+といっても組み込み自体は簡単で [MathJax] は CDN (Content Delivery Network) で配布されているので HTML の `<head>` 要素内に以下の2行を追加するだけである。
 
 ```html
-<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/latest.js?config=TeX-AMS_HTML&amp;locale=ja"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 ```
 
-と記述すればよい（`async` を忘れずに）。
-なお URL の “`2.7.6`” 部分はバージョン番号で，2019年8月21日時点の最新バージョンは 2.7.6 である[^cdn1]。
+[MathJax] v3 の特定バージョンを指定するには2行目を以下のように記述する。
 
-[^cdn1]: ちなみに2017年5月から CDN の[配布 URL が変わった](https://www.mathjax.org/cdn-shutting-down/ "MathJax CDN shutting down on April 30, 2017.  Alternatives available.")ので，設定が古いままの方は注意が必要である。
+```html
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/tex-mml-chtml.js"></script>
+```
 
-- [MathJax v2.7.6 now available | MathJax](https://www.mathjax.org/mathjax-v2-7-6-now-available/)
+なお 2019-09-28 時点の最新バージョンは 3.0.0 である。
 
-URL パラメータ部の `config=TeX-AMS_HTML` については[指定可能なコンフィギュレーション](http://docs.mathjax.org/en/latest/config-files.html "Combined Configurations — MathJax 2.7 documentation")がいくつかあるが，  $\mathrm{\TeX}$ 記法を使うのであれば `TeX-AMS_CHTML` または `TeX-AMS_HTML` を指定するのがいいだろう[^html1]。
+<!--
 さらにパラメータ部に `locale=ja` を追加すると，数式部分で表示されるコンテキスト・メニューが日本語になる。
-
-[^html1]: `TeX-AMS_CHTML` を指定すると `HTML-CSS` オプションをまるっと無視してしまい Web フォントの指定ができない。逆に `TeX-AMS_HTML` では `CommonHTML` オプションを無視してしまうようだ。 [MathJax] 側は `TeX-AMS_HTML` を古いブラウザ向けのレガシーなコンフィギュレーションと位置付けているようだが，やはり `TeX-AMS_CHTML` では Web フォントのカスタマイズができない（現在は `"TeX"` のみサポート）のが致命的だろう。この辺は今後のバージョンアップに期待したいところ。
 
 {{< fig-img src="https://photo.baldanders.info/flickr/image/37316621442_m.png" title="MathJax: context menu" link="https://photo.baldanders.info/flickr/37316621442/" >}}
 
 ブラボー！
+-->
+
+プロトコルは HTTPS のみで HTTP を明示的に指定しても HTTPS にリダイレクトされるようだ。
+最近のブラウザは HTTP と HTTPS が混在するページでは（セキュリティの関係で）上手く表示できない場合があるので注意が必要である。
+
+組み込む JavaScript は `tex-mml-chtml.js` 以外に以下のものがある。
+
+| JavaScript ファイル | 内容                                                  |
+| ------------------- | ----------------------------------------------------- |
+| `tex-chtml.js`      | 入力：$\mathrm{\TeX}$ 記法 , 出力： HTML              |
+| `tex-chtml-full.js` | 入力：$\mathrm{\TeX}$ 記法（フル機能）, 出力： HTML  |
+| `tex-svg.js`        | 入力：$\mathrm{\TeX}$ 記法 , 出力： SVG               |
+| `tex-svg-full.js`   | 入力：$\mathrm{\TeX}$ 記法（フル機能）, 出力： SVG   |
+| `tex-mml-chtml.js`  | 入力：$\mathrm{\TeX}$ 記法または MathML , 出力： HTML |
+| `tex-mml-svg.js`    | 入力：$\mathrm{\TeX}$ 記法または MathML , 出力： SVG  |
+| `mml-chtml.js`      | 入力：MathML 記法 , 出力： HTML                       |
+| `mml-svg.js`        | 入力：MathML , 出力： SVG                             |
+
+MathML による入力は本記事では割愛する。
 
 ## [MathJax] のオプション {#options}
 
 [MathJax] にはいくつかのオプションを設定できる。
-オプションの設定には JavaScript で `MathJax.Hub.Config()` 関数を使う。
-先程の `<script>` 指定と併せて `<head>` 要素内に以下のように記述する。
+オプションの設定には  `<head>` 要素内に以下のように `MathJax` インスタンスを作成する（スクリプトの順番に注意）。
 
 ```html
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({ ... });
+<script>
+MathJax = {
+  ...
+};
 </script>
-<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML&locale=ja"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 ```
 
-オプション指定部のメディア・タイプに `text/x-mathjax-config` を指定すること（`<script>` の順番にも注意）。
-
-`{ ... }` のオブジェクトに具体的なオプションを記述していく。
+`{ ... }` の部分に具体的なオプションを記述していく。
 全部を説明するのは大変なので，よく使いそうなものを幾つか紹介しよう。
 なお，[最後の節]({{< relref "#mysetting" >}})に[本ブログ]におけるオプションの設定例を挙げているので，以降の解説がウザい方は丸写しでも OK です（笑）
 
 （次節以降に出てくる「インライン数式」および「別行立て数式」については[第3回]で説明する）
 
-### [Core Configuration Options](http://docs.mathjax.org/en/latest/options/hub.html "The Core Configuration Options — MathJax 2.7 documentation") {#core}
+### [TeX Input Processor Options](https://docs.mathjax.org/en/latest/options/input/tex.html "TeX Input Processor Options — MathJax 3.0 documentation")
 
-```html
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  displayAlign: "left",
-  displayIndent: "2em"
-});
-</script>
-```
+設定項目と既定値は以下の通り。
 
-`displayAlign` は別行立て数式の位置を何処に寄せるか指定する。
-左寄せ（`"left"`），右寄せ（`"right"`），中央寄せ（`"center"`）を指定できる。
-既定値は `"center"`。
-また中央寄せ以外のときは `displayIndent` でインデント幅を指定できる。
-
-左寄せで2文字分インデントさせた場合は以下のように表示される。
-
-> エネルギーと質量には $$E=mc^2$$ の関係がある。
-
-### [“tex2jax” Preprocessor Options](http://docs.mathjax.org/en/latest/options/preprocessors/tex2jax.html "The tex2jax Preprocessor — MathJax 2.7 documentation") {#tex2jax}
-
-```html
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {
-    inlineMath: [['$','$'], ['\\(','\\)']],
-    // displayMath: [['$$','$$'], ['\[','\]']], // default
-    processEscapes: true
+```js
+MathJax = {
+  tex: {
+    inlineMath: [              // start/end delimiter pairs for in-line math
+      ['\\(', '\\)']
+    ],
+    displayMath: [             // start/end delimiter pairs for display math
+      ['$$', '$$'],
+      ['\\[', '\\]']
+    ],
+    processEscapes: true,      // use \$ to produce a literal dollar sign
+    processEnvironments: true, // process \begin{xxx}...\end{xxx} outside math mode
+    processRefs: true,         // process \ref{...} outside of math mode
+    digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,
+                               // pattern for recognizing numbers
+    tags: 'none',              // or 'ams' or 'all'
+    tagSide: 'right',          // side for \tag macros
+    tagIndent: '0.8em',        // amount to indent tags
+    useLabelIds: true,         // use label name rather than tag for ids
+    multlineWidth: '85%',      // width of multline environment
+    maxMacros: 1000,           // maximum number of macro substitutions per expression
+    maxBuffer: 5 * 1024,       // maximum size for the internal TeX string (5K)
+    baseURL:                   // URL for use with links to tags (when there is a <base> tag in effect)
+       (document.getElementsByTagName('base').length === 0) ?
+        '' : String(document.location).replace(/#.*$/, ''))
   }
-});
-</script>
+};
 ```
 
 `inlineMath` はインライン数式の開始・終了デリミタを指定する。
 複数列挙できる。
-上記の設定であれば `$...$` または `\(...\)` で囲まれた部分が [MathJax] の処理対象となる。
-`inlineMath` の既定値は `[['\(','\)']]` のみである。
+
+$\mathrm{\LaTeX}$ と同じく `$...$` 記述を有効にしたいのであれば
+
+```js
+inlineMath: [
+  ['$', '$'],
+  ['\\(', '\\)']
+],
+```
+
+などとする。
+これで
 
 ```html
 エネルギーと質量には $E=mc^2$ の関係がある。
 ```
+{{< div-box >}}
+エネルギーと質量には $E=mc^2$ の関係がある。
+{{< /div-box >}}
 
-> エネルギーと質量には $E=mc^2$ の関係がある。
+と記述できる。
 
-`displayMath` は別行立て数式の開始・終了デリミタを指定する。
-こちらも複数列挙できる。
-インライン数式と同じように `$$...$$` または `\[...\]` で囲まれた部分が [MathJax] の処理対象となる。
-`displayMath` の既定値は `[['$$','$$'], ['\[','\]']]` である。
-
-```html
-エネルギーと質量には $$E=mc^2$$ の関係がある。
-```
-
-> エネルギーと質量には $$E=mc^2$$ の関係がある。
-
-`processEscapes` を true にすると，上述の数式開始・終了デリミタを `\` 記号でエスケープする[^esc1]。
+`processEscapes` を `true` にすると（既定値），上述の数式開始・終了デリミタを `\` 記号でエスケープする[^esc1]。
+たとえば `$` 文字を表示する場合には `\$` と記述すればよい。
 
 [^esc1]: `processEscapes` オプションを有効にすると `\(...\)` までエスケープされてただの `(...)` になってしまうので注意すること。というか `processEscapes` オプションを有効にするなら `\(...\)` は使わないほうがいいかも。また `processEscapes` オプションはパラグラフ `<p>...</p>` の中でのみ効いているようだ。
 
-```html
-エネルギーと質量には \$E=mc^2\$ の関係がある。
-```
-
-> エネルギーと質量には \$E=mc^2\$ の関係がある。
-
-既定値は false。
-
-### [“TeX” Input Processor Options](http://docs.mathjax.org/en/latest/options/input-processors/TeX.html "The TeX input processor — MathJax 2.7 documentation") {#tex}
-
-```html
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  TeX: {
-    equationNumbers: { autoNumber: "AMS" },
-    extensions: ["mhchem.js"]
- }
-});
-</script>
-```
-
-`equationNumbers` で別行立て数式の採番を制御する。
-このうち自動採番については `autoNumber` で有効・無効を指定する。
-指定可能な値は `"none"`, `"all"`, `"AMS"` で，既定値は `"none"`。
-
-自動採番を無効にする場合は `"none"` をセットする。
+`tags` で別行立て数式の採番を制御する。
+規定値の `"none"` では自動採番が無効になっている。
 ページ内の全ての別行立て数式に対して自動採番を有効にする場合は `"all"` をセットする。
-`"AMS"` をセットした場合の動作については[第3回]を参照のこと。
+`"ams"` をセットした場合の動作については[第3回]を参照のこと。
 
-`extensions` は文字通り[拡張機能の指定](http://docs.mathjax.org/en/latest/tex.html#tex-and-latex-extensions)で，複数の拡張機能を列挙することができる。
-このうち [`mhchem.js`](http://docs.mathjax.org/en/latest/tex.html#mhchem) は [MathJax] で化学式や化学反応式を記述するための拡張である。
+`macros` 項目を追加して自作のマクロを組み込むこともできる。
+こんな感じ[^ssqrt1]。
 
-たとえば
+[^ssqrt1]: `ssqrt` マクロについては[第3回]で紹介している。
 
-```html
-経済成長と $\ce{CO2}$ 排出量は比例しなくなっている。
+```js
+macros: {
+  ssqrt: ['\\sqrt{\\smash[b]{\\mathstrut #1}}', 1]
+}
 ```
 
-> 経済成長と $\ce{CO2}$ 排出量は比例しなくなっている[^co2]。
-
-[^co2]: 「[経済成長とCO2排出量は「比例しなくなっている」：IEA報告書](http://wired.jp/2017/03/29/global-carbon-emissions/ "経済成長とCO2排出量は「比例しなくなっている」：IEA報告書｜WIRED.jp")」より。
-
-なんてな感じに書くことができる。
-
-### [“CommonHTML” Output Processor Options](http://docs.mathjax.org/en/latest/options/output-processors/CommonHTML.html "The CommonHTML output processor — MathJax 2.7 documentation") {#chtml}
-
-コンフィギュレーションに `TeX-AMS_CHTML` を指定した場合に有効になるオプション。
+これで
 
 ```html
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  CommonHTML: {
-    matchFontHeight: false,
-    mtextFontInherit: true
+平方根の高さを揃えるには \mathstrut と \smash コマンドを使って $\ssqrt{g}$ と $\ssqrt{h}$ のように表示できる。
+```
+
+{{< div-box >}}
+平方根の高さを揃えるには <code>\mathstrut</code> と <code>\smash</code> コマンドを使って $\ssqrt{g}$ と $\ssqrt{h}$ のように表示できる。
+{{< /div-box >}}
+
+のように使うことができる。
+
+### [CommonHTML Output Processor Options](https://docs.mathjax.org/en/latest/options/output/chtml.html "CommonHTML Output Processor Options — MathJax 3.0 documentation")
+
+設定項目と既定値は以下の通り。
+
+```js
+MathJax = {
+  chtml: {
+    scale: 1,                      // global scaling factor for all expressions
+    minScale: .5,                  // smallest scaling factor to use
+    matchFontHeight: true,         // true to match ex-height of surrounding font
+    mtextInheritFont: false,       // true to make mtext elements use surrounding font
+    merrorInheritFont: true,       // true to make merror text use surrounding font
+    mathmlSpacing: false,          // true for MathML spacing rules, false for TeX rules
+    skipAttributes: {},            // RFDa and other attributes NOT to copy to the output
+    exFactor: .5,                  // default size of ex in em units
+    displayAlign: 'center',        // default for indentalign when set to 'auto'
+    displayIndent: '0'             // default for indentshift when set to 'auto'
   }
-});
-</script>
+};
 ```
 
-`matchFontHeight` が true であれば本文の文字の大きさにマッチするよう数式の文字の高さを調節してくれる。
-ただし本文が日本語だと却ってバランスが悪いようだ。
-したがって（既定値は true だが） false にしておくのがお薦めである。
+`matchFontHeight` が `true` であれば本文の文字の大きさにマッチするよう数式の文字の高さを調節してくれるが，本文が日本語だと却ってバランスが悪いようだ。
+したがって `false` にしておくのがお薦めである。
 
+<!--
 `mtextFontInherit` は `\text` コマンドで囲まれた文字列の組版規則と書体を指定する。
 false なら数式の規則のままだが true であれば数式の周囲の地文（大抵は本文）の組版規則[^rl1]と書体が継承される。
 既定値は false。
@@ -232,12 +241,12 @@ false なら数式の規則のままだが true であれば数式の周囲の�
 
 と記述した場合は（『[LaTeX2ε美文書作成入門]』より引用）
 
-{{< fig-quote >}}
+{{< div-box >}}
 \begin{alignat*}{2}
     (a+b)^2 &= a^2 + 2ab + b^2 & \qquad & \text{展開する} \\
             &= a(a + 2b) + b^2 &        & \text{a でくくる}
 \end{alignat*}
-{{< /fig-quote >}}
+{{< /div-box >}}
 
 と表示される。
 「`a でくくる`」の a が数式用の書体でないことに注意。
@@ -250,124 +259,174 @@ false なら数式の規則のままだが true であれば数式の周囲の�
 \end{alignat*}
 ```
 
-{{< fig-quote >}}
+{{< div-box >}}
 \begin{alignat*}{2}
     (a+b)^2 &= a^2 + 2ab + b^2 & \qquad & \text{展開する} \\
             &= a(a + 2b) + b^2 &        & \text{$a$ でくくる}
 \end{alignat*}
-{{< /fig-quote >}}
+{{< /div-box >}}
 
 と $a$ が数式用の書体になる。
 なお，日本語（和文）部分は数式内でも `\text` コマンドの有無に関係なく影響を受けない。
+-->
 
-### [“HTML-CSS” Output Processor Options](http://docs.mathjax.org/en/latest/options/output-processors/HTML-CSS.html "The HTML-CSS output processor — MathJax 2.7 documentation") {#html}
+`displayAlign` は別行立て数式の位置を何処に寄せるか指定する。
+左寄せ（`"left"`），右寄せ（`"right"`），中央寄せ（`"center"`）を指定できる。
+中央寄せ以外のときは `displayIndent` でインデント幅を指定できる。
 
-コンフィギュレーションに `TeX-AMS_HTML` を指定した場合に有効になるオプション。
+たとえば左寄せで2文字分インデントさせた場合は
 
-```html
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  "HTML-CSS": {
-    availableFonts: ["STIX"],
-    preferredFont: "STIX",
-    webFont: "STIX-Web",
-    matchFontHeight: false,
-    mtextFontInherit: true
+```js
+MathJax = {
+  chtml: {
+    displayAlign: 'left',
+    displayIndent: '2em'
   }
-});
-</script>
+};
 ```
 
-`availableFonts` で指定した書体がローカル環境にある[^fnt0] 場合は，その書体を使用する。
-複数の書体を列挙できるが [MathJax/jax/output/HTML-CSS/fonts](https://github.com/mathjax/MathJax/tree/master/jax/output/HTML-CSS/fonts "MathJax/jax/output/HTML-CSS/fonts at master · mathjax/MathJax") のいずれかである必要がある。
-ローカルの書体を使用しない場合は空の配列 `[]` を指定する。
-既定値は `["STIX","TeX"]`。
+以下のように表示される。
 
-[^fnt0]: $\mathrm{\TeX}$ 用フォントは $\mathrm{\TeX}$ 作業環境を整えた PC 以外にはインストールされていないのが普通である。 $\mathrm{\TeX}$ 用フォントは複数の OpenType フォントファイルで提供されるが，構成が特殊なため $\mathrm{\TeX}$ 以外での使用はおすすめできない。
+{{< div-box >}}
+エネルギーと質量には $$E=mc^2$$ の関係がある。
+{{< /div-box >}}
 
-`availableFonts` で指定した書体のうち優先して使う書体を `preferredFont` で指定する。
- [MathJax/jax/output/HTML-CSS/fonts](https://github.com/mathjax/MathJax/tree/master/jax/output/HTML-CSS/fonts "MathJax/jax/output/HTML-CSS/fonts at master · mathjax/MathJax") のいずれかである必要がある。
-ローカルの書体を使用しない場合は null を指定する。
-既定値は `"TeX"`。
+### [SVG Output Processor Options](https://docs.mathjax.org/en/latest/options/output/svg.html "SVG Output Processor Options — MathJax 3.0 documentation")
 
-Web フォントを使用する場合は `webFont` で指定する。
-指定可能な書体は `"TeX"`, `"STIX-Web"`, `"Asana-Math"`, `"Neo-Euler"`, `"Gyre-Pagella"`, `"Gyre-Termes"`, `"Latin-Modern"`。
-Web フォントを使用しない場合は null を指定する。
-既定値は `"TeX"`。
+設定項目と既定値は以下の通り。
 
-ちなみに [STIX (Scientific and Technical Information Exchange)](http://www.stixfonts.org/ "STIX Fonts Project Website") は Times 系の書体のひとつで，長い開発期間を経て2010年に正式リリースされた。
-Microsoft Office や macOS などには既に同梱されているらしい。
+```js
+MathJax = {
+  svg: {
+    scale: 1,                      // global scaling factor for all expressions
+    minScale: .5,                  // smallest scaling factor to use
+    matchFontHeight: true,         // true to match ex-height of surrounding font
+    mtextInheritFont: false,       // true to make mtext elements use surrounding font
+    merrorInheritFont: true,       // true to make merror text use surrounding font
+    mathmlSpacing: false,          // true for MathML spacing rules, false for TeX rules
+    skipAttributes: {},            // RFDa and other attributes NOT to copy to the output
+    exFactor: .5,                  // default size of ex in em units
+    displayAlign: 'center',        // default for indentalign when set to 'auto'
+    displayIndent: '0',            // default for indentshift when set to 'auto'
+    fontCache: 'local',            // or 'global' or 'none'
+    localID: null,                 // ID to use for local font cache (for single equation processing)
+    internalSpeechTitles: true,    // insert <title> tags with speech content
+    titleID: 0                     // initial id number to use for aria-labeledby titles
+  }
+};
+```
 
-`"Neo-Euler"` は黒板手書き風の Euler フォントで数式好きの方には人気が高い[^fnt1] が， [MathJax] で利用する際には制限があるため取り扱いには若干の注意が必要である（[次回]で解説）。
+内容については前節とほぼ同じなので割愛する。
+なお `matchFontHeight` 項目については `false` にしても日本語の文章と上手くマッチしない。
+残念。
 
-[^fnt1]: 結城浩さんの「数学ガール」シリーズでは数式表現に Euler フォントを使用している。
+### 機能の拡張
 
-{{< fig-quote title="The HTML-CSS output processor" link="http://docs.mathjax.org/en/latest/options/output-processors/HTML-CSS.html" lang="en" >}}
-<q>Note that not all mathematical characters are available in all fonts (e.g., Neo-Euler does not include italic characters), so some mathematics may work better in some fonts than in others. The <code>STIX-Web</code> font is the most complete.</q>
-{{< /fig-quote >}}
+[`physics`]: https://docs.mathjax.org/en/latest/input/tex/extensions/physics.html "physics — MathJax 3.0 documentation"
+[`colorV2`]: https://docs.mathjax.org/en/latest/input/tex/extensions/colorV2.html "colorV2 — MathJax 3.0 documentation"
 
-特にこだわりがなければ既定値どおり `"TeX"` にするか `"STIX"` (`"STIX-Web"`) を選択するのが無難だと思う（`"TeX"` にするならコンフィギュレーションを `TeX-AMS_CHTML` にすることをお薦めする）。
+たとえば [`physics`] 拡張を組み込む場合は以下のように記述する。
 
-`matchFontHeight` および `mtextFontInherit` については [`CommonHTML` オプションの節]({{< relref "#chtml" >}})を参照のこと。
+```js
+MathJax = {
+  loader: {load: ['[tex]/physics']},
+  tex: {
+    packages: {
+      '[+]': ['physics']
+    },
+    ...
+  }
+};
+```
 
-### 最終的なオプション設定 {#mysetting}
+組み込み可能な拡張機能については以下のページを参照のこと。
+
+- [The TeX/LaTeX Extension List — MathJax 3.0 documentation](https://docs.mathjax.org/en/latest/input/tex/extensions/index.html)
+
+ただし [`physics`], [`colorV2`] 以外は標準で組み込まれているようで[^full1]，たとえば
+
+[^full1]: `tex-chtml-full.js` でフル機能を組み込んだ場合は [`physics`], [`colorV2`] も組み込まれるようだ。
+
+```html
+経済成長と $\ce{CO2}$ 排出量は比例しなくなっている。
+```
+
+{{< div-box >}}
+経済成長と $\ce{CO2}$ 排出量は比例しなくなっている。
+{{< /div-box >}}
+
+なんてな感じに書くことができる[^co2]。
+
+[^co2]: 「[経済成長とCO2排出量は「比例しなくなっている」：IEA報告書](http://wired.jp/2017/03/29/global-carbon-emissions/ "経済成長とCO2排出量は「比例しなくなっている」：IEA報告書｜WIRED.jp")」より。
+
+### Web フォントの指定
+
+- [MathJax Font Support — MathJax 3.0 documentation](https://docs.mathjax.org/en/latest/output/fonts.html)
+
+今のところ [MathJax] v3 では TeX フォントしか対応していない。
+将来バージョンで対応するとある。
+
+## このサイトでの設定例 {#mysetting}
 
 以上を踏まえて，[本ブログ]における [MathJax] オプションの設定内容を以下に示す。
 
 ```html
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  displayAlign: "left",
-  displayIndent: "2em",
-  tex2jax: {
-    inlineMath: [['$','$'], ['\\(','\\)']],
-    processEscapes: true
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+	processEscapes: true,
+    tags: 'ams',
+    macros: {
+      ssqrt: ['\\sqrt{\\smash[b]{\\mathstrut #1}}', 1],
+      tcdegree: ['\\unicode{xb0}'],
+      tccelsius: ['\\unicode{x2103}'],
+      tcperthousand: ['\\unicode{x2030}'],
+      tcmu: ['\\unicode{x3bc}'],
+      tcohm: ['\\unicode{x3a9}']
+    }
   },
-  TeX: {
-      equationNumbers: { autoNumber: "AMS" },
-      extensions: ["mhchem.js"]
-  },
-  "HTML-CSS": {
-    availableFonts: ["STIX"],
-    preferredFont: "STIX",
-    webFont: "STIX-Web",
+  chtml: {
     matchFontHeight: false,
-    mtextFontInherit: true
+    displayAlign: "left",
+    displayIndent: "2em"
   }
-});
+};
 </script>
-<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML&locale=ja"></script>
+<script src="//polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 ```
 
 これでようやく準備が整った。
 
 ## ブックマーク {#bookmark}
 
+- [MathJax Documentation — MathJax 3.0 documentation](https://docs.mathjax.org/en/latest/)
 - [MathJaxによる数式表示](https://oku.edu.mie-u.ac.jp/~okumura/javascript/mathjax.html)
 - [MathJaxの使い方](http://gilbert.ninja-web.net/math/mathjax1.html)
     - [MathJaxの使い方〈化学編〉](http://gilbert.ninja-web.net/math/mathjax3.html)
 - [世界標準が期待される数式用フォント「STIX Fonts」 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/373370.html)
 
-[本ブログ]: / "text.Baldanders.info"
+- [MathJax v3 がリリースされていた]({{< ref "/release/2019/09/mathjax-v3-is-released.md" >}})
+
+[本ブログ]: {{< rlnk "/" >}} "text.Baldanders.info"
 [MathJax]: https://www.mathjax.org/ "MathJax | Beautiful math in all browsers."
-[“CommonHTML” オプション]: http://docs.mathjax.org/en/latest/options/output-processors/CommonHTML.html "The CommonHTML output processor — MathJax 2.7 documentation"
-[“HTML-CSS” オプション]: http://docs.mathjax.org/en/latest/options/output-processors/HTML-CSS.html "The HTML-CSS output processor — MathJax 2.7 documentation"
 [次回]: {{< ref "/remark/2017/09/getting-started-mathjax-2.md" >}} "ちょこっと MathJax： 基本的な数式表現"
 [第3回]: {{< ref "/remark/2017/10/getting-started-mathjax-3.md" >}} "ちょこっと MathJax： インライン数式と別行立て数式"
-[LaTeX2ε美文書作成入門]: https://www.amazon.co.jp/exec/obidos/ASIN/4774187054/baldandersinf-22/ "Amazon | [改訂第7版]LaTeX2ε美文書作成入門 | 奥村 晴彦, 黒木 裕介 通販"
+[LaTeX2ε美文書作成入門]: https://www.amazon.co.jp/dp/4774187054?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon | [改訂第7版]LaTeX2ε美文書作成入門 | 奥村 晴彦, 黒木 裕介 通販"
 
 ## 参考図書 {#books}
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%94%B9%E8%A8%82%E7%AC%AC7%E7%89%88-LaTeX2%CE%B5%E7%BE%8E%E6%96%87%E6%9B%B8%E4%BD%9C%E6%88%90%E5%85%A5%E9%96%80-%E5%A5%A5%E6%9D%91-%E6%99%B4%E5%BD%A6/dp/4774187054?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4774187054"><img src="https://images-fe.ssl-images-amazon.com/images/I/51E5K7B53aL._SL160_.jpg" width="127" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4774187054?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51E5K7B53aL._SL160_.jpg" width="127" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E6%94%B9%E8%A8%82%E7%AC%AC7%E7%89%88-LaTeX2%CE%B5%E7%BE%8E%E6%96%87%E6%9B%B8%E4%BD%9C%E6%88%90%E5%85%A5%E9%96%80-%E5%A5%A5%E6%9D%91-%E6%99%B4%E5%BD%A6/dp/4774187054?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4774187054">[改訂第7版]LaTeX2ε美文書作成入門</a></dt>
-    <dd>奥村 晴彦, 黒木 裕介</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4774187054?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">[改訂第7版]LaTeX2ε美文書作成入門</a></dt>
+    <dd>奥村 晴彦 (著), 黒木 裕介 (著)</dd>
     <dd>技術評論社 2017-01-24</dd>
     <dd>大型本</dd>
-    <dd>4774187054 (ASIN), 9784774187051 (EAN)</dd>
+    <dd>4774187054 (ASIN), 9784774187051 (EAN), 4774187054 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">ついに第7版が登場。紙の本で買って常に側に置いておくのが吉。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-09-27">2017-09-27</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-API</a>)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-09-27">2017-09-27</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>

@@ -1,10 +1,12 @@
 #!/bin/sh
-# cat ./done/4822283100.html |  books-data review -t review-book.html -a 4822283100 -r 5 --review-date 2019-02-11 --pipe
+# cat ./done/4532512123.html | books-data review -t review-book.html -a 4532512123 -r 4 --review-date 2016-11-05 --pipe
+# cat ./done/4774187054.html | books-data review -t review-book.html -a 4774187054 -r 4 --review-date 2017-09-27 --pipe
+# ---
+# cat ./done/4822283100.html | books-data review -t review-book.html -a 4822283100 -r 5 --review-date 2019-02-11 --pipe
 # cat ./done/4344980158.html | books-data review -t review-book.html -a 4344980158 -r 4 --review-date 2018-12-31 --pipe
 # cat ./done/4000280872.html | books-data review -t review-book.html -a 4000280872 -r 4 --review-date 2018-12-31 --pipe
 # cat ./done/card-4307.html  | books-data review -t review-book.html -c 4307  -r 4 --review-date 2019-03-30 --image-url https://text.baldanders.info/images/aozora/card4307.svg  --pipe
 # cat ./done/B07K33158N.html | books-data review -t review-book.html -a B07K33158N -r 4 --review-date 2019-10-09 --pipe
-# ---
 # cat ./done/4621300253.html | books-data review -t review-book.html -a 4621300253 -r 5 --review-date 2018-10-20 --pipe
 # cat ./done/4873118468.html | books-data review -t review-book.html -a 4873118468 -r 5 --review-date 2018-11-03 --pipe
 # cat ./done/4908686033.html | books-data review -t review-book.html -a 4908686033 -r 4 --review-date 2018-10-20 --pipe
@@ -22,6 +24,5 @@
 # cat ./done/card-56839.html | books-data review -t review-book.html -c 56839 -r 4 --review-date 2019-03-28 --image-url https://text.baldanders.info/images/aozora/card56839.svg --pipe
 # cat ./done/4756117074.html | books-data review -t review-book.html -a 4756117074 -r 4 --review-date 2019-01-02 --pipe
 # cat ./done/B07TYKJQFK.html | books-data review -t review-book.html -a B07TYKJQFK -r 0 --review-date 2019-08-04 --pipe
-# cat ./done/4532512123.html | books-data review -t review-book.html -a 4532512123 -r 4 --review-date 2016-11-05 --pipe
 # cat ./done/B07MPK2F11.html | books-data review -t review-book.html -a B07MPK2F11 -r 0 --review-date 2019-07-22 --pipe
 # cat ./done/B07TS9XTSD.html | books-data review -t review-book.html -a B07TS9XTSD -r 0 --review-date 2019-07-14 --pipe
