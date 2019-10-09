@@ -56,6 +56,7 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 | Official | Release    |                       Ubuntu | Release    |  delay |
 | --------:| ---------- | ----------------------------:| ---------- | ------:|
+|   69.0.2 | 2019-10-03 | 69.0.2+build1-0 (USN-4122-2) | 2019-10-08 | 5 days |
 |   69.0.1 | 2019-09-18 | 69.0.1+build1-0 (USN-4140-1) | 2019-09-25 | 7 days |
 |     69.0 | 2019-09-03 |   69.0+build2-0 (USN-4122-1) | 2019-09-03 | 1 days |
 |   68.0.2 | 2019-08-14 | 68.0.2+build1-0 (USN-4101-1) | 2019-08-16 | 2 days |
@@ -66,6 +67,7 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ### ブックマーク
 
+- [Firefox  69.0.2, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/69.0.2/releasenotes/)
 - [Firefox  69.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/69.0.1/releasenotes/)
 - [Firefox  69.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/69.0/releasenotes/)
 - [Firefox  68.0.2, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/68.0.2/releasenotes/)
@@ -80,11 +82,13 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 | Official | Release    |                       Ubuntu | Release    |   delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
 |     68.0 | 2019-08-27 |                              |            | ∞ days |
+|   60.9.0 | 2019-09-06 | 60.9.0+build1-0 (USN-4150-1) | 2019-10-08 | 1 month |
 |   60.8.0 | 2019-07-09 | 60.8.0+build1-0 (USN-4064-1) | 2019-07-17 |  8 days |
 |   60.7.2 | 2019-06-20 | 60.7.2+build2-0 (USN-4045-1) | 2019-07-01 | 11 days |
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (60.9.0) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/60.9.0/releasenotes/)
 - [Thunderbird — Release Notes (68.0) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.0/releasenotes/)
 - [フリーのメールソフト「Thunderbird」v60.8.0が正式公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1195473.html)
 - [「Thunderbird」v60.7.2が公開 ～「Firefox」で悪用されているゼロデイ脆弱性に対処 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1191820.html)

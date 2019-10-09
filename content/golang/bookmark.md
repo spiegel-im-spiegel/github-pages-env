@@ -145,6 +145,7 @@ title = "Go 言語に関するブックマーク"
 - [Go の、型のない定数の精度 - Qiita](https://qiita.com/Nabetani/items/21ea926bb532cb0ac094)
 - [Goを読むその1：go installの流れ](https://qiita.com/junjis0203/items/de55bb69945f08a9166c)
     - [Goを読むその2：compileコマンド（構文解析まで）](https://qiita.com/junjis0203/items/616c00086eb336153f4f)
+- [[Go]imported and not usedエラー・declared and not usedエラーとの向き合いかた - My External Storage](https://budougumi0617.github.io/2019/10/06/imported-declared-not-used-error/)
 
 ### オブジェクトに関すること
 
