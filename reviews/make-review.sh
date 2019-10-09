@@ -1,10 +1,15 @@
 #!/bin/sh
+# cat ./done/4822283100.html |  books-data review -t review-book.html -a 4822283100 -r 5 --review-date 2019-02-11 --pipe
+# cat ./done/4344980158.html | books-data review -t review-book.html -a 4344980158 -r 4 --review-date 2018-12-31 --pipe
+# cat ./done/4000280872.html | books-data review -t review-book.html -a 4000280872 -r 4 --review-date 2018-12-31 --pipe
+# cat ./done/card-4307.html  | books-data review -t review-book.html -c 4307  -r 4 --review-date 2019-03-30 --image-url https://text.baldanders.info/images/aozora/card4307.svg  --pipe
+# cat ./done/B07K33158N.html | books-data review -t review-book.html -a B07K33158N -r 4 --review-date 2019-10-09 --pipe
+# ---
 # cat ./done/4621300253.html | books-data review -t review-book.html -a 4621300253 -r 5 --review-date 2018-10-20 --pipe
 # cat ./done/4873118468.html | books-data review -t review-book.html -a 4873118468 -r 5 --review-date 2018-11-03 --pipe
-cat ./done/4908686033.html | books-data review -t review-book.html -a 4908686033 -r 4 --review-date 2018-10-20 --pipe
+# cat ./done/4908686033.html | books-data review -t review-book.html -a 4908686033 -r 4 --review-date 2018-10-20 --pipe
 # cat ./done/B07VPSXF6N.html | books-data review -t review-book.html -a B07VPSXF6N -r 4 --review-date 2019-08-12 --pipe
 # cat ./done/4873117526.html | books-data review -t review-book.html -a 4873117526 -r 3 --review-date 2019-08-12 --pipe
-# ---
 # cat ./done/card-226.html  | books-data review -t review-book.html -c 226  -r 4 --review-date 2019-09-21 --image-url https://text.baldanders.info/images/aozora/card226.svg  --pipe
 # cat ./done/4309610439.html | books-data review -t review-book.html -a 4309610439 -r 4 --review-date 2019-09-21 --pipe
 # cat ./done/4798110035.html | books-data review -t review-book.html -a 4798110035 -r 0 --review-date 2017-07-30 --pipe
@@ -13,7 +18,6 @@ cat ./done/4908686033.html | books-data review -t review-book.html -a 4908686033
 # cat ./done/B07TYKJQFK.html | books-data review -t review-book.html -a B07TYKJQFK -r 5 --review-date 2019-08-13 --pipe
 # cat ./done/B01KYBJDB6.html | books-data review -t review-book.html -a B01KYBJDB6 -r 5 --review-date 2019-08-13 --pipe
 # cat ./done/456008193X.html | books-data review -t review-book.html -a 456008193X -r 4 --review-date 2016-11-03 --pipe
-# cat ./done/card-4307.html  | books-data review -t review-book.html -c 4307  -r 4 --review-date 2019-03-30 --image-url https://text.baldanders.info/images/aozora/card4307.svg  --pipe
 # cat ./done/card-56642.html | books-data review -t review-book.html -c 56642 -r 0 --review-date 2019-07-14 --image-url https://text.baldanders.info/images/aozora/card56642.svg --pipe
 # cat ./done/card-56839.html | books-data review -t review-book.html -c 56839 -r 4 --review-date 2019-03-28 --image-url https://text.baldanders.info/images/aozora/card56839.svg --pipe
 # cat ./done/4756117074.html | books-data review -t review-book.html -a 4756117074 -r 4 --review-date 2019-01-02 --pipe
