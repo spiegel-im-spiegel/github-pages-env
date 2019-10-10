@@ -8027,5 +8027,93 @@
       false
     ],
     "Description": "アニメ「\u003ca href=\"https://www.ten-sura.com/\"\u003e転生したらスライムだった件\u003c/a\u003e」のED曲。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07QJB7R13",
+      "Title": "【2019最新版 Bluetooth5.0】Bluetooth イヤホン 骨伝導 ヘッドホン 高音質 自動ペアリング スポーツ IP56防水 耳が疲れない 超軽量 完全ワイヤレス イヤホン マイク内蔵 Siri対応 ノイズキャンセル ハンズフリー通話 ブルートゥース ヘッドホン iPhone\u0026Android適用 (ブラック)",
+      "URL": "https://www.amazon.co.jp/dp/B07QJB7R13?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/415zjPCtoJL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "Bearoam",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07QJB7R13"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0694090550660"
+        },
+        {
+          "Name": "UPC",
+          "Value": "694090550660"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2019-10-10",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "廉価版だし音質には目を瞑るとして（特に低音がねー），骨伝導スピーカー最高！ もうイヤフォンには戻れない。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07TVGXD2P",
+      "Title": "TEMPEST",
+      "URL": "https://www.amazon.co.jp/dp/B07TVGXD2P?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41x6zKf4avL._SL160_.jpg",
+        "Height": 159,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "石原夏織",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "ポニーキャニオン",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07TVGXD2P"
+        }
+      ],
+      "PublicationDate": "2019-07-17",
+      "LastRelease": "2019-07-17",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2019-10-10",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ版「\u003ca href=\"http://maousama-anime.com/\"\u003e魔王様、リトライ！\u003c/a\u003e」のOP曲。"
   }
 ]

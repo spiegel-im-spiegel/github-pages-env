@@ -1,4 +1,7 @@
 #!/bin/sh
+cat B07QJB7R13.html | books-data review -t review-book.html -a B07QJB7R13 -r 5 --review-date 2019-10-10 --pipe
+cat B07TVGXD2P.html | books-data review -t review-book.html -a B07TVGXD2P -r 4 --review-date 2019-10-10 --pipe
+# ---
 # cat ./done/4532512123.html | books-data review -t review-book.html -a 4532512123 -r 4 --review-date 2016-11-05 --pipe
 # cat ./done/4774187054.html | books-data review -t review-book.html -a 4774187054 -r 4 --review-date 2017-09-27 --pipe
 # ---
