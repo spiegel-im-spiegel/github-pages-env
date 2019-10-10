@@ -209,7 +209,7 @@ client := paapi5.New(
     "AKIAIOSFODNN7EXAMPLE",
     "1234567890",
     paapi5.WithContext(context.Background()),
-    paapi5.WithHttpCilent(http.DefaultClient),
+    paapi5.WithHttpClient(http.DefaultClient),
 )
 ```
 
