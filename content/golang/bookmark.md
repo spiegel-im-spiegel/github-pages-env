@@ -418,6 +418,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Goのテスト結果をCIでちょっと詳しく表示する - Qiita](https://qiita.com/take_cheeze/items/4c987cbde09807f8806b)
 - [go vet の shadow を知る – Eureka Engineering – Medium](https://medium.com/eureka-engineering/-dabccd4571ea)
 - [Ginkgoでgolangのビヘイビア駆動(BDD)開発入門 - Qiita](https://qiita.com/myoshimi/items/62bc89b8065e08834b02)
+- [Goのtestを理解する in 2018 #go - My External Storage](https://budougumi0617.github.io/2018/08/19/go-testing2018/)
 
 ### ドキュメント・フレームワーク
 
@@ -428,6 +429,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [GoのExampleテストが便利 : swdyh](http://swdyh.tumblr.com/post/55771477125/go-example)
 - [godoc.org への掲載方法を調べた - taknb2nchのメモ](http://d.hatena.ne.jp/taknb2nch/20140225/1393302743)
 - [[swaggo]GoのGoDocを書いたら、Swaggerを出せるやばいやつ - Qiita](https://qiita.com/pei0804/items/3a0b481d1e47e5a72078)
+- [Go CodeReviewComments 日本語翻訳 #golang  - Qiita](https://qiita.com/knsh14/items/8b73b31822c109d4c497)
 
 ### Refactoring
 
@@ -718,6 +720,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [GoのGORMでiterate - Qiita](https://qiita.com/iz-j/items/09097c494292e0f03636)
 - [Big Sky :: SQLite3 でロジスティック回帰](https://mattn.kaoriya.net/software/ml/20190512003509.htm)
 - [golang-migrate/migrateパッケージを使ってみる - Qiita](https://qiita.com/daijuk/items/2b43781c5a38923f864b)
+- [GoのアプリケーションにDatadogAPMを導入する。 - Qiita](https://qiita.com/istsh/items/72b0f2c0ef345e57aaf4)
 
 ### GAE/Go
 
@@ -851,6 +854,8 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go言語のFunctional Option Pattern - Qiita](http://qiita.com/weloan/items/56f1c7792088b5ede136)
 - [Big Sky :: Golang で物理ファイルの操作に path/filepath でなく path を使うと爆発します。](https://mattn.kaoriya.net/software/lang/go/20171024130616.htm) : URL の操作には `http.ServeFile` を使うとかあるらしい
 - [golang の 引数、戻り値、レシーバをポインタにすべきか、値にすべきかの判断基準について迷っている - pospomeのプログラミング日記](http://pospome.hatenablog.com/entry/2017/08/12/195032) : ケースバイケースだよねぇ。もしくはプロジェクトごとにポリシーを決めるか
+- [Goを始めて1年間で最高にお世話になったGo関連ブックマークを晒します。 - Qiita](https://qiita.com/po3rin/items/0d8fef14bfe222f334b7)
+- [Practical Go | Dave Cheney](https://dave.cheney.net/practical-go)
 
 ## 参考図書
 

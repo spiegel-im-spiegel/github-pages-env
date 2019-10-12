@@ -30,6 +30,8 @@ pageType = "text"
 - [ジェフリー・エプスタインからの寄付をめぐるMITメディアラボと伊藤穣一の火だるま状態はともかくとして、ローナン・ファローのタイムリーな新刊が出る - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20190917/ronan-farrow)
 - [A reflection on the departure of RMS - Thomas Bushnell, BSG - Medium](https://medium.com/@thomas.bushnell/a-reflection-on-the-departure-of-rms-18e6a835fd84)
     - [ブログ: RMSの辞任に関する意見](https://okuranagaimo.blogspot.com/2019/09/rms.html)
+- [thoughts on rms and gnu -- wingolog](http://wingolog.org/archives/2019/10/08/thoughts-on-rms-and-gnu)
+    - [ブログ: rmsとgnuについての考え](https://okuranagaimo.blogspot.com/2019/10/rmsgnu.html)
 
 ## （本記事とはなんの関係もない）参考図書
 
