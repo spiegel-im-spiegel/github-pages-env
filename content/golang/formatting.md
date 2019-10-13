@@ -156,6 +156,27 @@ type Formatter interface {
 }
 ```
 
+更に引数の [`fmt`]`.State` もインタフェース型で以下のように定義されている。
+
+```go
+// State represents the printer state passed to custom formatters.
+// It provides access to the io.Writer interface plus information about
+// the flags and options for the operand's format specifier.
+type State interface {
+    // Write is the function to call to emit formatted output to be printed.
+    Write(b []byte) (n int, err error)
+    // Width returns the value of the width option and whether it has been set.
+    Width() (wid int, ok bool)
+    // Precision returns the value of the precision option and whether it has been set.
+    Precision() (prec int, ok bool)
+
+    // Flag reports whether the flag c, a character, has been set.
+    Flag(c int) bool
+}
+```
+
+つまり自作の `Format()` メソッド内では `State.Write()`,  `State.Width()`,  `State.Precision()`, `State.Flag()` 各メソッドが使える。 これらを使って出力の整形を行えるわけだ（`State.Write()` は [`io`]`.Writer` インタフェースとマッチしている点にも注目）。
+
 では `Planet` 型に [`fmt`]`.Formatter` インタフェースを組み込んでみる。
 こんな感じでどうだろう。
 
@@ -165,16 +186,16 @@ func (p Planet) Format(s fmt.State, verb rune) {
     case 'v':
         switch {
         case s.Flag('#'):
-            s.Write([]byte(p.GoString()))
+            io.Copy(s, strings.NewReader(p.GoString()))
         case s.Flag('+'):
-            s.Write([]byte(fmt.Sprintf(`{"Name":%s,"Mass":%.3f}`, strconv.Quote(p.Name), p.Mass)))
+            fmt.Fprintf(s, `{"Name":%s,"Mass":%.3f}`, strconv.Quote(p.Name), p.Mass)
         default:
-            s.Write([]byte(p.String()))
+            io.Copy(s, strings.NewReader(p.String()))
         }
     case 's':
-        s.Write([]byte(p.String()))
+        io.Copy(s, strings.NewReader(p.String()))
     default: //bad verb
-        s.Write([]byte(fmt.Sprintf(`%%!%c(%s)`, verb, p.GoString())))
+        fmt.Fprintf(s, `%%!%c(%s)`, verb, p.GoString())
     }
 }
 ```
@@ -204,9 +225,15 @@ fmt.Printf("%#v", planets)
 
 [^f1]: 型名（`%T`）とポインタ値（`%p`）は [`fmt`]`.Formatter` の制御外になるようだ。
 
+## ブックマーク
+
+- [fmt.Formatterを実装して%vや%+vをカスタマイズしたり、%3🍺みたいな書式をつくってみよう #golang - Qiita](https://qiita.com/tenntenn/items/453a09c4c6d7f580d0ab)
+- [[Go] 独自型にfmtパッケージのインターフェースを実装して出力を制御する - My External Storage](https://budougumi0617.github.io/2019/10/12/confirm-print-with-fmt-interfaces/)
+
 [Go]: https://golang.org/ "The Go Programming Language"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`fmt`]: https://golang.org/pkg/fmt/ "fmt - The Go Programming Language"
+[`io`]: https://golang.org/pkg/io/ "io - The Go Programming Language"
 
 ## 参考図書
 

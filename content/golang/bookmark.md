@@ -430,6 +430,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [godoc.org への掲載方法を調べた - taknb2nchのメモ](http://d.hatena.ne.jp/taknb2nch/20140225/1393302743)
 - [[swaggo]GoのGoDocを書いたら、Swaggerを出せるやばいやつ - Qiita](https://qiita.com/pei0804/items/3a0b481d1e47e5a72078)
 - [Go CodeReviewComments 日本語翻訳 #golang  - Qiita](https://qiita.com/knsh14/items/8b73b31822c109d4c497)
+- [チョットできるGoプログラマーになるための詳解GoDoc - Qiita](https://qiita.com/shibukawa/items/8c70fdd1972fad76a5ce)
 
 ### Refactoring
 

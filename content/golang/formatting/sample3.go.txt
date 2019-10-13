@@ -2,7 +2,9 @@ package main
 
 import (
 	"fmt"
+	"io"
 	"strconv"
+	"strings"
 )
 
 type Planet struct {
@@ -23,16 +25,16 @@ func (p Planet) Format(s fmt.State, verb rune) {
 	case 'v':
 		switch {
 		case s.Flag('#'):
-			s.Write([]byte(p.GoString()))
+			io.Copy(s, strings.NewReader(p.GoString()))
 		case s.Flag('+'):
-			s.Write([]byte(fmt.Sprintf(`{"Name":%s,"Mass":%.3f}`, strconv.Quote(p.Name), p.Mass)))
+			fmt.Fprintf(s, `{"Name":%s,"Mass":%.3f}`, strconv.Quote(p.Name), p.Mass)
 		default:
-			s.Write([]byte(p.String()))
+			io.Copy(s, strings.NewReader(p.String()))
 		}
 	case 's':
-		s.Write([]byte(p.String()))
+		io.Copy(s, strings.NewReader(p.String()))
 	default: //bad verb
-		s.Write([]byte(fmt.Sprintf(`%%!%c(%s)`, verb, p.GoString())))
+		fmt.Fprintf(s, `%%!%c(%s)`, verb, p.GoString())
 	}
 }
 
