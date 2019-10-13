@@ -1,0 +1,75 @@
+package join
+
+import (
+	"bufio"
+	"os"
+	"testing"
+)
+
+func ReadAll(path string) []string {
+	file, err := os.Open(path) //maybe file path
+	if err != nil {
+		return nil
+	}
+	defer file.Close()
+
+	scanner := bufio.NewScanner(file)
+	list := []string{}
+	for scanner.Scan() {
+		list = append(list, scanner.Text())
+	}
+	if err := scanner.Err(); err != nil {
+		return nil
+	}
+	return list
+}
+
+var content = ReadAll("CollisionsForHashFunctions.txt")
+
+func BenchmarkJoinStringPlus(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		JoinStringPlus(content)
+	}
+}
+
+func BenchmarkJoinStringJoin(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		JoinStringJoin(content)
+	}
+}
+
+func BenchmarkJoinStringByteAppend(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		JoinStringByteAppend(content)
+	}
+}
+
+func BenchmarkJoinStringByteAppend8K(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		JoinStringByteAppend8K(content)
+	}
+}
+
+func BenchmarkJoinStringBuilder(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		JoinStringBuilder(content)
+	}
+}
+
+func BenchmarkJoinStringBuilder8K(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		JoinStringBuilder8K(content)
+	}
+}
+
+func BenchmarkJoinStringBuffer(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		JoinStringBuffer(content)
+	}
+}
+
+func BenchmarkJoinStringBuffer8K(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		JoinStringBuffer8K(content)
+	}
+}

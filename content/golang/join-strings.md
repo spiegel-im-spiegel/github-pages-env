@@ -1,29 +1,22 @@
 +++
-date = "2015-09-21T23:08:07+09:00"
-update = "2015-12-20T17:27:35+09:00"
-description = "Go 言語で文字列の連結を行う際にどうやるのが一番速いか，という話。"
-draft = false
-tags = ["golang", "string", "join", "benchmark"]
 title = "文字列連結はどれが速い？"
+date = "2015-09-21T23:08:07+09:00"
+description = "Go 言語で文字列の連結を行う際にどうやるのが一番速いか，という話。"
+tags = ["golang", "string", "join", "benchmark"]
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 （初出： [Golang の文字列連結はどちらが速い？ - Qiita](http://qiita.com/spiegel-im-spiegel/items/16ab7dabbd0749281227)）
 
 [前回]につづき [string] の話題。
 [Go 言語]で文字列の連結を行う際にどうやるのが一番速いか，という話。
+
+{{< div-box type="md" >}}
+**【2019-10-13 追記】** [改訂版]({{< relref "./join-strings-2.md" >}})を公開しました。
+{{< /div-box >}}
 
 ## 文字列連結を行う4つの方法
 
@@ -227,14 +220,14 @@ func BenchmarkWriteBuffer2Cap1K(b *testing.B) {
 
 ベンチマークの内訳は以下のとおり。
 
-| ベンチマーク名  | 処理内容                     |
-|:----------------|:-----------------------------|
-| `BenchmarkWriteBuffer1`       | `[]byte` に `append` する |
-| `BenchmarkWriteBuffer1Cap128` | `[]byte` に `append` する（ capacity 128B） |
-| `BenchmarkWriteBuffer1Cap1K`  | `[]byte` に `append` する（ capacity 1KB） |
-| `BenchmarkWriteBuffer2`       | [`bytes`]`.Buffer` に追記する |
+| ベンチマーク名                | 処理内容                                        |
+|:----------------------------- |:----------------------------------------------- |
+| `BenchmarkWriteBuffer1`       | `[]byte` に `append` する                       |
+| `BenchmarkWriteBuffer1Cap128` | `[]byte` に `append` する（ capacity 128B）     |
+| `BenchmarkWriteBuffer1Cap1K`  | `[]byte` に `append` する（ capacity 1KB）      |
+| `BenchmarkWriteBuffer2`       | [`bytes`]`.Buffer` に追記する                   |
 | `BenchmarkWriteBuffer2Cap128` | [`bytes`]`.Buffer` に追記する（ capacity 128B） |
-| `BenchmarkWriteBuffer2Cap1K`  | [`bytes`]`.Buffer` に追記する（ capacity 1KB） |
+| `BenchmarkWriteBuffer2Cap1K`  | [`bytes`]`.Buffer` に追記する（ capacity 1KB）  |
 
 入力テキストだが，小さいファイルではテストにならない気がしたので，大昔に書いたテキスト [`CollisionsForHashFunctions.txt`](https://baldanders.info/spiegel/archive/CollisionsForHashFunctions.txt) を使うことにした。
 サイズは70行，7KB ほど。
@@ -273,7 +266,6 @@ BenchmarkWriteBuffer2Cap1K-8     2000000           980 ns/op        1488 B/op   
 ok      join    13.589s
 ```
 
-
 今度は `[]byte` の方が速くなった。
 
 まぁでも予想通りかな。
@@ -286,9 +278,23 @@ ok      join    13.589s
 - [Go でベンチマーク - Block Rockin’ Codes](http://jxck.hatenablog.com/entry/20131123/1385189088)
 - [go言語でベンチマーク - Qiita](http://qiita.com/Mulyu/items/ed585f2777496f29a725)
 
-[Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
-
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [前回]: {{< relref "string-and-rune.md" >}} "String と Rune"
 [string]: http://golang.org/ref/spec#String_types
 [`bytes`]: http://golang.org/pkg/bytes/
+
+## 参考図書
+
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4621300253?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41meaSLNFfL._SL160_.jpg" width="123" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/dp/4621300253?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)</a></dt>
+    <dd>Alan A.A. Donovan (著), Brian W. Kernighan (著), 柴田 芳樹 (翻訳)</dd>
+    <dd>丸善出版 2016-06-20</dd>
+    <dd>単行本（ソフトカバー）</dd>
+    <dd>4621300253 (ASIN), 9784621300251 (EAN), 4621300253 (ISBN), 9784621300251 (ISBN)</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">著者のひとりは（あの「バイブル」とも呼ばれる）通称 “K&amp;R” の K のほうである。この本は Go 言語の教科書と言ってもいいだろう。</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
+</div>

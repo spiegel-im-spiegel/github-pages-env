@@ -1,0 +1,68 @@
+package join
+
+import (
+	"bytes"
+	"strings"
+)
+
+var sz8k = 8 * 1024
+
+func JoinStringPlus(ss []string) {
+	var str string
+	for _, s := range ss {
+		str += s + "\n"
+	}
+}
+
+func JoinStringJoin(ss []string) {
+	strings.Join(ss, "\n")
+}
+
+func JoinStringByteAppend(ss []string) {
+	b := []byte{}
+	for _, s := range ss {
+		b = append(b, s...)
+		b = append(b, "\n"...)
+	}
+}
+
+func JoinStringByteAppend8K(ss []string) {
+	b := make([]byte, 0, sz8k)
+	for _, s := range ss {
+		b = append(b, s...)
+		b = append(b, "\n"...)
+	}
+}
+
+func JoinStringBuilder(ss []string) {
+	b := &strings.Builder{}
+	for _, s := range ss {
+		b.WriteString(s)
+		b.WriteString("\n")
+	}
+}
+
+func JoinStringBuilder8K(ss []string) {
+	b := &strings.Builder{}
+	b.Grow(sz8k)
+	for _, s := range ss {
+		b.WriteString(s)
+		b.WriteString("\n")
+	}
+}
+
+func JoinStringBuffer(ss []string) {
+	b := &bytes.Buffer{}
+	for _, s := range ss {
+		b.WriteString(s)
+		b.WriteString("\n")
+	}
+}
+
+func JoinStringBuffer8K(ss []string) {
+	b := bytes.NewBuffer(make([]byte, 0, sz8k))
+	for _, s := range ss {
+		b.WriteString(s)
+		b.WriteString("\n")
+	}
+}
