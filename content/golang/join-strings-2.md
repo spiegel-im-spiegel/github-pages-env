@@ -23,70 +23,70 @@ pageType = "text"
 package join
 
 import (
-	"bytes"
-	"strings"
+    "bytes"
+    "strings"
 )
 
 var sz8k = 8 * 1024
 
 func JoinStringPlus(ss []string) {
-	var str string
-	for _, s := range ss {
-		str += s + "\n"
-	}
+    var str string
+    for _, s := range ss {
+        str += s + "\n"
+    }
 }
 
 func JoinStringJoin(ss []string) {
-	strings.Join(ss, "\n")
+    strings.Join(ss, "\n")
 }
 
 func JoinStringByteAppend(ss []string) {
-	b := []byte{}
-	for _, s := range ss {
-		b = append(b, s...)
-		b = append(b, "\n"...)
-	}
+    b := []byte{}
+    for _, s := range ss {
+        b = append(b, s...)
+        b = append(b, "\n"...)
+    }
 }
 
 func JoinStringByteAppend8K(ss []string) {
-	b := make([]byte, 0, sz8k)
-	for _, s := range ss {
-		b = append(b, s...)
-		b = append(b, "\n"...)
-	}
+    b := make([]byte, 0, sz8k)
+    for _, s := range ss {
+        b = append(b, s...)
+        b = append(b, "\n"...)
+    }
 }
 
 func JoinStringBuilder(ss []string) {
-	b := &strings.Builder{}
-	for _, s := range ss {
-		b.WriteString(s)
-		b.WriteString("\n")
-	}
+    b := &strings.Builder{}
+    for _, s := range ss {
+        b.WriteString(s)
+        b.WriteString("\n")
+    }
 }
 
 func JoinStringBuilder8K(ss []string) {
-	b := &strings.Builder{}
+    b := &strings.Builder{}
     b.Grow(sz8k)
-	for _, s := range ss {
-		b.WriteString(s)
-		b.WriteString("\n")
-	}
+    for _, s := range ss {
+        b.WriteString(s)
+        b.WriteString("\n")
+    }
 }
 
 func JoinStringBuffer(ss []string) {
-	b := &bytes.Buffer{}
-	for _, s := range ss {
-		b.WriteString(s)
-		b.WriteString("\n")
-	}
+    b := &bytes.Buffer{}
+    for _, s := range ss {
+        b.WriteString(s)
+        b.WriteString("\n")
+    }
 }
 
 func JoinStringBuffer8K(ss []string) {
-	b := bytes.NewBuffer(make([]byte, 0, sz8k))
-	for _, s := range ss {
-		b.WriteString(s)
-		b.WriteString("\n")
-	}
+    b := bytes.NewBuffer(make([]byte, 0, sz8k))
+    for _, s := range ss {
+        b.WriteString(s)
+        b.WriteString("\n")
+    }
 }
 ```
 
@@ -117,77 +117,77 @@ func JoinStringBuffer8K(ss []string) {
 package join
 
 import (
-	"bufio"
-	"os"
-	"testing"
+    "bufio"
+    "os"
+    "testing"
 )
 
 func ReadAll(path string) []string {
-	file, err := os.Open(path) //maybe file path
-	if err != nil {
-		return nil
-	}
-	defer file.Close()
+    file, err := os.Open(path) //maybe file path
+    if err != nil {
+        return nil
+    }
+    defer file.Close()
 
-	scanner := bufio.NewScanner(file)
-	list := []string{}
-	for scanner.Scan() {
-		list = append(list, scanner.Text())
-	}
-	if err := scanner.Err(); err != nil {
-		return nil
-	}
-	return list
+    scanner := bufio.NewScanner(file)
+    list := []string{}
+    for scanner.Scan() {
+        list = append(list, scanner.Text())
+    }
+    if err := scanner.Err(); err != nil {
+        return nil
+    }
+    return list
 }
 
 var content = ReadAll("CollisionsForHashFunctions.txt")
 
 func BenchmarkJoinStringPlus(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		JoinStringPlus(content)
-	}
+    for i := 0; i < b.N; i++ {
+        JoinStringPlus(content)
+    }
 }
 
 func BenchmarkJoinStringJoin(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		JoinStringJoin(content)
-	}
+    for i := 0; i < b.N; i++ {
+        JoinStringJoin(content)
+    }
 }
 
 func BenchmarkJoinStringByteAppend(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		JoinStringByteAppend(content)
-	}
+    for i := 0; i < b.N; i++ {
+        JoinStringByteAppend(content)
+    }
 }
 
 func BenchmarkJoinStringByteAppend8K(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		JoinStringByteAppend8K(content)
-	}
+    for i := 0; i < b.N; i++ {
+        JoinStringByteAppend8K(content)
+    }
 }
 
 func BenchmarkJoinStringBuilder(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		JoinStringBuilder(content)
-	}
+    for i := 0; i < b.N; i++ {
+        JoinStringBuilder(content)
+    }
 }
 
 func BenchmarkJoinStringBuilder8K(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		JoinStringBuilder8K(content)
-	}
+    for i := 0; i < b.N; i++ {
+        JoinStringBuilder8K(content)
+    }
 }
 
 func BenchmarkJoinStringBuffer(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		JoinStringBuffer(content)
-	}
+    for i := 0; i < b.N; i++ {
+        JoinStringBuffer(content)
+    }
 }
 
 func BenchmarkJoinStringBuffer8K(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		JoinStringBuffer8K(content)
-	}
+    for i := 0; i < b.N; i++ {
+        JoinStringBuffer8K(content)
+    }
 }
 ```
 
@@ -198,16 +198,16 @@ $ go test -bench JoinString -benchmem
 goos: linux
 goarch: amd64
 pkg: join
-BenchmarkJoinStringPlus-4           	   19484	     65256 ns/op	  272160 B/op	      69 allocs/op
-BenchmarkJoinStringJoin-4           	  371649	      3087 ns/op	    8192 B/op	       1 allocs/op
-BenchmarkJoinStringByteAppend-4     	  151417	      8339 ns/op	   35376 B/op	      12 allocs/op
-BenchmarkJoinStringByteAppend8K-4   	  502942	      2544 ns/op	    8192 B/op	       1 allocs/op
-BenchmarkJoinStringBuilder-4        	  130408	      8434 ns/op	   35376 B/op	      12 allocs/op
-BenchmarkJoinStringBuilder8K-4      	  418900	      2781 ns/op	    8192 B/op	       1 allocs/op
-BenchmarkJoinStringBuffer-4         	  133052	      9545 ns/op	   32240 B/op	       8 allocs/op
-BenchmarkJoinStringBuffer8K-4       	  351681	      3526 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkJoinStringPlus-4                  19484         65256 ns/op      272160 B/op          69 allocs/op
+BenchmarkJoinStringJoin-4                 371649          3087 ns/op        8192 B/op           1 allocs/op
+BenchmarkJoinStringByteAppend-4           151417          8339 ns/op       35376 B/op          12 allocs/op
+BenchmarkJoinStringByteAppend8K-4         502942          2544 ns/op        8192 B/op           1 allocs/op
+BenchmarkJoinStringBuilder-4              130408          8434 ns/op       35376 B/op          12 allocs/op
+BenchmarkJoinStringBuilder8K-4            418900          2781 ns/op        8192 B/op           1 allocs/op
+BenchmarkJoinStringBuffer-4               133052          9545 ns/op       32240 B/op           8 allocs/op
+BenchmarkJoinStringBuffer8K-4             351681          3526 ns/op        8192 B/op           1 allocs/op
 PASS
-ok  	join	12.695s
+ok      join    12.695s
 ```
 
 結果を表にまとめておこう。
@@ -230,25 +230,25 @@ ok  	join	12.695s
 // Join concatenates the elements of a to create a single string. The separator string
 // sep is placed between elements in the resulting string.
 func Join(a []string, sep string) string {
-	switch len(a) {
-	case 0:
-		return ""
-	case 1:
-		return a[0]
-	}
-	n := len(sep) * (len(a) - 1)
-	for i := 0; i < len(a); i++ {
-		n += len(a[i])
-	}
+    switch len(a) {
+    case 0:
+        return ""
+    case 1:
+        return a[0]
+    }
+    n := len(sep) * (len(a) - 1)
+    for i := 0; i < len(a); i++ {
+        n += len(a[i])
+    }
 
-	var b Builder
-	b.Grow(n)
-	b.WriteString(a[0])
-	for _, s := range a[1:] {
-		b.WriteString(sep)
-		b.WriteString(s)
-	}
-	return b.String()
+    var b Builder
+    b.Grow(n)
+    b.WriteString(a[0])
+    for _, s := range a[1:] {
+        b.WriteString(sep)
+        b.WriteString(s)
+    }
+    return b.String()
 }
 ```
 
@@ -258,9 +258,9 @@ func Join(a []string, sep string) string {
 // WriteString appends the contents of s to b's buffer.
 // It returns the length of s and a nil error.
 func (b *Builder) WriteString(s string) (int, error) {
-	b.copyCheck()
-	b.buf = append(b.buf, s...)
-	return len(s), nil
+    b.copyCheck()
+    b.buf = append(b.buf, s...)
+    return len(s), nil
 }
 ```
 
