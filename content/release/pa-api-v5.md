@@ -63,7 +63,15 @@ import (
 
 func main() {
     //Create client
-    client := paapi5.DefaultClient("mytag-20", "AKIAIOSFODNN7EXAMPLE", "1234567890")
+    client := paapi5.New(
+        paapi5.WithMarketplace(paapi5.LocaleJapan),
+    ).CreateClient(
+        "mytag-20",
+        "AKIAIOSFODNN7EXAMPLE",
+        "1234567890",
+        paapi5.WithContext(context.Background()),
+        paapi5.WithHttpClient(http.DefaultClient),
+    )
 
     //Make query
     q := query.NewGetItems(client.Marketplace(), client.PartnerTag(), client.PartnerType())
@@ -195,15 +203,8 @@ $ go run sample.go | jq .
 上のコード例の
 
 ```go
-client := paapi5.DefaultClient("mytag-20", "AKIAIOSFODNN7EXAMPLE", "1234567890")
-```
-
-がリクエストを実行する [`paapi5`]`.Client` 型のインスタンスを生成している部分である。
-このコードは
-
-```go
 client := paapi5.New(
-    paapi5.WithMarketplace("www.amazon.co.jp"),
+    paapi5.WithMarketplace(paapi5.LocaleJapan),
 ).CreateClient(
     "mytag-20",
     "AKIAIOSFODNN7EXAMPLE",
@@ -213,8 +214,14 @@ client := paapi5.New(
 )
 ```
 
-と等価である。
-マーケットプレイスを指定したり [`context`]`.Context` インスタンスや [`http`]`.Client` インスタンスを指定する際にはこれを活用するとよい。
+がリクエストを実行する [`paapi5`]`.Client` 型のインスタンスを生成している部分である。
+ちなみに
+
+```go
+client := paapi5.DefaultClient("mytag-20", "AKIAIOSFODNN7EXAMPLE", "1234567890") //Create default client
+```
+
+と既定値で簡単に [`paapi5`]`.Client` インスタンスを生成することもできるが，マーケットプレイスが米国（`www.amazon.com`）になるのでご注意を。
 
 ### クエリの生成とリクエストの実行
 
