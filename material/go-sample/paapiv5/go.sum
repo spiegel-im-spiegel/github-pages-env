@@ -1,0 +1,4 @@
+github.com/spiegel-im-spiegel/errs v0.3.1 h1:GheZPMUx4o+UxShr1cOjKO5FGIJl4bcr7AY7bp1crUs=
+github.com/spiegel-im-spiegel/errs v0.3.1/go.mod h1:NwHSe6m3oAhRj2bAkkbzz9xAffIDNcP9uTdyJd9fJNs=
+github.com/spiegel-im-spiegel/pa-api v0.4.0 h1:a3wXon6Xs9GoQAlc7wetXNDh2PnnwXNDaGieRnFNHh0=
+github.com/spiegel-im-spiegel/pa-api v0.4.0/go.mod h1:pQHJUnvDo3qjskQ8Vs9+2Yv/eKLME/Kf2t/+GiXSEmE=
