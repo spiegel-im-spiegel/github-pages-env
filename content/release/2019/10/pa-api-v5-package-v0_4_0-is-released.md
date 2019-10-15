@@ -81,8 +81,8 @@ paapi5.New(
 )
 ```
 
-引数のオプション関数の仕様を変更した。
-マーケットプレイスとして以下のシンボルをセットできる。
+引数の[関数オプション]({{< ref "/golang/functional-options-pattern.md" >}})の仕様を変更した。
+以下のシンボルをマーケットプレイスとしてセットできる。
 
 ```go
 //Marketplace is enumeration of locale information

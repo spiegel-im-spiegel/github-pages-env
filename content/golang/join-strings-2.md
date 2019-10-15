@@ -97,19 +97,15 @@ func JoinStringBuffer8K(ss []string) {
 | `JoinStringPlus`         | `+` 演算子で連結する                                   |
 | `JoinStringJoin`         | [`strings`]`.Join` 関数で連結する                      |
 | `JoinStringByteAppend`   | `[]byte` 配列に追記する                                |
-| `JoinStringByteAppend8K` | `[]byte` 配列に追記する（8KB アロケーション）            |
+| `JoinStringByteAppend8K` | `[]byte` 配列に追記する（8KB アロケーション）          |
 | `JoinStringBuilder`      | [`strings`]`.Builder` に追記する                       |
 | `JoinStringBuilder8K`    | [`strings`]`.Builder` に追記する（8KB アロケーション） |
 | `JoinStringBuffer`       | [`bytes`]`.Buffer` に追記する                          |
-| `JoinStringBuffer8K`     | [`bytes`]`.Buffer` に追記する（8KB アロケーション）      |
+| `JoinStringBuffer8K`     | [`bytes`]`.Buffer` に追記する（8KB アロケーション）    |
 
 使うメソッドによって出力する型が異なるが（`string` or `[]byte`），今回は無視することにした[^str1]。
 
 [^str1]: `string` 型は不変オブジェクトなので，通常は `[]byte` 型との相互変換の際にメモリ・アロケーションとデータ・コピーが発生する。ちなみに [`strings`]`.Builder` の `String()` メソッドでは [`unsafe`] パッケージを使って無理やりキャスティングしている。
-
-入力テキストは[前回]と同じ [`CollisionsForHashFunctions.txt`](https://baldanders.info/spiegel/archive/CollisionsForHashFunctions.txt) を使用した。
-8KB ほどのサイズがある。
-つまりコピー先バッファに 8KB の容量があれば追加のアロケーションは発生しないことになる。
 
 ベンチマーク用のコードは以下の通り。
 
@@ -191,6 +187,10 @@ func BenchmarkJoinStringBuffer8K(b *testing.B) {
 }
 ```
 
+入力テキストは[前回]と同じ [`CollisionsForHashFunctions.txt`](https://baldanders.info/spiegel/archive/CollisionsForHashFunctions.txt) を使用した。
+8KB ほどのサイズがある。
+つまりコピー先バッファに 8KB の容量があれば追加のアロケーションは発生しないことになる。
+
 では，さっそく実行してみる。
 
 ```text
@@ -268,11 +268,12 @@ func (b *Builder) WriteString(s string) (int, error) {
 
 今回の検証では
 
-1. やっぱり `+` 演算子による連結はダメダメ
+1. やっぱり `+` 演算子による連結はダメダメ[^plus1]
 1. よほどの最適化が要求されない限り `[]byte` 配列への `append()` は [`strings`]`.Builder` へ代替可能[^ts1]
 1. [`strings`]`.Join()` 関数のパフォーマンスは十分なので気軽に使ってよい
 1. 文字列連結に限るなら，もはや [`bytes`]`.Buffer` は有利とは言えない
 
+[^plus1]: リテラル文字列同士の連結はコンパイラが処理するので `+` 演算子で無問題。
 [^ts1]: 内部で `append()` 関数を使っていることから分かる通り [`strings`]`.Builder` のインスタンスはコピーして使えないので注意が必要である（インスタンスのポインタを渡せばOK）。当然ながら goroutine-safe ではないので複数の goroutine 間で共有できない。
 
 といったところだろうか。
