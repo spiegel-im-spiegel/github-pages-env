@@ -116,6 +116,7 @@ const (
 
 ## ブックマーク
 
+- [PA-API v5 への移行]({{< ref "/remark/2019/10/pa-api-v5.md" >}})
 - [Go 言語用 PA-API v5 クライアント・パッケージ]({{< ref "/release/pa-api-v5.md" >}})
 
 [Go]: https://golang.org/ "The Go Programming Language"
