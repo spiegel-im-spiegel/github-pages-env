@@ -141,11 +141,13 @@ Java というか [OpenJDK] のセキュリティ管理は LTS (Long Term Suppor
 
 | Official | Release    |                   Ubuntu | Release    |   delay |
 | --------:| ---------- | ------------------------:| ---------- | -------:|
+|   11.0.5 | 2019-10-15 |                          |            | ∞ days |
 |   11.0.4 | 2019-07-16 | 11.0.4+11-1 (USN-4083-1) | 2019-07-31 | 15 days |
 |   11.0.3 | 2019-04-16 |  11.0.3+7-1 (USN-3975-1) | 2019-05-14 | 28 days |
 
 ### ブックマーク
 
+- [OpenJDK Vulnerability Advisory: 2019/10/15](https://openjdk.java.net/groups/vulnerability/advisories/2019-10-15)
 - [OpenJDK Vulnerability Advisory: 2019/7/16](https://openjdk.java.net/groups/vulnerability/advisories/2019-07-16)
     - [Oracle Java の脆弱性対策について(CVE-2019-7317等)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20190717-jre.html)
     - [USN-4083-1: OpenJDK 11 vulnerabilities | Ubuntu security notices](https://usn.ubuntu.com/4083-1/)
