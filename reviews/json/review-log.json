@@ -2060,13 +2060,19 @@
       "Type": "paapi",
       "ID": "B00I8ATHGW",
       "Title": "増補改訂版 Java言語で学ぶデザインパターン入門",
-      "URL": "https://www.amazon.co.jp/%E5%A2%97%E8%A3%9C%E6%94%B9%E8%A8%82%E7%89%88-Java%E8%A8%80%E8%AA%9E%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3%E5%85%A5%E9%96%80-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00I8ATHGW?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00I8ATHGW",
+      "URL": "https://www.amazon.co.jp/dp/B00I8ATHGW?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41mh5r0NwLL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41mh5r0NwLL._SL160_.jpg",
         "Height": 160,
         "Width": 126
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "結城 浩",
+          "Role": "著"
+        }
+      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -2077,7 +2083,7 @@
       "PublicationDate": "2004-06-18",
       "LastRelease": "2014-03-12",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -2486,13 +2492,19 @@
       "Type": "paapi",
       "ID": "B00I8AT1EU",
       "Title": "Java言語で学ぶリファクタリング入門",
-      "URL": "https://www.amazon.co.jp/Java%E8%A8%80%E8%AA%9E%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%AA%E3%83%95%E3%82%A1%E3%82%AF%E3%82%BF%E3%83%AA%E3%83%B3%E3%82%B0%E5%85%A5%E9%96%80-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00I8AT1EU?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00I8AT1EU",
+      "URL": "https://www.amazon.co.jp/dp/B00I8AT1EU?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41GPVATQiZL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41GPVATQiZL._SL160_.jpg",
         "Height": 160,
         "Width": 125
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "結城 浩",
+          "Role": "著"
+        }
+      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -2503,7 +2515,7 @@
       "PublicationDate": "2007-01-26",
       "LastRelease": "2014-03-12",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -6185,13 +6197,19 @@
       "Type": "paapi",
       "ID": "B00I8AT1BS",
       "Title": "増補改訂版 Java言語で学ぶデザインパターン入門 マルチスレッド編",
-      "URL": "https://www.amazon.co.jp/%E5%A2%97%E8%A3%9C%E6%94%B9%E8%A8%82%E7%89%88-Java%E8%A8%80%E8%AA%9E%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3%E5%85%A5%E9%96%80-%E3%83%9E%E3%83%AB%E3%83%81%E3%82%B9%E3%83%AC%E3%83%83%E3%83%89%E7%B7%A8-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00I8AT1BS?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00I8AT1BS",
+      "URL": "https://www.amazon.co.jp/dp/B00I8AT1BS?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41uoMp5etSL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41uoMp5etSL._SL160_.jpg",
         "Height": 160,
         "Width": 126
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "結城 浩",
+          "Role": "著"
+        }
+      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -6202,7 +6220,7 @@
       "PublicationDate": "2004-06-18",
       "LastRelease": "2014-03-12",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
