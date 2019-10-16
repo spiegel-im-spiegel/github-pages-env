@@ -8147,5 +8147,56 @@
       false
     ],
     "Description": "アニメ版「\u003ca href=\"http://maousama-anime.com/\"\u003e魔王様、リトライ！\u003c/a\u003e」のOP曲。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07VJKJY7M",
+      "Title": "私はどのようにしてLinuxカーネルを学んだかゆたかさんの技術書",
+      "URL": "https://www.amazon.co.jp/dp/B07VJKJY7M?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41WcUL9wdoL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "平田豊",
+          "Role": "著"
+        },
+        {
+          "Name": "MBビジネス研究班",
+          "Role": "著"
+        },
+        {
+          "Name": "MBビジネス研究班",
+          "Role": "編集"
+        }
+      ],
+      "Publisher": "まんがびと",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07VJKJY7M"
+        }
+      ],
+      "PublicationDate": "2019-07-26",
+      "LastRelease": "2019-07-26",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2019-10-16",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "読み物として面白かった。ペーペーの新人の頃を思い出しながら読んでたり。"
   }
 ]

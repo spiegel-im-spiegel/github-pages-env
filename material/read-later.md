@@ -11,8 +11,7 @@
 - [MIT Tech Review: セキュリティ・キー500個を米企業が無償提供、香港の抗議活動支援](https://www.technologyreview.jp/nl/hong-kong-protesters-get-pro-bono-cybersecurity-help-from-silicon-valley/)
 - [Factoring 2048-bit Numbers Using 20 Million Qubits - Schneier on Security](https://www.schneier.com/blog/archives/2019/10/factoring_2048-.html)
     - [[1905.09749] How to factor 2048 bit RSA integers in 8 hours using 20 million noisy qubits](https://arxiv.org/abs/1905.09749)
-- [Linuxの「sudo」コマンドにroot権限奪取の脆弱性。ユーザーID処理のバグで制限無効化 - Engadget 日本版](https://japanese.engadget.com/2019/10/14/linux-sudo-root-id/)
-    - [USN-4154-1: Sudo vulnerability | Ubuntu security notices](https://usn.ubuntu.com/4154-1/)
+- [Big Sky :: sudo の特権昇格バグはなぜ起こったのか](https://mattn.kaoriya.net/software/lang/c/20191016143950.htm)
 - [個人情報保護委、約11万件のアカウント誤表示でアマゾンジャパンに行政指導 | 日経 xTECH（クロステック）](https://tech.nikkeibp.co.jp/atcl/nxt/news/18/06203/)
 
 ## 天文関連
