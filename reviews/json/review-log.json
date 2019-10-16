@@ -6301,16 +6301,20 @@
       "Type": "paapi",
       "ID": "4900900028",
       "Title": "PGP―暗号メールと電子署名",
-      "URL": "https://www.amazon.co.jp/PGP%E2%80%95%E6%9A%97%E5%8F%B7%E3%83%A1%E3%83%BC%E3%83%AB%E3%81%A8%E9%9B%BB%E5%AD%90%E7%BD%B2%E5%90%8D-%E3%82%B7%E3%83%A0%E3%82%BD%E3%83%B3-%E3%82%AC%E3%83%BC%E3%83%95%E3%82%A3%E3%83%B3%E3%82%B1%E3%83%AB/dp/4900900028?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4900900028",
+      "URL": "https://www.amazon.co.jp/dp/4900900028?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/5132396FFQL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/5132396FFQL._SL160_.jpg",
         "Height": 160,
         "Width": 124
       },
       "ProductType": "単行本",
       "Creators": [
         {
-          "Name": "Simson Garfinkel",
+          "Name": "シムソン ガーフィンケル",
+          "Role": "著"
+        },
+        {
+          "Name": "Garfinkel,Simson",
           "Role": "原著"
         },
         {
@@ -6327,12 +6331,16 @@
         {
           "Name": "EAN",
           "Value": "9784900900028"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4900900028"
         }
       ],
-      "PublicationDate": "",
+      "PublicationDate": "1996-04-01",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },

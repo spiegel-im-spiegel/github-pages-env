@@ -120,18 +120,17 @@ tags        = [ "openpgp", "gnupg", "bookmark" ]
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4900900028?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://images-fe.ssl-images-amazon.com/images/I/5132396FFQL._SL160_.jpg" width="124" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4900900028?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/5132396FFQL._SL160_.jpg" width="124" alt="photo"></a></div>
   <dl class="fn">
     <dt><a href="https://www.amazon.co.jp/dp/4900900028?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">PGP―暗号メールと電子署名</a></dt>
-	<dd>シムソン ガーフィンケル</dd>
-	<dd>Simson Garfinkel (原著), ユニテック (翻訳)</dd>
-    <dd>オライリー・ジャパン 1996-04</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4900900028, EAN: 9784900900028</dd>
+    <dd>シムソン ガーフィンケル (著), Garfinkel,Simson (原著), ユニテック (翻訳)</dd>
+    <dd>オライリー・ジャパン 1996-04-01</dd>
+    <dd>単行本</dd>
+    <dd>4900900028 (ASIN), 9784900900028 (EAN), 4900900028 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="3">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">良書なのだが，残念ながら内容が古すぎた。 PGP の歴史資料として読むならいいかもしれない。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-10-16">2014-10-16</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-10-16">2014-10-16</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
