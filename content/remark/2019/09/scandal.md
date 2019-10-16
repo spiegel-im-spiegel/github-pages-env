@@ -32,6 +32,7 @@ pageType = "text"
     - [ブログ: RMSの辞任に関する意見](https://okuranagaimo.blogspot.com/2019/09/rms.html)
 - [thoughts on rms and gnu -- wingolog](http://wingolog.org/archives/2019/10/08/thoughts-on-rms-and-gnu)
     - [ブログ: rmsとgnuについての考え](https://okuranagaimo.blogspot.com/2019/10/rmsgnu.html)
+- [ブログ: リチャード・ストールマン、彼の指導者の地位を終わらせるという27人のGNUプロジェクト開発者の活動を無視](https://okuranagaimo.blogspot.com/2019/10/27gnu.html)
 
 ## （本記事とはなんの関係もない）参考図書
 
