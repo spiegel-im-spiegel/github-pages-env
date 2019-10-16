@@ -2023,13 +2023,19 @@
       "Type": "paapi",
       "ID": "B015643CPE",
       "Title": "暗号技術入門 第3版　秘密の国のアリス",
-      "URL": "https://www.amazon.co.jp/%E6%9A%97%E5%8F%B7%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80-%E7%AC%AC3%E7%89%88-%E7%A7%98%E5%AF%86%E3%81%AE%E5%9B%BD%E3%81%AE%E3%82%A2%E3%83%AA%E3%82%B9-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B015643CPE?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B015643CPE",
+      "URL": "https://www.amazon.co.jp/dp/B015643CPE?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51t6yHHVwEL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51t6yHHVwEL._SL160_.jpg",
         "Height": 160,
         "Width": 113
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "結城 浩",
+          "Role": "著"
+        }
+      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -2040,7 +2046,7 @@
       "PublicationDate": "2015-08-25",
       "LastRelease": "2015-09-17",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -2402,14 +2408,18 @@
       "Type": "paapi",
       "ID": "4314009071",
       "Title": "暗号化 プライバシーを救った反乱者たち",
-      "URL": "https://www.amazon.co.jp/%E6%9A%97%E5%8F%B7%E5%8C%96-%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%82%92%E6%95%91%E3%81%A3%E3%81%9F%E5%8F%8D%E4%B9%B1%E8%80%85%E3%81%9F%E3%81%A1-%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%83%96%E3%83%B3%E3%83%BB%E3%83%AC%E3%83%93%E3%83%BC/dp/4314009071?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4314009071",
+      "URL": "https://www.amazon.co.jp/dp/4314009071?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51ZRZ62WKCL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51ZRZ62WKCL._SL160_.jpg",
         "Height": 160,
         "Width": 108
       },
       "ProductType": "単行本",
       "Creators": [
+        {
+          "Name": "スティーブン・レビー",
+          "Role": "著"
+        },
         {
           "Name": "斉藤 隆央",
           "Role": "翻訳"
@@ -2424,12 +2434,16 @@
         {
           "Name": "EAN",
           "Value": "9784314009072"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4314009071"
         }
       ],
       "PublicationDate": "2002-02-16",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
