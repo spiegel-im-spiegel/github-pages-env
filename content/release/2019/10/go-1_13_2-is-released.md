@@ -1,7 +1,7 @@
 +++
-title = "Go 1.13.2 のリリース【セキュリティ・アップデート】"
+title = "Go 1.13.2 および Go 1.13.3 のリリース【セキュリティ・アップデート】"
 date =  "2019-10-18T05:00:51+09:00"
-description = "今回のはちょーっとヤバめかも。"
+description = "今回のはちょーっとヤバめかも。あと Go 1.13.3 のリリースを追記した。"
 image = "/images/attention/go-logo_blue.png"
 tags  = [ "programming", "language", "golang", "ubuntu", "security", "vulnerability" ]
 pageType = "text"
@@ -39,18 +39,35 @@ HTTPS サーバを構成している場合は要注意。
 
 とあり， [Go] 1.13.x でバイナリを提供している場合はもれなくリコンパイルする必要があるかもねぇ。
 
-[Ubuntu] の APT は相変わらずサポートから外れた 1.10.x しか対応していないので[ダウンロードページ](https://golang.org/dl/ "Downloads - The Go Programming Language")からバイナリ（[`go1.13.2.linux-amd64.tar.gz`](https://dl.google.com/go/go1.13.2.linux-amd64.tar.gz)）を取ってきて手動でインストールすることを強く推奨する。
+## 【追記】 [Go] 1.13.3 のリリース
+
+まさか5時間足らずでアップデートするとは思わざりき。
+別途記事を起こすのはアレなので，この記事に追記する。
+フットワークの軽い言語だとポジティブに考えることにしよう（笑）
+
+というわけで [Go] 1.13.3 がリリースされた。
+
+- [Go 1.13.3 and Go 1.12.12 are released - Google Group](https://groups.google.com/forum/#!topic/golang-announce/R3XK-Wf-Mtk)
+
+{{< fig-quote type="md" title="Release History - The Go Programming Language" link="https://github.com/golang/go/issues?q=milestone%3AGo1.13.3" lang="en" >}}
+{{< quote >}}go1.13.3 (released 2019/10/17) includes fixes to the go command, the toolchain, the `runtime`, `syscall`, `net`, `net/http`, and `crypto/ecdsa` packages. See the [Go 1.13.3 milestone](https://github.com/golang/go/issues?q=milestone%3AGo1.13.3) on our issue tracker for details{{< /quote >}}.
+{{< /fig-quote >}}
+
+1.13.2 のアップデートがまだの人はまとめてやってしまおう。
+私のように既にアップデートしてしまった人は，ごくろーさん（泣）
+
+[Ubuntu] の APT は相変わらずサポートから外れた 1.10.x しか対応していないので[ダウンロードページ](https://golang.org/dl/ "Downloads - The Go Programming Language")からバイナリ（[`go1.13.3.linux-amd64.tar.gz`](https://dl.google.com/go/go1.13.3.linux-amd64.tar.gz)）を取ってきて手動でインストールすることを強く推奨する。
 
 ```text
 $ cd /usr/local/src
-$ sudo curl "https://dl.google.com/go/go1.13.2.linux-amd64.tar.gz" -O
+$ sudo curl "https://dl.google.com/go/go1.13.3.linux-amd64.tar.gz" -O
 $ cd ..
 $ sudo unlink go # 以前の Go が入っている場合
-$ sudo tar xvf src/go1.13.2.linux-amd64.tar.gz
-$ sudo mv go go1.13.2
-$ sudo ln -s go1.13.2 go
+$ sudo tar xvf src/go1.13.3.linux-amd64.tar.gz
+$ sudo mv go go1.13.3
+$ sudo ln -s go1.13.3 go
 $ go version # /usr/local/go/bin にパスが通っている場合
-go version go1.13.2 linux/amd64
+go version go1.13.3 linux/amd64
 ```
 
 アップデートは計画的に。
