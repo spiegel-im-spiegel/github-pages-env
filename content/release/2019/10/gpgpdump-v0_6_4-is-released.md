@@ -1,7 +1,7 @@
 +++
-title = "gpgpdump v0.6.2 をリリースした"
-date =  "2019-09-09T19:38:32+09:00"
-description = "今回は細かい調整のみ。 draft-ietf-openpgp-rfc4880bis-08 への追随も行った。"
+title = "gpgpdump v0.6.4 をリリースした"
+date =  "2019-10-18T23:33:08+09:00"
+description = "主目的は Go 1.13.3 でリコンパイルすることだったり。というわけで，よろしければ更新しておいてください。"
 image = "/images/attention/openpgp.png"
 tags = ["tools", "openpgp", "golang", "gpgpdump"]
 pageType = "text"
@@ -11,31 +11,26 @@ pageType = "text"
   mermaidjs = false
 +++
 
-[OpenPGP] パケットの内容を可視化する [gpgpdump] の v0.6.2 をリリースした。
+[OpenPGP] パケットの内容を可視化する [gpgpdump] の v0.6.4 をリリースした。
 
-- [Release v0.6.2 · spiegel-im-spiegel/gpgpdump · GitHub](https://github.com/spiegel-im-spiegel/gpgpdump/releases/tag/v0.6.2)
+- [Release v0.6.4 · spiegel-im-spiegel/gpgpdump · GitHub](https://github.com/spiegel-im-spiegel/gpgpdump/releases/tag/v0.6.4)
 
-といっても今回は細かい調整のみ。
-[Go] 1.13 に対応したのと新しいエラーハンドリング・パッケージ [spiegel-im-spiegel/errs] を組み込んだだけ。
-でも，これでデバッグが格段にし易くなった。
+といっても，今回は機能的な変更・修正はほとんどなくて（[spiegel-im-spiegel/errs] パッケージを更新したくらい），主目的は [Go] 1.13.3 でリコンパイルすることだったり。
 
-あ，そうそう。
-[draft-ietf-openpgp-rfc4880bis-08](https://tools.ietf.org/html/draft-ietf-openpgp-rfc4880bis-08 "draft-ietf-openpgp-rfc4880bis-08 - OpenPGP Message Format") への追随も行った。
-でも試す対象がないからなぁ（笑）
+実は
 
-[gpgpdump] の使い方等は以下を参照のこと。
+- [openpgp-wg / openpgp-samples · GitLab](https://gitlab.com/openpgp-wg/openpgp-samples)
 
-- [OpenPGP パケットを可視化する gpgpdump]({{< ref "/release/gpgpdump.md" >}})
+というリポジトリができていて，これを使って検証とテストを行おうとしたのだが，テストするまでもなく全く問題なく表示されたという（笑）
+
+というわけで，よろしければ更新しておいてください。
 
 ## ブックマーク
 
-- [Go 言語用エラーハンドリング・パッケージをリリースした]({{< ref "/release/2019/09/errs-package-is-released.md" >}})
-- [spiegel-im-spiegel/gocli v0.10.1 のリリース]({{< ref "/release/2019/09/gocli-v0_10_1-is-released.md" >}})
+- [Go 1.13.2 および Go 1.13.3 のリリース【セキュリティ・アップデート】]({{< ref "/release/2019/10/go-1_13_2-is-released.md" >}})
 
 [gpgpdump]: https://github.com/spiegel-im-spiegel/gpgpdump "spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer"
-[pgpdump]: http://www.mew.org/~kazu/proj/pgpdump/ "pgpdump"
 [OpenPGP]: http://openpgp.org/
-[GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 [Go]: https://golang.org/ "The Go Programming Language"
 [spiegel-im-spiegel/errs]: https://github.com/spiegel-im-spiegel/errs "spiegel-im-spiegel/errs: Error handling for Golang"
 
