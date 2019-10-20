@@ -18,6 +18,7 @@ pageType = "text"
 
 - [Release v0.4.0 · spiegel-im-spiegel/pa-api · GitHub](https://github.com/spiegel-im-spiegel/pa-api/releases/tag/v0.4.0)
 - [Release v0.4.1 · spiegel-im-spiegel/pa-api · GitHub](https://github.com/spiegel-im-spiegel/pa-api/releases/tag/v0.4.1)
+- [Release v0.4.2 · spiegel-im-spiegel/pa-api · GitHub](https://github.com/spiegel-im-spiegel/pa-api/releases/tag/v0.4.2)
 
 まずは，アイテム検索用の query 構造体を作ってもらっちゃった。
 これを使って，こんな感じにアイテムの検索ができる。
