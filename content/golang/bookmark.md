@@ -146,6 +146,7 @@ title = "Go 言語に関するブックマーク"
 - [Goを読むその1：go installの流れ](https://qiita.com/junjis0203/items/de55bb69945f08a9166c)
     - [Goを読むその2：compileコマンド（構文解析まで）](https://qiita.com/junjis0203/items/616c00086eb336153f4f)
 - [[Go]imported and not usedエラー・declared and not usedエラーとの向き合いかた - My External Storage](https://budougumi0617.github.io/2019/10/06/imported-declared-not-used-error/)
+- [C から Go へコードを移植してハマった話 (そして言語仕様へ) - Qiita](https://qiita.com/akif999/items/a94dd8a6fe29dda2b560)
 
 ### オブジェクトに関すること
 
@@ -281,6 +282,7 @@ title = "Go 言語に関するブックマーク"
 - [goroutineとチャネルの動きを図を使って理解する(和訳) - Qiita](https://qiita.com/hirano00o/items/828393342efcd80aa2e6)
 - [goleakでgoroutine leakのリスクを減らす - Qiita](https://qiita.com/smith-30/items/67c4f894bec45a6fd82a)
 - [Go の -race option は内部で何をしているのか。何を検知しないのか。 - Qiita](https://qiita.com/po3rin/items/18a6621f39e9a6f6f7c4)
+- [Achieving concurrency in Go - RunGo - Medium](https://medium.com/rungo/achieving-concurrency-in-go-3f84cbf870ca)
 
 Go 言語で複数 CPU を使った並列処理を行うには明示的な設定が必要。
 

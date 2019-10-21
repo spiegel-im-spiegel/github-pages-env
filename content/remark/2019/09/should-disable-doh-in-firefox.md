@@ -3,7 +3,7 @@ title = "Firefox の DoH は無効にすべきか（もしくは水売りと水�
 date =  "2019-09-15T10:31:39+09:00"
 description = "これは ISPA の言いがかりみたいな話ではなく，現在のインターネットの構造，ひいては社会システムに連動する問題提起だ。"
 image = "/images/attention/kitten.jpg"
-tags = [ "internet", "privacy", "firefox", "grigori" ]
+tags = [ "internet", "privacy", "security", "firefox", "grigori" ]
 pageType = "text"
 
 [scripts]
@@ -66,7 +66,6 @@ pageType = "text"
 
 と書かれていて，これに関しては激しく同意する。
 
-
 そういえば最近 Firefox 69 がリリースされて
 
 - [Today’s Firefox Blocks Third-Party Tracking Cookies and Cryptomining by Default - The Mozilla Blog](https://blog.mozilla.org/blog/2019/09/03/todays-firefox-blocks-third-party-tracking-cookies-and-cryptomining-by-default/)
@@ -89,6 +88,8 @@ pageType = "text"
     - [DNS暗号化はプライバシーギャップの克服にきわめて有効……なのになぜ反対の声が上がっているのか？ | P2Pとかその辺のお話R](https://p2ptk.org/privacy/2794)
 - [ISP Column - September 2019](https://www.potaroo.net/ispcol/2019-09/centrality.html)
     - [ブログ: DNSリゾルバーの中心性](https://okuranagaimo.blogspot.com/2019/09/dns.html)
+- [DNS Security: Threat Modeling DNSSEC, DoT, and DoH](https://www.netmeister.org/blog/doh-dot-dnssec.html)
+    - [ブログ: DNSセキュリティ: DNSSEC、DoT、およびDoHの脅威モデリング](https://okuranagaimo.blogspot.com/2019/10/dns-dnssecdotdoh.html)
 
 - [監視をコントロールする](https://baldanders.info/blog/000490/)
 
@@ -97,29 +98,27 @@ pageType = "text"
 ## 参考文献
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E8%B6%85%E7%9B%A3%E8%A6%96%E7%A4%BE%E4%BC%9A-%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%83%BB%E3%82%B7%E3%83%A5%E3%83%8A%E3%82%A4%E3%82%A2%E3%83%BC-ebook/dp/B01MZGVHOA?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01MZGVHOA"><img src="https://images-fe.ssl-images-amazon.com/images/I/51T6PBdGbyL._SL160_.jpg" width="108" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B01MZGVHOA?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51T6PBdGbyL._SL160_.jpg" width="108" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E8%B6%85%E7%9B%A3%E8%A6%96%E7%A4%BE%E4%BC%9A-%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%83%BB%E3%82%B7%E3%83%A5%E3%83%8A%E3%82%A4%E3%82%A2%E3%83%BC-ebook/dp/B01MZGVHOA?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01MZGVHOA">超監視社会</a></dt>
-    <dd>ブルース・シュナイアー</dd>
-    <dd>池村 千秋 (翻訳)</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/B01MZGVHOA?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">超監視社会</a></dt>
+    <dd>ブルース・シュナイアー (著), 池村 千秋 (翻訳)</dd>
     <dd>草思社 2016-12-13 (Release 2017-02-03)</dd>
     <dd>Kindle版</dd>
     <dd>B01MZGVHOA (ASIN)</dd>
   </dl>
   <p class="description">実は積ん読のまま読んでない。そろそろちゃんと最後まで読まないと。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-03-23">2019-03-23</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-API</a>)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-03-23">2019-03-23</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E9%9F%B3%E6%A5%BD%E3%81%AE%E8%A1%8C%E6%96%B9-David-Kusek/dp/4798110035?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4798110035"><img src="https://images-fe.ssl-images-amazon.com/images/I/51HINm31mtL._SL160_.jpg" width="111" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4798110035?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51HINm31mtL._SL160_.jpg" width="111" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E9%9F%B3%E6%A5%BD%E3%81%AE%E8%A1%8C%E6%96%B9-David-Kusek/dp/4798110035?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4798110035">デジタル音楽の行方</a></dt>
-    <dd>David Kusek, Gerd Leonhard, yomoyomo</dd>
-    <dd>yomoyomo (翻訳), 津田 大介 (翻訳)</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4798110035?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">デジタル音楽の行方</a></dt>
+    <dd>David Kusek (著), David Kusek (著), Gerd Leonhard (著), Gerd Leonhard (著), yomoyomo (著), yomoyomo (翻訳), 津田 大介 (翻訳)</dd>
     <dd>翔泳社 2005-12-06</dd>
     <dd>単行本</dd>
-    <dd>4798110035 (ASIN), 9784798110035 (EAN)</dd>
+    <dd>4798110035 (ASIN), 9784798110035 (EAN), 4798110035 (ISBN)</dd>
   </dl>
   <p class="description">読んでない。絶賛絶版中？ もはや歴史的価値の有無さえ不明。「デジタル」とタイトルに冠されているにも関わらず Kindle 化すらされてないことに出版側のやる気を感じる（笑）</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-07-30">2017-07-30</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-API</a>)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-07-30">2017-07-30</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>

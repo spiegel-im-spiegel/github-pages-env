@@ -108,6 +108,8 @@ OpenSSH_8.0p1 Ubuntu-6build1, OpenSSL 1.1.1c  28 May 2019
 
 ## ブックマーク
 
+- [Ubuntu 19.10 その26 - インストーラーからZFS on rootの構築が可能に - kledgeb](https://kledgeb.blogspot.com/2019/10/ubuntu-1910-26-zfs-on-root.html)
+
 - [Ubuntu アプリケーションにおけるセキュリティ・アップデート一覧]({{< ref "/release/vuln-list.md" >}})
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
