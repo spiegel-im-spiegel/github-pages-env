@@ -25,6 +25,10 @@ pageType = "text"
 - [MIT Tech Review: 「アレクサ、赤ちゃんを見てて」ホワイトノイズで呼吸を監視](https://www.technologyreview.jp/nl/alexa-monitor-my-baby-a-smart-speaker-app-can-monitor-an-infants-breathing/) : 怖っ！
 - [変なホテルの客室ロボット タピアの脆弱性についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/10/21/070146)
 - [米国発のセキュリティマネジメント成熟度の評価モデル「ES-C2M2」の解説書およびチェックシートの公開：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/controlsystem/usenergy.html)
+- [Forum cracks the vintage passwords of Ken Thompson and other Unix pioneers | Ars Technica](https://arstechnica.com/information-technology/2019/10/forum-cracks-the-vintage-passwords-of-ken-thompson-and-other-unix-pioneers/)
+    - [Cracking the Passwords of Early Internet Pioneers - Schneier on Security](https://www.schneier.com/blog/archives/2019/10/cracking_the_pa.html)
+- [MIT Tech Review: 人工衛星が「全世界常時監視カメラ」になる日](https://www.technologyreview.jp/s/159106/soon-satellites-will-be-able-to-watch-you-everywhere-all-the-time/)
+- [米、イランにサイバー攻撃--サウジ石油施設攻撃への報復か - ZDNet Japan](https://japan.zdnet.com/article/35144068/)
 
 ## 天文関連
 
@@ -35,6 +39,7 @@ pageType = "text"
 - [How Two Nobel Laureates Spotted the First Exoplanet | WIRED](https://www.wired.com/story/how-two-nobel-laureates-spotted-the-first-exoplanet/)
     - [ブログ: 2人のノーベル賞受賞者が最初の太陽系外惑星を発見した方法](https://okuranagaimo.blogspot.com/2019/10/2.html)
 - [ニュース - プレッツェルのような双子星の「へその緒」 - アルマ望遠鏡](https://alma-telescope.jp/news/pretzel-201910)
+- [合体する銀河に潜んでいる。接近した3つの超大質量ブラックホールを観測 - sorae 宇宙へのポータルサイト](https://sorae.info/astronomy/20191014-chandra.html)
 
 ## 知財関連
 
@@ -68,3 +73,11 @@ pageType = "text"
 - [go1.13でgolangci-lint使った時にエラーが多発する時の対処法 - Qiita](https://qiita.com/Tommy_/items/a3738cd8229b53157cae)
 - [MediaLabがメッセージアプリKikを買収し閉鎖を回避  |  TechCrunch Japan](https://jp.techcrunch.com/2019/10/21/2019-10-19-medialab-kik-messenger-app-portfolio/)
 - [Goでプロセス監視のTUIツールを作ったら便利だった件 - Qiita](https://qiita.com/gorilla0513/items/8b9ff01c915e2626dac9)
+- [Google開発主導のビルドツール「Bazel」がバージョン1.0に到達、次期Angluarでも正式採用へ － Publickey](https://www.publickey1.jp/blog/19/googlebazel10angluar.html)
+- [Visual Studio CodeがPython対応強化。Jupyter Notebooksネイティブ編集、Pythonファイルの直接実行など － Publickey](https://www.publickey1.jp/blog/19/visual_studio_codepythonjupyter_notebookspython.html)
+- [DatabricksがDelta LakeプロジェクトをLinux Foundationに移管  |  TechCrunch Japan](https://jp.techcrunch.com/2019/10/16/2019-10-15-databricks-brings-its-delta-lake-open-source-project-to-the-linux-foundation/)
+- [AWS、Amazon PrimeやKindle、Alexaなどで使用していた約75ペタバイト7500のOracleデータベースをダウンタイムなしで自社データベースサービスへ移行したと報告 － Publickey](https://www.publickey1.jp/blog/19/awsamazon_primekindlealexa757500oracle.html)
+    - [Amazonが100以上の消費者サービスのデータベースをOracleからAWSに移行  |  TechCrunch Japan](https://jp.techcrunch.com/2019/10/16/2019-10-15-amazon-migrates-more-than-100-consumer-services-from-oracle-to-aws-databases/)
+- [SpaceXがStarlink衛星3万台追加打ち上げの申請書を提出  |  TechCrunch Japan](https://jp.techcrunch.com/2019/10/17/2019-10-15-spacex-files-paperwork-to-launch-up-to-30000-more-starlink-global-internet-satellites/)
+- [MIT Tech Review: 小惑星資源採掘バブル崩壊は何を残したのか？](https://www.technologyreview.jp/s/159110/how-the-asteroid-mining-bubble-burst/)
+- [トーバルズ氏が見るマイクロソフトとLinux - ZDNet Japan](https://japan.zdnet.com/article/35143737/)
