@@ -8244,5 +8244,60 @@
       false
     ],
     "Description": "読み物として面白かった。ペーペーの新人の頃を思い出しながら読んでたり。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4873115531",
+      "Title": "JavaScriptリファレンス 第6版",
+      "URL": "https://www.amazon.co.jp/dp/4873115531?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51HQWyI1aUL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "David Flanagan",
+          "Role": "著"
+        },
+        {
+          "Name": "木下 哲也",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "オライリージャパン",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4873115531"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784873115535"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4873115531"
+        }
+      ],
+      "PublicationDate": "2012-08-10",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2019-10-21",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "最初に私が JavaScript を勉強したのって，これよりも更に古い版だったんだよなぁ。この版でも今となっては古すぎて使い物にならないけど（笑）"
   }
 ]
