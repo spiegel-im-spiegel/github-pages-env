@@ -28,16 +28,6 @@ pageType = "text"
 
 ## 個別のアプリケーションについて
 
-### [Lollypop]
-
-音楽プレイヤー [Lollypop] の [PPA] は今のところ [Ubuntu] 19.10 に対応していない。
-無理矢理リポジトリを繋いでも `apt update` でエラーになるだけなので注意すること。
-しばらくは様子見かな。
-
-- [音楽プレイヤー Lollypop を試す]({{< ref "/remark/2019/06/lollypop-music-player.md" >}})
-
-[Lollypop]: https://wiki.gnome.org/Apps/Lollypop?action=show "Apps/Lollypop - GNOME Wiki!"
-
 ### [GnuPG] および [Libgcrypt]
 
 [GnuPG] および [Libgcrypt] はアップデートされなかった。
@@ -93,6 +83,17 @@ OpenSSH_8.0p1 Ubuntu-6build1, OpenSSL 1.1.1c  28 May 2019
 [Thunderbird] に関しては [Enigmail が2020年夏に本体に組み込まれる](https://blog.mozilla.org/thunderbird/2019/10/thunderbird-enigmail-and-openpgp/)という話もあるので，きちんと追従していただきたいところである。
 
 [Thunderbird]: https://www.thunderbird.net/ "Thunderbird — Software made to make email easier. — Mozilla"
+
+### [Lollypop]
+
+（2019-10-24 更新）
+
+音楽プレイヤー [Lollypop の PPA](https://launchpad.net/~gnumdk/+archive/ubuntu/lollypop "Lollypop : Cédric Bellegarde") が 19.10 に対応した。
+詳しくは以下の記事をどうぞ。
+
+- [音楽プレイヤー Lollypop を試す]({{< ref "/remark/2019/06/lollypop-music-player.md" >}})
+
+[Lollypop]: https://wiki.gnome.org/Apps/Lollypop?action=show "Apps/Lollypop - GNOME Wiki!"
 
 ### [LibreOffice]
 

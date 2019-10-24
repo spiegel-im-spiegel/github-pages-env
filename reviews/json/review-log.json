@@ -3068,9 +3068,9 @@
       "Type": "paapi",
       "ID": "B07STKKM3D",
       "Title": "賢者の孫EDﾃｰﾏ｢圧倒的Vivid Days｣",
-      "URL": "https://www.amazon.co.jp/%E8%B3%A2%E8%80%85%E3%81%AE%E5%AD%ABED%EF%BE%83%EF%BD%B0%EF%BE%8F%EF%BD%A2%E5%9C%A7%E5%80%92%E7%9A%84Vivid-Days%EF%BD%A3-%E5%90%89%E4%B8%83%E5%91%B3%E3%80%82/dp/B07STKKM3D?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B07STKKM3D",
+      "URL": "https://www.amazon.co.jp/dp/B07STKKM3D?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/610RL7gTRYL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/610RL7gTRYL._SL160_.jpg",
         "Height": 160,
         "Width": 160
       },
@@ -3091,7 +3091,7 @@
       "PublicationDate": "",
       "LastRelease": "2019-06-19",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
