@@ -63,35 +63,21 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ## Firefox
 
-| Official | Release    |                       Ubuntu | Release    |  delay |
-| --------:| ---------- | ----------------------------:| ---------- | ------:|
-|   69.0.3 | 2019-10-10 |               (Ubuntu 19.10) | 2019-10-17 | 7 days |
-|   69.0.2 | 2019-10-03 | 69.0.2+build1-0 (USN-4122-2) | 2019-10-08 | 5 days |
-|   69.0.1 | 2019-09-18 | 69.0.1+build1-0 (USN-4140-1) | 2019-09-25 | 7 days |
-|     69.0 | 2019-09-03 |   69.0+build2-0 (USN-4122-1) | 2019-09-03 | 1 days |
-|   68.0.2 | 2019-08-14 | 68.0.2+build1-0 (USN-4101-1) | 2019-08-16 | 2 days |
-|   68.0.1 | 2019-07-18 | 68.0.1+build1-0 (USN-4054-1) | 2019-07-25 | 7 days |
-|     68.0 | 2019-07-09 |   68.0+build3-0 (USN-4054-1) | 2019-07-12 | 3 days |
-|   67.0.4 | 2019-06-20 | 67.0.4+build1-0 (USN-4032-1) | 2019-06-24 | 4 days |
-|   67.0.3 | 2019-06-18 | 67.0.3+build1-0 (USN-4020-1) | 2019-07-20 | 2 days |
+| Official | Release    |                     Ubuntu | Release    |  delay |
+| --------:| ---------- | --------------------------:| ---------- | ------:|
+|     70.0 | 2019-10-22 | 70.0+build2-0 (USN-4165-1) | 2019-10-23 | 1 days |
+|   69.0.3 | 2019-10-10 |             (Ubuntu 19.10) | 2019-10-17 | 7 days |
 
 ### ブックマーク
 
+- [Firefox  70.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/70.0/releasenotes/)
 - [Firefox  69.0.3, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/69.0.3/releasenotes/)
-- [Firefox  69.0.2, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/69.0.2/releasenotes/)
-- [Firefox  69.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/69.0.1/releasenotes/)
-- [Firefox  69.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/69.0/releasenotes/)
-- [Firefox  68.0.2, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/68.0.2/releasenotes/)
-- [Firefox  68.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/68.0.1/releasenotes/)
-- [Firefox  68.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/68.0/releasenotes/)
-- [Firefox  67.0.4, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/67.0.4/releasenotes/)
-- [Firefox  67.0.3, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/67.0.3/releasenotes/)
-    - [Firefox の脆弱性 (CVE-2019-11707) に関する注意喚起](https://www.jpcert.or.jp/at/2019/at190027.html)
 
 ## Thunderbird
 
 | Official | Release    |                       Ubuntu | Release    |   delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
+|   68.2.0 | 2019-10-22 |                              |            | ∞ days |
 |   68.1.2 | 2019-10-10 |               (Ubuntu 19.10) | 2019-10-17 |  7 days |
 |   68.1.1 | 2019-09-25 |                      &mdash; | &mdash;    | &mdash; |
 |     68.1 | 2019-09-11 |                      &mdash; | &mdash;    | &mdash; |
@@ -102,13 +88,12 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (68.2.0) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.2.0/releasenotes/)
 - [Thunderbird — Release Notes (68.1.2) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.1.2/releasenotes/)
 - [Thunderbird — Release Notes (68.1.1) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.1.1/releasenotes/)
 - [Thunderbird — Release Notes (68.1.0) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.1.0/releasenotes/)
 - [Thunderbird — Release Notes (60.9.0) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/60.9.0/releasenotes/)
 - [Thunderbird — Release Notes (68.0) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.0/releasenotes/)
-- [フリーのメールソフト「Thunderbird」v60.8.0が正式公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1195473.html)
-- [「Thunderbird」v60.7.2が公開 ～「Firefox」で悪用されているゼロデイ脆弱性に対処 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1191820.html)
 
 ## LibreOffice
 
