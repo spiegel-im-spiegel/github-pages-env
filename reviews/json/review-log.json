@@ -8299,5 +8299,99 @@
       false
     ],
     "Description": "最初に私が JavaScript を勉強したのって，これよりも更に古い版だったんだよなぁ。この版でも今となっては古すぎて使い物にならないけど（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00YRVO8EC",
+      "Title": "アトム ザ・ビギニング1(ヒーローズコミックス)",
+      "URL": "https://www.amazon.co.jp/dp/B00YRVO8EC?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61Rdpb2-zML._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "手塚治虫",
+          "Role": "著"
+        },
+        {
+          "Name": "ゆうきまさみ",
+          "Role": "著"
+        },
+        {
+          "Name": "カサハラテツロー",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "ヒーローズ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00YRVO8EC"
+        }
+      ],
+      "PublicationDate": "2015-06-05",
+      "LastRelease": "2015-06-05",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2019-10-25",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "あれ。4年前に買ったけど全く読んでない。 Kindle の肥やしになってるな（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00B47FIDC",
+      "Title": "PLUTO 豪華版 コミック 全8巻完結セット (ビッグコミックススペシャル)",
+      "URL": "https://www.amazon.co.jp/dp/B00B47FIDC?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51F+fSE3o+L._SL160_.jpg",
+        "Height": 135,
+        "Width": 160
+      },
+      "ProductType": "コミック",
+      "Creators": [
+        {
+          "Name": "浦沢 直樹",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "小学館",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00B47FIDC"
+        }
+      ],
+      "PublicationDate": "2009-06-20",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2019-10-25",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "「鉄腕アトム」のスピンオフ作品の中では一番面白かった。やっぱ鉄腕アトムは「残酷」じゃないとね（笑） 浦沢直樹さんはオリジナル・シナリオよりこういうタイプの作品のほうがダントツに面白いな。"
   }
 ]
