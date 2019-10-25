@@ -5,14 +5,14 @@ import (
 	"os"
 	"runtime"
 	"time"
-
 	"walking"
 
 	"github.com/saracen/walker"
 )
 
 func main() {
-	rootPath := "/usr/local/go/src/cmd/go/testdata/script"
+	rootPath := "/usr/local/go/src"
+	//rootPath := "/usr/local/go/src/cmd/go/testdata/script"
 	list := walking.NewList()
 	fmt.Println("CPUs:", runtime.NumCPU())
 
@@ -23,13 +23,13 @@ func main() {
 		}
 		return nil
 	})
-	fmt.Println("Time:", time.Now().Sub(start))
+	fmt.Println("Time:", time.Since(start))
 	if err != nil {
 		fmt.Printf("%+v\n", err) //for debug
 		return
 	}
 	fmt.Println("Count:", list.Count())
-	for _, path := range list.List() {
-		fmt.Println(path)
-	}
+	// for _, path := range list.List() {
+	// 	fmt.Println(path)
+	// }
 }

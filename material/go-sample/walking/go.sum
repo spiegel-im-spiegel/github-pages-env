@@ -1,10 +1,12 @@
-github.com/saracen/walker v0.0.0-20191012105946-7b0a8b523656 h1:e7o8n4+PQkyIrRJWuY97aYiGCZZgYI59xzOuh79pD60=
-github.com/saracen/walker v0.0.0-20191012105946-7b0a8b523656/go.mod h1:ppAQzi/cJbA15YiMHX4cmv5D6DUedBfkOrvsw7rBkrY=
-github.com/spiegel-im-spiegel/errs v0.3.1 h1:GheZPMUx4o+UxShr1cOjKO5FGIJl4bcr7AY7bp1crUs=
-github.com/spiegel-im-spiegel/errs v0.3.1/go.mod h1:NwHSe6m3oAhRj2bAkkbzz9xAffIDNcP9uTdyJd9fJNs=
+github.com/saracen/walker v0.0.0-20191020095038-4d832ad28155 h1:6cXEis177J1IafLIpOHbPmn8di/6nBECKDUc+Ulfo/Q=
+github.com/saracen/walker v0.0.0-20191020095038-4d832ad28155/go.mod h1:VYm6MDHqbAnTSqTpGgLKPoDhJrUXtknAIO6qQAiFwN4=
+github.com/spiegel-im-spiegel/errs v0.3.2 h1:D4jUouZHBto4Vg+kxc0QNChf3aMynM3FDMNPAq64i2U=
+github.com/spiegel-im-spiegel/errs v0.3.2/go.mod h1:NwHSe6m3oAhRj2bAkkbzz9xAffIDNcP9uTdyJd9fJNs=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/net v0.0.0-20190620200207-3b0461eec859/go.mod h1:z5CRVTTTmAJ677TzLLGU+0bjPO0LkuOLi4/5GtJWs/s=
 golang.org/x/sync v0.0.0-20190423024810-112230192c58/go.mod h1:RxMgew5VJxzue5/jJTE5uejpjVlOe/izrB70Jof72aM=
+golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e h1:vcxGaoTs7kV8m5Np9uUNQin4BrLOthgV7252N8V+FwY=
+golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e/go.mod h1:RxMgew5VJxzue5/jJTE5uejpjVlOe/izrB70Jof72aM=
 golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
 golang.org/x/sys v0.0.0-20191010194322-b09406accb47 h1:/XfQ9z7ib8eEJX2hdgFTZJ/ntt0swNk5oYBziWeTCvY=
 golang.org/x/sys v0.0.0-20191010194322-b09406accb47/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=

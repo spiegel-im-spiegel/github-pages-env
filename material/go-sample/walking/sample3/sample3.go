@@ -9,7 +9,8 @@ import (
 )
 
 func main() {
-	rootPath := "/usr/local/go/src/cmd/go/testdata/script"
+	rootPath := "/usr/local/go/src"
+	//rootPath := "/usr/local/go/src/cmd/go/testdata/script"
 	fd, err := syscall.Open(rootPath, 0, 0)
 	if err != nil {
 		fmt.Fprintln(os.Stderr, err)
