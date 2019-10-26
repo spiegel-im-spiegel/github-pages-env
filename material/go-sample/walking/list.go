@@ -1,7 +1,6 @@
 package walking
 
 import (
-	"sort"
 	"sync"
 )
 
@@ -10,13 +9,13 @@ type PathList struct {
 	list  []string
 }
 
-func NewList() *PathList {
+func New() *PathList {
 	return &PathList{mutex: &sync.Mutex{}, list: make([]string, 0, 10240)}
 }
 
 func (p *PathList) Init() {
 	p.mutex.Lock()
-	p.list = p.list[:]
+	p.list = p.list[:0]
 	p.mutex.Unlock()
 }
 
@@ -30,11 +29,6 @@ func (p *PathList) List() []string {
 	p.mutex.Lock()
 	list := make([]string, len(p.list))
 	copy(list, p.list)
-	sort.Strings(list)
 	p.mutex.Unlock()
 	return list
-}
-
-func (p *PathList) Count() int {
-	return len(p.List())
 }

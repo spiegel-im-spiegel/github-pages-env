@@ -3,43 +3,57 @@ package main
 import (
 	"fmt"
 	"os"
-	"syscall"
+	"path/filepath"
+	"sync/atomic"
+	"time"
 
-	"golang.org/x/sys/unix"
+	"github.com/saracen/walker"
 )
+
+func WalkWithSingle(rootPath string) (int64, time.Duration, error) {
+	count := int64(0)
+	start := time.Now()
+	lastErr := filepath.Walk(rootPath, func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return err
+		}
+		if !info.IsDir() {
+			count++
+		}
+		return nil
+	})
+	return count, time.Since(start), lastErr
+}
+
+func WalkWithMultiple(rootPath string) (int64, time.Duration, error) {
+	count := int64(0)
+	start := time.Now()
+	err := walker.Walk(rootPath, func(path string, info os.FileInfo) error {
+		if !info.IsDir() {
+			atomic.AddInt64(&count, 1)
+		}
+		return nil
+	})
+	return count, time.Since(start), err
+}
 
 func main() {
 	rootPath := "/usr/local/go/src"
-	//rootPath := "/usr/local/go/src/cmd/go/testdata/script"
-	fd, err := syscall.Open(rootPath, 0, 0)
+	ct, dt, err := WalkWithSingle(rootPath)
 	if err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		return
 	}
-	defer syscall.Close(fd)
+	fmt.Println("WalkWithSingle")
+	fmt.Println("\tDuration:", dt)
+	fmt.Println("\t   Count:", ct)
 
-	buf := make([]byte, 8<<10)
-	fmt.Println(8 << 10)
-	n, err := unix.ReadDirent(fd, buf)
+	ct, dt, err = WalkWithMultiple(rootPath)
 	if err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		return
 	}
-
-	names := make([]string, 0, 100)
-	offset := 0
-	ct := 0
-	for {
-		consumed, count, names := unix.ParseDirent(buf[offset:n], 100, names[0:])
-		offset += consumed
-		if count <= 0 {
-			break
-		}
-		for _, name := range names[:count] {
-			ct++
-			_ = name
-			//fmt.Println(name)
-		}
-	}
-	fmt.Println("count", ct)
+	fmt.Println("WalkWithMultiple")
+	fmt.Println("\tDuration:", dt)
+	fmt.Println("\t   Count:", ct)
 }

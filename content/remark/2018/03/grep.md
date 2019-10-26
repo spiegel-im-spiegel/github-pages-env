@@ -1,24 +1,9 @@
 +++
 title = "Windows でも Grep したい"
 date = "2018-03-07T19:08:25+09:00"
-update = "2018-03-08T17:06:23+09:00"
 description = "既に Go 言語製の grep を公開されてる方がいた。パスの再帰検索が地味にありがたい。"
 image = "/images/attention/kitten.jpg"
-tags        = [ "tools", "grep", "windows" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
+tags = [ "tools", "grep", "windows" ]
 
 [scripts]
   mathjax = false
