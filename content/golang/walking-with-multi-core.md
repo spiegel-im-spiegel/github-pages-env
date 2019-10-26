@@ -34,7 +34,7 @@ func WalkWithSingle(rootPath string) (int64, error) {
 
 ちなみにこれは，指定したパス以下に存在する（ディレクトリ以外の）ファイルの数を数える関数である。
 
-[saracen/walker] の [`walker`]`.Walk()` 関数を使うと [`filepath`]`.Walk()` 関数を置き換えることができる。
+[saracen/walker] の [`walker`]`.Walk()` 関数を使って [`filepath`]`.Walk()` 関数を置き換えることができる。
 [`walker`]`.Walk()` 関数の特徴は，ファイル・ディレクトリの探索を並行処理で行うことである。
 したがってマルチコアの環境下（最近のパソコンや携帯端末は皆そうだが）ではコア数に応じた高速処理が期待できる。
 
@@ -56,7 +56,7 @@ func WalkWithMultiple(rootPath string) (int64, error) {
 {{< /highlight >}}
 
 なんてなコード書くと，返ってくるファイル数の値は不定になってしまう（どうしてそうなるかは自分で考えよう）。
-まぁ，今回に限っては [`sync`]`/`[`atomic`] パッケージを使って
+まぁ，これに限っては [`sync`]`/`[`atomic`] パッケージを使って
 
 {{< highlight go "hl_lines=5" >}}
 func WalkWithMultiple(rootPath string) (int64, error) {
@@ -71,10 +71,10 @@ func WalkWithMultiple(rootPath string) (int64, error) {
 }
 {{< /highlight >}}
 
-で{{< ruby "no problem" >}}無問題{{< /ruby >}}である。
+とすれば{{< ruby "no problem" >}}無問題{{< /ruby >}}である。
 
 [saracen/walker] の性能評価についてはリポジトリのドキュメントを見てもらうとして，ここではもっとふわっとしたコードで性能差を体感してみよう。
-用意したコードはこんな感じ。
+用意したコードは上述した関数をちょっと弄ってこんな感じにしてみた。
 
 ```go
 package main
