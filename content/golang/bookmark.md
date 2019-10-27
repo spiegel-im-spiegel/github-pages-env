@@ -220,6 +220,7 @@ title = "Go 言語に関するブックマーク"
     - [Goで違うmapであることをテストする - Qiita](https://qiita.com/karupanerura/items/03d6766fd8568c15fc90)
 - [文字列をn個後ろにずらす処理を本気でやる - Qiita](https://qiita.com/smith_30/items/eec0ba2e4ec63fe879a0)
 - [Golangのmapとsliceはどちらが速いのか - 逆さまにした](https://cipepser.hatenablog.com/entry/go-map-slice)
+- [GitHub - imdario/mergo: Mergo: merging Go structs and maps since 2013.](https://github.com/imdario/mergo)
 
 ### 入出力処理
 
@@ -421,6 +422,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [go vet の shadow を知る – Eureka Engineering – Medium](https://medium.com/eureka-engineering/-dabccd4571ea)
 - [Ginkgoでgolangのビヘイビア駆動(BDD)開発入門 - Qiita](https://qiita.com/myoshimi/items/62bc89b8065e08834b02)
 - [Goのtestを理解する in 2018 #go - My External Storage](https://budougumi0617.github.io/2018/08/19/go-testing2018/)
+- [Go: Fuzz Testing in Go - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-fuzz-testing-in-go-deb36abc971f)
 
 ### ドキュメント・フレームワーク
 

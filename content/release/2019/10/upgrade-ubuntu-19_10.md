@@ -18,6 +18,7 @@ pageType = "text"
 - [EoanErmine/ReleaseNotes - Ubuntu Wiki](https://wiki.ubuntu.com/EoanErmine/ReleaseNotes)
 - [Ubuntu 19.10 その27 - Ubuntu 19.10がリリースされました・ディスクイメージのダウンロード - kledgeb](https://kledgeb.blogspot.com/2019/10/ubuntu-1910-27-ubuntu-1910.html)
 - [Ubuntu 19.10 その28 - Ubuntu 19.10の新機能と変更点・既知の問題 - kledgeb](https://kledgeb.blogspot.com/2019/10/ubuntu-1910-28-ubuntu-1910.html)
+- [Ubuntu 19.04 その149 - Ubuntu 19.10へアップグレードするには・アップグレードの注意事項 - kledgeb](https://kledgeb.blogspot.com/2019/10/ubuntu-1904-149-ubuntu-1910.html)
 
 旧バージョンから 19.10 へのアップグレードは[リリースノート](https://wiki.ubuntu.com/EoanErmine/ReleaseNotes "EoanErmine/ReleaseNotes - Ubuntu Wiki")を参考にするとよい。
 手元の環境では特に問題なくアップグレードできた。

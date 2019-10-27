@@ -1,10 +1,9 @@
 +++
 title = "OpenPGP に関するブックマーク"
 date =  "2017-12-01T15:15:33+09:00"
-update = "2018-02-04T21:04:43+09:00"
 description = "OpenPGP に関するリンクをブックマークとして集めてみた（時事ネタは除く）。"
 image = "/images/attention/openpgp.png"
-tags        = [ "openpgp", "gnupg", "bookmark" ]
+tags = [ "openpgp", "gnupg", "bookmark" ]
 
 [scripts]
   mathjax = false
@@ -86,6 +85,8 @@ tags        = [ "openpgp", "gnupg", "bookmark" ]
     - {{< pdf-file title="PGP/GPG インターネットで広く使われている暗号技術（スライド＋ノート）" link="https://baldanders.info/spiegel/pgpdump/About_PGP_2002_NOTE.pdf" >}} （2002年）
     - {{< pdf-file title="OpenPGPとPKI" link="https://baldanders.info/spiegel/pgpdump/PGP-001.pdf" >}} （2002年）
 - [OpenPGP(実際はGnuPGなど)の活用事例 - Qiita](https://qiita.com/tsuyoshi_cho/items/b5b37be4f52f0adb0f1b)
+- [OpenPGP interoperability test suite](https://tests.sequoia-pgp.org/)
+    - [sequoia-pgp / OpenPGP interoperability test suite · GitLab](https://gitlab.com/sequoia-pgp/openpgp-interoperability-test-suite)
 
 ## 自作ツール
 
