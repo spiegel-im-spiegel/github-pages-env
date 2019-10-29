@@ -1735,13 +1735,19 @@
       "Type": "paapi",
       "ID": "B0095OEG3Y",
       "Title": "天地明察 上 (角川文庫)",
-      "URL": "https://www.amazon.co.jp/%E5%A4%A9%E5%9C%B0%E6%98%8E%E5%AF%9F-%E4%B8%8A-%E8%A7%92%E5%B7%9D%E6%96%87%E5%BA%AB-%E5%86%B2%E6%96%B9-%E4%B8%81-ebook/dp/B0095OEG3Y?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B0095OEG3Y",
+      "URL": "https://www.amazon.co.jp/dp/B0095OEG3Y?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51U5H1U7SlL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51U5H1U7SlL._SL160_.jpg",
         "Height": 160,
         "Width": 113
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "冲方 丁",
+          "Role": "著"
+        }
+      ],
       "Publisher": "KADOKAWA",
       "Codes": [
         {
@@ -1752,7 +1758,7 @@
       "PublicationDate": "2012-05-25",
       "LastRelease": "2012-09-01",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -1772,9 +1778,9 @@
       "Type": "paapi",
       "ID": "4254102372",
       "Title": "暦の大事典",
-      "URL": "https://www.amazon.co.jp/%E6%9A%A6%E3%81%AE%E5%A4%A7%E4%BA%8B%E5%85%B8-%E5%B2%A1%E7%94%B0-%E8%8A%B3%E6%9C%97/dp/4254102372?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4254102372",
+      "URL": "https://www.amazon.co.jp/dp/4254102372?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/61GxZdYPMfL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/61GxZdYPMfL._SL160_.jpg",
         "Height": 160,
         "Width": 113
       },
@@ -1814,12 +1820,16 @@
         {
           "Name": "EAN",
           "Value": "9784254102376"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4254102372"
         }
       ],
       "PublicationDate": "2014-07-29",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -5835,13 +5845,19 @@
       "Type": "paapi",
       "ID": "B07BNZQSZZ",
       "Title": "猫暦",
-      "URL": "https://www.amazon.co.jp/%E7%8C%AB%E6%9A%A6/dp/B07BNZQSZZ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B07BNZQSZZ",
+      "URL": "https://www.amazon.co.jp/dp/B07BNZQSZZ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/61fCTlgexuL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/61fCTlgexuL._SL160_.jpg",
         "Height": 149,
         "Width": 160
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "ねこしみず美濃",
+          "Role": "著"
+        }
+      ],
       "Codes": [
         {
           "Name": "ASIN",
@@ -5851,7 +5867,7 @@
       "PublicationDate": "",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -8393,5 +8409,56 @@
       false
     ],
     "Description": "「鉄腕アトム」のスピンオフ作品の中では一番面白かった。やっぱ鉄腕アトムは「残酷」じゃないとね（笑） 浦沢直樹さんはオリジナル・シナリオよりこういうタイプの作品のほうがダントツに面白いな。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4769903251",
+      "Title": "天体軌道論",
+      "URL": "https://www.amazon.co.jp/dp/4769903251?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51xTinWyprL._SL160_.jpg",
+        "Height": 160,
+        "Width": 117
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "長谷川 一郎",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "恒星社厚生閣",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4769903251"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784769903253"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4769903251"
+        }
+      ],
+      "PublicationDate": "1983-01-01",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2019-10-29",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "学生の頃はめっさお世話になりました。私にとって大事な教科書のひとつです。"
   }
 ]

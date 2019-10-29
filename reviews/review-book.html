@@ -5,7 +5,7 @@
     <dd>原題: {{ .Book.OriginalTitle }}</dd>{{ end }}{{ if .Book.FirstAppearance }}
     <dd>（初出: {{ .Book.FirstAppearance }}）</dd>{{ end }}{{ if .Book.Creators }}
     <dd>{{ range $i, $v := .Book.Creators }}{{ if ne $i 0 }}, {{ end }}{{ $v }}{{ end }}</dd>{{ end }}
-    <dd>{{ .Book.Publisher }}{{ if not .Book.PublicationDate.IsZero }} {{ .Book.PublicationDate }}{{ end }}{{ if not .Book.LastRelease.IsZero }} (Release {{ .Book.LastRelease }}){{ end }}</dd>
+    <dd>{{ if .Book.Publisher }}{{ .Book.Publisher }}{{ end }}{{ if not .Book.PublicationDate.IsZero }} {{ .Book.PublicationDate }}{{ end }}{{ if not .Book.LastRelease.IsZero }} (Release {{ .Book.LastRelease }}){{ end }}</dd>
     <dd>{{ .Book.ProductType }}{{ if .Book.PublicDomain }} (Public Domain){{ end }}</dd>{{ if .Book.Codes }}
     <dd>{{ range $i, $v := .Book.Codes }}{{ if ne $i 0 }}, {{ end }}{{ $v }}{{ end }}</dd>{{ end }}{{ if gt .Rating 0 }}
     <dd>評価<abbr class="rating fa-sm" title="{{ .Rating }}">{{ range .Star }}&nbsp;{{ if . }}<i class="fas fa-star"></i>{{ else }}<i class="far fa-star"></i>{{ end }}{{ end }}</abbr></dd>{{ end }}
