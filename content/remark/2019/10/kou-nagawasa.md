@@ -1,7 +1,7 @@
 +++
 title = "訃報： 長沢工先生逝去"
 date =  "2019-10-29T23:42:29+09:00"
-description = "長沢工先生先生は私にとって位置天文学の心の師匠です。"
+description = "長沢工先生は私にとって位置天文学の心の師匠です。"
 image = "/images/attention/kitten.jpg"
 tags = ["astronomy"]
 pageType = "text"
@@ -17,7 +17,7 @@ pageType = "text"
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">訃報…流星界の重鎮・長沢工さんが今日の夕方、亡くなられたそうです。ここ何年お会いしていなかったか…。非常に残念です。謹んでご冥福をお祈りいたします。</p>&mdash; TSUKADA Ken (@tsuka_ken) <a href="https://twitter.com/tsuka_ken/status/1188808782643523584?ref_src=twsrc%5Etfw">October 28, 2019</a></blockquote>
 {{< /fig-gen >}}
 
-仕事上の利害関係以外で「先生」と呼ぶ人は本当に少なくて，特に[2016年に亡くなられた長谷川一郎先生]({{< ref "/remark/2016/05/nekoyomi.md" >}} "『猫暦』を読んだ")と長沢工先生先生は私にとって位置天文学の心の師匠です。
+仕事上の利害関係以外で「先生」と呼ぶ人は本当に少なくて，特に[2016年に亡くなられた長谷川一郎先生]({{< ref "/remark/2016/05/nekoyomi.md" >}} "『猫暦』を読んだ")と長沢工先生は私にとって位置天文学の心の師匠です。
 
 学生の頃はおふた方の著書にとてもお世話になった。
 学生のときにポケコンにぶち込んで使ってた北極星の時角計算プログラムも『[天体の位置計算](https://www.amazon.co.jp/dp/4805202254?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)』を読んで組んだものだったりする。
