@@ -31,7 +31,7 @@ pageType = "text"
 
 まぁ私も五十路の真ん中あたりをウロウロする歳になったし，そりゃあみんな歳とるわな。
 
-私は無宗教な人なので，ひたすら哀悼の意を表することにします。
+私は無宗教な人なので，ひたすら哀悼の意を表すことにします。
 
 <div class="hreview">
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4805202254?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51mQCyP04rL._SL160_.jpg" width="108" alt="photo"></a></div>
