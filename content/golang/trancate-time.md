@@ -15,7 +15,7 @@ pageType = "text"
 
 - [golangのtime.Timeの当日00:00:00を取得する方法とベンチマーク - Qiita](https://qiita.com/ushio_s/items/3e270933641710bbd88e)
 
-という記事があって，無責任にも「Unit-Time を使えばいいんじゃないの？」みたいなコメントを残した後にすっかり忘れていたのだが，ありがたくも[バグの報告](https://qiita.com/go_sagawa/items/836398020100df486184)を頂いた。
+という記事があって，無責任にも「Unix-Time を使えばいいんじゃないの？」みたいなコメントを残した後にすっかり忘れていたのだが，ありがたくも[バグの報告](https://qiita.com/go_sagawa/items/836398020100df486184)を頂いた。
 
 最初に提案したコードは
 
