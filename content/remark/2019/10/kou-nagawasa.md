@@ -33,6 +33,12 @@ pageType = "text"
 
 私は無宗教な人なので，ひたすら哀悼の意を表すことにします。
 
+## ブックマーク
+
+- [【訃報】流星天文学の発展や天文普及に貢献、長沢工さん - アストロアーツ](http://www.astroarts.co.jp/article/hl/a/10921_nagasawa)
+
+## 参考図書
+
 <div class="hreview">
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4805202254?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51mQCyP04rL._SL160_.jpg" width="108" alt="photo"></a></div>
   <dl class="fn">

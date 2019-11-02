@@ -423,6 +423,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Ginkgoでgolangのビヘイビア駆動(BDD)開発入門 - Qiita](https://qiita.com/myoshimi/items/62bc89b8065e08834b02)
 - [Goのtestを理解する in 2018 #go - My External Storage](https://budougumi0617.github.io/2018/08/19/go-testing2018/)
 - [Go: Fuzz Testing in Go - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-fuzz-testing-in-go-deb36abc971f)
+- [Goのtestを理解する in 2019 - My External Storage](https://budougumi0617.github.io/2019/10/30/go-testing2019/)
 
 ### ドキュメント・フレームワーク
 

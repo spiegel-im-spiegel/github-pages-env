@@ -51,6 +51,7 @@ pageType = "text"
 - [U.S. House Passes Copyright "Small Claims" Bill with Overwhelming Majority - TorrentFreak](https://torrentfreak.com/u-s-house-passes-copyright-small-claims-bill-with-overwhelming-majority-191023/)
 - [GNOME files defense against patent troll – GNOME](https://www.gnome.org/news/2019/10/gnome-files-defense-against-patent-troll/)
     - [The Document Foundation supports GNOME Foundation fight against a patent troll - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/10/24/tdf-supports-gnome-foundation/)
+    - [The Document FoundationはGNOME Foundationのパテントトロールとの戦いを支援します - LibreOffice日本語チームBlog](https://ja.blog.documentfoundation.org/2019/10/25/tdf-supports-gnome-foundation/)
 
 ## その他
 

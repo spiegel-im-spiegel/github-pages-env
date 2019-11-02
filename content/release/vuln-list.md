@@ -63,13 +63,15 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ## Firefox
 
-| Official | Release    |                     Ubuntu | Release    |  delay |
-| --------:| ---------- | --------------------------:| ---------- | ------:|
-|     70.0 | 2019-10-22 | 70.0+build2-0 (USN-4165-1) | 2019-10-23 | 1 days |
-|   69.0.3 | 2019-10-10 |             (Ubuntu 19.10) | 2019-10-17 | 7 days |
+| Official | Release    |                     Ubuntu | Release    |   delay |
+| --------:| ---------- | --------------------------:| ---------- | -------:|
+|   70.0.1 | 2019-10-31 |                            |            | ∞ days |
+|     70.0 | 2019-10-22 | 70.0+build2-0 (USN-4165-1) | 2019-10-23 |  1 days |
+|   69.0.3 | 2019-10-10 |             (Ubuntu 19.10) | 2019-10-17 |  7 days |
 
 ### ブックマーク
 
+- [Firefox  70.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/70.0.1/releasenotes/)
 - [Firefox  70.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/70.0/releasenotes/)
 - [Firefox  69.0.3, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/69.0.3/releasenotes/)
 
@@ -77,7 +79,8 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 | Official | Release    |                       Ubuntu | Release    |   delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
-|   68.2.0 | 2019-10-22 |                              |            | ∞ days |
+|   68.2.1 | 2019-10-31 |                              |            | ∞ days |
+|   68.2.0 | 2019-10-22 |                      &mdash; | &mdash;    | &mdash; |
 |   68.1.2 | 2019-10-10 |               (Ubuntu 19.10) | 2019-10-17 |  7 days |
 |   68.1.1 | 2019-09-25 |                      &mdash; | &mdash;    | &mdash; |
 |     68.1 | 2019-09-11 |                      &mdash; | &mdash;    | &mdash; |
@@ -88,6 +91,7 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (68.2.1) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.2.1/releasenotes/)
 - [Thunderbird — Release Notes (68.2.0) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.2.0/releasenotes/)
 - [Thunderbird — Release Notes (68.1.2) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.1.2/releasenotes/)
 - [Thunderbird — Release Notes (68.1.1) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.1.1/releasenotes/)
@@ -101,6 +105,7 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 | Official | Release    |         Ubuntu | Release    |   delay |
 | --------:| ---------- | --------------:| ---------- | -------:|
+|    6.3.3 | 2019-10-31 |                |            | ∞ days |
 |    6.3.2 | 2019-09-26 | (Ubuntu 19.10) | 2019-10-17 | 3 weeks |
 |    6.3.1 | 2019-09-05 |        &mdash; | &mdash;    | &mdash; |
 |      6.3 | 2019-08-08 |        &mdash; | &mdash;    | &mdash; |
@@ -116,6 +121,7 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ### ブックマーク
 
+- [The Document Foundation releases LibreOffice 6.3.3 - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/10/31/tdf-releases-libreoffice-633/)
 - [LibreOffice 6.2.8 is available, the last release of the 6.2 family - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/10/17/libreoffice-628/)
 - [LibreOffice 6.3.1 and LibreOffice 6.2.7 announced, focusing on security - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/09/05/lo-6-3-1-and-lo-6-2-7-announced/)
 - [The Document Foundation announces LibreOffice 6.3 - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/08/08/tdf-announces-libreoffice-63/)
