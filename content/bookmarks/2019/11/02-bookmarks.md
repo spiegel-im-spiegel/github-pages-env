@@ -1,10 +1,9 @@
 +++
 title = "2019-11-02 のブックマーク"
-date =  "2019-11-02T11:10:11+09:00"
-description = "「XXX」他"
+date =  "2019-11-02T11:12:35+09:00"
+description = "「抑止効果が期待できない「違法ダウンロード対象範囲拡大」へのパブリックコメント」他"
 image = "/images/attention/bookmarks.jpg"
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
