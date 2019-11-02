@@ -18,7 +18,7 @@ pageType = "text"
 今回はセキュリティ・アップデートはなし。
 
 {{< fig-quote type="md" title="Release History - The Go Programming Language" link="https://golang.org/doc/devel/release.html#go1.13.minor" lang="en" >}}
-{{< quote >}}go1.13.4 (released 2019/10/31) includes fixes to the net/http and syscall packages. It also fixes an issue on macOS 10.15 Catalina where the non-notarized installer and binaries were being [rejected by Gatekeeper](https://golang.org/issue/34986). See the [Go 1.13.4 milestone](https://github.com/golang/go/issues?q=milestone%3AGo1.13.4) on our issue tracker for details{{< /quote >}}.
+{{< quote >}}go1.13.4 (released 2019/10/31) includes fixes to the `net/http` and `syscall` packages. It also fixes an issue on macOS 10.15 Catalina where the non-notarized installer and binaries were being [rejected by Gatekeeper](https://golang.org/issue/34986). See the [Go 1.13.4 milestone](https://github.com/golang/go/issues?q=milestone%3AGo1.13.4) on our issue tracker for details{{< /quote >}}.
 {{< /fig-quote >}}
 
 [Ubuntu] 19.10 からは 1.12 をサポートし始めたようだが（セキュリティ・アップデートを含め）どこまで追従しているか分からない（なんであんな分かりにくいバージョニングをするのかねぇ， Linux は）。
