@@ -2326,13 +2326,19 @@
       "Type": "paapi",
       "ID": "4756117074",
       "Title": "本の未来 (Ascii books)",
-      "URL": "https://www.amazon.co.jp/%E6%9C%AC%E3%81%AE%E6%9C%AA%E6%9D%A5-Ascii-books-%E5%AF%8C%E7%94%B0-%E5%80%AB%E7%94%9F/dp/4756117074?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4756117074",
+      "URL": "https://www.amazon.co.jp/dp/4756117074?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/5131GA04AHL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/5131GA04AHL._SL160_.jpg",
         "Height": 160,
         "Width": 108
       },
       "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "富田 倫生",
+          "Role": "著"
+        }
+      ],
       "Publisher": "アスキー",
       "Codes": [
         {
@@ -2342,12 +2348,16 @@
         {
           "Name": "EAN",
           "Value": "9784756117076"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4756117074"
         }
       ],
-      "PublicationDate": "",
+      "PublicationDate": "1997-02-01",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -2684,13 +2694,19 @@
       "Type": "paapi",
       "ID": "4757102852",
       "Title": "著作権２．０ ウェブ時代の文化発展をめざして (NTT出版ライブラリー―レゾナント)",
-      "URL": "https://www.amazon.co.jp/%E8%91%97%E4%BD%9C%E6%A8%A9%EF%BC%92%EF%BC%8E%EF%BC%90-%E3%82%A6%E3%82%A7%E3%83%96%E6%99%82%E4%BB%A3%E3%81%AE%E6%96%87%E5%8C%96%E7%99%BA%E5%B1%95%E3%82%92%E3%82%81%E3%81%96%E3%81%97%E3%81%A6-NTT%E5%87%BA%E7%89%88%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC%E2%80%95%E3%83%AC%E3%82%BE%E3%83%8A%E3%83%B3%E3%83%88-%E5%90%8D%E5%92%8C-%E5%B0%8F%E5%A4%AA%E9%83%8E/dp/4757102852?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4757102852",
+      "URL": "https://www.amazon.co.jp/dp/4757102852?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YkbcP5IyL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41YkbcP5IyL._SL160_.jpg",
         "Height": 160,
         "Width": 108
       },
       "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "名和 小太郎",
+          "Role": "著"
+        }
+      ],
       "Publisher": "NTT出版",
       "Codes": [
         {
@@ -2700,12 +2716,16 @@
         {
           "Name": "EAN",
           "Value": "9784757102859"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4757102852"
         }
       ],
       "PublicationDate": "2010-06-24",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -2725,13 +2745,19 @@
       "Type": "paapi",
       "ID": "B00SM7G6SI",
       "Title": "18歳の著作権入門 (ちくまプリマー新書)",
-      "URL": "https://www.amazon.co.jp/18%E6%AD%B3%E3%81%AE%E8%91%97%E4%BD%9C%E6%A8%A9%E5%85%A5%E9%96%80-%E3%81%A1%E3%81%8F%E3%81%BE%E3%83%97%E3%83%AA%E3%83%9E%E3%83%BC%E6%96%B0%E6%9B%B8-%E7%A6%8F%E4%BA%95%E5%81%A5%E7%AD%96-ebook/dp/B00SM7G6SI?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00SM7G6SI",
+      "URL": "https://www.amazon.co.jp/dp/B00SM7G6SI?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41ZC-Qu61LL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41ZC-Qu61LL._SL160_.jpg",
         "Height": 160,
         "Width": 98
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "福井健策",
+          "Role": "著"
+        }
+      ],
       "Publisher": "筑摩書房",
       "Codes": [
         {
@@ -2742,7 +2768,7 @@
       "PublicationDate": "2015-01-10",
       "LastRelease": "2015-01-30",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -3241,13 +3267,17 @@
       "Type": "paapi",
       "ID": "B013URFRLQ",
       "Title": "[まとめ買い] 超人ロック　ミラーリング",
-      "URL": "https://www.amazon.co.jp/%E3%81%BE%E3%81%A8%E3%82%81%E8%B2%B7%E3%81%84-%E8%B6%85%E4%BA%BA%E3%83%AD%E3%83%83%E3%82%AF-%E3%83%9F%E3%83%A9%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0/dp/B013URFRLQ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B013URFRLQ",
+      "URL": "https://www.amazon.co.jp/dp/B013URFRLQ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/C1rL0TB3gnS._SL160_.png",
-        "Height": 116,
-        "Width": 160
+        "URL": ""
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "聖 悠紀",
+          "Role": "著"
+        }
+      ],
       "Codes": [
         {
           "Name": "ASIN",
@@ -3257,7 +3287,7 @@
       "PublicationDate": "",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -5015,13 +5045,19 @@
       "Type": "paapi",
       "ID": "B00DI8TMPU",
       "Title": "オープン化する創造の時代　著作権を拡張するクリエイティブ・コモンズの方法論 (カドカワ・ミニッツブック)",
-      "URL": "https://www.amazon.co.jp/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E5%8C%96%E3%81%99%E3%82%8B%E5%89%B5%E9%80%A0%E3%81%AE%E6%99%82%E4%BB%A3-%E8%91%97%E4%BD%9C%E6%A8%A9%E3%82%92%E6%8B%A1%E5%BC%B5%E3%81%99%E3%82%8B%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%BB%E3%82%B3%E3%83%A2%E3%83%B3%E3%82%BA%E3%81%AE%E6%96%B9%E6%B3%95%E8%AB%96-%E3%82%AB%E3%83%89%E3%82%AB%E3%83%AF%E3%83%BB%E3%83%9F%E3%83%8B%E3%83%83%E3%83%84%E3%83%96%E3%83%83%E3%82%AF-%E3%83%89%E3%83%9F%E3%83%8B%E3%82%AF%E3%83%BB%E3%83%81%E3%82%A7%E3%83%B3-ebook/dp/B00DI8TMPU?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00DI8TMPU",
+      "URL": "https://www.amazon.co.jp/dp/B00DI8TMPU?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51zmlOAOaFL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51zmlOAOaFL._SL160_.jpg",
         "Height": 160,
         "Width": 106
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "ドミニク・チェン",
+          "Role": "著"
+        }
+      ],
       "Publisher": "ブックウォーカー",
       "Codes": [
         {
@@ -5032,7 +5068,7 @@
       "PublicationDate": "2013-06-25",
       "LastRelease": "2013-06-27",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -5093,13 +5129,19 @@
       "Type": "paapi",
       "ID": "4845911744",
       "Title": "フリーカルチャーをつくるためのガイドブック  クリエイティブ・コモンズによる創造の循環",
-      "URL": "https://www.amazon.co.jp/%E3%83%95%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%AB%E3%83%81%E3%83%A3%E3%83%BC%E3%82%92%E3%81%A4%E3%81%8F%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%82%AC%E3%82%A4%E3%83%89%E3%83%96%E3%83%83%E3%82%AF-%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%BB%E3%82%B3%E3%83%A2%E3%83%B3%E3%82%BA%E3%81%AB%E3%82%88%E3%82%8B%E5%89%B5%E9%80%A0%E3%81%AE%E5%BE%AA%E7%92%B0-%E3%83%89%E3%83%9F%E3%83%8B%E3%82%AF%E3%83%BB%E3%83%81%E3%82%A7%E3%83%B3/dp/4845911744?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4845911744",
+      "URL": "https://www.amazon.co.jp/dp/4845911744?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51pDWTdSdlL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51pDWTdSdlL._SL160_.jpg",
         "Height": 160,
         "Width": 115
       },
       "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "ドミニク・チェン",
+          "Role": "著"
+        }
+      ],
       "Publisher": "フィルムアート社",
       "Codes": [
         {
@@ -5109,12 +5151,16 @@
         {
           "Name": "EAN",
           "Value": "9784845911745"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4845911744"
         }
       ],
       "PublicationDate": "2012-05-25",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -6574,14 +6620,18 @@
       "Type": "paapi",
       "ID": "B01DJ5VE0W",
       "Title": "FREE CULTURE",
-      "URL": "https://www.amazon.co.jp/FREE-CULTURE-%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%AC%E3%83%83%E3%82%B7%E3%82%B0-ebook/dp/B01DJ5VE0W?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B01DJ5VE0W",
+      "URL": "https://www.amazon.co.jp/dp/B01DJ5VE0W?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51d5%2BE9anaL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51d5+E9anaL._SL160_.jpg",
         "Height": 160,
         "Width": 113
       },
       "ProductType": "Kindle版",
       "Creators": [
+        {
+          "Name": "ローレンス・レッシグ",
+          "Role": "著"
+        },
         {
           "Name": "山形浩生",
           "Role": "翻訳"
@@ -6596,16 +6646,12 @@
         {
           "Name": "ASIN",
           "Value": "B01DJ5VE0W"
-        },
-        {
-          "Name": "EISBN",
-          "Value": "9784798147291"
         }
       ],
       "PublicationDate": "2004-07-22",
       "LastRelease": "2016-03-28",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -6676,20 +6722,44 @@
       "Type": "paapi",
       "ID": "475710152X",
       "Title": "クリエイティブ・コモンズ―デジタル時代の知的財産権",
-      "URL": "https://www.amazon.co.jp/%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%BB%E3%82%B3%E3%83%A2%E3%83%B3%E3%82%BA%E2%80%95%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%99%82%E4%BB%A3%E3%81%AE%E7%9F%A5%E7%9A%84%E8%B2%A1%E7%94%A3%E6%A8%A9-%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9-%E3%83%AC%E3%83%83%E3%82%B7%E3%82%B0/dp/475710152X?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=475710152X",
+      "URL": "https://www.amazon.co.jp/dp/475710152X?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41WPNBY7HZL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41WPNBY7HZL._SL160_.jpg",
         "Height": 160,
         "Width": 110
       },
       "ProductType": "単行本",
       "Creators": [
         {
+          "Name": "レッシグ,ローレンス",
+          "Role": "著"
+        },
+        {
+          "Name": "敬士, 椙山",
+          "Role": "著"
+        },
+        {
+          "Name": "圭介, 上村",
+          "Role": "著"
+        },
+        {
+          "Name": "紘一郎, 林",
+          "Role": "著"
+        },
+        {
+          "Name": "絵美, 若槻",
+          "Role": "著"
+        },
+        {
+          "Name": "大洋, 土屋",
+          "Role": "著"
+        },
+        {
           "Name": "クリエイティブコモンズジャパン",
           "Role": "編集"
         },
         {
-          "Name": "Lawrence Lessig",
+          "Name": "Lessig,Lawrence",
           "Role": "原著"
         }
       ],
@@ -6702,12 +6772,16 @@
         {
           "Name": "EAN",
           "Value": "9784757101524"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "475710152X"
         }
       ],
-      "PublicationDate": "",
+      "PublicationDate": "2005-03-01",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -6727,13 +6801,19 @@
       "Type": "paapi",
       "ID": "4622073455",
       "Title": "〈海賊版〉の思想‐18世紀英国の永久コピーライト闘争",
-      "URL": "https://www.amazon.co.jp/%E3%80%88%E6%B5%B7%E8%B3%8A%E7%89%88%E3%80%89%E3%81%AE%E6%80%9D%E6%83%B3%E2%80%9018%E4%B8%96%E7%B4%80%E8%8B%B1%E5%9B%BD%E3%81%AE%E6%B0%B8%E4%B9%85%E3%82%B3%E3%83%94%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%88%E9%97%98%E4%BA%89-%E5%B1%B1%E7%94%B0-%E5%A5%A8%E6%B2%BB/dp/4622073455?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4622073455",
+      "URL": "https://www.amazon.co.jp/dp/4622073455?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41bepOIquwL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41bepOIquwL._SL160_.jpg",
         "Height": 160,
         "Width": 111
       },
       "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "山田 奨治",
+          "Role": "著"
+        }
+      ],
       "Publisher": "みすず書房",
       "Codes": [
         {
@@ -6743,12 +6823,16 @@
         {
           "Name": "EAN",
           "Value": "9784622073451"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4622073455"
         }
       ],
       "PublicationDate": "2007-12-20",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -7471,14 +7555,18 @@
       "Type": "paapi",
       "ID": "B07MPK2F11",
       "Title": "クレイジーキャッツ・スーパー・デラックス(平成無責任増補盤)",
-      "URL": "https://www.amazon.co.jp/%E3%82%AF%E3%83%AC%E3%82%A4%E3%82%B8%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%84%E3%83%BB%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%BB%E3%83%87%E3%83%A9%E3%83%83%E3%82%AF%E3%82%B9-%E5%B9%B3%E6%88%90%E7%84%A1%E8%B2%AC%E4%BB%BB%E5%A2%97%E8%A3%9C%E7%9B%A4-%E3%82%AF%E3%83%AC%E3%82%A4%E3%82%B8%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%84/dp/B07MPK2F11?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B07MPK2F11",
+      "URL": "https://www.amazon.co.jp/dp/B07MPK2F11?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/613qa71Ld7L._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/613qa71Ld7L._SL160_.jpg",
         "Height": 136,
         "Width": 160
       },
       "ProductType": "CD",
       "Creators": [
+        {
+          "Name": "クレイジーキャッツ",
+          "Role": "アーティスト"
+        },
         {
           "Name": "青島幸男",
           "Role": "その他"
@@ -7502,7 +7590,7 @@
       "PublicationDate": "2019-03-26",
       "LastRelease": "2019-03-27",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -7522,14 +7610,18 @@
       "Type": "paapi",
       "ID": "B07TS9XTSD",
       "Title": "三体",
-      "URL": "https://www.amazon.co.jp/%E4%B8%89%E4%BD%93-%E5%8A%89-%E6%85%88%E6%AC%A3-ebook/dp/B07TS9XTSD?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B07TS9XTSD",
+      "URL": "https://www.amazon.co.jp/dp/B07TS9XTSD?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41H5EUGcemL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41H5EUGcemL._SL160_.jpg",
         "Height": 160,
         "Width": 110
       },
       "ProductType": "Kindle版",
       "Creators": [
+        {
+          "Name": "劉 慈欣",
+          "Role": "著"
+        },
         {
           "Name": "大森 望",
           "Role": "翻訳"
@@ -7557,7 +7649,7 @@
       "PublicationDate": "2019-07-04",
       "LastRelease": "2019-07-04",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -7604,16 +7696,16 @@
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2019-09-08",
-    "Rating": 5,
+    "Date": "2019-08-04",
+    "Rating": 0,
     "Star": [
-      true,
-      true,
-      true,
-      true,
-      true
+      false,
+      false,
+      false,
+      false,
+      false
     ],
-    "Description": "面白かった！\n"
+    "Description": "サブタイトルから期待はしてたけど，今回はリサちゃんが大盛りだ！ （《ちゃん》は不要）"
   },
   {
     "Book": {
@@ -7695,6 +7787,9 @@
       "ProductType": "青空文庫",
       "Creators": [
         {
+          "Name": "ラヴクラフト ハワード・フィリップス"
+        },
+        {
           "Name": "大久保 ゆう",
           "Role": "翻訳"
         }
@@ -7733,6 +7828,11 @@
         "URL": "https://text.baldanders.info/images/aozora/card56642.svg"
       },
       "ProductType": "青空文庫",
+      "Creators": [
+        {
+          "Name": "谷崎 潤一郎"
+        }
+      ],
       "Codes": [
         {
           "Name": "図書カードNo.",
@@ -7803,14 +7903,18 @@
       "Type": "paapi",
       "ID": "456008193X",
       "Title": "鬼と天皇（新装版）",
-      "URL": "https://www.amazon.co.jp/%E9%AC%BC%E3%81%A8%E5%A4%A9%E7%9A%87%EF%BC%88%E6%96%B0%E8%A3%85%E7%89%88%EF%BC%89-%E5%A4%A7%E5%92%8C-%E5%B2%A9%E9%9B%84/dp/456008193X?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=456008193X",
+      "URL": "https://www.amazon.co.jp/dp/456008193X?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/315iNBEKHLL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/315iNBEKHLL._SL160_.jpg",
         "Height": 160,
         "Width": 110
       },
       "ProductType": "単行本",
       "Creators": [
+        {
+          "Name": "大和 岩雄",
+          "Role": "著"
+        },
         {
           "Name": "大和 岩雄",
           "Role": "翻訳"
@@ -7825,12 +7929,16 @@
         {
           "Name": "EAN",
           "Value": "9784560081938"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "456008193X"
         }
       ],
       "PublicationDate": "2012-01-18",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -7850,9 +7958,9 @@
       "Type": "paapi",
       "ID": "B01KYBJDB6",
       "Title": "TVアニメ『装神少女まとい』OPテーマ「蝶結びアミュレット」",
-      "URL": "https://www.amazon.co.jp/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E8%A3%85%E7%A5%9E%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A8%E3%81%84%E3%80%8FOP%E3%83%86%E3%83%BC%E3%83%9E%E3%80%8C%E8%9D%B6%E7%B5%90%E3%81%B3%E3%82%A2%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%83%E3%83%88%E3%80%8D-Mia-REGINA/dp/B01KYBJDB6?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B01KYBJDB6",
+      "URL": "https://www.amazon.co.jp/dp/B01KYBJDB6?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51heNY0-b2L._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51heNY0-b2L._SL160_.jpg",
         "Height": 158,
         "Width": 160
       },
@@ -7860,7 +7968,7 @@
       "Creators": [
         {
           "Name": "Mia REGINA",
-          "Role": "演奏"
+          "Role": "アーティスト"
         },
         {
           "Name": "ささかまリス子",
@@ -7869,6 +7977,10 @@
         {
           "Name": "大竹智之",
           "Role": "その他"
+        },
+        {
+          "Name": "Mia REGINA",
+          "Role": "演奏"
         }
       ],
       "Publisher": "ランティス",
@@ -7885,7 +7997,7 @@
       "PublicationDate": "2016-10-25",
       "LastRelease": "2016-10-26",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -7988,6 +8100,9 @@
       "ProductType": "青空文庫",
       "Creators": [
         {
+          "Name": "ドイル アーサー・コナン"
+        },
+        {
           "Name": "大久保 ゆう",
           "Role": "翻訳"
         }
@@ -8021,32 +8136,36 @@
       "Type": "paapi",
       "ID": "4309610439",
       "Title": "シャーロック・ホームズの冒険 (シャーロック・ホームズ全集 3)",
-      "URL": "https://www.amazon.co.jp/%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF%E3%83%BB%E3%83%9B%E3%83%BC%E3%83%A0%E3%82%BA%E3%81%AE%E5%86%92%E9%99%BA-%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF%E3%83%BB%E3%83%9B%E3%83%BC%E3%83%A0%E3%82%BA%E5%85%A8%E9%9B%86-3-%E3%82%A2%E3%83%BC%E3%82%B5%E3%83%BC%E3%83%BB%E3%82%B3%E3%83%8A%E3%83%B3-%E3%83%89%E3%82%A4%E3%83%AB/dp/4309610439?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4309610439",
+      "URL": "https://www.amazon.co.jp/dp/4309610439?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/516PKGP56XL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/516PKGP56XL._SL160_.jpg",
         "Height": 160,
         "Width": 108
       },
       "ProductType": "単行本",
       "Creators": [
         {
-          "Name": "Arthur Conan Doyle",
+          "Name": "アーサー・コナン ドイル",
+          "Role": "著"
+        },
+        {
+          "Name": "Doyle,Arthur Conan",
           "Role": "原著"
         },
         {
-          "Name": "Richard Lancelyn Green",
+          "Name": "Green,Richard Lancelyn",
           "Role": "原著"
         },
         {
-          "Name": "小林 司",
+          "Name": "司, 小林",
           "Role": "翻訳"
         },
         {
-          "Name": "東山 あかね",
+          "Name": "あかね, 東山",
           "Role": "翻訳"
         },
         {
-          "Name": "高田 寛",
+          "Name": "寛, 高田",
           "Role": "翻訳"
         }
       ],
@@ -8059,12 +8178,16 @@
         {
           "Name": "EAN",
           "Value": "9784309610436"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4309610439"
         }
       ],
-      "PublicationDate": "",
+      "PublicationDate": "1998-02-01",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
