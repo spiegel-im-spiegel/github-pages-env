@@ -58,16 +58,15 @@ Wikipedia でリンク切れになってるやつは「[「クリエイティブ
 [Creative Commons]: https://creativecommons.org/ "When we share, everyone wins - Creative Commons"
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%BB%E3%82%B3%E3%83%A2%E3%83%B3%E3%82%BA%E2%80%95%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%99%82%E4%BB%A3%E3%81%AE%E7%9F%A5%E7%9A%84%E8%B2%A1%E7%94%A3%E6%A8%A9-%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9-%E3%83%AC%E3%83%83%E3%82%B7%E3%82%B0/dp/475710152X?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=475710152X"><img src="https://images-fe.ssl-images-amazon.com/images/I/41WPNBY7HZL._SL160_.jpg" width="110" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/475710152X?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41WPNBY7HZL._SL160_.jpg" width="110" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%BB%E3%82%B3%E3%83%A2%E3%83%B3%E3%82%BA%E2%80%95%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%99%82%E4%BB%A3%E3%81%AE%E7%9F%A5%E7%9A%84%E8%B2%A1%E7%94%A3%E6%A8%A9-%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9-%E3%83%AC%E3%83%83%E3%82%B7%E3%82%B0/dp/475710152X?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=475710152X">クリエイティブ・コモンズ―デジタル時代の知的財産権</a></dt>
-	<dd>ローレンス レッシグ, 椙山 敬士, 上村 圭介, 林 紘一郎, 若槻 絵美, 土屋 大洋</dd>
-	<dd>クリエイティブコモンズジャパン (編集), Lawrence Lessig (原著)</dd>
-    <dd>NTT出版 2005-03</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 475710152X, EAN: 9784757101524</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/475710152X?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">クリエイティブ・コモンズ―デジタル時代の知的財産権</a></dt>
+    <dd>レッシグ,ローレンス (著), 敬士, 椙山 (著), 圭介, 上村 (著), 紘一郎, 林 (著), 絵美, 若槻 (著), 大洋, 土屋 (著), クリエイティブコモンズジャパン (編集), Lessig,Lawrence (原著)</dd>
+    <dd>NTT出版 2005-03-01</dd>
+    <dd>単行本</dd>
+    <dd>475710152X (ASIN), 9784757101524 (EAN), 475710152X (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">残念ながら紙の本は実質的に絶版なんですよねぇ。是非デジタル化を希望します。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-13">2018-11-13</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-13">2018-11-13</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>

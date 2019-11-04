@@ -56,30 +56,28 @@ pageType = "text"
 ## 参考図書
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%8E%92%E9%99%A4%E5%9E%8B%E7%A4%BE%E4%BC%9A%E2%80%95%E5%BE%8C%E6%9C%9F%E8%BF%91%E4%BB%A3%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E7%8A%AF%E7%BD%AA%E3%83%BB%E9%9B%87%E7%94%A8%E3%83%BB%E5%B7%AE%E7%95%B0-%E3%82%B8%E3%83%A7%E3%83%83%E3%82%AF-%E3%83%A4%E3%83%B3%E3%82%B0/dp/4903127044?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4903127044"><img src="https://images-fe.ssl-images-amazon.com/images/I/41uBRNdBygL._SL160_.jpg" width="110" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4903127044?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41uBRNdBygL._SL160_.jpg" width="110" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E6%8E%92%E9%99%A4%E5%9E%8B%E7%A4%BE%E4%BC%9A%E2%80%95%E5%BE%8C%E6%9C%9F%E8%BF%91%E4%BB%A3%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E7%8A%AF%E7%BD%AA%E3%83%BB%E9%9B%87%E7%94%A8%E3%83%BB%E5%B7%AE%E7%95%B0-%E3%82%B8%E3%83%A7%E3%83%83%E3%82%AF-%E3%83%A4%E3%83%B3%E3%82%B0/dp/4903127044?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4903127044">排除型社会―後期近代における犯罪・雇用・差異</a></dt>
-	<dd>ジョック ヤング</dd>
-	<dd>Jock Young (原著), 青木 秀男 (翻訳), 伊藤 泰郎 (翻訳), 岸 政彦 (翻訳), 村澤 真保呂 (翻訳)</dd>
-    <dd>洛北出版 2007-03</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4903127044, EAN: 9784903127040</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4903127044?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">排除型社会―後期近代における犯罪・雇用・差異</a></dt>
+    <dd>ジョック ヤング (著), Young,Jock (原著), 秀男, 青木 (翻訳), 泰郎, 伊藤 (翻訳), 政彦, 岸 (翻訳), 真保呂, 村澤 (翻訳)</dd>
+    <dd>洛北出版 2007-03-01</dd>
+    <dd>単行本</dd>
+    <dd>4903127044 (ASIN), 9784903127040 (EAN), 4903127044 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description"><a href="https://baldanders.info/blog/000410/">感想はこちら</a>。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-07">2018-12-07</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-07">2018-12-07</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E8%B6%85%E7%9B%A3%E8%A6%96%E7%A4%BE%E4%BC%9A-%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%83%BB%E3%82%B7%E3%83%A5%E3%83%8A%E3%82%A4%E3%82%A2%E3%83%BC-ebook/dp/B01MZGVHOA?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01MZGVHOA"><img src="https://images-fe.ssl-images-amazon.com/images/I/51T6PBdGbyL._SL160_.jpg" width="108" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B01MZGVHOA?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51T6PBdGbyL._SL160_.jpg" width="108" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E8%B6%85%E7%9B%A3%E8%A6%96%E7%A4%BE%E4%BC%9A-%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%83%BB%E3%82%B7%E3%83%A5%E3%83%8A%E3%82%A4%E3%82%A2%E3%83%BC-ebook/dp/B01MZGVHOA?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01MZGVHOA">超監視社会</a></dt>
-	<dd>ブルース・シュナイアー</dd>
-	<dd>池村 千秋 (翻訳)</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/B01MZGVHOA?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">超監視社会</a></dt>
+    <dd>ブルース・シュナイアー (著), 池村 千秋 (翻訳)</dd>
     <dd>草思社 2016-12-13 (Release 2017-02-03)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B01MZGVHOA</dd>
+    <dd>Kindle版</dd>
+    <dd>B01MZGVHOA (ASIN)</dd>
   </dl>
   <p class="description">実は積ん読のまま読んでない。そろそろちゃんと最後まで読まないと。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-03-23">2019-03-23</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-03-23">2019-03-23</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>

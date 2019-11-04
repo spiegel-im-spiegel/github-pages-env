@@ -57,31 +57,29 @@ OS ないしはハードウェア・ベンダが「アプリケーション・�
 ## 参考図書
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%A4%E3%83%B3%E3%83%86%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%82%A8%E3%82%B3%E3%83%8E%E3%83%9F%E3%83%BC%EF%BD%9E%E9%A1%A7%E5%AE%A2%E3%81%8C%E6%94%AF%E9%85%8D%E3%81%99%E3%82%8B%E7%B5%8C%E6%B8%88-Doc-Searls-ebook/dp/B00DIM6BE6?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00DIM6BE6"><img src="https://images-fe.ssl-images-amazon.com/images/I/519%2BkIHb71L._SL160_.jpg" width="111" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B00DIM6BE6?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/519+kIHb71L._SL160_.jpg" width="111" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%A4%E3%83%B3%E3%83%86%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%82%A8%E3%82%B3%E3%83%8E%E3%83%9F%E3%83%BC%EF%BD%9E%E9%A1%A7%E5%AE%A2%E3%81%8C%E6%94%AF%E9%85%8D%E3%81%99%E3%82%8B%E7%B5%8C%E6%B8%88-Doc-Searls-ebook/dp/B00DIM6BE6?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00DIM6BE6">インテンション・エコノミー～顧客が支配する経済</a></dt>
-	<dd>Doc Searls</dd>
-	<dd>栗原潔 (翻訳)</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/B00DIM6BE6?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">インテンション・エコノミー～顧客が支配する経済</a></dt>
+    <dd>Doc Searls (著), 栗原潔 (翻訳)</dd>
     <dd>翔泳社 2013-03-14 (Release 2013-06-20)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00DIM6BE6</dd>
+    <dd>Kindle版</dd>
+    <dd>B00DIM6BE6 (ASIN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">時代はソーシャル CRM から VRM へ。<a href='https://baldanders.info/blog/000794/'>俺達がインターネットだ！</a> <a href='https://baldanders.info/blog/000638/'>感想文はこちら</a>。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-04-26">2015-04-26</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-04-26">2015-04-26</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%93%E3%82%8C%E3%81%BE%E3%81%A7%E3%81%AE%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%81%AE%E3%82%84%E3%82%8A%E6%96%B9%E3%81%AF%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%A0%E2%80%95%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E4%BC%9A%E7%A4%BE%E3%82%92%E7%B5%B6%E6%BB%85%E6%81%90%E7%AB%9C%E3%81%AB%E3%81%97%E3%81%AA%E3%81%8495%E3%81%AE%E6%B3%95%E5%89%87-%E3%83%AA%E3%83%83%E3%82%AF-%E3%83%AC%E3%83%90%E3%82%A4%E3%83%B3/dp/4532149029?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4532149029"><img src="https://images-fe.ssl-images-amazon.com/images/I/51811H1N43L._SL160_.jpg" width="111" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4532149029?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51811H1N43L._SL160_.jpg" width="111" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%81%93%E3%82%8C%E3%81%BE%E3%81%A7%E3%81%AE%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%81%AE%E3%82%84%E3%82%8A%E6%96%B9%E3%81%AF%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%A0%E2%80%95%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E4%BC%9A%E7%A4%BE%E3%82%92%E7%B5%B6%E6%BB%85%E6%81%90%E7%AB%9C%E3%81%AB%E3%81%97%E3%81%AA%E3%81%8495%E3%81%AE%E6%B3%95%E5%89%87-%E3%83%AA%E3%83%83%E3%82%AF-%E3%83%AC%E3%83%90%E3%82%A4%E3%83%B3/dp/4532149029?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4532149029">これまでのビジネスのやり方は終わりだ―あなたの会社を絶滅恐竜にしない95の法則</a></dt>
-	<dd>リック レバイン, ドク サールズ, クリストファー ロック, デビッド ワインバーガー</dd>
-	<dd>Rick Levine (原著), Doc Searls (原著), Christopher Locke (原著), David Weinberger (原著), 倉骨 彰 (翻訳)</dd>
-    <dd>日本経済新聞社 2001-03</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4532149029, EAN: 9784532149024</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4532149029?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">これまでのビジネスのやり方は終わりだ―あなたの会社を絶滅恐竜にしない95の法則</a></dt>
+    <dd>レバイン,リック (著), サールズ,ドク (著), ロック,クリストファー (著), ワインバーガー,デビッド (著), Levine,Rick (原著), Searls,Doc (原著), Locke,Christopher (原著), Weinberger,David (原著), 彰, 倉骨 (翻訳)</dd>
+    <dd>日本経済新聞社 2001-03-01</dd>
+    <dd>単行本</dd>
+    <dd>4532149029 (ASIN), 9784532149024 (EAN), 4532149029 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description"><a href='http://www2.gol.com/users/jheine/cluetrainj.html'>クルートレイン宣言</a>。タイトルがアレ過ぎる（笑） ちなみに今は <a href="https://github.com/dweinberger/newclues">New Clues</a> が登場している。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-01-14">2015-01-14</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-01-14">2015-01-14</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>

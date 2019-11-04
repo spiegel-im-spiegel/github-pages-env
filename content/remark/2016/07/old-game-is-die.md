@@ -1,7 +1,6 @@
 +++
 date = "2016-07-25T12:48:51+09:00"
 description = "もし本当に Pokémon GO が旧来の「ネトゲ」を殺すのであれば死ねばいいと思う。それが「市場」というものである。"
-draft = false
 tags = ["games", "pokemon", "ingress", "market"]
 title = "ネット（だけの）ゲームは死ぬか？"
 
@@ -56,16 +55,15 @@ AR (Augmented Reality; 拡張現実) を使ったアプリやサービスは昔�
 [Ingress]: https://www.ingress.com/
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%A4%E3%83%B3%E3%83%86%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%82%A8%E3%82%B3%E3%83%8E%E3%83%9F%E3%83%BC%EF%BD%9E%E9%A1%A7%E5%AE%A2%E3%81%8C%E6%94%AF%E9%85%8D%E3%81%99%E3%82%8B%E7%B5%8C%E6%B8%88-Doc-Searls-ebook/dp/B00DIM6BE6?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00DIM6BE6"><img src="https://images-fe.ssl-images-amazon.com/images/I/519%2BkIHb71L._SL160_.jpg" width="111" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B00DIM6BE6?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/519+kIHb71L._SL160_.jpg" width="111" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%A4%E3%83%B3%E3%83%86%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%82%A8%E3%82%B3%E3%83%8E%E3%83%9F%E3%83%BC%EF%BD%9E%E9%A1%A7%E5%AE%A2%E3%81%8C%E6%94%AF%E9%85%8D%E3%81%99%E3%82%8B%E7%B5%8C%E6%B8%88-Doc-Searls-ebook/dp/B00DIM6BE6?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00DIM6BE6">インテンション・エコノミー～顧客が支配する経済</a></dt>
-	<dd>Doc Searls</dd>
-	<dd>栗原潔 (翻訳)</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/B00DIM6BE6?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">インテンション・エコノミー～顧客が支配する経済</a></dt>
+    <dd>Doc Searls (著), 栗原潔 (翻訳)</dd>
     <dd>翔泳社 2013-03-14 (Release 2013-06-20)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00DIM6BE6</dd>
+    <dd>Kindle版</dd>
+    <dd>B00DIM6BE6 (ASIN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
-  <p class="description">時代はソーシャル CRM から VRM へ。<a href='https://baldanders.info/blog/000794/'>俺達がインターネットだ！</a></p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-04-26">2015-04-26</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="description">時代はソーシャル CRM から VRM へ。<a href='https://baldanders.info/blog/000794/'>俺達がインターネットだ！</a> <a href='https://baldanders.info/blog/000638/'>感想文はこちら</a>。</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-04-26">2015-04-26</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>

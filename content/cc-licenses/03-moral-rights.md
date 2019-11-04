@@ -1,25 +1,9 @@
 +++
-date = "2016-01-20T21:31:46+09:00"
-update = "2018-11-13T13:34:22+09:00"
-description = "前回紹介した「Creative Commons Licenses」の内容を踏まえた上で今回は「著作者人格権」と CC Licenses との関係について解説する。"
-draft = false
-tags = ["moral-rights", "creative-commons", "copyright", "license"]
 title = "人格権と CC Licenses"
+date = "2016-01-20T21:31:46+09:00"
+description = "前回紹介した「Creative Commons Licenses」の内容を踏まえた上で今回は「著作者人格権」と CC Licenses との関係について解説する。"
+tags = ["moral-rights", "creative-commons", "copyright", "license"]
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
-  
 [scripts]
   mathjax = false
   mermaidjs = false

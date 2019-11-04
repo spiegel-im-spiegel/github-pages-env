@@ -1,8 +1,6 @@
 +++
 date = "2017-04-02T13:19:33+09:00"
-update = "2017-04-06T09:36:08+09:00"
 title = "『認められたい』の予習： 所属欲求について"
-draft = false
 tags = ["communication", "book"]
 description = "熊代亨さんの『認められたい』が面白そうなので発注をかけたのだが，読む前に「所属欲求」について同じ著者によるブログ記事を読んでみた。"
 
@@ -104,22 +102,29 @@ GW が終わるまでには感想文が書けるよう努力します（笑）
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4864913250/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51sJVkoMVfL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4864913250/baldandersinf-22/">認められたい</a></dt><dd>熊代亨 </dd><dd>ヴィレッジブックス 2017-02-28</dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4800259436/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4800259436.09._SCTHUMBZZZ_.jpg"  alt="勉強できる子 卑屈化社会"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4121505786/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4121505786.09._SCTHUMBZZZ_.jpg"  alt="逆説のスタートアップ思考 (中公新書ラクレ 578)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4894517450/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4894517450.09._SCTHUMBZZZ_.jpg"  alt="アイデア大全――創造力とブレイクスルーを生み出す42のツール"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4062880946/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4062880946.09._SCTHUMBZZZ_.jpg"  alt="「認められたい」の正体　―　承認不安の時代 (講談社現代新書)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4800260558/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4800260558.09._SCTHUMBZZZ_.jpg"  alt="マンガでわかる! かならず伝わる説明の技術"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4766720644/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4766720644.09._SCTHUMBZZZ_.jpg"  alt="不寛容の本質 なぜ若者を理解できないのか、なぜ年長者を許せないのか (経済界新書)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4791109473/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4791109473.09._SCTHUMBZZZ_.jpg"  alt="ADHDタイプの大人のための時間管理ワークブック"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4820719580/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4820719580.09._SCTHUMBZZZ_.jpg"  alt="マンガでやさしくわかる傾聴"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4534054890/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4534054890.09._SCTHUMBZZZ_.jpg"  alt="「数字」が読めると本当に儲かるんですか?  ~数字オンチのための「儲かる会計」が肌感覚でわかる本~"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4062731614/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4062731614.09._SCTHUMBZZZ_.jpg"  alt="大人問題 (講談社文庫)"  /></a> </p>
-<p class="description">とりあえず発注した。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-03-31">2017-03-31</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4864913250?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51sJVkoMVfL._SL160_.jpg" width="109" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/dp/4864913250?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">認められたい</a></dt>
+    <dd>熊代亨 (著)</dd>
+    <dd>ヴィレッジブックス 2017-02-28 (Release 2017-02-28)</dd>
+    <dd>単行本（ソフトカバー）</dd>
+    <dd>4864913250 (ASIN), 9784864913256 (EAN), 4864913250 (ISBN)</dd>
+  </dl>
+  <p class="description">結局，積ん読状態のまま（引越し時に）処分しちゃったなぁ。</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-11-04">2019-11-04</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%8E%92%E9%99%A4%E5%9E%8B%E7%A4%BE%E4%BC%9A%E2%80%95%E5%BE%8C%E6%9C%9F%E8%BF%91%E4%BB%A3%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E7%8A%AF%E7%BD%AA%E3%83%BB%E9%9B%87%E7%94%A8%E3%83%BB%E5%B7%AE%E7%95%B0-%E3%82%B8%E3%83%A7%E3%83%83%E3%82%AF-%E3%83%A4%E3%83%B3%E3%82%B0/dp/4903127044?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4903127044"><img src="https://images-fe.ssl-images-amazon.com/images/I/41uBRNdBygL._SL160_.jpg" width="110" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4903127044?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41uBRNdBygL._SL160_.jpg" width="110" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E6%8E%92%E9%99%A4%E5%9E%8B%E7%A4%BE%E4%BC%9A%E2%80%95%E5%BE%8C%E6%9C%9F%E8%BF%91%E4%BB%A3%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E7%8A%AF%E7%BD%AA%E3%83%BB%E9%9B%87%E7%94%A8%E3%83%BB%E5%B7%AE%E7%95%B0-%E3%82%B8%E3%83%A7%E3%83%83%E3%82%AF-%E3%83%A4%E3%83%B3%E3%82%B0/dp/4903127044?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4903127044">排除型社会―後期近代における犯罪・雇用・差異</a></dt>
-	<dd>ジョック ヤング</dd>
-	<dd>Jock Young (原著), 青木 秀男 (翻訳), 伊藤 泰郎 (翻訳), 岸 政彦 (翻訳), 村澤 真保呂 (翻訳)</dd>
-    <dd>洛北出版 2007-03</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4903127044, EAN: 9784903127040</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4903127044?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">排除型社会―後期近代における犯罪・雇用・差異</a></dt>
+    <dd>ジョック ヤング (著), Young,Jock (原著), 秀男, 青木 (翻訳), 泰郎, 伊藤 (翻訳), 政彦, 岸 (翻訳), 真保呂, 村澤 (翻訳)</dd>
+    <dd>洛北出版 2007-03-01</dd>
+    <dd>単行本</dd>
+    <dd>4903127044 (ASIN), 9784903127040 (EAN), 4903127044 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description"><a href="https://baldanders.info/blog/000410/">感想はこちら</a>。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-07">2018-12-07</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-07">2018-12-07</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>

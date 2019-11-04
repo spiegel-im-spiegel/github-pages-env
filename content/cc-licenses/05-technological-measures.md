@@ -1,10 +1,8 @@
 +++
-tags = ["drm", "creative-commons", "copyright", "license"]
-draft = false
+title = "CC Licenses における『技術的保護手段』の扱い"
 description = "CC Licenses v4 では利用者側の技術的保護手段回避を許諾するという形に大きく変わった。"
 date = "2016-12-15T21:17:29+09:00"
-update = "2019-01-30T23:12:03+09:00"
-title = "CC Licenses における『技術的保護手段』の扱い"
+tags = ["drm", "creative-commons", "copyright", "license"]
 
 [scripts]
   mathjax = false

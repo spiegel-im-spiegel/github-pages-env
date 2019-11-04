@@ -1,10 +1,8 @@
 +++
-date = "2016-06-05T16:28:27+09:00"
-update = "2016-06-05T18:14:30+09:00"
-description = "古いパソコンに Ubuntu を入れようと思ったが... / 「「IoTセキュリティガイドライン」（案）に関する意見募集」 / 『BOOM TOWN』単行本未収録話が Kindle に！ / 「Googleアカウントがアップデート」 / その他の気になる記事"
-draft = false
-tags = ["linux", "ubuntu", "security", "risk", "politics", "e-book", "comic", "google"]
 title = "週末スペシャル： 古いパソコンに Ubuntu を入れようと思ったが..."
+date = "2016-06-05T16:28:27+09:00"
+description = "古いパソコンに Ubuntu を入れようと思ったが... / 「「IoTセキュリティガイドライン」（案）に関する意見募集」 / 『BOOM TOWN』単行本未収録話が Kindle に！ / 「Googleアカウントがアップデート」 / その他の気になる記事"
+tags = ["linux", "ubuntu", "security", "risk", "politics", "e-book", "comic", "google"]
 
 [scripts]
   mathjax = false
@@ -179,15 +177,15 @@ iOS 機器の遠隔操作は iOS の標準機能でやったほうがいいと�
 ## 参考図書
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/BOOM-TOWN-TRIP-30-%E5%86%85%E7%94%B0-%E7%BE%8E%E5%A5%88%E5%AD%90-ebook/dp/B00NWQI4N4?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00NWQI4N4"><img src="https://images-fe.ssl-images-amazon.com/images/I/51Ia%2B77IpiL._SL160_.jpg" width="113" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B00NWQI4N4?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51Ia+77IpiL._SL160_.jpg" width="113" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/BOOM-TOWN-TRIP-30-%E5%86%85%E7%94%B0-%E7%BE%8E%E5%A5%88%E5%AD%90-ebook/dp/B00NWQI4N4?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00NWQI4N4">BOOM TOWN　TRIP.30</a></dt>
-	<dd>内田 美奈子</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/B00NWQI4N4?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">BOOM TOWN　TRIP.30</a></dt>
+    <dd>内田 美奈子 (著)</dd>
     <dd> 2014-09-26 (Release 2014-09-26)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00NWQI4N4</dd>
+    <dd>Kindle版</dd>
+    <dd>B00NWQI4N4 (ASIN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">掲載誌「コミックガンマ」が休刊になって単行本収録できなかった<del>まるぼし</del>まぼろしの30話。これが Kindle で読めるとはいい時代になったものです。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-06-05">2016-06-05</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-06-05">2016-06-05</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>

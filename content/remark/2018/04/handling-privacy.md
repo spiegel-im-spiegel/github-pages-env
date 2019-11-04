@@ -127,61 +127,57 @@ VRM という言葉を初めて目にしたのは『[インテンション・エ
 ## 参考図書
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8A%E3%81%A3%E3%81%B1%E3%81%AA%E3%81%97%E3%81%AE%E6%97%A5%E5%B8%B8%E3%82%92%E7%94%9F%E3%81%8D%E3%82%8B%EF%BC%9A%E3%82%BD%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%81%8C%E8%8B%A5%E8%80%85%E3%81%AB%E3%82%82%E3%81%9F%E3%82%89%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE-%E3%83%80%E3%83%8A%E3%83%BB%E3%83%9C%E3%82%A4%E3%83%89-ebook/dp/B0125TZSZ0?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0125TZSZ0"><img src="https://images-fe.ssl-images-amazon.com/images/I/616sjle5ITL._SL160_.jpg" width="109" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B0125TZSZ0?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/616sjle5ITL._SL160_.jpg" width="109" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8A%E3%81%A3%E3%81%B1%E3%81%AA%E3%81%97%E3%81%AE%E6%97%A5%E5%B8%B8%E3%82%92%E7%94%9F%E3%81%8D%E3%82%8B%EF%BC%9A%E3%82%BD%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%81%8C%E8%8B%A5%E8%80%85%E3%81%AB%E3%82%82%E3%81%9F%E3%82%89%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE-%E3%83%80%E3%83%8A%E3%83%BB%E3%83%9C%E3%82%A4%E3%83%89-ebook/dp/B0125TZSZ0?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0125TZSZ0">つながりっぱなしの日常を生きる：ソーシャルメディアが若者にもたらしたもの</a></dt>
-	<dd>ダナ・ボイド</dd>
-	<dd>野中 モモ (翻訳)</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/B0125TZSZ0?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">つながりっぱなしの日常を生きる：ソーシャルメディアが若者にもたらしたもの</a></dt>
+    <dd>ダナ・ボイド (著), 野中 モモ (翻訳)</dd>
     <dd>草思社 2014-10-09 (Release 2015-07-21)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B0125TZSZ0</dd>
+    <dd>Kindle版</dd>
+    <dd>B0125TZSZ0 (ASIN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">読むのに1年半以上かかってしまった。ネット，特に SNS 上で自身のアイデンティティやプライバシーを保つにはどうすればいいか。豊富な事例を交えて考察する。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%90%E3%83%96%E3%83%AB%E2%94%80%E2%94%80%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E3%81%8C%E9%9A%A0%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8-%E3%83%8F%E3%83%A4%E3%82%AB%E3%83%AF%E6%96%87%E5%BA%ABNF-%E3%82%A4%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%BB%E3%83%91%E3%83%AA%E3%82%B5%E3%83%BC/dp/4150504598?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4150504598"><img src="https://images-fe.ssl-images-amazon.com/images/I/41UdjkE4OpL._SL160_.jpg" width="108" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4150504598?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41Le2d7nWiL._SL160_.jpg" width="109" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%90%E3%83%96%E3%83%AB%E2%94%80%E2%94%80%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E3%81%8C%E9%9A%A0%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8-%E3%83%8F%E3%83%A4%E3%82%AB%E3%83%AF%E6%96%87%E5%BA%ABNF-%E3%82%A4%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%BB%E3%83%91%E3%83%AA%E3%82%B5%E3%83%BC/dp/4150504598?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4150504598">フィルターバブル──インターネットが隠していること (ハヤカワ文庫NF)</a></dt>
-	<dd>イーライ・パリサー</dd>
-	<dd>井口耕二 (翻訳)</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4150504598?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">フィルターバブル──インターネットが隠していること (ハヤカワ文庫NF)</a></dt>
+    <dd>イーライ・パリサー (著), 井口耕二 (翻訳)</dd>
     <dd>早川書房 2016-03-09</dd>
-    <dd>Book 文庫</dd>
-    <dd>ASIN: 4150504598, EAN: 9784150504595</dd>
+    <dd>文庫</dd>
+    <dd>4150504598 (ASIN), 9784150504595 (EAN), 4150504598 (ISBN), 9784150504595 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">ネットにおいて私たちは自由ではなく，それと知らず「フィルターバブル」に捕らわれている。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%A4%E3%83%B3%E3%83%86%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%82%A8%E3%82%B3%E3%83%8E%E3%83%9F%E3%83%BC%EF%BD%9E%E9%A1%A7%E5%AE%A2%E3%81%8C%E6%94%AF%E9%85%8D%E3%81%99%E3%82%8B%E7%B5%8C%E6%B8%88-Doc-Searls-ebook/dp/B00DIM6BE6?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00DIM6BE6"><img src="https://images-fe.ssl-images-amazon.com/images/I/519%2BkIHb71L._SL160_.jpg" width="111" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B00DIM6BE6?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/519+kIHb71L._SL160_.jpg" width="111" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%A4%E3%83%B3%E3%83%86%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%82%A8%E3%82%B3%E3%83%8E%E3%83%9F%E3%83%BC%EF%BD%9E%E9%A1%A7%E5%AE%A2%E3%81%8C%E6%94%AF%E9%85%8D%E3%81%99%E3%82%8B%E7%B5%8C%E6%B8%88-Doc-Searls-ebook/dp/B00DIM6BE6?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00DIM6BE6">インテンション・エコノミー～顧客が支配する経済</a></dt>
-	<dd>Doc Searls</dd>
-	<dd>栗原潔 (翻訳)</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/B00DIM6BE6?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">インテンション・エコノミー～顧客が支配する経済</a></dt>
+    <dd>Doc Searls (著), 栗原潔 (翻訳)</dd>
     <dd>翔泳社 2013-03-14 (Release 2013-06-20)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00DIM6BE6</dd>
+    <dd>Kindle版</dd>
+    <dd>B00DIM6BE6 (ASIN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
-  <p class="description">時代はソーシャル CRM から VRM へ。<a href='https://baldanders.info/blog/000794/'>俺達がインターネットだ！</a></p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-04-26">2015-04-26</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="description">時代はソーシャル CRM から VRM へ。<a href='https://baldanders.info/blog/000794/'>俺達がインターネットだ！</a> <a href='https://baldanders.info/blog/000638/'>感想文はこちら</a>。</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-04-26">2015-04-26</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E4%B8%87%E7%89%A9%E7%90%86%E8%AB%96-%E5%89%B5%E5%85%83SF%E6%96%87%E5%BA%AB-%E3%82%B0%E3%83%AC%E3%83%83%E3%82%B0%E3%83%BB%E3%82%A4%E3%83%BC%E3%82%AC%E3%83%B3/dp/4488711022?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4488711022"><img src="https://images-fe.ssl-images-amazon.com/images/I/51J3DEJJ1TL._SL160_.jpg" width="112" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4488711022?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51J3DEJJ1TL._SL160_.jpg" width="112" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E4%B8%87%E7%89%A9%E7%90%86%E8%AB%96-%E5%89%B5%E5%85%83SF%E6%96%87%E5%BA%AB-%E3%82%B0%E3%83%AC%E3%83%83%E3%82%B0%E3%83%BB%E3%82%A4%E3%83%BC%E3%82%AC%E3%83%B3/dp/4488711022?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4488711022">万物理論 (創元SF文庫)</a></dt>
-	<dd>グレッグ・イーガン</dd>
-	<dd>山岸 真 (翻訳)</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4488711022?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">万物理論 (創元SF文庫)</a></dt>
+    <dd>グレッグ・イーガン (著), 山岸 真 (翻訳)</dd>
     <dd>東京創元社 2004-10-28</dd>
-    <dd>Book 文庫</dd>
-    <dd>ASIN: 4488711022, EAN: 9784488711023</dd>
+    <dd>文庫</dd>
+    <dd>4488711022 (ASIN), 9784488711023 (EAN), 4488711022 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">グレッグ・イーガンの名作。これも singularity を巡る物語だな。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-09-18">2017-09-18</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-09-18">2017-09-18</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>

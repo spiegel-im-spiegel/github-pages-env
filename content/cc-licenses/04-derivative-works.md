@@ -1,25 +1,9 @@
 +++
-date = "2016-01-26T20:29:34+09:00"
-update = "2018-11-13T13:34:22+09:00"
-description = "CC Licenses では「改変禁止」条件がなければ「翻案物を作成、複製および共有すること」を許諾する。また翻案物を受け取ったユーザは原著作者の許諾を（提示されている CC Licenses の条件に従って）自動的に得る。"
-draft = false
-tags = ["derivative-works", "creative-commons", "copyright", "license", "tpp"]
 title = "二次的著作物と CC Licenses"
+date = "2016-01-26T20:29:34+09:00"
+description = "CC Licenses では「改変禁止」条件がなければ「翻案物を作成、複製および共有すること」を許諾する。また翻案物を受け取ったユーザは原著作者の許諾を（提示されている CC Licenses の条件に従って）自動的に得る。"
+tags = ["derivative-works", "creative-commons", "copyright", "license", "tpp"]
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
-  
 [scripts]
   athjax = false
   ermaidjs = false

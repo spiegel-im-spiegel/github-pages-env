@@ -103,30 +103,29 @@ pageType = "text"
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/CODE-VERSION-2-0-%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%AC%E3%83%83%E3%82%B7%E3%82%B0-ebook/dp/B01CYDGUV8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01CYDGUV8"><img src="https://images-fe.ssl-images-amazon.com/images/I/31Q2jh%2B5SgL._SL160_.jpg" width="113" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B01CYDGUV8?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/31Q2jh+5SgL._SL160_.jpg" width="113" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/CODE-VERSION-2-0-%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%AC%E3%83%83%E3%82%B7%E3%82%B0-ebook/dp/B01CYDGUV8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01CYDGUV8">CODE VERSION 2.0</a></dt>
-	<dd>ローレンス・レッシグ</dd>
-	<dd>山形浩生 (翻訳)</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/B01CYDGUV8?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">CODE VERSION 2.0</a></dt>
+    <dd>ローレンス・レッシグ (著), 山形浩生 (翻訳)</dd>
     <dd>翔泳社 2007-12-19 (Release 2016-03-14)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B01CYDGUV8</dd>
+    <dd>Kindle版</dd>
+    <dd>B01CYDGUV8 (ASIN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">前著『CODE』改訂版。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-17">2018-11-17</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-17">2018-11-17</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%95%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%AB%E3%83%81%E3%83%A3%E3%83%BC%E3%82%92%E3%81%A4%E3%81%8F%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%82%AC%E3%82%A4%E3%83%89%E3%83%96%E3%83%83%E3%82%AF-%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%BB%E3%82%B3%E3%83%A2%E3%83%B3%E3%82%BA%E3%81%AB%E3%82%88%E3%82%8B%E5%89%B5%E9%80%A0%E3%81%AE%E5%BE%AA%E7%92%B0-%E3%83%89%E3%83%9F%E3%83%8B%E3%82%AF%E3%83%BB%E3%83%81%E3%82%A7%E3%83%B3/dp/4845911744?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4845911744"><img src="https://images-fe.ssl-images-amazon.com/images/I/51pDWTdSdlL._SL160_.jpg" width="115" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4845911744?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51pDWTdSdlL._SL160_.jpg" width="115" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%83%95%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%AB%E3%83%81%E3%83%A3%E3%83%BC%E3%82%92%E3%81%A4%E3%81%8F%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%82%AC%E3%82%A4%E3%83%89%E3%83%96%E3%83%83%E3%82%AF-%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%BB%E3%82%B3%E3%83%A2%E3%83%B3%E3%82%BA%E3%81%AB%E3%82%88%E3%82%8B%E5%89%B5%E9%80%A0%E3%81%AE%E5%BE%AA%E7%92%B0-%E3%83%89%E3%83%9F%E3%83%8B%E3%82%AF%E3%83%BB%E3%83%81%E3%82%A7%E3%83%B3/dp/4845911744?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4845911744">フリーカルチャーをつくるためのガイドブック  クリエイティブ・コモンズによる創造の循環</a></dt>
-	<dd>ドミニク・チェン</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4845911744?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">フリーカルチャーをつくるためのガイドブック  クリエイティブ・コモンズによる創造の循環</a></dt>
+    <dd>ドミニク・チェン (著)</dd>
     <dd>フィルムアート社 2012-05-25</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4845911744, EAN: 9784845911745</dd>
+    <dd>単行本</dd>
+    <dd>4845911744 (ASIN), 9784845911745 (EAN), 4845911744 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">国内における Free Culture の事例が豊富。取っ掛かりとしてはちょうどよい本。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-05-07">2015-05-07</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-05-07">2015-05-07</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>

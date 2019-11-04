@@ -233,109 +233,106 @@ P2P ネットワークは「中央集権的ネットワーク」であるイン�
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">白田秀彰さんの「<a href="http://orion.mt.tama.hosei.ac.jp/hideaki/kenporon.htm">グリゴリの捕縛</a>」が青空文庫に収録されていた。
-内容は <delete>怪獣大決戦</delete> おっと憲法（基本法）についてのお話。
+内容は <strike>怪獣大決戦</strike> おっと憲法（基本法）についてのお話。
 古代社会 → 中世社会 → 近代社会 → 現代社会 と順を追って法と慣習そして力（power）との関係について解説し，その中で憲法（基本法）がどのように望まれ実装されていったか指摘してる。
 その後，現代社会の次のパラダイムに顕現する「情報力」と社会との関係に言及していくわけだ。</p>
   <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-03-30">2019-03-30</abbr> (powered by <a href="https://aozorahack.org/">aozorahack</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/CODE-VERSION-2-0-%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%AC%E3%83%83%E3%82%B7%E3%82%B0-ebook/dp/B01CYDGUV8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01CYDGUV8"><img src="https://images-fe.ssl-images-amazon.com/images/I/31Q2jh%2B5SgL._SL160_.jpg" width="113" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B01CYDGUV8?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/31Q2jh+5SgL._SL160_.jpg" width="113" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/CODE-VERSION-2-0-%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%AC%E3%83%83%E3%82%B7%E3%82%B0-ebook/dp/B01CYDGUV8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01CYDGUV8">CODE VERSION 2.0</a></dt>
-	<dd>ローレンス・レッシグ</dd>
-	<dd>山形浩生 (翻訳)</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/B01CYDGUV8?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">CODE VERSION 2.0</a></dt>
+    <dd>ローレンス・レッシグ (著), 山形浩生 (翻訳)</dd>
     <dd>翔泳社 2007-12-19 (Release 2016-03-14)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B01CYDGUV8</dd>
+    <dd>Kindle版</dd>
+    <dd>B01CYDGUV8 (ASIN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">前著『CODE』改訂版。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-17">2018-11-17</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-17">2018-11-17</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E3%81%AE%E6%B3%95%E3%81%A8%E6%85%A3%E7%BF%92-%E3%81%8B%E3%81%AA%E3%82%8A%E5%A5%87%E5%A6%99%E3%81%AA%E6%B3%95%E5%AD%A6%E5%85%A5%E9%96%80-%E3%82%BD%E3%83%95%E3%83%88%E3%83%90%E3%83%B3%E3%82%AF%E6%96%B0%E6%9B%B8-%E7%99%BD%E7%94%B0-%E7%A7%80%E5%BD%B0/dp/4797334673?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4797334673"><img src="https://images-fe.ssl-images-amazon.com/images/I/41tEJvyOO2L._SL160_.jpg" width="97" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4797334673?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41tEJvyOO2L._SL160_.jpg" width="97" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E3%81%AE%E6%B3%95%E3%81%A8%E6%85%A3%E7%BF%92-%E3%81%8B%E3%81%AA%E3%82%8A%E5%A5%87%E5%A6%99%E3%81%AA%E6%B3%95%E5%AD%A6%E5%85%A5%E9%96%80-%E3%82%BD%E3%83%95%E3%83%88%E3%83%90%E3%83%B3%E3%82%AF%E6%96%B0%E6%9B%B8-%E7%99%BD%E7%94%B0-%E7%A7%80%E5%BD%B0/dp/4797334673?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4797334673">インターネットの法と慣習　かなり奇妙な法学入門 [ソフトバンク新書]</a></dt>
-	<dd>白田 秀彰</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4797334673?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">インターネットの法と慣習　かなり奇妙な法学入門 [ソフトバンク新書]</a></dt>
+    <dd>白田 秀彰 (著)</dd>
     <dd>ソフトバンククリエイティブ 2006-07-15</dd>
-    <dd>Book 新書</dd>
-    <dd>ASIN: 4797334673, EAN: 9784797334678</dd>
+    <dd>新書</dd>
+    <dd>4797334673 (ASIN), 9784797334678 (EAN), 4797334673 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">ライアカ本。 Web 2.0 真っ只中に書かれた本だが，時事的な部分を除けば古びてはいないと思う。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-20">2018-11-20</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-20">2018-11-20</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%A4%E3%83%B3%E3%83%86%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%82%A8%E3%82%B3%E3%83%8E%E3%83%9F%E3%83%BC%EF%BD%9E%E9%A1%A7%E5%AE%A2%E3%81%8C%E6%94%AF%E9%85%8D%E3%81%99%E3%82%8B%E7%B5%8C%E6%B8%88-Doc-Searls-ebook/dp/B00DIM6BE6?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00DIM6BE6"><img src="https://images-fe.ssl-images-amazon.com/images/I/519%2BkIHb71L._SL160_.jpg" width="111" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B00DIM6BE6?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/519+kIHb71L._SL160_.jpg" width="111" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%A4%E3%83%B3%E3%83%86%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%82%A8%E3%82%B3%E3%83%8E%E3%83%9F%E3%83%BC%EF%BD%9E%E9%A1%A7%E5%AE%A2%E3%81%8C%E6%94%AF%E9%85%8D%E3%81%99%E3%82%8B%E7%B5%8C%E6%B8%88-Doc-Searls-ebook/dp/B00DIM6BE6?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00DIM6BE6">インテンション・エコノミー～顧客が支配する経済</a></dt>
-	<dd>Doc Searls</dd>
-	<dd>栗原潔 (翻訳)</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/B00DIM6BE6?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">インテンション・エコノミー～顧客が支配する経済</a></dt>
+    <dd>Doc Searls (著), 栗原潔 (翻訳)</dd>
     <dd>翔泳社 2013-03-14 (Release 2013-06-20)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00DIM6BE6</dd>
+    <dd>Kindle版</dd>
+    <dd>B00DIM6BE6 (ASIN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
-  <p class="description">時代はソーシャル CRM から VRM へ。<a href='https://baldanders.info/blog/000794/'>俺達がインターネットだ！</a></p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-04-26">2015-04-26</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="description">時代はソーシャル CRM から VRM へ。<a href='https://baldanders.info/blog/000794/'>俺達がインターネットだ！</a> <a href='https://baldanders.info/blog/000638/'>感想文はこちら</a>。</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-04-26">2015-04-26</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%80%90%E4%B8%AD%E6%9D%B1%E5%A4%A7%E6%B7%B7%E8%BF%B7%E3%82%92%E8%A7%A3%E3%81%8F%E3%80%91-%E3%82%B5%E3%82%A4%E3%82%AF%E3%82%B9-%E3%83%94%E3%82%B3%E5%8D%94%E5%AE%9A-%E7%99%BE%E5%B9%B4%E3%81%AE%E5%91%AA%E7%B8%9B-%E6%96%B0%E6%BD%AE%E9%81%B8%E6%9B%B8/dp/4106037866?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4106037866"><img src="https://images-fe.ssl-images-amazon.com/images/I/51QsC2WBr5L._SL160_.jpg" width="106" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4106037866?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51QsC2WBr5L._SL160_.jpg" width="106" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%80%90%E4%B8%AD%E6%9D%B1%E5%A4%A7%E6%B7%B7%E8%BF%B7%E3%82%92%E8%A7%A3%E3%81%8F%E3%80%91-%E3%82%B5%E3%82%A4%E3%82%AF%E3%82%B9-%E3%83%94%E3%82%B3%E5%8D%94%E5%AE%9A-%E7%99%BE%E5%B9%B4%E3%81%AE%E5%91%AA%E7%B8%9B-%E6%96%B0%E6%BD%AE%E9%81%B8%E6%9B%B8/dp/4106037866?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4106037866">【中東大混迷を解く】 サイクス=ピコ協定 百年の呪縛 (新潮選書)</a></dt>
-	<dd>池内 恵</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4106037866?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">【中東大混迷を解く】 サイクス=ピコ協定 百年の呪縛 (新潮選書)</a></dt>
+    <dd>恵, 池内 (著)</dd>
     <dd>新潮社 2016-05-27</dd>
-    <dd>Book 単行本（ソフトカバー）</dd>
-    <dd>ASIN: 4106037866, EAN: 9784106037863</dd>
+    <dd>単行本（ソフトカバー）</dd>
+    <dd>4106037866 (ASIN), 9784106037863 (EAN), 4106037866 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">欧州および中東の近代および現代を「サイクス=ピコ協定」を特異点として網羅的に解説していいる。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-07-02">2016-07-02</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-07-02">2016-07-02</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%9D%E3%82%8D%E3%81%9D%E3%82%8D%E3%80%81%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%E3%81%AE%E7%9C%9F%E5%AE%9F%E3%82%92%E8%A9%B1%E3%81%9D%E3%81%86-%E6%97%A9%E5%B7%9D%E6%9B%B8%E6%88%BF-%E3%82%B8%E3%83%A3%E3%83%B3%EF%BC%9D%E3%82%AC%E3%83%96%E3%83%AA%E3%82%A8%E3%83%AB-%E3%82%AC%E3%83%8A%E3%82%B7%E3%82%A2-ebook/dp/B071FHBGW8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B071FHBGW8"><img src="https://images-fe.ssl-images-amazon.com/images/I/51cD7DR87IL._SL160_.jpg" width="111" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B071FHBGW8?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51cD7DR87IL._SL160_.jpg" width="111" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%81%9D%E3%82%8D%E3%81%9D%E3%82%8D%E3%80%81%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%E3%81%AE%E7%9C%9F%E5%AE%9F%E3%82%92%E8%A9%B1%E3%81%9D%E3%81%86-%E6%97%A9%E5%B7%9D%E6%9B%B8%E6%88%BF-%E3%82%B8%E3%83%A3%E3%83%B3%EF%BC%9D%E3%82%AC%E3%83%96%E3%83%AA%E3%82%A8%E3%83%AB-%E3%82%AC%E3%83%8A%E3%82%B7%E3%82%A2-ebook/dp/B071FHBGW8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B071FHBGW8">そろそろ、人工知能の真実を話そう (早川書房)</a></dt>
-	<dd>ジャン＝ガブリエル ガナシア</dd>
-	<dd>小林 重裕・他 (翻訳), 伊藤 直子 (監修)</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/B071FHBGW8?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">そろそろ、人工知能の真実を話そう (早川書房)</a></dt>
+    <dd>ジャン＝ガブリエル ガナシア (著), 小林 重裕・他 (翻訳), 伊藤 直子 (監修)</dd>
     <dd>早川書房 2017-05-25 (Release 2017-05-31)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B071FHBGW8</dd>
+    <dd>Kindle版</dd>
+    <dd>B071FHBGW8 (ASIN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="3">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">シンギュラリティは起きない。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-07-02">2016-07-02</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-07-02">2016-07-02</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/BOOM-TOWN-TRIP-30-%E5%86%85%E7%94%B0-%E7%BE%8E%E5%A5%88%E5%AD%90-ebook/dp/B00NWQI4N4?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00NWQI4N4"><img src="https://images-fe.ssl-images-amazon.com/images/I/51Ia%2B77IpiL._SL160_.jpg" width="113" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B00NWQI4N4?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51Ia+77IpiL._SL160_.jpg" width="113" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/BOOM-TOWN-TRIP-30-%E5%86%85%E7%94%B0-%E7%BE%8E%E5%A5%88%E5%AD%90-ebook/dp/B00NWQI4N4?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00NWQI4N4">BOOM TOWN　TRIP.30</a></dt>
-	<dd>内田 美奈子</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/B00NWQI4N4?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">BOOM TOWN　TRIP.30</a></dt>
+    <dd>内田 美奈子 (著)</dd>
     <dd> 2014-09-26 (Release 2014-09-26)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00NWQI4N4</dd>
+    <dd>Kindle版</dd>
+    <dd>B00NWQI4N4 (ASIN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">掲載誌「コミックガンマ」が休刊になって単行本収録できなかった<del>まるぼし</del>まぼろしの30話。これが Kindle で読めるとはいい時代になったものです。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-06-05">2016-06-05</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-06-05">2016-06-05</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%A6%E3%81%8D%E3%81%B1%E3%81%8D%E3%83%AF%E3%83%BC%E3%82%AD%E3%83%B3%E3%80%93%E3%83%A9%E3%83%96-5-%E3%83%93%E3%83%BC%E3%83%A0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E7%AB%B9%E6%9C%AC-%E6%B3%89/dp/4757700423?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4757700423"><img src="https://images-fe.ssl-images-amazon.com/images/I/518JGPT6DEL._SL160_.jpg" width="113" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4757700423?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/518JGPT6DEL._SL160_.jpg" width="113" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%81%A6%E3%81%8D%E3%81%B1%E3%81%8D%E3%83%AF%E3%83%BC%E3%82%AD%E3%83%B3%E3%80%93%E3%83%A9%E3%83%96-5-%E3%83%93%E3%83%BC%E3%83%A0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E7%AB%B9%E6%9C%AC-%E6%B3%89/dp/4757700423?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4757700423">てきぱきワーキン〓ラブ (5) (ビームコミックス)</a></dt>
-	<dd>竹本 泉</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4757700423?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">てきぱきワーキン〓ラブ (5) (ビームコミックス)</a></dt>
+    <dd>竹本 泉 (著)</dd>
     <dd>エンターブレイン 2000-05-01</dd>
-    <dd>Book コミック</dd>
-    <dd>ASIN: 4757700423, EAN: 9784757700420</dd>
+    <dd>コミック</dd>
+    <dd>4757700423 (ASIN), 9784757700420 (EAN), 4757700423 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">ついに（「さよパラ」にも出てきた）アレックスの謎が解ける？</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-10-13">2017-10-13</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-10-13">2017-10-13</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>

@@ -44,45 +44,43 @@ title = "『「情報社会」が「社会」になった時代』"
 - [20年後：インターネットの自由という夢の死 - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2015/09/46083/)
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E7%A4%BE%E4%BC%9A%E3%81%AF%E6%83%85%E5%A0%B1%E5%8C%96%E3%81%AE%E5%A4%A2%E3%82%92%E8%A6%8B%E3%82%8B-%E6%B2%B3%E5%87%BA%E6%96%87%E5%BA%AB-%E4%BD%90%E8%97%A4%E4%BF%8A%E6%A8%B9-ebook/dp/B01J1I8PRQ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01J1I8PRQ"><img src="https://images-fe.ssl-images-amazon.com/images/I/5132MaXTkGL._SL160_.jpg" width="112" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B01J1I8PRQ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/5132MaXTkGL._SL160_.jpg" width="112" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E7%A4%BE%E4%BC%9A%E3%81%AF%E6%83%85%E5%A0%B1%E5%8C%96%E3%81%AE%E5%A4%A2%E3%82%92%E8%A6%8B%E3%82%8B-%E6%B2%B3%E5%87%BA%E6%96%87%E5%BA%AB-%E4%BD%90%E8%97%A4%E4%BF%8A%E6%A8%B9-ebook/dp/B01J1I8PRQ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01J1I8PRQ">社会は情報化の夢を見る (河出文庫)</a></dt>
-	<dd>佐藤俊樹</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/B01J1I8PRQ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">社会は情報化の夢を見る (河出文庫)</a></dt>
+    <dd>佐藤俊樹 (著)</dd>
     <dd>河出書房新社 2010-09-03 (Release 2016-07-29)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B01J1I8PRQ</dd>
+    <dd>Kindle版</dd>
+    <dd>B01J1I8PRQ (ASIN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">1996年に出版された『ノイマンの夢・近代の欲望―情報化社会を解体する』の改訂新装版。しかし内容はこれまでと変わりなく，繰り返し語られる技術決定論を前提とする安易な未来予測を「情報化」社会論だとして批判する。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%8E%92%E9%99%A4%E5%9E%8B%E7%A4%BE%E4%BC%9A%E2%80%95%E5%BE%8C%E6%9C%9F%E8%BF%91%E4%BB%A3%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E7%8A%AF%E7%BD%AA%E3%83%BB%E9%9B%87%E7%94%A8%E3%83%BB%E5%B7%AE%E7%95%B0-%E3%82%B8%E3%83%A7%E3%83%83%E3%82%AF-%E3%83%A4%E3%83%B3%E3%82%B0/dp/4903127044?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4903127044"><img src="https://images-fe.ssl-images-amazon.com/images/I/41uBRNdBygL._SL160_.jpg" width="110" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4903127044?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41uBRNdBygL._SL160_.jpg" width="110" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E6%8E%92%E9%99%A4%E5%9E%8B%E7%A4%BE%E4%BC%9A%E2%80%95%E5%BE%8C%E6%9C%9F%E8%BF%91%E4%BB%A3%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E7%8A%AF%E7%BD%AA%E3%83%BB%E9%9B%87%E7%94%A8%E3%83%BB%E5%B7%AE%E7%95%B0-%E3%82%B8%E3%83%A7%E3%83%83%E3%82%AF-%E3%83%A4%E3%83%B3%E3%82%B0/dp/4903127044?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4903127044">排除型社会―後期近代における犯罪・雇用・差異</a></dt>
-	<dd>ジョック ヤング</dd>
-	<dd>Jock Young (原著), 青木 秀男 (翻訳), 伊藤 泰郎 (翻訳), 岸 政彦 (翻訳), 村澤 真保呂 (翻訳)</dd>
-    <dd>洛北出版 2007-03</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4903127044, EAN: 9784903127040</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4903127044?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">排除型社会―後期近代における犯罪・雇用・差異</a></dt>
+    <dd>ジョック ヤング (著), Young,Jock (原著), 秀男, 青木 (翻訳), 泰郎, 伊藤 (翻訳), 政彦, 岸 (翻訳), 真保呂, 村澤 (翻訳)</dd>
+    <dd>洛北出版 2007-03-01</dd>
+    <dd>単行本</dd>
+    <dd>4903127044 (ASIN), 9784903127040 (EAN), 4903127044 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description"><a href="https://baldanders.info/blog/000410/">感想はこちら</a>。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-07">2018-12-07</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-07">2018-12-07</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/CODE-VERSION-2-0-%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%AC%E3%83%83%E3%82%B7%E3%82%B0-ebook/dp/B01CYDGUV8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01CYDGUV8"><img src="https://images-fe.ssl-images-amazon.com/images/I/31Q2jh%2B5SgL._SL160_.jpg" width="113" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B01CYDGUV8?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/31Q2jh+5SgL._SL160_.jpg" width="113" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/CODE-VERSION-2-0-%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%AC%E3%83%83%E3%82%B7%E3%82%B0-ebook/dp/B01CYDGUV8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01CYDGUV8">CODE VERSION 2.0</a></dt>
-	<dd>ローレンス・レッシグ</dd>
-	<dd>山形浩生 (翻訳)</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/B01CYDGUV8?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">CODE VERSION 2.0</a></dt>
+    <dd>ローレンス・レッシグ (著), 山形浩生 (翻訳)</dd>
     <dd>翔泳社 2007-12-19 (Release 2016-03-14)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B01CYDGUV8</dd>
+    <dd>Kindle版</dd>
+    <dd>B01CYDGUV8 (ASIN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">前著『CODE』改訂版。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-17">2018-11-17</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-17">2018-11-17</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>

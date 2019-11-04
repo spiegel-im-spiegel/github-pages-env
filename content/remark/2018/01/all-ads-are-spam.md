@@ -12,20 +12,6 @@ tags = [
   "grigori",
 ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -82,31 +68,29 @@ Facebook の広告はその辺の匙加減が比較的上手い印象だった�
 ## 参考図書
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%90%E3%83%96%E3%83%AB%E2%94%80%E2%94%80%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E3%81%8C%E9%9A%A0%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8-%E3%83%8F%E3%83%A4%E3%82%AB%E3%83%AF%E6%96%87%E5%BA%ABNF-%E3%82%A4%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%BB%E3%83%91%E3%83%AA%E3%82%B5%E3%83%BC/dp/4150504598?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4150504598"><img src="https://images-fe.ssl-images-amazon.com/images/I/41UdjkE4OpL._SL160_.jpg" width="108" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4150504598?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41Le2d7nWiL._SL160_.jpg" width="109" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%90%E3%83%96%E3%83%AB%E2%94%80%E2%94%80%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E3%81%8C%E9%9A%A0%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8-%E3%83%8F%E3%83%A4%E3%82%AB%E3%83%AF%E6%96%87%E5%BA%ABNF-%E3%82%A4%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%BB%E3%83%91%E3%83%AA%E3%82%B5%E3%83%BC/dp/4150504598?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4150504598">フィルターバブル──インターネットが隠していること (ハヤカワ文庫NF)</a></dt>
-	<dd>イーライ・パリサー</dd>
-	<dd>井口耕二 (翻訳)</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4150504598?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">フィルターバブル──インターネットが隠していること (ハヤカワ文庫NF)</a></dt>
+    <dd>イーライ・パリサー (著), 井口耕二 (翻訳)</dd>
     <dd>早川書房 2016-03-09</dd>
-    <dd>Book 文庫</dd>
-    <dd>ASIN: 4150504598, EAN: 9784150504595</dd>
+    <dd>文庫</dd>
+    <dd>4150504598 (ASIN), 9784150504595 (EAN), 4150504598 (ISBN), 9784150504595 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">ネットにおいて私たちは自由ではなく，それと知らず「フィルターバブル」に捕らわれている。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%B9%E3%83%91%E3%83%A0-spam-%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%B5%E3%82%A4%E3%83%89-%E3%83%95%E3%82%A3%E3%83%B3%E3%83%BB%E3%83%96%E3%83%A9%E3%83%B3%E3%83%88%E3%83%B3/dp/430924744X?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=430924744X"><img src="https://images-fe.ssl-images-amazon.com/images/I/51KtN0YwWcL._SL160_.jpg" width="109" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/430924744X?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51KtN0YwWcL._SL160_.jpg" width="109" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%B9%E3%83%91%E3%83%A0-spam-%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%B5%E3%82%A4%E3%83%89-%E3%83%95%E3%82%A3%E3%83%B3%E3%83%BB%E3%83%96%E3%83%A9%E3%83%B3%E3%83%88%E3%83%B3/dp/430924744X?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=430924744X">スパム[spam]:インターネットのダークサイド</a></dt>
-	<dd>フィン・ブラントン</dd>
-	<dd>生貝直人 (監修), 成原慧 (監修), 松浦俊輔 (翻訳)</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/430924744X?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">スパム[spam]:インターネットのダークサイド</a></dt>
+    <dd>フィン・ブラントン (著), 生貝直人 (監修), 成原慧 (監修), 松浦俊輔 (翻訳)</dd>
     <dd>河出書房新社 2015-12-25</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 430924744X, EAN: 9784309247441</dd>
+    <dd>単行本</dd>
+    <dd>430924744X (ASIN), 9784309247441 (EAN), 430924744X (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="3">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">今読んでるけど読みづらい。修飾語が多すぎるよ。ギリシア神話かっての。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-12-10">2016-12-10</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-12-10">2016-12-10</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>

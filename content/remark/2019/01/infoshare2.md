@@ -173,17 +173,17 @@ tags = [ "book", "code", "internet", "generativity", "grigori", "surveillance-ca
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%AF%E3%82%84%E3%81%B6%E3%81%95%E2%80%95%E4%B8%8D%E6%AD%BB%E8%BA%AB%E3%81%AE%E6%8E%A2%E6%9F%BB%E6%A9%9F%E3%81%A8%E5%AE%87%E5%AE%99%E7%A0%94%E3%81%AE%E7%89%A9%E8%AA%9E-%E5%B9%BB%E5%86%AC%E8%88%8E%E6%96%B0%E6%9B%B8-%E5%90%89%E7%94%B0-%E6%AD%A6/dp/4344980158?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4344980158"><img src="https://images-fe.ssl-images-amazon.com/images/I/41pq6GlY%2BGL._SL160_.jpg" width="100" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4344980158?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41pq6GlY+GL._SL160_.jpg" width="100" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%81%AF%E3%82%84%E3%81%B6%E3%81%95%E2%80%95%E4%B8%8D%E6%AD%BB%E8%BA%AB%E3%81%AE%E6%8E%A2%E6%9F%BB%E6%A9%9F%E3%81%A8%E5%AE%87%E5%AE%99%E7%A0%94%E3%81%AE%E7%89%A9%E8%AA%9E-%E5%B9%BB%E5%86%AC%E8%88%8E%E6%96%B0%E6%9B%B8-%E5%90%89%E7%94%B0-%E6%AD%A6/dp/4344980158?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4344980158">はやぶさ―不死身の探査機と宇宙研の物語 (幻冬舎新書)</a></dt>
-	<dd>吉田 武</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4344980158?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">はやぶさ―不死身の探査機と宇宙研の物語 (幻冬舎新書)</a></dt>
+    <dd>吉田 武 (著)</dd>
     <dd>幻冬舎 2006-11-01</dd>
-    <dd>Book 新書</dd>
-    <dd>ASIN: 4344980158, EAN: 9784344980150</dd>
+    <dd>新書</dd>
+    <dd>4344980158 (ASIN), 9784344980150 (EAN), 4344980158 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">宇宙研（ISAS）の歴史とともに日本の宇宙開発について解説する。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
@@ -201,76 +201,73 @@ tags = [ "book", "code", "internet", "generativity", "grigori", "surveillance-ca
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E4%BF%A1%E9%A0%BC%E3%81%A8%E8%A3%8F%E5%88%87%E3%82%8A%E3%81%AE%E7%A4%BE%E4%BC%9A-%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%83%BB%E3%82%B7%E3%83%A5%E3%83%8A%E3%82%A4%E3%82%A2%E3%83%BC/dp/4757143044?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4757143044"><img src="https://images-fe.ssl-images-amazon.com/images/I/413qoSjODUL._SL160_.jpg" width="108" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4757143044?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/413qoSjODUL._SL160_.jpg" width="108" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E4%BF%A1%E9%A0%BC%E3%81%A8%E8%A3%8F%E5%88%87%E3%82%8A%E3%81%AE%E7%A4%BE%E4%BC%9A-%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%83%BB%E3%82%B7%E3%83%A5%E3%83%8A%E3%82%A4%E3%82%A2%E3%83%BC/dp/4757143044?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4757143044">信頼と裏切りの社会</a></dt>
-	<dd>ブルース・シュナイアー</dd>
-	<dd>山形 浩生 (翻訳)</dd>
-    <dd>エヌティティ出版 2013-12-24</dd>
-    <dd>Book 単行本（ソフトカバー）</dd>
-    <dd>ASIN: 4757143044, EAN: 9784757143043</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4757143044?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">信頼と裏切りの社会</a></dt>
+    <dd>ブルース・シュナイアー (著), 山形 浩生 (翻訳)</dd>
+    <dd>NTT出版 2013-12-24</dd>
+    <dd>単行本（ソフトカバー）</dd>
+    <dd>4757143044 (ASIN), 9784757143043 (EAN), 4757143044 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">社会における「信頼」とは。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-03-23">2019-03-23</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-03-23">2019-03-23</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%90%E3%83%96%E3%83%AB%E2%94%80%E2%94%80%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E3%81%8C%E9%9A%A0%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8-%E3%83%8F%E3%83%A4%E3%82%AB%E3%83%AF%E6%96%87%E5%BA%ABNF-%E3%82%A4%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%BB%E3%83%91%E3%83%AA%E3%82%B5%E3%83%BC/dp/4150504598?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4150504598"><img src="https://images-fe.ssl-images-amazon.com/images/I/41UdjkE4OpL._SL160_.jpg" width="108" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4150504598?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41Le2d7nWiL._SL160_.jpg" width="109" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%90%E3%83%96%E3%83%AB%E2%94%80%E2%94%80%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E3%81%8C%E9%9A%A0%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8-%E3%83%8F%E3%83%A4%E3%82%AB%E3%83%AF%E6%96%87%E5%BA%ABNF-%E3%82%A4%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%BB%E3%83%91%E3%83%AA%E3%82%B5%E3%83%BC/dp/4150504598?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4150504598">フィルターバブル──インターネットが隠していること (ハヤカワ文庫NF)</a></dt>
-	<dd>イーライ・パリサー</dd>
-	<dd>井口耕二 (翻訳)</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4150504598?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">フィルターバブル──インターネットが隠していること (ハヤカワ文庫NF)</a></dt>
+    <dd>イーライ・パリサー (著), 井口耕二 (翻訳)</dd>
     <dd>早川書房 2016-03-09</dd>
-    <dd>Book 文庫</dd>
-    <dd>ASIN: 4150504598, EAN: 9784150504595</dd>
+    <dd>文庫</dd>
+    <dd>4150504598 (ASIN), 9784150504595 (EAN), 4150504598 (ISBN), 9784150504595 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">ネットにおいて私たちは自由ではなく，それと知らず「フィルターバブル」に捕らわれている。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8A%E3%81%A3%E3%81%B1%E3%81%AA%E3%81%97%E3%81%AE%E6%97%A5%E5%B8%B8%E3%82%92%E7%94%9F%E3%81%8D%E3%82%8B%EF%BC%9A%E3%82%BD%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%81%8C%E8%8B%A5%E8%80%85%E3%81%AB%E3%82%82%E3%81%9F%E3%82%89%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE-%E3%83%80%E3%83%8A%E3%83%BB%E3%83%9C%E3%82%A4%E3%83%89-ebook/dp/B0125TZSZ0?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0125TZSZ0"><img src="https://images-fe.ssl-images-amazon.com/images/I/616sjle5ITL._SL160_.jpg" width="109" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B0125TZSZ0?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/616sjle5ITL._SL160_.jpg" width="109" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8A%E3%81%A3%E3%81%B1%E3%81%AA%E3%81%97%E3%81%AE%E6%97%A5%E5%B8%B8%E3%82%92%E7%94%9F%E3%81%8D%E3%82%8B%EF%BC%9A%E3%82%BD%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%81%8C%E8%8B%A5%E8%80%85%E3%81%AB%E3%82%82%E3%81%9F%E3%82%89%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE-%E3%83%80%E3%83%8A%E3%83%BB%E3%83%9C%E3%82%A4%E3%83%89-ebook/dp/B0125TZSZ0?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0125TZSZ0">つながりっぱなしの日常を生きる：ソーシャルメディアが若者にもたらしたもの</a></dt>
-	<dd>ダナ・ボイド</dd>
-	<dd>野中 モモ (翻訳)</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/B0125TZSZ0?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">つながりっぱなしの日常を生きる：ソーシャルメディアが若者にもたらしたもの</a></dt>
+    <dd>ダナ・ボイド (著), 野中 モモ (翻訳)</dd>
     <dd>草思社 2014-10-09 (Release 2015-07-21)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B0125TZSZ0</dd>
+    <dd>Kindle版</dd>
+    <dd>B0125TZSZ0 (ASIN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">読むのに1年半以上かかってしまった。ネット，特に SNS 上で自身のアイデンティティやプライバシーを保つにはどうすればいいか。豊富な事例を交えて考察する。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E7%A4%BE%E4%BC%9A%E3%81%AF%E6%83%85%E5%A0%B1%E5%8C%96%E3%81%AE%E5%A4%A2%E3%82%92%E8%A6%8B%E3%82%8B-%E6%B2%B3%E5%87%BA%E6%96%87%E5%BA%AB-%E4%BD%90%E8%97%A4%E4%BF%8A%E6%A8%B9-ebook/dp/B01J1I8PRQ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01J1I8PRQ"><img src="https://images-fe.ssl-images-amazon.com/images/I/5132MaXTkGL._SL160_.jpg" width="112" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B01J1I8PRQ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/5132MaXTkGL._SL160_.jpg" width="112" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E7%A4%BE%E4%BC%9A%E3%81%AF%E6%83%85%E5%A0%B1%E5%8C%96%E3%81%AE%E5%A4%A2%E3%82%92%E8%A6%8B%E3%82%8B-%E6%B2%B3%E5%87%BA%E6%96%87%E5%BA%AB-%E4%BD%90%E8%97%A4%E4%BF%8A%E6%A8%B9-ebook/dp/B01J1I8PRQ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01J1I8PRQ">社会は情報化の夢を見る (河出文庫)</a></dt>
-	<dd>佐藤俊樹</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/B01J1I8PRQ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">社会は情報化の夢を見る (河出文庫)</a></dt>
+    <dd>佐藤俊樹 (著)</dd>
     <dd>河出書房新社 2010-09-03 (Release 2016-07-29)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B01J1I8PRQ</dd>
+    <dd>Kindle版</dd>
+    <dd>B01J1I8PRQ (ASIN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">1996年に出版された『ノイマンの夢・近代の欲望―情報化社会を解体する』の改訂新装版。しかし内容はこれまでと変わりなく，繰り返し語られる技術決定論を前提とする安易な未来予測を「情報化」社会論だとして批判する。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%A4%E3%83%8E%E3%83%99%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-%E6%82%AA%E6%84%8F%E3%81%AA%E3%81%8D%E5%98%98-%E5%8F%8C%E6%9B%B8-%E6%99%82%E4%BB%A3%E3%81%AE%E3%82%AB%E3%83%AB%E3%83%86-%E5%B0%8F%E5%A4%AA%E9%83%8E/dp/4000280872?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4000280872"><img src="https://images-fe.ssl-images-amazon.com/images/I/31e2h91IUWL._SL160_.jpg" width="103" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4000280872?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/31e2h91IUWL._SL160_.jpg" width="103" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%A4%E3%83%8E%E3%83%99%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-%E6%82%AA%E6%84%8F%E3%81%AA%E3%81%8D%E5%98%98-%E5%8F%8C%E6%9B%B8-%E6%99%82%E4%BB%A3%E3%81%AE%E3%82%AB%E3%83%AB%E3%83%86-%E5%B0%8F%E5%A4%AA%E9%83%8E/dp/4000280872?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4000280872">イノベーション 悪意なき嘘 (双書 時代のカルテ)</a></dt>
-	<dd>名和 小太郎</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4000280872?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">イノベーション 悪意なき嘘 (双書 時代のカルテ)</a></dt>
+    <dd>名和 小太郎 (著)</dd>
     <dd>岩波書店 2007-01-11</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4000280872, EAN: 9784000280877</dd>
+    <dd>単行本</dd>
+    <dd>4000280872 (ASIN), 9784000280877 (EAN), 4000280872 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">「両用技術とはどのようなものか。その核心には「矛と楯の論理」がある」（まえがき「予断・診断・独断 そんなばかな」より）</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">

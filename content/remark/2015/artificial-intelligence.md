@@ -1,23 +1,12 @@
 +++
-date = "2015-10-01T20:47:00+09:00"
-update = "2016-10-18T21:25:39+09:00"
-description = "「人工知能に人類と協力する目的を持たせる」にしろ「人工知能の開発は人類がコントロールできるように進める」にしろ，人工知能が「ハイル・ヒトラー」と叫ぶ可能性は排除できない。"
-draft = false
-tags = ["engineering", "artificial-intelligence"]
 title = "人工知能は「ハイル・ヒトラー」と叫ぶか"
+date = "2015-10-01T20:47:00+09:00"
+description = "「人工知能に人類と協力する目的を持たせる」にしろ「人工知能の開発は人類がコントロールできるように進める」にしろ，人工知能が「ハイル・ヒトラー」と叫ぶ可能性は排除できない。"
+tags = ["engineering", "artificial-intelligence"]
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 サイトリニューアルの余波で[昔の日記](https://baldanders.info/spiegel/log/)なんか眺めてたら「[たるさんのパソコンフィールド](http://www.ne.jp/asahi/comp/tarusan/index.html)」が復活していることに気が付いた。
@@ -94,15 +83,15 @@ title = "人工知能は「ハイル・ヒトラー」と叫ぶか"
 ## 参考文献
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%A4%E3%83%8E%E3%83%99%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-%E6%82%AA%E6%84%8F%E3%81%AA%E3%81%8D%E5%98%98-%E5%8F%8C%E6%9B%B8-%E6%99%82%E4%BB%A3%E3%81%AE%E3%82%AB%E3%83%AB%E3%83%86-%E5%B0%8F%E5%A4%AA%E9%83%8E/dp/4000280872?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4000280872"><img src="https://images-fe.ssl-images-amazon.com/images/I/31e2h91IUWL._SL160_.jpg" width="103" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4000280872?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/31e2h91IUWL._SL160_.jpg" width="103" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%A4%E3%83%8E%E3%83%99%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-%E6%82%AA%E6%84%8F%E3%81%AA%E3%81%8D%E5%98%98-%E5%8F%8C%E6%9B%B8-%E6%99%82%E4%BB%A3%E3%81%AE%E3%82%AB%E3%83%AB%E3%83%86-%E5%B0%8F%E5%A4%AA%E9%83%8E/dp/4000280872?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4000280872">イノベーション 悪意なき嘘 (双書 時代のカルテ)</a></dt>
-	<dd>名和 小太郎</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4000280872?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">イノベーション 悪意なき嘘 (双書 時代のカルテ)</a></dt>
+    <dd>名和 小太郎 (著)</dd>
     <dd>岩波書店 2007-01-11</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4000280872, EAN: 9784000280877</dd>
+    <dd>単行本</dd>
+    <dd>4000280872 (ASIN), 9784000280877 (EAN), 4000280872 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">「両用技術とはどのようなものか。その核心には「矛と楯の論理」がある」（まえがき「予断・診断・独断 そんなばかな」より）</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>

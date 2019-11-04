@@ -1,24 +1,12 @@
 +++
-date = "2017-02-07T20:02:46+09:00"
-update = "2017-02-09T16:36:41+09:00"
 title = "JASRAC が音楽教室からも「著作権（みかじめ）料」をまきあげる話"
+date = "2017-02-07T20:02:46+09:00"
 description = "いっそのこと音楽教室用に「自由な楽曲」を創作するのも面白いかもねぇ。"
-draft = false
 tags = ["code", "intellectual-property", "copyright", "music", "management"]
 
-[author]
-  flattr = ""
-  facebook = "spiegel.im.spiegel"
-  flickr = "spiegel"
-  twitter = "spiegel_2007"
-  github = "spiegel-im-spiegel"
-  avatar = "/images/avatar.jpg"
-  instagram = "spiegel_2007"
-  tumblr = ""
-  url = "https://baldanders.info/profile/"
-  license = "by-sa"
-  name = "Spiegel"
-  linkedin = "spiegelimspiegel"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 きっかけはこれ。
@@ -155,29 +143,29 @@ JASRAC だけなら 2.5% かもしれないが，他の著作権管理団体も�
 ## 参考図書
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E8%91%97%E4%BD%9C%E6%A8%A9%EF%BC%92%EF%BC%8E%EF%BC%90-%E3%82%A6%E3%82%A7%E3%83%96%E6%99%82%E4%BB%A3%E3%81%AE%E6%96%87%E5%8C%96%E7%99%BA%E5%B1%95%E3%82%92%E3%82%81%E3%81%96%E3%81%97%E3%81%A6-NTT%E5%87%BA%E7%89%88%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC%E2%80%95%E3%83%AC%E3%82%BE%E3%83%8A%E3%83%B3%E3%83%88-%E5%90%8D%E5%92%8C-%E5%B0%8F%E5%A4%AA%E9%83%8E/dp/4757102852?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4757102852"><img src="https://images-fe.ssl-images-amazon.com/images/I/41YkbcP5IyL._SL160_.jpg" width="108" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4757102852?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41YkbcP5IyL._SL160_.jpg" width="108" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E8%91%97%E4%BD%9C%E6%A8%A9%EF%BC%92%EF%BC%8E%EF%BC%90-%E3%82%A6%E3%82%A7%E3%83%96%E6%99%82%E4%BB%A3%E3%81%AE%E6%96%87%E5%8C%96%E7%99%BA%E5%B1%95%E3%82%92%E3%82%81%E3%81%96%E3%81%97%E3%81%A6-NTT%E5%87%BA%E7%89%88%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC%E2%80%95%E3%83%AC%E3%82%BE%E3%83%8A%E3%83%B3%E3%83%88-%E5%90%8D%E5%92%8C-%E5%B0%8F%E5%A4%AA%E9%83%8E/dp/4757102852?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4757102852">著作権２．０ ウェブ時代の文化発展をめざして (NTT出版ライブラリー―レゾナント)</a></dt>
-	<dd>名和 小太郎</dd>
-    <dd>エヌティティ出版 2010-06-24</dd>
-    <dd>Book 単行本（ソフトカバー）</dd>
-    <dd>ASIN: 4757102852, EAN: 9784757102859</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4757102852?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">著作権２．０ ウェブ時代の文化発展をめざして (NTT出版ライブラリー―レゾナント)</a></dt>
+    <dd>名和 小太郎 (著)</dd>
+    <dd>NTT出版 2010-06-24</dd>
+    <dd>単行本（ソフトカバー）</dd>
+    <dd>4757102852 (ASIN), 9784757102859 (EAN), 4757102852 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">名著です。今すぐ買うべきです。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-13">2018-11-13</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-13">2018-11-13</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%95%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%AB%E3%83%81%E3%83%A3%E3%83%BC%E3%82%92%E3%81%A4%E3%81%8F%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%82%AC%E3%82%A4%E3%83%89%E3%83%96%E3%83%83%E3%82%AF-%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%BB%E3%82%B3%E3%83%A2%E3%83%B3%E3%82%BA%E3%81%AB%E3%82%88%E3%82%8B%E5%89%B5%E9%80%A0%E3%81%AE%E5%BE%AA%E7%92%B0-%E3%83%89%E3%83%9F%E3%83%8B%E3%82%AF%E3%83%BB%E3%83%81%E3%82%A7%E3%83%B3/dp/4845911744?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4845911744"><img src="https://images-fe.ssl-images-amazon.com/images/I/51pDWTdSdlL._SL160_.jpg" width="115" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4845911744?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51pDWTdSdlL._SL160_.jpg" width="115" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%83%95%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%AB%E3%83%81%E3%83%A3%E3%83%BC%E3%82%92%E3%81%A4%E3%81%8F%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%82%AC%E3%82%A4%E3%83%89%E3%83%96%E3%83%83%E3%82%AF-%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%BB%E3%82%B3%E3%83%A2%E3%83%B3%E3%82%BA%E3%81%AB%E3%82%88%E3%82%8B%E5%89%B5%E9%80%A0%E3%81%AE%E5%BE%AA%E7%92%B0-%E3%83%89%E3%83%9F%E3%83%8B%E3%82%AF%E3%83%BB%E3%83%81%E3%82%A7%E3%83%B3/dp/4845911744?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4845911744">フリーカルチャーをつくるためのガイドブック  クリエイティブ・コモンズによる創造の循環</a></dt>
-	<dd>ドミニク・チェン</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4845911744?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">フリーカルチャーをつくるためのガイドブック  クリエイティブ・コモンズによる創造の循環</a></dt>
+    <dd>ドミニク・チェン (著)</dd>
     <dd>フィルムアート社 2012-05-25</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4845911744, EAN: 9784845911745</dd>
+    <dd>単行本</dd>
+    <dd>4845911744 (ASIN), 9784845911745 (EAN), 4845911744 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">国内における Free Culture の事例が豊富。取っ掛かりとしてはちょうどよい本。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-05-07">2015-05-07</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-05-07">2015-05-07</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>

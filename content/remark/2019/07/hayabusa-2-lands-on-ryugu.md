@@ -56,15 +56,15 @@ pageType = "text"
 [はやぶさ2]: http://www.hayabusa2.jaxa.jp/ "JAXA Hayabusa2 Project"
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%AF%E3%82%84%E3%81%B6%E3%81%95%E2%80%95%E4%B8%8D%E6%AD%BB%E8%BA%AB%E3%81%AE%E6%8E%A2%E6%9F%BB%E6%A9%9F%E3%81%A8%E5%AE%87%E5%AE%99%E7%A0%94%E3%81%AE%E7%89%A9%E8%AA%9E-%E5%B9%BB%E5%86%AC%E8%88%8E%E6%96%B0%E6%9B%B8-%E5%90%89%E7%94%B0-%E6%AD%A6/dp/4344980158?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4344980158"><img src="https://images-fe.ssl-images-amazon.com/images/I/41pq6GlY%2BGL._SL160_.jpg" width="100" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4344980158?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41pq6GlY+GL._SL160_.jpg" width="100" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%81%AF%E3%82%84%E3%81%B6%E3%81%95%E2%80%95%E4%B8%8D%E6%AD%BB%E8%BA%AB%E3%81%AE%E6%8E%A2%E6%9F%BB%E6%A9%9F%E3%81%A8%E5%AE%87%E5%AE%99%E7%A0%94%E3%81%AE%E7%89%A9%E8%AA%9E-%E5%B9%BB%E5%86%AC%E8%88%8E%E6%96%B0%E6%9B%B8-%E5%90%89%E7%94%B0-%E6%AD%A6/dp/4344980158?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4344980158">はやぶさ―不死身の探査機と宇宙研の物語 (幻冬舎新書)</a></dt>
-	<dd>吉田 武</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4344980158?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">はやぶさ―不死身の探査機と宇宙研の物語 (幻冬舎新書)</a></dt>
+    <dd>吉田 武 (著)</dd>
     <dd>幻冬舎 2006-11-01</dd>
-    <dd>Book 新書</dd>
-    <dd>ASIN: 4344980158, EAN: 9784344980150</dd>
+    <dd>新書</dd>
+    <dd>4344980158 (ASIN), 9784344980150 (EAN), 4344980158 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">宇宙研（ISAS）の歴史とともに日本の宇宙開発について解説する。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>

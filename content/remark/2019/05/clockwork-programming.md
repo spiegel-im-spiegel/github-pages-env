@@ -71,31 +71,31 @@ pageType = "text"
 ## 参考図書
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%99%82%E8%A8%88%E3%81%98%E3%81%8B%E3%81%91%E3%81%AE%E3%82%AA%E3%83%AC%E3%83%B3%E3%82%B8-%E5%AD%97%E5%B9%95%E7%89%88-%E3%83%9E%E3%83%AB%E3%82%B3%E3%83%A0%E3%83%BB%E3%83%9E%E3%82%AF%E3%83%89%E3%82%A6%E3%82%A7%E3%83%AB/dp/B00FIX664S?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00FIX664S"><img src="https://images-fe.ssl-images-amazon.com/images/I/41qjhvuarDL._SL160_.jpg" width="120" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B00FIX664S?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41qjhvuarDL._SL160_.jpg" width="120" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E6%99%82%E8%A8%88%E3%81%98%E3%81%8B%E3%81%91%E3%81%AE%E3%82%AA%E3%83%AC%E3%83%B3%E3%82%B8-%E5%AD%97%E5%B9%95%E7%89%88-%E3%83%9E%E3%83%AB%E3%82%B3%E3%83%A0%E3%83%BB%E3%83%9E%E3%82%AF%E3%83%89%E3%82%A6%E3%82%A7%E3%83%AB/dp/B00FIX664S?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00FIX664S">時計じかけのオレンジ (字幕版)</a></dt>
-	<dd>スタンリー・キューブリック (プロデュース)</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/B00FIX664S?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">時計じかけのオレンジ (字幕版)</a></dt>
+    <dd>マルコム・マクドウェル (出演), パトリック・マギー (出演), スタンリー・キューブリック (監督), スタンリー・キューブリック (プロデュース)</dd>
     <dd> (Release 2013-11-26)</dd>
-    <dd>Movie Prime Video</dd>
-    <dd>ASIN: B00FIX664S</dd>
+    <dd>Prime Video</dd>
+    <dd>B00FIX664S (ASIN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">この映画を観たのって大学生の頃なんだけど，女性の先輩と2人で観に行ったんだよなぁ。後で考えたらものすごいシチュエーションだったんだけど，その時は映画が面白すぎて状況を全く把握してなかった（笑）</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-05-20">2019-05-20</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-05-20">2019-05-20</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E7%A4%BE%E4%BC%9A%E3%81%AF%E6%83%85%E5%A0%B1%E5%8C%96%E3%81%AE%E5%A4%A2%E3%82%92%E8%A6%8B%E3%82%8B-%E6%B2%B3%E5%87%BA%E6%96%87%E5%BA%AB-%E4%BD%90%E8%97%A4%E4%BF%8A%E6%A8%B9-ebook/dp/B01J1I8PRQ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01J1I8PRQ"><img src="https://images-fe.ssl-images-amazon.com/images/I/5132MaXTkGL._SL160_.jpg" width="112" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B01J1I8PRQ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/5132MaXTkGL._SL160_.jpg" width="112" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E7%A4%BE%E4%BC%9A%E3%81%AF%E6%83%85%E5%A0%B1%E5%8C%96%E3%81%AE%E5%A4%A2%E3%82%92%E8%A6%8B%E3%82%8B-%E6%B2%B3%E5%87%BA%E6%96%87%E5%BA%AB-%E4%BD%90%E8%97%A4%E4%BF%8A%E6%A8%B9-ebook/dp/B01J1I8PRQ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01J1I8PRQ">社会は情報化の夢を見る (河出文庫)</a></dt>
-	<dd>佐藤俊樹</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/B01J1I8PRQ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">社会は情報化の夢を見る (河出文庫)</a></dt>
+    <dd>佐藤俊樹 (著)</dd>
     <dd>河出書房新社 2010-09-03 (Release 2016-07-29)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B01J1I8PRQ</dd>
+    <dd>Kindle版</dd>
+    <dd>B01J1I8PRQ (ASIN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">1996年に出版された『ノイマンの夢・近代の欲望―情報化社会を解体する』の改訂新装版。しかし内容はこれまでと変わりなく，繰り返し語られる技術決定論を前提とする安易な未来予測を「情報化」社会論だとして批判する。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
@@ -113,16 +113,15 @@ pageType = "text"
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E4%B8%87%E7%89%A9%E7%90%86%E8%AB%96-%E5%89%B5%E5%85%83SF%E6%96%87%E5%BA%AB-%E3%82%B0%E3%83%AC%E3%83%83%E3%82%B0%E3%83%BB%E3%82%A4%E3%83%BC%E3%82%AC%E3%83%B3/dp/4488711022?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4488711022"><img src="https://images-fe.ssl-images-amazon.com/images/I/51J3DEJJ1TL._SL160_.jpg" width="112" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4488711022?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51J3DEJJ1TL._SL160_.jpg" width="112" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E4%B8%87%E7%89%A9%E7%90%86%E8%AB%96-%E5%89%B5%E5%85%83SF%E6%96%87%E5%BA%AB-%E3%82%B0%E3%83%AC%E3%83%83%E3%82%B0%E3%83%BB%E3%82%A4%E3%83%BC%E3%82%AC%E3%83%B3/dp/4488711022?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4488711022">万物理論 (創元SF文庫)</a></dt>
-	<dd>グレッグ・イーガン</dd>
-	<dd>山岸 真 (翻訳)</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4488711022?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">万物理論 (創元SF文庫)</a></dt>
+    <dd>グレッグ・イーガン (著), 山岸 真 (翻訳)</dd>
     <dd>東京創元社 2004-10-28</dd>
-    <dd>Book 文庫</dd>
-    <dd>ASIN: 4488711022, EAN: 9784488711023</dd>
+    <dd>文庫</dd>
+    <dd>4488711022 (ASIN), 9784488711023 (EAN), 4488711022 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">グレッグ・イーガンの名作。これも singularity を巡る物語だな。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-09-18">2017-09-18</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-09-18">2017-09-18</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>

@@ -562,32 +562,48 @@
       "Type": "paapi",
       "ID": "4532149029",
       "Title": "これまでのビジネスのやり方は終わりだ―あなたの会社を絶滅恐竜にしない95の法則",
-      "URL": "https://www.amazon.co.jp/%E3%81%93%E3%82%8C%E3%81%BE%E3%81%A7%E3%81%AE%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%81%AE%E3%82%84%E3%82%8A%E6%96%B9%E3%81%AF%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%A0%E2%80%95%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E4%BC%9A%E7%A4%BE%E3%82%92%E7%B5%B6%E6%BB%85%E6%81%90%E7%AB%9C%E3%81%AB%E3%81%97%E3%81%AA%E3%81%8495%E3%81%AE%E6%B3%95%E5%89%87-%E3%83%AA%E3%83%83%E3%82%AF-%E3%83%AC%E3%83%90%E3%82%A4%E3%83%B3/dp/4532149029?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4532149029",
+      "URL": "https://www.amazon.co.jp/dp/4532149029?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51811H1N43L._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51811H1N43L._SL160_.jpg",
         "Height": 160,
         "Width": 111
       },
       "ProductType": "単行本",
       "Creators": [
         {
-          "Name": "Rick Levine",
+          "Name": "レバイン,リック",
+          "Role": "著"
+        },
+        {
+          "Name": "サールズ,ドク",
+          "Role": "著"
+        },
+        {
+          "Name": "ロック,クリストファー",
+          "Role": "著"
+        },
+        {
+          "Name": "ワインバーガー,デビッド",
+          "Role": "著"
+        },
+        {
+          "Name": "Levine,Rick",
           "Role": "原著"
         },
         {
-          "Name": "Doc Searls",
+          "Name": "Searls,Doc",
           "Role": "原著"
         },
         {
-          "Name": "Christopher Locke",
+          "Name": "Locke,Christopher",
           "Role": "原著"
         },
         {
-          "Name": "David Weinberger",
+          "Name": "Weinberger,David",
           "Role": "原著"
         },
         {
-          "Name": "倉骨 彰",
+          "Name": "彰, 倉骨",
           "Role": "翻訳"
         }
       ],
@@ -600,12 +616,16 @@
         {
           "Name": "EAN",
           "Value": "9784532149024"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4532149029"
         }
       ],
-      "PublicationDate": "",
+      "PublicationDate": "2001-03-01",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -1036,13 +1056,19 @@
       "Type": "paapi",
       "ID": "B071V8J53D",
       "Title": "法のデザイン",
-      "URL": "https://www.amazon.co.jp/%E6%B3%95%E3%81%AE%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3-%E6%B0%B4%E9%87%8E%E7%A5%90-ebook/dp/B071V8J53D?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B071V8J53D",
+      "URL": "https://www.amazon.co.jp/dp/B071V8J53D?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41fWm05dTNL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41fWm05dTNL._SL160_.jpg",
         "Height": 160,
         "Width": 106
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "水野祐",
+          "Role": "著"
+        }
+      ],
       "Publisher": "フィルムアート社",
       "Codes": [
         {
@@ -1053,7 +1079,7 @@
       "PublicationDate": "2017-02-28",
       "LastRelease": "2018-08-03",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -1849,14 +1875,18 @@
       "Type": "paapi",
       "ID": "4488711022",
       "Title": "万物理論 (創元SF文庫)",
-      "URL": "https://www.amazon.co.jp/%E4%B8%87%E7%89%A9%E7%90%86%E8%AB%96-%E5%89%B5%E5%85%83SF%E6%96%87%E5%BA%AB-%E3%82%B0%E3%83%AC%E3%83%83%E3%82%B0%E3%83%BB%E3%82%A4%E3%83%BC%E3%82%AC%E3%83%B3/dp/4488711022?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4488711022",
+      "URL": "https://www.amazon.co.jp/dp/4488711022?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51J3DEJJ1TL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51J3DEJJ1TL._SL160_.jpg",
         "Height": 160,
         "Width": 112
       },
       "ProductType": "文庫",
       "Creators": [
+        {
+          "Name": "グレッグ・イーガン",
+          "Role": "著"
+        },
         {
           "Name": "山岸 真",
           "Role": "翻訳"
@@ -1871,12 +1901,16 @@
         {
           "Name": "EAN",
           "Value": "9784488711023"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4488711022"
         }
       ],
       "PublicationDate": "2004-10-28",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -1896,13 +1930,19 @@
       "Type": "paapi",
       "ID": "4106037866",
       "Title": "【中東大混迷を解く】 サイクス=ピコ協定 百年の呪縛 (新潮選書)",
-      "URL": "https://www.amazon.co.jp/%E3%80%90%E4%B8%AD%E6%9D%B1%E5%A4%A7%E6%B7%B7%E8%BF%B7%E3%82%92%E8%A7%A3%E3%81%8F%E3%80%91-%E3%82%B5%E3%82%A4%E3%82%AF%E3%82%B9-%E3%83%94%E3%82%B3%E5%8D%94%E5%AE%9A-%E7%99%BE%E5%B9%B4%E3%81%AE%E5%91%AA%E7%B8%9B-%E6%96%B0%E6%BD%AE%E9%81%B8%E6%9B%B8/dp/4106037866?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4106037866",
+      "URL": "https://www.amazon.co.jp/dp/4106037866?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51QsC2WBr5L._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51QsC2WBr5L._SL160_.jpg",
         "Height": 160,
         "Width": 106
       },
       "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "恵, 池内",
+          "Role": "著"
+        }
+      ],
       "Publisher": "新潮社",
       "Codes": [
         {
@@ -1912,12 +1952,16 @@
         {
           "Name": "EAN",
           "Value": "9784106037863"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4106037866"
         }
       ],
       "PublicationDate": "2016-05-27",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -1937,13 +1981,19 @@
       "Type": "paapi",
       "ID": "4757700423",
       "Title": "てきぱきワーキン〓ラブ (5) (ビームコミックス)",
-      "URL": "https://www.amazon.co.jp/%E3%81%A6%E3%81%8D%E3%81%B1%E3%81%8D%E3%83%AF%E3%83%BC%E3%82%AD%E3%83%B3%E3%80%93%E3%83%A9%E3%83%96-5-%E3%83%93%E3%83%BC%E3%83%A0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E7%AB%B9%E6%9C%AC-%E6%B3%89/dp/4757700423?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4757700423",
+      "URL": "https://www.amazon.co.jp/dp/4757700423?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/518JGPT6DEL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/518JGPT6DEL._SL160_.jpg",
         "Height": 160,
         "Width": 113
       },
       "ProductType": "コミック",
+      "Creators": [
+        {
+          "Name": "竹本 泉",
+          "Role": "著"
+        }
+      ],
       "Publisher": "エンターブレイン",
       "Codes": [
         {
@@ -1953,12 +2003,16 @@
         {
           "Name": "EAN",
           "Value": "9784757700420"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4757700423"
         }
       ],
       "PublicationDate": "2000-05-01",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -2612,13 +2666,43 @@
       "Type": "paapi",
       "ID": "4862486932",
       "Title": "日本人が知らないウィキリークス (新書ｙ)",
-      "URL": "https://www.amazon.co.jp/%E6%97%A5%E6%9C%AC%E4%BA%BA%E3%81%8C%E7%9F%A5%E3%82%89%E3%81%AA%E3%81%84%E3%82%A6%E3%82%A3%E3%82%AD%E3%83%AA%E3%83%BC%E3%82%AF%E3%82%B9-%E6%96%B0%E6%9B%B8%EF%BD%99-%E5%B0%8F%E6%9E%97-%E6%81%AD%E5%AD%90/dp/4862486932?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4862486932",
+      "URL": "https://www.amazon.co.jp/dp/4862486932?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41OTZHSZDXL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41OTZHSZDXL._SL160_.jpg",
         "Height": 160,
         "Width": 96
       },
       "ProductType": "新書",
+      "Creators": [
+        {
+          "Name": "小林 恭子",
+          "Role": "著"
+        },
+        {
+          "Name": "白井 聡",
+          "Role": "著"
+        },
+        {
+          "Name": "塚越 健司",
+          "Role": "著"
+        },
+        {
+          "Name": "津田 大介",
+          "Role": "著"
+        },
+        {
+          "Name": "八田 真行",
+          "Role": "著"
+        },
+        {
+          "Name": "浜野 喬士",
+          "Role": "著"
+        },
+        {
+          "Name": "孫崎 享",
+          "Role": "著"
+        }
+      ],
       "Publisher": "洋泉社",
       "Codes": [
         {
@@ -2628,12 +2712,20 @@
         {
           "Name": "EAN",
           "Value": "9784862486936"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4862486932"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "9784862486936"
         }
       ],
       "PublicationDate": "2011-02-05",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -2653,13 +2745,19 @@
       "Type": "paapi",
       "ID": "4797334673",
       "Title": "インターネットの法と慣習　かなり奇妙な法学入門 [ソフトバンク新書]",
-      "URL": "https://www.amazon.co.jp/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E3%81%AE%E6%B3%95%E3%81%A8%E6%85%A3%E7%BF%92-%E3%81%8B%E3%81%AA%E3%82%8A%E5%A5%87%E5%A6%99%E3%81%AA%E6%B3%95%E5%AD%A6%E5%85%A5%E9%96%80-%E3%82%BD%E3%83%95%E3%83%88%E3%83%90%E3%83%B3%E3%82%AF%E6%96%B0%E6%9B%B8-%E7%99%BD%E7%94%B0-%E7%A7%80%E5%BD%B0/dp/4797334673?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4797334673",
+      "URL": "https://www.amazon.co.jp/dp/4797334673?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41tEJvyOO2L._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41tEJvyOO2L._SL160_.jpg",
         "Height": 160,
         "Width": 97
       },
       "ProductType": "新書",
+      "Creators": [
+        {
+          "Name": "白田 秀彰",
+          "Role": "著"
+        }
+      ],
       "Publisher": "ソフトバンククリエイティブ",
       "Codes": [
         {
@@ -2669,12 +2767,16 @@
         {
           "Name": "EAN",
           "Value": "9784797334678"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4797334673"
         }
       ],
       "PublicationDate": "2006-07-15",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -3307,14 +3409,18 @@
       "Type": "paapi",
       "ID": "B00DIM6BE6",
       "Title": "インテンション・エコノミー～顧客が支配する経済",
-      "URL": "https://www.amazon.co.jp/%E3%82%A4%E3%83%B3%E3%83%86%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%82%A8%E3%82%B3%E3%83%8E%E3%83%9F%E3%83%BC%EF%BD%9E%E9%A1%A7%E5%AE%A2%E3%81%8C%E6%94%AF%E9%85%8D%E3%81%99%E3%82%8B%E7%B5%8C%E6%B8%88-Doc-Searls-ebook/dp/B00DIM6BE6?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00DIM6BE6",
+      "URL": "https://www.amazon.co.jp/dp/B00DIM6BE6?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/519%2BkIHb71L._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/519+kIHb71L._SL160_.jpg",
         "Height": 160,
         "Width": 111
       },
       "ProductType": "Kindle版",
       "Creators": [
+        {
+          "Name": "Doc Searls",
+          "Role": "著"
+        },
         {
           "Name": "栗原潔",
           "Role": "翻訳"
@@ -3325,16 +3431,12 @@
         {
           "Name": "ASIN",
           "Value": "B00DIM6BE6"
-        },
-        {
-          "Name": "EISBN",
-          "Value": "9784798133010"
         }
       ],
       "PublicationDate": "2013-03-14",
       "LastRelease": "2013-06-20",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -3354,14 +3456,26 @@
       "Type": "paapi",
       "ID": "B00FIX664S",
       "Title": "時計じかけのオレンジ (字幕版)",
-      "URL": "https://www.amazon.co.jp/%E6%99%82%E8%A8%88%E3%81%98%E3%81%8B%E3%81%91%E3%81%AE%E3%82%AA%E3%83%AC%E3%83%B3%E3%82%B8-%E5%AD%97%E5%B9%95%E7%89%88-%E3%83%9E%E3%83%AB%E3%82%B3%E3%83%A0%E3%83%BB%E3%83%9E%E3%82%AF%E3%83%89%E3%82%A6%E3%82%A7%E3%83%AB/dp/B00FIX664S?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00FIX664S",
+      "URL": "https://www.amazon.co.jp/dp/B00FIX664S?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41qjhvuarDL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41qjhvuarDL._SL160_.jpg",
         "Height": 160,
         "Width": 120
       },
       "ProductType": "Prime Video",
       "Creators": [
+        {
+          "Name": "マルコム・マクドウェル",
+          "Role": "出演"
+        },
+        {
+          "Name": "パトリック・マギー",
+          "Role": "出演"
+        },
+        {
+          "Name": "スタンリー・キューブリック",
+          "Role": "監督"
+        },
         {
           "Name": "スタンリー・キューブリック",
           "Role": "プロデュース"
@@ -3376,7 +3490,7 @@
       "PublicationDate": "",
       "LastRelease": "2013-11-26",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -3783,14 +3897,18 @@
       "Type": "paapi",
       "ID": "4757143044",
       "Title": "信頼と裏切りの社会",
-      "URL": "https://www.amazon.co.jp/%E4%BF%A1%E9%A0%BC%E3%81%A8%E8%A3%8F%E5%88%87%E3%82%8A%E3%81%AE%E7%A4%BE%E4%BC%9A-%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%83%BB%E3%82%B7%E3%83%A5%E3%83%8A%E3%82%A4%E3%82%A2%E3%83%BC/dp/4757143044?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4757143044",
+      "URL": "https://www.amazon.co.jp/dp/4757143044?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/413qoSjODUL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/413qoSjODUL._SL160_.jpg",
         "Height": 160,
         "Width": 108
       },
       "ProductType": "単行本（ソフトカバー）",
       "Creators": [
+        {
+          "Name": "ブルース・シュナイアー",
+          "Role": "著"
+        },
         {
           "Name": "山形 浩生",
           "Role": "翻訳"
@@ -3805,12 +3923,16 @@
         {
           "Name": "EAN",
           "Value": "9784757143043"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4757143044"
         }
       ],
       "PublicationDate": "2013-12-24",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -3954,14 +4076,18 @@
       "Type": "paapi",
       "ID": "B01916B8V8",
       "Title": "かもめのジョナサン【完成版】（新潮文庫）",
-      "URL": "https://www.amazon.co.jp/%E3%81%8B%E3%82%82%E3%82%81%E3%81%AE%E3%82%B8%E3%83%A7%E3%83%8A%E3%82%B5%E3%83%B3%E3%80%90%E5%AE%8C%E6%88%90%E7%89%88%E3%80%91%EF%BC%88%E6%96%B0%E6%BD%AE%E6%96%87%E5%BA%AB%EF%BC%89-%E3%83%AA%E3%83%81%E3%83%A3%E3%83%BC%E3%83%89%E3%83%BB%E3%83%90%E3%83%83%E3%82%AF-ebook/dp/B01916B8V8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B01916B8V8",
+      "URL": "https://www.amazon.co.jp/dp/B01916B8V8?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41W5YDuOufL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41W5YDuOufL._SL160_.jpg",
         "Height": 160,
         "Width": 111
       },
       "ProductType": "Kindle版",
       "Creators": [
+        {
+          "Name": "リチャード・バック",
+          "Role": "著"
+        },
         {
           "Name": "五木 寛之",
           "Role": "翻訳"
@@ -3977,7 +4103,7 @@
       "PublicationDate": "2015-07-01",
       "LastRelease": "2015-12-18",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -5346,14 +5472,18 @@
       "Type": "paapi",
       "ID": "B071FHBGW8",
       "Title": "そろそろ、人工知能の真実を話そう (早川書房)",
-      "URL": "https://www.amazon.co.jp/%E3%81%9D%E3%82%8D%E3%81%9D%E3%82%8D%E3%80%81%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%E3%81%AE%E7%9C%9F%E5%AE%9F%E3%82%92%E8%A9%B1%E3%81%9D%E3%81%86-%E6%97%A9%E5%B7%9D%E6%9B%B8%E6%88%BF-%E3%82%B8%E3%83%A3%E3%83%B3%EF%BC%9D%E3%82%AC%E3%83%96%E3%83%AA%E3%82%A8%E3%83%AB-%E3%82%AC%E3%83%8A%E3%82%B7%E3%82%A2-ebook/dp/B071FHBGW8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B071FHBGW8",
+      "URL": "https://www.amazon.co.jp/dp/B071FHBGW8?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51cD7DR87IL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51cD7DR87IL._SL160_.jpg",
         "Height": 160,
         "Width": 111
       },
       "ProductType": "Kindle版",
       "Creators": [
+        {
+          "Name": "ジャン＝ガブリエル ガナシア",
+          "Role": "著"
+        },
         {
           "Name": "小林 重裕・他",
           "Role": "翻訳"
@@ -5373,7 +5503,7 @@
       "PublicationDate": "2017-05-25",
       "LastRelease": "2017-05-31",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -5393,13 +5523,19 @@
       "Type": "paapi",
       "ID": "B00NWQI4N4",
       "Title": "BOOM TOWN　TRIP.30",
-      "URL": "https://www.amazon.co.jp/BOOM-TOWN-TRIP-30-%E5%86%85%E7%94%B0-%E7%BE%8E%E5%A5%88%E5%AD%90-ebook/dp/B00NWQI4N4?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00NWQI4N4",
+      "URL": "https://www.amazon.co.jp/dp/B00NWQI4N4?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51Ia%2B77IpiL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51Ia+77IpiL._SL160_.jpg",
         "Height": 160,
         "Width": 113
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "内田 美奈子",
+          "Role": "著"
+        }
+      ],
       "Codes": [
         {
           "Name": "ASIN",
@@ -5409,7 +5545,7 @@
       "PublicationDate": "2014-09-26",
       "LastRelease": "2014-09-26",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -6021,14 +6157,18 @@
       "Type": "paapi",
       "ID": "4150504598",
       "Title": "フィルターバブル──インターネットが隠していること (ハヤカワ文庫NF)",
-      "URL": "https://www.amazon.co.jp/%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%90%E3%83%96%E3%83%AB%E2%94%80%E2%94%80%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E3%81%8C%E9%9A%A0%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8-%E3%83%8F%E3%83%A4%E3%82%AB%E3%83%AF%E6%96%87%E5%BA%ABNF-%E3%82%A4%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%BB%E3%83%91%E3%83%AA%E3%82%B5%E3%83%BC/dp/4150504598?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4150504598",
+      "URL": "https://www.amazon.co.jp/dp/4150504598?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41Le2d7nWiL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41Le2d7nWiL._SL160_.jpg",
         "Height": 160,
         "Width": 109
       },
       "ProductType": "文庫",
       "Creators": [
+        {
+          "Name": "イーライ・パリサー",
+          "Role": "著"
+        },
         {
           "Name": "井口耕二",
           "Role": "翻訳"
@@ -6043,12 +6183,20 @@
         {
           "Name": "EAN",
           "Value": "9784150504595"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4150504598"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "9784150504595"
         }
       ],
       "PublicationDate": "2016-03-09",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -6068,14 +6216,18 @@
       "Type": "paapi",
       "ID": "B0125TZSZ0",
       "Title": "つながりっぱなしの日常を生きる：ソーシャルメディアが若者にもたらしたもの",
-      "URL": "https://www.amazon.co.jp/%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8A%E3%81%A3%E3%81%B1%E3%81%AA%E3%81%97%E3%81%AE%E6%97%A5%E5%B8%B8%E3%82%92%E7%94%9F%E3%81%8D%E3%82%8B%EF%BC%9A%E3%82%BD%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%81%8C%E8%8B%A5%E8%80%85%E3%81%AB%E3%82%82%E3%81%9F%E3%82%89%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE-%E3%83%80%E3%83%8A%E3%83%BB%E3%83%9C%E3%82%A4%E3%83%89-ebook/dp/B0125TZSZ0?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B0125TZSZ0",
+      "URL": "https://www.amazon.co.jp/dp/B0125TZSZ0?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/616sjle5ITL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/616sjle5ITL._SL160_.jpg",
         "Height": 160,
         "Width": 109
       },
       "ProductType": "Kindle版",
       "Creators": [
+        {
+          "Name": "ダナ・ボイド",
+          "Role": "著"
+        },
         {
           "Name": "野中 モモ",
           "Role": "翻訳"
@@ -6091,7 +6243,7 @@
       "PublicationDate": "2014-10-09",
       "LastRelease": "2015-07-21",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -6111,13 +6263,19 @@
       "Type": "paapi",
       "ID": "B01J1I8PRQ",
       "Title": "社会は情報化の夢を見る (河出文庫)",
-      "URL": "https://www.amazon.co.jp/%E7%A4%BE%E4%BC%9A%E3%81%AF%E6%83%85%E5%A0%B1%E5%8C%96%E3%81%AE%E5%A4%A2%E3%82%92%E8%A6%8B%E3%82%8B-%E6%B2%B3%E5%87%BA%E6%96%87%E5%BA%AB-%E4%BD%90%E8%97%A4%E4%BF%8A%E6%A8%B9-ebook/dp/B01J1I8PRQ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B01J1I8PRQ",
+      "URL": "https://www.amazon.co.jp/dp/B01J1I8PRQ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/5132MaXTkGL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/5132MaXTkGL._SL160_.jpg",
         "Height": 160,
         "Width": 112
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "佐藤俊樹",
+          "Role": "著"
+        }
+      ],
       "Publisher": "河出書房新社",
       "Codes": [
         {
@@ -6128,7 +6286,7 @@
       "PublicationDate": "2010-09-03",
       "LastRelease": "2016-07-29",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -6473,32 +6631,36 @@
       "Type": "paapi",
       "ID": "4903127044",
       "Title": "排除型社会―後期近代における犯罪・雇用・差異",
-      "URL": "https://www.amazon.co.jp/%E6%8E%92%E9%99%A4%E5%9E%8B%E7%A4%BE%E4%BC%9A%E2%80%95%E5%BE%8C%E6%9C%9F%E8%BF%91%E4%BB%A3%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E7%8A%AF%E7%BD%AA%E3%83%BB%E9%9B%87%E7%94%A8%E3%83%BB%E5%B7%AE%E7%95%B0-%E3%82%B8%E3%83%A7%E3%83%83%E3%82%AF-%E3%83%A4%E3%83%B3%E3%82%B0/dp/4903127044?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4903127044",
+      "URL": "https://www.amazon.co.jp/dp/4903127044?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41uBRNdBygL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41uBRNdBygL._SL160_.jpg",
         "Height": 160,
         "Width": 110
       },
       "ProductType": "単行本",
       "Creators": [
         {
-          "Name": "Jock Young",
+          "Name": "ジョック ヤング",
+          "Role": "著"
+        },
+        {
+          "Name": "Young,Jock",
           "Role": "原著"
         },
         {
-          "Name": "青木 秀男",
+          "Name": "秀男, 青木",
           "Role": "翻訳"
         },
         {
-          "Name": "伊藤 泰郎",
+          "Name": "泰郎, 伊藤",
           "Role": "翻訳"
         },
         {
-          "Name": "岸 政彦",
+          "Name": "政彦, 岸",
           "Role": "翻訳"
         },
         {
-          "Name": "村澤 真保呂",
+          "Name": "真保呂, 村澤",
           "Role": "翻訳"
         }
       ],
@@ -6511,12 +6673,16 @@
         {
           "Name": "EAN",
           "Value": "9784903127040"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4903127044"
         }
       ],
-      "PublicationDate": "",
+      "PublicationDate": "2007-03-01",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -6573,14 +6739,18 @@
       "Type": "paapi",
       "ID": "B01CYDGUV8",
       "Title": "CODE VERSION 2.0",
-      "URL": "https://www.amazon.co.jp/CODE-VERSION-2-0-%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%AC%E3%83%83%E3%82%B7%E3%82%B0-ebook/dp/B01CYDGUV8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B01CYDGUV8",
+      "URL": "https://www.amazon.co.jp/dp/B01CYDGUV8?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/31Q2jh%2B5SgL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/31Q2jh+5SgL._SL160_.jpg",
         "Height": 160,
         "Width": 113
       },
       "ProductType": "Kindle版",
       "Creators": [
+        {
+          "Name": "ローレンス・レッシグ",
+          "Role": "著"
+        },
         {
           "Name": "山形浩生",
           "Role": "翻訳"
@@ -6591,16 +6761,12 @@
         {
           "Name": "ASIN",
           "Value": "B01CYDGUV8"
-        },
-        {
-          "Name": "EISBN",
-          "Value": "9784798147307"
         }
       ],
       "PublicationDate": "2007-12-19",
       "LastRelease": "2016-03-14",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -6671,14 +6837,22 @@
       "Type": "paapi",
       "ID": "4757122349",
       "Title": "〈反〉知的独占　―特許と著作権の経済学",
-      "URL": "https://www.amazon.co.jp/%E3%80%88%E5%8F%8D%E3%80%89%E7%9F%A5%E7%9A%84%E7%8B%AC%E5%8D%A0-%E2%80%95%E7%89%B9%E8%A8%B1%E3%81%A8%E8%91%97%E4%BD%9C%E6%A8%A9%E3%81%AE%E7%B5%8C%E6%B8%88%E5%AD%A6-%E3%83%9F%E3%82%B1%E3%83%BC%E3%83%AC%E3%83%BB%E3%83%9C%E3%83%AB%E3%83%89%E3%83%AA%E3%83%B3/dp/4757122349?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4757122349",
+      "URL": "https://www.amazon.co.jp/dp/4757122349?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51ftPU2g7FL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51ftPU2g7FL._SL160_.jpg",
         "Height": 160,
         "Width": 112
       },
       "ProductType": "単行本",
       "Creators": [
+        {
+          "Name": "ミケーレ・ボルドリン",
+          "Role": "著"
+        },
+        {
+          "Name": "デイヴィッド・Ｋ・レヴァイン",
+          "Role": "著"
+        },
         {
           "Name": "山形浩生",
           "Role": "翻訳"
@@ -6697,12 +6871,16 @@
         {
           "Name": "EAN",
           "Value": "9784757122345"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4757122349"
         }
       ],
       "PublicationDate": "2010-10-22",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -7365,14 +7543,18 @@
       "Type": "paapi",
       "ID": "430924744X",
       "Title": "スパム[spam]:インターネットのダークサイド",
-      "URL": "https://www.amazon.co.jp/%E3%82%B9%E3%83%91%E3%83%A0-spam-%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E3%81%AE%E3%83%80%E3%83%BC%E3%82%AF%E3%82%B5%E3%82%A4%E3%83%89-%E3%83%95%E3%82%A3%E3%83%B3%E3%83%BB%E3%83%96%E3%83%A9%E3%83%B3%E3%83%88%E3%83%B3/dp/430924744X?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=430924744X",
+      "URL": "https://www.amazon.co.jp/dp/430924744X?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51KtN0YwWcL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51KtN0YwWcL._SL160_.jpg",
         "Height": 160,
         "Width": 109
       },
       "ProductType": "単行本",
       "Creators": [
+        {
+          "Name": "フィン・ブラントン",
+          "Role": "著"
+        },
         {
           "Name": "生貝直人",
           "Role": "監修"
@@ -7395,12 +7577,16 @@
         {
           "Name": "EAN",
           "Value": "9784309247441"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "430924744X"
         }
       ],
       "PublicationDate": "2015-12-25",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -7420,14 +7606,18 @@
       "Type": "paapi",
       "ID": "4087606244",
       "Title": "ラテンアメリカの文学 砂の本 (集英社文庫)",
-      "URL": "https://www.amazon.co.jp/%E3%83%A9%E3%83%86%E3%83%B3%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%81%AE%E6%96%87%E5%AD%A6-%E7%A0%82%E3%81%AE%E6%9C%AC-%E9%9B%86%E8%8B%B1%E7%A4%BE%E6%96%87%E5%BA%AB-%E3%83%9B%E3%83%AB%E3%81%B8%E3%83%BB%E3%83%AB%E3%82%A4%E3%82%B9%E3%83%BB%E3%83%9C%E3%83%AB%E3%83%98%E3%82%B9/dp/4087606244?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4087606244",
+      "URL": "https://www.amazon.co.jp/dp/4087606244?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/513Vv%2B8gBPL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/513Vv+8gBPL._SL160_.jpg",
         "Height": 160,
         "Width": 110
       },
       "ProductType": "文庫",
       "Creators": [
+        {
+          "Name": "ホルへ・ルイス・ボルヘス",
+          "Role": "著"
+        },
         {
           "Name": "篠田 一士",
           "Role": "翻訳"
@@ -7442,12 +7632,16 @@
         {
           "Name": "EAN",
           "Value": "9784087606249"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4087606244"
         }
       ],
       "PublicationDate": "2011-06-28",
       "LastRelease": "2011-06-28",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -8583,5 +8777,111 @@
       false
     ],
     "Description": "学生の頃はめっさお世話になりました。私にとって大事な教科書のひとつです。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4864913250",
+      "Title": "認められたい",
+      "URL": "https://www.amazon.co.jp/dp/4864913250?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51sJVkoMVfL._SL160_.jpg",
+        "Height": 160,
+        "Width": 109
+      },
+      "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "熊代亨",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "ヴィレッジブックス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4864913250"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784864913256"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4864913250"
+        }
+      ],
+      "PublicationDate": "2017-02-28",
+      "LastRelease": "2017-02-28",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2019-11-04",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "結局，積ん読状態のまま（引越し時に）処分しちゃったなぁ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B06XKPNVWV",
+      "Title": "Goプログラミング実践入門　標準ライブラリでゼロからWebアプリを作る impress top gearシリーズ",
+      "URL": "https://www.amazon.co.jp/dp/B06XKPNVWV?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51dQZeafzvL._SL160_.jpg",
+        "Height": 160,
+        "Width": 125
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "Sau Sheong Chang",
+          "Role": "著"
+        },
+        {
+          "Name": "武舎 広幸",
+          "Role": "著"
+        },
+        {
+          "Name": "阿部 和也",
+          "Role": "著"
+        },
+        {
+          "Name": "上西 昌弘",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "インプレス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B06XKPNVWV"
+        }
+      ],
+      "PublicationDate": "2017-03-17",
+      "LastRelease": "2017-03-17",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2017-04-23",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "Web アプリケーションまたはサービスについて Go 言語のコードで解説。"
   }
 ]

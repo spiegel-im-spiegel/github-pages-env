@@ -93,16 +93,15 @@ Wikipedia の記事や GitHub のリポジトリや Amazon のクラウドにあ
 ## 参考図書
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8A%E3%81%A3%E3%81%B1%E3%81%AA%E3%81%97%E3%81%AE%E6%97%A5%E5%B8%B8%E3%82%92%E7%94%9F%E3%81%8D%E3%82%8B%EF%BC%9A%E3%82%BD%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%81%8C%E8%8B%A5%E8%80%85%E3%81%AB%E3%82%82%E3%81%9F%E3%82%89%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE-%E3%83%80%E3%83%8A%E3%83%BB%E3%83%9C%E3%82%A4%E3%83%89-ebook/dp/B0125TZSZ0?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0125TZSZ0"><img src="https://images-fe.ssl-images-amazon.com/images/I/616sjle5ITL._SL160_.jpg" width="109" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B0125TZSZ0?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/616sjle5ITL._SL160_.jpg" width="109" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8A%E3%81%A3%E3%81%B1%E3%81%AA%E3%81%97%E3%81%AE%E6%97%A5%E5%B8%B8%E3%82%92%E7%94%9F%E3%81%8D%E3%82%8B%EF%BC%9A%E3%82%BD%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%81%8C%E8%8B%A5%E8%80%85%E3%81%AB%E3%82%82%E3%81%9F%E3%82%89%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE-%E3%83%80%E3%83%8A%E3%83%BB%E3%83%9C%E3%82%A4%E3%83%89-ebook/dp/B0125TZSZ0?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0125TZSZ0">つながりっぱなしの日常を生きる：ソーシャルメディアが若者にもたらしたもの</a></dt>
-	<dd>ダナ・ボイド</dd>
-	<dd>野中 モモ (翻訳)</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/B0125TZSZ0?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">つながりっぱなしの日常を生きる：ソーシャルメディアが若者にもたらしたもの</a></dt>
+    <dd>ダナ・ボイド (著), 野中 モモ (翻訳)</dd>
     <dd>草思社 2014-10-09 (Release 2015-07-21)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B0125TZSZ0</dd>
+    <dd>Kindle版</dd>
+    <dd>B0125TZSZ0 (ASIN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">読むのに1年半以上かかってしまった。ネット，特に SNS 上で自身のアイデンティティやプライバシーを保つにはどうすればいいか。豊富な事例を交えて考察する。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>

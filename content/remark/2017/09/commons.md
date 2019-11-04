@@ -1,23 +1,8 @@
 +++
 title = "日本には「創造的なコモンズ」など成立し得ないことがよっく分かったよ"
 date =  "2017-09-27T07:01:17+09:00"
-update = "2017-09-29T10:16:36+09:00"
 description = "Fair use も parody も（法律上は）存在しない日本では「引用か翻案か」で線引するしかない。で，実質は（「共有」などではなく）「お目こぼし」というかたちで権利者の胸三寸で全てが決まってしまうのだ。 つまり権利者が「気に入らない」と言えば，そこで試合終了なのだ。"
-tags        = [ "anime", "copyright", "creative-commons", "code", "law", "intellectual-property" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
+tags = [ "anime", "copyright", "creative-commons", "code", "law", "intellectual-property" ]
 
 [scripts]
   mathjax = false
@@ -78,29 +63,29 @@ Fair use も parody も（法律上は）存在しない日本では「引用か
 ## 参考図書
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%80%88%E6%B5%B7%E8%B3%8A%E7%89%88%E3%80%89%E3%81%AE%E6%80%9D%E6%83%B3%E2%80%9018%E4%B8%96%E7%B4%80%E8%8B%B1%E5%9B%BD%E3%81%AE%E6%B0%B8%E4%B9%85%E3%82%B3%E3%83%94%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%88%E9%97%98%E4%BA%89-%E5%B1%B1%E7%94%B0-%E5%A5%A8%E6%B2%BB/dp/4622073455?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4622073455"><img src="https://images-fe.ssl-images-amazon.com/images/I/41bepOIquwL._SL160_.jpg" width="111" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4622073455?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41bepOIquwL._SL160_.jpg" width="111" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%80%88%E6%B5%B7%E8%B3%8A%E7%89%88%E3%80%89%E3%81%AE%E6%80%9D%E6%83%B3%E2%80%9018%E4%B8%96%E7%B4%80%E8%8B%B1%E5%9B%BD%E3%81%AE%E6%B0%B8%E4%B9%85%E3%82%B3%E3%83%94%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%88%E9%97%98%E4%BA%89-%E5%B1%B1%E7%94%B0-%E5%A5%A8%E6%B2%BB/dp/4622073455?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4622073455">〈海賊版〉の思想‐18世紀英国の永久コピーライト闘争</a></dt>
-	<dd>山田 奨治</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4622073455?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">〈海賊版〉の思想‐18世紀英国の永久コピーライト闘争</a></dt>
+    <dd>山田 奨治 (著)</dd>
     <dd>みすず書房 2007-12-20</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4622073455, EAN: 9784622073451</dd>
+    <dd>単行本</dd>
+    <dd>4622073455 (ASIN), 9784622073451 (EAN), 4622073455 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">「コピーライト永久独占を目論む大書店主に挑む〈海賊出版者〉ドナルドソンの肖像。法廷闘争を軸に著作権を史的に考察する。」（帯文より）</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-13">2018-11-13</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-13">2018-11-13</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%95%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%AB%E3%83%81%E3%83%A3%E3%83%BC%E3%82%92%E3%81%A4%E3%81%8F%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%82%AC%E3%82%A4%E3%83%89%E3%83%96%E3%83%83%E3%82%AF-%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%BB%E3%82%B3%E3%83%A2%E3%83%B3%E3%82%BA%E3%81%AB%E3%82%88%E3%82%8B%E5%89%B5%E9%80%A0%E3%81%AE%E5%BE%AA%E7%92%B0-%E3%83%89%E3%83%9F%E3%83%8B%E3%82%AF%E3%83%BB%E3%83%81%E3%82%A7%E3%83%B3/dp/4845911744?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4845911744"><img src="https://images-fe.ssl-images-amazon.com/images/I/51pDWTdSdlL._SL160_.jpg" width="115" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4845911744?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51pDWTdSdlL._SL160_.jpg" width="115" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%83%95%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%AB%E3%83%81%E3%83%A3%E3%83%BC%E3%82%92%E3%81%A4%E3%81%8F%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%82%AC%E3%82%A4%E3%83%89%E3%83%96%E3%83%83%E3%82%AF-%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%BB%E3%82%B3%E3%83%A2%E3%83%B3%E3%82%BA%E3%81%AB%E3%82%88%E3%82%8B%E5%89%B5%E9%80%A0%E3%81%AE%E5%BE%AA%E7%92%B0-%E3%83%89%E3%83%9F%E3%83%8B%E3%82%AF%E3%83%BB%E3%83%81%E3%82%A7%E3%83%B3/dp/4845911744?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4845911744">フリーカルチャーをつくるためのガイドブック  クリエイティブ・コモンズによる創造の循環</a></dt>
-	<dd>ドミニク・チェン</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4845911744?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">フリーカルチャーをつくるためのガイドブック  クリエイティブ・コモンズによる創造の循環</a></dt>
+    <dd>ドミニク・チェン (著)</dd>
     <dd>フィルムアート社 2012-05-25</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4845911744, EAN: 9784845911745</dd>
+    <dd>単行本</dd>
+    <dd>4845911744 (ASIN), 9784845911745 (EAN), 4845911744 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">国内における Free Culture の事例が豊富。取っ掛かりとしてはちょうどよい本。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-05-07">2015-05-07</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-05-07">2015-05-07</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>

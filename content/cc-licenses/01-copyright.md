@@ -1,23 +1,9 @@
 +++
+title = "著作権と著作権法"
 date = "2015-10-17T15:51:23+09:00"
-update = "2019-01-30T23:12:03+09:00"
 description = "まずは「著作権」について簡単におさらい。"
 tags = ["code", "law", "intellectual-property", "copyright"]
-title = "著作権と著作権法"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
- 
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -393,43 +379,43 @@ title = "著作権と著作権法"
 ### 参考図書
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E8%91%97%E4%BD%9C%E6%A8%A9%EF%BC%92%EF%BC%8E%EF%BC%90-%E3%82%A6%E3%82%A7%E3%83%96%E6%99%82%E4%BB%A3%E3%81%AE%E6%96%87%E5%8C%96%E7%99%BA%E5%B1%95%E3%82%92%E3%82%81%E3%81%96%E3%81%97%E3%81%A6-NTT%E5%87%BA%E7%89%88%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC%E2%80%95%E3%83%AC%E3%82%BE%E3%83%8A%E3%83%B3%E3%83%88-%E5%90%8D%E5%92%8C-%E5%B0%8F%E5%A4%AA%E9%83%8E/dp/4757102852?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4757102852"><img src="https://images-fe.ssl-images-amazon.com/images/I/41YkbcP5IyL._SL160_.jpg" width="108" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4757102852?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41YkbcP5IyL._SL160_.jpg" width="108" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E8%91%97%E4%BD%9C%E6%A8%A9%EF%BC%92%EF%BC%8E%EF%BC%90-%E3%82%A6%E3%82%A7%E3%83%96%E6%99%82%E4%BB%A3%E3%81%AE%E6%96%87%E5%8C%96%E7%99%BA%E5%B1%95%E3%82%92%E3%82%81%E3%81%96%E3%81%97%E3%81%A6-NTT%E5%87%BA%E7%89%88%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC%E2%80%95%E3%83%AC%E3%82%BE%E3%83%8A%E3%83%B3%E3%83%88-%E5%90%8D%E5%92%8C-%E5%B0%8F%E5%A4%AA%E9%83%8E/dp/4757102852?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4757102852">著作権２．０ ウェブ時代の文化発展をめざして (NTT出版ライブラリー―レゾナント)</a></dt>
-	<dd>名和 小太郎</dd>
-    <dd>エヌティティ出版 2010-06-24</dd>
-    <dd>Book 単行本（ソフトカバー）</dd>
-    <dd>ASIN: 4757102852, EAN: 9784757102859</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4757102852?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">著作権２．０ ウェブ時代の文化発展をめざして (NTT出版ライブラリー―レゾナント)</a></dt>
+    <dd>名和 小太郎 (著)</dd>
+    <dd>NTT出版 2010-06-24</dd>
+    <dd>単行本（ソフトカバー）</dd>
+    <dd>4757102852 (ASIN), 9784757102859 (EAN), 4757102852 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">名著です。今すぐ買うべきです。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-13">2018-11-13</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-13">2018-11-13</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%80%88%E6%B5%B7%E8%B3%8A%E7%89%88%E3%80%89%E3%81%AE%E6%80%9D%E6%83%B3%E2%80%9018%E4%B8%96%E7%B4%80%E8%8B%B1%E5%9B%BD%E3%81%AE%E6%B0%B8%E4%B9%85%E3%82%B3%E3%83%94%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%88%E9%97%98%E4%BA%89-%E5%B1%B1%E7%94%B0-%E5%A5%A8%E6%B2%BB/dp/4622073455?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4622073455"><img src="https://images-fe.ssl-images-amazon.com/images/I/41bepOIquwL._SL160_.jpg" width="111" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4622073455?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41bepOIquwL._SL160_.jpg" width="111" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%80%88%E6%B5%B7%E8%B3%8A%E7%89%88%E3%80%89%E3%81%AE%E6%80%9D%E6%83%B3%E2%80%9018%E4%B8%96%E7%B4%80%E8%8B%B1%E5%9B%BD%E3%81%AE%E6%B0%B8%E4%B9%85%E3%82%B3%E3%83%94%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%88%E9%97%98%E4%BA%89-%E5%B1%B1%E7%94%B0-%E5%A5%A8%E6%B2%BB/dp/4622073455?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4622073455">〈海賊版〉の思想‐18世紀英国の永久コピーライト闘争</a></dt>
-	<dd>山田 奨治</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4622073455?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">〈海賊版〉の思想‐18世紀英国の永久コピーライト闘争</a></dt>
+    <dd>山田 奨治 (著)</dd>
     <dd>みすず書房 2007-12-20</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4622073455, EAN: 9784622073451</dd>
+    <dd>単行本</dd>
+    <dd>4622073455 (ASIN), 9784622073451 (EAN), 4622073455 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
   </dl>
   <p class="description">「コピーライト永久独占を目論む大書店主に挑む〈海賊出版者〉ドナルドソンの肖像。法廷闘争を軸に著作権を史的に考察する。」（帯文より）</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-13">2018-11-13</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-13">2018-11-13</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/18%E6%AD%B3%E3%81%AE%E8%91%97%E4%BD%9C%E6%A8%A9%E5%85%A5%E9%96%80-%E3%81%A1%E3%81%8F%E3%81%BE%E3%83%97%E3%83%AA%E3%83%9E%E3%83%BC%E6%96%B0%E6%9B%B8-%E7%A6%8F%E4%BA%95%E5%81%A5%E7%AD%96-ebook/dp/B00SM7G6SI?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00SM7G6SI"><img src="https://images-fe.ssl-images-amazon.com/images/I/41ZC-Qu61LL._SL160_.jpg" width="98" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B00SM7G6SI?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41ZC-Qu61LL._SL160_.jpg" width="98" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/18%E6%AD%B3%E3%81%AE%E8%91%97%E4%BD%9C%E6%A8%A9%E5%85%A5%E9%96%80-%E3%81%A1%E3%81%8F%E3%81%BE%E3%83%97%E3%83%AA%E3%83%9E%E3%83%BC%E6%96%B0%E6%9B%B8-%E7%A6%8F%E4%BA%95%E5%81%A5%E7%AD%96-ebook/dp/B00SM7G6SI?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00SM7G6SI">18歳の著作権入門 (ちくまプリマー新書)</a></dt>
-	<dd>福井健策</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/B00SM7G6SI?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">18歳の著作権入門 (ちくまプリマー新書)</a></dt>
+    <dd>福井健策 (著)</dd>
     <dd>筑摩書房 2015-01-10 (Release 2015-01-30)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00SM7G6SI</dd>
+    <dd>Kindle版</dd>
+    <dd>B00SM7G6SI (ASIN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">福井健策弁護士による「<a href="http://japan.cnet.com/sp/copyright_study/">18歳からの著作権入門</a>」の書籍化。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-13">2018-11-13</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-13">2018-11-13</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
