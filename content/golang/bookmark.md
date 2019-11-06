@@ -827,6 +827,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [[発表資料] 第138回RITS技術交流会『なぜ私たちはGoを書くのか。今あらためて考えるGo言語の良さと実際』 - My External Storage](https://budougumi0617.github.io/2019/10/05/jrits-why-go-how-is-go/)
 - [Language and Locale Matching in Go - The Go Blog](https://blog.golang.org/matchlang)
 - [Go: Memory Management and Allocation - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-memory-management-and-allocation-a7396d430f44)
+- [Go: How Does the Garbage Collector Mark the Memory?](https://medium.com/a-journey-with-go/go-how-does-the-garbage-collector-mark-the-memory-72cfc12c6976)
 
 ### 他言語との比較もしくは移行
 
