@@ -186,6 +186,15 @@ pageType = "text"
 <td>&#8226;</td>
 <td>&#8226;</td>
 </tr>
+<tr>
+<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2019-2945">CVE-2019-2945</a></td>
+<td>core-libs/java.net</td>
+<td>3.1</td>
+<td>&#8226;</td>
+<td>&#8226;</td>
+<td>&#8226;</td>
+<td>&#8226;</td>
+</tr>
 </table>
 {{< /fig-quote >}}
 
