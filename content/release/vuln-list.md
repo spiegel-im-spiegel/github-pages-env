@@ -58,7 +58,7 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ### ブックマーク
 
-- [[ANNOUNCE] Git v2.24.0](https://public-inbox.org/git/20191104173426.GA68471@syl.local/T/#t)
+- [[ANNOUNCE] Git v2.24.0](https://public-inbox.org/git/20191104173426.GA68471@syl.local/T/)
 - [[ANNOUNCE] Git v2.23.0 - Junio C Hamano](https://public-inbox.org/git/xmqqy2zszuz7.fsf@gitster-ct.c.googlers.com/)
 
 - [PPA から Git をインストールする]({{< ref "/remark/2019/04/install-git-from-ppa.md" >}})
