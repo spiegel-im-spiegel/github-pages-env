@@ -58,6 +58,7 @@ Available Commands:
 
 Flags:
   -a, --armor         accepts ASCII input only
+  -c, --cert          dumps attested certification in signiture packets (tag 2)
       --debug         for debug
   -f, --file string   path of OpenPGP file
   -h, --help          help for gpgpdump
@@ -192,18 +193,19 @@ $ cat sig.asc | gpgpdump -j | jq .
 
 [gpgpdump] で使える主なオプションは以下の通り。
 
-| オプション名 | 内容                                                    |
-| ------------ | ------------------------------------------------------- |
-| `armor`      | ASCII armor テキストのみ受け入れる                      |
-| `int`        | MPI データを16進ダンプ表示する                          |
-| `literal`    | リテラル・パケット（tag 11）を16進ダンプ表示する        |
-| `marker`     | マーカー・パケット（tag 10）を16進ダンプ表示する        |
-| `private`    | プライベート用パケット（tag 60-63）を16進ダンプ表示する |
-| `utc`        | 時刻を UTC で表示する                                   |
-| `indent`     | 平文テキスト出力時のインデント幅を指定する              |
-| `json`       | [JSON] 形式で出力する                                   |
-| `toml`       | [TOML] 形式で出力する                                   |
-| `debug`      | デバッグ用                                              |
+| オプション名 | 内容                                                        |
+| ------------ | ----------------------------------------------------------- |
+| `armor`      | ASCII armor テキストのみ受け入れる                          |
+| `cert`       | 署名パケット（tag 2）内の証明された認証を16進ダンプ表示する |
+| `int`        | MPI データを16進ダンプ表示する                              |
+| `literal`    | リテラル・パケット（tag 11）を16進ダンプ表示する            |
+| `marker`     | マーカー・パケット（tag 10）を16進ダンプ表示する            |
+| `private`    | プライベート用パケット（tag 60-63）を16進ダンプ表示する     |
+| `utc`        | 時刻を UTC で表示する                                       |
+| `indent`     | 平文テキスト出力時のインデント幅を指定する                  |
+| `json`       | [JSON] 形式で出力する                                       |
+| `toml`       | [TOML] 形式で出力する                                       |
+| `debug`      | デバッグ用                                                  |
 
 ### HKP モード
 
@@ -223,6 +225,7 @@ Flags:
 
 Global Flags:
   -a, --armor        accepts ASCII input only
+  -c, --cert         dumps attested certification in signature packets (tag 2)
       --debug        for debug
       --indent int   indent size for output string
   -i, --int          dumps multi-precision integers
@@ -445,6 +448,7 @@ Signature Packet (tag 2) (94 bytes)
 | オプション        | 既定値 | 対応する CLI オプション |
 | ----------------- | ------ | ----------------------- |
 | `options.ARMOR`   | false  | `armor`                 |
+| `options.CERT`    | false  | `cert`                  |
 | `options.INTEGER` | false  | `int`                   |
 | `options.LITERAL` | false  | `literal`               |
 | `options.MARKER`  | false  | `marker`                |
