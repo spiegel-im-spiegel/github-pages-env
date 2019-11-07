@@ -24,6 +24,7 @@ pageType = "text"
 
 ## ブックマーク
 
+- [OpenPGP パケットを可視化する gpgpdump]({{< ref "/release/gpgpdump.md" >}})
 - [GitHub に登録されている OpenPGP 公開鍵の情報を取得する]({{< ref "/remark/2019/10/openpgp-public-keys-in-github.md" >}})
 
 [gpgpdump]: https://github.com/spiegel-im-spiegel/gpgpdump "spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer"
