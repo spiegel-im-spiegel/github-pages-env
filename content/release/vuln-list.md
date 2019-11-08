@@ -81,7 +81,8 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 | Official | Release    |                       Ubuntu | Release    |   delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
-|   68.2.1 | 2019-10-31 |                              |            | ∞ days |
+|   68.2.2 | 2019-11-07 |                              |            | ∞ days |
+|   68.2.1 | 2019-10-31 |                      &mdash; | &mdash;    | &mdash; |
 |   68.2.0 | 2019-10-22 |                      &mdash; | &mdash;    | &mdash; |
 |   68.1.2 | 2019-10-10 |               (Ubuntu 19.10) | 2019-10-17 |  7 days |
 |   68.1.1 | 2019-09-25 |                      &mdash; | &mdash;    | &mdash; |
@@ -93,6 +94,7 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (68.2.2) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.2.2/releasenotes/)
 - [Thunderbird — Release Notes (68.2.1) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.2.1/releasenotes/)
 - [Thunderbird — Release Notes (68.2.0) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.2.0/releasenotes/)
 - [Thunderbird — Release Notes (68.1.2) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.1.2/releasenotes/)
