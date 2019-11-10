@@ -24,6 +24,7 @@ pageType = "text"
 | 19.10 (Eoan Ermine) | 2019-10-17 |
 
 - [Ubuntu 19.10 (Eoan Ermine) released](https://lists.ubuntu.com/archives/ubuntu-announce/2019-October/000250.html)
+    - [EoanErmine/ReleaseNotes - Ubuntu Wiki](https://wiki.ubuntu.com/EoanErmine/ReleaseNotes)
 
 ## GnuPG
 
@@ -79,6 +80,8 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ## Thunderbird
 
+現在は APT を使わず公式バイナリをダウンロードして手動でインストールしているが，参考情報として残しておく。
+
 | Official | Release    |                       Ubuntu | Release    |   delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
 |   68.2.2 | 2019-11-07 |                              |            | ∞ days |
@@ -102,6 +105,8 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 - [Thunderbird — Release Notes (68.1.0) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.1.0/releasenotes/)
 - [Thunderbird — Release Notes (60.9.0) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/60.9.0/releasenotes/)
 - [Thunderbird — Release Notes (68.0) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.0/releasenotes/)
+
+- [結局 Thunderbird もインストールし直すことにした]({{< ref "/remark/2019/11/reinstalling-thunderbird.md" >}})
 
 ## LibreOffice
 
