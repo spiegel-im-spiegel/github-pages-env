@@ -95,7 +95,7 @@ title = "映画『火星の人』を観た"
 
 映画を観る際に科学やコンピュータの基礎知識があるとニヤニヤできる（いや，私は爆笑しかけたけど）。
 たとえばラストシーンで低軌道にいるワトニー君に近づくために「ヘルメス」が制動をかけるが，なぜそれで近づくことができるのかピンと来ない人もいるだろう（そしてそれがいかに危険な行為なのかも）。
-この辺の知識はあさりよしとおさんの「[アステロイド・マイナーズ](https://www.amazon.co.jp/%E3%82%A2%E3%82%B9%E3%83%86%E3%83%AD%E3%82%A4%E3%83%89%E3%83%BB%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%BC%E3%82%BA/dp/B077LH3RL8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B077LH3RL8)」をお薦めする。
+この辺の知識はあさりよしとおさんの「[アステロイド・マイナーズ](https://www.amazon.co.jp/dp/B0763GSNHZ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)」をお薦めする。
 
 既に原作を読んだ方はアラ探しでも面白いと思う。
 小説を映像化するのはなかなか難しいと思うが，この作品はよく出来ている部類だ。
