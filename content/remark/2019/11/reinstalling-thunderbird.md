@@ -3,7 +3,7 @@ title = "結局 Thunderbird もインストールし直すことにした"
 date =  "2019-11-10T16:43:28+09:00"
 description = "どうやら Ubuntu は Thunderbird をまともにメンテナンスする気がないらしいとの結論に至った。そこで APT による管理はすっぱり諦めて自前で導入・管理することにした。"
 image = "/images/attention/kitten.jpg"
-tags = [ "ubuntu", "thunderbird", "install", "mua" ]
+tags = [ "ubuntu", "thunderbird", "install", "mua", "tools" ]
 pageType = "text"
 
 [scripts]
