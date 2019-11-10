@@ -90,25 +90,22 @@ pageType = "text"
 以下は何も考えずに [APT] に任せても大丈夫だろう。
 不具合や脆弱性への対応はどうしても遅れるが今のところは許容範囲ということで。
 
-| 製品名        | パッケージ名                    | 備考                                                                                |
-| ------------- | ------------------------------- | ----------------------------------------------------------------------------------- |
-| [Firefox]     | `firefox`                       | 既定でインストール済                                                                |
-| [Thunderbird] | `thunderbird`                   | 既定でインストール済                                                                |
-| ifconfig      | `net-tools` [^nt1]              | 何故か既定で入ってなかった                                                          |
-| [curl]        | `curl`                          | 何故か既定で入ってなかった                                                          |
-| [KDiff3]      | `kdiff3`                        |                                                                                     |
-| [Graphviz]    | `graphviz`                      |                                                                                     |
-| [vim]         | `vim`                           | 既定で入ってるのは `vim-tiny` で `vim` を入れると置き換わる                         |
-| [BOINC]       | `boinc-client`, `boinc-manager` | クライアント側                                                                      |
-| [KeePass]     | `keepass2`                      | あらかじめ [Mono] がインストールされていること                                      |
+| 製品名        | パッケージ名                    | 備考                                                        |
+| ------------- | ------------------------------- | ----------------------------------------------------------- |
+| [Firefox]     | `firefox`                       | 既定でインストール済                                        |
+| ifconfig      | `net-tools` [^nt1]              | 何故か既定で入ってなかった                                  |
+| [curl]        | `curl`                          | 何故か既定で入ってなかった                                  |
+| [KDiff3]      | `kdiff3`                        |                                                             |
+| [Graphviz]    | `graphviz`                      |                                                             |
+| [vim]         | `vim`                           | 既定で入ってるのは `vim-tiny` で `vim` を入れると置き換わる |
+| [BOINC]       | `boinc-client`, `boinc-manager` | クライアント側                                              |
 
 [^nt1]: パッケージ `net-tools` をインストールすると ifconfig のほかに arp, netstat, rarp, nameif, route といったツールがインストールされる。
 
-[Firefox], [Thunderbird] については公式サイトで実行イメージがダウンロード可能になっていて，そちらを取ってきて使うこともできるが，完全に APT の管理を離れてしまい，かつ APT で管理されるバージョンと混在になってしまうので考えどころではある。
+[Firefox] については公式サイトで実行イメージがダウンロード可能になっていて，そちらを取ってきて使うこともできるが，完全に APT の管理を離れてしまい，かつ APT で管理されるバージョンと混在になってしまうので考えどころではある。
 [Firefox Developer Edition](https://www.mozilla.org/firefox/developer/) を使うなら混在もありかも。
 
 [Firefox]: https://www.mozilla.org/ "Internet for people, not profit — Mozilla"
-[Thunderbird]: https://www.thunderbird.net/ "Thunderbird — Software made to make email easier. — Mozilla"
 [KDiff3]: http://kdiff3.sourceforge.net/
 [curl]: https://curl.haxx.se/
 [Graphviz]: https://www.graphviz.org/ "Graphviz - Graph Visualization Software"
@@ -126,7 +123,6 @@ pageType = "text"
 
 [GCC]: https://gcc.gnu.org/ "GCC, the GNU Compiler Collection - GNU Project - Free Software Foundation (FSF)"
 [vim]: https://www.vim.org/
-[KeePass]: https://keepass.info/ "KeePass Password Safe"
 [ClamAV]: https://www.clamav.net/ "ClamavNet"
 
 ## サードパーティ・リポジトリから [APT] を使って管理するパッケージ
@@ -165,7 +161,6 @@ pageType = "text"
 
 また deb ファイルを使って直接インストールすることも可能。
 詳しくは
-
 
 - [Ubuntu に ATOM エディタを導入する]({{< ref "/remark/2019/04/atom-in-ubuntu.md" >}})
 
@@ -300,11 +295,21 @@ $ sudo tlmgr update --self --all
 
 詳しくは
 
-- [結局 OpenJDK をインストールし直すことにした]({{< ref "http://localhost:1313/remark/2019/07/reinstalling-openjdk.md" >}})
+- [結局 OpenJDK をインストールし直すことにした]({{< ref "/remark/2019/07/reinstalling-openjdk.md" >}})
 
 を参照のこと。
 
 [OpenJDK]: http://openjdk.java.net/
+
+### [Thunderbird]
+
+詳しくは
+
+- [結局 Thunderbird もインストールし直すことにした]({{< ref "/remark/2019/11/reinstalling-thunderbird.md" >}})
+
+を参照のこと。
+
+[Thunderbird]: https://www.thunderbird.net/ "Thunderbird — Software made to make email easier. — Mozilla"
 
 ## ソースファイルから直接ビルドを行う
 
