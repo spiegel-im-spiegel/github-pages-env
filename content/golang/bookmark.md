@@ -23,6 +23,8 @@ title = "Go 言語に関するブックマーク"
 
 ## リリース情報
 
+- [Go Turns 10 - The Go Blog](https://blog.golang.org/10years)
+
 ### Go 1.5 Released. 
  
 - [Go 1.5 is released - The Go Blog](https://blog.golang.org/go1.5)
@@ -154,6 +156,12 @@ title = "Go 言語に関するブックマーク"
     - [オブジェクト指向言語としてGolangをやろうとするとハマる点を整理してみる - Qiita](http://qiita.com/sona-tar/items/2b4b70694fd680f6297c)
 - [Go言語に継承は無いんですか【golang】 - DRYな備忘録](http://otiai10.hatenablog.com/entry/2014/01/15/220136)
 - [Goにatexitやグローバルなデストラクタがない理由 - Qiita](http://qiita.com/ruiu/items/22910a4bae6cb716a391)
+
+### メモリ管理
+
+- [Go: Memory Management and Allocation - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-memory-management-and-allocation-a7396d430f44)
+- [Go: How Does the Garbage Collector Mark the Memory?](https://medium.com/a-journey-with-go/go-how-does-the-garbage-collector-mark-the-memory-72cfc12c6976)
+- [Go: Memory Management and Memory Sweep - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-memory-management-and-memory-sweep-cc71b484de05)
 
 ### 型と [interface]
 
@@ -826,8 +834,6 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [How a Go Program Compiles down to Machine Code - Better Programming - Medium](https://medium.com/better-programming/how-a-go-program-compiles-down-to-machine-code-e4532dc8b8ca)
 - [[発表資料] 第138回RITS技術交流会『なぜ私たちはGoを書くのか。今あらためて考えるGo言語の良さと実際』 - My External Storage](https://budougumi0617.github.io/2019/10/05/jrits-why-go-how-is-go/)
 - [Language and Locale Matching in Go - The Go Blog](https://blog.golang.org/matchlang)
-- [Go: Memory Management and Allocation - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-memory-management-and-allocation-a7396d430f44)
-- [Go: How Does the Garbage Collector Mark the Memory?](https://medium.com/a-journey-with-go/go-how-does-the-garbage-collector-mark-the-memory-72cfc12c6976)
 
 ### 他言語との比較もしくは移行
 
