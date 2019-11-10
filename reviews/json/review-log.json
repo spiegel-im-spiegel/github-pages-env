@@ -4293,14 +4293,18 @@
       "Type": "paapi",
       "ID": "B00O1VJZLO",
       "Title": "火星の人",
-      "URL": "https://www.amazon.co.jp/%E7%81%AB%E6%98%9F%E3%81%AE%E4%BA%BA-%E3%82%A2%E3%83%B3%E3%83%87%E3%82%A3-%E3%82%A6%E3%82%A3%E3%82%A2%E3%83%BC-ebook/dp/B00O1VJZLO?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00O1VJZLO",
+      "URL": "https://www.amazon.co.jp/dp/B00O1VJZLO?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51DLzSbrC9L._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51DLzSbrC9L._SL160_.jpg",
         "Height": 160,
         "Width": 107
       },
       "ProductType": "Kindle版",
       "Creators": [
+        {
+          "Name": "アンディ ウィアー",
+          "Role": "著"
+        },
         {
           "Name": "小野田和子",
           "Role": "翻訳"
@@ -4316,7 +4320,7 @@
       "PublicationDate": "2014-08-25",
       "LastRelease": "2014-09-30",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -4336,13 +4340,17 @@
       "Type": "paapi",
       "ID": "B077LH3RL8",
       "Title": "アステロイド・マイナーズ",
-      "URL": "https://www.amazon.co.jp/%E3%82%A2%E3%82%B9%E3%83%86%E3%83%AD%E3%82%A4%E3%83%89%E3%83%BB%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%BC%E3%82%BA/dp/B077LH3RL8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B077LH3RL8",
+      "URL": "https://www.amazon.co.jp/dp/B077LH3RL8?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/61%2BpRaYSTSL._SL160_.jpg",
-        "Height": 113,
-        "Width": 160
+        "URL": ""
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "あさりよしとお",
+          "Role": "著"
+        }
+      ],
       "Codes": [
         {
           "Name": "ASIN",
@@ -4352,7 +4360,7 @@
       "PublicationDate": "",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -4574,14 +4582,22 @@
       "Type": "paapi",
       "ID": "4873114985",
       "Title": "子どもが体験するべき50の危険なこと (Make: Japan Books)",
-      "URL": "https://www.amazon.co.jp/%E5%AD%90%E3%81%A9%E3%82%82%E3%81%8C%E4%BD%93%E9%A8%93%E3%81%99%E3%82%8B%E3%81%B9%E3%81%8D50%E3%81%AE%E5%8D%B1%E9%99%BA%E3%81%AA%E3%81%93%E3%81%A8-Make-Japan-Gever-Tulley/dp/4873114985?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4873114985",
+      "URL": "https://www.amazon.co.jp/dp/4873114985?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/512xgQsxaML._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/512xgQsxaML._SL160_.jpg",
         "Height": 160,
         "Width": 114
       },
       "ProductType": "単行本（ソフトカバー）",
       "Creators": [
+        {
+          "Name": "Gever Tulley",
+          "Role": "著"
+        },
+        {
+          "Name": "Julie Spiegler",
+          "Role": "著"
+        },
         {
           "Name": "金井 哲夫",
           "Role": "翻訳"
@@ -4596,12 +4612,16 @@
         {
           "Name": "EAN",
           "Value": "9784873114989"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4873114985"
         }
       ],
       "PublicationDate": "2011-05-26",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -8883,5 +8903,88 @@
       false
     ],
     "Description": "Web アプリケーションまたはサービスについて Go 言語のコードで解説。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B076M5SXBX",
+      "Title": "[まとめ買い] アステロイド・マイナーズ",
+      "URL": "https://www.amazon.co.jp/dp/B076M5SXBX?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": ""
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "あさりよしとお",
+          "Role": "著"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B076M5SXBX"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2014-09-27",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "宇宙をなめるな！ って感じ（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0763GSNHZ",
+      "Title": "アステロイド・マイナーズ(1) (RYU COMICS)",
+      "URL": "https://www.amazon.co.jp/dp/B0763GSNHZ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61XuZfLj08L._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "あさりよしとお",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "徳間書店（リュウ・コミックス）",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0763GSNHZ"
+        }
+      ],
+      "PublicationDate": "2010-04-10",
+      "LastRelease": "2017-10-13",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2014-09-27",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "宇宙をなめるな！ って感じ（笑）"
   }
 ]

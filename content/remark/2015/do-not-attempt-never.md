@@ -64,18 +64,17 @@ title = "『決してマネしないでください』"
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%AD%90%E3%81%A9%E3%82%82%E3%81%8C%E4%BD%93%E9%A8%93%E3%81%99%E3%82%8B%E3%81%B9%E3%81%8D50%E3%81%AE%E5%8D%B1%E9%99%BA%E3%81%AA%E3%81%93%E3%81%A8-Make-Japan-Gever-Tulley/dp/4873114985?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4873114985"><img src="https://images-fe.ssl-images-amazon.com/images/I/512xgQsxaML._SL160_.jpg" width="114" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4873114985?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/512xgQsxaML._SL160_.jpg" width="114" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E5%AD%90%E3%81%A9%E3%82%82%E3%81%8C%E4%BD%93%E9%A8%93%E3%81%99%E3%82%8B%E3%81%B9%E3%81%8D50%E3%81%AE%E5%8D%B1%E9%99%BA%E3%81%AA%E3%81%93%E3%81%A8-Make-Japan-Gever-Tulley/dp/4873114985?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4873114985">子どもが体験するべき50の危険なこと (Make: Japan Books)</a></dt>
-	<dd>Gever Tulley, Julie Spiegler</dd>
-	<dd>金井 哲夫 (翻訳)</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/4873114985?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">子どもが体験するべき50の危険なこと (Make: Japan Books)</a></dt>
+    <dd>Gever Tulley (著), Julie Spiegler (著), 金井 哲夫 (翻訳)</dd>
     <dd>オライリージャパン 2011-05-26</dd>
-    <dd>Book 単行本（ソフトカバー）</dd>
-    <dd>ASIN: 4873114985, EAN: 9784873114989</dd>
+    <dd>単行本（ソフトカバー）</dd>
+    <dd>4873114985 (ASIN), 9784873114989 (EAN), 4873114985 (ISBN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">ただ守るだけではダメなのよ。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-10-08">2014-10-08</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-10-08">2014-10-08</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
 
 <div class="hreview">
