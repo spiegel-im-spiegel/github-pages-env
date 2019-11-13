@@ -8986,5 +8986,60 @@
       true
     ],
     "Description": "宇宙をなめるな！ って感じ（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4627275110",
+      "Title": "天体物理学",
+      "URL": "https://www.amazon.co.jp/dp/4627275110?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51UOq7TlGyL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "Arnab Rai Choudhuri",
+          "Role": "著"
+        },
+        {
+          "Name": "森 正樹",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "森北出版",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4627275110"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784627275119"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4627275110"
+        }
+      ],
+      "PublicationDate": "2019-05-28",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2019-11-13",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "興味本位で買うにはちょっとビビる値段なので図書館で借りて読んでいる。まえがきによると，この手のタイプの教科書はあまりないらしい。内容は非常に堅実で分かりやすい。理系の学部生レベルなら問題なく読めるかな。"
   }
 ]
