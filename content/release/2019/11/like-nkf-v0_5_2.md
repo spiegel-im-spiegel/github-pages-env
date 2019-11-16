@@ -15,6 +15,9 @@ pageType = "text"
 
 - [Release v0.5.2 · spiegel-im-spiegel/text · GitHub](https://github.com/spiegel-im-spiegel/text/releases/tag/v0.5.2)
 
+機能の変更はないが [Go] 1.13.x に対応させるために内部をいろいろ弄った。
+2017年に v0.5.1 をリリースしてから放ったらかしにしてたからなぁ。
+
 ```text
 $ gonkf -h
 Network Kanji Filter by Golang
@@ -37,9 +40,6 @@ Flags:
 
 Use "gonkf [command] --help" for more information about a command.
 ```
-
-機能の変更はないが [Go] 1.13.x に対応させるために内部をいろいろ弄った。
-2017年に v0.5.1 をリリースしてから放ったらかしにしてたからなぁ。
 
 もともと文字エンコーディング変換の習作用に作ったツールなので，思い入れがないんだよなぁ。
 まっ，よろしければ使ってやってください。
