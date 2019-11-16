@@ -1,24 +1,9 @@
 +++
 title = "「nkf っぽいなにか」を作った"
 date =  "2017-12-06T01:20:36+09:00"
-update =  "2018-02-15T07:19:42+09:00"
 description = "思いつきで文字エンコーディングを変換するロジックを考えていたのだが，その副産物で「nkf っぽいなにか」を作ったので，併せてリリースする。"
 image = "/images/attention/remark.jpg"
 tags = ["tools", "golang", "character", "encoding", "transform"]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false

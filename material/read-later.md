@@ -1,7 +1,5 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-- [GitHub - CodeHipster/go-code-visualizer: Golang visualizer to visualize go code](https://github.com/CodeHipster/go-code-visualizer)
-
 ## リリース情報
 
 
