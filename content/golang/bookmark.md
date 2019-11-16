@@ -16,10 +16,12 @@ title = "Go 言語に関するブックマーク"
 
 ## 公式サイト
 
-- [The Go Programming Language](https://golang.org/) : 2017年8月24日時点での最新は 1.9
+- [The Go Programming Language](https://golang.org/)
     - [git repositories (Google)](https://go.googlesource.com/)
     - [git repositories (GitHub)](https://github.com/golang) : mirror
-- [golang-jp - The Go Programming Language](http://golang-jp.org/) : 本家の日本語訳サイト（[golang.jp](http://golang.jp/) は内容が古いので参考にしない方がいい，らしい）
+- [go.dev](https://go.dev/)
+    - [Go.dev: a new hub for Go developers - The Go Blog](https://blog.golang.org/go.dev)
+- [A Tour of Go](https://go-tour-jp.appspot.com/) : 日本語版
 
 ## リリース情報
 
@@ -149,6 +151,8 @@ title = "Go 言語に関するブックマーク"
     - [Goを読むその2：compileコマンド（構文解析まで）](https://qiita.com/junjis0203/items/616c00086eb336153f4f)
 - [[Go]imported and not usedエラー・declared and not usedエラーとの向き合いかた - My External Storage](https://budougumi0617.github.io/2019/10/06/imported-declared-not-used-error/)
 - [C から Go へコードを移植してハマった話 (そして言語仕様へ) - Qiita](https://qiita.com/akif999/items/a94dd8a6fe29dda2b560)
+- [Go's Declaration Syntax - The Go Blog](https://blog.golang.org/gos-declaration-syntax)
+- [[Go] タグなし switchは switch true {...}と等しい - My External Storage](https://budougumi0617.github.io/2019/11/10/switch-statement-in-go/)
 
 ### オブジェクトに関すること
 
@@ -391,6 +395,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 
 - [GoのSSA最適化制御オプション - Qiita](https://qiita.com/tooru/items/a55bcdac0500d9a93f39)
 - [Big Sky :: gocode やめます(そして Language Server へ)](https://mattn.kaoriya.net/software/lang/go/20181217000056.htm)
+- [Big Sky :: Go 言語の Language Server「gopls」が completeUnimported に対応した。](https://mattn.kaoriya.net/software/lang/c/20191112100330.htm)
 
 ### デバッガ
 
@@ -735,6 +740,11 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Big Sky :: SQLite3 でロジスティック回帰](https://mattn.kaoriya.net/software/ml/20190512003509.htm)
 - [golang-migrate/migrateパッケージを使ってみる - Qiita](https://qiita.com/daijuk/items/2b43781c5a38923f864b)
 - [GoのアプリケーションにDatadogAPMを導入する。 - Qiita](https://qiita.com/istsh/items/72b0f2c0ef345e57aaf4)
+
+### DB 連携 with GraphQL
+
+- [graphql-go/graphql: An implementation of GraphQL for Go / Golang](https://github.com/graphql-go/graphql)
+    - [golangでGraphQLの素振りを行った - Qiita](https://qiita.com/mitubaEX328/items/77ccc4f6ac0ad2e76996)
 
 ### GAE/Go
 
