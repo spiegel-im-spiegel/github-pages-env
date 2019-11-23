@@ -1427,9 +1427,9 @@
       "Type": "paapi",
       "ID": "4416717407",
       "Title": "天文年鑑 2018年版",
-      "URL": "https://www.amazon.co.jp/%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%91-2018%E5%B9%B4%E7%89%88-%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%91%E7%B7%A8%E9%9B%86%E5%A7%94%E5%93%A1%E4%BC%9A/dp/4416717407?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4416717407",
+      "URL": "https://www.amazon.co.jp/dp/4416717407?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41djzrlPeeL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41djzrlPeeL._SL160_.jpg",
         "Height": 160,
         "Width": 112
       },
@@ -1449,12 +1449,16 @@
         {
           "Name": "EAN",
           "Value": "9784416717400"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4416717407"
         }
       ],
       "PublicationDate": "2017-11-21",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -9041,5 +9045,56 @@
       false
     ],
     "Description": "興味本位で買うにはちょっとビビる値段なので図書館で借りて読んでいる。まえがきによると，この手のタイプの教科書はあまりないらしい。内容は非常に堅実で分かりやすい。理系の学部生レベルなら問題なく読めるかな。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4416719485",
+      "Title": "天文年鑑 2020年版",
+      "URL": "https://www.amazon.co.jp/dp/4416719485?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41aDY33z67L._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "天文年鑑 編集委員会",
+          "Role": "編集"
+        }
+      ],
+      "Publisher": "誠文堂新光社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4416719485"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784416719480"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4416719485"
+        }
+      ],
+      "PublicationDate": "2019-11-20",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2019-11-23",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "天文ファン必携。2020年版。"
   }
 ]
