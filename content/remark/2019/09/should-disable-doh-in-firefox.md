@@ -90,6 +90,7 @@ pageType = "text"
     - [ブログ: DNSリゾルバーの中心性](https://okuranagaimo.blogspot.com/2019/09/dns.html)
 - [DNS Security: Threat Modeling DNSSEC, DoT, and DoH](https://www.netmeister.org/blog/doh-dot-dnssec.html)
     - [ブログ: DNSセキュリティ: DNSSEC、DoT、およびDoHの脅威モデリング](https://okuranagaimo.blogspot.com/2019/10/dns-dnssecdotdoh.html)
+- [Firefox/Google Chromeに続き、Windowsでも“DNS over HTTPS”をサポートへ - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1220173.html)
 
 - [監視をコントロールする](https://baldanders.info/blog/000490/)
 

@@ -296,6 +296,7 @@ title = "Go 言語に関するブックマーク"
 - [goleakでgoroutine leakのリスクを減らす - Qiita](https://qiita.com/smith-30/items/67c4f894bec45a6fd82a)
 - [Go の -race option は内部で何をしているのか。何を検知しないのか。 - Qiita](https://qiita.com/po3rin/items/18a6621f39e9a6f6f7c4)
 - [Achieving concurrency in Go - RunGo - Medium](https://medium.com/rungo/achieving-concurrency-in-go-3f84cbf870ca)
+- [Go: Goroutine, OS Thread and CPU Management - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-goroutine-os-thread-and-cpu-management-2f5a5eaf518a)
 
 Go 言語で複数 CPU を使った並列処理を行うには明示的な設定が必要。
 
@@ -473,7 +474,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
     - [goreleaserを使ってGoで書いたツールのバイナリをGithub Releasesで配布する - $shibayu36->blog;](http://blog.shibayu36.org/entry/2017/10/04/193000)
     - [goreleaser と Travis CI で Golang のバイナリ配布を自動化する - /storage/tummy.log](http://rnitame.hatenablog.com/entry/automate-golang-binary-distribution)
 - [Go言語利用のレポジトリをInspecodeで静的解析＋テストしてみる - Qiita](https://qiita.com/ks888/items/65d3be0f05e1aecc817b)
- 
+- [【GitHub Actions】Go言語の自動テストからリリースまでを作ってみた - Qiita](https://qiita.com/x-color/items/f60025c20a547a7355b5)
 
 ### クロス環境
 
