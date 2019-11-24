@@ -1,24 +1,9 @@
 +++
 title = "Log パッケージで遊ぶ"
 date = "2018-02-27T01:32:43+09:00"
-update = "2018-04-18T21:05:35+09:00"
 description = "log パッケージの欠点は出力のフィルタリングができないことである。せっかく「できる子」なんだから，なるべく生かした形でカスタマイズしてみる。"
-image = "/images/attention/go-code2.png"
-tags        = [ "golang", "engineering", "programming", "logger" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
+image = "/images/attention/go-logo_blue.png"
+tags = [ "golang", "engineering", "programming", "logger" ]
 
 [scripts]
   mathjax = false
@@ -344,7 +329,6 @@ func main() {
 
 ## 参考図書
 
-<div class="hreview">
 <div class="hreview">
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4621300253?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41meaSLNFfL._SL160_.jpg" width="123" alt="photo"></a></div>
   <dl class="fn">

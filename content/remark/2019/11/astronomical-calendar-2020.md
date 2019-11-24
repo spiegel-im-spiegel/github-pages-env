@@ -21,7 +21,7 @@ pageType = "text"
 
 {{< fig-img src="./49109707392_b9505da304_e.jpg" title="2020年版『天文年鑑』来てた" link="https://www.flickr.com/photos/spiegel/49109707392/" >}}
 
-そして2020年版では [Kindle 版が出る](https://www.amazon.co.jp/dp/B07ZH4YQTX?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "天文年鑑 2020年版 | 天文年鑑編集委員会 | 宇宙学・天文学 | Kindleストア | Amazon")らしい。
+更に2020年版では [Kindle 版が出る](https://www.amazon.co.jp/dp/B07ZH4YQTX?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "天文年鑑 2020年版 | 天文年鑑編集委員会 | 宇宙学・天文学 | Kindleストア | Amazon")らしい。
 「らしい」というのは，実は11月時点ではまだ配信されていないのだ。
 発売日直前に配信開始日が12月16日に延期されてしまった。
 

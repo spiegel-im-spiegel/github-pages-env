@@ -63,7 +63,7 @@ func checkFileOpen(path string) error {
 }
 {{< /highlight >}}
 
-[`errs`]`.Wrap()` 関数では元になる `error` インスタンスと追加のメッセージ，および[関数オプション]({{< ref "/golang/functional-options-pattern.md" >}})として [`errs`]`.WithContext()` を引数とする。
+[`errs`]`.Wrap()` 関数では元になる `error` インスタンスと追加のメッセージ，および[関数オプション]({{< ref "/golang/functional-options-pattern.md" >}})として0個以上（複数可）の [`errs`]`.WithContext()` を引数とする。
 
 では実際に `checkFileOpen()` 関数を動かしてみよう。
 
