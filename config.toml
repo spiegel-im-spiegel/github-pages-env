@@ -16,9 +16,11 @@ enableGitInfo = true
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
-[blackfriday]
-  smartypants = false
-  extensionsmask = ["autoHeaderIds"]
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [taxonomies]
   tags = "tags"

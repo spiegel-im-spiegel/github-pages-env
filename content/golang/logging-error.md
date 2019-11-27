@@ -139,7 +139,7 @@ $ go run sample.go | jq .
 
 そこで [`zerolog`]`.Event.Interface()` メソッドのほうを使ってみる。
 
-{{< highlight go "hl_lines=8" >}}
+```go {hl_lines=[8]}
 func main() {
     logger := zerolog.New(os.Stdout).Level(zerolog.DebugLevel).With().
         Timestamp().
@@ -150,7 +150,7 @@ func main() {
         logger.Error().Interface("error", err).Send()
     }
 }
-{{< /highlight >}}
+```
 
 これでログ出力は
 
