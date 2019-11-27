@@ -5,8 +5,6 @@ languageCode    = "ja"
 DefaultContentLanguage = "ja"
 preserveTaxonomyNames = false
 disqusShortname = "textbaldandersinfo"
-pygmentsCodeFences = true
-pygmentsUseClasses = true
 dataDir = "data"
 enableGitInfo = true
 
@@ -21,6 +19,15 @@ enableGitInfo = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.highlight]
+    codeFences = true
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = false
+    style = "tango"
+    tabWidth = 4
 
 [taxonomies]
   tags = "tags"
