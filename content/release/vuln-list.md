@@ -91,9 +91,6 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 |   68.1.1 | 2019-09-25 |                      &mdash; | &mdash;    | &mdash; |
 |     68.1 | 2019-09-11 |                      &mdash; | &mdash;    | &mdash; |
 |     68.0 | 2019-08-27 |                      &mdash; | &mdash;    | &mdash; |
-|   60.9.0 | 2019-09-06 | 60.9.0+build1-0 (USN-4150-1) | 2019-10-08 | 1 month |
-|   60.8.0 | 2019-07-09 | 60.8.0+build1-0 (USN-4064-1) | 2019-07-17 |  8 days |
-|   60.7.2 | 2019-06-20 | 60.7.2+build2-0 (USN-4045-1) | 2019-07-01 | 11 days |
 
 ### ブックマーク
 
@@ -103,7 +100,6 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 - [Thunderbird — Release Notes (68.1.2) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.1.2/releasenotes/)
 - [Thunderbird — Release Notes (68.1.1) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.1.1/releasenotes/)
 - [Thunderbird — Release Notes (68.1.0) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.1.0/releasenotes/)
-- [Thunderbird — Release Notes (60.9.0) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/60.9.0/releasenotes/)
 - [Thunderbird — Release Notes (68.0) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.0/releasenotes/)
 
 - [結局 Thunderbird もインストールし直すことにした]({{< ref "/remark/2019/11/reinstalling-thunderbird.md" >}})
