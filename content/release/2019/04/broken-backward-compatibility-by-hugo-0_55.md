@@ -211,7 +211,5 @@ WARN 2019/04/13 09:00:00 Page's .GetParam is deprecated and will be removed in a
 
 - [.Hugo.Generator は廃止されるので hugo.Generator を使おう - Qiita](https://qiita.com/peaceiris/items/b6d611e184b2f28cc0ab)
 
-- [Shortcodes で HTML コードを埋め込む]({{< ref "/hugo/shortcodes.md">}})
-
 [Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
 [shortcode]: https://gohugo.io/extras/shortcodes/ "Shortcodes | Hugo"
