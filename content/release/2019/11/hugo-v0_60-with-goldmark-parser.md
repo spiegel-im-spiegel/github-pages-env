@@ -1,11 +1,10 @@
 +++
 title = "Hugo v0.60 より既定の Markdown パーサが Goldmark になったようだ"
-date =  "2019-11-28T19:50:46+09:00"
+date =  "2019-11-28T22:45:04+09:00"
 description = "今回の変更に伴い色々と変わった部分もあるので，覚え書きとして記しておく。"
 image = "/images/attention/tools.png"
 tags  = [ "hugo", "markdown", "site", "syntax-highlight", "shortcodes" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
@@ -89,7 +88,7 @@ Markdown パーサについては，グローバル設定で新しい [yuin/gold
 
 ## Inline Code の挙動に注意
 
-[CommonMark] により準拠したせいかどうかは分からないが inline code の挙動が微妙に変わっているので注意が必要である。
+[CommonMark] に準拠したせいかどうかは分からないが inline code の挙動が微妙に変わっているので注意が必要である。
 
 たとえば以下のような記述があるとする。
 
