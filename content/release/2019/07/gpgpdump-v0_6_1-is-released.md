@@ -44,8 +44,8 @@ Global Flags:
   -u, --utc          output with UTC time
 ```
 
-我ながらもの知らずにも程があると思うが `net/`[`http`] パッケージにある [`http`]`.Client` って既定でプロキシに対応してるんだねぇ。
-プロキシサーバを指定するには [`http`]`.Client` の `Transport` 要素を弄ればいいんだけど 既定の `DefaultTransport` ってのが
+我ながらもの知らずにも程があると思うが `net/`[`http`] パッケージにある [`http`].`Client` って既定でプロキシに対応してるんだねぇ。
+プロキシサーバを指定するには [`http`].`Client` の `Transport` 要素を弄ればいいんだけど 既定の `DefaultTransport` ってのが
 
 ```go
 var DefaultTransport RoundTripper = &Transport{
@@ -62,7 +62,7 @@ var DefaultTransport RoundTripper = &Transport{
 }
 ```
 
-と定義されていて，この中で指定されている [`http`]`.ProxyFromEnvironment()` 関数は 環境変数 `HTTP_PROXY`, `HTTPS_PROXY` および `NO_PROXY` を見てプロキシ情報を適切にセットしてくれるらしい（ちなみに，これらの環境変数名は大文字でも小文字でもちゃんと認識してくれるようだ）。
+と定義されていて，この中で指定されている [`http`].`ProxyFromEnvironment()` 関数は 環境変数 `HTTP_PROXY`, `HTTPS_PROXY` および `NO_PROXY` を見てプロキシ情報を適切にセットしてくれるらしい（ちなみに，これらの環境変数名は大文字でも小文字でもちゃんと認識してくれるようだ）。
 
 なのでコマンドラインでプロキシ・サーバを指定する必要はないってこと。
 勉強になりました。

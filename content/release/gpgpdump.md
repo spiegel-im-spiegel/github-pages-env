@@ -408,7 +408,7 @@ func main() {
 }
 ```
 
-あるいは [`io`]`.Reader` インタフェースを使うのであれば
+あるいは [`io`].`Reader` インタフェースを使うのであれば
 
 ```go
 info, err := gpgpdump.Parse(

@@ -347,7 +347,7 @@ func main() {
 prog.go:23:8: invalid operation: p1 == p2 (map can only be compared to nil)
 ```
 
-[map] が参照している連想配列の内容を比較したいのであれば [`reflect`]`.DeepEqual()` 関数が使える。
+[map] が参照している連想配列の内容を比較したいのであれば [`reflect`].`DeepEqual()` 関数が使える。
 
 {{< highlight go "hl_lines=26-30" >}}
 package main
@@ -389,7 +389,7 @@ func main() {
 p1 == p2
 ```
 
-[map] が参照している連想配列のインスタンスが同一であるかどうか調べるには [`reflect`]`.ValueOf()` 関数で値（＝連想配列）を取得し，そのポインタ値を `==` 演算子で比較する。
+[map] が参照している連想配列のインスタンスが同一であるかどうか調べるには [`reflect`].`ValueOf()` 関数で値（＝連想配列）を取得し，そのポインタ値を `==` 演算子で比較する。
 
 {{< highlight go "hl_lines=26-30 33-37" >}}
 package main

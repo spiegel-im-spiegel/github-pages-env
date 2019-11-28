@@ -225,9 +225,9 @@ func BenchmarkWriteBuffer2Cap1K(b *testing.B) {
 | `BenchmarkWriteBuffer1`       | `[]byte` に `append` する                       |
 | `BenchmarkWriteBuffer1Cap128` | `[]byte` に `append` する（ capacity 128B）     |
 | `BenchmarkWriteBuffer1Cap1K`  | `[]byte` に `append` する（ capacity 1KB）      |
-| `BenchmarkWriteBuffer2`       | [`bytes`]`.Buffer` に追記する                   |
-| `BenchmarkWriteBuffer2Cap128` | [`bytes`]`.Buffer` に追記する（ capacity 128B） |
-| `BenchmarkWriteBuffer2Cap1K`  | [`bytes`]`.Buffer` に追記する（ capacity 1KB）  |
+| `BenchmarkWriteBuffer2`       | [`bytes`].`Buffer` に追記する                   |
+| `BenchmarkWriteBuffer2Cap128` | [`bytes`].`Buffer` に追記する（ capacity 128B） |
+| `BenchmarkWriteBuffer2Cap1K`  | [`bytes`].`Buffer` に追記する（ capacity 1KB）  |
 
 入力テキストだが，小さいファイルではテストにならない気がしたので，大昔に書いたテキスト [`CollisionsForHashFunctions.txt`](https://baldanders.info/spiegel/archive/CollisionsForHashFunctions.txt) を使うことにした。
 サイズは70行，7KB ほど。

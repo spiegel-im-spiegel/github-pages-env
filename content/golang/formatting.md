@@ -13,7 +13,7 @@ pageType = "text"
 
 今回も小ネタで。
 
-お馴染みの [`fmt`]`.Printf()` 関数などで使われる書式（verb）のうち，今回は `%v` の出力をカスタマイズすることを考えてみる。
+お馴染みの [`fmt`].`Printf()` 関数などで使われる書式（verb）のうち，今回は `%v` の出力をカスタマイズすることを考えてみる。
 
 ## 基本型における %v 書式の出力
 
@@ -85,8 +85,8 @@ fmt.Printf("%#v", planets)
 
 ## Stringer および GoStringer インタフェース
 
-[`fmt`]`.Stringer` および [`fmt`]`.GoStringer` インタフェースを持つ型であれば `%v` の出力をカスタマイズできる。
-[`fmt`]`.Stringer` および [`fmt`]`.GoStringer` インタフェースの定義は以下の通り。
+[`fmt`].`Stringer` および [`fmt`].`GoStringer` インタフェースを持つ型であれば `%v` の出力をカスタマイズできる。
+[`fmt`].`Stringer` および [`fmt`].`GoStringer` インタフェースの定義は以下の通り。
 
 ```go
 // *.go is implemented by any value that has a String method,
@@ -107,7 +107,7 @@ type GoStringer interface {
 }
 ```
 
-先ほどの `Planet` 型に [`fmt`]`.Stringer` および [`fmt`]`.GoStringer` インタフェースを組み込んでみよう。
+先ほどの `Planet` 型に [`fmt`].`Stringer` および [`fmt`].`GoStringer` インタフェースを組み込んでみよう。
 
 ```go
 func (p Planet) String() string {
@@ -139,13 +139,13 @@ fmt.Printf("%#v", planets)
 // []main.Planet{main.Planet{Name:"Mercury", Mass:0.055}, main.Planet{Name:"Venus", Mass:0.815}, main.Planet{Name:"Earth", Mass:1.000}, main.Planet{Name:"Mars", Mass:0.107}}
 ```
 
-`%v` および `%+v` が [`fmt`]`.Stringer` に `%#v` が [`fmt`]`.GoStringer` に対応しているのが分かると思う。
+`%v` および `%+v` が [`fmt`].`Stringer` に `%#v` が [`fmt`].`GoStringer` に対応しているのが分かると思う。
 
 ## Formatter インタフェース
 
-[`fmt`]`.Stringer` インタフェースを使ったカスタマイズの欠点は `%v` と `%+v` を区別できないことだ。
-`%v` と `%+v` を区別できるよう詳細な操作を行いたいのであれば [`fmt`]`.Formatter` インタフェースを組み込む。
-[`fmt`]`.Formatter` インタフェースの定義は以下の通り。
+[`fmt`].`Stringer` インタフェースを使ったカスタマイズの欠点は `%v` と `%+v` を区別できないことだ。
+`%v` と `%+v` を区別できるよう詳細な操作を行いたいのであれば [`fmt`].`Formatter` インタフェースを組み込む。
+[`fmt`].`Formatter` インタフェースの定義は以下の通り。
 
 ```go
 // Formatter is the interface implemented by values with a custom formatter.
@@ -156,7 +156,7 @@ type Formatter interface {
 }
 ```
 
-更に引数の [`fmt`]`.State` もインタフェース型で以下のように定義されている。
+更に引数の [`fmt`].`State` もインタフェース型で以下のように定義されている。
 
 ```go
 // State represents the printer state passed to custom formatters.
@@ -175,9 +175,9 @@ type State interface {
 }
 ```
 
-つまり自作の `Format()` メソッド内では `State.Write()`,  `State.Width()`,  `State.Precision()`, `State.Flag()` 各メソッドが使える。 これらを使って出力の整形を行えるわけだ（`State.Write()` は [`io`]`.Writer` インタフェースとマッチしている点にも注目）。
+つまり自作の `Format()` メソッド内では `State.Write()`,  `State.Width()`,  `State.Precision()`, `State.Flag()` 各メソッドが使える。 これらを使って出力の整形を行えるわけだ（`State.Write()` は [`io`].`Writer` インタフェースとマッチしている点にも注目）。
 
-では `Planet` 型に [`fmt`]`.Formatter` インタフェースを組み込んでみる。
+では `Planet` 型に [`fmt`].`Formatter` インタフェースを組み込んでみる。
 こんな感じでどうだろう。
 
 ```go
@@ -220,10 +220,10 @@ fmt.Printf("%#v", planets)
 // []main.Planet{main.Planet{Name:"Mercury", Mass:0.055}, main.Planet{Name:"Venus", Mass:0.815}, main.Planet{Name:"Earth", Mass:1.000}, main.Planet{Name:"Mars", Mass:0.107}}
 ```
 
-[`fmt`]`.Formatter` インタフェースを組み込めば細かい制御ができるようになるが，取りうる書式を全て記述しないといけないのが面倒である[^f1]。
+[`fmt`].`Formatter` インタフェースを組み込めば細かい制御ができるようになるが，取りうる書式を全て記述しないといけないのが面倒である[^f1]。
 状況によって使い分けるのがいいだろう。
 
-[^f1]: 型名（`%T`）とポインタ値（`%p`）は [`fmt`]`.Formatter` の制御外になるようだ。
+[^f1]: 型名（`%T`）とポインタ値（`%p`）は [`fmt`].`Formatter` の制御外になるようだ。
 
 ## ブックマーク
 

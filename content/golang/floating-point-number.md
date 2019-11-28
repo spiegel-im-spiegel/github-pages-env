@@ -98,7 +98,7 @@ var (
 )
 ```
 
-と定義して [`fmt`]`.Printf()` 関数の各書式（verb）を使って表記してみよう。
+と定義して [`fmt`].`Printf()` 関数の各書式（verb）を使って表記してみよう。
 こんな感じ。
 
 | Format                           | Expression                         |
@@ -138,9 +138,9 @@ var (
 
 ## 【おまけの追記】 encoding/json パッケージにおける浮動小数点数の扱いと json.Number 型
 
-[Go 言語]の標準パッケージである [encoding/json] で構造体の要素に `float32`/`float64` を割り当てた際の JSON へのエンコードでは，最終的に [`strconv`]`.AppendFloat()` 関数で文字列に変換される。
+[Go 言語]の標準パッケージである [encoding/json] で構造体の要素に `float32`/`float64` を割り当てた際の JSON へのエンコードでは，最終的に [`strconv`].`AppendFloat()` 関数で文字列に変換される。
 
-[`strconv`]`.AppendFloat()` 関数とほぼ同じ機能を持つ [`strconv`]`.FormatFloat()` 関数で出力を確認してみよう。
+[`strconv`].`AppendFloat()` 関数とほぼ同じ機能を持つ [`strconv`].`FormatFloat()` 関数で出力を確認してみよう。
 
 | Conversion                                       | Output       |
 | ------------------------------------------------ | ------------ |
@@ -163,8 +163,8 @@ func (f Float32) MarshalJSON() ([]byte, error) {
 }
 {{< /highlight >}}
 
-ところで，ちょっと反則的（？）かもしれないが [encoding/json] パッケージには [`json`]`.Number` という型が用意されている。
-[`json`]`.Number` 型は名前に反して `string` 型の wrapper になっている。
+ところで，ちょっと反則的（？）かもしれないが [encoding/json] パッケージには [`json`].`Number` という型が用意されている。
+[`json`].`Number` 型は名前に反して `string` 型の wrapper になっている。
 
 ```go
 // A Number represents a JSON number literal.
@@ -186,7 +186,7 @@ func (n Number) Int64() (int64, error) {
 
 つまり JSON との `Marshal`/`Unmarshal` は文字列と同じ扱いだが，必要に応じて数値（`int64` または `float64` 型）に変換できるというわけだ。
 
-これまで述べたように JSON の numbers を浮動小数点数に変換すると計算誤差が発生するため破壊的な変換になりがちだが [`json`]`.Number` 型であればそれを最小限に抑えられるだろう。
+これまで述べたように JSON の numbers を浮動小数点数に変換すると計算誤差が発生するため破壊的な変換になりがちだが [`json`].`Number` 型であればそれを最小限に抑えられるだろう。
 
 ## ブックマーク
 

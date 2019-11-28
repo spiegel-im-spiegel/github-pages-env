@@ -90,12 +90,12 @@ $1.2345$ が仮数部の値で $10^{2}$ の $2$ が指数部の値である。
 
 [^d1]: 標準ライブラリ以外であれば [shopspring/decimal](https://github.com/shopspring/decimal "shopspring/decimal: Arbitrary-precision fixed-point decimal numbers in go") のようなパッケージを公開している人もいる。
 
-1. [`big`]`.Float` 型を使う
-1. [`big`]`.Rat` 型を使う
+1. [`big`].`Float` 型を使う
+1. [`big`].`Rat` 型を使う
 
 前者は浮動小数点数なのだが任意の精度を指定することができる。
 後者は任意精度の有理数で， $\textstyle\frac{b}{a}$ の内部表現をとる。
-扱う数値が有理数のみと言えるなら [`big`]`.Rat` 型がいいだろう。
+扱う数値が有理数のみと言えるなら [`big`].`Rat` 型がいいだろう。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`big`]: https://golang.org/pkg/math/big/ "big - The Go Programming Language"

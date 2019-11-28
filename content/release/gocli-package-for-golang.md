@@ -128,8 +128,8 @@ func main() {
 }
 {{< /highlight >}}
 
-このコードでは `signal.Context()` 関数で指定した SIGNAL 用の [`context`]`.Context` インスタンスを生成している。
-SIGNAL または親 [`context`]`.Context` インスタンスによるキャンセルイベントを受信した場合は，子 [`context`]`.Context` インスタンスにキャンセルが伝搬する。
+このコードでは `signal.Context()` 関数で指定した SIGNAL 用の [`context`].`Context` インスタンスを生成している。
+SIGNAL または親 [`context`].`Context` インスタンスによるキャンセルイベントを受信した場合は，子 [`context`].`Context` インスタンスにキャンセルが伝搬する。
 
 [`context`] パッケージを使ったキャンセルの伝搬については以下を参照のこと。
 
@@ -137,7 +137,7 @@ SIGNAL または親 [`context`]`.Context` インスタンスによるキャン�
 
 ## ワイルドカードを含むファイルの検索
 
-[`gocli`]`/file` パッケージを使ったファイル検索は標準の [`filepath`]`.Glob()` 関数を拡張する形で実装している。
+[`gocli`]`/file` パッケージを使ったファイル検索は標準の [`filepath`].`Glob()` 関数を拡張する形で実装している。
 こんな感じに使える。
 
 ```go
@@ -199,7 +199,7 @@ const (
 
 ## 設定ファイルのパスを取得する
 
-[Go] 1.13 から [`os`]`.UserConfigDir()` 関数が追加されたので，これを使って設定ファイルのパスを取得するパッケージ [`gocli`]`/config` を作ってみた。
+[Go] 1.13 から [`os`].`UserConfigDir()` 関数が追加されたので，これを使って設定ファイルのパスを取得するパッケージ [`gocli`]`/config` を作ってみた。
 こんな感じで使う。
 
 ```go
@@ -221,8 +221,8 @@ func main() {
 
 アプリケーション名を指定して設定用ディレクトリのパスを取得する `config.Dir(appName string)` 関数も用意した。
 
-[`os`]`.UserConfigDir()` 関数で取得したパスにアプリケーション名と設定ファイル名をくっ付けただけの簡単なお仕事である。
-[Go] 1.13 では [`os`]`.UserConfigDir()` 関数は以下のように記述されている。
+[`os`].`UserConfigDir()` 関数で取得したパスにアプリケーション名と設定ファイル名をくっ付けただけの簡単なお仕事である。
+[Go] 1.13 では [`os`].`UserConfigDir()` 関数は以下のように記述されている。
 
 ```go
 // UserConfigDir returns the default root directory to use for user-specific

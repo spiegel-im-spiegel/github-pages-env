@@ -24,7 +24,7 @@ pageType = "text"
 
 [`errors`] パッケージにおいては `Unwrap()`, `Is()`, `As()` 関数が追加された。
 
-[`errors`]`.Unwrap()` 関数はシンプルで，引数の error インスタンスが `Unwrap()` メソッドを持っていればその結果を返すというものだ。
+[`errors`].`Unwrap()` 関数はシンプルで，引数の error インスタンスが `Unwrap()` メソッドを持っていればその結果を返すというものだ。
 
 ```go
 // Unwrap returns the result of calling the Unwrap method on err, if err's
@@ -41,11 +41,11 @@ func Unwrap(err error) error {
 }
 ```
 
-[golang.org/x/xerrors] パッケージでは [`xerrors`]`.Wrapper` interface 型が定義されていたが，まぁ `Unwrap()` 関数以外で `Wrapper` 型を使う局面はないので，これでもいいっちゃあいいのかな。
+[golang.org/x/xerrors] パッケージでは [`xerrors`].`Wrapper` interface 型が定義されていたが，まぁ `Unwrap()` 関数以外で `Wrapper` 型を使う局面はないので，これでもいいっちゃあいいのかな。
 
-[`errors`]`.Is()` は2つの error インスタンスの同値性（equality）を検査する[^eq1]。
-[`errors`]`.As()` 関数は error インスタンスから指定した型へ変換または抽出する。
-先ほどの [`errors`]`.Unwrap()` 関数はこれらの関数内で呼び出される。
+[`errors`].`Is()` は2つの error インスタンスの同値性（equality）を検査する[^eq1]。
+[`errors`].`As()` 関数は error インスタンスから指定した型へ変換または抽出する。
+先ほどの [`errors`].`Unwrap()` 関数はこれらの関数内で呼び出される。
 
 [^eq1]: 比較対象の error インスタンス（第2引数）と被検査対象の error インスタンス（第1引数）内にラッピングされている error インスタンスのいずれかが同値であるなら両インスタンは同値であると見做す。
 
@@ -130,7 +130,7 @@ var errorType = reflectlite.TypeOf((*error)(nil)).Elem()
 
 ## fmt.Errorf 関数による error のラッピング
 
-[`fmt`]`.Errorf()` 関数の書式で `%w` が使えるようになった。
+[`fmt`].`Errorf()` 関数の書式で `%w` が使えるようになった。
 `%w` を使うことで，対応する error インスタンスをラッピングする `wrapError` 型のインスタンスを生成する。
 
 ```go
@@ -178,13 +178,13 @@ func (e *wrapError) Unwrap() error {
 シンプルで結構。
 
 [golang.org/x/xerrors] パッケージの仕様とはかなり異なっているので注意が必要である。
-開発しているシステム/アプリケーションが [`xerrors`]`.Errorf()` 関数の仕様に依存しているなら置き換えは難しいかも。
+開発しているシステム/アプリケーションが [`xerrors`].`Errorf()` 関数の仕様に依存しているなら置き換えは難しいかも。
 
 ## 標準パッケージへの Unwrap() メソッドの組み込み
 
 標準パッケージのソースコードに対して [`jvgrep`] `Unwrap src/**/*.go` とかやると分かるが，いくつかのパッケージで定義されている error 派生型にも `Unwrap()` メソッドが組み込まれているようだ。
 
-たとえばファイル操作失敗時に吐かれる [`os`]`.PathError` 型は以下のように定義されている。
+たとえばファイル操作失敗時に吐かれる [`os`].`PathError` 型は以下のように定義されている。
 
 ```go
 // PathError records an error and the operation and file path that caused it.
@@ -271,7 +271,7 @@ $ go run sample2.go
 no such file or directory
 ```
 
-と一発で [`syscall`]`.Errno` のインスタンスが抽出されていることが分かる。
+と一発で [`syscall`].`Errno` のインスタンスが抽出されていることが分かる。
 これで標準パッケージのエラーの取り回しが楽になるだろう。
 
 ## そろそろ真面目にエラー・ハンドリングを設計しないと

@@ -33,7 +33,7 @@ tags = [ "golang", "programming", "time", "channel", "context", "goroutine", "co
 
 ## 一定周期ごとの処理を行う
 
-[Go 言語]で一定周期ごとに処理を行うには [`time`]`.Ticker` が使える。
+[Go 言語]で一定周期ごとに処理を行うには [`time`].`Ticker` が使える。
 以下は1秒ごとに現在時刻を表示する処理である。
 
 ```go
@@ -61,8 +61,8 @@ func main() {
 }
 ```
 
-[`time`]`.Ticker.C` は受信 [channel] で，周期イベント発生時の時刻がセットされる。
-[defer] 構文を使って終了時に [`time`]`.Ticker.Stop()` 関数で周期イベントを止めようとしているが，実際には無限ループなので， return まで到達しない（笑）
+[`time`].`Ticker.C` は受信 [channel] で，周期イベント発生時の時刻がセットされる。
+[defer] 構文を使って終了時に [`time`].`Ticker.Stop()` 関数で周期イベントを止めようとしているが，実際には無限ループなので， return まで到達しない（笑）
 
 このコードはちゃんと動くが，終了条件を記述していないので Ctrl+C などで外部から強制的に止めない限り動き続ける。
 
@@ -114,7 +114,7 @@ func main() {
 }
 {{< /highlight >}}
 
-このやり方であれば Ctrl+C でも強制終了することなく正しく [`time`]`.Ticker.Stop()` 関数が起動される。
+このやり方であれば Ctrl+C でも強制終了することなく正しく [`time`].`Ticker.Stop()` 関数が起動される。
 
 ここまでが main [goroutine] のみの処理の場合。
 複数の [goroutine] が協調して動いている場合は [SIGNAL] イベントに対して全ての [goroutine] が適切に処理を行う必要がある。
@@ -130,9 +130,9 @@ parent, cancelParent := context.WithCancel(ctx)
 child, cancelChild := context.WithCancel(parent)
 ```
 
-`cancelParent` および `cancelChild` は関数値で，これをキックすることでそれぞれの [`context`]`.Context` にキャンセル・イベントが発生する。
+`cancelParent` および `cancelChild` は関数値で，これをキックすることでそれぞれの [`context`].`Context` にキャンセル・イベントが発生する。
 面白いのは `parent` で発生したイベントは `child` にも伝搬する点である（逆向きには伝搬しない）。
-これを利用して，発生した [SIGNAL] に対して親の [`context`]`.Context` にイベントを発生させることによって全ての子  [`context`]`.Context` にイベントを伝搬させることが可能になる。
+これを利用して，発生した [SIGNAL] に対して親の [`context`].`Context` にイベントを発生させることによって全ての子  [`context`].`Context` にイベントを伝搬させることが可能になる。
 
 たとえば，先ほどの [SIGNAL] の処理は以下のように書き直すことができる。
 
@@ -168,7 +168,7 @@ func SignalContext(ctx context.Context) context.Context {
 }
 ```
 
-`ticker()` 関数のほうも [`context`]`.Context` のイベントを拾えるよう以下のように書き直す。
+`ticker()` 関数のほうも [`context`].`Context` のイベントを拾えるよう以下のように書き直す。
 
 ```go
 func ticker(ctx context.Context) error {
@@ -187,7 +187,7 @@ func ticker(ctx context.Context) error {
 }
 ```
 
-周期処理と [SIGNAL] 受信処理を別々の [goroutine] で駆動させて両者を [`context`]`.Context` で繋ぐのである。
+周期処理と [SIGNAL] 受信処理を別々の [goroutine] で駆動させて両者を [`context`].`Context` で繋ぐのである。
 
 完全なコードは以下の通り。
 
@@ -274,8 +274,8 @@ func main() {
 }
 ```
 
-ちなみに [`context`]`.WithTimeout()` 関数は [`context`]`.Context` にタイムアウト・イベントを付加する。
-他にもデッドライン日時を指定する [`context`]`.WithDeadline()` 関数がある。
+ちなみに [`context`].`WithTimeout()` 関数は [`context`].`Context` にタイムアウト・イベントを付加する。
+他にもデッドライン日時を指定する [`context`].`WithDeadline()` 関数がある。
 
 なんか今回は久しぶりに [Go 言語]っぽいコードだったねぇ（笑）
 
@@ -284,7 +284,7 @@ func main() {
 今回は [SIGNAL] を受信する場合の話だったが，もちろん任意のプロセスに [SIGNAL] を送信することもできる。
 以下は自分自身に SIGINT を投げるコード例である[^syscall1]。
 
-[^syscall1]: [`syscall`] パッケージを使うやり方もあるが，今回は割愛する。つか， Windows 版には [`syscall`]`.Kill()` 関数が存在しないのでやりようがないのだが。
+[^syscall1]: [`syscall`] パッケージを使うやり方もあるが，今回は割愛する。つか， Windows 版には [`syscall`].`Kill()` 関数が存在しないのでやりようがないのだが。
 
 ```go
 proc, _ := os.FindProcess(os.Getppid())
@@ -292,7 +292,7 @@ proc.Signal(os.Interrupt)
 ```
 
 ただし，このコードは Windows では（コンパイル・エラーにはならないが）動かない。
-Windows 用の [`os`]`.Process.Signal()` 関数の実体は以下の通りだが
+Windows 用の [`os`].`Process.Signal()` 関数の実体は以下の通りだが
 
 ```go
 func (p *Process) signal(sig Signal) error {
@@ -313,7 +313,7 @@ func (p *Process) signal(sig Signal) error {
 }
 ```
 
-このように [`os`]`.Kill` (SIGKILL) 以外は効かないようになっている。
+このように [`os`].`Kill` (SIGKILL) 以外は効かないようになっている。
 理由は不明だが TODO になってるようなので何か理由があるのだろう。
 
 というわけでテストができないのですよ `orz`

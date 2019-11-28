@@ -29,8 +29,8 @@ tags        = [ "golang" ]
 - [Go 1.10 is released - The Go Blog](https://blog.golang.org/go1.10)
 - [Go 1.10 Release Notes - The Go Programming Language](https://golang.org/doc/go1.10)
 
-今回も修正・変更は多岐にわたるが，とりあえず [`strings`]`.Buffer` は気になるところである。
-おそらく [`bytes`]`.Buffer` で実装している部分の幾つかを置き換えれるんじゃないかと思うのだが，私が利用している CI サービスの [Travis CI] が現時点（2018-02-17）で 1.10 に対応してないのよ。
+今回も修正・変更は多岐にわたるが，とりあえず [`strings`].`Buffer` は気になるところである。
+おそらく [`bytes`].`Buffer` で実装している部分の幾つかを置き換えれるんじゃないかと思うのだが，私が利用している CI サービスの [Travis CI] が現時点（2018-02-17）で 1.10 に対応してないのよ。
 
 まぁ，おいおい試していくか。
 

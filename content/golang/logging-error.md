@@ -90,7 +90,7 @@ $ go run sample.go | jq .
 
 ここからが本題。
 
-[`fmt`]`.Printf()` の部分を [rs/zerolog] によるログ出力に置き換えてみよう。
+[`fmt`].`Printf()` の部分を [rs/zerolog] によるログ出力に置き換えてみよう。
 とりあえず logger インスタンスの生成はこんな感じかな。
 
 ```go
@@ -134,10 +134,10 @@ $ go run sample.go | jq .
 }
 ```
 
-見ての通り [`zerolog`]`.Event.Err()` メソッドでは単純なエラーメッセージしか出力されない（当たり前だが）。
-通常の error ならこれで十分だが [`errs`]`.Wrap()` 関数で生成した error では不十分である。
+見ての通り [`zerolog`].`Event.Err()` メソッドでは単純なエラーメッセージしか出力されない（当たり前だが）。
+通常の error ならこれで十分だが [`errs`].`Wrap()` 関数で生成した error では不十分である。
 
-そこで [`zerolog`]`.Event.Interface()` メソッドのほうを使ってみる。
+そこで [`zerolog`].`Event.Interface()` メソッドのほうを使ってみる。
 
 ```go {hl_lines=[8]}
 func main() {

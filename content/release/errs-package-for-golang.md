@@ -44,7 +44,7 @@ func checkFileOpen(path string) error {
 }
 ```
 
-[`os`]`.Open()` 関数の実行時に吐き出されるエラー・インスタンス `err` を [`errs`]`.Wrap()` 関数でラッピングする。
+[`os`].`Open()` 関数の実行時に吐き出されるエラー・インスタンス `err` を [`errs`].`Wrap()` 関数でラッピングする。
 こんな感じ。
 
 {{< highlight go "hl_lines=4-8" >}}
@@ -63,7 +63,7 @@ func checkFileOpen(path string) error {
 }
 {{< /highlight >}}
 
-[`errs`]`.Wrap()` 関数では元になる `error` インスタンスと追加のメッセージ，および[関数オプション]({{< ref "/golang/functional-options-pattern.md" >}})として0個以上（複数可）の [`errs`]`.WithContext()` を引数とする。
+[`errs`].`Wrap()` 関数では元になる `error` インスタンスと追加のメッセージ，および[関数オプション]({{< ref "/golang/functional-options-pattern.md" >}})として0個以上（複数可）の [`errs`].`WithContext()` を引数とする。
 
 では実際に `checkFileOpen()` 関数を動かしてみよう。
 
@@ -84,7 +84,7 @@ file open error: open not-exist.txt: no such file or directory
 
 まぁ [Go 言語]ではありふれた出力形式だ。
 
-ここで [`fmt`]`.Printf()` の書式を `%v` から `%#v` に変えてみる。
+ここで [`fmt`].`Printf()` の書式を `%v` から `%#v` に変えてみる。
 
 {{< highlight go "hl_lines=3" >}}
 func main() {
@@ -103,7 +103,7 @@ $ go run sample.go
 
 という感じに構造体のダンプ表示ぽい出力になる。
 
-ちなみに [`errs`]`.Error.Context` 要素は `map[string]interface{}` 型の連想配列になっているが，既定でエラーが発生した関数名を格納している。
+ちなみに [`errs`].`Error.Context` 要素は `map[string]interface{}` 型の連想配列になっているが，既定でエラーが発生した関数名を格納している。
 これでエラーを追いやすくなるだろう。 
 
 更に書式を `%+v` に変える。
@@ -146,9 +146,9 @@ $ go run sample.go | jq .
 }
 ```
 
-といった感じに他ツールと組み合わせて [`errs`]`.Error` インスタンスの中身を検証することができる。
+といった感じに他ツールと組み合わせて [`errs`].`Error` インスタンスの中身を検証することができる。
 
-おまけの機能として [`errs`]`.Cause()` 関数も用意してみた。
+おまけの機能として [`errs`].`Cause()` 関数も用意してみた。
 
 ```go
 func main() {
@@ -160,7 +160,7 @@ func main() {
 }
 ```
 
-このように [`errs`]`.Cause()` 関数では階層化 `error` を遡って大元の  `error` インスタンスを抽出することができる。
+このように [`errs`].`Cause()` 関数では階層化 `error` を遡って大元の  `error` インスタンスを抽出することができる。
 
 [`errs`] パッケージと標準の [`errors`] パッケージを組み合わせることでエラーハンドリングの助けとなれば幸いである。
 

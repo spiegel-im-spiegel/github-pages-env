@@ -15,7 +15,7 @@ pageType = "text"
 
 2015年に「[文字列連結はどれが速い？]({{< relref "./join-strings.md" >}})」という記事を書いた。
 あれから文字連結に関してどう変わったのか。
-特に [Go] 1.10 で [`strings`]`.Builder` が追加されているので，その辺も含めて再検証してみる。
+特に [Go] 1.10 で [`strings`].`Builder` が追加されているので，その辺も含めて再検証してみる。
 
 今回検証するコードは以下の通り。
 
@@ -95,17 +95,17 @@ func JoinStringBuffer8K(ss []string) {
 | 関数名                   | 内容                                                   |
 | ------------------------ | ------------------------------------------------------ |
 | `JoinStringPlus`         | `+` 演算子で連結する                                   |
-| `JoinStringJoin`         | [`strings`]`.Join` 関数で連結する                      |
+| `JoinStringJoin`         | [`strings`].`Join` 関数で連結する                      |
 | `JoinStringByteAppend`   | `[]byte` 配列に追記する                                |
 | `JoinStringByteAppend8K` | `[]byte` 配列に追記する（8KB アロケーション）          |
-| `JoinStringBuilder`      | [`strings`]`.Builder` に追記する                       |
-| `JoinStringBuilder8K`    | [`strings`]`.Builder` に追記する（8KB アロケーション） |
-| `JoinStringBuffer`       | [`bytes`]`.Buffer` に追記する                          |
-| `JoinStringBuffer8K`     | [`bytes`]`.Buffer` に追記する（8KB アロケーション）    |
+| `JoinStringBuilder`      | [`strings`].`Builder` に追記する                       |
+| `JoinStringBuilder8K`    | [`strings`].`Builder` に追記する（8KB アロケーション） |
+| `JoinStringBuffer`       | [`bytes`].`Buffer` に追記する                          |
+| `JoinStringBuffer8K`     | [`bytes`].`Buffer` に追記する（8KB アロケーション）    |
 
 使うメソッドによって出力する型が異なるが（`string` or `[]byte`），今回は無視することにした[^str1]。
 
-[^str1]: `string` 型は不変オブジェクトなので，通常は `[]byte` 型との相互変換の際にメモリ・アロケーションとデータ・コピーが発生する。ちなみに [`strings`]`.Builder` の `String()` メソッドでは [`unsafe`] パッケージを使って無理やりキャスティングしている。
+[^str1]: `string` 型は不変オブジェクトなので，通常は `[]byte` 型との相互変換の際にメモリ・アロケーションとデータ・コピーが発生する。ちなみに [`strings`].`Builder` の `String()` メソッドでは [`unsafe`] パッケージを使って無理やりキャスティングしている。
 
 ベンチマーク用のコードは以下の通り。
 
@@ -223,8 +223,8 @@ ok      join    12.695s
 | `JoinStringBuffer`       |  9,545 ns |    32,240 bytes |          8 |
 | `JoinStringBuffer8K`     |  3,526 ns |      8192 bytes |          1 |
 
-まず [`strings`]`.Join()` 関数を使った連結がめっさ速くなってアロケーション回数も1回のみになっていることにビックリした。
-ソースコードを見てみたら，やっぱり [`strings`]`.Join()` 関数内部で [`strings`]`.Builder` を使っていた。
+まず [`strings`].`Join()` 関数を使った連結がめっさ速くなってアロケーション回数も1回のみになっていることにビックリした。
+ソースコードを見てみたら，やっぱり [`strings`].`Join()` 関数内部で [`strings`].`Builder` を使っていた。
 
 ```go
 // Join concatenates the elements of a to create a single string. The separator string
@@ -252,7 +252,7 @@ func Join(a []string, sep string) string {
 }
 ```
 
-ちなみに [`strings`]`.Builder` への追記処理は以下のようになっている。
+ちなみに [`strings`].`Builder` への追記処理は以下のようになっている。
 
 ```go
 // WriteString appends the contents of s to b's buffer.
@@ -264,17 +264,17 @@ func (b *Builder) WriteString(s string) (int, error) {
 }
 ```
 
-つまり `[]byte` 配列への `append()` と [`strings`]`.Builder` への追記と [`strings`]`.Join()` は実質的に同じ処理で，それぞれの前処理分だけ差が出ているということになる。
+つまり `[]byte` 配列への `append()` と [`strings`].`Builder` への追記と [`strings`].`Join()` は実質的に同じ処理で，それぞれの前処理分だけ差が出ているということになる。
 
 今回の検証では
 
 1. やっぱり `+` 演算子による連結はダメダメ[^plus1]
-1. よほどの最適化が要求されない限り `[]byte` 配列への `append()` は [`strings`]`.Builder` へ代替可能[^ts1]
-1. [`strings`]`.Join()` 関数のパフォーマンスは十分なので気軽に使ってよい
-1. 文字列連結に限るなら，もはや [`bytes`]`.Buffer` は有利とは言えない
+1. よほどの最適化が要求されない限り `[]byte` 配列への `append()` は [`strings`].`Builder` へ代替可能[^ts1]
+1. [`strings`].`Join()` 関数のパフォーマンスは十分なので気軽に使ってよい
+1. 文字列連結に限るなら，もはや [`bytes`].`Buffer` は有利とは言えない
 
 [^plus1]: リテラル文字列同士の連結はコンパイラが処理するので `+` 演算子で無問題。
-[^ts1]: 内部で `append()` 関数を使っていることから分かる通り [`strings`]`.Builder` のインスタンスはコピーして使えないので注意が必要である（インスタンスのポインタを渡せばOK）。当然ながら goroutine-safe ではないので複数の goroutine 間で共有できない。
+[^ts1]: 内部で `append()` 関数を使っていることから分かる通り [`strings`].`Builder` のインスタンスはコピーして使えないので注意が必要である（インスタンスのポインタを渡せばOK）。当然ながら goroutine-safe ではないので複数の goroutine 間で共有できない。
 
 といったところだろうか。
 

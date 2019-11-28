@@ -87,10 +87,10 @@ type Rand struct {
 }
 ```
 
-[`rand`]`.Source` および [`rand`]`.Source64` が interface 型である。
-[`rand`]`.Source64` は [`rand`]`.Source` を包含しているのがポイントである。
+[`rand`].`Source` および [`rand`].`Source64` が interface 型である。
+[`rand`].`Source64` は [`rand`].`Source` を包含しているのがポイントである。
 
-そして乱数生成器の生成は以下の [`rand`]`.New()` 関数で行う。
+そして乱数生成器の生成は以下の [`rand`].`New()` 関数で行う。
 
 ```go
 func New(src Source) *Rand {
@@ -100,9 +100,9 @@ func New(src Source) *Rand {
 ```
 
 引数の `src` には `Int63() int64` および `Seed(int64)` のメソッドを持つ型であればどんなインスタンスでも受け入れる。
-つまり [`rand`]`.New()` 関数で依存の注入（dependency injection）を行うわけだ。
+つまり [`rand`].`New()` 関数で依存の注入（dependency injection）を行うわけだ。
 
-また，この中の `src.(Source64)` の部分は型変換の構文で，引数の `src` を [`rand`]`.Source64` 型に変換して格納している。
+また，この中の `src.(Source64)` の部分は型変換の構文で，引数の `src` を [`rand`].`Source64` 型に変換して格納している。
 如何にも後付け臭い記述だが，これで `Uint64() uint64` メソッドがある型でもない型でも
 
 ```go

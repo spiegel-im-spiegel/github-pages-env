@@ -124,8 +124,8 @@ Title struct {
 
 ## 時刻情報の処理
 
-[`xml`]`.Unmarshal()` 関数には時刻情報を [`time`]`.Time` 型に変換するロジックは用意されていない（基本型ではないので当然だが）。
-したがって文字列から [`time`]`.Time` 型に変換するロジックを自前で組み込む必要がある。
+[`xml`].`Unmarshal()` 関数には時刻情報を [`time`].`Time` 型に変換するロジックは用意されていない（基本型ではないので当然だが）。
+したがって文字列から [`time`].`Time` 型に変換するロジックを自前で組み込む必要がある。
 
 今回はフォーマットが [RFC 3339] であることを前提に以下のようにした。
 
@@ -148,7 +148,7 @@ func (t *Time) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 }
 ```
 
-独自定義の `Time` 型が [`time`]`.Time` 型のラッパー・クラスになっている点に注目。
+独自定義の `Time` 型が [`time`].`Time` 型のラッパー・クラスになっている点に注目。
 この `Time` 型に `UnmarshalXML()` 関数を定義している。
 これで構造体の要素は以下のように記述できる。
 
@@ -156,7 +156,7 @@ func (t *Time) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 Date Time `xml:"http://purl.org/dc/terms/ date"`
 ```
 
-[`xml`]`.Unmarshal()` 関数は `Time` 型を解析するために `Time.UnmarshalXML()` 関数を呼び出すわけだ。
+[`xml`].`Unmarshal()` 関数は `Time` 型を解析するために `Time.UnmarshalXML()` 関数を呼び出すわけだ。
 encoding/[xml] パッケージでは `UnmarshalXML()` 関数は以下のように定義されている。
 
 ```go
@@ -165,9 +165,9 @@ type Unmarshaler interface {
 }
 ```
 
-[`xml`]`.Unmarshaler` インタフェースを持つ型であれば XML Unmarshalling 可能である[^marsh1]。
+[`xml`].`Unmarshaler` インタフェースを持つ型であれば XML Unmarshalling 可能である[^marsh1]。
 
-[^marsh1]: もちろん Marshalling 用の [`xml`]`.Marshaler` インタフェースも存在する。
+[^marsh1]: もちろん Marshalling 用の [`xml`].`Marshaler` インタフェースも存在する。
 
 ## サンプルコード
 
@@ -263,7 +263,7 @@ XML の Marshalling については機会があれば。
 
 ## 【おまけ】 xml.Unmarshal() 関数の中身
 
-余談だが [`xml`]`.Unmarshal()` 関数の中身は
+余談だが [`xml`].`Unmarshal()` 関数の中身は
 
 ```go
 func Unmarshal(data []byte, v interface{}) error {
@@ -273,8 +273,8 @@ func Unmarshal(data []byte, v interface{}) error {
 
 となっている。
 
-したがって入力がバイトデータであれば，わざわざ自前で Reader を作って [`xml`]`.NewDecoder()` を呼び出す必要はない。
-逆に入力が Reader であるなら [`xml`]`.NewDecoder()` で [`xml`]`.Decoder` を生成するほうがいいかもしれない。
+したがって入力がバイトデータであれば，わざわざ自前で Reader を作って [`xml`].`NewDecoder()` を呼び出す必要はない。
+逆に入力が Reader であるなら [`xml`].`NewDecoder()` で [`xml`].`Decoder` を生成するほうがいいかもしれない。
 状況で使い分けよう。
 
 ## ブックマーク

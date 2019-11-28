@@ -85,9 +85,9 @@ func main() {
 }
 ```
 
-[`blackfriday`]`.WithExtensions()` 関数および [`blackfriday`]`.WithRenderer()` 関数は [Functional Options パターン]({{< relref "functional-options-pattern.md" >}} "インスタンスの生成と Functional Options パターン")の応用で任意に設定できる。
+[`blackfriday`].`WithExtensions()` 関数および [`blackfriday`].`WithRenderer()` 関数は [Functional Options パターン]({{< relref "functional-options-pattern.md" >}} "インスタンスの生成と Functional Options パターン")の応用で任意に設定できる。
 
-v1.x 系に比べて HTML レンダリング・オプションの指定が面倒くさい感じになっているが，これは [`blackfriday`]`.Renderer` インタフェースに合わせた別のレンダリング・パッケージを使えるようにするためらしい。
+v1.x 系に比べて HTML レンダリング・オプションの指定が面倒くさい感じになっているが，これは [`blackfriday`].`Renderer` インタフェースに合わせた別のレンダリング・パッケージを使えるようにするためらしい。
 HTML 変換以外のレンダリング・パッケージとしては $\mathrm{\LaTeX}$ への変換パッケージがあるようだ。
 
 - [Ambrevar/blackfriday-latex: A LaTeX renderer for the Blackfriday Markdown Processor](https://github.com/Ambrevar/blackfriday-latex)
@@ -167,7 +167,7 @@ func renderWithGitHub(md []byte) ([]byte, error) {
 ### テンプレートを使ったページの出力
 
 `--page` オプションを使うと完全なページを出力する。
- [blackfriday] パッケージなら [`blackfriday`]`.CompletePage` フラグを付加することで完全なページを出力してくれるが，今回はテンプレートを使ってページを出力するようにした。
+ [blackfriday] パッケージなら [`blackfriday`].`CompletePage` フラグを付加することで完全なページを出力してくれるが，今回はテンプレートを使ってページを出力するようにした。
 
 [Go 言語]標準のテンプレートパッケージには [`text/template`] と [`html/template`] の2つがある。
 [`html/template`] は `<` や `>` などの特殊文字を適切に変換してくれるので良いのだが，今回は HTML テキストをまるっと埋め込むので（勝手に sanitizing されては困るので） [`text/template`] のほうを使うことにした。

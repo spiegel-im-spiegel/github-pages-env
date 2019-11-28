@@ -78,7 +78,7 @@ Hello Lua!
 
 ### lua.State の中身
 
-[`lua`]`.NewState()` 関数で生成される [`lua`]`.State` インスタンスの中身はこんな感じ。
+[`lua`].`NewState()` 関数で生成される [`lua`].`State` インスタンスの中身はこんな感じ。
 
 ```go
 // State is the central arbitrator of all Lua operations.
@@ -99,7 +99,7 @@ type State struct {
 }
 ```
 
-[`lua`]`.State.Output` に適切な Writer をセットすることで `print` 関数の出力先を変更できる（`nil` なら標準出力に出力する）。
+[`lua`].`State.Output` に適切な Writer をセットすることで `print` 関数の出力先を変更できる（`nil` なら標準出力に出力する）。
 
 ### モジュールの読み込み
 
@@ -112,7 +112,7 @@ err := l.Protect(func() {
 })
 ```
 
-[`lua`]`.State.Protect()` 関数は，関数の実行で panic が発生した際に panic を止めて error を返している。
+[`lua`].`State.Protect()` 関数は，関数の実行で panic が発生した際に panic を止めて error を返している。
 
 ```go
 // Protect calls f inside an error handler. Use when you need to use API functions that may "raise errors" outside of
@@ -153,7 +153,7 @@ if err := l.PCall(0, 0); err != nil {
 }
 ```
 
-[`lua`]`.State.PCall()` 関数は [`lua`]`.State.Call()` 関数をラップして panic 時の処理を加えている。
+[`lua`].`State.PCall()` 関数は [`lua`].`State.Call()` 関数をラップして panic 時の処理を加えている。
 
 ```go
 // PCall is exactly like Call, except instead of panicking when it encounters an error the
@@ -169,7 +169,7 @@ func (l *State) PCall(args, rtns int) (err error) {
 }
 ```
 
-[`lua`]`.State.LoadText()` 関数の代わりに [`lua`]`.State.LoadBinary()` 関数を使えばコンパイル済みのバイナリを読み込ませることもできるようだ。
+[`lua`].`State.LoadText()` 関数の代わりに [`lua`].`State.LoadBinary()` 関数を使えばコンパイル済みのバイナリを読み込ませることもできるようだ。
 
 ## [Lua] スクリプトファイルを読み込んで実行する
 

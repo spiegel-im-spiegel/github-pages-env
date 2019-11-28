@@ -101,8 +101,8 @@ $ go env GOENV
 ちなみに `$HOME/.config/` ディレクトリは [XDG Base Directory] でユーザごとにアプリケーション設定を格納するディレクトリとして規定されている。
 また `XDG_CONFIG_HOME` 環境変数が定義されている場合は，こちらの値が設定ディレクトリとして優先される。
 
-[Go] 1.13 からは [`os`]`.UserConfigDir()` 関数で [XDG Base Directory] に対応した設定ディレクトリを取得できる。
-[`os`]`.UserConfigDir()` 関数は他のプラットフォームにも対応していて，プラットフォームごとに適切なパスを返すようだ。
+[Go] 1.13 からは [`os`].`UserConfigDir()` 関数で [XDG Base Directory] に対応した設定ディレクトリを取得できる。
+[`os`].`UserConfigDir()` 関数は他のプラットフォームにも対応していて，プラットフォームごとに適切なパスを返すようだ。
 
 ```go
 // UserConfigDir returns the default root directory to use for user-specific
@@ -157,7 +157,7 @@ func UserConfigDir() (string, error) {
 }
 ```
 
-以前から [`os`]`.UserCacheDir()` 関数で [XDG Base Directory] 対応のキャッシュ・ディレクトリは取得可能だったが，これでまたひとつ対応が進んだわけだ。
+以前から [`os`].`UserCacheDir()` 関数で [XDG Base Directory] 対応のキャッシュ・ディレクトリは取得可能だったが，これでまたひとつ対応が進んだわけだ。
 
 [Go]: https://golang.org/ "The Go Programming Language"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
