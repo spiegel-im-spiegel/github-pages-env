@@ -112,7 +112,7 @@ deactivate B
 「メッセージ」となっているが必ずしも通信を行っているわけではなく，相手オブジェクトのメソッドを呼び出す場合もこのような記述になる。
 
 Object B のライフラインにある縦長の矩形は「実行仕様（execution specification）」と呼ばれるもので，その期間中に何らかの処理を行っていることを示す。
-[PlantUML] では `activate`/`deactivate` で指定可能（直前のメッセージがトリガとなる）。
+[PlantUML] では `activate` および `deactivate` の組み合わせで指定可能（直前のメッセージがトリガとなる）。
 Object B は Object A からのメッセージを受けて内部処理を行って結果を Object A に返しているわけやね。
 
 ### 非同期メッセージ（Asynchronous Message）
