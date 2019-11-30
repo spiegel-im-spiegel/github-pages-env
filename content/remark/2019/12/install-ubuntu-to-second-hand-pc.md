@@ -1,11 +1,10 @@
 +++
 title = "中古 PC に Ubuntu 環境を導入する"
-date =  "2019-11-30T22:57:22+09:00"
+date =  "2019-12-01T02:22:24+09:00"
 description = "ついカッとなってやった。反省はしない。"
 image = "/images/attention/kitten.jpg"
 tags = [ "ubuntu", "install", "tools", "gnupg", "ssh", "openssh", "git", "golang", "atom" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
