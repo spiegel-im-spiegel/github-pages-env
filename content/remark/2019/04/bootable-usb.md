@@ -53,14 +53,14 @@ USB メモリを挿してメニューから「ブータブルUSBの作成」を�
 [VirtualBox]: https://www.virtualbox.org/ "Oracle VM VirtualBox"
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%B7%E3%83%AA%E3%82%B3%E3%83%B3%E3%83%91%E3%83%AF%E3%83%BC-USB%E3%83%A1%E3%83%A2%E3%83%AA-%E4%BA%9C%E9%89%9B%E5%90%88%E9%87%91%E3%83%9C%E3%83%87%E3%82%A3-PS4%E5%8B%95%E4%BD%9C%E7%A2%BA%E8%AA%8D%E6%B8%88-SP032GBUF3J80V1TJA/dp/B01NBU1OS5?psc=1&SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01NBU1OS5"><img src="https://images-fe.ssl-images-amazon.com/images/I/317fsDSqG8L._SL160_.jpg" width="160" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B01NBU1OS5?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/317fsDSqG8L._SL160_.jpg" width="160" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%B7%E3%83%AA%E3%82%B3%E3%83%B3%E3%83%91%E3%83%AF%E3%83%BC-USB%E3%83%A1%E3%83%A2%E3%83%AA-%E4%BA%9C%E9%89%9B%E5%90%88%E9%87%91%E3%83%9C%E3%83%87%E3%82%A3-PS4%E5%8B%95%E4%BD%9C%E7%A2%BA%E8%AA%8D%E6%B8%88-SP032GBUF3J80V1TJA/dp/B01NBU1OS5?psc=1&SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01NBU1OS5">シリコンパワー USBメモリ 32GB USB3.0  亜鉛合金ボディ 防水 防塵 耐衝撃  永久保証 PS4動作確認済 Jewel J80 SP032GBUF3J80V1TJA</a></dt>
+    <dt><a href="https://www.amazon.co.jp/dp/B01NBU1OS5?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">シリコンパワー USBメモリ 32GB USB3.1 / USB3.0 亜鉛合金ボディ 防水 防塵 耐衝撃 永久保証 PS4動作確認済 Jewel J80 SP032GBUF3J80V1TJA</a></dt>
     <dd>シリコンパワー (Release 2017-02-01)</dd>
-    <dd>Personal Computer Personal Computers</dd>
-    <dd>ASIN: B01NBU1OS5, EAN: 4712702655292</dd>
+    <dd>Personal Computers</dd>
+    <dd>B01NBU1OS5 (ASIN), 4712702655292 (EAN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">OS 移行用に購入。ひたすらデザインで決めた（笑） よく考えたら32GBも要らなかった。まぁ，何か使い道があるだろう。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-04-21">2019-04-21</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-04-21">2019-04-21</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>
