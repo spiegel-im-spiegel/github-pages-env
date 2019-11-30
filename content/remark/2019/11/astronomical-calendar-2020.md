@@ -58,6 +58,8 @@ pageType = "text"
 最接近は10月6日。
 これに合わせて火星探査のミッションがいくつかある。
 
+- [MIT Tech Review: 生命の痕跡見つかるか？ マーズ2020着陸地に化石の可能性](https://www.technologyreview.jp/s/172428/the-landing-site-for-nasas-mars-2020-rover-might-be-home-to-fossilized-life/)
+
 5月22日頃に金星と水星が（見かけ上）接近する。
 水星の観測は（太陽に近い位置にあるので）なかなか難しいが，金星をガイドにして探せば見つけやすいかもしれない。
 

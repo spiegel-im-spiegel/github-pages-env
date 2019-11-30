@@ -30,6 +30,7 @@ pageType = "text"
     - [GPS Manipulation - Schneier on Security](https://www.schneier.com/blog/archives/2019/11/gps_manipulatio.html)
 - {{< pdf-file title="MANAGING RISK FROM TLS INSPECTION" link="https://media.defense.gov/2019/Nov/18/2002212783/-1/-1/0/MANAGING%20RISK%20FROM%20TLS%20INSPECTION_20191106.PDF" >}}
     - [The NSA Warns of TLS Inspection - Schneier on Security](https://www.schneier.com/blog/archives/2019/11/the_nsa_warns_o.html)
+    - [ブログ: NSAがTLS検査について警告](https://okuranagaimo.blogspot.com/2019/11/nsatls.html)
 - [人権NGOのAmnestyがFacebookとGoogleの事業モデルは「人権侵害」と批判  |  TechCrunch Japan](https://jp.techcrunch.com/2019/11/22/2019-11-21-amnesty-international-latest-to-slam-surveillance-giants-facebook-and-google-as-incompatible-with-human-rights/)
 - [Twitterの2要素認証、電話番号登録が不要に - Engadget 日本版](https://japanese.engadget.com/2019/11/22/twitter-2/)
 

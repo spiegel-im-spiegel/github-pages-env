@@ -127,3 +127,4 @@ title = "Go 言語に関するブックマーク（未整理分）"
 - [golangにおけるJSONPの解析 - Qiita](https://qiita.com/shohei-ojs/items/dcc24bf1928fff575838)
 - [[Go] レイヤードアーキテクチャの階層構造を守らないimportを警告するlinterを作った - My External Storage](https://budougumi0617.github.io/2019/10/18/launch-layer-for-the-layered-achitectures/)
 - [Go: ElasticSearch Clients Study Case - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-elasticsearch-clients-study-case-dbaee1e02c7)
+- [Go の標準パッケージにないシステムコールを使う - Qiita](https://qiita.com/navel3/items/2f464163cc0a07458bb1)

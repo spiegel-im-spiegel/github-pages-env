@@ -1,23 +1,12 @@
 +++
-date = "2015-09-15T21:00:13+09:00"
-update = "2017-12-17T08:37:00+09:00"
-description = "ATOM Editor に関するメモ。 Windows 環境が前提になっているのであしからず。"
-draft = false
-tags = ["atom", "editor", "tools"]
 title = "ATOM Editor に関するメモ"
+date = "2015-09-15T21:00:13+09:00"
+description = "ATOM Editor に関するメモ。 Windows 環境が前提になっているのであしからず。"
+tags = ["atom", "editor", "tools"]
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 この記事は [ATOM] エディタに関する情報を Qiita に投稿した記事から再構成したものである。

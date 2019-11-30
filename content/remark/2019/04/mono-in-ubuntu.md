@@ -105,7 +105,7 @@ $ sudo apt install keepass2
 
 ### 【追記 2019-04-20】 [Git Extensions] が落ちる
 
-[Ubuntu] を [19.04 にアップグレード]({{ ref "/remark/2019/04/upgrade-ubuntu-19_04.md" }} "Ubuntu 19.04 へのアップグレードを試す")したら [Git Extensions] が落ちるようになってしまった。
+[Ubuntu] を [19.04 にアップグレード]({{< ref "/remark/2019/04/upgrade-ubuntu-19_04.md" >}} "Ubuntu 19.04 へのアップグレードを試す")したら [Git Extensions] が落ちるようになってしまった。
 似た事例がないかと探してみたら `GitExtensions/Plugins/Bitbucket.dll` を削除したら行けるみたいな記述を見かけたので試してみたら上手く行ったっぽい？
 
 - [How to install GitExtensions in Ubuntu](https://www.codeofclimber.ru/2015/how-to-install-gitextensions-in-ubuntu/)

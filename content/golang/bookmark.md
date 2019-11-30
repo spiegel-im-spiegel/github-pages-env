@@ -337,6 +337,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [echoのAPIサーバ実装とエラーハンドリングの落とし穴 - Qiita](http://qiita.com/tienlen/items/5f2bcfe06eb83830ee55)
 - [Golangのエラー処理とpkg/errors | SOTA](http://deeeet.com/writing/2016/04/25/go-pkg-errors/)
     - [Golangでエラー時にスタックトレースを表示する - Qiita](http://qiita.com/deeeet/items/dacc71932393ab35d9f8)
+- [Ginのミドルウェアを使ったエラーハンドリング - Qiita](https://qiita.com/safu9/items/b8c94bb911cb0a39d5aa)
 
 ### Struct タグについて
 
