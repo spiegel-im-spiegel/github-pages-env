@@ -1,5 +1,5 @@
 +++
-title = "Hugo v0.60 より既定の Markdown パーサが Goldmark になったようだ"
+title = "Hugo v0.60 から既定の Markdown パーサが Goldmark になったようだ"
 date =  "2019-11-28T22:45:04+09:00"
 description = "今回の変更に伴い色々と変わった部分もあるので，覚え書きとして記しておく。"
 image = "/images/attention/tools.png"
@@ -15,6 +15,8 @@ pageType = "text"
 
 - [Release v0.60.0 · gohugoio/hugo · GitHub](https://github.com/gohugoio/hugo/releases/tag/v0.60.0)
     - [Now CommonMark Compliant! | Hugo](https://gohugo.io/news/0.60.0-relnotes/)
+- [Release v0.60.1 · gohugoio/hugo · GitHub](https://github.com/gohugoio/hugo/releases/tag/v0.60.1)
+    - [Hugo 0.60.1: A couple of Bug Fixes | Hugo](https://gohugo.io/news/0.60.1-relnotes/)
 
 [Hugo] v0.60 から既定の Markdown パーサが [yuin/goldmark] になったようだ。
 
