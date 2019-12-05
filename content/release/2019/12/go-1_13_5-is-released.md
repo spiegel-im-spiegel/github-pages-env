@@ -1,11 +1,10 @@
 +++
 title = "Go 1.13.5 がリリースされた"
-date =  "2019-12-05T20:04:28+09:00"
+date =  "2019-12-05T20:30:25+09:00"
 description = "メンテナンス・リリース。セキュリティ・アップデートはなし。"
 image = "/images/attention/go-logo_blue.png"
 tags  = [ "programming", "language", "golang", "ubuntu" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
