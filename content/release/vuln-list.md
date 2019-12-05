@@ -31,9 +31,10 @@ pageType = "text"
 GnuPG は [Ubuntu] 19.04 リリース時の 2.2.12 (libgcrypt 1.8.4) から動いていない。
 ちなみに [Ubuntu] 19.10 リリース時の公式版最新バージョンは 2.2.17 (libgcrypt 1.8.5) である。
 
-| Official | Release    | Ubuntu | Release |   delay |
-| --------:| ---------- | ------:| ------- | -------:|
-|   2.2.17 | 2019-07-09 |        |         | ∞ days |
+| Official | Release    |  Ubuntu | Release |   delay |
+| --------:| ---------- | -------:| ------- | -------:|
+|   2.2.18 | 2019-11-25 |         |         | ∞ days |
+|   2.2.17 | 2019-07-09 | &mdash; | &mdash; | &mdash; |
 
 ### Libgcrypt
 
@@ -43,6 +44,7 @@ GnuPG は [Ubuntu] 19.04 リリース時の 2.2.12 (libgcrypt 1.8.4) から動�
 
 ### ブックマーク
 
+- [GnuPG 2.2.18 リリース： さようなら SHA-1]({{< ref "/release/2019/11/gnupg-2_2_18-is-released.md" >}})
 - [Libgcrypt 1.8.5 がリリース【セキュリティ・アップデート】]({{< ref "/release/2019/08/libgcrypt-1_8_5-is-released.md" >}})
 - [GnuPG 2.2.17 リリース： 公開鍵サーバ・アクセスに関する過激な変更あり]({{< ref "/release/2019/07/gnupg-2_2_17-is-released.md" >}})
 
@@ -66,14 +68,15 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ## Firefox
 
-| Official | Release    |                       Ubuntu | Release    |  delay |
-| --------:| ---------- | ----------------------------:| ---------- | ------:|
-|   70.0.1 | 2019-10-31 | 70.0.1+build1-0 (USN-4165-2) | 2019-11-05 | 5 days |
-|     70.0 | 2019-10-22 |   70.0+build2-0 (USN-4165-1) | 2019-10-23 | 1 days |
-|   69.0.3 | 2019-10-10 |               (Ubuntu 19.10) | 2019-10-17 | 7 days |
+| Official | Release    |                     Ubuntu | Release    |   delay |
+| --------:| ---------- | --------------------------:| ---------- | -------:|
+|     71.0 | 2019-12-03 |                            |            | ∞ days |
+|     70.0 | 2019-10-22 | 70.0+build2-0 (USN-4165-1) | 2019-10-23 |  1 days |
+|   69.0.3 | 2019-10-10 |             (Ubuntu 19.10) | 2019-10-17 |  7 days |
 
 ### ブックマーク
 
+- [Firefox  71.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/71.0/releasenotes/)
 - [Firefox  70.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/70.0.1/releasenotes/)
 - [Firefox  70.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/70.0/releasenotes/)
 - [Firefox  69.0.3, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/69.0.3/releasenotes/)
@@ -84,7 +87,8 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 | Official | Release    |                       Ubuntu | Release    |   delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
-|   68.2.2 | 2019-11-07 |                              |            | ∞ days |
+|   68.2.3 | 2019-12-03 |                              |            | ∞ days |
+|   68.2.2 | 2019-11-07 |                      &mdash; | &mdash;    | &mdash; |
 |   68.2.1 | 2019-10-31 | 68.2.1+build1-0 (USN-4202-1) | 2019-11-26 | 4 weeks |
 |   68.2.0 | 2019-10-22 |                      &mdash; | &mdash;    | &mdash; |
 |   68.1.2 | 2019-10-10 |               (Ubuntu 19.10) | 2019-10-17 |  7 days |
@@ -94,6 +98,7 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (68.3.0) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.3.0/releasenotes/)
 - [Thunderbird — Release Notes (68.2.2) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.2.2/releasenotes/)
 - [Thunderbird — Release Notes (68.2.1) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.2.1/releasenotes/)
 - [Thunderbird — Release Notes (68.2.0) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.2.0/releasenotes/)
