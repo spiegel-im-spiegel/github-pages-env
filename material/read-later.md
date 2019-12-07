@@ -50,5 +50,6 @@
 - [“何者か”になりたい夜を抱きしめて｜ぼくは、平熱のまま熱狂したい｜宮崎智之 - 幻冬舎plus](https://www.gentosha.jp/article/14370/)
 - [ブログ: 50年前の気候モデルでも、地球温暖化を正確に予測](https://okuranagaimo.blogspot.com/2019/12/50.html)
 - [［速報］「The Amazon Builders' Library」発表。大規模分散システムの構築、運用などについて、Amazonが学んできたことをコンテンツとして公開。AWS re:Invent 2019 － Publickey](https://www.publickey1.jp/blog/19/the_amazon_builders_libraryamazonaws_reinvent_2019.html)
+- [「きちんと管理すれば企業は成長する」の迷信が企業を衰退させる〜ToMo指数の研究〜｜Yasuhiro Yoshizawa｜note](https://note.com/yasuyasu1976/n/n9cda73b08177)
 
 <!-- eof -->
