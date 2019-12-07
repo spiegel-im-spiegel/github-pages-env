@@ -21,6 +21,7 @@ pageType = "text"
 - [国内で相次ぐ不審メールの注意喚起と返信型Emotetについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/11/26/054443)
     - [Emotetの注意喚起に活用できそうなリンク集をまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/11/28/084852)
     - [標的型ランサムウェア被害企業が1年以上前からEmotetに感染していた可能性についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/11/29/082315)
+    - [「Emotet」と呼ばれるウイルスへの感染を狙うメールについて：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/announce/20191202.html)
 - [Twitter、「Twitter for Android」からユーザーの個人情報を窃取できてしまう問題を警告 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1220907.html)
 - [Mozilla、難読化されたコードを含む「Firefox」アドオンを“AMO”から削除 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1220777.html)
 - [退職したシステム管理者にデータ全削除された事案についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/11/27/064655)

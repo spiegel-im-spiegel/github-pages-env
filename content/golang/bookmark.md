@@ -233,6 +233,7 @@ title = "Go 言語に関するブックマーク"
 - [文字列をn個後ろにずらす処理を本気でやる - Qiita](https://qiita.com/smith_30/items/eec0ba2e4ec63fe879a0)
 - [Golangのmapとsliceはどちらが速いのか - 逆さまにした](https://cipepser.hatenablog.com/entry/go-map-slice)
 - [GitHub - imdario/mergo: Mergo: merging Go structs and maps since 2013.](https://github.com/imdario/mergo)
+- [Go理解度チェック - Google スライド](https://docs.google.com/presentation/d/1oqfPIEJlw1u0GStHPEJFMtq2FPFUGDVSgMW2sLsXZF8/mobilepresent#slide=id.g7a74c7c8ae_0_298)
 
 ### 入出力処理
 
@@ -709,6 +710,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [SSOサービスKeycloakとgolangのHTTPサーバを連携する - Qiita](https://qiita.com/myoshimi/items/8337aab1b17d89938be0)
 - [Go 言語のフレームワーク比較 - Qiita](https://qiita.com/inexp_eng4432/items/50d05262eb6ccbcfda1f)
 - [Go言語のnet/httpクライアントでリダイレクトをやめる - Qiita](https://qiita.com/daijuk/items/d5c52b780e90387f2390)
+- [ブラウザレンダリングの仕組み - Qiita](https://qiita.com/goemp/items/91dcc8b50d7a61ce98bc)
 
 ## 他サービスとの連携
 
@@ -846,6 +848,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [How a Go Program Compiles down to Machine Code - Better Programming - Medium](https://medium.com/better-programming/how-a-go-program-compiles-down-to-machine-code-e4532dc8b8ca)
 - [[発表資料] 第138回RITS技術交流会『なぜ私たちはGoを書くのか。今あらためて考えるGo言語の良さと実際』 - My External Storage](https://budougumi0617.github.io/2019/10/05/jrits-why-go-how-is-go/)
 - [Language and Locale Matching in Go - The Go Blog](https://blog.golang.org/matchlang)
+- [OWASP/Go-SCPを読んでセキュアプログラミングとGoを学ぶ - My External Storage](https://budougumi0617.github.io/2019/12/04/introduce_go-scp/)
 
 ### 他言語との比較もしくは移行
 
