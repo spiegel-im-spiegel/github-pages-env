@@ -56,6 +56,7 @@ Instagram は生年月日の情報を使ってユーザ統制を強化するら�
 ## ブックマーク
 
 - [Facebook はもう駄目か知らん]({{< ref "/remark/2019/03/withdrawal-from-facebook.md" >}})
+- [Flickr は監視資本主義に向かわない]({{< refr "/remark/2019/03/flickr-has-not-turned-to-surveillance-capitalism.md" >}})
 
 ## 参考図書
 
