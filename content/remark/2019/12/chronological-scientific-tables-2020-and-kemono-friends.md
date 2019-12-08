@@ -1,11 +1,10 @@
 +++
 title = "20年ぶりに買った「理科年表」は「けもフレ」とコラボしていた"
-date =  "2019-12-08T11:14:30+09:00"
+date =  "2019-12-08T14:21:25+09:00"
 description = "要するに丸善出版のロゴマークが「みみずく」なので博士と助手が抜擢されたらしい（笑）"
 image = "/images/attention/kitten.jpg"
 tags = [ "book", "science", "astronomy" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
