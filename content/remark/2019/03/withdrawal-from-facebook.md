@@ -105,6 +105,8 @@ Facabook のことは長い目で見て「付かず離れず」で行こうと�
 
 とりあえず，こんなところかな。
 
+- [もう Instagram はいいかな]({{< ref "/remark/2019/12/no-more-instagram.md" >}})
+
 ### Baldanders.info の Facebook ページは閉鎖します
 
 つか，閉鎖しました。
