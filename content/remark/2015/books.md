@@ -1,23 +1,12 @@
 +++
+title = "本を売りたいなら本屋である必然性がない，または「まだ本屋で消耗してるの？」"
 date = "2015-12-13T20:18:01+09:00"
 description = "はっきり言っちゃうけど，日本の書店システムは一度完全に解体したほうがいいんじゃないの？"
-draft = false
 tags = ["book", "market"]
-title = "本を売りたいなら本屋である必然性がない，または「まだ本屋で消耗してるの？」"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 - [書店に「生活提案」は可能か？ « マガジン航[kɔː]](http://magazine-k.jp/2015/12/13/no-concierge-for-bookstore/)
@@ -50,16 +39,14 @@ title = "本を売りたいなら本屋である必然性がない，または�
 でも，このままダラダラと成り行きに任せてたら三者共倒れだよ。
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%BE%E3%81%A8%E3%82%81%E8%B2%B7%E3%81%84-%E7%8A%AC%E3%81%A8%E3%83%8F%E3%82%B5%E3%83%9F%E3%81%AF%E4%BD%BF%E3%81%84%E3%82%88%E3%81%86/dp/B012Z14W64?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B012Z14W64"><img src="https://images-fe.ssl-images-amazon.com/images/I/C1%2BK8Ed3IkS._SL160_.png" width="160" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%81%BE%E3%81%A8%E3%82%81%E8%B2%B7%E3%81%84-%E7%8A%AC%E3%81%A8%E3%83%8F%E3%82%B5%E3%83%9F%E3%81%AF%E4%BD%BF%E3%81%84%E3%82%88%E3%81%86/dp/B012Z14W64?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B012Z14W64">[まとめ買い] 犬とハサミは使いよう</a></dt>
-	<dd>更伊 俊介, 鍋島 テツヒロ</dd>
-	<dd>鍋島 テツヒロ (イラスト)</dd>
+    <dt><a href="https://www.amazon.co.jp/dp/B012Z14W64?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">[まとめ買い] 犬とハサミは使いよう</a></dt>
+    <dd>更伊 俊介 (著), 鍋島 テツヒロ (著), 鍋島 テツヒロ (イラスト)</dd>
     <dd></dd>
-    <dd>Ebook Bundle Kindle版</dd>
-    <dd>ASIN: B012Z14W64</dd>
+    <dd>Kindle版</dd>
+    <dd>B012Z14W64 (ASIN)</dd>
     <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
   </dl>
   <p class="description">犬になっても本を読む！</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-04-26">2015-04-26</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-04-26">2015-04-26</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
 </div>

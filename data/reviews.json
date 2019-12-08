@@ -3602,13 +3602,19 @@
       "Type": "paapi",
       "ID": "4274202712",
       "Title": "気象がわかる数式入門",
-      "URL": "https://www.amazon.co.jp/%E6%B0%97%E8%B1%A1%E3%81%8C%E3%82%8F%E3%81%8B%E3%82%8B%E6%95%B0%E5%BC%8F%E5%85%A5%E9%96%80-%E4%BA%8C%E5%AE%AE-%E6%B4%B8%E4%B8%89/dp/4274202712?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4274202712",
+      "URL": "https://www.amazon.co.jp/dp/4274202712?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/4154nBSFWSL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/4154nBSFWSL._SL160_.jpg",
         "Height": 160,
         "Width": 114
       },
       "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "二宮 洸三",
+          "Role": "著"
+        }
+      ],
       "Publisher": "オーム社",
       "Codes": [
         {
@@ -3618,12 +3624,16 @@
         {
           "Name": "EAN",
           "Value": "9784274202711"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4274202712"
         }
       ],
       "PublicationDate": "2006-07-01",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -4755,14 +4765,20 @@
       "Type": "paapi",
       "ID": "B012Z14W64",
       "Title": "[まとめ買い] 犬とハサミは使いよう",
-      "URL": "https://www.amazon.co.jp/%E3%81%BE%E3%81%A8%E3%82%81%E8%B2%B7%E3%81%84-%E7%8A%AC%E3%81%A8%E3%83%8F%E3%82%B5%E3%83%9F%E3%81%AF%E4%BD%BF%E3%81%84%E3%82%88%E3%81%86/dp/B012Z14W64?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B012Z14W64",
+      "URL": "https://www.amazon.co.jp/dp/B012Z14W64?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/C1%2BK8Ed3IkS._SL160_.png",
-        "Height": 149,
-        "Width": 160
+        "URL": ""
       },
       "ProductType": "Kindle版",
       "Creators": [
+        {
+          "Name": "更伊 俊介",
+          "Role": "著"
+        },
+        {
+          "Name": "鍋島 テツヒロ",
+          "Role": "著"
+        },
         {
           "Name": "鍋島 テツヒロ",
           "Role": "イラスト"
@@ -4777,7 +4793,7 @@
       "PublicationDate": "",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -9118,5 +9134,56 @@
       true
     ],
     "Description": "天文ファン必携。2020年版。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4621304259",
+      "Title": "理科年表 2020",
+      "URL": "https://www.amazon.co.jp/dp/4621304259?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51bBPM6dbwL._SL160_.jpg",
+        "Height": 160,
+        "Width": 114
+      },
+      "ProductType": "文庫",
+      "Creators": [
+        {
+          "Name": "国立天文台",
+          "Role": "編集"
+        }
+      ],
+      "Publisher": "丸善出版",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4621304259"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784621304259"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4621304259"
+        }
+      ],
+      "PublicationDate": "2019-11-20",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2019-12-08",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "日本における令和への改元や国際単位系（SI）の定義改定などに関するトピックを多く掲載。2020年版は（保存用として）買いかも。"
   }
 ]
