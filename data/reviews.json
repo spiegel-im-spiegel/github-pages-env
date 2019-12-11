@@ -9185,5 +9185,67 @@
       false
     ],
     "Description": "日本における令和への改元や国際単位系（SI）の定義改定などに関するトピックを多く掲載。2020年版は（保存用として）買いかも。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B015SAFU42",
+      "Title": "イミテーション・ゲーム／エニグマと天才数学者の秘密(字幕版)",
+      "URL": "https://www.amazon.co.jp/dp/B015SAFU42?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51Xgkj7WNdL._SL160_.jpg",
+        "Height": 160,
+        "Width": 120
+      },
+      "ProductType": "Prime Video",
+      "Creators": [
+        {
+          "Name": "ベネディクト・カンバーバッチ",
+          "Role": "出演"
+        },
+        {
+          "Name": "キーラ・ナイトレイ",
+          "Role": "出演"
+        },
+        {
+          "Name": "マシュー・グード",
+          "Role": "出演"
+        },
+        {
+          "Name": "ロリー・キニア",
+          "Role": "出演"
+        },
+        {
+          "Name": "モルテン・ティルドゥム",
+          "Role": "監督"
+        },
+        {
+          "Name": "グラハム・ムーア",
+          "Role": "Writer"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B015SAFU42"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2015-10-02",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2019-12-11",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "主人公であるアラン・チューリングは今もなお「天才」と称される数学者であり，「コンピュータの父」と呼ばれるほどの偉人である。そしてチューリングの偉業のひとつが，旧ナチス・ドイツの暗号機械「エニグマ」の解読である。作品はそのエニグマの解読を主軸に物語を展開していく。感想は\u003ca href=\"https://baldanders.info/blog/000833/\"\u003eこちら\u003c/a\u003e。"
   }
 ]
