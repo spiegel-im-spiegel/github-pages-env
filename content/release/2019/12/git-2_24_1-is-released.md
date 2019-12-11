@@ -39,6 +39,8 @@ pageType = "text"
 [Ubuntu] の APT の標準リポジトリは最新版を提供してないが， [USN-4220-1](https://usn.ubuntu.com/4220-1/ "USN-4220-1: Git vulnerabilities | Ubuntu security notices") によると各バージョンの [git] でアップデートを行っているようだ。
 Ubuntu Git Maintainers が提供している [PPA] 版は， 2019-12-11 時点では，まだ v2.24.1 をリリースしていない。
 
+- [Git stable releases : “Ubuntu Git Maintainers” team](https://launchpad.net/~git-core/+archive/ubuntu/ppa)
+
 アップデートは計画的に。
 
 **以下は愚痴：** やっぱ Windows のサブシステムに Linux を入れるってのは筋が悪いよな。
@@ -49,8 +51,10 @@ Windows が心を入れ替えてファイルシステムを UNIX 互換に履き
 
 ## ブックマーク
 
-- [Git stable releases : “Ubuntu Git Maintainers” team](https://launchpad.net/~git-core/+archive/ubuntu/ppa)
+- [「Git」に複数の脆弱性、Windowsユーザーはとくに注意 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1223826.html)
+
 - [PPA から Git をインストールする]({{< ref "/remark/2019/04/install-git-from-ppa.md" >}})
+- [Ubuntu アプリケーションにおけるセキュリティ・アップデート一覧]({{< ref "/release/vuln-list.md" >}})
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [git]: https://git-scm.com/
