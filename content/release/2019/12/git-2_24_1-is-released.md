@@ -37,7 +37,7 @@ pageType = "text"
 - [Release Git for Windows 2.24.1(2) · git-for-windows/git · GitHub](https://github.com/git-for-windows/git/releases/tag/v2.24.1.windows.2)
 
 [Ubuntu] の APT の標準リポジトリは最新版を提供してないが， [USN-4220-1](https://usn.ubuntu.com/4220-1/ "USN-4220-1: Git vulnerabilities | Ubuntu security notices") によると各バージョンの [git] でアップデートを行っているようだ。
-Ubuntu Git Maintainers が提供している [PPA] 版は， 2019-12-11 時点では，まだ v2.24.1 をリリースしていない。
+なお Ubuntu Git Maintainers が提供している [PPA] 版では v2.24.1 がリリースされている（2019-12-11 追記）。
 
 - [Git stable releases : “Ubuntu Git Maintainers” team](https://launchpad.net/~git-core/+archive/ubuntu/ppa)
 
