@@ -93,7 +93,7 @@ For more examples and ideas, visit:
 
 おおっ，動いた！
 
-## dockar グループを追加する。
+## docker グループを追加する。
 
 上の実行例を見れば分かるが，インストール直後は `root` 以外のユーザには `docker` コマンドを動かす権限がない。
 ユーザ `username` に権限を付与するには `docker` グループを追加すればよい。
