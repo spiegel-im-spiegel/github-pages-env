@@ -95,7 +95,7 @@ export SSH_AUTH_SOCK="$(gpgconf --list-dirs agent-ssh-socket)"
 APT で基本ツールをインストールしておく。
 
 ```text
-$ sudo apt install net-tools curl kdiff3 graphviz vim
+$ sudo apt install net-tools curl kdiff3 graphviz vim xsel
 ```
 
 [ATOM] エディタで使いたいので [Inconsolata] フォントも入れておく。
