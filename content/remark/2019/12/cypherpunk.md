@@ -51,6 +51,18 @@ pageType = "text"
 そういう意味で，スティーブン・レビーの『[暗号化](https://www.amazon.co.jp/dp/4314009071?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)』はマジで必読書だと思うのだが，事実上の絶版だよねぇ。
 せめて Kindle 化してくれんものか。
 
+## ブックマーク
+
+- [MIT Tech Review: 米議会がアップル・FBにバックドア設置を要求、「法制化」脅しも](https://www.technologyreview.jp/nl/us-senators-on-encryption-back-doors-we-will-impose-our-will-on-apple-and-facebook/)
+
+{{< fig-quote type="md" title="Computer Crime Hype - Schneier on Security" link="https://www.schneier.com/blog/archives/2005/12/computer_crime_1.html" lang="en" >}}
+{{< quote >}}Beware the Four Horsemen of the Information Apocalypse: terrorists, drug dealers, kidnappers, and child pornographers. Seems like you can scare any public into allowing the government to do anything with those four.{{< /quote >}}
+{{< /fig-quote >}}
+
+{{< fig-quote type="md" title="Scaring People into Supporting Backdoors - Schneier on Security" link="https://www.schneier.com/blog/archives/2005/12/computer_crime_1.html" lang="en" >}}
+{{< quote >}}Since the terrorist attacks of 9/11, the US government has been pushing the terrorist scare story. Recently, it seems to have switched to pedophiles and child exploitation.{{< /quote >}}
+{{< /fig-quote >}}
+
 ## 参考図書
 
 <div class="hreview">

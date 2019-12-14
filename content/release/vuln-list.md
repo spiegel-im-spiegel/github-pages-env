@@ -117,28 +117,21 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 | Official | Release    |         Ubuntu | Release    |   delay |
 | --------:| ---------- | --------------:| ---------- | -------:|
-|    6.3.3 | 2019-10-31 |                |            | ∞ days |
+|    6.3.4 | 2019-12-12 |                |            | ∞ days |
+|    6.3.3 | 2019-10-31 |        &mdash; | &mdash;    | &mdash; |
 |    6.3.2 | 2019-09-26 | (Ubuntu 19.10) | 2019-10-17 | 3 weeks |
 |    6.3.1 | 2019-09-05 |        &mdash; | &mdash;    | &mdash; |
 |      6.3 | 2019-08-08 |        &mdash; | &mdash;    | &mdash; |
 
-| Official | Release    |               Ubuntu | Release    |   delay |
-| --------:| ---------- | --------------------:| ---------- | -------:|
-|    6.2.8 | 2019-10-17 |                      |            | ∞ days |
-|    6.2.7 | 2019-09-05 | 6.2.7-0 (USN-4138-1) | 2019-09-24 |  9 days |
-|    6.2.6 | 2019-08-14 | 6.2.6-0 (USN-4102-1) | 2019-08-19 |  5 days |
-|    6.2.5 | 2019-07-04 | 6.2.5-0 (USN-4063-1) | 2019-07-12 |  8 days |
-
-6.1 以前のバージョンは公式サポートから外れているため使うべきではない。
+6.2 以前のバージョンは公式サポートから外れているため使うべきではない。
 
 ### ブックマーク
 
+- [LibreOffice 6.3.4 available for download - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/12/12/libreoffice-6-3-4/)
 - [The Document Foundation releases LibreOffice 6.3.3 - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/10/31/tdf-releases-libreoffice-633/)
 - [LibreOffice 6.2.8 is available, the last release of the 6.2 family - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/10/17/libreoffice-628/)
 - [LibreOffice 6.3.1 and LibreOffice 6.2.7 announced, focusing on security - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/09/05/lo-6-3-1-and-lo-6-2-7-announced/)
 - [The Document Foundation announces LibreOffice 6.3 - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/08/08/tdf-announces-libreoffice-63/)
-- [The Document Foundation announces LibreOffice 6.2.5 - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/07/04/tdf-announces-libreoffice-625/)
-- [LibreOffice 6.2.6 is ready, all users should update for enhanced security - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/08/14/libreoffice-626/)
 
 - [Ubuntu に LibreOffice をインストールする3つの方法]({{< ref "/remark/2019/05/installing-libreoffice-in-ubuntu.md" >}})
 

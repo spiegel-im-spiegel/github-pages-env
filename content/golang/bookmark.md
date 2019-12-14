@@ -298,6 +298,8 @@ title = "Go 言語に関するブックマーク"
 - [Go の -race option は内部で何をしているのか。何を検知しないのか。 - Qiita](https://qiita.com/po3rin/items/18a6621f39e9a6f6f7c4)
 - [Achieving concurrency in Go - RunGo - Medium](https://medium.com/rungo/achieving-concurrency-in-go-3f84cbf870ca)
 - [Go: Goroutine, OS Thread and CPU Management - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-goroutine-os-thread-and-cpu-management-2f5a5eaf518a)
+- [Go: GOMAXPROCS & Live Updates - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-gomaxprocs-live-updates-407ad08624e1)
+- [Go: Goroutine and Preemption - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-goroutine-and-preemption-d6bc2aa2f4b7)
 
 Go 言語で複数 CPU を使った並列処理を行うには明示的な設定が必要。
 
