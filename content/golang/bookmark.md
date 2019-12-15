@@ -153,6 +153,7 @@ title = "Go 言語に関するブックマーク"
 - [C から Go へコードを移植してハマった話 (そして言語仕様へ) - Qiita](https://qiita.com/akif999/items/a94dd8a6fe29dda2b560)
 - [Go's Declaration Syntax - The Go Blog](https://blog.golang.org/gos-declaration-syntax)
 - [[Go] タグなし switchは switch true {...}と等しい - My External Storage](https://budougumi0617.github.io/2019/11/10/switch-statement-in-go/)
+- [Go の命名規則 | micnncim](https://micnncim.com/post/2019/12/11/go-naming-conventions/)
 
 ### オブジェクトに関すること
 
@@ -218,6 +219,7 @@ title = "Go 言語に関するブックマーク"
 - [String interpolation in Golang – Ly Channa – Medium](https://medium.com/@channaly/string-interpolation-in-golang-ecb3bcb2d600)
     - [Golang の文字列内で変数を展開する方法（各種） - Qiita](https://qiita.com/KEINOS/items/baef1be88f15515026ec)
 - [Big Sky :: Go で大文字小文字無視の文字列比較ベンチマーク](https://mattn.kaoriya.net/software/lang/go/20190806152526.htm)
+- [Go の strings.Index の内部実装と Rabin-Karp アルゴリズム - Qiita](https://qiita.com/po3rin/items/07d51249629390a6201a)
 
 ### 配列と [slice]
 
