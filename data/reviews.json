@@ -5368,9 +5368,9 @@
       "Type": "paapi",
       "ID": "4542503461",
       "Title": "組込み開発者におくるMISRA‐C:2004―C言語利用の高信頼化ガイド",
-      "URL": "https://www.amazon.co.jp/%E7%B5%84%E8%BE%BC%E3%81%BF%E9%96%8B%E7%99%BA%E8%80%85%E3%81%AB%E3%81%8A%E3%81%8F%E3%82%8BMISRA%E2%80%90C-2004%E2%80%95C%E8%A8%80%E8%AA%9E%E5%88%A9%E7%94%A8%E3%81%AE%E9%AB%98%E4%BF%A1%E9%A0%BC%E5%8C%96%E3%82%AC%E3%82%A4%E3%83%89-MISRA%E2%80%90C%E7%A0%94%E7%A9%B6%E4%BC%9A/dp/4542503461?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4542503461",
+      "URL": "https://www.amazon.co.jp/dp/4542503461?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51CAFNAdZPL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51CAFNAdZPL._SL160_.jpg",
         "Height": 160,
         "Width": 113
       },
@@ -5390,12 +5390,16 @@
         {
           "Name": "EAN",
           "Value": "9784542503465"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4542503461"
         }
       ],
-      "PublicationDate": "",
+      "PublicationDate": "2006-10-01",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },

@@ -1,23 +1,12 @@
 +++
+title = "コーディング規約の勘所（再掲載）"
 date = "2016-11-10T10:37:05+09:00"
 description = "なにせ10年も前の記事なので内容がだいぶ古いですし，実は私自身も当時からは考え方が少し変わってきています。でも責任分担やルール設計の考え方は今でも通じるものがあると思っています。"
-draft = true
 tags = ["programming", "managemanet"]
-title = "コーディング規約の勘所（再掲載）"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 これは[2006年に書いた記事](https://baldanders.info/blog/000195/ "[鏡] コーディング規約の勘所 -- 戯れ言++")を加筆・修正して再掲載したものです。
@@ -117,4 +106,4 @@ MISRA-C について解説した『組込み開発者におくるMISRA‐C―組
 
 いかがでしたでしょうか。 この記事が何かのお役に立てれば幸いです。 
 
-- [組込み開発者におくるMISRA‐C:2004―C言語利用の高信頼化ガイド : MISRA‐C研究会 : 本 : Amazon.co.jp](https://www.amazon.co.jp/%E7%B5%84%E8%BE%BC%E3%81%BF%E9%96%8B%E7%99%BA%E8%80%85%E3%81%AB%E3%81%8A%E3%81%8F%E3%82%8BMISRA%E2%80%90C-2004%E2%80%95C%E8%A8%80%E8%AA%9E%E5%88%A9%E7%94%A8%E3%81%AE%E9%AB%98%E4%BF%A1%E9%A0%BC%E5%8C%96%E3%82%AC%E3%82%A4%E3%83%89-MISRA%E2%80%90C%E7%A0%94%E7%A9%B6%E4%BC%9A/dp/4542503461)
+- [組込み開発者におくるMISRA‐C:2004―C言語利用の高信頼化ガイド : MISRA‐C研究会 : 本 : Amazon.co.jp](https://www.amazon.co.jp/dp/4542503461?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)
