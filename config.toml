@@ -1,7 +1,7 @@
-theme           = "baldanders-info"
-baseurl         = "https://text.baldanders.info/"
-title           = "text.Baldanders.info"
-languageCode    = "ja"
+theme = "baldanders-info"
+baseurl = "https://text.baldanders.info/"
+title = "text.Baldanders.info"
+languageCode = "ja"
 DefaultContentLanguage = "ja"
 preserveTaxonomyNames = false
 disqusShortname = "textbaldandersinfo"
