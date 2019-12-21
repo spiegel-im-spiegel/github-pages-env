@@ -1,10 +1,8 @@
 +++
-date = "2015-10-21T21:41:45+09:00"
-update = "2018-05-10T22:46:43+09:00"
-description = "このサイトの Web フォントまわりを整理したので，覚え書きとして残しておく。"
-draft = false
-tags = ["character", "font", "web", "google", "ipa", "site"]
 title = "Web フォントに関する覚え書き"
+description = "このサイトの Web フォントまわりを整理したので，覚え書きとして残しておく。"
+date = "2015-10-21T21:41:45+09:00"
+tags = ["character", "font", "web", "google", "ipa", "site"]
 
 [scripts]
   mathjax = false
@@ -258,5 +256,5 @@ CC License のアイコンは [Font Awesome] 5.0.11 以降に含まれた。
 
 ## 関連（するかもしれない）記事
 
-- [ちょこっと MathJax — Baldanders.info](https://baldanders.info/blog/000750/) : MathJax で数式用の Web フォントを使用可能
+- [ちょこっと MathJax]({{< ref "/remark/2017/09/getting-started-mathjax-1.md" >}}) : MathJax で数式用の Web フォントを使用可能
 - [Web フォントに関する覚え書き（明朝体編）]({{< ref "/remark/2016/10/japanese-serif-fonts-by-google-cdn.md" >}}) : 明朝体について追記している

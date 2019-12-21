@@ -1,24 +1,12 @@
 +++
-date = "2016-10-16T23:41:57+09:00"
-update = "2017-04-22T18:28:05+09:00"
 title = "Web フォントに関する覚え書き（明朝体編）"
 description = "最近 Google の Early Access のページを見たら随分と日本語の書体が増えている気がする。"
+date = "2016-10-16T23:41:57+09:00"
 tags = ["web", "font", "google", "character", "site"]
-draft = false
 
-[author]
-  name = "Spiegel"
-  instagram = "spiegel_2007"
-  twitter = "spiegel_2007"
-  tumblr = ""
-  facebook = "spiegel.im.spiegel"
-  license = "by-sa"
-  github = "spiegel-im-spiegel"
-  flickr = "spiegel"
-  url = "https://baldanders.info/profile/"
-  avatar = "/images/avatar.jpg"
-  linkedin = "spiegelimspiegel"
-  flattr = ""
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 以前，[ここで使っている Web フォントの話]({{< ref "/remark/2015/web-font-family.md" >}} "Web フォントに関する覚え書き")を書いた。
