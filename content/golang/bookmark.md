@@ -109,6 +109,10 @@ title = "Go 言語に関するブックマーク"
 - [スライドまとめ on Go 1.13 Release Party in Tokyo（非公式） - Qiita](https://qiita.com/usk81/items/b2803b47e658a905af98)
 - [Go1.13で導入されたsyscall/jsのjs.CopyBytesToGoとjs.CopyBytesToJSを試してみた - Qiita](https://qiita.com/neko-suki/items/a39dc56523b3d761621b)
 
+### Go 1.14 beta is released
+
+- [Go 1.14 Release Notes - The Go Programming Language](https://tip.golang.org/doc/go1.14)
+
 ### Go 2 Draft
 
 次期 Go 言語の仕様について（一部は 1.11, 1.12 に取り込まれている）
@@ -191,6 +195,7 @@ title = "Go 言語に関するブックマーク"
 
 - [Golang の 数値型 - Qiita](http://qiita.com/tanaka0325/items/9c61a022cd32be0c65a6)
 - [Go言語での初期化における&amp;とnewの挙動の違い - Qiita](https://qiita.com/wannabe/items/87200a2cfc62cd7859bb)
+- [Using Go Interfaces for Testable Code - The Startup - Medium](https://medium.com/swlh/using-go-interfaces-for-testable-code-d2e11b02dea)
 
 #### 文字列型と操作・変換
 

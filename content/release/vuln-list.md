@@ -17,6 +17,8 @@ pageType = "text"
 
 - [Ubuntu security notices](https://usn.ubuntu.com/)
 
+[Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
+
 ## [Ubuntu] ディストリビューションのリリース
 
 | Uistribution        | Release    |
@@ -33,7 +35,8 @@ GnuPG は [Ubuntu] 19.04 リリース時の 2.2.12 (libgcrypt 1.8.4) から動�
 
 | Official | Release    |  Ubuntu | Release |   delay |
 | --------:| ---------- | -------:| ------- | -------:|
-|   2.2.18 | 2019-11-25 |         |         | ∞ days |
+|   2.2.19 | 2019-12-07 |         |         | ∞ days |
+|   2.2.18 | 2019-11-25 | &mdash; | &mdash; | &mdash; |
 |   2.2.17 | 2019-07-09 | &mdash; | &mdash; | &mdash; |
 
 ### Libgcrypt
@@ -44,6 +47,7 @@ GnuPG は [Ubuntu] 19.04 リリース時の 2.2.12 (libgcrypt 1.8.4) から動�
 
 ### ブックマーク
 
+- [GnuPG 2.2.19 がリリースされた]({{< ref "/release/2019/12/gnupg-2_2_19-is-released.md" >}})
 - [GnuPG 2.2.18 リリース： さようなら SHA-1]({{< ref "/release/2019/11/gnupg-2_2_18-is-released.md" >}})
 - [Libgcrypt 1.8.5 がリリース【セキュリティ・アップデート】]({{< ref "/release/2019/08/libgcrypt-1_8_5-is-released.md" >}})
 - [GnuPG 2.2.17 リリース： 公開鍵サーバ・アクセスに関する過激な変更あり]({{< ref "/release/2019/07/gnupg-2_2_17-is-released.md" >}})
@@ -89,7 +93,8 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 | Official | Release    |                       Ubuntu | Release    |   delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
-|   68.3.0 | 2019-12-03 |                              |            | ∞ days |
+|   68.3.1 | 2019-12-16 |                              |            | ∞ days |
+|   68.3.0 | 2019-12-03 |                      &mdash; | &mdash;    | &mdash; |
 |   68.2.2 | 2019-11-07 | 68.2.2+build1-0 (USN-4202-2) | 2019-12-10 | 1 month |
 |   68.2.1 | 2019-10-31 | 68.2.1+build1-0 (USN-4202-1) | 2019-11-26 | 4 weeks |
 |   68.2.0 | 2019-10-22 |                      &mdash; | &mdash;    | &mdash; |
@@ -100,6 +105,7 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (68.3.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.3.1/releasenotes/)
 - [Thunderbird — Release Notes (68.3.0) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.3.0/releasenotes/)
 - [Thunderbird — Release Notes (68.2.2) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.2.2/releasenotes/)
 - [Thunderbird — Release Notes (68.2.1) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.2.1/releasenotes/)
@@ -144,11 +150,11 @@ Java というか [OpenJDK] のセキュリティ管理は LTS (Long Term Suppor
 
 [OpenJDK]: http://openjdk.java.net/
 
-| Official | Release    |                   Ubuntu | Release    |   delay |
-| --------:| ---------- | ------------------------:| ---------- | -------:|
-|   11.0.5 | 2019-10-15 |              11.0.5+10-0 | 2019-10-16 |  1 days |
-|   11.0.4 | 2019-07-16 | 11.0.4+11-1 (USN-4083-1) | 2019-07-31 | 15 days |
-|   11.0.3 | 2019-04-16 |  11.0.3+7-1 (USN-3975-1) | 2019-05-14 | 28 days |
+| Official | Release    |                   Ubuntu | Release    |    delay |
+| --------:| ---------- | ------------------------:| ---------- | --------:|
+|   11.0.5 | 2019-10-15 | 11.0.5+10-0 (USN-4223-1) | 2019-12-17 | 2 months |
+|   11.0.4 | 2019-07-16 | 11.0.4+11-1 (USN-4083-1) | 2019-07-31 |  15 days |
+|   11.0.3 | 2019-04-16 |  11.0.3+7-1 (USN-3975-1) | 2019-05-14 |  28 days |
 
 ### ブックマーク
 
@@ -158,5 +164,3 @@ Java というか [OpenJDK] のセキュリティ管理は LTS (Long Term Suppor
     - [USN-4083-1: OpenJDK 11 vulnerabilities | Ubuntu security notices](https://usn.ubuntu.com/4083-1/)
 
 - [結局 OpenJDK をインストールし直すことにした]({{< ref "/remark/2019/07/reinstalling-openjdk.md" >}})
-
-[Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
