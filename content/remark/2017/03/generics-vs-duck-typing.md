@@ -110,7 +110,7 @@ tags = ["golang", "object-oriented", "java", "design", "refactoring", "generics"
 
 ## ブックマーク
 
-- [Why Everyone Hates Go · npf.io](Why Everyone Hates Go · npf.io)
+- [Why Everyone Hates Go · npf.io](https://npf.io/2014/10/why-everyone-hates-go/)
     - [[翻訳]なんでGoってみんなに嫌われてるの？ - Qiita](http://qiita.com/hirokidaichi/items/adccebb41f77eaa6132f)
 - [Why Go? | Dave Cheney](https://dave.cheney.net/2017/03/20/why-go)
     - [[翻訳] Why Go? - Qiita](http://qiita.com/methane/items/b627f20457873a504638)
