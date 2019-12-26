@@ -10,7 +10,7 @@ tags = ["code", "politics", "declining-birth-rate"]
 +++
 
 この記事は2014年末に書いた[本家ブログ](https://baldanders.info/blog/)の記事「[「少子化」に関する覚え書き](https://baldanders.info/blog/000786/)」を再構成して掲載している。
-ちなみに015年までの合計特殊出生率は僅かに上昇傾向だった。
+ちなみに2015年までの合計特殊出生率は僅かに上昇傾向だった。
 この辺の話も追記している。
 
 1. [「少子化」とは]({{< relref "#about}" >}})
