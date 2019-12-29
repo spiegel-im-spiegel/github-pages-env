@@ -1,24 +1,9 @@
 +++
 title = "結局 Noto Serif JP を Web フォントとして導入した"
 date =  "2017-12-11T19:03:01+09:00"
-update =  "2019-01-07T16:14:23+09:00"
 description = "昨日の話で「Noto Serif の和文フォントが Web フォントで登場するまでは「さわらび明朝」で頑張る」と書いたばっかりなのに，日和りました。"
 image = "/images/attention/remark.jpg"
 tags        = [ "web", "site", "font", "character" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false
@@ -30,6 +15,16 @@ tags        = [ "web", "site", "font", "character" ]
 
 厳密には[本家サイト]の方に導入してその設定を丸々こっちにも適用した。
 ので，今回はその覚え書き。
+
+{{< div-box type="md" >}}
+**【2019-12-29 追記】**
+現在の [Google Fonts](https://www.google.com/fonts/) は日本語を含む各国語に正式対応している。
+
+- [Google Fonts が日本語に対応してた]({{< ref "/remark/2019/12/japanese-fonts-by-google-cdn.md" >}})
+
+このサイトも [Google Fonts](https://www.google.com/fonts/) に全面的に乗り換えた。
+したがってこの記事はもう有用ではないが「こんな時代もあったよね」って感じで残しておく。
+{{< /div-box >}}
 
 ## Noto Serif JP の取得
 

@@ -11,6 +11,15 @@ tags = ["character", "font", "web", "google", "ipa", "site"]
 
 このサイトの Web フォントまわりを整理したので，覚え書きとして残しておく。
 
+{{< div-box type="md" >}}
+**【2019-12-29 追記】**
+現在の [Google Fonts](https://www.google.com/fonts/) は日本語を含む各国語に正式対応している。
+
+- [Google Fonts が日本語に対応してた]({{< ref "/remark/2019/12/japanese-fonts-by-google-cdn.md" >}})
+
+なのでこの記事はもう有用ではないが「こんな時代もあったよね」って感じで残しておく。
+{{< /div-box >}}
+
 ## Google Noto Fonts
 
 このサイトの Web フォントを Google Noto Fonts で統一した[^a]。
@@ -257,4 +266,4 @@ CC License のアイコンは [Font Awesome] 5.0.11 以降に含まれた。
 ## 関連（するかもしれない）記事
 
 - [ちょこっと MathJax]({{< ref "/remark/2017/09/getting-started-mathjax-1.md" >}}) : MathJax で数式用の Web フォントを使用可能
-- [Web フォントに関する覚え書き（明朝体編）]({{< ref "/remark/2016/10/japanese-serif-fonts-by-google-cdn.md" >}}) : 明朝体について追記している
+- [Web フォントに関する覚え書き（明朝体編）]({{< ref "/remark/2016/10/japanese-serif-fonts-by-google-cdn.md" >}})

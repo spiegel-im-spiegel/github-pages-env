@@ -9,6 +9,15 @@ tags = ["web", "font", "google", "character", "site"]
   mermaidjs = false
 +++
 
+{{< div-box type="md" >}}
+**【2019-12-29 追記】**
+現在の [Google Fonts](https://www.google.com/fonts/) は日本語を含む各国語に正式対応している。
+
+- [Google Fonts が日本語に対応してた]({{< ref "/remark/2019/12/japanese-fonts-by-google-cdn.md" >}})
+
+なのでこの記事はもう有用ではないが「こんな時代もあったよね」って感じで残しておく。
+{{< /div-box >}}
+
 以前，[ここで使っている Web フォントの話]({{< ref "/remark/2015/web-font-family.md" >}} "Web フォントに関する覚え書き")を書いた。
 実は今まで日本語の Serif （明朝体）フォントがどうにも気に食わなかったのだが，最近 Google の Early Access のページを見たら随分と日本語の書体が増えている気がする。
 
