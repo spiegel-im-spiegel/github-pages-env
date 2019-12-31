@@ -1,0 +1,79 @@
++++
+title = "2020年の祝日休日"
+date =  "2020-01-01T06:51:58+09:00"
+description = "今年はオリンピックのせいで祝日が変則になっている。"
+image = "/images/attention/kitten.jpg"
+tags = [ "calendar" ]
+pageType = "text"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
++++
+
+みなさま，あけましておめでとうございます。
+年末ギリギリまでドタバタしてたので全然「明けた」気がしないけど，まぁ今年もよろしくお願いします。
+
+今年はオリンピックのク◯野郎のせいで祝日が変則になっている。
+そこで，覚え書きとして2020年の祝日休日について記しておく。
+ホンマ，面倒くさいったら...
+
+2020年の「国民の祝日」およびその他の休日は以下の通り[^hd1]。
+
+[^hd1]: 「国民の祝日」は休日となる。また「「国民の祝日」が日曜日に当たるときは、その日後においてその日に最も近い「国民の祝日」でない日を休日とする」（「国民の祝日に関する法律」より）。
+
+| 祝日休日名 | 日付            |
+| ----------------- | --------------- |
+| 元日              | 2020-01-01 (水) |
+| 成人の日          | 2020-01-13 (月) |
+| 建国記念の日      | 2020-02-11 (火) |
+| 天皇誕生日        | 2020-02-23 (日) |
+| 休日              | 2020-02-24 (月) |
+| 春分の日          | 2020-03-20 (金) |
+| 昭和の日          | 2020-04-29 (水) |
+| 憲法記念日        | 2020-05-03 (日) |
+| みどりの日        | 2020-05-04 (月) |
+| こどもの日        | 2020-05-05 (火) |
+| 休日              | 2020-05-06 (水) |
+| 海の日            | 2020-07-23 (木) |
+| スポーツの日      | 2020-07-24 (金) |
+| 山の日            | 2020-08-10 (月) |
+| 敬老の日          | 2020-09-21 (月) |
+| 秋分の日          | 2020-09-22 (火) |
+| 文化の日          | 2020-11-03 (火) |
+| 勤労感謝の日      | 2020-11-23 (月) |
+
+つまりオリンピック期間に寄せて海の日，山の日，スポーツの日が変更になっているわけやね[^hd2]。
+
+[^hd2]: 海の日は7月第3月曜日，山の日は8月11日，スポーツの日は10月第2月曜日が本来の日付。
+
+{{< fig-quote type="md" title="平成32（2020）年暦要項の発表 | 国立天文台(NAOJ)" link="https://www.nao.ac.jp/news/topics/2019/20190201-rekiyoko.html" >}}
+{{< quote >}}「国民の祝日に関する法律」が改正され、平成32年から「体育の日」は「スポーツの日」となります。また、平成32年に限り、「海の日」は7月23日に、「スポーツの日」は7月24日に、「山の日」は8月10日となります{{< /quote >}}
+{{< /fig-quote >}}
+
+おかげで10月は祝日がない `orz`
+
+ちなみに日本の祝日休日は毎年2月1日に国立天文台から翌年のものが発表される。
+したがって国立天文台の発表内容が正式である。
+ついでに言うと，祝日を含む暦象について[国立天文台から Google カレンダーのデータも公開](https://eco.mtk.nao.ac.jp/koyomi/ "国立天文台 天文情報センター 暦計算室")されているので，インポートしておくとよいだろう。
+
+## ブックマーク
+
+- [カレンダーに祝日を入れたいなら国立天文台へ行けばいいじゃない]({{< ref "/remark/2019/05/google-ephemeris.md" >}})
+- [2020年の主な暦象]({{< ref "/remark/2019/11/astronomical-calendar-2020.md" >}})
+
+## 参考図書
+
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4416719485?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41aDY33z67L._SL160_.jpg" width="112" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/dp/4416719485?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">天文年鑑 2020年版</a></dt>
+    <dd>天文年鑑 編集委員会 (編集)</dd>
+    <dd>誠文堂新光社 2019-11-20</dd>
+    <dd>単行本</dd>
+    <dd>4416719485 (ASIN), 9784416719480 (EAN), 4416719485 (ISBN)</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">天文ファン必携。2020年版。</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-11-23">2019-11-23</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
+</div>
