@@ -9251,5 +9251,102 @@
       false
     ],
     "Description": "主人公であるアラン・チューリングは今もなお「天才」と称される数学者であり，「コンピュータの父」と呼ばれるほどの偉人である。そしてチューリングの偉業のひとつが，旧ナチス・ドイツの暗号機械「エニグマ」の解読である。作品はそのエニグマの解読を主軸に物語を展開していく。感想は\u003ca href=\"https://baldanders.info/blog/000833/\"\u003eこちら\u003c/a\u003e。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00E6NPCBO",
+      "Title": "OUR DECADE",
+      "URL": "https://www.amazon.co.jp/dp/B00E6NPCBO?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51OEOdQe1dL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "Godiego",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "COLUMBIA",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00E6NPCBO"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2013-08-07",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-01-01",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "私が10代の頃にもっとも影響を受けたアルバムのひとつ。生物年齢的にも中二病まっしぐらだった私に深く刺さった「かっこいい」アルバムだったのだ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B012DZ1NUA",
+      "Title": "仮面ライダーディケイド",
+      "URL": "https://www.amazon.co.jp/dp/B012DZ1NUA?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/513xO0idqOL._SL160_.jpg",
+        "Height": 120,
+        "Width": 160
+      },
+      "ProductType": "Prime Video",
+      "Creators": [
+        {
+          "Name": "梶淳",
+          "Role": "プロデュース"
+        },
+        {
+          "Name": "白倉伸一郎",
+          "Role": "プロデュース"
+        },
+        {
+          "Name": "武部直美",
+          "Role": "プロデュース"
+        },
+        {
+          "Name": "和佐野健一",
+          "Role": "プロデュース"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B012DZ1NUA"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-01-01",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "今見ても謎の作品。井上正大の出世作（？）であの二眼レフ・トイカメラの出世作でもある（笑）"
   }
 ]
