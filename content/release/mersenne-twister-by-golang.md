@@ -32,8 +32,8 @@ Ruby などの一部のプログラミング言語では標準の疑似乱数生
 
 [spiegel-im-spiegel/mt] の特徴は以下の通り。
 
-- [math/rand] 互換で [`rand`].`Rand` のソースとして利用できる
-- goroutine-safe な構成にできる（[`mt`].`PRNG` 型を利用した場合）
+- [math/rand] 互換で [`rand`]`.Rand` のソースとして利用できる
+- goroutine-safe な構成にできる（[`mt`]`.PRNG` 型を利用した場合）
 
 ## mt/mt19937.Source の機能
 
@@ -76,7 +76,7 @@ fmt.Println(mt19937.NewSource(19650218).Uint64())
 
 ## [math/rand] と組み合わせる
 
-[`mt`]`/mt19937.Source` を [`rand`].`Rand` のソースとして利用するには以下のように記述すればよい。
+[`mt`]`/mt19937.Source` を [`rand`]`.Rand` のソースとして利用するには以下のように記述すればよい。
 
 ```go
 import (
@@ -91,12 +91,12 @@ fmt.Println(rand.New(mt19937.NewSource(19650218)).Uint64())
 //13735441942630277712
 ```
 
-これで [`rand`].`Rand` が提供するメソッドはすべて使える。
-ただし [`rand`].`Rand` も goroutine-safe ではないので，取り扱いにはやはり注意が必要である。
+これで [`rand`]`.Rand` が提供するメソッドはすべて使える。
+ただし [`rand`]`.Rand` も goroutine-safe ではないので，取り扱いにはやはり注意が必要である。
 
 ## mt.PRNG と組み合わせる
 
-[`mt`]`/mt19937.Source` 型を [`mt`].`PRNG` 型と組み合わせることで goroutine-safe な構成にできる。
+[`mt`]`/mt19937.Source` 型を [`mt`]`.PRNG` 型と組み合わせることで goroutine-safe な構成にできる。
 たとえばこんな感じに記述できる。
 
 {{< highlight go "hl_lines=13 19" >}}
@@ -126,12 +126,12 @@ func main() {
 }
 {{< /highlight >}}
 
-[`mt`].`PRNG` 型は [`mt`]`/mt19937.Source` のラッパーになっていて [`rand`].`Rand` と組み合わせることも可能だが， [`rand`].`Rand` の内部構造の問題で goroutine-safe にならない。
+[`mt`]`.PRNG` 型は [`mt`]`/mt19937.Source` のラッパーになっていて [`rand`]`.Rand` と組み合わせることも可能だが， [`rand`]`.Rand` の内部構造の問題で goroutine-safe にならない。
 ご注意を。
 
 ### io.Reader 互換の疑似乱数生成器
 
-[`mt`].`PRNG` のインスタンスから [`mt`].`Reader` 型のインスタンスを生成できる。
+[`mt`]`.PRNG` のインスタンスから [`mt`]`.Reader` 型のインスタンスを生成できる。
 こんな感じに記述できる。
 
 {{< highlight go "hl_lines=14 19 22" >}}
@@ -168,8 +168,8 @@ func main() {
 }
 {{< /highlight >}}
 
-[`mt`].`Reader` 型は [`io`].`Reader` インタフェースと互換性がある。
-また [`mt`].`Reader` インスタンスも goroutine-safe なので goroutine 間で共有可能である。
+[`mt`]`.Reader` 型は [`io`]`.Reader` インタフェースと互換性がある。
+また [`mt`]`.Reader` インスタンスも goroutine-safe なので goroutine 間で共有可能である。
 
 ## ライセンスについて
 

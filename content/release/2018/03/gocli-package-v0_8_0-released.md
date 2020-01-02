@@ -18,7 +18,7 @@ tags  = [ "golang", "package", "cli", "filepath" ]
 
 実は [mattn/jvgrep] を使ってみてディレクトリの再帰検索はなかなか便利なことに気づき，自分でも実装してみようと思ったのだ。
 
-[Go 言語]標準の [`filepath`].`Glob()` 関数はなかなか性能がよくて，パス検索に以下のワイルドカードが使える。
+[Go 言語]標準の [`filepath`]`.Glob()` 関数はなかなか性能がよくて，パス検索に以下のワイルドカードが使える。
 
 {{% fig-gen type="md" title="filepath - The Go Programming Language" link="https://golang.org/pkg/path/filepath/" lang="en" %}}
 ```
@@ -39,8 +39,8 @@ character-range:
 ```
 {{% /fig-gen %}}
 
-しかし，残念ながら Ruby の [`Dir`].`glob` にあるようなディレクトリの再帰検索（`**/`）は用意されていない。
-そこで今回  [`filepath`].`Glob()` と [`filepath`].`Walk()` を組み合わせる形で `file.Glob()` 関数を作ってみた。
+しかし，残念ながら Ruby の [`Dir`]`.glob` にあるようなディレクトリの再帰検索（`**/`）は用意されていない。
+そこで今回  [`filepath`]`.Glob()` と [`filepath`]`.Walk()` を組み合わせる形で `file.Glob()` 関数を作ってみた。
 
 こんなふうに使える。
 

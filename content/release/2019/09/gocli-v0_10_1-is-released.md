@@ -15,7 +15,7 @@ Go 言語用 CLI プログラミング支援パッケージ [`gocli`] v0.10.1 �
 
 - [Release v0.10.1 · spiegel-im-spiegel/gocli · GitHub](https://github.com/spiegel-im-spiegel/gocli/releases/tag/v0.10.1)
 
-実は『[改訂2版 みんなのGo言語](https://www.amazon.co.jp/exec/obidos/ASIN/B07VPSXF6N/baldandersinf-22/)』を読んで「そろそろ設定ファイルの置き場所を何とかしなくちゃ」と思ってこっそり [v0.10.0](https://github.com/spiegel-im-spiegel/gocli/releases/tag/v0.10.0 "Release v0.10.0 · spiegel-im-spiegel/gocli") をリリースしたのだが， [Go] 1.13 で [`os`].`UserConfigDir()` 関数が用意されているのを知って「もうこれでいいぢゃん」てな感じになり，書き直した。こんな感じに使える。
+実は『[改訂2版 みんなのGo言語](https://www.amazon.co.jp/exec/obidos/ASIN/B07VPSXF6N/baldandersinf-22/)』を読んで「そろそろ設定ファイルの置き場所を何とかしなくちゃ」と思ってこっそり [v0.10.0](https://github.com/spiegel-im-spiegel/gocli/releases/tag/v0.10.0 "Release v0.10.0 · spiegel-im-spiegel/gocli") をリリースしたのだが， [Go] 1.13 で [`os`]`.UserConfigDir()` 関数が用意されているのを知って「もうこれでいいぢゃん」てな感じになり，書き直した。こんな感じに使える。
 
 ```go
 package main
@@ -34,7 +34,7 @@ func main() {
 }
 ```
 
-書き直した結果 [`os`].`UserConfigDir()` 関数で取得したパスにアプリケーション名と設定ファイル名をくっ付けただけの簡単なお仕事になった（笑）
+書き直した結果 [`os`]`.UserConfigDir()` 関数で取得したパスにアプリケーション名と設定ファイル名をくっ付けただけの簡単なお仕事になった（笑）
 私は設定ファイルと CLI との連携に [spf13/viper] を使っているので，これで必要十分。
 
 [`gocli`] の使い方について詳しくは以下を参照のこと。

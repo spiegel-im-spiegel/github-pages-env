@@ -231,7 +231,7 @@ type Ui interface {
 [^li]: [spiegel-im-spiegel/gofacade] は [CC0](https://creativecommons.org/publicdomain/zero/1.0/) で公開している。個人的には実証コードの扱いなので，（著作権情報の書き換えも含めて）自由に利用して 構わない。
 
 まず，入出力の Context を定義するためのクラスとして `Context` 構造体を作った。
-中身は [`cli`].`BasicUi` 構造体を埋め込んでいるだけである[^ebd1]。
+中身は [`cli`]`.BasicUi` 構造体を埋め込んでいるだけである[^ebd1]。
 
 [^ebd1]: なんでこんな回りくどいことをしているかというと， [mitchellh/cli] パッケージをカプセル化したかったから。
 
@@ -255,8 +255,8 @@ type Facade struct {
 }
 ```
 
-`Facade` 構造体には [`cli`].`CommandFactory` のリストを含んでいる。
-このリストに [`cli`].`Command` インタフェースに適合するインスタンスを追加するための関数がこれ[^cl]。
+`Facade` 構造体には [`cli`]`.CommandFactory` のリストを含んでいる。
+このリストに [`cli`]`.Command` インタフェースに適合するインスタンスを追加するための関数がこれ[^cl]。
 
 [^cl]: [Go 言語]では関数は全て関数閉包（closure）として機能する。
 
@@ -380,9 +380,9 @@ type Context struct {
 }
 ```
 
-[`gofacade`].`Context` 構造体を埋め込みフィールドで定義しているのがお分かりだろうか。
-[`gofacade`].`Context` はさらに [`cli`].`BasicUi` 構造体を埋め込んでいる。
-また `Context` 構造体は [`cli`].`Command` インタフェースの特化クラスとして実装している。
+[`gofacade`]`.Context` 構造体を埋め込みフィールドで定義しているのがお分かりだろうか。
+[`gofacade`]`.Context` はさらに [`cli`]`.BasicUi` 構造体を埋め込んでいる。
+また `Context` 構造体は [`cli`]`.Command` インタフェースの特化クラスとして実装している。
 
 では，この `Context` 構造体を使ってアプリケーションの起動部分を書いてみよう。
 

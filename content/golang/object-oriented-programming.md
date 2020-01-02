@@ -100,7 +100,7 @@ func main() {
 [type] 宣言が使えるのは構造体だけではない。
 上述の基本型も [type] 宣言を使って型を再定義できる。
 
-たとえば，2つの時点間の時間を表す [`time`].`Duration` は以下のように定義されている。
+たとえば，2つの時点間の時間を表す [`time`]`.Duration` は以下のように定義されている。
 
 ```go
 type Duration int64
@@ -167,7 +167,7 @@ func main() {
 のようにインスタンスと関数をピリオドで連結して記述する[^pr]。
 
 [^call]: [Go 言語]の関数呼び出しにおいて引数の渡し方は基本的に「値渡し」である。詳しくは「[関数とポインタ]({{< relref "function-and-pointer.md" >}})」を参照のこと。
-[^pr]: ちなみに [`fmt`].`Print` などでは引数の型が `String()` を持っていることを期待し，この関数の出力結果をデフォルト書式にしている。したがって `fmt.Println(vertex)` と書いても同じ結果になる。
+[^pr]: ちなみに [`fmt`]`.Print` などでは引数の型が `String()` を持っていることを期待し，この関数の出力結果をデフォルト書式にしている。したがって `fmt.Println(vertex)` と書いても同じ結果になる。
 
 構造体そのものには関数を付与できない[^mt]。
 たとえば
@@ -253,12 +253,12 @@ type PathError struct {
 func (e *PathError) Error() string { return e.Op + " " + e.Path + ": " + e.Err.Error() }
 ```
 
-と定義される [`os`].`PathError` は [error] の一種である。
+と定義される [`os`]`.PathError` は [error] の一種である。
 
 [interface] も [type] 宣言で名前を付けることができ，他の型と同じように扱うことができる。
 さらに [interface] で定義した型は振る舞いのみで具体的な実装を含まないため，多態性を持たせた記述が可能になる[^if]。
 
-[^if]: たとえば `interface{}` と記述すればあらゆる型を含むことになる。これを利用して [`fmt`].`Print` は `func Print(a ...interface{}) (n int, err error) { ... }` と定義されている。
+[^if]: たとえば `interface{}` と記述すればあらゆる型を含むことになる。これを利用して [`fmt`]`.Print` は `func Print(a ...interface{}) (n int, err error) { ... }` と定義されている。
 
 ### 将来バージョンで総称型（generics）がサポートされるかも。
 
@@ -271,7 +271,7 @@ func (e *PathError) Error() string { return e.Op + " " + e.Path + ": " + e.Err.E
 もうひとつの汎化・特化の機能が型の埋め込み（embedding）である。
 構造体や [interface] には別の型を埋め込むことができる。
 
-たとえば [`io`].`ReadWriter` は以下のように `Reader` および `Writer` を埋め込んでいる。
+たとえば [`io`]`.ReadWriter` は以下のように `Reader` および `Writer` を埋め込んでいる。
 （このときの `Reader` および `Writer` を「埋め込みインタフェース（embedding interface）」と呼ぶ）
 
 ```go
@@ -297,7 +297,7 @@ type ReadWriter interface {
 これによって `ReadWriter` は `Read()` および `Write()` を自身の振る舞いのように扱うことができる。
 この場合も `ReadWriter` は `Reader` および `Writer` の一種であると見なすことができる。
 
-同様に [`bufio`].`ReadWriter` についても
+同様に [`bufio`]`.ReadWriter` についても
 
 ```go
 package bufio
@@ -317,7 +317,7 @@ func NewReadWriter(r *Reader, w *Writer) *ReadWriter {
 
 と実装されていて， [`bufio`] の `Reader` および `Writer` を埋め込み，これらの型の一種として実装されている。
 このときの `Reader` および `Writer` を「埋め込みフィールド（embedded field）」または「匿名フィールド（anonymous field）」と呼ぶ。
-[`bufio`].`ReadWriter` は [`io`].`ReadWriter` の一種として機能している点にも注目してほしい。
+[`bufio`]`.ReadWriter` は [`io`]`.ReadWriter` の一種として機能している点にも注目してほしい。
 
 ### 関数のオーバーライドと処理の委譲
 

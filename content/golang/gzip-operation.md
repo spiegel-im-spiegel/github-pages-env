@@ -40,7 +40,7 @@ func makeGzip(body string) []byte {
 ```
 
 ここで `gw.Close()` 関数を [defer] 指定すると返ってくるバイト列が不完全なデータになってしまう，という話。
-これは，[リンク先の記事]で指摘されている通り， [`gzip`].`Writer.Close()` 関数で gzip のフッタデータをフラッシュしているからである。
+これは，[リンク先の記事]で指摘されている通り， [`gzip`]`.Writer.Close()` 関数で gzip のフッタデータをフラッシュしているからである。
 
 {{< fig-quote title="gzip - The Go Programming Language" link="https://golang.org/pkg/compress/gzip/" lang="en" >}}
 <q>Close closes the Writer by flushing any unwritten data to the underlying io.Writer and writing the GZIP footer. It does not close the underlying io.Writer.</q>
@@ -48,7 +48,7 @@ func makeGzip(body string) []byte {
 
 つまり [defer] で指定した関数は return 後に駆動するため `b.Bytes()` 関数を呼び出した時点ではまだ不完全なデータということになる[^b1]。
 
-[^b1]: この挙動から分かるとおり， [`bytes`].`Buffer.Bytes()` 関数は，バッファの内容をそのまま返しているのではなく，内容のコピーを返している。
+[^b1]: この挙動から分かるとおり， [`bytes`]`.Buffer.Bytes()` 関数は，バッファの内容をそのまま返しているのではなく，内容のコピーを返している。
 
 ここでちょっと考える。
 
@@ -73,7 +73,7 @@ func makeGzip(dst io.Writer, content []byte) error {
 ```
 
 つまり圧縮データの書き込み先である `Writer` を引数で指定するのである。
-これなら生成した [`gzip`].`Writer.Close()` 関数を問題なく [defer] で指定できる。
+これなら生成した [`gzip`]`.Writer.Close()` 関数を問題なく [defer] で指定できる。
 
 これを踏まえて完全なコードは以下のようになる。
 
@@ -118,7 +118,7 @@ func main() {
 ```
 
 このコードでは圧縮データの書き込む先をファイルにしている。
-もちろん書き込み先を [`bytes`].`Buffer` に置き換えることもできる。
+もちろん書き込み先を [`bytes`]`.Buffer` に置き換えることもできる。
 このようにインスタンスの生存期間を意識することで [Go 言語]の得意なパターンに嵌めることが容易になる。
 
 ついでに対となる読み込み処理のコードも示しておこう。

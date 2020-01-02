@@ -19,8 +19,8 @@ pageType = "text"
 [Mersenne Twister] の [Go 言語]実装はいくつかあるのだが，やっぱ他人が作る道具は使いにくいよね，というわけで自分で書いてしまった（笑）
 [spiegel-im-spiegel/mt] の特徴は以下の通り。
 
-- [math/rand] 互換で [`rand`].`Rand` のソースとして利用できる
-- goroutine-safe な構成にできる（[`mt`].`PRNG` 型を利用した場合）
+- [math/rand] 互換で [`rand`]`.Rand` のソースとして利用できる
+- goroutine-safe な構成にできる（[`mt`]`.PRNG` 型を利用した場合）
 
 使い方は以下を参照のこと。
 
@@ -96,10 +96,10 @@ func BenchmarkRandomMT19917Locked(b *testing.B) {
 | ------------------------------ | ------------------------------------------- |
 | `BenchmarkRandomALFG`          | [math/rand] 標準アルゴリズム[^rnd1]         |
 | `BenchmarkRandomMT19917`       | [`mt`]`/mt19937` パッケージ                 |
-| `BenchmarkRandomALFGRand`      | [math/rand] （[`rand`].`Rand` ラッパ）      |
-| `BenchmarkRandomMT19917Rand`   | [`mt`]`/mt19937` （[`rand`].`Rand` ラッパ） |
+| `BenchmarkRandomALFGRand`      | [math/rand] （[`rand`]`.Rand` ラッパ）      |
+| `BenchmarkRandomMT19917Rand`   | [`mt`]`/mt19937` （[`rand`]`.Rand` ラッパ） |
 | `BenchmarkRandomALFGLocked`    | [math/rand] Sync バージョン                 |
-| `BenchmarkRandomMT19917Locked` | [`mt`]`/mt19937` ＋ [`mt`].`PRNG`           |
+| `BenchmarkRandomMT19917Locked` | [`mt`]`/mt19937` ＋ [`mt`]`.PRNG`           |
 
 [^rnd1]: [math/rand] パッケージに実装されている擬似乱数生成器は[ラグ付フィボナッチ法（Lagged Fibonacci Generator）のバリエーション](https://groups.google.com/forum/#!topic/golang-nuts/RZ1G3_cxMcM)らしい。
 

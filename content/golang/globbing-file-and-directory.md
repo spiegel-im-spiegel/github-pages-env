@@ -11,7 +11,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-[前回の記事]({{< relref "./walking-with-multi-core.md" >}} "saracen/walker で歩いてみる")を書いたあと，ちょっと思いついたので手遊びに [`filepath`].`Glob()` 関数の拡張版を書いてみた。
+[前回の記事]({{< relref "./walking-with-multi-core.md" >}} "saracen/walker で歩いてみる")を書いたあと，ちょっと思いついたので手遊びに [`filepath`]`.Glob()` 関数の拡張版を書いてみた。
 
 - [spiegel-im-spiegel/file: Extend filepath.Glob function](https://github.com/spiegel-im-spiegel/file)
 
@@ -75,7 +75,7 @@ Count: 6008
 ...
 ```
 
-もちろんオリジナルの [`filepath`].`Glob()` 関数の [syntax](https://golang.org/pkg/path/filepath/#Match "filepath - The Go Programming Language") も使える。
+もちろんオリジナルの [`filepath`]`.Glob()` 関数の [syntax](https://golang.org/pkg/path/filepath/#Match "filepath - The Go Programming Language") も使える。
 
 ```text
 $ go run work/sample.go "/usr/local/go/src/**/*.[ch]"

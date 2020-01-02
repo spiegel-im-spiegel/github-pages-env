@@ -92,7 +92,7 @@ an error instance:
 
 となり error の発生箇所が表示されるようになった。
 
-ちなみに [`xerrors`].`New()` 関数で生成される error インスタンスの構造は以下の通り。
+ちなみに [`xerrors`]`.New()` 関数で生成される error インスタンスの構造は以下の通り。
 
 ```go
 // errorString is a trivial implementation of error.
@@ -110,7 +110,7 @@ func New(text string) error {
 }
 ```
 
-`frame` フィールドに [`xerrors`].`New()` 関数の呼び出し情報が格納されているのが分かると思う。
+`frame` フィールドに [`xerrors`]`.New()` 関数の呼び出し情報が格納されているのが分かると思う。
 これでデバッグ作業がかなり楽になるだろう。
 
 ## Error の階層化{#wrap}
@@ -157,9 +157,9 @@ Result: Error in fileOpen("null.txt"): The system cannot find the file specified
 ```
 
 となる。
-パッと見は問題なさそうだが `fileOpen()` 関数が error を返す際に [`os`].`Open()` 関数が吐き出した error インスタンスが捨てられてしまうため，エラーの追跡が難しくなる。
+パッと見は問題なさそうだが `fileOpen()` 関数が error を返す際に [`os`]`.Open()` 関数が吐き出した error インスタンスが捨てられてしまうため，エラーの追跡が難しくなる。
 
-そこで [`xerrors`].`Errorf()` 関数を使って error のラッピングを行う。
+そこで [`xerrors`]`.Errorf()` 関数を使って error のラッピングを行う。
 コードはこんな感じ。
 
 {{< highlight go "hl_lines=7 15 17" >}}
@@ -196,10 +196,10 @@ func main() {
 }
 {{< /highlight  >}}
 
-少し解説すると [`xerrors`].`Errorf()` 関数の第1引数のフォーマット文字列の末尾が `": %w"` になっていて，かつ対応する値が error インタフェースを備えていれば [`xerrors`].`wrapError` 型のインスタンスを返す。
-ただの `"%w"` では [`xerrors`].`wrapError` 型を返さない点に注意[^wrap1]。
+少し解説すると [`xerrors`]`.Errorf()` 関数の第1引数のフォーマット文字列の末尾が `": %w"` になっていて，かつ対応する値が error インタフェースを備えていれば [`xerrors`]`.wrapError` 型のインスタンスを返す。
+ただの `"%w"` では [`xerrors`]`.wrapError` 型を返さない点に注意[^wrap1]。
 
-[^wrap1]: なんでこんなヘンテコな仕様になっているかというと Go 1.13 で  [`xerrors`].`Errorf()` 関数を  [`fmt`].`Errorf()` 関数に統合する予定があるからだそうだ。なお [`xerrors`].`Errorf()` 関数では error インスタンスをひとつしかラッピングできない。複数の error インスタンスをまとめてラッピングしたいなら独自の型（クラス）を定義する必要があるだろう。それでも独自型をフルスクラッチで組むよりは簡単だろうけど。
+[^wrap1]: なんでこんなヘンテコな仕様になっているかというと Go 1.13 で  [`xerrors`]`.Errorf()` 関数を  [`fmt`]`.Errorf()` 関数に統合する予定があるからだそうだ。なお [`xerrors`]`.Errorf()` 関数では error インスタンスをひとつしかラッピングできない。複数の error インスタンスをまとめてラッピングしたいなら独自の型（クラス）を定義する必要があるだろう。それでも独自型をフルスクラッチで組むよりは簡単だろうけど。
 
 このコードを実行すると以下のような結果になる。
 
@@ -213,8 +213,8 @@ Result: Error in fileOpen("null.txt"):
 
 error が連結され階層構造になっているのが分かると思う。
 
-error を階層化するためには [`xerrors`].`Wrapper` インタフェースを実装する必要がある。
-[`xerrors`].`Wrapper` インタフェースの定義は以下の通り。
+error を階層化するためには [`xerrors`]`.Wrapper` インタフェースを実装する必要がある。
+[`xerrors`]`.Wrapper` インタフェースの定義は以下の通り。
 
 ```go
 // A Wrapper provides context around another error.
@@ -229,7 +229,7 @@ UML で描くとこんな感じかな。
 
 {{< fig-img src="./wraperror.png" title="wraperror.png" link="./wraperror.puml" width="971" >}}
 
-ちなみに [`xerrors`].`wrapError` 型では以下のような実装になっている。
+ちなみに [`xerrors`]`.wrapError` 型では以下のような実装になっている。
 
 ```go
 type wrapError struct {
@@ -249,10 +249,10 @@ func (e *wrapError) Unwrap() error {
 
 ## Error の等値性{#is}
 
-上述した [`xerrors`].`Wrapper` インタフェースがなんの役に立つかというと error インスタンスの等値性（equality）をチェックするのに役立つのだ。
+上述した [`xerrors`]`.Wrapper` インタフェースがなんの役に立つかというと error インスタンスの等値性（equality）をチェックするのに役立つのだ。
 
-error インスタンスの等値性を調べるには [`xerrors`].`Is()` 関数を使う。
-[`xerrors`].`Is()` 関数の中身はこんな感じ。
+error インスタンスの等値性を調べるには [`xerrors`]`.Is()` 関数を使う。
+[`xerrors`]`.Is()` 関数の中身はこんな感じ。
 
 ```go
 // Is reports whether any error in err's chain matches target.
@@ -285,7 +285,7 @@ func Is(err, target error) bool {
 
 [^is1]: [Go 言語]では `==` は等値演算子（equality operator）だが error インスタンスはポインタ値で表すことが多く，その場合は `==` 演算子もポインタ値を比較することになり，実質的に error インスタンスの同一性（identity）を調べていることになる。 [Go 言語]の interface 型は変数がインスタンスそのものかインスタンスへの参照（ポインタ値）かを隠蔽してしまうため，等値か同一かを問題にする際には注意が必要である。
 
-先程のファイルをオープンするコードを [`xerrors`].`Is()` 関数を使って少し書き直してみよう。
+先程のファイルをオープンするコードを [`xerrors`]`.Is()` 関数を使って少し書き直してみよう。
 
 {{< highlight go "hl_lines=28-32" >}}
 package main
@@ -335,8 +335,8 @@ Result: ファイルが存在しない。
 
 ## 階層化された Error を検索する{#as}
 
- [`xerrors`].`As()` 関数を使うと階層化された Error の中から指定した型の error インスタンスを抽出できる。
- これも [`xerrors`].`Wrapper` インタフェースが実装されていることが前提となる。
+ [`xerrors`]`.As()` 関数を使うと階層化された Error の中から指定した型の error インスタンスを抽出できる。
+ これも [`xerrors`]`.Wrapper` インタフェースが実装されていることが前提となる。
 
 ```go
 // As finds the first error in err's chain that matches the type to which target
@@ -379,7 +379,7 @@ var errorType = reflect.TypeOf((*error)(nil)).Elem()
 
 “[Error Inspection](https://go.googlesource.com/proposal/+/master/design/go2draft-error-inspection.md)” では総称型（Generics）を前提とした実装が提案されていたが，まだ[総称型は実現されていない]({{< relref "./generics-in-go-2.md" >}} "次期 Go 言語で導入される（かもしれない）総称型について予習する")ので，ちょっとアレな感じがするのは致し方ない（笑）
 
-[`xerrors`].`As()` 関数を使ってコードを書き直してみよう。
+[`xerrors`]`.As()` 関数を使ってコードを書き直してみよう。
 
 {{< highlight go "hl_lines=28-38" >}}
 package main
@@ -436,7 +436,7 @@ Result: ファイルが存在しない。
 ## 独自の階層化 error 型を作成する{#custom}
 
 ここまで分かったので，次は [`xerrors`] 互換の階層化 error 型を自作してみよう。
-具体的には [`os`].`PathError` をカスタマイズした型を書いてみる。
+具体的には [`os`]`.PathError` をカスタマイズした型を書いてみる。
 
 ```go
 type CustomPathError struct {
@@ -465,10 +465,10 @@ func (e *CustomPathError) FormatError(p xerrors.Printer) error {
 }
 ```
 
-`CustomPathError` が [`os`].`PathError` の階層化 error 版で，これに `Error()`, `Unwrap()`, `Format()`, `FormatError()` の各関数が実装されている。
-`Format()` および `FormatError()` 関数は [`xerrors`].`Formatter` および [`fmt`].`Formatter` インタフェースの実装で [`fmt`].`Printf()` などの関数で呼び出される。
+`CustomPathError` が [`os`]`.PathError` の階層化 error 版で，これに `Error()`, `Unwrap()`, `Format()`, `FormatError()` の各関数が実装されている。
+`Format()` および `FormatError()` 関数は [`xerrors`]`.Formatter` および [`fmt`]`.Formatter` インタフェースの実装で [`fmt`]`.Printf()` などの関数で呼び出される。
 
-[`fmt`].`Formatter` は以下のように定義されている。
+[`fmt`]`.Formatter` は以下のように定義されている。
 
 ```go
 // Formatter is the interface implemented by values with a custom formatter.
@@ -479,7 +479,7 @@ type Formatter interface {
 }
 ```
 
-また [`xerrors`].`Formatter` は以下のように定義されている。
+また [`xerrors`]`.Formatter` は以下のように定義されている。
 
 ```go
 // A Formatter formats error messages.
@@ -496,7 +496,7 @@ type Formatter interface {
 
 {{< fig-img src="./custumerror.png" title="custumerror.png" link="./custumerror.puml" width="1912" >}}
 
-この `CustomPathError` を使って [`os`].`Open()` 関数の返り値の error をラップする。
+この `CustomPathError` を使って [`os`]`.Open()` 関数の返り値の error をラップする。
 
 ```go
 func OpenWrapper(name string) (*os.File, error) {

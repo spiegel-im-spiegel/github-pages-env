@@ -22,7 +22,7 @@ if strings.ToLower(left) == strings.ToLower(right) {
 という指摘があった。
 いや，もの知らずでゴメンペコン。
 
-[`strings`].`EqualFold()` 関数ってなんじゃら？ と思ってソースコードを見たら
+[`strings`]`.EqualFold()` 関数ってなんじゃら？ と思ってソースコードを見たら
 
 ```go
 // EqualFold reports whether s and t, interpreted as UTF-8 strings,
@@ -80,7 +80,7 @@ go == ｇｏ : false
 全角と半角は区別してくれるらしい。
 Unicode の文字種をきちんと判別しているということだ。
 
-ちなみに [`strings`].`ToLower()` 関数を使って
+ちなみに [`strings`]`.ToLower()` 関数を使って
 
 ```go {hl_lines=[14]}
 package main
@@ -104,7 +104,7 @@ func main() {
 
 とやっても同じ結果になる。
 
-[`strings`].`EqualFold()` 関数と [`strings`].`ToLower()` 関数でどっちが速いかなんてのは考えるまでもないのだが，いちおう試しておこう。
+[`strings`]`.EqualFold()` 関数と [`strings`]`.ToLower()` 関数でどっちが速いかなんてのは考えるまでもないのだが，いちおう試しておこう。
 こんな感じのコードでいいかな。
 
 ```go {hl_lines=[18, 32, 46]}
@@ -190,7 +190,7 @@ ok  	sample	4.748s
 `BenchmarkEqualCase` と `BenchmarkEqualFold` の比較では `BenchmarkEqualFold` のほうが10倍の時間がかかっているが，それよりも `BenchmarkEqualLower` の処理のほうが圧倒的に遅いことが分かる。
 まぁメモリ・アロケーションが絡むとねぇ。
 
-というわけで，大文字小文字を無視した文字列比較では素直に [`strings`].`EqualFold()` 関数を使いましょう，という話でした。
+というわけで，大文字小文字を無視した文字列比較では素直に [`strings`]`.EqualFold()` 関数を使いましょう，という話でした。
 
 ## 【付録】 “NUL” 文字の比較
 
@@ -206,7 +206,7 @@ func isDevNull3(name string) bool {
 }
 ```
 
- [`strings`].`EqualFold()` 関数を使うよう書き換えてみる。
+ [`strings`]`.EqualFold()` 関数を使うよう書き換えてみる。
 
  ```go {hl_lines=[2]}
  func isDevNull3(name string) bool {

@@ -90,7 +90,7 @@ func (l *Logger) Output(calldepth int, s string) error {
 }
 ```
 
-ログ出力時は [`log`].`Logger` 内部のバッファを使って整形するため，複数の [goroutine] から非同期に呼ばれる可能性を考慮し， [`sync`].`Mutex` を使って排他的に処理している。
+ログ出力時は [`log`]`.Logger` 内部のバッファを使って整形するため，複数の [goroutine] から非同期に呼ばれる可能性を考慮し， [`sync`]`.Mutex` を使って排他的に処理している。
 
 ## Log のカスタマイズ
 
@@ -120,7 +120,7 @@ func main() {
 [Hello] 2009/11/10 23:00:00.000000 main.go:13: Hello, World
 ```
 
-また [`log`].`New()` 関数で新たな [`log`].`Logger` インスタンスを作成することもできる。
+また [`log`]`.New()` 関数で新たな [`log`]`.Logger` インスタンスを作成することもできる。
 
 ```go
 package main
@@ -153,7 +153,7 @@ func main() {
 
 - [hashicorp/logutils: Utilities for slightly better logging in Go (Golang).](https://github.com/hashicorp/logutils)
 
-これは [`log`].`Logger` インスタンスにセットする Writer をラップしてフィルタリング機能を付加するものである。
+これは [`log`]`.Logger` インスタンスにセットする Writer をラップしてフィルタリング機能を付加するものである。
 こんな感じで使うらしい。
 
 ```go
@@ -194,12 +194,12 @@ func main() {
 
 ### Logger に渡す前にフィルタリングする
 
-[hashicorp/logutils] は Writer への書き込み時にフィルタリングを行うものだったが，別のアプローチで [`log`].`Logger` に渡す前にフィルタリングすることを考えてみる。
+[hashicorp/logutils] は Writer への書き込み時にフィルタリングを行うものだったが，別のアプローチで [`log`]`.Logger` に渡す前にフィルタリングすることを考えてみる。
 というわけで作ってみた。
 
 - [spiegel-im-spiegel/logf: Simple logging package by Golang](https://github.com/spiegel-im-spiegel/logf)
 
-[`logf`].`Logger` はこんな感じで [`log`].`Logger` インスタンス（へのポインタ）を内部に持つ。
+[`logf`]`.Logger` はこんな感じで [`log`]`.Logger` インスタンス（へのポインタ）を内部に持つ。
 
 ```go
 //Logger is logger class

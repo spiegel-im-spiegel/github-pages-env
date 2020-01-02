@@ -119,7 +119,7 @@ func main() {
 }
 {{< /highlight >}}
 
-ちなみに [`fmt`].`Stringer` 型は以下に定義される interface 型である。
+ちなみに [`fmt`]`.Stringer` 型は以下に定義される interface 型である。
 
 ```go
 type Stringer interface {

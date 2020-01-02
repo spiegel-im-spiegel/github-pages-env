@@ -56,7 +56,7 @@ func main() {
 }
 ```
 
-[`openbd`].`Client.LookupBooksRaw()` 関数は，引数に複数の ISBN を指定することが可能で [openBD] から取得した結果（JSON 形式）をそのまま返す。
+[`openbd`]`.Client.LookupBooksRaw()` 関数は，引数に複数の ISBN を指定することが可能で [openBD] から取得した結果（JSON 形式）をそのまま返す。
 
 ```text
 $ go run sample.go | jq .
@@ -257,13 +257,13 @@ $ go run sample.go | jq .
 ]
 ```
 
-[`openbd`].`Client.LookupBooks()` 関数を使うと結果を [`openbd`].`Book` 構造体の配列で返す。
+[`openbd`]`.Client.LookupBooks()` 関数を使うと結果を [`openbd`]`.Book` 構造体の配列で返す。
 
 ```go
 books, err := openbd.DefaultClient().LookupBooks([]string{"9784274069321"})
 ```
 
-[`openbd`].`Book` 構造体の構成は以下の通り。
+[`openbd`]`.Book` 構造体の構成は以下の通り。
 
 ```go
 //Book is entity class of book info.
@@ -439,29 +439,29 @@ type Summary struct {
 }
 ```
 
-[`openbd`].`Book` 構造体はこのままでは使い辛いので以下のヘルパ関数を用意した。
+[`openbd`]`.Book` 構造体はこのままでは使い辛いので以下のヘルパ関数を用意した。
 引数がないのでテンプレートでは値のように扱うことができる。
 
-- [`openbd`].`Book.IsValid() bool`
-- [`openbd`].`Book.Id() string`
-- [`openbd`].`Book.ISBN() string`
-- [`openbd`].`Book.Title() string`
-- [`openbd`].`Book.SubTitle() string` : 現在は空文字列のみ返す
-- [`openbd`].`Book.SeriesTitle() string`
-- [`openbd`].`Book.Label() string`
-- [`openbd`].`Book.ImageURL() string`
-- [`openbd`].`Book.Authors() []string`
-- [`openbd`].`Book.Publisher() string`
-- [`openbd`].`Book.PublicationDate()` [`openbd`].`Date` 
-- [`openbd`].`Book.Description() string`
+- [`openbd`]`.Book.IsValid() bool`
+- [`openbd`]`.Book.Id() string`
+- [`openbd`]`.Book.ISBN() string`
+- [`openbd`]`.Book.Title() string`
+- [`openbd`]`.Book.SubTitle() string` : 現在は空文字列のみ返す
+- [`openbd`]`.Book.SeriesTitle() string`
+- [`openbd`]`.Book.Label() string`
+- [`openbd`]`.Book.ImageURL() string`
+- [`openbd`]`.Book.Authors() []string`
+- [`openbd`]`.Book.Publisher() string`
+- [`openbd`]`.Book.PublicationDate()` [`openbd`]`.Date` 
+- [`openbd`]`.Book.Description() string`
 
 ## Server および Client インスタンスの生成
 
-[`openbd`].`Client` インスタンスの生成は [`openbd`].`DefaultClient()` 関数で簡単に行えるが，もう少し細かい制御もできる。
+[`openbd`]`.Client` インスタンスの生成は [`openbd`]`.DefaultClient()` 関数で簡単に行えるが，もう少し細かい制御もできる。
 
 ### [openBD] サーバを指定する
 
-[`openbd`].`New()` 関数で [`openbd`].`Server` インスタンスを生成できるが，引数としてサーバを指定できる。
+[`openbd`]`.New()` 関数で [`openbd`]`.Server` インスタンスを生成できるが，引数としてサーバを指定できる。
 
 ```go
 server := openbd.New(
@@ -474,7 +474,7 @@ server := openbd.New(
 
 ### context.Context および http.Client を指定する
 
-[`openbd`].`Server.CreateClient()` 関数により [`openbd`].`Client` インスタンスを生成できるが，引数として `context.Context` および `http.Client` インスタンスを指定する。
+[`openbd`]`.Server.CreateClient()` 関数により [`openbd`]`.Client` インスタンスを生成できるが，引数として `context.Context` および `http.Client` インスタンスを指定する。
 
 ```go
 client := openbd.New(
@@ -486,7 +486,7 @@ client := openbd.New(
 )
 ```
 
-ちなみに [`openbd`].`DefaultClient()` 関数は以下の記述と同等である。
+ちなみに [`openbd`]`.DefaultClient()` 関数は以下の記述と同等である。
 
 ```go
 client := openbd.New(

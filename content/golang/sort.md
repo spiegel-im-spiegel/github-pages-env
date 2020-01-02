@@ -24,7 +24,7 @@ tags = ["golang", "programming", "sort"]
 
 たとえば `{0.055, 0.815, 1.0, 0.107}` というデータ列があるとしよう。
 これを昇順（小さい値から大きい値へ順に並べること）で並べることを考える。
-この場合は [`sort`].`Float64s()` 関数を使えば簡単である。
+この場合は [`sort`]`.Float64s()` 関数を使えば簡単である。
 コードにするとこんな感じ。
 
 ```go
@@ -80,13 +80,13 @@ func main() {
 }
 ```
 
-まず [`sort`].`Float64Slice` は `[]float64` を示す型である。
+まず [`sort`]`.Float64Slice` は `[]float64` を示す型である。
 
 ```go
 type Float64Slice []float64
 ```
 
-この型が示すデータ集合を [`sort`].`Sort()` 関数で並べ替えるのだが，並べ替えの規則を [`sort`].`Reverse()` 関数で反転させている。
+この型が示すデータ集合を [`sort`]`.Sort()` 関数で並べ替えるのだが，並べ替えの規則を [`sort`]`.Reverse()` 関数で反転させている。
 実行結果はこんな感じでちゃんと降順になっているのが分かるだろう。
 
 ```text
@@ -95,14 +95,14 @@ $ go run sort2.go
 1.000000 0.815000 0.107000 0.055000
 ```
 
-実は最初に出た [`sort`].`Float64s()` 関数は内部で [`sort`].`Sort()` 関数を呼んでいる。
+実は最初に出た [`sort`]`.Float64s()` 関数は内部で [`sort`]`.Sort()` 関数を呼んでいる。
 
 ```go
 // Float64s sorts a slice of float64s in increasing order.
 func Float64s(a []float64) { Sort(Float64Slice(a)) }
 ```
 
-で， [`sort`].`Sort()` 関数の内部では [`sort`].`Float64Slice` に紐付く `Len()`, `Less()`, `Swap()` 各メソッドが呼ばれている。
+で， [`sort`]`.Sort()` 関数の内部では [`sort`]`.Float64Slice` に紐付く `Len()`, `Less()`, `Swap()` 各メソッドが呼ばれている。
 `Len()`, `Less()`, `Swap()` 各メソッドを持つ [interface] は以下のように定義されている。
 
 ```go
@@ -122,7 +122,7 @@ type Interface interface {
 
 ## オブジェクトのソート
 
-つまり，この [`sort`].`Interface` インタフェースを持つ型であれば [`sort`].`Sort()` 関数でソート可能ということになる。
+つまり，この [`sort`]`.Interface` インタフェースを持つ型であれば [`sort`]`.Sort()` 関数でソート可能ということになる。
 たとえば以下のオブジェクト集合を考える。
 
 ```go
@@ -141,9 +141,9 @@ var planets = []Planet{
 }
 ```
 
-`Planet` オブジェクトの集合に対する [`sort`].`Interface` インタフェースはこんな感じにする[^str]。
+`Planet` オブジェクトの集合に対する [`sort`]`.Interface` インタフェースはこんな感じにする[^str]。
 
-[^str]: 今回は簡単のため [slice] を使っているが，データ集合は [slice] である必要はなく [`sort`].`Interface` インタフェースを持つ任意のオブジェクトであればよい。
+[^str]: 今回は簡単のため [slice] を使っているが，データ集合は [slice] である必要はなく [`sort`]`.Interface` インタフェースを持つ任意のオブジェクトであればよい。
 
 ```go
 // ByMass implements sort.Interface for []Planet based on the Mass field.
@@ -213,8 +213,8 @@ Mercury Mars Venus Earth
 
 ## `sort.Slice()` 関数を使う場合 
 
-[slice] 限定であるが， [`sort`].`Slice()` 関数を使えば [`sort`].`Interface` インタフェースを定義しなくてもソートを行うことができる。
-[`sort`].`Slice()` 関数の定義は以下の通り。
+[slice] 限定であるが， [`sort`]`.Slice()` 関数を使えば [`sort`]`.Interface` インタフェースを定義しなくてもソートを行うことができる。
+[`sort`]`.Slice()` 関数の定義は以下の通り。
 
 ```go
 func Slice(slice interface{}, less func(i, j int) bool)
@@ -262,12 +262,12 @@ func main() {
 }
 ```
 
-[`sort`].`Slice()` 関数の第2引数が関数閉包（closure）になっている点に注意[^c]。
+[`sort`]`.Slice()` 関数の第2引数が関数閉包（closure）になっている点に注意[^c]。
 これなら第2引数の関数の内容を変えれば任意の規則でソートを行うことができる。
 
 [^c]: つか， [Go 言語]の関数は全て関数閉包として動作するんだけどね。
 
-結果は [`sort`].`Interface` インタフェースがある場合と同じく
+結果は [`sort`]`.Interface` インタフェースがある場合と同じく
 
 ```text
 $ go run sort4.go
@@ -277,7 +277,7 @@ Mercury Mars Venus Earth
 
 となった。
 
-さて，実際に [`sort`].`Slice()` 関数を覗いてみよう。
+さて，実際に [`sort`]`.Slice()` 関数を覗いてみよう。
 
 ```go
 // maxDepth returns a threshold at which quicksort should switch
@@ -311,9 +311,9 @@ func Slice(slice interface{}, less func(i, j int) bool) {
     quickSort_func(lessSwap{less, swap}, 0, length, maxDepth(length))
 }
 ```
-[`reflect`].`ValueOf()` 関数は [`reflect`].`Value` を取得する関数だ[^rf1]。
-その次の [`reflect`].`Swapper()` 関数がポイント。
-この関数は先程の  [`sort`].`Interface` インタフェースでいうところの `Swap()` 関数に相当するものを返す[^rf2]。
+[`reflect`]`.ValueOf()` 関数は [`reflect`]`.Value` を取得する関数だ[^rf1]。
+その次の [`reflect`]`.Swapper()` 関数がポイント。
+この関数は先程の  [`sort`]`.Interface` インタフェースでいうところの `Swap()` 関数に相当するものを返す[^rf2]。
 なのでこんなこともできる。
 
 ```go
@@ -332,17 +332,17 @@ func main() {
 }
 ```
 
-残りの `Len()` 関数に相当するものは [`reflect`].`Value` で用意されているし， `Less()` 関数に相当するものは [`sort`].`Slice()` 関数の引数として与えられる。
+残りの `Len()` 関数に相当するものは [`reflect`]`.Value` で用意されているし， `Less()` 関数に相当するものは [`sort`]`.Slice()` 関数の引数として与えられる。
 これでソートに必要な3つの関数が揃うわけだ。
 
-[^rf1]: [`reflect`] パッケージについての詳細は割愛する。簡単に言うと， [Go 言語]において [interface] 型のインスタンスは型情報と値への参照の2つを保持していて，これに対応するのが [`reflect`].`Type` と [`reflect`].`Value` である（参考： [research!rsc: Go Data Structures: Interfaces](https://research.swtch.com/interfaces)）。
-[^rf2]: [`reflect`].`Swapper()` 関数は引数の型が [slice] であることを前提にしていて， [slice] でない場合は panic が返る。
+[^rf1]: [`reflect`] パッケージについての詳細は割愛する。簡単に言うと， [Go 言語]において [interface] 型のインスタンスは型情報と値への参照の2つを保持していて，これに対応するのが [`reflect`]`.Type` と [`reflect`]`.Value` である（参考： [research!rsc: Go Data Structures: Interfaces](https://research.swtch.com/interfaces)）。
+[^rf2]: [`reflect`]`.Swapper()` 関数は引数の型が [slice] であることを前提にしていて， [slice] でない場合は panic が返る。
 
 ちなみに `quickSort_func()` 関数は，名前の通り，クイックソートである。
-ただしクイックソートでは安定ソートにならないため，安定ソートを実行するための [`sort`].`SliceStable()` 関数も用意されている。
-[`sort`].`SliceStable()` 関数ではアルゴリズムに挿入ソートを用いる[^s1]。
+ただしクイックソートでは安定ソートにならないため，安定ソートを実行するための [`sort`]`.SliceStable()` 関数も用意されている。
+[`sort`]`.SliceStable()` 関数ではアルゴリズムに挿入ソートを用いる[^s1]。
 
-[^s1]: [`sort`].`Sort()` 関数も同じくクイックソートである。これの安定ソート版が [`sort`].`Stable()` 関数で同じく挿入ソートを用いている。
+[^s1]: [`sort`]`.Sort()` 関数も同じくクイックソートである。これの安定ソート版が [`sort`]`.Stable()` 関数で同じく挿入ソートを用いている。
 
 ## ブックマーク
 
@@ -352,7 +352,7 @@ func main() {
 - [Goでのアルゴリズムクイックリファレンス第2版(4.1.1 挿入ソート) - Qiita](http://qiita.com/amesho/items/64dcd231038c96345848)
 - [interface{} をソートする - Qiita](http://qiita.com/tchssk/items/b61f1f06d22a6232d4c8)
 - [Big Sky :: golang の sort インタフェース難しい問題が解決した](http://mattn.kaoriya.net/software/lang/go/20161004092237.htm)
-- [Go 言語 1.8 がリリース]({{< ref "/remark/2017/02/go-1_8-released.md" >}}) : [`sort`].`Slice()` 関数はバージョン 1.8 で導入された
+- [Go 言語 1.8 がリリース]({{< ref "/remark/2017/02/go-1_8-released.md" >}}) : [`sort`]`.Slice()` 関数はバージョン 1.8 で導入された
 - [sort.Slice に学ぶ高速化のヒント - Qiita](https://qiita.com/chimatter/items/f908507287fe2c7030e9)
     - [sort.Sort と sort.Slice の速度比較 - Qiita](https://qiita.com/chimatter/items/bc8f3ab3e617211b9a24)
 - [golang でクイックソートを並列化してみる - 長文書くところ](http://zenito9970.hatenablog.com/entry/2015/05/30/155726)

@@ -62,11 +62,11 @@ func main() {
 }
 ```
 
-[`image`].`Decode()` 関数で画像データをデコードし [`image`].`Image.Bounds()` 関数で画像全体の矩形情報（[`image`].`Rectangle`）を取得する[^img1]。
-ポイントは [`image`].`Decode()` 関数が factory method のように機能していて画像フォーマットを意識する必要はないという点。
+[`image`]`.Decode()` 関数で画像データをデコードし [`image`]`.Image.Bounds()` 関数で画像全体の矩形情報（[`image`]`.Rectangle`）を取得する[^img1]。
+ポイントは [`image`]`.Decode()` 関数が factory method のように機能していて画像フォーマットを意識する必要はないという点。
 ではどこで依存（dependency）を注入しているかというと，パッケージのインポート
 
-[^img1]: [`image`].`Image` は interface 型で抽象化されている。
+[^img1]: [`image`]`.Image` は interface 型で抽象化されている。
 
 ```go
 import (
@@ -80,7 +80,7 @@ import (
 この場合は GIF, JPEG, PNG 形式に対応していることを示す。
 もちろんこれらと互換性のある独自パッケージを使ってもよい[^register1]。
 
-[^register1]: 厳密に言うと [`image`].`RegisterFormat()` 関数で登録する。例えば [`image/jpeg`] パッケージの場合は `init()` 関数内で [`image`].`RegisterFormat()` 関数が呼ばれている。このようなデザイン・パターンは [Go 言語]ではよく見られるので覚えておくとよいだろう（参考：[Hash 値を計算するパッケージを作ってみた]({{< relref "./calculating-hash-value.md" >}})）。
+[^register1]: 厳密に言うと [`image`]`.RegisterFormat()` 関数で登録する。例えば [`image/jpeg`] パッケージの場合は `init()` 関数内で [`image`]`.RegisterFormat()` 関数が呼ばれている。このようなデザイン・パターンは [Go 言語]ではよく見られるので覚えておくとよいだろう（参考：[Hash 値を計算するパッケージを作ってみた]({{< relref "./calculating-hash-value.md" >}})）。
 
 では早速
 
@@ -198,10 +198,10 @@ func main() {
 このコードでは Width/Height を半分のサイズにしたイメージをファイル出力している。
 
 前半の画像の読み込み部分は先程と同じ。
-その次に [`image`].`NewRGBA()` 関数で Width/Height を半分のサイズにした空のインスタンスを生成し [`draw`].`CatmullRom.Scale()` 関数で変換した画像データを流し込んでいる。
+その次に [`image`]`.NewRGBA()` 関数で Width/Height を半分のサイズにした空のインスタンスを生成し [`draw`]`.CatmullRom.Scale()` 関数で変換した画像データを流し込んでいる。
 その後ファイルに出力するのだが，出力するフォーマットごとに異なる `Encode()` 関数になっている。
 
-[`draw`].`CatmullRom` はサイズ変換のための [`draw`].`Scaler` インタフェースを持つ [`draw`].`Kernel` 型インスタンスで，以下のように定義されている。
+[`draw`]`.CatmullRom` はサイズ変換のための [`draw`]`.Scaler` インタフェースを持つ [`draw`]`.Kernel` 型インスタンスで，以下のように定義されている。
 
 ```go
 var (
@@ -220,7 +220,7 @@ var (
 )
 ```
 
-[`draw`].`CatmullRom` はどちらかというと品質優先の [`draw`].`Scaler` のようだが，他にもいくつか定義済みのインスタンスがある。
+[`draw`]`.CatmullRom` はどちらかというと品質優先の [`draw`]`.Scaler` のようだが，他にもいくつか定義済みのインスタンスがある。
 性能について詳しくは[次回の記事]({{< relref "./resize-image-2.md" >}} "Go 言語で画像のサイズ変更：定義済み draw.Scaler の比較")を参考にしてほしい。
 
 では，実際に動かしてみよう。

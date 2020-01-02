@@ -212,8 +212,8 @@ $ go run hello.go assets.go
 
 まぁ，テキストを表示してるだけだけど。
 
-ちなみに [`assets`].`FileSystem` は [`http`].`FileSystem` インタフェースと互換がある。
-以下は [`http`].`FileSystem` インタフェースの定義。
+ちなみに [`assets`]`.FileSystem` は [`http`]`.FileSystem` インタフェースと互換がある。
+以下は [`http`]`.FileSystem` インタフェースの定義。
 
 ```go
 type FileSystem interface {
@@ -221,7 +221,7 @@ type FileSystem interface {
 }
 ```
 
-従って [`assets`].`FileSystem` を使って以下のような簡易 Web サーバも組める。
+従って [`assets`]`.FileSystem` を使って以下のような簡易 Web サーバも組める。
 
 {{< highlight go "hl_lines=13" >}}
 package main

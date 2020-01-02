@@ -131,6 +131,16 @@ Markdown パーサについては，グローバル設定で新しい [yuin/gold
 と（ちょっと不格好だが）なった。
 [ATOM] で複数ファイルの内容を一括置換できてよかったね（泣）
 
+{{< div-box type="md" >}}
+**【2020-01-02 追記】**
+この件は [Hugo] 0.61 で修正されたらしい。 [yuin/goldmark] のバグだったようだ。
+なので，また元に戻した。
+なんだかなぁ `orz`
+
+[Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
+[yuin/goldmark]: https://github.com/yuin/goldmark/ "yuin/goldmark: A markdown parser written in Go. Easy to extend, standard(CommonMark) compliant, well structured."
+{{< /div-box >}}
+
 ## フェンス付きコード・ブロックのハイライト表示
 
 [Hugo] ではフェンス付きコード・ブロックのハイライト表示には [alecthomas/chroma] を使っているが，グローバル設定でより細かい設定が可能になった。

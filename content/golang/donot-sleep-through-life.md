@@ -25,7 +25,7 @@ tags = [ "golang", "atom", "tools", "lint" ]
 
 ## error を無視すんな
 
-例えば [`io`].`Reader` から [`io`].`Writer` へデータを流し込むのにやっつけコードで
+例えば [`io`]`.Reader` から [`io`]`.Writer` へデータを流し込むのにやっつけコードで
 
 ```go
 io.Copy(writer, reader)

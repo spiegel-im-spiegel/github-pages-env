@@ -134,8 +134,8 @@ Press ctrl+c to stop
 
 としてサーバを起動しブラウザで `http://localhost:3000/` にアクセスすれば `html/index.html` ファイルの内容が表示される。
 
-[`statik`]`/fs.New()` 関数は [`http`].`FileSystem` インスタンスを返す。 
-[`http`].`FileSystem` は interface 型で，以下のように定義されている。
+[`statik`]`/fs.New()` 関数は [`http`]`.FileSystem` インスタンスを返す。 
+[`http`]`.FileSystem` は interface 型で，以下のように定義されている。
 
 ```go
 // A FileSystem implements access to a collection of named files.
@@ -146,7 +146,7 @@ type FileSystem interface {
 }
 ```
 
-[`http`].`File` も interface 型で，以下のように定義されている。
+[`http`]`.File` も interface 型で，以下のように定義されている。
 
 ```go
 // A File is returned by a FileSystem's Open method and can be

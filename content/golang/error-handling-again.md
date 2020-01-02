@@ -34,7 +34,7 @@ func bar() error {
 ```
 
 関数 `foo()` と `bar()` から返却される error が等値であれば処理をまとめられる筈である。
-今までは [`errors`].`New()` 関数を使って
+今までは [`errors`]`.New()` 関数を使って
 
 ```go
 var (
@@ -135,7 +135,7 @@ error instance 1:
         /tmp/xerrors/handling1/handling1.go:11
 ```
 
-これは [`xerrors`].`New()` 関数を起動した行がエラー発生位置になるためで，これでは本当のエラー発生位置が分からない。
+これは [`xerrors`]`.New()` 関数を起動した行がエラー発生位置になるためで，これでは本当のエラー発生位置が分からない。
 それじゃあ，というので
 
 ```go
@@ -148,7 +148,7 @@ func bar() error {
 ```
 
 と書き換えても駄目である。
-[`xerrors`].`New()` 関数はインスタンスへのポインタ値を返すが `foo()` や `bar()` 関数で返される error と `ErrInstance1` は異なるインスタンスなので [Go 言語]の等値演算子（equality operator）では（ポインタ値を比較するだけで）等値であることを示せない。
+[`xerrors`]`.New()` 関数はインスタンスへのポインタ値を返すが `foo()` や `bar()` 関数で返される error と `ErrInstance1` は異なるインスタンスなので [Go 言語]の等値演算子（equality operator）では（ポインタ値を比較するだけで）等値であることを示せない。
 したがって実行結果も
 
 ```text
@@ -231,7 +231,7 @@ return werror.New(werror.ErrInstance1)
 ```
 
 などとすれば定義された error 値を使って `werror.New()` 関数の起動位置で error インスタンスを生成することが出来る。
-ただし，このままでは [`xerrors`].`Is()` 関数によるインスタンスの等値性を正しく検証できない。
+ただし，このままでは [`xerrors`]`.Is()` 関数によるインスタンスの等値性を正しく検証できない。
 
 そこで `Num` および `wrapError` に以下の関数を追加する。
 

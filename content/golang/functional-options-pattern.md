@@ -55,7 +55,7 @@ u := new(ui.UI)
 
 `new()` 関数でインスタンスを生成する場合は必ずゼロ値で初期化される。
 `ui.UI` の場合は `reader`, `writer`, `errorWriter` の各フィールドには nil がセットされる。
-しかし [`io`].`Reader` および [`io`].`Writer` は nil のまま使用すると panic になるため何らかの初期値を与える必要がある。
+しかし [`io`]`.Reader` および [`io`]`.Writer` は nil のまま使用すると panic になるため何らかの初期値を与える必要がある。
 
 2番目は複合リテラル（composite literals）で記述する方法。
 

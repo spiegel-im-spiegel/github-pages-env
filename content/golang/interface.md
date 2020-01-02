@@ -61,7 +61,7 @@ func main() {
 ```
 
 と配列を展開すればいんじゃね？ って思うよね，普通。
-[`fmt`].`Println()` 関数の定義を見ても
+[`fmt`]`.Println()` 関数の定義を見ても
 
 ```go
 func Println(a ...interface{}) (n int, err error)
@@ -78,7 +78,7 @@ prog.go:7: cannot use strlist (type []string) as type []interface {} in argument
 
 とエラーになる。
 
-実は `[]string` 型の `strlist` は [`fmt`].`Println()` 関数に渡す際に `[]interface{}` 型ではなく `interface{}` 型に**必ず**キャストされる。
+実は `[]string` 型の `strlist` は [`fmt`]`.Println()` 関数に渡す際に `[]interface{}` 型ではなく `interface{}` 型に**必ず**キャストされる。
 だから `strlist...` と展開しようとしても「そりゃあ無理（←超意訳）」と怒られてしまうわけだ。
 [Go 言語]の型（[type]）は
 
@@ -138,7 +138,7 @@ alpha beta gamma
 ```
 
 のようにめでたく列挙される。
-この問題は [`fmt`].`Println()` 関数だけじゃなく，ある型の配列を `[]interface{}` 型にキャストしようとする際は必ず発生するようだ[^c]。
+この問題は [`fmt`]`.Println()` 関数だけじゃなく，ある型の配列を `[]interface{}` 型にキャストしようとする際は必ず発生するようだ[^c]。
 
 [^c]: 例えば `list` に `strlist` の内容をコピーする際に for 文で回すのではなく `list = append(list, strlist...)` でできるかどうか試してみればいい。
 

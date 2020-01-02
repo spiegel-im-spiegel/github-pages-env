@@ -162,7 +162,7 @@ ok  	zerotime	7.601s
 | `TrancateByDate`     |  99.7 ns |      0 bytes |          0 |
 | `TrancateByUnixTime` |  15.5 ns |      0 bytes |          0 |
 
-まぁ，文字列を介した処理が遅いのは当然として， [`time`].`Date()` を使った処理が意外に遅いな。
+まぁ，文字列を介した処理が遅いのは当然として， [`time`]`.Date()` を使った処理が意外に遅いな。
 いや，内部で暦計算をしてるならこんなもんか？
 
 改めて

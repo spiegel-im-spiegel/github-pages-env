@@ -214,14 +214,14 @@ client := paapi5.New(
 )
 ```
 
-がリクエストを実行する [`paapi5`].`Client` 型のインスタンスを生成している部分である。
+がリクエストを実行する [`paapi5`]`.Client` 型のインスタンスを生成している部分である。
 ちなみに
 
 ```go
 client := paapi5.DefaultClient("mytag-20", "AKIAIOSFODNN7EXAMPLE", "1234567890") //Create default client
 ```
 
-と既定値で簡単に [`paapi5`].`Client` インスタンスを生成することもできるが，マーケットプレイスが米国（`www.amazon.com`）になるのでご注意を。
+と既定値で簡単に [`paapi5`]`.Client` インスタンスを生成することもできるが，マーケットプレイスが米国（`www.amazon.com`）になるのでご注意を。
 
 ### クエリの生成とリクエストの実行
 
@@ -233,7 +233,7 @@ func (c *Client) Request(q Query) ([]byte, error) {
 }
 ```
 
-の引数 [`paapi5`].`Query` は interface 型で以下のように定義している。
+の引数 [`paapi5`]`.Query` は interface 型で以下のように定義している。
 
 ```go
 type Query interface {
@@ -242,7 +242,7 @@ type Query interface {
 }
 ```
 
-[`paapi5`].`Query.Operation()` 関数の返り値の [`paapi5`].`Operation` 型は以下のように定義している。
+[`paapi5`]`.Query.Operation()` 関数の返り値の [`paapi5`]`.Operation` 型は以下のように定義している。
 
 ```go
 type Operation int
@@ -255,7 +255,7 @@ const (
 )
 ```
 
-[`paapi5`].`Query.Payload()` 関数はリクエストのペイロードにセットする JSON データを返す。
+[`paapi5`]`.Query.Payload()` 関数はリクエストのペイロードにセットする JSON データを返す。
 JSON データの内容は，例えばこんな感じ。
 
 ```go
@@ -281,7 +281,7 @@ JSON データの内容は，例えばこんな感じ。
 }
 ```
 
-適切な [`paapi5`].`Operation` 値と JSON データを出力できるのであれば，利用者側でクエリ・オブジェクトを自由に設計できる。
+適切な [`paapi5`]`.Operation` 値と JSON データを出力できるのであれば，利用者側でクエリ・オブジェクトを自由に設計できる。
 
 {{< div-box type="md" >}}
 #### 余談だが...
@@ -295,7 +295,7 @@ var _ paapi5.Query = (*CustomQuery)(nil)
 
 ### クエリの実例とレスポンスの取り込み例
 
-[spiegel-im-spiegel/pa-api] パッケージではクエリ用のサンプルとして [`paapi5`].`query` サブパッケージを用意している。
+[spiegel-im-spiegel/pa-api] パッケージではクエリ用のサンプルとして [`paapi5`]`.query` サブパッケージを用意している。
 最初のコード例の
 
 ```go
@@ -304,7 +304,7 @@ q.ASINs([]string{"B07YCM5K55"}).EnableImages(true).EnableParentASIN(true)
 ```
 
 の部分がそれである。
-また [`paapi5`].`Client.Request()` 関数の出力結果を構造体に落とし込むための [`paapi5`].`entity` サブパッケージも用意した。
+また [`paapi5`]`.Client.Request()` 関数の出力結果を構造体に落とし込むための [`paapi5`]`.entity` サブパッケージも用意した。
 どちらもそのままではあまり使い勝手がいいとは言えないが，コード例として自由に利用していただいて構わない。
 
 なお [spiegel-im-spiegel/pa-api] パッケージは [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) でライセンスしている。

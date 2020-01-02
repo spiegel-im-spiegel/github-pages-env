@@ -21,9 +21,9 @@ tags = [ "golang", "programming", "image" ]
   mermaidjs = false
 +++
 
-[前回]({{< relref "./resize-image.md" >}} "Go 言語で画像のサイズを変更する") [Go 言語]で画像データのサイズ変換を行う手順を紹介したが，その際に使われる [golang.org/x/image/draw](https://godoc.org/golang.org/x/image/draw) パッケージで定義済みの4つの [`draw`].`Scaler` について性能比較を試みる。
+[前回]({{< relref "./resize-image.md" >}} "Go 言語で画像のサイズを変更する") [Go 言語]で画像データのサイズ変換を行う手順を紹介したが，その際に使われる [golang.org/x/image/draw](https://godoc.org/golang.org/x/image/draw) パッケージで定義済みの4つの [`draw`]`.Scaler` について性能比較を試みる。
 
-[golang.org/x/image/draw](https://godoc.org/golang.org/x/image/draw) パッケージでは以下の4つの [`draw`].`Scaler` が定義されている。
+[golang.org/x/image/draw](https://godoc.org/golang.org/x/image/draw) パッケージでは以下の4つの [`draw`]`.Scaler` が定義されている。
 
 ```go
 var (
@@ -167,10 +167,10 @@ CatmullRom.png 21.0012ms
 
 {{< fig-img src="./CatmullRom.png" title="CatmullRom.png" link="./CatmullRom.png" >}}
 
-[`draw`].`NearestNeighbor` と [`draw`].`ApproxBiLinear` は変換速度は早いが品質としては実用に耐える感じではなさそうである。
+[`draw`]`.NearestNeighbor` と [`draw`]`.ApproxBiLinear` は変換速度は早いが品質としては実用に耐える感じではなさそうである。
 サムネイルとかを作成するならこちらでもいいかも知れない。
 
-品質でいうならやはり [`draw`].`BiLinear` や [`draw`].`CatmullRom` が妥当かな。
+品質でいうならやはり [`draw`]`.BiLinear` や [`draw`]`.CatmullRom` が妥当かな。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`draw`]: https://godoc.org/golang.org/x/image/draw "draw - GoDoc"

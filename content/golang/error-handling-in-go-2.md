@@ -182,7 +182,7 @@ Handle 構文の処理はスタック状に積まれていく感じかな。
 
 ## Wrapper interface{#wrapper}
 
-たとえば [`os`].`PathError` は以下のように内部に error 情報を持っている。
+たとえば [`os`]`.PathError` は以下のように内部に error 情報を持っている。
 
 ```go
 // PathError records an error and the operation and file path that caused it.

@@ -70,7 +70,7 @@ main.main()
 また出力先が標準エラー出力で固定されているのも面白くない。
 
 そこで [panic] 時の出力をカスタマイズすることを考える。
-スタック情報を取得するには， [panic] を [recover] で捕まえた上で [`runtime`].`Caller()` 関数を使う。
+スタック情報を取得するには， [panic] を [recover] で捕まえた上で [`runtime`]`.Caller()` 関数を使う。
 
 ```go
 package main

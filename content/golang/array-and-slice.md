@@ -535,9 +535,9 @@ prog.go:18:10: invalid operation: slc1 == slc2 (slice can only be compared to ni
 
 [^ce1]: 同様に比較演算子が使えない基本型としては [map] と関数値（function value）がある。
 
-[slice] の内容を比較したいのであれば [`reflect`].`DeepEqual()` 関数が使える[^cmp1]。
+[slice] の内容を比較したいのであれば [`reflect`]`.DeepEqual()` 関数が使える[^cmp1]。
 
-[^cmp1]: byte 型の [slice] であれば [`bytes`].`Compare()` を使って比較できる。
+[^cmp1]: byte 型の [slice] であれば [`bytes`]`.Compare()` を使って比較できる。
 
 {{< highlight go "hl_lines=21-25" >}}
 package main
@@ -585,7 +585,7 @@ dump(slc) = 0x10410024
 slc1 == slc2
 ```
 
-需要があるかどうか分からないが， [slice] が参照している配列のインスタンスが同一であるかどうか調べるには [`reflect`].`ValueOf()` 関数で値（＝配列）を取得し，そのポインタ値を `==` 演算子で比較する。
+需要があるかどうか分からないが， [slice] が参照している配列のインスタンスが同一であるかどうか調べるには [`reflect`]`.ValueOf()` 関数で値（＝配列）を取得し，そのポインタ値を `==` 演算子で比較する。
 
 {{< highlight go "hl_lines=21-25 28-32" >}}
 package main

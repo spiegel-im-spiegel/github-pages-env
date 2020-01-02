@@ -39,7 +39,7 @@ tags = [ "regular-expression", "programming", "golang" ]
 ### [strings] パッケージを使え
 
 その代わりと言ってはナニだが [Go 言語]では文字列検索や操作のための [strings] や [unicode] といった標準パッケージが充実している。
-例えば，単純な前方一致や後方一致なら [`strings`].`HasPrefix()` 関数や [`strings`].`HasSuffix()` 関数を使いやがれ，みたいな感じ。
+例えば，単純な前方一致や後方一致なら [`strings`]`.HasPrefix()` 関数や [`strings`]`.HasSuffix()` 関数を使いやがれ，みたいな感じ。
 
 ただ，正規表現を使うことでコードの可読性が上がる（ことによってバグ混入リスクを減らせる）ことは確かなので，状況によってパッケージを使い分けるのがコツである。
 
@@ -50,7 +50,7 @@ tags = [ "regular-expression", "programming", "golang" ]
 まず正規表現のコンパイルにはそこそこのコストがかかるため，できるだけ使いまわすようにする。
 固定の正規表現ならグローバル変数として初期化してしまうのも手である[^re2]。
 
-[^re2]: [`regexp`].`MustCompile()` 関数では，コンパイルに失敗すると [panic] を投げる。通常は [`regexp`].`Compile()` 関数を使い，返り値の error をチェックする。
+[^re2]: [`regexp`]`.MustCompile()` 関数では，コンパイルに失敗すると [panic] を投げる。通常は [`regexp`]`.Compile()` 関数を使い，返り値の error をチェックする。
 
 ```go
 var re = regexp.MustCompile("^[0-9a-fA-F]+$")
@@ -59,7 +59,7 @@ var re = regexp.MustCompile("^[0-9a-fA-F]+$")
 複数の正規表現を動的に切り替えるのであれば map 等を使ってコンパイル結果をキャッシュするのもいいかもしれない。
 
 さらに正規表現による評価を実行する際は排他制御がかかるため，並行処理下でコンパイル済みインスタンスをそのまま使うとパフォーマンスが落ちる。
-そこで [`regexp`].`Regexp.Copy()` 関数を使ってインスタンスのコピーを生成し，コピーを使って評価を行う。
+そこで [`regexp`]`.Regexp.Copy()` 関数を使ってインスタンスのコピーを生成し，コピーを使って評価を行う。
 
 ```go
 if !re.Copy().MatchString(s) {

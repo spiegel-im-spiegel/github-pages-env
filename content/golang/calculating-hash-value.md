@@ -71,8 +71,8 @@ fmt.Printf("%x\n", v)
 // da39a3ee5e6b4b0d3255bfef95601890afd80709
 ```
 
-[`crypto`].`Hash.New()` 関数で [`hash`].`Hash` のインスタンスを生成している。
-[`hash`].`Hash` はこんな感じの [interface] 型である。
+[`crypto`]`.Hash.New()` 関数で [`hash`]`.Hash` のインスタンスを生成している。
+[`hash`]`.Hash` はこんな感じの [interface] 型である。
 
 ```go
 // Hash is the common interface implemented by all hash functions.

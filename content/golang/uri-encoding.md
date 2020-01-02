@@ -34,14 +34,14 @@ tags        = [ "golang", "programming", "web" ]
 詳しいことは [RFC 3986] 辺りを参照してもらうとして， [Go 言語]ではこれを標準の `net/`[`url`] パッケージで提供している。
 ただし以下の2種類ある。
 
-- [`url`].`QueryEscape()` / [`url`].`QueryUnescape()`
-- [`url`].`PathEscape()` / [`url`].`PathUnescape()` [^go18]
+- [`url`]`.QueryEscape()` / [`url`]`.QueryUnescape()`
+- [`url`]`.PathEscape()` / [`url`]`.PathUnescape()` [^go18]
 
-[^go18]: [`url`].`PathEscape()` / [`url`].`PathUnescape()` は [Go 1.8 から追加](https://golang.org/doc/go1.8#net_url "Go 1.8 Release Notes - The Go Programming Language")された。
+[^go18]: [`url`]`.PathEscape()` / [`url`]`.PathUnescape()` は [Go 1.8 から追加](https://golang.org/doc/go1.8#net_url "Go 1.8 Release Notes - The Go Programming Language")された。
 
 どう違うかは実際にコードを組んでみたほうが早いだろう。
 
-まずは [`url`].`QueryEscape()` / [`url`].`QueryUnescape()` のほうから
+まずは [`url`]`.QueryEscape()` / [`url`]`.QueryUnescape()` のほうから
 
 ```go
 package main
@@ -69,7 +69,7 @@ func main() {
 }
 ```
 
-次に [`url`].`PathEscape()` / [`url`].`PathUnescape()` のほう
+次に [`url`]`.PathEscape()` / [`url`]`.PathUnescape()` のほう
 
 ```go
 package main

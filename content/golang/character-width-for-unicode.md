@@ -29,7 +29,7 @@ tags = ["golang", "unicode", "transform", "character"]
 
 ## golang.org/x/text/width パッケージ
 
-`golang.org/x/text/`[`width`] パッケージ[^wdth] では半角/全角変換用に以下の [`width`].`Transformer` が用意されている。
+`golang.org/x/text/`[`width`] パッケージ[^wdth] では半角/全角変換用に以下の [`width`]`.Transformer` が用意されている。
 
 [^wdth]: “width” って日本人には発音しにくいよね。「[IT業界で横行する恥ずかしい英語発音](https://qiita.com/ryounagaoka/items/290885ee3291b393fe1f "IT業界で横行する恥ずかしい英語発音 - Qiita")」でもネタになるほど（笑）
 
@@ -51,7 +51,7 @@ var (
 )
 ```
 
-[`width`].`Widen` が全角変換用， [`width`].`Narrow` が半角変換用である。 
+[`width`]`.Widen` が全角変換用， [`width`]`.Narrow` が半角変換用である。 
 
 たとえば，半角変換なら
 
@@ -70,7 +70,7 @@ fmt.Println(width.Narrow.String("1234567890ｱｲｳｴｵｶｷｸｹｺABCDEFG
 ```
 
 のように変換される。
-[`io`].`Reader` を使うなら
+[`io`]`.Reader` を使うなら
 
 {{< highlight go "hl_lines=2" >}}
 r := bytes.NewBufferString("1234567890ｱｲｳｴｵｶｷｸｹｺABCDEFGHIJK")
@@ -84,7 +84,7 @@ fmt.Println(buf)
 
 ってな感じで書ける。
 
-面白いのは [`width`].`Fold` で，半角カナ文字は全角に，全角英数字は半角に，いい感じに変換してくれるのだ。
+面白いのは [`width`]`.Fold` で，半角カナ文字は全角に，全角英数字は半角に，いい感じに変換してくれるのだ。
 
 ```go
 fmt.Println(width.Fold.String("１２３４５６７８９０ｱｲｳｴｵｶｷｸｹｺＡＢＣＤＥＦＧＨＩＪＫ"))
@@ -92,7 +92,7 @@ fmt.Println(width.Fold.String("１２３４５６７８９０ｱｲｳｴｵｶ�
 //1234567890アイウエオカキクケコABCDEFGHIJK
 ```
 
-[`width`].`Fold` は， Unicode 正規化と異なり，「神と神[^fnt1]」のような異体字は
+[`width`]`.Fold` は， Unicode 正規化と異なり，「神と神[^fnt1]」のような異体字は
 
 [^fnt1]: ブラウザやブラウザの設定によっては「神」が上手く表示できないようです。 最初の「神」は「`U+FA19 '神'`」で CJK 互換文字です。２番目の「神」が通常の「`U+795E '神'`」です。
 

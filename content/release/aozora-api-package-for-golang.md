@@ -61,20 +61,20 @@ func main() {
 ```
 
 検索オプションは以下の関数と連動している。
-これらの関数を[`aozora`].`Client.SearchBooksRaw()` 関数の引数に指定する。
+これらの関数を[`aozora`]`.Client.SearchBooksRaw()` 関数の引数に指定する。
 
 | オプション名 | 対応する関数                                  |
 | ------------:| --------------------------------------------- |
-|      `title` | [`aozora`].`WithBookTitle(string)`            |
-|     `author` | [`aozora`].`WithBookAuthor(string)`           |
-|     `fields` | [`aozora`].`WithBookFields(string)`[^fields1] |
-|      `limit` | [`aozora`].`WithBookLimit(int)`               |
-|       `skip` | [`aozora`].`WithBookSkip(int)`                |
-|      `after` | [`aozora`].`WithBookAfter(time.Time)`         |
+|      `title` | [`aozora`]`.WithBookTitle(string)`            |
+|     `author` | [`aozora`]`.WithBookAuthor(string)`           |
+|     `fields` | [`aozora`]`.WithBookFields(string)`[^fields1] |
+|      `limit` | [`aozora`]`.WithBookLimit(int)`               |
+|       `skip` | [`aozora`]`.WithBookSkip(int)`                |
+|      `after` | [`aozora`]`.WithBookAfter(time.Time)`         |
 
 [^fields1]: `fields` オプションは効いてない感じ？
 
-[`aozora`].`Client.SearchBooksRaw()` 関数は API を通じて取得した結果（JSON 形式）をそのまま返す。
+[`aozora`]`.Client.SearchBooksRaw()` 関数は API を通じて取得した結果（JSON 形式）をそのまま返す。
 
 ```text
 $ go run sample.go | jq .
@@ -133,7 +133,7 @@ $ go run sample.go | jq .
 ]
 ```
 
-図書カード No. が分かっている場合は [`aozora`].`Client.LookupBookRaw()` 関数で作品情報を取得できる。
+図書カード No. が分かっている場合は [`aozora`]`.Client.LookupBookRaw()` 関数で作品情報を取得できる。
 
 {{< highlight go "hl_lines=2" >}}
 func main() {
@@ -146,13 +146,13 @@ func main() {
 }
 {{< /highlight >}}
 
-[`aozora`].`Client.SearchBooks()` または [`aozora`].`Client.LookupBook()` 関数を使うと結果を [`aozora`].`Book` 構造体で返す。
+[`aozora`]`.Client.SearchBooks()` または [`aozora`]`.Client.LookupBook()` 関数を使うと結果を [`aozora`]`.Book` 構造体で返す。
 
 ```go
 book, err := aozora.DefaultClient().LookupBook(59489)
 ```
 
-[`aozora`].`Book` 構造体の構成は以下の通り。
+[`aozora`]`.Book` 構造体の構成は以下の通り。
 
 ```go
 //Author is entity class of author and translator info.
@@ -250,7 +250,7 @@ $ go run sample.go | jq .
 ]
 ```
 
-作家 No. が分かっている場合は [`aozora`].`Client.LookupPersonRaw()` 関数で作品情報を取得できる。
+作家 No. が分かっている場合は [`aozora`]`.Client.LookupPersonRaw()` 関数で作品情報を取得できる。
 
 {{< highlight go "hl_lines=2" >}}
 func main() {
@@ -263,13 +263,13 @@ func main() {
 }
 {{< /highlight >}}
 
-[`aozora`].`Client.SearchPersons()` または [`aozora`].`Client.LookupPerson()` 関数を使うと結果を [`aozora`].`Person` 構造体で返す。
+[`aozora`]`.Client.SearchPersons()` または [`aozora`]`.Client.LookupPerson()` 関数を使うと結果を [`aozora`]`.Person` 構造体で返す。
 
 ```go
 person, err := aozora.DefaultClient().LookupPerson(55)
 ```
 
-[`aozora`].`Person` 構造体の構成は以下の通り。
+[`aozora`]`.Person` 構造体の構成は以下の通り。
 
 ```go
 //Person is entity class of person info.
@@ -318,7 +318,7 @@ $ go run sample.go | jq .
 ]
 ```
 
-工作員 No. が分かっている場合は [`aozora`].`Client.LookupWorkerRaw()` 関数で作品情報を取得できる。
+工作員 No. が分かっている場合は [`aozora`]`.Client.LookupWorkerRaw()` 関数で作品情報を取得できる。
 
 {{< highlight go "hl_lines=2" >}}
 func main() {
@@ -331,13 +331,13 @@ func main() {
 }
 {{< /highlight >}}
 
-[`aozora`].`Client.SearchWorkers()` または [`aozora`].`Client.LookupWorker()` 関数を使うと結果を [`aozora`].`Worker` 構造体で返す。
+[`aozora`]`.Client.SearchWorkers()` または [`aozora`]`.Client.LookupWorker()` 関数を使うと結果を [`aozora`]`.Worker` 構造体で返す。
 
 ```go
 person, err := aozora.DefaultClient().LookupWorker(845)
 ```
 
-[`aozora`].`Worker` 構造体の構成は以下の通り。
+[`aozora`]`.Worker` 構造体の構成は以下の通り。
 
 ```go
 //Worker is entity class of worker info.
@@ -349,11 +349,11 @@ type Worker struct {
 
 ## Server および Client インスタンスの生成
 
-[`aozora`].`Client` インスタンスの生成は [`aozora`].`DefaultClient()` 関数で簡単に行えるが，もう少し細かい制御もできる。
+[`aozora`]`.Client` インスタンスの生成は [`aozora`]`.DefaultClient()` 関数で簡単に行えるが，もう少し細かい制御もできる。
 
 ### [青空文庫] API サーバを指定する
 
-[`aozora`].`New()` 関数で [`aozora`].`Server` インスタンスを生成できるが，引数としてサーバを指定できる。
+[`aozora`]`.New()` 関数で [`aozora`]`.Server` インスタンスを生成できるが，引数としてサーバを指定できる。
 
 ```go
 server := aozora.New(
@@ -366,7 +366,7 @@ server := aozora.New(
 
 ### context.Context および http.Client を指定する
 
-[`aozora`].`Server.CreateClient()` 関数により [`aozora`].`Client` インスタンスを生成できるが，引数として `context.Context` および `http.Client` インスタンスを指定する。
+[`aozora`]`.Server.CreateClient()` 関数により [`aozora`]`.Client` インスタンスを生成できるが，引数として `context.Context` および `http.Client` インスタンスを指定する。
 
 ```go
 client := aozora.New(
@@ -378,7 +378,7 @@ client := aozora.New(
 )
 ```
 
-ちなみに [`aozora`].`DefaultClient()` 関数は以下の記述と同等である。
+ちなみに [`aozora`]`.DefaultClient()` 関数は以下の記述と同等である。
 
 ```go
 client := aozora.New(

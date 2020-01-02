@@ -263,7 +263,7 @@ func Execute(ui *rwi.RWI, args []string) (exit exitcode.ExitCode) {
 後半では `cmd.rootCmd` に引数と標準出力をセットしてから `cmd.rootCmd.Execute()` 関数を起動している[^so1]。
 エラー時は `os.Exit()` 関数で強制終了するのではなく，ちゃんとステータスを返すようにした。
 
-[^so1]: [`cobra`].`Command` には出力先がひとつしかなく何故か標準出力と標準エラー出力を区別していない。そこで `cmd.rootCmd` には標準エラー出力をセットして標準出力へのアクセスは `cui` を `cmd` パッケージ内のどのメソッドからも参照できるようにした（つまり，少なくとも `cmd` パッケージ内は単一の [goroutine] で動くことが前提）。 [spf13/cobra] 側が標準出力と標準エラー出力をちゃんと区別してくれれば，もう少しスマートにできるんだけどねぇ。（あと標準入力用の Reader も付けて欲しい。まぁなくても何とかなってるけど`w`）
+[^so1]: [`cobra`]`.Command` には出力先がひとつしかなく何故か標準出力と標準エラー出力を区別していない。そこで `cmd.rootCmd` には標準エラー出力をセットして標準出力へのアクセスは `cui` を `cmd` パッケージ内のどのメソッドからも参照できるようにした（つまり，少なくとも `cmd` パッケージ内は単一の [goroutine] で動くことが前提）。 [spf13/cobra] 側が標準出力と標準エラー出力をちゃんと区別してくれれば，もう少しスマートにできるんだけどねぇ。（あと標準入力用の Reader も付けて欲しい。まぁなくても何とかなってるけど`w`）
 
 そうそう。
 `cmd.RootCmd` ではパッケージ外から直接操作できてしまうので `cmd.rootCmd` と小文字にしている。
@@ -433,7 +433,7 @@ Boolean option value: true
 と言いたいところだけど，このままではまだテストができない。
 何故かというと， `cmd.rootCmd` も `cmd.showCmd` も static な変数として定義されているので，そのままテストを繰り返すと前回の状態が残ってしまって正しいテストにならないからだ。
 
-じゃあどうすればいいかというと， [`cobra`].`Command` を返す関数を作って，その中で `cmd.rootCmd` や `cmd.showCmd` に相当するインスタンスを作ればいいのである。
+じゃあどうすればいいかというと， [`cobra`]`.Command` を返す関数を作って，その中で `cmd.rootCmd` や `cmd.showCmd` に相当するインスタンスを作ればいいのである。
 
 じゃあ，まずは `cmd/root.go` の完全版から。
 
@@ -593,7 +593,7 @@ func TestShowNormal(t *testing.T) {
 }
 ```
 
-標準出力と標準エラー出力を [`bytes`].`Buffer` で代替えしているのがお分かりだろうか。
+標準出力と標準エラー出力を [`bytes`]`.Buffer` で代替えしているのがお分かりだろうか。
 これなら CLI でもかなりの部分をテストでカバーできる。
 ここには挙げていないが，当然パイプのテストも可能である。
 
@@ -630,7 +630,7 @@ $ dep status -dot | dot -Tpng -o dependency.png
 
 ## ブックマーク
 
-- [Golangのコマンドライブラリcobraを使って少しうまく実装する - Qiita](https://qiita.com/tkit/items/3cdeafcde2bd98612428) : [`cobra`].`Command` の関数化のアイデアはこちらからいただいた。感謝
+- [Golangのコマンドライブラリcobraを使って少しうまく実装する - Qiita](https://qiita.com/tkit/items/3cdeafcde2bd98612428) : [`cobra`]`.Command` の関数化のアイデアはこちらからいただいた。感謝
 - [cobra / pflags でフラグをパースせずに args に残す - Qiita](https://qiita.com/izumin5210/items/b06a81002a6934c05185)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
