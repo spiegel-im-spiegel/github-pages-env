@@ -17,6 +17,8 @@ enableGitInfo = true
 [markup]
   defaultMarkdownHandler = "goldmark"
   [markup.goldmark]
+    [markup.goldmark.parser]
+      autoHeadingID = false
     [markup.goldmark.renderer]
       unsafe = true
   [markup.highlight]
