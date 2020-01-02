@@ -39,7 +39,7 @@ image = "/images/attention/bookmarks.jpg"
     <dl class="fn">
       <dt><a href="https://tatsu-zine.com/books/infoshare2">もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来</a></dt>
       <dd>yomoyomo</dd>
-      <dd>達人出版会 2017-12-25</dd>
+      <dd>達人出版会 2017-12-25 (Release 2019-03-02)</dd>
       <dd>評価&nbsp;<abbr class="rating fa-sm" title="4">
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
@@ -57,7 +57,7 @@ image = "/images/attention/bookmarks.jpg"
     <dl class="fn">
       <dt><a href="https://tatsu-zine.com/books/infoshare">情報共有の未来</a></dt>
       <dd>yomoyomo</dd>
-      <dd>達人出版会 2011-12-30</dd>
+      <dd>達人出版会 2011-12-30 (Release 2012-02-19)</dd>
       <dd>評価&nbsp;<abbr class="rating fa-sm" title="4">
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
