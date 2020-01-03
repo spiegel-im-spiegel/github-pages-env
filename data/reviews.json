@@ -1,6 +1,92 @@
 [
   {
     "Book": {
+      "Type": "tatsujin",
+      "ID": "infoshare",
+      "Title": "情報共有の未来",
+      "URL": "https://tatsu-zine.com/books/infoshare",
+      "Image": {
+        "URL": "https://tatsu-zine.com/images/books/15/cover_s.jpg",
+        "Height": 150,
+        "Width": 106
+      },
+      "ProductType": "デジタル書籍",
+      "Creators": [
+        {
+          "Name": "yomoyomo",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "達人出版会",
+      "Codes": [
+        {
+          "Name": "tatsu-zine.com",
+          "Value": "infoshare"
+        }
+      ],
+      "PublicationDate": "2011-12-30",
+      "LastRelease": "2012-02-19",
+      "Service": {
+        "Name": "達人出版会",
+        "URL": "https://tatsu-zine.com/"
+      }
+    },
+    "Date": "2018-12-31",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "同名ブログの書籍化。感想は\u003ca href=\"https://baldanders.info/blog/000611/\"\u003eこちら\u003c/a\u003e。"
+  },
+  {
+    "Book": {
+      "Type": "tatsujin",
+      "ID": "infoshare2",
+      "Title": "もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来",
+      "URL": "https://tatsu-zine.com/books/infoshare2",
+      "Image": {
+        "URL": "https://tatsu-zine.com/images/books/877/cover_s.jpg",
+        "Height": 150,
+        "Width": 106
+      },
+      "ProductType": "デジタル書籍",
+      "Creators": [
+        {
+          "Name": "yomoyomo",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "達人出版会",
+      "Codes": [
+        {
+          "Name": "tatsu-zine.com",
+          "Value": "infoshare2"
+        }
+      ],
+      "PublicationDate": "2017-12-25",
+      "LastRelease": "2019-03-02",
+      "Service": {
+        "Name": "達人出版会",
+        "URL": "https://tatsu-zine.com/"
+      }
+    },
+    "Date": "2018-12-31",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "\u003ca href=\"https://wirelesswire.jp/author/yomoyomo/\"\u003eWirelessWire News 連載\u003c/a\u003eの書籍化。感想は\u003ca href=\"/remark/2019/01/infoshare2/\"\u003eこちら\u003c/a\u003e"
+  },
+  {
+    "Book": {
       "Type": "paapi",
       "ID": "B074CKDQGB",
       "Title": "ご注文はうさぎですか？",

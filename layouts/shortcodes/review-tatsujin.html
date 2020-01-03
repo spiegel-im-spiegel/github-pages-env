@@ -1,0 +1,1 @@
+{{ $id := index .Params 0 }}{{ range where (where $.Site.Data.reviews "Book.Type" "tatsujin") "Book.ID" $id }}{{ partial "review-box.html" . }}{{ end }}
