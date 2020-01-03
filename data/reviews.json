@@ -4438,46 +4438,6 @@
   {
     "Book": {
       "Type": "paapi",
-      "ID": "B077LH3RL8",
-      "Title": "アステロイド・マイナーズ",
-      "URL": "https://www.amazon.co.jp/dp/B077LH3RL8?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
-      "Image": {
-        "URL": ""
-      },
-      "ProductType": "Kindle版",
-      "Creators": [
-        {
-          "Name": "あさりよしとお",
-          "Role": "著"
-        }
-      ],
-      "Codes": [
-        {
-          "Name": "ASIN",
-          "Value": "B077LH3RL8"
-        }
-      ],
-      "PublicationDate": "",
-      "LastRelease": "",
-      "Service": {
-        "Name": "PA-APIv5",
-        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
-      }
-    },
-    "Date": "2014-09-27",
-    "Rating": 5,
-    "Star": [
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    "Description": "宇宙をなめるな！ って感じ（笑）"
-  },
-  {
-    "Book": {
-      "Type": "paapi",
       "ID": "4166600044",
       "Title": "ファースト・コンタクト―地球外知性体と出会う日 (文春新書)",
       "URL": "https://www.amazon.co.jp/%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%83%BB%E3%82%B3%E3%83%B3%E3%82%BF%E3%82%AF%E3%83%88%E2%80%95%E5%9C%B0%E7%90%83%E5%A4%96%E7%9F%A5%E6%80%A7%E4%BD%93%E3%81%A8%E5%87%BA%E4%BC%9A%E3%81%86%E6%97%A5-%E6%96%87%E6%98%A5%E6%96%B0%E6%9B%B8-%E9%87%91%E5%AD%90-%E9%9A%86%E4%B8%80/dp/4166600044?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4166600044",
@@ -9035,46 +8995,6 @@
       false
     ],
     "Description": "Web アプリケーションまたはサービスについて Go 言語のコードで解説。"
-  },
-  {
-    "Book": {
-      "Type": "paapi",
-      "ID": "B076M5SXBX",
-      "Title": "[まとめ買い] アステロイド・マイナーズ",
-      "URL": "https://www.amazon.co.jp/dp/B076M5SXBX?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
-      "Image": {
-        "URL": ""
-      },
-      "ProductType": "Kindle版",
-      "Creators": [
-        {
-          "Name": "あさりよしとお",
-          "Role": "著"
-        }
-      ],
-      "Codes": [
-        {
-          "Name": "ASIN",
-          "Value": "B076M5SXBX"
-        }
-      ],
-      "PublicationDate": "",
-      "LastRelease": "",
-      "Service": {
-        "Name": "PA-APIv5",
-        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
-      }
-    },
-    "Date": "2014-09-27",
-    "Rating": 5,
-    "Star": [
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    "Description": "宇宙をなめるな！ って感じ（笑）"
   },
   {
     "Book": {

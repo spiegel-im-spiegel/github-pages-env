@@ -1,8 +1,8 @@
 +++
+title = "映画『火星の人』を観た"
 date = "2016-02-20T13:17:20+09:00"
 description = "いやぁ。 誰だって「オデッセイ」なんてセンス皆無なタイトルの映画なんか見ようと思わないよね。しかも前宣伝があまりに酷くて完全にスルーしていた私を誰が責められよう（笑）"
 tags = ["movie", "astronomy", "mars"]
-title = "映画『火星の人』を観た"
 
 [scripts]
   mathjax = true
@@ -12,16 +12,7 @@ title = "映画『火星の人』を観た"
 最初に。
 ネタバレを多分に含むので閲覧注意です。
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+{{< div-gen height="20rem" >}}{{< /div-gen >}}
 
 ------
 
@@ -106,44 +97,6 @@ title = "映画『火星の人』を観た"
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B00O1VJZLO?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51DLzSbrC9L._SL160_.jpg" width="107" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B00O1VJZLO?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">火星の人</a></dt>
-    <dd>アンディ ウィアー (著), 小野田和子 (翻訳)</dd>
-    <dd>早川書房 2014-08-25 (Release 2014-09-30)</dd>
-    <dd>Kindle版</dd>
-    <dd>B00O1VJZLO (ASIN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">面白かった。やっぱ原作のほうがいいな。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-02-20">2016-02-20</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B0763GSNHZ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/61XuZfLj08L._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B0763GSNHZ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">アステロイド・マイナーズ(1) (RYU COMICS)</a></dt>
-    <dd>あさりよしとお (著)</dd>
-    <dd>徳間書店（リュウ・コミックス） 2010-04-10 (Release 2017-10-13)</dd>
-    <dd>Kindle版</dd>
-    <dd>B0763GSNHZ (ASIN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">宇宙をなめるな！ って感じ（笑）</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-09-27">2014-09-27</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4873114985?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/512xgQsxaML._SL160_.jpg" width="114" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4873114985?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">子どもが体験するべき50の危険なこと (Make: Japan Books)</a></dt>
-    <dd>Gever Tulley (著), Julie Spiegler (著), 金井 哲夫 (翻訳)</dd>
-    <dd>オライリージャパン 2011-05-26</dd>
-    <dd>単行本（ソフトカバー）</dd>
-    <dd>4873114985 (ASIN), 9784873114989 (EAN), 4873114985 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">ただ守るだけではダメなのよ。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-10-08">2014-10-08</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "B00O1VJZLO" %}} <!-- 火星の人 -->
+{{% review-paapi "B0763GSNHZ" %}} <!-- アステロイド・マイナーズ(1) -->
+{{% review-paapi "4873114985" %}} <!-- 子どもが体験するべき50の危険なこと -->
