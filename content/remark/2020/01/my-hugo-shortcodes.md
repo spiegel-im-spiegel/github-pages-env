@@ -17,7 +17,7 @@ pageType = "text"
 
 - [Hugo v0.60 から既定の Markdown パーサが Goldmark になったようだ]({{< ref "/release/2019/11/hugo-v0_60-with-goldmark-parser.md" >}})
 
-[yuin/goldmark] はきちんと [CommonMark] に準拠していて，そこには好感が持てるのだが，見方を変えるとあまり融通の聞かないパーサであるとも言える。
+[yuin/goldmark] はきちんと [CommonMark] に準拠していて，そこには好感が持てるのだが，見方を変えるとあまり融通の効かないパーサであるとも言える。
 たとえば [russross/blackfriday] では設定で `target="_blank"` や `rel="nofollow"` といった属性値を `<a>` 要素に付与できたが， [yuin/goldmark] にはこれに対応するオプションがない。
 
 ## [Markdown Render Hooks]
