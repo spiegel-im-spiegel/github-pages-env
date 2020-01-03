@@ -26,7 +26,7 @@
 
 <h3>最近更新した記事</h3>{{ $ct := 5 }}
 <ul class="title-list">
-{{ range first $ct .Site.RegularPages.ByLastmod.Reverse }}{{ partial "li.html" . }}{{ end }}
+{{ range first $ct (sort (sort .Site.RegularPages "Date" "desc") "Lastmod" "desc" ) }}{{ partial "li.html" . }}{{ end }}
 </ul>
 
 </section> <!-- 最近の記事 -->
