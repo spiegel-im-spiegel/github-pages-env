@@ -25,17 +25,17 @@ pageType = "text"
 
 そもそも件のブログ記事は DoH 自体には反対していない。
 
-{{< fig-quote type="md" title="Turn off DoH, Firefox. Now." link="https://ungleich.ch/en-us/cms/blog/2019/09/11/turn-off-doh-firefox/" lang="en" >}}
+{{< fig-quote type="markdown" title="Turn off DoH, Firefox. Now." link="https://ungleich.ch/en-us/cms/blog/2019/09/11/turn-off-doh-firefox/" lang="en" >}}
 {{< quote >}}DoH and DoT (DNS over TLS) are in general good technologies as they add encryption to an important process of daily life. However the approach Mozilla takes is simply wrong. The correct way would be to standardise DoH and DoT and add support into it into automatic address configurations and operating systems. Not in applications!{{< /quote >}}
 {{< /fig-quote >}}
 
 そして，問題は DoH が組み込まれる Firefox がアプリケーションに過ぎないこと， DoH のホストとして米国の Cloudflare を利用していることだと主張している。
 
-{{< fig-quote type="md" title="Turn off DoH, Firefox. Now." link="https://ungleich.ch/en-us/cms/blog/2019/09/11/turn-off-doh-firefox/" lang="en" >}}
+{{< fig-quote type="markdown" title="Turn off DoH, Firefox. Now." link="https://ungleich.ch/en-us/cms/blog/2019/09/11/turn-off-doh-firefox/" lang="en" >}}
 {{< quote >}}It means people outside the US can now be fully tracked by US government{{< /quote >}}
 {{< /fig-quote >}}
 
-{{< fig-quote type="md" title="Turn off DoH, Firefox. Now." link="https://ungleich.ch/en-us/cms/blog/2019/09/11/turn-off-doh-firefox/" lang="en" >}}
+{{< fig-quote type="markdown" title="Turn off DoH, Firefox. Now." link="https://ungleich.ch/en-us/cms/blog/2019/09/11/turn-off-doh-firefox/" lang="en" >}}
 {{< quote >}}whether you trust Cloudflare or not, you'll end up directly supporting centralisation by using DoH in Firefox. Centralisation makes us depend on one big player, which results in fewer choices and less innovation. Centralisation affects everybody by creating a dangerous power and resource imbalance between the center and the rest.{{< /quote >}}
 {{< /fig-quote >}}
 
@@ -43,7 +43,7 @@ pageType = "text"
 
 もともと「水のような音楽」は DRM (Digital Right Management) で貞操帯のごとくがんじ搦めにされたコンテンツに対するアンチテーゼのようなものだった。
 
-{{< fig-quote type="md" title="EMIのDRMとの決別は「水のような音楽」への大きな一歩か - YAMDAS現更新履歴" link="https://yamdas.hatenablog.com/entry/20070404/nodrm" >}}
+{{< fig-quote type="markdown" title="EMIのDRMとの決別は「水のような音楽」への大きな一歩か - YAMDAS現更新履歴" link="https://yamdas.hatenablog.com/entry/20070404/nodrm" >}}
 {{< quote >}}もう一つは既存のサービスを残したままで、新しい DRM フリーの高品質サービスが提供されること。手軽にアクセスできる安価な水道水がある一方で、より質を重視する人にはそれより値がはるミネラルウォーターも提供されるという「水のような音楽」モデルじゃないですか。{{< /quote >}}
 {{< /fig-quote >}}
 
@@ -60,7 +60,7 @@ pageType = "text"
 
 ちなみに件のブログでは
 
-{{< fig-quote type="md" title="Turn off DoH, Firefox. Now." link="https://ungleich.ch/en-us/cms/blog/2019/09/11/turn-off-doh-firefox/" lang="en" >}}
+{{< fig-quote type="markdown" title="Turn off DoH, Firefox. Now." link="https://ungleich.ch/en-us/cms/blog/2019/09/11/turn-off-doh-firefox/" lang="en" >}}
 {{< quote >}}It is clear what Mozilla needs to do: Mozilla can and should revert the change and allow users to easily opt-in. And to select or enter the DoH provider instead of defaulting to Cloudflare. Also Mozilla can take real responsibility and work together with the Internet community and create RFCs to make DHCPv4, DHCPv6 and Router Advertisements support DNS URLs instead of just IP addresses.{{< /quote >}}
 {{< /fig-quote >}}
 
@@ -74,7 +74,7 @@ pageType = "text"
 
 はっきり言おう。
 
-{{< div-gen type="md" class="center" >}}
+{{< div-gen type="markdown" class="center" >}}
 **Mozilla がユーザのプライバシーを重視しているというのは嘘っぱちである**
 {{< /div-gen >}}
 

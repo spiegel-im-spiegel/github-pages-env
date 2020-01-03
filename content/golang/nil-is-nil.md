@@ -32,7 +32,7 @@ fmt.Printf("Type: %T, Value: %v", nil, nil)
 
 「`nil` とは何か」をきちんと定義した文章は見かけないが， [Go 言語の仕様書](https://golang.org/ref/spec "The Go Programming Language Specification - The Go Programming Language")には，型 `T` の変数 `x` に対して
 
-{{< fig-quote type="md" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" >}}
+{{< fig-quote type="markdown" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" >}}
 {{< quote >}}`x` is the predeclared identifier `nil` and `T` is a pointer, function, slice, map, channel, or interface type.{{< /quote >}}
 {{< /fig-quote >}}
 
@@ -103,7 +103,7 @@ func main() {
 
 [^g1]: 引用元の記事（“[Go Data Structures: Interfaces](https://research.swtch.com/interfaces)”）では 1 word = 32 bits のシステムとして解説されているのでご注意を。
 
-{{< fig-quote type="md" title="Go Data Structures: Interfaces" link="https://research.swtch.com/interfaces" lang="en" >}}
+{{< fig-quote type="markdown" title="Go Data Structures: Interfaces" link="https://research.swtch.com/interfaces" lang="en" >}}
 {{< fig-img src="https://research.swtch.com/gointer1.png" link="https://research.swtch.com/interfaces" >}}
 {{< /fig-quote >}}
 
@@ -129,16 +129,16 @@ type Stringer interface {
 
 ゆえに変数 `s` は以下のように図式化できる。
 
-{{< fig-quote type="md" title="Go Data Structures: Interfaces" link="https://research.swtch.com/interfaces" lang="en" >}}
+{{< fig-quote type="markdown" title="Go Data Structures: Interfaces" link="https://research.swtch.com/interfaces" lang="en" >}}
 {{< fig-img src="https://research.swtch.com/gointer2.png" link="https://research.swtch.com/interfaces" >}}
 {{< /fig-quote >}}
 
 このように interface 型は，型と値への参照を属性に持つオブジェクトとして実装されている。
 
-{{< div-box type="md" >}}
+{{< div-box type="markdown" >}}
 ただし要素が空の `interface{}` 型では
 
-{{< fig-quote type="md" title="Go Data Structures: Interfaces" link="https://research.swtch.com/interfaces" lang="en" >}}
+{{< fig-quote type="markdown" title="Go Data Structures: Interfaces" link="https://research.swtch.com/interfaces" lang="en" >}}
 {{< fig-img src="https://research.swtch.com/gointer3.png" link="https://research.swtch.com/interfaces" >}}
 {{< /fig-quote >}}
 

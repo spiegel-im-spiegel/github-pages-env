@@ -28,7 +28,7 @@ draft = true
 そもそも [duck typing] は Ruby などが採用している「動的型付け」システムにおける型推論の手法（のひとつ）である。
 その名前は [duck test] から来ていて
 
-{{< fig-quote type="md" title="Duck test - Wikipedia" link="https://en.wikipedia.org/wiki/Duck_test" lang="en" >}}
+{{< fig-quote type="markdown" title="Duck test - Wikipedia" link="https://en.wikipedia.org/wiki/Duck_test" lang="en" >}}
 {{< quote >}}If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck.{{< /quote >}}
 {{< /fig-quote >}}
 

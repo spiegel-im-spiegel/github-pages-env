@@ -112,7 +112,7 @@ $ gpg --export-ownertrust > trust.txt
 
 -->
 
-{{% div-box type="md" %}}
+{{% div-box type="markdown" %}}
 **【追記 2018-06-24】**
 最近の GnuPG ではインストール先フォルダが `C:\Program Files (x86)\gnupg` 固定になっている（64bit版 GnuPG for Windows のバイナリ提供はない）。
 古いバージョンで左記のフォルダ以外にインストールしている場合はそのフォルダに上書きインストールされる。

@@ -29,7 +29,7 @@ tags  = [ "tools", "git", "windows", "security", "vulnerability" ]
 
 - [Release Git for Windows 2.17.1 · git-for-windows/git](https://github.com/git-for-windows/git/releases/tag/v2.17.1.windows.1)
 
-{{% fig-quote type="md" title="Release Git for Windows 2.17.1" link="https://github.com/git-for-windows/git/releases/tag/v2.17.1.windows.1" lang="en" %}}
+{{% fig-quote type="markdown" title="Release Git for Windows 2.17.1" link="https://github.com/git-for-windows/git/releases/tag/v2.17.1.windows.1" lang="en" %}}
 - Comes with [Git v2.17.1](https://github.com/git/git/blob/v2.17.1/Documentation/RelNotes/2.17.1.txt).
 - Comes with [Perl v5.26.2](http://search.cpan.org/dist/perl-5.26.2/pod/perldelta.pod).
 - The installer [now offers VS Code Insiders as option for Git's default editor](https://github.com/git-for-windows/build-extra/pull/181) if it is installed.
@@ -52,7 +52,7 @@ tags  = [ "tools", "git", "windows", "security", "vulnerability" ]
 
 - [Release Git for Windows 2.17.1(2) · git-for-windows/git](https://github.com/git-for-windows/git/releases/tag/v2.17.1.windows.2)
 
-{{% fig-quote type="md" title="Release Git for Windows 2.17.1(2)" link="https://github.com/git-for-windows/git/releases/tag/v2.17.1.windows.2" lang="en" %}}
+{{% fig-quote type="markdown" title="Release Git for Windows 2.17.1(2)" link="https://github.com/git-for-windows/git/releases/tag/v2.17.1.windows.2" lang="en" %}}
 - Comes with [Git Credential Manager v1.16.1](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases/tag/v1.16.1).
 - Comes with [Git LFS v2.4.2](https://github.com/git-lfs/git-lfs/releases/tag/v2.4.2).
 {{% /fig-quote %}}

@@ -24,7 +24,7 @@ pageType = "text"
 今回もセキュリティ・アップデートはなし。
 主な機能追加・修正点は以下の通り。
 
-{{< fig-quote type="md" title="GnuPG 2.2.16 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q2/000438.html" lang="en" >}}
+{{< fig-quote type="markdown" title="GnuPG 2.2.16 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q2/000438.html" lang="en" >}}
 * gpg,gpgsm: Fix deadlock on Windows due to a keybox sharing violation.  [#4505]
 * gpg: Allow deletion of subkeys with `--delete-key`.  This finally makes the bang-suffix work as expected for that command.  [#4457]
 * gpg: Replace SHA-1 by SHA-256 in self-signatures when updating them with `--quick-set-expire` or `--quick-set-primary-uid`. [#4508]

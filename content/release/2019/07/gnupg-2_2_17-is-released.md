@@ -31,7 +31,7 @@ Gmail の野郎が [GnuPG] からのアナウンスを迷惑メールとして�
 
 詳細はこちら。
 
-{{< fig-quote type="md" title="GnuPG 2.2.17 released to mitigate attacks on keyservers" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q3/000439.html" lang="en" >}}
+{{< fig-quote type="markdown" title="GnuPG 2.2.17 released to mitigate attacks on keyservers" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q3/000439.html" lang="en" >}}
 * gpg: Ignore all key-signatures received from keyservers.  This change is required to mitigate a DoS due to keys flooded with faked key-signatures.  The old behaviour can be achieved by adding `keyserver-options no-self-sigs-only,no-import-clean` to your `gpg.conf`.  [#4607]
 * gpg: If an imported keyblocks is too large to be stored in the keybox (`pubring.kbx`) do not error out but fallback to an import using the options "`self-sigs-only,import-clean`".  [#4591]
 * gpg: New command `--locate-external-key` which can be used to refresh keys from the Web Key Directory or via other methods configured with `--auto-key-locate`.

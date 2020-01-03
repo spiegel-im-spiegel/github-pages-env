@@ -31,7 +31,7 @@ tags  = [ "programming", "language", "golang", "security", "vulnerability" ]
 
 以下の3つのインシデントに対して修正が行われている。
 
-{{% fig-quote type="md" title="Go 1.11.3 and Go 1.10.6 are released" link="https://groups.google.com/forum/#%21topic/golang-announce/Kw31K8G7Fi0" %}}
+{{% fig-quote type="markdown" title="Go 1.11.3 and Go 1.10.6 are released" link="https://groups.google.com/forum/#%21topic/golang-announce/Kw31K8G7Fi0" %}}
 - cmd/go: remote command execution during "`go get -u`" : The issue is CVE-2018-16873 and Go issue [golang.org/issue/29230](https://golang.org/issue/29230). See the Go issue for details. Thanks to Etienne Stalmans from the Heroku platform security team for discovering and reporting this issue.
 - cmd/go: directory traversal in "`go get`" via curly braces in import paths : The issue is CVE-2018-16874 and Go issue [golang.org/issue/29231](https://golang.org/issue/29231). See the Go issue for details. Thanks to ztz of Tencent Security Platform for discovering and reporting this issue.
 - crypto/x509: CPU denial of service in chain validation : The issue is CVE-2018-16875 and Go issue [golang.org/issue/29233](https://golang.org/issue/29233). See the Go issue for details. Thanks to Netflix for discovering and reporting this issue.

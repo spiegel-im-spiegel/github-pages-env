@@ -31,7 +31,7 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 
 いくつかの起動時オプションが追加された。
 
-{{% fig-quote type="md" title="Release 4.3.1_0" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.1_0" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.3.1_0" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.1_0" lang="en" %}}
 
 - Support Windows10's native ESCAPE SEQUENCE processing with `--no-go-colorable` and `--enable-virtual-terminal-processing`
 - For #304,#312, added options to search for the executable from the current directory
@@ -52,12 +52,12 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 - #314 rmdir がジャンクションを削除できなかった問題を修正
 {{% /fig-quote %}}
 
-{{% div-box type="md" %}}
+{{% div-box type="markdown" %}}
 **【追記 2018-06-24】**
 下記の件は 4.3.1_3 で改修されたようだ。
 `--look-curdir-never` 指定時はカレントディレクトリ直下の `hoge.exe` は `./hoge` でのみ起動する。
 
-{{% div-box type="md" %}}
+{{% div-box type="markdown" %}}
 実行ファイルの検索オプションだが `--look-curdir-never` について `--look-curdir-last` との違いがよく分からなかったり。
 たとえばカレントディレクトリに `hoge.exe` があって PATH 上に同名のファイルが存在しない場合に，どちらのオプションでも
 
@@ -78,7 +78,7 @@ $ hoge
 
 不具合等の改修。
 
-{{% fig-quote type="md" title="Release 4.3.1_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.1_1" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.3.1_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.1_1" lang="en" %}}
 - Remove source code for lua53.dll
 - #317: deadlock when `use "subcomplete"` is enabled and rclone.exe is found.
     - See also: [yuin/gopher-lua#181](https://github.com/yuin/gopher-lua/issues/181)
@@ -100,7 +100,7 @@ $ hoge
 
 不具合等の改修。
 
-{{% fig-quote type="md" title="Release 4.3.1_2" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.1_2" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.3.1_2" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.1_2" lang="en" %}}
 - #320: fix the imcompatibility: nyagos.rawexec & raweval did not expand tables in arguments.
 - --show-version-only enables --norc automatically
 
@@ -114,7 +114,7 @@ $ hoge
 
 不具合等の改修。
 
-{{% fig-quote type="md" title="Release 4.3.1_3" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.1_3" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.3.1_3" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.1_3" lang="en" %}}
 - #316 Fix: zero-length directory-name in %PATH% is regarded as the current directory
 - #321 Fix: key function names `previous_history` & `next_history` were not registered.
 - Add -h and --help option

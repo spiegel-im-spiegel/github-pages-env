@@ -65,7 +65,7 @@ tags = [ "site", "web", "tls", "cryptography" ]
 
 こちらも当面は HTTP と HTTPS の両方とも有効にして運用するが Flickr の写真と Amazon アフィリエイト・リンクの目処が立てば HTTPS 強制にしてもいいかも知れない。
 
-{{< div-box type="md" >}}
+{{< div-box type="markdown" >}}
 *【2019-05-21】* 以下を参考に HTTP 強制にしました。
 
 - [Securing your GitHub Pages site with HTTPS - GitHub Help](https://help.github.com/en/articles/securing-your-github-pages-site-with-https)

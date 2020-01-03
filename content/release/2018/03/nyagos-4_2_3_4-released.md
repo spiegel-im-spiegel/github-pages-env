@@ -31,7 +31,7 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 
 今回は不具合の修正がメインのようだ。
 
-{{% fig-quote type="md" title="Release 4.2.3_4 (bug fixes)" link="https://github.com/zetamatta/nyagos/releases/tag/4.2.3_4" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.2.3_4 (bug fixes)" link="https://github.com/zetamatta/nyagos/releases/tag/4.2.3_4" lang="en" %}}
 - `ls -?` for help instead of `ls -h`
 - Building with go build instead of make.cmd, print version as `snapshot-GOARCH`
 - Show an error when `type DIRECTORY` is executed.

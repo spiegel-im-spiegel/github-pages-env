@@ -45,7 +45,7 @@ tags        = [ "programming", "language" ]
 （[感想文]({{< ref "/remark/2018/02/artificial-intelligence-book.md" >}} "『AI vs. 教科書が読めない子どもたち』を読む")にも書いたが）この本に書かれている将来予測はともかく，読解力に対する調査結果は非常に興味深い。
 以下に一部を挙げてみる。
 
-{{% fig-quote type="md" title="AI vs. 教科書が読めない子どもたち" link="https://www.amazon.co.jp/exec/obidos/ASIN/B0791XCYQG/baldandersinf-22/" %}}
+{{% fig-quote type="markdown" title="AI vs. 教科書が読めない子どもたち" link="https://www.amazon.co.jp/exec/obidos/ASIN/B0791XCYQG/baldandersinf-22/" %}}
 - 中学校を卒業する段階で、約3割が（内容理解を伴わない）表層的な読解もできない
 - 学力中位の高校でも、半数以上が内容理解を要する読解はできない
 - 進学率100%の進学校でも、内容理解を要する読解問題の正答率は50%強程度である

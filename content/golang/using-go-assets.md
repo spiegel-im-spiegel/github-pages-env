@@ -28,7 +28,7 @@ tags = [ "golang", "package", "programming" ]
 
 というわけで，この記事では [jessevdk/go-assets] の使い方を簡単に紹介する。
 
-{{< div-box type="md" >}}
+{{< div-box type="markdown" >}}
 ## 【2019-09-15 追記】
 
 [jessevdk/go-assets] は長い間メンテナンスされてないらしい。

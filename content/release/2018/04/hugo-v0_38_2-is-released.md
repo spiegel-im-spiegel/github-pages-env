@@ -31,7 +31,7 @@ tags  = [ "tools", "hugo" ]
 
 不具合の修正がメインのようだ。
 
-{{% fig-quote type="md" title="Release v0.38.2" link="https://github.com/gohugoio/hugo/releases/tag/v0.38.2" lang="en" %}}
+{{% fig-quote type="markdown" title="Release v0.38.2" link="https://github.com/gohugoio/hugo/releases/tag/v0.38.2" lang="en" %}}
 This is a bug-fix release with a couple of important fixes:
 
 - Fix handling of the `--contentDir` and possibly other related flags 080302eb @bep #4589

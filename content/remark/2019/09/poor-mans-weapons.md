@@ -19,14 +19,14 @@ pageType = "text"
 
 かつて民生品 drone は「空の産業革命」などと呼ばれてきたが，ついに恐れていた事態が現実となった。
 
-{{< fig-quote type="md" title="日本のアトムは空を飛べない" link="https://baldanders.info/blog/000858/" >}}
+{{< fig-quote type="markdown" title="日本のアトムは空を飛べない" link="https://baldanders.info/blog/000858/" >}}
 {{< quote >}}個人的に危惧してるのは， drone がいわゆる「貧者の兵器」となり得ることだ。
 9.11 前の日本ならともかく，イラク戦争に参戦し，さらに火中の栗を拾うが如き「集団的自衛権」なるものを定めるのであれば，兵器としての drone についてもちゃんと議論すべきである。{{< /quote >}}
 {{< /fig-quote >}}
 
 今回の件が厄介なのは
 
-{{< fig-quote type="md" title="サウジ石油施設への攻撃はGCC諸国の脆弱性を露呈" link="https://baldanders.info/blog/000858/" >}}
+{{< fig-quote type="markdown" title="サウジ石油施設への攻撃はGCC諸国の脆弱性を露呈" link="https://baldanders.info/blog/000858/" >}}
 {{< quote >}}「もしイランに対する攻撃を行えば、イランはきわめて安価な兵器を用いて容易にサウジ・UAE・クウェート等の石油施設を破壊できる」ということが、この攻撃によって示された。ペルシア湾岸地域の勢力バランスが、イランによる安価な実際的な兵器の開発と配備と運用実績の積み上げによって、大きく変わってしまっていた。{{< /quote >}}
 {{< /fig-quote >}}
 

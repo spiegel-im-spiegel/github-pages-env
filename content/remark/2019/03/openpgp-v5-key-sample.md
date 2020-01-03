@@ -21,7 +21,7 @@ pageType = "text"
 
 全文引用ご容赦。
 
-{{% fig-gen type="md" title="v5 sample key" link="https://mailarchive.ietf.org/arch/msg/openpgp/9SheW_LENE0Kxf7haNllovPyAdY" lang="en" %}}
+{{% fig-gen type="markdown" title="v5 sample key" link="https://mailarchive.ietf.org/arch/msg/openpgp/9SheW_LENE0Kxf7haNllovPyAdY" lang="en" %}}
 ```text
 Hi!
 

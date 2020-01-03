@@ -22,7 +22,7 @@ pageType = "text"
 - [Launching a new keyserver! - keys.openpgp.org](https://keys.openpgp.org/about/news#2019-06-12-launch)
 - [sequoia-pgp / hagrid · GitLab](https://gitlab.com/sequoia-pgp/hagrid)
 
-{{< fig-quote type="md" title="Launching a new keyserver!" link="https://keys.openpgp.org/about/news#2019-06-12-launch" lang="en" >}}
+{{< fig-quote type="markdown" title="Launching a new keyserver!" link="https://keys.openpgp.org/about/news#2019-06-12-launch" lang="en" >}}
 * Fast and reliable. No wait times, no downtimes, no inconsistencies.
 * Precise. Searches return only a single key, which allows for easy key discovery.
 * Validating. Identities are only published with consent, while non-identity information is freely distributed.

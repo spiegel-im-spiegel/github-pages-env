@@ -25,7 +25,7 @@ pageType = "text"
 今回もセキュリティ・アップデートはなし。
 主な機能追加・修正点は以下の通り。
 
-{{% fig-quote type="md" title="GnuPG 2.2.15 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q1/000436.html" lang="en" %}}
+{{% fig-quote type="markdown" title="GnuPG 2.2.15 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q1/000436.html" lang="en" %}}
 * sm: Fix `--logger-fd` and `--status-fd` on Windows for non-standard file descriptors.
 * sm: Allow decryption even if expired keys are configured.  [#4431]
 * agent: Change command KEYINFO to print ssh fingerprints with other hash algos.

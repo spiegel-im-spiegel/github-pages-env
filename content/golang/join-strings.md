@@ -14,7 +14,7 @@ tags = ["golang", "string", "join", "benchmark"]
 [前回]につづき [string] の話題。
 [Go 言語]で文字列の連結を行う際にどうやるのが一番速いか，という話。
 
-{{< div-box type="md" >}}
+{{< div-box type="markdown" >}}
 **【2019-10-13 追記】** [改訂版]({{< relref "./join-strings-2.md" >}})を公開しました。
 {{< /div-box >}}
 

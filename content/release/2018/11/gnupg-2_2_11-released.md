@@ -40,7 +40,7 @@ tags = [
 今回もセキュリティ・アップデートはなし。
 主な修正点は以下の通り（2.2.10 と併せて載せておきます）。
 
-{{% fig-quote type="md" title="GnuPG 2.2.10 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2018q3/000428.html" lang="en" %}}
+{{% fig-quote type="markdown" title="GnuPG 2.2.10 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2018q3/000428.html" lang="en" %}}
 - gpg: Refresh expired keys originating from the WKD.  [#2917]
 - gpg: Use a 256 KiB limit for a WKD imported key.
 - gpg: New option `--known-notation`.  [#4060]
@@ -49,7 +49,7 @@ tags = [
 - dirmngr: Validate SRV records in WKD queries.
 {{% /fig-quote %}}
 
-{{% fig-quote type="md" title="GnuPG 2.2.11 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2018q4/000432.html" lang="en" %}}
+{{% fig-quote type="markdown" title="GnuPG 2.2.11 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2018q4/000432.html" lang="en" %}}
 * gpgsm: Fix CRL loading when intermediate certicates are not yet trusted.
 * gpgsm: Fix an error message about the digest algo.  [#4219]
 * gpg: Fix a wrong warning due to new sign usage check introduced with 2.2.9.  [#4014]

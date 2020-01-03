@@ -22,7 +22,7 @@ pageType = "text"
 
 - [AppleやFacebookが法執行機関向けバックドアを作らないなら暗号化を法律で規制する――米上院議員 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/1912/11/news073.html)
 
-{{< fig-quote type="md" title="AppleやFacebookが法執行機関向けバックドアを作らないなら暗号化を法律で規制する" link="https://www.itmedia.co.jp/news/articles/1912/11/news073.html" >}}
+{{< fig-quote type="markdown" title="AppleやFacebookが法執行機関向けバックドアを作らないなら暗号化を法律で規制する" link="https://www.itmedia.co.jp/news/articles/1912/11/news073.html" >}}
 {{< quote >}}Facebookは今回の公聴会の前に、ウィリアム・バー米司法長官宛の公開書簡で、「あなたが要求する“バックドア”は、犯罪者、ハッカー、抑圧的な政権へのプレゼントになってしまう。バックドアはそうした人々がわれわれのシステムに侵入することを許し、プラットフォーム上の人々を危険にさらす。バックドアを1つの目的のためだけに作成し、他の目的で開けないようにすることは技術的に不可能だ」と説明した{{< /quote >}}。
 {{< /fig-quote >}}
 
@@ -30,7 +30,7 @@ pageType = "text"
 これは純然たる「暴力」であれば通用するかもしれないが「情報力」に関しては前提が崩れてしまう。
 理由は単純で
 
-{{< div-gen type="md" class="center" >}}
+{{< div-gen type="markdown" class="center" >}}
 **警察にできることは犯罪者にもできる**
 {{< /div-gen >}}
 
@@ -55,11 +55,11 @@ pageType = "text"
 
 - [MIT Tech Review: 米議会がアップル・FBにバックドア設置を要求、「法制化」脅しも](https://www.technologyreview.jp/nl/us-senators-on-encryption-back-doors-we-will-impose-our-will-on-apple-and-facebook/)
 
-{{< fig-quote type="md" title="Computer Crime Hype - Schneier on Security" link="https://www.schneier.com/blog/archives/2005/12/computer_crime_1.html" lang="en" >}}
+{{< fig-quote type="markdown" title="Computer Crime Hype - Schneier on Security" link="https://www.schneier.com/blog/archives/2005/12/computer_crime_1.html" lang="en" >}}
 {{< quote >}}Beware the Four Horsemen of the Information Apocalypse: terrorists, drug dealers, kidnappers, and child pornographers. Seems like you can scare any public into allowing the government to do anything with those four.{{< /quote >}}
 {{< /fig-quote >}}
 
-{{< fig-quote type="md" title="Scaring People into Supporting Backdoors - Schneier on Security" link="https://www.schneier.com/blog/archives/2005/12/computer_crime_1.html" lang="en" >}}
+{{< fig-quote type="markdown" title="Scaring People into Supporting Backdoors - Schneier on Security" link="https://www.schneier.com/blog/archives/2005/12/computer_crime_1.html" lang="en" >}}
 {{< quote >}}Since the terrorist attacks of 9/11, the US government has been pushing the terrorist scare story. Recently, it seems to have switched to pedophiles and child exploitation.{{< /quote >}}
 {{< /fig-quote >}}
 

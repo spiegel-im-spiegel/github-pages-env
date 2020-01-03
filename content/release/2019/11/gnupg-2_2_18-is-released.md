@@ -27,7 +27,7 @@ pageType = "text"
 
 今回は（[GnuPG] 自体には）脆弱性もなく通常のメンテナンス・リリースなのだが，ひとつ大きな修正というか対策があって
 
-{{< fig-quote type="md" title="GnuPG 2.2.18 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q4/000442.html" lang="en" >}}
+{{< fig-quote type="markdown" title="GnuPG 2.2.18 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q4/000442.html" lang="en" >}}
 {{< quote >}}This release also retires the use of SHA-1 key signatures created since this year.{{< /quote >}}
 {{< /fig-quote >}}
 
@@ -51,7 +51,7 @@ $ gpg -a --export alice@example.com | gpgpdump
 
 その他，詳細はこちら。
 
-{{< fig-quote type="md" title="GnuPG 2.2.18 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q4/000442.html" lang="en" >}}
+{{< fig-quote type="markdown" title="GnuPG 2.2.18 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q4/000442.html" lang="en" >}}
 * gpg: Changed the way keys are detected on a smartcards; this allows the use of non-OpenPGP cards.  In the case of a not very likely regression the new option `--use-only-openpgp-card` is available.  [#4681]
 * gpg: The commands `--full-gen-key` and `--quick-gen-key` now allow direct key generation from supported cards.  [#4681]
 * gpg: Prepare against chosen-prefix SHA-1 collisions in key signatures.  This change removes all SHA-1 based key signature newer than 2019-01-19 from the web-of-trust.  Note that this includes all key signature created with dsa1024 keys.  The new option `--allow-weak-key-signatues` can be used to override the new and safer behaviour.  [#4755,CVE-2019-14855]

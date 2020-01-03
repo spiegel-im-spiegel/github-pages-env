@@ -40,7 +40,7 @@ tags = [ "censorship", "internet", "code", "law", "politics" ]
 
 なお，この記事は随時・加筆修正していく。
 
-{{% div-box type="md" %}}
+{{% div-box type="markdown" %}}
 あらかじめ言っておくが，私は海賊版サイトを擁護するつもりはひと欠片もない。
 ただし，[海賊版サイトをゼロにすることは不可能](http://p2ptk.org/copyright/715 "日本では知られていない海賊版の新潮流 – P2Pとかその辺のお話R")であることも知っている。
 これはインセンティブの問題なのだ。

@@ -24,13 +24,13 @@ pageType = "text"
 
 - [CVE-2019-13627](https://nvd.nist.gov/vuln/detail/CVE-2019-13627)
 
-{{< fig-quote type="md" title="Libgcrypt 1.8.5 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q3/000440.html" lang="en" >}}
+{{< fig-quote type="markdown" title="Libgcrypt 1.8.5 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q3/000440.html" lang="en" >}}
 {{< quote >}}This release fixes an ECDSA side-channel attack.{{< /quote >}}
 {{< /fig-quote >}}
 
 以上を含む主な変更点は以下のとおりだ。
 
-{{< fig-quote type="md" title="Libgcrypt 1.8.5 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q3/000440.html" lang="en" >}}
+{{< fig-quote type="markdown" title="Libgcrypt 1.8.5 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q3/000440.html" lang="en" >}}
 - Bug fixes:
    - Add mitigation against an ECDSA timing attack. [T4626,CVE-2019-13627]
    - Improve ECDSA unblinding.

@@ -30,7 +30,7 @@ tags  = [ "tools", "hugo" ]
 
 不具合の修正がメインのようだ。
 
-{{% fig-quote type="md" title="Release v0.38.1" link="https://github.com/gohugoio/hugo/releases/tag/v0.38.1" lang="en" %}}
+{{% fig-quote type="markdown" title="Release v0.38.1" link="https://github.com/gohugoio/hugo/releases/tag/v0.38.1" lang="en" %}}
 This is a bug-fix that is mainly motivated by some issues with server live reloading introduced in Hugo 0.38.
 
 - Fix livereload for the home page bundle f87239e4 @bep #4576

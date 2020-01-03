@@ -23,7 +23,7 @@ tags = [
 今回もセキュリティ・アップデートはなし。
 主な機能追加・修正点は以下の通り。
 
-{{% fig-quote type="md" title="GnuPG 2.2.13 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q1/000434.html" lang="en" %}}
+{{% fig-quote type="markdown" title="GnuPG 2.2.13 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q1/000434.html" lang="en" %}}
 * gpg: Implement key lookup via keygrip (using the & prefix).
 * gpg: Allow generating Ed25519 key from existing key.
 * gpg: Emit an ERROR status line if no key was found with `-k`.

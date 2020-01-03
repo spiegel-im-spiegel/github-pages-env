@@ -31,7 +31,7 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 
 細かい機能の変更や修正がメイン。
 
-{{% fig-quote type="md" title="Release 4.2.4_0" link="https://github.com/zetamatta/nyagos/releases/tag/4.2.4_0" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.2.4_0" link="https://github.com/zetamatta/nyagos/releases/tag/4.2.4_0" lang="en" %}}
 - lua: ole: `variable = OLE.property` is avaliable instead of `OLE:_get('property')`
 - lua: ole: `OLE.property = value` is avaliable instead of `OLE:_set('property',value)`
 - Load `nyagos.d/*.ny` as batchlike file

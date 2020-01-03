@@ -45,7 +45,7 @@ Tweet された方や「某大の講師の方」がどのようなつもりで�
 
 というわけで私は
 
-{{< div-gen type="md" class="center" >}}
+{{< div-gen type="markdown" class="center" >}}
 **パズル好きこそプログラマに向いている**
 {{< /div-gen >}}
 

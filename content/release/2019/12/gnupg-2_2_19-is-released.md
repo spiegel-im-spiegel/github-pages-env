@@ -24,7 +24,7 @@ pageType = "text"
 この前[リリースされた 2.2.18]({{< ref "/release/2019/11/gnupg-2_2_18-is-released.md" >}}) で regression があったようだ。
 詳細はこちら。
 
-{{< fig-quote type="md" title="GnuPG 2.2.19 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q4/000443.html" lang="en" >}}
+{{< fig-quote type="markdown" title="GnuPG 2.2.19 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2019q4/000443.html" lang="en" >}}
 * gpg: Fix double free when decrypting for hidden recipients. Regression in 2.2.18.  [#4762].
 * gpg: Use `auto-key-locate` for encryption even for mail addressed given with angle brackets.  [#4726]
 * gpgsm: Add special case for certain expired intermediate certificates.  [#4696]

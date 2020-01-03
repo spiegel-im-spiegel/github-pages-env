@@ -49,7 +49,7 @@ Electron が3系になったおかげで [Ubuntu] 環境でメニューバーの
 
 エディタ上でターミナルが使えないのはめっさ不便なんだが。
 
-{{< div-box type="md" >}}
+{{< div-box type="markdown" >}}
 **追記 2019-07-30**
 
 直った。
@@ -88,7 +88,7 @@ ripgrep 0.10.0
 
 対応しているバージョンを見ると，一見 snap 版の [ripgrep] のほうが良さげだが
 
-{{< fig-quote type="md" lang="en" title="BurntSushi/ripgrep: ripgrep recursively searches directories for a regex pattern" link="https://github.com/BurntSushi/ripgrep" >}}
+{{< fig-quote type="markdown" lang="en" title="BurntSushi/ripgrep: ripgrep recursively searches directories for a regex pattern" link="https://github.com/BurntSushi/ripgrep" >}}
 {{< quote >}}N.B. Various snaps for ripgrep on Ubuntu are also available, but none of them seem to work right and generate a number of very strange bug reports that I don't know how to fix and don't have the time to fix. Therefore, it is no longer a recommended installation option.{{< /quote >}}
 {{< /fig-quote >}}
 

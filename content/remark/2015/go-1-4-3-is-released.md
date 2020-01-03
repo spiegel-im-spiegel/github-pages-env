@@ -37,7 +37,7 @@ CVSS 基本評価値 6.8 (AV:N/AC:M/Au:N/C:P/I:P/A:P) （暫定値）
 - [access.redhat.com | CVE-2015-5740](https://access.redhat.com/security/cve/CVE-2015-5740)
 - [access.redhat.com | CVE-2015-5741](https://access.redhat.com/security/cve/CVE-2015-5741)
 
-{{% fig-gen type="md" title="CVSSv2 基本評価値" %}}
+{{% fig-gen type="markdown" title="CVSSv2 基本評価値" %}}
 | 基本評価基準                            | 評価値            |
 |----------------------------------------:|:------------------|
 | 攻撃元区分（AV）                        | ネットワーク（N） |

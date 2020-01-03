@@ -28,7 +28,7 @@ UNIX 系プラットフォームには当然のようにある [grep] だが Win
 - [Big Sky :: 日本語grepが出来るjvgrepというのを作った。](https://mattn.kaoriya.net/software/lang/go/20110819203649.htm)
     - [mattn/jvgrep: grep for japanese vimmer](https://github.com/mattn/jvgrep)
 
-{{% fig-quote type="md" title="日本語grepが出来るjvgrepというのを作った。" link="https://mattn.kaoriya.net/software/lang/go/20110819203649.htm" %}}
+{{% fig-quote type="markdown" title="日本語grepが出来るjvgrepというのを作った。" link="https://mattn.kaoriya.net/software/lang/go/20110819203649.htm" %}}
 “vimgrepの様に複数のエンコーディングに対応していて、検索パターンにマルチバイト文字を含んだ正規表現が使えて、windowsでもちゃんと動いて、ついでといっちゃあなんだが、`"**/*.txt"`で再帰検索してくれる様なgrep無いかなぁと思ってたんですが、やっぱり無いので作りました。”
 {{% /fig-quote %}}
 

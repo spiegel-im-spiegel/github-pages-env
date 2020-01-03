@@ -17,7 +17,7 @@ pageType = "text"
 
 - [Go Module Mirror and Checksum Database in Beta! - Google Group](https://groups.google.com/forum/#!topic/golang-announce/0wo8cOhGuAI)
 
-{{< div-box type="md" >}}
+{{< div-box type="markdown" >}}
 **【2019-09-01 追記】**
 
 2019年8月に [proxy.golang.org], [sum.golang.org] および [index.golang.org] が正式にサービスを開始した。

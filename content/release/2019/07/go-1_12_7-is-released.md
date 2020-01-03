@@ -16,7 +16,7 @@ pageType = "text"
 
 - [Go 1.12.7 and Go 1.11.12 are released - Google Group](https://groups.google.com/forum/#!topic/golang-announce/-JidGVRIVEc)
 
-{{< fig-quote type="md" title="Release History - The Go Programming Language" link="https://golang.org/doc/devel/release.html#go1.12.minor" lang="en" >}}
+{{< fig-quote type="markdown" title="Release History - The Go Programming Language" link="https://golang.org/doc/devel/release.html#go1.12.minor" lang="en" >}}
 {{< quote >}}go1.12.7 (released 2019/07/08) includes fixes to cgo, the compiler, and the linker. See the [Go 1.12.7 milestone](https://github.com/golang/go/issues?q=milestone%3AGo1.12.7) on our issue tracker for details.{{< /quote >}}
 {{< /fig-quote >}}
 

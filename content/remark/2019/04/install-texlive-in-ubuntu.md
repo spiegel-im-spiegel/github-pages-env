@@ -151,7 +151,7 @@ $ sudo tlmgr path remove
 
 とすれば安全に処理できる。
 
-{{< div-box type="md" >}}
+{{< div-box type="markdown" >}}
 
 ### 環境変数の指定
 

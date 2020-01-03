@@ -105,7 +105,7 @@ tags = ["code", "law", "intellectual-property", "copyright", "tpp", "access-cont
 
 どういったものが親告罪/非親告罪の対象になるかという例示は以下に示されている。
 
-{{% fig-gen type="md" title="環太平洋パートナーシップ協定の締結及び環太平洋パートナーシップに関する包括的及び先進的な協定の締結に伴う関係法律の整備に関する法律の概要（著作権法関係）" link="http://www.bunka.go.jp/seisaku/chosakuken/hokaisei/kantaiheiyo_hokaisei/pdf/r1408266_01.pdf" %}}
+{{% fig-gen type="markdown" title="環太平洋パートナーシップ協定の締結及び環太平洋パートナーシップに関する包括的及び先進的な協定の締結に伴う関係法律の整備に関する法律の概要（著作権法関係）" link="http://www.bunka.go.jp/seisaku/chosakuken/hokaisei/kantaiheiyo_hokaisei/pdf/r1408266_01.pdf" %}}
 | 非親告罪となる侵害行為の例                 | 親告罪のままとなる行為の例           |
 | ------------------------------------------ | ------------------------------------ |
 | 販売中の漫画や小説本の海賊版を販売する行為 | 漫画等の同人誌をコミケで販売する行為 |

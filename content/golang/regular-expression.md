@@ -67,7 +67,7 @@ if !re.Copy().MatchString(s) {
 }
 ```
 
-{{< div-box type="md" >}}
+{{< div-box type="markdown" >}}
 【追記 2019-02-26】 [Go 1.12]({{< ref "/release/2019/02/go-1_12-is-released.md" >}}) からは [`regexp`](https://golang.org/pkg/regexp/ "regexp - The Go Programming Language")`.Regexp.Copy()` 関数は必要なくなった。
 ブラボー！
 {{< /div-box >}}

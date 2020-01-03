@@ -18,7 +18,7 @@ tags = [ "code", "politics", "internet", "blockchain", "grigori" ]
 
 一部を抜き出す。
 
-{{< fig-quote type="md" title="JavaScriptの生みの親ブレンダン・アイクが語る「壊れてしまったウェブの正し方」" link="http://d.hatena.ne.jp/yomoyomo/20180521/webisbroken" >}}
+{{< fig-quote type="markdown" title="JavaScriptの生みの親ブレンダン・アイクが語る「壊れてしまったウェブの正し方」" link="http://d.hatena.ne.jp/yomoyomo/20180521/webisbroken" >}}
 要点を日本語に訳しておく。
 
 - 壊れてしまったウェブを正す：監視資本主義（surveillance capitalism）が大手を振り、消費者はプライバシーやデータのやり取りに疲弊している

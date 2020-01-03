@@ -37,7 +37,7 @@ tags  = [ "tools", "nyagos", "shell", "windows", "lua", "golang" ]
 
 以下に変更点をまとめて紹介する。
 
-{{% fig-quote type="md" title="Release 4.3.0_0" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.0_0" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.3.0_0" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.0_0" lang="en" %}}
 - **Use Gopher-Lua instead of lua53.dll** #300
     - nyagos with lua53.dll (mains.exe) can be built with `cd mains ; go build`
     - nyagos with no Lua (ngs.exe) can be built with `cd ngs ; go build`
@@ -83,7 +83,7 @@ Powered by GopherLua 0.1
 
 [NYAGOS] で [GopherLua] を組み込んでくれるのなら，是非ソースコードも読んでノウハウを勉強したい。
 
-{{% div-box type="md" %}}
+{{% div-box type="markdown" %}}
 **【追記 2018-05-07】** 4.3.0 にアップグレードして起動した際に
 
 ```text
@@ -103,7 +103,7 @@ C:\Users\username\AppData\Roaming\NYAOS_ORG\amd64.nyagos.luac line:1(column:1) n
 
 不具合の修正のみ。
 
-{{% fig-quote type="md" title="Release 4.3.0_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.0_1" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.3.0_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.0_1" lang="en" %}}
 - Fix: nyagos.d/start.lua did not worked because the member `rawargs` of alias-function's argument was not implemented.
 - Fix: the return value of alias-function was not evaluted.
 - Fix: for the script in -e option, `arg[]` was not assinged.
@@ -125,7 +125,7 @@ C:\Users\username\AppData\Roaming\NYAOS_ORG\amd64.nyagos.luac line:1(column:1) n
 
 不具合の修正のみ。
 
-{{% fig-quote type="md" title="Release 4.3.0_2" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.0_2" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.3.0_2" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.0_2" lang="en" %}}
 - #305: Fix issue that user's .nyagos was not loaded again (Thx! @erw7)
 
 ----
@@ -140,7 +140,7 @@ C:\Users\username\AppData\Roaming\NYAOS_ORG\amd64.nyagos.luac line:1(column:1) n
 不具合の修正。
 着々と改善されています。
 
-{{% fig-quote type="md" title="Release 4.3.0_3" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.0_3" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.3.0_3" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.0_3" lang="en" %}}
 - Fix: forgot implement nyagos.setalias , nyagos.getalias (`alias { CMD=XXX}` did not work.)
 - Fix: that the element [0] of the table value returned by alias-function was not used as the new command name to evaluate.
 - Fix: `doc/09-Build_*.md` about how to download sourcefiles from github
@@ -159,7 +159,7 @@ C:\Users\username\AppData\Roaming\NYAOS_ORG\amd64.nyagos.luac line:1(column:1) n
 不具合の修正。
 着々と改善されています。
 
-{{% fig-quote type="md" title="Release 4.3.0_3" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.0_3" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.3.0_3" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.0_3" lang="en" %}}
 - Fix: #309 nyagos.getkey() raised panic (Thx @nocd5)
 - Fix: error-message when command `lnk`'s target is not `*.lnk` nor exist.
 - Fix: the cursor blink was switched to off on the child process.

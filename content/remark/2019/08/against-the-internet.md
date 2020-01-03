@@ -17,7 +17,7 @@ pageType = "text"
 
 今回の記事に関して
 
-{{< fig-quote type="md" title="「インターノット」の敗北 | おごちゃんの雑文" link="http://www.nurs.or.jp/~ogochan/essay/archives/5487"  >}}
+{{< fig-quote type="markdown" title="「インターノット」の敗北 | おごちゃんの雑文" link="http://www.nurs.or.jp/~ogochan/essay/archives/5487"  >}}
 {{< quote >}}多くの場合「マスターリポジトリ」はGitHubにあったりする。社内の開発であってもGitHubのプライベートサービスを使って行なわれたりする(今回アクセスが遮断されたのはそこである。OSSな公開リポジトリは関係ない)。開発の中心にGitHubがあるために、GitHubにアクセス出来ないと協調が出来なくなってしまう。元々、そういったことがないように分散リポジトリを提供していたはずのgitが、GitHubを使うことによって「ちょっと便利なcvs」くらいになってしまった{{< /quote >}}
 {{< /fig-quote  >}}
 

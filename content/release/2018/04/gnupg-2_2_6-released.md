@@ -38,7 +38,7 @@ tags = [
 今回もセキュリティ・アップデートはなし。
 主な修正点は以下の通り。
 
-{{% fig-quote type="md" title="GnuPG 2.2.6 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2018q2/000421.html" lang="en" %}}
+{{% fig-quote type="markdown" title="GnuPG 2.2.6 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2018q2/000421.html" lang="en" %}}
 * gpg,gpgsm: New option `--request-origin` to pretend requests coming from a browser or a remote site.
 * gpg: Fix race condition on trustdb.gpg updates due to too early released lock.  [#3839]
 * gpg: Emit FAILURE status lines in almost all cases.  [#3872]

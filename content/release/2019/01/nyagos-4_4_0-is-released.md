@@ -17,7 +17,7 @@ tags  = [ "tools", "nyagos", "shell", "windows", "linux" ]
 
 変更点は以下の通り。
 
-{{% fig-quote type="md" title="Release 4.4.0_beta" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.0_beta" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.4.0_beta" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.0_beta" lang="en" %}}
 - Support Linux (experimental)
 - Fix the problem that current directories per drive were not inherited to child processes.
 - Use the library "mattn/go-tty" instead of "zetamatta/go-getch"
@@ -46,7 +46,7 @@ tags  = [ "tools", "nyagos", "shell", "windows", "linux" ]
 {{% /fig-quote %}}
 
 
-{{% fig-quote type="md" title="Release 4.4.0_0" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.0_0" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.4.0_0" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.0_0" lang="en" %}}
 - Remove beta
 - To call a batchfile, stop to use `/V:ON` for CMD.EXE
 
@@ -66,7 +66,7 @@ tags  = [ "tools", "nyagos", "shell", "windows", "linux" ]
 
 - [Release 4.4.0_1 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.4.0_1)
 
-{{% fig-quote type="md" title="Release 4.4.0_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.0_1" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.4.0_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.0_1" lang="en" %}}
 - Abolished "--go-colorable" and "--enable-virtual-terminal-processing"
 - Implemented `killall`
 - Implemented `copy` and `move` for Linux

@@ -14,7 +14,7 @@ pageType = "text"
 [Mersenne Twister] とは[松本眞](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/ "Makoto Matsumoto Home Page")・西村拓士両氏によって1996年に発表された擬似乱数生成アルゴリズムである。
 他の擬似乱数生成アルゴリズムと比べて以下の特徴があるそうだ。
 
-{{< fig-quote type="md" title="Mersenne Twister とは?" link="http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/what-is-mt.html" >}}
+{{< fig-quote type="markdown" title="Mersenne Twister とは?" link="http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/what-is-mt.html" >}}
 - 従来の様々な生成法の欠点を考慮して設計されています
 - 従来にない長周期, 高次元均等分布を持ちます（周期が $2^{19937}-1$ で、623次元超立方体の中に 均等に分布することが証明されています）
 - 生成速度がかなり速い

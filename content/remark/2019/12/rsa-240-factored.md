@@ -15,7 +15,7 @@ pageType = "text"
 
 RSA challenge list のうち RSA-240 が解けたようだ。
 
-{{< fig-gen type="md" title="795-bit factoring and discrete logarithms" link="https://listserv.nodak.edu/cgi-bin/wa.exe?A2=NMBRTHRY;fd743373.1912&FT=M&P=T&H=&S=" >}}
+{{< fig-gen type="markdown" title="795-bit factoring and discrete logarithms" link="https://listserv.nodak.edu/cgi-bin/wa.exe?A2=NMBRTHRY;fd743373.1912&FT=M&P=T&H=&S=" >}}
 
 ```
 We are pleased to announce the factorization of RSA-240, from RSA's challenge
@@ -41,7 +41,7 @@ follows.
 
 なお
 
-{{< fig-quote type="md" title="795-bit factoring and discrete logarithms" link="https://listserv.nodak.edu/cgi-bin/wa.exe?A2=NMBRTHRY;fd743373.1912&FT=M&P=T&H=&S=" lang="en" >}}
+{{< fig-quote type="markdown" title="795-bit factoring and discrete logarithms" link="https://listserv.nodak.edu/cgi-bin/wa.exe?A2=NMBRTHRY;fd743373.1912&FT=M&P=T&H=&S=" lang="en" >}}
 The previous records were RSA-768 (768 bits) in December 2009[^rsa2], and a 768-bit prime discrete logarithm in June 2016[^rsa3].
 
 It is the first time that two records for integer factorization and discrete

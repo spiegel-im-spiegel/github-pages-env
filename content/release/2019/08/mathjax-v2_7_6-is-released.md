@@ -17,7 +17,7 @@ Web ブラウザ上で高品質な数式表現を行うための JavaScript パ�
 
 今回はメンテナンス・リリースで [MathJax] v3 正式リリースに向けた修正のようだ。
 
-{{< fig-quote type="md" title="MathJax v2.7.6 now available" link="https://www.mathjax.org/mathjax-v2-7-6-now-available/" lang="en" >}}
+{{< fig-quote type="markdown" title="MathJax v2.7.6 now available" link="https://www.mathjax.org/mathjax-v2-7-6-now-available/" lang="en" >}}
 {{< quote >}}This is a maintenance release that fixes an issue with the latest.js file that is used to obtain the most current 2.x version of MathJax from one of the CDNs that serves MathJax. The problem is that the most current version is only obtained if the highest version on the CDN is version 2.x.y for some x and y, so when MathJax goes to version 3.0.0 (scheduled for August 31st), latest.js will find that the current CDN version is 3.0.0 and (correctly) will not switch to that, but instead will (incorrectly) use the version from which latest.js was loaded rather than the highest 2.x.y available. This means that when version 3.0 is released, sites using latest.js will fall back from version 2.7.5 to the version that they specified for latests.js. MathJax will still run on those pages, but it may be an earlier version than you have been getting in the past.{{< /quote >}}
 {{< /fig-quote >}}
 

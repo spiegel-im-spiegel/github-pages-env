@@ -17,7 +17,7 @@ pageType = "text"
 
 今回もセキュリティ・アップデートはなし。
 
-{{< fig-quote type="md" title="Release History - The Go Programming Language" link="https://golang.org/doc/devel/release.html#go1.13.minor" lang="en" >}}
+{{< fig-quote type="markdown" title="Release History - The Go Programming Language" link="https://golang.org/doc/devel/release.html#go1.13.minor" lang="en" >}}
 {{< quote >}}go1.13.5 (released 2019/12/04) includes fixes to the go command, the runtime, the linker, and the `net/http` package. See the [Go 1.13.5 milestone](https://github.com/golang/go/issues?q=milestone%3AGo1.13.5) on our issue tracker for details{{< /quote >}}.
 {{< /fig-quote >}}
 

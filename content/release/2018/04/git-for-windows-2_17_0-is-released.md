@@ -28,7 +28,7 @@ tags  = [ "tools", "git", "windows", "openssl", "security", "vulnerability" ]
 
 - [Release Git for Windows 2.17.0 · git-for-windows/git](https://github.com/git-for-windows/git/releases/tag/v2.17.0.windows.1)
 
-{{% fig-quote type="md" title="Release Git for Windows 2.17.0" link="https://github.com/git-for-windows/git/releases/tag/v2.17.0.windows.1" lang="en" %}}
+{{% fig-quote type="markdown" title="Release Git for Windows 2.17.0" link="https://github.com/git-for-windows/git/releases/tag/v2.17.0.windows.1" lang="en" %}}
 - Comes with [Git v2.17.0](https://github.com/git/git/blob/v2.17.0/Documentation/RelNotes/2.17.0.txt).
 - Comes with [OpenSSL v1.0.2o](https://www.openssl.org/news/openssl-1.0.2-notes.html).
 - Comes with [Git Credential Manager v1.15.2](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases/tag/v1.15.2).

@@ -104,7 +104,7 @@ For more information, see 'go help module-auth'.
 
 これによると公式サービスでは以下の情報を収集しているようだ。
 
-{{< fig-quote type="md" title="Privacy: Go modules services" link="https://proxy.golang.org/privacy" lang="en" >}}
+{{< fig-quote type="markdown" title="Privacy: Go modules services" link="https://proxy.golang.org/privacy" lang="en" >}}
 - Request timestamp
 - Client IP address
 - Full request URL, including:
@@ -121,13 +121,13 @@ For more information, see 'go help module-auth'.
 
 取得した情報については
 
-{{< fig-quote type="md" title="Privacy: Go modules services" link="https://proxy.golang.org/privacy" lang="en" >}}
+{{< fig-quote type="markdown" title="Privacy: Go modules services" link="https://proxy.golang.org/privacy" lang="en" >}}
 {{< quote >}}We do not store logged personally identifiable information such as IP addresses for more than 30 days. We also do not correlate or combine information from our request logs with any personal information that you have provided Google for other services.{{< /quote >}}
 {{< /fig-quote >}}
 
 ということらしいが，最後の
 
-{{< fig-quote type="md" title="Privacy: Go modules services" link="https://proxy.golang.org/privacy" lang="en" >}}
+{{< fig-quote type="markdown" title="Privacy: Go modules services" link="https://proxy.golang.org/privacy" lang="en" >}}
 {{< quote >}}We intend to aggregate and anonymize usage metrics to measure popularity for Go modules and share this popularity data with the Go community.{{< /quote >}}
 {{< /fig-quote >}}
 

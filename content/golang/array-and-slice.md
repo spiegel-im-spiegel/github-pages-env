@@ -296,7 +296,7 @@ panic: runtime error: slice bounds out of range
 
 このように配列と [slice] の関係が分かると `append()` 関数の挙動も理解しやすくなる。
 
-{{% div-box type="md" %}}
+{{% div-box type="markdown" %}}
 **【追記】** たとえば，配列 `ary := Array4{0, 1, 2, 3}` の先頭2要素を slice として切り出す場合，普通は `ary[0:2]` でいいのだが，容量を含めて2要素のみとしたい場合は `ary[0:2:2]` と記述する。
 
 ```go

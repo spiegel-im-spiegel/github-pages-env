@@ -38,7 +38,7 @@ tags = [
 今回もセキュリティ・アップデートはなし。
 主な修正点は以下の通り。
 
-{{% fig-quote type="md" title="GnuPG 2.2.7 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2018q2/000421.html" lang="en" %}}
+{{% fig-quote type="markdown" title="GnuPG 2.2.7 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2018q2/000421.html" lang="en" %}}
 * gpg: New option `--no-symkey-cache` to disable the passphrase cache for symmetrical en- and decryption.
 * gpg: The ERRSIG status now prints the fingerprint if that is part of the signature.
 * gpg: Relax emitting of FAILURE status lines

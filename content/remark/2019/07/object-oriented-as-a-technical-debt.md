@@ -24,7 +24,7 @@ pageType = "text"
 
 [^ns1]: 「null 参照」の損失を[10億ドルと見積った人](https://en.wikipedia.org/wiki/Tony_Hoare "Tony Hoare - Wikipedia")もいたな。こういう{{< ruby "経済アナリスト" >}}競馬の予想屋{{< /ruby >}}みたいなやり口は好かんのだがなぁ。
 
-{{< fig-quote type="md" title="Java はやめておけ" link="/remark/2016/07/java/" >}}
+{{< fig-quote type="markdown" title="Java はやめておけ" link="/remark/2016/07/java/" >}}
 {{< quote >}}どういうわけか日本人は Java が大好きで，確かにあと数年は飯の種になるだろうが，将来を見据えれば Java は間違いなく COBOL と同じ道をたどる。{{< /quote >}}
 {{< /fig-quote >}}
 
@@ -49,7 +49,7 @@ pageType = "text"
 
 [^pa1]: [Go 言語]には panic という「例外」に似た仕組みはあるが，これは文字通りプログラム続行不可能な状態で強制終了させるための仕組みであり「例外」のように運用すべきではないとされている。
 
-{{< fig-quote type="md" title="エラー・ハンドリングについて" link="/golang/error-handling/" >}}
+{{< fig-quote type="markdown" title="エラー・ハンドリングについて" link="/golang/error-handling/" >}}
 {{< quote >}}例外が抱える問題というのは本質的に goto 文の問題と同じ。 オブジェクトの状態ごと脱出するため，（脱出前ではなく）脱出後にオブジェクトの後始末を記述せざるを得ないし，記述するためには脱出前の状態（の可能性）を「知識」として知っていなければならない。 もし後始末をきちんとしないと，それがバグやリークやその他の脆弱性のもとになる。{{< /quote >}}
 {{< /fig-quote >}}
 
@@ -67,7 +67,7 @@ Interface 型は [duck typing](https://en.wikipedia.org/wiki/Duck_typing "Duck t
 
 [^dt1]: [Duck typing](https://en.wikipedia.org/wiki/Duck_typing "Duck typing - Wikipedia") は主に動的型付け言語における型推論方式（のひとつ）で，クラス間の関係を記述するものではないらしい。ちなみに構造的部分型に対する言葉として「公称型（nominal subtyping）」というのがあって C++ や Java におけるテンプレート・クラスやインタフェース・クラスを使った汎化・特化関係を指す場合に使うそうだ。
 
-{{< fig-quote type="md" title="きみは Generics がとくいなフレンズなんだね，または「制約は構造を生む」" link="/remark/2017/03/generics-vs-duck-typing/" >}}
+{{< fig-quote type="markdown" title="きみは Generics がとくいなフレンズなんだね，または「制約は構造を生む」" link="/remark/2017/03/generics-vs-duck-typing/" >}}
 {{< quote >}}たとえばウォータフォール型の開発スタイルでは実装を開始するまでに設計が終わることが（建前上は）保証されているため「抽象→具象」へと書き進めることが容易な言語が向いている。一方，要件が絶えず変わったり実験的な製品の場合は設計が終わるまで待っていられないため Go 言語のような言語が向いてるかもしれない。{{< /quote >}}
 {{< /fig-quote >}}
 

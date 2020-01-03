@@ -22,7 +22,7 @@ CTB 1 からはじき出されたと考えられるが詳しいプロセス等�
 
 キャプションには
 
-{{< fig-quote type="md" title="APOD: 2019 August 13 - Supernova Cannon Expels Pulsar J0002" link="https://apod.nasa.gov/apod/ap190813.html" lang="en" >}}
+{{< fig-quote type="markdown" title="APOD: 2019 August 13 - Supernova Cannon Expels Pulsar J0002" link="https://apod.nasa.gov/apod/ap190813.html" lang="en" >}}
 {{< quote >}}About 10,000 years ago, the [supernova](https://www.nasa.gov/subject/7226/supernova/) that created the nebular remnant [CTB 1](https://astrodonimaging.com/gallery/ctb-1-supernova-remnant/) not only destroyed a massive star but blasted its newly formed [neutron star](https://svs.gsfc.nasa.gov/12605) core -- a [pulsar](https://apod.nasa.gov/apod/ap090709.html) -- out into the Milky Way Galaxy. [The pulsar](https://public.nrao.edu/news/cannonball-pulsar/), spinning 8.7 times a second, was [discovered](https://ui.adsabs.harvard.edu/abs/2019ApJ...876L..17S/abstract) using downloadable software [Einstein@Home](https://einsteinathome.org/) searching through data taken by NASA's orbiting [Fermi Gamma-Ray Observatory](https://en.wikipedia.org/wiki/Fermi_Gamma-ray_Space_Telescope).{{< /quote >}}
 {{< /fig-quote >}}
 
@@ -47,11 +47,11 @@ CTB 1 からはじき出されたと考えられるが詳しいプロセス等�
 である。
 [Einstein@Home] では一般相対性理論が予言した「重力波」の直接検出を目指している。
 
-{{< fig-quote type="md" title="Einstein@Home のすすめ -- Club-HUAA" link="http://huaa.baldanders.info/log/000181.shtml" >}}
+{{< fig-quote type="markdown" title="Einstein@Home のすすめ -- Club-HUAA" link="http://huaa.baldanders.info/log/000181.shtml" >}}
 {{< quote >}}1974年に連星パルサーの公転周期の軌道が短くなっていく現象が観測され，これが重力波の存在を示す間接的な証拠となっています。（連星パルサーは重力波を放出することによりエネルギーを失い公転周期が短くなるとかなんとか。で，実際に重力波があるとして計算した周期減少率が実際の観測と誤差の範囲内で一致したとかなんとか。ちなみにこの研究を行ったグループは1993年にノーベル物理学賞を受賞しています）{{< /quote >}}
 {{< /fig-quote >}}
 
-{{< fig-quote type="md" title="Einstein@Home のすすめ -- Club-HUAA" link="http://huaa.baldanders.info/log/000181.shtml" >}}
+{{< fig-quote type="markdown" title="Einstein@Home のすすめ -- Club-HUAA" link="http://huaa.baldanders.info/log/000181.shtml" >}}
 {{< quote >}}Einstein@Home では LIGO などの重力波干渉計でパルサーを観測します。
 パルサーとは高速回転する中性子星のことで周期的（数ミリ秒から数秒）に電磁波（電波や可視光線あるいはX線など）を放射します。
 もし完全に軸対称形でないパルサーがあればそれは重力波を放出するはずです。

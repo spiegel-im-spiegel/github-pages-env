@@ -25,7 +25,7 @@ tags = ["book", "math", "integral"]
 
 というわけで，以前に[本家サイトで書いた『微分を追いかけて』の感想](https://baldanders.info/blog/000839/ "『数学ガールの秘密ノート』 微分で遊ぶ — Baldanders.info")を再掲載する。
 
-{{% div-box type="md" title="『数学ガールの秘密ノート』 微分で遊ぶ — Baldanders.info" link="https://baldanders.info/blog/000839/" %}}
+{{% div-box type="markdown" title="『数学ガールの秘密ノート』 微分で遊ぶ — Baldanders.info" link="https://baldanders.info/blog/000839/" %}}
 毎度言っているが，「数学ガールの秘密ノート」シリーズは数学成分多めで中学生以上を対象にしているが，小学生高学年なら頑張れば理解できるはず。 
 てか，是非挑戦して欲しい。
 「かけ算の順序」とか「$6\div2\sqrt{3}$」とか瑣末なことに躓いている場合ではないのだ。 

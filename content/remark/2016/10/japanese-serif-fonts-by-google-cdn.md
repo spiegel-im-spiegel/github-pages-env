@@ -9,7 +9,7 @@ tags = ["web", "font", "google", "character", "site"]
   mermaidjs = false
 +++
 
-{{< div-box type="md" >}}
+{{< div-box type="markdown" >}}
 **【2019-12-29 追記】**
 現在の [Google Fonts](https://www.google.com/fonts/) は日本語を含む各国語に正式対応している。
 

@@ -47,7 +47,7 @@ pageType = "text"
 
 [^hd2]: 海の日は7月第3月曜日，山の日は8月11日，スポーツの日は10月第2月曜日が本来の日付。
 
-{{< fig-quote type="md" title="平成32（2020）年暦要項の発表 | 国立天文台(NAOJ)" link="https://www.nao.ac.jp/news/topics/2019/20190201-rekiyoko.html" >}}
+{{< fig-quote type="markdown" title="平成32（2020）年暦要項の発表 | 国立天文台(NAOJ)" link="https://www.nao.ac.jp/news/topics/2019/20190201-rekiyoko.html" >}}
 {{< quote >}}「国民の祝日に関する法律」が改正され、平成32年から「体育の日」は「スポーツの日」となります。また、平成32年に限り、「海の日」は7月23日に、「スポーツの日」は7月24日に、「山の日」は8月10日となります{{< /quote >}}
 {{< /fig-quote >}}
 

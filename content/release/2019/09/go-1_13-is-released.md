@@ -21,7 +21,7 @@ pageType = "text"
 
 主な変更点は以下の通り。
 
-{{< fig-quote type="md" title="Go 1.13 is released" link="https://blog.golang.org/go1.13" lang="en" >}}
+{{< fig-quote type="markdown" title="Go 1.13 is released" link="https://blog.golang.org/go1.13" lang="en" >}}
 - The go command now downloads and authenticates modules [using the Go module mirror and Go checksum database by default](https://golang.org/doc/go1.13#introduction)
 - [Improvements to number literals](https://golang.org/doc/go1.13#language)
 - [Error wrapping](https://golang.org/doc/go1.13#error_wrapping)

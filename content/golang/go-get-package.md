@@ -11,7 +11,7 @@ tags = ["golang", "package", "engineering" ]
 
 （初出： [はじめての Go 言語 (on Windows) その3 - Qiita](http://qiita.com/spiegel-im-spiegel/items/a52a47942fd3946bb583)）
 
-{{< div-box type="md" >}}
+{{< div-box type="markdown" >}}
 【追記 2019-12-20】 バージョン 1.11 からパッケージの管理は「モジュール」をベースにしたものに移行しつつある。
 詳しくは以下を参照のこと。
 

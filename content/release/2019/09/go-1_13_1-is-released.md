@@ -20,7 +20,7 @@ pageType = "text"
 今回はセキュリティ・アップデートを含んでいる。
 [Go 言語]で Web サービスまたはクライアント・ツールを構築している人は要注意だ。
 
-{{< fig-quote type="md" title="Go 1.13.1 and Go 1.12.10 are released" link="https://groups.google.com/forum/#!topic/golang-announce/cszieYyuL9Q" lang="en" >}}
+{{< fig-quote type="markdown" title="Go 1.13.1 and Go 1.12.10 are released" link="https://groups.google.com/forum/#!topic/golang-announce/cszieYyuL9Q" lang="en" >}}
 {{< quote >}}`net/http` (through `net/textproto`) used to accept and normalize invalid HTTP/1.1 headers with a space before the colon, in violation of RFC 7230. If a Go server is used behind an uncommon reverse proxy that accepts and forwards but doesn't normalize such invalid headers, the reverse proxy and the server can interpret the headers differently. This can lead to filter bypasses or [request smuggling](https://portswigger.net/research/http-desync-attacks-request-smuggling-reborn), the latter if requests from separate clients are multiplexed onto the same upstream connection by the proxy. Such invalid headers are now rejected by Go servers, and passed without normalization to Go client applications.{{< /quote >}}
 {{< /fig-quote >}}
 

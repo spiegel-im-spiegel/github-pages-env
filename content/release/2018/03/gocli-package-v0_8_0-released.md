@@ -20,7 +20,7 @@ tags  = [ "golang", "package", "cli", "filepath" ]
 
 [Go 言語]標準の [`filepath`]`.Glob()` 関数はなかなか性能がよくて，パス検索に以下のワイルドカードが使える。
 
-{{% fig-gen type="md" title="filepath - The Go Programming Language" link="https://golang.org/pkg/path/filepath/" lang="en" %}}
+{{% fig-gen type="markdown" title="filepath - The Go Programming Language" link="https://golang.org/pkg/path/filepath/" lang="en" %}}
 ```
 pattern:
     { term }

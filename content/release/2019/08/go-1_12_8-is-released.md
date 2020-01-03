@@ -23,7 +23,7 @@ pageType = "text"
 - [CVE-2019-9512](https://nvd.nist.gov/vuln/detail/CVE-2019-9512)
 - [CVE-2019-9514](https://nvd.nist.gov/vuln/detail/CVE-2019-9514)
 
-{{< fig-quote type="md" title="Go 1.12.8 and Go 1.11.13 are released" link="https://groups.google.com/forum/#!topic/golang-announce/65QixT3tcmg" lang="en" >}}
+{{< fig-quote type="markdown" title="Go 1.12.8 and Go 1.11.13 are released" link="https://groups.google.com/forum/#!topic/golang-announce/65QixT3tcmg" lang="en" >}}
 {{< quote >}}`net/http` and [`golang.org/x/net/http2`](http://golang.org/x/net/http2) servers that accept direct connections from untrusted clients could be remotely made to allocate an unlimited amount of memory, until the program crashes. Servers will now close connections if the send queue accumulates too many control messages.
 The issues are CVE-2019-9512 and CVE-2019-9514, and Go issue [golang.org/issue/33606](https://golang.org/issue/33606).{{< /quote >}}
 {{< /fig-quote >}}
@@ -34,7 +34,7 @@ Netflix の中の人，ありがとう。
 
 - [CVE-2019-14809](https://nvd.nist.gov/vuln/detail/CVE-2019-14809)
 
-{{< fig-quote type="md" title="Go 1.12.8 and Go 1.11.13 are released" link="https://groups.google.com/forum/#!topic/golang-announce/65QixT3tcmg" lang="en" >}}
+{{< fig-quote type="markdown" title="Go 1.12.8 and Go 1.11.13 are released" link="https://groups.google.com/forum/#!topic/golang-announce/65QixT3tcmg" lang="en" >}}
 {{< quote >}}`url.Parse` would accept URLs with malformed hosts, such that the Host field could have arbitrary suffixes that would appear in neither `Hostname()` nor `Port()`, allowing authorization bypasses in certain applications. Note that URLs with invalid, not numeric ports will now return an error from url.Parse.
 The issue is CVE-2019-14809 and Go issue [golang.org/issue/29098](https://golang.org/issue/29098).{{< /quote >}}
 {{< /fig-quote >}}

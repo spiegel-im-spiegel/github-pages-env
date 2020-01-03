@@ -240,13 +240,13 @@ require (
 
 ## 【2018-10-04 追記】 Go 1.11.1 がリリース
 
-{{% fig-quote type="md" title="Release History - The Go Programming Language" link="https://golang.org/doc/devel/release.html#go1.11.minor" %}}
+{{% fig-quote type="markdown" title="Release History - The Go Programming Language" link="https://golang.org/doc/devel/release.html#go1.11.minor" %}}
 “go1.11.1 (released 2018/10/01) includes fixes to the compiler, documentation, go command, runtime, and the `crypto/x509`, `encoding/json`, `go/types`, `net`, `net/http`, and `reflect` packages. See the [Go 1.11.1 milestone](https://github.com/golang/go/issues?q=milestone%3AGo1.11.1) on our issue tracker for details.”
 {{% /fig-quote %}}
 
 ## 【2018-11-03 追記】 Go 1.11.2 がリリース
 
-{{% fig-quote type="md" title="Release History - The Go Programming Language" link="https://golang.org/doc/devel/release.html#go1.11.minor" %}}
+{{% fig-quote type="markdown" title="Release History - The Go Programming Language" link="https://golang.org/doc/devel/release.html#go1.11.minor" %}}
 “go1.11.2 (released 2018/11/02) includes fixes to the compiler, linker, documentation, go command, and the database/sql and go/types packages. See the [Go 1.11.2 milestone](https://github.com/golang/go/issues?q=milestone%3AGo1.11.2) on our issue tracker for details.”
 {{% /fig-quote %}}
 

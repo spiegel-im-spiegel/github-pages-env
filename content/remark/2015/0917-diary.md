@@ -64,7 +64,7 @@ CRYPTREC といえば [CRYPTREC Report 2014](http://cryptrec.go.jp/topics/cryptr
 
 この中で
 
-{{< fig-quote type="md" lang="ja" title="機械支配待望論" link="http://cruel.hatenablog.com/entry/2015/08/28/161912" >}}
+{{< fig-quote type="markdown" lang="ja" title="機械支配待望論" link="http://cruel.hatenablog.com/entry/2015/08/28/161912" >}}
 {{< quote >}}さらに人間と機械は、出自がちがうので、同じリソースをめぐって争う必要がない。
 これが動物だと、居住空間とか食べ物とか毛皮や肉とか、競合する資源がある。
 だけど機械とは競合しない……完全にしないとは言わないけれど、他の動物と比べれば大幅にちがう。

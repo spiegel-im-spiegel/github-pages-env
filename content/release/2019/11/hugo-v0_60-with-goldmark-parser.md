@@ -20,7 +20,7 @@ pageType = "text"
 
 [Hugo] v0.60 から既定の Markdown パーサが [yuin/goldmark] になったようだ。
 
-{{< fig-quote type="md" title="Now CommonMark Compliant!" link="https://gohugo.io/news/0.60.0-relnotes/" lang="en" >}}
+{{< fig-quote type="markdown" title="Now CommonMark Compliant!" link="https://gohugo.io/news/0.60.0-relnotes/" lang="en" >}}
 {{< quote >}}[Goldmark](https://github.com/yuin/goldmark/) by [@yuin](https://github.com/yuin) is now the new default library used for Markdown in Hugo. It's CommonMark compliant and GitHub flavored, and both fast and flexible{{< /quote >}}.
 {{< /fig-quote >}}
 
@@ -131,7 +131,7 @@ Markdown パーサについては，グローバル設定で新しい [yuin/gold
 と（ちょっと不格好だが）なった。
 [ATOM] で複数ファイルの内容を一括置換できてよかったね（泣）
 
-{{< div-box type="md" >}}
+{{< div-box type="markdown" >}}
 **【2020-01-02 追記】**
 この件は [Hugo] 0.61 で修正されたらしい。 [yuin/goldmark] のバグだったようだ。
 なので，また元に戻した。

@@ -36,7 +36,7 @@ pageType = "text"
 環境変数 `GO111MODULE` の値が `auto` の際の挙動が変わるようだ。
 具体的には
 
-{{< fig-quote type="md" title="Go 1.13 Release Notes" link="https://tip.golang.org/doc/go1.13" lang="en" >}}
+{{< fig-quote type="markdown" title="Go 1.13 Release Notes" link="https://tip.golang.org/doc/go1.13" lang="en" >}}
 {{< quote >}}The [`GO111MODULE`](https://tip.golang.org/cmd/go/#hdr-Module_support) environment variable continues to default to `auto`, but the `auto` setting now activates the module-aware mode of the go command whenever the current working directory contains, or is below a directory containing, a `go.mod` file — even if the current directory is within `GOPATH/src`.{{< /quote >}}
 {{< /fig-quote >}}
 
@@ -66,7 +66,7 @@ $ go env -w GOPROXY=direct
 
 `GOSUMDB` については
 
-{{< fig-quote type="md" title="Go 1.13 Release Notes" link="https://tip.golang.org/doc/go1.13" lang="en" >}}
+{{< fig-quote type="markdown" title="Go 1.13 Release Notes" link="https://tip.golang.org/doc/go1.13" lang="en" >}}
 {{< quote >}}The new [`GOSUMDB`](https://tip.golang.org/cmd/go/#hdr-Module_authentication_failures) environment variable identifies the name, and optionally the public key and server URL, of the database to consult for checksums of modules that are not yet listed in the main module's `go.sum` file. If `GOSUMDB` does not include an explicit URL, the URL is chosen by probing the `GOPROXY` URLs for an endpoint indicating support for the checksum database, falling back to a direct connection to the named database if it is not supported by any proxy.{{< /quote >}}
 {{< /fig-quote >}}
 
@@ -74,13 +74,13 @@ $ go env -w GOPROXY=direct
 
 また `GOPRIVATE` 環境変数を使えばミラーリングやチェックサム・データベースの対象から外すモジュールを指定できるようだ。
 
-{{< fig-quote type="md" title="Go 1.13 Release Notes" link="https://tip.golang.org/doc/go1.13" lang="en" >}}
+{{< fig-quote type="markdown" title="Go 1.13 Release Notes" link="https://tip.golang.org/doc/go1.13" lang="en" >}}
 {{< quote >}}The new [`GOPRIVATE`](https://tip.golang.org/cmd/go/#hdr-Module_configuration_for_non_public_modules) environment variable indicates module paths that are not publicly available. It serves as the default value for the lower-level `GONOPROXY` and `GONOSUMDB` variables, which provide finer-grained control over which modules are fetched via proxy and verified using the checksum database.{{< /quote >}}
 {{< /fig-quote >}}
 
 Google はミラーリング・サービスとして [`proxy.golang.org`](https://proxy.golang.org) を，データベース・サービスとして [`sum.golang.org`](https://sum.golang.org/) を提供しているが，個人的には
 
-{{< fig-quote type="md" title="Go モジュールのミラーリングとインデックス化" link="/golang/mirror-index-and-checksum-database-for-go-module/" >}}
+{{< fig-quote type="markdown" title="Go モジュールのミラーリングとインデックス化" link="/golang/mirror-index-and-checksum-database-for-go-module/" >}}
 {{< quote >}}[プライバシーに敵対的な企業]({{< ref "/remark/2018/04/handling-privacy.md" >}} "誰がプライバシーを支配するのか")のサービスだと思うとあまり利用したくない気分{{< /quote >}}
 {{< /fig-quote >}}
 

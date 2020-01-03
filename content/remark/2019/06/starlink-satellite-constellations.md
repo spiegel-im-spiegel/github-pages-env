@@ -39,7 +39,7 @@ pageType = "text"
 
 - [IAU Statement on Satellite Constellations | IAU](https://www.iau.org/news/announcements/detail/ann19035/)
 
-{{< fig-quote type="md" title="IAU Statement on Satellite Constellations" link="https://www.iau.org/news/announcements/detail/ann19035/" lang="en" >}}
+{{< fig-quote type="markdown" title="IAU Statement on Satellite Constellations" link="https://www.iau.org/news/announcements/detail/ann19035/" lang="en" >}}
 {{< quote >}}The scientific concerns are twofold. Firstly, the surfaces of these satellites are often made of highly reflective metal, and reflections from the Sun in the hours after sunset and before sunrise make them appear as slow-moving dots in the night sky. Although most of these reflections may be so faint that they are hard to pick out with the naked eye, they can be detrimental to the sensitive capabilities of large ground-based astronomical telescopes, including the extreme wide-angle survey telescopes currently under construction. Secondly, despite notable efforts to avoid interfering with radio astronomy frequencies, aggregate radio signals emitted from the satellite constellations can still threaten astronomical observations at radio wavelengths. Recent advances in radio astronomy, such as producing [the first image of a black hole](https://iopscience.iop.org/article/10.3847/2041-8213/ab0e85/pdf) or understanding more about the formation of planetary systems, were only possible through concerted efforts in safeguarding the radio sky from interference.{{< /quote >}}
 {{< /fig-quote >}}
 
@@ -50,11 +50,11 @@ pageType = "text"
 
 これらの声明は IAU のものより踏み込んだ内容になっていて
 
-{{< fig-quote type="md" title="RAS statement on Starlink satellite constellation" link="https://ras.ac.uk/news-and-press/news/ras-statement-starlink-satellite-constellation" lang="en" >}}
+{{< fig-quote type="markdown" title="RAS statement on Starlink satellite constellation" link="https://ras.ac.uk/news-and-press/news/ras-statement-starlink-satellite-constellation" lang="en" >}}
 {{< quote >}}Given the scale of these projects, there is also the prospect of a significant and lasting change to the views of the night sky until now enjoyed throughout human history and pre-history. The night sky is part of the cultural heritage of humanity, and the Society believes that it deserves protection.{{< /quote >}}
 {{< /fig-quote >}}
 
-{{< fig-quote type="md" title="AAS Issues Position Statement on Satellite Constellations" link="https://ras.ac.uk/news-and-press/news/ras-statement-starlink-satellite-constellation" lang="en" >}}
+{{< fig-quote type="markdown" title="AAS Issues Position Statement on Satellite Constellations" link="https://ras.ac.uk/news-and-press/news/ras-statement-starlink-satellite-constellation" lang="en" >}}
 {{< quote >}}"The natural night sky is a resource not just for astronomers but for all who look upward to understand and enjoy the splendor of the universe, and its degradation has many negative impacts beyond the astronomical," says Jeffrey C. Hall (Lowell Observatory), Chair of the [AAS Committee on Light Pollution, Radio Interference](https://aas.org/comms/committee-light-pollution-radio-interference-and-space-debris), and Space Debris. "I appreciate the initial conversation we have already had with SpaceX, and I look forward to working with my AAS colleagues and with all stakeholders to understand and mitigate the effects of the rapidly increasing numbers of satellites in near-Earth orbit."{{< /quote >}}
 {{< /fig-quote >}}
 
@@ -68,7 +68,7 @@ pageType = "text"
 この文章は[2003年に公開したブログ記事](https://baldanders.info/blog/000011/ "天文学と光害 -- 戯れ言++")の再掲載だ。
 古い記事だが「光害問題」について考える際の参考になれば幸い。
 
-{{< div-box type="md" >}}
+{{< div-box type="markdown" >}}
 
 - [回転サーチライト等禁止の法制化についての要望書](http://www.asj.or.jp/news/031212.html)
 - [回転サーチライト等禁止の法制化、日本天文学会が環境省へ要望](http://www.astroarts.co.jp/news/2003/12/12nao689/index-j.shtml)

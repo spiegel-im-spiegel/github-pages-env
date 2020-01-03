@@ -27,7 +27,7 @@ pageType = "text"
     - [GNOME Shell をリスタートする]({{< relref "#restart" >}})
     - [スワップの解放]({{< relref "#swap" >}})
 
-{{< div-box type="md" >}}
+{{< div-box type="markdown" >}}
 いくつかの記事（インストール情報だけ書いた節）は「[Advanced Package Tool に関する覚え書き]({{< ref "/remark/2019/05/advanced-package-tool.md" >}})」へ移動した。
 併せてどうぞ。
 {{< /div-box >}}
@@ -254,7 +254,7 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 
 ### OpenJDK を入れる{#jdk}
 
-{{< div-box type="md" >}}
+{{< div-box type="markdown" >}}
 **【追記 2019-07-31】**
 どうも Java 12 は放置プレイっぽいので [APT は使わない方向]({{< ref "/remark/2019/07/reinstalling-openjdk.md" >}} "結局 OpenJDK をインストールし直すことにした")で。
 {{< /div-box >}}

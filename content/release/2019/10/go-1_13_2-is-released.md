@@ -21,19 +21,19 @@ pageType = "text"
 
 HTTPS サーバを構成している場合は要注意。
 
-{{< fig-quote type="md" title="Go 1.13.2 and Go 1.12.11 are released" link="https://groups.google.com/forum/#!topic/golang-announce/lVEm7llp0w0" lang="en" >}}
+{{< fig-quote type="markdown" title="Go 1.13.2 and Go 1.12.11 are released" link="https://groups.google.com/forum/#!topic/golang-announce/lVEm7llp0w0" lang="en" >}}
 {{< quote >}}Invalid DSA public keys can cause a panic in `dsa.Verify`. In particular, using `crypto/x509.Verify` on a `crafted X.509` certificate chain can lead to a panic, even if the certificates don’t chain to a trusted root. The chain can be delivered via a `crypto/tls` connection to a client, or to a server that accepts and verifies client certificates. `net/http` clients can be made to crash by an HTTPS server, while net/http servers that accept client certificates will recover the panic and are unaffected{{< /quote >}}.
 {{< /fig-quote >}}
 
 他にも OpenPGP, OTR, SSH あたりも影響を受けるそうな。
 
-{{< fig-quote type="md" title="Go 1.13.2 and Go 1.12.11 are released" link="https://groups.google.com/forum/#!topic/golang-announce/lVEm7llp0w0" lang="en" >}}
+{{< fig-quote type="markdown" title="Go 1.13.2 and Go 1.12.11 are released" link="https://groups.google.com/forum/#!topic/golang-announce/lVEm7llp0w0" lang="en" >}}
 {{< quote >}}Moreover, an application might crash invoking `crypto/x509.(*CertificateRequest).CheckSignature` on an X.509 certificate request, parsing a [golang.org/x/crypto/openpgp](http://golang.org/x/crypto/openpgp) Entity, or during a [golang.org/x/crypto/otr](http://golang.org/x/crypto/otr) conversation. Finally, a [golang.org/x/crypto/ssh](http://golang.org/x/crypto/ssh) client can panic due to a malformed host key, while a server could panic if either `PublicKeyCallback` accepts a malformed public key, or if `IsUserAuthority` accepts a certificate with a malformed public key{{< /quote >}}.
 {{< /fig-quote >}}
 
 更に更に slice に関して
 
-{{< fig-quote type="md" title="Go 1.13.2 and Go 1.12.11 are released" link="https://groups.google.com/forum/#!topic/golang-announce/lVEm7llp0w0" lang="en" >}}
+{{< fig-quote type="markdown" title="Go 1.13.2 and Go 1.12.11 are released" link="https://groups.google.com/forum/#!topic/golang-announce/lVEm7llp0w0" lang="en" >}}
 {{< quote >}}The Go 1.13.2 release also includes a fix to the compiler that prevents improper access to negative slice indexes in rare cases. Affected code, in which the compiler can prove that the index is zero or negative, would have resulted in a panic in Go 1.12, but could have led to arbitrary memory read and writes in Go 1.13 and Go 1.13.1{{< /quote >}}.
 {{< /fig-quote >}}
 
@@ -49,7 +49,7 @@ HTTPS サーバを構成している場合は要注意。
 
 - [Go 1.13.3 and Go 1.12.12 are released - Google Group](https://groups.google.com/forum/#!topic/golang-announce/R3XK-Wf-Mtk)
 
-{{< fig-quote type="md" title="Release History - The Go Programming Language" link="https://github.com/golang/go/issues?q=milestone%3AGo1.13.3" lang="en" >}}
+{{< fig-quote type="markdown" title="Release History - The Go Programming Language" link="https://github.com/golang/go/issues?q=milestone%3AGo1.13.3" lang="en" >}}
 {{< quote >}}go1.13.3 (released 2019/10/17) includes fixes to the go command, the toolchain, the `runtime`, `syscall`, `net`, `net/http`, and `crypto/ecdsa` packages. See the [Go 1.13.3 milestone](https://github.com/golang/go/issues?q=milestone%3AGo1.13.3) on our issue tracker for details{{< /quote >}}.
 {{< /fig-quote >}}
 

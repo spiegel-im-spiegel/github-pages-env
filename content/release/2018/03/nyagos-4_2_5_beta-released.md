@@ -35,7 +35,7 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 
 以下に変更点をまとめて紹介する。
 
-{{% fig-quote type="md" title="Release 4.2.5" link="https://github.com/zetamatta/nyagos/releases/tag/4.2.5_0" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.2.5" link="https://github.com/zetamatta/nyagos/releases/tag/4.2.5_0" lang="en" %}}
 - Read the value of environment variables and the current directory that a batchfile changed like CMD.EXE.
 - And refactored a lot of source files
 - Fix: #296 the batchfile could not be executed when the username contains multibyte-character.
@@ -63,7 +63,7 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 個人的にはバッチファイルで環境変数が汚れるのは好みではなかったので `source` コマンドのみで環境変数を変えられるという仕様は結構気に入っていたのだが，まぁいいか。
 問題ない。
 
-{{% div-box type="md" %}}
+{{% div-box type="markdown" %}}
 **【追記 2018-03-31】** `nyagos.option.usesource` オプションを追加していただいた。
 これを `false` にすれば従来どおり `source` コマンドのみで環境変数を変更できる。
 ホームディレクトリの `.nyagos` に追記しておけばいいだろう。
@@ -75,7 +75,7 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 
 不具合の修正のみ。
 
-{{% fig-quote type="md" title="Release 4.2.5_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.2.5_1" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.2.5_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.2.5_1" lang="en" %}}
 - Fix: `if [not] errorlevel N` did not work on block-if.
 - Fix: that `ls -1F` did not show the indicator such as `/`,`*` or `@`.
 - Fix: the problem that executables reparse-pointed but not symbolic-linked can not be found. ★

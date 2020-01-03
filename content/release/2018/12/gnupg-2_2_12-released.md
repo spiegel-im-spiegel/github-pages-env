@@ -35,7 +35,7 @@ tags = [
 今回もセキュリティ・アップデートはなし。
 主な機能追加・修正点は以下の通り。
 
-{{% fig-quote type="md" title="GnuPG 2.2.12 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2018q4/000433.html" lang="en" %}}
+{{% fig-quote type="markdown" title="GnuPG 2.2.12 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2018q4/000433.html" lang="en" %}}
 * tools: New commands `--install-key` and `--remove-key` for gpg-wks-client.  This allows to prepare a Web Key Directory on a local file system for later upload to a web server.
 * gpg: New `--list-option` "show-only-fpr-mbox".  This makes the use of the new gpg-wks-client `--install-key` command easier on Windows.
 * gpg: Improve processing speed when `--skip-verify` is used.

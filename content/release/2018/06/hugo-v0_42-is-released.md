@@ -51,7 +51,7 @@ theme = ["my-shortcodes", "base-theme", "hyde"]
 
 不具合修正版。
 
-{{% fig-quote type="md" title="Release v0.42.1 · gohugoio/hugo" link="https://github.com/gohugoio/hugo/releases/tag/v0.42.1" lang="en" %}}
+{{% fig-quote type="markdown" title="Release v0.42.1 · gohugoio/hugo" link="https://github.com/gohugoio/hugo/releases/tag/v0.42.1" lang="en" %}}
 - Reset the global pages cache on server rebuilds 128f14ef @bep #4845
 - Do not fail server build when /static is missing 34ee27a7 @bep #4846
 {{% /fig-quote %}}

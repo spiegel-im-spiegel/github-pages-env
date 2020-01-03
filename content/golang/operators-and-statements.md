@@ -41,7 +41,7 @@ tags = ["golang", "programming", "language"]
 
 [Go 言語]においては「ステートメント」は以下のように定義されている。
 
-{{% fig-gen type="md" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
+{{% fig-gen type="markdown" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
 ```text
 Statement =
     Declaration | LabeledStmt | SimpleStmt |
@@ -58,7 +58,7 @@ SimpleStmt = EmptyStmt | ExpressionStmt | SendStmt | IncDecStmt | Assignment | S
 
 ### Empty Statements
 
-{{% fig-gen type="md" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
+{{% fig-gen type="markdown" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
 ```text
 EmptyStmt = .
 ```
@@ -68,7 +68,7 @@ EmptyStmt = .
 
 ### Expression Statements
 
-{{% fig-gen type="md" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
+{{% fig-gen type="markdown" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
 ```text
 ExpressionStmt = Expression .
 ```
@@ -79,7 +79,7 @@ ExpressionStmt = Expression .
 
 さらに式は以下のように定義される。
 
-{{% fig-gen type="md" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
+{{% fig-gen type="markdown" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
 ```text
 Expression = UnaryExpr | Expression binary_op Expression .
 UnaryExpr  = PrimaryExpr | unary_op UnaryExpr .
@@ -100,7 +100,7 @@ unary_op   = "+" | "-" | "!" | "^" | "*" | "&" | "<-" .
 
 ### Send Statements
 
-{{% fig-gen type="md" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
+{{% fig-gen type="markdown" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
 ```text
 SendStmt = Channel "<-" Expression .
 Channel  = Expression .
@@ -111,7 +111,7 @@ Channel  = Expression .
 
 ### IncDec Statements
 
-{{% fig-gen type="md" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
+{{% fig-gen type="markdown" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
 ```text
 IncDecStmt = Expression ( "++" | "--" ) .
 ```
@@ -129,7 +129,7 @@ C/C++ のように `++x` みたいな記述はできないので注意。
 
 ### Assignments
 
-{{% fig-gen type="md" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
+{{% fig-gen type="markdown" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
 ```text
 Assignment = ExpressionList assign_op ExpressionList .
 assign_op = [ add_op | mul_op ] "=" .
@@ -139,7 +139,7 @@ assign_op = [ add_op | mul_op ] "=" .
 代入。
 `add_op`, `mul_op` は先ほど出た `Expression` の演算子を指す。
 
-{{% fig-gen type="md" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
+{{% fig-gen type="markdown" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
 ```text
 add_op     = "+" | "-" | "|" | "^" .
 mul_op     = "*" | "/" | "%" | "<<" | ">>" | "&" | "&^" .
@@ -153,7 +153,7 @@ mul_op     = "*" | "/" | "%" | "<<" | ">>" | "&" | "&^" .
 
 ちなみに `ExpressionList` は `Expression` を列挙したものである。
 
-{{% fig-gen type="md" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
+{{% fig-gen type="markdown" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
 ```text
 ExpressionList = Expression { "," Expression } .
 ```
@@ -168,7 +168,7 @@ x, y = y, x
 
 ### Short Variable Declarations
 
-{{% fig-gen type="md" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
+{{% fig-gen type="markdown" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
 ```text
 ShortVarDecl = IdentifierList ":=" ExpressionList .
 ```
@@ -177,7 +177,7 @@ ShortVarDecl = IdentifierList ":=" ExpressionList .
 変数宣言の短縮表現。
 `var` キーワードを使った以下の表現と同じ。
 
-{{% fig-gen type="md" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
+{{% fig-gen type="markdown" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
 ```text
 "var" IdentifierList = ExpressionList .
 ```
@@ -185,7 +185,7 @@ ShortVarDecl = IdentifierList ":=" ExpressionList .
 
 `IdentifierList` は `identifier` を列挙したもので
 
-{{% fig-gen type="md" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
+{{% fig-gen type="markdown" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
 ```text
 IdentifierList = identifier { "," identifier } .
 ```
@@ -194,7 +194,7 @@ IdentifierList = identifier { "," identifier } .
 これにより `identifier` で記述される複数の変数をまとめて宣言・初期化できる。
 `identifier` の定義は以下の通り
 
-{{% fig-gen type="md" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
+{{% fig-gen type="markdown" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
 ```text
 identifier = letter { letter | unicode_digit } .
 ```
@@ -218,7 +218,7 @@ func main() {
 
 さて，式と演算子の定義を再び掲げる。
 
-{{% fig-gen type="md" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
+{{% fig-gen type="markdown" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
 ```text
 Expression = UnaryExpr | Expression binary_op Expression .
 UnaryExpr  = PrimaryExpr | unary_op UnaryExpr .
@@ -235,7 +235,7 @@ unary_op   = "+" | "-" | "!" | "^" | "*" | "&" | "<-" .
 [Go 言語]で式に使える演算子はここに挙げられているものが全てである。
 このうち二項演算子（`binary_op`）には優先順位が付けられている。
 
-{{% fig-gen type="md" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
+{{% fig-gen type="markdown" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" %}}
 | Precedence | Operator |
 |:----------:|:---------|
 |          5 | `*  /  %  <<  >>  &  &^` |

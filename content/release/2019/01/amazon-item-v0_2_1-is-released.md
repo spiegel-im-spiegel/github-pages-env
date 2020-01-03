@@ -268,7 +268,7 @@ $ cat B00I8AT1CM.txt | amazon-item review -d B00I8AT1CM -r 4 --review-date 2019-
 
 この記事から少し引用すると
 
-{{% fig-quote type="md" title="Product Advertising API 利用ポリシーの変更について" link="https://affiliate.amazon.co.jp/help/topic/t52/" %}}
+{{% fig-quote type="markdown" title="Product Advertising API 利用ポリシーの変更について" link="https://affiliate.amazon.co.jp/help/topic/t52/" %}}
 - 初期リクエスト可能数 : 1日あたり 8,640リクエスト（API利用開始より60日間）
 - PA-APIより取得した商品リンクより発生した、過去30日間の発送済み商品売上$0.05（日本円で約5円）ごとに1リクエスト追加
 - 1日の最大リクエスト可能数は、1日あたり864,000リクエスト

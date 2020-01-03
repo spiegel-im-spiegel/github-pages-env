@@ -17,7 +17,7 @@ pageType = "text"
 
 この記事によると
 
-{{< fig-quote type="md" title="旅行予約サイトの「今あなた以外に○○人が見ています」はウソだったことが判明" link="https://gigazine.net/news/20191021-one-travel-number-rundom/" >}}
+{{< fig-quote type="markdown" title="旅行予約サイトの「今あなた以外に○○人が見ています」はウソだったことが判明" link="https://gigazine.net/news/20191021-one-travel-number-rundom/" >}}
 {{< quote >}}JavaScriptで以下のような部分を発見。完全に28から44までの数字がランダムに生成され、それが表示されているだけだったことが判明しました。つまり、One Travelの「○○人がこの搭乗券をチェックしています」という部分は全くのウソであり、ユーザーにフライトの予約を急がせるためのものだったというわけです。{{< /quote >}}
 {{< /fig-quote >}}
 

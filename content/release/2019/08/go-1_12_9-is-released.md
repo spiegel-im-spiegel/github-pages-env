@@ -16,7 +16,7 @@ pageType = "text"
 
 - [Go 1.12.9 is released - Google Group](https://groups.google.com/forum/#!topic/golang-announce/oeMaeUnkvVE)
 
-{{< fig-quote type="md" title="Release History - The Go Programming Language" link="https://golang.org/doc/devel/release.html#go1.12.minor" lang="en" >}}
+{{< fig-quote type="markdown" title="Release History - The Go Programming Language" link="https://golang.org/doc/devel/release.html#go1.12.minor" lang="en" >}}
 {{< quote >}}go1.12.9 (released 2019/08/15) includes fixes to the linker, and the os and math/big packages. See the [Go 1.12.9 milestone](https://github.com/golang/go/issues?q=milestone%3AGo1.12.9) on our issue tracker for details.{{< /quote >}}
 {{< /fig-quote >}}
 

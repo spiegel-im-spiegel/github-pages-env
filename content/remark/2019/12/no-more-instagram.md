@@ -43,7 +43,7 @@ Instagram は生年月日の情報を使ってユーザ統制を強化するら�
 
 先程の Instagram の記事も，要するに
 
-{{< fig-quote type="md" title="インスタが誕生日の登録を義務化、将来はAIで年齢検証も" link="https://www.technologyreview.jp/nl/instagram-has-started-asking-new-users-for-their-birthdays/" >}}
+{{< fig-quote type="markdown" title="インスタが誕生日の登録を義務化、将来はAIで年齢検証も" link="https://www.technologyreview.jp/nl/instagram-has-started-asking-new-users-for-their-birthdays/" >}}
 {{< quote >}}インスタグラムのビシャル・シャー製品責任者はロイター通信に対し、新規登録者に課す生年月日データにより、ユーザーの年齢や性別を見分ける精度が向上すると語った{{< /quote >}}
 {{< /fig-quote >}}
 
