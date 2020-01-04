@@ -1,1 +1,1 @@
-{{ $id := index .Params 0 }}{{ range where (where $.Site.Data.reviews "Book.Type" "paapi") "Book.ID" $id }}{{ partial "review-box.html" . }}{{ end }}
+{{ $id := index .Params 0 }}{{ range where (where $.Site.Data.reviews "Book.ID" $id) "Book.Type" "paapi" }}{{ partial "review-box.html" . }}{{else}}<p>No data (paapi:{{ $id }})</p>{{ end }}

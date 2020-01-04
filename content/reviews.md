@@ -24,4 +24,4 @@ image = "/images/attention/bookmarks.jpg"
 
 ジャンルごちゃ混ぜで最新のレビューから順に載せています。
 
-{{< review-list >}}
+{{% review-list %}}
