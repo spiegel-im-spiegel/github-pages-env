@@ -1,24 +1,12 @@
 +++
-date = "2017-03-09T20:11:34+09:00"
-update = "2017-04-05T13:02:36+09:00"
 title = "WikiLeaks がリークした CIA ハッキングツール"
-draft = false
+date = "2017-03-09T20:11:34+09:00"
 tags = ["security", "tools", "intelligence", "leak"]
 description = "とりあえずブックマークを中心に。以後，追記予定。"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  tumblr = ""
-  github = "spiegel-im-spiegel"
-  name = "Spiegel"
-  linkedin = "spiegelimspiegel"
-  facebook = "spiegel.im.spiegel"
-  flickr = "spiegel"
-  instagram = "spiegel_2007"
-  flattr = ""
-  twitter = "spiegel_2007"
-  license = "by-sa"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 とりあえずブックマークを中心に。
@@ -67,16 +55,4 @@ description = "とりあえずブックマークを中心に。以後，追記�
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4862486932?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41OTZHSZDXL._SL160_.jpg" width="96" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4862486932?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">日本人が知らないウィキリークス (新書ｙ)</a></dt>
-    <dd>小林 恭子 (著), 白井 聡 (著), 塚越 健司 (著), 津田 大介 (著), 八田 真行 (著), 浜野 喬士 (著), 孫崎 享 (著)</dd>
-    <dd>洋泉社 2011-02-05</dd>
-    <dd>新書</dd>
-    <dd>4862486932 (ASIN), 9784862486936 (EAN), 4862486932 (ISBN), 9784862486936 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">WikiLeaks のインパクトと「WikiLeaks 以後」について分かりやすく解説した論説集。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-20">2018-11-20</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "4862486932" %}} <!-- 日本人が知らないウィキリークス -->

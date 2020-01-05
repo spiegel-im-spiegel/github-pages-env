@@ -1,24 +1,8 @@
 +++
-date = "2015-12-15T21:19:58+09:00"
-update = "2018-11-11T15:28:29+09:00"
-description = "Go 言語がいわゆる「オブジェクト指向言語」と言えるかどうかについては色々とあるようだが，オブジェクト指向プログラミングを助けるための仕掛けはいくつか存在する。今回はその中の type キーワードを中心に解説していく。"
-draft = false
-tags = ["golang", "object-oriented", "programming", "type", "interface"]
 title = "Go 言語における「オブジェクト」"
-
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+date = "2015-12-15T21:19:58+09:00"
+description = "Go 言語がいわゆる「オブジェクト指向言語」と言えるかどうかについては色々とあるようだが，オブジェクト指向プログラミングを助けるための仕掛けはいくつか存在する。今回はその中の type キーワードを中心に解説していく。"
+tags = ["golang", "object-oriented", "programming", "type", "interface"]
 
 [scripts]
   mathjax = false
@@ -462,16 +446,4 @@ func main() {
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4621300253?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41meaSLNFfL._SL160_.jpg" width="123" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4621300253?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)</a></dt>
-    <dd>Alan A.A. Donovan (著), Brian W. Kernighan (著), 柴田 芳樹 (翻訳)</dd>
-    <dd>丸善出版 2016-06-20</dd>
-    <dd>単行本（ソフトカバー）</dd>
-    <dd>4621300253 (ASIN), 9784621300251 (EAN), 4621300253 (ISBN), 9784621300251 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">著者のひとりは（あの「バイブル」とも呼ばれる）通称 “K&amp;R” の K のほうである。この本は Go 言語の教科書と言ってもいいだろう。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->

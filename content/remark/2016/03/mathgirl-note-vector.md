@@ -1,10 +1,8 @@
 +++
-date = "2016-03-04T17:35:38+09:00"
-update = "2016-05-05T23:31:45+09:00"
-description = "いやぁ，昨年の発売直後に買った（というか予約してた）のに，仕事が忙しかったりプライベートでも色々あってなかなか読み進められなかった。ようやく読み終わったですよ。"
-draft = false
-tags = ["math", "book", "vector"]
 title = "『数学ガールの秘密ノート／ベクトルの真実』で遊ぶ"
+date = "2016-03-04T17:35:38+09:00"
+description = "いやぁ，昨年の発売直後に買った（というか予約してた）のに，仕事が忙しかったりプライベートでも色々あってなかなか読み進められなかった。ようやく読み終わったですよ。"
+tags = ["math", "book", "vector"]
 
 [scripts]
   mathjax = false
@@ -72,16 +70,4 @@ title = "『数学ガールの秘密ノート／ベクトルの真実』で遊�
 てか，是非挑戦して欲しい。
 前にも書いたが，私が小学生なら「数学ガールの秘密ノート」シリーズは絶好の「夏休みの自由研究」ネタだよ（笑）
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%81%AE%E7%9C%9F%E5%AE%9F-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B018VE46YW?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B018VE46YW"><img src="https://images-fe.ssl-images-amazon.com/images/I/41Oi1m%2Bp3PL._SL160_.jpg" width="111" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%81%AE%E7%9C%9F%E5%AE%9F-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B018VE46YW?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B018VE46YW">数学ガールの秘密ノート／ベクトルの真実</a></dt>
-	<dd>結城 浩</dd>
-    <dd>SBクリエイティブ 2015-11-17 (Release 2015-12-03)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B018VE46YW</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">図形（具象）と数式（抽象）の往復は楽しい。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
+{{% review-paapi "B018VE46YW" %}} <!-- 数学ガールの秘密ノート／ベクトルの真実 -->

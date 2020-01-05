@@ -56,44 +56,6 @@ pageType = "text"
 [スター・ウィーク]: http://www.starweek.jp/ "STARWEEK"
 [暦要項]: http://eco.mtk.nao.ac.jp/koyomi/yoko/ "暦要項 - 国立天文台暦計算室"
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%91-2019%E5%B9%B4%E7%89%88-%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%91%E7%B7%A8%E9%9B%86%E5%A7%94%E5%93%A1%E4%BC%9A/dp/4416718020?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4416718020"><img src="https://images-fe.ssl-images-amazon.com/images/I/41qe16Zl-7L._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%91-2019%E5%B9%B4%E7%89%88-%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%91%E7%B7%A8%E9%9B%86%E5%A7%94%E5%93%A1%E4%BC%9A/dp/4416718020?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4416718020">天文年鑑 2019年版</a></dt>
-	<dd>天文年鑑編集委員会 (編集)</dd>
-    <dd>誠文堂新光社 2018-11-21</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4416718020, EAN: 9784416718025</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">天文ファン必携。2019年版。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-23">2018-11-23</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E7%8C%AB%E6%9A%A6/dp/B07BNZQSZZ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07BNZQSZZ"><img src="https://images-fe.ssl-images-amazon.com/images/I/61fCTlgexuL._SL160_.jpg" width="160" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E7%8C%AB%E6%9A%A6/dp/B07BNZQSZZ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07BNZQSZZ">猫暦</a></dt>
-	<dd>ねこしみず美濃</dd>
-    <dd></dd>
-    <dd>Collections Kindle版</dd>
-    <dd>ASIN: B07BNZQSZZ</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">「寛政の改暦」のころの伊能勘解由（忠敬）とその妻とされる「おえい」の物語。感想は<a href="https://text.baldanders.info/remark/2016/05/nekoyomi/">こちら</a>。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-01-07">2019-01-07</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/7%E6%9C%887%E6%97%A5%E3%80%81%E6%99%B4%E3%82%8C/dp/B00FXUQGN2?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00FXUQGN2"><img src="https://images-fe.ssl-images-amazon.com/images/I/51dNfFm5xHL._SL160_.jpg" width="160" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/7%E6%9C%887%E6%97%A5%E3%80%81%E6%99%B4%E3%82%8C/dp/B00FXUQGN2?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00FXUQGN2">7月7日、晴れ</a></dt>
-	<dd>DREAMS COME TRUE (メインアーティスト)</dd>
-    <dd>Sony Music Labels Inc. 1996-04-01 (Release 2014-04-01)</dd>
-    <dd>Digital Music Track MP3 ダウンロード</dd>
-    <dd>ASIN: B00FXUQGN2</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">ドリカムで唯一持ってる楽曲。大きな声では言えないが，個人的には失恋ソングである（笑）</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-06-09">2019-06-09</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "4416718020" %}} <!-- 天文年鑑 2019年版 -->
+{{% review-paapi "B07BNZQSZZ" %}} <!-- 猫暦 -->
+{{% review-paapi "B00FXUQGN2" %}} <!-- 7月7日、晴れ -->

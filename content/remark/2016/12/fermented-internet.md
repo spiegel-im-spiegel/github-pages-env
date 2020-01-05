@@ -1,4 +1,5 @@
 +++
+title = "「インターネットと発酵」"
 description = "この中に出てくる「発酵」の話。実は2005年頃に既に話題として登場してるのよ。上の対談記事を読んでて思い出した。"
 tags = [
   "code",
@@ -7,7 +8,6 @@ tags = [
   "generativity",
 ]
 date = "2016-12-16T21:14:37+09:00"
-title = "「インターネットと発酵」"
 
 [scripts]
   mathjax = false
@@ -105,34 +105,5 @@ Git/[GitHub](https://github.com/) が作り出すコミュニティでは「ま�
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%95%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%AB%E3%83%81%E3%83%A3%E3%83%BC%E3%82%92%E3%81%A4%E3%81%8F%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%82%AC%E3%82%A4%E3%83%89%E3%83%96%E3%83%83%E3%82%AF-%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%BB%E3%82%B3%E3%83%A2%E3%83%B3%E3%82%BA%E3%81%AB%E3%82%88%E3%82%8B%E5%89%B5%E9%80%A0%E3%81%AE%E5%BE%AA%E7%92%B0-%E3%83%89%E3%83%9F%E3%83%8B%E3%82%AF%E3%83%BB%E3%83%81%E3%82%A7%E3%83%B3/dp/4845911744?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4845911744"><img src="https://images-fe.ssl-images-amazon.com/images/I/51pDWTdSdlL._SL160_.jpg" width="115" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%83%95%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%AB%E3%83%81%E3%83%A3%E3%83%BC%E3%82%92%E3%81%A4%E3%81%8F%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%82%AC%E3%82%A4%E3%83%89%E3%83%96%E3%83%83%E3%82%AF-%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%BB%E3%82%B3%E3%83%A2%E3%83%B3%E3%82%BA%E3%81%AB%E3%82%88%E3%82%8B%E5%89%B5%E9%80%A0%E3%81%AE%E5%BE%AA%E7%92%B0-%E3%83%89%E3%83%9F%E3%83%8B%E3%82%AF%E3%83%BB%E3%83%81%E3%82%A7%E3%83%B3/dp/4845911744?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4845911744">フリーカルチャーをつくるためのガイドブック  クリエイティブ・コモンズによる創造の循環</a></dt>
-	<dd>ドミニク・チェン</dd>
-    <dd>フィルムアート社 2012-05-25</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4845911744, EAN: 9784845911745</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">国内における Free Culture の事例が豊富。取っ掛かりとしてはちょうどよい本。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-05-07">2015-05-07</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
-<div class="hreview" >
-	<div class="photo"><a class="item url" href="https://tatsu-zine.com/books/infoshare"><img src="https://tatsu-zine.com/images/books/15/cover_s.jpg" alt="photo"></a></div>
-    <dl class="fn">
-      <dt><a href="https://tatsu-zine.com/books/infoshare">情報共有の未来</a></dt>
-      <dd>yomoyomo</dd>
-      <dd>達人出版会 2011-12-30</dd>
-      <dd>評価&nbsp;<abbr class="rating fa-sm" title="4">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="far fa-star"></i>
-      </abbr></dd>
-    </dl>
-    <p class="description">同名ブログの書籍化。感想は<a href="https://baldanders.info/blog/000611/">こちら</a>。</p>
-    <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018-12-31</abbr></p>
-</div>
+{{% review-paapi "4845911744" %}} <!-- フリーカルチャーをつくるためのガイドブック -->
+{{% review-tatsujin "infoshare" %}} <!-- 情報共有の未来 -->

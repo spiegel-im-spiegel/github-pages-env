@@ -79,30 +79,5 @@ WIRED VISION に「[実はネットブックだった『iPhone』？――平均
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3-%E5%88%A5%E5%86%8A%E6%97%A5%E7%B5%8C%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9-%E6%97%A5%E7%B5%8C%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9%E7%B7%A8%E9%9B%86%E9%83%A8/dp/4532512123?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4532512123"><img src="https://images-fe.ssl-images-amazon.com/images/I/51gurnOqhiL._SL160_.jpg" width="120" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3-%E5%88%A5%E5%86%8A%E6%97%A5%E7%B5%8C%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9-%E6%97%A5%E7%B5%8C%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9%E7%B7%A8%E9%9B%86%E9%83%A8/dp/4532512123?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4532512123">サイバーセキュリティ (別冊日経サイエンス)</a></dt>
-    <dd>日経サイエンス編集部 (編集)</dd>
-    <dd>日本経済新聞出版社 2016-04-22 (Release 2016-04-22)</dd>
-    <dd>ムック</dd>
-    <dd>4532512123 (ASIN), 9784532512125 (EAN)</dd>
-    <dd>Rating<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">『日経サイエンス』2012年6月号の「介入されないもうひとつのウェブ」が収録されている。その他にも2010年代前半におけるセキュリティ問題についてよくまとめられている。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-11-05">2016-11-05</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home" >PA-API</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B0125TZSZ0?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/616sjle5ITL._SL160_.jpg" width="109" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B0125TZSZ0?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">つながりっぱなしの日常を生きる：ソーシャルメディアが若者にもたらしたもの</a></dt>
-    <dd>ダナ・ボイド (著), 野中 モモ (翻訳)</dd>
-    <dd>草思社 2014-10-09 (Release 2015-07-21)</dd>
-    <dd>Kindle版</dd>
-    <dd>B0125TZSZ0 (ASIN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">読むのに1年半以上かかってしまった。ネット，特に SNS 上で自身のアイデンティティやプライバシーを保つにはどうすればいいか。豊富な事例を交えて考察する。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "4532512123" %}} <!-- サイバーセキュリティ (別冊日経サイエンス) -->
+{{% review-paapi "B0125TZSZ0" %}} <!-- つながりっぱなしの日常を生きる -->

@@ -5,20 +5,6 @@ description = "Win7 のサポートが切れる2020年までに Windows は捨�
 image = "/images/attention/kitten.jpg"
 tags        = [ "engineering", "nas", "samba" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -55,16 +41,4 @@ Win7 のサポートが切れる2020年までに Windows は捨てる予定な�
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%EF%BC%BB%E8%A9%A6%E3%81%97%E3%81%A6%E7%90%86%E8%A7%A3%EF%BC%BDLinux%E3%81%AE%E3%81%97%E3%81%8F%E3%81%BF-%EF%BD%9E%E5%AE%9F%E9%A8%93%E3%81%A8%E5%9B%B3%E8%A7%A3%E3%81%A7%E5%AD%A6%E3%81%B6OS%E3%81%A8%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2%E3%81%AE%E5%9F%BA%E7%A4%8E%E7%9F%A5%E8%AD%98-%E6%AD%A6%E5%86%85-%E8%A6%9A-ebook/dp/B079YJS1J1?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B079YJS1J1"><img src="https://images-fe.ssl-images-amazon.com/images/I/51CPvtuv%2BwL._SL160_.jpg" width="123" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%EF%BC%BB%E8%A9%A6%E3%81%97%E3%81%A6%E7%90%86%E8%A7%A3%EF%BC%BDLinux%E3%81%AE%E3%81%97%E3%81%8F%E3%81%BF-%EF%BD%9E%E5%AE%9F%E9%A8%93%E3%81%A8%E5%9B%B3%E8%A7%A3%E3%81%A7%E5%AD%A6%E3%81%B6OS%E3%81%A8%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2%E3%81%AE%E5%9F%BA%E7%A4%8E%E7%9F%A5%E8%AD%98-%E6%AD%A6%E5%86%85-%E8%A6%9A-ebook/dp/B079YJS1J1?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B079YJS1J1">［試して理解］Linuxのしくみ ～実験と図解で学ぶOSとハードウェアの基礎知識</a></dt>
-	<dd>武内 覚</dd>
-    <dd>技術評論社 2018-02-23 (Release 2018-02-23)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B079YJS1J1</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">コンテナ全盛のこの時代にかなり硬派な内容の Linux 解説書。コンピュータの教科書としても使えそう。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-01-07">2019-01-07</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
+{{% review-paapi "B079YJS1J1" %}} <!-- ［試して理解］Linuxのしくみ -->

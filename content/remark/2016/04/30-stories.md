@@ -92,16 +92,4 @@ Struts1 への影響は（すでに Apaches のサポート外なので）不明
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4757102852?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41YkbcP5IyL._SL160_.jpg" width="108" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4757102852?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">著作権２．０ ウェブ時代の文化発展をめざして (NTT出版ライブラリー―レゾナント)</a></dt>
-    <dd>名和 小太郎 (著)</dd>
-    <dd>NTT出版 2010-06-24</dd>
-    <dd>単行本（ソフトカバー）</dd>
-    <dd>4757102852 (ASIN), 9784757102859 (EAN), 4757102852 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">名著です。今すぐ買うべきです。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-13">2018-11-13</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "4757102852" %}} <!-- 著作権２．０ ウェブ時代の文化発展をめざして -->

@@ -60,15 +60,4 @@ Instagram は生年月日の情報を使ってユーザ統制を強化するら�
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B01MZGVHOA?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51T6PBdGbyL._SL160_.jpg" width="108" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B01MZGVHOA?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">超監視社会</a></dt>
-    <dd>ブルース・シュナイアー (著), 池村 千秋 (翻訳)</dd>
-    <dd>草思社 2016-12-13 (Release 2017-02-03)</dd>
-    <dd>Kindle版</dd>
-    <dd>B01MZGVHOA (ASIN)</dd>
-  </dl>
-  <p class="description">実は積ん読のまま読んでない。そろそろちゃんと最後まで読まないと。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-03-23">2019-03-23</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "B01MZGVHOA" %}} <!-- 超監視社会 -->

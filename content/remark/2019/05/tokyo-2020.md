@@ -67,16 +67,4 @@ pageType = "text"
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E8%91%97%E4%BD%9C%E6%A8%A9%E6%B3%95-%E7%AC%AC2%E7%89%88-%E4%B8%AD%E5%B1%B1-%E4%BF%A1%E5%BC%98/dp/4641144699?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4641144699"><img src="https://images-fe.ssl-images-amazon.com/images/I/51cDU7G6bTL._SL160_.jpg" width="114" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E8%91%97%E4%BD%9C%E6%A8%A9%E6%B3%95-%E7%AC%AC2%E7%89%88-%E4%B8%AD%E5%B1%B1-%E4%BF%A1%E5%BC%98/dp/4641144699?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4641144699">著作権法 第2版</a></dt>
-	<dd>中山 信弘</dd>
-    <dd>有斐閣 2014-10-27</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4641144699, EAN: 9784641144699</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">興味本位で買うには少々お高いので図書館で借りて読んだ。大学とかで専門の教科書にもなっているそうな。独学で読むにはヘヴィな内容だが一度は目を通しておきたい一冊。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-05-11">2019-05-11</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "4641144699" %}} <!-- 著作権法 第2版 -->

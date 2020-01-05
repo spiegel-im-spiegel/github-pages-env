@@ -46,16 +46,4 @@ Google は「世界中のあらゆる情報をグラフ化」しようと目論�
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4087606244?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/513Vv+8gBPL._SL160_.jpg" width="110" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4087606244?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">ラテンアメリカの文学 砂の本 (集英社文庫)</a></dt>
-    <dd>ホルへ・ルイス・ボルヘス (著), 篠田 一士 (翻訳)</dd>
-    <dd>集英社 2011-06-28 (Release 2011-06-28)</dd>
-    <dd>文庫</dd>
-    <dd>4087606244 (ASIN), 9784087606249 (EAN), 4087606244 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">ボルヘスの作品群で個人的に一番好きな作品。13編からなる短編集。その中の1編である「会議」の感想は<a href="/remark/2017/09/congreso/">こちら</a>。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-09-17">2017-09-17</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "4087606244" %}} <!-- 砂の本 -->

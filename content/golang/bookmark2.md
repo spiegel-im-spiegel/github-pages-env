@@ -1,9 +1,9 @@
 +++
+title = "Go 言語に関するブックマーク（未整理分）"
 date = "2015-09-11T23:59:59+09:00"
 description = "「Go 言語に関するブックマーク」に整理しきれない未整理分。"
-draft = false
 tags = ["golang", "bookmark"]
-title = "Go 言語に関するブックマーク（未整理分）"
+image = "/images/attention/go-logo_blue.png"
   
 [scripts]
   mathjax = false

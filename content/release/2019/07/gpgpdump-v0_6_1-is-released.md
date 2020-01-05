@@ -80,29 +80,5 @@ var DefaultTransport RoundTripper = &Transport{
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%9A%97%E5%8F%B7%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80-%E7%AC%AC3%E7%89%88-%E7%A7%98%E5%AF%86%E3%81%AE%E5%9B%BD%E3%81%AE%E3%82%A2%E3%83%AA%E3%82%B9-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B015643CPE?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B015643CPE"><img src="https://images-fe.ssl-images-amazon.com/images/I/51t6yHHVwEL._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E6%9A%97%E5%8F%B7%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80-%E7%AC%AC3%E7%89%88-%E7%A7%98%E5%AF%86%E3%81%AE%E5%9B%BD%E3%81%AE%E3%82%A2%E3%83%AA%E3%82%B9-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B015643CPE?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B015643CPE">暗号技術入門 第3版　秘密の国のアリス</a></dt>
-    <dd>結城 浩</dd>
-    <dd>SBクリエイティブ 2015-08-25 (Release 2015-09-17)</dd>
-    <dd>Kindle版</dd>
-    <dd>B015643CPE (ASIN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">SHA-3 や Bitcoin/Blockchain など新しい知見や技術要素を大幅追加。暗号技術を使うだけならこれ1冊でとりあえず無問題。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-09-20">2015-09-20</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-API</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%AF%E3%83%AC%E3%82%A4%E3%82%B8%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%84%E3%83%BB%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%BB%E3%83%87%E3%83%A9%E3%83%83%E3%82%AF%E3%82%B9-%E5%B9%B3%E6%88%90%E7%84%A1%E8%B2%AC%E4%BB%BB%E5%A2%97%E8%A3%9C%E7%9B%A4-%E3%82%AF%E3%83%AC%E3%82%A4%E3%82%B8%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%84/dp/B07MPK2F11?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07MPK2F11"><img src="https://images-fe.ssl-images-amazon.com/images/I/613qa71Ld7L._SL160_.jpg" width="160" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%AF%E3%83%AC%E3%82%A4%E3%82%B8%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%84%E3%83%BB%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%BB%E3%83%87%E3%83%A9%E3%83%83%E3%82%AF%E3%82%B9-%E5%B9%B3%E6%88%90%E7%84%A1%E8%B2%AC%E4%BB%BB%E5%A2%97%E8%A3%9C%E7%9B%A4-%E3%82%AF%E3%83%AC%E3%82%A4%E3%82%B8%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%84/dp/B07MPK2F11?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07MPK2F11">クレイジーキャッツ・スーパー・デラックス(平成無責任増補盤)</a></dt>
-    <dd>青島幸男 (その他), 大瀧詠一 (その他)</dd>
-    <dd>ユニバーサル ミュージック 2019-03-26 (Release 2019-03-27)</dd>
-    <dd>CD</dd>
-    <dd>B07MPK2F11 (ASIN), 4988031321218 (EAN)</dd>
-  </dl>
-  <p class="description">クレイジーキャッツは私の原点です。子供の頃の刷り込みは恐ろしい（笑）</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-07-22">2019-07-22</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home" >PA-API</a>)</p>
-</div>
+{{% review-paapi "B015643CPE" %}} <!-- 暗号技術入門 第3版 -->
+{{% review-paapi "B07MPK2F11" %}} <!-- クレイジーキャッツ・スーパー・デラックス -->

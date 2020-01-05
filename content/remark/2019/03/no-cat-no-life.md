@@ -49,19 +49,7 @@ Facebook や Twitter からこのブログに辿り着いた方は気がつい�
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4822283100?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51-pZ52JsUL._SL160_.jpg" width="107" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4822283100?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">セキュリティはなぜやぶられたのか</a></dt>
-    <dd>ブルース・シュナイアー (著), 井口 耕二 (翻訳)</dd>
-    <dd>日経BP 2007-02-15</dd>
-    <dd>単行本</dd>
-    <dd>4822283100 (ASIN), 9784822283100 (EAN), 4822283100 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">原書のタイトルが “<a href="https://www.amazon.co.jp/dp/B000PY3NB4?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">Beyond Fear: Thinking Sensibly About Security in an Uncertain World</a>” なのに対して日本語タイトルがどうしようもなくヘボいが中身は名著。とりあえず読んどきなはれ。ゼロ年代当時 9.11 およびその後の米国のセキュリティ政策と深く関連している内容なので，そのへんを加味して読むとよい。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-02-11">2019-02-11</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "4822283100" %}} <!-- セキュリティはなぜやぶられたのか -->
 
 <div class="hreview">
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%AA%E3%82%B9%E3%82%AF-%E4%B8%8D%E7%A2%BA%E5%AE%9F%E6%80%A7%E3%81%AE%E4%B8%AD%E3%81%A7%E3%81%AE%E6%84%8F%E6%80%9D%E6%B1%BA%E5%AE%9A-%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%91%E3%83%AC%E3%83%83%E3%83%88-Baruch-Fischhoff/dp/4621089188?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621089188"><img src="https://images-fe.ssl-images-amazon.com/images/I/41Cboa6GkmL._SL160_.jpg" width="98" alt="photo"></a></div>

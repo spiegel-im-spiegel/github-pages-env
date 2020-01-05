@@ -60,58 +60,7 @@ pageType = "text"
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4822283100?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51-pZ52JsUL._SL160_.jpg" width="107" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4822283100?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">セキュリティはなぜやぶられたのか</a></dt>
-    <dd>ブルース・シュナイアー (著), 井口 耕二 (翻訳)</dd>
-    <dd>日経BP 2007-02-15</dd>
-    <dd>単行本</dd>
-    <dd>4822283100 (ASIN), 9784822283100 (EAN), 4822283100 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">原書のタイトルが “<a href="https://www.amazon.co.jp/dp/B000PY3NB4?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">Beyond Fear: Thinking Sensibly About Security in an Uncertain World</a>” なのに対して日本語タイトルがどうしようもなくヘボいが中身は名著。とりあえず読んどきなはれ。ゼロ年代当時 9.11 およびその後の米国のセキュリティ政策と深く関連している内容なので，そのへんを加味して読むとよい。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-02-11">2019-02-11</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%BE%A9%E6%B4%BB%E3%81%AE%E5%9C%B0%EF%BC%91-%E5%B0%8F%E5%B7%9D%E4%B8%80%E6%B0%B4-ebook/dp/B00GJOESS6?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00GJOESS6"><img src="https://images-fe.ssl-images-amazon.com/images/I/51ymtvyHUmL._SL160_.jpg" width="108" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E5%BE%A9%E6%B4%BB%E3%81%AE%E5%9C%B0%EF%BC%91-%E5%B0%8F%E5%B7%9D%E4%B8%80%E6%B0%B4-ebook/dp/B00GJOESS6?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00GJOESS6">復活の地１</a></dt>
-	<dd>小川一水</dd>
-    <dd>早川書房 2012-09-15 (Release 2013-11-15)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00GJOESS6</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">コミカライズ版もある。てか，コミカライズ版を最初に読んだ（笑） 大きな災害がある度にこの作品を思い出す。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-04-17">2016-04-17</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%BD%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%B7%E3%83%95%E3%83%88-%E3%81%93%E3%82%8C%E3%81%8B%E3%82%89%E3%81%AE%E4%BC%81%E6%A5%AD%E3%81%AB%E3%81%A8%E3%81%A3%E3%81%A6%E4%B8%80%E7%95%AA%E5%A4%A7%E5%88%87%E3%81%AA%E3%81%93%E3%81%A8-%E6%96%89%E8%97%A4-%E5%BE%B9-ebook/dp/B009S7CDP6?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B009S7CDP6"><img src="https://images-fe.ssl-images-amazon.com/images/I/51b1VUql4DL._SL160_.jpg" width="107" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%BD%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%B7%E3%83%95%E3%83%88-%E3%81%93%E3%82%8C%E3%81%8B%E3%82%89%E3%81%AE%E4%BC%81%E6%A5%AD%E3%81%AB%E3%81%A8%E3%81%A3%E3%81%A6%E4%B8%80%E7%95%AA%E5%A4%A7%E5%88%87%E3%81%AA%E3%81%93%E3%81%A8-%E6%96%89%E8%97%A4-%E5%BE%B9-ebook/dp/B009S7CDP6?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B009S7CDP6">ソーシャルシフト　これからの企業にとって一番大切なこと</a></dt>
-	<dd>斉藤 徹</dd>
-    <dd>日本経済新聞出版社 2011-11-11 (Release 2012-10-18)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B009S7CDP6</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">随分前に出版された本だが，企業がソーシャル・メディアと付き合うための基本的な事柄が載っている。これ読んで出直してきなはれ。ちなみに巻末の spesial thanks に私の名前が載っているのは密かな自慢である（笑）</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-05-30">2019-05-30</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E8%B3%A2%E8%80%85%E3%81%AE%E5%BC%9F%E5%AD%90%E3%82%92%E5%90%8D%E4%B9%97%E3%82%8B%E8%B3%A2%E8%80%85-11-GC%E3%83%8E%E3%83%99%E3%83%AB%E3%82%BA-%E3%82%8A%E3%82%85%E3%81%86%E3%81%9B%E3%82%93%E3%81%B2%E3%82%8D%E3%81%A4%E3%81%90-ebook/dp/B07RWSCKKG?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07RWSCKKG"><img src="https://images-fe.ssl-images-amazon.com/images/I/51nMoOn8kkL._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E8%B3%A2%E8%80%85%E3%81%AE%E5%BC%9F%E5%AD%90%E3%82%92%E5%90%8D%E4%B9%97%E3%82%8B%E8%B3%A2%E8%80%85-11-GC%E3%83%8E%E3%83%99%E3%83%AB%E3%82%BA-%E3%82%8A%E3%82%85%E3%81%86%E3%81%9B%E3%82%93%E3%81%B2%E3%82%8D%E3%81%A4%E3%81%90-ebook/dp/B07RWSCKKG?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07RWSCKKG">賢者の弟子を名乗る賢者 11 (GCノベルズ)</a></dt>
-	<dd>りゅうせんひろつぐ, 藤ちょこ</dd>
-    <dd>マイクロマガジン社 2019-05-30 (Release 2019-05-30)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B07RWSCKKG</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">ソウルハウル編のクライマックス。今度はレイドボスだ！</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-05-30">2019-05-30</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "4822283100" %}} <!-- セキュリティはなぜやぶられたのか -->
+{{% review-paapi "B00GJOESS6" %}} <!-- 復活の地 -->
+{{% review-paapi "B009S7CDP6" %}} <!-- ソーシャルシフト -->
+{{% review-paapi "B07RWSCKKG" %}} <!-- 賢者の弟子を名乗る賢者 11 -->

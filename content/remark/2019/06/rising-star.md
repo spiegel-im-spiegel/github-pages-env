@@ -61,58 +61,7 @@ pageType = "text"
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%92%E3%83%88%E3%83%A9%E3%83%BC%E3%81%A8%E5%93%B2%E5%AD%A6%E8%80%85-%E5%93%B2%E5%AD%A6%E3%81%AF%E3%83%8A%E3%83%81%E3%82%BA%E3%83%A0%E3%81%A8%E3%81%A9%E3%81%86%E9%96%A2%E3%82%8F%E3%81%A3%E3%81%9F%E3%81%8B-%E3%82%A4%E3%83%B4%E3%82%A9%E3%83%B3%E3%83%8C-%E3%82%B7%E3%82%A7%E3%83%A9%E3%83%83%E3%83%88/dp/4560084122?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4560084122"><img src="https://images-fe.ssl-images-amazon.com/images/I/31LV56Z1uQL._SL160_.jpg" width="114" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%83%92%E3%83%88%E3%83%A9%E3%83%BC%E3%81%A8%E5%93%B2%E5%AD%A6%E8%80%85-%E5%93%B2%E5%AD%A6%E3%81%AF%E3%83%8A%E3%83%81%E3%82%BA%E3%83%A0%E3%81%A8%E3%81%A9%E3%81%86%E9%96%A2%E3%82%8F%E3%81%A3%E3%81%9F%E3%81%8B-%E3%82%A4%E3%83%B4%E3%82%A9%E3%83%B3%E3%83%8C-%E3%82%B7%E3%82%A7%E3%83%A9%E3%83%83%E3%83%88/dp/4560084122?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4560084122">ヒトラーと哲学者: 哲学はナチズムとどう関わったか</a></dt>
-	<dd>イヴォンヌ シェラット</dd>
-	<dd>三ッ木 道夫 (翻訳), 大久保 友博 (翻訳)</dd>
-    <dd>白水社 2015-01-22</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4560084122, EAN: 9784560084120</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">ナチス・ドイツ時代の哲学史物語という感じ。哲学（者）がヒトラーおよびナチス・ドイツにどのような影響を与えたか，またヒトラーおよびナチス・ドイツが哲学（者）にどのような影響を与えたかを物語風に編み上げていく。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-06-05">2019-06-05</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00EYXMA9I?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00EYXMA9I"><img src="https://images-fe.ssl-images-amazon.com/images/I/41ETMZ7i9qL._SL160_.jpg" width="114" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00EYXMA9I?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00EYXMA9I">数学ガール</a></dt>
-	<dd>結城 浩</dd>
-    <dd>SBクリエイティブ 2007-06-26 (Release 2014-03-12)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00EYXMA9I</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">ミルカさんとの衝撃の encounter。数学ガールがワルツを踊る。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/Thats-%E3%82%A4%E3%82%BA%E3%83%9F%E3%82%B3-%E3%83%99%E3%82%B9%E3%83%88-Fukkan-com-%E5%A4%A7%E9%87%8E%E5%AE%89%E4%B9%8B/dp/4835449517?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4835449517"><img src="https://images-fe.ssl-images-amazon.com/images/I/51c7aTv2-5L._SL160_.jpg" width="116" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/Thats-%E3%82%A4%E3%82%BA%E3%83%9F%E3%82%B3-%E3%83%99%E3%82%B9%E3%83%88-Fukkan-com-%E5%A4%A7%E9%87%8E%E5%AE%89%E4%B9%8B/dp/4835449517?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4835449517">That's! イズミコ ベスト (Fukkan.com)</a></dt>
-	<dd>大野安之</dd>
-    <dd>復刊ドットコム 2013-06-18</dd>
-    <dd>Book コミック</dd>
-    <dd>ASIN: 4835449517, EAN: 9784835449517</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">これには「バイ・ポーラー」は収録されてないんだよなぁ。でも「のぼる ほし」とか「CONFUSION」とか好きな作品も入ってるので無問題。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-12-01">2014-12-01</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%B0%91%E5%B9%B4%E3%81%AE%E5%A4%A2%E3%81%AF%E7%94%9F%E3%81%8D%E3%81%A6%E3%81%84%E3%82%8B%E2%80%9989-%E5%B1%B1%E6%9C%AC%E6%AD%A3%E4%B9%8B/dp/B00005HFJQ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00005HFJQ"><img src="https://images-fe.ssl-images-amazon.com/images/I/51SF7J9mXcL._SL160_.jpg" width="160" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E5%B0%91%E5%B9%B4%E3%81%AE%E5%A4%A2%E3%81%AF%E7%94%9F%E3%81%8D%E3%81%A6%E3%81%84%E3%82%8B%E2%80%9989-%E5%B1%B1%E6%9C%AC%E6%AD%A3%E4%B9%8B/dp/B00005HFJQ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00005HFJQ">少年の夢は生きている’89</a></dt>
-    <dd>ダブリューイーエー・ジャパン (Release 1992-04-25)</dd>
-    <dd>Music CD</dd>
-    <dd>ASIN: B00005HFJQ, EAN: 4988014706469</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">お気に入りのアルバムのひとつ。残念ながら引っ越しで処分しちゃったけど。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-06-05">2019-06-05</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "4560084122" %}} <!-- ヒトラーと哲学者 -->
+{{% review-paapi "B00EYXMA9I" %}} <!-- 数学ガール -->
+{{% review-paapi "4835449517" %}} <!-- That's! イズミコ ベスト -->
+{{% review-paapi "B00005HFJQ" %}} <!-- 少年の夢は生きている’89 -->

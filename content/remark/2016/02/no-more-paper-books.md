@@ -117,15 +117,4 @@ PDF も基本はクラウド・ストレージに入れている。
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-10-18">2014-10-18</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
 
-<div class="hreview">
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B012Z14W64?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">[まとめ買い] 犬とハサミは使いよう</a></dt>
-    <dd>更伊 俊介 (著), 鍋島 テツヒロ (著), 鍋島 テツヒロ (イラスト)</dd>
-    <dd></dd>
-    <dd>Kindle版</dd>
-    <dd>B012Z14W64 (ASIN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">犬になっても本を読む！</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-04-26">2015-04-26</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "B009IMAGYQ" %}} <!-- 犬とハサミは使いよう -->

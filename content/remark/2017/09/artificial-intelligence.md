@@ -43,30 +43,5 @@ AI を巡る議論では両者は明確に区別する必要がある。
 
 問題はそこなのである。
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B071FHBGW8?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51cD7DR87IL._SL160_.jpg" width="111" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B071FHBGW8?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">そろそろ、人工知能の真実を話そう (早川書房)</a></dt>
-    <dd>ジャン＝ガブリエル ガナシア (著), 小林 重裕・他 (翻訳), 伊藤 直子 (監修)</dd>
-    <dd>早川書房 2017-05-25 (Release 2017-05-31)</dd>
-    <dd>Kindle版</dd>
-    <dd>B071FHBGW8 (ASIN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="3">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">シンギュラリティは起きない。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-07-02">2016-07-02</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B01J1I8PRQ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/5132MaXTkGL._SL160_.jpg" width="112" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B01J1I8PRQ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">社会は情報化の夢を見る (河出文庫)</a></dt>
-    <dd>佐藤俊樹 (著)</dd>
-    <dd>河出書房新社 2010-09-03 (Release 2016-07-29)</dd>
-    <dd>Kindle版</dd>
-    <dd>B01J1I8PRQ (ASIN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">1996年に出版された『ノイマンの夢・近代の欲望―情報化社会を解体する』の改訂新装版。しかし内容はこれまでと変わりなく，繰り返し語られる技術決定論を前提とする安易な未来予測を「情報化」社会論だとして批判する。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "B071FHBGW8" %}} <!-- 人工知能の真実を話そう -->
+{{% review-paapi "B01J1I8PRQ" %}} <!-- 社会は情報化の夢を見る -->

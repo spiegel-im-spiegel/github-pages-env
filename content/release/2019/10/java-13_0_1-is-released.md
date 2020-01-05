@@ -238,44 +238,6 @@ OpenJDK 64-Bit Server VM (build 13.0.1+9, mixed mode, sharing)
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B00I8AT1EU?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41GPVATQiZL._SL160_.jpg" width="125" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B00I8AT1EU?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">Java言語で学ぶリファクタリング入門</a></dt>
-    <dd>結城 浩 (著)</dd>
-    <dd>SBクリエイティブ 2007-01-26 (Release 2014-03-12)</dd>
-    <dd>Kindle版</dd>
-    <dd>B00I8AT1EU (ASIN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">結城浩さんによる「リファクタリング本」の Kindle 版。意外にも Java 以外でも応用できる優れもの。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-11">2018-12-11</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B00I8ATHGW?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41mh5r0NwLL._SL160_.jpg" width="126" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B00I8ATHGW?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">増補改訂版 Java言語で学ぶデザインパターン入門</a></dt>
-    <dd>結城 浩 (著)</dd>
-    <dd>SBクリエイティブ 2004-06-18 (Release 2014-03-12)</dd>
-    <dd>Kindle版</dd>
-    <dd>B00I8ATHGW (ASIN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">結城浩さんによる通称「デザパタ本」。 Java 以外でも使える優れもの。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-01-05">2016-01-05</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B00I8AT1BS?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41uoMp5etSL._SL160_.jpg" width="126" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B00I8AT1BS?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">増補改訂版 Java言語で学ぶデザインパターン入門 マルチスレッド編</a></dt>
-    <dd>結城 浩 (著)</dd>
-    <dd>SBクリエイティブ 2004-06-18 (Release 2014-03-12)</dd>
-    <dd>Kindle版</dd>
-    <dd>B00I8AT1BS (ASIN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">結城浩さんによる通称「デザパタ本」の Kindle 版。意外にも Java 以外でも応用できる優れもの。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-07">2018-12-07</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "B00I8AT1EU" %}} <!-- Java言語で学ぶリファクタリング入門 -->
+{{% review-paapi "B00I8ATHGW" %}} <!-- 増補改訂版 Java言語で学ぶデザインパターン入門 -->
+{{% review-paapi "B00I8AT1BS" %}} <!-- Java言語で学ぶデザインパターン入門 マルチスレッド編 -->

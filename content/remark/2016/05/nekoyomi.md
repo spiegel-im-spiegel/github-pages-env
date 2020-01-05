@@ -65,58 +65,7 @@ tags = ["book", "comic", "astronomy", "calendar", "ephemeris"]
 さて，これからおえいちゃんはどうなるのか。
 続きが楽しみであります。
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B07BNZQSZZ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/61fCTlgexuL._SL160_.jpg" width="160" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B07BNZQSZZ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">猫暦</a></dt>
-    <dd>ねこしみず美濃 (著)</dd>
-    <dd></dd>
-    <dd>Kindle版</dd>
-    <dd>B07BNZQSZZ (ASIN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">「寛政の改暦」のころの伊能勘解由（忠敬）とその妻とされる「おえい」の物語。感想は<a href="https://text.baldanders.info/remark/2016/05/nekoyomi/">こちら</a>。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-01-07">2019-01-07</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4254102372?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/61GxZdYPMfL._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4254102372?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">暦の大事典</a></dt>
-    <dd>岡田 芳朗 (編集), 神田 泰 (編集), 佐藤 次高 (編集), 高橋 正男 (編集), 古川 麒一郎 (編集), 松井 吉昭 (編集)</dd>
-    <dd>朝倉書店 2014-07-29</dd>
-    <dd>大型本</dd>
-    <dd>4254102372 (ASIN), 9784254102376 (EAN), 4254102372 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">古今東西の暦について網羅されている。結構なお値段だが図書館で借りて読んだ。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-05-05">2016-05-05</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B0095OEG3Y?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51U5H1U7SlL._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B0095OEG3Y?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">天地明察 上 (角川文庫)</a></dt>
-    <dd>冲方 丁 (著)</dd>
-    <dd>KADOKAWA 2012-05-25 (Release 2012-09-01)</dd>
-    <dd>Kindle版</dd>
-    <dd>B0095OEG3Y (ASIN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="3">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">日本人の手による初の暦「貞享暦」の中心人物である渋川春海の物語。安売りしてたので買ったが，実は途中までで積ん読状態。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-04-17">2016-04-17</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4769903251?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51xTinWyprL._SL160_.jpg" width="117" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4769903251?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">天体軌道論</a></dt>
-    <dd>長谷川 一郎 (著)</dd>
-    <dd>恒星社厚生閣 1983-01-01</dd>
-    <dd>単行本</dd>
-    <dd>4769903251 (ASIN), 9784769903253 (EAN), 4769903251 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">学生の頃はめっさお世話になりました。私にとって大事な教科書のひとつです。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-10-29">2019-10-29</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "B07BNZQSZZ" %}} <!-- 猫暦 -->
+{{% review-paapi "4254102372" %}} <!-- 暦の大事典 -->
+{{% review-paapi "B0095OEG3Y" %}} <!-- 天地明察 上 -->
+{{% review-paapi "4769903251" %}} <!-- 天体軌道論 -->

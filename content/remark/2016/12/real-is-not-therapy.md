@@ -92,16 +92,4 @@ Wikipedia の記事や GitHub のリポジトリや Amazon のクラウドにあ
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B0125TZSZ0?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/616sjle5ITL._SL160_.jpg" width="109" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B0125TZSZ0?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">つながりっぱなしの日常を生きる：ソーシャルメディアが若者にもたらしたもの</a></dt>
-    <dd>ダナ・ボイド (著), 野中 モモ (翻訳)</dd>
-    <dd>草思社 2014-10-09 (Release 2015-07-21)</dd>
-    <dd>Kindle版</dd>
-    <dd>B0125TZSZ0 (ASIN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">読むのに1年半以上かかってしまった。ネット，特に SNS 上で自身のアイデンティティやプライバシーを保つにはどうすればいいか。豊富な事例を交えて考察する。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "B0125TZSZ0" %}} <!-- つながりっぱなしの日常を生きる -->

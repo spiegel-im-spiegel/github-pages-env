@@ -48,19 +48,7 @@ title = "今日の戯れ言：TUTAYA というか CCC 図書館"
 
 ## 購入（予定）本2冊{#books}
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%8F%8D%E7%9F%A5%E6%80%A7%E4%B8%BB%E7%BE%A9%E2%80%95%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%81%8C%E7%94%9F%E3%82%93%E3%81%A0%E3%80%8C%E7%86%B1%E7%97%85%E3%80%8D%E3%81%AE%E6%AD%A3%E4%BD%93%E2%80%95%EF%BC%88%E6%96%B0%E6%BD%AE%E9%81%B8%E6%9B%B8%EF%BC%89-%E6%A3%AE%E6%9C%AC-%E3%81%82%E3%82%93%E3%82%8A-ebook/dp/B012VRLPRG?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B012VRLPRG"><img src="https://images-fe.ssl-images-amazon.com/images/I/41-khbugqTL._SL160_.jpg" width="106" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E5%8F%8D%E7%9F%A5%E6%80%A7%E4%B8%BB%E7%BE%A9%E2%80%95%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%81%8C%E7%94%9F%E3%82%93%E3%81%A0%E3%80%8C%E7%86%B1%E7%97%85%E3%80%8D%E3%81%AE%E6%AD%A3%E4%BD%93%E2%80%95%EF%BC%88%E6%96%B0%E6%BD%AE%E9%81%B8%E6%9B%B8%EF%BC%89-%E6%A3%AE%E6%9C%AC-%E3%81%82%E3%82%93%E3%82%8A-ebook/dp/B012VRLPRG?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B012VRLPRG">反知性主義―アメリカが生んだ「熱病」の正体―（新潮選書）</a></dt>
-	<dd>森本 あんり</dd>
-    <dd>新潮社 2015-02-20 (Release 2015-08-14)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B012VRLPRG</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">アメリカの近代思想史または宗教史といった位置付けだろうか。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
+{{% review-paapi "B012VRLPRG" %}} <!-- 反知性主義―アメリカが生んだ -->
 
 <div class="hreview">
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%BD%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E8%AB%96-%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8A%E3%82%92%E5%86%8D%E8%A8%AD%E8%A8%88%E3%81%99%E3%82%8B-%E8%97%A4%E4%BB%A3-%E8%A3%95%E4%B9%8B/dp/4787233912?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4787233912"><img src="https://images-fe.ssl-images-amazon.com/images/I/51dzE7I0cHL._SL160_.jpg" width="109" alt="photo"></a></div>

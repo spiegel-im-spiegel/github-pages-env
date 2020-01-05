@@ -53,19 +53,7 @@ pageType = "text"
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-11-14">2015-11-14</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
 </div>
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E7%94%9F%E3%81%8D%E5%BB%B6%E3%81%B3%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%83%A9%E3%82%AB%E3%83%B3-%E3%81%A1%E3%81%8F%E3%81%BE%E6%96%87%E5%BA%AB-%E6%96%8E%E8%97%A4-%E7%92%B0/dp/4480429115?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4480429115"><img src="https://images-fe.ssl-images-amazon.com/images/I/51AEn5H3UCL._SL160_.jpg" width="114" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E7%94%9F%E3%81%8D%E5%BB%B6%E3%81%B3%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%83%A9%E3%82%AB%E3%83%B3-%E3%81%A1%E3%81%8F%E3%81%BE%E6%96%87%E5%BA%AB-%E6%96%8E%E8%97%A4-%E7%92%B0/dp/4480429115?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4480429115">生き延びるためのラカン (ちくま文庫)</a></dt>
-	<dd>斎藤 環</dd>
-    <dd>筑摩書房 2012-02-01</dd>
-    <dd>Book 文庫</dd>
-    <dd>ASIN: 4480429115, EAN: 9784480429117</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">ラカン入門書？ とはちょっと違うか（笑）</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-03-01">2019-03-01</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "4480429115" %}} <!-- 生き延びるためのラカン -->
 
 <div class="hreview">
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/AI-vs-%E6%95%99%E7%A7%91%E6%9B%B8%E3%81%8C%E8%AA%AD%E3%82%81%E3%81%AA%E3%81%84%E5%AD%90%E3%81%A9%E3%82%82%E3%81%9F%E3%81%A1-%E6%96%B0%E4%BA%95-%E7%B4%80%E5%AD%90-ebook/dp/B0791XCYQG?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0791XCYQG"><img src="https://images-fe.ssl-images-amazon.com/images/I/51KFIJ%2BqpkL._SL160_.jpg" width="111" alt="photo"></a></div>

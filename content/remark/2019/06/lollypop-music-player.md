@@ -62,16 +62,4 @@ $ sudo apt install lollypop
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [PPA]: https://launchpad.net/ubuntu/+ppas "Personal Package Archives : Ubuntu"
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B07STKKM3D?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/610RL7gTRYL._SL160_.jpg" width="160" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B07STKKM3D?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">賢者の孫EDﾃｰﾏ｢圧倒的Vivid Days｣</a></dt>
-    <dd>吉七味。 (メインアーティスト)</dd>
-    <dd>avex pictures (Release 2019-06-19)</dd>
-    <dd>MP3 ダウンロード</dd>
-    <dd>B07STKKM3D (ASIN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">アニメ「賢者の孫」の ED 曲を含む。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-06-26">2019-06-26</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "B07STKKM3D" %}} <!-- 賢者の孫EDテーマ｢圧倒的Vivid Days｣ -->

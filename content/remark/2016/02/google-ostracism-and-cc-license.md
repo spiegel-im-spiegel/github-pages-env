@@ -1,9 +1,8 @@
 +++
+title = "Google 八分とファッションとしての CC License"
 date = "2016-02-09T20:42:43+09:00"
 description = "そろそろこういうバカバカしい話はやめて欲しいよね。そのための CC Licenses なんだが。"
-draft = false
 tags = ["creative-commons", "google"]
-title = "Google 八分とファッションとしての CC License"
 
 [scripts]
   mathjax = false
@@ -86,30 +85,5 @@ Legal Code でも
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF-HTML-XHTML-%E7%A5%9E%E5%B4%8E-%E6%AD%A3%E8%8B%B1/dp/483993195X?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=483993195X"><img src="https://images-fe.ssl-images-amazon.com/images/I/51oaN2iq9xL._SL160_.jpg" width="124" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF-HTML-XHTML-%E7%A5%9E%E5%B4%8E-%E6%AD%A3%E8%8B%B1/dp/483993195X?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=483993195X">セマンティック HTML/XHTML</a></dt>
-	<dd>神崎 正英</dd>
-    <dd>毎日コミュニケーションズ 2009-05-28</dd>
-    <dd>Book 単行本（ソフトカバー）</dd>
-    <dd>ASIN: 483993195X, EAN: 9784839931957</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">残念ながら紙の本は実質的に絶版なんですよねぇ。是非デジタル化を希望します。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-08-17">2014-08-17</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E5%8C%96%E3%81%99%E3%82%8B%E5%89%B5%E9%80%A0%E3%81%AE%E6%99%82%E4%BB%A3-%E8%91%97%E4%BD%9C%E6%A8%A9%E3%82%92%E6%8B%A1%E5%BC%B5%E3%81%99%E3%82%8B%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%BB%E3%82%B3%E3%83%A2%E3%83%B3%E3%82%BA%E3%81%AE%E6%96%B9%E6%B3%95%E8%AB%96-%E3%82%AB%E3%83%89%E3%82%AB%E3%83%AF%E3%83%BB%E3%83%9F%E3%83%8B%E3%83%83%E3%83%84%E3%83%96%E3%83%83%E3%82%AF-%E3%83%89%E3%83%9F%E3%83%8B%E3%82%AF%E3%83%BB%E3%83%81%E3%82%A7%E3%83%B3-ebook/dp/B00DI8TMPU?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00DI8TMPU"><img src="https://images-fe.ssl-images-amazon.com/images/I/51zmlOAOaFL._SL160_.jpg" width="106" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E5%8C%96%E3%81%99%E3%82%8B%E5%89%B5%E9%80%A0%E3%81%AE%E6%99%82%E4%BB%A3-%E8%91%97%E4%BD%9C%E6%A8%A9%E3%82%92%E6%8B%A1%E5%BC%B5%E3%81%99%E3%82%8B%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%BB%E3%82%B3%E3%83%A2%E3%83%B3%E3%82%BA%E3%81%AE%E6%96%B9%E6%B3%95%E8%AB%96-%E3%82%AB%E3%83%89%E3%82%AB%E3%83%AF%E3%83%BB%E3%83%9F%E3%83%8B%E3%83%83%E3%83%84%E3%83%96%E3%83%83%E3%82%AF-%E3%83%89%E3%83%9F%E3%83%8B%E3%82%AF%E3%83%BB%E3%83%81%E3%82%A7%E3%83%B3-ebook/dp/B00DI8TMPU?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00DI8TMPU">オープン化する創造の時代　著作権を拡張するクリエイティブ・コモンズの方法論 (カドカワ・ミニッツブック)</a></dt>
-	<dd>ドミニク・チェン</dd>
-    <dd>ブックウォーカー 2013-06-25 (Release 2013-06-27)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00DI8TMPU</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description"><a href='https://baldanders.info/blog/000643/'>手軽に読める</a>。お薦め。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-09-13">2014-09-13</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "483993195X" %}} <!-- セマンティック HTML/XHTML -->
+{{% review-paapi "B00DI8TMPU" %}} <!-- オープン化する創造の時代 -->

@@ -62,21 +62,5 @@ title = "ようやく『反知性主義』を読んだ"
 
 [反知性主義]: https://www.amazon.co.jp/exec/obidos/ASIN/B012VRLPRG/baldandersinf-22/ "Amazon.co.jp: 反知性主義―アメリカが生んだ「熱病」の正体―（新潮選書） 電子書籍: 森本 あんり: Kindleストア"
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%8F%8D%E7%9F%A5%E6%80%A7%E4%B8%BB%E7%BE%A9%E2%80%95%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%81%8C%E7%94%9F%E3%82%93%E3%81%A0%E3%80%8C%E7%86%B1%E7%97%85%E3%80%8D%E3%81%AE%E6%AD%A3%E4%BD%93%E2%80%95%EF%BC%88%E6%96%B0%E6%BD%AE%E9%81%B8%E6%9B%B8%EF%BC%89-%E6%A3%AE%E6%9C%AC-%E3%81%82%E3%82%93%E3%82%8A-ebook/dp/B012VRLPRG?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B012VRLPRG"><img src="https://images-fe.ssl-images-amazon.com/images/I/41-khbugqTL._SL160_.jpg" width="106" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E5%8F%8D%E7%9F%A5%E6%80%A7%E4%B8%BB%E7%BE%A9%E2%80%95%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%81%8C%E7%94%9F%E3%82%93%E3%81%A0%E3%80%8C%E7%86%B1%E7%97%85%E3%80%8D%E3%81%AE%E6%AD%A3%E4%BD%93%E2%80%95%EF%BC%88%E6%96%B0%E6%BD%AE%E9%81%B8%E6%9B%B8%EF%BC%89-%E6%A3%AE%E6%9C%AC-%E3%81%82%E3%82%93%E3%82%8A-ebook/dp/B012VRLPRG?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B012VRLPRG">反知性主義―アメリカが生んだ「熱病」の正体―（新潮選書）</a></dt>
-	<dd>森本 あんり</dd>
-    <dd>新潮社 2015-02-20 (Release 2015-08-14)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B012VRLPRG</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">アメリカの近代思想史または宗教史といった位置付けだろうか。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
-
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00EUVZHX0/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/41iDCgh1k%2BL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00EUVZHX0/baldandersinf-22/">神道入門 日本人にとって神とは何か (平凡社新書)</a></dt><dd>井上 順孝 </dd><dd>平凡社 2006-01-12</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00D2NVP88/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00D2NVP88.09._SCTHUMBZZZ_.jpg"  alt="国家が個人資産を奪う日 (平凡社新書 681)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00I7PNRL4/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00I7PNRL4.09._SCTHUMBZZZ_.jpg"  alt="競争社会アメリカ (中公新書)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00EPVI9VW/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00EPVI9VW.09._SCTHUMBZZZ_.jpg"  alt="日本の15大同族企業 (平凡社新書 516)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00C2GW6DE/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00C2GW6DE.09._SCTHUMBZZZ_.jpg"  alt="現代政治学の名著 (中公新書)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00IE7L1WW/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/B00IE7L1WW.09._SCTHUMBZZZ_.jpg"  alt="哲学マップ (ちくま新書)"  /></a> </p>
-<p class="description">Kindle 版登場。日本の神道の系譜が網羅的に書かれている。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-03-22">2015/03/22</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
-</div>
+{{% review-paapi "B012VRLPRG" %}} <!-- 反知性主義 -->
+{{% review-paapi "B00EUVZHX0" %}} <!-- 神道入門 -->

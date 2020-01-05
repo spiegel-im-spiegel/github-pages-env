@@ -59,46 +59,6 @@ pageType = "text"
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%AE%87%E5%AE%99%E5%89%B5%E6%88%90%E3%81%AF%E3%81%98%E3%82%81%E3%81%AE3%E5%88%86%E9%96%93-%E3%81%A1%E3%81%8F%E3%81%BE%E5%AD%A6%E8%8A%B8%E6%96%87%E5%BA%AB-S-%E3%83%AF%E3%82%A4%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B0/dp/4480091599?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4480091599"><img src="https://images-fe.ssl-images-amazon.com/images/I/513336u4-uL._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E5%AE%87%E5%AE%99%E5%89%B5%E6%88%90%E3%81%AF%E3%81%98%E3%82%81%E3%81%AE3%E5%88%86%E9%96%93-%E3%81%A1%E3%81%8F%E3%81%BE%E5%AD%A6%E8%8A%B8%E6%96%87%E5%BA%AB-S-%E3%83%AF%E3%82%A4%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B0/dp/4480091599?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4480091599">宇宙創成はじめの3分間 (ちくま学芸文庫)</a></dt>
-	<dd>S. ワインバーグ</dd>
-	<dd>Steven Weinberg (原著), 小尾 信彌 (翻訳)</dd>
-    <dd>筑摩書房 2008-09-10</dd>
-    <dd>Book 文庫</dd>
-    <dd>ASIN: 4480091599, EAN: 9784480091598</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">学生時代に「宇宙論」の講義で使われた教科書。文庫本版が出てたのか。内容が古いので最近の知見と合っているかどうかは怪しいが，読み物としては十分楽しめる。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-04-14">2019-04-14</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%95%8F%E9%A1%8C%E3%82%92%E3%81%A8%E3%81%8F%E3%81%8B-G-%E3%83%9D%E3%83%AA%E3%82%A2/dp/4621045938?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621045938"><img src="https://images-fe.ssl-images-amazon.com/images/I/51XGP8AFX2L._SL160_.jpg" width="112" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%95%8F%E9%A1%8C%E3%82%92%E3%81%A8%E3%81%8F%E3%81%8B-G-%E3%83%9D%E3%83%AA%E3%82%A2/dp/4621045938?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621045938">いかにして問題をとくか</a></dt>
-	<dd>G. ポリア</dd>
-	<dd>G. Polya (原著), 柿内 賢信 (翻訳)</dd>
-    <dd>丸善 1975-04-01</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4621045938, EAN: 9784621045930</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">数学書。というか問いの立てかたやものの考え方についての指南書。のようなものかな。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E8%AA%95%E7%94%9F-%E7%90%86%E6%83%B3%E3%81%AE%E6%95%B0%E5%AD%A6%E5%AF%BE%E8%A9%B1%E3%82%92%E6%B1%82%E3%82%81%E3%81%A6-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00NAQA33A?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00NAQA33A"><img src="https://images-fe.ssl-images-amazon.com/images/I/41hSKEDU3zL._SL160_.jpg" width="111" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E8%AA%95%E7%94%9F-%E7%90%86%E6%83%B3%E3%81%AE%E6%95%B0%E5%AD%A6%E5%AF%BE%E8%A9%B1%E3%82%92%E6%B1%82%E3%82%81%E3%81%A6-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00NAQA33A?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00NAQA33A">数学ガールの誕生　理想の数学対話を求めて</a></dt>
-	<dd>結城 浩</dd>
-    <dd>SBクリエイティブ 2013-09-13 (Release 2014-09-13)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00NAQA33A</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">結城浩さんの講演集。こういう場所に立ち会える今の学生さんは羨ましい。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-21">2018-12-21</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
+{{% review-paapi "4480091599" %}} <!-- 宇宙創成はじめの3分間 -->
+{{% review-paapi "4621045938" %}} <!-- いかにして問題をとくか -->
+{{% review-paapi "B00NAQA33A" %}} <!-- 数学ガールの誕生 -->

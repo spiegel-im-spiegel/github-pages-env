@@ -175,19 +175,7 @@ title = "同時多発テロ関連のブックマーク"
 
 ### 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%BC%E3%83%A0%E5%9B%BD%E3%81%AE%E8%A1%9D%E6%92%83-%E6%96%87%E6%98%A5%E6%96%B0%E6%9B%B8-%E6%B1%A0%E5%86%85-%E6%81%B5-ebook/dp/B00SINS1HU?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00SINS1HU"><img src="https://images-fe.ssl-images-amazon.com/images/I/41MCLvboP0L._SL160_.jpg" width="101" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%BC%E3%83%A0%E5%9B%BD%E3%81%AE%E8%A1%9D%E6%92%83-%E6%96%87%E6%98%A5%E6%96%B0%E6%9B%B8-%E6%B1%A0%E5%86%85-%E6%81%B5-ebook/dp/B00SINS1HU?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00SINS1HU">イスラーム国の衝撃 (文春新書)</a></dt>
-	<dd>池内　恵</dd>
-    <dd>文藝春秋 2015-01-20 (Release 2015-01-28)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00SINS1HU</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">「イスラーム国」だけでなく近代以後（特に 9.11 以後）の中東の歴史について理解を深められる良書</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-01-31">2015-01-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "B00SINS1HU" %}} <!-- イスラーム国の衝撃 -->
 
 <div class="hreview">
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E4%B8%AD%E6%9D%B1%E6%88%A6%E8%A8%98-%E3%83%9D%E3%82%B9%E3%83%889-11%E6%99%82%E4%BB%A3%E3%81%B8%E3%81%AE%E6%94%BF%E6%B2%BB%E7%9A%84%E3%82%AC%E3%82%A4%E3%83%89-%E8%AC%9B%E8%AB%87%E7%A4%BE%E9%81%B8%E6%9B%B8%E3%83%A1%E3%83%81%E3%82%A8-%E3%82%B8%E3%83%AB%E3%83%BB%E3%82%B1%E3%83%9A%E3%83%AB/dp/4062585103?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4062585103"><img src="https://images-fe.ssl-images-amazon.com/images/I/41X1JAIWl3L._SL160_.jpg" width="109" alt="photo"></a></div>

@@ -111,14 +111,4 @@ Kindle で作品を読む → あとがきで紹介されている Web 版も読
 
 ## 参考図書
 
-<div class="hreview" >
-	<a class="item url" href="https://tatsu-zine.com/books/infoshare"><img src="https://tatsu-zine.com/images/books/15/cover_s.jpg" alt="photo" class="photo"  /></a>
-	<dl>
-		<dt class="fn"><a class="item url" href="https://tatsu-zine.com/books/infoshare">情報共有の未来</a></dt>
-		<dd>yomoyomo</dd>
-		<dd>達人出版会 2011-12-30</dd>
-		<dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr></dd>
-	</dl>
-<p class="description">同名ブログの書籍化。感想は<a href="https://baldanders.info/blog/000611/">こちら</a>。早く<a href="https://tatsu-zine.com/books/infoshare2">続編</a>読まないと。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-01-26">2018-01-26</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
-</div>
+{{% review-tatsujin "infoshare" %}} <!-- 情報共有の未来 -->

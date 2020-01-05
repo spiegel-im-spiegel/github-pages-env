@@ -1,8 +1,8 @@
 +++
+title = "AI の読解力，人の読解力"
 date = "2016-11-20T01:04:36+09:00"
 description = "「キーワードとパターンで解いている子、読んでいる子が意外にいる」ことに驚いているということが私には驚きだ。そんなの当たり前じゃないか。"
 tags = ["artificial-intelligence", "comprehension"]
-title = "AI の読解力，人の読解力"
 
 [scripts]
   mathjax = false
@@ -72,31 +72,5 @@ Human readable な言葉と machine readable な言葉は異なっていて当�
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E8%AA%95%E7%94%9F-%E7%90%86%E6%83%B3%E3%81%AE%E6%95%B0%E5%AD%A6%E5%AF%BE%E8%A9%B1%E3%82%92%E6%B1%82%E3%82%81%E3%81%A6-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00NAQA33A?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00NAQA33A"><img src="https://images-fe.ssl-images-amazon.com/images/I/41hSKEDU3zL._SL160_.jpg" width="111" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E8%AA%95%E7%94%9F-%E7%90%86%E6%83%B3%E3%81%AE%E6%95%B0%E5%AD%A6%E5%AF%BE%E8%A9%B1%E3%82%92%E6%B1%82%E3%82%81%E3%81%A6-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00NAQA33A?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00NAQA33A">数学ガールの誕生　理想の数学対話を求めて</a></dt>
-	<dd>結城 浩</dd>
-    <dd>SBクリエイティブ 2013-09-13 (Release 2014-09-13)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00NAQA33A</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">結城浩さんの講演集。こういう場所に立ち会える今の学生さんは羨ましい。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-21">2018-12-21</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%95%8F%E9%A1%8C%E3%82%92%E3%81%A8%E3%81%8F%E3%81%8B-G-%E3%83%9D%E3%83%AA%E3%82%A2/dp/4621045938?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621045938"><img src="https://images-fe.ssl-images-amazon.com/images/I/51XGP8AFX2L._SL160_.jpg" width="112" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%95%8F%E9%A1%8C%E3%82%92%E3%81%A8%E3%81%8F%E3%81%8B-G-%E3%83%9D%E3%83%AA%E3%82%A2/dp/4621045938?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621045938">いかにして問題をとくか</a></dt>
-	<dd>G. ポリア</dd>
-	<dd>G. Polya (原著), 柿内 賢信 (翻訳)</dd>
-    <dd>丸善 1975-04-01</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4621045938, EAN: 9784621045930</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">数学書。というか問いの立てかたやものの考え方についての指南書。のようなものかな。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
+{{% review-paapi "B00NAQA33A" %}} <!-- 数学ガールの誕生 -->
+{{% review-paapi "4621045938" %}} <!-- いかにして問題をとくか -->

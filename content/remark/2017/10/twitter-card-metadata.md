@@ -162,16 +162,4 @@ RDFa の仕様の一部を借用した大変筋の悪いもので，本来の目
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF-HTML-XHTML-%E7%A5%9E%E5%B4%8E-%E6%AD%A3%E8%8B%B1/dp/483993195X?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=483993195X"><img src="https://images-fe.ssl-images-amazon.com/images/I/51oaN2iq9xL._SL160_.jpg" width="124" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF-HTML-XHTML-%E7%A5%9E%E5%B4%8E-%E6%AD%A3%E8%8B%B1/dp/483993195X?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=483993195X">セマンティック HTML/XHTML</a></dt>
-	<dd>神崎 正英</dd>
-    <dd>毎日コミュニケーションズ 2009-05-28</dd>
-    <dd>Book 単行本（ソフトカバー）</dd>
-    <dd>ASIN: 483993195X, EAN: 9784839931957</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">残念ながら紙の本は実質的に絶版なんですよねぇ。是非デジタル化を希望します。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-08-17">2014-08-17</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "483993195X" %}} <!-- セマンティック HTML/XHTML -->

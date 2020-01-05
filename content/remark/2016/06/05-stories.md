@@ -176,16 +176,4 @@ iOS 機器の遠隔操作は iOS の標準機能でやったほうがいいと�
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B00NWQI4N4?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51Ia+77IpiL._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B00NWQI4N4?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">BOOM TOWN　TRIP.30</a></dt>
-    <dd>内田 美奈子 (著)</dd>
-    <dd> 2014-09-26 (Release 2014-09-26)</dd>
-    <dd>Kindle版</dd>
-    <dd>B00NWQI4N4 (ASIN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">掲載誌「コミックガンマ」が休刊になって単行本収録できなかった<del>まるぼし</del>まぼろしの30話。これが Kindle で読めるとはいい時代になったものです。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-06-05">2016-06-05</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "B00NWQI4N4" %}} <!-- BOOM TOWN TRIP.30 -->

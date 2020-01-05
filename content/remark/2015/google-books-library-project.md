@@ -173,20 +173,8 @@ Fair use のない日本が如何に時代に取り残されつつあるか分�
 - [グーグル勝訴で浮き彫りになるフェア・ユースと著作権の問題 « マガジン航](http://magazine-k.jp/2015/10/29/google-books-wins-over-the-authors-guild/)
 - [米最高裁、Googleブックスの書籍スキャンを公正使用と認定 | TechCrunch Japan](http://jp.techcrunch.com/2016/04/19/20160418supreme-court-affirms-google-books-scans-of-copyrighted-works-are-fair-use/) : どうやら確定したようです
 
+[Library Project]: https://www.google.com/googlebooks/library/ "Google Books Library Project – Google Books"
+
 ### 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4757102852?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41YkbcP5IyL._SL160_.jpg" width="108" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4757102852?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">著作権２．０ ウェブ時代の文化発展をめざして (NTT出版ライブラリー―レゾナント)</a></dt>
-    <dd>名和 小太郎 (著)</dd>
-    <dd>NTT出版 2010-06-24</dd>
-    <dd>単行本（ソフトカバー）</dd>
-    <dd>4757102852 (ASIN), 9784757102859 (EAN), 4757102852 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">名著です。今すぐ買うべきです。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-13">2018-11-13</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-[Library Project]: https://www.google.com/googlebooks/library/ "Google Books Library Project – Google Books"
+{{% review-paapi "4757102852" %}} <!-- 著作権２．０ ウェブ時代の文化発展をめざして -->

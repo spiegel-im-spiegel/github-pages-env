@@ -1,24 +1,9 @@
 +++
 title = "『Go ならわかるシステムプログラミング』を眺める"
 date = "2018-10-19T15:31:01+09:00"
-update = "2018-11-03T09:50:43+09:00"
 description = "Go 言語でシステム寄りのプログラミングを行うのであれば，是非とも目を通しておくべきだろう。"
-image = "/images/attention/kitten.jpg"
+image = "/images/attention/go-logo_blue.png"
 tags = [ "book", "golang", "engineering", "programming", "concurrency" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false
@@ -67,30 +52,6 @@ tags = [ "book", "golang", "engineering", "programming", "concurrency" ]
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4908686033?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51RKK5+6bpL._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4908686033?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">Goならわかるシステムプログラミング</a></dt>
-    <dd>渋川 よしき (著), ごっちん (イラスト)</dd>
-    <dd>ラムダノート 2017-10-23</dd>
-    <dd>単行本（ソフトカバー）</dd>
-    <dd>4908686033 (ASIN), 9784908686030 (EAN), 4908686033 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">ファイルやソケットなどに代表される順次アクセスの汎化である io.Reader / io.Writer およびその派生・特化クラス，またプロセスやスレッドに関する解説が秀逸だと思う。さらに Docker コアの libcontainer についても解説がある。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "4908686033" %}} <!-- Goならわかるシステムプログラミング -->
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4621300253?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41meaSLNFfL._SL160_.jpg" width="123" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4621300253?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)</a></dt>
-    <dd>Alan A.A. Donovan (著), Brian W. Kernighan (著), 柴田 芳樹 (翻訳)</dd>
-    <dd>丸善出版 2016-06-20</dd>
-    <dd>単行本（ソフトカバー）</dd>
-    <dd>4621300253 (ASIN), 9784621300251 (EAN), 4621300253 (ISBN), 9784621300251 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">著者のひとりは（あの「バイブル」とも呼ばれる）通称 “K&amp;R” の K のほうである。この本は Go 言語の教科書と言ってもいいだろう。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->

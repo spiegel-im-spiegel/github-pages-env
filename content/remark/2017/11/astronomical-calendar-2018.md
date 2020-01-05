@@ -81,16 +81,4 @@ tags = [
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4416717407?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41djzrlPeeL._SL160_.jpg" width="112" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4416717407?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">天文年鑑 2018年版</a></dt>
-    <dd>天文年鑑編集委員会 (編集)</dd>
-    <dd>誠文堂新光社 2017-11-21</dd>
-    <dd>単行本</dd>
-    <dd>4416717407 (ASIN), 9784416717400 (EAN), 4416717407 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">天文ファン必携。2018年版。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-11-27">2017-11-27</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "4416717407" %}} <!-- 天文年鑑 2018年版 -->

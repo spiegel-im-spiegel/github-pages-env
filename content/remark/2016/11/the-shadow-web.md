@@ -73,16 +73,4 @@ ISPはインターネットが停止しないようにするどころか，実�
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3-%E5%88%A5%E5%86%8A%E6%97%A5%E7%B5%8C%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9-%E6%97%A5%E7%B5%8C%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9%E7%B7%A8%E9%9B%86%E9%83%A8/dp/4532512123?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4532512123"><img src="https://images-fe.ssl-images-amazon.com/images/I/51gurnOqhiL._SL160_.jpg" width="120" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3-%E5%88%A5%E5%86%8A%E6%97%A5%E7%B5%8C%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9-%E6%97%A5%E7%B5%8C%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9%E7%B7%A8%E9%9B%86%E9%83%A8/dp/4532512123?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4532512123">サイバーセキュリティ (別冊日経サイエンス)</a></dt>
-    <dd>日経サイエンス編集部 (編集)</dd>
-    <dd>日本経済新聞出版社 2016-04-22 (Release 2016-04-22)</dd>
-    <dd>ムック</dd>
-    <dd>4532512123 (ASIN), 9784532512125 (EAN)</dd>
-    <dd>Rating<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">『日経サイエンス』2012年6月号の「介入されないもうひとつのウェブ」が収録されている。その他にも2010年代前半におけるセキュリティ問題についてよくまとめられている。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-11-05">2016-11-05</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home" >PA-API</a>)</p>
-</div>
+{{% review-paapi "4532512123" %}} <!-- サイバーセキュリティ (別冊日経サイエンス) -->

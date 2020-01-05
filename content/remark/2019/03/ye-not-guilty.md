@@ -114,33 +114,5 @@ pageType = "text"
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/THE-%E3%83%93%E3%83%83%E3%82%B0%E3%82%AA%E3%83%BC/dp/B0732279VT?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0732279VT"><img src="https://images-fe.ssl-images-amazon.com/images/I/51V8LeQWZiL._SL160_.jpg" width="160" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/THE-%E3%83%93%E3%83%83%E3%82%B0%E3%82%AA%E3%83%BC/dp/B0732279VT?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0732279VT">THE ビッグオー</a></dt>
-    <dd></dd>
-    <dd>TV Series Season Video on Demand Prime Video</dd>
-    <dd>ASIN: B0732279VT</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">名作。絵のテイストも好みだし，ハイライトのない瞳の表現とかも素敵。汝ら罪なし！</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-03-17">2019-03-17</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
-<div class="hreview" >
-	<div class="photo"><a class="item url" href="https://tatsu-zine.com/books/infoshare2"><img src="https://tatsu-zine.com/images/books/877/cover_s.jpg" alt="photo"></a></div>
-    <dl class="fn">
-      <dt><a href="https://tatsu-zine.com/books/infoshare2">もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来</a></dt>
-      <dd>yomoyomo</dd>
-      <dd>達人出版会 2017-12-25</dd>
-      <dd>評価&nbsp;<abbr class="rating fa-sm" title="4">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="far fa-star"></i>
-      </abbr></dd>
-    </dl>
-    <p class="description"><a href="https://wirelesswire.jp/author/yomoyomo/">WirelessWire News 連載</a>の書籍化。感想は<a href="/remark/2019/01/infoshare2/">こちら</a></p>
-	<p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018-12-31</abbr></p>
-</div>
+{{% review-paapi "B0732279VT" %}} <!-- THE ビッグオー -->
+{{% review-tatsujin "infoshare2" %}} <!-- 続・情報共有の未来 -->

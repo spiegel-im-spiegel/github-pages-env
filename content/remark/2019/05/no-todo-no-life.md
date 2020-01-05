@@ -46,16 +46,4 @@ TODO 管理を行うにあたって最初にやることは TODO を列挙しト
 
 「持たざる人」が唯一所有できるのが自分自身とその時間であるなら，それを搾取する存在（TODO）を近づけてはいけない。
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%A2%E3%83%A2-%E5%B2%A9%E6%B3%A2%E5%B0%91%E5%B9%B4%E6%96%87%E5%BA%AB-%E3%83%9F%E3%83%92%E3%83%A3%E3%82%A8%E3%83%AB%E3%83%BB%E3%82%A8%E3%83%B3%E3%83%87-ebook/dp/B073PPWX7L?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B073PPWX7L"><img src="https://images-fe.ssl-images-amazon.com/images/I/51y5V0dPX1L._SL160_.jpg" width="112" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%83%A2%E3%83%A2-%E5%B2%A9%E6%B3%A2%E5%B0%91%E5%B9%B4%E6%96%87%E5%BA%AB-%E3%83%9F%E3%83%92%E3%83%A3%E3%82%A8%E3%83%AB%E3%83%BB%E3%82%A8%E3%83%B3%E3%83%87-ebook/dp/B073PPWX7L?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B073PPWX7L">モモ (岩波少年文庫)</a></dt>
-	<dd>ミヒャエル・エンデ, 大島 かおり</dd>
-    <dd>岩波書店 2005-06-16 (Release 2017-07-20)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B073PPWX7L</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">そういえばこの作品を紹介してくれたのは同じ学科の先輩だった。それからハマってミヒャエル・エンデの作品を買いまくったんだよなぁ。あの頃は若かった。まぁ当時の本は殆ど処分したけど。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-05-02">2019-05-02</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "B073PPWX7L" %}} <!-- モモ -->

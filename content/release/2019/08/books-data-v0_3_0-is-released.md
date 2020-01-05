@@ -175,21 +175,7 @@ $ books-data review -c 56642 --image-url https://text.baldanders.info/images/aoz
 などとすれば書影データを補完できる。
 これで適当なテンプレートを噛ませれば
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.aozora.gr.jp/cards/001699/card56839.html"><img src="https://text.baldanders.info/images/aozora/card56839.svg" width="110" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.aozora.gr.jp/cards/001699/card56839.html">ニャルラトホテプ</a></dt>
-    <dd>原題: NYARLATHOTEP</dd>
-    <dd>ラヴクラフト ハワード・フィリップス</dd>
-    <dd>大久保 ゆう (翻訳)</dd>
-    <dd> 2014-04-04 (Release 2015-08-19)</dd>
-    <dd>青空文庫</dd>
-    <dd>56839 (図書カードNo.)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">SAN 値が下がる。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-03-28">2019-03-28</abbr> (powered by <a href="https://aozorahack.org/">aozorahack</a>)</p>
-</div>
+{{% review-aozora "56839" %}} <!-- ニャルラトホテプ -->
 
 てな感じに仕上げることができる。
 

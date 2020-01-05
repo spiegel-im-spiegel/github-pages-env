@@ -54,16 +54,4 @@ AR (Augmented Reality; 拡張現実) を使ったアプリやサービスは昔�
 [Pokémon GO]: http://www.pokemongo.jp/ "『Pokémon GO』公式サイト"
 [Ingress]: https://www.ingress.com/
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B00DIM6BE6?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/519+kIHb71L._SL160_.jpg" width="111" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B00DIM6BE6?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">インテンション・エコノミー～顧客が支配する経済</a></dt>
-    <dd>Doc Searls (著), 栗原潔 (翻訳)</dd>
-    <dd>翔泳社 2013-03-14 (Release 2013-06-20)</dd>
-    <dd>Kindle版</dd>
-    <dd>B00DIM6BE6 (ASIN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">時代はソーシャル CRM から VRM へ。<a href='https://baldanders.info/blog/000794/'>俺達がインターネットだ！</a> <a href='https://baldanders.info/blog/000638/'>感想文はこちら</a>。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-04-26">2015-04-26</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "B00DIM6BE6" %}} <!-- インテンション・エコノミー -->

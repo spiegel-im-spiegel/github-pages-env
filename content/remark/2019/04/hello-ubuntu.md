@@ -44,16 +44,4 @@ OS を換えるだけで「もっさり」感がかなり軽減してしまっ�
 [ATOM]: https://atom.io/
 [Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/GOLDEN%E2%98%86BEST-%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%87%E3%82%A3%E3%83%BC%E3%82%BA-%E3%82%B3%E3%83%B3%E3%83%97%E3%83%AA%E3%83%BC%E3%83%88%E3%83%BB%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/dp/B01721ECA8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01721ECA8"><img src="https://images-fe.ssl-images-amazon.com/images/I/61TVUMXImML._SL160_.jpg" width="160" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/GOLDEN%E2%98%86BEST-%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%87%E3%82%A3%E3%83%BC%E3%82%BA-%E3%82%B3%E3%83%B3%E3%83%97%E3%83%AA%E3%83%BC%E3%83%88%E3%83%BB%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/dp/B01721ECA8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01721ECA8">GOLDEN☆BEST キャンディーズ コンプリート・シングルコレクション</a></dt>
-	<dd>キャンディーズ (メインアーティスト)</dd>
-    <dd>Sony Music Direct(Japan)Inc. 2011-06-08 (Release 2015-11-04)</dd>
-    <dd>Digital Music Album MP3 ダウンロード</dd>
-    <dd>ASIN: B01721ECA8</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">今さら昭和時代のアイドルを美化するつもりはないけれど，あのとき（生物年齢的にも）子供だった私にとって彼女らは間違いなく憧れのアイドルだったのですよ。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-04-29">2019-04-29</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "B01721ECA8" %}} <!-- キャンディーズ -->

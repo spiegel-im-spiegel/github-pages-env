@@ -54,57 +54,7 @@ Kindle の肥やしにならないことを祈ろう（読めって！）。
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B07TS9XTSD?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41H5EUGcemL._SL160_.jpg" width="110" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B07TS9XTSD?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">三体</a></dt>
-    <dd>劉 慈欣 (著), 大森 望 (翻訳), 光吉 さくら (翻訳), ワン チャイ (翻訳), 立原 透耶 (監修)</dd>
-    <dd>早川書房 2019-07-04 (Release 2019-07-04)</dd>
-    <dd>Kindle版</dd>
-    <dd>B07TS9XTSD (ASIN)</dd>
-  </dl>
-  <p class="description">流行ってるらしいので買ってみた。 Kindle の肥やしにならないことを祈ろう（読めって！）。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-07-14">2019-07-14</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4875932685?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51V0LihgIKL._SL160_.jpg" width="106" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4875932685?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">テスラ―発明的想像力の謎</a></dt>
-    <dd>新戸 雅章 (著)</dd>
-    <dd>工学社 2002-02-01</dd>
-    <dd>単行本</dd>
-    <dd>4875932685 (ASIN), 9784875932680 (EAN), 4875932685 (ISBN), 9784875932680 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">正直，伝記本とは言いがたいが，読み物としては面白い。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-09-13">2015-09-13</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4588276484?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51AkHe+wkvL._SL160_.jpg" width="114" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4588276484?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">闇をひらく光　〈新装版〉: 19世紀における照明の歴史</a></dt>
-    <dd>ヴォルフガング・シヴェルブシュ (著), 小川 さくえ (翻訳)</dd>
-    <dd>法政大学出版局 2011-12-09</dd>
-    <dd>単行本</dd>
-    <dd>4588276484 (ASIN), 9784588276484 (EAN), 4588276484 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">新装版が出てるのか。Kindle 化希望。光とエネルギーを巡る近代史。街灯破壊運動など現代監視社会への暗合と思えるような点も面白い。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-10-08">2014-10-08</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.aozora.gr.jp/cards/001383/card56642.html"><img src="https://text.baldanders.info/images/aozora/card56642.svg" width="110" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.aozora.gr.jp/cards/001383/card56642.html">陰翳礼讃</a></dt>
-    <dd>（初出: 「経済往来」1933（昭和8）年12月号、1934（昭和9）年1月号）</dd>
-    <dd>谷崎 潤一郎</dd>
-    <dd> 2016-08-23 (Release 2016-06-10)</dd>
-    <dd>青空文庫 (Public Domain)</dd>
-    <dd>56642 (図書カードNo.)</dd>
-  </dl>
-  <p class="description">実はちゃんと読んでない（笑） 学生時代に読んでおけばよかった。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-03-28">2019-03-28</abbr> (powered by <a href="https://aozorahack.org/">aozorahack</a>)</p>
-</div>
+{{% review-paapi "B07TS9XTSD" %}} <!-- 三体 -->
+{{% review-paapi "4875932685" %}} <!-- テスラ―発明的想像力の謎 -->
+{{% review-paapi "4588276484" %}} <!-- 闇をひらく光 -->
+{{% review-aozora "56642" %}} <!-- 陰翳礼讃 -->

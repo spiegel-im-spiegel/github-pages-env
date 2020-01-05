@@ -301,15 +301,4 @@ $ books-data search -a B07TYKJQFK -t testdata/book-template/template.bib.txt
 
 ## 今回紹介した書籍
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E3%83%93%E3%83%83%E3%83%88%E3%81%A8%E3%83%90%E3%82%A4%E3%83%8A%E3%83%AA%E3%83%BC-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B07TYKJQFK?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07TYKJQFK"><img src="https://images-fe.ssl-images-amazon.com/images/I/41Q0Hyr8g3L._SL160_.jpg" width="111" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E3%83%93%E3%83%83%E3%83%88%E3%81%A8%E3%83%90%E3%82%A4%E3%83%8A%E3%83%AA%E3%83%BC-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B07TYKJQFK?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07TYKJQFK">数学ガールの秘密ノート／ビットとバイナリー</a></dt>
-    <dd>結城 浩</dd>
-    <dd>SBクリエイティブ 2019-07-19 (Release 2019-07-20)</dd>
-    <dd>Kindle版</dd>
-    <dd>B07TYKJQFK (ASIN)</dd>
-  </dl>
-  <p class="description">まだ読んでる途中。後日，感想を書く予定。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-08-04">2019-08-04</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home" >PA-API</a>)</p>
-</div>
+{{% review-paapi "B07TYKJQFK" %}} <!-- 数学ガールの秘密ノート／ビットとバイナリー -->

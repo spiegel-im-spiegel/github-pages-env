@@ -72,16 +72,4 @@ pageType = "text"
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%96%B0%E6%BD%AE%E9%81%B8%E6%9B%B8-%E3%80%8C3%E3%80%8D%E3%81%AE%E7%99%BA%E6%83%B3-%E6%95%B0%E5%AD%A6%E6%95%99%E8%82%B2%E3%81%AB%E6%AC%A0%E3%81%91%E3%81%A6%E3%81%84%E3%82%8B%E3%82%82%E3%81%AE-%E8%8A%B3%E6%B2%A2-%E5%85%89%E9%9B%84/dp/4106036517?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4106036517"><img src="https://images-fe.ssl-images-amazon.com/images/I/41SEG414RdL._SL160_.jpg" width="107" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E6%96%B0%E6%BD%AE%E9%81%B8%E6%9B%B8-%E3%80%8C3%E3%80%8D%E3%81%AE%E7%99%BA%E6%83%B3-%E6%95%B0%E5%AD%A6%E6%95%99%E8%82%B2%E3%81%AB%E6%AC%A0%E3%81%91%E3%81%A6%E3%81%84%E3%82%8B%E3%82%82%E3%81%AE-%E8%8A%B3%E6%B2%A2-%E5%85%89%E9%9B%84/dp/4106036517?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4106036517">新潮選書 「3」の発想 数学教育に欠けているもの</a></dt>
-	<dd>芳沢 光雄</dd>
-    <dd>新潮社 2009-10-24</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4106036517, EAN: 9784106036514</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">図書館で借りて読んだ。数学書の棚にあったが，中身は数学エッセイ？ 読み物としては面白かった。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-04-23">2019-04-23</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "4106036517" %}} <!-- 「3」の発想 数学教育に欠けているもの -->

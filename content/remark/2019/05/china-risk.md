@@ -56,30 +56,5 @@ OS ないしはハードウェア・ベンダが「アプリケーション・�
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B00DIM6BE6?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/519+kIHb71L._SL160_.jpg" width="111" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B00DIM6BE6?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">インテンション・エコノミー～顧客が支配する経済</a></dt>
-    <dd>Doc Searls (著), 栗原潔 (翻訳)</dd>
-    <dd>翔泳社 2013-03-14 (Release 2013-06-20)</dd>
-    <dd>Kindle版</dd>
-    <dd>B00DIM6BE6 (ASIN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">時代はソーシャル CRM から VRM へ。<a href='https://baldanders.info/blog/000794/'>俺達がインターネットだ！</a> <a href='https://baldanders.info/blog/000638/'>感想文はこちら</a>。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-04-26">2015-04-26</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4532149029?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51811H1N43L._SL160_.jpg" width="111" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4532149029?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">これまでのビジネスのやり方は終わりだ―あなたの会社を絶滅恐竜にしない95の法則</a></dt>
-    <dd>レバイン,リック (著), サールズ,ドク (著), ロック,クリストファー (著), ワインバーガー,デビッド (著), Levine,Rick (原著), Searls,Doc (原著), Locke,Christopher (原著), Weinberger,David (原著), 彰, 倉骨 (翻訳)</dd>
-    <dd>日本経済新聞社 2001-03-01</dd>
-    <dd>単行本</dd>
-    <dd>4532149029 (ASIN), 9784532149024 (EAN), 4532149029 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description"><a href='http://www2.gol.com/users/jheine/cluetrainj.html'>クルートレイン宣言</a>。タイトルがアレ過ぎる（笑） ちなみに今は <a href="https://github.com/dweinberger/newclues">New Clues</a> が登場している。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-01-14">2015-01-14</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "B00DIM6BE6" %}} <!-- インテンション・エコノミー -->
+{{% review-paapi "4532149029" %}} <!-- クルートレイン宣言 -->

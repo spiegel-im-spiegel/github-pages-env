@@ -1,10 +1,8 @@
 +++
-date = "2015-12-19T17:06:34+09:00"
-update = "2016-10-18T21:25:39+09:00"
-description = "太陽系外惑星命名コンテスト / カープファンはもっと怒っていい / 軽佻浮薄 / BOINC では Android エンジニアを欲している / ロボット法学会設立準備会ブログ"
-draft = false
-tags = ["astronomy", "iau", "exoplanet", "hiroshima", "media", "boinc", "android", "code", "law", "artificial-intelligence"]
 title = "週末スペシャル： 太陽系外惑星命名コンテスト"
+date = "2015-12-19T17:06:34+09:00"
+description = "太陽系外惑星命名コンテスト / カープファンはもっと怒っていい / 軽佻浮薄 / BOINC では Android エンジニアを欲している / ロボット法学会設立準備会ブログ"
+tags = ["astronomy", "iau", "exoplanet", "hiroshima", "media", "boinc", "android", "code", "law", "artificial-intelligence"]
 
 [scripts]
   mathjax = false
@@ -108,16 +106,4 @@ title = "週末スペシャル： 太陽系外惑星命名コンテスト"
 
 ## 参考
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4000280872?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/31e2h91IUWL._SL160_.jpg" width="103" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4000280872?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">イノベーション 悪意なき嘘 (双書 時代のカルテ)</a></dt>
-    <dd>名和 小太郎 (著)</dd>
-    <dd>岩波書店 2007-01-11</dd>
-    <dd>単行本</dd>
-    <dd>4000280872 (ASIN), 9784000280877 (EAN), 4000280872 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">「両用技術とはどのようなものか。その核心には「矛と楯の論理」がある」（まえがき「予断・診断・独断 そんなばかな」より）</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "4000280872" %}} <!-- イノベーション 悪意なき嘘 -->

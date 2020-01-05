@@ -165,43 +165,6 @@ GitHub に BAN されたらメガっさ困るが Facebook なら大して未練�
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B01MZGVHOA?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51T6PBdGbyL._SL160_.jpg" width="108" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B01MZGVHOA?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">超監視社会</a></dt>
-    <dd>ブルース・シュナイアー (著), 池村 千秋 (翻訳)</dd>
-    <dd>草思社 2016-12-13 (Release 2017-02-03)</dd>
-    <dd>Kindle版</dd>
-    <dd>B01MZGVHOA (ASIN)</dd>
-  </dl>
-  <p class="description">実は積ん読のまま読んでない。そろそろちゃんと最後まで読まないと。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-03-23">2019-03-23</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4822283100?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51-pZ52JsUL._SL160_.jpg" width="107" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4822283100?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">セキュリティはなぜやぶられたのか</a></dt>
-    <dd>ブルース・シュナイアー (著), 井口 耕二 (翻訳)</dd>
-    <dd>日経BP 2007-02-15</dd>
-    <dd>単行本</dd>
-    <dd>4822283100 (ASIN), 9784822283100 (EAN), 4822283100 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">原書のタイトルが “<a href="https://www.amazon.co.jp/dp/B000PY3NB4?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">Beyond Fear: Thinking Sensibly About Security in an Uncertain World</a>” なのに対して日本語タイトルがどうしようもなくヘボいが中身は名著。とりあえず読んどきなはれ。ゼロ年代当時 9.11 およびその後の米国のセキュリティ政策と深く関連している内容なので，そのへんを加味して読むとよい。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-02-11">2019-02-11</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4588276484?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51AkHe+wkvL._SL160_.jpg" width="114" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4588276484?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">闇をひらく光　〈新装版〉: 19世紀における照明の歴史</a></dt>
-    <dd>ヴォルフガング・シヴェルブシュ (著), 小川 さくえ (翻訳)</dd>
-    <dd>法政大学出版局 2011-12-09</dd>
-    <dd>単行本</dd>
-    <dd>4588276484 (ASIN), 9784588276484 (EAN), 4588276484 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">新装版が出てるのか。Kindle 化希望。光とエネルギーを巡る近代史。街灯破壊運動など現代監視社会への暗合と思えるような点も面白い。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-10-08">2014-10-08</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "B01MZGVHOA" %}} <!-- 超監視社会 -->
+{{% review-paapi "4822283100" %}} <!-- セキュリティはなぜやぶられたのか -->
+{{% review-paapi "4588276484" %}} <!-- 闇をひらく光 -->

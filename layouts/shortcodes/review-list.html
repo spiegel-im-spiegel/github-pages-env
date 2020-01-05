@@ -1,1 +1,1 @@
-{{ range sort .Site.Data.reviews "Date" "desc" }}{{ partial "review-box.html" . }}{{ end }}
+{{ range sort (where .Site.Data.reviews "Rating" ">" 0) "Date" "desc" }}{{ partial "review-box.html" . }}{{ end }}

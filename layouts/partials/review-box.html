@@ -11,5 +11,5 @@
     <dd>評価<abbr class="rating fa-sm" title="{{ .Rating }}">{{ range .Star }}&nbsp;{{ if . }}<i class="fas fa-star"></i>{{ else }}<i class="far fa-star"></i>{{ end }}{{ end }}</abbr></dd>{{ end }}
   </dl>
   <p class="description">{{ .Description | safeHTML }}</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="{{ .Date }}">{{ .Date }}</abbr> (powered by {{ if .Book.Service.URL }}<a href="{{ .Book.Service.URL }}">{{ end }}{{ .Book.Service.Name }}{{ if .Book.Service.URL }}</a>{{ end }})</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="{{ .Date }}">{{ .Date }}</abbr>{{ if .Book.Service.Name }} (powered by {{ if .Book.Service.URL }}<a href="{{ .Book.Service.URL }}">{{ end }}{{ .Book.Service.Name }}{{ if .Book.Service.URL }}</a>{{ end }}){{ end }}</p>
 </div>

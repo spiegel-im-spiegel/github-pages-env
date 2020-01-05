@@ -57,16 +57,4 @@ ISPはインターネットが停止しないようにするどころか，実�
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4532512123?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51gurnOqhiL._SL160_.jpg" width="120" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4532512123?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">サイバーセキュリティ (別冊日経サイエンス)</a></dt>
-    <dd>日経サイエンス編集部 (編集)</dd>
-    <dd>日本経済新聞出版社 2016-04-22 (Release 2016-04-22)</dd>
-    <dd>ムック</dd>
-    <dd>4532512123 (ASIN), 9784532512125 (EAN), 4532512123 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">『日経サイエンス』2012年6月号の「介入されないもうひとつのウェブ」が収録されている。その他にも2010年代前半におけるセキュリティ問題についてよくまとめられている。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-11-05">2016-11-05</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "4532512123" %}} <!-- サイバーセキュリティ (別冊日経サイエンス) -->

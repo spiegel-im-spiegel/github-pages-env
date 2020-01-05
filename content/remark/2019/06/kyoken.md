@@ -73,20 +73,4 @@ GAFA に象徴される「監視資本主義」そのものぢゃん。
 
 ## 参考図書
 
-<div class="hreview" >
-	<div class="photo"><a class="item url" href="https://tatsu-zine.com/books/infoshare2"><img src="https://tatsu-zine.com/images/books/877/cover_s.jpg" alt="photo"></a></div>
-    <dl class="fn">
-      <dt><a href="https://tatsu-zine.com/books/infoshare2">もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来</a></dt>
-      <dd>yomoyomo</dd>
-      <dd>達人出版会 2017-12-25</dd>
-      <dd>評価&nbsp;<abbr class="rating fa-sm" title="4">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="far fa-star"></i>
-      </abbr></dd>
-    </dl>
-    <p class="description"><a href="https://wirelesswire.jp/author/yomoyomo/">WirelessWire News 連載</a>の書籍化。感想は<a href="/remark/2019/01/infoshare2/">こちら</a></p>
-	<p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018-12-31</abbr></p>
-</div>
+{{% review-tatsujin "infoshare2" %}} <!-- 続・情報共有の未来 -->

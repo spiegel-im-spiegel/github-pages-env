@@ -94,30 +94,5 @@ Facebook で池内恵さんが紹介されていたが，もうひとつ面白�
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4150504598?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41Le2d7nWiL._SL160_.jpg" width="109" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4150504598?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">フィルターバブル──インターネットが隠していること (ハヤカワ文庫NF)</a></dt>
-    <dd>イーライ・パリサー (著), 井口耕二 (翻訳)</dd>
-    <dd>早川書房 2016-03-09</dd>
-    <dd>文庫</dd>
-    <dd>4150504598 (ASIN), 9784150504595 (EAN), 4150504598 (ISBN), 9784150504595 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">ネットにおいて私たちは自由ではなく，それと知らず「フィルターバブル」に捕らわれている。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/430924744X?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51KtN0YwWcL._SL160_.jpg" width="109" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/430924744X?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">スパム[spam]:インターネットのダークサイド</a></dt>
-    <dd>フィン・ブラントン (著), 生貝直人 (監修), 成原慧 (監修), 松浦俊輔 (翻訳)</dd>
-    <dd>河出書房新社 2015-12-25</dd>
-    <dd>単行本</dd>
-    <dd>430924744X (ASIN), 9784309247441 (EAN), 430924744X (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="3">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">今読んでるけど読みづらい。修飾語が多すぎるよ。ギリシア神話かっての。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-12-10">2016-12-10</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "4150504598" %}} <!-- フィルターバブル -->
+{{% review-paapi "430924744X" %}} <!-- スパム -->

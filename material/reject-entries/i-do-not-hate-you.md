@@ -1,23 +1,12 @@
 +++
-date = "2017-01-24T12:59:29+09:00"
 title = "別に貴方のことが嫌いなわけではない"
-draft = true
+date = "2017-01-24T12:59:29+09:00"
 tags = ["communication", "engineering", "management"]
 description = "プロジェクト全体を見回して，いったい何がボトルネックになっているのか正しく把握すること。"
 
-[author]
-  url = "https://baldanders.info/profile/"
-  linkedin = "spiegelimspiegel"
-  flickr = "spiegel"
-  instagram = "spiegel_2007"
-  github = "spiegel-im-spiegel"
-  avatar = "/images/avatar.jpg"
-  tumblr = ""
-  license = "by-sa"
-  flattr = ""
-  name = "Spiegel"
-  facebook = "spiegel.im.spiegel"
-  twitter = "spiegel_2007"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 （ツンデレおやじがデレているわけではない`w`）
@@ -80,22 +69,7 @@ description = "プロジェクト全体を見回して，いったい何がボ�
 
 目的はあくまで「みんな対等で peer」な環境を作ることであり，その手段としてツールやルールを整備するのである。
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4822282686/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/512Y77Y5WDL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4822282686/baldandersinf-22/">要求開発~価値ある要求を導き出すプロセスとモデリング</a></dt><dd>山岸 耕二 安井 昌男 萩本 順三 河野 正幸 野田 伊佐夫 平鍋 健児 細川 努 依田 智夫 ［要求開発アライアンス］ </dd><dd>日経BP社 2006-03-02</dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4822283585/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4822283585.09._SCTHUMBZZZ_.jpg"  alt="UMLモデリング入門"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4798121967/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4798121967.09._SCTHUMBZZZ_.jpg"  alt="エリック・エヴァンスのドメイン駆動設計 (IT Architects’Archive ソフトウェア開発の実践)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4492961143/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4492961143.09._SCTHUMBZZZ_.jpg"  alt="ビジネスプロセスの教科書"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4822283496/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4822283496.09._SCTHUMBZZZ_.jpg"  alt="UMLモデリングレッスン"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4274505219/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4274505219.09._SCTHUMBZZZ_.jpg"  alt="ソフトウェアエンジニアリング基礎知識体系 ―SWEBOK V3.0―"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4320023528/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4320023528.09._SCTHUMBZZZ_.jpg"  alt="要求仕様の探検学―設計に先立つ品質の作り込み"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4764904047/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4764904047.09._SCTHUMBZZZ_.jpg"  alt="要求工学知識体系 第1版"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4798114456/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4798114456.09._SCTHUMBZZZ_.jpg"  alt="ユースケース駆動開発実践ガイド (OOP Foundations)"  /></a> </p>
-<p class="description">要求は開発するものらしい。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-01-24">2017-01-24</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
-</div>
+## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%95%8F%E9%A1%8C%E3%82%92%E3%81%A8%E3%81%8F%E3%81%8B-G-%E3%83%9D%E3%83%AA%E3%82%A2/dp/4621045938?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621045938"><img src="https://images-fe.ssl-images-amazon.com/images/I/51XGP8AFX2L._SL160_.jpg" width="112" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%95%8F%E9%A1%8C%E3%82%92%E3%81%A8%E3%81%8F%E3%81%8B-G-%E3%83%9D%E3%83%AA%E3%82%A2/dp/4621045938?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621045938">いかにして問題をとくか</a></dt>
-	<dd>G. ポリア</dd>
-	<dd>G. Polya (原著), 柿内 賢信 (翻訳)</dd>
-    <dd>丸善 1975-04-01</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4621045938, EAN: 9784621045930</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">数学書。というか問いの立てかたやものの考え方についての指南書。のようなものかな。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
+{{% review-paapi "4822282686" %}} <!-- 要求開発~価値ある要求を導き出すプロセスとモデリング -->
+{{% review-paapi "4621045938" %}} <!-- いかにして問題をとくか -->

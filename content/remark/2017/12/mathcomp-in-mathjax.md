@@ -101,16 +101,4 @@ MathJax = {
 
 ## 参考図書 {#books}
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4774187054?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51E5K7B53aL._SL160_.jpg" width="127" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4774187054?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">[改訂第7版]LaTeX2ε美文書作成入門</a></dt>
-    <dd>奥村 晴彦 (著), 黒木 裕介 (著)</dd>
-    <dd>技術評論社 2017-01-24</dd>
-    <dd>大型本</dd>
-    <dd>4774187054 (ASIN), 9784774187051 (EAN), 4774187054 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">ついに第7版が登場。紙の本で買って常に側に置いておくのが吉。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-09-27">2017-09-27</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "4774187054" %}} <!-- [改訂第7版]LaTeX2ε美文書作成入門 -->

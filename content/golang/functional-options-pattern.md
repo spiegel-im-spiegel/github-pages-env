@@ -1,24 +1,12 @@
 +++
+title = "インスタンスの生成と Functional Options パターン"
 tags = ["golang", "programming", "functional-options"]
 description = "今回も自分用の覚え書きとして書いておく。"
 date = "2017-04-04T01:01:59+09:00"
-update = "2018-03-05T15:31:08+09:00"
-title = "インスタンスの生成と Functional Options パターン"
-draft = false
 
-[author]
-  avatar = "/images/avatar.jpg"
-  github = "spiegel-im-spiegel"
-  tumblr = ""
-  flattr = ""
-  license = "by-sa"
-  instagram = "spiegel_2007"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
-  flickr = "spiegel"
-  name = "Spiegel"
-  linkedin = "spiegelimspiegel"
-  facebook = "spiegel.im.spiegel"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 「[Go言語のFunctional Option Pattern - Qiita](http://qiita.com/weloan/items/56f1c7792088b5ede136)」を参考にして今回も自分用の覚え書きとして書いておく。
@@ -217,16 +205,4 @@ u := ui.New(ui.WithReader(os.Stdin), ui.WithWriter(os.Stdout))
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4621300253?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41meaSLNFfL._SL160_.jpg" width="123" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4621300253?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)</a></dt>
-    <dd>Alan A.A. Donovan (著), Brian W. Kernighan (著), 柴田 芳樹 (翻訳)</dd>
-    <dd>丸善出版 2016-06-20</dd>
-    <dd>単行本（ソフトカバー）</dd>
-    <dd>4621300253 (ASIN), 9784621300251 (EAN), 4621300253 (ISBN), 9784621300251 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">著者のひとりは（あの「バイブル」とも呼ばれる）通称 “K&amp;R” の K のほうである。この本は Go 言語の教科書と言ってもいいだろう。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->

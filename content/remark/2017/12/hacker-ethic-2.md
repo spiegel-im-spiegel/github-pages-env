@@ -132,44 +132,6 @@ Twitter も（検閲に血道を上げるんじゃなく）これを真似して
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B01CYDGUV8?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/31Q2jh+5SgL._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B01CYDGUV8?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">CODE VERSION 2.0</a></dt>
-    <dd>ローレンス・レッシグ (著), 山形浩生 (翻訳)</dd>
-    <dd>翔泳社 2007-12-19 (Release 2016-03-14)</dd>
-    <dd>Kindle版</dd>
-    <dd>B01CYDGUV8 (ASIN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">前著『CODE』改訂版。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-17">2018-11-17</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B00DIM6BE6?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/519+kIHb71L._SL160_.jpg" width="111" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B00DIM6BE6?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">インテンション・エコノミー～顧客が支配する経済</a></dt>
-    <dd>Doc Searls (著), 栗原潔 (翻訳)</dd>
-    <dd>翔泳社 2013-03-14 (Release 2013-06-20)</dd>
-    <dd>Kindle版</dd>
-    <dd>B00DIM6BE6 (ASIN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">時代はソーシャル CRM から VRM へ。<a href='https://baldanders.info/blog/000794/'>俺達がインターネットだ！</a> <a href='https://baldanders.info/blog/000638/'>感想文はこちら</a>。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-04-26">2015-04-26</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4150504598?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41Le2d7nWiL._SL160_.jpg" width="109" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4150504598?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">フィルターバブル──インターネットが隠していること (ハヤカワ文庫NF)</a></dt>
-    <dd>イーライ・パリサー (著), 井口耕二 (翻訳)</dd>
-    <dd>早川書房 2016-03-09</dd>
-    <dd>文庫</dd>
-    <dd>4150504598 (ASIN), 9784150504595 (EAN), 4150504598 (ISBN), 9784150504595 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">ネットにおいて私たちは自由ではなく，それと知らず「フィルターバブル」に捕らわれている。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "B01CYDGUV8" %}} <!-- CODE VERSION 2.0 -->
+{{% review-paapi "B00DIM6BE6" %}} <!-- インテンション・エコノミー -->
+{{% review-paapi "4150504598" %}} <!-- フィルターバブル -->

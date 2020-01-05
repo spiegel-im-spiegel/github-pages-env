@@ -1,24 +1,12 @@
 +++
-date = "2016-03-13T13:03:59+09:00"
-update = "2018-12-12T15:48:49+09:00"
-description = "サイバーテロ企業 Microsoft / 3月9日は皆既日食でした / いまさら「2033年問題」 / 『プログラミング言語 Go』"
-draft = false
-tags = ["risk", "windows", "astronomy", "eclipse", "ephemeris", "book", "golang"]
 title = "週末スペシャル： サイバーテロ企業 Microsoft"
+date = "2016-03-13T13:03:59+09:00"
+description = "サイバーテロ企業 Microsoft / 3月9日は皆既日食でした / いまさら「2033年問題」 / 『プログラミング言語 Go』"
+tags = ["risk", "windows", "astronomy", "eclipse", "ephemeris", "book", "golang"]
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 1. [サイバーテロ企業 Microsoft]({{< relref "#win" >}})
@@ -159,44 +147,8 @@ Windows の（マネタイズを含めた）思想は20年以上も**大昔**の
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%912016%E5%B9%B4%E7%89%88-%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%91%E7%B7%A8%E9%9B%86%E5%A7%94%E5%93%A1%E4%BC%9A/dp/4416115458?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4416115458"><img src="https://images-fe.ssl-images-amazon.com/images/I/51XoyiTnmFL._SL160_.jpg" width="112" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%912016%E5%B9%B4%E7%89%88-%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%91%E7%B7%A8%E9%9B%86%E5%A7%94%E5%93%A1%E4%BC%9A/dp/4416115458?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4416115458">天文年鑑2016年版</a></dt>
-	<dd>天文年鑑編集委員会 (編集)</dd>
-    <dd>誠文堂新光社 2015-11-16</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4416115458, EAN: 9784416115459</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">天文ファン必携。2016年版。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-12-29">2015-12-29</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "4416115458" %}} <!-- 天文年鑑2016年版 -->
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4621300253?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41meaSLNFfL._SL160_.jpg" width="123" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4621300253?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)</a></dt>
-    <dd>Alan A.A. Donovan (著), Brian W. Kernighan (著), 柴田 芳樹 (翻訳)</dd>
-    <dd>丸善出版 2016-06-20</dd>
-    <dd>単行本（ソフトカバー）</dd>
-    <dd>4621300253 (ASIN), 9784621300251 (EAN), 4621300253 (ISBN), 9784621300251 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">著者のひとりは（あの「バイブル」とも呼ばれる）通称 “K&amp;R” の K のほうである。この本は Go 言語の教科書と言ってもいいだろう。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-20">2018-10-20</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4873117526?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51UoREcNrnL._SL160_.jpg" width="125" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4873117526?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">Go言語によるWebアプリケーション開発</a></dt>
-    <dd>Mat Ryer (著), 鵜飼 文敏 (監修), 牧野 聡 (翻訳)</dd>
-    <dd>オライリージャパン 2016-01-22</dd>
-    <dd>大型本</dd>
-    <dd>4873117526 (ASIN), 9784873117522 (EAN), 4873117526 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="3">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">日本語監訳者による解説（付録 B）が意外に役に立つ感じ。 Web アプリケーションだけでなく，サーバサイドで動く CLI アプリへの言及もある。良書だが今となってはちょっと内容が古い。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-08-12">2019-08-12</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "4873117526" %}} <!-- Go言語によるWebアプリケーション開発 -->

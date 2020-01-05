@@ -56,16 +56,4 @@ pageType = "text"
 最小の労力で最大の効果。
 これ最初に考えた奴は天才だろ（笑）
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4873115531?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51HQWyI1aUL._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4873115531?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">JavaScriptリファレンス 第6版</a></dt>
-    <dd>David Flanagan (著), 木下 哲也 (翻訳)</dd>
-    <dd>オライリージャパン 2012-08-10</dd>
-    <dd>単行本（ソフトカバー）</dd>
-    <dd>4873115531 (ASIN), 9784873115535 (EAN), 4873115531 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="3">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">最初に私が JavaScript を勉強したのって，これよりも更に古い版だったんだよなぁ。この版でも今となっては古すぎて使い物にならないけど（笑）</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-10-21">2019-10-21</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "4873115531" %}} <!-- JavaScriptリファレンス 第6版 -->

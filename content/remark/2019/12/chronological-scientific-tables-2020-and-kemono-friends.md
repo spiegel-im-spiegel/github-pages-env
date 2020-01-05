@@ -55,58 +55,7 @@ pageType = "text"
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4621304259?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51bBPM6dbwL._SL160_.jpg" width="114" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4621304259?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">理科年表 2020</a></dt>
-    <dd>国立天文台 (編集)</dd>
-    <dd>丸善出版 2019-11-20</dd>
-    <dd>文庫</dd>
-    <dd>4621304259 (ASIN), 9784621304259 (EAN), 4621304259 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">日本における令和への改元や国際単位系（SI）の定義改定などに関するトピックを多く掲載。2020年版は（保存用として）買いかも。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-12-08">2019-12-08</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4416719485?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41aDY33z67L._SL160_.jpg" width="112" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4416719485?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">天文年鑑 2020年版</a></dt>
-    <dd>天文年鑑 編集委員会 (編集)</dd>
-    <dd>誠文堂新光社 2019-11-20</dd>
-    <dd>単行本</dd>
-    <dd>4416719485 (ASIN), 9784416719480 (EAN), 4416719485 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">天文ファン必携。2020年版。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-11-23">2019-11-23</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4627275110?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51UOq7TlGyL._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4627275110?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">天体物理学</a></dt>
-    <dd>Arnab Rai Choudhuri (著), 森 正樹 (翻訳)</dd>
-    <dd>森北出版 2019-05-28</dd>
-    <dd>単行本</dd>
-    <dd>4627275110 (ASIN), 9784627275119 (EAN), 4627275110 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">興味本位で買うにはちょっとビビる値段なので図書館で借りて読んでいる。まえがきによると，この手のタイプの教科書はあまりないらしい。内容は非常に堅実で分かりやすい。理系の学部生レベルなら問題なく読めるかな。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-11-13">2019-11-13</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4274202712?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/4154nBSFWSL._SL160_.jpg" width="114" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4274202712?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">気象がわかる数式入門</a></dt>
-    <dd>二宮 洸三 (著)</dd>
-    <dd>オーム社 2006-07-01</dd>
-    <dd>単行本</dd>
-    <dd>4274202712 (ASIN), 9784274202711 (EAN), 4274202712 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">気象に入る前に「次元」や「単位系」といった基本中の基本の話から始まり，そこから誤差論（の最初のほう）とかだんだんと核心に入っていく。順番に読んでいけば無理なく「気象」を始めとする物理学の初歩が理解できるよう構成されている教科書的な内容。これが私の子供の頃にあったらなぁ。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-05-04">2019-05-04</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "4621304259" %}} <!-- 理科年表 2020 -->
+{{% review-paapi "4416719485" %}} <!-- 天文年鑑 2020年版 -->
+{{% review-paapi "4627275110" %}} <!-- 天体物理学 -->
+{{% review-paapi "4274202712" %}} <!-- 気象がわかる数式入門 -->

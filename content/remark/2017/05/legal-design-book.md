@@ -131,72 +131,8 @@ SIer とか企業の法務部向けの本って感じかな。
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B071V8J53D?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41fWm05dTNL._SL160_.jpg" width="106" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B071V8J53D?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">法のデザイン</a></dt>
-    <dd>水野祐 (著)</dd>
-    <dd>フィルムアート社 2017-02-28 (Release 2018-08-03)</dd>
-    <dd>Kindle版</dd>
-    <dd>B071V8J53D (ASIN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="3">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">Kindle 版出てたのかよ待てばよかった orz 強いて言うなら第二部の各論は参考になる部分も多い。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-04-07">2017-04-07</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B01CYDGUV8?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/31Q2jh+5SgL._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B01CYDGUV8?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">CODE VERSION 2.0</a></dt>
-    <dd>ローレンス・レッシグ (著), 山形浩生 (翻訳)</dd>
-    <dd>翔泳社 2007-12-19 (Release 2016-03-14)</dd>
-    <dd>Kindle版</dd>
-    <dd>B01CYDGUV8 (ASIN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">前著『CODE』改訂版。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-17">2018-11-17</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B01DJ5VE0W?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51d5+E9anaL._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B01DJ5VE0W?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">FREE CULTURE</a></dt>
-    <dd>ローレンス・レッシグ (著), 山形浩生 (翻訳), 守岡桜 (翻訳)</dd>
-    <dd>翔泳社 2004-07-22 (Release 2016-03-28)</dd>
-    <dd>Kindle版</dd>
-    <dd>B01DJ5VE0W (ASIN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">Free Culture の原典。白田秀彰さんの「<a href='http://orion.mt.tama.hosei.ac.jp/hideaki/freeannotation.htm'>FREE ANNOTATION</a>」も併せてどうぞ。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-17">2018-11-17</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4150504598?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41Le2d7nWiL._SL160_.jpg" width="109" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4150504598?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">フィルターバブル──インターネットが隠していること (ハヤカワ文庫NF)</a></dt>
-    <dd>イーライ・パリサー (著), 井口耕二 (翻訳)</dd>
-    <dd>早川書房 2016-03-09</dd>
-    <dd>文庫</dd>
-    <dd>4150504598 (ASIN), 9784150504595 (EAN), 4150504598 (ISBN), 9784150504595 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">ネットにおいて私たちは自由ではなく，それと知らず「フィルターバブル」に捕らわれている。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4757102852?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41YkbcP5IyL._SL160_.jpg" width="108" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4757102852?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">著作権２．０ ウェブ時代の文化発展をめざして (NTT出版ライブラリー―レゾナント)</a></dt>
-    <dd>名和 小太郎 (著)</dd>
-    <dd>NTT出版 2010-06-24</dd>
-    <dd>単行本（ソフトカバー）</dd>
-    <dd>4757102852 (ASIN), 9784757102859 (EAN), 4757102852 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">名著です。今すぐ買うべきです。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-13">2018-11-13</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "B071V8J53D" %}} <!-- 法のデザイン -->
+{{% review-paapi "B01CYDGUV8" %}} <!-- CODE VERSION 2.0 -->
+{{% review-paapi "B01DJ5VE0W" %}} <!-- FREE CULTURE -->
+{{% review-paapi "4150504598" %}} <!-- フィルターバブル -->
+{{% review-paapi "4757102852" %}} <!-- 著作権２．０ ウェブ時代の文化発展をめざして -->

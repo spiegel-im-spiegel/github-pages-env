@@ -98,28 +98,5 @@ pageType = "text"
 
 ## 参考文献
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B01MZGVHOA?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51T6PBdGbyL._SL160_.jpg" width="108" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B01MZGVHOA?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">超監視社会</a></dt>
-    <dd>ブルース・シュナイアー (著), 池村 千秋 (翻訳)</dd>
-    <dd>草思社 2016-12-13 (Release 2017-02-03)</dd>
-    <dd>Kindle版</dd>
-    <dd>B01MZGVHOA (ASIN)</dd>
-  </dl>
-  <p class="description">実は積ん読のまま読んでない。そろそろちゃんと最後まで読まないと。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-03-23">2019-03-23</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4798110035?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51HINm31mtL._SL160_.jpg" width="111" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4798110035?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">デジタル音楽の行方</a></dt>
-    <dd>David Kusek (著), David Kusek (著), Gerd Leonhard (著), Gerd Leonhard (著), yomoyomo (著), yomoyomo (翻訳), 津田 大介 (翻訳)</dd>
-    <dd>翔泳社 2005-12-06</dd>
-    <dd>単行本</dd>
-    <dd>4798110035 (ASIN), 9784798110035 (EAN), 4798110035 (ISBN)</dd>
-  </dl>
-  <p class="description">読んでない。絶賛絶版中？ もはや歴史的価値の有無さえ不明。「デジタル」とタイトルに冠されているにも関わらず Kindle 化すらされてないことに出版側のやる気を感じる（笑）</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-07-30">2017-07-30</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "B01MZGVHOA" %}} <!-- 超監視社会 -->
+{{% review-paapi "4798110035" %}} <!-- デジタル音楽の行方 -->

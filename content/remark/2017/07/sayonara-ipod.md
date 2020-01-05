@@ -85,16 +85,4 @@ Echo については AI というバズワードばかり先行しているが�
 
 ## 参考文献
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E9%9F%B3%E6%A5%BD%E3%81%AE%E8%A1%8C%E6%96%B9-David-Kusek/dp/4798110035?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4798110035"><img src="https://images-fe.ssl-images-amazon.com/images/I/51HINm31mtL._SL160_.jpg" width="111" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E9%9F%B3%E6%A5%BD%E3%81%AE%E8%A1%8C%E6%96%B9-David-Kusek/dp/4798110035?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4798110035">デジタル音楽の行方</a></dt>
-    <dd>David Kusek, Gerd Leonhard, yomoyomo</dd>
-    <dd>yomoyomo (翻訳), 津田 大介 (翻訳)</dd>
-    <dd>翔泳社 2005-12-06</dd>
-    <dd>単行本</dd>
-    <dd>4798110035 (ASIN), 9784798110035 (EAN)</dd>
-  </dl>
-  <p class="description">読んでない。絶賛絶版中？ もはや歴史的価値の有無さえ不明。「デジタル」とタイトルに冠されているにも関わらず Kindle 化すらされてないことに出版側のやる気を感じる（笑）</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-07-30">2017-07-30</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-API</a>)</p>
-</div>
+{{% review-paapi "4798110035" %}} <!-- デジタル音楽の行方 -->

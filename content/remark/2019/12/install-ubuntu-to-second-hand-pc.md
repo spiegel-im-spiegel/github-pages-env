@@ -251,15 +251,4 @@ $ apm stars --install
 - [Advanced Package Tool に関する覚え書き]({{< ref "/remark/2019/05/advanced-package-tool.md" >}})
 - [Ubuntu アプリケーションにおけるセキュリティ・アップデート一覧]({{< ref "/release/vuln-list.md" >}})
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B01NBU1OS5?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/317fsDSqG8L._SL160_.jpg" width="160" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B01NBU1OS5?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">シリコンパワー USBメモリ 32GB USB3.1 / USB3.0 亜鉛合金ボディ 防水 防塵 耐衝撃 永久保証 PS4動作確認済 Jewel J80 SP032GBUF3J80V1TJA</a></dt>
-    <dd>シリコンパワー (Release 2017-02-01)</dd>
-    <dd>Personal Computers</dd>
-    <dd>B01NBU1OS5 (ASIN), 4712702655292 (EAN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">OS 移行用に購入。ひたすらデザインで決めた（笑） よく考えたら32GBも要らなかった。まぁ，何か使い道があるだろう。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-04-21">2019-04-21</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "B01NBU1OS5" %}} <!-- シリコンパワー USBメモリ 32GB USB3.1 -->

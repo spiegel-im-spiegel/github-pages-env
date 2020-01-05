@@ -6,20 +6,6 @@ description = "G-Tools が 2018-10-13 付けでサービスが終わってしま
 image = "/images/attention/kitten.jpg"
 tags = [ "amazon", "web", "site", "market" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false

@@ -62,16 +62,4 @@ Google の [Inbox](https://inbox.google.com/) のように（ブロックやミ�
 [Tumblr]: https://www.tumblr.com/
 [タイムラインの奴隷]: https://scrapbox.io/spiegel-branch/%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%AE%E5%A5%B4%E9%9A%B7 "タイムラインの奴隷 - Spiegel's Branch - Scrapbox"
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/430924744X?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51KtN0YwWcL._SL160_.jpg" width="109" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/430924744X?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">スパム[spam]:インターネットのダークサイド</a></dt>
-    <dd>フィン・ブラントン (著), 生貝直人 (監修), 成原慧 (監修), 松浦俊輔 (翻訳)</dd>
-    <dd>河出書房新社 2015-12-25</dd>
-    <dd>単行本</dd>
-    <dd>430924744X (ASIN), 9784309247441 (EAN), 430924744X (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="3">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">今読んでるけど読みづらい。修飾語が多すぎるよ。ギリシア神話かっての。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-12-10">2016-12-10</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "430924744X" %}} <!-- スパム -->

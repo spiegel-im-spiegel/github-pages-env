@@ -79,16 +79,4 @@ C++ 11 でだいぶ変わったしね。
   <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-07">2018-12-07</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
 </div>
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4903127044?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41uBRNdBygL._SL160_.jpg" width="110" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4903127044?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">排除型社会―後期近代における犯罪・雇用・差異</a></dt>
-    <dd>ジョック ヤング (著), Young,Jock (原著), 秀男, 青木 (翻訳), 泰郎, 伊藤 (翻訳), 政彦, 岸 (翻訳), 真保呂, 村澤 (翻訳)</dd>
-    <dd>洛北出版 2007-03-01</dd>
-    <dd>単行本</dd>
-    <dd>4903127044 (ASIN), 9784903127040 (EAN), 4903127044 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description"><a href="https://baldanders.info/blog/000410/">感想はこちら</a>。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-07">2018-12-07</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "4903127044" %}} <!-- 排除型社会 -->

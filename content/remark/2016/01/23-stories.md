@@ -162,47 +162,9 @@ Bitcoin ってどうしてもかつての「地域通貨」を連想しちゃう
 うーむ，「『いま読むべき本』３冊」かぁ。
 私が人様に本を勧めるなどおこがましい話ではあるが，敢えて3冊選べというなら，今のところこれかな。
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B01CYDGUV8?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/31Q2jh+5SgL._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/B01CYDGUV8?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">CODE VERSION 2.0</a></dt>
-    <dd>ローレンス・レッシグ (著), 山形浩生 (翻訳)</dd>
-    <dd>翔泳社 2007-12-19 (Release 2016-03-14)</dd>
-    <dd>Kindle版</dd>
-    <dd>B01CYDGUV8 (ASIN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">前著『CODE』改訂版。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-17">2018-11-17</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4757143044?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/413qoSjODUL._SL160_.jpg" width="108" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4757143044?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">信頼と裏切りの社会</a></dt>
-    <dd>ブルース・シュナイアー (著), 山形 浩生 (翻訳)</dd>
-    <dd>NTT出版 2013-12-24</dd>
-    <dd>単行本（ソフトカバー）</dd>
-    <dd>4757143044 (ASIN), 9784757143043 (EAN), 4757143044 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">社会における「信頼」とは。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-03-23">2019-03-23</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4903127044?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41uBRNdBygL._SL160_.jpg" width="110" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4903127044?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">排除型社会―後期近代における犯罪・雇用・差異</a></dt>
-    <dd>ジョック ヤング (著), Young,Jock (原著), 秀男, 青木 (翻訳), 泰郎, 伊藤 (翻訳), 政彦, 岸 (翻訳), 真保呂, 村澤 (翻訳)</dd>
-    <dd>洛北出版 2007-03-01</dd>
-    <dd>単行本</dd>
-    <dd>4903127044 (ASIN), 9784903127040 (EAN), 4903127044 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description"><a href="https://baldanders.info/blog/000410/">感想はこちら</a>。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-07">2018-12-07</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-paapi "B01CYDGUV8" %}} <!-- CODE VERSION 2.0 -->
+{{% review-paapi "4757143044" %}} <!-- 信頼と裏切りの社会 -->
+{{% review-paapi "4903127044" %}} <!-- 排除型社会 -->
 
 もっとも，ちゃんと最後まで読んだのは『排除型社会』だけであとは途中まで読んで積ん読状態。
 まぁ『CODE』は Version 1 は既読なのでそのうちゆっくり。

@@ -1,24 +1,12 @@
 +++
-date = "2016-07-02T22:37:46+09:00"
-update = "2016-07-03T10:55:16+09:00"
-description = "「パスワードの定期変更はすべきでない」 / 「歩いて考える」 / 今年のカープはなぜ強い？ / ようやく『サイクス＝ピコ協定百年の呪縛』を読み終わった / その他の気になる記事"
-draft = false
-tags = ["security", "authentication", "password", "hiroshima", "book", "international"]
 title = "週末スペシャル： 「パスワードの定期変更はすべきでない」，他"
+date = "2016-07-02T22:37:46+09:00"
+description = "「パスワードの定期変更はすべきでない」 / 「歩いて考える」 / 今年のカープはなぜ強い？ / ようやく『サイクス＝ピコ協定百年の呪縛』を読み終わった / その他の気になる記事"
+tags = ["security", "authentication", "password", "hiroshima", "book", "international"]
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 最近「週末スペシャル」しか記事がないのはマジで忙しいからです。
@@ -108,30 +96,5 @@ title = "週末スペシャル： 「パスワードの定期変更はすべき�
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%80%90%E4%B8%AD%E6%9D%B1%E5%A4%A7%E6%B7%B7%E8%BF%B7%E3%82%92%E8%A7%A3%E3%81%8F%E3%80%91-%E3%82%B5%E3%82%A4%E3%82%AF%E3%82%B9-%E3%83%94%E3%82%B3%E5%8D%94%E5%AE%9A-%E7%99%BE%E5%B9%B4%E3%81%AE%E5%91%AA%E7%B8%9B-%E6%96%B0%E6%BD%AE%E9%81%B8%E6%9B%B8/dp/4106037866?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4106037866"><img src="https://images-fe.ssl-images-amazon.com/images/I/51QsC2WBr5L._SL160_.jpg" width="106" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%80%90%E4%B8%AD%E6%9D%B1%E5%A4%A7%E6%B7%B7%E8%BF%B7%E3%82%92%E8%A7%A3%E3%81%8F%E3%80%91-%E3%82%B5%E3%82%A4%E3%82%AF%E3%82%B9-%E3%83%94%E3%82%B3%E5%8D%94%E5%AE%9A-%E7%99%BE%E5%B9%B4%E3%81%AE%E5%91%AA%E7%B8%9B-%E6%96%B0%E6%BD%AE%E9%81%B8%E6%9B%B8/dp/4106037866?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4106037866">【中東大混迷を解く】 サイクス=ピコ協定 百年の呪縛 (新潮選書)</a></dt>
-	<dd>池内 恵</dd>
-    <dd>新潮社 2016-05-27</dd>
-    <dd>Book 単行本（ソフトカバー）</dd>
-    <dd>ASIN: 4106037866, EAN: 9784106037863</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">欧州および中東の近代および現代を「サイクス=ピコ協定」を特異点として網羅的に解説していいる。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-07-02">2016-07-02</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%BC%E3%83%A0%E5%9B%BD%E3%81%AE%E8%A1%9D%E6%92%83-%E6%96%87%E6%98%A5%E6%96%B0%E6%9B%B8-%E6%B1%A0%E5%86%85-%E6%81%B5-ebook/dp/B00SINS1HU?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00SINS1HU"><img src="https://images-fe.ssl-images-amazon.com/images/I/41MCLvboP0L._SL160_.jpg" width="101" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%BC%E3%83%A0%E5%9B%BD%E3%81%AE%E8%A1%9D%E6%92%83-%E6%96%87%E6%98%A5%E6%96%B0%E6%9B%B8-%E6%B1%A0%E5%86%85-%E6%81%B5-ebook/dp/B00SINS1HU?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00SINS1HU">イスラーム国の衝撃 (文春新書)</a></dt>
-	<dd>池内　恵</dd>
-    <dd>文藝春秋 2015-01-20 (Release 2015-01-28)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00SINS1HU</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">「イスラーム国」だけでなく近代以後（特に 9.11 以後）の中東の歴史について理解を深められる良書</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-01-31">2015-01-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "4106037866" %}} <!-- サイクス=ピコ協定 百年の呪縛 -->
+{{% review-paapi "B00SINS1HU" %}} <!-- イスラーム国の衝撃 -->

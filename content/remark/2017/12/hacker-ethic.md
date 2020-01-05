@@ -101,48 +101,6 @@ yomoyomo さんの「[情報共有の未来](http://archive.wiredvision.co.jp/bl
 
 ## 参考図書
 
-<div class="hreview" >
-	<div class="photo"><a class="item url" href="https://tatsu-zine.com/books/infoshare"><img src="https://tatsu-zine.com/images/books/15/cover_s.jpg" alt="photo"></a></div>
-    <dl class="fn">
-      <dt><a href="https://tatsu-zine.com/books/infoshare">情報共有の未来</a></dt>
-      <dd>yomoyomo</dd>
-      <dd>達人出版会 2011-12-30</dd>
-      <dd>評価&nbsp;<abbr class="rating fa-sm" title="4">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="far fa-star"></i>
-      </abbr></dd>
-    </dl>
-    <p class="description">同名ブログの書籍化。感想は<a href="https://baldanders.info/blog/000611/">こちら</a>。</p>
-    <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed">2018-12-31</abbr></p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4000280872?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/31e2h91IUWL._SL160_.jpg" width="103" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4000280872?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">イノベーション 悪意なき嘘 (双書 時代のカルテ)</a></dt>
-    <dd>名和 小太郎 (著)</dd>
-    <dd>岩波書店 2007-01-11</dd>
-    <dd>単行本</dd>
-    <dd>4000280872 (ASIN), 9784000280877 (EAN), 4000280872 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">「両用技術とはどのようなものか。その核心には「矛と楯の論理」がある」（まえがき「予断・診断・独断 そんなばかな」より）</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-31">2018-12-31</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4797334673?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/41tEJvyOO2L._SL160_.jpg" width="97" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/dp/4797334673?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">インターネットの法と慣習　かなり奇妙な法学入門 [ソフトバンク新書]</a></dt>
-    <dd>白田 秀彰 (著)</dd>
-    <dd>ソフトバンククリエイティブ 2006-07-15</dd>
-    <dd>新書</dd>
-    <dd>4797334673 (ASIN), 9784797334678 (EAN), 4797334673 (ISBN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">ライアカ本。 Web 2.0 真っ只中に書かれた本だが，時事的な部分を除けば古びてはいないと思う。</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-11-20">2018-11-20</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
-</div>
+{{% review-tatsujin "infoshare" %}} <!-- 情報共有の未来 -->
+{{% review-paapi "4000280872" %}} <!-- イノベーション 悪意なき嘘 -->
+{{% review-paapi "4797334673" %}} <!-- インターネットの法と慣習 -->
