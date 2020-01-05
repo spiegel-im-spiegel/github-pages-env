@@ -308,6 +308,7 @@ image = "/images/attention/go-logo_blue.png"
 - [Go: Goroutine, OS Thread and CPU Management - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-goroutine-os-thread-and-cpu-management-2f5a5eaf518a)
 - [Go: GOMAXPROCS & Live Updates - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-gomaxprocs-live-updates-407ad08624e1)
 - [Go: Goroutine and Preemption - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-goroutine-and-preemption-d6bc2aa2f4b7)
+- [Go: Concurrency & Scheduler Affinity - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-concurrency-scheduler-affinity-3b678f490488)
 
 Go 言語で複数 CPU を使った並列処理を行うには明示的な設定が必要。
 
