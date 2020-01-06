@@ -56,7 +56,56 @@ h1, h2, h3, h4, h5, h6 {
 よしよし。
 これでよーやくフォント周りの懸念がなくなった。
 
+## 【付録】 Google Fonts スタイルの中身
+
+たとえば NOTO Sans のみを指定する場合は，スタイルシートの指定は以下のようになるが
+
+```html
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Sans&display=swap">
+```
+
+中身を見るとこんな感じになっている（一部のみ）。
+
+```css
+/* latin-ext */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Noto Sans'), local('NotoSans'), url(https://fonts.gstatic.com/s/notosans/v9/o-0IIpQlx3QUlC5A4PNr6zRAW_0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Noto Sans'), local('NotoSans'), url(https://fonts.gstatic.com/s/notosans/v9/o-0IIpQlx3QUlC5A4PNr5TRA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+```
+
+このように単一のフォント・データではなく，いくつかのサブセットに分けてダウンロードさせているようだ。
+NOTO Sans のラテン文字は上の2つのようだが（他の文字のサブセットもある），日本語の NOTO Sans JP では，なんと！ 120に分割されていた。
+
+更に言うと， `href` 属性で指定される URL のクエリ部に `display=swap` がくっ付いているのに気づかれただろうが，これを指定すると `@font-face` ルールのプロパティとして `font-display: swap;` がセットされるようだ。 
+
+不勉強で `font-display` については知らなかったのだが，このプロパティに `swap` がセットされていると Web フォントがロードされるまでの間，代替フォント（`sans-serif` など）で表示されるらしい。
+
+`font-display` の仕様は割と最近にできたものらしく，対応していないブラウザも一部あるようだ（[ここで対応ブラウザを確認](https://caniuse.com/#search=font-display "Can I use... Support tables for HTML5, CSS3, etc")できる）。
+
+ちなみに Android 版 Firefox も `font-display` に対応しているのだが，フォントが入れ替わるたびに画面がちらつくのが鬱陶しい。
+この辺は要改良ってところなんだろう。
+
+日本語フォントは巨大だが，このような仕組みを使って，できるだけストレスのないよう工夫されているわけだ。
+
+ありがとう！
+
 ## ブックマーク
+
+- [日本語Webフォントを使用する際のアプローチについて | フロントエンドBlog | ミツエーリンクス](https://www.mitsue.co.jp/knowledge/blog/frontend/201912/19_0000.html) : Web フォントで日本語を設定する際に参考になる
 
 - [Web フォントに関する覚え書き]({{< ref "/remark/2015/web-font-family.md" >}})
 - [Web フォントに関する覚え書き（明朝体編）]({{< ref "/remark/2016/10/japanese-serif-fonts-by-google-cdn.md" >}})
