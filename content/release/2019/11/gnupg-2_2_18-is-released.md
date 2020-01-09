@@ -85,6 +85,7 @@ Release-info: https://dev.gnupg.org/T4684
 
 - [SHA-1 衝突問題： 廃止の前倒し]({{< ref "/remark/2015/problem-of-sha1-collision.md" >}})
 - [最初の SHA-1 衝突例]({{< ref "/remark/2017/02/sha-1-collision.md" >}})
+- [（何度目かの）さようなら SHA-1]({{< ref "/remark/2020/01/sayonara-sha-1.md" >}})
 
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 [gpgpdump]: https://github.com/spiegel-im-spiegel/gpgpdump "spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer"

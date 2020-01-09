@@ -74,14 +74,18 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ## Firefox
 
-| Official | Release    |                     Ubuntu | Release    |  delay |
-| --------:| ---------- | --------------------------:| ---------- | ------:|
-|     71.0 | 2019-12-03 | 71.0+build5-0 (USN-4216-1) | 2019-12-09 | 6 days |
-|     70.0 | 2019-10-22 | 70.0+build2-0 (USN-4165-1) | 2019-10-23 |  1 day |
-|   69.0.3 | 2019-10-10 |             (Ubuntu 19.10) | 2019-10-17 | 7 days |
+| Official | Release    |                     Ubuntu | Release    |   delay |
+| --------:| ---------- | --------------------------:| ---------- | -------:|
+|   72.0.1 | 2020-01-08 |                            |            | ∞ days |
+|     72.0 | 2020-01-07 |                    &mdash; | &mdash;    | &mdash; |
+|     71.0 | 2019-12-03 | 71.0+build5-0 (USN-4216-1) | 2019-12-09 |  6 days |
+|     70.0 | 2019-10-22 | 70.0+build2-0 (USN-4165-1) | 2019-10-23 |   1 day |
+|   69.0.3 | 2019-10-10 |             (Ubuntu 19.10) | 2019-10-17 |  7 days |
 
 ### ブックマーク
 
+- [Firefox  72.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/72.0.1/releasenotes/)
+- [Firefox  72.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/72.0/releasenotes/)
 - [Firefox  71.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/71.0/releasenotes/)
 - [Firefox  70.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/70.0.1/releasenotes/)
 - [Firefox  70.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/70.0/releasenotes/)
