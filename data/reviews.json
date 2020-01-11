@@ -5720,13 +5720,19 @@
       "Type": "paapi",
       "ID": "4048689606",
       "Title": "ルポ 電子書籍大国アメリカ (アスキー新書)",
-      "URL": "https://www.amazon.co.jp/%E3%83%AB%E3%83%9D-%E9%9B%BB%E5%AD%90%E6%9B%B8%E7%B1%8D%E5%A4%A7%E5%9B%BD%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB-%E3%82%A2%E3%82%B9%E3%82%AD%E3%83%BC%E6%96%B0%E6%9B%B8-%E5%A4%A7%E5%8E%9F-%E3%82%B1%E3%82%A4/dp/4048689606?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4048689606",
+      "URL": "https://www.amazon.co.jp/dp/4048689606?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41%2B6tioIZoL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41+6tioIZoL._SL160_.jpg",
         "Height": 160,
         "Width": 101
       },
       "ProductType": "新書",
+      "Creators": [
+        {
+          "Name": "大原 ケイ",
+          "Role": "著"
+        }
+      ],
       "Publisher": "アスキー・メディアワークス",
       "Codes": [
         {
@@ -5736,12 +5742,20 @@
         {
           "Name": "EAN",
           "Value": "9784048689601"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4048689606"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "9784048689601"
         }
       ],
       "PublicationDate": "2010-09-09",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -5761,13 +5775,19 @@
       "Type": "paapi",
       "ID": "B00KAOQXTS",
       "Title": "アメリカの電子書籍“ブーム”は今 (カドカワ・ミニッツブック)",
-      "URL": "https://www.amazon.co.jp/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%81%AE%E9%9B%BB%E5%AD%90%E6%9B%B8%E7%B1%8D%E2%80%9C%E3%83%96%E3%83%BC%E3%83%A0%E2%80%9D%E3%81%AF%E4%BB%8A-%E3%82%AB%E3%83%89%E3%82%AB%E3%83%AF%E3%83%BB%E3%83%9F%E3%83%8B%E3%83%83%E3%83%84%E3%83%96%E3%83%83%E3%82%AF-%E5%A4%A7%E5%8E%9F-%E3%82%B1%E3%82%A4-ebook/dp/B00KAOQXTS?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00KAOQXTS",
+      "URL": "https://www.amazon.co.jp/dp/B00KAOQXTS?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51JKldeFctL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51JKldeFctL._SL160_.jpg",
         "Height": 160,
         "Width": 106
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "大原 ケイ",
+          "Role": "著"
+        }
+      ],
       "Publisher": "ブックウォーカー",
       "Codes": [
         {
@@ -5778,7 +5798,7 @@
       "PublicationDate": "2014-05-15",
       "LastRelease": "2014-05-15",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
