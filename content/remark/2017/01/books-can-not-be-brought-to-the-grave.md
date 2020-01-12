@@ -1,24 +1,12 @@
 +++
 title = "本は墓場まで持ち込めない"
-draft = false
 tags = ["book", "e-book", "market"]
 description = "Eブックで出すのなら売る努力をすべきだし，その結果を正しくフィードバックさせなければならない。"
 date = "2017-01-16T19:35:31+09:00"
-update = "2017-01-18T22:53:07+09:00"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  url = "https://baldanders.info/profile/"
-  flickr = "spiegel"
-  instagram = "spiegel_2007"
-  twitter = "spiegel_2007"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  flattr = ""
-  facebook = "spiegel.im.spiegel"
-  tumblr = ""
-  github = "spiegel-im-spiegel"
-  license = "by-sa"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 これはもう「激しく同意」と言わざるを得ない。
@@ -131,32 +119,6 @@ Amazon.co.jp はいったい何がしたいのだろうか。
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%81%AE%E9%9B%BB%E5%AD%90%E6%9B%B8%E7%B1%8D%E2%80%9C%E3%83%96%E3%83%BC%E3%83%A0%E2%80%9D%E3%81%AF%E4%BB%8A-%E3%82%AB%E3%83%89%E3%82%AB%E3%83%AF%E3%83%BB%E3%83%9F%E3%83%8B%E3%83%83%E3%83%84%E3%83%96%E3%83%83%E3%82%AF-%E5%A4%A7%E5%8E%9F-%E3%82%B1%E3%82%A4-ebook/dp/B00KAOQXTS?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00KAOQXTS"><img src="https://images-fe.ssl-images-amazon.com/images/I/51JKldeFctL._SL160_.jpg" width="106" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%81%AE%E9%9B%BB%E5%AD%90%E6%9B%B8%E7%B1%8D%E2%80%9C%E3%83%96%E3%83%BC%E3%83%A0%E2%80%9D%E3%81%AF%E4%BB%8A-%E3%82%AB%E3%83%89%E3%82%AB%E3%83%AF%E3%83%BB%E3%83%9F%E3%83%8B%E3%83%83%E3%83%84%E3%83%96%E3%83%83%E3%82%AF-%E5%A4%A7%E5%8E%9F-%E3%82%B1%E3%82%A4-ebook/dp/B00KAOQXTS?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00KAOQXTS">アメリカの電子書籍“ブーム”は今 (カドカワ・ミニッツブック)</a></dt>
-	<dd>大原 ケイ</dd>
-    <dd>ブックウォーカー 2014-05-15 (Release 2014-05-15)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00KAOQXTS</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">『ルポ 電子書籍大国アメリカ』の続編的な位置づけ。2013年米国の出版状況の分析と今後についての予測。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-10-18">2014-10-18</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%AB%E3%83%9D-%E9%9B%BB%E5%AD%90%E6%9B%B8%E7%B1%8D%E5%A4%A7%E5%9B%BD%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB-%E3%82%A2%E3%82%B9%E3%82%AD%E3%83%BC%E6%96%B0%E6%9B%B8-%E5%A4%A7%E5%8E%9F-%E3%82%B1%E3%82%A4/dp/4048689606?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4048689606"><img src="https://images-fe.ssl-images-amazon.com/images/I/41%2B6tioIZoL._SL160_.jpg" width="101" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%83%AB%E3%83%9D-%E9%9B%BB%E5%AD%90%E6%9B%B8%E7%B1%8D%E5%A4%A7%E5%9B%BD%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB-%E3%82%A2%E3%82%B9%E3%82%AD%E3%83%BC%E6%96%B0%E6%9B%B8-%E5%A4%A7%E5%8E%9F-%E3%82%B1%E3%82%A4/dp/4048689606?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4048689606">ルポ 電子書籍大国アメリカ (アスキー新書)</a></dt>
-	<dd>大原 ケイ</dd>
-    <dd>アスキー・メディアワークス 2010-09-09</dd>
-    <dd>Book 新書</dd>
-    <dd>ASIN: 4048689606, EAN: 9784048689601</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">電子書籍に関する本を読むなら最初にこの本を読むことをお勧めする。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-10-18">2014-10-18</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
+{{% review-paapi "B00KAOQXTS" %}} <!-- アメリカの電子書籍“ブーム”は今 -->
+{{% review-paapi "4048689606" %}} <!-- ルポ 電子書籍大国アメリカ -->
 {{% review-paapi "B009IMAGYQ" %}} <!-- 犬とハサミは使いよう -->

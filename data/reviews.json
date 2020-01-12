@@ -1466,13 +1466,19 @@
       "Type": "paapi",
       "ID": "4832252836",
       "Title": "メェ~探偵フワロ (まんがタイムコミックス)",
-      "URL": "https://www.amazon.co.jp/%E3%83%A1%E3%82%A7~%E6%8E%A2%E5%81%B5%E3%83%95%E3%83%AF%E3%83%AD-%E3%81%BE%E3%82%93%E3%81%8C%E3%82%BF%E3%82%A4%E3%83%A0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E3%83%8A%E3%83%B3%E3%83%88%E3%82%AB/dp/4832252836?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4832252836",
+      "URL": "https://www.amazon.co.jp/dp/4832252836?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51ik9zw2iBL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51ik9zw2iBL._SL160_.jpg",
         "Height": 160,
         "Width": 113
       },
       "ProductType": "コミック",
+      "Creators": [
+        {
+          "Name": "ナントカ",
+          "Role": "著"
+        }
+      ],
       "Publisher": "芳文社",
       "Codes": [
         {
@@ -1482,12 +1488,16 @@
         {
           "Name": "EAN",
           "Value": "9784832252837"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4832252836"
         }
       ],
       "PublicationDate": "2014-04-07",
       "LastRelease": "2014-04-07",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -2519,14 +2529,22 @@
       "Type": "paapi",
       "ID": "4775929259",
       "Title": "シャーロック・ホームズ「赤毛連盟」",
-      "URL": "https://www.amazon.co.jp/%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF%E3%83%BB%E3%83%9B%E3%83%BC%E3%83%A0%E3%82%BA%E3%80%8C%E8%B5%A4%E6%AF%9B%E9%80%A3%E7%9B%9F%E3%80%8D-%E3%82%A2%E3%83%BC%E3%82%B5%E3%83%BC-%E3%82%B3%E3%83%8A%E3%83%B3%E3%83%BB%E3%83%89%E3%82%A4%E3%83%AB/dp/4775929259?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4775929259",
+      "URL": "https://www.amazon.co.jp/dp/4775929259?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51KBkKGu6NL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51KBkKGu6NL._SL160_.jpg",
         "Height": 160,
         "Width": 160
       },
       "ProductType": "CD",
       "Creators": [
+        {
+          "Name": "アーサー コナン・ドイル",
+          "Role": "著"
+        },
+        {
+          "Name": "Arthur Conan Doyle",
+          "Role": "著"
+        },
         {
           "Name": "三上 於菟吉",
           "Role": "翻訳"
@@ -2545,12 +2563,16 @@
         {
           "Name": "EAN",
           "Value": "9784775929254"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4775929259"
         }
       ],
       "PublicationDate": "2007-05-01",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -5759,7 +5781,7 @@
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2014-10-18",
+    "Date": "2020-01-12",
     "Rating": 5,
     "Star": [
       true,
@@ -5768,7 +5790,7 @@
       true,
       true
     ],
-    "Description": "電子書籍に関する本を読むなら最初にこの本を読むことをお勧めする。"
+    "Description": "絶版ですってよ，奥さん。「電子書籍」の話なのに Kindle 化すらされず絶版するとか笑えないギャグである。当時の状況を伝えるいい本だと思うんだけどねぇ。達人出版会さんとか拾ってくれないかな（笑）"
   },
   {
     "Book": {

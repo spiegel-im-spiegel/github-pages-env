@@ -103,18 +103,5 @@ PDF も基本はクラウド・ストレージに入れている。
 
 [^bs]: ちなみに私は仕事部屋に本棚が4つある。あと実家に2つ。これらの本はどうしても捨てられなかった。本棚の数は執着の数である。
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%81%AE%E9%9B%BB%E5%AD%90%E6%9B%B8%E7%B1%8D%E2%80%9C%E3%83%96%E3%83%BC%E3%83%A0%E2%80%9D%E3%81%AF%E4%BB%8A-%E3%82%AB%E3%83%89%E3%82%AB%E3%83%AF%E3%83%BB%E3%83%9F%E3%83%8B%E3%83%83%E3%83%84%E3%83%96%E3%83%83%E3%82%AF-%E5%A4%A7%E5%8E%9F-%E3%82%B1%E3%82%A4-ebook/dp/B00KAOQXTS?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00KAOQXTS"><img src="https://images-fe.ssl-images-amazon.com/images/I/51JKldeFctL._SL160_.jpg" width="106" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%81%AE%E9%9B%BB%E5%AD%90%E6%9B%B8%E7%B1%8D%E2%80%9C%E3%83%96%E3%83%BC%E3%83%A0%E2%80%9D%E3%81%AF%E4%BB%8A-%E3%82%AB%E3%83%89%E3%82%AB%E3%83%AF%E3%83%BB%E3%83%9F%E3%83%8B%E3%83%83%E3%83%84%E3%83%96%E3%83%83%E3%82%AF-%E5%A4%A7%E5%8E%9F-%E3%82%B1%E3%82%A4-ebook/dp/B00KAOQXTS?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00KAOQXTS">アメリカの電子書籍“ブーム”は今 (カドカワ・ミニッツブック)</a></dt>
-	<dd>大原 ケイ</dd>
-    <dd>ブックウォーカー 2014-05-15 (Release 2014-05-15)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00KAOQXTS</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">『ルポ 電子書籍大国アメリカ』の続編的な位置づけ。2013年米国の出版状況の分析と今後についての予測。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-10-18">2014-10-18</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
+{{% review-paapi "B00KAOQXTS" %}} <!-- アメリカの電子書籍“ブーム”は今 -->
 {{% review-paapi "B009IMAGYQ" %}} <!-- 犬とハサミは使いよう -->

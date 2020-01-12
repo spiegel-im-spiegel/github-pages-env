@@ -318,9 +318,9 @@ $ amazon-item lookup -d B01IGW5IIW -t template/lookup.html
 ## 出力例
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%EF%BC%8F%E3%83%95%E3%82%A7%E3%83%AB%E3%83%9E%E3%83%BC%E3%81%AE%E6%9C%80%E7%B5%82%E5%AE%9A%E7%90%86-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00I8AT1CM?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00I8AT1CM"><img src="https://images-fe.ssl-images-amazon.com/images/I/41vT2D6sERL._SL160_.jpg" width="113" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B00I8AT1CM?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://images-fe.ssl-images-amazon.com/images/I/41vT2D6sERL._SL160_.jpg" width="113" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%EF%BC%8F%E3%83%95%E3%82%A7%E3%83%AB%E3%83%9E%E3%83%BC%E3%81%AE%E6%9C%80%E7%B5%82%E5%AE%9A%E7%90%86-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00I8AT1CM?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00I8AT1CM">数学ガール／フェルマーの最終定理</a></dt>
+    <dt><a href="https://www.amazon.co.jp/dp/B00I8AT1CM?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">数学ガール／フェルマーの最終定理</a></dt>
     <dd>結城 浩</dd>
     
     <dd>SBクリエイティブ 2008-07-29 (Release 2014-03-12)</dd>
@@ -339,9 +339,9 @@ $ amazon-item lookup -d B01IGW5IIW -t template/lookup.html
 </div>
 
 <div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%AA%E3%83%BC%E3%83%B3%E9%96%8B%E7%99%BA%E3%81%AE%E7%8F%BE%E5%A0%B4-%E3%82%AB%E3%83%B3%E3%83%90%E3%83%B3%E3%81%AB%E3%82%88%E3%82%8B%E5%A4%A7%E8%A6%8F%E6%A8%A1%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E9%81%8B%E5%96%B6-%EF%BC%A8%EF%BD%85%EF%BD%8E%EF%BD%92%EF%BD%89%EF%BD%8B%EF%BC%AB%EF%BD%8E%EF%BD%89%EF%BD%82%EF%BD%85%EF%BD%92%EF%BD%87-ebook/dp/B01IGW5IIW?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01IGW5IIW"><img src="https://images-fe.ssl-images-amazon.com/images/I/51gC8Tmq1kL._SL160_.jpg" width="113" alt="photo"></a></div>
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B01IGW5IIW?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1"><img src="https://images-fe.ssl-images-amazon.com/images/I/51gC8Tmq1kL._SL160_.jpg" width="113" alt="photo"></a></div>
   <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%83%AA%E3%83%BC%E3%83%B3%E9%96%8B%E7%99%BA%E3%81%AE%E7%8F%BE%E5%A0%B4-%E3%82%AB%E3%83%B3%E3%83%90%E3%83%B3%E3%81%AB%E3%82%88%E3%82%8B%E5%A4%A7%E8%A6%8F%E6%A8%A1%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E9%81%8B%E5%96%B6-%EF%BC%A8%EF%BD%85%EF%BD%8E%EF%BD%92%EF%BD%89%EF%BD%8B%EF%BC%AB%EF%BD%8E%EF%BD%89%EF%BD%82%EF%BD%85%EF%BD%92%EF%BD%87-ebook/dp/B01IGW5IIW?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01IGW5IIW">リーン開発の現場 カンバンによる大規模プロジェクトの運営</a></dt>
+    <dt><a href="https://www.amazon.co.jp/dp/B01IGW5IIW?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">リーン開発の現場 カンバンによる大規模プロジェクトの運営</a></dt>
     <dd>ＨｅｎｒｉｋＫｎｉｂｅｒｇ, 角谷信太郎</dd>
     <dd>市谷聡啓 (翻訳), 藤原大 (翻訳)</dd>
     <dd>オーム社 2013-10-25 (Release 2017-07-15)</dd>
