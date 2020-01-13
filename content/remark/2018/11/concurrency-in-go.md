@@ -86,6 +86,7 @@ func main() {
     - [Go言語の並行処理デザインパターン by Rob Pike 後編 - Qiita](http://qiita.com/tfutada/items/dc8db894ac270a79ef2b)
 
 - [time.Ticker で遊ぶ]({{< ref "/golang/ticker.md" >}})
+- [『Go 言語による並行処理』はEブック版がオススメ]({{< ref "/remark/2020/01/concurrency-in-go-digital.md" >}})
 
 [Go 言語による並行処理]: https://www.amazon.co.jp/exec/obidos/ASIN/4873118468/baldandersinf-22/ "Go言語による並行処理 | Katherine Cox-Buday, 山口 能迪 |本 | 通販 | Amazon"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
@@ -95,5 +96,4 @@ func main() {
 ## 参考図書
 
 {{% review-paapi "4873118468" %}} <!-- Go言語による並行処理 -->
-
 {{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->

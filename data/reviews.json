@@ -3192,7 +3192,7 @@
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2018-11-03",
+    "Date": "2020-01-13",
     "Rating": 5,
     "Star": [
       true,
@@ -3201,7 +3201,7 @@
       true,
       true
     ],
-    "Description": "この本を読んで「よっしゃ，明日から立派な goroutine 使いだ！」とはならないと思うけど，有象無象なコピペ・プログラマじゃなく，きちんと Go 言語のプログラミングを勉強したいのであれば，この本は必読書になると思う。"
+    "Description": "\u003ca href=\"https://www.oreilly.co.jp/books/9784873118468/\"\u003eEブック版もある\u003c/a\u003e。感想は\u003ca href=\"https://text.baldanders.info/remark/2018/11/concurrency-in-go/\"\u003eこちら\u003c/a\u003e。 Go 言語で並行処理を書くならこの本は必読書になるだろう。"
   },
   {
     "Book": {
@@ -3423,7 +3423,7 @@
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2018-10-20",
+    "Date": "2016-07-13",
     "Rating": 5,
     "Star": [
       true,
@@ -7977,7 +7977,7 @@
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2018-10-20",
+    "Date": "2018-10-19",
     "Rating": 4,
     "Star": [
       true,

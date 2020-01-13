@@ -53,5 +53,4 @@ tags = [ "book", "golang", "engineering", "programming", "concurrency" ]
 ## 参考図書
 
 {{% review-paapi "4908686033" %}} <!-- Goならわかるシステムプログラミング -->
-
 {{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
