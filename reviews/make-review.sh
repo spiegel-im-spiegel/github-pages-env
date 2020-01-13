@@ -1,8 +1,9 @@
 #!/bin/sh
-sleep 1;cat ./done/4873118468.html | books-data review -t review-book.html -a 4873118468 -r 5 --review-date 2020-01-13 --pipe # Updated
-sleep 1;cat ./done/4621300253.html | books-data review -t review-book.html -a 4621300253 -r 5 --review-date 2016-07-13 --pipe
-sleep 1;cat ./done/4908686033.html | books-data review -t review-book.html -a 4908686033 -r 4 --review-date 2018-10-19 --pipe
+sleep 1;cat B079SYC8TC.html | books-data review -t review-book.html -a B079SYC8TC -r 4 --review-date 2020-01-13 --pipe
 # ---
+# sleep 1;cat ./done/4873118468.html | books-data review -t review-book.html -a 4873118468 -r 5 --review-date 2020-01-13 --pipe # Updated
+# sleep 1;cat ./done/4621300253.html | books-data review -t review-book.html -a 4621300253 -r 5 --review-date 2016-07-13 --pipe
+# sleep 1;cat ./done/4908686033.html | books-data review -t review-book.html -a 4908686033 -r 4 --review-date 2018-10-19 --pipe
 # sleep 1;cat ./done/4775929259.html | books-data review -t review-book.html -a 4775929259 -r 4 --review-date 2019-01-04 --pipe
 # sleep 1;cat ./done/4832252836.html | books-data review -t review-book.html -a 4832252836 -r 4 --review-date 2016-03-07 --pipe
 # sleep 1;cat ./done/4048689606.html | books-data review -t review-book.html -a 4048689606 -r 5 --review-date 2020-01-12 --pipe # Updated

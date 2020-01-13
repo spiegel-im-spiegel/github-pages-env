@@ -78,4 +78,6 @@ pageType = "text"
 {{% review-paapi "B00KAOQXTS" %}} <!-- アメリカの電子書籍“ブーム”は今 -->
 {{% review-paapi "4048689606" %}} <!-- ルポ 電子書籍大国アメリカ -->
 {{% review-paapi "4775929259" %}} <!-- シャーロック・ホームズ「赤毛連盟」 -->
+{{% review-paapi "B009IMAGYQ" %}} <!-- 犬とハサミは使いよう -->
+{{% review-paapi "B079SYC8TC" %}} <!-- 勇者召喚に巻き込まれたけど、異世界は平和でした -->
 {{% review-paapi "B00I8AT1CM" %}} <!-- 数学ガール／フェルマーの最終定理 -->

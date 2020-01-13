@@ -10016,5 +10016,52 @@
       true
     ],
     "Description": "未収録話キター！ ありがとう，ぶんか社さん。私も座敷わらしになりたい（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B079SYC8TC",
+      "Title": "勇者召喚に巻き込まれたけど、異世界は平和でした 1 (モーニングスターブックス)",
+      "URL": "https://www.amazon.co.jp/dp/B079SYC8TC?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61QVfacpHUL._SL160_.jpg",
+        "Height": 160,
+        "Width": 109
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "灯台",
+          "Role": "著"
+        },
+        {
+          "Name": "おちゃう",
+          "Role": "イラスト"
+        }
+      ],
+      "Publisher": "新紀元社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B079SYC8TC"
+        }
+      ],
+      "PublicationDate": "2017-06-22",
+      "LastRelease": "2018-02-16",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-01-13",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "読後の感想が「もげろ！」になった（多分）初めての作品。原作の Web 版は更に糖度高め。「砂糖を吐く」という比喩表現が理解できてしまった。もげろ！"
   }
 ]
