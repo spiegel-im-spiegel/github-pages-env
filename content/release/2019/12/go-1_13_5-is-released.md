@@ -11,7 +11,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-[Go] 1.13.4 がリリースされた。
+[Go] 1.13.5 がリリースされた。
 
 - [Go 1.13.5 and Go 1.12.14 are released - Google Group](https://groups.google.com/forum/#!topic/golang-announce/2Vuzx20_rik)
 
