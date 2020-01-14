@@ -1,21 +1,9 @@
 +++
 title = "2019年 公有化に関する2つの話題"
 date = "2019-01-02T11:06:50+09:00"
-update = "2019-01-05T10:08:21+09:00"
 description = "むしろこれを機会に「自由」について日本人もそろそろ真面目に考えてみるというのはどうだろう。そういう2019年になれば幸いである。"
 image = "/images/attention/kitten.jpg"
 tags = ["code", "intellectual-property", "copyright", "creative-commons"]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
 
 [scripts]
   mathjax = false
@@ -33,7 +21,7 @@ tags = ["code", "intellectual-property", "copyright", "creative-commons"]
 毎年この時期の恒例である「公有化される作品の作家」リストの話題だが，[昨年末に施行された改正著作権法]({{< ref "/remark/2018/11/copyright-law-is-revised.md" >}} "年末年始に施行される改正著作権法に関する覚え書き")のおかげで20年先送りされた。
 
 - [これからの20年に向けて](https://www.aozora.gr.jp/soramoyou/soramoyou2018.html#000500)
-- [20年先の種を蒔く――真実は時の娘](https://www.aozora.gr.jp/soramoyou/soramoyouindex.html#000507)
+- [20年先の種を蒔く――真実は時の娘](https://www.aozora.gr.jp/soramoyou/soramoyou2019.html#000507)
 
 一方，米国においては著作権保護期間延長が決まってからちょうど20年経ったそうで，ようやく今年から「公有化される作品の作家」が追加される。
 
@@ -53,7 +41,7 @@ tags = ["code", "intellectual-property", "copyright", "creative-commons"]
 [Profile](https://www.aozora.gr.jp/index_pages/person55.html "作家別作品リスト：富田 倫生") を見て気付いたが，[富田倫生]さんって広島市の出身なんだねぇ。
 広島でこの手のイベントをやればいいのに。
 
-[2019年に公有化される筈だった作品の作家リスト](https://www.aozora.gr.jp/soramoyou/soramoyouindex.html#000503 "20年先の種を蒔く――真実は時の娘")を見ると翻訳家の方が2人ほどいらっしゃる。
+[2019年に公有化される筈だった作品の作家リスト](https://www.aozora.gr.jp/soramoyou/soramoyou2019.html#000503 "20年先の種を蒔く――真実は時の娘")を見ると翻訳家の方が2人ほどいらっしゃる。
 ご存知とは思うが，翻案された作品には（原作者とは別に）翻案者にも著作権が発生する。
 したがって原作者の作品の著作権が切れていても翻案者の保護期間が残っている場合もあるわけだ。
 
@@ -86,18 +74,4 @@ tags = ["code", "intellectual-property", "copyright", "creative-commons"]
 
 {{% review-paapi "4899840721" %}} <!-- インターネット図書館 青空文庫 -->
 {{% review-paapi "4756117074" %}} <!-- 本の未来 -->
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF%E3%83%BB%E3%83%9B%E3%83%BC%E3%83%A0%E3%82%BA%E3%80%8C%E8%B5%A4%E6%AF%9B%E9%80%A3%E7%9B%9F%E3%80%8D-%E3%82%A2%E3%83%BC%E3%82%B5%E3%83%BC-%E3%82%B3%E3%83%8A%E3%83%B3%E3%83%BB%E3%83%89%E3%82%A4%E3%83%AB/dp/4775929259?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4775929259"><img src="https://images-fe.ssl-images-amazon.com/images/I/51KBkKGu6NL._SL160_.jpg" width="160" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF%E3%83%BB%E3%83%9B%E3%83%BC%E3%83%A0%E3%82%BA%E3%80%8C%E8%B5%A4%E6%AF%9B%E9%80%A3%E7%9B%9F%E3%80%8D-%E3%82%A2%E3%83%BC%E3%82%B5%E3%83%BC-%E3%82%B3%E3%83%8A%E3%83%B3%E3%83%BB%E3%83%89%E3%82%A4%E3%83%AB/dp/4775929259?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4775929259">シャーロック・ホームズ「赤毛連盟」</a></dt>
-	<dd>アーサー コナン・ドイル, Arthur Conan Doyle</dd>
-	<dd>三上 於菟吉 (翻訳), 大久保 ゆう (翻訳)</dd>
-    <dd>でじじ発行/パンローリング発売 2007-05-01</dd>
-    <dd>Book CD</dd>
-    <dd>ASIN: 4775929259, EAN: 9784775929254</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description"><a href="https://www.aozora.gr.jp">青空文庫</a>に収録されているシャーロック・ホームズ・シリーズの翻訳を朗読する。第一弾は「赤毛連盟（Red-Headed League）」で佐々木健さんによる朗読。一人で何役もこなす佐々木健さんがかっこいい！</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-01-04">2019-01-04</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
+{{% review-paapi "4775929259" %}} <!-- シャーロック・ホームズ「赤毛連盟」 -->
