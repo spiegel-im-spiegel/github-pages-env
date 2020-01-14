@@ -41,9 +41,9 @@ GnuPG は [Ubuntu] 19.04 リリース時の 2.2.12 (libgcrypt 1.8.4) から動�
 
 ### Libgcrypt
 
-| Official | Release    | Ubuntu | Release |   delay |
-| --------:| ---------- | ------:| ------- | -------:|
-|    1.8.5 | 2019-08-29 |        |         | ∞ days |
+| Official | Release    |               Ubuntu | Release    |      delay |
+| --------:| ---------- | --------------------:| ---------- | ----------:|
+|    1.8.5 | 2019-08-29 | 1.8.4-5 (USN-4236-1) | 2020-01-13 | 4.5 months |
 
 ### ブックマーク
 
@@ -60,12 +60,14 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 | Official | Release    |        Ubuntu | Release    |   delay |
 | --------:| ---------- | -------------:| ---------- | -------:|
-|   2.24.1 | 2019-12-10 |               |            | ∞ days |
+|   2.25.0 | 2020-01-13 |               |            | ∞ days |
+|   2.24.1 | 2019-12-10 | 2.24.1-1~ppa0 | 2019-12-11 |   1 day |
 |   2.24.0 | 2019-11-04 | 2.24.0-1~ppa0 | 2019-11-04 |   0 day |
 |   2.23.0 | 2019-08-16 |  2.23.0-0ppa1 | 2019-08-18 |  2 days |
 
 ### ブックマーク
 
+- [[ANNOUNCE] Git v2.25.0 - Junio C Hamano](https://lore.kernel.org/git/xmqqtv4zjgv5.fsf@gitster-ct.c.googlers.com/)
 - [[ANNOUNCE] Git v2.24.1 and others](https://public-inbox.org/git/xmqqr21cqcn9.fsf@gitster-ct.c.googlers.com/T/)
 - [[ANNOUNCE] Git v2.24.0](https://public-inbox.org/git/20191104173426.GA68471@syl.local/T/)
 - [[ANNOUNCE] Git v2.23.0 - Junio C Hamano](https://public-inbox.org/git/xmqqy2zszuz7.fsf@gitster-ct.c.googlers.com/)
@@ -97,7 +99,8 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 | Official | Release    |                       Ubuntu | Release    |   delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
-|   68.3.1 | 2019-12-16 |                              |            | ∞ days |
+|   68.4.1 | 2020-01-09 |                              |            | ∞ days |
+|   68.3.1 | 2019-12-16 |                      &mdash; | &mdash;    | &mdash; |
 |   68.3.0 | 2019-12-03 |                      &mdash; | &mdash;    | &mdash; |
 |   68.2.2 | 2019-11-07 | 68.2.2+build1-0 (USN-4202-2) | 2019-12-10 | 1 month |
 |   68.2.1 | 2019-10-31 | 68.2.1+build1-0 (USN-4202-1) | 2019-11-26 | 4 weeks |
@@ -109,6 +112,7 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (68.4.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.4.1/releasenotes/)
 - [Thunderbird — Release Notes (68.3.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.3.1/releasenotes/)
 - [Thunderbird — Release Notes (68.3.0) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.3.0/releasenotes/)
 - [Thunderbird — Release Notes (68.2.2) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.2.2/releasenotes/)

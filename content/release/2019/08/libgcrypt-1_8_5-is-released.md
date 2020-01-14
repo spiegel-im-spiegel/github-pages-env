@@ -51,6 +51,14 @@ Linux 等では [Libgcrypt] のみを入れ替えれば済む（筈）なのだ�
 [GnuPG] や [Libgcrypt] をビルドする環境を早急に整える必要があるのだが，今はちょっと無理なんだよね。
 もうしばらくは我慢我慢我慢。
 
+## 追記 2020-0114
+
+[Ubuntu] がようやく今回の脆弱性に対応したようだが...
+
+- [USN-4236-1: Libgcrypt vulnerability | Ubuntu security notices](https://usn.ubuntu.com/4236-1/)
+
+[Libgcrypt] 1.8.4 へのバックポート・パッチかよ `orz`
+
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 [Libgcrypt]: https://gnupg.org/software/libgcrypt/
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
