@@ -140,7 +140,7 @@ OpenJDK 64-Bit Server VM (build 13.0.2+8, mixed mode, sharing)
 
 ## ブックマーク
 
-- [Oracle Critical Patch Update - October 2019](https://www.oracle.com/technetwork/security-advisory/cpuoct2019-5072832.html)
+- [2020年1月 Oracle 製品のクリティカルパッチアップデートに関する注意喚起](https://www.jpcert.or.jp/at/2020/at200002.html) : Oracle Java を含む Oracle 製品のアップデート情報
 
 - [Java 環境のリリースとサポートに関する覚え書き]({{< ref "/remark/2018/02/release-cycle-of-java-environment.md" >}})
 - [結局 OpenJDK をインストールし直すことにした]({{< ref "/remark/2019/07/reinstalling-openjdk.md" >}})
