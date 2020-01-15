@@ -175,48 +175,7 @@ AI は（今のところ）近似解に葛藤したりしない。
 
 {{% review-paapi "4903127044" %}} <!-- 排除型社会 -->
 {{% review-paapi "4000280872" %}} <!-- イノベーション 悪意なき嘘 -->
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E8%80%83%E3%81%88%E3%82%8B%E3%83%92%E3%83%B3%E3%83%88-%E5%B0%8F%E6%9E%97-%E7%A7%80%E9%9B%84-ebook/dp/B009HO50XC?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B009HO50XC"><img src="https://images-fe.ssl-images-amazon.com/images/I/41LkjyVMoKL._SL160_.jpg" width="111" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E8%80%83%E3%81%88%E3%82%8B%E3%83%92%E3%83%B3%E3%83%88-%E5%B0%8F%E6%9E%97-%E7%A7%80%E9%9B%84-ebook/dp/B009HO50XC?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B009HO50XC">考えるヒント</a></dt>
-	<dd>小林 秀雄</dd>
-    <dd>文藝春秋 1974-06-25 (Release 2012-09-20)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B009HO50XC</dd>
-  </dl>
-  <p class="description">学生時代に受験対策で読んでるはずなんだけどなぁ。あんまり憶えてない。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-10-12">2016-10-12</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%BE%E3%81%A8%E3%82%81%E8%B2%B7%E3%81%84-%E3%82%AD%E3%82%AB%E3%82%A4%E3%83%80%E3%83%BC02%EF%BC%88%E8%A7%92%E5%B7%9D%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%E3%83%BB%E3%82%A8%E3%83%BC%E3%82%B9%EF%BC%89/dp/B013UQUH80?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B013UQUH80"><img src="https://images-fe.ssl-images-amazon.com/images/I/C1RBaQMQg4S._SL160_.png" width="160" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%81%BE%E3%81%A8%E3%82%81%E8%B2%B7%E3%81%84-%E3%82%AD%E3%82%AB%E3%82%A4%E3%83%80%E3%83%BC02%EF%BC%88%E8%A7%92%E5%B7%9D%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%E3%83%BB%E3%82%A8%E3%83%BC%E3%82%B9%EF%BC%89/dp/B013UQUH80?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B013UQUH80">[まとめ買い] キカイダー02（角川コミックス・エース）</a></dt>
-	<dd>ＭＥＩＭＵ</dd>
-	<dd>石ノ森 章太郎 (その他)</dd>
-    <dd></dd>
-    <dd>Ebook Bundle Kindle版</dd>
-    <dd>ASIN: B013UQUH80</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">「キカイダー」を神秘学的視点で再解釈する（笑）</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-08-18">2016-08-18</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%8F%E3%82%8C%E3%81%AF%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E3%80%94%E6%B1%BA%E5%AE%9A%E7%89%88%E3%80%95-%E3%82%A2%E3%82%A4%E3%82%B6%E3%83%83%E3%82%AF-%E3%82%A2%E3%82%B7%E3%83%A2%E3%83%95-ebook/dp/B00O1VK072?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00O1VK072"><img src="https://images-fe.ssl-images-amazon.com/images/I/51UzGYXJ70L._SL160_.jpg" width="108" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%8F%E3%82%8C%E3%81%AF%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E3%80%94%E6%B1%BA%E5%AE%9A%E7%89%88%E3%80%95-%E3%82%A2%E3%82%A4%E3%82%B6%E3%83%83%E3%82%AF-%E3%82%A2%E3%82%B7%E3%83%A2%E3%83%95-ebook/dp/B00O1VK072?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00O1VK072">われはロボット〔決定版〕</a></dt>
-	<dd>アイザック アシモフ</dd>
-	<dd>小尾芙佐 (翻訳)</dd>
-    <dd>早川書房 2014-04-25 (Release 2014-09-30)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00O1VK072</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">ロボットや AI の SF ならこれが古典で定番か？ 面白かったら続けて『<a href="https://www.amazon.co.jp/%E9%8B%BC%E9%89%84%E9%83%BD%E5%B8%82-%E3%82%A2%E3%82%A4%E3%82%B6%E3%83%83%E3%82%AF-%E3%82%A2%E3%82%B7%E3%83%A2%E3%83%95-ebook/dp/B00O2O7JFY?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00O2O7JFY">鋼鉄都市</a>』も読むとよい。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-11-03">2015-11-03</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
+{{% review-paapi "B009HO50XC" %}} <!-- 考えるヒント -->
+{{% review-paapi "B00F5P454W" %}} <!-- キカイダー02 -->
+{{% review-paapi "B00O1VK072" %}} <!-- われはロボット -->
 {{% review-paapi "B00NWQI4N4" %}} <!-- BOOM TOWN TRIP.30 -->

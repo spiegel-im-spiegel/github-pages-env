@@ -41,4 +41,4 @@ pageType = "text"
 
 {{% review-paapi "4805202254" %}} <!-- 天体の位置計算 -->
 {{% review-paapi "4769903251" %}} <!-- 天体軌道論 -->
-{{% review-paapi "B07BNZQSZZ" %}} <!-- 猫暦 -->
+{{% review-paapi "B01BHGVLOY" %}} <!-- 猫暦 -->

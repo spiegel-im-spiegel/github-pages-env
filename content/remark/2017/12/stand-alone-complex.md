@@ -96,33 +96,6 @@ tags        = [ "code", "internet", "twitter" ]
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%97%9C%E7%99%96%E3%81%99%E3%82%8B%E4%BA%BA%E9%96%93%E9%96%A2%E4%BF%82%E2%80%95%E8%A6%AA%E5%AF%86%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%AE%E3%81%8C%E6%80%96%E3%81%84-%E3%82%A2%E3%83%B3%E3%83%BB%E3%82%A6%E3%82%A3%E3%83%AB%E3%82%BD%E3%83%B3-%E3%82%B7%E3%82%A7%E3%83%95/dp/4414429145?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4414429145"><img src="https://images-fe.ssl-images-amazon.com/images/I/41NXMXRCBVL._SL160_.jpg" width="110" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E5%97%9C%E7%99%96%E3%81%99%E3%82%8B%E4%BA%BA%E9%96%93%E9%96%A2%E4%BF%82%E2%80%95%E8%A6%AA%E5%AF%86%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%AE%E3%81%8C%E6%80%96%E3%81%84-%E3%82%A2%E3%83%B3%E3%83%BB%E3%82%A6%E3%82%A3%E3%83%AB%E3%82%BD%E3%83%B3-%E3%82%B7%E3%82%A7%E3%83%95/dp/4414429145?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4414429145">嗜癖する人間関係―親密になるのが怖い</a></dt>
-	<dd>アン・ウィルソン シェフ</dd>
-	<dd>Anne Wilson Schaef (原著), 高畠 克子 (翻訳)</dd>
-    <dd>誠信書房 1999-01</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4414429145, EAN: 9784414429145</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">終盤になると「霊性」という単語が頻出するけど，日本のいわゆる「スピリチュアル」や類似のカルトの言説とは意味が異なるのでご注意を。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-01-12">2019-01-12</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E7%92%B0%E5%A2%83%E3%83%AA%E3%82%B9%E3%82%AF%E5%AD%A6-%E4%B8%AD%E8%A5%BF%E6%BA%96%E5%AD%90-ebook/dp/B00E7HMI7U?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00E7HMI7U"><img src="https://images-fe.ssl-images-amazon.com/images/I/51I9C7cFl2L._SL160_.jpg" width="108" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E7%92%B0%E5%A2%83%E3%83%AA%E3%82%B9%E3%82%AF%E5%AD%A6-%E4%B8%AD%E8%A5%BF%E6%BA%96%E5%AD%90-ebook/dp/B00E7HMI7U?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00E7HMI7U">環境リスク学</a></dt>
-	<dd>中西準子</dd>
-    <dd>日本評論社 (Release 2013-08-01)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00E7HMI7U</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">環境リスクのみならず「リスク」全体に目配せした良書。著者の自伝的作品でもある。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-02-03">2016-02-03</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
+{{% review-paapi "4414429145" %}} <!-- 嗜癖する人間関係 -->
+{{% review-paapi "B00E7HMI7U" %}} <!-- 環境リスク学 -->
 {{% review-paapi "B00SINS1HU" %}} <!-- イスラーム国の衝撃 -->

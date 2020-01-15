@@ -78,5 +78,4 @@ $ gosumcheck /path/to/go.sum
 ## 参考図書
 
 {{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
-
-{{% review-paapi "B013URFRLQ" %}} <!-- [まとめ買い] 超人ロック　ミラーリング -->
+{{% review-paapi "B00C41BSHM" %}} <!-- 超人ロック　ミラーリング -->

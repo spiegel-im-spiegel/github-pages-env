@@ -99,30 +99,5 @@ AI 技術[^ait1] について考える時，私たちは「機械 vs 人間」�
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/AI-vs-%E6%95%99%E7%A7%91%E6%9B%B8%E3%81%8C%E8%AA%AD%E3%82%81%E3%81%AA%E3%81%84%E5%AD%90%E3%81%A9%E3%82%82%E3%81%9F%E3%81%A1-%E6%96%B0%E4%BA%95-%E7%B4%80%E5%AD%90-ebook/dp/B0791XCYQG?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0791XCYQG"><img src="https://images-fe.ssl-images-amazon.com/images/I/51KFIJ%2BqpkL._SL160_.jpg" width="111" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/AI-vs-%E6%95%99%E7%A7%91%E6%9B%B8%E3%81%8C%E8%AA%AD%E3%82%81%E3%81%AA%E3%81%84%E5%AD%90%E3%81%A9%E3%82%82%E3%81%9F%E3%81%A1-%E6%96%B0%E4%BA%95-%E7%B4%80%E5%AD%90-ebook/dp/B0791XCYQG?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0791XCYQG">AI vs. 教科書が読めない子どもたち</a></dt>
-	<dd>新井 紀子</dd>
-    <dd>東洋経済新報社 2018-02-02 (Release 2018-02-02)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B0791XCYQG</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">4章以外は面白かった。感想文は<a href="/remark/2018/02/artificial-intelligence-book/">こちら</a>。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-02-11">2018-02-11</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%96%B0%E3%83%BB%E6%97%A5%E6%9C%AC%E3%81%AE%E9%9A%8E%E7%B4%9A%E7%A4%BE%E4%BC%9A-%E8%AC%9B%E8%AB%87%E7%A4%BE%E7%8F%BE%E4%BB%A3%E6%96%B0%E6%9B%B8-%E6%A9%8B%E6%9C%AC%E5%81%A5%E4%BA%8C-ebook/dp/B078TNC8RW?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B078TNC8RW"><img src="https://images-fe.ssl-images-amazon.com/images/I/51ijGO2LR3L._SL160_.jpg" width="98" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E6%96%B0%E3%83%BB%E6%97%A5%E6%9C%AC%E3%81%AE%E9%9A%8E%E7%B4%9A%E7%A4%BE%E4%BC%9A-%E8%AC%9B%E8%AB%87%E7%A4%BE%E7%8F%BE%E4%BB%A3%E6%96%B0%E6%9B%B8-%E6%A9%8B%E6%9C%AC%E5%81%A5%E4%BA%8C-ebook/dp/B078TNC8RW?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B078TNC8RW">新・日本の階級社会 (講談社現代新書)</a></dt>
-	<dd>橋本健二</dd>
-    <dd>講談社 2018-01-16 (Release 2018-01-19)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B078TNC8RW</dd>
-    <dd>評価<abbr class="rating fa-sm" title="3">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">Facebook で紹介されているのを見て買ってみたのだが，微妙に読みにくくて積ん読中。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-03-18">2018-03-18</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
+{{% review-paapi "B0791XCYQG" %}} <!-- AI vs. 教科書が読めない子どもたち -->
+{{% review-paapi "B078TNC8RW" %}} <!-- 新・日本の階級社会 -->

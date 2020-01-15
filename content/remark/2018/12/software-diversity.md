@@ -1,22 +1,9 @@
 +++
 title = "オープンソースはコードの多様性を担保しない"
 date = "2018-12-10T22:28:16+09:00"
-update = "2018-12-12T10:28:57+09:00"
 description = "オープンソースは自由かもしれないが多様とは限らない。"
 image = "/images/attention/kitten.jpg"
 tags = [ "web", "engineering", "firefox", "chromium", "webkit" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false
@@ -80,17 +67,4 @@ Linux より優れた OS をフルスクラッチで作ろうという人は少�
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%B0%E3%83%BC%E3%82%B0%E3%83%AB-%E3%83%8D%E3%83%83%E3%83%88%E8%A6%87%E8%80%85%E3%81%AE%E7%9C%9F%E5%AE%9F-%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%83%96%E3%83%B3%E3%83%BB%E3%83%AC%E3%83%B4%E3%82%A3-ebook/dp/B009LFBL4Y?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B009LFBL4Y"><img src="https://images-fe.ssl-images-amazon.com/images/I/412TwuSJT1L._SL160_.jpg" width="114" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%B0%E3%83%BC%E3%82%B0%E3%83%AB-%E3%83%8D%E3%83%83%E3%83%88%E8%A6%87%E8%80%85%E3%81%AE%E7%9C%9F%E5%AE%9F-%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%83%96%E3%83%B3%E3%83%BB%E3%83%AC%E3%83%B4%E3%82%A3-ebook/dp/B009LFBL4Y?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B009LFBL4Y">グーグル　ネット覇者の真実</a></dt>
-	<dd>スティーブン・レヴィ</dd>
-	<dd>仲達志；池村千秋 (翻訳)</dd>
-    <dd>CCCメディアハウス 2011-12-16 (Release 2012-08-31)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B009LFBL4Y</dd>
-    <dd>評価<abbr class="rating fa-sm" title="3">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">そういえばこれ Kindle で買い直したのに途中ま読んでそのまま積ん読だったよ。ゼロ年代の Google を中心とした話なのでちょっと古びた感はあるが歴史書としては今でも通用するだろう。書評は<a href="https://www.yamdas.org/booklog/intheplex.html" title="yomoyomoの読書記録 - スティーブン・レヴィ『グーグル　ネット覇者の真実　追われる立場から追う立場へ』（阪急コミュニケーションズ）">こちら</a>が参考になる。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-11">2018-12-11</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
+{{% review-paapi "B009LFBL4Y" %}} <!-- グーグル　ネット覇者の真実 -->

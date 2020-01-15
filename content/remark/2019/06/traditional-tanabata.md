@@ -57,5 +57,5 @@ pageType = "text"
 [暦要項]: http://eco.mtk.nao.ac.jp/koyomi/yoko/ "暦要項 - 国立天文台暦計算室"
 
 {{% review-paapi "4416718020" %}} <!-- 天文年鑑 2019年版 -->
-{{% review-paapi "B07BNZQSZZ" %}} <!-- 猫暦 -->
+{{% review-paapi "B01BHGVLOY" %}} <!-- 猫暦 -->
 {{% review-paapi "B00FXUQGN2" %}} <!-- 7月7日、晴れ -->

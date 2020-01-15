@@ -1,24 +1,12 @@
 +++
-date = "2016-02-14T14:00:52+09:00"
-update =  "2017-10-04T12:56:21+09:00"
-description = "LIGO が重力波の「直接検出」に成功する！ / aozorahack.org ドメインの取得 / オンラインのプログラム実行環境 paiza.IO / パスワードや秘密鍵の管理はどうしてますか？ / 達人出版会から「数学ガールの秘密ノート」の PDF 版が出てるらしい"
-draft = false
-tags = ["astronomy", "gravity-wave", "book", "aozora", "programming", "security", "authentication", "yubikey", "math"]
 title = "週末スペシャル： LIGO が重力波の「直接検出」に成功する！"
+date = "2016-02-14T14:00:52+09:00"
+description = "LIGO が重力波の「直接検出」に成功する！ / aozorahack.org ドメインの取得 / オンラインのプログラム実行環境 paiza.IO / パスワードや秘密鍵の管理はどうしてますか？ / 達人出版会から「数学ガールの秘密ノート」の PDF 版が出てるらしい"
+tags = ["astronomy", "gravity-wave", "book", "aozora", "programming", "security", "authentication", "yubikey", "math"]
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 1. [LIGO が重力波の「直接検出」に成功する！]({{< relref "#ligo" >}})
@@ -167,16 +155,4 @@ Windows 環境なら [Evince] がオススメ。
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E5%BC%8F%E3%81%A8%E3%82%B0%E3%83%A9%E3%83%95-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00L0PDMIQ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00L0PDMIQ"><img src="https://images-fe.ssl-images-amazon.com/images/I/41yiQ7I2sLL._SL160_.jpg" width="112" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E5%BC%8F%E3%81%A8%E3%82%B0%E3%83%A9%E3%83%95-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00L0PDMIQ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00L0PDMIQ">数学ガールの秘密ノート／式とグラフ</a></dt>
-	<dd>結城 浩</dd>
-    <dd>SBクリエイティブ 2013-07-12 (Release 2014-07-24)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00L0PDMIQ</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">数学は「代数」の概念を理解し「幾何」と脳内連携できるとグッと世界が広がる。私が小学生ならこの本を夏休みの読書感想文と自由研究のネタにする。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-02-14">2016-02-14</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
+{{% review-paapi "B00L0PDMIQ" %}} <!-- 数学ガールの秘密ノート／式とグラフ -->

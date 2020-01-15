@@ -69,7 +69,4 @@ description = "あちこちで報道されているようなので，ブック�
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4166600044/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/41GPXP2HRVL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4166600044/baldandersinf-22/">ファースト・コンタクト―地球外知性体と出会う日 (文春新書)</a></dt><dd>金子 隆一 </dd><dd>文藝春秋 1998-10</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
-<p class="description">地球外文明探査の歴史を俯瞰する良書。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-01-30">2016-01-30</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
-</div>
+{{% review-paapi "4166600044" %}} <!-- ファースト・コンタクト -->

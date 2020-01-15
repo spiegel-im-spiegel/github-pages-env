@@ -3,7 +3,7 @@ title = "インターネットで「死ぬ」ということ"
 date =  "2017-12-19T18:48:54+09:00"
 description = "死んだら消失してしまう Web 上のコンテンツを保持っておく意味なんかあるのか？"
 image = "/images/attention/remark.jpg"
-tags        = [ "internet", "code" ]
+tags = [ "internet", "code" ]
 
 [scripts]
   mathjax = false
@@ -72,45 +72,6 @@ tags        = [ "internet", "code" ]
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%86%E3%82%81%E3%81%AE%E3%81%8B%E3%82%88%E3%81%84%E3%81%98-%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%97100%25%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%A4%A7%E9%87%8E-%E5%AE%89%E4%B9%8B-ebook/dp/B0096I6YD4?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0096I6YD4"><img src="https://images-fe.ssl-images-amazon.com/images/I/519n5WuN-FL._SL160_.jpg" width="110" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%86%E3%82%81%E3%81%AE%E3%81%8B%E3%82%88%E3%81%84%E3%81%98-%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%97100%25%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%A4%A7%E9%87%8E-%E5%AE%89%E4%B9%8B-ebook/dp/B0096I6YD4?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0096I6YD4">ゆめのかよいじ (ニュータイプ100%コミックス)</a></dt>
-	<dd>大野 安之</dd>
-    <dd>KADOKAWA / 角川書店 2011-12-01 (Release 2012-09-01)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B0096I6YD4</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">ふっふっふ。少年画報社版も持ってるぜ！</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-12-19">2017-12-19</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%9E%E3%83%83%E3%83%97%E3%82%B9/dp/B0756XN84P?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0756XN84P"><img src="https://images-fe.ssl-images-amazon.com/images/I/61mqSfwnOzL._SL160_.jpg" width="160" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%83%9E%E3%83%83%E3%83%97%E3%82%B9/dp/B0756XN84P?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0756XN84P">マップス</a></dt>
-	<dd>長谷川 裕一</dd>
-    <dd></dd>
-    <dd>Collections Kindle版</dd>
-    <dd>ASIN: B0756XN84P</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">20世紀を代表するスペースオペラ漫画（のひとつ）</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-12-19">2017-12-19</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%BE%E3%81%A8%E3%82%81%E8%B2%B7%E3%81%84-%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%82%89%E5%89%A3%E3%81%A7%E3%81%97%E3%81%9F-%E6%96%87%E5%BA%AB%E7%89%88/dp/B07KB1YB3F?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07KB1YB3F"><img src="https://images-fe.ssl-images-amazon.com/images/I/B1qO-QmiUpS._SL160_.png" width="160" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%81%BE%E3%81%A8%E3%82%81%E8%B2%B7%E3%81%84-%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%82%89%E5%89%A3%E3%81%A7%E3%81%97%E3%81%9F-%E6%96%87%E5%BA%AB%E7%89%88/dp/B07KB1YB3F?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07KB1YB3F">[まとめ買い] 転生したら剣でした (文庫版)</a></dt>
-	<dd>棚架ユウ</dd>
-	<dd>るろお (イラスト)</dd>
-    <dd></dd>
-    <dd>Ebook Bundle Kindle版</dd>
-    <dd>ASIN: B07KB1YB3F</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">フランちゃんが可愛い。特に尻尾が。あと師匠のカレーが食べたい。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-12-19">2017-12-19</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "B0096I6YD4" %}} <!-- ゆめのかよいじ -->
+{{% review-paapi "B00JB3F73M" %}} <!-- マップス -->
+{{% review-paapi "B01J76D2JS" %}} <!-- 転生したら剣でした -->

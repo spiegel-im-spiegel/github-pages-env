@@ -163,4 +163,4 @@ t2 - t1 = 1 sec
 
 {{% review-paapi "B079YJS1J1" %}} <!-- ［試して理解］Linuxのしくみ -->
 {{% review-paapi "4805202254" %}} <!-- 天体の位置計算 -->
-{{% review-paapi "B07BNZQSZZ" %}} <!-- 猫暦 -->
+{{% review-paapi "B01BHGVLOY" %}} <!-- 猫暦 -->

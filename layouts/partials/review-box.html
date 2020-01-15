@@ -4,7 +4,7 @@
     <dt>{{ if .Book.URL }}<a href="{{ .Book.URL }}">{{ end }}{{ .Book.Title }}{{ with .Book.SubTitle }} {{ . }}{{ end }}{{ with .Book.SeriesTitle }} ({{ . }}){{ end }}{{ if .Book.URL }}</a>{{ end }}</dt>{{ if .Book.OriginalTitle }}
     <dd>原題: {{ .Book.OriginalTitle }}</dd>{{ end }}{{ if .Book.FirstAppearance }}
     <dd>（初出: {{ .Book.FirstAppearance }}）</dd>{{ end }}{{ if .Book.Creators }}
-    <dd>{{ range $i, $v := .Book.Creators }}{{ if ne $i 0 }}, {{ end }}{{ $v.Name }} ({{ $v.Role }}){{ end }}</dd>{{ end }}
+    <dd>{{ range $i, $v := .Book.Creators }}{{ if ne $i 0 }}, {{ end }}{{ $v.Name }}{{ with $v.Role }} ({{ . }}){{ end }}{{ end }}</dd>{{ end }}
     <dd>{{ if .Book.Publisher }}{{ .Book.Publisher }}{{ end }}{{ if .Book.PublicationDate }} {{ .Book.PublicationDate }}{{ end }}{{ if .Book.LastRelease }} (Release {{ .Book.LastRelease }}){{ end }}</dd>
     <dd>{{ .Book.ProductType }}{{ if .Book.PublicDomain }} (Public Domain){{ end }}</dd>{{ if .Book.Codes }}
     <dd>{{ range $i, $v := .Book.Codes }}{{ if ne $i 0 }}, {{ end }}{{ $v.Value }} ({{ $v.Name }}){{ end }}</dd>{{ end }}{{ if gt .Rating 0 }}

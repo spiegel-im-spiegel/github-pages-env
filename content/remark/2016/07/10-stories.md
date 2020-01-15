@@ -1,8 +1,8 @@
 +++
+title = "週末スペシャル： ゆのっち，木星の衛星になる"
 date = "2016-07-10T21:17:07+09:00"
 description = "ゆのっち，木星の衛星になる / 2017年直前のうるう秒 / Electronic Persons / 投票には行きましたか？ / その他の気になる記事"
 tags = ["astronomy", "jupiter", "juno", "leap-second", "artificial-intelligence", "politics", "election"]
-title = "週末スペシャル： ゆのっち，木星の衛星になる"
 
 [scripts]
   mathjax = false
@@ -135,30 +135,5 @@ Juno はこれから1年間木星やその衛星を観測し，最終的には�
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%B2%E3%81%A0%E3%81%BE%E3%82%8A%E3%82%B9%E3%82%B1%E3%83%83%E3%83%81/dp/B074CH93XJ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B074CH93XJ"><img src="https://images-fe.ssl-images-amazon.com/images/I/61aKX8ZdskL._SL160_.jpg" width="160" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%81%B2%E3%81%A0%E3%81%BE%E3%82%8A%E3%82%B9%E3%82%B1%E3%83%83%E3%83%81/dp/B074CH93XJ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B074CH93XJ">ひだまりスケッチ</a></dt>
-	<dd>蒼樹うめ</dd>
-    <dd></dd>
-    <dd>Collections Kindle版</dd>
-    <dd>ASIN: B074CH93XJ</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">そういえば紙の本は捨てちゃったんだよな。 Kindle で買い直さないと。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-07-10">2016-07-10</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E4%B9%99%E5%A5%B3%E3%82%A2%E3%83%88%E3%83%A9%E3%82%B9/dp/B07H5TLTJ4?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07H5TLTJ4"><img src="https://images-fe.ssl-images-amazon.com/images/I/61FVYv8mxjL._SL160_.jpg" width="160" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E4%B9%99%E5%A5%B3%E3%82%A2%E3%83%88%E3%83%A9%E3%82%B9/dp/B07H5TLTJ4?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07H5TLTJ4">乙女アトラス</a></dt>
-	<dd>竹本泉</dd>
-    <dd></dd>
-    <dd>Collections Kindle版</dd>
-    <dd>ASIN: B07H5TLTJ4</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">地球人も宇宙から見れば non-human person（笑）</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-07-10">2016-07-10</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "B00X9CDPE4" %}} <!-- ひだまりスケッチ -->
+{{% review-paapi "B07GSYNZTM" %}} <!-- 乙女アトラス -->

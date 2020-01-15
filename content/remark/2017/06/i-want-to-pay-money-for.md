@@ -1,25 +1,12 @@
 +++
-date = "2017-06-09T19:05:53+09:00"
-update = "2017-06-10T11:59:28+09:00"
-description = "Google Play でやたら評価の高いゲームがあって，試しにやってみたら面白かったのだ。"
-draft = false
-tags = ["games", "market"]
 title = "お金を払いたくなるような..."
+date = "2017-06-09T19:05:53+09:00"
+description = "Google Play でやたら評価の高いゲームがあって，試しにやってみたら面白かったのだ。"
+tags = ["games", "market"]
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
-
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 どうも，久しぶりの更新。
@@ -66,7 +53,7 @@ title = "お金を払いたくなるような..."
 1年半前に [MFF] をやり始めてからスマホ用の国産 RPG を色々試してるんだけど「ガチャ」機能のないゲームって見当たらないよね。
 そう考えると Ingress やポケモン GO が，収益構造の面からも，いかに秀逸なゲームだったか，と思う。
 
-ゲームの「ガチャ」についてはそれぞれ思う人がいると思うが，個人的には**「[リセマラ]しないと進められないゲームはクソゲー」**だと思う。
+ゲームの「ガチャ」についてはそれぞれ思う人がいると思うが，個人的には **「[リセマラ]しないと進められないゲームはクソゲー」** だと思う。
 
 随分前から言われているけど，情報にまつわるほぼ全てのものがコモディティ化している現代に（本にせよ音楽にせよゲームにせよ）コンテンツそのものには金銭的価値がなくなっているわけよ。
 そうなるとどこに（お金が取れる）価値を見出すかって話になるわけで，それはもうユーザの「体験」しかないということになる。
@@ -105,7 +92,4 @@ Role-Playing Game ってのは文字通り「ごっこ遊び」なんだから�
 [MFF]: http://www.jp.square-enix.com/MOBIUSFF/ "MOBIUS FINAL FANTASY | SQUARE ENIX"
 [リセマラ]: http://dic.nicovideo.jp/a/%E3%83%AA%E3%82%BB%E3%83%9E%E3%83%A9 "リセマラとは (リセマラとは) [単語記事] - ニコニコ大百科"
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B06XYM74MZ/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/E1RAuHmAdES._SL160_.png" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B06XYM74MZ/baldandersinf-22/">[まとめ買い] 賢者の弟子を名乗る賢者（GCノベルズ）</a></dt><dd>りゅうせんひろつぐ 藤ちょこ </dd><dd> </dd><dd>評価<abbr class="rating" title="5"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
-<p class="description">最近のお気に入りラノベ。 <a href="http://ncode.syosetu.com/n6829bd/">Web 版</a>も愛読している。こういう設定のゲームとかあったら楽しいかなぁ。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-06-09">2017-06-09</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
-</div>
+{{% review-paapi "B00LF90DZW" %}} <!-- 賢者の弟子を名乗る賢者 -->

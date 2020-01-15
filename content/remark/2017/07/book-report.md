@@ -2,21 +2,11 @@
 title = "「読書感想文は、ただちに「面白かった本のお勧め文」に名目を変えるべき」ではない"
 date =  "2017-07-30T18:37:38+09:00"
 description = "小学生にとって作文というのは自身の思考や感情を文章として（「面白い」とかいった主観表現ではなく）客観的・分析的・内省的に表現する訓練機会である。"
-tags        = [ "book" ]
+tags = [ "book" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 はいはい。
@@ -54,7 +44,7 @@ tags        = [ "book" ]
 
 読書感想文を書くときのポイントはひとつしかない。
 
-1. それで「私」という**読者**はどう思ったか
+1. それで「私」という **読者** はどう思ったか
 
 である。
 だって「感想」なんだから。
@@ -89,7 +79,7 @@ tags        = [ "book" ]
 たとえば，サッカー漫画を読んでいつかワールドカップに出場したいと願う子がいるかもしれない。
 たとえば，抜群に面白い小説を読んで同じ作者の別作品を漁ったり同ジャンルの別作者の作品を読みたくなって挙句の果てに図書館に入り浸りになる子もいたりするかもしれない。
 
-そういうのを全部ひっくるめて読書**体験**なのであり，その瞬間を切り取るのが読書感想文であり，そこに込められた想いをきちんと汲み取ってあげるのが大人の役割である。
+そういうのを全部ひっくるめて読書 **体験** なのであり，その瞬間を切り取るのが読書感想文であり，そこに込められた想いをきちんと汲み取ってあげるのが大人の役割である。
 私はそう思っている。
 
 「読書感想文は読書体験の微分である」かな（笑）
@@ -100,7 +90,4 @@ tags        = [ "book" ]
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B0741WVFFL/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/61HLi1jY4iL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B0741WVFFL/baldandersinf-22/">恋を積分すると愛 (角川文庫)</a></dt><dd>中村 航 </dd><dd>KADOKAWA / 角川書店 2017-07-25</dd></dl><p class="similar"></p>
-<p class="description">Facebook の友人が紹介してた。タイトルが面白そうなので読むかもしれない（笑）</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-07-30">2017-07-30</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
-</div>
+{{% review-paapi "B0741WVFFL" %}} <!-- 恋を積分すると愛 -->

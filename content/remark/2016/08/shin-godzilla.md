@@ -83,7 +83,4 @@ title = "『シン・ゴジラ』を観た"
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B010U8XB5W/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/C1sMi0FHrsS._SL160_.png" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B010U8XB5W/baldandersinf-22/">[まとめ買い] まりかセヴン（アクションコミックス）</a></dt><dd>伊藤伸平 </dd><dd> </dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
-<p class="description">だれか「まりかセヴン」をアニメ化してくれないかなぁ。深夜アニメでいいからさ。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-08-14">2016-08-14</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
-</div>
+{{% review-paapi "B00GBT7LH4" %}} <!-- まりかセヴン -->

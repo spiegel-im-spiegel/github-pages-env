@@ -1,8 +1,8 @@
 +++
+title = "週末スペシャル： FBI 曰く「Ransomware 感染時は身代金払え」"
 date = "2015-11-14T17:49:15+09:00"
 description = "FBI 曰く「Ransomware 感染時は身代金払え」 / 移動式プラネタリウム製作資金を集める Crowd-Funding / 家事を「要求開発」する / Facebook のない人生は幸せ？ / 日本における TPP 知財のこれから"
 tags = ["security", "risk", "ransomware", "astronomy", "planetarium", "engineering", "communication", "code", "intellectual-property", "copyright", "tpp", "grigori", "facebook"]
-title = "週末スペシャル： FBI 曰く「Ransomware 感染時は身代金払え」"
 
 [scripts]
   mathjax = false
@@ -124,44 +124,6 @@ TPP 知財の中身についての詳細情報は以下が参考になる。
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E8%A6%81%E6%B1%82%E9%96%8B%E7%99%BA~%E4%BE%A1%E5%80%A4%E3%81%82%E3%82%8B%E8%A6%81%E6%B1%82%E3%82%92%E5%B0%8E%E3%81%8D%E5%87%BA%E3%81%99%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9%E3%81%A8%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0-%E5%B1%B1%E5%B2%B8-%E8%80%95%E4%BA%8C/dp/4822282686?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4822282686"><img src="https://images-fe.ssl-images-amazon.com/images/I/512Y77Y5WDL._SL160_.jpg" width="111" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E8%A6%81%E6%B1%82%E9%96%8B%E7%99%BA~%E4%BE%A1%E5%80%A4%E3%81%82%E3%82%8B%E8%A6%81%E6%B1%82%E3%82%92%E5%B0%8E%E3%81%8D%E5%87%BA%E3%81%99%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9%E3%81%A8%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0-%E5%B1%B1%E5%B2%B8-%E8%80%95%E4%BA%8C/dp/4822282686?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4822282686">要求開発~価値ある要求を導き出すプロセスとモデリング</a></dt>
-	<dd>山岸 耕二, 安井 昌男, 萩本 順三, 河野 正幸, 野田 伊佐夫, 平鍋 健児, 細川 努, 依田 智夫, ［要求開発アライアンス］</dd>
-    <dd>日経BP社 2006-03-02</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4822282686, EAN: 9784822282684</dd>
-  </dl>
-  <p class="description">「要求定義」から「要求開発」へ</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-08-31">2015-08-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%80%9D%E6%98%A5%E6%9C%9F%E3%83%9D%E3%82%B9%E3%83%88%E3%83%A2%E3%83%80%E3%83%B3-%E6%88%90%E7%86%9F%E3%81%AF%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%8F%AF%E8%83%BD%E3%81%8B-%E6%96%8E%E8%97%A4%E7%92%B0-ebook/dp/B00CZCW9BE?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00CZCW9BE"><img src="https://images-fe.ssl-images-amazon.com/images/I/41H4JSiPBYL._SL160_.jpg" width="101" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E6%80%9D%E6%98%A5%E6%9C%9F%E3%83%9D%E3%82%B9%E3%83%88%E3%83%A2%E3%83%80%E3%83%B3-%E6%88%90%E7%86%9F%E3%81%AF%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%8F%AF%E8%83%BD%E3%81%8B-%E6%96%8E%E8%97%A4%E7%92%B0-ebook/dp/B00CZCW9BE?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00CZCW9BE">思春期ポストモダン　成熟はいかにして可能か</a></dt>
-	<dd>斎藤環</dd>
-    <dd>幻冬舎 (Release 2013-05-31)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00CZCW9BE</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">終わらない思春期の2つのモードについて。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-11-14">2015-11-14</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%97%9C%E7%99%96%E3%81%99%E3%82%8B%E4%BA%BA%E9%96%93%E9%96%A2%E4%BF%82%E2%80%95%E8%A6%AA%E5%AF%86%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%AE%E3%81%8C%E6%80%96%E3%81%84-%E3%82%A2%E3%83%B3%E3%83%BB%E3%82%A6%E3%82%A3%E3%83%AB%E3%82%BD%E3%83%B3-%E3%82%B7%E3%82%A7%E3%83%95/dp/4414429145?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4414429145"><img src="https://images-fe.ssl-images-amazon.com/images/I/41NXMXRCBVL._SL160_.jpg" width="110" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E5%97%9C%E7%99%96%E3%81%99%E3%82%8B%E4%BA%BA%E9%96%93%E9%96%A2%E4%BF%82%E2%80%95%E8%A6%AA%E5%AF%86%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%AE%E3%81%8C%E6%80%96%E3%81%84-%E3%82%A2%E3%83%B3%E3%83%BB%E3%82%A6%E3%82%A3%E3%83%AB%E3%82%BD%E3%83%B3-%E3%82%B7%E3%82%A7%E3%83%95/dp/4414429145?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4414429145">嗜癖する人間関係―親密になるのが怖い</a></dt>
-	<dd>アン・ウィルソン シェフ</dd>
-	<dd>Anne Wilson Schaef (原著), 高畠 克子 (翻訳)</dd>
-    <dd>誠信書房 1999-01</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4414429145, EAN: 9784414429145</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">終盤になると「霊性」という単語が頻出するけど，日本のいわゆる「スピリチュアル」や類似のカルトの言説とは意味が異なるのでご注意を。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-01-12">2019-01-12</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
+{{% review-paapi "4822282686" %}} <!-- 要求開発~価値ある要求を導き出すプロセスとモデリング -->
+{{% review-paapi "B00CZCW9BE" %}} <!-- 思春期ポストモダン -->
+{{% review-paapi "4414429145" %}} <!-- 嗜癖する人間関係 -->

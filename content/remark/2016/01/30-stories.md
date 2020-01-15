@@ -1,24 +1,12 @@
 +++
-date = "2016-01-30T19:19:39+09:00"
-update = "2016-10-18T21:25:39+09:00"
-description = "フェルミのパラドックス / GnuPG 2.1.11 released / Go 1.6 Release Candidate 1 / MIAU からの意見書"
-draft = false
-tags = ["astronomy", "seti", "security", "cryptography", "openpgp", "gnupg", "tools", "golang", "code", "politics", "intellectual-property"]
 title = "週末スペシャル： フェルミのパラドックス"
+date = "2016-01-30T19:19:39+09:00"
+description = "フェルミのパラドックス / GnuPG 2.1.11 released / Go 1.6 Release Candidate 1 / MIAU からの意見書"
+tags = ["astronomy", "seti", "security", "cryptography", "openpgp", "gnupg", "tools", "golang", "code", "politics", "intellectual-property"]
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = true
+  mermaidjs = false
 +++
 
 1. [フェルミのパラドックス]({{< relref "#seti" >}})
@@ -44,15 +32,15 @@ title = "週末スペシャル： フェルミのパラドックス"
 銀河系内にどのくらい（地球人と交信可能な）知的文明が存在するか推定する方程式がある。
 これが「ドレイク方程式」と呼ばれるものだ。
 
-{{< fig-quote >}}
+{{< fig-math >}}
 \[
-    N = R_{*} \times f_p \times  n_e \times f_l \times f_i \times f_c \times L
+    N = R_{ * } \times f_p \times  n_e \times f_l \times f_i \times f_c \times L
 \]
-{{< /fig-quote >}}
+{{< /fig-math >}}
 
 各項の意味は
 
-- $R_{*}$ ： 銀河系内で年間で誕生する恒星の数
+- $R_{ * }$ ： 銀河系内で年間で誕生する恒星の数
 - $f_p$ ： その恒星が惑星を持つようになる確率
 - $n_e$ ： それらの中で生命の発生し得る条件を備えた惑星の数
 - $f_l$ ： その惑星の中に実際に生命が発生し得る確率
@@ -64,7 +52,7 @@ title = "週末スペシャル： フェルミのパラドックス"
 
 この式の評価は色々あるのだが，金子隆一著『[ファースト・コンタクト―地球外知性体と出会う日](https://www.amazon.co.jp/exec/obidos/ASIN/4166600044/baldandersinf-22/)』では
 
-- $R_{*} = 20$
+- $R_{ * } = 20$
 - $f_p = 0.25$
 - $n_e = 1.5$
 - $f_l = 0.75$
@@ -98,26 +86,26 @@ Android 版もあるよ。
 セキュリティ・アップデートはなし。
 主な変更点は以下のとおり。
 
-* gpg: New command --export-ssh-key to replace the gpgkey2ssh tool.
-* gpg: Allow to generate mail address only keys with --gen-key.
-* gpg: "--list-options show-usage" is now the default.
+* gpg: New command `--export-ssh-key` to replace the gpgkey2ssh tool.
+* gpg: Allow to generate mail address only keys with `--gen-key`.
+* gpg: "`--list-options show-usage`" is now the default.
 * gpg: Make lookup of DNS CERT records holding an URL work.
 * gpg: Emit PROGRESS status lines during key generation.
-* gpg: Don't check for ambigious or non-matching key specification in the config file or given to --encrypt-to.  This feature will return in 2.3.x.
+* gpg: Don't check for ambigious or non-matching key specification in the config file or given to `--encrypt-to`.  This feature will return in 2.3.x.
 * gpg: Lock keybox files while updating them.
 * gpg: Solve rare error on Windows during keyring and Keybox updates.
 * gpg: Fix possible keyring corruption. (bug#2193)
-* gpg: Fix regression of "bkuptocard" sub-command in --edit-key and remove "checkbkupkey" sub-command introduced with 2.1.  (bug#2169)
+* gpg: Fix regression of "bkuptocard" sub-command in `--edit-key` and remove "`checkbkupkey`" sub-command introduced with 2.1.  (bug#2169)
 * gpg: Fix internal error in gpgv when using default keyid-format.
-* gpg: Fix --auto-key-retrieve to work with dirmngr.conf configured keyservers. (bug#2147).
-* agent: New option --pinentry-timeout.
+* gpg: Fix `--auto-key-retrieve` to work with dirmngr.conf configured keyservers. (bug#2147).
+* agent: New option `--pinentry-timeout`.
 * scd: Improve unplugging of USB readers under Windows.
 * scd: Fix regression for generating RSA keys on card.
 * dirmmgr: All configured keyservers are now searched.
-* dirmngr: Install CA certificate for hkps.pool.sks-keyservers.net. Use this certiticate even if --hkp-cacert is not used.
-* gpgtar: Add actual encryption code.  gpgtar does now fully replace gpg-zip.
+* dirmngr: Install CA certificate for `hkps.pool.sks-keyservers.net`. Use this certiticate even if `--hkp-cacert` is not used.
+* gpgtar: Add actual encryption code.  gpgtar does now fully replace `gpg-zip`.
 * gpgtar: Fix filename encoding problem on Windows.
-* Print a warning if a GnuPG component is using an older version of gpg-agent, dirmngr, or scdaemon.
+* Print a warning if a GnuPG component is using an older version of `gpg-agent`, `dirmngr`, or `scdaemon`.
 
 ## Go 1.6 Release Candidate 1{#golang}
 
@@ -148,16 +136,4 @@ MIAU から「知的財産推進計画2016」が公開されている。
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%83%BB%E3%82%B3%E3%83%B3%E3%82%BF%E3%82%AF%E3%83%88%E2%80%95%E5%9C%B0%E7%90%83%E5%A4%96%E7%9F%A5%E6%80%A7%E4%BD%93%E3%81%A8%E5%87%BA%E4%BC%9A%E3%81%86%E6%97%A5-%E6%96%87%E6%98%A5%E6%96%B0%E6%9B%B8-%E9%87%91%E5%AD%90-%E9%9A%86%E4%B8%80/dp/4166600044?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4166600044"><img src="https://images-fe.ssl-images-amazon.com/images/I/41GPXP2HRVL._SL160_.jpg" width="100" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%83%BB%E3%82%B3%E3%83%B3%E3%82%BF%E3%82%AF%E3%83%88%E2%80%95%E5%9C%B0%E7%90%83%E5%A4%96%E7%9F%A5%E6%80%A7%E4%BD%93%E3%81%A8%E5%87%BA%E4%BC%9A%E3%81%86%E6%97%A5-%E6%96%87%E6%98%A5%E6%96%B0%E6%9B%B8-%E9%87%91%E5%AD%90-%E9%9A%86%E4%B8%80/dp/4166600044?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4166600044">ファースト・コンタクト―地球外知性体と出会う日 (文春新書)</a></dt>
-	<dd>金子 隆一</dd>
-    <dd>文藝春秋 1998-10</dd>
-    <dd>Book 新書</dd>
-    <dd>ASIN: 4166600044, EAN: 9784166600045</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">地球外文明探査の歴史を俯瞰する良書。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-01-30">2016-01-30</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "4166600044" %}} <!-- ファースト・コンタクト -->

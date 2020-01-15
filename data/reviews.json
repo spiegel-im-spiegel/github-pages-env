@@ -90,13 +90,17 @@
       "Type": "paapi",
       "ID": "B074CKDQGB",
       "Title": "ご注文はうさぎですか？",
-      "URL": "https://www.amazon.co.jp/%E3%81%94%E6%B3%A8%E6%96%87%E3%81%AF%E3%81%86%E3%81%95%E3%81%8E%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F/dp/B074CKDQGB?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B074CKDQGB",
+      "URL": "https://www.amazon.co.jp/dp/B074CKDQGB?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/61SVhz1msFL._SL160_.jpg",
-        "Height": 151,
-        "Width": 160
+        "URL": ""
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "Ｋｏｉ",
+          "Role": "著"
+        }
+      ],
       "Codes": [
         {
           "Name": "ASIN",
@@ -106,17 +110,17 @@
       "PublicationDate": "",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
     "Date": "2016-07-23",
-    "Rating": 4,
+    "Rating": 0,
     "Star": [
-      true,
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
       false
     ],
     "Description": "可愛らしい作品。2巻ではチマメ隊がシストで遊ぶ回がある。楽しそう！"
@@ -126,14 +130,22 @@
       "Type": "paapi",
       "ID": "B07TSZZPWN",
       "Title": "フルスクラッチから1日でCMSを作る_シェルスクリプト高速開発手法入門 改訂2版 (アスキードワンゴ)",
-      "URL": "https://www.amazon.co.jp/%E3%83%95%E3%83%AB%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%83%E3%83%81%E3%81%8B%E3%82%891%E6%97%A5%E3%81%A7CMS%E3%82%92%E4%BD%9C%E3%82%8B_%E3%82%B7%E3%82%A7%E3%83%AB%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E9%AB%98%E9%80%9F%E9%96%8B%E7%99%BA%E6%89%8B%E6%B3%95%E5%85%A5%E9%96%80-%E6%94%B9%E8%A8%822%E7%89%88-%E3%82%A2%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%89%E3%83%AF%E3%83%B3%E3%82%B4-%E4%B8%8A%E7%94%B0-%E9%9A%86%E4%B8%80-ebook/dp/B07TSZZPWN?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B07TSZZPWN",
+      "URL": "https://www.amazon.co.jp/dp/B07TSZZPWN?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51H%2B4kUhbFL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51H+4kUhbFL._SL160_.jpg",
         "Height": 160,
         "Width": 121
       },
       "ProductType": "Kindle版",
       "Creators": [
+        {
+          "Name": "上田 隆一",
+          "Role": "著"
+        },
+        {
+          "Name": "後藤 大地",
+          "Role": "著"
+        },
         {
           "Name": "ＵＳＰ研究所",
           "Role": "監修"
@@ -149,7 +161,7 @@
       "PublicationDate": "2019-07-05",
       "LastRelease": "2019-07-05",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -205,13 +217,19 @@
       "Type": "paapi",
       "ID": "B00CZ711QS",
       "Title": "HTML5　スタンダード・デザインガイド～Webサイト制作者のためのビジュアル・リファレンス＆セマンティクスによるコンテンツデザインガイド～ [リフロー版]",
-      "URL": "https://www.amazon.co.jp/HTML5-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%83%BB%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%82%AC%E3%82%A4%E3%83%89%EF%BD%9EWeb%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C%E8%80%85%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB%E3%83%BB%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9%EF%BC%86%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%82%AC%E3%82%A4%E3%83%89%EF%BD%9E-%E3%83%AA%E3%83%95%E3%83%AD%E3%83%BC%E7%89%88-%E3%82%A8%E3%83%BB%E3%83%93%E3%82%B9%E3%82%B3%E3%83%A0%E3%83%BB%E3%83%86%E3%83%83%E3%82%AF%E3%83%BB%E3%83%A9%E3%83%9C-ebook/dp/B00CZ711QS?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00CZ711QS",
+      "URL": "https://www.amazon.co.jp/dp/B00CZ711QS?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51918WvpWNL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51918WvpWNL._SL160_.jpg",
         "Height": 160,
         "Width": 124
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "エ・ビスコム・テック・ラボ",
+          "Role": "著"
+        }
+      ],
       "Publisher": "マイナビ出版",
       "Codes": [
         {
@@ -222,7 +240,7 @@
       "PublicationDate": "2013-02-14",
       "LastRelease": "2013-02-14",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -616,13 +634,17 @@
       "Type": "paapi",
       "ID": "B074CH93XJ",
       "Title": "ひだまりスケッチ",
-      "URL": "https://www.amazon.co.jp/%E3%81%B2%E3%81%A0%E3%81%BE%E3%82%8A%E3%82%B9%E3%82%B1%E3%83%83%E3%83%81/dp/B074CH93XJ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B074CH93XJ",
+      "URL": "https://www.amazon.co.jp/dp/B074CH93XJ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/61aKX8ZdskL._SL160_.jpg",
-        "Height": 149,
-        "Width": 160
+        "URL": ""
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "蒼樹うめ",
+          "Role": "著"
+        }
+      ],
       "Codes": [
         {
           "Name": "ASIN",
@@ -632,17 +654,17 @@
       "PublicationDate": "",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
     "Date": "2016-07-10",
-    "Rating": 4,
+    "Rating": 0,
     "Star": [
-      true,
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
       false
     ],
     "Description": "そういえば紙の本は捨てちゃったんだよな。 Kindle で買い直さないと。"
@@ -652,13 +674,17 @@
       "Type": "paapi",
       "ID": "B07H5TLTJ4",
       "Title": "乙女アトラス",
-      "URL": "https://www.amazon.co.jp/%E4%B9%99%E5%A5%B3%E3%82%A2%E3%83%88%E3%83%A9%E3%82%B9/dp/B07H5TLTJ4?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B07H5TLTJ4",
+      "URL": "https://www.amazon.co.jp/dp/B07H5TLTJ4?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/61FVYv8mxjL._SL160_.jpg",
-        "Height": 116,
-        "Width": 160
+        "URL": ""
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "竹本泉",
+          "Role": "著"
+        }
+      ],
       "Codes": [
         {
           "Name": "ASIN",
@@ -668,18 +694,18 @@
       "PublicationDate": "",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
     "Date": "2016-07-10",
-    "Rating": 5,
+    "Rating": 0,
     "Star": [
-      true,
-      true,
-      true,
-      true,
-      true
+      false,
+      false,
+      false,
+      false,
+      false
     ],
     "Description": "地球人も宇宙から見れば non-human person（笑）"
   },
@@ -1158,13 +1184,19 @@
       "Type": "paapi",
       "ID": "B00C41BSHM",
       "Title": "超人ロック　ミラーリング access.1　Locke The Superman　Mirror Ring 1 (エムエフコミックス　フラッパーシリーズ)",
-      "URL": "https://www.amazon.co.jp/%E8%B6%85%E4%BA%BA%E3%83%AD%E3%83%83%E3%82%AF-%E3%83%9F%E3%83%A9%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0-access-1-Locke-Superman-Mirror-Ring-%E3%82%A8%E3%83%A0%E3%82%A8%E3%83%95%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E3%83%95%E3%83%A9%E3%83%83%E3%83%91%E3%83%BC%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-ebook/dp/B00C41BSHM?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00C41BSHM",
+      "URL": "https://www.amazon.co.jp/dp/B00C41BSHM?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51Sunuy6dwL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51Sunuy6dwL._SL160_.jpg",
         "Height": 160,
         "Width": 109
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "聖 悠紀",
+          "Role": "著"
+        }
+      ],
       "Publisher": "KADOKAWA",
       "Codes": [
         {
@@ -1175,7 +1207,7 @@
       "PublicationDate": "2013-04-05",
       "LastRelease": "2013-04-05",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -1387,13 +1419,17 @@
       "Type": "paapi",
       "ID": "B0756XN84P",
       "Title": "マップス",
-      "URL": "https://www.amazon.co.jp/%E3%83%9E%E3%83%83%E3%83%97%E3%82%B9/dp/B0756XN84P?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B0756XN84P",
+      "URL": "https://www.amazon.co.jp/dp/B0756XN84P?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/61mqSfwnOzL._SL160_.jpg",
-        "Height": 149,
-        "Width": 160
+        "URL": ""
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "長谷川 裕一",
+          "Role": "著"
+        }
+      ],
       "Codes": [
         {
           "Name": "ASIN",
@@ -1403,18 +1439,18 @@
       "PublicationDate": "",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
     "Date": "2017-12-19",
-    "Rating": 5,
+    "Rating": 0,
     "Star": [
-      true,
-      true,
-      true,
-      true,
-      true
+      false,
+      false,
+      false,
+      false,
+      false
     ],
     "Description": "20世紀を代表するスペースオペラ漫画（のひとつ）"
   },
@@ -1517,13 +1553,19 @@
       "Type": "paapi",
       "ID": "B00005EWJM",
       "Title": "ボヘミアの森から",
-      "URL": "https://www.amazon.co.jp/%E3%83%9C%E3%83%98%E3%83%9F%E3%82%A2%E3%81%AE%E6%A3%AE%E3%81%8B%E3%82%89-%E3%82%A4%E3%83%AB%E3%82%AB/dp/B00005EWJM?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00005EWJM",
+      "URL": "https://www.amazon.co.jp/dp/B00005EWJM?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51%2Bt-3PwozL._SL160_.jpg",
-        "Height": 141,
+        "URL": "https://m.media-amazon.com/images/I/31XNRCbLtCL._SL160_.jpg",
+        "Height": 120,
         "Width": 160
       },
       "ProductType": "CD",
+      "Creators": [
+        {
+          "Name": "イルカ",
+          "Role": "アーティスト"
+        }
+      ],
       "Publisher": "日本クラウン",
       "Codes": [
         {
@@ -1538,7 +1580,7 @@
       "PublicationDate": "",
       "LastRelease": "1995-11-01",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -1558,14 +1600,18 @@
       "Type": "paapi",
       "ID": "B00AF0YG28",
       "Title": "賢者の贈り物",
-      "URL": "https://www.amazon.co.jp/%E8%B3%A2%E8%80%85%E3%81%AE%E8%B4%88%E3%82%8A%E7%89%A9-%E3%82%AA%E3%83%BC%E3%83%BB%E3%83%98%E3%83%B3%E3%83%AA%E3%83%BC-ebook/dp/B00AF0YG28?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00AF0YG28",
+      "URL": "https://www.amazon.co.jp/dp/B00AF0YG28?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41PD5ldEqTL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41PD5ldEqTL._SL160_.jpg",
         "Height": 160,
         "Width": 100
       },
       "ProductType": "Kindle版",
       "Creators": [
+        {
+          "Name": "オー・ヘンリー",
+          "Role": "著"
+        },
         {
           "Name": "結城浩",
           "Role": "翻訳"
@@ -1581,7 +1627,7 @@
       "PublicationDate": "2012-11-28",
       "LastRelease": "2012-11-28",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -1703,9 +1749,9 @@
       "Type": "paapi",
       "ID": "4416716516",
       "Title": "天文年鑑 2017年版",
-      "URL": "https://www.amazon.co.jp/%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%91-2017%E5%B9%B4%E7%89%88-%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%91%E7%B7%A8%E9%9B%86%E5%A7%94%E5%93%A1%E4%BC%9A/dp/4416716516?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4416716516",
+      "URL": "https://www.amazon.co.jp/dp/4416716516?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51ezt8lG9OL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51ezt8lG9OL._SL160_.jpg",
         "Height": 160,
         "Width": 112
       },
@@ -1725,12 +1771,16 @@
         {
           "Name": "EAN",
           "Value": "9784416716519"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4416716516"
         }
       ],
       "PublicationDate": "2016-11-18",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -1801,13 +1851,21 @@
       "Type": "paapi",
       "ID": "B00WS87F6E",
       "Title": "[まとめ買い] イヴの時間（デジタル版ヤングガンガンコミックス）",
-      "URL": "https://www.amazon.co.jp/%E3%81%BE%E3%81%A8%E3%82%81%E8%B2%B7%E3%81%84-%E3%82%A4%E3%83%B4%E3%81%AE%E6%99%82%E9%96%93%EF%BC%88%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E7%89%88%E3%83%A4%E3%83%B3%E3%82%B0%E3%82%AC%E3%83%B3%E3%82%AC%E3%83%B3%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%EF%BC%89/dp/B00WS87F6E?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00WS87F6E",
+      "URL": "https://www.amazon.co.jp/dp/B00WS87F6E?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/D1thZQuixAS._SL160_.png",
-        "Height": 151,
-        "Width": 160
+        "URL": ""
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "吉浦康裕",
+          "Role": "著"
+        },
+        {
+          "Name": "太田優姫",
+          "Role": "著"
+        }
+      ],
       "Codes": [
         {
           "Name": "ASIN",
@@ -1817,17 +1875,17 @@
       "PublicationDate": "",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
     "Date": "2016-08-18",
-    "Rating": 4,
+    "Rating": 0,
     "Star": [
-      true,
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
       false
     ],
     "Description": "同名アニメーション作品のコミカライズ。ヒトとロボットが交わる時間。"
@@ -1837,14 +1895,16 @@
       "Type": "paapi",
       "ID": "B013UQUH80",
       "Title": "[まとめ買い] キカイダー02（角川コミックス・エース）",
-      "URL": "https://www.amazon.co.jp/%E3%81%BE%E3%81%A8%E3%82%81%E8%B2%B7%E3%81%84-%E3%82%AD%E3%82%AB%E3%82%A4%E3%83%80%E3%83%BC02%EF%BC%88%E8%A7%92%E5%B7%9D%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%E3%83%BB%E3%82%A8%E3%83%BC%E3%82%B9%EF%BC%89/dp/B013UQUH80?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B013UQUH80",
+      "URL": "https://www.amazon.co.jp/dp/B013UQUH80?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/C1RBaQMQg4S._SL160_.png",
-        "Height": 151,
-        "Width": 160
+        "URL": ""
       },
       "ProductType": "Kindle版",
       "Creators": [
+        {
+          "Name": "ＭＥＩＭＵ",
+          "Role": "著"
+        },
         {
           "Name": "石ノ森 章太郎",
           "Role": "その他"
@@ -1859,17 +1919,17 @@
       "PublicationDate": "",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
     "Date": "2016-08-18",
-    "Rating": 4,
+    "Rating": 0,
     "Star": [
-      true,
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
       false
     ],
     "Description": "「キカイダー」を神秘学的視点で再解釈する（笑）"
@@ -1879,13 +1939,19 @@
       "Type": "paapi",
       "ID": "B009HO50XC",
       "Title": "考えるヒント",
-      "URL": "https://www.amazon.co.jp/%E8%80%83%E3%81%88%E3%82%8B%E3%83%92%E3%83%B3%E3%83%88-%E5%B0%8F%E6%9E%97-%E7%A7%80%E9%9B%84-ebook/dp/B009HO50XC?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B009HO50XC",
+      "URL": "https://www.amazon.co.jp/dp/B009HO50XC?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41LkjyVMoKL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41LkjyVMoKL._SL160_.jpg",
         "Height": 160,
         "Width": 111
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "小林 秀雄",
+          "Role": "著"
+        }
+      ],
       "Publisher": "文藝春秋",
       "Codes": [
         {
@@ -1896,7 +1962,7 @@
       "PublicationDate": "1974-06-25",
       "LastRelease": "2012-09-20",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -2412,13 +2478,19 @@
       "Type": "paapi",
       "ID": "B00L0PDMIQ",
       "Title": "数学ガールの秘密ノート／式とグラフ",
-      "URL": "https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E5%BC%8F%E3%81%A8%E3%82%B0%E3%83%A9%E3%83%95-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00L0PDMIQ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00L0PDMIQ",
+      "URL": "https://www.amazon.co.jp/dp/B00L0PDMIQ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41yiQ7I2sLL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41yiQ7I2sLL._SL160_.jpg",
         "Height": 160,
         "Width": 112
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "結城 浩",
+          "Role": "著"
+        }
+      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -2429,7 +2501,7 @@
       "PublicationDate": "2013-07-12",
       "LastRelease": "2014-07-24",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -2449,13 +2521,19 @@
       "Type": "paapi",
       "ID": "B07L616SP6",
       "Title": "6代目 日ペンの美子ちゃん",
-      "URL": "https://www.amazon.co.jp/6%E4%BB%A3%E7%9B%AE-%E6%97%A5%E3%83%9A%E3%83%B3%E3%81%AE%E7%BE%8E%E5%AD%90%E3%81%A1%E3%82%83%E3%82%93-%E6%9C%8D%E9%83%A8-%E6%98%87%E5%A4%A7-ebook/dp/B07L616SP6?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B07L616SP6",
+      "URL": "https://www.amazon.co.jp/dp/B07L616SP6?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41v64QozUhL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41v64QozUhL._SL160_.jpg",
         "Height": 160,
         "Width": 113
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "服部 昇大",
+          "Role": "著"
+        }
+      ],
       "Publisher": "一迅社",
       "Codes": [
         {
@@ -2466,7 +2544,7 @@
       "PublicationDate": "2018-12-12",
       "LastRelease": "2018-12-12",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -2800,14 +2878,18 @@
       "Type": "paapi",
       "ID": "B009LFBL4Y",
       "Title": "グーグル　ネット覇者の真実",
-      "URL": "https://www.amazon.co.jp/%E3%82%B0%E3%83%BC%E3%82%B0%E3%83%AB-%E3%83%8D%E3%83%83%E3%83%88%E8%A6%87%E8%80%85%E3%81%AE%E7%9C%9F%E5%AE%9F-%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%83%96%E3%83%B3%E3%83%BB%E3%83%AC%E3%83%B4%E3%82%A3-ebook/dp/B009LFBL4Y?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B009LFBL4Y",
+      "URL": "https://www.amazon.co.jp/dp/B009LFBL4Y?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/412TwuSJT1L._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/412TwuSJT1L._SL160_.jpg",
         "Height": 160,
         "Width": 114
       },
       "ProductType": "Kindle版",
       "Creators": [
+        {
+          "Name": "スティーブン・レヴィ",
+          "Role": "著"
+        },
         {
           "Name": "仲達志；池村千秋",
           "Role": "翻訳"
@@ -2823,16 +2905,16 @@
       "PublicationDate": "2011-12-16",
       "LastRelease": "2012-08-31",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
     "Date": "2018-12-11",
-    "Rating": 3,
+    "Rating": 0,
     "Star": [
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
       false,
       false
     ],
@@ -2886,14 +2968,18 @@
       "Type": "paapi",
       "ID": "B07FY7S5YR",
       "Title": "もう、いいでしょう。　1話 (アマゾナイトノベルズ)",
-      "URL": "https://www.amazon.co.jp/%E3%82%82%E3%81%86%E3%80%81%E3%81%84%E3%81%84%E3%81%A7%E3%81%97%E3%82%87%E3%81%86%E3%80%82-1%E8%A9%B1-%E3%82%A2%E3%83%9E%E3%82%BE%E3%83%8A%E3%82%A4%E3%83%88%E3%83%8E%E3%83%99%E3%83%AB%E3%82%BA-%E7%B6%BE%E7%80%AC-%E7%B4%97%E8%91%B5-ebook/dp/B07FY7S5YR?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B07FY7S5YR",
+      "URL": "https://www.amazon.co.jp/dp/B07FY7S5YR?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/519nUKtC2RL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/519nUKtC2RL._SL160_.jpg",
         "Height": 160,
         "Width": 113
       },
       "ProductType": "Kindle版",
       "Creators": [
+        {
+          "Name": "綾瀬 紗葵",
+          "Role": "著"
+        },
         {
           "Name": "笠井",
           "Role": "イラスト"
@@ -2909,20 +2995,20 @@
       "PublicationDate": "2018-11-30",
       "LastRelease": "2018-11-30",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
     "Date": "2018-12-04",
-    "Rating": 4,
+    "Rating": 0,
     "Star": [
-      true,
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
       false
     ],
-    "Description": "\u003ca href=\"https://ncode.syosetu.com/n4435dj/\"\u003e同名 Web 小説\u003c/a\u003eの Kindle 化。 Kindle unlimited で読める。内容が微妙にアレなので子どもにはオススメしない（内容について親が聞かれたら確実に困惑するだろうw）。いわゆる「ざまぁ」な展開が好きな人には大好物な作品かもしれない。"
+    "Description": "\u003ca href=\"https://ncode.syosetu.com/n4435dj/\"\u003e同名 Web 小説\u003c/a\u003eの Kindle 化。内容が微妙にアレなので子どもにはオススメしない（内容について親が聞かれたら確実に困惑するだろうw）。いわゆる「ざまぁ」な展開が好きな人には大好物な作品かもしれない。"
   },
   {
     "Book": {
@@ -3208,13 +3294,19 @@
       "Type": "paapi",
       "ID": "B00I8AT1D6",
       "Title": "数学ガール／ゲーデルの不完全性定理",
-      "URL": "https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%EF%BC%8F%E3%82%B2%E3%83%BC%E3%83%87%E3%83%AB%E3%81%AE%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%80%A7%E5%AE%9A%E7%90%86-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00I8AT1D6?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00I8AT1D6",
+      "URL": "https://www.amazon.co.jp/dp/B00I8AT1D6?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41I26OVyotL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41I26OVyotL._SL160_.jpg",
         "Height": 160,
         "Width": 113
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "結城 浩",
+          "Role": "著"
+        }
+      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -3225,11 +3317,11 @@
       "PublicationDate": "2009-10-23",
       "LastRelease": "2014-03-12",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2018-10-21",
+    "Date": "2014-10-21",
     "Rating": 5,
     "Star": [
       true,
@@ -3245,13 +3337,19 @@
       "Type": "paapi",
       "ID": "B00AXUD4MS",
       "Title": "数学ガール　ゲーデルの不完全性定理　1 (MFコミックス　アライブシリーズ)",
-      "URL": "https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB-%E3%82%B2%E3%83%BC%E3%83%87%E3%83%AB%E3%81%AE%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%80%A7%E5%AE%9A%E7%90%86-1-MF%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E3%82%A2%E3%83%A9%E3%82%A4%E3%83%96%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-%E8%8C%89%E5%B4%8E-%E3%83%9F%E3%83%A6%E3%82%AD-ebook/dp/B00AXUD4MS?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00AXUD4MS",
+      "URL": "https://www.amazon.co.jp/dp/B00AXUD4MS?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51Hz%2BE6YF0L._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51Hz+E6YF0L._SL160_.jpg",
         "Height": 160,
         "Width": 113
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "茉崎 ミユキ",
+          "Role": "著"
+        }
+      ],
       "Publisher": "KADOKAWA",
       "Codes": [
         {
@@ -3262,11 +3360,11 @@
       "PublicationDate": "2012-11-01",
       "LastRelease": "2012-12-19",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2018-10-21",
+    "Date": "2014-10-21",
     "Rating": 4,
     "Star": [
       true,
@@ -3439,14 +3537,38 @@
       "Type": "paapi",
       "ID": "477418392X",
       "Title": "みんなのGo言語【現場で使える実践テクニック】",
-      "URL": "https://www.amazon.co.jp/%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AEGo%E8%A8%80%E8%AA%9E%E3%80%90%E7%8F%BE%E5%A0%B4%E3%81%A7%E4%BD%BF%E3%81%88%E3%82%8B%E5%AE%9F%E8%B7%B5%E3%83%86%E3%82%AF%E3%83%8B%E3%83%83%E3%82%AF%E3%80%91-%E6%9D%BE%E6%9C%A8%E9%9B%85%E5%B9%B8/dp/477418392X?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=477418392X",
+      "URL": "https://www.amazon.co.jp/dp/477418392X?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/61EL3Dc95dL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/61EL3Dc95dL._SL160_.jpg",
         "Height": 160,
         "Width": 113
       },
       "ProductType": "大型本",
       "Creators": [
+        {
+          "Name": "松木雅幸",
+          "Role": "著"
+        },
+        {
+          "Name": "mattn",
+          "Role": "著"
+        },
+        {
+          "Name": "藤原俊一郎",
+          "Role": "著"
+        },
+        {
+          "Name": "中島大一",
+          "Role": "著"
+        },
+        {
+          "Name": "牧 大輔",
+          "Role": "著"
+        },
+        {
+          "Name": "鈴木健太",
+          "Role": "著"
+        },
         {
           "Name": "稲葉貴洋",
           "Role": "イラスト"
@@ -3461,12 +3583,16 @@
         {
           "Name": "EAN",
           "Value": "9784774183923"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "477418392X"
         }
       ],
       "PublicationDate": "2016-09-09",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -3478,7 +3604,8 @@
       true,
       true,
       false
-    ]
+    ],
+    "Description": "リファレンス本なのに索引が貧弱。これなら Kindle で買ってもよかったか。 1.7 への言及があるのはよかった。"
   },
   {
     "Book": {
@@ -3528,13 +3655,19 @@
       "Type": "paapi",
       "ID": "B00JGIN6YE",
       "Title": "デジタル時代の著作権 (ちくま新書)",
-      "URL": "https://www.amazon.co.jp/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%99%82%E4%BB%A3%E3%81%AE%E8%91%97%E4%BD%9C%E6%A8%A9-%E3%81%A1%E3%81%8F%E3%81%BE%E6%96%B0%E6%9B%B8-%E9%87%8E%E5%8F%A3%E7%A5%90%E5%AD%90-ebook/dp/B00JGIN6YE?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00JGIN6YE",
+      "URL": "https://www.amazon.co.jp/dp/B00JGIN6YE?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41VYJQtYVYL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41VYJQtYVYL._SL160_.jpg",
         "Height": 160,
         "Width": 99
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "野口祐子",
+          "Role": "著"
+        }
+      ],
       "Publisher": "筑摩書房",
       "Codes": [
         {
@@ -3545,7 +3678,7 @@
       "PublicationDate": "2010-10-05",
       "LastRelease": "2014-04-11",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -3641,12 +3774,12 @@
       }
     },
     "Date": "2017-12-28",
-    "Rating": 4,
+    "Rating": 0,
     "Star": [
-      true,
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
       false
     ],
     "Description": "「エレナ」続編。分散 AI といえばこれだよね。"
@@ -4540,13 +4673,19 @@
       "Type": "paapi",
       "ID": "B0096I6YD4",
       "Title": "ゆめのかよいじ (ニュータイプ100%コミックス)",
-      "URL": "https://www.amazon.co.jp/%E3%82%86%E3%82%81%E3%81%AE%E3%81%8B%E3%82%88%E3%81%84%E3%81%98-%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%97100%25%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E5%A4%A7%E9%87%8E-%E5%AE%89%E4%B9%8B-ebook/dp/B0096I6YD4?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B0096I6YD4",
+      "URL": "https://www.amazon.co.jp/dp/B0096I6YD4?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/519n5WuN-FL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/519n5WuN-FL._SL160_.jpg",
         "Height": 160,
         "Width": 110
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "大野 安之",
+          "Role": "著"
+        }
+      ],
       "Publisher": "KADOKAWA",
       "Codes": [
         {
@@ -4557,7 +4696,7 @@
       "PublicationDate": "2011-12-01",
       "LastRelease": "2012-09-01",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -4577,13 +4716,19 @@
       "Type": "paapi",
       "ID": "4835400941",
       "Title": "すくらっぷ・ブック１巻 (小山田いく選集３)",
-      "URL": "https://www.amazon.co.jp/%E3%81%99%E3%81%8F%E3%82%89%E3%81%A3%E3%81%B7%E3%83%BB%E3%83%96%E3%83%83%E3%82%AF%EF%BC%91%E5%B7%BB-%E5%B0%8F%E5%B1%B1%E7%94%B0%E3%81%84%E3%81%8F%E9%81%B8%E9%9B%86%EF%BC%93-%E5%B0%8F%E5%B1%B1%E7%94%B0-%E3%81%84%E3%81%8F/dp/4835400941?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4835400941",
+      "URL": "https://www.amazon.co.jp/dp/4835400941?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51--YN7-K2L._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51--YN7-K2L._SL160_.jpg",
         "Height": 160,
         "Width": 111
       },
       "ProductType": "オンデマンド (ペーパーバック)",
+      "Creators": [
+        {
+          "Name": "小山田 いく",
+          "Role": "著"
+        }
+      ],
       "Publisher": "復刊ドットコム",
       "Codes": [
         {
@@ -4593,12 +4738,16 @@
         {
           "Name": "EAN",
           "Value": "9784835400945"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4835400941"
         }
       ],
       "PublicationDate": "2006-07-10",
       "LastRelease": "2006-07-10",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -4665,13 +4814,19 @@
       "Type": "paapi",
       "ID": "4166600044",
       "Title": "ファースト・コンタクト―地球外知性体と出会う日 (文春新書)",
-      "URL": "https://www.amazon.co.jp/%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%83%BB%E3%82%B3%E3%83%B3%E3%82%BF%E3%82%AF%E3%83%88%E2%80%95%E5%9C%B0%E7%90%83%E5%A4%96%E7%9F%A5%E6%80%A7%E4%BD%93%E3%81%A8%E5%87%BA%E4%BC%9A%E3%81%86%E6%97%A5-%E6%96%87%E6%98%A5%E6%96%B0%E6%9B%B8-%E9%87%91%E5%AD%90-%E9%9A%86%E4%B8%80/dp/4166600044?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4166600044",
+      "URL": "https://www.amazon.co.jp/dp/4166600044?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41GPXP2HRVL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41GPXP2HRVL._SL160_.jpg",
         "Height": 160,
         "Width": 100
       },
       "ProductType": "新書",
+      "Creators": [
+        {
+          "Name": "金子 隆一",
+          "Role": "著"
+        }
+      ],
       "Publisher": "文藝春秋",
       "Codes": [
         {
@@ -4681,12 +4836,16 @@
         {
           "Name": "EAN",
           "Value": "9784166600045"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4166600044"
         }
       ],
-      "PublicationDate": "",
+      "PublicationDate": "1998-10-01",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -4706,32 +4865,34 @@
       "Type": "paapi",
       "ID": "B00FONW2V8",
       "Title": "UNDERGROUND MARKET　ヒステリアン・ケース",
-      "URL": "https://www.amazon.co.jp/UNDERGROUND-MARKET-%E3%83%92%E3%82%B9%E3%83%86%E3%83%AA%E3%82%A2%E3%83%B3%E3%83%BB%E3%82%B1%E3%83%BC%E3%82%B9-%E8%97%A4%E4%BA%95%E5%A4%AA%E6%B4%8B-ebook/dp/B00FONW2V8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00FONW2V8",
+      "URL": "https://www.amazon.co.jp/dp/B00FONW2V8?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51AT2LqRIsL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51AT2LqRIsL._SL160_.jpg",
         "Height": 160,
         "Width": 116
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "藤井太洋",
+          "Role": "著"
+        }
+      ],
       "Publisher": "朝日新聞出版",
       "Codes": [
         {
           "Name": "ASIN",
           "Value": "B00FONW2V8"
-        },
-        {
-          "Name": "EISBN",
-          "Value": "9784022922427"
         }
       ],
       "PublicationDate": "2013-11-07",
       "LastRelease": "2013-10-25",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2018-02-04",
+    "Date": "2016-01-07",
     "Rating": 5,
     "Star": [
       true,
@@ -4747,13 +4908,17 @@
       "Type": "paapi",
       "ID": "B074CJ5VJJ",
       "Title": "銀子の窓口",
-      "URL": "https://www.amazon.co.jp/%E9%8A%80%E5%AD%90%E3%81%AE%E7%AA%93%E5%8F%A3/dp/B074CJ5VJJ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B074CJ5VJJ",
+      "URL": "https://www.amazon.co.jp/dp/B074CJ5VJJ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51UmNb4fC8L._SL160_.jpg",
-        "Height": 151,
-        "Width": 160
+        "URL": ""
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "唐草ミチル",
+          "Role": "著"
+        }
+      ],
       "Codes": [
         {
           "Name": "ASIN",
@@ -4763,17 +4928,17 @@
       "PublicationDate": "",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
     "Date": "2016-01-07",
-    "Rating": 4,
+    "Rating": 0,
     "Star": [
-      true,
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
       false
     ],
     "Description": "金融界のクール・ビューティ（笑）"
@@ -5069,12 +5234,12 @@
       }
     },
     "Date": "2015-04-26",
-    "Rating": 4,
+    "Rating": 0,
     "Star": [
-      true,
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
       false
     ],
     "Description": "犬になっても本を読む！"
@@ -5084,9 +5249,9 @@
       "Type": "paapi",
       "ID": "4416114710",
       "Title": "天文年鑑2015年版",
-      "URL": "https://www.amazon.co.jp/%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%912015%E5%B9%B4%E7%89%88-%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%91%E7%B7%A8%E9%9B%86%E5%A7%94%E5%93%A1%E4%BC%9A/dp/4416114710?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4416114710",
+      "URL": "https://www.amazon.co.jp/dp/4416114710?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41YtBYY7%2B6L._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41YtBYY7+6L._SL160_.jpg",
         "Height": 160,
         "Width": 112
       },
@@ -5106,12 +5271,16 @@
         {
           "Name": "EAN",
           "Value": "9784416114711"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4416114710"
         }
       ],
       "PublicationDate": "2014-11-17",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -5131,13 +5300,19 @@
       "Type": "paapi",
       "ID": "B00CZCW9BE",
       "Title": "思春期ポストモダン　成熟はいかにして可能か",
-      "URL": "https://www.amazon.co.jp/%E6%80%9D%E6%98%A5%E6%9C%9F%E3%83%9D%E3%82%B9%E3%83%88%E3%83%A2%E3%83%80%E3%83%B3-%E6%88%90%E7%86%9F%E3%81%AF%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%8F%AF%E8%83%BD%E3%81%8B-%E6%96%8E%E8%97%A4%E7%92%B0-ebook/dp/B00CZCW9BE?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00CZCW9BE",
+      "URL": "https://www.amazon.co.jp/dp/B00CZCW9BE?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41H4JSiPBYL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41H4JSiPBYL._SL160_.jpg",
         "Height": 160,
         "Width": 101
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "斎藤環",
+          "Role": "著"
+        }
+      ],
       "Publisher": "幻冬舎",
       "Codes": [
         {
@@ -5148,18 +5323,18 @@
       "PublicationDate": "",
       "LastRelease": "2013-05-31",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
     "Date": "2015-11-14",
-    "Rating": 5,
+    "Rating": 4,
     "Star": [
       true,
       true,
       true,
       true,
-      true
+      false
     ],
     "Description": "終わらない思春期の2つのモードについて。"
   },
@@ -5251,13 +5426,17 @@
       "Type": "paapi",
       "ID": "B074C53545",
       "Title": "北欧女子オーサが見つけた日本の不思議",
-      "URL": "https://www.amazon.co.jp/%E5%8C%97%E6%AC%A7%E5%A5%B3%E5%AD%90%E3%82%AA%E3%83%BC%E3%82%B5%E3%81%8C%E8%A6%8B%E3%81%A4%E3%81%91%E3%81%9F%E6%97%A5%E6%9C%AC%E3%81%AE%E4%B8%8D%E6%80%9D%E8%AD%B0/dp/B074C53545?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B074C53545",
+      "URL": "https://www.amazon.co.jp/dp/B074C53545?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/61BBxBeJC0L._SL160_.jpg",
-        "Height": 151,
-        "Width": 160
+        "URL": ""
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "オーサ・イェークストロム",
+          "Role": "著"
+        }
+      ],
       "Codes": [
         {
           "Name": "ASIN",
@@ -5267,17 +5446,17 @@
       "PublicationDate": "",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2019-02-11",
-    "Rating": 4,
+    "Date": "2015-11-08",
+    "Rating": 0,
     "Star": [
-      true,
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
       false
     ],
     "Description": "\u003ca href=\"https://ameblo.jp/hokuoujoshi/\" title=\"北欧女子オーサ オフィシャルブログ「北欧女子が見つけた日本の不思議」\"\u003e同名サイト\u003c/a\u003eで連載されていた漫画の書籍化。感想は\u003ca href=\"https://medium.com/manga-magazine/-388cac939eb6\"\u003eこちら\u003c/a\u003e。"
@@ -5287,14 +5466,18 @@
       "Type": "paapi",
       "ID": "B00O1VK072",
       "Title": "われはロボット〔決定版〕",
-      "URL": "https://www.amazon.co.jp/%E3%82%8F%E3%82%8C%E3%81%AF%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E3%80%94%E6%B1%BA%E5%AE%9A%E7%89%88%E3%80%95-%E3%82%A2%E3%82%A4%E3%82%B6%E3%83%83%E3%82%AF-%E3%82%A2%E3%82%B7%E3%83%A2%E3%83%95-ebook/dp/B00O1VK072?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00O1VK072",
+      "URL": "https://www.amazon.co.jp/dp/B00O1VK072?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51UzGYXJ70L._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51UzGYXJ70L._SL160_.jpg",
         "Height": 160,
         "Width": 108
       },
       "ProductType": "Kindle版",
       "Creators": [
+        {
+          "Name": "アイザック アシモフ",
+          "Role": "著"
+        },
         {
           "Name": "小尾芙佐",
           "Role": "翻訳"
@@ -5310,7 +5493,7 @@
       "PublicationDate": "2014-04-25",
       "LastRelease": "2014-09-30",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -5323,7 +5506,7 @@
       true,
       false
     ],
-    "Description": "ロボットや AI の SF ならこれが古典で定番か？ 面白かったら続けて『\u003ca href=\"https://www.amazon.co.jp/%E9%8B%BC%E9%89%84%E9%83%BD%E5%B8%82-%E3%82%A2%E3%82%A4%E3%82%B6%E3%83%83%E3%82%AF-%E3%82%A2%E3%82%B7%E3%83%A2%E3%83%95-ebook/dp/B00O2O7JFY?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00O2O7JFY\"\u003e鋼鉄都市\u003c/a\u003e』も読むとよい。"
+    "Description": "ロボットや AI の SF ならこれが古典で定番か？ 面白かったら続けて『\u003ca href=\"https://www.amazon.co.jp/dp/B00O2O7JFY?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1\"\u003e鋼鉄都市\u003c/a\u003e』も読むとよい。"
   },
   {
     "Book": {
@@ -5372,13 +5555,19 @@
       "Type": "paapi",
       "ID": "B00E7HMI7U",
       "Title": "環境リスク学",
-      "URL": "https://www.amazon.co.jp/%E7%92%B0%E5%A2%83%E3%83%AA%E3%82%B9%E3%82%AF%E5%AD%A6-%E4%B8%AD%E8%A5%BF%E6%BA%96%E5%AD%90-ebook/dp/B00E7HMI7U?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00E7HMI7U",
+      "URL": "https://www.amazon.co.jp/dp/B00E7HMI7U?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51I9C7cFl2L._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51I9C7cFl2L._SL160_.jpg",
         "Height": 160,
         "Width": 108
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "中西準子",
+          "Role": "著"
+        }
+      ],
       "Publisher": "日本評論社",
       "Codes": [
         {
@@ -5389,11 +5578,11 @@
       "PublicationDate": "",
       "LastRelease": "2013-08-01",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2016-02-03",
+    "Date": "2015-07-26",
     "Rating": 4,
     "Star": [
       true,
@@ -5409,13 +5598,19 @@
       "Type": "paapi",
       "ID": "4641280304",
       "Title": "リスクとつきあう―危険な時代のコミュニケーション (有斐閣選書)",
-      "URL": "https://www.amazon.co.jp/%E3%83%AA%E3%82%B9%E3%82%AF%E3%81%A8%E3%81%A4%E3%81%8D%E3%81%82%E3%81%86%E2%80%95%E5%8D%B1%E9%99%BA%E3%81%AA%E6%99%82%E4%BB%A3%E3%81%AE%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-%E6%9C%89%E6%96%90%E9%96%A3%E9%81%B8%E6%9B%B8-%E5%90%89%E5%B7%9D-%E8%82%87%E5%AD%90/dp/4641280304?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4641280304",
+      "URL": "https://www.amazon.co.jp/dp/4641280304?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/519S1SM2S4L._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/519S1SM2S4L._SL160_.jpg",
         "Height": 160,
         "Width": 110
       },
       "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "吉川 肇子",
+          "Role": "著"
+        }
+      ],
       "Publisher": "有斐閣",
       "Codes": [
         {
@@ -5425,12 +5620,16 @@
         {
           "Name": "EAN",
           "Value": "9784641280304"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4641280304"
         }
       ],
-      "PublicationDate": "",
+      "PublicationDate": "2000-03-01",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -5840,13 +6039,19 @@
       "Type": "paapi",
       "ID": "4797339497",
       "Title": "あなたはコンピュータを理解していますか? 10年後、20年後まで必ず役立つ根っこの部分がきっちりわかる！ (サイエンス･アイ新書)",
-      "URL": "https://www.amazon.co.jp/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AF%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%82%92%E7%90%86%E8%A7%A3%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%81%8B-10%E5%B9%B4%E5%BE%8C%E3%80%8120%E5%B9%B4%E5%BE%8C%E3%81%BE%E3%81%A7%E5%BF%85%E3%81%9A%E5%BD%B9%E7%AB%8B%E3%81%A4%E6%A0%B9%E3%81%A3%E3%81%93%E3%81%AE%E9%83%A8%E5%88%86%E3%81%8C%E3%81%8D%E3%81%A3%E3%81%A1%E3%82%8A%E3%82%8F%E3%81%8B%E3%82%8B%EF%BC%81-%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9%EF%BD%A5%E3%82%A2%E3%82%A4%E6%96%B0%E6%9B%B8-%E6%A2%85%E6%B4%A5-%E4%BF%A1%E5%B9%B8/dp/4797339497?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4797339497",
+      "URL": "https://www.amazon.co.jp/dp/4797339497?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51W3fP3Q%2BtL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51W3fP3Q+tL._SL160_.jpg",
         "Height": 160,
         "Width": 102
       },
       "ProductType": "新書",
+      "Creators": [
+        {
+          "Name": "梅津 信幸",
+          "Role": "著"
+        }
+      ],
       "Publisher": "ソフトバンククリエイティブ",
       "Codes": [
         {
@@ -5856,12 +6061,16 @@
         {
           "Name": "EAN",
           "Value": "9784797339499"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4797339497"
         }
       ],
       "PublicationDate": "2007-03-16",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -5974,13 +6183,19 @@
       "Type": "paapi",
       "ID": "B078TNC8RW",
       "Title": "新・日本の階級社会 (講談社現代新書)",
-      "URL": "https://www.amazon.co.jp/%E6%96%B0%E3%83%BB%E6%97%A5%E6%9C%AC%E3%81%AE%E9%9A%8E%E7%B4%9A%E7%A4%BE%E4%BC%9A-%E8%AC%9B%E8%AB%87%E7%A4%BE%E7%8F%BE%E4%BB%A3%E6%96%B0%E6%9B%B8-%E6%A9%8B%E6%9C%AC%E5%81%A5%E4%BA%8C-ebook/dp/B078TNC8RW?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B078TNC8RW",
+      "URL": "https://www.amazon.co.jp/dp/B078TNC8RW?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51ijGO2LR3L._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51ijGO2LR3L._SL160_.jpg",
         "Height": 160,
         "Width": 98
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "橋本健二",
+          "Role": "著"
+        }
+      ],
       "Publisher": "講談社",
       "Codes": [
         {
@@ -5991,16 +6206,16 @@
       "PublicationDate": "2018-01-16",
       "LastRelease": "2018-01-19",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
     "Date": "2018-03-18",
-    "Rating": 3,
+    "Rating": 0,
     "Star": [
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
       false,
       false
     ],
@@ -6011,13 +6226,19 @@
       "Type": "paapi",
       "ID": "B0791XCYQG",
       "Title": "AI vs. 教科書が読めない子どもたち",
-      "URL": "https://www.amazon.co.jp/AI-vs-%E6%95%99%E7%A7%91%E6%9B%B8%E3%81%8C%E8%AA%AD%E3%82%81%E3%81%AA%E3%81%84%E5%AD%90%E3%81%A9%E3%82%82%E3%81%9F%E3%81%A1-%E6%96%B0%E4%BA%95-%E7%B4%80%E5%AD%90-ebook/dp/B0791XCYQG?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B0791XCYQG",
+      "URL": "https://www.amazon.co.jp/dp/B0791XCYQG?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51twtvqpgZL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51twtvqpgZL._SL160_.jpg",
         "Height": 160,
         "Width": 111
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "新井 紀子",
+          "Role": "著"
+        }
+      ],
       "Publisher": "東洋経済新報社",
       "Codes": [
         {
@@ -6028,7 +6249,7 @@
       "PublicationDate": "2018-02-02",
       "LastRelease": "2018-02-02",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -6048,9 +6269,9 @@
       "Type": "paapi",
       "ID": "B077PDFQ4S",
       "Title": "STARTSIDE 数独 すうどく 脳トレ 卓上 ボード ゲーム 9ブロックパズル (ブラック)",
-      "URL": "https://www.amazon.co.jp/STARTSIDE-%E3%81%99%E3%81%86%E3%81%A9%E3%81%8F-%E8%84%B3%E3%83%88%E3%83%AC-9%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%91%E3%82%BA%E3%83%AB-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF/dp/B077PDFQ4S?psc=1\u0026SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B077PDFQ4S",
+      "URL": "https://www.amazon.co.jp/dp/B077PDFQ4S?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/513eTXxTlJL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/513eTXxTlJL._SL160_.jpg",
         "Height": 139,
         "Width": 160
       },
@@ -6069,7 +6290,7 @@
       "PublicationDate": "",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -6347,13 +6568,19 @@
       "Type": "paapi",
       "ID": "B00L0PDMK4",
       "Title": "数学ガール／ガロア理論",
-      "URL": "https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%EF%BC%8F%E3%82%AC%E3%83%AD%E3%82%A2%E7%90%86%E8%AB%96-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00L0PDMK4?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00L0PDMK4",
+      "URL": "https://www.amazon.co.jp/dp/B00L0PDMK4?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41szGJIR-jL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41szGJIR-jL._SL160_.jpg",
         "Height": 160,
         "Width": 113
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "結城 浩",
+          "Role": "著"
+        }
+      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -6364,7 +6591,7 @@
       "PublicationDate": "2012-05-29",
       "LastRelease": "2014-07-24",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -6427,20 +6654,24 @@
       "Type": "paapi",
       "ID": "4414429145",
       "Title": "嗜癖する人間関係―親密になるのが怖い",
-      "URL": "https://www.amazon.co.jp/%E5%97%9C%E7%99%96%E3%81%99%E3%82%8B%E4%BA%BA%E9%96%93%E9%96%A2%E4%BF%82%E2%80%95%E8%A6%AA%E5%AF%86%E3%81%AB%E3%81%AA%E3%82%8B%E3%81%AE%E3%81%8C%E6%80%96%E3%81%84-%E3%82%A2%E3%83%B3%E3%83%BB%E3%82%A6%E3%82%A3%E3%83%AB%E3%82%BD%E3%83%B3-%E3%82%B7%E3%82%A7%E3%83%95/dp/4414429145?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4414429145",
+      "URL": "https://www.amazon.co.jp/dp/4414429145?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41NXMXRCBVL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41NXMXRCBVL._SL160_.jpg",
         "Height": 160,
         "Width": 110
       },
       "ProductType": "単行本",
       "Creators": [
         {
-          "Name": "Anne Wilson Schaef",
+          "Name": "アン・ウィルソン シェフ",
+          "Role": "著"
+        },
+        {
+          "Name": "Schaef,Anne Wilson",
           "Role": "原著"
         },
         {
-          "Name": "高畠 克子",
+          "Name": "克子, 高畠",
           "Role": "翻訳"
         }
       ],
@@ -6453,16 +6684,20 @@
         {
           "Name": "EAN",
           "Value": "9784414429145"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4414429145"
         }
       ],
-      "PublicationDate": "",
+      "PublicationDate": "1999-01-01",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2019-01-12",
+    "Date": "2014-10-30",
     "Rating": 4,
     "Star": [
       true,
@@ -6503,13 +6738,13 @@
       }
     },
     "Date": "2016-05-06",
-    "Rating": 5,
+    "Rating": 0,
     "Star": [
-      true,
-      true,
-      true,
-      true,
-      true
+      false,
+      false,
+      false,
+      false,
+      false
     ],
     "Description": "「寛政の改暦」のころの伊能勘解由（忠敬）とその妻とされる「おえい」の物語。感想は\u003ca href=\"https://text.baldanders.info/remark/2016/05/nekoyomi/\"\u003eこちら\u003c/a\u003e。"
   },
@@ -6761,14 +6996,22 @@
       "Type": "paapi",
       "ID": "B01IGW5IIW",
       "Title": "リーン開発の現場 カンバンによる大規模プロジェクトの運営",
-      "URL": "https://www.amazon.co.jp/%E3%83%AA%E3%83%BC%E3%83%B3%E9%96%8B%E7%99%BA%E3%81%AE%E7%8F%BE%E5%A0%B4-%E3%82%AB%E3%83%B3%E3%83%90%E3%83%B3%E3%81%AB%E3%82%88%E3%82%8B%E5%A4%A7%E8%A6%8F%E6%A8%A1%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E9%81%8B%E5%96%B6-%EF%BC%A8%EF%BD%85%EF%BD%8E%EF%BD%92%EF%BD%89%EF%BD%8B%EF%BC%AB%EF%BD%8E%EF%BD%89%EF%BD%82%EF%BD%85%EF%BD%92%EF%BD%87-ebook/dp/B01IGW5IIW?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B01IGW5IIW",
+      "URL": "https://www.amazon.co.jp/dp/B01IGW5IIW?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51gC8Tmq1kL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51gC8Tmq1kL._SL160_.jpg",
         "Height": 160,
         "Width": 113
       },
       "ProductType": "Kindle版",
       "Creators": [
+        {
+          "Name": "ＨｅｎｒｉｋＫｎｉｂｅｒｇ",
+          "Role": "著"
+        },
+        {
+          "Name": "角谷信太郎",
+          "Role": "著"
+        },
         {
           "Name": "市谷聡啓",
           "Role": "翻訳"
@@ -6783,20 +7026,16 @@
         {
           "Name": "ASIN",
           "Value": "B01IGW5IIW"
-        },
-        {
-          "Name": "EISBN",
-          "Value": "9784274832963"
         }
       ],
       "PublicationDate": "2013-10-25",
       "LastRelease": "2017-07-15",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2018-12-24",
+    "Date": "2015-02-17",
     "Rating": 4,
     "Star": [
       true,
@@ -6855,13 +7094,27 @@
       "Type": "paapi",
       "ID": "B000I2JEA2",
       "Title": "ほしのこえ(サービスプライス版) [DVD]",
-      "URL": "https://www.amazon.co.jp/%E3%81%BB%E3%81%97%E3%81%AE%E3%81%93%E3%81%88-%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%97%E3%83%A9%E3%82%A4%E3%82%B9%E7%89%88-DVD-%E6%AD%A6%E8%97%A4%E5%AF%BF%E7%BE%8E/dp/B000I2JEA2?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B000I2JEA2",
+      "URL": "https://www.amazon.co.jp/dp/B000I2JEA2?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51zWeacU4GL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51sx58wvwAL._SL160_.jpg",
         "Height": 160,
         "Width": 112
       },
       "ProductType": "DVD",
+      "Creators": [
+        {
+          "Name": "武藤寿美",
+          "Role": "出演"
+        },
+        {
+          "Name": "鈴木千尋",
+          "Role": "出演"
+        },
+        {
+          "Name": "新海誠",
+          "Role": "監督"
+        }
+      ],
       "Publisher": "コミックス・ウェーブ・フィルム",
       "Codes": [
         {
@@ -6876,7 +7129,7 @@
       "PublicationDate": "",
       "LastRelease": "2006-11-17",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -7057,14 +7310,18 @@
       "Type": "paapi",
       "ID": "4873117364",
       "Title": "Effective Modern C++ ―C++11/14プログラムを進化させる42項目",
-      "URL": "https://www.amazon.co.jp/Effective-Modern-%E2%80%95C-11-14%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E3%82%92%E9%80%B2%E5%8C%96%E3%81%95%E3%81%9B%E3%82%8B42%E9%A0%85%E7%9B%AE/dp/4873117364?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4873117364",
+      "URL": "https://www.amazon.co.jp/dp/4873117364?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51ng4usMVYL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51ng4usMVYL._SL160_.jpg",
         "Height": 160,
         "Width": 125
       },
       "ProductType": "大型本",
       "Creators": [
+        {
+          "Name": "Scott Meyers",
+          "Role": "著"
+        },
         {
           "Name": "千住 治郎",
           "Role": "翻訳"
@@ -7079,16 +7336,20 @@
         {
           "Name": "EAN",
           "Value": "9784873117362"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4873117364"
         }
       ],
       "PublicationDate": "2015-09-18",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2018-12-07",
+    "Date": "2016-09-22",
     "Rating": 4,
     "Star": [
       true,
@@ -7175,13 +7436,19 @@
       "Type": "paapi",
       "ID": "B07HQMNLCV",
       "Title": "速習 Kotlin: Javaより簡単！新Android開発言語を今すぐマスター 速習シリーズ",
-      "URL": "https://www.amazon.co.jp/%E9%80%9F%E7%BF%92-Kotlin-Java%E3%82%88%E3%82%8A%E7%B0%A1%E5%8D%98%EF%BC%81%E6%96%B0Android%E9%96%8B%E7%99%BA%E8%A8%80%E8%AA%9E%E3%82%92%E4%BB%8A%E3%81%99%E3%81%90%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC-%E9%80%9F%E7%BF%92%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-%E5%B1%B1%E7%94%B0%E7%A5%A5%E5%AF%9B-ebook/dp/B07HQMNLCV?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B07HQMNLCV",
+      "URL": "https://www.amazon.co.jp/dp/B07HQMNLCV?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/51opWCuz3YL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51opWCuz3YL._SL160_.jpg",
         "Height": 160,
         "Width": 100
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "山田祥寛",
+          "Role": "著"
+        }
+      ],
       "Publisher": "WINGSプロジェクト",
       "Codes": [
         {
@@ -7192,7 +7459,7 @@
       "PublicationDate": "2018-09-26",
       "LastRelease": "2018-09-26",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -7503,13 +7770,19 @@
       "Type": "paapi",
       "ID": "B00W6NCLL0",
       "Title": "数学ガールの秘密ノート／数列の広場",
-      "URL": "https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E6%95%B0%E5%88%97%E3%81%AE%E5%BA%83%E5%A0%B4-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00W6NCLL0?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00W6NCLL0",
+      "URL": "https://www.amazon.co.jp/dp/B00W6NCLL0?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41n9NfuGsIL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41n9NfuGsIL._SL160_.jpg",
         "Height": 160,
         "Width": 113
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "結城 浩",
+          "Role": "著"
+        }
+      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -7520,11 +7793,11 @@
       "PublicationDate": "2014-10-17",
       "LastRelease": "2015-04-18",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2018-10-21",
+    "Date": "2014-10-21",
     "Rating": 5,
     "Star": [
       true,
@@ -7540,13 +7813,19 @@
       "Type": "paapi",
       "ID": "B00Y9EYOIW",
       "Title": "数学ガールの秘密ノート／微分を追いかけて",
-      "URL": "https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E5%BE%AE%E5%88%86%E3%82%92%E8%BF%BD%E3%81%84%E3%81%8B%E3%81%91%E3%81%A6-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00Y9EYOIW?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=B00Y9EYOIW",
+      "URL": "https://www.amazon.co.jp/dp/B00Y9EYOIW?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41pgiwRb0zL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41pgiwRb0zL._SL160_.jpg",
         "Height": 160,
         "Width": 111
       },
       "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "結城 浩",
+          "Role": "著"
+        }
+      ],
       "Publisher": "SBクリエイティブ",
       "Codes": [
         {
@@ -7557,11 +7836,11 @@
       "PublicationDate": "2015-04-17",
       "LastRelease": "2015-05-26",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2018-10-21",
+    "Date": "2015-04-30",
     "Rating": 5,
     "Star": [
       true,
@@ -7577,9 +7856,9 @@
       "Type": "paapi",
       "ID": "4320030885",
       "Title": "基礎物理学実験 増訂版",
-      "URL": "https://www.amazon.co.jp/%E5%9F%BA%E7%A4%8E%E7%89%A9%E7%90%86%E5%AD%A6%E5%AE%9F%E9%A8%93-%E5%A2%97%E8%A8%82%E7%89%88-%E4%B8%8B%E6%9D%91-%E5%81%A5%E6%AC%A1/dp/4320030885?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4320030885",
+      "URL": "https://www.amazon.co.jp/dp/4320030885?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41n4-gFkFPL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41n4-gFkFPL._SL160_.jpg",
         "Height": 160,
         "Width": 113
       },
@@ -7623,12 +7902,16 @@
         {
           "Name": "EAN",
           "Value": "9784320030886"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4320030885"
         }
       ],
       "PublicationDate": "1977-10-05",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
@@ -10063,5 +10346,1078 @@
       false
     ],
     "Description": "読後の感想が「もげろ！」になった（多分）初めての作品。原作の Web 版は更に糖度高め。「砂糖を吐く」という比喩表現が理解できてしまった。もげろ！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00U6VZVUM",
+      "Title": "北欧女子オーサが見つけた日本の不思議 (コミックエッセイ)",
+      "URL": "https://www.amazon.co.jp/dp/B00U6VZVUM?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51lPmWLwcpL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "オーサ・イェークストロム",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "KADOKAWA",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00U6VZVUM"
+        }
+      ],
+      "PublicationDate": "2015-03-06",
+      "LastRelease": "2015-03-06",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2015-11-08",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "\u003ca href=\"https://ameblo.jp/hokuoujoshi/\" title=\"北欧女子オーサ オフィシャルブログ「北欧女子が見つけた日本の不思議」\"\u003e同名サイト\u003c/a\u003eで連載されていた漫画の書籍化。感想は\u003ca href=\"https://medium.com/manga-magazine/-388cac939eb6\"\u003eこちら\u003c/a\u003e。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07N2LHQZX",
+      "Title": "もう、いいでしょう。【合本版】 (アマゾナイトノベルズ)",
+      "URL": "https://www.amazon.co.jp/dp/B07N2LHQZX?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51uYG8g5xJL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "綾瀬 紗葵",
+          "Role": "著"
+        },
+        {
+          "Name": "笠井",
+          "Role": "イラスト"
+        }
+      ],
+      "Publisher": "アマゾナイトノベルズ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07N2LHQZX"
+        }
+      ],
+      "PublicationDate": "2019-01-31",
+      "LastRelease": "2019-01-31",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2018-12-04",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "\u003ca href=\"https://ncode.syosetu.com/n4435dj/\"\u003e同名 Web 小説\u003c/a\u003eの Kindle 化。内容が微妙にアレなので子どもにはオススメしない（内容について親が聞かれたら確実に困惑するだろうw）。いわゆる「ざまぁ」な展開が好きな人には大好物な作品かもしれない。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00JB3F73M",
+      "Title": "マップス　01 (MFコミックス　フラッパーシリーズ)",
+      "URL": "https://www.amazon.co.jp/dp/B00JB3F73M?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51VjaQK28FL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "長谷川 裕一",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "KADOKAWA",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00JB3F73M"
+        }
+      ],
+      "PublicationDate": "2012-06-23",
+      "LastRelease": "2014-03-31",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2017-12-19",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "20世紀を代表するスペースオペラ漫画（のひとつ）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01J76D2JS",
+      "Title": "転生したら剣でした 1 (GCノベルズ)",
+      "URL": "https://www.amazon.co.jp/dp/B01J76D2JS?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51Gghq99ZZL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "棚架ユウ",
+          "Role": "著"
+        },
+        {
+          "Name": "るろお",
+          "Role": "イラスト"
+        }
+      ],
+      "Publisher": "マイクロマガジン社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01J76D2JS"
+        }
+      ],
+      "PublicationDate": "2016-07-30",
+      "LastRelease": "2016-07-30",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2017-12-19",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "フランちゃんが可愛い。特に尻尾が。あと師匠のカレーが食べたい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00F5P454W",
+      "Title": "キカイダー02(1) (角川コミックス・エース)",
+      "URL": "https://www.amazon.co.jp/dp/B00F5P454W?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/515TCUhlSuL._SL160_.jpg",
+        "Height": 160,
+        "Width": 111
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "ＭＥＩＭＵ",
+          "Role": "著"
+        },
+        {
+          "Name": "石ノ森 章太郎",
+          "Role": "その他"
+        }
+      ],
+      "Publisher": "KADOKAWA",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00F5P454W"
+        }
+      ],
+      "PublicationDate": "2013-09-17",
+      "LastRelease": "2013-10-17",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2016-08-18",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "「キカイダー」を神秘学的視点で再解釈する（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00FZG82U4",
+      "Title": "イヴの時間 1巻 (デジタル版ヤングガンガンコミックス)",
+      "URL": "https://www.amazon.co.jp/dp/B00FZG82U4?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51BuNZoyXnL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "吉浦康裕",
+          "Role": "著"
+        },
+        {
+          "Name": "太田優姫",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "スクウェア・エニックス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00FZG82U4"
+        }
+      ],
+      "PublicationDate": "2010-09-25",
+      "LastRelease": "2013-10-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2016-08-18",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "同名アニメーション作品のコミカライズ。ヒトとロボットが交わる時間。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00IZ7R7B0",
+      "Title": "ご注文はうさぎですか？　２巻 (まんがタイムKRコミックス)",
+      "URL": "https://www.amazon.co.jp/dp/B00IZ7R7B0?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51PeaeJSW9L._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "Ｋｏｉ",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "芳文社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00IZ7R7B0"
+        }
+      ],
+      "PublicationDate": "2013-02-27",
+      "LastRelease": "2014-03-20",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2016-07-23",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "可愛らしい作品。2巻ではチマメ隊がシストで遊ぶ回がある。楽しそう！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00X9CDPE4",
+      "Title": "ひだまりスケッチ　１巻 (まんがタイムKRコミックス)",
+      "URL": "https://www.amazon.co.jp/dp/B00X9CDPE4?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/518nUsGw11L._SL160_.jpg",
+        "Height": 160,
+        "Width": 114
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "蒼樹うめ",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "芳文社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00X9CDPE4"
+        }
+      ],
+      "PublicationDate": "2005-10-27",
+      "LastRelease": "2015-05-15",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2016-07-10",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "そういえば紙の本は捨てちゃったんだよな。 Kindle で買い直さないと。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07GSYNZTM",
+      "Title": "乙女アトラス 1 (楽園コミックス)",
+      "URL": "https://www.amazon.co.jp/dp/B07GSYNZTM?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51C5sdqPGTL._SL160_.jpg",
+        "Height": 160,
+        "Width": 111
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "竹本泉",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "白泉社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07GSYNZTM"
+        }
+      ],
+      "PublicationDate": "1998-04-26",
+      "LastRelease": "2018-08-31",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2016-07-10",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "地球人も宇宙から見れば non-human person（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01BHGVLOY",
+      "Title": "猫暦(1) (ねこぱんちコミックス)",
+      "URL": "https://www.amazon.co.jp/dp/B01BHGVLOY?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51mwPBTov5L._SL160_.jpg",
+        "Height": 160,
+        "Width": 114
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "ねこしみず美濃",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "少年画報社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01BHGVLOY"
+        }
+      ],
+      "PublicationDate": "2014-10-14",
+      "LastRelease": "2016-02-15",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2016-05-06",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "「寛政の改暦」のころの伊能勘解由（忠敬）とその妻とされる「おえい」の物語。感想は\u003ca href=\"https://text.baldanders.info/remark/2016/05/nekoyomi/\"\u003eこちら\u003c/a\u003e。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00ORBY3PQ",
+      "Title": "銀子の窓口（１） (バンブーコミックス 4コマセレクション)",
+      "URL": "https://www.amazon.co.jp/dp/B00ORBY3PQ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51d7PAEntoL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "唐草ミチル",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "竹書房",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00ORBY3PQ"
+        }
+      ],
+      "PublicationDate": "2014-10-27",
+      "LastRelease": "2014-10-27",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2016-01-07",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "金融界のクール・ビューティ（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "483544213X",
+      "Title": "すくらっぷ・ブック (1) (fukkan.com―小山田いく選集)",
+      "URL": "https://www.amazon.co.jp/dp/483544213X?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/518uMdKYp3L._SL160_.jpg",
+        "Height": 160,
+        "Width": 111
+      },
+      "ProductType": "コミック",
+      "Creators": [
+        {
+          "Name": "小山田 いく",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "ブッキング",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "483544213X"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784835442136"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "483544213X"
+        }
+      ],
+      "PublicationDate": "2006-06-01",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2015-07-01",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "思春期の頃の愛読書でした。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00GBT7LH4",
+      "Title": "まりかセヴン ： 1 (アクションコミックス)",
+      "URL": "https://www.amazon.co.jp/dp/B00GBT7LH4?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51Zqi3RgRNL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "伊藤伸平",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "双葉社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00GBT7LH4"
+        }
+      ],
+      "PublicationDate": "2011-10-28",
+      "LastRelease": "2013-10-30",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2016-08-14",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "だれか「まりかセヴン」をアニメ化してくれないかなぁ。深夜アニメでいいからさ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01KMVQPD2",
+      "Title": "君の名は。",
+      "URL": "https://www.amazon.co.jp/dp/B01KMVQPD2?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/518zi7R1YgL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "RADWIMPS",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Universal Music LLC",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01KMVQPD2"
+        }
+      ],
+      "PublicationDate": "2016-08-24",
+      "LastRelease": "2016-08-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2016-09-19",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "音楽もよかったねぇ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00I7JHW7K",
+      "Title": "あつあつふーふー ： 1 (アクションコミックス)",
+      "URL": "https://www.amazon.co.jp/dp/B00I7JHW7K?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51S3gqA97+L._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "佐藤両々",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "双葉社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00I7JHW7K"
+        }
+      ],
+      "PublicationDate": "2013-07-26",
+      "LastRelease": "2014-01-31",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2016-11-28",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "お好み焼きが食べたくなる漫画。広島弁が微妙なのは仕様らしい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B06XPL6LX6",
+      "Title": "けものフレンズ　コミックアラカルト　ジャパリパーク編 けものフレンズコミックアラカルト (角川コミックス・エース)",
+      "URL": "https://www.amazon.co.jp/dp/B06XPL6LX6?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/417C0Ui00WL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "少年エース編集部",
+          "Role": "編集"
+        },
+        {
+          "Name": "けものフレンズプロジェクト",
+          "Role": "その他"
+        }
+      ],
+      "Publisher": "KADOKAWA",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B06XPL6LX6"
+        }
+      ],
+      "PublicationDate": "2017-03-25",
+      "LastRelease": "2017-03-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2017-03-29",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アルパカは愛されてるなぁ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01D2E6FYK",
+      "Title": "【本編全巻セット】まおゆう魔王勇者 (ホビー書籍部)",
+      "URL": "https://www.amazon.co.jp/dp/B01D2E6FYK?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/511VI97hHCL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "橙乃 ままれ",
+          "Role": "著"
+        },
+        {
+          "Name": "ｔｏｉ８",
+          "Role": "著"
+        },
+        {
+          "Name": "水玉 螢之丞",
+          "Role": "著"
+        },
+        {
+          "Name": "山北 篤",
+          "Role": "著"
+        },
+        {
+          "Name": "桝田 省治",
+          "Role": "監修"
+        }
+      ],
+      "Publisher": "KADOKAWA",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01D2E6FYK"
+        }
+      ],
+      "PublicationDate": "2016-03-25",
+      "LastRelease": "2016-03-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2017-04-02",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "いまさら「まおゆう」を読んだがなかなか面白かった。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B06XS18QJF",
+      "Title": "少年メイド10 (B's-LOG COMICS)",
+      "URL": "https://www.amazon.co.jp/dp/B06XS18QJF?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51O6UPFDmAL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "乙 橘",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "KADOKAWA",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B06XS18QJF"
+        }
+      ],
+      "PublicationDate": "2017-04-01",
+      "LastRelease": "2017-04-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2017-04-02",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "最終巻。もったいない。いくらでも続けられるのに。やっぱ中学生では半ズボンとハイソックスは似合わないってことなのか？ そうなのか？"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00LF90DZW",
+      "Title": "賢者の弟子を名乗る賢者1 (GCノベルズ)",
+      "URL": "https://www.amazon.co.jp/dp/B00LF90DZW?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61StnV8HguL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "りゅうせんひろつぐ",
+          "Role": "著"
+        },
+        {
+          "Name": "藤ちょこ",
+          "Role": "イラスト"
+        }
+      ],
+      "Publisher": "マイクロマガジン社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00LF90DZW"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784896374650"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4896374657"
+        }
+      ],
+      "PublicationDate": "2014-06-30",
+      "LastRelease": "2014-07-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2017-06-09",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "最近のお気に入りラノベ。 \u003ca href=\"http://ncode.syosetu.com/n6829bd/\"\u003eWeb 版\u003c/a\u003eも愛読している。こういう設定のゲームとかあったら楽しいかなぁ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0741WVFFL",
+      "Title": "恋を積分すると愛 (角川文庫)",
+      "URL": "https://www.amazon.co.jp/dp/B0741WVFFL?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61HLi1jY4iL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "中村 航",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "KADOKAWA",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0741WVFFL"
+        }
+      ],
+      "PublicationDate": "2017-07-25",
+      "LastRelease": "2017-07-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2017-07-30",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "Facebook の友人が紹介してた。タイトルが面白そうなので読むかもしれない（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "482224587X",
+      "Title": "ウィキノミクス",
+      "URL": "https://www.amazon.co.jp/dp/482224587X?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51blOgt9ELL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "ドン・タプスコット/アンソニー・D・ウィリアムズ",
+          "Role": "著"
+        },
+        {
+          "Name": "井口 耕二",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "日経BP",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "482224587X"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784822245870"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "482224587X"
+        }
+      ],
+      "PublicationDate": "2007-06-07",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2017-09-26",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "今は昔の物語，かな。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4844319159",
+      "Title": "結城浩のWiki入門 ~YukiWikiではじめる みんなで作るWebサイト~",
+      "URL": "https://www.amazon.co.jp/dp/4844319159?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51NDX81QG6L._SL160_.jpg",
+        "Height": 160,
+        "Width": 124
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "結城 浩",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "インプレス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4844319159"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784844319153"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4844319159"
+        }
+      ],
+      "PublicationDate": "2004-03-30",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2017-09-26",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "今だから言うけど，私はこの本で Perl を勉強しました（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "479804413X",
+      "Title": "クラウドを支えるこれからの暗号技術",
+      "URL": "https://www.amazon.co.jp/dp/479804413X?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41ZOQaZu0SL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "光成 滋生",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "秀和システム",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "479804413X"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784798044132"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "479804413X"
+        }
+      ],
+      "PublicationDate": "2015-06-24",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2018-03-12",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "まだ読んでない。"
   }
 ]

@@ -65,7 +65,7 @@ tags = ["book", "comic", "astronomy", "calendar", "ephemeris"]
 さて，これからおえいちゃんはどうなるのか。
 続きが楽しみであります。
 
-{{% review-paapi "B07BNZQSZZ" %}} <!-- 猫暦 -->
+{{% review-paapi "B01BHGVLOY" %}} <!-- 猫暦 -->
 {{% review-paapi "4254102372" %}} <!-- 暦の大事典 -->
 {{% review-paapi "B0095OEG3Y" %}} <!-- 天地明察 上 -->
 {{% review-paapi "4769903251" %}} <!-- 天体軌道論 -->

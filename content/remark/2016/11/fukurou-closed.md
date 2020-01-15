@@ -47,7 +47,4 @@ draft = false
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B016B68NGO/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/D1P4hjDg0uS._SL160_.png" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B016B68NGO/baldandersinf-22/">[まとめ買い] あつあつふーふー（アクションコミックス）</a></dt><dd>佐藤両々 </dd><dd> </dd><dd>評価<abbr class="rating" title="5"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-5-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
-<p class="description">お好み焼きが食べたくなる漫画。広島弁が微妙なのは仕様らしい。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-11-28">2016-11-28</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
-</div>
+{{% review-paapi "B00I7JHW7K" %}} <!-- あつあつふーふー -->

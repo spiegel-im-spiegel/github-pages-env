@@ -2,21 +2,7 @@
 title = "Wiki という時代の終焉"
 date =  "2017-09-26T11:08:32+09:00"
 description = "かつて Hacker なる言葉が時代とともに意味を消失していったように， Wiki も消失し空っぽの名前だけが遺跡のように残るのだろう。"
-tags        = [ "wiki", "internet", "media" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
+tags = [ "wiki", "internet", "media" ]
 
 [scripts]
   mathjax = false
@@ -88,12 +74,5 @@ Twitter が登場したときのフィーバーぶりも大変なもので，こ
 
 ## 参考図書
 
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4844319159/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51NDX81QG6L._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4844319159/baldandersinf-22/">結城浩のWiki入門 ~YukiWikiではじめる みんなで作るWebサイト~</a></dt><dd>結城 浩 </dd><dd>インプレス 2004-03-30</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"></p>
-<p class="description">今だから言うけど，私はこの本で Perl を勉強しました（笑）</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-09-26">2017-09-26</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
-</div>
-
-<div class="hreview" ><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/482224587X/baldandersinf-22/"><img src="https://images-fe.ssl-images-amazon.com/images/I/51blOgt9ELL._SL160_.jpg" alt="photo" class="photo"  /></a><dl ><dt class="fn"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/482224587X/baldandersinf-22/">ウィキノミクス</a></dt><dd>ドン・タプスコット/アンソニー・D・ウィリアムズ 井口 耕二 </dd><dd>日経BP社 2007-06-07</dd><dd>評価<abbr class="rating" title="4"><img src="https://images-fe.ssl-images-amazon.com/images/G/01/detail/stars-4-0.gif" alt="" /></abbr> </dd></dl><p class="similar"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4799314173/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4799314173.09._SCTHUMBZZZ_.jpg"  alt="マクロウィキノミクス"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4798118869/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4798118869.09._SCTHUMBZZZ_.jpg"  alt="デジタルネイティブが世界を変える"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4150504083/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4150504083.09._SCTHUMBZZZ_.jpg"  alt="ロングテール‐「売れない商品」を宝の山に変える新戦略 (ハヤカワ・ノンフィクション文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4569708196/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4569708196.09._SCTHUMBZZZ_.jpg"  alt="グーグル的思考"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4140815760/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4140815760.09._SCTHUMBZZZ_.jpg"  alt="MAKERS 21世紀の産業革命が始まる"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4532319366/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4532319366.09._SCTHUMBZZZ_.jpg"  alt="レゴはなぜ世界で愛され続けているのか 最高のブランドを支えるイノベーション7つの真理"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4596551227/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4596551227.09._SCTHUMBZZZ_.jpg"  alt="ジョブ理論 イノベーションを予測可能にする消費のメカニズム (ハーパーコリンズ・ノンフィクション)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4042977014/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4042977014.09._SCTHUMBZZZ_.jpg"  alt="「みんなの意見」は案外正しい (角川文庫)"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4757160178/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4757160178.09._SCTHUMBZZZ_.jpg"  alt="「意識」を語る"  /></a> <a href="https://www.amazon.co.jp/exec/obidos/ASIN/4872803779/baldandersinf-22/" target="_top"><img src="https://images-fe.ssl-images-amazon.com/images/P/4872803779.09._SCTHUMBZZZ_.jpg"  alt="「ネットワーク経済」の法則―アトム型産業からビット型産業へ…変革期を生き抜く72の指針"  /></a> </p>
-<p class="description">今は昔の物語，かな。</p>
-<p class="gtools" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-09-26">2017-09-26</abbr> (powered by <a href="http://www.goodpic.com/mt/aws/index.html" >G-Tools</a>)</p>
-</div>
+{{% review-paapi "4844319159" %}} <!-- 結城浩のWiki入門 -->
+{{% review-paapi "482224587X" %}} <!-- ウィキノミクス -->

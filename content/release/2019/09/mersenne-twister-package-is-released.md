@@ -134,5 +134,4 @@ ok  	github.com/spiegel-im-spiegel/mt/benchmark	7.081s
 ## 参考図書
 
 {{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
-
 {{% review-paapi "B00I8AT1FO" %}} <!-- 数学ガール／乱択アルゴリズム -->

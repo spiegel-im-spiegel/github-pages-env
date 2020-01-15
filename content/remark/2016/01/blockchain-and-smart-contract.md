@@ -72,31 +72,5 @@ Bitcoin は「誰が」取り引きしているかについて気にしない[^a
 ## 参考図書
 
 {{% review-paapi "B015643CPE" %}} <!-- 暗号技術入門 第3版 -->
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/UNDERGROUND-MARKET-%E3%83%92%E3%82%B9%E3%83%86%E3%83%AA%E3%82%A2%E3%83%B3%E3%83%BB%E3%82%B1%E3%83%BC%E3%82%B9-%E8%97%A4%E4%BA%95%E5%A4%AA%E6%B4%8B-ebook/dp/B00FONW2V8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00FONW2V8"><img src="https://images-fe.ssl-images-amazon.com/images/I/51AT2LqRIsL._SL160_.jpg" width="116" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/UNDERGROUND-MARKET-%E3%83%92%E3%82%B9%E3%83%86%E3%83%AA%E3%82%A2%E3%83%B3%E3%83%BB%E3%82%B1%E3%83%BC%E3%82%B9-%E8%97%A4%E4%BA%95%E5%A4%AA%E6%B4%8B-ebook/dp/B00FONW2V8?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00FONW2V8">UNDERGROUND MARKET　ヒステリアン・ケース</a></dt>
-	<dd>藤井太洋</dd>
-    <dd>朝日新聞出版 2013-11-07 (Release 2013-10-25)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00FONW2V8</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">日本で「仮想通貨」が流行る前に登場した傑作。つかエンジニアは全員「UNDERGROUND MARKET」シリーズを読め！</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-02-04">2018-02-04</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E9%8A%80%E5%AD%90%E3%81%AE%E7%AA%93%E5%8F%A3/dp/B074CJ5VJJ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B074CJ5VJJ"><img src="https://images-fe.ssl-images-amazon.com/images/I/51UmNb4fC8L._SL160_.jpg" width="160" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E9%8A%80%E5%AD%90%E3%81%AE%E7%AA%93%E5%8F%A3/dp/B074CJ5VJJ?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B074CJ5VJJ">銀子の窓口</a></dt>
-	<dd>唐草ミチル</dd>
-    <dd></dd>
-    <dd>Collections Kindle版</dd>
-    <dd>ASIN: B074CJ5VJJ</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">金融界のクール・ビューティ（笑）</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-01-07">2016-01-07</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "B00FONW2V8" %}} <!-- UNDERGROUND MARKET　ヒステリアン・ケース -->
+{{% review-paapi "B00ORBY3PQ" %}} <!-- 銀子の窓口 -->

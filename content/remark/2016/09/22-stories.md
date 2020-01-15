@@ -59,24 +59,10 @@ C++ 11 でだいぶ変わったしね。
 - [もうすぐ絶滅するという開かれたウェブについて - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2016/08/55823/)
     - [やはり我々には「アルゴリズムの監査機関」が必要なのか？ - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20160911/algorithmfda)
 
-## 参考図書
-
 [Effective Modern C++]: https://www.amazon.co.jp/exec/obidos/ASIN/4873117364/baldandersinf-22/ "Effective Modern C++ ―C++11/14プログラムを進化させる42項目 : Scott Meyers, 千住 治郎 : 本 : Amazon.co.jp"
 [排除型社会]: https://www.amazon.co.jp/exec/obidos/ASIN/4903127044/baldandersinf-22/ "排除型社会―後期近代における犯罪・雇用・差異 : ジョック ヤング, Jock Young, 青木 秀男, 伊藤 泰郎, 岸 政彦, 村澤 真保呂 : 本 : Amazon"
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/Effective-Modern-%E2%80%95C-11-14%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E3%82%92%E9%80%B2%E5%8C%96%E3%81%95%E3%81%9B%E3%82%8B42%E9%A0%85%E7%9B%AE/dp/4873117364?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4873117364"><img src="https://images-fe.ssl-images-amazon.com/images/I/51ng4usMVYL._SL160_.jpg" width="125" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/Effective-Modern-%E2%80%95C-11-14%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E3%82%92%E9%80%B2%E5%8C%96%E3%81%95%E3%81%9B%E3%82%8B42%E9%A0%85%E7%9B%AE/dp/4873117364?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4873117364">Effective Modern C++ ―C++11/14プログラムを進化させる42項目</a></dt>
-	<dd>Scott Meyers</dd>
-	<dd>千住 治郎 (翻訳)</dd>
-    <dd>オライリージャパン 2015-09-18</dd>
-    <dd>Book 大型本</dd>
-    <dd>ASIN: 4873117364, EAN: 9784873117362</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">C++ 再勉強中。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-07">2018-12-07</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
+## 参考図書
 
+{{% review-paapi "4873117364" %}} <!-- Effective Modern C++ -->
 {{% review-paapi "4903127044" %}} <!-- 排除型社会 -->

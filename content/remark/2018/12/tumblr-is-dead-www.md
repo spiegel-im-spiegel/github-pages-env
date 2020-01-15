@@ -54,17 +54,4 @@ AI を使うとか書いてあるが，実際に moderation の判断を行う�
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%82%82%E3%81%86%E3%80%81%E3%81%84%E3%81%84%E3%81%A7%E3%81%97%E3%82%87%E3%81%86%E3%80%82-1%E8%A9%B1-%E3%82%A2%E3%83%9E%E3%82%BE%E3%83%8A%E3%82%A4%E3%83%88%E3%83%8E%E3%83%99%E3%83%AB%E3%82%BA-%E7%B6%BE%E7%80%AC-%E7%B4%97%E8%91%B5-ebook/dp/B07FY7S5YR?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07FY7S5YR"><img src="https://images-fe.ssl-images-amazon.com/images/I/519nUKtC2RL._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%82%82%E3%81%86%E3%80%81%E3%81%84%E3%81%84%E3%81%A7%E3%81%97%E3%82%87%E3%81%86%E3%80%82-1%E8%A9%B1-%E3%82%A2%E3%83%9E%E3%82%BE%E3%83%8A%E3%82%A4%E3%83%88%E3%83%8E%E3%83%99%E3%83%AB%E3%82%BA-%E7%B6%BE%E7%80%AC-%E7%B4%97%E8%91%B5-ebook/dp/B07FY7S5YR?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07FY7S5YR">もう、いいでしょう。　1話 (アマゾナイトノベルズ)</a></dt>
-	<dd>綾瀬 紗葵</dd>
-	<dd>笠井 (イラスト)</dd>
-    <dd>アマゾナイトノベルズ 2018-11-30 (Release 2018-11-30)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B07FY7S5YR</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description"><a href="https://ncode.syosetu.com/n4435dj/">同名 Web 小説</a>の Kindle 化。 Kindle unlimited で読める。内容が微妙にアレなので子どもにはオススメしない（内容について親が聞かれたら確実に困惑するだろうw）。いわゆる「ざまぁ」な展開が好きな人には大好物な作品かもしれない。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-04">2018-12-04</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
+{{% review-paapi "B07N2LHQZX" %}} <!-- もう、いいでしょう。 -->

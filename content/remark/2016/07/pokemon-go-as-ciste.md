@@ -1,8 +1,8 @@
 +++
+title = "「シスト」としての Pokémon GO"
 date = "2016-07-24T08:07:58+09:00"
 description = "自分たちで「物語」をつくる。そういう遊び方もあるのですよ。でも子どもの頃はみんなそうやって遊んでたでしょ。"
 tags = ["games", "pokemon", "ingress"]
-title = "「シスト」としての Pokémon GO"
 
 [scripts]
   mathjax = false
@@ -39,16 +39,4 @@ title = "「シスト」としての Pokémon GO"
 [Pokémon GO]: http://www.pokemongo.jp/ "『Pokémon GO』公式サイト"
 [Ingress]: https://www.ingress.com/
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%94%E6%B3%A8%E6%96%87%E3%81%AF%E3%81%86%E3%81%95%E3%81%8E%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F/dp/B074CKDQGB?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B074CKDQGB"><img src="https://images-fe.ssl-images-amazon.com/images/I/61SVhz1msFL._SL160_.jpg" width="160" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%81%94%E6%B3%A8%E6%96%87%E3%81%AF%E3%81%86%E3%81%95%E3%81%8E%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F/dp/B074CKDQGB?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B074CKDQGB">ご注文はうさぎですか？</a></dt>
-	<dd>Ｋｏｉ</dd>
-    <dd></dd>
-    <dd>Collections Kindle版</dd>
-    <dd>ASIN: B074CKDQGB</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">可愛らしい作品。2巻ではチマメ隊がシストで遊ぶ回がある。楽しそう！</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-07-23">2016-07-23</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "B00IZ7R7B0" %}} <!-- ご注文はうさぎですか？ 2 -->

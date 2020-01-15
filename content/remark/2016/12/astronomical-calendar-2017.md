@@ -6,23 +6,11 @@ tags = [
   "ephemeris",
   "book",
 ]
-draft = false
 date = "2016-12-24T14:01:57+09:00"
-update = "2018-12-12T15:48:49+09:00"
 
-[author]
-  url = "https://baldanders.info/profile/"
-  license = "by-sa"
-  tumblr = ""
-  github = "spiegel-im-spiegel"
-  flattr = ""
-  facebook = "spiegel.im.spiegel"
-  linkedin = "spiegelimspiegel"
-  avatar = "/images/avatar.jpg"
-  instagram = "spiegel_2007"
-  flickr = "spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 遅まきながら2017年版の『[天文年鑑](https://www.amazon.co.jp/exec/obidos/ASIN/4416716516/baldandersinf-22/)』を購入。
@@ -76,16 +64,4 @@ HR40（最良条件で1時間あたり40個）で安定的に流れる流星群�
 - 春分の日は3月20日（月），秋分の日は9月23日（土）である。更に夏至は6月21日，冬至は12月22日となる
 - NASA の土星探査機 Cassini が9月15日ごろに探査事業を終了する予定
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%91-2017%E5%B9%B4%E7%89%88-%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%91%E7%B7%A8%E9%9B%86%E5%A7%94%E5%93%A1%E4%BC%9A/dp/4416716516?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4416716516"><img src="https://images-fe.ssl-images-amazon.com/images/I/51ezt8lG9OL._SL160_.jpg" width="112" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%91-2017%E5%B9%B4%E7%89%88-%E5%A4%A9%E6%96%87%E5%B9%B4%E9%91%91%E7%B7%A8%E9%9B%86%E5%A7%94%E5%93%A1%E4%BC%9A/dp/4416716516?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4416716516">天文年鑑 2017年版</a></dt>
-	<dd>天文年鑑編集委員会 (編集)</dd>
-    <dd>誠文堂新光社 2016-11-18</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4416716516, EAN: 9784416716519</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">天文ファン必携。2017年版。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-12-24">2016-12-24</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "4416716516" %}} <!-- 天文年鑑 2017年版 -->

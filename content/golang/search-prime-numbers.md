@@ -1,23 +1,12 @@
 +++
-date = "2015-09-17T21:23:42+09:00"
-update = "2017-10-09T22:05:48+09:00"
-description = "これまた，みんな大好き素数探索アルゴリズム"
-draft = false
-tags = ["golang", "algorithm", "math", "prime-number", "slice", "goroutine", "channel", "message-passing"]
 title = "素数探索アルゴリズムで遊ぶ"
+date = "2015-09-17T21:23:42+09:00"
+description = "これまた，みんな大好き素数探索アルゴリズム"
+tags = ["golang", "algorithm", "math", "prime-number", "slice", "goroutine", "channel", "message-passing"]
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 （初出： [はじめての Go 言語 (on Windows) その2 - Qiita](http://qiita.com/spiegel-im-spiegel/items/047a9bd6436e6391ddd4)）
@@ -717,16 +706,4 @@ if !ok {
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%EF%BC%8F%E3%82%B2%E3%83%BC%E3%83%87%E3%83%AB%E3%81%AE%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%80%A7%E5%AE%9A%E7%90%86-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00I8AT1D6?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00I8AT1D6"><img src="https://images-fe.ssl-images-amazon.com/images/I/41I26OVyotL._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%EF%BC%8F%E3%82%B2%E3%83%BC%E3%83%87%E3%83%AB%E3%81%AE%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%80%A7%E5%AE%9A%E7%90%86-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00I8AT1D6?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00I8AT1D6">数学ガール／ゲーデルの不完全性定理</a></dt>
-	<dd>結城 浩</dd>
-    <dd>SBクリエイティブ 2009-10-23 (Release 2014-03-12)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00I8AT1D6</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">結城浩さんの本はよく整備された遊歩道を散歩するような気楽さと安心感がある。だから「フェルマーの最終定理」とか「ゲーデルの不完全性定理」とかいった難解そうなテーマでも，迷うことなく，しかも一歩ずつ歩みを進めてゴールまで辿り着けるのかもしれない。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-10-21">2018-10-21</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
+{{% review-paapi "B00I8AT1D6" %}} <!-- 数学ガール／ゲーデルの不完全性定理 -->

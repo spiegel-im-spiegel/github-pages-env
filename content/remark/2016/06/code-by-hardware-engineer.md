@@ -1,9 +1,8 @@
 +++
+title = "ハード屋が書く C ソースコードが凄まじかった思い出（再掲載）"
 date = "2016-06-04T09:08:09+09:00"
 description = "この件では，若いころのほろ苦い思い出がある。"
-draft = false
 tags = ["engineering", "programming"]
-title = "ハード屋が書く C ソースコードが凄まじかった思い出（再掲載）"
 
 [scripts]
   mathjax = false
@@ -45,17 +44,4 @@ goto 文で飛びまくり。
 おかげで私は「他人のコードを読む」ことがすんごい得意になってしまった。
 アレに比べればソフト屋の書くコードなんて絵本を読むように分かりやすい（笑） でも，こんなしょうもない特技でも後年ちゃんと役に立ってるんだから世の中というのは分からないものである。
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%AA%E3%83%BC%E3%83%B3%E9%96%8B%E7%99%BA%E3%81%AE%E7%8F%BE%E5%A0%B4-%E3%82%AB%E3%83%B3%E3%83%90%E3%83%B3%E3%81%AB%E3%82%88%E3%82%8B%E5%A4%A7%E8%A6%8F%E6%A8%A1%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E9%81%8B%E5%96%B6-%EF%BC%A8%EF%BD%85%EF%BD%8E%EF%BD%92%EF%BD%89%EF%BD%8B%EF%BC%AB%EF%BD%8E%EF%BD%89%EF%BD%82%EF%BD%85%EF%BD%92%EF%BD%87-ebook/dp/B01IGW5IIW?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01IGW5IIW"><img src="https://images-fe.ssl-images-amazon.com/images/I/51gC8Tmq1kL._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%83%AA%E3%83%BC%E3%83%B3%E9%96%8B%E7%99%BA%E3%81%AE%E7%8F%BE%E5%A0%B4-%E3%82%AB%E3%83%B3%E3%83%90%E3%83%B3%E3%81%AB%E3%82%88%E3%82%8B%E5%A4%A7%E8%A6%8F%E6%A8%A1%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E9%81%8B%E5%96%B6-%EF%BC%A8%EF%BD%85%EF%BD%8E%EF%BD%92%EF%BD%89%EF%BD%8B%EF%BC%AB%EF%BD%8E%EF%BD%89%EF%BD%82%EF%BD%85%EF%BD%92%EF%BD%87-ebook/dp/B01IGW5IIW?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01IGW5IIW">リーン開発の現場 カンバンによる大規模プロジェクトの運営</a></dt>
-	<dd>ＨｅｎｒｉｋＫｎｉｂｅｒｇ, 角谷信太郎</dd>
-	<dd>市谷聡啓 (翻訳), 藤原大 (翻訳)</dd>
-    <dd>オーム社 2013-10-25 (Release 2017-07-15)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B01IGW5IIW</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">私はこれで勉強しました。もう一回読み直すかな。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-24">2018-12-24</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
+{{% review-paapi "B01IGW5IIW" %}} <!-- リーン開発の現場 -->

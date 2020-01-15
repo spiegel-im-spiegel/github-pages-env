@@ -3,21 +3,7 @@ title = "「自動販売機の気持ちになって考える」"
 date =  "2017-11-24T12:07:09+09:00"
 description = "機械は人間のようには考えない。「機械（＝コンピュータ）が考える」というのはどういうことなのか。これを過不足なく説明するのは意外に難しい。"
 image = "/images/attention/remark.jpg"
-tags        = [ "engineering", "design", "programming" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
+tags = [ "engineering", "design", "programming" ]
 
 [scripts]
   mathjax = false
@@ -66,16 +52,4 @@ tags        = [ "engineering", "design", "programming" ]
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AF%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%82%92%E7%90%86%E8%A7%A3%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%81%8B-10%E5%B9%B4%E5%BE%8C%E3%80%8120%E5%B9%B4%E5%BE%8C%E3%81%BE%E3%81%A7%E5%BF%85%E3%81%9A%E5%BD%B9%E7%AB%8B%E3%81%A4%E6%A0%B9%E3%81%A3%E3%81%93%E3%81%AE%E9%83%A8%E5%88%86%E3%81%8C%E3%81%8D%E3%81%A3%E3%81%A1%E3%82%8A%E3%82%8F%E3%81%8B%E3%82%8B%EF%BC%81-%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9%EF%BD%A5%E3%82%A2%E3%82%A4%E6%96%B0%E6%9B%B8-%E6%A2%85%E6%B4%A5-%E4%BF%A1%E5%B9%B8/dp/4797339497?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4797339497"><img src="https://images-fe.ssl-images-amazon.com/images/I/51W3fP3Q%2BtL._SL160_.jpg" width="102" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AF%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%82%92%E7%90%86%E8%A7%A3%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%81%8B-10%E5%B9%B4%E5%BE%8C%E3%80%8120%E5%B9%B4%E5%BE%8C%E3%81%BE%E3%81%A7%E5%BF%85%E3%81%9A%E5%BD%B9%E7%AB%8B%E3%81%A4%E6%A0%B9%E3%81%A3%E3%81%93%E3%81%AE%E9%83%A8%E5%88%86%E3%81%8C%E3%81%8D%E3%81%A3%E3%81%A1%E3%82%8A%E3%82%8F%E3%81%8B%E3%82%8B%EF%BC%81-%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9%EF%BD%A5%E3%82%A2%E3%82%A4%E6%96%B0%E6%9B%B8-%E6%A2%85%E6%B4%A5-%E4%BF%A1%E5%B9%B8/dp/4797339497?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4797339497">あなたはコンピュータを理解していますか? 10年後、20年後まで必ず役立つ根っこの部分がきっちりわかる！ (サイエンス･アイ新書)</a></dt>
-	<dd>梅津 信幸</dd>
-    <dd>ソフトバンククリエイティブ 2007-03-16</dd>
-    <dd>Book 新書</dd>
-    <dd>ASIN: 4797339497, EAN: 9784797339499</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">2002年に技術評論社から出た同名タイトルのリニューアルらしい。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2017-11-24">2017-11-24</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
+{{% review-paapi "4797339497" %}} <!-- あなたはコンピュータを理解していますか -->

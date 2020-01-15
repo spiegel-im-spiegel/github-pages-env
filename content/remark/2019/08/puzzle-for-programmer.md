@@ -68,15 +68,4 @@ Tweet された方や「某大の講師の方」がどのようなつもりで�
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/STARTSIDE-%E3%81%99%E3%81%86%E3%81%A9%E3%81%8F-%E8%84%B3%E3%83%88%E3%83%AC-9%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%91%E3%82%BA%E3%83%AB-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF/dp/B077PDFQ4S?psc=1&SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B077PDFQ4S"><img src="https://images-fe.ssl-images-amazon.com/images/I/513eTXxTlJL._SL160_.jpg" width="160" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/STARTSIDE-%E3%81%99%E3%81%86%E3%81%A9%E3%81%8F-%E8%84%B3%E3%83%88%E3%83%AC-9%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%91%E3%82%BA%E3%83%AB-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF/dp/B077PDFQ4S?psc=1&SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B077PDFQ4S">STARTSIDE 数独 すうどく 脳トレ 卓上 ボード ゲーム 9ブロックパズル (ブラック)</a></dt>
-    <dd>STARTSIDE</dd>
-    <dd>おもちゃ＆ホビー</dd>
-    <dd>B077PDFQ4S (ASIN), 4562440102073 (EAN)</dd>
-    <dd>評価<abbr class="rating fa-sm" title="3">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">「数独」がボードゲームに（笑）</p>
-  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-02">2018-12-02</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-API</a>)</p>
-</div>
+{{% review-paapi "B077PDFQ4S" %}} <!-- 数独 -->
