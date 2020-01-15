@@ -2,6 +2,7 @@
 
 ## リリース情報
 
+- [Release 1.43.0 · atom/atom · GitHub](https://github.com/atom/atom/releases/tag/v1.43.0)
 - [Highlights from Git 2.25 - The GitHub Blog](https://github.blog/2020-01-13-highlights-from-git-2-25/)
 
 ## バベルのインターネット
