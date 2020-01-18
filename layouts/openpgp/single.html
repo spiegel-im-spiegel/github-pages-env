@@ -22,8 +22,8 @@
 </nav>
 <article>
 <h1>{{ .Title }}</h1>
-{{ partial "navi-tag.html" . }}
-{{ partial "navi-history.html" . }}
+{{ partial "navi-tag.html" . }}{{ if .Site.Data.site.poweredBy }}{{ if eq .Site.Data.site.poweredBy "github" }}
+{{ partial "navi-history.html" . }}{{ end }}{{ end }}
 
 <section>
 {{ .Content }}
