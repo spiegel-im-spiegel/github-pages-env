@@ -33,7 +33,7 @@ pageType = "text"
 {{% quote %}}Third, the 5G standards committees missed many opportunities to improve security. Many of the new security features in 5G are optional, and network operators can choose not to implement them. The same [happened](https://www.wired.com/story/5g-more-secure-4g-except-when-not/) with 4G; operators even ignored security features defined as mandatory in the standard because implementing them was expensive. But even worse, for 5G, development, performance, cost, and time to market were all prioritized over security, which was treated as an afterthought{{% /quote %}}.
 {{< /fig-quote >}}
 
-これで思い出したのは，本家旧ブログで1010年以上前（！）に書いた「[GSM の暗号の解読](https://baldanders.info/blog/000472/)」である。
+これで思い出したのは，本家旧ブログで10年以上前（！）に書いた「[GSM の暗号の解読](https://baldanders.info/blog/000472/)」である。
 その中で紹介している『[情報セキュリティ技術大全](https://www.amazon.co.jp/dp/4822281426?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)』の中身を少し紹介しよう。
 
 {{< fig-quote type="markdown" title="『情報セキュリティ技術大全』（p.355-356）" link="https://www.amazon.co.jp/dp/4822281426?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1" >}}
