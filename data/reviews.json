@@ -11419,5 +11419,109 @@
       false
     ],
     "Description": "まだ読んでない。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07925HGCX",
+      "Title": "【Momugs Akira】ハムスター回し車 サイレントホイール ハムスター おもちゃ ストレス解消 静か プラスチック ブルー",
+      "URL": "https://www.amazon.co.jp/dp/B07925HGCX?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51ow3mQuNSL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "その他",
+      "Publisher": "bidear01",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07925HGCX"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0759981407536"
+        },
+        {
+          "Name": "UPC",
+          "Value": "759981407536"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-01-18",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "そういえば，うちは母親がネズミが嫌いだった。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4822281426",
+      "Title": "情報セキュリティ技術大全―信頼できる分散システム構築のために",
+      "URL": "https://www.amazon.co.jp/dp/4822281426?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61DEAM8EPXL._SL160_.jpg",
+        "Height": 160,
+        "Width": 124
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "ロス アンダーソン",
+          "Role": "著"
+        },
+        {
+          "Name": "Anderson,Ross J.",
+          "Role": "原著"
+        },
+        {
+          "Name": "トップスタジオ",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "日経BP",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4822281426"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784822281427"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4822281426"
+        }
+      ],
+      "PublicationDate": "2002-09-07",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-01-18",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "セキュリティ管理者をやってた頃は，これで勉強しました。絶版だよなぁ，これ。名著なのに。時事的な情報は古いが，今でも十分通用する内容だと思う。誰か（日経BP以外）電子化して！"
   }
 ]
