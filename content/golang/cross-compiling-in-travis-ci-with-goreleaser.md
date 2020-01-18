@@ -1,23 +1,8 @@
 +++
 title = "Travis CI でクロス・コンパイル（GoReleaser 編）"
 date =  "2017-11-02T14:01:06+09:00"
-update = "2018-02-01T16:52:35+09:00"
 description = "クロス・コンパイルと GitHub への deploy をまとめてやってくれる GoReleaser というツールがあるらしい。"
 tags = ["golang", "cross-compile", "continuous-integration", "github", "travis-ci", "tools"]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false
@@ -381,6 +366,8 @@ Changelog も [GoReleaser] が生成している。
 - [goreleaserを使ってGoで書いたツールのバイナリをGithub Releasesで配布する - $shibayu36->blog;](http://blog.shibayu36.org/entry/2017/10/04/193000)
 - [Travis CIでdepを使う - くりにっき](http://sue445.hatenablog.com/entry/2017/01/30/214345)
 - [goreleaserでHomebrewのFormulaを自動生成する - Qiita](https://qiita.com/knqyf263/items/53dd0d0916afc5472281)
+- [Cross compile with CGO and GoReleaser - Rob De Feo - Medium](https://medium.com/@robdefeo/cross-compile-with-cgo-and-goreleaser-6af884731222)
+    - [GitHub - mailchain/mailchain: Using Mailchain, blockchain users can now send and receive rich-media HTML messages with attachments via a blockchain address.](https://github.com/mailchain/mailchain) : 実装例
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [mitchellh/gox]: https://github.com/mitchellh/gox "mitchellh/gox: A dead simple, no frills Go cross compile tool"
