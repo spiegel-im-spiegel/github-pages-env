@@ -3,7 +3,7 @@ title = "5G セキュリティ・リスク"
 date =  "2020-01-18T21:26:35+09:00"
 description = "歴史は繰り返す。 ハムスターの回し車のように…"
 image = "/images/attention/kitten.jpg"
-tags = [ "security", "rsik", "communication" ]
+tags = [ "security", "risk", "communication" ]
 pageType = "text"
 
 [scripts]
