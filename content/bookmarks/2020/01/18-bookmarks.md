@@ -4,7 +4,6 @@ date =  "2020-01-18T21:29:33+09:00"
 description = "「『現時点の情報では流行の可能性は低いがなお警戒を』新型肺炎、国内初確認で当局者」他"
 image = "/images/attention/bookmarks.jpg"
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
