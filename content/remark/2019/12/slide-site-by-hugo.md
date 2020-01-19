@@ -104,10 +104,10 @@ theme = "reveal-hugo"
   mediaType = "text/html"
   isHTML = true
 
-[markup]
-  defaultMarkdownHandler = "blackfriday"
-  [markup.highlight]
-    codeFences = false
+[markup.goldmark.renderer]
+  unsafe = true
+[markup.highlight]
+  codeFences = false
 ```
 
 [Hugo] で作成したサイトをデプロイするなら `baseURL` にデプロイ先の URL を設定する。
@@ -375,6 +375,7 @@ Web で公開することを考えるのなら Web フォントを使いたい�
 
 - [さくらのレンタルサーバ上で Hugo によるサイト管理を行う]({{< ref "/remark/2019/01/sakura-and-hugo.md" >}})
 - [Hugo v0.60 から既定の Markdown パーサが Goldmark になったようだ]({{< ref "/release/2019/11/hugo-v0_60-with-goldmark-parser.md" >}})
+- [Hugo 0.60+ 向けに reveal-hugo がアップデートされたようだ]({{< ref "/remark/2020/01/update-reveal-hugo-theme.md" >}})
 
 [reveal-hugo]: https://reveal-hugo.dzello.com/
 [Reveal-hugo]: https://reveal-hugo.dzello.com/
@@ -384,4 +385,3 @@ Web で公開することを考えるのなら Web フォントを使いたい�
 [Reveal.js]: https://revealjs.com/ "reveal.js – The HTML Presentation Framework"
 [highlight.js]: https://highlightjs.org/
 [Highlight.js]: https://highlightjs.org/
-<!-- eof -->
