@@ -21,8 +21,8 @@
 <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>{{ if .Section }}{{ $secURL := printf "/%s/" (.Section | urlize) }} &raquo; <a href="{{ $secURL | relURL }}">{{ .Site.Data.section.bookmarks.name }}</a>{{ end }}
 </nav>
 <article>
-<h1>{{ .Title }}</h1>{{ if .Site.Data.site.poweredBy }}{{ if eq .Site.Data.site.poweredBy "github" }}
-{{ partial "navi-history.html" . }}{{ end }}{{ end }}
+<h1>{{ .Title }}</h1>
+{{ partial "navi-history.html" . }}
 
 <section><div>
 {{ partial "noextension.html" . }}
