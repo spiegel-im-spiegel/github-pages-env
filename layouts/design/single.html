@@ -1,0 +1,41 @@
+{{ partial "top.html" . }}
+<head prefix="og: http://ogp.me/ns#">{{ $title := .Title | plainify }}{{ $secTitle := .Site.Data.section.design.name | plainify }}{{ $siteTitle := .Site.Title | plainify }}{{ $desc := .Description | plainify | safeHTML }}
+{{ partial "header.html" . }}
+<title>{{ $title}} — {{ $secTitle }} | {{ $siteTitle }}</title>
+<meta property="og:title" content="{{ $title}} — {{ $secTitle }} | {{ $siteTitle }}">
+<meta name="description" content="{{ $desc }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:image" content="{{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ .Site.Data.section.design.image | absURL }}{{ end }}">{{ with .Site.Data.author }}{{ if .name }}
+<meta name="author" content="{{ .name }}">{{ end }}{{ end }}
+{{ partial "twitter-card.html" . }}
+{{ partial "header-nav.html" . }}
+
+{{ partial "json-ld-design.html" . }}
+</head>
+<body>
+{{ partial "prepare.html" . }}
+<div id='container'><!-- Container Area -->
+
+<main>
+<nav class="breadcrumb">
+<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>{{ if .Section }}{{ $secURL := printf "/%s/" (.Section | urlize) }} &raquo; <a href="{{ $secURL | relURL }}">{{ .Site.Data.section.design.name }}</a>{{ end }}
+</nav>
+<article>
+<h1>{{ .Title }}</h1>
+{{ partial "navi-tag.html" . }}
+{{ partial "navi-history.html" . }}
+
+<section>
+{{ .Content }}
+</section>
+
+</article>
+</main>
+{{ partial "page-nav.html" . }}
+
+{{ partial "feedback.html" . }}
+{{ partial "footer.html" . }}
+</div><!-- Container Area -->
+{{ partial "cleanup.html" . }}
+</body>
+{{ partial "end.html" . }}

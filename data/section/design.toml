@@ -1,0 +1,5 @@
+languageCode = "ja"
+name = "デザイン・パターン"
+description = "デザイン・パターンからプログラミング言語を学ぶ。"
+sectionType = "text"
+image = "/images/attention/design.png"

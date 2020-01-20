@@ -42,6 +42,13 @@ elif [ $section == "golang" ]; then
 	else
 		p="$section/$fname"
 	fi
+elif [ $section == "design" ]; then
+	if [ ${fname:-0} == 0 ]; then
+		echo "入力ファイルを指定してください。"
+		exit 1
+	else
+		p="$section/$fname"
+	fi
 elif [ $section == "hugo" ]; then
 	if [ ${fname:-0} == 0 ]; then
 		echo "入力ファイルを指定してください。"

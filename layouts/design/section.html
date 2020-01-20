@@ -1,0 +1,110 @@
+{{ partial "top.html" . }}
+<head prefix="og: http://ogp.me/ns#">{{ $secTitle := .Site.Data.section.design.name | plainify }}{{ $siteTitle := .Site.Title | plainify }}{{ $desc := .Site.Data.section.design.description | plainify | safeHTML }}
+{{ partial "header.html" . }}{{ with .AlternativeOutputFormats.Get "RSS" }}
+<link rel="alternate" href="{{ .Permalink }}" type="application/rss+xml" title="{{ $secTitle }} | {{ $siteTitle }}">{{ end }}
+<link rel="canonical" href="{{ .Permalink }}">
+<title>{{ $secTitle }} | {{ $siteTitle }}</title>
+<meta property="og:title" content="{{ $secTitle }} | {{ $siteTitle }}">
+<meta name="description" content="{{ $desc }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:image" content="{{ .Site.Data.section.design.image | absURL }}">
+{{ partial "twitter-card.html" . }}
+
+{{ partial "json-ld-design.html" . }}
+</head>
+<body>
+{{ partial "prepare.html" . }}
+<div id='container'><!-- Container Area -->
+{{ partial "banner.html" . }}
+
+<main>
+<article>
+<h1>{{ $secTitle }}{{ with .OutputFormats.Get "RSS" }} <a href='{{ .RelPermalink }}' title='Feed'><i class='fas fa-rss'></i></a>{{ end }}</h1>
+<p>
+特定のプログラミング言語にロックインするのではなく，「デザイン・パターンをどのように実装するか」をプログラミング言語ごとに考察する試み。
+</p><p>
+教科書としては結城浩さんの『<a href="https://www.amazon.co.jp/dp/B00I8ATHGW?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1">Java言語で学ぶデザインパターン入門</a>』を教科書とし， Java, Go, Rust といったプログラミング言語を使って記述していく。
+</p>
+
+<h2>記事の一覧</h2>
+<ol>
+{{ range .Data.Pages.ByDate }}{{ partial "li-section.html" . }}{{ end }}
+</ol>
+
+<h2>収録予定のデザイン・パターン</h2>
+<p>収録できたらいいなぁ。</p>
+<ul>
+<li>Iterator－－1つ1つ数え上げる</li>
+<li>Adapter－－一皮かぶせて再利用</li>
+<li>Template Method－－具体的な処理をサブクラスにまかせる</li>
+<li>Factory Method－－インスタンス作成をサブクラスにまかせる</li>
+<li>Singleton－－たった1つのインスタンス</li>
+<li>Prototype－－コピーしてインスタンスを作る</li>
+<li>Builder－－複雑なインスタンスを組み立てる</li>
+<li>Abstract Factory－－関連する部品を組み合わせて製品を作る</li>
+<li>Bridge－－機能の階層と実装の階層を分ける</li>
+<li>Strategy－－アルゴリズムをごっそり切り替える</li>
+<li>Composite－－容器の中身の同一視</li>
+<li>Decorator－－飾り枠と中身の同一視</li>
+<li>Visitor－－構造を渡り歩きながら仕事をする</li>
+<li>Chain of　Responsibility－－責任のたらい回し</li>
+<li>Facade－－シンプルな窓口</li>
+<li>Mediator　相手は相談役一人だけ</li>
+<li>Observer－－状態の変化を通知する</li>
+<li>Memento－－状態を保存する</li>
+<li>State－－状態をクラスとして表現する</li>
+<li>Flyweight－－同じものを共用して無駄をなくす</li>
+<li>Proxy－－必要になってから作る</li>
+<li>Command－－命令をクラスにする</li>
+<li>Interpreter－－文法規制をクラスで表現する</li>
+</ul>
+
+<h2>参考図書</h2>
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B00I8ATHGW?tag=baldandersinf-22&amp;linkCode=ogi&amp;th=1&amp;psc=1"><img src="https://m.media-amazon.com/images/I/41mh5r0NwLL._SL160_.jpg" width="126" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/dp/B00I8ATHGW?tag=baldandersinf-22&amp;linkCode=ogi&amp;th=1&amp;psc=1">増補改訂版 Java言語で学ぶデザインパターン入門</a></dt>
+    <dd>結城 浩 (著)</dd>
+    <dd>SBクリエイティブ 2004-06-18 (Release 2014-03-12)</dd>
+    <dd>Kindle版</dd>
+    <dd>B00I8ATHGW (ASIN)</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">結城浩さんによる通称「デザパタ本」。 Java 以外でも使える優れもの。</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-01-05">2016-01-05</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
+</div> <!-- 増補改訂版 Java言語で学ぶデザインパターン入門 -->
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/B00I8AT1BS?tag=baldandersinf-22&amp;linkCode=ogi&amp;th=1&amp;psc=1"><img src="https://m.media-amazon.com/images/I/41uoMp5etSL._SL160_.jpg" width="126" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/dp/B00I8AT1BS?tag=baldandersinf-22&amp;linkCode=ogi&amp;th=1&amp;psc=1">増補改訂版 Java言語で学ぶデザインパターン入門 マルチスレッド編</a></dt>
+    <dd>結城 浩 (著)</dd>
+    <dd>SBクリエイティブ 2004-06-18 (Release 2014-03-12)</dd>
+    <dd>Kindle版</dd>
+    <dd>B00I8AT1BS (ASIN)</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">結城浩さんによる通称「デザパタ本」の Kindle 版。意外にも Java 以外でも応用できる優れもの。</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2018-12-07">2018-12-07</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
+</div> <!-- Java言語で学ぶデザインパターン入門 マルチスレッド編 -->
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/dp/4621300253?tag=baldandersinf-22&amp;linkCode=ogi&amp;th=1&amp;psc=1"><img src="https://m.media-amazon.com/images/I/41meaSLNFfL._SL160_.jpg" width="123" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/dp/4621300253?tag=baldandersinf-22&amp;linkCode=ogi&amp;th=1&amp;psc=1">プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES)</a></dt>
+    <dd>Alan A.A. Donovan (著), Brian W. Kernighan (著), 柴田 芳樹 (翻訳)</dd>
+    <dd>丸善出版 2016-06-20</dd>
+    <dd>単行本（ソフトカバー）</dd>
+    <dd>4621300253 (ASIN), 9784621300251 (EAN), 4621300253 (ISBN), 9784621300251 (ISBN)</dd>
+    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
+  </dl>
+  <p class="description">著者のひとりは（あの「バイブル」とも呼ばれる）通称 “K&amp;R” の K のほうである。この本は Go 言語の教科書と言ってもいいだろう。</p>
+  <p class="powered-by">reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-07-13">2016-07-13</abbr> (powered by <a href="https://affiliate.amazon.co.jp/assoc_credentials/home">PA-APIv5</a>)</p>
+</div> <!-- プログラミング言語Go -->
+
+</article>
+</main>
+
+{{ partial "footer.html" . }}
+</div><!-- Container Area -->
+{{ partial "cleanup.html" . }}
+</body>
+{{ partial "end.html" . }}

@@ -7,7 +7,6 @@ indent_style = tab
 indent_size = 4
 trim_trailing_whitespace = true
 insert_final_newline = true
-max_line_length = 2048
 
 [*.{html,shtml}]
 insert_final_newline = false
