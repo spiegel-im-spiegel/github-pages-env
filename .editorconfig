@@ -11,7 +11,7 @@ insert_final_newline = true
 [*.{html,shtml}]
 insert_final_newline = false
 
-[*.{css,pu,puml,toml}]
+[*.{css,pu,puml,toml,json}]
 indent_style = space
 indent_size = 2
 
