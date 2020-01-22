@@ -30,13 +30,13 @@ NASA が1977年に打ち上げた探査機 [Voyager] 2 が太陽圏を抜けて�
 
 {{< fig-youtube id="MGPM58S5Njg" title="NASA’s Voyager 2 Enters Interstellar Space - YouTube" >}}
 
-現在 [Voyager] 2 は地球から $120\,\mathrm{au}$ ($1\,\mathrm{au}$ は約1.5億キロメートル[^au1]) 離れた場所にいるらしい。
+現在 [Voyager] 2 は地球から $120\\,\mathrm{au}$ ($1\\,\mathrm{au}$ は約1.5億キロメートル[^au1]) 離れた場所にいるらしい。
 ちなみに光の速度でも16.5時間かかる距離である。
 
-[^au1]: 昔の天文単位（astronomical unit; au）は地球の公転半径（厳密には「1日あたり $0.01720209895\,\mathrm{rad}$ の角速度で太陽の周りを等速円運動する質点の軌道半径」）を表す観測値だったが，現在では定数として $1\,\mathrm{au} = 149,597,870,700\,\mathrm{m}$ と定義されている。詳しくは拙文「[暦の改訂と天文単位の再定義]({{< ref "/remark/2018/12/from-de405-to-de430.md" >}})」を参照のこと。
+[^au1]: 昔の天文単位（astronomical unit; au）は地球の公転半径（厳密には「1日あたり $0.01720209895\\,\mathrm{rad}$ の角速度で太陽の周りを等速円運動する質点の軌道半径」）を表す観測値だったが，現在では定数として $1\\,\mathrm{au} = 149,597,870,700\\,\mathrm{m}$ と定義されている。詳しくは拙文「[暦の改訂と天文単位の再定義]({{< ref "/remark/2018/12/from-de405-to-de430.md" >}})」を参照のこと。
 
 実はよく分かっていなかったのだが「太陽圏（heliosphere）」というのは太陽風の影響を受ける範囲を指すそうだ。
-太陽系全体で言うと，太陽圏の更に外側にオールト雲（Oort Cloud）があり，太陽から見て $1,000\,\mathrm{au}$ ～ $100,000\,\mathrm{au}$ に渡って広がっていると推測されている。
+太陽系全体で言うと，太陽圏の更に外側にオールト雲（Oort Cloud）があり，太陽から見て $1,000\\,\mathrm{au}$ ～ $100,000\\,\mathrm{au}$ に渡って広がっていると推測されている。
 
 {{< fig-img src="https://photojournal.jpl.nasa.gov/jpeg/PIA22921.jpg" width="1920" title="Space Images | Voyager 2 and the Scale of the Solar System (Artist Concept)" link="https://www.jpl.nasa.gov/spaceimages/details.php?id=PIA22921" >}}
 

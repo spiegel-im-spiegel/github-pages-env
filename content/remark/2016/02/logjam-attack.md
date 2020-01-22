@@ -90,8 +90,8 @@ main table.nist td  {
 </figure>
 {{< /div-gen >}}
 
-2030年以降も安全に使える暗号強度は $128\,\mathrm{bits}$ 以上だと言われている。
-Logjam 攻撃では $L=512\,\mathrm{bits}$ にダウングレードさせられるが全くお話にならない強度だということが分かるだろう。
+2030年以降も安全に使える暗号強度は $128\\,\mathrm{bits}$ 以上だと言われている。
+Logjam 攻撃では $L=512\\,\mathrm{bits}$ にダウングレードさせられるが全くお話にならない強度だということが分かるだろう。
 
 暗号について詳しくは拙文「[わかる！ OpenPGP 暗号](https://baldanders.info/spiegel/cc-license/)」の「[暗号に関する雑多な話](https://baldanders.info/spiegel/cc-license/#appendix)」あたりをどうぞ。
 また [FREAK については Gist にまとめている](https://gist.github.com/spiegel-im-spiegel/47f340122c895ccc8bb8)ので，そちらも参考にどうぞ。

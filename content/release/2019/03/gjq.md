@@ -170,7 +170,7 @@ Filter>
 調べてみるか。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[spiegel-im-spiegel/gjq]: https://github.com/spiegel-im-spiegel/gjq "spiegel-im-spiegel/gjq: Another Implementation of "jq" by golang"
+[spiegel-im-spiegel/gjq]: https://github.com/spiegel-im-spiegel/gjq "spiegel-im-spiegel/gjq: Another Implementation of \"jq\" by golang"
 [jq]: https://stedolan.github.io/jq/
 [simeji/jid]: https://github.com/simeji/jid "simeji/jid: json incremental digger"
 [savaki/jq]: https://github.com/savaki/jq "savaki/jq: A high performance Golang implementation of the incredibly useful jq command line tool."

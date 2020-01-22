@@ -82,14 +82,14 @@ MathJax = {
 | Macros                                | $\mathrm{\LaTeX}$ Format       | Output                |
 |:------------------------------------- |:----------------------- |:--------------------- |
 | `tcdegree: ['\\unicode{xb0}']`        | `$35\tcdegree$`         | $35\tcdegree$         |
-| `tccelsius: ['\\unicode{x2103}']`     | `$35\,\tccelsius$`      | $35\,\tccelsius$      |
-| `tcperthousand: ['\\unicode{x2030}']` | `$35\,\tcperthousand$`  | $35\,\tcperthousand$  |
-| `tcmu: ['\\unicode{x3bc}']`           | `$35\,\tcmu\mathrm{s}$` | $35\,\tcmu\mathrm{s}$ |
-| `tcohm: ['\\unicode{x3a9}']`          | `$35\,\tcohm$`          | $35\,\tcohm$          | 
+| `tccelsius: ['\\unicode{x2103}']`     | `$35\\,\tccelsius$`      | $35\\,\tccelsius$      |
+| `tcperthousand: ['\\unicode{x2030}']` | `$35\\,\tcperthousand$`  | $35\\,\tcperthousand$  |
+| `tcmu: ['\\unicode{x3bc}']`           | `$35\\,\tcmu\mathrm{s}$` | $35\\,\tcmu\mathrm{s}$ |
+| `tcohm: ['\\unicode{x3a9}']`          | `$35\\,\tcohm$`          | $35\\,\tcohm$          | 
 
-- `\tccelsius` は `\tcdegree\mathrm{C}` でもいける（`$35\,\tcdegree\mathrm{C}$` →  $35\,\tcdegree\mathrm{C}$）。これなら華氏にも応用できる（`$35\,\tcdegree\mathrm{F}$` →  $35\,\tcdegree\mathrm{F}$）
+- `\tccelsius` は `\tcdegree\mathrm{C}` でもいける（`$35\\,\tcdegree\mathrm{C}$` →  $35\\,\tcdegree\mathrm{C}$）。これなら華氏にも応用できる（`$35\\,\tcdegree\mathrm{F}$` →  $35\\,\tcdegree\mathrm{F}$）
 - `\tcmu` は `\symup{\mu}` みたいにしたいのだが `\symup` コマンドに相当するものが [MathJax] にないっぽい
-- `\tcohm` は `\Omega` と等価，というかフォントのバランスを考えると `\Omega` を使ったほうがいいと思う（`$35\,\Omega$` →  $35\,\Omega$）
+- `\tcohm` は `\Omega` と等価，というかフォントのバランスを考えると `\Omega` を使ったほうがいいと思う（`$35\\,\Omega$` →  $35\\,\Omega$）
 
 ## ブックマーク
 

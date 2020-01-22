@@ -36,7 +36,7 @@ title = "今日の戯れ言"
 続報にある改良版にしても計算量は $2^{69.5}$ で大幅に少なくなっているものの，解読に必要なデータ量は $2^{64}$ であり，これも現実的な脅威ではないようである。
 
 MISTY1 は [CRYPTREC 暗号リスト](http://cryptrec.go.jp/list.html)において「推奨候補暗号リスト」のひとつとして挙げられている。
-なおブロック暗号については，可能であれば $128\,\mathrm{bits}$ のブロック長のもの（AES や Camellia など）を選択ことが推奨されている。
+なおブロック暗号については，可能であれば $128\\,\mathrm{bits}$ のブロック長のもの（AES や Camellia など）を選択ことが推奨されている。
 
 そうそう。
 CRYPTREC といえば [CRYPTREC Report 2014](http://cryptrec.go.jp/topics/cryptrec_20150716_c14report.html) が出てるのだった。
