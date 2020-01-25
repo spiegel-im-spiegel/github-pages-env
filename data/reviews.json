@@ -9927,7 +9927,7 @@
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2019-12-11",
+    "Date": "2015-04-19",
     "Rating": 4,
     "Star": [
       true,
@@ -11523,5 +11523,67 @@
       false
     ],
     "Description": "セキュリティ管理者をやってた頃は，これで勉強しました。絶版だよなぁ，これ。名著なのに。時事的な情報は古いが，今でも十分通用する内容だと思う。誰か（日経BP以外）電子化して！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B015SAFX5I",
+      "Title": "イミテーション・ゲーム／エニグマと天才数学者の秘密(吹替版)",
+      "URL": "https://www.amazon.co.jp/dp/B015SAFX5I?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51Xgkj7WNdL._SL160_.jpg",
+        "Height": 160,
+        "Width": 120
+      },
+      "ProductType": "Prime Video",
+      "Creators": [
+        {
+          "Name": "ベネディクト・カンバーバッチ",
+          "Role": "出演"
+        },
+        {
+          "Name": "キーラ・ナイトレイ",
+          "Role": "出演"
+        },
+        {
+          "Name": "マシュー・グード",
+          "Role": "出演"
+        },
+        {
+          "Name": "ロリー・キニア",
+          "Role": "出演"
+        },
+        {
+          "Name": "モルテン・ティルドゥム",
+          "Role": "監督"
+        },
+        {
+          "Name": "グラハム・ムーア",
+          "Role": "Writer"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B015SAFX5I"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2015-10-02",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2015-04-19",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "いや，本当に面白かった。春先にこんな素敵な作品が見れるなんて。感想は\u003ca href=\"https://baldanders.info/blog/000833/\"\u003eこちら\u003c/a\u003e。"
   }
 ]

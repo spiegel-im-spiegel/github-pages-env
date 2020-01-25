@@ -63,9 +63,9 @@ Tweet された方や「某大の講師の方」がどのようなつもりで�
 
 ## ブックマーク
 
-- [「イミテーション・ゲーム」が面白かった。](https://baldanders.info/blog/000833/)
 - [Project Euler で遊ぶ]({{< ref "/remark/2018/03/project-euler.md" >}})
 
 ## 参考図書
 
 {{% review-paapi "B077PDFQ4S" %}} <!-- 数独 -->
+{{% review-paapi "B015SAFU42" %}} <!-- イミテーション・ゲーム -->

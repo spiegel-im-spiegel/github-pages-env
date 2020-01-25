@@ -100,6 +100,8 @@ $ wget https://baldanders.info/pubkeys/spiegel.asc -O - | gpgpdump
 
 ## ブックマーク
 
+- ["SHA-1 is a Shambles" and forging PGP WoT signatures](https://mailarchive.ietf.org/arch/msg/openpgp/h-6vCMDFFKhVXpXLC6gAt9tK7r8)
+
 - [OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）]({{< ref "/openpgp/algorithms-for-openpgp.md" >}})
 
 [OpenPGP]: https://www.openpgp.org/

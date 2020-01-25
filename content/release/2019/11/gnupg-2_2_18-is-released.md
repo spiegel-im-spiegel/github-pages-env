@@ -81,8 +81,9 @@ Release-info: https://dev.gnupg.org/T4684
 
 ## ブックマーク
 
-- [OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）]({{< ref "/openpgp/algorithms-for-openpgp.md" >}})
+- ["SHA-1 is a Shambles" and forging PGP WoT signatures](https://mailarchive.ietf.org/arch/msg/openpgp/h-6vCMDFFKhVXpXLC6gAt9tK7r8)
 
+- [OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）]({{< ref "/openpgp/algorithms-for-openpgp.md" >}})
 - [SHA-1 衝突問題： 廃止の前倒し]({{< ref "/remark/2015/problem-of-sha1-collision.md" >}})
 - [最初の SHA-1 衝突例]({{< ref "/remark/2017/02/sha-1-collision.md" >}})
 - [（何度目かの）さようなら SHA-1]({{< ref "/remark/2020/01/sayonara-sha-1.md" >}})
