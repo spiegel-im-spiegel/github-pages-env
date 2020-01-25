@@ -151,6 +151,11 @@ t2 - t1 = 1 sec
 
 [^ls2]: 情報処理の高速化により秒単位ではギャップが大きくなりすぎるため。またサービスの可用性（availability）に対する要求が高くなったという点も挙げられるだろう。
 
+## ブックマーク
+
+- [Y2038: It's a Threat](https://www.cs.columbia.edu/~smb/blog/2020-01/2020-01-19.html)
+    - [ブログ: Y2038: それは脅威です](https://okuranagaimo.blogspot.com/2020/01/y2038.html?m=1)
+
 - [うるう秒は当分存続らしい]({{< ref "/remark/2015/leap-second.md" >}})
 - [「暦」日本史 （再掲載）]({{< ref "/remark/2015/japanese-koyomi.md" >}})
 

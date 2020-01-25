@@ -54,6 +54,8 @@ LT のスライドは以下に置いてある。
 
 ## ブックマーク
 
+- [第3回 Shimane.go の様子 - Togetter](https://togetter.com/li/1459564)
+
 - [Hugo でスライド・サイトを立てる実験]({{< ref "/remark/2019/12/slide-site-by-hugo.md" >}})
 
 [Shimane.go#03]: https://shimane-go.connpass.com/event/159977/ "Shimane.go#03 - connpass"
