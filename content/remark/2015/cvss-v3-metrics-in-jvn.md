@@ -121,9 +121,10 @@ CVSS を使ってセキュリティ対策のプロセスをきちんと回せる
 
 ## 関連リンク
 
-- [CVSS v3.0 Specification Document](https://www.first.org/cvss/specification-document)
+- [CVSS v3.0 Specification Document](https://www.first.org/cvss/v3.0/specification-document)
 - [共通脆弱性評価システムCVSS v3概説：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/vuln/CVSSv3.html)
 - [CVSSv3 用の node.js モジュールを作ってみた - Qiita](http://qiita.com/spiegel-im-spiegel/items/d6fe10d3df92b9d8556b) : 記事では「基本評価基準のみ実装」と書いているが，一応フルセット実装している
     - [spiegel-im-spiegel/cvss3](https://github.com/spiegel-im-spiegel/cvss3) : node.js 0.12 で動作確認。 4.x や 5.x で動作するかどうかは分からない
 - [node.js の CVSS v3 モジュールを使ってデモページを作ってみた - Qiita](http://qiita.com/spiegel-im-spiegel/items/f2db3759b957206d4521)
     - [Demo for CVSS v3](https://baldanders.info/spiegel/archive/cvss/cvss3.html)
+- [spiegel-im-spiegel/go-cvss: Common Vulnerability Scoring System (CVSS) Version 3](https://github.com/spiegel-im-spiegel/go-cvss)
