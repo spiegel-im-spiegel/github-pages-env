@@ -757,6 +757,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Big Sky :: SQLite3 でロジスティック回帰](https://mattn.kaoriya.net/software/ml/20190512003509.htm)
 - [golang-migrate/migrateパッケージを使ってみる - Qiita](https://qiita.com/daijuk/items/2b43781c5a38923f864b)
 - [GoのアプリケーションにDatadogAPMを導入する。 - Qiita](https://qiita.com/istsh/items/72b0f2c0ef345e57aaf4)
+- [GoのDBライブラリについて調べてみた - Speaker Deck](https://speakerdeck.com/ryer/gofalsedbraiburarinituitediao-betemita)
 
 ### DB 連携 with GraphQL
 

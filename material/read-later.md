@@ -20,6 +20,7 @@
     - [グーグルとMS、欧州での顔認識技術の一時利用禁止の議論めぐり異なる見解 - ZDNet Japan](https://japan.zdnet.com/article/35148311/)
 - [Half a Million IoT Device Passwords Published - Schneier on Security](https://www.schneier.com/blog/archives/2020/01/half_a_million_.html)
 - [Amazon CEOのiPhoneハッキング疑惑についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/01/24/070652)
+    - [Technical Report of the Bezos Phone Hack - Schneier on Security](https://www.schneier.com/blog/archives/2020/01/technical_repor.html)
 
 ## 天文関連
 
@@ -47,5 +48,8 @@
 - [The Documentation Team announces the Math Guide 6.4 - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2020/01/22/the-documentation-team-announces-the-math-guide-6-4/)
 - [ODF 1.3 approved as OASIS Committee Specification - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2020/01/21/odf-1-3-approved-as-oasis-committee-specification/)
     - [ODF 1.3、OASIS委員会の標準として承認 - LibreOffice日本語チームBlog](https://ja.blog.documentfoundation.org/2020/01/23/odf-1-3-approved-as-oasis-committee-specification/)
+- [Exclusive: Apple dropped plan for encrypting backups after FBI complained - sources - Reuters](https://www.reuters.com/article/us-apple-fbi-icloud-exclusive/exclusive-apple-dropped-plan-for-encrypting-backups-after-fbi-complained-sources-idUSKBN1ZK1CT)
+- [Addressing 2019](https://www.potaroo.net/ispcol/2020-01/addr2019.html)
+    - [ブログ: 2019年のアドレッシング](https://okuranagaimo.blogspot.com/2020/01/2019.html)
 
 <!-- eof -->
