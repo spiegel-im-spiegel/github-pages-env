@@ -27,10 +27,16 @@ pageType = "text"
 「動径脈動」は変光範囲や周期がだいたい決まっている。
 で，今回のベテルギウスは従来の規則性を超えて大きく減光したため「何かあった（またはある）んじゃねーの？」という話になったわけだ。
 
-もっとも，最新情報としては，ベテルギウスの減光は既に底を打って増光に転じているらしい，との話もある。
+一時期，増光に転じて底を打ったかと思われたが
 
 {{< fig-gen >}}
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ベテルギウス　AAVSOのCCD測光のグラフです。<br>どうやら底を打って増光に転じたようです。 <a href="https://t.co/G5tZkSgG03">pic.twitter.com/G5tZkSgG03</a></p>&mdash; 大島　修 (@osm2osm) <a href="https://twitter.com/osm2osm/status/1219823282486009856?ref_src=twsrc%5Etfw">January 22, 2020</a></blockquote>
+{{< /fig-gen >}}
+
+あれからまた減光に転じて以前よりも更に暗くなっているようだ（2020-0129 追記）。
+
+{{< fig-gen lang="en" >}}
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">My visual mag from last night was 1.57 (avg of 17 observations). That is 0.08 mag dimmer than the avg of the 5 previous nights (n=116, 1.8σ). <a href="https://twitter.com/hashtag/Betelgeuse?src=hash&amp;ref_src=twsrc%5Etfw">#Betelgeuse</a> <a href="https://t.co/vHAzAdkbZo">pic.twitter.com/vHAzAdkbZo</a></p>&mdash; Betelgeuse Status (@betelbot) <a href="https://twitter.com/betelbot/status/1221478881166876672?ref_src=twsrc%5Etfw">January 26, 2020</a></blockquote>
 {{< /fig-gen >}}
 
 更に別の記事では

@@ -89,6 +89,7 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 - [Firefox  72.0.2, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/72.0.2/releasenotes/)
 - [Firefox  72.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/72.0.1/releasenotes/)
+    - [Firefox の脆弱性 (CVE-2019-17026) に関する注意喚起](https://www.jpcert.or.jp/at/2020/at200005.html)
 - [Firefox  72.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/72.0/releasenotes/)
 - [Firefox  71.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/71.0/releasenotes/)
 - [Firefox  70.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/70.0.1/releasenotes/)
@@ -101,7 +102,8 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 | Official | Release    |                       Ubuntu | Release    |   delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
-|   68.4.1 | 2020-01-09 | 68.4.1+build1-0 (USN-4241-1) | 2020-01-16 | 7 days |
+|   68.4.2 | 2020-01-24 |                              |            | ∞ days |
+|   68.4.1 | 2020-01-09 | 68.4.1+build1-0 (USN-4241-1) | 2020-01-16 |  7 days |
 |   68.3.1 | 2019-12-16 |                      &mdash; | &mdash;    | &mdash; |
 |   68.3.0 | 2019-12-03 |                      &mdash; | &mdash;    | &mdash; |
 |   68.2.2 | 2019-11-07 | 68.2.2+build1-0 (USN-4202-2) | 2019-12-10 | 1 month |
@@ -114,6 +116,7 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (68.4.2) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.4.2/releasenotes/)
 - [Thunderbird — Release Notes (68.4.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.4.1/releasenotes/)
 - [Thunderbird — Release Notes (68.3.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.3.1/releasenotes/)
 - [Thunderbird — Release Notes (68.3.0) — Mozilla](https://www.thunderbird.net/en-US/thunderbird/68.3.0/releasenotes/)
@@ -162,12 +165,14 @@ Java というか [OpenJDK] のセキュリティ管理は LTS (Long Term Suppor
 
 | Official | Release    |                   Ubuntu | Release    |    delay |
 | --------:| ---------- | ------------------------:| ---------- | --------:|
+|   11.0.6 | 2020-01-14 | 11.0.6+10-1 (USN-4257-1) | 2020-01-28 |  2 weeks |
 |   11.0.5 | 2019-10-15 | 11.0.5+10-0 (USN-4223-1) | 2019-12-17 | 2 months |
-|   11.0.4 | 2019-07-16 | 11.0.4+11-1 (USN-4083-1) | 2019-07-31 |  15 days |
-|   11.0.3 | 2019-04-16 |  11.0.3+7-1 (USN-3975-1) | 2019-05-14 |  28 days |
+|   11.0.4 | 2019-07-16 | 11.0.4+11-1 (USN-4083-1) | 2019-07-31 |  3 weeks |
+|   11.0.3 | 2019-04-16 |  11.0.3+7-1 (USN-3975-1) | 2019-05-14 |  4 weeks |
 
 ### ブックマーク
 
+- [OpenJDK Vulnerability Advisory: 2020/01/14](https://openjdk.java.net/groups/vulnerability/advisories/2020-01-14)
 - [OpenJDK Vulnerability Advisory: 2019/10/15](https://openjdk.java.net/groups/vulnerability/advisories/2019-10-15)
 - [OpenJDK Vulnerability Advisory: 2019/7/16](https://openjdk.java.net/groups/vulnerability/advisories/2019-07-16)
     - [Oracle Java の脆弱性対策について(CVE-2019-7317等)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20190717-jre.html)

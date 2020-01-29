@@ -16,9 +16,6 @@ pageType = "text"
 - [Improved base templates, and faster! | Hugo](https://gohugo.io/news/0.63.0-relnotes/)
 - [Hugo 0.63.1: A couple of Bug Fixes | Hugo](https://gohugo.io/news/0.63.1-relnotes/)
 
-## バベルのインターネット
-
-
 ## セキュリティ＆プライバシー関連
 
 - [ログ消去もされていた三菱電機の不正アクセスについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/01/20/172436)
@@ -38,9 +35,6 @@ pageType = "text"
 - [双曲線軌道を描く天体の起源―恒星間天体か？それともオールトの雲からか？― | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2020/20200117-rise.html)
 - [ニュース - 彗星と星形成領域にリンを含む分子を検出 －アルマ望遠鏡と彗星探査機ロゼッタの協働 - アルマ望遠鏡](https://alma-telescope.jp/news/phosphorus-202001)
 - [極・宇宙を解く: 現代天文学演習 | 福江 純, 沢 武文, 高橋真聡 |本 | 通販 | Amazon](https://www.amazon.co.jp/dp/4769916434?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)
-
-## 知財関連
-
 
 ## Linux または Ubuntu に関する話題
 
