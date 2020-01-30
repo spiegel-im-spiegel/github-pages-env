@@ -5,7 +5,7 @@ tags = ["my-number", "security", "risk", "authentication", "certification", "pas
 title = "個人番号カードを発行してもらいました"
 
 [scripts]
-  mathjax = false
+  mathjax = true
   mermaidjs = false
 +++
 
