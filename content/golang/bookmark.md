@@ -114,6 +114,10 @@ image = "/images/attention/go-logo_blue.png"
 
 - [Go 1.14 Release Notes - The Go Programming Language](https://tip.golang.org/doc/go1.14)
 
+### Go 1.14 Proposals
+
+- [Proposals for Go 1.15 - The Go Blog](https://blog.golang.org/go1.15-proposals)
+
 ### Go 2 Draft
 
 次期 Go 言語の仕様について（一部は 1.11, 1.12 に取り込まれている）
@@ -191,6 +195,7 @@ image = "/images/attention/go-logo_blue.png"
 - [Goの基本的な型変換 - Qiita](https://qiita.com/lostfind/items/ad7bfc1a4860bb108b9c)
 - [[Go]Sliceを含んだ構造体が等値演算子（==）でpanicを引き起こすのを回避する #golang - My External Storage](https://budougumi0617.github.io/2019/07/07/prevent-runtime-error-by-pointer/)
 - [Go言語のInterfaceの考え方、Accept interfaces,return structs - Qiita](https://qiita.com/weloan/items/de3b1bcabd329ec61709)
+- [[Go] Named typeとType aliasを使い分ける - My External Storage](https://budougumi0617.github.io/2020/02/01/go-named-type-and-type-alias/)
 
 #### 数値型
 
