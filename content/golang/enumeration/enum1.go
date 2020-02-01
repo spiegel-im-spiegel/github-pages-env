@@ -24,7 +24,7 @@ var encodingMap = map[CharEncoding]string{
 
 func GetEncoding(s string) CharEncoding {
 	for key, value := range encodingMap {
-		if strings.ToLower(value) == strings.ToLower(s) {
+		if strings.EqualFold(value, s) {
 			return key
 		}
 	}

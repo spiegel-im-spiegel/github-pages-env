@@ -163,7 +163,7 @@ func main() {
 ```go
 func GetCharEncoding(s string) CharEncoding {
     for key, value := range encodingNameMap {
-        if strings.ToLower(value) == strings.ToLower(s) {
+        if strings.EqualFold(value, s) {
             return key
         }
     }
