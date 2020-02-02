@@ -238,7 +238,7 @@ Slice 型, Map 型, 関数型は比較可能ではないが `nil` とは比較�
 ## Interface 型の比較可能性
 
 Interface 型は型情報と値への参照を属性として持っている。
-Interface 型が参照している型を動的な型（dynamic type），値を動的な値（dynamic value）と呼ぶ。
+Interface 型が参照している型を動的な型（dynamic type），参照値を動的な値（dynamic value）と呼ぶ。
 動的な型も値も実行時に決まるからだ。
 
 たとえば
@@ -269,12 +269,12 @@ func main() {
 {{< fig-img src="https://research.swtch.com/gointer2.png" link="https://research.swtch.com/interfaces" >}}
 {{< /fig-quote >}}
 
-Interface 型は，参照する動的な型が比較可能であれば，比較可能である。
+Interface 型は，動的な型が比較可能であれば，比較可能である。
 
 ### Interface 型の比較
 
-Interface 型インスタンスが参照する動的な型が等価で比較可能あれば値の等値性を調べられる。
-更に Interface 型インスタンスが参照する動的な型と等価な型のインスタンスとも（比較可能な型であれば）比較できる。
+Interface 型インスタンスの動的な型が等価で比較可能あれば値の等値性を調べられる。
+更に Interface 型インスタンスの動的な型と等価な型のインスタンスとも（比較可能な型であれば）比較できる。
 
 ```go
 package main
