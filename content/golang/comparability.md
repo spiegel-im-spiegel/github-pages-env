@@ -328,7 +328,7 @@ Panic を回避するには比較する前に動的な型が比較可能かど�
 動的な型が比較可能かどうか調べるには [`reflect`] パッケージが使える。
 たとえば，こんな感じでどうだろう。
 
-```go
+```go {hl_lines=["9-11"]}
 package main
 
 import (
@@ -353,7 +353,7 @@ func main() {
 まぁ，実際に組み込むには（動的な型がポインタの際の処理など）もう少し工夫がいるだろう。
 また，一般的に [`reflect`] は遅いと言われてるので，他の手段も考える必要があるかもしれない。
 
-たとえば [`errors`]`.Is()` 関数は
+たとえば標準の [`errors`]`.Is()` 関数は
 
 ```go {hl_lines=[7]}
 // Is reports whether any error in err's chain matches target.
