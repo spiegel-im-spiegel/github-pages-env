@@ -51,6 +51,10 @@ pageType = "text"
 - 2021-11-19 に部分月食がある。日本でも見られる
 - 2021-12-04 に皆既日食がある。日本では見られない
 
+ちなみに2021年の立春は2月3日だが，立春が2月4日から動くのは {{< pdf-file title="1984年" link="https://eco.mtk.nao.ac.jp/koyomi/yoko/pdf/yoko1984.pdf" >}} ぶりで，しかも2月3日になるのは[1897年](https://library.nao.ac.jp/kichou/archive/9053/M30/kmview.html)ぶりらしい。
+二十四節気は太陽黄経で決まるので割と動くイメージだったのだが，そうでもないようだ。
+以前に「[秋分の日が動き出す](https://eco.mtk.nao.ac.jp/koyomi/topics/html/topics2012_2.html)」とか話題になったな。
+
 ## そういえば...
 
 昨年はこの時期にこの手の記事を書かなかったな。
