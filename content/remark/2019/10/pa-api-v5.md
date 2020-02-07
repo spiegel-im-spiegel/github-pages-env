@@ -1,7 +1,7 @@
 +++
 title = "PA-API v5 への移行"
 date =  "2019-10-06T15:46:03+09:00"
-description = "これによると 2019-11-30 までに v5 に移行する必要があるらしい。"
+description = "これによると 2020-03-09 までに v5 に移行する必要があるらしい。"
 image = "/images/attention/kitten.jpg"
 tags = [ "amazon", "pa-api", "market", "engineering" ]
 pageType = "text"
@@ -17,6 +17,12 @@ pageType = "text"
 - [PA-API v5 移行ガイド](https://affiliate.amazon.co.jp/help/node/topic/GZH32YX29UH5GACM)
 
 これによると 2019-11-30 までに v5 に移行する必要があるらしい。
+
+{{< div-box type="markdown" >}}
+**【2020-02-08 追記】**
+v5 への移行期限が 2020-03-09 まで延長になったようだ。
+ユーザに周知されてなかったのかな（笑）
+{{< /div-box >}}
 
 v4 では GET リクエストで XML 形式のデータを返していたが， v5 では POST リスエストで JSON 形式のデータを返す。
 
