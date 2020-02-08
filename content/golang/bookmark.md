@@ -163,6 +163,7 @@ image = "/images/attention/go-logo_blue.png"
 - [Go's Declaration Syntax - The Go Blog](https://blog.golang.org/gos-declaration-syntax)
 - [[Go] タグなし switchは switch true {...}と等しい - My External Storage](https://budougumi0617.github.io/2019/11/10/switch-statement-in-go/)
 - [Go の命名規則 | micnncim](https://micnncim.com/post/2019/12/11/go-naming-conventions/)
+- [Go: How Are Loops Translated to Assembly? - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-how-are-loops-translated-to-assembly-835b985309b3)
 
 ### オブジェクトに関すること
 
