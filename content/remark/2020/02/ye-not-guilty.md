@@ -39,7 +39,9 @@ pageType = "text"
 
 ## ブックマーク
 
+- [サイトオーナーがページの広告掲載の代わりにマイニング・コードを仕込むのはヤクザの「みかじめ料」と同じ]({{< ref "/remark/2017/12/28-stories.md#gray" >}})
 - [鬼ごっこと責任転嫁と人身御供]({{< ref "/remark/2018/01/japanese-gossips.md" >}})
+- [「計算機・ネットワークは有益な目的に使おう」]({{< ref "/remark/2019/03/the-crawling-chaos.md#coinhive" >}})
 
 ## 参考図書
 

@@ -32,7 +32,7 @@ pageType = "text"
 - [How to use I2P on Android – Masayuki Hatta – Medium](https://medium.com/@mhatta/how-to-use-i2p-on-android-91dd379fdb65?fbclid=IwAR1kckWLLLJv1U_8-FIreYOm0rWJcckV_p_OUpolUFe_BH2G-4voDfDyyxk)
 - [The I2P Out-of-the-Box: Try I2P easily with I2P Firefox Browser Profile](https://medium.com/@mhatta/the-i2p-out-of-the-box-try-i2p-easily-with-i2p-firefox-browser-profile-3649ab8e8ff2)
 
-## 「計算機・ネットワークは有益な目的に使おう」
+## 「計算機・ネットワークは有益な目的に使おう」{#coinhive}
 
 全く関心領域外だったのだが，ケーサツが何やらイチャモンを付けて反撃された挙げ句に裁判で負けたらしい。
 以下の記事が参考になるだろう（きちんと論点が切り分けられているという意味で）。
