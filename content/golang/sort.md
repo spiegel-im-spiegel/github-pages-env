@@ -358,6 +358,7 @@ func main() {
 - [golang でクイックソートを並列化してみる - 長文書くところ](http://zenito9970.hatenablog.com/entry/2015/05/30/155726)
 - [「ソート」を極める！ 〜 なぜソートを学ぶのか 〜 - Qiita](https://qiita.com/drken/items/44c60118ab3703f7727f) : ソート・アルゴリズムの概説。よくまとまっている
 - [Goでスターリンソート - Qiita](https://qiita.com/karaimonoOitii/items/d9dfd8b9d3708ca947d9) : （笑）
+- [Quicksort の攻撃方法 - Sideswipe](http://kazoo04.hatenablog.com/entry/2012/12/10/183847)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`sort`]: https://golang.org/pkg/sort/ "sort - The Go Programming Language"

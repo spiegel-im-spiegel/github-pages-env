@@ -78,6 +78,7 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 | Official | Release    |                       Ubuntu | Release    |   delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
+|     73.0 | 2020-02-11 |                              |            | ∞ days |
 |   72.0.2 | 2020-01-20 | 72.0.2+build1-0 (USN-4234-2) | 2020-01-30 | 10 days |
 |   72.0.1 | 2020-01-08 | 72.0.1+build1-0 (USN-4234-1) | 2020-01-09 |   1 day |
 |     72.0 | 2020-01-07 |                      &mdash; | &mdash;    | &mdash; |
@@ -87,6 +88,7 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ### ブックマーク
 
+- [Firefox  73.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/73.0/releasenotes/)
 - [Firefox  72.0.2, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/72.0.2/releasenotes/)
 - [Firefox  72.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/72.0.1/releasenotes/)
     - [Firefox の脆弱性 (CVE-2019-17026) に関する注意喚起](https://www.jpcert.or.jp/at/2020/at200005.html)
@@ -102,7 +104,8 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 | Official | Release    |                       Ubuntu | Release    |   delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
-|   68.4.2 | 2020-01-24 |                              |            | ∞ days |
+|   68.5.0 | 2020-02-11 |                              |            | ∞ days |
+|   68.4.2 | 2020-01-24 |                      &mdash; | &mdash;    | &mdash; |
 |   68.4.1 | 2020-01-09 | 68.4.1+build1-0 (USN-4241-1) | 2020-01-16 |  7 days |
 |   68.3.1 | 2019-12-16 |                      &mdash; | &mdash;    | &mdash; |
 |   68.3.0 | 2019-12-03 |                      &mdash; | &mdash;    | &mdash; |
@@ -116,6 +119,7 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (68.5.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.5.0/releasenotes/)
 - [Thunderbird — Release Notes (68.4.2) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.4.2/releasenotes/)
 - [Thunderbird — Release Notes (68.4.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.4.1/releasenotes/)
 - [Thunderbird — Release Notes (68.3.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.3.1/releasenotes/)
