@@ -39,3 +39,9 @@ pageType = "text"
 
 ところで，そろそろ「新型コロナウイルス」って言うの止めない？ それ言ったら SARS だって当時は新型のコロナウイルスだったんだよ。
 だからといって 2019-nCoV とか COVID-19 とかってのは記号に過ぎないので日常会話には使えないだろうけど。
+
+## ブックマーク
+
+- [Coronavirus disease 2019](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
+- [新型コロナウイルス（2019-nCoV）関連情報について](https://www.niid.go.jp/niid/ja/diseases/ka/corona-virus/2019-ncov/9324-2019-ncov.html)
+    - [新型コロナウイルス（2019-nCoV）関連情報ページ](https://www.niid.go.jp/niid/ja/diseases/ka/corona-virus/2019-ncov.html)

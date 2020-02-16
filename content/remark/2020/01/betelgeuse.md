@@ -65,6 +65,11 @@ pageType = "text"
 
 - [MIT Tech Review: オリオン座のベテルギウスが急速に減光、超新星爆発の兆候か](https://www.technologyreview.jp/s/179481/a-star-called-betelgeuse-might-be-ready-to-explode-into-a-giant-supernova/) : この手の報道が急速に増えてねぇ。やっぱ MIT Tech Review はダメダメか？
 - [ニュース - アルマ望遠鏡がとらえたベテルギウス - アルマ望遠鏡](https://alma-telescope.jp/news/betelgeuse-201801) : 2018年の過去記事なのでご注意を
+- [ESO Telescope Sees Surface of Dim Betelgeuse | ESO](https://www.eso.org/public/news/eso2003/)
+    - [Is Betelgeuse Approaching a Crossroads? - Sky & Telescope](https://www.skyandtelescope.com/astronomy-news/observing-news/is-betelgeuse-approaching-a-crossroads/)
+    - [減光し続ける「ベテルギウス」の最新画像が公開。2月下旬から増光に転じる様子 - sorae 宇宙へのポータルサイト](https://sorae.info/astronomy/20200215-betelgeuse.html)
+
+{{< fig-youtube id="OjgfS4mYUT4" title="From Betelgeuse’s surroundings to its surface - YouTube" >}}
 
 ## 参考図書
 

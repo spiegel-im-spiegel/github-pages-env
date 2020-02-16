@@ -110,11 +110,11 @@ image = "/images/attention/go-logo_blue.png"
 - [スライドまとめ on Go 1.13 Release Party in Tokyo（非公式） - Qiita](https://qiita.com/usk81/items/b2803b47e658a905af98)
 - [Go1.13で導入されたsyscall/jsのjs.CopyBytesToGoとjs.CopyBytesToJSを試してみた - Qiita](https://qiita.com/neko-suki/items/a39dc56523b3d761621b)
 
-### Go 1.14 beta is released
+### Go 1.14 RC is released
 
 - [Go 1.14 Release Notes - The Go Programming Language](https://tip.golang.org/doc/go1.14)
 
-### Go 1.14 Proposals
+### Go 1.15 Proposals
 
 - [Proposals for Go 1.15 - The Go Blog](https://blog.golang.org/go1.15-proposals)
 
@@ -164,6 +164,8 @@ image = "/images/attention/go-logo_blue.png"
 - [[Go] タグなし switchは switch true {...}と等しい - My External Storage](https://budougumi0617.github.io/2019/11/10/switch-statement-in-go/)
 - [Go の命名規則 | micnncim](https://micnncim.com/post/2019/12/11/go-naming-conventions/)
 - [Go: How Are Loops Translated to Assembly? - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-how-are-loops-translated-to-assembly-835b985309b3)
+- [Go: Inlining Strategy & Limitation - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-inlining-strategy-limitation-6b6d7fc3b1be)
+- [Why you shouldn't use func main in Go by Mat Ryer - PACE.](https://pace.dev/blog/2020/02/12/why-you-shouldnt-use-func-main-in-golang-by-mat-ryer)
 
 ### オブジェクトに関すること
 
