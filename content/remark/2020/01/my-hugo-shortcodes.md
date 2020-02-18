@@ -272,6 +272,7 @@ Technologies influence everything</q>.
 - [Hugo Christmas Edition! | Hugo](https://gohugo.io/news/0.62.0-relnotes/)
 - [Markdown Render Hooks - リンクや画像のテンプレートを作成する仕組み | Hugo 入門 / 解説 | nasust dev blog](https://nasust.com/hugo/tips/markdown_render_hooks/)
 - [.RenderString | Markdownの文字列をHTMLに変換する | Hugo 入門 / 解説 | nasust dev blog](https://nasust.com/hugo/functions/render_string/)
+- [A way to add parameters to image and link render hooks - tips & tricks - HUGO](https://discourse.gohugo.io/t/a-way-to-add-parameters-to-image-and-link-render-hooks/23496)
 
 [Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
 [CommonMark]: https://commonmark.org/

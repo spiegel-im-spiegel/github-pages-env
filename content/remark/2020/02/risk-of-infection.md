@@ -42,6 +42,8 @@ pageType = "text"
 
 ## ブックマーク
 
+- [新型コロナウイルスに関する帰国者・接触者相談センター｜厚生労働省](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/covid19-kikokusyasessyokusya.html)
+
 - [Coronavirus disease 2019](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
 - [新型コロナウイルス（2019-nCoV）関連情報について](https://www.niid.go.jp/niid/ja/diseases/ka/corona-virus/2019-ncov/9324-2019-ncov.html)
     - [新型コロナウイルス（2019-nCoV）関連情報ページ](https://www.niid.go.jp/niid/ja/diseases/ka/corona-virus/2019-ncov.html)
