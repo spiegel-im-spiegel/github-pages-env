@@ -1,7 +1,7 @@
 +++
 title = "リスクは事前と事後をセットで考える"
 date =  "2020-02-15T20:15:03+09:00"
-description = "感染者と死人を数え上げて脅威を煽るだけのメディア報道は無視して，ハザードからリスクへ頭を切り換えよう。。"
+description = "感染者と死人を数え上げて脅威を煽るだけのメディア報道は無視して，ハザードからリスクへ頭を切り換えよう。"
 image = "/images/attention/kitten.jpg"
 tags = [ "risk", "communication", "management" ]
 pageType = "text"
@@ -39,6 +39,24 @@ pageType = "text"
 
 ところで，そろそろ「新型コロナウイルス」って言うの止めない？ それ言ったら SARS だって当時は新型のコロナウイルスだったんだよ。
 だからといって 2019-nCoV とか COVID-19 とかってのは記号に過ぎないので日常会話には使えないだろうけど。
+
+## 追記： 2020-02-19
+
+Facebook の TL で教えていただいたが，[国際ウイルス分類委員会](https://talk.ictvonline.org/)（International Committee on Taxonomy of Viruses; ICTV）が今回流行のウイルスに SARS-CoV-2 (Severe Acute Respiratory Syndrome Coronavirus 2) と命名したそうな。
+
+- [Severe acute respiratory syndrome-related coronavirus: The species and its viruses – a statement of the Coronavirus Study Group | bioRxiv](https://doi.org/10.1101/2020.02.07.937862)
+
+前の SARS より明らかに致命率が低い状況[^r1] で「重症急性呼吸器症候群」はないわ，と思うのだが，分類的には前回の SARS と 今回の SARS 2 は同系統らしい。
+ふむむー。
+
+[^r1]: 前回の SARS の致命率は9.6%程と言われている。今回の SARS 2 は中国の発表を鵜呑みにするなら2.6%， WHO の推定で最終的に3%程と言われているようだ。
+
+要らん誤解が広まらなければいいが。
+そうでなくてもデマやら陰謀論やら流布されているらしいし。
+
+- [新型コロナウイルスに関連したサイバー犯罪、誤情報などをまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/02/06/064457)
+
+デマやら陰謀論やらとセットで「流行」しているという点でも SARS と同系統と言えるのかもね（笑）
 
 ## ブックマーク
 
