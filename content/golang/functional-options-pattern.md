@@ -38,7 +38,7 @@ type UI struct {
 まずは `new()` 関数を使う方法。
 
 ```go
-u := new(ui.UI)
+u := new(ui.UI) //new() はポインタ値を返す
 ```
 
 `new()` 関数でインスタンスを生成する場合は必ずゼロ値で初期化される。
@@ -48,7 +48,7 @@ u := new(ui.UI)
 2番目は複合リテラル（composite literals）で記述する方法。
 
 ```go
-u := UI{reader: os.Stdin, writer: os.Stdout, errorWriter: os.Stderr}
+u := &UI{reader: os.Stdin, writer: os.Stdout, errorWriter: os.Stderr}
 ```
 
 この方法であれば各フィールドに初期値を与えることができる。
