@@ -413,6 +413,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [goroutine にシグナルを送信する - Qiita](http://qiita.com/Kei-Kamikawa/items/620f9504daf2ec53f0b5)
 - [Go言語のContextパッケージのTODO( )って何？いつ使うの？ - Qiita](https://qiita.com/po3rin/items/3556c36182e0c635791c)
 - [Go 言語 context パッケージ誕生の背景と使用方法](https://ayasuda.github.io/pages/what_is_context_at_go.html)
+- [context.TODO()を使って漸進的にcontext対応を始める - My External Storage](https://budougumi0617.github.io/2020/02/21/use-context/)
 
 ## 開発支援
 

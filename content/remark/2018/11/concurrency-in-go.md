@@ -84,6 +84,7 @@ func main() {
 - [Go言語の並行性を映像化する | プログラミング | POSTD](http://postd.cc/go_concurrency_visualize/)
 - [Go言語の並行処理デザインパターン by Rob Pike 前編 - Qiita](http://qiita.com/tfutada/items/a289628d8b2d0af6152d)
     - [Go言語の並行処理デザインパターン by Rob Pike 後編 - Qiita](http://qiita.com/tfutada/items/dc8db894ac270a79ef2b)
+- [context.TODO()を使って漸進的にcontext対応を始める - My External Storage](https://budougumi0617.github.io/2020/02/21/use-context/)
 
 - [time.Ticker で遊ぶ]({{< ref "/golang/ticker.md" >}})
 - [『Go 言語による並行処理』はEブック版がオススメ]({{< ref "/remark/2020/01/concurrency-in-go-digital.md" >}})

@@ -78,6 +78,7 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 | Official | Release    |                       Ubuntu | Release    |   delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
+|   73.0.1 | 2020-02-18 |                              |            | ∞ days |
 |     73.0 | 2020-02-11 |   73.0+build3-0 (USN-4278-1) | 2020-02-13 |  2 days |
 |   72.0.2 | 2020-01-20 | 72.0.2+build1-0 (USN-4234-2) | 2020-01-30 | 10 days |
 |   72.0.1 | 2020-01-08 | 72.0.1+build1-0 (USN-4234-1) | 2020-01-09 |   1 day |
@@ -88,6 +89,7 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ### ブックマーク
 
+- [Firefox  73.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/73.0.1/releasenotes/)
 - [Firefox  73.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/73.0/releasenotes/)
 - [Firefox  72.0.2, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/72.0.2/releasenotes/)
 - [Firefox  72.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/72.0.1/releasenotes/)
