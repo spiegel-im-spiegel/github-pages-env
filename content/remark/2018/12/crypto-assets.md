@@ -5,18 +5,6 @@ description = "官製用語あるいは法律用語として「暗号資産」�
 image = "/images/attention/kitten.jpg"
 tags = [ "code", "politics", "fintech", "internet" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -59,4 +47,3 @@ G20 ブエノスアイレス・サミットの首脳宣言でも以下のよう�
 - [「暗号通貨」ってゆーな！]({{< ref "/remark/2018/01/cryptocurrency-are-not-crypto.md" >}})
 - [「仮想通貨」と公開鍵基盤]({{< ref "/remark/2018/02/blockchain-and-pki.md" >}})
 - [階級社会としてのインターネット]({{< ref "/remark/2018/05/internet-as-a-class-system.md" >}})
-<!-- eof -->
