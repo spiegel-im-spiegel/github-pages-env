@@ -1,24 +1,12 @@
 +++
-date = "2016-09-25T15:11:48+09:00"
-update = "2018-01-13T13:15:06+09:00"
-description = "まっ，気にしない人は気にしないんだろうけど，こんな辺境の個人サイトにまで追跡コードがくっついてるなんて（私が）ヤな感じなので外すことにした。"
-draft = false
-tags = ["facebook", "twitter", "facebook", "tracking"]
 title = "Facebook と Twitter の Widget を削除した"
+date = "2016-09-25T15:11:48+09:00"
+description = "まっ，気にしない人は気にしないんだろうけど，こんな辺境の個人サイトにまで追跡コードがくっついてるなんて（私が）ヤな感じなので外すことにした。"
+tags = ["facebook", "twitter", "tracking"]
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 いいわけだけど，あんまり自分のサイトとかちゃんと見ないじゃないですか。
