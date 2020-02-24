@@ -18,7 +18,7 @@ pageType = "text"
 セキュリティ・アップデートを含んでいるので利用者は要注意である。
 
 {{< fig-quote type="markdown" title="Vulnerability in golang.org/x/crypto/ssh" link="https://groups.google.com/forum/#!topic/golang-announce/3L45YRc91SY" lang="en" >}}
-{{< quote >}}An attacker can craft an ssh-ed25519 or `sk-ssh-ed25519@openssh.com` public key, such that the library will panic when trying to verify a signature with it. Clients can deliver such a public key and signature to any [`golang.org/x/crypto/ssh`](http://golang.org/x/crypto/ssh) server with a `PublicKeyCallback`, and servers can deliver them to any [`golang.org/x/crypto/ssh`](http://golang.org/x/crypto/ssh) client{{< /quote >}}.
+{{< quote >}}An attacker can craft an `ssh-ed25519` or `sk-ssh-ed25519@openssh.com` public key, such that the library will panic when trying to verify a signature with it. Clients can deliver such a public key and signature to any [`golang.org/x/crypto/ssh`](http://golang.org/x/crypto/ssh) server with a `PublicKeyCallback`, and servers can deliver them to any [`golang.org/x/crypto/ssh`](http://golang.org/x/crypto/ssh) client{{< /quote >}}.
 {{< /fig-quote >}}
 
 ## [CVE-2020-9283](https://nvd.nist.gov/vuln/detail/CVE-2020-9283)
