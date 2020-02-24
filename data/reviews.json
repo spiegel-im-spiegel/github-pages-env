@@ -11585,5 +11585,115 @@
       false
     ],
     "Description": "いや，本当に面白かった。春先にこんな素敵な作品が見れるなんて。感想は\u003ca href=\"https://baldanders.info/blog/000833/\"\u003eこちら\u003c/a\u003e。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4048930702",
+      "Title": "プログラミング言語Rust 公式ガイド",
+      "URL": "https://www.amazon.co.jp/dp/4048930702?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51YLqKD4N5L._SL160_.jpg",
+        "Height": 160,
+        "Width": 124
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "Steve Klabnik",
+          "Role": "著"
+        },
+        {
+          "Name": "Carol Nichols",
+          "Role": "著"
+        },
+        {
+          "Name": "尾崎 亮太",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "KADOKAWA",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4048930702"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784048930703"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4048930702"
+        }
+      ],
+      "PublicationDate": "2019-06-28",
+      "LastRelease": "2019-06-28",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-02-24",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "\u003ca href=\"https://doc.rust-lang.org/book/\"\u003e公式ドキュメント\u003c/a\u003eの日本語版。索引がちゃんとしているので，紙の本を買っておいて手元に置いておくのが吉。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07QVQ7RDG",
+      "Title": "実践Rust入門　[言語仕様から開発手法まで]",
+      "URL": "https://www.amazon.co.jp/dp/B07QVQ7RDG?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51t+hDKJOvL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "κeen",
+          "Role": "著"
+        },
+        {
+          "Name": "河野 達也",
+          "Role": "著"
+        },
+        {
+          "Name": "小松 礼人",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "技術評論社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07QVQ7RDG"
+        }
+      ],
+      "PublicationDate": "2019-04-26",
+      "LastRelease": "2019-04-26",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-02-24",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "勉強会で薦められた本。「内容がすごく重い」とのこと。読んでないが，目次を見る限りは事例が豊富な感じ？"
   }
 ]
