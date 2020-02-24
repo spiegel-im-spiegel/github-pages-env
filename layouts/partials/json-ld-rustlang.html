@@ -1,14 +1,14 @@
 {{ partial "json-ld-site.html" . }}{{ $maker := printf "%s#maker" .Site.BaseURL }}{{ $org := printf "%s#org" $.Site.BaseURL }}
-<script type="application/ld+json">{{ $sec := "design" }}{{ $secURL := printf "/%s/" ($sec | urlize) }}
+<script type="application/ld+json">{{ $sec := "rust-lang" }}{{ $secURL := printf "/%s/" ($sec | urlize) }}
 {
 	"@context": "http://schema.org",
 	"@type": "Blog",
 	"@id": {{ $secURL | absURL }},
 	"url": {{ $secURL | absURL }},
-	"inLanguage": {{ .Site.Data.section.design.languageCode }},
-	"name": {{ .Site.Data.section.design.name | safeHTML }},
-	"description": {{ .Site.Data.section.design.description | safeHTML }},
-	"image": {{ .Site.Data.section.design.image | absURL }},
+	"inLanguage": {{ .Site.Data.section.rustlang.languageCode }},
+	"name": {{ .Site.Data.section.rustlang.name | safeHTML }},
+	"description": {{ .Site.Data.section.rustlang.description | safeHTML }},
+	"image": {{ .Site.Data.section.rustlang.image | absURL }},
 	"publisher": {
 		"@id": {{ $org }}
 	},
@@ -47,12 +47,12 @@
 	"@id": {{ .Permalink }},
 	"url": {{ .Permalink }},
 	"mainEntityOfPage": {{ .Permalink }},
-	"inLanguage": {{ .Site.Data.section.design.languageCode }},
+	"inLanguage": {{ .Site.Data.section.rustlang.languageCode }},
 	"name": {{ .Title }},
 	"description": {{ .Description }},
 	"headline": {{ .Description }}{{if .Params.tags }},
 	"keywords": {{ delimit .Params.tags ", " }}{{ end }},
-	"image": {{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ .Site.Data.section.design.image | absURL }}{{ end }},
+	"image": {{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ .Site.Data.section.rustlang.image | absURL }}{{ end }},
 	"datePublished": {{ .Date.UTC.Format "2006-01-02T15:04:05-07:00" }},
 	"dateModified": {{ .Lastmod.UTC.Format "2006-01-02T15:04:05-07:00" }}{{ with .Site.Data.author }},
 	"publisher": {

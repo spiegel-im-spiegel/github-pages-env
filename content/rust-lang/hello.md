@@ -1,9 +1,9 @@
 +++
 title = "まずは，みんな大好き Hello World"
-date =  "2020-01-20T21:09:37+09:00"
+date =  "2020-02-24T22:18:54+09:00"
 description = "description"
 image = "/images/attention/design.png"
-tags = [ "programming", "design" ]
+tags = [ "programming", "rust" ]
 pageType = "text"
 draft = true
 

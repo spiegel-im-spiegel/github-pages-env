@@ -1,0 +1,39 @@
+{{ partial "top.html" . }}
+<head prefix="og: http://ogp.me/ns#">{{ $secTitle := .Site.Data.section.rustlang.name | plainify }}{{ $siteTitle := .Site.Title | plainify }}{{ $desc := .Site.Data.section.rustlang.description | plainify | safeHTML }}
+{{ partial "header.html" . }}{{ with .AlternativeOutputFormats.Get "RSS" }}
+<link rel="alternate" href="{{ .Permalink }}" type="application/rss+xml" title="{{ $secTitle }} | {{ $siteTitle }}">{{ end }}
+<link rel="canonical" href="{{ .Permalink }}">
+<title>{{ $secTitle }} | {{ $siteTitle }}</title>
+<meta property="og:title" content="{{ $secTitle }} | {{ $siteTitle }}">
+<meta name="description" content="{{ $desc }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:image" content="{{ .Site.Data.section.rustlang.image | absURL }}">
+{{ partial "twitter-card.html" . }}
+
+{{ partial "json-ld-rustlang.html" . }}
+</head>
+<body>
+{{ partial "prepare.html" . }}
+<div id='container'><!-- Container Area -->
+{{ partial "banner.html" . }}
+
+<main>
+<article>
+<h1>{{ $secTitle }}{{ with .OutputFormats.Get "RSS" }} <a href='{{ .RelPermalink }}' title='Feed'><i class='fas fa-rss'></i></a>{{ end }}</h1>
+<p>
+<a href="https://www.rust-lang.org/">Rust</a> 言語プログラミングに関する話題。
+</p>
+
+<h2>記事の一覧</h2>
+<ol>
+{{ range .Data.Pages }}{{ partial "li-section.html" . }}{{ end }}
+</ol>
+
+</article>
+</main>
+
+{{ partial "footer.html" . }}
+</div><!-- Container Area -->
+{{ partial "cleanup.html" . }}
+</body>
+{{ partial "end.html" . }}
