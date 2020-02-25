@@ -169,9 +169,8 @@ $ rustup doc --book
 
 ## Hello World
 
-```rust
+```rs
 fn main() {
-    // 世界よ、こんにちは
     println!("Hello, world!");
 }
 ```
