@@ -114,6 +114,12 @@ image = "/images/attention/go-logo_blue.png"
 
 - [Go 1.14 is released - The Go Blog](https://blog.golang.org/go1.14)
 - [Go 1.14 Release Notes - The Go Programming Language](https://golang.org/doc/go1.14)
+    - [Go 1.14 リリースノート 日本語訳 - Qiita](https://qiita.com/c-yan/items/3dd0c63ea4c3041728cc)
+- [Changes to interfaces in Go1.14 - Dylan Meeus - Medium](https://medium.com/@meeusdylan/changes-to-interfaces-in-go1-14-821ab533f62)
+- [A Go Module Testbed « null program](https://nullprogram.com/blog/2020/02/13/)
+- [Inlined defers in Go · Go, the unwritten parts](https://rakyll.org/inlined-defers/)
+- [Go1.14で来るGo Modules関連の変更を見てみる - Qiita](https://qiita.com/pi9min/items/9dac44c6663e0e933968)
+- [Go1.14のcontextは何が変わるのか - Qiita](https://qiita.com/tutuz/items/963a6118cec63a4cd2f3)
 - [What's new Go 1.14?](https://talks.godoc.org/github.com/qt-luigi/talks/2020/whats-new-go-114.slide)
 
 ### Go 1.15 Proposals
@@ -122,7 +128,7 @@ image = "/images/attention/go-logo_blue.png"
 
 ### Go 2 Draft
 
-次期 Go 言語の仕様について（一部は 1.11, 1.12 に取り込まれている）
+次期 Go 言語の仕様について（一部は 1.11 以降に取り込まれている）
 
 - [Go 2 Draft Designs - The Go Blog](https://blog.golang.org/go2draft)
 - [Go 2 Draft Designs](https://go.googlesource.com/proposal/+/master/design/go2draft.md)
