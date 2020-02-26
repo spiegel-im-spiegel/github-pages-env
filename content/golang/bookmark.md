@@ -110,9 +110,11 @@ image = "/images/attention/go-logo_blue.png"
 - [スライドまとめ on Go 1.13 Release Party in Tokyo（非公式） - Qiita](https://qiita.com/usk81/items/b2803b47e658a905af98)
 - [Go1.13で導入されたsyscall/jsのjs.CopyBytesToGoとjs.CopyBytesToJSを試してみた - Qiita](https://qiita.com/neko-suki/items/a39dc56523b3d761621b)
 
-### Go 1.14 RC is released
+### Go 1.14 is released
 
-- [Go 1.14 Release Notes - The Go Programming Language](https://tip.golang.org/doc/go1.14)
+- [Go 1.14 is released - The Go Blog](https://blog.golang.org/go1.14)
+- [Go 1.14 Release Notes - The Go Programming Language](https://golang.org/doc/go1.14)
+- [What's new Go 1.14?](https://talks.godoc.org/github.com/qt-luigi/talks/2020/whats-new-go-114.slide)
 
 ### Go 1.15 Proposals
 

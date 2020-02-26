@@ -30,6 +30,17 @@ tags = [ "embedded", "engineering", "golang", "bookmark" ]
 
 とはいえ，私の場合は生活基盤を立て直すことから始めないといけないので，やるにしても暫く先になるかな。
 
+## [TinyGo] に関するブックマーク
+
+[TinyGo] は本家 [Go] の簡易サブセットのようなもので [LLVM] 上で動作することを前提としている。
+本家に比べてかなり小さい実行バイナリを吐けるため，特に組込み用途で注目されている。
+
+- [TinyGoで始める組み込みプログラミング - 144Labグループ開発者ブログ](https://tech.144lab.com/entry/tinygo)
+- [PyPortal で TinyGo プログラミングを始めよう - Qiita](https://qiita.com/sago35/items/d95981f68231d69bce30)
+
+[TinyGo]: https://tinygo.org/ "TinyGo - Go on Microcontrollers and WASM"
+[LLVM]: https://llvm.org/ "The LLVM Compiler Infrastructure Project"
+
 ## その他のブックマーク
 
 - [GoでFPGAしてみる(Reconfigure.io) - Qiita](https://qiita.com/mjhd-devlion/items/5e6f6f2f40ecb4ad4217)
@@ -40,6 +51,7 @@ tags = [ "embedded", "engineering", "golang", "bookmark" ]
 - [minimumgo: Linuxでgolangの実行ファイルをひとつだけ動かすときに必要最小限の初期化処理をしてくれるgolangのパッケージ - Qiita](https://qiita.com/tetsu_koba/items/059849c0871a7e3bd94f)
 - [CHIP-8 &amp; Golang でエミュレータ作成入門してみた - Qiita](https://qiita.com/tuboc/items/b87f9a346fdf522a40fa)
 
+[Go]: https://golang.org/ "The Go Programming Language"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Qiita]: https://qiita.com/
 

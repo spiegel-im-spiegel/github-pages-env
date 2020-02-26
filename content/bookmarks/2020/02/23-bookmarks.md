@@ -56,6 +56,7 @@ pageType = "text"
 - [MIT Tech Review: 中国、新型コロナ対策で小中高生1億8000万人がネット授業に](https://www.technologyreview.jp/nl/chinas-students-will-now-study-online-because-coronavirus-has-shut-schools/)
 - [Add a GraphQL API to your Hugo site with AWS Amplify | AWS Mobile Blog](https://aws.amazon.com/jp/blogs/mobile/add-a-graphql-api-to-your-hugo-site-with-aws-amplify/)
 - [Open Source Guides](https://opensource.guide/ja/)
+    - [Open Source Guidesの日本語版を公開しました - GitHubブログ](https://github.blog/jp/2020-02-25-announcing-open-source-guides/)
     - [GitHub、“Open Source Guides”の日本語訳を公開 ～OSSコミュニティのベストプラクティスを集約 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1235813.html)
 - [2020年2月18日ニュース「導電性高分子、半導体と金属の境で熱電変換性能が最大に フレキシブルなIoT電源に道」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2020/02/20200218_01.html)
 - [「アラビア石油」興亡の歴史の「誤解」を解く：岩瀬昇 | エネルギーの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](https://www.fsight.jp/articles/-/46540)
