@@ -68,6 +68,13 @@
 	</span>
 </li>
 
+<li><a href='{{ "/rust-lang/" | relURL }}'><em>[rust-lang] プログラミング言語 Rust</em></a> <a href='{{ "/rust-lang/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
+	<span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "rust-lang") }}
+		（最新記事：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
+		{{ end }}<br>&raquo; Rust 言語プログラミングに関する話題。
+	</span>
+</li>
+
 <li><a href='{{ "/cc-licenses/" | relURL }}'><em>[cc-licenses] 改訂3版： CC Licenses について</em></a> <a href='{{ "/cc-licenses/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
 	<span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "cc-licenses") }}
 		（最新記事：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>）
