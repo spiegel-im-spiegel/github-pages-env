@@ -109,7 +109,7 @@ automatically.
 To configure your current shell run source $HOME/.cargo/env
 ```
 
-これで [Rust] のツールチェーン一式が `$HOME/.cargo/` および `$HOME/.rustup/` 以下にインストールされた。
+これで [Rust] のツールチェーン一式が `~/.cargo/` および `~/.rustup/` ディレクトリ以下にインストールされた。
 いや，どうせなら [XDG Base Directory] に対応してくれよ `orz` ...まぁいいや。
 
 ちなみに `~/.profile` ファイルの末尾に
@@ -135,6 +135,7 @@ fi
 | `rustc`    | コンパイラ本体                 |
 | `rustfmt`  | ソースコードのフォーマット     |
 | `cargo`    | パッケージ管理                 |
+| `rls`      | Rust Language Server           |
 
 たとえば
 
@@ -157,6 +158,12 @@ info: cleaning up downloads & tmp directories
 
 [Rust] ではクロスコンパイルも可能だが，リンカはプラットフォーム毎に用意する必要があるため注意が必要である。
 まぁ Docker 等を使えばいいんだろうけど。
+
+### エディタ機能の拡張
+
+[Rust] の [Tools](https://www.rust-lang.org/tools "Tools - Rust Programming Language") には各種エディタや IDE で使える拡張機能が紹介されている。
+私は [ATOM] を使うので [ide-rust](https://atom.io/packages/ide-rust) を使えばいいようだ。
+`rls` に対応してるぞ。
 
 ## みんな大好き Hello World
 
@@ -354,6 +361,7 @@ Hello John Smith!
 [git]: https://git-scm.com/
 [medimatrix/rust-plus-golang]: https://github.com/medimatrix/rust-plus-golang "medimatrix/rust-plus-golang: Rust + Go"
 [Go]: https://golang.org/ "The Go Programming Language"
+[ATOM]: https://atom.io/
 
 ## 参考図書
 
