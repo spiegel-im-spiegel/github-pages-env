@@ -15,6 +15,7 @@ pageType = "text"
 - [0.65.0: Hugo Reloaded! | Hugo](https://gohugo.io/news/0.65.0-relnotes/)
     - [Hugo 0.65.1: A couple of Bug Fixes | Hugo](https://gohugo.io/news/0.65.1-relnotes/)
     - [Hugo 0.65.2: A couple of Bug Fixes | Hugo](https://gohugo.io/news/0.65.2-relnotes/)
+    - [Hugo 0.65.3: A couple of Bug Fixes | Hugo](https://gohugo.io/news/0.65.3-relnotes/)
 - [LibreOffice 6.3.5 available for download - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2020/02/20/libreoffice-6-3-5/)
 
 ## セキュリティ＆プライバシー関連
@@ -25,6 +26,7 @@ pageType = "text"
 - [マイクロソフト、ウイルス対策の「Defender ATP」をiOSとAndroid向けに提供へ - ZDNet Japan](https://japan.zdnet.com/article/35149706/)
 - [不正アクセス事案を受けたシステム保守委託先への損害賠償請求についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/02/21/065823)
 - [Policy vs Technology - Schneier on Security](https://www.schneier.com/blog/archives/2020/02/policy_vs_techn.html)
+    - [ブログ: 政策対テクノロジー](https://okuranagaimo.blogspot.com/2020/02/blog-post_28.html)
 - [日本国内の組織を狙ったマルウエアLODEINFO - JPCERT/CC Eyes | JPCERTコーディネーションセンター公式ブログ](https://blogs.jpcert.or.jp/ja/2020/02/LODEINFO.html)
 - [ストーカーウェア「KidsGuard」を端末から駆除する方法  |  TechCrunch Japan](https://jp.techcrunch.com/2020/02/21/2020-02-20-kidsguard-remove-stalkerware/)
 - [Not your Software not your Bitcoin - Combatnerd](https://combatnerd.com/news/not-your-software-not-your-bitcoin/)

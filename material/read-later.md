@@ -25,12 +25,15 @@
 
 ## 知財関連
 
+- [YouTube Fair Use: Documentary Makers Defeat Gaye, Thicke, Bee Gees & Jackson - TorrentFreak](https://torrentfreak.com/youtube-fair-use-documentary-makers-defeat-gaye-thicke-bee-gees-jackson-200223/)
+- [Copyright Troll Now Has its Own Piracy Tracking Tool - TorrentFreak](https://torrentfreak.com/copyright-troll-now-has-its-own-piracy-tracking-tool-200223/)
 
 ## Linux または Ubuntu に関する話題
 
 
 ## その他
 
+- [ブログ: ローコードとノーコードプラットフォームはプログラミングに革命をもたらすか?](https://okuranagaimo.blogspot.com/2020/02/blog-post_24.html)
 - [どこまで実現できるか--「Raspberry Pi」をデータセンターで活用 - ZDNet Japan](https://japan.zdnet.com/article/35149753/)
 - [Google、Active Directoryのマネージドサービスを正式サービスとして開始 － Publickey](https://www.publickey1.jp/blog/20/googleactive_directory_1.html)
 - [日米合意でMIDI 2.0が正式規格としてリリース。MIDI 2.0で変わる新たな電子楽器の世界 | | 藤本健の "DTMステーション"](https://www.dtmstation.com/archives/28653.html)
