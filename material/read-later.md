@@ -1,6 +1,7 @@
 # 「あとでみる」ブックマーク（Temporary）
 
 - [Performance-focused LibreOffice 6.4 is available for download - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2020/01/29/libreoffice-6-4/)
+- [The Document Foundation announces LibreOffice 6.4.1 - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2020/02/27/libreoffice-641/)
 
 ## リリース情報
 

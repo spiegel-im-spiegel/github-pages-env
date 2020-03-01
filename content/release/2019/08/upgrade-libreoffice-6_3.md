@@ -20,7 +20,7 @@ pageType = "text"
 
 今回は [LibreOffice] 6.3 へのアップグレードを行う。
 
-[Ubuntu] では [LibreOffice] を導入するための手段がいくつか存在するが [OpenPGP] 鍵を使って暗号化や電子署名を行うのであれば[公式サイト]サイトから `*.deb` ファイルを取ってきてインストールするしかない。
+[Ubuntu] では [LibreOffice] を導入するための手段がいくつか存在するが [OpenPGP] 鍵を使って暗号化や電子署名を行うのであれば[公式サイト]から `*.deb` ファイルを取ってきてインストールするしかない。
 やり方は以下の記事を参考にどうぞ。
 
 - [Ubuntu に LibreOffice をインストールする3つの方法]({{< ref "/remark/2019/05/installing-libreoffice-in-ubuntu.md" >}})
