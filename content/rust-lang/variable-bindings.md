@@ -87,7 +87,7 @@ fn main() {
 たとえば構造体なら
 
 ```rust
-pub struct Person {
+struct Person {
 	age: u32,
 	name: String,
 }
