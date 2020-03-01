@@ -42,7 +42,7 @@ elif [ $section == "golang" ]; then
 	else
 		p="$section/$fname"
 	fi
-elif [ $section == "design" ]; then
+elif [ $section == "rust-lang" ]; then
 	if [ ${fname:-0} == 0 ]; then
 		echo "入力ファイルを指定してください。"
 		exit 1
