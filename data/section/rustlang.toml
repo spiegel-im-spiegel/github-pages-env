@@ -1,5 +1,5 @@
 languageCode = "ja"
-name = "プログラミング言語 Rust"
-description = "Rust 言語プログラミングに関する話題。"
+name = "Rust のキホン"
+description = "Rust 言語プログラミングに関する話題。まずは基本のキから。"
 sectionType = "text"
 image = "/images/attention/rustacean-flat-gesture.png"
