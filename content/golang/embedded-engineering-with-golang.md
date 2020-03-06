@@ -2,7 +2,6 @@
 title = "組込みで Go"
 date = "2018-01-21T18:39:17+09:00"
 description = "組込み関連の記事を見かけたのでブックマークしておく。"
-image = "/images/attention/go-code.png"
 tags = [ "embedded", "engineering", "golang", "bookmark" ]
 
 [scripts]

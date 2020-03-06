@@ -2,22 +2,7 @@
 title = "Markdown パーサ blackfriday.v2 で遊ぶ"
 date = "2018-02-17T15:44:07+09:00"
 description = "調子に乗ってプレビュー・ツールも作ってみた。"
-image = "/images/attention/go-code2.png"
 tags        = [ "golang", "programming", "markdown", "template", "html", "tools" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = true

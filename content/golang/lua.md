@@ -2,7 +2,6 @@
 title = "Go 言語による Lua 実装を試してみた"
 date = "2018-02-28T19:00:05+09:00"
 description = "引数を伴う場合はどうするんだろう。 arg みたいなのはないっぽいのでグローバル変数として自前でセットしないといけないかな？"
-image = "/images/attention/go-code2.png"
 tags        = [ "golang", "lua", "engineering", "programming", "language" ]
 
 [scripts]

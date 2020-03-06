@@ -1,9 +1,7 @@
 +++
 title = "Go 言語でデータ圧縮と解凍"
 date =  "2017-12-03T20:07:25+09:00"
-update =  "2017-12-04T07:44:18+09:00"
 description = "最近データ圧縮と解凍でちょっと悩んだので覚え書きとしてまとめておく。"
-image = "/images/attention/go-code.png"
 tags        = [ "golang", "compress", "zlib", "gzip", "bzip2" ]
 
 [scripts]

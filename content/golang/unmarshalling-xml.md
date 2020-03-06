@@ -2,7 +2,6 @@
 title = "XML データの Unmarshalling"
 date = "2018-03-16T20:40:27+09:00"
 description = "Unmarshalling 自体は encoding/xml パッケージを使って簡単にできるが，問題は XML データを受け入れる構造体をどう定義するかである。"
-image = "/images/attention/go-code2.png"
 tags = ["golang", "struct", "tags", "marshal", "xml"]
 
 [scripts]

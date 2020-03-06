@@ -1,24 +1,8 @@
 +++
 title = "Go 言語で SQLite を使う（Windows 向けの紹介）"
 date = "2018-03-31T21:12:23+09:00"
-update = "2018-04-28T18:00:54+09:00"
 description = "今回はパッケージの紹介のみ。つか，Windows で cgo を使うための覚え書きのようなものか。"
-image = "/images/attention/go-code2.png"
 tags  = [ "golang", "package", "sqlite", "gcc", "windows" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false

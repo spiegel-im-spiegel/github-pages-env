@@ -2,7 +2,6 @@
 title = "文字エンコーディングの検出"
 date =  "2017-12-04T12:42:55+09:00"
 description = "文字エンコーディングを変換するのはいいのだが，そのためには元の文字列の文字エンコーディングが分かってないといけない。あぁ，これみんな苦労してるやつだよね。"
-image = "/images/attention/go-code.png"
 tags = ["golang", "character", "encoding", "transform"]
 
 [scripts]
