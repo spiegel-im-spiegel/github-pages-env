@@ -67,7 +67,7 @@ fn main() {
 
 イメージとしてはこんな感じ。
 
-{{< fig-img src="./array.svg" link="./array.svg" >}}
+{{< fig-img src="./array.png" link="./array.svg" >}}
 
 このようにデータ型では値をコピーすることによって変数束縛を担保している。
 
@@ -105,7 +105,7 @@ fn main() {
 
 データ型との違いは，変数で示しているものが，値そのものではなく，値への参照（のようなもの）という点である。
 
-{{< fig-img src="./variable-bindings1.svg" link="./variable-bindings1.svg" >}}
+{{< fig-img src="./variable-bindings1.png" link="./variable-bindings1.svg" >}}
 
 今度は変数 `p1` の値を別の変数に代入してみよう。
 
@@ -157,7 +157,7 @@ let p2 = p1;
 
 の部分で値がコピーされず，所有権のみ移動してしまうため。
 
-{{< fig-img src="./variable-bindings2.svg" link="./variable-bindings2.svg" >}}
+{{< fig-img src="./variable-bindings2.png" link="./variable-bindings2.svg" >}}
 
 構造体やコレクションの各型の値はヒープ領域に置かれる。
 ヒープ上の値に対して代入等を行うたびにコピーを行うのは高コストだし，かといって野放図に参照を増やすとヒープ管理が煩雑になってしまう。
@@ -203,7 +203,7 @@ fn main() {
 
 とすればよい（トレイトの実装詳細については割愛する）。
 
-{{< fig-img src="./variable-bindings3.svg" link="./variable-bindings3.svg" >}}
+{{< fig-img src="./variable-bindings3.png" link="./variable-bindings3.svg" >}}
 
 あるいはもっと簡単に
 
