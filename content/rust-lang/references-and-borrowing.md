@@ -260,7 +260,7 @@ fn younger(l: &Person, r: &Person) -> &Person { //Error: missing lifetime specif
 この関数では参照変数 `l` と `r` のうちどちらかを返すが，どちらを返すかは実行時にしか分からない。
 したがって，以下の `main()` 関数内で
 
-```rust
+```rust {hl_lines=[10]}
 fn main() {
     let p1 = Person {
         age: 24,
