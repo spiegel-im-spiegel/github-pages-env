@@ -37,6 +37,8 @@ pageType = "text"
 - [大型低温重力波望遠鏡KAGRA観測開始 | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/topics/2020/20200225-kagra.html)
 - [MITの研究者が「小惑星の地球衝突を回避する方法」を考案 - sorae 宇宙へのポータルサイト](https://sorae.info/space/20200225-mit.html)
 - [ESA - The most powerful black hole eruption in the Universe](http://www.esa.int/Science_Exploration/Space_Science/The_most_powerful_black_hole_eruption_in_the_Universe) : [へびつかい座銀河団に天の川銀河が15個ぐらい入るサイズの空洞を発見。光速まで加速された電子で満たされており、超巨大ブラックホールが引き起こした爆発で作られたらしい](https://news.local-group.jp/20200229.html#p01)
+    - [MIT Tech Review: 宇宙史上最大の爆発、へびつかい座銀河団で観測](https://www.technologyreview.jp/nl/astronomers-have-detected-the-biggest-explosion-in-the-universe/)
+    - [ブログ: 「ビッグバン以来最大の爆発」を発見](https://okuranagaimo.blogspot.com/2020/03/blog-post.html)
 
 ## 知財関連
 

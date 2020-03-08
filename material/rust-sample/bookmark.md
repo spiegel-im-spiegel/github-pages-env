@@ -10,6 +10,10 @@
 - [Rust by Example](https://doc.rust-jp.rs/rust-by-example-ja/) : 日本語版
 - [Rust Playground](https://play.rust-lang.org/)
 
+## その他参考ページ
+
+- [rust - Rustの"unwrap()"は何をするものですか？ - スタック・オーバーフロー](https://ja.stackoverflow.com/questions/1730/rust%E3%81%AEunwrap%E3%81%AF%E4%BD%95%E3%82%92%E3%81%99%E3%82%8B%E3%82%82%E3%81%AE%E3%81%A7%E3%81%99%E3%81%8B)
+
 ## 参考図書
 
 {{% review-paapi "4048930702" %}} <!-- プログラミング言語Rust 公式ガイド -->

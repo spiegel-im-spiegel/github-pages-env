@@ -258,6 +258,7 @@ image = "/images/attention/go-logo_blue.png"
 - [Golangのmapとsliceはどちらが速いのか - 逆さまにした](https://cipepser.hatenablog.com/entry/go-map-slice)
 - [GitHub - imdario/mergo: Mergo: merging Go structs and maps since 2013.](https://github.com/imdario/mergo)
 - [Go理解度チェック - Google スライド](https://docs.google.com/presentation/d/1oqfPIEJlw1u0GStHPEJFMtq2FPFUGDVSgMW2sLsXZF8/mobilepresent#slide=id.g7a74c7c8ae_0_298)
+- [[Go] 省略記号（...）を使った配列宣言の仕方 - My External Storage](https://budougumi0617.github.io/2020/03/06/go-array-with-the-ellipsis/)
 
 ### 入出力処理
 
