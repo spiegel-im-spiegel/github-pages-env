@@ -11695,5 +11695,64 @@
       false
     ],
     "Description": "勉強会で薦められた本。「内容がすごく重い」とのこと。読んでないが，目次を見る限りは事例が豊富な感じ？"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4873118557",
+      "Title": "プログラミングRust",
+      "URL": "https://www.amazon.co.jp/dp/4873118557?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51vpZLDJAAL._SL160_.jpg",
+        "Height": 160,
+        "Width": 125
+      },
+      "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "Jim Blandy",
+          "Role": "著"
+        },
+        {
+          "Name": "Jason Orendorff",
+          "Role": "著"
+        },
+        {
+          "Name": "中田 秀基",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "オライリージャパン",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4873118557"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784873118550"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4873118557"
+        }
+      ],
+      "PublicationDate": "2018-08-10",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-03-08",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "\u003ca href=\"https://www.oreilly.co.jp/books/9784873118550/\"\u003eEブック版\u003c/a\u003eあり。\u003ca href=\"https://doc.rust-lang.org/book/\"\u003e公式ドキュメント\u003c/a\u003eよりも系統的に書かれているので痒いところに手が届く感じ。ただし量が多いので，一度斜め読みしたらあとは傍らに置いて必要に応じてつまみ食いしていくのがいいだろう。"
   }
 ]

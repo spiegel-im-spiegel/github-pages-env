@@ -18,3 +18,4 @@
 
 {{% review-paapi "4048930702" %}} <!-- プログラミング言語Rust 公式ガイド -->
 {{% review-paapi "B07QVQ7RDG" %}} <!-- 実践Rust入門 -->
+{{% review-paapi "4873118557" %}} <!-- プログラミングRust -->

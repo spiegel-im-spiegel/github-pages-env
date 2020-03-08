@@ -3,7 +3,7 @@ title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date =  "{{ .Date }}"
 description = "description"
 image = "/images/attention/go-logo_blue.png"
-tags = [ "golang" ]
+tags = [ "programming", "golang" ]
 pageType = "text"
 draft = true
 
