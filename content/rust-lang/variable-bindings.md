@@ -30,7 +30,7 @@ pageType = "text"
     - 整数 (`i8`, `u8`, ..., `isize`, `usize`)
     - 浮動小数点型（`f32`, `f64`）
     - 論理値型（`bool`）
-    - 文字型（`char`）: Unicode コードポイント？
+    - 文字型（`char`）: Unicode コードポイント
 - 複合型
     - タプル型
     - 配列型
