@@ -43,8 +43,8 @@ $ cargo run
 
 ```text
 $ pushd src/
-$ cp main.rs main.utf8.rs 
-$ gonkf conv -s utf8 -d sjis main.utf8.rs > main.rs
+$ cp main.rs main.rs.utf8.txt
+$ gonkf conv -s utf8 -d sjis main.rs.utf8.txt > main.rs
 $ popd
 $ cargo run
 error: couldn't read src/main.rs: stream did not contain valid UTF-8
@@ -56,7 +56,7 @@ error: couldn't read src/main.rs: stream did not contain valid UTF-8
 
 [Rust] では文字および文字列を扱うために以下の3つの型が存在する。
 
-| 型名     | Alias     | 内容                           |
+| 型名     | 内部表現  | 内容                           |
 | -------- | --------- | ------------------------------ |
 | `char`   | `u32`     | 文字（Unicode コードポイント） |
 | `str`    | `[u8]`    | 固定長文字列（UTF-8）          |
@@ -84,6 +84,9 @@ fn main() {
 
 `"Hello World"` などのリテラル文字列は型としては `&'static str` と表現できる。
 ちなみに `'static` はライフタイム注釈の特殊な表現で，生存期間がプログラム全域に及ぶという恐ろしいものである（笑）
+
+リテラル文字列の後ろの `to_string()` メソッドは文字列のコピーを返す。
+リテラル文字列そのものがセットされているわけではない。
 
 ## 文字列から文字を抽出する
 
@@ -116,6 +119,18 @@ fn main() {
 
 [^err1]: エラー・ハンドリングについてはいつかどこかでやる予定。
 
+あるいは `collect()` メソッドを使って `Vec<char>` 配列に変換して
+
+```rust
+fn main() {
+    let nihongo = "日本語";
+    let chs = nihongo.chars().collect::<Vec<char>>();
+    println!("{}", chs[0]); //Output: 日
+}
+```
+
+てな感じに書くこともできる。
+
 先頭の2文字を抽出するならこんな感じだろうか。
 
 ```rust
@@ -123,8 +138,9 @@ fn main() {
     let nihongo = "日本語";
     let mut nippon = String::new();
     for (i, c) in nihongo.chars().enumerate() {
-        if i < 2 {
-            nippon.push(c)
+        nippon.push(c);
+        if i > 0 {
+            break;
         }
     }
     println!("{}", nippon); //Output: 日本
@@ -132,11 +148,50 @@ fn main() {
 ```
 
 うーん，微妙。
-もっとスマートなやり方があれば教えてください。
+
+```rust {hl_lines= ["4-6"]}
+fn main() {
+    let nihongo = "日本語";
+    let mut nippon = String::new();
+    for c in nihongo.chars().take(2) {
+        nippon.push(c);
+    }
+    println!("{}", nippon); //Output: 日本
+}
+```
+
+いや `for` 文で回すってのがね... そっか。
+`fold()` メソッドを使えばいいのか。
+
+```rust {hl_lines= ["3-6"]}
+fn main() {
+    let nihongo = "日本語";
+    let nippon = nihongo.chars().take(2).fold(String::new(), |mut s, c| {
+        s.push(c);
+        s
+    });
+    println!("{}", nippon); //Output: 日本
+}
+```
+
+ゴメン。
+`collect()` メソッドを使えば一発で `String` に変換できた。
+
+```rust {hl_lines= [3]}
+fn main() {
+    let nihongo = "日本語";
+    let nippon = nihongo.chars().take(2).collect::<String>();
+    println!("{}", nippon); //Output: 日本
+}
+```
+
+簡単ぢゃん `orz`
 
 ## ブックマーク
 
 - [Stringとstr入門 - Qiita](https://qiita.com/Mizunashi_Mana/items/db88cb0bff002abce1ae)
+- [文字列操作 with Rust - Qiita](https://qiita.com/hobo/items/04846eeccb5e2004731a)
+- [Rustで文字列の先頭文字や部分文字列を取得する - Qiita](https://qiita.com/7ma7X/items/7fb68395984958987a54)
 
 - [spiegel-im-spiegel/charset_document: 「文字コードとその実装」 upLaTeX ドキュメント](https://github.com/spiegel-im-spiegel/charset_document) : 大昔に書いたドキュメントで内容が古いため，取り扱いには注意
 - [spiegel-im-spiegel/text: Encoding/Decoding Text Package by Golang](https://github.com/spiegel-im-spiegel/text) : `gonkf` コマンドはここで公開しています
