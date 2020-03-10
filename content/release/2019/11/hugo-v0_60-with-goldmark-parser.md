@@ -90,6 +90,16 @@ Markdown パーサについては，グローバル設定で新しい [yuin/gold
 
 ## Inline Code の挙動に注意
 
+{{< div-box type="markdown" >}}
+**【2020-01-02 追記】**
+この件は [Hugo] 0.61 で修正されたらしい。 [yuin/goldmark] のバグだったようだ。
+なので，また元に戻した。
+なんだかなぁ `orz`
+
+[Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
+[yuin/goldmark]: https://github.com/yuin/goldmark/ "yuin/goldmark: A markdown parser written in Go. Easy to extend, standard(CommonMark) compliant, well structured."
+{{< /div-box >}}
+
 [CommonMark] に準拠したせいかどうかは分からないが inline code の挙動が微妙に変わっているので注意が必要である。
 
 たとえば以下のような記述があるとする。
@@ -131,16 +141,6 @@ Markdown パーサについては，グローバル設定で新しい [yuin/gold
 と（ちょっと不格好だが）なった。
 [ATOM] で複数ファイルの内容を一括置換できてよかったね（泣）
 
-{{< div-box type="markdown" >}}
-**【2020-01-02 追記】**
-この件は [Hugo] 0.61 で修正されたらしい。 [yuin/goldmark] のバグだったようだ。
-なので，また元に戻した。
-なんだかなぁ `orz`
-
-[Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
-[yuin/goldmark]: https://github.com/yuin/goldmark/ "yuin/goldmark: A markdown parser written in Go. Easy to extend, standard(CommonMark) compliant, well structured."
-{{< /div-box >}}
-
 ## フェンス付きコード・ブロックのハイライト表示
 
 [Hugo] ではフェンス付きコード・ブロックのハイライト表示には [alecthomas/chroma] を使っているが，グローバル設定でより細かい設定が可能になった。
@@ -158,7 +158,7 @@ Markdown パーサについては，グローバル設定で新しい [yuin/gold
   tabWidth = 4
 ```
 
-従来の `pygmentsUseClasses` や `pygmentsCodeFences` 等も効いているようだが，こちらの記述に切り替えたほうがいいだろう[^bf1]。
+従来の `pygmentsUseClasses` や `pygmentsCodeFences` 等も効いているようだが，こちらの記述に切り替えたほうがいいだろう。
 `style` のサンプルは以下をどうぞ。
 
 - [Short snippets](https://xyproto.github.io/splash/docs/all.html)
