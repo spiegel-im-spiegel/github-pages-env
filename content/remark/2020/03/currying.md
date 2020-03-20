@@ -81,7 +81,7 @@ func add(x int) func(int) int {
 
 func main() {
 	fmt.Println(add(1)(2)) //Output: 3
-	increment := add(1)
+	increment := add(1) //partial application
 	fmt.Println(increment(2)) //Output: 3
 }
 ```
@@ -97,7 +97,7 @@ function add(x) {
 }
 
 console.log(add(1)(2)); //Output: 3
-let increment = add(1);
+let increment = add(1); //partial application
 console.log(increment(2)); //Output: 3
 ```
 
