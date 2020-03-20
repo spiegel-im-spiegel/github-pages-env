@@ -26,7 +26,7 @@ pageType = "text"
 Wikipedia によると「カリー化（currying）」とは
 
 {{< fig-quote type="markdown" title="カリー化 - Wikipedia" link="https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%AA%E3%83%BC%E5%8C%96" >}}
-{{< quote >}}複数の引数をとる関数を、引数が「もとの関数の最初の引数」で戻り値が「もとの関数の残りの引数を取り結果を返す関数」であるような関数にすること{{< /quote >}}
+{{% quote %}}複数の引数をとる関数を、引数が「もとの関数の最初の引数」で戻り値が「もとの関数の残りの引数を取り結果を返す関数」であるような関数にすること{{% /quote %}}
 {{< /fig-quote >}}
 
 とある。
