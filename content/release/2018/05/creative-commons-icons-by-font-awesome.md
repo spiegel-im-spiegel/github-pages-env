@@ -2,22 +2,7 @@
 title = "Font Awesome 5.0.11 で Creative Commons アイコンに完全対応した"
 date = "2018-05-13T15:31:54+09:00"
 description = "先日リリースされた Font Awesome 5.0.11 で Creative Commons アイコンに完全対応したらしい。"
-image = "/images/attention/tools.png"
 tags = [ "creative-commons", "web", "font", "site" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false
@@ -35,16 +20,17 @@ tags = [ "creative-commons", "web", "font", "site" ]
 既に retire したサンプリング・ライセンスのアイコンも含まれている。
 よく使うであろうアイコンはこんな感じ。
 
-|                      アイコン                       | コード                                          | 意味               |
-|:---------------------------------------------------:| ----------------------------------------------- | ------------------ |
-|    <i class="fab fa-creative-commons fa-2x"></i>    | `<i class="fab fa-creative-commons"></i>`       | [Creative Commons] |
-|  <i class="fab fa-creative-commons-by fa-2x"></i>   | `<i class="fab fa-creative-commons-by"></i>`    | 「表示」条件       |
-|  <i class="fab fa-creative-commons-sa fa-2x"></i>   | `<i class="fab fa-creative-commons-sa"></i>`    | 「継承」条件       |
-|  <i class="fab fa-creative-commons-nc fa-2x"></i>   | `<i class="fab fa-creative-commons-nc"></i>`    | 「非営利」条件     |
-| <i class="fab fa-creative-commons-nc-jp fa-2x"></i> | `<i class="fab fa-creative-commons-nc-jp"></i>` | 「非営利」条件     |
-| <i class="fab fa-creative-commons-nc-eu fa-2x"></i> | `<i class="fab fa-creative-commons-nc-eu"></i>` | 「非営利」条件     |
-|  <i class="fab fa-creative-commons-nd fa-2x"></i>   | `<i class="fab fa-creative-commons-nd"></i>`    | 「改変禁止」条件   |
-|  <i class="fab fa-creative-commons-pd fa-2x"></i>   | `<i class="fab fa-creative-commons-pd"></i>`    | [CC0] または公有   |
+|                         | コード                                          | 意味        |
+|:-----------------------:| ----------------------------------------------- | ----------- |
+|  {{< cc-syms "cc" >}}   | `<i class="fab fa-creative-commons"></i>`       | [CC] マーク |
+|  {{< cc-syms "by" >}}   | `<i class="fab fa-creative-commons-by"></i>`    | 表示        |
+|  {{< cc-syms "sa" >}}   | `<i class="fab fa-creative-commons-sa"></i>`    | 継承        |
+|  {{< cc-syms "nc" >}}   | `<i class="fab fa-creative-commons-nc"></i>`    | 非営利      |
+| {{< cc-syms "nc-jp" >}} | `<i class="fab fa-creative-commons-nc-jp"></i>` | 非営利      |
+| {{< cc-syms "nc-eu" >}} | `<i class="fab fa-creative-commons-nc-eu"></i>` | 非営利      |
+|  {{< cc-syms "nd" >}}   | `<i class="fab fa-creative-commons-nd"></i>`    | 改変禁止    |
+| {{< cc-syms "zero" >}}  | `<i class="fab fa-creative-commons-zero"></i>`  | [CC0]       |
+|  {{< cc-syms "pd" >}}   | `<i class="fab fa-creative-commons-pd"></i>`    | [公有]      |
 
 このサイトも [Creative Commons Icon Font](http://cc-icons.github.io/) から [Font Awesome] に切り換えた。
 
@@ -61,4 +47,6 @@ tags = [ "creative-commons", "web", "font", "site" ]
 
 [Font Awesome]: https://fontawesome.com/ "Font Awesome 5 | Font Awesome"
 [Creative Commons]: https://creativecommons.org/
+[CC]: https://creativecommons.org/
 [CC0]: https://creativecommons.org/publicdomain/zero/1.0/ "Creative Commons — CC0 1.0 Universal"
+[公有]: https://creativecommons.org/publicdomain/mark/1.0/ "Creative Commons — Public Domain Mark 1.0"

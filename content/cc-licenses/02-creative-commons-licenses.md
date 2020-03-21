@@ -80,21 +80,19 @@ title = "Creative Commons Licenses"
 <table>
 <tbody>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "by" >}}</th>
     <th class='left'>表示</th><td class='left'>マテリアルの<a href="{{< relref "#attribution" >}}">クレジットを表示</a>すること</td>
 </tr>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-sa fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "sa" >}}</th>
     <th class='left'>継承</th><td class='left'>改変したマテリアルについて，元のマテリアルのライセンスと<a href="{{< relref "#compatible" >}}">同等のライセンス</a>で公開すること</td>
 </tr>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-nc fa-2x"></i>
-                     <i class="fab fa-creative-commons-nc-eu fa-2x"></i>
-                     <i class="fab fa-creative-commons-nc-jp fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "nc" "nc-jp" "nc-eu" >}}</th>
     <th class='left'>非営利</th><td class='left'><a href="{{< relref "#non-commercial" >}}">営利目的での利用をしない</a>こと</td>
 </tr>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-nd fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "nd" >}}</th>
     <th class='left'>改変禁止</th><td class='left'>元のマテリアルを改変しないこと</td>
 </tr>
 </tbody>
@@ -110,27 +108,27 @@ title = "Creative Commons Licenses"
 <table>
 <tbody>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "by" >}}</th>
     <td class='left'>表示</td>
 </tr>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-sa fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "by" "sa" >}}</th>
     <td class='left'>表示-継承</td>
 </tr>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nc fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "by" "nc" >}}</th>
     <td class='left'>表示-非営利</td>
 </tr>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nc fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-sa fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "by" "nc" "sa" >}}</th>
     <td class='left'>表示-非営利-継承</td>
 </tr>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nd fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "nd" >}}</th>
     <td class='left'>表示-改変禁止</td>
 </tr>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nc fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nd fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "by" "nc" "nd" >}}</th>
     <td class='left'>表示-非営利-改変禁止</td>
 </tr>
 </tbody>
@@ -179,7 +177,7 @@ title = "Creative Commons Licenses"
 <table>
 <tbody>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "by" >}}</th>
     <th class='left'>表示</th>
     <td>
         <a href="https://creativecommons.org/licenses/by/4.0/">コモンズ証</a>
@@ -190,7 +188,7 @@ title = "Creative Commons Licenses"
     </td>
 </tr>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-sa fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "by" "sa" >}}</th>
     <th class='left'>表示-継承</th>
     <td>
         <a href="https://creativecommons.org/licenses/by-sa/4.0/">コモンズ証</a>
@@ -201,7 +199,7 @@ title = "Creative Commons Licenses"
     </td>
 </tr>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nc fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "by" "nc" >}}</th>
     <th class='left'>表示-非営利</th>
     <td>
         <a href="https://creativecommons.org/licenses/by-nc/4.0/">コモンズ証</a>
@@ -212,7 +210,7 @@ title = "Creative Commons Licenses"
     </td>
 </tr>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nc fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-sa fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "by" "nc" "sa" >}}</th>
     <th class='left'>表示-非営利-継承</th>
     <td>
         <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">コモンズ証</a>
@@ -223,7 +221,7 @@ title = "Creative Commons Licenses"
     </td>
 </tr>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nd fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "by" "nd" >}}</th>
     <th class='left'>表示-改変禁止</th>
     <td>
         <a href="https://creativecommons.org/licenses/by-nd/4.0/">コモンズ証</a>
@@ -234,7 +232,7 @@ title = "Creative Commons Licenses"
     </td>
 </tr>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nc fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nd fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "by" "nc" "nd" >}}</th>
     <th class='left'>表示-非営利-改変禁止</th>
     <td>
         <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">コモンズ証</a>
@@ -263,32 +261,32 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 <table>
 <tbody>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "by" >}}</th>
     <th class='left'>表示</th>
     <td><a href="https://creativecommons.org/licenses/by/4.0/legalcode.txt">法的条項（テキスト版）</a></td>
 </tr>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-sa fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "by" "sa" >}}</th>
     <th class='left'>表示-継承</th>
     <td><a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt">法的条項（テキスト版）</a></td>
 </tr>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nc fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "by" "nc" >}}</th>
     <th class='left'>表示-非営利</th>
     <td><a href="https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt">法的条項（テキスト版）</a></td>
 </tr>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nc fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-sa fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "by" "nc" "sa" >}}</th>
     <th class='left'>表示-非営利-継承</th>
     <td><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.txt">法的条項（テキスト版）</a></td>
 </tr>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nd fa-2x"></i>
-    </th><th class='left'>表示-改変禁止</th>
+    <th class='left fa-2x'>{{< cc-syms "by" "nd" >}}</th>
+    <th class='left'>表示-改変禁止</th>
     <td><a href="https://creativecommons.org/licenses/by-nd/4.0/legalcode.txt">法的条項（テキスト版）</a></td>
 </tr>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nc fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nd fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "by" "nc" "nd" >}}</th>
     <th class='left'>表示-非営利-改変禁止</th>
     <td><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.txt">法的条項（テキスト版）</a></td>
 </tr>
@@ -313,7 +311,7 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 <table>
 <tbody>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "by" >}}</th>
     <th class='left'>表示</th>
     <td>
         <a href="https://creativecommons.org/licenses/by/2.1/jp/">コモンズ証</a><br>
@@ -322,7 +320,7 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
     </td>
 </tr>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-sa fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "by" "sa" >}}</th>
     <th class='left'>表示-継承</th>
     <td>
         <a href="https://creativecommons.org/licenses/by-sa/2.1/jp/">コモンズ証</a><br>
@@ -331,7 +329,7 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
     </td>
 </tr>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nc-jp fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "by" "nc-jp" >}}</th>
     <th class='left'>表示-非営利</th>
     <td>
         <a href="https://creativecommons.org/licenses/by-nc/2.1/jp/">コモンズ証</a><br>
@@ -340,7 +338,7 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
     </td>
 </tr>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nc-jp fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-sa fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "by" "nc-jp" "sa" >}}</th>
     <th class='left'>表示-非営利-継承</th>
     <td>
         <a href="https://creativecommons.org/licenses/by-nc-sa/2.1/jp/">コモンズ証</a><br>
@@ -349,7 +347,7 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
     </td>
 </tr>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nd fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "by" "nd" >}}</th>
     <th class='left'>表示-改変禁止</th>
     <td>
         <a href="https://creativecommons.org/licenses/by-nd/2.1/jp/">コモンズ証</a><br>
@@ -358,7 +356,7 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
     </td>
 </tr>
 <tr>
-    <th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nc-jp fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nd fa-2x"></i></th>
+    <th class='left fa-2x'>{{< cc-syms "by" "nc-jp" "nd" >}}</th>
     <th class='left'>表示-非営利-改変禁止</th>
     <td>
         <a href="https://creativecommons.org/licenses/by-nc-nd/2.1/jp/">コモンズ証</a><br>

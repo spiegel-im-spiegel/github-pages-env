@@ -102,8 +102,15 @@ tags = ["derivative-works", "creative-commons", "copyright", "license", "tpp"]
 {{< fig-gen title="Creative Commons Licenses Version 4.0 International" >}}
 <table>
 <tbody>
-<tr><th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-sa fa-2x"></i></a>   </th><th class='left'>表示-継承           </th><td><a href="https://creativecommons.org/licenses/by-sa/4.0/">コモンズ証</a>（<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">法的条項</a>（<a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-sa/4.0/rdf">メタデータ</a></td></tr>
-<tr><th class='left'><i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-nc fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-sa fa-2x"></i></th><th class='left'>表示-非営利-継承    </th><td><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">コモンズ証</a>（<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">法的条項</a>（<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.ja">日本語</a>） <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/rdf">メタデータ</a></td></tr>
+<tr>
+    <th class='left fa-2x'>{{< cc-syms "by" "sa" >}}</i></a></th>
+    <th class='left'>表示-継承</th>
+    <td><a href="https://creativecommons.org/licenses/by-sa/4.0/">コモンズ証</a>（<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">日本語</a>）<br><a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">法的条項</a>（<a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.ja">日本語</a>）<br><a href="https://creativecommons.org/licenses/by-sa/4.0/rdf">メタデータ</a></td>
+</tr><tr>
+    <th class='left fa-2x'>{{< cc-syms "by" "nc" "sa" >}}</th>
+    <th class='left'>表示-非営利-継承</th>
+    <td><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">コモンズ証</a>（<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja">日本語</a>）<br><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">法的条項</a>（<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.ja">日本語</a>）<br><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/rdf">メタデータ</a></td>
+</tr>
 </tbody>
 </table>
 {{< /fig-gen >}}

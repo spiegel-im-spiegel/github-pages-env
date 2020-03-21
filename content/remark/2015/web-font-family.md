@@ -249,17 +249,9 @@ Google Noto Fonts 以外で利用しているフォントを列挙しておく�
 - [Creative Commons Icon Font](http://cc-icons.github.io/)
 - [cc-icons/cc-icons](https://github.com/cc-icons/cc-icons)
 
-CC License のアイコンは [Font Awesome] 5.0.11 以降に含まれた。
+なお [Font Awesome] では 5.0.11 以降から CC Licenses のアイコンは対応している。
 
-```html
-<i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-sa fa-2x"></i>
-```
-
-表示はこんな感じ。
-
-{{< fig-quote >}}
-<i class="fab fa-creative-commons-by fa-2x"></i>&nbsp;<i class="fab fa-creative-commons-sa fa-2x"></i>
-{{< /fig-quote >}}
+- [Font Awesome 5.0.11 で Creative Commons アイコンに完全対応した]({{< ref "/release/2018/05/creative-commons-icons-by-font-awesome.md" >}})
 
 ブラボー！
 
