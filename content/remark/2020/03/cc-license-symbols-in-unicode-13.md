@@ -40,7 +40,7 @@ pageType = "text"
 | {{< cc-sym "by" >}} {{< cc-sym "nc" >}}                     | [表示-非営利](https://creativecommons.org/licenses/by-nc/4.0/)             |
 | {{< cc-sym "by" >}} {{< cc-sym "nc" >}} {{< cc-sym "sa" >}} | [表示-非営利-継承](https://creativecommons.org/licenses/by-nc-sa/4.0/)     |
 | {{< cc-sym "by" >}} {{< cc-sym "nd" >}}                     | [表示-改変禁止](https://creativecommons.org/licenses/by-nd/4.0/)           |
-| {{< cc-sym "by" >}} {{< cc-sym "nd" >}} {{< cc-sym "nc" >}} | [表示-非営利-改変禁止](https://creativecommons.org/licenses/by-nc-nd/4.0/) |
+| {{< cc-sym "by" >}} {{< cc-sym "nc" >}} {{< cc-sym "nd" >}} | [表示-非営利-改変禁止](https://creativecommons.org/licenses/by-nc-nd/4.0/) |
 
 実際にはフォントも対応しないといけないのだが，それはしばらくかかるかな。
 
