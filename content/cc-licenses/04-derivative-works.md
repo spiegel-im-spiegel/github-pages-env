@@ -103,7 +103,7 @@ tags = ["derivative-works", "creative-commons", "copyright", "license", "tpp"]
 <table>
 <tbody>
 <tr>
-    <th class='left fa-2x'>{{< cc-syms "by" "sa" >}}</i></a></th>
+    <th class='left fa-2x'>{{< cc-syms "by" "sa" >}}</a></th>
     <th class='left'>表示-継承</th>
     <td><a href="https://creativecommons.org/licenses/by-sa/4.0/">コモンズ証</a>（<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">日本語</a>）<br><a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">法的条項</a>（<a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.ja">日本語</a>）<br><a href="https://creativecommons.org/licenses/by-sa/4.0/rdf">メタデータ</a></td>
 </tr><tr>
