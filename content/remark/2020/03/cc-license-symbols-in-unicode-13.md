@@ -29,18 +29,18 @@ pageType = "text"
 ちなみに「改変禁止」を表す {{< cc-syms "nd" >}} は数学の演算子 CIRCLED EQUALS (`U+229C`) を流用するようだ。
 なんだかなぁ。
 
-これらのシンボルを使って CC Licenses の各条件の組み合わせは以下のように表現できる。
+これらのシンボルを使って CC Licenses の組み合わせは以下のように表現できる。
 
-| 記号列                         | 意味                                                                        |
-| ------------------------------ | --------------------------------------------------------------------------- |
-| {{< cc-syms "pd" >}}           | [公有（public domain）](https://creativecommons.org/publicdomain/mark/1.0/) |
-| {{< cc-syms "zero" >}}         | [CC0](https://creativecommons.org/publicdomain/zero/1.0/)                   |
-| {{< cc-syms "by" >}}           | [表示](https://creativecommons.org/licenses/by/4.0/)                        |
-| {{< cc-syms "by" "sa" >}}      | [表示-継承](https://creativecommons.org/licenses/by-sa/4.0/)                |
-| {{< cc-syms "by" "nc" >}}      | [表示-非営利](https://creativecommons.org/licenses/by-nc/4.0/)              |
-| {{< cc-syms "by" "nc" "sa" >}} | [表示-非営利-継承](https://creativecommons.org/licenses/by-nc-sa/4.0/)      |
-| {{< cc-syms "by" "nd" >}}      | [表示-改変禁止](https://creativecommons.org/licenses/by-nd/4.0/)            |
-| {{< cc-syms "by" "nc" "nd" >}} | [表示-非営利-改変禁止](https://creativecommons.org/licenses/by-nc-nd/4.0/)  |
+|                                     | 意味                                                                        |
+| ----------------------------------- | --------------------------------------------------------------------------- |
+| {{< cc-syms "pd" >}}                | [公有（public domain）](https://creativecommons.org/publicdomain/mark/1.0/) |
+| {{< cc-syms "cc" "zero" >}}         | [CC0](https://creativecommons.org/publicdomain/zero/1.0/)                   |
+| {{< cc-syms "cc" "by" >}}           | [表示](https://creativecommons.org/licenses/by/4.0/)                        |
+| {{< cc-syms "cc" "by" "sa" >}}      | [表示-継承](https://creativecommons.org/licenses/by-sa/4.0/)                |
+| {{< cc-syms "cc" "by" "nc" >}}      | [表示-非営利](https://creativecommons.org/licenses/by-nc/4.0/)              |
+| {{< cc-syms "cc" "by" "nc" "sa" >}} | [表示-非営利-継承](https://creativecommons.org/licenses/by-nc-sa/4.0/)      |
+| {{< cc-syms "cc" "by" "nd" >}}      | [表示-改変禁止](https://creativecommons.org/licenses/by-nd/4.0/)            |
+| {{< cc-syms "cc" "by" "nc" "nd" >}} | [表示-非営利-改変禁止](https://creativecommons.org/licenses/by-nc-nd/4.0/)  |
 
 実際にはフォントも対応しないといけないのだが，それはしばらくかかるかな。
 
