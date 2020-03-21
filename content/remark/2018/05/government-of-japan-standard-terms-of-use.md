@@ -5,26 +5,12 @@ description = "クレジットと（改変する場合は）原典さえ示せ�
 image = "/images/attention/kitten.jpg"
 tags        = [ "copyright", "license", "creative-commons", "politics" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
 +++
 
-Tumblr で教えてもらったのだが，日本の「政府標準利用規約」は [CC Licenses] の「表示 <i class="fab fa-creative-commons-by"></i>」条件と互換性があるらしい[^lcs1]。
+Tumblr で教えてもらったのだが，日本の「政府標準利用規約」は [CC Licenses] の「表示 {{< cc-syms "by" >}}」条件と互換性があるらしい[^lcs1]。
 
 [^lcs1]: 「[CC Licenses] 下で許諾する」のではなく「[CC Licenses] と互換性がある」として頑なに「自由なライセンス」を拒否しているところが日本の役人らしい発想である。イメージ的には [CC Licenses] とのデュアル・ライセンスという感じだろうか。
 

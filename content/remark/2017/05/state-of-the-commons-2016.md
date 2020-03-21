@@ -1,9 +1,8 @@
 +++
+title = "State of the Commons 2016"
 date = "2017-05-02T14:28:57+09:00"
 description = "State of the Commons の2016年版が出ないなぁと思ってたら出てました。おそらく今年のグローバルサミットに合わせて公開されたと思われ。"
-draft = false
 tags = ["creative-commons", "free-culture", "sotc"]
-title = "State of the Commons 2016"
 
 [scripts]
   mathjax = false
@@ -30,11 +29,11 @@ title = "State of the Commons 2016"
 
 [CC Licenses] の中で，いわゆる [Free Culture Licenses] で許諾されたコンテンツの占める割合は以下の通り。
 
-| [CC Licenses] | 2015年 | 2016年 |
-| -------------:| ------:| ------:|
-| [CC0] <i class="fab fa-creative-commons-pd"></i> or [PDM] <i class="fab fa-creative-commons-pd-alt"></i> |     3% |     8% |
-| [BY] <i class="fab fa-creative-commons"></i>&nbsp;<i class="fab fa-creative-commons-by"></i> |    24% |    20% |
-| [BY-SA] <i class="fab fa-creative-commons"></i>&nbsp;<i class="fab fa-creative-commons-by"></i>&nbsp;<i class="fab fa-creative-commons-sa"></i> |    37% |    37% |
+|                                                   [CC Licenses] | 2015年 | 2016年 |
+| ---------------------------------------------------------------:| ------:| ------:|
+| [CC0] {{< cc-syms "cc" "zero" >}} or [PDM] {{< cc-syms "pd" >}} |     3% |     8% |
+|                                  [BY] {{< cc-syms "cc" "by" >}} |    24% |    20% |
+|                          [BY-SA] {{< cc-syms "cc" "by" "sa" >}} |    37% |    37% |
 
 依然 [BY-SA] ライセンスの割合が（[CC Licenses] 全体を通して）最大だが， [BY] ライセンスの割合が減少してるのが面白いねぇ。
 [CC Licenses] で許諾されたコンテンツの数は増加（12億突破！）しているので，新たに [BY] で許諾するケースが減ってきているってことかもしれないけど。
@@ -60,16 +59,4 @@ title = "State of the Commons 2016"
 
 ## 参考文献
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%95%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%AB%E3%83%81%E3%83%A3%E3%83%BC%E3%82%92%E3%81%A4%E3%81%8F%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%82%AC%E3%82%A4%E3%83%89%E3%83%96%E3%83%83%E3%82%AF-%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%BB%E3%82%B3%E3%83%A2%E3%83%B3%E3%82%BA%E3%81%AB%E3%82%88%E3%82%8B%E5%89%B5%E9%80%A0%E3%81%AE%E5%BE%AA%E7%92%B0-%E3%83%89%E3%83%9F%E3%83%8B%E3%82%AF%E3%83%BB%E3%83%81%E3%82%A7%E3%83%B3/dp/4845911744?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4845911744"><img src="https://images-fe.ssl-images-amazon.com/images/I/51pDWTdSdlL._SL160_.jpg" width="115" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%83%95%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%AB%E3%83%81%E3%83%A3%E3%83%BC%E3%82%92%E3%81%A4%E3%81%8F%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E3%82%AC%E3%82%A4%E3%83%89%E3%83%96%E3%83%83%E3%82%AF-%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%BB%E3%82%B3%E3%83%A2%E3%83%B3%E3%82%BA%E3%81%AB%E3%82%88%E3%82%8B%E5%89%B5%E9%80%A0%E3%81%AE%E5%BE%AA%E7%92%B0-%E3%83%89%E3%83%9F%E3%83%8B%E3%82%AF%E3%83%BB%E3%83%81%E3%82%A7%E3%83%B3/dp/4845911744?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4845911744">フリーカルチャーをつくるためのガイドブック  クリエイティブ・コモンズによる創造の循環</a></dt>
-	<dd>ドミニク・チェン</dd>
-    <dd>フィルムアート社 2012-05-25</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4845911744, EAN: 9784845911745</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">国内における Free Culture の事例が豊富。取っ掛かりとしてはちょうどよい本。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-05-07">2015-05-07</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "4845911744" %}} <!-- フリーカルチャーをつくるためのガイドブック -->

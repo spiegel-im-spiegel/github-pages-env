@@ -66,7 +66,7 @@ tags = ["derivative-works", "creative-commons", "copyright", "license", "tpp"]
 
 ## CC Licenses による改変の許諾{#ccl}
 
-[CC Licenses] では「改変禁止 <i class="fab fa-creative-commons-nd"></i>」条件がなければ「翻案物を作成、複製および共有すること」を許諾する。
+[CC Licenses] では「改変禁止 {{< cc-syms "nd" >}}」条件がなければ「翻案物を作成、複製および共有すること」を許諾する。
 また翻案物を受け取ったユーザは原著作者の許諾を（提示されている [CC Licenses] の条件に従って）自動的に得る[^sl]。
 
 [^sl]: [CC Licenses] ではサブライセンスを禁止しているため，翻案物に対する許諾の一方を直に原著作者から得る，という形になっている。
@@ -77,7 +77,7 @@ tags = ["derivative-works", "creative-commons", "copyright", "license", "tpp"]
 
 つまり，原マテリアルとその翻案物の双方が [CC Licenses] で許諾されているなら，双方のライセンス条件に従って翻案物も利用することができる。
 
-なお [CC Licenses] では「表示 <i class="fab fa-creative-commons-by"></i>」条件が必須になっているため，翻案物およびその複製や翻案物に対しても原著作者のクレジット表示が必要になる[^attr]。
+なお [CC Licenses] では「表示 {{< cc-syms "by" >}}」条件が必須になっているため，翻案物およびその複製や翻案物に対しても原著作者のクレジット表示が必要になる[^attr]。
 
 [^attr]: クレジット表示については[前に書いた記事]({{< ref "/cc-licenses/02-creative-commons-licenses.md#attribution" >}})を参照のこと。
 
@@ -87,17 +87,17 @@ tags = ["derivative-works", "creative-commons", "copyright", "license", "tpp"]
 原著作物が [CC Licenses] で許諾されている場合でも，その翻案物が [CC Licenses] で許諾されていない場合は利用条件が著しく制限される場合がある（まぁ原著作物から派生させる手もあるのだが）。
 また原著作物とその翻案物の双方が [CC Licenses] で許諾されているとしても両者の条件が異なれば，やはりそれも制限になってしまう。
 
-もし翻案物も含めてマテリアルを広く共有したいと望むのであれば「継承 <i class="fab fa-creative-commons-sa"></i>」条件を付加することをお勧めする。
-「継承 <i class="fab fa-creative-commons-sa"></i>」条件が付加されている場合は，翻案物に対しても同等のライセンス[^cmp] を付加することが求められる。
+もし翻案物も含めてマテリアルを広く共有したいと望むのであれば「継承 {{< cc-syms "sa" >}}」条件を付加することをお勧めする。
+「継承 {{< cc-syms "sa" >}}」条件が付加されている場合は，翻案物に対しても同等のライセンス[^cmp] を付加することが求められる。
 
 [^cmp]: 「同等のライセンス」として同じ条件の [CC Licenses] （他バージョンを含む）が挙げられる。また「[表示-継承]」については [Free Art License](http://artlibre.org/licence/lal/en/) 1.3 や [GNU GPL](https://www.gnu.org/copyleft/gpl.html)v3 も互換性のあるライセンスとして認められている。
 
 このようなライセンスの仕組みは [Copyleft] と呼ばれている。
-[Copyleft] の起源は [GNU GPL（General Public License）](https://www.gnu.org/copyleft/gpl.html) であるが， [CC Licenses] においても「継承 <i class="fab fa-creative-commons-sa"></i>」条件よって [Copyleft] もしくはそれに近いライセンスを構成できる[^cl]。
+[Copyleft] の起源は [GNU GPL（General Public License）](https://www.gnu.org/copyleft/gpl.html) であるが， [CC Licenses] においても「継承 {{< cc-syms "sa" >}}」条件よって [Copyleft] もしくはそれに近いライセンスを構成できる[^cl]。
 
 [^cl]: ただし厳密に [Copyleft] と言えるのは「[表示-継承]」条件のみである。
 
-[CC Licenses] で「継承 <i class="fab fa-creative-commons-sa"></i>」条件が付くのは以下の2つである。
+[CC Licenses] で「継承 {{< cc-syms "sa" >}}」条件が付くのは以下の2つである。
 
 {{< fig-gen title="Creative Commons Licenses Version 4.0 International" >}}
 <table>
@@ -173,7 +173,7 @@ tags = ["derivative-works", "creative-commons", "copyright", "license", "tpp"]
 ## 「改変禁止」が意図するもの{#nd}
 
 [Creative Commons] は名前の通り「創造性の共有地[^cc]」を創り広げることを目的（のひとつ）としている。
-ならば [CC Licenses] に「改変禁止 <i class="fab fa-creative-commons-nd"></i>」条件を加えることは [Creative Commons] の目的に反するのではないだろうか。
+ならば [CC Licenses] に「改変禁止 {{< cc-syms "nd" >}}」条件を加えることは [Creative Commons] の目的に反するのではないだろうか。
 
 [^cc]: 翻訳は「[XML的思索：創造性の共有　機械可読ライセンスによるクリエイティブな作品の育成と流通](http://www.ibm.com/developerworks/jp/xml/library/x-think18/)」のタイトルから拝借した。リンク切れててゴメン（[Internet Archive](https://web.archive.org/web/20091202161418/http://www.ibm.com/developerworks/jp/xml/library/x-think18/)）。
 
@@ -186,14 +186,14 @@ tags = ["derivative-works", "creative-commons", "copyright", "license", "tpp"]
 1. making derives (creation：創造)
 2. dissemination (access：アクセス)
 
-この分類で考えるなら「改変禁止 <i class="fab fa-creative-commons-nd"></i>」条件は主に dissemination (access) にフォーカスしたものであると解釈することができる。
+この分類で考えるなら「改変禁止 {{< cc-syms "nd" >}}」条件は主に dissemination (access) にフォーカスしたものであると解釈することができる。
 
 {{< fig-quote title="by-nc-nd - 雑記帳" link="http://d.hatena.ne.jp/ced/20060720/1153344179" >}}
 <q>ここからが思考のアクロバットを必要とする部分。インターネットは「技術的」にはコピーが自由。けれども、インターネットとは別の次元でこれまで発展してきた著作権法は、このような「コピー自由」な環境が存在することを想定していなかった。で、現時点でも「コピー自由」な環境に著作権法は対応していない。だから、「技術的」にはインターネット上で簡単にコピー出来てしまう素材も、現実世界の著作権法の元ではその利用は違反となってしまう。それを解決するのがCCのby-nc-ndで、手を加えないならコピー自由、という行為をライセンスというかたちで保証している。これにより、素材のインターネット上での頒布が可能となる。</q>
 {{< /fig-quote >}}
 
-確かに「改変禁止 <i class="fab fa-creative-commons-nd"></i>」条件を加えると [Creative Commons] が本来欲しい making derives (creation) としての機能は弱くなる。
-しかし「改変禁止 <i class="fab fa-creative-commons-nd"></i>」条件を加えることによって，少なくとも（“all rights reserved” な状態と比較すれば） dissemination (access) は担保できる。
+確かに「改変禁止 {{< cc-syms "nd" >}}」条件を加えると [Creative Commons] が本来欲しい making derives (creation) としての機能は弱くなる。
+しかし「改変禁止 {{< cc-syms "nd" >}}」条件を加えることによって，少なくとも（“all rights reserved” な状態と比較すれば） dissemination (access) は担保できる。
 
 これも大事な「共有」の形である。
 逃す手はないだろう。

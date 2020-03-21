@@ -17,30 +17,30 @@ pageType = "text"
 
 追加された CC Licenses シンボルは以下の通り。
 
-| 符号点    |         文字          | 名前                                        |
-| --------- |:---------------------:| ------------------------------------------- |
-| `U+1F16D` |  {{< cc-sym "cc" >}}  | CIRCLED CC                                  |
-| `U+1F16E` |  {{< cc-sym "pd" >}}  | CIRCLED C WITH OVERLAID BACKSLASH           |
-| `U+1F16F` |  {{< cc-sym "by" >}}  | CIRCLED HUMAN FIGURE                        |
-| `U+1F10D` | {{< cc-sym "zero" >}} | CIRCLED ZERO WITH SLASH                     |
-| `U+1F10E` |  {{< cc-sym "sa" >}}  | CIRCLED ANTICLOCKWISE ARROW                 |
-| `U+1F10F` |  {{< cc-sym "nc" >}}  | CIRCLED DOLLAR SIGN WITH OVERLAID BACKSLASH |
+| 符号点    |          字形          | 名前                                        |
+| --------- |:----------------------:| ------------------------------------------- |
+| `U+1F16D` |  {{< cc-syms "cc" >}}  | CIRCLED CC                                  |
+| `U+1F16E` |  {{< cc-syms "pd" >}}  | CIRCLED C WITH OVERLAID BACKSLASH           |
+| `U+1F16F` |  {{< cc-syms "by" >}}  | CIRCLED HUMAN FIGURE                        |
+| `U+1F10D` | {{< cc-syms "zero" >}} | CIRCLED ZERO WITH SLASH                     |
+| `U+1F10E` |  {{< cc-syms "sa" >}}  | CIRCLED ANTICLOCKWISE ARROW                 |
+| `U+1F10F` |  {{< cc-syms "nc" >}}  | CIRCLED DOLLAR SIGN WITH OVERLAID BACKSLASH |
 
-ちなみに「改変禁止」を表す <i class="fab fa-creative-commons-nd"></i> は数学の演算子 CIRCLED EQUALS (`U+229C`) を流用するようだ。
+ちなみに「改変禁止」を表す {{< cc-syms "nd" >}} は数学の演算子 CIRCLED EQUALS (`U+229C`) を流用するようだ。
 なんだかなぁ。
 
 これらのシンボルを使って CC Licenses の各条件の組み合わせは以下のように表現できる。
 
-| 記号                                                        | 意味                                                                       |
-| ----------------------------------------------------------- | -------------------------------------------------------------------------- |
-| {{< cc-sym "pd" >}}                                         | 公有（public domain）                                                      |
-| {{< cc-sym "zero" >}}                                       | [CC0](https://creativecommons.org/publicdomain/zero/1.0/)              |
-| {{< cc-sym "by" >}}                                         | [表示](https://creativecommons.org/licenses/by/4.0/)                       |
-| {{< cc-sym "by" >}} {{< cc-sym "sa" >}}                     | [表示-継承](https://creativecommons.org/licenses/by-sa/4.0/)               |
-| {{< cc-sym "by" >}} {{< cc-sym "nc" >}}                     | [表示-非営利](https://creativecommons.org/licenses/by-nc/4.0/)             |
-| {{< cc-sym "by" >}} {{< cc-sym "nc" >}} {{< cc-sym "sa" >}} | [表示-非営利-継承](https://creativecommons.org/licenses/by-nc-sa/4.0/)     |
-| {{< cc-sym "by" >}} {{< cc-sym "nd" >}}                     | [表示-改変禁止](https://creativecommons.org/licenses/by-nd/4.0/)           |
-| {{< cc-sym "by" >}} {{< cc-sym "nc" >}} {{< cc-sym "nd" >}} | [表示-非営利-改変禁止](https://creativecommons.org/licenses/by-nc-nd/4.0/) |
+| 記号列                         | 意味                                                                        |
+| ------------------------------ | --------------------------------------------------------------------------- |
+| {{< cc-syms "pd" >}}           | [公有（public domain）](https://creativecommons.org/publicdomain/mark/1.0/) |
+| {{< cc-syms "zero" >}}         | [CC0](https://creativecommons.org/publicdomain/zero/1.0/)                   |
+| {{< cc-syms "by" >}}           | [表示](https://creativecommons.org/licenses/by/4.0/)                        |
+| {{< cc-syms "by" "sa" >}}      | [表示-継承](https://creativecommons.org/licenses/by-sa/4.0/)                |
+| {{< cc-syms "by" "nc" >}}      | [表示-非営利](https://creativecommons.org/licenses/by-nc/4.0/)              |
+| {{< cc-syms "by" "nc" "sa" >}} | [表示-非営利-継承](https://creativecommons.org/licenses/by-nc-sa/4.0/)      |
+| {{< cc-syms "by" "nd" >}}      | [表示-改変禁止](https://creativecommons.org/licenses/by-nd/4.0/)            |
+| {{< cc-syms "by" "nc" "nd" >}} | [表示-非営利-改変禁止](https://creativecommons.org/licenses/by-nc-nd/4.0/)  |
 
 実際にはフォントも対応しないといけないのだが，それはしばらくかかるかな。
 
