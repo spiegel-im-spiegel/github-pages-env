@@ -29,7 +29,7 @@ image = "/images/attention/go-logo_blue.png"
 - [Go Turns 10 - The Go Blog](https://blog.golang.org/10years)
 
 ### Go 1.5 Released. 
- 
+
 - [Go 1.5 is released - The Go Blog](https://blog.golang.org/go1.5)
 - [Go 1.5 Release Notes - The Go Programming Language](https://golang.org/doc/go1.5)
     - [Go 1.4 "Internal" Packages](https://docs.google.com/document/d/1e8kOo3r51b2BWtTs_1uADIA5djfXhPT36s6eHVRIvaU/edit) : Internal Packages は 1.5 で GOPATH まで拡張された
@@ -259,6 +259,7 @@ image = "/images/attention/go-logo_blue.png"
 - [GitHub - imdario/mergo: Mergo: merging Go structs and maps since 2013.](https://github.com/imdario/mergo)
 - [Go理解度チェック - Google スライド](https://docs.google.com/presentation/d/1oqfPIEJlw1u0GStHPEJFMtq2FPFUGDVSgMW2sLsXZF8/mobilepresent#slide=id.g7a74c7c8ae_0_298)
 - [[Go] 省略記号（...）を使った配列宣言の仕方 - My External Storage](https://budougumi0617.github.io/2020/03/06/go-array-with-the-ellipsis/)
+- [Go: Slice and Memory Management - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-slice-and-memory-management-670498bb52be)
 
 ### 入出力処理
 
@@ -881,6 +882,10 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [[発表資料] 第138回RITS技術交流会『なぜ私たちはGoを書くのか。今あらためて考えるGo言語の良さと実際』 - My External Storage](https://budougumi0617.github.io/2019/10/05/jrits-why-go-how-is-go/)
 - [Language and Locale Matching in Go - The Go Blog](https://blog.golang.org/matchlang)
 - [OWASP/Go-SCPを読んでセキュアプログラミングとGoを学ぶ - My External Storage](https://budougumi0617.github.io/2019/12/04/introduce_go-scp/)
+- [The Go Playground（play.golang.org）のショートカットキー - My External Storage](https://budougumi0617.github.io/2020/03/13/shortcut-keys-on-the-go-playground/)
+- [The Zen of Go | Dave Cheney](https://dave.cheney.net/2020/02/23/the-zen-of-go)
+    - [ブログ: Goの禅 (The Zen of Go)](https://okuranagaimo.blogspot.com/2020/03/go-zen-of-go.html)
+- [「プログラミング言語Go完全入門」の期間限定公開のお知らせ - Mercari Engineering Blog](https://tech.mercari.com/entry/2020/03/17/120137)
 
 ### 他言語との比較もしくは移行
 

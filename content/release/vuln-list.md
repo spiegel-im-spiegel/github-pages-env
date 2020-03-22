@@ -2,7 +2,6 @@
 title = "Ubuntu アプリケーションにおけるセキュリティ・アップデート一覧"
 date =  "2019-07-31T07:43:30+09:00"
 description = "Ubuntu の各アプリケーションにおける脆弱性発覚時のセキュリティ・アップデートがヒッジョーに分かりにくいためメモを作って管理することにした。"
-image = "/images/attention/tools.png"
 tags = [ "security", "vulnerability", "risk", "tools", "ubuntu" ]
 pageType = "text"
 
@@ -35,7 +34,8 @@ GnuPG は [Ubuntu] 19.04 リリース時の 2.2.12 (libgcrypt 1.8.4) から動�
 
 | Official | Release    |  Ubuntu | Release |   delay |
 | --------:| ---------- | -------:| ------- | -------:|
-|   2.2.19 | 2019-12-07 |         |         | ∞ days |
+|   2.2.20 | 2020-03-20 |         |         | ∞ days |
+|   2.2.19 | 2019-12-07 | &mdash; | &mdash; | &mdash; |
 |   2.2.18 | 2019-11-25 | &mdash; | &mdash; | &mdash; |
 |   2.2.17 | 2019-07-09 | &mdash; | &mdash; | &mdash; |
 
@@ -78,6 +78,7 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 | Official | Release    |                       Ubuntu | Release    |   delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
+|     74.0 | 2020-03-10 |   74.0+build3-0 (USN-4299-1) | 2020-03-11 |   1 day |
 |   73.0.1 | 2020-02-18 | 73.0.1+build1-0 (USN-4278-3) | 2020-02-26 |  8 days |
 |     73.0 | 2020-02-11 |   73.0+build3-0 (USN-4278-1) | 2020-02-13 |  2 days |
 |   72.0.2 | 2020-01-20 | 72.0.2+build1-0 (USN-4234-2) | 2020-01-30 | 10 days |
@@ -89,6 +90,7 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ### ブックマーク
 
+- [Firefox  74.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/74.0/releasenotes/)
 - [Firefox  73.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/73.0.1/releasenotes/)
 - [Firefox  73.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/73.0/releasenotes/)
 - [Firefox  72.0.2, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/72.0.2/releasenotes/)
@@ -106,7 +108,8 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 | Official | Release    |                       Ubuntu | Release    |   delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
-|   68.5.0 | 2020-02-11 |                              |            | ∞ days |
+|   68.6.0 | 2020-03-12 |                              |            | ∞ days |
+|   68.5.0 | 2020-02-11 |                      &mdash; | &mdash;    | &mdash; |
 |   68.4.2 | 2020-01-24 |                      &mdash; | &mdash;    | &mdash; |
 |   68.4.1 | 2020-01-09 | 68.4.1+build1-0 (USN-4241-1) | 2020-01-16 |  7 days |
 |   68.3.1 | 2019-12-16 |                      &mdash; | &mdash;    | &mdash; |
@@ -121,6 +124,7 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (68.6.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.6.0/releasenotes/)
 - [Thunderbird — Release Notes (68.5.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.5.0/releasenotes/)
 - [Thunderbird — Release Notes (68.4.2) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.4.2/releasenotes/)
 - [Thunderbird — Release Notes (68.4.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.4.1/releasenotes/)

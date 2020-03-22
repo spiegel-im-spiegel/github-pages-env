@@ -226,6 +226,7 @@ func main() {
 
 - [Configure Markup | Hugo](https://gohugo.io/getting-started/configuration-markup/)
 - [Syntax Highlighting | Hugo](https://gohugo.io/content-management/syntax-highlighting/)
+- [Hugo v0.60以上を使うと、Markdown中のHTMLタグが「raw HTML omitted」となって消えてしまう - My External Storage](https://budougumi0617.github.io/2020/03/10/hugo-render-raw-html/)
 
 [Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
 [CommonMark]: https://commonmark.org/

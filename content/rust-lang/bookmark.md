@@ -25,6 +25,7 @@ pageType = "text"
 
 - [rust - Rustの"unwrap()"は何をするものですか？ - スタック・オーバーフロー](https://ja.stackoverflow.com/questions/1730/rust%E3%81%AEunwrap%E3%81%AF%E4%BD%95%E3%82%92%E3%81%99%E3%82%8B%E3%82%82%E3%81%AE%E3%81%A7%E3%81%99%E3%81%8B)
 - [Rustでの日本語の扱い | κeenのHappy Hacκing Blog](https://keens.github.io/blog/2015/12/13/rustdenonihongonoatsukai/)
+- [Rustのイテレータの網羅的かつ大雑把な紹介 - Qiita](https://qiita.com/lo48576/items/34887794c146042aebf1)
 
 [Rust]: https://www.rust-lang.org/ "Rust Programming Language"
 
