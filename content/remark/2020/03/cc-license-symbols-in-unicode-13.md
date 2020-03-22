@@ -31,20 +31,25 @@ pageType = "text"
 
 これらのシンボルを使って CC Licenses の組み合わせは以下のように表現できる。
 
-|                                     | 意味                                                                        |
-| ----------------------------------- | --------------------------------------------------------------------------- |
-| {{< cc-syms "pd" >}}                | [公有（public domain）](https://creativecommons.org/publicdomain/mark/1.0/) |
-| {{< cc-syms "cc" "zero" >}}         | [CC0](https://creativecommons.org/publicdomain/zero/1.0/)                   |
-| {{< cc-syms "cc" "by" >}}           | [表示](https://creativecommons.org/licenses/by/4.0/)                        |
-| {{< cc-syms "cc" "by" "sa" >}}      | [表示-継承](https://creativecommons.org/licenses/by-sa/4.0/)                |
-| {{< cc-syms "cc" "by" "nc" >}}      | [表示-非営利](https://creativecommons.org/licenses/by-nc/4.0/)              |
-| {{< cc-syms "cc" "by" "nc" "sa" >}} | [表示-非営利-継承](https://creativecommons.org/licenses/by-nc-sa/4.0/)      |
-| {{< cc-syms "cc" "by" "nd" >}}      | [表示-改変禁止](https://creativecommons.org/licenses/by-nd/4.0/)            |
-| {{< cc-syms "cc" "by" "nc" "nd" >}} | [表示-非営利-改変禁止](https://creativecommons.org/licenses/by-nc-nd/4.0/)  |
+|                                     | 意味                                                                        |          FCL          |
+| ----------------------------------- | --------------------------------------------------------------------------- |:---------------------:|
+| {{< cc-syms "pd" >}}                | [公有（public domain）](https://creativecommons.org/publicdomain/mark/1.0/) |                       |
+| {{< cc-syms "cc" "zero" >}}         | [CC0](https://creativecommons.org/publicdomain/zero/1.0/)                   | {{< icons "check" >}} |
+| {{< cc-syms "cc" "by" >}}           | [表示](https://creativecommons.org/licenses/by/4.0/)                        | {{< icons "check" >}} |
+| {{< cc-syms "cc" "by" "sa" >}}      | [表示-継承](https://creativecommons.org/licenses/by-sa/4.0/)                | {{< icons "check" >}} |
+| {{< cc-syms "cc" "by" "nc" >}}      | [表示-非営利](https://creativecommons.org/licenses/by-nc/4.0/)              |                       |
+| {{< cc-syms "cc" "by" "nc" "sa" >}} | [表示-非営利-継承](https://creativecommons.org/licenses/by-nc-sa/4.0/)      |                       |
+| {{< cc-syms "cc" "by" "nd" >}}      | [表示-改変禁止](https://creativecommons.org/licenses/by-nd/4.0/)            |                       |
+| {{< cc-syms "cc" "by" "nc" "nd" >}} | [表示-非営利-改変禁止](https://creativecommons.org/licenses/by-nc-nd/4.0/)  |                       |
+
+ちなみに公有を除く上から3つが Free Culture Licenses に相当する（公有はライセンスじゃないので）。
+しかし Free Culture というフレーズも遠くなったなぁ（笑）
 
 実際にはフォントも対応しないといけないのだが，それはしばらくかかるかな。
 
 ## ブックマーク
+
+- [Understanding Free Cultural Works - Creative Commons](https://creativecommons.org/share-your-work/public-domain/freeworks/)
 
 - [改訂3版： CC Licenses について]({{< rlnk "/cc-licenses/" >}})
 - [Font Awesome 5.0.11 で Creative Commons アイコンに完全対応した]({{< ref "/release/2018/05/creative-commons-icons-by-font-awesome.md" >}})
@@ -54,3 +59,4 @@ pageType = "text"
 {{% review-paapi "475710152X" %}} <!-- クリエイティブ・コモンズ―デジタル時代の知的財産権 -->
 {{% review-paapi "B00DI8TMPU" %}} <!-- オープン化する創造の時代 -->
 {{% review-paapi "4757102852" %}} <!-- 著作権２．０ ウェブ時代の文化発展をめざして -->
+{{% review-paapi "B01DJ5VE0W" %}} <!-- FREE CULTURE -->
