@@ -1,0 +1,35 @@
+package main
+
+import (
+	"fmt"
+	"io"
+	"os"
+
+	"github.com/spiegel-im-spiegel/logf"
+	"github.com/spiegel-im-spiegel/writers"
+)
+
+func main() {
+	file, err := os.Create("log.txt")
+	if err != nil {
+		fmt.Printf("%#v\n", err)
+		return
+	}
+	defer file.Close()
+
+	ws := io.MultiWriter(
+		file,
+		writers.Filter([]byte("[ERROR]"), os.Stdout),
+		writers.Filter([]byte("[FATAL]"), os.Stdout),
+	)
+	logf.SetOutput(ws)
+	for i := 0; i < 6; i++ {
+		logf.SetMinLevel(logf.TRACE + logf.Level(i))
+		logf.Tracef("Traceing: No. %d\n", i+1)
+		logf.Debugf("Debugging: No. %d\n", i+1)
+		logf.Printf("Information: No. %d\n", i+1)
+		logf.Warnf("Warning: No. %d\n", i+1)
+		logf.Errorf("Erroring: No. %d\n", i+1)
+		logf.Fatalf("Fatal Erroring: No. %d\n", i+1)
+	}
+}
