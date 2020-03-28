@@ -32,22 +32,22 @@ Twitter で
 package main
 
 import (
-	"os"
+    "os"
 
-	"github.com/spiegel-im-spiegel/logf"
+    "github.com/spiegel-im-spiegel/logf"
 )
 
 func main() {
-	logf.SetOutput(os.Stdout)
-	for i := 0; i < 6; i++ {
-		logf.SetMinLevel(logf.TRACE + logf.Level(i))
-		logf.Tracef("Traceing: No. %d\n", i+1)
-		logf.Debugf("Debugging: No. %d\n", i+1)
-		logf.Printf("Information: No. %d\n", i+1)
-		logf.Warnf("Warning: No. %d\n", i+1)
-		logf.Errorf("Erroring: No. %d\n", i+1)
-		logf.Fatalf("Fatal Erroring: No. %d\n", i+1)
-	}
+    logf.SetOutput(os.Stdout)
+    for i := 0; i < 6; i++ {
+        logf.SetMinLevel(logf.TRACE + logf.Level(i))
+        logf.Tracef("Traceing: No. %d\n", i+1)
+        logf.Debugf("Debugging: No. %d\n", i+1)
+        logf.Printf("Information: No. %d\n", i+1)
+        logf.Warnf("Warning: No. %d\n", i+1)
+        logf.Errorf("Erroring: No. %d\n", i+1)
+        logf.Fatalf("Fatal Erroring: No. %d\n", i+1)
+    }
 }
 ```
 
@@ -87,32 +87,32 @@ $ go run sample.go
 package main
 
 import (
-	"fmt"
-	"io"
-	"os"
+    "fmt"
+    "io"
+    "os"
 
-	"github.com/spiegel-im-spiegel/logf"
+    "github.com/spiegel-im-spiegel/logf"
 )
 
 func main() {
-	file, err := os.Create("log.txt")
-	if err != nil {
-		fmt.Printf("%#v\n", err)
-		return
-	}
-	defer file.Close()
+    file, err := os.Create("log.txt")
+    if err != nil {
+        fmt.Printf("%#v\n", err)
+        return
+    }
+    defer file.Close()
 
-	ws := io.MultiWriter(file, os.Stdout)
-	logf.SetOutput(ws)
-	for i := 0; i < 6; i++ {
-		logf.SetMinLevel(logf.TRACE + logf.Level(i))
-		logf.Tracef("Traceing: No. %d\n", i+1)
-		logf.Debugf("Debugging: No. %d\n", i+1)
-		logf.Printf("Information: No. %d\n", i+1)
-		logf.Warnf("Warning: No. %d\n", i+1)
-		logf.Errorf("Erroring: No. %d\n", i+1)
-		logf.Fatalf("Fatal Erroring: No. %d\n", i+1)
-	}
+    ws := io.MultiWriter(file, os.Stdout)
+    logf.SetOutput(ws)
+    for i := 0; i < 6; i++ {
+        logf.SetMinLevel(logf.TRACE + logf.Level(i))
+        logf.Tracef("Traceing: No. %d\n", i+1)
+        logf.Debugf("Debugging: No. %d\n", i+1)
+        logf.Printf("Information: No. %d\n", i+1)
+        logf.Warnf("Warning: No. %d\n", i+1)
+        logf.Errorf("Erroring: No. %d\n", i+1)
+        logf.Fatalf("Fatal Erroring: No. %d\n", i+1)
+    }
 }
 ```
 
@@ -126,8 +126,8 @@ package writers
 
 //FilterWriter type is Writer with filter
 type FilterWriter struct {
-	word   []byte
-	writer io.Writer
+    word   []byte
+    writer io.Writer
 }
 ```
 
@@ -136,20 +136,20 @@ type FilterWriter struct {
 ```go
 //Write function writes bytes data.
 func (w *FilterWriter) Write(b []byte) (int, error) {
-	if w.match(b) {
-		return w.writer.Write(b)
-	}
+    if w.match(b) {
+        return w.writer.Write(b)
+    }
     return len(b), nil
 }
 
 func (w *FilterWriter) match(b []byte) bool {
-	if len(b) == 0 {
-		return false
-	}
-	if w.word == nil {
-		return true
-	}
-	return bytes.Contains(b, w.word)
+    if len(b) == 0 {
+        return false
+    }
+    if w.word == nil {
+        return true
+    }
+    return bytes.Contains(b, w.word)
 }
 ```
 
@@ -162,37 +162,37 @@ func (w *FilterWriter) match(b []byte) bool {
 package main
 
 import (
-	"fmt"
-	"io"
-	"os"
+    "fmt"
+    "io"
+    "os"
 
-	"github.com/spiegel-im-spiegel/logf"
-	"github.com/spiegel-im-spiegel/writers"
+    "github.com/spiegel-im-spiegel/logf"
+    "github.com/spiegel-im-spiegel/writers"
 )
 
 func main() {
-	file, err := os.Create("log.txt")
-	if err != nil {
-		fmt.Printf("%#v\n", err)
-		return
-	}
-	defer file.Close()
+    file, err := os.Create("log.txt")
+    if err != nil {
+        fmt.Printf("%#v\n", err)
+        return
+    }
+    defer file.Close()
 
     ws := io.MultiWriter(
-		file,
-		writers.Filter([]byte("[ERROR]"), os.Stdout),
-		writers.Filter([]byte("[FATAL]"), os.Stdout),
-	)
-	logf.SetOutput(ws)
-	for i := 0; i < 6; i++ {
-		logf.SetMinLevel(logf.TRACE + logf.Level(i))
-		logf.Tracef("Traceing: No. %d\n", i+1)
-		logf.Debugf("Debugging: No. %d\n", i+1)
-		logf.Printf("Information: No. %d\n", i+1)
-		logf.Warnf("Warning: No. %d\n", i+1)
-		logf.Errorf("Erroring: No. %d\n", i+1)
-		logf.Fatalf("Fatal Erroring: No. %d\n", i+1)
-	}
+        file,
+        writers.Filter([]byte("[ERROR]"), os.Stdout),
+        writers.Filter([]byte("[FATAL]"), os.Stdout),
+    )
+    logf.SetOutput(ws)
+    for i := 0; i < 6; i++ {
+        logf.SetMinLevel(logf.TRACE + logf.Level(i))
+        logf.Tracef("Traceing: No. %d\n", i+1)
+        logf.Debugf("Debugging: No. %d\n", i+1)
+        logf.Printf("Information: No. %d\n", i+1)
+        logf.Warnf("Warning: No. %d\n", i+1)
+        logf.Errorf("Erroring: No. %d\n", i+1)
+        logf.Fatalf("Fatal Erroring: No. %d\n", i+1)
+    }
 }
 ```
 
@@ -220,26 +220,26 @@ $ go run sample.go
 ```go
 //RegexpWriter type is Writer with regular expression filter
 type RegexpWriter struct {
-	re     *regexp.Regexp
-	writer io.Writer
+    re     *regexp.Regexp
+    writer io.Writer
 }
 
 //WriteString function writes string.
 func (w *RegexpWriter) Write(b []byte) (int, error) {
-	if w.match(b) {
-		return w.writer.Write(b)
-	}
+    if w.match(b) {
+        return w.writer.Write(b)
+    }
     return len(b), nil
 }
 
 func (w *RegexpWriter) match(b []byte) bool {
-	if len(b) == 0 {
-		return false
-	}
-	if w.re == nil {
-		return true
-	}
-	return w.re.Match(b)
+    if len(b) == 0 {
+        return false
+    }
+    if w.re == nil {
+        return true
+    }
+    return w.re.Match(b)
 }
 ```
 
@@ -249,37 +249,37 @@ func (w *RegexpWriter) match(b []byte) bool {
 package main
 
 import (
-	"fmt"
-	"io"
-	"os"
-	"regexp"
+    "fmt"
+    "io"
+    "os"
+    "regexp"
 
-	"github.com/spiegel-im-spiegel/logf"
-	"github.com/spiegel-im-spiegel/writers"
+    "github.com/spiegel-im-spiegel/logf"
+    "github.com/spiegel-im-spiegel/writers"
 )
 
 func main() {
-	file, err := os.Create("log.txt")
-	if err != nil {
-		fmt.Printf("%#v\n", err)
-		return
-	}
-	defer file.Close()
+    file, err := os.Create("log.txt")
+    if err != nil {
+        fmt.Printf("%#v\n", err)
+        return
+    }
+    defer file.Close()
 
     ws := io.MultiWriter(
-		file,
-		writers.Regexp(regexp.MustCompile(`\[(ERROR|FATAL)\]`), os.Stdout),
-	)
-	logf.SetOutput(ws)
-	for i := 0; i < 6; i++ {
-		logf.SetMinLevel(logf.TRACE + logf.Level(i))
-		logf.Tracef("Traceing: No. %d\n", i+1)
-		logf.Debugf("Debugging: No. %d\n", i+1)
-		logf.Printf("Information: No. %d\n", i+1)
-		logf.Warnf("Warning: No. %d\n", i+1)
-		logf.Errorf("Erroring: No. %d\n", i+1)
-		logf.Fatalf("Fatal Erroring: No. %d\n", i+1)
-	}
+        file,
+        writers.Regexp(regexp.MustCompile(`\[(ERROR|FATAL)\]`), os.Stdout),
+    )
+    logf.SetOutput(ws)
+    for i := 0; i < 6; i++ {
+        logf.SetMinLevel(logf.TRACE + logf.Level(i))
+        logf.Tracef("Traceing: No. %d\n", i+1)
+        logf.Debugf("Debugging: No. %d\n", i+1)
+        logf.Printf("Information: No. %d\n", i+1)
+        logf.Warnf("Warning: No. %d\n", i+1)
+        logf.Errorf("Erroring: No. %d\n", i+1)
+        logf.Fatalf("Fatal Erroring: No. %d\n", i+1)
+    }
 }
 ```
 
