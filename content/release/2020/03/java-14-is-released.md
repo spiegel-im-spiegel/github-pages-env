@@ -46,6 +46,7 @@ OpenJDK 64-Bit Server VM (build 14+36-1461, mixed mode, sharing)
 ## ブックマーク
 
 - [Java 14正式版が登場。テキストブロック、インストーラー作成ツールなど新機能。Solaris/SPARC版はついに引退 － Publickey](https://www.publickey1.jp/blog/20/java_14solarissparc.html)
+- [Java 14新機能まとめ - Qiita](https://qiita.com/nowokay/items/ec85d97a7cecaaac8123)
 - [真面目に PlantUML]({{< ref "/remark/2018/12/plantuml-1.md" >}})
 
 [OpenJDK]: http://openjdk.java.net/

@@ -131,7 +131,7 @@ type FilterWriter struct {
 }
 ```
 
-この型に対して `Write()` メソッド
+この型に対して以下の `Write()` メソッド
 
 ```go
 //Write function writes bytes data.
