@@ -19,7 +19,7 @@ pageType = "text"
 - [Hugo 0.68.3: A couple of Bug Fixes | Hugo](https://gohugo.io/news/0.68.3-relnotes/)
 
 どうもまた markdown 周りの挙動が変わったようだ。
-具体的には
+例えば
 
 ```markdown
 [string] を [][rune] に変換する。
