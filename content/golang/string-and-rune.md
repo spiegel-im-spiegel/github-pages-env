@@ -132,7 +132,7 @@ func main() {
 }
 ```
 
-のように [string] → [][rune] → [string] と変換していけば安全に処理できる。
+のように [`string`] → `[]`[`rune`] → [`string`] と変換していけば安全に処理できる。
 上のコードの[実行結果](https://play.golang.org/p/EQEUIgkriHr)はこんな感じ。
 
 ```text
@@ -155,7 +155,9 @@ nippon = 日本
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [string]: http://golang.org/ref/spec#String_types
+[`string`]: http://golang.org/ref/spec#String_types
 [rune]: http://blog.golang.org/strings "Strings, bytes, runes and characters in Go - The Go Blog"
+[`rune`]: http://blog.golang.org/strings "Strings, bytes, runes and characters in Go - The Go Blog"
 
 ## 参考図書
 
