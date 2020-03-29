@@ -141,6 +141,7 @@ JavaScript は ES5 以降から関数型の要素を大幅に取り込んでい�
 
 - [Haskell 超入門 - Qiita](https://qiita.com/7shi/items/145f1234f8ec2af923ef)
 - [カリー化と部分適用（JavaScriptとHaskell） - Qiita](https://qiita.com/7shi/items/a0143daac77a205e7962)
+- [JavaScript: 通常の関数とアロー関数の違いは「書き方だけ」ではない。異なる性質が10個ほどある。 - Qiita](https://qiita.com/suin/items/a44825d253d023e31e4d)
 
 [Haskell]: https://www.haskell.org/ "Haskell Language"
 [Go 言語]: https://golang.org/ "The Go Programming Language"

@@ -11,6 +11,19 @@ pageType = "text"
   mermaidjs = false
 +++
 
+{{< div-box type="markdown" >}}
+この記事で紹介した [GolangCI] のレビュー・サービスは 2020-04-15 で終了するらしい。
+
+- [GolangCI.com is closing - golangci - Medium](https://medium.com/golangci/golangci-com-is-closing-d1fc1bd30e0e)
+
+まぁ [Go 言語]自体がもっと普及しないと営利サービスとしては難しいのかもね。
+残念ではあるが lint ツール自体は公開を続けるそうな。
+うんうん，よかったよかった。
+
+[GolangCI]: https://golangci.com/ "Automated code review for Go"
+[Go 言語]: https://golang.org/ "The Go Programming Language"
+{{< /div-box >}}
+
 以前「[golangci-lint に叱られる]({{< relref "./donot-sleep-through-life.md" >}})」で
 
 > {{% quote %}}[GolangCI](https://golangci.com/ "Automated code review for Go") も気になるが，それはまたいつか{{% /quote %}}

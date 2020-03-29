@@ -37,6 +37,10 @@ go version go1.14.1 linux/amd64
 
 アップデートは計画的に。
 
+## ブックマーク
+
+- [Java 14新機能まとめ - Qiita](https://qiita.com/nowokay/items/ec85d97a7cecaaac8123)
+
 [Go]: https://golang.org/ "The Go Programming Language"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
