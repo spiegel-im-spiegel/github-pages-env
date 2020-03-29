@@ -1,4 +1,4 @@
 github.com/spiegel-im-spiegel/logf v0.2.5 h1:0miq3ld6MkcZrFhPGLFGGMf0IbDcoX3L82nA6QDMWMk=
 github.com/spiegel-im-spiegel/logf v0.2.5/go.mod h1:VMrCPNH6DjDl6ENW2oWdqSOYfYSb0tiCLAUqlRW9xGM=
-github.com/spiegel-im-spiegel/writers v0.1.1 h1:noVqU7YwIC1vRjd/QnfMIzmVGmgVPSTywejCks8CP90=
-github.com/spiegel-im-spiegel/writers v0.1.1/go.mod h1:rGvaBCHXsgjTIJXlSnEpslVzZU8qI/L6xwcHFbNQexE=
+github.com/spiegel-im-spiegel/writers v0.2.0 h1:t60g8lMopvWzJWRJPMTRMOWQswpJlF6k0h7IdGS0HZY=
+github.com/spiegel-im-spiegel/writers v0.2.0/go.mod h1:rGvaBCHXsgjTIJXlSnEpslVzZU8qI/L6xwcHFbNQexE=

@@ -19,8 +19,8 @@ func main() {
 
 	ws := io.MultiWriter(
 		file,
-		writers.Filter([]byte("[ERROR]"), os.Stdout),
-		writers.Filter([]byte("[FATAL]"), os.Stdout),
+		writers.Filter(os.Stdout, []byte("[ERROR]")),
+		writers.Filter(os.Stdout, []byte("[FATAL]")),
 	)
 	logf.SetOutput(ws)
 	for i := 0; i < 6; i++ {

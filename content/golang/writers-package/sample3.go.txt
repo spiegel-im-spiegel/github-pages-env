@@ -20,7 +20,7 @@ func main() {
 
 	ws := io.MultiWriter(
 		file,
-		writers.Regexp(regexp.MustCompile(`\[(ERROR|FATAL)\]`), os.Stdout),
+		writers.FilterRegexp(os.Stdout, regexp.MustCompile(`\[(ERROR|FATAL)\]`)),
 	)
 	logf.SetOutput(ws)
 	for i := 0; i < 6; i++ {

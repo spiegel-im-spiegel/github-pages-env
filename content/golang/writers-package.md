@@ -21,7 +21,7 @@ Twitter で
 
 [^tee1]: ちなみに [Go] の標準パッケージにも [`io`]`.TeeReader()` 関数ってのがあって `tee` コマンドと同等のことができる。
 
-- [spiegel-im-spiegel/writers: Writer Collection](https://github.com/spiegel-im-spiegel/writers)
+- [spiegel-im-spiegel/writers: Filtering Writer](https://github.com/spiegel-im-spiegel/writers)
 
 いや `tee` および `grep` コマンドを組み合わせれば出力の分割はできるんだけどね[^tee1]。
 まぁ，言語的に面白いトピックはないし，手遊びということで。
@@ -83,7 +83,7 @@ $ go run sample.go
 出力を多重化するには [`io`]`.MultiWriter()` 関数を使うとよい。
 こんな感じ。
 
-```go {hl_lines=[5, "19-20"]}
+```go {hl_lines=[5, "19-22"]}
 package main
 
 import (
@@ -102,7 +102,10 @@ func main() {
     }
     defer file.Close()
 
-    ws := io.MultiWriter(file, os.Stdout)
+    ws := io.MultiWriter(
+        file,
+        os.Stdout,
+    )
     logf.SetOutput(ws)
     for i := 0; i < 6; i++ {
         logf.SetMinLevel(logf.TRACE + logf.Level(i))
@@ -180,8 +183,8 @@ func main() {
 
     ws := io.MultiWriter(
         file,
-        writers.Filter([]byte("[ERROR]"), os.Stdout),
-        writers.Filter([]byte("[FATAL]"), os.Stdout),
+        writers.Filter(os.Stdout, []byte("[ERROR]")),
+		writers.Filter(os.Stdout, []byte("[FATAL]")),
     )
     logf.SetOutput(ws)
     for i := 0; i < 6; i++ {
@@ -268,7 +271,7 @@ func main() {
 
     ws := io.MultiWriter(
         file,
-        writers.Regexp(regexp.MustCompile(`\[(ERROR|FATAL)\]`), os.Stdout),
+        writers.FilterRegexp(os.Stdout, regexp.MustCompile(`\[(ERROR|FATAL)\]`)),
     )
     logf.SetOutput(ws)
     for i := 0; i < 6; i++ {
