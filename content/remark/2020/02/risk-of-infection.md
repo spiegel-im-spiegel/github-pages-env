@@ -3,7 +3,7 @@ title = "リスクは事前と事後をセットで考える"
 date =  "2020-02-15T20:15:03+09:00"
 description = "感染者と死人を数え上げて脅威を煽るだけのメディア報道は無視して，ハザードからリスクへ頭を切り換えよう。"
 image = "/images/attention/kitten.jpg"
-tags = [ "risk", "communication", "management" ]
+tags = [ "risk", "communication", "management", "infection" ]
 pageType = "text"
 
 [scripts]

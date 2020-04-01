@@ -3,7 +3,7 @@ title = "Font Awesome 5.13 に COVID-19 関連アイコンが登場"
 date =  "2020-03-25T11:00:26+09:00"
 description = "covid-19 タグで検索すると色々と見つかるので，参考にどうぞ"
 image = "/images/attention/kitten.jpg"
-tags = [ "web", "font" ]
+tags = [ "web", "font", "infection" ]
 pageType = "text"
 
 [scripts]

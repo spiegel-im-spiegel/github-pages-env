@@ -3,14 +3,13 @@ title = "天下無敵のプー太郎"
 date =  "2020-04-01T21:59:18+09:00"
 description = "次の仕事が得られるまでどのくらい時間がかかるか分からないが，あり余る時間を趣味に没頭していく所存である。"
 image = "/images/attention/kitten.jpg"
-tags = [ "privacy", "risk", "programming", "language" ]
+tags = [ "privacy", "risk", "infection", "programming", "language" ]
 
 [scripts]
   mathjax = false
   mermaidjs = false
 +++
 
-皆さんご機嫌はいかがですか。
 悪夢の{{< ruby "エイプリルフール" >}}4月1日{{< /ruby >}}を今年も無事やり過ごせたようなので，通常運転を再開しよう。
 
 [WHO の situation report](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports "Situation reports") を見る限り，世界レベルではようやく峠を超えた感じだけど日本は今が正念場だよね（まぁ第3第4のピークが来ないとも限らないが）。
@@ -20,9 +19,9 @@ tags = [ "privacy", "risk", "programming", "language" ]
 
 ## “The trade-offs are changing”
 
-SARS 2 関連については思うところは沢山あるし愚痴を書いたらキリがないが[^fb1]，今回は以下の記事を紹介するに留める。
+SARS 2 関連について思うところは沢山あるし愚痴を書いたらキリがないが[^fb1]，今回は以下の記事を紹介するに留める。
 
-[^fb1]: 詳しくは Facebook の私の記述を参考に。友人以外は読めないようにしてるけど（笑）
+[^fb1]: 詳しくは Facebook の私の記述を参考にどうぞ。「友人」以外は読めないようにしてるけど（笑）
 
 - [EFF and COVID-19: Protecting Openness, Security, and Civil Liberties | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2020/03/eff-and-covid-19-protecting-openness-security-and-civil-liberties)
 - [As Coronavirus Surveillance Escalates, Personal Privacy Plummets - The New York Times](https://www.nytimes.com/2020/03/23/technology/coronavirus-surveillance-tracking-privacy.html)
@@ -45,12 +44,12 @@ SARS 2 関連については思うところは沢山あるし愚痴を書いた�
 
 リスク評価には「科学的リスク」と「政治的リスク」がある。
 「政治的リスク」で重要なのは「その後」についてきちんと目配せできているかどうかである。
-いくら危機的状況であっても「その後」に配慮しないその場しのぎの「政策」は悪手だ。
+いくら危機的状況であっても「その後」に配慮しないその場しのぎの政策執行は悪手だ。
 
 - [リスクは事前と事後をセットで考える]({{< ref "/remark/2020/02/risk-of-infection.md" >}})
 
 そういう観点で是非とも議論していただきたいものである。
-まぁ，私は（そういうのに巻き込まれたくないので）今年も政治的無監視を貫くけどね。
+まぁ，私は（そういうのに巻き込まれたくないので）今年も政治的無関心を貫くけどね。
 政治がどうこう言うような精神的余裕はない。
 
 ## そろそろ本格的に...
