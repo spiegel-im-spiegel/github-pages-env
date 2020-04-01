@@ -1,10 +1,9 @@
 +++
 title = "天下無敵のプー太郎"
-date =  "2020-04-01T21:55:21+09:00"
+date =  "2020-04-01T21:59:18+09:00"
 description = "次の仕事が得られるまでどのくらい時間がかかるか分からないが，あり余る時間を趣味に没頭していく所存である。"
 image = "/images/attention/kitten.jpg"
 tags = [ "privacy", "risk", "programming", "language" ]
-draft = true
 
 [scripts]
   mathjax = false
