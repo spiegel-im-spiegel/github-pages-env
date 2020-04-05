@@ -11754,5 +11754,99 @@
       false
     ],
     "Description": "\u003ca href=\"https://www.oreilly.co.jp/books/9784873118550/\"\u003eEブック版\u003c/a\u003eあり。\u003ca href=\"https://doc.rust-lang.org/book/\"\u003e公式ドキュメント\u003c/a\u003eよりも系統的に書かれているので痒いところに手が届く感じ。ただし量が多いので，一度斜め読みしたらあとは傍らに置いて必要に応じてつまみ食いしていくのがいいだろう。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07BKT4RX5",
+      "Title": "乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…: 1【イラスト特典付】 (ZERO-SUMコミックス)",
+      "URL": "https://www.amazon.co.jp/dp/B07BKT4RX5?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61BYKnZ9FJL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "ひだか なみ",
+          "Role": "著"
+        },
+        {
+          "Name": "山口 悟",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "一迅社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07BKT4RX5"
+        }
+      ],
+      "PublicationDate": "2018-03-24",
+      "LastRelease": "2018-03-24",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-04-05",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "書籍版の絵師さんによるコミカライズ。流石に原作にマッチしていて面白い！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B014VZ4FLE",
+      "Title": "乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…: 1 (一迅社文庫アイリス)",
+      "URL": "https://www.amazon.co.jp/dp/B014VZ4FLE?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61Nk6jHoU9L._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "山口 悟",
+          "Role": "著"
+        },
+        {
+          "Name": "ひだか なみ",
+          "Role": "イラスト"
+        }
+      ],
+      "Publisher": "一迅社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B014VZ4FLE"
+        }
+      ],
+      "PublicationDate": "2015-08-20",
+      "LastRelease": "2015-09-11",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-04-05",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "今やテンプレな乙女ゲーム転生ものでコメディ寄りのラブコメ。つか，読んでて吹き出してしまった（笑）"
   }
 ]
