@@ -56,10 +56,11 @@ GnuPG は [Ubuntu] 19.04 リリース時の 2.2.12 (libgcrypt 1.8.4) から動�
 
 ## Git
 
-Git については [Ubuntu] 公式リポジトリではなく PPA のリポジトリからインストールしている。
+Git については [Ubuntu] 公式リポジトリではなく [PPA のリポジトリ](https://launchpad.net/~git-core/+archive/ubuntu/ppa)からインストールしている。
 
 | Official | Release    |        Ubuntu | Release    |  delay |
 | --------:| ---------- | -------------:| ---------- | ------:|
+|   2.26.0 | 2020-03-22 | 2.26.0-1~ppa1 | 2020-03-24 | 2 days |
 |   2.25.0 | 2020-01-13 | 2.25.0-1~ppa0 | 2020-01-14 |  1 day |
 |   2.24.1 | 2019-12-10 | 2.24.1-1~ppa0 | 2019-12-11 |  1 day |
 |   2.24.0 | 2019-11-04 | 2.24.0-1~ppa0 | 2019-11-04 |  0 day |
@@ -67,6 +68,7 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 ### ブックマーク
 
+- [[ANNOUNCE] Git v2.26.0 - Junio C Hamano](https://lore.kernel.org/git/xmqqa7477u6j.fsf@gitster.c.googlers.com/)
 - [[ANNOUNCE] Git v2.25.0 - Junio C Hamano](https://lore.kernel.org/git/xmqqtv4zjgv5.fsf@gitster-ct.c.googlers.com/)
 - [[ANNOUNCE] Git v2.24.1 and others](https://public-inbox.org/git/xmqqr21cqcn9.fsf@gitster-ct.c.googlers.com/T/)
 - [[ANNOUNCE] Git v2.24.0](https://public-inbox.org/git/20191104173426.GA68471@syl.local/T/)
@@ -146,23 +148,19 @@ Git については [Ubuntu] 公式リポジトリではなく PPA のリポジ�
 
 現在は APT を使わず公式バイナリをダウンロードして手動でインストールしているが，参考情報として残しておく。
 
-| Official | Release    |         Ubuntu | Release    |   delay |
-| --------:| ---------- | --------------:| ---------- | -------:|
-|    6.3.4 | 2019-12-12 |                |            | ∞ days |
-|    6.3.3 | 2019-10-31 |        &mdash; | &mdash;    | &mdash; |
-|    6.3.2 | 2019-09-26 | (Ubuntu 19.10) | 2019-10-17 | 3 weeks |
-|    6.3.1 | 2019-09-05 |        &mdash; | &mdash;    | &mdash; |
-|      6.3 | 2019-08-08 |        &mdash; | &mdash;    | &mdash; |
+| Official | Release    |  Ubuntu | Release |   delay |
+| --------:| ---------- | -------:| ------- | -------:|
+|    6.4.2 | 2020-03-19 |         |         | ∞ days |
+|    6.4.1 | 2020-02-27 | &mdash; | &mdash; | &mdash; |
+|      6.4 | 2020-01-29 | &mdash; | &mdash; | &mdash; |
 
 6.2 以前のバージョンは公式サポートから外れているため使うべきではない。
 
 ### ブックマーク
 
-- [LibreOffice 6.3.4 available for download - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/12/12/libreoffice-6-3-4/)
-- [The Document Foundation releases LibreOffice 6.3.3 - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/10/31/tdf-releases-libreoffice-633/)
-- [LibreOffice 6.2.8 is available, the last release of the 6.2 family - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/10/17/libreoffice-628/)
-- [LibreOffice 6.3.1 and LibreOffice 6.2.7 announced, focusing on security - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/09/05/lo-6-3-1-and-lo-6-2-7-announced/)
-- [The Document Foundation announces LibreOffice 6.3 - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/08/08/tdf-announces-libreoffice-63/)
+- [LibreOffice 6.4.2 available for download - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2020/03/19/libreoffice-6-4-2/)
+- [The Document Foundation announces LibreOffice 6.4.1 - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2020/02/27/libreoffice-641/)
+- [Performance-focused LibreOffice 6.4 is available for download - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2020/01/29/libreoffice-6-4/)
 
 - [Ubuntu に LibreOffice をインストールする3つの方法]({{< ref "/remark/2019/05/installing-libreoffice-in-ubuntu.md" >}})
 
