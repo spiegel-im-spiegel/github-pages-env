@@ -139,16 +139,13 @@ fn parse_pair_strings(s1: &str, s2: &str) -> Result<(u32, u32), std::num::ParseI
     };
     Ok((x, y))
 }
-```
 
-`parse_pair_strings()` の仮引数 `s1`, および `s2` に対してそれぞれ `parse()` を行うのだが，結果がエラーの際には， `Err` をそのまま返して関数元にハンドリングを委譲している。
-この関数の実行結果はこんな感じ。
-
-```rust
 fn main() {
     println!("{:?}", parse_pair_strings("1", "-1")); //Output: Err(ParseIntError { kind: InvalidDigit })
 }
 ```
+
+`parse_pair_strings()` の仮引数 `s1`, および `s2` に対してそれぞれ `parse()` を行うのだが，結果がエラーの際には， `Err` をそのまま返して関数元にハンドリングを委譲している。
 
 関数の返り値が `Result` 型なら， `?` 演算子を使って，エラーの委譲をもっと簡単に書くことができる。
 こんな感じ。
@@ -243,7 +240,7 @@ ParseIntError in parse_from_stdin(): invalid digit found in string
 ## Option 型を使ったエラー・ハンドリング
 
 上述のコードにある `downcast_ref()` メソッドは `Option` 型の値を返す。
-`Option` 型も列挙型（enum）で，以下の2つの列挙子（variant）で構成されている。
+`Option` 型も列挙型で，以下の2つの列挙子で構成されている。
 
 ```rust
 enum Option<T> {
