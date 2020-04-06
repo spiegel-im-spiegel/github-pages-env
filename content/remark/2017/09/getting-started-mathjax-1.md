@@ -47,20 +47,30 @@ tags = [ "math", "tex", "mathjax", "javascript", "blog", "site" ]
 したがってサーバ側に組み込むこともできる。
 今回は Web ページごとにクライアント側の JavaScript として組み込む方法を紹介する。
 
-といっても組み込み自体は簡単で [MathJax] は CDN (Content Delivery Network) で配布されているので HTML の `<head>` 要素内に以下の2行を追加するだけである。
+といっても組み込み自体は簡単で [MathJax] は CDN (Content Delivery Network) で配布されているので HTML の `<head>` 要素内に以下の行を追加するだけである。
 
 ```html
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+```
+
+[MathJax] v3 の特定バージョンを指定するには以下のようにバージョンを明記する。
+
+```html
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"></script>
+```
+
+なお 2020-02-08 時点の最新バージョンは 3.0.1 である。
+
+[MathJax] v3 は，そのままでは IE (Internet Explorer) に対応していない。
+ただし IE11 に対応するのであれば，直前に1行足して
+
+```html {hl_lines=[1]}
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 ```
 
-[MathJax] v3 の特定バージョンを指定するには2行目を以下のように記述する。
-
-```html
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/tex-mml-chtml.js"></script>
-```
-
-なお 2019-09-28 時点の最新バージョンは 3.0.0 である。
+などとすればいいらしい。
+ちなみに IE11 より前は（Microsoft も [MathJax] v3 も）既にサポート外なのでご注意を。
 
 <!-- MathJax v3 ではメニューの多言語化はサポートしていないっぽい？
 さらにパラメータ部に `locale=ja` を追加すると，数式部分で表示されるコンテキスト・メニューが日本語になる。
@@ -70,8 +80,9 @@ tags = [ "math", "tex", "mathjax", "javascript", "blog", "site" ]
 ブラボー！
 -->
 
-プロトコルは HTTPS のみで HTTP を明示的に指定しても HTTPS にリダイレクトされるようだ。
+CDN から利用する場合，プロトコルは HTTPS のみで HTTP を明示的に指定しても HTTPS にリダイレクトされるようだ。
 最近のブラウザは HTTP と HTTPS が混在するページでは（セキュリティの関係で）上手く表示できない場合があるので注意が必要である。
+どうしても HTTP を使いたいなら CDN を使わず自前で環境を用意するほうがいいだろう。
 
 組み込む JavaScript は `tex-mml-chtml.js` 以外に以下のものがある。
 
@@ -93,13 +104,10 @@ MathML による入力は本記事では割愛する。
 [MathJax] にはいくつかのオプションを設定できる。
 オプションの設定には  `<head>` 要素内に以下のように `MathJax` インスタンスを作成する（スクリプトの順番に注意）。
 
-```html
+```html {hl_lines=["1-3"]}
 <script>
-MathJax = {
-  ...
-};
+MathJax = { ... };
 </script>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 ```
 
@@ -215,7 +223,9 @@ MathJax = {
     skipAttributes: {},            // RFDa and other attributes NOT to copy to the output
     exFactor: .5,                  // default size of ex in em units
     displayAlign: 'center',        // default for indentalign when set to 'auto'
-    displayIndent: '0'             // default for indentshift when set to 'auto'
+    displayIndent: '0',            // default for indentshift when set to 'auto'
+    fontURL: '[mathjax]/components/output/chtml/fonts/woff-v2',   // The URL where the fonts are found
+    adaptiveCSS: true              // true means only produce CSS that is used in the processed equations
   }
 };
 ```
@@ -363,8 +373,19 @@ MathJax = {
 
 - [MathJax Font Support — MathJax 3.0 documentation](https://docs.mathjax.org/en/latest/output/fonts.html)
 
-今のところ [MathJax] v3 では TeX フォントしか対応していない。
-将来バージョンで対応するとある。
+今のところ [MathJax] v3 の CDN では TeX フォントしか対応していない。
+将来バージョンで対応するとあるが，フォント群を指定する仕組みだけは用意されているようだ。
+
+```js
+MathJax = {
+  chtml: {
+    fontURL: '[mathjax]/components/output/chtml/fonts/woff-v2' // The URL where the fonts are found
+  }
+};
+```
+
+ただ [MathJax] v3 で利用可能なフォント群を用意するのは（今のところ）簡単ではなさそうなので「今後に期待」といったところだろうか。
+
 
 ## このサイトでの設定例 {#mysetting}
 
@@ -393,7 +414,6 @@ MathJax = {
   }
 };
 </script>
-<script src="//polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 ```
 
@@ -416,6 +436,5 @@ MathJax = {
 [LaTeX2ε美文書作成入門]: https://www.amazon.co.jp/dp/4774187054?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon | [改訂第7版]LaTeX2ε美文書作成入門 | 奥村 晴彦, 黒木 裕介 通販"
 
 ## 参考図書 {#books}
-
 
 {{% review-paapi "4774187054" %}} <!-- [改訂第7版]LaTeX2ε美文書作成入門 -->

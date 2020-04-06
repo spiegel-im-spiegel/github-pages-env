@@ -29,26 +29,24 @@ MathJax = {
   ...
 };
 </script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+```
+
+[MathJax] v3 の特定のバージョンを指定するには最後の行を
+
+```html
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/tex-mml-chtml.js"></script>
+```
+などとする。
+
+IE (Internet Explorer) に対応するには以下のように1行足せばいいようだ。
+
+```html {hl_lines=[1]}
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 ```
 
-[MathJax] v3 の特定のバージョンを指定するには
-
-{{< highlight html "hl_lines=7" >}}
-<script>
-MathJax = {
-  ...
-};
-</script>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/tex-mml-chtml.js"></script>
-{{< /highlight >}}
-
-などとする。
-
-ちなみに IE (Internet Explorer) はサポートから外れるようだ。
-まぁ IE は Web ではもう「要らない子」だからね。
+なお，このブログでは IE はサポート外なのであしからず（笑）
 
 ## [MathJax] v3 の設定
 
@@ -123,7 +121,9 @@ MathJax = {
     skipAttributes: {},            // RFDa and other attributes NOT to copy to the output
     exFactor: .5,                  // default size of ex in em units
     displayAlign: 'center',        // default for indentalign when set to 'auto'
-    displayIndent: '0'             // default for indentshift when set to 'auto'
+    displayIndent: '0',            // default for indentshift when set to 'auto'
+    fontURL: '[mathjax]/components/output/chtml/fonts/woff-v2',   // The URL where the fonts are found
+    adaptiveCSS: true              // true means only produce CSS that is used in the processed equations
   }
 };
 ```
@@ -191,7 +191,7 @@ MathJax = {
 };
 ```
 
-[MathJax] v3 では利用できる Web フォントは1種類のみで他のフォントを選択することができない。
+CDN で提供される Web フォントは1種類のみで他のフォントを選択することができない。
 これは将来バージョンで改善するらしい。
 Web フォントのサポートが組み込まればまた紹介することもあるだろう。
 
