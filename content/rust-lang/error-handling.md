@@ -145,7 +145,7 @@ fn main() {
 }
 ```
 
-`parse_pair_strings()` の仮引数 `s1`, および `s2` に対してそれぞれ `parse()` を行うのだが，結果がエラーの際には， `Err` をそのまま返して関数元にハンドリングを委譲している。
+`parse_pair_strings()` の仮引数 `s1`, および `s2` に対してそれぞれ `parse()` を行うのだが，結果がエラーの際には， `Err` をそのまま返して呼び出し元にハンドリングを委譲している。
 
 関数の返り値が `Result` 型なら， `?` 演算子を使って，エラーの委譲をもっと簡単に書くことができる。
 こんな感じ。
@@ -175,7 +175,7 @@ fn parse_from_stdin() -> Result<u32, std::num::ParseIntError> {
 
 {{< fig-img src="./error-trait.png" link="./error-trait.puml" width="1059" >}}
 
-標準ライブラリで定義される各種エラー型はどれも `std::error::Error` 型からの特化である。
+なお，標準ライブラリで定義される各種エラー型はどれも `std::error::Error` 型からの特化である。
 
 `std::error::Error` 型を使う際は `Box<dyn Trait>` を使うようだ。
 こんな感じ。
