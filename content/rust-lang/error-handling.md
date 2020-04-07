@@ -32,7 +32,7 @@ enum Result<T, E> {
 }
 ```
 
-`Result` 型の評価には `match` 式が使える。
+`Result` など列挙型の評価には `match` 式を使う。
 たとえば `parse()` に失敗した際に `0` をセットしたいなら
 
 ```rust
@@ -49,8 +49,8 @@ fn main() {
 
 ## Result 型を使ったエラー・ハンドリング
 
-`Result` 型を使うことで基本的なエラー・ハンドリングが可能になる。
-以降で例を挙げていこう。
+このように `Result` 型を使うことで基本的なエラー・ハンドリングが可能になる。
+いくつか例を挙げていこう。
 
 ### Panic を投げる
 
@@ -126,6 +126,7 @@ fn main() {
 ### エラーの委譲
 
 次に以下の関数を考える。
+2つの数文字列を与えて組（tuple）にして返す。
 
 ```rust
 fn parse_pair_strings(s1: &str, s2: &str) -> Result<(u32, u32), std::num::ParseIntError> {
@@ -145,9 +146,9 @@ fn main() {
 }
 ```
 
-`parse_pair_strings()` の仮引数 `s1`, および `s2` に対してそれぞれ `parse()` を行うのだが，結果がエラーの際には， `Err` をそのまま返して呼び出し元にハンドリングを委譲している。
+`parse_pair_strings()` の仮引数 `s1` および `s2` に対してそれぞれ `parse()` を行うのだが，返り値が `Err` の際にはエラーをそのまま返して呼び出し元にハンドリングを委譲している。
 
-関数の返り値が `Result` 型なら， `?` 演算子を使って，エラーの委譲をもっと簡単に書くことができる。
+返り値の型が同じ `Result` なら `?` 演算子を使ってエラーの委譲をもっと簡単に書くことができる。
 こんな感じ。
 
 ```rust {hl_lines=[2]}
@@ -155,6 +156,8 @@ fn parse_pair_strings(s1: &str, s2: &str) -> Result<(u32, u32), std::num::ParseI
     Ok((s1.parse::<u32>()?, s2.parse::<u32>()?))
 }
 ```
+
+すっきりー！
 
 ### エラーの汎化
 
@@ -169,15 +172,13 @@ fn parse_from_stdin() -> Result<u32, std::num::ParseIntError> {
 ```
 
 当然ながらこれはコンパイルエラーになる。
-`read_line()` 関数がエラーの際に吐く型は `std::io::Error` なので `std::num::ParseIntError` 型とはマッチしないためだ。
+何故なら `read_line()` 関数では `Err` の値が `std::io::Error` 型になるので `std::num::ParseIntError` 型とはマッチしないためだ。
 
-解決するには，これらの型の汎化である `std::error::Error` 型を使えばよい。
+これを解決するには `std::error::Error` 型を擬似的な汎化として使えばよい。
 
 {{< fig-img src="./error-trait.png" link="./error-trait.puml" width="1059" >}}
 
-なお，標準ライブラリで定義される各種エラー型はどれも `std::error::Error` 型からの特化である。
-
-`std::error::Error` 型を使う際は `Box<dyn Trait>` を使うようだ。
+`std::error::Error` 型を使う際は `Box<dyn Trait>` にするようだ。
 こんな感じ。
 
 ```rust {hl_lines=[1]}
@@ -230,12 +231,17 @@ fn main() {
 }
 ```
 
-実行するとこんな感じになる。
+こうすれば `Box<dyn std::error::Error>` 型からもとのエラー型を抽出して個別に処理できそう。
+これを実行するとこんな感じ。
 
 ```text
 $ echo -1 | cargo run
 ParseIntError in parse_from_stdin(): invalid digit found in string
 ```
+
+んー。
+かなり面倒くさいな。
+もう少しマシな戦略を探すべきか。
 
 ## Option 型を使ったエラー・ハンドリング
 
@@ -356,6 +362,7 @@ $ cargo run
 ## ブックマーク
 
 - [Rustのエラーハンドリングの基本 - hideoka’s blog](https://hideoka.hateblo.jp/entry/2019/11/17/224953)
+- [Rust のエラーまわりの変遷 - Qiita](https://qiita.com/legokichi/items/d4819f7d464c0d2ce2b8)
 - [Rustで複数のimpl Traitを返す - Qiita](https://qiita.com/taiki-e/items/39688f6c86b919988222)
 
 [Rust]: https://www.rust-lang.org/ "Rust Programming Language"
