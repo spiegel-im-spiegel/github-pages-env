@@ -11,11 +11,11 @@ pageType = "text"
   mermaidjs = false
 +++
 
-[Rust] の所有権（ownership）のルールは以下の3つ。
+[Rust] の所有権（ownership）のルールは以下の3つ（公式ドキュメントの「[所有権とは？](https://doc.rust-jp.rs/book/second-edition/ch04-01-what-is-ownership.html "所有権とは？ - The Rust Programming Language")」より抜粋）。
 
-1. Each value in Rust has a variable that’s called its owner (Rustの各値は、所有者と呼ばれる変数と対応している)
-2. There can only be one owner at a time (いかなる時も所有者は一つである)
-3. When the owner goes out of scope, the value will be dropped (所有者がスコープから外れたら、値は破棄される)
+1. [Rust] の各値は、所有者と呼ばれる変数と対応している
+2. いかなる時も所有者は一つである
+3. 所有者がスコープから外れたら、値は破棄される
 
 「値」は所有者である「変数」に束縛される。
 これを「変数束縛（variable bindings）」と呼ぶ。
@@ -26,35 +26,18 @@ pageType = "text"
 
 [Rust] において組み込みで定義されるデータ型は以下の通り。
 
-- スカラー型
+- スカラ型
     - 整数 (`i8`, `u8`, ..., `isize`, `usize`)
-    - 浮動小数点型（`f32`, `f64`）
+    - 浮動小数点数型（`f32`, `f64`）
     - 論理値型（`bool`）
     - 文字型（`char`）: Unicode 符号点
 - 複合型
     - タプル型
     - 配列型
-    - ハッシュマップ型
 
-タプル型はこんな感じで記述できる。
+（詳しくは「[型に関する覚え書き]({{< relref "./types.md" >}})」を参照のこと）
 
-```rust
-fn main() {
-	let tup = (500, 6.4, 1);
-    println!("tup = {:?}", tup); //Output: tup = (500, 6.4, 1)
-}
-```
-
-配列はこんな感じ。
-
-```rust
-fn main() {
-	let ary = [1, 2, 3];
-	println!("ary = {:?}", ary); //Output: ary = [1, 2, 3]
-}
-```
-
-これらのデータ型は値と変数が一体になっていて（値が直接スタックに積まれるため），代入時に値のコピーが発生する。
+スカラ型およびスカラ型で構成される複合型は値と変数が一体になっていて（値が固定長で直接スタックに積まれるため），代入時に値のコピーが発生する。
 
 ```rust
 fn main() {
@@ -172,10 +155,9 @@ let p2 = p1;
 
 じゃあ，構造体やコレクションのコピーはできないのかというと，ちゃんと救済措置はある。
 
-[Rust] の標準ライブラリには `Clone` および `Copy` トレイトが用意されていてこれらを実装することで値のコピーが可能になる。
+[Rust] の標準ライブラリには `Clone` および `Copy` トレイトが用意されていてこれらを実装することで値のコピーが可能になる[^trait1]。
 
-ちなみに「トレイト（trait）」とは，ここでは C++ や Java で言うところの interface クラスのようなものだと思っておけばよい。
-トレイトに関しては多分その内ちゃんとした記事を書くと思う（笑）
+[^trait1]: 「トレイト（trait）」とは，ここでは C++ や Java で言うところの interface クラスのようなものだと思っておけばよい。トレイトに関しては多分その内ちゃんとした記事を書くと思う（笑）
 
 たとえば先程の `Person` 構造体に `Clone` トレイトを実装すると
 
