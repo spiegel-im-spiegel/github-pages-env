@@ -11,7 +11,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-RSA-250 鍵が因数分解され解読完了したらしい。
+2月末の話で申し訳ないが（Bruce Schneier 先生の記事でさっき知ったのだ）， RSA-250 鍵が因数分解され解読完了したらしい。
 
 - [[Cado-nfs-discuss] Factorization of RSA-250](https://lists.gforge.inria.fr/pipermail/cado-nfs-discuss/2020-February/001166.html)
 - [RSA-250 Factored - Schneier on Security](https://www.schneier.com/blog/archives/2020/04/rsa-250_factore.html)
