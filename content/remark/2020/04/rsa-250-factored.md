@@ -32,7 +32,7 @@ RSA-250 matrix:    250 physical core-years
 {{< quote >}}The computation involved tens of thousands of machines worldwide, and was completed in a few months{{< /quote >}}.
 {{< /fig-quote >}}
 
-RSA は近い将来，量子コンピュータの一般化を待たずにお払い箱になるんだろうね。
+[RSA-240 が解けた]({{< ref "/remark/2019/12/rsa-240-factored.md" >}})のって，つい昨年末なんだけどねぇ（笑） RSA は近い将来，量子コンピュータの一般化を待たずにお払い箱になるんだろうね。
 
 ## 参考図書
 
