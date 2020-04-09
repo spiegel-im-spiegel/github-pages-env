@@ -56,10 +56,10 @@ tags = [ "math", "tex", "mathjax", "javascript", "blog", "site" ]
 [MathJax] v3 の特定バージョンを指定するには以下のようにバージョンを明記する。
 
 ```html
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.5/es5/tex-mml-chtml.js"></script>
 ```
 
-なお 2020-02-08 時点の最新バージョンは 3.0.1 である。
+なお 2020-04-09 時点の最新バージョンは 3.0.5 である。
 
 [MathJax] v3 は，そのままでは IE (Internet Explorer) に対応していない。
 ただし IE11 に対応するのであれば，直前に1行足して
