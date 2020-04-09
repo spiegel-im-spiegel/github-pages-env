@@ -176,7 +176,7 @@ fn parse_from_stdin() -> Result<u32, std::num::ParseIntError> {
 当然ながらこれはコンパイルエラーになる。
 何故なら `read_line()` 関数では `Err` の値が `std::io::Error` 型になるので `std::num::ParseIntError` 型とはマッチしないためだ。
 
-これを解決するには `std::error::Error` 型を擬似的な汎化として使えばよい。
+これを解決するには `std::error::Error` 型を汎化型として使えばよい。
 
 {{< fig-img src="./error-trait.png" link="./error-trait.puml" width="1059" >}}
 

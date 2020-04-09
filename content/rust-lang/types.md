@@ -18,6 +18,7 @@ pageType = "text"
 1. [型エイリアス]({{< relref "#type-alias" >}})
 1. [構造体]({{< relref "#structures" >}})
 1. [列挙型]({{< relref "#enumeration" >}})
+1. [総称型]({{< relref "#generics" >}})
 
 ## 組み込みデータ型 {#data-types}
 
@@ -325,6 +326,147 @@ fn main() {
     });
 }
 ```
+
+## 総称型 {#generics}
+
+[Rust] ではオブジェクトの抽象化の手段として総称型をサポートしている。
+
+### 関数における総称型
+
+以下の `max()` 関数で使われる型 `T` が総称型と呼ばれているもの。
+
+```rust
+fn max<T: std::cmp::PartialOrd>(left: T, right: T) -> T {
+    if left >= right {
+        left
+    } else {
+        right
+    }
+}
+
+fn main() {
+    let x = 1;
+    let y = 2;
+    println!("max({}, {}) = {}", x, y, max(x, y)); //Output: max(1, 2) = 2
+}
+```
+
+`<T: std::cmp::PartialOrd>` の表現は型 `T` の制約条件を示すもので `std::cmp::PartialOrd` トレイトを実装する型のみ `max()` 関数が有効になる。
+このようなトレイトを使った制約の定義を「トレイト境界（trait bound）」と呼ぶらしい。
+
+トレイト境界は `where` 節を使って記述することもできる。
+
+```rust {hl_lines=["2-3"]}
+fn max<T>(left: T, right: T) -> T
+where
+    T: std::cmp::PartialOrd,
+{
+    if left >= right {
+        left
+    } else {
+        right
+    }
+}
+```
+
+トレイト境界の記述は煩雑になりがちなので，これで多少はスッキリするだろう。
+
+ちなみに `std::cmp::PartialOrd` トレイトは `>` `>=`, `<`, `<=` の順序比較演算子を使えるためのもので，少なくとも組み込みデータ型は全て `std::cmp::PartialOrd` トレイトを実装している。
+
+たとえば比較可能でない構造体
+
+```rust
+#[derive(Debug)]
+struct Person {
+    age: u32,
+    name: String,
+}
+```
+
+に `max()` 関数を使おうとしても
+
+```rust {hl_lines=[18]}
+fn max<'a, T: std::cmp::PartialOrd>(left: &'a T, right: &'a T) -> &'a T {
+    if left >= right {
+        left
+    } else {
+        right
+    }
+}
+
+fn main() {
+    let p1 = Person {
+        age: 24,
+        name: "Alice".to_string(),
+    };
+    let p2 = Person {
+        age: 24,
+        name: "Bob".to_string(),
+    };
+    println!("max({:?}, {:?}) = {:?}", p1, p2, max(&p1, &p2)); //Error: can't compare `Person` with `Person`
+}
+```
+
+コンパイルエラーになる。
+
+### 構造体における総称型
+
+構造体のフィールドやメソッドも総称型で記述することができる。
+
+```rust
+struct Point<T> {
+    x: T,
+    y: T,
+}
+
+impl<T> Point<T> {
+    fn new(x: T, y: T) -> Self {
+        Self { x, y }
+    }
+}
+
+impl<T: std::ops::Add<Output = T> + Copy> Point<T> {
+    fn add(&self, p: &Self) -> Self {
+        Self::new(self.x + p.x, self.y + p.y)
+    }
+}
+
+impl<T: std::fmt::Display> std::fmt::Display for Point<T> {
+    fn fmt(&self, dest: &mut std::fmt::Formatter) -> std::fmt::Result {
+        write!(dest, "<{}, {}>", self.x, self.y)
+    }
+}
+
+fn main() {
+    let p1 = Point::new(1, 2);
+    let p2 = Point::new(3, 4);
+    println!("{} + {} = {}", p1, p2, p1.add(&p2)); //Output: <1, 2>
+}
+```
+
+上述のように `impl` 構文毎に個別にトレイト境界を設定できる。
+
+### 列挙型における総称型
+
+列挙型も構造体と同じように総称型が使える。
+列挙型と総称型の組み合わせでもっとも有名なのが `Result` 型だろう。
+
+```rust
+enum Result<T, E> {
+    Ok(T),
+    Err(E),
+}
+```
+
+
+
+
+
+
+
+
+
+
 
 
 
