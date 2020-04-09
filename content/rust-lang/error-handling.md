@@ -23,7 +23,9 @@ fn main() {
 }
 ```
 
-`parse_string()` 関数の返り値の型 `Result` は列挙型（enum）で，以下の2つの列挙子（variant）で構成されている。
+`parse_string()` 関数の返り値の型 `Result` は列挙型 `enum` で[^enum1]，以下の2つの列挙子（variant）で構成されている。
+
+[^enum1]: 列挙型については「[Rust の型に関する覚え書き]({{< relref "./types.md" >}})」を参照のこと。
 
 ```rust
 enum Result<T, E> {
