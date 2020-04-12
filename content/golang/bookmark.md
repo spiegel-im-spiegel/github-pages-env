@@ -887,6 +887,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [The Zen of Go | Dave Cheney](https://dave.cheney.net/2020/02/23/the-zen-of-go)
     - [ブログ: Goの禅 (The Zen of Go)](https://okuranagaimo.blogspot.com/2020/03/go-zen-of-go.html)
 - [「プログラミング言語Go完全入門」の期間限定公開のお知らせ - Mercari Engineering Blog](https://tech.mercari.com/entry/2020/03/17/120137)
+- [Go vs Rust : 特徴量DBに適するのはどっち！？ - ABEJA Tech Blog](https://tech-blog.abeja.asia/entry/2020/04/09/115152)
 
 ### 他言語との比較もしくは移行
 

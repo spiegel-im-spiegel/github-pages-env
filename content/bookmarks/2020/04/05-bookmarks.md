@@ -28,6 +28,7 @@ pageType = "text"
 - [Marriott Was Hacked -- Again - Schneier on Security](https://www.schneier.com/blog/archives/2020/04/marriott_was_ha.html)
 - [Zoom の脆弱性対策について：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/alert20200403.html)
     - [Security and Privacy Implications of Zoom - Schneier on Security](https://www.schneier.com/blog/archives/2020/04/security_and_pr_1.html)
+        - [ブログ: Zoomのセキュリティとプライバシーへの影響](https://okuranagaimo.blogspot.com/2020/04/zoom.html)
     - [Zoom爆撃と予防策についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/04/03/154449)
     - [問題が相次いで発覚した「Zoom」でヴィデオ会議を開く際に、まずユーザーが考えるべきこと｜WIRED.jp](https://wired.jp/2020/04/03/zoom-backlash-zero-days/)
 
