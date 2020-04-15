@@ -19,7 +19,7 @@
 <h1>What's New</h1>
 
 <section>
-<h2>最新記事（{{ printf "in %d Entries" (len .Site.RegularPages) }}）</h2>
+<h2>最新記事（in {{ len .Site.RegularPages | lang.NumFmt 0 }} Entries）</h2>
 <ul class="title-list">
 {{ range first 3 .Site.RegularPages }}{{ partial "li.html" . }}{{ end }}
 </ul>
