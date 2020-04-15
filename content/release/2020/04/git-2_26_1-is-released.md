@@ -3,7 +3,7 @@ title = "Git v2.26.1 のリリース【セキュリティ・アップデート�
 date =  "2020-04-15T10:18:03+09:00"
 description = "対象となるのは 2.17.x から 2.26.x までの各マイナーバージョン (CVE-2020-5260)"
 image = "/images/attention/tools.png"
-tags  = [ "git", "tools", "security", "vulnerability" ]
+tags  = [ "git", "tools", "security", "vulnerability", "ubuntu" ]
 pageType = "text"
 
 [scripts]
@@ -51,6 +51,55 @@ information for a wrong host to the attacker's site{{< /quote >}}.
 | 機密性への影響   | 高           |
 | 完全性への影響   | 高           |
 | 可用性への影響   | なし         |
+
+## [Git] Credential Helper
+
+ちなみに credential helper のひとつ `GNOME/libsecret` だが， [Ubuntu] 19.10 で用意されている APT 最新版は
+
+```text
+$ sudo apt show libsecret-1-dev
+Package: libsecret-1-dev
+Version: 0.18.8-2
+Priority: optional
+Section: libdevel
+Source: libsecret
+Origin: Ubuntu
+...
+```
+
+だった。
+ちょっと古いっぽい（？）気もするが... Linux 系独特の意味不明な backport patch はどうにかならないのだろうか。
+
+まぁ，いいや。
+[以前も書いた]({{< ref "/remark/2019/04/install-git-from-ppa.md" >}} "PPA から Git をインストールする")がインストール手順は以下の通り（`/usr/share/...` 以下を汚したくなかったので）。
+
+```text
+$ sudo apt install libsecret-1-dev
+$ mkdir ~/work
+$ cp -r /usr/share/doc/git/contrib/credential/libsecret ~/work
+$ cd ~/work/libsecret
+$ make
+gcc -g -O2 -Wall  -pthread -I/usr/include/libsecret-1 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -o git-credential-libsecret.o -c git-credential-libsecret.c
+gcc -o git-credential-libsecret  git-credential-libsecret.o -lsecret-1 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+```
+
+これでビルドした `git-credential-libsecret` を `$PATH` の通ったディレクトリに放り込んでおけばよい。
+確認は以下の通り。
+
+```text {hl_lines=[4]}
+$ git help -a | grep credential-
+   credential-cache     Helper to temporarily store passwords in memory
+   credential-store     Helper to store credentials on disk
+   credential-libsecret
+```
+
+よーし，うむうむ，よーし。
+
+[Git] 設定は以下の通り。
+
+```text
+$ git config --global credential.helper libsecret
+```
 
 ## アップデートは...
 
