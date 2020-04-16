@@ -35,8 +35,8 @@ pageType = "text"
 </tr>
 
 <tr>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2803">CVE-2020-2803</a></td>
-<td><code>core-libs/java.nio</code></td>
+<td style="text-align:left;"><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2803">CVE-2020-2803</a></td>
+<td style="text-align:left;"><code>core-libs/java.nio</code></td>
 <td>8.3</td>
 <td>&#8226;</td>
 <td>&#8226;</td>
@@ -46,8 +46,8 @@ pageType = "text"
 </tr>
 
 <tr>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2805">CVE-2020-2805</a></td>
-<td><code>core-libs/java.io</code></td>
+<td style="text-align:left;"><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2805">CVE-2020-2805</a></td>
+<td style="text-align:left;"><code>core-libs/java.io</code></td>
 <td>8.3</td>
 <td>&#8226;</td>
 <td>&#8226;</td>
@@ -57,8 +57,8 @@ pageType = "text"
 </tr>
 
 <tr>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2816">CVE-2020-2816</a></td>
-<td><code>security-libs/javax.net.ssl</code></td>
+<td style="text-align:left;"><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2816">CVE-2020-2816</a></td>
+<td style="text-align:left;"><code>security-libs/javax.net.ssl</code></td>
 <td>7.5</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
@@ -68,8 +68,8 @@ pageType = "text"
 </tr>
 
 <tr>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2781">CVE-2020-2781</a></td>
-<td><code>security-libs/java.security</code></td>
+<td style="text-align:left;"><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2781">CVE-2020-2781</a></td>
+<td style="text-align:left;"><code>security-libs/java.security</code></td>
 <td>5.3</td>
 <td>&#8226;</td>
 <td>&#8226;</td>
@@ -79,8 +79,8 @@ pageType = "text"
 </tr>
 
 <tr>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2830">CVE-2020-2830</a></td>
-<td><code>core-libs/java.util</code></td>
+<td style="text-align:left;"><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2830">CVE-2020-2830</a></td>
+<td style="text-align:left;"><code>core-libs/java.util</code></td>
 <td>5.3</td>
 <td>&#8226;</td>
 <td>&#8226;</td>
@@ -90,8 +90,8 @@ pageType = "text"
 </tr>
 
 <tr>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2767">CVE-2020-2767</a></td>
-<td><code>security-libs/javax.net.ssl</code></td>
+<td style="text-align:left;"><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2767">CVE-2020-2767</a></td>
+<td style="text-align:left;"><code>security-libs/javax.net.ssl</code></td>
 <td>4.8</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
@@ -101,8 +101,8 @@ pageType = "text"
 </tr>
 
 <tr>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2800">CVE-2020-2800</a></td>
-<td><code>core-libs/java.net</code></td>
+<td style="text-align:left;"><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2800">CVE-2020-2800</a></td>
+<td style="text-align:left;"><code>core-libs/java.net</code></td>
 <td>4.8</td>
 <td>&#8226;</td>
 <td>&#8226;</td>
@@ -112,8 +112,8 @@ pageType = "text"
 </tr>
 
 <tr>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2778">CVE-2020-2778</a></td>
-<td><code>security-libs/javax.net.ssl</code></td>
+<td style="text-align:left;"><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2778">CVE-2020-2778</a></td>
+<td style="text-align:left;"><code>security-libs/javax.net.ssl</code></td>
 <td>3.7</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
@@ -123,8 +123,8 @@ pageType = "text"
 </tr>
 
 <tr>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2754">CVE-2020-2754</a></td>
-<td><code>core-libs/javax.script</code></td>
+<td style="text-align:left;"><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2754">CVE-2020-2754</a></td>
+<td style="text-align:left;"><code>core-libs/javax.script</code></td>
 <td>3.7</td>
 <td>&nbsp;</td>
 <td>&#8226;</td>
@@ -134,8 +134,8 @@ pageType = "text"
 </tr>
 
 <tr>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2755">CVE-2020-2755</a></td>
-<td><code>core-libs/javax.script</code></td>
+<td style="text-align:left;"><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2755">CVE-2020-2755</a></td>
+<td style="text-align:left;"><code>core-libs/javax.script</code></td>
 <td>3.7</td>
 <td>&nbsp;</td>
 <td>&#8226;</td>
@@ -145,8 +145,8 @@ pageType = "text"
 </tr>
 
 <tr>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2773">CVE-2020-2773</a></td>
-<td><code>security-libs/javax.xml.crypto</code></td>
+<td style="text-align:left;"><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2773">CVE-2020-2773</a></td>
+<td style="text-align:left;"><code>security-libs/javax.xml.crypto</code></td>
 <td>3.7</td>
 <td>&#8226;</td>
 <td>&#8226;</td>
@@ -156,8 +156,8 @@ pageType = "text"
 </tr>
 
 <tr>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2756">CVE-2020-2756</a></td>
-<td><code>core-libs/java.io:serialization</code></td>
+<td style="text-align:left;"><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2756">CVE-2020-2756</a></td>
+<td style="text-align:left;"><code>core-libs/java.io:serialization</code></td>
 <td>3.7</td>
 <td>&#8226;</td>
 <td>&#8226;</td>
@@ -167,8 +167,8 @@ pageType = "text"
 </tr>
 
 <tr>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2757">CVE-2020-2757</a></td>
-<td><code>core-libs/java.io:serialization</code></td>
+<td style="text-align:left;"><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-2757">CVE-2020-2757</a></td>
+<td style="text-align:left;"><code>core-libs/java.io:serialization</code></td>
 <td>3.7</td>
 <td>&#8226;</td>
 <td>&#8226;</td>
@@ -178,8 +178,8 @@ pageType = "text"
 </tr>
 
 <tr>
-<td><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-18197">CVE-2020-18197</a></td>
-<td><code>javafx/web</code></td>
+<td style="text-align:left;"><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-18197">CVE-2020-18197</a></td>
+<td style="text-align:left;"><code>javafx/web</code></td>
 <td>8.1</td>
 <td>&nbsp;</td>
 <td>&#8226;</td>
