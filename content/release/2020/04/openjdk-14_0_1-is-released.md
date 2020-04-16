@@ -12,7 +12,7 @@ pageType = "text"
 +++
 
 予定通り Java 14 および LTS である Java 11 のマイナー・バージョンアップが行われた。
-深刻度が高いセキュリティ・アップデートも含まれているので必ず対応すること。
+深刻度が高い脆弱性も含まれているので必ず対応すること。
 
 - [OpenJDK Vulnerability Advisory: 2020/04/14](https://openjdk.java.net/groups/vulnerability/advisories/2020-04-14)
 
