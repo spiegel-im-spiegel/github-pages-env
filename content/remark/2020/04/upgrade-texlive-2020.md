@@ -150,7 +150,7 @@ $ sudo /usr/local/texlive/2020/bin/x86_64-linux/tlmgr path add
 ちょろんと動作確認しておこう。
 $\mathrm{Lua\LaTeX}$ でね。
 
-```text
+```text {hl_lines=[2]}
 $ lualatex -v
 This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)
 
@@ -168,7 +168,7 @@ LuaTeX is Copyright 2020 Taco Hoekwater and the LuaTeX Team.
 どうやら $\mathrm{Lua\LaTeX}$ では $\mathrm{LuaHB\TeX}$ ベースになる模様。
 $\mathrm{Lua\TeX}$ 自体はあるようで
 
-```text {hl_lines=[1]}
+```text {hl_lines=[2]}
 $ luatex -v
 This is LuaTeX, Version 1.12.0 (TeX Live 2020)
 
