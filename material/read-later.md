@@ -1,7 +1,6 @@
 # 「あとでみる」ブックマーク（Temporary）
 
 - [「ハッブル宇宙望遠鏡」運用30周年記念プラモセットが登場 - sorae 宇宙へのポータルサイト](https://sorae.info/gadget/20200404-hst30th.html)
-- [LibreOffice 6.4.3 available for download - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2020/04/16/libreoffice-6-4-3/)
 
 ## リリース情報
 
