@@ -60,6 +60,7 @@ Git については [Ubuntu] 公式リポジトリではなく [PPA のリポジ
 
 | Official | Release    |        Ubuntu | Release    |  delay |
 | --------:| ---------- | -------------:| ---------- | ------:|
+|   2.26.2 | 2020-04-20 |  2.26.2-0ppa1 | 2020-04-21 | 1 days |
 |   2.26.1 | 2020-04-14 |  2.26.1-0ppa1 | 2020-04-15 | 1 days |
 |   2.26.0 | 2020-03-22 | 2.26.0-1~ppa1 | 2020-03-24 | 2 days |
 |   2.25.0 | 2020-01-13 | 2.25.0-1~ppa0 | 2020-01-14 |  1 day |
@@ -69,6 +70,7 @@ Git については [Ubuntu] 公式リポジトリではなく [PPA のリポジ
 
 ### ブックマーク
 
+- [[Announce] Git v2.26.2 and others](https://lore.kernel.org/git/xmqq4kterq5s.fsf@gitster.c.googlers.com/T/)
 - [[Announce] Git v2.26.1 and others](https://lore.kernel.org/git/xmqqy2qy7xn8.fsf@gitster.c.googlers.com/T/)
 - [[ANNOUNCE] Git v2.26.0 - Junio C Hamano](https://lore.kernel.org/git/xmqqa7477u6j.fsf@gitster.c.googlers.com/)
 - [[ANNOUNCE] Git v2.25.0 - Junio C Hamano](https://lore.kernel.org/git/xmqqtv4zjgv5.fsf@gitster-ct.c.googlers.com/)

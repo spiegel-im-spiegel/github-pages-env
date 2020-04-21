@@ -31,7 +31,15 @@ pageType = "text"
 
 ## アップデートは...
 
+[Ubuntu] であれば [PPA 版リポジトリ](https://launchpad.net/~git-core/+archive/ubuntu/ppa "Git stable releases : “Ubuntu Git Maintainers” team")を利用することをおすすめする。
+
+- [PPA から Git をインストールする]({{< ref "/remark/2019/04/install-git-from-ppa.md" >}})
+
 アップデートは計画的に。
+
+## ブックマーク
+
+- [Release Git for Windows 2.26.2 · git-for-windows/git · GitHub](https://github.com/git-for-windows/git/releases/tag/v2.26.2.windows.1)
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [git]: https://git-scm.com/
