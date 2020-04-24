@@ -21,6 +21,13 @@ pageType = "text"
 - [Rust By Example 日本語版](https://doc.rust-jp.rs/rust-by-example-ja/)
 - [Rust Playground](https://play.rust-lang.org/)
 
+## 実装例
+
+- [servo/servo: The Servo Browser Engine](https://github.com/servo/servo)
+- [Sequoia-PGP](https://sequoia-pgp.org/) : [Rust] による OpenPGP 実装
+- [Zola](https://www.getzola.org/)
+    - [Rust 製スタティックサイトジェネレーター Zola をつかう | hiromasa.another :o)](https://another.maple4ever.net/archives/2833/)
+
 ## その他，参考（になるかもしれない）ページ
 
 - [rust - Rustの"unwrap()"は何をするものですか？ - スタック・オーバーフロー](https://ja.stackoverflow.com/questions/1730/rust%E3%81%AEunwrap%E3%81%AF%E4%BD%95%E3%82%92%E3%81%99%E3%82%8B%E3%82%82%E3%81%AE%E3%81%A7%E3%81%99%E3%81%8B)

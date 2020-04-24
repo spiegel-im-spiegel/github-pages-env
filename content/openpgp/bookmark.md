@@ -51,6 +51,8 @@ tags = [ "openpgp", "gnupg", "bookmark" ]
     - [OpenKeychain: Easy PGP - Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
     - [open-keychain/open-keychain: OpenKeychain is an OpenPGP implementation for Android.](https://github.com/open-keychain/open-keychain)
 - [iPGMail](https://ipgmail.com/) : PGP for iOS
+- [Sequoia-PGP](https://sequoia-pgp.org/) : Rust 言語による [OpenPGP] 実装
+    - [sequoia-pgp / sequoia · GitLab](https://gitlab.com/sequoia-pgp/sequoia)
 - [Keybase](https://keybase.io/)
     - [kbpgp.js](https://keybase.io/kbpgp)
     - [[メモ]: keybaseとgit/githubでgpg keyを共有する - Qiita](https://qiita.com/joemphilips/items/7e4d2941448807c4d431)

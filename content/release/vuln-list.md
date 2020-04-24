@@ -183,6 +183,7 @@ Java というか [OpenJDK] のセキュリティ管理は LTS (Long Term Suppor
 
 | Official | Release    |                   Ubuntu | Release    |    delay |
 | --------:| ---------- | ------------------------:| ---------- | --------:|
+|   11.0.7 | 2020-04-14 | 11.0.7+10-2 (USN-4337-1) | 2020-04-22 |  8 days |
 |   11.0.6 | 2020-01-14 | 11.0.6+10-1 (USN-4257-1) | 2020-01-28 |  2 weeks |
 |   11.0.5 | 2019-10-15 | 11.0.5+10-0 (USN-4223-1) | 2019-12-17 | 2 months |
 |   11.0.4 | 2019-07-16 | 11.0.4+11-1 (USN-4083-1) | 2019-07-31 |  3 weeks |
@@ -190,6 +191,7 @@ Java というか [OpenJDK] のセキュリティ管理は LTS (Long Term Suppor
 
 ### ブックマーク
 
+- [OpenJDK Vulnerability Advisory: 2020/04/14](https://openjdk.java.net/groups/vulnerability/advisories/2020-04-14)
 - [OpenJDK Vulnerability Advisory: 2020/01/14](https://openjdk.java.net/groups/vulnerability/advisories/2020-01-14)
 - [OpenJDK Vulnerability Advisory: 2019/10/15](https://openjdk.java.net/groups/vulnerability/advisories/2019-10-15)
 - [OpenJDK Vulnerability Advisory: 2019/7/16](https://openjdk.java.net/groups/vulnerability/advisories/2019-07-16)
