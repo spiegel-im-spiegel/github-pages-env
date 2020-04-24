@@ -1,0 +1,44 @@
+package main
+
+import (
+	"bytes"
+	"encoding/base64"
+	"fmt"
+	"image"
+	_ "image/jpeg"
+	"image/png"
+	"net/http"
+	"os"
+)
+
+func imageFrom(url string) (image.Image, error) {
+	resp, err := http.Get(url)
+	if err != nil {
+		return nil, err
+	}
+	defer resp.Body.Close()
+
+	img, _, err := image.Decode(resp.Body)
+	return img, err
+}
+
+// displayImage renders an image to the playground's console by
+// base64-encoding the encoded image and printing it to stdout
+// with the prefix "IMAGE:".
+func displayImage(m image.Image) {
+	var buf bytes.Buffer
+	err := png.Encode(&buf, m)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println("IMAGE:" + base64.StdEncoding.EncodeToString(buf.Bytes()))
+}
+
+func main() {
+	img, err := imageFrom("https://baldanders.info/images/avatar.jpg")
+	if err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return
+	}
+	displayImage(img)
+}
