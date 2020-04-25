@@ -1,0 +1,102 @@
+package main
+
+import (
+	"fmt"
+	"math"
+	"os"
+
+	"gonum.org/v1/plot"
+	"gonum.org/v1/plot/plotter"
+	"gonum.org/v1/plot/plotutil"
+	"gonum.org/v1/plot/vg"
+	"gonum.org/v1/plot/vg/draw"
+)
+
+type CaseData struct {
+	Date         string
+	NewCases     int
+	FatalityRate float64
+}
+
+var Dataset = []CaseData{
+	{"2020-04-18", 628, 1.57},
+	{"2020-04-19", 566, 1.55},
+	{"2020-04-20", 390, 1.59},
+	{"2020-04-21", 368, 1.67},
+	{"2020-04-22", 377, 2.41},
+	{"2020-04-23", 423, 2.41},
+	{"2020-04-24", 469, 2.56},
+}
+
+func main() {
+	//new plot
+	p, err := plot.New()
+	if err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return
+	}
+
+	//set data
+	labelX := []string{}
+	dataY := plotter.Values{}
+	dataY2 := plotter.XYs{}
+	for i, d := range Dataset {
+		labelX = append(labelX, d.Date)
+		dataY = append(dataY, (float64)(d.NewCases))
+		dataY2 = append(dataY2, plotter.XY{X: (float64)(i), Y: d.FatalityRate * (800.0 / 4.0)})
+	}
+
+	//new bar
+	bar, err := plotter.NewBarChart(dataY, vg.Points(10))
+	if err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return
+	}
+	bar.LineStyle.Width = vg.Length(0)
+	bar.Color = plotutil.Color(3) //plotutil.SoftColors[3]
+	bar.Offset = 0
+	bar.Horizontal = false
+	p.Add(bar)
+
+	//new line
+	line, err := plotter.NewLine(dataY2)
+	if err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return
+	}
+	line.Color = plotutil.Color(4) //plotutil.SoftColors[3]
+	p.Add(line)
+
+	//legend
+	p.Legend.Add("New confirmed cases by date", bar)
+	p.Legend.Add("Fatality rates", line)
+	p.Legend.Top = true   //top
+	p.Legend.Left = false //right
+
+	//labels of X values
+	p.NominalX(labelX...)
+	p.X.Tick.Label.Rotation = math.Pi / 2.5
+	p.X.Tick.Label.XAlign = draw.XRight
+	p.X.Tick.Label.YAlign = draw.YCenter
+
+	//titles
+	p.Title.Text = "Confirmed COVID-2019 Cases"
+
+	p.X.Label.Text = "Date"
+	p.X.Padding = 0
+	p.X.Width = p.Y.Width
+	// p.X.Min = 0
+	// p.X.Max = 10
+
+	p.Y.Label.Text = "Cases"
+	p.Y.Padding = 0
+	p.Y.Min = 0
+	p.Y.Max = 800
+
+	//output image
+	if err := p.Save(10*vg.Centimeter, 10*vg.Centimeter, "cases.png"); err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return
+	}
+
+}

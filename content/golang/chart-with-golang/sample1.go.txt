@@ -1,0 +1,88 @@
+package main
+
+import (
+	"fmt"
+	"math"
+	"os"
+
+	"gonum.org/v1/plot"
+	"gonum.org/v1/plot/plotter"
+	"gonum.org/v1/plot/plotutil"
+	"gonum.org/v1/plot/vg"
+	"gonum.org/v1/plot/vg/draw"
+)
+
+type CaseData struct {
+	Date     string
+	NewCases int
+}
+
+var Dataset = []CaseData{
+	{"2020-04-18", 628},
+	{"2020-04-19", 566},
+	{"2020-04-20", 390},
+	{"2020-04-21", 368},
+	{"2020-04-22", 377},
+	{"2020-04-23", 423},
+	{"2020-04-24", 469},
+}
+
+func main() {
+	//import data
+	labelX := []string{}
+	dataY := plotter.Values{}
+	for _, d := range Dataset {
+		labelX = append(labelX, d.Date)
+		dataY = append(dataY, (float64)(d.NewCases))
+	}
+
+	//new plot
+	p, err := plot.New()
+	if err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return
+	}
+
+	//new bar chart
+	bar, err := plotter.NewBarChart(dataY, vg.Points(20))
+	if err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return
+	}
+	bar.LineStyle.Width = vg.Length(0)
+	bar.Color = plotutil.Color(2) //plotutil.SoftColors[2]
+	bar.Offset = 0
+	bar.Horizontal = false
+	p.Add(bar)
+
+	//legend
+	p.Legend.Add("New confirmed cases by date", bar)
+	p.Legend.Top = true   //top
+	p.Legend.Left = false //right
+	p.Legend.XOffs = 0
+	p.Legend.YOffs = -10
+
+	//labels of X
+	p.NominalX(labelX...)
+	p.X.Label.Text = "Date"
+	p.X.Padding = 0
+	p.X.Width = p.Y.Width
+	p.X.Tick.Label.Rotation = math.Pi / 2.5
+	p.X.Tick.Label.XAlign = draw.XRight
+	p.X.Tick.Label.YAlign = draw.YCenter
+
+	//labels of Y
+	p.Y.Label.Text = "Cases"
+	p.Y.Padding = 0
+	p.Y.Min = 0
+	p.Y.Max = 800
+
+	//title
+	p.Title.Text = "Confirmed COVID-2019 Cases in Japan"
+
+	//output image
+	if err := p.Save(15*vg.Centimeter, 15*vg.Centimeter, "bar-chart-1.png"); err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return
+	}
+}
