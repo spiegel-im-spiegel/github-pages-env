@@ -2,9 +2,15 @@
 
 - [「ハッブル宇宙望遠鏡」運用30周年記念プラモセットが登場 - sorae 宇宙へのポータルサイト](https://sorae.info/gadget/20200404-hst30th.html)
 
+- [Ubuntu 20.04 その23 - Ubuntu 20.04 LTSがリリースされました・ディスクイメージのダウンロード - kledgeb](https://kledgeb.blogspot.com/2020/04/ubuntu-2004-23-ubuntu-2004-lts.html)
+- [Rustのコマンドライン解析ライブラリ『Clap』 〜導入編〜 - Qiita](https://qiita.com/emonuh/items/41f7bba5283c732b0209)
+
 ## リリース情報
 
+- [Release v3.000 · googlefonts/Inconsolata · GitHub](https://github.com/googlefonts/Inconsolata/releases/tag/v3.000)
+- [Announcing Rust 1.43.0 | Rust Blog](https://blog.rust-lang.org/2020/04/23/Rust-1.43.0.html)
 - [Hugo 0.69.1: A couple of Bug Fixes | Hugo](https://gohugo.io/news/0.69.1-relnotes/)
+- [Hugo 0.69.2: A couple of Bug Fixes | Hugo](https://gohugo.io/news/0.69.2-relnotes/)
 
 ## バベルのインターネット
 
@@ -17,7 +23,12 @@
 - [RemoteWorksのシステム障害をまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/04/21/073453)
 - [テレワークを行う際のセキュリティ上の注意事項：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/announce/telework.html)
 - [Nintendo Switchに必須の「ニンテンドーアカウント」で不正ログイン被害が続発、任天堂は二段階認証を有効にすることを公式に推奨 - GIGAZINE](https://gigazine.net/news/20200421-nintendo-accounts-getting-hijacked/)
-- [OpenSSL の脆弱性 (CVE-2020-1967) に関する注意喚起](https://www.jpcert.or.jp/at/2020/at200018.html)
+- [OpenSSL の脆弱性対策について(CVE-2020-1967) ：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/alert20200423.html)
+    - [OpenSSL の脆弱性 (CVE-2020-1967) に関する注意喚起](https://www.jpcert.or.jp/at/2020/at200018.html)
+- [Another Story of Bad 1970s Encryption - Schneier on Security](https://www.schneier.com/blog/archives/2020/04/another_story_o.html)
+- [iPhoneのメールアプリの脆弱性を狙うゼロクリック攻撃についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/04/23/123730)
+- [Global Surveillance in the Wake of COVID-19 - Schneier on Security](https://www.schneier.com/blog/archives/2020/04/global_surveill.html)
+- [ニンテンドーアカウントを狙った不正ログインについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/04/25/095339)
 
 ## 天文関連
 
@@ -28,6 +39,11 @@
 
 ## Linux または Ubuntu に関する話題
 
+- [Ubuntu 20.04 その23 - Ubuntu 20.04 LTSがリリースされました・ディスクイメージのダウンロード - kledgeb](https://kledgeb.blogspot.com/2020/04/ubuntu-2004-23-ubuntu-2004-lts.html)
+- [Ubuntu 20.04 その24 - Ubuntu 20.04 LTSの新機能と変更点 - kledgeb](https://kledgeb.blogspot.com/2020/04/ubuntu-2004-24-ubuntu-2004-lts.html)
+- [Ubuntu 20.04 その25 - Ubuntu 20.04 LTSの既知の問題 - kledgeb](https://kledgeb.blogspot.com/2020/04/ubuntu-2004-25-ubuntu-2004-lts.html)
+- [Ubuntu 20.04 その26 - Ubuntu 20.04.1 LTSのリリーススケジュール・Ubuntu 18.04 LTSユーザーにアップグレードパスの提供 - kledgeb](https://kledgeb.blogspot.com/2020/04/ubuntu-2004-26-ubuntu-20041-ltsubuntu.html)
+- [Ubuntu 20.04 その27 - Qt 5.14.2の採用見送りとQt 5.12.8の採用 - kledgeb](https://kledgeb.blogspot.com/2020/04/ubuntu-2004-27-qt-5142qt-5128.html)
 
 ## その他
 
@@ -37,5 +53,6 @@
 - [パッチ盤からケーブルを引っこ抜いてしまいCloudflareに障害発生。ケーブルにラベリングされておらずどれを戻すべきかすぐに分からず － Publickey](https://www.publickey1.jp/blog/20/cloudflare.html)
 - [GitHub、npmの買収完了を発表。npmレジストリ基盤とプラットフォームへの投資など強化 － Publickey](https://www.publickey1.jp/blog/20/githubnpmnpm.html)
 - [最近知ったこと(AWS FireLens編) - gitkadoの日記](https://gitkado.hatenadiary.jp/entry/20200416/1587044657)
+- [好みの言語でIaCできるPulumでGoや.NETが使えるように、構成対象も拡張  |  TechCrunch Japan](https://jp.techcrunch.com/2020/04/24/2020-04-21-pulumi-brings-support-for-more-languages-to-its-infrastructure-as-code-platform/)
 
 <!-- eof -->

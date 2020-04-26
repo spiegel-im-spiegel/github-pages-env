@@ -35,6 +35,7 @@ pageType = "text"
 - [Rustのイテレータの網羅的かつ大雑把な紹介 - Qiita](https://qiita.com/lo48576/items/34887794c146042aebf1)
 - [Rust についてのメモ](https://exoskeleton.dev/proglang/rust/)
 - [Rust の標準入出力は(何も考えないで使うと)遅い - Qiita](https://qiita.com/tubo28/items/41eeb0dfa1ebbccb1ddc)
+- [Rustのコマンドライン解析ライブラリ『Clap』 〜導入編〜 - Qiita](https://qiita.com/emonuh/items/41f7bba5283c732b0209)
 
 [Rust]: https://www.rust-lang.org/ "Rust Programming Language"
 
