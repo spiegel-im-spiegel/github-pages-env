@@ -3,7 +3,7 @@ title = "Ubuntu 19.10 にアップグレードする"
 date =  "2019-10-20T18:49:35+09:00"
 description = "特にトラブルはなし。でも，やっぱり Ubuntu はセキュリティ・ツール周りの管理が弱いよなぁ。"
 image = "/images/attention/tools.png"
-tags  = [ "ubuntu", "tools" ]
+tags  = [ "ubuntu", "tools", "install" ]
 pageType = "text"
 
 [scripts]

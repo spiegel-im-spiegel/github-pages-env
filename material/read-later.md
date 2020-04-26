@@ -2,7 +2,6 @@
 
 - [「ハッブル宇宙望遠鏡」運用30周年記念プラモセットが登場 - sorae 宇宙へのポータルサイト](https://sorae.info/gadget/20200404-hst30th.html)
 
-- [Ubuntu 20.04 その23 - Ubuntu 20.04 LTSがリリースされました・ディスクイメージのダウンロード - kledgeb](https://kledgeb.blogspot.com/2020/04/ubuntu-2004-23-ubuntu-2004-lts.html)
 - [Rustのコマンドライン解析ライブラリ『Clap』 〜導入編〜 - Qiita](https://qiita.com/emonuh/items/41f7bba5283c732b0209)
 
 ## リリース情報
@@ -39,11 +38,6 @@
 
 ## Linux または Ubuntu に関する話題
 
-- [Ubuntu 20.04 その23 - Ubuntu 20.04 LTSがリリースされました・ディスクイメージのダウンロード - kledgeb](https://kledgeb.blogspot.com/2020/04/ubuntu-2004-23-ubuntu-2004-lts.html)
-- [Ubuntu 20.04 その24 - Ubuntu 20.04 LTSの新機能と変更点 - kledgeb](https://kledgeb.blogspot.com/2020/04/ubuntu-2004-24-ubuntu-2004-lts.html)
-- [Ubuntu 20.04 その25 - Ubuntu 20.04 LTSの既知の問題 - kledgeb](https://kledgeb.blogspot.com/2020/04/ubuntu-2004-25-ubuntu-2004-lts.html)
-- [Ubuntu 20.04 その26 - Ubuntu 20.04.1 LTSのリリーススケジュール・Ubuntu 18.04 LTSユーザーにアップグレードパスの提供 - kledgeb](https://kledgeb.blogspot.com/2020/04/ubuntu-2004-26-ubuntu-20041-ltsubuntu.html)
-- [Ubuntu 20.04 その27 - Qt 5.14.2の採用見送りとQt 5.12.8の採用 - kledgeb](https://kledgeb.blogspot.com/2020/04/ubuntu-2004-27-qt-5142qt-5128.html)
 
 ## その他
 

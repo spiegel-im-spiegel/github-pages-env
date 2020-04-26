@@ -3,7 +3,7 @@ title = "Ubuntu 19.04 へのアップグレードを試す"
 date = "2019-04-20T19:14:30+09:00"
 description = "こういうアップグレードとかやると，いかに Windows がシステムとして駄目か分かるよな。"
 image = "/images/attention/kitten.jpg"
-tags = [ "linux", "ubuntu", "openssl", "ssh", "gnupg", "git", "mono" ]
+tags = [ "linux", "ubuntu", "openssl", "ssh", "gnupg", "git", "mono", "install" ]
 pageType = "text"
 
 [scripts]
