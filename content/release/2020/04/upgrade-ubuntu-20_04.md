@@ -28,7 +28,7 @@ $ update-manager -c -d
 
 ただし 20.04 では32bitアーキテクチャをサポートしなくなったので，この場合は 18.04 からアップグレードしてはいけない。
 
-なお，アップグレード時にサードパーアティの APT リポジトリ（[git]({{< ref "/remark/2019/04/install-git-from-ppa.md" >}} "PPA から Git をインストールする") や [ATOM](https://flight-manual.atom.io/getting-started/sections/installing-atom/ "Installing Atom") など）が外れるので，必要ならアップグレード時に戻して更新すること。
+なお，アップグレード時にサードパーティの APT リポジトリ（[git]({{< ref "/remark/2019/04/install-git-from-ppa.md" >}} "PPA から Git をインストールする") や [ATOM](https://flight-manual.atom.io/getting-started/sections/installing-atom/ "Installing Atom") など）が外れるので，必要ならアップグレード時に戻して更新すること。
 
 ## 個別のアプリケーションについて
 
@@ -124,9 +124,9 @@ $ sudo apt install build-essential
 
 [ATOM]: https://atom.io/
 
-サードパーティ・リポジトリから [ATOM] をインストールしている場合，アップグレード時に APT のリストからリポジトリが外されるだけだが，今回の 20.04 へのアップグレードでは [ATOM] がまるっと削除される。
+サードパーティ・リポジトリから [ATOM] をインストールしている場合，アップグレード時に APT のリストからリポジトリが外されるだけだが，今回の 20.04 へのアップグレードでは [ATOM] 自体がまるっと削除される。
 
-ただし設定やパッケージはそのまま残っているので，リポジトリを再登録してインストールし直せばおっけ。
+ただし設定やパッケージはそのまま残っているので，リポジトリ設定を戻してインストールし直せばおっけ。
 
 - [Installing Atom](https://flight-manual.atom.io/getting-started/sections/installing-atom/)
 

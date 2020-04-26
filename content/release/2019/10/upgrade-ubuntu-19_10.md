@@ -23,7 +23,7 @@ pageType = "text"
 旧バージョンから 19.10 へのアップグレードは[リリースノート](https://wiki.ubuntu.com/EoanErmine/ReleaseNotes "EoanErmine/ReleaseNotes - Ubuntu Wiki")を参考にするとよい。
 手元の環境では特に問題なくアップグレードできた。
 
-アップグレード時にサードパーアティの APT リポジトリ（[git]({{< ref "/remark/2019/04/install-git-from-ppa.md" >}} "PPA から Git をインストールする") や [ATOM](https://flight-manual.atom.io/getting-started/sections/installing-atom/ "Installing Atom") など）が外れるので，必要ならアップグレード時に戻して更新すること。
+アップグレード時にサードパーティの APT リポジトリ（[git]({{< ref "/remark/2019/04/install-git-from-ppa.md" >}} "PPA から Git をインストールする") や [ATOM](https://flight-manual.atom.io/getting-started/sections/installing-atom/ "Installing Atom") など）が外れるので，必要ならアップグレード時に戻して更新すること。
 
 短期サポート版で半年ごとにアップグレードするのは若干面倒だが，ディストリビューションのアップグレードのタイミングでないと更新されないアプリケーションもあるようなので（完全に自前で管理できるなら別だが）きちんとアップグレードに追従しておくほうが長い目で見てお得である。
 
