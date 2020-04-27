@@ -21,6 +21,13 @@ pageType = "text"
 
 - [Ubuntu 18.04 その37 - デフォルトのミュージックプレーヤーをLollypopに変更する提案 - kledgeb](https://kledgeb.blogspot.com/2018/01/ubuntu-1804-37-lollypop.html)
 
+{{< div-box type="markdown" >}}
+**【追記 2020-04-27】** [Lollypop] は今や APT の標準リポジトリからインストール可能である。
+したがって以下のリポジトリ登録作業は不要になったが，記録として残しておく。
+
+[Lollypop]: https://wiki.gnome.org/Apps/Lollypop?action=show "Apps/Lollypop - GNOME Wiki!"
+{{< /div-box >}}
+
 現在 [Ubuntu] 向けの [Lollypop] パッケージは [PPA (Personal Package Archive)](https://launchpad.net/ubuntu/+ppas) で提供されている。
 
 - [Lollypop : Cédric Bellegarde](https://launchpad.net/~gnumdk/+archive/ubuntu/lollypop)

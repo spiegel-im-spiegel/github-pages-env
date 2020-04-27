@@ -126,7 +126,7 @@ $ sudo apt install build-essential
 
 サードパーティ・リポジトリから [ATOM] をインストールしている場合，アップグレード時に APT のリストからリポジトリが外されるだけだが，今回の 20.04 へのアップグレードでは [ATOM] 自体がまるっと削除される。
 
-ただし設定やパッケージはそのまま残っているので，リポジトリ設定を戻してインストールし直せばおっけ。
+ただし設定やパッケージはそのまま残っているので，リポジトリ設定を戻して `apt install` し直せばおっけ。
 
 - [Installing Atom](https://flight-manual.atom.io/getting-started/sections/installing-atom/)
 
@@ -134,9 +134,20 @@ $ sudo apt install build-essential
 
 [Lollypop]: https://wiki.gnome.org/Apps/Lollypop?action=show "Apps/Lollypop - GNOME Wiki!"
 
-音楽プレイヤー [Lollypop の PPA](https://launchpad.net/~gnumdk/+archive/ubuntu/lollypop "Lollypop : Cédric Bellegarde") はまだ対応してないようだ。
+どうやら [Lollypop] は標準の APT リポジトリに入ったらしい。
+いつからだ？
 
-- [音楽プレイヤー Lollypop を試す]({{< ref "/remark/2019/06/lollypop-music-player.md" >}})
+```text
+$ apt show lollypop
+Package: lollypop
+Version: 1.2.35-1
+Priority: optional
+Section: universe/gnome
+Origin: Ubuntu
+...
+```
+
+ちうわけで，もう [PPA リポジトリ](https://launchpad.net/~gnumdk/+archive/ubuntu/lollypop "Lollypop : Cédric Bellegarde")を使わなくともよさそうである，多分。
 
 ## ブックマーク
 
