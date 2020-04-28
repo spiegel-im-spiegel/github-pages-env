@@ -1,6 +1,5 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-- [Rustのコマンドライン解析ライブラリ『Clap』 〜導入編〜 - Qiita](https://qiita.com/emonuh/items/41f7bba5283c732b0209)
 
 ## リリース情報
 
@@ -19,6 +18,7 @@
 
 ## Linux または Ubuntu に関する話題
 
+- [Ubuntu 20.10 その1 - Ubuntu 20.10の開発コードとリリーススケジュール   - kledgeb](https://kledgeb.blogspot.com/2020/04/ubuntu-2010-1-ubuntu-2010.html)
 
 ## その他
 

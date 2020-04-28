@@ -24,8 +24,7 @@ pageType = "text"
 $ update-manager -c -d
 ```
 
-とアップグレード・モードで GUI を起動すればよい。
-
+とアップグレード・モードで GUI を起動すれば，あとはよろしくやってくれる。
 ただし 20.04 では32bitアーキテクチャをサポートしなくなったので，この場合は 18.04 からアップグレードしてはいけない[^u1]。
 
 [^u1]: [Ubuntu] 18.04 のサポート期間は2023年4月まで。 18.04 サポート満了を以って32bit版 [Ubuntu] のサポートは終了する。ので，早めに64bitアーキテクチャへのリプレースを検討しませう。
@@ -151,6 +150,40 @@ Origin: Ubuntu
 
 ちうわけで，もう [PPA リポジトリ](https://launchpad.net/~gnumdk/+archive/ubuntu/lollypop "Lollypop : Cédric Bellegarde")を使わなくともよさそうである，多分。
 
+### 【追記 2020-04-28】 Libsecret のアップデート
+
+[git]: https://git-scm.com/
+[Git]: https://git-scm.com/
+
+[Git] credential helper である GNOME/libsecret もバージョンが上がっているようだ。
+
+```text
+$ apt show libsecret-1-dev
+Package: libsecret-1-dev
+Version: 0.20.2-1
+Priority: optional
+Section: libdevel
+Source: libsecret
+Origin: Ubuntu
+...
+```
+
+GNOME/libsecret は `apt upgrade` しただけではダメで，手動でビルドする必要がある。
+
+```text
+$ mkdor ~/work
+$ cd ~/work
+$ cp -r /usr/share/doc/git/contrib/credential/libsecret .
+$ cd libsecret
+$ make
+gcc -g -O2 -Wall  -pthread -I/usr/include/libsecret-1 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -o git-credential-libsecret.o -c git-credential-libsecret.c
+gcc -o git-credential-libsecret  git-credential-libsecret.o -lsecret-1 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+```
+
+これで生成した `git-credential-libsecret` を `$PATH` の通ったディレクトリに放り込んでおけばよい。
+
+- [PPA から Git をインストールする]({{< ref "/remark/2019/04/install-git-from-ppa.md" >}})
+
 ## ブックマーク
 
 - [Ubuntu 20.04 その23 - Ubuntu 20.04 LTSがリリースされました・ディスクイメージのダウンロード - kledgeb](https://kledgeb.blogspot.com/2020/04/ubuntu-2004-23-ubuntu-2004-lts.html)
@@ -158,6 +191,9 @@ Origin: Ubuntu
 - [Ubuntu 20.04 その25 - Ubuntu 20.04 LTSの既知の問題 - kledgeb](https://kledgeb.blogspot.com/2020/04/ubuntu-2004-25-ubuntu-2004-lts.html)
 - [Ubuntu 20.04 その26 - Ubuntu 20.04.1 LTSのリリーススケジュール・Ubuntu 18.04 LTSユーザーにアップグレードパスの提供 - kledgeb](https://kledgeb.blogspot.com/2020/04/ubuntu-2004-26-ubuntu-20041-ltsubuntu.html)
 - [Ubuntu 20.04 その27 - Qt 5.14.2の採用見送りとQt 5.12.8の採用 - kledgeb](https://kledgeb.blogspot.com/2020/04/ubuntu-2004-27-qt-5142qt-5128.html)
+- [Ubuntu 20.04 その28 - Ubuntu Desktopの新機能と魅力・様々な新機能と改良点の紹介 - kledgeb](https://kledgeb.blogspot.com/2020/04/ubuntu-2004-28-ubuntu-desktop.html)
+- [Ubuntu 20.04 その29 - Linux kernel 5.4の新機能 - kledgeb](https://kledgeb.blogspot.com/2020/04/ubuntu-2004-29-linux-kernel-54.html)
+- [Ubuntu 20.04 LTSインストールガイド【スクリーンショットつき解説】 | LFI](https://linuxfan.info/ubuntu-20-04-install-guide)
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [PPA]: https://launchpad.net/ubuntu/+ppas "Personal Package Archives : Ubuntu"
