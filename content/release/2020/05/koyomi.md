@@ -176,12 +176,12 @@ k, err := koyomi.NewSource(
 ## ブックマーク
 
 - [暦要項 - 国立天文台暦計算室](https://eco.mtk.nao.ac.jp/koyomi/yoko/)
-- [暦Wiki - 国立天文台暦計算室](http://eco.mtk.nao.ac.jp/koyomi/wiki/)
-    - [暦Wiki/月の満ち欠け/いろいろな月たち - 国立天文台暦計算室](http://eco.mtk.nao.ac.jp/koyomi/wiki/B7EEA4CECBFEA4C1B7E7A4B12FA4A4A4EDA4A4A4EDA4CAB7EEA4BFA4C1.html)
-    - [暦Wiki/季節/二十四節気とは？ - 国立天文台暦計算室](http://eco.mtk.nao.ac.jp/koyomi/wiki/B5A8C0E12FC6F3BDBDBBCDC0E1B5A4A4C8A4CFA1A9.html)
-    - [暦Wiki/季節/雑節とは？ - 国立天文台暦計算室](http://eco.mtk.nao.ac.jp/koyomi/wiki/B5A8C0E12FBBA8C0E1A4C8A4CFA1A9.html)
-    - [暦Wiki/日面経過 - 国立天文台暦計算室](http://eco.mtk.nao.ac.jp/koyomi/wiki/C6FCCCCCB7D0B2E1.html)
-- [こよみ用語解説 天象 - 国立天文台暦計算室](http://eco.mtk.nao.ac.jp/koyomi/faq/phenomena.html)
+- [暦Wiki - 国立天文台暦計算室](https://eco.mtk.nao.ac.jp/koyomi/wiki/)
+    - [暦Wiki/月の満ち欠け/いろいろな月たち - 国立天文台暦計算室](https://eco.mtk.nao.ac.jp/koyomi/wiki/B7EEA4CECBFEA4C1B7E7A4B12FA4A4A4EDA4A4A4EDA4CAB7EEA4BFA4C1.html)
+    - [暦Wiki/季節/二十四節気とは？ - 国立天文台暦計算室](https://eco.mtk.nao.ac.jp/koyomi/wiki/B5A8C0E12FC6F3BDBDBBCDC0E1B5A4A4C8A4CFA1A9.html)
+    - [暦Wiki/季節/雑節とは？ - 国立天文台暦計算室](https://eco.mtk.nao.ac.jp/koyomi/wiki/B5A8C0E12FBBA8C0E1A4C8A4CFA1A9.html)
+    - [暦Wiki/日面経過 - 国立天文台暦計算室](https://eco.mtk.nao.ac.jp/koyomi/wiki/C6FCCCCCB7D0B2E1.html)
+- [こよみ用語解説 天象 - 国立天文台暦計算室](https://eco.mtk.nao.ac.jp/koyomi/faq/phenomena.html)
 - [カレンダーに祝日を入れたいなら国立天文台へ行けばいいじゃない]({{< ref "/remark/2019/05/google-ephemeris.md" >}})
 
 [Go]: https://golang.org/ "The Go Programming Language"
