@@ -1,0 +1,75 @@
+package main
+
+import (
+	"fmt"
+	"image"
+	"image/draw"
+	"image/png"
+	"os"
+)
+
+func imageFrom(path string) (image.Image, error) {
+	file, err := os.Open(path)
+	if err != nil {
+		return nil, err
+	}
+	defer file.Close()
+
+	img, _, err := image.Decode(file)
+	if err != nil {
+		return nil, err
+	}
+	return img, nil
+}
+
+func max(x, y int) int {
+	if x > y {
+		return x
+	}
+	return y
+}
+func concatImageFiles(dstPath string, srcPaths ...string) error {
+	srcImages := make([]image.Image, 0, len(srcPaths))
+	width, height := 0, 0
+	for _, path := range srcPaths {
+		img, err := imageFrom(path)
+		if err != nil {
+			return err
+		}
+		rct := img.Bounds()
+		width = max(width, rct.Dx())
+		height += rct.Dy()
+		srcImages = append(srcImages, img)
+	}
+
+	dstImage := image.NewRGBA(image.Rect(0, 0, width, height))
+	offset := 0
+	for _, img := range srcImages {
+		srcRect := img.Bounds()
+		draw.Draw(
+			dstImage,
+			image.Rect(0, offset, srcRect.Dx(), offset+srcRect.Dy()),
+			img,
+			image.Point{0, 0},
+			draw.Over,
+		)
+		offset += srcRect.Dy()
+	}
+
+	file, err := os.Create(dstPath)
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+	if err := png.Encode(file, dstImage); err != nil {
+		return err
+	}
+	return nil
+}
+
+func main() {
+	if err := concatImageFiles("out.png", "image-1.png", "image-2.png"); err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return
+	}
+}
