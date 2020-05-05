@@ -152,7 +152,7 @@ Home: C:/Users/username/AppData/Roaming/gnupg
 通常はこれで問題ないが，他のフォルダに変更したい場合は環境変数 `GNUPGHOME` でフォルダを指定する。
 また `gpg.exe` 起動時に `--homedir` オプションでホームディレクトリを直接指定することもできる（`--homedir` オプションが優先）。
 
-[^gh]: [GnuPG] のホームディレクトリにはいわゆる鍵束（key ring）の情報が格納される。 [GnuPG] はこの鍵束から暗号鍵を取得して暗号化および復号を行うわけだ。ちなみに，環境変数 `APPDATA` には通常 `C:\Users\username\AppData\Roaming` （`username` はログインユーザの名前）がセットされている。ちなみに UNIX 系のプラットフォームでは `~/.gnupg` が [GnuPG] 既定のホームディレクトリだが Windows は構成が異なるためこのようになっている。
+[^gh]: [GnuPG] のホームディレクトリにはいわゆる鍵束（key ring）の情報が格納される。 [GnuPG] はこの鍵束から暗号鍵を取得して暗号化および復号を行うわけだ。ちなみに環境変数 `APPDATA` には通常 `C:\Users\username\AppData\Roaming` （`username` はログインユーザの名前）がセットされている。 UNIX 系のプラットフォームでは `~/.gnupg` が [GnuPG] 既定のホームディレクトリだが Windows は構成が異なるためこのようになっている。
 
 ```text
 $ gpg --version --homedir C:\usr\home
