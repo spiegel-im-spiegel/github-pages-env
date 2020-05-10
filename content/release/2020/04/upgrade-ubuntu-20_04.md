@@ -194,6 +194,7 @@ gcc -o git-credential-libsecret  git-credential-libsecret.o -lsecret-1 -lgio-2.0
 - [Ubuntu 20.04 その28 - Ubuntu Desktopの新機能と魅力・様々な新機能と改良点の紹介 - kledgeb](https://kledgeb.blogspot.com/2020/04/ubuntu-2004-28-ubuntu-desktop.html)
 - [Ubuntu 20.04 その29 - Linux kernel 5.4の新機能 - kledgeb](https://kledgeb.blogspot.com/2020/04/ubuntu-2004-29-linux-kernel-54.html)
 - [Ubuntu 20.04 LTSインストールガイド【スクリーンショットつき解説】 | LFI](https://linuxfan.info/ubuntu-20-04-install-guide)
+- [(今はまだ)WSL1にUbuntu 20.04を入れるな - Qiita](https://qiita.com/mmns/items/eaf42dd3345a2285ff9e)
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [PPA]: https://launchpad.net/ubuntu/+ppas "Personal Package Archives : Ubuntu"
