@@ -1,5 +1,6 @@
 #!/bin/sh
 sleep 1;cat card-4333.html   | books-data review -t review-book.html -c 4333   -r 4 --review-date 2019-09-21 --image-url https://text.baldanders.info/images/aozora/card4333.svg  --pipe
+sleep 1;cat B00O2O7JEA.html | books-data review -t review-book.html -a B00O2O7JEA -r 4 --review-date 2020-05-11 --pipe
 sleep 1;cat B00FIWCVFM.html | books-data review -t review-book.html -a B00FIWCVFM -r 4 --review-date 2020-05-11 --pipe
 # ---
 # sleep 1;cat ./done/B07BKT4RX5.html | books-data review -t review-book.html -a B07BKT4RX5 -r 5 --review-date 2020-04-05 --pipe

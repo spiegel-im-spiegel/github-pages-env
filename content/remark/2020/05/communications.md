@@ -51,3 +51,4 @@ pageType = "text"
 {{% review-aozora "4333" %}} <!-- クリトン -->
 {{% review-paapi "4641280304" %}} <!-- リスクとつきあう -->
 {{% review-paapi "B00FIWCVFM" %}} <!-- セブン -->
+{{% review-paapi "B00O2O7JEA" %}} <!-- あなたの人生の物語 -->

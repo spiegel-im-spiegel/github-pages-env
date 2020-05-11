@@ -11961,6 +11961,53 @@
       true,
       false
     ],
-    "Description": "「ソクラテスの弁明」そのものには必ずしも賛同しないが，「個」と「公」の関係を考える上で面白い作品だと思う。"
+    "Description": "「ソクラテスの弁明」そのものには必ずしも賛同しないが，繰り広げられる対話は「個」と「公」の関係を考える上で面白い作品だと思う。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00O2O7JEA",
+      "Title": "あなたの人生の物語",
+      "URL": "https://www.amazon.co.jp/dp/B00O2O7JEA?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51CqKbKl7xL._SL160_.jpg",
+        "Height": 160,
+        "Width": 108
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "テッド チャン",
+          "Role": "著"
+        },
+        {
+          "Name": "浅倉久志",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "早川書房",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00O2O7JEA"
+        }
+      ],
+      "PublicationDate": "2012-08-25",
+      "LastRelease": "2014-09-30",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-05-11",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "短編集。同名の短編が映画になったが，個人的に一番好きなのは「理解」だったり。"
   }
 ]
