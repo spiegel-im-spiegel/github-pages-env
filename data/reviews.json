@@ -11848,5 +11848,119 @@
       true
     ],
     "Description": "今やテンプレな乙女ゲーム転生ものでコメディ寄りのラブコメ。つか，読んでて吹き出してしまった（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00FIWCVFM",
+      "Title": "セブン (字幕版)",
+      "URL": "https://www.amazon.co.jp/dp/B00FIWCVFM?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51Fp5fuvNoL._SL160_.jpg",
+        "Height": 160,
+        "Width": 120
+      },
+      "ProductType": "Prime Video",
+      "Creators": [
+        {
+          "Name": "ブラッド・ピット",
+          "Role": "出演"
+        },
+        {
+          "Name": "モーガン・フリーマン",
+          "Role": "出演"
+        },
+        {
+          "Name": "グウィネス・パルトロー",
+          "Role": "出演"
+        },
+        {
+          "Name": "ケビン・スペイシー",
+          "Role": "出演"
+        },
+        {
+          "Name": "デビッド・フィンチャー",
+          "Role": "監督"
+        },
+        {
+          "Name": "アンドリュー・ケビン・ウォーカー",
+          "Role": "Writer"
+        },
+        {
+          "Name": "アーノルド・コペルソン",
+          "Role": "プロデュース"
+        },
+        {
+          "Name": "フィリス・カーライル",
+          "Role": "プロデュース"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00FIWCVFM"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2013-11-26",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-05-11",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "説教こわい。夜見ると眠れなくなる（笑）"
+  },
+  {
+    "Book": {
+      "Type": "aozora",
+      "ID": "4333",
+      "Title": "クリトン",
+      "OriginalTitle": "CRITO",
+      "URL": "https://www.aozora.gr.jp/cards/000915/card4333.html",
+      "Image": {
+        "URL": "https://text.baldanders.info/images/aozora/card4333.svg"
+      },
+      "ProductType": "青空文庫",
+      "Creators": [
+        {
+          "Name": "プラトン "
+        },
+        {
+          "Name": "sogo ",
+          "Role": "翻訳"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "図書カードNo.",
+          "Value": "4333"
+        }
+      ],
+      "PublicationDate": "2000-12-20",
+      "LastRelease": "2014-09-17",
+      "Service": {
+        "Name": "aozorahack",
+        "URL": "https://aozorahack.org/"
+      }
+    },
+    "Date": "2019-09-21",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "「ソクラテスの弁明」そのものには必ずしも賛同しないが，「個」と「公」の関係を考える上で面白い作品だと思う。"
   }
 ]
