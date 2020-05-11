@@ -74,11 +74,12 @@ Git については [Ubuntu] 公式リポジトリではなく [PPA のリポジ
 
 | Official | Release    |                       Ubuntu | Release    |   Delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
+|     76.0 | 2020-05-05 |   76.0+build2-0 (USN-4353-1) | 2020-05-07 |   2 day |
 |     75.0 | 2020-04-07 |               (Ubuntu 20.04) | 2020-04-23 | &mdash; |
-|     75.0 | 2020-04-07 |   75.0+build3-0 (USN-4323-1) | 2020-04-07 |   0 day |
 
 ### ブックマーク
 
+- [Firefox  76.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/76.0/releasenotes/)
 - [Firefox  75.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/75.0/releasenotes/)
 
 ## Thunderbird
