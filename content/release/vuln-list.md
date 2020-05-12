@@ -72,13 +72,15 @@ Git については [Ubuntu] 公式リポジトリではなく [PPA のリポジ
 
 ## Firefox
 
-| Official | Release    |                       Ubuntu | Release    |   Delay |
-| --------:| ---------- | ----------------------------:| ---------- | -------:|
-|     76.0 | 2020-05-05 |   76.0+build2-0 (USN-4353-1) | 2020-05-07 |   2 day |
-|     75.0 | 2020-04-07 |               (Ubuntu 20.04) | 2020-04-23 | &mdash; |
+| Official | Release    |                     Ubuntu | Release    |   Delay |
+| --------:| ---------- | --------------------------:| ---------- | -------:|
+|   76.0.1 | 2020-05-08 |                            |            | ∞ days |
+|     76.0 | 2020-05-05 | 76.0+build2-0 (USN-4353-1) | 2020-05-07 |  2 days |
+|     75.0 | 2020-04-07 |             (Ubuntu 20.04) | 2020-04-23 | &mdash; |
 
 ### ブックマーク
 
+- [Firefox  76.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/76.0.1/releasenotes/)
 - [Firefox  76.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/76.0/releasenotes/)
 - [Firefox  75.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/75.0/releasenotes/)
 
