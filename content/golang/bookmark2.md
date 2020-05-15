@@ -128,3 +128,4 @@ image = "/images/attention/go-logo_blue.png"
 - [[Go] レイヤードアーキテクチャの階層構造を守らないimportを警告するlinterを作った - My External Storage](https://budougumi0617.github.io/2019/10/18/launch-layer-for-the-layered-achitectures/)
 - [Go: ElasticSearch Clients Study Case - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-elasticsearch-clients-study-case-dbaee1e02c7)
 - [Go の標準パッケージにないシステムコールを使う - Qiita](https://qiita.com/navel3/items/2f464163cc0a07458bb1)
+- [[Go] 一部のフィールドを無視して構造体を比較したいときはgo-cmpを使う - My External Storage](https://budougumi0617.github.io/2020/05/08/go-cmp-diif-with-ignore-fields/)

@@ -39,6 +39,7 @@ pageType = "text"
 - [LibreOfficeでドキュメントコンバータを作ろう - Qiita](https://qiita.com/hirohiro77/items/942eb461e8f4727e4b38)
 - [「LibreOffice」は次期バージョン「LibreOffice 7.0」でFlashのサポートを廃止 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1249986.html)
 - [第1話 / 部屋裏のバイテン - 竹本泉 | webアクション](https://comic-action.com/episode/13933686331621586042)
+    - [webアクション「屋根裏のバイテン」第1話 : ぽじとろんの竹本泉観察記](https://positron.exblog.jp/31177002/)
 - [総務省｜特別定額給付金](https://kyufukin.soumu.go.jp/ja-JP/index.html)
     - [特別定額給付金の申請をオンラインで済ませた｜塚本 牧生｜note](https://note.com/tsukamoto/n/n2484f456581d)
 - [Showcase: Digital.gov](https://gohugo.io/showcase/digitalgov/) : Hugo theme
