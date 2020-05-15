@@ -2,7 +2,7 @@
 title = "Go 1.14.3 がリリースされた"
 date =  "2020-05-15T08:55:24+09:00"
 description = "セキュリティ・アップデートはなし。"
-image = "/images/attention/tools.png"
+image = "/images/attention/go-logo_blue.png"
 tags  = [ "programming", "language", "golang", "ubuntu" ]
 pageType = "text"
 
