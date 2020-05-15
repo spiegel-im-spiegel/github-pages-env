@@ -184,6 +184,27 @@ gcc -o git-credential-libsecret  git-credential-libsecret.o -lsecret-1 -lgio-2.0
 
 - [PPA から Git をインストールする]({{< ref "/remark/2019/04/install-git-from-ppa.md" >}})
 
+## 【2020-05-15 追記】 日本語 Remix のリリースと Bootable USB メモリの作成
+
+Japanese Team による [Ubuntu] 20.04 LTS 日本語 Remix がリリースされた。
+感謝！
+
+- [Ubuntu 20.04 LTS 日本語 Remix リリース | Ubuntu Japanese Team](https://www.ubuntulinux.jp/News/ubuntu2004-ja-remix)
+
+Japanese Team による追加パッケージのリポジトリを導入するには以下の手順を実行する。
+
+```text
+$ wget -q https://www.ubuntulinux.jp/ubuntu-ja-archive-keyring.gpg -O- | sudo apt-key add -
+$ wget -q https://www.ubuntulinux.jp/ubuntu-jp-ppa-keyring.gpg -O- | sudo apt-key add -
+$ sudo wget https://www.ubuntulinux.jp/sources.list.d/focal.list -O /etc/apt/sources.list.d/ubuntu-ja.list
+$ sudo apt update
+```
+
+また ISO イメージ・ファイルも公開されているのでこれを使って bootable USB メモリを作成しておく。
+詳しくは以下の拙文を参考にどうぞ。
+
+- [Ubuntu インストール用のブート可能 USB メモリを作成する]({{< ref "/remark/2019/04/bootable-usb.md" >}})
+
 ## ブックマーク
 
 - [Ubuntu 20.04 その23 - Ubuntu 20.04 LTSがリリースされました・ディスクイメージのダウンロード - kledgeb](https://kledgeb.blogspot.com/2020/04/ubuntu-2004-23-ubuntu-2004-lts.html)
@@ -199,3 +220,7 @@ gcc -o git-credential-libsecret  git-credential-libsecret.o -lsecret-1 -lgio-2.0
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [PPA]: https://launchpad.net/ubuntu/+ppas "Personal Package Archives : Ubuntu"
+
+## 参考
+
+{{% review-paapi "B01NBU1OS5" %}} <!-- シリコンパワー USBメモリ 32GB USB3.1 -->
