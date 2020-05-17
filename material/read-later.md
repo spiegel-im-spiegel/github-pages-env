@@ -16,6 +16,7 @@
 ## セキュリティ＆プライバシー関連
 
 - [マルウェア感染による日経新聞社員らの情報流出についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/05/13/174643)
+- [米国がファーウェイ製品の使用禁止を1年延長  |  TechCrunch Japan](https://jp.techcrunch.com/2020/05/15/2020-05-14-trump-adds-another-year-to-huawei-zte-ban/)
 
 ## 天文関連
 
@@ -23,6 +24,7 @@
 - [2020年4月28日ニュース「金星の大気高速周回、原因は熱が生む波 探査機あかつきで解明」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2020/04/20200428_01.html)
 - [2020年4月21日ニュース「ニュートリノ、反粒子と性質異なる可能性高まる T2K実験」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2020/04/20200421_01.html)
 - [天の川銀河中心の超巨大ブラックホール「いて座A*」の「瞬き」を検出 ―ブラックホールごく近傍からの放射か― | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2020/20200511-alma.html)
+- [APOD: 2020 May 14 - Comet Halley vs Comet SWAN](https://apod.nasa.gov/apod/ap200514.html)
 
 ## 知財関連
 
@@ -45,5 +47,9 @@
 - [グーグル、「Dart 2.8」と「Flutter 1.17」をリリース--iOS関連機能を大幅強化 - ZDNet Japan](https://japan.zdnet.com/article/35153403/)
 - [レビュー「新型コロナ検査、新段階に 厚労省、抗原検査キットを13日に承認」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/review/2020/05/20200512_01.html)
 − [AtlassianがHalpを買収、JiraやConfluenceとの統合を進める  |  TechCrunch Japan](https://jp.techcrunch.com/2020/05/15/2020-05-12-atlassian-acquires-halp-to-bring-slack-integration-to-the-forefront/)
+- [「Chrome」、過剰に「重い」広告をブロックへ--8月から - ZDNet Japan](https://japan.zdnet.com/article/35153802/)
+- [「Google Cloud VMware Engine」発表。Google自身がVMware環境をGoogle Cloud上に構築、マネージドサービスとして提供 － Publickey](https://www.publickey1.jp/blog/20/google_cloud_vmware_enginegooglevmwaregoogle_cloud.html)
+- [HPEがKubernetes対応のコンテナプラットフォーム「HPE Container Platform」を国内で提供開始。大規模なデータ統合基盤の構築が狙い － Publickey](https://www.publickey1.jp/blog/20/hpekuberneteshpe_container_platform.html)
+- [Five Years of Rust | Rust Blog](https://blog.rust-lang.org/2020/05/15/five-years-of-rust.html)
 
 <!-- eof -->
