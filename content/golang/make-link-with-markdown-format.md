@@ -1,23 +1,8 @@
 +++
 title = "Markdown 形式のリンクを生成するツールを作ってみた"
 date =  "2017-11-08T18:37:57+09:00"
-update = "2017-12-14T15:51:24+09:00"
 description = "あれ？ これ Go 言語でも簡単に作れるんじゃないかな。ちうわけで作ってみた。"
 tags        = [ "golang", "programming", "tools" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
 
 [scripts]
   mathjax = false
