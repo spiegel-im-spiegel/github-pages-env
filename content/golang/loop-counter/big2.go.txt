@@ -1,0 +1,19 @@
+package main
+
+import (
+	"fmt"
+	"math/big"
+)
+
+func main() {
+	var x, y, z big.Float //zero initialize
+	x.SetPrec(128)
+	y.SetPrec(128)
+
+	y.SetFloat64(0.1)
+	for i := 0; i < 10; i++ {
+		z.Add(&x, &y)
+		fmt.Printf("z = %v (prec = %d bits)\n", &z, z.Prec())
+		x.Set(&z)
+	}
+}
