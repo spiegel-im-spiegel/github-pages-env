@@ -56,5 +56,6 @@ pageType = "text"
 ## ブックマーク
 
 - [特別定額給付金の申請をオンラインで済ませた｜塚本 牧生｜note](https://note.com/tsukamoto/n/n2484f456581d)
+- [特別定額給付金のオンライン申請で起きた問題についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/05/20/183407)
 
 [特別定額給付金]: https://kyufukin.soumu.go.jp/ja-JP/ "総務省｜特別定額給付金"
