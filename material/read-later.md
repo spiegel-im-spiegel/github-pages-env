@@ -1,8 +1,5 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-- [VSCodeでDraw.ioが使えるようになったらしい！ - Qiita](https://qiita.com/riku-shiru/items/5ab7c5aecdfea323ec4e)
-
-
 ## リリース情報
 
 - [Announcing Rust 1.43.1 | Rust Blog](https://blog.rust-lang.org/2020/05/07/Rust.1.43.1.html)
