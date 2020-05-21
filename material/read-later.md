@@ -1,14 +1,15 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-- [総務省｜特別定額給付金](https://kyufukin.soumu.go.jp/ja-JP/index.html)
-    - [特別定額給付金の申請をオンラインで済ませた｜塚本 牧生｜note](https://note.com/tsukamoto/n/n2484f456581d)
-- [勇者召喚に巻き込まれたけど、異世界は平和でした 9 (モーニングスターブックス) | 灯台, おちゃう |本 | 通販 | Amazon](https://www.amazon.co.jp/dp/4775318179)
-- [Ubuntu 20.04 その48 - Ubuntu 20.04 LTS 日本語 Remixがリリースされました・ディスクイメージのダウンロード - kledgeb](https://kledgeb.blogspot.com/2020/05/ubuntu-2004-48-ubuntu-2004-lts-remix.html)
+- [特別定額給付金のオンライン申請で起きた問題についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/05/20/183407)
+- [VSCodeでDraw.ioが使えるようになったらしい！ - Qiita](https://qiita.com/riku-shiru/items/5ab7c5aecdfea323ec4e)
 
 
 ## リリース情報
 
 - [Announcing Rust 1.43.1 | Rust Blog](https://blog.rust-lang.org/2020/05/07/Rust.1.43.1.html)
+
+- [Markdown Render Hooks for Headings | Hugo](https://gohugo.io/news/0.71.0-relnotes/) : Hugo 0.71.0
+- [Release 4.0.0 · hakimel/reveal.js · GitHub](https://github.com/hakimel/reveal.js/releases/tag/4.0.0)
 
 ## バベルのインターネット
 
@@ -17,6 +18,11 @@
 
 - [マルウェア感染による日経新聞社員らの情報流出についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/05/13/174643)
 - [米国がファーウェイ製品の使用禁止を1年延長  |  TechCrunch Japan](https://jp.techcrunch.com/2020/05/15/2020-05-14-trump-adds-another-year-to-huawei-zte-ban/)
+
+- [Samsung Androidに任意コード実行の脆弱性、アップデートを | マイナビニュース](https://news.mynavi.jp/article/20200517-1036720/) : 2020-05-01 版に要更新
+- [欧州で多数のスパコンが乗っ取り、暗号資産マイニングに利用される - ZDNet Japan](https://japan.zdnet.com/article/35153915/)
+- [「LibreOffice 6.4.3」「LibreOffice 6.3.6」で1件のセキュリティ改善 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1253184.html)
+- [DNS サーバ BIND の脆弱性対策について(CVE-2020-8616)(CVE-2020-8617) ：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/alert20200520.html)
 
 ## 天文関連
 
@@ -51,5 +57,13 @@
 - [「Google Cloud VMware Engine」発表。Google自身がVMware環境をGoogle Cloud上に構築、マネージドサービスとして提供 － Publickey](https://www.publickey1.jp/blog/20/google_cloud_vmware_enginegooglevmwaregoogle_cloud.html)
 - [HPEがKubernetes対応のコンテナプラットフォーム「HPE Container Platform」を国内で提供開始。大規模なデータ統合基盤の構築が狙い － Publickey](https://www.publickey1.jp/blog/20/hpekuberneteshpe_container_platform.html)
 - [Five Years of Rust | Rust Blog](https://blog.rust-lang.org/2020/05/15/five-years-of-rust.html)
+
+- [Denoの登場でNode.jsの時代は終わるのか？ - Qiita](https://qiita.com/so99ynoodles/items/c3ba2a528052827e3b3c)
+- [VSCodeでDraw.ioが使えるようになったらしい！ - Qiita](https://qiita.com/riku-shiru/items/5ab7c5aecdfea323ec4e)
+- [［速報］Windows用パッケージマネージャ「winget」がプレビューリリース。コマンドラインからアプリケーションをインストール。Microsoft Build 2020 － Publickey](https://www.publickey1.jp/blog/20/windowswingetmicrosoft_build_2020.html)
+- [［速報］WSL 2が正式版に到達。今後はLinuxのGUIアプリへも対応すると。Microsoft Build 2020 － Publickey](https://www.publickey1.jp/blog/20/wsl_2linuxguimicrosoft_build_2020.html)
+- [［速報］Windows Terminal 1.0正式リリース。7月からは毎月アップデートへ。Microsoft Build 2020 － Publickey](https://www.publickey1.jp/blog/20/windows_terminal_107microsoft_build_2020.html)
+- [［速報」Blazor WebAssemblyが正式リリース。C#/.NETでWebアプリケーションを開発可能に。Microsoft Build 2020 － Publickey](https://www.publickey1.jp/blog/20/blazor_webassemblycnetwebmicrosoft_build_2020.html)
+- [［速報］マイクロソフト、新UIフレームワーク「.NET Multi-platform App UI」（.NET MAUI）発表。単一コードでマルチプラットフォーム対応。Microsoft Build 2020 － Publickey](https://www.publickey1.jp/blog/20/uinet_multi-platform_app_uinet_mauimicrosoft_build_2020.html)
 
 <!-- eof -->
