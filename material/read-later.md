@@ -1,13 +1,11 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-- [特別定額給付金のオンライン申請で起きた問題についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/05/20/183407)
 - [VSCodeでDraw.ioが使えるようになったらしい！ - Qiita](https://qiita.com/riku-shiru/items/5ab7c5aecdfea323ec4e)
 
 
 ## リリース情報
 
 - [Announcing Rust 1.43.1 | Rust Blog](https://blog.rust-lang.org/2020/05/07/Rust.1.43.1.html)
-
 - [Markdown Render Hooks for Headings | Hugo](https://gohugo.io/news/0.71.0-relnotes/) : Hugo 0.71.0
 - [Release 4.0.0 · hakimel/reveal.js · GitHub](https://github.com/hakimel/reveal.js/releases/tag/4.0.0)
 
@@ -18,7 +16,6 @@
 
 - [マルウェア感染による日経新聞社員らの情報流出についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/05/13/174643)
 - [米国がファーウェイ製品の使用禁止を1年延長  |  TechCrunch Japan](https://jp.techcrunch.com/2020/05/15/2020-05-14-trump-adds-another-year-to-huawei-zte-ban/)
-
 - [Samsung Androidに任意コード実行の脆弱性、アップデートを | マイナビニュース](https://news.mynavi.jp/article/20200517-1036720/) : 2020-05-01 版に要更新
 - [欧州で多数のスパコンが乗っ取り、暗号資産マイニングに利用される - ZDNet Japan](https://japan.zdnet.com/article/35153915/)
 - [「LibreOffice 6.4.3」「LibreOffice 6.3.6」で1件のセキュリティ改善 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1253184.html)
@@ -57,7 +54,6 @@
 - [「Google Cloud VMware Engine」発表。Google自身がVMware環境をGoogle Cloud上に構築、マネージドサービスとして提供 － Publickey](https://www.publickey1.jp/blog/20/google_cloud_vmware_enginegooglevmwaregoogle_cloud.html)
 - [HPEがKubernetes対応のコンテナプラットフォーム「HPE Container Platform」を国内で提供開始。大規模なデータ統合基盤の構築が狙い － Publickey](https://www.publickey1.jp/blog/20/hpekuberneteshpe_container_platform.html)
 - [Five Years of Rust | Rust Blog](https://blog.rust-lang.org/2020/05/15/five-years-of-rust.html)
-
 - [Denoの登場でNode.jsの時代は終わるのか？ - Qiita](https://qiita.com/so99ynoodles/items/c3ba2a528052827e3b3c)
 - [VSCodeでDraw.ioが使えるようになったらしい！ - Qiita](https://qiita.com/riku-shiru/items/5ab7c5aecdfea323ec4e)
 - [［速報］Windows用パッケージマネージャ「winget」がプレビューリリース。コマンドラインからアプリケーションをインストール。Microsoft Build 2020 － Publickey](https://www.publickey1.jp/blog/20/windowswingetmicrosoft_build_2020.html)
