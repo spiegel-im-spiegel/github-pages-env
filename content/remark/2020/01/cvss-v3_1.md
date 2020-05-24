@@ -47,7 +47,9 @@ pageType = "text"
 
 ## ブックマーク
 
-- [共通脆弱性評価システムCVSS v3概説：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/vuln/CVSSv3.html) : v3.1 に対応していないように見えるのだが，やる気がないのかな？
+- [共通脆弱性評価システムCVSS概説：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/vuln/CVSS.html) : v3.1 に対応しているようだ
+    - [共通脆弱性評価システムCVSS v3概説：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/vuln/CVSSv3.html) : v3.1 に対応していないように見えるのだが...
+- [CVSS（共通脆弱性評価システム）3.0から3.1への変更点：OpenSCAPで脆弱性対策はどう変わる？（7） - ＠IT](https://www.atmarkit.co.jp/ait/articles/2005/19/news002.html)
 
 - [JVN が CVSSv3 による脆弱性評価を開始]({{< ref "/remark/2015/cvss-v3-metrics-in-jvn.md" >}})
 

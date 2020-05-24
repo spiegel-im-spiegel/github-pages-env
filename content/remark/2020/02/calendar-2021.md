@@ -68,6 +68,8 @@ pageType = "text"
 - [カレンダーに祝日を入れたいなら国立天文台へ行けばいいじゃない]({{< ref "/remark/2019/05/google-ephemeris.md" >}})
 - [2020年の主な暦象]({{< ref "/remark/2019/11/astronomical-calendar-2020.md" >}})
 - [2020年の祝日休日]({{< ref "/remark/2020/01/2020-holidays.md" >}})
+- [暦象年表の改訂について (2021) - 国立天文台暦計算室](https://eco.mtk.nao.ac.jp/koyomi/topics/html/topics2021_1.html)
+- [節分の日が動き出す - 国立天文台暦計算室](https://eco.mtk.nao.ac.jp/koyomi/topics/html/topics2021_2.html)
 
 ## 参考図書
 
