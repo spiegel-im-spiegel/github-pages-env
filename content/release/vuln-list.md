@@ -91,12 +91,14 @@ Git については [Ubuntu] 公式リポジトリではなく [PPA のリポジ
 
 | Official | Release    |                       Ubuntu | Release    |   Delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
-|   68.8.0 | 2020-05-05 |                              |            | ∞ days |
+|   68.8.1 | 2020-05-22 |                              |            | ∞ days |
+|   68.8.0 | 2020-05-05 |                       &mdash | &mdash     |  &mdash |
 |   68.7.0 | 2020-04-08 |               (Ubuntu 20.04) | 2020-04-23 | &mdash; |
 |   68.7.0 | 2020-04-08 | 68.7.0+build1-0 (USN-4328-1) | 2020-04-13 |  5 days |
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (68.8.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.8.1/releasenotes/)
 - [Thunderbird — Release Notes (68.8.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.8.0/releasenotes/)
 - [Thunderbird — Release Notes (68.7.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.7.0/releasenotes/)
 
