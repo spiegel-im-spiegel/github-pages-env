@@ -20,15 +20,15 @@ pageType = "text"
 
 ## [Ubuntu] ディストリビューションのリリース
 
-| Uistribution        | Release    | Expire  |
-| ------------------- | ---------- | ------- |
-| 20.04 (Focal Fossa) | 2020-04-23 | 2025-04 |
-| 19.10 (Eoan Ermine) | 2019-10-17 | 2020-07 |
+| Uistribution        | Release    | Expire        |
+| ------------------- | ---------- | ------------- |
+| 20.04 (Focal Fossa) | 2020-04-23 | 2025-04 (LTS) |
+| 19.10 (Eoan Ermine) | 2019-10-17 | 2020-07       |
 
 - [FocalFossa/ReleaseNotes - Ubuntu Wiki](https://wiki.ubuntu.com/FocalFossa/ReleaseNotes)
 - [EoanErmine/ReleaseNotes - Ubuntu Wiki](https://wiki.ubuntu.com/EoanErmine/ReleaseNotes)
 
-## GnuPG
+## [GnuPG]
 
 [Ubuntu] 20.04 LTS リリース時の最新バージョンは 2.2.19 (Libgcrypt 1.8.5) である。
 LTS リリースのタイミングでアップデートされるのか `orz`
@@ -53,9 +53,11 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 - [Gnupg-announce Info Page](https://lists.gnupg.org/mailman/listinfo/gnupg-announce)
 
-## Git
+[GnuPG]: https://www.gnupg.org/ "The GNU Privacy Guard"
 
-Git については [Ubuntu] 公式リポジトリではなく [PPA のリポジトリ](https://launchpad.net/~git-core/+archive/ubuntu/ppa)からインストールしている。
+## [Git]
+
+[Git] については [Ubuntu] 公式リポジトリではなく [PPA のリポジトリ](https://launchpad.net/~git-core/+archive/ubuntu/ppa)からインストールしている。
 
 | Official | Release    |        Ubuntu | Release    |  Delay |
 | --------:| ---------- | -------------:| ---------- | ------:|
@@ -71,7 +73,9 @@ Git については [Ubuntu] 公式リポジトリではなく [PPA のリポジ
 
 - [PPA から Git をインストールする]({{< ref "/remark/2019/04/install-git-from-ppa.md" >}})
 
-## Firefox
+[Git]: https://git-scm.com/
+
+## [Firefox]
 
 | Official | Release    |                       Ubuntu | Release    |   Delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
@@ -85,16 +89,17 @@ Git については [Ubuntu] 公式リポジトリではなく [PPA のリポジ
 - [Firefox  76.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/76.0/releasenotes/)
 - [Firefox  75.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/75.0/releasenotes/)
 
-## Thunderbird
+[Firefox]: https://www.mozilla.org/firefox/ "Firefox - Protect your life online with privacy-first products"
+
+## [Thunderbird]
 
 現在は APT を使わず公式バイナリをダウンロードして手動でインストールしているが，参考情報として残しておく。
 
 | Official | Release    |                       Ubuntu | Release    |   Delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
 |   68.8.1 | 2020-05-22 |                              |            | ∞ days |
-|   68.8.0 | 2020-05-05 |                      &mdash; | &mdash;    | &mdash; |
+|   68.8.0 | 2020-05-05 | 68.8.0+build2-0 (USN-4328-1) | 2020-05-26 | 3 weeks |
 |   68.7.0 | 2020-04-08 |               (Ubuntu 20.04) | 2020-04-23 | &mdash; |
-|   68.7.0 | 2020-04-08 | 68.7.0+build1-0 (USN-4328-1) | 2020-04-13 |  5 days |
 
 ### ブックマーク
 
@@ -103,6 +108,8 @@ Git については [Ubuntu] 公式リポジトリではなく [PPA のリポジ
 - [Thunderbird — Release Notes (68.7.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.7.0/releasenotes/)
 
 - [結局 Thunderbird もインストールし直すことにした]({{< ref "/remark/2019/11/reinstalling-thunderbird.md" >}})
+
+[Thunderbird]: https://www.thunderbird.net/ "Thunderbird — There’s nothing here! — Thunderbird"
 
 ## Java ([OpenJDK])
 

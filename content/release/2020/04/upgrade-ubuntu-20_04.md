@@ -59,8 +59,9 @@ Home: /home/username/.gnupg
 ```
 
 まぁ，現時点での[最新版は 2.2.20]({{< ref "/release/2020/03/gnupg-2_2_20-is-released.md" >}} "GnuPG 2.2.20 がリリースされた") だけどね。
-ちなみに [GnuPG] 2.2.18 から SHA-1 電子署名の扱いが変わったのでご注意を。
+ちなみに [GnuPG] 2.2.17 から SHA-1 電子署名の扱いが変わったのでご注意を。
 
+- [GnuPG 2.2.17 リリース： 公開鍵サーバ・アクセスに関する過激な変更あり]({{< ref "/release/2019/07/gnupg-2_2_17-is-released.md" >}})
 - [GnuPG 2.2.18 リリース： さようなら SHA-1]({{< ref "/release/2019/11/gnupg-2_2_18-is-released.md" >}})
 
 ### [OpenSSH] および [OpenSSL]
