@@ -1,7 +1,7 @@
 +++
 title = "Ubuntu に KeePassXC を導入する"
 date =  "2019-08-25T12:05:20+09:00"
-description = "APT または Snap から導入できるのだが Snap 版を利用したほうがいいみたい。 "
+description = "Snap 版は日本語入力ができないため PPA リポジトリを使って最新版をインストールする。"
 image = "/images/attention/kitten.jpg"
 tags = [ "ubuntu", "password", "management", "tools", "install" ]
 pageType = "text"
@@ -16,35 +16,33 @@ pageType = "text"
 [KeePassXC] は [KeePass] のサードパーティ版である KeePassX の fork でマルチプラットフォームに対応している。
 Windows や macOS の他，各種 Linux ディストリビューションにも対応しているようだ。
 
-[Ubuntu] では APT または [Snap] から導入できるのだが[^snp1]
+**【2020-05-28 修正】**
+[Ubuntu] では APT または [Snap] から導入できるのだが， [Snap] 版は日本語入力ができない（日本語の文字列のコピペは可能）という致命的な欠点があるため [PPA] リポジトリを使って最新版をインストールする。
 
-[^snp1]: [Ubuntu] 18.04 以降は標準で [Snap] が入ってるらしい。
+まずは [PPA] リポジトリの登録から。
+
+```text
+$ sudo add-apt-repository ppa:phoerious/keepassxc
+$ sudo apt update
+```
+
+これで [KeePassXC] がインストール可能になった。
 
 ```text
 $ apt show keepassxc
 Package: keepassxc
-Version: 2.3.4+dfsg.1-1
+Version: 2.5.4-1ppa1~focal1
 Priority: optional
-Section: universe/utils
-Origin: Ubuntu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Julian Andres Klode <jak@debian.org>
+Section: utils
+Maintainer: KeePassXC Team <team@keepassxc.org>
 ...
 ```
 
+あとは普通に `apt install` すればよい。
+
+
 ```text
-$ snap find keepassxc
-Name             Version  Publisher       Notes  Summary
-keepassxc        2.4.3    keepassxreboot  -      community driven port of the windows application “Keepass Password Safe”
-keepassx-elopio  2.0.2    elopio          -      KeePassX is a cross platform password safe
-```
-
-ということで [Snap] 版を利用したほうがいいみたい。
-というわけで，早速！
-
-```
-$ sudo snap install keepassxc
-keepassxc 2.4.3 from Jonathan White (keepassxreboot) installed
+$ sudo apt install keepassxc
 ```
 
 これで [Ubuntu] のメニューから [KeePassXC] を起動できる。
@@ -56,24 +54,6 @@ keepassxc 2.4.3 from Jonathan White (keepassxreboot) installed
 使い方は本家の [KeePass] とだいたい同じようだ。
 ブラウザ連携は今のところ怖くて使う気にならない。
 まぁ，そのうち気が向いたらね。
-
-削除する場合は
-
-```
-$ sudo snap remove keepassxc
-```
-
-でおｋ。
-ちなみにアップグレードは
-
-```
-$ sudo snap refresh
-```
-
-で [Snap] 管理下にある全てのパッケージを一括でアップグレードできる。
-
-[Snap] はローカルにリポジトリ・データベースを持たないので（APT に比べて）扱いが簡単なのはいいのだが，こういうアプリ・ストア型のパッケージ管理システムは，どうしてもサービス提供者側の統制が強くなるので，好かんのだよなぁ。
-一応 [PPA] にも[リポジトリがあるみたい](https://launchpad.net/~phoerious/+archive/ubuntu/keepassxc "KeePassXC : Janek Bevendorff")なのだが，うーん...
 
 ## ブックマーク
 
