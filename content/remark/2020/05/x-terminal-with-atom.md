@@ -1,7 +1,7 @@
 +++
 title = "とりあえず ATOM エディタ内ターミナルを x-terminal に乗り換えた"
 date =  "2020-05-28T11:23:04+09:00"
-description = "description"
+description = "ATOM における Electron の外れっぷりはどうにかならないのかなぁ。"
 image = "/images/attention/kitten.jpg"
 tags = ["atom", "editor", "ubuntu", "terminal"]
 pageType = "text"
