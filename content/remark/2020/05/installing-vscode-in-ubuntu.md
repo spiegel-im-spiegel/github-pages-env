@@ -19,7 +19,11 @@ pageType = "text"
 
 [Ubuntu] に [VS Code] をインストールするのであれば [Snap] を使うのが一番簡単なのだが，うちの環境では何故か [Snap] 版で日本語入力ができないという致命的な問題があるため，今回は公式サイトから deb ファイルをダウンロードして直接 `apt install` した。
 
-インストールが成功すれば以下のようにコマンドが起動するはず。
+```text
+$ sudo apt install ./code_1.45.1-1589445302_amd64.deb
+```
+
+インストールに成功すれば以下のコマンドでバージョンが取得できるはず。
 
 ```text
 $ code -v
@@ -47,6 +51,20 @@ x64
     - `File` → `Preference` → `Keymaps` で他エディタの割当を導入することもできる
 - `f1` キー押下でもコマンド・パレット（Show All Commands）が開く
 
+### 設定の行方
+
+[VS Code] は `$HOME` ディレクトリに以下の設定ディレクトリを作成する。
+
+- `~/.vscode/`
+- `~/.config/Code/`
+
+このうち，ユーザ設定は `~/.config/Code/User/` ディレクトリ直下の以下のファイルに書き込まれる。
+
+- `settings.json`
+- `keybindings.json`
+
+最低でもこれらのファイルを保持っておけば再現しやすくなるだろう。
+
 ### とりあえず導入してみた拡張機能
 
 [ATOM] エディタみたいに印を付けておいて纏めてインストールできるといいんだけどねぇ。
@@ -54,6 +72,8 @@ x64
 - [EditorConfig for VS Code - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) : [EditorConfig](https://editorconfig.org/)
 - [zenkaku - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=mosapride.zenkaku) : 全角空白文字を色付きで表示できる
 - [Zenkaku-Hankaku - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=masakit.zenkaku-hankaku) : 全角⇔半角文字変換
+- [vscode-icons - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) : file icon theme
+- [Insert Date String - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=jsynowiec.vscode-insertdatestring)
 
 ## ブックマーク
 
