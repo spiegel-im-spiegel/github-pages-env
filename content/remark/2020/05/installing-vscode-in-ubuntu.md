@@ -45,10 +45,10 @@ x64
 
 カスタマイズはメニューの `File` → `Preferences` から選択できる。
 
-- `File` → `Preference` → `Settings` で設定画面が開く（または `Ctrl+,` キー押下）
-- `File` → `Preference` → `Keyboard Shortcuts` でキー割当の確認・変更ができる
+- `File` → `Preferences` → `Settings` で設定画面が開く（または `Ctrl+,` キー押下）
+- `File` → `Preferences` → `Keyboard Shortcuts` でキー割当の確認・変更ができる
     - 既定のキー割当は [ATOM] とほとんど同じなので悩むところは少なかった
-    - `File` → `Preference` → `Keymaps` で他エディタの割当を導入することもできる
+    - `File` → `Preferences` → `Keymaps` で他エディタの割当を導入することもできる
 - `f1` キー押下でもコマンド・パレット（Show All Commands）が開く
 
 ### 設定の行方
