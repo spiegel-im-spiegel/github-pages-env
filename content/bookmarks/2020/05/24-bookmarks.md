@@ -26,7 +26,9 @@ pageType = "text"
 - [「LibreOffice 6.4.3」「LibreOffice 6.3.6」で1件のセキュリティ改善 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1253184.html)
 - [DNS サーバ BIND の脆弱性対策について(CVE-2020-8616)(CVE-2020-8617) ：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/alert20200520.html)
     - [ISC BIND 9 の脆弱性 (CVE-2020-8616, CVE-2020-8617) に関する注意喚起](https://www.jpcert.or.jp/at/2020/at200023.html)
-- [Bluetoothでペアリング済み機器になりすませる脆弱性  - PC Watch](https://pc.watch.impress.co.jp/docs/news/1253661.html)
+- [VU#647177 - Bluetooth devices supporting BR/EDR are vulnerable to impersonation attacks](https://www.kb.cert.org/vuls/id/647177/) : Bluetooth Impersonation AttackS (BIAS)
+    - [Bluetoothでペアリング済み機器になりすませる脆弱性  - PC Watch](https://pc.watch.impress.co.jp/docs/news/1253661.html)
+    - [Bluetooth Vulnerability: BIAS - Schneier on Security](https://www.schneier.com/blog/archives/2020/05/bluetooth_vulne_1.html)
 
 ## 天文関連
 
