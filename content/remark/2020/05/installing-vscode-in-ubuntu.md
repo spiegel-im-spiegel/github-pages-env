@@ -74,6 +74,7 @@ x64
 - [Zenkaku-Hankaku - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=masakit.zenkaku-hankaku) : 全角⇔半角文字変換
 - [vscode-icons - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) : file icon theme
 - [Insert Date String - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=jsynowiec.vscode-insertdatestring)
+- [Power Tools - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ego-digital.vscode-powertools)
 
 ## ブックマーク
 
