@@ -80,6 +80,7 @@ x64
 - [Running Visual Studio Code on Linux](https://code.visualstudio.com/docs/setup/linux)
 - [UbuntuにVSCodeをインストールする3つの方法 - Qiita](https://qiita.com/yoshiyasu1111/items/e21a77ed68b52cb5f7c8)
 - [VS Code でドキュメントの空白文字を見やすくしてみる - Qiita](https://qiita.com/satokaz/items/cb45d82f6f8f1e24c0d6)
+- [Visual Studio Codeの設定「虎の巻」：IDE編 (1/3)：特集：Visual Studio Codeを使いこなそう！ - ＠IT](https://www.atmarkit.co.jp/ait/articles/1708/23/news026.html)
 
 [VS Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"

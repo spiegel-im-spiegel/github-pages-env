@@ -22,6 +22,8 @@
     - [ブログ: ポートスキャンを実行しているWebサイト](https://okuranagaimo.blogspot.com/2020/05/web.html)
 - [It’s 2020 And Android’s IPv6 Is Still Broken – Daniels Networking Blog](http://lostintransit.se/2020/05/22/its-2020-and-androids-ipv6-is-still-broken/)
     - [ブログ: 2020年、AndroidのIPv6はまだ壊れています](https://okuranagaimo.blogspot.com/2020/05/2020androidipv6.html)
+- [悪意あるアプリがほぼすべてのアプリを乗っ取れるAndroidの脆弱性「StrandHogg 2.0」 - GIGAZINE](https://gigazine.net/news/20200527-strandhogg-2-0/)
+- [数字11桁で他人の健康状態が把握できたカタールの接触追跡アプリの脆弱性についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/05/28/174431)
 
 ## 天文関連
 
@@ -33,6 +35,7 @@
 
 - [ブログ: リーナス・トーバルズ、個人用PCのCPUをIntelから32コアAMD Ryzenに置き換え](https://okuranagaimo.blogspot.com/2020/05/pccpuintel32amd-ryzen.html)
 - [第620回　Ubuntu 20.04 LTSでU2F/FIDOデバイスを使ったSSHの2要素認証を試す：Ubuntu Weekly Recipe｜gihyo.jp … 技術評論社](https://gihyo.jp/admin/serial/01/ubuntu-recipe/0620)
+- [Ubuntu(Wayland) 環境で Alacritty で日本語を入力できるようにする方法 - Qiita](https://qiita.com/StoneDot/items/ecd5ccad39b2c1b7e07a)
 
 ## その他
 
@@ -47,5 +50,8 @@
     - [Dropboxが同期エンジンを全面的に改良、新エンジンはどこが改善されているのか？ - GIGAZINE](https://gigazine.net/news/20200425-dropbox-nucleus/)
     - [Dropbox、4年をかけてRust言語で再構築された新しい同期エンジン「Nucleus」をリリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1255034.html)
 - [Google Cloud FunctionsがJava 11をサポート開始。KotlinやScalaも利用可能に － Publickey](https://www.publickey1.jp/blog/20/google_cloud_functionsjava_11kotlinscala.html)
+- [Thermal Imaging as Security Theater - Schneier on Security](https://www.schneier.com/blog/archives/2020/05/thermal_imaging.html)
+- [ニューヨーク公共図書館125周年を祝い著名人たちがこの一冊をお勧めしている #nypl125 - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20200527/nypl125)
+- [2020年5月28日ニュース「『学校閉鎖は流行阻止効果に乏しい』『2歳未満のマスクは危険』と小児科学会」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2020/05/20200528_01.html)
 
 <!-- eof -->
