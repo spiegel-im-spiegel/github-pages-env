@@ -1,23 +1,12 @@
 +++
+title = "リスク認知とトレードオフ"
 date = "2016-02-03T22:02:21+09:00"
 description = "リスクと利便性はトレードオフできない。リスクとトレードオフできるのはリスクのみ。リスクをトレードオフして「全体最適化」することが重要なのである。"
-draft = false
 tags = ["security", "risk", "management"]
-title = "リスク認知とトレードオフ"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 繰り返し語られていることではあるけれど。

@@ -12009,5 +12009,174 @@
       false
     ],
     "Description": "短編集。同名の短編が映画になったが，個人的に一番好きなのは「理解」だったり。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4560031843",
+      "Title": "猫を償うに猫をもってせよ",
+      "URL": "https://www.amazon.co.jp/dp/4560031843?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31grUdSlFLL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "小谷野 敦",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "白水社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4560031843"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784560031841"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4560031843"
+        }
+      ],
+      "PublicationDate": "2008-06-01",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2019-03-11",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "読んでません。ゴメンペコン。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07LG7TG5N",
+      "Title": "FACTFULNESS（ファクトフルネス）10の思い込みを乗り越え、データを基に世界を正しく見る習慣",
+      "URL": "https://www.amazon.co.jp/dp/B07LG7TG5N?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/410QuKHYY3L._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "ハンス・ロスリング",
+          "Role": "著"
+        },
+        {
+          "Name": "オーラ・ロスリング",
+          "Role": "著"
+        },
+        {
+          "Name": "アンナ・ロスリング・ロンランド",
+          "Role": "著"
+        },
+        {
+          "Name": "上杉 周作",
+          "Role": "翻訳"
+        },
+        {
+          "Name": "関 美和",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "日経BP",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07LG7TG5N"
+        }
+      ],
+      "PublicationDate": "2019-01-11",
+      "LastRelease": "2019-01-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2019-03-11",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "Twitter で見かけて衝動買いした。ちょっとだけ読んで積ん読中。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4621089188",
+      "Title": "リスク 不確実性の中での意思決定 (サイエンス・パレット)",
+      "URL": "https://www.amazon.co.jp/dp/4621089188?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41Cboa6GkmL._SL160_.jpg",
+        "Height": 160,
+        "Width": 98
+      },
+      "ProductType": "新書",
+      "Creators": [
+        {
+          "Name": "Baruch Fischhoff",
+          "Role": "著"
+        },
+        {
+          "Name": "John Kadvany",
+          "Role": "著"
+        },
+        {
+          "Name": "中谷内 一也",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "丸善出版",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4621089188"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784621089187"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4621089188"
+        }
+      ],
+      "PublicationDate": "2015-04-26",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2019-03-11",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "リスクおよびリスク・コミュニケーションについて学び直そうと買った本。今読んでるところ。そのうち感想文とか書けるといいな。"
   }
 ]

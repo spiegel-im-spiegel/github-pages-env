@@ -50,44 +50,6 @@ Facebook や Twitter からこのブログに辿り着いた方は気がつい�
 ## 参考図書
 
 {{% review-paapi "4822283100" %}} <!-- セキュリティはなぜやぶられたのか -->
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%83%AA%E3%82%B9%E3%82%AF-%E4%B8%8D%E7%A2%BA%E5%AE%9F%E6%80%A7%E3%81%AE%E4%B8%AD%E3%81%A7%E3%81%AE%E6%84%8F%E6%80%9D%E6%B1%BA%E5%AE%9A-%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%91%E3%83%AC%E3%83%83%E3%83%88-Baruch-Fischhoff/dp/4621089188?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621089188"><img src="https://images-fe.ssl-images-amazon.com/images/I/41Cboa6GkmL._SL160_.jpg" width="98" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%83%AA%E3%82%B9%E3%82%AF-%E4%B8%8D%E7%A2%BA%E5%AE%9F%E6%80%A7%E3%81%AE%E4%B8%AD%E3%81%A7%E3%81%AE%E6%84%8F%E6%80%9D%E6%B1%BA%E5%AE%9A-%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%91%E3%83%AC%E3%83%83%E3%83%88-Baruch-Fischhoff/dp/4621089188?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4621089188">リスク 不確実性の中での意思決定 (サイエンス・パレット)</a></dt>
-        <dd>Baruch Fischhoff, John Kadvany</dd>
-        <dd>中谷内 一也 (翻訳)</dd>
-    <dd>丸善出版 2015-04-26</dd>
-    <dd>Book 新書</dd>
-    <dd>ASIN: 4621089188, EAN: 9784621089187</dd>
-  </dl>
-  <p class="description">リスクおよびリスク・コミュニケーションについて学び直そうと買った本。今読んでるところ。そのうち感想文とか書けるといいな。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-03-11">2019-03-11</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/FACTFULNESS%EF%BC%88%E3%83%95%E3%82%A1%E3%82%AF%E3%83%88%E3%83%95%E3%83%AB%E3%83%8D%E3%82%B9%EF%BC%8910%E3%81%AE%E6%80%9D%E3%81%84%E8%BE%BC%E3%81%BF%E3%82%92%E4%B9%97%E3%82%8A%E8%B6%8A%E3%81%88%E3%80%81%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E5%9F%BA%E3%81%AB%E4%B8%96%E7%95%8C%E3%82%92%E6%AD%A3%E3%81%97%E3%81%8F%E8%A6%8B%E3%82%8B%E7%BF%92%E6%85%A3-%E3%83%8F%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%AD%E3%82%B9%E3%83%AA%E3%83%B3%E3%82%B0-ebook/dp/B07LG7TG5N?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07LG7TG5N"><img src="https://images-fe.ssl-images-amazon.com/images/I/410QuKHYY3L._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/FACTFULNESS%EF%BC%88%E3%83%95%E3%82%A1%E3%82%AF%E3%83%88%E3%83%95%E3%83%AB%E3%83%8D%E3%82%B9%EF%BC%8910%E3%81%AE%E6%80%9D%E3%81%84%E8%BE%BC%E3%81%BF%E3%82%92%E4%B9%97%E3%82%8A%E8%B6%8A%E3%81%88%E3%80%81%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E5%9F%BA%E3%81%AB%E4%B8%96%E7%95%8C%E3%82%92%E6%AD%A3%E3%81%97%E3%81%8F%E8%A6%8B%E3%82%8B%E7%BF%92%E6%85%A3-%E3%83%8F%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%AD%E3%82%B9%E3%83%AA%E3%83%B3%E3%82%B0-ebook/dp/B07LG7TG5N?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07LG7TG5N">FACTFULNESS（ファクトフルネス）10の思い込みを乗り越え、データを基に世界を正しく見る
-習慣</a><dd>ハンス・ロスリング, オーラ・ロスリング, アンナ・ロスリング・ロンランド</dd>
-        <dd>上杉 周作 (翻訳), 関 美和 (翻訳)</dd>
-    <dd>日経BP社 2019-01-11 (Release 2019-01-01)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B07LG7TG5N</dd>
-  </dl>
-  <p class="description">Twitter で見かけて衝動買いした。ちょっとだけ読んで積ん読中。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-03-11">2019-03-11</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E7%8C%AB%E3%82%92%E5%84%9F%E3%81%86%E3%81%AB%E7%8C%AB%E3%82%92%E3%82%82%E3%81%A3%E3%81%A6%E3%81%9B%E3%82%88-%E5%B0%8F%E8%B0%B7%E9%87%8E-%E6%95%A6/dp/4560031843?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4560031843"><img src="https://images-fe.ssl-images-amazon.com/images/I/31grUdSlFLL._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E7%8C%AB%E3%82%92%E5%84%9F%E3%81%86%E3%81%AB%E7%8C%AB%E3%82%92%E3%82%82%E3%81%A3%E3%81%A6%E3%81%9B%E3%82%88-%E5%B0%8F%E8%B0%B7%E9%87%8E-%E6%95%A6/dp/4560031843?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4560031843">猫を償うに猫をもってせよ</a></dt>
-        <dd>小谷野 敦</dd>
-    <dd>白水社 2008-06</dd>
-    <dd>Book 単行本</dd>
-    <dd>ASIN: 4560031843, EAN: 9784560031841</dd>
-  </dl>
-  <p class="description">読んでません。ゴメンペコン。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-03-11">2019-03-11</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "4621089188" %}} <!-- リスク 不確実性の中での意思決定 -->
+{{% review-paapi "B07LG7TG5N" %}} <!-- FACTFULNESS -->
+{{% review-paapi "4560031843" %}} <!-- 猫を償うに猫をもってせよ -->

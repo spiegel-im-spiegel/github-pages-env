@@ -1,9 +1,12 @@
 #!/bin/sh
-sleep 1;cat card-4333.html   | books-data review -t review-book.html -c 4333   -r 4 --review-date 2020-05-11 --image-url https://text.baldanders.info/images/aozora/card4333.svg  --pipe
-sleep 1;cat B00O2O7JEA.html | books-data review -t review-book.html -a B00O2O7JEA -r 4 --review-date 2020-05-11 --pipe
-sleep 1;cat B00FIWCVFM.html | books-data review -t review-book.html -a B00FIWCVFM -r 4 --review-date 2020-05-11 --pipe
-sleep 1;cat ./done/B00NAQA33A.html | books-data review -t review-book.html -a B00NAQA33A -r 5 --review-date 2013-09-21 --pipe
+sleep 1;cat 4560031843.html | books-data review -t review-book.html -a 4560031843 -r 0 --review-date 2019-03-11 --pipe
+sleep 1;cat B07LG7TG5N.html | books-data review -t review-book.html -a B07LG7TG5N -r 0 --review-date 2019-03-11 --pipe
+sleep 1;cat 4621089188.html | books-data review -t review-book.html -a 4621089188 -r 0 --review-date 2019-03-11 --pipe
 # ---
+# sleep 1;cat ./done/card-4333.html   | books-data review -t review-book.html -c 4333   -r 4 --review-date 2020-05-11 --image-url https://text.baldanders.info/images/aozora/card4333.svg  --pipe
+# sleep 1;cat ./done/B00O2O7JEA.html | books-data review -t review-book.html -a B00O2O7JEA -r 4 --review-date 2020-05-11 --pipe
+# sleep 1;cat ./done/B00FIWCVFM.html | books-data review -t review-book.html -a B00FIWCVFM -r 4 --review-date 2020-05-11 --pipe
+# sleep 1;cat ./done/B00NAQA33A.html | books-data review -t review-book.html -a B00NAQA33A -r 5 --review-date 2013-09-21 --pipe
 # sleep 1;cat ./done/B07BKT4RX5.html | books-data review -t review-book.html -a B07BKT4RX5 -r 5 --review-date 2020-04-05 --pipe
 # sleep 1;cat ./done/B014VZ4FLE.html | books-data review -t review-book.html -a B014VZ4FLE -r 5 --review-date 2020-04-05 --pipe
 # sleep 1;cat ./done/4873118557.html | books-data review -t review-book.html -a 4873118557 -r 4 --review-date 2020-03-08 --pipe
