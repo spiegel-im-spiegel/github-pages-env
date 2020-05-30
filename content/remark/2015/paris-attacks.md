@@ -1,23 +1,12 @@
 +++
-date = "2015-11-15T20:32:55+09:00"
-update = "2016-03-24T20:36:48+09:00"
-description = "同時多発テロ関連のブックマーク。"
-draft = false
-tags = ["security", "international", "politics"]
 title = "同時多発テロ関連のブックマーク"
+date = "2015-11-15T20:32:55+09:00"
+description = "同時多発テロ関連のブックマーク。"
+tags = ["security", "international", "politics"]
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 今回の連続あるいは同時多発テロは池内恵さんの Facebook TL で知った。
@@ -39,7 +28,7 @@ title = "同時多発テロ関連のブックマーク"
 - [パリの同時多発テロの攻撃の波はひとまず収まる：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/40656)
 
 {{< fig-quote title="パリの同時多発テロの攻撃の波はひとまず収まる：池内恵" link="http://www.fsight.jp/articles/-/40656" >}}
-<q>国境の封鎖、全土への緊急事態宣言を発令、軍の動員、パリ市民への外出禁止呼びかけなど、フランス政府は1962年に終わったアルジェリア戦争以来とも言われる全面的な措置を取った。同時に、国際ニュースチャンネルなどを除く現地の一般メディアは通常の深夜放送に戻ったようだ。深刻な事態だからこそ、「騒ぎすぎない」ことも重要だろう。フランスの「内なる敵」との「戦争」は間欠的に長期間に渡って続くだろう。</q>
+<q>国境の封鎖、全土への非常事態宣言を発令、軍の動員、パリ市民への外出禁止呼びかけなど、フランス政府は1962年に終わったアルジェリア戦争以来とも言われる全面的な措置を取った。同時に、国際ニュースチャンネルなどを除く現地の一般メディアは通常の深夜放送に戻ったようだ。深刻な事態だからこそ、「騒ぎすぎない」ことも重要だろう。フランスの「内なる敵」との「戦争」は間欠的に長期間に渡って続くだろう。</q>
 {{< /fig-quote >}}
 
 - [Three Hours of Terror in Paris, Moment by Moment - The New York Times](http://www.nytimes.com/interactive/2015/11/13/world/europe/paris-shooting-attacks.html)
@@ -176,17 +165,4 @@ title = "同時多発テロ関連のブックマーク"
 ### 参考図書
 
 {{% review-paapi "B00SINS1HU" %}} <!-- イスラーム国の衝撃 -->
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E4%B8%AD%E6%9D%B1%E6%88%A6%E8%A8%98-%E3%83%9D%E3%82%B9%E3%83%889-11%E6%99%82%E4%BB%A3%E3%81%B8%E3%81%AE%E6%94%BF%E6%B2%BB%E7%9A%84%E3%82%AC%E3%82%A4%E3%83%89-%E8%AC%9B%E8%AB%87%E7%A4%BE%E9%81%B8%E6%9B%B8%E3%83%A1%E3%83%81%E3%82%A8-%E3%82%B8%E3%83%AB%E3%83%BB%E3%82%B1%E3%83%9A%E3%83%AB/dp/4062585103?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4062585103"><img src="https://images-fe.ssl-images-amazon.com/images/I/41X1JAIWl3L._SL160_.jpg" width="109" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E4%B8%AD%E6%9D%B1%E6%88%A6%E8%A8%98-%E3%83%9D%E3%82%B9%E3%83%889-11%E6%99%82%E4%BB%A3%E3%81%B8%E3%81%AE%E6%94%BF%E6%B2%BB%E7%9A%84%E3%82%AC%E3%82%A4%E3%83%89-%E8%AC%9B%E8%AB%87%E7%A4%BE%E9%81%B8%E6%9B%B8%E3%83%A1%E3%83%81%E3%82%A8-%E3%82%B8%E3%83%AB%E3%83%BB%E3%82%B1%E3%83%9A%E3%83%AB/dp/4062585103?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4062585103">中東戦記 ポスト9.11時代への政治的ガイド (講談社選書メチエ)</a></dt>
-	<dd>ジル・ケペル</dd>
-	<dd>池内 恵 (翻訳)</dd>
-    <dd>講談社 2011-09-09</dd>
-    <dd>Book 単行本（ソフトカバー）</dd>
-    <dd>ASIN: 4062585103, EAN: 9784062585101</dd>
-  </dl>
-  <p class="description">読むべきかなぁ，と思いつつもまだ。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-11-15">2015-11-15</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "4062585103" %}} <!-- 中東戦記 -->

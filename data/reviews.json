@@ -4948,14 +4948,18 @@
       "Type": "paapi",
       "ID": "4062585103",
       "Title": "中東戦記 ポスト9.11時代への政治的ガイド (講談社選書メチエ)",
-      "URL": "https://www.amazon.co.jp/%E4%B8%AD%E6%9D%B1%E6%88%A6%E8%A8%98-%E3%83%9D%E3%82%B9%E3%83%889-11%E6%99%82%E4%BB%A3%E3%81%B8%E3%81%AE%E6%94%BF%E6%B2%BB%E7%9A%84%E3%82%AC%E3%82%A4%E3%83%89-%E8%AC%9B%E8%AB%87%E7%A4%BE%E9%81%B8%E6%9B%B8%E3%83%A1%E3%83%81%E3%82%A8-%E3%82%B8%E3%83%AB%E3%83%BB%E3%82%B1%E3%83%9A%E3%83%AB/dp/4062585103?SubscriptionId=AKIAJYVUJ3DMTLAECTHA\u0026tag=baldandersinf-22\u0026linkCode=xm2\u0026camp=2025\u0026creative=165953\u0026creativeASIN=4062585103",
+      "URL": "https://www.amazon.co.jp/dp/4062585103?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://images-fe.ssl-images-amazon.com/images/I/41X1JAIWl3L._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/41X1JAIWl3L._SL160_.jpg",
         "Height": 160,
         "Width": 109
       },
       "ProductType": "単行本（ソフトカバー）",
       "Creators": [
+        {
+          "Name": "ジル・ケペル",
+          "Role": "著"
+        },
         {
           "Name": "池内 恵",
           "Role": "翻訳"
@@ -4970,12 +4974,16 @@
         {
           "Name": "EAN",
           "Value": "9784062585101"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4062585103"
         }
       ],
       "PublicationDate": "2011-09-09",
       "LastRelease": "",
       "Service": {
-        "Name": "PA-API",
+        "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
