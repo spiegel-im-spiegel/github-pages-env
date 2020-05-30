@@ -27,7 +27,7 @@ Facebook の TL を眺めてたら
 4月の急速な感染拡大はどう考えても年度跨ぎの「異動」がトリガーになってるでしょ。
 そういう意味では GW を「緊急事態」期間に含めたのは妥当だったと考えている。
 
-{{< fig-img src="./covid-2019-new-cases-in-japan.png" link="https://github.com/spiegel-im-spiegel/covid-2019-report" title="日本における COVID-2019 発症確認者のレポート" width="2027" >}}
+{{< fig-img src="./covid-2019-new-cases-in-japan.png" link="https://github.com/spiegel-im-spiegel/covid-2019-report" title="日本における COVID-2019 発症確認者のレポート" width="2080" >}}
 
 今回のように時々刻々と事態や知見が推移していく状況では「専門家」が信用されなくて当然である。
 「専門家は正しい」などと言うのは幻想に過ぎない。
