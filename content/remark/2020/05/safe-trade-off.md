@@ -64,6 +64,7 @@ Facebook の TL を眺めてたら
 - [Thermal Imaging as Security Theater - Schneier on Security](https://www.schneier.com/blog/archives/2020/05/thermal_imaging.html)
 - [2020年5月28日ニュース「『学校閉鎖は流行阻止効果に乏しい』『2歳未満のマスクは危険』と小児科学会」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2020/05/20200528_01.html)
 - [数字11桁で他人の健康状態が把握できたカタールの接触追跡アプリの脆弱性についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/05/28/174431)
+- {{< file-pdf title="「次亜塩素酸水」の空間噴霧について（ファクトシート）" link="https://www.meti.go.jp/press/2020/05/20200529005/20200529005-3.pdf" >}}
 
 ## 参考図書
 
