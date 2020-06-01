@@ -154,7 +154,7 @@ main table.sshkeys td  {
 </tr>
 <tr>
   <td class="right">7680</td>
-  <td class="right">256</td>
+  <td class="right">192</td>
 </tr>
 <tr>
   <td class="right">15360</td>
@@ -168,7 +168,7 @@ main table.sshkeys td  {
 </tr>
 <tr>
   <td class="right">384</td>
-  <td class="right">256</td>
+  <td class="right">192</td>
   <td><code>nistp384</code></td>
 </tr>
 <tr>
@@ -190,7 +190,7 @@ main table.sshkeys td  {
 </tr>
 <tr>
   <td class="right">7680</td>
-  <td class="right">256</td>
+  <td class="right">192</td>
 </tr>
 <tr>
   <td class="right">15360</td>
