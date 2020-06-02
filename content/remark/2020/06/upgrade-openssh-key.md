@@ -21,8 +21,8 @@ pageType = "text"
 {{% quote %}}It is now possible to perform chosen-prefix attacks against the SHA-1 algorithm for less than USD$50K. For this reason, we will be disabling the "ssh-rsa" public key signature algorithm by default in a near-future release{{% /quote %}}.
 {{< /fig-quote >}}
 
-と書かれていて[^sha1a]，古い RSA 鍵はそろそろ交換したほうがよさそうである。
-もっともクライアント側に限れば，新規に RSA 鍵を作る分には特に問題ないようだ[^sha1b]。
+と書かれていて[^sha1a]，クライアント側はそろそろ古い RSA 鍵から交換したほうがよさそうである。
+もっとも最近のバージョン[^sha1b] で作った鍵であれば特に問題ないようだ。
 
 [^sha1a]: 実は同様の問題は [GnuPG] でも指摘されていて，半年前にリリースされた 2.2.18 で対応済みである（[GnuPG 2.2.18 リリース： さようなら SHA-1]({{< ref "/release/2019/11/gnupg-2_2_18-is-released.md" >}})）
 [^sha1b]: ちなみに，私は2011年に作った RSA 鍵を使っているが，ハッシュ・アルゴリズムは SHA256 だった。少なくとも10年以内に作った鍵なら問題なさそう？ あとは鍵長かねぇ。
@@ -51,11 +51,11 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
-ハッシュ・アルゴリズムが SHA256 以上になってるか，がポイント。
+ハッシュ・アルゴリズムが SHA256 以上になっているか，がポイント。
 
 でも，まぁ，どうせ鍵を新調するのなら楕円曲線暗号（Elliptic Curve Cryptography; ECC）で構成するのがいいよね。
 ちうわけで，ECC 鍵を作って登録するところまでやってみる。
-ちゃんとメモっておかないと忘れるんだよねぇ（笑）
+ちゃんとメモっておかないと忘れるので（笑）
 
 ## 前提条件
 
@@ -258,16 +258,15 @@ Enter passphrase for ./id_ecdsa:
 Identity added: ./id_ecdsa (alice@example.com)
 ```
 
-この時 `ssh-add` コマンドによるパスフレーズ入力とは別に [GnuPG] の鍵束への登録用のパスフレーズを求められる（確認を含めて2回入力する必要あり）。
+この時 `ssh-add` コマンドによるパスフレーズ入力とは別に [GnuPG] の pinentry によるパスフレーズの設定が行われる（確認を含めて2回入力する必要あり）。
 
-{{< fig-img src="./pinentry.png" link="./pinentry.png" >}}
+{{< fig-img src="./pinentry.png" link="./pinentry.png" title="pinentry" >}}
 
-ここで設定するパスフレーズは `id_ecdsa` ファイルに対するものとは管理が異なるので注意。
+Pinentry で設定するパスフレーズは `id_ecdsa` ファイルに対するものとは管理が異なるので注意。
 というか [GnuPG] の鍵束に登録したら `id_ecdsa` ファイルは不要になる。
 
-登録した [OpenSSH] 秘密鍵の実体は `~/.gnupg/private-keys-v1.d/` ディレクトリにある。
-また `~/.gnupg/sshcontrol` ファイルに  [OpenSSH] 秘密鍵の情報が追記される。
-こんな感じ。
+[OpenSSH] 秘密鍵が登録できたかどうかは `~/.gnupg/sshcontrol` ファイルで確認できる。
+ちゃんと登録できていれば以下のような内容が追記される。
 
 ```text
 # ECDSA key added on: 2020-06-01 14:05:35
@@ -276,7 +275,16 @@ Identity added: ./id_ecdsa (alice@example.com)
 A5353D587000D820669B0BD55A0B4AD6897458DB 0
 ```
 
-`ssh-add -l` コマンドでも登録した鍵を確認できる。
+また `ssh-add -l` コマンドでも登録した鍵を確認できる。
+
+鍵の実体は `~/.gnupg/private-keys-v1.d/` ディレクトリにある。
+上述の鍵の場合は
+
+```
+A5353D587000D820669B0BD55A0B4AD6897458DB.key
+```
+
+というファイル名で格納されているはずである。
 
 ## [OpenSSH] 鍵の登録（サーバ側）
 
