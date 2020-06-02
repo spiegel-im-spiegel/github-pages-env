@@ -13,7 +13,7 @@ pageType = "text"
 
 [Go] 1.14.3 がリリースされた。
 
-- [Subject: Go 1.14.3 and Go 1.13.11 are released - Google group](https://groups.google.com/forum/#!topic/golang-announce/-9KWN-OUSl0)
+- [Go 1.14.3 and Go 1.13.11 are released - Google group](https://groups.google.com/forum/#!topic/golang-announce/-9KWN-OUSl0)
 
 セキュリティ・アップデートはなし。
 
