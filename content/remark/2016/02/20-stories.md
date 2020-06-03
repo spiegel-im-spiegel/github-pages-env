@@ -1,13 +1,11 @@
 +++
-date = "2016-02-20T18:03:21+09:00"
-update = "2018-12-07T07:24:56+09:00"
-description = "X 線天文衛星 ASTRO-H の打上げ成功 / TMT 建設に関する報道 / スマホへ「ブルートフォース攻撃」を要求するアメリカ / C 言語はどう書くべきか / Bitcoin は「群衆の知恵」を前提とする / Amazon Prime 入ろうかと / 「ムラ社会」という名の多文化主義的エポケー"
-draft = false
-tags = ["astronomy", "telescope", "astro-h", "tmt", "security", "privacy", "risk", "programming", "blockchain", "amazon", "politics", "media"]
 title = "週末スペシャル： X 線天文衛星 ASTRO-H の打上げ成功"
+date = "2016-02-20T18:03:21+09:00"
+description = "X 線天文衛星 ASTRO-H の打上げ成功 / TMT 建設に関する報道 / スマホへ「ブルートフォース攻撃」を要求するアメリカ / C 言語はどう書くべきか / Bitcoin は「群衆の知恵」を前提とする / Amazon Prime 入ろうかと / 「ムラ社会」という名の多文化主義的エポケー"
+tags = ["astronomy", "telescope", "astro-h", "tmt", "security", "privacy", "risk", "programming", "blockchain", "amazon", "politics", "media"]
 
 [scripts]
-  mathjax = false
+  mathjax = true
   mermaidjs = false
 +++
 
