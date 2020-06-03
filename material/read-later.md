@@ -29,6 +29,9 @@
     - [Critical 'Sign in with Apple' Bug Could Have Let Attackers Hijack Anyone's Account](https://thehackernews.com/2020/05/sign-in-with-apple-hacking.html)
     - ["Sign in with Apple" Vulnerability - Schneier on Security](https://www.schneier.com/blog/archives/2020/06/sign_in_with_ap.html)
 - [GitLab、セキュリティ演習で社員にフィッシングメールを送信。その内容と、20％が引っ掛かったことを公開 － Publickey](https://www.publickey1.jp/blog/20/gitlab20.html)
+- [Facebookが過去投稿を一括削除できるツールを発表、プライバシー管理を強化  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/03/2020-06-02-how-to-delete-old-facebook-posts-manage-activity/)
+- [Wallpaper image crashing Android phones](https://techxplore.com/news/2020-06-wallpaper-image-android.html)
+    - [Wallpaper that Crashes Android Phones - Schneier on Security](https://www.schneier.com/blog/archives/2020/06/wallpaper_that_.html)
 
 ## 天文関連
 
