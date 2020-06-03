@@ -28,6 +28,7 @@
 - [Apple fixes bug that could have given hackers full access to user accounts | Ars Technica](https://arstechnica.com/information-technology/2020/06/apple-fixes-bug-that-could-have-given-hackers-unauthorized-to-user-accounts/)
     - [Critical 'Sign in with Apple' Bug Could Have Let Attackers Hijack Anyone's Account](https://thehackernews.com/2020/05/sign-in-with-apple-hacking.html)
     - ["Sign in with Apple" Vulnerability - Schneier on Security](https://www.schneier.com/blog/archives/2020/06/sign_in_with_ap.html)
+- [GitLab、セキュリティ演習で社員にフィッシングメールを送信。その内容と、20％が引っ掛かったことを公開 － Publickey](https://www.publickey1.jp/blog/20/gitlab20.html)
 
 ## 天文関連
 
