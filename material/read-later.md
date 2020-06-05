@@ -14,7 +14,7 @@
 ## リリース情報
 
 - [URL rewrites in dev server | Hugo](https://gohugo.io/news/0.72.0-relnotes/) : Hugo 0.72.0
-- [[ANNOUNCE] Git for Windows 2.27.0](https://lore.kernel.org/git/20200601191702.6040-1-johannes.schindelin@gmx.de/T/#u)
+- [[ANNOUNCE] Git v2.27.0](https://lore.kernel.org/git/xmqqzh9mu4my.fsf@gitster.c.googlers.com/T/)
     - [Release Git for Windows 2.27.0 · git-for-windows/git · GitHub](https://github.com/git-for-windows/git/releases/tag/v2.27.0.windows.1)
 - [Announcing Rust 1.44.0 | Rust Blog](https://blog.rust-lang.org/2020/06/04/Rust-1.44.0.html)
 

@@ -68,7 +68,7 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 ### ブックマーク
 
-- [[ANNOUNCE] Git for Windows 2.27.0](https://lore.kernel.org/git/20200601191702.6040-1-johannes.schindelin@gmx.de/T/#u)
+- [[ANNOUNCE] Git v2.27.0](https://lore.kernel.org/git/xmqqzh9mu4my.fsf@gitster.c.googlers.com/T/)
 - [[Announce] Git v2.26.2 and others](https://lore.kernel.org/git/xmqq4kterq5s.fsf@gitster.c.googlers.com/T/)
 - [[Announce] Git v2.26.1 and others](https://lore.kernel.org/git/xmqqy2qy7xn8.fsf@gitster.c.googlers.com/T/)
 - [[ANNOUNCE] Git v2.26.0 - Junio C Hamano](https://lore.kernel.org/git/xmqqa7477u6j.fsf@gitster.c.googlers.com/)
