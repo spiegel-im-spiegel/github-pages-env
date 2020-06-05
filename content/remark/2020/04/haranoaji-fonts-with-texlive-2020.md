@@ -11,8 +11,8 @@ pageType = "text"
   mermaidjs = false
 +++
 
-[原ノ味フォント]は Adobe と Google が共同開発している「源ノ」フォントからの派生フォントで， $\mathrm{\TeX}$/$\mathrm{\LaTeX}$ において日本語を扱いやすいようチューニングされているらしい。
-ちなみに「源ノ」フォントと同じく SIL Open Font License 1.1 で提供されている。
+[原ノ味フォント]は Adobe と Google が共同開発している「源ノ」フォントからの派生で， $\mathrm{\TeX}$/$\mathrm{\LaTeX}$ において日本語を扱いやすいようチューニングされているらしい。
+ちなみに「源ノ」フォントと同じく SIL Open Font License 1.1 の下に提供されている。
 ありがたや。
 
 [TeX Live] 2020 で[原ノ味フォント]が正式に組み込まれ日本語の既定フォントになったようだ。
