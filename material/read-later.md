@@ -3,7 +3,8 @@
 - [PINETAB | PINE64](https://www.pine64.org/pinetab/)
     - [わずか1万円のLinux搭載2-in-1タブレットPC「PineTab」まもなく登場！](https://daily-gadget.net/2020/05/16/post-15100/)
     - [Ubuntu Touch その85 - PinePhoneとPineTab・OpenStoreの再設計など - kledgeb](https://kledgeb.blogspot.com/2020/05/ubuntu-touch-85-pinephonepinetabopensto.html)
-- [OpenSSH、将来のリリースでssh-rsa公開鍵の署名アルゴリズムをデフォルトで無効に - ZDNet Japan](https://japan.zdnet.com/article/35154545/)
+- [Anvil - Streamline Information Gathering. Automate Workflows.](https://www.useanvil.com/)
+    - [PDFベースの共同編集・電子署名サービスのAnvilがグーグル系VCから5億円超を調達  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/04/2020-06-03-paperwork-automation-platform-anvil-raises-5-million-from-googles-gradient-ventures/)
 
 - [Power Tools - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ego-digital.vscode-powertools)
 - [vscode-powertoolsを使って、VSCodeの挙動を自分好みに変える - $shibayu36->blog;](https://blog.shibayu36.org/entry/2019/12/02/193000)
@@ -15,6 +16,7 @@
 - [URL rewrites in dev server | Hugo](https://gohugo.io/news/0.72.0-relnotes/) : Hugo 0.72.0
 - [[ANNOUNCE] Git for Windows 2.27.0](https://lore.kernel.org/git/20200601191702.6040-1-johannes.schindelin@gmx.de/T/#u)
     - [Release Git for Windows 2.27.0 · git-for-windows/git · GitHub](https://github.com/git-for-windows/git/releases/tag/v2.27.0.windows.1)
+- [Announcing Rust 1.44.0 | Rust Blog](https://blog.rust-lang.org/2020/06/04/Rust-1.44.0.html)
 
 ## バベルのインターネット
 
@@ -32,6 +34,13 @@
 - [Facebookが過去投稿を一括削除できるツールを発表、プライバシー管理を強化  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/03/2020-06-02-how-to-delete-old-facebook-posts-manage-activity/)
 - [Wallpaper image crashing Android phones](https://techxplore.com/news/2020-06-wallpaper-image-android.html)
     - [Wallpaper that Crashes Android Phones - Schneier on Security](https://www.schneier.com/blog/archives/2020/06/wallpaper_that_.html)
+- [Googleが「Remove China Apps」をPlay Storeから取り去る  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/03/2020-06-02-remove-china-apps-google-play-store/)
+- [Zoom's Commitment to User Security Depends on Whether you Pay It or Not - Schneier on Security](https://www.schneier.com/blog/archives/2020/06/zooms_commitmen.html)
+    - [Bloomberg - Are you a robot?](https://www.bloomberg.com/tosv2.html?vid=&uuid=3dcb6db0-a6cd-11ea-8a9d-3587c366f127&url=L3RlY2hub2xvZ3k=)
+- [お名前.com Naviの不具合によるCoincheckとbitbankのドメイン名ハイジャックについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/06/04/170423)
+- [VU#636397 - IP-in-IP protocol routes arbitrary traffic by default](https://kb.cert.org/vuls/id/636397)
+    - [PoC-Exploits/cve-2020-10136 at master · CERTCC/PoC-Exploits · GitHub](https://github.com/CERTCC/PoC-Exploits/tree/master/cve-2020-10136)
+    - [IP-in-IPに対応したデバイスが悪用される問題あり、確認と対処を | マイナビニュース](https://news.mynavi.jp/article/20200604-1047869/)
 
 ## 天文関連
 
@@ -41,6 +50,7 @@
 
 ## 知財関連
 
+- [Project Gutenberg Public Domain Library Blocked in Italy For Copyright Infringement * TorrentFreak](https://torrentfreak.com/project-gutenberg-public-domain-library-blocked-in-italy-for-copyright-infringement-200603/)
 
 ## Linux または Ubuntu に関する話題
 
@@ -54,5 +64,10 @@
 - [Swift言語がAWS Lambdaで利用可能に。Swift開発チームが「Swift AWS Lambda Runtime」公開 － Publickey](https://www.publickey1.jp/blog/20/swiftaws_lambdaswiftswift_aws_lambda_runtime.html)
 - [巨大ブラックホールの種になる星たち―大規模シミュレーションが描く新しい形成メカニズム― | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2020/20200602-cfca.html)
 - [Linuxカーネルソースコード、80行制限を100行まで緩和 | マイナビニュース](https://news.mynavi.jp/article/20200602-1047066/)
+- [Visual Studioの新機能、クラウド上のKubernetesクラスタの一部をローカルマシンに引き込んで開発できる「Local Process with Kubernetes」発表 － Publickey](https://www.publickey1.jp/blog/20/visual_studiokuberneteslocal_process_with_kubernetes.html)
+- [VMware、GPUを仮想化する「Bitfusion」、vSphere 7への統合完了を発表 － Publickey](https://www.publickey1.jp/blog/20/vmwaregpubitfusionvsphere_7.html)
+- [Anvil - Streamline Information Gathering. Automate Workflows.](https://www.useanvil.com/)
+    - [PDFベースの共同編集・電子署名サービスのAnvilがグーグル系VCから5億円超を調達  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/04/2020-06-03-paperwork-automation-platform-anvil-raises-5-million-from-googles-gradient-ventures/)
+- [ブログ: 政府とWHOは、小さな米国企業の疑わしいデータに基づいてCOVID-19の方針を変更](https://okuranagaimo.blogspot.com/2020/06/whocovid-19.html)
 
 <!-- eof -->

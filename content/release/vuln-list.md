@@ -61,12 +61,14 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 | Official | Release    |        Ubuntu | Release    |  Delay |
 | --------:| ---------- | -------------:| ---------- | ------:|
+|   2.27.0 | 2020-06-01 | 2.27.0-1~ppa0 | 2020-06-02 | 1 days |
 |   2.26.2 | 2020-04-20 |  2.26.2-0ppa1 | 2020-04-21 | 1 days |
 |   2.26.1 | 2020-04-14 |  2.26.1-0ppa1 | 2020-04-15 | 1 days |
 |   2.26.0 | 2020-03-22 | 2.26.0-1~ppa1 | 2020-03-24 | 2 days |
 
 ### ブックマーク
 
+- [[ANNOUNCE] Git for Windows 2.27.0](https://lore.kernel.org/git/20200601191702.6040-1-johannes.schindelin@gmx.de/T/#u)
 - [[Announce] Git v2.26.2 and others](https://lore.kernel.org/git/xmqq4kterq5s.fsf@gitster.c.googlers.com/T/)
 - [[Announce] Git v2.26.1 and others](https://lore.kernel.org/git/xmqqy2qy7xn8.fsf@gitster.c.googlers.com/T/)
 - [[ANNOUNCE] Git v2.26.0 - Junio C Hamano](https://lore.kernel.org/git/xmqqa7477u6j.fsf@gitster.c.googlers.com/)
@@ -79,13 +81,15 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 | Official | Release    |                       Ubuntu | Release    |   Delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
-|     77.0 | 2020-06-02 |                              |            | ∞ days |
+|   77.0.1 | 2020-06-03 | 77.0.1+build1-0 (USN-4383-1) | 2020-06-04 |   1 day |
+|     77.0 | 2020-06-02 |                      &mdash; | &mdash;    | &mdash; |
 |   76.0.1 | 2020-05-08 | 76.0.1+build1-0 (USN-4353-2) | 2020-05-12 |  4 days |
 |     76.0 | 2020-05-05 |   76.0+build2-0 (USN-4353-1) | 2020-05-07 |  2 days |
 |     75.0 | 2020-04-07 |               (Ubuntu 20.04) | 2020-04-23 | &mdash; |
 
 ### ブックマーク
 
+- [Firefox  77.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/77.0.1/releasenotes/)
 - [Firefox  77.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/77.0/releasenotes/)
 - [Firefox  76.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/76.0.1/releasenotes/)
 - [Firefox  76.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/76.0/releasenotes/)
@@ -99,12 +103,14 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 | Official | Release    |                       Ubuntu | Release    |   Delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
-|   68.8.1 | 2020-05-22 |                              |            | ∞ days |
+|   68.9.0 | 2020-06-03 |                              |            | ∞ days |
+|   68.8.1 | 2020-05-22 |                      &mdash; | &mdash;    | &mdash; |
 |   68.8.0 | 2020-05-05 | 68.8.0+build2-0 (USN-4373-1) | 2020-05-26 | 3 weeks |
 |   68.7.0 | 2020-04-08 |               (Ubuntu 20.04) | 2020-04-23 | &mdash; |
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (68.9.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.9.0/releasenotes/)
 - [Thunderbird — Release Notes (68.8.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.8.1/releasenotes/)
 - [Thunderbird — Release Notes (68.8.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.8.0/releasenotes/)
 - [Thunderbird — Release Notes (68.7.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.7.0/releasenotes/)
