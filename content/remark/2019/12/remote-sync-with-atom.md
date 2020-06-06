@@ -3,7 +3,7 @@ title = "ATOM エディタでリモートのディレクトリ・ファイルを
 date =  "2019-12-31T19:13:34+09:00"
 description = "remote-sync が設定や操作がシンプルなので，これを使うことにした。 "
 image = "/images/attention/kitten.jpg"
-tags = [ "atom", "ssh" ]
+tags = [ "atom", "openssh" ]
 pageType = "text"
 
 [scripts]

@@ -2,7 +2,7 @@
 date = "2016-03-08T14:34:05+09:00"
 description = "SCP にセキュリティ脆弱性が発見されたようだ。"
 draft = false
-tags = ["security", "cryptography", "vulnerability", "windows", "tools", "ssh", "putty"]
+tags = ["security", "cryptography", "vulnerability", "windows", "tools", "openssh", "putty"]
 title = "PuTTY 0.67 リリース（Security Fix）"
 
 [author]

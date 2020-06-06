@@ -3,7 +3,7 @@ date = "2017-12-01T17:48:43+09:00"
 title = "GnuPG for Windows : gpg-agent について"
 description = "今回は gpg-agent について解説する。"
 draft = false
-tags = ["security", "cryptography", "openpgp", "gnupg", "tools", "ssh", "putty"]
+tags = ["security", "cryptography", "openpgp", "gnupg", "tools", "openssh", "putty"]
 image = "/images/attention/openpgp.png"
 
 [scripts]

@@ -3,7 +3,7 @@ title = "Windows 環境で作った GnuPG の鍵束を Ubuntu に移行する"
 date = "2019-04-07T00:01:53+09:00"
 description = "鍵束を Ubuntu 環境にコピーして OpenSSH 連携を確認するところまで。"
 image = "/images/attention/kitten.jpg"
-tags = [ "linux", "ubuntu", "cryptography", "openpgp", "gnupg", "ssh", "openssh", "install" ]
+tags = [ "linux", "ubuntu", "cryptography", "openpgp", "gnupg", "openssh", "install" ]
 pageType = "text"
 
 [scripts]

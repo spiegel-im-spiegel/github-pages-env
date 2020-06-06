@@ -3,7 +3,7 @@ title = "Ubuntu 20.04 にアップグレードする"
 date =  "2020-04-26T16:58:37+09:00"
 description = "よーやく GnuPG/Libgcrypt のバージョンが上がったよ。"
 image = "/images/attention/tools.png"
-tags  = [ "ubuntu", "tools", "install", "openssl", "ssh", "gnupg" ]
+tags  = [ "ubuntu", "tools", "install", "openssl", "openssh", "gnupg" ]
 pageType = "text"
 
 [scripts]

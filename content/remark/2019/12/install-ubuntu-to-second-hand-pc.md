@@ -3,7 +3,7 @@ title = "中古 PC に Ubuntu 環境を導入する"
 date =  "2019-12-01T02:22:24+09:00"
 description = "ついカッとなってやった。反省はしない。"
 image = "/images/attention/kitten.jpg"
-tags = [ "ubuntu", "install", "tools", "gnupg", "ssh", "openssh", "git", "golang", "atom" ]
+tags = [ "ubuntu", "install", "tools", "gnupg", "openssh", "git", "golang", "atom" ]
 pageType = "text"
 
 [scripts]

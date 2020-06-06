@@ -3,7 +3,7 @@ title = "64ビット版 PuTTY を導入する"
 date = "2018-02-24T12:03:11+09:00"
 description = "今回たまたまインストールする機会があったので覚え書きとして残しておく。"
 image = "/images/attention/kitten.jpg"
-tags = ["security", "cryptography", "windows", "tools", "ssh", "putty"]
+tags = ["security", "cryptography", "windows", "tools", "openssh", "putty"]
 
 [author]
   name      = "Spiegel"

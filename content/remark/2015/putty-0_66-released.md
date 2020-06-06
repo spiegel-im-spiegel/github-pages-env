@@ -2,7 +2,7 @@
 date = "2015-11-11T20:28:23+09:00"
 description = "0.65 以下の PuTTY を使っている人は必ず 0.66 にアップデートすること。日本語版もリリースされている。"
 draft = false
-tags = ["security", "cryptography", "vulnerability", "windows", "tools", "ssh", "putty"]
+tags = ["security", "cryptography", "vulnerability", "windows", "tools", "openssh", "putty"]
 title = "PuTTY 0.66 リリース（Security Fix）"
 
 [author]

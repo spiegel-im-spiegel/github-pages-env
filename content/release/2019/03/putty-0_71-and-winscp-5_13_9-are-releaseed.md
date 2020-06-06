@@ -3,7 +3,7 @@ title = "PuTTY 0.71 および WinSCP 5.13.9 がリリースされた【セキュ
 date = "2019-03-22T22:41:00+09:00"
 description = "ただし PuTTY 関しては具体的な攻略方法がなく，単なる不具合として処理されたようだ。"
 image = "/images/attention/tools.png"
-tags  = [ "tools", "putty", "ssh", "scp", "security", "vulnerability" ]
+tags  = [ "tools", "putty", "openssh", "scp", "security", "vulnerability" ]
 pageType = "text"
 
 [scripts]
