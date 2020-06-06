@@ -204,9 +204,11 @@ main table.sshkeys td  {
 この組み合わせのいずれかであれば2031年以降も問題なく使える。
 なお `ecdsa-sk` および `ed25519-sk` は認証デバイスに登録する際に使うらしい（今回は割愛する）。
 
-余談だが楕円曲線 `ed25519` に対応する電子署名アルゴリズムは EdDSA で [RFC 8032] で規定されている。
+余談だが楕円曲線 `ed25519` に対応する電子署名アルゴリズムは EdDSA と呼ばれ [RFC 8032] で規定されている[^ed25519]。
 なんで鍵種別を `eddsa` としなかったのかは知らない。
 紛らわしかったのかな？
+
+[^ed25519]: `ed25519` (edwards25519) は [Curve25519] と等価な楕円曲線で，鍵長も  [Curve25519] と同じく256ビット（セキュリティ強度128ビット）と見積もられている。ちなみに [Curve25519] は ECDH 用の楕円曲線およびそのライブラリで，公有（public domain）のソフトウェアとして公開されている。
 
 ### 楕円曲線と鍵長
 
@@ -339,6 +341,7 @@ $ chamod 600 ~/.ssh/authorized_keys
 [GitHub]: https://github.com/
 [Bitbucket]: https://bitbucket.org/product/
 [GitLab]: https://gitlab.com/
+[Curve25519]: http://cr.yp.to/ecdh.html "Curve25519: high-speed elliptic-curve cryptography"
 
 
 ## 参考図書
