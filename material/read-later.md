@@ -42,6 +42,8 @@
     - [PoC-Exploits/cve-2020-10136 at master · CERTCC/PoC-Exploits · GitHub](https://github.com/CERTCC/PoC-Exploits/tree/master/cve-2020-10136)
     - [IP-in-IPに対応したデバイスが悪用される問題あり、確認と対処を | マイナビニュース](https://news.mynavi.jp/article/20200604-1047869/)
 
+- {{< pdf-file title="CRYPTRECRP-2000-2018 暗号技術評価委員会報告" link="https://www.cryptrec.go.jp/report/cryptrec-rp-2000-2018.pdf" >}}
+
 ## 天文関連
 
 - [宇宙空間でのCrew Dragonの手動操縦に初成功、同じ操縦をシミュレータで誰でも試せる  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/01/2020-05-30-nasa-astronauts-successfully-pilot-spacexs-crew-dragon-spacecraft-manually-for-the-first-time/)

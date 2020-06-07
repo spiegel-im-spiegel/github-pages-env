@@ -1,24 +1,12 @@
 +++
-date = "2017-02-25T12:38:07+09:00"
-update = "2017-10-17T16:44:55+09:00"
 title = "最初の SHA-1 衝突例"
-draft = false
+date = "2017-02-25T12:38:07+09:00"
 tags = ["security", "cryptography", "risk", "hash", "sha-1", "collision"]
 description = "もうみんな SHA-1 とはオサラバしてるよね（笑）"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flickr = "spiegel"
-  instagram = "spiegel_2007"
-  tumblr = ""
-  github = "spiegel-im-spiegel"
-  flattr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  license = "by-sa"
+[scripts]
+  mathjax = true
+  mermaidjs = false
 +++
 
 いやぁ，ついにこの日が来たようです。
@@ -68,88 +56,8 @@ git による悪意のなりすまし等を警戒する必要があるのなら 
 ただし，かつて標準として使われていた MD5 が危殆化とともに廃れていったように，今後 SHA-1 は電子署名以外でも使われなくなると思われる。
 念のため， NIST による現在の SHA アルゴリズムの評価と有効期限を以下に示す。
 
-{{< div-gen >}}
-<figure lang='en'>
-<style>
-main table.nist3 th  {
-  vertical-align:middle;
-  text-align: center;
-}
-main table.nist3 td  {
-  //vertical-align:middle;
-  text-align: center;
-}
-</style>
-<table class="nist3">
-<thead>
-<tr>
-<th>Security <br>Strength</th>
-<th>Digital Signatures and <br>hash-only applications</th>
-<th>HMAC,<br>Key Derivation Functions,<br>Random Number Generation</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td> $\le 8$0</td>
-<td>SHA-1</td>
-<td>&nbsp;</td>
-</tr><tr>
-<td>$112$</td>
-<td>SHA-224, SHA-512/224, SHA3-224</td>
-<td>&nbsp;</td>
-</tr><tr>
-<td>$128$</td>
-<td>SHA-256, SHA-512/256, SHA3-25</td>
-<td>SHA-1</td>
-</tr><tr>
-<td>$192$</td>
-<td>SHA-384, SHA3-384</td>
-<td>SHA-224, SHA-512/224</td>
-</tr><tr>
-<td>$\ge 256$</td>
-<td>SHA-512, SHA3-512</td>
-<td>SHA-256, SHA-512/256,<br> SHA-384,<br> SHA-512, SHA3-512</td>
-</tr>
-</tbody>
-</table>
-<figcaption>Hash functions that can be used to provide the targeted security strengths (via <q><a href='https://doi.org/10.6028/NIST.SP.800-57pt1r4'>SP800-57 Part 1 Revision 4 <sup><i class='far fa-file-pdf'></i></sup></a></q>)</figcaption>
-</figure>
-{{< /div-gen >}}
-
-{{< div-gen >}}
-<figure lang='en'>
-<style>
-main table.nist4 th  {
-  vertical-align:middle;
-  text-align: center;
-}
-main table.nist4 td  {
-  vertical-align:middle;
-  text-align: center;
-}
-</style>
-<table class="nist4">
-<thead>
-<tr>
-<th colspan='2'>Security Strength</th>
-<th>Through<br> 2030</th>
-<th>2031 and<br> Beyond</th>
-</tr>
-</thead>
-<tbody>
-<tr><td rowspan='2'>$\lt 112$</td><td>Applying</td>  <td colspan='2'>Disallowed</td></tr>
-<tr>                              <td>Processing</td><td colspan='2'>Legacy-use</td></tr>
-<tr><td rowspan='2'>$112$</td>    <td>Applying</td>  <td rowspan='2'>Acceptable</td><td>Disallowed</td></tr>
-<tr>                              <td>Processing</td>                               <td>Legacy use</td></tr>
-
-<tr><td>$128$</td>                <td rowspan='3'>Applying/Processing</td><td>Acceptable</td><td>Acceptable</td></tr>
-<tr><td>$192$</td>                                   <td>Acceptable</td><td>Acceptable</td></tr>
-<tr><td>$256$</td>                                   <td>Acceptable</td><td>Acceptable</td></tr>
-</tbody>
-</table>
-<figcaption>Security-strength time frames (via <q><a href='https://doi.org/10.6028/NIST.SP.800-57pt1r4'>SP800-57 Part 1 Revision 4 <sup><i class='far fa-file-pdf'></i></sup></a></q>)</figcaption>
-</figure>
-{{< /div-gen >}}
+{{< security-strengths-for-hash >}} <!-- 要 MathJax -->
+{{< security-strength-time-frames >}} <!-- 要 MathJax -->
 
 ## 参考図書
 

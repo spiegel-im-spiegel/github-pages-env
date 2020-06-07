@@ -5,7 +5,7 @@ tags = ["security", "cryptography", "tools", "openpgp", "gnupg", "games", "ingre
 title = "週末スペシャル： GnuPG 2.1.13 および Libgcrypt 1.7.1 がリリース"
 
 [scripts]
-  mathjax = false
+  mathjax = true
   mermaidjs = false
 +++
 
@@ -159,34 +159,7 @@ Home: ********
 
 [^a]: アカウント情報を含む個人情報漏洩はもはや「あり得べきもの」として事後をふまえた備えが必要。これを「未然防止」という。
 
-<figure>
-<table>
-<thead>
-<tr>
-<th colspan='4'>利用する文字種類数と内訳</th>
-<th colspan='4'>パスワード長</th>
-</tr>
-<tr>
-<th>種類数</th>
-<th>数字</th>
-<th>文字</th>
-<th>シンボル</th>
-<th>4文字</th>
-<th>8文字</th>
-<th>12文字</th>
-<th>16文字</th>
-</tr>
-</thead>
-<tbody>
-<tr><td>10種</td><td>0-9</td><td>なし</td>      <td>なし</td><td>1円未満（$2^{13.3}$）</td><td>1円未満（$2^{26.6}$）</td>  <td>約35円（$2^{39.9}$）</td>     <td>約35万円（$2^{53.2}$）</td></tr>
-<tr><td>36種</td><td>0-9</td><td>a-z</td>       <td>なし</td><td>1円未満（$2^{20.7}$）</td><td>約100円（$2^{41.4}$）</td>  <td>約1.65億円（$2^{62.0}$）</td> <td>約276兆円（$2^{82.7}$）</td></tr>
-<tr><td>62種</td><td>0-9</td><td>a-z<br>A-Z</td><td>なし</td><td>1円未満（$2^{23.8}$）</td><td>約7,500円（$2^{47.6}$）</td><td>約1,120億円（$2^{71.5}$）</td><td>約165京円（$2^{95.3}$）</td></tr>
-<tr><td>94種</td><td>0-9</td><td>a-z<br>A-Z</td><td><code style='font-size:smaller;'>! " # $ %<br>&amp; ' ( ) =<br>~ | - ^ `<br>¥ { @ [<br>+ * ] ; :<br>} &lt; &gt; ? _<br>, . /</code></td>
-                                                             <td>1円未満（$2^{26.2}$）</td><td>約21万円（$2^{52.4}$）</td> <td>約16.5兆円（$2^{78.7}$）</td> <td>約129,000京円（$2^{104.9}$）</td></tr>
-</tbody>
-</table>
-<figcaption>パスワード解読の想定コスト例（<q><a href='https://www.ipa.go.jp/files/000026760.pdf'>情報漏えいを防ぐためのモバイルデバイス等設定マニュアル 解説編 <sup><i class='far fa-file-pdf'></i></sup></a></q> 2.4.2.2項より）</figcaption>
-</figure>
+{{< security-strengths-for-password >}} <!-- 要 MathJax -->
 
 12文字を目安に数字と英字（大文字小文字）を絡めたランダムな文字列にする。
 人間の脳は無意識に規則性を求めてしまうものなので，横着せずパスワード生成ツールを使ったほうがよい。

@@ -5,7 +5,7 @@ tags = ["security", "vulnerability", "cryptography", "openssl"]
 title = "TLS における Diffie-Hellman 鍵交換の脆弱性（再掲載）"
 
 [scripts]
-  mathjax = false
+  mathjax = true
   mermaidjs = false
 +++
 
@@ -54,41 +54,9 @@ FEAK のときとは異なり，特定の実装の脆弱性ではなく TLS プ�
 ちなみに DH 鍵交換アルゴリズムは公開鍵暗号の一種で，お互いに（もちろん第3者にも）秘密情報（秘密鍵）を知られることなく安全にセッション鍵を生成することができる。
 ベースとなるロジックは「離散対数問題」と呼ばれるもので ElGamal や DSA と同系統のロジック。なので，鍵長の管理も ElGamal や DSA と同等のものが要求される。
 
-暗号強度と各暗号方式の鍵長の関係は以下のとおり（単位はすべて bit）
+暗号強度と各暗号方式の鍵長の関係は以下のとおり（単位はすべてビット）
 
-{{< div-gen >}}
-<figure lang="en">
-<style>
-main table.nist th  {
-  vertical-align:middle;
-  text-align: center;
-}
-main table.nist td  {
-  vertical-align:middle;
-  text-align: center;
-}
-</style>
-<table class="nist">
-<thead>
-<tr>
-<th>Security<br>Strength</th>
-<th>Symmetric<br> key<br> algorithms</th>
-<th>FFC<br>(e.g., DSA, D-H)</th>
-<th>IFC<br>(e.g., RSA)</th>
-<th>ECC<br>(e.g., ECDSA)</th>
-</tr>
-</thead>
-<tbody>
-<tr><td>$\le 80$</td><td>2TDEA</td><td>$L=1024$<br>$N=160$</td><td>$k=1024$</td> <td>$f = 160\text{ - }223$</td></tr>
-<tr><td>$112$</td><td>3TDEA</td><td>$L=2048$<br>$N=224$</td> <td>$k=2048$</td> <td>$f = 224\text{ - }255$</td></tr>
-<tr><td>$128$</td><td>AES-128</td><td>$L=3072$<br>$N=256$</td> <td>$k=3072$</td> <td>$f = 256\text{ - }383$</td></tr>
-<tr><td>$192$</td><td>AES-192</td><td>$L=7680$<br>$N=384$</td> <td>$k=7680$</td> <td>$f = 384\text{ - }511$</td></tr>
-<tr><td>$256$</td><td>AES-256</td><td>$L=15360$<br>$N=512$</td><td>$k=15360$</td><td>$f=512+$</td></tr>
-</tbody>
-</table>
-<figcaption>Comparable strengths (via <q><a href='https://doi.org/10.6028/NIST.SP.800-57pt1r4'>SP800-57 Part 1 Revision 4 <sup><i class='far fa-file-pdf'></i></sup></a></q>)</figcaption>
-</figure>
-{{< /div-gen >}}
+{{< comparable-security-strengths >}} <!-- 要 MathJax -->
 
 2030年以降も安全に使える暗号強度は $128\\,\mathrm{bits}$ 以上だと言われている。
 Logjam 攻撃では $L=512\\,\mathrm{bits}$ にダウングレードさせられるが全くお話にならない強度だということが分かるだろう。

@@ -55,78 +55,13 @@ logarithm are broken together, moreover with the same hardware and software.
 
 まぁ，クラウド等を使った安価な分散コンピューティングや実用化されつつある量子コンピュータの台頭により，これから状況は変わっていくだろうけど一応の指標にはなると思う。
 
-ちなみに，セキュリティ強度と鍵長の関係は以下の表の通り（単位は全て bit）。
+ちなみに，セキュリティ強度と鍵長の関係は以下の表の通り（単位は全てビット）。
 
-{{< div-gen >}}
-<figure lang="en">
-<style>
-main table.nist2 th  {
-  vertical-align:middle;
-  text-align: center;
-}
-main table.nist2 td  {
-  vertical-align:middle;
-  text-align: center;
-}
-</style>
-<table class="nist2">
-<thead>
-<tr>
-<th>Security<br>Strength</th>
-<th>Symmetric<br> key<br> algorithms</th>
-<th>FFC<br>(e.g., DSA, D-H)</th>
-<th>IFC<br>(e.g., RSA)</th>
-<th>ECC<br>(e.g., ECDSA)</th>
-</tr>
-</thead>
-<tbody>
-<tr><td> $\le 80$ </td><td>2TDEA</td><td> $L=1024$ <br> $N=160$ </td><td> $k=1024$ </td> <td> $f = 160\text{ - }223$ </td></tr>
-<tr><td> $112$ </td><td>3TDEA</td><td> $L=2048$ <br> $N=224$ </td><td>$k=2048$</td> <td>$f = 224\text{ - }255$</td></tr>
-<tr><td> $128$ </td><td>AES-128</td><td> $L=3072$ <br> $N=256$ </td><td>$k=3072$</td> <td>$f = 256\text{ - }383$</td></tr>
-<tr><td> $192$ </td><td>AES-192</td><td> $L=7680$ <br> $N=384$ </td><td>$k=7680$</td> <td>$f = 384\text{ - }511$</td></tr>
-<tr><td> $256$ </td><td>AES-256</td><td> $L=15360$ <br> $N=512$ </td><td>$k=15360$</td><td>$f=512+$</td></tr>
-</tbody>
-</table>
-<figcaption>Comparable strengths (via <q><a href='https://doi.org/10.6028/NIST.SP.800-57pt1r4'>SP800-57 Part 1 Revision 4 <sup><i class='far fa-file-pdf'></i></sup></a></q>)</figcaption>
-</figure>
-{{< /div-gen >}}
+{{< comparable-security-strengths >}} <!-- 要 MathJax -->
 
 更に各セキュリティ強度の有効期限は以下のとおりだ。
 
-{{< div-gen >}}
-<figure lang='en'>
-<style>
-main table.nist4 th  {
-  vertical-align:middle;
-  text-align: center;
-}
-main table.nist4 td  {
-  vertical-align:middle;
-  text-align: center;
-}
-</style>
-<table class="nist4">
-<thead>
-<tr>
-<th colspan='2'>Security Strength</th>
-<th>Through<br> 2030</th>
-<th>2031 and<br> Beyond</th>
-</tr>
-</thead>
-<tbody>
-<tr><td rowspan='2'>$\lt 112$</td><td>Applying</td>  <td colspan='2'>Disallowed</td></tr>
-<tr>                              <td>Processing</td><td colspan='2'>Legacy-use</td></tr>
-<tr><td rowspan='2'>$112$</td>    <td>Applying</td>  <td rowspan='2'>Acceptable</td><td>Disallowed</td></tr>
-<tr>                              <td>Processing</td>                               <td>Legacy use</td></tr>
-
-<tr><td>$128$</td>                <td rowspan='3'>Applying/Processing</td><td>Acceptable</td><td>Acceptable</td></tr>
-<tr><td>$192$</td>                                   <td>Acceptable</td><td>Acceptable</td></tr>
-<tr><td>$256$</td>                                   <td>Acceptable</td><td>Acceptable</td></tr>
-</tbody>
-</table>
-<figcaption>Security-strength time frames (via <q><a href='https://doi.org/10.6028/NIST.SP.800-57pt1r4'>SP800-57 Part 1 Revision 4 <sup><i class='far fa-file-pdf'></i></sup></a></q>)</figcaption>
-</figure>
-{{< /div-gen >}}
+{{< security-strength-time-frames >}} <!-- 要 MathJax -->
 
 まぁ今どき1,024ビット以下の鍵長で運用している馬鹿者はおらんじゃろうけど，2030年以降を見据えるならそろそろ RSA や ElGamal/DSA 等の古い公開鍵暗号について見直しを始めるべきなんだろうね。
 
