@@ -343,7 +343,6 @@ $ chamod 600 ~/.ssh/authorized_keys
 [GitLab]: https://gitlab.com/
 [Curve25519]: http://cr.yp.to/ecdh.html "Curve25519: high-speed elliptic-curve cryptography"
 
-
 ## 参考図書
 
 {{% review-paapi "4314009071" %}} <!-- 暗号化 プライバシーを救った反乱者たち -->
