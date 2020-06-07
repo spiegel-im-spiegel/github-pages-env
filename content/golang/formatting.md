@@ -228,7 +228,8 @@ fmt.Printf("%#v", planets)
 ## ブックマーク
 
 - [fmt.Formatterを実装して%vや%+vをカスタマイズしたり、%3🍺みたいな書式をつくってみよう #golang - Qiita](https://qiita.com/tenntenn/items/453a09c4c6d7f580d0ab)
-- [[Go] 独自型にfmtパッケージのインターフェースを実装して出力を制御する - My External Storage](https://budougumi0617.github.io/2019/10/12/confirm-print-with-fmt-interfaces/)
+- [独自型にfmtパッケージのインターフェースを実装して出力を制御する - My External Storage](https://budougumi0617.github.io/2019/10/12/confirm-print-with-fmt-interfaces/)
+- [Go: Stringer Command, Efficiency Through Code Generation](https://medium.com/a-journey-with-go/go-stringer-command-efficiency-through-code-generation-df49f97f3954)
 
 [Go]: https://golang.org/ "The Go Programming Language"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
