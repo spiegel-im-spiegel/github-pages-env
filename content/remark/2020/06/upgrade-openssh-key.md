@@ -3,7 +3,7 @@ title = "OpenSSH 鍵をアップグレードする（さようなら SHA-1）"
 date =  "2020-06-01T16:12:32+09:00"
 description = "どうせ鍵を新調するのなら楕円曲線暗号で構成するのがいいよね。"
 image = "/images/attention/kitten.jpg"
-tags = [ "security", "risk", "openssh", "cryptography", "hash", "sha-1", "gnupg", "ecc" ]
+tags = [ "security", "risk", "openssh", "ubuntu", "cryptography", "hash", "sha-1", "gnupg", "ecc" ]
 pageType = "text"
 
 [scripts]
