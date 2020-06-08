@@ -49,20 +49,22 @@ EdDSA は以下の特徴を持っている。
 特に2番目が重要。
 
 これまでの NIST 標準の（ECDSA を含む） DSA は署名の度にランダムな値をひとつ決めないといけないのだが，ここの実装をサボると，最悪の場合，秘密鍵の漏洩に繋がる。
-また，かつて SP 800-90A に載っていた疑似乱数生成器 Dual_EC_DRBG に NSA の関与が疑われる欠陥が発覚し [SP 800-90A を改訂](https://csrc.nist.gov/publications/detail/sp/800-90a/rev-1/final "SP 800-90A Rev. 1, Random Number Generation Using Deterministic RBGs | CSRC")する騒ぎにまで発展したこともある。
+更に言うと，かつて SP 800-90A に載っていた疑似乱数生成器 Dual_EC_DRBG に NSA の関与が疑われる欠陥が発覚し [SP 800-90A を改訂](https://csrc.nist.gov/publications/detail/sp/800-90a/rev-1/final "SP 800-90A Rev. 1, Random Number Generation Using Deterministic RBGs | CSRC")する騒ぎにまで発展したこともある。
 
-このように DSA の具体的な実装について（特に乱数周りで）常に懸念が付きまとっているため，より安全性が高いとされる EdDSA が注目されることとなった。
+このように DSA の具体的な実装について常に懸念が付きまとっているため，より安全性が高いとされる EdDSA が注目されることとなった[^risk1]。
+
+[^risk1]: DSA に対する懸念は，実装に必要な技術要素が多すぎる点にあるかもしれない。如何にシンプルな設計で要件を満たすかってのは安全性を考える上でも重要であるというよい事例になっていると思う。
 
 EdDSA で使える楕円曲線には{{< pdf-file title="かなりのバリエーションがある" link="http://ed25519.cr.yp.to/eddsa-20150704.pdf" >}} のだが， [RFC 8032] に記載されているのは以下の2つである[^cv25519]。
+
+[^cv25519]: edwards25519 は [Curve25519] と双有理同値である。ちなみに [Curve25519] は ECDH 用の楕円曲線およびそのライブラリで，公有（public domain）のソフトウェアとして公開されている。
 
 | 楕円曲線名   | 鍵長（bytes） | 強度（bits） |
 | ------------ | -------------:| ------------:|
 | edwards25519 |            32 |          128 |
 | edwards448   |            57 |          224 |
 
-生成した ECC 鍵を2031年以降も使い続けるにはセキュリティ強度が128ビット以上必要だが，この2つの楕円曲線であれば十分であることが分かる。
-
-[^cv25519]: edwards25519 は [Curve25519] と双有理同値である。ちなみに [Curve25519] は ECDH 用の楕円曲線およびそのライブラリで，公有（public domain）のソフトウェアとして公開されている。
+生成した ECC 鍵を2031年以降も使い続けるにはセキュリティ強度にして128ビット以上必要だが，この2つの楕円曲線であれば十分であることが分かる。
 
 ## NIST 標準としての EdDSA
 
@@ -134,6 +136,7 @@ ECC も FFC のバリエーションであり，これに含まれる。
 
 ## ブックマーク
 
+- [Ed25519: high-speed high-security signatures](http://ed25519.cr.yp.to/)
 - [擬似乱数生成アルゴリズム Dual_EC_DRBG について](https://www.cryptrec.go.jp/topics/cryptrec-er-0001-2013.html)
 
 - [暗号鍵関連の各種変数について]({{< ref "/remark/2017/10/key-parameters.md" >}})

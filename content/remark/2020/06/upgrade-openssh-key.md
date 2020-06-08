@@ -208,7 +208,7 @@ main table.sshkeys td  {
 なんで鍵種別を `eddsa` としなかったのかは知らない。
 紛らわしかったのかな？
 
-[^ed25519]: `ed25519` (edwards25519) は [Curve25519] と等価な楕円曲線で，鍵長も  [Curve25519] と同じく256ビット（セキュリティ強度128ビット）と見積もられている。ちなみに [Curve25519] は ECDH 用の楕円曲線およびそのライブラリで，公有（public domain）のソフトウェアとして公開されている。
+[^ed25519]: `ed25519` (edwards25519) は [Curve25519] と双有理同値な楕円曲線で，鍵長も  [Curve25519] と同じく256ビット（セキュリティ強度128ビット）と見積もられている。ちなみに [Curve25519] は ECDH 用の楕円曲線およびそのライブラリで，公有（public domain）のソフトウェアとして公開されている。
 
 ### 楕円曲線と鍵長
 
@@ -332,6 +332,7 @@ $ chamod 600 ~/.ssh/authorized_keys
 
 - [暗号鍵関連の各種変数について]({{< ref "/remark/2017/10/key-parameters.md" >}})
 - [（何度目かの）さようなら SHA-1]({{< ref "/remark/2020/01/sayonara-sha-1.md" >}})
+- [Edwards-curve Digital Signature Algorithm]({{< ref "/remark/2020/06/eddsa.md" >}})
 
 [OpenSSH]: https://www.openssh.com/
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"

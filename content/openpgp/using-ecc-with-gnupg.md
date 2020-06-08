@@ -24,7 +24,7 @@ tags = [
 ## 手っ取り早く ECC 鍵を作る
 
 手っ取り早く ECC 鍵を作りたいなら `--quick-generate-key` コマンドでアルゴリズムに `future-default` を指定すればよい。
-（以下は有効期限を2年で指定する場合。無期限でいいなら `0` を指定する）
+（以下は有効期限を2年で指定する場合。無期限でいいなら最後の引数に `0` を指定する）
 
 ```text
 $ gpg --quick-gen-key "Alice <alice@example.com>" future-default - 2y
@@ -44,7 +44,7 @@ uid                      Alice <alice@example.com>
 sub   cv25519 2017-12-02 [E]
 ```
 
-作成した鍵を私作の [gpgpdump] [^gpd] で見てみるとこんな感じになっている。
+作成した鍵を拙作の [gpgpdump] [^gpd] で見てみるとこんな感じになっている。
 
 [^gpd]: [gpgpdump] v0.3.4 以降なら多分大丈夫。
 
@@ -216,13 +216,15 @@ Brainpool については [RFC 5639] を参照のこと。
 EdDSA については [RFC 8032] を参照のこと。
 [RFC 4880bis] では Curve25519 (`cv25519`) および Ed25519 (`ed25519`) については "SHOULD implement” となっている。
 
+ちなみに Curve25519 と Ed25519 は双有理同値である。
+
 ## セキュリティ強度と楕円曲線
 
 セキュリティ強度と暗号アルゴリズムと鍵長の関係は以下の表の通り（単位は全てビット）。
 
 {{< comparable-security-strengths >}} <!-- 要 MathJax -->
 
-2030年以降も Acceptable な鍵が要件なら 128bits 以上のセキュリティ強度が必要だが， [GnuPG] で利用できる楕円曲線は全て問題ないことが分かるだろう。
+2031年以降も Acceptable な鍵が要件なら 128bits 以上のセキュリティ強度が必要だが， [GnuPG] で利用できる楕円曲線は全て問題ないことが分かるだろう。
 
 ## 【付録】 対話モードによる ECC 鍵の選択
 
@@ -305,6 +307,7 @@ $ gpg --full-gen-key --expert
 
 - [OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）]({{< ref "/openpgp/algorithms-for-openpgp.md" >}})
 - [GnuPG チートシート（鍵作成から失効まで）]({{< ref "/openpgp/gnupg-cheat-sheet.md" >}})
+- [Edwards-curve Digital Signature Algorithm]({{< ref "/remark/2020/06/eddsa.md" >}})
 
 [OpenPGP]: http://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"

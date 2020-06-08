@@ -194,7 +194,7 @@ ID は [OpenPGP] で定義されるもので “sym 1” のように表記す�
 </tr><tr>
 <td class='right'>22</td>
 <td class="nowrap">EdDSA</td>
-<td><a href="http://link.springer.com/article/10.1007%2Fs13389-012-0027-1">High-speed high-security signatures</a>, <a href="https://tools.ietf.org/html/rfc8032">RFC8032</a></td>
+<td>FIPS PUB 186-5, <a href="https://tools.ietf.org/html/rfc8032">RFC8032</a></td>
 </tr><tr>
 <td class='right'>23</td>
 <td colspan="2">(Reserved for AEDH)</td>
@@ -260,12 +260,12 @@ ID は [OpenPGP] で定義されるもので “pub 1” のように表記す�
 <td class='nowrap'>Ed25519</td>
 <td>EdDSA</td>
 <td class='right'>256</td>
-<td><a href="https://link.springer.com/chapter/10.1007/978-3-642-23951-9_9">High-Speed High-Security Signatures</a>, <a href="https://tools.ietf.org/html/rfc7748">RFC7748</a>, <a href="https://tools.ietf.org/html/rfc8032">RFC8032</a></td>
+<td>FIPS PUB 186-5, <a href="https://tools.ietf.org/html/rfc8032">RFC8032</a></td>
 </tr><tr>
 <td class='nowrap'>Curve25519</td>
 <td>ECDH</td>
 <td class='right'>256</td>
-<td><a href="https://www.iacr.org/cryptodb/archive/2006/PKC/3351/3351.pdf">Curve25519: new Diffie-Hellman speed records<sup><i class='far fa-file-pdf'></i></sup></a>, <a href="https://tools.ietf.org/html/rfc7748">RFC7748</a></td>
+<td><a href="https://tools.ietf.org/html/rfc7748">RFC7748</a></td>
 </tr>
 </tbody>
 </table>
@@ -459,6 +459,7 @@ ID は [OpenPGP] で定義されるもので “comp 1” のように表記す�
     - [OpenPGP に関する話題]({{< ref "/remark/2017/03/topics-on-openpgp.md" >}})
     - [Issuer Fingerprint Signature Subpacket in Next OpenPGP]({{< ref "/openpgp/issuer-fingerprint-signature-subpacket-in-next-openpgp.md" >}})
     - [次期 OpenPGP と AEAD]({{< ref "/remark/2018/01/next-openpgp-with-aead.md" >}})
+- [Edwards-curve Digital Signature Algorithm]({{< ref "/remark/2020/06/eddsa.md" >}})
 
 [gpgpdump]: https://github.com/spiegel-im-spiegel/gpgpdump "spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer"
 [RFC 4880]: https://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
