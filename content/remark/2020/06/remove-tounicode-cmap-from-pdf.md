@@ -164,7 +164,7 @@ PJPUYK+HaranoAjiGothic-Heavy         CID Type 0C       Identity-H       yes yes 
 
 - $\mathrm{up\LaTeX}$ 等で組版したものを `dvipdfmx` で PDF に出力する場合は Adobe-Japan1 フォントであれば ToUnicode CMap の生成・埋め込みはしないので [`pdf-rm-tuc`] は不要
 - PDF ビュア側で Adobe-Japan1-UCS2 等の ToUnicode CMap を持っていない場合は PDF 側の ToUnicode CMap を削除すると日本語のテキスト抽出が上手く行かないらしい。 [Ubuntu] に標準で入ってる [Evince](https://wiki.gnome.org/Apps/Evince) は画面から普通にコピペできたけど，大丈夫ってこと？
-- PDF/A を構成する場合，適合レベルによっては ToUnicode CMap を削除すると拙い場合があるのだが [Adobe-Japan1 フォントについては例外]({{< relref "./pdfa-with-luatex.md" >}})らしい？ [veraPDF] 等の Validator で確認したほうがいいかも
+- PDF/A を構成する場合，適合レベルによっては ToUnicode CMap を削除すると拙い場合があるのだが [Adobe-Japan1 フォントについては例外]({{< relref "./pdfa-with-luatex.md" >}} "LuaLaTeX で PDF/A を構成する")らしい？ [veraPDF] 等の Validator で確認したほうがいいかも
 
 ## ブックマーク
 
