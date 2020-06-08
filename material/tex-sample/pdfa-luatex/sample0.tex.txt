@@ -1,0 +1,22 @@
+\documentclass{ltjsarticle}
+\usepackage[deluxe,nfssonly]{luatexja-preset}
+\renewcommand{\emph}[1]{\textsf{\textgt{#1}}} % 強調をゴシック体と Sans Serif に変更する
+
+\title{\emph{はじめてのLua\TeX-ja}}
+\author{Spiegel}
+\date{2020-06-08}
+
+\begin{document}
+
+\maketitle
+
+\section{はじめてのLua\TeX-ja}
+
+ちゃんとLua\TeX-jaで日本語が出るかな？
+
+\subsection{出たかな？}
+
+長い文章を入力するとちゃんと右端のところで折り返されるかな？
+大丈夫そうな気がするけど．ちょっと不安だけど何事も挑戦だよね．
+
+\end{document}
