@@ -1,9 +1,8 @@
 +++
+title = "LuaTeX-ja に関する覚え書き"
 date = "2015-09-27T01:32:49+09:00"
 description = "LuaTeX では pdfTeX と同等のことができ， DVI ファイルではなく PDF ファイルを直接出力する。なおかつ callback を記述することにより内部処理に割り込みをかけ機能拡張することが可能になっている。LuaTeX-ja はこの機能拡張を使って日本語組版を LuaTeX の上で実現する。"
-draft = false
 tags = ["lua", "tex", "luatex", "japanese"]
-title = "LuaTeX-ja に関する覚え書き"
 
 [scripts]
   mathjax = true
@@ -333,6 +332,7 @@ $max_repeat                  = 5;
 - [源ノ明朝](https://source.typekit.com/source-han-serif/jp/)
 - [TeX Live 2016 の新しい LuaTeX あれこれ - Acetaminophen’s diary](http://acetaminophen.hatenablog.com/entry/2016/04/23/141922)
 - [LuaTeXで使える！便利なLaTeX関連ツール - 0番染色体](http://0-chromosome.hatenablog.jp/entry/2015/08/10/214938)
+- [upLaTeXからLuaTeX-jaに移行するのに必要そうなことをまとめた - Qiita](https://qiita.com/Naughie/items/461d5a3a1cc77394834d)
 
 [源ノ角ゴシック]: https://github.com/adobe-fonts/source-han-sans "adobe-fonts/source-han-sans: Source Han Sans | 思源黑体 | 思源黑體 | 源ノ角ゴシック | 본고딕"
 [源ノ明朝]: https://github.com/adobe-fonts/source-han-serif "adobe-fonts/source-han-serif: Source Han Serif | 思源宋体 | 思源宋體 | 源ノ明朝 | 본명조"

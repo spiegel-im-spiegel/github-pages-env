@@ -131,8 +131,11 @@ $\mathrm{up\LaTeX}$ と同等の出力になっている。
 ## ブックマーク
 
 - [TeX Live 2020 released | There and back again](https://www.preining.info/blog/2020/04/tex-live-2020-released/)
+- [LuaTeXで原ノ味フォントを使う - Qiita](https://qiita.com/trueroad/items/5030c9460da71065a721)
+
 - [TeX 日本語環境で「源ノ」フォントを使ってみた]({{< ref "/remark/2017/10/using-source-han-fonts-by-japanese-tex.md" >}})
 - [LuaTeX-ja に関する覚え書き]({{< ref "/remark/2015/luatex-ja.md" >}})
+- [LuaTeX で生成した PDF から ToUnicode CMap を除去する]({{< ref "/remark/2020/06/remove-tounicode-cmap-from-pdf.md" >}})
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [TeX Live]: http://www.tug.org/texlive/ "TeX Live - TeX Users Group"
