@@ -170,7 +170,9 @@ PDF subtype:    PDF/A-2u:2010
 
 Title, Subject, および Author のメタデータが追加され， PDF version が 1.4 の PDF/A-2u として構成されているのが分かる。
 
-### filecontents 環境で設定可能な XMP メタデータ項目
+### pdfx パッケージで設定可能な XMP メタデータ項目
+
+`filecontents` 環境
 
 ```latex
 \begin{filecontents*}{\jobname.xmpdata}
@@ -178,7 +180,7 @@ Title, Subject, および Author のメタデータが追加され， PDF versio
 \end{filecontents*}
 ```
 
-環境で指定できる主な項目は以下の通り。
+内に記述する XMP メタデータ項目のうち，主なものは以下の通り。
 
 | 項目名       | XMP 要素         | 備考                                |
 | ------------ | ---------------- | ----------------------------------- |
