@@ -90,7 +90,7 @@ $ tlmgr update --self --all
 
 ### 和文フォントの埋め込み
 
-現在のバージョンでは既定で IPAex フォントを埋め込むよう設定されている。
+[TeX Live] 2020 からは既定で[原ノ味フォント]を埋め込むよう設定されている。
 明示的に和文フォントを埋め込む場合は `luatexja-preset` パッケージで書体単位でまとめてフォントを指定できる。
 
 ```tex
@@ -102,6 +102,7 @@ $ tlmgr update --self --all
 - `kozuka-pro`
 - `kozuka-pr6`
 - `kozuka-pr6n`
+- `haranoaji` [^ha1]
 - `hiragino-pro`
 - `hiragino-pron`
 - `morisawa-pro`
@@ -114,6 +115,7 @@ $ tlmgr update --self --all
 - `sourcehan` [^sh1]
 - `noembed` （フォントを埋め込まない）
 
+[^ha1]: 拙文「[TeX Live 2020 で原ノ味フォントを使う]({{< ref "/remark/2020/04/haranoaji-fonts-with-texlive-2020.md" >}})」を参考にどうぞ。
 [^sh1]: [源ノ明朝]および[源ノ角ゴシック]の仕様例として「[TeX 日本語環境で「源ノ」フォントを使ってみた]({{< ref "/remark/2017/10/using-source-han-fonts-by-japanese-tex.md" >}})」を参考にどうぞ。
 
 追加で以下のオプションも使用できる
@@ -137,13 +139,18 @@ $ tlmgr update --self --all
 
 明示的に指定するのであれば `luatex` を指定する[^def1]。
 
+[^def1]: $\mathrm{Lua\TeX}$ 0.95 以降では `luatex.def` ドライバが新設され，ドライバ依存のパッケージではこれを指定すればいいようになった。
+
 ```tex
 \usepackage[luatex]{graphicx,xcolor}
 ```
 
-[^def1]: $\mathrm{Lua\TeX}$ 0.95 以降では `luatex.def` ドライバが新設され，ドライバ依存のパッケージではこれを指定すればいいようになった。
-
 ###  hyperref パッケージ
+
+{{< div-box type="markdown" >}}
+**【2020-06-09 追記】** 拙文「[LuaLaTeX で PDF/A を構成する]({{< ref "/remark/2020/06/pdfa-with-luatex.md" >}})」で `pdfx` パッケージを使って PDA/A を構成するやり方を紹介している。
+むしろ `pdfx` パッケージを使うほうがオススメなのだが，以下の `hyperref` および `hyperxmp` パッケージを使ったやり方は当時の記念として残しておく。
+{{< /div-box >}}
 
 `hyperref` パッケージも同様にドライバ指定なし大丈夫だが，そのままでは PDF の目次等が文字化けしてしまうので以下のパラメータを指定する。
 
@@ -241,11 +248,13 @@ $\mathrm{bib\TeX}$, $\mathrm{bib\LaTeX}$ は $\mathrm{p\TeX}$, $\mathrm{up\TeX}$
 
 ### LuaLaTeX 用 .latexmkrc ファイルの準備
 
-```perl
+ぼくがかんがえたさいきょうの `.latexmkrc` ふぁいる
+
+```perl {hl_lines=[19]}
 #!/usr/bin/env perl
 
 # LaTeX commands
-$pdflatex            = 'lualatex %O -synctex=1 %S';
+$pdflualatex         = 'lualatex %O -synctex=1 %S';
 $latex               = 'uplatex %O -synctex=1 %S';
 $latex_silent_switch = '-interaction=batchmode -c-style-errors';
 
@@ -256,59 +265,46 @@ $makeindex = 'mendex %O -o %D %S';
 
 # Device Driver
 $dvipdf = 'dvipdfmx %O -z9 -V 7 -o %D %S';
-$dvips = 'dvips %O -z -f %S | convbkmk -u > %D';
+$dvips  = 'dvips %O -z -f %S | convbkmk -u > %D';
 $ps2pdf = 'ps2pdf14 -dPDFA -dPDFACompatibilityPolicy=1 -sProcessColorModel=DeviceCMYK %O %S %D';
 
 # Typeset mode (generate a PDF)
-$pdf_mode = 1; # 0: do not generate a pdf , 1: using $pdflatex , 2: using $ps2pdf , 3: using $dvipdf
+$pdf_mode = 4; # 0: do not generate a pdf , 1: using $pdflatex , 2: using $ps2pdf , 3: using $dvipdf , 4: using $pdflualatex
 
 # Other configuration
 $pvc_view_file_via_temporary = 0;
-$max_repeat                  = 5;
+$max_repeat = 5;
+$clean_ext = "xmpdata";
 ```
 
 ###  最終形
 
+`pdfx` パッケージを使った最終形のコードを組んでみた。
+
 ```tex
+% XMPメタデータ
+\RequirePackage{filecontents}
+\begin{filecontents*}{\jobname.xmpdata}
+  \Title{はじめてのLuaTeX-ja}
+  \Author{Spiegel}
+  \Language{ja-JP}
+  \Keywords{LuaTeX-ja\sep PDF/A}
+  \Subject{ちゃんとLuaTeX-jaで日本語が出るかな？}
+  \Date{2020-06-08}
+  \Copyright{Licensed under CC-BY}
+  \CopyrightURL{https://creativecommons.org/licenses/by/4.0/}
+\end{filecontents*}
+
 \documentclass{ltjsarticle}
-\usepackage[no-math,sourcehan]{luatexja-preset} %和文フォントに Source Han フォントを指定する
-
-%% Hyperref 設定
-\usepackage{hyperxmp} % XMP support with hyperref
-\usepackage[pdfencoding=auto,pdfa]{hyperref} % PDF/A compatible
-
-%% その他
+\usepackage[deluxe,nfssonly]{luatexja-preset} % TeX Live 2020 以降なら原の味フォントが既定
 \renewcommand{\emph}[1]{\textsf{\textgt{#1}}} % 強調をゴシック体と Sans Serif に変更する
 
-%% 文書情報
+\usepackage[a-2u]{pdfx}   % PDF/A-2u を構成
+\pdfvariable omitcidset=1 % LuaTeX で PDF/A-2 を作る際に必要
+
 \title{\emph{はじめてのLua\TeX-ja}}
 \author{Spiegel}
-\date{\today}
-
-\hypersetup{% hyperref options (and metadata)
-    pdflang={jp},
-    pdftitle={はじめての LuaTeX-ja},
-    pdfsubject={ちゃんとLuaTeX-jaで日本語が出るかな？},
-    pdfauthor={Spiegel},
-    pdfkeywords={LuaTeX-ja, PDF/A},
-    pdfcopyright={Written by Spiegel on 2014,2017, and licensed under CC-BY.},
-    pdflicenseurl={https://creativecommons.org/licenses/by/4.0/},
-    pdfcontacturl={https://baldanders.info/},
-    pdfcontactcity={Hiroshima},
-    pdfcontactcountry={Japan},
-    pdfcontactregion={JA},
-    pdfcaptionwriter={Spiegel},
-    baseurl={https://text.baldanders.info/remark/2015/luatex-ja/},
-    draft=false,
-    bookmarks=true,
-    bookmarksnumbered=true,
-    bookmarksopen=false,
-    colorlinks=true,
-    linkcolor=red,
-    citecolor=green,
-    filecolor=magenta,
-    urlcolor=cyan
-}
+\date{2020-06-08}
 
 \begin{document}
 
@@ -337,6 +333,7 @@ $max_repeat                  = 5;
 [源ノ角ゴシック]: https://github.com/adobe-fonts/source-han-sans "adobe-fonts/source-han-sans: Source Han Sans | 思源黑体 | 思源黑體 | 源ノ角ゴシック | 본고딕"
 [源ノ明朝]: https://github.com/adobe-fonts/source-han-serif "adobe-fonts/source-han-serif: Source Han Serif | 思源宋体 | 思源宋體 | 源ノ明朝 | 본명조"
 [TeX Live]: http://www.tug.org/texlive/ "TeX Live - TeX Users Group"
+[原ノ味フォント]: https://github.com/trueroad/HaranoAjiFonts "trueroad/HaranoAjiFonts: 原ノ味フォント"
 
 ## 参考図書
 

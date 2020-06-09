@@ -1,8 +1,8 @@
 +++
 title = "クラウドで LuaLaTeX-ja"
-date =  "2017-10-02T22:13:48+09:00"
+date = "2017-10-02T22:13:48+09:00"
 description = "ところで『LaTeX2ε美文書作成入門』を改めて眺めていたが， Cloud LaTeX というサービスが有るらしい。pLaTeX, upLaTeX だけじゃなく LuaLaTeX にも対応しているようだ。"
-tags        = [ "tex", "luatex", "cloud", "pdf", "japanese" ]
+tags = [ "tex", "luatex", "cloud", "pdf", "japanese" ]
 
 [scripts]
   mathjax = true
@@ -15,6 +15,11 @@ tags        = [ "tex", "luatex", "cloud", "pdf", "japanese" ]
 - $\mathrm{Lua\TeX}$-ja を使い PDF/A フォーマットで出力する。
 
 である。
+
+{{< div-box type="markdown" >}}
+**【2020-06-09 追記】** 拙文「[LuaLaTeX で PDF/A を構成する]({{< ref "/remark/2020/06/pdfa-with-luatex.md" >}})」で `pdfx` パッケージを使って PDA/A を構成するやり方を紹介している。
+むしろ `pdfx` パッケージを使うほうがオススメなのだが，以降の内容は当時の記念として残しておく。
+{{< /div-box >}}
 
 $\mathrm{Lua\TeX}$ は2016年にバージョン1.0がリリースされたらしい。
 めでたい！ [TeX Live] 2017 に収録されている $\mathrm{Lua\TeX}$ のバージョンは以下の通り。

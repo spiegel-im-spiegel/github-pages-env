@@ -193,20 +193,36 @@ Title, Subject, および Author のメタデータが追加され， PDF versio
 
 著作権情報を載せる場合には以下の項目も使える。
 
-| 項目名            | XMP 要素                 | 備考                              |
-| ----------------- | ------------------------ | --------------------------------- |
-| `\Copyright`      | `dc:rights`              | 利用規約等                        |
-| `\CopyrightURL`   | `xmpRights:WebStatement` |                                   |
-| `\Copyrighted`    | `xmpRights:Marked`       | 公有の場合は `False` をセットする |
-| `\Owner`          | `xmpRights:Owner`        | `\sep` で複数指定可能             |
-| `\CertificateURL` | `xmpRights:Certificate`  |                                   |
+| 項目名            | XMP 要素                 | 備考                                          |
+| ----------------- | ------------------------ | --------------------------------------------- |
+| `\Copyright`      | `dc:rights`              | 利用規約等                                    |
+| `\CopyrightURL`   | `xmpRights:WebStatement` |                                               |
+| `\Copyrighted`    | `xmpRights:Marked`       | 公有の場合は `False` をセットする             |
+| `\Owner`          | `xmpRights:Owner`        | 著作権者が別にいる場合，`\sep` で複数指定可能 |
+| `\CertificateURL` | `xmpRights:Certificate`  |                                               |
+| `\Date`           | `dc:date`                | `YYYY-MM-DD` または `YYYY-MM`                 |
+| `\Relation`       | `dc:relation`            |                                               |
+| `\URLlink`        | `dc:identifier`          |                                               |
 
 その他，設定可能な項目については [`pdfx` パッケージのドキュメント](https://www.ctan.org/pkg/pdfx)を参照のこと。
 
 なお `filecontents` 環境の内容は `*.xmpdata` ファイルに吐き出されるが，既にファイルがある場合は上書き保存されないため，メタデータを変更したらこのファイルを削除してから再処理する必要がある。
-また，実際に PDF ファイルに埋め込まれる XMP メタデータの内容は `pdfa.xmpi` に出力されているので参考になると思う。
+もし `.latexmkrc` ファイルでビルドの制御を行っているなら
 
-更に生成済みの PDF に対しては
+```perl
+$clean_ext = "xmpdata";
+```
+
+の記述を追加することで
+
+```text
+$ latexmk -c
+```
+
+コマンドで，他の一時ファイルと共に `*.xmpdata` ファイルも削除してくれる。
+
+実際に PDF ファイルに埋め込まれる XMP メタデータの内容は `pdfa.xmpi` に出力されているので参考になると思う。
+また，すでに生成済みの PDF に対しては
 
 ```text
 $ pdfinfo -meta sample.pdf
