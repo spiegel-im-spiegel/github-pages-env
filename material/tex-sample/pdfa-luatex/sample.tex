@@ -1,12 +1,14 @@
 % XMPメタデータ
+\def\DocTitle{はじめてのLua\TeX-ja}
+\def\DocAuthorA{Spiegel}
+\def\DocAuthorB{Hoge}
 \RequirePackage{filecontents}
 \begin{filecontents*}{\jobname.xmpdata}
-  \Title{はじめてのLuaTeX-ja}
-  \Author{Spiegel\sep Hoge}
+  \Title{\DocTitle}
+  \Author{\DocAuthorA\sep\DocAuthorB}
   \Language{ja-JP\sep en}
   \Keywords{LuaTeX\sep PDF}
   \Subject{ちゃんとLuaTeX-jaで日本語が出るかな？}
-  \Owner{Spiegel\sep Hoge}
   \Date{2020-06-08}
   \Copyright{Licensed under CC-BY}
   \CopyrightURL{https://creativecommons.org/licenses/by/4.0/}
@@ -19,8 +21,8 @@
 \usepackage[a-2u]{pdfx}   % PDF/A-2u を構成
 \pdfvariable omitcidset=1 % LuaTeX で PDF/A-2 を作る際に必要
 
-\title{\emph{はじめてのLua\TeX-ja}}
-\author{Spiegel}
+\title{\emph{\DocTitle}}
+\author{\DocAuthorA\and\DocAuthorB}
 \date{2020-06-08}
 
 \begin{document}
