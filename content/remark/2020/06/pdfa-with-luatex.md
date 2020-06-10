@@ -347,6 +347,11 @@ PDF subtype:    PDF/A-2u:2010
 
 よーし，うむうむ，よーし。
 
+## ブックマーク
+
+- [PDF/Aとはなにか | アンテナハウス PDF資料室](https://www.antenna.co.jp/pdf/reference/PDFA.htm)
+- [PDF/A - Wikipedia](https://ja.wikipedia.org/wiki/PDF/A)
+
 [TeX Live]: http://www.tug.org/texlive/ "TeX Live - TeX Users Group"
 [Poppler]: https://poppler.freedesktop.org/
 [原ノ味フォント]: https://github.com/trueroad/HaranoAjiFonts "trueroad/HaranoAjiFonts: 原ノ味フォント"
