@@ -124,7 +124,7 @@ title = "Creative Commons Licenses"
     <td class='left'>表示-非営利-継承</td>
 </tr>
 <tr>
-    <th class='left fa-2x'>{{< cc-syms "nd" >}}</th>
+    <th class='left fa-2x'>{{< cc-syms "by" "nd" >}}</th>
     <td class='left'>表示-改変禁止</td>
 </tr>
 <tr>
