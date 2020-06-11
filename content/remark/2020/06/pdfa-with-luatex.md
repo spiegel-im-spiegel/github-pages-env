@@ -254,7 +254,7 @@ $ pdfinfo -meta sample.pdf
 
 レベルUの要件として PDF に ToUnicode CMap が埋め込まれている必要があるが，[原ノ味フォント]のような Adobe-Japan1 フォントについては例外のようだ。
 
-試しに [`pdf-rm-tuc`] コマンドで日本語フォントの ToUnicode CMap を削除してみる[^prt1]。
+試しに [`pdf-rm-tuc`] コマンドで[原ノ味フォント]の ToUnicode CMap を削除してみる[^prt1]。
 
 [^prt1]: [`pdf-rm-tuc`] コマンドの導入については拙文「[LuaTeX で生成した PDF から ToUnicode CMap を除去する]({{< ref "/remark/2020/06/remove-tounicode-cmap-from-pdf.md" >}})」を参考にどうぞ。
 
@@ -305,7 +305,7 @@ PDF subtype:    PDF/A-2u:2010
     Conformance:   Level U, Unicode support
 ```
 
-のように PDF/A-2u を維持しつつ日本語の ToUnicode CMap を削除することができた。
+のように PDF/A-2u を維持しつつ[原ノ味フォント]の ToUnicode CMap を削除することができた。
 念のため，この PDF ファイルを [veraPDF] で検査してみたが “PDF/A-2U validation profile” でちゃんとパスしたので本当に問題ないのだろう。
 
 さらに [`pdf-rm-tuc`] コマンドに `--linearize` および `--object-streams=generate` オプションを付けて実行すると
