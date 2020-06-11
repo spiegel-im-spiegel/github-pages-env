@@ -63,8 +63,11 @@ $ dvipdfmx -z9 -p jisb5 rireki.dvi
 と書き換えて `lualatex` コマンドを叩いてみたんだけど，途中でメモリ不足？ でコケてしまった。
 うーん。
 
-$\mathrm{\LaTeX}$ 環境なんか用意できねーよ，って方は [Cloud LaTeX](https://cloudlatex.io/ "Cloud LaTeX | Build your own LaTeX environment, in seconds") を利用する手もある。
+{{< div-box type="markdown" >}}
+**【2020-06-11 追記】** $\mathrm{Lua\LaTeX}$ でも[処理できた]({{< ref "/remark/2020/06/resume-with-lualatex.md" >}})！
+{{< /div-box >}}
 
+$\mathrm{\LaTeX}$ 環境なんか用意できねーよ，って方は [Cloud LaTeX](https://cloudlatex.io/ "Cloud LaTeX | Build your own LaTeX environment, in seconds") を利用する手もある。
 
 履歴書を $\mathrm{\LaTeX}$ で書くことのメリットは，もちろん出力が綺麗なこともあるけど，入力テキストが構造化されているためデータベースとして機能し得ることなのよ。
 そういう意味じゃ[宮本友介](http://www.dma.jim.osaka-u.ac.jp/view?u=2103 "研究者詳細 - 宮本 友介")さん作のクラスファイルのほうが（データベースとして）よくできてたんだけど今回のスタイルでも十分つかえる。
