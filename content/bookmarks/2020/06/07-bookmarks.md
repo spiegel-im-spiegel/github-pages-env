@@ -37,6 +37,7 @@ pageType = "text"
 - [Zoom's Commitment to User Security Depends on Whether you Pay It or Not - Schneier on Security](https://www.schneier.com/blog/archives/2020/06/zooms_commitmen.html)
     - [Bloomberg - Are you a robot?](https://www.bloomberg.com/tosv2.html?vid=&uuid=3dcb6db0-a6cd-11ea-8a9d-3587c366f127&url=L3RlY2hub2xvZ3k=)
 - [お名前.com Naviの不具合によるCoincheckとbitbankのドメイン名ハイジャックについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/06/04/170423)
+    - [セキュリティインシデントの報告書で信頼を高める——コインチェックの対応に学べ (1/2) - ITmedia エンタープライズ](https://www.itmedia.co.jp/enterprise/articles/2006/09/news045.html)
 - [VU#636397 - IP-in-IP protocol routes arbitrary traffic by default](https://kb.cert.org/vuls/id/636397)
     - [PoC-Exploits/cve-2020-10136 at master · CERTCC/PoC-Exploits · GitHub](https://github.com/CERTCC/PoC-Exploits/tree/master/cve-2020-10136)
     - [IP-in-IPに対応したデバイスが悪用される問題あり、確認と対処を | マイナビニュース](https://news.mynavi.jp/article/20200604-1047869/)

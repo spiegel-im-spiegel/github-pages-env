@@ -242,6 +242,7 @@ image = "/images/attention/go-logo_blue.png"
     - [Golang の文字列内で変数を展開する方法（各種） - Qiita](https://qiita.com/KEINOS/items/baef1be88f15515026ec)
 - [Big Sky :: Go で大文字小文字無視の文字列比較ベンチマーク](https://mattn.kaoriya.net/software/lang/go/20190806152526.htm)
 - [Go の strings.Index の内部実装と Rabin-Karp アルゴリズム - Qiita](https://qiita.com/po3rin/items/07d51249629390a6201a)
+- [Go: String & Conversion Optimization - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-string-conversion-optimization-767b019b75ef)
 
 ### 配列と [slice]
 

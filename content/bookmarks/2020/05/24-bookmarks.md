@@ -16,6 +16,7 @@ pageType = "text"
 - [Markdown Render Hooks for Headings | Hugo](https://gohugo.io/news/0.71.0-relnotes/) : Hugo 0.71.0
 - [Release 4.0.0 · hakimel/reveal.js · GitHub](https://github.com/hakimel/reveal.js/releases/tag/4.0.0)
 - [LibreOffice 6.4.4 available for download - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2020/05/21/libreoffice-644/)
+    - [「LibreOffice 6.4.4」で2件のセキュリティ修正 ～最新版へのアップデートを - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1257659.html)
 
 ## セキュリティ＆プライバシー関連
 

@@ -10,6 +10,8 @@
 - [vscode-powertoolsを使って、VSCodeの挙動を自分好みに変える - $shibayu36->blog;](https://blog.shibayu36.org/entry/2019/12/02/193000)
 - [Visual Studio Code API コマンド編 -vscode.commands-](https://clickan.click/vscode-command/)
 
+- [Arafatk/glot: Glot is a plotting library for Golang built on top of gnuplot.](https://github.com/arafatk/glot)
+- [wcharczuk/go-chart: go chart is a basic charting library in native golang.](https://github.com/wcharczuk/go-chart)
 
 ## リリース情報
 
