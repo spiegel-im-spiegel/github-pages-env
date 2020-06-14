@@ -24,6 +24,9 @@
 
 ## 天文関連
 
+- [2020年6月12日ニュース「小惑星『りゅうぐう』に極めて多くの炭素 はやぶさ2が観測」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2020/06/20200612_01.html)
+- [［特設ページ］部分日食（2020年6月21日） | 国立天文台(NAOJ)](https://www.nao.ac.jp/notice/20200621-partial-eclipse.html)
+- [New Horizons Conducts the First Interstellar Parallax Experiment | NASA](https://www.nasa.gov/feature/nasa-s-new-horizons-conducts-the-first-interstellar-parallax-experiment/)
 
 ## 知財関連
 
@@ -33,5 +36,6 @@
 
 ## その他
 
+- [プログラミング言語「Dart」が“null安全”に ～テクニカルプレビュー版がリリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1258690.html)
 
 <!-- eof -->

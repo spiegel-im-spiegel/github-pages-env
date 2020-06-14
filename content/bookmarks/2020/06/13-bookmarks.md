@@ -31,6 +31,7 @@ pageType = "text"
 - [Plundering of crypto keys from ultrasecure SGX sends Intel scrambling again | Ars Technica](https://arstechnica.com/information-technology/2020/06/new-exploits-plunder-crypto-keys-and-more-from-intels-ultrasecure-sgx/)
     - [Another Intel Speculative Execution Vulnerability - Schneier on Security](https://www.schneier.com/blog/archives/2020/06/another_intel_s.html)
 - [Zoom、人権団体のアカウントを一時停止--天安門事件の会議開催で - CNET Japan](https://japan.cnet.com/article/35155203/)
+    - [Zoomが中国政府の要請で人権活動家のアカウントを一時停止したことを認める  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/13/2020-06-11-zoom-admits-to-shutting-down-activist-accounts-at-the-request-of-the-chinese-government/)
 - [英国に経済的、セキュリティ上の効果をもたらす、コンピュータ不正使用法の改正 - F-Secure](https://blog.f-secure.com/ja/reforming-the-uks-computer-misuse-act-has-economic-security-benefits-for-the-nation/)
 - [米国NISTが定めるIoT機器製造者向けセキュリティ指針と医療機器の関係性 (1/3) - MONOist（モノイスト）](https://monoist.atmarkit.co.jp/mn/articles/2006/12/news027.html)
 
