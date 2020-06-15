@@ -12229,5 +12229,46 @@
       false
     ],
     "Description": "永遠の夏休み（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07V2Y6B2P",
+      "Title": "日食グラス(太陽メガネ) 四個セット CE安全規格認証 日食レンズ",
+      "URL": "https://www.amazon.co.jp/dp/B07V2Y6B2P?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41GlezPeGnL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "おもちゃ＆ホビー",
+      "Publisher": "フュージョンマーケティング",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07V2Y6B2P"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4582397347006"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-06-15",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "日食グラスって Amazon で買えるんだな。"
   }
 ]
