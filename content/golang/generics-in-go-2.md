@@ -41,7 +41,7 @@ tags = [ "golang", "language", "programming", "generics", "type", "contract" ]
 
 具体例として2つの値のうち大きい方を返す関数を考えてみる。
 
-{{< highlight go "hl_lines=5-10" >}}
+```go {hl_lines=["5-10"]}
 package main
 
 import "fmt"
@@ -60,11 +60,11 @@ func main() {
     //Output
     //max(1, 2) = 2
 }
-{{< /highlight >}}
+```
 
 この関数 `max()` は int 型で記述しているが byte 型や float32/float64 型でも関数の中身は全く同じコードになる。
 
-{{< highlight go "hl_lines=5-10" >}}
+```go {hl_lines=["5-10"]}
 package main
 
 import "fmt"
@@ -83,7 +83,7 @@ func main() {
     //Output
     //max(1.1, 1.2) = 1.2
 }
-{{< /highlight >}}
+```
 
 ならば，最初から汎化した型で単一のコード記述すれば型ごとに複数のコードを量産しなくてもいんじゃね？ という発想になる[^oaoo1]。
 これが総称型の原点である。
@@ -124,7 +124,7 @@ public static <T> T max(T x, T y) {
 
 例えば先程の `max()` 関数であれば以下のように記述できる。
 
-{{< highlight go "hl_lines=5" >}}
+```go {hl_lines=[5]}
 package main
 
 import "fmt"
@@ -143,7 +143,7 @@ func main() {
     //Output
     //max(1, 2) = 2
 }
-{{< /highlight >}}
+```
 
 
 `(type T)` の部分が型パラメータで，これによって総称型を定義している。
@@ -204,7 +204,7 @@ public static <T extends Comparable<? super T>> T max(T x, T y) {
 型コントラクトでは contract キーワードおよびそれを使った構文を追加する。
 具体的には以下のようなコードになる。
 
-{{< highlight go "hl_lines=1-3 5" >}}
+```go {hl_lines=["1-3",5]}
 contract comparable(t T) {
     t < t
 }
@@ -215,13 +215,12 @@ func max(type T comparable)(x, y T) T {
     }
     return x
 }
-{{< /highlight >}}
+```
 
 なお `comparable` の型引数を明示する場合は
 
 ```go
 func max(type T comparable(T))(x, y T) T { ... }
-
 ```
 
 と書く。
@@ -233,7 +232,7 @@ func max(type T comparable(T))(x, y T) T { ... }
 型コントラクトは型コントラクトに埋め込むことができる。
 例えばこんな感じ。
 
-{{< highlight go "hl_lines=5" >}}
+```go {hl_lines=[5]}
 contract equalable(t T) {
     t == t
 }
@@ -241,7 +240,7 @@ contract comparable(t T) {
     equalable(T)
     t < t
 }
-{{< /highlight >}}
+```
 
 これで `comparable` は `==` 演算子と `<` 演算子が使えることを要求していることになる。
 
@@ -274,6 +273,7 @@ contract readable(r T) {
 
 - [Go 言語における「オブジェクト」]({{< relref "object-oriented-programming.md" >}})
 - [きみは Generics がとくいなフレンズなんだね，または「制約は構造を生む」]({{< ref "/remark/2017/03/generics-vs-duck-typing.md" >}})
+- [次期 Go 言語で導入される総称型について予習する（その2）]({{< relref "./generics-in-go-2-update.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`reflect`]: https://golang.org/pkg/reflect/ "reflect - The Go Programming Language"
