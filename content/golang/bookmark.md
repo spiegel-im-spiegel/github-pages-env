@@ -122,9 +122,10 @@ image = "/images/attention/go-logo_blue.png"
 - [Go1.14のcontextは何が変わるのか - Qiita](https://qiita.com/tutuz/items/963a6118cec63a4cd2f3)
 - [What's new Go 1.14?](https://talks.godoc.org/github.com/qt-luigi/talks/2020/whats-new-go-114.slide)
 
-### Go 1.15 Proposals
+### Go 1.15 Beta
 
 - [Proposals for Go 1.15 - The Go Blog](https://blog.golang.org/go1.15-proposals)
+- [Go 1.15 Release Notes - The Go Programming Language](https://tip.golang.org/doc/go1.15) : for beta version
 
 ### Go 2 Draft
 
