@@ -138,11 +138,13 @@ image = "/images/attention/go-logo_blue.png"
     - [Contracts — Draft Design](https://go.googlesource.com/proposal/+/master/design/go2draft-contracts.md)
 - [Go 2のgenerics/contract簡易まとめ](https://qiita.com/lufia/items/242d25e8c93d88e22a2e)
 - [Go 2, here we come! - The Go Blog](https://blog.golang.org/go2-here-we-come)
+- [The Next Step for Generics - The Go Blog](https://blog.golang.org/generics-next-step)
 
 ### Go Cloud Development Kit
 
 - [What's new in the Go Cloud Development Kit - The Go Blog](https://blog.golang.org/gcdk-whats-new-in-march-2019)
 - [The New Go Developer Network - The Go Blog](https://blog.golang.org/go-developer-network)
+- [Pkg.go.dev is open source! - The Go Blog](https://blog.golang.org/pkgsite)
 
 ## 言語仕様および標準パッケージに関すること
 
