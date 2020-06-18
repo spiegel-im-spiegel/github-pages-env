@@ -55,6 +55,7 @@
 ## 知財関連
 
 - [インターネットアーカイブが無料の電子書籍プログラムを前倒しで終了、出版社からの訴訟を受け  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/14/2020-06-12-internet-archive-ends-free-e-book-program-following-publisher-suit/)
+- [ジョン・クリーズ『フォルティ・タワーズ』の（一時的な）取り下げにポリコレの行き過ぎを憂う - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20200618/fawlty-towers-withdrawn)
 
 ## Linux または Ubuntu に関する話題
 
@@ -78,7 +79,6 @@
 - [Makuake｜若手蔵人達の挑戦！幻のきょうかい8号酵母を使用した日本酒『eight knot』｜マクアケ - クラウドファンディング](https://www.makuake.com/project/eight-knot/)
 - [「パケットの設計から見るQUIC」の訂正 - あどけない話](https://kazu-yamamoto.hatenablog.jp/entry/2020/06/17/121339)
 - [少しだけお手伝いした矢吹太朗『Webのしくみ Webをいかすための12の道具』（サイエンス社）が来月刊行される - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20200618/web-no-shikumi)
-- [ジョン・クリーズ『フォルティ・タワーズ』の（一時的な）取り下げにポリコレの行き過ぎを憂う - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20200618/fawlty-towers-withdrawn)
 - [中国のゲイ専門デートアプリ「Blued」がNASDAQにIPO申請  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/18/2020-06-17-blued-ipo/)
 - [Kubernetesを自動車に載せる、デンソーが「Misaki」を発表。年内にもオープンソースとして公開 － Publickey](https://www.publickey1.jp/blog/20/kubernetesmisaki.html)
 
