@@ -38,6 +38,7 @@ pageType = "text"
 ## 天文関連
 
 - [ISAS、公募型小型4号機にSolar-C（EUVST）を選定 | 宇宙科学研究所](http://www.isas.jaxa.jp/topics/002369.html)
+    - [日本の次期太陽観測衛星「Solar-C_EUVST」開発へ、2020年代中頃打ち上げ | マイナビニュース](https://news.mynavi.jp/article/20200617-1058349/)
 - [「スペースからあげクン」正式に“宇宙日本食認証”｜ローソン公式サイト](https://www.lawson.co.jp/company/news/detail/1400063_2504.html)
 
 ## 知財関連

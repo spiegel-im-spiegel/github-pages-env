@@ -52,6 +52,7 @@ description = "とりあえずブックマークを中心に。以後，追記�
 - [The CIA's "Development Tradecraft DOs and DON'Ts" - Schneier on Security](https://www.schneier.com/blog/archives/2017/03/the_cias_develo.html)
 - [WikiLeaksがCIAの機密資料「Vault 7」からMacのハッキングツール文書を新たに公開 - GIGAZINE](http://gigazine.net/news/20170324-wikileaks-cia-mac-iphone-hacking-tool/)
     - [Wikileaksが暴露したCIAの攻撃ツール、iPhone3G時代の話だった - iPhone Mania](http://iphone-mania.jp/news-162703/)
+- [Theft of CIA's "Vault Seven" Hacking Tools Due to Its Own Lousy Security - Schneier on Security](https://www.schneier.com/blog/archives/2020/06/theft_of_cias_v.html) (2020-06-20 追記)
 
 ## 参考図書
 

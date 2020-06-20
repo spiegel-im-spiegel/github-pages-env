@@ -11,12 +11,14 @@
 
 - [少しだけお手伝いした矢吹太朗『Webのしくみ Webをいかすための12の道具』（サイエンス社）が来月刊行される - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20200618/web-no-shikumi) : 7月に刊行するらしい
 
-- [Makuake｜若手蔵人達の挑戦！幻のきょうかい8号酵母を使用した日本酒『eight knot』｜マクアケ - クラウドファンディング](https://www.makuake.com/project/eight-knot/)
+- [Secure Messaging Scorecard | Electronic Frontier Foundation](https://www.eff.org/pages/secure-messaging-scorecard) : "OUT OF DATE -- FOR ARCHIVAL PURPOSES ONLY"
+- [Surveillance Self-Defense | Tips, Tools and How-tos for Safer Online Communications](https://ssd.eff.org/)
 
 ## リリース情報
 
 - [Release Release v5.8.8 · mattn/jvgrep · GitHub](https://github.com/mattn/jvgrep/releases/tag/v5.8.8)
 - [Ubuntu 20.04 その86 - Ubuntu 20.04.1 LTSのリリース日変更 - kledgeb](https://kledgeb.blogspot.com/2020/06/ubuntu-2004-86-ubuntu-20041-lts.html)
+- [Announcing Rust 1.44.1 | Rust Blog](https://blog.rust-lang.org/2020/06/18/Rust.1.44.1.html)
 
 ## バベルのインターネット
 
@@ -31,10 +33,22 @@
 - [人種差別に抗議を表明するGoogleは、その検索エンジンで人種差別を強化している？ - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20200618/algorithms-of-oppression)
     - [政治的対立を生むGoogle検索、そのアルゴリズムが抱える根深い問題 | WIRED.jp](https://wired.jp/2019/03/19/google-algorithm-conservatives-biased/)
     - [IBMが顔認識技術から撤退、CEOは偏向と不平等の廃絶を訴える  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/09/2020-06-08-ibm-ends-all-facial-recognition-work-as-ceo-calls-out-bias-and-inequality/) : 一方 IBM は（再掲載）
+    - [マイクロソフトは顔認識技術を米麻薬取締局に販売しようとしていた  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/18/2020-06-17-microsoft-dea-facial-recognition/)
+    - [マイクロソフト、連邦法の規制なく顔認識技術を警察に売らないと再表明 - ZDNet Japan](https://japan.zdnet.com/article/35155178/)
 - [主催者側から参加者全員にミュートの解除要請 ～ビデオ会議アプリ「Zoom」v5.1.0が公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1259464.html)
 - [End-to-End Encryption Update - Zoom Blog](https://blog.zoom.us/wordpress/2020/06/17/end-to-end-encryption-update/)
     - [Zoom Will Be End-to-End Encrypted for All Users - Schneier on Security](https://www.schneier.com/blog/archives/2020/06/zoom_will_be_en.html)
     - [Zoom、エンドツーエンド暗号化を無料ユーザーにも提供へ - ZDNet Japan](https://japan.zdnet.com/article/35155464/)
+    - [Zoom無料ユーザーにもエンドツーエンド暗号化を提供へ  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/18/2020-06-17-zoom-u-turns-on-no-e2e-encryption-for-free-users/)
+- https://meet.jit.si/
+- [Secure Messaging Scorecard | Electronic Frontier Foundation](https://www.eff.org/pages/secure-messaging-scorecard) : "OUT OF DATE -- FOR ARCHIVAL PURPOSES ONLY"
+    - [Surveillance Self-Defense | Tips, Tools and How-tos for Safer Online Communications](https://ssd.eff.org/)
+- [AWS、2.3TbpsのDDoS攻撃を2月に緩和--「AWS Shield」レポート - ZDNet Japan](https://japan.zdnet.com/article/35155490/)
+- [AMD製CPUのファームウェア「AGESA」にOSも防御不能な脆弱性 ～任意のコードが実行される恐れ - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1259887.html)
+- [「Windows 10 バージョン 2004」は慎重に展開 ～配信を制御する機械学習プロセスが始動 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1259947.html)
+- [電子署名サービスを今夏提供へ--ドロップボックスが2020年の事業戦略 - ZDNet Japan](https://japan.zdnet.com/article/35155164/)
+- [Where is the DNS Headed? - ISP Column - June 2020](https://www.potaroo.net/ispcol/2020-06/row.html)
+    - [ブログ: DNSはどこに向かっているのか?](https://okuranagaimo.blogspot.com/2020/06/dns_20.html)
 
 ## 天文関連
 
@@ -51,15 +65,20 @@
     - [天の川銀河には高度な文明が36以上存在している可能性 | sorae 宇宙へのポータルサイト](https://sorae.info/astronomy/20200616-extraterrestrial-life.html)
 - [ESA Science & Technology - Solar Orbiter makes first close approach to the Sun](https://sci.esa.int/web/solar-orbiter/-/solar-orbiter-makes-first-close-approach-to-the-sun)
 - [ニュース - 電波望遠鏡で見た赤色超巨星アンタレスの大気 - アルマ望遠鏡](https://alma-telescope.jp/news/antares-202006)
+- [小惑星「リュウグウ」が大量の有機物からなる可能性を示唆　「はやぶさ２」タッチダウン時に巻き上がった破片の色から推定 - 国立大学法人 岡山大学](https://www.okayama-u.ac.jp/tp/release/release_id732.html)
+    - [大量の有機物からなる小惑星「リュウグウ」 — 「はやぶさ２」のタッチダウン時に巻き上がった破片から推定できる有機物量](https://pml.misasa.okayama-u.ac.jp/pages/projects/ryugu-albedo-2020-ja.php)
+- [A Cosmic Baby Is Discovered, and It's Brilliant | NASA](https://www.nasa.gov/feature/jpl/a-cosmic-baby-is-discovered-and-its-brilliant/) : 生まれたばかり（240年）の magnetarが発見される。 [Magnetar](https://astro-dic.jp/magnetar/ "天文学辞典 » マグネター") というのは強い磁力を持った中性子星のことらしい
 
 ## 知財関連
 
 - [インターネットアーカイブが無料の電子書籍プログラムを前倒しで終了、出版社からの訴訟を受け  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/14/2020-06-12-internet-archive-ends-free-e-book-program-following-publisher-suit/)
 - [ジョン・クリーズ『フォルティ・タワーズ』の（一時的な）取り下げにポリコレの行き過ぎを憂う - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20200618/fawlty-towers-withdrawn)
+- [Netflix Is Less Annoying to VPN Users Now, But Some Titles Are 'Hidden' * TorrentFreak](https://torrentfreak.com/netflix-is-less-annoying-to-vpn-users-now-but-some-titles-are-hidden-200618/)
 
 ## Linux または Ubuntu に関する話題
 
 - [【Ubuntu】IPv6対応アーカイブミラーに切り替えてパッケージの更新を高速化！ | LFI](https://linuxfan.info/ubuntu-ipv6-archive-mirror)
+- [Ubuntu 20.04 その81 - Ubuntu認定デバイスとCanonicalの取り組み - kledgeb](https://kledgeb.blogspot.com/2020/06/ubuntu-2004-81-ubuntucanonical.html)
 - [Ubuntu 20.04 その84 - あなたのUbuntuライフをもっと楽しくするSnapアプリ15選 - kledgeb](https://kledgeb.blogspot.com/2020/06/ubuntu-2004-84-ubuntusnap15.html)
 
 ## その他
@@ -81,5 +100,11 @@
 - [少しだけお手伝いした矢吹太朗『Webのしくみ Webをいかすための12の道具』（サイエンス社）が来月刊行される - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20200618/web-no-shikumi)
 - [中国のゲイ専門デートアプリ「Blued」がNASDAQにIPO申請  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/18/2020-06-17-blued-ipo/)
 - [Kubernetesを自動車に載せる、デンソーが「Misaki」を発表。年内にもオープンソースとして公開 － Publickey](https://www.publickey1.jp/blog/20/kubernetesmisaki.html)
+- [2020年6月18日ニュース「超好熱古細菌のRNA、1塩基レベルで識別 難病の治療に道」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2020/06/20200618_01.html)
+- [「Google Meet」が「Gmail」モバイルアプリで利用可能に - ZDNet Japan](https://japan.zdnet.com/article/35155503/)
+- [COVID-19: The T Cell Story - Articles](https://berthub.eu/articles/posts/covid-19-t-cells/)
+    - [ブログ: COVID-19: T細胞の話](https://okuranagaimo.blogspot.com/2020/06/covid-19-t.html)
+- [継続的デリバリを実現するツールは何がおすすめ？「CNCF Technology Radar」が公開 － Publickey](https://www.publickey1.jp/blog/20/cncf_technology_radarfluxhelm.html)
+- [『転生したらスプレッドシートだった件』 ガチの技術系出版社から発売 - KAI-YOU.net](https://kai-you.net/article/75659)
 
 <!-- eof -->
