@@ -1,5 +1,5 @@
 +++
-title = "「顔認証」に関するブックマーク"
+title = "「顔認識」に関するブックマーク"
 date =  "2020-06-20T13:17:21+09:00"
 description = "というわけで，玩具箱をひっくり返して過去にチェックした記事を探してみた。随時更新予定。"
 image = "/images/attention/kitten.jpg"
@@ -11,7 +11,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-日本語では何でもかんでも「認証」と訳すので（主に私が）分かりにくいが，今回は authentication でも certification でもなく recognition の話。
+今回は「顔認識（facial recognition）」の話。
 
 昨年からネット世捨て人みたいな生活をしているせいか世事に疎くなりまして
 
@@ -26,11 +26,21 @@ pageType = "text"
 というわけで，[{{< ruby "ブックマーク集" >}}玩具箱{{< /ruby >}}]({{< rlnk "/bookmarks/" >}})をひっくり返して過去にチェックした記事を探してみた。
 
 - [パトカーから顔を認識できる「監視ツール」が米国で導入される？｜WIRED.jp](http://wired.jp/2016/05/31/triple-threat-the-all-in-one-lpr-speedometer-and-facial-recognition-scanner/)
-- [Amazon株主が政府への顔認識技術提供の禁止を求める提案を否決  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/23/2019-05-22-amazon-reject-facial-recognition-proposals/)
+- [Facebookの顔認識データ収集めぐり新たなプライバシー訴訟 - CNET Japan](http://japan.cnet.com/news/business/35082220/)
+- [顔認識がアジア系男性を「目が開いてない」と拒絶 ニュージーランド | 秋元@サイボウズラボ・プログラマー・ブログ](http://developer.cybozu.co.jp/akky/2016/12/passport-photo-rejects-asian-closed-eyes/)
+- [Amazonの株主たちが顔認識技術を法執行機関に売らないことを要請  |  TechCrunch Japan](https://jp.techcrunch.com/2019/01/18/2019-01-17-amazon-shareholders-want-the-company-to-stop-selling-facial-recognition-to-law-enforcement/)
+    - [Amazon株主が政府への顔認識技術提供の禁止を求める提案を否決  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/23/2019-05-22-amazon-reject-facial-recognition-proposals/)
     - [Amazonに顔認証技術の政府提供禁止を求める案は大差で否決されていた  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/29/2019-05-28-amazon-facial-recognition-vote/)
+- [MIT Tech Review: ニューヨークの顔認識実験が大失敗、成功率はまさかのゼロ](https://www.technologyreview.jp/nl/new-yorks-mass-face-recognition-trial-on-drivers-has-been-a-spectacular-failure/)
+- [サンフランシスコ市、市当局による監視技術導入を監視し、顔認識技術の使用を禁止へ – P2Pとかその辺のお話R](https://p2ptk.org/privacy/1966)
 - [警察用ボディーカメラのメーカーが顔認識を「使用しない」ことを決断  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/01/2019-06-27-police-body-cam-maker-axon-says-no-to-facial-recognition-for-now/)
+- [MIT Tech Review: ロンドン警察の顔認識システム、8割が「誤り」＝初の第三者評価で](https://www.technologyreview.jp/nl/london-polices-face-recognition-system-gets-it-wrong-81-of-the-time/)
+- [EU、顔認識技術の「無差別利用」に規制を検討か - ZDNet Japan](https://japan.zdnet.com/article/35141668/)
+    - [MIT Tech Review: EU、顔認識技術の一時使用禁止を検討](https://www.technologyreview.jp/nl/the-eu-might-ban-facial-recognition-in-public-for-five-years/)
+    - [グーグルとMS、欧州での顔認識技術の一時利用禁止の議論めぐり異なる見解 - ZDNet Japan](https://japan.zdnet.com/article/35148311/)
 - [40もの主要音楽フェスが顔認識技術を採用しないことを誓約 - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20191028/facial-recognition)
-- [MIT Tech Review: EU、顔認識技術の一時使用禁止を検討](https://www.technologyreview.jp/nl/the-eu-might-ban-facial-recognition-in-public-for-five-years/)
+- [Clearview AI and Facial Recognition - Schneier on Security](https://www.schneier.com/blog/archives/2020/01/clearview_ai_an.html)
+    - [ブログ: Clearview AIと顔認識](https://okuranagaimo.blogspot.com/2020/01/clearview-ai.html)
 - [MIT Tech Review: 顔認識にさらなる逆風、米プライバシー団体などが一時禁止を訴え](https://www.technologyreview.jp/nl/40-groups-call-for-us-moratorium-on-facial-recognition-technology/)
 - [Facial Recognition for People Wearing Masks - Schneier on Security](https://www.schneier.com/blog/archives/2020/03/facial_recognit_3.html)
 - [秘匿性の高いメッセージングアプリ「Signal」に顔をぼかす機能が加わる  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/05/2020-06-04-signal-now-has-built-in-face-blurring-for-photos/)
