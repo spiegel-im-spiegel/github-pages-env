@@ -2,7 +2,7 @@
 title = "同時多発テロ関連のブックマーク（暗号関連）"
 date = "2015-11-21T19:02:46+09:00"
 description = "「同時多発テロ関連のブックマーク」から暗号・諜報関連の記事を切り出してこの記事で管理することにする。"
-tags = ["security", "international", "politics", "cryptography"]
+tags = ["security", "international", "politics", "cryptography", "bookmark"]
 
 [scripts]
   mathjax = false

@@ -1,7 +1,7 @@
 +++
 title = "WikiLeaks がリークした CIA ハッキングツール"
 date = "2017-03-09T20:11:34+09:00"
-tags = ["security", "tools", "intelligence", "leak"]
+tags = ["security", "tools", "intelligence", "leak", "bookmark"]
 description = "とりあえずブックマークを中心に。以後，追記予定。"
 
 [scripts]

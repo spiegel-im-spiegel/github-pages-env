@@ -1,24 +1,12 @@
 +++
-date = "2017-02-26T15:15:23+09:00"
-update = "2017-02-28T12:36:44+09:00"
 title = "新しい太陽系外惑星に関するブックマーク"
-draft = false
-tags = ["astronomy", "exoplanet", "seti"]
+date = "2017-02-26T15:15:23+09:00"
+tags = ["astronomy", "exoplanet", "seti", "bookmark"]
 description = "あちこちで報道されているようなので，ブックマークという形で残しておく。"
 
-[author]
-  name = "Spiegel"
-  flickr = "spiegel"
-  twitter = "spiegel_2007"
-  license = "by-sa"
-  flattr = ""
-  avatar = "/images/avatar.jpg"
-  url = "https://baldanders.info/profile/"
-  linkedin = "spiegelimspiegel"
-  facebook = "spiegel.im.spiegel"
-  instagram = "spiegel_2007"
-  tumblr = ""
-  github = "spiegel-im-spiegel"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 ## ブックマーク

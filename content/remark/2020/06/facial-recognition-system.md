@@ -3,7 +3,7 @@ title = "「顔認識」に関するブックマーク"
 date =  "2020-06-20T13:17:21+09:00"
 description = "というわけで，玩具箱をひっくり返して過去にチェックした記事を探してみた。随時更新予定。"
 image = "/images/attention/kitten.jpg"
-tags = [ "security", "privacy", "risk", "facial-recognition", "surveillance-capitalism" ]
+tags = [ "security", "privacy", "risk", "facial-recognition", "surveillance-capitalism", "bookmark" ]
 pageType = "text"
 
 [scripts]

@@ -3,7 +3,7 @@ title = "星間天体 Borisov に関するブックマーク"
 date =  "2019-09-15T07:50:40+09:00"
 description = "2017年の 1I/2017 U1 (ʻOumuamua) に続いて2つ目の観測例となる（であろう）星間天体 2I/Borisov に関するメモ。"
 image = "/images/attention/kitten.jpg"
-tags = [ "astronomy", "interstellar-object" ]
+tags = [ "astronomy", "interstellar-object", "bookmark" ]
 pageType = "text"
 
 [scripts]

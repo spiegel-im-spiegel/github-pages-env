@@ -1,24 +1,9 @@
 +++
 title = "Java に関するブックマーク"
 date =  "2018-01-22T20:21:30+09:00"
-update = "2018-03-06T19:35:50+09:00"
 description = "訳あって Java に関するブックマークを淡々と記述するページを作ってみた。"
 image = "/images/attention/remark.jpg"
 tags = [ "java", "engineering", "programming", "bookmark" ]
-
-[author]
-name      = "Spiegel"
-url       = "https://baldanders.info/profile/"
-avatar    = "/images/avatar.jpg"
-license   = "by-sa"
-github    = "spiegel-im-spiegel"
-twitter   = "spiegel_2007"
-tumblr    = ""
-instagram = "spiegel_2007"
-flickr    = "spiegel"
-facebook  = "spiegel.im.spiegel"
-linkedin  = "spiegelimspiegel"
-flattr    = ""
 
 [scripts]
   mathjax = false

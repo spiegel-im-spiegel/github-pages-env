@@ -2,7 +2,7 @@
 title = "同時多発テロ関連のブックマーク"
 date = "2015-11-15T20:32:55+09:00"
 description = "同時多発テロ関連のブックマーク。"
-tags = ["security", "international", "politics"]
+tags = ["security", "international", "politics", "bookmark"]
 
 [scripts]
   mathjax = false

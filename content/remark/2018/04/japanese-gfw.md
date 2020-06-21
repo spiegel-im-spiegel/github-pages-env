@@ -1,24 +1,9 @@
 +++
 title = "日本版「グレート・ファイアウォール」に関するブックマーク集"
 date = "2018-04-25T16:12:41+09:00"
-update = "2018-06-03T17:32:14+09:00"
 description = "情報収集しつつ個人でどこまで武装できるか，これから少しずつ考えていくことにする。"
 image = "/images/attention/kitten.jpg"
-tags = [ "censorship", "internet", "code", "law", "politics" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
+tags = [ "censorship", "internet", "code", "law", "politics", "bookmark" ]
 
 [scripts]
   mathjax = false
