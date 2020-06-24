@@ -58,6 +58,23 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 [GnuPG]: https://www.gnupg.org/ "The GNU Privacy Guard"
 
+## [OpenSSL]
+
+[OpenSSL] はディストリビューションがアップグレードされない限り（脆弱性があっても）更新されないようだ。
+よって[手動で管理する]({{< ref "/remark/2020/06/installing-openssl-in-ubuntu.md" >}} "Ubuntu に最新の OpenSSL を入れる")ことにした。
+以下は参考情報として記しておく。
+
+| Official | Release    |         Ubuntu | Release    |   Delay |
+| --------:| ---------- | --------------:| ---------- | -------:|
+|   1.1.1g | 2020-04-21 |                |            | ∞ days |
+|   1.1.1f | 2020-03-31 | (Ubuntu 20.04) | 2020-04-23 | &mdash; |
+
+### ブックマーク
+
+- [OpenSSL Security Advisory [21 April 2020]](https://www.openssl.org/news/secadv/20200421.txt)
+
+[OpenSSL]: https://www.openssl.org/
+
 ## [Git]
 
 [Git] については [Ubuntu] 公式リポジトリではなく [PPA のリポジトリ](https://launchpad.net/~git-core/+archive/ubuntu/ppa)からインストールしている。
