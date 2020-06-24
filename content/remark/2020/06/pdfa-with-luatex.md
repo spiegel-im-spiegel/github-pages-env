@@ -26,9 +26,9 @@ PDF/A の種別は大まかに
     - PDF/A-2b : PDF/A-2 レベルB
     - PDF/A-2u : PDF/A-2 レベルU
 - PDF/A-3 : ISO 19005-3 (PDF/A-2 拡張)
-    - PDF/A-2a : PDF/A-2 レベルA
-    - PDF/A-2b : PDF/A-2 レベルB
-    - PDF/A-2u : PDF/A-2 レベルU
+    - PDF/A-3a : PDF/A-3 レベルA
+    - PDF/A-3b : PDF/A-3 レベルB
+    - PDF/A-3u : PDF/A-3 レベルU
 
 といった感じに分かれている。
 
