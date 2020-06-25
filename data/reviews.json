@@ -12270,5 +12270,47 @@
       false
     ],
     "Description": "日食グラスって Amazon で買えるんだな。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B089N3VX86",
+      "Title": "情報処理 2020年7月号",
+      "URL": "https://www.amazon.co.jp/dp/B089N3VX86?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51VvkVylsGL._SL160_.jpg",
+        "Height": 160,
+        "Width": 120
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "情報処理学会",
+          "Role": "著"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B089N3VX86"
+        }
+      ],
+      "PublicationDate": "2020-06-15",
+      "LastRelease": "2020-06-15",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-06-25",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "PPAP 特集（笑）"
   }
 ]

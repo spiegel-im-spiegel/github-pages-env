@@ -58,7 +58,6 @@ pageType = "text"
     - [Dropboxが同期エンジンを全面的に改良、新エンジンはどこが改善されているのか？ - GIGAZINE](https://gigazine.net/news/20200425-dropbox-nucleus/)
     - [Dropbox、4年をかけてRust言語で再構築された新しい同期エンジン「Nucleus」をリリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1255034.html)
 - [Google Cloud FunctionsがJava 11をサポート開始。KotlinやScalaも利用可能に － Publickey](https://www.publickey1.jp/blog/20/google_cloud_functionsjava_11kotlinscala.html)
-- [Thermal Imaging as Security Theater - Schneier on Security](https://www.schneier.com/blog/archives/2020/05/thermal_imaging.html)
 - [ニューヨーク公共図書館125周年を祝い著名人たちがこの一冊をお勧めしている #nypl125 - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20200527/nypl125)
 - [2020年5月28日ニュース「『学校閉鎖は流行阻止効果に乏しい』『2歳未満のマスクは危険』と小児科学会」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2020/05/20200528_01.html)
 - [ラズベリーパイ財団が8GBメモリー搭載のRaspberry Pi 4を発表  |  TechCrunch Japan](https://jp.techcrunch.com/2020/05/29/2020-05-28-raspberry-pi-foundation-announces-raspberry-pi-4-with-8gb-of-ram/)
