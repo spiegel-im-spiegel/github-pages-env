@@ -31,7 +31,37 @@ tags = [
 
 では，ご笑覧あれ。
 
-## コマンドとオプション
+## 目次 {#toc}
+
+1. [コマンドとオプション]({{< relref "#intro" >}})
+1. [鍵の作成]({{< relref "#create" >}})
+    - [`--generate-key` コマンド]({{< relref "#generate-key" >}})
+    - [`--full-generate-key` コマンド]({{< relref "#full-generate-key" >}})
+    - [`--quick-generate-key` コマンド]({{< relref "#quick-generate-key" >}})
+    - [パスフレーズ入力の回避]({{< relref "#passphrase" >}})
+    - [`--quick-add-key` コマンドによる副鍵の追加]({{< relref "#quick-add-key" >}})
+1. [鍵の管理]({{< relref "#manage" >}})
+    - [鍵束内の公開鍵の検索]({{< relref "#list-keys" >}})
+    - [副鍵の鍵指紋の表示]({{< relref "#fingerprint" >}})
+    - [パスフレーズの変更]({{< relref "#change-passphrase" >}})
+    - [有効期限の変更]({{< relref "#quick-set-expire" >}})
+    - [公開鍵をエクスポートする]({{< relref "#export" >}})
+    - [公開鍵をインポートする]({{< relref "#import" >}})
+    - [公開鍵を鍵サーバに送信する]({{< relref "#send-keys" >}})
+    - [公開鍵を鍵サーバから受信する]({{< relref "#receive-keys" >}})
+    - [公開鍵に署名する]({{< relref "#sign-key" >}})
+1. [データの暗号化]({{< relref "#encrypt" >}})
+    - [ハイブリッド暗号]({{< relref "#hybrid" >}})
+    - [セッション鍵のみで暗号化する]({{< relref "#symmetric" >}})
+1. [暗号データの復号]({{< relref "#decrypt" >}})
+1. [データへの電子署名と検証]({{< relref "#sign" >}})
+    - [クリア署名]({{< relref "#clear-sign" >}})
+    - [分離署名]({{< relref "#detach-sign" >}})
+    - [署名データに署名対象のデータを含める]({{< relref "#data-in-sign" >}})
+    - [暗号化と電子署名を同時に行う]({{< relref "#encrypt-and-sign" >}})
+1. [鍵の失効]({{< relref "#revocs" >}})
+
+## コマンドとオプション {#intro}
 
 [GnuPG] のコマンドラインはちょっと作りが古くて（なんせ初期の PGP の UI を引きずってるので`w`），今時あたり前な「サブコマンド」みたいな構成になっていない。
 その代わりオプションの種別が「コマンド」と「オプション」に分かれている。
@@ -39,11 +69,11 @@ tags = [
 
 以上を踏まえて，そろそろ本題に入ろう。
 
-## 鍵の作成
+## 鍵の作成 {#create}
 
 鍵の作成コマンドにはいくつか種類がある。
 
-### --generate-key コマンド
+### --generate-key コマンド {#generate-key}
 
 `--generate-key` コマンドは対話モードで鍵の作成を行う。
 短縮名は `--gen-key`。
@@ -101,7 +131,7 @@ sub   rsa3072 2017-11-30 [E]
 
 なお `Passphrase` の項目を削除すれば `--batch` モードでも Pinentry で設定するパスフレーズを訊いてくるので「設定ファイルにパスフレーズを書くのは...」という方も安心である。
 
-### --full-generate-key コマンド
+### --full-generate-key コマンド {#full-generate-key}
 
 対話モードで暗号アルゴリズムや鍵長を指定したい場合は `--full-generate-key` コマンドを使う。
 短縮名は `--full-gen-key`。
@@ -161,7 +191,7 @@ ECC (Elliptic Curve Cryptography; 楕円曲線暗号) 鍵の取り扱いにつ�
 
 - [そろそろ GnuPG でも ECC を標準で使うのがいいんじゃないかな]({{<ref "/openpgp/using-ecc-with-gnupg.md" >}})
 
-### --quick-generate-key コマンド
+### --quick-generate-key コマンド {#quick-generate-key}
 
 コマンドライン一発で鍵を作成したい場合は `--quick-generate-key` コマンドでユーザID，アルゴリズム，有効期限を指定できる。
 短縮名は `--quick-gen-key`。
@@ -223,7 +253,7 @@ uid                      Alice <alice@example.com>
 sub   rsa2048 2017-11-30 [E]
 ```
 
-### パスフレーズ入力の回避
+### パスフレーズ入力の回避 {#passphrase}
 
 `--quick-generate-key` コマンドでもパスフレーズの入力は Pinentry から行うことになるが `--pinentry-mode` オプションおよび `--passphrase` オプションを付加することで回避できる。
 
@@ -233,7 +263,7 @@ $ gpg --pinentry-mode loopback --passphrase passwd --quick-gen-key "Alice <alice
 
 ただしコマンドラインの履歴に入力したパスフレーズが残ってしまうのであまりお勧めできないが...
 
-### --quick-add-key コマンドによる副鍵の追加
+### --quick-add-key コマンドによる副鍵の追加 {#quick-add-key}
 
 作成した鍵に `--quick-add-key` コマンドで後から暗号鍵を追加できる。
 これは ` --quick-generate-key` コマンドで主鍵のみ作って後から副鍵を加えたい場合などに有効である。
@@ -283,11 +313,11 @@ sub   elg3072 2017-11-30 [E]
 
 電子署名用のアルゴリズムも（署名用の副鍵として指定すれば）もちろん使える。
 
-## 鍵の管理
+## 鍵の管理 {#manage}
 
 作成した鍵や配布・受領した公開鍵を管理するためのコマンドを紹介する。
 
-### 鍵束内の公開鍵の検索
+### 鍵束内の公開鍵の検索 {#list-keys}
 
 鍵束内の公開鍵の検索を検索する場合， `--list-keys` コマンドの引数にユーザID（の一部）または鍵IDを指定することで，条件にマッチする鍵を検索できる。
 短縮名は `-k`。
@@ -317,7 +347,7 @@ uid           [  究極  ] Alice (commit) <alice@example.com>
 ssb   rsa2048 2017-11-23 [E]
 ```
 
-### 副鍵の鍵指紋の表示
+### 副鍵の鍵指紋の表示 {#fingerprint}
 
 `--list-keys` コマンドでも主鍵の鍵指紋が表示されるが，副鍵の鍵指紋も表示したい場合は `--fingerprint` コマンドを2つ重ねる。
 
@@ -330,7 +360,7 @@ sub   rsa2048 2017-11-30 [E]
       476E 9EA7 D703 F0BB 01B6  FA44 9278 B060 D202 3C53
 ```
 
-### パスフレーズの変更
+### パスフレーズの変更 {#change-passphrase}
 
 秘密鍵のパスフレーズを変更する場合には `--change-passphrase` コマンドを使う。
 短縮名は `--passwd`。
@@ -342,7 +372,7 @@ $ gpg --passwd alice
 引数にはユーザID（の一部）を指定できる。
 パスワードの入力は Pinentry で行う。
 
-### 有効期限の変更
+### 有効期限の変更 {#quick-set-expire}
 
 自身の鍵の有効期限を変更する場合には `--quick-set-expire` コマンドを使う。
 
@@ -380,7 +410,7 @@ sub   rsa2048 2017-11-30 [E] [有効期限: 2019-11-30]
 前半は主鍵，後半は（主鍵に紐づく）副鍵の有効期限を変更している。
 このことから分かるとおり，主鍵と副鍵は個別に有効期限を設定することが可能である。
 
-### 公開鍵をエクスポートする
+### 公開鍵をエクスポートする {#export}
 
 公開鍵のエクスポートには `--export` コマンドを使う。
 
@@ -430,7 +460,7 @@ HA2W4WzekYmWWmgK7J8kXHYkxUJA6VpSmNAKwUKqXbNV
 $ gpg -a --export alice > alice-key.asc
 ```
 
-### 公開鍵をインポートする
+### 公開鍵をインポートする {#import}
 
 公開鍵のインポートには `--import` コマンドを使う。
 
@@ -451,11 +481,9 @@ cat alice-key.asc | gpg --import
 $ gpg --fetch-keys https://baldanders.info/pubkeys/spiegel.asc
 ```
 
-
-
 インポートする鍵が既に鍵束にある場合でも，単純な上書きではなく， [GnuPG] がいい感じにマージしてくれる。
 
-### 公開鍵を鍵サーバに送信する
+### 公開鍵を鍵サーバに送信する {#send-keys}
 
 鍵束にある公開鍵を鍵サーバに送信するには `--send-keys` コマンドを使う。
 
@@ -480,7 +508,7 @@ keyserver  keys.gnupg.net
 
 あたりだろうか。
 
-### 公開鍵を鍵サーバから受信する
+### 公開鍵を鍵サーバから受信する {#receive-keys}
 
 鍵サーバから公開鍵を受信する場合は `--receive-keys` コマンドを使う。
 短縮名は `--recv-keys`。
@@ -522,7 +550,7 @@ Keys 1-11 of 103 for "alice@example.com".  番号(s)、N)次、またはQ)中止
 
 検索結果に対して番号を指定すればそのままインポートしてくれる。
 
-### 公開鍵に署名する
+### 公開鍵に署名する {#sign-key}
 
 インポートした公開鍵が有効であることを確認したら，公開鍵に電子署名して有効化しよう。
 公開鍵への電子署名には `--sign-key` コマンドまたは `--quick-sign-key` コマンドを使う。
@@ -550,11 +578,11 @@ default-key alice
 この電子署名は公開鍵のエクスポート時にも付加されて配布される。
 電子署名を配布されては困る場合は `--lsign-key` コマンドまたは `--quick-lsign-key` コマンドを使う。
 
-## データの暗号化
+## データの暗号化 {#encrypt}
 
 [GnuPG] の暗号化は概ね2種類ある。
 
-### ハイブリッド暗号
+### ハイブリッド暗号 {#hybrid}
 
 ハイブリッド暗号は [OpenPGP] の基本機能で，平文を暗号化する「セッション鍵」とセッション鍵を暗号化する公開鍵で構成される。
 
@@ -623,7 +651,7 @@ default-key alice
 default-recipient-self
 ```
 
-### セッション鍵のみで暗号化する
+### セッション鍵のみで暗号化する {#symmetric}
 
 公開鍵は使わずセッション鍵のみで暗号化を行う場合は `--symmetric` コマンドを使う。
 短縮名は `-c`。
@@ -641,7 +669,7 @@ sWe2GdB8IGA0O+CAqQYqwQTLKFVtWmAJKMi1hXsb/fuPpzU=
 コマンド起動時にパスフレーズの入力を要求され，パスフレーズからセッション鍵を生成して暗号化を行う。
 したがって，何らかの方法で暗号データの受け手とパスフレーズを共有する必要がある。
 
-## 暗号データの復号
+## 暗号データの復号 {#decrypt}
 
 暗号データのf区号には `--decrypt` コマンドを使う。
 短縮名は `-d`。
@@ -683,11 +711,11 @@ Hello world
 
 （パスフレーズ入力あり）
 
-## データへの電子署名と検証
+## データへの電子署名と検証 {#sign}
 
 データへの電子署名にも幾つかの方法がある。
 
-### クリア署名
+### クリア署名 {#clear-sign}
 
 まずデータがテキストの場合は「クリア署名」という方法が使える。
 クリア署名には `--clear-sign` コマンドを使う。
@@ -736,7 +764,7 @@ gpg: "Alice <alice@example.com>"からの正しい署名 [究極]
 
 このように `--decrypt` コマンドを使うと署名対象のテキストを抽出して出力してくれるのが利点である。
 
-### 分離署名
+### 分離署名 {#detach-sign}
 
 次はファイルへの電子署名をやってみる。
 まず署名対象のファイルを用意する。
@@ -804,7 +832,7 @@ $ gpg -u alice --textmode -b hello.txt
 
 テキスト・ファイルの場合，配布経路によっては改行コードが変えられたりするため（電子メールや FTP 転送など），電子署名を行ったり署名検証を行ったりする前にテキストを正規化しているのである。
 
-### 署名データに署名対象のデータを含める
+### 署名データに署名対象のデータを含める {#data-in-sign}
 
 [GnuPG] ではもうひとつ電子署名の形式がある。
 電子署名データの中に署名対象のデータを埋め込んでしまうのである。
@@ -843,7 +871,7 @@ gpg: "Alice <alice@example.com>"からの正しい署名 [究極]
 これでデータの抽出ができた。
 署名対象のデータを埋め込む方式の何が嬉しいかというと，暗号化と組み合わせる事ができるのである。
 
-### 暗号化と電子署名を同時に行う
+### 暗号化と電子署名を同時に行う {#encrypt-and-sign}
 
 暗号化と電子署名を同時に行うには `--encrypt` コマンドと`--sign` コマンドを同時に指定する。
 短縮名は `-se` または `-es`。
@@ -889,7 +917,7 @@ gpg: "Alice <alice@example.com>"からの正しい署名 [究極]
 
 署名・暗号化ではパスフレーズ入力が最大3回（暗号化で確認を入れて2回，電子署名で1回）発生するので注意すること。
 
-## 鍵の失効
+## 鍵の失効 {#revocs}
 
 パスフレーズの漏洩や暗号アルゴリズムの危殆化などによって鍵を失効しなければならない場合がある。
 

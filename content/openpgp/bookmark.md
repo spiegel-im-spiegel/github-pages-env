@@ -45,6 +45,7 @@ tags = [ "openpgp", "gnupg", "bookmark" ]
 - [OpenPGP.js | OpenPGP JavaScript Implementation](http://openpgpjs.org/)
     - [openpgpjs/openpgpjs: OpenPGP implementation for JavaScript](https://github.com/openpgpjs/openpgpjs)
     - [Mailvelope](https://www.mailvelope.com/)
+    - [FlowCrypt: PGP Encryption for Gmail](https://flowcrypt.com/)
 - [APG - Google Play](https://play.google.com/store/apps/details?id=org.thialfihar.android.apg) ([Thialfihar](http://thialfihar.org/))
     - [thialfihar/apg: OpenPGP for Android](https://github.com/thialfihar/apg)
 - [OpenKeychain](https://www.openkeychain.org/)
