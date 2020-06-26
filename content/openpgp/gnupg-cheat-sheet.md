@@ -33,7 +33,9 @@ tags = [
 
 ## 目次 {#toc}
 
-1. [コマンドとオプション]({{< relref "#intro" >}})
+1. [はじめに]({{< relref "#intro" >}})
+    - [GnuPG とは]({{< relref "#about-gpg" >}})
+    - [コマンドとオプション]({{< relref "#cmd-opt" >}})
 1. [鍵の作成]({{< relref "#create" >}})
     - [`--generate-key` コマンド]({{< relref "#generate-key" >}})
     - [`--full-generate-key` コマンド]({{< relref "#full-generate-key" >}})
@@ -50,6 +52,7 @@ tags = [
     - [公開鍵を鍵サーバに送信する]({{< relref "#send-keys" >}})
     - [公開鍵を鍵サーバから受信する]({{< relref "#receive-keys" >}})
     - [公開鍵に署名する]({{< relref "#sign-key" >}})
+    - [`--edit-key` コマンド]({{< relref "#edit-key" >}})
 1. [データの暗号化]({{< relref "#encrypt" >}})
     - [ハイブリッド暗号]({{< relref "#hybrid" >}})
     - [セッション鍵のみで暗号化する]({{< relref "#symmetric" >}})
@@ -61,9 +64,32 @@ tags = [
     - [暗号化と電子署名を同時に行う]({{< relref "#encrypt-and-sign" >}})
 1. [鍵の失効]({{< relref "#revocs" >}})
 
-## コマンドとオプション {#intro}
+## はじめに {#intro}
 
-[GnuPG] のコマンドラインはちょっと作りが古くて（なんせ初期の PGP の UI を引きずってるので`w`），今時あたり前な「サブコマンド」みたいな構成になっていない。
+### [GnuPG] とは {#about-gpg}
+
+[GnuPG (GNU Privacy Guard)][GnuPG] は [OpenPGP] 実装のひとつで，現在は以下の RFC に準拠している。
+
+- [RFC 4880 - OpenPGP Message Format][RFC 4880]
+- [RFC 5581 - The Camellia Cipher in OpenPGP][RFC 5581]
+- [RFC 6637 - Elliptic Curve Cryptography (ECC) in OpenPGP][RFC 6637]
+
+また [RFC 4880] の後継として現在ドラフト案が公開されている [RFC 4880bis] の一部も取り込んでいる。
+更にいうと，今回は言及しないが [OpenPGP] 以外にも X.509 や OpenSSH の鍵管理も可能である。
+
+[OpenPGP] の源流は1991年に Phil Zimmermann 氏によって1991年に発表された暗号ツール PGP にまで遡る。
+当時の PGP の仕様は [RFC 1991] として残されている。
+ただ Phil Zimmermann 氏が暗号特許について迂闊だったため PGP は長く不遇な扱いを受けることになる。
+
+当時の PGP の仕様を知財的に安全なものとして再構成したのが [OpenPGP] である。
+更に，その実装である [GnuPG] は GNU プロジェクトの一部として [FSF (Free Software Foundation)](https://www.fsf.org/) が著作権を保有し GNU GPLv3 の下にライセンスされている。
+
+ちなみに [OpenPGP] の実装としては他にも [OpenPGP.js](http://openpgpjs.org/ "OpenPGP.js | OpenPGP JavaScript Implementation") や [Sequoia-PGP](https://sequoia-pgp.org/) など様々なものがある。
+現在の PGP も [OpenPGP] 実装のひとつとして Symantec 社が[販売](https://www.symantec.com/products/encryption)している。
+
+### コマンドとオプション {#cmd-opt}
+
+[GnuPG] は基本的にコマンドラインツールだが，作りが古くて（なんせ初期の PGP の UI を引きずってるので`w`）今時あたり前な「サブコマンド」みたいな構成になっていない。
 その代わりオプションの種別が「コマンド」と「オプション」に分かれている。
 具体的には `gpg -h` でヘルプを見ると分かる（もちろん `-h` オプションもコマンドである）。
 
@@ -578,6 +604,69 @@ default-key alice
 この電子署名は公開鍵のエクスポート時にも付加されて配布される。
 電子署名を配布されては困る場合は `--lsign-key` コマンドまたは `--quick-lsign-key` コマンドを使う。
 
+### --edit-key コマンド {#edit-key}
+
+`--edit-key` コマンドは対話モードで鍵の編集を行う。
+
+```text
+$ gpg --edit-key alice
+```
+
+対話モードに入るとプロンプトが `gpg>` に変わる。
+対話モードで使えるコマンドは以下の通り。
+
+```text
+gpg> help
+quit        このメニューを終了
+save        保存して終了
+help        このヘルプを表示
+fpr         鍵のフィンガープリントを表示
+grip        keygripを表示
+list        鍵とユーザIDの一覧
+uid         ユーザID Nの選択
+key         副鍵Nの選択
+check       署名の確認
+sign        選択したユーザIDに署名する [* 以下の関連コマンドを参照 ]
+lsign       選択したユーザIDにローカルに署名
+tsign       選択したユーザIDに信用署名を署名する
+nrsign      選択したユーザIDに失効不可の署名をする
+adduid      ユーザIDの追加
+addphoto    フォトIDの追加
+deluid      選択したユーザIDの削除
+addkey      副鍵を追加
+addcardkey  スマートカードへ鍵の追加
+keytocard   鍵をスマートカードへ移動
+bkuptocard  バックアップ鍵をスマートカードへ移動
+delkey      選択した副鍵の削除
+addrevoker  失効鍵の追加
+delsig      選択したユーザIDから署名を削除する
+expire      鍵または選択した副鍵の有効期限を変更する
+primary     選択したユーザIDを主にする
+pref        優先指定の一覧 (エキスパート)
+showpref    優先指定の一覧 (冗長)
+setpref     選択したユーザIDに優先指定リストを設定
+keyserver   選択したユーザIDに優先鍵サーバのURLを設定
+notation    選択したユーザIDに注釈を設定する
+passwd      パスフレーズの変更
+trust       所有者信用の変更
+revsig      選択したユーザIDの署名を失効
+revuid      選択したユーザIDの失効
+revkey      鍵の失効または選択した副鍵の失効
+enable      鍵を有効にする
+disable     鍵を無効にする
+showphoto   選択したフォトIDを表示
+clean       使えないユーザIDをコンパクトにし、使えない署名を鍵から除去
+minimize    使えないユーザIDをコンパクトにし、すべての署名を鍵から除去
+
+* 'sign' コマンドは 'l' で始まると、ローカルの署名で (lsign)、
+  't' で始まると信用署名 (tsign)、'nr' で始まると失効不可署名
+  (nrsign)、もしくはこれらの組み合わせ (ltsign, tnrsign, など)となります。
+```
+
+本記事では，対話モードの詳細については割愛する。
+基本的には `list`, `uid`, `key` を使ってでユーザIDや副鍵を指定し，それぞれに対して操作を行う感じ。
+編集結果を保存して終了するには `save` を，単に対話モードから抜けるには `quit` を入力する。
+
 ## データの暗号化 {#encrypt}
 
 [GnuPG] の暗号化は概ね2種類ある。
@@ -1046,6 +1135,9 @@ kAc/Jx5aYcyrXqcZtxNwHF+oflpRWyd0KA==
 [OpenPGP]: http://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
 [RFC 4880]: https://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
 [RFC 4880bis]: https://datatracker.ietf.org/doc/draft-ietf-openpgp-rfc4880bis/ "draft-ietf-openpgp-rfc4880bis - OpenPGP Message Format"
+[RFC 5581]: https://tools.ietf.org/html/rfc5581 "RFC 5581 - The Camellia Cipher in OpenPGP"
+[RFC 6637]: https://tools.ietf.org/html/rfc6637 "RFC 6637 - Elliptic Curve Cryptography (ECC) in OpenPGP"
+[RFC 1991]: https://tools.ietf.org/html/rfc1991 "RFC 1991 - PGP Message Exchange Formats"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 
 ## 参考図書
