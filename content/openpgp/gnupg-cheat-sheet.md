@@ -63,6 +63,7 @@ tags = [
     - [署名データに署名対象のデータを含める]({{< relref "#data-in-sign" >}})
     - [暗号化と電子署名を同時に行う]({{< relref "#encrypt-and-sign" >}})
 1. [鍵の失効]({{< relref "#revocs" >}})
+    - [`--generate-revocation` コマンド]({{< relref "#gen-revoke" >}})
 
 ## はじめに {#intro}
 
@@ -109,7 +110,7 @@ tags = [
 
 ```text
 $ gpg --gen-key
-gpg (GnuPG) 2.2.3; Copyright (C) 2017 Free Software Foundation, Inc.
+gpg (GnuPG) 2.2.19; Copyright (C) 2019 Free Software Foundation, Inc.
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 
@@ -117,10 +118,10 @@ There is NO WARRANTY, to the extent permitted by law.
 
 GnuPGはあなたの鍵を識別するためにユーザIDを構成する必要があります。
 
-本名:
+本名: 
 ```
 
-最新版 2.2.x では暗号アルゴリズムは RSA/2048bit，有効期限は作成日当日で固定されている。
+最新版 2.2.x では暗号アルゴリズムは RSA 3072bit，有効期限は作成日当日で固定されている。
 したがって，ユーザが入力するのはユーザID（本名，電子メール・アドレス）とパスフレーズのみとなる（パスフレーズ入力時には Pinentry が起動する）。
 
 `--generate-key` コマンドについては，以下のような設定ファイルを作って `--batch` オプションを付けて起動することで対話モードを回避し，かつアルゴリズム等の詳細な指定をすることもできる。
@@ -141,15 +142,15 @@ Passphrase: passwd
 %echo done
 
 $ gpg --gen-key --batch alice-key.conf
-gpg: 鍵058E5BB44555AF2Cを究極的に信用するよう記録しました
-gpg: 失効証明書を 'C:/Users/alice/AppData/Roaming/gnupg/openpgp-revocs.d\DE93A51F5F4EC94847556525058E5BB44555AF2C.rev' に保管しました。
+gpg: 鍵AEE3D12F6D2F7F92を究極的に信用するよう記録しました
+gpg: 失効証明書を '/home/username/.gnupg/openpgp-revocs.d/0F99F15C200B30194855B93AAEE3D12F6D2F7F92.rev' に保管しました。
 gpg: done
 
 $ gpg --list-keys alice
-pub   rsa3072 2017-11-30 [SC]
-      DE93A51F5F4EC94847556525058E5BB44555AF2C
+pub   rsa3072 2020-06-27 [SC]
+      0F99F15C200B30194855B93AAEE3D12F6D2F7F92
 uid           [  究極  ] Alice <alice@example.com>
-sub   rsa3072 2017-11-30 [E]
+sub   rsa3072 2020-06-27 [E]
 ```
 
 設定ファイルの書き方は "[Unattended GPG key generation](https://www.gnupg.org/documentation/manuals/gnupg/Unattended-GPG-key-generation.html "Using the GNU Privacy Guard: Unattended GPG key generation")” を参照のこと。
@@ -166,7 +167,7 @@ sub   rsa3072 2017-11-30 [E]
 
 ```text
 $ gpg --full-gen-key
-gpg (GnuPG) 2.2.3; Copyright (C) 2017 Free Software Foundation, Inc.
+gpg (GnuPG) 2.2.19; Copyright (C) 2019 Free Software Foundation, Inc.
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 
@@ -175,6 +176,7 @@ There is NO WARRANTY, to the extent permitted by law.
    (2) DSA と Elgamal
    (3) DSA (署名のみ)
    (4) RSA (署名のみ)
+  (14) カードに存在する鍵
 あなたの選択は? 2
 DSA 鍵は 1024 から 3072 ビットの長さで可能です。
 鍵長は? (2048) 3072
@@ -185,9 +187,9 @@ DSA 鍵は 1024 から 3072 ビットの長さで可能です。
       <n>w = 鍵は n 週間で期限切れ
       <n>m = 鍵は n か月間で期限切れ
       <n>y = 鍵は n 年間で期限切れ
-鍵の有効期間は? (0)1y
-鍵は11/30/18 10:39:03 東京 (標準時)で期限切れとなります
-これで正しいですか? (y/N)
+鍵の有効期間は? (0) 1y
+鍵は2021年06月27日 09時18分48秒 JSTで期限切れとなります
+これで正しいですか? (y/N) 
 ```
 
 `--expert` オプションを付けると選択可能なアルゴリズムの組み合わせが増える。
@@ -195,7 +197,7 @@ DSA 鍵は 1024 から 3072 ビットの長さで可能です。
 
 ```text
 $ gpg --full-gen-key --expert
-gpg (GnuPG) 2.2.3; Copyright (C) 2017 Free Software Foundation, Inc.
+gpg (GnuPG) 2.2.19; Copyright (C) 2019 Free Software Foundation, Inc.
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 
@@ -210,7 +212,8 @@ There is NO WARRANTY, to the extent permitted by law.
   (10) ECC (署名のみ)
   (11) ECC (機能をあなた自身で設定)
   (13) 既存の鍵
-あなたの選択は?
+  (14) カードに存在する鍵
+あなたの選択は? 
 ```
 
 ECC (Elliptic Curve Cryptography; 楕円曲線暗号) 鍵の取り扱いについては以下の記事を参照のこと。
@@ -261,22 +264,21 @@ Usage: gpg [options] --quick-generate-key user-id [algo [usage [expire]]]
 ` --quick-generate-key` コマンドの実行例はこんな感じ。
 
 ```text
-$ gpg --quick-gen-key "Alice <alice@example.com>" default default 0
+gpg --quick-gen-key "Alice <alice@example.com>" default default 0
 たくさんのランダム・バイトの生成が必要です。キーボードを打つ、マウスを動か
 す、ディスクにアクセスするなどの他の操作を素数生成の間に行うことで、乱数生
 成器に十分なエントロピーを供給する機会を与えることができます。
-
 たくさんのランダム・バイトの生成が必要です。キーボードを打つ、マウスを動か
 す、ディスクにアクセスするなどの他の操作を素数生成の間に行うことで、乱数生
 成器に十分なエントロピーを供給する機会を与えることができます。
-gpg: 鍵FED63B6C83CE0152を究極的に信用するよう記録しました
-gpg: 失効証明書を 'C:/Users/alice/AppData/Roaming/gnupg/openpgp-revocs.d\57D6D370A7E9BA27A02367DAFED63B6C83CE0152.rev' に保管しました。
+gpg: 鍵732A737992A2A7A5を究極的に信用するよう記録しました
+gpg: 失効証明書を '/home/username/.gnupg/openpgp-revocs.d/F3546931BCBECA3D73E5E60E732A737992A2A7A5.rev' に保管しました。
 公開鍵と秘密鍵を作成し、署名しました。
 
-pub   rsa2048 2017-11-30 [SC]
-      57D6D370A7E9BA27A02367DAFED63B6C83CE0152
+pub   rsa3072 2020-06-27 [SC]
+     F3546931BCBECA3D73E5E60E732A737992A2A7A5
 uid                      Alice <alice@example.com>
-sub   rsa2048 2017-11-30 [E]
+sub   rsa3072 2020-06-27 [E]
 ```
 
 ### パスフレーズ入力の回避 {#passphrase}
@@ -302,27 +304,27 @@ Usage: gpg [options] --quick-add-key key-fingerprint [algo [usage [expire]]]
 
 ```text
 $ gpg --list-keys alice
-pub   dsa3072 2017-11-30 [SC]
-      B5BF56B346B4D961E6BF25A45CC68B4A317E8E5C
+pub   dsa3072 2020-06-27 [SC] [有効期限: 2021-06-27]
+      B8AF88FC3448859FCF65810C20EDB41D5093CA8A
 uid           [  究極  ] Alice <alice@example.com>
 ```
 
 以下のように暗号鍵を副鍵として追加できる。
 
 ```text
-$ gpg --quick-add-key B5BF56B346B4D961E6BF25A45CC68B4A317E8E5C elg3072 encr
+$ gpg --quick-add-key B8AF88FC3448859FCF65810C20EDB41D5093CA8A elg3072 encr
 たくさんのランダム・バイトの生成が必要です。キーボードを打つ、マウスを動か
 す、ディスクにアクセスするなどの他の操作を素数生成の間に行うことで、乱数生
 成器に十分なエントロピーを供給する機会を与えることができます。
 
 $ gpg --list-keys alice
-pub   dsa3072 2017-11-30 [SC]
-      B5BF56B346B4D961E6BF25A45CC68B4A317E8E5C
+pub   dsa3072 2020-06-27 [SC] [有効期限: 2021-06-27]
+      B8AF88FC3448859FCF65810C20EDB41D5093CA8A
 uid           [  究極  ] Alice <alice@example.com>
-sub   elg3072 2017-11-30 [E]
+sub   elg3072 2020-06-27 [E]
 ```
 
-ちなみに `B5BF56B346B4D961E6BF25A45CC68B4A317E8E5C` という長ったらしい数字列は鍵指紋（key fingerprint）である。
+ちなみに `B8AF88FC3448859FCF65810C20EDB41D5093CA8A` という長ったらしい数字列は鍵指紋（key fingerprint）である。
 [OpenPGP] では鍵指紋をそのまま（または下位バイトを）鍵IDとして使っている。
 
 副鍵では機能として `cert` は指定できない。
@@ -350,15 +352,13 @@ sub   elg3072 2017-11-30 [E]
 
 ```text
 $ gpg -k alice
-pub   dsa3072 2017-11-23 [SC]
-      3F8EFC477F9D4D49AA6C308FB965D53DB907EF0E
-uid           [  充分  ] Alice (root) <alice@example.com>
-
-pub   rsa2048 2017-11-23 [SC]
-      A3CEFEEEDA222024F325C403DFFC3F67BBB3C083
-uid           [  究極  ] Alice (commit) <alice@example.com>
-sub   rsa2048 2017-11-23 [E]
+pub   dsa3072 2020-06-27 [SC] [有効期限: 2021-06-27]
+      B8AF88FC3448859FCF65810C20EDB41D5093CA8A
+uid           [  究極  ] Alice <alice@example.com>
+sub   elg3072 2020-06-27 [E]
 ```
+
+ちなみに `[SC]` や `[E]` は鍵の機能を示していて， `C` は証明， `S` は署名， `E` は暗号化を指す。
 
 引数なしで `--list-keys` コマンドを起動した場合は公開鍵の鍵束（`pubring.kbx`）にある鍵が全て列挙される。
 
@@ -367,10 +367,10 @@ sub   rsa2048 2017-11-23 [E]
 
 ```text
 $ gpg -K alice
-sec   rsa2048 2017-11-23 [SC]
-      A3CEFEEEDA222024F325C403DFFC3F67BBB3C083
-uid           [  究極  ] Alice (commit) <alice@example.com>
-ssb   rsa2048 2017-11-23 [E]
+sec   dsa3072 2020-06-27 [SC] [有効期限: 2021-06-27]
+      B8AF88FC3448859FCF65810C20EDB41D5093CA8A
+uid           [  究極  ] Alice <alice@example.com>
+ssb   elg3072 2020-06-27 [E]
 ```
 
 ### 副鍵の鍵指紋の表示 {#fingerprint}
@@ -379,11 +379,11 @@ ssb   rsa2048 2017-11-23 [E]
 
 ```text
 $ gpg --fingerprint --fingerprint alice
-pub   rsa2048 2017-11-30 [SC]
-      79FD 2B99 F3C6 2D2D 3B85  0BBC 93B3 5094 7582 0D5D
+pub   dsa3072 2020-06-27 [SC] [有効期限: 2021-06-27]
+      B8AF 88FC 3448 859F CF65  810C 20ED B41D 5093 CA8A
 uid           [  究極  ] Alice <alice@example.com>
-sub   rsa2048 2017-11-30 [E]
-      476E 9EA7 D703 F0BB 01B6  FA44 9278 B060 D202 3C53
+sub   elg3072 2020-06-27 [E]
+      7BB9 F625 7053 4A0F B297  ECA6 7792 0F61 EFE7 15CC
 ```
 
 ### パスフレーズの変更 {#change-passphrase}
@@ -406,31 +406,31 @@ $ gpg --passwd alice
 
 ```text
 $ gpg --fingerprint --fingerprint alice
-pub   rsa2048 2017-11-30 [SC]
-      79FD 2B99 F3C6 2D2D 3B85  0BBC 93B3 5094 7582 0D5D
+pub   dsa3072 2020-06-27 [SC] [有効期限: 2021-06-27]
+      B8AF 88FC 3448 859F CF65  810C 20ED B41D 5093 CA8A
 uid           [  究極  ] Alice <alice@example.com>
-sub   rsa2048 2017-11-30 [E]
-      476E 9EA7 D703 F0BB 01B6  FA44 9278 B060 D202 3C53
+sub   elg3072 2020-06-27 [E]
+      7BB9 F625 7053 4A0F B297  ECA6 7792 0F61 EFE7 15CC
 ```
 
 有効期限を2年（`2y`）に指定するなら，操作は以下の通り。
 
 ```text
-$ gpg --quick-set-expire 79FD2B99F3C62D2D3B850BBC93B3509475820D5D 2y
+$ gpg --quick-set-expire B8AF88FC3448859FCF65810C20EDB41D5093CA8A 2y
 
 $ gpg --list-keys alice
-pub   rsa2048 2017-11-30 [SC] [有効期限: 2019-11-30]
-      79FD2B99F3C62D2D3B850BBC93B3509475820D5D
+pub   dsa3072 2020-06-27 [SC] [有効期限: 2022-06-27]
+      B8AF88FC3448859FCF65810C20EDB41D5093CA8A
 uid           [  究極  ] Alice <alice@example.com>
-sub   rsa2048 2017-11-30 [E]
+sub   elg3072 2020-06-27 [E]
 
-$ gpg --quick-set-expire 79FD2B99F3C62D2D3B850BBC93B3509475820D5D 2y 476E9EA7D703F0BB01B6FA449278B060D2023C53
+$ gpg --quick-set-expire B8AF88FC3448859FCF65810C20EDB41D5093CA8A 2y 7BB9F62570534A0FB297ECA677920F61EFE715CC
 
 $ gpg --list-keys alice
-pub   rsa2048 2017-11-30 [SC] [有効期限: 2019-11-30]
-      79FD2B99F3C62D2D3B850BBC93B3509475820D5D
+pub   dsa3072 2020-06-27 [SC] [有効期限: 2022-06-27]
+      B8AF88FC3448859FCF65810C20EDB41D5093CA8A
 uid           [  究極  ] Alice <alice@example.com>
-sub   rsa2048 2017-11-30 [E] [有効期限: 2019-11-30]
+sub   elg3072 2020-06-27 [E] [有効期限: 2022-06-27]
 ```
 
 前半は主鍵，後半は（主鍵に紐づく）副鍵の有効期限を変更している。
@@ -444,33 +444,55 @@ sub   rsa2048 2017-11-30 [E] [有効期限: 2019-11-30]
 $ gpg --armor --export alice
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
-mQENBFofiskBCADjUvPHA3PNscg0K74/Uwxj46+oLsyIy7fYIp/4C4dHejcbbPjx
-VFeic9wQ4aQFp3VKjYgONgQrRo/9p40Ei1+PtMAV7D6Oy6dxlV8zyCJcSf74ahpB
-B15GyA7v4uvTf0Py+Ujyt241ik0fXeLEuwt7p4SIbgJnQs1Fb+61wo8UcCFOLJO5
-An6HjXNgNs6fFoiTad+T4PfaTbRHLfFPkoqmDUKWy40hjWl+Ui0QborXH+PUeUm9
-vgHbqZzS0QRDGI7rO9AeJ6LweBkP1A2qbDLyexS/F+WUEcY0b76IQM5XH0txwnnl
-uCPYcQfIGWce3US1GWJhChF9s/bMGVXOEJbvABEBAAG0GUFsaWNlIDxhbGljZUBl
-eGFtcGxlLmNvbT6JAVQEEwEIAD4CGwMFCwkIBwIGFQgJCgsCBBYCAwECHgECF4AW
-IQR5/SuZ88YtLTuFC7yTs1CUdYINXQUCWh+LMAUJA8JnZwAKCRCTs1CUdYINXcKT
-B/4tLFaPRe289GcX91yLJ/yPS0JvvJKyZzjpNqLbKHuQHPEqGromMGlP4LcaGdFL
-rVZ36W3kVk+75q8JFkld0eRS22vftjz6lA9lyb3W9lU1CayF5s3IsC/Ehj55uaHc
-OHnp6rl7zEeIdvca6yV0gwySs3j9VPHy58zNrpN/clHoB4Zozy6vCXFMShyLc/wF
-brPySf/5LP/642Uro92M2lbkIvZpDhZCVG7s7Ilz3BzsTTNMPkPd5yvdGa5lHQzK
-OmXHaxydOYbEWBgqRGqzEIIoLbEd8KHxJVIVDfcAQCjSWRUjAUSDLpBokGsKoQfp
-41NjWwjkIsfyJ2tDUeRPGYRbuQENBFofiskBCACzyYfIB+/ZwJBJXw7WMDlEKdnz
-L4abwVpw9rBGAWGXjaC/cu7l0svNilXyTgZNq4uKddJ6aYjs7of0SaBl20I8aj5G
-nbw0pG+KkoYhfpZaAZc+bcb+6SprSbAsRhrZ810XNIBUMa8XWsUDn1uv70vGBWBv
-keKZZ7FJ4kuQe0nTONmvQ4EwFekV+IXT5LwdgmPWF0QR7cO8jqeb6psHYauktuzZ
-2ul4nMLmLLf/m4DwiCAbEdToBXqRA30KshtgBYYQwL1YkWYgknnAdhHyeu6ybJvv
-Y57JYzotjFOlnFhtcGITESEWv+pnj0RJUUrlVwLkJhUOKMwL+sbhw0s5+m27ABEB
-AAGJATwEGAEIACYCGwwWIQR5/SuZ88YtLTuFC7yTs1CUdYINXQUCWh+LhAUJA8Jn
-uwAKCRCTs1CUdYINXXuvB/9IKK3SLgJ6lOc2Vq73rGYsrDqfjYt5rCDXhjIaFRE7
-LYmFJcGL5CHJTae438XtAixa+mu6PYG28eknjZs58Cx/bSj9uS6NiLAPCgyTAtvg
-ao6usECOm9Y0xf2+ZcZ9Uji+wsCAFmxRC9je0yUErVyuyQRqzNtdqytnszoTzvb9
-iOP8sX/YNrjC83BtZ4Vg3fzAu8qvwbObgSbws5M8TBwIKd4WFTjOtSU6F8aioJ1g
-mpfd8KGljHkzC0oG8l8fZiTNYqkIMbfyfPpVwsSqsysLKofifFT+mNs79DJdqNFO
-HA2W4WzekYmWWmgK7J8kXHYkxUJA6VpSmNAKwUKqXbNV
-=hneF
+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
+=nDyQ
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
@@ -480,11 +502,13 @@ HA2W4WzekYmWWmgK7J8kXHYkxUJA6VpSmNAKwUKqXbNV
 
 秘密鍵をエクスポートする場合は `--export-secret-key` コマンドを使う（パスフレーズ入力あり）。
 
-公開鍵をファイル等で配布する場合は `--export` コマンドの出力をファイルに落とせばよい。
+公開鍵をファイル等で配布する場合は `--export` コマンドの出力をファイルにリダイレクトすればよい。
 
 ```text
 $ gpg -a --export alice > alice-key.asc
 ```
+
+ASCII Armor 形式のテキスト・ファイルの拡張子は慣習的に `.asc` とすることが多い。
 
 ### 公開鍵をインポートする {#import}
 
@@ -502,19 +526,20 @@ cat alice-key.asc | gpg --import
 
 などとできる。
 また Web ページ上に公開鍵のファイルを置いている場合は `--fetch-keys` コマンドで直接インポートすることもできる。
+以下は [JPCERT/CC の公開鍵](https://www.jpcert.or.jp/jpcert-pgp.html "JPCERT コーディネーションセンター PGP公開鍵")をサイトからインポートしたところ。
 
 ```text
-$ gpg --fetch-keys https://baldanders.info/pubkeys/spiegel.asc
+$ gpg --fetch-keys https://www.jpcert.or.jp/keys/info-0x69ECE048.asc
 ```
 
-インポートする鍵が既に鍵束にある場合でも，単純な上書きではなく， [GnuPG] がいい感じにマージしてくれる。
+インポートする鍵が既に鍵束にある場合でも，単純な上書きではなく， [GnuPG] がいい感じにマージしてくれるのでご安心を。
 
 ### 公開鍵を鍵サーバに送信する {#send-keys}
 
 鍵束にある公開鍵を鍵サーバに送信するには `--send-keys` コマンドを使う。
 
 ```text
-$ gpg --keyserver keys.gnupg.net --send-keys 7E20B81C
+$ gpg --keyserver keys.gnupg.net --send-keys 69ECE048
 ```
 
 鍵の指定には鍵Dを使う。
@@ -540,7 +565,7 @@ keyserver  keys.gnupg.net
 短縮名は `--recv-keys`。
 
 ```text
-$ gpg --keyserver keys.gnupg.net --recv-keys 7E20B81C
+$ gpg --keyserver keys.gnupg.net --recv-keys 69ECE048
 ```
 
 送信のときと同じく，こちらも鍵の指定には鍵Dを使う。
@@ -686,20 +711,25 @@ minimize    使えないユーザIDをコンパクトにし、すべての署名
 $ gpg -a --recipient alice -e plain-data
 -----BEGIN PGP MESSAGE-----
 
-hQIOAzn9g6TGzi9EEAgAsjEZxs4vutjg1U6BooimWrX3immaTL958Uheqcr7risr
-2MCfVzzHuZtOpS4/lk/K4zk2xCxR3/NreZKlGrWZ205RCUJEY6Hy8GtrjJ2yilC6
-ZV2U/ICRrpoTJm/J/R7W+99arXhP3zDSD2k5Fx9AMJ+OaKuHaBTxJQUtESV8J7Uk
-RhyxQvJPXIfNRG4ZrfTzFzVOV1s9EeFR4UQHhQnp2q+7LA3qrfEh/y/sj4fs6o3G
-KYcRVvUeAYsC1NGGcmpK6Q33oWJxN9vxl+NYlLebtCDS6GYl/bMw+YCXtfMh+cA2
-aLiGUqXZT0Nhb/zVX8zlnP6CZE2kxS60LmTWv11DMQf/UCjdnIM80GKFvvy7/Vas
-OlAwzQv2sWgI4ayL/VvslGVixSATsLD9DREjGo2/RfyDX/aLRsykK7H+Lr/+a3kp
-LQzviY0ogYem1jCcqJs6wKMh1B+M+Ukkk9kVrgXelM6bmPT93Sb54LW9VVCf0GFK
-ntVqfAkhOSOt3p+mHGH0hAmzGGVA9FGU5dIpvWUrMRdoBBJXj3akFVfLFv81QU9H
-j3CCVHvCnGxBDtXWJV9CqVYWARit72R8FOLonpkFTRJ/IvFpePTccsMfsVvvBxS0
-jt88EQAZ7bpdoJZ9qklr7LPMcNzXfZHdZLzNihbLhgEpVkfxI1vfflS5B5p1fIrK
-/NJIAXJc8rgTJ0uI6MyYsgmJS2IVDXzwlsZWDLE9D3cbB8Xa53mlnPvmHgHwxAEn
-Ic3OL8vsjZz9IcRksLr38/nbWhsHIUOrCovj
-=jIJs
+hQMOA3eSD2Hv5xXMEAwAkpcgXFe/zIlUyibCRLxQAK5KNYvzBxcoaxyk0lEsoUGt
+D7F1bLF64ha9J/FuzN3B63LsmqTw1I6tBIjq2OrSMvLAN10B6bfUtclZGRnK/H8J
+oRMYQUuteUUOcVR2v3MjBkRDrxMQDBfJwIx5N13R4bJrD/k+unfwo82JqiT/LuET
+cO7KLgiyf+mBpu1ln90QfYsNtQIZMOPdxutqsIAnZxM0gFjKLBmHBhBG85v4QonS
+KUqGZfPzxQfDW3t6gMfbkeDNqnldDMJyY0nXqdkaSznAXIJAT9TU7D2NlUaF7C8p
+51O5NnK/+8NYSWsrzkcL+taw3i83jcZFYzcI2oqjuC6wxrNW9SQ1Jr6QqNSanWot
+ieLtMGnfxXizEhYaZfiU+y2ebZFxOlS1SigPc+CfEiKKYlQ0DrnAyjxkVKFtp5oG
+UwA3n1rnsJZO7m7vwnpYlu25nlkM5y+AqjT6zqtPACsjBzzWG8nsMq6kMWvKYva/
+Fj0oDxtMJw2jAoIGITKzC/94tFTxs1WoLrMl1Lgjrr07xLqfp0mzFL1cBLK2YaRn
+rB2w0MOYFFjyMxPXPx4sUv22U8bfz3Vu/bD7I+0Jea6CUKzDjemdZlxYENPDvrX3
+XoKUEwdslrq98DdhH7xcBFC64gv2DyyP6TSpnkFb8sV3DUnQ+RiFkYZN0HKaqHx6
+EUlzMekSl+wUoxD/sGA7tgkjzYg+VHjdXWiCRpDTDIC9wpInP2il40BBWf9KCLCq
+K5hzERr5qepCg0RUs0kgjOjeAngEuAjMrHJJo3iQpiyFJq2Q0b/NAMJiBP0j88MY
+uM4sr8DJz1rfvQyLEfI2Satx8CjdXEkSwekxwBUzGSyij5NPJVLYFswTxhLrVUfq
+GSZAO1tbD++EU9ViSc0pcsuDNTcWPsba1fcotAVtCIZXqUGCNULuOZdOX4n/1oSt
+eu2sWmgrF8z1qTCobcYSiC8F1t9DkbOtot49izVqbE8uRkZ8U1kn5VbDgPCGVrtU
+DmOsVsgqcj8+MioyTDVMYqXSRwFLJEbBJJegDyjuVdVwSN9lqROPsuqHP/l8mLPs
+7KTQ/+Vi94pFitZmp7jrMc9BgDQwZgox81uNI2c2H9UsEl60sKqWYyIk
+=wqIs
 -----END PGP MESSAGE-----
 ```
 
@@ -709,20 +739,25 @@ Ic3OL8vsjZz9IcRksLr38/nbWhsHIUOrCovj
 $ echo Hello world | gpg -a --recipient alice -e
 -----BEGIN PGP MESSAGE-----
 
-hQIOAzn9g6TGzi9EEAgAsjEZxs4vutjg1U6BooimWrX3immaTL958Uheqcr7risr
-2MCfVzzHuZtOpS4/lk/K4zk2xCxR3/NreZKlGrWZ205RCUJEY6Hy8GtrjJ2yilC6
-ZV2U/ICRrpoTJm/J/R7W+99arXhP3zDSD2k5Fx9AMJ+OaKuHaBTxJQUtESV8J7Uk
-RhyxQvJPXIfNRG4ZrfTzFzVOV1s9EeFR4UQHhQnp2q+7LA3qrfEh/y/sj4fs6o3G
-KYcRVvUeAYsC1NGGcmpK6Q33oWJxN9vxl+NYlLebtCDS6GYl/bMw+YCXtfMh+cA2
-aLiGUqXZT0Nhb/zVX8zlnP6CZE2kxS60LmTWv11DMQf/UCjdnIM80GKFvvy7/Vas
-OlAwzQv2sWgI4ayL/VvslGVixSATsLD9DREjGo2/RfyDX/aLRsykK7H+Lr/+a3kp
-LQzviY0ogYem1jCcqJs6wKMh1B+M+Ukkk9kVrgXelM6bmPT93Sb54LW9VVCf0GFK
-ntVqfAkhOSOt3p+mHGH0hAmzGGVA9FGU5dIpvWUrMRdoBBJXj3akFVfLFv81QU9H
-j3CCVHvCnGxBDtXWJV9CqVYWARit72R8FOLonpkFTRJ/IvFpePTccsMfsVvvBxS0
-jt88EQAZ7bpdoJZ9qklr7LPMcNzXfZHdZLzNihbLhgEpVkfxI1vfflS5B5p1fIrK
-/NJIAXJc8rgTJ0uI6MyYsgmJS2IVDXzwlsZWDLE9D3cbB8Xa53mlnPvmHgHwxAEn
-Ic3OL8vsjZz9IcRksLr38/nbWhsHIUOrCovj
-=jIJs
+hQMOA3eSD2Hv5xXMEAwAkpcgXFe/zIlUyibCRLxQAK5KNYvzBxcoaxyk0lEsoUGt
+D7F1bLF64ha9J/FuzN3B63LsmqTw1I6tBIjq2OrSMvLAN10B6bfUtclZGRnK/H8J
+oRMYQUuteUUOcVR2v3MjBkRDrxMQDBfJwIx5N13R4bJrD/k+unfwo82JqiT/LuET
+cO7KLgiyf+mBpu1ln90QfYsNtQIZMOPdxutqsIAnZxM0gFjKLBmHBhBG85v4QonS
+KUqGZfPzxQfDW3t6gMfbkeDNqnldDMJyY0nXqdkaSznAXIJAT9TU7D2NlUaF7C8p
+51O5NnK/+8NYSWsrzkcL+taw3i83jcZFYzcI2oqjuC6wxrNW9SQ1Jr6QqNSanWot
+ieLtMGnfxXizEhYaZfiU+y2ebZFxOlS1SigPc+CfEiKKYlQ0DrnAyjxkVKFtp5oG
+UwA3n1rnsJZO7m7vwnpYlu25nlkM5y+AqjT6zqtPACsjBzzWG8nsMq6kMWvKYva/
+Fj0oDxtMJw2jAoIGITKzC/94tFTxs1WoLrMl1Lgjrr07xLqfp0mzFL1cBLK2YaRn
+rB2w0MOYFFjyMxPXPx4sUv22U8bfz3Vu/bD7I+0Jea6CUKzDjemdZlxYENPDvrX3
+XoKUEwdslrq98DdhH7xcBFC64gv2DyyP6TSpnkFb8sV3DUnQ+RiFkYZN0HKaqHx6
+EUlzMekSl+wUoxD/sGA7tgkjzYg+VHjdXWiCRpDTDIC9wpInP2il40BBWf9KCLCq
+K5hzERr5qepCg0RUs0kgjOjeAngEuAjMrHJJo3iQpiyFJq2Q0b/NAMJiBP0j88MY
+uM4sr8DJz1rfvQyLEfI2Satx8CjdXEkSwekxwBUzGSyij5NPJVLYFswTxhLrVUfq
+GSZAO1tbD++EU9ViSc0pcsuDNTcWPsba1fcotAVtCIZXqUGCNULuOZdOX4n/1oSt
+eu2sWmgrF8z1qTCobcYSiC8F1t9DkbOtot49izVqbE8uRkZ8U1kn5VbDgPCGVrtU
+DmOsVsgqcj8+MioyTDVMYqXSRwFLJEbBJJegDyjuVdVwSN9lqROPsuqHP/l8mLPs
+7KTQ/+Vi94pFitZmp7jrMc9BgDQwZgox81uNI2c2H9UsEl60sKqWYyIk
+=wqIs
 -----END PGP MESSAGE-----
 ```
 
@@ -749,9 +784,9 @@ default-recipient-self
 $ echo Hello world | gpg -a -c
 -----BEGIN PGP MESSAGE-----
 
-jA0EBwMChZ5yarrU9aTF0kIBioFpcLD/laFWIMDVz7AzkzQl+Xwnao+iKpE+yaGo
-sWe2GdB8IGA0O+CAqQYqwQTLKFVtWmAJKMi1hXsb/fuPpzU=
-=5pGP
+jA0EBwMCgMkCBCmvi5D/0kEBHskD5D+oRASdhy04sJQ6EX6hObuqT170+wr7wB4f
+XTDWFf7c6XXN0LABKN6z3kYxz2MTRC3cqo2ExRF30RHpeA==
+=xvgI
 -----END PGP MESSAGE-----
 ```
 
@@ -760,34 +795,31 @@ sWe2GdB8IGA0O+CAqQYqwQTLKFVtWmAJKMi1hXsb/fuPpzU=
 
 ## 暗号データの復号 {#decrypt}
 
-暗号データのf区号には `--decrypt` コマンドを使う。
+暗号データのf区号には `--decrypt` コマンドを使う（パスフレーズ入力あり）。
 短縮名は `-d`。
 
 ```text
 $ echo Hello world | gpg -r alice -e -a > alice-enc.asc
 
 $ gpg -d alice-enc.asc
-gpg: 2048-ビットELG鍵, ID 39FD83A4C6CE2F44, 日付2017-11-30に暗号化されました
+gpg: 3072-ビットELG鍵, ID 77920F61EFE715CC, 日付2020-06-27に暗号化されました
       "Alice <alice@example.com>"
 Hello world
 ```
-
-（パスフレーズ入力あり）
 
 復号したデータはファイルにリダイレクトすればいいのだが， Windows の場合は安全のため `--output` オプションを使うことをお勧めする。
 短縮名は `-o`。
 
 ```text
 $ gpg -o out.txt -d alice-enc.asc
-gpg: 2048-ビットELG鍵, ID 39FD83A4C6CE2F44, 日付2017-11-30に暗号化されました
+gpg: 3072-ビットELG鍵, ID 77920F61EFE715CC, 日付2020-06-27に暗号化されました
       "Alice <alice@example.com>"
-Hello world
 
 $ cat out.txt
 Hello world
 ```
 
-セッション鍵のみで暗号化した場合も同じコマンドで復号できる。
+セッション鍵のみで暗号化した場合も同じコマンドで復号できる（パスフレーズ入力あり）。
 
 ```text
 $ echo Hello world | gpg -a -c > alice-sym-enc.asc
@@ -797,8 +829,6 @@ gpg: AES暗号化済みデータ
 gpg: 1 個のパスフレーズで暗号化
 Hello world
 ```
-
-（パスフレーズ入力あり）
 
 ## データへの電子署名と検証 {#sign}
 
@@ -817,10 +847,10 @@ Hash: SHA256
 Hello world
 -----BEGIN PGP SIGNATURE-----
 
-iIgEAREIADAWIQTvp6IB8w6ZkSW4Whx6nWuc4jC66QUCWh/IZhIcYWxpY2VAZXhh
-bXBsZS5jb20ACgkQep1rnOIwuuns2QD/RWTidtZjon5cPaiGJHM6oYnYx4HpQXNw
-/xABYweyKdgA/3ArBLWmGhGq1aB8au7bixK91IdIRyhLC0DDJhXG2vM/
-=sLc9
+iIgEAREIADAWIQS4r4j8NEiFn89lgQwg7bQdUJPKigUCXvaY4hIcYWxpY2VAZXhh
+bXBsZS5jb20ACgkQIO20HVCTyorOTQEAyrm2FVfF3SMA34mh0+B8iRDj+hRr9fL5
+WXI/DhtRkFsBAOLTv1riIFb3yeodDX6zUgNkISGWQM1dSLDILeEpVOTt
+=XyJW
 -----END PGP SIGNATURE-----
 ```
 
@@ -832,8 +862,8 @@ bXBsZS5jb20ACgkQep1rnOIwuuns2QD/RWTidtZjon5cPaiGJHM6oYnYx4HpQXNw
 
 ```text
 $ echo Hello world | gpg -u alice --clear-sign | gpg --verify
-gpg: 11/30/17 18:02:44 東京 (標準時)に施された署名
-gpg:                DSA鍵EFA7A201F30E999125B85A1C7A9D6B9CE230BAE9を使用
+gpg: 2020年06月27日 09時55分43秒 JSTに施された署名
+gpg:                DSA鍵B8AF88FC3448859FCF65810C20EDB41D5093CA8Aを使用
 gpg:                発行者"alice@example.com"
 gpg: "Alice <alice@example.com>"からの正しい署名 [究極]
 ```
@@ -845,8 +875,8 @@ gpg: "Alice <alice@example.com>"からの正しい署名 [究極]
 ```text
 $ echo Hello world | gpg -u alice --clear-sign | gpg -d
 Hello world
-gpg: 11/30/17 18:05:11 東京 (標準時)に施された署名
-gpg:                DSA鍵EFA7A201F30E999125B85A1C7A9D6B9CE230BAE9を使用
+gpg: 2020年06月27日 09時56分17秒 JSTに施された署名
+gpg:                DSA鍵B8AF88FC3448859FCF65810C20EDB41D5093CA8Aを使用
 gpg:                発行者"alice@example.com"
 gpg: "Alice <alice@example.com>"からの正しい署名 [究極]
 ```
@@ -883,8 +913,8 @@ $ gpg -u alice -b hello.txt
 ```text
 $ gpg --verify hello.txt.sig
 gpg: 署名されたデータが'hello.txt'にあると想定します
-gpg: 11/30/17 18:31:17 東京 (標準時)に施された署名
-gpg:                DSA鍵EFA7A201F30E999125B85A1C7A9D6B9CE230BAE9を使用
+gpg: 2020年06月27日 09時58分05秒 JSTに施された署名
+gpg:                DSA鍵B8AF88FC3448859FCF65810C20EDB41D5093CA8Aを使用
 gpg:                発行者"alice@example.com"
 gpg: "Alice <alice@example.com>"からの正しい署名 [究極]
 ```
@@ -894,8 +924,8 @@ gpg: "Alice <alice@example.com>"からの正しい署名 [究極]
 
 ```text
 $ gpg --verify hello.txt.sig hello.txt
-gpg: 11/30/17 18:31:17 東京 (標準時)に施された署名
-gpg:                DSA鍵EFA7A201F30E999125B85A1C7A9D6B9CE230BAE9を使用
+gpg: 2020年06月27日 09時58分05秒 JSTに施された署名
+gpg:                DSA鍵B8AF88FC3448859FCF65810C20EDB41D5093CA8Aを使用
 gpg:                発行者"alice@example.com"
 gpg: "Alice <alice@example.com>"からの正しい署名 [究極]
 ```
@@ -905,10 +935,10 @@ gpg: "Alice <alice@example.com>"からの正しい署名 [究極]
 ただし出力は全く同じ。
 
 ```text
-$ gpg -d hello.txt.sig
+$  gpg -d hello.txt.sig
 gpg: 署名されたデータが'hello.txt'にあると想定します
-gpg: 11/30/17 18:31:17 東京 (標準時)に施された署名
-gpg:                DSA鍵EFA7A201F30E999125B85A1C7A9D6B9CE230BAE9を使用
+gpg: 2020年06月27日 09時58分05秒 JSTに施された署名
+gpg:                DSA鍵B8AF88FC3448859FCF65810C20EDB41D5093CA8Aを使用
 gpg:                発行者"alice@example.com"
 gpg: "Alice <alice@example.com>"からの正しい署名 [究極]
 ```
@@ -939,8 +969,8 @@ $ gpg -u alice -s hello.txt
 
 ```text
 $ gpg --verify hello.txt.gpg
-gpg: 11/30/17 19:21:22 東京 (標準時)に施された署名
-gpg:                RSA鍵0200ACBA190D0FB1D4EC7C02DC1D13A6CCA86E21を使用
+gpg: 2020年06月27日 10時00分45秒 JSTに施された署名
+gpg:                DSA鍵B8AF88FC3448859FCF65810C20EDB41D5093CA8Aを使用
 gpg:                発行者"alice@example.com"
 gpg: "Alice <alice@example.com>"からの正しい署名 [究極]
 ```
@@ -951,8 +981,8 @@ gpg: "Alice <alice@example.com>"からの正しい署名 [究極]
 ```text
 $ gpg -d hello.txt.gpg
 Hello world
-gpg: 11/30/17 19:21:22 東京 (標準時)に施された署名
-gpg:                RSA鍵0200ACBA190D0FB1D4EC7C02DC1D13A6CCA86E21を使用
+gpg: 2020年06月27日 10時00分45秒 JSTに施された署名
+gpg:                DSA鍵B8AF88FC3448859FCF65810C20EDB41D5093CA8Aを使用
 gpg:                発行者"alice@example.com"
 gpg: "Alice <alice@example.com>"からの正しい署名 [究極]
 ```
@@ -977,11 +1007,11 @@ $ gpg -u alice -r bob -se hello.txt
 
 ```text
 $ gpg -d hello.txt.gpg
-gpg: 2048-ビットRSA鍵, ID D74C71530446FD66, 日付2017-11-30に暗号化されました
-      "Bob <bob@example.com>"
+gpg: 3072-ビットRSA鍵, ID 02F4454D89E9C0D6, 日付2020-06-27に暗号化されました
+      "Bob <bob@bob@example.com>"
 Hello world
-gpg: 11/30/17 19:34:06 東京 (標準時)に施された署名
-gpg:                RSA鍵0200ACBA190D0FB1D4EC7C02DC1D13A6CCA86E21を使用
+gpg: 2020年06月27日 10時14分56秒 JSTに施された署名
+gpg:                DSA鍵B8AF88FC3448859FCF65810C20EDB41D5093CA8Aを使用
 gpg:                発行者"alice@example.com"
 gpg: "Alice <alice@example.com>"からの正しい署名 [究極]
 ```
@@ -998,8 +1028,8 @@ $ gpg -d hello.txt.gpg
 gpg: AES暗号化済みデータ
 gpg: 1 個のパスフレーズで暗号化
 Hello world
-gpg: 11/30/17 19:47:57 東京 (標準時)に施された署名
-gpg:                RSA鍵0200ACBA190D0FB1D4EC7C02DC1D13A6CCA86E21を使用
+gpg: 2020年06月27日 10時16分16秒 JSTに施された署名
+gpg:                DSA鍵B8AF88FC3448859FCF65810C20EDB41D5093CA8Aを使用
 gpg:                発行者"alice@example.com"
 gpg: "Alice <alice@example.com>"からの正しい署名 [究極]
 ```
@@ -1016,8 +1046,8 @@ gpg: "Alice <alice@example.com>"からの正しい署名 [究極]
 ```text
 これは失効証明書でこちらのOpenPGP鍵に対するものです:
 
-pub   rsa2048 2017-11-30 [SC]
-      0200ACBA190D0FB1D4EC7C02DC1D13A6CCA86E21
+pub   dsa3072 2020-06-27 [S] [有効期限: 2021-06-27]
+      B8AF88FC3448859FCF65810C20EDB41D5093CA8A
 uid          Alice <alice@example.com>
 
 失効証明書は "殺すスイッチ" のようなもので、鍵がそれ以上使えない
@@ -1036,14 +1066,10 @@ uid          Alice <alice@example.com>
 :-----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: This is a revocation certificate
 
-iQE2BCABCAAgFiEEAgCsuhkND7HU7HwC3B0TpsyobiEFAlof25ICHQAACgkQ3B0T
-psyobiHRgwf/cNwI01IlXP1dw6op6IgIv3r8nT9XXU4S1WjCvT7yoNs0u+BLHELU
-1V16vY9FcnaiNzz/xkSaAVpY+X1O1G7RZ7oYUMA6yMmeUH2fdP7eh4RFM2RZtlq+
-HQAoyJb6PVu3uIsfqZh2uMH5v3cUIpRI0dwAZG9hQkg0uZ2a1SGKuSjN9voC9vsE
-T55v2WSAtOeleMsNxmywcYGGQBm8YV1F8AC+7K5oc+dmciTBX1IpVHMHkxccObfy
-yrpaQGEWJ39Bp8aR+W6Ywe2Bcpbz1tKWmXmXh4iMYEXDBqs/tnpA30dWJYAiLdCA
-OYcNJtm9leku3UYJGiTSlxZWmImOEgT8ng==
-=xiB6
+iHgEIBEIACAWIQS4r4j8NEiFn89lgQwg7bQdUJPKigUCXvaS7wIdAAAKCRAg7bQd
+UJPKihg/AP9enGjHPngyJLQXJmQhygq7FQ6GmqAmDrvPRwYf5eLLQQD+IAgyE+ho
+0nWE84Q2/HosO6a8as+0CFyJWzS1RkXUa5g=
+=Zck3
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
@@ -1057,20 +1083,24 @@ OYcNJtm9leku3UYJGiTSlxZWmImOEgT8ng==
 の先頭のコロン（`:`）を削除して使うこと。
 
 ```text
-$ gpg --import openpgp-revocs.d/0200ACBA190D0FB1D4EC7C02DC1D13A6CCA86E21.rev
-gpg: 鍵DC1D13A6CCA86E21:"Alice <alice@example.com>"失効証明書をインポートしました
-gpg:           処理数の合計: 1
-gpg:         新しい鍵の失効: 1
+$ gpg --import openpgp-revocs.d/B8AF88FC3448859FCF65810C20EDB41D5093CA8A.rev
+gpg: 鍵20EDB41D5093CA8A:"Alice <alice@example.com>"失効証明書をインポートしました
+gpg: 処理数の合計: 1
+gpg:    新しい鍵の失効: 1
 
 $ gpg -k alice
-pub   rsa2048 2017-11-30 [SC] [失効: 2017-11-30]
-      0200ACBA190D0FB1D4EC7C02DC1D13A6CCA86E21
+pub   dsa3072 2020-06-27 [SC] [失効: 2020-06-27]
+      B8AF88FC3448859FCF65810C20EDB41D5093CA8A
 uid           [  失効  ] Alice <alice@example.com>
 
-$ gpg -a --export alice > alice-rev.asc
+$ gpg --send-keys B8AF88FC3448859FCF65810C20EDB41D5093CA8A
 ```
 
-**失効した公開鍵を配布するのを忘れずに！**
+{{< div-gen type="markdown" class="center caution" >}}
+失効した公開鍵を配布するのを忘れずに！
+{{< /div-gen >}}
+
+### --generate-revocation コマンド {#gen-revoke}
 
 失効証明書は `--generate-revocation` コマンドで作成することもできる。
 短縮名は `--gen-revoke`。
@@ -1078,7 +1108,7 @@ $ gpg -a --export alice > alice-rev.asc
 ```test
 $ gpg --gen-revoke alice
 
-sec  rsa2048/F3B15FCBA57934CF 2017-11-30 Alice <alice@example.com>
+sec  dsa3072/20EDB41D5093CA8A 2020-06-27 Alice <alice@example.com>
 
 この鍵に対する失効証明書を作成しますか? (y/N) y
 失効の理由を選択してください:
@@ -1090,24 +1120,19 @@ sec  rsa2048/F3B15FCBA57934CF 2017-11-30 Alice <alice@example.com>
 (ここではたぶん1を選びたいでしょう)
 あなたの決定は? 1
 予備の説明を入力。空行で終了:
->
+> for example
+> 
 失効理由: 鍵(の信頼性)が損なわれています
-(説明はありません)
+for example
 よろしいですか? (y/N) y
 ASCII外装出力を強制します。
-gpg: AllowSetForegroundWindow(11408) failed: アクセスが拒否されました。
-
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: This is a revocation certificate
 
-iQE2BCABCAAgFiEErVfNdsSCr6H+LTqu87Ffy6V5NM8FAlof5W0CHQIACgkQ87Ff
-y6V5NM+rwgf/dhNTJlYaDdt52CkS8ckSjhrwK3t56mei+sXaic89mYG6RZsJJeAg
-+/KAZbruQZqcYAYYw9jOM0UZpysBvZRRfHj7v44FbcJX7GJORDv3lgtQ0nANwHVN
-DXzjpuxBTXGHkBKaOkJ/K5FKGxzFCg+uxJbFh8S710UgS7eg499X+wuKUYuC5orT
-n8qdTvehxLf6hfznCA8fgkSP4VFh1X9NWXBcuH1kogAdOTfTcveY/qC2km/i4SfY
-6x/s4pQvwAIS682dGaqXro0pODsi5Am43xIZeOJaNui7Ear98zB6S/I0Cbp/knzr
-kAc/Jx5aYcyrXqcZtxNwHF+oflpRWyd0KA==
-=wLMC
+iIMEIBEIACsWIQS4r4j8NEiFn89lgQwg7bQdUJPKigUCXvafEQ0dAmZvciBleGFt
+cGxlAAoJECDttB1Qk8qKbacA+wd+SaX+khrq6mz4G9NlZio8jcmtHvF5RFncq4wl
+UZ/MAP42/Kkuy249M9ZDHQAnTd7Yb3NbuBcphEqJ1iPIZ6niYg==
+=AIvD
 -----END PGP PUBLIC KEY BLOCK-----
 失効証明書を作成しました。
 
@@ -1119,6 +1144,30 @@ kAc/Jx5aYcyrXqcZtxNwHF+oflpRWyd0KA==
 ```
 
 このうち ASCII Armor 形式の部分をコピペして使えばよい。
+ちなみに，この失効証明書の中身を拙作 [gpgpdump] で覗くとこんな感じになる。
+
+```text
+$ gpgpdump -f rev.txt --indent 2
+Signature Packet (tag 2) (131 bytes)
+  Version: 4 (current)
+  Signiture Type: Key revocation signature (0x20)
+  Public-key Algorithm: DSA (Digital Signature Algorithm) (pub 17)
+  Hash Algorithm: SHA2-256 (hash 8)
+  Hashed Subpacket (43 bytes)
+    Issuer Fingerprint (sub 33) (21 bytes)
+      Version: 4 (need 20 octets length)
+      Fingerprint (20 bytes)
+        b8 af 88 fc 34 48 85 9f cf 65 81 0c 20 ed b4 1d 50 93 ca 8a
+    Signature Creation Time (sub 2): 2020-06-27T10:21:21+09:00
+    Reason for Revocation (sub 29): Key material has been compromised (key revocations) (2) (12 bytes)
+      Additional information: for example
+  Unhashed Subpacket (10 bytes)
+    Issuer (sub 16): 0x20edb41d5093ca8a
+  Hash left 2 bytes
+    6d a7
+  DSA value r (251 bits)
+  DSA value s (254 bits)
+```
 
 鍵作成時に作られた失効証明書は別の場所に補完しておくことをお勧めする。
 もし失効が必要になった時に時間的な余裕があれば `--generate-revocation` コマンドで失効証明書を（失効理由も含める形で）作成し，即失効，配布を行うのがいいと思う。
@@ -1139,6 +1188,7 @@ kAc/Jx5aYcyrXqcZtxNwHF+oflpRWyd0KA==
 [RFC 6637]: https://tools.ietf.org/html/rfc6637 "RFC 6637 - Elliptic Curve Cryptography (ECC) in OpenPGP"
 [RFC 1991]: https://tools.ietf.org/html/rfc1991 "RFC 1991 - PGP Message Exchange Formats"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
+[gpgpdump]: https://github.com/spiegel-im-spiegel/gpgpdump "spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer"
 
 ## 参考図書
 
