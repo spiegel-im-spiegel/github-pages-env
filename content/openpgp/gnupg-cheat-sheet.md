@@ -83,7 +83,25 @@ tags = [
 ただ Phil Zimmermann 氏が暗号特許について迂闊だったため PGP は長く不遇な扱いを受けることになる。
 
 当時の PGP の仕様を知財的に安全なものとして再構成したのが [OpenPGP] である。
-更に，その実装である [GnuPG] は GNU プロジェクトの一部として [FSF (Free Software Foundation)](https://www.fsf.org/) が著作権を保有し GNU GPLv3 の下にライセンスされている。
+更に，その実装である [GnuPG] は GNU プロジェクトの一部として [FSF (Free Software Foundation)](https://www.fsf.org/) が著作権を保有し GPLv3 の下にライセンスされている。
+
+```text
+$ gpg --version
+gpg (GnuPG) 2.2.19
+libgcrypt 1.8.5
+Copyright (C) 2019 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Home: /home/username/.gnupg
+サポートしているアルゴリズム:
+公開鍵: RSA, ELG, DSA, ECDH, ECDSA, EDDSA
+暗号方式: IDEA, 3DES, CAST5, BLOWFISH, AES, AES192, AES256,
+      TWOFISH, CAMELLIA128, CAMELLIA192, CAMELLIA256
+ハッシュ: SHA1, RIPEMD160, SHA256, SHA384, SHA512, SHA224
+圧縮: 無圧縮, ZIP, ZLIB, BZIP2
+```
 
 ちなみに [OpenPGP] の実装としては他にも [OpenPGP.js](http://openpgpjs.org/ "OpenPGP.js | OpenPGP JavaScript Implementation") や [Sequoia-PGP](https://sequoia-pgp.org/) など様々なものがある。
 現在の PGP も [OpenPGP] 実装のひとつとして Symantec 社が[販売](https://www.symantec.com/products/encryption)している。
