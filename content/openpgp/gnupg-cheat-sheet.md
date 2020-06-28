@@ -718,7 +718,7 @@ minimize    使えないユーザIDをコンパクトにし、すべての署名
 
 ハイブリッド暗号は [OpenPGP] の基本機能で，平文を暗号化する「セッション鍵」とセッション鍵を暗号化する公開鍵で構成される。
 
-{{< fig-img src="https://baldanders.info/spiegel/pgpdump/hybrid-enc.svg" width="715" title="「わかる！ OpenPGP 暗号」より" link="https://baldanders.info/spiegel/cc-license/" >}}
+{{< fig-img src="https://baldanders.info/spiegel/openpgp/hybrid-enc.svg" width="715" title="「わかる！ OpenPGP 暗号」より" link="https://baldanders.info/spiegel/openpgp/" >}}
 
 セッション鍵は [GnuPG] が自動的にし生成するのでコマンドラインではセッション鍵を暗号化する公開鍵を指定する。
 
@@ -781,6 +781,20 @@ DmOsVsgqcj8+MioyTDVMYqXSRwFLJEbBJJegDyjuVdVwSN9lqROPsuqHP/l8mLPs
 
 とすることもできる。
 
+ちなみに，この暗号データの中身を拙作 [gpgpdump] で覗くとこんな感じになる。
+
+```text
+$ echo Hello world | gpg -a --recipient alice -e | gpgpdump --indent 2
+Public-Key Encrypted Session Key Packet (tag 1) (782 bytes)
+  Version: 3 (current)
+  Key ID: 0x77920f61efe715cc
+  Public-key Algorithm: Elgamal (Encrypt-Only) (pub 16)
+  ElGamal g^k mod p (3072 bits)
+  ElGamal m * y^k mod p (3071 bits)
+Sym. Encrypted Integrity Protected Data Packet (tag 18) (71 bytes)
+  Encrypted data: sym alg is specified in pub-key encrypted session key (71 bytes)
+```
+
 `--recipient` がセッション鍵の暗号化を行う公開鍵を指定するオプションである。
 短縮名は `-r`。
 `--recipient` オプションは複数指定できる。
@@ -795,7 +809,7 @@ default-recipient-self
 
 ### セッション鍵のみで暗号化する {#symmetric}
 
-公開鍵は使わずセッション鍵のみで暗号化を行う場合は `--symmetric` コマンドを使う。
+公開鍵は使わずパスフレーズから生成したセッション鍵のみで暗号化を行う場合は `--symmetric` コマンドを使う。
 短縮名は `-c`。
 
 ```text
@@ -810,6 +824,23 @@ XTDWFf7c6XXN0LABKN6z3kYxz2MTRC3cqo2ExRF30RHpeA==
 
 コマンド起動時にパスフレーズの入力を要求され，パスフレーズからセッション鍵を生成して暗号化を行う。
 したがって，何らかの方法で暗号データの受け手とパスフレーズを共有する必要がある。
+
+この暗号データの中身を拙作 [gpgpdump] で覗くとこんな感じになる。
+
+```text
+$ echo Hello world | gpg -a -c | gpgpdump --indent 2
+Symmetric-Key Encrypted Session Key Packet (tag 3) (13 bytes)
+  Version: 4 (current)
+  Symmetric Algorithm: AES with 128-bit key (sym 7)
+  String-to-Key (S2K) Algorithm: Iterated and Salted S2K (s2k 3)
+    Hash Algorithm: SHA-1 (hash 2)
+    Salt
+      80 c9 02 04 29 af 8b 90
+    Count: 65011712
+      ff
+Sym. Encrypted Integrity Protected Data Packet (tag 18) (65 bytes)
+  Encrypted data: sym alg is specified in sym-key encrypted session key; plain text + MDC SHA1(20 bytes) (65 bytes)
+```
 
 ## 暗号データの復号 {#decrypt}
 
