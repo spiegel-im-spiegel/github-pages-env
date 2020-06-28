@@ -252,12 +252,12 @@ Usage: gpg [options] --quick-generate-key user-id [algo [usage [expire]]]
 
 | 公開鍵暗号アルゴリズム | 名前 |
 |:-----------------------|:-----|
-| RSA | `default` (= `rsa2048`) |
-| RSA (署名のみ) | `rsa` (= `rsa2048`), `rsa1024`, `rsa2048`, `rsa3071`, `rsa4096` |
-| DSA (署名のみ) | `dsa` (= `dsa2048`), `dsa1024`, `dsa2048`, `dsa3072` |
+| RSA | `default` (= `rsa3071`) |
+| RSA (署名鍵のみ) | `rsa` (= `rsa3071`), `rsa1024`, `rsa2048`, `rsa3071`, `rsa4096` |
+| DSA (署名のみ) | `dsa` (= `dsa3072`), `dsa1024`, `dsa2048`, `dsa3072` |
 | ECDH/EdDSA | `future-default` (= `cv25519`/`ed25519`) |
-| EdDSA (署名のみ) | `ed25519` |
-| ECDSA (署名のみ) | `nistp256`, `nistp384`, `nistp521`, `brainpoolP256r1`, `brainpoolP384r1`, `brainpoolP512r1`, `secp256k1` |
+| EdDSA (署名鍵のみ) | `ed25519` |
+| ECDSA (署名鍵のみ) | `nistp256`, `nistp384`, `nistp521`, `brainpoolP256r1`, `brainpoolP384r1`, `brainpoolP512r1`, `secp256k1` |
 
 `usage` には主鍵の機能を文字列で指定する。
 
