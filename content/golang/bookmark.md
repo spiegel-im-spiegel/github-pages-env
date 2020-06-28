@@ -749,6 +749,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go 言語のフレームワーク比較 - Qiita](https://qiita.com/inexp_eng4432/items/50d05262eb6ccbcfda1f)
 - [Go言語のnet/httpクライアントでリダイレクトをやめる - Qiita](https://qiita.com/daijuk/items/d5c52b780e90387f2390)
 - [ブラウザレンダリングの仕組み - Qiita](https://qiita.com/goemp/items/91dcc8b50d7a61ce98bc)
+- [HTTPレスポンスボディの内容をログに残したい - My External Storage](https://budougumi0617.github.io/2020/06/21/record_response_body/)
 
 ## 他サービスとの連携
 

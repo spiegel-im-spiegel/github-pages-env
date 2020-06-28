@@ -58,7 +58,7 @@ pageType = "text"
 
 ## 追加のブックマーク
 
-以後，関連する記事を見かけたら，随時ここに追記する。
+- [顔認識ソフトを利用した犯罪予測ソフトウェアには人種的偏見と欠陥があるAI研究者たちが非難  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/24/2020-06-23-ai-crime-prediction-open-letter-springer/)
 
 ## 参考図書
 
