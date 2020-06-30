@@ -74,8 +74,15 @@ func main() {
     )
 
     //Make query
-    q := query.NewGetItems(client.Marketplace(), client.PartnerTag(), client.PartnerType())
-    q.ASINs([]string{"B07YCM5K55"}).EnableImages(true).EnableParentASIN(true)
+    q := query.NewGetItems(
+		client.Marketplace(),
+		client.PartnerTag(),
+		client.PartnerType(),
+	).
+		ASINs([]string{"B07NVMYB7K"}).
+		EnableItemInfo().
+		EnableImages().
+		EnableParentASIN()
 
     //Requet and response
     body, err := client.Request(q)
@@ -295,16 +302,23 @@ var _ paapi5.Query = (*CustomQuery)(nil)
 
 ### クエリの実例とレスポンスの取り込み例
 
-[spiegel-im-spiegel/pa-api] パッケージではクエリ用のサンプルとして [`paapi5`]`.query` サブパッケージを用意している。
+[spiegel-im-spiegel/pa-api] パッケージではクエリ用のサンプルとして [`paapi5`]`/query` サブパッケージを用意している。
 最初のコード例の
 
 ```go
-q := query.NewGetItems(client.Marketplace(), client.PartnerTag(), client.PartnerType())
-q.ASINs([]string{"B07YCM5K55"}).EnableImages(true).EnableParentASIN(true)
+q := query.NewGetItems(
+    client.Marketplace(),
+    client.PartnerTag(),
+    client.PartnerType(),
+).
+    ASINs([]string{"B07NVMYB7K"}).
+    EnableItemInfo().
+    EnableImages().
+    EnableParentASIN()
 ```
 
 の部分がそれである。
-また [`paapi5`]`.Client.Request()` 関数の出力結果を構造体に落とし込むための [`paapi5`]`.entity` サブパッケージも用意した。
+また [`paapi5`]`.Client.Request()` 関数の出力結果を構造体に落とし込むための [`paapi5`]`/entity` サブパッケージも用意した。
 どちらもそのままではあまり使い勝手がいいとは言えないが，コード例として自由に利用していただいて構わない。
 
 なお [spiegel-im-spiegel/pa-api] パッケージは [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) でライセンスしている。
