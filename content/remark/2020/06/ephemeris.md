@@ -86,6 +86,12 @@ func main() {
 
 ## ブックマーク
 
+- [日本全国で部分日食（2020年6月） | 国立天文台(NAOJ)](https://www.nao.ac.jp/astro/sky/2020/06-topics03.html)
+- [［特設ページ］部分日食（2020年6月21日） | 国立天文台(NAOJ)](https://www.nao.ac.jp/notice/20200621-partial-eclipse.html)
+- [APOD: 2020 June 22 - Moon Mountains Magnified during Ring of Fire Eclipse](https://apod.nasa.gov/apod/ap200622.html)
+- [APOD: 2020 June 26 - Eclipse under the Bamboo](https://apod.nasa.gov/apod/ap200626.html)
+- [APOD: 2020 June 27 - Eclipse under the ISS](https://apod.nasa.gov/apod/ap200627.html)
+
 - [2020年の主な暦象]({{< ref "/remark/2019/11/astronomical-calendar-2020.md" >}})
 - [日本の暦情報を取得するパッケージを作ってみた]({{< ref "/release/2020/05/koyomi.md" >}})
 
