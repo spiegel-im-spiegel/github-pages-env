@@ -34,6 +34,7 @@ pageType = "text"
     - [ブログ: 重力が他の力と違う理由](https://okuranagaimo.blogspot.com/2020/06/blog-post_21.html)
 - [Detection of green line emission in the dayside atmosphere of Mars from NOMAD-TGO observations | Nature Astronomy](https://www.nature.com/articles/s41550-020-1123-2?error=cookies_not_supported&code=28c3b9f8-6442-4faa-a251-a2daa58b0cd2)
     - [ExoMars spots unique green glow at the Red Planet](https://phys.org/news/2020-06-exomars-unique-green-red-planet.html#lightbox)
+    - [エクソマーズTGO、火星の大気で緑色の「大気光」を初めて検出 | sorae 宇宙へのポータルサイト](https://sorae.info/astronomy/20200629-tgo.html)
 - [APOD: 2020 June 22 - Moon Mountains Magnified during Ring of Fire Eclipse](https://apod.nasa.gov/apod/ap200622.html)
 - [APOD: 2020 June 26 - Eclipse under the Bamboo](https://apod.nasa.gov/apod/ap200626.html)
 - [APOD: 2020 June 27 - Eclipse under the ISS](https://apod.nasa.gov/apod/ap200627.html)

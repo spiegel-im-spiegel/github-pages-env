@@ -101,6 +101,7 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 | Official | Release    |                       Ubuntu | Release    |   Delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
+|     78.0 | 2020-06-30 |                              |            | ∞ days |
 |   77.0.1 | 2020-06-03 | 77.0.1+build1-0 (USN-4383-1) | 2020-06-04 |   1 day |
 |     77.0 | 2020-06-02 |                      &mdash; | &mdash;    | &mdash; |
 |   76.0.1 | 2020-05-08 | 76.0.1+build1-0 (USN-4353-2) | 2020-05-12 |  4 days |
@@ -109,6 +110,7 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 ### ブックマーク
 
+- [Firefox  78.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/78.0/releasenotes/)
 - [Firefox  77.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/77.0.1/releasenotes/)
 - [Firefox  77.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/77.0/releasenotes/)
 - [Firefox  76.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/76.0.1/releasenotes/)

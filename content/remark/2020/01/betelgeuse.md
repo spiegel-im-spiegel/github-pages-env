@@ -71,6 +71,8 @@ pageType = "text"
 
 {{< fig-youtube id="OjgfS4mYUT4" title="From Betelgeuse’s surroundings to its surface - YouTube" >}}
 
+- [Betelgeuse – a giant with blemishes | Max-Planck-Gesellschaft](https://www.mpg.de/en/mpia/2020-08-betelgeuse) : 減光の原因は巨大黒点じゃないか，という論文
+
 ## 参考図書
 
 {{% review-paapi "4621304259" %}} <!-- 理科年表 2020 -->

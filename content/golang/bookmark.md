@@ -177,6 +177,7 @@ image = "/images/attention/go-logo_blue.png"
 - [Go: How Are Loops Translated to Assembly? - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-how-are-loops-translated-to-assembly-835b985309b3)
 - [Go: Inlining Strategy & Limitation - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-inlining-strategy-limitation-6b6d7fc3b1be)
 - [Why you shouldn't use func main in Go by Mat Ryer - PACE.](https://pace.dev/blog/2020/02/12/why-you-shouldnt-use-func-main-in-golang-by-mat-ryer)
+- [proxy.golang.org の挙動調査メモ — KaoriYa](https://www.kaoriya.net/blog/2020/06/16/)
 
 ### オブジェクトに関すること
 
