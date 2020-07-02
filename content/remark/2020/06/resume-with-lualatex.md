@@ -11,6 +11,20 @@ pageType = "text"
   mermaidjs = false
 +++
 
+{{< div-box type="markdown" >}}
+**【2020-07-02 追記】**
+[shigio/rireki-style](https://github.com/shigio/rireki-style "Style file for writing resume") 側で $\mathrm{Lua\LaTeX}$ でも組版できるよう対応していただきました。
+サンプル `rireki.tex` ファイルの最初にある
+
+```latex
+%\lualatextrue
+```
+
+のコメントを解除すると $\mathrm{Lua\LaTeX}$ 対応になる。
+
+感謝！
+{{< /div-box >}}
+
 [2018年の記事]({{< ref "/remark/2018/11/resume-in-latex.md" >}} "LaTeX で履歴書を書こう")で
 
 - [履歴書スタイルファイル](https://www.tamacom.com/rireki-j.html)
@@ -80,7 +94,7 @@ pageType = "text"
 
 などとすればOK[^pr1]。
 
-[^pr1]: 後方互換性が崩れるので [pull request を投げ](https://github.com/spiegel-im-spiegel/rireki-style)ていいか思案中。
+[^pr1]: [Issue](https://github.com/shigio/rireki-style/issues/3) で提案したところ，対応していただけました。感謝！
 
 ちなみに
 
