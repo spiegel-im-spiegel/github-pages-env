@@ -67,7 +67,7 @@ pageType = "text"
 
 [^nichi1]: なんで「題名のない音楽会」を土曜日に移動したんだ。ぶつぶつぶつ。まぁ実家では私にテレビ・チャンネル権はないので，そもそもテレビを観ないのだが。
 
-- [GitHub - sue445/rubicure: All about Japanese battle heroine "Pretty Cure (Precure)"](https://github.com/sue445/rubicure)
+- [sue445/rubicure: All about Japanese battle heroine "Pretty Cure (Precure)"](https://github.com/sue445/rubicure)
 
 ただ，ここにあるデータ構造はちょっと使い辛かったので YAML ファイル中の `precure_name` 項目がある行だけを拾って一覧を作った。
 劇場版オリジナルキャラも併せて，以下の66人でいいはず[^rubicure1]。
@@ -90,7 +90,7 @@ pageType = "text"
 
 今回用に組んだコードを以下のリポジトリに置いている。
 
-- [GitHub - spiegel-im-spiegel/precure-shiritori: Shiritori (Japanese Word Chain Game) with Precure (Pretty Cure)](https://github.com/spiegel-im-spiegel/precure-shiritori)
+- [spiegel-im-spiegel/precure-shiritori: Shiritori (Japanese Word Chain Game) with Precure (Pretty Cure)](https://github.com/spiegel-im-spiegel/precure-shiritori)
 
 しりとりのルールをできるだけ汎用に書こうとして思ったよりコード量が多くなっちゃたので，中身の解説は割愛する。
 速度的な効率は重視してなくて，愚直なだけのコードなので言語的に難しいところはない筈。
