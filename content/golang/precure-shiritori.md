@@ -101,63 +101,63 @@ package shiritori
 
 //Remove メソッドは指定した語を抜いた残りのリストのコピーを返す
 func (ws *Words) Remove(word *Word) *Words {
-	if !ws.In(word) {
-		return ws.Clone()
-	}
-	wss := make([]*Word, 0, cap(ws.words)-1)
-	for _, w := range ws.words {
-		if !w.Equal(word) {
-			wss = append(wss, w)
-		}
-	}
-	return NewWords(wss)
+    if !ws.In(word) {
+        return ws.Clone()
+    }
+    wss := make([]*Word, 0, cap(ws.words)-1)
+    for _, w := range ws.words {
+        if !w.Equal(word) {
+            wss = append(wss, w)
+        }
+    }
+    return NewWords(wss)
 }
 
 func Do(strs ...string) []*List {
-	ws := NewWords(NewWordSlice(strs...))
-	if ws.Len() == 0 {
-		return []*List{}
-	}
+    ws := NewWords(NewWordSlice(strs...))
+    if ws.Len() == 0 {
+        return []*List{}
+    }
 
-	slst := []*List{}
-	w := ws.Begin()
-	for {
-		if w == nil {
-			break
-		}
-		l := do(w, ws.Remove(w))
-		slst = append(slst, l...)
-		w = ws.Next()
-	}
-	return slst
+    slst := []*List{}
+    w := ws.Begin()
+    for {
+        if w == nil {
+            break
+        }
+        l := do(w, ws.Remove(w))
+        slst = append(slst, l...)
+        w = ws.Next()
+    }
+    return slst
 }
 
 func do(first *Word, rest *Words) []*List {
-	if rest.Len() == 0 {
-		return []*List{NewList(first.String())}
-	}
-	tail := first.Tail()
-	if tail == 'ん' || tail == 'ン' {
-		return []*List{NewList(first.String())}
-	}
-	wlst := rest.Filter(tail)
-	if wlst.Len() == 0 {
-		return []*List{NewList(first.String())}
-	}
+    if rest.Len() == 0 {
+        return []*List{NewList(first.String())}
+    }
+    tail := first.Tail()
+    if tail == 'ん' || tail == 'ン' {
+        return []*List{NewList(first.String())}
+    }
+    wlst := rest.Filter(tail)
+    if wlst.Len() == 0 {
+        return []*List{NewList(first.String())}
+    }
 
-	slst := []*List{}
-	next := wlst.Begin()
-	for {
-		if next == nil {
-			break
-		}
-		ll := do(next, rest.Remove(next))
-		for _, l := range ll {
-			slst = append(slst, NewList(first.String()).AddList(l))
-		}
-		next = wlst.Next()
-	}
-	return slst
+    slst := []*List{}
+    next := wlst.Begin()
+    for {
+        if next == nil {
+            break
+        }
+        ll := do(next, rest.Remove(next))
+        for _, l := range ll {
+            slst = append(slst, NewList(first.String()).AddList(l))
+        }
+        next = wlst.Next()
+    }
+    return slst
 }
 ```
 
