@@ -110,3 +110,7 @@ tags = [ "openpgp", "security", "cryptography", "mua", "thunderbird", "messaging
 [Thunderbird]: https://www.thunderbird.net/ "Thunderbird — Software made to make email easier. — Mozilla"
 [Enigmail]: https://addons.mozilla.org/thunderbird/addon/enigmail/ "Enigmail :: Add-ons for Thunderbird"
 [p≡p]: https://www.pep.security/ "p≡p Security"
+
+## 参考図書
+
+{{% review-paapi "B015643CPE" %}} <!-- 暗号技術入門 第3版 -->
