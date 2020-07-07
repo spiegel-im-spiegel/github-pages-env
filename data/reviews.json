@@ -12444,12 +12444,12 @@
       }
     },
     "Date": "2020-07-07",
-    "Rating": 0,
+    "Rating": 4,
     "Star": [
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
       false
     ],
     "Description": "嗚呼 Stevie Wonder 様！"
