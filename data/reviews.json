@@ -12540,5 +12540,56 @@
       false
     ],
     "Description": "北原白秋の童謡集。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01G12HBDY",
+      "Title": "【合本版】問題児たちが異世界から来るそうですよ？　全12巻 (角川スニーカー文庫)",
+      "URL": "https://www.amazon.co.jp/dp/B01G12HBDY?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51DVdNJlojL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "竜ノ湖 太郎",
+          "Role": "著"
+        },
+        {
+          "Name": "天之有",
+          "Role": "イラスト"
+        },
+        {
+          "Name": "ももこ",
+          "Role": "イラスト"
+        }
+      ],
+      "Publisher": "KADOKAWA",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01G12HBDY"
+        }
+      ],
+      "PublicationDate": "2016-06-01",
+      "LastRelease": "2016-06-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-07-07",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "おおっ，合本版が出てる。好きな作品だけど6巻くらいまでしか読んでないんだよな。"
   }
 ]
