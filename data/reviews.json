@@ -12312,5 +12312,146 @@
       false
     ],
     "Description": "PPAP 特集（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07Y29NV9P",
+      "Title": "Virtue Signaling: Essays on Darwinian Politics \u0026 Free Speech (English Edition)",
+      "URL": "https://www.amazon.co.jp/dp/B07Y29NV9P?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51v+HI-Sh-L._SL160_.jpg",
+        "Height": 160,
+        "Width": 100
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "Miller, Geoffrey",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "Cambrian Moon",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07Y29NV9P"
+        }
+      ],
+      "PublicationDate": "2019-09-17",
+      "LastRelease": "2019-09-17",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-07-07",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "\u003ca href=\"https://shorebird.hatenablog.com/entry/2020/04/29/093951\"\u003eshorebird さんによる書評はこちら\u003c/a\u003e。邦訳版があるなら読んでみたい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4770501994",
+      "Title": "ちびくろサンボ",
+      "URL": "https://www.amazon.co.jp/dp/4770501994?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41-vH-XzwbL._SL160_.jpg",
+        "Height": 158,
+        "Width": 160
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "ヘレン・バナーマン",
+          "Role": "著"
+        },
+        {
+          "Name": "フランク・ドビアス",
+          "Role": "イラスト"
+        }
+      ],
+      "Publisher": "径書房",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4770501994"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784770501998"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4770501994"
+        }
+      ],
+      "PublicationDate": "2008-06-16",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-07-07",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "イラスト等原書に近い内容らしい。これは紙のほうがいいかな。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01GJZKCUC",
+      "Title": "Ebony \u0026 Ivory (Made Famous by Paul McCartney \u0026 Stevie Wonder)",
+      "URL": "https://www.amazon.co.jp/dp/B01GJZKCUC?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/615A9wwvcOL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "Soul City Singers",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Big Eye Music",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01GJZKCUC"
+        }
+      ],
+      "PublicationDate": "2011-02-01",
+      "LastRelease": "2011-02-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-07-07",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "嗚呼 Stevie Wonder 様！"
   }
 ]
