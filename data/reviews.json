@@ -12453,5 +12453,92 @@
       false
     ],
     "Description": "嗚呼 Stevie Wonder 様！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B000ALJ18G",
+      "Title": "白秋の詩情~この道 生誕120周年記念~",
+      "URL": "https://www.amazon.co.jp/dp/B000ALJ18G?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51qbIJBb4WL._SL160_.jpg",
+        "Height": 140,
+        "Width": 160
+      },
+      "ProductType": "CD",
+      "Creators": [
+        {
+          "Name": "童謡・唱歌",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "米良美一",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "タンポポ児童合唱団",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "ひばり児童合唱団",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "高橋知子",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "サカモト児童合唱団",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "真理ヨシコ",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "芹洋子",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "藤家虹二クインテット+α",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "ダーク・ダックス",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "ペギー葉山",
+          "Role": "アーティスト"
+        }
+      ],
+      "Publisher": "キングレコード",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B000ALJ18G"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4988003313180"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2005-09-22",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-07-07",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "北原白秋の童謡集。"
   }
 ]
