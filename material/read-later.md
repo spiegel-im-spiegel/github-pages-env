@@ -40,5 +40,6 @@
 - [Webアクション「部屋裏のバイテン」第3話 : ぽじとろんの竹本泉観察記](https://positron.exblog.jp/31257770/)
 - [ブログ: ここはどこ? (Google AMP)](https://okuranagaimo.blogspot.com/2020/07/google-amp.html)
 - [プログラミングをする必要がなくなった後に人間に何が残るのか？ - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20200706/the-world-with-no-programming)
+- [数学ガールの秘密ノート／複素数の広がり | 結城 浩 | 数学 | Kindleストア | Amazon](https://www.amazon.co.jp/dp/B08CDHYFFF?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)
 
 <!-- eof -->
