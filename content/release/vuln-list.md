@@ -38,18 +38,21 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 | Official | Release    |         Ubuntu | Release    |      Delay |
 | --------:| ---------- | --------------:| ---------- | ----------:|
-|   2.2.20 | 2020-03-20 |                |            |    ∞ days |
+|   2.2.21 | 2020-07-09 |                |            |    ∞ days |
+|   2.2.20 | 2020-03-20 |        &mdash; | &mdash;    |    &mdash; |
 |   2.2.19 | 2019-12-07 | (Ubuntu 20.04) | 2020-04-23 | 4.5 months |
 
 ### Libgcrypt
 
 | Official | Release    |               Ubuntu | Release    |      Delay |
 | --------:| ---------- | --------------------:| ---------- | ----------:|
+|    1.8.6 | 2020-07-06 |                      |            |    ∞ days |
 |    1.8.5 | 2019-08-29 |       (Ubuntu 20.04) | 2020-04-23 |    &mdash; |
 |    1.8.5 | 2019-08-29 | 1.8.4-5 (USN-4236-1) | 2020-01-13 | 4.5 months |
 
 ### ブックマーク
 
+- [GnuPG 2.2.21 および Libgcrypt 1.8.6 がリリースされた]({{< ref "/release/2020/07/gnupg-2_2_21-is-released.md" >}})
 - [GnuPG 2.2.20 がリリースされた]({{< ref "/release/2020/03/gnupg-2_2_20-is-released.md" >}})
 - [GnuPG 2.2.19 がリリースされた]({{< ref "/release/2019/12/gnupg-2_2_19-is-released.md" >}})
 - [Libgcrypt 1.8.5 がリリース【セキュリティ・アップデート】]({{< ref "/release/2019/08/libgcrypt-1_8_5-is-released.md" >}})
