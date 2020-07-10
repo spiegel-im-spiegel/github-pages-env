@@ -1,5 +1,5 @@
 +++
-title = "GnuPG 2.2.20 および Libgcrypt 1.8.6 がリリースされた"
+title = "GnuPG 2.2.21 および Libgcrypt 1.8.6 がリリースされた"
 date =  "2020-07-10T11:13:57+09:00"
 description = "AEAD Encrypted Data Packet の復号に対応したか。"
 image = "/images/attention/openpgp.png"
@@ -17,7 +17,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-[GnuPG] 2.2.20 および [Libgcrypt] 1.8.6 がリリースされた。
+[GnuPG] 2.2.21 および [Libgcrypt] 1.8.6 がリリースされた。
 
 - [[Announce] GnuPG 2.2.21 released](https://lists.gnupg.org/pipermail/gnupg-announce/2020q3/000446.html)
 - [[Announce] Libgcrypt 1.8.6 released](https://lists.gnupg.org/pipermail/gnupg-announce/2020q3/000445.html)
