@@ -13,7 +13,7 @@ pageType = "text"
 
 数学ガール・シリーズを読んでる途中だが，気になる記事を見つけたので。
 
-[以前の記事]({{< ref "/remark/2020/06/security-theater.md" >}} "劇場型セキュリティと PPAP")で紹介した[「情報処理」2020年7月号]内の PAPP 座談会で妙に Firefox Send を推してるなぁ，と思っていたが（笑），実は件のサービスが一時停止に追い込まれているらしい。
+[以前の記事]({{< ref "/remark/2020/06/security-theater.md" >}} "劇場型セキュリティと PPAP")で紹介した[「情報処理」2020年7月号]内の PPAP 座談会で妙に Firefox Send を推してるなぁ，と思っていたが（笑），実は件のサービスが一時停止に追い込まれているらしい。
 
 - [無償のファイル送信サービス“Firefox Send”が一時停止中 ～マルウェアによる悪用が増加 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1264007.html)
 

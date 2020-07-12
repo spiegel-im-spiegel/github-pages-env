@@ -405,6 +405,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Golang 日付のフォーマットでハマった話 - Qiita](http://qiita.com/masa23/items/e781124a7e0305bc40c4)
 - [golangのtime.Timeの当日00:00:00を取得する方法とベンチマーク - Qiita](http://qiita.com/ushio_s/items/3e270933641710bbd88e)
 - [Golangで周期的に実行するときのパターン - Qiita](https://qiita.com/tetsu_koba/items/1599408f537cb513b250)
+- [Go: Timers’ Life Cycle. ℹ️ This article is based on Go 1.14. | by Vincent Blanchon | A Journey With Go | Jul, 2020 | Medium](https://medium.com/a-journey-with-go/go-timers-life-cycle-403f3580093a)
 
 ### [`reflect`] および [`unsafe`] パッケージ
 

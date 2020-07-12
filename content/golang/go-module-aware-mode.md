@@ -670,14 +670,13 @@ Flags:
     - [Migrating to Go Modules - The Go Blog](https://blog.golang.org/migrating-to-go-modules)
     - [Publishing Go Modules - The Go Blog](https://blog.golang.org/publishing-go-modules)
     - [Go Modules: v2 and Beyond - The Go Blog](https://blog.golang.org/v2-go-modules)
-
+    - [Keeping Your Modules Compatible - The Go Blog](https://blog.golang.org/module-compatibility)
 - [Go 1.11 のリリースと「モジュール」機能の実験的サポート]({{< relref "/release/2018/09/go-1_11-ise-released.md" >}})
 - [GOPATH モードからモジュール対応モードへ移行せよ](https://qiita.com/spiegel-im-spiegel/items/5cb1587cb55d6f6a34d7)
 - [Go 1.11 の modules・vgo を試す - 実際に使っていく上で考えないといけないこと #golang | Wantedly Engineer Blog](https://www.wantedly.com/companies/wantedly/post_articles/132270)
 - [Goモジュールモードでモジュール内に作ったモジュールを扱う - Qiita](https://qiita.com/k-motoyan/items/4213d5ef09963ffea489)
 - [Go Modulesの概要とGo1.12に含まれるModulesに関する変更 #golangjp #go112party - My External Storage](https://budougumi0617.github.io/2019/02/15/go-modules-on-go112/)
 - [GoにおけるSemantic versioningとgo.modにある+incompatibleについて - Qiita](https://qiita.com/Tommy_/items/32d2d0d9f56365ee61fc)
-
 - [GOPATH 汚染問題]({{< relref "./gopath-pollution.md" >}})
 - [vgo (Versioned Go) に関する覚え書き]({{< relref "./go-and-versioning.md" >}})
 - [Go モジュールのバージョン管理]({{<relref "./versioning-of-go-modules.md" >}})
