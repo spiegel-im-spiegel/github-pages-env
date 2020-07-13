@@ -1,11 +1,10 @@
 +++
 title = "かなカナ変換"
-date =  "2020-07-13T13:02:09+09:00"
+date =  "2020-07-13T18:45:08+09:00"
 description = "全角⇔半角 / ひらがな⇔カタカナ / 拗音・促音⇔直音 各種変換"
 image = "/images/attention/go-logo_blue.png"
 tags = [ "programming", "golang", "unicode", "character", "transform" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
