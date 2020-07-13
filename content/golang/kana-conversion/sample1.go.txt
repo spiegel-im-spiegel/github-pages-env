@@ -1,0 +1,27 @@
+package main
+
+import (
+	"fmt"
+
+	"golang.org/x/text/unicode/norm"
+	"golang.org/x/text/width"
+)
+
+func unicodePrint(s string) {
+	sep := ""
+	for _, r := range s {
+		fmt.Printf("%s{%#U}", sep, r)
+		sep = " "
+	}
+	fmt.Println()
+}
+
+func main() {
+	//fullwidth := "ヰヱヲヷヸヹヺ・ーヽヾヿ"
+	fullwidth := "ペンギン"
+	halfwidth := width.Narrow.String(norm.NFD.String(fullwidth))
+
+	unicodePrint(fullwidth)
+	unicodePrint(halfwidth)
+	unicodePrint(norm.NFC.String(width.Widen.String(halfwidth)))
+}
