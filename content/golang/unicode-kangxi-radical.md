@@ -114,7 +114,7 @@ var KangxiRadicals = unicode.SpecialCase{
 あとはこれを組み込んで使えばいいだけ。
 たとえばこんな感じに使える。
 
-```go {hl_lines=[14]}
+```go {hl_lines=[12]}
 func unicodePrint(s string) {
     ss := []string{}
     for _, r := range s {
