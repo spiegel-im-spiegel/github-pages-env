@@ -1,0 +1,18 @@
+package main
+
+import (
+	"fmt"
+
+	"golang.org/x/text/unicode/norm"
+)
+
+func main() {
+	fmt.Println("var KangxiRadicals = unicode.SpecialCase{")
+	for kr := rune(0x2f00); kr <= 0x2fd5; kr++ {
+		rr := []rune(norm.NFKC.String(string([]rune{kr})))
+		if kr != rr[0] {
+			fmt.Printf("\tunicode.CaseRange{%#[1]x, %#[1]x, [unicode.MaxCase]rune{%#[2]x - %#[1]x, 0, 0}}, // %#[1]U -> %#[2]U\n", kr, rr[0])
+		}
+	}
+	fmt.Println("}")
+}

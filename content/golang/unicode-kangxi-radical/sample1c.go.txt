@@ -1,0 +1,17 @@
+package main
+
+import (
+	"fmt"
+	"strconv"
+
+	"golang.org/x/text/unicode/norm"
+)
+
+func main() {
+	fmt.Println("var KangxiRadicalReplacer = strings.NewReplacer(")
+	for r := rune(0x2f00); r <= 0x2fd5; r++ {
+		kr := string([]rune{r})
+		fmt.Printf("\t%s, %s,\n", strconv.Quote(kr), strconv.Quote(norm.NFKC.String(kr)))
+	}
+	fmt.Println(")")
+}
