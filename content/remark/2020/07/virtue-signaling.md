@@ -49,6 +49,8 @@ Kleidermacher氏は講演を取りやめると発表したツイートの中で�
 ## ブックマーク
 
 - [メディアは（常に）スパムか？ «  マガジン航[kɔː]](http://magazine-k.jp/2016/01/25/spam-and-media/)
+- [Linuxで「マスター／スレイブ」「ブラックリスト／ホワイトリスト」の語句置き換えが決定 - GIGAZINE](https://gigazine.net/news/20200713-linux-replace-master-slave/)
+    - [Linuxカーネルでの「master/slave」と「blacklist」禁止、トーバルズ氏が承認 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2007/13/news058.html)
 
 ## 参考図書
 

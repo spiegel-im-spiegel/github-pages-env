@@ -206,6 +206,7 @@ Facebook アカウントと Twitter アカウントが使えるようだ。
 
 ## ブックマーク
 
+- [博士・ポスドクも活用する、複雑な環境構築不要でWeb上で数式を美しく表現できるCloud LaTeX（ラテフ）、累計登録者数4万人突破！｜株式会社アカリクのプレスリリース](https://prtimes.jp/main/html/rd/p/000000023.000017667.html)
 - [LuaTeX-ja に関する覚え書き]({{< ref "/remark/2015/luatex-ja.md" >}})
 
 [TeX Live]: http://www.tug.org/texlive/ "TeX Live - TeX Users Group"
