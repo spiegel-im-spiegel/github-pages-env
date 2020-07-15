@@ -19,7 +19,7 @@ pageType = "text"
 以下に脆弱性の一覧を挙げておく。
 
 {{< fig-quote title="OpenJDK Vulnerability Advisory: 2020/04/14" link="https://openjdk.java.net/groups/vulnerability/advisories/2020-04-14" lang="en" >}}
-<table class="risk-matrix center" summary="Risk matrix">
+<table class="risk-matrix center smaller" summary="Risk matrix">
 <tr>
 <th rowspan="2">CVE ID</th>
 <th rowspan="2">Component</th>

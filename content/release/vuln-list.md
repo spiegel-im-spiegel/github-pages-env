@@ -159,13 +159,15 @@ Java というか [OpenJDK] のセキュリティ管理は LTS (Long Term Suppor
 
 [OpenJDK]: http://openjdk.java.net/
 
-| Official | Release    |                   Ubuntu | Release    |    Delay |
-| --------:| ---------- | ------------------------:| ---------- | --------:|
-|   11.0.7 | 2020-04-14 |           (Ubuntu 20.04) | 2020-04-23 |  &mdash; |
-|   11.0.7 | 2020-04-14 | 11.0.7+10-2 (USN-4337-1) | 2020-04-22 |   8 days |
+| Official | Release    |                   Ubuntu | Release    |   Delay |
+| --------:| ---------- | ------------------------:| ---------- | -------:|
+|   11.0.8 | 2020-07-14 |                          |            | ∞ days |
+|   11.0.7 | 2020-04-14 |           (Ubuntu 20.04) | 2020-04-23 | &mdash; |
+|   11.0.7 | 2020-04-14 | 11.0.7+10-2 (USN-4337-1) | 2020-04-22 |  8 days |
 
 ### ブックマーク
 
+- [OpenJDK Vulnerability Advisory: 2020/07/14](https://openjdk.java.net/groups/vulnerability/advisories/2020-07-14)
 - [OpenJDK Vulnerability Advisory: 2020/04/14](https://openjdk.java.net/groups/vulnerability/advisories/2020-04-14)
 
 - [結局 OpenJDK をインストールし直すことにした]({{< ref "/remark/2019/07/reinstalling-openjdk.md" >}})
