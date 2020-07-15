@@ -27,11 +27,7 @@ This issue is CVE-2020-0601 and Go issue [golang.org/issue/36834](http://golang.
 と書かれている通り，今回の [Go] 側の措置は「低減（mitigation）」に過ぎないので，必ず Windows Update を適用すること。
 Win7 ユーザはとっとと [Win10 に乗り換えるか有償サポートを受けるか](https://news.mynavi.jp/article/20200128-961593/ "Windows 7のIEに脆弱性も無料のセキュリティパッチ提供なし、対処を | マイナビニュース") Windows を捨てるかしましょう。
 
-なお [CVE-2020-0601] 自体の CVSS 基本評価値は以下の通りでスコアは 8.1 (深刻度：重要[^cvss1])。
-
-[^cvss1]: CVSSv3 ではスコア7.0以上なら速やかな対応が求められる。アップデートは計画的に（笑）
-
-{{< fig-gen type="markdown" title="CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N" >}}
+{{< fig-gen type="markdown" title="CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N  (基本スコア:8.1 [重要])" >}}
 | 基本評価基準     | 評価値       |
 | ---------------- | ------------ |
 | 攻撃元区分       | ネットワーク |
@@ -55,6 +51,19 @@ This is also fixed in version v0.0.0-20200124225646-8b5121be2f68 of [`golang.org
 {{< /fig-quote >}}
 
 [Go] に限らず，今後32ビット・アーキテクチャにおける不備は増えていくんだろうねぇ。
+
+{{< fig-gen type="markdown" title="CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H (基本スコア:7.5 [重要])" >}}
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | なし |
+| 可用性への影響 | 高 |
+{{< /fig-gen >}}
 
 ## 例によって
 
