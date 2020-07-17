@@ -23,6 +23,7 @@ pageType = "text"
     - [TikTokは米国での締め出しに直面し、香港からの撤退を発表  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/07/2020-07-06-tiktok-us-ban-hong-kong-exit/)
 - [MIT Tech Review: トランプ大統領の就労ビザ発給停止、「AI大国」地位に影響か](https://www.technologyreview.jp/s/210739/trumps-freeze-on-new-visas-could-threaten-us-dominance-in-ai/)
     - [トランプ大統領の突然の留学ビザ制限は米国社会に広く影響する  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/10/2020-07-08-trump-student-visa-silicon-valley/)
+    - [米移民税関捜査局が留学ビザの規則変更を撤回、ハーバードやMITなどの訴えを受け  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/15/x2020-07-14-harvard-mit-sue-ice-student-visas-rule/)
 - [米国は政府契約業者によるファーウェイ製品の使用禁止を正式決定する方向へ  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/11/2020-07-09-u-s-government-may-finalize-ban-on-federal-contractors-using-equipment-from-huawei-this-week/)
 - [グーグルが中国などを対象としたクラウドのプロジェクトを中止  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/10/2020-07-08-google-reportedly-cancelled-a-cloud-project-meant-for-countries-including-china/)
 - [FacebookとInstagramがトランプ大統領の盟友ロジャー・ストーン氏の関連アカウントを凍結  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/09/2020-07-08-facebook-roger-stone-fake-account-network/)

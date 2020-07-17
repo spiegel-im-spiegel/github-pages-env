@@ -180,6 +180,9 @@ OpenJDK 64-Bit Server VM (build 14.0.2+12-46, mixed mode, sharing)
 ## ブックマーク
 
 - [Oracle Critical Patch Update Advisory - July 2020](https://www.oracle.com/security-alerts/cpujul2020.html)
+    - [JDK 14.0.2, 11.0.8, 8u261, and 7u271 Have Been Released! | Oracle The Java Tutorials Blog](https://blogs.oracle.com/thejavatutorials/jdk-1402-1108-8u261-and-7u271-have-been-released)
+    - [Oracle Java の脆弱性対策について(CVE-2020-14664等)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20200715-jre.html)
+    - [2020年7月 Oracle 製品のクリティカルパッチアップデートに関する注意喚起](https://www.jpcert.or.jp/at/2020/at200030.html)
 - [AdoptOpenJDKプロジェクトがEclipse Foundationへの合流を発表。合流後の新プロジェクト名は「Eclipse Adoptium」に － Publickey](https://www.publickey1.jp/blog/20/adoptopenjdkeclipse_foundationeclipse_adoptium.html)
 - [Java 環境のリリースとサポートに関する覚え書き]({{< ref "/remark/2018/02/release-cycle-of-java-environment.md" >}})
 

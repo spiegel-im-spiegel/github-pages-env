@@ -28,9 +28,11 @@ pageType = "text"
 - [APOD: 2020 July 10 - Comet NEOWISE from the ISS](https://apod.nasa.gov/apod/ap200710.html)
 - [APOD: 2020 July 11 - The Tails of Comet NEOWISE](https://apod.nasa.gov/apod/ap200711.html)
 
-{{< fig-youtube id="ts0Ek3nLHew" title="Comet NEOWISE Rising over the Adriatic Sea - YouTube" >}}
+{{< fig-youtube id="ts0Ek3nLHew" title="Comet NEOWISE Rising over the Adriatic Sea - YouTube" >}} <!-- APOD: 2020 July 13 -->
 
 - [APOD: 2020 July 14 - Comet NEOWISE over Stonehenge](https://apod.nasa.gov/apod/ap200714.html)
+- [APOD: 2020 July 15 - Comet NEOWISE over the Swiss Alps](https://apod.nasa.gov/apod/ap200715.html)
+- [APOD: 2020 July 16 - The Long Tails of Comet NEOWISE](https://apod.nasa.gov/apod/ap200716.html)
 
 ちなみに [NEOWISE] は NASA の WISE (Wide-field Infrared Survey Explorer) 宇宙望遠鏡を使って地球近傍天体（Near-Earth Object; NEO）を捜索するためのミッションおよび宇宙機を指している。
 ちゃんと仕事して成果を出してるわけやね。
