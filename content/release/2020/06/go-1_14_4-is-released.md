@@ -32,7 +32,7 @@ $ sudo tar xvf src/go1.14.4.linux-amd64.tar.gz
 $ sudo mv go go1.14.4
 $ sudo ln -s go1.14.4 go
 $ go version # /usr/local/go/bin にパスが通っている場合
-$ go version
+go version go1.14.4 linux/amd64
 ```
 
 アップデートは計画的に。
