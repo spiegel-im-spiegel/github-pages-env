@@ -12589,7 +12589,110 @@
       true,
       true,
       false
+    ]
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00MTQ1ICM",
+      "Title": "猿の惑星 (吹替版)",
+      "URL": "https://www.amazon.co.jp/dp/B00MTQ1ICM?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51ZHLJWUO+L._SL160_.jpg",
+        "Height": 160,
+        "Width": 120
+      },
+      "ProductType": "Prime Video",
+      "Creators": [
+        {
+          "Name": "チャールトン ヘストン",
+          "Role": "出演"
+        },
+        {
+          "Name": "ロディ マクドウォール",
+          "Role": "出演"
+        },
+        {
+          "Name": "モーリス エバンス",
+          "Role": "出演"
+        },
+        {
+          "Name": "キム ハンター",
+          "Role": "出演"
+        },
+        {
+          "Name": "フランクリン・J・シャフナー",
+          "Role": "監督"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00MTQ1ICM"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2014-09-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-07-19",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
     ],
-    "Description": "おおっ，合本版が出てる。好きな作品だけど6巻くらいまでしか読んでないんだよな。"
+    "Description": "当時，子供心に『\u003ca href=\"https://dic.pixiv.net/a/%E7%8C%BF%E3%81%AE%E8%BB%8D%E5%9B%A3\"\u003e猿の軍団\u003c/a\u003e』の方が面白いと思ったのは内緒である（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07V1T8JMG",
+      "Title": "魔王様、リトライ！",
+      "URL": "https://www.amazon.co.jp/dp/B07V1T8JMG?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51J02ViCgJL._SL160_.jpg",
+        "Height": 120,
+        "Width": 160
+      },
+      "ProductType": "Prime Video",
+      "Creators": [
+        {
+          "Name": "木村寛　",
+          "Role": "監督"
+        },
+        {
+          "Name": "木村寛　",
+          "Role": "プロデュース"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07V1T8JMG"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-07-19",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アクちゃんが可愛い。これ見て書籍版を途中までしか読んでないことに気がついた。"
   }
 ]
