@@ -20,7 +20,7 @@ pageType = "text"
 - [GitHub Archive Program: the journey of the world's open source code to the Arctic - The GitHub Blog](https://github.blog/2020-07-16-github-archive-program-the-journey-of-the-worlds-open-source-code-to-the-arctic/)
 - [1000年後にデータを残すための「GitHub Archive Program」で21TBのリポジトリの北極圏への保管が完了 - GIGAZINE](https://gigazine.net/news/20200717-github-archive-program-arctic/)
 
-Twitter の私の TL 上でも自分の貢献（contribution）が含まれてるみたいな記述をチラホラ見かけて「やっぱ偉い人はちゃうなぁ」と他人事に思ってたのだが，どういうわけか私のリポジトリも対象になってるらしい。
+Twitter の私の TL 上でも自分の{{< ruby "contribution" >}}貢献{{< /ruby >}}が含まれてるみたいな記述をチラホラ見かけて「やっぱ偉い人はちゃうなぁ」と他人事に思ってたのだが，どういうわけか私のリポジトリも対象になってるらしい。
 
 {{< fig-img src="./github-archive-program-2020.png" title="Arctic Code Vault Contributor" link="https://github.com/spiegel-im-spiegel" >}}
 
