@@ -633,6 +633,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 
 - [Vim で golang を書く環境を整える - Qiita](http://qiita.com/masa23/items/db184871c78311566434)
 - [Big Sky :: Vim で Go 言語を書くために行った引越し作業 2020年度版](https://mattn.kaoriya.net/software/vim/20200106103137.htm)
+- [gopls 0.4.3で構造体を初期化（"fillstruct"）しようとしても、"No code actions found"とだけ表示される - My External Storage](https://budougumi0617.github.io/2020/07/18/use_fillstruct_of_goplus_on_vim/)
 
 ## CLI; Command Line Interface
 

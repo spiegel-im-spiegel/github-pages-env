@@ -33,6 +33,8 @@ pageType = "text"
 - [APOD: 2020 July 14 - Comet NEOWISE over Stonehenge](https://apod.nasa.gov/apod/ap200714.html)
 - [APOD: 2020 July 15 - Comet NEOWISE over the Swiss Alps](https://apod.nasa.gov/apod/ap200715.html)
 - [APOD: 2020 July 16 - The Long Tails of Comet NEOWISE](https://apod.nasa.gov/apod/ap200716.html)
+- [APOD: 2020 July 17 - NEOWISE of the North](https://apod.nasa.gov/apod/ap200717.html)
+- [APOD: 2020 July 18 - Finding NEOWISE](https://apod.nasa.gov/apod/ap200718.html)
 
 ちなみに [NEOWISE] は NASA の WISE (Wide-field Infrared Survey Explorer) 宇宙望遠鏡を使って地球近傍天体（Near-Earth Object; NEO）を捜索するためのミッションおよび宇宙機を指している。
 ちゃんと仕事して成果を出してるわけやね。
