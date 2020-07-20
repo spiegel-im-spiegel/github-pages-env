@@ -1,7 +1,6 @@
 +++
 title = "TeX の思ひ出"
 date =  "2017-09-29T14:50:20+09:00"
-update =  "2017-10-05T17:51:09+09:00"
 description = "TeX の最初のバージョンって1978年なのか。それってもうすぐ40周年ぢゃん！"
 tags        = [ "tex" ]
 
@@ -25,7 +24,9 @@ $\\mathrm{\TeX}$ について調べ物をしていて，何気なく [Wikipedia 
 
 [^lp]: つっても当時のレーザープリンタは個人では買えないくらい高かったが。しかも PostScript プリンタは目玉が飛び出るくらい高かった。まぁ，まだバブルの名残が残ってたしねぇ。
 
-その $\\mathrm{\TeX}$ ドライバは Pascal で書かれてたんだけど，オリジナルの作者の方は所有権を既に手放していて，技術サポートとして私にお鉢が回ってきたのだった。
+その $\\mathrm{\TeX}$ ドライバは Pascal で書かれてたんだけど，オリジナルの作者の方は所有権を既に手放していて[^pp1]，技術サポートとして私にお鉢が回ってきたのだった。
+
+[^pp1]: プログラム・コードにも著作権があることを認める国際条約 WCT 以前の話なのでご容赦を。
 
 いや，私， **Pascal なんて（仕事では）やったことないんだってば！**[^dp]
 
@@ -42,12 +43,12 @@ $\\mathrm{\TeX}$ について調べ物をしていて，何気なく [Wikipedia 
 そこからはホントにどハマリしたね。
 フォーマット・フリーの社内文書はほとんど $\\mathrm{\LaTeX}$ で書いた。
 議事録すら $\\mathrm{\LaTeX}$ で書いたことがあって，お客さんに「どこの論文かと思った」と皮肉を言われたのも今は良い思い出である（笑）
-ちなみに今でも履歴書は $\\mathrm{\LaTeX}$ で[書いている](https://www.tamacom.com/rireki-j.html "履歴書スタイルファイル")。
+ちなみに今でも履歴書は $\\mathrm{\LaTeX}$ で[書いている]({{< ref "/remark/2018/11/resume-in-latex.md" >}} "LaTeX で履歴書を書こう")。
 
-当時に社内で書いた文書の一部は[本家サイト](https://baldanders.info/ "Baldanders.info")でも公開している。
+当時に社内で書いた文書の一部は[本家サイト](https://baldanders.info/ "Baldanders.info")や GitHub リポジトリでも公開している。
 
-- {{< pdf-file title="文字コードとその実装" link="https://baldanders.info/spiegel/archive/charset-pdfa.pdf" >}} （[GitHub](https://github.com/spiegel-im-spiegel/charset_document "spiegel-im-spiegel/charset_document: 「文字コードとその実装」 upLaTeX ドキュメント")）
-- {{< pdf-file title="SH マイコン C プログラミング虎の巻" link="https://baldanders.info/spiegel/archive/ProgSH.pdf" >}} （[GitHub](https://github.com/spiegel-im-spiegel/progSH_document "spiegel-im-spiegel/progSH_document: SHマイコン Cプログラミング虎の巻 (pLaTeX ドキュメント")）
+- [spiegel-im-spiegel/charset_document: 「文字コードとその実装」 upLaTeX ドキュメント](https://github.com/spiegel-im-spiegel/charset_document)
+- [spiegel-im-spiegel/progSH_document: SHマイコン Cプログラミング虎の巻 (pLaTeX ドキュメント)](https://github.com/spiegel-im-spiegel/progSH_document)
 
 その後，証券会社が倒産するほどの不況のずんどこが訪れ，勤務先もその煽りでプリンタ販売業務を止めてしまったが，私は $\\mathrm{\TeX}$ で遊び続けた。
 最初の頃のバイブルだった『てくてく$\\mathrm{\TeX}$』とか『$\\mathrm{\LaTeX}$入門』とかいまだに本棚に並んでるですよ[^bs1]。
@@ -69,6 +70,7 @@ $\\mathrm{\TeX}$ について調べ物をしていて，何気なく [Wikipedia 
 
 - [TeX 覚え書き（upLaTeX から PDF/A まで） — Baldanders.info](https://baldanders.info/blog/000731/)
 - [LuaTeX-ja に関する覚え書き]({{< ref "/remark/2015/luatex-ja.md" >}})
+- [LuaLaTeX で PDF/A を構成する]({{< ref "/remark/2020/06/pdfa-with-luatex.md" >}})
 
 これによってようやく日本語の $\\mathrm{\TeX}$ 処理系でストレスなく PDF/A 形式のデジタル文書を作れるようになったわけだ。
 
@@ -87,7 +89,7 @@ $\\mathrm{\TeX}$ について調べ物をしていて，何気なく [Wikipedia 
 デジタル以前は更新コストが高かっただけで，もともと完全な文書など存在しないのだ（「コーディング」が紙テープやパンチカードから端末上での直接編集に変わって「コーダー」という職業が消滅したのと相似形かもしれない）。
 
 しかも更新履歴は git などのバージョン管理ツールで自動化できる。
-つまり（プログラムコードもそうだけど）今や文書ってのは「時間」というベクトルを加えた存在になりつつあるわけだ。
+つまり（プログラムコードもそうだけど）今や文書ってのは「時間」というベクトルを加えた存在になりつつある。
 文書が「「紙」の制約から離れ」るってのはそういうことなのだ。
 
 ひとつのソフトウェア・システムが40年も継続して存在するというのは凄いことだ。
