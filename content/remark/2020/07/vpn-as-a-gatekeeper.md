@@ -94,7 +94,7 @@ These providers all have a no-logging policy for their regular VPN service, whic
 By connecting through a single IP-address, monitoring outfits can build up a profile of the user’s online activity. The real anonymity tradeoff, however, is that the VPN provider knows the user’s IP-address and can connect it to other account information it has on record. This sometimes includes an email address.
 {{< /fig-quote >}}
 
-いくつかのインターネット・サービスでは，リージョンを跨いでアクセスされないよう VPN 接続のブラックリストを持っているそうだが，専用 IP アドレスのオプションを利用することによりこれらを排除できるそうだ。
+いくつかのインターネット・サービスでは，リージョンを跨いでアクセスされないよう VPN 接続の ~~ブラックリスト~~ おっと拒否リストを持っているそうだが，専用 IP アドレスのオプションを利用することによりこれらを排除できるそうだ。
 
 {{< fig-quote type="markdown" title="Most Dedicated VPN IP-addresses Are Not Anonymous" link="https://torrentfreak.com/most-dedicated-vpn-ip-addresses-are-not-anonymous-200719/" lang="en" >}}
 With a dedicated IP-address, which is often sold as an add-on, users get a unique IP-address as opposed to a shared one. This can be very convenient as it reduces annoying captchas and can bypass regular VPN blacklists.
