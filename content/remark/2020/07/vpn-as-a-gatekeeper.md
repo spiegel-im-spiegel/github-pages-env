@@ -3,7 +3,7 @@ title = "「門番」としての VPN"
 date =  "2020-07-20T18:28:17+09:00"
 description = "専用 IP アドレスによる利便性を得る引き換えとして匿名性をある程度手放さざるを得ないわけやね。"
 image = "/images/attention/kitten.jpg"
-tags = [ "security", "privacy", "vpn", "tracking", "surveillance-capitalism" ]
+tags = [ "security", "privacy", "risk", "vpn", "tracking", "surveillance-capitalism" ]
 pageType = "text"
 
 [scripts]
@@ -15,7 +15,7 @@ pageType = "text"
 
 まずは VPN についておさらい。
 
-VPN（Virtual Private Network）とは，物理的な回線・ネットワークの上に構築された「{{% ruby "virtual Network" %}}実質的な網{{% /ruby %}}」である。
+VPN（Virtual Private Network）とは，物理的な回線・ネットワークの上に構築された「{{% ruby "virtual network" %}}実質的な網{{% /ruby %}}」である。
 この記事では VPN の機能として大まかに
 
 - カプセル化とトンネリング
@@ -45,7 +45,9 @@ VPN は目的別に以下の3つに分類できるだろう。
 ## 「門番」としての VPN
 
 先程の図を見ると分かるように「バイパス型 VPN」は利用者とインターネット上のコンテンツとを仕切る「門番」として機能していることが分かる。
-したがって「バイパス型 VPN」を運営するサービス・プロバイダが「門番」として信用できるか否かがとても重要である。
+こうした「門番」の役割は本来は ISP 等が担っているもので，それが「バイパス型 VPN」によってシフトしてしまっている。
+
+したがって「バイパス型 VPN」を運営するサービス・プロバイダが「門番」として（少なくとも ISP 並に）信用できるか否かがとても重要なのである。
 
 ### ログ収集ポリシー
 
@@ -120,6 +122,29 @@ With a dedicated IP-address, which is often sold as an add-on, users get a uniqu
 
 とは言え，昔に比べて [FREEDOME] の優位性が薄れているのも確かなんだよなぁ。
 まぁ，来年3月まで [FREEDOME] の契約が残ってるので，それまでに [NordVPN] とか他のサービスに乗り換えるべきかじっくり考えてみるとしよう。
+
+### 【2020-07-21 追記】 無料（Free）の VPN サービスは止めとけ！
+
+日本語圏でも言及されているようなので追記しておく。
+
+- [“Zero logs” VPN exposes millions of logs including user passwords, claims data is anonymous](https://www.comparitech.com/blog/vpn-privacy/ufo-vpn-data-exposure/)
+
+話題になっている UFO VPN およびその系列のサービスは “free” であることが売りである。
+ここでいう “free” は（「自由なソフトウェア」ではなく）「無料のビール」のほうの “free” を指している。
+“Free” だからといって VPN プロトコルも暗号スイートも明示しないサービスを信用しろというのは無理な話。
+
+「無料」のサービスというのは無料なりの理由があって，「監視資本主義」の時代に於いて，大抵の場合は利用者の行動履歴と引き換えになっている。
+もちろん人によっては自身の行動履歴と引き換えにしても受けたいサービスはあるものなので（Gmail とか Instagram とか Twitter とか`w`）一概にその「引き換え」自体が悪いとは言わないが，少なくとも「門番」として機能する「バイパス型 VPN」においては利用者もセキュリティやプライバシーに細心の注意を払うべきである。
+
+まぁ，公表しているポリシーを偽るのは論外だけどな（笑）
+
+ぶっちゃけ，年間数千円で身元の確かな「バイパス型 VPN」サービスが買えるのなら安いものである。
+いまどき気休めでしかない「malware 対策ソフト」にお金を払う余裕があるのなら[^v1]，こういったサービスにこそ投資すべきだと思うよ，おぢさんは。
+
+[^v1]: 「malware 対策ソフト」が不要と言ってるわけじゃないよ，念のため。たとえば Windows は自前で malware 検知の仕組みを持ってるし Linux は[オープンソース製品を組み込め]({{< ref "/remark/2019/05/clamav-for-ubuntu.md" >}} "Ununtu に ClamAV を導入する")ばよい（そういや [Microsoft も Linux 版の製品を出してた](https://www.publickey1.jp/blog/20/linuxmicrosoft_defender_atp_for_linux_1.html "マイクロソフト、Linux用のマルウェア対策ソフト「Microsoft Defender ATP for Linux」正式版リリース － Publickey")な）。アプリストアの仕組みを持っているプラットフォームではアプリストア側で malware 検知を行っている。サーバ管理でもない限り通常はこれで十分間に合う。
+
+最後に老婆心ながら。
+「バイパス型 VPN」が「門番」として機能する以上，国や地域によってはサービスが機能しなかったり稼働しているサービス自体がプライバシー・リスクを孕んでいることを考慮したほうがいいだろう（婉曲表現）。
 
 ## 【おまけ】 NSA による VPN セキュリティ管理の5箇条
 
