@@ -17,6 +17,7 @@ pageType = "text"
 今回の事件について Bruce Schneier 先生によるエッセイが公開されている。
 
 - [On the Twitter Hack - Schneier on Security](https://www.schneier.com/blog/archives/2020/07/on_the_twitter_.html)
+- [ブログ: Twitterのハッキングについて](https://okuranagaimo.blogspot.com/2020/07/twitter_21.html)
 
 事件を一言で言うとこんな感じ。
 
@@ -65,7 +66,7 @@ Twitter 側は今回の件に関して，被害に遭っていると思われる
 {{% quote %}}画一的なシステムはクラスブレークをうけやすく、剛性が高い。多様な場合にもクラスブレークは可能だが、難しくなる。可能なかぎり多様性を選んだほうがいいのだ。画一性自体がセキュリティリスクになるが、そのリスクは、確立されていない方法を選んだ場合よりも小さいことが多い{{% /quote %}}（p.176）
 {{< /fig-quote >}}
 
-不幸中の幸いというか，今回は金銭絡みの比較的穏便（笑）な詐欺だったが，可能性としてはもっと大規模なこともできた筈である。
+不幸中の幸いというか，今回は[金銭絡みの比較的穏便（笑）な詐欺](https://piyolog.hatenadiary.jp/entry/2020/07/22/060139 "Twitter社内管理ツールの不正アクセスについてまとめてみた - piyolog")だったが，可能性としてはもっと大規模なこともできた筈である。
 
 {{< fig-quote type="markdown" title="On the Twitter Hack - Schneier on Security" link="https://www.schneier.com/blog/archives/2020/07/on_the_twitter_.html" lang="en" >}}
 {{% quote %}}Imagine a government using this sort of attack against another government, coordinating a series of fake tweets from hundreds of politicians and other public figures the day before a major election, to affect the outcome. Or to escalate an [international dispute](https://onezero.medium.com/twitter-security-flaws-pose-a-unique-threat-to-nuclear-diplomacy-experts-say-b509e0eb2aad). Done well, it would be devastating{{% /quote %}}.
@@ -88,6 +89,7 @@ Twitter 側は今回の件に関して，被害に遭っていると思われる
     - [Twitter Hackers May Have Bribed an Insider - Schneier on Security](https://www.schneier.com/blog/archives/2020/07/twitter_hackers.html)
 - [AppleやマスクCEOなど多数のセレブTwitterアカウントが乗っ取られ、暗号通貨詐欺に悪用される - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2007/16/news054.html)
 - [Twitterの暗号通貨詐欺の元凶は内部ツールに不正アクセスした一人のハッカー  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/16/2020-07-15-twitter-hacker-admin-scam/)
+- [Twitter社内管理ツールの不正アクセスについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/07/22/060139)
 
 ## 参考図書
 
