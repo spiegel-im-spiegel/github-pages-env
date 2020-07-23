@@ -49,7 +49,7 @@ WCT について，日本は[著作権法]改正で対応している。
 
 まず[著作権法]第2条にて「技術的保護手段」を以下のように定義した。
 
-{{< fig-quote title="著作権法" link="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
 <q>電子的方法、磁気的方法その他の人の知覚によつて認識することができない方法 [...] により、第十七条第一項に規定する著作者人格権若しくは著作権、出版権又は第八十九条第一項に規定する実演家人格権若しくは同条第六項に規定する著作隣接権（以下 [...] 「著作権等」という。）を侵害する行為の防止又は抑止 [...] をする手段（著作権等を有する者の意思に基づくことなく用いられているものを除く。）であつて、著作物、実演、レコード、放送又は有線放送 [...] の利用（著作者又は実演家の同意を得ないで行つたとしたならば著作者人格権又は実演家人格権の侵害となるべき行為を含む。）に際し、これに用いられる機器が特定の反応をする信号を著作物、実演、レコード若しくは放送若しくは有線放送に係る音若しくは影像とともに記録媒体に記録し、若しくは送信する方式又は当該機器が特定の変換を必要とするよう著作物、実演、レコード若しくは放送若しくは有線放送に係る音若しくは影像を変換して記録媒体に記録し、若しくは送信する方式によるものをいう。</q>
 {{< /fig-quote >}}
 
@@ -61,7 +61,7 @@ WCT について，日本は[著作権法]改正で対応している。
 
 この「技術的保護手段」について「著作権の制限」のひとつである「私的複製（第30条）」で
 
-{{< fig-quote title="著作権法" link="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
 <q>技術的保護手段の回避 [...] により可能となり、又はその結果に障害が生じないようになつた複製を、その事実を知りながら行う場合</q>
 {{< /fig-quote >}}
 
@@ -74,13 +74,13 @@ WCT について，日本は[著作権法]改正で対応している。
 
 今度の[著作権法]改正では「技術的保護手段」とは別に「技術的利用制限手段」という用語が登場する（第2条）。
 
-{{< fig-quote title="著作権法" link="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
 <q>電磁的方法により、著作物等の視聴（プログラムの著作物にあつては、当該著作物を電子計算機において実行する行為を含む。[...]）を制限する手段 [...] であつて、著作物等の視聴に際し、これに用いられる機器が特定の反応をする信号を著作物、実演、レコード若しくは放送若しくは有線放送に係る音若しくは影像とともに記録媒体に記録し、若しくは送信する方式又は当該機器が特定の変換を必要とするよう著作物、実演、レコード若しくは放送若しくは有線放送に係る音若しくは影像を変換して記録媒体に記録し、若しくは送信する方式によるものをいう。</q>
 {{< /fig-quote >}}
 
 この「技術的利用制限手段」に対して
 
-{{< fig-quote title="著作権法" link="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
 <q>技術的利用制限手段の回避 [...] を行う行為は、技術的利用制限手段に係る研究又は技術の開発の目的上正当な範囲内で行われる場合その他著作権者等の利益を不当に害しない場合を除き、当該技術的利用制限手段に係る著作権、出版権又は著作隣接権を侵害する行為とみなす。
 {{< /fig-quote >}}
 
@@ -92,7 +92,7 @@ WCT について，日本は[著作権法]改正で対応している。
 
 [著作権法]第120条では
 
-{{< fig-quote title="著作権法" link="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
 <q>技術的保護手段の回避若しくは技術的利用制限手段の回避を行うことをその機能とする装置 [...] 若しくは技術的保護手段の回避を行うことをその機能とするプログラムの複製物を公衆に譲渡し、若しくは貸与し、公衆への譲渡若しくは貸与の目的をもつて製造し、輸入し、若しくは所持し、若しくは公衆の使用に供し、又は当該プログラムを公衆送信し、若しくは送信可能化する行為 [...] をした者</q>
 {{< /fig-quote >}}
 
@@ -214,7 +214,7 @@ SNS やチャットでのやり取りも文字のみならず映像や音声を�
 - [「プロテクト破り」への攻撃に注意せよ！ — Baldanders.info](https://baldanders.info/blog/000501/)
 
 
-[著作権法]: http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048 "著作権法"
+[著作権法]: https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048 "著作権法"
 [不正競争防止法]: http://www.japaneselawtranslation.go.jp/law/detail_main?id=83&vm=1 "不正競争防止法"
 [CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
 

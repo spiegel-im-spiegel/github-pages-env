@@ -22,7 +22,7 @@ tags = ["drm", "creative-commons", "copyright", "license"]
 [著作権法]第2条では「技術的保護手段」は以下のように定義されている。
 （あまりに長ったらしい文なので一部端折っている）
 
-{{< fig-quote title="著作権法" link="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
 <q>電子的方法、磁気的方法その他の人の知覚によつて認識することができない方法 [...] により、第十七条第一項に規定する著作者人格権若しくは著作権、出版権又は第八十九条第一項に規定する実演家人格権若しくは同条第六項に規定する著作隣接権（以下 [...] 「著作権等」という。）を侵害する行為の防止又は抑止 [...] をする手段（著作権等を有する者の意思に基づくことなく用いられているものを除く。）であつて、著作物、実演、レコード、放送又は有線放送 [...] の利用（著作者又は実演家の同意を得ないで行つたとしたならば著作者人格権又は実演家人格権の侵害となるべき行為を含む。）に際し、これに用いられる機器が特定の反応をする信号を著作物、実演、レコード若しくは放送若しくは有線放送に係る音若しくは影像とともに記録媒体に記録し、若しくは送信する方式又は当該機器が特定の変換を必要とするよう著作物、実演、レコード若しくは放送若しくは有線放送に係る音若しくは影像を変換して記録媒体に記録し、若しくは送信する方式によるものをいう。</q>
 {{< /fig-quote >}}
 
@@ -30,7 +30,7 @@ tags = ["drm", "creative-commons", "copyright", "license"]
 
 [著作権法]では「私的使用のための複製（第30条）」を「[著作権の制限]({{< relref "01-copyright.md#fair-use" >}})」として認めているが
 
-{{< fig-quote title="著作権法" link="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
 <q>技術的保護手段の回避 [...] により可能となり、又はその結果に障害が生じないようになつた複製を、その事実を知りながら行う場合</q>
 {{< /fig-quote >}}
 
@@ -40,7 +40,7 @@ tags = ["drm", "creative-commons", "copyright", "license"]
 
 更に2018年の[著作権法]改正では新たに「技術的利用制限手段」の定義が追加された。
 
-{{< fig-quote title="著作権法" link="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
 <q>電磁的方法により、著作物等の視聴（プログラムの著作物にあつては、当該著作物を電子計算機において実行する行為を含む。[...]）を制限する手段 [...] であつて、著作物等の視聴に際し、これに用いられる機器が特定の反応をする信号を著作物、実演、レコード若しくは放送若しくは有線放送に係る音若しくは影像とともに記録媒体に記録し、若しくは送信する方式又は当該機器が特定の変換を必要とするよう著作物、実演、レコード若しくは放送若しくは有線放送に係る音若しくは影像を変換して記録媒体に記録し、若しくは送信する方式によるものをいう。</q>
 {{< /fig-quote >}}
 
@@ -196,7 +196,7 @@ DRM についてはこれからも注視していく必要がある。
 - [「技術的保護手段」と「技術的利用制限手段」]({{< ref "/remark/2018/11/copy-control-and-access-control.md" >}})
 
 [本シリーズ]: {{< rlnk "/cc-licenses/" >}} "改訂3版： CC-License について — text.Baldanders.info"
-[著作権法]: http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048 "著作権法"
+[著作権法]: https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048 "著作権法"
 [Creative Commons]: https://creativecommons.org/ "Creative Commons"
 [CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
 [表示-継承]: https://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons — Attribution-ShareAlike 4.0 International — CC BY-SA 4.0"
