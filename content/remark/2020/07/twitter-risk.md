@@ -173,9 +173,11 @@ Retweet に関しては紆余曲折があるが，今のところは以下の2�
 
 2018年末に施行された改正著作権法では，以下の条件に於いて非親告罪の対象になる。
 
+{{< fig-quote type="markdown" title="年末年始に施行される改正著作権法に関する覚え書き" link="/remark/2018/11/copyright-law-is-revised/" >}}
 1. 対価を得る目的又は権利者の利益を害する目的があること
 2. 有償著作物等について原作のまま譲渡・公衆送信又は複製を行うものであること
 3. 有償著作物等の提供・提示により得ることが見込まれる権利者の利益が不当に害されること
+{{< /fig-quote >}}
 
 前節の「お手軽！ 発信者情報開示」と併せて，本当に知財トロルがやりやすい環境が整ってきたって感じだなぁ。
 
@@ -204,9 +206,7 @@ Retweet が（{{% ruby "fav." %}}♡{{% /ruby %}}の数なんかより）重要�
 ## ブックマーク
 
 - [リツイートするだけで身元が他人に知られるリスクがあることを示した知財高裁判決(栗原潔) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/kuriharakiyoshi/20180613-00086449/)
-
 - [改訂3版： CC Licenses について]({{< rlnk "/cc-licenses/" >}})
-- [年末年始に施行される改正著作権法に関する覚え書き]({{< ref "/remark/2018/11/copyright-law-is-revised.md" >}})
 
 [著作権法]: https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048 "著作権法"
 [Twitter]: https://twitter.com/
