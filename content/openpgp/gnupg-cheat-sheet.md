@@ -718,7 +718,7 @@ minimize    使えないユーザIDをコンパクトにし、すべての署名
 
 ハイブリッド暗号は [OpenPGP] の基本機能で，平文を暗号化する「セッション鍵」とセッション鍵を暗号化する公開鍵で構成される。
 
-{{< fig-img src="https://baldanders.info/spiegel/openpgp/hybrid-enc.svg" width="715" title="「わかる！ OpenPGP 暗号」より" link="https://baldanders.info/spiegel/openpgp/" >}}
+{{< fig-img src="https://baldanders.info/spiegel/openpgp/hybrid-enc.svg" width="715" title="「わかる！ OpenPGP 暗号」より" link="https://baldanders.info/spiegel/openpgp/" class="lightmode" >}}
 
 セッション鍵は [GnuPG] が自動的にし生成するのでコマンドラインではセッション鍵を暗号化する公開鍵を指定する。
 
