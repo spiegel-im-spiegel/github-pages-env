@@ -96,6 +96,34 @@ sequenceDiagram
     end
 {{< /fig-mermaid >}}
 
+### フローチャート（Mermaid）
+
+{{< fig-mermaid title="Web of trust" >}}
+graph LR
+  Alice["Alice's Public Key"]
+  Bob["Bob's Public Key"]
+  Chris["Chris's Public Key"]
+
+  Alice-- Digital Sign -->Bob
+  Alice-. validate! .->Chris
+  Alice-. trust .->Bob
+  Bob-- Digital Sign -->Alice
+  Bob-- Digital Sign -->Chris
+  Chris-- Digital Sign -->Bob
+{{< /fig-mermaid >}}
+
+### クラス図（Mermaid）
+
+{{< fig-mermaid title="フレンズ" >}}
+classDiagram
+    friends<|--serval
+    friends<|--raccoon
+    friends<|--fennec
+    serval : +Waai()
+    raccoon : +Omakase-nanoda()
+    fennec : +Haiyo()
+{{< /fig-mermaid >}}
+
 ### アイコン
 
 CC Licenses : {{< cc-syms "cc" "pd" "zero" "by" "sa" "nc" "nc-jp" "nc-eu" "nd" >}}
@@ -103,11 +131,5 @@ CC Licenses : {{< cc-syms "cc" "pd" "zero" "by" "sa" "nc" "nc-jp" "nc-eu" "nd" >
 各種サービス : {{< icons "github" "twitter" "twitter-sq" "medium" "tumblr" "instagram" "flickr" "facebook" "facebook-sq" "linkedin" "pocket" >}}
 
 汎用 : {{< icons "check" "rss" "share" "email" "pdf" "css3" "erlang" "html5" "java" "nodejs" "php" "python" "rust" "swift" >}}
-
-
-
-
-
-
 
 <!-- end of file -->
