@@ -36,6 +36,9 @@ pageType = "text"
 - [APOD: 2020 July 17 - NEOWISE of the North](https://apod.nasa.gov/apod/ap200717.html)
 - [APOD: 2020 July 18 - Finding NEOWISE](https://apod.nasa.gov/apod/ap200718.html)
 - [APOD: 2020 July 20 - Comet NEOWISE and Nebulae](https://apod.nasa.gov/apod/ap200720.html)
+- [APOD: 2020 July 22 – The Structured Tails of Comet NEOWISE](https://apod.nasa.gov/apod/ap200722.html)
+- [APOD: 2020 July 23 - Fairytale NEOWISE](https://apod.nasa.gov/apod/ap200723.html)
+- [APOD: 2020 July 24 - MAGIC NEOWISE](https://apod.nasa.gov/apod/ap200724.html)
 
 ちなみに [NEOWISE] は NASA の WISE (Wide-field Infrared Survey Explorer) 宇宙望遠鏡を使って地球近傍天体（Near-Earth Object; NEO）を捜索するためのミッションおよび宇宙機を指している。
 ちゃんと仕事して成果を出してるわけやね。

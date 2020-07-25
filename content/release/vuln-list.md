@@ -132,7 +132,8 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 | Official | Release    |                        Ubuntu | Release    |   Delay |
 | --------:| ---------- | -----------------------------:| ---------- | -------:|
-|     78.0 | 2020-07-17 |                               |            | ∞ days |
+|   78.0.1 | 2020-07-21 |                               |            | ∞ days |
+|     78.0 | 2020-07-17 |                       &mdash; | &mdash;    | &mdash; |
 |  68.10.0 | 2020-07-01 | 68.10.0+build1-0 (USN-4421-1) | 2020-07-08 |  7 days |
 |   68.9.0 | 2020-06-03 |                       &mdash; | &mdash;    | &mdash; |
 |   68.8.1 | 2020-05-22 |                       &mdash; | &mdash;    | &mdash; |
@@ -141,6 +142,7 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (78.0.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.0.1/releasenotes/)
 - [Thunderbird — Release Notes (78.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.0/releasenotes/)
 - [Thunderbird — Release Notes (68.10.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.10.0/releasenotes/)
 - [Thunderbird — Release Notes (68.9.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.9.0/releasenotes/)
@@ -163,9 +165,8 @@ Java というか [OpenJDK] のセキュリティ管理は LTS (Long Term Suppor
 
 | Official | Release    |                   Ubuntu | Release    |   Delay |
 | --------:| ---------- | ------------------------:| ---------- | -------:|
-|   11.0.8 | 2020-07-14 |                          |            | ∞ days |
+|   11.0.8 | 2020-07-14 | 11.0.8+10-0 (USN-4433-1) | 2020-07-23 |  9 days |
 |   11.0.7 | 2020-04-14 |           (Ubuntu 20.04) | 2020-04-23 | &mdash; |
-|   11.0.7 | 2020-04-14 | 11.0.7+10-2 (USN-4337-1) | 2020-04-22 |  8 days |
 
 ### ブックマーク
 

@@ -90,6 +90,7 @@ Twitter 側は今回の件に関して，被害に遭っていると思われる
 - [AppleやマスクCEOなど多数のセレブTwitterアカウントが乗っ取られ、暗号通貨詐欺に悪用される - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2007/16/news054.html)
 - [Twitterの暗号通貨詐欺の元凶は内部ツールに不正アクセスした一人のハッカー  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/16/2020-07-15-twitter-hacker-admin-scam/)
 - [Twitter社内管理ツールの不正アクセスについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/07/22/060139)
+- [Twitterが30人以上の著名人アカウントDMにハッカーがアクセスしていたことを認める  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/23/2020-07-22-twitter-admits-hackers-accessed-dms-of-dozens-of-high-profile-accounts/)
 
 ## 参考図書
 
