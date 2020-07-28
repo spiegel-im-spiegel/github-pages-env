@@ -98,7 +98,7 @@ func main() {
 
 ```text
 $ go run sample.go 
-&errs.Error{Msg:"file open error", Context:map[string]interface {}{"function":"main.checkFileOpen", "path":"not-exist.txt"}, Cause:&os.PathError{Op:"open", Path:"not-exist.txt", Err:0x2}}
+*errs.Error{Err:&errors.errorString{s:"file open error"}, Cause:&os.PathError{Op:"open", Path:"not-exist.txt", Err:0x2}, Context:map[string]interface {}{"function":"main.checkFileOpen", "path":"not-exist.txt"}}
 ```
 
 という感じに構造体のダンプ表示ぽい出力になる。
@@ -120,7 +120,7 @@ func main() {
 
 ```text
 $ go run sample.go 
-{"Type":"*errs.Error","Msg":"file open error: open not-exist.txt: no such file or directory","Context":{"function":"main.checkFileOpen","path":"not-exist.txt"},"Cause":{"Type":"*os.PathError","Msg":"open not-exist.txt: no such file or directory","Cause":{"Type":"syscall.Errno","Msg":"no such file or directory"}}}
+{"Type":"*errs.Error","Err":{"Type":"*errors.errorString","Msg":"file open error"},"Context":{"function":"main.checkFileOpen","path":"not-exist.txt"},"Cause":{"Type":"*os.PathError","Msg":"open not-exist.txt: no such file or directory","Cause":{"Type":"syscall.Errno","Msg":"no such file or directory"}}}
 ```
 
 と JSON フォーマットで出力される。
@@ -130,7 +130,10 @@ $ go run sample.go
 $ go run sample.go | jq .
 {
   "Type": "*errs.Error",
-  "Msg": "file open error: open not-exist.txt: no such file or directory",
+  "Err": {
+    "Type": "*errors.errorString",
+    "Msg": "file open error"
+  },
   "Context": {
     "function": "main.checkFileOpen",
     "path": "not-exist.txt"
