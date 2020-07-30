@@ -1,6 +1,6 @@
 +++
 title = "GNKF 最初のリリース "
-date =  "2020-07-30T22:41:51+09:00"
+date =  "2020-07-30T22:49:26+09:00"
 description = "元のコードの70%くらいは捨てました（笑）"
 image = "/images/attention/go-logo_blue.png"
 tags  = [ "tools", "golang", "character", "encoding", "unicode", "normalization" ]
