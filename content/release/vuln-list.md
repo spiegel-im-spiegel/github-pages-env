@@ -84,6 +84,7 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 | Official | Release    |        Ubuntu | Release    |  Delay |
 | --------:| ---------- | -------------:| ---------- | ------:|
+|   2.28.0 | 2020-07-27 |  2.28.0-0ppa1 | 2020-07-28 | 1 days |
 |   2.27.0 | 2020-06-01 | 2.27.0-1~ppa0 | 2020-06-02 | 1 days |
 |   2.26.2 | 2020-04-20 |  2.26.2-0ppa1 | 2020-04-21 | 1 days |
 |   2.26.1 | 2020-04-14 |  2.26.1-0ppa1 | 2020-04-15 | 1 days |
@@ -91,6 +92,7 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 ### ブックマーク
 
+- [[ANNOUNCE] Git v2.28.0](https://lore.kernel.org/git/xmqq5za8hpir.fsf@gitster.c.googlers.com/T/)
 - [[ANNOUNCE] Git v2.27.0](https://lore.kernel.org/git/xmqqzh9mu4my.fsf@gitster.c.googlers.com/T/)
 - [[Announce] Git v2.26.2 and others](https://lore.kernel.org/git/xmqq4kterq5s.fsf@gitster.c.googlers.com/T/)
 - [[Announce] Git v2.26.1 and others](https://lore.kernel.org/git/xmqqy2qy7xn8.fsf@gitster.c.googlers.com/T/)
