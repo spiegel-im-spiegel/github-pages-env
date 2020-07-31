@@ -74,8 +74,8 @@ pageType = "text"
 
 はっきり言おう。
 
-{{< div-gen type="markdown" class="center" >}}
-**Mozilla がユーザのプライバシーを重視しているというのは嘘っぱちである**
+{{< div-gen type="markdown" class="center caution" >}}
+Mozilla がユーザのプライバシーを重視しているというのは嘘っぱちである
 {{< /div-gen >}}
 
 本当に Mozilla がユーザのプライバシーを重視しているというのなら，検索サービスの既定を DuckDuckGo にすべき。
