@@ -91,6 +91,9 @@ Twitter 側は今回の件に関して，被害に遭っていると思われる
 - [Twitterの暗号通貨詐欺の元凶は内部ツールに不正アクセスした一人のハッカー  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/16/2020-07-15-twitter-hacker-admin-scam/)
 - [Twitter社内管理ツールの不正アクセスについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/07/22/060139)
 - [Twitterが30人以上の著名人アカウントDMにハッカーがアクセスしていたことを認める  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/23/2020-07-22-twitter-admits-hackers-accessed-dms-of-dozens-of-high-profile-accounts/)
+- [Three people have been charged for Twitter’s huge hack, and a Florida teen is in jail - The Verge](https://www.theverge.com/2020/7/31/21349920/twitter-hack-arrest-florida-teen-fbi-irs-secret-service)
+    - [Twitter Hacker Arrested - Schneier on Security](https://www.schneier.com/blog/archives/2020/07/twitter_hacker_.html)
+- [A 17-year-old was arrested for being the “mastermind” of the massive bitcoin Twitter hack / Boing Boing](https://boingboing.net/2020/07/31/a-17-year-old-was-arrested-for.html)
 
 ## 参考図書
 
