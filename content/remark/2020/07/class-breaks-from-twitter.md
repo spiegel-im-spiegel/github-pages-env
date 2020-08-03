@@ -94,6 +94,7 @@ Twitter 側は今回の件に関して，被害に遭っていると思われる
 - [Three people have been charged for Twitter’s huge hack, and a Florida teen is in jail - The Verge](https://www.theverge.com/2020/7/31/21349920/twitter-hack-arrest-florida-teen-fbi-irs-secret-service)
     - [Twitter Hacker Arrested - Schneier on Security](https://www.schneier.com/blog/archives/2020/07/twitter_hacker_.html)
 - [A 17-year-old was arrested for being the “mastermind” of the massive bitcoin Twitter hack / Boing Boing](https://boingboing.net/2020/07/31/a-17-year-old-was-arrested-for.html)
+- [Twitterハッキングから2週間で当局が訴追した方法についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/08/03/030407)
 
 ## 参考図書
 

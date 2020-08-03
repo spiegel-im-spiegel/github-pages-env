@@ -9,6 +9,8 @@
 
 - [少しだけお手伝いした矢吹太朗『Webのしくみ Webをいかすための12の道具』（サイエンス社）が来月刊行される - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20200618/web-no-shikumi) : 2020年8月中～下旬の発行になってた
 
+- [なりすまし申請による特別定額給付金詐欺事件についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/08/02/014951)
+
 
 ## リリース情報
 
@@ -30,5 +32,8 @@
 
 ## その他
 
+- [ねこめ(～わく)7巻 : ぽじとろんの竹本泉観察記](https://positron.exblog.jp/31303672/)
+- [WindowsマシンをWinAuthでMFAデバイスにする - Qiita](https://qiita.com/tsukamoto/items/1019381984b8b4735515)
+- [ホワイトボードでのコーディング面接を行わない企業リスト - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20200803/hiring-without-whiteboards)
 
 <!-- eof -->

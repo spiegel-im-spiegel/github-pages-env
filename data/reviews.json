@@ -12694,5 +12694,90 @@
       false
     ],
     "Description": "アクちゃんが可愛い。これ見て書籍版を途中までしか読んでないことに気がついた。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B088M85X7P",
+      "Title": "部屋裏のバイテン 分冊版 ： 1 (webアクションコミックス)",
+      "URL": "https://www.amazon.co.jp/dp/B088M85X7P?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/517JqFOo1ZL._SL160_.jpg",
+        "Height": 160,
+        "Width": 108
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "竹本泉",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "双葉社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B088M85X7P"
+        }
+      ],
+      "PublicationDate": "2020-06-10",
+      "LastRelease": "2020-06-10",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-06-10",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "竹本泉さん，還暦過ぎてからの新連載。ブラボー！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07Y5N67YB",
+      "Title": "私、能力は平均値でって言ったよね！",
+      "URL": "https://www.amazon.co.jp/dp/B07Y5N67YB?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51-xqY9y5ML._SL160_.jpg",
+        "Height": 120,
+        "Width": 160
+      },
+      "ProductType": "Prime Video",
+      "Creators": [
+        {
+          "Name": "太田雅彦",
+          "Role": "監督"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07Y5N67YB"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-08-03",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "同名作品のアニメ化。マイルの「ちんまい」イメージがアニメで強化される。"
   }
 ]
