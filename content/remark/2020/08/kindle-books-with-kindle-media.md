@@ -3,7 +3,7 @@ title = "Kindle 本は “Kindle” メディアである"
 date =  "2020-08-03T12:50:46+09:00"
 description = "もう少しぶっちゃけて言うなら「勝馬には乗っとけ！」ということだ。"
 image = "/images/attention/kitten.jpg"
-tags = [ "book", "e-book", "kindle", "pdf" ]
+tags = [ "book", "e-book", "kindle", "media", "pdf" ]
 pageType = "text"
 
 [scripts]
