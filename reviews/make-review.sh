@@ -1,7 +1,9 @@
 #!/bin/sh
-sleep 1;cat B07Y5N67YB.html | books-data review -t review-book.html -a B07Y5N67YB -r 4 --review-date 2020-08-03 --pipe
-sleep 1;cat B088M85X7P.html | books-data review -t review-book.html -a B088M85X7P -r 5 --review-date 2020-06-10 --pipe
+sleep 1;cat B07F5KLM6N.html | books-data review -t review-book.html -a B07F5KLM6N -r 0 --review-date 2020-08-05 --pipe
+sleep 1;cat card-57423.html | books-data review -t review-book.html -c 57423      -r 0 --review-date 2020-08-05 --image-url https://text.baldanders.info/images/aozora/card57423.svg  --pipe
 # ---
+# sleep 1;cat ./done/B07Y5N67YB.html | books-data review -t review-book.html -a B07Y5N67YB -r 4 --review-date 2020-08-03 --pipe
+# sleep 1;cat ./done/B088M85X7P.html | books-data review -t review-book.html -a B088M85X7P -r 5 --review-date 2020-06-10 --pipe
 # sleep 1;cat ./done/B00MTQ1ICM.html | books-data review -t review-book.html -a B00MTQ1ICM -r 3 --review-date 2020-07-19 --pipe
 # sleep 1;cat ./done/B07V1T8JMG.html | books-data review -t review-book.html -a B07V1T8JMG -r 4 --review-date 2020-07-19 --pipe
 # sleep 1;cat ./done/B01G12HBDY.html | books-data review -t review-book.html -a B01G12HBDY -r 4 --review-date 2020-07-07 --pipe

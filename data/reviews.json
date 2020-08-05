@@ -12779,5 +12779,97 @@
       false
     ],
     "Description": "同名作品のアニメ化。マイルの「ちんまい」イメージがアニメで強化される。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07F5KLM6N",
+      "Title": "戦争と平和　完全版",
+      "URL": "https://www.amazon.co.jp/dp/B07F5KLM6N?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51jNL+tkDdL._SL160_.jpg",
+        "Height": 160,
+        "Width": 115
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "トルストイ",
+          "Role": "著"
+        },
+        {
+          "Name": "上妻純一郎",
+          "Role": "編集"
+        },
+        {
+          "Name": "米川正夫",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "古典教養文庫",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07F5KLM6N"
+        }
+      ],
+      "PublicationDate": "2018-06-29",
+      "LastRelease": "2018-06-29",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-08-05",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "完全版（合本のこと？）とかあるのか。さすが Kindle だな。学生時代に大学受験対策で読まされた覚えがあるのだが，記憶からほぼ脱落してる（笑）"
+  },
+  {
+    "Book": {
+      "Type": "aozora",
+      "ID": "57423",
+      "Title": "戦争と平和",
+      "URL": "https://www.aozora.gr.jp/cards/001474/card57423.html",
+      "Image": {
+        "URL": "https://text.baldanders.info/images/aozora/card57423.svg"
+      },
+      "ProductType": "青空文庫",
+      "Creators": [
+        {
+          "Name": "丘 浅次郎"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "図書カードNo.",
+          "Value": "57423"
+        }
+      ],
+      "PublicationDate": "2017-01-09",
+      "LastRelease": "2016-12-09",
+      "PublicDomain": true,
+      "FirstAppearance": "「青年界」1904（明治37）年4月",
+      "Service": {
+        "Name": "aozorahack",
+        "URL": "https://aozorahack.org/"
+      }
+    },
+    "Date": "2020-08-05",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "トルストイじゃないほう（笑） 日露戦争の頃に出版されたテキストです。著者の丘浅次郎さんは生物学者で，進化論や遺伝学で貢献された方だそうです。"
   }
 ]
