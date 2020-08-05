@@ -5,7 +5,6 @@ description = "「オンラインとうろう流し」自体は2015年から毎�
 image = "/remark/2020/08/water-lantern/water-lantern-sq.png"
 tags = [ "hiroshima" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
