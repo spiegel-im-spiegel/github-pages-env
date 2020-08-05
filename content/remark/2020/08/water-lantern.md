@@ -1,6 +1,6 @@
 +++
 title = "「平和記念日」のとうろう流し"
-date =  "2020-08-05T08:58:56+09:00"
+date =  "2020-08-05T11:20:25+09:00"
 description = "「オンラインとうろう流し」自体は2015年から毎年行われている真っ当なイベントである。"
 image = "/remark/2020/08/water-lantern/water-lantern-sq.png"
 tags = [ "hiroshima" ]
