@@ -25,7 +25,19 @@ Thanks to Mikael Manukyan, Andrew Kutz, Dave McClure, Tim Downey, Clay Kauzlaric
 This issue is CVE-2020-15586 and Go issue [golang.org/issue/34902](https://golang.org/issue/34902).
 {{< /fig-quote >}}
 
-以下，未稿。
+- `CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H`
+- 深刻度: 警告 (5.9)
+
+| 基本評価基準     | 評価値       |
+| ---------------- | ------------ |
+| 攻撃元区分       | ネットワーク |
+| 攻撃条件の複雑さ | 高           |
+| 必要な特権レベル | 不要         |
+| ユーザ関与レベル | 不要         |
+| スコープ         | 変更なし     |
+| 機密性への影響   | なし         |
+| 完全性への影響   | なし         |
+| 可用性への影響   | 高           |
 
 ## 【[CVE-2020-14039]】 X.509 verification ignores provided EKUs on Windows
 
@@ -35,7 +47,19 @@ Thanks to Niall Newman for reporting this issue.
 This issue is CVE-2020-14039 and Go issue [golang.org/issue/39360](https://golang.org/issue/39360).
 {{< /fig-quote >}}
 
-以下，未稿。
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N`
+- 深刻度: 警告 (5.3)
+
+| 基本評価基準     | 評価値       |
+| ---------------- | ------------ |
+| 攻撃元区分       | ネットワーク |
+| 攻撃条件の複雑さ | 低           |
+| 必要な特権レベル | 不要         |
+| ユーザ関与レベル | 不要         |
+| スコープ         | 変更なし     |
+| 機密性への影響   | なし         |
+| 完全性への影響   | 低           |
+| 可用性への影響   | なし         |
 
 ## 例によって
 
