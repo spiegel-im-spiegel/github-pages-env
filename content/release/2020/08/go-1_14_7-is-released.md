@@ -2,7 +2,7 @@
 title = "Go 1.14.7 のリリース【セキュリティ・アップデート】"
 date =  "2020-08-07T09:21:59+09:00"
 description = "1件のセキュリティ・アップデートを含んでいる。"
-image = "/images/attention/tools.png"
+image = "/images/attention/go-logo_blue.png"
 tags  = [ "programming", "language", "golang", "ubuntu", "security", "vulnerability" ]
 pageType = "text"
 
