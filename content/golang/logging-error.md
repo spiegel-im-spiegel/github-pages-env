@@ -34,7 +34,6 @@ func checkFileOpen(path string) error {
     if err != nil {
         return errs.Wrap(
             err,
-            "file open error",
             errs.WithContext("path", path),
         )
     }
@@ -69,18 +68,17 @@ func main() {
 $ go run sample.go | jq .
 {
   "Type": "*errs.Error",
-  "Msg": "file open error: open not-exist.txt: no such file or directory",
-  "Context": {
-    "function": "main.checkFileOpen",
-    "path": "not-exist.txt"
-  },
-  "Cause": {
+  "Err": {
     "Type": "*os.PathError",
     "Msg": "open not-exist.txt: no such file or directory",
     "Cause": {
       "Type": "syscall.Errno",
       "Msg": "no such file or directory"
     }
+  },
+  "Context": {
+    "function": "main.checkFileOpen",
+    "path": "not-exist.txt"
   }
 }
 ```
@@ -88,7 +86,7 @@ $ go run sample.go | jq .
 てな感じになる。
 うむうむ。
 
-ここからが本題。
+で，ここからが本題。
 
 [`fmt`]`.Printf()` の部分を [rs/zerolog] によるログ出力に置き換えてみよう。
 とりあえず logger インスタンスの生成はこんな感じかな。
@@ -119,7 +117,7 @@ func main() {
 
 ```text
 $ go run sample.go
-{"level":"error","role":"logger-sample","error":"file open error: open not-exist.txt: no such file or directory","time":"2009-11-10T23:00:00Z"}
+{"level":"error","role":"logger-sample","error":"open not-exist.txt: no such file or directory","time":"2009-11-10T23:00:00Z"}
 ```
 
 更に [jq] コマンドを噛ませるとこんな感じになる。
@@ -129,7 +127,7 @@ $ go run sample.go | jq .
 {
   "level": "error",
   "role": "logger-sample",
-  "error": "file open error: open not-exist.txt: no such file or directory",
+  "error": "open not-exist.txt: no such file or directory",
   "time": "2009-11-10T23:00:00Z"
 }
 ```
@@ -161,18 +159,17 @@ $ go run sample.go | jq .
   "role": "logger-sample",
   "error": {
     "Type": "*errs.Error",
-    "Msg": "file open error: open not-exist.txt: no such file or directory",
-    "Context": {
-      "function": "main.checkFileOpen",
-      "path": "not-exist.txt"
-    },
-    "Cause": {
+    "Err": {
       "Type": "*os.PathError",
       "Msg": "open not-exist.txt: no such file or directory",
       "Cause": {
         "Type": "syscall.Errno",
         "Msg": "no such file or directory"
       }
+    },
+    "Context": {
+      "function": "main.checkFileOpen",
+      "path": "not-exist.txt"
     }
   },
   "time": "2009-11-10T23:00:00Z"

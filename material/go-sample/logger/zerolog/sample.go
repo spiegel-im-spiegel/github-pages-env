@@ -12,7 +12,6 @@ func checkFileOpen(path string) error {
 	if err != nil {
 		return errs.Wrap(
 			err,
-			"file open error",
 			errs.WithContext("path", path),
 		)
 	}
@@ -30,7 +29,6 @@ func main() {
 	if err := checkFileOpen("not-exist.txt"); err != nil {
 		//logger.Error().Err(err).Send()
 		logger.Error().Interface("error", err).Send()
-		//logger.Error().Interface("error", err).Send()
 		//fmt.Printf("%+v\n", err)
 	}
 }
