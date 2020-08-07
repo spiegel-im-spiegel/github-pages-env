@@ -28,6 +28,7 @@ pageType = "text"
 - [「Thunderbird 78.1.0」がリリース ～「OpenPGP」対応を完了、10件の脆弱性を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1268565.html)
 - [ほぼすべてのLinuxのブートローダーに脆弱性  - PC Watch](https://pc.watch.impress.co.jp/docs/news/1268335.html)
     - [レッドハット、「BootHole」脆弱性へのフィックスで一部のシステムが起動不可に - ZDNet Japan](https://japan.zdnet.com/article/35157511/)
+    - [Ubuntu 20.04 その127 - UEFIセキュアブートを回避するBootHoleの脆弱性とUbuntuの対応方針 - kledgeb](https://kledgeb.blogspot.com/2020/08/ubuntu-2004-127-uefibootholeubuntu.html)
 
 ## 天文関連
 
