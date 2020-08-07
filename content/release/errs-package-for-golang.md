@@ -133,7 +133,7 @@ func main() {
 
 とすると，実行結果は
 
-```text
+```json
 $ go run sample1c.go | jq .
 {
   "Type": "*errs.Error",
@@ -192,7 +192,7 @@ open not-exist.txt: no such file or directory
 と，元の `error` インスタンスと同じ結果になるが，書式 `%+v` で出力すると
 
 
-```text
+```json
 $ go run sample2c.go | jq .
 {
   "Type": "*errs.Error",
@@ -221,7 +221,7 @@ $ go run sample2c.go | jq .
 var ErrCheckFileOpen = errors.New("file open error")
 ```
 
-などと，あらかじめ `error` インスタンス `ErrCheckFileOpen` を作成しておいて
+などと，あらかじめ `error` インスタンス `ErrCheckFileOpen` を定義しておいて
 
 ```go {hl_lines=["5-6"]}
 func checkFileOpen(path string) error {
@@ -257,7 +257,7 @@ func main() {
 
 と [`errors`]`.Is()` 関数等を使って比較的簡単にエラーハンドリングを行うことができる。
 
-### errs.Cause() 関数，他
+### その他のハンドリング関数
 
 おまけの機能として [`errs`]`.Cause()` 関数も用意してみた。
 
@@ -273,9 +273,43 @@ func main() {
 
 このように [`errs`]`.Cause()` 関数では `error` の構造を遡って大元の  `error` インスタンスを抽出することができる。
 
-また，標準の [`errors`]`.As()`, [`errors`]`.Is()`, [`errors`]`.Unwrap()` 各関数の互換となる [`errs`]`.As()`, [`errs`]`.Is()`, [`errs`]`.Unwrap()` 関数も用意した。
+さらに，標準の [`errors`]`.As()`, [`errors`]`.Is()`, [`errors`]`.Unwrap()` 各関数の互換となる [`errs`]`.As()`, [`errs`]`.Is()`, [`errs`]`.Unwrap()` 関数も用意した。
 まぁ，内部で [`errors`] の各関数を呼び出しているだけだけど。
 でも，これで標準の [`errors`] パッケージを [`errs`] パッケージに置き換えて使うことができると思う。
+
+さらにさらに，  [`errs`]`.EncodeJSON()` 関数を使うと，通常の `error` インスタンスでも可能な限り構造を辿って JSON 形式で出力する。
+たとえば
+
+```go {hl_lines=[5]}
+func main() {
+	if err := checkFileOpen("not-exist.txt"); err != nil {
+		var pathError *os.PathError
+		if errs.As(err, &pathError) {
+			fmt.Printf("%v\n", errs.EncodeJSON(pathError))
+		} else {
+			fmt.Println(err)
+		}
+		return
+	}
+}
+```
+
+のように書けば
+
+```json
+$ go run sample/sample2d.go | jq .
+{
+  "Type": "*os.PathError",
+  "Msg": "open not-exist.txt: no such file or directory",
+  "Cause": {
+    "Type": "syscall.Errno",
+    "Msg": "no such file or directory"
+  }
+}
+
+```
+
+などと出力される。
 
 ## ブックマーク
 

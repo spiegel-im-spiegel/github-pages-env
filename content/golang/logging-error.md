@@ -51,7 +51,7 @@ func checkFileOpen(path string) error {
 を参考にしてね。
 
 この関数を使った `main()` 関数を書いてみよう。
-まずは標準出力に対して普通に
+まずは標準出力に対して書式 `%+v` を指定して普通に
 
 ```go
 func main() {
@@ -65,7 +65,7 @@ func main() {
 これの実行結果は
 
 ```json
-$ go run sample.go | jq .
+$ go run sample1.go | jq .
 {
   "Type": "*errs.Error",
   "Err": {
@@ -116,7 +116,7 @@ func main() {
 これの実行結果は以下の通り。
 
 ```text
-$ go run sample.go
+$ go run sample2.go
 {"level":"error","role":"logger-sample","error":"open not-exist.txt: no such file or directory","time":"2009-11-10T23:00:00Z"}
 ```
 
@@ -133,7 +133,7 @@ $ go run sample.go | jq .
 ```
 
 見ての通り [`zerolog`]`.Event.Err()` メソッドでは単純なエラーメッセージしか出力されない（当たり前だが）。
-通常の error ならこれで十分だが [`errs`]`.Wrap()` 関数で生成した error では不十分である。
+通常の error ならこれで十分だが [`errs`]`.Wrap()` 関数でラップした error では不十分である。
 
 そこで [`zerolog`]`.Event.Interface()` メソッドのほうを使ってみる。
 
@@ -153,7 +153,7 @@ func main() {
 これでログ出力は
 
 ```json
-$ go run sample.go | jq .
+$ go run sample3.go | jq .
 {
   "level": "error",
   "role": "logger-sample",
