@@ -47,7 +47,9 @@ err := errs.New(
 )
 ```
 
-[`errs`]`.WithContext()` 関数は引数に複数セット可能で `map[string]interface{}` 形式の連想配列に格納される。
+[`errs`]`.WithContext()` 関数は [`errs`]`.New()` 関数の引数として複数セット可能で[^fop1]，付加されたコンテキスト情報は `map[string]interface{}` 形式の連想配列に格納される。
+
+[^fop1]: 可変引数に関数をセットするプログラミング・パターンは “[Functional Option Pattern]({{< ref "https://text.baldanders.info/golang/functional-options-pattern.md" >}} "インスタンスの生成と Functional Options パターン")” と呼ばれている。
 
 更に [`errs`]`.WithCause()` 関数を使って原因エラーを付加することもできる。
 
@@ -59,7 +61,7 @@ err := errs.New(
 )
 ```
 
-[`errs`]`.WithCause()` 関数も引数に複数セットできるが，最後にセットしたインスタンスのみが有効となる。
+[`errs`]`.WithCause()` 関数も [`errs`]`.New()` 関数の引数として複数セットできるが，最後にセットしたインスタンスのみが有効となる。
 
 以上を踏まえて，ファイルをオープンするだけの関数を考えてみよう。
 こんな感じ。
