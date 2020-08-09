@@ -41,7 +41,7 @@ pageType = "text"
 これらの画像データは [Creative Commons Zero 1.0](https://creativecommons.org/publicdomain/zero/1.0/ "Creative Commons — CC0 1.0 Universal") の下に公開することにしたので，自由に利用していただいて構わない。
 
 実は[青空文庫のトップページ](https://www.aozora.gr.jp/ "青空文庫　Aozora Bunko")に “Public Domain Locked” のバナーがあるんだけど，わざと見えにくいデザインにしているみたいで微妙に使いにくいんだよね。
-勝手に使っていのかも分からないし，そもそも今のダーク・スタイルだと浮いてしまうし...
+勝手に使っていいのかも分からないし，そもそも今のダーク・スタイルだとバナーだけ浮いてしまうし...
 
 アイコン画像も「どっかにフリー画像ないかな？」と思ってざっとググったんだけど「フリー」つっても「無料のビール」の方だったりするんだよね，大抵。
 
