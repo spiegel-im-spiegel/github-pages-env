@@ -1,6 +1,6 @@
 +++
 title = "2017年のパブリックドメイン作品と青空文庫20周年"
-tags = ["code", "copyright", "aozora"]
+tags = ["code", "copyright", "aozora", "public-domain"]
 description = "「単に「モノが無料で手に入るかどうか」ではなく、「文化が自由であるかどうか」の問題」"
 date = "2017-01-04T18:51:39+09:00"
 

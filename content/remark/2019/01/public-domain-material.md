@@ -3,7 +3,7 @@ title = "2019年 公有化に関する2つの話題"
 date = "2019-01-02T11:06:50+09:00"
 description = "むしろこれを機会に「自由」について日本人もそろそろ真面目に考えてみるというのはどうだろう。そういう2019年になれば幸いである。"
 image = "/images/attention/kitten.jpg"
-tags = ["code", "intellectual-property", "copyright", "creative-commons"]
+tags = ["code", "intellectual-property", "copyright", "creative-commons", "public-domain"]
 
 [scripts]
   mathjax = false

@@ -12871,5 +12871,45 @@
       false
     ],
     "Description": "トルストイじゃないほう（笑） 日露戦争の頃に出版されたテキストです。著者の丘浅次郎さんは生物学者で，進化論や遺伝学で貢献された方だそうです。"
+  },
+  {
+    "Book": {
+      "Type": "aozora",
+      "ID": "59489",
+      "Title": "「天に積む宝」のふやし方、へらし方",
+      "SubTitle": "著作権保護期間延長が青空文庫にもたらすもの",
+      "URL": "https://www.aozora.gr.jp/cards/000055/card59489.html",
+      "Image": {
+        "URL": "https://text.baldanders.info/images/aozora/card59489.svg"
+      },
+      "ProductType": "青空文庫",
+      "Creators": [
+        {
+          "Name": "富田 倫生"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "図書カードNo.",
+          "Value": "59489"
+        }
+      ],
+      "PublicationDate": "2019-01-01",
+      "LastRelease": "2018-12-24",
+      "Service": {
+        "Name": "aozorahack",
+        "URL": "https://aozorahack.org/"
+      }
+    },
+    "Date": "2020-08-09",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "『\u003ca href=\"https://www.amazon.co.jp/dp/4899840721?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1\"\u003eインターネット図書館 青空文庫\u003c/a\u003e』の巻末に寄せられた文章。著作権期限の延長を受けて青空文庫に収録された。"
   }
 ]
