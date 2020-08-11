@@ -78,8 +78,8 @@ $ sudo snap remove libreoffice
 
 - `LibreOffice_7.0.0_Linux_x86-64_deb.tar.gz`
 
-このファイルを適当な場所で展開すると `LibreOffice_6.4.1_Linux_x86-64_deb/` ディレクトリが作成される。
-`LibreOffice_6.4.1_Linux_x86-64_deb/DEBS/` ディレクトリに降りると複数の deb ファイルがあることが分かるだろう。
+このファイルを適当な場所で展開すると `LibreOffice_7.0.0_Linux_x86-64_deb/` ディレクトリが作成される。
+`LibreOffice_7.0.0_Linux_x86-64_deb/DEBS/` ディレクトリに降りると複数の deb ファイルがあることが分かるだろう。
 基本的にはこれを全てインストールする。
 全てのファイルに対していちいち `gdebi` コマンドを使うのはかったるいので
 
