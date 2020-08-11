@@ -76,7 +76,7 @@ $ sudo snap remove libreoffice
 まず[公式サイト]から deb ファイルが同梱された `*.tar.gz` ファイルをダウンロードする。
 たとえばこんなファイル名になっている。
 
-- `LibreOffice_6.4.1_Linux_x86-64_deb.tar.gz`
+- `LibreOffice_7.0.0_Linux_x86-64_deb.tar.gz`
 
 このファイルを適当な場所で展開すると `LibreOffice_6.4.1_Linux_x86-64_deb/` ディレクトリが作成される。
 `LibreOffice_6.4.1_Linux_x86-64_deb/DEBS/` ディレクトリに降りると複数の deb ファイルがあることが分かるだろう。
@@ -93,22 +93,22 @@ $ sudo apt install ./*.deb
 これで導入した [LibreOffice] では英語とフランス語くらいしか対応していないため日本語パックとヘルプも導入する。
 同じく[公式サイト]から以下の `*.tar.gz` ファイルをダウンロードする。
 
-- `LibreOffice_6.4.1_Linux_x86-64_deb_langpack_ja.tar.gz`
-- `LibreOffice_6.4.1_Linux_x86-64_deb_helppack_ja.tar.gz`
+- `LibreOffice_7.0.0_Linux_x86-64_deb_langpack_ja.tar.gz`
+- `LibreOffice_7.0.0_Linux_x86-64_deb_helppack_ja.tar.gz`
 
 これらのファイルを適当な場所で展開して中に入っている deb ファイルを片っ端からインストールしていく。
 
 削除する場合は
 
 ```text
-$ sudo apt remove libreoffice6.4* libobasis6.4*
+$ sudo apt remove libreoffice7.0* libobasis7.0*
 ```
 
 のようにバージョンとワイルドカードを指定すること。
 
 分かってますよ。
 めがっさ面倒くさいです。
-しかしこの公式版ならちゃんと OpenPGP 鍵を認識して電子署名も暗号化もできる。
+しかしこの公式版ならちゃんと [OpenPGP] 鍵を認識して電子署名も暗号化もできる。
 
 日本でもメールにパスワード書くような悪習は早くなくしていきたいものである。
 
