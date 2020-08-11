@@ -1,6 +1,6 @@
 +++
 title = "画面確認用デバッグ・ページ"
-date =  "2020-07-24T09:49:31+09:00"
+date =  "2020-08-11T10:05:48+09:00"
 description = "description"
 image = "/images/attention/site.jpg"
 tags = ["site", "web"]

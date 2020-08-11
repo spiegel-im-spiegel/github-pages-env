@@ -134,10 +134,12 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 現在は APT を使わず公式バイナリをダウンロードして手動でインストールしているが，参考情報として残しておく。
 
-| Official | Release    |                        Ubuntu | Release    |   Delay |
-| --------:| ---------- | -----------------------------:| ---------- | -------:|
-|   78.0.1 | 2020-07-21 |                               |            | ∞ days |
-|     78.0 | 2020-07-17 |                       &mdash; | &mdash;    | &mdash; |
+| Official | Release    |  Ubuntu | Release |   Delay |
+| --------:| ---------- | -------:| ------- | -------:|
+|   78.1.1 | 2020-08-06 |         |         | ∞ days |
+|   78.1.0 | 2020-07-30 | &mdash; | &mdash; | &mdash; |
+|   78.0.1 | 2020-07-21 | &mdash; | &mdash; | &mdash; |
+|     78.0 | 2020-07-17 | &mdash; | &mdash; | &mdash; |
 
 | Official | Release    |                        Ubuntu | Release    |   Delay |
 | --------:| ---------- | -----------------------------:| ---------- | -------:|
@@ -150,6 +152,8 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (78.1.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.1.1/releasenotes/)
+- [Thunderbird — Release Notes (78.1.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.1.0/releasenotes/)
 - [Thunderbird — Release Notes (68.11.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.11.0/releasenotes/)
 - [Thunderbird — Release Notes (78.0.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.0.1/releasenotes/)
 - [Thunderbird — Release Notes (78.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.0/releasenotes/)
