@@ -23,6 +23,7 @@ VPN（Virtual Private Network）とは，物理的な回線・ネットワーク
 - 認証とアクセス制御
 
 を挙げ，これらの要件を満たした製品・サービスを VPN と呼ぶことにする。
+この定義でいくと OpenSSH や Tor (The Onion Router) も VPN に分類できる。
 
 VPN は目的別に以下の3つに分類できるだろう。
 
