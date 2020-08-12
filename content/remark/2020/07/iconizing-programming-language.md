@@ -70,7 +70,7 @@ HTML5 や CSS3 をプログラミング言語と言っていいか微妙だが�
 まぁ HTML/CSS は洒落だと思うが。
 そんで，これらの中で移行を検討している言語が以下の表になっている。
 
-{{< fig-img src="./migrate-to-other-languages.png" title="via “The State of Developer Ecosystem in 2020 Infographic”" link="https://www.jetbrains.com/lp/devecosystem-2020/" width="1048" >}}
+{{< fig-img-quote src="./migrate-to-other-languages.png" title="The State of Developer Ecosystem in 2020 Infographic" link="https://www.jetbrains.com/lp/devecosystem-2020/" width="1048" lang="en" >}}
 
 まぁ，そもそも「移行したい」と考えるほうが少数派なのだが，その少数派の動向を見ると，  Java や Python などから Go へ移行したいと考えている人が意外にいる一方で Go から Rust へ移行したいと考える人も多いことに気づく。
 
@@ -78,9 +78,7 @@ HTML5 や CSS3 をプログラミング言語と言っていいか微妙だが�
 
 ちなみに，上の人気（？）プログラミング言語の用途は以下のようになっている。
 
-{{< fig-img src="./what-types-of-software-do-you-develop.png" title="via “The State of Developer Ecosystem in 2020 Infographic”" link="https://www.jetbrains.com/lp/devecosystem-2020/" width="1048" >}}
-
-
+{{< fig-img-quote src="./what-types-of-software-do-you-develop.png" title="The State of Developer Ecosystem in 2020 Infographic" link="https://www.jetbrains.com/lp/devecosystem-2020/" width="1048" lang="en" >}}
 
 ## ブックマーク
 
