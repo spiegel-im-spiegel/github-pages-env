@@ -64,6 +64,8 @@ func main() {
 {{% quote %}}著作者は、その著作物の原作品に、又はその著作物の公衆への提供若しくは提示に際し、その実名若しくは変名を著作者名として表示し、又は著作者名を表示しないこととする権利を有する。その著作物を原著作物とする二次的著作物の公衆への提供又は提示に際しての原著作物の著作者名の表示についても、同様とする{{% /quote %}}。
 {{< /fig-quote >}}
 
+{{< fig-img-quote src="/images/attention/summer.jpg" title="In the beach | Flickr" link="https://www.flickr.com/photos/spiegel/32118886/" width="640" lang="en" >}}
+
 ### 図表
 
 {{< fig-img src="/images/attention/summer.jpg" title="In the beach" link="/images/attention/summer.jpg" width="640" >}}
