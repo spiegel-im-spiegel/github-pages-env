@@ -29,6 +29,10 @@ pageType = "text"
 - [A number of Core Library improvements](https://golang.org/doc/go1.15#library)
 {{< /fig-quote >}}
 
+パッと見，異常系の挙動がちょっとずつ変わってきている感じ。
+[Go] 2 に向けての布石なんだろうけど。
+既存のパッケージで一度，テストの通しをやっておいたほうがいいかもしれない。
+
 例によって [Ubuntu] の APT で管理している [Go] コンパイラは古いので，[ダウンロードページ](https://golang.org/dl/ "Downloads - The Go Programming Language")からバイナリ（[`go1.15.linux-amd64.tar.gz`](https://golang.org/dl/go1.15.linux-amd64.tar.gz)）を取ってきて手動でインストールすることを推奨する。
 
 ```text
