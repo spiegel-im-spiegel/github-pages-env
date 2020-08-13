@@ -3,7 +3,7 @@ title = "GNKF: Network Kanji Filter by Golang"
 date =  "2020-07-30T22:41:38+09:00"
 description = "昔からある nkf コマンドの劣化コピー版と思っていただければ概ね間違いない（笑）"
 image = "/images/attention/go-logo_blue.png"
-tags  = [ "tools", "golang", "character", "encoding", "unicode", "normalization" ]
+tags  = [ "tools", "gnkf", "golang", "character", "encoding", "unicode", "normalization" ]
 pageType = "text"
 
 [scripts]

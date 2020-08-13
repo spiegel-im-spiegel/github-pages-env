@@ -1,5 +1,5 @@
 +++
-title = "Go 言語用エラーハンドリング・パッケージ errs v0.7.0 をシリースした"
+title = "Go 言語用エラーハンドリング・パッケージ errs v0.7.0 をリリースした"
 date =  "2020-08-08T10:03:25+09:00"
 description = "Go 1.15 のリリースを待って，問題がなければこのまま v1.0 に格上げする予定である。"
 image = "/images/attention/go-logo_blue.png"
@@ -42,3 +42,7 @@ v0.7.0 で個人的に欲しい機能は全て搭載したので， [Go] 1.15 �
 
 [Go]: https://golang.org/ "The Go Programming Language"
 [`errs`]: https://github.com/spiegel-im-spiegel/errs "spiegel-im-spiegel/errs: Error handling for Golang"
+
+## 参考図書
+
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
