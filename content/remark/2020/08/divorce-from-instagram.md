@@ -34,7 +34,7 @@ pageType = "text"
 {{< fig-img src="divorce-from-instagram.png" link="https://instagram.com/accounts/remove/request/permanent/" width="1097" >}}
 
 わざわざ理由を教えてやる必要などないので「その他」でいいだろう。
-削除後，試しにログインしようとしたら失敗したので，おそらく問題ないだろう。
+削除後，試しにログインしようとしたら失敗したので，おそらく問題ないと思う。
 当然ながら，アカウントの復活はできないのでご注意を。
 
 これでよーやく足を洗えた（笑） なお，過去の Instagram 画像は以下に退避させている。
