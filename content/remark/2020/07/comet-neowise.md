@@ -40,6 +40,7 @@ pageType = "text"
 - [APOD: 2020 July 23 - Fairytale NEOWISE](https://apod.nasa.gov/apod/ap200723.html)
 - [APOD: 2020 July 24 - MAGIC NEOWISE](https://apod.nasa.gov/apod/ap200724.html)
 - [APOD: 2020 July 27 – Comet and Lightning Beyond Bighorn Mountains](https://apod.nasa.gov/apod/ap200727.html)
+- [APOD: 2020 August 12 - The Shifting Tails of Comet NEOWISE](https://apod.nasa.gov/apod/ap200812.html)
 
 ちなみに [NEOWISE] は NASA の WISE (Wide-field Infrared Survey Explorer) 宇宙望遠鏡を使って地球近傍天体（Near-Earth Object; NEO）を捜索するためのミッションおよび宇宙機を指している。
 ちゃんと仕事して成果を出してるわけやね。

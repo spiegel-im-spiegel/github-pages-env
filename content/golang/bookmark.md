@@ -178,6 +178,7 @@ image = "/images/attention/go-logo_blue.png"
 - [Go: Inlining Strategy & Limitation - A Journey With Go - Medium](https://medium.com/a-journey-with-go/go-inlining-strategy-limitation-6b6d7fc3b1be)
 - [Why you shouldn't use func main in Go by Mat Ryer - PACE.](https://pace.dev/blog/2020/02/12/why-you-shouldnt-use-func-main-in-golang-by-mat-ryer)
 - [proxy.golang.org の挙動調査メモ — KaoriYa](https://www.kaoriya.net/blog/2020/06/16/)
+- [Go: Built-in Functions Optimizations | by Vincent Blanchon | A Journey With Go | Aug, 2020 | Medium](https://medium.com/a-journey-with-go/go-built-in-functions-optimizations-70c5abb3a680)
 
 ### オブジェクトに関すること
 

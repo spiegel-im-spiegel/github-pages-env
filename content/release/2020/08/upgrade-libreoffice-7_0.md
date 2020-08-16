@@ -54,6 +54,8 @@ $ dpkg -l | grep libobasis
 
 ## ブックマーク
 
+- [Announcement of LibreOffice 6.4.6 - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2020/08/13/announcement-of-libreoffice-6-4-6/)
+
 - [Ubuntu に LibreOffice をインストールする3つの方法]({{< ref "/remark/2019/05/installing-libreoffice-in-ubuntu.md" >}})
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
