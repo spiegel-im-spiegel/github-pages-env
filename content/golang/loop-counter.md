@@ -165,16 +165,13 @@ import (
 )
 
 func main() {
-    var a, b big.Int
-    a.SetInt64(1)
-    b.SetInt64(10)
+    x := &big.Rat{} //Zero initialize
+    y := big.NewRat(1, 10)
 
-    var x, y, z big.Rat //zero initialize
-    y.SetFrac(&a, &b)
     for i := 0; i < 10; i++ {
-        z.Add(&x, &y)
-        fmt.Printf("z = %s (%v)\n", z.FloatString(20), &z)
-        x.Set(&z)
+        z := (&big.Rat{}).Add(x, y)
+        fmt.Printf("z = %s (%v)\n", z.FloatString(20), z)
+        x.Set(z)
     }
 }
 ```
