@@ -1,12 +1,12 @@
 package main
 
 import (
-	"bytes"
 	"fmt"
 	"os"
+	"strings"
 
-	"github.com/spiegel-im-spiegel/gpgpdump"
-	"github.com/spiegel-im-spiegel/gpgpdump/options"
+	"github.com/spiegel-im-spiegel/gpgpdump/parse"
+	"github.com/spiegel-im-spiegel/gpgpdump/parse/context"
 )
 
 const openpgpStr = `
@@ -20,18 +20,21 @@ T1ZprZqwRPOjiLJg9AwA/ArTwCPz7c2vmxlv7sRlRLUI6CdsOqhuO1KfYXrq7idI
 `
 
 func main() {
-	info, err := gpgpdump.Parse(
-		bytes.NewBufferString(openpgpStr),
-		options.New(
-			options.Set(options.ARMOR, true),
-			options.Set(options.UTC, true),
+	p, err := parse.New(
+		strings.NewReader(openpgpStr),
+		context.New(
+			context.Set(context.ARMOR, true),
+			context.Set(context.UTC, true),
 		),
 	)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "%+v", err)
 		return
 	}
-	if json, err := info.JSON(2); err == nil {
-		fmt.Printf("%s", json)
+	res, err := p.Parse()
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "%+v", err)
+		return
 	}
+	fmt.Println(res)
 }

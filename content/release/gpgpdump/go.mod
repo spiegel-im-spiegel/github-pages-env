@@ -1,5 +1,5 @@
 module sample
 
-go 1.13
+go 1.15
 
-require github.com/spiegel-im-spiegel/gpgpdump v0.6.2
+require github.com/spiegel-im-spiegel/gpgpdump v0.8.0
