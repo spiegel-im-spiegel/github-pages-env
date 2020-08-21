@@ -5,7 +5,6 @@ description = "「情報の遠吠え」がもたらすのは構成員を選別�
 image = "/images/attention/kitten.jpg"
 tags = [ "code", "communication", "internet", "media", "sns" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
