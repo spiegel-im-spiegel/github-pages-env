@@ -13014,5 +13014,48 @@
       false
     ],
     "Description": "2002年に出た復刻版らしい。原書（のコピー）と翻訳書の2冊セット。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B011KRIYVS",
+      "Title": "リベラルのことは嫌いでも、リベラリズムは嫌いにならないでください　井上達夫の法哲学入門",
+      "URL": "https://www.amazon.co.jp/dp/B011KRIYVS?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41WMq9e4BBL._SL160_.jpg",
+        "Height": 160,
+        "Width": 109
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "井上 達夫",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "毎日新聞出版",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B011KRIYVS"
+        }
+      ],
+      "PublicationDate": "2015-07-05",
+      "LastRelease": "2015-07-17",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2016-02-15",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "ちゃんとした書評は \u003ca href=\"https://www.yamdas.org/booklog/liberalism.html\"\u003eyomoyomo さんの記事\u003c/a\u003eが参考になる。私は途中まで読んで放り投げた。反省はしない（笑）"
   }
 ]
