@@ -70,7 +70,7 @@ SNS を含む多くのコミュニケーション・サービスが「情報ハ�
 {{% quote %}}The howl is also a way to get the members of the pack worked up and excited about going hunting. They may howl in unison at this point before they go out there to look around. Think about how a sporting team rallies with the coach and makes a shout out before they take their positions. That is the same way with the howl{{% /quote %}}.
 {{< /fig-quote >}}
 
-とか書かれていて「あれ？ これって今 SNS で起こってることと同じなんじゃね？」と思ってしまった。
+とか書かれていて「これって今 SNS で起こってることと同じなんじゃね？」と思ってしまった。
 
 つまり「情報の遠吠え」がもたらすのはコミュニティの構成員を選別する「包摂と排除」であって，そこでは「想像力の地平線」を乗り越える {{% quote lang="en" %}}sense of wonder{{% /quote %}} も，ましてや {{% quote lang="en" %}}targeted serendipity{{% /quote %}} も起こる筈がないのだ。
 
