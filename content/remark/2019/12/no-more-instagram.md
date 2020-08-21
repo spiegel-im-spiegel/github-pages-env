@@ -3,7 +3,7 @@ title = "もう Instagram はいいかな"
 date =  "2019-12-07T17:55:40+09:00"
 description = "生年月日を知らせるほど深く利用しているわけでもないので，登録しないまま放置することにした。 BAN されたら縁がなかったということで。"
 image = "/images/attention/kitten.jpg"
-tags = [ "instagram", "sns", "photography", "privacy", "surveillance-capitalism" ]
+tags = [ "instagram", "photography", "privacy", "surveillance-capitalism" ]
 pageType = "text"
 
 [scripts]

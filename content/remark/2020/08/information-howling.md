@@ -3,7 +3,7 @@ title = "情報の「遠吠え」"
 date =  "2020-08-21T09:16:04+09:00"
 description = "「情報の遠吠え」がもたらすのは構成員を選別する「包摂と排除」であって， TL サービスというのは「多文化主義的エポケー」を体現した装置。"
 image = "/images/attention/kitten.jpg"
-tags = [ "code", "communication", "internet", "media", "sns" ]
+tags = [ "code", "communication", "internet", "media" ]
 pageType = "text"
 
 [scripts]
@@ -79,6 +79,9 @@ SNS を含む多くのコミュニケーション・サービスが「情報ハ�
 
 {{< fig-img-quote src="https://live.staticflickr.com/1946/31313213948_77c06a1ee7.jpg" title="wolf howling | Laura Pontiggia (cc-by-nc-nd)" link="https://www.flickr.com/photos/pontla/31313213948/" lang="en" >}}
 
+## ブックマーク
+
+- [SNS は他者を差別するシステムか]({{< ref "/remark/2019/04/sns.md" >}})
 
 ## 参考図書
 
