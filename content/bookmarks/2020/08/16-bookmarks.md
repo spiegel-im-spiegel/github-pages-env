@@ -58,6 +58,7 @@ pageType = "text"
 - [デジタルライブラリーのScribd、SlideShareをLinkedInから買収 - ZDNet Japan](https://japan.zdnet.com/article/35158039/)
 - [Changing World, Changing Mozilla - The Mozilla Blog](https://blog.mozilla.org/blog/2020/08/11/changing-world-changing-mozilla/)
     - [モジラ、新型コロナで業績悪化--新たに従業員の25％を解雇へ - ZDNet Japan](https://japan.zdnet.com/article/35158018/)
+    - [Mozillaが大規模リストラ。「すべてが無料だった古いモデルには結論が出た」として今後は新たなビジネスモデルを模索すると － Publickey](https://www.publickey1.jp/blog/20/mozilla.html)
 - [2020年8月11日ニュース「南極上空の突然昇温が東南アジアの対流を活発に 台風の発生予測に役立つ可能性」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2020/08/20200811_01.html)
 - [ブログ: インターネットは万人のためにある](https://okuranagaimo.blogspot.com/2020/08/blog-post_1.html)
 - [【高田明美展　Angel Touch】倉敷市立美術館リリース｜高田明美オフィシャルホームページ ～ Angels ～](http://www.takada-akemi.net/news/nw161) : 2020-09-05 より

@@ -35,6 +35,8 @@ https://duckduckgo.com/?q=%s
 ## ブックマーク
 
 - [Laying the foundation for Rust's future | Rust Blog](https://blog.rust-lang.org/2020/08/18/laying-the-foundation-for-rusts-future.html) : Rust は更に Mozilla への依存度を下げるのかな？
+    - [「Rust Foundation」が年内にも設立。Rust言語のコアチームとMozillaが発表 － Publickey](https://www.publickey1.jp/blog/20/rust_foundationrustmozilla.html)
+- [Android版「Firefox」が新設計のニューバージョンにスイッチ中！　旧版と何が違う？ - やじうまの杜 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1271727.html) : 私の環境だけ古いバージョンというわけじゃなかったらしい（笑）
 - [Firefox の DoH は無効にすべきか（もしくは水売りと水道局）]({{< ref "/remark/2019/09/should-disable-doh-in-firefox.md" >}}) : Mozilla がユーザのプライバシーを重視しているというのは嘘っぱちである
 
 [DuckDuckGo]: https://duckduckgo.com/

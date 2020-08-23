@@ -89,6 +89,7 @@ if !re.Copy().MatchString(s) {
 - [regexpとの付き合い方 〜 Go言語標準の正規表現ライブラリのパフォーマンスとアルゴリズム〜 | eureka tech blog](https://developers.eure.jp/tech/golang-regexp/)
 - [正規表現チェッカー（JavaScript版） | Softel labs](https://www.softel.co.jp/labs/tools/regex/)
 - [40行以内で正規表現エンジンを構築 | プログラミング | POSTD](http://postd.cc/build-your-own-regex/)
+- [\[Go] パフォーマンスが悪い正規表現パッケージの使い方をチェックするlinterを作った - My External Storage](https://budougumi0617.github.io/2020/08/20/regexponce/) : [regexp] パッケージ用の linter らしい
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [panic]: http://blog.golang.org/defer-panic-and-recover "Defer, Panic, and Recover - The Go Blog"

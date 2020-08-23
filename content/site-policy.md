@@ -46,13 +46,14 @@ title = "text.Baldanders.info について"
 - [Amazonアソシエイト](https://affiliate.amazon.co.jp/)
 - [Google Search Console](https://support.google.com/webmasters/answer/4559176)
 - [Disqus](https://disqus.com/) : フィードバック用のコメント・ツール
+- [Font Awesome](https://fontawesome.com/) : アイコン等の Web フォント
 
 Cookie 等を用いた情報追跡をブロックしても[本サイト]の利用に支障はありません。
 情報追跡のブロック手段としては一部の広告ブロック・アプリや VPN アプリ，あるいはプライバシー保護機能付きのブラウザがあります。
 情報追跡をブロックできるブラウザとして以下を推奨します。
 
 - [Firefox Focus](https://support.mozilla.org/ja/kb/focus)  ([Android](https://play.google.com/store/apps/details?id=org.mozilla.focus)/[iOS](https://itunes.apple.com/app/id1055677337))
-- [Firefox Quantum](https://www.mozilla.org/firefox/)
+- [Firefox](https://www.mozilla.org/firefox/) 78 以降
 
 ### OpenPGP 公開鍵
 
