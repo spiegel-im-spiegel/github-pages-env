@@ -15,7 +15,9 @@ Qiita を覗いてたら
 
 - [Goのnilは(nil, nil)という(型, 値)ペアのインターフェースだと把握すれば混乱しない - Qiita](https://qiita.com/momotaro98/items/ee2aea840017266e659d)
 
-という記事を見かけたが，おそらくは `nil` の理解のための方便として意図的に書かれていると思われ，それはそれで悪くないのだが，微妙に危険な香りがするので私なりの解説を記しておく。
+という記事を見かけた。
+おそらくは `nil` の理解のための方便として意図的に書かれているのだろう。
+それはそれで悪くないのだが，微妙に危険な香りがするので私なりの解説を記しておく。
 
 ## nil は nil
 
@@ -47,7 +49,7 @@ fmt.Printf("Type: %T, Value: %v", nil, nil)
 強いて言うなら（プログラミング言語で最も悪名高いとされる[^null3]）「null 参照」の一種だとは言えるだろう。
 
 [^null1]: もちろんこれは言語仕様上の話で実装上は何らかの値をとる。大昔のC言語なんかでは「`#define NULL ((void*)0)`」みたいな記述もあったが，さすがにそーゆーのはない（よね？）。
-[^null2]: そういう意味では最初に紹介した記事で “Goのnilは(nil, nil)” という部分は間違いではないだろう。
+[^null2]: 「型も値も持たない」という意味では最初に紹介した記事の “Goのnilは(nil, nil)” は間違いではなと思う。
 [^null3]: 拙文「[「null 安全」について]({{< ref "/remark/2016/11/null-safety.md" >}})」を参照のこと。
 
 だから本当は
@@ -70,7 +72,7 @@ if !(err is nil) {
 
 ### nil と比較可能な型
 
-`nil` と比較可能（comparable）な型は以下の通り（ポインタ型を除く）。
+`nil` と `==` または `!=` で比較可能（comparable）な型は以下の通り（ポインタ型を除く）。
 
 - slice 型
 - map 型
@@ -78,8 +80,10 @@ if !(err is nil) {
 - channel 型
 - interface 型
 
-このうち slice, map, および関数の各型は `nil` との同値性のみ検証できる。
-さらに interface 型はクセが強い（笑）ので注意が必要である。
+このうち slice, map, および関数の各型は `nil` との同値性のみ検証できる（`nil` でないオブジェクト同士は単純比較できない[^eq1]）。
+また interface 型はクセが強い（笑）型なので，後述の通り，取り扱いには若干の注意が必要である。
+
+[^eq1]: slice 型と map 型については [`reflect`]`.DeepEqual()` 関数で `nil` 以外のオブジェクトと比較可能である。
 
 ## interface 型は，型と値への参照を属性に持つ
 
@@ -233,7 +237,8 @@ func foo() error {
 - [エラー・ハンドリングについて（追記あり）]({{< ref "/golang/error-handling.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[`fmt`]: https://golang.org/pkg/fmt/ "fmt - The Go Programming Language"
+[`fmt`]: https://pkg.go.dev/fmt "fmt package · pkg.go.dev"
+[`reflect`]: https://golang.org/pkg/fmt/ "fmt - The Go Programming Language"
 
 ## 参考図書
 
