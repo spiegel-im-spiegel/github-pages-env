@@ -73,7 +73,7 @@ tags  = [ "golang", "engineering", "module", "versioning" ]
 
 [^sv1]: リビジョン番号によるバージョン管理も可能だが， `v0.0.0-20180816225734-aabede6cba87` のような擬似バージョン番号に置き換えられるため，モジュールのインポート時の運用が煩雑になり推奨できない。
 
-{{< fig-img src="https://research.swtch.com/impver.png" title="Semantic Import Versioning" link="https://research.swtch.com/vgo-import" >}}
+{{< fig-img-quote src="https://research.swtch.com/impver.png" title="Semantic Import Versioning" link="https://research.swtch.com/vgo-import" lang="en" class="lightmode" >}}
 
 このように後方互換性のない変更がある場合にはメジャーバージョンを，後方互換性が担保された変更や追加についてはマイナーバージョンを，不具合や脆弱性の修正については第3位のパッチバージョンを上げるようにする。
 またメジャーバージョンを上げる際には，図のようにディレクトリを分離するか，旧バージョン用にブランチを切るのがよいだろう[^sv2]。

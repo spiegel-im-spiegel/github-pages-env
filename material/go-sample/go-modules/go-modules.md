@@ -174,7 +174,7 @@ golang.org/x/crypto v0.0.0-20180816225734-aabede6cba87 [v0.0.0-20180910181607-0e
 
 モジュール対応モードのバージョン管理は [Semantic Versioning] をベースに以下のような考え方になっているようだ。
 
-![Semantic Versioning](https://research.swtch.com/impver.png)
+{{< fig-img-quote src="https://research.swtch.com/impver.png" title="Semantic Import Versioning" link="https://research.swtch.com/vgo-import" lang="en" class="lightmode" >}}
 
 なお `go.mod` ファイルを含まない外部パッケージで v2 以降のバージョンタグが付いているものについては，自パッケージの `go.mod` ファイルに
 

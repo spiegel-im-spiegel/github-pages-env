@@ -141,7 +141,7 @@ Hello Golang by v2
 
 ここで思い出したのが [Semantic Versioning] のルールである。
 
-{{< fig-img src="https://research.swtch.com/impver.png" title="Semantic Import Versioning" link="https://research.swtch.com/vgo-import" >}}
+{{< fig-img-quote src="https://research.swtch.com/impver.png" title="Semantic Import Versioning" link="https://research.swtch.com/vgo-import" lang="en" class="lightmode" >}}
 
 ひょっとして `v2` ディレクトリを切ったらいいのか？ 試してみよう[^sv1]。
 

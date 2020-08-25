@@ -202,7 +202,7 @@ vgo が管理するバージョンは [Semantic Versioning] に従うことが�
 
 [^gopkg1]: あるいは [gopkg.in](http://labix.org/gopkg.in "gopkg.in - Stable APIs for the Go language") のような API を使う手もある。
 
-{{< fig-img src="https://research.swtch.com/impver.png" title="Semantic Import Versioning" link="https://research.swtch.com/vgo-import" >}}
+{{< fig-img-quote src="https://research.swtch.com/impver.png" title="Semantic Import Versioning" link="https://research.swtch.com/vgo-import" lang="en" class="lightmode" >}}
 
 現行の [Go 言語]コンパイラはパッケージのバージョンを意識していないが（バージョン管理は [dep] のような外部ツールが担っている）， vgo が正式に組み込まれればより厳密な（[Semantic Versioning] に基づいた）バージョン管理が要求されることになると思う。
 なので，今からそれを意識した運用を考えておくべきかもしれない。
