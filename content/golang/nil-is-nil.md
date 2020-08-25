@@ -116,9 +116,7 @@ func main() {
 
 [^g1]: 引用元の記事（“[Go Data Structures: Interfaces](https://research.swtch.com/interfaces)”）では 1 word = 32 bits のシステムとして解説されているのでご注意を。
 
-{{< fig-quote type="markdown" title="Go Data Structures: Interfaces" link="https://research.swtch.com/interfaces" lang="en" >}}
-{{< fig-img src="https://research.swtch.com/gointer1.png" link="https://research.swtch.com/interfaces" >}}
-{{< /fig-quote >}}
+{{< fig-img-quote class="lightmode" src="https://research.swtch.com/gointer1.png" title="Go Data Structures: Interfaces" link="https://research.swtch.com/interfaces" lang="en" >}}
 
 これを覚えておいてね。
 
@@ -142,18 +140,14 @@ type Stringer interface {
 
 ゆえに変数 `s` は以下のように図式化できる。
 
-{{< fig-quote type="markdown" title="Go Data Structures: Interfaces" link="https://research.swtch.com/interfaces" lang="en" >}}
-{{< fig-img src="https://research.swtch.com/gointer2.png" link="https://research.swtch.com/interfaces" >}}
-{{< /fig-quote >}}
+{{< fig-img-quote class="lightmode" src="https://research.swtch.com/gointer2.png" title="Go Data Structures: Interfaces" link="https://research.swtch.com/interfaces" lang="en" >}}
 
 このように interface 型は，型と値への参照を属性に持つオブジェクトとして実装されている。
 
 {{< div-box type="markdown" >}}
 ただし要素が空の `interface{}` 型では
 
-{{< fig-quote type="markdown" title="Go Data Structures: Interfaces" link="https://research.swtch.com/interfaces" lang="en" >}}
-{{< fig-img src="https://research.swtch.com/gointer3.png" link="https://research.swtch.com/interfaces" >}}
-{{< /fig-quote >}}
+{{< fig-img-quote class="lightmode" src="https://research.swtch.com/gointer3.png" title="Go Data Structures: Interfaces" link="https://research.swtch.com/interfaces" lang="en" >}}
 
 のように最適化されているらしい。
 まぁ，ユーザレベルで両者を区別する必要はないけれど。
