@@ -25,6 +25,7 @@ pageType = "text"
 - [Hacking a Power Supply - Schneier on Security](https://www.schneier.com/blog/archives/2020/07/hacking_a_power.html)
 - [NIST’s Post-Quantum Cryptography Program Enters ‘Selection Round’ | NIST](https://www.nist.gov/news-events/news/2020/07/nists-post-quantum-cryptography-program-enters-selection-round)
     - [Update on NIST's Post-Quantum Cryptography Program - Schneier on Security](https://www.schneier.com/blog/archives/2020/07/update_on_nists.html)
+    - [MIT Tech Review: 「ポスト量子」暗号をNISTが絞り込み、最有力は格子暗号](https://www.technologyreview.jp/s/215333/the-quest-for-quantum-proof-encryption-just-made-a-leap-forward/)
 
 ## 天文関連
 
