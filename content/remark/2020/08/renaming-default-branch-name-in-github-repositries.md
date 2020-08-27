@@ -19,7 +19,7 @@ Twitter の TL で見かけたんだけどさ。
 
 不覚にも3秒位「？？？」ってなっちゃったYO。
 
-あー，あれね。
+あ゙ー，あれね。
 サービス・プロバイダやオープンソースな人たちが挙って「差別用語を狩ろう」っちう “[Virtue Signaling]({{< ref "/remark/2020/07/virtue-signaling.md" >}} "Virtue Signaling という広告")” なやつの一環ね。
 
 なんでも
@@ -58,7 +58,7 @@ $ git config --global init.defaultBranch foo
 $ git init --initial-branch=foo myrepo
 ```
 
-とすれば， `foo` ブランチで初期化してくれるので，そのまま既定ブランチとして使えばよい。
+とすれば `foo` ブランチで初期化してくれるので，そのまま既定ブランチとして使えばよい。
 
 ## ブックマーク
 
