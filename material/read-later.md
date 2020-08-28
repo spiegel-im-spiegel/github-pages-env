@@ -11,8 +11,6 @@
 
 - [【高田明美展　Angel Touch】倉敷市立美術館リリース｜高田明美オフィシャルホームページ ～ Angels ～](http://www.takada-akemi.net/news/nw161) : 2020-09-05 より
 
-- [[Announce] GnuPG 2.2.22 released](https://lists.gnupg.org/pipermail/gnupg-announce/2020q3/000447.html)
-
 
 ## リリース情報
 
