@@ -11,11 +11,14 @@
 
 - [【高田明美展　Angel Touch】倉敷市立美術館リリース｜高田明美オフィシャルホームページ ～ Angels ～](http://www.takada-akemi.net/news/nw161) : 2020-09-05 より
 
+- [[Announce] GnuPG 2.2.22 released](https://lists.gnupg.org/pipermail/gnupg-announce/2020q3/000447.html)
+
 
 ## リリース情報
 
 - [MathJax v3.1.0 now available | MathJax](https://www.mathjax.org/MathJax-v3-1-0-available/)
     - [What’s New in MathJax v3.1 — MathJax 3.1 documentation](http://docs.mathjax.org/en/latest/upgrading/whats-new-3.1.html)
+- [Announcing Rust 1.46.0 | Rust Blog](https://blog.rust-lang.org/2020/08/27/Rust-1.46.0.html)
 
 ## バベルのインターネット
 
@@ -38,10 +41,15 @@
 - [How Four Brothers Allegedly Fleeced $19 Million From Amazon  | WIRED](https://www.wired.com/story/how-four-brothers-allegedly-fleeced-19-million-amazon/)
     - [Amazon Supplier Fraud - Schneier on Security](https://www.schneier.com/blog/archives/2020/08/amazon_supplier.html)
 - [平田機工、VPNのセキュリティインシデント公表--端末確認で不正侵入を阻止 - ZDNet Japan](https://japan.zdnet.com/article/35158682/)
+- [ネット接続製品の安全な選定・利用ガイド -詳細版-：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/vuln/report/notice/guideforconsumer.html)
+- [Cory Doctorow on The Age of Surveillance Capitalism - Schneier on Security](https://www.schneier.com/blog/archives/2020/08/cory_doctorow_o_2.html)
+    - [ブログ: コリイ・ドクトロウ、「監視資本主義」の何が間違っているのか](https://okuranagaimo.blogspot.com/2020/08/blog-post_28.html)
 
 ## 天文関連
 
 - [APOD: 2020 August 25 – Visualization: A Black Hole Accretion Disk](https://apod.nasa.gov/apod/ap200825.html)
+- [宇宙の重量級同士のまれな出会い—合体の過程にある超大質量ブラックホールを発見— | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2020/20200827-subaru.html)
+- [Ancient star explosions revealed in the deep sea  - ANU](https://www.anu.edu.au/news/all-news/ancient-star-explosions-revealed-in-the-deep-sea) : 「[太陽系は過去3万3千年の間、超新星残骸の中を移動してきた](https://news.local-group.jp/20200828.html#p05)」とする研究成果
 
 ## 知財関連
 
@@ -67,5 +75,10 @@
 - [ブログ: 今日のIETFにおけるRFC化のプロセス](https://okuranagaimo.blogspot.com/2020/08/ietfrfc.html)
 - [アンカー本社中国のChiNextに上場--スマホ充電からデジタル総合機器メーカーへ - CNET Japan](https://japan.cnet.com/article/35158612/)
 - [差別的な用語を排除へ--IBMとマイクロソフトの自発的な取り組み - CNET Japan](https://japan.cnet.com/article/35158622/)
+- [Kubernetesを40MBのシングルバイナリとした軽量ディストリビューション「K3s」がCloud Native Computing Foundationのサンドボックスプロジェクトに採用 － Publickey](https://www.publickey1.jp/blog/20/kubernetes40mbk3scloud_native_computing_foundation.html)
+- [クリィミーマミのムックが出ます♡ | 高田明美オフィシャルブログ「Angel Touch」Powered by Ameba](https://ameblo.jp/angel-touch/entry-12620452563.html)
+- [勉強会はパーティーだ! ビール片手に楽しくGo言語を学ぶコミュニティ「Fukuoka.go」 | INTERVIEW詳細 - エンジニアフレンドリーシティ福岡](https://efc.fukuoka.jp/interview/3704)
+- [「Windows Terminal 1.2」が正式公開 ～コマンドパレットを標準搭載したv1.3もプレビュー - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1273244.html)
+- [EpicとAppleの対決で改めて考える「配信プラットフォームの役割」 (1/3) - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2008/27/news060.html)
 
 <!-- eof -->

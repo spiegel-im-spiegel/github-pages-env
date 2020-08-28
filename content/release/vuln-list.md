@@ -146,7 +146,8 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 | Official | Release    |                        Ubuntu | Release    |   Delay |
 | --------:| ---------- | -----------------------------:| ---------- | -------:|
-|  68.11.0 | 2020-07-30 |                               |            | ∞ days |
+|  68.12.0 | 2020-08-25 |                               |            | ∞ days |
+|  68.11.0 | 2020-07-30 |                       &mdash; | &mdash;    | &mdash; |
 |  68.10.0 | 2020-07-01 | 68.10.0+build1-0 (USN-4421-1) | 2020-07-08 |  7 days |
 |   68.9.0 | 2020-06-03 |                       &mdash; | &mdash;    | &mdash; |
 |   68.8.1 | 2020-05-22 |                       &mdash; | &mdash;    | &mdash; |
@@ -155,6 +156,7 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (68.12.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.12.0/releasenotes/)
 - [Thunderbird — Release Notes (78.2.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.2.0/releasenotes/)
 - [Thunderbird — Release Notes (78.1.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.1.1/releasenotes/)
 - [Thunderbird — Release Notes (78.1.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.1.0/releasenotes/)
