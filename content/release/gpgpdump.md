@@ -420,11 +420,11 @@ T1ZprZqwRPOjiLJg9AwA/ArTwCPz7c2vmxlv7sRlRLUI6CdsOqhuO1KfYXrq7idI
 
 func main() {
     p, err := parse.New(
-        strings.NewReader(openpgpStr),
         context.New(
             context.Set(context.ARMOR, true),
             context.Set(context.UTC, true),
         ),
+        strings.NewReader(openpgpStr),
     )
     if err != nil {
         fmt.Fprintf(os.Stderr, "%+v", err)
