@@ -10,6 +10,17 @@ tags = [ "openpgp", "security", "cryptography", "mua", "thunderbird", "messaging
   mermaidjs = false
 +++
 
+{{< div-box type="markdown" >}}
+**【2020-09-01 追記】** [Thunderbird] 78 から OpenPGP 署名・暗号化機能は本体に取り込まれました。
+この記事は既に obsolete になりましたが，一応残しておきます。
+[Thunderbird] 78 による暗号化メールの作成方法は以下の記事が参考になります。
+
+- [「OpenPGP」がデフォルトで有効化された「Thunderbird 78.2.1」がリリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1273939.html) : [OpenPGP] 鍵の生成から暗号メールの作成まで簡単に開設している
+
+[OpenPGP]: http://openpgp.org/
+[Thunderbird]: https://www.thunderbird.net/ "Thunderbird — Software made to make email easier. — Mozilla"
+{{< /div-box >}}
+
 フィードバックで少しやり取りして分かったのだが JPCERT/CC の記事は古いまま更新されていないようだ。
 
 - [はじめての暗号化メール (Thunderbird編)](https://www.jpcert.or.jp/magazine/security/pgpquick.html)
