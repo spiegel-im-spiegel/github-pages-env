@@ -126,6 +126,8 @@ image = "/images/attention/go-logo_blue.png"
 
 - [Proposals for Go 1.15 - The Go Blog](https://blog.golang.org/go1.15-proposals)
 - [Go 1.15 Release Notes - The Go Programming Language](https://golang.org/doc/go1.15)
+    - [Go 1.15 リリースノート 日本語訳 - Qiita](https://qiita.com/c-yan/items/dad49c9dce27e77a94e7)
+- [Dive deep into Go 1.15 changes to testing package - Speaker Deck](https://speakerdeck.com/hgsgtk/dive-deep-into-go-1-dot-15-changes-to-testing-package)
 
 ### Go 2 Draft
 
@@ -139,6 +141,7 @@ image = "/images/attention/go-logo_blue.png"
 - [Go 2のgenerics/contract簡易まとめ](https://qiita.com/lufia/items/242d25e8c93d88e22a2e)
 - [Go 2, here we come! - The Go Blog](https://blog.golang.org/go2-here-we-come)
 - [The Next Step for Generics - The Go Blog](https://blog.golang.org/generics-next-step)
+- [Draft designを読む · GitHub](https://gist.github.com/tenntenn/fe8995c347a5e1000832d3c6942f1fbe)
 
 ### Go Cloud Development Kit
 
