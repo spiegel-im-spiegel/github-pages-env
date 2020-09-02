@@ -12,11 +12,8 @@
 - [【高田明美展　Angel Touch】倉敷市立美術館リリース｜高田明美オフィシャルホームページ ～ Angels ～](http://www.takada-akemi.net/news/nw161) : 2020-09-05 より
 - [クリィミーマミのムックが出ます♡ | 高田明美オフィシャルブログ「Angel Touch」Powered by Ameba](https://ameblo.jp/angel-touch/entry-12620452563.html)
 
-- [Makuake｜若手蔵人達の挑戦！幻のきょうかい8号酵母を使用した日本酒『eight knot』｜マクアケ - クラウドファンディング](https://www.makuake.com/project/eight-knot/)
-
 - [Draft designを読む · GitHub](https://gist.github.com/tenntenn/fe8995c347a5e1000832d3c6942f1fbe)
 
-- [AWS、「Java 8」を2026年まで、「Java 11」は2027年まで、現行より3年サポート期間延長を発表。独自JavaディストリビューションのCorretto 8とCorretto 11で － Publickey](https://www.publickey1.jp/blog/20/awsjava_82026java_1120273javacorretto_8corretto_11.html)
 
 ## リリース情報
 
