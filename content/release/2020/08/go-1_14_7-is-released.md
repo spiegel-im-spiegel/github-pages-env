@@ -23,7 +23,19 @@ pageType = "text"
 {{% quote %}}Certain invalid inputs to `ReadUvarint` or `ReadVarint` could cause those functions to read an unlimited number of bytes from the `ByteReader` argument before returning an error. This could lead to processing more input than expected when the caller is reading directly from a network and depends on `ReadUvarint` and `ReadVarint` only consuming a small, bounded number of bytes, even from invalid inputs{{% /quote %}}.
 {{< /fig-quote >}}
 
-以下，未稿。
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H`
+- 深刻度: 重要 (7.5)
+
+| 基本評価基準     | 評価値       |
+| ---------------- | ------------ |
+| 攻撃元区分       | ネットワーク |
+| 攻撃条件の複雑さ | 低           |
+| 必要な特権レベル | 不要         |
+| ユーザ関与レベル | 不要         |
+| スコープ         | 変更なし     |
+| 機密性への影響   | なし         |
+| 完全性への影響   | なし         |
+| 可用性への影響   | 高           |
 
 ## 例によって
 

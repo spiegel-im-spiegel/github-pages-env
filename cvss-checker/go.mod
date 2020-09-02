@@ -1,6 +1,6 @@
 module cvss-checker
 
-go 1.14
+go 1.15
 
 require (
 	github.com/spiegel-im-spiegel/go-cvss v0.2.1
