@@ -427,6 +427,7 @@ func main() {
 - [Golang: nil Pointer Receiverの話 - Qiita](http://qiita.com/stsn/items/73714caf8458b1d973f2)
 - [echoのAPIサーバ実装とエラーハンドリングの落とし穴 - Qiita](http://qiita.com/tienlen/items/5f2bcfe06eb83830ee55)
 - [Golangのエラー処理とpkg/errors | SOTA](http://deeeet.com/writing/2016/04/25/go-pkg-errors/) : 必見！
+- [Go: Multiple Errors Management. Error management in Go is always prone… | by Vincent Blanchon | A Journey With Go | Sep, 2020 | Medium](https://medium.com/a-journey-with-go/go-multiple-errors-management-a67477628cf1)
 
 [Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
