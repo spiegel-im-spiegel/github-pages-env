@@ -2,7 +2,7 @@
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date =  "{{ .Date }}"
 description = "description"
-image = "/images/attention/cc-licenses.jpg"
+image = "/images/attention/cc-logo.png"
 tags = ["creative-commons", "copyright", "license"]
 pageType = "text"
 draft = true

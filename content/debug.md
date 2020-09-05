@@ -130,6 +130,14 @@ classDiagram
 
 CC Licenses : {{< cc-syms "cc" "pd" "zero" "by" "sa" "nc" "nc-jp" "nc-eu" "nd" >}}
 
+{{< div-gen class="fa-4x" >}}
+{{< cc-syms "cc" "by" >}}
+{{< /div-gen >}}
+
+{{< div-gen class="fa-4x" >}}
+{{< cc-syms "cc" "by" "sa" >}}
+{{< /div-gen >}}
+
 各種サービス : {{< icons "github" "twitter" "twitter-sq" "medium" "tumblr" "instagram" "flickr" "facebook" "facebook-sq" "linkedin" "pocket" >}}
 
 汎用 : {{< icons "check" "rss" "share" "email" "pdf" "css3" "erlang" "html5" "java" "nodejs" "php" "python" "rust" "swift" >}}
