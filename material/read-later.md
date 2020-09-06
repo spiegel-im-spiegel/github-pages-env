@@ -12,8 +12,6 @@
 - [【高田明美展　Angel Touch】倉敷市立美術館リリース｜高田明美オフィシャルホームページ ～ Angels ～](http://www.takada-akemi.net/news/nw161) : 2020-09-05 より
 - [クリィミーマミのムックが出ます♡ | 高田明美オフィシャルブログ「Angel Touch」Powered by Ameba](https://ameblo.jp/angel-touch/entry-12620452563.html)
 
-- [Draft designを読む · GitHub](https://gist.github.com/tenntenn/fe8995c347a5e1000832d3c6942f1fbe)
-
 
 ## リリース情報
 
