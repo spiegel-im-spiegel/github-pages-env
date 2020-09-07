@@ -1,0 +1,36 @@
+package main
+
+import (
+	"fmt"
+	"sort"
+	"time"
+)
+
+type Era struct {
+	Name  string
+	Start time.Time
+}
+
+var (
+	jst     = time.FixedZone("JST", 9*60*60)
+	eraList = []Era{
+		{Name: "令和", Start: time.Date(2019, time.May, 1, 0, 0, 0, 0, jst)},
+		{Name: "平成", Start: time.Date(1989, time.January, 8, 0, 0, 0, 0, jst)},
+		{Name: "昭和", Start: time.Date(1926, time.December, 25, 0, 0, 0, 0, jst)},
+		{Name: "大正", Start: time.Date(1912, time.July, 30, 0, 0, 0, 0, jst)},
+	}
+)
+
+func (e Era) String() string {
+	return fmt.Sprintf("%s (from %s)", e.Name, e.Start.Format("2006-01-02"))
+}
+
+func main() {
+	fmt.Println(eraList)
+
+	sort.Slice(eraList, func(i, j int) bool {
+		return eraList[i].Start.Before(eraList[j].Start)
+	})
+
+	fmt.Println(eraList)
+}
