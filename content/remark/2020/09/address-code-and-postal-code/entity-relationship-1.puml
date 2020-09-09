@@ -1,0 +1,11 @@
+@startuml
+
+hide circle
+hide empty members
+
+class "JIS 住所コード" as JISA
+class "郵便番号" as JPN
+
+JISA "1" -right- "n" JPN
+
+@enduml
