@@ -112,6 +112,7 @@ sigh...
 
 - [Thunderbird:OpenPGP:Migration-From-Enigmail - MozillaWiki](https://wiki.mozilla.org/Thunderbird:OpenPGP:Migration-From-Enigmail)
 - [Thunderbird:OpenPGP:Smartcards - MozillaWiki](https://wiki.mozilla.org/Thunderbird:OpenPGP:Smartcards)
+- [OpenPGP in Thunderbird 78 | The Thunderbird Blog](https://blog.thunderbird.net/2020/09/openpgp-in-thunderbird-78/)
 - [「OpenPGP」がデフォルトで有効化された「Thunderbird 78.2.1」がリリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1273939.html) : [OpenPGP] 鍵の生成から暗号メールの作成まで簡単に解説している。 [GnuPG] がなくても問題ない
 - [OpenPGP の実装]({{< rlnk "openpgp/" >}})
 

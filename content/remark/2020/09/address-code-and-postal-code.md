@@ -77,7 +77,7 @@ JIS 住所コードよりも更に詳細な住所コードは色々あるが，�
 
 [GIS] の位置参照情報を上手く使っているのが [Geolonia] から提供されているオープンデータの [japanese-addresses] である。
 
-- [日本全国の住所マスターデータをオープンデータとして無料公開 - Geolonia](https://geolonia.com/pressrelease/2020/08/05/japanese-addresses.html)
+- [Geolonia 住所データ | japanese-addresses](https://geolonia.github.io/japanese-addresses/)
 - [geolonia/japanese-addresses: 全国の町丁目レベル（189,540件）の住所データのオープンデータ](https://github.com/geolonia/japanese-addresses)
 
 [japanese-addresses] データは Creative Commons の「[表示  {{< cc-syms "cc" "by" >}}](https://creativecommons.org/licenses/by/4.0/ "Creative Commons — Attribution 4.0 International — CC BY 4.0")」ライセンスで提供されている。
@@ -139,6 +139,10 @@ JP の[郵便番号データ]を眺めてみるとこんな感じになってい
 [^x1]: もちろん仕事なら調査・構築・保守までやるよ（笑）
 
 おあとがよろしいようで `m(_ _)m`
+
+## ブックマーク
+
+- [日本全国の住所マスターデータをオープンデータとして無料公開 - Geolonia](https://geolonia.com/pressrelease/2020/08/05/japanese-addresses.html)
 
 [GIS]: https://nlftp.mlit.go.jp/
 [Geolonia]: https://geolonia.com/ "Geolonia - An Elastic Map Hosting - Geolonia"
