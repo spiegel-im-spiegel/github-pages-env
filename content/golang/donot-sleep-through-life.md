@@ -3,7 +3,7 @@ title = "golangci-lint に叱られる"
 date = "2019-02-06T23:15:43+09:00"
 description = "そんなことまで知っている golangci-lint は偉いねぇ。"
 image = "/images/attention/go-logo_blue.png"
-tags = [ "golang", "atom", "tools", "lint" ]
+tags = [ "golang", "atom", "tools", "lint", "signal" ]
 
 [scripts]
   mathjax = false
@@ -35,7 +35,7 @@ io.Copy(writer, reader)
 ちゃんと書くなら
 
 ```go
-if err := io.Copy(writer, reader); err != nil {
+if _, err := io.Copy(writer, reader); err != nil {
     ...
 }
 ```
@@ -44,10 +44,10 @@ if err := io.Copy(writer, reader); err != nil {
 明示的に返り値の error を無視するなら
 
 ```go
-_ = io.Copy(writer, reader)
+_, _ = io.Copy(writer, reader)
 ```
 
-などと書けば，とりあえず叱られない。
+などと明示すれば，とりあえず叱られない。
 まぁ安直にこう書いてしまうのは問題だけど。
 
 ## true は不要
@@ -102,6 +102,7 @@ Lint ってのはそのプログラミング言語に関する知見のかたま
 ## ブックマーク
 
 - [Big Sky :: Lint ツールを Language Server に対応させるコマンド efm-langserver 作った。](https://mattn.kaoriya.net/software/lang/go/20190205190203.htm)
+- [signal.Notifyを使うときは必ずバッファ付きチャネルで利用すること - My External Storage](https://budougumi0617.github.io/2020/09/06/why_signal_notify_want_buffered_channel/)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [ATOM]: https://atom.io/ "Atom"
@@ -115,5 +116,4 @@ Lint ってのはそのプログラミング言語に関する知見のかたま
 ## 参考図書
 
 {{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
-
 {{% review-paapi "4542503461" %}} <!-- 組込み開発者におくるMISRA‐C:2004 -->
