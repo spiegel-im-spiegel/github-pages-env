@@ -23,7 +23,19 @@ pageType = "text"
 {{% quote %}}When a Handler does not explicitly set the Content-Type header, the [`net/http/cgi`](https://pkg.go.dev/net/http/cgi?tab=doc) and [`net/http/fcgi`](https://pkg.go.dev/net/http/fcgi?tab=doc) packages would default to “`text/html`”, which could cause a Cross-Site Scripting vulnerability if an attacker can control any part of the contents of a response{{% /quote %}}.
 {{< /fig-quote >}}
 
-以下未稿。
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N`
+- 深刻度: 警告 (6.1)
+
+| 基本評価基準     | 評価値       |
+| ---------------- | ------------ |
+| 攻撃元区分       | ネットワーク |
+| 攻撃条件の複雑さ | 低           |
+| 必要な特権レベル | 不要         |
+| ユーザ関与レベル | 要           |
+| スコープ         | 変更あり     |
+| 機密性への影響   | 低           |
+| 完全性への影響   | 低           |
+| 可用性への影響   | なし         |
 
 ## 例によって
 
