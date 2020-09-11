@@ -1,7 +1,7 @@
 +++
 title = "最近のセキュリティ・インシデント"
 date =  "2020-09-11T13:55:11+09:00"
-description = "Emotet 再拡散 / キャッシュレス決済の脆弱性"
+description = "帰ってきた Emotet / キャッシュレス決済の脆弱性"
 image = "/images/attention/kitten.jpg"
 tags = [ "security", "risk", "malware", "market" ]
 pageType = "text"
