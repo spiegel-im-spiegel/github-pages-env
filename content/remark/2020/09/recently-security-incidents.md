@@ -16,7 +16,7 @@ pageType = "text"
 言い訳すると，私はもう「エンジニア」でも「管理者」でもないので，自身に直接降りかかりそうなセキュリティ・インシデント以外は知らないふりをすることにしている（一応[ブックマークは溜め込んでる]({{< rlnk "/bookmarks/" >}})けど）。
 でも，まぁ，最近話題の以下の2つはブログ記事として記しておこうかな，と思ったので（笑）
 
-1. [Emotet 再拡散]({{< relref "#return-emotet" >}})
+1. [帰ってきた Emotet]({{< relref "#return-emotet" >}})
 2. [キャッシュレス決済の脆弱性]({{< relref "#docomo-account" >}})
 
 ## 帰ってきた Emotet{#return-emotet}
