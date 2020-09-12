@@ -1,5 +1,5 @@
 +++
-title = "Github プロファイルを（ちょっとだけ）カッコよくしてみる"
+title = "GitHub プロファイルを（ちょっとだけ）カッコよくしてみる"
 date =  "2020-09-12T21:17:02+09:00"
 description = "自前でポートフォリオを構成できる。"
 image = "/images/attention/kitten.jpg"
