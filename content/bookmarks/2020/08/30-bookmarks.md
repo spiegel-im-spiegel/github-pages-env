@@ -41,7 +41,6 @@ pageType = "text"
 - [ネット接続製品の安全な選定・利用ガイド -詳細版-：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/vuln/report/notice/guideforconsumer.html)
 - [Cory Doctorow on The Age of Surveillance Capitalism - Schneier on Security](https://www.schneier.com/blog/archives/2020/08/cory_doctorow_o_2.html)
     - [ブログ: コリイ・ドクトロウ、「監視資本主義」の何が間違っているのか](https://okuranagaimo.blogspot.com/2020/08/blog-post_28.html)
-
 - [US Postal Service Files Blockchain Voting Patent - Schneier on Security](https://www.schneier.com/blog/archives/2020/08/us_postal_servi.html)
 - [「便利すぎる」──政府の接触確認アプリを補完する3密チェッカー、19歳学生が2週間で開発　「バグと試験が重なって大変だった」 (1/2) - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2008/25/news128.html)
 - [Facebook apologizes to users, businesses for Apple’s monstrous efforts to protect its customers' privacy • The Register](https://www.theregister.com/2020/08/27/facebook_ios_ads/)
