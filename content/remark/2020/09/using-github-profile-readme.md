@@ -35,7 +35,8 @@ Markdown や HTML のほか，拡張子を変えれば AsciiDoc とかも使え�
 - [Shields.io: Quality metadata badges for open source projects](https://shields.io/)
 - [alexandresanlim/Badges4-README.md-Profile: Improve your README.md profile with these amazing badges.](https://github.com/alexandresanlim/Badges4-README.md-Profile)
 - [anuraghazra/github-readme-stats: Dynamically generated stats for your github readmes](https://github.com/anuraghazra/github-readme-stats)
-- [gautamkrishnar/blog-post-workflow: Show your latest blog posts from any sources or StackOverflow activity or Youtube Videos on your GitHub profile/project readme automatically using the RSS feed](https://github.com/gautamkrishnar/blog-post-workflow)
+- [Blog Post Workflow · Actions · GitHub Marketplace · GitHub](https://github.com/marketplace/actions/blog-post-workflow)
+    - [gautamkrishnar/blog-post-workflow: Show your latest blog posts from any sources or StackOverflow activity or Youtube Videos on your GitHub profile/project readme automatically using the RSS feed](https://github.com/gautamkrishnar/blog-post-workflow)
 - [GitHub Readme Stats を利用してGitHubプロフィールをカッコよくする - Qiita](https://qiita.com/zizi4n5/items/f8076cb25bbf64a9bc1c)
 
 [GitHub]: https://github.com/
