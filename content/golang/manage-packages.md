@@ -227,6 +227,7 @@ func main() {
 ## ブックマーク
 
 - [Goモジュールモードでモジュール内に作ったモジュールを扱う - Qiita](https://qiita.com/k-motoyan/items/4213d5ef09963ffea489) : モジュール内にサブ・モジュールを構成すること自体は可能である
+- [cmd/go: default to GO111MODULE=on · Issue #41330 · golang/go · GitHub](https://github.com/golang/go/issues/41330) : Go 1.17 より `GO111MODULE` の既定が `on` になるらしい
 
 - [モジュール対応モードへの移行を検討する]({{< relref "./go-module-aware-mode.md" >}})
 - [Go モジュールのバージョン管理]({{< relref "./versioning-of-go-modules.md" >}})

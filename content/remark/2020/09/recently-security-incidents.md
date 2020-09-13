@@ -130,6 +130,10 @@ Twitter で見かけたが某国営放送風テレビが「暗証番号を定期
 [RFC 6238]: https://tools.ietf.org/html/rfc6238 "RFC 6238 - TOTP: Time-Based One-Time Password Algorithm"
 [説教番組]: https://baldanders.info/spiegel/log/nikki-s/200206.html#2303 "せち日記 - 2002年06月分"
 
+## ブックマーク
+
+- [日本医師会、マルウェア「Emotet」の感染を公表--感染拡散メールに注意喚起 - ZDNet Japan](https://japan.zdnet.com/article/35159322/)
+
 ## 参考図書
 
 {{% review-paapi "4822283100" %}} <!-- セキュリティはなぜやぶられたのか -->

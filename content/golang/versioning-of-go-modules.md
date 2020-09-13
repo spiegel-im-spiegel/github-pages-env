@@ -443,6 +443,7 @@ replace gopkg.in/russross/blackfriday.v2 v2.0.1 => github.com/russross/blackfrid
 ## ブックマーク
 
 - [モジュール対応モードへの移行を検討する]({{< relref "./go-module-aware-mode.md" >}})
+- [Go Modules have a v2+ Problem — Donat Studios](https://donatstudios.com/Go-v2-Modules)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Go]: https://golang.org/ "The Go Programming Language"
