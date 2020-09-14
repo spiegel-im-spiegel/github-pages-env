@@ -13057,5 +13057,48 @@
       false
     ],
     "Description": "ちゃんとした書評は \u003ca href=\"https://www.yamdas.org/booklog/liberalism.html\"\u003eyomoyomo さんの記事\u003c/a\u003eが参考になる。私は途中まで読んで放り投げた。反省はしない（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00FU3P37W",
+      "Title": "かもめが翔んだ日",
+      "URL": "https://www.amazon.co.jp/dp/B00FU3P37W?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51i5fOe6NKL._SL160_.jpg",
+        "Height": 159,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "渡辺真知子",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Sony Music Direct(Japan)Inc.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00FU3P37W"
+        }
+      ],
+      "PublicationDate": "1978-05-02",
+      "LastRelease": "2014-04-04",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-09-14",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "そらで唄えます。つか，今でもカラオケでよく唄います（笑）"
   }
 ]
