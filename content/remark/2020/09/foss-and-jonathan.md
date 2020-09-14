@@ -1,7 +1,7 @@
 +++
 title = "FOSS とジョナサン"
 date =  "2020-09-14T21:06:21+09:00"
-description = " そして Open Source は「強者の武器」となる。"
+description = "そして Open Source は「強者の武器」となる。"
 image = "/images/attention/kitten.jpg"
 tags = [ "code", "grigori", "politics", "internet", "surveillance-capitalism" ]
 pageType = "text"
