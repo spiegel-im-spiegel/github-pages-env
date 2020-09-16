@@ -70,6 +70,10 @@ GitHubの豊富なAPIは、テキストエディタ、IDE、コマンドライ�
 開放されるなら，Disqus なんか捨てて，フィードバックはそっちに移行したいんだけどなぁ。
 それとも個人ユーザには開放されないとか？
 
+## ブックアーク
+
+- [Java 15正式版が登場。スケーラブルかつ低レイテンシなガベージコレクタ「ZGC」が正式版に － Publickey](https://www.publickey1.jp/blog/20/java_15zgc.html)
+
 [OpenJDK]: http://openjdk.java.net/
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [PlantUML]: http://plantuml.com/ "Open-source tool that uses simple textual descriptions to draw UML diagrams."

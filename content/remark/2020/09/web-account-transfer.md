@@ -13,7 +13,7 @@ pageType = "text"
 
 さて，先週から各メディアは嬉々として「ドコモ口座」を叩いてるわけだが（まぁ[「ドコモ口座」による「{{% ruby "security theater" %}}セキュリティ劇場{{% /ruby %}}」]({{< relref "./recently-security-incidents.md#docomo-account" >}} "キャッシュレス決済の脆弱性")がお粗末すぎるのは否めないが），問題の核心はそこじゃないだろうと思っていたら，やはり「ドコモ口座」だけじゃなかったようだ。
 
-- [「ドコモ口座」以外5社の決済サービスでも不正利用、高市総務相が明らかに - ケータイ Watch](https://k-tai.watch.impress.co.jp/docs/news/1277074.html)
+- [不正利用が発生した電子決済サービスについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/09/16/064653)
 
 まずはおさらいから。
 
@@ -74,6 +74,11 @@ piyokango さんによる「[ドコモ口座を悪用した不正送金につい
 まぁ，身元の曖昧なユーザを抱えるサービスに対して口座振替を設定するようなシチュエーションは今までなかったんだろう。
 おそらく銀行ごとに「[Web 口振受付サービス]」で対応可能な収納機関がかなり絞り込まれると思う。
 今後の動向に注目である。
+
+## ブックマーク
+
+- [「ドコモ口座」以外5社の決済サービスでも不正利用、高市総務相が明らかに - ケータイ Watch](https://k-tai.watch.impress.co.jp/docs/news/1277074.html)
+    - [ゆうちょ銀、2要素認証未導入の8事業者の登録とチャージを順次停止へ - ケータイ Watch](https://k-tai.watch.impress.co.jp/docs/news/1277231.html)
 
 [Web 口振受付サービス]: https://www.chigin-cns.co.jp/services/web_service/ "Web口振受付サービス｜地銀ネットワークサービス"
 [Pay-easy]: https://www.pay-easy.jp/ "「いつでも、どこでも、ペイジー。」日本マルチペイメントネットワーク推進協議会"
