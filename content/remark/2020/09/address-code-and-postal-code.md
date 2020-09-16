@@ -100,7 +100,7 @@ JP の[郵便番号データ]を眺めてみるとこんな感じになってい
 
 一見 JIS 住所コードと郵便番号が
 
-{{< fig-img class="lightmode" src="./entity-relationship-1.png" link="./entity-relationship-1.png" width="687" >}}
+{{< fig-img src="./entity-relationship-1.png" link="./entity-relationship-1.puml" width="687" >}}
 
 のように 1 対 n の関係になっているように見えるけど
 
@@ -114,12 +114,12 @@ JP の[郵便番号データ]を眺めてみるとこんな感じになってい
 
 そうで，つまり JIS 住所コードと郵便番号と住所（文字列）の関係は
 
-{{< fig-img class="lightmode" src="./entity-relationship-2.png" link="./entity-relationship-2.png" width="687" >}}
+{{< fig-img src="./entity-relationship-2.png" link="./entity-relationship-2.puml" width="687" >}}
 
 となっていて， JIS 住所コードと郵便番号の間で関係を記述できない。
 敢えてやるなら
 
-{{< fig-img class="lightmode" src="./entity-relationship-3.png" link="./entity-relationship-3.png" width="956" >}}
+{{< fig-img src="./entity-relationship-3.png" link="./entity-relationship-3.puml" width="956" >}}
 
 のように第3の固有IDを作って間接的に関連付ける必要がある。
 

@@ -22,7 +22,7 @@ pageType = "text"
 
 [^puml1]: 2020-03-19 に [PlantUML] V1.2020.5 が[リリース](http://plantuml.com/changes)されている。
 
-[OpenJDK] を APT で管理するメリットはないので，実行バイナリを[リリースページ](https://jdk.java.net/13/)から直接ダウンロードして配置する。
+[OpenJDK] を APT で管理するメリットはないので，実行バイナリを[リリースページ](https://jdk.java.net/14/)から直接ダウンロードして配置する。
 
 ```text
 $ cd /usr/local/src

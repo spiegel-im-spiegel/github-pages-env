@@ -192,6 +192,7 @@ Java 関連のサービスやアプリケーションについて以下にメモ
 - [「Oracle Java」のライセンスが変更 ～無償利用は個人での開発・テスト・デモ目的のみに - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1180607.html)
 - [Java EE 8フル互換の「Jakarta EE 8」がEclipse Foundationから正式リリース。これからはクラウドネイティブのためのフレームワークへと進化する － Publickey](https://www.publickey1.jp/blog/19/java_ee_8jakarta_ee_8eclipse_foundation.html)
 - [AdoptOpenJDKプロジェクトがEclipse Foundationへの合流を発表。合流後の新プロジェクト名は「Eclipse Adoptium」に － Publickey](https://www.publickey1.jp/blog/20/adoptopenjdkeclipse_foundationeclipse_adoptium.html)
+- [AWS、「Java 8」を2026年まで、「Java 11」は2027年まで、現行より3年サポート期間延長を発表。独自JavaディストリビューションのCorretto 8とCorretto 11で － Publickey](https://www.publickey1.jp/blog/20/awsjava_82026java_1120273javacorretto_8corretto_11.html)
 
 [OpenJDK]: http://openjdk.java.net/
 [Project Jigsaw]: http://openjdk.java.net/projects/jigsaw/ "Project Jigsaw"

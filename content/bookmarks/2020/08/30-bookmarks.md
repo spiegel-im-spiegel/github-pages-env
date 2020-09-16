@@ -79,7 +79,6 @@ pageType = "text"
 - [クリィミーマミのムックが出ます♡ | 高田明美オフィシャルブログ「Angel Touch」Powered by Ameba](https://ameblo.jp/angel-touch/entry-12620452563.html)
 - [勉強会はパーティーだ! ビール片手に楽しくGo言語を学ぶコミュニティ「Fukuoka.go」 | INTERVIEW詳細 - エンジニアフレンドリーシティ福岡](https://efc.fukuoka.jp/interview/3704)
 - [「Windows Terminal 1.2」が正式公開 ～コマンドパレットを標準搭載したv1.3もプレビュー - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1273244.html)
-
 - [アプリフレームワーク「Electron 10」が公開 ～「Chromium」や「V8」、「Node」を更新 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1273619.html)
 - [2020年8月28日ニュース「溶液に浸すだけで希土類クラスターを合成、高機能材料として期待」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2020/08/20200828_01.html)
 - [「エネルギー移行」のキーポイントは「発展途上国」と「蓄電技術革新」：岩瀬昇 | 岩瀬昇のエネルギー通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](https://www.fsight.jp/articles/-/47264)
