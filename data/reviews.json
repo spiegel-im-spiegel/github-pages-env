@@ -13100,5 +13100,52 @@
       false
     ],
     "Description": "そらで唄えます。つか，今でもカラオケでよく唄います（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07ND6QTN4",
+      "Title": "ＯＯＤＡ　ＬＯＯＰ（ウーダループ）―次世代の最強組織に進化する意思決定スキル",
+      "URL": "https://www.amazon.co.jp/dp/B07ND6QTN4?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51NHngUGOFL._SL160_.jpg",
+        "Height": 160,
+        "Width": 103
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "チェット リチャーズ",
+          "Role": "著"
+        },
+        {
+          "Name": "原田 勉",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "東洋経済新報社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07ND6QTN4"
+        }
+      ],
+      "PublicationDate": "2019-02-22",
+      "LastRelease": "2019-02-22",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2019-07-02",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "買ったはいいが，実はまだ読んでない。"
   }
 ]
