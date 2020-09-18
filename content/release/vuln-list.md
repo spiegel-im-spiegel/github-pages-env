@@ -38,7 +38,8 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 | Official | Release    |         Ubuntu | Release    |      Delay |
 | --------:| ---------- | --------------:| ---------- | ----------:|
-|   2.2.22 | 2020-08-27 |                |            |    ∞ days |
+|   2.2.23 | 2020-09-03 |                |            |    ∞ days |
+|   2.2.22 | 2020-08-27 |        &mdash; | &mdash;    |    &mdash; |
 |   2.2.21 | 2020-07-09 |        &mdash; | &mdash;    |    &mdash; |
 |   2.2.20 | 2020-03-20 |        &mdash; | &mdash;    |    &mdash; |
 |   2.2.19 | 2019-12-07 | (Ubuntu 20.04) | 2020-04-23 | 4.5 months |
@@ -53,6 +54,7 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 ### ブックマーク
 
+- [GnuPG 2.2.23 のリリース【セキュリティ・アップデート】]({{< ref "/release/2020/09/gnupg-2_2_23-is-released.md" >}})
 - [GnuPG 2.2.22 がリリースされた]({{< ref "/release/2020/08/gnupg-2_2_22-is-released.md" >}})
 - [GnuPG 2.2.21 および Libgcrypt 1.8.6 がリリースされた]({{< ref "/release/2020/07/gnupg-2_2_21-is-released.md" >}})
 - [GnuPG 2.2.20 がリリースされた]({{< ref "/release/2020/03/gnupg-2_2_20-is-released.md" >}})
