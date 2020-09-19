@@ -88,10 +88,13 @@ curl -sL https://deb.nodesource.com/setup_current.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
 
-では [GitHub] リポジトリを作って適当な場所に `git clone` し，リポジトリのあるディレクトリに移動する。
+次に，作成した [GitHub] リポジトリを適当な場所に `git clone` し，リポジトリのあるディレクトリに移動する。
 まずは npm の初期化から。
 
 ```text
+$ cd ~/workspace
+$ gh repo clone spiegel-im-spiegel/zenn-docs
+$ cd zenn-docs
 $ npm init --yes
 Wrote to /home/username/workspace/zenn-docs/package.json:
 
@@ -251,10 +254,10 @@ $ npx zenn preview
 - [Zenn CLIを使ってコンテンツを作成する | Zenn](https://zenn.dev/zenn/articles/zenn-cli-guide)
 - [ZennのMarkdown記法 | Zenn](https://zenn.dev/zenn/articles/markdown-guide)
 
+- [GitHub CLI 1.0 is now available - The GitHub Blog](https://github.blog/2020-09-17-github-cli-1-0-is-now-available/)
 - [Ubuntu/Debianに最新のNode.jsをインストールする一番良い方法 | LFI](https://linuxfan.info/install_nodejs_on_ubuntu_debian)
 - [🎁 Emoji cheat sheet for GitHub, Basecamp, Slack & more](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 [Zenn]: https://zenn.dev/ "Zenn｜プログラマーのための情報共有コミュニティ"
 [GitHub]: https://github.com/
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
-<!-- eof -->
