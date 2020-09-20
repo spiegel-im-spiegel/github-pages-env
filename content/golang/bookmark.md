@@ -873,6 +873,7 @@ Go 言語で複数 CPU を使った並列処理を行うには明示的な設定
 - [Go言語のリアルタイムGC　理論と実践 | プログラミング | POSTD](http://postd.cc/golangs-real-time-gc-in-theory-and-practice/)
 - [Go言語の低レイテンシGC実現のための取り組み | プログラミング | POSTD](http://postd.cc/gos-march-to-low-latency-gc/)
 - [引数で既存メソッドを渡した場合とlambdaで渡した場合でGCAllocに差がでた - Qiita](https://qiita.com/dimolto/items/3dbc5c20ce3c18d976c1)
+- [GolangのGCを追う | SOTA](https://deeeet.com/writing/2016/05/08/gogc-2016/)
 
 ## その他 四方山話
 

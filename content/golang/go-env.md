@@ -159,6 +159,10 @@ func UserConfigDir() (string, error) {
 
 以前から [`os`]`.UserCacheDir()` 関数で [XDG Base Directory] 対応のキャッシュ・ディレクトリは取得可能だったが，これでまたひとつ対応が進んだわけだ。
 
+## ブックマーク
+
+- [GOPATH に(可能な限り)依存しない Go 開発環境(Go 1.15 版) | Zenn](https://zenn.dev/tennashi/articles/3b87a8d924bc9c43573e)
+
 [Go]: https://golang.org/ "The Go Programming Language"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"

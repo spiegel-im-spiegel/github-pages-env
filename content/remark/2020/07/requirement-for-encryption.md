@@ -86,6 +86,10 @@ Firefox Send は一見「データの暗号化」に見えるかもしれない�
 
 [^pwd1]: 毎回パスワードを考えてデータをロックするより，最初に公開鍵を決めておいて使いまわしたほうが楽だし安全だと思うのだが...
 
+## ブックマーク
+
+- [Mozillaがファイル転送サービスのFirefox SendとメモアプリのFirefox Notesの開発を断念  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/18/2020-09-17-mozilla-shutters-firefox-send-and-notes/) : やはり閉鎖になったか...
+
 [「情報処理」2020年7月号]: https://www.amazon.co.jp/dp/B089N3VX86?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "情報処理 2020年7月号 | 情報処理学会 | 科学・テクノロジー | Kindleストア | Amazon"
 
 ## 参考図書
