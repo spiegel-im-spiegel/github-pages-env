@@ -53,6 +53,7 @@ pageType = "text"
 - [20周年記念！]({{< ref "/remark/2019/06/20th-years-anniversary.md" >}})
 
 - [かけ心地で選ぶとヘッドセットはAfterShokz｜塚本 牧生｜note](https://note.com/tsukamoto/n/nf25e3dc9f995)
+    - [耳のためにできること。1万円を切る骨伝導ヘッドセットAfterShokz OpenMoveを見てきた。｜塚本 牧生｜note](https://note.com/tsukamoto/n/nacdd57144504)
 
 [Baldanders.info]: https://baldanders.info/
 
