@@ -126,18 +126,16 @@ Wrote to /home/username/workspace/zenn-docs/package.json:
 ```text
 $ npm install zenn-cli
 ...
-+ zenn-cli@0.1.23
-added 900 packages from 393 contributors and audited 903 packages in 66.098s
-
-40 packages are looking for funding
-  run `npm fund` for details
-
++ zenn-cli@0.1.29
+added 5 packages from 3 contributors, removed 3 packages, updated 3 packages, moved 1 package and audited 905 packages in 42.516s
 found 5 low severity vulnerabilities
   run `npm audit fix` to fix them, or `npm audit` for details
 ```
 
-なんか不穏なメッセージが見えるが大丈夫か，これ。 ...まぁいいや。
+なんか不穏なメッセージが見えるが大丈夫か，これ。 ...まぁいいや[^issue1]。
 次いってみよう。
+
+[^issue1]: [Zenn] 側に問い合わせてみたが，セキュリティ上の問題はないらしい。「あまり精神的に良いものではないのでそのうちなんとかしようと思っています」とのこと（笑）
 
 `zenn-cli` ツールがインストールできたらリポジトリ内を初期化する。
 
@@ -216,8 +214,38 @@ published: true
 `emoji` 項目は，記事のアテンションに使われるのだが，毎回ランダムな文字で初期化されるようだ。
 絵文字を直接入力することはないのだが [GitHub markdown](https://www.webfx.com/tools/emoji-cheat-sheet/ "🎁 Emoji cheat sheet for GitHub, Basecamp, Slack & more") のように文字列で指定できないものかねぇ。
 
-## プレビューが落っこちる
+## プレビューが素敵！
 
+{{< div-box type="markdown" >}}
+**【2020-09-20 更新】**
+以前プレビュー機能が動かないと書いたが，他でも [Issue が上がっていた](https://github.com/zenn-dev/zenn-roadmap/issues/37 "npx zenn preview でエラーが大量に吐き出される · Issue #37 · zenn-dev/zenn-roadmap")らしく，対応されていた。
+感謝！
+
+この節は，以前の内容から差し替えている。
+なお，障害報告は [GitHub] の [zenn-dev/zenn-roadmap/issues](https://github.com/zenn-dev/zenn-roadmap/issues) に上げてほしいとのこと。
+
+[GitHub]: https://github.com/
+{{< /div-box >}}
+
+以下のコマンドでプレビュー用のローカルサーバが起動する。
+
+```text
+$ npx zenn preview
+👀Preview on http://localhost:8000
+```
+
+画面はこんな感じ。
+
+{{< fig-img src="./preview.png" link="./preview.png" width="1181" >}}
+
+おおっ！ 間違いまで指摘してくれるのか。
+こりゃあ，ええ。
+
+エディタの markdown プレビュー機能でもある程度は見れるけど，やっぱサービス立ち上げてブラウザで確認できるのがいいよね。
+
+うんうん。
+
+<!--
 プレビュー用のローカルサーバを起動しようとしたら
 
 ```text
@@ -241,6 +269,7 @@ $ npx zenn preview
 てな感じに例外を吐いて落っこちた。
 
 まぁ，プレビューなくても問題はないのだが...
+-->
 
 ## とりあえず私も...
 
