@@ -53,6 +53,7 @@ ID (Identity) には有効な「目的」と「範囲」と「期間」が必ず
 
 ## ブックマーク
 
+- [マイナンバーそのものは知られても問題ない（はず）｜塚本 牧生｜note](https://note.com/tsukamoto/n/n290aa887cb52)
 - [「情報弱者」を再々定義する]({{< ref "/remark/2018/05/information-illiterate.md" >}})
 
 ## 参考文献
