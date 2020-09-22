@@ -38,5 +38,6 @@ Markdown や HTML のほか，拡張子を変えれば AsciiDoc とかも使え�
 - [Blog Post Workflow · Actions · GitHub Marketplace · GitHub](https://github.com/marketplace/actions/blog-post-workflow)
     - [gautamkrishnar/blog-post-workflow: Show your latest blog posts from any sources or StackOverflow activity or Youtube Videos on your GitHub profile/project readme automatically using the RSS feed](https://github.com/gautamkrishnar/blog-post-workflow)
 - [GitHub Readme Stats を利用してGitHubプロフィールをカッコよくする - Qiita](https://qiita.com/zizi4n5/items/f8076cb25bbf64a9bc1c)
+- [GitHub の Profile Readme に Feed を表示する | Zenn](https://zenn.dev/spiegel/articles/20200922-blog-post-workflow)
 
 [GitHub]: https://github.com/
