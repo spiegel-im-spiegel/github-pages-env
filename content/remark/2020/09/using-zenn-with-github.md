@@ -284,6 +284,7 @@ $ npx zenn preview
 - [ZennのMarkdown記法 | Zenn](https://zenn.dev/zenn/articles/markdown-guide)
 
 - [GitHub CLI 1.0 is now available - The GitHub Blog](https://github.blog/2020-09-17-github-cli-1-0-is-now-available/)
+    - [GitHub CLI 1.0 がリリースされたので使ってみた | Zenn](https://zenn.dev/morinokami/articles/hello-github-cli)
 - [Ubuntu/Debianに最新のNode.jsをインストールする一番良い方法 | LFI](https://linuxfan.info/install_nodejs_on_ubuntu_debian)
 - [🎁 Emoji cheat sheet for GitHub, Basecamp, Slack & more](https://www.webfx.com/tools/emoji-cheat-sheet/)
 

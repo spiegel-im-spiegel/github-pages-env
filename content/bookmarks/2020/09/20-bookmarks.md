@@ -22,6 +22,7 @@ pageType = "text"
 
 - [欧州司法裁、ネット中立性規則支持示す - ZDNet Japan](https://japan.zdnet.com/article/35159744/)
 - [WeChatとTikTokのダウンロードが9月20日から不可に、米商務省が発表  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/19/2020-09-18-tiktok-and-wechat-will-be-banned-in-the-u-s-from-sunday/)
+    - [TikTok米事業、オラクルによる提携をトランプ大統領が暫定承認。なぜオラクルはTikTok事業を取りに行ったのか？ － Publickey](https://www.publickey1.jp/blog/20/tiktoktiktok.html)
 
 ## セキュリティ＆プライバシー関連
 
@@ -32,6 +33,7 @@ pageType = "text"
 - [NISTによる「ゼロトラストにおける7つの基本原則」と従来の境界型防御との関係：働き方改革時代の「ゼロトラスト」セキュリティ（6） - ＠IT](https://www.atmarkit.co.jp/ait/articles/2009/15/news007.html)
 - [日本マイクロソフト、Active Directory管理者に脆弱性対策を勧告 - ZDNet Japan](https://japan.zdnet.com/article/35159618/)
     - [MS、Netlogonプロトコル実装の特権昇格脆弱性に対するガイダンスを管理者向けに公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1277116.html)
+    - [米国土安全保障省がWindowsの「緊急」レベル脆弱性に異例警告、深刻度最大のZerologon攻撃を受ける可能性  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/20/2020-09-19-homeland-security-emergency-alert-critical-windows-bug/)
 - [エフセキュア、企業向けフィッシング攻撃の模擬演習サービスを提供 - ZDNet Japan](https://japan.zdnet.com/article/35159654/)
 - [「Node.js」の2020年9月セキュリティ更新 ～“Critical”1件を含む3件の脆弱性に対処 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1277378.html)
 - [中国のハッカーがMicrosoft Exchange Serverなどの脆弱性を利用してアメリカ政府を攻撃していたことが判明 - GIGAZINE](https://gigazine.net/news/20200915-hackers-china-targeting-microsoft-exchange/)

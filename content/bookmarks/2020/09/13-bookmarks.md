@@ -32,6 +32,7 @@ pageType = "text"
 - [Intel、2020年9月のセキュリティアドバイザリを公開 ～第8世代Intel Core以降などのBIOSに問題 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1275821.html)
 - [Yubicoが最新セキュリティキー「Yubikey 5C」を発表、価格は約5800円  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/10/2020-09-09-yubico-reveals-new-yubikey/)
 - [NSA元長官キース・アレクサンダー氏がアマゾンの取締役に - ZDNet Japan](https://japan.zdnet.com/article/35159398/)
+    - [Former NSA Director Keith Alexander Joins Amazon’s Board of Directors - Schneier on Security](https://www.schneier.com/blog/archives/2020/09/former-nsa-director-keith-alexander-joins-amazons-board-of-directors.html)
 - [OpenSSL Security Advisory: Raccoon Attack (CVE-2020-1968)](https://www.openssl.org/news/secadv/20200909.txt)
     - [「OpenSSL」に暗号通信を解読可能な脆弱性“Raccoon Attack” ～パッチ提供のない旧版は注意 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1276532.html)
 - [Ranking National Cyber Power - Schneier on Security](https://www.schneier.com/blog/archives/2020/09/ranking-national-cyber-power.html)

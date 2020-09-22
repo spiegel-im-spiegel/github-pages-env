@@ -1,25 +1,5 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-- [Power Tools - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ego-digital.vscode-powertools)
-- [vscode-powertoolsを使って、VSCodeの挙動を自分好みに変える - $shibayu36->blog;](https://blog.shibayu36.org/entry/2019/12/02/193000)
-- [Visual Studio Code API コマンド編 -vscode.commands-](https://clickan.click/vscode-command/)
-
-- [Arafatk/glot: Glot is a plotting library for Golang built on top of gnuplot.](https://github.com/arafatk/glot)
-- [wcharczuk/go-chart: go chart is a basic charting library in native golang.](https://github.com/wcharczuk/go-chart)
-
-- [少しだけお手伝いした矢吹太朗『Webのしくみ Webをいかすための12の道具』（サイエンス社）が来月刊行される - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20200618/web-no-shikumi) : 2020年9月中～下旬の発行になってた
-
-- [【高田明美展　Angel Touch】倉敷市立美術館リリース｜高田明美オフィシャルホームページ ～ Angels ～](http://www.takada-akemi.net/news/nw161) : 2020-09-05 より
-- [クリィミーマミのムックが出ます♡ | 高田明美オフィシャルブログ「Angel Touch」Powered by Ameba](https://ameblo.jp/angel-touch/entry-12620452563.html)
-
-- [GitHub - usnistgov/800-63-3: Home to public development of NIST Special Publication 800-63-3: Digital Authentication Guidelines](https://github.com/usnistgov/800-63-3)
-
-- [GitHub - Nitrokey/gnupg-docker: Build and use specific GnuPG version using Ubuntu image within Docker's container](https://github.com/Nitrokey/gnupg-docker)
-    - [Ubuntuにdockerをインストールする - Qiita](https://qiita.com/tkyonezu/items/0f6da57eb2d823d2611d)
-
-- [How to install Git on Android - TechRepublic](https://www.techrepublic.com/article/how-to-install-git-on-android/)
-
-
 ## リリース情報
 
 
@@ -28,17 +8,25 @@
 
 ## セキュリティ＆プライバシー関連
 
+- [At this point, 5G is a bad joke | Computerworld](https://www.computerworld.com/article/3575510/at-this-point-5g-is-a-bad-joke.html)
+    - [ブログ: 現時点で、5Gは悪い冗談です](https://okuranagaimo.blogspot.com/2020/09/5g.html)
+- [飛行機の搭乗券が写った写真から個人情報を抜き出すまでの記録、オーストラリアの元首相の場合 - GIGAZINE](https://gigazine.net/news/20200918-passport-instagram-hacker/)
+- [上院の暗号バックドア法案は「米国人にとって危険」だと下院議員が警告  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/21/2020-09-20-encryption-backdoor-bill-dangerous-lofgren/)
 
 ## 天文関連
 
 
 ## 知財関連
 
+- ['Copyright Troll' Loses Legal Battle and Must Pay $172,173 * TorrentFreak](https://torrentfreak.com/copyright-troll-loses-legal-battle-and-must-pay-172173-200920/)
 
 ## Linux または Ubuntu に関する話題
 
 
 ## その他
 
+- [GitHub CLI 1.0 がリリースされたので使ってみた | Zenn](https://zenn.dev/morinokami/articles/hello-github-cli)
+- [Zooming and scaling must not be disabled  Axe Rules | Deque University | Deque Systems](https://dequeuniversity.com/rules/axe/3.5/meta-viewport) : HTML でズーム機能を無効にしたらあかんよ，という話
+- [Call for 2021 Roadmap Blogs Ending Soon | Rust Blog](https://blog.rust-lang.org/2020/09/21/Scheduling-2021-Roadmap.html)
 
 <!-- eof -->
