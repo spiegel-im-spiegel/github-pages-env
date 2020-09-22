@@ -37,6 +37,7 @@ pageType = "text"
 
 ## ブックマーク
 
+- [srggrs/assign-one-project-github-action: Automatically add an issue or pull request to specific GitHub Project(s) when you create and/or label them.](https://github.com/srggrs/assign-one-project-github-action)
 - [Trello で引っ越し]({{< ref "/remark/2018/12/move-with-trello.md" >}})
 
 [GitHub]: https://github.com/
