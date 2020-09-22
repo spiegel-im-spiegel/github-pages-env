@@ -18,10 +18,9 @@ jobs:
         project: 'https://github.com/spiegel-im-spiegel/github-pages-env/projects/1'
         column_name: 'Materials'
 
-    - name: Assign issues with `bug` or `now` labels to project 1
+    - name: Assign issues with `now` labels to project 1
       uses: srggrs/assign-one-project-github-action@1.2.0
       if: |
-        contains(github.event.issue.labels.*.name, 'bug') ||
         contains(github.event.issue.labels.*.name, 'now')
       with:
         project: 'https://github.com/spiegel-im-spiegel/github-pages-env/projects/1'
