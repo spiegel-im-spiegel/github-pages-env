@@ -252,3 +252,4 @@ $ apm stars --install
 - [Ubuntu アプリケーションにおけるセキュリティ・アップデート一覧]({{< ref "/release/vuln-list.md" >}})
 
 {{% review-paapi "B01NBU1OS5" %}} <!-- シリコンパワー USBメモリ 32GB USB3.1 -->
+{{% review-paapi "B00G9NIL7G" %}} <!-- エレコム マウス Bluetooth -->

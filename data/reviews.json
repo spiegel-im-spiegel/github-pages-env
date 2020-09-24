@@ -13147,5 +13147,208 @@
       false
     ],
     "Description": "買ったはいいが，実はまだ読んでない。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00G9NIL7G",
+      "Title": "エレコム マウス Bluetooth (iOS対応) Sサイズ 小型 3ボタン IRセンサー 省電力 シルバー M-BT12BRSV",
+      "URL": "https://www.amazon.co.jp/dp/B00G9NIL7G?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41uU9SMEAyL._SL160_.jpg",
+        "Height": 150,
+        "Width": 160
+      },
+      "ProductType": "Personal Computers",
+      "Publisher": "エレコム",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00G9NIL7G"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4953103501997"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2013-11-09",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2019-12-01",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "まぁ，マウスは消耗品だから（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00ZP3503O",
+      "Title": "iClever Bluetooth キーボード 折りたたみ式 薄型 スマホ タブレット 専用 無線 ワイヤレス コンパクトキーボード ポータブル iPhone/iPad/Andriod 対応 ブラック シルバー IC-BK03",
+      "URL": "https://www.amazon.co.jp/dp/B00ZP3503O?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51z5FabmkpL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "iClever",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00ZP3503O"
+        },
+        {
+          "Name": "EAN",
+          "Value": "6958446327516"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2017-04-11",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "携帯用と割り切れば特に問題なし。ふとした拍子に Bluetooth 接続が切れるのが玉に瑕。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07HWSDG97",
+      "Title": "Glazata アルミ製スマホ/タブレット用スタンド 折り畳み式 270°自由調整可能 デスクトップスタンド スマホ タブレット (グレー)",
+      "URL": "https://www.amazon.co.jp/dp/B07HWSDG97?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41UuRFotZAL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "Glazata",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07HWSDG97"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-09-24",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "10インチタブレットでも安定して支えてくれる。折りたためばコンパクトになるが，持ち運ぶ際は注意。箱は捨てないで使いましょう（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07KJ5S7FS",
+      "Title": "HUAWEI MediaPad M5 lite 10 タブレット 10.1インチ W-Fiモデル RAM4GB/ROM64GB タッチペン\u0026オリジナルカバー同梱 【日本正規代理店品】",
+      "URL": "https://www.amazon.co.jp/dp/B07KJ5S7FS?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51JOpzamieL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "Personal Computers",
+      "Publisher": "HUAWEI(ファーウェイ)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07KJ5S7FS"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9760054766192"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2018-11-30",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-09-24",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "この値段で RAM 4GB が決め手。ベンダ企業がどこかは考えない（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B011LC4LY6",
+      "Title": "めんどうみたョ",
+      "URL": "https://www.amazon.co.jp/dp/B011LC4LY6?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51o1Irti1QL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "植木 等",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "EMIミュージック・ジャパン",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B011LC4LY6"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2015-07-22",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-09-24",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "あわれ仁吉よ，どこへ行く（笑）"
   }
 ]
