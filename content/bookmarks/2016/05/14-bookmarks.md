@@ -28,7 +28,7 @@ title = "2016-05-14 のブックマーク"
 - [アル＝カーイダのザワーヒリーがシリアのヌスラ戦線を引き留める：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41178)
 - [ダン・ギルモア著『あなたがメディア　ソーシャル新時代の情報術』を全文公開します | 新聞紙学的](https://kaztaira.wordpress.com/2016/05/12/%E3%83%80%E3%83%B3%E3%83%BB%E3%82%AE%E3%83%AB%E3%83%A2%E3%82%A2%E8%91%97%E3%80%8E%E3%81%82%E3%81%AA%E3%81%9F%E3%81%8C%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%80%80%E3%82%BD%E3%83%BC%E3%82%B7%E3%83%A3/)
 - [グーグル、オープンソースの自然言語フレームワーク「SyntaxNet」をリリース - ZDNet Japan](http://japan.zdnet.com/article/35082535/)
-- [パナマ文書事件が明らかにした「第五階級」とは « マガジン航[kɔː]](http://magazine-k.jp/2016/05/13/panama-papers-and-fifth-estate/)
+- [パナマ文書事件が明らかにした「第五階級」とは « マガジン航[kɔː]](https://magazine-k.jp/2016/05/13/panama-papers-and-fifth-estate/)
 - [NASA、太陽系外惑星1284個を発見 | TechCrunch Japan](http://jp.techcrunch.com/2016/05/13/20160512astronomers-announce-largest-batch-of-new-planets-ever-discovered/)
 - [英国政府、著作権侵害対策の4カ年戦略を公表 – P2Pとかその辺のお話R](http://p2ptk.org/copyright/312)
 - [モジラ、「Firefox」への侵入方法開示を米政府に要求 - CNET Japan](http://japan.cnet.com/news/service/35082550/)

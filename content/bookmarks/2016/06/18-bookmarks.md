@@ -49,7 +49,7 @@ title = "2016-06-18 のブックマーク"
 - [ソフトウェアのバグをなくすには？--プログラミングの際に避けるべき10の失敗 - ZDNet Japan](http://japan.zdnet.com/article/35083529/)
 - [IBM Watsonを乗客インターフェイスに利用した電気ミニバス、Olliが運行開始へ | TechCrunch Japan](http://jp.techcrunch.com/2016/06/17/20160616ibms-watson-makes-a-move-into-self-driving-cars-with-olli-a-minibus-from-local-motors/)
 - [オバマのイスラーム教への「真意」 – アゴラ](http://agora-web.jp/archives/2019792.html)
-- [「無書店自治体を走る本屋さん」は、なぜ走る？ « マガジン航[kɔː]](http://magazine-k.jp/2016/06/16/moving-bookstore-in-hokkaido/)
+- [「無書店自治体を走る本屋さん」は、なぜ走る？ « マガジン航[kɔː]](https://magazine-k.jp/2016/06/16/moving-bookstore-in-hokkaido/)
 - [Microsoft、C言語を拡張する「Checked C」を開発中 | マイナビニュース](http://news.mynavi.jp/news/2016/06/16/218/)
 - [k16's note: Markdown原稿をGitHubで管理して本にする仕組みが出版社で導入されないわけ](http://note.golden-lucky.net/2016/06/markdowngithub.html)
 - [【特集】『朝起きたらOSが勝手にWindows 10になってた！』場合の対処法　前編 - 窓の杜](http://forest.watch.impress.co.jp/docs/special/1004285.html)

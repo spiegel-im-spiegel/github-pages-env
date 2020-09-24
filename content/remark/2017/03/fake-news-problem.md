@@ -89,7 +89,7 @@ Facebook は昨年の大統領選で「[フィルターバブル]」の批判を
 
 ## ブックマーク{#bookmark}
 
-- [メディアは（常に）スパムか？ « マガジン航[kɔː]](http://magazine-k.jp/2016/01/25/spam-and-media/)
+- [メディアは（常に）スパムか？ « マガジン航[kɔː]](https://magazine-k.jp/2016/01/25/spam-and-media/)
 - [「事件」を見る代わりに「構造」を見よう。「今日」を見る代わりに「毎日」を見よう。『デ・コレスポンデント』はニュースをこう変える « WIRED.jp](http://wired.jp/special/2017/de-correspondent/)
 - [Googleの「強調スニペット」の「Google Home」での危険性をメディアが指摘 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1703/06/news076.html)
 - [Age-of-Trump - Spiegel's Branch - Scrapbox](https://scrapbox.io/spiegel-branch/Age-of-Trump)

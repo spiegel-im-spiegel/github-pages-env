@@ -181,11 +181,11 @@ IBM の [Watson](http://www.ibm.com/smarterplanet/jp/ja/ibmwatson/) がどんな
 
 ## 新刊小説の滅亡{#book}
 
-- [新刊小説は滅亡について考えた方がいい « マガジン航[kɔː]](http://magazine-k.jp/2015/12/04/downfall-of-novels/)
+- [新刊小説は滅亡について考えた方がいい « マガジン航[kɔː]](https://magazine-k.jp/2015/12/04/downfall-of-novels/)
 
 いやぁ
 
-{{< fig-quote title="新刊小説は滅亡について考えた方がいい" link="http://magazine-k.jp/2015/12/04/downfall-of-novels/" >}}
+{{< fig-quote title="新刊小説は滅亡について考えた方がいい" link="https://magazine-k.jp/2015/12/04/downfall-of-novels/" >}}
 <q>消費者にとって、新刊小説を買わないことには、メリットがあるからである。<br>
 新刊小説は、買わない方がいいからである。<br>
 なぜ買わない方がいいのか。どんなメリットがあるのか。それは「新刊小説の滅亡」に書いた。</q>
@@ -198,7 +198,7 @@ IBM の [Watson](http://www.ibm.com/smarterplanet/jp/ja/ibmwatson/) がどんな
 
 まぁ，でも，しかし，続きを読めば「なぜ」の答えは書いてあって
 
-{{< fig-quote title="新刊小説は滅亡について考えた方がいい" link="http://magazine-k.jp/2015/12/04/downfall-of-novels/" >}}
+{{< fig-quote title="新刊小説は滅亡について考えた方がいい" link="https://magazine-k.jp/2015/12/04/downfall-of-novels/" >}}
 <q>有体にいえば、一回読んだら置き場所に困るような文学など、買わない方がいい、ということだ。</q>
 {{< /fig-quote >}}
 

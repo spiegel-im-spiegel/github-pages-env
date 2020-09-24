@@ -94,7 +94,7 @@ Windows Update で KB3156417 を導入すればよい。
 - [コマンドラインからググれてもいいと思ったので作った - Qiita](http://qiita.com/ieee0824/items/13435fc6de5f22cdb2f4)
 - [tsaka1's blog: ノイマンの自然数(非負整数)生成プログラムについて](http://tsaka1.blogspot.jp/2016/05/blog-post.html)
 - [電子書籍の未来を握るのはインディー系 - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2016/04/52669/)
-    - [英米のEブックを支えている読者は誰？ « マガジン航[kɔː]](http://magazine-k.jp/2016/05/24/beyond-cool-japan-06/)
+    - [英米のEブックを支えている読者は誰？ « マガジン航[kɔː]](https://magazine-k.jp/2016/05/24/beyond-cool-japan-06/)
     - [電子書籍は漫画家の希望となるか？｜佐藤秀峰｜note](https://note.mu/shuho_sato/n/n736593947e6c)
 - [「フェアユースでも使用料を払え」というソニーミュージックの横暴と、それを許すYouTubeのコンテンツID – P2Pとかその辺のお話R](http://p2ptk.org/copyright/350)
 - [textlintで日本語の文章をチェックする | Web Scratch](http://efcl.info/2015/09/10/introduce-textlint/)

@@ -66,13 +66,13 @@ title = "週末スペシャル： 「あかつき」金星の衛星になる"
 なんか面白い連載が始まるらしい。
 発端はこれ。
 
-- [クール・ジャパンはどこがイケ（て）ないのか？ « マガジン航[kɔː]](http://magazine-k.jp/2015/11/16/beyond-cool-japan/)
+- [クール・ジャパンはどこがイケ（て）ないのか？ « マガジン航[kɔː]](https://magazine-k.jp/2015/11/16/beyond-cool-japan/)
 - [日本のテック業界の元気がない理由 - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2015/11/47846/)
 
-ちうわけで， [WirelessWire News の谷本真由美さん](https://wirelesswire.jp/author/mayumi_tanimoto/)と[マガジン航の大原ケイさん](http://magazine-k.jp/author/ohara-kay/)による「往復書簡」が始まったようだ。
+ちうわけで， [WirelessWire News の谷本真由美さん](https://wirelesswire.jp/author/mayumi_tanimoto/)と[マガジン航の大原ケイさん](https://magazine-k.jp/author/ohara-kay/)による「往復書簡」が始まったようだ。
 早速1往復。
 
-- [副次権ビジネスのすすめ « マガジン航[kɔː]](http://magazine-k.jp/2015/12/07/beyond-cool-japan-01/)
+- [副次権ビジネスのすすめ « マガジン航[kɔː]](https://magazine-k.jp/2015/12/07/beyond-cool-japan-01/)
 - [末端の人間は不真面目でいい - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2015/12/48658/)
 
 なんか「往復書簡」というより遠距離掛け合い漫才みたいな感じだが，面白そうなのでこのまま読んでみよう。

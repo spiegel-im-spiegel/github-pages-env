@@ -9,11 +9,11 @@ tags = ["book", "market"]
   mermaidjs = false
 +++
 
-- [書店に「生活提案」は可能か？ « マガジン航[kɔː]](http://magazine-k.jp/2015/12/13/no-concierge-for-bookstore/)
+- [書店に「生活提案」は可能か？ « マガジン航[kɔː]](https://magazine-k.jp/2015/12/13/no-concierge-for-bookstore/)
 
 まぁ面白いとは思うけど，それならもう「本屋」である必然性がないよね。
 
-{{< fig-quote title="書店に「生活提案」は可能か？" link="http://magazine-k.jp/2015/12/13/no-concierge-for-bookstore/" >}}
+{{< fig-quote title="書店に「生活提案」は可能か？" link="https://magazine-k.jp/2015/12/13/no-concierge-for-bookstore/" >}}
 <q>確かに、購書空間が本を探し、吟味するために快適なものであることは大切である。だがそれはあらゆる商業空間に共通の課題であり、「生活提案」という理念ゆえではない。本を購入したあと、居心地のよいカフェで美味しい飲み物を飲みながら新しい本を繙くのは至福の時間だが、それは読者一人一人の嗜好に任せるべきことで、ことさら書店が「提案」することではない。</q>
 {{< /fig-quote >}}
 

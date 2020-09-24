@@ -71,7 +71,7 @@ Google Books の [Library Project] において米国内の図書館（ハーバ
 しかし2011年にニューヨーク地方裁判所がこの和解の承認を拒否。
 訴訟は振り出しに戻ってしまった。
 
-{{< fig-quote title="グーグル勝訴で浮き彫りになるフェア・ユースと著作権の問題" link="http://magazine-k.jp/2015/10/29/google-books-wins-over-the-authors-guild/" >}}
+{{< fig-quote title="グーグル勝訴で浮き彫りになるフェア・ユースと著作権の問題" link="https://magazine-k.jp/2015/10/29/google-books-wins-over-the-authors-guild/" >}}
 <q>そして2013年にようやく発表された判決は、著者協会側の言い分を全面的に却下、本をスキャンしてデジタル化するのはフェア・ユースの範囲内なので、グーグルは無罪、というもの。
 電子書籍黎明期にあって、原告が主張するように、心配されていたことも多々あったけれど、とりあえずこれだけの時間が経ってようやく、デジタル化された本のデータが実際にどう使われるかが見えてきたところで、グーグルのプロジェクトは「フェア・ユース」の範囲内であり、著作権侵害に当たらないという判断が下せるようになった、ということでしょう。</q>
 {{< /fig-quote >}}
@@ -85,7 +85,7 @@ Google Books の [Library Project] において米国内の図書館（ハーバ
 
 ## 本当に Library Project は Fair Use か
 
-以降は大原ケイさんの「[グーグル勝訴で浮き彫りになるフェア・ユースと著作権の問題](http://magazine-k.jp/2015/10/29/google-books-wins-over-the-authors-guild/)」を参照しながら簡単に紹介する。
+以降は大原ケイさんの「[グーグル勝訴で浮き彫りになるフェア・ユースと著作権の問題](https://magazine-k.jp/2015/10/29/google-books-wins-over-the-authors-guild/)」を参照しながら簡単に紹介する。
 
 米国で fair use が成立するためには以下の観点において「公正」であることが認められなければならない。
 
@@ -103,7 +103,7 @@ Google Books の [Library Project] において米国内の図書館（ハーバ
 でも検索を可能にするためには全文スキャンしなきゃいけないわけで，それを以って違法とはいえないだろうという判断。
 ちなみに
 
-{{< fig-quote title="グーグル勝訴で浮き彫りになるフェア・ユースと著作権の問題" link="http://magazine-k.jp/2015/10/29/google-books-wins-over-the-authors-guild/" >}}
+{{< fig-quote title="グーグル勝訴で浮き彫りになるフェア・ユースと著作権の問題" link="https://magazine-k.jp/2015/10/29/google-books-wins-over-the-authors-guild/" >}}
 <q>短すぎて、数行表示されただけで用が済んでしまうコンテンツ、例えば料理のレシピとか、辞書とか、詩歌や俳句などはブックスキャンのsnippetサービスから除外されています。</q>
 {{< /fig-quote >}}
 
@@ -111,7 +111,7 @@ Google Books の [Library Project] において米国内の図書館（ハーバ
 
 **原作品の価値への影響**： 今回の件では，ここが一番重要だろう。
 
-{{< fig-quote title="グーグル勝訴で浮き彫りになるフェア・ユースと著作権の問題" link="http://magazine-k.jp/2015/10/29/google-books-wins-over-the-authors-guild/" >}}
+{{< fig-quote title="グーグル勝訴で浮き彫りになるフェア・ユースと著作権の問題" link="https://magazine-k.jp/2015/10/29/google-books-wins-over-the-authors-guild/" >}}
 <q>つまり、グーグルで検索できることで、調べ物をするのにこの本は要らないや、という判断になることもあり、その分、著者の儲けが減るという可能性もあるだろうけど、全体的に見れば、一部閲覧という形でその本についての情報が得られれば、その情報に基いて本を買う、という判断もあるわけで、原告が主張するように、グーグルで見られるから買わなくなるとばかりは言えないよね、という判断。</q>
 {{< /fig-quote >}}
 
@@ -120,7 +120,7 @@ Google Books の [Library Project] において米国内の図書館（ハーバ
 
 記事中で大原ケイさんが書かれている
 
-{{< fig-quote title="グーグル勝訴で浮き彫りになるフェア・ユースと著作権の問題" link="http://magazine-k.jp/2015/10/29/google-books-wins-over-the-authors-guild/" >}}
+{{< fig-quote title="グーグル勝訴で浮き彫りになるフェア・ユースと著作権の問題" link="https://magazine-k.jp/2015/10/29/google-books-wins-over-the-authors-guild/" >}}
 <q>今回の控訴審の判決文を読んで、なるほどなぁ、と思わされたのが「なぜ著作権というものがあって、それを法律で保護するのか」を憲法に基いて再確認しているところ。
 もちろん、一義的には、「何かしらクリエイティブなものを生み出した人（＝本を書いた人）が、それを広めるときにそれなりの見返りが得られるようにして、そのクリエイティブな活動を奨励するため」なのですが、広義的・根本的には「すべての人々が知の恩恵を受けられるように、何かを生み出した当人の著作権を認めてその知を広める」ということで、あくまでも「公益」を守るためなんだなぁということがわかります。</q>
 {{< /fig-quote >}}
@@ -170,7 +170,7 @@ Fair use のない日本が如何に時代に取り残されつつあるか分�
 - [ニュース - 「Google Books」を巡る係争でGoogleが勝利、フェアユースの主張が認められる：ITpro](http://itpro.nikkeibp.co.jp/article/NEWS/20131115/518222/)
 - [ニュース - 「Google Booksは著作権法に違反せず」米控訴裁、地裁判断を支持：ITpro](http://itpro.nikkeibp.co.jp/atcl/news/15/101903421/)
 - [グーグル勝訴で浮き彫りになる「フェア・ユース」と著作権（とたぶんTPP）の問題｜りんがる｜note](https://note.mu/lingualina/n/n8e6589a8262b)
-- [グーグル勝訴で浮き彫りになるフェア・ユースと著作権の問題 « マガジン航](http://magazine-k.jp/2015/10/29/google-books-wins-over-the-authors-guild/)
+- [グーグル勝訴で浮き彫りになるフェア・ユースと著作権の問題 « マガジン航](https://magazine-k.jp/2015/10/29/google-books-wins-over-the-authors-guild/)
 - [米最高裁、Googleブックスの書籍スキャンを公正使用と認定 | TechCrunch Japan](http://jp.techcrunch.com/2016/04/19/20160418supreme-court-affirms-google-books-scans-of-copyrighted-works-are-fair-use/) : どうやら確定したようです
 
 [Library Project]: https://www.google.com/googlebooks/library/ "Google Books Library Project – Google Books"

@@ -49,7 +49,7 @@ title = "2016-05-25 のブックマーク"
 - [Adobe、Web会議システム「Connect」の脆弱性を修正 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1605/24/news054.html)
 - [オバマ大統領来広に向けてピリピリしてきたねえ - 電気ウナギ的○○](http://blog.netandfield.com/shar/2016/05/post-2530.html)
 - [電子書籍の未来を握るのはインディー系 - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2016/04/52669/)
-- [英米のEブックを支えている読者は誰？ « マガジン航[kɔː]](http://magazine-k.jp/2016/05/24/beyond-cool-japan-06/)
+- [英米のEブックを支えている読者は誰？ « マガジン航[kɔː]](https://magazine-k.jp/2016/05/24/beyond-cool-japan-06/)
 - [JAXA | X線天文衛星ASTRO-H「ひとみ」異常事象調査報告書等について](http://www.jaxa.jp/press/2016/05/20160524_hitomi_j.html)
 - [【レビュー】シンプルなUIが魅力。Aviraの無償VPN「Avira Phantom VPN」 - 窓の杜](http://www.forest.impress.co.jp/docs/review/20160524_758761.html)
 - [NEC、画像解析を用いた先進警備システムの実証実験--伊勢志摩サミットにあわせ - ZDNet Japan](http://japan.zdnet.com/article/35083050/)

@@ -75,7 +75,7 @@ $ cat meisai.csv | qq -ic -e cp932 -q "select 単価 from stdin where 品目 = '
 - [ASCII.jp：電子書籍読み放題の「Kindle Unlimited」が月額980円で日本でもスタート](http://ascii.jp/elem/000/001/205/1205073/)
 - [月額980円で読み放題　日本版「Kindle Unlimited」提供スタート　 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1608/03/news048.html)
 - [Kindle Unlimited開始でKindleダイレクト・パブリッシング（KDP）冬の時代が到来？ 出版社が優遇され過ぎ:見て歩く者 by 鷹野凌](http://www.wildhawkfield.com/2016/08/major-publishers-have-been-special-treatment-on-Kindle-Unlimited.html)
-- [キンドル・アンリミテッド登場は何を意味するか « マガジン航[kɔː]](http://magazine-k.jp/2014/07/30/kindle-unlimited/) ： 2014年の記事
+- [キンドル・アンリミテッド登場は何を意味するか « マガジン航[kɔː]](https://magazine-k.jp/2014/07/30/kindle-unlimited/) ： 2014年の記事
 
 実は [paperwhite]({{< ref "/remark/2016/07/kindle-paperwhite.md" >}} "今更 Kindle Paperwhite を買う") では以前から unlimited 対象の書籍が見えるようになっていて，そのラインナップのあまりのつまらなさに今回のニュースにもほとんど食指が動かなかった。
 

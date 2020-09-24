@@ -122,7 +122,7 @@ EC も同じこと。
 
 あとで個別に記事にするかもしれないが，とりあえずブックマークのみ。
 
-- [北海道のシャッター通りに本屋をつくる « マガジン航[kɔː]](http://magazine-k.jp/2016/03/02/little-bookstore-in-northern-street/)
+- [北海道のシャッター通りに本屋をつくる « マガジン航[kɔː]](https://magazine-k.jp/2016/03/02/little-bookstore-in-northern-street/)
 - [The Importance of Strong Encryption to Security - Schneier on Security](https://www.schneier.com/blog/archives/2016/02/the_importance_.html)
 - [「Ruby」をWindows環境へ簡単導入できる「Rumix 2」が更新。「Ruby 2.2」に対応 - 窓の杜](http://www.forest.impress.co.jp/docs/news/20160229_745961.html)
 - [「丸善＆ジュンク堂ネットストア」がネット書店「honto」に統合、hontoでも店舗取り置きサービスが利用可能に -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/20160301_746190.html)

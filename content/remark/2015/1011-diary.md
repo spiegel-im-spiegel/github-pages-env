@@ -17,11 +17,11 @@ title = "今日の戯れ言：TPP 大筋合意"
 
 ## TPP 大筋合意{#tpp}
 
-- [TPP大筋合意との報に際して « マガジン航](http://magazine-k.jp/2015/10/10/soramoyou-tpp/)
+- [TPP大筋合意との報に際して « マガジン航](https://magazine-k.jp/2015/10/10/soramoyou-tpp/)
 
 さてさて，困ったもんですね。
 
-{{< fig-quote title="TPP大筋合意との報に際して" link="http://magazine-k.jp/2015/10/10/soramoyou-tpp/" >}}
+{{< fig-quote title="TPP大筋合意との報に際して" link="https://magazine-k.jp/2015/10/10/soramoyou-tpp/" >}}
 <q>TPPに関して今後、条約の締結や国内法の整備などが進められていくことでしょう。とはいえそのなかで、ひとりひとりが粘り強く声を上げ、自分たちの文化がどうあるべきなのか、あきらめずに議論を続けることも必要です。<br>
 今ようやく芽生えてきたパブリックドメインによる豊かで多様な共有文化が損なわれないような、柔軟な著作権のあり方を切に望みます。</q>
 {{< /fig-quote >}}

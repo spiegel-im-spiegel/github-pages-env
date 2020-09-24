@@ -105,7 +105,7 @@ title = "2017-04-08 のブックマーク"
 - [Google、コンテナに最適化したオープンソースの「Container-Optimized OS」正式版をリリース。Chromium OSをベース － Publickey](http://www.publickey1.jp/blog/17/googlecontainer-optimized_oschromium_os.html)
 - [グーグル、独自のAI用チップ「TPU」は「CPUやGPUの15～30倍高速」 - CNET Japan](https://japan.cnet.com/article/35099335/)
 - [無料で使えるオンラインストレージと追加容量の値段 - 半地下備忘録](http://blog.0108note.com/entry/2017/04/06/090000)
-- [「言葉」と「現実」と「人間」の関係を結びなおすために〜「被災者の文学」という企投 « マガジン航[kɔː]](http://magazine-k.jp/2017/04/06/literature-after-disaster/)
+- [「言葉」と「現実」と「人間」の関係を結びなおすために〜「被災者の文学」という企投 « マガジン航[kɔː]](https://magazine-k.jp/2017/04/06/literature-after-disaster/)
 - [UIデザインにおけるボタン:スタイルの進化とベストプラクティス | デザイン | POSTD](http://postd.cc/buttons-in-ui-design-the-evolution-of-style-and-best-practices/)
 - [ニュース解説 - NTTデータ、TERASOLUNAを捨てる：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/14/346926/040400918/?rt=nocnt)
 - [ロシア「地下鉄爆破テロ」：イスラム系移民の「不満」も一因か：フォーサイト編集部 | ロシアの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42172)

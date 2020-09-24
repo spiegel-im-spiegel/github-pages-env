@@ -110,8 +110,8 @@ SKIPJACK 暗号も当時は強力と言われていたが，今や 80bits ぽっ
 
 [^c]: 漫画アプリとか一部は既にそうなってるけど。でもそれってもう「本」のメタファーから外れてる気はするけどね。
 
-- [北海道のシャッター通りに本屋をつくる « マガジン航[kɔː]](http://magazine-k.jp/2016/03/02/little-bookstore-in-northern-street/)
-- [アメリカのインディペンデント書店が強いわけ « マガジン航[kɔː]](http://magazine-k.jp/2016/03/17/beyond-cool-japan-04/)
+- [北海道のシャッター通りに本屋をつくる « マガジン航[kɔː]](https://magazine-k.jp/2016/03/02/little-bookstore-in-northern-street/)
+- [アメリカのインディペンデント書店が強いわけ « マガジン航[kɔː]](https://magazine-k.jp/2016/03/17/beyond-cool-japan-04/)
 
 ## その他の気になる記事{#other}
 

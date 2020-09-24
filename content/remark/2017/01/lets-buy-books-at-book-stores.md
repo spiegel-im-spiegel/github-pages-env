@@ -73,7 +73,7 @@ Eブックに期待がないのではなく君らがそれを測定しない（�
 
 ## ブックマーク
 
-- [英米のEブックを支えている読者は誰？ « マガジン航[kɔː]](http://magazine-k.jp/2016/05/24/beyond-cool-japan-06/)
+- [英米のEブックを支えている読者は誰？ « マガジン航[kɔː]](https://magazine-k.jp/2016/05/24/beyond-cool-japan-06/)
 - [さようなら、「電子書籍」｜WIRED.jp](http://wired.jp/2013/08/02/farewell-ebooks/)
 - [もう紙の本は買わない - 私のEブック管理法]({{< ref "/remark/2016/02/no-more-paper-books.md" >}})
 - [電子書籍という「熱さ」は喉元を過ぎた — Baldanders.info](https://baldanders.info/blog/000756/)

@@ -62,7 +62,7 @@ Facebook の広告はその辺の匙加減が比較的上手い印象だった�
 ## ブックマーク
 
 - [エフセキュアブログ : Facebookでターゲティング広告が表示されないようにするための3つの方法](http://blog.f-secure.jp/archives/50750076.html) : 3年前の記事なので取扱注意
-- [メディアは（常に）スパムか？ « マガジン航[kɔː]](http://magazine-k.jp/2016/01/25/spam-and-media/)
+- [メディアは（常に）スパムか？ « マガジン航[kɔː]](https://magazine-k.jp/2016/01/25/spam-and-media/)
 - [タイムラインの奴隷 - Spiegel's Branch - Scrapbox](https://scrapbox.io/spiegel-branch/%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%AE%E5%A5%B4%E9%9A%B7) 
 
 ## 参考図書
