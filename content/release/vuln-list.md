@@ -110,7 +110,8 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 | Official | Release    |                       Ubuntu | Release    |   Delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
-|   80.0.1 | 2020-09-01 |                              |            | ∞ days |
+|     81.0 | 2020-09-22 |                              |            | ∞ days |
+|   80.0.1 | 2020-09-01 | 80.0.1+build1-0 (USN-4474-2) | 2020-09-03 |  2 days |
 |     80.0 | 2020-08-25 |   80.0+build2-0 (USN-4474-1) | 2020-08-26 |   1 day |
 |     79.0 | 2020-07-28 |   79.0+build1-0 (USN-4443-1) | 2020-07-29 |   1 day |
 |   78.0.2 | 2020-07-09 | 78.0.2+build2-0 (USN-4423-1) | 2020-07-14 |  5 days |
@@ -124,6 +125,7 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 ### ブックマーク
 
+- [Firefox  81.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/81.0/releasenotes/)
 - [Firefox  80.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/80.0.1/releasenotes/)
 - [Firefox  80.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/80.0/releasenotes/)
 - [Firefox  79.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/79.0/releasenotes/)
@@ -144,7 +146,8 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 | Official | Release    |  Ubuntu | Release |   Delay |
 | --------:| ---------- | -------:| ------- | -------:|
-|   78.2.2 | 2020-09-10 |         |         | ∞ days |
+|   78.3.0 | 2020-09-24 |         |         | ∞ days |
+|   78.2.2 | 2020-09-10 | &mdash; | &mdash; | &mdash; |
 |   78.2.1 | 2020-08-29 | &mdash; | &mdash; | &mdash; |
 |   78.2.0 | 2020-08-25 | &mdash; | &mdash; | &mdash; |
 |   78.1.1 | 2020-08-06 | &mdash; | &mdash; | &mdash; |
@@ -164,6 +167,7 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (78.3.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.3.0/releasenotes/)
 - [Thunderbird — Release Notes (78.2.2) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.2.2/releasenotes/)
 - [Thunderbird — Release Notes (78.2.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.2.1/releasenotes/)
 - [Thunderbird — Release Notes (68.12.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.12.0/releasenotes/)
