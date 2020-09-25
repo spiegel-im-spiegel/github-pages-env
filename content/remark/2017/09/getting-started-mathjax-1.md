@@ -56,10 +56,10 @@ tags = [ "math", "tex", "mathjax", "javascript", "blog", "site" ]
 [MathJax] v3 の特定バージョンを指定するには以下のようにバージョンを明記する。
 
 ```html
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.5/es5/tex-mml-chtml.js"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
 ```
 
-なお 2020-04-09 時点の最新バージョンは 3.0.5 である。
+なお 2020-09-25 時点の最新バージョンは 3.1.2 である。
 
 [MathJax] v3 は，そのままでは IE (Internet Explorer) に対応していない。
 ただし IE11 に対応するのであれば，直前に1行足して
@@ -98,6 +98,39 @@ CDN から利用する場合，プロトコルは HTTPS のみで HTTP を明示
 | `mml-svg.js`        | 入力：MathML , 出力： SVG                             |
 
 MathML による入力は本記事では割愛する。
+
+{{< div-box type="markdown" >}}
+### 2020-09-25 追記
+
+[MathJax] を CDN から読み込む際に Chrome や Edge だと上手く行かないらしい。
+
+- [Texによる数式表現36～MathJax, KaTeXのトラブル - つれづれなる備忘録](https://atatat.hatenablog.com/entry/tex36_mathjax_err)
+- [Texによる数式表現37～MathJax, KaTeX表示トラブルの要因・解決 - つれづれなる備忘録](https://atatat.hatenablog.com/entry/tex37_katex_resolve)
+- [Texによる数式表現38～MathJaxの表示トラブル解決法 - つれづれなる備忘録](https://atatat.hatenablog.com/entry/tex38_mathjax_resolve)
+
+証明書云々ってこれのことかなぁ。
+
+- [9月1日から、398日間を超えるSSL/TLS証明書は信頼性を失うため要注意 | マイナビニュース](https://news.mynavi.jp/article/20200819-1233144/)
+- [2020年9月よりAppleがSSL証明書の有効期間を13か月に短縮！詳細や対策とは？ | さくらのSSL](https://ssl.sakura.ad.jp/column/safari-shortening/)
+
+でも別に期限切れてないし期間も1年なので問題ないよなぁ。
+むしろ `cdnjs.cloudflare.com` の証明書のほうが（今は問題ないが）将来的にヤバくね？ って感じなのだが（笑）
+
+実は自マシンでは既に Chrome を捨てていて（つか Ubuntu では Chrome は既定で入ってない）スマホかタブレットの Chrome で確認するしかないんだけど，そっちは問題なく見れてるんだよなぁ？
+
+対策としては，以下のように `cdnjs.cloudflare.com` で指定すればいいらしい。
+
+```html
+<script id="MathJax-script" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.1.2/es5/tex-mml-chtml.js"></script>
+```
+
+強いて言えば `cdn.jsdelivr.net` の証明書を発行しているのが Cloudflare 社の中間 CA ってとこだが，それってブラウザ側の証明書ストアの問題なんじゃ...
+
+まぁとにかく，現象が確認できない以上[本ブログ]では対応しないけど，見れない人が頻出するようなら考えます（笑）
+
+[本ブログ]: {{< rlnk "/" >}} "text.Baldanders.info"
+[MathJax]: https://www.mathjax.org/ "MathJax | Beautiful math in all browsers."
+{{< /div-box >}}
 
 ## [MathJax] のオプション {#options}
 
