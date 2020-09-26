@@ -11,11 +11,13 @@ pageType = "text"
   mermaidjs = false
 +++
 
-以前書いた
+1. [次期 Go 言語で導入される（かもしれない）総称型について予習する]({{< relref "./generics-in-go-2.md" >}})
+1. [次期 Go 言語で導入される総称型について予習する（その2）]({{< relref "./generics-in-go-2-update.md" >}}) ←イマココ
+1. [次期 Go 言語で導入される総称型について予習する（その3）]({{< relref "./generics-in-go-2-update-update.md" >}})
 
-- [次期 Go 言語で導入される（かもしれない）総称型について予習する]({{< relref "./generics-in-go-2.md" >}})
+----
 
-に関して，仕様が変わったらしい。
+以前書いた[記事]({{< relref "./generics-in-go-2.md" >}} "次期 Go 言語で導入される（かもしれない）総称型について予習する")に関して，仕様が変わったらしい。
 
 - [The Next Step for Generics - The Go Blog](https://blog.golang.org/generics-next-step)
 - [Type Parameters - Draft Design](https://go.googlesource.com/proposal/+/refs/heads/master/design/go2draft-type-parameters.md)

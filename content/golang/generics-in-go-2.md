@@ -10,6 +10,12 @@ tags = [ "golang", "language", "programming", "generics", "type", "contract" ]
   mermaidjs = false
 +++
 
+1. [次期 Go 言語で導入される（かもしれない）総称型について予習する]({{< relref "./generics-in-go-2.md" >}}) ←イマココ
+1. [次期 Go 言語で導入される総称型について予習する（その2）]({{< relref "./generics-in-go-2-update.md" >}})
+1. [次期 Go 言語で導入される総称型について予習する（その3）]({{< relref "./generics-in-go-2-update-update.md" >}})
+
+----
+
 2018年8月に次期 [Go 言語]で追加される（かもしれない）仕様についてアナウンスがあった。
 
 - [Go 2 Draft Designs - The Go Blog](https://blog.golang.org/go2draft)

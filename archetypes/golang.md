@@ -28,7 +28,6 @@ draft = true
 
 
 [Go]: https://golang.org/ "The Go Programming Language"
-[Go 言語]: https://golang.org/ "The Go Programming Language"
 
 ## 参考図書
 
