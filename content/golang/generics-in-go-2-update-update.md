@@ -5,7 +5,6 @@ description = "Go が総称型を得ることで更に独自に発展するこ�
 image = "/images/attention/go-logo_blue.png"
 tags = [ "golang", "language", "programming", "generics", "type", "constraint" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
