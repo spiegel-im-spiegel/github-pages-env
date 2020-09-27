@@ -1,23 +1,8 @@
 +++
 title = "「パスワードのベストプラクティス」が変わる"
 date =  "2017-10-16T19:21:02+09:00"
-update =  "2017-10-18T15:02:52+09:00"
 description = "Bruce Schneier 氏の「Changes in Password Best Practices」の内容が簡潔だったので「そのうち紹介しなくちゃ」と思っていたが，先を越されたっぽい感じなので，便乗記事として上げておく（笑）"
-tags        = [ "security", "authentication", "password", "risk", "management" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
+tags = [ "security", "authentication", "password", "risk", "management", "nist" ]
 
 [scripts]
   mathjax = true
@@ -145,9 +130,10 @@ I could tell you my pass phrase, but then I would have to kill you.
 ## ブックマーク
 
 - [NIST SP 800-63 Digital Identity Guidelines](https://pages.nist.gov/800-63-3/)
-
 - [崩れる「安全なパスワード」神話　否定される過去の基準、追従できない現場の課題 ｜ビジネス+IT](https://www.sbbit.jp/article/cont1/33969)
 - [あの「面倒なパスワード作成ルール」、作った人も後悔していた - ZDNet Japan](https://japan.zdnet.com/article/35105725/)
+
+- [Authenticator と AAL]({{< ref "/remark/2020/09/authenticator-and-aal.md" >}})
 
 [Changes in Password Best Practices]: https://www.schneier.com/blog/archives/2017/10/changes_in_pass.html "Changes in Password Best Practices - Schneier on Security"
 [やばいパスワード]: http://itpro.nikkeibp.co.jp/atcl/column/17/092800400/101200002/ "やばいパスワード - 複雑なパスワードを強制、でも破られやすいという現実：ITpro"
