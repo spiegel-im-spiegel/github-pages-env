@@ -135,4 +135,8 @@ Authenticator の分類を見れば分かるように，生体情報は単独で
 
 [SP 800-63-3]: https://pages.nist.gov/800-63-3/ "NIST SP 800-63 Digital Identity Guidelines"
 [SP 800-63B]: https://pages.nist.gov/800-63-3/sp800-63b.html "[NIST Special Publication 800-63B: Authentication and Lifecycle Management"
-<!-- eof -->
+
+## 参考図書
+
+{{% review-paapi "4822283100" %}} <!-- セキュリティはなぜやぶられたのか -->
+{{% review-paapi "4757143044" %}} <!-- 信頼と裏切りの社会 -->
