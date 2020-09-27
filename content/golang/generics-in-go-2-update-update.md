@@ -73,7 +73,7 @@ func Max[T ordered](x, y T) T {
 
 組込み済みの interface 型として `error` が定義されているように，組込み済みの制約（constraint）として `any` と `comparable` が追加されるようだ。
 
-`any` はあらゆる型に包摂される。
+`any` はあらゆる型を包摂する。
 むしろ「制約がない」ことを示す制約というべきか。
 強いて書くなら
 
