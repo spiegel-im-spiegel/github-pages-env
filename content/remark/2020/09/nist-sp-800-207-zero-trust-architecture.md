@@ -97,7 +97,9 @@ ZT を組み込むこと自体は，そう難しくないだろう。
 だからこそループを回して「改善」していかなければならないんだろうけど。
 Refactoring することを前提としたシステム設計が大事。
 
+## ブックマーク
 
+- [Lightning Q&A: DevSecOps in five with Maya Kaczorowski - The GitHub Blog](https://github.blog/2020-09-24-lightning-qa-devsecops-in-five-with-maya-kaczorowski/)
 
 [SP 800-207]: https://csrc.nist.gov/publications/detail/sp/800-207/final "SP 800-207, Zero Trust Architecture | CSRC"
 

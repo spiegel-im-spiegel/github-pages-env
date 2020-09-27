@@ -128,6 +128,7 @@ image = "/images/attention/go-logo_blue.png"
 - [Go 1.15 Release Notes - The Go Programming Language](https://golang.org/doc/go1.15)
     - [Go 1.15 リリースノート 日本語訳 - Qiita](https://qiita.com/c-yan/items/dad49c9dce27e77a94e7)
 - [Dive deep into Go 1.15 changes to testing package - Speaker Deck](https://speakerdeck.com/hgsgtk/dive-deep-into-go-1-dot-15-changes-to-testing-package)
+- [Go1.15 からのreflectパッケージの挙動の違いについて - 一寸先は/dev/null](https://nokute.hatenablog.com/entry/2020/08/14/112132)
 
 ### Go 2 Draft
 

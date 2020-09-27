@@ -133,6 +133,7 @@ Twitter で見かけたが某国営放送風テレビが「暗証番号を定期
 ## ブックマーク
 
 - [日本医師会、マルウェア「Emotet」の感染を公表--感染拡散メールに注意喚起 - ZDNet Japan](https://japan.zdnet.com/article/35159322/)
+- [Emotetのメール攻撃手法「スレッドハイジャック」のケーススタディ](https://unit42.paloaltonetworks.jp/emotet-thread-hijacking/)
 
 - [「Web 口振受付サービス」ってなんぞ？]({{< relref "./web-account-transfer.md" >}})
 
