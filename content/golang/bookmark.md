@@ -1,7 +1,7 @@
 +++
 title = "Go 言語に関するブックマーク"
 date = "2015-09-11T17:58:42+09:00"
-description = "本業が忙しくて Go 言語をかまってあげる暇がないのだが，ブックマークばっかり溜まっていくので，定期的に吐き出しておく。"
+description = "主に公式情報や書籍情報について纏めていくことにした。"
 tags = ["golang", "bookmark"]
 image = "/images/attention/go-logo_blue.png"
 
