@@ -34,47 +34,53 @@ import (
 
     "github.com/spiegel-im-spiegel/cov19data"
     "github.com/spiegel-im-spiegel/cov19data/client"
-    "github.com/spiegel-im-spiegel/cov19data/entity"
+    "github.com/spiegel-im-spiegel/cov19data/filter"
     "github.com/spiegel-im-spiegel/cov19data/histogram"
     "github.com/spiegel-im-spiegel/cov19data/values"
+    "github.com/spiegel-im-spiegel/errs"
 )
 
-func main() {
-    h, err := cov19data.MakeHistogramWHO(
-        client.Default(),
-        values.NewPeriod(
-            values.NewDate(2020, time.Month(8), 1),
-            values.Yesterday(),
-        ),
-        7, //step by 7 days
-        entity.WithCountryCode(values.CC_JP),
-        entity.WithRegionCode(values.WPRO),
-    )
+func getHist() ([]*histogram.HistData, error) {
+    impt, err := cov19data.NewWeb(client.Default())
     if err != nil {
-        fmt.Printf("%+v\n", err)
+        return nil, errs.Wrap(err)
+    }
+    defer impt.Close()
+    return impt.Histogram(
+        values.NewPeriod(
+            values.NewDate(2020, time.Month(9), 1),
+            values.NewDate(2020, time.Month(9), 28),
+        ),
+        7,
+        filter.WithCountryCode(values.CC_JP),
+        filter.WithRegionCode(values.WPRO),
+    )
+}
+
+func main() {
+    hist, err := getHist()
+    if err != nil {
+        fmt.Fprintf(os.Stderr, "%+v\n", err)
         return
     }
-
-    b, err := histogram.ExportHistCSV(h)
+    b, err := histogram.ExportCSV(hist)
     if err != nil {
-        fmt.Printf("%+v\n", err)
+        fmt.Fprintf(os.Stderr, "%v\n", err)
         return
     }
     if _, err := io.Copy(os.Stdout, bytes.NewReader(b)); err != nil {
-        fmt.Println()
+        fmt.Println(err)
     }
     // Output:
     // Date_from,Date_to,Cases,Deaths
-    // 2020-07-28,2020-08-03,8698,16
-    // 2020-08-04,2020-08-10,9303,35
-    // 2020-08-11,2020-08-17,7677,52
-    // 2020-08-18,2020-08-24,6840,82
-    // 2020-08-25,2020-08-31,5358,98
     // 2020-09-01,2020-09-07,3991,84
+    // 2020-09-08,2020-09-14,3801,79
+    // 2020-09-15,2020-09-21,3483,58
+    // 2020-09-22,2020-09-28,2991,48
 }
 ```
 
-てな感じに書けば，8月以降の日本のデータを7日ごとに集計できたりする。
+てな感じに書けば，9月の日本のデータを7日ごとに集計できたりする。
 
 このパッケージで集計したデータを使えば
 
