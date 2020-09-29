@@ -58,6 +58,12 @@ jobs:
           # only-new-issues: true
 ```
 
+また，リポジトリ直下の `.gitattributes` ファイルに以下の記述を追加する。
+
+```text
+*.go text eol=lf
+```
+
 これで pull request 時と `master` ブランチ[^br1] にバージョンタグを打った際に [golangci-lint] が走る。
 [golangci-lint] は `matrix` の組み合わせで並列処理されるようだ。
 
