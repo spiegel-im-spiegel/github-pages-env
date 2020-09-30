@@ -3,7 +3,7 @@ title = "golangci-lint を GitHub Actions で使う"
 date =  "2020-09-29T11:20:19+09:00"
 description = "これで pull request 時に golangci-lint が走る。"
 image = "/images/attention/go-logo_blue.png"
-tags = [ "golang", "lint", "programming", "engineering", "github" ]
+tags = [ "golang", "lint", "programming", "engineering", "github", "continuous-integration" ]
 pageType = "text"
 
 [scripts]
@@ -21,7 +21,7 @@ pageType = "text"
 - [golangci/golangci-lint-action: Official GitHub action for golangci-lint from it's authors](https://github.com/golangci/golangci-lint-action)
 
 使い方は簡単。
-リポジトリの `.github/workflows/` ディレクトリに YAML ファイル（例えば `golangci-lint.yml`）を置き，以下のように記述する。
+リポジトリの `.github/workflows/` ディレクトリに YAML ファイル（例えば `lint.yml`）を置き，以下のように記述する。
 
 ```yaml
 name: golangci-lint

@@ -3,7 +3,7 @@ title = "Go 依存パッケージの脆弱性検査"
 date =  "2020-09-30T12:49:21+09:00"
 description = "nancy を使うのがよさげである。"
 image = "/images/attention/go-logo_blue.png"
-tags = [ "security", "vulnerability", "risk", "management", "golang", "package", "module" ]
+tags = [ "security", "vulnerability", "risk", "management", "golang", "package", "module", "github", "continuous-integration" ]
 pageType = "text"
 
 [scripts]
