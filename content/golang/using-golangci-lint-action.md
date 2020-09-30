@@ -64,7 +64,7 @@ jobs:
 *.go text eol=lf
 ```
 
-これで pull request 時， `master` ブランチ[^br1] への push 時，およびバージョンタグを打った際に脆弱性 [golangci-lint] が走る。
+これで pull request 時， `master` ブランチ[^br1] への push 時，およびバージョンタグを打った際に [golangci-lint] が走る。
 [golangci-lint] は `matrix` の組み合わせで並列処理されるようだ。
 
 [^br1]: 2020年10月から [GitHub の新規リポジトリの既定ブランチ名が `main` になるらしい]({{< ref "/remark/2020/08/renaming-default-branch-name-in-github-repositries.md" >}} "GitHub リポジトリの既定ブランチ名が main になるらしい")。ご注意を。

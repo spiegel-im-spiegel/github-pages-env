@@ -50,7 +50,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-これでバージョンタグを打った際に [GoReleaser] によるクロス・コンパイル&デプロイが走る。
+これでバージョンタグを打った際に [GoReleaser] によるクロス・コンパイルとデプロイが走る。
 簡単！
 
 [Go]: https://golang.org/ "The Go Programming Language"
