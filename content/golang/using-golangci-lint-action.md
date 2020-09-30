@@ -12,9 +12,9 @@ pageType = "text"
 +++
 
 [golangci-lint] は `go vet` をはじめ複数の lint を集約して結果を表示してくれる優れものである。
-かつては GolangCI.com で GitHub と連携できていたのだが，[2020年4月でサービスが停止](https://medium.com/golangci/golangci-com-is-closing-d1fc1bd30e0e "GolangCI.com is closing. Dear customers of GolangCI.com, | by Denis Isaev | golangci | Medium")してしまい，寂しい限り。
+かつては GolangCI.com で [GitHub] と連携できていたのだが，[2020年4月でサービスが停止](https://medium.com/golangci/golangci-com-is-closing-d1fc1bd30e0e "GolangCI.com is closing. Dear customers of GolangCI.com, | by Denis Isaev | golangci | Medium")してしまい，寂しい限り。
 
-と思っていたのだが，いつの間にか公式の GitHub Actions が用意されていた。
+と思っていたのだが，いつの間にか公式の [GitHub] Actions が用意されていた。
 気付かなんだよ。
 不覚。
 
@@ -64,7 +64,7 @@ jobs:
 *.go text eol=lf
 ```
 
-これで pull request 時と `master` ブランチ[^br1] にバージョンタグを打った際に [golangci-lint] が走る。
+これで pull request 時， `master` ブランチ[^br1] への push 時，およびバージョンタグを打った際に脆弱性 [golangci-lint] が走る。
 [golangci-lint] は `matrix` の組み合わせで並列処理されるようだ。
 
 [^br1]: 2020年10月から [GitHub の新規リポジトリの既定ブランチ名が `main` になるらしい]({{< ref "/remark/2020/08/renaming-default-branch-name-in-github-repositries.md" >}} "GitHub リポジトリの既定ブランチ名が main になるらしい")。ご注意を。
@@ -80,11 +80,9 @@ jobs:
 - [golangci/golangci-lint: Fast linters Runner for Go](https://github.com/golangci/golangci-lint)
 - [golangci-lint に叱られる]({{< ref "/golang/donot-sleep-through-life.md" >}})
 
-
-
-
 [Go]: https://golang.org/ "The Go Programming Language"
 [golangci-lint]: https://golangci-lint.run/
+[GitHub]: https://github.com/
 
 ## 参考図書
 
