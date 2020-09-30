@@ -1,5 +1,5 @@
 module ephemeris
 
-go 1.14
+go 1.15
 
-require github.com/spiegel-im-spiegel/koyomi v0.1.4
+require github.com/spiegel-im-spiegel/koyomi v0.1.5

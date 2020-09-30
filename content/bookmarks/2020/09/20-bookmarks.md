@@ -36,6 +36,7 @@ pageType = "text"
     - [米国土安全保障省がWindowsの「緊急」レベル脆弱性に異例警告、深刻度最大のZerologon攻撃を受ける可能性  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/20/2020-09-19-homeland-security-emergency-alert-critical-windows-bug/)
     - [Windowsサーバーの脆弱性、米政府機関が緊急対応を通達  - PC Watch](https://pc.watch.impress.co.jp/docs/news/1278386.html)
     - [マイクロソフト、「Zerologon」脆弱性を悪用する攻撃確認 - ZDNet Japan](https://japan.zdnet.com/article/35160009/)
+    - [ドメインコントローラーがのっとられる脆弱性 Zerologon（CVE-2020-1472）についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/09/28/124522)
 - [エフセキュア、企業向けフィッシング攻撃の模擬演習サービスを提供 - ZDNet Japan](https://japan.zdnet.com/article/35159654/)
 - [「Node.js」の2020年9月セキュリティ更新 ～“Critical”1件を含む3件の脆弱性に対処 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1277378.html)
 - [中国のハッカーがMicrosoft Exchange Serverなどの脆弱性を利用してアメリカ政府を攻撃していたことが判明 - GIGAZINE](https://gigazine.net/news/20200915-hackers-china-targeting-microsoft-exchange/)
