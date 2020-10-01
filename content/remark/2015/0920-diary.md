@@ -1,28 +1,21 @@
 +++
-date = "2015-09-20T18:33:08+09:00"
-update = "2015-09-23T19:57:00+09:00"
-description = "仕事部屋が広くなった orz / 国勢調査を片付けた / Git for Windows 2.5.3"
-draft = false
-tags = ["book", "comic", "phishing", "git"]
 title = "今日の戯れ言：週末は掃除三昧"
+date = "2015-09-20T18:33:08+09:00"
+description = "仕事部屋が広くなった orz / 国勢調査を片付けた / Git for Windows 2.5.3"
+tags = ["book", "comic", "phishing", "git"]
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 世間ではシルバーウィークとかなんとか言うらしいですが，私には関わりのねぇこってござんす。
 
-## 仕事部屋が広くなった orz
+1. [仕事部屋が広くなった orz]({{< relref "#room" >}})
+1. [国勢調査を片付けた]({{< relref "#census" >}})
+1. [Git for Windows 2.5.3]({{< relref "#git" >}})
+
+## 仕事部屋が広くなった orz {#room}
 
 ついに実家の親から仕事（魔窟）部屋をかたせ，と命令が下りまして（他にも色々大変だったんだけど），泣く泣く本を手放した。
 
@@ -44,13 +37,13 @@ title = "今日の戯れ言：週末は掃除三昧"
 ラノベで紙の本で買ってたものは全て処分した。
 Kindle で買えるし。
 
-## 国勢調査を片付けた
+## 国勢調査を片付けた {#census}
 
 国勢調査の回答をネットで片付けた。
 
 - [国勢調査オンライン窓口 - 総務省統計局](http://www.e-kokusei.go.jp/)
 
-Symantic の証明書かぁ。
+Symantec の証明書かぁ。
 いや，まぁ，いいんだけどね。
 そういや，偽サイト作って怒られてた人いたな。
 
@@ -63,7 +56,7 @@ Symantic の証明書かぁ。
 幸い今回は調査員がマニュアルとアカウント情報を手渡しでくれるので（調査員が信用できるのなら）それほど問題ではないだろう。
 怪しい電子メールに書いてある URL や 検索サービスの検索結果に表示されているページをそのまま開くのでないなら，ね。
 
-## Git for Windows 2.5.3
+## Git for Windows 2.5.3 {#git}
 
 - [Release Git for Windows 2.5.3 · git-for-windows/git](https://github.com/git-for-windows/git/releases/tag/v2.5.3.windows.1)
 
