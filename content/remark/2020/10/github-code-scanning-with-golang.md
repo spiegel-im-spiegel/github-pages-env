@@ -108,8 +108,10 @@ jobs:
 ```
 
 [Go] コードの検査だけならこのままコミットしてしまって構わない。
-ちなみにコミットする場合は master に対してではなく pull request 用のブランチを作ってそこにコミットしたほうがよい。
+ちなみにコミットする場合は `master` ブランチ[^br1] に対してではなく pull request 用のブランチを作ってそこにコミットしたほうがよい。
 そうすれば PR 時に上記設定の action が走るので動作確認になるだろう。
+
+[^br1]: 2020年10月から [GitHub の新規リポジトリの既定ブランチ名が `main` になるらしい]({{< ref "/remark/2020/08/renaming-default-branch-name-in-github-repositries.md" >}} "GitHub リポジトリの既定ブランチ名が main になるらしい")。ご注意を。
 
 うん。
 簡単！
