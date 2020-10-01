@@ -26,7 +26,8 @@ Ruby などの一部のプログラミング言語では標準の疑似乱数生
 
 [spiegel-im-spiegel/mt] は [Mersenne Twister] のオリジナルコード（C/C++）を pure [Go] で書き直したものである。
 
-[![Build Status](https://travis-ci.org/spiegel-im-spiegel/mt.svg?branch=master)](https://travis-ci.org/spiegel-im-spiegel/mt)
+[![check vulns](https://github.com/spiegel-im-spiegel/mt/workflows/vulns/badge.svg)](https://github.com/spiegel-im-spiegel/mt/actions)
+[![lint status](https://github.com/spiegel-im-spiegel/mt/workflows/lint/badge.svg)](https://github.com/spiegel-im-spiegel/mt/actions)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/spiegel-im-spiegel/mt/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/spiegel-im-spiegel/mt.svg)](https://github.com/spiegel-im-spiegel/mt/releases/latest)
 
@@ -49,7 +50,7 @@ import (
     "github.com/spiegel-im-spiegel/mt/mt19937"
 )
 
-fmt.Println(mt19937.NewSource(19650218).Uint64())
+fmt.Println(mt19937.New(19650218).Uint64())
 //Output:
 //13735441942630277712
 ```
@@ -86,7 +87,7 @@ import (
     "github.com/spiegel-im-spiegel/mt/mt19937"
 )
 
-fmt.Println(rand.New(mt19937.NewSource(19650218)).Uint64())
+fmt.Println(rand.New(mt19937.New(19650218)).Uint64())
 //Output:
 //13735441942630277712
 ```
@@ -112,7 +113,7 @@ import (
 
 func main() {
 	wg := sync.WaitGroup{}
-    prng := mt.New(mt19937.NewSource(time.Now().UnixNano()))
+    prng := mt.New(mt19937.New(time.Now().UnixNano()))
 	for i := 0; i < 1000; i++ {
 		wg.Add(1)
 		go func() {
@@ -148,7 +149,7 @@ import (
 
 func main() {
 	wg := sync.WaitGroup{}
-	prng := mt.New(mt19937.NewSource(time.Now().UnixNano()))
+	prng := mt.New(mt19937.New(time.Now().UnixNano()))
 	for i := 0; i < 1000; i++ {
 		wg.Add(1)
 		go func() {
@@ -183,7 +184,6 @@ func main() {
 ご利用はお気軽に。
 
 [Go]: https://golang.org/ "The Go Programming Language"
-[Go 言語]: https://golang.org/ "The Go Programming Language"
 [math/rand]: https://golang.org/pkg/math/rand/ "rand - The Go Programming Language"
 [`rand`]: https://golang.org/pkg/math/rand/ "rand - The Go Programming Language"
 [`io`]: https://golang.org/pkg/io/ "io - The Go Programming Language"
