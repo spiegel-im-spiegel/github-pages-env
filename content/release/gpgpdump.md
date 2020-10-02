@@ -497,7 +497,5 @@ Signature Packet (tag 2) (94 bytes)
 ## 参考図書
 
 {{% review-paapi "4314009071" %}} <!-- 暗号化 プライバシーを救った反乱者たち -->
-
 {{% review-paapi "B015643CPE" %}} <!-- 暗号技術入門 第3版 -->
-
 {{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->

@@ -13350,5 +13350,48 @@
       false
     ],
     "Description": "あわれ仁吉よ，どこへ行く（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01MZ8UA8O",
+      "Title": "射手座☆午後九時Don't be late",
+      "URL": "https://www.amazon.co.jp/dp/B01MZ8UA8O?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/516hKjO3t-L._SL160_.jpg",
+        "Height": 141,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "シェリル・ノーム starring May'n",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "FlyingDog",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01MZ8UA8O"
+        }
+      ],
+      "PublicationDate": "2008-05-08",
+      "LastRelease": "2017-01-16",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-10-02",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "移動中に聴くとノリノリになれる（笑）"
   }
 ]
