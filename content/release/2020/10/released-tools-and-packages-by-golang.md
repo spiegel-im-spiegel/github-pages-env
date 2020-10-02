@@ -2,7 +2,7 @@
 title = "Go 製のツールとパッケージをまとめてアップデートした"
 date =  "2020-10-02T16:40:54+09:00"
 description = "Update gpgpdump, books-data, gnkf, pa-api, aozora-api, openbd-api, gocli, and errs packages"
-image = "/images/attention/tools.png"
+image = "/images/attention/go-logo_blue.png"
 tags  = [ "tools", "package", "golang", "books-data", "pa-api", "openbd-api", "aozora-api", "error", "gnkf", "cli", "gpgpdump" ]
 pageType = "text"
 
