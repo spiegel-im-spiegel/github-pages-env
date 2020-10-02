@@ -15,7 +15,8 @@ pageType = "text"
 
 本ツールは [PA-API], [openBD] および [青空文庫] API より書籍情報を取得・加工するための CLI (Command-Line Interface) ツールである。
 
-[![Build Status](https://travis-ci.org/spiegel-im-spiegel/books-data.svg?branch=master)](https://travis-ci.org/spiegel-im-spiegel/books-data)
+[![check vulns](https://github.com/spiegel-im-spiegel/books-data/workflows/vulns/badge.svg)](https://github.com/spiegel-im-spiegel/books-data/actions)
+[![lint status](https://github.com/spiegel-im-spiegel/books-data/workflows/lint/badge.svg)](https://github.com/spiegel-im-spiegel/books-data/actions)
 [![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/spiegel-im-spiegel/books-data/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/spiegel-im-spiegel/books-data.svg)](https://github.com/spiegel-im-spiegel/books-data/releases/latest)
 

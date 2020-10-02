@@ -23,7 +23,8 @@ pageType = "text"
 - 次期 [OpenPGP] ドラフト案である [RFC 4880bis] にも一部対応している
 - [HKP (HTTP Keyserver Protocol)][HKP] を用いて [OpenPGP] 鍵サーバから直接公開鍵を取得して検証できる
 
-[![Build Status](https://travis-ci.org/spiegel-im-spiegel/gpgpdump.svg?branch=master)](https://travis-ci.org/spiegel-im-spiegel/gpgpdump)
+[![check vulns](https://github.com/spiegel-im-spiegel/gpgpdump/workflows/vulns/badge.svg)](https://github.com/spiegel-im-spiegel/gpgpdump/actions)
+[![lint status](https://github.com/spiegel-im-spiegel/gpgpdump/workflows/lint/badge.svg)](https://github.com/spiegel-im-spiegel/gpgpdump/actions)
 [![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/spiegel-im-spiegel/gpgpdump/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/spiegel-im-spiegel/gpgpdump.svg)](https://github.com/spiegel-im-spiegel/gpgpdump/releases/latest)
 
