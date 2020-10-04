@@ -69,6 +69,7 @@ Blockchain で「取引」を追記するためには当事者の秘密鍵で電
 ## ブックマーク
 
 - [“Blockchain and Trust” by Bruce Schneier]({{< ref "/remark/2019/02/blockchain-and-trust-by-bruce-schneier.md" >}})
+- [公開鍵暗号の秘密鍵は絶対に渡してはならない（フリじゃないよ） | Zenn](https://zenn.dev/spiegel/articles/20200925-pubkey-and-seckey)
 
 ## 参考図書
 
