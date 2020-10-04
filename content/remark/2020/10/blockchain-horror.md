@@ -70,6 +70,6 @@ Blockchain で「取引」を追記するためには当事者の秘密鍵で電
 
 - [“Blockchain and Trust” by Bruce Schneier]({{< ref "/remark/2019/02/blockchain-and-trust-by-bruce-schneier.md" >}})
 
+## 参考図書
 
-[キャンペーン]: https://www.change.org/p/%E4%B8%80%E8%88%AC%E5%B8%82%E6%B0%91-%E7%A0%94%E7%A9%B6%E8%80%85-%E8%8F%85%E9%A6%96%E7%9B%B8%E3%81%AB%E6%97%A5%E6%9C%AC%E5%AD%A6%E8%A1%93%E4%BC%9A%E8%AD%B0%E4%BC%9A%E5%93%A1%E4%BB%BB%E5%91%BD%E6%8B%92%E5%90%A6%E3%81%AE%E6%92%A4%E5%9B%9E%E3%82%92%E6%B1%82%E3%82%81%E3%81%BE%E3%81%99 "キャンペーン · 菅首相に日本学術会議会員任命拒否の撤回を求めます！ · Change.org"
-<!-- eof -->
+{{% review-paapi "4757143044" %}} <!-- 信頼と裏切りの社会 -->
