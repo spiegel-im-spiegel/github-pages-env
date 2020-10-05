@@ -110,7 +110,9 @@ func main() {
 ## ブックマーク
 
 - [暦Wiki/季節/雑節とは？ - 国立天文台暦計算室](https://eco.mtk.nao.ac.jp/koyomi/wiki/B5A8C0E12FBBA8C0E1A4C8A4CFA1A9.html)
+- [中秋の名月（2020年10月） | 国立天文台(NAOJ)](https://www.nao.ac.jp/astro/sky/2020/10-topics01.html)
 - [火星最接近2020 | 国立天文台(NAOJ)](https://www.nao.ac.jp/astro/feature/mars2020/)
+    - [火星が地球に最接近（2020年10月） | 国立天文台(NAOJ)](https://www.nao.ac.jp/astro/sky/2020/10-topics02.html)
 
 - [2020年の主な暦象]({{< ref "/remark/2019/11/astronomical-calendar-2020.md" >}})
 - [日本の暦情報を取得するパッケージを作ってみた]({{< ref "/release/2020/05/koyomi.md" >}})

@@ -47,6 +47,7 @@ OpenJDK 64-Bit Server VM (build 15+36-1562, mixed mode, sharing)
 [OpenJDK] のリポジトリが GitHub に移行したそうだ。
 
 - [openjdk/jdk: JDK main-line development](https://github.com/openjdk/jdk)
+- [GitHub Welcomes the OpenJDK Project! - The GitHub Blog](https://github.blog/2020-09-30-github-welcomes-the-openjdk-project/)
 
 コード管理について，2019年の段階で Mercurial から git への移行が提案されていたらしい。
 その上で，自前での管理ではなく，外部のサービスを使うことにしたようだ。

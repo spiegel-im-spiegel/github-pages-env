@@ -151,6 +151,8 @@ Open Source に関する批判は色々見受けるが，要するに Open Sourc
 - [フリーソフトウェアとそれを取巻く世界の状況 (2007) – とりあえずノートがわりに書いてます](https://mynotebook.h2np.net/post/5666)
 - [Post-Open Source | boringcactus](https://www.boringcactus.com/2020/08/13/post-open-source.html)
     - [ブログ: ポスト・オープンソース](https://okuranagaimo.blogspot.com/2020/09/blog-post_13.html)
+- [オープンソースのパラドックス、そしてHeisenbugについて - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20201005/heisenbug)
+
 - [孵卵器の中のインターネット]({{< ref "/remark/2017/01/internet-in-the-incubator.md" >}})
 - [搾取と狂狷]({{< ref "/remark/2019/06/kyoken.md" >}})
 

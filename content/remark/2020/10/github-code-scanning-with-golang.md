@@ -13,8 +13,8 @@ pageType = "text"
 
 [GitHub] の Code Scanning 機能が全ユーザで有効になった。
 
+- [Github Code Scanning](https://iamninad.com/github-code-scanning/)
 - [Code scanning is now available! - The GitHub Blog](https://github.blog/2020-09-30-code-scanning-is-now-available/)
-- [GitHub、コードの脆弱性を検出する「Code Scanning」を全ユーザーに提供 - ZDNet Japan](https://japan.zdnet.com/article/35160321/)
 
 「えー。どうせ [Go 言語][Go]では使えないんでしょ？」と思ったが， C/C++, C#, [Go], Java, JavaScript/TypeScript, Python で有効らしい。
 というわけで，とりあえず手持ちの [Go] パッケージのリポジトリで試してみた。
@@ -118,8 +118,10 @@ jobs:
 
 ## ブックマーク
 
-- [Github Code Scanning](https://iamninad.com/github-code-scanning/)
 - [Workflow syntax for GitHub Actions - GitHub Docs](https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions#jobsjob_idstepsrun)
+- [GitHub、コードの脆弱性を検出する「Code Scanning」を全ユーザーに提供 - ZDNet Japan](https://japan.zdnet.com/article/35160321/)
+- [GitHub、コードの脆弱性などを発見してくれる「GitHub Code Scanning」正式版が提供開始。パブリックリポジトリには無料 － Publickey](https://www.publickey1.jp/blog/20/githubgithub_code_scanning.html)
+- [GitHub、開発者がセキュリティ脆弱性を発見するための支援機能「Code Scanning」 | マイナビニュース](https://news.mynavi.jp/article/20201002-1364892/)
 - [Go 依存パッケージの脆弱性検査]({{< ref "/golang/check-for-vulns-in-golang-dependencies.md" >}})
 
 [Go]: https://golang.org/ "The Go Programming Language"

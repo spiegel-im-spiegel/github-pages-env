@@ -194,6 +194,8 @@ func Equal(a, b []byte) bool { return string(a) == string(b) }
 
 ## ブックマーク
 
+- [第５回「プログラミング言語Go」オンライン読書会 - Mikke's blog](https://greentown.tokyo/programminglanguage-go5/)
+
 - [【改訂版】文字列連結はどれが速い？]({{< relref "./join-strings-2.md" >}})
 
 [Go]: https://golang.org/ "The Go Programming Language"
