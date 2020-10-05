@@ -128,6 +128,7 @@ tags = [ "book", "code", "internet", "generativity", "grigori", "surveillance-ca
 - [『もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来』が国会図書館に納本された - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20190609/openweb)
 - [サイゾー2019年8月号の『クロサカタツヤのネオ・ビジネス・マイニング』第67回になぜか登場 - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20190715/cyzo) : 本の宣伝を兼ねて出演されたらしい（笑）
 - [『もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来』最新版公開＆Kindle版公開！＆特別版（紙版）セール - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20200724/openweb)
+- [『もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来』の（今度こそおそらく）最終版を公開 - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20201005/openweb)
 
 [情報共有の未来]: https://www.yamdas.org/infoshare/ "『情報共有の未来』サポートページ"
 [続・情報共有の未来]: https://www.yamdas.org/infoshare2/ "『もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来』サポートページ"

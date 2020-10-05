@@ -44,6 +44,7 @@ Instagram の写真を [photo.Baldanders.info](https://photo.baldanders.info/) �
 ## ブックマーク
 
 - [『もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来』への反応 その19 - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20190311/openweb)
+- [『もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来』の（今度こそおそらく）最終版を公開 - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20201005/openweb)
 
 - [「荒れた農場の掘ったて小屋でがなりたてる、いかさま師の集団」へ]({{< ref "/remark/2017/09/congreso.md" >}})
 
