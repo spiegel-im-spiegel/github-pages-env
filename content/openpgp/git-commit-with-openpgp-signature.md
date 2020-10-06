@@ -77,14 +77,14 @@ Windows 環境以外でも [GnuPG] を classic version と stable/modern version
 `git commit` 時に OpenPGP 署名を付加したい場合は， version 2 以降なら，以下の設定で常時署名を行うようになる。
 
 ```text
-$ git config --global commit.gpgsign true
+$ git config --global commit.gpgSign true
 ```
 
 `.gitconfig` ファイルには以下の記述が追加される。
 
 ```ini
 [commit]
-    gpgsign = true
+    gpgSign = true
 ```
 
 この状態で逆に commit 時に署名を付加してほしくない場合は `--no-gpg-sign` オプションを付加すればいいようだ。
@@ -104,13 +104,44 @@ $ git tag -s -a v0.1.0
 ```
 
 とすればいい。
-同様に merge でも `-S` オプションを付けて
+または設定で
+
+```text
+$ git config --global tag.gpgSign true
+```
+
+とすれば設定ファイルに
+
+```ini
+[tag]
+	gpgSign = true
+```
+
+が追加され，既定で署名されるようになる。
+
+同じように merge でも  `-S` オプションを付けて
 
 ```text
 $ git merge -S branch
 ```
 
 でいいようだ。
+
+### Push にも 署名できるが...
+
+Push 時にも `--signed=true` で署名できるらしい。
+ただしこれはサービス側も対応している必要があり，サービス側が push 時の署名に対応してないと失敗する。
+
+相手が対応しているかどうかわからないときは `--signed=if-asked` とすればいいようだ。
+しかし [GitHub] は対応してないっぽいしなぁ...
+
+このオプションも
+
+```text
+$ git config --global push.gpgSign if-asked
+```
+
+のように既定値を設定できる。
 
 ## GitHub が OpenPGP 署名に対応した
 
