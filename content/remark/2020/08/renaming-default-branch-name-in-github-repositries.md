@@ -37,7 +37,9 @@ Twitter の TL で見かけたんだけどさ。
 
 ## Git リポジトリの既定ブランチ名を指定するには
 
-Git の設定で既定ブランチ名を変更するには，以下のコマンドラインで無問題。
+Git の設定で既定ブランチ名を変更するには，以下のコマンドラインで無問題[^git228]。
+
+[^git228]: 既定ブランチ名の指定は [git 2.28 から使える](https://github.blog/2020-07-27-highlights-from-git-2-28/ "Highlights from Git 2.28 - The GitHub Blog")ようだ。
 
 ```text
 $ git config --global init.defaultBranch foo
