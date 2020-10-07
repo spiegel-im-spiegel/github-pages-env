@@ -148,7 +148,8 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 | Official | Release    |  Ubuntu | Release |   Delay |
 | --------:| ---------- | -------:| ------- | -------:|
-|   78.3.1 | 2020-09-26 |         |         | ∞ days |
+|   78.3.2 | 2020-10-07 |         |         | ∞ days |
+|   78.3.1 | 2020-09-26 | &mdash; | &mdash; | &mdash; |
 |   78.3.0 | 2020-09-24 | &mdash; | &mdash; | &mdash; |
 |   78.2.2 | 2020-09-10 | &mdash; | &mdash; | &mdash; |
 |   78.2.1 | 2020-08-29 | &mdash; | &mdash; | &mdash; |
@@ -170,6 +171,7 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (78.3.2) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.3.2/releasenotes/)
 - [Thunderbird — Release Notes (78.3.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.3.1/releasenotes/)
 - [Thunderbird — Release Notes (78.3.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.3.0/releasenotes/)
 - [Thunderbird — Release Notes (78.2.2) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.2.2/releasenotes/)
