@@ -6,44 +6,44 @@ import (
 	"io"
 	"os"
 
-	cvssv3 "github.com/spiegel-im-spiegel/go-cvss/v3"
+	"github.com/spiegel-im-spiegel/go-cvss/v3/metric"
+	"github.com/spiegel-im-spiegel/go-cvss/v3/report"
 	"golang.org/x/text/language"
 )
 
+var template = "- `{{ .Vector }}`" + `
+- {{ .SeverityName }}: {{ .SeverityValue }} (Score: {{ .BaseScore }})
+
+| {{ .BaseMetrics }} | {{ .BaseMetricValue }} |
+|--------|-------|
+| {{ .AVName }} | {{ .AVValue }} |
+| {{ .ACName }} | {{ .ACValue }} |
+| {{ .PRName }} | {{ .PRValue }} |
+| {{ .UIName }} | {{ .UIValue }} |
+| {{ .SName }} | {{ .SValue }} |
+| {{ .CName }} | {{ .CValue }} |
+| {{ .IName }} | {{ .IValue }} |
+| {{ .AName }} | {{ .AValue }} |
+`
+
 func main() {
-	tf := flag.String("t", "./cvss.md", "template file")
 	flag.Parse()
-	if flag.NArg() != 1 {
-		fmt.Fprintln(os.Stderr, os.ErrInvalid)
+	if flag.NArg() < 1 {
+		fmt.Fprintln(os.Stderr, "Set CVSS vector")
 		return
 	}
-	vector := flag.Arg(0)
-	var tr io.Reader
-	if len(*tf) > 0 {
-		file, err := os.Open(*tf)
-		if err != nil {
-			fmt.Fprintln(os.Stderr, err)
-			return
-		}
-		defer file.Close()
-		tr = file
-	}
-
-	m := cvssv3.New()
-	if err := m.ImportBaseVector(vector); err != nil {
-		fmt.Fprintln(os.Stderr, err)
+	bm, err := metric.NewBase().Decode(flag.Arg(0))
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "%+v\n", err)
 		return
 	}
-	severity := m.Base.GetSeverity()
-	lang := language.Japanese
-	fmt.Printf("%s: %v (%.1f)\n\n", severity.Title(lang), severity.NameOfValue(lang), m.Base.Score())
-
-	if r, err := m.Base.Report(tr, lang); err != nil {
-		fmt.Fprintln(os.Stderr, err)
-	} else {
-		if _, err := io.Copy(os.Stdout, r); err != nil {
-			fmt.Fprintln(os.Stderr, err)
-		}
+	r, err := report.NewBase(bm, report.WithOptionsLanguage(language.Japanese)).ExportWithString(template)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "%+v\n", err)
+		return
+	}
+	if _, err := io.Copy(os.Stdout, r); err != nil {
+		fmt.Fprintf(os.Stderr, "%+v\n", err)
 	}
 }
 
