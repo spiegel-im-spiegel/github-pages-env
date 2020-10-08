@@ -467,7 +467,7 @@ RDFa を使って Web ページにメタデータを埋め込む方法につい�
 [CC Licenses] ではマテリアルの再配布[^j] を行う際にライセンスの再許諾（sublicense）を許可していない。
 再配布されたマテリアルにも自動的に元のライセンスが付与される。
 
-{{< fig-img src="./non-sublicense.svg" title="再配布と許諾の関係" link="./non-sublicense.svg" width="567" >}}
+{{< fig-img class="lightmode" src="./non-sublicense.svg" title="再配布と許諾の関係" link="./non-sublicense.svg" width="567" >}}
 
 これは，たとえばマテリアルを著作（権）者ではない出版者（社）などが配布する際に勝手にライセンスを変えたり [CC Licenses] にない制限を加えたりしてはいけないという意味である。
 これにはいわゆる「技術的保護手段」も含まれる[^d]。
