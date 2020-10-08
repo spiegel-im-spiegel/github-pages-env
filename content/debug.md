@@ -126,20 +126,60 @@ classDiagram
     fennec : +Haiyo()
 {{< /fig-mermaid >}}
 
-### アイコン
+## アイコン
 
-CC Licenses : {{< cc-syms "cc" "pd" "zero" "by" "sa" "nc" "nc-jp" "nc-eu" "nd" >}}
+### CC Licenses
 
-{{< div-gen class="fa-4x" >}}
-{{< cc-syms "cc" "by" >}}
-{{< /div-gen >}}
+| コードと表示                                                               |
+| -------------------------------------------------------------------------- |
+| `{{</* cc-syms "cc" "pd" "zero" "by" "sa" "nc" "nc-jp" "nc-eu" "nd" */>}}` |
+| {{< cc-syms "cc" "pd" "zero" "by" "sa" "nc" "nc-jp" "nc-eu" "nd" >}}       |
 
-{{< div-gen class="fa-4x" >}}
-{{< cc-syms "cc" "by" "sa" >}}
-{{< /div-gen >}}
+### 各種サービス
 
-各種サービス : {{< icons "github" "twitter" "twitter-sq" "medium" "tumblr" "instagram" "flickr" "facebook" "facebook-sq" "linkedin" "pocket" >}}
+| コードと表示 |
+| ------------ |
+| `{{</* icons "github" "twitter" "twitter-sq" "medium" "tumblr" "instagram" "flickr" "facebook" "facebook-sq" "linkedin" "pocket" */>}}` |
+| {{< icons "github" "twitter" "twitter-sq" "medium" "tumblr" "instagram" "flickr" "facebook" "facebook-sq" "linkedin" "pocket" >}} |
 
-汎用 : {{< icons "check" "rss" "share" "email" "pdf" "css3" "erlang" "html5" "java" "nodejs" "php" "python" "rust" "swift" >}}
+### 汎用
+
+| コードと表示                                                                                                                  |
+| ----------------------------------------------------------------------------------------------------------------------------- |
+| `{{</* icons "check" "rss" "share" "email" "pdf" "css3" "erlang" "html5" "java" "nodejs" "php" "python" "rust" "swift" */>}}` |
+| {{< icons "check" "rss" "share" "email" "pdf" "css3" "erlang" "html5" "java" "nodejs" "php" "python" "rust" "swift" >}}       |
+
+
+### 拡大
+
+|                                  コードと表示                                  |
+|:------------------------------------------------------------------------------:|
+| `{{</* span class="fa-4x" */>}}{{</* cc-syms "cc" "by" */>}}{{</* /span */>}}` |
+|        {{< span class="fa-4x" >}}{{< cc-syms "cc" "by" >}}{{< /span >}}        |
+
+### 絵文字
+
+|            字形            | Short Code                       |
+|:--------------------------:| -------------------------------- |
+|   {{< emoji "ゴメン" >}}   | `{{</* emoji "ゴメン" */>}}`     |
+|   {{< emoji "ふむむ" >}}   | `{{</* emoji "ふむむ" */>}}`     |
+|  {{< emoji "おやすみ" >}}  | `{{</* emoji "おやすみ" */>}}`   |
+|    {{< emoji "おこ" >}}    | `{{</* emoji "おこ" */>}}`       |
+|  {{< emoji "まじすか" >}}  | `{{</* emoji "まじすか" */>}}`   |
+|   {{< emoji "はぁと" >}}   | `{{</* emoji "はぁと" */>}}`     |
+|     {{< emoji "星" >}}     | `{{</* emoji "星" */>}}`         |
+|    {{< emoji "電球" >}}    | `{{</* emoji "電球" */>}}`       |
+|    {{< emoji "音符" >}}    | `{{</* emoji "音符" */>}}`       |
+| {{< emoji "キーボード" >}} | `{{</* emoji "キーボード" */>}}` |
+|  {{< emoji "はなまる" >}}  | `{{</* emoji "はなまる" */>}}`   |
+|  {{< emoji "錠前と鍵" >}}  | `{{</* emoji "錠前と鍵" */>}}`   |
+
+| サイズ | コード |
+|:------:| ------ |
+| {{< span class="mini" >}}{{< emoji "電球" >}}{{< /span >}} | `{{</* span class="mini" */>}}{{</* emoji "電球" */>}}{{</* /span */>}}` |
+| {{< span class="smaller" >}}{{< emoji "電球" >}}{{< /span >}} | `{{</* span class="smaller" */>}}{{</* emoji "電球" */>}}{{</* /span */>}}` |
+| {{< emoji "電球" >}} | `{{</* emoji "電球" */>}}` |
+| {{< span class="larger" >}}{{< emoji "電球" >}}{{< /span >}} | `{{</* span class="larger" */>}}{{</* emoji "電球" */>}}{{</* /span */>}}` |
+| {{< span class="huge" >}}{{< emoji "電球" >}}{{< /span >}} | `{{</* span class="huge" */>}}{{</* emoji "電球" */>}}{{</* /span */>}}` |
 
 <!-- end of file -->
