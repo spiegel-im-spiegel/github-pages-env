@@ -1,7 +1,7 @@
 +++
 title = "えんやらやっと go-cvss パッケージ v0.4.0 をリリースした"
 date =  "2020-10-07T16:48:21+09:00"
-description = "PR もらっていったんリリースしたのだが，アレなコードでマジすんません 🙇 ということで書き直した。"
+description = "PR もらっていったんリリースしたのだが，アレなコードでマジすんません，ということで書き直した。"
 image = "/images/attention/go-logo_blue.png"
 tags  = [ "package", "module", "golang", "cvss" ]
 pageType = "text"
@@ -13,7 +13,7 @@ pageType = "text"
 
 絶賛放置プレイ中の [spiegel-im-spiegel/go-cvss] パッケージだが，どうも使っていただいてる方がいて「Temporal Metrics は実装しないの？」と言われ「PR くれるならマージするよ」と下手くそな英語で返したのだが，本当に PR をくださって恐縮です。
 
-で，まぁ，ありがたくマージしていったん [v0.3.0 をリリース](https://github.com/spiegel-im-spiegel/go-cvss/releases/tag/v0.3.0)したのだが，なんせベースのコードが場当たりなやっつけコードなので，マジすんません 🙇 て感じ。
+で，まぁ，ありがたくマージしていったん [v0.3.0 をリリース](https://github.com/spiegel-im-spiegel/go-cvss/releases/tag/v0.3.0)したのだが，なんせベースのコードが場当たりなやっつけコードなので，マジすんません {{% emoji "ゴメン" %}} て感じ。
 
 そこで，一念発起してちゃんと書き直すことにした。
 もっとも，コード自体はほとんど使いまわしで構成を変えただけなんだけどね。
