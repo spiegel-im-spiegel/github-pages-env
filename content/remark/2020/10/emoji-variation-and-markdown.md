@@ -3,7 +3,7 @@ title = "絵文字と異体字と Markdown"
 date =  "2020-10-08T16:22:55+09:00"
 description = "Hugo の markdown で絵文字を簡単に表示する。"
 image = "/images/attention/kitten.jpg"
-tags = [ "character", "unicode", "markdown", "hugo" ]
+tags = [ "character", "unicode", "markdown", "hugo", "font" ]
 pageType = "text"
 
 [scripts]
@@ -126,6 +126,40 @@ ZERO WIDTH JOINER (ゼロ幅接合子; ZWJ) はアラビア文字なんかで複
 |  {{< span class="larger" >}}{{< emoji "錠前と鍵" >}}{{< /span >}}  | `{{</* emoji "錠前と鍵" */>}}`   | locked with key |
 
 てな感じで定義している。
+
+## 【2020-10-09 追記】 絵文字のフォント指定
+
+絵文字に関しては [Google Fonts](https://fonts.google.com/) みたいなメジャーな Web フォントはないっぽいので各自ローカル環境のフォントをあてにするしかないんだけど（もう自前で Web フォントを用意したくない），これに関して [Unicode 本家サイト](https://unicode.org/emoji/charts/full-emoji-list.html "Full Emoji List")で
+
+```css
+.chars, .charsSmall {
+    text-decoration: none;
+    color: #ccc;
+    font-family: "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji",
+        Times, Symbola, Aegyptus, Code2000, Code2001, Code2002, Musica, serif,
+        LastResort;
+    font-variant-emoji: emoji;
+}
+```
+
+みたいな記述があったので，ありがたくパクらせていただくことにした（笑） すなわち
+
+```css
+abbr.emoji-chars {
+  text-decoration: none;
+  font-family: "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", Times, Symbola, Aegyptus, Code2000, Code2001, Code2002, Musica, serif, LastResort;
+  font-variant-emoji: emoji;
+}
+```
+
+と定義して
+
+```html
+<abbr class="emoji-chars" title=":zzz:">💤</abbr>
+```
+
+となるよう shortcode を書き直せばいいわけだ。
+当面はこれで。
 
 ## ブックマーク
 
