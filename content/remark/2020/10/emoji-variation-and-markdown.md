@@ -55,7 +55,7 @@ enableEmoji = true
 | {{< span class="larger" >}}{{< emoji ":closed_lock_with_key:" >}}{{< /span >}} | `:closed_lock_with_key:` | locked with key |
 
 さて，皆さんの環境ではどう見えているでしょうか。
-このサイトでは絵文字フォント指定についてはノータッチなので人によって見え方が異なると思います。 
+人によって見え方が異なると思います（絵文字のフォント指定については[後述]({{< relref "#fonts" >}})）。
 
 ところで，上に挙げた `:bow:` ってどう見えてます？ 実は {{< span >}}&#x1f647;&#x2642;{{< /span >}} ってな感じの2文字に見えてません？ うちでは `:bow:` から変換した絵文字をターミナル・エミュレータとかにコピペすると，こうなるんですよ。
 
@@ -127,7 +127,7 @@ ZERO WIDTH JOINER (ゼロ幅接合子; ZWJ) はアラビア文字なんかで複
 
 てな感じで定義している。
 
-## 【2020-10-09 追記】 絵文字のフォント指定
+## 【2020-10-09 追記】 絵文字のフォント指定 {#fonts}
 
 絵文字に関しては [Google Fonts](https://fonts.google.com/) みたいなメジャーな Web フォントはないっぽいので各自ローカル環境のフォントをあてにするしかないんだけど（もう自前で Web フォントを用意したくない），これに関して [Unicode 本家サイト](https://unicode.org/emoji/charts/full-emoji-list.html "Full Emoji List")で
 
