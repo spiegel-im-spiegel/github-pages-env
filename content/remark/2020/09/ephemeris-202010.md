@@ -113,6 +113,7 @@ func main() {
 - [中秋の名月（2020年10月） | 国立天文台(NAOJ)](https://www.nao.ac.jp/astro/sky/2020/10-topics01.html)
 - [火星最接近2020 | 国立天文台(NAOJ)](https://www.nao.ac.jp/astro/feature/mars2020/)
     - [火星が地球に最接近（2020年10月） | 国立天文台(NAOJ)](https://www.nao.ac.jp/astro/sky/2020/10-topics02.html)
+- [Mars Week 3 - 火星観測週間 2020](http://planetary.jp/marsweek/)
 
 - [2020年の主な暦象]({{< ref "/remark/2019/11/astronomical-calendar-2020.md" >}})
 - [日本の暦情報を取得するパッケージを作ってみた]({{< ref "/release/2020/05/koyomi.md" >}})

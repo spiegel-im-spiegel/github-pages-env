@@ -78,6 +78,8 @@ jobs:
 ## ブックマーク
 
 - [golangci/golangci-lint: Fast linters Runner for Go](https://github.com/golangci/golangci-lint)
+- [reviewdog-golangci-lint を使う](https://zenn.dev/ikawaha/articles/57384e8fc69c7b057f7f)
+
 - [golangci-lint に叱られる]({{< ref "/golang/donot-sleep-through-life.md" >}})
 
 [Go]: https://golang.org/ "The Go Programming Language"

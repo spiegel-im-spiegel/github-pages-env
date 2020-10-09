@@ -53,6 +53,11 @@ jobs:
 これでバージョンタグを打った際に [GoReleaser] によるクロス・コンパイルとデプロイが走る。
 簡単！
 
+## ブックマーク
+
+- [Go で書いた CLI ツールのリリースは GoReleaser と GitHub Actions で個人的には決まり | tellme.tokyo](https://tellme.tokyo/post/2020/02/04/release-go-cli-tool/)
+- [goreleaserとGitHub Actionsを使えばGoのCLIはgit tagをpushするだけでGitHubとHomeBrewに自動リリースできる - My External Storage](https://budougumi0617.github.io/2020/10/07/auto_release_by_goreleaser/)
+
 [Go]: https://golang.org/ "The Go Programming Language"
 [GoReleaser]: https://goreleaser.com/ "GoReleaser | Deliver Go binaries as fast and easily as possible"
 [GitHub]: https://github.com/ "GitHub"
