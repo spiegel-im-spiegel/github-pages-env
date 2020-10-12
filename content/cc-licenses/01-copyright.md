@@ -381,4 +381,4 @@ tags = ["code", "law", "intellectual-property", "copyright"]
 {{% review-paapi "4757102852" %}} <!-- 著作権２．０ ウェブ時代の文化発展をめざして -->
 {{% review-paapi "4622073455" %}} <!-- 〈海賊版〉の思想‐18世紀英国の永久コピーライト闘争 -->
 {{% review-paapi "B00SM7G6SI" %}} <!-- 18歳の著作権入門 -->
-{{% review-paapi "4641144699" %}} <!-- 著作権法 第2版 -->
+{{% review-paapi "4641243336" %}} <!-- 著作権法 第3版 -->
