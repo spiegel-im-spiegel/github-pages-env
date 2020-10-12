@@ -216,6 +216,7 @@ tags = ["derivative-works", "creative-commons", "copyright", "license", "tpp"]
 - [Creative Commons — State of the Commons 2015 — It's been a remarkable year, most notably for the more than 1.1 billion works under one of the CC licenses, CC0, or the public domain mark.](https://stateof.creativecommons.org/2015/)
 - [TPPで“違法ダウンロード”適用拡大も、文化庁の審議会で再び検討か -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/20151111_730105.html)
 - [Trans-Pacific Partnership Would Harm User Rights and the Commons - Creative Commons - Creative Commons](https://creativecommons.org/campaigns/trans-pacific-partnership-would-harm-user-rights-and-the-commons/)
+- [知財高裁でBL同人作品の無断コピーは著作権侵害という当たり前の判決(栗原潔) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/kuriharakiyoshi/20201008-00201963/) : 後半の「キャラクタの二次的著作物」の権利関係は参考になる
 
 [本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
 [著作権法]: https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048 "著作権法"

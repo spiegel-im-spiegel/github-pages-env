@@ -13393,5 +13393,107 @@
       false
     ],
     "Description": "移動中に聴くとノリノリになれる（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4750515183",
+      "Title": "性表現規制の文化史",
+      "URL": "https://www.amazon.co.jp/dp/4750515183?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51guEQ4nFvL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "白田 秀彰",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "亜紀書房",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4750515183"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784750515182"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4750515183"
+        }
+      ],
+      "PublicationDate": "2017-07-20",
+      "LastRelease": "2017-07-20",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2017-10-13",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "しまった！積ん読状態のまま引っ越しのドサクサで処分しちゃってるよ。読み直さないと。図書館に置いてないかな。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4641243336",
+      "Title": "著作権法 第3版",
+      "URL": "https://www.amazon.co.jp/dp/4641243336?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51LanI5bgAL._SL160_.jpg",
+        "Height": 160,
+        "Width": 117
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "中山 信弘",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "有斐閣",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4641243336"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784641243330"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4641243336"
+        }
+      ],
+      "PublicationDate": "2020-09-04",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-10-12",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "第3版が出てた。第2版は図書館で借りて読んだが，途中でギブアップした。個人が興味本位で読める本ではないらしい（笑）"
   }
 ]
