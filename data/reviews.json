@@ -13495,5 +13495,67 @@
       false
     ],
     "Description": "第3版が出てた。第2版は図書館で借りて読んだが，途中でギブアップした。個人が興味本位で読める本ではないらしい（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00WAMAKZQ",
+      "Title": "コマンドー (吹替版)",
+      "URL": "https://www.amazon.co.jp/dp/B00WAMAKZQ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61gih7I7ztL._SL160_.jpg",
+        "Height": 160,
+        "Width": 120
+      },
+      "ProductType": "Prime Video",
+      "Creators": [
+        {
+          "Name": "アーノルド・シュワルツェネッガー",
+          "Role": "出演"
+        },
+        {
+          "Name": "アリッサ・ミラノ",
+          "Role": "出演"
+        },
+        {
+          "Name": "ダン・ヘダヤ",
+          "Role": "出演"
+        },
+        {
+          "Name": "レイ・ドーン・チョン",
+          "Role": "出演"
+        },
+        {
+          "Name": "マーク・L・レスター",
+          "Role": "監督"
+        },
+        {
+          "Name": "スティーブン・E・デ・スーザ",
+          "Role": "Writer"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00WAMAKZQ"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2015-04-24",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-10-13",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "あらゆる障害を筋肉で粉砕する！ 脳みそをカラッぽにして見れる作品。"
   }
 ]
