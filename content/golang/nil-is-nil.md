@@ -11,6 +11,16 @@ pageType = "text"
   mermaidjs = false
 +++
 
+{{< div-box type="markdown" >}}
+**【2020-10-15 追記】**
+最近 [Zenn](https://zenn.dev/ "Zenn｜プログラマーのための情報共有コミュニティ") で以下の記事を書いたので，こちらも併せてどうぞ。
+
+- [nil == nil でないとき（または Go プログラマは息をするように依存を注入する）](https://zenn.dev/spiegel/articles/20201010-ni-is-not-nil)
+
+Interface 型の `nil` 値は「依存の注入（dependency injection）」と絡めて考えると分かりやすいかも知れない。
+宣伝でした（笑）
+{{< /div-box >}}
+
 Qiita を覗いてたら
 
 - [Goのnilは(nil, nil)という(型, 値)ペアのインターフェースだと把握すれば混乱しない - Qiita](https://qiita.com/momotaro98/items/ee2aea840017266e659d)
@@ -85,7 +95,7 @@ if !(err is nil) {
 
 [^eq1]: slice 型と map 型については [`reflect`]`.DeepEqual()` 関数で `nil` 以外のオブジェクトと比較可能である。
 
-## interface 型は，型と値への参照を属性に持つ
+## Interface 型は，型と値への参照を属性に持つ
 
 まずは，以下の簡単なコードを考えてみる。
 
