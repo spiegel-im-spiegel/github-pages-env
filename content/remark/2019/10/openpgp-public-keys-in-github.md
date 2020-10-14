@@ -13,8 +13,8 @@ pageType = "text"
 
 {{< div-box type="markdown" >}}
 **【2020-10-14】**
-同じ話を Zenn で書いてしまった。
-併せてどうぞ orz
+同じ話を [Zenn](https://zenn.dev/ "Zenn｜プログラマーのための情報共有コミュニティ") で書いてしまった。
+併せてどうぞ `orz`
 
 - [GitHub に登録した OpenPGP 公開鍵を取り出す](https://zenn.dev/spiegel/articles/20201014-openpgp-pubkey-in-github)
 {{< /div-box >}}
