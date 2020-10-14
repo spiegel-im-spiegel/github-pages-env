@@ -11,6 +11,14 @@ pageType = "text"
   mermaidjs = false
 +++
 
+{{< div-box type="markdown" >}}
+**【2020-10-14】**
+同じ話を Zenn で書いてしまった。
+併せてどうぞ orz
+
+- [GitHub に登録した OpenPGP 公開鍵を取り出す](https://zenn.dev/spiegel/articles/20201014-openpgp-pubkey-in-github)
+{{< /div-box >}}
+
 ネットで見かけた小ネタで（笑）
 
 [GitHub] の git リポジトリにアクセスする際に使う [SSH 公開鍵を取得する方法](https://qiita.com/zackey2/items/429c77e5780ba8bc1bf9 "もう「公開鍵送ってください」というやり取りは不要だった - Qiita")は割と知られているようだが
