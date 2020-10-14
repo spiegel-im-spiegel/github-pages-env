@@ -53,6 +53,10 @@ Hello World
 
 [gnkf]: https://github.com/spiegel-im-spiegel/gnkf "spiegel-im-spiegel/gnkf: Network Kanji Filter by Golang"
 
+## ブックマーク
+
+- [GNKF: Network Kanji Filter by Golang]({{< ref "/release/gnkf.md" >}})
+
 ## 参考図書
 
 {{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
