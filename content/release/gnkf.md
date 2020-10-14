@@ -3,7 +3,7 @@ title = "GNKF: Network Kanji Filter by Golang"
 date =  "2020-07-30T22:41:38+09:00"
 description = "昔からある nkf コマンドの劣化コピー版と思っていただければ概ね間違いない（笑）"
 image = "/images/attention/go-logo_blue.png"
-tags  = [ "tools", "gnkf", "golang", "character", "encoding", "unicode", "normalization" ]
+tags  = [ "tools", "gnkf", "golang", "character", "encoding", "unicode", "normalization", "base64" ]
 pageType = "text"
 
 [scripts]
@@ -29,6 +29,7 @@ pageType = "text"
 - `norm`: [Unicode 正規化]({{< relref "#norm" >}})
 - `width`: [全角・半角変換]({{< relref "#width" >}})
 - `kana`: [かなカナ変換]({{< relref "#kana" >}})
+- `base64`; [BASE64 符号化]({{< relref "#base64" >}})
 - `dump`: [16進ダンプ]({{< relref "#dump" >}})
 
 以降からもう少し詳しく紹介する。
@@ -282,6 +283,43 @@ $ echo ニッポン | gnkf k -c chokuon
 ```
 
 半角カナも変換可能。
+
+## BASE64 符号化{#base64}
+
+```text
+$ gnkf base64 -h
+Encode/Decode BASE64.
+
+Usage:
+  gnkf base64 [flags]
+
+Aliases:
+  base64, b64
+
+Flags:
+  -d, --decode          decode BASE64 string
+  -f, --file string     path of input text file
+  -u, --for-url         encoding/decoding defined in RFC 4648
+  -h, --help            help for base64
+  -p, --no-padding      no padding
+  -o, --output string   path of output file
+
+Global Flags:
+      --debug   for debug
+```
+
+BASE64 符号化および復号機能。
+Linux 系の `base64` コマンドや `openssl base64` コマンドの代わりに使える。
+
+```text
+$ echo Hello World | gnkf b64
+SGVsbG8gV29ybGQK
+
+$ echo SGVsbG8gV29ybGQK | gnkf b64 -d
+Hello World
+```
+
+これで `base64` や `openssl` コマンドがない環境でも大丈夫。
 
 ## 16進ダンプ{#dump}
 
