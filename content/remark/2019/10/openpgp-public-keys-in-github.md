@@ -127,9 +127,8 @@ Public-Key Packet (tag 6) (82 bytes)
 
 ## ブックマーク
 
-- [GitHub API v3 | GitHub Developer Guide](https://developer.github.com/v3/)
-    - [User GPG Keys | GitHub Developer Guide](https://developer.github.com/v3/users/gpg_keys/)
-
+- [GitHub REST API - GitHub Docs](https://docs.github.com/en/free-pro-team@latest/rest)
+    - [GPG keys: Users - GitHub Docs](https://docs.github.com/en/free-pro-team@latest/rest/reference/users#gpg-keys)
 - [もう「公開鍵送ってください」というやり取りは不要だった - Qiita](https://qiita.com/zackey2/items/429c77e5780ba8bc1bf9)
 
 - [Git Commit で OpenPGP 署名を行う]({{< ref "openpgp/git-commit-with-openpgp-signature.md" >}})
