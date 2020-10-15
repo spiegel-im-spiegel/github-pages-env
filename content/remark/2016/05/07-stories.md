@@ -1,23 +1,12 @@
 +++
+title = "週末スペシャル： 自前でブックマークを運用することにしました"
 date = "2016-05-07T20:36:22+09:00"
 description = "自前でブックマークを運用することにしました / GnuPG 2.1.12 and Libgcrypt 1.7.0 released / その他の気になる記事"
-draft = false
 tags = ["bookmark", "security", "cryptography", "tools", "openpgp", "gnupg"]
-title = "週末スペシャル： 自前でブックマークを運用することにしました"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 1. [自前でブックマークを運用することにしました]({{< relref "#bkmk" >}})
@@ -38,10 +27,6 @@ Markdown でリンクを列挙するのがメチャメチャ楽ちんなこと�
 
 というわけで [Bookmarks](/bookmarks/) セクションを追加して，そこにブックマークを蓄積していくことにした。
 タグが使えなくなるけどソースコードの markdown ファイルを全文検索できるので，まぁ問題ないかと。
-
-[del.icio.us/spiegel](https://del.icio.us/spiegel) にあるブックマークは「[Export from Delicious.com]({{< ref "/bookmarks/2016/04/export-from-delicious.html" >}})」に移した。
-ただ [del.icio.us](https://del.icio.us/) の Export 機能がうまく動いてなくて古いブックマークが取れない。
-あと「[Export from Delicious.com]({{< ref "/bookmarks/2016/04/export-from-delicious.html" >}})」にあるリンクが膨大で表示に結構時間がかかるので迂闊に開かないほうがいいようだ（笑）
 
 [Bookmarks](/bookmarks/) セクションの記事は[メインの RSS](/index.xml) に含めないことにした。
 RSS を撮りたいという奇特な方は[こちら](/bookmarks/index.xml)からどうぞ。

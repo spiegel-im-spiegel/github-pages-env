@@ -1,8 +1,9 @@
 {{ partial "top.html" . }}
 <head prefix="og: http://ogp.me/ns#">{{ $title := .Title | plainify }}{{ $secTitle := .Site.Data.section.bookmarks.name | plainify }}{{ $siteTitle := .Site.Title | plainify }}{{ $desc := .Description | plainify | safeHTML }}
 {{ partial "header.html" . }}
-<title>{{ $title}} — {{ $secTitle }} | {{ $siteTitle }}</title>
-<meta property="og:title" content="{{ $title}} — {{ $secTitle }} | {{ $siteTitle }}">
+<meta name="robots" content="noindex">
+<title>{{ $title }} | {{ $siteTitle }}</title>
+<meta property="og:title" content="{{ $title }}">
 <meta name="description" content="{{ $desc }}">
 <meta property="og:description" content="{{ $desc }}">
 <meta property="og:image" content="{{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ .Site.Data.section.bookmarks.image | absURL }}{{ end }}">{{ with .Site.Data.author }}{{ if .name }}

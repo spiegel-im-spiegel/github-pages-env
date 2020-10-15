@@ -9,7 +9,7 @@
 	<logo>{{ . | absURL}}</logo>{{ end }}{{ end }}
 
 	{{ range first 10 .Data.Pages }}<entry>
-		<title>{{ .Title | plainify }} — {{ $secTitle }}</title>{{ with .Section }}{{ $secURL := printf "/%s/" . | urlize }}
+		<title>{{ .Title | plainify }}</title>{{ with .Section }}{{ $secURL := printf "/%s/" . | urlize }}
 		<category term="{{ . }}" label="{{ . }}" scheme="{{ $secURL | absURL }}" />{{ end }}
 		<link rel="alternate" type="text/html" href="{{ .Permalink }}" />
 		<id>tag:{{ $siteTitle }},{{ .Date.Format "2006-01-02" }}:{{ .RelPermalink }}</id>
