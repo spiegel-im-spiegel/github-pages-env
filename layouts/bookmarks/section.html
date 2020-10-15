@@ -3,6 +3,7 @@
 {{ partial "header.html" . }}{{ with .AlternativeOutputFormats.Get "RSS" }}
 <link rel="alternate" href="{{ .Permalink }}" type="application/rss+xml" title="{{ $secTitle }} | {{ $siteTitle }}">{{ end }}
 <link rel="canonical" href="{{ .Permalink }}">
+<meta name="robots" content="noindex">
 <title>{{ $secTitle }} | {{ $siteTitle }}</title>
 <meta property="og:title" content="{{ $secTitle }}">
 <meta name="description" content="{{ $desc }}">
