@@ -22,7 +22,7 @@
 {{ range first 5 .Site.RegularPages }}{{ partial "li.html" . }}{{ end }}
 </ul>
 
-<p>最近の更新状況などは<a href='{{ ref . "/status.md" }}'>こちら</a></p>
+<p>最近の更新状況などは<a href='{{ "/status/" | relURL }}'>こちら</a></p>
 
 </article></main>
 

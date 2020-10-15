@@ -5,7 +5,6 @@ description = "サイトの状況"
 image = "/images/attention/site.jpg"
 tags = [ "site" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
