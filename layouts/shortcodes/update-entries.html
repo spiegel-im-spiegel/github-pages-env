@@ -1,0 +1,3 @@
+{{ $ct := index .Params 0 }}<ul class="title-list">
+{{ range first $ct (sort (sort .Site.RegularPages "Date" "desc") "Lastmod" "desc" ) }}{{ partial "li-update.html" . }}{{ end }}
+</ul>

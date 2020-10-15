@@ -1,0 +1,38 @@
+<ul class="title-list">
+
+<li><a href='{{ "/remark/" | relURL }}'><em>[remark] しっぽのさきっちょ</em></a> <a href='{{ "/remark/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
+	<br><span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "remark") }}
+		&raquo; 最新記事：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>{{ end }}</span>
+</li>
+
+<li><a href='{{ "/release/" | relURL }}'><em>[release] リリース情報</em></a> <a href='{{ "/release/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
+	<br><span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "release") }}
+		&raquo; 最新記事：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>{{ end }}</span>
+</li>
+
+<li><a href='{{ "/golang/" | relURL }}'><em>[golang] プログラミング言語 Go</em></a> <a href='{{ "/golang/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
+	<br><span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "golang") }}
+		&raquo; 最新記事：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>{{ end }}</span>
+</li>
+
+<li><a href='{{ "/openpgp/" | relURL }}'><em>[openpgp] OpenPGP の実装</em></a> <a href='{{ "/openpgp/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
+	<br><span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "openpgp") }}
+		&raquo; 最新記事：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>{{ end }}</span>
+</li>
+
+<li><a href='{{ "/rust-lang/" | relURL }}'><em>[rust-lang] Rust のキホン</em></a> <a href='{{ "/rust-lang/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
+	<br><span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "rust-lang") }}
+		&raquo; 最新記事：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>{{ end }}</span>
+</li>
+
+<li><a href='{{ "/cc-licenses/" | relURL }}'><em>[cc-licenses] 改訂3版： CC Licenses について</em></a> <a href='{{ "/cc-licenses/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
+	<br><span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "cc-licenses") }}
+		&raquo; 最新記事：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>{{ end }}</span>
+</li>
+
+<li><a href='{{ "/bookmarks/" | relURL }}'><em>[bookmarks] ブックマーク</em></a> <a href='{{ "/bookmarks/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
+	<br><span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "bookmarks") }}
+		&raquo; 最新記事：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>{{ end }}</span>
+</li>
+
+</ul>

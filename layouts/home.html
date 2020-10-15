@@ -16,75 +16,13 @@
 {{ partial "banner.html" . }}
 
 <main><article>
-<h1>What's New</h1>
+<h1>最新記事（in {{ len .Site.RegularPages | lang.NumFmt 0 }} Entries）</h1>
 
-<section>
-<h2>最新記事（in {{ len .Site.RegularPages | lang.NumFmt 0 }} Entries）</h2>
 <ul class="title-list">
-{{ range first 3 .Site.RegularPages }}{{ partial "li.html" . }}{{ end }}
+{{ range first 5 .Site.RegularPages }}{{ partial "li.html" . }}{{ end }}
 </ul>
 
-<h3>最近更新した記事</h3>{{ $ct := 5 }}
-<ul class="title-list">
-{{ range first $ct (sort (sort .Site.RegularPages "Date" "desc") "Lastmod" "desc" ) }}{{ partial "li.html" . }}{{ end }}
-</ul>
-
-</section> <!-- 最近の記事 -->
-
-<section>
-<h2>主な <a href='{{ "/tags/" | relURL }}'>Tags</a> 一覧</h2>
-<ul class="cloud" style="font-size:smaller;">{{ range $key, $value := .Site.Taxonomies.tags.Alphabetical }}{{ if ge $value.Count 40 }}{{ $tag := lower $value.Name }}{{ $tagURL := printf "/tags/%s/" $tag | urlize }}<li>#<a href="{{ $tagURL | relURL }}">{{ $tag }}</a> ({{ $value.Count }})</li>{{ end }}{{ end }}</ul>
-</section> <!-- Tags -->
-
-<section>
-<h2>Sections 一覧</h2>
-<ul class="title-list">
-
-<li><a href='{{ "/remark/" | relURL }}'><em>[remark] しっぽのさきっちょ</em></a> <a href='{{ "/remark/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
-	<br><span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "remark") }}
-		&raquo; 最新記事：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>{{ end }}</span>
-</li>
-
-<li><a href='{{ "/release/" | relURL }}'><em>[release] リリース情報</em></a> <a href='{{ "/release/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
-	<br><span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "release") }}
-		&raquo; 最新記事：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>{{ end }}</span>
-</li>
-
-<li><a href='{{ "/golang/" | relURL }}'><em>[golang] プログラミング言語 Go</em></a> <a href='{{ "/golang/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
-	<br><span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "golang") }}
-		&raquo; 最新記事：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>{{ end }}</span>
-</li>
-
-<li><a href='{{ "/openpgp/" | relURL }}'><em>[openpgp] OpenPGP の実装</em></a> <a href='{{ "/openpgp/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
-	<br><span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "openpgp") }}
-		&raquo; 最新記事：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>{{ end }}</span>
-</li>
-
-<li><a href='{{ "/rust-lang/" | relURL }}'><em>[rust-lang] Rust のキホン</em></a> <a href='{{ "/rust-lang/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
-	<br><span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "rust-lang") }}
-		&raquo; 最新記事：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>{{ end }}</span>
-</li>
-
-<li><a href='{{ "/cc-licenses/" | relURL }}'><em>[cc-licenses] 改訂3版： CC Licenses について</em></a> <a href='{{ "/cc-licenses/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
-	<br><span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "cc-licenses") }}
-		&raquo; 最新記事：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>{{ end }}</span>
-</li>
-
-<li><a href='{{ "/bookmarks/" | relURL }}'><em>[bookmarks] ブックマーク</em></a> <a href='{{ "/bookmarks/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
-	<br><span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "bookmarks") }}
-		&raquo; 最新記事：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>{{ end }}</span>
-</li>
-
-</ul>
-</section> <!-- Sections -->
-
-<section>
-<h2>終了した日記・ブログ</h2>
-<ul>
-<li><a href="https://baldanders.info/blog/">旧メイン・ブログ</a>（2003-2015）</li>
-<li><a href="https://baldanders.info/spiegel/log/">各種日記</a>（1999-2006）</li>
-</ul>
-</section> <!-- 終了した日記・ブログ -->
+<p>最近の更新状況などは<a href='{{ ref . "/status.md" }}'>こちら</a></p>
 
 </article></main>
 

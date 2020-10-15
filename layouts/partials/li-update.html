@@ -1,0 +1,4 @@
+<li>{{ $update := .Lastmod.Format "2006-01-02" }}<a href="{{ .Permalink }}"><em>{{ .Title | safeHTML }}</em></a>
+	<span style="font-size:smaller;">({{ with .Section }}{{ $secURL := printf "/%s/" . | urlize }} in <a href="{{ $secURL | relURL }}">{{ . }}</a>, update {{ end }}<time>{{ $update }}</time>)
+	{{ with .Params.tags }}{{ range sort . }}{{ $tag := lower . }}{{ $tagURL := printf "/tags/%s/" $tag | urlize }} #<a href="{{ $tagURL | relURL }}">{{ $tag }}</a>{{ end }}{{ end }}{{ if .Draft }} <span class="caution">#draft</span>{{ end }}</span>
+</li>
