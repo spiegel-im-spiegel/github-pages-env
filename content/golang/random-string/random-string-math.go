@@ -9,18 +9,18 @@ import (
 )
 
 type MathRandom struct {
-	*rand.Rand
+	src rand.Source
 }
 
 func NewMathRandom(seed int64) Random {
-	return &MathRandom{Rand: rand.New(rand.NewSource(seed))}
+	return &MathRandom{src: rand.NewSource(seed)}
 }
 
 func (mr *MathRandom) String(len int) string {
 	b := make([]byte, len)
-	for i, cache, rest := 0, mr.Int63(), letterIdxMax; i < len; rest-- {
+	for i, cache, rest := 0, mr.src.Int63(), letterIdxMax; i < len; rest-- {
 		if rest <= 0 {
-			cache, rest = mr.Int63(), letterIdxMax
+			cache, rest = mr.src.Int63(), letterIdxMax
 		}
 		if idx := int(cache & letterIdxMask); idx < letterBytesLen {
 			b[i] = letterBytes[idx]
@@ -31,23 +31,23 @@ func (mr *MathRandom) String(len int) string {
 	return *(*string)(unsafe.Pointer(&b))
 }
 
-func (mr *MathRandom) String2(len int) string {
-	b := make([]byte, len)
-	for i, offset, size, rest := 0, 0, 0, 0; i < len; rest-- {
-		//fmt.Println(i, offset, size, rest)
-		if rest <= 0 {
-			offset = i
-			var err error
-			size, err = mr.Read(b[offset:])
-			if err != nil || size <= 0 {
-				return ""
-			}
-			rest = size
-		}
-		if idx := int(b[offset+(size-rest)] & letterIdxMask); idx < letterBytesLen {
-			b[i] = letterBytes[idx]
-			i++
-		}
-	}
-	return *(*string)(unsafe.Pointer(&b))
-}
+// func (mr *MathRandom) String2(len int) string {
+// 	b := make([]byte, len)
+// 	for i, offset, size, rest := 0, 0, 0, 0; i < len; rest-- {
+// 		//fmt.Println(i, offset, size, rest)
+// 		if rest <= 0 {
+// 			offset = i
+// 			var err error
+// 			size, err = mr.Read(b[offset:])
+// 			if err != nil || size <= 0 {
+// 				return ""
+// 			}
+// 			rest = size
+// 		}
+// 		if idx := int(b[offset+(size-rest)] & letterIdxMask); idx < letterBytesLen {
+// 			b[i] = letterBytes[idx]
+// 			i++
+// 		}
+// 	}
+// 	return *(*string)(unsafe.Pointer(&b))
+// }

@@ -27,15 +27,15 @@ pageType = "text"
 package randstr
 
 type Random interface {
-	String(int) string
+    String(int) string
 }
 
 const (
-	letterBytes    = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-	letterBytesLen = len(letterBytes)
-	letterIdxBits  = 6                    // 6 bits to represent a letter index
-	letterIdxMask  = 1<<letterIdxBits - 1 // All 1-bits, as many as letterIdxBits
-	letterIdxMax   = 63 / letterIdxBits   // # of letter indices fitting in 63 bits
+    letterBytes    = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+    letterBytesLen = len(letterBytes)
+    letterIdxBits  = 6                    // 6 bits to represent a letter index
+    letterIdxMask  = 1<<letterIdxBits - 1 // All 1-bits, as many as letterIdxBits
+    letterIdxMax   = 63 / letterIdxBits   // # of letter indices fitting in 63 bits
 )
 ```
 
@@ -54,31 +54,31 @@ const (
 package randstr
 
 import (
-	"math/rand"
-	"unsafe"
+    "math/rand"
+    "unsafe"
 )
 
 type MathRandom struct {
-	*rand.Rand
+    src rand.Source
 }
 
 func NewMathRandom(seed int64) Random {
-	return &MathRandom{Rand: rand.New(rand.NewSource(seed))}
+    return &MathRandom{src: rand.NewSource(seed)}
 }
 
 func (mr *MathRandom) String(len int) string {
-	b := make([]byte, len)
-	for i, cache, rest := 0, mr.Int63(), letterIdxMax; i < len; rest-- {
-		if rest <= 0 {
-			cache, rest = mr.Int63(), letterIdxMax
-		}
-		if idx := int(cache & letterIdxMask); idx < letterBytesLen {
-			b[i] = letterBytes[idx]
-			i++
-		}
-		cache >>= letterIdxBits
-	}
-	return *(*string)(unsafe.Pointer(&b))
+    b := make([]byte, len)
+    for i, cache, rest := 0, mr.src.Int63(), letterIdxMax; i < len; rest-- {
+        if rest <= 0 {
+            cache, rest = mr.src.Int63(), letterIdxMax
+        }
+        if idx := int(cache & letterIdxMask); idx < letterBytesLen {
+            b[i] = letterBytes[idx]
+            i++
+        }
+        cache >>= letterIdxBits
+    }
+    return *(*string)(unsafe.Pointer(&b))
 }
 ```
 
@@ -117,35 +117,35 @@ return *(*string)(unsafe.Pointer(&b))
 package randstr
 
 import (
-	"crypto/rand"
-	"unsafe"
+    "crypto/rand"
+    "unsafe"
 )
 
 type CryptoRandom struct{}
 
 func NewCryptoRandom() Random {
-	return &CryptoRandom{}
+    return &CryptoRandom{}
 }
 
 func (cr *CryptoRandom) String(len int) string {
-	b := make([]byte, len)
-	for i, offset, size, rest := 0, 0, 0, 0; i < len; rest-- {
-		//fmt.Println(i, offset, size, rest)
-		if rest <= 0 {
-			offset = i
-			var err error
-			size, err = rand.Read(b[offset:])
-			if err != nil || size <= 0 {
-				return ""
-			}
-			rest = size
-		}
-		if idx := int(b[offset+(size-rest)] & letterIdxMask); idx < letterBytesLen {
-			b[i] = letterBytes[idx]
-			i++
-		}
-	}
-	return *(*string)(unsafe.Pointer(&b))
+    b := make([]byte, len)
+    for i, offset, size, rest := 0, 0, 0, 0; i < len; rest-- {
+        //fmt.Println(i, offset, size, rest)
+        if rest <= 0 {
+            offset = i
+            var err error
+            size, err = rand.Read(b[offset:])
+            if err != nil || size <= 0 {
+                return ""
+            }
+            rest = size
+        }
+        if idx := int(b[offset+(size-rest)] & letterIdxMask); idx < letterBytesLen {
+            b[i] = letterBytes[idx]
+            i++
+        }
+    }
+    return *(*string)(unsafe.Pointer(&b))
 }
 ```
 
@@ -163,88 +163,88 @@ func (cr *CryptoRandom) String(len int) string {
 package randstr_test
 
 import (
-	"randstr"
-	"testing"
-	"time"
+    "randstr"
+    "testing"
+    "time"
 )
 
 const (
-	len64   = 64
-	len128  = 128
-	max512  = len64 * 8
-	max1024 = len128 * 8
+    len64   = 64
+    len128  = 128
+    max512  = len64 * 8
+    max1024 = len128 * 8
 )
 
 func BenchmarkRandomStringMath64t8(b *testing.B) {
-	r := randstr.NewMathRandom(time.Now().UnixNano())
-	b.ResetTimer()
-	for i := 0; i < b.N; i++ {
-		for n := 0; n < max512/len64; n++ {
-			_ = r.String(len64)
-		}
-	}
+    r := randstr.NewMathRandom(time.Now().UnixNano())
+    b.ResetTimer()
+    for i := 0; i < b.N; i++ {
+        for n := 0; n < max512/len64; n++ {
+            _ = r.String(len64)
+        }
+    }
 }
 
 func BenchmarkRandomStringMath512(b *testing.B) {
-	r := randstr.NewMathRandom(time.Now().UnixNano())
-	b.ResetTimer()
-	for i := 0; i < b.N; i++ {
-		_ = r.String(max512)
-	}
+    r := randstr.NewMathRandom(time.Now().UnixNano())
+    b.ResetTimer()
+    for i := 0; i < b.N; i++ {
+        _ = r.String(max512)
+    }
 }
 
 func BenchmarkRandomStringMath128t8(b *testing.B) {
-	r := randstr.NewMathRandom(time.Now().UnixNano())
-	b.ResetTimer()
-	for i := 0; i < b.N; i++ {
-		for n := 0; n < max1024/len128; n++ {
-			_ = r.String(len128)
-		}
-	}
+    r := randstr.NewMathRandom(time.Now().UnixNano())
+    b.ResetTimer()
+    for i := 0; i < b.N; i++ {
+        for n := 0; n < max1024/len128; n++ {
+            _ = r.String(len128)
+        }
+    }
 }
 
 func BenchmarkRandomStringMath1024(b *testing.B) {
-	r := randstr.NewMathRandom(time.Now().UnixNano())
-	b.ResetTimer()
-	for i := 0; i < b.N; i++ {
-		_ = r.String(max1024)
-	}
+    r := randstr.NewMathRandom(time.Now().UnixNano())
+    b.ResetTimer()
+    for i := 0; i < b.N; i++ {
+        _ = r.String(max1024)
+    }
 }
 
 func BenchmarkRandomStringCrypto64t8(b *testing.B) {
-	r := randstr.NewCryptoRandom()
-	b.ResetTimer()
-	for i := 0; i < b.N; i++ {
-		for n := 0; n < max512/len64; n++ {
-			_ = r.String(len64)
-		}
-	}
+    r := randstr.NewCryptoRandom()
+    b.ResetTimer()
+    for i := 0; i < b.N; i++ {
+        for n := 0; n < max512/len64; n++ {
+            _ = r.String(len64)
+        }
+    }
 }
 
 func BenchmarkRandomStringCrypto512(b *testing.B) {
-	r := randstr.NewCryptoRandom()
-	b.ResetTimer()
-	for i := 0; i < b.N; i++ {
-		_ = r.String(max512)
-	}
+    r := randstr.NewCryptoRandom()
+    b.ResetTimer()
+    for i := 0; i < b.N; i++ {
+        _ = r.String(max512)
+    }
 }
 
 func BenchmarkRandomStringCrypto128t8(b *testing.B) {
-	r := randstr.NewCryptoRandom()
-	b.ResetTimer()
-	for i := 0; i < b.N; i++ {
-		for n := 0; n < max1024/len128; n++ {
-			_ = r.String(len128)
-		}
-	}
+    r := randstr.NewCryptoRandom()
+    b.ResetTimer()
+    for i := 0; i < b.N; i++ {
+        for n := 0; n < max1024/len128; n++ {
+            _ = r.String(len128)
+        }
+    }
 }
 
 func BenchmarkRandomStringCrypto1024(b *testing.B) {
-	r := randstr.NewCryptoRandom()
-	b.ResetTimer()
-	for i := 0; i < b.N; i++ {
-		_ = r.String(max1024)
-	}
+    r := randstr.NewCryptoRandom()
+    b.ResetTimer()
+    for i := 0; i < b.N; i++ {
+        _ = r.String(max1024)
+    }
 }
 ```
 
@@ -268,16 +268,16 @@ $ go test -bench RandomString -benchmem
 goos: linux
 goarch: amd64
 pkg: randstr
-BenchmarkRandomStringMath64t8-4      	  603516	      1690 ns/op	     512 B/op	       8 allocs/op
-BenchmarkRandomStringMath512-4       	  707852	      1420 ns/op	     512 B/op	       1 allocs/op
-BenchmarkRandomStringMath128t8-4     	  383108	      3092 ns/op	    1024 B/op	       8 allocs/op
-BenchmarkRandomStringMath1024-4      	  414855	      2752 ns/op	    1024 B/op	       1 allocs/op
-BenchmarkRandomStringCrypto64t8-4    	   81870	     14252 ns/op	     512 B/op	       8 allocs/op
-BenchmarkRandomStringCrypto512-4     	  233931	      4818 ns/op	     512 B/op	       1 allocs/op
-BenchmarkRandomStringCrypto128t8-4   	   64506	     18465 ns/op	    1024 B/op	       8 allocs/op
-BenchmarkRandomStringCrypto1024-4    	  146600	      8040 ns/op	    1024 B/op	       1 allocs/op
+BenchmarkRandomStringMath64t8-4            641556          1616 ns/op         512 B/op           8 allocs/op
+BenchmarkRandomStringMath512-4             899421          1386 ns/op         512 B/op           1 allocs/op
+BenchmarkRandomStringMath128t8-4           357760          3093 ns/op        1024 B/op           8 allocs/op
+BenchmarkRandomStringMath1024-4            407550          2820 ns/op        1024 B/op           1 allocs/op
+BenchmarkRandomStringCrypto64t8-4           81285         14320 ns/op         512 B/op           8 allocs/op
+BenchmarkRandomStringCrypto512-4           241180          4827 ns/op         512 B/op           1 allocs/op
+BenchmarkRandomStringCrypto128t8-4          64815         18358 ns/op        1024 B/op           8 allocs/op
+BenchmarkRandomStringCrypto1024-4          149160          8212 ns/op        1024 B/op           1 allocs/op
 PASS
-ok  	randstr	9.596s
+ok      randstr    10.851s
 ```
 
 これも表にまとめてみる。
@@ -285,15 +285,15 @@ ok  	randstr	9.596s
 
 |  使用パッケージ | 処理内容               |  ns/op | Alloc<br>Size | Alloc<br>Count | Ratio |
 | ---------------:|:---------------------- | ------:| -------------:| --------------:| -----:|
-|   [`math/rand`] | 64バイト文字列生成×8  |  1,690 |           512 |              8 |   1.0 |
-|   [`math/rand`] | 128バイト文字列生成×8 |  3,092 |          1024 |              8 |   1.8 |
-| [`crypto/rand`] | 64バイト文字列生成×8  | 14,252 |           512 |              8 |   8.4 |
-| [`crypto/rand`] | 128バイト文字列生成×8 | 18,465 |          1024 |              8 |  10.9 |
+|   [`math/rand`] | 64バイト文字列生成×8  |  1,616 |           512 |              8 |   1.0 |
+|   [`math/rand`] | 128バイト文字列生成×8 |  3,093 |          1024 |              8 |   1.9 |
+| [`crypto/rand`] | 64バイト文字列生成×8  | 14,329 |           512 |              8 |   8.9 |
+| [`crypto/rand`] | 128バイト文字列生成×8 | 18,358 |          1024 |              8 |  11.3 |
 |                 |                        |        |               |                |       |
-|   [`math/rand`] | 512バイト文字列生成    |  1,420 |           512 |              1 |   1.0 |
-|   [`math/rand`] | 1,024バイト文字列生成  |  2,752 |          1024 |              1 |   1.9 |
-| [`crypto/rand`] | 512バイト文字列生成    |  4,818 |           512 |              1 |   3.4 |
-| [`crypto/rand`] | 1,024バイト文字列生成  |  8,040 |          1024 |              1 |   5.7 |
+|   [`math/rand`] | 512バイト文字列生成    |  1,386 |           512 |              1 |   1.0 |
+|   [`math/rand`] | 1,024バイト文字列生成  |  2,820 |          1024 |              1 |   2.0 |
+| [`crypto/rand`] | 512バイト文字列生成    |  4,827 |           512 |              1 |   3.5 |
+| [`crypto/rand`] | 1,024バイト文字列生成  |  8,212 |          1024 |              1 |   5.9 |
 
 [`math/rand`] パッケージを使った実装は分かりやすい。
 文字列が長くなると処理時間が長くなり，アロケーション回数が多いと更に時間がかかる。
