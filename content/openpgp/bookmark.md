@@ -94,7 +94,7 @@ tags = [ "openpgp", "gnupg", "bookmark" ]
 ## 自作ツール
 
 - [spiegel-im-spiegel/BkGnuPG: GNU Privacy Guard Plug-in for Becky! 2](https://github.com/spiegel-im-spiegel/BkGnuPG) : 過去の技術的負債（笑）。（セキュリティ的に）危ないので使ってはいけません
-- [spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer](https://github.com/spiegel-im-spiegel/gpgpdump) : [pgpdump] を Go 言語で relpace してみた
+- [spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer](https://github.com/spiegel-im-spiegel/gpgpdump) : [pgpdump] を Go 言語で replace してみた
 
 ## [本家サイト]の記事
 

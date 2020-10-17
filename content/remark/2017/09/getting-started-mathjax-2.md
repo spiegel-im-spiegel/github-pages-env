@@ -200,6 +200,7 @@ $\mathrm{\TeX}$ 記法では不等号記号はそのまま `<` や `>` 文字を
 
 - [斜体とイタリック体 – Pineapple Blog](https://pineapple.blog/%E6%96%9C%E4%BD%93%E3%81%A8%E3%82%A4%E3%82%BF%E3%83%AA%E3%83%83%E3%82%AF%E4%BD%93-68dda513eca2)
 - [MathJaxによる数式表示](https://oku.edu.mie-u.ac.jp/~okumura/javascript/mathjax.html)
+- [数学記号記法一覧](https://zenn.dev/wsuzume/articles/b0b3a51cac5d7fe4555b)
 
 <!--
 - [MathJaxでEuler(オイラー)フォントを使ったときの不具合](http://www.math.sci.hokudai.ac.jp/~yano/memo/mathjax_euler.html) ： `mtextFontInherit` には true または false が入るので，文字列 `"false"` をセットするのは間違い。おそらく文字列を内部で無理やり true に評価してるんだと思う。この辺は流石 JavaScript というところか（笑）

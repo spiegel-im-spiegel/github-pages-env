@@ -316,8 +316,9 @@ A "1" -- "*" B : Association
 - [Class Diagram syntax and features](http://plantuml.com/class-diagram)
 - [Class Diagram Tutorial](https://online.visual-paradigm.com/tutorials/class-diagram-tutorial/)
 - [クラス図(Class Diagram) - UML入門 - IT専科](http://www.itsenka.com/contents/development/uml/class.html)
+- [PlantUMLがいつのまにかLolipop表記に対応していた件](https://zenn.dev/buchio/articles/b897c0377875043b85db)
 
-- [GitHub - spiegel-im-spiegel/plantuml-sample: Samples for PlantUML](https://github.com/spiegel-im-spiegel/plantuml-sample)
+- [spiegel-im-spiegel/plantuml-sample: Samples for PlantUML](https://github.com/spiegel-im-spiegel/plantuml-sample)
 
 [PlantUML]: http://plantuml.com/ "Open-source tool that uses simple textual descriptions to draw UML diagrams."
 [`skinparams.iuml`]: https://github.com/spiegel-im-spiegel/plantuml-sample/blob/master/skinparams.iuml "plantuml-sample/skinparams.iuml at master · spiegel-im-spiegel/plantuml-sample"

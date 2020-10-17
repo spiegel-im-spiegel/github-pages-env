@@ -62,6 +62,28 @@ $ git init --initial-branch=foo myrepo
 
 とすれば `foo` ブランチで初期化してくれるので，そのまま既定ブランチとして使えばよい。
 
+## リモートにある Git リポジトリの既定ブランチ名を取得するには
+
+Git の既定ブランチというのは要するに `HEAD` が指すブランチなので，リモートにある git リポジトリの既定ブランチ名を（clone しないで）取得するには
+
+```text
+$ git ls-remote --symref https://github.com/git/git HEAD
+ref: refs/heads/master	HEAD
+a5fa49ff0a8f3252c6bff49f92b85e7683868f8a	HEAD
+```
+
+などとすればいいようだ。
+これでリポジトリ `https://github.com/git/git` の既定ブランチが `master` であることが分かる。
+
+リポジトリ名のみ取り出したければ，たとえば sed コマンドと組み合わせて
+
+```text
+$ echo `git ls-remote --symref https://github.com/git/git HEAD | sed -n 's/^ref: refs\/heads\/\(.*\)\s\+HEAD$/\1/p'`
+master
+```
+
+とかできるらしい。
+
 ## ブックマーク
 
 - [github/renaming: Guidance for changing the default branch name for GitHub repositories](https://github.com/github/renaming)
@@ -73,6 +95,7 @@ $ git init --initial-branch=foo myrepo
 - [アップルも「マスター」「スレーブ」などの用語置き換え--スタイルガイド更新 - ZDNet Japan](https://japan.zdnet.com/article/35156986/)
 - [差別的な用語を排除へ--IBMとマイクロソフトの自発的な取り組み - CNET Japan](https://japan.cnet.com/article/35158622/)
 - [GitHub、これから作成するリポジトリのデフォルトブランチ名が「main」に。「master」から「main」へ変更 － Publickey](https://www.publickey1.jp/blog/20/githubmainmastermain.html)
+- [git clone しないでデフォルトブランチ名を取得する](https://zenn.dev/msmhrt/articles/0f530f16cf86fa0baeee)
 
 ## 参考図書
 
