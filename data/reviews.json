@@ -13557,5 +13557,51 @@
       false
     ],
     "Description": "あらゆる障害を筋肉で粉砕する！ 脳みそをカラッぽにして見れる作品。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00FYJ1MMC",
+      "Title": "機動戦士ガンダム",
+      "URL": "https://www.amazon.co.jp/dp/B00FYJ1MMC?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51ed+tL4wkL._SL160_.jpg",
+        "Height": 120,
+        "Width": 160
+      },
+      "ProductType": "Prime Video",
+      "Creators": [
+        {
+          "Name": "富野喜幸",
+          "Role": "監督"
+        },
+        {
+          "Name": "株式会社サンライズ",
+          "Role": "プロデュース"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00FYJ1MMC"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-10-17",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "これのおかげでアニメで戦争論を語る馬鹿（オタク）が増えたと言われる歴史的作品（笑）"
   }
 ]
