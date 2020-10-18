@@ -30,7 +30,11 @@ pageType = "text"
 とのこと。
 つってもねぇ...
 
-ベテルギウスの距離は年周視差を使って計測されていたが，元より誤差が大きくてあまり信用されてないのですよ。
+ベテルギウスの距離は年周視差を使って計測されていたが
+
+{{< fig-img class="lightmode" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Stellarparallax2.svg" title="The original uploader was Booyabazooka at English Wikipedia., Public domain, via Wikimedia Commons" link="https://commons.wikimedia.org/wiki/File:Stellarparallax2.svg" >}}
+
+元より誤差が大きくてあまり信用されてないのですよ。
 
 ちなみに『[理科年表 2020](https://www.amazon.co.jp/dp/4621304259?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)』には498光年とあり[^sc1]，注釈で「誤差が10%を越える」とある。
 更に『[天文年鑑 2020年版](https://www.amazon.co.jp/dp/4416719485?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)』に至っては430光年と書かれている。
