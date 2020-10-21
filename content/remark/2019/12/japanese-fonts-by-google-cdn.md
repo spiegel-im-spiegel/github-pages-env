@@ -106,6 +106,9 @@ NOTO Sans のラテン文字は上の2つのようだが（他の文字のサブ
 ## ブックマーク
 
 - [日本語Webフォントを使用する際のアプローチについて | フロントエンドBlog | ミツエーリンクス](https://www.mitsue.co.jp/knowledge/blog/frontend/201912/19_0000.html) : Web フォントで日本語を設定する際に参考になる
+- [デザイナーとフロントエンドエンジニアに知ってほしいWebのフォント周りのお話](https://zenn.dev/tak_dcxi/articles/588fbc205251043dc357)
+- [Yaku Han JP](https://yakuhanjp.qranoko.jp/) : NOTO フォント派生。訳物だけ半角サイズになっている
+- [Google Fontsは使用する文字を絞り込んでダウンロードできる](https://zenn.dev/neriko/articles/3b55c547a07c8d22c9f1)
 
 - [Web フォントに関する覚え書き]({{< ref "/remark/2015/web-font-family.md" >}})
 - [Web フォントに関する覚え書き（明朝体編）]({{< ref "/remark/2016/10/japanese-serif-fonts-by-google-cdn.md" >}})
