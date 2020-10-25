@@ -13603,5 +13603,99 @@
       false
     ],
     "Description": "これのおかげでアニメで戦争論を語る馬鹿（オタク）が増えたと言われる歴史的作品（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B002SUPHGM",
+      "Title": "ごとそん",
+      "URL": "https://www.amazon.co.jp/dp/B002SUPHGM?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61ciSm+FteL._SL160_.jpg",
+        "Height": 159,
+        "Width": 160
+      },
+      "ProductType": "CD",
+      "Creators": [
+        {
+          "Name": "後藤邑子",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "プアゾン",
+          "Role": "アーティスト"
+        }
+      ],
+      "Publisher": "ランティス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B002SUPHGM"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4540774509713"
+        }
+      ],
+      "PublicationDate": "2010-01-12",
+      "LastRelease": "2010-01-13",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-10-25",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "後藤邑子さんの声は反則だと思う。萌え死ぬ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01ID14CC4",
+      "Title": "ストップ!!ひばりくん！コンプリート・エディション　第1巻",
+      "URL": "https://www.amazon.co.jp/dp/B01ID14CC4?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51jN9oDAzVL._SL160_.jpg",
+        "Height": 160,
+        "Width": 111
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "江口寿史",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "フリースタイル",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01ID14CC4"
+        }
+      ],
+      "PublicationDate": "2016-07-12",
+      "LastRelease": "2016-07-12",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-10-25",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "Kindle で読めるのか。白いワニががが..."
   }
 ]
