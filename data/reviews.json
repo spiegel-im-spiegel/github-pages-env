@@ -13697,5 +13697,46 @@
       false
     ],
     "Description": "Kindle で読めるのか。白いワニががが..."
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07NDLJ6Q9",
+      "Title": "エレコム キーボード 有線 メンブレン コンパクトキーボード ブラック TK-FCM103XBK",
+      "URL": "https://www.amazon.co.jp/dp/B07NDLJ6Q9?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41OKiHUhUqL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "Personal Computers",
+      "Publisher": "エレコム",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07NDLJ6Q9"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4549550107761"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2019-02-28",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-10-25",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "いわゆる「テンキーレス」なキーボードが欲しかったので。"
   }
 ]
