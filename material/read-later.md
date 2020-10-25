@@ -5,7 +5,12 @@
 - [Release v1.1.1 · spf13/cobra · GitHub](https://github.com/spf13/cobra/releases/tag/v1.1.1)
 - [Highlights from Git 2.29 - The GitHub Blog](https://github.blog/2020-10-19-git-2-29-released/)
     - [Release Git for Windows 2.29.0 · git-for-windows/git · GitHub](https://github.com/git-for-windows/git/releases/tag/v2.29.0.windows.1)
+        - [「Git for Windows 2.29.0」が公開 ～セットアップ時にデフォルトブランチ名を設定可能 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1284871.html)
+    - [Release Git for Windows 2.29.1 · git-for-windows/git · GitHub](https://github.com/git-for-windows/git/releases/tag/v2.29.1.windows.1)
 - [「Windows 10 October 2020 Update」が一般公開 ～年2回の大規模アップデート - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1284147.html)
+- [KeePassXC 2.6.2 released - KeePassXC](https://keepassxc.org/blog/2020-10-21-2.6.2-released/)
+- [The Document Foundation announces LibreOffice 6.4.7 - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2020/10/22/tdf-announces-libreoffice-647/)
+- [Release v1.32.0 · golangci/golangci-lint · GitHub](https://github.com/golangci/golangci-lint/releases/tag/v1.32.0)
 
 ## バベルのインターネット
 
@@ -15,12 +20,23 @@
 - [Split-Second Phantom Images Fool Autopilots - Schneier on Security](https://www.schneier.com/blog/archives/2020/10/split-second-phantom-images-fool-autopilots.html)
 - [グーグル、3年前に中国から2.54TbpsのDDoS攻撃を受けていた - ZDNet Japan](https://japan.zdnet.com/article/35161125/)
 - [富士通、JCB、みずほ銀行がデジタルアイデンティティーの相互運用で共同実験 - ZDNet Japan](https://japan.zdnet.com/article/35161102/)
+- {{< pdf-file link="https://media.defense.gov/2020/Oct/20/2002519884/-1/-1/0/CSA_CHINESE_EXPLOIT_VULNERABILITIES_UOO179811.PDF" title="Chinese State-SponsoredActors Exploit Publicly Known Vulnerabilities" >}}
+    - [NSA Advisory on Chinese Government Hacking - Schneier on Security](https://www.schneier.com/blog/archives/2020/10/nsa-advisory-on-chinese-government-hacking.html)
+- [「Microsoft Edge 86」にゼロデイ脆弱性 ～修正版のv86.0.622.51がリリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1284763.html)
+- [New Report on Police Decryption Capabilities - Schneier on Security](https://www.schneier.com/blog/archives/2020/10/new-report-on-police-decryption-capabilities.html)
 
 ## 天文関連
 
 - [オンライン宇宙セミナー「火星の月から水惑星の起源を探る火星衛星探査計画MMX」のお知らせ | 広島大学](https://www.hiroshima-u.ac.jp/hasc/news/60627) : 参加予定
 - [MIT Tech Review: 日欧の水星探査機、金星フライバイで最新画像を多数撮影](https://www.technologyreview.jp/s/222505/a-spacecraft-en-route-to-mercury-just-caught-this-fresh-new-look-at-venus/)
 - [Nokia selected by NASA to build first ever cellular network on the Moon | Nokia](https://www.nokia.com/about-us/news/releases/2020/10/19/nokia-selected-by-nasa-to-build-first-ever-cellular-network-on-the-moon/) : 月から電波を撒き散らす。 NASA 公認か...
+- [NASA’s OSIRIS-REx Spacecraft Successfully Touches Asteroid - OSIRIS-REx Mission](https://www.asteroidmission.org/?latest-news=nasas-osiris-rex-spacecraft-successfully-touches-asteroid)
+    - [Touch-and-Go complete! NASA OSIRIS-REx completes maneuver to sample Asteroid Bennu - Space Showcase](http://videos.space.com/m/r9Zm0mRL/touch-and-go-complete-nasa-osiris-rex-completes-maneuver-to-sample-asteroid-bennu)
+    - [2020年10月23日ニュース「米国版はやぶさ『オシリス・レックス』が小惑星への着地に成功」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2020/10/20201023_01.html)
+    - [MIT Tech Review: NASA探査機が小惑星ベンヌとの接触に成功、岩石サンプルを採取](https://www.technologyreview.jp/s/223010/osiris-rex-survived-its-touchdown-on-asteroid-bennu-now-we-wait-to-see-if-it-got-a-sample/)
+- [ニュース - アルマ望遠鏡、イオの火山による大気への影響を明らかに - アルマ望遠鏡](https://alma-telescope.jp/news/io-202010)
+- [NASA to Announce New Science Results About Moon | NASA](https://www.nasa.gov/press-release/nasa-to-announce-new-science-results-about-moon/)
+- [[2010.11730] Maximum Black Hole mass across Cosmic Time](https://arxiv.org/abs/2010.11730) : [重力波 GW190521 は対生成型超新星爆発のせいで作られるはずがないと思われていたブラックホール (~85太陽質量)を含んでいたが、重元素の少ない大質量星で普通に作れるという主張](https://twitter.com/norita_kawanaka/status/1319485058118348802)
 
 ## 知財関連
 
@@ -28,9 +44,14 @@
 
 ## Linux または Ubuntu に関する話題
 
+- [Ubuntu Fridge | Ubuntu 20.10 (Groovy Gorilla) released](http://ubuntu-news.org/2020/10/22/ubuntu-20-10-groovy-gorilla-released/)
+- [Groovy Gorilla Release Notes - Release - Ubuntu Community Hub](https://discourse.ubuntu.com/t/groovy-gorilla-release-notes/15533)
+- [Ubuntu 20.10 その12 - Ubuntu 20.10がリリースされました・ディスクイメージのダウンロード - kledgeb](https://kledgeb.blogspot.com/2020/10/ubuntu-2010-12-ubuntu-2010.html)
+- [Ubuntu 20.10 その13 - Ubuntu 20.10の新機能と変更点・既知の問題 - kledgeb](https://kledgeb.blogspot.com/2020/10/ubuntu-2010-13-ubuntu-2010.html)
 
 ## Go 言語関連
 
+- [Goで作るシングルページアプリケーション](https://zenn.dev/nobonobo/books/85e605893d44ebe7dd3f)
 - [zetamatta/go-readline-ny: Readline library for golang , used in nyagos](https://github.com/zetamatta/go-readline-ny)
 - [Go Validator v10. Validation? Easy Peasy! | by Renaldi | Tunaiku Tech | Oct, 2020 | Medium](https://medium.com/tunaiku-tech/go-validator-v10-c7a4f1be37df)
 
@@ -63,5 +84,15 @@
 - [GitHubの機能をフルに使って職務経歴書の継続的インテグレーションを実現する](https://zenn.dev/ryo_kawamata/articles/resume-on-github)
 - [editorconfig-checker/editorconfig-checker: A tool to verify that your files are in harmony with your .editorconfig](https://github.com/editorconfig-checker/editorconfig-checker)
 - [LibreOffice Math Guide 7.0 is Published - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2020/10/20/libreoffice-math-guide-7-0-is-published/)
+- [Windows 10でCortanaが起動しないようにする方法 | ライフハッカー［日本版］](https://www.lifehacker.jp/2020/06/how-to-quickly-remove-windows-10s-new-cortana-app.html)
+- [マイクロソフト、「Microsoft Edge for Linux」プレビュー版をついにリリース。なぜマイクロソフトがLinux版を開発しているのか？ － Publickey](https://www.publickey1.jp/blog/20/microsoft_edge_for_linuxlinux.html)
+- [NeovimのためのLua入門 Lua基礎編](https://zenn.dev/slin/articles/2020-10-19-neovim-lua1)
+- [MongoDB AtlasがAWS/Azure/GCPにまたがるマルチクラウドクラスタ構成をマネージドサービスでサポート。特定のクラウドが全部落ちても影響しない運用が可能に － Publickey](https://www.publickey1.jp/blog/20/mongodb_atlasawsazuregcp.html)
+- [atomエディタにSQLフォーマッターを導入する | cupOF Interests](https://co.bsnws.net/article/324) : うーん。 Python が要るのかぁ
+- [PDFにすると間違いに気づく理由｜塚本 牧生｜note](https://note.com/tsukamoto/n/n0647ca3b053d)
+- [「1万時間」は熱意の秤｜塚本 牧生｜note](https://note.com/tsukamoto/n/ncb95be8b8b3c) : 「1万時間の法則」なるものにかつての「人月神話」と同じ匂いを感じる
+- [.NET Frameworkから.NET Coreへの移植を支援する「Porting Assistant for .NET」を、AWSがオープンソースとして公開 － Publickey](https://www.publickey1.jp/blog/20/awsnet_frameworknet_coreporting_assistant_for_net.html)
+- [PowerShellでGUIDを生成する](https://tech.la-fra.com/2018/06/30/post-86/)
+- [電子楽器テルミン誕生100周年を記念してモーグから史上最も美しいモデル「Claravox Centennial」登場  |  TechCrunch Japan](https://jp.techcrunch.com/2020/10/23/2020-10-22-for-the-theremins-100th-anniversary-moog-unveils-the-gorgeous-claravox-centennial/)
 
 <!-- eof -->

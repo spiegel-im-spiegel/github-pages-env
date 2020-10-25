@@ -110,7 +110,7 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 | Official | Release    |                       Ubuntu | Release    |   Delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
-|     82.0 | 2020-10-20 |                              |            | ∞ days |
+|     82.0 | 2020-10-20 |   82.0+build2-0 (USN-4599-1) | 2020-10-23 |  3 days |
 |   81.0.2 | 2020-10-13 | 81.0.2+build1-0 (USN-4546-2) | 2020-10-15 |  2 days |
 |   81.0.1 | 2020-10-01 |                      &mdash; | &mdash;    | &mdash; |
 |     81.0 | 2020-09-22 |   81.0+build2-0 (USN-4546-1) | 2020-09-28 |  6 days |
@@ -152,7 +152,8 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 | Official | Release    |  Ubuntu | Release |   Delay |
 | --------:| ---------- | -------:| ------- | -------:|
-|   78.3.3 | 2020-10-16 |         |         | ∞ days |
+|   78.4.0 | 2020-10-21 |         |         | ∞ days |
+|   78.3.3 | 2020-10-16 | &mdash; | &mdash; | &mdash; |
 |   78.3.2 | 2020-10-07 | &mdash; | &mdash; | &mdash; |
 |   78.3.1 | 2020-09-26 | &mdash; | &mdash; | &mdash; |
 |   78.3.0 | 2020-09-24 | &mdash; | &mdash; | &mdash; |
@@ -176,6 +177,7 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (78.4.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.4.0/releasenotes/)
 - [Thunderbird — Release Notes (78.3.3) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.3.3/releasenotes/)
 - [Thunderbird — Release Notes (78.3.2) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.3.2/releasenotes/)
 - [Thunderbird — Release Notes (78.3.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.3.1/releasenotes/)
