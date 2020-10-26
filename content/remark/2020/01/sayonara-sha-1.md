@@ -88,6 +88,15 @@ $ wget https://baldanders.info/pubkeys/spiegel.asc -O - | gpgpdump
 これらの実装が SHA-1 をどのように取り扱っているかは分からない。
 どなたか教えて！
 
+{{< div-box type="markdown" >}}
+**【2020-10-26 追記】** 
+[GnuPG] 以外の実装でも議論が行われているようだ。
+
+- [[openpgp] Deprecating SHA1](https://mailarchive.ietf.org/arch/msg/openpgp/Rp-inhYKT8A9H5E34iLTrc9I0gc/)
+
+[GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
+{{< /div-box >}}
+
 ## [Git] のコミット・ハッシュはどうなるのか
 
 おそらく今回の件でもっとも議論を呼ぶのは [git] なんじゃないだろうか。
@@ -97,6 +106,13 @@ $ wget https://baldanders.info/pubkeys/spiegel.asc -O - | gpgpdump
 
 なので，個人的にはあまり心配はしていない。
 [Git] の今後の活躍にご期待ください，といったところだろうか（笑）
+
+{{< div-box type="markdown" >}}
+**【2020-10-26 追記】** 
+[Git] 2.29 から SHA-2 ベースのコミット・ハッシュがサポートされるようになった。
+
+- [Git v2.29 がリリースされた]({{< ref "/release/2020/10/git-2_29-is-released.md" >}})
+{{< /div-box >}}
 
 ## ブックマーク
 

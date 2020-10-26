@@ -70,8 +70,13 @@ GitHub リポジトリに HTTPS でアクセスしている場合は注意が必
 - [「Git for Windows 2.29.0」が公開 ～セットアップ時にデフォルトブランチ名を設定可能 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1284871.html)
 
 - [PPA から Git をインストールする]({{< ref "/remark/2019/04/install-git-from-ppa.md" >}})
+- [さようなら SHA-1](https://zenn.dev/spiegel/articles/20201025-sayonara-sha1) : SHA-1 の危殆化について Zenn でまとめ記事を書いてみた
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [git]: https://git-scm.com/
 [Git for Windows]: https://gitforwindows.org/
 [PPA]: https://launchpad.net/ubuntu/+ppas "Personal Package Archives : Ubuntu"
+
+## 参考図書
+
+{{% review-paapi "B015643CPE" %}} <!-- 暗号技術入門 第3版 -->
