@@ -13,7 +13,7 @@ pageType = "text"
 
 アルファ・ベータ・オメガの割り振りはご想像にお任せします {{< emoji ":smile:">}} って，そういう話ではない。
 
-さて，職場で Windows 10 機を支給されたのでとりあえず [ATOM] エディタと [NYAGOS] を入れたいわけですよ。
+さて，職場で Windows 10 機を支給されたので，とりあえず [ATOM] エディタと [NYAGOS] を入れたいわけですよ。
 
 ## Windows 10 に [ATOM] を入れる
 
@@ -28,7 +28,7 @@ pageType = "text"
 {{< fig-img src="./atom-system-settings.png" link="./atom-system-settings.png" title="System Settings in ATOM" width="734" >}}
 
 てな感じにエクスプローラ等のコンテキストメニューから開けるように設定できる。
-また [ATOM] が起動している状態でタスクバーの [ATOM] アイコンをピン止めしておけば
+また [ATOM] が起動している状態でタスクバーの [ATOM] アイコンをピン留めしておけば
 
 {{< fig-img src="./atom-in-task-bar.png" link="./atom-in-task-bar.png" title="ATOM icon in task bar" width="525" >}}
 
