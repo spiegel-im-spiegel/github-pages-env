@@ -39,8 +39,11 @@ pageType = "text"
 - [Nokia selected by NASA to build first ever cellular network on the Moon | Nokia](https://www.nokia.com/about-us/news/releases/2020/10/19/nokia-selected-by-nasa-to-build-first-ever-cellular-network-on-the-moon/) : 月から電波を撒き散らす。 NASA 公認か...
 - [NASA’s OSIRIS-REx Spacecraft Successfully Touches Asteroid - OSIRIS-REx Mission](https://www.asteroidmission.org/?latest-news=nasas-osiris-rex-spacecraft-successfully-touches-asteroid)
     - [Touch-and-Go complete! NASA OSIRIS-REx completes maneuver to sample Asteroid Bennu - Space Showcase](http://videos.space.com/m/r9Zm0mRL/touch-and-go-complete-nasa-osiris-rex-completes-maneuver-to-sample-asteroid-bennu)
+    - [NASA’s OSIRIS-REx Spacecraft Collects Significant Amount of Asteroid | NASA](https://www.nasa.gov/press-release/nasa-s-osiris-rex-spacecraft-collects-significant-amount-of-asteroid/)
     - [2020年10月23日ニュース「米国版はやぶさ『オシリス・レックス』が小惑星への着地に成功」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2020/10/20201023_01.html)
     - [MIT Tech Review: NASA探査機が小惑星ベンヌとの接触に成功、岩石サンプルを採取](https://www.technologyreview.jp/s/223010/osiris-rex-survived-its-touchdown-on-asteroid-bennu-now-we-wait-to-see-if-it-got-a-sample/)
+    - [MIT Tech Review: NASA探査機、小惑星のサンプル採取に成功も多過ぎて蓋が閉まらず](https://www.technologyreview.jp/s/223238/osiris-rex-collected-too-much-asteroid-material-and-now-some-is-floating-away/)
+    - [NASA探査機「オサイリス・レックス」が小惑星に着地、星の欠片の回収に成功 (1) 岩だらけの小惑星「ベンヌ」に着陸せよ！　NASAが挑んだ歴史的な大挑戦 | マイナビニュース](https://news.mynavi.jp/article/20201027-1438178/)
 - [ニュース - アルマ望遠鏡、イオの火山による大気への影響を明らかに - アルマ望遠鏡](https://alma-telescope.jp/news/io-202010)
 - [NASA to Announce New Science Results About Moon | NASA](https://www.nasa.gov/press-release/nasa-to-announce-new-science-results-about-moon/)
 - [[2010.11730] Maximum Black Hole mass across Cosmic Time](https://arxiv.org/abs/2010.11730) : [重力波 GW190521 は対生成型超新星爆発のせいで作られるはずがないと思われていたブラックホール (~85太陽質量)を含んでいたが、重元素の少ない大質量星で普通に作れるという主張](https://twitter.com/norita_kawanaka/status/1319485058118348802)

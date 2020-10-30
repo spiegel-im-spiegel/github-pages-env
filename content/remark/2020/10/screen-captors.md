@@ -51,6 +51,8 @@ $ gnome-screenshot --window --delay=5
 - [Copy the window or screen contents - Office Support](https://support.microsoft.com/en-us/office/copy-the-window-or-screen-contents-98c41969-51e5-45e1-be36-fb9381b32bb7)
 - [Snipping Tool を使ってスクリーン ショットをキャプチャする](https://support.microsoft.com/ja-jp/windows/snipping-tool-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3-%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%E3%82%92%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3%E3%81%99%E3%82%8B-00246869-1843-655f-f220-97299b865f6b)
 - [Ubuntuで端末からスクリーンショットを撮る方法まとめ - Qiita](https://qiita.com/yas-nyan/items/80f2db8c4bdf4c8e87b8)
+- [2020年10月現在スクリーンキャプチャおすすめツール(Windows/Mac)](https://zenn.dev/junki555/articles/982b5f3f124da1fb5548)
+- [Snagit = The Best Screen Capture Software (Free Trial) | TechSmith](https://www.techsmith.com/screen-capture.html) : 有料だがかなり「使える！」らしい
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 

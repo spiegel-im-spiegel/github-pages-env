@@ -64,6 +64,7 @@ GitHub リポジトリに HTTPS でアクセスしている場合は注意が必
 ## ブックマーク
 
 - [[ANNOUNCE] Git v2.29.1](https://lore.kernel.org/git/xmqq4kmlj9q9.fsf@gitster.c.googlers.com/)
+- [[ANNOUNCE] Git v2.29.2 - Junio C Hamano](https://lore.kernel.org/git/xmqqlffo4qjw.fsf@gitster.c.googlers.com/)
 - [Highlights from Git 2.29 - The GitHub Blog](https://github.blog/2020-10-19-git-2-29-released/)
 - [Release Git for Windows 2.29.0 · git-for-windows/git · GitHub](https://github.com/git-for-windows/git/releases/tag/v2.29.0.windows.1)
 - [Release Git for Windows 2.29.1 · git-for-windows/git · GitHub](https://github.com/git-for-windows/git/releases/tag/v2.29.1.windows.1)
