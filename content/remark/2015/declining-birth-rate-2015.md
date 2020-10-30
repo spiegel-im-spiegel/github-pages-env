@@ -102,6 +102,11 @@ tags = ["code", "politics", "declining-birth-rate"]
 2018年の合計特殊出生率は 1.42 とまた僅かに下がった。
 理由は2016年のときと同じ。
 
+### 2019年の合計特殊出生率
+
+2018年の合計特殊出生率は 1.36 と更に下がった。
+理由は2016年のときと同じ。
+
 ## 「少子化対策」ではなく「少子社会」を前提とした「育児支援」を{#politics}
 
 ### 「少子化」は（おそらく）解消しない
@@ -178,8 +183,8 @@ tags = ["code", "politics", "declining-birth-rate"]
 
 - [少子化 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%B0%91%E5%AD%90%E5%8C%96)
 - [合計特殊出生率 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%90%88%E8%A8%88%E7%89%B9%E6%AE%8A%E5%87%BA%E7%94%9F%E7%8E%87)
-- [日本の出生率と出生数をグラフ化してみる(最新) - ガベージニュース](http://www.garbagenews.net/archives/2013423.html) : 2018年までのデータあり
-    - [日本の高齢出産状況をグラフ化してみる(最新) - ガベージニュース](http://www.garbagenews.net/archives/2013446.html) : 2018年までのデータあり
+- [日本の出生率と出生数をグラフ化してみる(最新) - ガベージニュース](http://www.garbagenews.net/archives/2013423.html) : 2019年までのデータあり
+    - [日本の高齢出産状況をグラフ化してみる(最新) - ガベージニュース](http://www.garbagenews.net/archives/2013446.html) : 2019年までのデータあり
     - [いわゆる「未婚の母」による出生率をグラフ化してみる(最新) - ガベージニュース](http://www.garbagenews.net/archives/1654837.html) : 2018年までのデータあり
 - [チームラボ・猪子氏「ひとりで子育てできるなんて幻想」 子どもは集団で、いい加減に育てるべき | ログミー](http://logmi.jp/30580)
 - [外国人技能実習制度における問題のツケは現若者が払うことになりかねない - 空気を読まない中杜カズサ](http://nakamorikzs.net/entry/ginoujissyusei)
