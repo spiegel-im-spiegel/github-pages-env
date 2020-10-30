@@ -232,6 +232,34 @@ Windows Terminal の既定の shell を [NYAGOS] にできる。
 
 上述のセットアップについても，もう少し丁寧に書かれているので，是非どうぞ。
 
+### [Go] で GUID を取得する
+
+そういや [Go] の [`github.com/google/uuid`](https://pkg.go.dev/github.com/google/uuid) パッケージを使えば [UUID][RFC 4122] を取得可能だが， UUID は実質 GUID と同じなので，これを利用して
+
+```go
+package main
+
+import (
+    "fmt"
+
+    "github.com/google/uuid"
+)
+
+func main() {
+    fmt.Println(uuid.New())
+}
+```
+
+とすれば簡単に UUID/GUID が取れる。
+
+```text
+$ go run sample.go 
+f6bdc505-e417-4b7d-a247-a06504cf03a9
+```
+
+[Go]: https://golang.org/ "The Go Programming Language"
+[RFC 4122]: https://www.rfc-editor.org/rfc/rfc4122.html "RFC 4122: A Universally Unique IDentifier (UUID) URN Namespace"
+
 ## [Scoop] を使うなら git は必須
 
 これでインストールは全て完了だが，今後のためにもう少し [Scoop] で遊んでみよう。
