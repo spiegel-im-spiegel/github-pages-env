@@ -86,16 +86,22 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 [Git] については [Ubuntu] 公式リポジトリではなく [PPA のリポジトリ](https://launchpad.net/~git-core/+archive/ubuntu/ppa)からインストールしている。
 
-| Official | Release    |        Ubuntu | Release    |  Delay |
-| --------:| ---------- | -------------:| ---------- | ------:|
-|   2.28.0 | 2020-07-27 |  2.28.0-0ppa1 | 2020-07-28 | 1 days |
-|   2.27.0 | 2020-06-01 | 2.27.0-1~ppa0 | 2020-06-02 | 1 days |
-|   2.26.2 | 2020-04-20 |  2.26.2-0ppa1 | 2020-04-21 | 1 days |
-|   2.26.1 | 2020-04-14 |  2.26.1-0ppa1 | 2020-04-15 | 1 days |
-|   2.26.0 | 2020-03-22 | 2.26.0-1~ppa1 | 2020-03-24 | 2 days |
+| Official | Release    |        Ubuntu | Release    |   Delay |
+| --------:| ---------- | -------------:| ---------- | -------:|
+|   2.29.2 | 2020-10-29 |  2.29.2-0ppa1 | 2020-10-30 |   1 day |
+|   2.29.1 | 2020-10-23 |       &mdash; | &mdash;    | &mdash; |
+|   2.29.0 | 2020-10-19 |  2.29.0-0ppa1 | 2020-10-22 |  3 days |
+|   2.28.0 | 2020-07-27 |  2.28.0-0ppa1 | 2020-07-28 |  1 days |
+|   2.27.0 | 2020-06-01 | 2.27.0-1~ppa0 | 2020-06-02 |  1 days |
+|   2.26.2 | 2020-04-20 |  2.26.2-0ppa1 | 2020-04-21 |  1 days |
+|   2.26.1 | 2020-04-14 |  2.26.1-0ppa1 | 2020-04-15 |  1 days |
+|   2.26.0 | 2020-03-22 | 2.26.0-1~ppa1 | 2020-03-24 |  2 days |
 
 ### ブックマーク
 
+- [[ANNOUNCE] Git v2.29.2 - Junio C Hamano](https://lore.kernel.org/git/xmqqlffo4qjw.fsf@gitster.c.googlers.com/)
+- [[ANNOUNCE] Git v2.29.1](https://lore.kernel.org/git/xmqq4kmlj9q9.fsf@gitster.c.googlers.com/) : Windows 版のみの修正
+- [[ANNOUNCE] Git v2.29.0](https://lore.kernel.org/git/xmqqy2k2t77l.fsf@gitster.c.googlers.com/)
 - [[ANNOUNCE] Git v2.28.0](https://lore.kernel.org/git/xmqq5za8hpir.fsf@gitster.c.googlers.com/T/)
 - [[ANNOUNCE] Git v2.27.0](https://lore.kernel.org/git/xmqqzh9mu4my.fsf@gitster.c.googlers.com/T/)
 - [[Announce] Git v2.26.2 and others](https://lore.kernel.org/git/xmqq4kterq5s.fsf@gitster.c.googlers.com/T/)

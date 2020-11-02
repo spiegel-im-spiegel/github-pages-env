@@ -68,6 +68,7 @@ GitHub リポジトリに HTTPS でアクセスしている場合は注意が必
 - [Highlights from Git 2.29 - The GitHub Blog](https://github.blog/2020-10-19-git-2-29-released/)
 - [Release Git for Windows 2.29.0 · git-for-windows/git · GitHub](https://github.com/git-for-windows/git/releases/tag/v2.29.0.windows.1)
 - [Release Git for Windows 2.29.1 · git-for-windows/git · GitHub](https://github.com/git-for-windows/git/releases/tag/v2.29.1.windows.1)
+- [Release Git for Windows 2.29.2 · git-for-windows/git · GitHub](https://github.com/git-for-windows/git/releases/tag/v2.29.2.windows.1)
 - [「Git for Windows 2.29.0」が公開 ～セットアップ時にデフォルトブランチ名を設定可能 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1284871.html)
 
 - [PPA から Git をインストールする]({{< ref "/remark/2019/04/install-git-from-ppa.md" >}})
