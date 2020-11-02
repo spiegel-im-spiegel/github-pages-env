@@ -92,7 +92,7 @@ Windows 版の場合  `gpgconf.ctl` ファイルによる HOME の指定が優�
 ただし `--homedir` オプションは効くとのこと。
 これはこれで合理的。
 
-試しに [Ubuntu] で `gpgconf.ctl` を試してみたが効かなかった。
+試しに [Ubuntu] で `gpgconf.ctl` を置いてみたが効かなかった。
 まぁ，当たり前か（笑）
 
 それにしても [Scoop] はよい。
