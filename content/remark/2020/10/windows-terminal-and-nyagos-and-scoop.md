@@ -384,6 +384,15 @@ Home: C:/Users/username/scoop/apps/gnupg/current/home
 
 上述の `Home` だが，これもシンボリックリンクが切られていて，実体は `%USERPROFILE%\scoop\persist\gnupg\home` にある。
 
+{{< div-box type="markdown" >}}
+**【2020-11-02 追記】**
+[GnuPG] については以下の記事でもう少し掘り下げて紹介している。
+
+- [GnuPG の HOME はどこにある？]({{< ref "/openpgp/gnupg-home-in-windows.md" >}})
+
+[GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
+{{< /div-box >}}
+
 ## 今回はここまで
 
 おっと。
