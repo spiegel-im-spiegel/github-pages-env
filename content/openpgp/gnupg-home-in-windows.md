@@ -1,11 +1,10 @@
 +++
 title = "GnuPG の HOME はどこにある？"
-date = "2020-11-02T18:36:08+09:00"
+date = "2020-11-02T20:49:45+09:00"
 description = "GnuPG の HOME ディレクトリって .gnupg フォルダじゃねーの？"
 image = "/images/attention/openpgp.png"
 tags = [ "openpgp", "gnupg", "windows" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
