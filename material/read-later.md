@@ -37,6 +37,8 @@
 
 ## Windows に関する話題
 
+- [サクラエディタ/Eclipceを快適にするプログラミング用の日本語フォントを入れる（Windows） | HASH TECH（ハッシュテック） – 25歳エンジニアのWEB開発録](https://t-hsn.com/tech/201812/texteditor-font/) : 実はサクラエディタを使う必要があって...
+    - [mzyy94/RictyDiminished-for-Powerline: Ricty Diminished with Powerline patched --- fonts for programming](https://github.com/mzyy94/RictyDiminished-for-Powerline)
 - [CompatTelRunner.exeとは | CPU使用率が高い | プロセスを停止する](http://tooljp.com/Windows10/doc/process/html/CompatTelRunner.exe.html)
 
 ## Go 言語関連

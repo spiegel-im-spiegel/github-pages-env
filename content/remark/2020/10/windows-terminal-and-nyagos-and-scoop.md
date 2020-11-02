@@ -396,12 +396,15 @@ Home: C:/Users/username/scoop/apps/gnupg/current/home
 - [Scoopを使ったWindows環境構築のススメ - Super!! - Qiita](https://qiita.com/Dooteeen/items/12dc8fb14042888113d0)
 - [GUID生成ツール](https://hogehoge.tk/guid/)
 - [/bin/shに慣れた人に贈るバッチファイルの書き方](https://zenn.dev/zetamatta/books/c84cbe23093eee1b5830)
-- [サクラエディタ/Eclipceを快適にするプログラミング用の日本語フォントを入れる（Windows） | HASH TECH（ハッシュテック） – 25歳エンジニアのWEB開発録](https://t-hsn.com/tech/201812/texteditor-font/) : 実はサクラエディタを使う必要があって...
-    - [mzyy94/RictyDiminished-for-Powerline: Ricty Diminished with Powerline patched --- fonts for programming](https://github.com/mzyy94/RictyDiminished-for-Powerline)
+- [ScoopでWindowsにおける開発環境構築を最適化しよう | さにあらず](https://blog.satotaichi.info/scoop/index.html)
 
 [ATOM]: https://atom.io/ "Atom"
 [Scoop]: https://scoop.sh/ "Scoop"
 [Chocolatey]: https://chocolatey.org/ "Chocolatey Software | Chocolatey - The package manager for Windows"
 [NYAGOS]: https://github.com/zetamatta/nyagos "zetamatta/nyagos: NYAGOS - The hybrid Commandline Shell betweeeeeeen UNIX & DOS"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
-<!-- eof -->
+
+## 参考図書
+
+{{% review-paapi "4314009071" %}} <!-- 暗号化 プライバシーを救った反乱者たち -->
+{{% review-paapi "B015643CPE" %}} <!-- 暗号技術入門 第3版 -->
