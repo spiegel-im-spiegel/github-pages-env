@@ -83,7 +83,7 @@ HOME ディレクトリが `%USERPROFILE%\scoop\apps\gnupg\current\home` にな�
 おやや，と思って調べてみたら Windows 版の [GnuPG] はちょっと違うらしい。
 
 {{< fig-quote type="markdown" title="Agent Options (Using the GNU Privacy Guard)" link="https://www.gnupg.org/documentation/manuals/gnupg/Agent-Options.html" lang="en" >}}
-{{% quote %}}To install GnuPG as a portable application under Windows, create an empty file named `gpgconf.ctl` in the same directory as the tool `gpgconf.exe`. The root of the installation is then that directory; or, if `gpgconf.exe` has been installed directly below a directory named `bin`, its parent directory{{% /quote %}}.
+{{% quote %}}To install GnuPG as a portable application under Windows, create an empty file named `gpgconf.ctl` in the same directory as the tool `gpgconf.exe`. The root of the installation is then that directory; or, if `gpgconf.exe` has been installed directly below a directory named `bin`, its parent directory. You also need to make sure that the following directories exist and are writable: `ROOT/home` for the GnuPG home and `ROOT/usr/local/var/cache/gnupg` for internal cache files{{% /quote %}}.
 {{< /fig-quote >}}
 
 つまり（`gpgconf.exe` のある） `%USERPROFILE%\scoop\apps\gnupg\current\bin` フォルダに空の `gpgconf.ctl` ファイルを置けば その親ディレクトリ（`%USERPROFILE%\scoop\apps\gnupg\current`）がインストール・ルートとして認識され，その直下の `home` フォルダが [GnuPG] の `HOME` ディレクトリとなる。
