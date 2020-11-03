@@ -13738,5 +13738,56 @@
       false
     ],
     "Description": "いわゆる「テンキーレス」なキーボードが欲しかったので。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4416620616",
+      "Title": "天文年鑑 2021年版",
+      "URL": "https://www.amazon.co.jp/dp/4416620616?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/414Ar7oLWML._SL160_.jpg",
+        "Height": 160,
+        "Width": 111
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "天文年鑑 編集委員会",
+          "Role": "編集"
+        }
+      ],
+      "Publisher": "誠文堂新光社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4416620616"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784416620618"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4416620616"
+        }
+      ],
+      "PublicationDate": "2020-11-24",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-11-03",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "天文ファン必携。2021年版。"
   }
 ]

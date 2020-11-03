@@ -6,8 +6,8 @@ github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSs
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/spiegel-im-spiegel/errs v1.0.1 h1:pRPCRvofnnF+gJA8yZH61EEs9HlpjHz87qNC8MAsJ44=
 github.com/spiegel-im-spiegel/errs v1.0.1/go.mod h1:UoasJYYujMcdkbT9USv8dfZWoMyaY3btqQxoLJImw0A=
-github.com/spiegel-im-spiegel/koyomi v0.1.5 h1:GgQeQHoYl68gZM/nDOdbwv1Q6ULtdOZszb1e2rwnAS0=
-github.com/spiegel-im-spiegel/koyomi v0.1.5/go.mod h1:4uXeQZrkQi9FGNPTNTm+o//+VqcEKIbe+0mvZok0L18=
+github.com/spiegel-im-spiegel/koyomi v0.1.6 h1:CwfQB9k8Pu2rde2IUOEIpadXH1J4kj8JZ1Xaub6KwZ8=
+github.com/spiegel-im-spiegel/koyomi v0.1.6/go.mod h1:4uXeQZrkQi9FGNPTNTm+o//+VqcEKIbe+0mvZok0L18=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.6.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
