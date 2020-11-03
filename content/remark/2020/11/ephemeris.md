@@ -1,11 +1,10 @@
 +++
 title = "2020年11月の暦"
-date =  "2020-11-03T09:02:24+09:00"
+date =  "2020-11-03T09:40:46+09:00"
 description = "『天文年鑑』が出ると年末って感じ。"
 image = "/images/attention/kitten.jpg"
 tags = [ "astronomy", "ephemeris", "calendar" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
