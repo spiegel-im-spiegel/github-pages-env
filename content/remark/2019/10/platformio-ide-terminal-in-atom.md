@@ -11,6 +11,22 @@ pageType = "text"
   mermaidjs = false
 +++
 
+{{< div-box type="markdown" >}}
+**【2020-11-04 追記】**
+既に私は [platformio-ide-terminal] に見切りをつけて [x-terminal] に乗り換えました。
+
+- [とりあえず ATOM エディタ内ターミナルを x-terminal に乗り換えた]({{< ref "/remark/2020/05/x-terminal-with-atom.md" >}})
+
+メインで使ってるのは [Ubuntu] ですが， Windows 環境でも問題なく動きます。
+[NYAGOS] もちゃんと動く。
+ブラボー！
+
+[platformio-ide-terminal]: https://atom.io/packages/platformio-ide-terminal
+[x-terminal]: https://atom.io/packages/x-terminal
+[Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
+[NYAGOS]: https://github.com/zetamatta/nyagos "zetamatta/nyagos: NYAGOS - The hybrid Commandline Shell betweeeeeeen UNIX & DOS"
+{{< /div-box >}}
+
 最近は猫も杓子も Vim か VSCode で寂しい限りだが， [ATOM] 1.41 がリリースされ，ようやく [Electron] 4 ベースの構成になった。
 
 - [Release 1.41.0 · atom/atom · GitHub](https://github.com/atom/atom/releases/tag/v1.41.0)
