@@ -401,11 +401,14 @@ Home: C:/Users/username/scoop/apps/gnupg/current/home
 
 ## ブックマーク
 
+- [lukesampson/scoop: A command-line installer for Windows.](https://github.com/lukesampson/scoop)
 - [Windows用のコマンドラインインストーラScoop - Qiita](https://qiita.com/iakio/items/78e7f098047ea0a47d70)
 - [Scoopを使ったWindows環境構築のススメ - Super!! - Qiita](https://qiita.com/Dooteeen/items/12dc8fb14042888113d0)
 - [GUID生成ツール](https://hogehoge.tk/guid/)
 - [/bin/shに慣れた人に贈るバッチファイルの書き方](https://zenn.dev/zetamatta/books/c84cbe23093eee1b5830)
 - [ScoopでWindowsにおける開発環境構築を最適化しよう | さにあらず](https://blog.satotaichi.info/scoop/index.html)
+- [scoopを使ったwindows環境構築の実例 - Qiita](https://qiita.com/sozaiya/items/fd7ec3000939f0697939)
+- [Scoop で Git と SourceTree をインストール - ありふれた備忘録](https://blog.isonishi.com/posts/scoop-git-sourcetree/)
 
 [ATOM]: https://atom.io/ "Atom"
 [Scoop]: https://scoop.sh/ "Scoop"
