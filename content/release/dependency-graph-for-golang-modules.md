@@ -16,6 +16,13 @@ pageType = "text"
 
 {{< fig-img src="./output3.png" link="./output3.png" width="2534" >}}
 
+以降で [spiegel-im-spiegel/depm][depm] について簡単に紹介する。
+
+[![check vulns](https://github.com/spiegel-im-spiegel/depm/workflows/vulns/badge.svg)](https://github.com/spiegel-im-spiegel/depm/actions)
+[![lint status](https://github.com/spiegel-im-spiegel/depm/workflows/lint/badge.svg)](https://github.com/spiegel-im-spiegel/depm/actions)
+[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/spiegel-im-spiegel/depm/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/spiegel-im-spiegel/depm.svg)](https://github.com/spiegel-im-spiegel/depm/releases/latest)
+
 ## 簡単な使い方
 
 `-h` オプションで簡単な使い方が表示される。
