@@ -1,10 +1,5 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-- [tools/atom.md at master · golang/tools · GitHub](https://github.com/golang/tools/blob/master/gopls/doc/atom.md)
-- [atom-ide-go](https://atom.io/packages/atom-ide-go)
-- [GitHub - mdempsky/gocode: An autocompletion daemon for the Go programming language](https://github.com/mdempsky/gocode)
-- [GitHub - golang/tools: [mirror] Go Tools](https://github.com/golang/tools)
-
 ## リリース情報
 
 
