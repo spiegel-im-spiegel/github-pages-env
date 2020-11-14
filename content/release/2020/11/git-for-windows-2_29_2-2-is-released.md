@@ -37,7 +37,19 @@ This occurs because on Windows, Go includes (and prefers) the current directory 
 
 ## [CVE-2020-27955](https://nvd.nist.gov/vuln/detail/CVE-2020-27955)
 
-未稿。
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H`
+- 深刻度: 緊急 (Score: 9.8)
+
+| 基本評価基準     | 評価値       |
+| ---------------- | ------------ |
+| 攻撃元区分       | ネットワーク |
+| 攻撃条件の複雑さ | 低           |
+| 必要な特権レベル | 不要         |
+| ユーザ関与レベル | 不要         |
+| スコープ         | 変更なし     |
+| 機密性への影響   | 高           |
+| 完全性への影響   | 高           |
+| 可用性への影響   | 高           |
 
 ## アップデートは
 

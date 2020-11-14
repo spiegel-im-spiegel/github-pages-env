@@ -33,7 +33,6 @@ $ sudo tar xvf src/go1.15.4.linux-amd64.tar.gz
 $ sudo mv go go1.15.4
 $ sudo ln -s go1.15.4 go
 $ go version # /usr/local/go/bin にパスが通っている場合
-sudo ln -s go1.15.4 go
 go version go1.15.4 linux/amd64
 ```
 
