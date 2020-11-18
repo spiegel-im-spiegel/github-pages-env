@@ -11,6 +11,18 @@ pageType = "text"
   mermaidjs = false
 +++
 
+{{< div-box type="markdown" >}}
+**【2020-11-19 追記】**
+[golang.org/x/xerrors] の機能は [`errors`] パッケージおよび [`fmt`] パッケージの `Errorf()` 関数にほぼ取り込まれている。
+今後は [`errors`] を使うことを強くお勧めする。
+
+- [Go 1.13 のエラー・ハンドリング]({{< relref "./error-handling-in-go-1_3.md" >}})
+
+[golang.org/x/xerrors]: https://godoc.org/golang.org/x/xerrors "xerrors - GoDoc"
+[`errors`]: https://golang.org/pkg/errors/ "errors - The Go Programming Language"
+[`fmt`]: https://golang.org/pkg/fmt/ "fmt - The Go Programming Language"
+{{< /div-box >}}
+
 新しい error パッケージ [golang.org/x/xerrors] がリリースされたそうな。
 これはいわゆる “[Go 2 Draft](https://go.googlesource.com/proposal/+/master/design/go2draft.md)” の “[Error Inspection](https://go.googlesource.com/proposal/+/master/design/go2draft-error-inspection.md)” を実装したもので，なんと Go 1.13 以降で既存の標準 [`errors`] パッケージに組み込む計画があるらしい。
 
