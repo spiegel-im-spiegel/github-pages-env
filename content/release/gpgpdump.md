@@ -11,7 +11,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-- [spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer](https://github.com/spiegel-im-spiegel/gpgpdump)
+- [spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer][gpgpdump]
 
 [gpgpdump] は [OpenPGP] パッケットの内容を human-readable な形式で可視化するコマンドライン・ツールである。
 [山本和彦](http://www.mew.org/~kazu/)さんによる [pgpdump] を参考デザインとし， [Go 言語]で組み直している。
@@ -22,6 +22,7 @@ pageType = "text"
 - 現行仕様である [RFC 4880] に追加して [RFC 5581] および [RFC 6637] にも対応している
 - 次期 [OpenPGP] ドラフト案である [RFC 4880bis] にも一部対応している
 - [HKP (HTTP Keyserver Protocol)][HKP] を用いて [OpenPGP] 鍵サーバから直接公開鍵を取得して検証できる
+- [GitHub] に登録している OpenPGP 公開鍵を直接取得して検証できる
 
 [![check vulns](https://github.com/spiegel-im-spiegel/gpgpdump/workflows/vulns/badge.svg)](https://github.com/spiegel-im-spiegel/gpgpdump/actions)
 [![lint status](https://github.com/spiegel-im-spiegel/gpgpdump/workflows/lint/badge.svg)](https://github.com/spiegel-im-spiegel/gpgpdump/actions)
@@ -33,13 +34,12 @@ pageType = "text"
 [gpgpdump] は以下の [Go] コマンドでダウンロードとビルドができる。
 
 ```
-$ go get github.com/spiegel-im-spiegel/gpgpdump/cli/gpgpdump@latest
+$ go get github.com/spiegel-im-spiegel/gpgpdump@latest
 ```
 
-なおビルドには [Go] 1.13 以降が要件となる（1.15 以降推奨）。
-ご注意を。
+なおビルドには [Go] 1.13 以降が要件となるのでご注意を。
 
-各プラットフォーム用のバイナリも用意している。
+64ビット版のみであるが，各プラットフォーム用のバイナリも用意している。
 [最新バイナリはリリースページから取得](https://github.com/spiegel-im-spiegel/gpgpdump/releases/latest)できる。
 
 ## 簡単な使い方
@@ -53,17 +53,19 @@ Usage:
   gpgpdump [command]
 
 Available Commands:
+  fetch       Dumps OpenPGP packets form the Web
+  github      Dumps OpenPGP keys registered on GitHub
   help        Help about any command
-  hkp         Dumps from OpenPGP key server
+  hkp         Dumps OpenPGP packets from the key server
   version     Print the version number
 
 Flags:
-  -a, --armor         accepts ASCII input only
+  -a, --armor         accepts ASCII armor text only
   -c, --cert          dumps attested certification in signature packets (tag 2)
       --debug         for debug
   -f, --file string   path of OpenPGP file
   -h, --help          help for gpgpdump
-      --indent int    indent size for output string
+      --indent int    indent size for output text
   -i, --int           dumps multi-precision integers
   -j, --json          output with JSON format
   -l, --literal       dumps literal packets (tag 11)
@@ -213,10 +215,13 @@ $ cat testdata/eccsig.asc | gpgpdump -u -j | jq .
 
 ```text
 $ gpgpdump hkp -h
-Dumps from OpenPGP key server
+Dumps OpenPGP packets from the key server.
 
 Usage:
   gpgpdump hkp [flags] <user ID or key ID>
+
+Aliases:
+  hkp, h
 
 Flags:
   -h, --help               help for hkp
@@ -226,10 +231,10 @@ Flags:
       --secure             enable HKP over HTTPS
 
 Global Flags:
-  -a, --armor        accepts ASCII input only
+  -a, --armor        accepts ASCII armor text only
   -c, --cert         dumps attested certification in signature packets (tag 2)
       --debug        for debug
-      --indent int   indent size for output string
+      --indent int   indent size for output text
   -i, --int          dumps multi-precision integers
   -j, --json         output with JSON format
   -l, --literal      dumps literal packets (tag 11)
@@ -241,94 +246,16 @@ Global Flags:
 `hkp` サブコマンドを指定することで [OpenPGP] 鍵サーバから [HKP] により直接公開鍵を取得して中身を検証することができる。
 
 ```text
-$ gpgpdump hkp -u 0x44ce6900e2b307a4
+$ gpgpdump hkp 0x44ce6900e2b307a4 -u
 Public-Key Packet (tag 6) (269 bytes)
     Version: 4 (current)
     Public key creation time: 2009-11-08T15:20:55Z
-        4a f6 e1 d7
     Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
     RSA public modulus n (2048 bits)
     RSA public encryption exponent e (17 bits)
 User ID Packet (tag 13) (25 bytes)
     User ID: Alice <alice@example.com>
-Signature Packet (tag 2) (140 bytes)
-    Version: 4 (current)
-    Signiture Type: Generic certification of a User ID and Public-Key packet (0x10)
-    Public-key Algorithm: EdDSA (pub 22)
-    Hash Algorithm: SHA2-256 (hash 8)
-    Hashed Subpacket (52 bytes)
-        Issuer Fingerprint (sub 33) (21 bytes)
-            Version: 4 (need 20 octets length)
-            Fingerprint (20 bytes)
-                3b cc c7 cf d2 59 7e 53 44 dd 96 4a 72 9b 52 3d 11 f3 a8 d7
-        Signature Creation Time (sub 2): 2020-06-22T01:57:38Z
-        Notation Data (sub 20) (21 bytes)
-            Flag: Human-readable
-            Name: rem@gnupg.org
-            Value (0 byte)
-    Unhashed Subpacket (10 bytes)
-        Issuer (sub 16): 0x729b523d11f3a8d7
-    Hash left 2 bytes
-        b1 15
-    EdDSA compressed value r (256 bits)
-    EdDSA compressed value s (256 bits)
-Signature Packet (tag 2) (312 bytes)
-    Version: 4 (current)
-    Signiture Type: Positive certification of a User ID and Public-Key packet (0x13)
-    Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
-    Hash Algorithm: SHA-1 (hash 2)
-    Hashed Subpacket (34 bytes)
-        Signature Creation Time (sub 2): 2009-11-08T15:20:55Z
-        Key Flags (sub 27) (1 bytes)
-            Flag: This key may be used to certify other keys.
-            Flag: This key may be used to sign data.
-        Preferred Symmetric Algorithms (sub 11) (5 bytes)
-            Symmetric Algorithm: AES with 256-bit key (sym 9)
-            Symmetric Algorithm: AES with 192-bit key (sym 8)
-            Symmetric Algorithm: AES with 128-bit key (sym 7)
-            Symmetric Algorithm: CAST5 (128 bit key, as per) (sym 3)
-            Symmetric Algorithm: TripleDES (168 bit key derived from 192) (sym 2)
-        Preferred Hash Algorithms (sub 21) (5 bytes)
-            Hash Algorithm: SHA2-256 (hash 8)
-            Hash Algorithm: SHA-1 (hash 2)
-            Hash Algorithm: SHA2-384 (hash 9)
-            Hash Algorithm: SHA2-512 (hash 10)
-            Hash Algorithm: SHA2-224 (hash 11)
-        Preferred Compression Algorithms (sub 22) (3 bytes)
-            Compression Algorithm: ZLIB <RFC1950> (comp 2)
-            Compression Algorithm: BZip2 (comp 3)
-            Compression Algorithm: ZIP <RFC1951> (comp 1)
-        Features (sub 30) (1 bytes)
-            Flag: Modification Detection (packets 18 and 19)
-        Key Server Preferences (sub 23) (1 bytes)
-            Flag: No-modify
-    Unhashed Subpacket (10 bytes)
-        Issuer (sub 16): 0x44ce6900e2b307a4
-    Hash left 2 bytes
-        93 62
-    RSA signature value m^d mod n (2045 bits)
-Public-Subkey Packet (tag 14) (269 bytes)
-    Version: 4 (current)
-    Public key creation time: 2009-11-08T15:20:55Z
-        4a f6 e1 d7
-    Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
-    RSA public modulus n (2048 bits)
-    RSA public encryption exponent e (17 bits)
-Signature Packet (tag 2) (287 bytes)
-    Version: 4 (current)
-    Signiture Type: Subkey Binding Signature (0x18)
-    Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
-    Hash Algorithm: SHA-1 (hash 2)
-    Hashed Subpacket (9 bytes)
-        Signature Creation Time (sub 2): 2009-11-08T15:20:55Z
-        Key Flags (sub 27) (1 bytes)
-            Flag: This key may be used to encrypt communications.
-            Flag: This key may be used to encrypt storage.
-    Unhashed Subpacket (10 bytes)
-        Issuer (sub 16): 0x44ce6900e2b307a4
-    Hash left 2 bytes
-        66 f3
-    RSA signature value m^d mod n (2048 bits)
+...
 ```
 
 以下のオプションを使って [OpenPGP] 鍵サーバを指定可能。
@@ -339,23 +266,10 @@ Signature Packet (tag 2) (287 bytes)
 | `port`       | 11371            | [OpenPGP] 鍵サーバのポート番号   |
 | `secure`     | false            | [HKP] over HTTPS を有効にする      |
 
-さらに `--raw` オプションを使うとダンプ表示はせず [HKP] の結果をそのまま表示する。
+さらに `--raw` オプションを使うとダンプ表示はせず，鍵サーバから取得したデータ（ASCII armor テキスト）をそのまま表示する。
 
 ```text
 $ gpgpdump hkp --raw 0x44ce6900e2b307a4
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" >
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title>Public Key Server -- Get "0x44ce6900e2b307a4 "</title>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<style type="text/css">
-/*<![CDATA[*/
- .uid { color: green; text-decoration: underline; }
- .warn { color: red; font-weight: bold; }
-/*]]>*/
-</style></head><body><h1>Public Key Server -- Get "0x44ce6900e2b307a4 "</h1>
-<pre>
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: SKS 1.1.6
 Comment: Hostname: sks.pod02.fleetstreetops.com
@@ -387,9 +301,141 @@ KH/KNBqYms9+E0UXWd70hQZaKKV3Tch/ldnAVMSwMaKmkD6zFvULJqkcP+QNWIqxLqc7He8/
 P1FRChSHTwsazDVjP0AKzttqhGYxNw==
 =QFnp
 -----END PGP PUBLIC KEY BLOCK-----
-</pre>
-</body></html>
 ```
+
+## [GitHub] に登録されている OpenPGP 公開鍵を検証する
+
+```text
+$ gpgpdump github -h
+Dumps OpenPGP keys registered on GitHub.
+
+Usage:
+  gpgpdump github [flags] <GitHub user ID>
+
+Aliases:
+  github, gh, g
+
+Flags:
+  -h, --help           help for github
+      --keyid string   OpenPGP key ID
+      --raw            output raw text (ASCII armor text)
+
+Global Flags:
+  -a, --armor        accepts ASCII armor text only
+  -c, --cert         dumps attested certification in signature packets (tag 2)
+      --debug        for debug
+      --indent int   indent size for output text
+  -i, --int          dumps multi-precision integers
+  -j, --json         output with JSON format
+  -l, --literal      dumps literal packets (tag 11)
+  -m, --marker       dumps marker packets (tag 10)
+  -p, --private      dumps private packets (tag 60-63)
+  -u, --utc          output with UTC time
+```
+
+[GitHub] はユーザごとに OpenPGP 公開鍵を登録することができ，コミット等に付与された電子署名を検証することができる。
+`github` サブコマンドでこの公開鍵を [GitHub] から直接取得して中身を検証することができる。
+
+```text
+$ gpgpdump github spiegel-im-spiegel -u
+Public-Key Packet (tag 6) (1198 bytes)
+    Version: 4 (current)
+    Public key creation time: 2013-04-28T10:29:43Z
+    Public-key Algorithm: DSA (Digital Signature Algorithm) (pub 17)
+    DSA p (3072 bits)
+    DSA q (q is a prime divisor of p-1) (256 bits)
+    DSA g (3070 bits)
+    DSA y (= g^x mod p where x is secret) (3067 bits)
+...
+```
+
+複数の OpenPGP 公開鍵を登録している場合は，全ての鍵が連結された状態で取得される。
+特定の公開鍵だけを見たい場合は `--keyid` オプションを使って
+
+```text
+$ gpgpdump github spiegel-im-spiegel -u --keyid 3b460ba9a59048c9
+Public-Key Packet (tag 6) (51 bytes)
+    Version: 4 (current)
+    Public key creation time: 2020-10-27T06:20:19Z
+    Public-key Algorithm: EdDSA (pub 22)
+    ECC Curve OID: ed25519 (256bits key size)
+        2b 06 01 04 01 da 47 0f 01
+    EdDSA EC point (Native point format of the curve follows) (263 bits)
+...
+```
+
+などとすればよい。
+
+`--raw` オプションを使うとダンプ表示はせず， [GitHub] から取得したデータ（ASCII armor テキスト）をそのまま表示する。
+
+```text
+$ gpgpdump github spiegel-im-spiegel --keyid 3b460ba9a59048c9 --raw
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEX5e8IxYJKwYBBAHaRw8BAQdAsbKSTsqzMQSUdWv/UQBfYf+HD9/+dzCT+zVN
+IvZRQ/e0L1NwaWVnZWwgKGdpdGh1YikgPHNwaWVnZWwuaW0uc3BpZWdlbEBnbWFp
+bC5jb20+iJAEExYIADgWIQRK8EwUs6FchRaOGmc7RguppZBIyQUCX5e8IwIbAwUL
+CQgHAgYVCgkICwIEFgIDAQIeAQIXgAAKCRA7RguppZBIyVTWAPoChzM/FBkpqBVl
+Uv2v3cE3UIfPENm5qWegUmmBg3yTLgD+MXyI6zter+DDUT9e0UWeaOZrsJvCpBUh
+9eLxUMpiKg64OARfl7wjEgorBgEEAZdVAQUBAQdALSF4rszFFAhisXD/7ZKytW1M
+LSWGPxW4sLNezkhKfX0DAQgHiHgEGBYIACAWIQRK8EwUs6FchRaOGmc7RguppZBI
+yQUCX5e8IwIbDAAKCRA7RguppZBIyUzLAQCDNMwKtq1zR2KHm9F0Fvp66vv2grX1
+j0TRb5sEayG9YQEA5ap7JltKc4iVThzu7bY1D+sZ3KbXetecf+QQv6YrwAE=
+=n3Jr
+-----END PGP PUBLIC KEY BLOCK-----
+```
+
+## 任意の URL を指定して Web 上にある OpenPGP パケット・データを検証する
+
+```text
+$ gpgpdump fetch -h
+Dumps OpenPGP packets form the Web.
+
+Usage:
+  gpgpdump fetch [flags] <URL>
+
+Aliases:
+  fetch, fch, f
+
+Flags:
+  -h, --help   help for fetch
+      --raw    output raw data
+
+Global Flags:
+  -a, --armor        accepts ASCII armor text only
+  -c, --cert         dumps attested certification in signature packets (tag 2)
+      --debug        for debug
+      --indent int   indent size for output text
+  -i, --int          dumps multi-precision integers
+  -j, --json         output with JSON format
+  -l, --literal      dumps literal packets (tag 11)
+  -m, --marker       dumps marker packets (tag 10)
+  -p, --private      dumps private packets (tag 60-63)
+  -u, --utc          output with UTC time
+```
+
+`fetch` サブコマンドで Web 上にある OpenPGP パケット・データ（公開鍵や電子署名など）を直接取得して中身を検証することができる。
+
+```text
+$ gpgpdump fetch https://github.com/spiegel-im-spiegel.gpg -u
+Public-Key Packet (tag 6) (1198 bytes)
+    Version: 4 (current)
+    Public key creation time: 2013-04-28T10:29:43Z
+    Public-key Algorithm: DSA (Digital Signature Algorithm) (pub 17)
+    DSA p (3072 bits)
+    DSA q (q is a prime divisor of p-1) (256 bits)
+    DSA g (3070 bits)
+    DSA y (= g^x mod p where x is secret) (3067 bits)
+...
+```
+
+`--raw` オプションを使うとダンプ表示はせず， 取得したデータをそのまま標準出力に出力する。
+
+```text
+$ gpgpdump fetch https://github.com/spiegel-im-spiegel.gpg --raw
+```
+
+中身がテキストとは限らないのでご注意を。
 
 ## [gpgpdump] を [Go] パッケージとして使う
 
@@ -479,6 +525,7 @@ Signature Packet (tag 2) (94 bytes)
 ## ブックマーク
 
 - [OpenPGP の実装]({{< rlnk  "/openpgp/" >}})
+- [GitHub に登録した OpenPGP 公開鍵を取り出す](https://zenn.dev/spiegel/articles/20201014-openpgp-pubkey-in-github)
 
 [OpenPGP]: http://openpgp.org/
 [gpgpdump]: https://github.com/spiegel-im-spiegel/gpgpdump "spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer"
@@ -493,6 +540,7 @@ Signature Packet (tag 2) (94 bytes)
 [RFC 6637]: http://tools.ietf.org/html/rfc6637
 [RFC 4880bis]: https://datatracker.ietf.org/doc/draft-ietf-openpgp-rfc4880bis/
 [HKP]: https://tools.ietf.org/html/draft-shaw-openpgp-hkp-00 "draft-shaw-openpgp-hkp-00 - The OpenPGP HTTP Keyserver Protocol (HKP)"
+[GitHub]: https://github.com/ "GitHub"
 
 ## 参考図書
 
