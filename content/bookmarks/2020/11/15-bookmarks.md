@@ -32,12 +32,14 @@ pageType = "text"
 - [PGP公開鍵について｜国税庁法人番号公表サイト](https://www.houjin-bangou.nta.go.jp/download/kokaikagi/)
 - [Microsoft 製品の脆弱性対策について(2020年11月)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20201111-ms.html)
     - [2020年11月マイクロソフトセキュリティ更新プログラムに関する注意喚起](https://www.jpcert.or.jp/at/2020/at200042.html)
+    - [2020年11月の月例更新を適用した「Windows Server」でKerberos認証に問題 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1289308.html)
 - [CPU消費電力の変動から機密情報を推測できるサイドチャネル脆弱性 ～AMDがその他2件の問題を公表 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1288355.html)
 - [ゆうちょ、「mijica」で不備多数もサービス内容は継続へ--セキュリティ点検結果を公表 - CNET Japan](https://japan.cnet.com/article/35162169/)
 - [Zoomは「エンドツーエンドの暗号化」についてユーザーに虚偽の宣伝をしたと連邦取引委員会が主張 - GIGAZINE](https://gigazine.net/news/20201111-zoom-lied-users-encryption/)
 - [2020 Is An Election Security Success Story (So Far) - Lawfare](https://www.lawfareblog.com/2020-election-security-success-story-so-far)
     - [2020 Was a Secure Election - Schneier on Security](https://www.schneier.com/blog/archives/2020/11/2020-was-a-secure-election.html)
     - [ブログ: 2020年はセキュアな選挙だった](https://okuranagaimo.blogspot.com/2020/11/2020.html)
+    - [2020年の米大統領選は「史上最も安全」だった--CISAなどが声明 - ZDNet Japan](https://japan.zdnet.com/article/35162508/)
 - [Ubuntuに特権ユーザーを誰でも簡単に作成できてしまう脆弱性が見つかる - GIGAZINE](https://gigazine.net/news/20201113-ubuntu-make-administrator-vulnerability/) : 既に対策済み
 
 ## 天文関連

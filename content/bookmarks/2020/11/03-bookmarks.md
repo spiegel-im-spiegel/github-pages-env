@@ -48,6 +48,8 @@ pageType = "text"
 
 - [RIAA's YouTube-DL Takedown Ticks Off Developers and GitHub's CEO * TorrentFreak](https://torrentfreak.com/riaas-youtube-dl-takedown-ticks-of-developers-and-githubs-ceo-201027/)
     - [GitHub、RIAAからのDMCA申請で複数のリポジトリを削除 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2010/26/news064.html)
+    - [Standing up for developers: youtube-dl is back - The GitHub Blog](https://github.blog/2020-11-16-standing-up-for-developers-youtube-dl-is-back/)
+    - [GitHub、「youtube-dl」ライブラリーを復活--違法性ないと判断 - ZDNet Japan](https://japan.zdnet.com/article/35162547/)
 - [20 Years Ago, LimeWire Took File-Sharing to A New Level * TorrentFreak](https://torrentfreak.com/20-years-ago-limewire-took-file-sharing-to-a-new-level-201101/)
 - [GitHub Warns Users Reposting YouTube-DL They Could Be Banned * TorrentFreak](https://torrentfreak.com/github-warns-users-reposting-youtube-dl-they-could-be-banned-201102/)
 
