@@ -172,7 +172,7 @@ Origin: Ubuntu
 GNOME/libsecret は `apt upgrade` しただけではダメで，手動でビルドする必要がある。
 
 ```text
-$ mkdor ~/work
+$ mkdir ~/work
 $ cd ~/work
 $ cp -r /usr/share/doc/git/contrib/credential/libsecret .
 $ cd libsecret

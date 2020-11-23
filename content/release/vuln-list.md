@@ -23,37 +23,38 @@ pageType = "text"
 [Ubuntu] アプリケーションのチェックは最新ディストリビューション下で行う。
 現在有効なディストリビューション・バージョンは以下の通り。
 
-| Uistribution        | Release    | Expire        |
-| ------------------- | ---------- | ------------- |
-| 20.04 (Focal Fossa) | 2020-04-23 | 2025-04 (LTS) |
-| 19.10 (Eoan Ermine) | 2019-10-17 | 2020-07       |
+| Uistribution           | Release    | Expire        |
+| ---------------------- | ---------- | ------------- |
+| 20.10 (Groovy Gorilla) | 2020-10-22 | 2021-07       |
+| 20.04 (Focal Fossa)    | 2020-04-23 | 2025-04 (LTS) |
 
+- [Groovy Gorilla Release Notes - Release - Ubuntu Community Hub](https://discourse.ubuntu.com/t/groovy-gorilla-release-notes/15533) ([日本語](https://wiki.ubuntu.com/GroovyGorilla/ReleaseNotes/Ja))
 - [FocalFossa/ReleaseNotes - Ubuntu Wiki](https://wiki.ubuntu.com/FocalFossa/ReleaseNotes)
 - [EoanErmine/ReleaseNotes - Ubuntu Wiki](https://wiki.ubuntu.com/EoanErmine/ReleaseNotes)
 
 ## [GnuPG]
 
-[Ubuntu] 20.04 LTS リリース時の最新バージョンは 2.2.19 (Libgcrypt 1.8.5) である。
-LTS リリースのタイミングでアップデートされるのか `orz`
+[Ubuntu] 20.10 リリース時の最新バージョンは 2.2.20 (Libgcrypt 1.8.5) である。
 
-| Official | Release    |         Ubuntu | Release    |      Delay |
-| --------:| ---------- | --------------:| ---------- | ----------:|
-|   2.2.23 | 2020-09-03 |                |            |    ∞ days |
-|   2.2.22 | 2020-08-27 |        &mdash; | &mdash;    |    &mdash; |
-|   2.2.21 | 2020-07-09 |        &mdash; | &mdash;    |    &mdash; |
-|   2.2.20 | 2020-03-20 |        &mdash; | &mdash;    |    &mdash; |
-|   2.2.19 | 2019-12-07 | (Ubuntu 20.04) | 2020-04-23 | 4.5 months |
+| Official | Release    |         Ubuntu | Release    |   Delay |
+| --------:| ---------- | --------------:| ---------- | -------:|
+|   2.2.24 | 2020-11-17 |                |            | ∞ days |
+|   2.2.23 | 2020-09-03 |        &mdash; | &mdash;    | &mdash; |
+|   2.2.22 | 2020-08-27 |        &mdash; | &mdash;    | &mdash; |
+|   2.2.21 | 2020-07-09 |        &mdash; | &mdash;    | &mdash; |
+|   2.2.20 | 2020-03-20 | (Ubuntu 20.10) | 2020-10-22 | &mdash; |
 
 ### Libgcrypt
 
-| Official | Release    |               Ubuntu | Release    |      Delay |
-| --------:| ---------- | --------------------:| ---------- | ----------:|
-|    1.8.6 | 2020-07-06 |                      |            |    ∞ days |
-|    1.8.5 | 2019-08-29 |       (Ubuntu 20.04) | 2020-04-23 |    &mdash; |
-|    1.8.5 | 2019-08-29 | 1.8.4-5 (USN-4236-1) | 2020-01-13 | 4.5 months |
+| Official | Release    |         Ubuntu | Release    |   Delay |
+| --------:| ---------- | --------------:| ---------- | -------:|
+|    1.8.7 | 2020-10-23 |                |            | ∞ days |
+|    1.8.6 | 2020-07-06 |        &mdash; | &mdash;    | &mdash; |
+|    1.8.5 | 2019-08-29 | (Ubuntu 20.10) | 2020-10-22 | &mdash; |
 
 ### ブックマーク
 
+- [GnuPG 2.2.24 がリリースされた]({{< ref "/release/2020/11/gnupg-2_2_24-is-released.md" >}})
 - [GnuPG 2.2.23 のリリース【セキュリティ・アップデート】]({{< ref "/release/2020/09/gnupg-2_2_23-is-released.md" >}})
 - [GnuPG 2.2.22 がリリースされた]({{< ref "/release/2020/08/gnupg-2_2_22-is-released.md" >}})
 - [GnuPG 2.2.21 および Libgcrypt 1.8.6 がリリースされた]({{< ref "/release/2020/07/gnupg-2_2_21-is-released.md" >}})
@@ -67,14 +68,15 @@ LTS リリースのタイミングでアップデートされるのか `orz`
 
 ## [OpenSSL]
 
-[OpenSSL] はディストリビューションがアップグレードされない限り（脆弱性があっても）更新されないようだ。
+[OpenSSL] はディストリビューションがアップグレードされない限り（脆弱性があっても）更新されないようだ（バックポート・パッチで対応？）。
 よって[手動で管理する]({{< ref "/remark/2020/06/installing-openssl-in-ubuntu.md" >}} "Ubuntu に最新の OpenSSL を入れる")ことにした。
 以下は参考情報として記しておく。
 
 | Official | Release    |         Ubuntu | Release    |   Delay |
 | --------:| ---------- | --------------:| ---------- | -------:|
-|   1.1.1g | 2020-04-21 |                |            | ∞ days |
-|   1.1.1f | 2020-03-31 | (Ubuntu 20.04) | 2020-04-23 | &mdash; |
+|   1.1.1h | 2020-09-22 |                |            | ∞ days |
+|   1.1.1g | 2020-04-21 |        &mdash; | &mdash;    | &mdash; |
+|   1.1.1f | 2020-03-31 | (Ubuntu 20.10) | 2020-10-22 | &mdash; |
 
 ### ブックマーク
 

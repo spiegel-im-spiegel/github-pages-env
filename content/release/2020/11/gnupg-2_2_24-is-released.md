@@ -43,14 +43,43 @@ pageType = "text"
 Release-info: https://dev.gnupg.org/T5052
 {{< /fig-quote >}}
 
-アップデートは計画的に。
+## 【2020-11-23 追記】 [Libgcrypt] が 1.8.7 に上がっていた
+
+[Scoop] で Windows 版 [GnuPG] をアップデートして気付いたのだが
+
+```text
+$ gpg --version
+gpg (GnuPG) 2.2.24
+libgcrypt 1.8.7
+Copyright (C) 2020 g10 Code GmbH
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Home: ********
+サポートしているアルゴリズム:
+公開鍵: RSA, ELG, DSA, ECDH, ECDSA, EDDSA
+暗号方式: IDEA, 3DES, CAST5, BLOWFISH, AES, AES192, AES256, TWOFISH,
+    CAMELLIA128, CAMELLIA192, CAMELLIA256
+ハッシュ: SHA1, RIPEMD160, SHA256, SHA384, SHA512, SHA224
+圧縮: 無圧縮, ZIP, ZLIB, BZIP2
+```
+
+[Libgcrypt] が 1.8.7 に上がってるぢゃん。
+どうやら 2020-10-23 にリリースされていたようなのだが，せめてメーリングリストにでもアナウンスしてくれよ `orz`
+
+## アップデートは...
+
+計画的に。
 
 ## ブックマーク
 
 - [OpenPGP の実装]({{< rlnk "/openpgp/" >}})
 
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
+[Libgcrypt]: https://gnupg.org/software/libgcrypt/
 [OpenPGP]: http://openpgp.org/
+[Scoop]: https://scoop.sh/ "Scoop"
 
 ## 参考図書
 
