@@ -19,7 +19,7 @@ pageType = "text"
 
 詳細はこちら。
 
-{{< fig-quote type="markdown" title="GnuPG 2.2.24 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2020q4/000449.html" lang="en" >}}
+{{< fig-quote type="markdown" title="GnuPG 2.2.25 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2020q4/000450.html" lang="en" >}}
 * scd: Fix regression in 2.2.24 requiring `gpg --card-status` before signing or decrypting.  [#5065]
 * gpgsm: Using Libksba 1.5.0 signatures with a rarely used combination of attributes can now be verified.  [#5146]
 
