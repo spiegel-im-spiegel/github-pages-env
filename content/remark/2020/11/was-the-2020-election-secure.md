@@ -37,4 +37,7 @@ On the cybersecurity front, there is even more good news. Most significantly, th
 しかし，現職大統領がパンデミックと同列のリスクと見なされる国って。
 日本の現職首相が国民からそう思われないことを祈ります。
 遅いか（笑）
-<!-- eof -->
+
+## ブックマーク
+
+- [More on the Security of the 2020 US Election - Schneier on Security](https://www.schneier.com/blog/archives/2020/11/more-on-the-security-of-the-2020-us-election.html)
