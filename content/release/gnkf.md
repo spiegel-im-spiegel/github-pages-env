@@ -30,8 +30,8 @@ pageType = "text"
 - `width`: [全角・半角変換]({{< relref "#width" >}})
 - `kana`: [かなカナ変換]({{< relref "#kana" >}})
 - `base64`; [BASE64 符号化]({{< relref "#base64" >}})
-- `dump`: [16進ダンプ]({{< relref "#dump" >}})
 - `remove-bom` : [BOM の除去]({{< relref "#remove-bom" >}})
+- `dump`: [16進ダンプ]({{< relref "#dump" >}})
 
 以降からもう少し詳しく紹介する。
 
