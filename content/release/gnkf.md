@@ -31,6 +31,7 @@ pageType = "text"
 - `kana`: [かなカナ変換]({{< relref "#kana" >}})
 - `base64`; [BASE64 符号化]({{< relref "#base64" >}})
 - `dump`: [16進ダンプ]({{< relref "#dump" >}})
+- `remove-bom` : [BOM の除去]({{< relref "#remove-bom" >}})
 
 以降からもう少し詳しく紹介する。
 
@@ -100,6 +101,7 @@ Flags:
   -g, --guess                 guess character encoding of source text
   -h, --help                  help for enc
   -o, --output string         path of output file
+  -b, --remove-bom            remove BOM character in source text (UTF-8 only)
   -s, --src-encoding string   character encoding name of source text (default "utf-8")
 
 Global Flags:
@@ -169,6 +171,7 @@ Flags:
   -k, --kangxi-radicals    normalize kangxi radicals only (with nfkc or nfkd form)
   -n, --norm-form string   Unicode normalization form: [nfc|nfd|nfkc|nfkd] (default "nfc")
   -o, --output string      path of output file
+  -b, --remove-bom         remove BOM character
 
 Global Flags:
       --debug   for debug
@@ -213,6 +216,7 @@ Flags:
   -f, --file string              path of input text file
   -h, --help                     help for width
   -o, --output string            path of output file
+  -b, --remove-bom               remove BOM character
 
 Global Flags:
       --debug   for debug
@@ -252,6 +256,7 @@ Flags:
       --fold                     convert character width by fold form
   -h, --help                     help for kana
   -o, --output string            path of output file
+  -b, --remove-bom               remove BOM character
 
 Global Flags:
       --debug   for debug
@@ -320,6 +325,43 @@ Hello World
 ```
 
 これで `base64` や `openssl` コマンドがない環境でも大丈夫。
+
+## BOM の除去{#remove-bom}
+
+```text
+$ gnkf remove-bom -h
+Remove BOM character in UTF-8 string.
+
+Usage:
+  gnkf remove-bom [flags]
+
+Aliases:
+  remove-bom, rbom, rb
+
+Flags:
+  -f, --file string     path of input text file
+  -h, --help            help for remove-bom
+  -o, --output string   path of output file
+
+Global Flags:
+      --debug   for debug
+```
+
+UTF-8 テキストに BOM (Byte Order Mark; U+FEFF) が含まれている場合
+
+```text
+$ echo ﻿Hello | gnkf dump
+0xef, 0xbb, 0xbf, 0x48, 0x65, 0x6c, 0x6c, 0x6f, 0x0a
+```
+
+これを除去する。
+
+```text
+$ echo ﻿Hello | gnkf remove-bom | gnkf dump
+0x48, 0x65, 0x6c, 0x6c, 0x6f, 0x0a
+```
+
+先頭だけでなく，文字列中の全ての BOM を除去する。
 
 ## 16進ダンプ{#dump}
 
