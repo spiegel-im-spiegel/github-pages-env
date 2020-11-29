@@ -25,7 +25,7 @@
 
 ## 天文関連
 
-- [Planetary Society Reacts to Loss of Arecibo… | The Planetary Society](https://www.planetary.org/articles/planetary-society-arecibo-reaction)
+- [Planetary Society Reacts to Loss of Arecibo Observatory Radio Telescope | The Planetary Society](https://www.planetary.org/articles/planetary-society-arecibo-reaction)
     - [MIT Tech Review: 世界で2番目に大きい電波望遠鏡、修復不能で57年の歴史に幕](https://www.technologyreview.jp/s/225902/the-second-largest-radio-telescope-in-the-world-is-shutting-down/)
 - [VERAプロジェクト20年の成果がまとまる — 国立天文台水沢120年の歴史が達成した位置天文学の高精度化 — | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2020/20201126-mizusawa.html)
 - [すばる望遠鏡、一足先に「はやぶさ２」を出迎える | トピックス・お知らせ | すばる望遠鏡](https://subarutelescope.org/jp/news/topics/2020/11/25/2913.html)
