@@ -17,7 +17,7 @@ pageType = "text"
 
 ----
 
-[前回]紹介した “[Type Parameters - Draft Design](https://go.googlesource.com/proposal/+/refs/heads/master/design/go2draft-type-parameters.md)” が 2020-09-21 にアップデートされたらしい。
+[前回]紹介した “[Type Parameters - Draft Design](https://go.googlesource.com/proposal/+/refs/heads/master/design/go2draft-type-parameters.md)” が 2020-09-21 にアップデートされたらしい（最終更新：2020-11-25）。
 どうやらこれが最終案になりそうだ。
 
 早ければ2021年8月にリリース予定の [Go] 1.17 で[お披露目](https://blog.golang.org/generics-next-step "The Next Step for Generics - The Go Blog")というスケジュールは変わらない模様。

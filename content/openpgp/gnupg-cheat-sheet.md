@@ -1,15 +1,9 @@
 +++
 title = "GnuPG チートシート（鍵作成から失効まで）"
 date =  "2017-12-01T17:51:18+09:00"
-description = "ちうわけで GnuPG の使い方に関する簡単な「虎の巻（cheat sheet）」を作ってみることにした。"
+description = "GnuPG の使い方に関する「虎の巻」を作ってみることにした。"
 image = "/images/attention/openpgp.png"
-tags = [
-  "security",
-  "cryptography",
-  "tools",
-  "openpgp",
-  "gnupg",
-]
+tags = ["security", "cryptography", "tools", "openpgp", "gnupg"]
 
 [scripts]
   mathjax = false
@@ -23,9 +17,9 @@ tags = [
 対象となる  [GnuPG] のバージョンは最新版の 2.2.x とする。
 
 なお，この記事は大変長文なので，あらかじめお茶菓子などを用意した上で読みはじめることをお勧めする。
-また Qiita に簡易版を公開した。
+また [Zenn](https://zenn.dev/ "Zenn｜プログラマーのための情報共有コミュニティ") に簡易版を公開した。
 
-- [GnuPG チートシート（簡易版） - Qiita](https://qiita.com/spiegel-im-spiegel/items/079d69282166281eb946)
+- [GnuPG チートシート（簡易版）](https://zenn.dev/spiegel/articles/20200920-gnupg-cheat-sheet)
 
 説明はいいから例示だけ見せろという方はこちらで。
 
@@ -62,7 +56,7 @@ tags = [
     - [分離署名]({{< relref "#detach-sign" >}})
     - [署名データに署名対象のデータを含める]({{< relref "#data-in-sign" >}})
     - [暗号化と電子署名を同時に行う]({{< relref "#encrypt-and-sign" >}})
-1. [鍵の失効]({{< relref "#revocs" >}})
+1. [鍵を失効させる]({{< relref "#revocs" >}})
     - [`--generate-revocation` コマンド]({{< relref "#gen-revoke" >}})
 
 ## はじめに {#intro}
@@ -83,22 +77,22 @@ tags = [
 ただ Phil Zimmermann 氏が暗号特許について迂闊だったため PGP は長く不遇な扱いを受けることになる。
 
 当時の PGP の仕様を知財的に安全なものとして再構成したのが [OpenPGP] である。
-更に，その実装である [GnuPG] は GNU プロジェクトの一部として [FSF (Free Software Foundation)](https://www.fsf.org/) が著作権を保有し GPLv3 の下にライセンスされている。
+その実装である [GnuPG] も「自由なライセンス」のひとつである GPLv3 の下にライセンスされている。
 
 ```text
 $ gpg --version
-gpg (GnuPG) 2.2.19
-libgcrypt 1.8.5
-Copyright (C) 2019 Free Software Foundation, Inc.
+gpg (GnuPG) 2.2.24
+libgcrypt 1.8.7
+Copyright (C) 2020 g10 Code GmbH
 License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 
-Home: /home/username/.gnupg
+Home: ********
 サポートしているアルゴリズム:
 公開鍵: RSA, ELG, DSA, ECDH, ECDSA, EDDSA
-暗号方式: IDEA, 3DES, CAST5, BLOWFISH, AES, AES192, AES256,
-      TWOFISH, CAMELLIA128, CAMELLIA192, CAMELLIA256
+暗号方式: IDEA, 3DES, CAST5, BLOWFISH, AES, AES192, AES256, TWOFISH,
+    CAMELLIA128, CAMELLIA192, CAMELLIA256
 ハッシュ: SHA1, RIPEMD160, SHA256, SHA384, SHA512, SHA224
 圧縮: 無圧縮, ZIP, ZLIB, BZIP2
 ```
@@ -622,20 +616,30 @@ Keys 1-11 of 103 for "alice@example.com".  番号(s)、N)次、またはQ)中止
 ### 公開鍵に署名する {#sign-key}
 
 インポートした公開鍵が有効であることを確認したら，公開鍵に電子署名して有効化しよう。
+
+ただし，近年では第三者による野良署名は推奨されない傾向にある[^km0]。
+また鍵サーバによっては自己署名以外の電子署名をドロップする場合もあるようだ。
+
+[^km0]: 第三者による野良署名が推奨されない理由については拙文「[OpenPGP 公開鍵サーバにおける公開鍵の汚染問題]({{< ref "/remark/2019/07/openpgp-certificate-flooding.md" >}})」を参照のこと。
+
+そこで公開鍵への電子署名には `--lsign-key` または `--quick-lsign-key` コマンドを使ったローカル署名を推奨する。
+ローカル署名はエクスポート（または鍵サーバへの送信）時にドロップされる。
+
 公開鍵への電子署名には `--sign-key` コマンドまたは `--quick-sign-key` コマンドを使う。
 
-`--sign-key` コマンドは対話モードで複数の鍵にひとつずつ署名することができる。
-`--quick-sign-key` コマンドは鍵指紋を指定して一気に処理を行う（パスフレーズ入力あり）。
+`--lsign-key` コマンドは対話モードで複数の鍵にひとつずつ署名することができる。
+`--quick-lsign-key` コマンドは鍵指紋を指定して一気に処理を行う。
+署名時にパスフレーズ入力を求められる。
 
 ```text
-gpg --quick-sign-key 1B5202DB4A3EC776F1E0AD18B4DA3BAE7E20B81C
+gpg --quick-lsign-key 1B5202DB4A3EC776F1E0AD18B4DA3BAE7E20B81C
 ```
 
 電子署名が可能な秘密鍵を複数所持している場合は `--local-user` オプションで電子署名に使う鍵を指定する。
 短縮名は `-u`。
 
 ```text
-gpg -u alice --quick-sign-key 1B5202DB4A3EC776F1E0AD18B4DA3BAE7E20B81C
+gpg -u alice --quick-lsign-key 1B5202DB4A3EC776F1E0AD18B4DA3BAE7E20B81C
 ```
 
 または電子署名に使う鍵を鍵束フォルダにある `gpg.conf` ファイルで指定することもできる。
@@ -644,8 +648,9 @@ gpg -u alice --quick-sign-key 1B5202DB4A3EC776F1E0AD18B4DA3BAE7E20B81C
 default-key alice
 ```
 
-この電子署名は公開鍵のエクスポート時にも付加されて配布される。
-電子署名を配布されては困る場合は `--lsign-key` コマンドまたは `--quick-lsign-key` コマンドを使う。
+なお，電子署名を含めて配布したい場合は `--sign-key` または `--quick-sign-key` コマンドを使う（チーム運営などで相互署名したい[^km1] ときなど）。
+
+[^km1]: 詳しくは拙文「[OpenPGP 鍵管理に関する考察]({{< relref "./openpgp-key-management.md" >}})」を参照のこと。
 
 ### --edit-key コマンド {#edit-key}
 
@@ -1085,7 +1090,7 @@ gpg: "Alice <alice@example.com>"からの正しい署名 [究極]
 
 署名・暗号化ではパスフレーズ入力が最大3回（暗号化で確認を入れて2回，電子署名で1回）発生するので注意すること。
 
-## 鍵の失効 {#revocs}
+## 鍵を失効させる {#revocs}
 
 パスフレーズの漏洩や暗号アルゴリズムの危殆化などによって鍵を失効しなければならない場合がある。
 

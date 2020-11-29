@@ -104,10 +104,12 @@ $ gpg --fetch-keys https://baldanders.info/pubkeys/spiegel.asc
 
 とすれば簡単に鍵束にインポートできる。
 
+<!--
 メールの暗号化や署名検証については [Autocrypt] のような仕組みを使えば鍵サーバを経由せずに鍵のやりとりができるらしい（実はよく知らない）。
 ちなみに Thunderbird の [Enigmail] は [Autocrypt] に対応している。
 
 [Autocrypt] についてはちゃんと調べていつか記事にする予定である。
+-->
 
 ## 回避策2： [OpenPGP] 公開鍵サーバ上の公開鍵をいきなりインポートしない
 
@@ -139,40 +141,15 @@ $ wget -O - "http://keyserver.ubuntu.com/pks/lookup?search=0x3FA7E0328081BFF6A14
 この機能を使えば
 
 ```text
-$ gpgpdump hkp --keyserver keyserver.ubuntu.com --port 80 0x3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+$ gpgpdump hkp --keyserver keyserver.ubuntu.com --port 80 0x3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF -u
 Public-Key Packet (tag 6) (269 bytes)
     Version: 4 (current)
     Public key creation time: 2014-08-04T15:35:03Z
-        53 df a8 27
     Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
     RSA public modulus n (2048 bits)
     RSA public encryption exponent e (17 bits)
 User ID Packet (tag 13) (58 bytes)
     User ID: Xamarin Public Jenkins (auto-signing) <releng@xamarin.com>
-Signature Packet (tag 2) (284 bytes)
-    Version: 4 (current)
-    Signiture Type: Generic certification of a User ID and Public-Key packet (0x10)
-    Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
-    Hash Algorithm: SHA-1 (hash 2)
-    Hashed Subpacket (6 bytes)
-        Signature Creation Time (sub 2): 2014-09-04T15:26:28Z
-    Unhashed Subpacket (10 bytes)
-        Issuer (sub 16): 0xc90f9cb90e1fad0c
-    Hash left 2 bytes
-        9c d7
-    RSA signature value m^d mod n (2046 bits)
-Signature Packet (tag 2) (284 bytes)
-    Version: 4 (current)
-    Signiture Type: Generic certification of a User ID and Public-Key packet (0x10)
-    Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
-    Hash Algorithm: SHA2-256 (hash 8)
-    Hashed Subpacket (6 bytes)
-        Signature Creation Time (sub 2): 2016-12-11T01:14:48Z
-    Unhashed Subpacket (10 bytes)
-        Issuer (sub 16): 0x01150a655bbd8102
-    Hash left 2 bytes
-        7f cf
-    RSA signature value m^d mod n (2048 bits)
 Signature Packet (tag 2) (312 bytes)
     Version: 4 (current)
     Signiture Type: Positive certification of a User ID and Public-Key packet (0x13)
@@ -208,10 +185,33 @@ Signature Packet (tag 2) (312 bytes)
     Hash left 2 bytes
         90 e8
     RSA signature value m^d mod n (2047 bits)
+Signature Packet (tag 2) (284 bytes)
+    Version: 4 (current)
+    Signiture Type: Generic certification of a User ID and Public-Key packet (0x10)
+    Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
+    Hash Algorithm: SHA-1 (hash 2)
+    Hashed Subpacket (6 bytes)
+        Signature Creation Time (sub 2): 2014-09-04T15:26:28Z
+    Unhashed Subpacket (10 bytes)
+        Issuer (sub 16): 0xc90f9cb90e1fad0c
+    Hash left 2 bytes
+        9c d7
+    RSA signature value m^d mod n (2046 bits)
+Signature Packet (tag 2) (284 bytes)
+    Version: 4 (current)
+    Signiture Type: Generic certification of a User ID and Public-Key packet (0x10)
+    Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
+    Hash Algorithm: SHA2-256 (hash 8)
+    Hashed Subpacket (6 bytes)
+        Signature Creation Time (sub 2): 2016-12-11T01:14:48Z
+    Unhashed Subpacket (10 bytes)
+        Issuer (sub 16): 0x01150a655bbd8102
+    Hash left 2 bytes
+        7f cf
+    RSA signature value m^d mod n (2048 bits)
 Public-Subkey Packet (tag 14) (269 bytes)
     Version: 4 (current)
     Public key creation time: 2014-08-04T15:35:03Z
-        53 df a8 27
     Public-key Algorithm: RSA (Encrypt or Sign) (pub 1)
     RSA public modulus n (2048 bits)
     RSA public encryption exponent e (17 bits)
@@ -251,7 +251,8 @@ Signature Packet (tag 2) (287 bytes)
 - [新しい OpenPGP 鍵サーバが Launch したらしい]({{< ref "/remark/2019/06/launching-a-new-openpgp-key-server.md" >}})
 
 「まだベータ運用だし，しばらくは様子見かなぁ」と思っていたが，ちょっと前倒しして調査したほうがいいかしらん。
-先ほどの [Autocrypt] の調査も併せて色々調べてみるつもりである。
+
+<!-- 先ほどの [Autocrypt] の調査も併せて色々調べてみるつもりである。 -->
 
 ## ブックマーク
 
