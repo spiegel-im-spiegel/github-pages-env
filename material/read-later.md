@@ -1,7 +1,5 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-- [golangのコンストラクタでinterface型を返すようにする理由 - Qiita](https://qiita.com/asosori2/items/cec7be14c98ce4a59180)
-- [[golang]Interfaceのオススメの使い方 | セルフノート](https://selfnote.work/20201123/programming/how-to-use-interface-in-golang/)
 
 ## リリース情報
 
