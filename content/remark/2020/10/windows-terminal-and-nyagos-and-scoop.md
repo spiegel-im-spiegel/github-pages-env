@@ -178,7 +178,7 @@ Windows Terminal では PowerShell を含む複数の shell を登録できる�
                 "guid": "{19ddaf5e-e045-481a-bf88-37f7ebe66292}",
                 "hidden": false,
                 "name": "Nihongo Yet Another GOing Shell",
-                "commandline": "%USERPROFILE%\\scoop\\shims\\nyagos.exe",
+                "commandline": "%USERPROFILE%\\scoop\\apps\\nyagos\\current\\nyagos.exe",
                 "cursorShape": "vintage",
                 "startingDirectory": "%USERPROFILE%"
             }
