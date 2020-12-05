@@ -74,6 +74,41 @@ pageType = "text"
 2021-05-03 は月曜日なので 2021-04-30 を休暇とすれば，割と長めの GW になる。
 来年は広島のどっかの酒蔵の蔵開きに行きたい！
 
+なお，国立天文台のカレンダーはすでに対応済みなので，たとえば
+
+```go
+package main
+
+import (
+    "fmt"
+    "os"
+
+    "github.com/spiegel-im-spiegel/koyomi"
+)
+
+func main() {
+    start, _ := koyomi.DateFrom("2021-01-01")
+    end, _ := koyomi.DateFrom("2021-12-31")
+    k, err := koyomi.NewSource(
+        koyomi.WithCalendarID(koyomi.Holiday),
+        koyomi.WithStartDate(start),
+        koyomi.WithEndDate(end),
+    ).Get()
+    if err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
+
+    fmt.Println("| 日付 | 内容 |")
+    fmt.Println("| ---- | ---- |")
+    for _, e := range k.Events() {
+        fmt.Printf("| %v | %v |\n", e.Date, e.Title)
+    }
+}
+```
+
+などとすれば最新の祝日データを取得できる。
+
 ## 2021年の主な暦象
 
 ### 日食・月食
