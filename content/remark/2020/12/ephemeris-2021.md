@@ -36,6 +36,10 @@ pageType = "text"
 その前日の14日はふたご座流星群の極大日にあたる。
 条件最良だな！ 防寒をしっかり行って楽しみましょう。
 
+### ブックマーク
+
+- [ふたご座流星群が極大（2020年12月） | 国立天文台(NAOJ)](https://www.nao.ac.jp/astro/sky/2020/12-topics01.html)
+
 ## またオリンピックのせいで祝日を移動させられたよ {{< emoji "おこ" >}}
 
 {{< fig-quote type="markdown" title="令和3年の祝日と休日について - 国立天文台暦計算室" link="https://eco.mtk.nao.ac.jp/koyomi/topics/html/topics2021_3.html" >}}

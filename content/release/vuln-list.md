@@ -166,37 +166,29 @@ pageType = "text"
 
 現在は APT を使わず公式バイナリをダウンロードして手動でインストールしているが，参考情報として残しておく。
 
-| Official | Release    |  Ubuntu | Release |   Delay |
-| --------:| ---------- | -------:| ------- | -------:|
-|   78.5.0 | 2020-11-17 |         |         | ∞ days |
-|   78.4.3 | 2020-11-01 | &mdash; | &mdash; | &mdash; |
-|   78.4.2 | 2020-11-09 | &mdash; | &mdash; | &mdash; |
-|   78.4.1 | 2020-11-06 | &mdash; | &mdash; | &mdash; |
-|   78.4.0 | 2020-10-21 | &mdash; | &mdash; | &mdash; |
-|   78.3.3 | 2020-10-16 | &mdash; | &mdash; | &mdash; |
-|   78.3.2 | 2020-10-07 | &mdash; | &mdash; | &mdash; |
-|   78.3.1 | 2020-09-26 | &mdash; | &mdash; | &mdash; |
-|   78.3.0 | 2020-09-24 | &mdash; | &mdash; | &mdash; |
-|   78.2.2 | 2020-09-10 | &mdash; | &mdash; | &mdash; |
-|   78.2.1 | 2020-08-29 | &mdash; | &mdash; | &mdash; |
-|   78.2.0 | 2020-08-25 | &mdash; | &mdash; | &mdash; |
-|   78.1.1 | 2020-08-06 | &mdash; | &mdash; | &mdash; |
-|   78.1.0 | 2020-07-30 | &mdash; | &mdash; | &mdash; |
-|   78.0.1 | 2020-07-21 | &mdash; | &mdash; | &mdash; |
-|     78.0 | 2020-07-17 | &mdash; | &mdash; | &mdash; |
-
-| Official | Release    |                        Ubuntu | Release    |   Delay |
-| --------:| ---------- | -----------------------------:| ---------- | -------:|
-|  68.12.0 | 2020-08-25 |                               |            | ∞ days |
-|  68.11.0 | 2020-07-30 |                       &mdash; | &mdash;    | &mdash; |
-|  68.10.0 | 2020-07-01 | 68.10.0+build1-0 (USN-4421-1) | 2020-07-08 |  7 days |
-|   68.9.0 | 2020-06-03 |                       &mdash; | &mdash;    | &mdash; |
-|   68.8.1 | 2020-05-22 |                       &mdash; | &mdash;    | &mdash; |
-|   68.8.0 | 2020-05-05 |  68.8.0+build2-0 (USN-4373-1) | 2020-05-26 | 3 weeks |
-|   68.7.0 | 2020-04-08 |                (Ubuntu 20.04) | 2020-04-23 | &mdash; |
+| Official | Release    |                       Ubuntu | Release    |   Delay |
+| --------:| ---------- | ----------------------------:| ---------- | -------:|
+|   78.5.1 | 2020-12-02 |                              |            | ∞ days |
+|   78.5.0 | 2020-11-17 | 78.5.0+build3-0 (USN-4647-1) | 2020-11-25 |  8 days |
+|   78.4.3 | 2020-11-01 |                      &mdash; | &mdash;    | &mdash; |
+|   78.4.2 | 2020-11-09 |                      &mdash; | &mdash;    | &mdash; |
+|   78.4.1 | 2020-11-06 |                      &mdash; | &mdash;    | &mdash; |
+|   78.4.0 | 2020-10-21 |                      &mdash; | &mdash;    | &mdash; |
+|   78.3.3 | 2020-10-16 |                      &mdash; | &mdash;    | &mdash; |
+|   78.3.2 | 2020-10-07 |                      &mdash; | &mdash;    | &mdash; |
+|   78.3.1 | 2020-09-26 |                      &mdash; | &mdash;    | &mdash; |
+|   78.3.0 | 2020-09-24 |                      &mdash; | &mdash;    | &mdash; |
+|   78.2.2 | 2020-09-10 |                      &mdash; | &mdash;    | &mdash; |
+|   78.2.1 | 2020-08-29 |                      &mdash; | &mdash;    | &mdash; |
+|   78.2.0 | 2020-08-25 |                      &mdash; | &mdash;    | &mdash; |
+|   78.1.1 | 2020-08-06 |                      &mdash; | &mdash;    | &mdash; |
+|   78.1.0 | 2020-07-30 |                      &mdash; | &mdash;    | &mdash; |
+|   78.0.1 | 2020-07-21 |                      &mdash; | &mdash;    | &mdash; |
+|     78.0 | 2020-07-17 |                      &mdash; | &mdash;    | &mdash; |
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (78.5.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.5.1/releasenotes/)
 - [Thunderbird — Release Notes (78.5.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.5.0/releasenotes/)
 - [Thunderbird — Release Notes (78.4.3) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.4.3/releasenotes/)
 - [Thunderbird — Release Notes (78.4.2) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.4.2/releasenotes/)
@@ -208,18 +200,9 @@ pageType = "text"
 - [Thunderbird — Release Notes (78.3.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.3.0/releasenotes/)
 - [Thunderbird — Release Notes (78.2.2) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.2.2/releasenotes/)
 - [Thunderbird — Release Notes (78.2.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.2.1/releasenotes/)
-- [Thunderbird — Release Notes (68.12.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.12.0/releasenotes/)
 - [Thunderbird — Release Notes (78.2.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.2.0/releasenotes/)
 - [Thunderbird — Release Notes (78.1.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.1.1/releasenotes/)
 - [Thunderbird — Release Notes (78.1.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.1.0/releasenotes/)
-- [Thunderbird — Release Notes (68.11.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.11.0/releasenotes/)
-- [Thunderbird — Release Notes (78.0.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.0.1/releasenotes/)
-- [Thunderbird — Release Notes (78.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.0/releasenotes/)
-- [Thunderbird — Release Notes (68.10.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.10.0/releasenotes/)
-- [Thunderbird — Release Notes (68.9.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.9.0/releasenotes/)
-- [Thunderbird — Release Notes (68.8.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.8.1/releasenotes/)
-- [Thunderbird — Release Notes (68.8.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.8.0/releasenotes/)
-- [Thunderbird — Release Notes (68.7.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/68.7.0/releasenotes/)
 
 - [結局 Thunderbird もインストールし直すことにした]({{< ref "/remark/2019/11/reinstalling-thunderbird.md" >}})
 

@@ -1,5 +1,8 @@
 # 「あとでみる」ブックマーク（Temporary）
 
+- [もうlintに怒られない！Goでより安全にzipを扱うために（Potential DoS vulnerability via decompression bombエラーへの対処法） - Qiita](https://qiita.com/wagi0716/items/362700f84881ca27521a)
+    - [Secure Go · A project devoted to secure programming in the Go language](https://securego.io/)
+    - [securego/gosec: Golang security checker](https://github.com/securego/gosec)
 
 ## リリース情報
 

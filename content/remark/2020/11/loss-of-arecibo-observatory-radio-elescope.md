@@ -24,6 +24,10 @@ pageType = "text"
 
 残念だが仕方ない。
 
+## その後のブックマーク
+
+- [Arecibo telescope collapses, ending 57-year run | Science | AAAS](https://www.sciencemag.org/news/2020/12/arecibo-telescope-collapses-ending-57-year-run)
+
 ## 参考図書
 
 {{% review-paapi "4166600044" %}} <!-- ファースト・コンタクト -->
