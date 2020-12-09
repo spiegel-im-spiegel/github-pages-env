@@ -45,7 +45,6 @@ title = "text.Baldanders.info について"
 - [YouTube](https://www.youtube.com/)
 - [Amazonアソシエイト](https://affiliate.amazon.co.jp/)
 - [Google Search Console](https://support.google.com/webmasters/answer/4559176)
-- [Disqus](https://disqus.com/) : フィードバック用のコメント・ツール
 - [Font Awesome](https://fontawesome.com/) : アイコン等の Web フォント
 
 Cookie 等を用いた情報追跡をブロックしても[本サイト]の利用に支障はありません。
