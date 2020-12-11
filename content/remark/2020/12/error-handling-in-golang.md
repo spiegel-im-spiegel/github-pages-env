@@ -1,7 +1,7 @@
 +++
 title = "#golang のエラー・ハンドリングについて Zenn 本を書いてしまった"
 date =  "2020-12-11T20:05:28+09:00"
-description = "description"
+description = "これで私も単著持ちだ（違う）"
 image = "/images/attention/kitten.jpg"
 tags = [ "golang", "blog", "book" ]
 pageType = "text"
