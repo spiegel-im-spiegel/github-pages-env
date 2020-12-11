@@ -43,6 +43,10 @@ pageType = "text"
 
 [Zenn]: https://zenn.dev/ "Zenn｜エンジニアのための情報共有コミュニティ"
 
+## ブックマーク
+
+- [完成しない本](https://zenn.dev/spiegel/articles/20200921-unfinished-book)
+
 ## 参考図書
 
 {{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
