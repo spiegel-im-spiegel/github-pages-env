@@ -27,6 +27,7 @@ pageType = "text"
 ## その後のブックマーク
 
 - [Arecibo telescope collapses, ending 57-year run | Science | AAAS](https://www.sciencemag.org/news/2020/12/arecibo-telescope-collapses-ending-57-year-run)
+- [APOD: 2020 December 9 - Arecibo Telescope Collapse](https://apod.nasa.gov/apod/ap201209.html)
 
 ## 参考図書
 
