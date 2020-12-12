@@ -1,8 +1,5 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-- [【翻訳】技術的負債という概念の生みの親 Ward Cunningham 自身による説明 - t-wadaのブログ](https://t-wada.hatenablog.jp/entry/ward-explains-debt-metaphor)
-- [お前も技術的負債にしてやろうか！ もしくは技術的負債と和田卓人さんをめぐるシンクロニシティ - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20201210/technical-debt)
-- [技術的負債の優先順位について論文を読んでみた](https://zenn.dev/matsutakegohan1/articles/6e078c80673d0f)
 
 ## リリース情報
 
