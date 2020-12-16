@@ -1,7 +1,8 @@
 # 「あとでみる」ブックマーク（Temporary）
 
+## Zenn 本へのフィードバック用
+
 - [Big Sky :: プログラマーのための新しい情報共有コミュニティ Zenn で本を書いてみた。](https://mattn.kaoriya.net/software/20200922133154.htm)
-- [morikuni/failure: failure is a utility package for handling application errors.](https://github.com/morikuni/failure) : 汎用エラーパッケージ
 
 ## リリース情報
 
