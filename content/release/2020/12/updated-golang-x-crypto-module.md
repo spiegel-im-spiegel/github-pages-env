@@ -3,7 +3,7 @@ title = "golang.org/x/crypto/ssh パッケージのセキュリティ・アッ�
 date =  "2020-12-17T19:44:22+09:00"
 description = "ヌルポか。似たような話を最近よく聞くな（笑）"
 image = "/images/attention/go-logo_blue.png"
-tags  = [ "golang", "package", "ssh", "security", "vulnerability" ]
+tags  = [ "golang", "package", "security", "vulnerability" ]
 pageType = "text"
 
 [scripts]
