@@ -48,6 +48,8 @@ $ go get github.com/spiegel-im-spiegel/gpgpdump@latest
 
 ```text
 $ gpgpdump -h
+OpenPGP (RFC 4880) packet visualizer by golang.
+
 Usage:
   gpgpdump [flags]
   gpgpdump [command]
@@ -62,6 +64,7 @@ Available Commands:
 Flags:
   -a, --armor         accepts ASCII armor text only
   -c, --cert          dumps attested certification in signature packets (tag 2)
+      --clipboard     input from clipboard (ASCII armor text only)
       --debug         for debug
   -f, --file string   path of OpenPGP file
   -h, --help          help for gpgpdump
