@@ -131,6 +131,11 @@ image = "/images/attention/go-logo_blue.png"
 - [Dive deep into Go 1.15 changes to testing package - Speaker Deck](https://speakerdeck.com/hgsgtk/dive-deep-into-go-1-dot-15-changes-to-testing-package)
 - [Go1.15 からのreflectパッケージの挙動の違いについて - 一寸先は/dev/null](https://nokute.hatenablog.com/entry/2020/08/14/112132)
 
+### Go 1.16 Beta
+
+- [Go on ARM and Beyond - The Go Blog](https://blog.golang.org/ports)
+- [Go1.16からの go get と go install について - Qiita](https://qiita.com/eihigh/items/9fe52804610a8c4b7e41)
+
 ### Go 2 Draft
 
 次期 Go 言語の仕様について（一部は 1.11 以降に取り込まれている）
@@ -150,6 +155,7 @@ image = "/images/attention/go-logo_blue.png"
 - [What's new in the Go Cloud Development Kit - The Go Blog](https://blog.golang.org/gcdk-whats-new-in-march-2019)
 - [The New Go Developer Network - The Go Blog](https://blog.golang.org/go-developer-network)
 - [Pkg.go.dev is open source! - The Go Blog](https://blog.golang.org/pkgsite)
+- [Redirecting godoc.org requests to pkg.go.dev - The Go Blog](https://blog.golang.org/godoc.org-redirect)
 
 ## 参考図書
 
