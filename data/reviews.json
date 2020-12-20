@@ -13856,5 +13856,48 @@
       false
     ],
     "Description": "大昔に買ったんだけどうろ覚え。買い直そうかと思ったが邦訳は Kindle ではないのか。それにしても「リナックスの革命」とかいう頭の悪いタイトルはどうにかならなかったのだろうか。副題だけで十分ぢゃん。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08PNMRXKN",
+      "Title": "イラストでわかるDockerとKubernetes Software Design plus",
+      "URL": "https://www.amazon.co.jp/dp/B08PNMRXKN?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41g+F7WohJL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "徳永 航平",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "技術評論社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08PNMRXKN"
+        }
+      ],
+      "PublicationDate": "2020-12-05",
+      "LastRelease": "2020-12-05",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-12-20",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "とりあえず Kindle 版を買ったがまだ読んでない。年末年始の課題図書にする予定。"
   }
 ]
