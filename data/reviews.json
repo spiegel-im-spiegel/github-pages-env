@@ -13899,5 +13899,48 @@
       false
     ],
     "Description": "とりあえず Kindle 版を買ったがまだ読んでない。年末年始の課題図書にする予定。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00HY73M16",
+      "Title": "SAVED. ／ Be mine!",
+      "URL": "https://www.amazon.co.jp/dp/B00HY73M16?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51yk+9cbozL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "坂本　真綾",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "FlyingDog",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00HY73M16"
+        }
+      ],
+      "PublicationDate": "2014-02-05",
+      "LastRelease": "2014-02-05",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-12-26",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "「世界征服〜謀略のズヴィズダー〜」OP曲。万能感溢れるノリのいい曲である（笑）"
   }
 ]
