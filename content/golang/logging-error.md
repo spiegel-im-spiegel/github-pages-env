@@ -184,6 +184,8 @@ $ go run sample3.go | jq .
 
 ## ブックマーク
 
+- [GCPで理想の構造化ログを出力する方法](https://zenn.dev/glassonion1/articles/c58505bf594868)
+
 - [Go 1.13 のエラー・ハンドリング]({{< ref "/golang/error-handling-in-go-1_3.md" >}})
 - [Log パッケージで遊ぶ]({{< relref "./logger.md" >}})
 

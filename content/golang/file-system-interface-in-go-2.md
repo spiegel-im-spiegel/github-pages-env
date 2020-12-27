@@ -169,6 +169,8 @@ type GlobFS interface {
 2021年2月リリース予定の [Go] 1.16 で実行モジュールへの任意のファイルの埋め込み機能が公式にサポートされるらしい。
 
 - [Big Sky :: Go に go:embed が入った。](https://mattn.kaoriya.net/software/lang/go/20201030092005.htm)
+- [Go1.16で追加されるembedとio/fsパッケージについてざっと調べた - Qiita](https://qiita.com/convto/items/4b43072b05e6efdf8dd7)
+- [go:embed 詳解 - 使用編 - - Qiita](https://qiita.com/cia_rana/items/e5758816393498d2c50f)
 
 うまくすればこの記事の `io/fs` パッケージとも将来的に統合されるかもね。
 楽しみ！

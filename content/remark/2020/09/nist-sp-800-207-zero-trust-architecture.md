@@ -17,6 +17,7 @@ pageType = "text"
 というわけで，今回は2020年8月に最終版が公開された NIST [SP 800-207] の触りの部分を覚え書きとして記しておく。
 
 - [SP 800-207, Zero Trust Architecture | CSRC][SP 800-207]
+- [NIST SP800-207 「ゼロトラスト・アーキテクチャ」の解説と日本語訳 | PwC Japanグループ](https://www.pwc.com/jp/ja/knowledge/column/awareness-cyber-security/zero-trust-architecture-jp.html)
 
 ## Zero Trust および Zero Trust Architecture の定義
 
@@ -61,16 +62,16 @@ ZT/ZTA が重視される理由としては以下の2つが挙げられると思
 7. The enterprise collects as much information as possible about the current state of assets, network infrastructure and communications and uses it to improve its security posture.
 {{< /fig-quote >}}
 
-[@IT の記事](https://www.atmarkit.co.jp/ait/articles/2009/15/news007.html "NISTによる「ゼロトラストにおける7つの基本原則」と従来の境界型防御との関係")にこの7項目の抄訳が載ってたので以下に挙げておく（ちなみに私は @IT のアカウントを持ってないので記事自体は読んでない`w`）。
+ちなみに日本語訳は以下の通り。
 
-{{< fig-quote type="markdown" title="NISTによる「ゼロトラストにおける7つの基本原則」と従来の境界型防御との関係：働き方改革時代の「ゼロトラスト」セキュリティ（6） - ＠IT" link="https://www.atmarkit.co.jp/ait/articles/2009/15/news007.html" >}}
-1. データソースとコンピュータサービスは、全てリソースと見なす
-2. 「ネットワークの場所」に関係なく、通信は全て保護される
-3. 組織のリソースへのアクセスは、全て個別のセッションごとに許可される
-4. リソースへのアクセスは動的なポリシーによって決定される
-5. 組織が保有するデバイスは、全て正しくセキュリティが保たれているように継続的に監視する
-6. リソースの認証と認可は、全てアクセスが許可される前に動的かつ厳密に実施される
-7. 資産・ネットワーク・通信の状態について可能な限り多くの情報を収集し、セキュリティを高めるために利用する
+{{< fig-quote type="markdown" title="NIST SP800-207 「ゼロトラスト・アーキテクチャ」の解説と日本語訳 | PwC Japanグループ" link="https://www.pwc.com/jp/ja/knowledge/column/awareness-cyber-security/zero-trust-architecture-jp.html" >}}
+1. すべてのデータソースとコンピューティングサービスをリソースとみなす
+2. ネットワークの場所に関係なく、すべての通信を保護する
+3. 企業リソースへのアクセスは、セッション単位で付与する
+4. リソースへのアクセスは、クライアントアイデンティティ、アプリケーション/サービス、リクエストする資産の状態、その他の行動属性や環境属性を含めた動的ポリシーにより決定する
+5. すべての資産の整合性とセキュリティ動作を監視し、測定する
+6. すべてのリソースの認証と認可を動的に行い、アクセスが許可される前に厳格に実施する
+7. 資産、ネットワークインフラストラクチャ、通信の現状について可能な限り多くの情報を収集し、セキュリティ態勢の改善に利用する
 {{< /fig-quote >}}
 
 面白いのは ZTA に最初から「監視」が組み込まれていること，常に状況をフィードバックして「改善」のサイクルを構築するところまでがセットになっていることだろう。
@@ -100,6 +101,7 @@ Refactoring することを前提としたシステム設計が大事。
 ## ブックマーク
 
 - [Lightning Q&A: DevSecOps in five with Maya Kaczorowski - The GitHub Blog](https://github.blog/2020-09-24-lightning-qa-devsecops-in-five-with-maya-kaczorowski/)
+- [NISTによる「ゼロトラストにおける7つの基本原則」と従来の境界型防御との関係：働き方改革時代の「ゼロトラスト」セキュリティ（6） - ＠IT](https://www.atmarkit.co.jp/ait/articles/2009/15/news007.html)
 - [【超図解】ゼロトラスト: NECセキュリティブログ | NEC](https://jpn.nec.com/cybersecurity/blog/201016/index.html)
 
 [SP 800-207]: https://csrc.nist.gov/publications/detail/sp/800-207/final "SP 800-207, Zero Trust Architecture | CSRC"

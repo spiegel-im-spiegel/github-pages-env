@@ -310,6 +310,7 @@ func (p *Process) signal(sig Signal) error {
 - [Golangのcontext.Valueの使い方 | SOTA](http://deeeet.com/writing/2017/02/23/go-context-value/)
 - [goroutine にシグナルを送信する - Qiita](http://qiita.com/Kei-Kamikawa/items/620f9504daf2ec53f0b5)
 - [signal.Notifyを使うときは必ずバッファ付きチャネルで利用すること - My External Storage](https://budougumi0617.github.io/2020/09/06/why_signal_notify_want_buffered_channel/)
+- [Big Sky :: os/signal に NotifyContext が入った。](https://mattn.kaoriya.net/software/lang/go/20200916090416.htm)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`time`]: http://golang.org/pkg/time/ "time - The Go Programming Language"
