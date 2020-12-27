@@ -118,20 +118,24 @@ GC を含めてシビアな評価が必要なのであれば，その辺の環�
 
 [^a1]: 最近の goroutine はプリエンプティブ・マルチタスクが可能になったが，アーキテクチャによっては対応していない場合がある。
 
-## コピーのコスト
+## コピーのコスト（2020-1227 訂正）
 
 [元記事]には続きがある。
 さきほどの構造体 `S` に対し
 
 {{< fig-quote type="markdown" title="Should I Use a Pointer instead of a Copy of my Struct?" link="https://medium.com/a-journey-with-go/-44b43b104963" lang="en" class="nobox" >}}
 ```go
+//go:noinline
 func (s S) stack(s1 S) {}
 
+//go:noinline
 func (s *S) heap(s1 *S) {}
 ```
 {{< /fig-quote >}}
 
-というメソッドを用意してベンチマークテストを以下のように書き直す。
+というメソッドを用意してベンチマークテストを以下のように書き直す[^inline1]。
+
+[^inline1]: [元記事]では `//go:noinline` ディレクティブがなかったが，これがないと最適化されしまうため，コードを変更している。
 
 {{< fig-quote type="markdown" title="Should I Use a Pointer instead of a Copy of my Struct?" link="https://medium.com/a-journey-with-go/-44b43b104963" lang="en" class="nobox" >}}
 ```go
@@ -165,33 +169,31 @@ func BenchmarkMemoryHeap(b *testing.B) {
 
 [Go] の関数引数は値渡し（call by value）なので引数として渡す時点でコピーが発生するが `s.heap(s1)` はポインタ値がコピーされるだけなので，単純に考えれば `s.stack(s1)` のほうがコストが大きいように思える。
 
-しかし，これを実行すると
+実際にこれを実行すると
 
 ```text
 $ go test ./... -bench Memory -benchmem
 goos: linux
 goarch: amd64
 pkg: pointer
-BenchmarkMemoryStack-4           4005        284168 ns/op           0 B/op           0 allocs/op
-BenchmarkMemoryHeap-4            4066        283066 ns/op           0 B/op           0 allocs/op
+BenchmarkMemoryStack-4   	     174	   6794688 ns/op	       0 B/op	       0 allocs/op
+BenchmarkMemoryHeap-4    	     514	   2263913 ns/op	       0 B/op	       0 allocs/op
 PASS
-ok      pointer    2.354s
+ok  	pointer	3.285s
 ```
 
 てな感じになる。
 
 んー。
-[元記事]とはだいぶ様子が違うねぇ。
-両者に有意の差はないようだ。
+[元記事]とは少し違うが，3倍程度の差があるかな。
 これも表にまとめておこう。
 
-| 関数名                 | 実行時間<br>(ナノ秒) | Alloc<br>サイズ | Alloc<br>回数 |
+| 関数名                 | 実行時間<br>(μ秒) | Alloc<br>サイズ | Alloc<br>回数 |
 | ---------------------- | --------------------:| ---------------:| -------------:|
-| `BenchmarkMemoryStack` |              284,168 |               0 |             0 |
-| `BenchmarkMemoryHeap`  |              283,066 |               0 |             0 |
+| `BenchmarkMemoryStack` |              6.8 |               0 |             0 |
+| `BenchmarkMemoryHeap`  |              2.3 |               0 |             0 |
 
-
-確か最近のバージョンアップでインスタンスのコピーがかなり改善されたと聞いているので，その辺が影響しているかもしれない。
+なお `//go:noinline` ディレクティブがないと最適化されてしまいほとんど差がなくなるようだ。
 
 ## Interface のコスト
 

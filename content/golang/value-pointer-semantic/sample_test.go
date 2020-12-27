@@ -11,8 +11,12 @@ type S struct {
 	g, h, i float64
 }
 
-// func (s S) stack(s1 S)    {}
-// func (s *S) heap(s1 *S)   {}
+//go:noinline
+func (s S) stack(s1 S) {}
+
+//go:noinline
+func (s *S) heap(s1 *S) {}
+
 func (s S) ValueA() int64 { return s.a }
 
 func byCopy() S {
@@ -51,31 +55,31 @@ func BenchmarkMemoryHeap(b *testing.B) {
 	_ = fmt.Sprintf("%v", s.a)
 }
 
-// func BenchmarkMemoryStack(b *testing.B) {
-// 	var s S
-// 	var s1 S
-//
-// 	s = byCopy()
-// 	s1 = byCopy()
-// 	for i := 0; i < b.N; i++ {
-// 		for i := 0; i < 1000000; i++ {
-// 			s.stack(s1)
-// 		}
-// 	}
-// }
-//
-// func BenchmarkMemoryHeap(b *testing.B) {
-// 	var s *S
-// 	var s1 *S
-//
-// 	s = byPointer()
-// 	s1 = byPointer()
-// 	for i := 0; i < b.N; i++ {
-// 		for i := 0; i < 1000000; i++ {
-// 			s.heap(s1)
-// 		}
-// 	}
-// }
+func BenchmarkMemoryStack2(b *testing.B) {
+	var s S
+	var s1 S
+
+	s = byCopy()
+	s1 = byCopy()
+	for i := 0; i < b.N; i++ {
+		for i := 0; i < 1000000; i++ {
+			s.stack(s1)
+		}
+	}
+}
+
+func BenchmarkMemoryHeap2(b *testing.B) {
+	var s *S
+	var s1 *S
+
+	s = byPointer()
+	s1 = byPointer()
+	for i := 0; i < b.N; i++ {
+		for i := 0; i < 1000000; i++ {
+			s.heap(s1)
+		}
+	}
+}
 
 type IS interface {
 	ValueA() int64
