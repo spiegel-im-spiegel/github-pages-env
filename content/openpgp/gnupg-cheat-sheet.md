@@ -812,6 +812,22 @@ default-key alice
 default-recipient-self
 ```
 
+さらに `--group` オプションで複数のユーザをグルーピングできる。
+たとえば `gpg.conf` ファイルに
+
+```text
+group allcast = Alice Bob Chris
+
+```
+
+などと設定しておけば
+
+```text
+$ echo hello world | gpg -a -r allcast -e
+```
+
+で Alice, Bob, CHris 3人の公開鍵でセッション鍵を暗号化してくれる。
+
 ### セッション鍵のみで暗号化する {#symmetric}
 
 公開鍵は使わずパスフレーズから生成したセッション鍵のみで暗号化を行う場合は `--symmetric` コマンドを使う。
