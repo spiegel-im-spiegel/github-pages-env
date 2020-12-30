@@ -19,6 +19,7 @@ pageType = "text"
 - [NSA on Authentication Hacks (Related to SolarWinds Breach) - Schneier on Security](https://www.schneier.com/blog/archives/2020/12/nsa-on-authentication-hacks-related-to-solarwinds-breach.html)
     - [SolarWindsのサプライチェーン攻撃についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/12/20/045153)
     - [米政府機関の“cyber breach”被害、破られたのは何？ - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2012/21/news040.html)
+    - [Russia’s SolarWinds Attack - Schneier on Security](https://www.schneier.com/blog/archives/2020/12/russias-solarwinds-attack.html)
 - [ジャーナリスト36人以上のiPhoneが「ゼロクリック」スパイウェアにハックされていたことが発覚  |  TechCrunch Japan](https://jp.techcrunch.com/2020/12/21/2020-12-20-citizen-lab-iphone-nso-group/)
 - [情報を外部に送信している？　疑惑のWebブラウザ「Smooz」が配信停止に - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2012/21/news129.html)
 - [「Emotet」と呼ばれるウイルスへの感染を狙うメールについて：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/announce/20191202.html) : 事例の追加
