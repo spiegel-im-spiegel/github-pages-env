@@ -3,9 +3,6 @@
 - [CSS カスタムプロパティ (変数) の使用 - CSS: カスケーディングスタイルシート | MDN](https://developer.mozilla.org/ja/docs/Web/CSS/Using_CSS_custom_properties)
 - [CSS変数の命名規則について考える](https://zenn.dev/catnose99/articles/ee6787afe2182c)
 
-- [APOD: 2020 December 27 - Cosmic Latte: The Average Color of the Universe](https://apod.nasa.gov/apod/ap201227.html)
-- [[鏡] しっぽのさきっちょ 2003年04月 -- Spiegel's Trunk](https://baldanders.info/spiegel/log/200304.html#d11_t1)
-
 ## Zenn 本へのフィードバック用
 
 - [Big Sky :: プログラマーのための新しい情報共有コミュニティ Zenn で本を書いてみた。](https://mattn.kaoriya.net/software/20200922133154.htm)
@@ -25,6 +22,7 @@
 
 ## 天文関連
 
+- [APOD: 2020 December 29 - Earth During a Total Solar Eclipse](https://apod.nasa.gov/apod/ap201229.html)
 - [APOD: 2020 December 27 - Cosmic Latte: The Average Color of the Universe](https://apod.nasa.gov/apod/ap201227.html)
 
 ## 知財関連
