@@ -817,7 +817,6 @@ default-recipient-self
 
 ```text
 group allcast = Alice Bob Chris
-
 ```
 
 などと設定しておけば
