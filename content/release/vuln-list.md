@@ -35,10 +35,14 @@ pageType = "text"
 ## [GnuPG]
 
 [Ubuntu] 20.10 リリース時の最新バージョンは 2.2.20 (Libgcrypt 1.8.5) である。
+現在は[自前でビルド]({{< ref "/openpgp/build-gnupg-in-ubuntu.md" >}} "Ubuntu で最新版 GnuPG をビルドする")して運用している。
+以下は参考情報として記しておく。
 
 | Official | Release    |         Ubuntu | Release    |   Delay |
 | --------:| ---------- | --------------:| ---------- | -------:|
-|   2.2.24 | 2020-11-17 |                |            | ∞ days |
+|   2.2.26 | 2020-12-21 |                |            | ∞ days |
+|   2.2.25 | 2020-11-23 |        &mdash; | &mdash;    | &mdash; |
+|   2.2.24 | 2020-11-17 |        &mdash; | &mdash;    | &mdash; |
 |   2.2.23 | 2020-09-03 |        &mdash; | &mdash;    | &mdash; |
 |   2.2.22 | 2020-08-27 |        &mdash; | &mdash;    | &mdash; |
 |   2.2.21 | 2020-07-09 |        &mdash; | &mdash;    | &mdash; |
@@ -54,6 +58,8 @@ pageType = "text"
 
 ### ブックマーク
 
+- [GnuPG 2.2.26 がリリースされた]({{< ref "/release/2020/12/gnupg-2_2_26-is-released.md" >}})
+- [GnuPG 2.2.25 がリリースされた]({{< ref "/release/2020/11/gnupg-2_2_25-is-released.md" >}})
 - [GnuPG 2.2.24 がリリースされた]({{< ref "/release/2020/11/gnupg-2_2_24-is-released.md" >}})
 - [GnuPG 2.2.23 のリリース【セキュリティ・アップデート】]({{< ref "/release/2020/09/gnupg-2_2_23-is-released.md" >}})
 - [GnuPG 2.2.22 がリリースされた]({{< ref "/release/2020/08/gnupg-2_2_22-is-released.md" >}})

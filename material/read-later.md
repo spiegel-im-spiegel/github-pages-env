@@ -1,8 +1,5 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-- [CSS カスタムプロパティ (変数) の使用 - CSS: カスケーディングスタイルシート | MDN](https://developer.mozilla.org/ja/docs/Web/CSS/Using_CSS_custom_properties)
-- [CSS変数の命名規則について考える](https://zenn.dev/catnose99/articles/ee6787afe2182c)
-
 ## Zenn 本へのフィードバック用
 
 - [Big Sky :: プログラマーのための新しい情報共有コミュニティ Zenn で本を書いてみた。](https://mattn.kaoriya.net/software/20200922133154.htm)
@@ -49,5 +46,7 @@
 - [Google App Engineのスタンダード/フレキシブル環境を選ぶときのヒントと設定の注意点](https://zenn.dev/catnose99/articles/f99ea2a8b985b2)
 - [アカリク、自社サービスCloud LaTeX（クラウドラテフ）との同期を可能にするVisual Studio Code拡張機能（プラグイン）ベータ版を公式OSSとして公開｜株式会社アカリクのプレスリリース](https://prtimes.jp/main/html/rd/p/000000038.000017667.html)
 - [Next.jsのFont Optimizations（Webフォントの最適化）を試してみる](https://zenn.dev/catnose99/articles/bb943c3dc99d89) : セキュリティ・プライバシー上の配慮で Web フォントのキャッシュを複数ドメインで共有されなくなったらしい
+- [CSS カスタムプロパティ (変数) の使用 - CSS: カスケーディングスタイルシート | MDN](https://developer.mozilla.org/ja/docs/Web/CSS/Using_CSS_custom_properties)
+    - [CSS変数の命名規則について考える](https://zenn.dev/catnose99/articles/ee6787afe2182c)
 
 <!-- eof -->

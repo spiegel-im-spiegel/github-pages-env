@@ -46,9 +46,26 @@ pageType = "text"
 Release-info: https://dev.gnupg.org/T5153
 {{< /fig-quote >}}
 
+## ビルド対象パッケージ
+
+[自前でビルド]({{< ref "/openpgp/build-gnupg-in-ubuntu.md" >}} "Ubuntu で最新版 GnuPG をビルドする")する際の対象パッケージは以下の通り。
+
+|   # | パッケージ名                                             | バージョン | 公開日     |         更新          |
+| ---:| -------------------------------------------------------- | ---------- | ---------- |:---------------------:|
+|   1 | [Libgpg-error](https://gnupg.org/software/libgpg-error/) | 1.41       | 2020-12-21 | {{< icons "check" >}} |
+|   2 | [Libgcrypt](https://gnupg.org/software/libgcrypt/)       | 1.8.7      | 2020-10-23 |                       |
+|   3 | [Libassuan](https://gnupg.org/software/libassuan/)       | 2.5.4      | 2020-10-23 |                       |
+|   4 | [Libksba](https://gnupg.org/software/libksba/)           | 1.5.0      | 2020-11-18 |                       |
+|   5 | [nPth](https://gnupg.org/software/npth/)                 | 1.6        | 2018-07-16 |                       |
+|   6 | [ntbTLS](https://gnupg.org/software/ntbtls/)             | 0.2.0      | 2020-08-27 |                       |
+|   7 | [GnuPG](https://gnupg.org/software/)                     | 2.2.26     | 2020-12-21 | {{< icons "check" >}} |
+
+
 アップデートは計画的に。
 
 ## ブックマーク
+
+- [GnuPG and LDAP](https://gnupg.org/blog/20201018-gnupg-and-ldap.html) : [GnuPG] と LDAP との連携方法
 
 - [OpenPGP の実装]({{< rlnk "/openpgp/" >}})
 
