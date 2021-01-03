@@ -4,7 +4,6 @@ date =  "2021-01-03T16:12:38+09:00"
 description = "ひょっとして zetamatta/go-readline-ny パッケージ使ったら CUI の簡易プロンプトがもっと簡単に実装できるんちゃうん？"
 image = "/images/attention/tools.png"
 tags  = [ "tools", "golang" ]
-draft = true
 
 [scripts]
   mathjax = false
