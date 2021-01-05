@@ -7,6 +7,12 @@ import (
 	"github.com/spiegel-im-spiegel/koyomi"
 )
 
+var weekShortNames = []string{"日", "月", "火", "水", "木", "金", "土"}
+
+func WeekShortNameJp(dt koyomi.DateJp) string {
+	return weekShortNames[dt.Weekday()%7]
+}
+
 func main() {
 	start, _ := koyomi.DateFrom("2021-01-01")
 	end, _ := koyomi.DateFrom("2021-12-31")
@@ -26,10 +32,10 @@ func main() {
 		return
 	}
 
-	fmt.Println("| 日付 | 内容 |")
-	fmt.Println("| ---- | ---- |")
+	fmt.Println("| 日付 | 曜日 | 内容 |")
+	fmt.Println("| ---- |:----:| ---- |")
 	for _, e := range k.Events() {
-		fmt.Printf("| %v | %v |\n", e.Date, e.Title)
+		fmt.Printf("| %v | %v | %v |\n", e.Date, WeekShortNameJp(e.Date), e.Title)
 	}
 }
 
