@@ -269,7 +269,7 @@ $ sudo ln -s /etc/alternatives/pinentry pinentry
 こんな感じかな。
 Pinentry は下手に弄ると絶対にドツボにはまるので今回は既存のものを使う。
 
-## ソケットががが...
+## ソケットががが（2021-01-06 変更）
 
 上の `gpgconf --list-dirs` で示されるソケットについて
 
@@ -286,6 +286,31 @@ agent-socket:/run/user/1000/gnupg/S.gpg-agent
 
 [^uid1]: ちなみに `1000` はユーザIDを指す。ログインしている自身のユーザIDを知るには `id -u` で調べられる。
 
+で，いろいろ調べてみたんだけど `/usr/lib/systemd/user/gpg-agent.service` ファイルの内容が
+
+```ini
+[Unit]
+Description=GnuPG cryptographic agent and passphrase cache
+Documentation=man:gpg-agent(1)
+Requires=gpg-agent.socket
+
+[Service]
+ExecStart=/usr/bin/gpg-agent --supervised
+ExecReload=/usr/bin/gpgconf --reload gpg-agent
+```
+
+とかなっているのが原因のようだ。
+最後の2行を
+
+```ini
+ExecStart=/usr/local/bin/gpg-agent --supervised
+ExecReload=/usr/local/bin/gpgconf --reload gpg-agent
+```
+
+と変更したらちゃんと `/usr/local/bin/gpg-agent` のほうが起動するようになった。
+これでしばらく様子見だな。
+
+<!--
 これでは面白くないし `gpg-agent` 経由でなにか操作をする度に `gpg-agent` のバージョンが古いと怒られるので，以下のコマンドでソケットを再作成する。
 
 ```text
@@ -303,8 +328,9 @@ $ gpg-connect-agent --quiet /bye
 [GnuPG] のサイトにはそもそもあまり情報がないし，ググっても情報が上手く見つけられなくて困っている。
 
 どなたか情報をご存知でしたら教えてください {{< emoji "ペコン" >}}
+-->
 
-最後に動作確認。
+## 最後に動作確認
 
 ```text
 $ echo hello world | gpg -a -s -u mykey
