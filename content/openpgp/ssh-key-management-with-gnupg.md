@@ -239,7 +239,7 @@ max-cache-ttl-ssh 7200
 有効期間は大きすぎると漏洩リスクが高まるのでほどほどに（笑）
 
 [GnuPG] の鍵束の鍵を [OpenSSH] の認証鍵として使うには `~/.gnupg/sshcontrol` ファイルへの登録が必要である。
-先ほど作成した鍵であればまず以下のコマンドで
+先ほど作成した鍵であれば，まず以下のコマンドで
 
 ```text {hl_lines=[9]}
 $ gpg --list-keys --with-keygrip alice
@@ -258,7 +258,7 @@ sub   ed25519 2021-01-06 [A]
 これを `~/.gnupg/sshcontrol` ファイルに追記する。
 
 ```text
-$ echo F5C774B5B418B6E0B5B7942F93DE82BF2FEF4C8E 0 > ~/.gnupg/sshcontrol
+$ echo F5C774B5B418B6E0B5B7942F93DE82BF2FEF4C8E 0 >> ~/.gnupg/sshcontrol
 ```
 
 これで `ssh-add -L` コマンドでこの鍵の内容が表示されればOK。
