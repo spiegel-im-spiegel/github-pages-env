@@ -57,37 +57,16 @@ The key's randomart image is:
 ちうわけで，ECC 鍵を作って登録するところまでやってみる。
 ちゃんとメモっておかないと忘れるので（笑）
 
-## 前提条件
+## 前提条件【2021-01-09 変更】
 
 今回は [Ubuntu] 環境下での作業とし鍵管理を [GnuPG] で行うものとする。
+[Ubuntu] での設定方法は以下を参考にどうぞ。
+
+- [Ubuntu で OpenSSH の鍵管理を gpg-agent に委譲する【たぶん決定版】](https://zenn.dev/spiegel/articles/20210109-gpg-agent)
+
 Windows 環境の場合は以下の拙文を参考にどうぞ。
 
 - [GnuPG for Windows : gpg-agent について]({{< ref "/openpgp/using-gnupg-for-windows-2.md" >}})
-
-[OpenSSH] と [GnuPG] を連携させるには `~/.gupg/gpg-agent.conf` ファイルに `enable-ssh-support` オプションをセットする。
-他に有効なオプションとしては
-
-| オプション名            | 内容 |
-|-------------------------|------|
-| `default-cache-ttl-ssh` | 直前にアクセスしたキャッシュ・エントリの有効期間を秒単位で指定する。 既定値は 1800 |
-| `max-cache-ttl-ssh`     | キャッシュ・エントリの有効期間の最大値を秒単位で指定する。 アクセスの有無にかかわらずこの期間が過ぎるとキャッシュがクリアされる。 既定値は 7200 |
-
-がある。
-たとえばこんな感じで記述すればいいだろう。
-
-```text
-enable-ssh-support
-default-cache-ttl-ssh 1800
-max-cache-ttl-ssh 7200
-```
-
-あとは `SSH_AUTH_SOCK` 環境変数を以下のように書き換えればOK。
-
-```text
-$ export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
-```
-
-`~/.bashrc` 等に追記しておけばよいだろう。
 
 ## [OpenSSH] 鍵の生成
 

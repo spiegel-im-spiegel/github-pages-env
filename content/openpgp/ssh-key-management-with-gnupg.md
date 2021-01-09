@@ -213,61 +213,21 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFfjejx/Saej929myfZoBQAKgusPi2iiOxdZZfpCLxh5
 たとえば，認証用の鍵を付加した [OpenPGP] 公開鍵をサーバ管理者に渡せば，サーバ管理者は集めた [OpenPGP] 公開鍵に署名して完全性を確保した後， [OpenSSH] 認証用公開鍵を抽出して各ユーザのディレクトリにまとめてセットする，といったこともできるだろう。
 
 
-## ローカル側の設定 【2020-01-09 変更・追記あり】
+## ローカル側の設定 【2021-01-09 変更・追記あり】
 
 念のためローカル側の設定についても記しておく。
 
 ### ssh-agent を gpg-agent に置き換える
 
 [OpenSSH] では `ssh-agent` を [GnuPG] の `gpg-agent` に置き換えることで鍵の管理を [GnuPG] 側に委譲できる。
-`gpg-agent` は [GnuPG] 秘密鍵管理の中核コンポーネントで，自身は Pinentry で入力したパスフレーズを一定期間キャッシュすることでユーザの鍵操作を省力化できる（秘密鍵自体のキャッシュは行わない）。
 
-この記事では Ubuntu での設定方法を挙げておく[^win1]。
+[Ubuntu] の設定手順については以下の記事でまとめている。
 
-[^win1]: Windows 環境での設定手順については拙文「[GnuPG for Windows : gpg-agent について]({{< relref "./using-gnupg-for-windows-2.md" >}})」を参考にどうぞ。
+- [Ubuntu で OpenSSH の鍵管理を gpg-agent に委譲する【たぶん決定版】](https://zenn.dev/spiegel/articles/20210109-gpg-agent)
 
-どうも (Ubuntu を含む) Debian 系のディストリビューションでは SSH 接続に `ssh-agent` を使うよう構成されているようで， `gpg-agent` に置き換えるためにはいくつか設定を換える必要があるようだ。
+Windows については，古い内容で恐縮だが，以下の記事を参考にして欲しい。
 
-まず `/etc/X11/Xsession.options` ファイル。
-
-```text {hl_line=[8]}
-# $Id: Xsession.options 189 2005-06-11 00:04:27Z branden $
-#
-# configuration options for /etc/X11/Xsession
-# See Xsession.options(5) for an explanation of the available options.
-allow-failsafe
-allow-user-resources
-allow-user-xsession
-use-ssh-agent
-use-session-dbus
-```
-
-この中の `use-ssh-agent` を `no-use-ssh-agent` に置き換える。
-
-次に `/etc/xdg/autostart/gnome-keyring-ssh.desktop` ファイルを `~/.config/autostart/` ディレクトリにコピーし
-
-```text
-Hidden=true
-```
-
-を書き加える。
-
-最後に `~/.gnupg/gpg-agent.conf` ファイルに `enable-ssh-support` を書き加える。
-
-```text
-enable-ssh-support
-default-cache-ttl-ssh 1800
-max-cache-ttl-ssh 7200
-```
-
-下2つのオプションは任意で，以下の意味を持つ。
-
-| オプション名            | 内容 |
-|-------------------------|------|
-| `default-cache-ttl-ssh` | 直前にアクセスしたキャッシュ・エントリの有効期間を秒単位で指定する。 既定値は 1800 |
-| `max-cache-ttl-ssh`     | キャッシュ・エントリの有効期間の最大値を秒単位で指定する。 アクセスの有無にかかわらずこの期間が過ぎるとキャッシュがクリアされる。 既定値は 7200 |
-
-有効期間は大きすぎると漏洩リスクが高まるのでほどほどに（笑）
+- [GnuPG for Windows : gpg-agent について]({{< relref "./using-gnupg-for-windows-2.md" >}})
 
 ### [OpenSSH] 認証鍵の登録
 
@@ -315,6 +275,7 @@ $ echo F5C774B5B418B6E0B5B7942F93DE82BF2FEF4C8E 0 >> ~/.gnupg/sshcontrol
 [OpenSSH]: http://www.openssh.com/ "OpenSSH"
 [git]: https://git-scm.com/
 [gpgpdump]: https://github.com/spiegel-im-spiegel/gpgpdump "spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer"
+[Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 
 ## 参考図書
 

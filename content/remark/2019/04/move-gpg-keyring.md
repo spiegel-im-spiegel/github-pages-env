@@ -256,6 +256,18 @@ sub   rsa2048 2009-06-02 [E]
 
 ## [OpenSSH] との連携
 
+{{< div-box type="markdown" >}}
+**【2021-01-09 追記】**
+
+OpenSSH との連携について以下の記事にまとめた。
+たぶん決定版（笑）
+
+- [Ubuntu で OpenSSH の鍵管理を gpg-agent に委譲する【たぶん決定版】](https://zenn.dev/spiegel/articles/20210109-gpg-agent)
+
+この記事の方法で設定すれば `SSH_AUTH_SOCK` 環境変数を弄る必要がなくなる。
+ブラボー！
+{{< /div-box >}}
+
 Windows 環境では [OpenSSH] の認証用鍵を [GnuPG] にインポートして [PuTTY] と連携させていたが，もちろん [Ubuntu] の [OpenSSH] とも連携できる。
 
 [OpenSSH] と連携させるには `gpg-agent.conf` ファイルに `enable-ssh-support` オプションをセットすればいいのだが，これだけでは上手くいかないようだ。
