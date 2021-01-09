@@ -98,37 +98,33 @@ Look&Feel は好みがあるので言及しないとして，機能自体は悪�
 
 [GitKraken]: https://www.gitkraken.com/ "Git Client - Glo Boards | GitKraken"
 
-### [SmartGit]
+### [SmartGit] 【2021-01-09 訂正】
 
 こちらもプロプライエタリ・ライセンスで非商用のみ「無料」で利用できる。
 フルサポートで買うとかなり高い。
 サブスクリプションを利用するなら5.99USD/月。
 
-Look&Feel や機能は申し分ないのだが，一点だけ [OpenSSH] の扱いが駄目すぎる。
-あと署名検証ができないぽい？
+Look&Feel や機能は申し分ない。
+以前は ssh 接続が上手くいかなくて諦めていたのだが
 
-[SmartGit] では内臓の SSH クライアントを使うか [OpenSSH] を使うか選択できる。
-内臓の SSH クライアントを使う場合は自前で秘密鍵を管理しようとするが，どういうロジックで管理しているか不明。
-[OpenSSH] を使う場合は更に駄目で，勝手に `ssh-agent` を起動してくれやがるのだ（無効にするオプションが見当たらない）。
-ちゃんと `SSH_AUTH_SOCK` 環境変数でソケットを指定してるだろ。
-見ろよ！
+- [Ubuntu で OpenSSH の鍵管理を gpg-agent に委譲する【たぶん決定版】](https://zenn.dev/spiegel/articles/20210109-gpg-agent)
 
-私は SSH 鍵の管理を [GnuPG] で[行ってる]({{< ref "./move-gpg-keyring.md" >}} "Windows 環境で作った GnuPG の鍵束を Ubuntu に移行する")。
-[SmartGit] は [OpenSSH] をまともに扱えないという理由で却下[^gpg1]。
-残念！
+でちゃんと設定したら上手くいくようになった。
+最新バージョンの OpenJDK でも問題なくし git も ssh も gpg も問題なく動く。
 
-[^gpg1]: そもそも [git] で署名を行うということは [GnuPG] とセットで使うということなんだから `ssh-agent` なんか使う選択肢はないと思うのだが。鍵管理は [GnuPG] に任せて [git] や [OpenSSH] は本来の機能に集中するのが吉である。
+惜しむらくは署名の検証が出来ないことかな。
+[GitKraken] もそうだが，署名はできるのに，なんで署名の検証をサボるかな。
+意味ないよな。
 
 [SmartGit]: https://www.syntevo.com/smartgit/ "SmartGit – Git Client for Windows, macOS, Linux"
 
 ## というわけで
 
-どれもイマイチな出来。
-それなら曲がりなりにも機能が揃っていて FOSS な [Git Extensions] のほうがマシだな。
-Linux ってホンマに GUI が弱いよな。
-文化的なものかも知れないが。
+[SmartGit] は GUI も好みに合ってるしいいかな，と思っている。
+しばらく試してみて良さげならお金払ってもいいだろう。
 
-というわけで，もうしばらくは [Git Extensions] を騙し騙し使うか。
+あとは署名検証機能がなぁ。
+もうしばらくは [Git Extensions] も手放せないか。
 
 ## 【おまけ】 CUI な [Tig]
 
