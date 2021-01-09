@@ -72,18 +72,9 @@ BIOS 画面で USB からのブートを最優先にし，改めてブータブ�
 
 つっても，今回は `~/.gnupg` ディレクトリの中身をまるっとコピればいいだけなんだけど。
 
-[OpenSSH] と連携するなら `gpg-agent.conf` ファイルで以下のオプションを設定し
+[OpenSSH] と連携するなら以下を参照のこと。
 
-```text
-# for ssh
-enable-ssh-support
-```
-
-環境変数 `SSH_AUTH_SOCK` の設定も忘れないこと。
-
-```bash
-export SSH_AUTH_SOCK="$(gpgconf --list-dirs agent-ssh-socket)"
-```
+- [Ubuntu で OpenSSH の鍵管理を gpg-agent に委譲する【たぶん決定版】](https://zenn.dev/spiegel/articles/20210109-gpg-agent)
 
 [OpenPGP]: http://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
