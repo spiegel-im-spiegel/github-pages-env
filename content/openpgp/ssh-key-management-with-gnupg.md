@@ -136,7 +136,8 @@ gpg> addkey
 あなたの選択は? 
 ```
 
-個人的にお勧めの楕円曲線は “`Curve 25519`” である。
+[OpenSSH] の認証用には `1` から `5` の楕円曲線のいずれかを選択する。
+個人的なお勧めは `1` の “`Curve 25519`” である。
 理由は以下の記事を参考のこと。
 
 - [Edwards-curve Digital Signature Algorithm]({{< ref "/remark/2020/06/eddsa.md" >}})
@@ -212,16 +213,46 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFfjejx/Saej929myfZoBQAKgusPi2iiOxdZZfpCLxh5
 たとえば，認証用の鍵を付加した [OpenPGP] 公開鍵をサーバ管理者に渡せば，サーバ管理者は集めた [OpenPGP] 公開鍵に署名して完全性を確保した後， [OpenSSH] 認証用公開鍵を抽出して各ユーザのディレクトリにまとめてセットする，といったこともできるだろう。
 
 
-## ローカル側の設定
+## ローカル側の設定 【2020-01-09 変更・追記あり】
 
 念のためローカル側の設定についても記しておく。
+
+### ssh-agent を gpg-agent に置き換える
 
 [OpenSSH] では `ssh-agent` を [GnuPG] の `gpg-agent` に置き換えることで鍵の管理を [GnuPG] 側に委譲できる。
 `gpg-agent` は [GnuPG] 秘密鍵管理の中核コンポーネントで，自身は Pinentry で入力したパスフレーズを一定期間キャッシュすることでユーザの鍵操作を省力化できる（秘密鍵自体のキャッシュは行わない）。
 
-`gpg-agent` を [OpenSSH] のエージェントとして有効にするには `~/.gnupg/gpg-agent.conf` ファイルに `enable-ssh-support` を書き加えればよい[^win1]。
+この記事では Ubuntu での設定方法を挙げておく[^win1]。
 
-[^win1]: Windows 環境ではもう少し面倒な設定が必要である。詳しくは拙文「[GnuPG for Windows : gpg-agent について]({{< relref "./using-gnupg-for-windows-2.md" >}})」
+[^win1]: Windows 環境での設定手順については拙文「[GnuPG for Windows : gpg-agent について]({{< relref "./using-gnupg-for-windows-2.md" >}})」を参考にどうぞ。
+
+どうも (Ubuntu を含む) Debian 系のディストリビューションでは SSH 接続に `ssh-agent` を使うよう構成されているようで， `gpg-agent` に置き換えるためにはいくつか設定を換える必要があるようだ。
+
+まず `/etc/X11/Xsession.options` ファイル。
+
+```text {hl_line=[8]}
+# $Id: Xsession.options 189 2005-06-11 00:04:27Z branden $
+#
+# configuration options for /etc/X11/Xsession
+# See Xsession.options(5) for an explanation of the available options.
+allow-failsafe
+allow-user-resources
+allow-user-xsession
+use-ssh-agent
+use-session-dbus
+```
+
+この中の `use-ssh-agent` を `no-use-ssh-agent` に置き換える。
+
+次に `/etc/xdg/autostart/gnome-keyring-ssh.desktop` ファイルを `~/.config/autostart/` ディレクトリにコピーし
+
+```text
+Hidden=true
+```
+
+を書き加える。
+
+最後に `~/.gnupg/gpg-agent.conf` ファイルに `enable-ssh-support` を書き加える。
 
 ```text
 enable-ssh-support
@@ -237,6 +268,8 @@ max-cache-ttl-ssh 7200
 | `max-cache-ttl-ssh`     | キャッシュ・エントリの有効期間の最大値を秒単位で指定する。 アクセスの有無にかかわらずこの期間が過ぎるとキャッシュがクリアされる。 既定値は 7200 |
 
 有効期間は大きすぎると漏洩リスクが高まるのでほどほどに（笑）
+
+### [OpenSSH] 認証鍵の登録
 
 [GnuPG] の鍵束の鍵を [OpenSSH] の認証鍵として使うには `~/.gnupg/sshcontrol` ファイルへの登録が必要である。
 先ほど作成した鍵であれば，まず以下のコマンドで
