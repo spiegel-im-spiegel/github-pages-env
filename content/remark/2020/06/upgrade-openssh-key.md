@@ -101,7 +101,9 @@ The key's randomart image is:
 ちなみに `id_ecdsa` ファイルには秘密鍵， `id_ecdsa.pub` ファイルには公開鍵が格納されている。
 
 `-t` オプションで鍵種別を， `-b` で鍵長（ビット数）をセットする。
-鍵種別と鍵長の組み合わせと，それぞれに対するセキュリティ強度（ビット数）は以下の通り。
+鍵種別と鍵長の組み合わせと，それぞれに対するセキュリティ強度（ビット数）は以下の通り[^dsa1]。
+
+[^dsa1]: [フィードバック](https://github.com/spiegel-im-spiegel/github-pages-env/discussions/85)で教えていただいたが， [OpenSSH] は FIPS 186-3 以降の DSA に対応していないそうで，1024ビットの鍵長しか選択できないらしい。なので，最近の [OpenSSH] のデフォルト設定では DSA を無効にしているそうな。情報感謝です。あと `ecdsa-sk` では鍵長の指定はできない（無視される）ようだ。256ビット（`nistp256`）固定ってことかな？
 
 {{< div-gen >}}
 <figure>
@@ -126,18 +128,10 @@ main table.sshkeys td  {
 </thead>
 <tbody>
 <tr>
-  <td rowspan="3"><code>dsa</code></td>
-  <td class="right">3072</td>
-  <td class="right">128</td>
-  <td rowspan="3">&mdash;</td>
-</tr>
-<tr>
-  <td class="right">7680</td>
-  <td class="right">192</td>
-</tr>
-<tr>
-  <td class="right">15360</td>
-  <td class="right">256</td>
+  <td><strike><code>dsa</code></strike></td>
+  <td class="right"><strike>1024</strike></td>
+  <td class="right">80</td>
+  <td>&mdash;</td>
 </tr>
 <tr>
   <td rowspan="3"><code>ecdsa</code> / <code>ecdsa-sk</code></td>
@@ -180,14 +174,14 @@ main table.sshkeys td  {
 </figure>
 {{< /div-gen >}}
 
-この組み合わせのいずれかであれば2031年以降も問題なく使える。
-なお `ecdsa-sk` および `ed25519-sk` は認証デバイスに登録する際に使うらしい（今回は割愛する）。
+この組み合わせの（`dsa` 以外の）いずれかであれば2031年以降も問題なく使える。
+なお `ecdsa-sk` および `ed25519-sk` は暗号デバイスに登録する際に使うらしい（今回は割愛する）。
 
 余談だが楕円曲線 `ed25519` に対応する電子署名アルゴリズムは EdDSA と呼ばれ [RFC 8032] で規定されている[^ed25519]。
 なんで鍵種別を `eddsa` としなかったのかは知らない。
 紛らわしかったのかな？
 
-[^ed25519]: `ed25519` (edwards25519) は [Curve25519] と双有理同値な楕円曲線で，鍵長も  [Curve25519] と同じく256ビット（セキュリティ強度128ビット）と見積もられている。ちなみに [Curve25519] は ECDH 用の楕円曲線およびそのライブラリで，公有（public domain）のソフトウェアとして公開されている。
+[^ed25519]: `ed25519` (edwards25519) は [Curve25519] と双有理同値な楕円曲線で，鍵長も  [Curve25519] と同じく256ビット（セキュリティ強度128ビット）と見積もられている。ちなみに [Curve25519] は ECDH 用の楕円曲線およびそのライブラリで，公有（public domain）のソフトウェアとして公開されている。また [EdDSA は FIPS 186-5 に組み込まれる予定]({{< ref "/remark/2020/06/eddsa.md" >}} "Edwards-curve Digital Signature Algorithm")になっていて，そうなれば正式に NIST 標準となる。
 
 ### 楕円曲線と鍵長
 
