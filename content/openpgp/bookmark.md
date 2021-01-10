@@ -90,6 +90,11 @@ tags = [ "openpgp", "gnupg", "bookmark" ]
 - [OpenPGP(実際はGnuPGなど)の活用事例 - Qiita](https://qiita.com/tsuyoshi_cho/items/b5b37be4f52f0adb0f1b)
 - [OpenPGP interoperability test suite](https://tests.sequoia-pgp.org/)
     - [sequoia-pgp / OpenPGP interoperability test suite · GitLab](https://gitlab.com/sequoia-pgp/openpgp-interoperability-test-suite)
+- [GnuPG and LDAP](https://gnupg.org/blog/20201018-gnupg-and-ldap.html)
+- [GitHub - proglottis/gpgme: Go wrapper for the GPGME library](https://github.com/proglottis/gpgme)
+- [Forwarding gpg-agent to a remote system over SSH - GnuPG wiki](https://wiki.gnupg.org/AgentForwarding)
+- [gpg-agentをforwardingしてホスト上で署名する - Qiita](https://qiita.com/kazumaemoto/items/b95b8ec5756209b14909)
+- [Yubikey5を手に入れたのでGPGを使ってみる(1/2)(GPG key作成編) - akashisnの日記](https://blog.akashisn.info/entry/2020/12/09/132652)
 
 ## 自作ツール
 

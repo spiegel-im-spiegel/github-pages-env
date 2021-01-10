@@ -308,6 +308,12 @@ $ chamod 600 ~/.ssh/authorized_keys
 
 - [ssh-rsa，非推奨のお知らせ](https://orumin.blogspot.com/2020/05/ssh-rsa.html)
 - [OpenSSH、将来のリリースでssh-rsa公開鍵の署名アルゴリズムをデフォルトで無効に - ZDNet Japan](https://japan.zdnet.com/article/35154545/)
+- [OpenPGP SSH access with Yubikey and GnuPG · GitHub](https://gist.github.com/artizirk/d09ce3570021b0f65469cb450bee5e29)
+- [OpenSSHの認証に証明書を使う方法｜ConoHa VPSサポート](https://support.conoha.jp/v/openssh/)
+- [SSHのCA認証 - Qiita](https://qiita.com/aat00000/items/a7973b104be9bfd3bb5c)
+- [Securing SSH with OpenPGP or PIV](https://developers.yubico.com/PIV/Guides/Securing_SSH_with_OpenPGP_or_PIV.html)
+- [Securing SSH with the YubiKey](https://developers.yubico.com/SSH/)
+- [セキュリティキー「YubiKey」でEC2へのSSHを2段階認証にしてみた | Developers.IO](https://dev.classmethod.jp/articles/ssh-ubuntu-ec2-with-fido-u2f-security-key/)
 
 - [暗号鍵関連の各種変数について]({{< ref "/remark/2017/10/key-parameters.md" >}})
 - [（何度目かの）さようなら SHA-1]({{< ref "/remark/2020/01/sayonara-sha-1.md" >}})

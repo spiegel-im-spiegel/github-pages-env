@@ -124,7 +124,8 @@ pageType = "text"
 
 | Official | Release    |                       Ubuntu | Release    |   Delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
-|   84.0.1 | 2020-12-22 |                              |            | ∞ days |
+|   84.0.2 | 2021-01-06 | 84.0.2+build1-0 (USN-4687-1) | 021-01-08  |  2 days |
+|   84.0.1 | 2020-12-22 |                      &mdash; | &mdash;    | &mdash; |
 |     84.0 | 2020-12-15 |   84.0+build3-0 (USN-4671-1) | 2020-12-15 |   0 day |
 |     83.0 | 2020-11-17 |   83.0+build2-0 (USN-4637-1) | 2020-11-18 |   1 day |
 |   82.0.3 | 2020-11-10 | 82.0.3+build1-0 (USN-4625-1) | 2020-11-10 |   0 day |
@@ -148,6 +149,7 @@ pageType = "text"
 
 ### ブックマーク
 
+- [Firefox  84.0.2, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/84.0.2/releasenotes/)
 - [Firefox  84.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/84.0.1/releasenotes/)
 - [Firefox  84.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/84.0/releasenotes/)
 - [Firefox  83.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/83.0/releasenotes/)
