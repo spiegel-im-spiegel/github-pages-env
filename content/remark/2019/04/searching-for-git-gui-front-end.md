@@ -107,7 +107,7 @@ Look&Feel は好みがあるので言及しないとして，機能自体は悪�
 Look&Feel や機能は申し分ない。
 以前は ssh 接続が上手くいかなくて諦めていたのだが
 
-- [Ubuntu で OpenSSH の鍵管理を gpg-agent に委譲する【たぶん決定版】](https://zenn.dev/spiegel/articles/20210109-gpg-agent)
+- [gpg-agent の設定： GnuPG in Ubuntu]({{< ref "/openpgp/gpg-agent-in-ubuntu.md" >}})
 
 でちゃんと設定したら上手くいくようになった。
 最新バージョンの OpenJDK でも問題なくし git も ssh も gpg も問題なく動く。

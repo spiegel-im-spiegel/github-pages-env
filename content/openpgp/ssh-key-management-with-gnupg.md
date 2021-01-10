@@ -223,7 +223,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFfjejx/Saej929myfZoBQAKgusPi2iiOxdZZfpCLxh5
 
 [Ubuntu] の設定手順については以下の記事でまとめている。
 
-- [Ubuntu で OpenSSH の鍵管理を gpg-agent に委譲する【たぶん決定版】](https://zenn.dev/spiegel/articles/20210109-gpg-agent)
+- [gpg-agent の設定： GnuPG in Ubuntu]({{< ref "/openpgp/gpg-agent-in-ubuntu.md" >}})
 
 Windows については，古い内容で恐縮だが，以下の記事を参考にして欲しい。
 

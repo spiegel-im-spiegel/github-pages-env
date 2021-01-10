@@ -74,7 +74,7 @@ BIOS 画面で USB からのブートを最優先にし，改めてブータブ�
 
 [OpenSSH] と連携するなら以下を参照のこと。
 
-- [Ubuntu で OpenSSH の鍵管理を gpg-agent に委譲する【たぶん決定版】](https://zenn.dev/spiegel/articles/20210109-gpg-agent)
+- [gpg-agent の設定： GnuPG in Ubuntu]({{< ref "/openpgp/gpg-agent-in-ubuntu.md" >}})
 
 [OpenPGP]: http://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"

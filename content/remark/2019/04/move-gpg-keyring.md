@@ -260,9 +260,8 @@ sub   rsa2048 2009-06-02 [E]
 **【2021-01-09 追記】**
 
 OpenSSH との連携について以下の記事にまとめた。
-たぶん決定版（笑）
 
-- [Ubuntu で OpenSSH の鍵管理を gpg-agent に委譲する【たぶん決定版】](https://zenn.dev/spiegel/articles/20210109-gpg-agent)
+- [gpg-agent の設定： GnuPG in Ubuntu]({{< ref "/openpgp/gpg-agent-in-ubuntu.md" >}})
 
 この記事の方法で設定すれば `SSH_AUTH_SOCK` 環境変数を弄る必要がなくなる。
 ブラボー！

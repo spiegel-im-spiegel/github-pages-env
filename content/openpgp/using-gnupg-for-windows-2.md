@@ -252,7 +252,7 @@ $ eval $(/usr/bin/ssh-pageant -r -a "/tmp/.ssh-pageant-$USERNAME")
 - [How to enable SSH access using a GPG key for authentication | Opensource.com](https://opensource.com/article/19/4/gpg-subkeys-ssh)
 
 - [Windows 環境で作った GnuPG の鍵束を Ubuntu に移行する]({{< ref "/remark/2019/04/move-gpg-keyring.md" >}})
-- [Ubuntu で OpenSSH の鍵管理を gpg-agent に委譲する【たぶん決定版】](https://zenn.dev/spiegel/articles/20210109-gpg-agent)
+- [gpg-agent の設定： GnuPG in Ubuntu]({{< ref "/openpgp/gpg-agent-in-ubuntu.md" >}})
 
 [前回]: {{< ref "/openpgp/using-gnupg-for-windows-1.md" >}} "GnuPG for Windows インストール編"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"

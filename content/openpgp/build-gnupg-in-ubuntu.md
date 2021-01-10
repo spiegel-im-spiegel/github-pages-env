@@ -1,5 +1,5 @@
 +++
-title = "Ubuntu で最新版 GnuPG をビルドする"
+title = "最新版 GnuPG をビルドする： GnuPG in Ubuntu"
 date = "2021-01-01T13:18:27+09:00"
 description = "念のために警告しておくと，今回の自力ビルドは積極的にはお勧めしない。"
 image = "/images/attention/openpgp.png"
@@ -269,8 +269,12 @@ $ sudo ln -s /etc/alternatives/pinentry pinentry
 こんな感じかな。
 Pinentry は下手に弄ると絶対にドツボにはまるので今回は既存のものを使う。
 
-## ソケットががが（2021-01-06 変更，2021-01-09 追記）
+## ソケットががが【2021-01-10 変更】
 
+この節の内容は「[gpg-agent の設定]{{< relref "./gpg-agent-in-ubuntu.md" >}}」に移動した。
+
+
+<!--
 上の `gpgconf --list-dirs` で示されるソケットについて
 
 ```text
@@ -286,59 +290,6 @@ agent-socket:/run/user/1000/gnupg/S.gpg-agent
 
 [^uid1]: ちなみに `1000` はユーザIDを指す。ログインしている自身のユーザIDを知るには `id -u` で調べられる。
 
-で，いろいろ調べてみたんだけど `/usr/lib/systemd/user/gpg-agent.service` ファイルの内容が
-
-```ini
-[Unit]
-Description=GnuPG cryptographic agent and passphrase cache
-Documentation=man:gpg-agent(1)
-Requires=gpg-agent.socket
-
-[Service]
-ExecStart=/usr/bin/gpg-agent --supervised
-ExecReload=/usr/bin/gpgconf --reload gpg-agent
-```
-
-とかなっているのが原因のようだ。
-最後の2行を
-
-```ini
-ExecStart=/usr/local/bin/gpg-agent --supervised
-ExecReload=/usr/local/bin/gpgconf --reload gpg-agent
-```
-
-と変更したらちゃんと `/usr/local/bin/gpg-agent` のほうが起動するようになった。
-てことは `systemctl` コマンドで状態が見れるんだよな。
-
-```text
-$ systemctl --user status gpg-agent
-● gpg-agent.service - GnuPG cryptographic agent and passphrase cache
-     Loaded: loaded (/usr/lib/systemd/user/gpg-agent.service; static)
-     Active: active (running) since Sat 2021-01-09 09:38:33 JST; 9min ago
-TriggeredBy: ● gpg-agent.socket
-             ● gpg-agent-ssh.socket
-             ● gpg-agent-extra.socket
-             ● gpg-agent-browser.socket
-       Docs: man:gpg-agent(1)
-   Main PID: 18913 (gpg-agent)
-     CGroup: /user.slice/user-1000.slice/user@1000.service/gpg-agent.service
-             ├─18913 /usr/local/bin/gpg-agent --supervised
-             └─19398 scdaemon --multi-server
-
- Jan 09 09:38:33 mocona6 systemd[1616]: Started GnuPG cryptographic agent and passphrase cache.
- Jan 09 09:38:33 mocona6 gpg-agent[18913]: gpg-agent (GnuPG) 2.2.26 starting in supervised mode.
- Jan 09 09:38:33 mocona6 gpg-agent[18913]: using fd 3 for std socket (/run/user/1000/gnupg/S.gpg-agent)
- Jan 09 09:38:33 mocona6 gpg-agent[18913]: using fd 4 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
- Jan 09 09:38:33 mocona6 gpg-agent[18913]: using fd 5 for extra socket (/run/user/1000/gnupg/S.gpg-agent.extra)
- Jan 09 09:38:33 mocona6 gpg-agent[18913]: using fd 6 for browser socket (/run/user/1000/gnupg/S.gpg-agent.browser)
- Jan 09 09:38:33 mocona6 gpg-agent[18913]: listening on: std=3 extra=5 browser=6 ssh=4
- Jan 09 09:41:23 mocona6 gpg-agent[19398]: scdaemon[19398]: pcsc_establish_context failed: no service (0x8010001d)
-```
-
-ふむふむ。
-暗号デバイス用の設定はしてないのでこれで OK かな。
-
-<!--
 これでは面白くないし `gpg-agent` 経由でなにか操作をする度に `gpg-agent` のバージョンが古いと怒られるので，以下のコマンドでソケットを再作成する。
 
 ```text

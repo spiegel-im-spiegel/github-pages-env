@@ -62,7 +62,7 @@ The key's randomart image is:
 今回は [Ubuntu] 環境下での作業とし鍵管理を [GnuPG] で行うものとする。
 [Ubuntu] での設定方法は以下を参考にどうぞ。
 
-- [Ubuntu で OpenSSH の鍵管理を gpg-agent に委譲する【たぶん決定版】](https://zenn.dev/spiegel/articles/20210109-gpg-agent)
+- [gpg-agent の設定： GnuPG in Ubuntu]({{< ref "/openpgp/gpg-agent-in-ubuntu.md" >}})
 
 Windows 環境の場合は以下の拙文を参考にどうぞ。
 
@@ -256,7 +256,7 @@ Pinentry で設定するパスフレーズは `id_ecdsa` ファイルに対す�
 A5353D587000D820669B0BD55A0B4AD6897458DB 0
 ```
 
-また `ssh-add -l` コマンドでも登録した鍵を確認できる。
+また `ssh-add -L` コマンドでも登録した鍵を確認できる。
 
 鍵の実体は `~/.gnupg/private-keys-v1.d/` ディレクトリにある。
 上述の鍵の場合は
