@@ -1,11 +1,10 @@
 +++
 title = "gpg-agent の設定： GnuPG in Ubuntu"
-date = "2021-01-10T10:12:03+09:00"
-description = "description"
+date = "2021-01-10T11:53:13+09:00"
+description = "Zenn で書いた「Ubuntu で OpenSSH の鍵管理を gpg-agent に委譲する」をこのブログの「最新版 GnuPG をビルドする」の続編として再構成した"
 image = "/images/attention/openpgp.png"
 tags = [ "openpgp", "gnupg", "ubuntu", "openssh", "cryptography" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
