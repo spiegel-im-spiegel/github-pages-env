@@ -271,5 +271,6 @@ The key's randomart image is:
 
 ## 参考図書
 
+{{% review-paapi "B079NL1L9K" %}} <!-- SSH Mastery -->
 {{% review-paapi "4314009071" %}} <!-- 暗号化 プライバシーを救った反乱者たち -->
 {{% review-paapi "B015643CPE" %}} <!-- 暗号技術入門 第3版 -->

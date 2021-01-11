@@ -13942,5 +13942,48 @@
       true
     ],
     "Description": "「世界征服〜謀略のズヴィズダー〜」OP曲。万能感溢れるノリのいい曲である（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B079NL1L9K",
+      "Title": "SSH Mastery: OpenSSH, PuTTY, Tunnels and Keys (IT Mastery Book 12) (English Edition)",
+      "URL": "https://www.amazon.co.jp/dp/B079NL1L9K?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51mVqXeeVyL._SL160_.jpg",
+        "Height": 160,
+        "Width": 107
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "Lucas, Michael W",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "Tilted Windmill Press",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B079NL1L9K"
+        }
+      ],
+      "PublicationDate": "2018-02-06",
+      "LastRelease": "2018-02-06",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-01-11",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "タイトルを見て “SSH Mystery” と空目したアホは私です。洋書だけど英語不得手の私にも読める内容。"
   }
 ]
