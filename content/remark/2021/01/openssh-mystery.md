@@ -40,7 +40,7 @@ pageType = "text"
 Diffie-Hellman 鍵交換アルゴリズムは公開鍵暗号の一種だがセッションの開始ごとに使い捨ての鍵ペアを生成する（筈）ので，ユーザがそれを意識することはないだろう。
 
 鍵交換アルゴリズムで得られる共有データを「シークレット」と呼ぶことがある。
-[OpenSSH] ではシークレットをハッシュ化した値をセンション鍵として使っているようだ。
+[OpenSSH] ではシークレットをハッシュ化した値をセッション鍵として使っているようだ。
 
 したがってセッション鍵の共有には鍵交換アルゴリズムとハッシュ・アルゴリズムの2つが必要となる。
 [OpenSSH] でサポートしてる暗号スイートは以下の通り。
@@ -76,8 +76,6 @@ ECDH で使用する楕円曲線のうち NIST 推奨パラメータ（curve P-2
 ## 共通鍵暗号アルゴリズムと暗号モード
 
 実際の暗号化通信はセッション鍵を使った共通鍵暗号アルゴリズムで行う。
-AE (Authenticated Encryption) が有効な場合は AE が優先される
-
 [OpenSSH] でサポートしてる共通鍵暗号アルゴリズムと暗号モードは以下の通り。
 
 | 名称                            | 共通鍵暗号    | 暗号モード |         推奨          | 備考               |
@@ -102,10 +100,10 @@ ARCFOUR ってのはいわゆる RC4 ストリーム暗号のこと。
 RC4 は公式にはアルゴリズムを公開していないため “Alleged RC FOUR” の意味で ARCFOUR という名称が使われているようだ。
 
 RC4 および CBC モードは危殆化が報告されて久しく，推奨されない。
-また TripleDES, Blowfish, CAST は暗号強度不足のため，これも推奨されない。
+また TripleDES, Blowfish, CAST はセキュリティ強度不足のため，これも推奨されない。
 
-これらの暗号スイートの選択と優先順位はサーバ側で設定するのでユーザが意識することはない。
-ただし，優先順位としては AEAD (Authenticated Encryption with Associated Data; 認証付き暗号) として機能する GCM や ChaCha20-Poly1305 がより推奨されているらしい。
+優先順位としては AEAD (Authenticated Encryption with Associated Data; 認証付き暗号) として機能する GCM や ChaCha20-Poly1305 がより推奨されているらしい。
+なお，これらの暗号スイートの選択と優先順位はサーバ側で設定するのでユーザが意識することはない。
 
 ## メッセージ認証符号
 
@@ -263,6 +261,7 @@ The key's randomart image is:
 
 ## ブックマーク
 
+- [OpenSSHの暗号化周りの設定について - Qiita](https://qiita.com/aqmr-kino/items/8c3306ea8022b0d5cbe4)
 - [ChaCha20-Poly1305の解説と実装 | 晴耕雨読](https://tex2e.github.io/blog/crypto/chacha20poly1305)
 - [OpenSSHの認証に証明書を使う方法｜ConoHa VPSサポート](https://support.conoha.jp/v/openssh/)
 
