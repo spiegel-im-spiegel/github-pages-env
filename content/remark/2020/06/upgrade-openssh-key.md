@@ -1,5 +1,5 @@
 +++
-title = "OpenSSH 鍵をアップグレードする（さようなら SHA-1）"
+title = "OpenSSH 鍵をアップグレードする【2020-01-11 改訂】"
 date =  "2020-06-01T16:12:32+09:00"
 description = "どうせ鍵を新調するのなら楕円曲線暗号で構成するのがいいよね。"
 image = "/images/attention/kitten.jpg"
@@ -11,6 +11,8 @@ pageType = "text"
   mermaidjs = false
 +++
 
+**【2020-01-11 改訂】**
+
 2020-05-27 に [OpenSSH] 8.3 がリリースされた。
 
 - [OpenSSH 8.3 released (and ssh-rsa deprecation notice) [LWN.net]](https://lwn.net/Articles/821544/)
@@ -21,10 +23,15 @@ pageType = "text"
 {{% quote %}}It is now possible to perform chosen-prefix attacks against the SHA-1 algorithm for less than USD$50K. For this reason, we will be disabling the "ssh-rsa" public key signature algorithm by default in a near-future release{{% /quote %}}.
 {{< /fig-quote >}}
 
-と書かれていて[^sha1a]，クライアント側はそろそろ古い RSA 鍵から交換したほうがよさそうである。
-もっとも最近のバージョン[^sha1b] で作った鍵であれば特に問題ないようだ。
+と書かれていてた[^sha1a]。
+といっても，これはサーバ側の設定の話だそうでクライアントには関係ないそうだ（[フィードバック](https://github.com/spiegel-im-spiegel/github-pages-env/discussions/85)感謝）。
 
 [^sha1a]: 実は同様の問題は [GnuPG] でも指摘されていて，半年前にリリースされた 2.2.18 で対応済みである（[GnuPG 2.2.18 リリース： さようなら SHA-1]({{< ref "/release/2019/11/gnupg-2_2_18-is-released.md" >}})）
+
+<!--
+クライアント側はそろそろ古い RSA 鍵から交換したほうがよさそうである。
+もっとも最近のバージョン[^sha1b] で作った鍵であれば特に問題ないようだ。
+
 [^sha1b]: ちなみに，私は2011年に作った RSA 鍵を使っているが，ハッシュ・アルゴリズムは SHA256 だった。少なくとも10年以内に作った鍵なら問題なさそう？ あとは鍵長かねぇ。
 
 ```text
@@ -52,8 +59,11 @@ The key's randomart image is:
 ```
 
 ハッシュ・アルゴリズムが SHA256 以上になっているか，がポイント。
+-->
 
-でも，まぁ，どうせ鍵を新調するのなら楕円曲線暗号（Elliptic Curve Cryptography; ECC）で構成するのがいいよね。
+もし2048ビット以下の古い RSA 鍵を使ってるなら替えどきかな。
+で，どうせ鍵を新調するのなら楕円曲線暗号（Elliptic Curve Cryptography; ECC）で構成するのがいいよね。
+
 ちうわけで，ECC 鍵を作って登録するところまでやってみる。
 ちゃんとメモっておかないと忘れるので（笑）
 
@@ -302,9 +312,9 @@ $ chamod 600 ~/.ssh/authorized_keys
 
 - [ssh-rsa，非推奨のお知らせ](https://orumin.blogspot.com/2020/05/ssh-rsa.html)
 - [OpenSSH、将来のリリースでssh-rsa公開鍵の署名アルゴリズムをデフォルトで無効に - ZDNet Japan](https://japan.zdnet.com/article/35154545/)
-- [OpenPGP SSH access with Yubikey and GnuPG · GitHub](https://gist.github.com/artizirk/d09ce3570021b0f65469cb450bee5e29)
 - [OpenSSHの認証に証明書を使う方法｜ConoHa VPSサポート](https://support.conoha.jp/v/openssh/)
 - [SSHのCA認証 - Qiita](https://qiita.com/aat00000/items/a7973b104be9bfd3bb5c)
+- [OpenPGP SSH access with Yubikey and GnuPG · GitHub](https://gist.github.com/artizirk/d09ce3570021b0f65469cb450bee5e29)
 - [Securing SSH with OpenPGP or PIV](https://developers.yubico.com/PIV/Guides/Securing_SSH_with_OpenPGP_or_PIV.html)
 - [Securing SSH with the YubiKey](https://developers.yubico.com/SSH/)
 - [セキュリティキー「YubiKey」でEC2へのSSHを2段階認証にしてみた | Developers.IO](https://dev.classmethod.jp/articles/ssh-ubuntu-ec2-with-fido-u2f-security-key/)
