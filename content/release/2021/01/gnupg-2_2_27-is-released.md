@@ -1,11 +1,10 @@
 +++
 title = "GnuPG 2.2.27 がリリースされた"
-date =  "2021-01-13T08:19:16+09:00"
+date =  "2021-01-13T18:41:38+09:00"
 description = "主に Windows 環境における不具合の修正のようだ。"
 image = "/images/attention/openpgp.png"
 tags = ["security", "cryptography", "tools", "openpgp", "gnupg", "ubuntu", "windows"]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
