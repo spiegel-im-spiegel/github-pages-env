@@ -25,15 +25,15 @@ Linux 環境では [GnuPG] は（ユーザは意識しないかもしれない�
 [GnuPG] は複数のパッケージで構成されていて，個別にビルド&インストールしていく必要がある。
 今回ビルド対象となるパッケージは以下の通り。
 
-|   # | パッケージ名                                             | バージョン | 公開日     |
-| ---:| -------------------------------------------------------- | ---------- | ---------- |
-|   1 | [Libgpg-error](https://gnupg.org/software/libgpg-error/) | 1.41       | 2020-12-21 |
-|   2 | [Libgcrypt](https://gnupg.org/software/libgcrypt/)       | 1.8.7      | 2020-10-23 |
-|   3 | [Libassuan](https://gnupg.org/software/libassuan/)       | 2.5.4      | 2020-10-23 |
-|   4 | [Libksba](https://gnupg.org/software/libksba/)           | 1.5.0      | 2020-11-18 |
-|   5 | [nPth](https://gnupg.org/software/npth/)                 | 1.6        | 2018-07-16 |
-|   6 | [ntbTLS](https://gnupg.org/software/ntbtls/)             | 0.2.0      | 2020-08-27 |
-|   7 | [GnuPG](https://gnupg.org/software/)                     | 2.2.26     | 2020-12-21 |
+|   # | パッケージ名                                             |
+| ---:| -------------------------------------------------------- |
+|   1 | [Libgpg-error](https://gnupg.org/software/libgpg-error/) |
+|   2 | [Libgcrypt](https://gnupg.org/software/libgcrypt/)       |
+|   3 | [Libassuan](https://gnupg.org/software/libassuan/)       |
+|   4 | [Libksba](https://gnupg.org/software/libksba/)           |
+|   5 | [nPth](https://gnupg.org/software/npth/)                 |
+|   6 | [ntbTLS](https://gnupg.org/software/ntbtls/)             |
+|   7 | [GnuPG](https://gnupg.org/software/)                     |
 
 ビルド&インストールの順番は [Libgpg-error](https://gnupg.org/software/libgpg-error/) を最初にして [GnuPG](https://gnupg.org/software/) を最後にすることさえ気をつければいいと思うが，特にこだわりがないのであれば上の順番でビルドしていくのがいいだろう。
 
@@ -187,15 +187,17 @@ $ popd
 
 ### [GnuPG](https://gnupg.org/software/) のビルド
 
+（2021-01-11 に 2.2.27 がリリースされた）
+
 ようやく本命。
 今までと同様に手順を示しておく。
 
 ```text
-$ sudo curl -L https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.26.tar.bz2 -O
-$ sudo curl -L https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.26.tar.bz2.sig -O
-$ gpg -d gnupg-2.2.26.tar.bz2.sig # integrity check
-$ sudo tar xvf gnupg-2.2.26.tar.bz2
-$ pushd gnupg-2.2.26
+$ sudo curl -L https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.27.tar.bz2 -O
+$ sudo curl -L https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.27.tar.bz2.sig -O
+$ gpg -d gnupg-2.2.27.tar.bz2.sig # integrity check
+$ sudo tar xvf gnupg-2.2.27.tar.bz2
+$ pushd gnupg-2.2.27
 $ ./configure 
 $ make
 $ sudo make install
@@ -214,9 +216,9 @@ $ sudo ldconfig
 
 ```text
 $ gpg --version
-gpg (GnuPG) 2.2.26
+gpg (GnuPG) 2.2.27
 libgcrypt 1.8.7
-Copyright (C) 2020 Free Software Foundation, Inc.
+Copyright (C) 2021 Free Software Foundation, Inc.
 License GNU GPL-3.0-or-later <https://gnu.org/licenses/gpl.html>
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
