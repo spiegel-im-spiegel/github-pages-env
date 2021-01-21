@@ -55,10 +55,34 @@ This occurs because on Windows, Go includes (and prefers) the current directory 
 
 アップデートは計画的に。
 
+## 【2021-01-21 追記】 Git for Windows 2.30.0 (2) のリリース
+
+上記の脆弱性が直りきってなかったようだ。
+
+- [Release Git for Windows 2.30.0(2) · git-for-windows/git · GitHub](https://github.com/git-for-windows/git/releases/tag/v2.30.0.windows.2)
+- [Release v2.13.2 · git-lfs/git-lfs · GitHub](https://github.com/git-lfs/git-lfs/releases/tag/v2.13.2)
+
+### [CVE-2021-21237]
+
+- `CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:N`
+- 深刻度: 重要 (Score: 7.2)
+
+| 基本評価基準     | 評価値   |
+| ---------------- | -------- |
+| 攻撃元区分       | ローカル |
+| 攻撃条件の複雑さ | 高       |
+| 必要な特権レベル | 低       |
+| ユーザ関与レベル | 要       |
+| スコープ         | 変更あり |
+| 機密性への影響   | 高       |
+| 完全性への影響   | 高       |
+| 可用性への影響   | なし     |
+
 [Git for Windows]: https://gitforwindows.org/ "Git for Windows"
 [Git LFS]: https://git-lfs.github.com/ "Git Large File Storage | Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server like GitHub.com or GitHub Enterprise."
 [Go]: https://golang.org/ "The Go Programming Language"
 [`exec`]: https://golang.org/pkg/os/exec/ "exec - The Go Programming Language"
 [NYAGOS]: https://github.com/zetamatta/nyagos "zetamatta/nyagos: NYAGOS - The hybrid Commandline Shell betweeeeeeen UNIX & DOS"
+[CVE-2021-21237]: https://nvd.nist.gov/vuln/detail/CVE-2021-21237
 
 <!-- eof -->
