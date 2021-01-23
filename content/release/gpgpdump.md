@@ -55,6 +55,7 @@ Usage:
   gpgpdump [command]
 
 Available Commands:
+  completion  Generate completion script
   fetch       Dumps OpenPGP packets form the Web
   github      Dumps OpenPGP keys registered on GitHub
   help        Help about any command
@@ -221,7 +222,7 @@ $ gpgpdump hkp -h
 Dumps OpenPGP packets from the key server.
 
 Usage:
-  gpgpdump hkp [flags] <user ID or key ID>
+  gpgpdump hkp [flags] {userID | keyID}
 
 Aliases:
   hkp, h
@@ -313,7 +314,7 @@ $ gpgpdump github -h
 Dumps OpenPGP keys registered on GitHub.
 
 Usage:
-  gpgpdump github [flags] <GitHub user ID>
+  gpgpdump github [flags] GitHubUserID
 
 Aliases:
   github, gh, g
@@ -395,7 +396,7 @@ $ gpgpdump fetch -h
 Dumps OpenPGP packets form the Web.
 
 Usage:
-  gpgpdump fetch [flags] <URL>
+  gpgpdump fetch [flags] URL
 
 Aliases:
   fetch, fch, f
@@ -524,6 +525,78 @@ Signature Packet (tag 2) (94 bytes)
 | `context.DEBUG`   | false  | `debug`                 |
 
 詳しくはコードを見てね♡ ってことで（笑）
+
+## 【おまけ】 各 Shell 用の自動補完スクリプトを生成する
+
+[gpgpdump] では bash などの shell 用の自動補完スクリプトを生成できる。
+対応している shell は bash, zsh, fish, PowerShell の4つ。
+自動補完の設定方法は
+
+```text
+$ gpgpdump completion -h
+```
+
+で表示されるヘルプを見ていただくとして，ここでは Linux の bash について紹介する。
+
+Bash 用の自動補完スクリプト自体は以下のコマンドで標準出力に出力される。
+
+```text
+$ gpgpdump completion bash
+```
+
+ユーザごとに仕込むのであれば
+
+```text
+$ source <(gpgpdump completion bash)
+```
+
+でOK。
+
+システム全体として設定するのであれば以下のディレクトリのいずれかにスクリプトを放りこむ（後者がオススメ）。
+
+- `/etc/bash_completion.d/`
+- `/usr/share/bash-completion/completions/`
+
+コマンドラインで書くとこんな感じ。
+
+```text
+sudo sh -c "gpgpdump completion bash > /usr/share/bash-completion/completions/gpgpdump"
+```
+
+これでログインし直せば有効になっているはずである。
+たとえば
+
+```text
+$ gpgpdump
+```
+
+の状態で [`TAB`] キーを2回押下すれば
+
+```text
+$ gpgpdump [TAB][TAB]
+completion  fetch       github      help        hkp         version
+```
+
+と利用可能なサブコマンドを列挙してくれる。
+また
+
+```text
+$ gpgpdump -
+```
+
+とハイフンのみ入力した状態で [`TAB`] キーを2回押下すれば
+
+```text
+$ gpgpdump -[TAB][TAB]
+--armor      --file=      --literal    -a           -l
+--cert       --indent     --marker     -c           -m
+--clipboard  --indent=    --private    -f           -p
+--debug      --int        --utc        -i           -u
+--file       --json       --version    -j           -v
+```
+
+てな感じに使えるオプションを表示してくれる。
+便利！
 
 ## ブックマーク
 
