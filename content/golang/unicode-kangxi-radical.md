@@ -23,6 +23,11 @@ Twitter を眺めていたら
 
 Adobe Acrobat Distiller が見捨てられてるのか，それとも「日本語」が見捨てられているのか...
 
+{{< div-box type="markdown" >}}
+**【2021-0129 追記】**
+PostScript プリンタドライバ経由で PostScript データを吐き出すと似たようなことが起きるらしい。もしかしたら [Distiller の不具合ってこれが原因？](https://twitter.com/trueroad_jp/status/1354445342461235202) かも。
+{{< /div-box >}}
+
 {{< ruby "それはさておき" >}}閑話休題{{< /ruby >}}。
 問題となっているのは「康熙部首（kangxi radicals）」と呼ばれる漢字の部首を集めた以下の Unicode 符号点領域である。
 
