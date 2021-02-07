@@ -398,6 +398,7 @@ skinparam dpi 300 '解像度の設定
 - [call it from your script using command line](http://plantuml.com/command-line)
 - [PlantUML の使い方 | プログラマーズ雑記帳](http://yohshiy.blog.fc2.com/blog-entry-152.html)
 - [PlantUML Example for RDRA 2.0 ハンドブック - Qiita](https://qiita.com/ogomr/items/97058a87337eaa2ba21a)
+- [PlantUMLのレイアウトのコツと指定方法についてのまとめ](https://zenn.dev/kitabatake/articles/plantuml-layout)
 
 [ATOM]: https://atom.io/ "Atom"
 [PlantUML]: http://plantuml.com/ "Open-source tool that uses simple textual descriptions to draw UML diagrams."

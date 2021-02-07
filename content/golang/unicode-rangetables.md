@@ -268,6 +268,7 @@ U+FF9D 'ﾝ' (Katakana)
 ## ブックマーク
 
 - [その文字が JIS X 0208 に含まれるか？ あるいは unicode.RangeTable の使い方](https://zenn.dev/ikawaha/articles/20210116-ab1ac4a692ae8bb4d9cf)
+- [Golangでひらがな、カタカナ、漢字を判定する - Qiita](https://qiita.com/tomtwinkle/items/d52a01d5a020b00b4b8e)
 
 - [かなカナ変換]({{< relref "./kana-conversion.md" >}})
 

@@ -251,6 +251,7 @@ standard deviation: 0.00517 (67.8%)
 - [PCG, A Family of Better Random Number Generators | PCG, A Better Random Number Generator](http://www.pcg-random.org/)
 - [/dev/randomではなく/dev/urandomを使うべき理由? | マイナビニュース](http://news.mynavi.jp/news/2014/03/11/037/)
 - [与えられた重みに従ってランダムに値を返す「Weighted Random Selection」をGoで実装する！ - Qiita](https://qiita.com/po3rin/items/f28a8ce322cb1bd95175)
+- [ある範囲に収まる乱数を得るために剰余（モジュロ）演算を書くとき、レビューするときに意識すること](https://zenn.dev/yoheimuta/articles/6de5816f5d721c)
 
 [Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
