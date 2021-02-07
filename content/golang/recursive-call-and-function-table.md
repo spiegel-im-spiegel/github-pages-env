@@ -1,24 +1,13 @@
 +++
 date = "2016-01-18T22:59:07+09:00"
-update = "2018-05-28T20:08:28+09:00"
+title = "再帰呼び出しと関数テーブル"
 description = "今回は再帰呼び出しの話。"
 draft = false
 tags = ["golang", "recursion"]
-title = "再帰呼び出しと関数テーブル"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 今回は再帰呼び出しの話。
@@ -59,26 +48,24 @@ package main
 
 import "fmt"
 
-var fibonacciNumbers = make(map[int]int)
-
-func fibonacciNumber(n int) int {
+func fibonacciNumber(n int, fibMap map[int]int) int {
     switch n {
     case 0:
         return 0
     case 1:
         return 1
     default:
-        if fn, ok := fibonacciNumbers[n]; ok {
+        if fn, ok := fibMap[n]; ok {
             return fn
         }
-        fn := fibonacciNumber(n-2) + fibonacciNumber(n-1)
-        fibonacciNumbers[n] = fn
+        fn := fibonacciNumber(n-2, fibMap) + fibonacciNumber(n-1, fibMap)
+        fibMap[n] = fn
         return fn
     }
 }
 
 func main() {
-    fmt.Println(fibonacciNumber(40))
+    fmt.Println(fibonacciNumber(40, make(map[int]int)))
 }
 ```
 

@@ -1,0 +1,7 @@
+goos: linux
+goarch: amd64
+pkg: fib2
+BenchmarkFibonacciNumber-4    	       2	 736334268 ns/op	       0 B/op	       0 allocs/op
+BenchmarkFibonacciNumber2-4   	  208621	      5027 ns/op	    2291 B/op	       7 allocs/op
+PASS
+ok  	fib2	3.313s
