@@ -125,6 +125,7 @@ pageType = "text"
 
 | Official | Release    |                       Ubuntu | Release    |   Delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
+|   85.0.1 | 2021-02-05 | 85.0.1+build1-0 (USN-4717-2) | 2021-02-08 |  3 days |
 |     85.0 | 2021-01-26 |   85.0+build1-0 (USN-4717-1) | 2021-02-01 |  7 days |
 |   84.0.2 | 2021-01-06 | 84.0.2+build1-0 (USN-4687-1) | 2021-01-08 |  2 days |
 |   84.0.1 | 2020-12-22 |                      &mdash; | &mdash;    | &mdash; |
@@ -151,6 +152,7 @@ pageType = "text"
 
 ### ブックマーク
 
+- [Firefox  85.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/85.0.1/releasenotes/)
 - [Firefox  85.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/85.0/releasenotes/)
 - [Firefox  84.0.2, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/84.0.2/releasenotes/)
 - [Firefox  84.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/84.0.1/releasenotes/)
@@ -183,7 +185,8 @@ pageType = "text"
 
 | Official | Release    |                       Ubuntu | Release    |   Delay |
 | --------:| ---------- | ----------------------------:| ---------- | -------:|
-|   78.8.0 | 2021-01-26 |                              |            | ∞ days |
+|   78.8.1 | 2021-02-05 |                              |            | ∞ days |
+|   78.8.0 | 2021-01-26 |                      &mdash; | &mdash;    | &mdash; |
 |   78.6.1 | 2020-01-11 | 78.6.1+build1-0 (USN-4701-1) | 2021-01-20 | ∞ days |
 |   78.6.0 | 2020-12-15 |                      &mdash; | &mdash;    | &mdash; |
 |   78.5.1 | 2020-12-02 |                      &mdash; | &mdash;    | &mdash; |
@@ -206,6 +209,7 @@ pageType = "text"
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (78.7.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.7.1/releasenotes/)
 - [Thunderbird — Release Notes (78.7.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.7.0/releasenotes/)
 - [Thunderbird — Release Notes (78.6.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.6.1/releasenotes/)
 - [Thunderbird — Release Notes (78.6.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.6.0/releasenotes/)
