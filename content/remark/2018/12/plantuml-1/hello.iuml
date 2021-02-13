@@ -1,5 +1,5 @@
 skinparam shadowing false
-skinparam backgroundColor transparent
+'skinparam backgroundColor transparent
 skinparam dpi 300
 
 skinparam arrow {
