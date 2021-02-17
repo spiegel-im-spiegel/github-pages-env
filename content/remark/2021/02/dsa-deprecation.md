@@ -3,7 +3,7 @@ title = "DSA は NIST 電子署名標準から外れるようだ"
 date =  "2021-02-17T20:53:55+09:00"
 description = "ドラフト版 FIPS 186-5 の DSA の節の内容がまるっと削られている。"
 image = "/images/attention/kitten.jpg"
-tags = [ "security", "cryptography", "risk", "ecc", "dsa" ]
+tags = [ "security", "cryptography", "risk", "ecc", "nist", "dsa" ]
 pageType = "text"
 
 [scripts]
