@@ -43,4 +43,8 @@ pageType = "text"
 [`crypto/dsa`]: https://golang.org/pkg/crypto/dsa/ "dsa - The Go Programming Language"
 [OpenPGP]: http://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
 [RFC 4880bis]: https://datatracker.ietf.org/doc/draft-ietf-openpgp-rfc4880bis/ "draft-ietf-openpgp-rfc4880bis - OpenPGP Message Format"
-<!-- eof -->
+
+## 参考図書
+
+{{% review-paapi "B015643CPE" %}} <!-- 暗号技術入門 第3版 -->
+{{% review-paapi "4314009071" %}} <!-- 暗号化 プライバシーを救った反乱者たち -->
