@@ -1,0 +1,50 @@
+// +build run
+
+package main
+
+import (
+	"context"
+	"fmt"
+	"os"
+	"os/signal"
+	"sync"
+	"time"
+)
+
+func ticker(ctx context.Context, num int) {
+	t := time.NewTicker(1 * time.Second) //1秒周期の ticker
+	defer func() {
+		fmt.Printf("Stopping ticker (%d) ...\n", num)
+		t.Stop()
+	}()
+
+	for {
+		select {
+		case now := <-t.C:
+			fmt.Println(now.Format(time.RFC3339))
+		case <-ctx.Done():
+			fmt.Printf("cancellation from context (%d) : %v\n", num, ctx.Err())
+			return
+		}
+	}
+	return
+}
+
+func run() {
+	parent, _ := signal.NotifyContext(context.Background(), os.Interrupt)
+	var wg sync.WaitGroup
+	for i := 0; i < 3; i++ {
+		n := i + 1
+		wg.Add(1)
+		go func() {
+			defer wg.Done()
+			child, _ := context.WithTimeout(parent, time.Duration(n)*5*time.Second)
+			ticker(child, n)
+		}()
+	}
+	wg.Wait()
+}
+
+func main() {
+	run()
+}

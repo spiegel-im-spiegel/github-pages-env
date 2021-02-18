@@ -10,6 +10,12 @@ tags = [ "golang", "programming", "time", "channel", "context", "goroutine", "co
   mermaidjs = false
 +++
 
+{{< div-box type="markdown" >}}
+**【2021-02-18】**
+Go 1.16 で追加された関数を使った「[time.Ticker で遊ぶ【Go 1.16 バージョン】]({{< relref "./ticker-2.md" >}})」を公開した。
+併せてどうぞ。
+{{< /div-box >}}
+
 相変わらず小ネタで。
 今回の目標は2つ。
 
