@@ -55,6 +55,7 @@ go version go1.16 linux/amd64
 - [Go 1.16 リリースノート 日本語訳  - Qiita](https://qiita.com/c-yan/items/f6f504d5e1c1caceace4)
 
 - [DSA は NIST 電子署名標準から外れるようだ]({{< ref "/remark/2021/02/dsa-deprecation.md" >}})
+- [time.Ticker で遊ぶ【Go 1.16 バージョン】]({{< ref "/golang/ticker-2.md" >}})
 
 [Go]: https://golang.org/ "The Go Programming Language"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
