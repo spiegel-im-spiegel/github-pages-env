@@ -41,6 +41,35 @@ x64
 
 うむうむ。
 
+{{< div-box type="markdown" >}}
+### APT によるインストール【2021-02-20 追記】
+
+実は Microsoft から [VS Code] 用の APT リポジトリが提供されている。
+これを読み込んでインストールすることもできる。
+
+まず電子署名鍵のインポートから
+
+```text
+$ wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+```
+
+次にリポジトリの登録を行う。
+
+```text
+$ sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+```
+
+これで準備完了。
+あとは
+
+```text
+$ sudo apt update
+$ sudo apt install code
+```
+
+でインストールできる。
+{{< /div-box >}}
+
 ## [VS Code] のカスタマイズ
 
 カスタマイズはメニューの `File` → `Preferences` から選択できる。
@@ -82,6 +111,7 @@ x64
 - [UbuntuにVSCodeをインストールする3つの方法 - Qiita](https://qiita.com/yoshiyasu1111/items/e21a77ed68b52cb5f7c8)
 - [VS Code でドキュメントの空白文字を見やすくしてみる - Qiita](https://qiita.com/satokaz/items/cb45d82f6f8f1e24c0d6)
 - [Visual Studio Codeの設定「虎の巻」：IDE編 (1/3)：特集：Visual Studio Codeを使いこなそう！ - ＠IT](https://www.atmarkit.co.jp/ait/articles/1708/23/news026.html)
+- [How to Install Visual Studio Code on Ubuntu 20.04 | Linuxize](https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-20-04/)
 
 [VS Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
