@@ -207,7 +207,7 @@ type DirEntry interface {
 }
 ```
 
-つまり返り値から [`fs`]`.FileInfo` の情報を取り出すには [`fs`]`.DirEntry.Info()` 関数を使い，さらに返り値の error を評価する必要がある。
+つまり返り値から [`fs`]`.FileInfo` の情報を取り出すには [`fs`]`.DirEntry.Info()` メソッドを使い，さらに返り値の error を評価する必要がある。
 
 このように [`ioutil`]`.ReadDir()` と [`os`]`.ReadDir()` では返り値とその評価方法が異なるため，単純な置き換えではなく，若干のコードの書き換えが必要となる。
 
