@@ -18,6 +18,7 @@ tags = ["golang", "package", "engineering" ]
 - [モジュール対応モードへの移行を検討する]({{< relref "./go-module-aware-mode.md" >}})
 - [Go モジュールのバージョン管理]({{< relref "./versioning-of-go-modules.md" >}})
 - [パッケージの管理（モジュール対応版）]({{< relref "./manage-packages.md" >}})
+- [Go 1.16 からのモジュール管理]({{< relref "./manage-modules.md" >}})（**2021-02-21 追記**）
 {{< /div-box >}}
 
 ## Go のパッケージ{#package}

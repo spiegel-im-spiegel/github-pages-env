@@ -57,6 +57,7 @@ go version go1.16 linux/amd64
 - [DSA は NIST 電子署名標準から外れるようだ]({{< ref "/remark/2021/02/dsa-deprecation.md" >}})
 - [time.Ticker で遊ぶ【Go 1.16 バージョン】]({{< ref "/golang/ticker-2.md" >}})
 - [io/ioutil の非推奨化について]({{< ref "/golang/deprecation-of-ioutil.md" >}})
+- [Go 1.16 からのモジュール管理]({{< ref "/golang/manage-modules.md" >}})
 
 [Go]: https://golang.org/ "The Go Programming Language"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
