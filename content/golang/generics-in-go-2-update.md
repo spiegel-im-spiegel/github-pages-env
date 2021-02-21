@@ -11,6 +11,11 @@ pageType = "text"
   mermaidjs = false
 +++
 
+{{< div-box type="markdown" >}}
+**【2021-02-21 追記】**
+Generics の提案（型を示すものではないので「総称型」というのは厳密には正しくないらしい）は2021年2月に承認され，製造フェーズに入ったようだ。
+{{< /div-box >}}
+
 1. [次期 Go 言語で導入される（かもしれない）総称型について予習する]({{< relref "./generics-in-go-2.md" >}})
 1. [次期 Go 言語で導入される総称型について予習する（その2）]({{< relref "./generics-in-go-2-update.md" >}}) ←イマココ
 1. [次期 Go 言語で導入される総称型について予習する（その3）]({{< relref "./generics-in-go-2-update-update.md" >}})

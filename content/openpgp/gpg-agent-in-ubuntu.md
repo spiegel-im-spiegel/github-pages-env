@@ -206,6 +206,8 @@ A5353D587000D820669B0BD55A0B4AD6897458DB 0
 ## ブックマーク
 
 - [Configuring gpg-agent for SSH Authentication on Ubuntu](https://curiouslynerdy.com/gpg-agent-for-ssh-on-ubuntu/)
+- [Kernel Maintainer PGP guide — The Linux Kernel  documentation](https://www.kernel.org/doc/html/v5.8/process/maintainer-pgp-guide.html)
+- [OpenPGP SSH access with Yubikey and GnuPG · GitHub](https://gist.github.com/artizirk/d09ce3570021b0f65469cb450bee5e29)
 
 - [GnuPG チートシート（鍵作成から失効まで）]({{< relref "./gnupg-cheat-sheet.md" >}})
 - [OpenSSH 鍵をアップグレードする（さようなら SHA-1）]({{< ref "/remark/2020/06/upgrade-openssh-key.md" >}})

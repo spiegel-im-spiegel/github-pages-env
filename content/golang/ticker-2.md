@@ -179,6 +179,10 @@ ctx, cancel := signal.NotifyContext(context.Background(), os.Interrupt)
 [`context`] について詳しくは『[Go 言語による並行処理](https://www.amazon.co.jp/dp/4873118468?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)』の 4.12 章が参考になる。
 素敵なキャンセル・ライフを（笑）
 
+## ブックマーク
+
+- [Big Sky :: os/signal に NotifyContext が入った。](https://mattn.kaoriya.net/software/lang/go/20200916090416.htm)
+
 [Go]: https://golang.org/ "The Go Programming Language"
 [`time`]: http://golang.org/pkg/time/ "time - The Go Programming Language"
 [`context`]: https://golang.org/pkg/context/ "context - The Go Programming Language"

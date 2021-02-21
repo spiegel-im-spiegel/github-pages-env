@@ -11,6 +11,11 @@ pageType = "text"
   mermaidjs = false
 +++
 
+{{< div-box type="markdown" >}}
+**【2021-02-21 追記】**
+Generics の提案（型を示すものではないので「総称型」というのは厳密には正しくないらしい）は2021年2月に承認され，製造フェーズに入ったようだ。
+{{< /div-box >}}
+
 1. [次期 Go 言語で導入される（かもしれない）総称型について予習する]({{< relref "./generics-in-go-2.md" >}})
 1. [次期 Go 言語で導入される総称型について予習する（その2）]({{< relref "./generics-in-go-2-update.md" >}})
 1. [次期 Go 言語で導入される総称型について予習する（その3）]({{< relref "./generics-in-go-2-update-update.md" >}}) ←イマココ
@@ -157,6 +162,7 @@ func main() {
 ## ブックマーク
 
 - [Go Generics draft design Final](https://blog.yongweilun.me/go-generics-draft-design-final?guid=none&deviceId=0389b3ed-c102-4f48-ba65-49e5f54124a4)
+- [Go: Type Parameters - Draft Design 抄訳](https://zenn.dev/shuyo/books/4536b976e169ca)
 
 - [それは Duck Typing ぢゃない（らしい）]({{< ref "/remark/2020/04/subtyping.md" >}})
 
