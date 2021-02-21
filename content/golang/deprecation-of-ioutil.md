@@ -92,7 +92,7 @@ var Discard io.Writer = io.Discard
 
 問題は [`ioutil`]`.ReadDir()` と [`os`]`.ReadDir()` の差異だ。
 
-[Go] 1.16 [`ioutil`]`.ReadDir()` は以下のように実装されている。
+[Go] 1.16 の [`ioutil`]`.ReadDir()` は以下のように実装されている。
 
 ```go
 // ReadDir reads the directory named by dirname and returns
