@@ -1,5 +1,5 @@
 +++
-title = "pgpdump v0.12.1 をリリースした"
+title = "gpgpdump v0.12.1 をリリースした"
 date =  "2021-02-23T21:25:43+09:00"
 description = "今回は Go 1.16 への対応が主。 機能上の修正・変更はない。"
 image = "/images/attention/openpgp.png"
