@@ -58,6 +58,7 @@ go version go1.16 linux/amd64
 - [time.Ticker で遊ぶ【Go 1.16 バージョン】]({{< ref "/golang/ticker-2.md" >}})
 - [io/ioutil の非推奨化について]({{< ref "/golang/deprecation-of-ioutil.md" >}})
 - [Go 1.16 からのモジュール管理]({{< ref "/golang/manage-modules.md" >}})
+- [紙芝居用の簡易サーバを書く【Go 1.16 版】]({{< ref "/golang/embeded-filesystem.md" >}})
 
 [Go]: https://golang.org/ "The Go Programming Language"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
