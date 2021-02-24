@@ -118,11 +118,53 @@ require (
 `go list -m all` って，実際にはリンクしない名目上の依存関係も全部拾ってリストアップしちゃうので，凄い面倒くさいんだよねぇ。
 実際にリンクするパッケージだけリストアップしてくれないものだろうか...
 
+## 【2021-02-25 追記】 [depm] との連携
+
+拙作の [Go 言語用モジュール依存関係可視化ツール]({{< ref "/release/dependency-graph-for-golang-modules.md" >}}) [depm] を使って
+
+```text
+$ depm list --json | nancy sleuth -n
+```
+
+とすることで名目だけの依存パッケージの誤検知を回避できる。
+ただ，私としては [depm] の信頼性にイマイチ確信が持てないので，ご利用は自己責任で（笑）
+
+[GitHub] Actions を使うのであれば
+
+```yaml {hl_lines=[18,19,21]}
+name: vulns
+on:
+  push:
+    tags:
+      - v*
+    branches:
+      - master
+  pull_request:
+jobs:
+  vulns:
+    name: Vulnerability scanner
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-go@v2
+        with:
+          go-version: ^1.16
+      - name: install depm
+        run: go install github.com/spiegel-im-spiegel/depm@latest
+      - name: WriteGoList
+        run: depm list --json > go.list
+      - name: Nancy
+        uses: sonatype-nexus-community/nancy-github-action@main
+```
+などとすればOK。
+[Go] 1.16 以降で有効なのでご注意を。
+
 [Go]: https://golang.org/ "The Go Programming Language"
 [nancy]: https://github.com/sonatype-nexus-community/nancy "sonatype-nexus-community/nancy: A tool to check for vulnerabilities in your Golang dependencies, powered by Sonatype OSS Index"
 [Sonatype OSS Index]: https://ossindex.sonatype.org/
 [GitHub]: https://github.com/
 [github.com/coreos/etcd]: https://github.com/etcd-io/etcd "etcd-io/etcd: Distributed reliable key-value store for the most critical data of a distributed system"
+[depm]: https://github.com/spiegel-im-spiegel/depm "spiegel-im-spiegel/depm: Visualize depndency packages and modules"
 
 ## 参考図書
 
