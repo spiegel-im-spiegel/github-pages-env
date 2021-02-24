@@ -17,11 +17,11 @@ tags  = [ "golang", "engineering", "module", "versioning" ]
 したがってこの記事はバージョン 1.12 以降で大幅に書き替える可能性がる。
 
 {{< div-box type="markdown" >}}
-**【2021-02-21 追記】**
-Go 1.16 からモジュール管理が一部変更になった。
-詳しくは以下を参照のこと。
+**【2021-02-25 追記】**
+なお，このブログで書き散らした内容をまとめる形で 以下の Zenn 記事を書いた。
+こちらも併せてどうぞ。
 
-- [Go 1.16 からのモジュール管理]({{< relref "./manage-modules.md" >}})
+- [Go のモジュール管理【バージョン 1.16 改訂版】](https://zenn.dev/spiegel/articles/20210223-go-module-aware-mode)
 {{< /div-box >}}
 
 ## 用語の整理

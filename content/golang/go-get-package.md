@@ -12,13 +12,10 @@ tags = ["golang", "package", "engineering" ]
 （初出： [はじめての Go 言語 (on Windows) その3 - Qiita](http://qiita.com/spiegel-im-spiegel/items/a52a47942fd3946bb583)）
 
 {{< div-box type="markdown" >}}
-【追記 2019-12-20】 バージョン 1.11 からパッケージの管理は「モジュール」をベースにしたものに移行しつつある。
-詳しくは以下を参照のこと。
+【追記 2021-02-25】 バージョン 1.11 からパッケージの管理は「モジュール」をベースにしたものに移行しつつある。
+最新状況については以下の Zenn 記事を参照のこと。
 
-- [モジュール対応モードへの移行を検討する]({{< relref "./go-module-aware-mode.md" >}})
-- [Go モジュールのバージョン管理]({{< relref "./versioning-of-go-modules.md" >}})
-- [パッケージの管理（モジュール対応版）]({{< relref "./manage-packages.md" >}})
-- [Go 1.16 からのモジュール管理]({{< relref "./manage-modules.md" >}})（**2021-02-21 追記**）
+- [Go のモジュール管理【バージョン 1.16 改訂版】](https://zenn.dev/spiegel/articles/20210223-go-module-aware-mode)
 {{< /div-box >}}
 
 ## Go のパッケージ{#package}
