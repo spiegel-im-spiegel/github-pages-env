@@ -177,7 +177,7 @@ Windows 版ではマルチカーソルの追加（上の2つの機能ね）が`[
 | `[Ctrl+Shift+@]` | Toggle Integrated Terminal |
 
 
-この機能は頻繁に使うので `[Ctrl+F10]` キーに割り当て直す。
+この機能は頻繁に使うので `[Ctrl+F1]` キーに割り当て直す。
 `keybindings.json` にはこんな感じに設定された。
 
 ```json
