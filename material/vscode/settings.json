@@ -1,0 +1,23 @@
+{
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground":"#303030"
+  },
+  "editor.wordWrapColumn": 2048,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editorconfig.generateAuto": false,
+  "search.mode": "newEditor",
+  "code-eol.highlightExtraWhitespace": true,
+  "code-eol.highlightNonDefault": true,
+  "go.autocompleteUnimportedPackages": true,
+  "go.formatTool": "goimports",
+  "go.lintTool": "golangci-lint",
+  "go.gotoSymbol.includeGoroot": true,
+  "go.lintOnSave": "file",
+  "go.testOnSave": true,
+  "gopls": {
+    "build.experimentalWorkspaceModule": true
+  }
+}
