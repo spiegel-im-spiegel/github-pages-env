@@ -295,6 +295,7 @@ $ code --install-extension medo64.render-crlf
 
 改行コードの可視化。
 色々あったけどユーザが多そうだったのでコレにした。
+行末の余分な空白文字も目立たせてくれるスグレモノ。
 つか，改行コードを表示するのに拡張機能が必要なのかよ `orz`
 
 `settings.json` はこんな感じに設定している。
@@ -303,6 +304,14 @@ $ code --install-extension medo64.render-crlf
 {
     "code-eol.highlightExtraWhitespace": true,
     "code-eol.highlightNonDefault": true
+}
+```
+
+ついでに設定の “Render Control Characters” も ON にしている。
+
+```json
+{
+    "editor.renderControlCharacters": true
 }
 ```
 
@@ -326,14 +335,44 @@ $ code --install-extension PKief.material-icon-theme
 
 よい。
 
+### [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2 "Bracket Pair Colorizer 2 - Visual Studio Marketplace")
+
+```text
+$ code --install-extension CoenraadS.bracket-pair-colorizer-2
+```
+
+括弧の対応を色付きで見やすくしてくれる。
+ホンマに見やすいな。
+2 のほうが出来がいいらしい。
+
+### [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph "Git Graph - Visual Studio Marketplace")
+
+```text
+$ code --install-extension mhutchie.git-graph
+```
+
+`git commit` などの基本的なコマンドはコマンドパレットから簡単に呼び出せるが， GUI で操作したいときもあるので。
+って，これがあれば他の git GUI ツール要らなくね？ というわけで採用した。
+`[Shift+F1]` キー押下で表示するようにした。
+
+```json
+// Place your key bindings in this file to override the defaultss
+[
+    {
+        "key": "shift+f1",
+        "command": "git-graph.view"
+    }
+]
+```
+
 ### [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens "GitLens — Git supercharged - Visual Studio Marketplace")
 
 ```text
 $ code --install-extension eamodio.gitlens
 ```
 
-`git commit` などの基本的なコマンドはコマンドパレットから簡単に呼び出せるが，これがあればかなり細かい操作ができるようになる。
-とはいえ，私にはちょっと過剰な機能なんだよなぁ。
+かなり詳細な情報が見れるんだけど，私にはちょっと過剰な機能なんだよなぁ。
+とりあえず保留。
 
 ### [Excel Viewer](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer "Excel Viewer - Visual Studio Marketplace")
 

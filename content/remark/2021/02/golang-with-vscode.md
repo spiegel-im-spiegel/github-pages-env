@@ -46,7 +46,7 @@ $ code --install-extension golang.go
 {
     "gopls": {
         "build.experimentalWorkspaceModule": true
-    },
+    }
 }
 ```
 

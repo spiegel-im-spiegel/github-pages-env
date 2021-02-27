@@ -4,9 +4,12 @@
   "workbench.colorCustomizations": {
     "editor.lineHighlightBackground":"#303030"
   },
+  "workbench.tree.renderIndentGuides": "always",
   "editor.fontFamily": "'Inconsolata Medium', 'Noto Serif CJK JP Medium', monospace, 'Droid Sans Fallback'",
+  "editor.fontSize": 15,
   "editor.wordWrapColumn": 2048,
   "editor.minimap.enabled": false,
+  "editor.renderControlCharacters": true,
   "editor.renderWhitespace": "all",
   "editorconfig.generateAuto": false,
   "search.mode": "newEditor",
@@ -20,6 +23,6 @@
   "go.testOnSave": true,
   "gopls": {
     "build.experimentalWorkspaceModule": true
-  }
+  },
+  "git.autofetch": true
 }
-

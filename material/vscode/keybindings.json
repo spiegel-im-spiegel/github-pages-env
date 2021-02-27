@@ -11,5 +11,9 @@
   {
     "key": "ctrl+shift+[BracketLeft]",
     "command": "-workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "shift+f1",
+    "command": "git-graph.view"
   }
 ]
