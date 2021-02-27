@@ -1,3 +1,5 @@
+// +build run
+
 package main
 
 import (
@@ -5,7 +7,7 @@ import (
 	"os"
 )
 
-func checkFileOpen(path string) error {
+func checkFileOpen1(path string) error {
 	file, err := os.Open(path)
 	if err != nil {
 		return err
@@ -16,7 +18,7 @@ func checkFileOpen(path string) error {
 }
 
 func main() {
-	if err := checkFileOpen("not-exist.txt"); err != nil {
+	if err := checkFileOpen1("not-exist.txt"); err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		return
 	}

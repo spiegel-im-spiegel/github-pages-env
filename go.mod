@@ -4,8 +4,6 @@ go 1.16
 
 require (
 	github.com/dsnet/compress v0.0.1
-	github.com/google/go-github v17.0.0+incompatible
-	github.com/google/go-querystring v1.0.0 // indirect
 	github.com/google/uuid v1.2.0
 	github.com/jessevdk/go-assets v0.0.0-20160921144138-4f4301a06e15
 	github.com/jonboulle/clockwork v0.2.2 // indirect
@@ -21,7 +19,6 @@ require (
 	github.com/spiegel-im-spiegel/gocli v0.10.4
 	github.com/spiegel-im-spiegel/koyomi v0.1.6
 	github.com/spiegel-im-spiegel/logf v0.2.5
-	github.com/spiegel-im-spiegel/pa-api v0.8.1
 	github.com/stretchr/testify v1.7.0 // indirect
 	gopkg.in/russross/blackfriday.v2 v2.1.0
 	rsc.io/quote v1.5.2
