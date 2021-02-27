@@ -1,7 +1,7 @@
 package randstr_test
 
 import (
-	"randstr"
+	"github.com/spiegel-im-spiegel/github-pages-env/content/golang/random-string"
 	"testing"
 	"time"
 )

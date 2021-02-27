@@ -4,6 +4,7 @@
   "workbench.colorCustomizations": {
     "editor.lineHighlightBackground":"#303030"
   },
+  "editor.fontFamily": "'Inconsolata Medium', 'Noto Serif CJK JP Medium', monospace, 'Droid Sans Fallback'",
   "editor.wordWrapColumn": 2048,
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "all",
@@ -11,13 +12,14 @@
   "search.mode": "newEditor",
   "code-eol.highlightExtraWhitespace": true,
   "code-eol.highlightNonDefault": true,
+  "go.buildOnSave": "off",
   "go.autocompleteUnimportedPackages": true,
   "go.formatTool": "goimports",
   "go.lintTool": "golangci-lint",
   "go.gotoSymbol.includeGoroot": true,
-  "go.lintOnSave": "file",
   "go.testOnSave": true,
   "gopls": {
     "build.experimentalWorkspaceModule": true
   }
 }
+
