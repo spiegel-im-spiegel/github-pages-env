@@ -64,12 +64,12 @@ Windows 版の [ATOM] はコマンド・プロンプトから任意の場所を�
 
 - Windows 版
     - `%USERPROFILE%\.vscode\`
-    - `%APPDATA%\Code\User\`
+    - `%APPDATA%\Code\`
 - [Ubuntu] 版
     - `$HOME/.vscode/`
     - `$HOME/.config/Code/`
 
-`settings.json` や `keybindings.json` といった設定ファイルやスニペットを格納する `snippets/` ディレクトリは `Code/User` ディレクトリ直下にあるので，必要に応じてバックアップを取るのがいいだろう。
+`settings.json` や `keybindings.json` といった設定ファイルやスニペットを格納する `snippets/` ディレクトリは `Code/User/` ディレクトリ直下にあるので，必要に応じてバックアップを取るのがいいだろう。
 
 ぶっちゃけ日本語化は不要。
 つか，コマンドパレットや検索フィルタを常用するなら下手に日本語化しても混乱するだけだろう。
