@@ -352,8 +352,18 @@ $ code --install-extension mhutchie.git-graph
 ```
 
 `git commit` などの基本的なコマンドはコマンドパレットから簡単に呼び出せるが， GUI で操作したいときもあるので。
-って，これがあれば他の git GUI ツール要らなくね？ というわけで採用した。
-`[Shift+F1]` キー押下で表示するようにした。
+しかも以下のオプションを付ければ電子署名の検証も表示してくれる。
+
+```json
+{
+    "git-graph.repository.commits.showSignatureStatus": true
+}
+```
+
+というわけで採用。
+つか，これがあれば他の git GUI ツール要らなくね？
+
+キーボードで操作しやすいよう `[Shift+F1]` キー押下で表示するようにした。
 
 ```json
 // Place your key bindings in this file to override the defaultss

@@ -24,5 +24,9 @@
   "gopls": {
     "build.experimentalWorkspaceModule": true
   },
-  "git.autofetch": true
+  "git.autofetch": true,
+  "git.enableCommitSigning": true,
+  "git-graph.repository.commits.showSignatureStatus": true,
+  "git-graph.repository.sign.commits": true,
+  "git-graph.repository.sign.tags": true
 }
