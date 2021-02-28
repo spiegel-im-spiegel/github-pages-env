@@ -39,8 +39,8 @@ pageType = "text"
 以下は参考情報として記しておく。
 
 | Official | Release    |         Ubuntu | Release    |   Delay |
-| --------:| ---------- | --------------:| ---------- | -------:|
-|   2.2.26 | 2020-12-21 |                |            | ∞ days |
+| -------: | ---------- | -------------: | ---------- | ------: |
+|   2.2.26 | 2020-12-21 |                |            |  ∞ days |
 |   2.2.25 | 2020-11-23 |        &mdash; | &mdash;    | &mdash; |
 |   2.2.24 | 2020-11-17 |        &mdash; | &mdash;    | &mdash; |
 |   2.2.23 | 2020-09-03 |        &mdash; | &mdash;    | &mdash; |
@@ -51,8 +51,8 @@ pageType = "text"
 ### Libgcrypt
 
 | Official | Release    |         Ubuntu | Release    |   Delay |
-| --------:| ---------- | --------------:| ---------- | -------:|
-|    1.8.7 | 2020-10-23 |                |            | ∞ days |
+| -------: | ---------- | -------------: | ---------- | ------: |
+|    1.8.7 | 2020-10-23 |                |            |  ∞ days |
 |    1.8.6 | 2020-07-06 |        &mdash; | &mdash;    | &mdash; |
 |    1.8.5 | 2019-08-29 | (Ubuntu 20.10) | 2020-10-22 | &mdash; |
 
@@ -79,8 +79,8 @@ pageType = "text"
 以下は参考情報として記しておく。
 
 | Official | Release    |         Ubuntu | Release    |   Delay |
-| --------:| ---------- | --------------:| ---------- | -------:|
-|   1.1.1h | 2020-09-22 |                |            | ∞ days |
+| -------: | ---------- | -------------: | ---------- | ------: |
+|   1.1.1h | 2020-09-22 |                |            |  ∞ days |
 |   1.1.1g | 2020-04-21 |        &mdash; | &mdash;    | &mdash; |
 |   1.1.1f | 2020-03-31 | (Ubuntu 20.10) | 2020-10-22 | &mdash; |
 
@@ -95,7 +95,7 @@ pageType = "text"
 [Git] については [Ubuntu] 公式リポジトリではなく [PPA のリポジトリ](https://launchpad.net/~git-core/+archive/ubuntu/ppa)からインストールしている。
 
 | Official | Release    |        Ubuntu | Release    |   Delay |
-| --------:| ---------- | -------------:| ---------- | -------:|
+| -------: | ---------- | ------------: | ---------- | ------: |
 |   2.29.2 | 2020-10-29 |  2.29.2-0ppa1 | 2020-10-30 |   1 day |
 |   2.29.1 | 2020-10-23 |       &mdash; | &mdash;    | &mdash; |
 |   2.29.0 | 2020-10-19 |  2.29.0-0ppa1 | 2020-10-22 |  3 days |
@@ -124,8 +124,9 @@ pageType = "text"
 ## [Firefox]
 
 | Official | Release    |                       Ubuntu | Release    |   Delay |
-| --------:| ---------- | ----------------------------:| ---------- | -------:|
-|   85.0.2 | 2021-02-09 |                              |            | ∞ days |
+| -------: | ---------- | ---------------------------: | ---------- | ------: |
+|     86.0 | 2021-02-23 |  86.0+build3-0 (UUSN-4756-1) | 2021-02-26 |  3 days |
+|   85.0.2 | 2021-02-09 |                      &mdash; | &mdash;    | &mdash; |
 |   85.0.1 | 2021-02-05 | 85.0.1+build1-0 (USN-4717-2) | 2021-02-08 |  3 days |
 |     85.0 | 2021-01-26 |   85.0+build1-0 (USN-4717-1) | 2021-02-01 |  7 days |
 |   84.0.2 | 2021-01-06 | 84.0.2+build1-0 (USN-4687-1) | 2021-01-08 |  2 days |
@@ -153,6 +154,7 @@ pageType = "text"
 
 ### ブックマーク
 
+- [Firefox  86.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/86.0/releasenotes/)
 - [Firefox  85.0.2, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/85.0.2/releasenotes/)
 - [Firefox  85.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/85.0.1/releasenotes/)
 - [Firefox  85.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/85.0/releasenotes/)
@@ -186,7 +188,8 @@ pageType = "text"
 現在は APT を使わず公式バイナリをダウンロードして手動でインストールしているが，参考情報として残しておく。
 
 | Official | Release    |                       Ubuntu | Release    |   Delay |
-| --------:| ---------- | ----------------------------:| ---------- | -------:|
+| -------: | ---------- | ---------------------------: | ---------- | ------: |
+|   78.8.0 | 2021-02-23 |                              |            |  ∞ days |
 |   78.7.1 | 2021-02-05 | 78.7.1+build1-0 (USN-4736-1) | 2021-02-16 | 11 days |
 |   78.7.0 | 2021-01-26 |                      &mdash; | &mdash;    | &mdash; |
 |   78.6.1 | 2020-01-11 | 78.6.1+build1-0 (USN-4701-1) | 2021-01-20 |  9 days |
@@ -211,6 +214,7 @@ pageType = "text"
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (78.8.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.8.0/releasenotes/)
 - [Thunderbird — Release Notes (78.7.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.7.1/releasenotes/)
 - [Thunderbird — Release Notes (78.7.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.7.0/releasenotes/)
 - [Thunderbird — Release Notes (78.6.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.6.1/releasenotes/)
@@ -245,7 +249,7 @@ Java というか [OpenJDK] のセキュリティ管理は LTS (Long Term Suppor
 [OpenJDK]: http://openjdk.java.net/
 
 | Official | Release    |                   Ubuntu | Release    |   Delay |
-| --------:| ---------- | ------------------------:| ---------- | -------:|
+| -------: | ---------- | -----------------------: | ---------- | ------: |
 |   11.0.8 | 2020-07-14 | 11.0.8+10-0 (USN-4433-1) | 2020-07-23 |  9 days |
 |   11.0.7 | 2020-04-14 |           (Ubuntu 20.04) | 2020-04-23 | &mdash; |
 

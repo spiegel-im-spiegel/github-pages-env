@@ -334,6 +334,7 @@ AZj6RwcY/scanE3cwbVrv0v/zA7njR1J8d7vTjwP28EmLvzWVuPhqnaG/4kBz24f
 
 - [GnuPG チートシート（鍵作成から失効まで）]({{< ref "/openpgp/gnupg-cheat-sheet.md" >}})
 - [Windows Terminal × NYAGOS × Scoop ＝ ♥]({{< ref "/remark/2020/10/windows-terminal-and-nyagos-and-scoop.md" >}}) : Windows 版 [GnuPG] は Scoop 経由でインストールするのがオススメ
+- [GnuPGを作ってみる](https://zenn.dev/zunda/scraps/70c2bfb4494510) : [GnuPG] 2.3 系のビルド。 `$HOME/local/gpg/` 以下に配置するのがポイント
 
 [OpenPGP]: http://openpgp.org/
 [RFC 4880]: https://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"

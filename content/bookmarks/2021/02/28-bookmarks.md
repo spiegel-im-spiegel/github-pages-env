@@ -1,8 +1,14 @@
-# 「あとでみる」ブックマーク（Temporary）
++++
+title = "2021-02-28 のブックマーク"
+date =  "2021-02-28T09:54:18+09:00"
+description = "「Zennで発生した障害の原因と行なった対策のまとめ」他"
+image = "/images/attention/bookmarks.jpg"
+pageType = "text"
 
-- [Goのスクリプト言語としてPrologを使う](https://zenn.dev/ichiban/articles/d5974f46596ca6) : 康熙部首だけじゃないのか。対応しなくちゃ
-- [Markdown All in One - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
-- [Developing and publishing modules - The Go Programming Language](https://golang.org/doc/modules/developing)
+[scripts]
+  mathjax = false
+  mermaidjs = false
++++
 
 ## リリース情報
 
@@ -11,9 +17,6 @@
 - [Release v0.4.5 · zetamatta/go-readline-ny · GitHub](https://github.com/zetamatta/go-readline-ny/releases/tag/v0.4.5)
 - [Release v0.4.6 · zetamatta/go-readline-ny · GitHub](https://github.com/zetamatta/go-readline-ny/releases/tag/v0.4.6)
 
-## バベルのインターネット
-
-
 ## セキュリティ＆プライバシー関連
 
 - [GPS Vulnerabilities - Schneier on Security](https://www.schneier.com/blog/archives/2021/02/gps-vulnerabilities.html)
@@ -21,18 +24,9 @@
 - [VMware vCenter Serverの脆弱性（CVE-2021-21972）に関する注意喚起](https://www.jpcert.or.jp/at/2021/at210011.html)
 - [NTTドコモとKDDIが解約手続きページに「noindex」タグを挿入、検索で非表示にしていたと判明  |  TechCrunch Japan](https://jp.techcrunch.com/2021/02/26/ntt-docomo-kddi-noindex/)
 
-## 天文関連
-
-
 ## 知財関連
 
 - [「著作権フィルターに検出されそうな曲をかけてライブストリーミングを妨害しようとした警官」は氷山の一角に過ぎない | P2Pとかその辺のお話R](https://p2ptk.org/copyright/3273)
-
-## Linux または Ubuntu に関する話題
-
-
-## Windows に関する話題
-
 
 ## Go 言語関連
 
@@ -60,5 +54,3 @@
 - [CGのための数学](https://zenn.dev/mebiusbox/books/132b654aa02124)
 - [The state of Go | The GoLand Blog](https://blog.jetbrains.com/go/2021/02/03/the-state-of-go/)
 - [PDFのコピペが文字化けするのはなぜか？～CID/GIDと原ノ味フォント～](https://www.slideshare.net/trueroad_jp/pdfcidgid)
-
-<!-- eof -->
