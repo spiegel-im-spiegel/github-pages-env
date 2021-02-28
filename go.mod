@@ -2,6 +2,8 @@ module github.com/spiegel-im-spiegel/github-pages-env
 
 go 1.16
 
+replace gopkg.in/russross/blackfriday.v2 v2.1.0 => github.com/russross/blackfriday/v2 v2.1.0
+
 require (
 	github.com/dsnet/compress v0.0.1
 	github.com/google/uuid v1.2.0
@@ -19,9 +21,7 @@ require (
 	github.com/spiegel-im-spiegel/gocli v0.10.4
 	github.com/spiegel-im-spiegel/koyomi v0.1.6
 	github.com/spiegel-im-spiegel/logf v0.2.5
-	github.com/stretchr/testify v1.7.0 // indirect
+	golang.org/x/text v0.3.5
 	gopkg.in/russross/blackfriday.v2 v2.1.0
 	rsc.io/quote v1.5.2
 )
-
-replace gopkg.in/russross/blackfriday.v2 v2.1.0 => github.com/russross/blackfriday/v2 v2.1.0

@@ -1,6 +1,5 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-- [PDFのコピペが文字化けするのはなぜか？～CID/GIDと原ノ味フォント～](https://www.slideshare.net/trueroad_jp/pdfcidgid) : 康熙部首だけじゃないのか。対応しなくちゃ
 
 ## リリース情報
 
