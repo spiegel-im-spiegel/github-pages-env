@@ -13985,5 +13985,48 @@
       false
     ],
     "Description": "タイトルを見て “SSH Mystery” と空目したアホは私です。洋書だけど英語不得手の私にも読める内容。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08CZ2C3NZ",
+      "Title": "Software Design (ソフトウェアデザイン) 2020年8月号 [雑誌]",
+      "URL": "https://www.amazon.co.jp/dp/B08CZ2C3NZ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51LziyyXRmL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "Software Design 編集部",
+          "Role": "編集"
+        }
+      ],
+      "Publisher": "技術評論社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08CZ2C3NZ"
+        }
+      ],
+      "PublicationDate": "2020-07-18",
+      "LastRelease": "2020-07-18",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-02-28",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "特集記事は「Vim vs. Visual Studio Code」"
   }
 ]

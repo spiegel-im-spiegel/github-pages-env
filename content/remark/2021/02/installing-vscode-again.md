@@ -30,6 +30,10 @@ pageType = "text"
 今回は職場の Windows 機で先行して導入している。
 なので Windows 機と [Ubuntu] 機を比較しながら，何回かに分けて記事を書いていく予定である。
 
+1. [パソコンに Visual Studio Code を導入する（再チャレンジ）]({{< ref "/remark/2021/02/installing-vscode-again.md" >}}) ← イマココ
+2. [Go と VS Code]({{< ref "/remark/2021/02/golang-with-vscode.md" >}})
+3. [Markdown と VS Code]({{< ref "/remark/2021/02/markdown-with-vscode.md" >}})
+
 ## [VS Code] のインストール
 
 Windows 版のインストールは[サイト][VS Code]からインストーラをダウンロードすればよい。
@@ -381,7 +385,8 @@ $ code --install-extension mhutchie.git-graph
 $ code --install-extension eamodio.gitlens
 ```
 
-かなり詳細な情報が見れるんだけど，私にはちょっと過剰な機能なんだよなぁ。
+多分，チーム運用で相互レビューするときなんかには重宝するんだろう。
+かなり詳細な情報が見れるんだけど，私個人にはちょっと過剰な機能なんだよなぁ。
 とりあえず保留。
 
 ### [Excel Viewer](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer "Excel Viewer - Visual Studio Marketplace")
@@ -452,4 +457,7 @@ GrapeCity が公開してるのか。
 [gopls]: https://pkg.go.dev/golang.org/x/tools/gopls "gopls · pkg.go.dev"
 [NYAGOS]: https://github.com/zetamatta/nyagos/ "zetamatta/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"
 [EditorConfig]: https://editorconfig.org/
-<!-- eof -->
+
+## 参考図書
+
+{{% review-paapi "B08CZ2C3NZ" %}} <!-- Software Design (2020年8月号) -->

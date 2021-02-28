@@ -13,6 +13,10 @@ pageType = "text"
 
 どっちのセクションで書こう悩んだが，所詮ツールの話だし，こっち側で。
 
+1. [パソコンに Visual Studio Code を導入する（再チャレンジ）]({{< ref "/remark/2021/02/installing-vscode-again.md" >}})
+2. [Go と VS Code]({{< ref "/remark/2021/02/golang-with-vscode.md" >}}) ← イマココ
+3. [Markdown と VS Code]({{< ref "/remark/2021/02/markdown-with-vscode.md" >}})
+
 それでは[前回]の続き。
 [VS Code] に [Go 言語][Go]開発支援環境を入れる。
 といっても一択だけどね。
@@ -69,4 +73,5 @@ $ code --install-extension golang.go
 
 ## 参考図書
 
+{{% review-paapi "B08CZ2C3NZ" %}} <!-- Software Design (2020年8月号) -->
 {{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
