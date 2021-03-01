@@ -22,6 +22,12 @@
 	"go.lintTool": "golangci-lint",
 	"go.gotoSymbol.includeGoroot": true,
 	"go.testOnSave": true,
+	"go.coverageOptions": "showUncoveredCodeOnly",
+	"go.coverOnSave": true,
+	"go.coverOnSingleTestFile": true,
+	"go.coverageDecorator": {
+		"type": "gutter"
+	},
 	"gopls": {
 		"build.experimentalWorkspaceModule": true
 	},
@@ -29,6 +35,7 @@
 	"git-graph.repository.commits.showSignatureStatus": true,
 	"git-graph.repository.sign.commits": true,
 	"git-graph.repository.sign.tags": true,
+	"git.enableSmartCommit": true,
 	"[markdown]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
