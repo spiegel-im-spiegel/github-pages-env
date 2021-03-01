@@ -17,17 +17,95 @@ pageType = "text"
 
 今回は [VS Code] で markdown テキストを入出力する話。
 
-Markdown 関連の拡張機能は色々あるようだが，入力支援に関しては以下のもので必要十分ぽい。
+## [Markdown All in One]
 
-- [Markdown All in One - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
-
-インストールはこちら。
+[markdown all in one]: https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one "Markdown All in One - Visual Studio Marketplace"
 
 ```text
 $ code --install-extension yzhang.markdown-all-in-one
 ```
 
-お気に入りはテーブル整形の機能で， `[Ctrl+Shift+I]` キー押下で綺麗に整形してくれる。
+Markdown 関連の拡張機能は色々あるようだが，入力支援に関してはこれで必要十分ぽい。
+
+お気に入りはテーブル整形の機能で， Linux/Ubuntu なら `[Ctrl+Shift+I]` キー（Format Document）押下で綺麗に整形してくれる。
+
+ところが Windows 版では `[Shift+Alt+F]` キーが Format Document に割り当てられているようだ。
+プラットフォームによって違うのかよ。
+
+というわけで Windows 版の方にキー割当を合わせることにした。
+
+```json
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "shift+alt+f",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "-editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "editor.action.formatDocument.none",
+        "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "-editor.action.formatDocument.none",
+        "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+    }
+]
+```
+
+## [Prettier - Code formatter] との競合
+
+[prettier - code formatter]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode "Prettier - Code formatter - Visual Studio Marketplace"
+
+```text
+$ code --install-extension esbenp.prettier-vscode
+```
+
+Markdown 専用というわけではないが JavaScript/TypeScript, CSS/SCSS/Less, HTML, JSON, GraphQL, YAML など幅広い言語に対応している整形ツールで，しかも plugin 拡張もできるらしい。
+もちろん markdown テキストにも対応している。
+
+で，これと [Markdown All in One] の整形機能（Format Document）が被るわけですよ。
+そこで，どちらの機能を使うか言語ごとに設定できるようになっている。
+こんな感じ。
+
+```json
+{
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
+```
+
+さらにファイル保存時に変更した箇所だけを整形する，なんてな設定も言語ごとにできるようだ。
+
+```json {hl_lines=[4,5]}
+{
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "modifications"
+    }
+}
+```
+
+ちなみに [EditorConfig for VS Code] が有効な場合は `.editorconfig` の設定（インデントや改行コードなど）を考慮してくれるようだ。
+これを無効にするには “Use Editor Config” の項目を OFF にする。
+
+```json {hl_lines=[4,5]}
+{
+    "prettier.useEditorConfig": false
+}
+```
+
+ただし， [EditorConfig][EditorConfig for VS Code] が有効な場合でも `.prettierrc` ファイルなどによる [Prettier][prettier - code formatter] 独自の設定がある場合は，そちらのほうが優先されるようだ。
+ややこしい...
 
 ## Markdown Preview 機能は必要か
 
@@ -64,8 +142,8 @@ $ code --install-extension yzane.markdown-pdf
 コマンド一発で PDF 変換してくれる。
 簡易的な出力しか出来ないのかと思ったら，意外にもかなりカスタマイズできるらしい。
 
-- [VSCodeとMarkdownで技術同人誌書いたので拡張機能とかまとめ - Qiita](https://qiita.com/reona396/items/40b234108f7664267db8)
-- [【Visual Studio Code】Markdown PDF のスタイル(CSS)を変える方法 - Nekonote](https://h-s-hige.hateblo.jp/entry/20190405/1554467885)
+-   [VSCode と Markdown で技術同人誌書いたので拡張機能とかまとめ - Qiita](https://qiita.com/reona396/items/40b234108f7664267db8)
+-   [【Visual Studio Code】Markdown PDF のスタイル(CSS)を変える方法 - Nekonote](https://h-s-hige.hateblo.jp/entry/20190405/1554467885)
 
 ### [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode "Marp for VS Code - Visual Studio Marketplace")
 
@@ -76,7 +154,7 @@ $ code --install-extension marp-team.marp-vscode
 [Marp] を使って markdown テキストからスライドを生成する。
 PDF へエクスポートできるらしい。
 
-- [【VS Code + Marp】Markdownから爆速・自由自在なデザインで、プレゼンスライドを作る - Qiita](https://qiita.com/tomo_makes/items/aafae4021986553ae1d8)
+-   [【VS Code + Marp】Markdown から爆速・自由自在なデザインで、プレゼンスライドを作る - Qiita](https://qiita.com/tomo_makes/items/aafae4021986553ae1d8)
 
 ### [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio "Draw.io Integration - Visual Studio Marketplace")
 
@@ -87,7 +165,7 @@ $ code --install-extension hediet.vscode-drawio
 [Draw.io (diagrams.net)](https://app.diagrams.net/) を利用した作図ツール。
 データはテキストで保持して PNG や SVG へエクスポート可能って感じなのかな。
 
-- [VSCodeでDraw.ioが使えるようになったらしい！ - Qiita](https://qiita.com/riku-shiru/items/5ab7c5aecdfea323ec4e)
+-   [VSCode で Draw.io が使えるようになったらしい！ - Qiita](https://qiita.com/riku-shiru/items/5ab7c5aecdfea323ec4e)
 
 ### [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml "PlantUML - Visual Studio Marketplace")
 
@@ -98,19 +176,21 @@ $ code --install-extension jebbs.plantuml
 [PlantUML] 作図・出力支援。
 あらかじめ [PlantUML] 作図環境を用意する必要がある（ただし `plantuml.jar` ファイルは拡張機能内にあらかじめ格納されている？）。
 
-- [真面目に PlantUML (1) : PlantUML のインストール]({{< ref "/remark/2018/12/plantuml-1.md" >}})
+-   [真面目に PlantUML (1) : PlantUML のインストール]({{< ref "/remark/2018/12/plantuml-1.md" >}})
 
 ## ブックマーク
 
-- [VS Codeエディタ入門](https://zenn.dev/karaage0703/books/80b6999d429abc8051bb)
-- [(2020年12月8日追記)VSCodeでDraw.io Integration使用時にエクスポートできないことがある問題への対処 - Qiita](https://qiita.com/tfukumori/items/0f2b52088cd39f5c124e)
+-   [VS Code エディタ入門](https://zenn.dev/karaage0703/books/80b6999d429abc8051bb)
+-   [(2020 年 12 月 8 日追記)VSCode で Draw.io Integration 使用時にエクスポートできないことがある問題への対処 - Qiita](https://qiita.com/tfukumori/items/0f2b52088cd39f5c124e)
+-   [インデントおよび行末は EditorConfig で始末する](https://zenn.dev/spiegel/articles/20200922-editorconfig)
 
-[VS Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
-[Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
-[PlantUML]: http://plantuml.com/ "Open-source tool that uses simple textual descriptions to draw UML diagrams."
+[vs code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
+[hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
+[plantuml]: http://plantuml.com/ "Open-source tool that uses simple textual descriptions to draw UML diagrams."
 [mermaid]: https://mermaidjs.github.io/
-[DOT]: https://graphviz.gitlab.io/_pages/doc/info/lang.html "The DOT Language"
-[Marp]: https://marp.app/ "Marp: Markdown Presentation Ecosystem"
+[dot]: https://graphviz.gitlab.io/_pages/doc/info/lang.html "The DOT Language"
+[marp]: https://marp.app/ "Marp: Markdown Presentation Ecosystem"
+[editorconfig for vs code]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig "EditorConfig for VS Code - Visual Studio Marketplace"
 
 ## 参考図書
 
