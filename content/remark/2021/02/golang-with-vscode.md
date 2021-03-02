@@ -64,6 +64,49 @@ $ code --install-extension golang.go
 
 それ以外の部分ではぶっちゃけ [ATOM] の [go-plus] よりも出来がいいので，ゆるゆると移行していきますよっと。
 
+## 【2021-03-02 追記】
+
+書き忘れていたが，コマンドパレットから
+
+```text
+>Go: Install/Update Tools
+```
+
+と入力すると関連ツールのインストールおよびアップデートができる。
+
+{{< fig-img src="./update-tools.png" title="Go: Install/Update Tools" link="./update-tools.png" width="612" >}}
+
+これを実行すると
+
+```text
+Tools environment: GOPATH=/home/username/go
+Installing 9 tools at /home/username/go/bin in module mode.
+  gopkgs
+  go-outline
+  gotests
+  gomodifytags
+  impl
+  goplay
+  dlv
+  golangci-lint
+  gopls
+
+Installing github.com/uudashr/gopkgs/v2/cmd/gopkgs (/home/username/go/bin/gopkgs) SUCCEEDED
+Installing github.com/ramya-rao-a/go-outline (/home/username/go/bin/go-outline) SUCCEEDED
+Installing github.com/cweill/gotests/... (/home/username/go/bin/gotests) SUCCEEDED
+Installing github.com/fatih/gomodifytags (/home/username/go/bin/gomodifytags) SUCCEEDED
+Installing github.com/josharian/impl (/home/username/go/bin/impl) SUCCEEDED
+Installing github.com/haya14busa/goplay/cmd/goplay (/home/username/go/bin/goplay) SUCCEEDED
+Installing github.com/go-delve/delve/cmd/dlv (/home/username/go/bin/dlv) SUCCEEDED
+Installing github.com/golangci/golangci-lint/cmd/golangci-lint (/home/username/go/bin/golangci-lint) SUCCEEDED
+Installing golang.org/x/tools/gopls (/home/username/go/bin/gopls) SUCCEEDED
+
+All tools successfully installed. You are ready to Go :).
+```
+
+てな感じで `go install` してくれるようだ。
+自動でアップデートしてくれるといいのだが...
+
 [前回]: {{< relref "./installing-vscode-again.md" >}} "パソコンに Visual Studio Code を導入する（再チャレンジ）"
 [VS Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
 [ATOM]: https://atom.io/
