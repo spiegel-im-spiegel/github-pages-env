@@ -64,6 +64,28 @@ $ code --install-extension golang.go
 
 それ以外の部分ではぶっちゃけ [ATOM] の [go-plus] よりも出来がいいので，ゆるゆると移行していきますよっと。
 
+現時点での `settings.json` の内容はこんな感じ。
+
+```json
+{
+"go.buildOnSave": "off",
+	"go.autocompleteUnimportedPackages": true,
+	"go.formatTool": "goimports",
+	"go.lintTool": "golangci-lint",
+	"go.gotoSymbol.includeGoroot": true,
+	"go.testOnSave": true,
+	"go.coverageOptions": "showUncoveredCodeOnly",
+	"go.coverOnSave": true,
+	"go.coverOnSingleTestFile": true,
+	"go.coverageDecorator": {
+		"type": "gutter"
+	},
+	"gopls": {
+		"build.experimentalWorkspaceModule": true
+	}
+}
+```
+
 ## 【2021-03-02 追記】
 
 書き忘れていたが，コマンドパレットから
