@@ -58,7 +58,7 @@ fmt.Printf("Type: %T, Value: %v", nil, nil)
 したがって `nil` は状態を表す「識別子」あるいは「表現」に過ぎず[^null1]，それ自身は型も値も持たない[^null2]。
 強いて言うなら（プログラミング言語で最も悪名高いとされる[^null3]）「null 参照」の一種だとは言えるだろう。
 
-[^null1]: もちろんこれは言語仕様上の話で実装上は何らかの値をとる。大昔のC言語なんかでは「`#define NULL ((void*)0)`」みたいな記述もあったが，さすがにそーゆーのはない（よね？）。
+[^null1]: もちろんこれは言語仕様上の話で実装上は何らかの値をとる。「[Go言語における式の評価文脈を理解する](https://zenn.dev/dqneo/articles/436bb59d565be7)」によると本当にゼロで埋めるらしい。
 [^null2]: 「型も値も持たない」という意味では最初に紹介した記事の “Goのnilは(nil, nil)” は間違いではなと思う。
 [^null3]: 拙文「[「null 安全」について]({{< ref "/remark/2016/11/null-safety.md" >}})」を参照のこと。
 
@@ -103,25 +103,25 @@ if !(err is nil) {
 package main
 
 import (
-	"fmt"
-	"strconv"
+    "fmt"
+    "strconv"
 )
 
 type Binary uint64
 
 func (i Binary) Get() uint64 {
-	return uint64(i)
+    return uint64(i)
 }
 
 func (i Binary) String() string {
-	return strconv.FormatUint(i.Get(), 2)
+    return strconv.FormatUint(i.Get(), 2)
 }
 
 func main() {
-	b := Binary(200)
-	fmt.Println(b.String())
-	// Output:
-	// 11001000
+    b := Binary(200)
+    fmt.Println(b.String())
+    // Output:
+    // 11001000
 }
 ```
 
@@ -138,9 +138,9 @@ func main() {
 
 {{< highlight go "hl_lines=3-4" >}}
 func main() {
-	b := Binary(200)
-	s := fmt.Stringer(b)
-	fmt.Println(s.String())
+    b := Binary(200)
+    s := fmt.Stringer(b)
+    fmt.Println(s.String())
 }
 {{< /highlight >}}
 
@@ -180,7 +180,7 @@ interface 型では `nil` を「ゼロ値」とすると書いたが，そのた
 // The error built-in interface type is the conventional interface for
 // representing an error condition, with the nil value representing no error.
 type error interface {
-	Error() string
+    Error() string
 }
 ```
 
@@ -194,23 +194,23 @@ import "fmt"
 type ErrorObject struct{}
 
 func (m *ErrorObject) Error() string {
-	return "I'm error object."
+    return "I'm error object."
 }
 
 func foo() *ErrorObject {
-	return nil
+    return nil
 }
 
 func bar() error {
-	return foo()
+    return foo()
 }
 
 func main() {
-	if err := bar(); err != nil {
-		fmt.Printf("%#v is not nil\n", err)
-	} else {
-		fmt.Printf("%#v is nil\n", err)
-	}
+    if err := bar(); err != nil {
+        fmt.Printf("%#v is not nil\n", err)
+    } else {
+        fmt.Printf("%#v is nil\n", err)
+    }
 }
 ```
 
@@ -228,7 +228,7 @@ func main() {
 
 ```go
 func foo() error {
-	return nil
+    return nil
 }
 ```
 
