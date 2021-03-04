@@ -7,7 +7,7 @@
 	"workbench.tree.renderIndentGuides": "always",
 	"window.titleBarStyle": "custom",
 	"window.newWindowDimensions": "inherit",
-	"editor.fontFamily": "'Inconsolata Medium', 'Noto Serif CJK JP Medium', monospace, 'Droid Sans Fallback'",
+	"editor.fontFamily": "'Inconsolata Medium', 'Noto Serif CJK JP Medium', monospace",
 	"editor.fontSize": 15,
 	"editor.wordWrapColumn": 2048,
 	"editor.minimap.enabled": false,
@@ -15,7 +15,9 @@
 	"editor.renderWhitespace": "all",
 	"editor.tabCompletion": "onlySnippets",
 	"[markdown]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "yzhang.markdown-all-in-one",
+		"editor.quickSuggestions": true,
+		"editor.snippetSuggestions": "top"
 	},
 	"[jsonc]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -43,5 +45,6 @@
 	"git.enableSmartCommit": true,
 	"git-graph.repository.commits.showSignatureStatus": true,
 	"git-graph.repository.sign.commits": true,
-	"git-graph.repository.sign.tags": true
+	"git-graph.repository.sign.tags": true,
+	"git-graph.dialog.createBranch.checkOut": true
 }

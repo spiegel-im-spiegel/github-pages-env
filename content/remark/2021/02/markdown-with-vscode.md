@@ -19,7 +19,7 @@ pageType = "text"
 
 ## [Markdown All in One]
 
-[markdown all in one]: https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one "Markdown All in One - Visual Studio Marketplace"
+[Markdown All in One]: https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one "Markdown All in One - Visual Studio Marketplace"
 
 ```text
 $ code --install-extension yzhang.markdown-all-in-one
@@ -60,9 +60,9 @@ Markdown 関連の拡張機能は色々あるようだが，入力支援に関�
 ]
 ```
 
-## [Prettier - Code formatter] との競合
+## [Prettier - Code formatter][prettier] との競合
 
-[prettier - code formatter]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode "Prettier - Code formatter - Visual Studio Marketplace"
+[Prettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode "Prettier - Code formatter - Visual Studio Marketplace"
 
 ```text
 $ code --install-extension esbenp.prettier-vscode
@@ -73,12 +73,12 @@ Markdown 専用というわけではないが JavaScript/TypeScript, CSS/SCSS/Le
 
 で，これと [Markdown All in One] の整形機能（Format Document）が被るわけですよ。
 そこで，どちらの機能を使うか言語ごとに設定できるようになっている。
-こんな感じ。
+私は [Markdown All in One] 優先でこんな感じ。
 
 ```json
 {
     "[markdown]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
     }
 }
 ```
@@ -88,7 +88,7 @@ Markdown 専用というわけではないが JavaScript/TypeScript, CSS/SCSS/Le
 ```json {hl_lines=[4,5]}
 {
     "[markdown]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one",
         "editor.formatOnSave": true,
         "editor.formatOnSaveMode": "modifications"
     }
@@ -104,8 +104,27 @@ Markdown 専用というわけではないが JavaScript/TypeScript, CSS/SCSS/Le
 }
 ```
 
-ただし， [EditorConfig][EditorConfig for VS Code] が有効な場合でも `.prettierrc` ファイルなどによる [Prettier][prettier - code formatter] 独自の設定がある場合は，そちらのほうが優先されるようだ。
+ただし， [EditorConfig][EditorConfig for VS Code] が有効な場合でも `.prettierrc` ファイルなどによる [Prettier] 独自の設定がある場合は，そちらのほうが優先されるようだ。
 ややこしい...
+
+## 自動補完を有効にする
+
+[VS Code] の売りのひとつはスニペットを含む強力な自動補完機能だが，何故か markdown ファイルには自動補完が効かない。
+と思ったら，既定で無効になっているらしい。
+いや，有効にしとけよ。
+
+というわけで `settings.json` に以下の設定を手動で書き込む。
+
+```json
+{
+    "[markdown]": {
+        "editor.quickSuggestions": true,
+        "editor.snippetSuggestions": "top"
+    },
+}
+```
+
+これでスニペットを優先して自動補完候補に挙げてくれる。
 
 ## Markdown Preview 機能は必要か
 
@@ -184,13 +203,13 @@ $ code --install-extension jebbs.plantuml
 -   [(2020 年 12 月 8 日追記)VSCode で Draw.io Integration 使用時にエクスポートできないことがある問題への対処 - Qiita](https://qiita.com/tfukumori/items/0f2b52088cd39f5c124e)
 -   [インデントおよび行末は EditorConfig で始末する](https://zenn.dev/spiegel/articles/20200922-editorconfig)
 
-[vs code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
-[hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
-[plantuml]: http://plantuml.com/ "Open-source tool that uses simple textual descriptions to draw UML diagrams."
-[mermaid]: https://mermaidjs.github.io/
+[Vs Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
+[Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
+[PlantUML]: http://plantuml.com/ "Open-source tool that uses simple textual descriptions to draw UML diagrams."
+[Mermaid]: https://mermaidjs.github.io/
 [dot]: https://graphviz.gitlab.io/_pages/doc/info/lang.html "The DOT Language"
-[marp]: https://marp.app/ "Marp: Markdown Presentation Ecosystem"
-[editorconfig for vs code]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig "EditorConfig for VS Code - Visual Studio Marketplace"
+[Marp]: https://marp.app/ "Marp: Markdown Presentation Ecosystem"
+[EditorConfig for VS Code]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig "EditorConfig for VS Code - Visual Studio Marketplace"
 
 ## 参考図書
 
