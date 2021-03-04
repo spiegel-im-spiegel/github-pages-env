@@ -34,7 +34,7 @@ func main() {
 このコードをみて分かるように，インデックス式 `ageMap[x]` の評価結果は `uint` 型になっている（インデックス値が存在しない場合はゼロ値がセットされる）。
 まぁ，当たり前だよね。
 
-ところが `ageMap[x]` の評価結果を `(T, bool)` の組（tuple）で受けることもできるのだ[^tuple1]。
+ところが `ageMap[x]` の評価結果を `(uint, bool)` の組（tuple）で受けることもできるのだ[^tuple1]。
 これによってコードを
 
 [^tuple1]: 厳密には，特殊形式 `(T, bool)` の2要素目は型付けなしの真偽値（untyped boolean）に評価される。「[型付けなし（untyped）](https://zenn.dev/hsaki/articles/gospecdictionary#untyped "Goの言語仕様書精読のススメ & 英語彙集")」というのは [Go] 特有の概念だそうで，具体的な型が決定される前の状態を指す。たとえば，定数 [`math`]`.Pi` は10進数64桁の小数点数で定義されている。型付けなし定数については『[プログラミング言語Go](https://www.amazon.co.jp/dp/4621300253?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)』の3.6.2章にも解説がある。
