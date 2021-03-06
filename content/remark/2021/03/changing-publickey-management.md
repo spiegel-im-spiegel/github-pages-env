@@ -5,7 +5,6 @@ description = "来年から本気出す（笑）"
 image = "/images/attention/openpgp.png"
 tags = [ "cryptography", "security", "openpgp", "openssh", "site" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = true
