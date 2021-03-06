@@ -1,5 +1,5 @@
 +++
-title = "SSH の認証鍵を GunPG で作成・管理する"
+title = "OpenSSH の認証鍵を GunPG で作成・管理する"
 date = "2021-01-06T23:06:57+09:00"
 description = "新たに鍵を作成する場合や今までの鍵を破棄して作り直す場合などの状況があれば検討してもいいだろう。"
 image = "/images/attention/openpgp.png"
