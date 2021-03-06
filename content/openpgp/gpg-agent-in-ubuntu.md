@@ -47,9 +47,16 @@ ExecStart=/usr/local/bin/gpg-agent --supervised
 ExecReload=/usr/local/bin/gpgconf --reload gpg-agent
 ```
 
-と変更しサービスを `restart` したら `/usr/local/bin/gpg-agent` のほうで稼働してくれるようになった。
+と変更し `gpg-agent.service` ファイルをリロードする。
 
 ```text
+$ systemctl --user daemon-reload
+```
+
+その後サービスを `restart` したら `/usr/local/bin/gpg-agent` のほうで稼働してくれるようになった。
+
+```text
+$ systemctl --user restart gpg-agent
 $ systemctl --user status gpg-agent
 ● gpg-agent.service - GnuPG cryptographic agent and passphrase cache
      Loaded: loaded (/usr/lib/systemd/user/gpg-agent.service; static)
@@ -64,17 +71,62 @@ TriggeredBy: ● gpg-agent.socket
              ├─18913 /usr/local/bin/gpg-agent --supervised
              └─19398 scdaemon --multi-server
 
- Jan 09 09:38:33 mocona6 systemd[1616]: Started GnuPG cryptographic agent and passphrase cache.
- Jan 09 09:38:33 mocona6 gpg-agent[18913]: gpg-agent (GnuPG) 2.2.26 starting in supervised mode.
- Jan 09 09:38:33 mocona6 gpg-agent[18913]: using fd 3 for std socket (/run/user/1000/gnupg/S.gpg-agent)
- Jan 09 09:38:33 mocona6 gpg-agent[18913]: using fd 4 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
- Jan 09 09:38:33 mocona6 gpg-agent[18913]: using fd 5 for extra socket (/run/user/1000/gnupg/S.gpg-agent.extra)
- Jan 09 09:38:33 mocona6 gpg-agent[18913]: using fd 6 for browser socket (/run/user/1000/gnupg/S.gpg-agent.browser)
- Jan 09 09:38:33 mocona6 gpg-agent[18913]: listening on: std=3 extra=5 browser=6 ssh=4
+ Jan 09 09:38:33 mymachine systemd[1616]: Started GnuPG cryptographic agent and passphrase cache.
+ Jan 09 09:38:33 mymachine gpg-agent[18913]: gpg-agent (GnuPG) 2.2.26 starting in supervised mode.
+ Jan 09 09:38:33 mymachine gpg-agent[18913]: using fd 3 for std socket (/run/user/1000/gnupg/S.gpg-agent)
+ Jan 09 09:38:33 mymachine gpg-agent[18913]: using fd 4 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+ Jan 09 09:38:33 mymachine gpg-agent[18913]: using fd 5 for extra socket (/run/user/1000/gnupg/S.gpg-agent.extra)
+ Jan 09 09:38:33 mymachine gpg-agent[18913]: using fd 6 for browser socket (/run/user/1000/gnupg/S.gpg-agent.browser)
+ Jan 09 09:38:33 mymachine gpg-agent[18913]: listening on: std=3 extra=5 browser=6 ssh=4
 ...
 ```
 
 よーし，うむうむ，よーし。
+
+### dirmgr も同様に
+
+OpenPGP 鍵サーバを含むディレクトリ・サービスとやり取りする `dirmngr` も `/usr/lib/systemd/user/dirmngr.service` ファイルでサービス化されている。
+
+```ini {hl_lines=[7,8]}
+[Unit]
+Description=GnuPG network certificate management daemon
+Documentation=man:dirmngr(8)
+Requires=dirmngr.socket
+
+[Service]
+ExecStart=/usr/bin/dirmngr --supervised --honor-http-proxy
+ExecReload=/usr/bin/gpgconf --reload dirmngr
+```
+
+これも最後の2行を
+
+```ini
+ExecStart=/usr/local/bin/dirmngr --supervised --honor-http-proxy
+ExecReload=/usr/local/bin/gpgconf --reload dirmngr
+```
+
+と変更する。
+後の操作は同じ。
+
+```text
+$ systemctl --user daemon-reload
+$ systemctl --user restart dirmngr
+$ systemctl --user status dirmngr
+● dirmngr.service - GnuPG network certificate management daemon
+     Loaded: loaded (/usr/lib/systemd/user/dirmngr.service; static)
+     Active: active (running) since Sat 2021-01-09 09:38:33 JST; 9min ago
+TriggeredBy: ● dirmngr.socket
+       Docs: man:dirmngr(8)
+   Main PID: 349126 (dirmngr)
+     CGroup: /user.slice/user-1000.slice/user@1000.service/dirmngr.service
+             └─349126 /usr/local/bin/dirmngr --supervised --honor-http-proxy
+
+ Jan 09 09:38:33 mymachine systemd[2209]: dirmngr.service: Succeeded.
+ Jan 09 09:38:33 mymachine dirmngr[348581]: dirmngr (GnuPG) 2.2.20 stopped
+ Jan 09 09:38:33 mymachine systemd[2209]: Stopped GnuPG network certificate management daemon.
+ Jan 09 09:38:33 mymachine systemd[2209]: Started GnuPG network certificate management daemon.
+...
+```
 
 ## [OpenSSH] の鍵管理を gpg-agent に委譲する
 
