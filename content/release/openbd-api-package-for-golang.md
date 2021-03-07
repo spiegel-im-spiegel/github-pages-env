@@ -16,7 +16,7 @@ pageType = "text"
 本パッケージは [openBD] へアクセスできる [Go 言語]用クライアント・パッケージだ。
 [openBD] が提供する書籍情報を取得できる。
 
-なお [spiegel-im-spiegel/openbd-api] パッケージは [Go] 1.13 以上を要求する。
+なお [spiegel-im-spiegel/openbd-api] パッケージは [Go] 1.16 以上を要求する。
 ご注意を。
 
 [![check vulns](https://github.com/spiegel-im-spiegel/openbd-api/workflows/vulns/badge.svg)](https://github.com/spiegel-im-spiegel/openbd-api/actions)
@@ -473,18 +473,15 @@ server := openbd.New(
 
 これで [openBD] サーバとして `https://api.example.com` を指定できた（実在しない URL なので注意）。
 
-### context.Context および http.Client を指定する
+### http.Client を指定する
 
-[`openbd`]`.Server.CreateClient()` 関数により [`openbd`]`.Client` インスタンスを生成できるが，引数として `context.Context` および `http.Client` インスタンスを指定する。
+[`openbd`]`.Server.CreateClient()` 関数により [`openbd`]`.Client` インスタンスを生成できるが，引数として [`http`]`.Client` インスタンスを指定できる。
 
-```go
+```go {hl_lines=[4]}
 client := openbd.New(
     openbd.WithScheme("https"),
     openbd.WithServerName("api.example.com"),
-).CreateClient(
-    context.Background(),
-    &http.Client{},
-)
+).CreateClient(openbd.WithHttpClient(&http.Client{}))
 ```
 
 ちなみに [`openbd`]`.DefaultClient()` 関数は以下の記述と同等である。
@@ -493,10 +490,21 @@ client := openbd.New(
 client := openbd.New(
     openbd.WithScheme("https"),
     openbd.WithServerName("api.openbd.jp"),
-).CreateClient(
-    context.Background(),
-    http.DefaultClient,
-)
+).CreateClient(openbd.WithHttpClient(&http.Client{}))
+```
+
+## context.Context 付きのアクセス
+
+[openBD] へのアクセスの際に [`context`]`.Context` を付けることができる。
+
+```go
+rawjson, err := openbd.DefaultClient().
+    LookupBooksRawContext(context.Background(), []string{"9784274069321"})
+```
+
+```go
+books, err := openbd.DefaultClient().
+    LookupBooksContext(context.Background(), []string{"9784274069321"})
 ```
 
 [Go]: https://golang.org/ "The Go Programming Language"
@@ -504,6 +512,8 @@ client := openbd.New(
 [openBD]: https://openbd.jp/ "openBD | 書誌情報・書影を自由に"
 [spiegel-im-spiegel/openbd-api]: https://github.com/spiegel-im-spiegel/openbd-api "spiegel-im-spiegel/openbd-api: APIs for openBD by Golang"
 [`openbd`]: https://github.com/spiegel-im-spiegel/openbd-api "spiegel-im-spiegel/openbd-api: APIs for openBD by Golang"
+[`http`]: https://golang.org/pkg/net/http/ "http - The Go Programming Language"
+[`context`]: https://golang.org/pkg/context/ "context - The Go Programming Language"
 
 ## 参考図書
 

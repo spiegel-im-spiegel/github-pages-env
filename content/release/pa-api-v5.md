@@ -16,7 +16,7 @@ pageType = "text"
 本パッケージは Amazon [Product Advertising API] v5 へアクセスできる [Go 言語]用クライアント・パッケージだ。
 API を通じて Amazon で取り扱っている商品の情報を取得できる。
 
-なお [spiegel-im-spiegel/pa-api] パッケージは [Go] 1.13 以上を要求する。
+なお [spiegel-im-spiegel/pa-api] パッケージは [Go] 1.16 以上を要求する。
 ご注意を。
 
 [![check vulns](https://github.com/spiegel-im-spiegel/pa-api/workflows/vulns/badge.svg)](https://github.com/spiegel-im-spiegel/pa-api/actions)
@@ -70,8 +70,7 @@ func main() {
         "mytag-20",
         "AKIAIOSFODNN7EXAMPLE",
         "1234567890",
-        paapi5.WithContext(context.Background()),
-        paapi5.WithHttpClient(http.DefaultClient),
+        paapi5.WithHttpClient(&http.Client{}),
     )
 
     //Make query
@@ -217,8 +216,7 @@ client := paapi5.New(
     "mytag-20",
     "AKIAIOSFODNN7EXAMPLE",
     "1234567890",
-    paapi5.WithContext(context.Background()),
-    paapi5.WithHttpClient(http.DefaultClient),
+    paapi5.WithHttpClient(&http.Client{}),
 )
 ```
 
@@ -236,9 +234,7 @@ client := paapi5.DefaultClient("mytag-20", "AKIAIOSFODNN7EXAMPLE", "1234567890")
 リクエストを実行する関数
 
 ```go
-func (c *Client) Request(q Query) ([]byte, error) {
-    ...
-}
+func (c *Client) Request(q Query) ([]byte, error)
 ```
 
 の引数 [`paapi5`]`.Query` は interface 型で以下のように定義している。
@@ -300,6 +296,22 @@ JSON データの内容は，例えばこんな感じ。
 var _ paapi5.Query = (*CustomQuery)(nil)
 ```
 {{< /div-box >}}
+
+### context.Context を付けてリクエストを実行する
+
+先ほどのリクエスト実行関数
+
+```go
+func (c *Client) Request(q Query) ([]byte, error)
+```
+
+の代わりに， [`context`]`.Context` を引数に加えた
+
+```go
+func (c *client) RequestContext(ctx context.Context, q Query) ([]byte, error)
+```
+
+メソッドを使うこともできる。
 
 ### クエリの実例とレスポンスの取り込み例
 

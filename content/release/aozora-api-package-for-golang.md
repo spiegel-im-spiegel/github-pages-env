@@ -16,7 +16,7 @@ pageType = "text"
 本パッケージは[青空文庫] API へアクセスできる [Go 言語]用クライアント・パッケージだ。
 API を通じて[青空文庫]に収録されている作品情報等を取得できる。
 
-なお [spiegel-im-spiegel/aozora-api] パッケージは [Go] 1.13 以上を要求する。
+なお [spiegel-im-spiegel/aozora-api][`aozora`] パッケージは [Go] 1.16 以上を要求する。
 ご注意を。
 
 [![check vulns](https://github.com/spiegel-im-spiegel/aozora-api/workflows/vulns/badge.svg)](https://github.com/spiegel-im-spiegel/aozora-api/actions)
@@ -335,7 +335,7 @@ func main() {
 [`aozora`]`.Client.SearchWorkers()` または [`aozora`]`.Client.LookupWorker()` 関数を使うと結果を [`aozora`]`.Worker` 構造体で返す。
 
 ```go
-person, err := aozora.DefaultClient().LookupWorker(845)
+worker, err := aozora.DefaultClient().LookupWorker(845)
 ```
 
 [`aozora`]`.Worker` 構造体の構成は以下の通り。
@@ -365,18 +365,15 @@ server := aozora.New(
 
 これで[青空文庫] API サーバとして `http://pubserver2.herokuapp.com` を指定できた。
 
-### context.Context および http.Client を指定する
+### http.Client を指定する
 
-[`aozora`]`.Server.CreateClient()` 関数により [`aozora`]`.Client` インスタンスを生成できるが，引数として `context.Context` および `http.Client` インスタンスを指定する。
+[`aozora`]`.Server.CreateClient()` 関数により [`aozora`]`.Client` インスタンスを生成できるが，引数として `http.Client` インスタンスを指定できる。
 
-```go
+```go {hl_lines=[4]}
 client := aozora.New(
     aozora.WithScheme("http"),
     aozora.WithServerName("pubserver2.herokuapp.com"),
-).CreateClient(
-    context.Background(),
-    &http.Client{},
-)
+).CreateClient(aozora.WithHttpClient(&http.Client{}))
 ```
 
 ちなみに [`aozora`]`.DefaultClient()` 関数は以下の記述と同等である。
@@ -385,10 +382,85 @@ client := aozora.New(
 client := aozora.New(
     aozora.WithScheme("http"),
     aozora.WithServerName("www.aozorahack.net"),
-).CreateClient(
+).CreateClient(aozora.WithHttpClient(&http.Client{}))
+```
+
+## context.Context 付きのアクセス
+
+[青空文庫] API アクセスの際に [`context`]`.Context` を付けることができる。
+
+### 作品情報の取得
+
+```go
+rawjson, err := aozora.DefaultClient().SearchBooksRawContext(
     context.Background(),
-    http.DefaultClient,
+    aozora.WithBookTitle("/天に積む宝/"),
+    aozora.WithBookAuthor("富田倫生"),
 )
+```
+
+```go
+books, err := aozora.DefaultClient().SearchBooksContext(
+    context.Background(),
+    aozora.WithBookTitle("/天に積む宝/"),
+    aozora.WithBookAuthor("富田倫生"),
+)
+```
+
+```go
+rawjson, err := aozora.DefaultClient().LookupBookRawContext(context.Background(), 59489)
+```
+
+```go
+book, err := aozora.DefaultClient().LookupBookContext(context.Background(), 59489)
+```
+
+### 作家情報の取得
+
+```go
+rawjson, err := aozora.DefaultClient().SearchPersonsRawContext(
+    context.Background(),
+    aozora.WithPersonName("富田倫生"),
+)
+```
+
+```go
+persons, err := aozora.DefaultClient().SearchPersonsContext(
+    context.Background(),
+    aozora.WithPersonName("富田倫生"),
+)
+```
+
+```go
+rawjson, err := aozora.DefaultClient().LookupPersonRawContext(context.Background(), 55)
+```
+
+```go
+person, err := aozora.DefaultClient().LookupPersonContext(context.Background(), 55)
+```
+
+### 工作員情報の取得
+
+```go
+rawjson, err := aozora.DefaultClient().SearchWorkersRawContext(
+    context.Background(),
+    aozora.WithWorkerName("é›ªæ£®"),
+)
+```
+
+```go
+workers, err := aozora.DefaultClient().SearchWorkersContext(
+    context.Background(),
+    aozora.WithWorkerName("é›ªæ£®"),
+)
+```
+
+```go
+rawjson, err := aozora.DefaultClient().LookupWorkerRawContext(context.Background(), 845)
+```
+
+```go
+worker, err := aozora.DefaultClient().LookupWorkerContext(context.Background(), 845)
 ```
 
 ## ブックマーク
@@ -398,8 +470,9 @@ client := aozora.New(
 [Go]: https://golang.org/ "The Go Programming Language"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [青空文庫]: https://www.aozora.gr.jp/ "青空文庫　Aozora Bunko"
-[spiegel-im-spiegel/aozora-api]: https://github.com/spiegel-im-spiegel/aozora-api "spiegel-im-spiegel/aozora-api: APIs for Aozora-bunko RESTful Service by Golang"
 [`aozora`]: https://github.com/spiegel-im-spiegel/aozora-api "spiegel-im-spiegel/aozora-api: APIs for Aozora-bunko RESTful Service by Golang"
+[`http`]: https://golang.org/pkg/net/http/ "http - The Go Programming Language"
+[`context`]: https://golang.org/pkg/context/ "context - The Go Programming Language"
 
 ## 参考図書
 
