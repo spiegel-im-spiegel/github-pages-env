@@ -17,6 +17,10 @@ pageType = "text"
 
 今回は複数の脆弱性について改修されている。
 
+{{< fig-quote type="markdown" title="Release History - The Go Programming Language" link="https://golang.org/doc/devel/release.html#go1.16.minor" lang="en" >}}
+{{% quote %}}go1.16.1 (released 2021/03/10) includes security fixes to the `archive/zip` and `encoding/xml` packages. See the [Go 1.16.1 milestone](https://github.com/golang/go/issues?q=milestone%3AGo1.16.1+label%3ACherryPickApproved) on our issue tracker for details{{% /quote %}}.
+{{< /fig-quote >}}
+
 ## encoding/xml: infinite loop when using xml.NewTokenDecoder with a custom TokenReader ([CVE-2021-27918])
 
 {{< fig-quote type="markdown" title="Go 1.16.1 and Go 1.15.9 are released" link="https://groups.google.com/g/golang-announce/c/MfiLYjG-RAw" lang="en" >}}
