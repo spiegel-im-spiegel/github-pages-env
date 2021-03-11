@@ -1,15 +1,4 @@
-+++
-title = "TinyGo で WebAssembly"
-date =  "2021-03-11T21:01:29+09:00"
-description = "Go および TinyGo を使って WebAssembly へのコンパイルを行い Web ブラウザ上で動作させるところまでやってみる"
-image = "/images/attention/go-logo_blue.png"
-tags = [ "programming", "golang", "tinygo", "webassembly" ]
-pageType = "text"
-
-[scripts]
-  mathjax = false
-  mermaidjs = false
-+++
+# TinyGo で WebAssembly
 
 [TinyGo] は本家 [Go] のサブセットと言えるもので [LLVM] を使った組み込み用途特化のコンパイラである。
 しかも [LLVM] が [WebAssembly] バイナリを直接出力できるということもあって [TinyGo] と [WebAssembly] の相性は本家 [Go] 以上と言える。
@@ -80,34 +69,34 @@ $ tree .
 package main
 
 import (
-    "embed"
-    "fmt"
-    "io/fs"
-    "net/http"
-    "os"
-    "strings"
+	"embed"
+	"fmt"
+	"io/fs"
+	"net/http"
+	"os"
+	"strings"
 )
 
 //go:embed hello
 var assets embed.FS
 
 func main() {
-    addr := "localhost:3000"
-    fmt.Printf("Open http://%s/\n", addr)
-    fmt.Println("Press ctrl+c to stop")
+	addr := "localhost:3000"
+	fmt.Printf("Open http://%s/\n", addr)
+	fmt.Println("Press ctrl+c to stop")
 
-    root, _ := fs.Sub(assets, "hello")
-    fs := http.FileServer(http.FS(root))
-    http.Handle("/", http.FileServer(http.FS(root)))
-    if err := http.ListenAndServe(addr, http.HandlerFunc(func(resp http.ResponseWriter, req *http.Request) {
-        resp.Header().Add("Cache-Control", "no-cache")
-        if strings.HasSuffix(req.URL.Path, ".wasm") {
-            resp.Header().Set("content-type", "application/wasm")
-        }
-        fs.ServeHTTP(resp, req)
-    })); err != nil {
-        fmt.Fprintln(os.Stderr, err)
-    }
+	root, _ := fs.Sub(assets, "hello")
+	fs := http.FileServer(http.FS(root))
+	http.Handle("/", http.FileServer(http.FS(root)))
+	if err := http.ListenAndServe(addr, http.HandlerFunc(func(resp http.ResponseWriter, req *http.Request) {
+		resp.Header().Add("Cache-Control", "no-cache")
+		if strings.HasSuffix(req.URL.Path, ".wasm") {
+			resp.Header().Set("content-type", "application/wasm")
+		}
+		fs.ServeHTTP(resp, req)
+	})); err != nil {
+		fmt.Fprintln(os.Stderr, err)
+	}
 }
 ```
 
@@ -126,13 +115,13 @@ func main() {
 
 ```text
 $ tinygo env
-GOOS="linux"
+GOOS="windows"
 GOARCH="amd64"
-GOROOT="/usr/local/go1.16.1"
-GOPATH="/home/username/go"
-GOCACHE="/home/username/.cache/tinygo"
+GOROOT="C:\\Users\\asc20074\\scoop\\apps\\go\\current"
+GOPATH="C:\\Users\\asc20074\\go"
+GOCACHE="C:\\Users\\asc20074\\AppData\\Local\\tinygo"
 CGO_ENABLED="1"
-TINYGOROOT="/usr/local/lib/tinygo"
+TINYGOROOT="C:\\Users\\asc20074\\scoop\\apps\\tinygo\\current"
 ```
 
 ## みんな大好き Hello World
@@ -147,9 +136,9 @@ package main
 import "syscall/js"
 
 func main() {
-    ch := make(chan struct{})
-    js.Global().Get("document").Call("getElementById", "hello").Set("innerHTML", "Hello, World!")
-    <-ch // Code must not finish
+	ch := make(chan struct{})
+	js.Global().Get("document").Call("getElementById", "hello").Set("innerHTML", "Hello, World!")
+	<-ch // Code must not finish
 }
 ```
 
@@ -175,44 +164,44 @@ $ ll *.wasm
 おうふ。
 こんなに違うのか。
 
-本家 [Go] のコードが大きいのは，良くも悪くも POSIX 互換環境への依存度が高く組み込み用途に使うには余計なコードを抱え込んでしまうという事情がある。
+本家 [Go] のコードが大きいのは，本家 [Go] は良くも悪くも POSIX 互換環境への依存度が高く，組み込み用途に使う場合は余計なコードを抱え込まざるを得ないという事情がある。
 
-一方 [TinyGo] は [LLVM] の制約を受けるため，ガベージコレクションや並行処理などで本家 [Go] とは異なる挙動になる（他にもいくつかの標準パッケージが使えない場合があるらしい）。
+一方 [TinyGo] は [LLVM] の制約を受けるため，ガベージコレクションや並行処理などで本家 [Go] とは異なる挙動になる（他にもいくつかの標準パッケージが使えない場合がある）。
 
 たとえば先ほどの
 
 ```go {hl_lines=[4]}
 func main() {
-    ch := make(chan struct{})
-    js.Global().Get("document").Call("getElementById", "hello").Set("innerHTML", "Hello, World!")
-    <-ch // Code must not finish
+	ch := make(chan struct{})
+	js.Global().Get("document").Call("getElementById", "hello").Set("innerHTML", "Hello, World!")
+	<-ch // Code must not finish
 }
 ```
 
 の最後を見ると，チャネル受信状態で処理が止まっているが（というか止めるためにわざわざこのように書いているのだが），これがないと [TinyGo] コンパイラがエラーを吐く場合があるようだ。
 
-### [WebAssembly] コードのバインド
+### WebAssembly コードのバインド
 
-`hello/wasm.js` ファイルは生成した [WebAssembly] コードを JavaScript 側にバインドするものである。
+`hello/wasm.js` ファイルは生成した WebAssembly コードを JavaScript 側にバインドするものである。
 今回は以下のように書いてみた。
 
 ```js
 function initWASM(url) {
-    const go = new Go();
+	const go = new Go();
 
-    if ('instantiateStreaming' in WebAssembly) {
-        WebAssembly.instantiateStreaming(fetch(url), go.importObject).then(function (obj) {
-            go.run(obj.instance);
-        })
-    } else {
-        fetch(WASM_URL).then(resp =>
-            resp.arrayBuffer()
-        ).then(bytes =>
-            WebAssembly.instantiate(bytes, go.importObject).then(function (obj) {
-                go.run(obj.instance);
-            })
-        )
-    }
+	if ('instantiateStreaming' in WebAssembly) {
+		WebAssembly.instantiateStreaming(fetch(url), go.importObject).then(function (obj) {
+			go.run(obj.instance);
+		})
+	} else {
+		fetch(WASM_URL).then(resp =>
+			resp.arrayBuffer()
+		).then(bytes =>
+			WebAssembly.instantiate(bytes, go.importObject).then(function (obj) {
+				go.run(obj.instance);
+			})
+		)
+	}
 }
 ```
 
@@ -222,7 +211,7 @@ function initWASM(url) {
 initWASM('hello2.wasm');
 ```
 
-という感じに任意の [WebAssembly] ファイルを取り込める。
+という感じで任意の WebAssembly コードのファイルを取り込める，
 
 ### HTML の内容
 
@@ -243,7 +232,7 @@ initWASM('hello2.wasm');
 </body>
 
 <script>
-    initWASM("hello2.wasm");
+	initWASM("hello2.wasm");
 </script>
 </html>
 ```
@@ -260,15 +249,14 @@ Press ctrl+c to stop
 
 該当の URL を開くと
 
-{{< fig-img src="./hello1.png" link="./hello1.png" title="Hello" >}}
+![](hello1.png)
 
-よーし，ちゃんと表示されているな。
-ここまでは楽勝。
+よーし，うむうむ，よーし。
 
-## [WebAssembly] の機能を JavaScript から呼び出す
+## WebAssembly の機能を JavaScript から呼び出す
 
-以上のコードは [WebAssembly] 側から HTML 要素に値をセットしていたが，これではあまり応用できないだろう。
-なので，今度は JavaScript 側から [WebAssembly] の機能を呼び出すことを考える。
+以上のコードは WebAssembly 側から HTML 要素に値をセットしていたが，これではあまり応用できないだろう。
+なので，今度は JavaScript 側から WebAssembly の機能を呼び出すことを考える。
 
 まずは `hello/hello.go` ファイルの内容を以下のように変更する。
 
@@ -278,31 +266,31 @@ Press ctrl+c to stop
 package main
 
 import (
-    "strings"
-    "syscall/js"
+	"strings"
+	"syscall/js"
 )
 
 func say(this js.Value, args []js.Value) interface{} {
-    ss := []string{}
-    for _, jss := range args {
-        if s := jsString(jss); s != "" {
-            ss = append(ss, s)
-        }
-    }
-    return js.ValueOf("Hello, " + strings.Join(ss, ", "))
+	ss := []string{}
+	for _, jss := range args {
+		if s := jsString(jss); s != "" {
+			ss = append(ss, s)
+		}
+	}
+	return js.ValueOf("Hello, " + strings.Join(ss, ", "))
 }
 
 func jsString(j js.Value) string {
-    if j.IsUndefined() || j.IsNull() {
-        return ""
-    }
-    return j.String()
+	if j.IsUndefined() || j.IsNull() {
+		return ""
+	}
+	return j.String()
 }
 
 func main() {
-    ch := make(chan struct{})
-    js.Global().Set("say", js.FuncOf(say))
-    <-ch // Code must not finish
+	ch := make(chan struct{})
+	js.Global().Set("say", js.FuncOf(say))
+	<-ch // Code must not finish
 }
 ```
 
@@ -312,79 +300,16 @@ JavaScript から呼び出す関数は
 func(this js.Value, args []js.Value) interface{}
 ```
 
-の関数型にする決まりのようだ。
-また返り値は [`js`]`.Value` 型にして返すのだが，実際の [Go] の型と JavaScript の型の対応は以下のようになっているらしい。
-
-{{< fig-quote class="nobox" type="markdown" title="js - The Go Programming Language" link="https://golang.org/pkg/syscall/js/#ValueOf" lang="en" >}}
-| Go                       | JavaScript   |
-| ------------------------ | ------------ |
-| `js.Value`               | [its value]  |
-| `js.Func`                | `function`   |
-| `nil`                    | `null`       |
-| `bool`                   | `boolean`    |
-| integers and floats      | `number`     |
-| `string`                 | `string`     |
-| `[]interface{}`          | `new array`  |
-| `map[string]interface{}` | `new object` |
-{{< /fig-quote >}}
+の関数型
 
 
-さらに `main()` 関数内の
 
-```go
-js.Global().Set("say", js.FuncOf(say))
-```
 
-によって [Go] の `say()` 関数は JavaScript の `global.say()` 関数に紐付けられる。
 
-`hello/wasm.js` ファイルはそのままでOK。
-`hello/index.html` ファイルの内容を以下のように書き換える。
 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8"/>
-<title>Hello</title>
-<script src="wasm_exec.js"></script>
-<script src="wasm.js"></script>
-</head>
 
-<body>
-	<button>Hello</button>
-	<p id="hello"></p>
-</body>
 
-<script>
-	initWASM('hello2.wasm');
-	document.querySelector('button').addEventListener('click', event => {
-		document.getElementById("hello").innerHTML = global.say("Alice", "Bob", "Chris");
-	});
-</script>
-</html>
-```
 
-これで `[Hello]` ボタン押下で `global.say()` 関数が発火するはずである。
-実行してみよう。
-
-```text
-$ go run main.go
-Open http://localhost:3000/
-Press ctrl+c to stop
-```
-
-この状態で画面を表示すると
-
-{{< fig-img src="./hello-button1.png" link="./hello-button1.png" title="Hello Button (1)" >}}
-
-さらにボタンを押下すると
-
-{{< fig-img src="./hello-button2.png" link="./hello-button2.png" title="Hello Button (2)" >}}
-
-よーし，うむうむ，よーし。
-
-これなら応用が効きそうかな。
-今回はここまで。
 
 [Go]: https://golang.org/ "The Go Programming Language"
 [TinyGo]: https://tinygo.org/ "TinyGo - Go on Microcontrollers and WASM"
