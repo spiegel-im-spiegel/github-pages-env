@@ -16,7 +16,7 @@ pageType = "text"
 - [Go 1.16.2 and Go 1.15.10 are released](https://groups.google.com/g/golang-announce/c/ZWvSr9XM4wM/m/t8wy_q5_AgAJ)
 
 セキュリティ・アップデートはなし。
-一度に出せよ `orz
+一度に出せよ `orz`
 
 {{< fig-quote type="markdown" title="Release History - The Go Programming Language" link="https://golang.org/doc/devel/release.html#go1.16.minor" lang="en" >}}
 {{% quote %}}go1.16.2 (released 2021/03/11) includes fixes to cgo, the compiler, linker, the go command, and the `syscall` and `time` packages. See the [Go 1.16.2 milestone](https://github.com/golang/go/issues?q=milestone%3AGo1.16.2+label%3ACherryPickApproved) on our issue tracker for details{{% /quote %}}.
