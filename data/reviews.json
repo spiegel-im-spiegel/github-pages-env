@@ -14028,5 +14028,48 @@
       false
     ],
     "Description": "特集記事は「Vim vs. Visual Studio Code」"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08S2LY9VG",
+      "Title": "再発見の発想法",
+      "URL": "https://www.amazon.co.jp/dp/B08S2LY9VG?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41zRoRvMCIL._SL160_.jpg",
+        "Height": 160,
+        "Width": 111
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "結城 浩",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "SBクリエイティブ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08S2LY9VG"
+        }
+      ],
+      "PublicationDate": "2021-02-19",
+      "LastRelease": "2021-02-20",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-03-14",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "「Software Design」誌の同名連載の書籍化。「技術用語」の解説書だが，平易な内容で読みやすい。"
   }
 ]
