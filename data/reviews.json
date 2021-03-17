@@ -14071,5 +14071,60 @@
       true
     ],
     "Description": "「Software Design」誌の同名連載の書籍化。「技術用語」の解説書だが，平易な内容で読みやすい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4621303252",
+      "Title": "Effective Java 第3版",
+      "URL": "https://www.amazon.co.jp/dp/4621303252?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41WZElZb9eL._SL160_.jpg",
+        "Height": 160,
+        "Width": 128
+      },
+      "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "Joshua Bloch",
+          "Role": "著"
+        },
+        {
+          "Name": "柴田 芳樹",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "丸善出版",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4621303252"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784621303252"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4621303252"
+        }
+      ],
+      "PublicationDate": "2018-10-30",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-03-17",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "再勉強中。 Kindle 版のほうがちょっと安いが，勤務先でも使いたかったので紙の本にした。"
   }
 ]
