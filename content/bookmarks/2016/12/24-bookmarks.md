@@ -22,7 +22,7 @@ title = "2016-12-24 のブックマーク"
 - [Go!プリンセスプリキュアのGo言語実装「GoPrecure」 - Qiita](http://qiita.com/sue445/items/5d19b0bc3293371a85e2)
 - [20年間「00000000」のままだった核ミサイル発射コード｜WIRED.jp](http://wired.jp/2013/12/04/launch-code-for-us-nukes-was-00000000-for-20-years/)
 - [嘘のニュースは確証バイアスを肥やしに成長する - CNET Japan](http://japan.cnet.com/news/commentary/35093128/)
-- [数学ガールにおけるネットリテラシーとコミュニケーション - 結城浩の連ツイ](http://rentwi.textfile.org/?805698498469343232s)
+- [数学ガールにおけるネットリテラシーとコミュニケーション - 結城浩の連ツイ](http://rentwi.hyuki.net/?805698498469343232s)
 - [Facebook、マイクロソフト、Twitter、YouTubeが「テロリスト・コンテンツ」排除で協力 | TechCrunch Japan](http://jp.techcrunch.com/2016/12/06/20161205facebook-microsoft-twitter-and-youtube-collaborate-to-remove-terrorist-content-from-their-services/)
 - [イスラエルはシリア・ダマスカス近郊の空爆でロシア供与の防空システムを試す：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41791)
 - [​Mozilla puts new money to use fighting for 'internet health' - CNET](https://www.cnet.com/news/mozilla-money-internet-health-politics-net-neutrality-privacy-encryption/)

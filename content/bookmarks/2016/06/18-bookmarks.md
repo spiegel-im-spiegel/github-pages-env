@@ -82,7 +82,7 @@ title = "2016-06-18 のブックマーク"
     - [textlintで日本語の文章をチェックする | Web Scratch](http://efcl.info/2015/09/10/introduce-textlint/)
 - [技術文書をソフトウェア開発する話 - GitBook](https://www.gitbook.com/book/azu/nodefest-technical-writing/)
 - [textlintをTravis CIで動かして継続的に文章をチェックする - Qiita](http://qiita.com/azu/items/e36501d25593d008f6ac)
-- [textlintを試してみることにしよう。 - 結城浩の連ツイ](http://rentwi.textfile.org/?743702479393587200s)
+- [textlintを試してみることにしよう。 - 結城浩の連ツイ](http://rentwi.hyuki.net/?743702479393587200s)
 - [linter-textlint](https://atom.io/packages/linter-textlint)
 
 ### prh

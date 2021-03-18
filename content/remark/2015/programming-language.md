@@ -9,7 +9,7 @@ tags = ["programming", "language"]
   mermaidjs = false
 +++
 
-- [考えてみると結城はC, Perl, Javaの本は書いたけれど... - 結城浩の連ツイ](http://rentwi.textfile.org/?666213569055166464s)
+- [考えてみると結城はC, Perl, Javaの本は書いたけれど... - 結城浩の連ツイ](http://rentwi.hyuki.net/?666213569055166464s)
 
 今朝見かけたこれ。
 こういう話は好きなので便乗してみる。
@@ -19,7 +19,7 @@ tags = ["programming", "language"]
 
 ## プログラミング言語の「母国語」
 
-{{< fig-quote title="考えてみると結城はC, Perl, Javaの本は書いたけれど..." link="http://rentwi.textfile.org/?666213569055166464s" >}}
+{{< fig-quote title="考えてみると結城はC, Perl, Javaの本は書いたけれど..." link="http://rentwi.hyuki.net/?666213569055166464s" >}}
 <q>プログラミング言語との付き合い方というのはいろいろあってですね。自分の母国語という言語はある。それから現在学んでいる最中の言語というのもある。そして、仕事用の言語やら、他の人とのコミュニケーション用言語というのもある。そのあたりは、自然言語とちょっと似ている。</q>
 {{< /fig-quote >}}
 
@@ -70,7 +70,7 @@ tags = ["programming", "language"]
 
 ## 言語を巡る愛憎
 
-{{< fig-quote title="考えてみると結城はC, Perl, Javaの本は書いたけれど..." link="http://rentwi.textfile.org/?666213569055166464s" >}}
+{{< fig-quote title="考えてみると結城はC, Perl, Javaの本は書いたけれど..." link="http://rentwi.hyuki.net/?666213569055166464s" >}}
 <q>自然言語と同じようにプログラミング言語を使う人（要はプログラマ）には、その言語に対する愛情がこもる（愛憎がこもる）。なので、エンジニアリングや効率の話題と思っているのにいつのまにか忠誠心や貢献度みたいな話になることも。</q>
 {{< /fig-quote >}}
 
@@ -102,7 +102,7 @@ Python は Linux 等では実質的に（少なくとも Ruby よりは）標準
 
 ## ひとつのプログラミング言語に縛られることの恐さ
 
-{{< fig-quote title="考えてみると結城はC, Perl, Javaの本は書いたけれど..." link="http://rentwi.textfile.org/?666213569055166464s" >}}
+{{< fig-quote title="考えてみると結城はC, Perl, Javaの本は書いたけれど..." link="http://rentwi.hyuki.net/?666213569055166464s" >}}
 <q>一つの技術に縛られることの恐さは、エンジニアなら誰でも知っている。では一つのプログラミング言語に縛られることの恐さは知っているか。一つのプログラミング言語がパーフェクトなことはない。時代が変われば要請も変わる。リソース配分は時々刻々変わる。そんな中で何にコミットするか。</q>
 {{< /fig-quote >}}
 
@@ -122,7 +122,7 @@ Python は Linux 等では実質的に（少なくとも Ruby よりは）標準
 
 ## 若い人が正しい
 
-{{< fig-quote title="考えてみると結城はC, Perl, Javaの本は書いたけれど..." link="http://rentwi.textfile.org/?666213569055166464s" >}}
+{{< fig-quote title="考えてみると結城はC, Perl, Javaの本は書いたけれど..." link="http://rentwi.hyuki.net/?666213569055166464s" >}}
 <q>いつの時代でも、若い人は自由だ。何でも選べる。何でも言える。ときにはバカにされるかもしれない。わかってないよと侮られるかもしれない。でも、ほとんどの場合、若い人が正しい。</q>
 {{< /fig-quote >}}
 
