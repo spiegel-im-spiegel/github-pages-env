@@ -10,6 +10,12 @@ tags = [ "java", "engineering", "license", "tools" ]
   mermaidjs = false
 +++
 
+{{< div-box type="markdown" >}}
+**【2021-03-19 追記】**
+「[Java のサポート期限ってどうなってるんだっけ？]({{< ref "/release/2021/03/java-support-roadmap.md" >}})」にてサポート期間とリリースサイクルの情報を更新した。
+以降，この記事はメンテしないので悪しからず。
+{{< /div-box >}}
+
 先日 Java のリリースサイクルとサポートについて訊かれたのだが，1年半近く Java から離れていたこともあって，まったくノーチェックだった。
 そこで，改めて Java 環境について調べてみることにした。
 
