@@ -3,7 +3,7 @@ title = "Java 16 がリリースされた"
 date =  "2021-03-17T19:32:20+09:00"
 description = "OpenJDK および同系列 Java のショート・サイクルのバージョンアップ"
 image = "/images/attention/tools.png"
-tags  = [ "programming", "language", "java", "ubuntu", "plantuml" ]
+tags  = [ "programming", "language", "java", "ubuntu", "plantuml", "windows" ]
 pageType = "text"
 
 [scripts]
@@ -43,7 +43,83 @@ OpenJDK 64-Bit Server VM (build 16+36-2231, mixed mode, sharing)
 うむうむ。
 ちゃんと動くな。
 
+## Scoop で [OpenJDK] 16 を入れる
 
+Windows 環境では Scoop を使って [OpenJDK] を入れているのだが，なかなかアップデートされない。
+そこでバケットの中を見てみたのだが
+
+```text
+$ scoop search openjdk
+'java' bucket:
+    adoptopenjdk-hotspot-jre (15.0.2-7)
+    adoptopenjdk-hotspot (15.0.2-7)
+    adoptopenjdk-lts-hotspot-jre (11.0.10-9)
+    adoptopenjdk-lts-hotspot (11.0.10-9)
+    adoptopenjdk-lts-openj9-jre (11.0.10-9-0.24.0)
+    adoptopenjdk-lts-openj9-xl-jre (11.0.10-9-0.24.0)
+    adoptopenjdk-lts-openj9-xl (11.0.10-9-0.24.0)
+    adoptopenjdk-lts-openj9 (11.0.10-9-0.24.0)
+    adoptopenjdk-lts-upstream-jre (11.0.10-9)
+    adoptopenjdk-lts-upstream (11.0.10-9)
+    adoptopenjdk-openj9-jre (16-36-0.25.0)
+    adoptopenjdk-openj9-xl-jre (15.0.2-7-0.24.0)
+    adoptopenjdk-openj9-xl (15.0.2-7-0.24.0)
+    adoptopenjdk-openj9 (16-36-0.25.0)
+    openjdk-ea (16-36)
+    openjdk (15.0.2-7)
+    openjdk10 (10.0.2-13)
+    openjdk11 (11.0.2-9)
+    openjdk12 (12.0.2-10)
+    openjdk13 (13.0.2-8)
+    openjdk14 (14.0.2-12)
+    openjdk15 (15.0.2-7)
+    openjdk16 (16-36)
+    openjdk7-unofficial (7u80-b32)
+    openjdk8-redhat-jre (8u282-b08)
+    openjdk8-redhat (8u282-b08)
+    openjdk9 (9.0.4-12)
+```
+
+んー。
+`openjdk` だと 16 に上がらないのか。
+どうやら `openjdk16` のようにバージョンを指定したほうがいいようだ。
+
+というわけで
+
+```text
+$ scoop install openjdk16
+Installing 'openjdk16' (16-36) [64bit]
+openjdk-16_windows-x64_bin.zip (175.1 MB) [===================================================================] 100%
+Checking hash of openjdk-16_windows-x64_bin.zip ... ok.
+Extracting openjdk-16_windows-x64_bin.zip ... done.
+Linking ~\scoop\apps\openjdk16\current => ~\scoop\apps\openjdk16\16-36
+
+$ scoop uninstall openjdk
+Uninstalling 'openjdk' (15.0.2-7).
+Unlinking ~\scoop\apps\openjdk\current
+Removing ~\scoop\apps\openjdk\current\bin from your path.
+Removing older version (15.0.1-9).
+'openjdk' was uninstalled.
+```
+
+という感じに入れ換えた。
+Windows Terminal を起動し直して
+
+```text
+$ java -version
+openjdk version "16" 2021-03-16
+OpenJDK Runtime Environment (build 16+36-2231)
+OpenJDK 64-Bit Server VM (build 16+36-2231, mixed mode, sharing)
+```
+
+よしよし，ちゃんと 16 になったな。
+ちなみに各パッケージの旧バージョンを削除する場合は
+
+```text
+$ scoop cleanup openjdk16
+```
+
+などとすれば，最新バージョン以外は削除される。
 
 [OpenJDK]: http://openjdk.java.net/
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
