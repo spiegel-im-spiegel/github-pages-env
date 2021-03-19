@@ -12,7 +12,7 @@ tags = [ "java", "engineering", "license", "tools" ]
 
 {{< div-box type="markdown" >}}
 **【2021-03-19 追記】**
-「[Java のサポート期限ってどうなってるんだっけ？](/release/2021/03/java-support-roadmap/)」にてサポート期間とリリースサイクルの情報を更新した。
+「[Java のサポート期限ってどうなってるんだっけ？]({{< ref "/release/2021/03/java-support-roadmap.md" >}})」にてサポート期間とリリースサイクルの情報を更新した。
 以降，この記事はメンテしないので悪しからず。
 {{< /div-box >}}
 

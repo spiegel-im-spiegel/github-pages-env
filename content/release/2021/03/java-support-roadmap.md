@@ -1,11 +1,10 @@
 +++
 title = "Java のサポート期限ってどうなってるんだっけ？"
-date =  "2021-03-19T19:20:37+09:00"
+date =  "2021-03-19T20:25:53+09:00"
 description = "アップデートは計画的に。"
 image = "/images/attention/tools.png"
 tags  = [ "java", "engineering" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
