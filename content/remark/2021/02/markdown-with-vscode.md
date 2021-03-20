@@ -161,8 +161,8 @@ $ code --install-extension yzane.markdown-pdf
 コマンド一発で PDF 変換してくれる。
 簡易的な出力しか出来ないのかと思ったら，意外にもかなりカスタマイズできるらしい。
 
--   [VSCode と Markdown で技術同人誌書いたので拡張機能とかまとめ - Qiita](https://qiita.com/reona396/items/40b234108f7664267db8)
--   [【Visual Studio Code】Markdown PDF のスタイル(CSS)を変える方法 - Nekonote](https://h-s-hige.hateblo.jp/entry/20190405/1554467885)
+- [VSCode と Markdown で技術同人誌書いたので拡張機能とかまとめ - Qiita](https://qiita.com/reona396/items/40b234108f7664267db8)
+- [【Visual Studio Code】Markdown PDF のスタイル(CSS)を変える方法 - Nekonote](https://h-s-hige.hateblo.jp/entry/20190405/1554467885)
 
 ### [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode "Marp for VS Code - Visual Studio Marketplace")
 
@@ -173,7 +173,7 @@ $ code --install-extension marp-team.marp-vscode
 [Marp] を使って markdown テキストからスライドを生成する。
 PDF へエクスポートできるらしい。
 
--   [【VS Code + Marp】Markdown から爆速・自由自在なデザインで、プレゼンスライドを作る - Qiita](https://qiita.com/tomo_makes/items/aafae4021986553ae1d8)
+- [【VS Code + Marp】Markdown から爆速・自由自在なデザインで、プレゼンスライドを作る - Qiita](https://qiita.com/tomo_makes/items/aafae4021986553ae1d8)
 
 ### [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio "Draw.io Integration - Visual Studio Marketplace")
 
@@ -184,7 +184,7 @@ $ code --install-extension hediet.vscode-drawio
 [Draw.io (diagrams.net)](https://app.diagrams.net/) を利用した作図ツール。
 データはテキストで保持して PNG や SVG へエクスポート可能って感じなのかな。
 
--   [VSCode で Draw.io が使えるようになったらしい！ - Qiita](https://qiita.com/riku-shiru/items/5ab7c5aecdfea323ec4e)
+- [VSCode で Draw.io が使えるようになったらしい！ - Qiita](https://qiita.com/riku-shiru/items/5ab7c5aecdfea323ec4e)
 
 ### [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml "PlantUML - Visual Studio Marketplace")
 
@@ -195,13 +195,14 @@ $ code --install-extension jebbs.plantuml
 [PlantUML] 作図・出力支援。
 あらかじめ [PlantUML] 作図環境を用意する必要がある（ただし `plantuml.jar` ファイルは拡張機能内にあらかじめ格納されている？）。
 
--   [真面目に PlantUML (1) : PlantUML のインストール]({{< ref "/remark/2018/12/plantuml-1.md" >}})
+- [真面目に PlantUML (1) : PlantUML のインストール]({{< ref "/remark/2018/12/plantuml-1.md" >}})
 
 ## ブックマーク
 
--   [VS Code エディタ入門](https://zenn.dev/karaage0703/books/80b6999d429abc8051bb)
--   [(2020 年 12 月 8 日追記)VSCode で Draw.io Integration 使用時にエクスポートできないことがある問題への対処 - Qiita](https://qiita.com/tfukumori/items/0f2b52088cd39f5c124e)
--   [インデントおよび行末は EditorConfig で始末する](https://zenn.dev/spiegel/articles/20200922-editorconfig)
+- [VS Code エディタ入門](https://zenn.dev/karaage0703/books/80b6999d429abc8051bb)
+- [(2020 年 12 月 8 日追記)VSCode で Draw.io Integration 使用時にエクスポートできないことがある問題への対処 - Qiita](https://qiita.com/tfukumori/items/0f2b52088cd39f5c124e)
+- [Visual Studio Code で markdown のスニペットを登録する  |  コーヒー飲みながら仕事したい](https://coffee-nominagara.com/2019-01-25-094628)
+- [インデントおよび行末は EditorConfig で始末する](https://zenn.dev/spiegel/articles/20200922-editorconfig)
 
 [Vs Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
 [Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"

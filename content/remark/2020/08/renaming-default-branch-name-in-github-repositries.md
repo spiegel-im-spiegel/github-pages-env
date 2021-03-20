@@ -90,6 +90,7 @@ master
     - [The default branch for newly-created repositories is now main - GitHub Changelog](https://github.blog/changelog/2020-10-01-the-default-branch-for-newly-created-repositories-is-now-main/)
 - [GitHub、これから作成するリポジトリのデフォルトブランチ名が「main」に。「master」から「main」へ変更 － Publickey](https://www.publickey1.jp/blog/20/githubmainmastermain.html)
 - [git clone しないでデフォルトブランチ名を取得する](https://zenn.dev/msmhrt/articles/0f530f16cf86fa0baeee)
+- [GitLabもデフォルトのブランチ名を「master」から「main」に変更へ、5月から － Publickey](https://www.publickey1.jp/blog/21/gitlabmastermain5.html) : 2021-05 から
 
 ## 参考図書
 

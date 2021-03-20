@@ -386,6 +386,16 @@ Press ctrl+c to stop
 これなら応用が効きそうかな。
 今回はここまで。
 
+## ブックマーク
+
+- [WebAssembly · golang/go Wiki · GitHub](https://github.com/golang/go/wiki/WebAssembly)
+- [Wasmer Go embedding 1.0 lift-off](https://wasmer.io/posts/wasmer-go-embedding-1.0)
+  - [GitHub - wasmerio/wasmer-go: 🐹🕸️ WebAssembly runtime for Go](https://github.com/wasmerio/wasmer-go)
+- [Wasm By Example](https://wasmbyexample.dev/examples/webassembly-linear-memory/webassembly-linear-memory.go.en-us.html)
+- [Go 製 WebAssembly ホスト環境パッケージ wax のご紹介 - bearmini's blog](https://bearmini.hatenablog.com/entry/2019/12/23/173924)
+- [Go × WebAssemblyで電卓のWebアプリを作ってみた - Sansan Builders Blog](https://buildersbox.corp-sansan.com/entry/2019/02/14/113000)
+- [WASI (WebAssembly system interface) を Wasmtime と Node.js で試す - Qiita](https://qiita.com/takewell/items/c99b44d912448e9170e6)
+
 [Go]: https://golang.org/ "The Go Programming Language"
 [TinyGo]: https://tinygo.org/ "TinyGo - Go on Microcontrollers and WASM"
 [WebAssembly]: https://webassembly.org/ "WebAssembly"

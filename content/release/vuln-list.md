@@ -125,6 +125,7 @@ pageType = "text"
 
 | Official | Release    |                       Ubuntu | Release    |   Delay |
 | -------: | ---------- | ---------------------------: | ---------- | ------: |
+|   86.0.1 | 2021-03-11 |                              |            |  ∞ days |
 |     86.0 | 2021-02-23 |  86.0+build3-0 (UUSN-4756-1) | 2021-02-26 |  3 days |
 |   85.0.2 | 2021-02-09 |                      &mdash; | &mdash;    | &mdash; |
 |   85.0.1 | 2021-02-05 | 85.0.1+build1-0 (USN-4717-2) | 2021-02-08 |  3 days |
@@ -154,6 +155,7 @@ pageType = "text"
 
 ### ブックマーク
 
+- [Firefox  86.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/86.0.1/releasenotes/)
 - [Firefox  86.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/86.0/releasenotes/)
 - [Firefox  85.0.2, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/85.0.2/releasenotes/)
 - [Firefox  85.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/85.0.1/releasenotes/)
@@ -189,7 +191,8 @@ pageType = "text"
 
 | Official | Release    |                       Ubuntu | Release    |   Delay |
 | -------: | ---------- | ---------------------------: | ---------- | ------: |
-|   78.8.0 | 2021-02-23 |                              |            |  ∞ days |
+|   78.8.1 | 2021-03-08 |                              |            |  ∞ days |
+|   78.8.0 | 2021-02-23 |                      &mdash; | &mdash;    | &mdash; |
 |   78.7.1 | 2021-02-05 | 78.7.1+build1-0 (USN-4736-1) | 2021-02-16 | 11 days |
 |   78.7.0 | 2021-01-26 |                      &mdash; | &mdash;    | &mdash; |
 |   78.6.1 | 2020-01-11 | 78.6.1+build1-0 (USN-4701-1) | 2021-01-20 |  9 days |
@@ -214,6 +217,7 @@ pageType = "text"
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (78.8.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.8.1/releasenotes/)
 - [Thunderbird — Release Notes (78.8.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.8.0/releasenotes/)
 - [Thunderbird — Release Notes (78.7.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.7.1/releasenotes/)
 - [Thunderbird — Release Notes (78.7.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.7.0/releasenotes/)
@@ -238,24 +242,3 @@ pageType = "text"
 - [結局 Thunderbird もインストールし直すことにした]({{< ref "/remark/2019/11/reinstalling-thunderbird.md" >}})
 
 [Thunderbird]: https://www.thunderbird.net/ "Thunderbird — There’s nothing here! — Thunderbird"
-
-## Java ([OpenJDK])
-
-現在は APT を使わず公式バイナリをダウンロードして手動でインストールしている。
-
-Java というか [OpenJDK] のセキュリティ管理は LTS (Long Term Support) バージョンのみ行っているらしく，ショートサイクルのバージョン（12, 13, ...）は管理がグダグダのようだ。
-面倒くさくなったので LTS バージョンのみ参考情報として残しておく。
-
-[OpenJDK]: http://openjdk.java.net/
-
-| Official | Release    |                   Ubuntu | Release    |   Delay |
-| -------: | ---------- | -----------------------: | ---------- | ------: |
-|   11.0.8 | 2020-07-14 | 11.0.8+10-0 (USN-4433-1) | 2020-07-23 |  9 days |
-|   11.0.7 | 2020-04-14 |           (Ubuntu 20.04) | 2020-04-23 | &mdash; |
-
-### ブックマーク
-
-- [OpenJDK Vulnerability Advisory: 2020/07/14](https://openjdk.java.net/groups/vulnerability/advisories/2020-07-14)
-- [OpenJDK Vulnerability Advisory: 2020/04/14](https://openjdk.java.net/groups/vulnerability/advisories/2020-04-14)
-
-- [結局 OpenJDK をインストールし直すことにした]({{< ref "/remark/2019/07/reinstalling-openjdk.md" >}})

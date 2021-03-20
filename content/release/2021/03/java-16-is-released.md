@@ -121,6 +121,12 @@ $ scoop cleanup openjdk16
 
 などとすれば，最新バージョン以外は削除される。
 
+## ブックマーク
+
+- [JDK 16 Security Enhancements](https://seanjmullan.org/blog/2021/03/18/jdk16)
+- [Java 16正式リリース。JavaアプリをWin/Mac/Linuxのインストール形式にするパッケージャ登場、OpenJDKソースコードがGitHubへ移行 － Publickey](https://www.publickey1.jp/blog/21/java_16javawinmaclinuxopenjdkgithub.html)
+- [Oracle、「Java 16」を発表 ～パターンマッチングinstanceofとrecord型が正式機能に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1312633.html)
+
 [OpenJDK]: http://openjdk.java.net/
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [PlantUML]: http://plantuml.com/ "Open-source tool that uses simple textual descriptions to draw UML diagrams."

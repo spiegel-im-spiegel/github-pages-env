@@ -11,6 +11,12 @@ pageType = "text"
   mermaidjs = false
 +++
 
+{{< div-box type="markdown" >}}
+**【2021-03-20 追記】**
+Go 1.16 で embed 標準パッケージおよび `//go:embed` ディレクティブが追加されたため，この記事は不要になった。
+一応，過去の記録として残しておく。
+{{< /div-box >}}
+
 [以前紹介]({{< ref "/remark/2019/08/go-for-everyone-2nd.md" >}} "『みんなのGo言語』改訂2版はとりあえず買っとけ！")した『[改訂2版 みんなのGo言語]』を読んで知ったのだが，これまた[ずいぶん前に紹介]({{< relref "./using-go-assets.md" >}} "go-assets でシングルバイナリにまとめる")した [jessevdk/go-assets] はもうメンテされてないらしい。
 確かにリポジトリを見ると3年前（2016年）から更新されてないな。
 
