@@ -442,6 +442,14 @@ $ code --install-extension mhutchie.git-graph
 ]
 ```
 
+### [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode "Visual Studio IntelliCode - Visual Studio Marketplace")
+
+```text
+$ code --install-extension VisualStudioExptTeam.vscodeintellicode
+```
+
+最初は「別になくてもいいや」と思っていたのだが，使ってみるとめがっさ便利。
+
 ### [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens "GitLens — Git supercharged - Visual Studio Marketplace")
 
 ```text
@@ -463,7 +471,7 @@ GrapeCity が公開してるのか。
 
 仕事で使うならよさげだけど，個人レベルじゃ特に要らないかな。
 
--   [【レビュー】「Visual Studio Code」で Excel スプレッドシートや CSV データを表示「Excel Viewer」 - 窓の杜](https://forest.watch.impress.co.jp/docs/review/1046119.html)
+- [【レビュー】「Visual Studio Code」で Excel スプレッドシートや CSV データを表示「Excel Viewer」 - 窓の杜](https://forest.watch.impress.co.jp/docs/review/1046119.html)
 
 ## 現在日時を設定するスニペット
 
@@ -500,28 +508,29 @@ GrapeCity が公開してるのか。
 
 単純な置換ならスニペットのほうがお手軽なので積極的に使っていきたいところである。
 
--   [Visual Studio Code スニペットで簡単日付入力 - はんなりと、ゆるやかに](https://iucstscui.hatenablog.com/entry/2021/01/13/080000)
--   [VsCode のスニペットのススメ - Qiita](https://qiita.com/xx2xyyy/items/fd333368db548167f15a)
--   [Snippets in Visual Studio Code](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
+- [Visual Studio Code スニペットで簡単日付入力 - はんなりと、ゆるやかに](https://iucstscui.hatenablog.com/entry/2021/01/13/080000)
+- [VsCode のスニペットのススメ - Qiita](https://qiita.com/xx2xyyy/items/fd333368db548167f15a)
+- [Snippets in Visual Studio Code](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
 
 ## ブックマーク
 
--   [VS Code エディタ入門](https://zenn.dev/karaage0703/books/80b6999d429abc8051bb)
--   [【随時更新】使ってる VSCode の拡張機能のまとめ](https://zenn.dev/catnose99/scraps/36c04be9fb1209)
--   [Visual Studio Code のうれしい機能を使いこなして、初心者を最速で脱出する！《VSCode 実践入門》 - エンジニア Hub ｜若手 Web エンジニアのキャリアを考える！](https://eh-career.com/engineerhub/entry/2019/06/21/103000)
--   [VSCode に入れている拡張機能 2020 年版 – 未来をデザインするマーケティング会社 -ハイロックス](https://hirocks.jp/vscode-%e3%81%ab%e5%85%a5%e3%82%8c%e3%81%a6%e3%81%84%e3%82%8b%e6%8b%a1%e5%bc%b5%e6%a9%9f%e8%83%bd-2020%e5%b9%b4%e7%89%88/)
--   [VSCode 使い必見！？使って便利な Visual Studio Code 拡張機能 10 選 | ソフトウェア開発のギークフィード](https://www.geekfeed.co.jp/geekblog/vscode_extension)
--   [Visual Studio Code で現在の日時を入力するショートカットを設定する方法 - JavaScript 勉強会](https://jsstudy.hatenablog.com/entry/How-to-set-a-shortcut-to-enter-the-current-date-and-time-in-Visual-Studio-Code)
+- [VS Code エディタ入門](https://zenn.dev/karaage0703/books/80b6999d429abc8051bb)
+- [【随時更新】使ってる VSCode の拡張機能のまとめ](https://zenn.dev/catnose99/scraps/36c04be9fb1209)
+- [Visual Studio Code のうれしい機能を使いこなして、初心者を最速で脱出する！《VSCode 実践入門》 - エンジニア Hub ｜若手 Web エンジニアのキャリアを考える！](https://eh-career.com/engineerhub/entry/2019/06/21/103000)
+- [VSCode に入れている拡張機能 2020 年版 – 未来をデザインするマーケティング会社 -ハイロックス](https://hirocks.jp/vscode-%e3%81%ab%e5%85%a5%e3%82%8c%e3%81%a6%e3%81%84%e3%82%8b%e6%8b%a1%e5%bc%b5%e6%a9%9f%e8%83%bd-2020%e5%b9%b4%e7%89%88/)
+- [VSCode 使い必見！？使って便利な Visual Studio Code 拡張機能 10 選 | ソフトウェア開発のギークフィード](https://www.geekfeed.co.jp/geekblog/vscode_extension)
+- [Visual Studio Code で現在の日時を入力するショートカットを設定する方法 - JavaScript 勉強会](https://jsstudy.hatenablog.com/entry/How-to-set-a-shortcut-to-enter-the-current-date-and-time-in-Visual-Studio-Code)
+- [VSCodeでなるべくマウスを使わない開発環境をがんばる - Qiita](https://qiita.com/y-tsutsu/items/cfe89c0168f40a8fb353)
 
-[vs code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
-[ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
-[snap]: https://github.com/snapcore/snapd "snapcore/snapd: The snapd and snap tools enable systems to work with .snap files."
-[atom]: https://atom.io/
-[go]: https://golang.org/ "The Go Programming Language"
+[VS Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
+[Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
+[Snap]: https://github.com/snapcore/snapd "snapcore/snapd: The snapd and snap tools enable systems to work with .snap files."
+[ATOM]: https://atom.io/
+[Go]: https://golang.org/ "The Go Programming Language"
 [go-plus]: https://atom.io/packages/go-plus
 [gopls]: https://pkg.go.dev/golang.org/x/tools/gopls "gopls · pkg.go.dev"
-[nyagos]: https://github.com/zetamatta/nyagos/ "zetamatta/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"
-[editorconfig]: https://editorconfig.org/
+[NYAGOS]: https://github.com/zetamatta/nyagos/ "zetamatta/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"
+[EditorConfig]: https://editorconfig.org/
 
 ## 参考図書
 
