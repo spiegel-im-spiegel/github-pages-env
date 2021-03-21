@@ -14126,5 +14126,184 @@
       false
     ],
     "Description": "再勉強中。 Kindle 版のほうがちょっと安いが，勤務先でも使いたかったので紙の本にした。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08T7D2LFR",
+      "Title": "ソフトウェアデザイン 2021年3月号",
+      "URL": "https://www.amazon.co.jp/dp/B08T7D2LFR?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51hVE3r+6XL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "雑誌",
+      "Creators": [
+        {
+          "Name": "谷本 心",
+          "Role": "著"
+        },
+        {
+          "Name": "水島 宏太",
+          "Role": "著"
+        },
+        {
+          "Name": "増田 亨",
+          "Role": "著"
+        },
+        {
+          "Name": "山本 悠滋",
+          "Role": "著"
+        },
+        {
+          "Name": "折原 レオナルド賢",
+          "Role": "著"
+        },
+        {
+          "Name": "米田 武",
+          "Role": "著"
+        },
+        {
+          "Name": "清水 洋治",
+          "Role": "著"
+        },
+        {
+          "Name": "結城 浩",
+          "Role": "著"
+        },
+        {
+          "Name": "刀根 諒",
+          "Role": "著"
+        },
+        {
+          "Name": "大串 肇",
+          "Role": "著"
+        },
+        {
+          "Name": "松本 直人",
+          "Role": "著"
+        },
+        {
+          "Name": "クラスメソッド 木村(作)",
+          "Role": "著"
+        },
+        {
+          "Name": "エクスデザイン ninnzinn(画)",
+          "Role": "著"
+        },
+        {
+          "Name": "くつなりょうすけ",
+          "Role": "著"
+        },
+        {
+          "Name": "広木 大地",
+          "Role": "著"
+        },
+        {
+          "Name": "中島 明日香",
+          "Role": "著"
+        },
+        {
+          "Name": "金谷 拓哉",
+          "Role": "著"
+        },
+        {
+          "Name": "高橋 永成",
+          "Role": "著"
+        },
+        {
+          "Name": "平岡 正寿",
+          "Role": "著"
+        },
+        {
+          "Name": "梶原 直人(監修)",
+          "Role": "著"
+        },
+        {
+          "Name": "平櫛 貴章",
+          "Role": "著"
+        },
+        {
+          "Name": "星川 真麻",
+          "Role": "著"
+        },
+        {
+          "Name": "けんちょん(大槻 兼資)",
+          "Role": "著"
+        },
+        {
+          "Name": "大嶋 健容",
+          "Role": "著"
+        },
+        {
+          "Name": "職業「戸倉彩」",
+          "Role": "著"
+        },
+        {
+          "Name": "mattn",
+          "Role": "著"
+        },
+        {
+          "Name": "小野 輝也",
+          "Role": "著"
+        },
+        {
+          "Name": "濱田 康貴",
+          "Role": "著"
+        },
+        {
+          "Name": "森若 和雄",
+          "Role": "著"
+        },
+        {
+          "Name": "古川 菜摘",
+          "Role": "著"
+        },
+        {
+          "Name": "嘉山 陽一",
+          "Role": "著"
+        },
+        {
+          "Name": "平野 尚志",
+          "Role": "著"
+        },
+        {
+          "Name": "杉山 貴章",
+          "Role": "著"
+        },
+        {
+          "Name": "Software Design編集部",
+          "Role": "編集"
+        }
+      ],
+      "Publisher": "技術評論社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08T7D2LFR"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4910058270316"
+        }
+      ],
+      "PublicationDate": "2021-02-18",
+      "LastRelease": "2021-02-18",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-03-21",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "第2特集が「WebAssembly 入門」近年の動向を把握するには丁度いいだろう。"
   }
 ]
