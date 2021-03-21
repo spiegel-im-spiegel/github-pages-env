@@ -36,7 +36,7 @@ WASI に則った [WebAssembly] コードと，それを駆動するランタイ
 
 ただ [TinyGo] のターゲット定義が
 
-```json
+```json {hl_lines=[20]}
 {
     "llvm-target":   "wasm32--wasi",
     "build-tags":    ["wasm", "wasi"],
