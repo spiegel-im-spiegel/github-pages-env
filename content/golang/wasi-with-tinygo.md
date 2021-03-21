@@ -15,7 +15,7 @@ pageType = "text"
 
 しかし，クライアント側のブラウザ上で動かすだけではあまり面白くないよね。
 そこで WASI (WebAssembly System Interface) という POSIX 風の標準規格があるそうな。
-WASI に則った [WebAssembly] コードと実行ランタイム環境を用意することで “Write Once, Run Anywhere” の夢よもう一度，というわけ[^wora1]（笑）
+WASI に則った [WebAssembly] コードと，それを駆動するランタイム環境を用意することで “Write Once, Run Anywhere” の夢よもう一度，というわけ[^wora1]（笑）
 
 [^wora1]: “Write Once, Run Anywhere” は初期の Java のキャッチフレーズだった。当時は UNIX 機のハードウェア非互換の問題が酷くて，なんとかバイナリ互換を確保する方法がないかみんな頭を悩ませていた。そこに登場したのが Sun Microsystems の Java だったわけ。でも実際にはプラットフォーム間の差異が微妙に残ってしまい，むしろ “Write Once, Debug Everywhere” などと揶揄されることもあった。それでも Virtual Machine 上で標準化されたバイトコードを駆動させるというアイデアは秀逸だったので Java 以外の処理系でも応用され，特に組み込み用途では重宝されている。
 
@@ -160,53 +160,53 @@ Hello, World!
 package main
 
 import (
-	_ "embed"
-	"fmt"
-	"os"
+    _ "embed"
+    "fmt"
+    "os"
 
-	"github.com/bytecodealliance/wasmtime-go"
+    "github.com/bytecodealliance/wasmtime-go"
 )
 
 //go:embed hello.wasm
 var wasm []byte
 
 func main() {
-	store := wasmtime.NewStore(wasmtime.NewEngine())
+    store := wasmtime.NewStore(wasmtime.NewEngine())
 
-	wasiConfig := wasmtime.NewWasiConfig()
-	wasiConfig.InheritStdout()
-	wasi, err := wasmtime.NewWasiInstance(store, wasiConfig, "wasi_snapshot_preview1")
-	if err != nil {
-		fmt.Fprintln(os.Stderr, fmt.Errorf("error in wasmtime.NewWasiInstance() : %w", err))
-		return
-	}
+    wasiConfig := wasmtime.NewWasiConfig()
+    wasiConfig.InheritStdout()
+    wasi, err := wasmtime.NewWasiInstance(store, wasiConfig, "wasi_snapshot_preview1")
+    if err != nil {
+        fmt.Fprintln(os.Stderr, fmt.Errorf("error in wasmtime.NewWasiInstance() : %w", err))
+        return
+    }
 
-	linker := wasmtime.NewLinker(store)
-	if err := linker.DefineWasi(wasi); err != nil {
-		fmt.Fprintln(os.Stderr, fmt.Errorf("error in wasmtime.Linker.DefineWasi() : %w", err))
-		return
-	}
+    linker := wasmtime.NewLinker(store)
+    if err := linker.DefineWasi(wasi); err != nil {
+        fmt.Fprintln(os.Stderr, fmt.Errorf("error in wasmtime.Linker.DefineWasi() : %w", err))
+        return
+    }
 
-	if err := wasmtime.ModuleValidate(store, wasm); err != nil {
-		fmt.Fprintln(os.Stderr, fmt.Errorf("error in wasmtime.ModuleValidate() : %w", err))
-		return
-	}
-	module, err := wasmtime.NewModule(store.Engine, wasm)
-	if err != nil {
-		fmt.Fprintln(os.Stderr, fmt.Errorf("error in wasmtime.NewModule() : %w", err))
-		return
-	}
+    if err := wasmtime.ModuleValidate(store, wasm); err != nil {
+        fmt.Fprintln(os.Stderr, fmt.Errorf("error in wasmtime.ModuleValidate() : %w", err))
+        return
+    }
+    module, err := wasmtime.NewModule(store.Engine, wasm)
+    if err != nil {
+        fmt.Fprintln(os.Stderr, fmt.Errorf("error in wasmtime.NewModule() : %w", err))
+        return
+    }
 
-	instance, err := linker.Instantiate(module)
-	if err != nil {
-		fmt.Fprintln(os.Stderr, fmt.Errorf("error in wasmtime.Linker.Instantiate() : %w", err))
-		return
-	}
+    instance, err := linker.Instantiate(module)
+    if err != nil {
+        fmt.Fprintln(os.Stderr, fmt.Errorf("error in wasmtime.Linker.Instantiate() : %w", err))
+        return
+    }
 
-	if _, err := instance.GetExport("_start").Func().Call(); err != nil {
-		fmt.Fprintln(os.Stderr, fmt.Errorf("error in \"_start\" : %w", err))
-		return
-	}
+    if _, err := instance.GetExport("_start").Func().Call(); err != nil {
+        fmt.Fprintln(os.Stderr, fmt.Errorf("error in \"_start\" : %w", err))
+        return
+    }
 }
 ```
 
@@ -226,12 +226,12 @@ error in wasmtime.Linker.Instantiate() : unknown import: `wasi_unstable::fd_writ
 package main
 
 import (
-	"fmt"
-	"io/ioutil"
-	"os"
-	"path/filepath"
+    "fmt"
+    "io/ioutil"
+    "os"
+    "path/filepath"
 
-	"github.com/bytecodealliance/wasmtime-go"
+    "github.com/bytecodealliance/wasmtime-go"
 )
 
 const TextWat = `(module
@@ -263,51 +263,51 @@ const TextWat = `(module
 )`
 
 func check(e error) {
-	if e != nil {
-		panic(e)
-	}
+    if e != nil {
+        panic(e)
+    }
 }
 
 func main() {
-	dir, err := ioutil.TempDir("", "out")
-	check(err)
-	defer os.RemoveAll(dir)
-	stdoutPath := filepath.Join(dir, "stdout")
+    dir, err := ioutil.TempDir("", "out")
+    check(err)
+    defer os.RemoveAll(dir)
+    stdoutPath := filepath.Join(dir, "stdout")
 
-	engine := wasmtime.NewEngine()
-	store := wasmtime.NewStore(engine)
+    engine := wasmtime.NewEngine()
+    store := wasmtime.NewStore(engine)
 
-	linker := wasmtime.NewLinker(store)
+    linker := wasmtime.NewLinker(store)
 
-	// Configure WASI imports to write stdout into a file.
-	wasiConfig := wasmtime.NewWasiConfig()
-	wasiConfig.SetStdoutFile(stdoutPath)
+    // Configure WASI imports to write stdout into a file.
+    wasiConfig := wasmtime.NewWasiConfig()
+    wasiConfig.SetStdoutFile(stdoutPath)
 
-	// Set the version to the same as in the WAT.
-	wasi, err := wasmtime.NewWasiInstance(store, wasiConfig, "wasi_snapshot_preview1")
-	check(err)
+    // Set the version to the same as in the WAT.
+    wasi, err := wasmtime.NewWasiInstance(store, wasiConfig, "wasi_snapshot_preview1")
+    check(err)
 
-	// Link WASI
-	err = linker.DefineWasi(wasi)
-	check(err)
+    // Link WASI
+    err = linker.DefineWasi(wasi)
+    check(err)
 
-	// Create our module
-	wasm, err := wasmtime.Wat2Wasm(TextWat)
-	check(err)
-	module, err := wasmtime.NewModule(store.Engine, wasm)
-	check(err)
-	instance, err := linker.Instantiate(module)
-	check(err)
+    // Create our module
+    wasm, err := wasmtime.Wat2Wasm(TextWat)
+    check(err)
+    module, err := wasmtime.NewModule(store.Engine, wasm)
+    check(err)
+    instance, err := linker.Instantiate(module)
+    check(err)
 
-	// Run the function
-	nom := instance.GetExport("_start").Func()
-	_, err = nom.Call()
-	check(err)
+    // Run the function
+    nom := instance.GetExport("_start").Func()
+    _, err = nom.Call()
+    check(err)
 
-	// Print WASM stdout
-	out, err := ioutil.ReadFile(stdoutPath)
-	check(err)
-	fmt.Print(string(out))
+    // Print WASM stdout
+    out, err := ioutil.ReadFile(stdoutPath)
+    check(err)
+    fmt.Print(string(out))
 }
 ```
 
@@ -363,7 +363,7 @@ Hello, World!
 ```
 
 おー，動いた動いた。
-これで [Go] のコードを WSAI 経由で javaScript コードに埋め込めるわけだ。
+これで [Go] のコードを WSAI 経由で JavaScript コードに埋め込めるわけだ。
 
 ## ブックマーク
 
