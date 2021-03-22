@@ -317,6 +317,42 @@ func main() {
 
 というところで挫折した `orz` どなたか教えてください {{< emoji "ペコン" >}}
 
+### 【2021-03-22 追記】
+
+Twitter で[教えていただきました](https://twitter.com/sago35tk/status/1373929809827536898)。
+感謝！
+
+どうも [TinyGo] と [wasmtime-go] との間で [WASI Application ABI (Application Binary Interface)](https://github.com/WebAssembly/WASI/blob/main/design/application-abi.md) が マッチしていない模様。
+たしかに `$TINYGOROOT/src/runtime/runtime_wasm.go` に
+
+```go
+//go:wasm-module wasi_unstable
+//export fd_write
+func fd_write(id uint32, iovs *__wasi_iovec_t, iovs_len uint, nwritten *uint) (errno uint)
+```
+
+って記述があるわ。
+ふむむー。
+`//go:wasm-module` ディレクティブをキーに調べてみればいいのかな。
+参考になった。
+
+ちなみに，アドバイスを参考に
+
+```go
+wasi, err := wasmtime.NewWasiInstance(store, wasiConfig, "wasi_snapshot_preview1")
+```
+
+の部分を
+
+```go
+wasi, err := wasmtime.NewWasiInstance(store, wasiConfig, "wasi_unstable")
+```
+
+に差し替えたら動き出した。
+なるほどねー。
+
+[TinyGo] 側の [PR](https://github.com/tinygo-org/tinygo/pull/1691 "Upgrade WASI version to wasi_snapshot_preview1 by fgsch · Pull Request #1691 · tinygo-org/tinygo") は受理されてマージされているようなので，次のバージョンでは `wasi_snapshot_preview1` で行けるだろう。
+
 ## 【おまけ】 Node.js で WASI を動かす
 
 Node.js は v13 から WASI に対応しているらしい。
