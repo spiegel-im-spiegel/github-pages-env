@@ -89,18 +89,28 @@ $ depm package github.com/spiegel-im-spiegel/depm | jq .
 [
   {
     "Package": {
-      "ImportPath": "github.com/spf13/cobra",
+      "ImportPath": "github.com/google/licenseclassifier",
       "Module": {
-        "Path": "github.com/spf13/cobra",
-        "Version": "v1.1.1"
+        "Path": "github.com/google/licenseclassifier",
+        "Version": "v0.0.0-20210324205846-148b633b0534",
+        "License": "Apache-2.0"
       }
     },
     "Deps": [
       {
-        "ImportPath": "github.com/spf13/pflag",
+        "ImportPath": "github.com/google/licenseclassifier/stringclassifier",
         "Module": {
-          "Path": "github.com/spf13/pflag",
-          "Version": "v1.0.5"
+          "Path": "github.com/google/licenseclassifier",
+          "Version": "v0.0.0-20210324205846-148b633b0534",
+          "License": "Apache-2.0"
+        }
+      },
+      {
+        "ImportPath": "github.com/google/licenseclassifier/stringclassifier/searchset",
+        "Module": {
+          "Path": "github.com/google/licenseclassifier",
+          "Version": "v0.0.0-20210324205846-148b633b0534",
+          "License": "Apache-2.0"
         }
       }
     ]
@@ -113,19 +123,20 @@ JSON 出力の構造は以下の構造体 `nodeJSON` の配列で表される。
 
 ```go
 type nodeJSON struct {
-	Package *packageJSON
-	Deps    []*packageJSON `json:",omitempty"`
+    Package *packageJSON
+    Deps    []*packageJSON `json:",omitempty"`
 }
 type packageJSON struct {
-	ImportPath string
-	Internal   bool        `json:",omitempty"`
-	CGO        bool        `json:",omitempty"`
-	Unsafe     bool        `json:",omitempty"`
-	Module     *moduleJSON `json:",omitempty"`
+    ImportPath string
+    Internal   bool        `json:",omitempty"`
+    CGO        bool        `json:",omitempty"`
+    Unsafe     bool        `json:",omitempty"`
+    Module     *moduleJSON `json:",omitempty"`
 }
 type moduleJSON struct {
-	Path    string `json:",omitempty"`
-	Version string `json:",omitempty"`
+    Path    string `json:",omitempty"`
+    Version string `json:",omitempty"`
+    License string `json:",omitempty"`
 }
 ```
 
@@ -217,16 +228,21 @@ $ depm module "github.com/spiegel-im-spiegel/depm" | jq .
 [
   {
     "Module": {
-      "Path": "github.com/spf13/cobra@v1.1.1",
+      "Path": "github.com/google/licenseclassifier@v0.0.0-20210324205846-148b633b0534",
+      "License": "Apache-2.0",
       "Packages": [
-        "github.com/spf13/cobra"
+        "github.com/google/licenseclassifier",
+        "github.com/google/licenseclassifier/stringclassifier",
+        "github.com/google/licenseclassifier/stringclassifier/searchset",
+        "github.com/google/licenseclassifier/stringclassifier/searchset/tokenizer"
       ]
     },
     "Deps": [
       {
-        "Path": "github.com/spf13/pflag@v1.0.5",
+        "Path": "github.com/sergi/go-diff@v1.0.0",
+        "License": "MIT",
         "Packages": [
-          "github.com/spf13/pflag"
+          "github.com/sergi/go-diff/diffmatchpatch"
         ]
       }
     ]
@@ -238,17 +254,18 @@ $ depm module "github.com/spiegel-im-spiegel/depm" | jq .
 
 ```go
 type nodeJSON struct {
-	Module *moduleJSON
-	Deps   []*moduleJSON `json:",omitempty"`
+    Module *moduleJSON
+    Deps   []*moduleJSON `json:",omitempty"`
 }
 type moduleJSON struct {
-	Path     string
-	Replace  string   `json:",omitempty"`
-	Latest   string   `json:",omitempty"`
-	Main     bool     `json:",omitempty"`
-	CGO      bool     `json:",omitempty"`
-	Unsafe   bool     `json:",omitempty"`
-	Packages []string `json:",omitempty"`
+    Path     string
+    Replace  string   `json:",omitempty"`
+    Latest   string   `json:",omitempty"`
+    Main     bool     `json:",omitempty"`
+    CGO      bool     `json:",omitempty"`
+    Unsafe   bool     `json:",omitempty"`
+    License  string   `json:",omitempty"`
+    Packages []string `json:",omitempty"`
 }
 ```
 
@@ -295,14 +312,17 @@ Global Flags:
 $ depm list "github.com/spiegel-im-spiegel/depm"
 github.com/BurntSushi/toml v0.3.1
 github.com/emicklei/dot v0.15.0
-github.com/spf13/cobra v1.1.1
+github.com/google/licenseclassifier v0.0.0-20210324205846-148b633b0534
+github.com/sergi/go-diff v1.0.0
+github.com/spf13/cobra v1.1.3
 github.com/spf13/pflag v1.0.5
-github.com/spiegel-im-spiegel/depm v0.3.0
+github.com/spiegel-im-spiegel/depm v0.4.0
 github.com/spiegel-im-spiegel/errs v1.0.2
-github.com/spiegel-im-spiegel/gocli v0.10.3
+github.com/spiegel-im-spiegel/gocli v0.10.4
 golang.org/x/mod v0.3.0
 golang.org/x/net v0.0.0-20201021035429-f5854403a974
-golang.org/x/tools v0.0.0-20201105220310-78b158585360
+golang.org/x/sys v0.0.0-20210119212857-b64e53b001e4
+golang.org/x/tools v0.1.0
 golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
 ```
 
@@ -314,14 +334,17 @@ golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
 $ depm list -u "github.com/spiegel-im-spiegel/depm"
 github.com/BurntSushi/toml v0.3.1
 github.com/emicklei/dot v0.15.0
-github.com/spf13/cobra v1.1.1
+github.com/google/licenseclassifier v0.0.0-20210324205846-148b633b0534
+github.com/sergi/go-diff v1.0.0 [v1.1.0]
+github.com/spf13/cobra v1.1.3
 github.com/spf13/pflag v1.0.5
-github.com/spiegel-im-spiegel/depm v0.3.0
+github.com/spiegel-im-spiegel/depm v0.4.0
 github.com/spiegel-im-spiegel/errs v1.0.2
-github.com/spiegel-im-spiegel/gocli v0.10.3
-golang.org/x/mod v0.3.0
-golang.org/x/net v0.0.0-20201021035429-f5854403a974 [v0.0.0-20201031054903-ff519b6c9102]
-golang.org/x/tools v0.0.0-20201105220310-78b158585360
+github.com/spiegel-im-spiegel/gocli v0.10.4
+golang.org/x/mod v0.3.0 [v0.4.2]
+golang.org/x/net v0.0.0-20201021035429-f5854403a974 [v0.0.0-20210324205630-d1beb07c2056]
+golang.org/x/sys v0.0.0-20210119212857-b64e53b001e4 [v0.0.0-20210324051608-47abb6519492]
+golang.org/x/tools v0.1.0
 golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
 ```
 
@@ -330,21 +353,21 @@ golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
 ```text
 $ depm list -j "github.com/spiegel-im-spiegel/depm"
 {
-	"Path": "github.com/BurntSushi/toml",
-	"Version": "v0.3.1",
-	"Time": "2018-08-15T10:47:33Z",
-	"Indirect": true,
-	"Dir": "/home/spiegel/go/pkg/mod/github.com/!burnt!sushi/toml@v0.3.1",
-	"GoMod": "/home/spiegel/go/pkg/mod/cache/download/github.com/!burnt!sushi/toml/@v/v0.3.1.mod"
+    "Path": "github.com/BurntSushi/toml",
+    "Version": "v0.3.1",
+    "Time": "2018-08-15T10:47:33Z",
+    "Indirect": true,
+    "Dir": "/home/spiegel/go/pkg/mod/github.com/!burnt!sushi/toml@v0.3.1",
+    "GoMod": "/home/spiegel/go/pkg/mod/cache/download/github.com/!burnt!sushi/toml/@v/v0.3.1.mod"
 }
 {
-	"Path": "github.com/emicklei/dot",
-	"Version": "v0.15.0",
-	"Time": "2020-10-30T08:43:19Z",
-	"Indirect": true,
-	"Dir": "/home/spiegel/go/pkg/mod/github.com/emicklei/dot@v0.15.0",
-	"GoMod": "/home/spiegel/go/pkg/mod/cache/download/github.com/emicklei/dot/@v/v0.15.0.mod",
-	"GoVersion": "1.13"
+    "Path": "github.com/emicklei/dot",
+    "Version": "v0.15.0",
+    "Time": "2020-10-30T08:43:19Z",
+    "Indirect": true,
+    "Dir": "/home/spiegel/go/pkg/mod/github.com/emicklei/dot@v0.15.0",
+    "GoMod": "/home/spiegel/go/pkg/mod/cache/download/github.com/emicklei/dot/@v/v0.15.0.mod",
+    "GoVersion": "1.13"
 }
 ...
 ```
