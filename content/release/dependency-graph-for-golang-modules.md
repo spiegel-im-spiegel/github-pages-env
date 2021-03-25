@@ -156,7 +156,7 @@ $ depm package "github.com/mattn/go-sqlite3" | jq .
       "Unsafe": true,
       "Module": {
         "Path": "github.com/mattn/go-sqlite3",
-        "Version": "v1.14.4"
+        "Version": "v1.14.6"
       }
     }
   }
