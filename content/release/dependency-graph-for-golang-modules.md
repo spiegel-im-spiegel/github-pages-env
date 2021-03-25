@@ -195,7 +195,7 @@ $ depm package --dot --dot-config sample.toml "github.com/spiegel-im-spiegel/dep
 
 のようにできる。
 
-パッケージのインポート・パスを省略すると，カレント・ディレクトリのパッケージを捜査する（`go list` コマンドで `all` を指定したときと同じ動作）。
+パッケージのインポート・パスを省略すると，カレント・ディレクトリのパッケージを走査する（`go list` コマンドで `all` を指定したときと同じ動作）。
 
 ### モジュール間の依存関係を調べる
 
@@ -280,7 +280,7 @@ $ depm module --dot --dot-config sample.toml "github.com/spiegel-im-spiegel/depm
 
 {{< fig-img src="./output3.png" title="output3.png" link="./output3.png" width="2534" >}}
 
-パッケージのインポート・パスを省略すると，カレント・ディレクトリのパッケージを捜査する。
+パッケージのインポート・パスを省略すると，カレント・ディレクトリのパッケージを走査する。
 `go list -m` コマンドで `all` を指定したときと同じ動作だが，実際にはリンクしない形式的な依存モジュールは出力されない。
 基本的にコード内の `import` に基づく依存関係のみ表示される。
 
@@ -357,16 +357,16 @@ $ depm list -j "github.com/spiegel-im-spiegel/depm"
     "Version": "v0.3.1",
     "Time": "2018-08-15T10:47:33Z",
     "Indirect": true,
-    "Dir": "/home/spiegel/go/pkg/mod/github.com/!burnt!sushi/toml@v0.3.1",
-    "GoMod": "/home/spiegel/go/pkg/mod/cache/download/github.com/!burnt!sushi/toml/@v/v0.3.1.mod"
+    "Dir": "/home/username/go/pkg/mod/github.com/!burnt!sushi/toml@v0.3.1",
+    "GoMod": "/home/username/go/pkg/mod/cache/download/github.com/!burnt!sushi/toml/@v/v0.3.1.mod"
 }
 {
     "Path": "github.com/emicklei/dot",
     "Version": "v0.15.0",
     "Time": "2020-10-30T08:43:19Z",
     "Indirect": true,
-    "Dir": "/home/spiegel/go/pkg/mod/github.com/emicklei/dot@v0.15.0",
-    "GoMod": "/home/spiegel/go/pkg/mod/cache/download/github.com/emicklei/dot/@v/v0.15.0.mod",
+    "Dir": "/home/username/go/pkg/mod/github.com/emicklei/dot@v0.15.0",
+    "GoMod": "/home/username/go/pkg/mod/cache/download/github.com/emicklei/dot/@v/v0.15.0.mod",
     "GoVersion": "1.13"
 }
 ...
