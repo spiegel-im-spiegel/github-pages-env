@@ -272,7 +272,7 @@ type moduleJSON struct {
 CGO や [`unsafe`] パッケージに関するフラグは `depm package` コマンドのときと同様である。
 `-u` オプションを付けると，新しいバージョンのモジュールがある場合に `Latest` に情報がセットされる。
 
-depm package` コマンドのときと同じく `-dot` オプションで [DOT] 言語形式の出力にできる。
+`depm package` コマンドのときと同じく `-dot` オプションで [DOT] 言語形式の出力にできる。
 
 ```text
 $ depm module --dot --dot-config sample.toml "github.com/spiegel-im-spiegel/depm" | dot -Tpng -o output3.png
@@ -330,7 +330,7 @@ golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
 
 `-u` オプションを付けると `go list -m -u` と同等の出力にできる。
 
-```text {hl_lines=[10]}
+```text
 $ depm list -u "github.com/spiegel-im-spiegel/depm"
 github.com/BurntSushi/toml v0.3.1
 github.com/emicklei/dot v0.15.0
