@@ -74,52 +74,18 @@ pageType = "text"
 
 ## [OpenSSL]
 
+[OpenSSL]: https://www.openssl.org/
+
 [OpenSSL] はディストリビューションがアップグレードされない限り（脆弱性があっても）更新されないようだ（バックポート・パッチで対応？）。
 よって[手動で管理する]({{< ref "/remark/2020/06/installing-openssl-in-ubuntu.md" >}} "Ubuntu に最新の OpenSSL を入れる")ことにした。
-以下は参考情報として記しておく。
-
-| Official | Release    |         Ubuntu | Release    |   Delay |
-| -------: | ---------- | -------------: | ---------- | ------: |
-|   1.1.1h | 2020-09-22 |                |            |  ∞ days |
-|   1.1.1g | 2020-04-21 |        &mdash; | &mdash;    | &mdash; |
-|   1.1.1f | 2020-03-31 | (Ubuntu 20.10) | 2020-10-22 | &mdash; |
-
-### ブックマーク
-
-- [OpenSSL Security Advisory [21 April 2020]](https://www.openssl.org/news/secadv/20200421.txt)
-
-[OpenSSL]: https://www.openssl.org/
 
 ## [Git]
 
+[Git]: https://git-scm.com/
+
 [Git] については [Ubuntu] 公式リポジトリではなく [PPA のリポジトリ](https://launchpad.net/~git-core/+archive/ubuntu/ppa)からインストールしている。
 
-| Official | Release    |        Ubuntu | Release    |   Delay |
-| -------: | ---------- | ------------: | ---------- | ------: |
-|   2.29.2 | 2020-10-29 |  2.29.2-0ppa1 | 2020-10-30 |   1 day |
-|   2.29.1 | 2020-10-23 |       &mdash; | &mdash;    | &mdash; |
-|   2.29.0 | 2020-10-19 |  2.29.0-0ppa1 | 2020-10-22 |  3 days |
-|   2.28.0 | 2020-07-27 |  2.28.0-0ppa1 | 2020-07-28 |  1 days |
-|   2.27.0 | 2020-06-01 | 2.27.0-1~ppa0 | 2020-06-02 |  1 days |
-|   2.26.2 | 2020-04-20 |  2.26.2-0ppa1 | 2020-04-21 |  1 days |
-|   2.26.1 | 2020-04-14 |  2.26.1-0ppa1 | 2020-04-15 |  1 days |
-|   2.26.0 | 2020-03-22 | 2.26.0-1~ppa1 | 2020-03-24 |  2 days |
-
-### ブックマーク
-
-- [Release Git for Windows 2.30.0(2) · git-for-windows/git · GitHub](https://github.com/git-for-windows/git/releases/tag/v2.30.0.windows.2)
-- [[ANNOUNCE] Git v2.29.2 - Junio C Hamano](https://lore.kernel.org/git/xmqqlffo4qjw.fsf@gitster.c.googlers.com/)
-- [[ANNOUNCE] Git v2.29.1](https://lore.kernel.org/git/xmqq4kmlj9q9.fsf@gitster.c.googlers.com/) : Windows 版のみの修正
-- [[ANNOUNCE] Git v2.29.0](https://lore.kernel.org/git/xmqqy2k2t77l.fsf@gitster.c.googlers.com/)
-- [[ANNOUNCE] Git v2.28.0](https://lore.kernel.org/git/xmqq5za8hpir.fsf@gitster.c.googlers.com/T/)
-- [[ANNOUNCE] Git v2.27.0](https://lore.kernel.org/git/xmqqzh9mu4my.fsf@gitster.c.googlers.com/T/)
-- [[Announce] Git v2.26.2 and others](https://lore.kernel.org/git/xmqq4kterq5s.fsf@gitster.c.googlers.com/T/)
-- [[Announce] Git v2.26.1 and others](https://lore.kernel.org/git/xmqqy2qy7xn8.fsf@gitster.c.googlers.com/T/)
-- [[ANNOUNCE] Git v2.26.0 - Junio C Hamano](https://lore.kernel.org/git/xmqqa7477u6j.fsf@gitster.c.googlers.com/)
-
 - [PPA から Git をインストールする]({{< ref "/remark/2019/04/install-git-from-ppa.md" >}})
-
-[Git]: https://git-scm.com/
 
 ## [Firefox]
 
