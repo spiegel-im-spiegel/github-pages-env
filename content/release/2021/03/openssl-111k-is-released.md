@@ -37,7 +37,7 @@ pageType = "text"
 
 ## アップデートは計画的に
 
-Ubuntu は各バージョンごとにバックポートパッチを当てたバージョンを APT で配布している。
+Ubuntu はバックポートパッチを当てたバージョンを APT で配布している。
 
 - [USN-4891-1: OpenSSL vulnerability | Ubuntu security notices | Ubuntu](https://ubuntu.com/security/notices/USN-4891-1)
 
