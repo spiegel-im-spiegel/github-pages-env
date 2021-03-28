@@ -14305,5 +14305,48 @@
       false
     ],
     "Description": "第2特集が「WebAssembly 入門」近年の動向を把握するには丁度いいだろう。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08MX57XXK",
+      "Title": "宙 船（そらふね）",
+      "URL": "https://www.amazon.co.jp/dp/B08MX57XXK?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51+lADJZ6xL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "中島みゆき",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "YAMAHA MUSIC COMMUNICATIONS CO., LTD.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08MX57XXK"
+        }
+      ],
+      "PublicationDate": "2020-12-02",
+      "LastRelease": "2020-12-02",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-03-28",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "最近，メディアで政治ネタを見かける度に脳内BGMがこれになる（笑）"
   }
 ]
