@@ -1,6 +1,14 @@
-# 「あとでみる」ブックマーク（Temporary）
++++
+title = "2021-03-28 のブックマーク"
+date =  "2021-03-28T14:11:55+09:00"
+description = "「Announcing Rust 1.51.0」他"
+image = "/images/attention/bookmarks.jpg"
+pageType = "text"
 
-- [Windowsで環境を極力汚さずにPythonを動かす方法 (Scoop編) - Qiita](https://qiita.com/rhene/items/a5616857981293d06940)
+[scripts]
+  mathjax = false
+  mermaidjs = false
++++
 
 ## リリース情報
 
@@ -11,13 +19,9 @@
 - [git/2.31.1.txt at v2.31.1 · git/git · GitHub](https://github.com/git/git/blob/v2.31.1/Documentation/RelNotes/2.31.1.txt)
   - [Release Git for Windows 2.31.1 · git-for-windows/git · GitHub](https://github.com/git-for-windows/git/releases/tag/v2.31.1.windows.1)
 
-## バベルのインターネット
-
-
 ## セキュリティ＆プライバシー関連
 
 - [アップルの「Xcode」を利用する開発者狙う「XcodeSpy」マルウェア--研究者が注意喚起 - ZDNet Japan](https://japan.zdnet.com/article/35168070/)
-
 - [複数のBIG-IP製品の脆弱性（CVE-2021-22986）に関する注意喚起](https://www.jpcert.or.jp/at/2021/at210014.html)
 - [Keyoxide | mitome.in](https://mitome.in/sns/keyoxide.html) : Keyoxide (opens new window)は、分散されたオンラインアイデンティティを確立する方法のひとつです。Keyoxideに則って電子署名を追加した公開鍵をOpenPGPに則って公開すれば、特定のサービスに依存せずオンラインのアイデンティティを確立し確認できます
 - [Google、脆弱性検出ツール「OSS-Fuzz」のJavaVM対応を発表。Java/Kotlin/Scalaなどの脆弱性を検出可能に － Publickey](https://www.publickey1.jp/blog/21/gooleoss-fuzzjavavmjavakotlinscala.html)
@@ -41,9 +45,6 @@
 
 - [Linuxでディスク使用量を確認するdufコマンドの使い方 | TECH+](https://news.mynavi.jp/article/20210325-1833591/)
 
-## Windows に関する話題
-
-
 ## Go 言語関連
 
 - [GitHub - kyokomi/emoji: emoji terminal output for golang](https://github.com/kyokomi/emoji)
@@ -61,7 +62,6 @@
 - [yamlをインタラクティブに絞り込みできるCLIを作った](https://zenn.dev/skanehira/articles/2021-03-20-go-yaml-yd)
 - [フォードが世界的なチップ不足を理由に特定の部品を使わずにF-150トラックを生産  |  TechCrunch Japan](https://jp.techcrunch.com/2021/03/20/2021-03-18-ford-to-build-some-f-150-trucks-without-certain-parts-due-to-global-chip-shortage/)
 - [GitHub - litmuschaos/litmus: Litmus helps Kubernetes SREs and developers practice chaos engineering in a Kubernetes native way. Chaos experiments are published at the ChaosHub  (https://hub.litmuschaos.io). Community notes is at https://hackmd.io/a4Zu_sH4TZGeih-xCimi3Q](https://github.com/litmuschaos/litmus)
-
 - [Raspberry PiにUbuntu Serverを入れてNew Relicで監視する](https://zenn.dev/pekopon/articles/f6428303eb74ad)
 - [ゲームとモラル・パニック - 井出草平の研究ノート](https://ides.hatenablog.com/entry/2021/03/20/044848)
 - [GitHubがほぼ全面的に無料化  |  TechCrunch Japan](https://jp.techcrunch.com/2020/04/15/2020-04-14-github-is-now-free-for-all-teams/) : 2020年4月のニュース
@@ -84,5 +84,3 @@
 - [GitHub - SpectralOps/teller: A secrets management tool for developers built in Go - never leave your command line for secrets.](https://github.com/SpectralOps/teller)
 - [Statement on the Re-election of Richard Stallman to the FSF Board | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2021/03/statement-re-election-richard-stallman-fsf-board)
     - [ブログ: リチャード・ストールマンのFSF理事への再選に関する声明 (EFF)](https://okuranagaimo.blogspot.com/2021/03/fsf-eff.html)
-
-<!-- eof -->
