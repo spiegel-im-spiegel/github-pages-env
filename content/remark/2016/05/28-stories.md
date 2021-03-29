@@ -2,7 +2,7 @@
 title = "週末スペシャル： Barack Obama 米国大統領の来広"
 date = "2016-05-28T22:59:50+09:00"
 description = "Barack Obama 米国大統領の来広 / Google vs Oracle の訴訟の行方 2 / Windows 7 用の Rollup が出た / その他の気になる記事"
-tags = ["politics", "international", "hiroshima", "code", "intellectual-property", "copyright", "java", "windows"]
+tags = ["politics", "international", "hiroshima", "code", "intellectual-property", "copyright", "java", "windows", "android"]
 
 [scripts]
   mathjax = false
