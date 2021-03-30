@@ -130,7 +130,7 @@ The general concerns that petitioner raises are substantial and important, but S
 故に，たとえこの件で Google が勝ったとしても，あらゆる局面で「API の利用は『公正な利用』である」とは言えない。
 
 自由でないソフトウェアによる API の利用は常に著作権リスクを含んでいる。
-このことは常に頭に入れておいて欲しい。
+このことは頭に入れておいて欲しい。
 
 実は，2016年の時点では陪審員団に Java API の利用が公正な利用であると認められていた。
 

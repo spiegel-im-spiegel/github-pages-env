@@ -3,7 +3,7 @@ title = "絵文字と異体字と Markdown"
 date =  "2020-10-08T16:22:55+09:00"
 description = "Hugo の markdown で絵文字を簡単に表示する。"
 image = "/images/attention/kitten.jpg"
-tags = [ "character", "unicode", "markdown", "hugo", "font" ]
+tags = [ "character", "unicode", "markdown", "hugo", "font", "emoji" ]
 pageType = "text"
 
 [scripts]
