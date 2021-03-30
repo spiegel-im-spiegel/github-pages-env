@@ -45,10 +45,10 @@ var emojiRegex = regexp.MustCompile("[\U0001f000-\U0001ffff]")
 まず大前提として Unicode は1コード＝1文字じゃない。
 これは日本語圏で苦労している私たちには自明だと思うが，たとえば「ペンギン」という単語にしたって
 
-- ペ：U+30D8 + U+309A
-- ン：U+30F3
-- ギ：U+30AD + U+3099
-- ン：U+30F3
+- ペ：`U+30D8` + `U+309A`
+- ン：`U+30F3`
+- ギ：`U+30AD` + `U+3099`
+- ン：`U+30F3`
 
 と[濁点・半濁点が分離している場合がある]({{< ref "/golang/unicode-normalization.md" >}} "Go 言語と Unicode 正規化") 。
 これは絵文字でも同様で，たとえば「土下座する男性 {{< emoji ":bowing_man:" >}}」を拙作の [gnkf] を使って Unicode 符号点（code point）に分解すると
