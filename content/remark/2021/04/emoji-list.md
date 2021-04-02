@@ -11,7 +11,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-[前回]，絵文字についてちょろんと調べた余波で，絵文字の一覧を作ってみた。
+[前回]，絵文字についてちょろんと調べた余波で絵文字の一覧を作ってみた。
 
 - [情報交換用に推奨される絵文字のリスト]({{< ref "/emoji-list.md" >}})
 - [絵文字と Markdown Shortcodes]({{< ref "/emoji-shortcodes.md" >}})
