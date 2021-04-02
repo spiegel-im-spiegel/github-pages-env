@@ -236,4 +236,3 @@ type EmojiSequence struct {
 とりあえずチョー面倒くさいのは分かった。
 
 [前回]: {{< ref "/remark/2021/03/terrible-emoji.md" >}} "おそるべき絵文字"
-<!-- eof -->
