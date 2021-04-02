@@ -32,6 +32,7 @@ pageType = "text"
     - [`emoji-zwj-sequences.txt`](https://unicode.org/Public/emoji/13.1/emoji-zwj-sequences.txt)
 
 なお markdown shortcodes の情報の取得には以下のパッケージを使った。
+ありがたや。
 
 - [kyokomi/emoji: emoji terminal output for golang](https://github.com/kyokomi/emoji)
 
