@@ -14348,5 +14348,56 @@
       false
     ],
     "Description": "最近，メディアで政治ネタを見かける度に脳内BGMがこれになる（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07FSBHS2V",
+      "Title": "Clean Architecture　達人に学ぶソフトウェアの構造と設計 (アスキードワンゴ)",
+      "URL": "https://www.amazon.co.jp/dp/B07FSBHS2V?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51mQrYTahJL._SL160_.jpg",
+        "Height": 160,
+        "Width": 121
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "Ｒｏｂｅｒｔ Ｃ．Ｍａｒｔｉｎ",
+          "Role": "著"
+        },
+        {
+          "Name": "角 征典",
+          "Role": "著"
+        },
+        {
+          "Name": "高木 正弘",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "ドワンゴ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07FSBHS2V"
+        }
+      ],
+      "PublicationDate": "2018-08-01",
+      "LastRelease": "2018-08-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-04-03",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "実務に即効性のある技術解説書というわけではないが，ものの「考え方」を示す本としてはよく出来ている。ソフトウェア技術史の読み物としても面白い。"
   }
 ]
