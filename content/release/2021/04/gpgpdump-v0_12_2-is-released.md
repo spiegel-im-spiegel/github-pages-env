@@ -19,7 +19,7 @@ pageType = "text"
 
 - [x/crypto/openpgp: mark as frozen and deprecated · Issue #44226 · golang/go](https://github.com/golang/go/issues/44226)
 
-まぁ，色々と御託が並べられているが，要は「OpenPGP は触りたくない」と言うことだろう。
+まぁ，色々と御託が並べられているが，要は「[OpenPGP] は触りたくない」と言うことだろう。
 触りたくない使いもしないパッケージを（事実上）捨てるのは間違ってない。
 
 幸いなことに [`golang.org/x/crypto`] 互換で活況そうな [`ProtonMail/go-crypto`] パッケージがそのまま使えるようなので（テストも問題なく通った），今回はこれに置き換えることで応急措置とした。
@@ -28,7 +28,7 @@ pageType = "text"
 といっても [gpgpdump] で [`golang.org/x/crypto/openpgp`] パッケージを使ってたのはパケットの切り出しに便利だったからというだけで，暗号周りの機能は一切使ってない。
 最悪は自分で組んで置き換えるかなぁ...
 
-まぁ，[個人のプライバシーに敵対的な企業]({{< ref "/remark/2018/04/handling-privacy.md" >}} "誰がプライバシーを支配するのか")がホストする言語がいくら OpenPGP を DIS っても微塵も刺さらないところがにんともかんとも（笑） 「坊主憎けりゃ袈裟まで憎い」などと言うつもりはないので，利用できる部分は利用して賢くやりくりしましょう。
+まぁ，[個人のプライバシーに敵対的な企業]({{< ref "/remark/2018/04/handling-privacy.md" >}} "誰がプライバシーを支配するのか")がホストする言語がいくら [OpenPGP] を DIS っても微塵も刺さらないところがにんともかんとも（笑） 「坊主憎けりゃ袈裟まで憎い」などと言うつもりはないので，利用できる部分は利用して賢くやりくりしましょう。
 
 それでにしても先週の mimemagic の騒ぎといい，特定のフレームワークやライブラリに依存しすぎるのは考えものだねぇ。
 というわけで最近『[Clean Architecture](https://www.amazon.co.jp/dp/B07FSBHS2V?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)』を読んでいる。
