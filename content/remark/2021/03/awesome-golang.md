@@ -124,6 +124,10 @@ a = b = c = 1 // syntax error
 
 本当は WebAssembly に[興味がある]({{< ref "/golang/webassembly-with-tinygo.md" >}} "TinyGo で WebAssembly")のだが，少なくとも [Go] 側が WASI (WebAssembly System Interface) をサポートしてくれないと無理かなぁ。
 
+## ブックマーク
+
+- [プログラミングを独習するには10年かかる（Teach Yourself Programming in Ten Years 日本語訳）](https://www.yamdas.org/column/technique/21-daysj.html)
+
 [Go]: https://golang.org/ "The Go Programming Language"
 [TinyGo]: https://tinygo.org/ "TinyGo - Go on Microcontrollers and WASM"
 [specs]: https://golang.org/ref/spec "The Go Programming Language Specification - The Go Programming Language"

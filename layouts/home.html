@@ -22,6 +22,14 @@
 {{ range first 5 .Site.RegularPages }}{{ partial "li.html" . }}{{ end }}
 </ul>
 
+<h2>主な <a href="tags/">Tags</a></h2>
+
+{{ $ct := 90 -}}<ul class="cloud" style="font-size:smaller;">
+	{{- range $key, $value := .Site.Taxonomies.tags.Alphabetical -}}
+	{{- if ge $value.Count $ct -}}{{- $tag := lower $value.Name -}}{{- $tagURL := printf "/tags/%s/" $tag | urlize -}}
+	<li>#<a href="{{ $tagURL | relURL }}">{{ $tag }}</a> ({{ $value.Count }})</li>
+	{{- end -}}{{- end -}}</ul>
+
 <p>最近の更新状況などは<a href='{{ "/status/" | relURL }}'>こちら</a></p>
 
 </article></main>

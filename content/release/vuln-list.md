@@ -91,8 +91,9 @@ pageType = "text"
 
 | Official | Release    |                       Ubuntu | Release    |   Delay |
 | -------: | ---------- | ---------------------------: | ---------- | ------: |
-|   86.0.1 | 2021-03-11 |                              |            |  ∞ days |
-|     86.0 | 2021-02-23 |  86.0+build3-0 (UUSN-4756-1) | 2021-02-26 |  3 days |
+|     87.0 | 2021-03-23 |   87.0+build3-0 (USN-4893-1) | 2021-02-26 |  3 days |
+|   86.0.1 | 2021-03-11 |                      &mdash; | &mdash;    | &mdash; |
+|     86.0 | 2021-02-23 |   86.0+build3-0 (USN-4756-1) | 2021-02-26 |  3 days |
 |   85.0.2 | 2021-02-09 |                      &mdash; | &mdash;    | &mdash; |
 |   85.0.1 | 2021-02-05 | 85.0.1+build1-0 (USN-4717-2) | 2021-02-08 |  3 days |
 |     85.0 | 2021-01-26 |   85.0+build1-0 (USN-4717-1) | 2021-02-01 |  7 days |
@@ -121,6 +122,7 @@ pageType = "text"
 
 ### ブックマーク
 
+- [Firefox  87.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/87.0/releasenotes/)
 - [Firefox  86.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/86.0.1/releasenotes/)
 - [Firefox  86.0, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/86.0/releasenotes/)
 - [Firefox  85.0.2, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/85.0.2/releasenotes/)
@@ -157,7 +159,8 @@ pageType = "text"
 
 | Official | Release    |                       Ubuntu | Release    |   Delay |
 | -------: | ---------- | ---------------------------: | ---------- | ------: |
-|   78.8.1 | 2021-03-08 |                              |            |  ∞ days |
+|   78.9.0 | 2021-03-23 |                              |            |  ∞ days |
+|   78.8.1 | 2021-03-08 |                      &mdash; | &mdash;    |  &mdash |
 |   78.8.0 | 2021-02-23 |                      &mdash; | &mdash;    | &mdash; |
 |   78.7.1 | 2021-02-05 | 78.7.1+build1-0 (USN-4736-1) | 2021-02-16 | 11 days |
 |   78.7.0 | 2021-01-26 |                      &mdash; | &mdash;    | &mdash; |
@@ -183,6 +186,7 @@ pageType = "text"
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (78.9.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.9.0/releasenotes/)
 - [Thunderbird — Release Notes (78.8.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.8.1/releasenotes/)
 - [Thunderbird — Release Notes (78.8.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.8.0/releasenotes/)
 - [Thunderbird — Release Notes (78.7.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.7.1/releasenotes/)

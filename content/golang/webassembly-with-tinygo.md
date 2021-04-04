@@ -395,6 +395,7 @@ Press ctrl+c to stop
 - [Go 製 WebAssembly ホスト環境パッケージ wax のご紹介 - bearmini's blog](https://bearmini.hatenablog.com/entry/2019/12/23/173924)
 - [Go × WebAssemblyで電卓のWebアプリを作ってみた - Sansan Builders Blog](https://buildersbox.corp-sansan.com/entry/2019/02/14/113000)
 - [WASI (WebAssembly system interface) を Wasmtime と Node.js で試す - Qiita](https://qiita.com/takewell/items/c99b44d912448e9170e6)
+- [Go の形態素解析器を wasm で利用する](https://zenn.dev/ikawaha/articles/20210331-e661ac866f5ff0fc5eb8) : このコード例は参考になる
 
 [Go]: https://golang.org/ "The Go Programming Language"
 [TinyGo]: https://tinygo.org/ "TinyGo - Go on Microcontrollers and WASM"
