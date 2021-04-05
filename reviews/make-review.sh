@@ -1,6 +1,9 @@
 #!/bin/sh
-sleep 1;cat B07FSBHS2V.html | books-data review -t review-book.html -a B07FSBHS2V -r 4 --review-date 2021-04-03 --pipe
+sleep 1;cat B013SEV0DA.html | books-data review -t review-book.html -a B013SEV0DA -r 5 --review-date 2021-04-05 --pipe
+sleep 1;cat B0823T8D4K.html | books-data review -t review-book.html -a B0823T8D4K -r 0 --review-date 2021-04-05 --pipe
+sleep 1;cat ./done/B00O2O7JEA.html | books-data review -t review-book.html -a B00O2O7JEA -r 4 --review-date 2003-09-22 --pipe
 # ---
+# sleep 1;cat ./done/B07FSBHS2V.html | books-data review -t review-book.html -a B07FSBHS2V -r 4 --review-date 2021-04-03 --pipe
 # sleep 1;cat ./done/B08MX57XXK.html | books-data review -t review-book.html -a B08MX57XXK -r 0 --review-date 2021-03-28 --pipe
 # sleep 1;cat ./done/B08T7D2LFR.html | books-data review -t review-book.html -a B08T7D2LFR -r 3 --review-date 2021-03-21 --pipe
 # sleep 1;cat ./done/4621303252.html | books-data review -t review-book.html -a 4621303252 -r 4 --review-date 2021-03-17 --pipe
@@ -50,7 +53,6 @@ sleep 1;cat B07FSBHS2V.html | books-data review -t review-book.html -a B07FSBHS2
 # sleep 1;cat ./done/B07LG7TG5N.html | books-data review -t review-book.html -a B07LG7TG5N -r 0 --review-date 2019-03-11 --pipe
 # sleep 1;cat ./done/4621089188.html | books-data review -t review-book.html -a 4621089188 -r 0 --review-date 2019-03-11 --pipe
 # sleep 1;cat ./done/card-4333.html   | books-data review -t review-book.html -c 4333      -r 4 --review-date 2020-05-11 --image-url https://text.baldanders.info/images/aozora/card4333.svg  --pipe
-# sleep 1;cat ./done/B00O2O7JEA.html | books-data review -t review-book.html -a B00O2O7JEA -r 4 --review-date 2020-05-11 --pipe
 # sleep 1;cat ./done/B00FIWCVFM.html | books-data review -t review-book.html -a B00FIWCVFM -r 4 --review-date 2020-05-11 --pipe
 # sleep 1;cat ./done/B00NAQA33A.html | books-data review -t review-book.html -a B00NAQA33A -r 5 --review-date 2013-09-21 --pipe
 # sleep 1;cat ./done/B07BKT4RX5.html | books-data review -t review-book.html -a B07BKT4RX5 -r 5 --review-date 2020-04-05 --pipe

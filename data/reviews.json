@@ -12007,7 +12007,7 @@
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2020-05-11",
+    "Date": "2003-09-22",
     "Rating": 4,
     "Star": [
       true,
@@ -12016,7 +12016,7 @@
       true,
       false
     ],
-    "Description": "短編集。同名の短編が映画になったが，個人的に一番好きなのは「理解」だったり。"
+    "Description": "短編集。当時は移動中の電車とかで読んでた。個人的に一番好きなのは「理解」だったり。2016年（日本では2017年）に同名の短編が映画化された。"
   },
   {
     "Book": {
@@ -14399,5 +14399,95 @@
       false
     ],
     "Description": "実務に即効性のある技術解説書というわけではないが，ものの「考え方」を示す本としてはよく出来ている。ソフトウェア技術史の読み物としても面白い。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0823T8D4K",
+      "Title": "息吹",
+      "URL": "https://www.amazon.co.jp/dp/B0823T8D4K?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51kV4fmbdmL._SL160_.jpg",
+        "Height": 160,
+        "Width": 110
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "テッド チャン",
+          "Role": "著"
+        },
+        {
+          "Name": "大森 望",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "早川書房",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0823T8D4K"
+        }
+      ],
+      "PublicationDate": "2019-12-04",
+      "LastRelease": "2019-12-04",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-04-05",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "ついカッとなってポチった。反省はしない。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B013SEV0DA",
+      "Title": "ねこめ（～わく） １ (夢幻燈コミックス)",
+      "URL": "https://www.amazon.co.jp/dp/B013SEV0DA?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51W19wCeK+L._SL160_.jpg",
+        "Height": 160,
+        "Width": 110
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "竹本泉",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "ハーパーコリンズ・ジャパン",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B013SEV0DA"
+        }
+      ],
+      "PublicationDate": "2013-09-24",
+      "LastRelease": "2015-08-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-04-05",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "『ねこめ〜わく』から続く，竹本泉さんのライフワーク的作品（？） 惜しむらくも7巻で完結してしまった。続編を望む（笑）"
   }
 ]
