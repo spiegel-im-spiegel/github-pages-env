@@ -10,12 +10,6 @@
 - [パッケージ設計(コンポーネント)の原則](https://zenn.dev/uesho/articles/c819d53be1d6d9d120e8)
 - [プログラミングを独習するには10年かかる（Teach Yourself Programming in Ten Years 日本語訳）](https://www.yamdas.org/column/technique/21-daysj.html) : 『Clean Architecture』感想文用に保持っておく
 
-## Google v. Oracle
-
-- [Supreme Court sides with developers in Google v. Oracle - The GitHub Blog](https://github.blog/2021-04-06-supreme-court-sides-with-developers-in-google-v-oracle/)
-- [グーグル、米最高裁でオラクルに勝訴--「Android」Javaコード訴訟で - ZDNet Japan](https://japan.zdnet.com/article/35168881/)
-- [［速報］10年にわたる著作権訴訟でGoogleがオラクルに勝訴、米連邦最高裁判所で判決。Java SEのコードのコピーはフェアユースの範囲 － Publickey](https://www.publickey1.jp/blog/21/10googlejava_se.html)
-
 ## リリース情報
 
 

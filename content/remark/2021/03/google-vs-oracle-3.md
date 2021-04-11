@@ -147,6 +147,12 @@ The general concerns that petitioner raises are substantial and important, but S
 
 そしてこの記事の最初の話に戻るわけだ。
 
+## 【2021-04-11 追記】
+
+判決出ちゃいました。
+
+- [Google vs Oracle の訴訟の行方（最終章）]({{< ref "/remark/2021/04/google-vs-oracle-final.md" >}})
+
 ## ブックマーク
 
 - [Google Books の Library Book Scan すら Fair Use と言われたのに...]({{< ref "/remark/2015/google-books-library-project.md" >}})
@@ -155,5 +161,8 @@ The general concerns that petitioner raises are substantial and important, but S
 ## 参考図書
 
 {{% review-paapi "4641243336" %}} <!-- 著作権法 第3版 -->
-{{% review-paapi "4622073455" %}} <!-- 〈海賊版〉の思想‐18世紀英国の永久コピーライト闘争 -->
 {{% review-paapi "4757102852" %}} <!-- 著作権２．０ ウェブ時代の文化発展をめざして -->
+{{% review-paapi "4757122349" %}} <!-- 〈反〉知的独占 -->
+{{% review-paapi "B01CYDGUV8" %}} <!-- CODE VERSION 2.0 -->
+{{% review-paapi "4622073455" %}} <!-- 〈海賊版〉の思想‐18世紀英国の永久コピーライト闘争 -->
+{{% review-paapi "4797334673" %}} <!-- インターネットの法と慣習 -->
