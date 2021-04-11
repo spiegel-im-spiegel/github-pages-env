@@ -97,6 +97,7 @@ Java 10 以降なら（リリースサイクルが半年毎というだけで）
     - [AdoptOpenJDKプロジェクトがEclipse Foundationへの合流を発表。合流後の新プロジェクト名は「Eclipse Adoptium」に － Publickey](https://www.publickey1.jp/blog/20/adoptopenjdkeclipse_foundationeclipse_adoptium.html)
 - [AWS、「Java 8」を2026年まで、「Java 11」は2027年まで、現行より3年サポート期間延長を発表。独自JavaディストリビューションのCorretto 8とCorretto 11で － Publickey](https://www.publickey1.jp/blog/20/awsjava_82026java_1120273javacorretto_8corretto_11.html)
 - [OpenJDKと各種JDKディストリビューションの情報源まとめ](https://zenn.dev/yamadamn/articles/2e3b388076cbde229655)
+- [マイクロソフトが無償でJavaの長期サポートを提供へ、「Microsoft Build of OpenJDK」をリリース － Publickey](https://www.publickey1.jp/blog/21/javamicrosoft_build_of_openjdk.html)
 
 [OpenJDK]: http://openjdk.java.net/
 [AdoptOpenJDK]: https://adoptopenjdk.net/ "AdoptOpenJDK - Open source, prebuilt OpenJDK binaries"

@@ -159,7 +159,8 @@ pageType = "text"
 
 | Official | Release    |                       Ubuntu | Release    |   Delay |
 | -------: | ---------- | ---------------------------: | ---------- | ------: |
-|   78.9.0 | 2021-03-23 |                              |            |  ∞ days |
+|   78.9.1 | 2021-04-08 |                              |            |  ∞ days |
+|   78.9.0 | 2021-03-23 |                      &mdash; | &mdash;    |  &mdash |
 |   78.8.1 | 2021-03-08 |                      &mdash; | &mdash;    |  &mdash |
 |   78.8.0 | 2021-02-23 |                      &mdash; | &mdash;    | &mdash; |
 |   78.7.1 | 2021-02-05 | 78.7.1+build1-0 (USN-4736-1) | 2021-02-16 | 11 days |
@@ -186,6 +187,8 @@ pageType = "text"
 
 ### ブックマーク
 
+- [Thunderbird — Release Notes (78.9.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.9.1/releasenotes/)
+  - [「Thunderbird 78.9.1」が公開 ～「OpenPGP」の受信者エイリアスをサポート - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1317631.html)
 - [Thunderbird — Release Notes (78.9.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.9.0/releasenotes/)
 - [Thunderbird — Release Notes (78.8.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.8.1/releasenotes/)
 - [Thunderbird — Release Notes (78.8.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.8.0/releasenotes/)
