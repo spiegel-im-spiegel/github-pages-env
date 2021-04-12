@@ -58,12 +58,51 @@ pageType = "text"
 
 2.2 系でもあと3年は戦える，ということで（笑）
 
+## 【2021-04-12 追記】 [Scoop] で Windows 版 GnuPG をアップデートする場合
+
+[Scoop] で Windows 版 GnuPG をアップデートする場合， main バケットに収録されているバージョンが 2.3.0 なので，問答無用に 2.3.0 にアップデートしてしまうようだ。
+アップデートすると，以下のバージョンになる。
+
+```text
+$ gpg --version
+gpg (GnuPG) 2.3.0
+libgcrypt 1.9.2
+Copyright (C) 2021 g10 Code GmbH
+License GNU GPL-3.0-or-later <https://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Home: C:\Users\username\scoop\apps\gnupg\current\home
+サポートしているアルゴリズム:
+公開鍵: RSA, ELG, DSA, ECDH, ECDSA, EDDSA
+暗号方式: IDEA, 3DES, CAST5, BLOWFISH, AES, AES192, AES256,
+      TWOFISH, CAMELLIA128, CAMELLIA192, CAMELLIA256
+AEAD: EAX, OCB
+ハッシュ: SHA1, RIPEMD160, SHA256, SHA384, SHA512, SHA224
+```
+
+おっ， AEAD が入ってるな。
+
+それはともかく，元の 2.2 系に戻すには
+
+```text
+$ scoop reset gnupg@2.2.27
+Resetting gnupg (2.2.27).
+Linking ~\scoop\apps\gnupg\current => ~\scoop\apps\gnupg\2.2.27
+Persisting home
+```
+
+とするしかない。
+今回はいいけど 2.2 系がアップデートしたらどうするんだろう。
+
+
 ## ブックマーク
 
 - [OpenPGP の実装]({{< rlnk "/openpgp/" >}})
 
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 [OpenPGP]: http://openpgp.org/
+[Scoop]: https://scoop.sh/ "Scoop"
 
 ## 参考図書
 
