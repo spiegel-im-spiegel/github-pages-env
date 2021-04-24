@@ -14489,5 +14489,196 @@
       true
     ],
     "Description": "『ねこめ〜わく』から続く，竹本泉さんのライフワーク的作品（？） 惜しむらくも7巻で完結してしまった。続編を望む（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07143DX2F",
+      "Title": "with #前置詞といっしょ！: 電子書籍版",
+      "URL": "https://www.amazon.co.jp/dp/B07143DX2F?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41FJD5dKu1L._SL160_.jpg",
+        "Height": 160,
+        "Width": 159
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "三戸　雅彦",
+          "Role": "著"
+        },
+        {
+          "Name": "木村　ヨーシロー",
+          "Role": "写真"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07143DX2F"
+        }
+      ],
+      "PublicationDate": "2017-05-07",
+      "LastRelease": "2017-05-07",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-04-24",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "対象年齢小学3年生から。“with” をはじめとする，よく使われる10個の前置詞についてふんわりとしたイメージを掴むことができる。中学生の時に読みたかった orz"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4906985262",
+      "Title": "中学→高校の英文法が図解でわかるノート　基礎編　#動詞と踏み出そう！",
+      "URL": "https://www.amazon.co.jp/dp/4906985262?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51qgm3W4VeL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "三戸 雅彦",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "しおまち書房",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4906985262"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784906985265"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4906985262"
+        }
+      ],
+      "PublicationDate": "2020-01-01",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-04-24",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "同じ著者による『with #前置詞といっしょ！』『coffee ＃名詞のヒミツ！』の続編と言えるが対象年齢はもう少し「お兄さん」向けの内容。動詞を中心に授業のノートのような紙面構成で書かれていて分かりやすい。勉強中。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4906985165",
+      "Title": "coffee ＃名詞のヒミツ！～英語を楽しく学ぼう～",
+      "URL": "https://www.amazon.co.jp/dp/4906985165?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61AnalwQPSL._SL160_.jpg",
+        "Height": 160,
+        "Width": 159
+      },
+      "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "三戸雅彦",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "しおまち書房",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4906985165"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784906985166"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4906985165"
+        }
+      ],
+      "PublicationDate": "2018-01-01",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-04-24",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "同じ著者による『with #前置詞といっしょ！』の続編と言えるもの。可算名詞や不可算名詞，単数形と複数形で意味が変わるもの，冠詞の使い方など言葉のイメージを中心に解説している。中学生の時に読みたかった orz"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07T35YXVV",
+      "Title": "ぼくはイエローでホワイトで、ちょっとブルー",
+      "URL": "https://www.amazon.co.jp/dp/B07T35YXVV?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51B9J8lIYrL._SL160_.jpg",
+        "Height": 160,
+        "Width": 110
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "ブレイディみかこ",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "新潮社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07T35YXVV"
+        }
+      ],
+      "PublicationDate": "2019-06-21",
+      "LastRelease": "2019-06-21",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-04-24",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "某書籍で紹介されていたので。気が向いたら読んでみよう。"
   }
 ]
