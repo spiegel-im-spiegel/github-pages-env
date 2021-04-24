@@ -132,7 +132,7 @@ fn main() {
 
 変数と参照の関係を図式化するとこんな感じだろうか。
 
-{{< fig-img src="./references-and-borrowing.png" link="./references-and-borrowing.png" >}}
+{{< fig-img class="lightmode" src="./references-and-borrowing.png" link="./references-and-borrowing.png" >}}
 
 `display_person()` 関数の引数である参照変数 `p` は，値を直接参照しているのではなく，値の所有権を持つ変数 `p1` を参照している点がポイントである。
 

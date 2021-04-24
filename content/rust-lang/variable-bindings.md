@@ -51,7 +51,7 @@ fn main() {
 
 イメージとしてはこんな感じ。
 
-{{< fig-img src="./array.png" link="./array.svg" >}}
+{{< fig-img class="lightmode" src="./array.png" link="./array.svg" >}}
 
 このようにデータ型では値をコピーすることによって変数束縛を担保している。
 
@@ -92,7 +92,7 @@ fn main() {
 
 [^ref1]: 厳密には [Rust] で[「参照」は別のものを指す]({{< relref "./references-and-borrowing.md" >}} "参照と借用")ので，ここではユルく「のようなもの」という感じでご容赦を。
 
-{{< fig-img src="./variable-bindings1.png" link="./variable-bindings1.svg" >}}
+{{< fig-img class="lightmode" src="./variable-bindings1.png" link="./variable-bindings1.svg" >}}
 
 今度は変数 `p1` の値を別の変数に代入してみよう。
 
@@ -144,7 +144,7 @@ let p2 = p1;
 
 の部分で値がコピーされず，所有権のみ移動してしまうため。
 
-{{< fig-img src="./variable-bindings2.png" link="./variable-bindings2.svg" >}}
+{{< fig-img class="lightmode" src="./variable-bindings2.png" link="./variable-bindings2.svg" >}}
 
 構造体やコレクションの各型の値はヒープ領域に置かれる。
 ヒープ上の値に対して代入等を行うたびにコピーを行うのは高コストだし，かといって野放図に参照を増やすとヒープ管理が煩雑になってしまう。
@@ -190,7 +190,7 @@ fn main() {
 のように `clone()` メソッドでコピーを生成できるようになる。
 図にすると，こんな感じか。
 
-{{< fig-img src="./variable-bindings3.png" link="./variable-bindings3.svg" >}}
+{{< fig-img class="lightmode" src="./variable-bindings3.png" link="./variable-bindings3.svg" >}}
 
 あるいは `derive` 構文[^derive] を使えば
 

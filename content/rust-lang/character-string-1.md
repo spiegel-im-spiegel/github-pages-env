@@ -82,7 +82,7 @@ fn main() {
 
 図にするとこんな感じだろうか。
 
-{{< fig-img src="./character-string-1.png" link="./character-string-1.png" width="684" >}}
+{{< fig-img class="lightmode" src="./character-string-1.png" link="./character-string-1.png" width="684" >}}
 
 `"Hello World"` などのリテラル文字列は型としては `&'static str` と表現できる。
 ちなみに `'static` はライフタイム注釈の特殊な表現で，生存期間がプログラム全域に及ぶという恐ろしいものである（笑）
