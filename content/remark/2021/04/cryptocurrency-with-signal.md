@@ -46,6 +46,7 @@ pageType = "text"
 ## ブックマーク
 
 - [「暗号通貨」ってゆーな！]({{< ref "/remark/2018/01/cryptocurrency-are-not-crypto.md" >}})
+- [階級社会としてのインターネット]({{< ref "/remark/2018/05/internet-as-a-class-system.md" >}})
 - [“Blockchain and Trust” by Bruce Schneier]({{< ref "/remark/2019/02/blockchain-and-trust-by-bruce-schneier.md" >}})
 
 [Signal]: https://signal.org/
