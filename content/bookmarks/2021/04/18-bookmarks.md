@@ -20,6 +20,7 @@ pageType = "text"
 - [Release v0.4.10 · zetamatta/go-readline-ny · GitHub](https://github.com/zetamatta/go-readline-ny/releases/tag/v0.4.10)
 - [Release v0.4.11 · zetamatta/go-readline-ny · GitHub](https://github.com/zetamatta/go-readline-ny/releases/tag/v0.4.11)
 - [Release Windows Terminal v1.7.1033.0 · microsoft/terminal · GitHub](https://github.com/microsoft/terminal/releases/tag/v1.7.1033.0)
+  - [「Windows Terminal 1.7」が正式リリース、設定GUIを安定版に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1318918.html)
 - [「LibreOffice」に脆弱性が ～修正版「v7.0.5/7.1.2」への更新を - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1319156.html)
 
 ## セキュリティ＆プライバシー関連

@@ -10,6 +10,9 @@
 - [パッケージ設計(コンポーネント)の原則](https://zenn.dev/uesho/articles/c819d53be1d6d9d120e8)
 - [プログラミングを独習するには10年かかる（Teach Yourself Programming in Ten Years 日本語訳）](https://www.yamdas.org/column/technique/21-daysj.html) : 『Clean Architecture』感想文用に保持っておく
 
+- [Goでハッシュ値計算時にメモリ消費量を抑える方法](https://zenn.dev/skanehira/articles/2021-04-18-go-hash)
+- [ハッシュ値を計算するコマンドの使い方 - Qiita](https://qiita.com/hana_shin/items/7b3368eaf3a7ee1e941a)
+
 ## リリース情報
 
 
