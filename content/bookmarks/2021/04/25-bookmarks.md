@@ -55,6 +55,7 @@ pageType = "text"
   - [検索エンジン自作入門 Go Conference 2021 Spring - Speaker Deck](https://speakerdeck.com/kotaroooo0/jian-suo-enzinzi-zuo-ru-men-go-conference-2021-spring)
   - [Go言語低レイヤー入門 Hello world が 画面に表示されるまで (GoConforenceTokyo2021) - Google スライド](https://docs.google.com/presentation/d/10ru3LdbofJqgdmD8pprZuZyWbGvOFC8rKxb6q5Q46Xc/mobilepresent#slide=id.p)
   - [GoCon CTF と呼ばれた問題の紹介と解説 - カンムテックブログ](https://tech.kanmu.co.jp/entry/2021/04/25/092927)
+  - [Azure SDK for Goで学ぶGoでのWebクライアント実装 - Speaker Deck](https://speakerdeck.com/qt_luigi/azure-sdk-for-godexue-bugodefalsewebkuraiantoshi-zhuang)
 - [Goから学ぶI/O](https://zenn.dev/hsaki/books/golang-io-package)
 
 ## Rust 言語関連
