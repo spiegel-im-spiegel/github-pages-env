@@ -57,3 +57,4 @@ pageType = "text"
 ## 参考図書
 
 {{% review-paapi "B01MZGVHOA" %}} <!-- 超監視社会 -->
+{{% review-paapi "B0125TZSZ0" %}} <!-- つながりっぱなしの日常を生きる -->
