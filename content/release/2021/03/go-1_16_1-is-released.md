@@ -27,7 +27,19 @@ pageType = "text"
 {{% quote %}}The `Decode`, `DecodeElement`, and Skip methods of an `xml.Decoder` provided by `xml.NewTokenDecoder` may enter an infinite loop when operating on a custom `xml.TokenReader` which returns an EOF in the middle of an open XML element{{% /quote %}}.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H`
+- 深刻度: 警告 (Score: 5.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ローカル |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | なし |
+| 可用性への影響 | 高 |
 
 ## archive/zip: panic when calling Reader.Open ([CVE-2021-27919])
 
@@ -35,7 +47,19 @@ pageType = "text"
 {{% quote %}}The `Reader.Open` API, new in Go 1.16, will panic when used on a ZIP archive containing files that start with `"../"`{{% /quote %}}.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H`
+- 深刻度: 警告 (Score: 5.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ローカル |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | なし |
+| 可用性への影響 | 高 |
 
 ## 例によって...
 
