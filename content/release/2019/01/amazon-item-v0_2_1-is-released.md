@@ -212,25 +212,6 @@ $ amazon-item review -d B00I8AT1CM -r 4 -t template/review.html "数学ガール
 ```
 
 という感じになる。
-これを Web ページで表示させるとこんな感じになる[^css1]。
-
-[^css1]: スタイルシートは[こちら]({{< rlnk "/css/addon.css" >}})。
-
-{{< fig-gen title="amazon-item 出力例" >}}
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1CM/mytag-20"><img src="https://images-fe.ssl-images-amazon.com/images/I/41vT2D6sERL._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1CM/mytag-20">数学ガール／フェルマーの最終定理</a></dt>
-	<dd>結城 浩</dd>
-    <dd>SBクリエイティブ 2008-07-29 (Release 2014-03-12)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00I8AT1CM</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">数学ガールめっさ面白い！</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>mytag-20</a> on <abbr class="dtreviewed" title="2019-01-27">2019-01-27</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.1)</p>
-</div>
-{{< /fig-gen >}}
 
 レビューの description は標準入力から指定することもできる。
 たとえば以下のように cat (Windows なら type) コマンドの出力をパイプで繋いで 
@@ -309,19 +290,3 @@ $ cat B00I8AT1CM.txt | amazon-item review -d B00I8AT1CM -r 4 --review-date 2019-
 [jq]: https://stedolan.github.io/jq/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`text/template`]: https://golang.org/pkg/text/template/ "template - The Go Programming Language"
-
-## 参考図書
-
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%BE%B9%E5%BA%95%E6%94%BB%E7%95%A5-AWS%E8%AA%8D%E5%AE%9A-%E3%82%BD%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%88-%E3%82%A2%E3%82%BD%E3%82%B7%E3%82%A8%E3%82%A4%E3%83%88%E6%95%99%E7%A7%91%E6%9B%B8-%E5%BE%B9%E5%BA%95%E6%94%BB%E7%95%A5%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-ebook/dp/B07M7S9GDL?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07M7S9GDL"><img src="https://images-fe.ssl-images-amazon.com/images/I/512lfKHsI%2BL._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E5%BE%B9%E5%BA%95%E6%94%BB%E7%95%A5-AWS%E8%AA%8D%E5%AE%9A-%E3%82%BD%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%88-%E3%82%A2%E3%82%BD%E3%82%B7%E3%82%A8%E3%82%A4%E3%83%88%E6%95%99%E7%A7%91%E6%9B%B8-%E5%BE%B9%E5%BA%95%E6%94%BB%E7%95%A5%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-ebook/dp/B07M7S9GDL?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07M7S9GDL">徹底攻略 AWS認定 ソリューションアーキテク
-ト – アソシエイト教科書 徹底攻略シリーズ</a></dt>
-        <dd>鳥谷部 昭寛, 宮口 光平, 菖蒲淳司</dd>
-    <dd>インプレス 2019-01-18 (Release 2019-01-18)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B07M7S9GDL</dd>
-  </dl>
-  <p class="description"></p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-01-27">2019-01-27</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>

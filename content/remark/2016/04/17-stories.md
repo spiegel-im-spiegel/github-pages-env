@@ -142,16 +142,4 @@ CVSSv3 基本値は 6.3 なので「要注意」レベルだが，サポート�
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%BE%A9%E6%B4%BB%E3%81%AE%E5%9C%B0%EF%BC%91-%E5%B0%8F%E5%B7%9D%E4%B8%80%E6%B0%B4-ebook/dp/B00GJOESS6?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00GJOESS6"><img src="https://images-fe.ssl-images-amazon.com/images/I/51ymtvyHUmL._SL160_.jpg" width="108" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E5%BE%A9%E6%B4%BB%E3%81%AE%E5%9C%B0%EF%BC%91-%E5%B0%8F%E5%B7%9D%E4%B8%80%E6%B0%B4-ebook/dp/B00GJOESS6?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00GJOESS6">復活の地１</a></dt>
-	<dd>小川一水</dd>
-    <dd>早川書房 2012-09-15 (Release 2013-11-15)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00GJOESS6</dd>
-    <dd>評価<abbr class="rating fa-sm" title="4">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">コミカライズ版もある。てか，コミカライズ版を最初に読んだ（笑） 大きな災害がある度にこの作品を思い出す。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2016-04-17">2016-04-17</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "B00GJOESS6" %}} <!-- 復活の地 -->

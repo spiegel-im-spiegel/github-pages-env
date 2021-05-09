@@ -82,15 +82,4 @@ Word の校正機能は殆ど完成した文書に対して行うなら効果的
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E5%9F%B7%E7%AD%86%E3%82%92%E5%8A%B9%E7%8E%87%E5%8C%96%E3%81%97%E3%81%9F%E3%81%84%E4%BA%BA%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E7%A7%80%E4%B8%B8%E3%82%A8%E3%83%87%E3%82%A3%E3%82%BF%E5%AE%9F%E8%B7%B5%E5%85%A5%E9%96%80-%E5%90%89%E8%89%AF%E9%87%8E%E3%81%99%E3%81%9F-ebook/dp/B07R6FTSMT?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07R6FTSMT"><img src="https://images-fe.ssl-images-amazon.com/images/I/41DRABeOr8L._SL160_.jpg" width="100" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E5%9F%B7%E7%AD%86%E3%82%92%E5%8A%B9%E7%8E%87%E5%8C%96%E3%81%97%E3%81%9F%E3%81%84%E4%BA%BA%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E7%A7%80%E4%B8%B8%E3%82%A8%E3%83%87%E3%82%A3%E3%82%BF%E5%AE%9F%E8%B7%B5%E5%85%A5%E9%96%80-%E5%90%89%E8%89%AF%E9%87%8E%E3%81%99%E3%81%9F-ebook/dp/B07R6FTSMT?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07R6FTSMT">執筆を効率化したい人のための秀丸エディタ実践入門</a></dt>
-	<dd>吉良野すた</dd>
-    <dd> 2019-04-26 (Release 2019-04-26)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B07R6FTSMT</dd>
-  </dl>
-  <p class="description">私が今も Windows ユーザだったら間違いなく買ってた。いや，実際のところ秀丸は名作だと思う。私が Vz エディタから乗り換えるきっかけになったエディタだし。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-06-29">2019-06-29</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "B07R6FTSMT" %}} <!-- 執筆を効率化したい人のための秀丸エディタ実践入門 -->

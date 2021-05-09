@@ -213,15 +213,4 @@ $ mount ~/nas
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E3%80%90%E6%94%B9%E8%A8%82%E6%96%B0%E7%89%88%E3%80%91%E3%82%B5%E3%83%BC%E3%83%90%E6%A7%8B%E7%AF%89%E3%81%AE%E5%AE%9F%E4%BE%8B%E3%81%8C%E3%82%8F%E3%81%8B%E3%82%8BSamba%EF%BC%BB%E5%AE%9F%E8%B7%B5%EF%BC%BD%E5%85%A5%E9%96%80-%E9%AB%99%E6%A9%8B%E5%9F%BA%E4%BF%A1-ebook/dp/B01CXL8NL6?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01CXL8NL6"><img src="https://images-fe.ssl-images-amazon.com/images/I/51zK0JJz6ZL._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E3%80%90%E6%94%B9%E8%A8%82%E6%96%B0%E7%89%88%E3%80%91%E3%82%B5%E3%83%BC%E3%83%90%E6%A7%8B%E7%AF%89%E3%81%AE%E5%AE%9F%E4%BE%8B%E3%81%8C%E3%82%8F%E3%81%8B%E3%82%8BSamba%EF%BC%BB%E5%AE%9F%E8%B7%B5%EF%BC%BD%E5%85%A5%E9%96%80-%E9%AB%99%E6%A9%8B%E5%9F%BA%E4%BF%A1-ebook/dp/B01CXL8NL6?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01CXL8NL6">【改訂新版】サーバ構築の実例がわかるSamba［実践］入門</a></dt>
-	<dd>髙橋基信</dd>
-    <dd>技術評論社 2016-03-04 (Release 2016-03-04)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B01CXL8NL6</dd>
-  </dl>
-  <p class="description">Samba4/Windows10 対応。昔に比べたら Samba もずいぶん変わったんだねぇ。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2019-03-31">2019-03-31</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
+{{% review-paapi "B01CXL8NL6" %}} <!-- 【改訂新版】サーバ構築の実例がわかるSamba［実践］入門 -->

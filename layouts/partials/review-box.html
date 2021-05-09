@@ -6,7 +6,6 @@
     <dd>（初出: {{ .Book.FirstAppearance }}）</dd>{{ end }}{{ if .Book.Creators }}
     <dd>{{ range $i, $v := .Book.Creators }}{{ if ne $i 0 }}, {{ end }}{{ $v.Name }}{{ with $v.Role }} ({{ . }}){{ end }}{{ end }}</dd>{{ end }}
     <dd>{{ if .Book.Publisher }}{{ .Book.Publisher }}{{ end }}{{ if .Book.PublicationDate }} {{ .Book.PublicationDate }}{{ end }}{{ if .Book.LastRelease }} (Release {{ .Book.LastRelease }}){{ end }}</dd>
-    <dd class="type" style="display: none;">product</dd>
     <dd>{{ .Book.ProductType }}{{ if .Book.PublicDomain }} (Public Domain){{ end }}</dd>{{ if .Book.Codes }}
     <dd>{{ range $i, $v := .Book.Codes }}{{ if ne $i 0 }}, {{ end }}{{ $v.Value }} ({{ $v.Name }}){{ end }}</dd>{{ end }}{{ if gt .Rating 0 }}
     <dd>評価<abbr class="rating fa-sm" title="{{ .Rating }}">{{ range .Star }}&nbsp;{{ if . }}<i class="fas fa-star"></i>{{ else }}<i class="far fa-star"></i>{{ end }}{{ end }}</abbr></dd>{{ end }}

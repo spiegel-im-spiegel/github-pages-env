@@ -48,16 +48,4 @@ $M_p$ が素数なら $p$ も素数であるという面白い性質がある（
 
 ## 参考図書
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E6%95%B4%E6%95%B0%E3%81%A7%E9%81%8A%E3%81%BC%E3%81%86-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00L0PDMJ0?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00L0PDMJ0"><img src="https://images-fe.ssl-images-amazon.com/images/I/4186Q-UqrDL._SL160_.jpg" width="111" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E6%95%B4%E6%95%B0%E3%81%A7%E9%81%8A%E3%81%BC%E3%81%86-%E7%B5%90%E5%9F%8E-%E6%B5%A9-ebook/dp/B00L0PDMJ0?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00L0PDMJ0">数学ガールの秘密ノート／整数で遊ぼう</a></dt>
-	<dd>結城 浩</dd>
-    <dd>SBクリエイティブ 2013-12-17 (Release 2014-07-24)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00L0PDMJ0</dd>
-    <dd>評価<abbr class="rating fa-sm" title="5">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description"><a href='https://baldanders.info/blog/000670/'>小中学生にお薦め</a>。小学生高学年くらいならギリで理解可能と思われ。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2014-09-26">2014-09-26</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.0)</p>
-</div>
+{{% review-paapi "B00L0PDMJ0" %}} <!-- 数学ガールの秘密ノート／整数で遊ぼう -->

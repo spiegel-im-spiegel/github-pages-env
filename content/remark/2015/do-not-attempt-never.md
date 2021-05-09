@@ -1,23 +1,13 @@
 +++
 date = "2015-09-13T14:51:52+09:00"
-update = "2015-09-13T22:35:00+09:00"
 description = "タイトルから『子どもが体験するべき50の危険なこと』みたいなのを連想したのだけど，そうではなくて，科学史の trivial な話題を面白おかしく紹介する漫画らしい。"
 draft = false
 tags = ["book", "comic", "science"]
 title = "『決してマネしないでください』"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  medium = "@spiegel"
-  name = "Spiegel"
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 [Hugo] で HTML 構文混じりの Markdown を上手く処理できるか実験。
@@ -49,20 +39,7 @@ title = "『決してマネしないでください』"
 
 [Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
 
-<div class="hreview">
-  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/%E6%B1%BA%E3%81%97%E3%81%A6%E3%83%9E%E3%83%8D%E3%81%97%E3%81%AA%E3%81%84%E3%81%A7%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%A2%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E8%9B%87%E8%94%B5-ebook/dp/B00R2OALNI?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00R2OALNI"><img src="https://images-fe.ssl-images-amazon.com/images/I/51bOJrxKkwL._SL160_.jpg" width="113" alt="photo"></a></div>
-  <dl class="fn">
-    <dt><a href="https://www.amazon.co.jp/%E6%B1%BA%E3%81%97%E3%81%A6%E3%83%9E%E3%83%8D%E3%81%97%E3%81%AA%E3%81%84%E3%81%A7%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%EF%BC%88%EF%BC%91%EF%BC%89-%E3%83%A2%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9-%E8%9B%87%E8%94%B5-ebook/dp/B00R2OALNI?SubscriptionId=AKIAJYVUJ3DMTLAECTHA&tag=baldandersinf-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00R2OALNI">決してマネしないでください。（１） (モーニングコミックス)</a></dt>
-	<dd>蛇蔵</dd>
-    <dd>講談社 2014-12-22 (Release 2014-12-22)</dd>
-    <dd>eBooks Kindle版</dd>
-    <dd>ASIN: B00R2OALNI</dd>
-    <dd>評価<abbr class="rating fa-sm" title="3">&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="fas fa-star"></i>&nbsp;<i class="far fa-star"></i>&nbsp;<i class="far fa-star"></i></abbr></dd>
-  </dl>
-  <p class="description">科学史の trivial な話題を面白おかしく紹介する漫画，らしい。</p>
-  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="2015-09-13">2015-09-13</abbr> (powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> 0.2.1)</p>
-</div>
-
+{{% review-paapi "B00R2OALNI" %}} <!-- 決してマネしないでください。 -->
 {{% review-paapi "4873114985" %}} <!-- 子どもが体験するべき50の危険なこと -->
 {{% review-paapi "4588276484" %}} <!-- 闇をひらく光 -->
 {{% review-paapi "4875932685" %}} <!-- テスラ―発明的想像力の謎 -->
