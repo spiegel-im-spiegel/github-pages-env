@@ -22,7 +22,7 @@ tags        = [ "book", "artificial-intelligence", "singularity" ]
 
 『[そろそろ、人工知能の真実を話そう]』は8章からなる本文と東京大学名誉教授の西垣通さんによる解説で構成されているが，作者の主張は一貫していて
 
-{{< fig-quote  title="そろそろ、人工知能の真実を話そう" link="https://www.amazon.co.jp/exec/obidos/ASIN/B071FHBGW8/baldandersinf-22/" >}}
+{{< fig-quote  title="そろそろ、人工知能の真実を話そう" link="https://www.amazon.co.jp/dp/B071FHBGW8?tag=baldandersinf-22&LINKCODE=OGI&TH=1&PSC=1" >}}
 <q>シンギュラリティの提唱者が主張するような断絶が起こることを証明するものは何もない。
 おそらく、これからも進歩は加速し続け、その大きな渦でわれわれを飲みこもうとするだろう。
 しかし、その現実に目をふさいでしまうのではなく、行動することこそが求められている。</q>
@@ -53,7 +53,7 @@ tags        = [ "book", "artificial-intelligence", "singularity" ]
 
 ちなみに「シンギュラリティ仮説」とは以下のような内容である（「解説」より）。
 
-{{< fig-quote  title="そろそろ、人工知能の真実を話そう" link="https://www.amazon.co.jp/exec/obidos/ASIN/B071FHBGW8/baldandersinf-22/" >}}
+{{< fig-quote  title="そろそろ、人工知能の真実を話そう" link="https://www.amazon.co.jp/dp/B071FHBGW8?tag=baldandersinf-22&LINKCODE=OGI&TH=1&PSC=1" >}}
 <q>シンギュラリティ仮説とは、二〇四五年あたりに AI の能力が人間を凌ぎ、機械支配が進んで世界のありさまが大きく変容してしまうという予測だ。</q>
 {{< /fig-quote >}}
 
@@ -88,7 +88,7 @@ AI の能力が人間を凌ぐ2045年が「特異点」というわけだ。
 
 両者の違いは以下のようなものらしい。
 
-{{< fig-quote  title="そろそろ、人工知能の真実を話そう" link="https://www.amazon.co.jp/exec/obidos/ASIN/B071FHBGW8/baldandersinf-22/" >}}
+{{< fig-quote  title="そろそろ、人工知能の真実を話そう" link="https://www.amazon.co.jp/dp/B071FHBGW8?tag=baldandersinf-22&LINKCODE=OGI&TH=1&PSC=1" >}}
 <q>自立とは、仮想代理人ソフトウェアであるところのエージェントが自ら動き、誰の力も借りずに意思決定できることを言う。
 [...]
 一方、自律というのは哲学的な意味であり、自らが行動する際の基準と目的を明確を持ち、自ら規範を作り出すことができることをいう。</q>
@@ -96,7 +96,7 @@ AI の能力が人間を凌ぐ2045年が「特異点」というわけだ。
 
 この定義によれば，現在この世界に「自律機械」は存在しないし，現在の延長線上の未来においても「自律機械」は登場しそうもない。
 
-{{< fig-quote  title="そろそろ、人工知能の真実を話そう" link="https://www.amazon.co.jp/exec/obidos/ASIN/B071FHBGW8/baldandersinf-22/" >}}
+{{< fig-quote  title="そろそろ、人工知能の真実を話そう" link="https://www.amazon.co.jp/dp/B071FHBGW8?tag=baldandersinf-22&LINKCODE=OGI&TH=1&PSC=1" >}}
 <q>今、世の中で懸念されているのは、自立ではなく自律の方だが、学習能力を与えられ、自らのプログラムを改善できるようになっても、機械が自律することは考えられない。
 なぜなら、機械は結局、人間に与えられた理論やルールにのっとって行動することになるからである。</q>
 {{< /fig-quote >}}
@@ -107,7 +107,7 @@ AI の能力が人間を凌ぐ2045年が「特異点」というわけだ。
 
 「人工知能（artificial intelligence）」という言葉が登場したのは1955年のことらしい。
 
-{{< fig-quote  title="そろそろ、人工知能の真実を話そう" link="https://www.amazon.co.jp/exec/obidos/ASIN/B071FHBGW8/baldandersinf-22/" >}}
+{{< fig-quote  title="そろそろ、人工知能の真実を話そう" link="https://www.amazon.co.jp/dp/B071FHBGW8?tag=baldandersinf-22&LINKCODE=OGI&TH=1&PSC=1" >}}
 <q>若干はSFの世界に影響されていたかもしれないが、マッカーシーらの狙いは謙虚なものだった。
 創造主に成りかわるつもりはなく、人間のコピーや超人を創り出そうというのでもない。
 彼等の目的は、あくまでも実証的で現実的なものだった。
@@ -116,7 +116,7 @@ AI の能力が人間を凌ぐ2045年が「特異点」というわけだ。
 
 しかし，ここでも哲学者共が横槍を入れる。
 
-{{< fig-quote  title="そろそろ、人工知能の真実を話そう" link="https://www.amazon.co.jp/exec/obidos/ASIN/B071FHBGW8/baldandersinf-22/" >}}
+{{< fig-quote  title="そろそろ、人工知能の真実を話そう" link="https://www.amazon.co.jp/dp/B071FHBGW8?tag=baldandersinf-22&LINKCODE=OGI&TH=1&PSC=1" >}}
 <q>哲学者が問題にしたのは、実際に研究者やエンジニアが取り組んでいる研究活動というより、その向こうにある哲学的な思想だった。
 サールが強い人工知能という言葉を説明の道具として使ったのは、一九八〇年代の初頭だった。
 この強い人工知能こそが、先程定義した人工知能の仮像である。
@@ -141,7 +141,7 @@ AI の能力が人間を凌ぐ2045年が「特異点」というわけだ。
 
 これも『[そろそろ、人工知能の真実を話そう]』では重要な言葉である。
 
-{{< fig-quote  title="そろそろ、人工知能の真実を話そう" link="https://www.amazon.co.jp/exec/obidos/ASIN/B071FHBGW8/baldandersinf-22/" >}}
+{{< fig-quote  title="そろそろ、人工知能の真実を話そう" link="https://www.amazon.co.jp/dp/B071FHBGW8?tag=baldandersinf-22&LINKCODE=OGI&TH=1&PSC=1" >}}
 <q>近頃は、われわれを翻弄するような科学的な言い回しが非常に多く、未来に対して異なるアプローチをとる三つの概念がよく混同されている。すなわち、可能性（possibilité）、蓋然性（probabilité）、信憑性（plausibilité）―― この三つが区別されていないために混乱が生じているのである。</q>
 {{< /fig-quote >}}
 
@@ -154,7 +154,7 @@ plausibilité (plausibility) の意味を Google 先生に訊くと「{{< ruby "
 
 ただし，この本では「信憑性（plausibilité）」をそのような意味では使ってなくて，語源に近いニュアンスで
 
-{{< fig-quote  title="そろそろ、人工知能の真実を話そう" link="https://www.amazon.co.jp/exec/obidos/ASIN/B071FHBGW8/baldandersinf-22/" >}}
+{{< fig-quote  title="そろそろ、人工知能の真実を話そう" link="https://www.amazon.co.jp/dp/B071FHBGW8?tag=baldandersinf-22&LINKCODE=OGI&TH=1&PSC=1" >}}
 <q>つまりそれは一般受けが良く、多くの人が起こると思っているということだ。だが、実際には可能性も蓋然性も保証されていない。</q>
 {{< /fig-quote >}}
 
@@ -172,7 +172,7 @@ plausibilité (plausibility) の意味を Google 先生に訊くと「{{< ruby "
 たとえば，「強い人工知能」は「弱い人工知能（＝そもそもの意味での人工知能）」の仮像である，といった具合にだ。
 そして「シンギュラリティ仮説」を巡る言説を，仮像をキーワードにしてグノーシス主義と比較し，「シンギュラリティ仮説」の問題点を炙りだしている。
 
-{{< fig-quote  title="そろそろ、人工知能の真実を話そう" link="https://www.amazon.co.jp/exec/obidos/ASIN/B071FHBGW8/baldandersinf-22/" >}}
+{{< fig-quote  title="そろそろ、人工知能の真実を話そう" link="https://www.amazon.co.jp/dp/B071FHBGW8?tag=baldandersinf-22&LINKCODE=OGI&TH=1&PSC=1" >}}
 <q>結局、このシンギュラリティ自身も啓蒙主義におけるヒューマニズムの仮像なのだ。
 [...]
 啓蒙主義には、ヒューマニズムの名のもとに進歩を限りなく続けていこうという理想がある。
@@ -193,7 +193,7 @@ plausibilité (plausibility) の意味を Google 先生に訊くと「{{< ruby "
 前者については多くの（キリスト教圏外の）日本人は「ネタにマジレス（笑）」としか返せないだろう。
 解説で西垣通さんは
 
-{{< fig-quote  title="そろそろ、人工知能の真実を話そう" link="https://www.amazon.co.jp/exec/obidos/ASIN/B071FHBGW8/baldandersinf-22/" >}}
+{{< fig-quote  title="そろそろ、人工知能の真実を話そう" link="https://www.amazon.co.jp/dp/B071FHBGW8?tag=baldandersinf-22&LINKCODE=OGI&TH=1&PSC=1" >}}
 <q>AI と言えば、技術的改良と経済効果の話題だけ、あとはせいぜい幼稚な夢物語というのが、情けないことにこの国の常識だ。
 本書がそんな常識に衝撃を与えることを切に願う。</q>
 {{< /fig-quote >}}
@@ -244,7 +244,7 @@ Google が言う “don't be evil" も市場に対するメッセージである
     - [ネット広告から権力者による監視まで～AIのアルゴリズムが導くディストピアへの道 - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20180122/zeyneptufekci)
 - [ロボットの進化は「シンギュラリティ」の脅威をもたらさない。訪れるのは「マルチプリシティ」な未来だ｜WIRED.jp](https://wired.jp/2018/01/31/lets-talk-about-the-multiplicity/)
 
-[そろそろ、人工知能の真実を話そう]: https://www.amazon.co.jp/exec/obidos/ASIN/B071FHBGW8/baldandersinf-22/ "そろそろ、人工知能の真実を話そう (早川書房) | ジャン＝ガブリエル ガナシア, 小林 重裕・他, 伊藤 直子 | コンピュータサイエンス | Kindleストア | Amazon"
+[そろそろ、人工知能の真実を話そう]: https://www.amazon.co.jp/dp/B071FHBGW8?tag=baldandersinf-22&LINKCODE=OGI&TH=1&PSC=1 "そろそろ、人工知能の真実を話そう (早川書房) | ジャン＝ガブリエル ガナシア, 小林 重裕・他, 伊藤 直子 | コンピュータサイエンス | Kindleストア | Amazon"
 [ソーカル事件]: https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%BC%E3%82%AB%E3%83%AB%E4%BA%8B%E4%BB%B6 "ソーカル事件 - Wikipedia"
 [ムーアの法則]: https://ja.wikipedia.org/wiki/%E3%83%A0%E3%83%BC%E3%82%A2%E3%81%AE%E6%B3%95%E5%89%87 "ムーアの法則 - Wikipedia"
 [中国語の部屋]: https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E8%AA%9E%E3%81%AE%E9%83%A8%E5%B1%8B "中国語の部屋 - Wikipedia"
