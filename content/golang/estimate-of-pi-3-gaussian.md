@@ -299,6 +299,6 @@ standard deviation: 0.01654 (68.0%)
 
 ## 参考図書
 
-{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "B094PRR7PZ" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "B00I8AT1FO" %}} <!-- 数学ガール／乱択アルゴリズム -->
 {{% review-paapi "B01MSJMKMW" %}} <!-- 数学ガールの秘密ノート／やさしい統計 -->

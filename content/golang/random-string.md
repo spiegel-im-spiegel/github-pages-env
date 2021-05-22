@@ -345,6 +345,6 @@ ok      randstr    10.851s
 
 ## 参考図書
 
-{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "B094PRR7PZ" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "4908686033" %}} <!-- Goならわかるシステムプログラミング -->
 {{% review-paapi "B07VPSXF6N" %}} <!-- 改訂2版 みんなのGo言語 -->

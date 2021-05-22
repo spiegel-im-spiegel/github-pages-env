@@ -279,7 +279,7 @@ You shouldn't use it either.</q>
 
 ## 参考図書
 
-{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "B094PRR7PZ" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "B07VPSXF6N" %}} <!-- 改訂2版 みんなのGo言語 -->
 {{% review-paapi "B00L0PDMJ0" %}} <!-- 数学ガールの秘密ノート／整数で遊ぼう -->
 {{% review-paapi "B00I8AT1CM" %}} <!-- 数学ガール／フェルマーの最終定理 -->

@@ -329,4 +329,4 @@ $ go run sample/sample2d.go | jq .
 
 ## 参考図書
 
-{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "B094PRR7PZ" %}} <!-- プログラミング言語Go -->

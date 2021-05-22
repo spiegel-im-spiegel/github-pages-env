@@ -40,7 +40,7 @@ pageType = "text"
 
 ## 参考図書
 
-{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "B094PRR7PZ" %}} <!-- プログラミング言語Go -->
 
 {{% review-paapi "4873118468" %}} <!-- Go言語による並行処理 -->
 

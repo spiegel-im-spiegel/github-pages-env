@@ -126,6 +126,6 @@ tags = ["golang", "object-oriented", "java", "design", "refactoring", "generics"
 
 ## 参考図書
 
-{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "B094PRR7PZ" %}} <!-- プログラミング言語Go -->
 
 {{% review-paapi "B00I8AT1CM" %}} <!-- 数学ガール／フェルマーの最終定理 -->
