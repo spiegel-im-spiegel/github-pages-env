@@ -30,6 +30,7 @@ pageType = "text"
 - `width`: [全角・半角変換]({{< relref "#width" >}})
 - `kana`: [かなカナ変換]({{< relref "#kana" >}})
 - `base64`; [BASE64 符号化]({{< relref "#base64" >}})
+- `hash`; [Hash 符号化と検証]({{< relref "#hash" >}})
 - `remove-bom` : [BOM の除去]({{< relref "#remove-bom" >}})
 - `dump`: [16進ダンプ]({{< relref "#dump" >}})
 
@@ -325,6 +326,85 @@ Hello World
 ```
 
 これで `base64` や `openssl` コマンドがない環境でも大丈夫。
+
+## Hash 符号化と検証 {#hash}
+
+```text
+$ gnkf hash -h
+Print or check hash value.
+  Support algorithm:
+  MD5, SHA-1, SHA-224, SHA-256, SHA-384, SHA-512, SHA-512/224, SHA-512/256
+
+Usage:
+  gnkf hash [flags] [file]
+
+Aliases:
+  hash, h
+
+Flags:
+  -a, --algorithm string   hash algorithm (default "SHA-256")
+  -c, --check              don't fail or report status for missing files
+  -h, --help               help for hash
+      --ignore-missing     don't fail or report status for missing files (with check option)
+      --quiet              don't print OK for each successfully verified file (with check option)
+
+Global Flags:
+      --debug   for debug
+```
+
+ハッシュ関数を使ったデータの要約と検証。
+Linux 系の `sha256sum` コマンド等の代わりに使える。
+
+たとえば SHA-256 アルゴリズムでハッシュ値を取得するには
+
+```text
+$ echo Hello World | gnkf h
+d2a84f4b8b650937ec8f73cd8be2c74add5a911ba64df27458ed8229da804a26  -
+```
+
+という感じ。
+SHA-256 以外で，たとえば MD5 アルゴリズムを使いたい場合はアルゴリズムを指定して
+
+```text
+$ echo Hello World | gnkf h -a md5
+e59ff97941044f85df5297e1c302d260  -
+```
+
+などとする。
+ファイルを指定すると
+
+```text
+$ gnkf h gnkf_0.5.0_Linux_64bit.tar.gz 
+c64ef70a7ed23261b9ec9000e075ee7c6c441b604e00609b9d10078b123b7cb5  gnkf_0.5.0_Linux_64bit.tar.gz
+```
+
+といった感じに出力する。
+
+また
+
+```text
+$ cat gnkf_0.5.0_checksums.txt 
+01904595df1a438caac6bdecdfa7c9befb4aa43cdb246cbdfba7b7e3bb7153db  gnkf_0.5.0_Linux_ARMv6.tar.gz
+02e695cd16cc591eb8094c999ee326a6a15817f857596c6a644cecbb416c3d74  gnkf_0.5.0_Windows_64bit.zip
+322734ceb9e927503f620d9ed67fe1b1b0f8df3f09fca15b0d94786890ec07b6  gnkf_0.5.0_FreeBSD_64bit.tar.gz
+33d1d7ee4a6417e56ea76cf874b7175b6e5c47ba64216ba8f2f5f347a3bb635d  gnkf_0.5.0_FreeBSD_ARM64.tar.gz
+7df75e6d4b458017f4f05cd4ba7007a3852c9f95607c48d2848b383ff463d79f  gnkf_0.5.0_Windows_ARMv6.zip
+95528de1b027ac292faacca8d31ae13c7678d2dd15fda3f72744eccaa414dcd4  gnkf_0.5.0_macOS_ARM64.tar.gz
+9e32933a3f96bd31a5df80712589beeb37df7d5caa0d0d1de82a30660a816fd6  gnkf_0.5.0_FreeBSD_ARMv6.tar.gz
+b46912edf2de327ae2ecbc86d8d27f41a2be977da4adf4e3edbc37ae88d23cd3  gnkf_0.5.0_macOS_64bit.tar.gz
+c64ef70a7ed23261b9ec9000e075ee7c6c441b604e00609b9d10078b123b7cb5  gnkf_0.5.0_Linux_64bit.tar.gz
+dbaf68c77197780389b714a7fbbbe553874e9f733c5126c31737767d107e0835  gnkf_0.5.0_Linux_ARM64.tar.gz
+```
+
+などとハッシュ値の一覧が用意されている場合は `-c` オプションを使って
+
+```text
+$ gnkf h --ignore-missing -c gnkf_0.5.0_checksums.txt 
+gnkf_0.5.0_Linux_64bit.tar.gz: OK
+WARNING in 9 items: no such file or directory
+```
+
+とすればハッシュ値が正しいかどうか検証することができる。
 
 ## BOM の除去{#remove-bom}
 
