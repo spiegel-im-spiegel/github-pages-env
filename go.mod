@@ -24,6 +24,7 @@ require (
 	github.com/spiegel-im-spiegel/koyomi v0.1.6
 	github.com/spiegel-im-spiegel/logf v0.2.5
 	golang.org/x/text v0.3.5
+	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
 	gopkg.in/russross/blackfriday.v2 v2.1.0
 	rsc.io/quote v1.5.2
 )
