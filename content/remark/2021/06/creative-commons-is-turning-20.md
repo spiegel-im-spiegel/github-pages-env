@@ -1,11 +1,10 @@
 +++
 title = "Creative Commons 20周年だったよ #CCTurns20"
-date =  "2021-06-04T20:09:38+09:00"
+date =  "2021-06-04T21:44:47+09:00"
 description = "めでたい！"
 image = "/images/attention/cc-turns-20.png"
 tags = [ "creative-commons" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
