@@ -171,6 +171,20 @@ Hidden=true
 
 を追記するだけだが。
 
+{{< div-box type="markdown" >}}
+### 【2021-06-05 追記】 Ubuntu 21.04 の場合
+
+2021年4月にリリースされた Ubuntu 21.04 ではこの設定ではうまく行かないようだ（Wayland の問題？）。
+この場合，とりあえず応急措置として `.bashrc` ファイルで
+
+```bash
+export SSH_AUTH_SOCK="$(gpgconf --list-dirs agent-ssh-socket)"
+dbus-update-activation-environment --systemd SSH_AUTH_SOCK
+```
+
+と言った感じに環境変数 `SSH_AUTH_SOCK` を直接指定する（情報募集）。
+{{< /div-box >}}
+
 ### gpg-agent.conf の設定
 
 最後に `~/.gnupg/gpg-agent.conf` ファイルに以下の内容を書き込む。
