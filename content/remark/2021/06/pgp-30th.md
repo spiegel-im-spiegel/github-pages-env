@@ -1,11 +1,10 @@
 +++
 title = "PGP は30周年だった"
-date =  "2021-06-09T20:04:38+09:00"
+date =  "2021-06-09T20:10:47+09:00"
 description = "PGP の最初のバージョンがリリースされたのが1991年だから，そうか，そうだよな。"
-image = "/images/attention/kitten.jpg"
+image = "/images/attention/openpgp.png"
 tags = ["cryptography", "openpgp"]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
