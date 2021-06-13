@@ -14920,5 +14920,86 @@
       false
     ],
     "Description": "今まで使ってたのが十数年前に買ったカテゴリ5のケーブルだったので買い替えた。機器構成的にカテゴリ8までは要らないのだが「大は小を兼ねる」ということで。安かったし（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01G4JSTYO",
+      "Title": "サンワダイレクト シンプルワークデスク 幅140cm×奥行60cm 組立簡単 モニターアーム取付対応 パソコンデスク パソコン台 ホワイト 100-DESKF005",
+      "URL": "https://www.amazon.co.jp/dp/B01G4JSTYO?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/317gz7ifmzL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "オフィス用品",
+      "Publisher": "サンワダイレクト",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01G4JSTYO"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4969887184523"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-05-01",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "パソコン作業用のテーブルとして購入。モニタを複数置けるよう横幅が欲しかったので。あと，引き出しとか要らない（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08Q7TTY5Q",
+      "Title": "LifeFair オフィスチェア事務用椅子メッシュチェアー チェアー デスクチェア レスト 約90-120度リクライニング 通気 人間工学に基づいたメッシュの高さ調整可能な回転式ハイバック ロッキング メッシュ パソコンチェア",
+      "URL": "https://www.amazon.co.jp/dp/B08Q7TTY5Q?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41m1A5DfpPL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "LifeFair",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08Q7TTY5Q"
+        },
+        {
+          "Name": "EAN",
+          "Value": "6941481622708"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-05-01",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "今まで使ってた椅子が崩壊してしまったので仕方なく買い替え。"
   }
 ]

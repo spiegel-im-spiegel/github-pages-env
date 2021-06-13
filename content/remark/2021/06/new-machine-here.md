@@ -80,6 +80,6 @@ Total in 1385 ms
 {{% review-paapi "B07TS24BFM" %}} <!-- USB切替器 -->
 {{% review-paapi "B07H55YTSV" %}} <!-- 有線静音マウス -->
 {{% review-paapi "B086X5S1TG" %}} <!-- CAT8 LANケーブル -->
+{{% review-paapi "B08Q7TTY5Q" %}} <!-- 椅子 -->
+{{% review-paapi "B01G4JSTYO" %}} <!-- 机 -->
 {{% review-paapi "B07NDLJ6Q9" %}} <!-- テンキーレス キーボード -->
-
-<!-- eof -->
