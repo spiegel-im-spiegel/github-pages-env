@@ -46,7 +46,7 @@ OS は [Ubuntu 21.04 日本語 Remix](https://kledgeb.blogspot.com/2021/05/ubunt
 完全に移行が完了したら前のマシンは実験用（GnuPG 2.3 を試したりとか）に使うつもり。
 
 [Hugo] が速くなってありがたい。
-2Kページ以上フルビルドを2秒未満で処理できる。
+2Kページ以上フルビルドを2秒未満で処理できる（前のマシンは4秒以上かかっていた。筐体を赤く塗りたいw）。
 
 ```text
 Start building sites … 
