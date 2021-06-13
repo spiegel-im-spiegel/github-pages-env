@@ -14759,5 +14759,166 @@
       true
     ],
     "Description": "Kindle 版出た！ 一部内容が古びてしまったが，この本は Go 言語の教科書と言ってもいいだろう。感想は\u003ca href=\"/remark/2016/07/go-programming-language/\" \u003eこちら\u003c/a\u003e。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07H55YTSV",
+      "Title": "Logicool ロジクール M110sBK 有線 静音 マウス 小型 左右対称型 USB 簡単接続 M110s ブラック 国内正規品 3年間無償保証",
+      "URL": "https://www.amazon.co.jp/dp/B07H55YTSV?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31OueSoDI5L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "Personal Computers",
+      "Publisher": "Logicool(ロジクール)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07H55YTSV"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4943765048428"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2018-09-13",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-06-13",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "今までは無線マウスを使っていたが USB 切替器との相性を憂慮して有線のものに買い替えた。静音タイプは感触がくねくねして気持ち悪い，という評価があるみたいだが，個人的には気にならないので無問題。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07TS24BFM",
+      "Title": "USB切替器 Anikks USB3.0 高速転送 USB 切り替え PC2台用 セレクター スイッチ プリンタ マウス ハブ キーボード切替機 usb 切替 手動 1.5mUSBケーブルx2附属 （パソコン2：USB機器4）",
+      "URL": "https://www.amazon.co.jp/dp/B07TS24BFM?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41zPKOVV1KL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "Anikks",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07TS24BFM"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-06-13",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "2台持ちになったのでキーボードとマウスの切り替え用に購入。 Bluetooth マウスだとうまく切り替えできないらしい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B087745J5B",
+      "Title": "エレコム 電源タップ 雷ガード 10個口 ほこりシャッター付 固定\u0026吊下可能な回転パーツ付き 1m ブラック ECT-0101BK",
+      "URL": "https://www.amazon.co.jp/dp/B087745J5B?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/315TtRYTRJL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "エレコム",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B087745J5B"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4549550162593"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2020-05-20",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-06-13",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "電源コンセントの数が足りなくなったので。この手の雷ガードでは，建物直撃だとあまり効果はないらしいけど，神社のお守りみたいなものだと思えば（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B086X5S1TG",
+      "Title": "Jeavdarn CAT8 LANケーブル カテゴリー8 インターネット 40Gbps 2000MHz 超高速 イーサネットケーブル 金メッキ 多重シールド RJ45 コネクタ 爪折れ防止 PS4 Switch PC Wifi Ipv6等に対応 1m ホワイト",
+      "URL": "https://www.amazon.co.jp/dp/B086X5S1TG?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41BHi8gL6QL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B086X5S1TG"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0738627131554"
+        },
+        {
+          "Name": "UPC",
+          "Value": "738627131554"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-06-13",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "今まで使ってたのが十数年前に買ったカテゴリ5のケーブルだったので買い替えた。機器構成的にカテゴリ8までは要らないのだが「大は小を兼ねる」ということで。安かったし（笑）"
   }
 ]
