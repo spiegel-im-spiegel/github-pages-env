@@ -45,3 +45,5 @@ pageType = "text"
 - [Ankerが小型AC充電器の新世代モデル「Nano II」シリーズ発表、USB-C端子1ポート設計で30W・45W・65Wの3種類  |  TechCrunch Japan](https://jp.techcrunch.com/2021/05/25/anker-gan-ii-nano-ii/)
 - [QUIC is now RFC 9000 | Fastly](https://www.fastly.com/blog/quic-is-now-rfc-9000)
   - [RFC 9000: QUIC: A UDP-Based Multiplexed and Secure Transport](https://www.rfc-editor.org/rfc/rfc9000.html)
+  - [HTTP/3の基盤となる「QUICプロトコル」の標準化プロセスが完了、IETFの「RFC 9000」として － Publickey](https://www.publickey1.jp/blog/21/http3quicietfrfc_9000.html)
+  - [Google生まれの次世代通信プロトコル「QUIC」をインターネット技術の標準化団体IETFがRFC 9000として承認  |  TechCrunch Japan](https://jp.techcrunch.com/2021/06/02/quic-ietf-rfc-9000-http-3/)

@@ -131,7 +131,7 @@ image = "/images/attention/go-logo_blue.png"
 - [Dive deep into Go 1.15 changes to testing package - Speaker Deck](https://speakerdeck.com/hgsgtk/dive-deep-into-go-1-dot-15-changes-to-testing-package)
 - [Go1.15 からのreflectパッケージの挙動の違いについて - 一寸先は/dev/null](https://nokute.hatenablog.com/entry/2020/08/14/112132)
 
-### Go 1.16 RC1
+### Go 1.16 is released
 
 - [Go 1.16 Release Candidate 1 is released](https://groups.google.com/g/golang-announce/c/U_FUHY4wuSc/m/3_Vw3oqpAgAJ)
 - [Go 1.16 Release Notes - The Go Programming Language](https://tip.golang.org/doc/go1.16) : ドラフト版
@@ -140,6 +140,10 @@ image = "/images/attention/go-logo_blue.png"
 - [Working with Embed in Go 1.16 Version](https://lakefs.io/working-with-embed-in-go/)
 - [Go1.16からの go get と go install について - Qiita](https://qiita.com/eihigh/items/9fe52804610a8c4b7e41)
 - [go:embed 詳解 - 使用編 -](https://zenn.dev/koya_iwamura/articles/53a4469271022e)
+
+### Go 1.17 beta
+
+- [Go 1.17 Release Notes - The Go Programming Language](https://tip.golang.org/doc/go1.17)
 
 ### Go 2 Draft
 
