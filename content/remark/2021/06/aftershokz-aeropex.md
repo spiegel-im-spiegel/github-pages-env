@@ -18,7 +18,9 @@ pageType = "text"
 
 なんて記事を見たら買うぢゃん，ふつう（←他人のせいにしている）
 
-というわけでポチりましたよ， [AfterShokz Aeropex] のほう。
+というわけでポチりましたよ， [AfterShokz Aeropex] のほう[^as1]。
+
+[^as1]: 本当は [OpenComm](https://www.amazon.co.jp/dp/B08LCVD66W?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1) のほうが欲しかったんだけど，既にセールが終わってたのよ。しょうがないので[廉価版](https://www.amazon.co.jp/dp/B08CKGR7NN?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)買うかとポチる5秒前だったんだけど，2万円のヘッドセットなんかこういう機会でもないと絶対買わないだろうと思い直して[フラグシップ・モデル][AfterShokz Aeropex]を発注したのだった。「ついカッとなってやった」というやつである（笑） 反省はしない。
 
 {{< fig-img src="./51267549066_3fcb3ca486_e.jpg" title="Amazon Prime Day 2021 戦利品キタ！" link="https://www.flickr.com/photos/spiegel/51267549066/" >}}
 
