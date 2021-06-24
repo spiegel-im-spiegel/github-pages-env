@@ -22,8 +22,8 @@ pageType = "text"
 
 {{< fig-img src="./51267549066_3fcb3ca486_e.jpg" title="Amazon Prime Day 2021 戦利品キタ！" link="https://www.flickr.com/photos/spiegel/51267549066/" >}}
 
-流石，お高いだけあって USB 充電コネクタもちゃんとしてるね。
-ちゃんと防水仕様。
+流石，お高いだけあって USB 充電コネクタもちゃんとしてる。
+防水仕様。
 
 {{< fig-img src="./51266839622_3ddfac50a4_e.2.jpg" title="充電用 USB コネクタ" link="https://www.flickr.com/photos/spiegel/51266839622/" >}}
 
@@ -34,6 +34,9 @@ pageType = "text"
 頭によくフィットするが締めつけ感はなし。
 適切な音量なら音漏れは気にしなくていいだろう。
 耳が自由って素晴らしい！ 明日からこれ付けて通勤時ヘヴィローテーションで聴きまくるぞ。
+
+電源入れたら日本語のアナウンスが流れて驚いた。
+出荷先の国ごとに言語を変えてるのか？ 凄いな。
 
 音質はお値段なり，かな。
 比較対象が[2年前に買ったやつ]({{< ref "/remark/2019/10/15th-anniversary-of-baldandersinfo.md" >}} "Baldanders.info 開設15周年記念に骨伝導スピーカーを買うたった！")で，それよりはだいぶマシって程度だけど。
