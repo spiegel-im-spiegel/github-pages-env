@@ -1,11 +1,14 @@
 #!/bin/sh
-sleep 1;cat B01G4JSTYO.html | books-data review -t review-book.html -a B01G4JSTYO -r 4 --review-date 2021-05-01 --pipe
-sleep 1;cat B08Q7TTY5Q.html | books-data review -t review-book.html -a B08Q7TTY5Q -r 4 --review-date 2021-05-01 --pipe
-sleep 1;cat B086X5S1TG.html | books-data review -t review-book.html -a B086X5S1TG -r 4 --review-date 2021-06-13 --pipe
-sleep 1;cat B07H55YTSV.html | books-data review -t review-book.html -a B07H55YTSV -r 4 --review-date 2021-06-13 --pipe
-sleep 1;cat B07TS24BFM.html | books-data review -t review-book.html -a B07TS24BFM -r 4 --review-date 2021-06-13 --pipe
-sleep 1;cat B087745J5B.html | books-data review -t review-book.html -a B087745J5B -r 4 --review-date 2021-06-13 --pipe
+sleep 1;cat B08XQGKL6G.html | books-data review -t review-book.html -a B08XQGKL6G -r 4 --review-date 2021-06-24 --pipe
+sleep 1;cat B07YKCY9QD.html | books-data review -t review-book.html -a B07YKCY9QD -r 3 --review-date 2020-06-28 --pipe
+sleep 1;cat B07RRQ59JR.html | books-data review -t review-book.html -a B07RRQ59JR -r 4 --review-date 2021-06-24 --pipe
 # ---
+# sleep 1;cat ./done/B01G4JSTYO.html | books-data review -t review-book.html -a B01G4JSTYO -r 4 --review-date 2021-05-01 --pipe
+# sleep 1;cat ./done/B08Q7TTY5Q.html | books-data review -t review-book.html -a B08Q7TTY5Q -r 4 --review-date 2021-05-01 --pipe
+# sleep 1;cat ./done/B086X5S1TG.html | books-data review -t review-book.html -a B086X5S1TG -r 4 --review-date 2021-06-13 --pipe
+# sleep 1;cat ./done/B07H55YTSV.html | books-data review -t review-book.html -a B07H55YTSV -r 4 --review-date 2021-06-13 --pipe
+# sleep 1;cat ./done/B07TS24BFM.html | books-data review -t review-book.html -a B07TS24BFM -r 4 --review-date 2021-06-13 --pipe
+# sleep 1;cat ./done/B087745J5B.html | books-data review -t review-book.html -a B087745J5B -r 4 --review-date 2021-06-13 --pipe
 # sleep 1;cat ./done/4908686033.html | books-data review -t review-book.html -a 4908686033 -r 4 --review-date 2018-10-19 --pipe
 # sleep 1;cat ./done/B094PRR7PZ.html | books-data review -t review-book.html -a B094PRR7PZ -r 5 --review-date 2021-05-22 --pipe
 # sleep 1;cat ./done/B07R6FTSMT.html | books-data review -t review-book.html -a B07R6FTSMT -r 0 --review-date 2019-06-29 --pipe

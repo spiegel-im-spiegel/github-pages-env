@@ -15001,5 +15001,137 @@
       false
     ],
     "Description": "今まで使ってた椅子が崩壊してしまったので仕方なく買い替え。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07RRQ59JR",
+      "Title": "AfterShokz Aeropex 骨伝導ワイヤレスヘッドホン 防水bluetooth5.0 コズミックブラック",
+      "URL": "https://www.amazon.co.jp/dp/B07RRQ59JR?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31YExwH3AVL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "SHENZHEN VOXTECH CO.,LTD",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07RRQ59JR"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0811071032209"
+        },
+        {
+          "Name": "UPC",
+          "Value": "811071032209"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-06-24",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "Amazon Prime Day にそそのかされて買った。反省はしない。値段並みの音質はある，と思う。耳が自由って素晴らしい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07YKCY9QD",
+      "Title": "NIANYISO ランニングポーチ ペットボトル ホルダー付き ウエストポーチ ウォーキングバッグ ジョギングポーチ 登山 遠足 サイクリング 夜間ウォーキング 6.5インチまでのスマホ対応 軽量 収納伸縮可能 装着感抜群 男女兼用 (1.ブラック) YS20",
+      "URL": "https://www.amazon.co.jp/dp/B07YKCY9QD?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51lApMH-T6L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "NIANYISO",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07YKCY9QD"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0781621441730"
+        },
+        {
+          "Name": "UPC",
+          "Value": "781621441730"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-06-28",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "ハロワ通いの頃に外出料に購入。割と重宝している。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08XQGKL6G",
+      "Title": "ぐだふわエブリデー",
+      "URL": "https://www.amazon.co.jp/dp/B08XQGKL6G?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51kRSsCFTwL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "悠木碧",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Nippon Columbia Co., Ltd.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08XQGKL6G"
+        }
+      ],
+      "PublicationDate": "2021-04-07",
+      "LastRelease": "2021-04-07",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-06-24",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "夢のぐだふわ生活！"
   }
 ]
