@@ -1,7 +1,7 @@
 +++
 title = "2021-06-27 のブックマーク"
-date =  "2021-06-27T09:18:18+09:00"
-description = "「XXX」他"
+date =  "2021-06-27T09:54:37+09:00"
+description = "「ODF 1.3 is an OASIS Standard」他"
 image = "/images/attention/bookmarks.jpg"
 pageType = "text"
 
