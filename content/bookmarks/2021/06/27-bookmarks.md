@@ -46,6 +46,7 @@ pageType = "text"
 
 - [Microsoft、「PowerShell 7.1」を一般公開 ～Windows 10なら“Microsoft Store”から入手可能 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1289132.html)
   - [「PowerShell 7.2」は「Microsoft Update」経由でアップデート可能に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1332429.html)
+- [Microsoft Teams 2.0 will use half the memory, dropping Electron for Edge Webview2 – Tom Talks](https://tomtalks.blog/2021/06/microsoft-teams-2-0-will-use-half-the-memory-dropping-electron-for-edge-webview2/)
 
 ## Go 言語関連
 
