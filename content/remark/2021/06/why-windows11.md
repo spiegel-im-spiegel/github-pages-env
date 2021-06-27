@@ -20,7 +20,7 @@ pageType = "text"
 ...気を取り直して。
 
 ビル・ゲイツ氏が引退してからかなりまともになった Microsoft だが，どうにも Windows に関しては「やらかす」度合いが酷い気がする。
-というわけで，2021年に Windows 11 を出すとか何とか。
+というわけで，2021年内に Windows 11 を出すとか何とか。
 **最後の** Windows だったはずの 10 は2025年でサポートが切れるとか何とか。
 
 自宅マシンはとっくに [Ubuntu に換装済み]({{< ref "/remark/2019/04/hello-ubuntu.md" >}} "Windows とともに平成は去り Ubuntu とともに令和を迎える")なので Windows がどうなろうと知ったことではないのだが，職場のマシンや関わってるプロジェクトのシステム要件を見直す必要があるのは面倒な話である。
@@ -73,7 +73,7 @@ AMD Ryzen シリーズは “AMD Memory Guard” としてチップレベルで�
 
 ## アプリケーション
 
-アプリケーションについて：
+標準で入るアプリケーションはかなり淘汰されるようだ。
 
 {{< fig-quote type="markdown" title="「Windows 11」で廃止されるアプリや機能--「Cortana」も姿を消すことに - ZDNet Japan" link="https://japan.zdnet.com/article/35172927/" >}}
 - 管理者と一般ユーザーの両方が、Windows Store以外からアプリケーションをインストールできないようにしたり、多くのWindows管理ツールをブロックしたりする「Sモード」機能は、Windows 11のHomeエディションでしか利用できなくなる。
@@ -81,7 +81,7 @@ AMD Ryzen シリーズは “AMD Memory Guard” としてチップレベルで�
  - 「Cortana」にも別れを告げることになる。かつては「Siri」と「Alexa」をライバル視していたCortanaだが、もはや初回起動時に音声案内が流れることもなければ、タスクバーにアイコンがピン留めされることもない。
 {{< /fig-quote >}}
 
-Cortana 要らんよねぇ。
+[Cortana は要らん]({{< ref "/remark/2020/10/stop-cortana-kun.md" >}} "ストップ!! Cortana 君！")よねぇ。
 職場で Windows 10 機を支給されたときに真っ先に潰したし（笑）
 
 他に削除・制限される機能は以下の通り（「[次期OS「Windows 11」は「Internet Explorer」無効 ～廃止・削除される機能が案内 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1333959.html)」より抜粋）。
@@ -117,6 +117,7 @@ Cortana 要らんよねぇ。
 
 ## ブックマーク
 
+- [Windows 11 の仕様 - Microsoft](https://www.microsoft.com/ja-jp/windows/windows-11-specifications)
 - [Windows 11発表。年内提供予定でWindows 10からは無償アップグレード  - PC Watch](https://pc.watch.impress.co.jp/docs/news/1333729.html)
 - [「Windows 11」は32bit CPUをサポートせず ～セキュアブート、TPM 2.0も必須に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1333957.html)
 - [マイクロソフトがWindows 11を正式発表、アマゾンと驚きの提携でAndroidアプリも利用可能に、年末商戦までに一般発売  |  TechCrunch Japan](https://jp.techcrunch.com/2021/06/25/2021-06-24-microsoft-announces-windows-11-generally-available-by-the-holidays/)
@@ -128,6 +129,8 @@ Cortana 要らんよねぇ。
 - [［速報］マイクロソフト、Windows 11を発表。UIを洗練、Windows Updateは40％小さく、マルチモニタ環境が便利に － Publickey](https://www.publickey1.jp/blog/21/windows_11uiwindows_update40.html)
 - [［速報］Windows 11でAndroidアプリが実行可能に、マイクロソフトが発表 － Publickey](https://www.publickey1.jp/blog/21/windows_11android.html)
 - [自作AMD RyzenマシンでTPMは利用できるのか  |  ちりつもノート](https://chiritsumon.net/contents/archives/22)
+- [「Windows Subsystem for Android」に言及--「Windows 11」の「Android」アプリ対応 - ZDNet Japan](https://japan.zdnet.com/article/35172926/)
+- [Windows 11のアプリ配信の仕組みから、マイクロソフトの「大きな変化」が見えてくる | WIRED.jp](https://wired.jp/2021/06/26/microsoft-windows-11-app-store-android/)
 
 ## 参考図書
 
