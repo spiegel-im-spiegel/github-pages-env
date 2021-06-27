@@ -71,6 +71,12 @@ AMD Ryzen シリーズは “AMD Memory Guard” としてチップレベルで�
 
 うんうん。
 
+{{< fig-quote type="markdown" title="【特集】Windows 11で必須になった「TPM 2.0」って何？TPMの役割や確認方法を紹介 - PC Watch" link="https://pc.watch.impress.co.jp/docs/topic/feature/1334277.html" >}}
+{{% quote %}}Ryzenの場合、CPUを交換するとTPMのデータも置き換わる(CPUのSoCにTPMが搭載されているため)。Windows 11導入の際に、CPU交換なども考えている場合は、鍵の扱いに注意が必要だ。BitLockerなどはあらかじめ解除してからCPUを交換しないと起動できなくなる可能性がある{{% /quote %}}
+{{< /fig-quote >}}
+
+ふむふむ。
+
 ## アプリケーション
 
 標準で入るアプリケーションはかなり淘汰されるようだ。
@@ -131,6 +137,8 @@ AMD Ryzen シリーズは “AMD Memory Guard” としてチップレベルで�
 - [自作AMD RyzenマシンでTPMは利用できるのか  |  ちりつもノート](https://chiritsumon.net/contents/archives/22)
 - [「Windows Subsystem for Android」に言及--「Windows 11」の「Android」アプリ対応 - ZDNet Japan](https://japan.zdnet.com/article/35172926/)
 - [Windows 11のアプリ配信の仕組みから、マイクロソフトの「大きな変化」が見えてくる | WIRED.jp](https://wired.jp/2021/06/26/microsoft-windows-11-app-store-android/)
+- [【特集】Windows 11で必須になった「TPM 2.0」って何？TPMの役割や確認方法を紹介  - PC Watch](https://pc.watch.impress.co.jp/docs/topic/feature/1334277.html)
+- [GitHub - rcmaehl/WhyNotWin11: Detection Script to help identify why your PC isn't Windows 11 ready](https://github.com/rcmaehl/WhyNotWin11)
 
 ## 参考図書
 
