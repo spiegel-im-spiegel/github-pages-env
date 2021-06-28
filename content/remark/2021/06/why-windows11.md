@@ -36,7 +36,7 @@ pageType = "text"
 
 今ある 32bit 機は4年以内に引退させ，物理的にオフラインにしてソリティア専用機として余生を送らせるのがいいだろう。
 
-その他の要件は以下の通り。
+その他の要件は以下の通り[^soc1]。
 
 {{< fig-quote class="nobox" type="markdown" title="「Windows 11」は32bit CPUをサポートせず ～セキュアブート、TPM 2.0も必須に - 窓の杜" link="https://forest.watch.impress.co.jp/docs/news/1333957.html" >}}
 |                      | Windows 11                            | Windows 10                   |
@@ -47,6 +47,8 @@ pageType = "text"
 | グラフィックスカード | DirectX 12以降（WDDM 2.0）            | DirectX 9以降（WDDM 1.0）    |
 | ディスプレイ         | 対角9インチ以上、<br>8bitカラー、720p     | 800x600                      |
 {{< /fig-quote >}}
+
+[^soc1]: SoC は “System on a Chip” の略。 CPU や GPU あるいはメモリやモデムといった機能をワンチップに組み込んだ構成を指すらしい。
 
 64bit アーキテクチャでシングルコアってことはないだろうから，プロセッサ要件はいいか。
 古いミニノートだとディスプレイ要件を満たさないのか？
@@ -71,11 +73,37 @@ AMD Ryzen シリーズは “AMD Memory Guard” としてチップレベルで�
 
 うんうん。
 
+### TPM の確認
+
+私の周辺の反応を見ると TPM 2.0 未対応で非互換と判定されることが多いらしい。
+
+Windows 環境で TPM 対応の有無をチェックするには [`tpm.msc` を起動](https://www.nextofwindows.com/do-i-have-tpm-2-0-on-my-computer-to-run-windows-11 "Do I Have TPM 2.0 on My Computer to Run Windows 11? - NEXTOFWINDOWS.COM")するといいようだ。
+TPM に対応していないマシンでは「互換性のある TPM が見つかりません」とか表示される。
+
+Linux 環境で確認する場合は，カーネル等の構成によると思うが，たとえば
+
+```text
+$ sudo dmesg | grep -i tpm
+[    0.004558] ACPI: Reserving TPM2 table memory at [mem 0xba8c4000-0xba8c404b]
+```
+
+てな感じにカーネル起動時のメッセージログから調べることもできる。
+
+SoC に組み込まれている fTPM の場合は，取り扱いに若干の注意が必要らしい。
+
 {{< fig-quote type="markdown" title="【特集】Windows 11で必須になった「TPM 2.0」って何？TPMの役割や確認方法を紹介 - PC Watch" link="https://pc.watch.impress.co.jp/docs/topic/feature/1334277.html" >}}
 {{% quote %}}Ryzenの場合、CPUを交換するとTPMのデータも置き換わる(CPUのSoCにTPMが搭載されているため)。Windows 11導入の際に、CPU交換なども考えている場合は、鍵の扱いに注意が必要だ。BitLockerなどはあらかじめ解除してからCPUを交換しないと起動できなくなる可能性がある{{% /quote %}}
 {{< /fig-quote >}}
 
 ふむふむ。
+
+### ファームウェアに関するブックマーク
+
+- [TPM 2.0 Library | Trusted Computing Group](https://trustedcomputinggroup.org/resource/tpm-library-specification/)
+- [Windows での TPM の使われ方 - Microsoft 365 Security | Microsoft Docs](https://docs.microsoft.com/ja-jp/windows/security/information-protection/tpm/how-windows-uses-the-tpm)
+- [セキュリティ プロセッサ (TPM) ファームウェアを更新する](https://support.microsoft.com/ja-jp/windows/-94205cbc-a492-8d79-cc55-1ecd6b0a8022)
+- [【特集】Windows 11で必須になった「TPM 2.0」って何？TPMの役割や確認方法を紹介  - PC Watch](https://pc.watch.impress.co.jp/docs/topic/feature/1334277.html)
+- [UEFI/GPT ベースのハード ドライブ パーティション | Microsoft Docs](https://docs.microsoft.com/ja-jp/windows-hardware/manufacture/desktop/configure-uefigpt-based-hard-drive-partitions) : 実は GPT (GUID Partition Table) によるストレージのパーティション管理が隠し要件になっているらしい。旧来の MBR で構成している Windows 環境に対してアップグレードしようとすると NG になるかもしれない
 
 ## アプリケーション
 
@@ -123,6 +151,7 @@ AMD Ryzen シリーズは “AMD Memory Guard” としてチップレベルで�
 
 ## ブックマーク
 
+- [新しい Windows 11 OS へのアップグレード | Microsoft](https://www.microsoft.com/ja-jp/windows/windows-11)
 - [Windows 11 の仕様 - Microsoft](https://www.microsoft.com/ja-jp/windows/windows-11-specifications)
 - [Windows 11発表。年内提供予定でWindows 10からは無償アップグレード  - PC Watch](https://pc.watch.impress.co.jp/docs/news/1333729.html)
 - [「Windows 11」は32bit CPUをサポートせず ～セキュアブート、TPM 2.0も必須に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1333957.html)
@@ -137,8 +166,7 @@ AMD Ryzen シリーズは “AMD Memory Guard” としてチップレベルで�
 - [自作AMD RyzenマシンでTPMは利用できるのか  |  ちりつもノート](https://chiritsumon.net/contents/archives/22)
 - [「Windows Subsystem for Android」に言及--「Windows 11」の「Android」アプリ対応 - ZDNet Japan](https://japan.zdnet.com/article/35172926/)
 - [Windows 11のアプリ配信の仕組みから、マイクロソフトの「大きな変化」が見えてくる | WIRED.jp](https://wired.jp/2021/06/26/microsoft-windows-11-app-store-android/)
-- [【特集】Windows 11で必須になった「TPM 2.0」って何？TPMの役割や確認方法を紹介  - PC Watch](https://pc.watch.impress.co.jp/docs/topic/feature/1334277.html)
-- [GitHub - rcmaehl/WhyNotWin11: Detection Script to help identify why your PC isn't Windows 11 ready](https://github.com/rcmaehl/WhyNotWin11)
+- [GitHub - rcmaehl/WhyNotWin11: Detection Script to help identify why your PC isn't Windows 11 ready](https://github.com/rcmaehl/WhyNotWin11) : 対応度合いを詳しく表示してくれるのでベンチだが，実行にはデバイスへのアクセス権限が必要。ご利用は自己責任で
 
 ## 参考図書
 

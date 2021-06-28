@@ -11,6 +11,7 @@
 
 ## セキュリティ＆プライバシー関連
 
+- [ATMにスマートフォンをかざすだけでハッキング？ NFCに見つかった脆弱性の深刻度 | WIRED.jp](https://wired.jp/2021/06/27/atm-hack-nfc-bugs-point-of-sale/)
 
 ## 天文関連
 
@@ -20,9 +21,11 @@
 
 ## Linux または Ubuntu に関する話題
 
+- [LinuxでTPM2.0を使う - Qiita](https://qiita.com/mune10/items/cf45a296193bb78f5c5b)
 
 ## Windows に関する話題
 
+- [今すぐアンインストールするべきWindowsのプログラム12選 | ギズモード・ジャパン](https://www.lifehacker.jp/2021/03/231356tag10-windows-programs-uninstall.html) : Windows で QuickTime 使うとるやつは流石におらんやろ（笑）
 
 ## Go 言語関連
 
