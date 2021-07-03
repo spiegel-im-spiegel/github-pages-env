@@ -167,6 +167,12 @@ SoC に組み込まれている fTPM の場合は，取り扱いに若干の注�
 - [「Windows Subsystem for Android」に言及--「Windows 11」の「Android」アプリ対応 - ZDNet Japan](https://japan.zdnet.com/article/35172926/)
 - [Windows 11のアプリ配信の仕組みから、マイクロソフトの「大きな変化」が見えてくる | WIRED.jp](https://wired.jp/2021/06/26/microsoft-windows-11-app-store-android/)
 - [GitHub - rcmaehl/WhyNotWin11: Detection Script to help identify why your PC isn't Windows 11 ready](https://github.com/rcmaehl/WhyNotWin11) : 対応度合いを詳しく表示してくれるのでベンチだが，実行にはデバイスへのアクセス権限が必要。ご利用は自己責任で
+  - [「Windows 11」へアップグレードできない理由を親切に教えてくれる「WhyNotWin11」【レビュー】 - 窓の杜](https://forest.watch.impress.co.jp/docs/review/1334420.html)
+- [GitHub - builtbybel/ReadySunValley: Ready for Windows11/Sun Valley update?](https://github.com/builtbybel/ReadySunValley) : コマンドライン版。実行にはデバイスへのアクセス権限が必要。ご利用は自己責任で
+  - [Check with the ReadySunValley app if your device works with Windows11/Sun Valley update | built by Bel ❤︎](https://www.builtbybel.com/blog/19-apps/41-check-with-the-readysunvalley-app-if-your-device-works-with-windows11-sun-valley-update)
+  - [「Windows 11」へ更新できない原因の調査ツール「ReadySunValley」 ～親切なUIが魅力【レビュー】 - 窓の杜](https://forest.watch.impress.co.jp/docs/review/1335219.html)
+- [Microsoftが「Windows 11」のシステム要件を見直しへ ～「PC 正常性チェック」ツールはいったん撤回 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1334623.html)
+- [ARMネイティブの速度とx64相互運用を両立 ～Microsoft、「ARM64EC」を発表 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1334821.html)
 
 ## 参考図書
 
