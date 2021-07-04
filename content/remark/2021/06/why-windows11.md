@@ -149,6 +149,29 @@ SoC に組み込まれている fTPM の場合は，取り扱いに若干の注�
 
 [^mt1]: Microsoft Teams は[個人で無料アカウントを取れる](https://www.publickey1.jp/blog/21/microsoft_teamstodo30024.html "Microsoft Teamsの個人向け無償提供が正式にスタート。友人や家族とのチャット、ToDoリストの共有、当面は300人24時間まで無料のビデオ会議など提供 － Publickey")ようになった。
 
+## 【2021-07-04 追記】 「第8世代プロセッサ」が前提？
+
+2021-06-28 の Microsoft のブログでシステム要件の前提として以下の3つの原則を挙げている。
+
+{{< fig-quote type="markdown" title="Update on Windows 11 minimum system requirements | Windows Insider Blog" link="https://blogs.windows.com/windows-insider/2021/06/28/update-on-windows-11-minimum-system-requirements/" lang="en" >}}
+1. Security. Windows 11 raises the bar for security by requiring hardware that can enable protections like Windows Hello, Device Encryption, virtualization-based security (VBS), hypervisor-protected code integrity (HVCI) and Secure Boot. The combination of these features has been shown to [reduce malware by 60%](https://www.microsoft.com/security/blog/2021/01/11/new-surface-pcs-enable-virtualization-based-security-vbs-by-default-to-empower-customers-to-do-more-securely/) on tested devices. To meet the principle, all Windows 11 supported CPUs have an embedded TPM, support secure boot, and support VBS and specific [VBS capabilities](https://techcommunity.microsoft.com/t5/virtualization/virtualization-based-security-enabled-by-default/ba-p/890167).
+2. Reliability. Devices upgraded to Windows 11 will be in a supported and reliable state. By choosing CPUs that have adopted the new [Windows Driver model](https://docs.microsoft.com/en-us/windows-hardware/drivers/develop/getting-started-with-windows-drivers) and are supported by our OEM and silicon partners who are achieving a 99.8% crash free experience.
+3. Compatibility. Windows 11 is designed to be compatible with the apps you use. It has the fundamentals of >1GHz, 2-core processors, 4GB memory, and 64GB of storage, aligning with our minimum system requirements for Office and Microsoft Teams.
+{{< /fig-quote  >}}
+
+更に
+
+{{< fig-quote type="markdown" title="Update on Windows 11 minimum system requirements | Windows Insider Blog" link="https://blogs.windows.com/windows-insider/2021/06/28/update-on-windows-11-minimum-system-requirements/" lang="en" >}}
+{{% quote %}}Using the principles above, we are confident that devices running on Intel 8th generation processors and AMD Zen 2 as well as Qualcomm 7 and 8 Series will meet our principles around security and reliability and minimum system requirements for Windows 11. As we release to Windows Insiders and partner with our OEMs, we will test to identify devices running on Intel 7th generation and AMD Zen 1 that may meet our principles{{% /quote %}}.
+{{< /fig-quote  >}}
+
+と謳っていて，いわゆる「第8世代プロセッサ」を前提としているようだ（第7世代はこれから検証）。
+というわけで，[2018年に公表された CPU 脆弱性]({{< ref "/remark/2018/01/reading-privileged-memory-with-a-side-channel.md" >}} "「CPU に対するサイドチャネル攻撃」に関する覚え書き")への連想も成り立つわけだ。
+
+- [ASCII.jp：Windows 11にアップグレード可能なCPUは基本はやっぱり第8世代／Zen+以降になりそう？ (1/2)](https://ascii.jp/elem/000/004/061/4061479/)
+
+今後パソコンを購入するのであれば（特に中古パソコンを買うのなら）この辺が目安になってくるだろう。
+
 ## ブックマーク
 
 - [新しい Windows 11 OS へのアップグレード | Microsoft](https://www.microsoft.com/ja-jp/windows/windows-11)
