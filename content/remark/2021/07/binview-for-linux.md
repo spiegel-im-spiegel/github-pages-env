@@ -42,7 +42,7 @@ $ xxd -g 1 ./bindata1
 
 {{< fig-img src="./binview-start-1.png" link="./binview-start-1.png" width="714" >}}
 
-入力は標準出力からでもOK。
+入力は標準入力からでもOK。
 なので前処理をパイプで繋いで
 
 {{< fig-img src="./binview-start-2.png" link="./binview-start-2.png" width="694" >}}
