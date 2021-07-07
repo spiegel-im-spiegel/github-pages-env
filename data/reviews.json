@@ -15179,5 +15179,52 @@
       false,
       false
     ]
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B096TH798S",
+      "Title": "改訂2版 わかばちゃんと学ぶ Git使い方入門",
+      "URL": "https://www.amazon.co.jp/dp/B096TH798S?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51fsPIs9pTS._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "湊川あい",
+          "Role": "著"
+        },
+        {
+          "Name": "DQNEO",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "シーアンドアール研究所",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B096TH798S"
+        }
+      ],
+      "PublicationDate": "2021-06-12",
+      "LastRelease": "2021-06-12",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-07-07",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "この機会に読んでみようか..."
   }
 ]
