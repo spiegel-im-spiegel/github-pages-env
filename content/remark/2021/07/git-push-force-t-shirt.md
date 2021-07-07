@@ -14,7 +14,7 @@ pageType = "text"
 ついカッとなって「[私は git push -f しました！](https://suzuri.jp/mattn/3977917/big-t-shirt/l/heathergray "私は git push -f しました！ / mattnのビッグシルエットTシャツ通販 ∞ SUZURI（スズリ）")」Tシャツを買ってしまった。
 んで，この大雨の中，届けてもらったですよ。
 
-{{< fig-img src="./51295396121_c0ac37b420_e.jpg" title="私は git push -f しました！ | Flickr" link="[./binview-replace.png](https://www.flickr.com/photos/spiegel/51295396121/)" >}}
+{{< fig-img src="./51295396121_c0ac37b420_e.jpg" title="私は git push -f しました！ | Flickr" link="https://www.flickr.com/photos/spiegel/51295396121/" >}}
 
 ネコの人，お手数おかけしました {{% emoji "ゴメン" %}}
 
