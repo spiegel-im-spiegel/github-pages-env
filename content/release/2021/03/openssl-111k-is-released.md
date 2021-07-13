@@ -24,7 +24,19 @@ pageType = "text"
 {{% quote %}}An OpenSSL TLS server may crash if sent a maliciously crafted renegotiation ClientHello message from a client. If a TLSv1.2 renegotiation ClientHello omits the signature_algorithms extension (where it was present in the initial ClientHello), but includes a signature_algorithms_cert extension then a NULL pointer dereference will result, leading to a crash and a denial of service attack. A server is only vulnerable if it has TLSv1.2 and renegotiation enabled (which is the default configuration){{% /quote %}}.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H`
+- 深刻度: 警告 (Score: 5.9)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 高 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | なし |
+| 可用性への影響 | 高 |
 
 ## [CVE-2021-3450]
 
@@ -34,6 +46,19 @@ pageType = "text"
 {{% quote %}}The `X509_V_FLAG_X509_STRICT` flag enables additional security checks of the certificates present in a certificate chain. It is not set by default. Starting from OpenSSL version 1.1.1h a check to disallow certificates in the chain that have explicitly encoded elliptic curve parameters was added as an additional strict check. An error in the implementation of this check meant that the result of a previous check to confirm that certificates in the chain are valid CA certificates was overwritten. This effectively bypasses the check that non-CA certificates must not be able to issue other certificates{{% /quote %}}.
 {{< /fig-quote >}}
 
+- `CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N`
+- 深刻度: 重要 (Score: 7.4)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 高 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | 高 |
+| 完全性への影響 | 高 |
+| 可用性への影響 | なし |
 
 ## アップデートは計画的に
 

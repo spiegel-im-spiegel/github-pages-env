@@ -21,6 +21,7 @@ pageType = "text"
 {{% quote %}}go1.16.5 (released 2021-06-03) includes security fixes to the `archive/zip`, `math/big`, net, and `net/http/httputil` packages, as well as bug fixes to the linker, the go command, and the `net/http` package. See the [Go 1.16.5 milestone](https://github.com/golang/go/issues?q=milestone%3AGo1.16.5+label%3ACherryPickApproved) on our issue tracker for details{{% /quote %}}.
 {{< /fig-quote >}}
 
+（以下未稿）
 
 ## [CVE-2021-33198]
 
@@ -28,6 +29,7 @@ pageType = "text"
 {{% quote %}}The `SetString` and `UnmarshalText` methods of [`math/big.Rat`](https://pkg.go.dev/math/big#Rat) may cause a panic or an unrecoverable fatal error if passed inputs with very large exponents{{% /quote %}}.
 {{< /fig-quote >}}
 
+（以下未稿）
 
 ## [CVE-2021-33197]
 
