@@ -119,7 +119,7 @@ func main() {
 
 ```text
 $ go run sample1b.go
-*errs.Error{Err:&errors.errorString{s:"file open error"}, Cause:&os.PathError{Op:"open", Path:"not-exist.txt", Err:0x2}, Context:map[string]interface {}{"function":"main.checkFileOpen", "path":"not-exist.txt"}}
+*errs.Error{Err:&errors.errorString{s:"file open error"}, Cause:&fs.PathError{Op:"open", Path:"not-exist.txt", Err:0x2}, Context:map[string]interface {}{"function":"main.checkFileOpen", "path":"not-exist.txt"}}
 ```
 
 と，エラーの内部構造を出力してくれる。
@@ -149,7 +149,7 @@ $ go run sample1c.go | jq .
     "path": "not-exist.txt"
   },
   "Cause": {
-    "Type": "*os.PathError",
+    "Type": "*fs.PathError",
     "Msg": "open not-exist.txt: no such file or directory",
     "Cause": {
       "Type": "syscall.Errno",
@@ -200,7 +200,7 @@ $ go run sample2c.go | jq .
 {
   "Type": "*errs.Error",
   "Err": {
-    "Type": "*os.PathError",
+    "Type": "*fs.PathError",
     "Msg": "open not-exist.txt: no such file or directory",
     "Cause": {
       "Type": "syscall.Errno",
@@ -286,7 +286,7 @@ func main() {
 ```go {hl_lines=[5]}
 func main() {
 	if err := checkFileOpen("not-exist.txt"); err != nil {
-		var pathError *os.PathError
+		var pathError *fs.PathError
 		if errs.As(err, &pathError) {
 			fmt.Printf("%v\n", errs.EncodeJSON(pathError))
 		} else {
@@ -302,7 +302,7 @@ func main() {
 ```json
 $ go run sample/sample2d.go | jq .
 {
-  "Type": "*os.PathError",
+  "Type": "*fs.PathError",
   "Msg": "open not-exist.txt: no such file or directory",
   "Cause": {
     "Type": "syscall.Errno",
@@ -319,6 +319,7 @@ $ go run sample/sample2d.go | jq .
 - [Go 1.13 のエラー・ハンドリング]({{< ref "/golang/error-handling-in-go-1_3.md" >}})
 - [書式 %v のカスタマイズ]({{< ref "/golang/formatting.md" >}})
 - [構造化エラーをログ出力する]({{< ref "/golang/logging-error.md" >}})
+- [Go のエラーハンドリング](https://zenn.dev/spiegel/books/error-handling-in-golang) : Zenn 本書きました
 
 [Go]: https://golang.org/ "The Go Programming Language"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
