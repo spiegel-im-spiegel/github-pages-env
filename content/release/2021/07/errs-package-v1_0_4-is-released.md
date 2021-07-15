@@ -15,7 +15,7 @@ Zenn で [pkg/errors] の不具合（？）について[教えてもらった](h
 
 - [Unwrap doesn't return the base error · Issue #223 · pkg/errors · GitHub](https://github.com/pkg/errors/issues/223)
 
-これを見たときは完全に他人事だったのだが，よく考えたら切削の [spiegel-im-spiegel/errs][`errs`] では [pkg/errors] の設計コンセプトを参考にしているのでもしかして... と思って調べたら別のところで不具合を見つけてしまった `orz`
+これを見たときは完全に他人事だったのだが，よく考えたら拙作の [spiegel-im-spiegel/errs][`errs`] では [pkg/errors] の設計コンセプトを参考にしているのでもしかして... と思って調べたら別のところで不具合を見つけてしまった `orz`
 
 具体的には [`errs`]`.New()` 関数で生成したインスタンスに標準の [`errors`]`.Unwrap()` をかけても 返り値が `nil` にならないというもの。
 ちうわけで，修正版をリリースした。
