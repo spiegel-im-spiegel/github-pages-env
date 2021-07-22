@@ -196,6 +196,10 @@ SoC に組み込まれている fTPM の場合は，取り扱いに若干の注�
   - [「Windows 11」へ更新できない原因の調査ツール「ReadySunValley」 ～親切なUIが魅力【レビュー】 - 窓の杜](https://forest.watch.impress.co.jp/docs/review/1335219.html)
 - [Microsoftが「Windows 11」のシステム要件を見直しへ ～「PC 正常性チェック」ツールはいったん撤回 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1334623.html)
 - [ARMネイティブの速度とx64相互運用を両立 ～Microsoft、「ARM64EC」を発表 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1334821.html)
+- [Windowsの「死のブルースクリーン」、「Windows 11」ではブラックに？ - ZDNet Japan](https://japan.zdnet.com/article/35173429/)
+- [セキュリティが強化される「Windows 11」では、古いPCのユーザーが“置き去り”にされるかもしれない | WIRED.jp](https://wired.jp/2021/07/08/windows-11-hardware-requirements-security/)
+- [Windows 11へのアップグレード後、Windows 10に戻せる猶予期間は10日間までと判明  |  TechCrunch Japan](https://jp.techcrunch.com/2021/07/13/windows11-rollback-10-days/)
+- [「Windows 11」へ更新できない原因を調査する「ReadySunValley」、UIを一新 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1337129.html)
 
 ## 参考図書
 
