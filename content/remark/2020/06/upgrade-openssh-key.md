@@ -78,6 +78,11 @@ Windows 環境の場合は以下の拙文を参考にどうぞ。
 
 - [GnuPG for Windows : gpg-agent について]({{< ref "/openpgp/using-gnupg-for-windows-2.md" >}})
 
+ちなみに，今回は鍵の生成を [OpenSSH] で行っているが [GnuPG] でも生成できる。
+詳しくは以下を参照のこと。
+
+- [OpenSSH の認証鍵を GunPG で作成・管理する]({{< ref "/openpgp/ssh-key-management-with-gnupg.md" >}})
+
 ## [OpenSSH] 鍵の生成
 
 [OpenSSH] 鍵を生成するには `ssh-keygen` コマンドを使う。
