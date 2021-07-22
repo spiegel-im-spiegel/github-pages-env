@@ -3,7 +3,7 @@ title = "OpenJDK 16.0.1 のリリース【セキュリティ・アップデー�
 date =  "2021-04-21T21:09:15+09:00"
 description = "OpenJDK および同系列 Java のショート・サイクルのバージョンアップ"
 image = "/images/attention/tools.png"
-tags  = [ "programming", "language", "java", "ubuntu", "plantuml" ]
+tags  = [ "programming", "language", "java", "ubuntu", "plantuml", "security", "vulnerability" ]
 pageType = "text"
 
 [scripts]
@@ -16,7 +16,7 @@ pageType = "text"
 - [OpenJDK Vulnerability Advisory: 2021/04/20](https://openjdk.java.net/groups/vulnerability/advisories/2021-04-20)
 
 幸いなことに今回は深刻度の高い脆弱性はないようだ。
-影響を受けるバージョンは 16, 15.0.2, 13.0.6, 11.0.10, 8u282, 7u291 およびそれ以前。
+影響を受けるバージョンは 16.0.1, 15.0.3, 13.0.7, 11.0.11, 8u292, 7u301 およびそれ以前。
 
 {{< fig-quote class="nobox" title="OpenJDK Vulnerability Advisory: 2021/04/20" link="https://openjdk.java.net/groups/vulnerability/advisories/2021-04-20" lang="en" >}}
 <table class="risk-matrix center smaller" summary="Risk matrix">
