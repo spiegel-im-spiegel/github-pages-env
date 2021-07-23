@@ -15226,5 +15226,48 @@
       false
     ],
     "Description": "この機会に読んでみようか..."
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B093PZLQMQ",
+      "Title": "数学ガールの物理ノート／ニュートン力学",
+      "URL": "https://www.amazon.co.jp/dp/B093PZLQMQ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41vcmc-pSpS._SL160_.jpg",
+        "Height": 160,
+        "Width": 110
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "結城 浩",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "SBクリエイティブ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B093PZLQMQ"
+        }
+      ],
+      "PublicationDate": "2021-07-15",
+      "LastRelease": "2021-07-16",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-07-23",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "「数学ガールの物理ノート」ですってよ。この巻は「力学」の話。で仕事とエネルギーについての議論へと発展する。面白い！"
   }
 ]
