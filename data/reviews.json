@@ -8375,7 +8375,7 @@
       "Image": {
         "URL": "https://m.media-amazon.com/images/I/51KtN0YwWcL._SL160_.jpg",
         "Height": 160,
-        "Width": 109
+        "Width": 108
       },
       "ProductType": "単行本",
       "Creators": [
@@ -8427,7 +8427,7 @@
       false,
       false
     ],
-    "Description": "今読んでるけど読みづらい。修飾語が多すぎるよ。ギリシア神話かっての。"
+    "Description": "とりあえず読みづらい。修飾語が多すぎるよ。ギリシア神話かっての。"
   },
   {
     "Book": {
@@ -15269,5 +15269,56 @@
       true
     ],
     "Description": "「数学ガールの物理ノート」ですってよ。この巻は「力学」の話。で仕事とエネルギーについての議論へと発展する。面白い！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4309980309",
+      "Title": "総特集 高橋葉介 大増補新版 ―『夢幻紳士』40周年記念― (文藝別冊)",
+      "URL": "https://www.amazon.co.jp/dp/4309980309?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61fkOOAzJNS._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "ムック",
+      "Creators": [
+        {
+          "Name": "高橋葉介",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "河出書房新社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4309980309"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784309980300"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4309980309"
+        }
+      ],
+      "PublicationDate": "2021-06-11",
+      "LastRelease": "2021-06-11",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-07-23",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "2021年は夢幻紳士40周年なんだそうな。紙の本だが，ついカッとなってポチってしまった。反省はしない。"
   }
 ]
