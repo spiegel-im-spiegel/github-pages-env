@@ -15320,5 +15320,56 @@
       false
     ],
     "Description": "2021年は夢幻紳士40周年なんだそうな。紙の本だが，ついカッとなってポチってしまった。反省はしない。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4769907001",
+      "Title": "新こよみ便利帳―天文現象・暦計算のすべて",
+      "URL": "https://www.amazon.co.jp/dp/4769907001?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51r6gvt0j5L._SL160_.jpg",
+        "Height": 120,
+        "Width": 160
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "暦計算研究会",
+          "Role": "編集"
+        }
+      ],
+      "Publisher": "恒星社厚生閣",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4769907001"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784769907008"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4769907001"
+        }
+      ],
+      "PublicationDate": "1991-05-01",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-07-31",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "今となっては古い内容だが，暦や天体位置の一覧表が載っていて当時はそれなりに役に立った。"
   }
 ]
