@@ -52,6 +52,10 @@ pageType = "text"
 
 [AfterShokz Aeropex]: https://www.amazon.co.jp/dp/B07RRQ59JR?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon.co.jp： AfterShokz Aeropex 骨伝導ワイヤレスヘッドホン 防水bluetooth5.0 コズミックブラック: 家電・カメラ"
 
+## ブックマーク
+
+- [【操作方法】アフターショックス エアロぺクスの説明書！ | めもぱんだブログ](https://memopanda.com/aeropex-manual/) : ありがたや
+
 {{% review-paapi "B07RRQ59JR" %}} <!-- AfterShokz Aeropex 骨伝導ヘッドセット -->
 {{% review-paapi "B07YKCY9QD" %}} <!-- ウエストポーチ -->
 {{% review-paapi "B08XQGKL6G" %}} <!-- ぐだふわエブリデー -->

@@ -38,6 +38,7 @@ RESTful なマイクロ・サーバの構築は [Go 言語]の得意とすると
 ## ブックマーク
 
 - [Big Sky :: 改訂2版 みんなのGo言語](https://mattn.kaoriya.net/software/lang/go/20190618181623.htm)
+- [「みんなのGo言語 第二版」補足。Go v1.16の新機能紹介など](https://zenn.dev/satoru_takeuchi/articles/37674810946531)
 
 - [Ubuntu でも Kindle 本が読みたい]({{< ref "/remark/2019/05/kindle-for-wine.md" >}})
 
