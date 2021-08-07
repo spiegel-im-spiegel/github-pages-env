@@ -18,7 +18,7 @@ pageType = "text"
 今回は1件の脆弱性修正を含んでいる。
 
 {{< fig-quote type="markdown" title="Release History - The Go Programming Language" link="https://golang.org/doc/devel/release.html#go1.16.minor" lang="en" >}}
-{{% quote %}}go1.16.7 (released 2021-08-05) includes a security fix to the `net/http/httputil` package, as well as bug fixes to the compiler, the linker, the runtime, the go command, and the `net/http` package. See the [Go 1.16.7 milestone](https://github.com/golang/go/issues?q=milestone%3AGo1.16.7+label%3ACherryPickApproved) on our issue tracker for details. {{% /quote %}}.
+{{% quote %}}go1.16.7 (released 2021-08-05) includes a security fix to the `net/http/httputil` package, as well as bug fixes to the compiler, the linker, the runtime, the go command, and the `net/http` package. See the [Go 1.16.7 milestone](https://github.com/golang/go/issues?q=milestone%3AGo1.16.7+label%3ACherryPickApproved) on our issue tracker for details{{% /quote %}}.
 {{< /fig-quote >}}
 
 ## [CVE-2021-36221]
