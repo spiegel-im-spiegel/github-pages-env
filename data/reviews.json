@@ -15371,5 +15371,128 @@
       false
     ],
     "Description": "今となっては古い内容だが，暦や天体位置の一覧表が載っていて当時はそれなりに役に立った。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01MQDYCB0",
+      "Title": "エレコム USB3.0 ハブ 4ポート バスパワー マグネット付 MacBook / Surface Pro / Chromebook他 ノートPC Nintendo Switch対応 ブラック U3H-S418BBK",
+      "URL": "https://www.amazon.co.jp/dp/B01MQDYCB0?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41f8zuQuY5L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "Personal Computers",
+      "Publisher": "エレコム",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01MQDYCB0"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4953103277243"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2016-11-06",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-08-07",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "家電量販店で買ったのは失敗だったが，製品自体に不満はない。ポートごとにスイッチが入ってるのが欲しかったのよ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01K8XRQ6O",
+      "Title": "エレコム Bluetooth USBアダプタ Class2 Windows10対応 LBT-UAN05C2/N",
+      "URL": "https://www.amazon.co.jp/dp/B01K8XRQ6O?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/417UeIoWQUL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "Personal Computers",
+      "Publisher": "エレコム",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01K8XRQ6O"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4953103278165"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2016-07-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-08-07",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "家電量販店で買ったのは失敗だった。何故か Bluetooth 4 のアダプタしかなかったんだよ。とりあえず，問題なく使えはする。あとで Bluetooth 5 に買い直そう。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B078J9MR75",
+      "Title": "エレコム WEBカメラ UCAM-C750FBBK マイク内蔵 フルHD 1080p 30FPS 500万画素 高精細ガラスレンズ ケーブル長1.5m ブラック",
+      "URL": "https://www.amazon.co.jp/dp/B078J9MR75?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41VtFtn0FzL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "Personal Computers",
+      "Publisher": "エレコム",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B078J9MR75"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4953103333932"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2018-01-26",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-08-07",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "家電量販店で買ったのは失敗だったが，製品自体に不満はない。 Web ミーティングに使うだけなら200万画素でよかったかも。選ぶならフレームレートで選ぶべきだったね。"
   }
 ]
