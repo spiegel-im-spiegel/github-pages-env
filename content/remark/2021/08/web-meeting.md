@@ -140,7 +140,7 @@ type SysProcAttr = syscall.SysProcAttr
 {{< fig-quote class="nobox" type="markdown" title="『プログラミング言語Go』2.7章" link="https://www.amazon.co.jp/dp/B094PRR7PZ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1" >}}
 ```go
 func main() {
-    x := "hellow!"
+    x := "hello!"
     for i := 0; i < len(x); i++ {
         x := x[i]
         if x != '!' {
