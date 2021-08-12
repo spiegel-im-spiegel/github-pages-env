@@ -15494,5 +15494,56 @@
       false
     ],
     "Description": "家電量販店で買ったのは失敗だったが，製品自体に不満はない。 Web ミーティングに使うだけなら200万画素でよかったかも。選ぶならフレームレートで選ぶべきだったね。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B099928SJD",
+      "Title": "プログラミング言語Go",
+      "URL": "https://www.amazon.co.jp/dp/B099928SJD?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/416Stewy0NS._SL160_.jpg",
+        "Height": 160,
+        "Width": 123
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "アラン・ドノバン",
+          "Role": "著"
+        },
+        {
+          "Name": "ブライアン・カーニハン",
+          "Role": "著"
+        },
+        {
+          "Name": "柴田芳樹",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "丸善出版",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B099928SJD"
+        }
+      ],
+      "PublicationDate": "2016-06-20",
+      "LastRelease": "2021-07-13",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-05-22",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "Kindle 版出た！ 一部内容が古びてしまったが，この本は Go 言語の教科書と言ってもいいだろう。感想は\u003ca href=\"/remark/2016/07/go-programming-language/\" \u003eこちら\u003c/a\u003e。"
   }
 ]
