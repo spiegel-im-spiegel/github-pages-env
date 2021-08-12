@@ -45,4 +45,4 @@ Flickr の写真を [photo.Baldanders.info](https://photo.baldanders.info/) へ�
 
 ## 参考図書
 
-{{% review-paapi "B094PRR7PZ" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->

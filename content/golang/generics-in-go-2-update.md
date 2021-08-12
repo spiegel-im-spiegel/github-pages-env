@@ -157,4 +157,4 @@ func SayError(e error) string {
 
 ## 参考図書
 
-{{% review-paapi "B094PRR7PZ" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->

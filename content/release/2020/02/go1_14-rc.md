@@ -150,6 +150,6 @@ WebAssembly や Plan 9 が non-preemptive になるのは分かるが， ARM ア
 
 ## 参考図書
 
-{{% review-paapi "B094PRR7PZ" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "4873118468" %}} <!-- Go言語による並行処理 -->
 {{% review-paapi "4908686033" %}} <!-- Goならわかるシステムプログラミング -->

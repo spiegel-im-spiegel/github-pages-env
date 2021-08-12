@@ -301,4 +301,4 @@ standard deviation: 0.00272 (68.5%)
 
 {{% review-paapi "4621045938" %}} <!-- いかにして問題をとくか -->
 
-{{% review-paapi "B094PRR7PZ" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->

@@ -212,4 +212,4 @@ Signature Packet (tag 2) (122 bytes)
 
 {{% review-paapi "B015643CPE" %}} <!-- 暗号技術入門 第3版 -->
 
-{{% review-paapi "B094PRR7PZ" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->

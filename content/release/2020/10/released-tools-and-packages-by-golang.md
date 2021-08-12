@@ -48,5 +48,5 @@ pageType = "text"
 
 ## 参考図書
 
-{{% review-paapi "B094PRR7PZ" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "B01MZ8UA8O" %}} <!-- 射手座☆午後九時 Don't be late -->

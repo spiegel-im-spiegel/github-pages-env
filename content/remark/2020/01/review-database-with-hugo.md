@@ -208,7 +208,7 @@ review-log: /home/username/hugo-work/data/reviews.json
 </div>
 ```
 
-{{% review-paapi "B094PRR7PZ" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
 
 のようにアイテムを指定して表示することができる。
 

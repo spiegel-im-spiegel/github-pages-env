@@ -74,7 +74,7 @@ func main() {
 
 {{< comparable-security-strengths >}}
 
-{{% review-paapi "B094PRR7PZ" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
 
 ### 数式（MathJax）
 

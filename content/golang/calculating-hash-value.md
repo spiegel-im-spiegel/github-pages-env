@@ -209,6 +209,6 @@ matched
 
 ## 参考図書
 
-{{% review-paapi "B094PRR7PZ" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
 
 {{% review-paapi "B015643CPE" %}} <!-- 暗号技術入門 第3版 -->

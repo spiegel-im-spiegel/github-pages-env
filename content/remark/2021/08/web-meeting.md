@@ -93,7 +93,7 @@ buf := &bytes.Buffer{}
 
 『[プログラミング言語Go]』2.5章には
 
-{{< fig-quote type="markdown" title="『プログラミング言語Go』2.5章" link="https://www.amazon.co.jp/dp/B094PRR7PZ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1" >}}
+{{< fig-quote type="markdown" title="『プログラミング言語Go』2.5章" link="https://www.amazon.co.jp/dp/B099928SJD?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1" >}}
 {{% quote %}}`type` 宣言は、既存の型と同じ*基底型*（<i>underlying type</i>）を持つ新たな*名前付き型*（<i>named type</i>）を定義します{{% /quote %}}
 {{< /fig-quote >}}
 
@@ -137,7 +137,7 @@ type SysProcAttr = syscall.SysProcAttr
 いわゆる「シャドウイング（shadowing）」である。
 なので
 
-{{< fig-quote class="nobox" type="markdown" title="『プログラミング言語Go』2.7章" link="https://www.amazon.co.jp/dp/B094PRR7PZ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1" >}}
+{{< fig-quote class="nobox" type="markdown" title="『プログラミング言語Go』2.7章" link="https://www.amazon.co.jp/dp/B099928SJD?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1" >}}
 ```go
 func main() {
     x := "hello!"
@@ -155,7 +155,7 @@ func main() {
 みたいな鬼畜なコードも書けてしまう（`:=` は代入ではなく初期化付き宣言である点に注意）。
 まぁ，この程度なら（鬼畜ではあるが） `main()` 関数のスコープの中に収まっているのでまだマシだが，うっかり `init()` 関数を使った初期化で
 
-{{< fig-quote class="nobox" type="markdown" title="『プログラミング言語Go』2.7章" link="https://www.amazon.co.jp/dp/B094PRR7PZ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1" >}}
+{{< fig-quote class="nobox" type="markdown" title="『プログラミング言語Go』2.7章" link="https://www.amazon.co.jp/dp/B099928SJD?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1" >}}
 ```go
 var cwd string
 
@@ -180,10 +180,10 @@ func init() {
 
 [Go]: https://golang.org/ "The Go Programming Language"
 [`bytes`]: https://pkg.go.dev/bytes "bytes · pkg.go.dev"
-[プログラミング言語Go]: https://www.amazon.co.jp/dp/B094PRR7PZ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1
+[プログラミング言語Go]: https://www.amazon.co.jp/dp/B099928SJD?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1
 [Golang Specs]: https://golang.org/ref/spec "The Go Programming Language Specification - The Go Programming Language"
 
 ## 参考図書
 
-{{% review-paapi "B094PRR7PZ" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "B07RRQ59JR" %}} <!-- AfterShokz Aeropex 骨伝導ヘッドセット -->
