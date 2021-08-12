@@ -14712,57 +14712,6 @@
   {
     "Book": {
       "Type": "paapi",
-      "ID": "B094PRR7PZ",
-      "Title": "プログラミング言語Go",
-      "URL": "https://www.amazon.co.jp/dp/B094PRR7PZ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
-      "Image": {
-        "URL": "https://m.media-amazon.com/images/I/416Stewy0NS._SL160_.jpg",
-        "Height": 160,
-        "Width": 123
-      },
-      "ProductType": "Kindle版",
-      "Creators": [
-        {
-          "Name": "アラン・ドノバン",
-          "Role": "著"
-        },
-        {
-          "Name": "ブライアン・カーニハン",
-          "Role": "著"
-        },
-        {
-          "Name": "柴田芳樹",
-          "Role": "著"
-        }
-      ],
-      "Publisher": "丸善出版",
-      "Codes": [
-        {
-          "Name": "ASIN",
-          "Value": "B094PRR7PZ"
-        }
-      ],
-      "PublicationDate": "2016-06-20",
-      "LastRelease": "2021-05-21",
-      "Service": {
-        "Name": "PA-APIv5",
-        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
-      }
-    },
-    "Date": "2021-05-22",
-    "Rating": 5,
-    "Star": [
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    "Description": "Kindle 版出た！ 一部内容が古びてしまったが，この本は Go 言語の教科書と言ってもいいだろう。感想は\u003ca href=\"/remark/2016/07/go-programming-language/\" \u003eこちら\u003c/a\u003e。"
-  },
-  {
-    "Book": {
-      "Type": "paapi",
       "ID": "B07H55YTSV",
       "Title": "Logicool ロジクール M110sBK 有線 静音 マウス 小型 左右対称型 USB 簡単接続 M110s ブラック 国内正規品 3年間無償保証",
       "URL": "https://www.amazon.co.jp/dp/B07H55YTSV?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
