@@ -15494,5 +15494,48 @@
       true
     ],
     "Description": "Kindle 版出た！ 一部内容が古びてしまったが，この本は Go 言語の教科書と言ってもいいだろう。感想は\u003ca href=\"/remark/2016/07/go-programming-language/\" \u003eこちら\u003c/a\u003e。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07H93B9JF",
+      "Title": "サンダーバード ARE GO (Original TV Soundtrack)",
+      "URL": "https://www.amazon.co.jp/dp/B07H93B9JF?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51vIDNhUdoL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "Ben Foster \u0026 Nick Foster",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Rambling RECORDS",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07H93B9JF"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2016-01-20",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-08-13",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "サンダーバードの曲は上がる！"
   }
 ]
