@@ -69,6 +69,8 @@ FOSS 最大の特徴は「*不完全でおｋ*」という点だと思う。
 
 ## ブックマーク
 
+- [【コラム】オープンソースの終焉が来ているのだろうか？  |  TechCrunch Japan](https://jp.techcrunch.com/2021/08/10/2021-07-18-the-end-of-open-source/) : よーやく日本語記事が（笑）
+
 - [伽藍とバザール（The Cathedral and the Bazaar）](http://cruel.org/freeware/cathedral.html)
 - [技術的負債とハッカー]({{< ref "/remark/2020/12/technical-debt-and-hacker.md" >}})
 

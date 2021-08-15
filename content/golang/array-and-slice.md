@@ -697,6 +697,7 @@ slc1 != slc2
 - [golangのequalityの評価について - podhmo's diary](http://pod.hatenablog.com/entry/2016/07/30/204357)
 - [スライスを返すときはcapに注意しよう - Qiita](https://qiita.com/methane/items/2cc4e4a23172f6f9b993)
 - [SliceTricks · golang/go Wiki · GitHub](https://github.com/golang/go/wiki/SliceTricks)
+- [Go 言語でスライスから要素を消すには](https://zenn.dev/mattn/articles/31dfed3c89956d)
 
 - [Map の話]({{< relref "map.md" >}})
 
