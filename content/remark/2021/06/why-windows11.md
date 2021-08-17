@@ -104,6 +104,7 @@ SoC に組み込まれている fTPM の場合は，取り扱いに若干の注�
 - [セキュリティ プロセッサ (TPM) ファームウェアを更新する](https://support.microsoft.com/ja-jp/windows/-94205cbc-a492-8d79-cc55-1ecd6b0a8022)
 - [【特集】Windows 11で必須になった「TPM 2.0」って何？TPMの役割や確認方法を紹介  - PC Watch](https://pc.watch.impress.co.jp/docs/topic/feature/1334277.html)
 - [UEFI/GPT ベースのハード ドライブ パーティション | Microsoft Docs](https://docs.microsoft.com/ja-jp/windows-hardware/manufacture/desktop/configure-uefigpt-based-hard-drive-partitions) : 実は GPT (GUID Partition Table) によるストレージのパーティション管理が隠し要件になっているらしい。旧来の MBR で構成している Windows 環境に対してアップグレードしようとすると NG になるかもしれない
+- [ASCII.jp：Windows 11では、Windows 10で追加された数々の新機能が早くもリストラされる (1/2)](https://ascii.jp/elem/000/004/065/4065911/)
 
 ## アプリケーション
 

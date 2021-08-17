@@ -143,11 +143,13 @@ image = "/images/attention/go-logo_blue.png"
 
 ### Go 1.17 beta
 
-- [Go 1.17 Release Notes - The Go Programming Language](https://tip.golang.org/doc/go1.17)
+- [Go 1.17 Release Notes - The Go Programming Language](https://golang.org/doc/go1.17)
 - [Go 1.17連載が始まります: コンパイラとgo mod | フューチャー技術ブログ](https://future-architect.github.io/articles/20210810a/)
   - [Go1.17のencoding/csv | フューチャー技術ブログ](https://future-architect.github.io/articles/20210811a/)
   - [Go 1.17のtesting新機能 | フューチャー技術ブログ](https://future-architect.github.io/articles/20210812a/)
+  - [Go 1.17からの負のruneの扱い | フューチャー技術ブログ](https://future-architect.github.io/articles/20210817a/)
 - [Go 1.17 Release祝い 細かすぎて伝わらないMinor change in flag package](https://zenn.dev/hgsgtk/articles/9f662a4c96fa3f)
+- [Big Sky :: unsafe.Add と unsafe.Slice が入った。](https://mattn.kaoriya.net/software/lang/go/20210504002438.htm)
 
 ### Go 2 Draft
 
