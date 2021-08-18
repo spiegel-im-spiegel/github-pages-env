@@ -15537,5 +15537,55 @@
       false
     ],
     "Description": "サンダーバードの曲は上がる！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0893LQ5KY",
+      "Title": "Spring Boot 2 入門: 基礎から実演まで Webアプリ開発入門",
+      "URL": "https://www.amazon.co.jp/dp/B0893LQ5KY?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51ZDTBiszCS._SL160_.jpg",
+        "Height": 160,
+        "Width": 100
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "原田 けいと",
+          "Role": "著"
+        },
+        {
+          "Name": "竹田 甘地",
+          "Role": "著"
+        },
+        {
+          "Name": "Robert Segawa",
+          "Role": "著"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0893LQ5KY"
+        }
+      ],
+      "PublicationDate": "2020-05-22",
+      "LastRelease": "2020-05-22",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-06-13",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "Spring Boot を勉強することになって急遽買った本。めっさ分かりやすかった。 PDF 版が欲しいくらい（笑）"
   }
 ]

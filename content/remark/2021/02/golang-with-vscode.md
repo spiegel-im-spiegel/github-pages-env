@@ -16,6 +16,7 @@ pageType = "text"
 1. [パソコンに Visual Studio Code を導入する（再チャレンジ）]({{< ref "/remark/2021/02/installing-vscode-again.md" >}})
 2. [Go と VS Code]({{< ref "/remark/2021/02/golang-with-vscode.md" >}}) ← イマココ
 3. [Markdown と VS Code]({{< ref "/remark/2021/02/markdown-with-vscode.md" >}})
+4. [Java と VS Code]({{< ref "/remark/2021/08/java-with-vscode.md" >}})
 
 それでは[前回]の続き。
 [VS Code] に [Go 言語][Go]開発支援環境を入れる。

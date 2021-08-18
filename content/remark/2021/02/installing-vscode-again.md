@@ -33,6 +33,7 @@ pageType = "text"
 1. [パソコンに Visual Studio Code を導入する（再チャレンジ）]({{< ref "/remark/2021/02/installing-vscode-again.md" >}}) ← イマココ
 2. [Go と VS Code]({{< ref "/remark/2021/02/golang-with-vscode.md" >}})
 3. [Markdown と VS Code]({{< ref "/remark/2021/02/markdown-with-vscode.md" >}})
+4. [Java と VS Code]({{< ref "/remark/2021/08/java-with-vscode.md" >}})
 
 ## [VS Code] のインストール
 
