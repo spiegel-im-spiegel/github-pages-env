@@ -21,6 +21,10 @@ pageType = "text"
 
 ## [Extension Pack for Java]
 
+```text
+$ code --install-extension vscjava.vscode-java-pack
+```
+
 これをインストールすると以下のパッケージも併せてインストールされる。
 
 - [Language Support for Java(TM) by Red Hat - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=redhat.java)
@@ -73,7 +77,26 @@ public class App {
 という感じに表示されているので `main()` 関数直上の `Run` のリンクをクリックすればコンパイル＆実行してくれる。
 Java Process Console に `Hello, World!` と表示されれば無問題。
 
+### Import 補完
+
+Java の `import` 宣言ってすぐに汚れるよね。
+使わない `import` とか。
+逆に `import` が足りなくてエラーになったり。
+
+こういうときはコマンドパレットから “Organize Imports” でいい感じに整形してくれる。
+保存時に自動で整形するには `settings.json` に
+
+```json
+"java.saveActions.organizeImports": true
+```
+
+を追加してやればよい。
+
 ## [Spring Boot Extension Pack]
+
+```text
+$ code --install-extension Pivotal.vscode-boot-dev-pack
+```
 
 これも以下のパッケージを含んでいるようだ。
 
@@ -225,6 +248,16 @@ demo
 
 Web ブラウザから `http://localhost:8080/` を叩いて `Hello, World!` と表示されれば無問題。
 
+## [Lombok Annotations Support for VS Code]
+
+```text
+$ code --install-extension GabrielBB.vscode-lombok
+```
+
+`@Getter` とか `@Setter` とか `@Slf4j` とかの [Lombok] アノテーションを付けると [VS Code] がコードにエラーマークを付けることがある（ビルドはちゃんと通る）。
+かなりウザいのでこの拡張機能を入れてみた。
+快適！
+
 ## ブックマーク
 
 - [VSCodeで作るJava開発環境＆Spring Bootアプリケーション入門 - Qiita](https://qiita.com/takumi_links/items/fe71cfeb4dfaa76fbe31)
@@ -241,13 +274,16 @@ Web ブラウザから `http://localhost:8080/` を叩いて `Hello, World!` と
 - [SpringブートSLF4Jロギングの例 - 開発者ドキュメント](https://ja.getdocs.org/spring-boot-spring-boot-slf4j-logging-example/)
 - [Spring bootでHttpSessionを使用する - m_shige1979のささやかな抵抗と欲望の日々](https://m-shige1979.hatenablog.com/entry/2016/11/30/080000)
 - [Spring Boot で Ajax を実装する単純なサンプル - Qiita](https://qiita.com/t-yama-3/items/572fabc873b4b6a0fc7c)
-
-
+- [Lombok 使い方メモ - Qiita](https://qiita.com/opengl-8080/items/671ffd4bf84fe5e32557)
+- [VScodeでJavaのインポート文をFixしたい | 猫好きが猫以外のことも書く](https://bitto.jp/posts/%E6%8A%80%E8%A1%93/Windows/vscode-java-organize-import/)
 
 [VS Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
 [OpenJDK]: http://openjdk.java.net/
+[Lombok]: https://projectlombok.org/ "Project Lombok"
 [Extension Pack for Java]: https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack "Extension Pack for Java - Visual Studio Marketplace"
 [Spring Boot Extension Pack]: https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack "Spring Boot Extension Pack - Visual Studio Marketplace"
+[Lombok Annotations Support for VS Code]: https://marketplace.visualstudio.com/items?itemName=GabrielBB.vscode-lombok "Lombok Annotations Support for VS Code - Visual Studio Marketplace"
+
 
 ## 参考図書
 

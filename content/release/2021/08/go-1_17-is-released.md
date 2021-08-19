@@ -13,7 +13,8 @@ pageType = "text"
 
 [Go] 1.1７ がリリースされた。
 
-- [Go 1.17 is released](https://groups.google.com/g/golang-announce/c/wB1fph5RpsE)
+- [Go 1.17 Release Notes - The Go Programming Language](https://golang.org/doc/go1.17)
+- [Go 1.17 is released - The Go Blog](https://blog.golang.org/go1.17)
 
 毎度のごとく変更は多岐にわたるが，個人的に気になった部分を挙げておく。
 
@@ -96,9 +97,8 @@ Zenn 記事の「[Go のモジュール管理](https://zenn.dev/spiegel/articles
 
 ## ブックマーク
 
-- [Go 1.17 Release Notes - The Go Programming Language](https://golang.org/doc/go1.17)
-- [Go 1.17 is released - The Go Blog](https://blog.golang.org/go1.17)
 - [Go1.17のencoding/csv | フューチャー技術ブログ](https://future-architect.github.io/articles/20210811a/)
+- [Go1.17における go get の変更点 | フューチャー技術ブログ](https://future-architect.github.io/articles/20210818a/)
 - [Go 1.17 Release祝い 細かすぎて伝わらないMinor change in flag package](https://zenn.dev/hgsgtk/articles/9f662a4c96fa3f)
 
 [Go]: https://golang.org/ "The Go Programming Language"
