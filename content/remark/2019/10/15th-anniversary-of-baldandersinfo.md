@@ -3,7 +3,7 @@ title = "Baldanders.info 開設15周年記念に骨伝導スピーカーを買�
 date =  "2019-10-10T21:29:18+09:00"
 description = "いやぁ，音楽聞いてるのに耳が自由って素晴らしいですね。こりゃあ，イヤフォンには戻れんわ。"
 image = "/images/attention/kitten.jpg"
-tags = [ "site", "music" ]
+tags = [ "site", "music", "tools" ]
 pageType = "text"
 
 [scripts]
