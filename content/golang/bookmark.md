@@ -141,15 +141,20 @@ image = "/images/attention/go-logo_blue.png"
 - [Go1.16からの go get と go install について - Qiita](https://qiita.com/eihigh/items/9fe52804610a8c4b7e41)
 - [go:embed 詳解 - 使用編 -](https://zenn.dev/koya_iwamura/articles/53a4469271022e)
 
-### Go 1.17 beta
+### Go 1.17 is released
 
 - [Go 1.17 Release Notes - The Go Programming Language](https://golang.org/doc/go1.17)
 - [Go 1.17連載が始まります: コンパイラとgo mod | フューチャー技術ブログ](https://future-architect.github.io/articles/20210810a/)
   - [Go1.17のencoding/csv | フューチャー技術ブログ](https://future-architect.github.io/articles/20210811a/)
   - [Go 1.17のtesting新機能 | フューチャー技術ブログ](https://future-architect.github.io/articles/20210812a/)
   - [Go 1.17からの負のruneの扱い | フューチャー技術ブログ](https://future-architect.github.io/articles/20210817a/)
+  - [Go1.17で警告されるようになったerror#Is/As/Unwrap | フューチャー技術ブログ](https://future-architect.github.io/articles/20210819b/)
+  - [Go 1.17の sync/atomic パッケージ更新点と CompareAndSwap | フューチャー技術ブログ](https://future-architect.github.io/articles/20210820a/)
 - [Go 1.17 Release祝い 細かすぎて伝わらないMinor change in flag package](https://zenn.dev/hgsgtk/articles/9f662a4c96fa3f)
 - [Big Sky :: unsafe.Add と unsafe.Slice が入った。](https://mattn.kaoriya.net/software/lang/go/20210504002438.htm)
+- [Go 1.17 リリースパーティ - connpass](https://gocon.connpass.com/event/216361/)
+  - [GoのGenerics関連プロポーザル最新状況まとめと簡単な解説 (2021年8月版)](https://zenn.dev/syumai/articles/c42hdg1e0085btnen5hg)
+  - [初めての型セット - Speaker Deck](https://speakerdeck.com/nobishino/introduction-to-type-sets)
 
 ### Go 2 Draft
 
