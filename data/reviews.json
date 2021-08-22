@@ -15587,5 +15587,52 @@
       false
     ],
     "Description": "Spring Boot を勉強することになって急遽買った本。めっさ分かりやすかった。 PDF 版が欲しいくらい（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B093KFTV53",
+      "Title": "監視資本主義―人類の未来を賭けた闘い",
+      "URL": "https://www.amazon.co.jp/dp/B093KFTV53?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/512tneLgY8S._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "ショシャナ・ズボフ",
+          "Role": "著"
+        },
+        {
+          "Name": "野中 香方子",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "東洋経済新報社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B093KFTV53"
+        }
+      ],
+      "PublicationDate": "2021-06-25",
+      "LastRelease": "2021-06-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-08-08",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "夏休みの課題図書として買ったが，全く読めてない orz"
   }
 ]

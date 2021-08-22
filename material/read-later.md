@@ -11,7 +11,6 @@
   - [More on Apple’s iPhone Backdoor - Schneier on Security](https://www.schneier.com/blog/archives/2021/08/more-on-apples-iphone-backdoor.html)
   - [それを作れば彼らはやってくる：Appleが開く世界的な監視・検閲へのバックドア | P2Pとかその辺のお話R](https://p2ptk.org/privacy/3334)
   - [「性的に露骨」と称して検閲されるLGBTQ+コンテンツ | P2Pとかその辺のお話R](https://p2ptk.org/privacy/3336)
-- [AppleがiPhoneの写真やメッセージをスキャンして児童の性的搾取を防ぐと発表、電子フロンティア財団などから「ユーザーのセキュリティとプライバシーを損なう」という抗議の声も - GIGAZINE](https://gigazine.net/news/20210806-apple-csam-icloud-photo-scan/)
 
 
 ## リリース情報
