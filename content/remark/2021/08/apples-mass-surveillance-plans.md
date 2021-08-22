@@ -3,7 +3,7 @@ title = "Apple 監視社会化計画（裏口を穿つ）"
 date =  "2021-08-22T12:47:46+09:00"
 description = "この件が恐ろしいのは Apple が end-to-end 暗号通信の定義を都合よく書き換えている点だ。"
 image = "/images/attention/kitten.jpg"
-tags = [ "security", "privacy", "risk", "surveillance-capitalism" ]
+tags = [ "security", "privacy", "risk", "surveillance-capitalism", "censorship" ]
 pageType = "text"
 
 [scripts]
@@ -50,11 +50,14 @@ No. This doesn’t change the privacy assurances of Messages, and Apple never ga
   - [Appleの監視社会化計画にNOの声をあげよう | P2Pとかその辺のお話R](https://p2ptk.org/privacy/3340)
 - [How LGBTQ+ Content is Censored Under the Guise of "Sexually Explicit" | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2021/08/how-lgbtq-content-censored-under-guise-sexually-explicit)
   - [「性的に露骨」と称して検閲されるLGBTQ+コンテンツ | P2Pとかその辺のお話R](https://p2ptk.org/privacy/3336)
+- [EFF Joins Global Coalition Asking Apple CEO Tim Cook to Stop Phone-Scanning | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2021/08/eff-joins-global-coalition-asking-apple-ceo-tim-cook-stop-phone-scanning)
 
 - [One Bad Apple - The Hacker Factor Blog](https://www.hackerfactor.com/blog/index.php?/archives/929-One-Bad-Apple.html)
 - [In internal memo, Apple addresses concerns around new Photo scanning features, doubles down on the need to protect children - 9to5Mac](https://9to5mac.com/2021/08/06/apple-internal-memo-icloud-photo-scanning-concerns/)
 - [AppleがiPhoneの写真やメッセージをスキャンして児童の性的搾取を防ぐと発表、電子フロンティア財団などから「ユーザーのセキュリティとプライバシーを損なう」という抗議の声も - GIGAZINE](https://gigazine.net/news/20210806-apple-csam-icloud-photo-scan/)
+- [国際的な連合は、アップル社にiPhone、iPad等製品への監視機能組み込み計画の中止を求める のコピー - Google ドキュメント](https://docs.google.com/document/d/1aBooqLlOuzIeKw5qCJgnAHrCli91c6x8SKCXjjiNsyY/edit)
 
+- [誰がプライバシーを支配するのか]({{< ref "/remark/2018/04/handling-privacy.md" >}})
 - [プライバシーなどク◯喰らえ]({{< ref "/remark/2020/01/privacy.md" >}})
 
 ## 参考図書
