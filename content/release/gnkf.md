@@ -30,6 +30,7 @@ pageType = "text"
 - `width`: [全角・半角変換]({{< relref "#width" >}})
 - `kana`: [かなカナ変換]({{< relref "#kana" >}})
 - `base64`; [BASE64 符号化]({{< relref "#base64" >}})
+- `bcrypt`; [BCrypt 符号化と検証]({{< relref "#bcrypt" >}})
 - `hash`; [Hash 符号化と検証]({{< relref "#hash" >}})
 - `remove-bom` : [BOM の除去]({{< relref "#remove-bom" >}})
 - `dump`: [16進ダンプ]({{< relref "#dump" >}})
@@ -326,6 +327,39 @@ Hello World
 ```
 
 これで `base64` や `openssl` コマンドがない環境でも大丈夫。
+
+##  BCrypt 符号化と検証 {#bcrypt}
+
+```text
+$ gnkf bcrypt -h
+Hash and compare by BCrypt.
+
+Usage:
+  gnkf bcrypt [flags] string [string...]
+
+Aliases:
+  bcrypt, bc
+
+Flags:
+      --compare string   compare to BCrypt hashed string
+  -c, --cost int         BCrypt cost (4-31) (default 10)
+  -h, --help             help for bcrypt
+
+Global Flags:
+      --debug   for debug
+```
+
+パスワードの符号化アルゴリズムとして有名な BCrypt を使った文字列の符号化と符号化された文字列の検証ができる。
+
+```text
+$ gnkf bcrypt password
+$2a$10$ES0KxMf9p.t0FEMp8WB6we8X43rMzfXb9r5WvFeUSk8Q2z3wdjrCS
+
+$ gnkf bc --compare '$2a$10$ES0KxMf9p.t0FEMp8WB6we8X43rMzfXb9r5WvFeUSk8Q2z3wdjrCS' password
+compare BCrypt hashed string '$2a$10$ES0KxMf9p.t0FEMp8WB6we8X43rMzfXb9r5WvFeUSk8Q2z3wdjrCS' to...
+password : match!
+
+```
 
 ## Hash 符号化と検証 {#hash}
 
