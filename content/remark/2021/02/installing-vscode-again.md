@@ -522,6 +522,8 @@ GrapeCity が公開してるのか。
 - [VSCode 使い必見！？使って便利な Visual Studio Code 拡張機能 10 選 | ソフトウェア開発のギークフィード](https://www.geekfeed.co.jp/geekblog/vscode_extension)
 - [Visual Studio Code で現在の日時を入力するショートカットを設定する方法 - JavaScript 勉強会](https://jsstudy.hatenablog.com/entry/How-to-set-a-shortcut-to-enter-the-current-date-and-time-in-Visual-Studio-Code)
 - [VSCodeでなるべくマウスを使わない開発環境をがんばる - Qiita](https://qiita.com/y-tsutsu/items/cfe89c0168f40a8fb353)
+- [Database Client - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-database-client2)
+- [PostgreSQL - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ckolkman.vscode-postgres)
 
 [VS Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"

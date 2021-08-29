@@ -43,6 +43,7 @@ pageType = "text"
   - [それを作れば彼らはやってくる：Appleが開く世界的な監視・検閲へのバックドア | P2Pとかその辺のお話R](https://p2ptk.org/privacy/3334)
   - [「性的に露骨」と称して検閲されるLGBTQ+コンテンツ | P2Pとかその辺のお話R](https://p2ptk.org/privacy/3336)
 - [BCP想定を上回ったニップンへのサイバー攻撃についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2021/08/20/180000)
+  - [本当に「前例はない」のか　ニップンが“決算延期”に陥った大規模攻撃の教訓：3～4年前を思い出す（1/2 ページ） - ITmedia ビジネスオンライン](https://www.itmedia.co.jp/business/articles/2108/24/news044.html)
 
 ## 知財関連
 
