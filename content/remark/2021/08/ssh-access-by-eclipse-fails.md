@@ -37,7 +37,7 @@ pageType = "text"
 いやいやいや。
 DSA か RSA の1024ビット鍵しか作れんのかい！ まさか世の Eclipse ユーザはみんな1024ビット鍵で SSH にアクセスしてるの？ アカンやろ。アカンよね！？
 
-首を捻りながらも設定を済ませ，いざ clone しようとしたら今度は “No supported authentication methods available” とか言ってくさる。
+首を捻りながらも設定を済ませ，いざ clone しようとしたら今度は {{% quote lang="en" %}}No supported authentication methods available{{% /quote %}} とか言ってくさる。
 
 {{< div-gen type="markdown" class="center" >}}
 [ちょっと何言ってるか分からない](https://dic.nicovideo.jp/a/%E3%81%A1%E3%82%87%E3%81%A3%E3%81%A8%E4%BD%95%E8%A8%80%E3%81%A3%E3%81%A6%E3%82%8B%E3%81%8B%E5%88%86%E3%81%8B%E3%82%89%E3%81%AA%E3%81%84)...
