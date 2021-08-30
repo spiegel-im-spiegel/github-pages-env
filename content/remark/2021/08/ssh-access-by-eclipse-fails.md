@@ -3,7 +3,7 @@ title = "Eclipse の SSH アクセスで失敗した話"
 date =  "2021-08-30T20:55:10+09:00"
 description = "これのせいで半日近く作業が止まってしまったよ。"
 image = "/images/attention/kitten.jpg"
-tags = [ "engineering", "java", "git", "openssh", "editor" ]
+tags = [ "engineering", "java", "git", "openssh", "editor", "windows", "putty" ]
 pageType = "text"
 
 [scripts]
