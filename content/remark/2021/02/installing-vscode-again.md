@@ -413,6 +413,22 @@ $ code --install-extension CoenraadS.bracket-pair-colorizer-2
 ホンマに見やすいな。
 2 のほうが出来がいいらしい。
 
+{{< div-box type="markdown" >}}
+#### 【2021-09-03 追記】
+
+[VS Code] 1.60 で括弧類のカラー化がサポートされた。
+設定で “Bracket Pair Colorization” の項目を探してチェックを入れるか `settings.json` で
+
+```json
+{
+    "editor.bracketPairColorization.enabled": true
+}
+```
+
+などとすればいいようだ。
+ただ [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2 "Bracket Pair Colorizer 2 - Visual Studio Marketplace") と比べると微妙に見え方が違うので，好みが分かれるかも知れない。
+{{< /div-box >}}
+
 ### [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph "Git Graph - Visual Studio Marketplace")
 
 ```text
