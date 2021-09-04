@@ -17,8 +17,8 @@ pageType = "text"
 
 まずは用語から入るとしよう。
 
-定数の中でも `rune`，整数（`int` など），浮動小数点数（`float64` など），複素数（`complex128` など）の定数をまとめて「数値定数（numeric constants）」と呼ぶ。
-数値定数の定数式（constant expression）は以下のようにリテラルで表すことができる。
+定数の中でも `rune`，整数（`int` など），浮動小数点数（`float64` など），複素数（`complex128` など）の定数をまとめて「数値定数（{{% span lang="en" %}}numeric constants{{% /span %}}）」と呼ぶ。
+数値定数の定数式（{{% span lang="en" %}}constant expression{{% /span %}}）は以下のようにリテラルで表すことができる。
 
 ```go
 package main
@@ -37,10 +37,9 @@ func main() {
 }
 ```
 
-（型付けなし定数（untyped constant）として宣言されている点に注意）
+（型付けなし定数（{{% span lang="en" %}}untyped constant{{% /span %}}）として宣言されている点に注意）
 
-
-識別子 `iota` は数値定数の中で事前に宣言された型付けなし整数を表し，以下のように定義される。
+定数生成器（{{% span lang="en" %}}constant generator{{% /span %}}）`iota` は数値定数の中で事前に宣言された型付けなし整数を表す識別子で，以下の性質を持つ。
 
 {{< fig-quote type="markdown" title="The Go Programming Language Specification - The Go Programming Language" link="https://golang.org/ref/spec#Iota" lang="en" >}}
 {{% quote %}}Within a [constant declaration](https://golang.org/ref/spec#Constant_declarations), the predeclared identifier `iota` represents successive untyped integer [constants](https://golang.org/ref/spec#Constants). Its value is the **index of the respective ConstSpec** in that constant declaration, starting at zero{{% /quote %}}.
@@ -103,7 +102,6 @@ const (
     c3 = 1 + iota // c3 == 3 (iota == 2)
 )
 ```
-
 
 また ConstSpec 単位のインデックス値なので，こんな変態的な記述もできる（笑）
 
