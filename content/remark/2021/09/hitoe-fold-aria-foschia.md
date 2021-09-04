@@ -15,7 +15,9 @@ pageType = "text"
 受注生産なんだからしょうがないぢゃん。
 
 というわけで半年以上前に発注した [SYRINX](https://syrinx.audio/ "SYRINX （シュリンクス）") の “[Hitoe® Fold Aria - Foschia][Hitoe Fold Aria]” が届いた。
-ちゃんと左利き用だよ。
+ちゃんと左利き用[^left1] だよ。
+
+[^left1]: 右手で財布を持って，左手でカードやお札を取り出し易いようにようになっている。
 
 {{< fig-img src="./51423333635_19b40ab16d_e.jpg" title="財布買うた | Flickr" link="https://www.flickr.com/photos/spiegel/51423333635/in/datetaken/" >}}
 
