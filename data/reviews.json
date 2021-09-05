@@ -15752,5 +15752,45 @@
       true
     ],
     "Description": "2020年末に第8版が出てたのに気付かなかったよ。可能なら紙の本も買って常に側に置いておくのが吉。\u003ca href=\"https://gihyo.jp/book/2020/978-4-297-11712-2\"\u003e版元\u003c/a\u003eには PDF 版もある。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08ZST8MPJ",
+      "Title": "ファブリツィオ コインケース 小銭入れ メンズ 本革 ブランド 人気 イタリアンレザー コンパクト (オリーブグリーン)",
+      "URL": "https://www.amazon.co.jp/dp/B08ZST8MPJ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41Ixk3E0HIS._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "ウェア\u0026シューズ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08ZST8MPJ"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4580666810725"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-09-04",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "20年来使っていた小銭入れがいよいよ傷んできたので買い換えた。個人的にはガマ口タイプもファスナー・タイプもダメなので。"
   }
 ]

@@ -44,4 +44,5 @@ pageType = "text"
 長く使えますように。
 
 [Hitoe Fold Aria]: https://syrinx.audio/collections/all/products/hitoe_fold-aria "小さな薄い財布 HITOE® FOLD ARIA – SYRINX"
-<!-- eof -->
+
+{{% review-paapi "B08ZST8MPJ" %}} <!-- 小銭入れ -->
