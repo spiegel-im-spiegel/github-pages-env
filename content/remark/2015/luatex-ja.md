@@ -337,4 +337,4 @@ $clean_ext = "xmpdata";
 
 ## 参考図書
 
-{{% review-paapi "4774187054" %}} <!-- [改訂第7版]LaTeX2ε美文書作成入門 -->
+{{% review-paapi "4297117126" %}} <!-- LaTeX2ε美文書作成入門 -->

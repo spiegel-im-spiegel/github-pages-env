@@ -15697,5 +15697,60 @@
       false
     ],
     "Description": "私はニコリで迷路の解き方を教えてもらいました。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4297117126",
+      "Title": "[改訂第8版]LaTeX2ε美文書作成入門",
+      "URL": "https://www.amazon.co.jp/dp/4297117126?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41xmBlTiwlL._SL160_.jpg",
+        "Height": 160,
+        "Width": 126
+      },
+      "ProductType": "大型本",
+      "Creators": [
+        {
+          "Name": "奥村晴彦",
+          "Role": "著"
+        },
+        {
+          "Name": "黒木裕介",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "技術評論社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4297117126"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784297117122"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4297117126"
+        }
+      ],
+      "PublicationDate": "2020-11-14",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-09-05",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "2020年末に第8版が出てたのに気付かなかったよ。可能なら紙の本も買って常に側に置いておくのが吉。\u003ca href=\"https://gihyo.jp/book/2020/978-4-297-11712-2\"\u003e版元\u003c/a\u003eには PDF 版もある。"
   }
 ]
