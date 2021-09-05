@@ -3,7 +3,7 @@ title = "改訂第8版『LaTeX2ε美文書作成入門』を眺める"
 date =  "2021-09-05T17:42:03+09:00"
 description = "2020年11月に出てたの？ 完全に見落としてたよ orz"
 image = "/images/attention/kitten.jpg"
-tags = [ "tex", "book" ]
+tags = [ "tex", "luatex", "book" ]
 pageType = "text"
 
 [scripts]
@@ -49,7 +49,7 @@ Twitter の TL を見て気が付いた。
 もっとも [dot2tex] には [`dot2texi` $\mathrm{\LaTeX}$ パッケージ](https://dot2tex.readthedocs.io/en/latest/tipsandtricks.html#the-dot2texi-latex-package)もあるようなので，こっちのほうが便利かもしれないが。
 あと [PlantUML](https://plantuml.com/ "Open-source tool that uses simple textual descriptions to draw beautiful UML diagrams.") でもベータ版ながら [$\mathrm{Ti}k\mathrm{Z}$ 形式に対応](https://plantuml.com/ja/latex)しているようだ。
 
-ぶっちゃけ PDF を最終出力とするのなら $\mathrm{Lua\LaTeX}$ で必要十分だよな。
+ぶっちゃけ [PDF を最終出力とする]({{< ref "/remark/2020/06/pdfa-with-luatex.md" >}} "LuaLaTeX で PDF/A を構成する")のなら $\mathrm{Lua\LaTeX}$ で必要十分だよな。
 まぁ，論文を書くとなると各学会用のドキュメントクラスを使わないといけないので簡単ではないだろうが。
 
 最近は $\mathrm{Lua\LaTeX}$ を直にゴリゴリ書く機会は無くなったが『[LaTeX2ε美文書作成入門]』を眺めていると色々遊びたくなってくる。
