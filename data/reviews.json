@@ -15634,5 +15634,68 @@
       false
     ],
     "Description": "夏休みの課題図書として買ったが，全く読めてない orz"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4816412174",
+      "Title": "迷路で行こう",
+      "URL": "https://www.amazon.co.jp/dp/4816412174?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51EnOXOZbdL._SL160_.jpg",
+        "Height": 160,
+        "Width": 111
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "忠之, 坂本",
+          "Role": "著"
+        },
+        {
+          "Name": "博, 吉岡",
+          "Role": "著"
+        },
+        {
+          "Name": "一之, 湯沢",
+          "Role": "著"
+        },
+        {
+          "Name": "ニコリ",
+          "Role": "編集"
+        }
+      ],
+      "Publisher": "波書房",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4816412174"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784816412172"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4816412174"
+        }
+      ],
+      "PublicationDate": "1991-12-01",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-09-05",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "私はニコリで迷路の解き方を教えてもらいました。"
   }
 ]
