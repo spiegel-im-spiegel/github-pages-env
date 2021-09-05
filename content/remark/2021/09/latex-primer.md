@@ -12,7 +12,7 @@ pageType = "text"
 +++
 
 Twitter の TL を見て気が付いた。
-あれ？ 『[LaTeX2ε美文書作成入門]』の8版って出てるの？ 完全に見落としてたよ `orz`
+あれ？ 『[LaTeX2ε美文書作成入門]』の第8版って出てるの？ 完全に見落としてたよ `orz`
 
 『[LaTeX2ε美文書作成入門]』は Kindle 版もあるし[版元]で買えば PDF 版もあるんだけど，今回は紙の本を買った。
 この手のリファレンス本は，一覧性という観点では，まだ紙のほうが有利。
@@ -35,15 +35,15 @@ Twitter の TL を見て気が付いた。
 
 [^clatex1]: [Cloud LaTeX] 連携用の [VS Code 拡張機能](https://marketplace.visualstudio.com/items?itemName=cloudlatex.cloudlatex "Cloud LaTeX - Visual Studio Marketplace")があるんだな。
 
-グラフィック周りについては付録Dで [$\mathrm{Ti}k\mathrm{Z}$/PGF][TikZ] を詳しく解説している。
+グラフィック周りについては第7版に引き続き付録Dで [$\mathrm{Ti}k\mathrm{Z}$/PGF][TikZ] を詳しく解説している。
 
 {{< fig-quote type="markdown" title="［改訂第8版］LaTeX2ε美文書作成入門" link="https://www.amazon.co.jp/dp/B08MZ98Z1Q?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1" >}}
 {{% quote %}}$\mathrm{Ti}k\mathrm{Z}$ に慣れると `picture` 環境は使いたくなくなります{{% /quote %}}
 {{< /fig-quote >}}
 
-とか書かれてあって，ちょっと笑ってしまった。
+とか書かれてあって，ちょっと笑ってしまう。
 
-『[LaTeX2ε美文書作成入門]』では R, Python, gnuplot を使った例が挙げられている。
+第8版では R, gnuplot 以外に Python を使った例を挙げている。
 ちなみに Go 言語でも [gonum.org/v1/plot](https://github.com/gonum/plot "gonum/plot: A repository for plotting and visualizing data") パッケージで $\mathrm{Ti}k\mathrm{Z}$ 出力をサポートしている。
 また，みんな大好き [DOT 言語](https://graphviz.org/doc/info/lang.html "DOT Language | Graphviz")でも [dot2tex] というツール（Python 製）を使うと $\mathrm{Ti}k\mathrm{Z}$ 形式に変換してくれるらしい。
 もっとも [dot2tex] には [`dot2texi` $\mathrm{\LaTeX}$ パッケージ](https://dot2tex.readthedocs.io/en/latest/tipsandtricks.html#the-dot2texi-latex-package)もあるようなので，こっちのほうが便利かもしれないが。
