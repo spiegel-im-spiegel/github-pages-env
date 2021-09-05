@@ -23,11 +23,11 @@ Twitter の TL を見て気が付いた。
 序文でも
 
 {{< fig-quote type="markdown" title="［改訂第8版］LaTeX2ε美文書作成入門" link="https://www.amazon.co.jp/dp/B08MZ98Z1Q?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1" >}}
-{{% quote %}}本書も $\mathrm{Lua\LaTeX}$ と新しい jleq ドキュメントクラスと原の味で組版しました{{% /quote %}}
+{{% quote %}}本書も $\mathrm{Lua\LaTeX}$ と新しい jleq ドキュメントクラスと原ノ味で組版しました{{% /quote %}}
 {{< /fig-quote >}}
 
 と書かれている。
-えっ，これ原の味フォントなの？ そういや巻末に原の味フォントの全グリフが載ってるな（笑）
+えっ，これ原ノ味フォントなの？ そういや巻末に原ノ味フォントの全グリフが載ってるな（笑）
 
 入力環境（第2章）についても真っ先に [Cloud LaTeX] が紹介されているし[^clatex1]，コラム内とはいえ VS Code 用の [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop "LaTeX Workshop - Visual Studio Marketplace") が紹介されていたりする。
 また jleq ドキュメントクラスについても14章で詳しく解説している。
