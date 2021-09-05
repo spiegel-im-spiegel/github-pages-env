@@ -29,7 +29,7 @@ Twitter の TL を見て気が付いた。
 と書かれている。
 えっ，これ原ノ味フォントなの？ そういや巻末に原ノ味フォントの全グリフが載ってるな（笑）
 
-入力環境（第2章）についても真っ先に [Cloud LaTeX] が紹介されているし[^clatex1]，コラム内とはいえ VS Code 用の [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop "LaTeX Workshop - Visual Studio Marketplace") が紹介されていたりする。
+入力環境（第2章）についても真っ先に [Cloud LaTeX] が紹介されているし[^clatex1]（これは第7版でもそうか），コラム内とはいえ VS Code 用の [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop "LaTeX Workshop - Visual Studio Marketplace") が紹介されていたりする。
 また jleq ドキュメントクラスについても14章で詳しく解説している。
 時代が変わったんだねぇ。
 
