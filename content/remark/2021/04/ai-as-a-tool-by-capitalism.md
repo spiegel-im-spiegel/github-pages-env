@@ -20,7 +20,7 @@ pageType = "text"
 とりあえず『[息吹]』は [yomoyomo さんのページ][テッド・チャン インタビュー]から発注した。
 私は『[あなたの人生の物語]』は「理解」が一番面白いと思ってる人間なので（中二病全開な話は好きなのよ）好みとはズレてるかもしれないが。
 
-ちなみに私は，上の記事の内容とは少し違う文脈[^magic1] で「十分に発達した技術は魔法と区別がつかない（[Any sufficiently advanced technology is indistinguishable from magic](https://en.wikipedia.org/wiki/Clarke%27s_three_laws "Clarke's three laws - Wikipedia")）」というもの言いには批判的な立場の人間である。
+ちなみに私は，上の記事の内容とは少し違う文脈[^magic1] で「十分に発達した技術は魔法と区別がつかない（{{% span lang="en" %}}[Any sufficiently advanced technology is indistinguishable from magic](https://en.wikipedia.org/wiki/Clarke%27s_three_laws "Clarke's three laws - Wikipedia"){{% /span %}}）」というもの言いには批判的な立場の人間である。
 それは「区別がつかない」のではなく単なる「科学技術の放棄」だ。
 人類が宇宙に飛び去った後の地球で猫が人類の「遺跡」を使って文明社会っぽい暮らしをしているようなものである（笑） 箸が転んでも「SF だ！」と言う SF 者はそれも SF と言うかもしれないが，科学技術が放棄・失伝された世界観はどちらかというとファンタジーやオカルトに分類される。
 
@@ -39,7 +39,7 @@ pageType = "text"
 つまり技術によって作られた「なにか」に社会を明け渡すということに他ならない。
 人がそれを善しとするのなら，[人類社会はそこで試合終了](https://www.jp.square-enix.com/nierreplicantv1p2/ "NieR Replicant ver.1.22474487139... | SQUARE ENIX")である。
 
-まぁ，この手のデストピアは SF では鉄板ネタだし，だからこそ「[シンギュラリティ（特異点）]({{< ref "/remark/2017/09/the-myth-of-the-singularity.md" >}} "『シンギュラリティの神話』を読む")」などという妄執に取り憑かれる人も出てくるのだろう。
+まぁ，この手のディストピアは SF では鉄板ネタだし，だからこそ「[シンギュラリティ（特異点）]({{< ref "/remark/2017/09/the-myth-of-the-singularity.md" >}} "『シンギュラリティの神話』を読む")」などという妄執に取り憑かれる人も出てくるのだろう。
 20世紀末に「超能力」というオカルトが（SF 作品にも出てくるほど）大流行したように，「シンギュラリティ」というオカルトもしばらくは流行り続けるかもしれない。
 
 話が逸れた。
@@ -65,9 +65,6 @@ pageType = "text"
 を読んだ後に改めて『[あなたの人生の物語]』の「理解」を読むと，この短い作品が人の「知性」や「知能」といったものへの理解に対する痛烈な皮肉になっていることが分かる。
 
 やっぱテッド・チャンは面白いわ！
-
-## ブックマーク
-
 
 [テッド・チャン インタビュー]: https://yamdas.hatenablog.com/entry/20210405/ted-chaing-fears-capitalism "テッド・チャンはAIでなく資本主義を恐れる - YAMDAS現更新履歴"
 [息吹]: https://www.amazon.co.jp/dp/B0823T8D4K?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1
