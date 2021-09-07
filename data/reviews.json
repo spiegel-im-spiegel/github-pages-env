@@ -15792,5 +15792,51 @@
       false
     ],
     "Description": "20年来使っていた小銭入れがいよいよ傷んできたので買い換えた。個人的にはガマ口タイプもファスナー・タイプもダメなので。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07CXRPT4J",
+      "Title": "ダイ・ハード2 (吹替版)",
+      "URL": "https://www.amazon.co.jp/dp/B07CXRPT4J?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51O+1sdBA1L._SL160_.jpg",
+        "Height": 160,
+        "Width": 120
+      },
+      "ProductType": "Prime Video",
+      "Creators": [
+        {
+          "Name": "ウィリアム・アザートン",
+          "Role": "出演"
+        },
+        {
+          "Name": "レニー・ハーリン",
+          "Role": "監督"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07CXRPT4J"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2000-01-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-09-04",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "まだ髪がある頃のブルース・ウィリスが観れる（笑） ちなみに私は野沢那智さんのファンなので吹替版が好み。"
   }
 ]

@@ -1,5 +1,5 @@
 +++
-title = "予防接種へ行ってきた（1回目）"
+title = "予防接種へ行ってきた（第1話）"
 date =  "2021-08-13T11:44:57+09:00"
 description = "副反応がなかった人が「全然平気」とかわざわざ書くわけないだろうから，敢えて記事にしてみることにした。"
 image = "/images/attention/kitten.jpg"
@@ -101,13 +101,10 @@ Facebook や Twitter の TL を眺めていると副反応でしんどい人の�
 よかったよかった。
 気分がちょっとダウナーなのは雨降りだからだろう。
 
-次回は9月。
-月曜日かよ `orz` 有休申請しないと...
+[後半]({{< ref "/remark/2021/09/vaccines-are-go-2nd.md" >}})へ続く...
 
 ## 参考図書
 
 {{% review-paapi "B07H93B9JF" %}} <!-- Thunderbirds are go -->
 
-
 [市立病院]: http://www.matsue-cityhospital.jp/ "松江市立病院"
-<!-- eof -->
