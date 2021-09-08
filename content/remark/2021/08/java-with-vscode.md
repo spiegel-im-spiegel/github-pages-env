@@ -258,6 +258,20 @@ $ code --install-extension GabrielBB.vscode-lombok
 かなりウザいのでこの拡張機能を入れてみた。
 快適！
 
+## [Azure App Service]
+
+```text
+$ code --install-extension ms-azuretools.vscode-azureappservice
+```
+
+VS code 上から [Azure Web Apps](https://azure.microsoft.com/ja-jp/services/app-service/web/ "Web App Service | Microsoft Azure") にお手軽にデプロイ出来ないかなぁ，と思って探したらありました。
+やり方は以下のページの後半で紹介している。
+
+- [Build and Deploy Java Web Apps to the cloud with Visual Studio Code](https://code.visualstudio.com/docs/java/java-webapp)
+
+めがっさ簡単だった。
+[GitHub Actions を使う](https://docs.microsoft.com/ja-jp/azure/app-service/deploy-github-actions "GitHub アクションを使用して CI/CD を構成する - Azure App Service | Microsoft Docs")方法とか，何なら [Azure Spring Cloud](https://azure.microsoft.com/ja-jp/services/spring-cloud/ "Azure Spring Cloud – Spring Boot アプリの開発 | Microsoft Azure") を契約する手もあるのだが，今回はとにかく JAR か WAR を投げれればよかったので。
+
 ## ブックマーク
 
 - [VSCodeで作るJava開発環境＆Spring Bootアプリケーション入門 - Qiita](https://qiita.com/takumi_links/items/fe71cfeb4dfaa76fbe31)
@@ -283,6 +297,7 @@ $ code --install-extension GabrielBB.vscode-lombok
 [Extension Pack for Java]: https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack "Extension Pack for Java - Visual Studio Marketplace"
 [Spring Boot Extension Pack]: https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack "Spring Boot Extension Pack - Visual Studio Marketplace"
 [Lombok Annotations Support for VS Code]: https://marketplace.visualstudio.com/items?itemName=GabrielBB.vscode-lombok "Lombok Annotations Support for VS Code - Visual Studio Marketplace"
+[Azure App Service]: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice "Azure App Service - Visual Studio Marketplace"
 
 
 ## 参考図書
