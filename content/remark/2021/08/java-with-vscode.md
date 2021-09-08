@@ -290,6 +290,7 @@ VS code 上から [Azure Web Apps](https://azure.microsoft.com/ja-jp/services/ap
 - [Spring Boot で Ajax を実装する単純なサンプル - Qiita](https://qiita.com/t-yama-3/items/572fabc873b4b6a0fc7c)
 - [Lombok 使い方メモ - Qiita](https://qiita.com/opengl-8080/items/671ffd4bf84fe5e32557)
 - [VScodeでJavaのインポート文をFixしたい | 猫好きが猫以外のことも書く](https://bitto.jp/posts/%E6%8A%80%E8%A1%93/Windows/vscode-java-organize-import/)
+- [Deploy Java to Azure](https://code.visualstudio.com/docs/java/java-on-azure)
 
 [VS Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
 [OpenJDK]: http://openjdk.java.net/
