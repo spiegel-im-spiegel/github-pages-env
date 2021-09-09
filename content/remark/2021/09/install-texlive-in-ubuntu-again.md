@@ -20,25 +20,37 @@ pageType = "text"
 {{< /fig-quote >}}
 
 とか書かれてあって「やっぱそーなのか」と納得してしまった。
-激しくダサい気がするがしょうがないところか。
-
-サーバ機などで複数のユーザが使う可能性がある場合は，インストール完了後に
-
-```text
-$ cd /usr/local/texlive/2021/bin/x86_64-linux/
-$ sudo ./tlmgr path add
-```
-
-とすれば `/usr/local/bin/` 等へシンボリック・リンクを張ってくれる。
-まぁ，今回は個人パソコンなので
+激しくダサい気がするがしょうがないか。
+まぁ，今回は個人パソコンなので素直に
 
 ```text
 $ cd /usr/local/
 $ sudo mkdir texlive
-sudo chown -R spiegel:spiegel texlive
+$ sudo chown -R username:username texlive
 ```
 
 としてしおう。
+
+サーバ機などでは，インストール完了後にオーナーを `root` に書き戻し
+
+```text
+$ cd /usr/local
+$ sudo chown -R root:root texlive
+$ cd texlive/2021/bin/x86_64-linux/
+$ sudo ./tlmgr path add
+```
+
+と `/usr/local/bin/` 等パスの通ったディレクトリへシンボリック・リンクを張っておけば複数ユーザで共有できるようになる。
+アップグレード等で元に戻す場合は
+
+```text
+$ sudo tlmgr path remove
+$ cd /usr/local/
+$ sudo chown -R username:username texlive
+...
+```
+
+という感じに，いったんシンボリック・リンクを削除してから諸々の作業を行うといいだろう。
 
 ## OpenPGP 公開鍵を取ってくる
 
@@ -166,34 +178,16 @@ Enter command:
 私の環境では1時間近くかかった。
 お茶菓子を用意しておくか（笑）
 
-最後に
-
-```text
- ----------------------------------------------------------------------
- The following environment variables contain the string "tex"
- (case-independent).  If you're doing anything but adding personal
- directories to the system paths, they may well cause trouble somewhere
- while running TeX.  If you encounter problems, try unsetting them.
- Please ignore spurious matches unrelated to TeX.
-
-    INFOPATH=:/usr/local/texlive/2020/texmf-dist/doc/info
-    MANPATH=:/usr/local/texlive/2020/texmf-dist/doc/man
- ----------------------------------------------------------------------
-```
-
-と表示されれば成功である。
-
 環境変数については `~/.profile` ファイルに
 
 ```bash
 # Expand $PATH to include the directory where TeX Live applications go.
 texlive_path="/usr/local/texlive/2021"
 texlive_bin_path="${texlive_path}/bin/x86_64-linux"
-if [ -n "${PATH##*${texlive_bin_path}}" -a -n "${PATH##*${texlive_bin_path}:*}" ]; then
-    export MANPATH=${MANPATH}:${texlive_path}/texmf-dist/doc/man
-    export INFOPATH=${INFOPATH}:${texlive_path}/texmf-dist/doc/info
-    export PATH=${PATH}:${texlive_bin_path}
+if [ -d "$texlive_path" -a -n "${PATH##*${texlive_bin_path}}" -a -n "${PATH##*${texlive_bin_path}:*}" ]; then
+  export PATH="$PATH:$texlive_bin_path"
 fi
+unset texlive_path texlive_bin_path
 ```
 
 と追記しておけばいいかな。
@@ -213,7 +207,14 @@ named COPYING and the LuaTeX source.
 LuaTeX is Copyright 2021 Taco Hoekwater and the LuaTeX Team.
 ```
 
-よーし，うむうむ，よーし。
+マニュアルに関しては `texdoc` コマンドを使って
+
+```text
+$ texdoc luatex
+```
+
+などとすれば対応する PDF ファイルが開く。
+便利！
 
 ## 自動実行可能な外部コマンドの指定
 
