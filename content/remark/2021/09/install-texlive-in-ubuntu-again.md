@@ -382,9 +382,9 @@ $max_repeat                  = 5;
 - [Installing TeX Live over the Internet - TeX Users Group](http://www.tug.org/texlive/acquire-netinstall.html)
 - [TeX Wiki](https://texwiki.texjp.org/)
 
-- [TeX Live を Ubuntu に（APT を使わずに）導入する | text.Baldanders.info](https://text.baldanders.info/remark/2019/04/install-texlive-in-ubuntu/)
-- [TeX Live 2018 から 2019 へのアップグレード | text.Baldanders.info](https://text.baldanders.info/remark/2019/06/upgrade-texlive-from-2018-to-2019/)
-- [TeX Live 2020 へのアップグレード | text.Baldanders.info](https://text.baldanders.info/remark/2020/04/upgrade-texlive-2020/)
+- [TeX Live を Ubuntu に（APT を使わずに）導入する]({{< ref "/remark/2019/04/install-texlive-in-ubuntu.md" >}})
+- [TeX Live 2018 から 2019 へのアップグレード]({{< ref "/remark/2019/06/upgrade-texlive-from-2018-to-2019.md" >}})
+- [TeX Live 2020 へのアップグレード]({{< ref "/remark/2020/04/upgrade-texlive-2020.md" >}})
 
 [LaTeX2ε美文書作成入門]: https://www.amazon.co.jp/dp/4297117126?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "[改訂第8版]LaTeX2ε美文書作成入門 | 奥村晴彦, 黒木裕介 |本 | 通販 | Amazon"
 [TeX Live]: http://www.tug.org/texlive/ "TeX Live - TeX Users Group"
