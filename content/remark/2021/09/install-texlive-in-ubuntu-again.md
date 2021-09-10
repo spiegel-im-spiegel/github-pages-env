@@ -289,13 +289,16 @@ $ luaotfload-tool -fu
 \setmonofont[AutoFakeSlant,BoldItalicFeatures={FakeSlant},Scale=MatchLowercase]{Inconsolatazi4} % use Inconsolata
 
 \usepackage{graphicx,xcolor}
-\usepackage{listings-golang}
+% \usepackage{listings}
+\usepackage{listings-golang} % import this package after listings
 \lstset{
     frame=single,
     basicstyle=\small\ttfamily,
     tabsize=4,
-    keywordstyle=\color{red}\bfseries,
-    stringstyle=\color{blue}
+    commentstyle=\color{darkgray},
+    keywordstyle=\color{brown}\bfseries,
+    stringstyle=\color{blue},
+    showstringspaces=false
 }
 
 \begin{document}
@@ -309,7 +312,7 @@ import "fmt"
 
 func main() {
     for i := 0; i < 10; i++ {
-        fmt.Println("Hello, world") //こんにちは World
+        fmt.Println("Hello, world") //Hello, 世界
     }
 }
 \end{lstlisting}
@@ -334,7 +337,7 @@ done
 
 これを処理した結果は以下の通り。
 
-{{< fig-img src="./sample.png" title="sample.pdf" link="./sample.pdf" width="1298" >}}
+{{< fig-img src="./sample.png" title="sample.pdf" link="./sample.pdf" width="1252" >}}
 
 うんうん。
 こんなもんだろう。
