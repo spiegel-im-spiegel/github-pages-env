@@ -29,7 +29,19 @@ pageType = "text"
 {{% quote %}}The `SetString` and `UnmarshalText` methods of [`math/big.Rat`](https://pkg.go.dev/math/big#Rat) may cause a panic or an unrecoverable fatal error if passed inputs with very large exponents{{% /quote %}}.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H`
+- 深刻度: 重要 (Score: 7.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | なし |
+| 可用性への影響 | 高 |
 
 ## [CVE-2021-33197]
 
@@ -37,7 +49,19 @@ pageType = "text"
 {{% quote %}}`ReverseProxy` in [`net/http/httputil`](https://pkg.go.dev/net/http/httputil) could be made to forward certain hop-by-hop headers, including Connection. In case the target of the `ReverseProxy` was itself a reverse proxy, this would let an attacker drop arbitrary headers, including those set by the `ReverseProxy.Director`{{% /quote %}}.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N`
+- 深刻度: 警告 (Score: 5.3)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | 低 |
+| 可用性への影響 | なし |
 
 ## [CVE-2021-33195]
 
@@ -45,7 +69,19 @@ pageType = "text"
 {{% quote %}}The `LookupCNAME`, `LookupSRV`, `LookupMX`, `LookupNS`, and `LookupAddr` functions in [`net`](https://pkg.go.dev/net), and their respective methods on the [`Resolver`](https://pkg.go.dev/net#Resolver) type may return arbitrary values retrieved from DNS which do not follow the established [RFC 1035](https://datatracker.ietf.org/doc/html/rfc1035) rules for domain names. If these names are used without further sanitization, for instance unsafely included in HTML, they may allow for injection of unexpected content. Note that `LookupTXT` may still return arbitrary values that could require sanitization before further use{{% /quote %}}.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L`
+- 深刻度: 重要 (Score: 7.3)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | 低 |
+| 完全性への影響 | 低 |
+| 可用性への影響 | 低 |
 
 ## [CVE-2021-33196]
 
@@ -53,7 +89,19 @@ pageType = "text"
 {{% quote %}}The `NewReader` and `OpenReader` functions in [`archive/zip`](https://pkg.go.dev/archive/zip) can cause a panic or an unrecoverable fatal error when reading an archive that claims to contain a large number of files, regardless of its actual size{{% /quote %}}.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H`
+- 深刻度: 重要 (Score: 7.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | なし |
+| 可用性への影響 | 高 |
 
 ## 例によって...
 
@@ -73,8 +121,6 @@ go version go1.16.5 linux/amd64
 ```
 
 アップデートは計画的に。
-
-
 
 [Go]: https://golang.org/ "The Go Programming Language"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
