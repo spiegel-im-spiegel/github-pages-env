@@ -12,6 +12,7 @@ require (
 	github.com/jonboulle/clockwork v0.2.2 // indirect
 	github.com/lestrrat-go/file-rotatelogs v2.4.0+incompatible
 	github.com/lestrrat-go/strftime v1.0.4 // indirect
+	github.com/mattn/go-gimei v0.0.0-20210910180819-e1f4dfb42ed9
 	github.com/milochristiansen/lua v1.1.7
 	github.com/pkg/errors v0.9.1
 	github.com/robpike/filter v0.0.0-20150108201509-2984852a2183
@@ -22,8 +23,9 @@ require (
 	github.com/spiegel-im-spiegel/errs v1.0.2
 	github.com/spiegel-im-spiegel/gocli v0.10.4
 	github.com/spiegel-im-spiegel/koyomi v0.1.6
+	github.com/spiegel-im-spiegel/krconv v0.1.0
 	github.com/spiegel-im-spiegel/logf v0.2.5
-	golang.org/x/text v0.3.5
+	golang.org/x/text v0.3.7
 	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
 	gopkg.in/russross/blackfriday.v2 v2.1.0
 	rsc.io/quote v1.5.2
