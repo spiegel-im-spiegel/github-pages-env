@@ -17,7 +17,7 @@ pageType = "text"
 - [Thunderbird — Release Notes (78.11.0) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.11.0/releasenotes/)
 - [Release v0.84.1 · gohugoio/hugo · GitHub](https://github.com/gohugoio/hugo/releases/tag/v0.84.1)
   - [Hugo 0.84.1: A couple of Bug Fixes | Hugo](https://gohugo.io/news/0.84.1-relnotes/)
-- [Release 4.4.10_0 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.4.10_0)
+- [Release 4.4.10_0 · nyaosorg/nyagos · GitHub](https://github.com/nyaosorg/nyagos/releases/tag/4.4.10_0)
 
 ## セキュリティ＆プライバシー関連
 

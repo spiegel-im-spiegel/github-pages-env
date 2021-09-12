@@ -27,11 +27,11 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 
 [NYAGOS] 4.3.1 がリリースされた。
 
-- [Release 4.3.1_0 · zetamatta/nyagos](https://github.com/zetamatta/nyagos/releases/tag/4.3.1_0)
+- [Release 4.3.1_0 · nyaosorg/nyagos](https://github.com/nyaosorg/nyagos/releases/tag/4.3.1_0)
 
 いくつかの起動時オプションが追加された。
 
-{{% fig-quote type="markdown" title="Release 4.3.1_0" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.1_0" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.3.1_0" link="https://github.com/nyaosorg/nyagos/releases/tag/4.3.1_0" lang="en" %}}
 
 - Support Windows10's native ESCAPE SEQUENCE processing with `--no-go-colorable` and `--enable-virtual-terminal-processing`
 - For #304,#312, added options to search for the executable from the current directory
@@ -78,7 +78,7 @@ $ hoge
 
 不具合等の改修。
 
-{{% fig-quote type="markdown" title="Release 4.3.1_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.1_1" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.3.1_1" link="https://github.com/nyaosorg/nyagos/releases/tag/4.3.1_1" lang="en" %}}
 - Remove source code for lua53.dll
 - #317: deadlock when `use "subcomplete"` is enabled and rclone.exe is found.
     - See also: [yuin/gopher-lua#181](https://github.com/yuin/gopher-lua/issues/181)
@@ -100,7 +100,7 @@ $ hoge
 
 不具合等の改修。
 
-{{% fig-quote type="markdown" title="Release 4.3.1_2" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.1_2" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.3.1_2" link="https://github.com/nyaosorg/nyagos/releases/tag/4.3.1_2" lang="en" %}}
 - #320: fix the imcompatibility: nyagos.rawexec & raweval did not expand tables in arguments.
 - --show-version-only enables --norc automatically
 
@@ -114,7 +114,7 @@ $ hoge
 
 不具合等の改修。
 
-{{% fig-quote type="markdown" title="Release 4.3.1_3" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.1_3" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.3.1_3" link="https://github.com/nyaosorg/nyagos/releases/tag/4.3.1_3" lang="en" %}}
 - #316 Fix: zero-length directory-name in %PATH% is regarded as the current directory
 - #321 Fix: key function names `previous_history` & `next_history` were not registered.
 - Add -h and --help option
@@ -132,4 +132,4 @@ $ hoge
 - Lua変数 `nyagos.option.*` の全てを nyagos.exe のコマンドラインオプションで設定できるようにした。
 {{% /fig-quote %}}
 
-[NYAGOS]: https://github.com/zetamatta/nyagos/ "zetamatta/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"
+[NYAGOS]: https://github.com/nyaosorg/nyagos/ "nyaosorg/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"

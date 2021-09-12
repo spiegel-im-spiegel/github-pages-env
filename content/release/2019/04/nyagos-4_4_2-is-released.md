@@ -14,13 +14,13 @@ pageType = "text"
 [NYAGOS] 4.4.2_0 がリリースされた。
 つか，もたもたしてたら 4.4.2_1 も出てたよ。
 
-- [Release 4.4.2_0 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.4.2_0)
-- [Release 4.4.2_1 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.4.2_1)
+- [Release 4.4.2_0 · nyaosorg/nyagos · GitHub](https://github.com/nyaosorg/nyagos/releases/tag/4.4.2_0)
+- [Release 4.4.2_1 · nyaosorg/nyagos · GitHub](https://github.com/nyaosorg/nyagos/releases/tag/4.4.2_1)
 
 変更点は以下の通り。
 盛り沢山だぞ！
 
-{{% fig-quote type="markdown" title="Release 4.4.2_0" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.2_0" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.4.2_0" link="https://github.com/nyaosorg/nyagos/releases/tag/4.4.2_0" lang="en" %}}
 - OLEオブジェクトからLuaオブジェクトへの変換が日付型などでパニックを起こす不具合を修正
 - Luaの数値が実数として OLE に渡されるべきだったのに、整数として渡されていた。
 - Lua: 関数: `nyagos.to_ole_integer(n)` (数値を OLE 向けの整数に変換)を追加(trash.lua用)
@@ -48,7 +48,7 @@ pageType = "text"
 - `diskfree` の出力フォーマットを修正
 {{% /fig-quote %}}
 
-{{% fig-quote type="markdown" title="Release 4.4.2_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.2_1" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.4.2_1" link="https://github.com/nyaosorg/nyagos/releases/tag/4.4.2_1" lang="en" %}}
 - diskfree: 行末の空白を削除
 - `~"\Program Files"` の最初の引用符が消えて、`Files` が引数に含まれない不具合を修正
 {{% /fig-quote %}}
@@ -74,10 +74,10 @@ $ select index.html
 
 ## 【2019-04-13 追記】 NYAGOS 4.4.2_2 がリリースされた
 
-{{% fig-quote type="markdown" title="Release 4.4.2_2" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.2_2" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.4.2_2" link="https://github.com/nyaosorg/nyagos/releases/tag/4.4.2_2" lang="en" %}}
 - Ctrl-RIGHT,ALT-F(次の単語へ), Ctrl-LEFT,ALT-B(前の単語へ)を実装
 - インクリメンタルサーチ開始時にトップへ移動する時のバックスペースの数が間違っていた不具合を修正
 - (#364) `ESC[0A` というエスケープシーケンスが使われていた不具合を修正
 {{% /fig-quote %}}
 
-[NYAGOS]: https://github.com/zetamatta/nyagos/ "zetamatta/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"
+[NYAGOS]: https://github.com/nyaosorg/nyagos/ "nyaosorg/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"

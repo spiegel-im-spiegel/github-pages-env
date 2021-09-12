@@ -13,11 +13,11 @@ tags  = [ "tools", "nyagos", "shell", "windows", "linux" ]
 
 [NYAGOS] 4.4.0 がリリースされた。
 
-- [Release 4.4.0_0 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.4.0_0)
+- [Release 4.4.0_0 · nyaosorg/nyagos · GitHub](https://github.com/nyaosorg/nyagos/releases/tag/4.4.0_0)
 
 変更点は以下の通り。
 
-{{% fig-quote type="markdown" title="Release 4.4.0_beta" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.0_beta" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.4.0_beta" link="https://github.com/nyaosorg/nyagos/releases/tag/4.4.0_beta" lang="en" %}}
 - Support Linux (experimental)
 - Fix the problem that current directories per drive were not inherited to child processes.
 - Use the library "mattn/go-tty" instead of "zetamatta/go-getch"
@@ -46,7 +46,7 @@ tags  = [ "tools", "nyagos", "shell", "windows", "linux" ]
 {{% /fig-quote %}}
 
 
-{{% fig-quote type="markdown" title="Release 4.4.0_0" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.0_0" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.4.0_0" link="https://github.com/nyaosorg/nyagos/releases/tag/4.4.0_0" lang="en" %}}
 - Remove beta
 - To call a batchfile, stop to use `/V:ON` for CMD.EXE
 
@@ -64,9 +64,9 @@ tags  = [ "tools", "nyagos", "shell", "windows", "linux" ]
 
 ## 【追記 2019-01-19】 NYAGOS 4.4.0_1 がリリースされた
 
-- [Release 4.4.0_1 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.4.0_1)
+- [Release 4.4.0_1 · nyaosorg/nyagos · GitHub](https://github.com/nyaosorg/nyagos/releases/tag/4.4.0_1)
 
-{{% fig-quote type="markdown" title="Release 4.4.0_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.4.0_1" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.4.0_1" link="https://github.com/nyaosorg/nyagos/releases/tag/4.4.0_1" lang="en" %}}
 - Abolished "--go-colorable" and "--enable-virtual-terminal-processing"
 - Implemented `killall`
 - Implemented `copy` and `move` for Linux
@@ -84,4 +84,4 @@ tags  = [ "tools", "nyagos", "shell", "windows", "linux" ]
 
 - [「GNU Bash 5.0」リリース、10年ぶりのメジャーバージョンアップ － Publickey](https://www.publickey1.jp/blog/19/gnu_bash_5010.html)
 
-[NYAGOS]: https://github.com/zetamatta/nyagos/ "zetamatta/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"
+[NYAGOS]: https://github.com/nyaosorg/nyagos/ "nyaosorg/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"

@@ -13,7 +13,7 @@ title = "Lua のモジュール"
 [NYAGOS] 4.1.0_0 がリリースされた。
 主な変更点は `ln` コマンドが追加されたことのようだ。
 
-- [Release 4.1.0_0 · zetamatta/nyagos](https://github.com/zetamatta/nyagos/releases/tag/4.1.0_0)
+- [Release 4.1.0_0 · nyaosorg/nyagos](https://github.com/nyaosorg/nyagos/releases/tag/4.1.0_0)
 
 ただ，私の場合はより切実な問題があって， `-f` オプションで [Lua] のスクリプトを実行させた場合に `module()` 関数が使えなくなった。
 [Lua] は不案内なので知らなかったのだが `module()` 関数は [Lua] 5.2 で deprecated になっていたらしい。

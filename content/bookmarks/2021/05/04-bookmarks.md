@@ -20,7 +20,7 @@ pageType = "text"
   - [Release v0.83.0 · gohugoio/hugo · GitHub](https://github.com/gohugoio/hugo/releases/tag/v0.83.0)
 - [Hugo 0.83.1: One Bug Fix | Hugo](https://gohugo.io/news/0.83.1-relnotes/)
   - [Release v0.83.1 · gohugoio/hugo · GitHub](https://github.com/gohugoio/hugo/releases/tag/v0.83.1)
-- [Release 4.4.9_5 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.4.9_5)
+- [Release 4.4.9_5 · nyaosorg/nyagos · GitHub](https://github.com/nyaosorg/nyagos/releases/tag/4.4.9_5)
 - [Release v0.4.12 · zetamatta/go-readline-ny · GitHub](https://github.com/zetamatta/go-readline-ny/releases/tag/v0.4.12)
 
 ## セキュリティ＆プライバシー関連

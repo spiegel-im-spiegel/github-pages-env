@@ -548,7 +548,7 @@ GrapeCity が公開してるのか。
 [Go]: https://golang.org/ "The Go Programming Language"
 [go-plus]: https://atom.io/packages/go-plus
 [gopls]: https://pkg.go.dev/golang.org/x/tools/gopls "gopls · pkg.go.dev"
-[NYAGOS]: https://github.com/zetamatta/nyagos/ "zetamatta/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"
+[NYAGOS]: https://github.com/nyaosorg/nyagos/ "nyaosorg/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"
 [EditorConfig]: https://editorconfig.org/
 
 ## 参考図書

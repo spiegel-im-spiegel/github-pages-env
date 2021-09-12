@@ -26,7 +26,7 @@ pageType = "text"
 - [Thunderbird — Release Notes (78.10.2) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.10.2/releasenotes/)
 - [Release v0.26.1: Update CI on the stable-v0.26 branch (#2921) · bytecodealliance/wasmtime · GitHub](https://github.com/bytecodealliance/wasmtime/releases/tag/v0.26.1)
 - [Release v0.27.0: Merge pull request #2924 from cfallin/remove-readme-wasi-tokio · bytecodealliance/wasmtime · GitHub](https://github.com/bytecodealliance/wasmtime/releases/tag/v0.27.0)
-- [Release 4.4.9_7 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.4.9_7)
+- [Release 4.4.9_7 · nyaosorg/nyagos · GitHub](https://github.com/nyaosorg/nyagos/releases/tag/4.4.9_7)
 
 ## セキュリティ＆プライバシー関連
 

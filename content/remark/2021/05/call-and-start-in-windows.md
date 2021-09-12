@@ -186,4 +186,4 @@ Hello, Bob!
 - [/bin/shに慣れた人に贈るバッチファイルの書き方](https://zenn.dev/zetamatta/books/c84cbe23093eee1b5830) : バッチ処理を組む際に参考になる。オススメ
 - [GnuPG for Windows : gpg-agent について]({{< ref "/openpgp/using-gnupg-for-windows-2.md" >}})
 
-[NYAGOS]: https://github.com/zetamatta/nyagos "zetamatta/nyagos: NYAGOS - The hybrid Commandline Shell betweeeeeeen UNIX & DOS"
+[NYAGOS]: https://github.com/nyaosorg/nyagos "nyaosorg/nyagos: NYAGOS - The hybrid Commandline Shell betweeeeeeen UNIX & DOS"

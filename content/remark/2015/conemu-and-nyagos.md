@@ -30,9 +30,9 @@ title = "ようやく ConEmu と NYAGOS を導入した"
 ## NYAGOS の導入
 
 - [NYAOS.ORG - NYAGOS](http://www.nyaos.org/index.cgi?p=NYAGOS)
-    - [zetamatta/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows](https://github.com/zetamatta/nyagos)
+    - [nyaosorg/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows](https://github.com/nyaosorg/nyagos)
 
-以前 [NYAGOS] を導入した時は[どえら苦労した](http://qiita.com/spiegel-im-spiegel/items/9c11acf72fa38ef379f8)が[^a]，[最近のバージョン](https://github.com/zetamatta/nyagos/releases)は64ビット版のビルド済みのものがある。
+以前 [NYAGOS] を導入した時は[どえら苦労した](http://qiita.com/spiegel-im-spiegel/items/9c11acf72fa38ef379f8)が[^a]，[最近のバージョン](https://github.com/nyaosorg/nyagos/releases)は64ビット版のビルド済みのものがある。
 ありがたくこのまま使わせて頂く[^nyole1]。
 
 [^a]: まぁこれは [MSYS2] を試すきっかけになったので，結果的にはよかったのだが。  [MSYS2] の記事はそのうちちゃんと書かないといけないなぁ。

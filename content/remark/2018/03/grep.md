@@ -77,4 +77,4 @@ $ grep grep **/*.lua
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [mattn/go-iconv]: https://github.com/mattn/go-iconv "mattn/go-iconv: iconv binding for golang"
 [`jvgrep`]: https://github.com/mattn/jvgrep "mattn/jvgrep: grep for japanese vimmer"
-[NYAGOS]: https://github.com/zetamatta/nyagos/ "zetamatta/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"
+[NYAGOS]: https://github.com/nyaosorg/nyagos/ "nyaosorg/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"

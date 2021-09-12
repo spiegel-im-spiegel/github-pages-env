@@ -31,13 +31,13 @@ tags  = [ "tools", "nyagos", "shell", "windows", "lua", "golang" ]
 
 - [nyagos で lua53.dll のかわりに GopherLua を使おう - Qiita](https://qiita.com/zetamatta/items/112484eb7fdae87830a0)
     - [続・nyagos で lua53.dll のかわりに GopherLua を使おう - Qiita](https://qiita.com/zetamatta/items/18597ed77c4574796c7b)
-- [Release 4.3_beta · zetamatta/nyagos](https://github.com/zetamatta/nyagos/releases/tag/4.3_beta)
-- [Release 4.3_beta2 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.3_beta2)
-- [Release 4.3.0_0 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.3.0_0)
+- [Release 4.3_beta · nyaosorg/nyagos](https://github.com/nyaosorg/nyagos/releases/tag/4.3_beta)
+- [Release 4.3_beta2 · nyaosorg/nyagos · GitHub](https://github.com/nyaosorg/nyagos/releases/tag/4.3_beta2)
+- [Release 4.3.0_0 · nyaosorg/nyagos · GitHub](https://github.com/nyaosorg/nyagos/releases/tag/4.3.0_0)
 
 以下に変更点をまとめて紹介する。
 
-{{% fig-quote type="markdown" title="Release 4.3.0_0" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.0_0" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.3.0_0" link="https://github.com/nyaosorg/nyagos/releases/tag/4.3.0_0" lang="en" %}}
 - **Use Gopher-Lua instead of lua53.dll** #300
     - nyagos with lua53.dll (mains.exe) can be built with `cd mains ; go build`
     - nyagos with no Lua (ngs.exe) can be built with `cd ngs ; go build`
@@ -99,11 +99,11 @@ C:\Users\username\AppData\Roaming\NYAOS_ORG\amd64.nyagos.luac line:1(column:1) n
 
 ## 【追記 2018-05-07】 [NYAGOS] 4.3.0_1 がリリース
 
-- [Release 4.3.0_1 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.3.0_1)
+- [Release 4.3.0_1 · nyaosorg/nyagos · GitHub](https://github.com/nyaosorg/nyagos/releases/tag/4.3.0_1)
 
 不具合の修正のみ。
 
-{{% fig-quote type="markdown" title="Release 4.3.0_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.0_1" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.3.0_1" link="https://github.com/nyaosorg/nyagos/releases/tag/4.3.0_1" lang="en" %}}
 - Fix: nyagos.d/start.lua did not worked because the member `rawargs` of alias-function's argument was not implemented.
 - Fix: the return value of alias-function was not evaluted.
 - Fix: for the script in -e option, `arg[]` was not assinged.
@@ -121,11 +121,11 @@ C:\Users\username\AppData\Roaming\NYAOS_ORG\amd64.nyagos.luac line:1(column:1) n
 
 ## 【追記 2018-05-07】 [NYAGOS] 4.3.0_2 がリリース
 
-- [Release 4.3.0_2 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.3.0_2)
+- [Release 4.3.0_2 · nyaosorg/nyagos · GitHub](https://github.com/nyaosorg/nyagos/releases/tag/4.3.0_2)
 
 不具合の修正のみ。
 
-{{% fig-quote type="markdown" title="Release 4.3.0_2" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.0_2" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.3.0_2" link="https://github.com/nyaosorg/nyagos/releases/tag/4.3.0_2" lang="en" %}}
 - #305: Fix issue that user's .nyagos was not loaded again (Thx! @erw7)
 
 ----
@@ -135,12 +135,12 @@ C:\Users\username\AppData\Roaming\NYAOS_ORG\amd64.nyagos.luac line:1(column:1) n
 
 ## 【追記 2018-05-10】 [NYAGOS] 4.3.0_3 がリリース
 
-- [Release 4.3.0_3 · zetamatta/nyagos](https://github.com/zetamatta/nyagos/releases/tag/4.3.0_3)
+- [Release 4.3.0_3 · nyaosorg/nyagos](https://github.com/nyaosorg/nyagos/releases/tag/4.3.0_3)
 
 不具合の修正。
 着々と改善されています。
 
-{{% fig-quote type="markdown" title="Release 4.3.0_3" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.0_3" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.3.0_3" link="https://github.com/nyaosorg/nyagos/releases/tag/4.3.0_3" lang="en" %}}
 - Fix: forgot implement nyagos.setalias , nyagos.getalias (`alias { CMD=XXX}` did not work.)
 - Fix: that the element [0] of the table value returned by alias-function was not used as the new command name to evaluate.
 - Fix: `doc/09-Build_*.md` about how to download sourcefiles from github
@@ -154,12 +154,12 @@ C:\Users\username\AppData\Roaming\NYAOS_ORG\amd64.nyagos.luac line:1(column:1) n
 
 ## 【追記 2018-05-13】 [NYAGOS] 4.3.0_4 がリリース
 
-- [Release 4.3.0_4 · zetamatta/nyagos](https://github.com/zetamatta/nyagos/releases/tag/4.3.0_4)
+- [Release 4.3.0_4 · nyaosorg/nyagos](https://github.com/nyaosorg/nyagos/releases/tag/4.3.0_4)
 
 不具合の修正。
 着々と改善されています。
 
-{{% fig-quote type="markdown" title="Release 4.3.0_3" link="https://github.com/zetamatta/nyagos/releases/tag/4.3.0_3" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.3.0_3" link="https://github.com/nyaosorg/nyagos/releases/tag/4.3.0_3" lang="en" %}}
 - Fix: #309 nyagos.getkey() raised panic (Thx @nocd5)
 - Fix: error-message when command `lnk`'s target is not `*.lnk` nor exist.
 - Fix: the cursor blink was switched to off on the child process.
@@ -176,7 +176,7 @@ C:\Users\username\AppData\Roaming\NYAOS_ORG\amd64.nyagos.luac line:1(column:1) n
 - [inforno :: LuaのGo言語実装を公開しました](http://inforno.net/articles/2015/02/15/gopher-lua-released)
 - [nyagos 4.3でもmigemoでディレクトリ移動したい! - Qiita](https://qiita.com/nocd5/items/1736064cd9ee652d5920)
 
-[NYAGOS]: https://github.com/zetamatta/nyagos/ "zetamatta/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"
+[NYAGOS]: https://github.com/nyaosorg/nyagos/ "nyaosorg/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"
 [GopherLua]: https://github.com/yuin/gopher-lua "yuin/gopher-lua: GopherLua: VM and compiler for Lua in Go"
 [Lua]: https://www.lua.org/ "The Programming Language Lua"
 [Go 言語]: https://golang.org/ "The Go Programming Language"

@@ -25,7 +25,7 @@ image = "/images/avatar.jpg"
 
 - [「Firefox 64」が正式公開 ～複数タブの選択やタブ・アドオンの電力消費確認に対応 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1157921.html)
 - [Release Version 3.00.00 · gitextensions/gitextensions · GitHub](https://github.com/gitextensions/gitextensions/releases/tag/v3.00.00)
-- [Release 4.3.3_4 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.3.3_4)
+- [Release 4.3.3_4 · nyaosorg/nyagos · GitHub](https://github.com/nyaosorg/nyagos/releases/tag/4.3.3_4)
 - [Release Git for Windows 2.20.0 · git-for-windows/git · GitHub](https://github.com/git-for-windows/git/releases/tag/v2.20.0.windows.1)
 - [Release Git for Windows 2.20.1 · git-for-windows/git · GitHub](https://github.com/git-for-windows/git/releases/tag/v2.20.1.windows.1)
 - [「Oracle VM VirtualBox 6.0」が正式版に ～「Hyper-V」フォールバックをサポート - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1159338.html)

@@ -21,7 +21,7 @@ title = "NYAGOS 4.1-beta がリリース"
   url = "https://baldanders.info/profile/"
 +++
 
-ここのところ忙しくしてたら，いつの間にか [NYAGOS] の [4.1-beta](https://github.com/zetamatta/nyagos/releases/tag/4.1-beta) が出てた。
+ここのところ忙しくしてたら，いつの間にか [NYAGOS] の [4.1-beta](https://github.com/nyaosorg/nyagos/releases/tag/4.1-beta) が出てた。
 4.1 で大きく変わったのはコールバック関数の扱いのようだ。
 
 - クラッシュ回避のため、全てのLua のコールバック関数はそれぞれの Lua インスタンスを持つようにした。（つまり、.nyagos で定義されたグローバル変数は、全てのコールバック関数から見ることができなくなった）

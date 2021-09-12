@@ -27,11 +27,11 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 
 [NYAGOS] 4.2.4_0 がリリースされた。
 
-- [Release 4.2.4_0 · zetamatta/nyagos](https://github.com/zetamatta/nyagos/releases/tag/4.2.4_0)
+- [Release 4.2.4_0 · nyaosorg/nyagos](https://github.com/nyaosorg/nyagos/releases/tag/4.2.4_0)
 
 細かい機能の変更や修正がメイン。
 
-{{% fig-quote type="markdown" title="Release 4.2.4_0" link="https://github.com/zetamatta/nyagos/releases/tag/4.2.4_0" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.2.4_0" link="https://github.com/nyaosorg/nyagos/releases/tag/4.2.4_0" lang="en" %}}
 - lua: ole: `variable = OLE.property` is avaliable instead of `OLE:_get('property')`
 - lua: ole: `OLE.property = value` is avaliable instead of `OLE:_set('property',value)`
 - Load `nyagos.d/*.ny` as batchlike file
@@ -76,4 +76,4 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 - [ようやく ConEmu と NYAGOS を導入した]({{< ref "/remark/2015/conemu-and-nyagos.md">}})
 - [NYAGOS で Lua]({{< ref "/remark/2015/nyagos-and-lua.md">}})
 
-[NYAGOS]: https://github.com/zetamatta/nyagos/ "zetamatta/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"
+[NYAGOS]: https://github.com/nyaosorg/nyagos/ "nyaosorg/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"

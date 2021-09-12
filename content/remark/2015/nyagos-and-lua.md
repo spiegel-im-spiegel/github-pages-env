@@ -61,7 +61,7 @@ C:\Users\username
 
 となる。
 
-[Lua] 拡張については[ドキュメント](https://github.com/zetamatta/nyagos/blob/master/Doc/07-LuaFunctions_ja.md)を参照するとよいだろう。
+[Lua] 拡張については[ドキュメント](https://github.com/nyaosorg/nyagos/blob/master/Doc/07-LuaFunctions_ja.md)を参照するとよいだろう。
 特筆すべきは `alias` 機能で，単純なコマンドの置き換えだけでなく
 
 ```

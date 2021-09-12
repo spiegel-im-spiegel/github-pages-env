@@ -29,13 +29,13 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 
 [NYAGOS] 4.2.5 がリリースされた。
 
-- [Release 4.2.5_beta · zetamatta/nyagos](https://github.com/zetamatta/nyagos/releases/tag/4.2.5_beta)
-- [Release 4.2.5_beta2 · zetamatta/nyagos](https://github.com/zetamatta/nyagos/releases/tag/4.2.5_beta2)
-- [Release 4.2.5_0 · zetamatta/nyagos](https://github.com/zetamatta/nyagos/releases/tag/4.2.5_0)
+- [Release 4.2.5_beta · nyaosorg/nyagos](https://github.com/nyaosorg/nyagos/releases/tag/4.2.5_beta)
+- [Release 4.2.5_beta2 · nyaosorg/nyagos](https://github.com/nyaosorg/nyagos/releases/tag/4.2.5_beta2)
+- [Release 4.2.5_0 · nyaosorg/nyagos](https://github.com/nyaosorg/nyagos/releases/tag/4.2.5_0)
 
 以下に変更点をまとめて紹介する。
 
-{{% fig-quote type="markdown" title="Release 4.2.5" link="https://github.com/zetamatta/nyagos/releases/tag/4.2.5_0" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.2.5" link="https://github.com/nyaosorg/nyagos/releases/tag/4.2.5_0" lang="en" %}}
 - Read the value of environment variables and the current directory that a batchfile changed like CMD.EXE.
 - And refactored a lot of source files
 - Fix: #296 the batchfile could not be executed when the username contains multibyte-character.
@@ -71,11 +71,11 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 
 ## 【追記 2018-04-18】 [NYAGOS] 4.2.5_1 がリリース
 
-- [Release 4.2.5_1 · zetamatta/nyagos](https://github.com/zetamatta/nyagos/releases/tag/4.2.5_1)
+- [Release 4.2.5_1 · nyaosorg/nyagos](https://github.com/nyaosorg/nyagos/releases/tag/4.2.5_1)
 
 不具合の修正のみ。
 
-{{% fig-quote type="markdown" title="Release 4.2.5_1" link="https://github.com/zetamatta/nyagos/releases/tag/4.2.5_1" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.2.5_1" link="https://github.com/nyaosorg/nyagos/releases/tag/4.2.5_1" lang="en" %}}
 - Fix: `if [not] errorlevel N` did not work on block-if.
 - Fix: that `ls -1F` did not show the indicator such as `/`,`*` or `@`.
 - Fix: the problem that executables reparse-pointed but not symbolic-linked can not be found. ★
@@ -164,4 +164,4 @@ C:> set b2
 - [.bat（バッチファイル）のforコマンド解説。 - Qiita](https://qiita.com/sawa_tsuka/items/67be34bab1fdf3fb87f9)
 - [バッチファイル界の魔境『遅延環境変数』に挑む（おまけもあるよ） - Qiita](https://qiita.com/sawa_tsuka/items/c7c477cacf8c97792e17)
 
-[NYAGOS]: https://github.com/zetamatta/nyagos/ "zetamatta/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"
+[NYAGOS]: https://github.com/nyaosorg/nyagos/ "nyaosorg/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"

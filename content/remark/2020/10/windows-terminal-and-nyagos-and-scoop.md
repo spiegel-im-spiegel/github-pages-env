@@ -413,7 +413,7 @@ Home: C:/Users/username/scoop/apps/gnupg/current/home
 [ATOM]: https://atom.io/ "Atom"
 [Scoop]: https://scoop.sh/ "Scoop"
 [Chocolatey]: https://chocolatey.org/ "Chocolatey Software | Chocolatey - The package manager for Windows"
-[NYAGOS]: https://github.com/zetamatta/nyagos "zetamatta/nyagos: NYAGOS - The hybrid Commandline Shell betweeeeeeen UNIX & DOS"
+[NYAGOS]: https://github.com/nyaosorg/nyagos "nyaosorg/nyagos: NYAGOS - The hybrid Commandline Shell betweeeeeeen UNIX & DOS"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 
 ## 参考図書

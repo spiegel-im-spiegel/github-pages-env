@@ -15,7 +15,7 @@ pageType = "text"
 - [SmartGit 20.2.5 – syntevo blog](https://www.syntevo.com/blog/?p=5110)
 - [Release April 2021 · microsoft/vscode · GitHub](https://github.com/microsoft/vscode/releases/tag/1.56.0)
 - [Release gopls/v0.6.11 · golang/tools · GitHub](https://github.com/golang/tools/releases/tag/gopls/v0.6.11)
-- [Release 4.4.9_6 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.4.9_6)
+- [Release 4.4.9_6 · nyaosorg/nyagos · GitHub](https://github.com/nyaosorg/nyagos/releases/tag/4.4.9_6)
 - [Thunderbird — Release Notes (78.10.1) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/78.10.1/releasenotes/)
 - [Firefox  88.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/88.0.1/releasenotes/)
   - [Security Vulnerabilities fixed in Firefox 88.0.1, Firefox for Android 88.1.3 — Mozilla](https://www.mozilla.org/en-US/security/advisories/mfsa2021-20/)

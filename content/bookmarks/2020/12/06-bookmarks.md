@@ -14,7 +14,7 @@ pageType = "text"
 
 - [Release gopls/v0.5.4 · golang/tools · GitHub](https://github.com/golang/tools/releases/tag/gopls/v0.5.4)
 - [Release gopls/v0.5.5 · golang/tools · GitHub](https://github.com/golang/tools/releases/tag/gopls/v0.5.5)
-- [Release 4.4.9_0 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.4.9_0)
+- [Release 4.4.9_0 · nyaosorg/nyagos · GitHub](https://github.com/nyaosorg/nyagos/releases/tag/4.4.9_0)
 - [Release 8.8.4 · mermaid-js/mermaid · GitHub](https://github.com/mermaid-js/mermaid/releases/tag/v8.8.4)
 
 ## セキュリティ＆プライバシー関連

@@ -151,7 +151,7 @@ func main() {
 [Go]: https://golang.org/ "The Go Programming Language"
 [ml]: https://github.com/spiegel-im-spiegel/ml "spiegel-im-spiegel/ml: Make Link with Markdown Format"
 [go-readline-ny]: https://github.com/zetamatta/go-readline-ny "zetamatta/go-readline-ny: Readline library for golang , used in nyagos"
-[NYAGOS]: https://github.com/zetamatta/nyagos "zetamatta/nyagos: NYAGOS - The hybrid Commandline Shell betweeeeeeen UNIX & DOS"
+[NYAGOS]: https://github.com/nyaosorg/nyagos "nyaosorg/nyagos: NYAGOS - The hybrid Commandline Shell betweeeeeeen UNIX & DOS"
 
 ## 参考図書
 

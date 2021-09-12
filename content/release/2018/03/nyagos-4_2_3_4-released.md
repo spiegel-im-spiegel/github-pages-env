@@ -27,11 +27,11 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 
 [NYAGOS] 4.2.3_4 がリリースされた。
 
-- [Release 4.2.3_4 (bug fixes) · zetamatta/nyagos](https://github.com/zetamatta/nyagos/releases/tag/4.2.3_4)
+- [Release 4.2.3_4 (bug fixes) · nyaosorg/nyagos](https://github.com/nyaosorg/nyagos/releases/tag/4.2.3_4)
 
 今回は不具合の修正がメインのようだ。
 
-{{% fig-quote type="markdown" title="Release 4.2.3_4 (bug fixes)" link="https://github.com/zetamatta/nyagos/releases/tag/4.2.3_4" lang="en" %}}
+{{% fig-quote type="markdown" title="Release 4.2.3_4 (bug fixes)" link="https://github.com/nyaosorg/nyagos/releases/tag/4.2.3_4" lang="en" %}}
 - `ls -?` for help instead of `ls -h`
 - Building with go build instead of make.cmd, print version as `snapshot-GOARCH`
 - Show an error when `type DIRECTORY` is executed.
@@ -62,4 +62,4 @@ tags  = [ "tools", "nyagos", "shell", "windows" ]
 - [ようやく ConEmu と NYAGOS を導入した]({{< ref "/remark/2015/conemu-and-nyagos.md">}})
 - [NYAGOS で Lua]({{< ref "/remark/2015/nyagos-and-lua.md">}})
 
-[NYAGOS]: https://github.com/zetamatta/nyagos/ "zetamatta/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"
+[NYAGOS]: https://github.com/nyaosorg/nyagos/ "nyaosorg/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"

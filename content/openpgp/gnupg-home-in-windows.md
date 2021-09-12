@@ -107,7 +107,7 @@ Windows 版の場合  `gpgconf.ctl` ファイルによる HOME の指定が優�
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 [Scoop]: https://scoop.sh/ "Scoop"
 [Chocolatey]: https://chocolatey.org/ "Chocolatey Software | Chocolatey - The package manager for Windows"
-[NYAGOS]: https://github.com/zetamatta/nyagos "zetamatta/nyagos: NYAGOS - The hybrid Commandline Shell betweeeeeeen UNIX & DOS"
+[NYAGOS]: https://github.com/nyaosorg/nyagos "nyaosorg/nyagos: NYAGOS - The hybrid Commandline Shell betweeeeeeen UNIX & DOS"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 
 ## 参考図書

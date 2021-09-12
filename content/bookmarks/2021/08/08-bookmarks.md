@@ -14,7 +14,7 @@ pageType = "text"
 
 - [Announcement of LibreOffice 7.1.5 Community - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2021/07/22/libreoffice-7-1-5-community/)
 - [Firefox  90.0.1, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/90.0.1/releasenotes/)
-- [Release 4.4.10_2 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.4.10_2)
+- [Release 4.4.10_2 · nyaosorg/nyagos · GitHub](https://github.com/nyaosorg/nyagos/releases/tag/4.4.10_2)
 - [Release 1.58.0 · atom/atom · GitHub](https://github.com/atom/atom/releases/tag/v1.58.0)
 - [Hugo 0.86.0: Cascade in Config | Hugo](https://gohugo.io/news/0.86.0-relnotes/)
 - [Firefox  90.0.2, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/90.0.2/releasenotes/)

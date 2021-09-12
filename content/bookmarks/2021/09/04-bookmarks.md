@@ -12,7 +12,7 @@ pageType = "text"
 
 ## リリース情報
 
-- [Release 4.4.10_3 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.4.10_3)
+- [Release 4.4.10_3 · nyaosorg/nyagos · GitHub](https://github.com/nyaosorg/nyagos/releases/tag/4.4.10_3)
 - [Go 1.17 Update | Hugo](https://gohugo.io/news/0.88.0-relnotes/)
 - [Release August 2021 · microsoft/vscode · GitHub](https://github.com/microsoft/vscode/releases/tag/1.60.0)
 

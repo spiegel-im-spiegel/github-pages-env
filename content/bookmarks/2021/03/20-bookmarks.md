@@ -15,7 +15,7 @@ pageType = "text"
 - [Release v1.38.0 · golangci/golangci-lint · GitHub](https://github.com/golangci/golangci-lint/releases/tag/v1.38.0)
 - [LibreOffice 7.1.1 Community available for download - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2021/03/04/libreoffice-711/)
 - [Release February 2021 · microsoft/vscode · GitHub](https://github.com/microsoft/vscode/releases/tag/1.54.0)- [Release February 2021 Recovery · microsoft/vscode · GitHub](https://github.com/microsoft/vscode/releases/tag/1.54.1)
-- [Release 4.4.9_4 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.4.9_4)
+- [Release 4.4.9_4 · nyaosorg/nyagos · GitHub](https://github.com/nyaosorg/nyagos/releases/tag/4.4.9_4)
 - [Release 1.55.0 · atom/atom · GitHub](https://github.com/atom/atom/releases/tag/v1.55.0)
 - [Release v1.0.16 · sonatype-nexus-community/nancy · GitHub](https://github.com/sonatype-nexus-community/nancy/releases/tag/v1.0.16)
 - [Release February 2021 Recovery 2 · microsoft/vscode · GitHub](https://github.com/microsoft/vscode/releases/tag/1.54.2)

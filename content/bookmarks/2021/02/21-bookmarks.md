@@ -25,7 +25,7 @@ pageType = "text"
 - [Release v0.4.3 · zetamatta/go-readline-ny · GitHub](https://github.com/zetamatta/go-readline-ny/releases/tag/v0.4.3)
 - [Release v1.37.0 · golangci/golangci-lint · GitHub](https://github.com/golangci/golangci-lint/releases/tag/v1.37.0)
 - [Release 8.9.1 · mermaid-js/mermaid · GitHub](https://github.com/mermaid-js/mermaid/releases/tag/8.9.1)
-- [Release 4.4.9_3 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.4.9_3)
+- [Release 4.4.9_3 · nyaosorg/nyagos · GitHub](https://github.com/nyaosorg/nyagos/releases/tag/4.4.9_3)
 - [Hugo 0.81.0: The Smorgasbord Edition | Hugo](https://gohugo.io/news/0.81.0-relnotes/)
     - [Release v0.81.0 · gohugoio/hugo · GitHub](https://github.com/gohugoio/hugo/releases/tag/v0.81.0)
 - [Release v1.37.1 · golangci/golangci-lint · GitHub](https://github.com/golangci/golangci-lint/releases/tag/v1.37.1)

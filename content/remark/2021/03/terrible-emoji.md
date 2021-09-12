@@ -326,6 +326,6 @@ Unicode における「絵文字」黎明期の話は，[小形克宏](https://o
 [gnkf]: https://github.com/spiegel-im-spiegel/gnkf "spiegel-im-spiegel/gnkf: Network Kanji Filter by Golang"
 [rivo/uniseg]: https://github.com/rivo/uniseg "rivo/uniseg: Unicode Text Segmentation for Go (or: How to Count Characters in a String)"
 [zetamatta/go-readline-ny]: https://github.com/zetamatta/go-readline-ny "zetamatta/go-readline-ny: Readline library for golang , used in nyagos"
-[NYAGOS]: https://github.com/zetamatta/nyagos "zetamatta/nyagos: NYAGOS - The hybrid Commandline Shell betweeeeeeen UNIX & DOS"
+[NYAGOS]: https://github.com/nyaosorg/nyagos "nyaosorg/nyagos: NYAGOS - The hybrid Commandline Shell betweeeeeeen UNIX & DOS"
 [Zenn]: https://zenn.dev/ "Zenn｜エンジニアのための情報共有コミュニティ"
 [Full Emoji List]: https://unicode.org/emoji/charts/full-emoji-list.html

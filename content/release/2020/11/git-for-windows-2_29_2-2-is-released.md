@@ -82,7 +82,7 @@ This occurs because on Windows, Go includes (and prefers) the current directory 
 [Git LFS]: https://git-lfs.github.com/ "Git Large File Storage | Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server like GitHub.com or GitHub Enterprise."
 [Go]: https://golang.org/ "The Go Programming Language"
 [`exec`]: https://golang.org/pkg/os/exec/ "exec - The Go Programming Language"
-[NYAGOS]: https://github.com/zetamatta/nyagos "zetamatta/nyagos: NYAGOS - The hybrid Commandline Shell betweeeeeeen UNIX & DOS"
+[NYAGOS]: https://github.com/nyaosorg/nyagos "nyaosorg/nyagos: NYAGOS - The hybrid Commandline Shell betweeeeeeen UNIX & DOS"
 [CVE-2021-21237]: https://nvd.nist.gov/vuln/detail/CVE-2021-21237
 
 <!-- eof -->

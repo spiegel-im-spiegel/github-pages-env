@@ -24,7 +24,7 @@ pageType = "text"
 [platformio-ide-terminal]: https://atom.io/packages/platformio-ide-terminal
 [x-terminal]: https://atom.io/packages/x-terminal
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
-[NYAGOS]: https://github.com/zetamatta/nyagos "zetamatta/nyagos: NYAGOS - The hybrid Commandline Shell betweeeeeeen UNIX & DOS"
+[NYAGOS]: https://github.com/nyaosorg/nyagos "nyaosorg/nyagos: NYAGOS - The hybrid Commandline Shell betweeeeeeen UNIX & DOS"
 {{< /div-box >}}
 
 最近は猫も杓子も Vim か VSCode で寂しい限りだが， [ATOM] 1.41 がリリースされ，ようやく [Electron] 4 ベースの構成になった。

@@ -19,7 +19,7 @@ pageType = "text"
 - [Release v0.84.4 · gohugoio/hugo · GitHub](https://github.com/gohugoio/hugo/releases/tag/v0.84.4)
   - [Hugo 0.84.4: A couple of Bug Fixes | Hugo](https://gohugo.io/news/0.84.4-relnotes/)
 - [Release 0.19.0 · tinygo-org/tinygo · GitHub](https://github.com/tinygo-org/tinygo/releases/tag/v0.19.0)
-- [Release 4.4.10_1 · zetamatta/nyagos · GitHub](https://github.com/zetamatta/nyagos/releases/tag/4.4.10_1)
+- [Release 4.4.10_1 · nyaosorg/nyagos · GitHub](https://github.com/nyaosorg/nyagos/releases/tag/4.4.10_1)
 - [Release v1.2.1 · spf13/cobra · GitHub](https://github.com/spf13/cobra/releases/tag/v1.2.1)
 
 ## セキュリティ＆プライバシー関連

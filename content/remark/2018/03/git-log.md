@@ -106,5 +106,5 @@ $ gitlog v0.6.0 v0.7.0 | grep -v Merge
 [GitHub]: https://github.com/ "GitHub"
 [GoReleaser]: https://goreleaser.com/ "GoReleaser | Deliver Go binaries as fast and easily as possible"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[NYAGOS]: https://github.com/zetamatta/nyagos/ "zetamatta/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"
+[NYAGOS]: https://github.com/nyaosorg/nyagos/ "nyaosorg/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"
 [Lua]: https://www.lua.org/ "The Programming Language Lua"

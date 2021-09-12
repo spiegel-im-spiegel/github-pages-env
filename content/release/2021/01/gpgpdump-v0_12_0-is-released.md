@@ -57,7 +57,7 @@ $ gpgpdump completion -h
 [RFC 4880bis]: https://datatracker.ietf.org/doc/draft-ietf-openpgp-rfc4880bis/
 [Go]: https://golang.org/ "The Go Programming Language"
 [cobra]: https://github.com/spf13/cobra "spf13/cobra: A Commander for modern Go CLI interactions"
-[NYAGOS]: https://github.com/zetamatta/nyagos "zetamatta/nyagos: NYAGOS - The hybrid Commandline Shell betweeeeeeen UNIX & DOS"
+[NYAGOS]: https://github.com/nyaosorg/nyagos "nyaosorg/nyagos: NYAGOS - The hybrid Commandline Shell betweeeeeeen UNIX & DOS"
 
 ## 参考図書
 
