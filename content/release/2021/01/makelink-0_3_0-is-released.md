@@ -1,7 +1,7 @@
 +++
 title = "spiegel-im-spiegel/ml v0.3.0 をリリースした"
 date =  "2021-01-03T16:12:38+09:00"
-description = "ひょっとして zetamatta/go-readline-ny パッケージ使ったら CUI の簡易プロンプトがもっと簡単に実装できるんちゃうん？"
+description = "ひょっとして nyaosorg/go-readline-ny パッケージ使ったら CUI の簡易プロンプトがもっと簡単に実装できるんちゃうん？"
 image = "/images/attention/tools.png"
 tags  = [ "tools", "golang" ]
 
@@ -23,9 +23,9 @@ tags  = [ "tools", "golang" ]
 という記事を眺めてて
 
 {{< div-box type="markdown" >}}
-「あれ？ ひょっとして [zetamatta/go-readline-ny][go-readline-ny] パッケージ使ったら CUI の簡易プロンプトがもっと簡単に実装できるんちゃうん？」
+「あれ？ ひょっとして [nyaosorg/go-readline-ny][go-readline-ny] パッケージ使ったら CUI の簡易プロンプトがもっと簡単に実装できるんちゃうん？」
 
-[go-readline-ny]: https://github.com/zetamatta/go-readline-ny "zetamatta/go-readline-ny: Readline library for golang , used in nyagos"
+[go-readline-ny]: https://github.com/nyaosorg/go-readline-ny "nyaosorg/go-readline-ny: Readline library for golang , used in nyagos"
 {{< /div-box >}}
 
 と思いついてしまい，（たぶん私しか使ってないであろう）[Markdown 形式のリンクを生成するツール][ml]に手を入れることにした。
@@ -37,7 +37,7 @@ tags  = [ "tools", "golang" ]
  
 1. リポジトリ名を `mklink` から `ml` に変更する
 2. [spiegel-im-spiegel/ml][ml] リポジトリ直下に `main.go` を移動し，コマンドライン・ツールとして構成し直す
-3. 対話モードでの入力を [zetamatta/go-readline-ny][go-readline-ny] パッケージで書き直す
+3. 対話モードでの入力を [nyaosorg/go-readline-ny][go-readline-ny] パッケージで書き直す
 
 最初のはメインマシンを Ubuntu に換装した関係で先延ばしにしていたやつ。
 Windows の内部コマンドに `mklink` てのがあって（シンボリックリンク操作のコマンド），それと名前が被ってたのだ。
@@ -76,7 +76,7 @@ func main() {
 
 のように [Go] のコードに組み込むことも可能。
 
-3番目の [zetamatta/go-readline-ny][go-readline-ny] パッケージの組み込みはマジでやってよかった。
+3番目の [nyaosorg/go-readline-ny][go-readline-ny] パッケージの組み込みはマジでやってよかった。
 ざっと見た感じ，このパッケージの特徴は以下の通り。
 
 - エコーバック（？）の `Writer` を指定できる
@@ -85,7 +85,7 @@ func main() {
 
 たとえばこんな感じに書けるらしい。
 
-{{< fig-quote type="markdown" class="nobox" title="zetamatta/go-readline-ny: Readline library for golang , used in nyagos" link="https://github.com/zetamatta/go-readline-ny" lang="en" >}}
+{{< fig-quote type="markdown" class="nobox" title="nyaosorg/go-readline-ny: Readline library for golang , used in nyagos" link="https://github.com/nyaosorg/go-readline-ny" lang="en" >}}
 ```go
 package main
 
@@ -98,8 +98,8 @@ import (
 
     "github.com/mattn/go-colorable"
 
-    "github.com/zetamatta/go-readline-ny"
-    "github.com/zetamatta/go-readline-ny/simplehistory"
+    "github.com/nyaosorg/go-readline-ny"
+    "github.com/nyaosorg/go-readline-ny/simplehistory"
 )
 
 func main() {
@@ -139,7 +139,7 @@ func main() {
 というわけで，拙作の [spiegel-im-spiegel/ml][ml] でも対話モードのプロンプトに簡易ヒストリが使えるようにした。
 めっさ便利！
 
-[zetamatta/go-readline-ny][go-readline-ny] パッケージは元々 [NYAGOS] をターゲットに書かれたもののようだが，私の Ubuntu 環境でも問題なく動作している。
+[nyaosorg/go-readline-ny][go-readline-ny] パッケージは元々 [NYAGOS] をターゲットに書かれたもののようだが，私の Ubuntu 環境でも問題なく動作している。
 
 うんうん。
 よかったよかった。
@@ -150,7 +150,7 @@ func main() {
 
 [Go]: https://golang.org/ "The Go Programming Language"
 [ml]: https://github.com/spiegel-im-spiegel/ml "spiegel-im-spiegel/ml: Make Link with Markdown Format"
-[go-readline-ny]: https://github.com/zetamatta/go-readline-ny "zetamatta/go-readline-ny: Readline library for golang , used in nyagos"
+[go-readline-ny]: https://github.com/nyaosorg/go-readline-ny "nyaosorg/go-readline-ny: Readline library for golang , used in nyagos"
 [NYAGOS]: https://github.com/nyaosorg/nyagos "nyaosorg/nyagos: NYAGOS - The hybrid Commandline Shell betweeeeeeen UNIX & DOS"
 
 ## 参考図書

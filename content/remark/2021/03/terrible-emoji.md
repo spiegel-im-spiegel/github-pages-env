@@ -116,14 +116,14 @@ $ echo 🙇‍♂️ | gnkf dump --unicode
 
 ブラウザとかスマホ・アプリならまだマシだと思うが， CUI ベースのターミナル・エミュレータは絵文字周りが特に冷遇されている印象がある。
 
-私は CLI ツールで対話モードを組むときに [zetamatta/go-readline-ny] パッケージ[^ny1] のお世話になるのだが，[リリース情報](https://github.com/zetamatta/go-readline-ny/releases "Releases · zetamatta/go-readline-ny")を見るとホンマに絵文字で苦労されているのが分かる。
+私は CLI ツールで対話モードを組むときに [nyaosorg/go-readline-ny] パッケージ[^ny1] のお世話になるのだが，[リリース情報](https://github.com/nyaosorg/go-readline-ny/releases "Releases · nyaosorg/go-readline-ny")を見るとホンマに絵文字で苦労されているのが分かる。
 その一端が以下の [Zenn] 本に記されているので，是非ご覧あれ。
 
 - [Windows と Unicode とボク](https://zenn.dev/zetamatta/books/b820d588f4856bcf836c)
 
 プログラマが読んだら涙で前が見えなくなるよ（笑）
 
-[^ny1]: [zetamatta/go-readline-ny] は同じ作者による [NYAGOS] からのスピンオフで，ターミナル・エミュレータからの入力制御に特化している。Emacs 風のキー・バインドでヒストリ機能を付けることもできる。元々は Windows 用だと思うが Ubuntu のターミナル・エミュレータでも問題なく機能するので重宝している。
+[^ny1]: [nyaosorg/go-readline-ny] は同じ作者による [NYAGOS] からのスピンオフで，ターミナル・エミュレータからの入力制御に特化している。Emacs 風のキー・バインドでヒストリ機能を付けることもできる。元々は Windows 用だと思うが Ubuntu のターミナル・エミュレータでも問題なく機能するので重宝している。
 
 ## “#” の Keycap はあるのに “A” の Keycap はないのか
 
@@ -325,7 +325,7 @@ Unicode における「絵文字」黎明期の話は，[小形克宏](https://o
 [`regexp`]: https://golang.org/pkg/regexp/ "regexp - The Go Programming Language"
 [gnkf]: https://github.com/spiegel-im-spiegel/gnkf "spiegel-im-spiegel/gnkf: Network Kanji Filter by Golang"
 [rivo/uniseg]: https://github.com/rivo/uniseg "rivo/uniseg: Unicode Text Segmentation for Go (or: How to Count Characters in a String)"
-[zetamatta/go-readline-ny]: https://github.com/zetamatta/go-readline-ny "zetamatta/go-readline-ny: Readline library for golang , used in nyagos"
+[nyaosorg/go-readline-ny]: https://github.com/nyaosorg/go-readline-ny "nyaosorg/go-readline-ny: Readline library for golang , used in nyagos"
 [NYAGOS]: https://github.com/nyaosorg/nyagos "nyaosorg/nyagos: NYAGOS - The hybrid Commandline Shell betweeeeeeen UNIX & DOS"
 [Zenn]: https://zenn.dev/ "Zenn｜エンジニアのための情報共有コミュニティ"
 [Full Emoji List]: https://unicode.org/emoji/charts/full-emoji-list.html

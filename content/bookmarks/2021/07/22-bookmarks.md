@@ -12,7 +12,7 @@ pageType = "text"
 
 ## リリース情報
 
-- [Release v0.4.13 · zetamatta/go-readline-ny · GitHub](https://github.com/zetamatta/go-readline-ny/releases/tag/v0.4.13)
+- [Release v0.4.13 · nyaosorg/go-readline-ny · GitHub](https://github.com/nyaosorg/go-readline-ny/releases/tag/v0.4.13)
 - [MathJax v3.1.3 now available | MathJax](https://www.mathjax.org/MathJax-v3-1-3-available/)
 - [Release v3.5.0 · go-task/task · GitHub](https://github.com/go-task/task/releases/tag/v3.5.0)
 - [Release v0.85.0 · gohugoio/hugo · GitHub](https://github.com/gohugoio/hugo/releases/tag/v0.85.0)

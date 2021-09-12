@@ -15,7 +15,7 @@ pageType = "text"
 - [Release v0.18.3 · sharkdp/bat · GitHub](https://github.com/sharkdp/bat/releases/tag/v0.18.3)
 - [Release Git for Windows 2.33.0(2) · git-for-windows/git · GitHub](https://github.com/git-for-windows/git/releases/tag/v2.33.0.windows.2)
 - [Thunderbird — Release Notes (91.0.2) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/91.0.2/releasenotes/)
-- [Release v0.4.14 · zetamatta/go-readline-ny · GitHub](https://github.com/zetamatta/go-readline-ny/releases/tag/v0.4.14)
+- [Release v0.4.14 · nyaosorg/go-readline-ny · GitHub](https://github.com/nyaosorg/go-readline-ny/releases/tag/v0.4.14)
 - [Thunderbird — Release Notes (91.0.3) — Thunderbird](https://www.thunderbird.net/en-US/thunderbird/91.0.3/releasenotes/)
 - [Firefox  91.0.2, See All New Features, Updates and Fixes](https://www.mozilla.org/en-US/firefox/91.0.2/releasenotes/)
 

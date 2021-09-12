@@ -13,7 +13,7 @@ pageType = "text"
 ## リリース情報
 
 - [Release 4.4.9_2 · nyaosorg/nyagos · GitHub](https://github.com/nyaosorg/nyagos/releases/tag/4.4.9_2)
-- [Release v0.3.0 · zetamatta/go-readline-ny · GitHub](https://github.com/zetamatta/go-readline-ny/releases/tag/v0.3.0)
+- [Release v0.3.0 · nyaosorg/go-readline-ny · GitHub](https://github.com/nyaosorg/go-readline-ny/releases/tag/v0.3.0)
 - [Release 1.54.0 · atom/atom · GitHub](https://github.com/atom/atom/releases/tag/v1.54.0)
 - [KeePassXC 2.6.3 released - KeePassXC](https://keepassxc.org/blog/2021-01-13-2.6.3-released/)
 - [Release 8.9.0 · mermaid-js/mermaid · GitHub](https://github.com/mermaid-js/mermaid/releases/tag/8.9.0)

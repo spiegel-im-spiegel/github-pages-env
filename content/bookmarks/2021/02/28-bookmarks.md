@@ -13,9 +13,9 @@ pageType = "text"
 ## リリース情報
 
 - [Release gopls/v0.6.6 · golang/tools · GitHub](https://github.com/golang/tools/releases/tag/gopls/v0.6.6)
-- [Release v0.4.4 · zetamatta/go-readline-ny · GitHub](https://github.com/zetamatta/go-readline-ny/releases/tag/v0.4.4)
-- [Release v0.4.5 · zetamatta/go-readline-ny · GitHub](https://github.com/zetamatta/go-readline-ny/releases/tag/v0.4.5)
-- [Release v0.4.6 · zetamatta/go-readline-ny · GitHub](https://github.com/zetamatta/go-readline-ny/releases/tag/v0.4.6)
+- [Release v0.4.4 · nyaosorg/go-readline-ny · GitHub](https://github.com/nyaosorg/go-readline-ny/releases/tag/v0.4.4)
+- [Release v0.4.5 · nyaosorg/go-readline-ny · GitHub](https://github.com/nyaosorg/go-readline-ny/releases/tag/v0.4.5)
+- [Release v0.4.6 · nyaosorg/go-readline-ny · GitHub](https://github.com/nyaosorg/go-readline-ny/releases/tag/v0.4.6)
 
 ## セキュリティ＆プライバシー関連
 

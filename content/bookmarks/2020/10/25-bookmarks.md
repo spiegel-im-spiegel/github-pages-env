@@ -62,7 +62,7 @@ pageType = "text"
 ## Go 言語関連
 
 - [Goで作るシングルページアプリケーション](https://zenn.dev/nobonobo/books/85e605893d44ebe7dd3f)
-- [zetamatta/go-readline-ny: Readline library for golang , used in nyagos](https://github.com/zetamatta/go-readline-ny)
+- [nyaosorg/go-readline-ny: Readline library for golang , used in nyagos](https://github.com/nyaosorg/go-readline-ny)
 - [Go Validator v10. Validation? Easy Peasy! | by Renaldi | Tunaiku Tech | Oct, 2020 | Medium](https://medium.com/tunaiku-tech/go-validator-v10-c7a4f1be37df)
 
 ## その他
