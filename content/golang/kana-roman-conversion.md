@@ -82,6 +82,7 @@ Email： i.uehara@example.com
 変換については，以下のページを参考に，ヘボン式にしている。
 
 - [ヘボン式ローマ字｜神奈川県パスポートセンター公式サイト](http://www.pref.kanagawa.jp/osirase/02/2315/hepburn.html)
+- [ヘボン式ローマ字綴方表](https://www.ezairyu.mofa.go.jp/passport/hebon.html)（外務省のページ？）
 
 ただし，長音の扱い（大野（おおの）→ [☓] oono , [○] ono）については判定が難しそうなので無視している[^lv1]。
 そうそう，これに関連して長音の記号（ー）は変換後の文字列から削除することにした。
@@ -90,7 +91,7 @@ Email： i.uehara@example.com
 
 全体の処理手順としては
 
-1. 半角全角変換（全角英数は半角に，半角カナは全角に）
+1. 半角全角変換（全角英数・記号は半角に，半角カナは全角に，カナの濁点・半濁点の合成列は事前合成形に）
 2. カタカナ→平仮名変換
 3. 文字単位（`rune` 単位ではない）に分割
 4. 文字単位でローマ字への置き換え
@@ -98,21 +99,41 @@ Email： i.uehara@example.com
 6. 撥音・促音の変換
 
 という感じ。
-仮名文字以外の漢字や記号（「々」等）は素通しなのであしからず。
+仮名文字以外の英数字や漢字や記号（「々」等）は素通しなのであしからず。
 ヷ，ヸ，ヹ，ヺ はどう変換していいか分からなかったので，これも素通ししている。
-「あ&#x3099;」のように標準的でない結合文字がくっついている場合も素通し。
+「あ&#x3099;」のような対応するローマ字のない合成列も同様。
 
 あとヒープを潤沢に使ってループもぐるぐる回してかなり富豪的なコードになっているので，大規模文字列やクリティカルな処理には向いてない。
 
 というわけで，こんなんでよろしければどうぞ。
 
+## 【2021-09-12 追記】
+
+変換ロジックを見直した v0.1.2 をリリースした。
+
+- [Release v0.1.2 · spiegel-im-spiegel/krconv · GitHub](https://github.com/spiegel-im-spiegel/krconv/releases/tag/v0.1.2)
+
+[krconv] パッケージの変換ロジックは，同じく拙作の [gnkf] からのコピペなのだが，仮名文字を平仮名に寄せると「は&#x3099;」「は&#x309a;」のような濁点・半濁点の結合文字を付加した合成列に対応できてないことに気が付いた。
+
+そこで変換手順の前半を
+
+1. 平仮名→カタカナ変換
+2. 半角全角変換（全角英数・記号は半角に，半角カナは全角に，濁点・半濁点の合成列は事前合成形に）
+
+と入れ替えることで対応した。
+仮名文字を全角カタカナに寄せた上で変換するわけですな。
+
 ## ブックマーク
+
+- [英語で「ー」長音はどう書けば良いのか  |  ふーらいの思うこと](https://fukoto.com/english-kuso1/)
+  - [【思うこと】URLに悩む　その2  |  ふーらいの思うこと](https://fukoto.com/english-kuso2/)
 
 - [Unicode 文字列を「文字」単位に分離する](https://zenn.dev/spiegel/articles/20210408-unicode-characters)
 
 [Go]: https://golang.org/ "The Go Programming Language"
 [go-gimei]: https://github.com/mattn/go-gimei "mattn/go-gimei"
 [krconv]: https://github.com/spiegel-im-spiegel/krconv "spiegel-im-spiegel/krconv: Convert kana-character to roman-alphabet"
+[gnkf]: https://github.com/spiegel-im-spiegel/gnkf "spiegel-im-spiegel/gnkf: Network Kanji Filter by Golang"
 
 ## 参考図書
 

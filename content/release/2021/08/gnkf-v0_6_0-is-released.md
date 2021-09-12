@@ -11,7 +11,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-[Go 言語][Go]における文字列処理の習作 [gnkf] の v0.5.0 をリリースした。
+[Go 言語][Go]における文字列処理の習作 [gnkf] の v0.6.0 をリリースした。
 
 - [Release v0.6.0 · spiegel-im-spiegel/gnkf · GitHub](https://github.com/spiegel-im-spiegel/gnkf/releases/tag/v0.6.0)
 
