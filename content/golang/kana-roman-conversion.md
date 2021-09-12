@@ -113,7 +113,7 @@ Email： i.uehara@example.com
 
 - [Release v0.1.2 · spiegel-im-spiegel/krconv · GitHub](https://github.com/spiegel-im-spiegel/krconv/releases/tag/v0.1.2)
 
-[krconv] パッケージの変換ロジックは，同じく拙作の [gnkf] からのコピペなのだが，仮名文字を平仮名に寄せると「は&#x3099;」「は&#x309a;」のような濁点・半濁点の結合文字を付加した合成列に対応できてないことに気が付いた。
+[krconv] パッケージの変換ロジックは，同じく拙作の [gnkf] からのコピペなのだが，仮名文字を平仮名に寄せると「は&#x3099;（U+306F U+3099）」「は&#x309a;（U+306F U+309A）」のような濁点・半濁点の結合文字を付加した合成列に対応できてないことに気が付いた。
 
 そこで変換手順の前半を
 
