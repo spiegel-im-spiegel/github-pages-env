@@ -15881,5 +15881,131 @@
       false
     ],
     "Description": "JPA のお勉強用に購入。紙のほうはプレミアが付いてるっぽいが Kindle で買えるよ。固定レイアウトだからブラウザの Kindle Cloud Reader で読めるし。真面目に基本を押さえて書いていて分かりやすい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B06XC6CYRF",
+      "Title": "大鉄人１７",
+      "URL": "https://www.amazon.co.jp/dp/B06XC6CYRF?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41Ox4xJBHHL._SL160_.jpg",
+        "Height": 120,
+        "Width": 160
+      },
+      "ProductType": "Prime Video",
+      "Creators": [
+        {
+          "Name": "神谷政浩",
+          "Role": "出演"
+        },
+        {
+          "Name": "竹井みどり",
+          "Role": "出演"
+        },
+        {
+          "Name": "中丸忠雄",
+          "Role": "出演"
+        },
+        {
+          "Name": "原口剛",
+          "Role": "出演"
+        },
+        {
+          "Name": "島田歌穂",
+          "Role": "出演"
+        },
+        {
+          "Name": "高品正広",
+          "Role": "出演"
+        },
+        {
+          "Name": "大月ウルフ",
+          "Role": "出演"
+        },
+        {
+          "Name": "平田昭彦",
+          "Role": "出演"
+        },
+        {
+          "Name": "山口あきら",
+          "Role": "出演"
+        },
+        {
+          "Name": "山本麟一",
+          "Role": "出演"
+        },
+        {
+          "Name": "小林恭二",
+          "Role": "出演"
+        },
+        {
+          "Name": "河合徹",
+          "Role": "出演"
+        },
+        {
+          "Name": "村松美枝子",
+          "Role": "出演"
+        },
+        {
+          "Name": "水島弘",
+          "Role": "出演"
+        },
+        {
+          "Name": "山田稔",
+          "Role": "監督"
+        },
+        {
+          "Name": "若林幹",
+          "Role": "監督"
+        },
+        {
+          "Name": "内田一作",
+          "Role": "監督"
+        },
+        {
+          "Name": "上原正三",
+          "Role": "Writer"
+        },
+        {
+          "Name": "伊上勝",
+          "Role": "Writer"
+        },
+        {
+          "Name": "安斉あゆ子",
+          "Role": "Writer"
+        },
+        {
+          "Name": "熊谷節",
+          "Role": "Writer"
+        },
+        {
+          "Name": "江連卓",
+          "Role": "Writer"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B06XC6CYRF"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2017-03-10",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-09-15",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "なんと！ Amazon Prime Video 見れるのか！ 好きな作品でした。"
   }
 ]

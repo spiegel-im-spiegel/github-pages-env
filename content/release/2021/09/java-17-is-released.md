@@ -114,3 +114,4 @@ Amazon にしたって Microsoft にしたって IBM にしたって，自社の
 {{% review-paapi "B07CKHR8C1" %}} <!-- Spring Data JPAプログラミング入門 -->
 {{% review-paapi "4621303252" %}} <!-- Effective Java 第3版 -->
 {{% review-paapi "B0893LQ5KY" %}} <!-- Spring Boot 2 入門 -->
+{{% review-paapi "B06XC6CYRF" %}} <!-- 大鉄人１７ -->
