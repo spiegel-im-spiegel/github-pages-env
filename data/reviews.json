@@ -15838,5 +15838,48 @@
       false
     ],
     "Description": "まだ髪がある頃のブルース・ウィリスが観れる（笑） ちなみに私は野沢那智さんのファンなので吹替版が好み。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07CKHR8C1",
+      "Title": "Spring Data JPAプログラミング入門",
+      "URL": "https://www.amazon.co.jp/dp/B07CKHR8C1?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/4143qCJap5L._SL160_.jpg",
+        "Height": 160,
+        "Width": 123
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "溝口賢司",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "秀和システム",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07CKHR8C1"
+        }
+      ],
+      "PublicationDate": "2017-08-03",
+      "LastRelease": "2018-04-23",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-08-26",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "JPA のお勉強用に購入。紙のほうはプレミアが付いてるっぽいが Kindle で買えるよ。固定レイアウトだからブラウザの Kindle Cloud Reader で読めるし。真面目に基本を押さえて書いていて分かりやすい。"
   }
 ]
