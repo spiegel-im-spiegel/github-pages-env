@@ -1,9 +1,9 @@
 +++
 title = "GnuPG 2.2.31 (LTS) がリリースされた"
 date =  "2021-09-16T20:39:59+09:00"
-description = "セキュリティ・アップデートはなし。"
+description = "Libgcrypt の脆弱性について追記。GnuPG 自身のセキュリティ・アップデートはなし。"
 image = "/images/attention/openpgp.png"
-tags = ["security", "cryptography", "tools", "openpgp", "gnupg"]
+tags = ["security", "cryptography", "tools", "openpgp", "gnupg", "security", "vulnerability"]
 pageType = "text"
 
 [scripts]
@@ -25,6 +25,64 @@ pageType = "text"
 
 Release-info: https://dev.gnupg.org/T5571
 {{< /fig-quote >}}
+
+## 【2021-09-17 追記】 Libgcrypt の脆弱性について
+
+Ubuntu が [Libgcrypt の脆弱性報告](https://ubuntu.com/security/notices/USN-5080-1 "USN-5080-1: Libgcrypt vulnerabilities | Ubuntu security notices | Ubuntu")をしていて気が付いたが，[Libgcrypt] 1.8.8 および 1.9 系の 1.9.4 より前のバージョンは脆弱性を含んでいるらしい。
+[GnuPG] 側のアナウンスがなくいつの間にかアップデートしてたので単純なバグ修正かと思ったらそうじゃなかったようだ。
+そういうのはちゃんと通知してほしい。
+
+てか， Ubuntu は（OpenSSL もそうだが）ちまちまバックポートパッチを当てるんじゃなくて普通にバージョンアップしてくれよ。
+誰がそのパッチの安全性を保証するんだよ `orz`
+
+### [CVE-2021-33560]
+
+{{< fig-quote type="markdown" title="NVD - CVE-2021-33560" link="https://nvd.nist.gov/vuln/detail/CVE-2021-33560" lang="en" >}}
+{{% quote %}}Libgcrypt before 1.8.8 and 1.9.x before 1.9.3 mishandles ElGamal encryption because it lacks exponent blinding to address a side-channel attack against mpi_powm, and the window size is not chosen appropriately. This, for example, affects use of ElGamal in OpenPGP{{% /quote %}}.
+{{< /fig-quote >}}
+
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N`
+- 深刻度: 重要 (Score: 7.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | 高 |
+| 完全性への影響 | なし |
+| 可用性への影響 | なし |
+
+### [CVE-2021-40528]
+
+{{< fig-quote type="markdown" title="NVD - CVE-2021-40528" link="https://nvd.nist.gov/vuln/detail/CVE-2021-40528" lang="en" >}}
+{{% quote %}}The ElGamal implementation in Libgcrypt before 1.9.4 allows plaintext recovery because, during interaction between two cryptographic libraries, a certain dangerous combination of the prime defined by the receiver's public key, the generator defined by the receiver's public key, and the sender's ephemeral exponents can lead to a cross-configuration attack against OpenPGP{{% /quote %}}.
+{{< /fig-quote >}}
+
+- `CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N`
+- 深刻度: 警告 (Score: 5.9)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 高 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | 高 |
+| 完全性への影響 | なし |
+| 可用性への影響 | なし |
+
+- [On the (in)security of ElGamal in OpenPGP - Part I                  -                     Syssec@IBM Research](https://ibm.github.io/system-security-research-updates/2021/07/20/insecurity-elgamal-pt1)
+- [On the (in)security of ElGamal in OpenPGP - Part II                  -                     Syssec@IBM Research](https://ibm.github.io/system-security-research-updates/2021/09/06/insecurity-elgamal-pt2)
+
+[Libgcrypt]: https://gnupg.org/software/libgcrypt/
+[CVE-2021-33560]: https://nvd.nist.gov/vuln/detail/CVE-2021-33560
+[CVE-2021-40528]: https://nvd.nist.gov/vuln/detail/CVE-2021-40528
+
+## [GnuPG] 関連パッケージのバージョン
 
 [GnuPG] 関連の各パッケージのバージョンは以下の通り（数字は大体の[ビルド]({{< ref "/openpgp/build-gnupg-in-ubuntu.md" >}} "Ubuntu で最新版 GnuPG をビルドする")順）。
 
