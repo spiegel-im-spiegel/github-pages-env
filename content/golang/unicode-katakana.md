@@ -429,9 +429,6 @@ U+FF9D 'ﾝ' -> ン
 ふむむ。
 変体仮名は NFKC 正規化の対象にならないんだな。
 
-
-
-
 更についでに，平仮名もやってしまおう。
 平仮名は
 
@@ -556,6 +553,10 @@ U+1F200 '🈀' -> ほか
 
 はぅぅ。
 拙作の [gnkf](https://github.com/spiegel-im-spiegel/gnkf "spiegel-im-spiegel/gnkf: Network Kanji Filter by Golang") も直さなきゃ...
+
+## ブックマーク
+
+- [Go 言語と Unicode 正規化]({{< relref "./unicode-normalization.md" >}})
 
 [Go]: https://golang.org/ "The Go Programming Language"
 [`unicode`]: https://pkg.go.dev/unicode "unicode package - unicode - pkg.go.dev"
