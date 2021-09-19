@@ -16007,5 +16007,48 @@
       false
     ],
     "Description": "なんと！ Amazon Prime Video 見れるのか！ 好きな作品でした。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01FI3DQ9K",
+      "Title": "ノーポイッ!",
+      "URL": "https://www.amazon.co.jp/dp/B01FI3DQ9K?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61MgMeeIvUL._SL160_.jpg",
+        "Height": 158,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "Petit Rabbit's",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "NBCUniversal Entertainment",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01FI3DQ9K"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2016-05-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-09-19",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "「努力はそんなに実らない でもちょっぴりいいことありそう（あるよ） ♪♪」"
   }
 ]
