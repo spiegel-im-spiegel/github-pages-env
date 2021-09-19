@@ -1,25 +1,5 @@
 # 「あとでみる」ブックマーク（Temporary）
 
-
-## PostgreSQL
-
-- [GitHub - jackc/pgx: PostgreSQL driver and toolkit for Go](https://github.com/jackc/pgx)
-- [GitHub - go-gorm/gorm: The fantastic ORM library for Golang, aims to be developer friendly](https://github.com/go-gorm/gorm)
-- [GitHub - ent/ent: An entity framework for Go](https://github.com/ent/ent)
-
-- [GoでPostgreSQLにSQLファイルを投げてみる - Qiita](https://qiita.com/ponta-dev/items/a81e105c0aa047187e70)
-- [GoのORマッパー連載を始めます | フューチャー技術ブログ](https://future-architect.github.io/articles/20210726a/)
-  - [100%型安全なgolangORM「ent」を使ってみた | フューチャー技術ブログ](https://future-architect.github.io/articles/20210728a/)
-  - [lib/pq から jackc/pgx への移行 | フューチャー技術ブログ](https://future-architect.github.io/articles/20210916a/)
-- [goでSQLのquery logを出力させるのにsimukti/sqldb-loggerが便利かもしれない - podhmo's diary](https://pod.hatenablog.com/entry/2020/09/30/073034)
-- [GoのORM「ent」の話](https://zenn.dev/masamiki/articles/83a8db3f132fcb1c48f0)
-- [GitHub - a8m/enter: A CLI for generating ER diagrams for Ent schema](https://github.com/a8m/enter)
-  - [https://mobile.twitter.com/mattn_jp/status/1435451348829433860](https://mobile.twitter.com/mattn_jp/status/1435451348829433860)
-- [GoのORM entのEdgesと生成されるTableとSQLなど](https://zenn.dev/ogataka50/articles/f169e51983df41)
-- [Feature: Multi-Key Primary · Issue #400 · ent/ent · GitHub](https://github.com/ent/ent/issues/400) : 結局，主キーについてはコントロールできないようだ
-- [GOのORMを分かりやすくまとめてみた【GORM公式ドキュメントの焼き回し】 - Qiita](https://qiita.com/gold-kou/items/45a95d61d253184b0f33)
-- [Ent Joins the Linux Foundation | ent](https://entgo.io/blog/2021/09/01/ent-joins-the-linux-foundation)
-
 ## TeX 関連のブックマーク（ちょっとなにか書いてみようかな）
 
 - [TeXでjsbookの表紙いっぱいに画像を設定する - Qiita](https://qiita.com/gatosyocora/items/396d11b94d9201c61094)

@@ -73,6 +73,17 @@ code := run(rwi.New(
 
 ## SIGNAL をハンドリングする
 
+{{< div-box type="markdown" >}}
+**【2021-09-19 追記】**
+
+[Go] 1.16 から [`signal`](https://pkg.go.dev/os/signal "signal package - os/signal - pkg.go.dev")`.NotifyContext()` が導入され [`context`] パッケージと連携できるようになった。
+本節の機能は既に deprecated であり，利用はおすすめしない。
+
+[Go]: https://golang.org/ "The Go Programming Language"
+[`context`]: https://golang.org/pkg/context/ "context - The Go Programming Language"
+
+{{< /div-box >}}
+
 [`gocli`]`/signal` パッケージは標準の [`context`] パッケージと組み合わせて SIGNAL のハンドリングを行う。
 たとえば，こんな感じ
 
@@ -145,16 +156,16 @@ SIGNAL または親 [`context`]`.Context` インスタンスによるキャン�
 package main
 
 import (
-	"fmt"
+    "fmt"
 
-	"github.com/spiegel-im-spiegel/gocli/file"
+    "github.com/spiegel-im-spiegel/gocli/file"
 )
 
 func main() {
-	result := file.Glob("**/*.[ch]", nil)
-	fmt.Println(result)
-	// Output:
-	// [testdata/include/source.h testdata/source.c]
+    result := file.Glob("**/*.[ch]", nil)
+    fmt.Println(result)
+    // Output:
+    // [testdata/include/source.h testdata/source.c]
 }
 ```
 
@@ -165,18 +176,18 @@ func main() {
 package main
 
 import (
-	"fmt"
+    "fmt"
 
-	"github.com/spiegel-im-spiegel/gocli/file"
+    "github.com/spiegel-im-spiegel/gocli/file"
 )
 
 func main() {
-	result := file.Glob(
-		"**/*.[ch]",
-		file.NewGlobOption(file.WithFlags(file.GlobStdFlags|file.GlobAbsolutePath)))
-	fmt.Println(result)
-	// Output:
-	// [/home/username/work/gocli/file/testdata/include/source.h /home/username/work/gocli/file/testdata/source.c]
+    result := file.Glob(
+        "**/*.[ch]",
+        file.NewGlobOption(file.WithFlags(file.GlobStdFlags|file.GlobAbsolutePath)))
+    fmt.Println(result)
+    // Output:
+    // [/home/username/work/gocli/file/testdata/include/source.h /home/username/work/gocli/file/testdata/source.c]
 }
 ```
 
@@ -185,11 +196,11 @@ func main() {
 ```go
 //Operation flag in Glob() function.
 const (
-	GlobContainsFile GlobFlag = 1 << iota
-	GlobContainsDir
-	GlobSeparatorSlash
-	GlobAbsolutePath
-	GlobStdFlags = GlobContainsFile | GlobContainsDir
+    GlobContainsFile GlobFlag = 1 << iota
+    GlobContainsDir
+    GlobSeparatorSlash
+    GlobAbsolutePath
+    GlobStdFlags = GlobContainsFile | GlobContainsDir
 )
 ```
 
@@ -207,16 +218,16 @@ const (
 package main
 
 import (
-	"fmt"
+    "fmt"
 
-	"github.com/spiegel-im-spiegel/gocli/config"
+    "github.com/spiegel-im-spiegel/gocli/config"
 )
 
 func main() {
-	path := config.Path("app", "config.json")
-	fmt.Println(path)
-	// Output:
-	// /home/username/.config/app/config.json
+    path := config.Path("app", "config.json")
+    fmt.Println(path)
+    // Output:
+    // /home/username/.config/app/config.json
 }
 ```
 
@@ -240,41 +251,119 @@ func main() {
 // If the location cannot be determined (for example, $HOME is not defined),
 // then it will return an error.
 func UserConfigDir() (string, error) {
-	var dir string
+    var dir string
 
-	switch runtime.GOOS {
-	case "windows":
-		dir = Getenv("AppData")
-		if dir == "" {
-			return "", errors.New("%AppData% is not defined")
-		}
+    switch runtime.GOOS {
+    case "windows":
+        dir = Getenv("AppData")
+        if dir == "" {
+            return "", errors.New("%AppData% is not defined")
+        }
 
-	case "darwin":
-		dir = Getenv("HOME")
-		if dir == "" {
-			return "", errors.New("$HOME is not defined")
-		}
-		dir += "/Library/Application Support"
+    case "darwin":
+        dir = Getenv("HOME")
+        if dir == "" {
+            return "", errors.New("$HOME is not defined")
+        }
+        dir += "/Library/Application Support"
 
-	case "plan9":
-		dir = Getenv("home")
-		if dir == "" {
-			return "", errors.New("$home is not defined")
-		}
-		dir += "/lib"
+    case "plan9":
+        dir = Getenv("home")
+        if dir == "" {
+            return "", errors.New("$home is not defined")
+        }
+        dir += "/lib"
 
-	default: // Unix
-		dir = Getenv("XDG_CONFIG_HOME")
-		if dir == "" {
-			dir = Getenv("HOME")
-			if dir == "" {
-				return "", errors.New("neither $XDG_CONFIG_HOME nor $HOME are defined")
-			}
-			dir += "/.config"
-		}
-	}
+    default: // Unix
+        dir = Getenv("XDG_CONFIG_HOME")
+        if dir == "" {
+            dir = Getenv("HOME")
+            if dir == "" {
+                return "", errors.New("neither $XDG_CONFIG_HOME nor $HOME are defined")
+            }
+            dir += "/.config"
+        }
+    }
 
-	return dir, nil
+    return dir, nil
+}
+```
+
+## キャッシュ用のディレクトリ・ファイルのパスを取得する
+
+[`os`]`.UserCacheDir()` 関数を使ってキャッシュ用のディレクトリ・ファイルのパスを取得するパッケージ [`gocli`]`/cache` を作ってみた。
+こんな感じで使う。
+
+```go
+package main
+
+import (
+    "fmt"
+
+    "github.com/spiegel-im-spiegel/gocli/cache"
+)
+
+func main() {
+    path := cache.Path("app", "access.log")
+    fmt.Println(path)
+    // Output:
+    // /home/username/.cache/app/access.log
+}
+```
+
+[`os`]`.UserCacheDir()` 関数で取得したパスにアプリケーション名とファイル名をくっ付けただけの簡単なお仕事である。
+[Go] 1.13 では [`os`]`.UserCacheDir()` 関数は以下のように記述されている。
+
+```go
+// UserCacheDir returns the default root directory to use for user-specific
+// cached data. Users should create their own application-specific subdirectory
+// within this one and use that.
+//
+// On Unix systems, it returns $XDG_CACHE_HOME as specified by
+// https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html if
+// non-empty, else $HOME/.cache.
+// On Darwin, it returns $HOME/Library/Caches.
+// On Windows, it returns %LocalAppData%.
+// On Plan 9, it returns $home/lib/cache.
+//
+// If the location cannot be determined (for example, $HOME is not defined),
+// then it will return an error.
+func UserCacheDir() (string, error) {
+    var dir string
+
+    switch runtime.GOOS {
+    case "windows":
+        dir = Getenv("LocalAppData")
+        if dir == "" {
+            return "", errors.New("%LocalAppData% is not defined")
+        }
+
+    case "darwin", "ios":
+        dir = Getenv("HOME")
+        if dir == "" {
+            return "", errors.New("$HOME is not defined")
+        }
+        dir += "/Library/Caches"
+
+    case "plan9":
+        dir = Getenv("home")
+        if dir == "" {
+            return "", errors.New("$home is not defined")
+        }
+        dir += "/lib/cache"
+
+    default: // Unix
+        dir = Getenv("XDG_CACHE_HOME")
+        if dir == "" {
+            dir = Getenv("HOME")
+            if dir == "" {
+                return "", errors.New("neither $XDG_CACHE_HOME nor $HOME are defined")
+            }
+            dir += "/.cache"
+        }
+    }
+
+    return dir, nil
 }
 ```
 
