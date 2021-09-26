@@ -104,6 +104,7 @@ Amazon にしたって Microsoft にしたって IBM にしたって，自社の
 - [オラクル、Oracle JDKを再び無料提供へ、本番環境でも利用可。昨日リリースのJava 17から － Publickey](https://www.publickey1.jp/blog/21/oracle_jdkjava_17.html)
 - [Oracle、「Java 17」を発表 ～3年ぶりの長期サポートリリース（LTS） - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1351146.html)
 - [Javaの長期サポート（LTS）版、次回は2年後に登場の見通し。オラクルがLTSのサイクルを3年から2年に変更提案 － Publickey](https://www.publickey1.jp/blog/21/javalts2lts32.html)
+- [AWS、Java 17対応の無料Javaディストリビューション「Amazon Corretto 17」リリース。ただし長期サポート期間は未定 － Publickey](https://www.publickey1.jp/blog/21/awsjava_17javaamazon_corretto_17.html)
 
 [OpenJDK]: http://openjdk.java.net/
 [AdoptOpenJDK]: https://adoptopenjdk.net/ "AdoptOpenJDK - Open source, prebuilt OpenJDK binaries"
