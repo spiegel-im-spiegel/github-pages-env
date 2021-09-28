@@ -1,6 +1,7 @@
 #!/bin/sh
-sleep 1;cat B01FI3DQ9K.html | books-data review -t review-book.html -a B01FI3DQ9K -r 4 --review-date 2021-09-19 --pipe
+sleep 1;cat B082TVZJHV.html | books-data review -t review-book.html -a B082TVZJHV -r 4 --review-date 2021-09-28 --pipe
 # ---
+# sleep 1;cat ./done/B01FI3DQ9K.html | books-data review -t review-book.html -a B01FI3DQ9K -r 4 --review-date 2021-09-19 --pipe
 # sleep 1;cat ./done/B06XC6CYRF.html | books-data review -t review-book.html -a B06XC6CYRF -r 4 --review-date 2021-09-15 --pipe
 # sleep 1;cat ./done/B07CKHR8C1.html | books-data review -t review-book.html -a B07CKHR8C1 -r 4 --review-date 2021-08-26 --pipe
 # sleep 1;cat ./done/B07CXRPT4J.html | books-data review -t review-book.html -a B07CXRPT4J -r 4 --review-date 2021-09-04 --pipe

@@ -16050,5 +16050,48 @@
       false
     ],
     "Description": "「努力はそんなに実らない でもちょっぴりいいことありそう（あるよ） ♪♪」"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B082TVZJHV",
+      "Title": "いい湯だな（ビバノン・ロック）",
+      "URL": "https://www.amazon.co.jp/dp/B082TVZJHV?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61d1nVUO0+L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "ザ・ドリフターズ",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Watanabe Music Publishing",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B082TVZJHV"
+        }
+      ],
+      "PublicationDate": "2019-12-11",
+      "LastRelease": "2019-12-11",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-09-28",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "私はこれを聞いて大きくなりました（笑）"
   }
 ]
