@@ -192,8 +192,8 @@ done
 ついでなので [HackGen] フォントでも試してみようか。
 
 ```latex
-\setmonojfont[AutoFakeSlant,BoldItalicFeatures={FakeSlant},Scale=MatchLowercase]{FirgeNerd} % use FirgeNerd
-\setmonofont[AutoFakeSlant,BoldItalicFeatures={FakeSlant},Scale=MatchLowercase]{FirgeNerd} % use FirgeNerd
+\setmonojfont[AutoFakeSlant,BoldItalicFeatures={FakeSlant},Scale=MatchLowercase]{HackGenNerd} % use HackGenNerd
+\setmonofont[AutoFakeSlant,BoldItalicFeatures={FakeSlant},Scale=MatchLowercase]{HackGenNerd} % use HackGenNerd
 ```
 
 組版結果は以下の通り。
