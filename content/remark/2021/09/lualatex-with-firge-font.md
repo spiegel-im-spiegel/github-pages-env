@@ -1,7 +1,7 @@
 +++
 title = "Firge フォントを使って LuaLaTeX でコードを書く"
 date =  "2021-09-30T22:29:34+09:00"
-description = "こういう欲しかったんだよ。"
+description = "こういうのが欲しかったんだよ。"
 image = "/images/attention/kitten.jpg"
 tags = [ "tex", "luatex", "font" ]
 pageType = "text"
