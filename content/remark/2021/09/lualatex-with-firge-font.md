@@ -206,6 +206,9 @@ done
 個人の好みの問題なんだろうけど，これなら [Inconsolata] でも別にいいかなぁ。
 やはりターミナル・エミュレータ用と割り切って使うほうがいいか。
 
+## ブックマーク
+
+- [LuaLaTeX でコードを書いてみる]({{< ref "/remark/2017/10/writing-code-with-lualatex.md" >}})
 
 [TeX Live]: http://www.tug.org/texlive/ "TeX Live - TeX Users Group"
 [HackGen]: https://github.com/yuru7/HackGen "yuru7/HackGen: Hack と源柔ゴシックを合成したプログラミングフォント 白源 (はくげん／HackGen)"
