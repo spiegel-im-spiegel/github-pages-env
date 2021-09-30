@@ -1,0 +1,46 @@
+\documentclass{jlreq}
+\usepackage[jis2004,deluxe]{luatexja-preset} % Japanese fonts
+\setmonofont[AutoFakeSlant,BoldItalicFeatures={FakeSlant},Scale=MatchLowercase]{FirgeNerd} % use Inconsolata
+
+\usepackage{graphicx,xcolor}
+% \usepackage{listings}
+\usepackage{listings-golang} % import this package after listings
+\lstset{
+	frame=single,
+	basicstyle=\small\ttfamily,
+	tabsize=4,
+	commentstyle=\color{darkgray},
+	keywordstyle=\color{brown}\bfseries,
+	stringstyle=\color{blue},
+	showstringspaces=false
+}
+
+\begin{document}
+
+\section{Go 言語による Hello World}
+
+\begin{lstlisting}[language=Golang]
+package main
+
+import "fmt"
+
+func main() {
+	for i := 0; i < 10; i++ {
+		fmt.Println("Hello, world") //Hello, 世界
+	}
+}
+\end{lstlisting}
+
+\section{シェルスクリプト}
+
+\begin{lstlisting}[language=sh]
+#!/bin/sh
+for i in `seq 100`; do
+  j="$i"
+  if [ `expr $i % 3` == 0 ]; then echo -n 'Fizz'; j=''; fi
+  if [ `expr $i % 5` == 0 ]; then echo -n 'Buzz'; j=''; fi
+  echo "$j"
+done
+\end{lstlisting}
+
+\end{document}
