@@ -6,20 +6,6 @@ description = "MinGW-w64 は Windows 用のバイナリを出力可能な GCC �
 image = "/images/attention/kitten.jpg"
 tags = ["mingw", "gcc", "tools", "windows"]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
   mathjax = false
   mermaidjs = false
@@ -35,19 +21,19 @@ tags = ["mingw", "gcc", "tools", "windows"]
 
 [^sf1]: SourceForge からのダウンロードなので取扱いに注意。ページの余計なところを触らないこと（笑）
 
-- [Mingw-builds](http://mingw-w64.org/doku.php/download/mingw-builds)
+- [Downloads - Mingw-w64](https://www.mingw-w64.org/downloads/#mingw-builds)
 
 インストーラを起動すると以下のウィザード画面になる。
 
-{{< fig-img src="https://photo.baldanders.info/flickr/image/40234864025_m.png" title="Installing Mingw-w64 (1)" link="https://photo.baldanders.info/flickr/40234864025/" >}}
+{{< fig-img src="./mingw-w64-install-1.png" title="Installing Mingw-w64 (1)" link="./mingw-w64-install-1.png" width="527" >}}
 
 このまま `[Next >]`。
 
-{{< fig-img src="https://photo.baldanders.info/flickr/image/41129922281_m.png" title="Installing Mingw-w64 (2)" link="https://photo.baldanders.info/flickr/41129922281/" >}}
+{{< fig-img src="./mingw-w64-install-2.png" title="Installing Mingw-w64 (2)" link="./mingw-w64-install-2.png" width="527" >}}
 
 この画面でインストールする [GCC] の種別を指定する。
 
-- *Version* : [GCC] のバージョン。特に理由がない限り最新版でいいだろう（2018-03-31 時点の最新は 7.3.0）
+- *Version* : [GCC] のバージョン。特に理由がない限り最新版でいいだろう（2021-10-01 時点の最新は 8.1.0）
 - *Architecture* : ターゲットシステムのアーキテクチャ。 `i686` か `x86_64` のいずれかを選択する。 `x86_64` が64ビット版なのでご注意を
 - *Thread* : スレッドモデル。 `posix` か `win32` のいずれかを選択する。 `win32` は Windows ネイティブ関数を使っていて速いのだが C++ 11 以降の thread, mutex, future が使えなくなる。特に理由がないのであれば `posix` でいいだろう
 - *Exception* : 例外処理ハンドリング。アーキテクチャによって以下を選択できる。
@@ -61,19 +47,19 @@ tags = ["mingw", "gcc", "tools", "windows"]
 
 種別を指定したら `[Next >]`。
 
-{{< fig-img src="https://photo.baldanders.info/flickr/image/27256804608_m.png" title="Installing Mingw-w64 (3)" link="https://photo.baldanders.info/flickr/27256804608/" >}}
+{{< fig-img src="./mingw-w64-install-4.png" title="Installing Mingw-w64 (3)" link="./mingw-w64-install-4.png" width="527" >}}
 
 インストール先のフォルダを指定する。
 既定のままではめっさ長い名前になるので変更したほうがいいかも？
 
 `[Next >]` でインストールを開始する。
 
-{{< fig-img src="https://photo.baldanders.info/flickr/image/40234864195_m.png" title="Installing Mingw-w64 (4)" link="https://photo.baldanders.info/flickr/40234864195/" >}}
+{{< fig-img src="./mingw-w64-install-6.png" title="Installing Mingw-w64 (4)" link="./mingw-w64-install-6.png" width="527" >}}
 
 どうもネットから指定した種別に対応する圧縮ファイルをダウンロードしてバイナリを展開しているようだ。
 完了したら `[Next >]`。
 
-{{< fig-img src="https://photo.baldanders.info/flickr/image/40234864325_m.png" title="Installing Mingw-w64 (5)" link="https://photo.baldanders.info/flickr/40234864325/" >}}
+{{< fig-img src="./mingw-w64-install-7.png" title="Installing Mingw-w64 (5)" link="./mingw-w64-install-7.png" width="527" >}}
 
 これで完了。
 お疲れ様でした。
@@ -84,12 +70,12 @@ tags = ["mingw", "gcc", "tools", "windows"]
 ```text
 $ gcc -v
 Using built-in specs.
-COLLECT_GCC=gcc.exe
-COLLECT_LTO_WRAPPER=C:/Program\ Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe
+COLLECT_GCC=gcc
+COLLECT_LTO_WRAPPER=C:/Program\ Files/mingw-w64/latest/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe
 Target: x86_64-w64-mingw32
-Configured with: ../../../src/gcc-7.3.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw730/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/include -I/c/mingw730/prerequisites/x86_64-zlib-static/include -I/c/mingw730/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64/opt/lib -L/c/mingw730/prerequisites/x86_64-zlib-static/lib -L/c/mingw730/prerequisites/x86_64-w64-mingw32-static/lib '
+Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib '
 Thread model: posix
-gcc version 7.3.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project)
+gcc version 8.1.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project)
 ```
 
 インストーラ自体は環境変数を変更しないのだがインストールしたフォルダに `mingw-w64.bat` というのができていて，これを起動すると PATH を追加してコマンドプロンプトを起動する。
