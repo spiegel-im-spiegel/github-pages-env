@@ -3,7 +3,7 @@ title = "GnuPG 2.2.31 (LTS) がリリースされた"
 date =  "2021-09-16T20:39:59+09:00"
 description = "Libgcrypt の脆弱性について追記。GnuPG 自身のセキュリティ・アップデートはなし。"
 image = "/images/attention/openpgp.png"
-tags = ["security", "cryptography", "tools", "openpgp", "gnupg", "security", "vulnerability"]
+tags = ["security", "cryptography", "tools", "openpgp", "gnupg", "vulnerability"]
 pageType = "text"
 
 [scripts]
