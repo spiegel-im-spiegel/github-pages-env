@@ -14,6 +14,9 @@
 - [プログラミングを独習するには10年かかる（Teach Yourself Programming in Ten Years 日本語訳）](https://www.yamdas.org/column/technique/21-daysj.html) : 『Clean Architecture』感想文用に保持っておく
 
 
+- [[security] Go 1.17.2 and Go 1.16.9 pre-announcement](https://groups.google.com/g/golang-announce/c/7efr4VBoZIw)
+- [[security] Go 1.17.2 and Go 1.16.9 are released](https://groups.google.com/g/golang-announce/c/AEBu9j7yj5A)
+
 ## リリース情報
 
 

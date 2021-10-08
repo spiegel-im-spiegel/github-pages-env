@@ -185,6 +185,7 @@ Tag や commit に署名することで「なりすまし」に対する抑止�
 - [Yubikeyを使って、Githubのcommitをverifyする - Qiita](https://qiita.com/akashima/items/4b40ccb13ad13dee5cdb)
 - [Git のタグやコミットを (PGP ではなく) S/MIME で署名する - Qiita](https://qiita.com/wktk/items/acf641bbbf2b82ff7275)
 - [git cryptを導入する - Qiita](https://qiita.com/batch9703/items/f6959ba51bb9bb32ef93)
+- [git-crypt を使って秘密情報を版管理する | DevelopersIO](https://dev.classmethod.jp/articles/git-crypt/)
 
 [Git]: https://git-scm.com/ "Git"
 [Git for Windows]: http://git-for-windows.github.io/ "Git for Windows"
