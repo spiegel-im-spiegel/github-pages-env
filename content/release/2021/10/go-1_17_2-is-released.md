@@ -30,7 +30,29 @@ If using `wasm_exec.js` to execute WASM modules, users will need to replace thei
 {{< /fig-quote >}}
 
 というわけで `wasm_exec.js` ファイルの置き換えが必要らしい。
-ご注意を。
+1.17.1 の `wasm_exec.js` ファイルとで diff をとってみたら
+
+```text
+$ diff -u go1.17.1/misc/wasm/wasm_exec.js go1.17.2/misc/wasm/wasm_exec.js
+--- go1.17.1/misc/wasm/wasm_exec.js    2021-09-10 00:41:20.000000000 +0900
++++ go1.17.2/misc/wasm/wasm_exec.js    2021-10-08 04:58:29.000000000 +0900
+@@ -567,6 +567,13 @@
+                 offset += 8;
+             });
+ 
++            // The linker guarantees global data starts from at least wasmMinDataAddr.
++            // Keep in sync with cmd/link/internal/ld/data.go:wasmMinDataAddr.
++            const wasmMinDataAddr = 4096 + 4096;
++            if (offset >= wasmMinDataAddr) {
++                throw new Error("command line too long");
++            }
++
+             this._inst.exports.run(argc, argv);
+             if (this.exited) {
+                 this._resolveExitPromise();
+```
+
+とチェック用の条件文が追加されているだけのようだ。
 
 （以下未稿）
 
