@@ -32,7 +32,7 @@ If using `wasm_exec.js` to execute WASM modules, users will need to replace thei
 というわけで `wasm_exec.js` ファイルの置き換えが必要らしい。
 1.17.1 の `wasm_exec.js` ファイルとで diff をとってみたら
 
-```text
+```text {hl_lines=["8-14"]}
 $ diff -u go1.17.1/misc/wasm/wasm_exec.js go1.17.2/misc/wasm/wasm_exec.js
 --- go1.17.1/misc/wasm/wasm_exec.js    2021-09-10 00:41:20.000000000 +0900
 +++ go1.17.2/misc/wasm/wasm_exec.js    2021-10-08 04:58:29.000000000 +0900
