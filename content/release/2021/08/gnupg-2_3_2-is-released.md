@@ -20,7 +20,6 @@ pageType = "text"
 かなりあるぞ。
 
 {{< fig-quote type="markdown" title="GnuPG 2.3.2 released" link="https://lists.gnupg.org/pipermail/gnupg-announce/2021q3/000462.html" lang="en" >}}
-
 * gpg: Allow fingerprint based lookup with `--locate-external-key`. [ec36eca08c]
 * gpg: Allow decryption w/o public key but with correct card inserted.  [50293ec2eb]
 * gpg: Auto import keys specified with `--trusted-keys`.  [100037ac0f]
