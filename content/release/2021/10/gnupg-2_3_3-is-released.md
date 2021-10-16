@@ -1,5 +1,5 @@
 +++
-title = "GnuPG 2.3.2 がリリースされた"
+title = "GnuPG 2.3.3 がリリースされた"
 date =  "2021-10-16T13:45:19+09:00"
 description = "Windows 版で keyboxd の提供が始まったようだ。"
 image = "/images/attention/openpgp.png"
