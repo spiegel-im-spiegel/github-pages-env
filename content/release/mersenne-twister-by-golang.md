@@ -24,17 +24,17 @@ pageType = "text"
 特に2番目が重要で，モンテカルロ法などの科学技術計算に向いている。
 Ruby などの一部のプログラミング言語では標準の疑似乱数生成器として組み込まれているらしい。
 
-[spiegel-im-spiegel/mt] は [Mersenne Twister] のオリジナルコード（C/C++）を pure [Go] で書き直したものである。
+[spiegel-im-spiegel/mt][`mt`] は [Mersenne Twister] のオリジナルコード（C/C++）を pure [Go] で書き直したものである。
 
 [![check vulns](https://github.com/spiegel-im-spiegel/mt/workflows/vulns/badge.svg)](https://github.com/spiegel-im-spiegel/mt/actions)
 [![lint status](https://github.com/spiegel-im-spiegel/mt/workflows/lint/badge.svg)](https://github.com/spiegel-im-spiegel/mt/actions)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/spiegel-im-spiegel/mt/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/spiegel-im-spiegel/mt.svg)](https://github.com/spiegel-im-spiegel/mt/releases/latest)
 
-[spiegel-im-spiegel/mt] の特徴は以下の通り。
+[spiegel-im-spiegel/mt][`mt`] の特徴は以下の通り。
 
-- [math/rand] 互換で [`rand`]`.Rand` のソースとして利用できる
-- goroutine-safe な構成にできる（[`mt`]`.PRNG` 型を利用した場合）
+- [math/rand][`rand`] 互換で [`rand`]`.Rand` のソースとして利用できる
+- 並行的に安全（concurrency safe）な構成にできる（[`mt`]`.PRNG` 型を利用した場合）
 
 ## mt/mt19937.Source の機能
 
@@ -68,14 +68,14 @@ fmt.Println(mt19937.New(19650218).Uint64())
 `Source.Real()` 関数の引数による乱数の出力範囲は以下の通り。
 
 |   引数   | 生成範囲                       |
-|:--------:| ------------------------------ |
+| :------: | ------------------------------ |
 |    1     | 範囲 $[0, 1)$ の浮動小数点数値 |
 |    2     | 範囲 $(0, 1)$ の浮動小数点数値 |
 | 上記以外 | 範囲 $[0, 1]$ の浮動小数点数値 |
 
-なお [`mt`]`/mt19937.Source` は goroutine-safe ではないので goroutine 間でインスタンスを共有できない。
+なお [`mt`]`/mt19937.Source` は並行的に安全ではないので goroutine 間でインスタンスを共有できない。
 
-## [math/rand] と組み合わせる
+## [math/rand][`rand`] と組み合わせる
 
 [`mt`]`/mt19937.Source` を [`rand`]`.Rand` のソースとして利用するには以下のように記述すればよい。
 
@@ -93,41 +93,41 @@ fmt.Println(rand.New(mt19937.New(19650218)).Uint64())
 ```
 
 これで [`rand`]`.Rand` が提供するメソッドはすべて使える。
-ただし [`rand`]`.Rand` も goroutine-safe ではないので，取り扱いにはやはり注意が必要である。
+ただし [`rand`]`.Rand` 自体も並行的に安全ではないので，取り扱いにはやはり注意が必要である。
 
 ## mt.PRNG と組み合わせる
 
-[`mt`]`/mt19937.Source` 型を [`mt`]`.PRNG` 型と組み合わせることで goroutine-safe な構成にできる。
+[`mt`]`/mt19937.Source` 型を [`mt`]`.PRNG` 型と組み合わせることで並行的に安全な構成にできる。
 たとえばこんな感じに記述できる。
 
-{{< highlight go "hl_lines=13 19" >}}
+```go {hl_lines=[13,19]}
 package main
 
 import (
-	"sync"
-	"time"
+    "sync"
+    "time"
 
-	"github.com/spiegel-im-spiegel/mt"
-	"github.com/spiegel-im-spiegel/mt/mt19937"
+    "github.com/spiegel-im-spiegel/mt"
+    "github.com/spiegel-im-spiegel/mt/mt19937"
 )
 
 func main() {
-	wg := sync.WaitGroup{}
+    wg := sync.WaitGroup{}
     prng := mt.New(mt19937.New(time.Now().UnixNano()))
-	for i := 0; i < 1000; i++ {
-		wg.Add(1)
-		go func() {
-			defer wg.Done()
-			for i := 0; i < 10000; i++ {
-				prng.Uint64()
-			}
-		}()
-	}
-	wg.Wait()
+    for i := 0; i < 1000; i++ {
+        wg.Add(1)
+        go func() {
+            defer wg.Done()
+            for i := 0; i < 10000; i++ {
+                prng.Uint64()
+            }
+        }()
+    }
+    wg.Wait()
 }
-{{< /highlight >}}
+```
 
-[`mt`]`.PRNG` 型は [`mt`]`/mt19937.Source` のラッパーになっていて [`rand`]`.Rand` と組み合わせることも可能だが， [`rand`]`.Rand` の内部構造の問題で goroutine-safe にならない。
+[`mt`]`.PRNG` 型は [`mt`]`/mt19937.Source` のラッパーになっていて [`rand`]`.Rand` と組み合わせることも可能だが， [`rand`]`.Rand` の内部構造の問題で並行的に安全にならない。
 ご注意を。
 
 ### io.Reader 互換の疑似乱数生成器
@@ -135,61 +135,96 @@ func main() {
 [`mt`]`.PRNG` のインスタンスから [`mt`]`.Reader` 型のインスタンスを生成できる。
 こんな感じに記述できる。
 
-{{< highlight go "hl_lines=14 19 22" >}}
+```go {hl_lines=[14,19,22]}
 package main
 
 import (
-	"fmt"
-	"sync"
-	"time"
+    "fmt"
+    "sync"
+    "time"
 
-	"github.com/spiegel-im-spiegel/mt"
-	"github.com/spiegel-im-spiegel/mt/mt19937"
+    "github.com/spiegel-im-spiegel/mt"
+    "github.com/spiegel-im-spiegel/mt/mt19937"
 )
 
 func main() {
-	wg := sync.WaitGroup{}
-	prng := mt.New(mt19937.New(time.Now().UnixNano()))
-	for i := 0; i < 1000; i++ {
-		wg.Add(1)
-		go func() {
-			defer wg.Done()
-			r := prng.NewReader()
-			buf := [8]byte{}
-			for i := 0; i < 10000; i++ {
-				ct , err := r.Read(buf[:])
-				if err != nil {
-					return
-				}
+    wg := sync.WaitGroup{}
+    prng := mt.New(mt19937.New(time.Now().UnixNano()))
+    for i := 0; i < 1000; i++ {
+        wg.Add(1)
+        go func() {
+            defer wg.Done()
+            r := prng.NewReader()
+            buf := [8]byte{}
+            for i := 0; i < 10000; i++ {
+                ct , err := r.Read(buf[:])
+                if err != nil {
+                    return
+                }
                 fmt.Println(binary.LittleEndian.Uint64(buf[:ct]))
-			}
-		}()
-	}
-	wg.Wait()
+            }
+        }()
+    }
+    wg.Wait()
 }
-{{< /highlight >}}
+```
 
 [`mt`]`.Reader` 型は [`io`]`.Reader` インタフェースと互換性がある。
-また [`mt`]`.Reader` インスタンスも goroutine-safe なので goroutine 間で共有可能である。
+また [`mt`]`.Reader` インスタンスも並行的に安全なので goroutine 間で共有可能である。
 
 ## ライセンスについて
 
-[spiegel-im-spiegel/mt] は MIT ライセンスで提供している。
+[spiegel-im-spiegel/mt][`mt`] は MIT ライセンスで提供している。
 
 オリジナルの [Mersenne Twister] コードは GPL または BSD ライセンスで提供されているが MIT ライセンスに書き換えてもいいらしい。
 
 - [Mersenne Twisterの商業利用について](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/MT2002/license.html)
 
-というわけで [spiegel-im-spiegel/mt] は MIT ライセンスで提供することにした。
+というわけで [spiegel-im-spiegel/mt][`mt`] は MIT ライセンスで提供することにした。
 ご利用はお気軽に。
 
+## 【おまけ】 secure.Source について
+
+暗号処理などで使われる [crypto/rand] 標準パッケージを [math/rand][`rand`] 標準パッケージのソースとして使うための [`mt`]`/secure` サブパッケージを作った。
+今回追加した `secure.Source` 型は以下のメソッドを持つ。
+
+| メソッド                           | 機能                                                       |
+| ---------------------------------- | ---------------------------------------------------------- |
+| `Source.Seed(int64)`               | 何もしないダミー・メソッド                                 |
+| `Source.SeedArray([]uint64)`       | 何もしないダミー・メソッド                                 |
+| `Source.Read([]byte) (int, error)` | オクテット単位で乱数を生成する<br>（[`io`]`.Reader` 互換） |
+| `Source.Uint64() uint64`           | 乱数として範囲 $[0, 2^{64}-1]$ の整数値を生成する          |
+| `Source.Int63() int64`             | 乱数として範囲 $[0, 2^{63}-1]$ の整数値を生成する          |
+| `Source.Real(int) float64`         | 乱数として浮動小数点数値を生成する                         |
+
+これで [`rand`]`.Source` / [`rand`]`.Source64` および [`mt`]`.Source` として [`rand`]`.Rand` 型や [`mt`]`.PRNG` 型の機能を利用することができる。
+
+```go
+//go:build run
+// +build run
+
+package main
+
+import (
+    "fmt"
+    "math/rand"
+
+    "github.com/spiegel-im-spiegel/mt"
+    "github.com/spiegel-im-spiegel/mt/secure"
+)
+
+func main() {
+    fmt.Println(rand.New(secure.Source{}).Uint64())
+    fmt.Println(mt.New(secure.Source{}).Uint64())
+}
+```
+
 [Go]: https://golang.org/ "The Go Programming Language"
-[math/rand]: https://golang.org/pkg/math/rand/ "rand - The Go Programming Language"
-[`rand`]: https://golang.org/pkg/math/rand/ "rand - The Go Programming Language"
-[`io`]: https://golang.org/pkg/io/ "io - The Go Programming Language"
 [Mersenne Twister]: http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/mt.html "Mersenne Twister: A random number generator (since 1997/10)"
-[spiegel-im-spiegel/mt]: https://github.com/spiegel-im-spiegel/mt "spiegel-im-spiegel/mt: Mersenne Twister; Pseudo Random Number Generator, Implemented by Golang"
+[`rand`]: https://pkg.go.dev/math/rand "rand package - math/rand - pkg.go.dev"
+[`io`]: https://golang.org/pkg/io/ "io - The Go Programming Language"
 [`mt`]: https://github.com/spiegel-im-spiegel/mt "spiegel-im-spiegel/mt: Mersenne Twister; Pseudo Random Number Generator, Implemented by Golang"
+[crypto/rand]: https://pkg.go.dev/crypto/rand "rand package - crypto/rand - pkg.go.dev"
 
 ## 参考図書
 
