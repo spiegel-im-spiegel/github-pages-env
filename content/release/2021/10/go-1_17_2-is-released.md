@@ -1,5 +1,5 @@
 +++
-title = "Go 1.17.1 のリリース【セキュリティ・アップデート】"
+title = "Go 1.17.2 のリリース【セキュリティ・アップデート】"
 date =  "2021-10-08T20:10:54+09:00"
 description = "wasm_exec.js ファイルの置き換えが必要らしい。ご注意を。"
 image = "/images/attention/go-logo_blue.png"
@@ -11,7 +11,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-[予告](https://groups.google.com/g/golang-announce/c/7efr4VBoZIw "[security] Go 1.17.2 and Go 1.16.9 pre-announcement")通り [Go] 1.17.1 がリリースされた。
+[予告](https://groups.google.com/g/golang-announce/c/7efr4VBoZIw "[security] Go 1.17.2 and Go 1.16.9 pre-announcement")通り [Go] 1.17.2 がリリースされた。
 
 - [[security] Go 1.17.2 and Go 1.16.9 are released](https://groups.google.com/g/golang-announce/c/AEBu9j7yj5A)
 
