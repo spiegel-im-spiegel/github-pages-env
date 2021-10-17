@@ -1,11 +1,10 @@
 +++
 title = "Ubuntu 21.10 へのアップグレードを試してみた"
-date =  "2021-10-17T18:21:18+09:00"
-description = "description"
+date =  "2021-10-17T19:16:37+09:00"
+description = "やっぱり日本語 Remix が出るまでは待ったほうがよさそうだ。待って状況が改善するとは限らないけど。"
 image = "/images/attention/kitten.jpg"
 tags = [ "ubuntu" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
