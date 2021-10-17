@@ -183,6 +183,7 @@ $1/16$ という値に大した意味はないが，ジェンダーに関する�
 
 ## ブックマーク
 
+- [LGBTの割合がバラつく理由【13人に1人？ 100人に1人？】 | LGBT就活・転職活動サイト「JobRainbow」](https://jobrainbow.jp/magazine/lgbt-percentage)
 - [仮名・ローマ字変換する Go パッケージを作ってみた]({{< ref "/golang/kana-roman-conversion.md" >}})
 
 [gimei-cli]: https://github.com/spiegel-im-spiegel/gimei-cli "spiegel-im-spiegel/gimei-cli: 姓名・住所データ生成ツール"

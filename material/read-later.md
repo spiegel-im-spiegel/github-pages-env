@@ -13,6 +13,10 @@
 - [パッケージ設計(コンポーネント)の原則](https://zenn.dev/uesho/articles/c819d53be1d6d9d120e8)
 - [プログラミングを独習するには10年かかる（Teach Yourself Programming in Ten Years 日本語訳）](https://www.yamdas.org/column/technique/21-daysj.html) : 『Clean Architecture』感想文用に保持っておく
 
+- [Ubuntu 21.10で日本語入力ができない問題](https://zenn.dev/ikuya/articles/788626c3ae6ade)
+- [Ubuntu 21.10 その22 - Ubuntu 21.10がリリースされました・ディスクイメージのダウンロード - kledgeb](https://kledgeb.blogspot.com/2021/10/ubuntu-2110-22-ubuntu-2110.html)
+- [Bug #1946969 “ibus-x11 does not start automatically” : Bugs : mozc package : Ubuntu](https://bugs.launchpad.net/bugs/1946969)
+
 
 ## リリース情報
 

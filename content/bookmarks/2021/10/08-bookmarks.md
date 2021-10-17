@@ -90,6 +90,7 @@ pageType = "text"
   - [速い！ 軽い！ 楽しい！ Go言語DBクライアントのBunをPostgreSQLで使ってみよう！](https://zenn.dev/tkithrta/articles/c6074e0f09eb90)
 - [Goのnet/httpのServer側デザインの良さについて語る(Listen編)](https://zenn.dev/cube/articles/4c75bc8455ef92)
   - [Goのnet/httpのServer側デザインの良さについて語る(Accept編)](https://zenn.dev/cube/articles/0731eb7c14bb5d)
+  - [Goのnet/httpのServer側デザインの良さについて語る(Connection処理編)](https://zenn.dev/cube/articles/6981788b299786)
 - [GOSSP - Go言語で音声信号処理 - LESS IS MORE](http://r9y9.github.io/blog/2014/06/08/gossp-speech-signal-processing-for-go/)
 - [strings.Cut と strings.SplitN はどっちが速いか](https://zenn.dev/mattn/articles/01f258a5127ef8)
 
