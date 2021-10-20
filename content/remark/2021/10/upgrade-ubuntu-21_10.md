@@ -58,5 +58,6 @@ $ sudo apt upgrade
 - [Ubuntu Fridge | Ubuntu 21.10 (Impish Indri) released](https://ubuntu-news.org/2021/10/14/ubuntu-21-10-impish-indri-released/)
 - [Impish Indri Release Notes - Release - Ubuntu Community Hub](https://discourse.ubuntu.com/t/impish-indri-release-notes/21951)
 - [Ubuntu 21.10 その22 - Ubuntu 21.10がリリースされました・ディスクイメージのダウンロード - kledgeb](https://kledgeb.blogspot.com/2021/10/ubuntu-2110-22-ubuntu-2110.html)
+- [Ubuntu 21.10 その23 - Ubuntu 21.10の新機能と変更点・既知の問題 - kledgeb](https://kledgeb.blogspot.com/2021/10/ubuntu-2110-23-ubuntu-2110.html)
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
