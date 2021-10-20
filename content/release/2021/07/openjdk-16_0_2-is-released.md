@@ -112,9 +112,6 @@ OpenJDK 64-Bit Server VM (build 16.0.2+7-67, mixed mode, sharing)
 
 アップデートは計画的に。
 
-
-
-
 ## ブックマーク
 
 - [Oracle Critical Patch Update Advisory - July 2021](https://www.oracle.com/security-alerts/cpujul2021.html)
