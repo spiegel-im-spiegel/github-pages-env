@@ -16093,5 +16093,138 @@
       false
     ],
     "Description": "私はこれを聞いて大きくなりました（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0855LMP81",
+      "Title": "Synology NASキット 2ベイ DS220j クアッドコアCPU 512MBメモリ搭載 ライトユーザー向け 国内正規代理店品 電話サポート対応品 DiskStation",
+      "URL": "https://www.amazon.co.jp/dp/B0855LMP81?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31Jy8IwFHwL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "Personal Computers",
+      "Publisher": "Synology",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0855LMP81"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4537694279369"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0846504003440"
+        },
+        {
+          "Name": "UPC",
+          "Value": "846504003440"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2020-03-12",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-10-26",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "\u003ca href=\"https://www.dospara.co.jp/\"\u003eドスパラ\u003c/a\u003eで HDD 2基と3点セットで購入。家庭内 LAN で使うなら必要十分な性能。各種クラウド・ストレージ・サービスと連携可能。 Tailscale を含む各種 VPN と組み合わせることも可能。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08V8LNR2H",
+      "Title": "Western Digital ウエスタンデジタル 内蔵 HDD WD Red Plus NAS RAID (CMR) 3.5インチ WD40EFZX-EC 【国内正規代理店品】",
+      "URL": "https://www.amazon.co.jp/dp/B08V8LNR2H?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41+wOkdJItL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "Personal Computers",
+      "Publisher": "ウエスタンデジタル(Western Digital)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08V8LNR2H"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4988755057738"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2021-02-05",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-10-26",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "\u003ca href=\"https://www.synology.com/ja-jp/products/DS220j\"\u003eSynology DS220j\u003c/a\u003e と併せて購入。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09GS5ZCHN",
+      "Title": "Voice of Angel",
+      "URL": "https://www.amazon.co.jp/dp/B09GS5ZCHN?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51FF8hiCp8L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "太田貴子",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "SOLID RECORDS",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09GS5ZCHN"
+        }
+      ],
+      "PublicationDate": "2021-10-20",
+      "LastRelease": "2021-10-20",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-10-26",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "「太田貴子」としては31年ぶりのアルバムらしい。仕事中にヘヴィローテーションしてます。"
   }
 ]
