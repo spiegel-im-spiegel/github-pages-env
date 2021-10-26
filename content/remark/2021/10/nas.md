@@ -93,7 +93,7 @@ Synology NAS に接続するために Kerberos セキュリティを使用する
 ちなみに `/etc/fstab` ファイルを使ってマウントする場合には
 
 ```text
-sy-nas:/volumeX/homes/username /home/username/nas-home nfs rsize=8192,wsize=8192,timeo=14,intr 0 0
+ds220j-hostname:/volumeX/homes/username /home/username/nas-home nfs rsize=8192,wsize=8192,timeo=14,intr 0 0
 ```
 
 などとすればよい。
