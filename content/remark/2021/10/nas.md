@@ -32,7 +32,7 @@ pageType = "text"
 これのおかげでセットアップ自体は比較的スムーズにできた。
 ブラウザで Web Assistant を開いたときに最初はうまく検出できなかったくらい（ブラウザを立ち上げ直したら上手くいった）かな？
 
-## RAID
+## RAID (Redundant Arrays of Inexpensive Disks)
 
 RAID は SHR (Synology Hybrid RAID) にした。
 RAID 1 とかだと ストレージの容量やメーカーを揃える必要があるが， SHR はその辺は柔軟に運用できるらしい。
