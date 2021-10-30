@@ -22,7 +22,7 @@ pageType = "text"
 
 で，まぁ，あれこれ迷った挙句に買ったのは [Synology DS220j][DS220j] ってやつ。
 今回も[ドスパラ](https://www.dospara.co.jp/)さんのお世話になりました。
-[HDD 2基と3点セット](https://www.dospara.co.jp/5shopping/detail_set.php?bg=&br=&sbr=&camp=1804&ft=synology&lf=2 "【HDD+ドライブケース】Synology NAS + 選べる W.D HDD 3点セット｜｜｜通販のドスパラ")になってるやつをポチりました。
+[HDD 2基と3点セット](https://www.dospara.co.jp/5shopping/detail_set.php?bg=&br=&sbr=&camp=1804&ft=synology&lf=2 "【HDD+ドライブケース】Synology NAS + 選べる W.D HDD 3点セット｜｜｜通販のドスパラ")になってるやつをポチった。
 
 本当はポチってから数日あけて来ることを想定してたんだけど，金曜の夜にポチって中1日で（松江みたいな片田舎まで）届くとは思わざりき（笑）
 
@@ -157,9 +157,10 @@ Google とか [Apple]({{< ref "/remark/2021/08/apples-mass-surveillance-plans.md
 - [RAIDの構成を「SHR」から「RAID 1」へ変更できますか？ | Synology Community](https://community.synology.com/jpn/forum/2/post/6)
 - [知らないと損! Synology社員が教えるNASの裏ワザ【前編】セキュリティーと信頼性を高める | マイナビニュース](https://news.mynavi.jp/kikaku/20181221-741225/)
 - [特別企画：知っておきたい！NAS購入から活用までの疑問あれこれ - デジカメ Watch](https://dc.watch.impress.co.jp/docs/review/special/1209064.html)
-- [NASを使ったほうがいい人、使わないほうがいい人：Synologyで始めるNAS生活（3/3 ページ） - ITmedia PC USER](https://www.itmedia.co.jp/pcuser/articles/1603/18/news096_3.html)
+- [NASを使ったほうがいい人、使わないほうがいい人：Synologyで始めるNAS生活（1/3 ページ） - ITmedia PC USER](https://www.itmedia.co.jp/pcuser/articles/1603/18/news096.html)
 - [Synology アカウントの取得 - アラコキからの Raspberry Pi 電子工作](https://arakoki70.com/?p=2317)
 - [Ubuntu 20.04にNFSマウントをセットアップする方法 | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-20-04-ja)
+- [特別企画：NASに保存した写真データを効率的に管理…「Synology Photos」先行レビュー - デジカメ Watch](https://dc.watch.impress.co.jp/docs/review/special/1325567.html)
 
 [DS220j]: https://www.synology.com/ja-jp/products/DS220j "DS220j | Synology Inc."
 [Samba]: https://www.samba.org/ "Samba - opening windows to a wider world"
