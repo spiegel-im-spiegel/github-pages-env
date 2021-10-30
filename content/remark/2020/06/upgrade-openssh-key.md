@@ -270,7 +270,7 @@ A5353D587000D820669B0BD55A0B4AD6897458DB 0
 鍵の実体は `~/.gnupg/private-keys-v1.d/` ディレクトリにある。
 上述の鍵の場合は
 
-```
+```text
 A5353D587000D820669B0BD55A0B4AD6897458DB.key
 ```
 
@@ -281,14 +281,14 @@ A5353D587000D820669B0BD55A0B4AD6897458DB.key
 ログイン先のサーバに公開鍵ファイル `id_ecdsa.pub` の中身を登録する。
 つっても，どうにかして `id_ecdsa.pub` ファイルをサーバにアップロードして
 
-```
+```text
 $ cat ./id_ecdsa.pub >> ~/.ssh/authorized_keys
 ```
 
 と `authorized_keys` ファイルに追記すればよい。
 追記ではなく内容を書き換えるなら
 
-```
+```text
 $ cat ./id_ecdsa.pub > ~/.ssh/authorized_keys
 ```
 
@@ -296,9 +296,9 @@ $ cat ./id_ecdsa.pub > ~/.ssh/authorized_keys
 書き換えるなら以前のファイルのバックアップはとってね。
 パーミッションの設定も忘れずに。
 
-```
-$ chamod 700 ~/.ssh
-$ chamod 600 ~/.ssh/authorized_keys
+```text
+$ chmod 700 ~/.ssh
+$ chmod 600 ~/.ssh/authorized_keys
 ```
 
 老婆心ながら，新しい鍵でログインできることを確認するまでは接続中のセッションは切らないこと。

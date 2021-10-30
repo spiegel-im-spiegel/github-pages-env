@@ -3,7 +3,7 @@ title = "秋 NAS は俺に喰わせろ！"
 date =  "2021-10-26T23:50:36+09:00"
 description = "金曜の夜にポチって中1日で届くとは思わざりき（笑）"
 image = "/images/attention/kitten.jpg"
-tags = [ "nas", "samba", "ubuntu", "cloud", "nfs" ]
+tags = [ "nas", "samba", "ubuntu", "cloud", "nfs", "git" ]
 pageType = "text"
 
 [scripts]
@@ -142,6 +142,107 @@ Google とか [Apple]({{< ref "/remark/2021/08/apples-mass-surveillance-plans.md
 - [Synology DiskStation で SSH 接続を公開鍵認証方式にする - Qiita](https://qiita.com/shimizumasaru/items/56474d98e723ea1b5ae3)
 
 まぁ，ぼちぼち進めるか。
+
+### 【2021-10-30 追記】 Synology Git Server に公開鍵認証でログインする
+
+まずはおとなしくパスワード認証で入る。
+前節で述べたように，あらかじめ専用のユーザとグループを作って SSH ログイン可能な状態にすること（今回はユーザ：グループ名を `git:git` とした[^admin]）。
+
+[^admin]: Git Server 用に作成したユーザを `administrators` グループにも所属させて管理者権限を付与すること。
+
+```text
+$ ssh git@ds220j-hostname
+git@ds220j-hostname's password: 
+```
+
+ログイン直後のホーム・ディレクトリはこんな感じ。
+
+```text
+$ pwd
+/var/services/homes/git
+
+$ ll
+drwxrwxrwx+ 2 git  users 4096 Oct 30 00:00 .
+drwxrwxrwx+ 9 root root  4096 Oct 30 00:00 ..
+```
+
+このままでは拙いので，ホーム・ディレクトリのパーミッションを変更する。
+
+```text
+chmod 755 /var/services/homes/git
+```
+
+次にホーム・ディレクトリ直下に `.ssh` ディレクトリを作成する。
+
+```text
+$ mkdir .ssh
+
+$ ll
+drwxr-xr-x  3 git  users 4096 Oct 30 00:00 .
+drwxrwxrwx+ 9 root root  4096 Oct 30 00:00 ..
+drwxr-xr-x  2 git  users 4096 Oct 30 00:00 .ssh
+```
+
+この `.ssh` ディレクトリ直下に `authorized_keys` ファイルを作り SSH 公開鍵を登録する。
+ちなみに公開鍵は ECC 鍵が使える。
+ECC 鍵を作ってサーバに登録する方法は以下の通り。
+
+- [OpenSSH 鍵をアップグレードする]({{< ref "/remark/2020/06/upgrade-openssh-key.md" >}})
+
+また SSH 鍵を GnuPG で作成・管理する方法は以下を参考にどうぞ。
+
+- [OpenSSH の認証鍵を GunPG で作成・管理する]({{< ref "/openpgp/ssh-key-management-with-gnupg.md" >}})
+
+`.ssh` ディレクトリおよび `.ssh/authorized_keys` ファイルのパーミッションに注意。
+
+```text
+$ chmod 700 ~/.ssh
+$ chmod 600 ~/.ssh/authorized_keys
+```
+
+これで適当なターミナルを立ち上げて（作業中の SSH セッションは維持しておくこと。しくじってアクセスできなくなったら困るからね）
+
+```text
+$ ssh git@ds220j-hostname
+```
+
+でパスワード認証ではなく公開鍵認証が動き出したら成功である。
+
+### 【2021-10-30 追記】 試しにリポジトリを作ってみる
+
+Git Server 用に専用の共有フォルダを作る。
+今回は `gitrepos` という名前で共有フォルダを作った。
+前節の `git` ユーザで読み書きできるようにしておくこと（他のユーザはアクセスできなくてよい）。
+
+さっそく `gitrepos` 共有フォルダに入ってみる。
+
+```text
+$ ssh git@ds220j-hostname
+$ cd /volume1/gitrepos/
+$ sudo chown git:git /volume1/gitrepos
+$ chmod 755 /volume1/gitrepos
+```
+
+たぶん必須ではないが気持ち悪いので，所有者とパーミッションを変更して `git` ユーザ専用にした。
+では，適当なベア・リポジトリを作ってみよう。
+
+```text
+$ mkdir hello-repos
+$ cd hello-repos/
+$ git init --bare
+Initialized empty Git repository in /volume1/gitrepos/hello-repos/
+```
+
+これで空のベア・リポジトリができた。
+リモートから SSH 接続でリポジトリを clone するには
+
+```text
+$ git clone ssh://git@ds220j-hostname/volume1/gitrepos/hello-repos
+Cloning into 'hello-repos'...
+warning: You appear to have cloned an empty repository.
+```
+
+とすればよい。
 
 ## 次は Tailscale か？
 
