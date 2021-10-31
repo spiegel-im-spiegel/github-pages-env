@@ -13,7 +13,7 @@ pageType = "text"
 
 [前回]({{< relref "./nas.md" >}} "秋 NAS は俺に喰わせろ！")からチマチマ作業して，ようやく中身の整理と Git Server の設定までできた。
 [以前まで使ってた簡易 NAS]({{< ref "/remark/2018/04/nas.md" >}} "NAS を導入した") では無造作にバックアップを取ってたので，特に音楽ファイルと写真ファイルの整理で時間がかかってしまったよ。
-特に写真ファイルは8K個くらいあったんだけど，この規模だとダブりとか確認しようがないし，途中で面倒くさくなって全部 [Synology Photos](https://www.synology.com/ja-jp/DSM70/SynologyPhotos) サービスに突っ込んでしまった。
+写真ファイルは8K個くらいあったんだけど，この規模だとダブりとか確認しようがないし，途中で面倒くさくなって全部 [Synology Photos](https://www.synology.com/ja-jp/DSM70/SynologyPhotos) サービスに突っ込んでしまった。
 
 ちなみに音楽ファイルは2.3K個で，これは普通だよね。
 アルバム換算で160枚分程度だし。
