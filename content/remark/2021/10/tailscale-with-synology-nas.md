@@ -36,7 +36,7 @@ pageType = "text"
 
 これに対して [Tailscale] では機器間を直接つないでいるのが特徴と言える[^exit1]。
 
-[^exit1]: [Tailscale] 接続先機器を出口ノードとしてネットワークにアクセスすることは可能，らしい。
+[^exit1]: [Tailscale] 接続先機器を出口ノードとしてネットワークにアクセスすることは可能，[らしい](https://tailscale.com/kb/1019/subnets/ "Subnet routers and traffic relay nodes · Tailscale")。
 
 {{< fig-img-quote class="lightmode" src="./home-network-after.svg" title="Tailscale · Best VPN Service for Secure Networks" link="https://tailscale.com/" width="630" lang="en" >}}
 
