@@ -251,9 +251,9 @@ warning: You appear to have cloned an empty repository.
 これは次の休みにでもやってみることにしよう。
 もともと [Tailscale] は興味があってやってみようとは思っていたのだ。
 
-- [100台まで無料のVPNサービス「tailscale」、リンクだけでマシンのシェアも可能!?【イニシャルB】 - INTERNET Watch](https://internet.watch.impress.co.jp/docs/column/shimizu/1303751.html)
-- [Tailscale VPN を使ってみたので感想 | つくみ島だより](https://blog.tsukumijima.net/article/tailscale-vpn/)
-- [リモートワーク向けにセキュアなVPNを構築【tailscale】 | 4b-media](https://4b-media.net/tailscale/)
+{{< div-box type="markdown" >}}
+**【2021-10-31 追記】** [記事]({{< relref "./tailscale-with-synology-nas.md" >}})にしました。
+{{< /div-box >}}
 
 ## ブックマーク
 
