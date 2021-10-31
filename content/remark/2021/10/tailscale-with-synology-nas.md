@@ -159,6 +159,7 @@ Google 以外ならこちらのページで認証を行うとよい。
 
 ## ブックマーク
 
+- [Supported SSO identity providers (Google, AzureAD, GitHub, Okta, etc) · Tailscale](https://tailscale.com/kb/1013/sso-providers/)
 - [Enabling Synology outbound connections · Tailscale](https://tailscale.com/kb/1152/synology-outbound/)
 - [100台まで無料のVPNサービス「tailscale」、リンクだけでマシンのシェアも可能!?【イニシャルB】 - INTERNET Watch](https://internet.watch.impress.co.jp/docs/column/shimizu/1303751.html)
 - [Tailscale VPN を使ってみたので感想 | つくみ島だより](https://blog.tsukumijima.net/article/tailscale-vpn/)
