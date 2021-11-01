@@ -93,7 +93,7 @@ Synology NAS に接続するために Kerberos セキュリティを使用する
 ちなみに `/etc/fstab` ファイルを使ってマウントする場合には
 
 ```text
-ds220j-hostname:/volumeX/homes/username /home/username/nas-home nfs rsize=8192,wsize=8192,timeo=14,intr 0 0
+sy-nas:/volumeX/homes/username /home/username/nas-home nfs rsize=8192,wsize=8192,timeo=14,intr 0 0
 ```
 
 などとすればよい。
@@ -151,8 +151,8 @@ Google とか [Apple]({{< ref "/remark/2021/08/apples-mass-surveillance-plans.md
 [^admin]: Git Server 用に作成したユーザを `administrators` グループにも所属させて管理者権限を付与すること。
 
 ```text
-$ ssh git@ds220j-hostname
-git@ds220j-hostname's password: 
+$ ssh git@sy-nas
+git@sy-nas's password: 
 ```
 
 ログイン直後のホーム・ディレクトリはこんな感じ。
@@ -203,7 +203,7 @@ $ chmod 600 ~/.ssh/authorized_keys
 これで適当なターミナルを立ち上げて
 
 ```text
-$ ssh git@ds220j-hostname
+$ ssh git@sy-nas
 ```
 
 でパスワード認証ではなく公開鍵認証が動き出したら成功である[^auth1]（作業中の SSH セッションは維持しておくこと。しくじってアクセスできなくなったら困るからね）。
@@ -219,7 +219,7 @@ Git Server 用に専用の共有フォルダを作る。
 さっそく `gitrepos` 共有フォルダに入ってみる。
 
 ```text
-$ ssh git@ds220j-hostname
+$ ssh git@sy-nas
 $ cd /volume1/gitrepos/
 $ sudo chown git:git /volume1/gitrepos
 $ chmod 755 /volume1/gitrepos
@@ -239,7 +239,7 @@ Initialized empty Git repository in /volume1/gitrepos/hello-repos/
 リモートから SSH 接続でリポジトリを clone するには
 
 ```text
-$ git clone ssh://git@ds220j-hostname/volume1/gitrepos/hello-repos
+$ git clone ssh://git@sy-nas/volume1/gitrepos/hello-repos
 Cloning into 'hello-repos'...
 warning: You appear to have cloned an empty repository.
 ```
