@@ -16226,5 +16226,48 @@
       true
     ],
     "Description": "「太田貴子」としては31年ぶりのアルバムらしい。仕事中にヘヴィローテーションしてます。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0983XRNQV",
+      "Title": "Like Flames",
+      "URL": "https://www.amazon.co.jp/dp/B0983XRNQV?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51hLjpTFBkS._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "MindaRyn",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Lantis",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0983XRNQV"
+        }
+      ],
+      "PublicationDate": "2021-08-25",
+      "LastRelease": "2021-08-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-11-02",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "「転スラ」2期 OP 曲。最近のヘヴィ・ローテーション。"
   }
 ]
