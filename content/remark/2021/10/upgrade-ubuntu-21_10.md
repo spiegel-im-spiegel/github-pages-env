@@ -3,7 +3,7 @@ title = "Ubuntu 21.10 へのアップグレードを試してみた"
 date =  "2021-10-17T19:16:37+09:00"
 description = "やっぱり日本語 Remix が出るまでは待ったほうがよさそうだ。待って状況が改善するとは限らないけど。"
 image = "/images/attention/kitten.jpg"
-tags = [ "ubuntu" ]
+tags = [ "ubuntu", "firefox", "tools", "install" ]
 pageType = "text"
 
 [scripts]
@@ -51,6 +51,8 @@ $ sudo apt upgrade
 待って状況が改善するとは限らないけど。
 
 そろそろ[日本語コミュニティ](https://www.ubuntulinux.jp/ "Homepage | Ubuntu Japanese Team")にでも参加したほうがいいかねぇ。
+
+[後半]({{< ref "/remark/2021/11/upgrade-ubuntu-21_10-part-2.md" >}} "Ubuntu 21.10 へのアップグレード（本番）")へ続く...
 
 ## ブックマーク
 
