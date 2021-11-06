@@ -22,32 +22,17 @@ pageType = "text"
 [Ubuntu] であれば APT (Advanced Package Tool) で導入できる。
 
 ```text
-$ sudo apt install cifs-utils
-パッケージリストを読み込んでいます... 完了
-依存関係ツリーを作成しています                
-状態情報を読み取っています... 完了
-提案パッケージ:
-  keyutils smbclient winbind
-以下のパッケージが新たにインストールされます:
-  cifs-utils
-アップグレード: 0 個、新規インストール: 1 個、削除: 0 個、保留: 0 個。
-71.5 kB のアーカイブを取得する必要があります。
-この操作後に追加で 231 kB のディスク容量が消費されます。
-取得:1 http://jp.archive.ubuntu.com/ubuntu cosmic/main amd64 cifs-utils amd64 2:6.8-2 [71.5 kB]
-71.5 kB を 1秒 で取得しました (104 kB/s)
-以前に未選択のパッケージ cifs-utils を選択しています。
-(データベースを読み込んでいます ... 現在 167532 個のファイルとディレクトリがインストールされています。)
-.../cifs-utils_2%3a6.8-2_amd64.deb を展開する準備をしています ...
-cifs-utils (2:6.8-2) を展開しています...
-cifs-utils (2:6.8-2) を設定しています ...
-update-alternatives: /etc/cifs-utils/idmap-plugin (idmap-plugin) を提供するために自動モードで /usr/lib/x86_64-linux-gnu/cifs-utils/idmapwb.so を使います
-man-db (2.8.4-2) のトリガを処理しています ...
-
-$ mount.cifs -V
-mount.cifs version: 6.8
+$ sudo apt install cifs-utils smbclient
 ```
 
-バージョンは 6.8 か。
+念のため動作確認しておこう。
+
+```text
+$ mount.cifs -V
+mount.cifs version: 6.11
+```
+
+バージョンは 6.11 か（2021-11-06 Ubuntu 21.10 にて）。
 
 ## 事前準備（2019-04-03 追記）
 
@@ -132,7 +117,7 @@ Password for sambauser@//nas01/shared:  ********
 コマンドラインでマウントする際は絶対に `password` オプションを付けないこと（履歴に残っちゃうからね）。
 あるいは以下の内容の接続情報ファイル `~/.nascred` を作って（ファイル名は適当）
 
-```text
+```ini
 username=sambauser
 password=password_string
 domain=domainname
@@ -159,6 +144,19 @@ $ sudo umount ~/nas
 ```
 
 で OK。
+
+{{< div-box type="markdown" >}}
+**【2021-11-06 追記】**
+ドメインではなくワークグループを構成している NAS の場合は
+
+```ini
+username=sambauser
+password=password_string
+workgroup=WORKGROUP
+```
+
+などとワークグループ名を指定する。
+{{< /div-box >}}
 
 ## /etc/fstab を使って起動時にマウントする
 
