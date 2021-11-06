@@ -94,7 +94,7 @@ USB メモリを買ってまでやる気はないので，この件はしばら�
 
 今更な話で申し訳ないんだけど。
 
-今朝気がついたのだが，内田美奈子さんの『BOOM TOWN』で[単行本未収録の第30話を Kindle で売ってる](https://www.amazon.co.jp/exec/obidos/ASIN/B00NWQI4N4/baldandersinf-22/ "Amazon.co.jp: BOOM TOWN　TRIP.30 電子書籍: 内田 美奈子: Kindleストア")じゃないか！
+今朝気がついたのだが，内田美奈子さんの『BOOM TOWN』で[単行本未収録の第30話を Kindle で売ってる](https://www.amazon.co.jp/exec/obidos/ASIN/B08MTK6LF3/baldandersinf-22/ "Amazon.co.jp: BOOM TOWN　TRIP.30 電子書籍: 内田 美奈子: Kindleストア")じゃないか！
 
 早速購入。
 で，奥付を見たら今回のこれは「[マンガ図書館Z]」の仕事らしい。
@@ -176,4 +176,4 @@ iOS 機器の遠隔操作は iOS の標準機能でやったほうがいいと�
 
 ## 参考図書
 
-{{% review-paapi "B00NWQI4N4" %}} <!-- BOOM TOWN TRIP.30 -->
+{{% review-paapi "B08MTK6LF3" %}} <!-- BOOM TOWN TRIP.30 -->

@@ -24,6 +24,15 @@ pageType = "text"
 5. [KeePassXC] は 21.10 リリース以降アップデートされてないため APT リポジトリを impish に切り替えれない（`apt update` でワーニングが出る）しばらくは様子見か
 6. 同じく [pgAdmin4] も 21.10 リリース以降アップデートされてないため APT リポジトリを impish に切り替えれない。こちらもしばらくは様子見
 
+Japanese Team の APT パッケージ・リポジトリは以下のコマンドで追加できる。
+
+```text
+$ sudo wget https://www.ubuntulinux.jp/ubuntu-jp-ppa-keyring.gpg -P /etc/apt/trusted.gpg.d/
+$ sudo wget https://www.ubuntulinux.jp/ubuntu-ja-archive-keyring.gpg -P /etc/apt/trusted.gpg.d/
+$ sudo wget https://www.ubuntulinux.jp/sources.list.d/impish.list -O /etc/apt/sources.list.d/ubuntu-ja.list
+$ sudo apt update
+```
+
 ## mount.cifs で手こずる
 
 アップグレードして再起動したら NAS に接続できなくなったのには焦った。

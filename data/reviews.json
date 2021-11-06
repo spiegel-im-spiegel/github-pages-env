@@ -16269,5 +16269,249 @@
       false
     ],
     "Description": "「転スラ」2期 OP 曲。最近のヘヴィ・ローテーション。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07JQQTH3P",
+      "Title": "電脳コイル",
+      "URL": "https://www.amazon.co.jp/dp/B07JQQTH3P?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51i4hKiGcYL._SL160_.jpg",
+        "Height": 120,
+        "Width": 160
+      },
+      "ProductType": "Prime Video",
+      "Creators": [
+        {
+          "Name": "折笠富美子 ",
+          "Role": "出演"
+        },
+        {
+          "Name": "桑島法子 ",
+          "Role": "出演"
+        },
+        {
+          "Name": "矢島晶子 ",
+          "Role": "出演"
+        },
+        {
+          "Name": "朴璐美",
+          "Role": "出演"
+        },
+        {
+          "Name": "小島幸子 ",
+          "Role": "出演"
+        },
+        {
+          "Name": "麻生智久",
+          "Role": "出演"
+        },
+        {
+          "Name": "斉藤梨絵 ",
+          "Role": "出演"
+        },
+        {
+          "Name": "鈴木れい子 ",
+          "Role": "出演"
+        },
+        {
+          "Name": "野田順子 ",
+          "Role": "出演"
+        },
+        {
+          "Name": "小林由美子 ",
+          "Role": "出演"
+        },
+        {
+          "Name": "梅田貴公美 ",
+          "Role": "出演"
+        },
+        {
+          "Name": "山口眞弓 ",
+          "Role": "出演"
+        },
+        {
+          "Name": "沼田祐介 ",
+          "Role": "出演"
+        },
+        {
+          "Name": "進藤尚美",
+          "Role": "出演"
+        },
+        {
+          "Name": "遊佐浩二",
+          "Role": "出演"
+        },
+        {
+          "Name": "日比愛子",
+          "Role": "出演"
+        },
+        {
+          "Name": "中尾みち雄",
+          "Role": "出演"
+        },
+        {
+          "Name": "金月真美",
+          "Role": "出演"
+        },
+        {
+          "Name": "堂ノ脇恭子",
+          "Role": "出演"
+        },
+        {
+          "Name": "西脇保",
+          "Role": "出演"
+        },
+        {
+          "Name": "水野龍司",
+          "Role": "出演"
+        },
+        {
+          "Name": "磯光雄",
+          "Role": "監督"
+        },
+        {
+          "Name": "三ツ木早苗",
+          "Role": "プロデュース"
+        },
+        {
+          "Name": "渡辺繁",
+          "Role": "プロデュース"
+        },
+        {
+          "Name": "松本寿子",
+          "Role": "プロデュース"
+        },
+        {
+          "Name": "磯光雄",
+          "Role": "Writer"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07JQQTH3P"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2018-11-09",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-11-06",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "日本で AR といったらこれだろう！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4150113513",
+      "Title": "スノウ・クラッシュ〈上〉 (ハヤカワ文庫SF)",
+      "URL": "https://www.amazon.co.jp/dp/4150113513?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61F6HK9RDKL._SL160_.jpg",
+        "Height": 160,
+        "Width": 111
+      },
+      "ProductType": "文庫",
+      "Creators": [
+        {
+          "Name": "ニール スティーヴンスン",
+          "Role": "著"
+        },
+        {
+          "Name": "Stephenson,Neal",
+          "Role": "原著"
+        },
+        {
+          "Name": "雅通, 日暮",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "早川書房",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4150113513"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784150113513"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4150113513"
+        }
+      ],
+      "PublicationDate": "2001-04-01",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-11-06",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "1990年代前半の「凋落する米国」の延長線上の未来って感じ。世にある IT 系のアイデアは大抵この作品が元ネタだったりする。そのくらい名作。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08MTK6LF3",
+      "Title": "BOOM TOWN TRIP.30",
+      "URL": "https://www.amazon.co.jp/dp/B08MTK6LF3?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51T3b6Sl7oL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "内田美奈子",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "Jコミックテラス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08MTK6LF3"
+        }
+      ],
+      "PublicationDate": "2020-11-11",
+      "LastRelease": "2020-11-11",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2016-06-05",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "掲載誌「コミックガンマ」が休刊になって単行本収録できなかった\u003cdel\u003eまるぼし\u003c/del\u003eまぼろしの30話。これが Kindle で読めるとはいい時代になったものです。"
   }
 ]

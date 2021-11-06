@@ -178,4 +178,4 @@ AI は（今のところ）近似解に葛藤したりしない。
 {{% review-paapi "B009HO50XC" %}} <!-- 考えるヒント -->
 {{% review-paapi "B00F5P454W" %}} <!-- キカイダー02 -->
 {{% review-paapi "B00O1VK072" %}} <!-- われはロボット -->
-{{% review-paapi "B00NWQI4N4" %}} <!-- BOOM TOWN TRIP.30 -->
+{{% review-paapi "B08MTK6LF3" %}} <!-- BOOM TOWN TRIP.30 -->
