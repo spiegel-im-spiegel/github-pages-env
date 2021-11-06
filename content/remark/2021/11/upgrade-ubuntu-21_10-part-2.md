@@ -28,7 +28,7 @@ pageType = "text"
 
 アップグレードして再起動したら NAS に接続できなくなったのには焦った。
 
-もしかしたら [Ubuntu] 21.04 以降でアクティブ・ディレクトリに対応したことが影響してるのかも知れないが， SMB でマウントする際の認証情報で `domain` または `workgroup` オプションでドメイン名またはワークグループ名を明示しないとダメぽいみたい。
+もしかしたら [Ubuntu] 21.04 以降で [Active Directory に対応](https://kledgeb.blogspot.com/2021/04/ubuntu-2104-21-ubuntu-2104microsoft.html "Ubuntu 21.04 その21 - Ubuntu 21.04登場・Microsoft Active Directoryとの連携やMicrosoft SQL Serverのサポート改善など - kledgeb")したことが影響してるのかも知れないが， SMB でマウントする際の認証情報で `domain` または `workgroup` オプションでドメイン名またはワークグループ名を明示しないとダメぽいみたい。
 でも，なんで前のバージョンで上手くいってたのか...
 
 まぁ，でも，今は `/etc/fstab` ファイルで設定するのは時代遅れみたいなので，見直しが必要かなぁ。
