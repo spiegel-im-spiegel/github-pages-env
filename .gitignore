@@ -1,5 +1,6 @@
 # Files
 *.bak
+.hugo_build.lock
 
 # Folders
 /public/
