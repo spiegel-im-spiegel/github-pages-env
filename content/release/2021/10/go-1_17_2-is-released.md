@@ -23,7 +23,7 @@ pageType = "text"
 
 ## [CVE-2021-38297]
 
-{{< fig-quote type="markdown" title="Go 1.17.1 and Go 1.16.8 are released" link="https://groups.google.com/g/golang-announce/c/dx9d7IOseHw" lang="en" >}}
+{{< fig-quote type="markdown" title="Go 1.17.2 and Go 1.16.9 are released" link="https://groups.google.com/g/golang-announce/c/AEBu9j7yj5A" lang="en" >}}
 When invoking functions from WASM modules, built using `GOARCH=wasm GOOS=js`, passing very large arguments can cause portions of the module to be overwritten with data from the arguments.
 
 If using `wasm_exec.js` to execute WASM modules, users will need to replace their copy (as described in [https://golang.org/wiki/WebAssembly#getting-started](https://golang.org/wiki/WebAssembly#getting-started)) after rebuilding any modules.
@@ -54,7 +54,21 @@ $ diff -u go1.17.1/misc/wasm/wasm_exec.js go1.17.2/misc/wasm/wasm_exec.js
 
 とチェック用の条件文が追加されているだけのようだ。
 
-（以下未稿）
+以下は CVSSv3.1 による評価。
+
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H`
+- 深刻度: 緊急 (Score: 9.8)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | 高 |
+| 完全性への影響 | 高 |
+| 可用性への影響 | 高 |
 
 ## 例によって...
 
@@ -70,7 +84,7 @@ $ sudo tar xvf src/go1.17.2.linux-amd64.tar.gz
 $ sudo mv go go1.17.2
 $ sudo ln -s go1.17.2 go
 $ go version # /usr/local/go/bin にパスが通っている場合
-o version go1.17.2 linux/amd64
+go version go1.17.2 linux/amd64
 ```
 
 アップデートは計画的に。
