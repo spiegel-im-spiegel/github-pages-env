@@ -107,7 +107,7 @@ NIST は SMS によるコード送信について， [SP 800-63-3] のドラフ�
 
 - [SMSを使った二要素認証を非推奨〜禁止へ、米国立技術規格研究所NISTの新ガイダンス案 | TechCrunch Japan](http://jp.techcrunch.com/2016/07/26/20160725nist-declares-the-age-of-sms-based-2-factor-authentication-over/)
 
-しかしその後，激しい議論があったようで，最終的には “[Restricted Authenticator](https://pages.nist.gov/800-63-3/sp800-63b.html#restricted)” という位置づけまで緩和されたようだ。
+しかしその後，激しい議論があったようで，最終的には “[RESTRICTED Authenticator](https://pages.nist.gov/800-63-3/sp800-63b.html#restricted)” という位置づけまで緩和されたようだ。
 
 {{< fig-quote type="markdown" title="NIST SP 800-63 Digital Identity Guidelines-FAQ" link="https://pages.nist.gov/800-63-FAQ/#q-b01" lang="en" >}}
 {{% quote %}}Currently, authenticators leveraging the public switched telephone network, including phone- and Short Message Service (SMS)-based one-time passwords (OTPs) are restricted. Other authenticator types may be added as additional threats emerge. Note that, among other requirements, even when using phone- and SMS-based OTPs, the agency also has to verify that the OTP is being directed to a phone and not an IP address, such as with VoIP, as these accounts are not typically protected with multi-factor authentication{{% /quote %}}.
@@ -121,9 +121,6 @@ NIST は SMS によるコード送信について， [SP 800-63-3] のドラフ�
 
 Authenticator の分類を見れば分かるように，生体情報は単独では認証手段としては使えないという認識のようだ。
 そもそも**生体情報は秘密情報ではない**のだから当たり前といえば当たり前かな。
-
-
-
 
 ## ブックマーク
 
