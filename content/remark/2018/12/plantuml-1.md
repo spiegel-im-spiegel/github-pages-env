@@ -399,6 +399,9 @@ skinparam dpi 300 '解像度の設定
 - [PlantUML の使い方 | プログラマーズ雑記帳](http://yohshiy.blog.fc2.com/blog-entry-152.html)
 - [PlantUML Example for RDRA 2.0 ハンドブック - Qiita](https://qiita.com/ogomr/items/97058a87337eaa2ba21a)
 - [PlantUMLのレイアウトのコツと指定方法についてのまとめ](https://zenn.dev/kitabatake/articles/plantuml-layout)
+- [PlantUMLのテーマ（思わぬ展開） | フューチャー技術ブログ](https://future-architect.github.io/articles/20211108a/)
+
+- [PlantUML で JSON データを簡単視覚化](https://zenn.dev/spiegel/articles/20211107-visualize-json-by-plantuml)
 
 [ATOM]: https://atom.io/ "Atom"
 [PlantUML]: http://plantuml.com/ "Open-source tool that uses simple textual descriptions to draw UML diagrams."

@@ -87,6 +87,8 @@ OpenSSH_8.4p1 Ubuntu-6ubuntu2, OpenSSL 1.1.1l  24 Aug 2021
 
 ## ブックマーク
 
+- [Ubuntu 21.10 その34 - Ubuntu 21.10 日本語 Remixがリリースされました・ディスクイメージのダウンロード - kledgeb](https://kledgeb.blogspot.com/2021/11/ubuntu-2110-34-ubuntu-2110-remix.html)
+
 - [CIFS 経由で NAS に接続する]({{< ref "/remark/2019/03/common-internet-file-system.md" >}})
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
