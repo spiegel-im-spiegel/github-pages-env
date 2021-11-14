@@ -85,6 +85,8 @@ pageType = "text"
   - [Wio Terminal - スイッチサイエンス](https://www.switch-science.com/catalog/6360/)
   - [TinyGo - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=tinygo.vscode-tinygo)
 - [Go Conference 2022 Spring  | Home](https://gocon.jp/2022spring/) : 次回は 2022-04-23 (Sat)
+  - [Go Conference 2022 Spring (Online) - connpass](https://gocon.connpass.com/event/212162/)
+  - [GitHub - GoCon/2022spring: Go Conference 2022 Spring](https://github.com/GoCon/2022spring) : 要 Hugo 環境
 
 ## その他 {#others}
 
