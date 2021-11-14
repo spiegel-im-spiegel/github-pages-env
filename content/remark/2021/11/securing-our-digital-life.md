@@ -136,7 +136,7 @@ Web ブラウジングについては以下のような緩和措置もある。
 今世紀に入って可用性（availablity）へのインパクトがセキュリティ・リスクとして取り上げられるようになって，迂闊に「すぐに更新しろ」とか言えなくなってしまったが，個人で使ってる携帯端末やパソコンは**可及的速やかに**更新するという考え方でいいだろう。
 アップデートは計画的に。
 
-パソコンも系端末と同じようにちゃんとパスワードロックしておけよ，という話。
+パソコンも携帯端末と同じようにちゃんとパスワードロックしておけよ，という話。
 
 {{< fig-quote type="markdown" title="Securing your digital life, part one: The basics" link="https://arstechnica.com/features/2021/10/securing-your-digital-life-part-1/" lang="en" >}}
 {{% quote %}}Just as a phone's solid unlock password prevents data theft, the same is true of enabling password or PIN protection on your notebook computer for sleep mode. When traveling in high-risk areas like airports, power-down your computer when it’s not in use so that the risk of someone playing “[Evil Maid](https://en.wikipedia.org/wiki/Evil_maid_attack)” or surreptitiously gaining access in some other physical way is reduced{{% /quote %}}.
@@ -238,6 +238,17 @@ You’ll also want Tor or a VPN in situations where you’re on a network that h
 {{< /fig-quote >}}
 
 ところで，最後の “Peanut Butter Sandwich Anonymization Protocol” ちうのが分からんのだが，どなたか教えてください。
+
+{{< div-box type="markdown" >}}
+**【2021-11-15 追記】**
+
+[Twitter で教えてもらった](https://twitter.com/atsushieno/status/1459971971299479556)が “Peanut Butter Sandwich Anonymization Protocol” ってのは以下の話のことらしい？
+
+- [Couple Arrested After Spreading U.S. Navy Secrets Via a Peanut Butter Sandwich - Thrillist](https://www.thrillist.com/news/nation/couple-arrested-after-spreading-us-navy-secrets-via-a-peanut-butter-sandwich)
+
+情報感謝！
+{{< /div-box >}}
+
 
 ## 参考図書
 
