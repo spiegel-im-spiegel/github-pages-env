@@ -100,7 +100,7 @@ sy-nas:/volumeX/homes/username /home/username/nas-home nfs rsize=8192,wsize=8192
 
 ## Cloud Sync
 
-パッケージ・センターから [Cloud Sync] をインストールしてストレージ・クラウドと連携できるようにした。
+パッケージ・センターから [Cloud Sync] をインストールしてクラウド・ストレージと連携できるようにした。
 
 [Cloud Sync] は Google Drive, Dropbox, Box, Microsoft OneDrive あるいは Azure Storage, Google Cloud Storage, S3 storage といったメジャー・サービスはもちろん，一般的な WebDAV とも連携できるらしい。
 
