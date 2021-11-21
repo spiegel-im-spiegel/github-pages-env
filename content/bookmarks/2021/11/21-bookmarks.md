@@ -1,10 +1,9 @@
 +++
 title = "2021-11-21 のブックマーク"
-date =  "2021-11-21T13:00:59+09:00"
+date =  "2021-11-21T13:45:46+09:00"
 description = "「AUKUSの衝撃」他"
 image = "/images/attention/bookmarks.jpg"
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
