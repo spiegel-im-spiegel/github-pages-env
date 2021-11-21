@@ -76,5 +76,6 @@ pageType = "text"
 ## 参考図書
 
 {{% review-paapi "B00CZCW9BE" %}} <!-- 思春期ポストモダン -->
+{{% review-paapi "4560084122" %}} <!-- ヒトラーと哲学者 -->
 {{% review-paapi "4488711022" %}} <!-- 万物理論 -->
 {{% review-paapi "B00HY73M16" %}} <!-- Be mine! -->
