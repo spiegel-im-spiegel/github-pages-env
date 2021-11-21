@@ -34,7 +34,7 @@ pageType = "text"
 
 斎藤環さんがゼロ年代に書かれた『[思春期ポストモダン](https://www.amazon.co.jp/dp/B00CZCW9BE?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)』の7章に以下のような記述がある[^f3]。
 
-[^f3]: 「病因論的ドライブ」は『[思春期ポストモダン](https://www.amazon.co.jp/dp/B00CZCW9BE?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)』においてベースとなる考え方だが，長くなるのでこの記事では割愛する。詳しくは書籍を読んでね。ていうか「ゲーム障害」云々といってる人は予備知識としてこの本を読んでおいたほうがいいと思う。本当に adict しているのは「ゲーム」じゃないだろ？
+[^f3]: 「病因論的ドライブ」は『[思春期ポストモダン](https://www.amazon.co.jp/dp/B00CZCW9BE?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)』においてベースとなる考え方だが，長くなるのでこの記事では割愛する。詳しくは書籍を読んでね。ていうか「ゲーム障害」云々といってる人は予備知識としてこの本を読んでおいたほうがいいと思う。本当に addict しているのは「ゲーム」じゃないだろ？
 
 {{< fig-quote type="markdown" title="思春期ポストモダン" link="https://www.amazon.co.jp/dp/B00CZCW9BE?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1" >}}
 {{% quote %}}あるいはまた、「治療者」や「治療環境」、ないし「治療文化」といった存在もまた、時に病因論的ドライブを強化することがある。たとえば、ゆきすぎた医療化が広い意味で医原性と言いうるような問題をもたらしている場合、医療化そのものが病因論的に作用していると考えられる。このような場合にはもちろん、治療者自身から治療という発想に至るまで、なんらかの変化や改革が期待されることになるだろう{{% /quote %}}
