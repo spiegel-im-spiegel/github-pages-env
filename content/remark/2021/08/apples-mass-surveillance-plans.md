@@ -56,14 +56,15 @@ No. This doesn’t change the privacy assurances of Messages, and Apple never ga
 - [Apple’s Plan to Scan Photos in Messages Turns Young People Into Privacy Pawns | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2021/08/apples-plan-scan-photos-messages-turns-young-people-privacy-pawns)
   - [子どものプライバシーを犠牲するAppleがもたらす悲劇 | P2Pとかその辺のお話R](https://p2ptk.org/privacy/3352)
 - [Outside Looking In: Approaches to Content Moderation in End-to-End Encrypted Systems - Center for Democracy and Technology](https://cdt.org/insights/outside-looking-in-approaches-to-content-moderation-in-end-to-end-encrypted-systems/)
-- [外側から見るということ：エンド・ツー・エンド暗号化システムにおけるコンテンツ・モデレーションのアプローチ | P2Pとかその辺のお話R](https://p2ptk.org/privacy/3354)
-
+  - [外側から見るということ：エンド・ツー・エンド暗号化システムにおけるコンテンツ・モデレーションのアプローチ | P2Pとかその辺のお話R](https://p2ptk.org/privacy/3354)
 - [One Bad Apple - The Hacker Factor Blog](https://www.hackerfactor.com/blog/index.php?/archives/929-One-Bad-Apple.html)
 - [In internal memo, Apple addresses concerns around new Photo scanning features, doubles down on the need to protect children - 9to5Mac](https://9to5mac.com/2021/08/06/apple-internal-memo-icloud-photo-scanning-concerns/)
-- [AppleがiPhoneの写真やメッセージをスキャンして児童の性的搾取を防ぐと発表、電子フロンティア財団などから「ユーザーのセキュリティとプライバシーを損なう」という抗議の声も - GIGAZINE](https://gigazine.net/news/20210806-apple-csam-icloud-photo-scan/)
+  - [AppleがiPhoneの写真やメッセージをスキャンして児童の性的搾取を防ぐと発表、電子フロンティア財団などから「ユーザーのセキュリティとプライバシーを損なう」という抗議の声も - GIGAZINE](https://gigazine.net/news/20210806-apple-csam-icloud-photo-scan/)
 - [国際的な連合は、アップル社にiPhone、iPad等製品への監視機能組み込み計画の中止を求める のコピー - Google ドキュメント](https://docs.google.com/document/d/1aBooqLlOuzIeKw5qCJgnAHrCli91c6x8SKCXjjiNsyY/edit)
 - [電子フロンティア財団が「アップルの大規模な監視計画に反対」と声明発表、請願書への署名を呼びかけ  |  TechCrunch Japan](https://jp.techcrunch.com/2021/08/24/speak-out-against-apple-surveillance/)
 - [Apple cares about privacy, unless you work at Apple - The Verge](https://www.theverge.com/22648265/apple-employee-privacy-icloud-id)
+- [Apple Has Listened And Will Retract Some Harmful Phone-Scanning | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2021/11/apple-has-listened-and-will-retract-some-harmful-phone-scanning)
+  - [Appleが子どものメッセージ監視計画を軌道修正、次はクラウド写真スキャンの中止を | P2Pとかその辺のお話R](https://p2ptk.org/privacy/3456)
 
 - [誰がプライバシーを支配するのか]({{< ref "/remark/2018/04/handling-privacy.md" >}})
 - [プライバシーなどク◯喰らえ]({{< ref "/remark/2020/01/privacy.md" >}})

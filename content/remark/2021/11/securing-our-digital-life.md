@@ -249,6 +249,10 @@ You’ll also want Tor or a VPN in situations where you’re on a network that h
 情報感謝！
 {{< /div-box >}}
 
+## 【あとで整理するかも】
+
+- [Securing your digital life, part three: How smartphones make us vulnerable | Ars Technica](https://arstechnica.com/information-technology/2021/11/securing-your-digital-life-part-3/)
+  - [Securing Your Smartphone - Schneier on Security](https://www.schneier.com/blog/archives/2021/11/securing-your-smartphone.html)
 
 ## 参考図書
 

@@ -77,6 +77,7 @@ pageType = "text"
   - [io/fsパッケージを用いた テスタブルなコード生成ツールの開発 - Google スライド](https://docs.google.com/presentation/d/1Ve4GyJGQG-3_Cz5Alse2Am7k4ngcpiCpwwgSfDPzmnE/edit#slide=id.p)
   - [スケジューラから学ぶGoランタイム 〜code reading of runtime pkg〜 - Speaker Deck](https://speakerdeck.com/sakiengineer/sukeziyurakaraxue-bugorantaimu-code-reading-of-runtime-pkg)
   - [Learning Computer Systems by Crafting: Shell  〜作って学ぶシェル〜 - Google スライド](https://docs.google.com/presentation/d/e/2PACX-1vTjNhH-Fh3WwUe-hLT777OI4YOAxtG5YUqIfEzt63nwyvzNra-7leKPz4YcwWSuHt-jBJxAbuPliWXg/pub#slide=id.p)
+  - [「Contextを完全に理解する」というテーマでGo Conference 2021 Autumnに登壇しました | フューチャー技術ブログ](https://future-architect.github.io/articles/20211119a/)
 - [TinyGo ハンズオン  - Go で L チカから応用まで - connpass](https://gocon.connpass.com/event/226098/)
   - [GitHub - sago35/tinygo-workshop](https://github.com/sago35/tinygo-workshop)
   - [Wio Terminal で TinyGo プログラミングを始めよう - Qiita](https://qiita.com/sago35/items/92b22e8cbbf99d0cd3ef)
@@ -87,6 +88,9 @@ pageType = "text"
 - [Go Conference 2022 Spring  | Home](https://gocon.jp/2022spring/) : 次回は 2022-04-23 (Sat)
   - [Go Conference 2022 Spring (Online) - connpass](https://gocon.connpass.com/event/212162/)
   - [GitHub - GoCon/2022spring: Go Conference 2022 Spring](https://github.com/GoCon/2022spring) : 要 Hugo 環境
+
+{{< fig-youtube id="6veEA0fsYuI" title="Go Conference 2021 Autumn TinyGo Workshop - YouTube" >}}
+
 
 ## その他 {#others}
 
