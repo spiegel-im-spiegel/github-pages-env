@@ -16513,5 +16513,56 @@
       true
     ],
     "Description": "掲載誌「コミックガンマ」が休刊になって単行本収録できなかった\u003cdel\u003eまるぼし\u003c/del\u003eまぼろしの30話。これが Kindle で読めるとはいい時代になったものです。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "441662140X",
+      "Title": "天文年鑑 2022年版",
+      "URL": "https://www.amazon.co.jp/dp/441662140X?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41A-pgRY3WL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "天文年鑑編集委員会",
+          "Role": "編集"
+        }
+      ],
+      "Publisher": "誠文堂新光社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "441662140X"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784416621400"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "441662140X"
+        }
+      ],
+      "PublicationDate": "2021-11-22",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-11-22",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "天文ファン必携。2021年版。"
   }
 ]
