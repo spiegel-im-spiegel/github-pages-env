@@ -1,5 +1,5 @@
 +++
-title = "2021年の主な暦象"
+title = "2022年の主な暦象"
 date =  "2021-11-22T20:56:39+09:00"
 description = "2022年は火星大接近の年。皆既月食もあるよ"
 image = "/images/attention/kitten.jpg"
