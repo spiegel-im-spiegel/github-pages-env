@@ -16564,5 +16564,220 @@
       true
     ],
     "Description": "天文ファン必携。2021年版。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09JBVRSFC",
+      "Title": "That’s！イズミコ【新装版】(1) (Jコミックテラス×ナンバーナイン)",
+      "URL": "https://www.amazon.co.jp/dp/B09JBVRSFC?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51SvSwupBIL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "大野安之",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "ナンバーナイン",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09JBVRSFC"
+        }
+      ],
+      "PublicationDate": "2021-10-22",
+      "LastRelease": "2021-10-22",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-11-23",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "名作「That’s！イズミコ」の完全復刊。ありがたや。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09JBVK7ZN",
+      "Title": "That’s！イズミコ【新装版】(3) (Jコミックテラス×ナンバーナイン)",
+      "URL": "https://www.amazon.co.jp/dp/B09JBVK7ZN?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51jZLD-vVnL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "大野安之",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "ナンバーナイン",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09JBVK7ZN"
+        }
+      ],
+      "PublicationDate": "2021-10-22",
+      "LastRelease": "2021-10-22",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-11-23",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "名作「That’s！イズミコ」の完全復刊。ありがたや。「のぼる ほし」が収録されている巻。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09JBWGJN2",
+      "Title": "イズミコ おかわり【新装版】 (Jコミックテラス×ナンバーナイン)",
+      "URL": "https://www.amazon.co.jp/dp/B09JBWGJN2?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51HI5PJ+nLL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "大野安之",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "ナンバーナイン",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09JBWGJN2"
+        }
+      ],
+      "PublicationDate": "2021-10-22",
+      "LastRelease": "2021-10-22",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-11-23",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "「イズミコ おかわり」も復刊してる。ありがたや。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09KH3F57G",
+      "Title": "精霊伝説ヒューディー【新装版】1 (Jコミックテラス×ナンバーナイン)",
+      "URL": "https://www.amazon.co.jp/dp/B09KH3F57G?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/514HPTojMWL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "大野安之",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "ナンバーナイン",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09KH3F57G"
+        }
+      ],
+      "PublicationDate": "2021-11-05",
+      "LastRelease": "2021-11-05",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-11-23",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "名作「精霊伝説ヒューディー」の完全復刊。ありがたや。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09KH3BKMW",
+      "Title": "ゆめのかよいじ【雑誌掲載版】 (Jコミックテラス×ナンバーナイン)",
+      "URL": "https://www.amazon.co.jp/dp/B09KH3BKMW?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51cnmorx3TL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "大野安之",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "ナンバーナイン",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09KH3BKMW"
+        }
+      ],
+      "PublicationDate": "2021-11-05",
+      "LastRelease": "2021-11-05",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-11-23",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "少年画報社版の「ゆめのかよいじ」完全復刊！ ありがたや。"
   }
 ]

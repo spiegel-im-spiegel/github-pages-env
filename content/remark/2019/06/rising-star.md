@@ -61,6 +61,7 @@ pageType = "text"
 
 ## 参考図書
 
+{{% review-paapi "B09JBVK7ZN" %}} <!-- That’s！イズミコ【新装版】3巻 -->
 {{% review-paapi "4560084122" %}} <!-- ヒトラーと哲学者 -->
 {{% review-paapi "B00EYXMA9I" %}} <!-- 数学ガール -->
 {{% review-paapi "4835449517" %}} <!-- That's! イズミコ ベスト -->
