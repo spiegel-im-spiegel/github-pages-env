@@ -12,8 +12,6 @@ tags = ["movie", "astronomy", "mars"]
 最初に。
 ネタバレを多分に含むので閲覧注意です。
 
-{{< div-gen height="20rem" >}}{{< /div-gen >}}
-
 ------
 
 いやぁ。
@@ -98,5 +96,6 @@ tags = ["movie", "astronomy", "mars"]
 ## 参考図書
 
 {{% review-paapi "B00O1VJZLO" %}} <!-- 火星の人 -->
+{{% review-paapi "B01EFL9ZSC" %}} <!-- 火星の人（劇場版） -->
 {{% review-paapi "B0763GSNHZ" %}} <!-- アステロイド・マイナーズ(1) -->
 {{% review-paapi "4873114985" %}} <!-- 子どもが体験するべき50の危険なこと -->

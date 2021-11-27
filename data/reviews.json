@@ -16779,5 +16779,67 @@
       true
     ],
     "Description": "少年画報社版の「ゆめのかよいじ」完全復刊！ ありがたや。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01EFL9ZSC",
+      "Title": "オデッセイ(字幕版)",
+      "URL": "https://www.amazon.co.jp/dp/B01EFL9ZSC?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/516ufPRy6UL._SL160_.jpg",
+        "Height": 160,
+        "Width": 120
+      },
+      "ProductType": "Prime Video",
+      "Creators": [
+        {
+          "Name": "マット･デイモン",
+          "Role": "出演"
+        },
+        {
+          "Name": "キウェテル･イジョフォー",
+          "Role": "出演"
+        },
+        {
+          "Name": "ジェシカ･チャステイン",
+          "Role": "出演"
+        },
+        {
+          "Name": "ジェフ･ダニエルズ",
+          "Role": "出演"
+        },
+        {
+          "Name": "ショーン･ビーン",
+          "Role": "出演"
+        },
+        {
+          "Name": "リドリー･スコット",
+          "Role": "監督"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01EFL9ZSC"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2016-04-22",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2016-02-26",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "原作は Andy Weir 著作の『\u003ca href=\"https://www.amazon.co.jp/dp/B00O1VJZLO?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1\"\u003e火星の人（The Martian）\u003c/a\u003e』。なんで劇場版の日本語タイトルがこんな巫山戯た名前なのかは不明。感想は\u003ca href=\"https://text.baldanders.info/remark/2016/02/the-martian/\"\u003eこちら\u003c/a\u003e。"
   }
 ]
