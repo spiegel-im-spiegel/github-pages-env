@@ -184,7 +184,7 @@ Prototyping に向いているということはプロジェクトのかなり�
 - [GoogleがTLSでの採用を提唱している共通鍵暗号方式「ChaCha」についてまとめた - sonickun.log](http://sonickun.hatenablog.com/entry/2016/04/03/183220)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[type]: https://golang.org/ref/spec#Properties_of_types_and_values "Properties of types and values"
+[type]: https://go.dev/ref/spec#Properties_of_types_and_values "Properties of types and values"
 
 ## 参考図書
 

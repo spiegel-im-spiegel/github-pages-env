@@ -267,7 +267,7 @@ func Unmarshal(data []byte, v interface{}) error {
 - [Struct タグについて]({{< relref "struct-tag.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[struct]: https://golang.org/ref/spec#Struct_types "Struct types"
+[struct]: https://go.dev/ref/spec#Struct_types "Struct types"
 [xml]: https://golang.org/pkg/encoding/xml/ "xml - The Go Programming Language"
 [`xml`]: https://golang.org/pkg/encoding/xml/ "xml - The Go Programming Language"
 [`time`]: https://golang.org/pkg/time/ "time - The Go Programming Language"

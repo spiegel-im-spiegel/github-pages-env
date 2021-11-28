@@ -78,6 +78,7 @@ pageType = "text"
   - [スケジューラから学ぶGoランタイム 〜code reading of runtime pkg〜 - Speaker Deck](https://speakerdeck.com/sakiengineer/sukeziyurakaraxue-bugorantaimu-code-reading-of-runtime-pkg)
   - [Learning Computer Systems by Crafting: Shell  〜作って学ぶシェル〜 - Google スライド](https://docs.google.com/presentation/d/e/2PACX-1vTjNhH-Fh3WwUe-hLT777OI4YOAxtG5YUqIfEzt63nwyvzNra-7leKPz4YcwWSuHt-jBJxAbuPliWXg/pub#slide=id.p)
   - [「Contextを完全に理解する」というテーマでGo Conference 2021 Autumnに登壇しました | フューチャー技術ブログ](https://future-architect.github.io/articles/20211119a/)
+  - [Go Conference 2021 Autumn にGoの静的解析で登壇しました | フューチャー技術ブログ](https://future-architect.github.io/articles/20211122a/)
 - [TinyGo ハンズオン  - Go で L チカから応用まで - connpass](https://gocon.connpass.com/event/226098/)
   - [GitHub - sago35/tinygo-workshop](https://github.com/sago35/tinygo-workshop)
   - [Wio Terminal で TinyGo プログラミングを始めよう - Qiita](https://qiita.com/sago35/items/92b22e8cbbf99d0cd3ef)
@@ -85,6 +86,7 @@ pageType = "text"
     - [Wio Terminalをはじめよう - Seeedウィキ（日本語版）](http://wiki.seeedstudio.com/jp/Wio-Terminal-Getting-Started/)
   - [Wio Terminal - スイッチサイエンス](https://www.switch-science.com/catalog/6360/)
   - [TinyGo - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=tinygo.vscode-tinygo)
+  - [2021/11/13 に実施した TinyGo ハンズオンの振り返り - sago35の日記](https://sago35.hatenablog.com/entry/2021/11/22/084916)
 - [Go Conference 2022 Spring  | Home](https://gocon.jp/2022spring/) : 次回は 2022-04-23 (Sat)
   - [Go Conference 2022 Spring (Online) - connpass](https://gocon.connpass.com/event/212162/)
   - [GitHub - GoCon/2022spring: Go Conference 2022 Spring](https://github.com/GoCon/2022spring) : 要 Hugo 環境

@@ -41,8 +41,8 @@ func main() {
 
 定数生成器（{{% span lang="en" %}}constant generator{{% /span %}}）`iota` は数値定数の中で事前に宣言された型付けなし整数を表す識別子で，以下の性質を持つ。
 
-{{< fig-quote type="markdown" title="The Go Programming Language Specification - The Go Programming Language" link="https://golang.org/ref/spec#Iota" lang="en" >}}
-{{% quote %}}Within a [constant declaration](https://golang.org/ref/spec#Constant_declarations), the predeclared identifier `iota` represents successive untyped integer [constants](https://golang.org/ref/spec#Constants). Its value is the **index of the respective ConstSpec** in that constant declaration, starting at zero{{% /quote %}}.
+{{< fig-quote type="markdown" title="The Go Programming Language Specification - The Go Programming Language" link="https://go.dev/ref/spec#Iota" lang="en" >}}
+{{% quote %}}Within a [constant declaration](https://go.dev/ref/spec#Constant_declarations), the predeclared identifier `iota` represents successive untyped integer [constants](https://go.dev/ref/spec#Constants). Its value is the **index of the respective ConstSpec** in that constant declaration, starting at zero{{% /quote %}}.
 {{< /fig-quote >}}
 
 強調は私がやりました。
@@ -50,7 +50,7 @@ func main() {
 
 私が過去にやらかした[勘違い][失敗談]について敢えて解説すると，もともと定数宣言は
 
-{{< fig-quote type="markdown" title="The Go Programming Language Specification - The Go Programming Language" link="https://golang.org/ref/spec#Constant_declarations" lang="en" >}}
+{{< fig-quote type="markdown" title="The Go Programming Language Specification - The Go Programming Language" link="https://go.dev/ref/spec#Constant_declarations" lang="en" >}}
 {{% quote %}}Within a parenthesized `const` declaration list the expression list may be omitted from any but the first ConstSpec. Such an empty list is equivalent to the textual substitution of the first preceding non-empty expression list and its type if any. Omitting the list of expressions is therefore equivalent to repeating the previous list{{% /quote %}}.
 {{< /fig-quote >}}
 
@@ -105,7 +105,7 @@ const (
 
 また ConstSpec 単位のインデックス値なので，こんな変態的な記述もできる（笑）
 
-{{< fig-quote class="nobox" type="markdown" title="The Go Programming Language Specification - The Go Programming Language" link="https://golang.org/ref/spec#Iota" lang="en" >}}
+{{< fig-quote class="nobox" type="markdown" title="The Go Programming Language Specification - The Go Programming Language" link="https://go.dev/ref/spec#Iota" lang="en" >}}
 ```go
 const (
     bit0, mask0 = 1 << iota, 1<<iota - 1 // bit0 == 1, mask0 == 0  (iota == 0)

@@ -4,7 +4,7 @@
 
 - [web制作者にもわかる、Swift 3が++と--を削除した理由 - Qiita](http://qiita.com/tonkotsuboy_com/items/0adc5dac54e690fcf706)
 
-[Go 言語]にも `++` や `--` はあるが，実はこれは演算子ではなく [statement](https://golang.org/ref/spec#IncDec_statements) を構成する special token である。
+[Go 言語]にも `++` や `--` はあるが，実はこれは演算子ではなく [statement](https://go.dev/ref/spec#IncDec_statements) を構成する special token である。
 
 ```
 IncDecStmt = Expression ( "++" | "--" ) .
@@ -30,7 +30,7 @@ func main() {
 
 とか言われて怒られる[^svd]。この場合は素直に
 
-[^svd]: `:=` で構成される statement は [short variable declarations](https://golang.org/ref/spec#Short_variable_declarations) と呼ばれる「宣言」（代入ではない）を構成するもので，その右辺は [Expression](https://golang.org/ref/spec#Expression) （のリスト）でなければならない。したがって statement は記述できない。
+[^svd]: `:=` で構成される statement は [short variable declarations](https://go.dev/ref/spec#Short_variable_declarations) と呼ばれる「宣言」（代入ではない）を構成するもので，その右辺は [Expression](https://go.dev/ref/spec#Expression) （のリスト）でなければならない。したがって statement は記述できない。
 
 ```go
 package main
@@ -64,7 +64,7 @@ func main() {
 
 [^op]: 個人的な感想で申し訳ないが，私は「演算子は変数の状態を変えてはいけない」と考えている。C/C++ は多くの token を演算子として扱っていて，その中には `++/--` や `=` などの変数の状態を変えるものも含まれている。 C/C++ では `++/--` を前置にすべきか後置にすべきかというのでよく議論になるが，私は変数の状態を変える演算子は他の演算子と混ぜるべきではないと思っている（つまり statement を分ける。やりすぎると可読性が落ちるけど）。そういう意味では [Go 言語]のように演算子と見なさないようにしたり Swift のようにいっそ `++/--` を言語仕様から排除するというのは妥当な割り切りだと思う。ちなみに [Go 言語]では channel 受信を示す `<-` を単項演算子としている。変数の状態を変える演算子はこれが唯一である。
 
-ちなみに `++` や `--` は以下の [assignment statements](https://golang.org/ref/spec#Assignments) と同義である。
+ちなみに `++` や `--` は以下の [assignment statements](https://go.dev/ref/spec#Assignments) と同義である。
 
 | IncDec statement | Assignment |
 |------------------|------------|
@@ -97,9 +97,9 @@ func main() {
 
 [Go 言語]では明確に言語仕様が決められている（大抵のプログラミング言語はそうだと思うけど）。
 
-- [The Go Programming Language Specification - The Go Programming Language](https://golang.org/ref/spec)
+- [The Go Programming Language Specification - The Go Programming Language](https://go.dev/ref/spec)
 
-この中で[演算子（operator）](https://golang.org/ref/spec#Operators)についても厳密に決められている。この点において誤解や独自解釈の余地はない。 [Go 言語]における式（expression）と演算子の定義は以下の通り。
+この中で[演算子（operator）](https://go.dev/ref/spec#Operators)についても厳密に決められている。この点において誤解や独自解釈の余地はない。 [Go 言語]における式（expression）と演算子の定義は以下の通り。
 
 ```
 Expression = UnaryExpr | Expression binary_op Expression .
@@ -113,7 +113,7 @@ mul_op     = "*" | "/" | "%" | "<<" | ">>" | "&" | "&^" .
 unary_op   = "+" | "-" | "!" | "^" | "*" | "&" | "<-" .
 ```
 
-またこの中にある [PrimaryExpr (primary expression)](https://golang.org/ref/spec#PrimaryExpr) の定義は以下のとおりである[^el]。
+またこの中にある [PrimaryExpr (primary expression)](https://go.dev/ref/spec#PrimaryExpr) の定義は以下のとおりである[^el]。
 
 [^el]: ちなみに ExpressionList は Expression をカンマで繋いで列挙したものである。
 
@@ -135,7 +135,7 @@ TypeAssertion  = "." "(" Type ")" .
 Arguments      = "(" [ ( ExpressionList | Type [ "," ExpressionList ] ) [ "..." ] [ "," ] ] ")" .
 ```
 
-更に二項演算子（binary_op）には優先順位が決められているが，それは[言語仕様](https://golang.org/ref/spec#Operators)を読みなはれ。
+更に二項演算子（binary_op）には優先順位が決められているが，それは[言語仕様](https://go.dev/ref/spec#Operators)を読みなはれ。
 
 たとえば C/C++ 言語では括弧も演算子の一種であり優先順位が決められているが， [Go 言語]では括弧は演算子ではない（故に二項演算子のような優先順位はない）。代入（`=` 等）も同様だ。私のように C/C++ や Java などから来た人間にとってはこの仕様上の差異をきちんと把握しておくことは結構重要で，これを怠ると（今回の `++/--` のように）時に躓きポイントになる。新しい言語を学ぶ際は（チュートリアルで満足するのではなく）まずひと通りは言語仕様を眺めておくことをお勧めする。
 

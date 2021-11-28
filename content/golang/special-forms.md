@@ -83,12 +83,12 @@ func main() {
 
 ## ブックマーク
 
-- [The Go Programming Language Specification - The Go Programming Language](https://golang.org/ref/spec)
+- [The Go Programming Language Specification - The Go Programming Language](https://go.dev/ref/spec)
 - [Goの言語仕様書精読のススメ & 英語彙集](https://zenn.dev/hsaki/articles/gospecdictionary)
 - [Go言語における式の評価文脈を理解する](https://zenn.dev/dqneo/articles/436bb59d565be7)
 
 [Go]: https://golang.org/ "The Go Programming Language"
-[言語仕様]: https://golang.org/ref/spec "The Go Programming Language Specification - The Go Programming Language"
+[言語仕様]: https://go.dev/ref/spec "The Go Programming Language Specification - The Go Programming Language"
 [`math`]: https://golang.org/pkg/math/ "math - The Go Programming Language"
 
 ## 参考図書

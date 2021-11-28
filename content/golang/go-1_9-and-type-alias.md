@@ -140,7 +140,7 @@ The type alias design document and an article on refactoring cover the problem i
 - [Go 言語における「オブジェクト」]({{< relref "object-oriented-programming.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[type]: https://golang.org/ref/spec#Properties_of_types_and_values "Properties of types and values"
+[type]: https://go.dev/ref/spec#Properties_of_types_and_values "Properties of types and values"
 [リリースノート]: https://golang.org/doc/go1.9 "Go 1.9 Release Notes - The Go Programming Language"
 
 ## 参考図書

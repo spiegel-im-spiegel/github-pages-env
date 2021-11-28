@@ -42,9 +42,9 @@ fmt.Printf("Type: %T, Value: %v", nil, nil)
 などと表示されるので，いかにも `nil` 型のようなものがあるように見えるが，実際にはこれは「型がない」ことを示している。
 同様に値についても，厳密には `nil` という値ではなく「値がない」ことを示しているのだ。
 
-「`nil` とは何か」をきちんと定義した文章は見かけないが， [Go 言語の仕様書](https://golang.org/ref/spec "The Go Programming Language Specification - The Go Programming Language")には，型 `T` の変数 `x` に対して
+「`nil` とは何か」をきちんと定義した文章は見かけないが， [Go 言語の仕様書](https://go.dev/ref/spec "The Go Programming Language Specification - The Go Programming Language")には，型 `T` の変数 `x` に対して
 
-{{< fig-quote type="markdown" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" >}}
+{{< fig-quote type="markdown" title="The Go Programming Language Specification" link="https://go.dev/ref/spec" lang="en" >}}
 {{< quote >}}`x` is the predeclared identifier `nil` and `T` is a pointer, function, slice, map, channel, or interface type.{{< /quote >}}
 {{< /fig-quote >}}
 
@@ -224,7 +224,7 @@ func main() {
 前節まで読んだなら既にお分かりだろうが `bar()` 関数の返り値の `error` は `*ErrorObject` という型を持つため `nil` にならないのである。
 したがって `err != nil` は真（`true`）となる。
 
-`bar()` 関数の返り値を正しく評価するには [Conversion](https://golang.org/ref/spec#Conversions) 構文で型を括りだすか，いっそ `foo()` 関数を
+`bar()` 関数の返り値を正しく評価するには [Conversion](https://go.dev/ref/spec#Conversions) 構文で型を括りだすか，いっそ `foo()` 関数を
 
 ```go
 func foo() error {

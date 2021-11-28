@@ -107,7 +107,7 @@ ok      pointer    3.233s
 | `BenchmarkMemoryStack` |                  9.0 |               0 |             0 |
 | `BenchmarkMemoryHeap`  |                 71.6 |              96 |             1 |
 
-言うまでもないが `s = byCopy()` は[代入文](https://golang.org/ref/spec#Assignments "The Go Programming Language Specification - The Go Programming Language")で [Go] では代入時に必ずコピーが発生する。
+言うまでもないが `s = byCopy()` は[代入文](https://go.dev/ref/spec#Assignments "The Go Programming Language Specification - The Go Programming Language")で [Go] では代入時に必ずコピーが発生する。
 ただし `s = byCopy()` がインスタンス自体のコピーなのに対し `s = byPointer()` ではポインタ値のみコピーされる。
 
 つまり上の結果はヒープ領域の割当と解放にかかる（GC を含む）時間コスト（の平均）がインスタンスのコピーよりもかなり大きいことを示している。

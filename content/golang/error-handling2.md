@@ -254,8 +254,8 @@ func Cause(err error) error {
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [error]: http://blog.golang.org/error-handling-and-go "Error handling and Go - The Go Blog"
-[type]: https://golang.org/ref/spec#Properties_of_types_and_values "Properties of types and values"
-[Conversion]: https://golang.org/ref/spec#Conversions "The Go Programming Language Specification - The Go Programming Language"
+[type]: https://go.dev/ref/spec#Properties_of_types_and_values "Properties of types and values"
+[Conversion]: https://go.dev/ref/spec#Conversions "The Go Programming Language Specification - The Go Programming Language"
 [`github.com/pkg/errors`]: https://github.com/pkg/errors "pkg/errors: Simple error handling primitives"
 
 ## 参考図書

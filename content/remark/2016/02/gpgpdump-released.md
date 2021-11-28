@@ -226,5 +226,5 @@ type Item struct {
 [RFC 4880]: https://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
 [RFC 5581]: https://tools.ietf.org/html/rfc5581 "RFC 5581 - The Camellia Cipher in OpenPGP"
 [RFC 6637]: https://tools.ietf.org/html/rfc6637 "RFC 6637 - Elliptic Curve Cryptography (ECC) in OpenPGP"
-[struct]: https://golang.org/ref/spec#Struct_types "Struct types"
+[struct]: https://go.dev/ref/spec#Struct_types "Struct types"
 [panic]: http://blog.golang.org/defer-panic-and-recover "Defer, Panic, and Recover - The Go Blog"

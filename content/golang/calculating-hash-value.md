@@ -203,7 +203,7 @@ matched
 [`io`]: https://golang.org/pkg/io/ "io - The Go Programming Language"
 [`hash`]: https://golang.org/pkg/hash/ "hash - The Go Programming Language"
 
-[interface]: https://golang.org/ref/spec#Interface_types "Interface types"
+[interface]: https://go.dev/ref/spec#Interface_types "Interface types"
 [golint]: https://github.com/golang/lint "golang/lint: This is a linter for Go source code."
 [dep]: https://github.com/golang/dep "golang/dep: Go dependency management tool"
 

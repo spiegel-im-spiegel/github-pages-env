@@ -91,7 +91,7 @@ pageType = "text"
 
 ### 型と [interface]
 
-[type]: https://golang.org/ref/spec#Properties_of_types_and_values "Properties of types and values"
+[type]: https://go.dev/ref/spec#Properties_of_types_and_values "Properties of types and values"
 [interface]: https://golang.org/doc/effective_go.html#interfaces_and_types "Effective Go - The Go Programming Language"
 
 - [Go言語の型とreflect - Qiita](http://qiita.com/atsaki/items/3554f5a0609c59a3e10d)

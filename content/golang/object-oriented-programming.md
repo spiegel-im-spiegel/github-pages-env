@@ -433,9 +433,9 @@ func main() {
 [Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[struct]: https://golang.org/ref/spec#Struct_types "Struct types"
-[type]: https://golang.org/ref/spec#Properties_of_types_and_values "Properties of types and values"
-[interface]: https://golang.org/ref/spec#Interface_types "Interface types"
+[struct]: https://go.dev/ref/spec#Struct_types "Struct types"
+[type]: https://go.dev/ref/spec#Properties_of_types_and_values "Properties of types and values"
+[interface]: https://go.dev/ref/spec#Interface_types "Interface types"
 [error]: http://blog.golang.org/error-handling-and-go "Error handling and Go - The Go Blog"
 [`time`]: https://golang.org/pkg/time/ "time - The Go Programming Language"
 [`fmt`]: https://golang.org/pkg/fmt/ "time - The Go Programming Language"

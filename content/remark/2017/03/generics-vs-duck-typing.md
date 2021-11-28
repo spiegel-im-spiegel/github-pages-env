@@ -118,9 +118,9 @@ tags = ["golang", "object-oriented", "java", "design", "refactoring", "generics"
 - [Go にジェネリクスがなくても構わない人たちに対する批判について - methaneのブログ](http://methane.hatenablog.jp/entry/2017/09/19/Go_%E3%81%AB%E3%82%B8%E3%82%A7%E3%83%8D%E3%83%AA%E3%82%AF%E3%82%B9%E3%81%8C%E3%81%AA%E3%81%8F%E3%81%A6%E3%82%82%E6%A7%8B%E3%82%8F%E3%81%AA%E3%81%84%E4%BA%BA%E3%81%9F%E3%81%A1%E3%81%AB%E5%AF%BE%E3%81%99)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[struct]: https://golang.org/ref/spec#Struct_types "Struct types"
-[type]: https://golang.org/ref/spec#Properties_of_types_and_values "Properties of types and values"
-[interface]: https://golang.org/ref/spec#Interface_types "Interface types"
+[struct]: https://go.dev/ref/spec#Struct_types "Struct types"
+[type]: https://go.dev/ref/spec#Properties_of_types_and_values "Properties of types and values"
+[interface]: https://go.dev/ref/spec#Interface_types "Interface types"
 [duck typing]: https://en.wikipedia.org/wiki/Duck_typing "Duck typing - Wikipedia"
 [duck test]: https://en.wikipedia.org/wiki/Duck_test "Duck test - Wikipedia"
 

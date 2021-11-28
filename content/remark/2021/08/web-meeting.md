@@ -78,8 +78,8 @@ buf := &bytes.Buffer{}
 
 もっと言うと `new()` 関数の機能は
 
-{{< fig-quote type="markdown" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" >}}
-{{% quote %}}The built-in function new takes a type `T`, allocates storage for a [variable](https://golang.org/ref/spec#Variables) of that type at run time, and returns a value of type `*T` [pointing](https://golang.org/ref/spec#Pointer_types) to it. The variable is initialized as described in the section on [initial values](https://golang.org/ref/spec#The_zero_value){{% /quote %}}.
+{{< fig-quote type="markdown" title="The Go Programming Language Specification" link="https://go.dev/ref/spec" lang="en" >}}
+{{% quote %}}The built-in function new takes a type `T`, allocates storage for a [variable](https://go.dev/ref/spec#Variables) of that type at run time, and returns a value of type `*T` [pointing](https://go.dev/ref/spec#Pointer_types) to it. The variable is initialized as described in the section on [initial values](https://go.dev/ref/spec#The_zero_value){{% /quote %}}.
 {{< /fig-quote >}}
 
 であって，割り当てる領域がヒープであるとは記されてないんだよね。
@@ -181,7 +181,7 @@ func init() {
 [Go]: https://golang.org/ "The Go Programming Language"
 [`bytes`]: https://pkg.go.dev/bytes "bytes · pkg.go.dev"
 [プログラミング言語Go]: https://www.amazon.co.jp/dp/B099928SJD?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1
-[Golang Specs]: https://golang.org/ref/spec "The Go Programming Language Specification - The Go Programming Language"
+[Golang Specs]: https://go.dev/ref/spec "The Go Programming Language Specification - The Go Programming Language"
 
 ## 参考図書
 

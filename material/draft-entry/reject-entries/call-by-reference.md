@@ -59,8 +59,8 @@ Call by reference は Fortran などの既存の言語で使われるシーケ�
 
 [Go 言語]もまた「値渡し」であることが明記されている。
 
-{{< fig-quote title="The Go Programming Language Specification" link="https://golang.org/ref/spec#Calls" lang="en" >}}
-<q>In a function call, the function value and arguments are evaluated in <a href="https://golang.org/ref/spec#Order_of_evaluation">the usual order</a>. After they are evaluated, the parameters of the call are passed by value to the function and the called function begins execution. The return parameters of the function are passed by value back to the calling function when the function returns.</q>
+{{< fig-quote title="The Go Programming Language Specification" link="https://go.dev/ref/spec#Calls" lang="en" >}}
+<q>In a function call, the function value and arguments are evaluated in <a href="https://go.dev/ref/spec#Order_of_evaluation">the usual order</a>. After they are evaluated, the parameters of the call are passed by value to the function and the called function begins execution. The return parameters of the function are passed by value back to the calling function when the function returns.</q>
 {{< /fig-quote >}}
 
 そして関数スコープ外のインスタンスへアクセスするために引数にポインタを渡せる点も同じである。

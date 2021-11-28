@@ -275,7 +275,7 @@ note = "Web Application"
 [Go 言語に関するブックマーク集はこちら]({{< relref "bookmark.md" >}})。
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[struct]: https://golang.org/ref/spec#Struct_types "Struct types"
+[struct]: https://go.dev/ref/spec#Struct_types "Struct types"
 [`reflect`]: https://golang.org/pkg/reflect/ "reflect - The Go Programming Language"
 [`encoding/json`]: https://golang.org/pkg/encoding/json/ "json - The Go Programming Language"
 [JSON]: https://tools.ietf.org/html/rfc7159 "RFC 7159 - The JavaScript Object Notation (JSON) Data Interchange Format"

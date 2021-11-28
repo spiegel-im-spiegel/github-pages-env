@@ -11,7 +11,7 @@ tags = ["book", "programming", "language", "golang"]
 
 [Go 言語]のよいところのひとつは[ドキュメント](http://golang-jp.org/doc/ "")が分かりやすい形で提供されている点である。
 はじめて [Go 言語]に接する人なら “[A Tour of Go]” から気楽に始められるし，手元にコンパイラがなくてもとりあえず “[Playground](https://play.golang.org/ "The Go Playground")” で遊ぶことはできる。
-更に[言語仕様](https://golang.org/ref/spec)や[標準パッケージのドキュメント](https://golang.org/pkg/)や [FAQ](https://golang.org/doc/faq) といったものはもちろん， “[Effective Go](https://golang.org/doc/effective_go.html)” みたいなドキュメントも用意されている。
+更に[言語仕様](https://go.dev/ref/spec)や[標準パッケージのドキュメント](https://golang.org/pkg/)や [FAQ](https://golang.org/doc/faq) といったものはもちろん， “[Effective Go](https://golang.org/doc/effective_go.html)” みたいなドキュメントも用意されている。
 なので実際のところ，本を買わなくてもオンラインで充分学ぶことができる。
 
 にも関わらず今回この本を買った理由は以下の2つ。

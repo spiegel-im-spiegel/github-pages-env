@@ -249,7 +249,7 @@ Hello Bob
 [デザパタ本]: https://www.amazon.co.jp/exec/obidos/ASIN/B00I8AT1BS/baldandersinf-22/ "増補改訂版 Java言語で学ぶデザインパターン入門 マルチスレッド編 | 結城 浩 | コンピュータ・IT | Kindleストア | Amazon"
 [channel]: http://golang.org/ref/spec#Channel_types "The Go Programming Language Specification - The Go Programming Language"
 [goroutine]: http://golang.org/ref/spec#Go_statements "The Go Programming Language Specification - The Go Programming Language"
-[var]: https://golang.org/ref/spec#Variables "The Go Programming Language Specification - The Go Programming Language"
+[var]: https://go.dev/ref/spec#Variables "The Go Programming Language Specification - The Go Programming Language"
 [defer]: http://blog.golang.org/defer-panic-and-recover "Defer, Panic, and Recover - The Go Blog"
 [`init()`]: https://golang.org/doc/effective_go.html#init "Effective Go - The Go Programming Language"
 [`sync`]: https://golang.org/pkg/sync/ "sync - The Go Programming Language"

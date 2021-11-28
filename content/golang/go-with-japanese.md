@@ -56,7 +56,7 @@ $ go run sample1.go
 
 [Go の仕様書][Go Specs] を読むと識別名として使える文字が示されている。
 
-{{< fig-quote class="nobox" type="markdown" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" >}}
+{{< fig-quote class="nobox" type="markdown" title="The Go Programming Language Specification" link="https://go.dev/ref/spec" lang="en" >}}
 ```
 identifier = letter { letter | unicode_digit } .
 ```
@@ -64,7 +64,7 @@ identifier = letter { letter | unicode_digit } .
 
 このうち `letter` は
 
-{{< fig-quote class="nobox" type="markdown" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" >}}
+{{< fig-quote class="nobox" type="markdown" title="The Go Programming Language Specification" link="https://go.dev/ref/spec" lang="en" >}}
 ```
 letter = unicode_letter | "_" .
 ```
@@ -74,7 +74,7 @@ letter = unicode_letter | "_" .
 
 `unicode_digit` や `unicode_letter` を含む文字の定義は以下の通り。
 
-{{< fig-quote class="nobox" type="markdown" title="The Go Programming Language Specification" link="https://golang.org/ref/spec" lang="en" >}}
+{{< fig-quote class="nobox" type="markdown" title="The Go Programming Language Specification" link="https://go.dev/ref/spec" lang="en" >}}
 ```
 newline        = /* the Unicode code point U+000A */ .
 unicode_char   = /* an arbitrary Unicode code point except newline */ .
@@ -269,7 +269,7 @@ $ go run sample2.go 埼⽟ 埼玉
 「[悲しいけどこれ現実なのよね](https://dic.pixiv.net/a/%E6%82%B2%E3%81%97%E3%81%84%E3%81%91%E3%81%A9%E3%81%93%E3%82%8C%E3%80%81%E7%8F%BE%E5%AE%9F%E3%81%AA%E3%81%AE%E3%82%88%E3%81%AD)」
 
 [Go]: https://golang.org/ "The Go Programming Language"
-[Go Specs]: https://golang.org/ref/spec "The Go Programming Language Specification - The Go Programming Language"
+[Go Specs]: https://go.dev/ref/spec "The Go Programming Language Specification - The Go Programming Language"
 [`unicode`]: https://golang.org/pkg/unicode/ "unicode - The Go Programming Language"
 
 ## 参考図書

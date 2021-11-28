@@ -441,6 +441,6 @@ func main() {
 [Defer]: http://blog.golang.org/defer-panic-and-recover "Defer, Panic, and Recover - The Go Blog"
 [Panic]: http://blog.golang.org/defer-panic-and-recover "Defer, Panic, and Recover - The Go Blog"
 [Recover]: http://blog.golang.org/defer-panic-and-recover "Defer, Panic, and Recover - The Go Blog"
-[Conversion]: https://golang.org/ref/spec#Conversions "The Go Programming Language Specification - The Go Programming Language"
+[Conversion]: https://go.dev/ref/spec#Conversions "The Go Programming Language Specification - The Go Programming Language"
 [`bytes`]: https://golang.org/pkg/bytes/ "bytes - The Go Programming Language"
-[type]: https://golang.org/ref/spec#Properties_of_types_and_values "Properties of types and values"
+[type]: https://go.dev/ref/spec#Properties_of_types_and_values "Properties of types and values"

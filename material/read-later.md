@@ -10,7 +10,6 @@
   - [Securing your digital life, part two: The bigger picture—and special circumstances | Ars Technica](https://arstechnica.com/information-technology/2021/10/securing-your-digital-life-part-2/)
   - [Advice for Personal Digital Security - Schneier on Security](https://www.schneier.com/blog/archives/2021/11/advice-for-personal-digital-security.html)
 
-- [生産スキルがカンストしてS級レアアイテムも作れるけど冒険者アパートの管理人をしています (一迅社ノベルス) | まるせい, riritto |本 | 通販 | Amazon](https://www.amazon.co.jp/dp/4758094217)
 - [Interlink Mail & News - Binary Outcast](https://binaryoutcast.com/projects/interlink/) : Enigmail が使えるらしい。あとで試す
 
 

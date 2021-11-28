@@ -156,4 +156,4 @@ alpha beta gamma
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [slice]: http://golang.org/ref/spec#Slice_types
 [`fmt`]: https://golang.org/pkg/fmt/ "fmt - The Go Programming Language"
-[type]: https://golang.org/ref/spec#Properties_of_types_and_values "Properties of types and values"
+[type]: https://go.dev/ref/spec#Properties_of_types_and_values "Properties of types and values"

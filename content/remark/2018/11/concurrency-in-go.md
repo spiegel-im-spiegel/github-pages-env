@@ -49,7 +49,7 @@ func main() {
 }
 ```
 
-（`go` 構文（[go statement](https://golang.org/ref/spec#Go_statements "The Go Programming Language Specification - The Go Programming Language")）でキックされた関数が sub goroutine となる。関数閉包（closure）になっている点に注目）
+（`go` 構文（[go statement](https://go.dev/ref/spec#Go_statements "The Go Programming Language Specification - The Go Programming Language")）でキックされた関数が sub goroutine となる。関数閉包（closure）になっている点に注目）
 
 これらに加えて，同期をとるための [`sync`] パッケージやコールグラフの各枝をキャンセルするための [`context`] パッケージが標準ライブラリで用意されている。
 

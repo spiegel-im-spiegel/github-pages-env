@@ -131,7 +131,7 @@ a = b = c = 1 // syntax error
 
 [Go]: https://golang.org/ "The Go Programming Language"
 [TinyGo]: https://tinygo.org/ "TinyGo - Go on Microcontrollers and WASM"
-[specs]: https://golang.org/ref/spec "The Go Programming Language Specification - The Go Programming Language"
+[specs]: https://go.dev/ref/spec "The Go Programming Language Specification - The Go Programming Language"
 [Rust]: https://www.rust-lang.org/ "Rust Programming Language"
 [富豪的プログラミング]: http://www.pitecan.com/fugo.html
 

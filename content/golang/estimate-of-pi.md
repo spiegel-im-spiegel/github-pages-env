@@ -234,9 +234,9 @@ n = 100000, m = 78397, 4m/n = 3.13588
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`math/rand`]: https://golang.org/pkg/math/rand/ "rand - The Go Programming Language"
-[complex]: https://golang.org/ref/spec#Complex_numbers "Manipulating complex numbers"
+[complex]: https://go.dev/ref/spec#Complex_numbers "Manipulating complex numbers"
 [interface]: https://golang.org/doc/effective_go.html#interfaces_and_types "Effective Go - The Go Programming Language"
-[type]: https://golang.org/ref/spec#Properties_of_types_and_values "Properties of types and values"
+[type]: https://go.dev/ref/spec#Properties_of_types_and_values "Properties of types and values"
 [channel]: http://golang.org/ref/spec#Channel_types
 [goroutine]: http://golang.org/ref/spec#Go_statements
 [gnuplot]: http://www.gnuplot.info/ "gnuplot homepage"
