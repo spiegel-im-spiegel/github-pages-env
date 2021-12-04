@@ -130,6 +130,7 @@ Bitcoin 単体は数学的に総量が決まっているが， hard fork すれ�
 - [Blockchain Graveyard](https://magoo.github.io/Blockchain-Graveyard/)
 - [仮想通貨とブロックチェーン、そしてICOの狂乱に思うこと：伊藤穰一｜WIRED.jp](https://wired.jp/2018/02/18/ico-cryptocurrency/)
 - [MIT Tech Review: 暗号通貨は「通貨」ではなく「資産」、英中央銀総裁が語る](https://www.technologyreview.jp/nl/cryptocurrency-is-terrible-as-money-but-crypto-assets-are-for-real-says-bank-of-englands-chief/) : つまり「暗号」でも「通貨」でもない，と
+- [カザフスタン、中国から暗号通貨マイナー流入で電力不足に。発電所3か所が緊急停止 - Engadget 日本版](https://japanese.engadget.com/crypto-mining-causes-power-shortage-in-kazakhstan-090014352.html) : ありゃりゃ
 
 [Everipedia]: https://everipedia.org/ "Everipedia, the encyclopedia of everything"
 
