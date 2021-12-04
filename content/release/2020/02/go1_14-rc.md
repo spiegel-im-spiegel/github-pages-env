@@ -143,7 +143,7 @@ WebAssembly や Plan 9 が non-preemptive になるのは分かるが， ARM ア
 
 標準パッケージもサードパーティのパッケージも同等に扱えるので，今後は [pkg.go.dev] を参照するのがいいかもしれない。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [pkg.go.dev]: https://pkg.go.dev/
 [godoc.org]: https://godoc.org/

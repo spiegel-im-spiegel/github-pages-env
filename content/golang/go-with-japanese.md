@@ -268,7 +268,7 @@ $ go run sample2.go 埼⽟ 埼玉
 
 「[悲しいけどこれ現実なのよね](https://dic.pixiv.net/a/%E6%82%B2%E3%81%97%E3%81%84%E3%81%91%E3%81%A9%E3%81%93%E3%82%8C%E3%80%81%E7%8F%BE%E5%AE%9F%E3%81%AA%E3%81%AE%E3%82%88%E3%81%AD)」
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go Specs]: https://go.dev/ref/spec "The Go Programming Language Specification - The Go Programming Language"
 [`unicode`]: https://golang.org/pkg/unicode/ "unicode - The Go Programming Language"
 

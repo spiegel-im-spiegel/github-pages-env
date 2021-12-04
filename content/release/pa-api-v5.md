@@ -345,7 +345,7 @@ q := query.NewGetItems(
 [`paapi5`]: https://github.com/spiegel-im-spiegel/pa-api "spiegel-im-spiegel/pa-api: APIs for Amazon Product Advertising API v5 by Golang"
 [Product Advertising API]: https://affiliate.amazon.co.jp/assoc_credentials/home
 [PA-API]: https://affiliate.amazon.co.jp/assoc_credentials/home "Product Advertising API"
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`context`]: https://golang.org/pkg/context/ "context - The Go Programming Language"
 [`http`]: https://golang.org/pkg/net/http/ "http - The Go Programming Language"

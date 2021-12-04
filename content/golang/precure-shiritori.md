@@ -357,7 +357,7 @@ $ go run main.go
 
 [gopkg.in/yaml.v3](https://gopkg.in/yaml.v3) パッケージを使えば YAML のアンカーとかも解釈できるようなので，調べてみたい。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 
 ## 参考図書

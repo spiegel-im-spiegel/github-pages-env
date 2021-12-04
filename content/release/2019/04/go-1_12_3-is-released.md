@@ -24,7 +24,7 @@ pageType = "text"
 
 アップデートは計画的に。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 
 ## 参考図書

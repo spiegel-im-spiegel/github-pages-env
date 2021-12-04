@@ -80,7 +80,7 @@ go version go1.16.1 linux/amd64
 
 アップデートは計画的に。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [CVE-2021-27918]: https://nvd.nist.gov/vuln/detail/CVE-2021-27918
 [CVE-2021-27919]: https://nvd.nist.gov/vuln/detail/CVE-2021-27919

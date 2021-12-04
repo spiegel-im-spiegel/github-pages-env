@@ -447,7 +447,7 @@ replace gopkg.in/russross/blackfriday.v2 v2.0.1 => github.com/russross/blackfrid
 - [How to bump a Go package to v2.0.0 | Root](https://therootcompany.com/blog/bump-go-package-to-v2/)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Semantic Versioning]: http://semver.org/ "Semantic Versioning 2.0.0 | Semantic Versioning"
 [gopkg.in]: https://labix.org/gopkg.in "gopkg.in - Stable APIs for the Go language"
 

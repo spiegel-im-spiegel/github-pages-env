@@ -230,7 +230,7 @@ ok  	sample/lowercase	3.578s
 メモリ・アロケーションが発生しなくなり，かなり速くなる。
 まぁ，それでもいっちゃん遅いのだが（笑）
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [GolangCI]: https://golangci.com/ "Automated code review for Go"
 [`strings`]: https://golang.org/pkg/strings/ "strings - The Go Programming Language"

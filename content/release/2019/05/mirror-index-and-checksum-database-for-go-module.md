@@ -73,7 +73,7 @@ $ gosumcheck /path/to/go.sum
 - [Go 1.13 と 1.14 （Go 2 へ向けて）]({{< ref "/release/2019/06/next-steps-toward-go-2.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 
 ## 参考図書
 

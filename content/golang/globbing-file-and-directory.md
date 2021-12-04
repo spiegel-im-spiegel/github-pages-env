@@ -98,7 +98,7 @@ Count: 77
 まぁ，私自身が趣味で書くのはフィルタ・プログラムが殆どで，ファイル検索機能にはあまりお世話にならないのだが（普段は shell スクリプト任せ），使えそうならご自由にどうぞ。
 そうそう，「こうすれば効率よくなるよ」みたいな PR は大歓迎である。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`filepath`]: https://golang.org/pkg/path/filepath/ "filepath - The Go Programming Language"
 [`file`]: https://github.com/spiegel-im-spiegel/file "spiegel-im-spiegel/file: Extend filepath.Glob function"

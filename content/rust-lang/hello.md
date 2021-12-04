@@ -360,7 +360,7 @@ Hello John Smith!
 [Git]: https://git-scm.com/
 [git]: https://git-scm.com/
 [medimatrix/rust-plus-golang]: https://github.com/medimatrix/rust-plus-golang "medimatrix/rust-plus-golang: Rust + Go"
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [ATOM]: https://atom.io/
 
 ## 参考図書

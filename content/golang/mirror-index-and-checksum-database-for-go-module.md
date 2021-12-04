@@ -142,7 +142,7 @@ For more information, see 'go help module-auth'.
 - [Go 言語の環境変数管理]({{< relref "./go-env.md" >}})
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Trillian]: https://github.com/google/trillian "google/trillian: A transparent, highly scalable and cryptographically verifiable data store."
 [Certificate Transparency]: https://www.certificate-transparency.org/
 

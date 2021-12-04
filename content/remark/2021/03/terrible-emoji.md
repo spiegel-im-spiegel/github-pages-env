@@ -321,7 +321,7 @@ Unicode における「絵文字」黎明期の話は，[小形克宏](https://o
 - [Unicode 文字種の判別]({{< ref "/golang/unicode-rangetables.md" >}})
 - [やっかいな日本語](https://zenn.dev/spiegel/articles/20210118-characters)
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [`regexp`]: https://golang.org/pkg/regexp/ "regexp - The Go Programming Language"
 [gnkf]: https://github.com/spiegel-im-spiegel/gnkf "spiegel-im-spiegel/gnkf: Network Kanji Filter by Golang"
 [rivo/uniseg]: https://github.com/rivo/uniseg "rivo/uniseg: Unicode Text Segmentation for Go (or: How to Count Characters in a String)"

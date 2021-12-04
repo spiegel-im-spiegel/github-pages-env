@@ -74,4 +74,4 @@ title = "Mersenne Twister に関する覚え書き"
 [Mersenne Twister]: http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/mt.html "Mersenne Twister: A random number generator (since 1997/10)"
 [GitHub]: https://github.com/ "GitHub"
 [RFC 4086]: http://tools.ietf.org/html/rfc4086 "RFC 4086 - Randomness Requirements for Security"
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/

@@ -63,7 +63,7 @@ password : match!
 
 - [GNKF: Network Kanji Filter by Golang]({{< ref "/release/gnkf.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [gnkf]: https://github.com/spiegel-im-spiegel/gnkf "spiegel-im-spiegel/gnkf: Network Kanji Filter by Golang"
 
 ## 参考図書

@@ -311,7 +311,7 @@ func(this js.Value, args []js.Value) interface{}
 
 
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [TinyGo]: https://tinygo.org/ "TinyGo - Go on Microcontrollers and WASM"
 [WebAssembly]: https://webassembly.org/ "WebAssembly"
 [LLVM]: https://llvm.org/ "The LLVM Compiler Infrastructure Project"

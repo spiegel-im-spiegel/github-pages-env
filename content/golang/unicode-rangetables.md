@@ -272,7 +272,7 @@ U+FF9D 'ﾝ' (Katakana)
 
 - [かなカナ変換]({{< relref "./kana-conversion.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [`unicode`]: https://golang.org/pkg/unicode/ "unicode - The Go Programming Language"
 
 ## 参考図書

@@ -55,7 +55,7 @@ $ gpgpdump completion -h
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 [RFC 4880]: https://tools.ietf.org/html/rfc4880
 [RFC 4880bis]: https://datatracker.ietf.org/doc/draft-ietf-openpgp-rfc4880bis/
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [cobra]: https://github.com/spf13/cobra "spf13/cobra: A Commander for modern Go CLI interactions"
 [NYAGOS]: https://github.com/nyaosorg/nyagos "nyaosorg/nyagos: NYAGOS - The hybrid Commandline Shell betweeeeeeen UNIX & DOS"
 

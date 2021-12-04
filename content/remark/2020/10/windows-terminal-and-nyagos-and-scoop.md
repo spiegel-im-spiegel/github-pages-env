@@ -257,7 +257,7 @@ $ go run sample.go
 f6bdc505-e417-4b7d-a247-a06504cf03a9
 ```
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [RFC 4122]: https://www.rfc-editor.org/rfc/rfc4122.html "RFC 4122: A Universally Unique IDentifier (UUID) URN Namespace"
 
 ## [Scoop] を使うなら git は必須

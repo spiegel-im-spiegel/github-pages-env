@@ -75,7 +75,7 @@ NSA の思惑は分からない。
 - [Critical Windows Vulnerability Discovered by NSA - Schneier on Security](https://www.schneier.com/blog/archives/2020/01/critical_window.html)
 - [Windowsの暗号化機能に致命的な脆弱性、証明書偽装の恐れ ～米国家安全保障局が警告 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1229173.html)
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [CVE-2020-0601]: https://nvd.nist.gov/vuln/detail/CVE-2020-0601
 

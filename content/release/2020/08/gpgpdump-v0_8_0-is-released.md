@@ -111,7 +111,7 @@ TOML 出力は最初の頃に勢いで組み込んだんだけど，考えてみ
 [OpenPGP]: http://openpgp.org/
 [RFC 4880]: https://tools.ietf.org/html/rfc4880
 [RFC 4880bis]: https://datatracker.ietf.org/doc/draft-ietf-openpgp-rfc4880bis/
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 
 ## 参考図書
 

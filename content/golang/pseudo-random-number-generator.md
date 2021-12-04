@@ -294,7 +294,7 @@ func main() {
 
 - [モンテカルロ法による円周率の推定（その4 PRNG）]({{< ref "http://localhost:1313/golang/estimate-of-pi-4-prng.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [件の記事]: https://qiita.com/hiromichi_n/items/d0636b9444dca18ef357 "【Go】rand.Sourceを並列で使いまわすなんて何事だ - Qiita"
 [math/rand]: https://golang.org/pkg/math/rand/ "rand - The Go Programming Language"

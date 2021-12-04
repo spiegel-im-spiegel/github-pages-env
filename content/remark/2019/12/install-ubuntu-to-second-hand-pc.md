@@ -140,7 +140,7 @@ go version go1.13.4 linux/amd64
 
 これでようやく [GnuPG], [OpenSSH], [Git], [Go] コンパイラと必要なツールのセットアップが完了した。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 
 ## [ATOM] エディタのインストール

@@ -167,7 +167,7 @@ func main() {
 - [それは Duck Typing ぢゃない（らしい）]({{< ref "/remark/2020/04/subtyping.md" >}})
 
 [前回]: {{< relref "./generics-in-go-2-update.md" >}} "次期 Go 言語で導入される総称型について予習する（その2）"
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [`sort`]: https://golang.org/pkg/sort/ "sort - The Go Programming Language"
 
 ## 参考図書

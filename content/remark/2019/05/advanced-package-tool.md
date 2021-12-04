@@ -232,7 +232,7 @@ go version go1.12.5 linux/amd64
 
 `bin/` ディレクトリにはパスを通しておけば大丈夫。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 
 ### [FileZilla]
 

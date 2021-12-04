@@ -100,7 +100,7 @@ func main() {
 
 - [Go 言語でもグラフを描きたい！]({{< ref "/golang/chart-with-golang.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 
 ## 参考図書
 

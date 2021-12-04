@@ -38,7 +38,7 @@ go version go1.15.4 linux/amd64
 
 アップデートは計画的に。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 
 ## 参考図書

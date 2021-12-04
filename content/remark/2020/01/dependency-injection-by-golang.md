@@ -59,7 +59,7 @@ LT のスライドは以下に置いてある。
 - [Hugo でスライド・サイトを立てる実験]({{< ref "/remark/2019/12/slide-site-by-hugo.md" >}})
 
 [Shimane.go#03]: https://shimane-go.connpass.com/event/159977/ "Shimane.go#03 - connpass"
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"
 

@@ -388,7 +388,7 @@ $ go run sample3.go
 - [Go 言語と Unicode 正規化]({{< relref "./unicode-normalization.md" >}})
 - [Go 言語による Unicode 半角/全角変換]({{< relref "./character-width-for-unicode.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [`norm`]: https://pkg.go.dev/golang.org/x/text/unicode/norm "norm package · pkg.go.dev"
 [`width`]: https://pkg.go.dev/golang.org/x/text/width "width package · pkg.go.dev"
 [`transform`]: https://pkg.go.dev/golang.org/x/text/transform "transform package · pkg.go.dev"

@@ -42,7 +42,7 @@ tags = [
 
 - [Go 1.13 のエラー・ハンドリング]({{< relref "./error-handling-in-go-1_3.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 {{< /div-box >}}
 
 ## Check 式（Check Expression）と Handle 構文（Handle Statement）

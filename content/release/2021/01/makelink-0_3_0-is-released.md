@@ -148,7 +148,7 @@ func main() {
 
 - [Markdown 形式のリンクを生成するツールを作ってみた]({{< ref "/golang/make-link-with-markdown-format.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [ml]: https://github.com/spiegel-im-spiegel/ml "spiegel-im-spiegel/ml: Make Link with Markdown Format"
 [go-readline-ny]: https://github.com/nyaosorg/go-readline-ny "nyaosorg/go-readline-ny: Readline library for golang , used in nyagos"
 [NYAGOS]: https://github.com/nyaosorg/nyagos "nyaosorg/nyagos: NYAGOS - The hybrid Commandline Shell betweeeeeeen UNIX & DOS"

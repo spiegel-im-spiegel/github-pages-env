@@ -13,7 +13,7 @@ pageType = "text"
 
 今まで [Go 言語][Go]用に溜めていた[旧ブックマーク]({{< ref "/golang/bookmark.md" >}})の大部分を退避させている。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 
 ## ニュース関連
 

@@ -93,7 +93,7 @@ go version go1.15.7 linux/amd64
 - [Command PATH security in Go - The Go Blog](https://blog.golang.org/path-security)
 - [Go でサブプロセスを起動する際は LookPath に気をつけろ！](https://zenn.dev/spiegel/articles/20201107-lookpath-by-golang)
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [CVE-2021-3115]: https://nvd.nist.gov/vuln/detail/CVE-2021-3115
 [CVE-2021-3114]: https://nvd.nist.gov/vuln/detail/CVE-2021-3114

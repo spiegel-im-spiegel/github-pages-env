@@ -77,7 +77,7 @@ go version go1.13.3 linux/amd64
 - [crypto/dsa: invalid public key causes panic in dsa.Verify · Issue #34960 · golang/go · GitHub](https://github.com/golang/go/issues/34960)
 - [cmd/compile: access to negative slice indices improperly permitted · Issue #34802 · golang/go · GitHub](https://github.com/golang/go/issues/34802)
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 

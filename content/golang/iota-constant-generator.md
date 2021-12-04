@@ -118,7 +118,7 @@ const (
 
 というわけで，どっとはらい。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [失敗談]: https://zenn.dev/spiegel/articles/20210904-value-of-iota "iota 出現時の値はゼロとは限らない"
 
 ## 参考図書

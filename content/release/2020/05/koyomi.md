@@ -184,6 +184,6 @@ k, err := koyomi.NewSource(
 - [こよみ用語解説 天象 - 国立天文台暦計算室](https://eco.mtk.nao.ac.jp/koyomi/faq/phenomena.html)
 - [カレンダーに祝日を入れたいなら国立天文台へ行けばいいじゃない]({{< ref "/remark/2019/05/google-ephemeris.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`koyomi`]: https://github.com/spiegel-im-spiegel/koyomi "spiegel-im-spiegel/koyomi: 日本のこよみ"

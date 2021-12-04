@@ -321,7 +321,7 @@ $ go run sample/sample2d.go | jq .
 - [構造化エラーをログ出力する]({{< ref "/golang/logging-error.md" >}})
 - [Go のエラーハンドリング](https://zenn.dev/spiegel/books/error-handling-in-golang) : Zenn 本書きました
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`os`]: https://golang.org/pkg/os/ "os - The Go Programming Language"
 [`fmt`]: https://golang.org/pkg/fmt/ "fmt - The Go Programming Language"

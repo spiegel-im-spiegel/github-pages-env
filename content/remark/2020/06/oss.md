@@ -68,7 +68,7 @@ OSS 製品に「無料」で流通しているものが多いのは確かだし�
 
 - [孵卵器の中のインターネット]({{< ref "/remark/2017/01/internet-in-the-incubator.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Apache-2.0]: http://www.apache.org/licenses/LICENSE-2.0 "Apache License, Version 2.0"
 [generativity]: http://shift-inc.co.jp/gtl/generativity/ "SHIFT Inc » Generativity"
 

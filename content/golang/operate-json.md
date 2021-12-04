@@ -203,7 +203,7 @@ func main() {
 
 - [jq ぽい何か を書いてみた]({{< ref "/release/2019/03/gjq.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [koron/go-dproxy]: https://github.com/koron/go-dproxy "koron/go-dproxy: dProxy - document proxy"
 [`go-dproxy`]: https://github.com/koron/go-dproxy "koron/go-dproxy: dProxy - document proxy"

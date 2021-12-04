@@ -254,7 +254,7 @@ Worker 3: 10
 といった感じで，処理の制限をワーカ側ではなくジェネレータ側で行うのが特徴と言えるだろうか。
 Web クローラとか使い道は色々あるかもしれない。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [`rate`]: https://pkg.go.dev/golang.org/x/time/rate "rate · pkg.go.dev"
 
 ## 参考図書

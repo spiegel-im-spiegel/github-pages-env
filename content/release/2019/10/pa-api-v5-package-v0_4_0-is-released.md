@@ -121,7 +121,7 @@ const (
 - [PA-API v5 への移行]({{< ref "/remark/2019/10/pa-api-v5.md" >}})
 - [Go 言語用 PA-API v5 クライアント・パッケージ]({{< ref "/release/pa-api-v5.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [PA-API]: https://affiliate.amazon.co.jp/assoc_credentials/home "Product Advertising API"
 [`paapi5`]: https://github.com/spiegel-im-spiegel/pa-api "spiegel-im-spiegel/pa-api: APIs for Amazon Product Advertising API v5 by Golang"

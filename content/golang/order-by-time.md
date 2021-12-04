@@ -131,7 +131,7 @@ $ go run sample2.go
 
 よーし，うむうむ，よーし。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`time`]: https://pkg.go.dev/time "time package · pkg.go.dev"
 

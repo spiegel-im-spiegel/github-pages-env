@@ -295,7 +295,7 @@ no such file or directory
 - [階層化 Error パッケージ “xerrors” を試してみる]({{< relref "./xerrors.md" >}})
 - [Go 1.13 と 1.14 （Go 2 へ向けて）]({{< ref "/release/2019/06/next-steps-toward-go-2.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`errors`]: https://golang.org/pkg/errors/ "errors - The Go Programming Language"
 [`fmt`]: https://golang.org/pkg/fmt/ "fmt - The Go Programming Language"

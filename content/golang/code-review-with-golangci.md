@@ -75,7 +75,7 @@ Pull request とも連携してレビュー結果を上げてくれるので，�
 
 - [無料で使える Go 言語の CI サービス『GolangCI』を使ってみる ｜ Developers.IO](https://dev.classmethod.jp/go/golangci/)
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [GolangCI]: https://golangci.com/ "Automated code review for Go"
 [golangci-lint]: https://github.com/golangci/golangci-lint "golangci/golangci-lint: Linters Runner for Go. 5x faster than gometalinter. Nice colored output. Can report only new issues. Fewer false-positives. Yaml/toml config."

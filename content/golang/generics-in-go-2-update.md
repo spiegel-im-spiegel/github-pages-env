@@ -151,7 +151,7 @@ func SayError(e error) string {
 - [Why no max/min function for integer in GoLang | Pixelstech.net](https://www.pixelstech.net/article/1559993656-Why-no-max-min-function-for-integer-in-GoLang)
 - [それは Duck Typing ぢゃない（らしい）]({{< ref "/remark/2020/04/subtyping.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`math`]: https://pkg.go.dev/math "math package · pkg.go.dev"
 

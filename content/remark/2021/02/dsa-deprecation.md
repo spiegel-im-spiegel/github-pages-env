@@ -39,7 +39,7 @@ pageType = "text"
 - [Go 1.16 がリリースされた]({{< ref "/release/2021/02/go-1_16-is-released.md" >}})： Go 1.16 では [`crypto/dsa`] パッケージが非推奨になった。
 
 [FIPS 186-5]: https://csrc.nist.gov/publications/detail/fips/186/5/draft "FIPS 186-5 (Draft), Digital Signature Standard (DSS) | CSRC"
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [`crypto/dsa`]: https://golang.org/pkg/crypto/dsa/ "dsa - The Go Programming Language"
 [OpenPGP]: http://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
 [RFC 4880bis]: https://datatracker.ietf.org/doc/draft-ietf-openpgp-rfc4880bis/ "draft-ietf-openpgp-rfc4880bis - OpenPGP Message Format"

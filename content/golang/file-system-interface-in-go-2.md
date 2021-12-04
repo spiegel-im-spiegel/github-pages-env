@@ -180,7 +180,7 @@ type GlobFS interface {
 - [Draft designを読む · GitHub](https://gist.github.com/tenntenn/fe8995c347a5e1000832d3c6942f1fbe)
 - [rakyll/statik でシングルバイナリにまとめる]({{< relref "./using-statik-package.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [ドラフト案]: https://go.googlesource.com/proposal/+/master/design/draft-iofs.md "File System Interfaces for Go — Draft Design"
 [`archive/zip`]: https://pkg.go.dev/archive/zip "zip package · pkg.go.dev"

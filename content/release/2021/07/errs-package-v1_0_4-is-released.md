@@ -40,7 +40,7 @@ Zenn で [pkg/errors] の不具合（？）について[教えてもらった](h
 - [Go 言語用エラーハンドリング・パッケージ]({{< ref "/release/errs-package-for-golang.md" >}})
 - [Go のエラーハンドリング](https://zenn.dev/spiegel/books/error-handling-in-golang) : Zenn 本書きました
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [pkg/errors]: https://github.com/pkg/errors "pkg/errors: Simple error handling primitives"
 [`errs`]: https://github.com/spiegel-im-spiegel/errs "spiegel-im-spiegel/errs: Error handling for Golang"
 [`errors`]: https://pkg.go.dev/errors "errors · pkg.go.dev"

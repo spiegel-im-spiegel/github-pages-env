@@ -48,5 +48,5 @@ Use "gonkf [command] --help" for more information about a command.
 
 - [「nkf っぽいなにか」を作った]({{< ref "/remark/2017/12/like-nkf.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"

@@ -40,7 +40,7 @@ v0.7.0 で個人的に欲しい機能は全て搭載したので， [Go] 1.15 �
 - [書式 %v のカスタマイズ]({{< ref "/golang/formatting.md" >}})
 - [構造化エラーをログ出力する]({{< ref "/golang/logging-error.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [`errs`]: https://github.com/spiegel-im-spiegel/errs "spiegel-im-spiegel/errs: Error handling for Golang"
 
 ## 参考図書

@@ -240,7 +240,7 @@ func main() {
 - [モジュール対応モードへの移行を検討する]({{< relref "./go-module-aware-mode.md" >}})
 - [Go モジュールのバージョン管理]({{< relref "./versioning-of-go-modules.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 

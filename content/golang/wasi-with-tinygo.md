@@ -407,7 +407,7 @@ Hello, World!
 - [コンテナ技術を捨て、 WASIを試す. こんにちは、NTTの藤田です。 | by FUJITA Tomonori | nttlabs | Medium](https://medium.com/nttlabs/wasi-6060b243ac90)
 - [TinyGo の開発版のビルド方法と、ビルドせずに開発版バイナリを手に入れる方法 - Qiita](https://qiita.com/sago35/items/33e63ca5073f572ad69c)
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [TinyGo]: https://tinygo.org/ "TinyGo - Go on Microcontrollers and WASM"
 [WebAssembly]: https://webassembly.org/ "WebAssembly"
 [Wasmtime]: https://wasmtime.dev/ "Wasmtime — a small and efficient runtime for WebAssembly & WASI"

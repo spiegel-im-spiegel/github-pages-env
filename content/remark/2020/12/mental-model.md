@@ -81,5 +81,5 @@ tags = [ "engineering" ]
 
 - [技術的負債とハッカー]({{< ref "/remark/2020/12/technical-debt-and-hacker.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 <!-- eof -->

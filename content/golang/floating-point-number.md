@@ -194,7 +194,7 @@ func (n Number) Int64() (int64, error) {
 - [書式 %v のカスタマイズ]({{< relref "./formatting.md" >}})
 
 [件の記事]: https://qiita.com/Nabetani/items/6cea56acb71f111aebc8 "go で float32 を JSON にするとちょっと意外なことになる - Qiita"
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [RFC 7159]: https://tools.ietf.org/html/rfc7159 "RFC 7159 - The JavaScript Object Notation (JSON) Data Interchange Format"
 [encoding/json]: https://golang.org/pkg/encoding/json/ "json - The Go Programming Language"

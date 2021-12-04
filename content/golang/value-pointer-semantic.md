@@ -291,7 +291,7 @@ Interface 型の機能とはボックス化（boxing）である。
 - [Design Philosophy On Data And Semantics](https://www.ardanlabs.com/blog/2017/06/design-philosophy-on-data-and-semantics.html)
 - [Big Sky :: Go のポインタの躓きやすい点](https://mattn.kaoriya.net/software/lang/go/20190516095124.htm)
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [元記事]: https://medium.com/a-journey-with-go/-44b43b104963 "Go: Should I Use a Pointer instead of a Copy of my Struct? | by Vincent Blanchon | A Journey With Go | Medium"
 
 ## 参考図書

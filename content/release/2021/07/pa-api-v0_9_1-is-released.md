@@ -33,7 +33,7 @@ type Marketplace interface {
 
 私が公開しているパッケージでは珍しく pull request をいただくことが多いのだが，使っていただけるのなら幸いである。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [spiegel-im-spiegel/pa-api]: https://github.com/spiegel-im-spiegel/pa-api "spiegel-im-spiegel/pa-api: APIs for Amazon Product Advertising API v5 by Golang"
 [PA-API]: https://affiliate.amazon.co.jp/assoc_credentials/home "Product Advertising API"
 

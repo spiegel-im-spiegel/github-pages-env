@@ -101,7 +101,7 @@ Zenn 記事の「[Go のモジュール管理](https://zenn.dev/spiegel/articles
 - [Go1.17における go get の変更点 | フューチャー技術ブログ](https://future-architect.github.io/articles/20210818a/)
 - [Go 1.17 Release祝い 細かすぎて伝わらないMinor change in flag package](https://zenn.dev/hgsgtk/articles/9f662a4c96fa3f)
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [`time`]: https://pkg.go.dev/time "time · pkg.go.dev"
 

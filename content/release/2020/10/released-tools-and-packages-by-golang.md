@@ -43,7 +43,7 @@ pageType = "text"
 - [GitHub Actions でクロス・コンパイル（GoReleaser 編）]({{< ref "/golang/cross-compiling-in-github-actions-with-goreleaser.md" >}})
 - [Go のコードでも GitHub Code Scanning が使えるらしい]({{< ref "/remark/2020/10/github-code-scanning-with-golang.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [GitHub]: https://github.com/
 
 ## 参考図書

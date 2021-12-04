@@ -60,7 +60,7 @@ go version go1.16 linux/amd64
 - [Go 1.16 からのモジュール管理]({{< ref "/golang/manage-modules.md" >}})
 - [紙芝居用の簡易サーバを書く【Go 1.16 版】]({{< ref "/golang/embeded-filesystem.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [`embed`]: https://golang.org/pkg/embed/ "embed - The Go Programming Language"
 [`io/fs`]: https://golang.org/pkg/io/fs/ "fs - The Go Programming Language"

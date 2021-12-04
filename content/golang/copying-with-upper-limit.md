@@ -182,7 +182,7 @@ func extract(dst io.Writer, src io.Reader) error {
 
 - [Go 言語でデータ圧縮と解凍]({{< relref "./compress-data.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [gosec]: https://github.com/securego/gosec "securego/gosec: Golang security checker"
 [golangci-lint]: https://github.com/golangci/golangci-lint "golangci/golangci-lint: Fast linters Runner for Go"
 [`unsafe`]: https://golang.org/pkg/unsafe/ "unsafe - The Go Programming Language"

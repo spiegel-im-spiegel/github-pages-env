@@ -82,7 +82,7 @@ jobs:
 
 - [golangci-lint に叱られる]({{< ref "/golang/donot-sleep-through-life.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [golangci-lint]: https://golangci-lint.run/
 [GitHub]: https://github.com/
 

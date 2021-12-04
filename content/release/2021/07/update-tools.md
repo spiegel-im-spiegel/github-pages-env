@@ -33,7 +33,7 @@ pageType = "text"
 - [spiegel-im-spiegel/ml v0.4.1 をリリースした]({{< ref "/release/2021/01/makelink-0_4_1-is-released.md" >}})
 - [手遊びで日本版 Google COVID-19 Forecast データを取得するツールを作ってみた]({{< ref "/release/2021/02/cov19jpn.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 
 ## 参考図書
 

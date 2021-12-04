@@ -109,7 +109,7 @@ func main() {
 
 - [Go 言語で画像のサイズを変更する]({{< relref "./resize-image.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Go Playground]: https://play.golang.org/ "The Go Playground"
 [`image`]: https://pkg.go.dev/image "image package · go.dev"

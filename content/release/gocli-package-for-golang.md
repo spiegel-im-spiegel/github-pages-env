@@ -79,7 +79,7 @@ code := run(rwi.New(
 [Go] 1.16 から [`signal`](https://pkg.go.dev/os/signal "signal package - os/signal - pkg.go.dev")`.NotifyContext()` が導入され [`context`] パッケージと連携できるようになった。
 本節の機能は既に deprecated であり，利用はおすすめしない。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [`context`]: https://golang.org/pkg/context/ "context - The Go Programming Language"
 
 {{< /div-box >}}
@@ -367,7 +367,7 @@ func UserCacheDir() (string, error) {
 }
 ```
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`gocli`]: https://github.com/spiegel-im-spiegel/gocli "spiegel-im-spiegel/gocli: Minimal Packages for Command-Line Interface"
 [CC0]: http://creativecommons.org/publicdomain/zero/1.0/ "Creative Commons — CC0 1.0 Universal"

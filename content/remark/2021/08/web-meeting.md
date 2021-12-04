@@ -178,7 +178,7 @@ func init() {
 - [Goの言語仕様書精読のススメ & 英語彙集](https://zenn.dev/hsaki/articles/gospecdictionary)
 - [golangではスタックとヒープを気にする必要が無い](https://zenn.dev/rookxx/articles/golang-stack-and-heap)
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [`bytes`]: https://pkg.go.dev/bytes "bytes · pkg.go.dev"
 [プログラミング言語Go]: https://www.amazon.co.jp/dp/B099928SJD?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1
 [Golang Specs]: https://go.dev/ref/spec "The Go Programming Language Specification - The Go Programming Language"

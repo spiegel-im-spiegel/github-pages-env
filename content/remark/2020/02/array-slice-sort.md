@@ -35,7 +35,7 @@ pageType = "text"
 - [ソートを使う]({{< ref "/golang/sort.md" >}})
 - [インスタンスの比較可能性]({{< ref "/golang/comparability.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Shimane.go#04]: https://shimane-go.connpass.com/event/165192/ "Shimane.go#04 - connpass"
 [A Tour of Go]: https://go-tour-jp.appspot.com/

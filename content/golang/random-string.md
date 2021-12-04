@@ -337,7 +337,7 @@ ok      randstr    10.851s
 - [Go の疑似乱数生成器は Goroutine-Safe ではないらしい（追記あり）]({{< relref "./pseudo-random-number-generator.md" >}})
 - [疑似乱数生成器 spiegel-im-spiegel/mt]({{< ref "/release/mersenne-twister-by-golang.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [`math/rand`]: https://golang.org/pkg/math/rand/ "rand - The Go Programming Language"
 [`crypto/rand`]: https://golang.org/pkg/crypto/rand/ "rand - The Go Programming Language"
 [`unsafe`]: https://golang.org/pkg/unsafe/ "unsafe - The Go Programming Language"

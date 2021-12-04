@@ -79,6 +79,6 @@ SARS 2 関連について思うところは沢山あるし愚痴を書いたら�
 - [専門家会議の「クラスター対策」の解説　――新型コロナウイルスに対処する最後の希望｜吉峯 耕平｜note](https://note.com/kyoshimine/n/n6bf078a369f9)
 - [ある医師がエンジニアに寄せた“コロナにまつわる現場の本音” (1/10) - EE Times Japan](https://eetimes.jp/ee/articles/2003/25/news053.html)
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Rust]: https://www.rust-lang.org/ "Rust Programming Language"
 [Haskell]: https://www.haskell.org/ "Haskell Language"

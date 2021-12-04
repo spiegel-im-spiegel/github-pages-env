@@ -64,7 +64,7 @@ Windows で古い32ビット機を（しかも拙作を）使ってる人は多�
 - [Markdown 形式のリンクを生成するツールを作ってみた]({{< ref "/golang/make-link-with-markdown-format.md" >}})
 - [Travis CI でクロス・コンパイル（GoReleaser 編）]({{< ref "/golang/cross-compiling-in-travis-ci-with-goreleaser.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [spiegel-im-spiegel/errs]: https://github.com/spiegel-im-spiegel/errs "spiegel-im-spiegel/errs: Error handling for Golang"
 [Travis CI]: https://travis-ci.org/ "Travis CI - Test and Deploy Your Code with Confidence"
 [GoReleaser]: https://goreleaser.com/

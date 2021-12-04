@@ -606,7 +606,7 @@ $ gpgpdump -[TAB][TAB]
 [OpenPGP]: http://openpgp.org/
 [gpgpdump]: https://github.com/spiegel-im-spiegel/gpgpdump "spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer"
 [pgpdump]: http://www.mew.org/~kazu/proj/pgpdump/
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`io`]: https://golang.org/pkg/io/ "io - The Go Programming Language"
 [JSON]: https://tools.ietf.org/html/rfc7159 "RFC 7159 - The JavaScript Object Notation (JSON) Data Interchange Format"

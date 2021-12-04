@@ -467,7 +467,7 @@ worker, err := aozora.DefaultClient().LookupWorkerContext(context.Background(), 
 
 - [#aozorahack に関する覚え書き]({{< ref "/remark/2019/08/about-aozorahack.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [青空文庫]: https://www.aozora.gr.jp/ "青空文庫　Aozora Bunko"
 [`aozora`]: https://github.com/spiegel-im-spiegel/aozora-api "spiegel-im-spiegel/aozora-api: APIs for Aozora-bunko RESTful Service by Golang"

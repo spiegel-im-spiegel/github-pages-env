@@ -173,7 +173,7 @@ ok  	zerotime	7.601s
 
 お後がよろしいようで。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`time`]: https://golang.org/pkg/time/ "time - The Go Programming Language"
 

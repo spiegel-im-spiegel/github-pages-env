@@ -171,7 +171,7 @@ $ go run sample3.go
 - [Big Sky :: Go に go:embed が入った。](https://mattn.kaoriya.net/software/lang/go/20201030092005.htm)
 - [go:embed 詳解 - 使用編 -](https://zenn.dev/koya_iwamura/articles/53a4469271022e)
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [`embed`]: https://golang.org/pkg/embed/ "embed - The Go Programming Language"
 [`fs`]: https://golang.org/pkg/io/fs/ "fs - The Go Programming Language"
 [`http`]: https://golang.org/pkg/net/http/ "http - The Go Programming Language"

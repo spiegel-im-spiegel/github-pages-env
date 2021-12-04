@@ -296,7 +296,7 @@ func main() {
 - [Log パッケージで遊ぶ]({{< relref "./logger.md" >}})
 - [正規表現に関する戯れ言]({{< relref "./regular-expression.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`io`]: https://pkg.go.dev/io "io package · go.dev"
 [`logf`]: https://github.com/spiegel-im-spiegel/logf "spiegel-im-spiegel/logf: Simple leveled logging package by Golang"

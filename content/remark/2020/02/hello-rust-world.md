@@ -56,7 +56,7 @@ C/C++ のコードを [Rust] に置き換えようという動きがあるのは
 - [Rust Playground](https://play.rust-lang.org/)
 
 [Rust]: https://www.rust-lang.org/ "Rust Programming Language"
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 
 ## 参考図書
 

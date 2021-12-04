@@ -111,7 +111,7 @@ func main() {
 - [1を1億回足して1億にならない場合]({{< ref "/golang/loop-counter.md" >}})
 - [Go 言語で浮動小数点数をいろいろな書式で表示してみる]({{< ref "/golang/floating-point-number.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [`big`]: https://pkg.go.dev/math/big "big package · pkg.go.dev"
 
 ## 参考図書

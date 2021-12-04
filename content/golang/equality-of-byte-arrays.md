@@ -199,7 +199,7 @@ func Equal(a, b []byte) bool { return string(a) == string(b) }
 
 - [【改訂版】文字列連結はどれが速い？]({{< relref "./join-strings-2.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [プログラミング言語 Go]: https://www.amazon.co.jp/dp/4621300253?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1
 [PGP]: https://www.amazon.co.jp/exec/obidos/ASIN/4900900028/baldandersinf-22/ "Amazon | PGP―暗号メールと電子署名 | シムソン ガーフィンケル, Simson Garfinkel, ユニテック 通販"
 

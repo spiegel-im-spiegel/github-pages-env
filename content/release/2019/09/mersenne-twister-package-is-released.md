@@ -123,7 +123,7 @@ ok  	github.com/spiegel-im-spiegel/mt/benchmark	7.081s
 というわけで [math/rand] のほうが若干速いかな。
 乱数としての性能は別の機会に。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Mersenne Twister]: http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/mt.html "Mersenne Twister: A random number generator (since 1997/10)"
 [math/rand]: https://golang.org/pkg/math/rand/ "rand - The Go Programming Language"

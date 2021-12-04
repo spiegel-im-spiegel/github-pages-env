@@ -280,7 +280,7 @@ func main() {
 - [Go言語で複数の画像を縦に連結する - Qiita](https://qiita.com/tarotaro0/items/7d139b09a0a1ac01d42f)
 - [Go 言語で画像のサイズを変更する]({{< relref "./resize-image.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`image`]: https://pkg.go.dev/image "image package · go.dev"
 

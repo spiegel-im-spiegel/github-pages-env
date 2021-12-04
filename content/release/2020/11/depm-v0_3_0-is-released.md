@@ -26,7 +26,7 @@ pageType = "text"
 これで個人的に欲しい機能は揃ったので少しペースを落とすか。
 つか，ほとんどテストを書いてないんだよなぁ...
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [depm]: https://github.com/spiegel-im-spiegel/depm "spiegel-im-spiegel/depm: Visualize depndency packages and modules"
 
 ## 参考図書

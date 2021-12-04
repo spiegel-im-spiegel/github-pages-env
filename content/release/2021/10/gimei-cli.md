@@ -188,7 +188,7 @@ $1/16$ という値に大した意味はないが，ジェンダーに関する�
 
 [gimei-cli]: https://github.com/spiegel-im-spiegel/gimei-cli "spiegel-im-spiegel/gimei-cli: 姓名・住所データ生成ツール"
 [text/template]: https://pkg.go.dev/text/template "template package - text/template - pkg.go.dev"
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 
 ## 参考図書
 

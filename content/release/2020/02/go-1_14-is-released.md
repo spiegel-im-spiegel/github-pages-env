@@ -59,7 +59,7 @@ go version go1.14 linux/amd64
 - [Go1.14のcontextは何が変わるのか - Qiita](https://qiita.com/tutuz/items/963a6118cec63a4cd2f3)
 - [What's new Go 1.14?](https://talks.godoc.org/github.com/qt-luigi/talks/2020/whats-new-go-114.slide)
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 

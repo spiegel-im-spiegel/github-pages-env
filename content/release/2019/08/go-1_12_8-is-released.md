@@ -58,7 +58,7 @@ go version go1.12.8 linux/amd64
 アップデートは計画的に。
 時期的に次は 1.13 のリリースかな。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 

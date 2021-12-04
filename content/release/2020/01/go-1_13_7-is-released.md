@@ -83,7 +83,7 @@ go version go1.13.7 linux/amd64
 
 アップデートは計画的に。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [CVE-2020-0601]: https://nvd.nist.gov/vuln/detail/CVE-2020-0601
 [CVE-2020-7919]: https://nvd.nist.gov/vuln/detail/CVE-2020-7919

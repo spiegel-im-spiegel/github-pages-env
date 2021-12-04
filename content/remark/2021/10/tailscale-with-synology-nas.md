@@ -173,7 +173,7 @@ Google 以外ならこちらのページで認証を行うとよい。
 - [NIST SP 800-207: “Zero Trust Architecture”]({{< ref "/remark/2020/09/nist-sp-800-207-zero-trust-architecture.md" >}})
 
 [WireGuard]: https://www.wireguard.com/ "WireGuard: fast, modern, secure VPN tunnel"
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Tailscale]: https://tailscale.com/ "Tailscale · Best VPN Service for Secure Networks"
 [DS220j]: https://www.synology.com/ja-jp/products/DS220j "DS220j | Synology Inc."
 [Tailscale パッケージ]: https://tailscale.com/kb/1131/synology/ "Access Synology NAS from anywhere · Tailscale"

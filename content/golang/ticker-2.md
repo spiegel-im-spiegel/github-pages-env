@@ -183,7 +183,7 @@ ctx, cancel := signal.NotifyContext(context.Background(), os.Interrupt)
 
 - [Big Sky :: os/signal に NotifyContext が入った。](https://mattn.kaoriya.net/software/lang/go/20200916090416.htm)
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [`time`]: http://golang.org/pkg/time/ "time - The Go Programming Language"
 [`context`]: https://golang.org/pkg/context/ "context - The Go Programming Language"
 [`syscall`]: https://golang.org/pkg/syscall/ "syscall - The Go Programming Language"

@@ -278,7 +278,7 @@ func (b *Builder) WriteString(s string) (int, error) {
 
 といったところだろうか。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [前回]: {{< relref "./join-strings.md" >}} "文字列連結はどれが速い？"
 [`strings`]: https://golang.org/pkg/strings/ "strings - The Go Programming Language"

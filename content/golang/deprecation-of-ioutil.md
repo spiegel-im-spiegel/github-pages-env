@@ -218,7 +218,7 @@ Refactoring は計画的に。
 - [Go1.16で追加されたio#ReadAll関数から読むストリーミング中のバッファ拡張の仕方 - My External Storage](https://budougumi0617.github.io/2021/02/22/update_capacity/)
 - [#golang io/ioutil の非推奨化（deprecation）について](https://zenn.dev/spiegel/scraps/13158f793611df)
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [`io`]: https://golang.org/pkg/io/ "io - The Go Programming Language"
 [`os`]: https://golang.org/pkg/os/ "os - The Go Programming Language"
 [`ioutil`]: https://golang.org/pkg/io/ioutil/ "ioutil - The Go Programming Language"

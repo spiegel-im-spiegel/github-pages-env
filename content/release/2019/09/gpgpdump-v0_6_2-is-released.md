@@ -36,7 +36,7 @@ pageType = "text"
 [pgpdump]: http://www.mew.org/~kazu/proj/pgpdump/ "pgpdump"
 [OpenPGP]: http://openpgp.org/
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [spiegel-im-spiegel/errs]: https://github.com/spiegel-im-spiegel/errs "spiegel-im-spiegel/errs: Error handling for Golang"
 
 ## 参考図書

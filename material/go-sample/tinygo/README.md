@@ -70,4 +70,4 @@ $ ll
 - [Go+WebAssemblyで時刻表示を実装してみた](https://zenn.dev/komisan19/articles/aec74dd8223095)
 
 [TinyGo]: https://tinygo.org/ "TinyGo - Go on Microcontrollers and WASM"
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/

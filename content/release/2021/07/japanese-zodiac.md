@@ -70,7 +70,7 @@ Day 2021-07-28 is 丁丑
 検算には，若い頃に買った『[新こよみ便利帳](https://www.amazon.co.jp/dp/4769907001?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)』に載っていた表を使った。
 何でも取っておくものである（笑）
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 
 ## 参考図書
 

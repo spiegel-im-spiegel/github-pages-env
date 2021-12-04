@@ -133,7 +133,7 @@ All tools successfully installed. You are ready to Go :).
 [前回]: {{< relref "./installing-vscode-again.md" >}} "パソコンに Visual Studio Code を導入する（再チャレンジ）"
 [VS Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
 [ATOM]: https://atom.io/
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [go-plus]: https://atom.io/packages/go-plus
 [gopls]: https://pkg.go.dev/golang.org/x/tools/gopls "gopls · pkg.go.dev"
 

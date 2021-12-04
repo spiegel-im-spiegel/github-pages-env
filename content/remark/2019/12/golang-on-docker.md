@@ -142,7 +142,7 @@ HelloWorld!
 
 [connpass]: https://connpass.com/ "connpass - エンジニアをつなぐIT勉強会支援プラットフォーム"
 [Shimane.go#02]: https://shimane-go.connpass.com/event/156445/ "Shimane.go#02 - connpass"
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Docker]: https://www.docker.com/ "Enterprise Container Platform | Docker"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"

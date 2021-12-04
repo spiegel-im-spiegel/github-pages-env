@@ -49,7 +49,7 @@ Bash, Zsh, Fish, PowerShell の自動補完機能に対応している。
 
 - [GNKF: Network Kanji Filter by Golang]({{< ref "/release/gnkf.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [gnkf]: https://github.com/spiegel-im-spiegel/gnkf "spiegel-im-spiegel/gnkf: Network Kanji Filter by Golang"
 [Kangxi radical]: https://en.wikipedia.org/wiki/Kangxi_radical "Kangxi radical - Wikipedia"
 [CJK Radicals]: https://en.wikipedia.org/wiki/CJK_Radicals_Supplement "CJK Radicals Supplement - Wikipedia"

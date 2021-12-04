@@ -38,7 +38,7 @@ pageType = "text"
 - [spiegel-im-spiegel/gocli v0.10.1 のリリース]({{< ref "/release/2019/09/gocli-v0_10_1-is-released.md" >}})
 
 [books-data]: https://github.com/spiegel-im-spiegel/books-data "spiegel-im-spiegel/books-data: Search for Books Data"
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [XDG Base Directory]: https://standards.freedesktop.org/basedir-spec/latest/ "XDG Base Directory Specification"
 [openBD]: https://openbd.jp/ "openBD | 書誌情報・書影を自由に"
 [spiegel-im-spiegel/aozora-api]: https://github.com/spiegel-im-spiegel/aozora-api "spiegel-im-spiegel/aozora-api: APIs for Aozora-bunko RESTful Service by Golang"

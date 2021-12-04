@@ -545,7 +545,7 @@ GrapeCity が公開してるのか。
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [Snap]: https://github.com/snapcore/snapd "snapcore/snapd: The snapd and snap tools enable systems to work with .snap files."
 [ATOM]: https://atom.io/
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [go-plus]: https://atom.io/packages/go-plus
 [gopls]: https://pkg.go.dev/golang.org/x/tools/gopls "gopls · pkg.go.dev"
 [NYAGOS]: https://github.com/nyaosorg/nyagos/ "nyaosorg/nyagos: NYAGOS - The hybrid UNIXLike Commandline Shell for Windows"

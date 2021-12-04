@@ -138,7 +138,7 @@ $ go env -w "GOVCS=github.com:git,evil.com:off,*:git|hg"
 - [Go モジュールのバージョン管理]({{< relref "./versioning-of-go-modules.md" >}})
 - [Go 1.16 がリリースされた]({{< ref "/release/2021/02/go-1_16-is-released.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 
 ## 参考図書
 

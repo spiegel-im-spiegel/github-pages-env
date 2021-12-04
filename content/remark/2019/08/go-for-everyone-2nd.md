@@ -42,7 +42,7 @@ RESTful なマイクロ・サーバの構築は [Go 言語]の得意とすると
 
 - [Ubuntu でも Kindle 本が読みたい]({{< ref "/remark/2019/05/kindle-for-wine.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [GraphQL]: https://graphql.org/ "GraphQL | A query language for your API"
 

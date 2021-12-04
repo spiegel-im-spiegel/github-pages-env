@@ -238,7 +238,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 - [継承できないなら注入すればいいじゃない！](https://slide.baldanders.info/shimane-go-2020-01-23/) : [Go] のイベント用に作ったスライド
 
 [Rust]: https://www.rust-lang.org/ "Rust Programming Language"
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [TinyGo]: https://tinygo.org/ "TinyGo - Go on Microcontrollers and WASM"
 [LLVM]: https://llvm.org/ "The LLVM Compiler Infrastructure Project"
 [duck typing]: https://en.wikipedia.org/wiki/Duck_typing "Duck typing - Wikipedia"

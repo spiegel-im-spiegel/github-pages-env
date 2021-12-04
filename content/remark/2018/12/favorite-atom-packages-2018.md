@@ -78,7 +78,7 @@ tags = ["atom", "editor", "tools", "golang"]
 [ATOM]: https://atom.io/ "Atom"
 [Visual Studio Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [golsp]: https://godoc.org/golang.org/x/tools/cmd/golsp "golsp - GoDoc"
 [bingo]: https://github.com/saibing/bingo "saibing/bingo: Bingo is a Go language server that speaks Language Server Protocol."
 [go-langserver]: https://github.com/sourcegraph/go-langserver "sourcegraph/go-langserver: Go language server to add Go support to editors and other tools that use the Language Server Protocol (LSP)"

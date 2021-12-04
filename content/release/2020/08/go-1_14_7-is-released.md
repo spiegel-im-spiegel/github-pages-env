@@ -55,7 +55,7 @@ go version go1.14.7 linux/amd64
 
 アップデートは計画的に。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [CVE-2020-16845]: https://nvd.nist.gov/vuln/detail/CVE-2020-16845
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 

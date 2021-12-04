@@ -52,5 +52,5 @@ go version go1.11.1 freebsd/amd64
 [本家サイト]: https://baldanders.info/ "Baldanders.info"
 [git]: https://git-scm.com/
 [Git]: https://git-scm.com/
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Hugo]: https://gohugo.io/ "The world’s fastest framework for building websites | Hugo"

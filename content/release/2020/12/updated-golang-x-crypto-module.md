@@ -41,7 +41,7 @@ require (
 
 というわけで，アップデートは計画的に。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [crypto]: https://pkg.go.dev/golang.org/x/crypto "crypto · pkg.go.dev"
 [ssh]: https://pkg.go.dev/golang.org/x/crypto/ssh "ssh · pkg.go.dev"
 <!-- eof -->

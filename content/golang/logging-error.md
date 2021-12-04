@@ -189,7 +189,7 @@ $ go run sample3.go | jq .
 - [Go 1.13 のエラー・ハンドリング]({{< ref "/golang/error-handling-in-go-1_3.md" >}})
 - [Log パッケージで遊ぶ]({{< relref "./logger.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`log`]: https://golang.org/pkg/log/ "log - The Go Programming Language"
 [`fmt`]: https://golang.org/pkg/fmt/ "fmt - The Go Programming Language"

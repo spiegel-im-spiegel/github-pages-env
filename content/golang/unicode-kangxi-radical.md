@@ -151,7 +151,7 @@ go run sample2.go
 - [[BOD供養寺] スクレイピングしてきたデータの文字コードがおかしかったので修正した - Qiita](https://qiita.com/hal_sk/items/8a95e9daa17b500f3f27)
 - [Go 言語と Unicode 正規化]({{< relref "./unicode-normalization.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [`strings`]: https://pkg.go.dev/strings "strings package · pkg.go.dev"
 [`unicode`]: https://pkg.go.dev/unicode "unicode package · pkg.go.dev"
 

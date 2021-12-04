@@ -389,7 +389,7 @@ func Is(err, target error) bool {
 
 - [nil は nil]({{< relref "./nil-is-nil.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`math`]: https://golang.org/pkg/math/ "math - The Go Programming Language"
 [`fmt`]: https://golang.org/pkg/fmt/ "fmt - The Go Programming Language"

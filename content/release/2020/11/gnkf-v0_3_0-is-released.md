@@ -68,7 +68,7 @@ $ echo ﻿Hello | gnkf rb | gnkf dump
 
 ホンマ UTF-8 の BOM は滅びればいいのに。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [gnkf]: https://github.com/spiegel-im-spiegel/gnkf "spiegel-im-spiegel/gnkf: Network Kanji Filter by Golang"
 
 ## ブックマーク

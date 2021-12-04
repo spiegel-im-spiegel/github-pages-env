@@ -31,7 +31,7 @@ pageType = "text"
 
 [gpgpdump]: https://github.com/spiegel-im-spiegel/gpgpdump "spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer"
 [OpenPGP]: http://openpgp.org/
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [spiegel-im-spiegel/errs]: https://github.com/spiegel-im-spiegel/errs "spiegel-im-spiegel/errs: Error handling for Golang"
 
 ## 参考図書

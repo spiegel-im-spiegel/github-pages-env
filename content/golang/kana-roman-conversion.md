@@ -130,7 +130,7 @@ Email： i.uehara@example.com
 
 - [Unicode 文字列を「文字」単位に分離する](https://zenn.dev/spiegel/articles/20210408-unicode-characters)
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [go-gimei]: https://github.com/mattn/go-gimei "mattn/go-gimei"
 [krconv]: https://github.com/spiegel-im-spiegel/krconv "spiegel-im-spiegel/krconv: Convert kana-character to roman-alphabet"
 [gnkf]: https://github.com/spiegel-im-spiegel/gnkf "spiegel-im-spiegel/gnkf: Network Kanji Filter by Golang"

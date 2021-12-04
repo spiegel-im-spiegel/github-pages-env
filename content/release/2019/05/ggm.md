@@ -65,7 +65,7 @@ $ go mod graph | ggm | dot -Tpng -o ggm.png
 [graphviz]: https://www.graphviz.org/ "Graphviz - Graph Visualization Software"
 [DOT 言語]: https://graphviz.gitlab.io/_pages/doc/info/lang.html "The DOT Language"
 [awalterschulze/gographviz]: https://github.com/awalterschulze/gographviz "awalterschulze/gographviz: Parses the Graphviz DOT language in golang"
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [PlantUML]: http://plantuml.com/ja/ "Open-source tool that uses simple textual descriptions to draw beautiful UML diagrams."
 

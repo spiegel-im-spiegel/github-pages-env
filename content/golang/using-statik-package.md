@@ -220,7 +220,7 @@ Press ctrl+c to stop
 
 - [Goのバイナリに静的ファイルを埋め込むツール assets-life を書いた](https://shogo82148.github.io/blog/2019/07/24/assets-life/) : 自コードを Quine として埋め込むらしい。面白い！
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [改訂2版 みんなのGo言語]: https://www.amazon.co.jp/exec/obidos/ASIN/B07VPSXF6N/baldandersinf-22/
 [jessevdk/go-assets]: https://github.com/jessevdk/go-assets "jessevdk/go-assets: Simple embedding of assets in go"

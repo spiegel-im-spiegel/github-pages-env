@@ -84,7 +84,7 @@ $ go mod graph | ggm -c ggm.toml | dot -Tpng -o ggm.png
 
 本当は本家の [Go] コンパイラが [DOT 言語]で吐いてくれればこんなの要らないんだけどねぇ。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [前回]: {{< relref "./ggm.md" >}} "Go モジュールの依存関係を可視化するツールを作った"
 [Inconsolata]: https://www.levien.com/type/myfonts/inconsolata.html

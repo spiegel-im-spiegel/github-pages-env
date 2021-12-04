@@ -507,7 +507,7 @@ books, err := openbd.DefaultClient().
     LookupBooksContext(context.Background(), []string{"9784274069321"})
 ```
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [openBD]: https://openbd.jp/ "openBD | 書誌情報・書影を自由に"
 [spiegel-im-spiegel/openbd-api]: https://github.com/spiegel-im-spiegel/openbd-api "spiegel-im-spiegel/openbd-api: APIs for openBD by Golang"

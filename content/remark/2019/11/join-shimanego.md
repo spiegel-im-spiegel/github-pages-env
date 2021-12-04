@@ -35,7 +35,7 @@ pageType = "text"
 [connpass]: https://connpass.com/ "connpass - エンジニアをつなぐIT勉強会支援プラットフォーム"
 [Shimane.go#01]: https://shimane-go.connpass.com/event/151843/ "Shimane.go#01 - connpass"
 [島根県立図書館]: https://www.library.pref.shimane.lg.jp/
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 
 ## 参考図書

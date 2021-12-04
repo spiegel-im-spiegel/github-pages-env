@@ -52,7 +52,7 @@ Compressed Data Packet (tag 8) (149 bytes)
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 [RFC 4880]: https://tools.ietf.org/html/rfc4880
 [RFC 4880bis]: https://datatracker.ietf.org/doc/draft-ietf-openpgp-rfc4880bis/
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [crypto]: https://pkg.go.dev/golang.org/x/crypto "crypto · pkg.go.dev"
 
 ## 参考図書

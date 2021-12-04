@@ -219,7 +219,7 @@ func main() {
 }
 ```
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Mersenne Twister]: http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/mt.html "Mersenne Twister: A random number generator (since 1997/10)"
 [`rand`]: https://pkg.go.dev/math/rand "rand package - math/rand - pkg.go.dev"
 [`io`]: https://golang.org/pkg/io/ "io - The Go Programming Language"

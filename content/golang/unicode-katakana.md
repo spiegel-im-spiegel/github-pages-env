@@ -558,7 +558,7 @@ U+1F200 '🈀' -> ほか
 
 - [Go 言語と Unicode 正規化]({{< relref "./unicode-normalization.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [`unicode`]: https://pkg.go.dev/unicode "unicode package - unicode - pkg.go.dev"
 
 ## 参考図書

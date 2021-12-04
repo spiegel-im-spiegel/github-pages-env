@@ -257,7 +257,7 @@ WalkWithMultiple ( Count = 6008 ):
 
 よーし，うむうむ，よーし。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [mattn/jvgrep]: https://github.com/mattn/jvgrep "mattn/jvgrep: grep for japanese vimmer"
 [saracen/walker]: https://github.com/saracen/walker "saracen/walker: walker is a faster, parallel version, of filepath.Walk"

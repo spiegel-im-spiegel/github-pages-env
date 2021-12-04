@@ -397,7 +397,7 @@ Press ctrl+c to stop
 - [WASI (WebAssembly system interface) を Wasmtime と Node.js で試す - Qiita](https://qiita.com/takewell/items/c99b44d912448e9170e6)
 - [Go の形態素解析器を wasm で利用する](https://zenn.dev/ikawaha/articles/20210331-e661ac866f5ff0fc5eb8) : このコード例は参考になる
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [TinyGo]: https://tinygo.org/ "TinyGo - Go on Microcontrollers and WASM"
 [WebAssembly]: https://webassembly.org/ "WebAssembly"
 [LLVM]: https://llvm.org/ "The LLVM Compiler Infrastructure Project"

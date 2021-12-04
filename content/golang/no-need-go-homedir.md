@@ -112,7 +112,7 @@ neither $XDG_CONFIG_HOME nor $HOME are defined
 
 というわけで， [Go 言語]は日々進歩してるんだよ，というお話でした。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Shimane.go#03]: https://shimane-go.connpass.com/event/159977/ "Shimane.go#03 - connpass"
 [mitchellh/go-homedir]: https://github.com/mitchellh/go-homedir "mitchellh/go-homedir: Go library for detecting and expanding the user's home directory without cgo."

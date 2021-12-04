@@ -52,7 +52,7 @@ Windows 環境で [`os/exec`][`exec`] 標準パッケージを使って外部コ
 
 - [Go パッケージ／モジュールの依存関係可視化ツール Depm v0.3.0 をリリースした]({{< ref "/release/2020/11/depm-v0_3_0-is-released.md" >}}) : 拙作では [github.com/cli/safeexec][`safeexec`] パッケージ と同じような方針で [`exec`]`.LookPath()` 関数の問題を回避している
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [`safeexec`]: https://github.com/cli/safeexec "cli/safeexec: A safer version of exec.LookPath on Windows"
 [`exec`]: https://golang.org/pkg/os/exec/ "exec - The Go Programming Language"
 [CVE-2020-27955]: https://nvd.nist.gov/vuln/detail/CVE-2020-27955 "NVD - CVE-2020-27955"

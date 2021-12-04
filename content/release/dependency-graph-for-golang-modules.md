@@ -374,7 +374,7 @@ $ depm list -j "github.com/spiegel-im-spiegel/depm"
 
 `go list -m` コマンドに比べると遅くなりがちなのが欠点だが，他のツールと組み合わせることを考えると使い勝手はさほど悪くないと思う。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [depm]: https://github.com/spiegel-im-spiegel/depm "spiegel-im-spiegel/depm: Visualize depndency packages and modules"
 [jq]: https://stedolan.github.io/jq/ "jq"
 [DOT]: https://graphviz.gitlab.io/_pages/doc/info/lang.html "The DOT Language"

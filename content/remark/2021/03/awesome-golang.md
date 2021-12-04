@@ -129,7 +129,7 @@ a = b = c = 1 // syntax error
 - [プログラミングを独習するには10年かかる（Teach Yourself Programming in Ten Years 日本語訳）](https://www.yamdas.org/column/technique/21-daysj.html)
 - [GoのAPIが厳格でない訳](https://zenn.dev/nobonobo/articles/5b1872497502d5)
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [TinyGo]: https://tinygo.org/ "TinyGo - Go on Microcontrollers and WASM"
 [specs]: https://go.dev/ref/spec "The Go Programming Language Specification - The Go Programming Language"
 [Rust]: https://www.rust-lang.org/ "Rust Programming Language"

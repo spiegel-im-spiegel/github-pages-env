@@ -127,5 +127,5 @@ jobs:
 
 - [Go 依存パッケージの脆弱性検査]({{< ref "/golang/check-for-vulns-in-golang-dependencies.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [GitHub]: https://github.com/

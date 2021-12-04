@@ -206,7 +206,7 @@ func copyFile(src, dst string) (err error) {
 
 - [try - Go の新しいエラーハンドリング (Go 1.14で導入予定) - Qiita](https://qiita.com/worldhello/items/9f2fe358d57a8835706e)
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 

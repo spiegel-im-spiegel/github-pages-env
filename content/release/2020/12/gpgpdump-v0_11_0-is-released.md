@@ -77,7 +77,7 @@ macOS では `pbpaste` てのを使うみたいだが，これは標準で入っ
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 [RFC 4880]: https://tools.ietf.org/html/rfc4880
 [RFC 4880bis]: https://datatracker.ietf.org/doc/draft-ietf-openpgp-rfc4880bis/
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 
 ## 参考図書
 

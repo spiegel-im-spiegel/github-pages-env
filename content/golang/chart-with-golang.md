@@ -255,7 +255,7 @@ if err != nil {
 - [Go言語で折れ線グラフや棒グラフを描く - Qiita](https://qiita.com/RuyPKG/items/0a569953e9e24870f527)
 - [TeX Live 2020 へのアップグレード]({{< ref "/remark/2020/04/upgrade-texlive-2020.md" >}})
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [gnuplot]: http://www.gnuplot.info/ "gnuplot homepage"
 [Gonum]: https://www.gonum.org/

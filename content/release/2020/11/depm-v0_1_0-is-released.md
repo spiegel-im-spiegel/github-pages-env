@@ -232,7 +232,7 @@ $ depm package github.com/spiegel-im-spiegel/depm
 
 勢いで書いてろくにテストもしないでリリースしたが，あとはノンビリ手を入れていこう。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [graphviz]: https://www.graphviz.org/ "Graphviz - Graph Visualization Software"
 [DOT]: https://graphviz.gitlab.io/_pages/doc/info/lang.html "The DOT Language"
 [github.com/emicklei/dot]: https://github.com/emicklei/dot "emicklei/dot: Go package for writing descriptions using the Graphviz DOT language"

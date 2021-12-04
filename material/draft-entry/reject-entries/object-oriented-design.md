@@ -128,7 +128,7 @@ func (r *Rand) Uint64() uint64 {
 
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [duck typing]: https://en.wikipedia.org/wiki/Duck_typing "Duck typing - Wikipedia"
 [duck test]: https://en.wikipedia.org/wiki/Duck_test "Duck test - Wikipedia"
 [math/rand]: https://golang.org/pkg/math/rand/ "rand - The Go Programming Language"

@@ -33,7 +33,7 @@ pageType = "text"
 [RFC 4880bis]: https://datatracker.ietf.org/doc/draft-ietf-openpgp-rfc4880bis/
 [RFC 5581]: http://tools.ietf.org/html/rfc5581
 [RFC 6637]: http://tools.ietf.org/html/rfc6637
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [spiegel-im-spiegel/errs]: https://github.com/spiegel-im-spiegel/errs "spiegel-im-spiegel/errs: Error handling for Golang"
 
 ## 参考図書

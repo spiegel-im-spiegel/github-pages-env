@@ -44,5 +44,5 @@ Java と PHP は SDK が用意されているが，他の言語は見当たら�
 [books-data]: https://github.com/spiegel-im-spiegel/books-data "spiegel-im-spiegel/books-data: Search for Books Data"
 [PA-API]: https://affiliate.amazon.co.jp/assoc_credentials/home "Product Advertising API"
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [spiegel-im-spiegel/pa-api]: https://github.com/spiegel-im-spiegel/pa-api "spiegel-im-spiegel/pa-api: APIs for Amazon Product Advertising API v5 by Golang"

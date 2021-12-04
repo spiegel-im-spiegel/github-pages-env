@@ -50,7 +50,7 @@ tags = [ "embedded", "engineering", "golang", "bookmark" ]
 - [minimumgo: Linuxでgolangの実行ファイルをひとつだけ動かすときに必要最小限の初期化処理をしてくれるgolangのパッケージ - Qiita](https://qiita.com/tetsu_koba/items/059849c0871a7e3bd94f)
 - [CHIP-8 &amp; Golang でエミュレータ作成入門してみた - Qiita](https://qiita.com/tuboc/items/b87f9a346fdf522a40fa)
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Qiita]: https://qiita.com/
 

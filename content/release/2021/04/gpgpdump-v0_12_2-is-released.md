@@ -45,7 +45,7 @@ pageType = "text"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 [RFC 4880]: https://tools.ietf.org/html/rfc4880
 [RFC 4880bis]: https://datatracker.ietf.org/doc/draft-ietf-openpgp-rfc4880bis/
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [`golang.org/x/crypto`]: https://pkg.go.dev/golang.org/x/crypto "crypto · pkg.go.dev"
 [`golang.org/x/crypto/openpgp`]: https://pkg.go.dev/golang.org/x/crypto/openpgp "openpgp · pkg.go.dev"
 [`ProtonMail/go-crypto`]: https://github.com/ProtonMail/go-crypto "GitHub - ProtonMail/go-crypto: [mirror] Go supplementary cryptography libraries"

@@ -21,7 +21,7 @@ pageType = "text"
 いっそ interface 型で汎化してしまうか。
 手を入れるのは簡単だが，今のところは考え中。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [spiegel-im-spiegel/pa-api]: https://github.com/spiegel-im-spiegel/pa-api "spiegel-im-spiegel/pa-api: APIs for Amazon Product Advertising API v5 by Golang"
 [PA-API]: https://affiliate.amazon.co.jp/assoc_credentials/home "Product Advertising API"
 <!-- eof -->

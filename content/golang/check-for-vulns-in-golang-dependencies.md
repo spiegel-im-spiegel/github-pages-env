@@ -159,7 +159,7 @@ jobs:
 などとすればOK。
 [Go] 1.16 以降で有効なのでご注意を。
 
-[Go]: https://golang.org/ "The Go Programming Language"
+[Go]: https://go.dev/
 [nancy]: https://github.com/sonatype-nexus-community/nancy "sonatype-nexus-community/nancy: A tool to check for vulnerabilities in your Golang dependencies, powered by Sonatype OSS Index"
 [Sonatype OSS Index]: https://ossindex.sonatype.org/
 [GitHub]: https://github.com/
