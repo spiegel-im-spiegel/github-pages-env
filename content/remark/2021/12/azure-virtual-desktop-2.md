@@ -155,7 +155,7 @@ PortX              NetSarangComputer.PortX     2.0.3        Tag: putty winget
 $ winget install keepassxc
 ```
 
-ものによって scoop と winget で使い分ければいいかもな。
+ものによって [Scoop] と [winget] で使い分ければいいかもな。
 
 ## ストアアプリ版「秀丸」
 
@@ -185,7 +185,7 @@ Microsoft アカウントに紐付いている決済手段が使えるので楽�
 
 ## [Tailscale] で NAS につなぐ
 
-さていよいよ外に繋ぐことにする。
+さて，いよいよ外に繋ぐことにする。
 といっても外部から [Azure Virtual Desktop] 内のリソースに触る気はないので [Azure Virtual Desktop] 側から [Tailscale] で[自宅 NAS]({{< ref "/remark/2021/10/tailscale-with-synology-nas.md" >}} "Synology NAS に Tailscale を設定する") に繋ぐことを考える。
 
 Windows 版 [Tailscale] は [winget] でインストールできる。
