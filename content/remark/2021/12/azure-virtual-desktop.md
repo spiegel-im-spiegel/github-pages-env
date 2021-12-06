@@ -3,7 +3,7 @@ title = "ようやく Azure Virtual Desktop を導入できた"
 date =  "2021-12-05T23:16:02+09:00"
 description = "最初の頃はデプロイが失敗しまくりで往生したですよ。"
 image = "/images/attention/kitten.jpg"
-tags = [ "windows", "azure" ]
+tags = [ "windows", "azure", "install", "tools" ]
 pageType = "text"
 
 [scripts]
