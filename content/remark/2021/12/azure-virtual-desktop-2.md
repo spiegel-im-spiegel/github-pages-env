@@ -55,7 +55,7 @@ Terms of Transaction: https://aka.ms/microsoft-store-terms-of-transaction
 
 おうふ。
 まぁ，いいか。
-`[Y]` を入力して先に進む。
+`[Y]` キー押下で先に進む。
 
 ```text
 名前                                  ID                                 バージョン    一致     ソース
@@ -147,7 +147,9 @@ NETworkManager     BornToBeRoot.NETworkManager 2021.11.30.0 Tag: putty winget
 PortX              NetSarangComputer.PortX     2.0.3        Tag: putty winget
 ```
 
-`PuTTY.PuTTY` なら大丈夫かな。なんかノイズが多いなぁ...
+`PuTTY.PuTTY` なら大丈夫かな。
+なんかノイズが多いなぁ。
+[winget] でパッケージを探すのは向いてないかも。
 
 おっ， [KeePassXC](https://keepassxc.org/ "KeePassXC Password Manager") は [winget で入れれる](https://keepassxc.org/download/#windows "Download - KeePassXC")ようだ。
 
@@ -179,13 +181,13 @@ Microsoft アカウントに紐付いている決済手段が使えるので楽�
 [v9.00](https://forest.watch.impress.co.jp/docs/news/1370220.html "「秀丸エディタ」が10年以上ぶりのメジャーバージョンアップ ～v9.00が正式版に - 窓の杜") じゃないのか。
 残念（笑）
 
-おそらく「どこでもエディタ」をやりたいのなら，こんな仮想マシンを用意するのではなく [GitHub Codespaces](https://github.com/features/codespaces) や [vscode.dev](https://vscode.dev/) を使えっちう話なんよね。
+おそらく「どこでもエディタ」をヘヴィに使いたいなら，こんな仮想マシンを用意するのではなく [GitHub Codespaces](https://github.com/features/codespaces) や [vscode.dev](https://vscode.dev/) を使えっちう話なんよね。
 
 時代は変わっていく。
 
 ## [Tailscale] で NAS につなぐ
 
-さて，いよいよ外に繋ぐことにする。
+さて，いよいよ外と繋ぐことにする。
 といっても外部から [Azure Virtual Desktop] 内のリソースに触る気はないので [Azure Virtual Desktop] 側から [Tailscale] で[自宅 NAS]({{< ref "/remark/2021/10/tailscale-with-synology-nas.md" >}} "Synology NAS に Tailscale を設定する") に繋ぐことを考える。
 
 Windows 版 [Tailscale] は [winget] でインストールできる。
