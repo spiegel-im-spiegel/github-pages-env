@@ -11,6 +11,12 @@ pageType = "text"
   mermaidjs = false
 +++
 
+目次を付けた。
+
+- [ようやく Azure Virtual Desktop を導入できた]({{< ref "/remark/2021/12/azure-virtual-desktop.md" >}}) ← イマココ
+- [Azure Virtual Desktop で遊ぶ]({{< ref "/remark/2021/12/azure-virtual-desktop-2.md" >}})
+- [Scoop 版 GnuPG 2.3 系の gpg-agent が動かない？]({{< ref "/remark/2021/12/gpg-agent-for-windows.md" >}})
+
 よーやく [Azure Virtual Desktop] を導入できたよ。
 Windows 11 が使えるということで個人用の Azure アカウントで試そうとしたんだけど，何だか情報が断片的で分かりにくくてさ。
 

@@ -11,6 +11,12 @@ pageType = "text"
   mermaidjs = false
 +++
 
+目次を付けた。
+
+- [ようやく Azure Virtual Desktop を導入できた]({{< ref "/remark/2021/12/azure-virtual-desktop.md" >}})
+- [Azure Virtual Desktop で遊ぶ]({{< ref "/remark/2021/12/azure-virtual-desktop-2.md" >}}) ← イマココ
+- [Scoop 版 GnuPG 2.3 系の gpg-agent が動かない？]({{< ref "/remark/2021/12/gpg-agent-for-windows.md" >}})
+
 [前回]({{< relref "./azure-virtual-desktop.md" >}} "ようやく Azure Virtual Desktop を導入できた")でようやく [Azure Virtual Desktop] が導入できたので，これを使って Windows でボチボチ遊んでいこう。
 
 ## とりあえず [Scoop] と [NYAGOS] は入れておく
