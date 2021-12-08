@@ -16841,5 +16841,183 @@
       false
     ],
     "Description": "原作は Andy Weir 著作の『\u003ca href=\"https://www.amazon.co.jp/dp/B00O1VJZLO?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1\"\u003e火星の人（The Martian）\u003c/a\u003e』。なんで劇場版の日本語タイトルがこんな巫山戯た名前なのかは不明。感想は\u003ca href=\"https://text.baldanders.info/remark/2016/02/the-martian/\"\u003eこちら\u003c/a\u003e。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08VZCBWN8",
+      "Title": "【Kindle Paperwhite, Kindle Paperwhiteシグニチャーエディション用】 Amazon純正 ファブリックカバー、 ブラック (2021年発売 第11世代)",
+      "URL": "https://www.amazon.co.jp/dp/B08VZCBWN8?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31J7qdKrOcL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "付属品",
+      "Publisher": "Amazon",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08VZCBWN8"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0840080522821"
+        },
+        {
+          "Name": "UPC",
+          "Value": "840080522821"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2021-10-27",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-12-08",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "Kindle 端末とバッテリスタンドをセットで買ったら抱き合わせで勝手に付いてきた。要らんのに。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09C49XNB8",
+      "Title": "新登場【Kindle Paperwhite シグニチャーエディション 2021年発売 第11世代専用】Anker ワイヤレス充電スタンド (Made for Amazon認定取得)",
+      "URL": "https://www.amazon.co.jp/dp/B09C49XNB8?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31FtQGxCirL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "付属品",
+      "Publisher": "Anker",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09C49XNB8"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0194644076214"
+        },
+        {
+          "Name": "UPC",
+          "Value": "194644076214"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2021-12-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-12-08",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "第11世代 Kindle Paperwhite とセットで購入。 ANKER 製らしい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08N2ZL7PS",
+      "Title": "【NEWモデル】Kindle Paperwhite シグニチャー エディション (32GB) 6.8インチディスプレイ ワイヤレス充電対応 明るさ自動調節機能つき 広告なし",
+      "URL": "https://www.amazon.co.jp/dp/B08N2ZL7PS?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41U4GZJvw6L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "Amazon",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08N2ZL7PS"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0840080586151"
+        },
+        {
+          "Name": "UPC",
+          "Value": "840080586151"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2021-11-10",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-12-08",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "\u003ca href=\"https://text.baldanders.info/remark/2016/12/kindle-paperwhite-manga-version/\"\u003e前の端末\u003c/a\u003eのバッテリがヘタれたので新しいのを買った。安定のもっさり感（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B099RTG3J7",
+      "Title": "著作権は文化を発展させるのか: 人権と文化コモンズ",
+      "URL": "https://www.amazon.co.jp/dp/B099RTG3J7?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51TsccJ7LnS._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "山田 奨治",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "人文書院",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B099RTG3J7"
+        }
+      ],
+      "PublicationDate": "2021-07-29",
+      "LastRelease": "2021-07-29",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-12-06",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "2021年夏に出てたのだが，仕事が忙しくなってすっかり忘れていた。これから読みます。"
   }
 ]
