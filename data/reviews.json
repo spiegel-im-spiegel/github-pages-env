@@ -17019,5 +17019,48 @@
       false
     ],
     "Description": "2021年夏に出てたのだが，仕事が忙しくなってすっかり忘れていた。これから読みます。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09HK66P5X",
+      "Title": "Java言語で学ぶデザインパターン入門第3版",
+      "URL": "https://www.amazon.co.jp/dp/B09HK66P5X?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41xgZhdHu7L._SL160_.jpg",
+        "Height": 160,
+        "Width": 125
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "結城 浩",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "SBクリエイティブ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09HK66P5X"
+        }
+      ],
+      "PublicationDate": "2021-11-12",
+      "LastRelease": "2021-11-13",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-11-13",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "なんと！ 結城浩さんのデザパタ本の第3版が出た。古典的なデザインパターン23個はそのままに，最近の Java の言語仕様に合わせてコードが一新されている。\n"
   }
 ]
