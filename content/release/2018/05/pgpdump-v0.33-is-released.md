@@ -2,7 +2,7 @@
 title = "pgpdump 0.33 がリリース"
 date = "2018-05-07T22:49:18+09:00"
 description = "例によってソースコードのみのリリースだが Windows 用にコンパイルしたものを用意した。"
-image = "/images/attention/tools.png"
+image = "/images/attention/openpgp.png"
 tags  = [ "openpgp", "tools", "pgpdump" ]
 
 [scripts]
