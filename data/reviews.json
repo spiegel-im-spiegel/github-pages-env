@@ -17062,5 +17062,52 @@
       true
     ],
     "Description": "なんと！ 結城浩さんのデザパタ本の第3版が出た。古典的なデザインパターン23個はそのままに，最近の Java の言語仕様に合わせてコードが一新されている。\n"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09MLLYTQD",
+      "Title": "【電子復刻版】bit 1969年03月号(通巻1号) 電子復刻版bit(月刊誌全巻) (【電子復刻版bit】)",
+      "URL": "https://www.amazon.co.jp/dp/B09MLLYTQD?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41eYVQa3FfL._SL160_.jpg",
+        "Height": 160,
+        "Width": 110
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "石田晴久",
+          "Role": "編集"
+        },
+        {
+          "Name": "竹内郁雄",
+          "Role": "編集"
+        }
+      ],
+      "Publisher": "共立出版",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09MLLYTQD"
+        }
+      ],
+      "PublicationDate": "1969-03-01",
+      "LastRelease": "2021-12-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-12-12",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "\u003ca href=\"https://www.techmag.jp/\"\u003eTechMag\u003c/a\u003e の成果。あの『bit』誌が電子復刻された！"
   }
 ]

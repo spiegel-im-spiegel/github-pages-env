@@ -7,9 +7,6 @@
 - [プログラミングを独習するには10年かかる（Teach Yourself Programming in Ten Years 日本語訳）](https://www.yamdas.org/column/technique/21-daysj.html) : 『Clean Architecture』感想文用に保持っておく
 
 
-- [共立出版 コンピュータサイエンス誌『bit』](https://scrapbox.io/bitmagazine/)
-- [技術雑誌をデジタル化して復刻するプロジェクトを応援したい - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20211206/techmag)
-
 ## リリース情報 {#release}
 
 
