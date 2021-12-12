@@ -6,13 +6,9 @@
 - [パッケージ設計(コンポーネント)の原則](https://zenn.dev/uesho/articles/c819d53be1d6d9d120e8)
 - [プログラミングを独習するには10年かかる（Teach Yourself Programming in Ten Years 日本語訳）](https://www.yamdas.org/column/technique/21-daysj.html) : 『Clean Architecture』感想文用に保持っておく
 
-- [Securing your digital life, part one: The basics | Ars Technica](https://arstechnica.com/features/2021/10/securing-your-digital-life-part-1/)
-  - [Securing your digital life, part two: The bigger picture—and special circumstances | Ars Technica](https://arstechnica.com/information-technology/2021/10/securing-your-digital-life-part-2/)
-  - [Advice for Personal Digital Security - Schneier on Security](https://www.schneier.com/blog/archives/2021/11/advice-for-personal-digital-security.html)
 
-- [Interlink Mail & News - Binary Outcast](https://binaryoutcast.com/projects/interlink/) : Enigmail が使えるらしい。あとで試す
-
-- [oktetoで無料Kubernetesを遊び尽くす](https://zenn.dev/aoi/articles/9ff83fe3c2e58d)
+- [共立出版 コンピュータサイエンス誌『bit』](https://scrapbox.io/bitmagazine/)
+- [技術雑誌をデジタル化して復刻するプロジェクトを応援したい - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20211206/techmag)
 
 ## リリース情報 {#release}
 

@@ -29,6 +29,7 @@ pageType = "text"
 - [FBIの「LINEから入手可能な個人情報リスト」がリークされる、一体どんな情報にアクセス可能なのか？ - GIGAZINE](https://gigazine.net/news/20211202-line-fbi/)
 - [Memory corruption in NSS via DER-encoded DSA and RSA-PSS signatures — Mozilla](https://www.mozilla.org/en-US/security/advisories/mfsa2021-51/)
   - [「Thunderbird」や「LibreOffice」などに影響か ～Mozillaが「NSS」の致命的な脆弱性を公表 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1371016.html)
+  - [LibreOffice 7.2.4 Community and LibreOffice 7.1.8 Community available ahead of schedule to provide an important security fix - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2021/12/06/libreoffice-7-2-4-and-7-1-8-community/)
 - [Safariのプライバシー保護を迂回したトラッキングに対する損害補償を求める英国の集団訴訟上訴審でグーグルが勝訴  |  TechCrunch Japan](https://jp.techcrunch.com/2021/11/29/2021-11-10-google-wins-appeal-against-uk-class-action-style-suit-seeking-damages-for-safari-tracking/)
 
 ## Go 言語関連 {#golang}
