@@ -304,6 +304,53 @@ $ chmod 600 ~/.ssh/authorized_keys
 老婆心ながら，新しい鍵でログインできることを確認するまでは接続中のセッションは切らないこと。
 設定を間違えてログイン不能になったら悲惨だからねぇ。
 
+{{< div-box type="markdown" >}}
+### 【2021-12-13 追記】 ssh-copy-id を使う方法
+
+[フィードバックで教えてもらった](https://github.com/spiegel-im-spiegel/github-pages-env/discussions/85#discussioncomment-1793423)が（感謝！） `ssh-copy-id` コマンド（中身は shell スクリプト）を使うともっと簡単に登録できるそうだ。
+
+```text
+$ ssh-copy-id -h
+Usage: /usr/bin/ssh-copy-id [-h|-?|-f|-n] [-i [identity_file]] [-p port] [-F alternative ssh_config file] [[-o <ssh -o options>] ...] [user@]hostname
+	-f: force mode -- copy keys without trying to check if they are already installed
+	-n: dry run    -- no keys are actually copied
+	-h|-?: print this help
+```
+
+ふむむ。
+`-n` オプションで dry run できるのか。
+ありがたい。
+
+`-i` オプションで公開鍵ファイルを指定するが，標準入力からも受け付けるようなので，パイプで繋いで
+
+```text
+$ ssh-add -L | ssh-copy-id -n alice@hostname
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+=-=-=-=-=-=-=-=
+Would have added the following key(s):
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFfjejx/Saej929myfZoBQAKgusPi2iiOxdZZfpCLxh5 (none)
+=-=-=-=-=-=-=-=
+```
+
+てな感じにできる（実際に登録する際は `-n` オプションを外してね）。
+
+あるいは [GnuPG] で作った認証鍵であれば
+
+```text
+$ gpg --export-ssh-key alice | ssh-copy-id -n alice@hostname
+```
+
+などととすることもできる（実際に登録する際は `-n` オプションを外してね）。
+
+サーバ側に既に `~/.ssh/authorized_keys` ファイルがある場合は（公開鍵認証でログインした上で）ちゃんと追記してくれるし，パーミッションの心配も要らないようだ。
+
+教えていただいて本当にありがとう {{% emoji "ペコン" %}}
+
+[GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
+{{< /div-box >}}
+
 ### 各種 [Git] リポジトリ・サービスに公開鍵を登録する
 
 [GitHub] ではリポジトリのアクセスに [OpenSSH] 認証が使える。
