@@ -342,7 +342,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFfjejx/Saej929myfZoBQAKgusPi2iiOxdZZfpCLxh5
 $ gpg --export-ssh-key alice | ssh-copy-id -n alice@hostname
 ```
 
-などととすることもできる（実際に登録する際は `-n` オプションを外してね）。
+などとすることもできる（実際に登録する際は `-n` オプションを外してね）。
 
 サーバ側に既に `~/.ssh/authorized_keys` ファイルがある場合は（公開鍵認証でログインした上で）ちゃんと追記してくれるし，パーミッションの心配も要らないようだ。
 
