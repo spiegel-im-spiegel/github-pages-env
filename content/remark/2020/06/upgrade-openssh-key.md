@@ -370,6 +370,7 @@ $ gpg --export-ssh-key alice | ssh-copy-id -n alice@hostname
 - [Securing SSH with OpenPGP or PIV](https://developers.yubico.com/PIV/Guides/Securing_SSH_with_OpenPGP_or_PIV.html)
 - [Securing SSH with the YubiKey](https://developers.yubico.com/SSH/)
 - [セキュリティキー「YubiKey」でEC2へのSSHを2段階認証にしてみた | Developers.IO](https://dev.classmethod.jp/articles/ssh-ubuntu-ec2-with-fido-u2f-security-key/)
+- [OpenSSHがSHA-1を使用したRSA署名を廃止、BacklogのGitで発生した問題と解決にいたるまでの道のり | 株式会社ヌーラボ(Nulab inc.)](https://nulab.com/ja/blog/backlog/disables-rsa-sig-using-the-sha-1-in-openssh/)
 
 - [暗号鍵関連の各種変数について]({{< ref "/remark/2017/10/key-parameters.md" >}})
 - [（何度目かの）さようなら SHA-1]({{< ref "/remark/2020/01/sayonara-sha-1.md" >}})

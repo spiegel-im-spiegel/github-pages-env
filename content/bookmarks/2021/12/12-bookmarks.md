@@ -38,6 +38,7 @@ pageType = "text"
 - [Windows 10 RCE: The exploit is in the link | Positive Security](https://positive.security/blog/ms-officecmd-rce)
   - [Windows 10/11でリンクを踏むときは注意 ～URIハンドラーの不備にセキュリティ会社が警鐘 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1373307.html)
 - [シスコ、Apache HTTP Serverの既知の脆弱性に関するアドバイザリ公開 | TECH+](https://news.mynavi.jp/techplus/article/20211210-2222944/)
+  - [「Apache HTTP Server」に複数の脆弱性、アップデートが公開 | Think IT（シンクイット）](https://thinkit.co.jp/news/bn/19000)
 - [「起きたら全て消えていた」　Discordで横行する“サーバー凍結荒らし”、1万人参加サーバーが一夜で消えたその手口（1/3 ページ） - ねとらぼ](https://nlab.itmedia.co.jp/nl/articles/2112/07/news166.html)
 
 ## 知財関連 {#ip}
