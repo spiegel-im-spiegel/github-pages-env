@@ -17109,5 +17109,71 @@
       false
     ],
     "Description": "\u003ca href=\"https://www.techmag.jp/\"\u003eTechMag\u003c/a\u003e の成果。あの『bit』誌が電子復刻された！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01DSV9KDU",
+      "Title": "ジョジョの奇妙な冒険 ダイヤモンドは砕けない",
+      "URL": "https://www.amazon.co.jp/dp/B01DSV9KDU?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61qdM4litiL._SL160_.jpg",
+        "Height": 120,
+        "Width": 160
+      },
+      "ProductType": "Prime Video",
+      "Creators": [
+        {
+          "Name": "小野友樹",
+          "Role": "出演"
+        },
+        {
+          "Name": "梶裕貴",
+          "Role": "出演"
+        },
+        {
+          "Name": "高木渉",
+          "Role": "出演"
+        },
+        {
+          "Name": "櫻井孝宏",
+          "Role": "出演"
+        },
+        {
+          "Name": "小野大輔",
+          "Role": "出演"
+        },
+        {
+          "Name": "津田尚克",
+          "Role": "監督"
+        },
+        {
+          "Name": "ジョジョの奇妙な冒険DU製作委員会 ",
+          "Role": "プロデュース"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01DSV9KDU"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2016-04-04",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-12-14",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "実は見ていない（笑）"
   }
 ]

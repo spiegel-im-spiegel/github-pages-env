@@ -39,10 +39,6 @@
 
 - [防御的プログラミングとカバレッジ：柴田 芳樹 (Yoshiki Shibata)：SSブログ](https://yshibata.blog.ss-blog.jp/2010-06-05)
 - [AWS、12月7日の大規模障害について説明　ステータスページの改善を約束 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2112/13/news063.html)
-- ["Open Source" is Broken - Xe](https://christine.website/blog/open-source-broken-2021-12-11)
-  - [ブログ: 「オープンソース」は壊れている](https://okuranagaimo.blogspot.com/2021/12/blog-post_13.html)
-- ["Open source" is not broken - nadh.in](https://nadh.in/blog/open-source-is-not-broken/)
-  - [ブログ: 「オープンソース」は壊れていない](https://okuranagaimo.blogspot.com/2021/12/blog-post_89.html)
 - [GitHub ActionsでER図を自動生成する話とNew Relicでデプロイ頻度をグラフにする話を寄稿した - My External Storage](https://budougumi0617.github.io/2021/12/12/publish_base_blog/)
 - [ssh-copy-idコマンドを使った簡単に公開鍵をリモート側にコピーする方法をご紹介！ | テックマガジン from FEnetインフラ](https://www.fenet.jp/infla/column/network/ssh-copy-id%e3%82%b3%e3%83%9e%e3%83%b3%e3%83%89%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%9f%e7%b0%a1%e5%8d%98%e3%81%ab%e5%85%ac%e9%96%8b%e9%8d%b5%e3%82%92%e3%83%aa%e3%83%a2%e3%83%bc%e3%83%88%e5%81%b4%e3%81%ab/)
 
