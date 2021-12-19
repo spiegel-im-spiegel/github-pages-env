@@ -156,6 +156,11 @@ image = "/images/attention/go-logo_blue.png"
   - [GoのGenerics関連プロポーザル最新状況まとめと簡単な解説 (2021年8月版)](https://zenn.dev/syumai/articles/c42hdg1e0085btnen5hg)
   - [初めての型セット - Speaker Deck](https://speakerdeck.com/nobishino/introduction-to-type-sets)
 
+### Go 1.18 beta
+
+- [Go 1.18 Release Notes - go.dev](https://tip.golang.org/doc/go1.18)
+  - [Go 1.18 Beta 1 is available, with generics - go.dev](https://go.dev/blog/go1.18beta1)
+
 ### Go 2 Draft
 
 次期 Go 言語の仕様について（一部は 1.11 以降に取り込まれている）
