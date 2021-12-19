@@ -24,7 +24,7 @@ title = "text.Baldanders.info について"
 
 [^eu]: 2016年，欧州司法裁判所において営利目的のサイトからのリンクで著作権侵害コンテンツと知っている場合については公衆送信となりうる（つまり著作（権）者に無断でリンクを張れない）という判断が示されました。（参考： [欧州司法裁、侵害コンテンツへのリンクを著作権侵害と判断 – P2Pとかその辺のお話R](http://p2ptk.org/copyright/553)，[「無許諾コンテンツにはリンクを貼るだけで著作権侵害」--EU判決とリンクの自由 - CNET Japan](http://japan.cnet.com/news/business/35088980/)）
 
-なお以下の点については免責とさせていただきます。
+なお免責事項として以下の点をご承知おきください。
 
 - [本サイト]の内容についてはなるべく正確を期するよう努力していますが保証はいたしかねます。[本サイト]を利用することに起因するいかなる不利益に対しても責任を負うことはできません。なお内容に問題がある場合には[フィードバック](#feedback)をいただけると助かります。
 - Web コンテンツの性格上，頻繁に改訂が行われます。したがって配布・利用あるいは引用されたコンテンツが最新の内容と合わない場合があります。なお，[本サイト]の変更履歴については[リポジトリ](https://github.com/spiegel-im-spiegel/spiegel-im-spiegel.github.io "spiegel-im-spiegel/spiegel-im-spiegel.github.io: text.Baldanders.info")を参照してください。
@@ -39,19 +39,19 @@ title = "text.Baldanders.info について"
 
 本サイトと連携しているサービス（主なもの）：
 
-- [Flickr](https://www.flickr.com/)
-- [Twitter](https://twitter.com/)
-- [Facebook](https://www.facebook.com/)
-- [YouTube](https://www.youtube.com/)
 - [Amazonアソシエイト](https://affiliate.amazon.co.jp/)
 - [Google Search Console](https://support.google.com/webmasters/answer/4559176)
 - [Font Awesome](https://fontawesome.com/) : アイコン等の Web フォント
+- [YouTube](https://www.youtube.com/)
+- [Twitter](https://twitter.com/)
+- [Facebook](https://www.facebook.com/)
+- [Flickr](https://www.flickr.com/)
 
 Cookie 等を用いた情報追跡をブロックしても[本サイト]の利用に支障はありません。
 情報追跡のブロック手段としては一部の広告ブロック・アプリや VPN アプリ，あるいはプライバシー保護機能付きのブラウザがあります。
 情報追跡をブロックできるブラウザとして以下を推奨します。
 
-- [Firefox Focus](https://support.mozilla.org/ja/kb/focus)  ([Android](https://play.google.com/store/apps/details?id=org.mozilla.focus)/[iOS](https://itunes.apple.com/app/id1055677337))
+- [Firefox Focus](https://support.mozilla.org/ja/products/focus-firefox)  ([Android](https://support.mozilla.org/ja/products/focus-firefox/firefox-focus-android)/[iOS](https://support.mozilla.org/ja/products/focus-firefox/Focus-ios))
 - [Firefox](https://www.mozilla.org/firefox/) 78 以降
 
 ### OpenPGP 公開鍵
