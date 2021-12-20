@@ -48,7 +48,7 @@ Log4j の対応に追われている現場エンジニアの皆様にお見舞�
 {{% quote %}}As of yesterday, there were a grand total of three sponsors for this person's work{{% /quote %}}.
 {{< /fig-quote >}}
 
-GnuPG の作者である Werner Koch さんは一時期，経済的に困窮して [GnuPG プロジェクトを放棄しようと考えていた](https://arstechnica.com/information-technology/2015/02/once-starving-gnupg-crypto-project-gets-a-windfall-but-can-it-be-saved/ "Once-starving GnuPG crypto project gets a windfall. Now comes the hard part | Ars Technica")ことがあるそうな[^gpg1]。
+GnuPG の作者である Werner Koch さんは一時期，経済的に困窮して [GnuPG プロジェクトを放棄しようと考えていた](https://arstechnica.com/information-technology/2015/02/once-starving-gnupg-crypto-project-gets-a-windfall-but-can-it-be-saved/ "Once-starving GnuPG crypto project gets a windfall. Now comes the hard part | Ars Technica")ことがあるそうな。
 Linux Kernel なんてイレギュラー中のイレギュラーで，あんな奇跡は二度と起こらないと断言しておこう。
 一時期はデジタル補完通貨[^cc1] と FinTech で皆ウハウハみたいな話もあったけど，あれって本当に儲かってるのは miner と山師だけでしょ（笑）
 
