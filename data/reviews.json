@@ -17175,5 +17175,48 @@
       false
     ],
     "Description": "実は見ていない（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B081RBRMFB",
+      "Title": "数学ガールの秘密ノート／学ぶための対話",
+      "URL": "https://www.amazon.co.jp/dp/B081RBRMFB?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41uAycr+jpL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "結城 浩",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "SBクリエイティブ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B081RBRMFB"
+        }
+      ],
+      "PublicationDate": "2019-11-22",
+      "LastRelease": "2019-11-23",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-12-26",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "ノナちゃん登場。「僕」が大苦戦する回（笑）"
   }
 ]

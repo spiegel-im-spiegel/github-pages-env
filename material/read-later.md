@@ -6,6 +6,8 @@
 - [パッケージ設計(コンポーネント)の原則](https://zenn.dev/uesho/articles/c819d53be1d6d9d120e8)
 - [プログラミングを独習するには10年かかる（Teach Yourself Programming in Ten Years 日本語訳）](https://www.yamdas.org/column/technique/21-daysj.html) : 『Clean Architecture』感想文用に保持っておく
 
+- [YubiKey + GPG で統一的な鍵の管理を行う - the world as code](https://chroju.dev/blog/yubikey_gpg_with_git_commit_signing_and_ssh)
+
 
 ## リリース情報 {#release}
 

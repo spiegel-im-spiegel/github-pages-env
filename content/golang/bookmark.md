@@ -160,6 +160,7 @@ image = "/images/attention/go-logo_blue.png"
 
 - [Go 1.18 Release Notes - go.dev](https://tip.golang.org/doc/go1.18)
   - [Go 1.18 Beta 1 is available, with generics - go.dev](https://go.dev/blog/go1.18beta1)
+- [Big Sky :: Go の http パッケージに MaxBytesHandler が入った。](https://mattn.kaoriya.net/software/lang/go/20211224005655.htm)
 
 ### Go 2 Draft
 
