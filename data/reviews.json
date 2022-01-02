@@ -17320,5 +17320,52 @@
       false
     ],
     "Description": "版元でデジタル版も\u003ca href=\"https://www.oreilly.co.jp//books/9784873119632/\"\u003e買える\u003c/a\u003e。てか，私は PDF で買っている。見事に積読状態。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09J8C75DF",
+      "Title": "【SS付き】余りモノ異世界人の自由生活　～勇者じゃないので勝手にやらせてもらいます～２ (アルファポリス)",
+      "URL": "https://www.amazon.co.jp/dp/B09J8C75DF?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/515p60tSDXL._SL160_.jpg",
+        "Height": 160,
+        "Width": 108
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "藤森フクロウ",
+          "Role": "著"
+        },
+        {
+          "Name": "万冬しま",
+          "Role": "イラスト"
+        }
+      ],
+      "Publisher": "アルファポリス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09J8C75DF"
+        }
+      ],
+      "PublicationDate": "2021-10-20",
+      "LastRelease": "2021-11-12",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-12-18",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "シンちゃん，馬を買う。"
   }
 ]
