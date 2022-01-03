@@ -3,5 +3,5 @@
 .hugo_build.lock
 
 # Folders
-/public/
-/work/
+public/
+work/
