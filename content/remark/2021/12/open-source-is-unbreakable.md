@@ -52,7 +52,7 @@ GnuPG の作者である Werner Koch さんは一時期，経済的に困窮し�
 Linux Kernel なんてイレギュラー中のイレギュラーで，あんな奇跡は二度と起こらないと断言しておこう。
 一時期はデジタル補完通貨[^cc1] と FinTech で皆ウハウハみたいな話もあったけど，あれって本当に儲かってるのは miner と山師だけでしょ（笑）
 
-[^gpg1]: [GnuPG は現在も寄付を受け付けている](https://gnupg.org/donate/index.ja.html)。
+[^gpg1]: その後 GnuPG は商業ブランド [GnuPG.com](https://gnupg.com/) を立ち上げ，[順調に経営](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html "A New Future for GnuPG")できているそうだ。
 [^cc1]: 暗号通貨とか暗号資産とか言ってやらん（笑）
 
 この業界に入るきっかけになった会社では色々なことを叩き込まれたが，その中のひとつに「仕事は終わらせるもの」というのがある。
