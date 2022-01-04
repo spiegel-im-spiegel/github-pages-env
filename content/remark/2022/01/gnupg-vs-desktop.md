@@ -53,7 +53,6 @@ BSI（ドイツ連邦電子情報保安局）がLinuxからWindowsに移行す�
 - [Once-starving GnuPG crypto project gets a windfall. Now comes the hard part | Ars Technica](https://arstechnica.com/information-technology/2015/02/once-starving-gnupg-crypto-project-gets-a-windfall-but-can-it-be-saved/)
 
 この記事をきっかけに寄付を中心とした [GnuPG] への継続的財政支援が行われるようになった。
-さらに “[A New Future for GnuPG]” によると2019年末には BSI による VS-NfD の承認を得られたようだ。
 
 {{< fig-quote type="markdown" title="A New Future for GnuPG" link="https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html" lang="en" >}}
 We started to make a real product out of *Gpg4VS-NfD*. Thus we rented a new office to work desk by desk on this and hired staff for sales and marketing. We introduced the brand *GnuPG.com* to have a better recognition of our product than by our legal name g10 Code GmbH. The software itself was re-branded as *GnuPG VS-Desktop<sup>®</sup>* and distributed as an MSI packet for Windows and as an AppImage for Linux. Except for customer specific configuration files *GnuPG VS-Desktop* is and will always be Open Source under the GNU General Public License.
@@ -63,6 +62,7 @@ We started to make a real product out of *Gpg4VS-NfD*. Thus we rented a new offi
 私たちは、*Gpg4VS-NfD*より実際の製品を作り始めました。そのため、協力して仕事ができるように事務所を借り、販売やマーケティングのためのスタッフを雇用しました。私たちは法的な名称である*g10 Code社*よりもブランドとして通りやすい*GnuPG.com*の使用をはじめました。ソフトウェアそのものは*GnuPG VS-Desktop<sup>®</sup>* とブランド化し、こちらはWindows向けのMSIパッケージ及びLinux向けのAppImageとしての配布となっています。特定の顧客に対するカスタム部分設定以外においては*GnuPG VS-Desktop*はGNU General Public Licenseのオープンソースであり、またそれは今後も継続されます。
 {{< /fig-quote >}}
 
+さらに “[A New Future for GnuPG]” によると2019年末には BSI による VS-NfD の承認を得られたようだ。
 VS-NfD 承認取得時のプレスリリース（ドイツ語）は以下の通り。
 
 {{< fig-quote type="markdown" title="German press release: Gpg4win für VS-NfD freigegeben" link="https://gnupg.com/20200107-freigabe-vs-nfd.html" lang="de" >}}
