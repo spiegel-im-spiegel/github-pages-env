@@ -66,7 +66,7 @@ Courts are also suggesting that Philpot doesn’t suffer economic harm because h
 {{< /fig-quote >}}
 
 と書かれている。
-fair use として回避できるものもあるということだ。
+公正な利用（fair use）として回避できるものもあるということだ。
 “his photos have no value outside of litigation” の部分でバカウケしてしまったよ。
 
 {{< fig-quote type="markdown" title="Beware the Copyleft Trolls" link="https://onezero.medium.com/beware-the-copyleft-trolls-a8b85c66b7eb" lang="en" >}}
@@ -101,6 +101,7 @@ yomoyomo さんも[苦言](https://yamdas.hatenablog.com/entry/20220105/copyleft
 ## ブックマーク
 
 - [改訂3版： CC Licenses について]({{< rlnk "/cc-licenses/" >}})
+- [CC BY-SA 4.0 now one-way compatible with GPLv3]({{< ref "/remark/2015/cc-by-sa-4-now-one-way-compatible-with-gplv3.md" >}}) : CC Licenses のうち GNU GPL (copyleft) と互換であると認められているのは BY-SA 4.0 のみである
 
 [Flickr]: https://www.flickr.com/
 
