@@ -1,5 +1,5 @@
 +++
-title = "CC Lienses を悪用した新手の著作権トロルについて"
+title = "CC Licenses を悪用した新手の著作権トロルについて"
 date =  "2022-01-05T21:23:50+09:00"
 description = "このリスクを事前に回避したいのであれば「クレジットを明記する」に限る。"
 image = "/images/attention/kitten.jpg"
