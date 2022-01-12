@@ -1,7 +1,7 @@
 +++
 title = "Shokz OpenComm は Windows と相性が悪い？"
 date =  "2022-01-12T19:31:45+09:00"
-description = "description"
+description = "Windows というより Bluetooth 周りかも。"
 image = "/images/attention/kitten.jpg"
 tags = [ "tools", "communication", "music" ]
 pageType = "text"
