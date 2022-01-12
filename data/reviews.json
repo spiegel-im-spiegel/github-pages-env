@@ -17367,5 +17367,42 @@
       false
     ],
     "Description": "シンちゃん，馬を買う。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08ND2M821",
+      "Title": "骨伝導 通話専用 OpenComm Light Grey AfterShokz 骨伝導イヤホン ワイヤ レスヘッドホン テレワーク在宅ワークに最適 最強ノイズキャンセリングマイク運転中の通話でもきちんと相手に届きます",
+      "URL": "https://www.amazon.co.jp/dp/B08ND2M821?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31ffgnQuquL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "SHENZHEN VOXTECH CO.,LTD",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08ND2M821"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-01-12",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "新春初売りで衝動買い。性能的には文句なしだが Windows と微妙に\u003ca href=\"https://text.baldanders.info/remark/2022/01/shokz-opencomm-with-windows/\"\u003e相性が悪い\u003c/a\u003e？"
   }
 ]
