@@ -16,7 +16,7 @@ pageType = "text"
 - [OpenJDK Vulnerability Advisory: 2021/10/19](https://openjdk.java.net/groups/vulnerability/advisories/2021-10-19)
 
 CVE ID ベースで4つの脆弱性修正がある。
-影響を受けるバージョンは 16.0.2, 15.0.4, 13.0.8, 11.0.12, 8u302, 7u311 およびそれ以前。
+影響を受けるバージョンは 17.0.0, 16.0.2, 15.0.4, 13.0.8, 11.0.12, 8u302, 7u311 およびそれ以前。
 
 {{< fig-quote class="nobox" title="OpenJDK Vulnerability Advisory: 2021/10/19" link="https://openjdk.java.net/groups/vulnerability/advisories/2021-10-19" lang="en" >}}
 <table class="risk-matrix center smaller" summary="Risk matrix">
