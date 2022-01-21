@@ -274,6 +274,8 @@ OpenJDK 64-Bit Server VM (build 17.0.2+8-86, mixed mode, sharing)
 
 - [Oracle Java の脆弱性対策について(CVE-2022-21349等)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20220119-jre.html)
 - [2022年1月Oracle製品のクリティカルパッチアップデートに関する注意喚起](https://www.jpcert.or.jp/at/2022/at220003.html)
+- [Adoptium - Open source, prebuilt OpenJDK binaries](https://adoptium.net/) : 旧 [AdoptOpenJDK](https://adoptopenjdk.net/ "AdoptOpenJDK - Open source, prebuilt OpenJDK binaries")
+- [OpenJDK の Microsoft ビルドをダウンロードする | Microsoft Docs](https://docs.microsoft.com/ja-jp/java/openjdk/download)
 
 [OpenJDK]: http://openjdk.java.net/
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
