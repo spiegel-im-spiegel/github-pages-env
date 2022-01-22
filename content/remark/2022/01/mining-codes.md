@@ -91,7 +91,7 @@ Coinhive が提供する mining code による計算資源搾取は，当時は�
 - [Norton’s Antivirus Product Now Includes an Ethereum Miner - Schneier on Security](https://www.schneier.com/blog/archives/2022/01/nortons-antivirus-product-now-includes-an-ethereum-miner.html)
 
 今回の最高裁判決文を読む限り「不正性」の証明はなかなかに難しい印象を受ける。
-今後もこの境界を巡って法的な議論があるだろうが，独善に走って真っ当なエンジニアを陥れるのは勘弁していただきたいところである。
+今後もこの境界を巡って法的な議論があるだろうが，{{< ruby "孤独な正義" >}}独善{{< /ruby >}}に走って真っ当なエンジニアを陥れるのは勘弁していただきたいところである。
 
 一方で私は，エンジニアは「善を実装する者」であると認識している。
 なにを以って「善」とするかは難しいところだが，この一点に於いて「[エンジニアこそ『狂狷の徒』たれ]({{< ref "/remark/2017/12/hacker-ethic.md" >}})」と思うのである。
@@ -110,3 +110,4 @@ Coinhive が提供する mining code による計算資源搾取は，当時は�
 ## 参考図書
 
 {{% review-paapi "B01ESA9R5Q" %}} <!-- 機動戦士ガンダム00 -->
+{{% review-paapi "B07K356C43" %}} <!-- 転スラ Another Colony -->

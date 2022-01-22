@@ -17530,5 +17530,48 @@
       false
     ],
     "Description": "「俺がガンダムだ」"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07K356C43",
+      "Title": "Another colony",
+      "URL": "https://www.amazon.co.jp/dp/B07K356C43?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51ENgxWO4IL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "TRUE",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Lantis",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07K356C43"
+        }
+      ],
+      "PublicationDate": "2018-11-07",
+      "LastRelease": "2018-11-07",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-01-22",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "「転生したらスライムだった件」第1期 ED 曲。"
   }
 ]
