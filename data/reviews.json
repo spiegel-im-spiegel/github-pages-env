@@ -17404,5 +17404,131 @@
       false
     ],
     "Description": "新春初売りで衝動買い。性能的には文句なしだが Windows と微妙に\u003ca href=\"https://text.baldanders.info/remark/2022/01/shokz-opencomm-with-windows/\"\u003e相性が悪い\u003c/a\u003e？"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01ESA9R5Q",
+      "Title": "機動戦士ガンダム00　ファーストシーズン",
+      "URL": "https://www.amazon.co.jp/dp/B01ESA9R5Q?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51N0NM5gtrL._SL160_.jpg",
+        "Height": 120,
+        "Width": 160
+      },
+      "ProductType": "Prime Video",
+      "Creators": [
+        {
+          "Name": "宮野真守",
+          "Role": "出演"
+        },
+        {
+          "Name": "三木眞一郎",
+          "Role": "出演"
+        },
+        {
+          "Name": "吉野裕行",
+          "Role": "出演"
+        },
+        {
+          "Name": "神谷浩史",
+          "Role": "出演"
+        },
+        {
+          "Name": "本名陽子",
+          "Role": "出演"
+        },
+        {
+          "Name": "松本保典",
+          "Role": "出演"
+        },
+        {
+          "Name": "真堂圭",
+          "Role": "出演"
+        },
+        {
+          "Name": "高垣彩陽",
+          "Role": "出演"
+        },
+        {
+          "Name": "佐藤有世",
+          "Role": "出演"
+        },
+        {
+          "Name": "東地宏樹",
+          "Role": "出演"
+        },
+        {
+          "Name": "我妻正崇",
+          "Role": "出演"
+        },
+        {
+          "Name": "中村悠一",
+          "Role": "出演"
+        },
+        {
+          "Name": "浜田賢二",
+          "Role": "出演"
+        },
+        {
+          "Name": "入野自由",
+          "Role": "出演"
+        },
+        {
+          "Name": "斎藤千和",
+          "Role": "出演"
+        },
+        {
+          "Name": "恒松あゆみ",
+          "Role": "出演"
+        },
+        {
+          "Name": "石塚運昇",
+          "Role": "出演"
+        },
+        {
+          "Name": "小笠原亜里沙",
+          "Role": "出演"
+        },
+        {
+          "Name": "藤原啓治",
+          "Role": "出演"
+        },
+        {
+          "Name": "古谷徹",
+          "Role": "出演"
+        },
+        {
+          "Name": "水島精二",
+          "Role": "監督"
+        },
+        {
+          "Name": "---",
+          "Role": "プロデュース"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01ESA9R5Q"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2016-04-28",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-01-22",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "「俺がガンダムだ」"
   }
 ]
