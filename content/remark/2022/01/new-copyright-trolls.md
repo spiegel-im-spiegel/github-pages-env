@@ -100,6 +100,8 @@ yomoyomo さんも[苦言](https://yamdas.hatenablog.com/entry/20220105/copyleft
 
 ## ブックマーク
 
+- [A Bug in Early Creative Commons Licenses Has Enabled a New Breed of Superpredator | by Cory Doctorow | Jan, 2022 | Medium](https://doctorow.medium.com/a-bug-in-early-creative-commons-licenses-has-enabled-a-new-breed-of-superpredator-5f6360713299)
+
 - [改訂3版： CC Licenses について]({{< rlnk "/cc-licenses/" >}})
 - [CC BY-SA 4.0 now one-way compatible with GPLv3]({{< ref "/remark/2015/cc-by-sa-4-now-one-way-compatible-with-gplv3.md" >}}) : CC Licenses のうち GNU GPL (copyleft) と互換であると認められているのは BY-SA 4.0 のみである
 
