@@ -31,7 +31,7 @@ pageType = "text"
 
 それにしても “Do not feed the trolls” の画像は面白いな。
 
-{{< fig-img src="./nofeed-1024x630.jpg" title="Do not feed the trolls" link="https://creativecommons.org/2022/02/08/copyleft-trolls/" lang="en" width="1024" >}}
+{{< fig-img-quote src="./nofeed-1024x630.jpg" title="Do not feed the trolls" link="https://creativecommons.org/2022/02/08/copyleft-trolls/" lang="en" width="1024" >}}
 
 なんか日本でも [CDN サービスにイチャモンつけるトロルが台頭](https://news.yahoo.co.jp/byline/kuriharakiyoshi/20220204-00280590 "クラウドフレアは邪悪なのか？（栗原潔） - 個人 - Yahoo!ニュース")しそうだし，これをバナーとしてうちのブログサイトでも使わせてくれんかな（笑）
 
