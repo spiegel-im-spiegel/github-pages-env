@@ -490,6 +490,11 @@ GrapeCity が公開してるのか。
 
 - [【レビュー】「Visual Studio Code」で Excel スプレッドシートや CSV データを表示「Excel Viewer」 - 窓の杜](https://forest.watch.impress.co.jp/docs/review/1046119.html)
 
+### [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv "Rainbow CSV - Visual Studio Marketplace")
+
+CSV 支援用の拡張機能はいくつかあるが，スプレッドシートにこだわらず，元の状態を維持しつつ分かりやすい。
+おすすめ。
+
 ## 現在日時を設定するスニペット
 
 現在日時をセットする方法はいくつかあるようだが，スニペットを使うのがお手軽な感じである。

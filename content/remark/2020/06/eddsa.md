@@ -131,8 +131,26 @@ ECC も FFC のバリエーションであり，これに含まれる。
 
 ただし，量子コンピュータ開発は成長が著しい分野でもあり，今後も成り行きを注視していく必要がある。
 
-- {{< pdf-file title="CRYPTREC Report 2018: 暗号技術評価委員会報告" link="https://www.cryptrec.go.jp/report/cryptrec-rp-2000-2018.pdf" >}} : 素因数分解問題および楕円曲線上の離散対数問題の困難性に関する計算量評価のレポートあり
+- {{< pdf-file title="CRYPTREC Report 2018: 暗号技術評価委員会報告" link="https://www.cryptrec.go.jp/report/cryptrec-rp-2000-2018.pdf" >}}
 - {{< pdf-file title="耐量子計算機暗号の研究動向調査報告書" link="https://www.cryptrec.go.jp/report/cryptrec-tr-2001-2018.pdf" >}}
+- {{< pdf-file title="「CRYPTREC Report 2019 暗号技術評価委員会報告」 (Revision 1)" link="https://www.cryptrec.go.jp/report/cryptrec-rp-2000-2019r1.pdf" >}}
+- {{< pdf-file title="CRYPTREC Report 2020 暗号技術評価委員会報告" link="https://www.cryptrec.go.jp/report/cryptrec-rp-2000-2020.pdf" >}}
+
+## 【おまけ2】 CRYPTREC による EdDSA の評価
+
+2021年に公開された「[CRYPTREC Report 2020](https://www.cryptrec.go.jp/topics/cryptrec_20211012_c20report.html)」に EdDSA に対する評価が載っていたので紹介する。
+
+難しい話はすっ飛ばして総評だけつまみ食いすると
+
+{{< fig-quote type="markdown" title="CRYPTREC Report 2020 暗号技術評価委員会報告" link="https://www.cryptrec.go.jp/report/cryptrec-rp-2000-2020.pdf" >}}
+- 総評：下記の観点から、EdDSA の構成に関わる安全性において、EdDSA が ECDSA に劣ると考えられる点は無いと思われると述べている。
+  - Schnorr 署名をもとに EdDSA は構成されているため、ランダムオラクルモデルで安全性が証明されている Schnorr 署名に対する安全性評価を参考にすることができる。
+  - Schnorr 署名との大きな違いはノンスの生成方法であるが、EdDSA におけるノンスの生成方法は、署名の内部乱数を弱い疑似乱数生成器に委ねることによる危険を排除し、現実的な脅威を回避するための配慮が施されている。
+  - 比較対象となる ECDSA については、既存結果として generic group model でのみ安全性が証明されている。
+{{< /fig-quote >}}
+
+とのこと。
+ノンスの評価やサイドチャネル攻撃耐性など具体的な話は本文を参照のこと。
 
 ## ブックマーク
 
@@ -141,9 +159,11 @@ ECC も FFC のバリエーションであり，これに含まれる。
 
 - [暗号鍵関連の各種変数について]({{< ref "/remark/2017/10/key-parameters.md" >}})
 - [OpenSSH 鍵をアップグレードする（さようなら SHA-1）]({{< ref "/remark/2020/06/upgrade-openssh-key.md" >}})
+- [量子コンピュータで256ビット楕円曲線暗号は敗れるか]({{< ref "/remark/2022/02/breaking-256-bit-elliptic-curve-encryption-with-a-quantum-computer.md">}})
 
 [RFC 8032]: https://www.rfc-editor.org/rfc/rfc8032.html "RFC 8032: Edwards-Curve Digital Signature Algorithm (EdDSA)"
 [Curve25519]: http://cr.yp.to/ecdh.html "Curve25519: high-speed elliptic-curve cryptography"
+[CRYPTREC]: https://www.cryptrec.go.jp/
 
 ## 参考図書
 
