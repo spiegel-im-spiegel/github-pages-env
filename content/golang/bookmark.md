@@ -156,11 +156,15 @@ image = "/images/attention/go-logo_blue.png"
   - [GoのGenerics関連プロポーザル最新状況まとめと簡単な解説 (2021年8月版)](https://zenn.dev/syumai/articles/c42hdg1e0085btnen5hg)
   - [初めての型セット - Speaker Deck](https://speakerdeck.com/nobishino/introduction-to-type-sets)
 
-### Go 1.18 beta
+### Go 1.18 RC
 
 - [Go 1.18 Release Notes - go.dev](https://tip.golang.org/doc/go1.18)
   - [Go 1.18 Beta 1 is available, with generics - go.dev](https://go.dev/blog/go1.18beta1)
 - [Big Sky :: Go の http パッケージに MaxBytesHandler が入った。](https://mattn.kaoriya.net/software/lang/go/20211224005655.htm)
+- [go1.18で入ったhttp.MaxBytesHandlerの中身を見てみた](https://zenn.dev/hiroyukim/articles/4b4f5b482c0c2d)
+- [Go1.18から導入されるnetip package/netip-package - Speaker Deck](https://speakerdeck.com/sonatard/netip-package)
+- [What's new in Go 1.18? - Speaker Deck](https://speakerdeck.com/syumai/whats-new-in-go-1-dot-18)
+- [What Is the Go Workspace Mode - Speaker Deck](https://speakerdeck.com/110y/what-is-the-go-workspace-mode)
 
 ### Go 2 Draft
 

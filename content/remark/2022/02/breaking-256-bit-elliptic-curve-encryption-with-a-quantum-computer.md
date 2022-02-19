@@ -56,6 +56,8 @@ Bruce Schneier 先生のブログ記事より。
 
 ## ブックマーク
 
+- [MIT Tech Review: ポスト量子暗号の実装安全性を向上、東北大学とNTTが考案](https://www.technologyreview.jp/n/2022/02/03/268972)
+
 - [Edwards-curve Digital Signature Algorithm]({{< ref "/remark/2020/06/eddsa.md" >}})
 
 [CRYPTREC]: https://www.cryptrec.go.jp/

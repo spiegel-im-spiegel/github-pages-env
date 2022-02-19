@@ -326,6 +326,7 @@ $ vuls tui
 - [あなたのサーバは本当に安全ですか？今もっともイケてる脆弱性検知ツールVulsを使ってみた - Qiita](https://qiita.com/sadayuki-matsuno/items/0bb8bb1689425bb9a21c)
 - [FutureVuls(脆弱性管理サービス) Advent Calendar 2018 - Qiita](https://qiita.com/advent-calendar/2018/futurevuls)
 - [Tutorial - Local Scan Mode · Vuls](https://vuls.io/docs/ja/tutorial-local-scan.html)
+- [脆弱性検知ツールVulsの、きちんと動く構築手順](https://zenn.dev/myuki/articles/d0c1f780d45e8b)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"

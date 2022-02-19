@@ -35,5 +35,6 @@ pageType = "text"
 ## ブックマーク
 
 - [「ウィキ」がペディアに乗っ取られたように「クリプト」はデジタル資産に乗っ取られるのか - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20211206/wiki-and-crypto)
+- [Garry Kasparov: Crypto Means Freedom](https://www.coindesk.com/layer2/2022/01/03/garry-kasparov-crypto-means-freedom/)
 
 - [「暗号通貨」ってゆーな！]({{< ref "/remark/2018/01/cryptocurrency-are-not-crypto.md" >}})

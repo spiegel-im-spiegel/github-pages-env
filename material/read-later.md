@@ -8,6 +8,11 @@
 
 - [YubiKey + GPG で統一的な鍵の管理を行う - the world as code](https://chroju.dev/blog/yubikey_gpg_with_git_commit_signing_and_ssh)
 
+- [20220102-a-new-future-for-gnupg](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html)
+- [Release v0.6.3 · nyaosorg/go-readline-ny · GitHub](https://github.com/nyaosorg/go-readline-ny/releases/tag/v0.6.3)
+- [GitHub - GavinClarke0/lockless-generic-ring-buffer: Single producer and multi-reader lockless ring buffer in go using generics from the go 1.18beta release. It is significantly faster than channels with the added type safety of generics compared to ring buffers using interfaces.](https://github.com/GavinClarke0/lockless-generic-ring-buffer)
+- [Font Awesome 6: The perfect icons to match your project | Blog Awesome](https://blog.fontawesome.com/font-awesome-6-2/)
+
 
 ## リリース情報 {#release}
 
