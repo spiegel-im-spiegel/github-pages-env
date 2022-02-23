@@ -1,4 +1,4 @@
-module sample
+module cvss202202
 
 go 1.17
 

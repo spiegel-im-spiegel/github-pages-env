@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/robpike/filter"
+	"robpike.io/filter"
 )
 
 func gcd(m, n uint64) uint64 {

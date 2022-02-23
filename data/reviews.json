@@ -17573,5 +17573,48 @@
       false
     ],
     "Description": "「転生したらスライムだった件」第1期 ED 曲。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00D81Y33I",
+      "Title": "スーパーヅガン　（2） (近代麻雀コミックス)",
+      "URL": "https://www.amazon.co.jp/dp/B00D81Y33I?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/517L3C-S1mL._SL160_.jpg",
+        "Height": 160,
+        "Width": 109
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "片山まさゆき",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "竹書房",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00D81Y33I"
+        }
+      ],
+      "PublicationDate": "2009-07-10",
+      "LastRelease": "2013-06-14",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-02-23",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "おー Kindle 版があるのか。学生の頃は友人宅で貪り読んでました（笑）"
   }
 ]

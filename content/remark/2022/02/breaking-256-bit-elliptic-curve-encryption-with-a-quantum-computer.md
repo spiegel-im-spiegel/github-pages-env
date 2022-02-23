@@ -30,7 +30,7 @@ Bruce Schneier 先生のブログ記事より。
 とあるので，そういうことなのだろう。
 ちなみに2021年末の時点で [IBM が開発した量子コンピュータ](https://www.newscientist.com/article/2297583-ibm-creates-largest-ever-superconducting-quantum-computer/ "IBM creates largest ever superconducting quantum computer | New Scientist")のサイズが127物理キュービットで最大らしいので，まぁ当分は大丈夫というところなのだろう。
 
-日本でも既存暗号に対する量子コンピュータ耐性について継続的に調査と評価が行われていて，毎年の [CRYPTREC] Report に載っている。
+日本でも既存暗号の量子コンピュータ耐性について継続的に調査と評価が行われていて，毎年の [CRYPTREC] Report に載っている。
 
 2020年2月に公開された「[現在の量子コンピュータによる暗号技術の安全性への影響](https://www.cryptrec.go.jp/topics/cryptrec-er-0001-2019.html)」では
 
