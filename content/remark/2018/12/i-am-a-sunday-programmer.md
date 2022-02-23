@@ -3,18 +3,7 @@ title = "どうも，日曜プログラマの Spiegel です"
 date = "2018-12-24T19:06:01+09:00"
 description = "というわけで来年からは「日曜プログラマ」として，相変わらず慎ましく暮らしていきたいと考える所存です。 "
 image = "/remark/2018/12/i-am-a-sunday-programmer/bookshelf.jpg"
-tags = [ "site", "profile", "book", "nuclear" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
+tags = [ "site", "profile", "book", "nuclear", "moving" ]
 
 [scripts]
   mathjax = false

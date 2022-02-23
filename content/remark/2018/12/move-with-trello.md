@@ -3,7 +3,7 @@ title = "Trello で引っ越し"
 date = "2018-12-24T19:06:08+09:00"
 description = "必要なタスクが多く私の貧弱な脳みそでは管理しきれなくなったため Trello を試すことにした。"
 image = "/images/attention/kitten.jpg"
-tags = [ "management", "tools", "trello" ]
+tags = [ "management", "tools", "trello", "moving" ]
 
 [scripts]
   mathjax = false
