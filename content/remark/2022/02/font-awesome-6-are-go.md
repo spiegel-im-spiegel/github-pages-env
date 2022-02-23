@@ -1,11 +1,10 @@
 +++
 title = "Font Awesome 6 を導入した"
-date =  "2022-02-23T13:41:56+09:00"
+date =  "2022-02-23T14:44:22+09:00"
 description = "Go 言語のアイコンもあった。"
 image = "/images/attention/kitten.jpg"
 tags = [ "site", "font", "golang" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
