@@ -11,7 +11,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-先日 [Font Awesome] 6 が登場した。
+先日 [Font Awesome] 6 がリリースされた。
 
 - [Font Awesome 6 Is Live! See the New Icons, Styles and Upgrade Without the Hassle](https://blog.fontawesome.com/font-awesome-6-2/)
 
