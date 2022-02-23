@@ -137,30 +137,35 @@ classDiagram
 
 ### 各種サービス
 
-| コードと表示 |
-| ------------ |
+| コードと表示                                                                                                                            |
+| --------------------------------------------------------------------------------------------------------------------------------------- |
 | `{{</* icons "github" "twitter" "twitter-sq" "medium" "tumblr" "instagram" "flickr" "facebook" "facebook-sq" "linkedin" "pocket" */>}}` |
-| {{< icons "github" "twitter" "twitter-sq" "medium" "tumblr" "instagram" "flickr" "facebook" "facebook-sq" "linkedin" "pocket" >}} |
+| {{< icons "github" "twitter" "twitter-sq" "medium" "tumblr" "instagram" "flickr" "facebook" "facebook-sq" "linkedin" "pocket" >}}       |
 
 ### 汎用
 
-| コードと表示                                                                                                                  |
-| ----------------------------------------------------------------------------------------------------------------------------- |
-| `{{</* icons "check" "rss" "share" "email" "pdf" "css3" "erlang" "html5" "java" "nodejs" "php" "python" "rust" "swift" */>}}` |
-| {{< icons "check" "rss" "share" "email" "pdf" "css3" "erlang" "html5" "java" "nodejs" "php" "python" "rust" "swift" >}}       |
+| コードと表示                                                                                                                     |
+| -------------------------------------------------------------------------------------------------------------------------------- |
+| `{{</* icons "check" "rss" "share" "email" "pdf" "css3" "erlang" "html5" "java" "nodejs" "php" "python" "rust" "swift" */>}}`    |
+| {{< icons "check" "rss" "share" "email" "pdf" "css3" "erlang" "golang" "html5" "java" "nodejs" "php" "python" "rust" "swift" >}} |
 
 
-### 拡大
+### 拡大・色付け
 
 |                                  コードと表示                                  |
-|:------------------------------------------------------------------------------:|
+| :----------------------------------------------------------------------------: |
 | `{{</* span class="fa-4x" */>}}{{</* cc-syms "cc" "by" */>}}{{</* /span */>}}` |
 |        {{< span class="fa-4x" >}}{{< cc-syms "cc" "by" >}}{{< /span >}}        |
+
+|                                       コードと表示                                        |
+| :---------------------------------------------------------------------------------------: |
+| `{{</* span class="fa-4x  golang-color" */>}}{{</* icons "golang" */>}}{{</* /span */>}}` |
+|        {{< span class="fa-4x golang-color" >}}{{< icons "golang" >}}{{< /span >}}         |
 
 ### 絵文字
 
 |            字形            | Short Code                       |
-|:--------------------------:| -------------------------------- |
+| :------------------------: | -------------------------------- |
 |   {{< emoji "ゴメン" >}}   | `{{</* emoji "ゴメン" */>}}`     |
 |   {{< emoji "ふむむ" >}}   | `{{</* emoji "ふむむ" */>}}`     |
 |  {{< emoji "おやすみ" >}}  | `{{</* emoji "おやすみ" */>}}`   |
@@ -174,12 +179,12 @@ classDiagram
 |  {{< emoji "はなまる" >}}  | `{{</* emoji "はなまる" */>}}`   |
 |  {{< emoji "錠前と鍵" >}}  | `{{</* emoji "錠前と鍵" */>}}`   |
 
-| サイズ | コード |
-|:------:| ------ |
-| {{< span class="mini" >}}{{< emoji "電球" >}}{{< /span >}} | `{{</* span class="mini" */>}}{{</* emoji "電球" */>}}{{</* /span */>}}` |
+|                            サイズ                             | コード                                                                      |
+| :-----------------------------------------------------------: | --------------------------------------------------------------------------- |
+|  {{< span class="mini" >}}{{< emoji "電球" >}}{{< /span >}}   | `{{</* span class="mini" */>}}{{</* emoji "電球" */>}}{{</* /span */>}}`    |
 | {{< span class="smaller" >}}{{< emoji "電球" >}}{{< /span >}} | `{{</* span class="smaller" */>}}{{</* emoji "電球" */>}}{{</* /span */>}}` |
-| {{< emoji "電球" >}} | `{{</* emoji "電球" */>}}` |
-| {{< span class="larger" >}}{{< emoji "電球" >}}{{< /span >}} | `{{</* span class="larger" */>}}{{</* emoji "電球" */>}}{{</* /span */>}}` |
-| {{< span class="huge" >}}{{< emoji "電球" >}}{{< /span >}} | `{{</* span class="huge" */>}}{{</* emoji "電球" */>}}{{</* /span */>}}` |
+|                     {{< emoji "電球" >}}                      | `{{</* emoji "電球" */>}}`                                                  |
+| {{< span class="larger" >}}{{< emoji "電球" >}}{{< /span >}}  | `{{</* span class="larger" */>}}{{</* emoji "電球" */>}}{{</* /span */>}}`  |
+|  {{< span class="huge" >}}{{< emoji "電球" >}}{{< /span >}}   | `{{</* span class="huge" */>}}{{</* emoji "電球" */>}}{{</* /span */>}}`    |
 
 <!-- end of file -->
