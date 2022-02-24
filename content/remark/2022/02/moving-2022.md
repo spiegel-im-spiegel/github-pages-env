@@ -278,3 +278,20 @@ QCD の変動を抑え切れませんでした `orz`
 ## ブックマーク
 
 - [引っ越ししたら個人番号カードを更新しましょう]({{< ref "/remark/2020/05/my-number-card.md" >}})
+
+## 参考
+
+{{% review-paapi "B09BPJVDS9" %}} <!-- きんいろローダンセ -->
+{{% review-paapi "B07MCWHK99" %}} <!-- 電子レンジ -->
+{{% review-paapi "B08Y61DC95" %}} <!-- レンジ台 -->
+{{% review-paapi "B096ZBTTP7" %}} <!-- コードレス 掃除機 -->
+{{% review-paapi "B077D474LH" %}} <!-- シュレッダー -->
+{{% review-paapi "B00GUC8MTS" %}} <!-- 折りたたみベッド（シングル，高反発） -->
+{{% review-paapi "B08LN1DHZR" %}} <!-- 低反発枕 -->
+{{% review-paapi "B087MJ96ZS" %}} <!-- ダイニングテーブル＆椅子 -->
+{{% review-paapi "B08D3PYWNN" %}} <!-- ワードローブ -->
+{{% review-paapi "B09JS64HYC" %}} <!-- キッチンワゴン (スリム)  -->
+{{% review-paapi "B08CXX8N31" %}} <!-- ゴミ箱 (3連)  -->
+{{% review-paapi "B09JCJVBHW" %}} <!-- キーケース -->
+{{% review-paapi "B00T715QBG" %}} <!-- カラビナ付キーリール -->
+{{% review-paapi "B01DVGE8AM" %}} <!-- アンテナケーブル -->

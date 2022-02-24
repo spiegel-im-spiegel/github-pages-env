@@ -17616,5 +17616,572 @@
       false
     ],
     "Description": "おー Kindle 版があるのか。学生の頃は友人宅で貪り読んでました（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00GUC8MTS",
+      "Title": "アイリスオーヤマ ベッド 折りたたみベッド シングル 収納 高反発 14段階リクライニング ブラック OTB-KR",
+      "URL": "https://www.amazon.co.jp/dp/B00GUC8MTS?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31EYYHlQj2L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "ホーム\u0026キッチン",
+      "Publisher": "アイリスオーヤマ(IRIS OHYAMA)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00GUC8MTS"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4905009366200"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-02-05",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "購入は近所のホームセンターで（ちょっとだけ安かったのだ）。寝相のいい私はシングルサイズで十分。高反発タイプは正解だった。ほぼ組み上がっている状態で来たのでセットアップも楽ちんでした。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08LN1DHZR",
+      "Title": "MyComfort 枕 低反発 3層ハイグレードモデル 高さ調節可能 ジャストフィット 低反発枕 (1, 低反発素材)",
+      "URL": "https://www.amazon.co.jp/dp/B08LN1DHZR?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41hsdD0P0ZL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "MyComfort(マイコンフォート)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08LN1DHZR"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4580618670148"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-02-13",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "引っ越しのドサクサで買い替えた。枕は人によって好みが分かれるが，この値段でよい寝心地。こちらは低反発で正解でした。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B096ZBTTP7",
+      "Title": "エレクトロラックス コードレス 掃除機 エルゴラピード・リチウム スタンダートモデル サイクロン ハイパワー 軽量 アイロングレー ZB3502IGA",
+      "URL": "https://www.amazon.co.jp/dp/B096ZBTTP7?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/21F6BJbPG4S._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "ホーム\u0026キッチン",
+      "Publisher": "エレクトロラックス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B096ZBTTP7"
+        },
+        {
+          "Name": "EAN",
+          "Value": "7332543819294"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2021-06-11",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-02-05",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "連続稼働時間が30分ほどしかないので，部屋数が多い家は無理かも。スティックを捻るとヘッドも追随して回るので取り回しは楽。自立型で壁とかに立て掛ける必要がない。一人暮らしに丁度いいサイズだな（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B087MJ96ZS",
+      "Title": "【3点セット】アイリスプラザ ダイニング セット スチール (テーブル×1、チェア×2) STDSET-3 ヴィンテージデザイン オーク テーブル:幅70×奥行70×高さ75㎝ チェアサイズ(cm):幅約45×奥行約50×高さ約80",
+      "URL": "https://www.amazon.co.jp/dp/B087MJ96ZS?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41fKWkOI0fL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "ホーム\u0026キッチン",
+      "Publisher": "アイリスプラザ(IRIS PLAZA)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B087MJ96ZS"
+        },
+        {
+          "Name": "EAN",
+          "Value": "2000071597445"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2020-05-26",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-02-05",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "値段につられて購入。椅子が2脚付いているがテーブルのサイズは一人暮らし向けかな。椅子の組み立てでどえら苦労した。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08D3PYWNN",
+      "Title": "YOUUD ワードローブ カバー付き 組み立て簡単 おしゃれ クローゼット 幅125×奥行44×高さ165cm 防水 防塵 防汚 グレーカバー",
+      "URL": "https://www.amazon.co.jp/dp/B08D3PYWNN?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/511uSo5plmL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "ホーム\u0026キッチン",
+      "Publisher": "YOUUD",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08D3PYWNN"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-02-05",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "じつはサイズの計算を間違えて幅を3分の2に切り詰めて使っている。布カバーは外した。骨組みがしっかりしてるのは良かった。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09JCJVBHW",
+      "Title": "BLUE SINCERE イタリア革職人監修 mini キーケース メンズ 本革 イタリアンレザー 鍵3本＋スマートキー対応 コンパクト スリム スマート ミニ 小さいサイズ / IKC2 (ロイヤルブラック)",
+      "URL": "https://www.amazon.co.jp/dp/B09JCJVBHW?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/419fpYAgOTL._SL160_.jpg",
+        "Height": 160,
+        "Width": 122
+      },
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09JCJVBHW"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4589897529048"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-01-27",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "鍵を持ち歩く身分になったので購入。最初は使い勝手が微妙かなと思ったが，慣れたらそうでもなかった。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00T715QBG",
+      "Title": "KEY-BAK #0KB2 サイドキック　カラビナ付キーリール　60cmケプラーコード",
+      "URL": "https://www.amazon.co.jp/dp/B00T715QBG?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41UsY3+J2jL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "キーバック(KEY BAK)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00T715QBG"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0088056904626"
+        },
+        {
+          "Name": "UPC",
+          "Value": "088056904626"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-02-02",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "キーケースとセットで使っている。見た目ほどチャチではない。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09JS64HYC",
+      "Title": "[山善] キッチンワゴン (スリム) キャスター付き 3段 幅43.5×奥行26×高さ74.5cm ワゴン 組立かんたん マットホワイト LBW-3(MWH)",
+      "URL": "https://www.amazon.co.jp/dp/B09JS64HYC?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41bpDwIKofL._SL160_.jpg",
+        "Height": 160,
+        "Width": 106
+      },
+      "ProductType": "ホーム\u0026キッチン",
+      "Publisher": "山善(YAMAZEN)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09JS64HYC"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4983771122552"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2021-10-20",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-02-19",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "家具と家具の隙間に入るキッチンワゴンが欲しいという同居人の要請で購入。これは当たり。組み立てが簡単なのに丈夫で使い勝手がよい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08CXX8N31",
+      "Title": "アスベル ゴミ箱 フタ付 密閉プッシュ式 資源ゴミ横型3分別ワゴン グレー 61×35×54cm A6709",
+      "URL": "https://www.amazon.co.jp/dp/B08CXX8N31?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41emAVP0prL._SL160_.jpg",
+        "Height": 151,
+        "Width": 160
+      },
+      "ProductType": "ホーム\u0026キッチン",
+      "Publisher": "アスベル",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08CXX8N31"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4974908670954"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-02-19",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "同居人の要請で購入。各20Lしか入らないので，まぁ一人暮らし用かな。組み立ては簡単。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B077D474LH",
+      "Title": "オーム電機 マルチシュレッダー SHR-X681C ホワイト OHM",
+      "URL": "https://www.amazon.co.jp/dp/B077D474LH?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31O3jKVLvXL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "オフィス用品",
+      "Publisher": "オーム(OHM)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B077D474LH"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4971275051669"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2021-07-06",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-02-05",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "家電量販店で衝動買い。値段の割に安物感はなく，音が静かなのが素敵。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07MCWHK99",
+      "Title": "アイリスオーヤマ 電子レンジ 18L 単機能レンジ 700W フラットテーブル 60Hz/西日本 ホワイト IMB-F184WPG-6",
+      "URL": "https://www.amazon.co.jp/dp/B07MCWHK99?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41X934tnVVL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "ホーム\u0026キッチン",
+      "Publisher": "アイリスオーヤマ(IRIS OHYAMA)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07MCWHK99"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4967576414050"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-02-05",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "フラットテーブル・タイプが欲しかったので。ホームセンターで買ったのだが，後で調べたらネットのほうが安かった。レンジなんか単機能で十分だよ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08Y61DC95",
+      "Title": "ぼん家具 レンジ台 キッチンワゴン 4段 幅55×奥47×高115cm 大型レンジ対応 キャスター ホワイト",
+      "URL": "https://www.amazon.co.jp/dp/B08Y61DC95?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/319vWMtcvGL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "ぼん家具",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08Y61DC95"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-02-05",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "組み立てが微妙に大変だった。使い勝手はよい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01DVGE8AM",
+      "Title": "ホーリック アンテナケーブル S-4C-FB同軸 5m 【4K8K放送(3224MHz)/BS/CS/地デジ/CATV 対応】 ブラック L字差込式/ネジ式コネクタ HAT50-044LSBK",
+      "URL": "https://www.amazon.co.jp/dp/B01DVGE8AM?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/315YXGvlMmL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "ホーリック(HORIC)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01DVGE8AM"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4533115040440"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2020-03-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-02-20",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "同居人はテレビっ子なのだが，いままで室内アンテナを使ってたので，壁のアンテナ・コンセントに挿せるケーブルを購入。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09BPJVDS9",
+      "Title": "きんいろローダンセ",
+      "URL": "https://www.amazon.co.jp/dp/B09BPJVDS9?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51j2ATHHdTL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "Rhodanthe*",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "FlyingDog",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09BPJVDS9"
+        }
+      ],
+      "PublicationDate": "2021-08-18",
+      "LastRelease": "2021-08-18",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-02-03",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "引っ越し期間中のヘヴィローテーション。「きんモザ」はいい！"
   }
 ]

@@ -1,6 +1,20 @@
 #!/bin/sh
-sleep 1;cat B00D81Y33I.html | books-data review -t review-book.html -a B00D81Y33I -r 4 --review-date 2022-02-23 --pipe
+sleep 1;cat B01DVGE8AM.html | books-data review -t review-book.html -a B01DVGE8AM -r 4 --review-date 2022-02-20 --pipe
+sleep 1;cat B09BPJVDS9.html | books-data review -t review-book.html -a B09BPJVDS9 -r 4 --review-date 2022-02-03 --pipe
+sleep 1;cat B09JS64HYC.html | books-data review -t review-book.html -a B09JS64HYC -r 4 --review-date 2022-02-19 --pipe
+sleep 1;cat B08CXX8N31.html | books-data review -t review-book.html -a B08CXX8N31 -r 4 --review-date 2022-02-19 --pipe
+sleep 1;cat B08LN1DHZR.html | books-data review -t review-book.html -a B08LN1DHZR -r 4 --review-date 2022-02-13 --pipe
+sleep 1;cat B077D474LH.html | books-data review -t review-book.html -a B077D474LH -r 4 --review-date 2022-02-05 --pipe
+sleep 1;cat B07MCWHK99.html | books-data review -t review-book.html -a B07MCWHK99 -r 4 --review-date 2022-02-05 --pipe
+sleep 1;cat B08Y61DC95.html | books-data review -t review-book.html -a B08Y61DC95 -r 4 --review-date 2022-02-05 --pipe
+sleep 1;cat B00GUC8MTS.html | books-data review -t review-book.html -a B00GUC8MTS -r 4 --review-date 2022-02-05 --pipe
+sleep 1;cat B096ZBTTP7.html | books-data review -t review-book.html -a B096ZBTTP7 -r 4 --review-date 2022-02-05 --pipe
+sleep 1;cat B087MJ96ZS.html | books-data review -t review-book.html -a B087MJ96ZS -r 3 --review-date 2022-02-05 --pipe
+sleep 1;cat B08D3PYWNN.html | books-data review -t review-book.html -a B08D3PYWNN -r 3 --review-date 2022-02-05 --pipe
+sleep 1;cat B00T715QBG.html | books-data review -t review-book.html -a B00T715QBG -r 4 --review-date 2022-02-02 --pipe
+sleep 1;cat B09JCJVBHW.html | books-data review -t review-book.html -a B09JCJVBHW -r 4 --review-date 2022-01-27 --pipe
 # ---
+# sleep 1;cat ./done/B00D81Y33I.html | books-data review -t review-book.html -a B00D81Y33I -r 4 --review-date 2022-02-23 --pipe
 # sleep 1;cat ./done/441662140X.html | books-data review -t review-book.html -a 441662140X -r 5 --review-date 2021-11-22 --pipe
 # sleep 1;cat ./done/B07K356C43.html | books-data review -t review-book.html -a B07K356C43 -r 4 --review-date 2022-01-22 --pipe
 # sleep 1;cat ./done/B01ESA9R5Q.html | books-data review -t review-book.html -a B01ESA9R5Q -r 0 --review-date 2022-01-22 --pipe
