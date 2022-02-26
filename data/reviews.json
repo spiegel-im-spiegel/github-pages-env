@@ -18183,5 +18183,76 @@
       false
     ],
     "Description": "引っ越し期間中のヘヴィローテーション。「きんモザ」はいい！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01N66JQDT",
+      "Title": "シャーロック・ホームズ全集　全９巻合本版",
+      "URL": "https://www.amazon.co.jp/dp/B01N66JQDT?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51+tIJKcE-L._SL160_.jpg",
+        "Height": 160,
+        "Width": 108
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "アーサー・コナン・ドイル",
+          "Role": "著"
+        },
+        {
+          "Name": "小林司",
+          "Role": "翻訳"
+        },
+        {
+          "Name": "東山あかね",
+          "Role": "翻訳"
+        },
+        {
+          "Name": "Ｏ・Ｄ・エドワーズ",
+          "Role": "その他"
+        },
+        {
+          "Name": "Ｃ・ローデン",
+          "Role": "その他"
+        },
+        {
+          "Name": "Ｒ・Ｌ・グリーン",
+          "Role": "その他"
+        },
+        {
+          "Name": "Ｗ・Ｗ・ロブスン",
+          "Role": "その他"
+        },
+        {
+          "Name": "高田寛",
+          "Role": "その他"
+        }
+      ],
+      "Publisher": "河出書房新社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01N66JQDT"
+        }
+      ],
+      "PublicationDate": "2016-11-25",
+      "LastRelease": "2016-11-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-02-20",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "オックスフォード注釈付きのアレである。広島から撤退した際に紙の本は泣く泣く処分したが Kindle 版で合本版が出てたのか。ついカッとなってポチった。反省はしない。"
   }
 ]
