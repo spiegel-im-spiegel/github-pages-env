@@ -18254,5 +18254,49 @@
       false
     ],
     "Description": "オックスフォード注釈付きのアレである。広島から撤退した際に紙の本は泣く泣く処分したが Kindle 版で合本版が出てたのか。ついカッとなってポチった。反省はしない。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08DRD2W8R",
+      "Title": "Bluetoothアダプタ 5.0 【TELEC認証済（認証番号：217-204183）】 Bluetoothアダプター Bluetooth USBアダプタ 【低遅延 無線 小型 ドングル 最大通信距離20m Ver5.0 apt-X対応 EDR/LE対応(省電力)】Windows 7/8/8.1/10(32/64bit) 対応 Mac非対応 (Bluetooth 5.0)",
+      "URL": "https://www.amazon.co.jp/dp/B08DRD2W8R?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41sAyEcY2sL._SL160_.jpg",
+        "Height": 160,
+        "Width": 158
+      },
+      "Publisher": "ZAPOOS",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08DRD2W8R"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0782937194488"
+        },
+        {
+          "Name": "UPC",
+          "Value": "782937194488"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-08-09",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "Bluetooth 5.0 対応無線ヘッドセットの接続用に買ったのだが Ubuntu だとカーネルのビルドが必要と聞いて諦めた（Bluetooth 4 として使うなら問題ない）。その後 Windows 環境で使っている。付属のドライバをインストールする必要あり。"
   }
 ]
