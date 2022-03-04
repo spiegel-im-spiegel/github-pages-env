@@ -27,7 +27,19 @@ pageType = "text"
 {{% quote %}}Some `big.Int` values that are not valid field elements (negative or overflowing) might cause `Curve.IsOnCurve` to incorrectly return true. Operating on those values may cause a panic or an invalid curve operation. Note that `Unmarshal` will never return such values{{% /quote %}}.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H`
+- 深刻度: 緊急 (Score: 9.1)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | 高 |
+| 可用性への影響 | 高 |
 
 ## [CVE-2022-23772]: math/big: prevent large memory consumption in Rat.SetString
 
@@ -35,7 +47,19 @@ pageType = "text"
 {{% quote %}}An attacker can cause unbounded memory growth in a program using `(*Rat).SetString` due to an unhandled overflow{{% /quote %}}.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H`
+- 深刻度: 重要 (Score: 7.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | なし |
+| 可用性への影響 | 高 |
 
 ## [CVE-2022-23773]: cmd/go: prevent branches from materializing into versions
 
@@ -43,7 +67,19 @@ pageType = "text"
 {{% quote %}}A branch whose name resembles a version tag (such as "`v1.0.0`" or "`subdir/v2.0.0-dev`") can be considered a valid version by the go command. Materializing versions from branches might be unexpected and bypass ACLs that limit the creation of tags but not branches{{% /quote %}}.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N`
+- 深刻度: 重要 (Score: 7.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | 高 |
+| 可用性への影響 | なし |
 
 ## 例によって...
 
