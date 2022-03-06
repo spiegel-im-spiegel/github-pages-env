@@ -14,7 +14,7 @@
 - [Release v0.6.3 · nyaosorg/go-readline-ny · GitHub](https://github.com/nyaosorg/go-readline-ny/releases/tag/v0.6.3)
 - [GitHub - GavinClarke0/lockless-generic-ring-buffer: Single producer and multi-reader lockless ring buffer in go using generics from the go 1.18beta release. It is significantly faster than channels with the added type safety of generics compared to ring buffers using interfaces.](https://github.com/GavinClarke0/lockless-generic-ring-buffer)
 
-https://www.theregister.com/2022/02/22/apple_airtags_protections_bypass/
+- [Release v0.93.0 · gohugoio/hugo · GitHub](https://github.com/gohugoio/hugo/releases/tag/v0.93.0)
 
 
 ## リリース情報 {#release}
