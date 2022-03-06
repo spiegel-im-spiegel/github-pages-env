@@ -5,22 +5,7 @@ update = "2018-03-06T11:00:35+09:00"
 description = "久しぶりに本ブログをいじくって mermaid でシーケンス図を描けるようにしてみる。"
 tags        = [ "tools", "mermaid", "uml", "hugo", "shortcodes", "web", "site" ]
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
-
 [scripts]
-  highlightjs = true
   mathjax = false
   mermaidjs = true
 +++
@@ -139,7 +124,14 @@ sequenceDiagram
 
 ### Hugo 用の shortcode
 
-[Hugo] 用に [shortcode を作ってみた](https://github.com/spiegel-im-spiegel/github-pages-env/blob/master/layouts/shortcodes/fig-mermaid.html)。
+{{< div-box type="markdown" >}}
+**【2022-03-06 追記】** Hugo 0.93 からコード・ブロックで mermaid 記法が使えるようになった。
+使い方は以下の記事の後半部分を参考にどうぞ。
+
+- [Hugo で Markdeep な記述ができるようになった]({{< ref "/remark/2022/03/markdeep-with-hugo.md" >}})
+{{< /div-box >}}
+
+[Hugo] 用に shortcode を作ってみた。
 
 ```html
 <figure style='margin:0 auto;text-align:center;'>
