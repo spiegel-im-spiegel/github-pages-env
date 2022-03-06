@@ -1,11 +1,10 @@
 +++
 title = "リモート会議用 Web カメラを買い替えた"
-date =  "2022-03-06T15:34:12+09:00"
+date =  "2022-03-06T18:06:07+09:00"
 description = "マイクなんて飾りですよ。エラい人には分からんのです"
 image = "/images/attention/kitten.jpg"
 tags = [ "tools", "communication" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
