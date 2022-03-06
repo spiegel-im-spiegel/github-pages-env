@@ -148,7 +148,7 @@ sequenceDiagram
 
 [Mermaid] 記法は自作の shortcode で対応していたが，コード・ブロックで書けるなら今後はそっちにするかな。
 
-#3 ブックマーク
+## ブックマーク
 
 - [Release v0.93.1 · gohugoio/hugo · GitHub](https://github.com/gohugoio/hugo/releases/tag/v0.93.1)
 - [Release v0.93.2 · gohugoio/hugo · GitHub](https://github.com/gohugoio/hugo/releases/tag/v0.93.2)
