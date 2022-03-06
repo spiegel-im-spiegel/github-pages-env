@@ -18298,5 +18298,89 @@
       false
     ],
     "Description": "Bluetooth 5.0 対応無線ヘッドセットの接続用に買ったのだが Ubuntu だとカーネルのビルドが必要と聞いて諦めた（Bluetooth 4 として使うなら問題ない）。その後 Windows 環境で使っている。付属のドライバをインストールする必要あり。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08TC3NR9L",
+      "Title": "サンワダイレクト WEBカメラ マイクなし 画角60度 フルHD 1080P 200万画素 三脚対応 Zoom/Teams対応 ケーブル3m 400-CAM086",
+      "URL": "https://www.amazon.co.jp/dp/B08TC3NR9L?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/418zbktvz3L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "サンワダイレクト",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08TC3NR9L"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4969887781586"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-02-05",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "マイクなんて飾りですよ。エラい人には分からんのです（笑） リモート会議で使うのなら必要十分な性能。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09NRQNJ6R",
+      "Title": "Daylight",
+      "URL": "https://www.amazon.co.jp/dp/B09NRQNJ6R?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41+e9hhM8kL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "MindaRyn",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Lantis",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09NRQNJ6R"
+        }
+      ],
+      "PublicationDate": "2022-02-23",
+      "LastRelease": "2022-02-23",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-02-05",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ「\u003ca href=\"https://arifureta.com/\"\u003eありふれた職業で世界最強\u003c/a\u003e」第2期のOP曲。最近のヘヴィローテーション。"
   }
 ]
