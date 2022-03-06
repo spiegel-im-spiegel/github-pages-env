@@ -83,7 +83,7 @@ pageType = "text"
 と SVG 画像に変換してくれる。
 ページのスタイルに合わせてくれるのも嬉しい。
 
-ちなみに [Hugo] のレンダー・フックを使って [Mermaid] にも対応できる。
+また [Hugo] のレンダー・フックを使って [Mermaid] にも対応できる。
 
 まず，各 Web ページの `<body>` 要素内にあらかじめ
 
@@ -157,4 +157,3 @@ sequenceDiagram
 [GoAT]: https://github.com/bep/goat "bep/goat: Render ASCII art as SVG diagrams"
 [Markdeep]: http://casual-effects.com/markdeep/
 [Mermaid]: https://mermaid-js.github.io/mermaid/ "mermaid - Markdownish syntax for generating flowcharts, sequence diagrams, class diagrams, gantt charts and git graphs."
-<!-- eof -->
