@@ -14,7 +14,10 @@
 - [Release v0.6.3 · nyaosorg/go-readline-ny · GitHub](https://github.com/nyaosorg/go-readline-ny/releases/tag/v0.6.3)
 - [GitHub - GavinClarke0/lockless-generic-ring-buffer: Single producer and multi-reader lockless ring buffer in go using generics from the go 1.18beta release. It is significantly faster than channels with the added type safety of generics compared to ring buffers using interfaces.](https://github.com/GavinClarke0/lockless-generic-ring-buffer)
 
-- [Release v0.93.0 · gohugoio/hugo · GitHub](https://github.com/gohugoio/hugo/releases/tag/v0.93.0)
+- [Scripting with Go — Bitfield Consulting](https://bitfieldconsulting.com/golang/scripting) : あとで遊ぶ
+- [Release v1.4.0 · spf13/cobra · GitHub](https://github.com/spf13/cobra/releases/tag/v1.4.0)
+
+- [スティーブン・ウォルト『同盟の起源』邦訳刊行記念ウェビナー | Peatix](http://origins-of-alliances20220412.peatix.com) : 4/12 (火)，３月と勘違いしてた orz
 
 
 ## リリース情報 {#release}

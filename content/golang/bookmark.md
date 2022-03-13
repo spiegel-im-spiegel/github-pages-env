@@ -167,6 +167,8 @@ image = "/images/attention/go-logo_blue.png"
 - [What Is the Go Workspace Mode - Speaker Deck](https://speakerdeck.com/110y/what-is-the-go-workspace-mode)
 - [[shared] 20220218 Go 1.18 Fuzzing - Google スライド](https://docs.google.com/presentation/d/e/2PACX-1vQ2PX-s-As01o_fvGi9qdx9ZCpQS6RePDWw6rkznN-lI3z8bc4JJ601HLzb1fujo4uf0wSK0Wzl_oc1/pub?resourcekey=0-R72bI85HvGnbMfYmAP_77g#slide=id.g405a9dc47b_0_0)
 - [Go 1.18で追加されるstrings/bytes.Cutとsync.Mutex.TryLockについて - Google スライド](https://docs.google.com/presentation/d/1iaEMhXHQa5chIK7Zqqcv6sugXoOEYDQnvldlZlxhJjw/edit#slide=id.p)
+- [Go言語のジェネリクス入門(1)](https://zenn.dev/nobishii/articles/type_param_intro)
+  - [Go言語のジェネリクス入門(2) インスタンス化と型推論](https://zenn.dev/nobishii/articles/type_param_intro_2)
 
 ### Go 2 Draft
 
