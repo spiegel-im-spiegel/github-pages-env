@@ -219,7 +219,7 @@ Tailscale tailscale.tailscale 1.18.0     winget
 
 - [アプリのインストールや更新をコマンドでサクっと実行「winget」の使い方：Windows 10 The Latest - ＠IT](https://atmarkit.itmedia.co.jp/ait/articles/2106/11/news021.html)
 - [wingetを使おう 前編：wingetのインストールと基本操作 | AsTechLog](https://astherier.com/blog/2021/09/winget-usage-1/)
-- - [マイクロソフト、WebIDEの「Visual Studio Codespaecs」を「GitHub Codespaces」に統合へ － Publickey](https://www.publickey1.jp/blog/20/webidevisual_studio_codespaecsgithub_codespaces.html)
+- [マイクロソフト、WebIDEの「Visual Studio Codespaecs」を「GitHub Codespaces」に統合へ － Publickey](https://www.publickey1.jp/blog/20/webidevisual_studio_codespaecsgithub_codespaces.html)
 - [「GitHub Codespaces」が法人向けに提供開始 ～［.］キーでリポジトリを「Visual Studio Code」開くショートカットも - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1344025.html)
 - [Github CodeSpace 触ってみた - Qiita](https://qiita.com/Alt225/items/5d904fafc779e6505768)
 - [Webブラウザーで「Visual Studio Code」が完全動作 ～「vscode.dev」にアクセスするだけ - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1360147.html)
