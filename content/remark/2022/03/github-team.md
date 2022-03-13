@@ -1,5 +1,5 @@
 +++
-title = "独り Github Team を作ってみた"
+title = "独り GitHub Team を作ってみた"
 date =  "2022-03-13T20:31:26+09:00"
 description = "ついカッとなってやった。今はちょっとだけ反省している。"
 image = "/images/attention/kitten.jpg"
