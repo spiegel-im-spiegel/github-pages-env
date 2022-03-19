@@ -11,7 +11,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-予測して然るべきであったが [Go] 1.18 に組み込まれた Generics と既存の lint の間でトラブルが続出しているらしい。
+予測して然るべきであったが [Go] 1.18 に組み込まれた Generics と既存の linter の間でトラブルが続出しているらしい。
 
 私も大変お世話になっている [Go] の代表的な総合 linter である [golangci-lint] は [v1.45](https://github.com/golangci/golangci-lint/releases/tag/v1.45.0 "Release v1.45.0 · golangci/golangci-lint") で暫定的な対応を行ったようだ。
 
@@ -52,7 +52,7 @@ run:
     go: 1.18
 ```
 
-の記述を入れることで [Go] 1.18 に対応していない lint を無効にしてくれるようだ。
+の記述を入れることで [Go] 1.18 に対応していない linter を無効にしてくれるようだ。
 あとは各 lint パッケージが 1.18 に対応してくれることを気長に待つしかないか。
 
 なお Generics の機能を使わないのなら今回の件は気にしなくてよい（笑）
