@@ -170,7 +170,6 @@ image = "/images/attention/go-logo_blue.png"
 - [Go 1.18で追加されるstrings/bytes.Cutとsync.Mutex.TryLockについて - Google スライド](https://docs.google.com/presentation/d/1iaEMhXHQa5chIK7Zqqcv6sugXoOEYDQnvldlZlxhJjw/edit#slide=id.p)
 - [Go言語のジェネリクス入門(1)](https://zenn.dev/nobishii/articles/type_param_intro)
   - [Go言語のジェネリクス入門(2) インスタンス化と型推論](https://zenn.dev/nobishii/articles/type_param_intro_2)
-
 - [strings.Cut と strings.SplitN はどっちが速いか](https://zenn.dev/mattn/articles/01f258a5127ef8)
 - [Big Sky :: text/template と html/template に continue/break が入った。](https://mattn.kaoriya.net/software/lang/go/20210924011409.htm)
 - [Go言語がGenericsを導入、過去最大の変更となる「Go 1.18」正式版リリース － Publickey](https://www.publickey1.jp/blog/22/gogenericsgo_118.html)
