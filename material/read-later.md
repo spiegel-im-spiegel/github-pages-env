@@ -23,9 +23,6 @@
 - [SP 800-219 (Draft), Automated Secure Configuration Guidance from the mSCP | CSRC](https://csrc.nist.gov/publications/detail/sp/800-219/draft)
 - [Flickr forever: Creating the safest, most inclusive photography community on the planet. | Flickr Blog](https://blog.flickr.net/en/2022/03/17/flickr-forever-2022/) : 2022-03 規約の変更。プライベートで保持できる写真の枚数を50までに制限
 
-- [Researcher uses 379-year-old algorithm to crack crypto keys found in the wild | Ars Technica](https://arstechnica.com/information-technology/2022/03/researcher-uses-600-year-old-algorithm-to-crack-crypto-keys-found-in-the-wild/)
-  - [Breaking RSA through Insufficiently Random Primes - Schneier on Security](https://www.schneier.com/blog/archives/2022/03/breaking-rsa-through-insufficiently-random-primes.html)
-
 - [An update of golang.org/x/crypto/ssh might be necessary](https://groups.google.com/g/golang-announce/c/-cp44ypCT5s)
 
 ## リリース情報 {#release}
