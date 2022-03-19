@@ -15,15 +15,12 @@
 - [Release v0.6.3 · nyaosorg/go-readline-ny · GitHub](https://github.com/nyaosorg/go-readline-ny/releases/tag/v0.6.3)
 - [GitHub - GavinClarke0/lockless-generic-ring-buffer: Single producer and multi-reader lockless ring buffer in go using generics from the go 1.18beta release. It is significantly faster than channels with the added type safety of generics compared to ring buffers using interfaces.](https://github.com/GavinClarke0/lockless-generic-ring-buffer)
 
-- [Scripting with Go — Bitfield Consulting](https://bitfieldconsulting.com/golang/scripting) : あとで遊ぶ
-
 - [スティーブン・ウォルト『同盟の起源』邦訳刊行記念ウェビナー | Peatix](http://origins-of-alliances20220412.peatix.com) : 4/12 (火)，３月と勘違いしてた orz
 
 - [Support of go1.18 · Issue #2649 · golangci/golangci-lint · GitHub](https://github.com/golangci/golangci-lint/issues/2649#issuecomment-1070528726)
 - [SP 800-219 (Draft), Automated Secure Configuration Guidance from the mSCP | CSRC](https://csrc.nist.gov/publications/detail/sp/800-219/draft)
 - [Flickr forever: Creating the safest, most inclusive photography community on the planet. | Flickr Blog](https://blog.flickr.net/en/2022/03/17/flickr-forever-2022/) : 2022-03 規約の変更。プライベートで保持できる写真の枚数を50までに制限
 
-- [An update of golang.org/x/crypto/ssh might be necessary](https://groups.google.com/g/golang-announce/c/-cp44ypCT5s)
 
 ## リリース情報 {#release}
 
