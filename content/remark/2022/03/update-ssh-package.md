@@ -30,7 +30,7 @@ Version v0.0.0-20220314234659-1baeb1ce4c0b (included in the version above) also 
 
 - The server has been configured by passing a [`Signer`](https://pkg.go.dev/golang.org/x/crypto/ssh#Signer) to [`ServerConfig.AddHostKey`](https://pkg.go.dev/golang.org/x/crypto/ssh#ServerConfig.AddHostKey).
 - The Signer passed to `AddHostKey` does not also implement [`AlgorithmSigner`](https://pkg.go.dev/golang.org/x/crypto/ssh#AlgorithmSigner).
-- The Signer passed to `AddHostKey` does return a key of type “`ssh-rsa`” from its PublicKey method.
+- The Signer passed to `AddHostKey` does return a key of type “`ssh-rsa`” from its `PublicKey` method.
 
 Servers that only use `Signer` implementations provided by the ssh package are unaffected.
 {{< /fig-quote >}}
