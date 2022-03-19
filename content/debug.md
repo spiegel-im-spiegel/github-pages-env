@@ -146,8 +146,8 @@ classDiagram
 
 | コードと表示                                                                                                                     |
 | -------------------------------------------------------------------------------------------------------------------------------- |
-| `{{</* icons "check" "rss" "share" "email" "pdf" "css3" "erlang" "html5" "java" "nodejs" "php" "python" "rust" "swift" */>}}`    |
-| {{< icons "check" "rss" "share" "email" "pdf" "css3" "erlang" "golang" "html5" "java" "nodejs" "php" "python" "rust" "swift" >}} |
+| `{{</* icons "square" "square-check" "check" "rss" "share" "email" "pdf" "css3" "erlang" "html5" "java" "nodejs" "php" "python" "rust" "swift" */>}}`    |
+| {{< icons "square" "square-check" "check" "rss" "share" "email" "pdf" "css3" "erlang" "golang" "html5" "java" "nodejs" "php" "python" "rust" "swift" >}} |
 
 
 ### 拡大・色付け
