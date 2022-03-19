@@ -48,7 +48,7 @@ Böck also found four vulnerable PGP keys, typically used to encrypt email, on S
 Böck said he believes all the keys he found were generated using software or methods not connected to the SafeZone library. If true, other software that generates keys might be easily broken using the Fermat algorithm. It's plausible that the keys were generated manually, "possibly by people aware of this attack creating test data," Böck said.
 {{< /fig-quote >}}
 
-今回の脆弱性を公開した [Hanno Böck](https://hboeck.de/) さんは自身の[記事](https://fermatattack.secvuln.info/ "Fermat Attack on RSA")の中で，破られやすい素数の組み合わせとして
+[Hanno Böck](https://hboeck.de/) さんは自身の[記事](https://fermatattack.secvuln.info/ "Fermat Attack on RSA")の中で，破られやすい素数の組み合わせとして
 
 {{< fig-quote type="markdown" title="Fermat Attack on RSA" link="https://fermatattack.secvuln.info/" lang="en" >}}
 **How "close" do primes need to be in order to be vulnerable?**
