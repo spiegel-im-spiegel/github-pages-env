@@ -67,6 +67,8 @@ GitHub のリポジトリで諸々を公開するようになって後悔（駄�
 
 ## ブックマーク
 
+- [GitHub のアカウントの名前を変更したら起きること - 標準愚痴出力](https://zetamatta.hatenablog.com/entry/2022/02/02/183120)
+  - [続・GitHub のアカウントの名前を変更したら起きること 〈AppVeyor編〉 - 標準愚痴出力](https://zetamatta.hatenablog.com/entry/2022/03/17/192943) : 結局 GitHub のユーザ名を変えて一番面倒くさいのは OAuth 周りなんだな。やっぱ下手に変えないほうがいいか
 - [パッケージ引っ越し大作戦](https://zenn.dev/zetamatta/scraps/e622959b4c34eb)
 - [GitHubセキュリティ Organization運用のベストプラクティス](https://zenn.dev/tmknom/books/github-organization-security)
 - [GitHub開発チームでのCodespacesの利用 - GitHubブログ](https://github.blog/jp/2021-08-30-githubs-engineering-team-moved-codespaces/)
