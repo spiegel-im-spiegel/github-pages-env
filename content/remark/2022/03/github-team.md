@@ -75,6 +75,7 @@ GitHub のリポジトリで諸々を公開するようになって後悔（駄�
 - [GitHub Codespaces Documentation - GitHub Docs](https://docs.github.com/en/codespaces)
 - [Github CodeSpace 触ってみた - Qiita](https://qiita.com/Alt225/items/5d904fafc779e6505768)
 - [GitHub Codespaces をつかって 3分で始めるサービス開発 | Wantedly, Inc.](https://www.wantedly.com/companies/wantedly/post_articles/355862)
+- [Codespaces の支払いについて - GitHub Docs](https://docs.github.com/ja/billing/managing-billing-for-github-codespaces/about-billing-for-codespaces)
 
 - [Go パッケージの移行状況]({{< ref "/release/2022/03/status-of-migrations.md" >}})
 
