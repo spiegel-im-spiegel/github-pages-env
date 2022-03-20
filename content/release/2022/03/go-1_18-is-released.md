@@ -68,6 +68,7 @@ go version go1.18 linux/amd64
 - [Big Sky :: text/template と html/template に continue/break が入った。](https://mattn.kaoriya.net/software/lang/go/20210924011409.htm)
 - [Go言語がGenericsを導入、過去最大の変更となる「Go 1.18」正式版リリース － Publickey](https://www.publickey1.jp/blog/22/gogenericsgo_118.html)
 - [Go 1.18で導入されたnet/netip package](https://zenn.dev/sonatard/articles/92b3ce38e28ee8)
+- [Go1.18からのWorkspace modeをさっそく使ってみた](https://zenn.dev/kimuson13/articles/go-workspace-mode-impressions)
 
 [Go]: https://go.dev/
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
