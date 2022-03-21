@@ -26,15 +26,14 @@ description = "text.Baldanders.info ではサイトの更新情報を提供し�
 URL は以下の通りです。
 
 | セクション名                                                      | 更新情報の URL                                                                                           |
-|:----------------------------------------------------------------- |:-------------------------------------------------------------------------------------------------------- |
+| :---------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
 | [しっぽのさきっちょ]({{< ref path="/remark" >}})                  | [{{< ref path="/remark" outputFormat="rss" >}}]({{< ref path="/remark" outputFormat="rss" >}})           |
-| [ゼロから始める Hugo]({{< ref path="/hugo" >}})                   | [{{< ref path="/hugo" outputFormat="rss" >}}]({{< ref path="/hugo" outputFormat="rss" >}})               |
-| [プログラミング言語 Go]({{< ref path="/golang" >}})               | [{{< ref path="/golang" outputFormat="rss" >}}]({{< ref path="/golang" outputFormat="rss" >}})           |
-| [改訂3版： CC Licenses について]({{< ref path="/cc-licenses" >}}) | [{{< ref path="/cc-licenses" outputFormat="rss" >}}]({{< ref path="/cc-licenses" outputFormat="rss" >}}) |
-| [OpenPGP の実装]({{< ref path="/openpgp" >}})                     | [{{< ref path="/openpgp" outputFormat="rss" >}}]({{< ref path="/openpgp" outputFormat="rss" >}})         |
-| [ブックマーク集]({{< ref path="/bookmarks" >}})                   | [{{< ref path="/bookmarks" outputFormat="rss" >}}]({{< ref path="/bookmarks" outputFormat="rss" >}})     |
 | [リリース情報]({{< ref path="/release" >}})                       | [{{< ref path="/release" outputFormat="rss" >}}]({{< ref path="/release" outputFormat="rss" >}})         |
-| [Rust のキホン]({{< ref path="/rust-lang" >}})                       | [{{< ref path="/rust-lang" outputFormat="rss" >}}]({{< ref path="/rust-lang" outputFormat="rss" >}})         |
+| [プログラミング言語 Go]({{< ref path="/golang" >}})               | [{{< ref path="/golang" outputFormat="rss" >}}]({{< ref path="/golang" outputFormat="rss" >}})           |
+| [OpenPGP の実装]({{< ref path="/openpgp" >}})                     | [{{< ref path="/openpgp" outputFormat="rss" >}}]({{< ref path="/openpgp" outputFormat="rss" >}})         |
+| [改訂3版： CC Licenses について]({{< ref path="/cc-licenses" >}}) | [{{< ref path="/cc-licenses" outputFormat="rss" >}}]({{< ref path="/cc-licenses" outputFormat="rss" >}}) |
+| [Rust のキホン]({{< ref path="/rust-lang" >}})                    | [{{< ref path="/rust-lang" outputFormat="rss" >}}]({{< ref path="/rust-lang" outputFormat="rss" >}})     |
+| [ブックマーク集]({{< ref path="/bookmarks" >}})                   | [{{< ref path="/bookmarks" outputFormat="rss" >}}]({{< ref path="/bookmarks" outputFormat="rss" >}})     |
 
 ## タグごとの更新情報
 
