@@ -62,10 +62,11 @@ OpenJDK 64-Bit Server VM (build 18+36-2087, mixed mode, sharing)
 
 ## ブックマーク
 
+- [Java 18正式リリース。デフォルトのCharsetが「UTF-8」に、シンプルWebサーバ搭載など新機能 － Publickey](https://www.publickey1.jp/blog/22/java_18charsetutf-8web.html)
+- [AWS、Java 18対応の独自Javaディストリビューション「Amazon Corretto 18」正式リリース － Publickey](https://www.publickey1.jp/blog/22/awsjava_18javaamazon_corretto_18.html)
+
 - [Oracle Java SE Support Roadmap](https://www.oracle.com/java/technologies/java-se-support-roadmap.html)
 - [Support | AdoptOpenJDK - Open source, prebuilt OpenJDK binaries](https://adoptopenjdk.net/support.html)
-
-
 
 [OpenJDK]: http://openjdk.java.net/
 [AdoptOpenJDK]: https://adoptopenjdk.net/ "AdoptOpenJDK - Open source, prebuilt OpenJDK binaries"

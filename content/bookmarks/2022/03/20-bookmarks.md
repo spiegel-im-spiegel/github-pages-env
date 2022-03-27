@@ -40,6 +40,7 @@ pageType = "text"
 - [Telegram Harm Reduction for Users in Russia and Ukraine | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2022/03/telegram-harm-reduction-users-russia-and-ukraine)
   - [ウクライナ人・ロシア人がTelegramをできるだけ安全に使う方法（あるいは使うべきでない理由） | P2Pとかその辺のお話R](https://p2ptk.org/freedom-of-speech/3472)
 - [Browser In The Browser (BITB) Attack | mr.d0x](https://mrd0x.com/browser-in-the-browser-phishing-attack/)
+  - [「Googleでログイン」「Facebookでログイン」などのOAuth認証を模倣してパスワードを盗み出す手口が考案される - GIGAZINE](https://gigazine.net/news/20220322-oauth-phishing-site/)
 - [SP 800-219 (Draft), Automated Secure Configuration Guidance from the mSCP | CSRC](https://csrc.nist.gov/publications/detail/sp/800-219/draft)
 - [VPNs: Russia Forces Google to Delete Masses of Links Amid Ukraine Invasion * TorrentFreak](https://torrentfreak.com/vpns-russia-forces-google-to-delete-masses-of-links-amid-ukraine-invasion-220309/)
   - [Google、ロシア当局の要請を受けて検索結果から大量のリンクを削除 | P2Pとかその辺のお話R](https://p2ptk.org/freedom-of-speech/3482)

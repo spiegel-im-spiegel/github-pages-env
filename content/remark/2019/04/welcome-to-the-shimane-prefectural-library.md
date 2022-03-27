@@ -65,6 +65,7 @@ pageType = "text"
 - [ブックオフは公共圏の夢を見るか «  マガジン航[kɔː]](https://magazine-k.jp/category/series/bookoff-as-public-sphere/)
 - [闘う図書館と情報の自由――ライブラリー・フリーダム・プロジェクト «  マガジン航[kɔː]](https://magazine-k.jp/2019/02/26/library-freedom-project/)
 - [なぜ書店にヘイト本があふれるのか。理不尽な仕組みに声をあげた1人の書店主 | BUSINESS INSIDER JAPAN](https://www.businessinsider.jp/post-186111)
+- [シリコンバレー101(916) 閉店もやむなし、Amazonの実店舗書店に私が行かなくなった理由 | TECH+](https://news.mynavi.jp/techplus/article/svalley-916/)
 
 [島根県立図書館]: https://www.library.pref.shimane.lg.jp/
 [県立図書館]: https://www.library.pref.shimane.lg.jp/
