@@ -282,7 +282,7 @@ $ echo F5C774B5B418B6E0B5B7942F93DE82BF2FEF4C8E 0 >> ~/.gnupg/sshcontrol
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 [OpenSSH]: http://www.openssh.com/ "OpenSSH"
 [git]: https://git-scm.com/
-[gpgpdump]: https://github.com/spiegel-im-spiegel/gpgpdump "spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer"
+[gpgpdump]: https://github.com/goark/gpgpdump "goark/gpgpdump: OpenPGP packet visualizer"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 
 ## 参考図書

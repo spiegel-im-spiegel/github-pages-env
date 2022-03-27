@@ -102,7 +102,7 @@ GitHub 上の{{< ruby "contribution" >}}活動{{< /ruby >}}がそのまま「エ
 - [Git Commit で OpenPGP 署名を行う]({{< relref "./git-commit-with-openpgp-signature.md" >}})
 - [わかる！ OpenPGP 暗号 — Baldanders.info](https://baldanders.info/spiegel/cc-license/)
 
-- [spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer](https://github.com/spiegel-im-spiegel/gpgpdump) : OpenPGP 鍵や電子署名のダンプには拙作をどうぞ（宣伝`w`）
+- [goark/gpgpdump: OpenPGP packet visualizer](https://github.com/goark/gpgpdump) : OpenPGP 鍵や電子署名のダンプには拙作をどうぞ（宣伝`w`）
 
 [OpenPGP]: http://openpgp.org/
 [RFC 4880]: https://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
