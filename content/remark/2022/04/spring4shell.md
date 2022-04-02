@@ -23,10 +23,11 @@ Java の Spring Framework に関する脆弱性報告は大きく2つあって�
 
 で，もうひとつが本命の org.springframework:spring-beans パッケージの RCE 脆弱性，通称 “Spring4shell” である（[CVE-2022-22965]）。
 
+- [CVE-2022-22965: Spring Framework RCE via Data Binding on JDK 9+ | Security | VMware Tanzu](https://tanzu.vmware.com/security/cve-2022-22965)
 - [Spring4Shell: What we know about the Java RCE vulnerability | Snyk](https://snyk.io/blog/is-there-such-a-thing-as-spring4shell/)
 - [Remote Code Execution in org.springframework:spring-beans | CVE-2022-22965 | Snyk](https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-2436751)
 
-[ブログ記事][Spring4Shell]によると
+[Snyk のブログ記事][Spring4Shell]によると
 
 {{< fig-quote type="markdown" title="Spring4Shell: What we know about the Java RCE vulnerability" link="https://snyk.io/blog/is-there-such-a-thing-as-spring4shell/" lang="en" >}}
 If you’ve used the @Autowired annotation or utilized the magic of constructor injection, you’ve encountered dependency injection in the Spring ecosystem.
@@ -47,6 +48,27 @@ At this time, the exploit is only known to be possible with a Java Runtime Envir
 
 というわけで，慌てず騒がず，冷静に対処しましょう。
 アップデートは計画的に。
+
+- `CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H`
+- 深刻度: 緊急 (Score: 9.8)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | 高 |
+| 完全性への影響 | 高 |
+| 可用性への影響 | 高 |
+
+## ブックマーク
+
+- [Spring Framework RCE, Early Announcement](https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement)
+- [VU#970766 - Spring Framework insecurely handles PropertyDescriptor objects with data binding](https://kb.cert.org/vuls/id/970766)
+- [Spring Frameworkの任意のコード実行の脆弱性（CVE-2022-22965）について](https://www.jpcert.or.jp/newsflash/2022040101.html)
+- [Spring Frameworkの脆弱性 CVE-2022-22965（Spring4shell）についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2022/04/01/065946)
 
 ## 参考図書
 
