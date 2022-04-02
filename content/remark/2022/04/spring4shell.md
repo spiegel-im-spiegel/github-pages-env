@@ -40,7 +40,7 @@ At this time, the exploit is only known to be possible with a Java Runtime Envir
 だそうな。
 これはヤバいわ。
 
-対策としては，既に出ている Spring Framewaork の最新バージョン（5.2.20 または5.3.18 以降）に更新すればよい。
+対策としては，既に出ている Spring Framework の最新バージョン（5.2.20 または5.3.18 以降）に更新すればよい。
 みんな大好き Spring Boot については，これを含んだバージョンが既に登場している。
 
 - [Release v2.5.12 · spring-projects/spring-boot · GitHub](https://github.com/spring-projects/spring-boot/releases/tag/v2.5.12)
