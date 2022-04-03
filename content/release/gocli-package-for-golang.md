@@ -11,7 +11,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-- [spiegel-im-spiegel/gocli: Minimal Packages for Command-Line Interface](https://github.com/spiegel-im-spiegel/gocli)
+- [goark/gocli: Minimal Packages for Command-Line Interface](https://github.com/goark/gocli)
 
 本パッケージ [`gocli`] は [Go 言語] で CLI (Command-Line Interface) を構成する際に必要になるであろう細々とした機能をまとめたライブラリである。
 ただし，このパッケージをそのまま使うことは想定しておらず（そのまま使ってもいいけど）何らかのアレンジを加えた上で，それぞれの CLI ツール用に組み込むことを念頭に置いている。
@@ -21,10 +21,10 @@ pageType = "text"
 なお [`gocli`] パッケージは [Go] 1.13 以上を要求する。
 ご注意を。
 
-[![check vulns](https://github.com/spiegel-im-spiegel/gocli/workflows/vulns/badge.svg)](https://github.com/spiegel-im-spiegel/gocli/actions)
-[![lint status](https://github.com/spiegel-im-spiegel/gocli/workflows/lint/badge.svg)](https://github.com/spiegel-im-spiegel/gocli/actions)
-[![GitHub license](https://img.shields.io/badge/license-CC0-blue.svg)](https://raw.githubusercontent.com/spiegel-im-spiegel/gocli/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/spiegel-im-spiegel/gocli.svg)](https://github.com/spiegel-im-spiegel/gocli/releases/latest)
+[![check vulns](https://github.com/goark/gocli/workflows/vulns/badge.svg)](https://github.com/goark/gocli/actions)
+[![lint status](https://github.com/goark/gocli/workflows/lint/badge.svg)](https://github.com/goark/gocli/actions)
+[![GitHub license](https://img.shields.io/badge/license-CC0-blue.svg)](https://raw.githubusercontent.com/goark/gocli/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/goark/gocli.svg)](https://github.com/goark/gocli/releases/latest)
 
 ## 標準入出力と終了コード
 
@@ -39,8 +39,8 @@ package main
 import (
     "os"
 
-    "github.com/spiegel-im-spiegel/gocli/exitcode"
-    "github.com/spiegel-im-spiegel/gocli/rwi"
+    "github.com/goark/gocli/exitcode"
+    "github.com/goark/gocli/rwi"
 )
 
 func run(ui *rwi.RWI) exitcode.ExitCode {
@@ -96,7 +96,7 @@ import (
     "os"
     "time"
 
-    "github.com/spiegel-im-spiegel/gocli/signal"
+    "github.com/goark/gocli/signal"
 )
 
 func ticker(ctx context.Context) error {
@@ -158,7 +158,7 @@ package main
 import (
     "fmt"
 
-    "github.com/spiegel-im-spiegel/gocli/file"
+    "github.com/goark/gocli/file"
 )
 
 func main() {
@@ -178,7 +178,7 @@ package main
 import (
     "fmt"
 
-    "github.com/spiegel-im-spiegel/gocli/file"
+    "github.com/goark/gocli/file"
 )
 
 func main() {
@@ -220,7 +220,7 @@ package main
 import (
     "fmt"
 
-    "github.com/spiegel-im-spiegel/gocli/config"
+    "github.com/goark/gocli/config"
 )
 
 func main() {
@@ -300,7 +300,7 @@ package main
 import (
     "fmt"
 
-    "github.com/spiegel-im-spiegel/gocli/cache"
+    "github.com/goark/gocli/cache"
 )
 
 func main() {
@@ -369,7 +369,7 @@ func UserCacheDir() (string, error) {
 
 [Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[`gocli`]: https://github.com/spiegel-im-spiegel/gocli "spiegel-im-spiegel/gocli: Minimal Packages for Command-Line Interface"
+[`gocli`]: https://github.com/goark/gocli "goark/gocli: Minimal Packages for Command-Line Interface"
 [CC0]: http://creativecommons.org/publicdomain/zero/1.0/ "Creative Commons — CC0 1.0 Universal"
 [`context`]: https://golang.org/pkg/context/ "context - The Go Programming Language"
 [`filepath`]: https://golang.org/pkg/path/filepath/ "filepath - The Go Programming Language"

@@ -16,20 +16,19 @@ pageType = "text"
 
 | Package |  Bin  | [goark][github.com/goark] | Blog  |
 | ------- | :---: | :-----------------------: | :---: |
-| [gpgpdump: OpenPGP packet visualizer](https://github.com/goark/gpgpdump) | {{% icons "check" %}} | {{% icons "square-check" %}} | [{{% icons "square" %}}]({{< ref "/release/gpgpdump.md" >}}) |
-| [depm: Visualize depndency packages and modules](https://github.com/goark/depm) | {{% icons "check" %}} | {{% icons "square-check" %}} | [{{% icons "square" %}}]({{< ref "/release/dependency-graph-for-golang-modules.md" >}}) |
-| [books-data: Search for Books Data](https://github.com/goark/books-data) | {{% icons "check" %}} | {{% icons "square-check" %}} | [{{% icons "square" %}}]({{< ref "/release/books-data.md" >}}) |
-| [gnkf: Network Kanji Filter by Golang](https://github.com/goark/gnkf) | {{% icons "check" %}} | {{% icons "square-check" %}} | [{{% icons "square" %}}]({{< ref "/release/gnkf.md" >}}) |
+| [gpgpdump: OpenPGP packet visualizer](https://github.com/goark/gpgpdump) | {{% icons "check" %}} | {{% icons "square-check" %}} | [{{% icons "square-check" %}}]({{< ref "/release/gpgpdump.md" >}}) |
+| [depm: Visualize depndency packages and modules](https://github.com/goark/depm) | {{% icons "check" %}} | {{% icons "square-check" %}} | [{{% icons "square-check" %}}]({{< ref "/release/dependency-graph-for-golang-modules.md" >}}) |
+| [books-data: Search for Books Data](https://github.com/goark/books-data) | {{% icons "check" %}} | {{% icons "square-check" %}} | [{{% icons "square-check" %}}]({{< ref "/release/books-data.md" >}}) |
+| [gnkf: Network Kanji Filter by Golang](https://github.com/goark/gnkf) | {{% icons "check" %}} | {{% icons "square-check" %}} | [{{% icons "square-check" %}}]({{< ref "/release/gnkf.md" >}}) |
 | [gimei-cli: 姓名・住所データ生成ツール](https://github.com/goark/gimei-cli) | {{% icons "check" %}} | {{% icons "square-check" %}} |  |
 | [cov19jpn: COVID-2019 in Japan; Importing Google COVID-19 Public Forecasts](https://github.com/goark/cov19jpn) | {{% icons "check" %}} | {{% icons "square-check" %}} |  |
-| [xls2csv: xport CSV Text from Excel Data](https://github.com/spiegel-im-spiegel/xls2csv) | {{% icons "check" %}} | {{% icons "square" %}} | |
 | [ml: Make Link with Markdown Format](https://github.com/goark/ml) | {{% icons "check" %}} | {{% icons "square-check" %}} | |
-| [pa-api: APIs for Amazon Product Advertising API v5 by Golang](https://github.com/goark/pa-api) | | {{% icons "square-check" %}} | [{{% icons "square" %}}]({{< ref "/release/pa-api-v5.md" >}}) |
-| [aozora-api: APIs for Aozora-bunko RESTful Service by Golang](https://github.com/goark/aozora) | | {{% icons "square-check" %}} | [{{% icons "square" %}}]({{< ref "/release/aozora-api-package-for-golang.md" >}}) |
-| [openbd-api: APIs for openBD by Golang](https://github.com/goark/openbd-api) | | {{% icons "square-check" %}} | [{{% icons "square" %}}]({{< ref "/release/openbd-api-package-for-golang.md" >}}) |
-| [errs: Error handling for Golang](https://github.com/goark/errs) | | {{% icons "square-check" %}} | [{{% icons "square" %}}]({{< ref "/release/errs-package-for-golang.md" >}}) |
-| [gocli: Minimal Packages for Command-Line Interface](https://github.com/goark/gocli) | | {{% icons "square-check" %}} | [{{% icons "square" %}}]({{< ref "/release/gocli-package-for-golang.md" >}}) |
-| [mt: Mersenne Twister; Pseudo Random Number Generator, Implemented by Golang](https://github.com/goark/mt) | | {{% icons "square-check" %}} | [{{% icons "square" %}}]({{< ref "/release/mersenne-twister-by-golang.md" >}}) |
+| [pa-api: APIs for Amazon Product Advertising API v5 by Golang](https://github.com/goark/pa-api) | | {{% icons "square-check" %}} | [{{% icons "square-check" %}}]({{< ref "/release/pa-api-v5.md" >}}) |
+| [aozora-api: APIs for Aozora-bunko RESTful Service by Golang](https://github.com/goark/aozora) | | {{% icons "square-check" %}} | [{{% icons "square-check" %}}]({{< ref "/release/aozora-api-package-for-golang.md" >}}) |
+| [openbd-api: APIs for openBD by Golang](https://github.com/goark/openbd-api) | | {{% icons "square-check" %}} | [{{% icons "square-check" %}}]({{< ref "/release/openbd-api-package-for-golang.md" >}}) |
+| [errs: Error handling for Golang](https://github.com/goark/errs) | | {{% icons "square-check" %}} | [{{% icons "square-check" %}}]({{< ref "/release/errs-package-for-golang.md" >}}) |
+| [gocli: Minimal Packages for Command-Line Interface](https://github.com/goark/gocli) | | {{% icons "square-check" %}} | [{{% icons "square-check" %}}]({{< ref "/release/gocli-package-for-golang.md" >}}) |
+| [mt: Mersenne Twister; Pseudo Random Number Generator, Implemented by Golang](https://github.com/goark/mt) | | {{% icons "square-check" %}} | [{{% icons "square-check" %}}]({{< ref "/release/mersenne-twister-by-golang.md" >}}) |
 | [krconv: Convert kana-character to roman-alphabet](https://github.com/goark/krconv) | | {{% icons "square-check" %}} |  |
 | [kkconv: Hiragana-Katakana Conversion](https://github.com/goark/kkconv) | | {{% icons "square-check" %}} |  |
 | [go-cvss: Common Vulnerability Scoring System (CVSS)](https://github.com/goark/go-cvss) | | {{% icons "square-check" %}} |  |
@@ -37,7 +36,6 @@ pageType = "text"
 | [csvdata: Reading CSV Data](https://github.com/goark/csvdata) | | {{% icons "square-check" %}} |  |
 | [fetch: Fetch Data from URL](https://github.com/goark/fetch) | | {{% icons "square-check" %}} |  |
 | [koyomi: 日本のこよみ](https://github.com/goark/koyomi) | | {{% icons "square-check" %}} | |
-| [jzodiac: Japanese Zodiac](https://github.com/spiegel-im-spiegel/jzodiac) | | {{% icons "square" %}} | |
 
 ## 移行しないパッケージ（多分）
 
@@ -51,7 +49,8 @@ pageType = "text"
 | [emojis](https://github.com/spiegel-im-spiegel/emojis) | 全く使ってない | {{% icons "square" %}} |
 | [gprompt](https://github.com/spiegel-im-spiegel/gprompt) | [nyaosorg/go-readline-ny](https://github.com/nyaosorg/go-readline-ny) に乗り換えたため | {{% icons "square-check" %}} |
 | [file](https://github.com/spiegel-im-spiegel/file) | 全く使ってない | {{% icons "square-check" %}} |
-| [jpera](https://github.com/spiegel-im-spiegel/jpera) | 全く使ってない | {{% icons "square" %}} |
+| [jpera](https://github.com/spiegel-im-spiegel/jpera) | koyomi パッケージに統合する？ | {{% icons "square" %}} |
+| [jzodiac](https://github.com/spiegel-im-spiegel/jzodiac) | koyomi パッケージに統合する？ | {{% icons "square" %}} |
 | [gjq](https://github.com/spiegel-im-spiegel/gjq) | 全く使ってない | {{% icons "square-check" %}} |
 | [jvnman](https://github.com/spiegel-im-spiegel/jvnman) | 全く使ってない | {{% icons "square-check" %}} |
 | [go-myjvn](https://github.com/spiegel-im-spiegel/go-myjvn) | 全く使ってない | {{% icons "square-check" %}} |
@@ -59,12 +58,13 @@ pageType = "text"
 | [gocodic](https://github.com/spiegel-im-spiegel/gocodic) | 全く使ってない | {{% icons "square-check" %}} |
 | [icat4json](https://github.com/spiegel-im-spiegel/icat4json) | 全く使ってない | {{% icons "square-check" %}} |
 | [gitioapi](https://github.com/spiegel-im-spiegel/gitioapi) | 全く使ってない | {{% icons "square-check" %}} |
+| [xls2csv](https://github.com/spiegel-im-spiegel/xls2csv) | 全く使ってないけどそこそこ☆が付いてるんだよなぁ | {{% icons "square" %}} |
 
 ## その他の TODO
 
-{{% icons "square" %}} [github.com/spiegel-im-spiegel](https://github.com/spiegel-im-spiegel) の Readme を修正する
+{{% icons "square-check" %}} [github.com/spiegel-im-spiegel](https://github.com/spiegel-im-spiegel) の Readme を修正する
 
-{{% icons "square" %}} Zenn の「[Go のエラーハンドリング](https://zenn.dev/spiegel/books/error-handling-in-golang)」の改訂
+{{% icons "square-check" %}} Zenn の「[Go のエラーハンドリング](https://zenn.dev/spiegel/books/error-handling-in-golang)」の改訂
 
 ## ブックマーク
 

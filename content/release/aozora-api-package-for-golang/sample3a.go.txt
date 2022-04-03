@@ -6,7 +6,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/spiegel-im-spiegel/aozora-api"
+	"github.com/goark/aozora-api"
 )
 
 func main() {

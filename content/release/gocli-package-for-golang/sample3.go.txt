@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/spiegel-im-spiegel/gocli/file"
+	"github.com/goark/gocli/file"
 )
 
 func main() {

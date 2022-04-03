@@ -6,7 +6,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/spiegel-im-spiegel/openbd-api"
+	"github.com/goark/openbd-api"
 )
 
 func main() {

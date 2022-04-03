@@ -11,17 +11,17 @@ pageType = "text"
   mermaidjs = false
 +++
 
-[spiegel-im-spiegel/depm][depm] は [Go]言語のパッケージまたはモジュール間の依存関係を可視化するコマンドラインツールである。
+[goark/depm][depm] は [Go]言語のパッケージまたはモジュール間の依存関係を可視化するコマンドラインツールである。
 以下のように依存関係を図にすることも可能である。
 
 {{< fig-img src="./output3.png" link="./output3.png" width="2534" >}}
 
-以降で [spiegel-im-spiegel/depm][depm] について簡単に紹介する。
+以降で [goark/depm][depm] について簡単に紹介する。
 
-[![check vulns](https://github.com/spiegel-im-spiegel/depm/workflows/vulns/badge.svg)](https://github.com/spiegel-im-spiegel/depm/actions)
-[![lint status](https://github.com/spiegel-im-spiegel/depm/workflows/lint/badge.svg)](https://github.com/spiegel-im-spiegel/depm/actions)
-[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/spiegel-im-spiegel/depm/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/spiegel-im-spiegel/depm.svg)](https://github.com/spiegel-im-spiegel/depm/releases/latest)
+[![check vulns](https://github.com/goark/depm/workflows/vulns/badge.svg)](https://github.com/goark/depm/actions)
+[![lint status](https://github.com/goark/depm/workflows/lint/badge.svg)](https://github.com/goark/depm/actions)
+[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/goark/depm/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/goark/depm.svg)](https://github.com/goark/depm/releases/latest)
 
 ## 簡単な使い方
 
@@ -36,6 +36,7 @@ Usage:
   depm [command]
 
 Available Commands:
+  completion  Generate the autocompletion script for the specified shell
   help        Help about any command
   list        list modules
   module      analyze depndency modules
@@ -82,38 +83,31 @@ Global Flags:
       --goos string          set GOOS environment variable
 ```
 
-`github.com/spiegel-im-spiegel/depm` パッケージを調べる場合は以下のコマンドラインとなる。
+`github.com/goark/depm` パッケージを調べる場合は以下のコマンドラインとなる。
 
 ```text
-$ depm package github.com/spiegel-im-spiegel/depm | jq .
+$ cd /path/to/depm
+$ depm package | jq .
 [
   {
     "Package": {
-      "ImportPath": "github.com/google/licenseclassifier",
+      "ImportPath": "github.com/BurntSushi/toml",
       "Module": {
-        "Path": "github.com/google/licenseclassifier",
-        "Version": "v0.0.0-20210324205846-148b633b0534",
-        "License": "Apache-2.0"
+        "Path": "github.com/BurntSushi/toml",
+        "Version": "v1.0.0",
+        "License": "MIT"
       }
-    },
-    "Deps": [
-      {
-        "ImportPath": "github.com/google/licenseclassifier/stringclassifier",
-        "Module": {
-          "Path": "github.com/google/licenseclassifier",
-          "Version": "v0.0.0-20210324205846-148b633b0534",
-          "License": "Apache-2.0"
-        }
-      },
-      {
-        "ImportPath": "github.com/google/licenseclassifier/stringclassifier/searchset",
-        "Module": {
-          "Path": "github.com/google/licenseclassifier",
-          "Version": "v0.0.0-20210324205846-148b633b0534",
-          "License": "Apache-2.0"
-        }
+    }
+  },
+  {
+    "Package": {
+      "ImportPath": "github.com/emicklei/dot",
+      "Module": {
+        "Path": "github.com/emicklei/dot",
+        "Version": "v0.16.0",
+        "License": "MIT"
       }
-    ]
+    }
   },
 ...
 ```
@@ -156,7 +150,8 @@ $ depm package "github.com/mattn/go-sqlite3" | jq .
       "Unsafe": true,
       "Module": {
         "Path": "github.com/mattn/go-sqlite3",
-        "Version": "v1.14.6"
+        "Version": "v1.14.12",
+        "License": "MIT"
       }
     }
   }
@@ -168,12 +163,13 @@ $ depm package "github.com/mattn/go-sqlite3" | jq .
 `--dot` オプションで [DOT] 言語形式の出力にもできるため [Graphviz] の dot コマンドを使って図に変換することができる。
 
 ```text
-$ depm package --dot github.com/spiegel-im-spiegel/depm | dot -Tpng -o output1.png
+$ cd /path/to/depm
+$ depm package --dot | dot -Tpng -o output1.png
 ```
 
 実行結果はこんな感じ。
 
-{{< fig-img src="./output1.png" title="output1.png" link="./output1.png" width="4578" >}}
+{{< fig-img src="./output1.png" title="output1.png" link="./output1.png" width="4762" >}}
 
 図の node と edge の属性については [DOT 言語の仕様](http://www.graphviz.org/doc/info/attrs.html)に従って簡単な装飾ができる。
 TOML 形式で
@@ -188,10 +184,11 @@ TOML 形式で
 のような設定ファイルを作って
 
 ```text
-$ depm package --dot --dot-config sample.toml "github.com/spiegel-im-spiegel/depm" | dot -Tpng -o output2.png
+$ cd /path/to/depm
+$ depm package --dot --dot-config dot-config.toml | dot -Tpng -o output2.png
 ```
 
-{{< fig-img src="./output2.png" title="output2.png" link="./output2.png" width="4259" >}}
+{{< fig-img src="./output2.png" title="output2.png" link="./output2.png" width="4407" >}}
 
 のようにできる。
 
@@ -224,28 +221,26 @@ Global Flags:
       --goarch string        set GOARCH environment variable
       --goos string          set GOOS environment variable
 
-$ depm module "github.com/spiegel-im-spiegel/depm" | jq .
+$ cd /path/to/depm
+$ depm module | jq .
 [
   {
     "Module": {
-      "Path": "github.com/google/licenseclassifier@v0.0.0-20210324205846-148b633b0534",
-      "License": "Apache-2.0",
+      "Path": "github.com/BurntSushi/toml@v1.0.0",
+      "License": "MIT",
       "Packages": [
-        "github.com/google/licenseclassifier",
-        "github.com/google/licenseclassifier/stringclassifier",
-        "github.com/google/licenseclassifier/stringclassifier/searchset",
-        "github.com/google/licenseclassifier/stringclassifier/searchset/tokenizer"
+        "github.com/BurntSushi/toml"
       ]
-    },
-    "Deps": [
-      {
-        "Path": "github.com/sergi/go-diff@v1.0.0",
-        "License": "MIT",
-        "Packages": [
-          "github.com/sergi/go-diff/diffmatchpatch"
-        ]
-      }
-    ]
+    }
+  },
+  {
+    "Module": {
+      "Path": "github.com/emicklei/dot@v0.16.0",
+      "License": "MIT",
+      "Packages": [
+        "github.com/emicklei/dot"
+      ]
+    }
   },
 ...
 ```
@@ -275,10 +270,10 @@ CGO や [`unsafe`] パッケージに関するフラグは `depm package` コマ
 `depm package` コマンドのときと同じく `-dot` オプションで [DOT] 言語形式の出力にできる。
 
 ```text
-$ depm module --dot --dot-config sample.toml "github.com/spiegel-im-spiegel/depm" | dot -Tpng -o output3.png
+$ depm module --dot --dot-config sample.toml | dot -Tpng -o output3.png
 ```
 
-{{< fig-img src="./output3.png" title="output3.png" link="./output3.png" width="2534" >}}
+{{< fig-img src="./output3.png" title="output3.png" link="./output3.png" width="2930" >}}
 
 パッケージのインポート・パスを省略すると，カレント・ディレクトリのパッケージを走査する。
 `go list -m` コマンドで `all` を指定したときと同じ動作だが，実際にはリンクしない形式的な依存モジュールは出力されない。
@@ -309,20 +304,20 @@ Global Flags:
       --goarch string        set GOARCH environment variable
       --goos string          set GOOS environment variable
 
-$ depm list "github.com/spiegel-im-spiegel/depm"
-github.com/BurntSushi/toml v0.3.1
-github.com/emicklei/dot v0.15.0
-github.com/google/licenseclassifier v0.0.0-20210324205846-148b633b0534
+$ cd /path/to/depm
+$ depm list
+github.com/BurntSushi/toml v1.0.0
+github.com/emicklei/dot v0.16.0
+github.com/goark/depm
+github.com/goark/errs v1.1.0
+github.com/goark/gocli v0.12.0
+github.com/google/licenseclassifier v0.0.0-20210722185704-3043a050f148
 github.com/sergi/go-diff v1.0.0
-github.com/spf13/cobra v1.1.3
+github.com/spf13/cobra v1.4.0
 github.com/spf13/pflag v1.0.5
-github.com/spiegel-im-spiegel/depm v0.4.0
-github.com/spiegel-im-spiegel/errs v1.0.2
-github.com/spiegel-im-spiegel/gocli v0.10.4
-golang.org/x/mod v0.3.0
-golang.org/x/net v0.0.0-20201021035429-f5854403a974
-golang.org/x/sys v0.0.0-20210119212857-b64e53b001e4
-golang.org/x/tools v0.1.0
+golang.org/x/mod v0.5.1
+golang.org/x/sys v0.0.0-20211019181941-9d821ace8654
+golang.org/x/tools v0.1.9
 golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
 ```
 
@@ -331,42 +326,40 @@ golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
 `-u` オプションを付けると `go list -m -u` と同等の出力にできる。
 
 ```text
-$ depm list -u "github.com/spiegel-im-spiegel/depm"
-github.com/BurntSushi/toml v0.3.1
-github.com/emicklei/dot v0.15.0
-github.com/google/licenseclassifier v0.0.0-20210324205846-148b633b0534
-github.com/sergi/go-diff v1.0.0 [v1.1.0]
-github.com/spf13/cobra v1.1.3
+$ depm list -u
+github.com/BurntSushi/toml v1.0.0
+github.com/emicklei/dot v0.16.0
+github.com/goark/depm
+github.com/goark/errs v1.1.0
+github.com/goark/gocli v0.12.0
+github.com/google/licenseclassifier v0.0.0-20210722185704-3043a050f148 [v0.0.0-20220326190949-7c62d6fe8d3a]
+github.com/sergi/go-diff v1.0.0 [v1.2.0]
+github.com/spf13/cobra v1.4.0
 github.com/spf13/pflag v1.0.5
-github.com/spiegel-im-spiegel/depm v0.4.0
-github.com/spiegel-im-spiegel/errs v1.0.2
-github.com/spiegel-im-spiegel/gocli v0.10.4
-golang.org/x/mod v0.3.0 [v0.4.2]
-golang.org/x/net v0.0.0-20201021035429-f5854403a974 [v0.0.0-20210324205630-d1beb07c2056]
-golang.org/x/sys v0.0.0-20210119212857-b64e53b001e4 [v0.0.0-20210324051608-47abb6519492]
-golang.org/x/tools v0.1.0
+golang.org/x/mod v0.5.1
+golang.org/x/sys v0.0.0-20211019181941-9d821ace8654 [v0.0.0-20220403020550-483a9cbc67c0]
+golang.org/x/tools v0.1.9 [v0.1.10]
 golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
 ```
 
 `-j` オプションを付けると `go list -m -json` と同等の JSON 出力にできる。
 
 ```text
-$ depm list -j "github.com/spiegel-im-spiegel/depm"
+$ depm list -j "github.com/goark/depm"
 {
     "Path": "github.com/BurntSushi/toml",
-    "Version": "v0.3.1",
-    "Time": "2018-08-15T10:47:33Z",
-    "Indirect": true,
-    "Dir": "/home/username/go/pkg/mod/github.com/!burnt!sushi/toml@v0.3.1",
-    "GoMod": "/home/username/go/pkg/mod/cache/download/github.com/!burnt!sushi/toml/@v/v0.3.1.mod"
+    "Version": "v1.0.0",
+    "Time": "2022-01-12T06:57:21Z",
+    "Dir": "/home/username/go/pkg/mod/github.com/!burnt!sushi/toml@v1.0.0",
+    "GoMod": "/home/username/go/pkg/mod/cache/download/github.com/!burnt!sushi/toml/@v/v1.0.0.mod",
+    "GoVersion": "1.16"
 }
 {
     "Path": "github.com/emicklei/dot",
-    "Version": "v0.15.0",
-    "Time": "2020-10-30T08:43:19Z",
-    "Indirect": true,
-    "Dir": "/home/username/go/pkg/mod/github.com/emicklei/dot@v0.15.0",
-    "GoMod": "/home/username/go/pkg/mod/cache/download/github.com/emicklei/dot/@v/v0.15.0.mod",
+    "Version": "v0.16.0",
+    "Time": "2021-05-04T09:57:39Z",
+    "Dir": "/home/username/go/pkg/mod/github.com/emicklei/dot@v0.16.0",
+    "GoMod": "/home/username/go/pkg/mod/cache/download/github.com/emicklei/dot/@v/v0.16.0.mod",
     "GoVersion": "1.13"
 }
 ...
@@ -375,7 +368,7 @@ $ depm list -j "github.com/spiegel-im-spiegel/depm"
 `go list -m` コマンドに比べると遅くなりがちなのが欠点だが，他のツールと組み合わせることを考えると使い勝手はさほど悪くないと思う。
 
 [Go]: https://go.dev/
-[depm]: https://github.com/spiegel-im-spiegel/depm "spiegel-im-spiegel/depm: Visualize depndency packages and modules"
+[depm]: https://github.com/goark/depm "goark/depm: Visualize depndency packages and modules"
 [jq]: https://stedolan.github.io/jq/ "jq"
 [DOT]: https://graphviz.gitlab.io/_pages/doc/info/lang.html "The DOT Language"
 [Graphviz]: http://www.graphviz.org/ "Graphviz - Graph Visualization Software"

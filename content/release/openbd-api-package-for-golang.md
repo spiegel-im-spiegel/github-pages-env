@@ -11,29 +11,29 @@ pageType = "text"
   mermaidjs = false
 +++
 
-- [spiegel-im-spiegel/openbd-api: APIs for openBD by Golang](https://github.com/spiegel-im-spiegel/openbd-api)
+- [goark/openbd-api: APIs for openBD by Golang](https://github.com/goark/openbd-api)
 
 本パッケージは [openBD] へアクセスできる [Go 言語]用クライアント・パッケージだ。
 [openBD] が提供する書籍情報を取得できる。
 
-なお [spiegel-im-spiegel/openbd-api] パッケージは [Go] 1.16 以上を要求する。
+なお [goark/openbd-api] パッケージは [Go] 1.16 以上を要求する。
 ご注意を。
 
-[![check vulns](https://github.com/spiegel-im-spiegel/openbd-api/workflows/vulns/badge.svg)](https://github.com/spiegel-im-spiegel/openbd-api/actions)
-[![lint status](https://github.com/spiegel-im-spiegel/openbd-api/workflows/lint/badge.svg)](https://github.com/spiegel-im-spiegel/openbd-api/actions)
-[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/spiegel-im-spiegel/openbd-api/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/spiegel-im-spiegel/openbd-api.svg)](https://github.com/spiegel-im-spiegel/openbd-api/releases/latest)
+[![check vulns](https://github.com/goark/openbd-api/workflows/vulns/badge.svg)](https://github.com/goark/openbd-api/actions)
+[![lint status](https://github.com/goark/openbd-api/workflows/lint/badge.svg)](https://github.com/goark/openbd-api/actions)
+[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/goark/openbd-api/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/goark/openbd-api.svg)](https://github.com/goark/openbd-api/releases/latest)
 
 ## インポート
 
 ```go
-import "github.com/spiegel-im-spiegel/openbd-api"
+import "github.com/goark/openbd-api"
 ```
 
 ## 書籍情報の取得
 
 [openBD] は ISBN をキーとして書籍情報の検索ができる。
-[spiegel-im-spiegel/openbd-api] パッケージでは以下のように記述する。
+[goark/openbd-api] パッケージでは以下のように記述する。
 
 ```go
 package main
@@ -44,7 +44,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/spiegel-im-spiegel/openbd-api"
+	"github.com/goark/openbd-api"
 )
 
 func main() {
@@ -510,8 +510,8 @@ books, err := openbd.DefaultClient().
 [Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [openBD]: https://openbd.jp/ "openBD | 書誌情報・書影を自由に"
-[spiegel-im-spiegel/openbd-api]: https://github.com/spiegel-im-spiegel/openbd-api "spiegel-im-spiegel/openbd-api: APIs for openBD by Golang"
-[`openbd`]: https://github.com/spiegel-im-spiegel/openbd-api "spiegel-im-spiegel/openbd-api: APIs for openBD by Golang"
+[goark/openbd-api]: https://github.com/goark/openbd-api "goark/openbd-api: APIs for openBD by Golang"
+[`openbd`]: https://github.com/goark/openbd-api "goark/openbd-api: APIs for openBD by Golang"
 [`http`]: https://golang.org/pkg/net/http/ "http - The Go Programming Language"
 [`context`]: https://golang.org/pkg/context/ "context - The Go Programming Language"
 

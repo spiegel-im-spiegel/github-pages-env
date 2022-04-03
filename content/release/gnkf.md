@@ -11,15 +11,15 @@ pageType = "text"
   mermaidjs = false
 +++
 
-- [spiegel-im-spiegel/gnkf: Network Kanji Filter by Golang](https://github.com/spiegel-im-spiegel/gnkf)
+- [goark/gnkf: Network Kanji Filter by Golang](https://github.com/goark/gnkf)
 
 [gnkf] は，コマンドラインで動作する，特に日本語テキストを操作するためのフィルタプログラムである。
 昔からある nkf コマンドの劣化コピー版と思っていただければ概ね間違いない（笑）
 
-[![check vulns](https://github.com/spiegel-im-spiegel/gnkf/workflows/vulns/badge.svg)](https://github.com/spiegel-im-spiegel/gnkf/actions)
-[![lint status](https://github.com/spiegel-im-spiegel/gnkf/workflows/lint/badge.svg)](https://github.com/spiegel-im-spiegel/gnkf/actions)
-[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/spiegel-im-spiegel/gnkf/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/spiegel-im-spiegel/gnkf.svg)](https://github.com/spiegel-im-spiegel/gnkf/releases/latest)
+[![check vulns](https://github.com/goark/gnkf/workflows/vulns/badge.svg)](https://github.com/goark/gnkf/actions)
+[![lint status](https://github.com/goark/gnkf/workflows/lint/badge.svg)](https://github.com/goark/gnkf/actions)
+[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/goark/gnkf/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/goark/gnkf.svg)](https://github.com/goark/gnkf/releases/latest)
 
 [gnkf] には以下の機能を組み込んでいる。
 
@@ -532,7 +532,7 @@ $ echo ㈱埼⽟ | gnkf nm -n nfkc -k | gnkf d -u
 - [かなカナ変換]({{< ref "/golang/kana-conversion.md" >}})
 - [こんな埼「玉」修正してやるぅ]({{< ref "/golang/unicode-kangxi-radical.md" >}})
 
-[gnkf]: https://github.com/spiegel-im-spiegel/gnkf "spiegel-im-spiegel/gnkf: Network Kanji Filter by Golang"
+[gnkf]: https://github.com/goark/gnkf "goark/gnkf: Network Kanji Filter by Golang"
 [saintfish/chardet]: https://github.com/saintfish/chardet "saintfish/chardet: Charset detector library for golang derived from ICU"
 [golang.org/x/net/html/charset]: https://pkg.go.dev/golang.org/x/net/html/charset "charset package · pkg.go.dev"
 [golang.org/x/text]: https://pkg.go.dev/mod/golang.org/x/text "golang.org/x/text module · pkg.go.dev"

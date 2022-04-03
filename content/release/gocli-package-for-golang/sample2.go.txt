@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/spiegel-im-spiegel/gocli/signal"
+	"github.com/goark/gocli/signal"
 )
 
 func ticker(ctx context.Context) error {

@@ -1,7 +1,7 @@
 +++
-title = "疑似乱数生成器 spiegel-im-spiegel/mt"
+title = "疑似乱数生成器 goark/mt"
 date =  "2019-09-22T17:37:19+09:00"
-description = "spiegel-im-spiegel/mt は64bit版 Mersenne Twister を元に pure Go で書き直したものである。"
+description = "goark/mt は64bit版 Mersenne Twister を元に pure Go で書き直したものである。"
 image = "/images/attention/go-logo_blue.png"
 tags = [ "package", "module", "golang", "random" ]
 pageType = "text"
@@ -24,14 +24,14 @@ pageType = "text"
 特に2番目が重要で，モンテカルロ法などの科学技術計算に向いている。
 Ruby などの一部のプログラミング言語では標準の疑似乱数生成器として組み込まれているらしい。
 
-[spiegel-im-spiegel/mt][`mt`] は [Mersenne Twister] のオリジナルコード（C/C++）を pure [Go] で書き直したものである。
+[goark/mt][`mt`] は [Mersenne Twister] のオリジナルコード（C/C++）を pure [Go] で書き直したものである。
 
-[![check vulns](https://github.com/spiegel-im-spiegel/mt/workflows/vulns/badge.svg)](https://github.com/spiegel-im-spiegel/mt/actions)
-[![lint status](https://github.com/spiegel-im-spiegel/mt/workflows/lint/badge.svg)](https://github.com/spiegel-im-spiegel/mt/actions)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/spiegel-im-spiegel/mt/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/spiegel-im-spiegel/mt.svg)](https://github.com/spiegel-im-spiegel/mt/releases/latest)
+[![check vulns](https://github.com/goark/mt/workflows/vulns/badge.svg)](https://github.com/goark/mt/actions)
+[![lint status](https://github.com/goark/mt/workflows/lint/badge.svg)](https://github.com/goark/mt/actions)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/goark/mt/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/goark/mt.svg)](https://github.com/goark/mt/releases/latest)
 
-[spiegel-im-spiegel/mt][`mt`] の特徴は以下の通り。
+[goark/mt][`mt`] の特徴は以下の通り。
 
 - [math/rand][`rand`] 互換で [`rand`]`.Rand` のソースとして利用できる
 - 並行的に安全（concurrency safe）な構成にできる（[`mt`]`.PRNG` 型を利用した場合）
@@ -47,7 +47,7 @@ Ruby などの一部のプログラミング言語では標準の疑似乱数生
 import (
     "fmt"
 
-    "github.com/spiegel-im-spiegel/mt/mt19937"
+    "github.com/goark/mt/mt19937"
 )
 
 fmt.Println(mt19937.New(19650218).Uint64())
@@ -84,7 +84,7 @@ import (
     "fmt"
     "math/rand"
 
-    "github.com/spiegel-im-spiegel/mt/mt19937"
+    "github.com/goark/mt/mt19937"
 )
 
 fmt.Println(rand.New(mt19937.New(19650218)).Uint64())
@@ -107,8 +107,8 @@ import (
     "sync"
     "time"
 
-    "github.com/spiegel-im-spiegel/mt"
-    "github.com/spiegel-im-spiegel/mt/mt19937"
+    "github.com/goark/mt"
+    "github.com/goark/mt/mt19937"
 )
 
 func main() {
@@ -143,8 +143,8 @@ import (
     "sync"
     "time"
 
-    "github.com/spiegel-im-spiegel/mt"
-    "github.com/spiegel-im-spiegel/mt/mt19937"
+    "github.com/goark/mt"
+    "github.com/goark/mt/mt19937"
 )
 
 func main() {
@@ -174,13 +174,13 @@ func main() {
 
 ## ライセンスについて
 
-[spiegel-im-spiegel/mt][`mt`] は MIT ライセンスで提供している。
+[goark/mt][`mt`] は MIT ライセンスで提供している。
 
 オリジナルの [Mersenne Twister] コードは GPL または BSD ライセンスで提供されているが MIT ライセンスに書き換えてもいいらしい。
 
 - [Mersenne Twisterの商業利用について](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/MT2002/license.html)
 
-というわけで [spiegel-im-spiegel/mt][`mt`] は MIT ライセンスで提供することにした。
+というわけで [goark/mt][`mt`] は MIT ライセンスで提供することにした。
 ご利用はお気軽に。
 
 ## 【おまけ】 secure.Source について
@@ -209,8 +209,8 @@ import (
     "fmt"
     "math/rand"
 
-    "github.com/spiegel-im-spiegel/mt"
-    "github.com/spiegel-im-spiegel/mt/secure"
+    "github.com/goark/mt"
+    "github.com/goark/mt/secure"
 )
 
 func main() {
@@ -223,7 +223,7 @@ func main() {
 [Mersenne Twister]: http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/mt.html "Mersenne Twister: A random number generator (since 1997/10)"
 [`rand`]: https://pkg.go.dev/math/rand "rand package - math/rand - pkg.go.dev"
 [`io`]: https://golang.org/pkg/io/ "io - The Go Programming Language"
-[`mt`]: https://github.com/spiegel-im-spiegel/mt "spiegel-im-spiegel/mt: Mersenne Twister; Pseudo Random Number Generator, Implemented by Golang"
+[`mt`]: https://github.com/goark/mt "goark/mt: Mersenne Twister; Pseudo Random Number Generator, Implemented by Golang"
 [crypto/rand]: https://pkg.go.dev/crypto/rand "rand package - crypto/rand - pkg.go.dev"
 
 ## 参考図書

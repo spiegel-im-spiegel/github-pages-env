@@ -11,23 +11,23 @@ pageType = "text"
   mermaidjs = false
 +++
 
-- [spiegel-im-spiegel/pa-api: APIs for Amazon Product Advertising API v5 by Golang](https://github.com/spiegel-im-spiegel/pa-api)
+- [goark/pa-api: APIs for Amazon Product Advertising API v5 by Golang](https://github.com/goark/pa-api)
 
 本パッケージは Amazon [Product Advertising API] v5 へアクセスできる [Go 言語]用クライアント・パッケージだ。
 API を通じて Amazon で取り扱っている商品の情報を取得できる。
 
-なお [spiegel-im-spiegel/pa-api] パッケージは [Go] 1.16 以上を要求する。
+なお [goark/pa-api] パッケージは [Go] 1.16 以上を要求する。
 ご注意を。
 
-[![check vulns](https://github.com/spiegel-im-spiegel/pa-api/workflows/vulns/badge.svg)](https://github.com/spiegel-im-spiegel/pa-api/actions)
-[![lint status](https://github.com/spiegel-im-spiegel/pa-api/workflows/lint/badge.svg)](https://github.com/spiegel-im-spiegel/pa-api/actions)
-[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/spiegel-im-spiegel/pa-api/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/spiegel-im-spiegel/pa-api.svg)](https://github.com/spiegel-im-spiegel/pa-api/releases/latest)
+[![check vulns](https://github.com/goark/pa-api/workflows/vulns/badge.svg)](https://github.com/goark/pa-api/actions)
+[![lint status](https://github.com/goark/pa-api/workflows/lint/badge.svg)](https://github.com/goark/pa-api/actions)
+[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/goark/pa-api/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/goark/pa-api.svg)](https://github.com/goark/pa-api/releases/latest)
 
 ## インポート
 
 ```go
-import "github.com/spiegel-im-spiegel/pa-api"
+import "github.com/goark/pa-api"
 ```
 
 ## 簡単な使い方
@@ -58,8 +58,8 @@ import (
     "io"
     "os"
 
-    paapi5 "github.com/spiegel-im-spiegel/pa-api"
-    "github.com/spiegel-im-spiegel/pa-api/query"
+    paapi5 "github.com/goark/pa-api"
+    "github.com/goark/pa-api/query"
 )
 
 func main() {
@@ -315,7 +315,7 @@ func (c *client) RequestContext(ctx context.Context, q Query) ([]byte, error)
 
 ### クエリの実例とレスポンスの取り込み例
 
-[spiegel-im-spiegel/pa-api] パッケージではクエリ用のサンプルとして [`paapi5`]`/query` サブパッケージを用意している。
+[goark/pa-api] パッケージではクエリ用のサンプルとして [`paapi5`]`/query` サブパッケージを用意している。
 最初のコード例の
 
 ```go
@@ -334,15 +334,15 @@ q := query.NewGetItems(
 また [`paapi5`]`.Client.Request()` 関数の出力結果を構造体に落とし込むための [`paapi5`]`/entity` サブパッケージも用意した。
 どちらもそのままではあまり使い勝手がいいとは言えないが，コード例として自由に利用していただいて構わない。
 
-なお [spiegel-im-spiegel/pa-api] パッケージは [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) でライセンスしている。
+なお [goark/pa-api] パッケージは [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) でライセンスしている。
 
 ## ブックマーク
 
 - [Product Advertising API 5.0 Documentation](https://webservices.amazon.com/paapi5/documentation/)
 - [PA-API V5 への移行]({{< ref "/remark/2019/10/pa-api-v5.md" >}})
 
-[spiegel-im-spiegel/pa-api]: https://github.com/spiegel-im-spiegel/pa-api "spiegel-im-spiegel/pa-api: APIs for Amazon Product Advertising API v5 by Golang"
-[`paapi5`]: https://github.com/spiegel-im-spiegel/pa-api "spiegel-im-spiegel/pa-api: APIs for Amazon Product Advertising API v5 by Golang"
+[goark/pa-api]: https://github.com/goark/pa-api "goark/pa-api: APIs for Amazon Product Advertising API v5 by Golang"
+[`paapi5`]: https://github.com/goark/pa-api "goark/pa-api: APIs for Amazon Product Advertising API v5 by Golang"
 [Product Advertising API]: https://affiliate.amazon.co.jp/assoc_credentials/home
 [PA-API]: https://affiliate.amazon.co.jp/assoc_credentials/home "Product Advertising API"
 [Go]: https://go.dev/

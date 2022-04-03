@@ -11,28 +11,28 @@ pageType = "text"
   mermaidjs = false
 +++
 
-- [spiegel-im-spiegel/books-data: Search for Books Data](https://github.com/spiegel-im-spiegel/books-data)
+- [goark/books-data: Search for Books Data](https://github.com/goark/books-data)
 
 本ツールは [PA-API], [openBD] および [青空文庫] API より書籍情報を取得・加工するための CLI (Command-Line Interface) ツールである。
 
-[![check vulns](https://github.com/spiegel-im-spiegel/books-data/workflows/vulns/badge.svg)](https://github.com/spiegel-im-spiegel/books-data/actions)
-[![lint status](https://github.com/spiegel-im-spiegel/books-data/workflows/lint/badge.svg)](https://github.com/spiegel-im-spiegel/books-data/actions)
-[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/spiegel-im-spiegel/books-data/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/spiegel-im-spiegel/books-data.svg)](https://github.com/spiegel-im-spiegel/books-data/releases/latest)
+[![check vulns](https://github.com/goark/books-data/workflows/vulns/badge.svg)](https://github.com/goark/books-data/actions)
+[![lint status](https://github.com/goark/books-data/workflows/lint/badge.svg)](https://github.com/goark/books-data/actions)
+[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/goark/books-data/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/goark/books-data.svg)](https://github.com/goark/books-data/releases/latest)
 
 ## ダウンロードとビルド
 
-[books-data] は以下の [Go] コマンドでダウンロードとビルドができる。
+[books-data] は以下の [Go] コマンドでビルドとインストールができる。
 
 ```text
-$ go get github.com/spiegel-im-spiegel/books-data@latest
+$ go install github.com/goark/books-data@latest
 ```
 
-なおビルドには [Go] 1.13 以上が必要になる。
+なおビルドには [Go] 1.16 以上が必要になる。
 ご注意を。
 
 各プラットフォーム用のバイナリも用意している。
-[最新バイナリはリリースページから取得](https://github.com/spiegel-im-spiegel/books-data/releases/latest)できる。
+[最新バイナリはリリースページから取得](https://github.com/goark/books-data/releases/latest)できる。
 
 ## 簡単な使い方
 
@@ -368,7 +368,7 @@ type Review struct {
 
 [Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
-[books-data]: https://github.com/spiegel-im-spiegel/books-data "spiegel-im-spiegel/books-data: Search for Books Data"
+[books-data]: https://github.com/goark/books-data "goark/books-data: Search for Books Data"
 [PA-API]: https://affiliate.amazon.co.jp/assoc_credentials/home "Product Advertising API"
 [openBD]: https://openbd.jp/ "openBD | 書誌情報・書影を自由に"
 [青空文庫]: https://www.aozora.gr.jp/ "青空文庫　Aozora Bunko"

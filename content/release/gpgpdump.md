@@ -11,7 +11,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-- [spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer][gpgpdump]
+- [goark/gpgpdump: OpenPGP packet visualizer][gpgpdump]
 
 [gpgpdump] は [OpenPGP] パッケットの内容を human-readable な形式で可視化するコマンドライン・ツールである。
 [山本和彦](http://www.mew.org/~kazu/)さんによる [pgpdump] を参考デザインとし， [Go 言語]で組み直している。
@@ -24,23 +24,23 @@ pageType = "text"
 - [HKP (HTTP Keyserver Protocol)][HKP] を用いて [OpenPGP] 鍵サーバから直接公開鍵を取得して検証できる
 - [GitHub] に登録している OpenPGP 公開鍵を直接取得して検証できる
 
-[![check vulns](https://github.com/spiegel-im-spiegel/gpgpdump/workflows/vulns/badge.svg)](https://github.com/spiegel-im-spiegel/gpgpdump/actions)
-[![lint status](https://github.com/spiegel-im-spiegel/gpgpdump/workflows/lint/badge.svg)](https://github.com/spiegel-im-spiegel/gpgpdump/actions)
-[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/spiegel-im-spiegel/gpgpdump/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/spiegel-im-spiegel/gpgpdump.svg)](https://github.com/spiegel-im-spiegel/gpgpdump/releases/latest)
+[![check vulns](https://github.com/goark/gpgpdump/workflows/vulns/badge.svg)](https://github.com/goark/gpgpdump/actions)
+[![lint status](https://github.com/goark/gpgpdump/workflows/lint/badge.svg)](https://github.com/goark/gpgpdump/actions)
+[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/goark/gpgpdump/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/goark/gpgpdump.svg)](https://github.com/goark/gpgpdump/releases/latest)
 
 ## ダウンロードとビルド
 
 [gpgpdump] は以下の [Go] コマンドでダウンロードとビルドができる。
 
 ```
-$ go get github.com/spiegel-im-spiegel/gpgpdump@latest
+$ go get github.com/goark/gpgpdump@latest
 ```
 
 なおビルドには [Go] 1.13 以降が要件となるのでご注意を。
 
 64ビット版のみであるが，各プラットフォーム用のバイナリも用意している。
-[最新バイナリはリリースページから取得](https://github.com/spiegel-im-spiegel/gpgpdump/releases/latest)できる。
+[最新バイナリはリリースページから取得](https://github.com/goark/gpgpdump/releases/latest)できる。
 
 ## 簡単な使い方
 
@@ -455,8 +455,8 @@ import (
     "os"
     "strings"
 
-    "github.com/spiegel-im-spiegel/gpgpdump/parse"
-    "github.com/spiegel-im-spiegel/gpgpdump/parse/context"
+    "github.com/goark/gpgpdump/parse"
+    "github.com/goark/gpgpdump/parse/context"
 )
 
 const openpgpStr = `
@@ -604,7 +604,7 @@ $ gpgpdump -[TAB][TAB]
 - [GitHub に登録した OpenPGP 公開鍵を取り出す](https://zenn.dev/spiegel/articles/20201014-openpgp-pubkey-in-github)
 
 [OpenPGP]: http://openpgp.org/
-[gpgpdump]: https://github.com/spiegel-im-spiegel/gpgpdump "spiegel-im-spiegel/gpgpdump: OpenPGP packet visualizer"
+[gpgpdump]: https://github.com/goark/gpgpdump "goark/gpgpdump: OpenPGP packet visualizer"
 [pgpdump]: http://www.mew.org/~kazu/proj/pgpdump/
 [Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"

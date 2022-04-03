@@ -11,14 +11,14 @@ pageType = "text"
   mermaidjs = false
 +++
 
-- [spiegel-im-spiegel/errs: Error handling for Golang](https://github.com/spiegel-im-spiegel/errs)
+- [goark/errs: Error handling for Golang](https://github.com/goark/errs)
 
 本パッケージは [Go 言語]によるプログラミングに於いて標準の [`errors`] パッケージを補完し，構造化されたエラーハンドリングを行うことができる。
 
-[![check vulns](https://github.com/spiegel-im-spiegel/errs/workflows/vulns/badge.svg)](https://github.com/spiegel-im-spiegel/errs/actions)
-[![lint status](https://github.com/spiegel-im-spiegel/errs/workflows/lint/badge.svg)](https://github.com/spiegel-im-spiegel/errs/actions)
-[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/spiegel-im-spiegel/errs/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/spiegel-im-spiegel/errs.svg)](https://github.com/spiegel-im-spiegel/errs/releases/latest)
+[![check vulns](https://github.com/goark/errs/workflows/vulns/badge.svg)](https://github.com/goark/errs/actions)
+[![lint status](https://github.com/goark/errs/workflows/lint/badge.svg)](https://github.com/goark/errs/actions)
+[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/goark/errs/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/goark/errs.svg)](https://github.com/goark/errs/releases/latest)
 
 なお [`errs`] パッケージは [Go] 1.13 以上を要求する。
 ご注意を。
@@ -26,7 +26,7 @@ pageType = "text"
 ## インポート
 
 ```go
-import "github.com/spiegel-im-spiegel/errs"
+import "github.com/goark/errs"
 ```
 
 ## 簡単な使い方
@@ -326,7 +326,7 @@ $ go run sample/sample2d.go | jq .
 [`os`]: https://golang.org/pkg/os/ "os - The Go Programming Language"
 [`fmt`]: https://golang.org/pkg/fmt/ "fmt - The Go Programming Language"
 [`errors`]: https://golang.org/pkg/errors/ "errors - The Go Programming Language"
-[`errs`]: https://github.com/spiegel-im-spiegel/errs "spiegel-im-spiegel/errs: Error handling for Golang"
+[`errs`]: https://github.com/goark/errs "goark/errs: Error handling for Golang"
 
 ## 参考図書
 
