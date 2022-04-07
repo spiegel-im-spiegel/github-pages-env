@@ -11,7 +11,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-私は [Azure App Service][App Service] に手動でデプロイする際は [VS Code] の [Azure App Service] 拡張機能を使ってるんだけど，ここのところ頻繁にデプロイに失敗してたのよ。
+私は [Azure App Service][App Service] に手動でデプロイする際は [VS Code] の [Azure App Service 拡張機能][Azure App Service]を使ってるんだけど，ここのところ頻繁にデプロイに失敗してたのよ。
 最初は [App Service] のほうがやらかしてるんだと思ってたんだけど（だって上手く行くときもあるし），ググったら違ってたようだ。
 
 {{< fig-quote type="" title="ECONNRESET trying azure deploy webapp VS Code · Issue #2194 · microsoft/vscode-azureappservice" link="https://github.com/microsoft/vscode-azureappservice/issues/2194#issuecomment-1087857459" lang="en" >}}
