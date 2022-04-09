@@ -43,14 +43,13 @@ pageType = "text"
 
 | パッケージ | 理由 | Archive |
 | ---------- | ---- | :---: |
-| [logf](https://github.com/spiegel-im-spiegel/logf) | [rs/zerolog](https://github.com/rs/zerolog) に乗り換えたため | {{% icons "square-check" %}} |
+| [logf](https://github.com/spiegel-im-spiegel/logf) | [rs/zerolog](https://github.com/rs/zerolog) に乗り換えた | {{% icons "square-check" %}} |
 | [writers](https://github.com/spiegel-im-spiegel/writers) | 全く使ってない | {{% icons "square-check" %}} |
 | [gcavoc](https://github.com/spiegel-im-spiegel/gcavoc) | 全く使ってない | {{% icons "square-check" %}} |
-| [emojis](https://github.com/spiegel-im-spiegel/emojis) | 全く使ってない | {{% icons "square" %}} |
-| [gprompt](https://github.com/spiegel-im-spiegel/gprompt) | [nyaosorg/go-readline-ny](https://github.com/nyaosorg/go-readline-ny) に乗り換えたため | {{% icons "square-check" %}} |
+| [gprompt](https://github.com/spiegel-im-spiegel/gprompt) | [nyaosorg/go-readline-ny](https://github.com/nyaosorg/go-readline-ny) に乗り換えた | {{% icons "square-check" %}} |
 | [file](https://github.com/spiegel-im-spiegel/file) | 全く使ってない | {{% icons "square-check" %}} |
-| [jpera](https://github.com/spiegel-im-spiegel/jpera) | koyomi パッケージに統合する？ | {{% icons "square" %}} |
-| [jzodiac](https://github.com/spiegel-im-spiegel/jzodiac) | koyomi パッケージに統合する？ | {{% icons "square" %}} |
+| [jpera](https://github.com/spiegel-im-spiegel/jpera) | [koyomi](https://github.com/goark/koyomi) パッケージに移行・統合した | {{% icons "square-check" %}} |
+| [jzodiac](https://github.com/spiegel-im-spiegel/jzodiac) | [koyomi](https://github.com/goark/koyomi) パッケージに移行・統合した | {{% icons "square-check" %}} |
 | [gjq](https://github.com/spiegel-im-spiegel/gjq) | 全く使ってない | {{% icons "square-check" %}} |
 | [jvnman](https://github.com/spiegel-im-spiegel/jvnman) | 全く使ってない | {{% icons "square-check" %}} |
 | [go-myjvn](https://github.com/spiegel-im-spiegel/go-myjvn) | 全く使ってない | {{% icons "square-check" %}} |
@@ -58,7 +57,8 @@ pageType = "text"
 | [gocodic](https://github.com/spiegel-im-spiegel/gocodic) | 全く使ってない | {{% icons "square-check" %}} |
 | [icat4json](https://github.com/spiegel-im-spiegel/icat4json) | 全く使ってない | {{% icons "square-check" %}} |
 | [gitioapi](https://github.com/spiegel-im-spiegel/gitioapi) | 全く使ってない | {{% icons "square-check" %}} |
-| [xls2csv](https://github.com/spiegel-im-spiegel/xls2csv) | 全く使ってないけどそこそこ☆が付いてるんだよなぁ | {{% icons "square" %}} |
+| [xls2csv](https://github.com/spiegel-im-spiegel/xls2csv) | 外部パッケージのパスとバージョンを更新したものをリリースして凍結 | {{% icons "square-check" %}} |
+| [emojis](https://github.com/spiegel-im-spiegel/emojis) | 全く使ってない | {{% icons "square" %}} |
 
 ## その他の TODO
 
