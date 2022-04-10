@@ -23,7 +23,7 @@ Moving the gitGraph from experimental alpha status to a fully supported diagram 
 
 を参照してもらうとして，たとえば
 
-{{< highlight mermaid >}}
+{{< highlight text >}}
 ```mermaid
 %%{init: { 'gitGraph': {'mainBranchName': 'main','showCommitLabel': false}} }%%
 gitGraph

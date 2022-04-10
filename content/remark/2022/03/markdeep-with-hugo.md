@@ -19,7 +19,7 @@ pageType = "text"
 
 [GoAT (Go ASCII Tool)][GoAT] は [Markdeep] を Go で実装し直したものだそうで，たとえば
 
-{{< highlight goat >}}
+{{< highlight text >}}
 ```goat
 +-------------------+                           ^                      .---.
 |    A Box          |__.--.__    __.-->         |      .-.             |   |
@@ -109,7 +109,7 @@ pageType = "text"
 と定義しておく。
 これでコード・ブロックを使って
 
-{{< highlight mermaid >}}
+{{< highlight text >}}
 ```mermaid
 sequenceDiagram
     カバ->>+カバン: あなた，泳げまして？
