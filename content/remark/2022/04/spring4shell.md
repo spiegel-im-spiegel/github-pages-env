@@ -69,6 +69,8 @@ At this time, the exploit is only known to be possible with a Java Runtime Envir
 - [VU#970766 - Spring Framework insecurely handles PropertyDescriptor objects with data binding](https://kb.cert.org/vuls/id/970766)
 - [Spring Frameworkの任意のコード実行の脆弱性（CVE-2022-22965）について](https://www.jpcert.or.jp/newsflash/2022040101.html)
 - [Spring Frameworkの脆弱性 CVE-2022-22965（Spring4shell）についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2022/04/01/065946)
+- [SpringShell RCE vulnerability: Guidance for protecting against and detecting CVE-2022-22965 - Microsoft Security Blog](https://www.microsoft.com/security/blog/2022/04/04/springshell-rce-vulnerability-guidance-for-protecting-against-and-detecting-cve-2022-22965/)
+- [CVE-2022-22947: Spring Cloud Gateway Code Injection Vulnerability | Security | VMware Tanzu](https://tanzu.vmware.com/security/cve-2022-22947)
 
 ## 参考図書
 

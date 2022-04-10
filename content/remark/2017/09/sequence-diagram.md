@@ -281,6 +281,7 @@ classDiagram
     - [Graphvizとdot言語でグラフを描く方法のまとめ - Qiita](https://qiita.com/rubytomato@github/items/51779135bc4b77c8c20d)
 
 - [エディタ以上ワープロ未満の HackMD]({{< ref "/remark/2017/04/hackmd.md" >}})
+- [Mermaid.js の Git コミット図が正式版になった]({{< ref "/remark/2022/04/git-graph-with-mermaid.md" >}})
 
 [本ブログ]: / "text.Baldanders.info"
 [mermaid]: https://mermaidjs.github.io/

@@ -11,6 +11,8 @@
 
 - [スティーブン・ウォルト『同盟の起源』邦訳刊行記念ウェビナー | Peatix](http://origins-of-alliances20220412.peatix.com) : 4/12 (火)，３月と勘違いしてた orz
 
+- [[security] Go 1.18.1 and Go 1.17.9 pre-announcement](https://groups.google.com/g/golang-announce/c/vtbMjE04kPk)
+
 
 ## リリース情報 {#release}
 
@@ -28,9 +30,6 @@
 
 
 ## Go 言語関連 {#golang}
-
-
-## Rust 言語関連 {#rust}
 
 
 ## Java  言語関連 {#java}

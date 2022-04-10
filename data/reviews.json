@@ -18382,5 +18382,42 @@
       false
     ],
     "Description": "アニメ「\u003ca href=\"https://arifureta.com/\"\u003eありふれた職業で世界最強\u003c/a\u003e」第2期のOP曲。最近のヘヴィローテーション。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09C2XBC2F",
+      "Title": "デベロッパーゴースーパーゴラン Tシャツ",
+      "URL": "https://www.amazon.co.jp/dp/B09C2XBC2F?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31PDIZXO9tL._SL160_.jpg",
+        "Height": 149,
+        "Width": 160
+      },
+      "ProductType": "ウェア\u0026シューズ",
+      "Publisher": "Geek Go Super Golang Tees",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09C2XBC2F"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-04-10",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "ついカッとなってポチった。反省はしない"
   }
 ]
