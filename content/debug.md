@@ -126,6 +126,29 @@ classDiagram
     fennec : +Haiyo()
 {{< /fig-mermaid >}}
 
+### Git コミット図（Mermaid）
+
+```mermaid
+%%{init: { 'gitGraph': {'showCommitLabel': false}} }%%
+gitGraph
+    commit tag:"v1.0.0" type:REVERSE
+    branch featureA
+    commit
+    checkout main
+    branch hotfix
+    commit
+    commit type: HIGHLIGHT
+    checkout main
+    merge hotfix
+    commit tag:"v1.0.1"
+    checkout featureA
+    merge hotfix
+    commit type: HIGHLIGHT
+    checkout main
+    merge featureA
+    commit tag:"v1.1.0"
+```
+
 ## アイコン
 
 ### CC Licenses
