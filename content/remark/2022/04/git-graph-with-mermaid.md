@@ -23,8 +23,7 @@ Moving the gitGraph from experimental alpha status to a fully supported diagram 
 
 を参照してもらうとして，たとえば
 
-{{< highlight text >}}
-```mermaid
+```text
 %%{init: { 'gitGraph': {'mainBranchName': 'main','showCommitLabel': false}} }%%
 gitGraph
     commit tag:"v1.0.0" type:REVERSE
@@ -44,7 +43,6 @@ gitGraph
     merge featureA
     commit tag:"v1.1.0"
 ```
-{{< /highlight >}}
 
 などと書けば
 
