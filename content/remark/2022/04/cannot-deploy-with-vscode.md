@@ -27,6 +27,14 @@ VS Code 1.66 upgraded to Node 16 which has been causing deployment issues for bo
 Windows 環境では自動更新を無効にするのをお忘れなく。
 やれやれ
 
+{{< div-box type="markdown" >}}
+**【2022-04-14 追記】**
+v1.66.2 で直った。
+よかったよかった。
+
+- [Release March 2022 Recovery 2 · microsoft/vscode · GitHub](https://github.com/microsoft/vscode/releases/tag/1.66.2)
+{{< /div-box >}}
+
 ## ブックマーク
 
 - [Investigate ECONNRESET issue during "zipdeploy" call · Issue #2844 · microsoft/vscode-azurefunctions · GitHub](https://github.com/microsoft/vscode-azurefunctions/issues/2844)
@@ -34,4 +42,3 @@ Windows 環境では自動更新を無効にするのをお忘れなく。
 [App Service]: https://azure.microsoft.com/en-us/services/app-service/ "App Service — Build & Host Web Apps | Microsoft Azure"
 [VS Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
 [Azure App Service]: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice "Azure App Service - Visual Studio Marketplace"
-<!-- eof -->
