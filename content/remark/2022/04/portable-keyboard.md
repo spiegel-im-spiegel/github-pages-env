@@ -1,7 +1,7 @@
 +++
 title = "折りたたみキーボードを新調した"
 date =  "2022-04-16T12:00:21+09:00"
-description = "description"
+description = "出先でちょっとした入力に使うだけし何とかなるだろう。"
 image = "/images/attention/kitten.jpg"
 tags = [ "tools" ]
 pageType = "text"
