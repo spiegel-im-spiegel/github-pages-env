@@ -18419,5 +18419,41 @@
       false
     ],
     "Description": "ついカッとなってポチった。反省はしない"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B094HVD8SD",
+      "Title": "iCleverキーボード Bluetooth 折りたたみ式 キーボードマルチペアリング 丸いボタン 軽量 スマホ用 iPad用iPhone用ブルートゥースキーボード 充電式 Android/Windows/iOS対応 財布型 日本語説明書 ブラック IC-BK26",
+      "URL": "https://www.amazon.co.jp/dp/B094HVD8SD?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/414vyutg0vL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "IC-BK26",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B094HVD8SD"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-04-16",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "お出かけ用に購入。思ったよりはコンパクトだが窮屈な感じではない。 Andorid タブレットと繋いで問題なく使えている。"
   }
 ]
