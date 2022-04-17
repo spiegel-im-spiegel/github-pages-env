@@ -21,7 +21,7 @@ pageType = "text"
 「土用」は四季を無理くり五行説に当てはめた弊害（笑）でできた，第五の季節とでも言うべきものだ。
 春＝木，夏＝火，秋＝金，冬＝水とすると「土」が余ってしまうので，各季節から $1/5$ ずつ拝借して作ったのが「土用」の元々の起源らしい。
 
-{{< fig-img-quote src="./Wuxing_2.svg" title="File:Wuxing fr 2.svg - Wikimedia Commons (CC-BY-SA 3.0)" link="https://commons.wikimedia.org/wiki/File:Wuxing_fr_2.svg" lang="en" >}}
+{{< fig-img-quote src="./Wuxing_2.svg" title="File:Wuxing fr 2.svg - Wikimedia Commons (CC-BY-SA 3.0)" link="https://commons.wikimedia.org/wiki/File:Wuxing_fr_2.svg#/media/File:Wuxing_2.svg" lang="en" >}}
 
 いわゆる「平気法（または恒気法）[^e1]」では没日を除いた1年の長さは360日なので，各季節の $1/5$ は $(360 \div 4) \div 5 = 18\mathrm{日}$ となる。
 これが「土用は各季節の最後の18日間」などと言われる所以である。
