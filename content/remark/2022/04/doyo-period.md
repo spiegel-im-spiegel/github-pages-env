@@ -3,7 +3,7 @@ title = "第五の季節：土用"
 date =  "2022-04-17T15:37:40+09:00"
 description = "今回は「土用」に関する小咄などを。"
 image = "/images/attention/kitten.jpg"
-tags = [ "astronomy", "ephemeris", "calendar" ]
+tags = [ "astronomy", "ephemeris", "calendar", "golang" ]
 pageType = "text"
 
 [scripts]
