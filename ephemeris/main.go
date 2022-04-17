@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/spiegel-im-spiegel/koyomi"
+	"github.com/goark/koyomi"
 )
 
 var weekShortNames = []string{"日", "月", "火", "水", "木", "金", "土"}
@@ -39,7 +39,7 @@ func main() {
 	}
 }
 
-/* Copyright 2020-2021 Spiegel
+/* Copyright 2020-2022 Spiegel
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
