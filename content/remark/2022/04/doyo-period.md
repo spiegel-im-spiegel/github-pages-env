@@ -1,11 +1,10 @@
 +++
 title = "第五の季節：土用"
-date =  "2022-04-17T11:10:58+09:00"
+date =  "2022-04-17T15:37:40+09:00"
 description = "今回は「土用」に関する小咄などを。"
 image = "/images/attention/kitten.jpg"
 tags = [ "astronomy", "ephemeris", "calendar" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = true
