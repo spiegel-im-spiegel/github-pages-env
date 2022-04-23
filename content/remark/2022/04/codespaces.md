@@ -82,6 +82,11 @@ pageType = "text"
 
 ## ブックマーク
 
+- [GitHub開発チームでのCodespacesの利用 - GitHubブログ](https://github.blog/jp/2021-08-30-githubs-engineering-team-moved-codespaces/)
+- [GitHub Codespaces · GitHub](https://github.com/features/codespaces)
+- [GitHub Codespaces Documentation - GitHub Docs](https://docs.github.com/en/codespaces)
+- [Codespaces の支払いについて - GitHub Docs](https://docs.github.com/ja/billing/managing-billing-for-github-codespaces/about-billing-for-codespaces)
+- [Github CodeSpace 触ってみた - Qiita](https://qiita.com/Alt225/items/5d904fafc779e6505768)
 - [GitHub Codespaces をつかって 3分で始めるサービス開発 | Wantedly, Inc.](https://www.wantedly.com/companies/wantedly/post_articles/355862)
 - [GitHub Codespaces で開発する - Wantedly Engineering Handbook](https://docs.wantedly.dev/fields/dev-tools/codespaces)
 
