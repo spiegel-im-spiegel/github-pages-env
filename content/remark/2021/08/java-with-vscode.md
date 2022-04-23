@@ -15,6 +15,7 @@ pageType = "text"
 2. [Go と VS Code]({{< ref "/remark/2021/02/golang-with-vscode.md" >}})
 3. [Markdown と VS Code]({{< ref "/remark/2021/02/markdown-with-vscode.md" >}})
 4. [Java と VS Code]({{< ref "/remark/2021/08/java-with-vscode.md" >}}) ← イマココ
+5. [やっと Codespaces が使える]({{< ref "/remark/2022/04/codespaces.md" >}})
 
 仕事で Spring Boot なコードを書くことになって，今更ながら基本から勉強し直している。
 で，どうせなら [VS Code] で環境を作るのがいいよねってことで，覚え書きとして記しておく。
