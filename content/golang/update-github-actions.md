@@ -1,11 +1,10 @@
 +++
 title = "CI 用の GitHub Actions が諸々アップデートされていた"
-date =  "2022-04-24T18:30:17+09:00"
+date =  "2022-04-24T18:41:02+09:00"
 description = "GitHub Actions アップデートまつりw"
 image = "/images/attention/go-logo_blue.png"
 tags = [ "github", "golang", "continuous-integration" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
