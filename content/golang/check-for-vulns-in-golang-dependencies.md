@@ -159,6 +159,10 @@ jobs:
 などとすればOK。
 [Go] 1.16 以降で有効なのでご注意を。
 
+## ブックマーク
+
+- [CI 用の GitHub Actions が諸々アップデートされていた]({{< ref "/golang/update-github-actions.md" >}})
+
 [Go]: https://go.dev/
 [nancy]: https://github.com/sonatype-nexus-community/nancy "sonatype-nexus-community/nancy: A tool to check for vulnerabilities in your Golang dependencies, powered by Sonatype OSS Index"
 [Sonatype OSS Index]: https://ossindex.sonatype.org/

@@ -81,6 +81,7 @@ jobs:
 - [reviewdog-golangci-lint を使う](https://zenn.dev/ikawaha/articles/57384e8fc69c7b057f7f)
 
 - [golangci-lint に叱られる]({{< ref "/golang/donot-sleep-through-life.md" >}})
+- [CI 用の GitHub Actions が諸々アップデートされていた]({{< ref "/golang/update-github-actions.md" >}})
 
 [Go]: https://go.dev/
 [golangci-lint]: https://golangci-lint.run/

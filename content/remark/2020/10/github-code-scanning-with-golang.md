@@ -126,6 +126,7 @@ jobs:
 - [Code Scanning a GitHub Repository using GitHub Advanced Security within an Azure DevOps Pipeline - The GitHub Blog](https://github.blog/2020-10-27-code-scanning-a-github-repository-using-github-advanced-security-within-an-azure-devops-pipeline/)
 
 - [Go 依存パッケージの脆弱性検査]({{< ref "/golang/check-for-vulns-in-golang-dependencies.md" >}})
+- [CI 用の GitHub Actions が諸々アップデートされていた]({{< ref "/golang/update-github-actions.md" >}})
 
 [Go]: https://go.dev/
 [GitHub]: https://github.com/
