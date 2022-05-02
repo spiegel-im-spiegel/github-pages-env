@@ -1,7 +1,7 @@
 +++
-title = "ユリウス日が2460,000日を超える日"
+title = "ユリウス日が2,460,000日を超える日"
 date =  "2022-05-02T20:38:59+09:00"
-description = "2023年にはユリウス日が2460,000日を超えるそうな。"
+description = "2023年にはユリウス日が2,460,000日を超えるそうな。"
 image = "/images/attention/kitten.jpg"
 tags = [ "astronomy", "julian-day-number", "golang" ]
 pageType = "text"
