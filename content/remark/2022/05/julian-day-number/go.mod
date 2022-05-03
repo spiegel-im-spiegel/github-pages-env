@@ -2,7 +2,7 @@ module jdnsample
 
 go 1.18
 
-require github.com/goark/koyomi v0.6.1
+require github.com/goark/koyomi v0.6.2
 
 require (
 	github.com/PuloV/ics-golang v0.0.0-20190808201353-a3394d3bcade // indirect
