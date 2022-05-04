@@ -39,7 +39,7 @@ image = "/images/avatar.jpg"
     - [2018年12月17日ニュース「パリ協定の実施ルールは全ての国に共通の基準で COP24で交渉難航の末に採択」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/12/20181217_01.html)
 - [米軍がシリアから早期撤退へ：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](https://www.fsight.jp/articles/-/44656)
 - [孟CFO逮捕は「アル・カポネ戦略」：大統領に知らせなかった「本当の理由」：春名幹男 | インテリジェンス・ナウ | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](https://www.fsight.jp/articles/-/44659)
-- [ジェームズ・マティス国防長官が辞任  |  TechCrunch Japan](https://jp.techcrunch.com/2018/12/21/2018-12-20-james-mattis-resignation-trump/)
+- [ジェームズ・マティス国防長官が辞任  |  TechCrunch Japan](https://techcrunch.com/2018/12/20/james-mattis-resignation-trump/)
 
 ## セキュリティ関連
 
@@ -60,7 +60,7 @@ image = "/images/avatar.jpg"
     - [SQLite/Chromium脆弱性“Magellan”は「Electron」にも影響 ～修正版が公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1159361.html)
 - [MIT Tech Review: オーストラリアで「反暗号化法」が成立、バックドア要請可能に](https://www.technologyreview.jp/nl/this-is-how-australias-ban-on-encryption-could-endanger-us-all/)
 - [南紀白浜、空港と周辺施設でIoT活用--顔認証や非現金決済を技術検証 - ZDNet Japan](https://japan.zdnet.com/article/35130252/)
-- [Twitter投稿の画像から指令を受けるマルウェア発見  |  TechCrunch Japan](https://jp.techcrunch.com/2018/12/18/2018-12-17-malware-commands-code-twitter-hidden-memes/)
+- [Twitter投稿の画像から指令を受けるマルウェア発見  |  TechCrunch Japan](https://techcrunch.com/2018/12/17/malware-commands-code-twitter-hidden-memes/)
 - [PayPayに関連するインシデントについてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20181218/1545164396)
     - [PayPay、クレカのセキュリティコード入力回数を制限へ - ケータイ Watch](https://k-tai.watch.impress.co.jp/docs/news/1158858.html)
 - [ファーウェイが声明　「製品に余計なものが見つかった」報道は「事実無根」と否定 - ITmedia Mobile](http://www.itmedia.co.jp/mobile/articles/1812/15/news034.html)
@@ -72,7 +72,7 @@ image = "/images/avatar.jpg"
 - [年末年始における情報セキュリティに関する注意喚起：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/topics/alert20181220.html)
 - [ランサムウェア感染によるブルーチップのシステム障害についてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20181220/1545341830)
 - [内閣サイバーセキュリティセンターによる注意喚起について：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20181221.html)
-- [Firefox Focusがトラッキングに対する保護を強化、GoogleのSafe Browsingサービスを導入  |  TechCrunch Japan](https://jp.techcrunch.com/2018/12/21/2018-12-20-firefox-focus-adds-support-for-enhanced-tracking-protection-and-googles-safe-browsing-service/)
+- [Firefox Focusがトラッキングに対する保護を強化、GoogleのSafe Browsingサービスを導入  |  TechCrunch Japan](https://techcrunch.com/2018/12/20/firefox-focus-adds-support-for-enhanced-tracking-protection-and-googles-safe-browsing-service/)
 - [米軍が使用していた2つのAndroidアプリに深刻な脆弱性--内部告発で明らかに - CNET Japan](https://japan.cnet.com/article/35130477/)
 
 ## 天文関連
@@ -109,13 +109,13 @@ image = "/images/avatar.jpg"
 - [Strength in Numbers: An Entire Ecosystem Relies on Tor  | Tor Blog](https://blog.torproject.org/strength-numbers-entire-ecosystem-relies-tor)
 - [Oops! EU Piracy Watchlist Includes a Perfectly Legal Site - TorrentFreak](https://torrentfreak.com/oops-eu-piracy-watchlist-includes-a-perfectly-legal-site/)
 - [PsyArXiv Preprints | Opinion statement from Japanese psychologists](https://psyarxiv.com/xh7fr/)
-- [eブックの余白に注釈などを書いて友だちとソーシャルに共有できるGloseが$3.4Mを調達  |  TechCrunch Japan](https://jp.techcrunch.com/2018/12/15/2018-12-13-glose-raises-3-4-million-for-its-collaborative-reading-app/)
+- [eブックの余白に注釈などを書いて友だちとソーシャルに共有できるGloseが$3.4Mを調達  |  TechCrunch Japan](https://techcrunch.com/2018/12/13/glose-raises-3-4-million-for-its-collaborative-reading-app/)
 - [シンプル＆クールな無料ミュージックプレイヤー「Dopamine」【レビュー】 - 窓の杜](https://forest.watch.impress.co.jp/docs/review/1158348.html)
 - [Rustが過去最大のバージョンアップ、「Rust 2018 Edition」正式リリース － Publickey](https://www.publickey1.jp/blog/18/rustrust_2018_edition.html)
 - [児童ポルノの表現規制に関する考え方のスケッチ – mhatta's mumbo jumbo](http://www.mhatta.org/wp/2018/12/05/thoughts-on-child-porn-regulation/)
 - [これはマツダ版Uber!?　コネクティビティ技術を活用した移動サービス実証実験を開始  |  TechCrunch Japan](https://jp.techcrunch.com/2018/12/17/autoblog-uber-mazda-daihtsu/) : 広島県三次市で実証実験
-- [Coinbaseで暗号通貨同士の交換が可能に  |  TechCrunch Japan](https://jp.techcrunch.com/2018/12/19/2018-12-18-coinbase-lets-you-convert-one-cryptocurrency-into-another/)
+- [Coinbaseで暗号通貨同士の交換が可能に  |  TechCrunch Japan](https://techcrunch.com/2018/12/18/coinbase-lets-you-convert-one-cryptocurrency-into-another/)
 - [魔法の天使クリィミーマミ　不機嫌なお姫様｜コミックタタン](http://tatan.jp/lib/top.php?id=141)
-- [著名アナリストがアムネスティインターナショナルによる虐待批判を擁護してからTwitter株激落  |  TechCrunch Japan](https://jp.techcrunch.com/2018/12/21/2018-12-20-twitter-stock-down-after-analyst-calls-it-harvey-weinstein-of-social-media/)
-- [存在教育エラー：学生のソフトウエア教育に失敗しました  |  TechCrunch Japan](https://jp.techcrunch.com/2018/12/22/2018-12-14-existential-education-error-failing-to-train-students-on-software/)
+- [著名アナリストがアムネスティインターナショナルによる虐待批判を擁護してからTwitter株激落  |  TechCrunch Japan](https://techcrunch.com/2018/12/20/twitter-stock-down-after-analyst-calls-it-harvey-weinstein-of-social-media/)
+- [存在教育エラー：学生のソフトウエア教育に失敗しました  |  TechCrunch Japan](https://techcrunch.com/2018/12/14/existential-education-error-failing-to-train-students-on-software/)
 - [電子ペーパーでバッテリ駆動180日のスマートウォッチ--アナログ時刻表示は2年間 - CNET Japan](https://japan.cnet.com/article/35130434/)

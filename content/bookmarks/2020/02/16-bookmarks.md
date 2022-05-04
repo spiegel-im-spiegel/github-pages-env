@@ -18,7 +18,7 @@ pageType = "text"
 ## セキュリティ＆プライバシー関連
 
 - [Apple's Tracking-Prevention Feature in Safari has a Privacy Bug - Schneier on Security](https://www.schneier.com/blog/archives/2020/02/apples_tracking.html)
-- [サブスクのパスワードを友人と安全に共有するJamのニーズと合法性  |  TechCrunch Japan](https://jp.techcrunch.com/2020/02/12/2020-02-10-share-netflix-password-app/)
+- [サブスクのパスワードを友人と安全に共有するJamのニーズと合法性  |  TechCrunch Japan](https://techcrunch.com/2020/02/10/share-netflix-password-app/)
 - [Crypto AG Was Owned by the CIA - Schneier on Security](https://www.schneier.com/blog/archives/2020/02/crypto_ag_was_o.html)
 - [シスコのネットワーク機器に見つかった脆弱性は、多くの企業に深刻な影響を及ぼしかねない｜WIRED.jp](https://wired.jp/2020/02/12/cisco-cdp-flaws-enterprise-hacking/)
 - [New Ransomware Targets Industrial Control Systems - Schneier on Security](https://www.schneier.com/blog/archives/2020/02/new_ransomware_.html)
@@ -31,7 +31,7 @@ pageType = "text"
 - [How Big Companies Spy on Your Emails - VICE](https://www.vice.com/en_us/article/pkekmb/free-email-apps-spying-on-you-edison-slice-cleanfox)
     - [Companies that Scrape Your Email - Schneier on Security](https://www.schneier.com/blog/archives/2020/02/companies_that_.html)
 - [投稿と削除が繰り返されたFacebookの公式SNSアカウント侵害についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/02/14/070016)
-- [米国土安全保障省が不法移民の特定にアプリの位置情報を利用、自由人権協会が反発  |  TechCrunch Japan](https://jp.techcrunch.com/2020/02/10/2020-02-07-aclu-dhs-app-locations-deportations/)
+- [米国土安全保障省が不法移民の特定にアプリの位置情報を利用、自由人権協会が反発  |  TechCrunch Japan](https://techcrunch.com/2020/02/07/aclu-dhs-app-locations-deportations/)
 - [Internet's safe-keepers forced to postpone crucial DNSSEC root key signing ceremony – no, not a hacker attack, but because they can't open a safe • The Register](https://www.theregister.co.uk/2020/02/13/iana_dnssec_ksk_delay/)
     - [DNSSEC Keysigning Ceremony Postponed Because of Locked Safe - Schneier on Security](https://www.schneier.com/blog/archives/2020/02/dnssec_keysigni.html)
 
@@ -42,7 +42,7 @@ pageType = "text"
 - [ESA Science & Technology - Liftoff for Solar Orbiter, ESA's mission to face the Sun up close](https://sci.esa.int/web/solar-orbiter/-/liftoff-for-solar-orbiter-esa-s-mission-to-face-the-sun-up-close)
     - [Solar Orbiter Launch Takes Solar Science to New Heights | NASA](https://www.nasa.gov/press-release/solar-orbiter-launch-takes-solar-science-to-new-heights)
     - [2020年2月12日ニュース「太陽フレアを観測する探査機を欧米宇宙機関が打ち上げ」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2020/02/20200212_01.html)
-- [宇宙産業スタートアップAstroscaleがJAXAと共同でスペースデブリ処理へ  |  TechCrunch Japan](https://jp.techcrunch.com/2020/02/13/2020-02-12-orbital-debris-startup-astroscale-chosen-by-jaxa-for-its-first-space-junk-removal-mission/)
+- [宇宙産業スタートアップAstroscaleがJAXAと共同でスペースデブリ処理へ  |  TechCrunch Japan](https://techcrunch.com/2020/02/12/orbital-debris-startup-astroscale-chosen-by-jaxa-for-its-first-space-junk-removal-mission/)
 - [地上大型電波望遠鏡により、土星の衛星タイタンの大気成分の詳細な観測に成功 ～太陽系外からの放射線が大気成分に与える影響を明らかに～ | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2020/20200214-alma.html)
     - [プレスリリース - 地上大型電波望遠鏡により、土星の衛星タイタンの大気成分の詳細な観測に成功 ～太陽系外からの放射線が大気成分に与える影響を明らかに～ - アルマ望遠鏡](https://alma-telescope.jp/news/press/titan-202002)
 - [APOD: 2020 February 14 - The Pale Blue Dot](https://apod.nasa.gov/apod/ap200214.html)

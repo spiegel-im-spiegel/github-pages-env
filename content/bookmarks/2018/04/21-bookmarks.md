@@ -25,7 +25,7 @@ flattr    = ""
 
 ## Age of Trump
 
-- [Apple、クリーンパワー計画撤廃案に反対表明  |  TechCrunch Japan](https://jp.techcrunch.com/2018/04/09/2018-04-06-apple-voices-opposition-to-clean-power-plan-repeal/)
+- [Apple、クリーンパワー計画撤廃案に反対表明  |  TechCrunch Japan](https://techcrunch.com/2018/04/06/apple-voices-opposition-to-clean-power-plan-repeal/)
 - [シリアで化学兵器が｢容認｣されつつある実態 | アジア諸国 | 東洋経済オンライン | 経済ニュースの新基準](https://toyokeizai.net/articles/-/216487)
 
 ## セキュリティ関連
@@ -41,13 +41,13 @@ flattr    = ""
 - [Spring Framework の脆弱性に関する注意喚起](http://www.jpcert.or.jp/at/2018/at180014.html)
 - [ランサムウェア「GandCrab」、Flashの脆弱性で拡散開始か - ZDNet Japan](https://japan.zdnet.com/article/35117475/)
 - [YouTubeによる子供の情報収集は違法--人権団体ら、FTCに申し立て - CNET Japan](https://japan.cnet.com/article/35117479/)
-- [FIDOアライアンスおよびW3C、「パスワード」無用の仕組みを提案  |  TechCrunch Japan](https://jp.techcrunch.com/2018/04/11/2018-04-10-fido-alliance-and-w3c-have-a-plan-to-kill-the-password/)
+- [FIDOアライアンスおよびW3C、「パスワード」無用の仕組みを提案  |  TechCrunch Japan](https://techcrunch.com/2018/04/10/fido-alliance-and-w3c-have-a-plan-to-kill-the-password/)
 - [Spring Framework の脆弱性に関する注意喚起](https://www.jpcert.or.jp/at/2018/at180014.html)
 - [Spring Data Commons の脆弱性に関する注意喚起](https://www.jpcert.or.jp/at/2018/at180017.html)
 - [Basic 認証情報が ISO-8859-1 から UTF-8 によるエンコードに変わりました (影響あり) | Firefox サイト互換性情報](https://www.fxsitecompat.com/ja/docs/2018/basic-auth-credentials-are-now-encoded-in-utf-8-instead-of-iso-8859-1/)
 - [【レビュー】“Facebook”がなにを収集し、なにを得ているのかをシミュレートする「Data Selfie」 - 窓の杜](https://forest.watch.impress.co.jp/docs/review/1116626.html)
 - [JVNVU#95312708: Microsoft Outlook の OLE コンテンツ取得における問題](https://jvn.jp/vu/JVNVU95312708/)
-- [SRLが多くのAndroid機のセキュリティパッチの怠慢を暴露、Googleはこれに反論  |  TechCrunch Japan](https://jp.techcrunch.com/2018/04/13/2018-04-12-are-hardware-makers-doing-enough-to-keep-android-phones-secure/)
+- [SRLが多くのAndroid機のセキュリティパッチの怠慢を暴露、Googleはこれに反論  |  TechCrunch Japan](https://techcrunch.com/2018/04/12/are-hardware-makers-doing-enough-to-keep-android-phones-secure/)
 - [Russian State-Sponsored Cyber Actors Targeting Network Infrastructure Devices | US-CERT](https://www.us-cert.gov/ncas/alerts/TA18-106A)
 - [パスワードに依存しない認証「WebAuthn」をChrome/Firefox/Edgeが実装開始、W3Cが標準化。Webはパスワードに依存しないより安全で便利なものへ － Publickey](http://www.publickey1.jp/blog/18/webauthnchromefirefoxedgew3cweb.html)
 - [Hackers Can Hijack Emergency Sirens With a Radio](https://gizmodo.com/hackers-can-hijack-emergency-sirens-with-a-radio-1825137941)
@@ -83,7 +83,7 @@ flattr    = ""
 - [ブロックチェーンは、技術としても未来像としても残念なものである | 上杉周作](https://chibicode.com/jp/blockchain-technology/)
 - [「悪い方が良い」原則と僕の体験談｜Rui Ueyama｜note](https://note.mu/ruiu/n/n9948f0cc3ed3)
 - [bitFlyerがObjective-C共同開発者Tom Love氏を顧問に、ブロックチェーン向け言語開発に取り組む  |  TechCrunch Japan](https://jp.techcrunch.com/2018/04/06/tomlove-joins-bitflyer/)
-- [CometMLは「機械学習のためのGitHub」になることを狙う  |  TechCrunch Japan](https://jp.techcrunch.com/2018/04/06/2018-04-05-cometml-wants-to-do-for-machine-learning-what-github-did-for-code/)
+- [CometMLは「機械学習のためのGitHub」になることを狙う  |  TechCrunch Japan](https://techcrunch.com/2018/04/05/cometml-wants-to-do-for-machine-learning-what-github-did-for-code/)
 - [ssh_configでの落とし穴 - Qiita](https://qiita.com/tsuyoshi_cho/items/90038d14da3a71a84aba)
 - [ExcelからODBCなしでSQLiteを操作する(設定編） - Qiita](https://qiita.com/hisayuki/items/9b42624790ba74a2fb35)
 - [Android Studio 3.1正式版リリース。新コンパイラで小さく高速な実行ファイル生成、コマンドラインでのKotlin文法チェック、起動が高速になったエミュレータなど － Publickey](http://www.publickey1.jp/blog/18/android_studio_31kotlin.html)
@@ -98,7 +98,7 @@ flattr    = ""
 - [「Microsoft Visual Studio 2008」のサポートが終了 ～無償版「Express Edition」も - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1116235.html)
 - [音楽業界が16.5%の二桁成長したアメリカは、いかに「音楽ストリーミングの国」として成功したか？ | All Digital Music](http://jaykogami.com/2018/04/15100.html)
 - [【西川和久の不定期コラム】手軽にシングルボードコンピュータ環境を試せる「ドスパラ DG-Tinker3288」  - PC Watch](https://pc.watch.impress.co.jp/docs/column/nishikawa/1116189.html)
-- [Facebookは初期のデータ漏洩をFTCに報告していなかった  |  TechCrunch Japan](https://jp.techcrunch.com/2018/04/11/2018-04-10-facebook-did-not-inform-the-ftc-about-initial-cambridge-analytica-leak/)
+- [Facebookは初期のデータ漏洩をFTCに報告していなかった  |  TechCrunch Japan](https://techcrunch.com/2018/04/10/facebook-did-not-inform-the-ftc-about-initial-cambridge-analytica-leak/)
 - [ザッカーバーグCEOが上院公聴会で証言--Facebookユーザー情報の扱い、議員らが追及 - CNET Japan](https://japan.cnet.com/article/35117531/)
     - [ザッカーバーグの公聴会後、フェイスブック本社が「安堵の空気」に包まれた理由｜WIRED.jp](https://wired.jp/2018/04/16/sigh-of-relief-inside-facebook/)
 - [Open Container Initiative（OCI）がDockerイメージの配布プロトコル標準化に着手。事実上の標準であるDocker Registry HTTP API V2をベースに － Publickey](http://www.publickey1.jp/blog/18/open_container_initiativeocidockerdocker_registry_http_api_v2.html)
@@ -113,7 +113,7 @@ flattr    = ""
 - [Nexus Guideがアップデート、統合性と透明性を重視](https://www.infoq.com/jp/news/2018/04/updates-nexus-guide)
 - [2018年4月16日ニュース「プレート境界の『スロースリップ』は、水を絞り出して地震を誘発する」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/04/20180416_01.html)
 - [Go言語がWebAssemblyをサポートへ。GOARCHは「wasm」、GOOSは「js」に － Publickey](http://www.publickey1.jp/blog/18/gowebassemblygoarchwasmgoosjs.html)
-- [Microsoftが新しいIoTサービスのために独自のLinuxカーネルを作った  |  TechCrunch Japan](https://jp.techcrunch.com/2018/04/17/2018-04-16-microsoft-built-its-own-custom-linux-kernel-for-its-new-iot-service/)
+- [Microsoftが新しいIoTサービスのために独自のLinuxカーネルを作った  |  TechCrunch Japan](https://techcrunch.com/2018/04/16/microsoft-built-its-own-custom-linux-kernel-for-its-new-iot-service/)
 - [さくらインターネット、「さくらのレンタルサーバ」でWordPressなどPHPアプリケーションを最大16倍に高速化～より直感的で分かりやすくコントロールパネルも刷新～](https://www.sakura.ad.jp/press/2018/0418_rentalserver-speedup/)
 - [さくらのレンタルサーバ スタンダード・プレミアムにて「PHPモジュールモード」提供開始のお知らせ | さくらインターネット](https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1929)
 - [AWSを基盤に用いたレンタルサーバ「Zenlogicホスティング Powered by AWS」提供開始、ファーストサーバ － Publickey](http://www.publickey1.jp/blog/18/awszenlogic_powered_by_aws.html)

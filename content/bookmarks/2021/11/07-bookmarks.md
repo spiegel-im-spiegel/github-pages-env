@@ -33,7 +33,7 @@ pageType = "text"
   - [Hiding Vulnerabilities in Source Code - Schneier on Security](https://www.schneier.com/blog/archives/2021/11/hiding-vulnerabilities-in-source-code.html)
 - [BIND 9.xにリゾルバの大幅なパフォーマンス低下につながる脆弱性 | TECH+](https://news.mynavi.jp/article/20211102-2174911/)
 - [macOS向け端末エミュレータ「iTerm2」を偽装する攻撃手口を解説](https://blog.trendmicro.co.jp/archives/29107)
-- [米国がスパイウェア「Pegasus」問題でセキュリティ企業NSOグループとの取引を禁止  |  TechCrunch Japan](https://jp.techcrunch.com/2021/11/04/2021-11-03-us-bans-trade-with-security-firm-nso-group-over-pegasus-spyware/)
+- [米国がスパイウェア「Pegasus」問題でセキュリティ企業NSOグループとの取引を禁止  |  TechCrunch Japan](https://techcrunch.com/2021/11/03/us-bans-trade-with-security-firm-nso-group-over-pegasus-spyware/)
   - [US Blacklists NSO Group - Schneier on Security](https://www.schneier.com/blog/archives/2021/11/us-blacklists-nso-group.html)
   - [米政府、スパイウェア「Pegasus」開発企業を禁輸リストに追加 - ZDNet Japan](https://japan.zdnet.com/article/35178953/)
 - [オムニECサイトへの不正アクセスについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2021/11/03/064435)
@@ -82,9 +82,9 @@ pageType = "text"
 - [AWS、新たな責任共有モデルの「Amazon RDS Custom for Oracle」リリース。マネージドサービスでありつつホストへSSH、データベースやOSのカスタマイズが可能 － Publickey](https://www.publickey1.jp/blog/21/awsamazon_rds_custom_for_oraclesshos.html)
 - [AIとペアプロする「GitHub Copilot」がneovimとIntelliJ IDEAでも利用可能に、テクニカルプレビューとして － Publickey](https://www.publickey1.jp/blog/21/aigithub_copilotneovimintellij_idea.html)
 - [Facebook Drops Facial Recognition to Tag People in Photos | WIRED](https://www.wired.com/story/facebook-drops-facial-recognition-tag-people-photos/) : 顔認識を放棄したわけではないらしい
-- [Azureがカオスエンジニアリングツール「Chaos Studio」を発表  |  TechCrunch Japan](https://jp.techcrunch.com/2021/11/03/2021-11-02-azure-gets-a-chaos-studio/)
-- [Microsoft Teamsも3Dアニメアバターを採用、来るべきメタバースの時代のために  |  TechCrunch Japan](https://jp.techcrunch.com/2021/11/03/2021-11-02-microsoft-teams-gets-3d-animated-avatars-because-metaverse/)
-- [Firefoxモバイルブラウザーがアップデート、最近のタスクにすばやくアクセス可能に  |  TechCrunch Japan](https://jp.techcrunch.com/2021/11/03/2021-11-02-firefoxs-updated-mobile-browser-promises-less-clutter-easier-access-to-recent-tasks/)
+- [Azureがカオスエンジニアリングツール「Chaos Studio」を発表  |  TechCrunch Japan](https://techcrunch.com/2021/11/02/azure-gets-a-chaos-studio/)
+- [Microsoft Teamsも3Dアニメアバターを採用、来るべきメタバースの時代のために  |  TechCrunch Japan](https://techcrunch.com/2021/11/02/microsoft-teams-gets-3d-animated-avatars-because-metaverse/)
+- [Firefoxモバイルブラウザーがアップデート、最近のタスクにすばやくアクセス可能に  |  TechCrunch Japan](https://techcrunch.com/2021/11/02/firefoxs-updated-mobile-browser-promises-less-clutter-easier-access-to-recent-tasks/)
 - [日本企業が放置してきた「Toil」のもたらす問題 - ZDNet Japan](https://japan.zdnet.com/article/35178498/)
 - [Google Maps API を使ってみた - Qiita](https://qiita.com/Haruka-Ogawa/items/997401a2edcd20e61037)
 - [デヴィッド・グレーバーの遺作を知り、ブレイディみかこさんに謝りたくなったのを思い出した - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20211104/anarchic-empathy) : 『何もしない』はまだ読んでない
@@ -92,8 +92,8 @@ pageType = "text"
 - [Microsoft Power AppsでiOS/Androidのネイティブアプリ開発が可能に。Iginte 2021 － Publickey](https://www.publickey1.jp/blog/21/microsoft_power_appsiosandroidiginte_2021.html)
 - [テキストエディタ「Vim」が30周年を迎える - GIGAZINE](https://gigazine.net/news/20211105-vim-30th-anniversary/)
 - [欧州議会への書簡：デジタルサービス法は表現の自由・プライバシー・人権を損ねるものであってはならない | P2Pとかその辺のお話R](https://p2ptk.org/freedom-of-speech/3436)
-- [Tencentのチップ開発進出はまったく驚くべきことではない  |  TechCrunch Japan](https://jp.techcrunch.com/2021/11/06/2021-11-04-tencent-chips-semiconductor/)
-- [Google Play、韓国の「反グーグル法」に基づき自社外の課金システム導入に対応  |  TechCrunch Japan](https://jp.techcrunch.com/2021/11/05/https-techcrunch-com-2021-11-04-google-play-to-support-alternative-billing-systems-in-south-korea-following-new-law/)
+- [Tencentのチップ開発進出はまったく驚くべきことではない  |  TechCrunch Japan](https://techcrunch.com/2021/11/04/tencent-chips-semiconductor/)
+- [Google Play、韓国の「反グーグル法」に基づき自社外の課金システム導入に対応  |  TechCrunch Japan](https://techcrunch.com/2021/11/04/google-play-to-support-alternative-billing-systems-in-south-korea-following-new-law/)
 - [GitHubのフリードマンCEOが退任へ--現CPOが後任に - ZDNet Japan](https://japan.zdnet.com/article/35178973/)
 - [“後部席ヒーターはサブスクです”の衝撃｜塚本 牧生｜note](https://note.com/tsukamoto/n/n6318b83900cf)
 

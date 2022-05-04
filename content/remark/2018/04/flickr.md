@@ -29,7 +29,7 @@ tags        = [ "photography", "flickr" ]
 
 - [Together, SmugMug + Flickr | Frequently Asked Questions](https://www.smugmug.com/together/faq)
 - [Flickr agrees to be acquired by SmugMug – Q&A | Flickr Blog](https://blog.flickr.net/en/2018/04/20/together-smugmug-flickr-faq/)
-- [Verizon/Oath傘下だったFlickrをSmugMugが買収、写真サイトとしてのFlickrは存続  |  TechCrunch Japan](https://jp.techcrunch.com/2018/04/21/2018-04-20-smugmug-acquires-flickr/)
+- [Verizon/Oath傘下だったFlickrをSmugMugが買収、写真サイトとしてのFlickrは存続  |  TechCrunch Japan](https://techcrunch.com/2018/04/20/smugmug-acquires-flickr/)
 - [写真共有のFlickrをOathがSmugmugに売却、当面は現状維持 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1804/22/news014.html)
 - [写真共有サービス“SmugMug”、同業の“Flickr”をVerizon/Oathから買収 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1118508.html)
 

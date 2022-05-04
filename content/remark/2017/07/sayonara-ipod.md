@@ -72,9 +72,9 @@ Echo については AI というバズワードばかり先行しているが�
 
 - [『デジタル音楽の行方』から10年経って - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2015/06/32173/)
 - [アマゾンではなかった…… アメリカの小売業を低迷させた2つの元凶 | BUSINESS INSIDER JAPAN](https://www.businessinsider.jp/post-100448)
-- [Fordは今年の後半から、車にAlexaの搭載を計画 | TechCrunch Japan](https://jp.techcrunch.com/2017/01/05/20170104fords-going-to-put-alexa-in-cars-starting-later-this-year/)
+- [Fordは今年の後半から、車にAlexaの搭載を計画 | TechCrunch Japan](https://techcrunch.com/2017/01/04/fords-going-to-put-alexa-in-cars-starting-later-this-year/)
 - [進むアマゾン「Alexa」の自動車対応--車載アプリ基盤「INRIX OpenCar」に搭載 - CNET Japan](https://japan.cnet.com/article/35094891/)
-- [もしAWSがなかったら、Amazonは大赤字 | TechCrunch Japan](https://jp.techcrunch.com/2017/07/28/20170727it-looks-like-amazon-would-be-losing-a-lot-of-money-if-not-for-aws/) [^amzn]
+- [もしAWSがなかったら、Amazonは大赤字 | TechCrunch Japan](https://techcrunch.com/2017/07/27/it-looks-like-amazon-would-be-losing-a-lot-of-money-if-not-for-aws/) [^amzn]
 - [［速報］Google、機械学習に最適化した「Cloud TPU」発表。「われわれれはいま、AIファーストデータセンターの構築に取りかかっている」。Google I/O 2017 － Publickey](http://www.publickey1.jp/blog/17/googlecloud_tpuaigoogle_io_2017.html)
     - [Google I/O 17で「Cloud TPU」を発表：グーグルの機械学習／AIへの取り組みを支える「AIファーストデータセンター」とは - ＠IT](http://www.atmarkit.co.jp/ait/articles/1705/19/news034.html)
 

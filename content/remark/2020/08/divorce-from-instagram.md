@@ -14,7 +14,7 @@ pageType = "text"
 2019年末から [Instagram のアカウントを非公開にして放置]({{< ref "/remark/2019/12/no-more-instagram.md" >}} "もう Instagram はいいかな")しているが，完全にアカウントを削除することにした。
 きっかけはコレ。
 
-- [Instagramがユーザー削除済み写真やメッセージをサーバーに長期保存していたことが判明、発見者に約64万円の報奨金  |  TechCrunch Japan](https://jp.techcrunch.com/2020/08/14/2020-08-13-instagram-delete-photos-messages-servers/)
+- [Instagramがユーザー削除済み写真やメッセージをサーバーに長期保存していたことが判明、発見者に約64万円の報奨金  |  TechCrunch Japan](https://techcrunch.com/2020/08/13/instagram-delete-photos-messages-servers/)
 
 まぁ，見られて困る写真は物理的にもアップしてないし， Facebook/Instagram が「そういう企業」であることはいまさら議論の余地などない。
 いつ止めるかってだけのことだったので，いい機会だろう。

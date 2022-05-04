@@ -47,7 +47,7 @@ flattr    = ""
     - [New Malware Hijacks Cryptocurrency Mining - Schneier on Security](https://www.schneier.com/blog/archives/2018/01/new_malware_hij.html)
 - [「Tor Browser」v7.5が公開 ～「Tor」ネットワークへの接続画面がリニューアル - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1102663.html)
 - [WhatsApp Vulnerability - Schneier on Security](https://www.schneier.com/blog/archives/2018/01/whatsapp_vulner.html)
-- [Google、ユーザーを尾け回す広告のミュート機能強化――「リマインダー広告」の表示停止が可能に  |  TechCrunch Japan](https://jp.techcrunch.com/2018/01/26/2018-01-25-google-expands-controls-to-let-you-mute-those-annoying-ads-that-follow-you-on-every-site/)
+- [Google、ユーザーを尾け回す広告のミュート機能強化――「リマインダー広告」の表示停止が可能に  |  TechCrunch Japan](https://techcrunch.com/2018/01/25/google-expands-controls-to-let-you-mute-those-annoying-ads-that-follow-you-on-every-site/)
 - [「Thunderbird」v52.6.0が公開 ～メッセージ検索やカレンダーの不具合を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1103275.html)
 
 ## 天文関連

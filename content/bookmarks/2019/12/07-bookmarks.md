@@ -23,8 +23,8 @@ pageType = "text"
 - [The Story of Tiversa - Schneier on Security](https://www.schneier.com/blog/archives/2019/12/the_story_of_ti.html)
 - [RSA-240 Factored - Schneier on Security](https://www.schneier.com/blog/archives/2019/12/rsa-240_factore.html)
 - [「アバスト」と「AVG」のFirefox拡張機能がアドオンサイトから削除 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1222447.html)
-- [Mozilla独自のVPN機能「Firefox Private Network」が拡張ベータに  |  TechCrunch Japan](https://jp.techcrunch.com/2019/12/04/2019-12-03-mozilla-launches-the-next-beta-phase-of-its-firefox-private-network-vpn/) : どうも Mozilla の VPN は Windows 環境が優先らしい
-- [GitHubのリポジトリー上に機密情報や脆弱性を見つけるGitGuardianにDocker創業者らが投資  |  TechCrunch Japan](https://jp.techcrunch.com/2019/12/05/2019-12-04-gitguardian-raises-12m-to-help-developers-write-more-secure-code-and-fixgithub-leaks/) : GitGuardian って「能動的失敗」の典型例にしか見えないんだよなぁ
+- [Mozilla独自のVPN機能「Firefox Private Network」が拡張ベータに  |  TechCrunch Japan](https://techcrunch.com/2019/12/03/mozilla-launches-the-next-beta-phase-of-its-firefox-private-network-vpn/) : どうも Mozilla の VPN は Windows 環境が優先らしい
+- [GitHubのリポジトリー上に機密情報や脆弱性を見つけるGitGuardianにDocker創業者らが投資  |  TechCrunch Japan](https://techcrunch.com/2019/12/04/gitguardian-raises-12m-to-help-developers-write-more-secure-code-and-fixgithub-leaks/) : GitGuardian って「能動的失敗」の典型例にしか見えないんだよなぁ
 - [楽天が虚偽電話で被害に遭った名刺記載レベルの従業員情報流出についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/12/05/064939)
 - [A Pennsylvania County’s Election Day Nightmare Underscores Voting Machine Concerns - The New York Times](https://www.nytimes.com/2019/11/30/us/politics/pennsylvania-voting-machines.html)
     - [Election Machine Insecurity Story - Schneier on Security](https://www.schneier.com/blog/archives/2019/12/election_machin_2.html)

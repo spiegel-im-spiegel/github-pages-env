@@ -27,7 +27,7 @@ pageType = "text"
 - [退職したシステム管理者にデータ全削除された事案についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/11/27/064655)
 - [ソースコードのコピペで広がる脆弱性に注意 | マイナビニュース](https://news.mynavi.jp/article/20191127-929356/)
 - [DHS Mandates Federal Agencies to Run Vulnerability Disclosure Policy - Schneier on Security](https://www.schneier.com/blog/archives/2019/11/dhs_mandates_fe.html)
-- [基本的なメールセキュリティ機能を使用している米国大統領候補はわずか  |  TechCrunch Japan](https://jp.techcrunch.com/2019/11/29/2019-11-27-presidential-candidates-email-security/)
+- [基本的なメールセキュリティ機能を使用している米国大統領候補はわずか  |  TechCrunch Japan](https://techcrunch.com/2019/11/27/presidential-candidates-email-security/)
 
 ## 天文関連
 
@@ -44,7 +44,7 @@ pageType = "text"
 
 - [Google Cloudが「Bare Metal Solution」としてベアメタルサーバの提供を開始 － Publickey](https://www.publickey1.jp/blog/19/google_cloudbare_metal_solutionoracle_database.html)
 - [レノボの法人向けPC、米沢工場で生産開始--最短5営業日でカスタマイズ - ZDNet Japan](https://japan.zdnet.com/article/35145835/)
-- [中国のトップスパイが豪に亡命、中国は台湾大統領選や香港などに介入と証言  |  TechCrunch Japan](https://jp.techcrunch.com/2019/11/25/2019-11-22-chinese-spy-defects-to-australia-alleging-election-interference-and-cybercrimes/)
+- [中国のトップスパイが豪に亡命、中国は台湾大統領選や香港などに介入と証言  |  TechCrunch Japan](https://techcrunch.com/2019/11/22/chinese-spy-defects-to-australia-alleging-election-interference-and-cybercrimes/)
     - [中国人「亡命スパイ」が実名暴露した「香港・台湾工作」の実態：山田敏弘 | 記事 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](https://www.fsight.jp/articles/-/46183)
 - [要件が厳しく複雑な車載ソフトウェア開発、コストをどう低減するか - MONOist（モノイスト）](https://monoist.atmarkit.co.jp/mn/articles/1911/21/news009.html)
 - [Facebook、社内のデフォルト開発環境にVisual Studio Codeの採用を表明。マイクロソフトと協力してリモート開発機能の強化も推進 － Publickey](https://www.publickey1.jp/blog/19/facebookvisual_studio_code.html)

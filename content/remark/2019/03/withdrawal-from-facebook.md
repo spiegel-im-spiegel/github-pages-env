@@ -18,7 +18,7 @@ pageType = "text"
 
 [Campbridge Analytica の件]({{< ref "/remark/2018/03/name-identification.md" >}})以来 Facebook は大きな批判にさらされているが，上述したように「プライバシーに敵対的」で「監視資本主義の走狗」たる企業なんて（規模の大小はともかく）いくらでもあるし，特定の企業・サービスを名指しで批判することは問題を矮小化させるだけだろうと控えてきたつもりである。
 
-なので「[Facebookが数億人のパスワードを平文で保存していたと認める](https://jp.techcrunch.com/2019/03/22/2019-03-21-facebook-plaintext-passwords/ "Facebookが数億人のパスワードを平文で保存していたと認める  |  TechCrunch Japan")」という記事のタイトルを見たときも「またやらしてるよぱすわーどへんこうしなきゃ」くらいにしか思わなかったのだが，どうやらもっととんでもない話のようである。
+なので「[Facebookが数億人のパスワードを平文で保存していたと認める](https://techcrunch.com/2019/03/21/facebook-plaintext-passwords/ "Facebookが数億人のパスワードを平文で保存していたと認める  |  TechCrunch Japan")」という記事のタイトルを見たときも「またやらしてるよぱすわーどへんこうしなきゃ」くらいにしか思わなかったのだが，どうやらもっととんでもない話のようである。
 
 - [Facebook Stored Hundreds of Millions of User Passwords in Plain Text for Years —  Krebs on Security](https://krebsonsecurity.com/2019/03/facebook-stored-hundreds-of-millions-of-user-passwords-in-plain-text-for-years/)
 - [Facebookが一部ユーザーのパスワードを平文記録していた問題についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/03/22/061503)
@@ -149,7 +149,7 @@ GitHub に BAN されたらメガっさ困るが Facebook なら大して未練�
 
 ## ブックマーク
 
-- [FacebookにFTCが数十億ドルの罰金を課す可能性  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/15/2019-02-14-facebook-ftc-fine/)
+- [FacebookにFTCが数十億ドルの罰金を課す可能性  |  TechCrunch Japan](https://techcrunch.com/2019/02/14/facebook-ftc-fine/)
 - [MIT Tech Review: 「プライバシー重視」宣言、突然の大転換に潜むフェイスブックの欺瞞](https://www.technologyreview.jp/s/129792/zuckerbergs-new-privacy-essay-shows-why-facebook-needs-to-be-broken-up/)
 - [MIT Tech Review: フェイスブックの個人情報「裏提供」問題、米検察が捜査へ](https://www.technologyreview.jp/nl/facebooks-data-deals-are-now-under-criminal-investigation/)
 - [ニュージーランドの大量殺人事件に関するEFFの考え：恐怖が導く検閲へ道 – P2Pとかその辺のお話R](https://p2ptk.org/freedom-of-speech/1702)
@@ -157,7 +157,7 @@ GitHub に BAN されたらメガっさ困るが Facebook なら大して未練�
 - [MIT Tech Review: フェイスブックのデータがまた漏洩、5億件以上がクラウドに放置](https://www.technologyreview.jp/nl/more-than-half-a-billion-facebook-records-were-left-exposed-on-the-public-internet/)
 - [サードパーティ取得のFacebookデータが公開状態だった件についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/04/09/063000)
 - [Facebookは「利用解除」したユーザーも追跡し続けている - CNET Japan](https://japan.cnet.com/article/35135675/)
-- [Facebookがパスワードが漏れたInstagramユーザー数を「数百万人」に訂正  |  TechCrunch Japan](https://jp.techcrunch.com/2019/04/19/2019-04-18-instagram-password-leak-millions/)
+- [Facebookがパスワードが漏れたInstagramユーザー数を「数百万人」に訂正  |  TechCrunch Japan](https://techcrunch.com/2019/04/18/instagram-password-leak-millions/)
 - [Facebookを“マシ”にするためにFTCは何をすべきか – P2Pとかその辺のお話R](https://p2ptk.org/privacy/2028)
 
 [Signal]: https://signal.org/

@@ -43,7 +43,7 @@ pageType = "text"
 
 - [サウジ世界最大石油施設「ドローン攻撃」で油価急騰は長期化なのか：岩瀬昇 | エネルギーの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](https://www.fsight.jp/articles/-/45863)
     - [サウジ大臣は「回復」と言う原油施設の「本当の被害程度」：岩瀬昇 | エネルギーの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](https://www.fsight.jp/articles/-/45873)
-- [「ドローン黙示録」の到来を阻止するために  |  TechCrunch Japan](https://jp.techcrunch.com/2019/09/23/2019-09-22-our-motto-dronepocalypse-now/)
+- [「ドローン黙示録」の到来を阻止するために  |  TechCrunch Japan](https://techcrunch.com/2019/09/22/our-motto-dronepocalypse-now/)
 
 ## 参考図書
 

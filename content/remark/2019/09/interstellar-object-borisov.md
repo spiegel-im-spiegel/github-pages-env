@@ -23,7 +23,7 @@ pageType = "text"
 {{< /div-gen >}}
 
 - [MPEC 2019-S72 : 2I/Borisov = C/2019 Q4 (Borisov)](https://www.minorplanetcenter.net/mpec/K19/K19S72.html)
-- [初めて直接観測された恒星間彗星「ボリソフ彗星」とは？  |  TechCrunch Japan](https://jp.techcrunch.com/2019/10/17/2019-10-16-feast-your-eyes-the-first-interstellar-comet-ever-directly-observed/)
+- [初めて直接観測された恒星間彗星「ボリソフ彗星」とは？  |  TechCrunch Japan](https://techcrunch.com/2019/10/16/feast-your-eyes-the-first-interstellar-comet-ever-directly-observed/)
 - [Hubble Observes First Confirmed Interstellar Comet](https://hubblesite.org/contents/news-releases/2019/news-2019-53)
     - [APOD: 2019 October 18 - Interstellar Interloper 2I/Borisov](https://apod.nasa.gov/apod/ap191018.html)
 - [MIT Tech Review: NASA、恒星間彗星「ボリソフ」のタイムラプス動画を公開](https://www.technologyreview.jp/nl/watch-interstellar-comet-21-borisov-hurtle-through-space-in-this-hubble-time-lapse/)
@@ -33,7 +33,7 @@ pageType = "text"
 
 - [MPEC 2017-V17 : NEW DESIGNATION SCHEME FOR INTERSTELLAR OBJECTS](http://www.minorplanetcenter.net/mpec/K17/K17V17.html) : A/2017 U1に新たな番号「1I」、「'Oumuamua」と命名
 - [観測史上初の恒星間天体、名前は「'Oumuamua」 - アストロアーツ](http://www.astroarts.co.jp/article/hl/a/9498_oumuamua)
-- [恒星間天体「オウムウムア」、観察結果から人工的信号の証拠は見つからず  |  TechCrunch Japan](https://jp.techcrunch.com/2017/12/15/2017-12-14-observation-of-interstellar-object-oumuamua-shows-no-evidence-of-artificial-signals/)
+- [恒星間天体「オウムウムア」、観察結果から人工的信号の証拠は見つからず  |  TechCrunch Japan](https://techcrunch.com/2017/12/14/observation-of-interstellar-object-oumuamua-shows-no-evidence-of-artificial-signals/)
 - [All news | Alien object ‘Oumuamua was a natural body visiting from another solar system | News | Queen's University Belfast](https://www.qub.ac.uk/News/Allnews/AlienobjectOumuamuawasanaturalbodyvisitingfromanothersolarsystemQueensscientists.html)
 - [‘Oumuamua likely came from a binary star system](https://www.ras.org.uk/news-and-press/3100-oumuamua-likely-came-from-a-binary-star-system)
 

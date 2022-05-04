@@ -81,7 +81,7 @@ flattr    = ""
 - [クローラ作成に必須！XPATHの記法まとめ - Qiita](https://qiita.com/rllllho/items/cb1187cec0fb17fc650a)
 - [［速報］オラクル「Oracle Autonomous Data Warehouse Cloud」正式公開。機械学習を用いて全自動で運用、チューニング、パッチ適用など実現 － Publickey](http://www.publickey1.jp/blog/18/oracle_autonomous_data_warehouse_cloud.html)
 - [Kubernetes 1.10がリリース。コンテナストレージインターフェイスがβ版に、GPUなどをサポート可能にするデバイスプラグインも － Publickey](http://www.publickey1.jp/blog/18/kubernetes_110gpu.html)
-    - [NvidiaのGPUによる高速化技術がついにKubernetesをサポート  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/28/2018-03-27-nvidia-brings-joy-by-bringing-gpu-acceleration-to-kubernetes/)
+    - [NvidiaのGPUによる高速化技術がついにKubernetesをサポート  |  TechCrunch Japan](https://techcrunch.com/2018/03/27/nvidia-brings-joy-by-bringing-gpu-acceleration-to-kubernetes/)
 - [PythonとKerasを使ってAlphaZero AIを自作する | POSTD](https://postd.cc/applied-data-sciencehow-to-build-your-own-alphazero-ai-using-python-and-keras/)
 - [KKIDA-GALAXY: pgAdmin4を日本語化する](http://kkida-galaxy.blogspot.jp/2017/12/pgadmin4ja.html)
 - [日本以外で「CDが売れる国」ドイツでついにCD購入が5割を切る | All Digital Music](http://jaykogami.com/2018/03/15091.html)

@@ -18,16 +18,16 @@ image = "/images/attention/bookmarks.jpg"
 ## Age of Trump
 
 - [ロシア下院、インターネット隔離法案を支持 「北朝鮮式」可能に　写真1枚　国際ニュース：AFPBB News](http://www.afpbb.com/articles/-/3210861)
-- [FacebookにFTCが数十億ドルの罰金を課す可能性  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/15/2019-02-14-facebook-ftc-fine/)
+- [FacebookにFTCが数十億ドルの罰金を課す可能性  |  TechCrunch Japan](https://techcrunch.com/2019/02/14/facebook-ftc-fine/)
 - [OHCHR |  DRAFT Guidelines on the implementation of OP on the sale of children, child prostitution and child pornography](https://www.ohchr.org/EN/HRBodies/CRC/Pages/DraftGuidelinesOPs.aspx)
 
 ## セキュリティ＆プライバシー関連
 
-- [AMIがジェフ・ベゾスと「信義のもとに交渉している」と主張、しかし「脅迫問題を調べる」とも  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/10/2019-02-08-ami-jeff-bezos/)
-- [Appleは画面録画コードの使用を明らかにするか、さもなくば止めるよう、デベロッパーに指示  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/10/2019-02-07-apple-glassbox-apps/)
+- [AMIがジェフ・ベゾスと「信義のもとに交渉している」と主張、しかし「脅迫問題を調べる」とも  |  TechCrunch Japan](https://techcrunch.com/2019/02/08/ami-jeff-bezos/)
+- [Appleは画面録画コードの使用を明らかにするか、さもなくば止めるよう、デベロッパーに指示  |  TechCrunch Japan](https://techcrunch.com/2019/02/07/apple-glassbox-apps/)
 - [公式サイトと錯覚させる広告表示について調べてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/02/10/040950)
 - [How to keep your privacy while using dating apps](https://blog.f-secure.com/dating-apps/)
-- [プライバシーは「コモンズ」である  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/11/2019-02-10-privacy-is-a-commons/)
+- [プライバシーは「コモンズ」である  |  TechCrunch Japan](https://techcrunch.com/2019/02/10/privacy-is-a-commons/)
 - [オーストラリア連邦議事堂ネットワークへの攻撃についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/02/12/062206)
 - [MIT Tech Review: 量子インターネットはテロリスト3人の共謀で破壊できる](https://www.technologyreview.jp/s/125806/)
 - [内側も信用できない--これからのセキュリティはIDが基準：マイクロソフト提言 - ZDNet Japan](https://japan.zdnet.com/article/35132623/)
@@ -72,7 +72,7 @@ image = "/images/attention/bookmarks.jpg"
 - [Ubisoft And Mozilla Announce A.I. Coding Assistant Clever-Commit – Variety](https://variety.com/2019/gaming/news/ubisoft-and-mozilla-announce-clever-commit-1203137446/)
 - [IBM、WatsonをKubernetes対応にした「Watson Anywhere」発表。オンプレミスでもクラウドでもWatsonを実行可能に。IBM Think 2019 － Publickey](https://www.publickey1.jp/blog/19/ibmwatsonkuberneteswatson_anywherewatsonibm_think_2019.html)
 - [レビュー「大気汚染物質をそっくり減らすと地球温暖化が進むという『不都合な真実』」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/review/2019/02/20190213_01.html)
-- [コーディング不要でスプレッドシートから簡単にモバイルアプリを作れるGlide  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/13/2019-02-12-glide-helps-you-build-mobile-apps-from-a-spreadsheet-without-coding/)
+- [コーディング不要でスプレッドシートから簡単にモバイルアプリを作れるGlide  |  TechCrunch Japan](https://techcrunch.com/2019/02/12/glide-helps-you-build-mobile-apps-from-a-spreadsheet-without-coding/)
 - [KDDIがスマートマネー構想、au WALLETアプリを「au PAY」など各種金融サービスの入口に　傘下の金融グループはauブランドに統合 | アプリオ](https://appllio.com/20190212-10902-au-smart-maney-project)
 - [観客席からルールのあるフィールドに降りよう、それだけで建設的な貢献になる。｜塚本 牧生｜note](https://note.mu/tsukamoto/n/n4d65177831d1)
 - [「トゥインクルスターのんのんじー」ボイスコミック化 : ぽじとろんの竹本泉観察記](https://positron.exblog.jp/30413497/)

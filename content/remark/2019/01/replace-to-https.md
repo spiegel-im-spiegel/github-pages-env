@@ -133,7 +133,7 @@ main table.amazon td  {
 - [さくらインターネットでWordPressを動かす時の定番のトラブル | ゴルディアスの涙目](https://gordiustears.net/trouble-with-wordpress-on-sakura-internet/)
 
 - [Why we’re changing Flickr  free accounts | Flickr Blog](https://blog.flickr.net/en/2018/11/01/changing-flickr-free-accounts-1000-photos/)
-- [Flickrの新しいビジネスモデルでCreative Commonsの作品は消されるのか  |  TechCrunch Japan](https://jp.techcrunch.com/2018/11/03/2018-11-02-flickrs-new-business-model-could-see-works-deleted-from-creative-commons/)
+- [Flickrの新しいビジネスモデルでCreative Commonsの作品は消されるのか  |  TechCrunch Japan](https://techcrunch.com/2018/11/02/flickrs-new-business-model-could-see-works-deleted-from-creative-commons/)
 
 [本家サイト]: https://baldanders.info/ "Baldanders.info"
 [ここのブログ]: {{< rlnk "/" >}} "text.Baldanders.info"

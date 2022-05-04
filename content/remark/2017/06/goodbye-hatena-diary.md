@@ -42,7 +42,7 @@ draft = false
 あと数年もすれば，きっとなかったことになるんだろうね。
 君の机の引き出しにあるポエム・ノートのように（笑）
 
-[^hb]: はてなブログは継続。しかし，SNS が主流になり「ブログ」が完全に下火なった2013年からようやくブログサービスを始めたはてなは流石としか言いようがない（笑） ちなみに [Facebook が Instagram 買収を発表した](https://jp.techcrunch.com/2012/04/10/20120409facebook-to-acquire-instagram-for-1-billion/ "Facebook、Instagramを10億ドルで買収 | TechCrunch Japan")のはそれより前の2012年である（当時 Android 版のアプリが出たばかりでショックを受けたのを覚えている）。
+[^hb]: はてなブログは継続。しかし，SNS が主流になり「ブログ」が完全に下火なった2013年からようやくブログサービスを始めたはてなは流石としか言いようがない（笑） ちなみに [Facebook が Instagram 買収を発表した](https://techcrunch.com/2012/04/09/facebook-to-acquire-instagram-for-1-billion/ "Facebook、Instagramを10億ドルで買収 | TechCrunch Japan")のはそれより前の2012年である（当時 Android 版のアプリが出たばかりでショックを受けたのを覚えている）。
 
 そして「すべては歴史の闇の中」ですな。
 

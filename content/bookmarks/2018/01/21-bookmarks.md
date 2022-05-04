@@ -59,7 +59,7 @@ flattr    = ""
 
 - [CSS組版に対応したオンラインエディタViolaとviola-savepdfのご紹介 - はるさめスープ](http://spring-raining.hatenablog.com/entry/2018/01/13/173836)
 - [当ブログもHTTPSになりました！さくらの500円サーバーで「Let's Encrypt」によるSSL化](https://chalow.net/2018-01-14-1.html)
-- [研究結果：Bitcoinを150ドルから1000ドルにつり上げたのはひとりの仕業だったらしい  |  TechCrunch Japan](https://jp.techcrunch.com/2018/01/16/2018-01-15-researchers-finds-that-one-person-likely-drove-bitcoin-from-150-to-1000/)
+- [研究結果：Bitcoinを150ドルから1000ドルにつり上げたのはひとりの仕業だったらしい  |  TechCrunch Japan](https://techcrunch.com/2018/01/15/researchers-finds-that-one-person-likely-drove-bitcoin-from-150-to-1000/)
 - [タブブラウザのテキストエディタ化及びWYSIWYG化 - Qiita](https://qiita.com/q_ip/items/5d368c6c3a767803b2a3)
 - [原油価格高騰で英国ついに「シェール事業」展開か：岩瀬昇 | エネルギーの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43217)
 - [Github上に同じ日本語名のディレクトリが2つ出来てしまった場合の対処法 - Qiita](https://qiita.com/expajp/items/fe50fb57ccc7e43d6291)

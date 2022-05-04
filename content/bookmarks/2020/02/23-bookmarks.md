@@ -28,7 +28,7 @@ pageType = "text"
 - [Policy vs Technology - Schneier on Security](https://www.schneier.com/blog/archives/2020/02/policy_vs_techn.html)
     - [ブログ: 政策対テクノロジー](https://okuranagaimo.blogspot.com/2020/02/blog-post_28.html)
 - [日本国内の組織を狙ったマルウエアLODEINFO - JPCERT/CC Eyes | JPCERTコーディネーションセンター公式ブログ](https://blogs.jpcert.or.jp/ja/2020/02/LODEINFO.html)
-- [ストーカーウェア「KidsGuard」を端末から駆除する方法  |  TechCrunch Japan](https://jp.techcrunch.com/2020/02/21/2020-02-20-kidsguard-remove-stalkerware/)
+- [ストーカーウェア「KidsGuard」を端末から駆除する方法  |  TechCrunch Japan](https://techcrunch.com/2020/02/20/kidsguard-remove-stalkerware/)
 - [Not your Software not your Bitcoin - Combatnerd](https://combatnerd.com/news/not-your-software-not-your-bitcoin/)
 
 ## 天文関連
@@ -67,4 +67,4 @@ pageType = "text"
 - [2020年2月20日ニュース「『クルーズ船の防止策不十分だった可能性』とCDC 『客室待機後も感染広がった』と国立感染研」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2020/02/20200220_01.html)
 - [Using Windows IoT, SignalR, Azure Custom Vision and Xamarin Forms to Flush a Toilet – DVLUP](https://dvlup.com/2020/02/13/using-windows-iot-signalr-azure-custom-vision-and-xamarin-forms-to-flush-a-toilet/)
 - [AWS Lambda、最新のRuby 2.7サポートを発表 － Publickey](https://www.publickey1.jp/blog/20/aws_lambdaruby_27.html)
-- [元NSAとAmazonのエンジニアが「データのGitHub」を開発中  |  TechCrunch Japan](https://jp.techcrunch.com/2020/02/22/2020-02-20-gretel-nsa-amazon-github-data/)
+- [元NSAとAmazonのエンジニアが「データのGitHub」を開発中  |  TechCrunch Japan](https://techcrunch.com/2020/02/20/gretel-nsa-amazon-github-data/)

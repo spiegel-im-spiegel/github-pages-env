@@ -26,9 +26,9 @@ pageType = "text"
 - [Security Risks of Client-Side Scanning - Schneier on Security](https://www.schneier.com/blog/archives/2021/10/security-risks-of-client-side-scanning.html)
 - [Credit card PINs can be guessed even when covering the ATM pad](https://www.bleepingcomputer.com/news/security/credit-card-pins-can-be-guessed-even-when-covering-the-atm-pad/)
   - [Using Machine Learning to Guess PINs from Video - Schneier on Security](https://www.schneier.com/blog/archives/2021/10/using-machine-learning-to-guess-pins-from-video.html)
-- [Evervaultの「サービスとしての暗号化」がオープンアクセスに  |  TechCrunch Japan](https://jp.techcrunch.com/2021/10/19/2021-08-18-evervaults-encryption-as-a-service-is-now-open-access/)
+- [Evervaultの「サービスとしての暗号化」がオープンアクセスに  |  TechCrunch Japan](https://techcrunch.com/2021/08/18/evervaults-encryption-as-a-service-is-now-open-access/)
 - [Mark Zuckerberg added to DC lawsuit over Cambridge Analytica scandal - The Verge](https://www.theverge.com/2021/10/20/22736476/mark-zuckerberg-dc-attorney-general-facebook-cambridge-analytica-lawsuit)
-  - [ザッカーバーグ氏がフェイスブックのCambridge Analyticaスキャンダルの被告人に  |  TechCrunch Japan](https://jp.techcrunch.com/2021/10/21/2021-10-20-mark-zuckerberg-cambridge-analytica-washington-dc-attorney-general/)
+  - [ザッカーバーグ氏がフェイスブックのCambridge Analyticaスキャンダルの被告人に  |  TechCrunch Japan](https://techcrunch.com/2021/10/20/mark-zuckerberg-cambridge-analytica-washington-dc-attorney-general/)
 - [MDMで管理された3万台超の端末で意図せず発生した強制ロックについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2021/10/21/093029)
 - [Problems with Multifactor Authentication - Schneier on Security](https://www.schneier.com/blog/archives/2021/10/problems-with-multifactor-authentication.html)
 - [Yubikey Bio の生体認証をCTAPで見てみる](https://zenn.dev/gebo/articles/fido2-ctap-bio)
@@ -86,7 +86,7 @@ pageType = "text"
 
 ## 天文関連
 
-- [民間宇宙ステーション「Starlab」は地球低軌道経済の到来を予感させる  |  TechCrunch Japan](https://jp.techcrunch.com/2021/10/24/2021-10-22-voyager-nanoracks-and-lockheeds-starlab-is-the-latest-sign-that-the-low-earth-orbit-economy-is-coming/)
+- [民間宇宙ステーション「Starlab」は地球低軌道経済の到来を予感させる  |  TechCrunch Japan](https://techcrunch.com/2021/10/22/voyager-nanoracks-and-lockheeds-starlab-is-the-latest-sign-that-the-low-earth-orbit-economy-is-coming/)
 
 ## その他
 
@@ -100,8 +100,8 @@ pageType = "text"
 - [うっかりテスト用のスクリプトで現実に存在する1万台の携帯電話をロックしてしまったエンジニアの経験談 - GIGAZINE](https://gigazine.net/news/20211020-script-kill-phone/)
 - [How to run a Go IDE on your Smart TV or WebOS device. | by Cheikh seck | Oct, 2021 | Medium](https://medium.com/@cheikhhseck/how-to-run-a-go-ide-on-your-smart-tv-or-webos-device-5fcfdab3e59b)
 - [Java, Go, Rustの比較（前半） - gavin.zhou - Medium](https://gavin-zhou.medium.com/java-go-rust%E3%81%AE%E6%AF%94%E8%BC%83-%E5%89%8D%E5%8D%8A-a92b867e3f48)
-- [アップルがApp Storeガイドライン更新、アプリ開発者がユーザーに他の支払い方法について連絡することを許可  |  TechCrunch Japan](https://jp.techcrunch.com/2021/10/23/2021-10-22-apple-updates-its-app-store-guidelines-to-permit-developers-to-contact-customers-about-other-payment-methods/)
-- [PayPal、Pinterest買収を検討か  |  TechCrunch Japan](https://jp.techcrunch.com/2021/10/21/2021-10-20-paypal-said-to-be-exploring-potential-acquisition-of-pinterest/)
+- [アップルがApp Storeガイドライン更新、アプリ開発者がユーザーに他の支払い方法について連絡することを許可  |  TechCrunch Japan](https://techcrunch.com/2021/10/22/apple-updates-its-app-store-guidelines-to-permit-developers-to-contact-customers-about-other-payment-methods/)
+- [PayPal、Pinterest買収を検討か  |  TechCrunch Japan](https://techcrunch.com/2021/10/20/paypal-said-to-be-exploring-potential-acquisition-of-pinterest/)
 - [PayPalがGraphQLを採用し、開発者の生産性向上を実現](https://www.infoq.com/jp/news/2021/10/paypal-graphql/)
 - [インターネット・アーカイブが今週創設25周年を迎える - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20211025/internet-archive-25)
 - [スクラム開発の現場にJoinして失敗した俺が悪い話 - Qiita](https://qiita.com/dummydialect/items/4d3a9da5fe58c34764e2)

@@ -41,7 +41,7 @@ pageType = "text"
 - [Webメールサービスのアカウントを標的としたフィッシングに関する注意喚起](https://www.jpcert.or.jp/at/2021/at210049.html)
 - [Why I Hate Password Rules - Schneier on Security](https://www.schneier.com/blog/archives/2021/11/why-i-hate-password-rules.html) : www
 - [ほぼ全てのメモリのセキュリティを突破可能なツール「Blacksmith」が登場 - GIGAZINE](https://gigazine.net/news/20211116-ddr4-memory-rowhammer-blacksmith/) : 「市場に出回り始めたDDR5メモリには、TRRの代わりに『リフレッシュ・マネジメント』というシステムが採用されているので、ロウハンマーはそれほど問題にはならないと思われます。しかし、本当に安全かどうかはまだ分かりません」
-- [フェイスブックの広告ツールが特定の個人をターゲティングできることを研究者グループが発表  |  TechCrunch Japan](https://jp.techcrunch.com/2021/11/16/2021-10-15-researchers-show-facebooks-ad-tools-can-target-a-single-user/)
+- [フェイスブックの広告ツールが特定の個人をターゲティングできることを研究者グループが発表  |  TechCrunch Japan](https://techcrunch.com/2021/10/15/researchers-show-facebooks-ad-tools-can-target-a-single-user/)
 - [経済同友会事務局システムへの不正アクセスについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2021/11/19/232724)
 - [サポート部門が侵害されたRobinhoodへの不正アクセスについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2021/11/18/060630)
 - [Is Microsoft Stealing People’s Bookmarks? - Schneier on Security](https://www.schneier.com/blog/archives/2021/11/is-microsoft-stealing-peoples-bookmarks.html)
@@ -83,7 +83,7 @@ pageType = "text"
 - [MySQL 複数データのバルクINSERTやCSVファイルから高速インポートする方法 │ wonwon eater](https://wonwon-eater.com/mysql-insert/)
 - [GitHub - gr2m/twitter-together: A GitHub action to tweet from a repository](https://github.com/gr2m/twitter-together) : GitHub Actions
 - [「DeepL」がPDFファイルの翻訳に対応 ～自然な訳文が得られると人気のAI翻訳サービス - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1367650.html)
-- [ハードウェア設計プラットフォームが投資家の注目を集める、nTopologyが多額の資金を調達  |  TechCrunch Japan](https://jp.techcrunch.com/2021/11/20/2021-11-18-hardware-design-platform-ntopology-raises-65m/)
+- [ハードウェア設計プラットフォームが投資家の注目を集める、nTopologyが多額の資金を調達  |  TechCrunch Japan](https://techcrunch.com/2021/11/18/hardware-design-platform-ntopology-raises-65m/)
 - [島根県、Rubyプログラミングを学べる25歳以下対象のオンライン合宿「Ruby合宿」参加者を募集  |  TechCrunch Japan](https://jp.techcrunch.com/2021/11/17/shimane-pref-ruby-camp/)
 - [クアルコムがApple M1対抗うたうPC向けArmベース次世代SoCの開発計画、1月買収の半導体開発スタートアップNUVIAを起用  |  TechCrunch Japan](https://jp.techcrunch.com/2021/11/18/qualcomm-combat-apple-silicon-pc-chips/)
 - [Railsの高速化に貢献する新たなJITコンパイラを搭載したRuby 3.1プレビュー1が公開 － Publickey](https://www.publickey1.jp/blog/21/railsjitruby_311.html)

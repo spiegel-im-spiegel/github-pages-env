@@ -29,8 +29,8 @@ image = "/images/attention/bookmarks.jpg"
 - [PDFファイルを開くだけで暗号化された内容が流出する脆弱性「PDFex」が発見される - GIGAZINE](https://gigazine.net/news/20191002-pdf-password-hacking-pdfex/)
 - [Measuring the Security of IoT Devices - Schneier on Security](https://www.schneier.com/blog/archives/2019/10/measuring_the_s.html)
 - [Tracking by Smart TVs - Schneier on Security](https://www.schneier.com/blog/archives/2019/10/tracking_by_sma.html)
-- [GoogleがマップとYouTube、そしてアシスタント向けにプライバシー強化機能を追加  |  TechCrunch Japan](https://jp.techcrunch.com/2019/10/04/2019-10-02-google-rolls-out-new-privacy-tools-for-maps-youtube-and-assistant/)
-- [マイクロソフトは2020年の大統領選候補を狙ったイランのハッカーの攻撃を発見  |  TechCrunch Japan](https://jp.techcrunch.com/2019/10/05/2019-10-04-microsoft-iran-phosphorous-attack/)
+- [GoogleがマップとYouTube、そしてアシスタント向けにプライバシー強化機能を追加  |  TechCrunch Japan](https://techcrunch.com/2019/10/02/google-rolls-out-new-privacy-tools-for-maps-youtube-and-assistant/)
+- [マイクロソフトは2020年の大統領選候補を狙ったイランのハッカーの攻撃を発見  |  TechCrunch Japan](https://techcrunch.com/2019/10/04/microsoft-iran-phosphorous-attack/)
 
 ## 天文関連
 
@@ -39,7 +39,7 @@ image = "/images/attention/bookmarks.jpg"
 - [Ishizawa, Sasaki & Hosono, ApJ (2019) – Sasaki Takanori Online](http://sasakitakanori.com/archives/4986) : 「天王星衛星の形成に関する論文が ApJ に accept されました」とのこと
 - [MINERVA-II2（ローバ２）分離運用  | トピックス | JAXA はやぶさ２プロジェクト](http://www.hayabusa2.jaxa.jp/topics/20191001_MNRVII2/) : 2019-10-03 より分離運用開始
 - [APOD: 2019 October 1 - Black Hole Safety Video](https://apod.nasa.gov/apod/ap191001.html)
-- [NASAの惑星探査用の新望遠鏡は気球に乗って大気圏の外縁に浮かぶ  |  TechCrunch Japan](https://jp.techcrunch.com/2019/10/02/2019-10-01-nasa-launches-a-new-earth-like-planet-hunting-telescope-using-a-giant-balloon/)
+- [NASAの惑星探査用の新望遠鏡は気球に乗って大気圏の外縁に浮かぶ  |  TechCrunch Japan](https://techcrunch.com/2019/10/01/nasa-launches-a-new-earth-like-planet-hunting-telescope-using-a-giant-balloon/)
 - [東京大学木曽観測所トモエゴゼンの観測運用の開始について](http://www.ioa.s.u-tokyo.ac.jp/kisohp/NEWS/pr20190930/pr20190930.html)
 - [初期宇宙で見つかった宇宙網 －銀河とブラックホールに恵みをもたらす宇宙の清流－ | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2019/20191004-subaru.html)
 - [大型低温重力波望遠鏡KAGRAが完成、重力波望遠鏡3者による研究協定を締結 | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/topics/2019/20191004-kagra.html)
@@ -69,7 +69,7 @@ image = "/images/attention/bookmarks.jpg"
 - [マイクロソフトが方針転換。Windows 7の2023年までの延長サポート、あらゆる企業が購入可能に － Publickey](https://www.publickey1.jp/blog/19/windows_72023.html) : いや，もう Windows 捨てたから
 - [Go言語からシェルスクリプトが実行できない(シェバングの必要性) - Qiita](https://qiita.com/gisuyama7/items/5c84516db0462e420dc6) : 考えてみれば当たり前なんだが，とっさに思いつかなかったりするよねぇ（笑）
 - [DNAにSQL実行--"DNAストレージ"でRDBの限界が突破される日 - ZDNet Japan](https://japan.zdnet.com/article/35140886/)
-- [Facebookでニュースを読む人は多いが内容を信用する人は少ない  |  TechCrunch Japan](https://jp.techcrunch.com/2019/10/04/2019-10-02-bad-news-social-media/)
+- [Facebookでニュースを読む人は多いが内容を信用する人は少ない  |  TechCrunch Japan](https://techcrunch.com/2019/10/02/bad-news-social-media/)
 - [スーパーメジャー「シェル」が真剣議論している「温暖化対策」経営とは：岩瀬昇 | エネルギーの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](https://www.fsight.jp/articles/-/45948)
-- [PayPalがFacebook率いるLibra Associationから撤退する最初の企業に  |  TechCrunch Japan](https://jp.techcrunch.com/2019/10/05/2019-10-04-paypal-looks-is-the-first-company-to-drop-out-of-the-facebook-led-libra-association/)
+- [PayPalがFacebook率いるLibra Associationから撤退する最初の企業に  |  TechCrunch Japan](https://techcrunch.com/2019/10/04/paypal-looks-is-the-first-company-to-drop-out-of-the-facebook-led-libra-association/)
 - [GitHub - ikunya/libo-writer: LibreOffice Writerで書籍制作　〜（紙）書籍と電子書籍両対応版〜](https://github.com/ikunya/libo-writer)

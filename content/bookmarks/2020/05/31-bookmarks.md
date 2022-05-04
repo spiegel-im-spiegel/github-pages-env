@@ -16,7 +16,7 @@ pageType = "text"
 
 ## セキュリティ＆プライバシー関連
 
-- [英政府がファーウェイの5Gネットワ​​ーク参入に関する方針を転換  |  TechCrunch Japan](https://jp.techcrunch.com/2020/05/25/2020-05-23-uk-government-reverses-course-on-huaweis-involvement-in-5g-networks/)
+- [英政府がファーウェイの5Gネットワ​​ーク参入に関する方針を転換  |  TechCrunch Japan](https://techcrunch.com/2020/05/23/uk-government-reverses-course-on-huaweis-involvement-in-5g-networks/)
 - [SIMスワッピングによるアカウント侵害で情報流出した事案についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/05/23/013340)
 - [0.9.46 Release - Blog - I2P](https://geti2p.net/en/blog/post/2020/05/25/0.9.46-Release)
 - [「Chrome」の深刻なセキュリティ脆弱性、70％はメモリー安全性の問題 - ZDNet Japan](https://japan.zdnet.com/article/35154338/)
@@ -35,7 +35,7 @@ pageType = "text"
 
 ## 天文関連
 
-- [SpaceXが民間企業で人類史上初の有人宇宙飛行に成功、歴史にその名を刻む  |  TechCrunch Japan](https://jp.techcrunch.com/2020/05/31/2020-05-30-spacex-makes-history-with-successful-first-human-space-launch/)
+- [SpaceXが民間企業で人類史上初の有人宇宙飛行に成功、歴史にその名を刻む  |  TechCrunch Japan](https://techcrunch.com/2020/05/30/spacex-makes-history-with-successful-first-human-space-launch/)
 
 ## Linux または Ubuntu に関する話題
 
@@ -60,7 +60,7 @@ pageType = "text"
 - [Google Cloud FunctionsがJava 11をサポート開始。KotlinやScalaも利用可能に － Publickey](https://www.publickey1.jp/blog/20/google_cloud_functionsjava_11kotlinscala.html)
 - [ニューヨーク公共図書館125周年を祝い著名人たちがこの一冊をお勧めしている #nypl125 - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20200527/nypl125)
 - [2020年5月28日ニュース「『学校閉鎖は流行阻止効果に乏しい』『2歳未満のマスクは危険』と小児科学会」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2020/05/20200528_01.html)
-- [ラズベリーパイ財団が8GBメモリー搭載のRaspberry Pi 4を発表  |  TechCrunch Japan](https://jp.techcrunch.com/2020/05/29/2020-05-28-raspberry-pi-foundation-announces-raspberry-pi-4-with-8gb-of-ram/)
+- [ラズベリーパイ財団が8GBメモリー搭載のRaspberry Pi 4を発表  |  TechCrunch Japan](https://techcrunch.com/2020/05/28/raspberry-pi-foundation-announces-raspberry-pi-4-with-8gb-of-ram/)
 - [「Android Studio 4.0」が正式リリース ～UIの製作がより簡単に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1255791.html)
 - [2020年5月29日ニュース「3年前の九州北部豪雨、線状降水帯の要因は高気圧と日射 九大が解明」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2020/05/20200529_01.html)
 - [【予告編】クリィミーマミグッズ5/30*0:00通販開始(*^▽^*) | 高田明美オフィシャルブログ「Angel Touch」Powered by Ameba](https://ameblo.jp/angel-touch/entry-12600390291.html)

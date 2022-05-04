@@ -28,7 +28,7 @@ draft = false
 
 ## ゲーム AI の本領（[2016年3月14日の記事](https://medium.com/@spiegel/-67c0fc849272 "ゲーム AI の本領 – Medium")を再掲載 ）
 
-- [DeepMindのAIに負けた囲碁の世界チャンピオンが最終戦直前のゲームで勝利…AlphaGoを上回る妙手で | TechCrunch Japan](https://jp.techcrunch.com/2016/03/13/20160313defeated-go-world-champion-beats-deepmind-ai-in-penultimate-match/)
+- [DeepMindのAIに負けた囲碁の世界チャンピオンが最終戦直前のゲームで勝利…AlphaGoを上回る妙手で | TechCrunch Japan](https://techcrunch.com/2016/03/13/defeated-go-world-champion-beats-deepmind-ai-in-penultimate-match/)
 
 この手のストラテジー・ゲームって膨大な手筋があって機械でも全てを把握することは不可能。
 だからコンピュータも人と同じようにその時々の局面で有効な手筋を探索するという戦略を取らざるをえない（もちろん思考の仕方は人と機械では違うのだが）。
@@ -75,7 +75,7 @@ AlphaGo が他の “AI” （と敢えて言うけど）と一線を画すの�
 
 ## ブックマーク
 
-- [「AIを搭載」は「全て自然」同様の技術的ナンセンスだ | TechCrunch Japan](https://jp.techcrunch.com/2017/01/11/20170110ai-powered-is-techs-meaningless-equivalent-of-all-natural/)
+- [「AIを搭載」は「全て自然」同様の技術的ナンセンスだ | TechCrunch Japan](https://techcrunch.com/2017/01/10/ai-powered-is-techs-meaningless-equivalent-of-all-natural/)
 - [ケヴィン・ケリー(WIRED創刊編集長) x Slack 「感情的にAIを怖れるな。」−非中央集権化された情報社会でかつてないコラボレーションが実現する− – Medium Japan – Medium](https://medium.com/japan/-42e6840d6711)
 
 - [人工知能は「ハイル・ヒトラー」と叫ぶか]({{< ref "/remark/2015/artificial-intelligence.md" >}})

@@ -45,7 +45,7 @@ flattr    = ""
 
 ## 天文関連
 
-- [家にミューオン天文台を作ろう――MITから100ドルの観測デバイス発売  |  TechCrunch Japan](https://jp.techcrunch.com/2017/11/22/2017-11-21-this-diy-project-lets-you-catch-a-falling-muon/)
+- [家にミューオン天文台を作ろう――MITから100ドルの観測デバイス発売  |  TechCrunch Japan](https://techcrunch.com/2017/11/21/this-diy-project-lets-you-catch-a-falling-muon/)
 - [Invite Ross 128 Over This Thanksgiving - Sky & Telescope](http://www.skyandtelescope.com/observing/drop-by-ross-128-this-thanksgiving/) : 地球サイズの惑星を持つ Ross 128 はポータブル望遠鏡でも見えるかも，らしい
 - [雷が大気中で原子核反応を起こしている証拠 - 柏崎市上空で陽電子が生成 | マイナビニュース](http://news.mynavi.jp/news/2017/11/24/029/)
     - [雷が原子核反応を起こす証拠 – academist「雷雲プロジェクト」の研究成果がNature誌に掲載！ – academist Journal](https://academist-cf.com/journal/?p=6503)
@@ -56,7 +56,7 @@ flattr    = ""
 
 - [デバッガを利用してWebアプリの脆弱性を分析してみた - とある診断員の備忘録](http://tigerszk.hatenablog.com/entry/2017/11/17/175839)
 - [Googleのキーボードアプリ「Gboard」、Android版もようやく日本語対応に - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1711/17/news102.html)
-- [Facebook、開発者向け機能を大幅削減。アプリ招待やアプリ用いいね！ボタンを廃止へ  |  TechCrunch Japan](https://jp.techcrunch.com/2017/11/17/2017-11-16-facebook-kills-app-invites-the-native-app-like-button-and-other-dev-features/)
+- [Facebook、開発者向け機能を大幅削減。アプリ招待やアプリ用いいね！ボタンを廃止へ  |  TechCrunch Japan](https://techcrunch.com/2017/11/16/facebook-kills-app-invites-the-native-app-like-button-and-other-dev-features/)
 - [「YouTube」でライブチケット販売を開始--公式音楽ビデオから販売ページへ誘導 - CNET Japan](https://japan.cnet.com/article/35110507/)
 - [mrubyをブラウザで実行するまで (WebAssembly) - Qiita](https://qiita.com/noontage/items/da846e78eebd1d3b2a78)
 - [矢部宏治氏に見る『知ってはいけない』憲法典と憲法学の間のギャップ : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/22247880.html)
@@ -83,7 +83,7 @@ flattr    = ""
 - [特許庁、GitHubで「知的財産デュー・デリジェンス」の標準手順書策定を検証 - ZDNet Japan](https://japan.zdnet.com/article/35110812/)
 - [グーグルの謎OS「Fuchsia」、アップルの「Swift」言語サポートを追加中 - ZDNet Japan](https://japan.zdnet.com/article/35110797/)
 - [LinuxがスパコンTOP500でOSシェア100％に--普及の背景、展望 - ZDNet Japan](https://japan.zdnet.com/article/35110755/)
-- [YouTubeが子ども向け/子どもが登場する悪質ビデオの排除基準をより具体化  |  TechCrunch Japan](https://jp.techcrunch.com/2017/11/23/2017-11-22-youtube-tightens-rules-on-kid-related-content/)
+- [YouTubeが子ども向け/子どもが登場する悪質ビデオの排除基準をより具体化  |  TechCrunch Japan](https://techcrunch.com/2017/11/22/youtube-tightens-rules-on-kid-related-content/)
 - [JSON to Swift, TypeScript, Go, C#, Java, and more :: quicktype](https://quicktype.io/)
     - [色々なプログラミング言語で JSON をパースするためのイカしたサービス quicktype - かずきのBlog@hatena](http://blog.okazuki.jp/entry/2017/11/22/154757)
 - [マイクロソフト、ついにAzureにVMwareを乗せる。「VMware virtualization on Azure」発表。VMware Cloud on AWSなどに対抗か － Publickey](http://www.publickey1.jp/blog/17/azurevmwarevmware_virtualization_on_azurevmware_cloud_on_aws.html)

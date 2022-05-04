@@ -22,7 +22,7 @@ pageType = "text"
 - [RFC 8996 - Deprecating TLS 1.0 and TLS 1.1](https://tools.ietf.org/html/rfc8996)
   - [RFC 8996 - Deprecating TLS 1.0 and TLS 1.1](https://datatracker.ietf.org/doc/rfc8996/)
 - [データ入力不備で全国展開が先送りされたマイナンバーカードの保険証利用についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2021/03/29/064822)
-- [「システムアップデート」を装ったAndroidの新たなスパイウェアはデバイスを完全に制御する  |  TechCrunch Japan](https://jp.techcrunch.com/2021/03/28/2021-03-26-android-malware-system-update/)
+- [「システムアップデート」を装ったAndroidの新たなスパイウェアはデバイスを完全に制御する  |  TechCrunch Japan](https://techcrunch.com/2021/03/26/android-malware-system-update/)
 - [「Exchange Server」狙う攻撃、侵害後の活動などマイクロソフトが分析 - ZDNet Japan](https://japan.zdnet.com/article/35168489/)
 - [VMware vRealize Operations Managerなどの複数の脆弱性に関する注意喚起](https://www.jpcert.or.jp/at/2021/at210016.html)
 
@@ -53,7 +53,7 @@ pageType = "text"
 
 ## その他
 
-- [Slackはテキストベース以上のプラットフォームになろうとしている、オーディオとビデオ機能追加を検討  |  TechCrunch Japan](https://jp.techcrunch.com/2021/03/29/2021-03-26-slack-wants-to-be-more-than-a-text-based-messaging-platform/)
+- [Slackはテキストベース以上のプラットフォームになろうとしている、オーディオとビデオ機能追加を検討  |  TechCrunch Japan](https://techcrunch.com/2021/03/26/slack-wants-to-be-more-than-a-text-based-messaging-platform/)
 - [無料ペイントソフト「Krita」v4.4.3が公開 ～Windows版（32bit）のリリースはこれが最後 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1314934.html)
 - [地方自治体向けにデータ基盤サービスを無償展開--エクスポリスや日本IBMらが連携 - ZDNet Japan](https://japan.zdnet.com/article/35168505/)
 - [AWS上でOpenShiftのマネージドサービス提供、「Red Hat OpenShift Service on AWS」正式リリース － Publickey](https://www.publickey1.jp/blog/21/awsopenshiftred_hat_openshift_service_on_aws.html)

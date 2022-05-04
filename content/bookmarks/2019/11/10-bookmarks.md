@@ -32,8 +32,8 @@ pageType = "text"
 - [New 'unremovable' xHelper malware has infected 45,000 Android devices | ZDNet](https://www.zdnet.com/article/new-unremovable-xhelper-malware-has-infected-45000-android-devices/)
     - [Xhelper: Persistent Android Dropper App Infects 45K Devices in Past 6 Months | Symantec Blogs](https://www.symantec.com/blogs/threat-intelligence/xhelper-android-malware)
     - [xHelper Malware for Android - Schneier on Security](https://www.schneier.com/blog/archives/2019/11/xhelper_malware.html)
-- [Amazonのドアベル「Ring」にWi-Fiのパスワードが盗まれる脆弱性が見つかる  |  TechCrunch Japan](https://jp.techcrunch.com/2019/11/08/2019-11-07-amazon-ring-doorbells-wifi-hackers/)
-- [Galaxy S8+などAndroid端末にベースバンド脆弱性、通話傍受から個人情報窃取も  |  TechCrunch Japan](https://jp.techcrunch.com/2019/11/09/2019-11-08-android-baseband-flaws/)
+- [Amazonのドアベル「Ring」にWi-Fiのパスワードが盗まれる脆弱性が見つかる  |  TechCrunch Japan](https://techcrunch.com/2019/11/07/amazon-ring-doorbells-wifi-hackers/)
+- [Galaxy S8+などAndroid端末にベースバンド脆弱性、通話傍受から個人情報窃取も  |  TechCrunch Japan](https://techcrunch.com/2019/11/08/android-baseband-flaws/)
 
 ## 天文関連
 
@@ -50,7 +50,7 @@ pageType = "text"
 
 - [林「情報法」(49) – サイバー燈台](http://www.cyber-literacy.com/cll/2616)
 - [EU調査：若者の半数は海賊版コンテンツをまったく利用していない | P2Pとかその辺のお話R](https://p2ptk.org/copyright/2837)
-- [Cloudflareはパテントトロールに勝った、今後の展開は？  |  TechCrunch Japan](https://jp.techcrunch.com/2019/11/09/2019-11-05-cloudflare-beat-a-patent-troll-what-now/)
+- [Cloudflareはパテントトロールに勝った、今後の展開は？  |  TechCrunch Japan](https://techcrunch.com/2019/11/05/cloudflare-beat-a-patent-troll-what-now/)
 
 ## Linux または Ubuntu に関する話題
 
@@ -59,7 +59,7 @@ pageType = "text"
 
 ## その他
 
-- [MITのブロック型ロボットは相互通信によって集団行動  |  TechCrunch Japan](https://jp.techcrunch.com/2019/11/02/2019-11-01-mits-self-propelled-block-robots-can-now-manage-basic-swarm-coordination/)
+- [MITのブロック型ロボットは相互通信によって集団行動  |  TechCrunch Japan](https://techcrunch.com/2019/11/01/mits-self-propelled-block-robots-can-now-manage-basic-swarm-coordination/)
 - [5 things Rob Pike attributes to Go's success |> News and podcasts for developers |> Changelog](https://changelog.com/posts/5-things-rob-pike-attributes-to-gos-success)
     - [ブログ: ロブ・パイクがGoの成功に貢献した5つのこ](https://okuranagaimo.blogspot.com/2019/11/go5.html)
 - [IBMのオープンソースプログラムのトップJeff Borek氏が語るOSSについて（前編） | Think IT（シンクイット）](https://thinkit.co.jp/article/16934)
@@ -70,10 +70,10 @@ pageType = "text"
 - [オープンソースの開発者を経済的に支援できる「GitHub Sponsors」、日本を含む30カ国で正式サービスに － Publickey](https://www.publickey1.jp/blog/19/github_sponsors30.html)
 - [MIT Tech Review: スペースX、3万基追加申請：大量の衛星打ち上げ、なぜ？](https://www.technologyreview.jp/s/168147/spacex-just-filed-a-request-to-run-30000-more-starlink-satellites-in-orbit/)
 - [Google App Engineが「Java 11」サポート開始。Spring Boot、Micronaut、Quarkus、Ktorなどのフレームワークも利用可能 － Publickey](https://www.publickey1.jp/blog/19/google_app_enginejava_11spring_bootmicronautquarkusktor.html)
-- [グーグルがセキュアチップのオープンソースプロジェクト 「OpenTitan」 を公開  |  TechCrunch Japan](https://jp.techcrunch.com/2019/11/06/2019-11-06-google-opentitan-secure-chip/)
+- [グーグルがセキュアチップのオープンソースプロジェクト 「OpenTitan」 を公開  |  TechCrunch Japan](https://techcrunch.com/2019/11/06/google-opentitan-secure-chip/)
 - [「IntelliCode」がさらに進化し、行全体を候補として提案。まるでAIとペアプロしているように － Publickey](https://www.publickey1.jp/blog/19/intellicodeai.html)
 - [グーグルが"ROT"チップのオープンソースプロジェクト「OpenTitan」発表 - ZDNet Japan](https://japan.zdnet.com/article/35144976/)
-- [GitHubにプロジェクトのロードマップ追跡管理を統合したZenHub  |  TechCrunch Japan](https://jp.techcrunch.com/2019/11/07/2019-11-05-zenhub-adds-roadmapping-to-its-github-project-management-tool/)
+- [GitHubにプロジェクトのロードマップ追跡管理を統合したZenHub  |  TechCrunch Japan](https://techcrunch.com/2019/11/05/zenhub-adds-roadmapping-to-its-github-project-management-tool/)
 - [大正12年創刊の「文藝春秋」が初のデジタル定期購読版をnote上でスタート  |  TechCrunch Japan](https://jp.techcrunch.com/2019/11/07/bunshun-digital/)
 - [Tech and Liberty – Stratechery by Ben Thompson](https://stratechery.com/2019/tech-and-liberty/)
     - [ブログ: テクノロジーと自由](https://okuranagaimo.blogspot.com/2019/11/blog-post_8.html)

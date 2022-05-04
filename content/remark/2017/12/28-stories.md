@@ -82,7 +82,7 @@ PayPal が使えないのよ。
 - [ハッカーがあなたのブラウザを利用して、仮想通貨をマイニングしているかもしれない | ライフハッカー［日本版］](https://www.lifehacker.jp/2017/10/171031-how-to-stop-sites-from-harvesting-cryptocurrency-from.html)
 - [あなたのブラウザーは、誰かのために暗号通貨を勝手に「採掘」しているかもしれない｜WIRED.jp](https://wired.jp/2017/12/25/cryptojacking/)
 - [仮想通貨のマイニングでスマホのバッテリを破壊するトロイの木馬「Loapi」  - PC Watch](https://pc.watch.impress.co.jp/docs/news/1098829.html)
-- [Operaのニューバージョンはユーザーのマシンで勝手に暗号通貨がマイニングされるのを防ぐ  |  TechCrunch Japan](https://jp.techcrunch.com/2018/01/04/2018-01-03-opera-now-protects-you-from-cryptojacking-attacks/)
+- [Operaのニューバージョンはユーザーのマシンで勝手に暗号通貨がマイニングされるのを防ぐ  |  TechCrunch Japan](https://techcrunch.com/2018/01/03/opera-now-protects-you-from-cryptojacking-attacks/)
 
 ## というわけで{#bye}
 

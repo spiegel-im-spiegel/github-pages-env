@@ -18,16 +18,16 @@ pageType = "text"
 
 ## バベルのインターネット
 
-- [台湾が中国製ストリーミングサービスのiQiyiとWeTVを禁止へ  |  TechCrunch Japan](https://jp.techcrunch.com/2020/08/20/2020-08-19-taiwan-set-to-bar-chinese-streaming-services-like-iqiyi-and-tencents-wetv/)
-- [香港支援バージョン配布したテキストエディタのNotepad++が中国で使用禁止に  |  TechCrunch Japan](https://jp.techcrunch.com/2020/08/22/2020-08-17-notepad-plus-plus-blocked-in-china/)
+- [台湾が中国製ストリーミングサービスのiQiyiとWeTVを禁止へ  |  TechCrunch Japan](https://techcrunch.com/2020/08/19/taiwan-set-to-bar-chinese-streaming-services-like-iqiyi-and-tencents-wetv/)
+- [香港支援バージョン配布したテキストエディタのNotepad++が中国で使用禁止に  |  TechCrunch Japan](https://techcrunch.com/2020/08/17/notepad-plus-plus-blocked-in-china/)
 
 ## セキュリティ＆プライバシー関連
 
-- [オラクルとセールスフォースのCookie追跡がGDPR違反の集団訴訟に発展  |  TechCrunch Japan](https://jp.techcrunch.com/2020/08/17/2020-08-14-oracle-and-salesforce-hit-with-gdpr-class-action-lawsuits-over-cookie-tracking-consent/)
+- [オラクルとセールスフォースのCookie追跡がGDPR違反の集団訴訟に発展  |  TechCrunch Japan](https://techcrunch.com/2020/08/14/oracle-and-salesforce-hit-with-gdpr-class-action-lawsuits-over-cookie-tracking-consent/)
 - [ねことも10月号「ととある日のクル(過去形)」 : ぽじとろんの竹本泉観察記](https://positron.exblog.jp/31324758/)
 - [Robocall Results from a Telephony Honeypot - Schneier on Security](https://www.schneier.com/blog/archives/2020/08/robocall_result.html)
 - [パプアニューギニアのデータセンターで確認された不具合についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/08/19/012317)
-- [EUのウェブサイトにおけるGoogleアナリティクスとFacebook Connectの使用禁止を求め集団訴訟が発生  |  TechCrunch Japan](https://jp.techcrunch.com/2020/08/19/2020-08-18-eu-websites-use-of-google-analytics-and-facebook-connect-targeted-by-post-schrems-ii-privacy-complaints/)
+- [EUのウェブサイトにおけるGoogleアナリティクスとFacebook Connectの使用禁止を求め集団訴訟が発生  |  TechCrunch Japan](https://techcrunch.com/2020/08/18/eu-websites-use-of-google-analytics-and-facebook-connect-targeted-by-post-schrems-ii-privacy-complaints/)
 - [富士通、制御システムへのサイバー攻撃を物理的に遮断する機器を発表 - ZDNet Japan](https://japan.zdnet.com/article/35158290/)
 - [Facebookのメッセンジャーに届く動画に注意！ ～ 偽のページに情報を入力しないで！ ～ 安心相談窓口だより：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/anshin/mgdayori20200819.html)
 - [【注意喚起】事業継続を脅かす新たなランサムウェア攻撃について：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/announce/2020-ransom.html)
@@ -54,7 +54,7 @@ pageType = "text"
 - [ブログ: 今日のインターネットはいまだにARPANET時代のプロトコルを信頼している: Request for Comments](https://okuranagaimo.blogspot.com/2020/08/arpanet-request-for-comments.html)
 - [How KeePassXC's Password Health Check Feature Works - KeePassXC](https://keepassxc.org/blog/2020-08-15-keepassxc-password-healthcheck/)
 - [ブログ: 量子力学はバタフライ効果の影響を受けない](https://okuranagaimo.blogspot.com/2020/08/blog-post_17.html)
-- [配達ロボが歩道を占拠してしまったら障がい者はどう対応したらいいのか  |  TechCrunch Japan](https://jp.techcrunch.com/2020/08/16/2020-08-11-the-robots-occupying-our-sidewalks/)
+- [配達ロボが歩道を占拠してしまったら障がい者はどう対応したらいいのか  |  TechCrunch Japan](https://techcrunch.com/2020/08/11/the-robots-occupying-our-sidewalks/)
 - [『日経』も「小泉環境相」も勘違い「エネルギー＝電気」の大間違い：岩瀬昇 | 岩瀬昇のエネルギー通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](https://www.fsight.jp/articles/-/47216)
 - [オープンソースのKubernetes統合運用管理ツール「Lens」、Mirantisが買収し主要スポンサーになったと発表 － Publickey](https://www.publickey1.jp/blog/20/kuberneteslensmirantis.html)
 - [リチャード・ストールマン御大が自由、プライバシー、暗号通貨について語るインタビュー（の暗号通貨に関するところだけピックアップ） - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20200817/richard-stallman-on--cryptocurrencies)
@@ -62,7 +62,7 @@ pageType = "text"
 - [広島大とNTTデータ、組み合せ最適化問題での高速計算方式を開発 - ZDNet Japan](https://japan.zdnet.com/article/35158232/)
 - [アドビ、「Adobe Acrobat for Box」提供-- Acrobat DCとBoxのクラウド連携を強化 - ZDNet Japan](https://japan.zdnet.com/article/35158239/)
 - [オラクル「Autonomous JSON Database」発表。クラウド上のスケーラブルなJSONデータベース － Publickey](https://www.publickey1.jp/blog/20/autonomous_json_databasejson.html)
-- [アップルがUnreal Engineを含む開発ツール全面禁止予告、Epic Gamesは差し止めを申し立て  |  TechCrunch Japan](https://jp.techcrunch.com/2020/08/18/2020-08-17-epic-games-apple-injunction/)
+- [アップルがUnreal Engineを含む開発ツール全面禁止予告、Epic Gamesは差し止めを申し立て  |  TechCrunch Japan](https://techcrunch.com/2020/08/17/epic-games-apple-injunction/)
 - [Laying the foundation for Rust's future | Rust Blog](https://blog.rust-lang.org/2020/08/18/laying-the-foundation-for-rusts-future.html)
     - [「Rust Foundation」が年内にも設立。Rust言語のコアチームとMozillaが発表 － Publickey](https://www.publickey1.jp/blog/20/rust_foundationrustmozilla.html)
 - [fluxcd/go-git-providers: Git provider client for Go](https://github.com/fluxcd/go-git-providers)
@@ -79,7 +79,7 @@ pageType = "text"
 - [Anycaが遊休資産となった法人車両のカーシェア実証実験を開始、参加自治体・地場企業を募集  |  TechCrunch Japan](https://jp.techcrunch.com/2020/08/20/dena-sompo-mobility-anyca/)
 - [Microsoft、「TypeScript 4.0」を正式公開 ～“StackOverflow”で2番目に愛される言語に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1272197.html)
 - [ASCII.jp：無料版「 Windows/Mac向け高機能メールソフト」 eM Client 8  配布開始](https://ascii.jp/elem/000/004/024/4024026/) : 独自の OpenPGP 鍵基盤（？）を持っているらしい
-- [中国が国内用のGitHubとして代替サービス「Gitee」を構築中  |  TechCrunch Japan](https://jp.techcrunch.com/2020/08/22/2020-08-21-china-is-building-its-github-alternative-gitee/)
+- [中国が国内用のGitHubとして代替サービス「Gitee」を構築中  |  TechCrunch Japan](https://techcrunch.com/2020/08/21/china-is-building-its-github-alternative-gitee/)
 - [VSCodium · GitHub](https://github.com/VSCodium)
 - [OpenJDK · GitHub](https://github.com/openjdk)
     - [OpenJDK が Github へ移行](https://www.infoq.com/jp/news/2020/07/openjdk-github-migration/)

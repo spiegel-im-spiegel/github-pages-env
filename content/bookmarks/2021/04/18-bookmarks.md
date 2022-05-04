@@ -25,9 +25,9 @@ pageType = "text"
 
 ## セキュリティ＆プライバシー関連
 
-- [ジャマイカの新型コロナアプリ失敗の経緯、サイバー攻撃ではなく単に安全ではなかった  |  TechCrunch Japan](https://jp.techcrunch.com/2021/04/10/2021-04-03-jamaica-jamcovid-amber-group/)
+- [ジャマイカの新型コロナアプリ失敗の経緯、サイバー攻撃ではなく単に安全ではなかった  |  TechCrunch Japan](https://techcrunch.com/2021/04/03/jamaica-jamcovid-amber-group/)
 - [14年間気づかれなかった暗号の脆弱性を発見、焦りと戦ったNECの若手研究者 | 日経クロステック（xTECH）](https://xtech.nikkei.com/atcl/nxt/column/18/01620/040800001/) : 現在は OCB3 が主流
-- [FacebookとInstagramユーザーはコンテンツを削除しない決定の見直しを「監督」委員会に要求可能に  |  TechCrunch Japan](https://jp.techcrunch.com/2021/04/14/2021-04-13-facebook-instagram-users-can-now-ask-oversight-panel-to-review-decisions-not-to-remove-content/)
+- [FacebookとInstagramユーザーはコンテンツを削除しない決定の見直しを「監督」委員会に要求可能に  |  TechCrunch Japan](https://techcrunch.com/2021/04/13/facebook-instagram-users-can-now-ask-oversight-panel-to-review-decisions-not-to-remove-content/)
 - [The FBI Is Now Securing Networks Without Their Owners’ Permission - Schneier on Security](https://www.schneier.com/blog/archives/2021/04/the-fbi-is-now-securing-networks-without-their-owners-permission.html)
   - [FBI、「Exchange」の脆弱性対応で米国内サーバーのウェブシェルを強制除去 - ZDNet Japan](https://japan.zdnet.com/article/35169321/)
 

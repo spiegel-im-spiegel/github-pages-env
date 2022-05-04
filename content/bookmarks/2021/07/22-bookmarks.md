@@ -49,12 +49,12 @@ pageType = "text"
   - [Kaspersky Password Manager's random password generator was about as random as your wall clock • The Register](https://www.theregister.com/2021/07/06/kaspersky_password_manager/)
 - [エレコムのルーターに脆弱性、利用停止を呼び掛け　「OSコマンドインジェクション」 を受ける可能性 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2107/06/news098.html)
 - [トレンドマイクロのWindows版「パスワードマネージャー」に複数の脆弱性 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1336148.html)
-- [ニューヨーク市で生体情報プライバシー法が発効、データの販売・共有を禁止  |  TechCrunch Japan](https://jp.techcrunch.com/2021/07/10/2021-07-09-new-york-city-biometrics-law/)
+- [ニューヨーク市で生体情報プライバシー法が発効、データの販売・共有を禁止  |  TechCrunch Japan](https://techcrunch.com/2021/07/09/new-york-city-biometrics-law/)
 - [スクリプト言語「Ruby」にセキュリティ更新 ～3件の脆弱性に対処 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1336857.html)
 - [老舗のファイル暗号化ツール「アタッシェケース４」が公開、Macへ暫定対応 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1336282.html) : 商用は有料に
 - [Microsoft、Windows Updateの情報を日本語含む10言語で提供開始 | TECH+](https://news.mynavi.jp/article/20210711-1918829/)
 - [「Apache Tomcat」に複数の脆弱性、最新版への更新を - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1338078.html)
-- [インドがMastercardに新規顧客の受付停止を命令、データ保存規則違反で  |  TechCrunch Japan](https://jp.techcrunch.com/2021/07/15/2021-07-14-india-bans-mastercard-from-adding-new-customers/)
+- [インドがMastercardに新規顧客の受付停止を命令、データ保存規則違反で  |  TechCrunch Japan](https://techcrunch.com/2021/07/14/india-bans-mastercard-from-adding-new-customers/)
 - [VMware製品に脆弱性が見つかる　アップデート未適用のプロダクトも - ITmedia エンタープライズ](https://www.itmedia.co.jp/enterprise/articles/2107/16/news137.html)
 
 ## 知財関連
@@ -99,7 +99,7 @@ pageType = "text"
   - [タイムゾーン呪いの書 (実装編)](https://zenn.dev/dmikurube/articles/curse-of-timezones-impl-ja)
   - [タイムゾーン呪いの書 (Java 編)](https://zenn.dev/dmikurube/articles/curse-of-timezones-java-ja)
 - [webassemblyで自作言語のplaygroundを作ってみた - Qiita](https://qiita.com/Syuparn/items/7463fd798dc0ab94f468)
-- [ソフトバンクが日本における「Yahoo」商標の永久ライセンスを1785億円で取得  |  TechCrunch Japan](https://jp.techcrunch.com/2021/07/06/2021-07-05-softbank-yahoo-verizon/)
+- [ソフトバンクが日本における「Yahoo」商標の永久ライセンスを1785億円で取得  |  TechCrunch Japan](https://techcrunch.com/2021/07/05/softbank-yahoo-verizon/)
 - [Facebook, Twitter, Google Threaten to Quit Hong Kong Over Proposed Data Laws - WSJ](https://www.wsj.com/articles/facebook-twitter-google-warn-planned-hong-kong-tech-law-could-drive-them-out-11625483036)
 - [Interview | 野中モモ | 情報によって時間と空間の制限を超える | AVE | CORNER PRINTING](https://ave-cornerprinting.com/momo-nonaka-07052021/) : 『つながりっぱなしの日常を生きる』の翻訳をされた方
 - [Pro Micro でスリープ防止装置を作る](https://zenn.dev/kymok/articles/7ccbd30ace1350)
@@ -108,12 +108,12 @@ pageType = "text"
 - [「なぜスマホのバッテリーは交換できないの？」　その理由と問題の本質を考える（1/4 ページ） - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2107/08/news041.html) : 取り外せなくてもいいけど，物理的に電源OFFする仕掛けがほしい
 - [5 VS Code Extensions That Make Refactoring Easy - DEV Community](https://dev.to/alexomeyer/5-vs-code-extensions-that-make-refactoring-easy-1ccb)
 - [The best VS Code extensions to supercharge Git (yes, there’s more than GitLens!) - DEV Community](https://dev.to/jamieswift90/the-best-vs-code-extensions-to-supercharge-git-yes-there-s-more-than-gitlens-4588)
-- [グーグルがGoogle Playの課金をめぐり大規模な反トラスト訴訟に直面  |  TechCrunch Japan](https://jp.techcrunch.com/2021/07/09/2021-07-07-google-state-lawsuit-android-attorneys-general/)
+- [グーグルがGoogle Playの課金をめぐり大規模な反トラスト訴訟に直面  |  TechCrunch Japan](https://techcrunch.com/2021/07/07/google-state-lawsuit-android-attorneys-general/)
 - [The Rotting Internet Is a Collective Hallucination - The Atlantic](https://www.theatlantic.com/technology/archive/2021/06/the-internet-is-a-collective-hallucination/619320/)
   - [ブログ: インターネットは腐りかけている (The Internet Is Rotting)](https://okuranagaimo.blogspot.com/2021/07/internet-is-rotting.html)
 - [TLS証明書チェッカーcheck-tls-certの公開 - インフラエンジニアway - Powered by HEARTBEATS](https://heartbeats.jp/hbblog/2021/07/check-tls-cert.html)
 - [Kindleで画像として引用する/WebブラウザでKindleのハイライト一覧を眺める - My External Storage](https://budougumi0617.github.io/2021/07/12/kindle_highlight_tips/)
 - [go-auditとfluentdとElasticsearchでつくるLinux監査システム](https://zenn.dev/haccht/articles/de2ffc3b2b6ef0)
-- [ツイッターが想定より利用者が少なかったストーリーズ機能「Fleet」を8月3日に停止へ  |  TechCrunch Japan](https://jp.techcrunch.com/2021/07/15/2021-07-14-twitter-is-shutting-down-fleets-on-august-3-citing-low-usage/)
+- [ツイッターが想定より利用者が少なかったストーリーズ機能「Fleet」を8月3日に停止へ  |  TechCrunch Japan](https://techcrunch.com/2021/07/14/twitter-is-shutting-down-fleets-on-august-3-citing-low-usage/)
 - [ティム・オライリーの経済指南「なんでイーロン・マスクはそんなにリッチなのか」 - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20210715/why-elon-musk-is-so-rich) ： 賭博経済 (betting economy) vs 事業経済 (operating economy)
 - [MongoDB 5.0が登場。時系列データ対応、実行中のシャーディング変更に対応など － Publickey](https://www.publickey1.jp/blog/21/mongodb_50.html)

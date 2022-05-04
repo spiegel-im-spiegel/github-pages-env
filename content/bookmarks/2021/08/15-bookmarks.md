@@ -23,17 +23,17 @@ pageType = "text"
 - [Kindleに脆弱性でAmazonアカウント窃取の危険性、バージョンの確認を | TECH+](https://news.mynavi.jp/article/20210810-1943244/) : 春にリリースされたバージョンで改修済み
 - [個人利用クラウドへのアップロードも行われた再委託先従業員による情報持ち出しについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2021/08/10/063000)
 - [Google、Bluetooth版Titanセキュリティキーを廃止。新たにNFC対応のUSB-Cモデルを追加 - Engadget 日本版](https://japanese.engadget.com/google-titan-security-key-nfc-045013097.html)
-- [暗号化メッセージングのSignalで消滅型メッセージをデフォルト設定可能に  |  TechCrunch Japan](https://jp.techcrunch.com/2021/08/11/2021-08-10-signal-disappearing-message-settings/)
+- [暗号化メッセージングのSignalで消滅型メッセージをデフォルト設定可能に  |  TechCrunch Japan](https://techcrunch.com/2021/08/10/signal-disappearing-message-settings/)
 - [How to erase all of the data Google knows about you](https://www.komando.com/security-privacy/erase-everything-google-knows-about-you/750537/)
 - [暗号化の「見方を変えた」Appleが監視社会へのバックドアを開く | P2Pとかその辺のお話R](https://p2ptk.org/privacy/3329)
-- [Facebookがエンド・ツー・エンド暗号化をMessengerの通話やInstagramのメッセージに拡大  |  TechCrunch Japan](https://jp.techcrunch.com/2021/08/14/2021-08-13-facebook-brings-end-to-end-encryption-to-messenger-calls-and-instagram-dms/)
-  - その一方で： [なんとフェイスブックがまたもプライバシー設定を変更  |  TechCrunch Japan](https://jp.techcrunch.com/2021/08/05/2021-08-04-oh-facebook-changed-its-privacy-settings-again/)
+- [Facebookがエンド・ツー・エンド暗号化をMessengerの通話やInstagramのメッセージに拡大  |  TechCrunch Japan](https://techcrunch.com/2021/08/13/facebook-brings-end-to-end-encryption-to-messenger-calls-and-instagram-dms/)
+  - その一方で： [なんとフェイスブックがまたもプライバシー設定を変更  |  TechCrunch Japan](https://techcrunch.com/2021/08/04/oh-facebook-changed-its-privacy-settings-again/)
 
 ## 知財関連
 
 - [Sci-Hub Pledges Open Source & AI Alongside Crypto Donation Drive * TorrentFreak](https://torrentfreak.com/sci-hub-pledges-open-source-ai-alongside-crypto-donation-drive-210809/)
 - [任天堂とコロプラの特許権侵害訴訟が和解で決着：和解金33億円は安いのか（栗原潔） - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/kuriharakiyoshi/20210812-00252868)
-- [GoogleがSonosの特許5件を侵害したと予備裁定が認定  |  TechCrunch Japan](https://jp.techcrunch.com/2021/08/15/2021-08-13-google-infringed-on-five-sonos-patents-according-to-preliminary-ruling/)
+- [GoogleがSonosの特許5件を侵害したと予備裁定が認定  |  TechCrunch Japan](https://techcrunch.com/2021/08/13/google-infringed-on-five-sonos-patents-according-to-preliminary-ruling/)
 
 ## Linux または Ubuntu に関する話題
 
@@ -74,10 +74,10 @@ pageType = "text"
 - [NortonとAvastが合併　ユーザー数は5億人規模に - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2108/12/news110.html)
 - [電気通信大が粗悪なCO2センサーの見分け方を公開、5000円以下の12製品中8製品はCO2ではなく消毒用アルコールに反応  |  TechCrunch Japan](https://jp.techcrunch.com/2021/08/12/uec-co2-sensor/)
 - [「Windows 365」登場で注目の「DaaS」--過去、現在、未来 - ZDNet Japan](https://japan.zdnet.com/article/35174890/)
-- [Facebookのエンジニアがオープンソースの新しい時刻管理アプライアンスを開発  |  TechCrunch Japan](https://jp.techcrunch.com/2021/08/13/2021-08-11-facebook-engineers-develop-new-open-source-time-keeping-appliance/)
+- [Facebookのエンジニアがオープンソースの新しい時刻管理アプライアンスを開発  |  TechCrunch Japan](https://techcrunch.com/2021/08/11/facebook-engineers-develop-new-open-source-time-keeping-appliance/)
 - [QUICとHTTP/3時代のインターネット解説書はどうあるべきだろう - golden-luckyの日記](https://golden-lucky.hatenablog.com/entry/2019/01/31/150740)
 - [インフラを意識せずにSaaS開発ができる 次世代PaaS「Hacobune」のオープンβ版を2021年8月12日に無料提供開始 ～8月27日にオンライン発表会を開催～ | さくらインターネット](https://www.sakura.ad.jp/information/announcements/2021/08/12/1968207782/)
 - [小室哲哉か00年代エロゲの歌詞か | クイズメーカー - こたえてあそぶ・つくってあそぶ・クイズのプラットフォームサービス](https://quiz-maker.site/quiz/play/dd4yf320210813182849)
 - [図で理解するFlexbox](https://zenn.dev/umatoma/articles/e6c4051f4c882d)
-- [Twitterがインド最大与党のアカウントを停止  |  TechCrunch Japan](https://jp.techcrunch.com/2021/08/13/2021-08-11-twitter-locks-account-of-india-congress-largest-opposition-party/)
+- [Twitterがインド最大与党のアカウントを停止  |  TechCrunch Japan](https://techcrunch.com/2021/08/11/twitter-locks-account-of-india-congress-largest-opposition-party/)
 - [AWSと1兆円規模のクラウド契約、NSAが契約との報道--マイクロソフトは抗議 - ZDNet Japan](https://japan.zdnet.com/article/35175181/)

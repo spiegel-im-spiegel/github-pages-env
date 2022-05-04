@@ -19,9 +19,9 @@ pageType = "text"
 ## バベルのインターネット
 
 - [﻿ロシア、インターネットからの自国切り離し実験に成功 - ZDNet Japan](https://japan.zdnet.com/article/35147348/)
-- [ウィキペディア禁止は違憲とトルコ憲法裁判所が裁定  |  TechCrunch Japan](https://jp.techcrunch.com/2019/12/27/2019-12-26-wikipedia-ban-ruled-unconstitutional-by-turkish-court/)
+- [ウィキペディア禁止は違憲とトルコ憲法裁判所が裁定  |  TechCrunch Japan](https://techcrunch.com/2019/12/26/wikipedia-ban-ruled-unconstitutional-by-turkish-court/)
 - [「和製プラットフォーマー」を「誤爆」する「GAFA」規制案：大西康之 | 記事 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](https://www.fsight.jp/articles/-/46325)
-- [ウィキメディア財団がインドが提案する仲介者責任規則に深い懸念を表明  |  TechCrunch Japan](https://jp.techcrunch.com/2019/12/27/2019-12-26-wikimedia-foundation-expresses-deep-concerns-about-indias-proposed-intermediary-liability-rules/)
+- [ウィキメディア財団がインドが提案する仲介者責任規則に深い懸念を表明  |  TechCrunch Japan](https://techcrunch.com/2019/12/26/wikimedia-foundation-expresses-deep-concerns-about-indias-proposed-intermediary-liability-rules/)
 
 ## セキュリティ＆プライバシー関連
 
@@ -48,7 +48,7 @@ pageType = "text"
 
 - [テックワーカーと消費者がテクノロジーを悪用した人権侵害を防ぐためにできること | P2Pとかその辺のお話R](https://p2ptk.org/privacy/2829)
 - [強まるトルコ＝カタールの紐帯：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](https://www.fsight.jp/articles/-/46290)
-- [電子たばこによる肺疾患が減少傾向、原因はビタミンEアセテートか  |  TechCrunch Japan](https://jp.techcrunch.com/2019/12/22/2019-12-20-vape-lung-is-on-the-decline-as-cdc-report-fixes-blame-on-oily-additive/)
+- [電子たばこによる肺疾患が減少傾向、原因はビタミンEアセテートか  |  TechCrunch Japan](https://techcrunch.com/2019/12/20/vape-lung-is-on-the-decline-as-cdc-report-fixes-blame-on-oily-additive/)
 - [Lawrence Lessig: Being a Citizen is a Public Office, too | Internet Archive Blogs](https://blog.archive.org/2019/12/20/lawrence-lessig-being-a-citizen-is-a-public-office-too/)
     - [ブログ: ローレンス・レッシグ: 市民であることも公職である](https://okuranagaimo.blogspot.com/2019/12/blog-post_77.html)
 - [AWS、オープンソースベンダのライセンス変更による商用サービスの制限は「顧客を見ていない」と反論 － Publickey](https://www.publickey1.jp/blog/19/aws_5.html)
@@ -65,4 +65,4 @@ pageType = "text"
 - [ビッグデータやAI倫理の問題を訴えてきたケイト・クロフォードの初の単著『Atlas of AI』が出る - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20191227/atas-of-ai)
 - [Why I love Coding in C // December 2019](https://lord-left.github.io/posts/love-coding-c.html)
     - [ブログ: 私がCのコーディングを好きな理由](https://okuranagaimo.blogspot.com/2019/12/c.html)
-- [AIによる分散システム「Ray」を開発するAnyscaleが22億円超を調達  |  TechCrunch Japan](https://jp.techcrunch.com/2019/12/27/2019-12-17-anyscale-ray-project-distributed-computing-a16z/)
+- [AIによる分散システム「Ray」を開発するAnyscaleが22億円超を調達  |  TechCrunch Japan](https://techcrunch.com/2019/12/17/anyscale-ray-project-distributed-computing-a16z/)

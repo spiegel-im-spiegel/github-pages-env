@@ -24,7 +24,7 @@ flattr    = ""
 
 ## Age of Trump
 
-- [ドナルド・トランプの盟友ロジャー・ストーン、Twitterアカウント凍結 | TechCrunch Japan](https://jp.techcrunch.com/2017/10/30/20171029twitter-bans-a-scrooge/)
+- [ドナルド・トランプの盟友ロジャー・ストーン、Twitterアカウント凍結 | TechCrunch Japan](https://techcrunch.com/2017/10/29/twitter-bans-a-scrooge/)
 - [国際的な立憲主義が日本にもあったことを、吉野作造から学ぶ : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/21861249.html)
 
 ## セキュリティ関連
@@ -59,7 +59,7 @@ flattr    = ""
 - [非親告罪化と著作権延長の時計の針は、1秒前で止まっています。 | TPPの知的財産権と協議の透明化を考えるフォーラム](http://thinktppip.jp/?p=845)
 - [文庫とライブラリーの間で « マガジン航[kɔː]](https://magazine-k.jp/2017/11/01/editors-note-26/)
     - [「本が売れないのは図書館が本を貸すからだ」問題の立証をできる範囲でやる - 図書館学徒未満](http://lovelibrary.hatenablog.com/entry/2017/11/02/143242)
-- [Google Polyは3Dオブジェクトを多数掲載したサイト――CCライセンスで自由に使える | TechCrunch Japan](https://jp.techcrunch.com/2017/11/02/20171101google-launches-poly-a-home-for-the-worlds-3d-objects-built-for-creators/)
+- [Google Polyは3Dオブジェクトを多数掲載したサイト――CCライセンスで自由に使える | TechCrunch Japan](https://techcrunch.com/2017/11/01/google-launches-poly-a-home-for-the-worlds-3d-objects-built-for-creators/)
 
 ## その他
 
@@ -78,7 +78,7 @@ flattr    = ""
 - [Office 365 HomeとPremiumにOutlook.comのプレミアム機能--広告非表示、容量追加など - ZDNet Japan](https://japan.zdnet.com/article/35109612/)
 - [「二酸化炭素を石に変える」プロジェクトが、本格的に動き始めた｜WIRED.jp](https://wired.jp/2017/10/31/first-facility-grabs-co2-from-the-air-and-stores-it-underground/) : 二酸化炭素を水に溶かした上で地下に送り込むらしい
 - [ロボットのプログラミングを容易にする「人とマシンのやり取り」の可能性 - ZDNet Japan](https://japan.zdnet.com/article/35109196/)
-- [いや、iPhoneにセクシー写真の専用フォルダーはない | TechCrunch Japan](https://jp.techcrunch.com/2017/10/31/20171030no-iphones-dont-have-a-special-folder-for-your-sexy-pics/)
+- [いや、iPhoneにセクシー写真の専用フォルダーはない | TechCrunch Japan](https://techcrunch.com/2017/10/30/no-iphones-dont-have-a-special-folder-for-your-sexy-pics/)
 - [What are the Most Disliked Programming Languages? - Stack Overflow Blog](https://stackoverflow.blog/2017/10/31/disliked-programming-languages/?cb=1)
 - [「Slack」で大規模な障害　一時アクセス不能に - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1711/01/news066.html)
 - [モノリシックなバージョン管理の利点 | プログラミング | POSTD](http://postd.cc/monorepo/)

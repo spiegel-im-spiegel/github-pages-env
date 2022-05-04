@@ -31,7 +31,7 @@ title = "2016-06-15 のブックマーク"
 - [惑星誕生領域で初めてメタノールを発見 - ニュース＆コラム - アルマ望遠鏡 国立天文台](http://alma.mtk.nao.ac.jp/j/news/info/2016/0615post_659.html)
 - [How a college student tricked 17k coders into running his sketchy script | Ars Technica](http://arstechnica.com/security/2016/06/college-student-schools-govs-and-mils-on-perils-of-arbitrary-code-execution/)
     - [Infecting Systems by Typosquatting Programming Language Libraries - Schneier on Security](https://www.schneier.com/blog/archives/2016/06/infecting_syste.html)
-- [Linuxの新しいパッケージフォーマット、Ubuntu生まれのSnapsは、小アプリケーション群のためのコンテナのようだ | TechCrunch Japan](https://jp.techcrunch.com/2016/06/15/20160614ubuntus-container-style-snap-app-packages-now-work-on-other-linux-distributions/)
+- [Linuxの新しいパッケージフォーマット、Ubuntu生まれのSnapsは、小アプリケーション群のためのコンテナのようだ | TechCrunch Japan](https://techcrunch.com/2016/06/14/ubuntus-container-style-snap-app-packages-now-work-on-other-linux-distributions/)
 - [フロリダとパリのテロはグローバル・ジハードの拡散の典型：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41274)
     - [フロリダ州オーランドのゲイ・ナイトクラブへのテロに対するオバマの言葉：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41273)
     - [グローバル・ジハードの「触発」と「指示」の相違：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/41275)
@@ -47,7 +47,7 @@ title = "2016-06-15 のブックマーク"
 - [Adobe Flash Player の脆弱性対策について(APSA16-03)(CVE-2016-4171)：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/ciadr/vul/20160615-adobeflashplayer.html)
     - [「Adobe Flash Player」にゼロデイ脆弱性、攻撃者にシステムを乗っ取られる恐れ - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1005272.html)
 - [ASCII.jp：脆弱性情報のサイトでよく目にする「CVE」とは？](http://ascii.jp/elem/000/001/178/1178273/)
-- [3200万のTwitterアカウントのパスワードがハックされてリークした、かもしれない | TechCrunch Japan](https://jp.techcrunch.com/2016/06/09/20160608twitter-hack/)
+- [3200万のTwitterアカウントのパスワードがハックされてリークした、かもしれない | TechCrunch Japan](https://techcrunch.com/2016/06/08/twitter-hack/)
     - [Have I been pwned? Check if your email has been compromised in a data breach](https://haveibeenpwned.com/) : アカウント漏洩の確認サイト
 - [JTBへの不正アクセスについてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20160614/1465925330)
     - [JTB、793万人分の個人情報流出か--外部への通信で不正アクセスと判明 - ZDNet Japan](http://japan.zdnet.com/article/35084254/)
@@ -60,8 +60,8 @@ title = "2016-06-15 のブックマーク"
 - [「自由意志」は存在する（ただし、ほんの0.2秒間だけ）：研究結果｜WIRED.jp](http://wired.jp/2016/06/13/free-will-research/)
 - [VBScript Regular Expressions ライブラリは 5.5 を使おうね - 電気ウナギ的○○](http://blog.netandfield.com/shar/2016/06/vbscript-regular-expressions-5.html)
 - [CSSコーディングテクニック : 詳細度、単位、flexbox、mixin | プログラミング | POSTD](http://postd.cc/css-coding-techniques/)
-- [朗報―iOS 10ベータ版でついにビルトイン・アプリをすべて削除できるようになった | TechCrunch Japan](https://jp.techcrunch.com/2016/06/14/20160613ios-10-beta-finally-lets-you-remove-all-those-built-in-apps/)
+- [朗報―iOS 10ベータ版でついにビルトイン・アプリをすべて削除できるようになった | TechCrunch Japan](https://techcrunch.com/2016/06/13/ios-10-beta-finally-lets-you-remove-all-those-built-in-apps/)
 - [ドロップボックスのCEOがハイブリッドクラウド戦略を明かす--HPEと提携 - ZDNet Japan](http://japan.zdnet.com/article/35084018/)
 - [Apple、iPadでコーディングして学べる「Swift Playgrounds」を無償提供 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1606/14/news071.html)
-- [MicrosoftがLinkedInを262億ドルで買収、エンタープライズ向けソーシャルメディアに参入 | TechCrunch Japan](https://jp.techcrunch.com/2016/06/14/20160613microsoft-to-buy-linkedin-for-26b-in-cash-makes-big-move-into-enterprise-social-media/) : LinkedIn のアカウントが Microsoft アカウントに統合されたら速攻でやめる
+- [MicrosoftがLinkedInを262億ドルで買収、エンタープライズ向けソーシャルメディアに参入 | TechCrunch Japan](https://techcrunch.com/2016/06/13/microsoft-to-buy-linkedin-for-26b-in-cash-makes-big-move-into-enterprise-social-media/) : LinkedIn のアカウントが Microsoft アカウントに統合されたら速攻でやめる
 - [ユーチューバー、キューブリック映画“BGM”の無断使用で訴えられる – P2Pとかその辺のお話R](http://p2ptk.org/copyright/438)

@@ -22,7 +22,7 @@ pageType = "text"
 - [徳丸浩氏が誤解を指摘――Webサービス運営者が知らないと損害を生む「パスワード保護の在り方」：＠ITセキュリティセミナー - ＠IT](https://www.atmarkit.co.jp/ait/articles/1907/24/news006.html)
 - [Attorney General William Barr on Encryption Policy - Schneier on Security](https://www.schneier.com/blog/archives/2019/07/attorney_genera_1.html)
 - [仕事で致命的な状況を回避するためのセキュリティ対策のキホン - ZDNet Japan](https://japan.zdnet.com/article/35140204/)
-- [データの匿名化はウソだと欧州の研究者グループが解明  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/25/2019-07-24-researchers-spotlight-the-lie-of-anonymous-data/)
+- [データの匿名化はウソだと欧州の研究者グループが解明  |  TechCrunch Japan](https://techcrunch.com/2019/07/24/researchers-spotlight-the-lie-of-anonymous-data/)
 
 ## 天文関連
 

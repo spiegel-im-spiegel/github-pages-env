@@ -75,7 +75,7 @@ flattr    = ""
 - {{< pdf-file title="2018年の小惑星リュウグウ到着にむけて小惑星探査機「はやぶさ２」の近況" link="http://fanfun.jaxa.jp/jaxatv/files/20171214_hayabusa2.pdf" >}}
     - [小惑星探査機「はやぶさ2」の記者説明会 | ファン!ファン!JAXA!](http://fanfun.jaxa.jp/jaxatv/detail/11078.html)
 - [NASA、GoogleのAI支援で8惑星の恒星系「Kepler 90」を発見 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1712/15/news065.html)
-- [恒星間天体「オウムウムア」、観察結果から人工的信号の証拠は見つからず  |  TechCrunch Japan](https://jp.techcrunch.com/2017/12/15/2017-12-14-observation-of-interstellar-object-oumuamua-shows-no-evidence-of-artificial-signals/)
+- [恒星間天体「オウムウムア」、観察結果から人工的信号の証拠は見つからず  |  TechCrunch Japan](https://techcrunch.com/2017/12/14/observation-of-interstellar-object-oumuamua-shows-no-evidence-of-artificial-signals/)
 
 ## 知財関連
 

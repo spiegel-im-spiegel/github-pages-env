@@ -59,7 +59,7 @@ Web 3.0 で VRM (Vendor Relationship Management; 企業関係管理) の夢よ�
 
 ## ブックマーク
 
-- [元NSAとAmazonのエンジニアが「データのGitHub」を開発中  |  TechCrunch Japan](https://jp.techcrunch.com/2020/02/22/2020-02-20-gretel-nsa-amazon-github-data/)
+- [元NSAとAmazonのエンジニアが「データのGitHub」を開発中  |  TechCrunch Japan](https://techcrunch.com/2020/02/20/gretel-nsa-amazon-github-data/)
 
 - [搾取と狂狷]({{< ref "/remark/2019/06/kyoken.md" >}})
 

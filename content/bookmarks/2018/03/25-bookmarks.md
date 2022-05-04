@@ -64,19 +64,19 @@ flattr    = ""
 
 ## 知財関連
 
-- [アプリストアのデベロッパー虐待でフランスがAppleとGoogleを提訴へ  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/15/2018-03-14-france-takes-legal-action-against-apple-and-google-for-their-app-stores/)
+- [アプリストアのデベロッパー虐待でフランスがAppleとGoogleを提訴へ  |  TechCrunch Japan](https://techcrunch.com/2018/03/14/france-takes-legal-action-against-apple-and-google-for-their-app-stores/)
 - [CC Will Host 2018-19 Ford-Mozilla Open Web Fellow - Creative Commons](https://creativecommons.org/2018/03/21/cc-will-host-2018-19-ford-mozilla-open-web-fellow/)
 - [今後変わる？　リンクについての著作権法上の考え方　岡本健太郎｜コラム｜骨董通り法律事務所 For the Arts](http://www.kottolaw.com/column/001653.html)
 
 ## その他
 
-- [Raspberry Pi 3 Model B+が今年のPi Dayに間に合って登場、すべてに高規格で本格商用向け  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/14/2018-03-14-raspberry-pi-model-b-arrives-just-in-time-for-pi-day-2018/)
+- [Raspberry Pi 3 Model B+が今年のPi Dayに間に合って登場、すべてに高規格で本格商用向け  |  TechCrunch Japan](https://techcrunch.com/2018/03/14/raspberry-pi-model-b-arrives-just-in-time-for-pi-day-2018/)
     - [「Raspberry Pi 3 Model B+」発表--CPUや通信が高速化した“進化版” - ZDNet Japan](https://japan.zdnet.com/article/35116193/)
 - [出版ワークフローにおけるTeX組版 // Speaker Deck](https://speakerdeck.com/yuw/chu-ban-wakuhuroniokerutexzu-ban)
-- [「フェイクニュース」拡散の原因はボットではなく人間だった――MITが発表  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/18/2018-03-08-false-news-spreads-faster-than-truth-online-thanks-to-human-nature/)
+- [「フェイクニュース」拡散の原因はボットではなく人間だった――MITが発表  |  TechCrunch Japan](https://techcrunch.com/2018/03/08/false-news-spreads-faster-than-truth-online-thanks-to-human-nature/)
 - [チェルノブイリで暮らす老婆たちの信念とは - ログミー](http://logmi.jp/87588)
-- [Google、仮想通貨の広告を全面禁止へ  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/15/2018-03-14-google-announces-ban-on-cryptocurrency-ads/)
-- [IBMがベアメタルKubernetesを発表  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/14/2018-03-14-ibm-launches-bare-metal-kubernetes/)
+- [Google、仮想通貨の広告を全面禁止へ  |  TechCrunch Japan](https://techcrunch.com/2018/03/14/google-announces-ban-on-cryptocurrency-ads/)
+- [IBMがベアメタルKubernetesを発表  |  TechCrunch Japan](https://techcrunch.com/2018/03/14/ibm-launches-bare-metal-kubernetes/)
 - [ネットワークスイッチをプログラマブルでgRPC対応にする「Stratum」をONFが発表。ホワイトボックススイッチのリファレンス実装に、Googleがオープンソース提供 － Publickey](http://www.publickey1.jp/blog/18/grpcstratumonfgoogle.html)
 - [DMM、フルカラー化したPC向け「プリンセスメーカー2リファイン」を配信 - CNET Japan](https://japan.cnet.com/article/35116299/)
 - [北米クラウド市場の2015年を見る（前編） - ZDNet Japan](https://japan.zdnet.com/article/35059744/)
@@ -85,9 +85,9 @@ flattr    = ""
 - [2018年3月20日ニュース「大気中の塵による雲の消長が、現実どおりにシミュレーションできた」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/03/20180320_01.html)
 - [預金調査業務などの自動化で年間3600時間削減――山陰合同銀行、NTTデータのRPAを本格運用へ - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1803/14/news053.html)
 - [13業務にRPAを適用、年間6019時間の削減効果へ――大分銀行、CTCのRPA導入で業務自動化を加速 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1803/05/news049.html)
-- [Google、サブスクリプション型ニュースを立ち上げ――News Inisitativeに3億ドル投資  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/21/2018-03-20-google-news-initiative/)
-- [Amazonが市場価値でAlphabetを抜く、Appleのダントツは揺るがず  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/21/2018-03-20-amazon-surpasses-alphabet-in-market-value/)
-- [CryptoKitties、1200万ドルを調達してスピンアウト―Andreessen Horowitz他が大人気の暗号化ゲームに投資  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/22/2018-03-20-cryptokitties-raises-12m-from-andreessen-horowitz-and-union-square-ventures/)
+- [Google、サブスクリプション型ニュースを立ち上げ――News Inisitativeに3億ドル投資  |  TechCrunch Japan](https://techcrunch.com/2018/03/20/google-news-initiative/)
+- [Amazonが市場価値でAlphabetを抜く、Appleのダントツは揺るがず  |  TechCrunch Japan](https://techcrunch.com/2018/03/20/amazon-surpasses-alphabet-in-market-value/)
+- [CryptoKitties、1200万ドルを調達してスピンアウト―Andreessen Horowitz他が大人気の暗号化ゲームに投資  |  TechCrunch Japan](https://techcrunch.com/2018/03/20/cryptokitties-raises-12m-from-andreessen-horowitz-and-union-square-ventures/)
 - [「Jenkins X」発表。Git/Docker/Kubernetesに特化したことでCI/CD環境の構築運用を自動化 － Publickey](http://www.publickey1.jp/blog/18/jenkins_xgitdockerkubernetescicd.html)
 - [「学校に戻す」という不登校支援は適切なのか　精神科医・斎藤環氏は「学校というシステムへの批判が欠けている」と指摘 | キャリコネニュース](https://news.careerconnection.jp/?p=51867)
 - [Microsoft、「Windows Server 2019」を発表 ～今年後半にリリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1112898.html)
@@ -95,8 +95,8 @@ flattr    = ""
 - [超軽量、超高速な配布用Python「embeddable python」 - Qiita](https://qiita.com/mm_sys/items/1fd3a50a930dac3db299)
 - [サイエンスクリップ・「木の遺伝的な多様性が、樹上の生態系の多様性をつくっている」 | SciencePortal](https://scienceportal.jst.go.jp/clip/20180323_01.html)
 - [紙と鉛筆でビットコインをマイニング：1日に0.67ハッシュ | POSTD](https://postd.cc/mining-bitcoin-with-pencil-and-paper/) : GPU 体制があると言われている scrypt だが[既に攻略されつつある](https://blog.visvirial.com/articles/519 "scryptがGPUに破られる時 – びりあるの研究ノート")
-- [IETFがTLS 1.3を承認、悪質なハッカーや盗聴者が仕事をしづらくなる仕掛けを盛り込む  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/24/2018-03-23-the-web-will-soon-be-a-little-safer-with-the-approval-of-this-new-security-standard/)
-- [GitLabがライバルのGitHubをサポート、CI/CDで顧客を取り込みたい  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/23/2018-03-22-gitlab-adds-support-for-github/)
+- [IETFがTLS 1.3を承認、悪質なハッカーや盗聴者が仕事をしづらくなる仕掛けを盛り込む  |  TechCrunch Japan](https://techcrunch.com/2018/03/23/the-web-will-soon-be-a-little-safer-with-the-approval-of-this-new-security-standard/)
+- [GitLabがライバルのGitHubをサポート、CI/CDで顧客を取り込みたい  |  TechCrunch Japan](https://techcrunch.com/2018/03/22/gitlab-adds-support-for-github/)
 - [ユニシスとMS、Azure利用の勘定系システムを共同開発へ - ZDNet Japan](https://japan.zdnet.com/article/35116594/)
 - [グーグル、独自のブロックチェーン関連技術を開発中か - ZDNet Japan](https://japan.zdnet.com/article/35116554/)
 - [本の虫: vectordash: 暗号通貨採掘している奴らに暗号通貨採掘よりは歩合のよい報酬を払ってGPGPU計算を購入するGPU版AirBnBみたいなサービス](https://cpplover.blogspot.jp/2018/03/vectordash-gpgpugpuairbnb.html)

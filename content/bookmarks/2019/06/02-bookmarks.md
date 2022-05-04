@@ -23,8 +23,8 @@ pageType = "text"
 - [GDPR施行から1年、世界のプライバシーとデータ保護を巡る状況をどう変えたか - ZDNet Japan](https://japan.zdnet.com/article/35137389/)
 - [First American Financial Corp. Leaked Hundreds of Millions of Title Insurance Records —  Krebs on Security](https://krebsonsecurity.com/2019/05/first-american-financial-corp-leaked-hundreds-of-millions-of-title-insurance-records/)
     - [First American Financial Corp. Data Records Leak - Schneier on Security](https://www.schneier.com/blog/archives/2019/05/first_american_.html)
-- [Amazon株主が政府への顔認識技術提供の禁止を求める提案を否決  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/23/2019-05-22-amazon-reject-facial-recognition-proposals/)
-    - [Amazonに顔認証技術の政府提供禁止を求める案は大差で否決されていた  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/29/2019-05-28-amazon-facial-recognition-vote/)
+- [Amazon株主が政府への顔認識技術提供の禁止を求める提案を否決  |  TechCrunch Japan](https://techcrunch.com/2019/05/22/amazon-reject-facial-recognition-proposals/)
+    - [Amazonに顔認証技術の政府提供禁止を求める案は大差で否決されていた  |  TechCrunch Japan](https://techcrunch.com/2019/05/28/amazon-facial-recognition-vote/)
 - [依然として100万台弱のWindowsシステムに「BlueKeep」の脆弱性 - CNET Japan](https://japan.cnet.com/article/35137653/)
 - [全国で発生した電子マネーやギフトカードのシステム障害についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/05/26/063000)
 - [MIT Tech Review: 流出NSA製ハッキングツールが米国を標的に、市システムがダウン](https://www.technologyreview.jp/nl/hackers-are-using-a-leaked-us-cyber-weapon-against-american-targets/)
@@ -39,7 +39,7 @@ pageType = "text"
 - [佐世保共済病院のマルウェア感染についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/06/01/095814)
 - [Ghidra - Java 11上で動作するNSAのリバースエンジニアリングツール](https://www.infoq.com/jp/news/2019/05/ghidra-java11/)
 - [Windowsのメモ帳にバグ、任意のコマンド実行可能か | マイナビニュース](https://news.mynavi.jp/article/20190601-834516/)
-- [マイクロソフトは伝染性BlueKeepバグへのパッチ適用を勧告  |  TechCrunch Japan](https://jp.techcrunch.com/2019/06/01/2019-05-31-microsoft-bluekeep-worm-exploits/)
+- [マイクロソフトは伝染性BlueKeepバグへのパッチ適用を勧告  |  TechCrunch Japan](https://techcrunch.com/2019/05/31/microsoft-bluekeep-worm-exploits/)
 
 ## 天文関連
 
@@ -49,7 +49,7 @@ pageType = "text"
     - [MIT Tech Review: 「明るすぎる」スペースXの人工衛星群、天文学者から批判](https://www.technologyreview.jp/nl/spacexs-starlink-satellites-are-clearly-visible-in-the-sky-and-astronomers-arent-happy/)
 - [MIT Tech Review: 太陽系外惑星に生命は存在するか？MITの「形状可変鏡」年内試験へ](https://www.technologyreview.jp/s/144559/a-bendable-mirror-is-a-step-toward-finding-life-outside-our-solar-system/)
 - [「はやぶさ2」のミッション | Nature Astronomy | Nature Research](https://www.natureasia.com/ja-jp/natastron/specials)
-- [アポロ11号の50周年記念にレゴで作る月着陸船  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/31/2019-05-30-lego-celebrates-apollo-11-with-a-lovely-bricky-lunar-lander/)
+- [アポロ11号の50周年記念にレゴで作る月着陸船  |  TechCrunch Japan](https://techcrunch.com/2019/05/30/lego-celebrates-apollo-11-with-a-lovely-bricky-lunar-lander/)
 
 ## 知財関連
 
@@ -72,5 +72,5 @@ pageType = "text"
 - [MIT Tech Review: AI利用のルールづくり目指す、世界経済フォーラムが評議会設立へ](https://www.technologyreview.jp/s/144326/the-world-economic-forum-wants-to-develop-global-rules-for-ai/)
 - [「Cloudflare Workers KV」正式版がリリース。約180個所のグローバルなCDNエッジで提供される大規模分散キーバリューストア － Publickey](https://www.publickey1.jp/blog/19/cloudflare_workers_kv180cdn.html)
 - [2019年5月30日ニュース「基礎研究の成果は将来の社会発展の基盤 令和元年版の科学技術白書」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2019/05/20190530_01.html)
-- [Amazonが5.5インチ画面のスマートディスプレイ「Echo Show 5」を1万円で発売  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/30/2019-05-29-amazon-just-launched-a-90-5-5-inch-echo-show/)
-- [Uberの性差別的男子文化を暴いたスーザン・ファウラーの回想録  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/31/2019-05-30-susan-fowlers-memoir-has-a-title-and-a-release-date/)
+- [Amazonが5.5インチ画面のスマートディスプレイ「Echo Show 5」を1万円で発売  |  TechCrunch Japan](https://techcrunch.com/2019/05/29/amazon-just-launched-a-90-5-5-inch-echo-show/)
+- [Uberの性差別的男子文化を暴いたスーザン・ファウラーの回想録  |  TechCrunch Japan](https://techcrunch.com/2019/05/30/susan-fowlers-memoir-has-a-title-and-a-release-date/)

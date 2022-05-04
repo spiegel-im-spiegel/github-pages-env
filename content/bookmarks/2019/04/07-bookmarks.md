@@ -17,7 +17,7 @@ pageType = "text"
 
 ## Age of Trump
 
-- [ソーシャルメディアに暴力コンテンツの責任を問う法案が豪議会を通過  |  TechCrunch Japan](https://jp.techcrunch.com/2019/04/06/2019-04-04-australia-passes-law-to-hold-social-media-companies-responsible-for-abhorrent-violent-material/)
+- [ソーシャルメディアに暴力コンテンツの責任を問う法案が豪議会を通過  |  TechCrunch Japan](https://techcrunch.com/2019/04/04/australia-passes-law-to-hold-social-media-companies-responsible-for-abhorrent-violent-material/)
 - [Mark Zuckerberg Does Not Speak for the Internet | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2019/04/mark-zuckerberg-does-not-speak-internet)
 - [Attending a Protest | Surveillance Self-Defense](https://ssd.eff.org/en/module/attending-protest)
 
@@ -46,7 +46,7 @@ pageType = "text"
 - [JAXA | 小惑星探査機「はやぶさ２」衝突装置の運用状況について](http://www.jaxa.jp/press/2019/04/20190405a_j.html)
     - [JAXA | 小惑星探査機「はやぶさ２」衝突装置の作動の確認について](http://www.jaxa.jp/press/2019/04/20190405b_j.html)
     - [2019年4月5日ニュース「はやぶさ2が衝突装置の作動に成功 小惑星りゅうぐうの人工クレーター実験で世界初の岩石採取目指す」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2019/04/20190405_01.html)
-    - [日本の「はやぶさ2」が小惑星を銃撃して穴を掘る  |  TechCrunch Japan](https://jp.techcrunch.com/2019/04/05/2019-04-04-japans-hayabusa-2-probe-is-blasting-a-hole-in-an-asteroid-tonight-and-thats-awesome/)
+    - [日本の「はやぶさ2」が小惑星を銃撃して穴を掘る  |  TechCrunch Japan](https://techcrunch.com/2019/04/04/japans-hayabusa-2-probe-is-blasting-a-hole-in-an-asteroid-tonight-and-thats-awesome/)
 
 ## 知財関連
 
@@ -66,8 +66,8 @@ pageType = "text"
 - [モジラ、「Firefox」でスパムのようなプッシュ通知の許可プロンプト低減に向け取り組み - CNET Japan](https://japan.cnet.com/article/35135162/)
 - [蜜月の終わり。世界各国の美術館が関係解消を急ぐ「サックラー・ファミリー」とオピオイド中毒問題｜MAGAZINE | 美術手帖](https://bijutsutecho.com/magazine/insight/19598)
 - [MIT Tech Review: 訓練データ作成を刑務所に委託も、AIが生む「つまらない仕事」](https://www.technologyreview.jp/nl/an-ai-startup-has-found-a-new-source-of-cheap-labor-for-training-algorithms-prisoners/)
-- [Amazonサードパーティいじめをやめる、検索結果で自社ブランド商品を目立たせる宣伝廃止  |  TechCrunch Japan](https://jp.techcrunch.com/2019/04/05/2019-04-03-amazon-reportedly-removes-the-most-obvious-promotions-for-its-private-brands-from-search-results/)
-- [MySpaceの大規模データ喪失の前に集めた45万曲をInternet Archiveがアップロード  |  TechCrunch Japan](https://jp.techcrunch.com/2019/04/05/2019-04-03-the-internet-archive-has-uploaded-450000-songs-collected-before-myspaces-massive-data-loss/)
+- [Amazonサードパーティいじめをやめる、検索結果で自社ブランド商品を目立たせる宣伝廃止  |  TechCrunch Japan](https://techcrunch.com/2019/04/03/amazon-reportedly-removes-the-most-obvious-promotions-for-its-private-brands-from-search-results/)
+- [MySpaceの大規模データ喪失の前に集めた45万曲をInternet Archiveがアップロード  |  TechCrunch Japan](https://techcrunch.com/2019/04/03/the-internet-archive-has-uploaded-450000-songs-collected-before-myspaces-massive-data-loss/)
 - [MIT Tech Review: グーグルが新設した「AI倫理委員会」に社員が猛反発した理由](https://www.technologyreview.jp/s/133900/googles-ai-council-faces-blowback-over-a-conservative-member/)
     - [MIT Tech Review: グーグルの「AI倫理委員会」、設置発表から1週間余りで解散](https://www.technologyreview.jp/nl/google-has-now-cancelled-its-ai-ethics-board-after-a-backlash-from-staff/)
-- [人間の作業を手伝うCMUのバックパック型ロボットアーム  |  TechCrunch Japan](https://jp.techcrunch.com/2019/04/06/2019-04-05-cmus-robotic-arm-attaches-to-a-backpack-to-lend-a-helping-hand/)
+- [人間の作業を手伝うCMUのバックパック型ロボットアーム  |  TechCrunch Japan](https://techcrunch.com/2019/04/05/cmus-robotic-arm-attaches-to-a-backpack-to-lend-a-helping-hand/)

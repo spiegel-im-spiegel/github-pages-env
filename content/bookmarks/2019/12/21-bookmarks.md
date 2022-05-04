@@ -12,7 +12,7 @@ pageType = "text"
 
 ## バベルのインターネット
 
-- [インド政府が再びインターネットを遮断、今回はアッサム州とメガラヤ州  |  TechCrunch Japan](https://jp.techcrunch.com/2019/12/14/2019-12-13-internet-shutdown-india-assam-meghalaya/)
+- [インド政府が再びインターネットを遮断、今回はアッサム州とメガラヤ州  |  TechCrunch Japan](https://techcrunch.com/2019/12/13/internet-shutdown-india-assam-meghalaya/)
 - [Mozillaら、ネット中立性規則の復活を目指し再審理を請求 - ZDNet Japan](https://japan.zdnet.com/article/35146897/)
 - [「.org」ドメイン管理団体の売却は世界に何をもたらすのか | P2Pとかその辺のお話R](https://p2ptk.org/freedom-of-speech/2905)
 
@@ -34,8 +34,8 @@ pageType = "text"
 - [クラウドにおける安全なデータの廃棄 | Amazon Web Services ブログ](https://aws.amazon.com/jp/blogs/news/data_disposal/)
 - [クラウドは、データを完全削除したくてもハードディスクを物理破壊してくれない。どうする？ AWSが説明 － Publickey](https://www.publickey1.jp/blog/19/_aws.html)
 - [オープンソースの暗号化ドライブ作成ツール「VeraCrypt」v1.24に脆弱性 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1225696.html) : Android 版とかあるんだねぇ
-- [1500個以上のRingのパスワードがダークウェブ上で発見  |  TechCrunch Japan](https://jp.techcrunch.com/2019/12/20/2019-12-19-ring-doorbell-passwords-exposed/)
-- [数百万人のスマートウォッチから位置情報が漏れている事実  |  TechCrunch Japan](https://jp.techcrunch.com/2019/12/20/2019-12-18-cloud-flaws-millions-child-watch-trackers/)
+- [1500個以上のRingのパスワードがダークウェブ上で発見  |  TechCrunch Japan](https://techcrunch.com/2019/12/19/ring-doorbell-passwords-exposed/)
+- [数百万人のスマートウォッチから位置情報が漏れている事実  |  TechCrunch Japan](https://techcrunch.com/2019/12/18/cloud-flaws-millions-child-watch-trackers/)
 
 ## 天文関連
 
@@ -51,13 +51,13 @@ pageType = "text"
 
 ## その他
 
-- [ポルシェとルーカスフィルムが共同制作したスターウォーズの戦闘機  |  TechCrunch Japan](https://jp.techcrunch.com/2019/12/14/2019-12-13-porsche-and-lucasfilm-co-designed-a-new-starfighter-for-the-star-wars-universe/)
+- [ポルシェとルーカスフィルムが共同制作したスターウォーズの戦闘機  |  TechCrunch Japan](https://techcrunch.com/2019/12/13/porsche-and-lucasfilm-co-designed-a-new-starfighter-for-the-star-wars-universe/)
 - [どうしてこうなった？　Outlook系メールサービスで発見された不思議な不具合が話題に - やじうまの杜 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1224705.html)
 - [Kubernetes 1.17正式版が登場。クラウドプロバイダーを示すラベルが正式版、ボリュームスナップショットがベータ版に － Publickey](https://www.publickey1.jp/blog/19/kubernetes_117.html)
 - [Electronフレームワーク、Node.jsなどの開発をホストする「OpenJS Foundation」に合流 － Publickey](https://www.publickey1.jp/blog/19/electronnodejsopenjs_foundation.html)
 - [セックスワーカーへの暴力を終わらせる国際デー：FOSTAがもたらした悪影響を直視せよ | P2Pとかその辺のお話R](https://p2ptk.org/freedom-of-speech/2909)
-- [すべてのチューリップはいずれ枯れる、2020年に差し迫る仮想通貨の価値半減のウワサ  |  TechCrunch Japan](https://jp.techcrunch.com/2019/12/19/2019-12-19-all-tulips-must-wilt/)
+- [すべてのチューリップはいずれ枯れる、2020年に差し迫る仮想通貨の価値半減のウワサ  |  TechCrunch Japan](https://techcrunch.com/2019/12/19/all-tulips-must-wilt/)
 - [Challenging projects every programmer should try - Austin Z. Henley](http://web.eecs.utk.edu/~azh/blog/challengingprojects.html)
     - [ブログ: すべてのプログラマーが試すべき挑戦的なプロジェクト](https://okuranagaimo.blogspot.com/2019/12/blog-post_20.html)
-- [Facebookが脱Googleへ、ハードウェアのソーシャル化に向けて新OSを開発中  |  TechCrunch Japan](https://jp.techcrunch.com/2019/12/20/2019-12-19-facebook-operating-system/)
+- [Facebookが脱Googleへ、ハードウェアのソーシャル化に向けて新OSを開発中  |  TechCrunch Japan](https://techcrunch.com/2019/12/19/facebook-operating-system/)
 - [東大とIBM、量子コンピューター「Q」を日本で運用 - ZDNet Japan](https://japan.zdnet.com/article/35147153/)

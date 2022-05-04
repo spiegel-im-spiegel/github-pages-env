@@ -12,7 +12,7 @@ tags = [ "web", "engineering", "firefox", "chromium", "webkit" ]
 
 まぁ Microsoft は営利企業として賢明な判断をしたと思うよ。
 
-- [Microsoft Edge、Chromiumベースに――旧Windowsでも作動、macOS版も登場へ  |  TechCrunch Japan](https://jp.techcrunch.com/2018/12/07/2018-12-06-microsoft-edge-goes-chromium-and-macos/)
+- [Microsoft Edge、Chromiumベースに――旧Windowsでも作動、macOS版も登場へ  |  TechCrunch Japan](https://techcrunch.com/2018/12/06/microsoft-edge-goes-chromium-and-macos/)
 - [EdgeブラウザがついにChromiumを採用へ　Mozillaは「独占は危険」と警告 - ITmedia PC USER](http://www.itmedia.co.jp/pcuser/articles/1812/09/news016.html)
 - [マイクロソフトのEdgeがChromiumベースになることによりウェブから多様性が失われることを懸念するのでモジラ財団に寄付した - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20181210/mozilla)
 - [どうなる、「Microsoft Edge」？ ～「Chromium」ベースになってよい点、悪い点 - やじうまの杜 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1157671.html)
@@ -26,7 +26,7 @@ tags = [ "web", "engineering", "firefox", "chromium", "webkit" ]
 [^ch1]: [Chromium] と [V8] はもともと [WebKit] のポーティングのひとつだったが，レンダリングエンジンや JavaScript エンジンの一部を fork して独立したプロジェクトになった。 [Blink] は [Chromium] プロジェクトで開発しているレンダリングエンジンという位置づけ。ちなみに Chrome for iOS は [Chromium] プロジェクトのひとつだが iOS では [WebKit] を使うことが要求されているため [Blink] を使わない実装になっている。
 [^e1]: そういえば [ATOM](https://atom.io/) エディタなどで採用されている [Electron](https://electronjs.org/ "Electron | Build cross platform desktop apps with JavaScript, HTML, and CSS.") は [Chromium] ベースだったっけ。ブラウザのみならずデスクトップ・アプリでも [Chromium] による侵食は進行しているわけやね。他にも Google は Unicode で大きな発言権を持ってるし（Unicode に絵文字を追加することを最初に提案したのは Google）自前で開発したプログラミング言語もいくつかある。更に AI 技術についても大きなクラウド資源を持っていて，それを十全に発揮している。本当に，本当に今更な話で，これが[「情報力」が台頭した現代]({{< ref "/remark/2017/10/too-many-ghosts.md" >}} "今こそ「グリゴリの捕縛」を読め！ または遍在する草薙素子")における Google の強さ・凄みであり怖さと言える。市場の独占はそれに付随するものに過ぎない。
 
-{{< fig-quote title="Microsoft Edge、Chromiumベースに――旧Windowsでも作動、macOS版も登場へ" link="https://jp.techcrunch.com/2018/12/07/2018-12-06-microsoft-edge-goes-chromium-and-macos/" >}}
+{{< fig-quote title="Microsoft Edge、Chromiumベースに――旧Windowsでも作動、macOS版も登場へ" link="https://techcrunch.com/2018/12/06/microsoft-edge-goes-chromium-and-macos/" >}}
 <q>数日前にEdgeがリニューアルされるといいう情報が流れたとき、一部の専門家はChromiumプロジェクトが力を持ちすぎることになるという懸念を示した。<br>
 この懸念には理由があることは認めるものの、MicrosoftはどのみちEdgeのシェアは低いのでChromium化がオープンソース・コミュニティーにドラスティックな影響を与えることはないという説得力のある反論をしている。MicrosoftがChromiumコミュニティーに参加してウェブの標準化を推進する側に回り、Chromiumにイノベーションを吹き込むことになればメリットは大きいだろう。</q>
 {{< /fig-quote >}}

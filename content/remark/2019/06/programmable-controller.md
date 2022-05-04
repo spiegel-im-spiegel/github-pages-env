@@ -32,7 +32,7 @@ Chrome は基本放置で（拡張機能を入れるには Google アカウン�
 
 最近 Mozilla が調子こいて
 
-{{< fig-quote title="Firefoxがユーザーを追跡から護る機能を強化しパスワードマネージャーをデスクトップに導入 | TechCrunch Japan" link="https://jp.techcrunch.com/2019/06/06/2019-06-04-firefox-gets-enhanced-tracking-protection-desktop-password-manager-and-more/" >}}
+{{< fig-quote title="Firefoxがユーザーを追跡から護る機能を強化しパスワードマネージャーをデスクトップに導入 | TechCrunch Japan" link="https://techcrunch.com/2019/06/04/firefox-gets-enhanced-tracking-protection-desktop-password-manager-and-more/" >}}
 <q>Firefoxではつねに、口先以上のことをしている。本当に人々を護るには、プライバシーを再優先する新しいスタンダードの確立が必要だ</q>
 {{< /fig-quote >}}
 

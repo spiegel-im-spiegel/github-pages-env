@@ -55,7 +55,7 @@ date = "2017-02-19T13:46:40+09:00"
 - [人工知能はゲームに負けそうになると「凶暴」になる：研究結果｜WIRED.jp](http://wired.jp/2017/02/14/deepmind-ai-social-impact/)
 - [生み出された「金属水素」、さて何の役に立つのか？｜WIRED.jp](http://wired.jp/2017/02/14/metallic-hydrogen/)
 - [Windows Updateをフルオートで完了するバッチスクリプト - Qiita](http://qiita.com/Marukaziler/items/54bfbf054a372328be3f)
-- [Googleがグローバルな分散データベースCloud Spannerをローンチ、SQLとNoSQLの‘良いとこ取り’を実装 | TechCrunch Japan](https://jp.techcrunch.com/2017/02/15/20170214google-launches-cloud-spanner-a-new-globally-distributed-database-service/)
+- [Googleがグローバルな分散データベースCloud Spannerをローンチ、SQLとNoSQLの‘良いとこ取り’を実装 | TechCrunch Japan](https://techcrunch.com/2017/02/14/google-launches-cloud-spanner-a-new-globally-distributed-database-service/)
     - [「Google Cloud Spanner」発表。地球規模の大規模分散環境で稼働するミッションクリティカルなリレーショナルDB。NoSQL並のスケーラビリティでSQL対応、トランザクション処理を実現 － Publickey](http://www.publickey1.jp/blog/17/google_cloud_spannerdbnosqlsql.html)
 - [コンドームのいらない「男性用避妊法」いよいよ実現へ──サルでの試験に成功｜WIRED.jp](http://wired.jp/2017/02/14/male-contraceptive-vasalgel/)
 - [“よくあるファイル命名ルール”でデータ消失の危機？ (1/2) - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1702/14/news046.html)

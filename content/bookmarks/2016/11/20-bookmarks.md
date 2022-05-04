@@ -24,7 +24,7 @@ date = "2016-11-20T18:14:31+09:00"
 - [「SSL/TLSアプライアンス製品の暗号設定方法等の調査報告書」の公開：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/fy28/reports/crypto_survey/)
     - [デフォルトでは安全性より相互接続性を重視--IPAの「SSL/TLSアプライアンス調査」 - ZDNet Japan](http://japan.zdnet.com/article/35092196/)
 - [Word2010：個人情報（作成者、最終更新者など）を削除するには －教えて！HELPDESK](http://office-qa.com/Word/wd312.htm)
-- [米国道路交通安全局、EVとハイブリッド車に音声アラートを義務化へ | TechCrunch Japan](https://jp.techcrunch.com/2016/11/15/20161114nhtsa-adds-safety-sound-requirement-for-new-electric-and-hybrid-vehicles/)
+- [米国道路交通安全局、EVとハイブリッド車に音声アラートを義務化へ | TechCrunch Japan](https://techcrunch.com/2016/11/14/nhtsa-adds-safety-sound-requirement-for-new-electric-and-hybrid-vehicles/)
 - [Apache Struts2 の脆弱性対策情報一覧：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/announce/struts2_list.html)
 - [Web サイト改ざんに関する注意喚起](https://www.jpcert.or.jp/at/2016/at160047.html)
 - [マイクロソフトの新しいセキュリティ更新プログラムガイド「Security Updates Guide」とは - ZDNet Japan](http://japan.zdnet.com/article/35092176/)

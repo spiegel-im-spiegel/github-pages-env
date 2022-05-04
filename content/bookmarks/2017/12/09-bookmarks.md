@@ -39,7 +39,7 @@ flattr    = ""
 - ["Crypto" Is Being Redefined as Cryptocurrencies - Schneier on Security](https://www.schneier.com/blog/archives/2017/12/crypto_is_being.html)
 - [Germany Preparing Backdoor Law - Schneier on Security](https://www.schneier.com/blog/archives/2017/12/germany_prepari.html)
 - [デジサートが日本法人を再編--シマンテックのウェブサイトセキュリティを継承 - ZDNet Japan](https://japan.zdnet.com/article/35111517/)
-- [暗号化メールサービスのProtonMailがApple Mail, Outlook, Thunderbirdをサポート  |  TechCrunch Japan](https://jp.techcrunch.com/2017/12/07/2017-12-06-protonmail-adds-apple-mail-outlook-and-thunderbird-smpt-imap/)
+- [暗号化メールサービスのProtonMailがApple Mail, Outlook, Thunderbirdをサポート  |  TechCrunch Japan](https://techcrunch.com/2017/12/06/protonmail-adds-apple-mail-outlook-and-thunderbird-smpt-imap/)
 - [Microsoft Malware Protection Engine のリモートでコードが実行される脆弱性（CVE-2017-11937）に関する注意喚起](https://www.jpcert.or.jp/at/2017/at170046.html)
 - [「Google Chrome 63」が正式版に ～開発者向け機能の充実がメイン - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1095514.html)
 - [メールソフト多数で「Mailsploit」の脆弱性発覚--スパム対策も回避 - ZDNet Japan](https://japan.zdnet.com/article/35111572/)

@@ -30,7 +30,7 @@ pageType = "text"
 - [Scaring People into Supporting Backdoors - Schneier on Security](https://www.schneier.com/blog/archives/2019/12/scaring_people_.html)
     - [Computer Crime Hype - Schneier on Security](https://www.schneier.com/blog/archives/2005/12/computer_crime_1.html)
 - [「Node.js」に「npm」由来の脆弱性、修正版のリリースを予告 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1224385.html)
-- [スマート家電メーカーは見聞きした情報を政府に開示するのか？  |  TechCrunch Japan](https://jp.techcrunch.com/2019/12/13/2019-12-11-smart-home-tech-user-data-government/)
+- [スマート家電メーカーは見聞きした情報を政府に開示するのか？  |  TechCrunch Japan](https://techcrunch.com/2019/12/11/smart-home-tech-user-data-government/)
 
 ## 天文関連
 
@@ -51,9 +51,9 @@ pageType = "text"
 ## その他
 
 - [「JavaScript」を主要言語として最も使っているのはフルスタックエンジニア - ZDNet Japan](https://japan.zdnet.com/article/35146515/)
-- [Uberの致命的な事故に関する集計結果は低い値を示しているが、重要な数字が除外されている  |  TechCrunch Japan](https://jp.techcrunch.com/2019/12/07/2019-12-05-ubers-fatal-accident-tally-shows-low-rates-but-excludes-key-numbers/)
+- [Uberの致命的な事故に関する集計結果は低い値を示しているが、重要な数字が除外されている  |  TechCrunch Japan](https://techcrunch.com/2019/12/05/ubers-fatal-accident-tally-shows-low-rates-but-excludes-key-numbers/)
 - [関数型プログラミングへの移行進む「Excel」--重要な「動的配列」 - ZDNet Japan](https://japan.zdnet.com/article/35146516/)
-- [SpaceはSlackを超える開発者向け新プロジェクト管理プラットフォームになるか  |  TechCrunch Japan](https://jp.techcrunch.com/2019/12/08/2019-12-06-move-over-slack-space-is-a-new-project-management-platform-for-developers/)
+- [SpaceはSlackを超える開発者向け新プロジェクト管理プラットフォームになるか  |  TechCrunch Japan](https://techcrunch.com/2019/12/06/move-over-slack-space-is-a-new-project-management-platform-for-developers/)
 - [Yubikeyでもろもろ検証してみました話  - Qiita](https://qiita.com/aakimi/items/734978e9e085d288f1d4)
 - [Failure Modes in Machine Learning - Schneier on Security](https://www.schneier.com/blog/archives/2019/12/failure_modes_i.html)
 - [Kubernetesベースのコンテナー基盤「HPE Container Platform」--ステートフルなアプリをそのまま稼働 - ZDNet Japan](https://japan.zdnet.com/article/35146585/)
@@ -73,5 +73,5 @@ pageType = "text"
     - [EFF on the Mechanics of Corporate Surveillance - Schneier on Security](https://www.schneier.com/blog/archives/2019/12/eff_on_the_mech.html)
 - [ナイジェリア：政権批判が「大統領へのサイバーストーキング」にあたるとしてジャーナリストが逮捕、起訴される | P2Pとかその辺のお話R](https://p2ptk.org/freedom-of-speech/2892)
 - [The LibreOffice Documentation Team Announces the LibreOffice Online Guide - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/12/13/the-libreoffice-documentation-team-announces-the-libreoffice-online-guide/)
-- [Huluが「広告なし」で視聴できる新広告フォーマットを導入  |  TechCrunch Japan](https://jp.techcrunch.com/2019/12/14/2019-12-12-hulu-launches-its-viewer-friendly-binge-watch-ads/)
+- [Huluが「広告なし」で視聴できる新広告フォーマットを導入  |  TechCrunch Japan](https://techcrunch.com/2019/12/12/hulu-launches-its-viewer-friendly-binge-watch-ads/)
 - [「Python 3」移行で検討すべき対策--「Python 2」サポート終了が目前 - ZDNet Japan](https://japan.zdnet.com/article/35146863/)

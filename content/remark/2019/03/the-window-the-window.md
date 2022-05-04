@@ -14,7 +14,7 @@ pageType = "text"
 Microsoft は Windows 7 を2020年1月まで **ちゃんと** サポートすると言っていたのに，今の時点で Windows 10 への移行を強制するようだ。
 
 - [Windows 7に未解決の脆弱性、Google Chromeのゼロデイ攻撃で組み合わせて悪用 - ITmedia エンタープライズ](https://www.itmedia.co.jp/enterprise/articles/1903/12/news065.html) : Windows 7 の脆弱性は放置するらしい。つか直せる人がもういないんだろうな
-- [Windows 7セキュリティアップデートの終了期限をマイクロソフトが通達  |  TechCrunch Japan](https://jp.techcrunch.com/2019/03/21/2019-03-20-windows-7-security-updates/)
+- [Windows 7セキュリティアップデートの終了期限をマイクロソフトが通達  |  TechCrunch Japan](https://techcrunch.com/2019/03/20/windows-7-security-updates/)
 
 しかし，ここはひとつ寛大な心で「Microsoft は親切にも早く私が Windows を捨てるよう応援してくれてる」と解釈して Linux への移行を前倒しすることにした。
 本当は新しい PC をどーんと買っていろいろ弄り倒して遊びたいところだが，今は[経済的・物理空間的な理由でできない]({{< ref "/remark/2018/12/i-am-a-sunday-programmer.md" >}} "どうも，日曜プログラマの Spiegel です")ため，今ある Windows 環境を Linux に換装することを考える。

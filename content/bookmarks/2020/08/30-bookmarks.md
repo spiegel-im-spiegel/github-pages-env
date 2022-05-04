@@ -44,7 +44,7 @@ pageType = "text"
 - [US Postal Service Files Blockchain Voting Patent - Schneier on Security](https://www.schneier.com/blog/archives/2020/08/us_postal_servi.html)
 - [「便利すぎる」──政府の接触確認アプリを補完する3密チェッカー、19歳学生が2週間で開発　「バグと試験が重なって大変だった」 (1/2) - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2008/25/news128.html)
 - [Facebook apologizes to users, businesses for Apple’s monstrous efforts to protect its customers' privacy • The Register](https://www.theregister.com/2020/08/27/facebook_ios_ads/)
-    - [アップルがiOS 14に導入予定の広告トラッキング規制にFacebookは不満を表明  |  TechCrunch Japan](https://jp.techcrunch.com/2020/08/28/2020-08-27-facebook-vs-apple-ad-tracking/)
+    - [アップルがiOS 14に導入予定の広告トラッキング規制にFacebookは不満を表明  |  TechCrunch Japan](https://techcrunch.com/2020/08/27/facebook-vs-apple-ad-tracking/)
 
 ## 天文関連
 
@@ -67,9 +67,9 @@ pageType = "text"
 - [Webデバッガープロキシー「Fiddler Everywhere」がベータ版を卒業、v1.0に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1272275.html)
 - [jointwt/twtxt: 📕 twtxt is a Self-Hosted, Twitter™-like Decentralised microBlogging platform. No ads, no tracking, your content, your data!](https://github.com/jointwt/twtxt)
 - [Googleサービスでの8月20日の大規模障害について、Googleが原因と対策を説明 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2008/25/news085.html) : BLOB 周りかぁ
-- [裁判所がアップルにUnreal Engineのブロックを止める命令、ただしFortniteのApp Store復帰は認めず  |  TechCrunch Japan](https://jp.techcrunch.com/2020/08/25/2020-08-24-apple-ordered-to-not-block-epic-games-unreal-engine-but-fortnite-to-stay-off-app-store/)
+- [裁判所がアップルにUnreal Engineのブロックを止める命令、ただしFortniteのApp Store復帰は認めず  |  TechCrunch Japan](https://techcrunch.com/2020/08/24/apple-ordered-to-not-block-epic-games-unreal-engine-but-fortnite-to-stay-off-app-store/)
     - [EpicとAppleの対決で改めて考える「配信プラットフォームの役割」 (1/3) - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2008/27/news060.html)
-    - [アップルがフォートナイトを筆頭にEpic GamesのApp Storeアカウントを完全削除  |  TechCrunch Japan](https://jp.techcrunch.com/2020/08/29/2020-08-28-apple-terminates-epic-games/)
+    - [アップルがフォートナイトを筆頭にEpic GamesのApp Storeアカウントを完全削除  |  TechCrunch Japan](https://techcrunch.com/2020/08/28/apple-terminates-epic-games/)
 - [Upgrading GitHub to Ruby 2.7 - The GitHub Blog](https://github.blog/2020-08-25-upgrading-github-to-ruby-2-7/)
 - [Amazon.com傘下のAudible、コインはないけど聴き放題の月額8ドルサービス開始 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2008/25/news050.html)
 - [ブログ: 今日のIETFにおけるRFC化のプロセス](https://okuranagaimo.blogspot.com/2020/08/ietfrfc.html)

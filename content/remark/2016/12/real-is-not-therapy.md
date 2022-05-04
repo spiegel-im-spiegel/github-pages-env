@@ -88,7 +88,7 @@ Wikipedia の記事や GitHub のリポジトリや Amazon のクラウドにあ
 ## ブックマーク
 
 - [メディアは（常に）スパムか？ « マガジン航[kɔː]](https://magazine-k.jp/2016/01/25/spam-and-media/)
-- [Facebook、マイクロソフト、Twitter、YouTubeが「テロリスト・コンテンツ」排除で協力 | TechCrunch Japan](https://jp.techcrunch.com/2016/12/06/20161205facebook-microsoft-twitter-and-youtube-collaborate-to-remove-terrorist-content-from-their-services/)
+- [Facebook、マイクロソフト、Twitter、YouTubeが「テロリスト・コンテンツ」排除で協力 | TechCrunch Japan](https://techcrunch.com/2016/12/05/facebook-microsoft-twitter-and-youtube-collaborate-to-remove-terrorist-content-from-their-services/)
 
 ## 参考図書
 

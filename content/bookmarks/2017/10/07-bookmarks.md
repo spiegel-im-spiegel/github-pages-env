@@ -29,7 +29,7 @@ flattr    = ""
 
 ## セキュリティ関連
 
-- [Facebook、顔認識を使ったアカウント復元をテスト中 | TechCrunch Japan](https://jp.techcrunch.com/2017/09/30/20170929facebook-face-id/)
+- [Facebook、顔認識を使ったアカウント復元をテスト中 | TechCrunch Japan](https://techcrunch.com/2017/09/29/facebook-face-id/)
 - [相当数のMacに脆弱性！？古いファームウェア搭載で高リスク - iPhone Mania](https://iphone-mania.jp/news-187526/)
 - [JVNVU#93453933: Dnsmasq に複数の脆弱性](http://jvn.jp/vu/JVNVU93453933/)
 - [「制御システムのセキュリティリスク分析ガイド<br />～ セキュリティ対策におけるリスク分析実施のススメ ～」を公開：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/controlsystem/riskanalysis.html)
@@ -54,7 +54,7 @@ flattr    = ""
 
 ## その他
 
-- [Firefoxにもう一度チャンスを与えるべきときが来た…v57はMozillaの最高の自信作 | TechCrunch Japan](https://jp.techcrunch.com/2017/09/30/20170929its-time-to-give-firefox-another-chance/)
+- [Firefoxにもう一度チャンスを与えるべきときが来た…v57はMozillaの最高の自信作 | TechCrunch Japan](https://techcrunch.com/2017/09/29/its-time-to-give-firefox-another-chance/)
 - [【レビュー】NVIDIAの中の人が趣味で作ったGPUのプロファイリングツール「GPUProfiler」 - 窓の杜](http://forest.watch.impress.co.jp/docs/review/1083619.html)
 - {{< pdf-file title="「社会に開かれた教育課程」や「高大接続」に理科はどう関わればよいか？（浦崎 太郎）" link="https://www.chart.co.jp/subject/rika/scnet/59/Snet59-4.pdf" >}}
     - [編集部より【理科】　サイエンスネット](https://www.chart.co.jp/subject/rika/rika_scnet.html)
@@ -62,13 +62,13 @@ flattr    = ""
 - [Microsoft、「SQL Server 2017」の一般提供を開始 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1084269.html)
 - [Amazon Newsroom - 「Alexa」と「Amazon Echo」が年内に日本に登場](https://amazon-press.jp/Top-Navi/Press-releases/Presselist/Press-release/amazon/jp/Devices/2017/Amazon-Alexa-1002/)
     - [Amazon Echoが年内に日本登場へ——スマートスピーカーの国内参入、続々と発表 | TechCrunch Japan](https://jp.techcrunch.com/2017/10/02/amazon-echo-will-come-to-japan-in-2017/)
-- [Apple、iOSとmacOSのARM版カーネルをオープンソース化 | TechCrunch Japan](https://jp.techcrunch.com/2017/10/02/20171001apple-open-sourced-the-kernel-of-ios-and-macos-for-arm-processors/)
+- [Apple、iOSとmacOSのARM版カーネルをオープンソース化 | TechCrunch Japan](https://techcrunch.com/2017/10/01/apple-open-sourced-the-kernel-of-ios-and-macos-for-arm-processors/)
 - [GitHub、「Atom」v1.21を正式リリース。“Language Server”プロトコルをサポート - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1084268.html)
 - [歪んだ世界の日本観１　かっこいい日本と残酷な日本 | NEXT MEDIA "Japan In-depth"［ジャパン・インデプス］](http://japan-indepth.jp/?p=36376)
 - [アマゾン、プライム会員向けに“読み放題”の「Prime Reading」を開始 - CNET Japan](https://japan.cnet.com/article/35108343/)
 - [新しい100年社会、21世紀人の4つの顔 – Makio Tsukamoto – Medium](https://medium.com/@tsukamoto/%E6%96%B0%E3%81%97%E3%81%84100%E5%B9%B4%E7%A4%BE%E4%BC%9A-21%E4%B8%96%E7%B4%80%E4%BA%BA%E3%81%AE4%E3%81%A4%E3%81%AE%E9%A1%94-a09dfd214481)
 - [2017年10月6日　Oracle，連邦政府に「オープンソースは民間企業で使われなくなっているから利用を再考すべき」とアドバイス ―炎上に：Linux Daily Topics｜gihyo.jp … 技術評論社](http://gihyo.jp/admin/clip/01/linux_dt/201710/06)
-- [AOL Instant Messenger、20年の時を経てサービス停止 | TechCrunch Japan](https://jp.techcrunch.com/2017/10/07/20171006aol-instant-messenger-shut-down/)
+- [AOL Instant Messenger、20年の時を経てサービス停止 | TechCrunch Japan](https://techcrunch.com/2017/10/06/aol-instant-messenger-shut-down/)
 - [週末に遊べるラズパイ - 極小シンプルLinux「Alpine Linux」をラズパイで動かす：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/17/041900152/100500025/)
 - [ドローンの「分散型ネットワーク」を構築し、ほぼ自動で緊急物資を運ぶプロジェクトが動き出した｜WIRED.jp](https://wired.jp/2017/10/05/drones-in-switzerlands/)
 - [2年前に修正済みのLinuxカーネル脆弱性に深刻な問題 - ZDNet Japan](https://japan.zdnet.com/article/35108171/)

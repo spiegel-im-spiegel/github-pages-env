@@ -24,7 +24,7 @@ pageType = "text"
 
 ## セキュリティ＆プライバシー関連
 
-- [データを暗号化するフラッシュドライブeyeDiskは簡単にハックできた  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/12/2019-05-10-eyedisk-encrypted-flash-drive-unhackable/)
+- [データを暗号化するフラッシュドライブeyeDiskは簡単にハックできた  |  TechCrunch Japan](https://techcrunch.com/2019/05/10/eyedisk-encrypted-flash-drive-unhackable/)
 - [China: How Mass Surveillance Works in Xinjiang | Human Rights Watch](https://www.hrw.org/video-photos/interactive/2019/05/02/china-how-mass-surveillance-works-xinjiang)
     - [Reverse Engineering a Chinese Surveillance App - Schneier on Security](https://www.schneier.com/blog/archives/2019/05/reverse_enginee_1.html)
 - [アパートにスマートロックを導入した家主、入居者に提訴される--鍵提供で和解 - CNET Japan](https://japan.cnet.com/article/35136842/)
@@ -33,7 +33,7 @@ pageType = "text"
 - [WhatsAppの脆弱性CVE-2019-3568についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/05/15/063000)
     - [WhatsApp Vulnerability Fixed - Schneier on Security](https://www.schneier.com/blog/archives/2019/05/whatsapp_vulner_1.html)
 - [「Google Chrome 74」にセキュリティアップデート - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1184536.html)
-- [Twitterが一部のユーザーの位置情報がパートナーに共有されたバグを公表  |  TechCrunch Japan](https://jp.techcrunch.com/2019/05/15/2019-05-13-twitter-bug-disclosed-some-users-location-data-to-an-unnamed-partner/)
+- [Twitterが一部のユーザーの位置情報がパートナーに共有されたバグを公表  |  TechCrunch Japan](https://techcrunch.com/2019/05/13/twitter-bug-disclosed-some-users-location-data-to-an-unnamed-partner/)
 - [なぜ「暗号通貨禁止法」はひどいアイデアなのか – P2Pとかその辺のお話R](https://p2ptk.org/freedom-of-speech/censorship/1955)
 - [サンフランシスコ市、市当局による監視技術導入を監視し、顔認識技術の使用を禁止へ – P2Pとかその辺のお話R](https://p2ptk.org/privacy/1966)
 - [ユニクロ・ジーユーオンラインストアの不正ログインについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/05/17/183000)

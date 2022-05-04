@@ -21,14 +21,14 @@ pageType = "text"
 - [ラクマ不正ログインとその後の高額取引についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/11/13/063140)
 - [Identifying and Arresting Ransomware Criminals - Schneier on Security](https://www.schneier.com/blog/archives/2019/11/identifying_and.html)
 - [Intel、ファームウェアアップデートで77件の脆弱性に対処　「ZombieLoad」などの問題に対応 - ITmedia エンタープライズ](https://www.itmedia.co.jp/enterprise/articles/1911/13/news084.html)
-- [新たに発見された5Gの欠陥はスマホの位置の特定や偽の警報の発信を許す  |  TechCrunch Japan](https://jp.techcrunch.com/2019/11/13/2019-11-12-5g-flaws-locations-spoof-alerts/)
+- [新たに発見された5Gの欠陥はスマホの位置の特定や偽の警報の発信を許す  |  TechCrunch Japan](https://techcrunch.com/2019/11/12/5g-flaws-locations-spoof-alerts/)
     - [研究者ら、「5Gに11の脆弱性」と指摘 | マイナビニュース](https://news.mynavi.jp/article/20191115-923420/)
 - [バーチャル(に)プライベート・ネットワーク：NordVPNの不正侵入とVPNの限界 | P2Pとかその辺のお話R](https://p2ptk.org/privacy/2853)
-- [Facebookはカメラを勝手に起動するiOSアプリのバグを認める  |  TechCrunch Japan](https://jp.techcrunch.com/2019/11/13/2019-11-12-facebook-iphone-camera-bug/) : バグじゃなくて仕様じゃないの（笑）
+- [Facebookはカメラを勝手に起動するiOSアプリのバグを認める  |  TechCrunch Japan](https://techcrunch.com/2019/11/12/facebook-iphone-camera-bug/) : バグじゃなくて仕様じゃないの（笑）
 
 ## 天文関連
 
-- [イーロン・マスクが火星での都市建設は20年かかるとの見方を語る  |  TechCrunch Japan](https://jp.techcrunch.com/2019/11/10/2019-11-07-elon-musk-says-building-the-first-sustainable-city-on-mars-will-take-1000-starships-and-20-years/)
+- [イーロン・マスクが火星での都市建設は20年かかるとの見方を語る  |  TechCrunch Japan](https://techcrunch.com/2019/11/07/elon-musk-says-building-the-first-sustainable-city-on-mars-will-take-1000-starships-and-20-years/)
 - [What Shape Is the Universe — Closed or Flat? | Quanta Magazine](https://www.quantamagazine.org/what-shape-is-the-universe-closed-or-flat-20191104)
     - [ブログ: 宇宙はどんな形ですか?](https://okuranagaimo.blogspot.com/2019/11/blog-post_11.html)
 - [巨大ガス惑星・木星の「屋根」 – 宇宙空間へつながる惑星の大気を探る | academist Journal](https://academist-cf.com/journal/?p=12024)
@@ -61,10 +61,10 @@ pageType = "text"
     - [Memo from a Climate Crisis Realist: The Choice before Us | The Tyee](https://thetyee.ca/Analysis/2019/11/12/Climate-Crisis-Realist-Memo/)
     - [ブログ: 私を悲観論者と呼ばないで、私は現実主義者です](https://okuranagaimo.blogspot.com/2019/11/blog-post_14.html)
     - [ブログ: 気候危機の現実主義者からのメモ: 私たちの目の前の選択](https://okuranagaimo.blogspot.com/2019/11/blog-post_45.html)
-- [MozillaはWebAssemblyをブラウザー外でも使えるようIntel、Red Hat、Fastlyと協力  |  TechCrunch Japan](https://jp.techcrunch.com/2019/11/13/2019-11-12-mozilla-partners-with-intel-red-hat-and-fastly-to-take-webassembly-beyond-the-browser/)
-- [Minecraft Earthが北米その他の地域で正式開始  |  TechCrunch Japan](https://jp.techcrunch.com/2019/11/13/2019-11-12-minecraft-earth-is-live-so-get-tapping/)
+- [MozillaはWebAssemblyをブラウザー外でも使えるようIntel、Red Hat、Fastlyと協力  |  TechCrunch Japan](https://techcrunch.com/2019/11/12/mozilla-partners-with-intel-red-hat-and-fastly-to-take-webassembly-beyond-the-browser/)
+- [Minecraft Earthが北米その他の地域で正式開始  |  TechCrunch Japan](https://techcrunch.com/2019/11/12/minecraft-earth-is-live-so-get-tapping/)
 - [MIT Tech Review: 人口減らすべき？ 科学者らの「気候変動対策」に批判](https://www.technologyreview.jp/s/171229/critics-blast-a-proposal-to-curb-climate-change-by-halting-population-growth/)
 - [MIT Tech Review: ナスダックが不正監視に深層学習、アナリストの負担を軽減](https://www.technologyreview.jp/s/171484/ai-will-now-watch-for-fraudsters-on-the-worlds-largest-stock-exchange/)
 - [New version of LibreOffice Impress Remote for Android - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2019/11/14/new-version-of-libreoffice-impress-remote-for-android/)
 - [GitHub、オープンソースのコードを1000年以上にわたって保存する「GitHub Archive Program」発表。北極圏の非武装地帯永久凍土層地下250mに保管庫を設置 － Publickey](https://www.publickey1.jp/blog/19/github1000github_archive_program250m.html)
-- [ブレンダン・アイク氏の画期的なブラウザーBraveの1.0版が登場  |  TechCrunch Japan](https://jp.techcrunch.com/2019/11/15/2019-11-13-brave-launches-version-1-0-of-its-privacy-focused-browser/)
+- [ブレンダン・アイク氏の画期的なブラウザーBraveの1.0版が登場  |  TechCrunch Japan](https://techcrunch.com/2019/11/13/brave-launches-version-1-0-of-its-privacy-focused-browser/)

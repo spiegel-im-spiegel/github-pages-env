@@ -140,7 +140,7 @@ USB メモリを買ってまでやる気はないので，この件はしばら�
 
 ## 「Googleアカウントがアップデート」{#dm}
 
-- [Googleアカウントがアップデート―AndroidだけでなくiOSデバイスも探してロックできる | TechCrunch Japan](https://jp.techcrunch.com/2016/06/02/20160601googles-my-account-will-now-help-both-ios-and-android-users-find-their-lost-phones/)
+- [Googleアカウントがアップデート―AndroidだけでなくiOSデバイスも探してロックできる | TechCrunch Japan](https://techcrunch.com/2016/06/01/googles-my-account-will-now-help-both-ios-and-android-users-find-their-lost-phones/)
 
 Android にはもともと「デバイスマネージャー」と呼ばれる機能がある。
 
@@ -165,7 +165,7 @@ iOS 機器の遠隔操作は iOS の標準機能でやったほうがいいと�
 - [IPAテクニカルウォッチ「増加するインターネット接続機器の不適切な情報公開とその対策」：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/technicalwatch/20160531.html)
 - [News ＆ Trend - 「マイナンバーを記録したパソコンは修理できない」、PC各社の修理規定が波紋：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/14/346926/052900539/?n_cid=nbpitp_fbed)
 - [マイクロソフト、ブロックチェーン技術によるID管理に向け提携を発表 - ZDNet Japan](http://japan.zdnet.com/article/35083525/)
-- [中国がインターネットユーザー全員の実名による登録を義務付けへ | TechCrunch Japan](https://jp.techcrunch.com/2016/06/01/20160601china-attempts-to-reinforce-real-name-registration-for-internet-users/)
+- [中国がインターネットユーザー全員の実名による登録を義務付けへ | TechCrunch Japan](https://techcrunch.com/2016/06/01/china-attempts-to-reinforce-real-name-registration-for-internet-users/)
 - [仮想通貨、「興味はあるが購入しない」7割 --バード調査 - ZDNet Japan](http://japan.zdnet.com/article/35083495/)
 - [ファンサブサイト運営者は禁錮刑が相当？ – P2Pとかその辺のお話R](http://p2ptk.org/copyright/405)
 - [インターネットの歴史を変えた『バックアップ』 – P2Pとかその辺のお話R](http://p2ptk.org/copyright/400)

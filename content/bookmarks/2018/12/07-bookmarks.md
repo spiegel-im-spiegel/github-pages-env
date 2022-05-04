@@ -42,7 +42,7 @@ image = "/images/avatar.jpg"
 - [EUのデータ保護規則「GDPR」の政治的利用か、当局がジャーナリストに対して情報を要求 - GIGAZINE](https://gigazine.net/news/20181113-occrp-romania-misuse-of-gdpr/)
 - [国内のTwitter認証済みアカウントののっとりについてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20181113/1542144186)
 - [米Googleのサービスにアクセス障害、トラフィックが中国へ　BGPの弱点露呈 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1811/14/news070.html)
-- [その危険性に気づき警告を発する以前に子どもたちはデータ化されている  |  TechCrunch Japan](https://jp.techcrunch.com/2018/11/17/2018-11-09-children-are-being-datafied-before-weve-understood-the-risks-report-warns/)
+- [その危険性に気づき警告を発する以前に子どもたちはデータ化されている  |  TechCrunch Japan](https://techcrunch.com/2018/11/09/children-are-being-datafied-before-weve-understood-the-risks-report-warns/)
 - [Information Attacks against Democracies - Schneier on Security](https://www.schneier.com/blog/archives/2018/11/information_att.html) : “Democracy is an information system.”
 - [偽の指紋を生成してセキュリティを破るAI現る | ギズモード・ジャパン](https://www.gizmodo.jp/amp/2018/11/ai-beating-finger-print-auth.html)
 - [メッセージ送信者の身元を隠し、プライヴァシーを守る：「Signal」の新しい試み｜WIRED.jp](https://wired.jp/2018/11/26/signal-sealed-sender-messaging/)
@@ -62,7 +62,7 @@ image = "/images/avatar.jpg"
 - [NASA InSight Lander Arrives on Martian Surface  – NASA's InSight Mars Lander](https://mars.nasa.gov/news/8392/nasa-insight-lander-arrives-on-martian-surface/?site=insight)
     - [Touchdown on Mars! NASA's InSight Lands to Peer Inside the Red Planet](https://www.space.com/42541-mars-insight-lander-success.html)
     - [2018年11月27日ニュース「米探査機『インサイト』が火星着陸に成功 初めて内部の構造解明に挑む」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/11/20181127_01.html)
-    - [火星に無事着陸したInSightが、最初の自撮り写真を送ってきた  |  TechCrunch Japan](https://jp.techcrunch.com/2018/11/27/2018-11-26-mars-lander-insights-sends-the-first-of-many-selfie-after-a-successful-touchdown/)
+    - [火星に無事着陸したInSightが、最初の自撮り写真を送ってきた  |  TechCrunch Japan](https://techcrunch.com/2018/11/26/mars-lander-insights-sends-the-first-of-many-selfie-after-a-successful-touchdown/)
 
 ## 知財関連
 
@@ -80,14 +80,14 @@ image = "/images/avatar.jpg"
 - [「HTTP/3」がHTTP-over-QUICの新名称に。IETFのQUICワーキンググループとHTTPワーキンググループで合意 － Publickey](https://www.publickey1.jp/blog/18/http-over-quichttp3ietfquichttp.html)
 - [Google、New York Timesの数百万枚の報道写真をデジタルライブラリ化 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1811/12/news068.html)
 - [メモリ容量を最大8倍に拡張してくれるNVMe SSD。Western Digital「Ultrastar Memory Extension Drive」発表 － Publickey](https://www.publickey1.jp/blog/18/8nvme_ssdwestern_digitalultrastar_memory_extension_drive.html)
-- [ニューモデルRaspberry Pi 3 Model A+はコンパクトで強力なRaspberry Pi  |  TechCrunch Japan](https://jp.techcrunch.com/2018/11/17/2018-11-15-raspberry-pi-3-model-a-is-a-compact-yet-powerful-raspberry-pi/)
+- [ニューモデルRaspberry Pi 3 Model A+はコンパクトで強力なRaspberry Pi  |  TechCrunch Japan](https://techcrunch.com/2018/11/15/raspberry-pi-3-model-a-is-a-compact-yet-powerful-raspberry-pi/)
 - [執筆活動を支える技術 #ruby超入門 - Qiita](https://qiita.com/machu/items/4a133e83f58f82459e56)
 - [ポートフォリオとは - Portfolioの意味と3つの業界での使い方 | マイナビクリエイター](https://mynavi-creator.jp/knowhow/article/what-is-a-portfolio)
 - [iClever IC-BK03 折りたたみキーボードを購入してみた](http://gokushiteki.com/bluetooth-keyboard.html)
 - [Electronより軽くて手軽なlorca製デスクトップガワアプリのススメ - Qiita](https://qiita.com/shwld/items/a0795586bc3b9e30a540)
 - [RustでWindowsのコマンドプロンプトウィンドウを抑止する方法 - Qiita](https://qiita.com/LNSEAB/items/6f60da458460274e768d)
 - [遺伝子を編集された双子が誕生、HIVに耐性--中国の研究者が主張 - CNET Japan](https://japan.cnet.com/article/35129211/)
-- [使用をやめられないユーザーにテック大企業は空の謝罪を繰り返す  |  TechCrunch Japan](https://jp.techcrunch.com/2018/11/27/2018-11-25-nowhere-to-go/)
+- [使用をやめられないユーザーにテック大企業は空の謝罪を繰り返す  |  TechCrunch Japan](https://techcrunch.com/2018/11/25/nowhere-to-go/)
     - [Facebookの内憂外患--ザッカーバーグCEO、ついに「裸の王様」に？ - CNET Japan](https://japan.cnet.com/article/35129190/)
 - [HTML5 Conference 2018 登壇資料まとめ - Qiita](https://qiita.com/chieeeeno/items/00e3f0bc067a95506aa8)
 - [シャープによるコンビニのマルチコピー機向けの「ネットワークプリント」がLINEとの連携を開始 - ニュース ―MdN Design Interactive edition― - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/newsbymdn/1155414.html)

@@ -48,5 +48,5 @@ pageType = "text"
     - [ブログ: 数論を揺り動かす数学的証明が出版へ](https://okuranagaimo.blogspot.com/2020/04/blog-post.html)
 - [Mysterious Heart Damage, Not Just Lung Troubles, Befalling COVID-19 Patients | Kaiser Health News](https://khn.org/news/mysterious-heart-damage-not-just-lung-troubles-befalling-covid-19-patients/)
     - [ブログ: COVID-19患者に降りかかる不思議な心臓の損傷](https://okuranagaimo.blogspot.com/2020/04/covid-19_7.html)
-- [プログラミングなしで業務自動化を実現するTonkeanが約26億円調達  |  TechCrunch Japan](https://jp.techcrunch.com/2020/04/09/2020-04-08-no-code-automation-platform-tonkean-raises-24m-from-lightspeed/)
+- [プログラミングなしで業務自動化を実現するTonkeanが約26億円調達  |  TechCrunch Japan](https://techcrunch.com/2020/04/08/no-code-automation-platform-tonkean-raises-24m-from-lightspeed/)
 - [ラズパイ4にはやっぱりメタル調ケースが発熱低くて安心](https://raspida.com/metal-case4rpi4b)

@@ -20,7 +20,7 @@ pageType = "text"
 
 - [マンガワンのチート事案についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/04/14/103412)
 - [VU#192371 - VPN applications insecurely store session cookies](https://www.kb.cert.org/vuls/id/192371/)
-    - [米国土安全保障省が企業用VPNアプリケーションのセキュリティの欠陥を警告  |  TechCrunch Japan](https://jp.techcrunch.com/2019/04/14/2019-04-12-enterprise-security-flaws/)
+    - [米国土安全保障省が企業用VPNアプリケーションのセキュリティの欠陥を警告  |  TechCrunch Japan](https://techcrunch.com/2019/04/12/enterprise-security-flaws/)
 - [FBI関連ウェブサイトがハッキングされ警察や連邦機関に属する数千人分の個人情報が流出 - GIGAZINE](https://gigazine.net/news/20190413-hackers-personal-data-police/)
 - [ブログ: スマートフォンアプリは、あなたが知らないトラッカーでいっぱいです](https://okuranagaimo.blogspot.com/2019/04/blog-post_15.html)
 - [MIT Tech Review: アマゾンがAIスピーカーの音声に「聞き耳」、社内に専任チーム](https://www.technologyreview.jp/nl/amazon-workers-are-listening-to-some-of-your-conversations-with-alexa/)
@@ -32,7 +32,7 @@ pageType = "text"
     - [「WPA3」に脆弱性、最新のWi-Fiセキュリティプロトコルにもパスワード盗難の恐れあり：実行のハードルが低い - ＠IT](https://www.atmarkit.co.jp/ait/articles/1904/15/news046.html)
 - [A Guide to Common Types of Two-Factor Authentication on the Web | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2017/09/guide-common-types-two-factor-authentication-web)
 - [USN-3949-1: OpenJDK 11 vulnerability | Ubuntu security notices](https://usn.ubuntu.com/3949-1/)
-- [パスワードを盗みYouTubeのクリック数を稼ぐ新しいマルウェア  |  TechCrunch Japan](https://jp.techcrunch.com/2019/04/17/2019-04-16-scranos-rootkit-passwords-payments/)
+- [パスワードを盗みYouTubeのクリック数を稼ぐ新しいマルウェア  |  TechCrunch Japan](https://techcrunch.com/2019/04/16/scranos-rootkit-passwords-payments/)
 - [Confluence Server および Confluence Data Center における複数の脆弱性に関する注意喚起](https://www.jpcert.or.jp/at/2019/at190018.html)
 - [2019年 4月 Oracle 製品のクリティカルパッチアップデートに関する注意喚起](https://www.jpcert.or.jp/at/2019/at190017.html)
     - [Oracle Java の脆弱性対策について(CVE-2019-2699等)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20190417-jre.html)

@@ -137,13 +137,13 @@ The general concerns that petitioner raises are substantial and important, but S
 - [Google beats Oracle—Android makes “fair use” of Java APIs | Ars Technica](https://arstechnica.com:443/tech-policy/2016/05/google-wins-trial-against-oracle-as-jury-finds-android-is-fair-use/)
 - [Google’s fair use victory is good for open source | Ars Technica](https://arstechnica.com:443/tech-policy/2016/06/googles-fair-use-victory-is-good-for-open-source/)
 - [グーグル、Java API使用が「フェアユース」と認められる--対オラクル訴訟 - CNET Japan](https://japan.cnet.com/article/35083291/)
-- [Googleの「公正使用」勝訴後も残る著作権に関する疑問  |  TechCrunch Japan](https://jp.techcrunch.com/2016/05/31/20160527copyright-questions-remain-after-googles-fair-use-victory/)
+- [Googleの「公正使用」勝訴後も残る著作権に関する疑問  |  TechCrunch Japan](https://techcrunch.com/2016/05/27/copyright-questions-remain-after-googles-fair-use-victory/)
 - [Oracle v. Google API Fair Use訴訟の話（連邦地裁編）](https://gist.github.com/yudai/c5906ca61d4fe367180a6e079c8fc309) : 日本語解説ならこちらがオススメ
 
 しかし2018年の判決では一転して Oracle 側の勝訴となっている。
 
 - [Oracle America, Inc. v. Google, Inc., No. 17-1118 (Fed. Cir. 2018) :: Justia](https://law.justia.com/cases/federal/appellate-courts/cafc/17-1118/17-1118-2018-03-27.html) : 判決文
-- [OracleがJavaの著作権侵犯裁判でGoogleに勝利  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/28/2018-03-27-oracle-wins-appeal-against-google-in-copyright-case/)
+- [OracleがJavaの著作権侵犯裁判でGoogleに勝利  |  TechCrunch Japan](https://techcrunch.com/2018/03/27/oracle-wins-appeal-against-google-in-copyright-case/)
 
 そしてこの記事の最初の話に戻るわけだ。
 

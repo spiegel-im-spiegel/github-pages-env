@@ -171,7 +171,7 @@ WPA2 がダメだからと言って WEP を使うのは事態を悪化させる�
 - [無線LAN（Wi-Fi）暗号化における脆弱性への対応について  |  無線LANビジネス推進連絡会【WiBiz（ワイビズ）】 - お知らせ - 新着情報無線LANビジネス推進連絡会【WiBiz（ワイビズ）】](http://www.wlan-business.org/archives/11325)
 - [セキュリティホール memo の情報](https://www.st.ryukoku.ac.jp/~kjm/security/memo/2017/10.html#20171017_wpa2)
 - [WPA2の脆弱性「KRACKs」公開、多数のWi-Fi機器に影響の恐れ - CNET Japan](https://japan.cnet.com/article/35108859/)
-- [WPA2のWiFi脆弱性から身を守る方法――KRACK攻撃の内容と対策 | TechCrunch Japan](https://jp.techcrunch.com/2017/10/17/20171016heres-what-you-can-do-to-protect-yourself-from-the-krack-wifi-vulnerability/) : 山奥に引っ越せとか周囲の土地を買い取って建物を潰せとか，ネタでも笑えないよ
+- [WPA2のWiFi脆弱性から身を守る方法――KRACK攻撃の内容と対策 | TechCrunch Japan](https://techcrunch.com/2017/10/16/heres-what-you-can-do-to-protect-yourself-from-the-krack-wifi-vulnerability/) : 山奥に引っ越せとか周囲の土地を買い取って建物を潰せとか，ネタでも笑えないよ
 - [Wi-Fiを脅かす脆弱性「KRACK」、各社の対応状況は--MS、アップル、グーグルなど - ZDNet Japan](https://japan.zdnet.com/article/35108863/)
 - [WPA2の脆弱性「KRACK」対処パッチ、Microsoftは対応済み、AppleのOSとAndroidは数週間中 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1710/17/news044.html)
     - [「WPA2」の脆弱性情報、セキュリティ機関が公開　パッチ適用を呼び掛け - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1710/17/news048.html)

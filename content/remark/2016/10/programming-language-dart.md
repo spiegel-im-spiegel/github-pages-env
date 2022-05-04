@@ -29,7 +29,7 @@ title = "Dart 言語に関する覚え書き"
 
 でも
 
-- [GoogleのDartプログラミング言語に再びスポットライトが…その高い生産性にまず社内で人気が盛り上がる | TechCrunch Japan](https://jp.techcrunch.com/2016/10/26/20161026googles-dart-programming-language-returns-to-the-spotlight/)
+- [GoogleのDartプログラミング言語に再びスポットライトが…その高い生産性にまず社内で人気が盛り上がる | TechCrunch Japan](https://techcrunch.com/2016/10/26/googles-dart-programming-language-returns-to-the-spotlight/)
 
 を見てちょっと調べてみることにした。
 個人的に TypeScript や CoffeeScript の構文は好みじゃないし（もちろん仕事ならやりますよ）， [Dart] でそういったものの代わりになるのなら悪くないと思ったのだ。

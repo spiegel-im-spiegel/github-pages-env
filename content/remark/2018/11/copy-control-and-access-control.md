@@ -40,8 +40,8 @@ DMCA の §1201 が技術的保護手段に関する部分で，大まかに以�
 - [Rulemaking Proceedings Under Section 1201 of Title 17 | U.S. Copyright Office](https://www.copyright.gov/1201/)
 - [DMCA Rulemaking | Electronic Frontier Foundation](https://www.eff.org/issues/dmca-rulemaking)
 - [New DMCA Exemptions | Copyright Corner](https://library.osu.edu/blogs/copyright/2015/12/30/new-dmca-exemptions/)
-- [速報！　米著作権庁、合法利用の範囲を大幅拡大―iPhone脱獄など全6項目  |  TechCrunch Japan](https://jp.techcrunch.com/2010/07/27/20100726now-legal-in-the-u-s-jailbreaking-your-iphone-ripping-a-dvd-for-educational-purposes/)
-- [デジタル著作権法が消費者に歩み寄ってきた――DMCA除外決定で今週からスマートアシスタントも脱獄できる  |  TechCrunch Japan](https://jp.techcrunch.com/2018/11/01/2018-10-29-what-the-newly-revised-copyright-law-lets-and-doesnt-let-you-do-with-your-gadgets/)
+- [速報！　米著作権庁、合法利用の範囲を大幅拡大―iPhone脱獄など全6項目  |  TechCrunch Japan](https://techcrunch.com/2010/07/26/now-legal-in-the-u-s-jailbreaking-your-iphone-ripping-a-dvd-for-educational-purposes/)
+- [デジタル著作権法が消費者に歩み寄ってきた――DMCA除外決定で今週からスマートアシスタントも脱獄できる  |  TechCrunch Japan](https://techcrunch.com/2018/10/29/what-the-newly-revised-copyright-law-lets-and-doesnt-let-you-do-with-your-gadgets/)
 
 ## 日本の[著作権法]における「技術的保護手段」
 

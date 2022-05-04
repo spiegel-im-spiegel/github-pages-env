@@ -91,7 +91,7 @@ Mozilla がユーザのプライバシーを重視しているというのは嘘
 - [DNS Security: Threat Modeling DNSSEC, DoT, and DoH](https://www.netmeister.org/blog/doh-dot-dnssec.html)
     - [ブログ: DNSセキュリティ: DNSSEC、DoT、およびDoHの脅威モデリング](https://okuranagaimo.blogspot.com/2019/10/dns-dnssecdotdoh.html)
 - [Firefox/Google Chromeに続き、Windowsでも“DNS over HTTPS”をサポートへ - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1220173.html)
-- [Firefoxが新たなDoHセキュリティ機能を米国ユーザーに対し標準で有効に  |  TechCrunch Japan](https://jp.techcrunch.com/2020/02/26/2020-02-26-firefox-dns-https-default-united-states/)
+- [Firefoxが新たなDoHセキュリティ機能を米国ユーザーに対し標準で有効に  |  TechCrunch Japan](https://techcrunch.com/2020/02/26/firefox-dns-https-default-united-states/)
     - [Firefox Enables DNS over HTTPS - Schneier on Security](https://www.schneier.com/blog/archives/2020/02/firefox_enables.html)
     - [ブログ: FirefoxがDNS over HTTPSを有効化](https://okuranagaimo.blogspot.com/2020/02/firefoxdns-over-https.html)
 

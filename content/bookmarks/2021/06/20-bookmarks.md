@@ -26,7 +26,7 @@ pageType = "text"
 - [流出したパスワードは瞬く間に悪用される--半数は12時間以内にアクセス - ZDNet Japan](https://japan.zdnet.com/article/35172359/)
 - [【利便性を向上するWi-Fi規格】特別編（4）A-MSDUを悪用する「Frame Aggregation」を利用した攻撃の流れ【ネット新技術】 - INTERNET Watch](https://internet.watch.impress.co.jp/docs/column/nettech/1331301.html)
 - [Apple’s Subpoenas From Trump Era Renew Washington’s Harsh Glare - Bloomberg](https://www.bloomberg.com/news/articles/2021-06-15/apple-back-in-washington-spotlight-over-trump-era-subpoenas)
-- [Android版「Googleアプリ」にセキュリティバグ、検索履歴などほぼすべての個人情報が危険に晒されていた  |  TechCrunch Japan](https://jp.techcrunch.com/2021/06/18/2021-06-17-a-security-bug-in-googles-android-app-installed-on-billions-of-devices-put-user-data-at-risk/)
+- [Android版「Googleアプリ」にセキュリティバグ、検索履歴などほぼすべての個人情報が危険に晒されていた  |  TechCrunch Japan](https://techcrunch.com/2021/06/17/a-security-bug-in-googles-android-app-installed-on-billions-of-devices-put-user-data-at-risk/)
 
 ## 知財関連
 

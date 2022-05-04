@@ -77,7 +77,7 @@ pageType = "text"
     - [ブログ: 私が欲しいと思うデータベース](https://okuranagaimo.blogspot.com/2020/09/blog-post_4.html)
 - [Planning the 2021 Roadmap | Rust Blog](https://blog.rust-lang.org/2020/09/03/Planning-2021-Roadmap.html)
 - [マイクロソフト、次期Windows ServerでHTTP/3のベースとなるQUICプロトコル搭載、UDPやTCP性能も向上へ － Publickey](https://www.publickey1.jp/blog/20/windows_serverhttp3quicudptcp.html)
-- [任天堂が往年のゲーム＆ウォッチをマリオ版としてカラー画面・USB-C化でリメイク、11月13日に5478円で発売  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/04/2020-09-03-nintendo-is-remaking-the-first-portable-gaming-system-it-ever-built/)
+- [任天堂が往年のゲーム＆ウォッチをマリオ版としてカラー画面・USB-C化でリメイク、11月13日に5478円で発売  |  TechCrunch Japan](https://techcrunch.com/2020/09/03/nintendo-is-remaking-the-first-portable-gaming-system-it-ever-built/)
 - [2020年9月4日ニュース「再生可能エネルギー時代に電気の品質を安定させる制御法を開発 慶大など」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2020/09/20200904_01.html)
 - [IIJ、「Windows Virtual Desktop」のフルマネージドサービスを提供 - ZDNet Japan](https://japan.zdnet.com/article/35159165/) : 企業向け，個人では無理かな
 - [Webアクション「部屋裏のバイテン」第5話 : ぽじとろんの竹本泉観察記](https://positron.exblog.jp/31354432/)

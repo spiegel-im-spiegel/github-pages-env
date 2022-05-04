@@ -44,7 +44,7 @@ pageType = "text"
     - [HTTP/2実装に脆弱性、DoS攻撃のおそれ | マイナビニュース](https://news.mynavi.jp/article/20190816-877630/)
     - [「Node.js」の2019年8月セキュリティ更新が公開 ～HTTP/2実装のDoS脆弱性を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1201865.html)
     - [Apple SwiftNIO HTTP/2に脆弱性、アップデートを | マイナビニュース](https://news.mynavi.jp/article/20190818-878476/)
-- [Androidユーザー800万人がGoogle Playから85種の新手のアドウェアをダウンロードしていた  |  TechCrunch Japan](https://jp.techcrunch.com/2019/08/17/2019-08-16-android-users-tricked-adware-apps/)
+- [Androidユーザー800万人がGoogle Playから85種の新手のアドウェアをダウンロードしていた  |  TechCrunch Japan](https://techcrunch.com/2019/08/16/android-users-tricked-adware-apps/)
 - [「監視カメラの画像認識をだます服」をハッカー兼ファッションデザイナーが発表 - GIGAZINE](https://gigazine.net/news/20190816-fashion-trick-surveillance-camera/)
 
 ## 天文関連
@@ -64,8 +64,8 @@ pageType = "text"
 ## その他
 
 - [プログラミングHaskell第2版を翻訳しました - あどけない話](https://kazu-yamamoto.hatenablog.jp/entry/2019/08/13/152802)
-- [VerizonがTumblrをWordPressの親会社Automatticに売却  |  TechCrunch Japan](https://jp.techcrunch.com/2019/08/13/2019-08-12-verizon-is-selling-tumblr-to-wordpress-parent-automattic/)
+- [VerizonがTumblrをWordPressの親会社Automatticに売却  |  TechCrunch Japan](https://techcrunch.com/2019/08/12/verizon-is-selling-tumblr-to-wordpress-parent-automattic/)
 - [MIT Tech Review: 結局、電動キックボードは、それほど環境に優しくない](https://www.technologyreview.jp/s/156262/sorry-scooters-arent-so-climate-friendly-after-all/)
 - [MIT Tech Review: 10代のうつ病、ゲームのプレイ時間は「影響なし」＝カナダ調査](https://www.technologyreview.jp/nl/video-games-dont-depress-teens-as-much-as-other-screen-time/)
-- [アドテクには相関性より因果関係、ClearBrainが因果分析ツールを発表  |  TechCrunch Japan](https://jp.techcrunch.com/2019/08/17/2019-08-16-clearbrain-launches-analytics-tools-focused-connecting-cause-and-effect/)
+- [アドテクには相関性より因果関係、ClearBrainが因果分析ツールを発表  |  TechCrunch Japan](https://techcrunch.com/2019/08/16/clearbrain-launches-analytics-tools-focused-connecting-cause-and-effect/)
 - [シリコンヴァレーが傾倒する「創造的破壊」では、世界は決してよくならない｜WIRED.jp](https://wired.jp/2019/08/17/seeing-through-silicon-valleys-shameless-disruption/)

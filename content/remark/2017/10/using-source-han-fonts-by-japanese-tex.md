@@ -402,7 +402,7 @@ line 392
 
 - [The Typekit Blog | Source Han Sansの紹介：オープンソースのPan-CJK書体](https://blog.typekit.com/alternate/source-han-sans-jp/)
 - [源ノ明朝](https://source.typekit.com/source-han-serif/jp/)
-- [GoogleとMonotypeが全言語対応フォントのNotoを公開 | TechCrunch Japan](https://jp.techcrunch.com/2016/10/08/20161006google-and-monotype-unveil-the-noto-projects-unified-font-for-all-languages/)
+- [GoogleとMonotypeが全言語対応フォントのNotoを公開 | TechCrunch Japan](https://techcrunch.com/2016/10/06/google-and-monotype-unveil-the-noto-projects-unified-font-for-all-languages/)
 - [日中韓に対応したグーグルの新フォント「Noto Serif CJK」は、なぜ生まれたか｜WIRED.jp](https://wired.jp/2017/04/08/noto-serif-cjk/)
 - [フォント - TeX Wiki](https://texwiki.texjp.org/?%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88)
 - [源ノ明朝/源ノ角ゴシックをLuaLaTeXで使用する (Windows)](https://jb102.blogspot.jp/2017/04/11-luatex.html)

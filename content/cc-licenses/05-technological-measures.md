@@ -187,7 +187,7 @@ DRM についてはこれからも注視していく必要がある。
 - [DRM に関する覚え書き — Baldanders.info](https://baldanders.info/blog/000295/)
 - [監視をコントロールする — Baldanders.info](https://baldanders.info/blog/000490/)
 - [『デジタル音楽の行方』から10年経って - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2015/06/32173/)
-- [テイラー効果広がる―プリンスもストリーミング条件に反発してSpotify他から楽曲を引き上げ | TechCrunch Japan](https://jp.techcrunch.com/2015/07/03/20150702prince-wont-stream-4-u/)
+- [テイラー効果広がる―プリンスもストリーミング条件に反発してSpotify他から楽曲を引き上げ | TechCrunch Japan](https://techcrunch.com/2015/07/02/prince-wont-stream-4-u/)
 - [YouTubeが著作者をあべこべに判断　音源を無断使用された音楽家の動画が再生できなくなるトラブルが発生 - ねとらぼ](http://nlab.itmedia.co.jp/nl/articles/1609/02/news120.html)
 - [「フェアユースでも使用料を払え」というソニーミュージックの横暴と、それを許すYouTubeのコンテンツID – P2Pとかその辺のお話R](http://p2ptk.org/copyright/350)
 - [Fox、番組にYouTube動画を無断使用した挙句に元動画を権利者削除 – P2Pとかその辺のお話R](http://p2ptk.org/copyright/346)

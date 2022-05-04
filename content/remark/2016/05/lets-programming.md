@@ -9,7 +9,7 @@ tags = ["programming", "math"]
   mermaidjs = false
 +++
 
-{{< fig-quote title="頼むからプログラミングを学ばないでくれ | TechCrunch Japan" link="https://jp.techcrunch.com/2016/05/17/20160510please-dont-learn-to-code/" >}}
+{{< fig-quote title="頼むからプログラミングを学ばないでくれ | TechCrunch Japan" link="https://techcrunch.com/2016/05/10/please-dont-learn-to-code/" >}}
 <q>プログラミングが注目されたことにより、問題を理解することよりも、それを「正しい方法で」解決することに重きが置かれるようになった。</q>
 {{< /fig-quote >}}
 

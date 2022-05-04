@@ -27,9 +27,9 @@ pageType = "text"
 - [Google、脆弱性検出ツール「OSS-Fuzz」のJavaVM対応を発表。Java/Kotlin/Scalaなどの脆弱性を検出可能に － Publickey](https://www.publickey1.jp/blog/21/gooleoss-fuzzjavavmjavakotlinscala.html)
 - [Androidの「WebView」アップデートに問題か ～複数のアプリで起動不能やエラーの報告相次ぐ【18:10追記】 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1313757.html)
 - [LINE、個人データなどの国内完全保管を表明 - ZDNet Japan](https://japan.zdnet.com/article/35168243/)
-- [中国がアプリによる過剰なユーザーデータ収集を5月から禁止  |  TechCrunch Japan](https://jp.techcrunch.com/2021/03/23/2021-03-22-china-regulation-data-collection-may-starts/)
+- [中国がアプリによる過剰なユーザーデータ収集を5月から禁止  |  TechCrunch Japan](https://techcrunch.com/2021/03/22/china-regulation-data-collection-may-starts/)
 - [#SaveAnonymity：「あんしん」のための本人確認・年齢確認の義務化から匿名性を守るために | P2Pとかその辺のお話R](https://p2ptk.org/freedom-of-speech/3321)
-- [つぎはぎされた「フランケンクラウド」モデルは最大のセキュリティーリスクなのか  |  TechCrunch Japan](https://jp.techcrunch.com/2021/03/23/2021-03-22-the-frankencloud-model-is-our-biggest-security-risk/)
+- [つぎはぎされた「フランケンクラウド」モデルは最大のセキュリティーリスクなのか  |  TechCrunch Japan](https://techcrunch.com/2021/03/22/the-frankencloud-model-is-our-biggest-security-risk/)
 
 ## 天文関連
 
@@ -60,14 +60,14 @@ pageType = "text"
 ## その他
 
 - [yamlをインタラクティブに絞り込みできるCLIを作った](https://zenn.dev/skanehira/articles/2021-03-20-go-yaml-yd)
-- [フォードが世界的なチップ不足を理由に特定の部品を使わずにF-150トラックを生産  |  TechCrunch Japan](https://jp.techcrunch.com/2021/03/20/2021-03-18-ford-to-build-some-f-150-trucks-without-certain-parts-due-to-global-chip-shortage/)
+- [フォードが世界的なチップ不足を理由に特定の部品を使わずにF-150トラックを生産  |  TechCrunch Japan](https://techcrunch.com/2021/03/18/ford-to-build-some-f-150-trucks-without-certain-parts-due-to-global-chip-shortage/)
 - [GitHub - litmuschaos/litmus: Litmus helps Kubernetes SREs and developers practice chaos engineering in a Kubernetes native way. Chaos experiments are published at the ChaosHub  (https://hub.litmuschaos.io). Community notes is at https://hackmd.io/a4Zu_sH4TZGeih-xCimi3Q](https://github.com/litmuschaos/litmus)
 - [Raspberry PiにUbuntu Serverを入れてNew Relicで監視する](https://zenn.dev/pekopon/articles/f6428303eb74ad)
 - [ゲームとモラル・パニック - 井出草平の研究ノート](https://ides.hatenablog.com/entry/2021/03/20/044848)
-- [GitHubがほぼ全面的に無料化  |  TechCrunch Japan](https://jp.techcrunch.com/2020/04/15/2020-04-14-github-is-now-free-for-all-teams/) : 2020年4月のニュース
+- [GitHubがほぼ全面的に無料化  |  TechCrunch Japan](https://techcrunch.com/2020/04/14/github-is-now-free-for-all-teams/) : 2020年4月のニュース
 - [日立、DXの旗艦拠点「Lumada Innovation Hub Tokyo」を開設--元日本MS澤氏がエバンジェリスト就任 - ZDNet Japan](https://japan.zdnet.com/article/35168165/)
 - [Web版「e-Tax」でスマホがマイナンバーカードリーダー代わりに ～“2次元バーコード認証”に対応 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1313608.html)
-- [身売り検討の報道を受けてクラウドサービスBoxの株価が上昇  |  TechCrunch Japan](https://jp.techcrunch.com/2021/03/23/2021-03-22-box-shares-rise-on-report-company-is-exploring-sale/)
+- [身売り検討の報道を受けてクラウドサービスBoxの株価が上昇  |  TechCrunch Japan](https://techcrunch.com/2021/03/22/box-shares-rise-on-report-company-is-exploring-sale/)
   - [Box、「Microsoft 365」プラットフォームとの連携機能を強化 - ZDNet Japan](https://japan.zdnet.com/article/35168146/)
 - [AWSが2021年のパートナー戦略を発表--内製開発支援も - ZDNet Japan](https://japan.zdnet.com/article/35168224/)
 - [FirebaseとBigQueryでランキングを作る](https://zenn.dev/moga/articles/firebase-bigquery-ranking)

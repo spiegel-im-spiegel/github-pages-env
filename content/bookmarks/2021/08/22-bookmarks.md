@@ -34,7 +34,7 @@ pageType = "text"
 - [Huawei製光ネットワーク端末にOSコマンドインジェクションの脆弱性 | TECH+](https://news.mynavi.jp/article/20210818-1949573/)
 - [windows defender of windows 10 reported virus · Issue #47731 · golang/go · GitHub](https://github.com/golang/go/issues/47731) : 誤検知だが，うちでも似た症状が出たので
 - [ISC BIND 9の脆弱性（CVE-2021-25218）に関する注意喚起](https://www.jpcert.or.jp/at/2021/at210035.html)
-- [Zoomの使用を中止せよ、独ハンブルグのデータ保護機関が州政府に警告  |  TechCrunch Japan](https://jp.techcrunch.com/2021/08/18/2021-08-17-stop-using-zoom-hamburgs-dpa-warns-state-government/)
+- [Zoomの使用を中止せよ、独ハンブルグのデータ保護機関が州政府に警告  |  TechCrunch Japan](https://techcrunch.com/2021/08/17/stop-using-zoom-hamburgs-dpa-warns-state-government/)
 - [The T-Mobile Data Breach Is One You Can’t Ignore | WIRED](https://www.wired.com/story/t-mobile-hack-data-phishing/)
   - [T-Mobile Data Breach - Schneier on Security](https://www.schneier.com/blog/archives/2021/08/t-mobile-data-breach.html)
 - [Apple Adds a Backdoor to iMessage and iCloud Storage - Schneier on Security](https://www.schneier.com/blog/archives/2021/08/apple-adds-a-backdoor-to-imesssage-and-icloud-storage.html)
@@ -90,6 +90,6 @@ pageType = "text"
 - [Microsoft、「Windows Server 2022」を一般公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1344913.html)
 - [みずほ銀で大規模システム障害　全店舗で窓口取引できず、ATMは通常通り - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2108/20/news082.html)
   - [みずほ銀行「5度目」のシステム障害、原因はDBサーバーのハード故障 | 日経クロステック（xTECH）](https://xtech.nikkei.com/atcl/nxt/column/18/00001/05941/)
-- [ソーシャルプラットフォームはタリバンの扱い方で歩調揃わず  |  TechCrunch Japan](https://jp.techcrunch.com/2021/08/21/2021-08-20-taliban-social-media-facebook-youtube-twitter/)
+- [ソーシャルプラットフォームはタリバンの扱い方で歩調揃わず  |  TechCrunch Japan](https://techcrunch.com/2021/08/20/taliban-social-media-facebook-youtube-twitter/)
 - [LaTeX を用いた言語学論文における例文表示方法](https://zenn.dev/mkpoli/articles/26d3b40a652dd6)
 - [ZennのメディアキットにロゴだけのSVGが追加されたので Material UI で IconButton にする](https://zenn.dev/waddy/articles/zenn-mediakit-svg-to-material-ui)

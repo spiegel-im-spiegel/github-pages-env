@@ -20,8 +20,8 @@ pageType = "text"
 
 ## バベルのインターネット
 
-- [中国がMITの子供向けプログラミング言語「Scratch」の国内使用を禁止  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/07/2020-09-07-scratch-ban-in-china/)
-- [ファーウェイスマホは2021年にHarmonyOSを搭載へ、HarmonyOS 2.0ベータを年内配布  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/10/2020-09-10-huawei-debut-harmonyos-android-alternative-phones-2021/)
+- [中国がMITの子供向けプログラミング言語「Scratch」の国内使用を禁止  |  TechCrunch Japan](https://techcrunch.com/2020/09/07/scratch-ban-in-china/)
+- [ファーウェイスマホは2021年にHarmonyOSを搭載へ、HarmonyOS 2.0ベータを年内配布  |  TechCrunch Japan](https://techcrunch.com/2020/09/10/huawei-debut-harmonyos-android-alternative-phones-2021/)
 
 ## セキュリティ＆プライバシー関連
 
@@ -30,7 +30,7 @@ pageType = "text"
 - [ドコモ口座を悪用した不正送金についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/09/08/054431)
 - [More on NIST’s Post-Quantum Cryptography - Schneier on Security](https://www.schneier.com/blog/archives/2020/09/more_on_nists_p.html)
 - [Intel、2020年9月のセキュリティアドバイザリを公開 ～第8世代Intel Core以降などのBIOSに問題 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1275821.html)
-- [Yubicoが最新セキュリティキー「Yubikey 5C」を発表、価格は約5800円  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/10/2020-09-09-yubico-reveals-new-yubikey/)
+- [Yubicoが最新セキュリティキー「Yubikey 5C」を発表、価格は約5800円  |  TechCrunch Japan](https://techcrunch.com/2020/09/09/yubico-reveals-new-yubikey/)
 - [NSA元長官キース・アレクサンダー氏がアマゾンの取締役に - ZDNet Japan](https://japan.zdnet.com/article/35159398/)
     - [Former NSA Director Keith Alexander Joins Amazon’s Board of Directors - Schneier on Security](https://www.schneier.com/blog/archives/2020/09/former-nsa-director-keith-alexander-joins-amazons-board-of-directors.html)
 - [OpenSSL Security Advisory: Raccoon Attack (CVE-2020-1968)](https://www.openssl.org/news/secadv/20200909.txt)
@@ -65,11 +65,11 @@ pageType = "text"
 - [モバイル向けGPUでも優勢を誇るNVIDIA「GeForce」シリーズ  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/10/nvidia-geforce/)
 - [OpenJDKのソースコード、GitHubへの移行を完了 － Publickey](https://www.publickey1.jp/blog/20/openjdkgithub.html)
 - [LibreOffice Tips & Tricks: Replacing Microsoft Fonts - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2020/09/08/libreoffice-tt-replacing-microsoft-fonts/)
-- [Google CloudがAPI管理とノーコードを駆使したビジネスアプリプラットフォームを公開  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/09/2020-09-08-google-cloud-launches-its-business-application-platform-with-apigee-and-appsheet/)
+- [Google CloudがAPI管理とノーコードを駆使したビジネスアプリプラットフォームを公開  |  TechCrunch Japan](https://techcrunch.com/2020/09/08/google-cloud-launches-its-business-application-platform-with-apigee-and-appsheet/)
 - [TensorFlowの機械学習による画像認識をScratch上で！ 子どもでもできるAI活用プログラミング - どれ使う？プログラミング教育ツール - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/progedu/1276077.html)
-- [Q-CTRLとQuantum Machinesが提携、量子コンピューティング開発を加速  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/10/2020-09-09-q-ctrl-and-quantum-machines-team-up-to-accelerate-quantum-computing/)
-- [グーグルがAndroid 11を公開、メッセージ、プライバシー関連を中心に強化・改善  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/09/2020-09-08-android-11-has-arrived/)
-- [自動JavaユニットテストツールDiffblueの無料コミュニティエディションが登場  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/09/2020-09-08-diffblue-launches-a-free-community-edition-of-its-automated-java-unit-testing-tool/)
+- [Q-CTRLとQuantum Machinesが提携、量子コンピューティング開発を加速  |  TechCrunch Japan](https://techcrunch.com/2020/09/09/q-ctrl-and-quantum-machines-team-up-to-accelerate-quantum-computing/)
+- [グーグルがAndroid 11を公開、メッセージ、プライバシー関連を中心に強化・改善  |  TechCrunch Japan](https://techcrunch.com/2020/09/08/android-11-has-arrived/)
+- [自動JavaユニットテストツールDiffblueの無料コミュニティエディションが登場  |  TechCrunch Japan](https://techcrunch.com/2020/09/08/diffblue-launches-a-free-community-edition-of-its-automated-java-unit-testing-tool/)
 - [マイクロソフト、AWSのコスト管理機能をAzureの管理機能に統合。「Azure Cost Management + Billing」AWS用コネクタが正式リリース － Publickey](https://www.publickey1.jp/blog/20/awsazureazure_cost_management_billingaws.html)
 - [データセンター構成ツールの「Chef」、Progressによる買収を発表 － Publickey](https://www.publickey1.jp/blog/20/chefprogress.html)
 - [The Third Edition of Ross Anderson’s Security Engineering - Schneier on Security](https://www.schneier.com/blog/archives/2020/09/the_third_editi.html)

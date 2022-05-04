@@ -179,7 +179,7 @@ SoC に組み込まれている fTPM の場合は，取り扱いに若干の注�
 - [Windows 11 の仕様 - Microsoft](https://www.microsoft.com/ja-jp/windows/windows-11-specifications)
 - [Windows 11発表。年内提供予定でWindows 10からは無償アップグレード  - PC Watch](https://pc.watch.impress.co.jp/docs/news/1333729.html)
 - [「Windows 11」は32bit CPUをサポートせず ～セキュアブート、TPM 2.0も必須に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1333957.html)
-- [マイクロソフトがWindows 11を正式発表、アマゾンと驚きの提携でAndroidアプリも利用可能に、年末商戦までに一般発売  |  TechCrunch Japan](https://jp.techcrunch.com/2021/06/25/2021-06-24-microsoft-announces-windows-11-generally-available-by-the-holidays/)
+- [マイクロソフトがWindows 11を正式発表、アマゾンと驚きの提携でAndroidアプリも利用可能に、年末商戦までに一般発売  |  TechCrunch Japan](https://techcrunch.com/2021/06/24/microsoft-announces-windows-11-generally-available-by-the-holidays/)
 - [「Windows 11」、機能アップデートは年1回に - ZDNet Japan](https://japan.zdnet.com/article/35172929/)
 - [「Windows 11」で廃止されるアプリや機能--「Cortana」も姿を消すことに - ZDNet Japan](https://japan.zdnet.com/article/35172927/)
 - [「Windows 11」はAndroidアプリにも対応 ～ストアはAmazonのものを利用 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1333960.html)

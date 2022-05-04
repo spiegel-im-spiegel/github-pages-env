@@ -19,8 +19,8 @@ pageType = "text"
 
 ## バベルのインターネット
 
-- [Google、Facebook、Twitterが新たな検閲法でパキスタンから撤退すると脅迫  |  TechCrunch Japan](https://jp.techcrunch.com/2020/11/21/https-techcrunch-com-2020-11-20-google-facebook-and-twitter-threaten-to-leave-pakistan-over-censorship-law/)
-- [インドが新たに43の中国企業アプリを禁止、安全保障の懸念を理由に  |  TechCrunch Japan](https://jp.techcrunch.com/2020/11/25/2020-11-24-india-bans-another-43-chinese-apps/)
+- [Google、Facebook、Twitterが新たな検閲法でパキスタンから撤退すると脅迫  |  TechCrunch Japan](https://techcrunch.com/2020/11/20/google-facebook-and-twitter-threaten-to-leave-pakistan-over-censorship-law/)
+- [インドが新たに43の中国企業アプリを禁止、安全保障の懸念を理由に  |  TechCrunch Japan](https://techcrunch.com/2020/11/24/india-bans-another-43-chinese-apps/)
 
 ## セキュリティ＆プライバシー関連
 

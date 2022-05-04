@@ -80,7 +80,7 @@ pageType = "text"
 - [Facebookとファクトチェックという難問(八田真行) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/hattamasayuki/20190304-00116903/)
 - [IBMの小売業向けアプローチ--ハイブリッド／マルチクラウドがもたらす柔軟性を強みに - ZDNet Japan](https://japan.zdnet.com/article/35133551/)
 - [MIT Tech Review: 暗視ゴーグル不要に？裸眼で暗視できる技術を中国が開発](https://www.technologyreview.jp/nl/mice-have-been-given-night-vision-with-a-nanoparticle-eye-injection/)
-- [ゲイツやベゾスが率いるファンドが世界の地熱発電プロジェクト開発に投資  |  TechCrunch Japan](https://jp.techcrunch.com/2019/03/04/2019-03-03-bill-gates-and-jeff-bezos-backed-fund-invests-in-a-global-geothermal-energy-project-developer/)
+- [ゲイツやベゾスが率いるファンドが世界の地熱発電プロジェクト開発に投資  |  TechCrunch Japan](https://techcrunch.com/2019/03/03/bill-gates-and-jeff-bezos-backed-fund-invests-in-a-global-geothermal-energy-project-developer/)
 - [「Qiita」がエンジニアの転職支援サービスを今春開始へ  |  TechCrunch Japan](https://jp.techcrunch.com/2019/03/05/qiita-jobs/)
 - [EXIFの仕組みを調べてみる - Qiita](https://qiita.com/sanyamarseille/items/03c28feaf9c66abf517d)
 - [https://techwave.jp/archives/coinhive-discontinue-march-2019.html](https://techwave.jp/archives/coinhive-discontinue-march-2019.html)

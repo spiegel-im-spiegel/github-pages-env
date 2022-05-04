@@ -71,7 +71,7 @@ tags = [ "blog" ]
 そういえば今朝，こんな記事を見つけた。
 記事自体は相関関係と因果関係を意図的に誤用するク◯記事だけど（下品でゴメン）。
 
-- [Facebookヘビーユーザーはドラッグ中毒者のようにまともな判断ができない  |  TechCrunch Japan](https://jp.techcrunch.com/2019/01/12/2019-01-10-facebook-addiction-research/)
+- [Facebookヘビーユーザーはドラッグ中毒者のようにまともな判断ができない  |  TechCrunch Japan](https://techcrunch.com/2019/01/10/facebook-addiction-research/)
 
 人間関係嗜癖は嗜癖問題の最たるもので，別に SNS でなくとも人と人とが交わる場なら，たとえば [Wikipedia でも見ることができる](https://wirelesswire.jp/2016/11/57893/ "ネットにしか居場所がないということ（前編） - WirelessWire News")。
 

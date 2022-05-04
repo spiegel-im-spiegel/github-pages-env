@@ -111,7 +111,7 @@ Home: ********
 
 ### 参考
 
-- [頼むからプログラミングを学ばないでくれ | TechCrunch Japan](https://jp.techcrunch.com/2016/05/17/20160510please-dont-learn-to-code/)
+- [頼むからプログラミングを学ばないでくれ | TechCrunch Japan](https://techcrunch.com/2016/05/10/please-dont-learn-to-code/)
 
 ## 今週はセキュリティ・アップデート週間でした{#upd}
 
@@ -131,7 +131,7 @@ Home: ********
 あと，最近は不正アクセスやアカウント情報漏洩に絡む記事が多い。
 
 - [Tumblrと（懐かしの）MySpaceから大量のログイン情報が流出 | Kaspersky Daily - カスペルスキー公式ブログ](https://blog.kaspersky.co.jp/myspace-tumbler-data-breach/11619/)
-- [3200万のTwitterアカウントのパスワードがハックされてリークした、かもしれない | TechCrunch Japan](https://jp.techcrunch.com/2016/06/09/20160608twitter-hack/)
+- [3200万のTwitterアカウントのパスワードがハックされてリークした、かもしれない | TechCrunch Japan](https://techcrunch.com/2016/06/08/twitter-hack/)
 - [GitHub Security Update: Reused password attack](https://github.com/blog/2190-github-security-update-reused-password-attack)
     - [GitHub、不正アクセスを確認--他サービスから流出したパスワードを試行の可能性 - ZDNet Japan](http://japan.zdnet.com/article/35084420/)
 - [JTBへの不正アクセスについてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20160614/1465925330)
@@ -220,7 +220,7 @@ Home: ********
 - [Amazon.co.jp： 増補新版 イスラーム世界の論じ方: 池内 恵: 本](https://www.amazon.co.jp/exec/obidos/ASIN/4120048349/baldandersinf-22/)
 - [ASCII.jp：脆弱性情報のサイトでよく目にする「CVE」とは？](http://ascii.jp/elem/000/001/178/1178273/)
 - [Apple、iPadでコーディングして学べる「Swift Playgrounds」を無償提供 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1606/14/news071.html)
-- [MicrosoftがLinkedInを262億ドルで買収、エンタープライズ向けソーシャルメディアに参入 | TechCrunch Japan](https://jp.techcrunch.com/2016/06/14/20160613microsoft-to-buy-linkedin-for-26b-in-cash-makes-big-move-into-enterprise-social-media/)
+- [MicrosoftがLinkedInを262億ドルで買収、エンタープライズ向けソーシャルメディアに参入 | TechCrunch Japan](https://techcrunch.com/2016/06/13/microsoft-to-buy-linkedin-for-26b-in-cash-makes-big-move-into-enterprise-social-media/)
 - [Instagramで売りに出される銃と、ソーシャルメディアのモラル｜WIRED.jp](http://wired.jp/2016/06/17/instagram-gunsforsale/)
 - [ソフトウェアのバグをなくすには？--プログラミングの際に避けるべき10の失敗 - ZDNet Japan](http://japan.zdnet.com/article/35083529/)
 - [k16's note: Markdown原稿をGitHubで管理して本にする仕組みが出版社で導入されないわけ](http://note.golden-lucky.net/2016/06/markdowngithub.html)

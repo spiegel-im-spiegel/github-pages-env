@@ -31,14 +31,14 @@ flattr    = ""
 
 ## セキュリティ関連
 
-- [Amazon傘下のRing、ドアホンのパスワード変更後もビデオがアクセス可能だった  |  TechCrunch Japan](https://jp.techcrunch.com/2018/05/14/2018-05-11-rings-doorbell-cam-allowed-video-access-after-its-password-was-changed/)
+- [Amazon傘下のRing、ドアホンのパスワード変更後もビデオがアクセス可能だった  |  TechCrunch Japan](https://techcrunch.com/2018/05/11/rings-doorbell-cam-allowed-video-access-after-its-password-was-changed/)
 - [国内組織のキャンペーンやアンケートに偽装したなりすましメールについてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20180514/1526327658)
 - [安倍首相も参加表明「NATO組織」が恐れるサイバー脅威の実態：山田敏弘 | 記事 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43695)
 - [Facebookユーザーデータ、300万人分が流出の可能性 - CNET Japan](https://japan.cnet.com/article/35119154/)
 - [捜査当局によるバックドア作成要求を禁止する法案、米議会で提出 - ZDNet Japan](https://japan.zdnet.com/article/35119093/)
 - [Sending Inaudible Commands to Voice Assistants - Schneier on Security](https://www.schneier.com/blog/archives/2018/05/sending_inaudib.html)
 - [グーグルのProject Zero、「Microsoft Edge」のセキュリティ機能に不具合を指摘 - ZDNet Japan](https://japan.zdnet.com/article/35119065/)
-- [開発フレームワークElectronのエクスプロイトでWebとモバイルの人気アプリが危険  |  TechCrunch Japan](https://jp.techcrunch.com/2018/05/15/2018-05-14-exploit-puts-popular-web-and-mobile-apps-at-risk/)
+- [開発フレームワークElectronのエクスプロイトでWebとモバイルの人気アプリが危険  |  TechCrunch Japan](https://techcrunch.com/2018/05/14/exploit-puts-popular-web-and-mobile-apps-at-risk/)
 - [ChromeやFirefoxから認証情報など盗み取るマルウェア「Vega Stealer」 - ZDNet Japan](https://japan.zdnet.com/article/35119146/)
 - [TLS1.3はIoTデバイスに最適な暗号化技術、キヤノンITSがデモを披露 - MONOist（モノイスト）](http://monoist.atmarkit.co.jp/mn/articles/1805/16/news040.html)
 - [RHELにクリティカルレベルのコード実行の脆弱性、修正パッチが公開 - ZDNet Japan](https://japan.zdnet.com/article/35119233/)

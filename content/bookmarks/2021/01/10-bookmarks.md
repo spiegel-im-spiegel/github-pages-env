@@ -22,12 +22,12 @@ pageType = "text"
 
 ## バベルのインターネット
 
-- [米政府がTikTok禁止の差止命令を不服として上訴  |  TechCrunch Japan](https://jp.techcrunch.com/2020/12/29/2020-12-28-u-s-government-appeals-the-injunction-against-its-tiktok-ban/)
+- [米政府がTikTok禁止の差止命令を不服として上訴  |  TechCrunch Japan](https://techcrunch.com/2020/12/28/u-s-government-appeals-the-injunction-against-its-tiktok-ban/)
 - 暴動関連
-    - [イーロン・マスク氏が米議会議事堂での暴動受けてFacebookの代わりにセキュリティ重視のSignalを推薦  |  TechCrunch Japan](https://jp.techcrunch.com/2021/01/08/2021-01-07-elon-musk-dunks-on-facebook-and-recommends-signal-in-wake-of-u-s-capitol-insurrection-attempt/) : 意味不明w
-    - [ミシェル・オバマ氏がトランプ氏アカウントの永久停止と未来のリーダーによるプラットフォーム乱用防止策をシリコンバレーに要求  |  TechCrunch Japan](https://jp.techcrunch.com/2021/01/08/2021-01-07-michelle-obama-calls-on-silicon-valley-to-permanently-ban-trump-and-prevent-platform-abuse-by-future-leaders/)
-    - [FacebookとInstagramがトランプ大統領のアカウントを「少なくとも政権交代が完了」までブロック  |  TechCrunch Japan](https://jp.techcrunch.com/2021/01/08/2021-01-07-mark-zuckerberg-announces-trump-banned-from-facebook-and-instagram-for-at-least-the-next-two-weeks/)
-    - [TikTokが暴動を扇動したトランプ大統領の演説動画を削除、#stormthecapitalなどのハッシュタグをブロック  |  TechCrunch Japan](https://jp.techcrunch.com/2021/01/09/2021-01-07-tiktok-bans-videos-of-trump-inciting-mob-blocks-stormthecapital-and-other-hashtags/)
+    - [イーロン・マスク氏が米議会議事堂での暴動受けてFacebookの代わりにセキュリティ重視のSignalを推薦  |  TechCrunch Japan](https://techcrunch.com/2021/01/07/elon-musk-dunks-on-facebook-and-recommends-signal-in-wake-of-u-s-capitol-insurrection-attempt/) : 意味不明w
+    - [ミシェル・オバマ氏がトランプ氏アカウントの永久停止と未来のリーダーによるプラットフォーム乱用防止策をシリコンバレーに要求  |  TechCrunch Japan](https://techcrunch.com/2021/01/07/michelle-obama-calls-on-silicon-valley-to-permanently-ban-trump-and-prevent-platform-abuse-by-future-leaders/)
+    - [FacebookとInstagramがトランプ大統領のアカウントを「少なくとも政権交代が完了」までブロック  |  TechCrunch Japan](https://techcrunch.com/2021/01/07/mark-zuckerberg-announces-trump-banned-from-facebook-and-instagram-for-at-least-the-next-two-weeks/)
+    - [TikTokが暴動を扇動したトランプ大統領の演説動画を削除、#stormthecapitalなどのハッシュタグをブロック  |  TechCrunch Japan](https://techcrunch.com/2021/01/07/tiktok-bans-videos-of-trump-inciting-mob-blocks-stormthecapital-and-other-hashtags/)
 - [GitHub、イランからの利用制限を解除へ。政府と交渉の末 － Publickey](https://www.publickey1.jp/blog/21/github_6.html)
 
 ## セキュリティ＆プライバシー関連
@@ -44,7 +44,7 @@ pageType = "text"
 - [福岡県の新型コロナ陽性者情報流出についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2021/01/08/175931)
 - [Backdoor account discovered in more than 100,000 Zyxel firewalls, VPN gateways | ZDNet](https://www.zdnet.com/article/backdoor-account-discovered-in-more-than-100000-zyxel-firewalls-vpn-gateways/)
     - [Backdoor in Zyxel Firewalls and Gateways - Schneier on Security](https://www.schneier.com/blog/archives/2021/01/backdoor-in-zyxel-firewalls-and-gateways.html)
-- [トランプ氏に更迭された元サイバーセキュリティ高官と元Facebook幹部がサイバーコンサルティング会社設立  |  TechCrunch Japan](https://jp.techcrunch.com/2021/01/09/2021-01-08-chris-krebs-and-alex-stamos-have-started-a-cyber-consulting-firm/)
+- [トランプ氏に更迭された元サイバーセキュリティ高官と元Facebook幹部がサイバーコンサルティング会社設立  |  TechCrunch Japan](https://techcrunch.com/2021/01/08/chris-krebs-and-alex-stamos-have-started-a-cyber-consulting-firm/)
 - [Ubuntu 20.10 その76 - セキュリティーアップデート（2021/1/1 〜 2021/1/8） - kledgeb](https://kledgeb.blogspot.com/2021/01/ubuntu-2010-76-202111-202118.html) : 年始明けのセキュリティ・アップデートをまとめて
 
 ## 天文関連
@@ -98,10 +98,10 @@ pageType = "text"
 - [Next.jsのFont Optimizations（Webフォントの最適化）を試してみる](https://zenn.dev/catnose99/articles/bb943c3dc99d89) : セキュリティ・プライバシー上の配慮で Web フォントのキャッシュを複数ドメインで共有されなくなったらしい
 - [CSS カスタムプロパティ (変数) の使用 - CSS: カスケーディングスタイルシート | MDN](https://developer.mozilla.org/ja/docs/Web/CSS/Using_CSS_custom_properties)
     - [CSS変数の命名規則について考える](https://zenn.dev/catnose99/articles/ee6787afe2182c)
-- [2020年は大麻にとって決定的な年だった、今後の展開は  |  TechCrunch Japan](https://jp.techcrunch.com/2020/12/30/2020-12-28-2020-was-a-defining-year-for-cannabis-what-comes-next/)
+- [2020年は大麻にとって決定的な年だった、今後の展開は  |  TechCrunch Japan](https://techcrunch.com/2020/12/28/2020-was-a-defining-year-for-cannabis-what-comes-next/)
 - [[DB接続クライアント]mycliを導入してターミナルで気楽にMariaDB/MySQLを触る](https://zenn.dev/kumamoto/articles/d2fa2826e0fc55)
-- [Flashの最後の日、Adobe自身がサポートを停止  |  TechCrunch Japan](https://jp.techcrunch.com/2021/01/01/2020-12-31-goodbye-flash-goodbye-farmville/)
-- [視覚障がい者がバーチャルイベントに参加することを想像し、あなたが主催する次のイベントでその想像を実践しよう  |  TechCrunch Japan](https://jp.techcrunch.com/2021/01/01/2020-12-30-imagine-being-blind-and-trying-to-attend-a-virtual-event-try-that-next-time-you-stage-one/)
+- [Flashの最後の日、Adobe自身がサポートを停止  |  TechCrunch Japan](https://techcrunch.com/2020/12/31/goodbye-flash-goodbye-farmville/)
+- [視覚障がい者がバーチャルイベントに参加することを想像し、あなたが主催する次のイベントでその想像を実践しよう  |  TechCrunch Japan](https://techcrunch.com/2020/12/30/imagine-being-blind-and-trying-to-attend-a-virtual-event-try-that-next-time-you-stage-one/)
 - [An Online Visual Collaboration Platform for Teamwork | Miro](https://miro.com/)
 - [無料でURLから余計なゴミを自動削除してリダイレクトやトラッキングを防止してくれるFirefox用拡張機能「Link Cleaner+」 - GIGAZINE](https://gigazine.net/news/20210102-link-cleaner-plus/)
 - [Ruby 3.0正式版リリース。「Ruby 2の3倍速」到達、型の記述、スレッドセーフな並列処理など新機能 － Publickey](https://www.publickey1.jp/blog/21/ruby_30ruby_23.html)

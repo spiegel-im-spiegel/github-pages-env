@@ -13,7 +13,7 @@ tags = [ "code", "privacy", "facebook", "grigori", "surveillance-capitalism" ]
 Facebook が面白そうなので，覚え書として一応残しておく。
 
 - [Facebook’s Surveillance Machine - The New York Times](https://www.nytimes.com/2018/03/19/opinion/facebook-cambridge-analytica.html)
-- [トランプ選挙陣営のデータ分析会社、Facebookユーザー5000万人のデータを不正アクセスか  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/19/2018-03-17-trump-campaign-linked-data-firm-cambridge-analytica-reportedly-collected-info-on-50m-facebook-profiles/)
+- [トランプ選挙陣営のデータ分析会社、Facebookユーザー5000万人のデータを不正アクセスか  |  TechCrunch Japan](https://techcrunch.com/2018/03/17/trump-campaign-linked-data-firm-cambridge-analytica-reportedly-collected-info-on-50m-facebook-profiles/)
 - [ザッカーバーグCEO、沈黙を破る--Facebookユーザー情報が不正使用された問題で - CNET Japan](https://japan.cnet.com/article/35116476/)
 
 簡単に言うと Campbridge Analytica (CA) とかいうところが過去に学術調査用に収集した Facebook の個人情報をトランプ陣営側にあるとされるデータ分析会社が利用していた，とするものだ。
@@ -35,7 +35,7 @@ Facebook が面白そうなので，覚え書として一応残しておく。
 個人的には Twitter や Facebook, Instagram といったタイムライン・サービスが広告主に擦り寄るような態度をとっていることについては苦々しく思ってたので，いい気味ではある（笑）
 しかしその「広告主」たちが `#deletefacebook` とかいう政治運動に便乗して自身の広告やページを取り下げるとかいう話は，茶番以下であろう。
 
-- [Elon Muskが自分とSpaceXとTeslaのFacebookページを#deletefacebookに賛同して削除  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/24/2018-03-23-elon-musk-deletes-own-spacex-and-tesla-facebook-pages-after-deletefacebook/)
+- [Elon Muskが自分とSpaceXとTeslaのFacebookページを#deletefacebookに賛同して削除  |  TechCrunch Japan](https://techcrunch.com/2018/03/23/elon-musk-deletes-own-spacex-and-tesla-facebook-pages-after-deletefacebook/)
 - [「Facebookから広告を引き上げる」とMozilla - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1803/23/news107.html)
 
 彼らは明らかに Facebook からもたらされる膨大な個人情報を利用してきた連中である。

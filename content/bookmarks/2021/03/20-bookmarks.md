@@ -28,7 +28,7 @@ pageType = "text"
 ## バベルのインターネット
 
 - [「インターネットの表現の自由を守る原則」を守らねばならない | P2Pとかその辺のお話R](https://p2ptk.org/freedom-of-speech/3301)
-- [中国で人気上昇中の暗号化チャットアプリ「Signal」が禁止に  |  TechCrunch Japan](https://jp.techcrunch.com/2021/03/16/2021-03-15-signal-is-down-in-china/)
+- [中国で人気上昇中の暗号化チャットアプリ「Signal」が禁止に  |  TechCrunch Japan](https://techcrunch.com/2021/03/15/signal-is-down-in-china/)
 - [Twitterの全面遮断を予告したロシア、ブロッキング回避を阻止するためにVPN遮断も示唆 | P2Pとかその辺のお話R](https://p2ptk.org/freedom-of-speech/3314)
 
 ## セキュリティ＆プライバシー関連
@@ -44,14 +44,14 @@ pageType = "text"
   - [Researcher Publishes Code to Exploit Microsoft Exchange Vulnerabilities on Github](https://www.vice.com/en/article/n7vpaz/researcher-publishes-code-to-exploit-microsoft-exchange-vulnerabilities-on-github)
   - [Chinese Hackers Stole an NSA Windows Exploit in 2014 - Schneier on Security](https://www.schneier.com/blog/archives/2021/03/chinese-hackers-stole-an-nsa-windows-exploit-in-2014.html)
   - [攻撃発生中のExchange Serverの脆弱性 ProxyLogonなどについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2021/03/08/053000)
-  - [中国の国家ハッカーがExchange Serverの脆弱性をゼロデイ攻撃、マイクロソフトが警告  |  TechCrunch Japan](https://jp.techcrunch.com/2021/03/04/2021-03-02-microsoft-says-china-backed-hackers-are-exploiting-exchange-zero-days/)
+  - [中国の国家ハッカーがExchange Serverの脆弱性をゼロデイ攻撃、マイクロソフトが警告  |  TechCrunch Japan](https://techcrunch.com/2021/03/02/microsoft-says-china-backed-hackers-are-exploiting-exchange-zero-days/)
 - [ミッコ・ヒッポネン氏が警鐘を鳴らす2021年のセキュリティトピックとは (1/3)：EnterpriseZine（エンタープライズジン）](https://enterprisezine.jp/article/detail/14004)
   - [ヒッポネンの法則：『スマート』は脆弱の証 - F-Secure](https://blog.f-secure.com/ja/hypponens-law-smart-vulnerable/) : ウケた
 - [Googleに騙されてはいけない：FLoCは邪悪なアイデアである | P2Pとかその辺のお話R](https://p2ptk.org/privacy/3290)
-  - [グーグルが「Cookie廃止後、それに代わる他のユーザー追跡技術を採用するつもりはない」と発言  |  TechCrunch Japan](https://jp.techcrunch.com/2021/03/04/2021-03-03-google-renounces-ad-tracking/)
+  - [グーグルが「Cookie廃止後、それに代わる他のユーザー追跡技術を採用するつもりはない」と発言  |  TechCrunch Japan](https://techcrunch.com/2021/03/03/google-renounces-ad-tracking/)
 - [GitHub security update: A bug related to handling of authenticated sessions - The GitHub Blog](https://github.blog/2021-03-08-github-security-update-a-bug-related-to-handling-of-authenticated-sessions/)
   - [“github.com”にセキュリティ問題、ユーザーの強制ログアウトを実施 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1310937.html)
-- [iPhone用通話録音アプリのバグで数千件の通話記録が流出  |  TechCrunch Japan](https://jp.techcrunch.com/2021/03/10/2021-03-09-iphone-thousands-calls-exposed/)
+- [iPhone用通話録音アプリのバグで数千件の通話記録が流出  |  TechCrunch Japan](https://techcrunch.com/2021/03/09/iphone-thousands-calls-exposed/)
 - [「Linux 5.12 rc1に厄介なバグ」、トーバルズ氏が警告 - ZDNet Japan](https://japan.zdnet.com/article/35167530/) : 正式リリースでは解消済み
 - [バイデン政権は暗号化政策の方針を転換せよ | P2Pとかその辺のお話R](https://p2ptk.org/freedom-of-speech/3288)
 - [暗号化と表現の自由を脅かす米EARN IT法案とは何か？ | P2Pとかその辺のお話R](https://p2ptk.org/freedom-of-speech/3286)
@@ -131,13 +131,13 @@ pageType = "text"
 - [Excelの数式をベースにしたプログラミング言語「Microsoft Power Fx」登場。オープンソースで公開予定。Microsoft Ignite 2021 － Publickey](https://www.publickey1.jp/blog/21/excelmicrosoft_power_fxmicrosoft_ignite_2021.html)
 - [GraphQL入門](https://zenn.dev/yoshii0110/articles/2233e32d276551)
 - [scoop bucket を作成する - enjoy struggling](https://blog.haniyama.com/2018/03/12/scoop-bucket/index.html)
-- [マイクロソフトが会議で文字起こしや翻訳を行うアプリ「Group Transcribe」を発表  |  TechCrunch Japan](https://jp.techcrunch.com/2021/03/05/2021-03-03-microsoft-launches-group-transcribe-a-transcription-and-translation-app-for-in-person-meetings/)
+- [マイクロソフトが会議で文字起こしや翻訳を行うアプリ「Group Transcribe」を発表  |  TechCrunch Japan](https://techcrunch.com/2021/03/03/microsoft-launches-group-transcribe-a-transcription-and-translation-app-for-in-person-meetings/)
 - [Flash対応を廃止。「Electron 12」が正式リリース ～SSE3命令が必須に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1309998.html)
 - [マイクロソフト、RPA機能を「Windows 10」ユーザーに無償提供 - ZDNet Japan](https://japan.zdnet.com/article/35167310/)
 - [The lessons of Fukushima - Nuclear power must be well regulated, not ditched | Leaders | The Economist](https://www.economist.com/leaders/2021/03/06/nuclear-power-must-be-well-regulated-not-ditched)
 - [「Windows Server 2022」プレビュー版が登場、安全なブートなどセキュリティ強化。Microsoft Ignite 2021 － Publickey](https://www.publickey1.jp/blog/21/windows_server_2022microsoft_ignite_2021.html)
 - [マイクロソフト、「Universal Print」正式リリースを発表。プリンタサーバをクラウド化し、プリンタドライバを不要に。Microsoft Ignite 2021 － Publickey](https://www.publickey1.jp/blog/21/universal_printmicrosoft_ignite_2021.html)
-- [グーグルがChromeのリリースサイクルを6週から4週に短縮  |  TechCrunch Japan](https://jp.techcrunch.com/2021/03/06/2021-03-04-google-speeds-up-its-release-cycle-for-chrome/)
+- [グーグルがChromeのリリースサイクルを6週から4週に短縮  |  TechCrunch Japan](https://techcrunch.com/2021/03/04/google-speeds-up-its-release-cycle-for-chrome/)
   - [「Microsoft Edge」のリリース間隔も4週間へ短縮 ～「Edge 94」から実施 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1311920.html)
 - [Splitting the ping](https://blog.benjojo.co.uk/post/ping-with-loss-latency-split)
   - [ブログ: pingを分割する](https://okuranagaimo.blogspot.com/2021/03/ping.html)

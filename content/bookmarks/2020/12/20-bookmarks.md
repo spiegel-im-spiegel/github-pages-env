@@ -24,8 +24,8 @@ pageType = "text"
     - [PostgreSQLの脆弱性悪用する最初の暗号通貨マイニングボットネット発見か | マイナビニュース](https://news.mynavi.jp/article/20201216-1593675/)
 - [How the SolarWinds Hackers Bypassed Duo’s Multi-Factor Authentication - Schneier on Security](https://www.schneier.com/blog/archives/2020/12/how-the-solarwinds-hackers-bypassed-duo-multi-factor-authentication.html)
     - [More on the SolarWinds Breach - Schneier on Security](https://www.schneier.com/blog/archives/2020/12/more-on-the-solarwinds-breach.html)
-- [Facebookがユーザーを監視するVPNアプリ「Onavo」を使用したと豪州が提訴  |  TechCrunch Japan](https://jp.techcrunch.com/2020/12/17/2020-12-16-australia-sues-facebook-over-its-use-of-onavo-to-snoop/)
-- [GitHubがCookie追放を発表、わずらわしいCookieバナーも消える  |  TechCrunch Japan](https://jp.techcrunch.com/2020/12/18/2020-12-17-github-says-goodbye-to-cookie-banners/)
+- [Facebookがユーザーを監視するVPNアプリ「Onavo」を使用したと豪州が提訴  |  TechCrunch Japan](https://techcrunch.com/2020/12/16/australia-sues-facebook-over-its-use-of-onavo-to-snoop/)
+- [GitHubがCookie追放を発表、わずらわしいCookieバナーも消える  |  TechCrunch Japan](https://techcrunch.com/2020/12/17/github-says-goodbye-to-cookie-banners/)
 
 ## 天文関連
 
@@ -87,9 +87,9 @@ pageType = "text"
 - [ハイパーコンバージドインフラでMicrosoft Azureとのハイブリッドクラウドを実現する「Azure Stack HCI」正式リリース － Publickey](https://www.publickey1.jp/blog/20/microsoft_azureazure_stack_hci.html)
 - [クロスプラットフォームアプリフレームワーク「Qt」が8年ぶりにメジャーリリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1295044.html)
 - [トランプ大統領が嫌っているのは「プラットフォームの偏向」ではなく「表現の自由」そのものである | P2Pとかその辺のお話R](https://p2ptk.org/freedom-of-speech/3224)
-- [Gmailが再びダウン（現在は復旧）  |  TechCrunch Japan](https://jp.techcrunch.com/2020/12/16/2020-12-15-gmail-is-a-little-broken-right-now-one-day-after-a-massive-outage-errors/)
+- [Gmailが再びダウン（現在は復旧）  |  TechCrunch Japan](https://techcrunch.com/2020/12/15/gmail-is-a-little-broken-right-now-one-day-after-a-massive-outage-errors/)
 - [アップル共同創業者ウォズニアック氏がエネルギー効率化投資を支援するブロックチェーン基盤サービス開始  |  TechCrunch Japan](https://jp.techcrunch.com/2020/12/15/steve-wozniak-efforce/)
-- [AdobeのドキュメントサービスでデベロッパーはPDFを扱いやすくなる  |  TechCrunch Japan](https://jp.techcrunch.com/2020/12/16/2020-12-15-adobes-document-services-make-pdfs-easier-to-work-with-for-developers/)
+- [AdobeのドキュメントサービスでデベロッパーはPDFを扱いやすくなる  |  TechCrunch Japan](https://techcrunch.com/2020/12/15/adobes-document-services-make-pdfs-easier-to-work-with-for-developers/)
 - [ブロックチェーンは攻撃手法で分類するとよい](https://zenn.dev/kumagi/articles/7085fd11bbacf5)
 - [CSS変数の命名規則について考える](https://zenn.dev/catnose99/articles/ee6787afe2182c)
 - [ラズパイで動かす はじめてのLinuxプログラミング](https://zenn.dev/mickey_happy/books/5d2095adb6244176596b)
@@ -98,6 +98,6 @@ pageType = "text"
 - [「無人化システム」を駆逐する組織マネジメントとエンジニアリング](https://zenn.dev/tmknom/articles/93f227ad5e55aa)
 - [DDDとORMのEntityを混同しないための考え方](https://zenn.dev/seihmd/articles/0283137fcfb6a2a925d1)
 - [Microsoft、「Internet Explorer 11」の対応が終了する製品・サービスを公表 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1295843.html)
-- [AWSがデベロッパー向け地図サービス「Amazon Location」を発表  |  TechCrunch Japan](https://jp.techcrunch.com/2020/12/17/2020-12-16-aws-launches-amazon-location-a-new-mapping-service-for-developers/)
-- [グーグルがインドの非英語話者のために言語対応を拡大、世界第2位市場でのさらなる利用者増を狙う  |  TechCrunch Japan](https://jp.techcrunch.com/2020/12/18/2020-12-16-google-expands-languages-push-in-india-to-serve-non-english-speakers/)
+- [AWSがデベロッパー向け地図サービス「Amazon Location」を発表  |  TechCrunch Japan](https://techcrunch.com/2020/12/16/aws-launches-amazon-location-a-new-mapping-service-for-developers/)
+- [グーグルがインドの非英語話者のために言語対応を拡大、世界第2位市場でのさらなる利用者増を狙う  |  TechCrunch Japan](https://techcrunch.com/2020/12/16/google-expands-languages-push-in-india-to-serve-non-english-speakers/)
 - [感染症数理モデルとCOVID-19 | 日本医師会 COVID-19有識者会議](https://www.covid19-jma-medical-expert-meeting.jp/topic/3925)

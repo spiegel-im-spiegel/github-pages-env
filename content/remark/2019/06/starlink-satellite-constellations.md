@@ -104,7 +104,7 @@ pageType = "text"
 ## ブックマーク
 
 - [通信衛星群による天文観測への悪影響についての懸念表明 | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/topics/2019/20190709-satellites.html) : よーやく日本からも声明を出すことにしたらしい。産業界に忖度（笑）して出さないのかと思ったぜ。でも，こういうのって「拙速を尊ぶ」なんだけどねぇ
-- [アマゾンが3000機以上のブロードバンド通信衛星の打ち上げをFCCに申請  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/10/2019-07-10-amazon-seeks-fcc-approval-to-launch-over-three-thousand-broadband-satellites/)
+- [アマゾンが3000機以上のブロードバンド通信衛星の打ち上げをFCCに申請  |  TechCrunch Japan](https://techcrunch.com/2019/07/10/amazon-seeks-fcc-approval-to-launch-over-three-thousand-broadband-satellites/)
 
 ## 参考図書
 

@@ -40,13 +40,13 @@ pageType = "text"
 - [JAXA | 小惑星探査機「はやぶさ２」衝突装置の運用状況について](http://www.jaxa.jp/press/2019/04/20190405a_j.html)
     - [JAXA | 小惑星探査機「はやぶさ２」衝突装置の作動の確認について](http://www.jaxa.jp/press/2019/04/20190405b_j.html)
     - [2019年4月5日ニュース「はやぶさ2が衝突装置の作動に成功 小惑星りゅうぐうの人工クレーター実験で世界初の岩石採取目指す」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2019/04/20190405_01.html)
-    - [日本の「はやぶさ2」が小惑星を銃撃して穴を掘る  |  TechCrunch Japan](https://jp.techcrunch.com/2019/04/05/2019-04-04-japans-hayabusa-2-probe-is-blasting-a-hole-in-an-asteroid-tonight-and-thats-awesome/)
+    - [日本の「はやぶさ2」が小惑星を銃撃して穴を掘る  |  TechCrunch Japan](https://techcrunch.com/2019/04/04/japans-hayabusa-2-probe-is-blasting-a-hole-in-an-asteroid-tonight-and-thats-awesome/)
 - [「はやぶさ2」のミッション | Nature Astronomy | Nature Research](https://www.natureasia.com/ja-jp/natastron/specials)
 - [小惑星探査機「はやぶさ2」の記者説明会（第2回タッチダウンについて） - ただいま村](http://ima.hatenablog.jp/entry/2019/07/09/103000)
 - [2019年7月11日ニュース「世界初！小惑星地下物質採取のための着陸に成功 はやぶさ2、貴重な試料回収の快挙も達成か」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2019/07/20190711_01.html)
     - [Hayabusa 2 lands on distant asteroid and collects another sample | New Scientist](https://www.newscientist.com/article/2209567-hayabusa-2-lands-on-distant-asteroid-and-collects-another-sample/)
     - [MIT Tech Review: はやぶさ2が小惑星リュウグウに2回目の接地、試料採取に成功](https://www.technologyreview.jp/nl/a-japanese-spacecraft-just-grabbed-more-rocks-from-the-asteroid-ryugu/)
-    - [はやぶさ2は小惑星リュウグウへの2回目の着地に成功  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/12/2019-07-11-hayabusa2-lands-on-an-asteroid-and-sends-back-amazing-pictures-to-prove-it/)
+    - [はやぶさ2は小惑星リュウグウへの2回目の着地に成功  |  TechCrunch Japan](https://techcrunch.com/2019/07/11/hayabusa2-lands-on-an-asteroid-and-sends-back-amazing-pictures-to-prove-it/)
 - [はやぶさ２の２度のリュウグウ試料採取成功の意義と今後の課題 | オピニオンの「ビューポイント」](https://vpoint.jp/column/hiroi/140225.html)
 
 

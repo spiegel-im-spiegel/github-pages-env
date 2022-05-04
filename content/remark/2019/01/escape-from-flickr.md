@@ -19,7 +19,7 @@ tags = [ "site", "web", "photography", "image", "flickr", "creative-commons" ]
 昨年11月に [Flickr] から無料会員に対し，アップできる写真を最大1,000枚に制限する旨のアナウンスがあった（CC Licenses 下で既に公開しているものについては執行猶予あり）。
 
 - [Why we’re changing Flickr  free accounts | Flickr Blog](https://blog.flickr.net/en/2018/11/01/changing-flickr-free-accounts-1000-photos/)
-- [Flickrの新しいビジネスモデルでCreative Commonsの作品は消されるのか  |  TechCrunch Japan](https://jp.techcrunch.com/2018/11/03/2018-11-02-flickrs-new-business-model-could-see-works-deleted-from-creative-commons/)
+- [Flickrの新しいビジネスモデルでCreative Commonsの作品は消されるのか  |  TechCrunch Japan](https://techcrunch.com/2018/11/02/flickrs-new-business-model-could-see-works-deleted-from-creative-commons/)
 - [Flickr says it won’t delete Creative Commons photos – TechCrunch](https://techcrunch.com/2018/11/07/flickr-says-it-wont-delete-creative-commons-photos/)
 
 正直に言って Pro 会員に戻ろうか悩んだ。
@@ -41,7 +41,7 @@ tags = [ "site", "web", "photography", "image", "flickr", "creative-commons" ]
 幸いなことに GitHub が無料ユーザにもプライベート・リポジトリを開放してくれたので，そっち側にリポジトリを作って作業した。
 
 - [New year, new GitHub: Announcing unlimited free private repos and unified Enterprise offering | The GitHub Blog](https://blog.github.com/2019-01-07-new-year-new-github/)
-- [朗報、GitHub無料ユーザーも無制限にプライベートリポジトリを使えるようになる  |  TechCrunch Japan](https://jp.techcrunch.com/2019/01/08/2019-01-07-github-free-users-now-get-unlimited-private-repositories/)
+- [朗報、GitHub無料ユーザーも無制限にプライベートリポジトリを使えるようになる  |  TechCrunch Japan](https://techcrunch.com/2019/01/07/github-free-users-now-get-unlimited-private-repositories/)
 - [GitHub、無料ユーザーもプライベートリポジトリを無制限に作成可能に － Publickey](https://www.publickey1.jp/blog/19/github_4.html)
 - [“GitHub”の非公開リポジトリ、無償プランでも無制限に ～新しい料金プランが発表 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1161195.html)
 
@@ -54,8 +54,8 @@ tags = [ "site", "web", "photography", "image", "flickr", "creative-commons" ]
 
 ## ブックマーク
 
-- [Flickrのバックアップを急げ、今日から1000枚+の写真削除開始  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/06/2019-02-05-flickr-deleting-photos-how-to-backup/)
-- [Flickrは写真の削除を3月12日までに延期  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/07/2019-02-06-flickr-will-hold-off-on-deleting-photos-until-march-12th/)
+- [Flickrのバックアップを急げ、今日から1000枚+の写真削除開始  |  TechCrunch Japan](https://techcrunch.com/2019/02/05/flickr-deleting-photos-how-to-backup/)
+- [Flickrは写真の削除を3月12日までに延期  |  TechCrunch Japan](https://techcrunch.com/2019/02/06/flickr-will-hold-off-on-deleting-photos-until-march-12th/)
 
 - [Flickr は監視資本主義に向かわない]({{< ref "/remark/2019/03/flickr-has-not-turned-to-surveillance-capitalism.md" >}})
 

@@ -18,14 +18,14 @@ pageType = "text"
 
 ## バベルのインターネット
 
-- [アップルが中国App StoreからRSSリーダーのReederとFiery Feedsを削除  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/30/2020-09-30-apple-removes-two-rss-feed-readers-from-china-app-store/)
-- [Facebookは米国選挙結果の「非合法性を主張する」広告を受け付けない  |  TechCrunch Japan](https://jp.techcrunch.com/2020/10/02/2020-10-01-facebook-election-ad-ban-delegitimize-election-results/)
+- [アップルが中国App StoreからRSSリーダーのReederとFiery Feedsを削除  |  TechCrunch Japan](https://techcrunch.com/2020/09/30/apple-removes-two-rss-feed-readers-from-china-app-store/)
+- [Facebookは米国選挙結果の「非合法性を主張する」広告を受け付けない  |  TechCrunch Japan](https://techcrunch.com/2020/10/01/facebook-election-ad-ban-delegitimize-election-results/)
 
 ## セキュリティ＆プライバシー関連
 
 - [耐量子コンピュータ暗号の概要 | Zenn](https://zenn.dev/fpc_community/articles/06f3244d58a3f4285148)
 - [TwitterのAPIキーが漏えいした可能性--開発者に警告 - ZDNet Japan](https://japan.zdnet.com/article/35160086/)
-- [米警察当局はアマゾンの顧客データを情報要求ポータルから入手している  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/28/2020-09-27-this-is-how-police-request-customer-data-from-amazon/)
+- [米警察当局はアマゾンの顧客データを情報要求ポータルから入手している  |  TechCrunch Japan](https://techcrunch.com/2020/09/27/this-is-how-police-request-customer-data-from-amazon/)
 - [When coffee makers are demanding a ransom, you know IoT is screwed | Ars Technica](https://arstechnica.com/information-technology/2020/09/how-a-hacker-turned-a-250-coffee-maker-into-ransom-machine/)
     - [Hacking a Coffee Maker - Schneier on Security](https://www.schneier.com/blog/archives/2020/09/hacking-a-coffee-maker.html)
     - [Wi-Fi接続対応のコーヒーメーカーは「ランサムウェアに感染して身代金を要求される」可能性がある - GIGAZINE](https://gigazine.net/news/20200929-coffee-makers-demanding-ransom/)
@@ -88,7 +88,7 @@ pageType = "text"
 - [C/C++言語のVisual Studio Code拡張機能がv1.0に到達、初の一般リリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1279175.html)
 - [PostgreSQL 13正式版リリース。B-Treeインデックスの重複排除、同一テーブル内でのVacuum並列処理など新機能 － Publickey](https://www.publickey1.jp/blog/20/postgresql_13b-treevacuum.html)
 - [Swift言語がWindowsのサポートを開始。コンパイラやライブラリなどWindows対応に － Publickey](https://www.publickey1.jp/blog/20/swiftwindowswindows.html)
-- [EUがアップルに対する1.5兆円超の罰金命令を棄却した判決を上訴  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/28/2020-09-25-european-commission-to-appeal-decision-that-reversed-apples-15b-state-aid-tax-bill-in-ireland/)
+- [EUがアップルに対する1.5兆円超の罰金命令を棄却した判決を上訴  |  TechCrunch Japan](https://techcrunch.com/2020/09/25/european-commission-to-appeal-decision-that-reversed-apples-15b-state-aid-tax-bill-in-ireland/)
 - [zenn-cli + reviewdog + textlint + GitHub Actions で執筆体験を最高にする | Zenn](https://zenn.dev/serima/articles/4dac7baf0b9377b0b58b)
 - [Androidデバイス上のウェブブラウザに向けたフォント設定を考える。 - freefielder.jp](https://freefielder.jp/blog/2017/07/css-font-for-android.html) : だから Web フォントを OFF るとおかしいことになるのか
 - [Google、プロジェクト管理のための新ノーコードツール「Tables」発表。リスト／カンバン／チケット管理／マップなど柔軟なビュー、Botによる作業自動化など － Publickey](https://www.publickey1.jp/blog/20/googletablesbot.html)
@@ -105,16 +105,16 @@ pageType = "text"
     - [「韓国民間人」射殺で文在寅「威信失墜」金正恩「謝罪」の波紋（下）：平井久志 | 記事 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](https://www.fsight.jp/articles/-/47381)
 - [2020年10月1日ニュース「高温ほど熱伝導率が大きくなる現象を観測 東大、窒化ケイ素薄膜で」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2020/10/20201001_01.html)
 - [Arm版「Windows 10」、x64エミュレーションに対応へ - ZDNet Japan](https://japan.zdnet.com/article/35160330/)
-- [Facebookの「監査審査会」に対抗し活動家による「真の監査審査会」が発足  |  TechCrunch Japan](https://jp.techcrunch.com/2020/10/01/2020-09-30-the-real-facebook-oversight-board-launches-to-counter-facebooks-oversight-board/)
+- [Facebookの「監査審査会」に対抗し活動家による「真の監査審査会」が発足  |  TechCrunch Japan](https://techcrunch.com/2020/09/30/the-real-facebook-oversight-board-launches-to-counter-facebooks-oversight-board/)
 - [Detecting Deep Fakes with a Heartbeat - Schneier on Security](https://www.schneier.com/blog/archives/2020/10/detecting-deep-fakes-with-a-heartbeat.html)
-- [7月に深刻なハッキングを受けたTwitterに新たな最高情報セキュリティ責任者が就任  |  TechCrunch Japan](https://jp.techcrunch.com/2020/10/02/2020-09-30-twitter-ciso-rinki-sethi/)
+- [7月に深刻なハッキングを受けたTwitterに新たな最高情報セキュリティ責任者が就任  |  TechCrunch Japan](https://techcrunch.com/2020/09/30/twitter-ciso-rinki-sethi/)
 - [軽量か防水か遊び心か 『モバイルキーボード』スマホやタブレット用おすすめ5選｜TIME＆SPACE by KDDI](https://time-space.kddi.com/it-technology/20190611/2669)
 - [BitTorrentを買収した中国の億万長者に対し元従業員たちが猛反発、一体何が起きているのか？ - GIGAZINE](https://gigazine.net/news/20201002-bittorrent-tron-justin-sun/)
-- [郵便投票のデジタル申請は殆どの州でアクセシビリティーがない  |  TechCrunch Japan](https://jp.techcrunch.com/2020/10/02/2020-10-01-digital-vote-by-mail-applications-in-most-states-are-inaccessible-to-people-with-disabilities/)
-- [グーグルがDaydreamのサポートを打ち切りへ、VR白昼夢から完全覚醒か  |  TechCrunch Japan](https://jp.techcrunch.com/2020/10/03/2020-10-02-google-wakes-up-from-its-vr-daydream/)
+- [郵便投票のデジタル申請は殆どの州でアクセシビリティーがない  |  TechCrunch Japan](https://techcrunch.com/2020/10/01/digital-vote-by-mail-applications-in-most-states-are-inaccessible-to-people-with-disabilities/)
+- [グーグルがDaydreamのサポートを打ち切りへ、VR白昼夢から完全覚醒か  |  TechCrunch Japan](https://techcrunch.com/2020/10/02/google-wakes-up-from-its-vr-daydream/)
 - [Webアクション「部屋裏のバイテン」第６話 : ぽじとろんの竹本泉観察記](https://positron.exblog.jp/31757162/)
 - [COVID-19 and Acedia - Schneier on Security](https://www.schneier.com/blog/archives/2020/10/covid-19-and-acedia.html)
-- [Twitterは投稿時の画像プレビューのトリミング方法をユーザーに委ねる方針へ  |  TechCrunch Japan](https://jp.techcrunch.com/2020/10/04/2020-10-02-twitter-may-let-users-choose-how-to-crop-image-previews-after-bias-scrutiny/)
+- [Twitterは投稿時の画像プレビューのトリミング方法をユーザーに委ねる方針へ  |  TechCrunch Japan](https://techcrunch.com/2020/10/02/twitter-may-let-users-choose-how-to-crop-image-previews-after-bias-scrutiny/)
 - [インフラ構成図をReactで描けるツールを作った | Zenn](https://zenn.dev/kamiazya/articles/99a9ce0c0ea6212a186f)
 - [Amazonの「沈黙で始まる会議」と「PowerPoint禁止」の密接な関係｜塚本 牧生｜note](https://note.com/tsukamoto/n/n9a1b21a7bf29)
 - [『もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来』の（今度こそおそらく）最終版を公開 - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20201005/openweb)

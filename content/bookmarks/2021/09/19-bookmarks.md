@@ -34,8 +34,8 @@ pageType = "text"
 - [児童全員同じパスワードで配布されたタブレットで起きた問題についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2021/09/17/162639)
 - [FORCEDENTRY: NSO Group iMessage Zero-Click Exploit Captured in the Wild - The Citizen Lab](https://citizenlab.ca/2021/09/forcedentry-nso-group-imessage-zero-click-exploit-captured-in-the-wild/) : 既に改修されている
   - [Zero-Click iMessage Exploit - Schneier on Security](https://www.schneier.com/blog/archives/2021/09/zero-click-imessage-exploit.html)
-- [【コラム】9.11から20年、制限のないデータ収集がもたらす米国の新たな悲劇  |  TechCrunch Japan](https://jp.techcrunch.com/2021/09/17/2021-09-11-20-years-later-unchecked-data-collection-is-part-of-9-11s-legacy/)
-- [アップルは社内メモでテキサス州の妊娠中絶法に対する法的な異議申し立てを監視していると発表  |  TechCrunch Japan](https://jp.techcrunch.com/2021/09/17/2021-09-16-in-internal-memo-apple-says-it-is-monitoring-legal-challenges-to-texas-abortion-law/)
+- [【コラム】9.11から20年、制限のないデータ収集がもたらす米国の新たな悲劇  |  TechCrunch Japan](https://techcrunch.com/2021/09/11/20-years-later-unchecked-data-collection-is-part-of-9-11s-legacy/)
+- [アップルは社内メモでテキサス州の妊娠中絶法に対する法的な異議申し立てを監視していると発表  |  TechCrunch Japan](https://techcrunch.com/2021/09/16/in-internal-memo-apple-says-it-is-monitoring-legal-challenges-to-texas-abortion-law/)
 - [ランサムウェア攻撃で7億円超の特別損失、建設コンサル大手のオリエンタルコンサルタンツが発表 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2109/17/news149.html)
 - [Lessons From History: Afghanistan and the Dangerous Afterlives of Identifying Data | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2021/09/lessons-history-afghanistan-and-dangerous-afterlives-identifying-data)
   - [歴史の教訓：アフガニスタンと識別データの危険な後遺症 | P2Pとかその辺のお話R](https://p2ptk.org/privacy/3390)

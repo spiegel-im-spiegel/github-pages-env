@@ -45,8 +45,8 @@ image = "/images/avatar.jpg"
 
 - [Hackについて（What's a Hack?）](https://cruel.org/freeware/hack.html)
 - [無一物の億万長者:ビジネスと慈善（"The Billionaire Who Wasn't" Review）](https://cruel.org/onebook/dfs.html)
-- [Windows 10、ついにWindows 7を抜く――デスクトップOSのシェアでトップに  |  TechCrunch Japan](https://jp.techcrunch.com/2019/01/03/2019-01-02-windows-10-tops-windows-7-as-most-popular-os/)
-- [MozillaがメールクライアントThunderbirdの高速化、美観アップ、そしてGmailのサポートを約束  |  TechCrunch Japan](https://jp.techcrunch.com/2019/01/03/2019-01-02-mozilla-promises-a-faster-prettier-thunderbird-with-better-gmail-support/)
+- [Windows 10、ついにWindows 7を抜く――デスクトップOSのシェアでトップに  |  TechCrunch Japan](https://techcrunch.com/2019/01/02/windows-10-tops-windows-7-as-most-popular-os/)
+- [MozillaがメールクライアントThunderbirdの高速化、美観アップ、そしてGmailのサポートを約束  |  TechCrunch Japan](https://techcrunch.com/2019/01/02/mozilla-promises-a-faster-prettier-thunderbird-with-better-gmail-support/)
 - [混ぜるな危険！プロジェクトを構成する3要素の取り扱い方 | Backlogブログ](https://backlog.com/ja/blog/what-elements-should-be-controlled-in-project-management/)
-- [Googleのレーダー技術によるジェスチャー入力方式SoliをFCCが認可、電波妨害問題をクリア  |  TechCrunch Japan](https://jp.techcrunch.com/2019/01/03/2019-01-02-us-fcc-approves-google-soli-project/)
+- [Googleのレーダー技術によるジェスチャー入力方式SoliをFCCが認可、電波妨害問題をクリア  |  TechCrunch Japan](https://techcrunch.com/2019/01/02/us-fcc-approves-google-soli-project/)
 - [BitTorrent Unveils New Token to Pay for Faster Downloads - TorrentFreak](https://torrentfreak.com/bittorrent-unveils-new-token-to-pay-for-faster-downloads-190103/)

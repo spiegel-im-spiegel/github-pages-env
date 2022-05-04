@@ -26,7 +26,7 @@ tags = [ "artificial-intelligence", "grigori", "privacy" ]
 
 （この記事は Facebook の TL に書いた戯れ言の再構成です）
 
-- [Amazon Alexaの使い勝手、大きく改善へ――過去の会話を記憶、必要なスキルを自動的に起動、会話も自然に | TechCrunch Japan](https://jp.techcrunch.com/2018/04/27/2018-04-26-alexa-will-soon-gain-a-memory-converse-more-naturally-and-automatically-launch-skills/)
+- [Amazon Alexaの使い勝手、大きく改善へ――過去の会話を記憶、必要なスキルを自動的に起動、会話も自然に | TechCrunch Japan](https://techcrunch.com/2018/04/26/alexa-will-soon-gain-a-memory-converse-more-naturally-and-automatically-launch-skills/)
 
 いや，なんていうかさ， Facebook へのバッシングが吹き荒れる中でこういうのを礼賛する記事ってどうなのよ，って思うんだけど，どうなんだろう。
 やっぱ「メディア」ってのは本質的にこういう存在なんだねぇ。

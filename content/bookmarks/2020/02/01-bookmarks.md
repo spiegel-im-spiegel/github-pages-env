@@ -22,7 +22,7 @@ pageType = "text"
 - [Leaked Documents Expose the Secretive Market for Your Web Browsing Data - VICE](https://www.vice.com/en_us/article/qjdkq7/avast-antivirus-sells-user-browsing-data-investigation)
 - [Google Receives Geofence Warrants - Schneier on Security](https://www.schneier.com/blog/archives/2020/01/google_receives.html)
 - [Intel製CPUに投機的実行機能にまたサイドチャネル脆弱性、機密データを外部から推測されてしまう可能性 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1231851.html)
-- [「Facebook外のアクティビティ」が全ユーザーに公開、広告ターゲティングの管理が容易に  |  TechCrunch Japan](https://jp.techcrunch.com/2020/01/29/2020-01-28-all-users-can-now-access-facebooks-tool-for-controlling-which-apps-and-sites-can-share-data-for-ad-targeting/)
+- [「Facebook外のアクティビティ」が全ユーザーに公開、広告ターゲティングの管理が容易に  |  TechCrunch Japan](https://techcrunch.com/2020/01/28/all-users-can-now-access-facebooks-tool-for-controlling-which-apps-and-sites-can-share-data-for-ad-targeting/)
 - [Customer Tracking at Ralphs Grocery Store - Schneier on Security](https://www.schneier.com/blog/archives/2020/01/customer_tracki.html)
 - [Emotet感染メールに「新型コロナウイルス」、流行便乗攻撃に警戒を - ZDNet Japan](https://japan.zdnet.com/article/35148659/)
 - [MIT Tech Review: 顔認識にさらなる逆風、米プライバシー団体などが一時禁止を訴え](https://www.technologyreview.jp/nl/40-groups-call-for-us-moratorium-on-facial-recognition-technology/)
@@ -33,7 +33,7 @@ pageType = "text"
 - [ブログ: 重力: 私たちは、この間ずっと間違っていたかも知れない](https://okuranagaimo.blogspot.com/2020/01/blog-post_26.html)
 - [宇宙で最も明るい爆発現象の謎を解明 －超高輝度超新星「SN2006gy」の正体はIa型超新星だった－ — 京都大学](http://www.kyoto-u.ac.jp/ja/research/research_results/2019/200124_2.html)
 - [『はやぶさ２』の偉業「七つの世界初」！ - ちゅうおうくらしねっと](http://www.chuokurashi.net/entry/hayabusa7tunosekaishin20200119)
-- [NASAは天文学とエンジニアリングでのVRとARの本当の使い道を発見  |  TechCrunch Japan](https://jp.techcrunch.com/2020/01/30/2020-01-29-nasa-finds-real-uses-for-vr-and-ar-in-astronomy-and-engineering/)
+- [NASAは天文学とエンジニアリングでのVRとARの本当の使い道を発見  |  TechCrunch Japan](https://techcrunch.com/2020/01/29/nasa-finds-real-uses-for-vr-and-ar-in-astronomy-and-engineering/)
 - [News | Voyager 2 Engineers Working to Restore Normal Operations](https://www.jpl.nasa.gov/news/news.php?feature=7587)
     - [ボイジャー2号で一時的に電力が不足、科学観測の再開に向け復旧作業中 - sorae 宇宙へのポータルサイト](https://sorae.info/space/20200130-voyager.html)
 

@@ -68,7 +68,7 @@ pageType = "text"
 - [GitHubでリポジトリを組織管理するためのOrganizationとそのつくり方](https://tonari-it.com/github-organization/)
 - [ls -l はなぜ事故を起こすのか](https://zenn.dev/mattn/articles/15f8efb2b89559)
 - [GitHub、コード中に書いてはいけないアクセストークンを発見、通知してくれる「Secret scanning」機能、プライベートリポジトリで正式対応 － Publickey](https://www.publickey1.jp/blog/21/githubsecret_scanning.html)
-- [韓国LGがスマートフォン事業閉鎖  |  TechCrunch Japan](https://jp.techcrunch.com/2021/04/05/2021-04-04-lg-is-shutting-down-its-smartphone-business-worldwide/)
+- [韓国LGがスマートフォン事業閉鎖  |  TechCrunch Japan](https://techcrunch.com/2021/04/04/lg-is-shutting-down-its-smartphone-business-worldwide/)
 - [GitLab、バグや脆弱性の検出ツール「GitLab Protocol Fuzzer Community Edition」をオープンソースで公開。APIやHTTP経由などでファジングを実行 － Publickey](https://www.publickey1.jp/blog/21/gitlabgitlab_protocol_fuzzer_community_editionapihttp.html)
 - [Arm、10年ぶりの新アーキテクチャー「Armv9」--セキュリティとAI能力を強化 - ZDNet Japan](https://japan.zdnet.com/article/35168614/)
 - [jedisct1/witx-codegen: WITX code and documentation generator for AssemblyScript, Zig, Rust and more. *work in progress* *help welcome*](https://github.com/jedisct1/witx-codegen)
@@ -76,7 +76,7 @@ pageType = "text"
 - [Bitcoin mining emissions in China will hit 130 million tonnes by 2024 | New Scientist](https://www.newscientist.com/article/2273672-bitcoin-mining-emissions-in-china-will-hit-130-million-tonnes-by-2024/)
 - [Signal Adds a Payments Feature—With a Privacy-Focused Cryptocurrency | WIRED](https://www.wired.com/story/signal-mobilecoin-payments-messaging-cryptocurrency/)
   - [Signal Adds Cryptocurrency Support - Schneier on Security](https://www.schneier.com/blog/archives/2021/04/wtf-signal-adds-cryptocurrency-support.html)
-  - [暗号化チャットのSignalが英国でMobileCoinによる決済機能をテスト中  |  TechCrunch Japan](https://jp.techcrunch.com/2021/04/07/2021-04-06-signal-tests-payments-in-the-uk-using-mobilecoin/)
+  - [暗号化チャットのSignalが英国でMobileCoinによる決済機能をテスト中  |  TechCrunch Japan](https://techcrunch.com/2021/04/06/signal-tests-payments-in-the-uk-using-mobilecoin/)
 - [【ルパン三世】全オープニング＆エンディング＆アイキャッチ大公開！【TVアニメ化50周年】│"LUPIN THE 3RD" FULL OPENING & ENDING & EYECATCH - YouTube](https://www.youtube.com/watch?v=w9sh-kTTaNM)
 - [「IBM COBOL for Linux on x86」発表。x86サーバ上のRHELやUbuntu Serverでz/OS互換のCOBOLコンパイルや実行を可能に － Publickey](https://www.publickey1.jp/blog/21/ibm_cobol_for_linux_on_x86x86rhelubuntu_serverzoscobol.html) : まだ終わらんよ
 - [IDaaSベンダのOkta、月間1万5000アクティブユーザーまで無償の「Okta Starter Developer Edition」提供開始。多要素認証にも対応、開発者向け施策を拡大 － Publickey](https://www.publickey1.jp/blog/21/idaasokta15000okta_starter_developer_edition.html)

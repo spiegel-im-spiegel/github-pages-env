@@ -27,14 +27,14 @@ tags = [ "code", "internet", "censorship", "grigori", "privacy", "surveillance-c
 - [「モジラはChromiumを採用すべき」--マイクロソフト社員がツイート、反撃を受ける - CNET Japan](https://japan.cnet.com/article/35131920/)
 - [Major iPhone FaceTime bug lets you hear the audio of the person you are calling ... before they pick up - 9to5Mac](https://9to5mac.com/2019/01/28/facetime-bug-hear-audio/)
     - [iPhone FaceTime Vulnerability - Schneier on Security](https://www.schneier.com/blog/archives/2019/01/iphone_facetime.html)
-    - [FaceTimeのバグであなたのマイクロフォンとカメラを誰でも盗聴盗視可能に  |  TechCrunch Japan](https://jp.techcrunch.com/2019/01/29/2019-01-28-nasty-facetime-bug-could-allows-others-to-eavesdrop-on-your-microphone-or-camera/)
+    - [FaceTimeのバグであなたのマイクロフォンとカメラを誰でも盗聴盗視可能に  |  TechCrunch Japan](https://techcrunch.com/2019/01/28/nasty-facetime-bug-could-allows-others-to-eavesdrop-on-your-microphone-or-camera/)
     - [MIT Tech Review: アップルの「フェイスタイム」にバグ、応答前の音声がダダ漏れ](https://www.technologyreview.jp/nl/a-security-bug-in-apples-facetime-lets-people-snoop-on-others/)
-- [若者に金を払い彼らをスパイするアプリをインストールさせるFacebook  |  TechCrunch Japan](https://jp.techcrunch.com/2019/01/31/2019-01-29-facebook-project-atlas/)
-    - [Apple、Googleの証明書乱用を受け社内iOSアプリを使用禁止に  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/01/2019-01-31-apple-ban-google-data-app/)
+- [若者に金を払い彼らをスパイするアプリをインストールさせるFacebook  |  TechCrunch Japan](https://techcrunch.com/2019/01/29/facebook-project-atlas/)
+    - [Apple、Googleの証明書乱用を受け社内iOSアプリを使用禁止に  |  TechCrunch Japan](https://techcrunch.com/2019/01/31/apple-ban-google-data-app/)
     - [グーグルの社内用iOSアプリも使用禁止に--規約違反で - CNET Japan](https://japan.cnet.com/article/35132111/)
-    - [Apple、スパイ活動制裁の後Facebookの社内アプリを復活  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/01/2019-01-31-mess-with-the-cook/)
-- [Amazonのただでさえ透明でない透明性レポートがいっそう不透明になった  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/01/2019-01-31-amazon-government-data-demands/)
-- [安物のIoT機器は、たとえゴミ箱に叩き込んだあとでも持ち主を裏切り続ける  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/01/2019-01-30-cheap-internet-of-things-gadgets-betray-you-even-after-you-toss-them-in-the-trash/)
+    - [Apple、スパイ活動制裁の後Facebookの社内アプリを復活  |  TechCrunch Japan](https://techcrunch.com/2019/01/31/mess-with-the-cook/)
+- [Amazonのただでさえ透明でない透明性レポートがいっそう不透明になった  |  TechCrunch Japan](https://techcrunch.com/2019/01/31/amazon-government-data-demands/)
+- [安物のIoT機器は、たとえゴミ箱に叩き込んだあとでも持ち主を裏切り続ける  |  TechCrunch Japan](https://techcrunch.com/2019/01/30/cheap-internet-of-things-gadgets-betray-you-even-after-you-toss-them-in-the-trash/)
 
 なんちうか，ネット・メディアは何かのキャンペーンでもやってるのかな（笑）
 

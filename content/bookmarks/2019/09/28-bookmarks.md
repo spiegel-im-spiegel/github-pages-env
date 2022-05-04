@@ -23,12 +23,12 @@ pageType = "text"
 
 - [ISP Column - September 2019](https://www.potaroo.net/ispcol/2019-09/secbgphard.html)
     - [ブログ: なぜ、BGPをセキュア化するのは、そんなに難しいのか?](https://okuranagaimo.blogspot.com/2019/09/bgp.html)
-- [開発ツール会社ChefのCEOが態度を急変、移民・関税執行局の契約を更新しないと発表  |  TechCrunch Japan](https://jp.techcrunch.com/2019/09/24/2019-09-23-chef-ceo-does-an-about-face-says-company-will-not-renew-ice-contract/)
+- [開発ツール会社ChefのCEOが態度を急変、移民・関税執行局の契約を更新しないと発表  |  TechCrunch Japan](https://techcrunch.com/2019/09/23/chef-ceo-does-an-about-face-says-company-will-not-renew-ice-contract/)
 
 ## セキュリティ＆プライバシー関連
 
 - [ダークウェブ上で取引される脆弱性情報について注意喚起――キヤノンが2019年上半期のマルウェアレポートを公開：EnterpriseZine（エンタープライズジン）](https://enterprisezine.jp/article/detail/12471)
-- [「ドローン黙示録」の到来を阻止するために  |  TechCrunch Japan](https://jp.techcrunch.com/2019/09/23/2019-09-22-our-motto-dronepocalypse-now/)
+- [「ドローン黙示録」の到来を阻止するために  |  TechCrunch Japan](https://techcrunch.com/2019/09/22/our-motto-dronepocalypse-now/)
     - [サウジ石油施設への攻撃はGCC諸国の脆弱性を露呈：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](https://www.fsight.jp/articles/-/45892)
 - [脆弱な設定のElasticsearchによるエクアドル全国民情報流出の可能性についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/09/21/063010)
 - [「銀行はパスワードの文字数制限を撤廃すべき」という主張を専門家はどう見ているのか？ - GIGAZINE](https://gigazine.net/news/20190923-banks-arbitrary-password-restrictions/)
@@ -39,8 +39,8 @@ pageType = "text"
 - [How Trump’s Ukraine Mess Entangled CrowdStrike | WIRED](https://www.wired.com/story/trump-ukraine-call-crowdstrike-dnc-russia/)
     - [ブログ: どのように、トランプのウクライナの窮地がCrowdStrikeを巻き込んだか?](https://okuranagaimo.blogspot.com/2019/09/crowdstrike.html)
 - [MIT Tech Review: ユーチューブに大規模な乗っ取り攻撃、インフルエンサーが被害](https://www.technologyreview.jp/nl/a-cybercriminal-group-is-hijacking-high-profile-youtube-channels/)
-- [悪名高いボットを疲弊させ活動意欲をくじくCloudflareの新プラン  |  TechCrunch Japan](https://jp.techcrunch.com/2019/09/25/2019-09-23-cloudflare-bot-fight-mode-climate-change/)
-- [Facebookの最新のフェイク、監督委員会を民主的な独立機関と思うなかれ  |  TechCrunch Japan](https://jp.techcrunch.com/2019/09/25/2019-09-21-meet-facebooks-latest-fake/)
+- [悪名高いボットを疲弊させ活動意欲をくじくCloudflareの新プラン  |  TechCrunch Japan](https://techcrunch.com/2019/09/23/cloudflare-bot-fight-mode-climate-change/)
+- [Facebookの最新のフェイク、監督委員会を民主的な独立機関と思うなかれ  |  TechCrunch Japan](https://techcrunch.com/2019/09/21/meet-facebooks-latest-fake/)
 - [GitHub、ソースコードの脆弱性解析ツールを展開するSemmle買収を発表 － Publickey](https://www.publickey1.jp/blog/19/githubsemmle.html)
 - [Amazonで発生した注文履歴の誤表示についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/09/27/071248)
 - [On Chinese "Spy Trains" - Schneier on Security](https://www.schneier.com/blog/archives/2019/09/on_chinese_spy_.html)
@@ -63,7 +63,7 @@ pageType = "text"
 - [Kafka開発元のConfluentに聞いた。エンタープライズ市場への道筋、大手クラウドとの現在の関係について － Publickey](https://www.publickey1.jp/blog/19/kafkaconfluent.html)
 - [最大32コアのAMD EPYCプロセッサを搭載、コストパフォーマンスを高めたハイパーコンバージドインフラ「HPE SimpliVity 325 Gen 10」、HPEが発表 － Publickey](https://www.publickey1.jp/blog/19/32amd_epychpe_simplivity_325_gen_10hpe.html)
 - [モンテカルロ法における境界条件の扱いについて - Qiita](https://qiita.com/kaityo256/items/cff8693a38fc084626ad)
-- [屋内外のあらゆる物を低帯域長距離無線で結ぶAmazon Sidewalkプロトコル  |  TechCrunch Japan](https://jp.techcrunch.com/2019/09/26/2019-09-25-amazon-sidewalk-is-a-new-long-range-wireless-network-for-your-stuff/)
+- [屋内外のあらゆる物を低帯域長距離無線で結ぶAmazon Sidewalkプロトコル  |  TechCrunch Japan](https://techcrunch.com/2019/09/25/amazon-sidewalk-is-a-new-long-range-wireless-network-for-your-stuff/)
 - [Google’s ‘Quantum Supremacy’ Isn’t the End of Encryption | WIRED](https://www.wired.com/story/googles-quantum-supremacy-isnt-end-encryption/)
     - [ブログ: Googleの「量子超越性」は暗号の終わりではない](https://okuranagaimo.blogspot.com/2019/09/google.html)
 - [Cloudflareと「Chrome Canary」がHTTP/3に対応--「Firefox」も間もなく - ZDNet Japan](https://japan.zdnet.com/article/35143184/)

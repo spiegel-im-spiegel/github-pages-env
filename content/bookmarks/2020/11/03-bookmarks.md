@@ -25,20 +25,20 @@ pageType = "text"
 
 - [Reverse-Engineering the Redactions in the Ghislaine Maxwell Deposition - Schneier on Security](https://www.schneier.com/blog/archives/2020/10/reverse-engineering-the-redactions-in-the-ghislaine-maxwell-deposition.html)
 - [原子力規制委員会への不正アクセスについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/10/28/120000)
-- [Dropbox出身者が問題だらけのVPNに終わりをもたらす  |  TechCrunch Japan](https://jp.techcrunch.com/2020/10/29/https-techcrunch-com-2020-10-28-twingate-series-a/)
+- [Dropbox出身者が問題だらけのVPNに終わりをもたらす  |  TechCrunch Japan](https://techcrunch.com/2020/10/28/twingate-series-a/)
 - [The NSA is Refusing to Disclose its Policy on Backdooring Commercial Products - Schneier on Security](https://www.schneier.com/blog/archives/2020/10/the-nsa-is-refusing-to-disclose-its-policy-on-backdooring-commercial-products.html)
 - [Tracking Users on Waze - Schneier on Security](https://www.schneier.com/blog/archives/2020/10/tracking-users-on-waze.html)
 - [「Netlogon」脆弱性（ZeroLogon）への対処を！ ～Microsoftが改めて警告 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1286239.html)
 - [Windows kernel zero-day vulnerability used in targeted attacks](https://www.bleepingcomputer.com/news/security/windows-kernel-zero-day-vulnerability-used-in-targeted-attacks/)
     - [Google discloses Windows zero-day exploited in the wild | ZDNet](https://www.zdnet.com/article/google-discloses-windows-zero-day-exploited-in-the-wild/)
-    - [Googleがいまだに悪用されているWindowsのゼロデイバグを公表  |  TechCrunch Japan](https://jp.techcrunch.com/2020/10/31/2020-10-30-google-microsoft-windows-bug-attack/)
+    - [Googleがいまだに悪用されているWindowsのゼロデイバグを公表  |  TechCrunch Japan](https://techcrunch.com/2020/10/30/google-microsoft-windows-bug-attack/)
 - [Oracle Security Alert - CVE-2020-14750](https://www.oracle.com/security-alerts/alert-cve-2020-14750.html) : WebLogic Server の脆弱性について警告
 - [9月は382件のDDoS攻撃を観測、「パスワード付きZIPファイル」で検知回避を狙う「Emotet」も～IIJ調査 - INTERNET Watch](https://internet.watch.impress.co.jp/docs/news/1286669.html)
 
 ## 天文関連
 
 - [NASA’s SOFIA Discovers Water on Sunlit Surface of Moon | NASA](https://www.nasa.gov/press-release/nasa-s-sofia-discovers-water-on-sunlit-surface-of-moon/)
-    - [NASAが月面の太陽光が当たる部分に水の存在を確認  |  TechCrunch Japan](https://jp.techcrunch.com/2020/10/27/2020-10-26-nasa-discovers-water-on-the-surface-of-the-sunlit-portion-of-the-moon/)
+    - [NASAが月面の太陽光が当たる部分に水の存在を確認  |  TechCrunch Japan](https://techcrunch.com/2020/10/26/nasa-discovers-water-on-the-surface-of-the-sunlit-portion-of-the-moon/)
     - [MIT Tech Review: 「月の水」に到達できる日は意外と近い？新研究で明らかに](https://www.technologyreview.jp/s/223347/water-on-the-moon-should-be-more-accessible-than-we-thought/)
 - [生まれたばかりの宇宙で成熟した銀河が急速に出現していた―アルマ望遠鏡による初期宇宙にある銀河の最大規模の探索― | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2020/20201028-alma.html)
 - [ニュース - アルマ望遠鏡、海王星の赤道に横たわる「シアン化水素」の帯を世界で初めて発見 - アルマ望遠鏡](https://alma-telescope.jp/news/neptune-202010)
@@ -89,7 +89,7 @@ pageType = "text"
 - [オープンソースな義足は人工器官の研究を促進するか - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20201026/opensource-bionicleg)
 - [2020年10月27日ニュース「マスクはやはり拡散や吸い込み量抑える 東大医科研が新型コロナウイルス使い初の検証」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2020/10/20201027_01.html) : 「ほとんど防ぐ」ならまだしも40%も素通しなら大した意味はないと思うのだが...
 - [「この位置にｐｒｉｎｔｆが無いとなぜか動かないんだ。」 - Qiita](https://qiita.com/fujitanozomu/items/8b7d9e4e51baf0764dfc)
-- [DropboxがWestern Digitalの高効率ディスクへの移行を開始  |  TechCrunch Japan](https://jp.techcrunch.com/2020/10/27/2020-10-26-dropbox-begins-shift-to-high-efficiency-western-digital-shingled-magnetic-recording-disks/)
+- [DropboxがWestern Digitalの高効率ディスクへの移行を開始  |  TechCrunch Japan](https://techcrunch.com/2020/10/26/dropbox-begins-shift-to-high-efficiency-western-digital-shingled-magnetic-recording-disks/)
 - [AMD、FPGA大手のXilinx買収を正式発表。データセンター向けプロセッサ分野で圧倒的なインテルを本格的に追撃 － Publickey](https://www.publickey1.jp/blog/20/amdfpgaxilinx.html)
 - [さくらインターネット 全サービスにおける Internet Explorer サポート終了のお知らせ | さくらインターネット](https://www.sakura.ad.jp/information/announcements/2020/10/29/1968205310/)
 - [You Can Now Sponsor CC’s Open Source Work on GitHub! - Creative Commons](https://creativecommons.org/2020/10/27/sponsor-cc-open-source-work-github/)

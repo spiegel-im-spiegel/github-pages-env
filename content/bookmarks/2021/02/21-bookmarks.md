@@ -33,7 +33,7 @@ pageType = "text"
 ## バベルのインターネット
 
 - [問題はビッグテックが免責されていることじゃあない、寡占こそが問題なんだ | P2Pとかその辺のお話R](https://p2ptk.org/monopoly/3244)
-- [Twitterがインド当局のさらなる警告を受け500以上のアカウントを停止  |  TechCrunch Japan](https://jp.techcrunch.com/2021/02/11/2021-02-09-twitter-takes-actions-on-over-500-accounts-in-india-amid-government-warning/)
+- [Twitterがインド当局のさらなる警告を受け500以上のアカウントを停止  |  TechCrunch Japan](https://techcrunch.com/2021/02/09/twitter-takes-actions-on-over-500-accounts-in-india-amid-government-warning/)
 
 ## セキュリティ＆プライバシー関連
 

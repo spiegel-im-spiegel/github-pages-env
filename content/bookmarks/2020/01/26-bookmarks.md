@@ -45,7 +45,7 @@ pageType = "text"
 - [MIT Tech Review: 加速する「原発離れ」、中国がとどめを刺す可能性](https://www.technologyreview.jp/s/116461/chinas-losing-its-taste-for-nuclear-power-thats-bad-news/)
 - [ユーザーエージェント（UA）文字列は時代遅れ？ ～「Google Chrome」で凍結・非推奨に - やじうまの杜 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1229968.html)
     - [User-Agent Client Hints](https://wicg.github.io/ua-client-hints/)
-- [InstagramがついにTikTokに敗北を認める  |  TechCrunch Japan](https://jp.techcrunch.com/2020/01/21/2020-01-18-igtv-button-gone/)
+- [InstagramがついにTikTokに敗北を認める  |  TechCrunch Japan](https://techcrunch.com/2020/01/18/igtv-button-gone/)
 - [aozorablog » 青空文庫 2018年-2019年の年間アクセス増率分析](https://www.aozora.gr.jp/aozorablog/?p=4342)
 - [「MariaDB Platform X4」正式リリース。OLTPとOLAP統合をさらに発展、Amazon S3などのオブジェクトストレージにカラム型データベースを保存 － Publickey](https://www.publickey1.jp/blog/20/mariadb_platform_x4oltpolapamazon_s3.html)
 - [MIT Tech Review: 「ほぼ消えた」はずの強力な温室効果ガス、過去最高を記録](https://www.technologyreview.jp/nl/theres-been-a-huge-spike-in-one-of-the-worlds-most-potent-greenhouse-gases/)

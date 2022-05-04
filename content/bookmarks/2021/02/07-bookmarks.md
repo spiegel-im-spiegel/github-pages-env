@@ -43,7 +43,7 @@ pageType = "text"
 - [マイクロソフト、Linux用マルウェア対策ツールの強化版「Microsoft Defender for Linux EDR」正式版リリース。Linuxサーバ上の怪しい動作などを検出可能に － Publickey](https://www.publickey1.jp/blog/21/linuxmicrosoft_defender_for_linux_edrlinux.html)
 - [GitHub - anmitsu/goful: Goful is a CUI file manager written in Go.](https://github.com/anmitsu/goful)
 - [Apache Tomcatの脆弱性（CVE-2021-24122）に関する注意喚起](https://www.jpcert.or.jp/at/2021/at210002.html)
-- [プライバシーポリシーへの懸念で欧米で人気のSignalとTelegramは中国国内でも（いまのところ）拡大中  |  TechCrunch Japan](https://jp.techcrunch.com/2021/01/18/2021-01-17-telegram-and-signal-china/)
+- [プライバシーポリシーへの懸念で欧米で人気のSignalとTelegramは中国国内でも（いまのところ）拡大中  |  TechCrunch Japan](https://techcrunch.com/2021/01/17/telegram-and-signal-china/)
 - [NSAが社内ネットワークでのDoHの利用に警告 - ZDNet Japan](https://japan.zdnet.com/article/35165166/)
 - [NECのWi-Fiルータ「Aterm」シリーズに複数の脆弱性 | TECH+](https://news.mynavi.jp/article/20210122-1666715/)
 - [Kindle端末にクレジットカードを悪用される脆弱性  - PC Watch](https://pc.watch.impress.co.jp/docs/news/1302379.html)

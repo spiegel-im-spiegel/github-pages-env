@@ -83,7 +83,7 @@ pageType = "text"
 - [新「Microsoft Edge」と「Google Chrome」がマイナンバーカード方式によるe-Tax送信に対応 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1283759.html)
 - [アトラシアン、今後はクラウドサービスにフォーカス。買い切り型のソフトウェアライセンスは販売終了と発表 － Publickey](https://www.publickey1.jp/blog/20/post_278.html)
 - [凸版印刷・NICT・QunaSys・QunaSys・ISARAが量子セキュアクラウド技術の確立で連携  |  TechCrunch Japan](https://jp.techcrunch.com/2020/10/19/quantum-secure-cloud-technology/)
-- [Armの買収に伴ってNVIDIAが医学研究に特化したUKスーパーコンピュータの開発を発表  |  TechCrunch Japan](https://jp.techcrunch.com/2020/10/19/2020-10-05-as-it-closes-in-on-arm-nvidia-announces-uk-supercomputer-dedicated-to-medical-research/)
+- [Armの買収に伴ってNVIDIAが医学研究に特化したUKスーパーコンピュータの開発を発表  |  TechCrunch Japan](https://techcrunch.com/2020/10/05/as-it-closes-in-on-arm-nvidia-announces-uk-supercomputer-dedicated-to-medical-research/)
 - [Which Programming Languages Use the Least Electricity? – The New Stack](https://thenewstack.io/which-programming-languages-use-the-least-electricity/)
     - [ブログ: 最も電力を使わないプログラミング言語は?](https://okuranagaimo.blogspot.com/2020/10/blog-post_19.html)
 - [新しい「Edge」をアプリに組み込める ～Win32 C/C++向けの「WebView2」が一般公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1283885.html)
@@ -100,4 +100,4 @@ pageType = "text"
 - [「1万時間」は熱意の秤｜塚本 牧生｜note](https://note.com/tsukamoto/n/ncb95be8b8b3c) : 「1万時間の法則」なるものにかつての「人月神話」と同じ匂いを感じる
 - [.NET Frameworkから.NET Coreへの移植を支援する「Porting Assistant for .NET」を、AWSがオープンソースとして公開 － Publickey](https://www.publickey1.jp/blog/20/awsnet_frameworknet_coreporting_assistant_for_net.html)
 - [PowerShellでGUIDを生成する](https://tech.la-fra.com/2018/06/30/post-86/)
-- [電子楽器テルミン誕生100周年を記念してモーグから史上最も美しいモデル「Claravox Centennial」登場  |  TechCrunch Japan](https://jp.techcrunch.com/2020/10/23/2020-10-22-for-the-theremins-100th-anniversary-moog-unveils-the-gorgeous-claravox-centennial/)
+- [電子楽器テルミン誕生100周年を記念してモーグから史上最も美しいモデル「Claravox Centennial」登場  |  TechCrunch Japan](https://techcrunch.com/2020/10/22/for-the-theremins-100th-anniversary-moog-unveils-the-gorgeous-claravox-centennial/)

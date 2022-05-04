@@ -51,7 +51,7 @@ pageType = "text"
 - [エストニアで発生した顔写真データの違法ダウンロードについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2021/08/06/063000)
 - [Webスケールの脆弱性調査が可能なオープンソースツール「WARCannon」が公開：Black Hat USA 2021 - ＠IT](https://atmarkit.itmedia.co.jp/ait/articles/2108/06/news050.html)
 - [警視庁職員の不正アクセス事案についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2021/08/07/063000)
-- [アップルがメッセージアプリで送受信される性的な画像を検知し子どもと親に警告する新技術を発表  |  TechCrunch Japan](https://jp.techcrunch.com/2021/08/07/2021-08-05-new-apple-technology-will-warn-parents-and-children-about-sexually-explicit-photos-in-messages/)
+- [アップルがメッセージアプリで送受信される性的な画像を検知し子どもと親に警告する新技術を発表  |  TechCrunch Japan](https://techcrunch.com/2021/08/05/new-apple-technology-will-warn-parents-and-children-about-sexually-explicit-photos-in-messages/)
 - [「シン・テレワークシステム」にHTML5版 ～MacやChromebookからもWindowsをリモート操作可能に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1342682.html) : 遠隔操作はセキュリティ的に鬼門だと思うのだが...
 
 ## 知財関連
@@ -116,7 +116,7 @@ pageType = "text"
 - [GitHub - IBM/plex: The package of IBM’s typeface, IBM Plex.](https://github.com/IBM/plex) : 日本語フォント登場
 - [Google Cloud、オンプレミスのAnthos上のWindows Server Containerサポートを発表、プレビュー開始 － Publickey](https://www.publickey1.jp/blog/21/google_cloudanthoswindows_server_container.html)
 - [円周率を求める単純抽出のモンテカルロ法をちょっといじると精度がよくなるという話をしました...](https://twitter.com/nobucshirai/status/1420157656375828480)
-- [ついにテスラの太陽電池・エネルギー貯蔵事業が売上原価を超える、売上げ約882.6億円  |  TechCrunch Japan](https://jp.techcrunch.com/2021/07/27/2021-07-26-teslas-solar-and-energy-storage-business-rakes-in-810m-finally-exceeds-cost-of-revenue/)
+- [ついにテスラの太陽電池・エネルギー貯蔵事業が売上原価を超える、売上げ約882.6億円  |  TechCrunch Japan](https://techcrunch.com/2021/07/26/teslas-solar-and-energy-storage-business-rakes-in-810m-finally-exceeds-cost-of-revenue/)
 - [「パトレイバー」ACKS新商品が登場 - アキバ総研](https://akiba-souken.com/article/51932/)
 - [GitHubリポジトリ連携で画像をアップロードする方法](https://zenn.dev/zenn/articles/deploy-github-images)
 - [レノボ13型Androidタブ「Yoga Tab 13」の日本版が8万7780円前後で登場、11型モデルも4万2900円前後で同時発売  |  TechCrunch Japan](https://jp.techcrunch.com/2021/07/29/lenovo-yoga-tab-13-11-japan/)
@@ -125,12 +125,12 @@ pageType = "text"
 - [データベースを操作できるフリーのGUIツール](https://engineer-milione.com/tips/free-db-gui-tool.html)
   - [Navicat for PostgreSQL | PostgreSQL のための強力な管理ツール](https://jp.navicat.com/products/navicat-for-postgresql) : 有料
   - [Execute Query](http://executequery.org/index.php)
-- [半導体不足解消と新車需要によりフォードは2021年の利益増加を予想  |  TechCrunch Japan](https://jp.techcrunch.com/2021/07/31/2021-07-28-ford-expects-semiconductor-rebound-new-vehicle-demand-to-increase-2021-profits/)
-- [古いAmazon Kindleはもうすぐ3Gネットワーク接続できなくなる  |  TechCrunch Japan](https://jp.techcrunch.com/2021/07/30/2021-07-29-old-amazon-kindle-devices-will-soon-lose-3g-access/)
+- [半導体不足解消と新車需要によりフォードは2021年の利益増加を予想  |  TechCrunch Japan](https://techcrunch.com/2021/07/28/ford-expects-semiconductor-rebound-new-vehicle-demand-to-increase-2021-profits/)
+- [古いAmazon Kindleはもうすぐ3Gネットワーク接続できなくなる  |  TechCrunch Japan](https://techcrunch.com/2021/07/29/old-amazon-kindle-devices-will-soon-lose-3g-access/)
 - [Fastly、JavaScriptエンジンをWebAssemblyで実装。CDNエッジのサーバレス環境「Compute@Edge」でJavaScriptサポート発表（訂正済み） － Publickey](https://www.publickey1.jp/blog/21/fastlyjavascriptwebassemblycdncomputeedge.html)
 - [マテリアルデザインを簡潔に記述できる「Jetpack Compose」がバージョン1.0に到達、本番環境で安心して利用可能に － Publickey](https://www.publickey1.jp/blog/21/jetpack_compose10.html)
 - [Red HatとNutanixが戦略的提携を発表。Nutanix上でRed Hat OpenShiftが優先的なKubernetes環境に － Publickey](https://www.publickey1.jp/blog/21/red_hatnutanixnutanixred_hat_openshiftkubernetes.html)
-- [Swarmが初心者でも扱えるIoT用衛星通信デバイスのキットを発売、約5.5万円  |  TechCrunch Japan](https://jp.techcrunch.com/2021/08/03/2021-07-29-swarm-debuts-499-evaluation-kit-for-consumers-and-tinkerers/) : 今のところ評価用の試作機らしい
+- [Swarmが初心者でも扱えるIoT用衛星通信デバイスのキットを発売、約5.5万円  |  TechCrunch Japan](https://techcrunch.com/2021/07/29/swarm-debuts-499-evaluation-kit-for-consumers-and-tinkerers/) : 今のところ評価用の試作機らしい
 - [js13kGames - HTML5 and JavaScript Game Development Competition in just 13 kilobytes](https://js13kgames.com/)
 - [Webアクション「部屋裏のバイテン」第16話 : ぽじとろんの竹本泉観察記](https://positron.exblog.jp/32387875/)
 - [ハッカーのたのしみ―本物のプログラマはいかにして問題を解くか | ウォーレン,ジュニア,ヘンリー・S., Warren,Jr.,Henry S., 徹, 滝沢, 浩, 玉井, 貢, 鈴木, 英夫, 赤池, 毅, 葛, 順久, 藤波 |本 | 通販 | Amazon](https://www.amazon.co.jp/%E3%83%8F%E3%83%83%E3%82%AB%E3%83%BC%E3%81%AE%E3%81%9F%E3%81%AE%E3%81%97%E3%81%BF%E2%80%95%E6%9C%AC%E7%89%A9%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%81%AF%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%95%8F%E9%A1%8C%E3%82%92%E8%A7%A3%E3%81%8F%E3%81%8B-%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2-%E3%83%98%E3%83%B3%E3%83%AA%E3%83%BC%E3%83%BBS-%E3%82%A6%E3%82%A9%E3%83%BC%E3%83%AC%E3%83%B3/dp/4434046683) : 第2版の翻訳版はないらしい

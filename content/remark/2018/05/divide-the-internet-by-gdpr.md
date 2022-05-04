@@ -30,7 +30,7 @@ Kindle もリージョン・ブロックがかかっている。
 
 一方で，もっとありふれてるのが「利用規約に文句があるなら利用を止めてください」である。
 
-- [GDPR施行、“同意の強制”でさっそくFacebookとGoogleに対し初の提訴  |  TechCrunch Japan](https://jp.techcrunch.com/2018/05/26/2018-05-25-facebook-google-face-first-gdpr-complaints-over-forced-consent/)
+- [GDPR施行、“同意の強制”でさっそくFacebookとGoogleに対し初の提訴  |  TechCrunch Japan](https://techcrunch.com/2018/05/25/facebook-google-face-first-gdpr-complaints-over-forced-consent/)
 
 まぁ，これも真理かな。
 
@@ -47,7 +47,7 @@ Kindle もリージョン・ブロックがかかっている。
 
 ## ブックマーク
 
-- [ザッカーバーグはどうやら欧州で味方をつくれなかったようだ  |  TechCrunch Japan](https://jp.techcrunch.com/2018/05/24/2018-05-22-zuckerberg-didnt-make-any-friends-in-europe-today/)
+- [ザッカーバーグはどうやら欧州で味方をつくれなかったようだ  |  TechCrunch Japan](https://techcrunch.com/2018/05/22/zuckerberg-didnt-make-any-friends-in-europe-today/)
 - [GDPRの次は「ePrivacy Regulation」──FacebookやGoogleが警戒する規則とは - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1805/29/news075.html)
 - [欧州で施行された「GDPR」は、あらゆる企業の経済活動に変化を迫る｜WIRED.jp](https://wired.jp/2018/05/29/gdpr-will-change-the-web-and-more/)
 - [個人情報を巡る新たな「冷戦」とデータ経済の行方：「GDPR：データとインターネット〜EUが描く未来」第7回｜WIRED.jp](https://wired.jp/series/gdpr/07_data-wars/)

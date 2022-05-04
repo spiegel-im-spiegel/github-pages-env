@@ -65,7 +65,7 @@ tags = [ "character", "unicode", "calendar", "engineering" ]
 
 - [GitHub - 1l0/sumeragi: Japanese calendar](https://github.com/1l0/sumeragi) : 皇紀や元号を出力する Go 言語パッケージ
 - [Unicode 12.0正式版が登場。日本語では小文字の「ゐ」「ゑ」「を」「ヰ」「ヱ」「ヲ」「ン」が追加。新元号が発表され次第、次の12.1で新元号キャラクタを追加 － Publickey](https://www.publickey1.jp/blog/19/unicode_120121.html)
-- [日本の新しい元号がインターネットをほんの少し混乱させた理由  |  TechCrunch Japan](https://jp.techcrunch.com/2019/04/03/2019-04-02-how-japans-new-imperial-era-broke-the-internet-in-a-very-tiny-way/)
+- [日本の新しい元号がインターネットをほんの少し混乱させた理由  |  TechCrunch Japan](https://techcrunch.com/2019/04/02/how-japans-new-imperial-era-broke-the-internet-in-a-very-tiny-way/)
 - [Adobe、新元号“令和”の合字を追加した「源ノ角ゴシック」v2.001をリリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1179218.html)
 - [情報処理推進機構、新元号“令和”の合字に対応した「IPAexフォント」v004.01を公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1182604.html)
 - [新元号“令和”の合字に対応した無料の明朝体フォント「IPAmj明朝フォント」v006.01 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1187710.html)

@@ -106,7 +106,7 @@ Amazon Drive の “send-to-kindle” フォルダにぶち込めば楽々♪
 
 人工知能「B」は哲学者が言うところの「[強い人工知能]({{< ref "/remark/2017/09/the-myth-of-the-singularity.md" >}} "『シンギュラリティの神話』を読む")」である[^sm1]。
 
-[^sm1]: 「[Spiegelさんへの回答。](http://d.hatena.ne.jp/ced/20171015/1508027814 "Spiegelさんへの回答。 - 雑記帳")」で指摘していただいて気がついたけど，この記事では「スマートな機械」と「強い人工知能」を対置するように記述してしまっているが，哲学的には「強い人工知能」に対置されるのは「弱い人工知能（＝そもそもの意味での人工知能）」となる。私が「スマートな機械」と書くのはビジネス用語としての「AI」に対する強烈な皮肉である（参考：[「AIを搭載」は「全て自然」同様の技術的ナンセンスだ | TechCrunch Japan](https://jp.techcrunch.com/2017/01/11/20170110ai-powered-is-techs-meaningless-equivalent-of-all-natural/)）
+[^sm1]: 「[Spiegelさんへの回答。](http://d.hatena.ne.jp/ced/20171015/1508027814 "Spiegelさんへの回答。 - 雑記帳")」で指摘していただいて気がついたけど，この記事では「スマートな機械」と「強い人工知能」を対置するように記述してしまっているが，哲学的には「強い人工知能」に対置されるのは「弱い人工知能（＝そもそもの意味での人工知能）」となる。私が「スマートな機械」と書くのはビジネス用語としての「AI」に対する強烈な皮肉である（参考：[「AIを搭載」は「全て自然」同様の技術的ナンセンスだ | TechCrunch Japan](https://techcrunch.com/2017/01/10/ai-powered-is-techs-meaningless-equivalent-of-all-natural/)）
 
 {{< fig-quote title="草薙素子は何人いるか？" link="http://d.hatena.ne.jp/ced/20171010/1507615755" >}}
 <q>「B」には日本国籍と住民票が紐づけられ、人間と同様に所有権を持ち、納税の義務がある。 [...] この観点では、「個人」としての「B」は国家があるから定義されるのであって、国家の先に(a prioriに)「個人」があるわけではない。</q>
@@ -159,7 +159,7 @@ Blockchain の最大の特徴は P2P (Peer-to-Peer) ネットワーク上に遍�
 
 [^bc1]: ここでは Bitcoin の Blockchain を想定する。 Blockchain 自体はすでに Bitcoin 固有の技術というわけではないためこの想定には無理があるが，やはり Blockchain を最大限に特徴づけている実装は Bitcoin だろうということで。
 
-- [ギリシャがユーロを捨ててBitcoinに切り替えてはいけない理由 | TechCrunch Japan](https://jp.techcrunch.com/2015/03/03/20150228why-greece-should-not-switch-to-bitcoin/)
+- [ギリシャがユーロを捨ててBitcoinに切り替えてはいけない理由 | TechCrunch Japan](https://techcrunch.com/2015/02/28/why-greece-should-not-switch-to-bitcoin/)
 
 「[グリゴリの捕縛]」ではインターネットについて
 

@@ -95,7 +95,7 @@ pageType = "text"
 - [［速報］Google、目の前に相手が実在するかのような「Project Starline」発表。精細な3Dモデルのリアルタイム伝送と裸眼立体視で、Google I/O 2021 － Publickey](https://www.publickey1.jp/blog/21/googleproject_starline3dgoogle_io_2021.html)
 - [GitHub Artifact Exporter open source release | The GitHub Blog](https://github.blog/2021-05-18-github-artifact-exporter-open-source-release/)
 - [［速報］Google、1エクサフロップを超える性能を持つ「TPU v4」発表、Google史上最高性能のシステム。Google I/O 2021 － Publickey](https://www.publickey1.jp/blog/21/google1tpu_v4google.html)
-- [グーグルがRSSを復活させる  |  TechCrunch Japan](https://jp.techcrunch.com/2021/05/20/2021-05-19-undead-again-google-brings-back-rss/) : 不要w
+- [グーグルがRSSを復活させる  |  TechCrunch Japan](https://techcrunch.com/2021/05/19/undead-again-google-brings-back-rss/) : 不要w
 - [Introducing Site Isolation in Firefox - Mozilla Security Blog](https://blog.mozilla.org/security/2021/05/18/introducing-site-isolation-in-firefox/)
   - [「Firefox」にも新しいサイト分離アーキテクチャー「Fission」が導入へ - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1325423.html)
 - [グーグルのアプリ開発プラットフォーム「Firebase」に多数のアップデート - ZDNet Japan](https://japan.zdnet.com/article/35171043/)

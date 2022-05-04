@@ -67,7 +67,7 @@ title = "2017-05-02 のブックマーク"
 - [数学ガールの結城浩先生に会ってきたよ！──わかばちゃんが行くオフィス訪問マンガ｜CodeIQ MAGAZINE](https://codeiq.jp/magazine/2017/04/51074/)
 - [アトラシアン、Gitクライアント「SourceTree for Windows 2.0」リリース。UI改善、高速化、Git Virtual File Systemサポートなど － Publickey](http://www.publickey1.jp/blog/17/gitsourcetree_for_windows_20uigit_virtual_file_system.html)
 - [マイクロソフト、「TypeScript 2.3」をリリース。コメント付きJavaScriptをTypeScriptで型チェック可能に － Publickey](http://www.publickey1.jp/blog/17/typescript_23javascripttypescript.html)
-- [AppleがQualcommへのロイヤルティ支払いを停止 | TechCrunch Japan](https://jp.techcrunch.com/2017/04/29/20170428apple-stops-paying-royalties-to-qualcomm/)
+- [AppleがQualcommへのロイヤルティ支払いを停止 | TechCrunch Japan](https://techcrunch.com/2017/04/28/apple-stops-paying-royalties-to-qualcomm/)
 - [新連載第1回：情報社会の未来を「発酵」に読む──「ドミニク チェンの醸され『発酵メディア』研究」｜WIRED.jp](http://wired.jp/series/ferment-media-research/01_microbes/)
 - [Amazon.com、AWS好調で予測を上回る増収増益 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1704/28/news067.html)
 - [私が書いた最速のハッシュテーブル – PART 3 | コンピュータサイエンス | POSTD](http://postd.cc/i-wrote-the-fastest-hashtable-3/)

@@ -29,7 +29,7 @@ pageType = "text"
 
 - [メタバースはディストピアの悪夢です。より良い現実の構築に焦点を当てましょう。 – Niantic](https://nianticlabs.com/blog/real-world-metaverse/)
 
-これ，8月に書かれた記事らしいんだけど，現時点で見ると[社会的追求から逃れるために社名を変えた某企業](https://jp.techcrunch.com/2021/10/29/2021-10-28-facebook-changes-its-corporate-branding-to-meta/ "フェイスブックが「Meta」に社名変更、メタバースを中核事業に | TechCrunch Japan")に対する当てつけにも見えて面白い（笑）
+これ，8月に書かれた記事らしいんだけど，現時点で見ると[社会的追求から逃れるために社名を変えた某企業](https://techcrunch.com/2021/10/28/facebook-changes-its-corporate-branding-to-meta/ "フェイスブックが「Meta」に社名変更、メタバースを中核事業に | TechCrunch Japan")に対する当てつけにも見えて面白い（笑）
 
 まぁ，ハビタットとか Second Life とか見てきた側としては企業主導のメタバース（metaverse）に夢見る年頃ではなくなってしまったんだよなぁ。
 メタバースで長く続いてるのって Minecraft くらいじゃないの？

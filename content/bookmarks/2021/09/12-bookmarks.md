@@ -39,7 +39,7 @@ pageType = "text"
 - [Microsoft Windows 製品の Microsoft MSHTML の脆弱性対策について(CVE-2021-40444)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20210908-ms.html)
   - [Microsoft MSHTMLの脆弱性（CVE-2021-40444）に関する注意喚起](https://www.jpcert.or.jp/at/2021/at210038.html)
 - [Ghostscriptnにリモードコード実行の脆弱性、概念実証コードが公開 | TECH+](https://news.mynavi.jp/article/20210909-1967803/)
-- [ツイッターが「ブロックせずにフォロワー解除」する機能をテスト中  |  TechCrunch Japan](https://jp.techcrunch.com/2021/09/09/2021-09-08-twitter-tests-a-safety-feature-on-web-to-remove-followers-without-blocking-them/)
+- [ツイッターが「ブロックせずにフォロワー解除」する機能をテスト中  |  TechCrunch Japan](https://techcrunch.com/2021/09/08/twitter-tests-a-safety-feature-on-web-to-remove-followers-without-blocking-them/)
 - [GitHub security update: Vulnerabilities in tar and @npmcli/arborist | The GitHub Blog](https://github.blog/2021-09-08-github-security-update-vulnerabilities-tar-npmcli-arborist/)
 - [Bloomberg - Are you a robot?](https://www.bloomberg.com/tosv2.html?vid=&uuid=d838d613-12f9-11ec-8906-78686a546762&url=L25ld3MvZmVhdHVyZXMvMjAyMS0wOS0wMi9qdW5pcGVyLW15c3RlcnktYXR0YWNrcy10cmFjZWQtdG8tcGVudGFnb24tcm9sZS1hbmQtY2hpbmVzZS1oYWNrZXJz)
 
@@ -102,7 +102,7 @@ pageType = "text"
   - [新卒向け研修資料「テスト文字列に"うんこ"と入れるな」を公開しました | 株式会社インフィニットループ技術ブログ](https://www.infiniteloop.co.jp/blog/2021/09/unko/)
 - [【アップデート解説】Welcome to Flutter 2.5 !!](https://zenn.dev/umi_mori/articles/0a05161ad6be53)
 - [「部屋裏のバイテン」第3巻 : ぽじとろんの竹本泉観察記](https://positron.exblog.jp/32426499/)
-- [米PayPalが日本のペイディを3000億円で買収、アジアで「BNPL」後払い市場に参入  |  TechCrunch Japan](https://jp.techcrunch.com/2021/09/09/2021-09-08-paypal-acquires-japans-paidy-for-2-7b-to-crack-the-buy-now-pay-later-market-in-asia/)
+- [米PayPalが日本のペイディを3000億円で買収、アジアで「BNPL」後払い市場に参入  |  TechCrunch Japan](https://techcrunch.com/2021/09/08/paypal-acquires-japans-paidy-for-2-7b-to-crack-the-buy-now-pay-later-market-in-asia/)
 - [レノボが12.6インチAndroidタブ「Lenovo Tab P12 Pro」発表、120Hz有機EL採用で重量565g  |  TechCrunch Japan](https://jp.techcrunch.com/2021/09/09/lenovo-tab-new-flagship-p12-pro-amoled/)
 - [When It Comes to Antitrust, It’s All Connected | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2021/08/when-it-comes-antitrust-its-all-connected)
   - [すべては反トラストに通ず：水平方向の独占と垂直方向の独占 | P2Pとかその辺のお話R](https://p2ptk.org/monopoly/antitrust/3371)

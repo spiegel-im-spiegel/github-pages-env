@@ -28,12 +28,12 @@ pageType = "text"
     - [JPRS社SSLサーバー証明書に関する再発行対応について | さくらインターネット](https://www.sakura.ad.jp/information/announcements/2020/08/12/1968204616/)
 - [スマートフォン10億台以上に搭載されているQualcomm製Snapdragonチップに400以上の脆弱性 - GIGAZINE](https://gigazine.net/news/20200811-qualcomm-snapdragon-achilles/)
 - [The Quest to Liberate $300,000 of Bitcoin From an Old Zip File | WIRED](https://www.wired.com/story/quest-to-liberate-bitcoin-from-old-zip-file/)
-- [TikTokが昨年末までAndroidユーザーのMACアドレスを追跡していた  |  TechCrunch Japan](https://jp.techcrunch.com/2020/08/12/2020-08-12-tiktok-found-to-have-tracked-android-users-mac-addresses-until-late-last-year/)
-- [TikTokのユーザーデータ取り扱いについてフランスの監視当局が調査開始  |  TechCrunch Japan](https://jp.techcrunch.com/2020/08/12/2020-08-11-tiktok-is-being-investigated-by-frances-data-watchdog/)
+- [TikTokが昨年末までAndroidユーザーのMACアドレスを追跡していた  |  TechCrunch Japan](https://techcrunch.com/2020/08/12/tiktok-found-to-have-tracked-android-users-mac-addresses-until-late-last-year/)
+- [TikTokのユーザーデータ取り扱いについてフランスの監視当局が調査開始  |  TechCrunch Japan](https://techcrunch.com/2020/08/11/tiktok-is-being-investigated-by-frances-data-watchdog/)
 - [UAE Hack and Leak Operations - Schneier on Security](https://www.schneier.com/blog/archives/2020/08/uae_hack_and_le.html)
 - [Apache Struts 2 の脆弱性 (S2-059、S2-060) に関する注意喚起](https://www.jpcert.or.jp/at/2020/at200034.html)
 - [Amazon Alexaに個人情報を取得できる脆弱性  - PC Watch](https://pc.watch.impress.co.jp/docs/news/1270864.html)
-- [Instagramがユーザー削除済み写真やメッセージをサーバーに長期保存していたことが判明、発見者に約64万円の報奨金  |  TechCrunch Japan](https://jp.techcrunch.com/2020/08/14/2020-08-13-instagram-delete-photos-messages-servers/)
+- [Instagramがユーザー削除済み写真やメッセージをサーバーに長期保存していたことが判明、発見者に約64万円の報奨金  |  TechCrunch Japan](https://techcrunch.com/2020/08/13/instagram-delete-photos-messages-servers/)
 - [note、利用者のIPアドレスが露出してしまう不具合で謝罪　著名人の「特定騒動」にも発展する事態に (1/2) - ねとらぼ](https://nlab.itmedia.co.jp/nl/articles/2008/14/news091.html)
 
 ## 天文関連

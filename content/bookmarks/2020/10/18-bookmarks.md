@@ -25,7 +25,7 @@ pageType = "text"
 
 ## バベルのインターネット
 
-- [Facebookが方針転換してホロコースト否定コンテンツを禁止へ  |  TechCrunch Japan](https://jp.techcrunch.com/2020/10/13/2020-10-12-facebook-in-a-reversal-will-now-ban-holocaust-denial-content-under-its-hate-speech-policy/)
+- [Facebookが方針転換してホロコースト否定コンテンツを禁止へ  |  TechCrunch Japan](https://techcrunch.com/2020/10/12/facebook-in-a-reversal-will-now-ban-holocaust-denial-content-under-its-hate-speech-policy/)
 
 ## セキュリティ＆プライバシー関連
 
@@ -33,7 +33,7 @@ pageType = "text"
 - [日本など7カ国、暗号化された通信へのバックドアをIT企業に要請 - ZDNet Japan](https://japan.zdnet.com/article/35160775/)
 - [Google Responds to Warrants for “About” Searches - Schneier on Security](https://www.schneier.com/blog/archives/2020/10/google-responds-to-warrants-for-about-searches.html)
 - [複数の Microsoft 社製品のサポート終了に伴う注意喚起：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/announce/win7_eos.html)
-- [オープンソースのブラウザーフィンガープリント技術の商用化を目指すFingerprintJSが4億円相当を調達  |  TechCrunch Japan](https://jp.techcrunch.com/2020/10/14/2020-10-13-commercializing-the-open-source-fingerprintjs-browser-fingerprinting-tech-nabs-chicago-entrepreneur-4m/)
+- [オープンソースのブラウザーフィンガープリント技術の商用化を目指すFingerprintJSが4億円相当を調達  |  TechCrunch Japan](https://techcrunch.com/2020/10/13/commercializing-the-open-source-fingerprintjs-browser-fingerprinting-tech-nabs-chicago-entrepreneur-4m/)
 - [LinkedInでの接触から始まった積水化学工業元社員の営業秘密情報持ち出しについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/10/15/180000)
 - [Attacks Aimed at Disrupting the Trickbot Botnet —  Krebs on Security](https://krebsonsecurity.com/2020/10/attacks-aimed-at-disrupting-the-trickbot-botnet/)
     - [US Cyber Command and Microsoft Are Both Disrupting TrickBot - Schneier on Security](https://www.schneier.com/blog/archives/2020/10/us-cyber-command-and-microsoft-are-both-disrupting-trickbot.html)
@@ -63,12 +63,12 @@ pageType = "text"
 ## その他
 
 - [一周回って、人間が読み書きする設定ファイルはJSONが良いと思った | フューチャー技術ブログ](https://future-architect.github.io/articles/20191001/index.html)
-- [ポルシェがガソリンエンジン車を持続可能なものにする合成燃料を研究中  |  TechCrunch Japan](https://jp.techcrunch.com/2020/10/10/2020-10-09-porsche-is-researching-synthetic-fuels-to-make-gas-powered-cars-sustainable/)
+- [ポルシェがガソリンエンジン車を持続可能なものにする合成燃料を研究中  |  TechCrunch Japan](https://techcrunch.com/2020/10/09/porsche-is-researching-synthetic-fuels-to-make-gas-powered-cars-sustainable/)
 - [「月色 Chainon」Short ver.／ももいろクローバーＺ with セーラームーン＆セーラーマーキュリー＆セーラーマーズ＆セーラージュピター＆セーラーヴィーナス - YouTube](https://www.youtube.com/watch?v=x3EzWzCH9LU)
 - [低価格デスクトップPCの代替になり得る--「Raspberry Pi 4」を見る - CNET Japan](https://japan.cnet.com/article/35160737/)
 - [シェルスクリプトマガジン連載　第１回　Red Hat Decision Manager](https://www.redhat.com/ja/engage/shell-script-magazine-vol-s-202007271119) : 気になるが個人ユーザはお呼びでないらしい
 - [android-password-store/Android-Password-Store: Android application compatible with ZX2C4's Pass command line application](https://github.com/android-password-store/Android-Password-Store)
-- [IBMがレガシーインフラ事業をスピンアウト、クラウド事業に全面的に舵を切る  |  TechCrunch Japan](https://jp.techcrunch.com/2020/10/11/2020-10-08-as-ibm-spins-out-legacy-infrastructure-management-biz-ceo-goes-all-in-on-the-cloud/)
+- [IBMがレガシーインフラ事業をスピンアウト、クラウド事業に全面的に舵を切る  |  TechCrunch Japan](https://techcrunch.com/2020/10/08/as-ibm-spins-out-legacy-infrastructure-management-biz-ceo-goes-all-in-on-the-cloud/)
 - [マイクロソフト、アプリストア10原則を発表--アップルとグーグルを暗に批判 - CNET Japan](https://japan.cnet.com/article/35160695/)
 - [藁人形論法と鋼鉄人形論法 – mhatta's mumbo jumbo](https://www.mhatta.org/wp/2020/10/11/straw-man-and-steel-man/)
 - [ブログ: WindowsをMicrosoft Linuxに置き換えたらどうなるのか?](https://okuranagaimo.blogspot.com/2020/10/windowsmicrosoftlinux.html)
@@ -76,7 +76,7 @@ pageType = "text"
 - [Kubernetesを分散ストレージのプラットフォームにする「Rook」、成熟したソフトウェアに到達したとしてCNCFがインキュベーションからの卒業を発表 － Publickey](https://www.publickey1.jp/blog/20/kubernetesrookcncf.html)
 - [耳のためにできること。JINSで買える骨伝導サングラスBose Framesを見てきた。｜塚本 牧生｜note](https://note.com/tsukamoto/n/n9b20cd660e74)
 - [KubernetesのPodやネットワークをわざと落としまくってカオスエンジニアリングのテストができる「Chaos Mesh」がバージョン1.0に到達 － Publickey](https://www.publickey1.jp/blog/20/kubernetespodchaos_mesh10.html)
-- [透明化を真剣に考えるなら広告産業はSDKをオープンソース化せよ  |  TechCrunch Japan](https://jp.techcrunch.com/2020/10/13/2020-10-12-if-the-ad-industry-is-serious-about-transparency-lets-open-source-our-sdks/)
+- [透明化を真剣に考えるなら広告産業はSDKをオープンソース化せよ  |  TechCrunch Japan](https://techcrunch.com/2020/10/12/if-the-ad-industry-is-serious-about-transparency-lets-open-source-our-sdks/)
 - [GitHub GraphQL API で自分が作成したリポジトリのリストを出す](https://zenn.dev/sogaoh/articles/2019_05_22_07_27-from-qrunch)
 - [「AWS Lambda Extensions」発表。AWS Lambdaにモニタリング用エージェントなどが組み込めるように － Publickey](https://www.publickey1.jp/blog/20/aws_lambda_extensions.html)
 - [インフラ自動化ツールのAnsibleでKubernetesクラスタの構成や運用管理を実現。Red HatがAdvanced Cluster Managementとの統合機能を発表 － Publickey](https://www.publickey1.jp/blog/20/ansiblekubernetesred_hatadvanced_cluster_management.html)

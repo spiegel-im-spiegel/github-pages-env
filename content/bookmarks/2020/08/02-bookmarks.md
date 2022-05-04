@@ -20,7 +20,7 @@ pageType = "text"
 ## セキュリティ＆プライバシー関連
 
 - [Images in Eye Reflections - Schneier on Security](https://www.schneier.com/blog/archives/2020/07/images_in_eye_r.html)
-- [中国・深圳で犬へのマイクロチップ埋め込みが義務化、費用は行政が負担  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/29/2020-07-28-all-dogs-in-shenzhen-china-will-get-microchipped-by-2020/)
+- [中国・深圳で犬へのマイクロチップ埋め込みが義務化、費用は行政が負担  |  TechCrunch Japan](https://techcrunch.com/2020/07/28/all-dogs-in-shenzhen-china-will-get-microchipped-by-2020/)
 - [デジサート、TLS/SSL証明書管理基盤を刷新--企業向けに順次展開 - ZDNet Japan](https://japan.zdnet.com/article/35157375/)
 - [Microsoft、ダウンロードセンターでの“SHA-1”コンテンツを8月3日に廃止 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1268039.html)
 - [The Age of Mass Surveillance Will Not Last Forever | WIRED](https://www.wired.com/story/the-age-of-mass-surveillance-will-not-last-forever/)
@@ -38,7 +38,7 @@ pageType = "text"
 - [APOD: 2020 July 29 - The Giants of Summer](https://apod.nasa.gov/apod/ap200729.html)
 - [大学生による【はやぶさ2】のカプセル研究プロジェクト始動！（Haya2 Radio Wave Pro 2020/06/22 公開） - クラウドファンディング READYFOR (レディーフォー)](https://readyfor.jp/projects/HAYA2RWRP)
 - [ニュース - アルマ望遠鏡、超新星1987Aで作られた中性子星の兆候を発見 - アルマ望遠鏡](https://alma-telescope.jp/news/sn1987a-202007)
-- [日本の宇宙開発スタートアップispaceが月着陸船「HAKUTO-R」の最終デザイン公開、2022年の初ミッションに向け  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/31/2020-07-30-ispace-reveals-the-final-design-of-its-lunar-lander-ahead-of-its-first-mission-to-the-moon-in-2022/)
+- [日本の宇宙開発スタートアップispaceが月着陸船「HAKUTO-R」の最終デザイン公開、2022年の初ミッションに向け  |  TechCrunch Japan](https://techcrunch.com/2020/07/30/ispace-reveals-the-final-design-of-its-lunar-lander-ahead-of-its-first-mission-to-the-moon-in-2022/)
 - [今の宇宙に残された、形成初期の銀河を発見 ―すばる望遠鏡と機械学習で銀河の酸素量の世界記録を更新― | 観測成果 | すばる望遠鏡](https://subarutelescope.org/jp/results/2020/07/31/2878.html)
 
 ## Linux または Ubuntu に関する話題
@@ -53,9 +53,9 @@ pageType = "text"
 - [この1年で「Desktop-as-a-Service」の市場規模がほぼ2倍に、リモートワークの拡大により。米ガートナーが予測 － Publickey](https://www.publickey1.jp/blog/20/1desktop-as-a-service2.html)
 - [aozorablog » タロットの絵解キ／剣の組（Ａ・Ｅ・ウェイト／大久保ゆう訳）](https://www.aozora.gr.jp/aozorablog/?p=4467)
 - [aozorablog » タロットの絵解キ／星の組（Ａ・Ｅ・ウェイト／大久保ゆう訳）](https://www.aozora.gr.jp/aozorablog/?p=4485)
-- [コンピュータビジョン界のRaspberry Piとなる「OpenCV AI Kit」が新登場  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/28/2020-07-14-opencv-ai-kit-aims-to-do-for-computer-vision-what-raspberry-pi-did-for-hobbyist-hardware/)
-- [グーグルは新型コロナによる在宅勤務を2021年6月末まで認める方針  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/28/2020-07-28-google-will-continue-to-let-employees-work-from-home-through-the-end-of-june-2021/)
-- [障がい者が開発段階から参加して使いやすい製品デザインを目指すFableプラットフォームとは？  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/28/2020-07-27-fable-aims-to-make-disability-inclusive-design-as-simple-as-a-service/)
+- [コンピュータビジョン界のRaspberry Piとなる「OpenCV AI Kit」が新登場  |  TechCrunch Japan](https://techcrunch.com/2020/07/14/opencv-ai-kit-aims-to-do-for-computer-vision-what-raspberry-pi-did-for-hobbyist-hardware/)
+- [グーグルは新型コロナによる在宅勤務を2021年6月末まで認める方針  |  TechCrunch Japan](https://techcrunch.com/2020/07/28/google-will-continue-to-let-employees-work-from-home-through-the-end-of-june-2021/)
+- [障がい者が開発段階から参加して使いやすい製品デザインを目指すFableプラットフォームとは？  |  TechCrunch Japan](https://techcrunch.com/2020/07/27/fable-aims-to-make-disability-inclusive-design-as-simple-as-a-service/)
 - [インメモリの高速データ処理基盤「Apache Arrow」がバージョン1.0に到達 － Publickey](https://www.publickey1.jp/blog/20/apache_arrow10.html)
 - [Android向けホーム画面アプリ「Microsoft Launcher」v6が一般公開、順次配信へ - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1265733.html)
     - [プレビュー版「Microsoft Launcher」は非推奨に ～移行措置として8月末まで利用可能 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1267648.html)

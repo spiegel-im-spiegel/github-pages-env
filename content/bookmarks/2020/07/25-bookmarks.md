@@ -16,7 +16,7 @@ pageType = "text"
 
 ## バベルのインターネット
 
-- [中国政府による香港への国安法適用に対するテクノロジー企業たちのそれぞれの対応  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/22/2020-07-12-china-roundup-hong-kong-data-control/)
+- [中国政府による香港への国安法適用に対するテクノロジー企業たちのそれぞれの対応  |  TechCrunch Japan](https://techcrunch.com/2020/07/12/china-roundup-hong-kong-data-control/)
 
 ## セキュリティ＆プライバシー関連
 
@@ -35,7 +35,7 @@ pageType = "text"
 - [「一カ月で1000個分類しようキャンペーン」8月1日スタート | blog_announcement_J | GALAXY CRUISE](https://galaxycruise.mtk.nao.ac.jp/announcements/20200701j.html)
 - [8億年前、月と地球を襲った小惑星シャワー — リソウ](https://resou.osaka-u.ac.jp/ja/research/2020/20200722_1)
 - [【研究成果・プレスリリース】大質量星が誕生している領域の化学組成と星の進化の過程 | 学習院大学](https://www.univ.gakushuin.ac.jp/about/pr/press/20200723release.html)
-- [中国初の探査車が天問1号ロケットの打ち上げ成功で火星に向かう  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/24/2020-07-23-chinas-first-mars-rover-is-en-route-to-the-red-planet-after-successful-launch-of-tianwen-1/)
+- [中国初の探査車が天問1号ロケットの打ち上げ成功で火星に向かう  |  TechCrunch Japan](https://techcrunch.com/2020/07/23/chinas-first-mars-rover-is-en-route-to-the-red-planet-after-successful-launch-of-tianwen-1/)
 
 ## 知財関連
 
@@ -60,13 +60,13 @@ pageType = "text"
 - [NTTネオメイト、「Backlog」でタスクを可視化--会議用の資料作成も不要に - ZDNet Japan](https://japan.zdnet.com/article/35157089/)
 - [マイクロソフト、「Universal Print」のパブリックプレビュー開始。プリンタサーバをクラウド化し、プリンタドライバのインストールを不要に － Publickey](https://www.publickey1.jp/blog/20/universal_print_1.html)
 - [「(HTML) + CSS」のみを使って、今「リアルな電卓」を作ってみた - Qiita](https://qiita.com/j5c8k6m8/items/4695ee12b35e9c14047e)
-- [Tencentと中国の科学者がディープラーニングを使用して新型コロナの重症化確率を予測  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/23/2020-07-21-tencent-coronavirus-prediction/)
+- [Tencentと中国の科学者がディープラーニングを使用して新型コロナの重症化確率を予測  |  TechCrunch Japan](https://techcrunch.com/2020/07/21/tencent-coronavirus-prediction/)
 - [ブログ: 数学者は素数の定理を証明することを決して止めない](https://okuranagaimo.blogspot.com/2020/07/blog-post_23.html)
-- [米国立科学財団が量子コンピュータ研究に約80億円を助成へ  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/23/2020-07-22-75m-in-federal-grants-will-fund-a-new-trio-of-quantum-institutes/)
-- [スナドラ865 Plus搭載のレノボ製ゲーミングスマホ、2基のバッテリや横画面水平カメラなどを搭載  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/23/2020-07-22-lenovo-brings-some-unique-features-to-its-new-gaming-phone/)
+- [米国立科学財団が量子コンピュータ研究に約80億円を助成へ  |  TechCrunch Japan](https://techcrunch.com/2020/07/22/75m-in-federal-grants-will-fund-a-new-trio-of-quantum-institutes/)
+- [スナドラ865 Plus搭載のレノボ製ゲーミングスマホ、2基のバッテリや横画面水平カメラなどを搭載  |  TechCrunch Japan](https://techcrunch.com/2020/07/22/lenovo-brings-some-unique-features-to-its-new-gaming-phone/)
 - [New Data on T Cells and the Coronavirus  |  In the Pipeline](https://blogs.sciencemag.org/pipeline/archives/2020/07/15/new-data-on-t-cells-and-the-coronavirus)
     - [ブログ: T細胞とコロナウイルスに関する新しいデータ](https://okuranagaimo.blogspot.com/2020/07/t.html)
 - [五島勉氏と人類滅亡と宮崎駿監督｜喜多野土竜｜note](https://note.com/mogura2001/n/n8d02b23edee9)
 - [もっともパワフルで拡張性のあるオープンソースWikiソフトウェアを謳うWiki.js - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20200724/wiki_js)
 - [本当に巨大テック企業は哲学者を雇っていたのか - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20200724/philosophers-in-tech-companies)
-- [広告売上減少のTwitterがサブスク導入の可能性を投資家に示唆  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/24/2020-07-23-after-ad-revenue-drop-twitter-tells-investors-its-eyeing-subscription-options/)
+- [広告売上減少のTwitterがサブスク導入の可能性を投資家に示唆  |  TechCrunch Japan](https://techcrunch.com/2020/07/23/after-ad-revenue-drop-twitter-tells-investors-its-eyeing-subscription-options/)

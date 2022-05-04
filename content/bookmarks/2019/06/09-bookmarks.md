@@ -22,24 +22,24 @@ pageType = "text"
 
 - [Effective Cybersecurity and Data Protection Legislation Should Protect Whistleblowers | Compliance and Enforcement](https://wp.nyu.edu/compliance_enforcement/2019/05/30/effective-cybersecurity-and-data-protection-legislation-should-protect-whistleblowers/)
     - [The Importance of Protecting Cybersecurity Whistleblowers - Schneier on Security](https://www.schneier.com/blog/archives/2019/06/the_importance_3.html)
-- [米国務省は入国ビザ申請にSNSアカウントまで求めはじめた  |  TechCrunch Japan](https://jp.techcrunch.com/2019/06/03/2019-06-01-u-s-state-department-begins-social-media-screening-for-nearly-all-visa-applicants/)
+- [米国務省は入国ビザ申請にSNSアカウントまで求めはじめた  |  TechCrunch Japan](https://techcrunch.com/2019/06/01/u-s-state-department-begins-social-media-screening-for-nearly-all-visa-applicants/)
 - [The Cost of Cybercrime - Schneier on Security](https://www.schneier.com/blog/archives/2019/06/the_cost_of_cyb_1.html)
 - [MIT Tech Review: 2048ビットRSA暗号は量子コンピューターでいつ破られるか？](https://www.technologyreview.jp/s/144702/how-a-quantum-computer-could-break-2048-bit-rsa-encryption-in-8-hours/)
-- [Firefoxがユーザーを追跡から護る機能を強化しパスワードマネージャーをデスクトップに導入  |  TechCrunch Japan](https://jp.techcrunch.com/2019/06/06/2019-06-04-firefox-gets-enhanced-tracking-protection-desktop-password-manager-and-more/)
+- [Firefoxがユーザーを追跡から護る機能を強化しパスワードマネージャーをデスクトップに導入  |  TechCrunch Japan](https://techcrunch.com/2019/06/04/firefox-gets-enhanced-tracking-protection-desktop-password-manager-and-more/)
     - [「Firefox」がサードパーティー製Cookieをデフォルトブロックへ ～v67.0.1をリリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1188522.html)
     - [Mozilla、「Firefox Lockwise」を発表 ～パスワードをよりスマートに管理 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1188402.html)
 - [MIT Tech Review: 相次ぐ半導体の脆弱性で 明るみになった パッチ「遅すぎる」問題](https://www.technologyreview.jp/s/145399/cybersecurity-flaws-in-chips-are-still-taking-too-long-to-fix/)
 - [Chinese Military Wants to Develop Custom OS - Schneier on Security](https://www.schneier.com/blog/archives/2019/06/chinese_militar.html)
 - [「プライバシー」について企業が押さえるべきポイント--ガートナーが解説 - ZDNet Japan](https://japan.zdnet.com/article/35138122/)
 - [マルウェア感染によるPayPayアカウントの不正利用についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/06/07/063000)
-- [アップルは子ども向けのiPhoneアプリの広告とサードパーティ製トラッカーを規制  |  TechCrunch Japan](https://jp.techcrunch.com/2019/06/08/2019-06-03-apple-kid-apps-trackers/)
-- [インド最大のビデオストリーミングサービスがセキュリティ欠陥のためSafariのサポートを停止  |  TechCrunch Japan](https://jp.techcrunch.com/2019/06/08/2019-06-07-hotstar-india-safari/)
+- [アップルは子ども向けのiPhoneアプリの広告とサードパーティ製トラッカーを規制  |  TechCrunch Japan](https://techcrunch.com/2019/06/03/apple-kid-apps-trackers/)
+- [インド最大のビデオストリーミングサービスがセキュリティ欠陥のためSafariのサポートを停止  |  TechCrunch Japan](https://techcrunch.com/2019/06/07/hotstar-india-safari/)
 - [iOS 12 Shortcut uses iPhone to record police during traffic stop - Business Insider](https://www.businessinsider.com/ios-12-shortcut-uses-iphone-to-record-police-during-traffic-stop-2018-10)
     - [iOS Shortcut for Recording the Police - Schneier on Security](https://www.schneier.com/blog/archives/2019/06/ios_shortcut_fo.html)
 
 ## 天文関連
 
-- [NASAは月に機材を運ぶ初めての民間企業を選出  |  TechCrunch Japan](https://jp.techcrunch.com/2019/06/03/2019-06-01-meet-the-first-private-companies-that-nasa-has-selected-to-deliver-payloads-to-the-moon/)
+- [NASAは月に機材を運ぶ初めての民間企業を選出  |  TechCrunch Japan](https://techcrunch.com/2019/06/01/meet-the-first-private-companies-that-nasa-has-selected-to-deliver-payloads-to-the-moon/)
 
 ## 知財関連
 
@@ -54,7 +54,7 @@ pageType = "text"
 
 ## その他
 
-- [台湾フォックスコンが中国ファーウェイ端末の生産ラインを一部停止  |  TechCrunch Japan](https://jp.techcrunch.com/2019/06/02/2019-06-01-foxconn-halts-production-lines-for-huawei-phones-according-to-reports/)
+- [台湾フォックスコンが中国ファーウェイ端末の生産ラインを一部停止  |  TechCrunch Japan](https://techcrunch.com/2019/06/01/foxconn-halts-production-lines-for-huawei-phones-according-to-reports/)
 - [Pivotal、OpenJDKディストリビューションやSpring Frameworkの商用サポートを含む「Pivotal Spring Runtime」リリース － Publickey](https://www.publickey1.jp/blog/19/pivotalopenjdkspring_frameworkpivotal_spring_runtime.html)
 - [NTPサーバと同期する「NTPクロック」に無線LAN＆電池駆動の新モデルが登場。配線不要で普通の掛け時計のように設置可能 － Publickey](https://www.publickey1.jp/blog/19/ntplan.html)
 - [「予想を超えて売れている」　超小型スマホ「Palm Phone」投入の背景をFOXに聞く (1/2) - ITmedia Mobile](https://www.itmedia.co.jp/mobile/articles/1906/05/news046.html)

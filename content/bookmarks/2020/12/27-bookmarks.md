@@ -20,17 +20,17 @@ pageType = "text"
     - [SolarWindsのサプライチェーン攻撃についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/12/20/045153)
     - [米政府機関の“cyber breach”被害、破られたのは何？ - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2012/21/news040.html)
     - [Russia’s SolarWinds Attack - Schneier on Security](https://www.schneier.com/blog/archives/2020/12/russias-solarwinds-attack.html)
-- [ジャーナリスト36人以上のiPhoneが「ゼロクリック」スパイウェアにハックされていたことが発覚  |  TechCrunch Japan](https://jp.techcrunch.com/2020/12/21/2020-12-20-citizen-lab-iphone-nso-group/)
+- [ジャーナリスト36人以上のiPhoneが「ゼロクリック」スパイウェアにハックされていたことが発覚  |  TechCrunch Japan](https://techcrunch.com/2020/12/20/citizen-lab-iphone-nso-group/)
 - [情報を外部に送信している？　疑惑のWebブラウザ「Smooz」が配信停止に - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2012/21/news129.html)
 - [「Emotet」と呼ばれるウイルスへの感染を狙うメールについて：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/announce/20191202.html) : 事例の追加
-- [TwitterがAPI機能を拡張、開発者は公開された会話の追跡が可能に  |  TechCrunch Japan](https://jp.techcrunch.com/2020/12/23/2020-12-21-twitter-expands-api-features-for-developers-tracking-the-public-conversation/)
+- [TwitterがAPI機能を拡張、開発者は公開された会話の追跡が可能に  |  TechCrunch Japan](https://techcrunch.com/2020/12/21/twitter-expands-api-features-for-developers-tracking-the-public-conversation/)
 - [Investigating the Navalny Poisoning - Schneier on Security](https://www.schneier.com/blog/archives/2020/12/investigating-the-navalny-poisoning.html)
 - [China's Secret War for U.S. Data Blew American Spies' Cover](https://foreignpolicy.com/2020/12/21/china-stolen-us-data-exposed-cia-operatives-spy-networks/)
     - [How China Uses Stolen US Personnel Data - Schneier on Security](https://www.schneier.com/blog/archives/2020/12/how-china-uses-stolen-us-personnel-data.html)
 
 ## 天文関連
 
-- [2021年には軌道上での燃料補給や製造が理論から現実へ変わる  |  TechCrunch Japan](https://jp.techcrunch.com/2020/12/19/2020-12-18-orbital-refueling-and-manufacturing-go-from-theory-to-reality-in-2021/)
+- [2021年には軌道上での燃料補給や製造が理論から現実へ変わる  |  TechCrunch Japan](https://techcrunch.com/2020/12/18/orbital-refueling-and-manufacturing-go-from-theory-to-reality-in-2021/)
 - [伊能忠敬が師事した江戸の天文学者・高橋至時をご存じか？（ブルーバックス編集部） | ブルーバックス | 講談社](https://gendai.ismedia.jp/articles/-/77276)
 
 ## Linux または Ubuntu に関する話題

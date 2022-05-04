@@ -14,8 +14,8 @@ title = "Pokémon GO 始めました"
 日本では話題ばかり先行していた [Pokémon GO] だが，ようやく日本でも配信になったようだ。
 
 - [Pokémon GO - Google Play](https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo)
-- [日本では今日7月20日（水）にポケモンGoがリリース、最初からスポンサー店あり | TechCrunch Japan](https://jp.techcrunch.com/2016/07/19/20160719pokemon-go-is-finally-launching-in-japan-tomorrow/)
-- [ポケモンGoの日本ローンチがメールによるリークのため延期 | TechCrunch Japan](https://jp.techcrunch.com/2016/07/20/20160719pokemon-go-launch-in-japan-postponed-after-email-leak/)
+- [日本では今日7月20日（水）にポケモンGoがリリース、最初からスポンサー店あり | TechCrunch Japan](https://techcrunch.com/2016/07/19/pokemon-go-is-finally-launching-in-japan-tomorrow/)
+- [ポケモンGoの日本ローンチがメールによるリークのため延期 | TechCrunch Japan](https://techcrunch.com/2016/07/19/pokemon-go-launch-in-japan-postponed-after-email-leak/)
 - [「ポケモンGO」、日本マクドナルドがコラボレーションを正式に認める | TechCrunch Japan](https://jp.techcrunch.com/2016/07/20/pokemon-go-mac-jp/)
 - [お待ちかね、ポケモンGOが日本でも配信開始！ | TechCrunch Japan](https://jp.techcrunch.com/2016/07/22/pokemon-go-launch-in-japan/)
 
@@ -44,7 +44,7 @@ title = "Pokémon GO 始めました"
 ということらしい（小学生にスマホを持たせるリスクについてはスルーする）。
 はっきり言って Google アカウントが使えるのなら Google アカウントで全然問題ない[^p]。
 
-[^p]: 初期の [Pokémon GO] はアカウントに紐づく全ての情報取得をユーザに許可させていたため問題になったが，[現在は修正されている](https://jp.techcrunch.com/2016/07/13/20160712pokemon-go-update-addresses-privacy-concerns/)。
+[^p]: 初期の [Pokémon GO] はアカウントに紐づく全ての情報取得をユーザに許可させていたため問題になったが，[現在は修正されている](https://techcrunch.com/2016/07/12/pokemon-go-update-addresses-privacy-concerns/)。
 
 ただし普段使いのアカウントは使わないほうが吉。
 プライバシーに気をつけている方もやらないほうがいいだろう。

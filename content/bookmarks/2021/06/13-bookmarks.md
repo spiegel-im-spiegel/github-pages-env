@@ -27,7 +27,7 @@ pageType = "text"
 
 ## バベルのインターネット
 
-- [G7は有害オンラインコンテンツ規制に取り組むべきと仏マクロン大統領が力説  |  TechCrunch Japan](https://jp.techcrunch.com/2021/06/11/2021-06-10-macron-says-g7-countries-should-work-together-to-tackle-toxic-online-content/)
+- [G7は有害オンラインコンテンツ規制に取り組むべきと仏マクロン大統領が力説  |  TechCrunch Japan](https://techcrunch.com/2021/06/10/macron-says-g7-countries-should-work-together-to-tackle-toxic-online-content/)
 
 ## セキュリティ＆プライバシー関連
 
@@ -70,7 +70,7 @@ pageType = "text"
 - [The startups reinventing the web browser - Protocol — The people, power and politics of tech](https://www.protocol.com/browser-company)
   - [ブログ: Chromeに対抗し、Webブラウザを再発明するというスタートアップの挑戦](https://okuranagaimo.blogspot.com/2021/06/chromeweb.html)
 - [GitHub API v3でPrivateリポジトリのPull Requestのdiffを取得する - My External Storage](https://budougumi0617.github.io/2021/05/31/cannot_get_pull_request_diff/)
-- [ファーウェイがAndroidに代わるスマホ向けHarmonyOSを正式発表  |  TechCrunch Japan](https://jp.techcrunch.com/2021/06/03/2021-06-02-huawei-officially-launches-android-alternative-harmonyos-for-smartphones/)
+- [ファーウェイがAndroidに代わるスマホ向けHarmonyOSを正式発表  |  TechCrunch Japan](https://techcrunch.com/2021/06/02/huawei-officially-launches-android-alternative-harmonyos-for-smartphones/)
 - [「ATOK」がApple M1にネイティブ対応 ～定額サービス「ATOK Passport」で提供 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1328717.html)
 - [佐野学園、人事総務の業務改革で申請処理を大幅削減 - ZDNet Japan](https://japan.zdnet.com/article/35171686/)
 - [Programming languages: Why Python 4.0 might never arrive, according to its creator - TechRepublic](https://www.techrepublic.com/article/programming-languages-why-python-4-0-will-probably-never-arrive-according-to-its-creator/)

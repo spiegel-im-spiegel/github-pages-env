@@ -47,7 +47,7 @@ draft = false
 - [NASA、トランプ政権下で小惑星サンプルリターン「ARM」キャンセルか | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_03_21_arm.html)
 - [土星衛星「エンケラドゥス」 地下の海が地表近くまで接近か | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_03_21_en.html)
 - [Collapsing cliff reveals comet’s interior / Rosetta / Space Science / Our Activities / ESA](http://www.esa.int/Our_Activities/Space_Science/Rosetta/Collapsing_cliff_reveals_comet_s_interior)
-- [SpaceX、NASAと協同で火星の着陸地点を検討中 | TechCrunch Japan](https://jp.techcrunch.com/2017/03/21/20170320spacex-is-working-with-nasa-to-identify-landing-spots-on-mars/)
+- [SpaceX、NASAと協同で火星の着陸地点を検討中 | TechCrunch Japan](https://techcrunch.com/2017/03/20/spacex-is-working-with-nasa-to-identify-landing-spots-on-mars/)
 
 ## その他
 
@@ -65,7 +65,7 @@ draft = false
 - [薬剤耐性結核の新薬の普及に関する声明――国際結核肺疾患予防連合アジア太平洋地域学術大会に寄せて | 活動ニュース | 国境なき医師団日本](http://www.msf.or.jp/news/detail/headline_3416.html)
 - [Linuxカーネルの古くからあるバグが明らかに - ZDNet Japan](https://japan.zdnet.com/article/35098462/)
 - [クルド人民兵組織YPG、ロシア軍が訓練へ シリア　写真1枚　国際ニュース：AFPBB News](http://www.afpbb.com/articles/-/3122061)
-- [あなたの車をハックできる小さなArduinoボードMacchinaがKickstarterで資金募集中 | TechCrunch Japan](https://jp.techcrunch.com/2017/03/22/20170321when-this-baby-hits-88-mph/)
+- [あなたの車をハックできる小さなArduinoボードMacchinaがKickstarterで資金募集中 | TechCrunch Japan](https://techcrunch.com/2017/03/21/when-this-baby-hits-88-mph/)
 - [Heroku CIがパブリックベータに、継続的インテグレーションを実現。PHP、Node.js、Go言語などサポート － Publickey](http://www.publickey1.jp/blog/17/heroku_ciphpnodejsgo.html)
 - [「Firefox」v52.0.1、ハッキングコンテスト“Pwn2Own”で報告された深刻な脆弱性を修正 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1050339.html)
 - [IBMとレッドハットが提携--ハイブリッドクラウドでのOpenStack活用 - ZDNet Japan](https://japan.zdnet.com/article/35098376/)

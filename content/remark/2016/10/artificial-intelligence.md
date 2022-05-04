@@ -80,7 +80,7 @@ tags = ["artificial-intelligence", "engineering", "politics"]
 AI (Artificial Intelligence) はたまたま再流行してこれから何か影響を及ぼすのではなく「保険統計主義」な時代の要請で必然的に台頭してきている[^c] （もちろん AI が台頭することによって他の様々なことが変化するだろうけど，それは別の話）。
 ある分野やシーンで機械が台頭してくればそこで職を失う人は当然出るだろうし（それは私かもしれない），「「良心」の無意味化」は AI の登場に関わらずとっくに起きている。
 
-[^c]: 「[頼むからプログラミングを学ばないでくれ | TechCrunch Japan](https://jp.techcrunch.com/2016/05/17/20160510please-dont-learn-to-code/)」 より： 「プログラミングが注目されたことにより，問題を理解することよりも，それを「正しい方法で」解決することに重きが置かれるようになった。」
+[^c]: 「[頼むからプログラミングを学ばないでくれ | TechCrunch Japan](https://techcrunch.com/2016/05/10/please-dont-learn-to-code/)」 より： 「プログラミングが注目されたことにより，問題を理解することよりも，それを「正しい方法で」解決することに重きが置かれるようになった。」
 
 ## 「信頼に値するアルゴリズム」とは（追記：2016-10-15）{#alg}
 
@@ -92,8 +92,8 @@ AI (Artificial Intelligence) はたまたま再流行してこれから何か影
 
 - [我々は信頼に足るアルゴリズムを見極められるのか？ - WirelessWire News（ワイヤレスワイヤーニュース）](https://wirelesswire.jp/2016/10/56935/)
 - {{< pdf-file title="Equality of Opportunity in Supervised Learning" link="https://drive.google.com/file/d/0B-wQVEjH9yuhanpyQjUwQS1JOTQ/view" >}}
-    - [Google、AIから偏見を排除する方法を研究中 | TechCrunch Japan](https://jp.techcrunch.com/2016/10/10/20161007google-aims-to-prevent-discriminatory-ai-with-equality-of-opportunity-method/)
-- [機械と人間の役割分担を見つめ直してみよう | TechCrunch Japan](https://jp.techcrunch.com/2017/01/16/20170114putting-the-intelligent-machine-in-its-place/)
+    - [Google、AIから偏見を排除する方法を研究中 | TechCrunch Japan](https://techcrunch.com/2016/10/07/google-aims-to-prevent-discriminatory-ai-with-equality-of-opportunity-method/)
+- [機械と人間の役割分担を見つめ直してみよう | TechCrunch Japan](https://techcrunch.com/2017/01/14/putting-the-intelligent-machine-in-its-place/)
 
 機械学習なんて体のいい「洗脳」であるが，その洗脳から必然的に生まれる「偏見」を数学的手法で排除しようとするのがいかにも Google らしい。
 でも，そうしたロジックも含めて実装し評価するのは人なのである（今のところ）。
@@ -155,7 +155,7 @@ AI は（今のところ）近似解に葛藤したりしない。
 まぁ，ここまで極端でなくても AI に干渉する要素というのはいくらでもあるものだ。
 しかもそこに悪意の有無は関係ない。
 
-- [MicrosoftがAIチャットボット、Tayを停止―人種差別ジョークで機械学習の問題点が明らかに | TechCrunch Japan](https://jp.techcrunch.com/2016/03/25/20160324microsoft-silences-its-new-a-i-bot-tay-after-twitter-users-teach-it-racism/)
+- [MicrosoftがAIチャットボット、Tayを停止―人種差別ジョークで機械学習の問題点が明らかに | TechCrunch Japan](https://techcrunch.com/2016/03/24/microsoft-silences-its-new-a-i-bot-tay-after-twitter-users-teach-it-racism/)
 
 これは機械が人とのコミュニケーションを行うようになれば必ず起こり得る問題であり，それを「修正」しようとすれば更に恣意が入り込むことになる。
 もし仮に人と機械との間に「良心」が組み込まれたとしても，それが書き換えられる可能性は常にあるのだ。（でもそれは人だって同じことだけどね）

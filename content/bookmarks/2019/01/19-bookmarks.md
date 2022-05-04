@@ -31,7 +31,7 @@ image = "/images/avatar.jpg"
 
 ## セキュリティ＆プライバシー関連
 
-- [本人を特定できない安全なネットアクセスを提供するTorに記録的な額の寄付が集まる  |  TechCrunch Japan](https://jp.techcrunch.com/2019/01/12/2019-01-11-tor-lessens-reliance-us-grants/)
+- [本人を特定できない安全なネットアクセスを提供するTorに記録的な額の寄付が集まる  |  TechCrunch Japan](https://techcrunch.com/2019/01/11/tor-lessens-reliance-us-grants/)
 - [艦隊これくしょんへのDoS攻撃についてまとめみた - piyolog](http://d.hatena.ne.jp/Kango/20190112/1547244881)
 - [ロシア外務省が発表した公式サイトへのサイバー攻撃についてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20190113/1547339177)
 - [Why Internet Security Is So Bad - Schneier on Security](https://www.schneier.com/blog/archives/2019/01/why_internet_se.html)
@@ -45,12 +45,12 @@ image = "/images/avatar.jpg"
     - [Oracle Java の脆弱性対策について(CVE-2018-11212等)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20190116-jre.html)
     - [2019年 1月 Oracle 製品のクリティカルパッチアップデートに関する注意喚起](https://www.jpcert.or.jp/at/2019/at190003.html)
 - [警察は生体認証によるスマホのロック解除を強要できない--米裁判所が判断 - CNET Japan](https://japan.cnet.com/article/35131307/)
-- [DuckDuckGo、地図検索結果をAppleマップで表示するように  |  TechCrunch Japan](https://jp.techcrunch.com/2019/01/16/2019-01-15-duckduckgo-apple-maps/)
+- [DuckDuckGo、地図検索結果をAppleマップで表示するように  |  TechCrunch Japan](https://techcrunch.com/2019/01/15/duckduckgo-apple-maps/)
 - [Windowsに未解決の脆弱性報告、任意のコード実行の恐れ - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1901/16/news082.html)
 - [Prices for Zero-Day Exploits Are Rising - Schneier on Security](https://www.schneier.com/blog/archives/2019/01/prices_for_zero.html)
 - [2019年1月のデータリーク「Collection #1」をまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20190118/1547760348)
 - [「Thunderbird 60.4」では“Critical”1件を含む6件の脆弱性が修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1165247.html)
-- [Amazonの株主たちが顔認識技術を法執行機関に売らないことを要請  |  TechCrunch Japan](https://jp.techcrunch.com/2019/01/18/2019-01-17-amazon-shareholders-want-the-company-to-stop-selling-facial-recognition-to-law-enforcement/)
+- [Amazonの株主たちが顔認識技術を法執行機関に売らないことを要請  |  TechCrunch Japan](https://techcrunch.com/2019/01/17/amazon-shareholders-want-the-company-to-stop-selling-facial-recognition-to-law-enforcement/)
 - [新潟県警察公式サイトなどの改ざん（画像設置）についてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20190119/1547849801)
 
 ## 天文関連
@@ -71,7 +71,7 @@ image = "/images/avatar.jpg"
 - [MIT Tech Review: 「暗号通貨バブル終焉」でも中央銀行がデジタル通貨を開発する理由](https://www.technologyreview.jp/s/116790/at-least-15-central-banks-are-serious-about-getting-into-digital-currency/)
 - [Redis、MongoDB、Kafkaらが相次いで商用サービスを制限するライセンス変更。AWSなどクラウドベンダによる「オープンソースのいいとこ取り」に反発 － Publickey](https://www.publickey1.jp/blog/19/redismongodbkafkaaws.html)
 - [モジラがAndroid向け新ブラウザ「Fenix」を開発中--詳細が徐々に明らかに - CNET Japan](https://japan.cnet.com/article/35131316/)
-- [AWSが早くも今年ニつ目の買収、今度はクラウドリソース最適化のTSO Logic  |  TechCrunch Japan](https://jp.techcrunch.com/2019/01/16/2019-01-15-aws-makes-another-acquisition-grabbing-tso-logic/)
+- [AWSが早くも今年ニつ目の買収、今度はクラウドリソース最適化のTSO Logic  |  TechCrunch Japan](https://techcrunch.com/2019/01/15/aws-makes-another-acquisition-grabbing-tso-logic/)
 - [“Google Play”のアプリは64bit対応が必須へ ～Googleが移行のロードマップを公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1164945.html)
 - [特定興行入場券の不正転売の禁止等による興行入場券の適正な流通の確保に関する法律の公布について | 文化庁](http://www.bunka.go.jp/seisaku/bunka_gyosei/ticket_resale_ban/1412624.html)
 - [自動運転車のレーザー、デジカメのセンサーを破壊。23万のα7R IIが台無しに | ギズモード・ジャパン](https://www.gizmodo.jp/2019/01/lidars-laser-wrecked-a7r-ii.html)

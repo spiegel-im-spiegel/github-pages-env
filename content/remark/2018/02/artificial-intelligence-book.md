@@ -217,14 +217,14 @@ RST の開発過程やその調査結果については『[AI vs. 教科書が�
 
 ## ブックマーク
 
-- [FraugsterはAIでクレジットカード詐欺を防ぐスタートアップ―すでにVISAが採用 | TechCrunch Japan](https://jp.techcrunch.com/2017/01/17/20170116fraugster/)
+- [FraugsterはAIでクレジットカード詐欺を防ぐスタートアップ―すでにVISAが採用 | TechCrunch Japan](https://techcrunch.com/2017/01/16/fraugster/)
 - [人間に近い音声で読み上げるAIアナウンサー「荒木 ゆい」--Specteeが開発 - CNET Japan](https://japan.cnet.com/article/35109916/)
 - - [グーグルの翻訳AIが「独自の言語」を生み出したといえる根拠｜WIRED.jp](http://wired.jp/2016/11/24/google-ai-language-create/)
 - [2017年12月28日ニュース「AIがNASAのデータを分析し新たな太陽系外惑星を発見」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2017/12/20171228_02.html)
 - [AI ハリー・ポッターの衝撃 - 山形浩生の「経済のトリセツ」](http://cruel.hatenablog.com/entry/2018/01/09/180230)
 - [白泉社、深層学習技術によりAIが自動着色した漫画の配信を開始 - Book Watch/ブックニュース ―MdN Design Interactive edition― - 窓の杜](https://forest.watch.impress.co.jp/docs/bookwatch/booknewsmdn/1105673.html)
 - [放送前にテレビCMの広告効果を予測――野村総研、AIを活用した効果予測モデルを開発 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1802/07/news055.html)
-- [SoftBankとIBMが協力してWatsonに日本語を教える…その全サービスとAPIを日本語化へ  |  TechCrunch Japan](https://jp.techcrunch.com/2015/02/10/20150209domo-arigato-mr-roboto/)
+- [SoftBankとIBMが協力してWatsonに日本語を教える…その全サービスとAPIを日本語化へ  |  TechCrunch Japan](https://techcrunch.com/2015/02/09/domo-arigato-mr-roboto/)
 
 [AI vs. 教科書が読めない子どもたち]: https://www.amazon.co.jp/exec/obidos/ASIN/B0791XCYQG/baldandersinf-22/ "Amazon.co.jp： ＡＩ　ｖｓ．　教科書が読めない子どもたち eBook: 新井 紀子: Kindleストア"
 [『シンギュラリティの神話』]: {{< ref "/remark/2017/09/the-myth-of-the-singularity.md" >}} "『シンギュラリティの神話』を読む"

@@ -22,7 +22,7 @@ pageType = "text"
   - [Excellent Write-up of the SolarWinds Security Breach - Schneier on Security](https://www.schneier.com/blog/archives/2021/08/excellent-write-up-of-the-solarwinds-security-breach.html)
 - [「Azure Cosmos DB」に重大な脆弱性--「Jupyter Notebook」の利用者は要注意 - ZDNet Japan](https://japan.zdnet.com/article/35175898/)
 - [Confluence ServerおよびData Centerの脆弱性（CVE-2021-26084）に関する注意喚起](https://www.jpcert.or.jp/at/2021/at210037.html)
-- [人気スマートホームセキュリティ製品の遠隔操作で解除できる欠陥を研究者が発表  |  TechCrunch Japan](https://jp.techcrunch.com/2021/09/02/2021-08-31-fortress-home-security-rapid7/)
+- [人気スマートホームセキュリティ製品の遠隔操作で解除できる欠陥を研究者が発表  |  TechCrunch Japan](https://techcrunch.com/2021/08/31/fortress-home-security-rapid7/)
 - [Improving Git protocol security on GitHub | The GitHub Blog](https://github.blog/2021-09-01-improving-git-protocol-security-github/)
 - [次世代の監視技術 - Telemetry技術のご紹介 - NTT Communications Engineers' Blog](https://engineers.ntt.com/entry/2021/09/02/162022)
 - [一見普通のUSBケーブルなのにキーボードで打ち込んだ内容をすべてWi-Fi経由で外部に送信してしまう「O.MGケーブル」が登場 - GIGAZINE](https://gigazine.net/news/20210903-o-mg-cable-leak-key-type/)
@@ -31,7 +31,7 @@ pageType = "text"
 
 - [結局、「漫画村」は死んでないのではないか：小寺信良のIT大作戦（1/3 ページ） - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2108/30/news065.html)
 - [マツモトキヨシの音商標審査が知財高裁で逆転：他人の氏名を含む商標の登録は可能になるのか？（栗原潔） - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/kuriharakiyoshi/20210901-00256147)
-- [グーグルが仏当局によるニュース発行者の著作権をめぐる罰金を不当として控訴  |  TechCrunch Japan](https://jp.techcrunch.com/2021/09/03/2021-09-01-google-appeals-disproportionate-french-copyright-talks-fine/)
+- [グーグルが仏当局によるニュース発行者の著作権をめぐる罰金を不当として控訴  |  TechCrunch Japan](https://techcrunch.com/2021/09/01/google-appeals-disproportionate-french-copyright-talks-fine/)
 
 ## Linux または Ubuntu に関する話題
 
@@ -43,7 +43,7 @@ pageType = "text"
 - [Windows 11が第7世代Intel Core CPUの一部に対応 ～Surface Studio 2も更新可能に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1346975.html)
   - [マイクロソフトが「Windows 11を手動で入れた古いPCにはアップデート提供しない」可能性を示唆  |  TechCrunch Japan](https://jp.techcrunch.com/2021/08/30/windows-11-not-update-old-cpus/)
 - [Windows 11へ更新できるかチェックするMicrosoft公式ツール、プレビュー版が再公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1346972.html)
-- [Windows 11の提供開始は10月5日から、マイクロソフトが発表  |  TechCrunch Japan](https://jp.techcrunch.com/2021/09/01/2021-08-31-windows-11-launches-october-5/)
+- [Windows 11の提供開始は10月5日から、マイクロソフトが発表  |  TechCrunch Japan](https://techcrunch.com/2021/08/31/windows-11-launches-october-5/)
 - [「Windows 11」のAndroidアプリ対応、リリース時には含まれず - ZDNet Japan](https://japan.zdnet.com/article/35176000/)
 - [「Windows 11」「Windows 10 バージョン 21H2」の商用プレビューが開始 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1348400.html)
 - [Azureデータベースサービスの使い方--マイクロソフトが解説 - ZDNet Japan](https://japan.zdnet.com/article/35176194/)
@@ -69,7 +69,7 @@ pageType = "text"
 
 ## その他
 
-- [30歳を迎えたLinuxがカーネルを5.14にアップデート、エンタープライズセキュリティを強化  |  TechCrunch Japan](https://jp.techcrunch.com/2021/08/28/2021-08-27-linux-5-14-set-to-boost-future-enterprise-application-security/)
+- [30歳を迎えたLinuxがカーネルを5.14にアップデート、エンタープライズセキュリティを強化  |  TechCrunch Japan](https://techcrunch.com/2021/08/27/linux-5-14-set-to-boost-future-enterprise-application-security/)
 - [TikZ実例集〜3D編 - Notes_JP](https://www.mynote-jp.com/entry/TikZ-examples)
 - [GitHub CLI v2.0 のカスタムコマンドを試す](https://zenn.dev/ymmmtym/articles/github-cli-gh-extension)
 - [NVIDIA、vSphere環境で稼働する「NVIDIA AI Enterprise」提供開始。GPUの能力を仮想化でスケーラブルに提供 － Publickey](https://www.publickey1.jp/blog/21/nvidiavspherenvidia_ai_enterprisegpu.html)

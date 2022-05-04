@@ -21,7 +21,7 @@ pageType = "text"
 - [中国で脆弱さを指摘され見直される顔認証 - ZDNet Japan](https://japan.zdnet.com/article/35162372/)
 - [MITのサイバーセキュリティ専門家、「選挙にブロックチェーン利用することはリスク高める」 | Cointelegraph | コインテレグラフ ジャパン](https://jp.cointelegraph.com/news/mit-cybersecurity-experts-do-not-trust-blockchain-based-voting-systems)
     - [On Blockchain Voting - Schneier on Security](https://www.schneier.com/blog/archives/2020/11/on-blockchain-voting.html)
-- [「バイオハザード」のカプコンがランサムウェア感染し、データ漏洩  |  TechCrunch Japan](https://jp.techcrunch.com/2020/11/18/2020-11-16-capcom-resident-evil-game-maker-breach-ransomware/)
+- [「バイオハザード」のカプコンがランサムウェア感染し、データ漏洩  |  TechCrunch Japan](https://techcrunch.com/2020/11/16/capcom-resident-evil-game-maker-breach-ransomware/)
 - [不正アクセスによるPeatixの情報流出についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/11/20/132324)
 - [Japan-Linked Organizations Targeted in Long-Running and Sophisticated Attack Campaign | Symantec Blogs](https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage)
     - [Massive, China-state-funded hack hits companies around the world, report says | Ars Technica](https://arstechnica.com/information-technology/2020/11/massive-china-state-funded-hack-hits-companies-around-the-word-report-says/)
@@ -68,7 +68,7 @@ pageType = "text"
 - [[覚書] Micro Frontends 📚](https://zenn.dev/silverbirder/articles/f74e219ffdef26b4a37b)
 - [達人プログラマー 熟達に向けたあなたの旅（第2版）【委託】 - 達人出版会](https://tatsu-zine.com/books/the-pragmatic-programmer-2ed)
 - [GitHub SocialifyでOGP画像を生成してSNS映えするOSSに](https://zenn.dev/ryo_kawamata/articles/introduction-socialify) : 試してみたがイマイチだったw
-- [Appleと別れたIntelが独自のノートPCを発表、ホワイトラベル製品として提供  |  TechCrunch Japan](https://jp.techcrunch.com/2020/11/20/2020-11-19-after-apples-m1-launch-intel-announces-its-own-white-label-laptop-395347/)
+- [Appleと別れたIntelが独自のノートPCを発表、ホワイトラベル製品として提供  |  TechCrunch Japan](https://techcrunch.com/2020/11/19/after-apples-m1-launch-intel-announces-its-own-white-label-laptop-395347/)
 - [Zennのスクラップ（Scraps）の使い方](https://zenn.dev/zenn/articles/about-zenn-scraps)
 - [「Microsoft Teams」無料版、Webアプリで24時間利用可能に（プレビュー機能として） - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2011/21/news047.html)
 - [Whatcha watchin’? Custom notification controls - The GitHub Blog](https://github.blog/2020-11-20-whatcha-watchin-custom-notification-controls/)

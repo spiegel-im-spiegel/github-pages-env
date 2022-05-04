@@ -94,5 +94,5 @@ pageType = "text"
 - [できるだけ嘘を書かずに計算量やオーダーの説明をしようとした記事 - えびちゃんの日記](https://rsk0315.hatenablog.com/entry/2021/10/13/235627)
 - [ptrace より 100 倍速いシステムコールフック作った - かーねるさんとか](https://yasukata.hatenablog.com/entry/2021/10/14/145642)
 - [ラズベリーパイのレシピ](https://zenn.dev/kotaproj/books/raspberrypi-tips)
-- [アップルが中国で人気のイスラム教コーランアプリをApp Storeから削除  |  TechCrunch Japan](https://jp.techcrunch.com/2021/10/16/2021-10-15-apple-removes-a-popular-quran-app-in-china-after-request-from-local-regulators/)
+- [アップルが中国で人気のイスラム教コーランアプリをApp Storeから削除  |  TechCrunch Japan](https://techcrunch.com/2021/10/15/apple-removes-a-popular-quran-app-in-china-after-request-from-local-regulators/)
 - [MicroPython だけで UTF-8 の漢字を表示](https://zenn.dev/nom/articles/20211016-micropython-code-to-display-utf8-kanji)

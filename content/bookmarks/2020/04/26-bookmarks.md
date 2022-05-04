@@ -44,4 +44,4 @@ pageType = "text"
 - [パッチ盤からケーブルを引っこ抜いてしまいCloudflareに障害発生。ケーブルにラベリングされておらずどれを戻すべきかすぐに分からず － Publickey](https://www.publickey1.jp/blog/20/cloudflare.html)
 - [GitHub、npmの買収完了を発表。npmレジストリ基盤とプラットフォームへの投資など強化 － Publickey](https://www.publickey1.jp/blog/20/githubnpmnpm.html)
 - [最近知ったこと(AWS FireLens編) - gitkadoの日記](https://gitkado.hatenadiary.jp/entry/20200416/1587044657)
-- [好みの言語でIaCできるPulumでGoや.NETが使えるように、構成対象も拡張  |  TechCrunch Japan](https://jp.techcrunch.com/2020/04/24/2020-04-21-pulumi-brings-support-for-more-languages-to-its-infrastructure-as-code-platform/)
+- [好みの言語でIaCできるPulumでGoや.NETが使えるように、構成対象も拡張  |  TechCrunch Japan](https://techcrunch.com/2020/04/21/pulumi-brings-support-for-more-languages-to-its-infrastructure-as-code-platform/)

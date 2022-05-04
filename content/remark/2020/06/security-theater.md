@@ -73,7 +73,7 @@ Windows 環境に限定するなら「[アタッシェケース](https://hibara.
 
 最近
 
-- [PDFベースの共同編集・電子署名サービスのAnvilがグーグル系VCから5億円超を調達  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/04/2020-06-03-paperwork-automation-platform-anvil-raises-5-million-from-googles-gradient-ventures/)
+- [PDFベースの共同編集・電子署名サービスのAnvilがグーグル系VCから5億円超を調達  |  TechCrunch Japan](https://techcrunch.com/2020/06/03/paperwork-automation-platform-anvil-raises-5-million-from-googles-gradient-ventures/)
 - [電子署名サービスを今夏提供へ--ドロップボックスが2020年の事業戦略 - ZDNet Japan](https://japan.zdnet.com/article/35155164/)
 
 のようなニュースを見かけるようになり「リモートワークがメインになれば要るよなぁ」と思った一方で，よりにもよって「情報処理」みたいな雑誌が PPAP がどうのとか言ってるのを見るとガッカリしてしまう。

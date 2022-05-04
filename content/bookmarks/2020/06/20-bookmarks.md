@@ -29,7 +29,7 @@ pageType = "text"
 - [End-to-End Encryption Update - Zoom Blog](https://blog.zoom.us/wordpress/2020/06/17/end-to-end-encryption-update/)
     - [Zoom Will Be End-to-End Encrypted for All Users - Schneier on Security](https://www.schneier.com/blog/archives/2020/06/zoom_will_be_en.html)
     - [Zoom、エンドツーエンド暗号化を無料ユーザーにも提供へ - ZDNet Japan](https://japan.zdnet.com/article/35155464/)
-    - [Zoom無料ユーザーにもエンドツーエンド暗号化を提供へ  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/18/2020-06-17-zoom-u-turns-on-no-e2e-encryption-for-free-users/)
+    - [Zoom無料ユーザーにもエンドツーエンド暗号化を提供へ  |  TechCrunch Japan](https://techcrunch.com/2020/06/17/zoom-u-turns-on-no-e2e-encryption-for-free-users/)
 - [Jitsi Meet](https://meet.jit.si/)
 - [Secure Messaging Scorecard | Electronic Frontier Foundation](https://www.eff.org/pages/secure-messaging-scorecard) : "OUT OF DATE -- FOR ARCHIVAL PURPOSES ONLY"
     - [Surveillance Self-Defense | Tips, Tools and How-tos for Safer Online Communications](https://ssd.eff.org/)
@@ -46,7 +46,7 @@ pageType = "text"
 - [日本全国で部分日食（2020年6月） | 国立天文台(NAOJ)](https://www.nao.ac.jp/astro/sky/2020/06-topics03.html)
     - [［特設ページ］部分日食（2020年6月21日） | 国立天文台(NAOJ)](https://www.nao.ac.jp/notice/20200621-partial-eclipse.html)
 - [New Horizons Conducts the First Interstellar Parallax Experiment | NASA](https://www.nasa.gov/feature/nasa-s-new-horizons-conducts-the-first-interstellar-parallax-experiment/)
-- [インターステラの民間宇宙ロケット「モモ5号機」が宇宙到達前にエンジン停止  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/15/2020-06-13-interstellar-technologies-privately-developed-momo-5-rocket-falls-short-of-reaching-space/)
+- [インターステラの民間宇宙ロケット「モモ5号機」が宇宙到達前にエンジン停止  |  TechCrunch Japan](https://techcrunch.com/2020/06/13/interstellar-technologies-privately-developed-momo-5-rocket-falls-short-of-reaching-space/)
 - [IBEX Charts 11 Years of Change at Boundary to Interstellar Space | NASA](https://www.nasa.gov/feature/goddard/2020/nasa-ibex-charts-11-years-change-at-boundary-interstellar-space-heliosphere-sun/)
     - [As Solar Wind Blows, Our Heliosphere Balloons | NASA](https://www.nasa.gov/feature/goddard/2018/as-solar-wind-blows-our-heliosphere-balloons/)
     - [ボイジャーが離脱した太陽圏は球形ではなく、やはり彗星のような形か | sorae 宇宙へのポータルサイト](https://sorae.info/astronomy/20200615-heliosphere.html)
@@ -61,7 +61,7 @@ pageType = "text"
 
 ## 知財関連
 
-- [インターネットアーカイブが無料の電子書籍プログラムを前倒しで終了、出版社からの訴訟を受け  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/14/2020-06-12-internet-archive-ends-free-e-book-program-following-publisher-suit/)
+- [インターネットアーカイブが無料の電子書籍プログラムを前倒しで終了、出版社からの訴訟を受け  |  TechCrunch Japan](https://techcrunch.com/2020/06/12/internet-archive-ends-free-e-book-program-following-publisher-suit/)
 - [ジョン・クリーズ『フォルティ・タワーズ』の（一時的な）取り下げにポリコレの行き過ぎを憂う - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20200618/fawlty-towers-withdrawn)
 - [Netflix Is Less Annoying to VPN Users Now, But Some Titles Are 'Hidden' * TorrentFreak](https://torrentfreak.com/netflix-is-less-annoying-to-vpn-users-now-but-some-titles-are-hidden-200618/)
 
@@ -82,13 +82,13 @@ pageType = "text"
 - [1万円のLinux搭載2-in-1タブレットPC「PineTab」販売開始！](https://daily-gadget.net/2020/06/12/post-16233/) : 高い `orz`
 - [高精度で注目の機械翻訳「DeepL」が日本で月額750円からの有料サービス開始、API利用も可能  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/16/deepl-pro-japan-launch/)
     - [“DeepL Pro”が日本でも開始 ～高品質なAI翻訳サービス“DeepL”の有償版 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1259198.html)
-- [量子コンピューターのための新高水準プログラミング言語Silq  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/16/2020-06-15-silq-is-a-new-high-level-programming-language-for-quantum-computers/)
+- [量子コンピューターのための新高水準プログラミング言語Silq  |  TechCrunch Japan](https://techcrunch.com/2020/06/15/silq-is-a-new-high-level-programming-language-for-quantum-computers/)
 - [Windows Terminal、バージョン2.0に至る今後1年間のロードマップを公開。設定用UIやポップアップメニュー、タブの切り離しなど － Publickey](https://www.publickey1.jp/blog/20/windows_terminal201ui.html)
 - [ライブ配信ウェブアプリケーション「ImageFlux Live App」提供開始のお知らせ | さくらインターネット](https://www.sakura.ad.jp/information/announcements/2020/06/17/1968204092/)
 - [Makuake｜若手蔵人達の挑戦！幻のきょうかい8号酵母を使用した日本酒『eight knot』｜マクアケ - クラウドファンディング](https://www.makuake.com/project/eight-knot/)
 - [「パケットの設計から見るQUIC」の訂正 - あどけない話](https://kazu-yamamoto.hatenablog.jp/entry/2020/06/17/121339)
 - [少しだけお手伝いした矢吹太朗『Webのしくみ Webをいかすための12の道具』（サイエンス社）が来月刊行される - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20200618/web-no-shikumi)
-- [中国のゲイ専門デートアプリ「Blued」がNASDAQにIPO申請  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/18/2020-06-17-blued-ipo/)
+- [中国のゲイ専門デートアプリ「Blued」がNASDAQにIPO申請  |  TechCrunch Japan](https://techcrunch.com/2020/06/17/blued-ipo/)
 - [Kubernetesを自動車に載せる、デンソーが「Misaki」を発表。年内にもオープンソースとして公開 － Publickey](https://www.publickey1.jp/blog/20/kubernetesmisaki.html)
 - [2020年6月18日ニュース「超好熱古細菌のRNA、1塩基レベルで識別 難病の治療に道」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2020/06/20200618_01.html)
 - [「Google Meet」が「Gmail」モバイルアプリで利用可能に - ZDNet Japan](https://japan.zdnet.com/article/35155503/)

@@ -171,7 +171,7 @@ Fair use のない日本が如何に時代に取り残されつつあるか分�
 - [ニュース - 「Google Booksは著作権法に違反せず」米控訴裁、地裁判断を支持：ITpro](http://itpro.nikkeibp.co.jp/atcl/news/15/101903421/)
 - [グーグル勝訴で浮き彫りになる「フェア・ユース」と著作権（とたぶんTPP）の問題｜りんがる｜note](https://note.mu/lingualina/n/n8e6589a8262b)
 - [グーグル勝訴で浮き彫りになるフェア・ユースと著作権の問題 « マガジン航](https://magazine-k.jp/2015/10/29/google-books-wins-over-the-authors-guild/)
-- [米最高裁、Googleブックスの書籍スキャンを公正使用と認定 | TechCrunch Japan](https://jp.techcrunch.com/2016/04/19/20160418supreme-court-affirms-google-books-scans-of-copyrighted-works-are-fair-use/) : どうやら確定したようです
+- [米最高裁、Googleブックスの書籍スキャンを公正使用と認定 | TechCrunch Japan](https://techcrunch.com/2016/04/18/supreme-court-affirms-google-books-scans-of-copyrighted-works-are-fair-use/) : どうやら確定したようです
 
 [Library Project]: https://www.google.com/googlebooks/library/ "Google Books Library Project – Google Books"
 

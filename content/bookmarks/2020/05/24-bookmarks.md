@@ -21,7 +21,7 @@ pageType = "text"
 ## セキュリティ＆プライバシー関連
 
 - [マルウェア感染による日経新聞社員らの情報流出についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/05/13/174643)
-- [米国がファーウェイ製品の使用禁止を1年延長  |  TechCrunch Japan](https://jp.techcrunch.com/2020/05/15/2020-05-14-trump-adds-another-year-to-huawei-zte-ban/)
+- [米国がファーウェイ製品の使用禁止を1年延長  |  TechCrunch Japan](https://techcrunch.com/2020/05/14/trump-adds-another-year-to-huawei-zte-ban/)
 - [Samsung Androidに任意コード実行の脆弱性、アップデートを | マイナビニュース](https://news.mynavi.jp/article/20200517-1036720/) : 2020-05-01 版に要更新
 - [欧州で多数のスパコンが乗っ取り、暗号資産マイニングに利用される - ZDNet Japan](https://japan.zdnet.com/article/35153915/)
 - [「LibreOffice 6.4.3」「LibreOffice 6.3.6」で1件のセキュリティ改善 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1253184.html)
@@ -60,7 +60,7 @@ pageType = "text"
 - [DNS over HTTPSを初期サポート ～プレビュー版「Windows 10」Build 19628がFastリングに - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1252334.html)
 - [グーグル、「Dart 2.8」と「Flutter 1.17」をリリース--iOS関連機能を大幅強化 - ZDNet Japan](https://japan.zdnet.com/article/35153403/)
 - [レビュー「新型コロナ検査、新段階に 厚労省、抗原検査キットを13日に承認」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/review/2020/05/20200512_01.html)
-− [AtlassianがHalpを買収、JiraやConfluenceとの統合を進める  |  TechCrunch Japan](https://jp.techcrunch.com/2020/05/15/2020-05-12-atlassian-acquires-halp-to-bring-slack-integration-to-the-forefront/)
+− [AtlassianがHalpを買収、JiraやConfluenceとの統合を進める  |  TechCrunch Japan](https://techcrunch.com/2020/05/12/atlassian-acquires-halp-to-bring-slack-integration-to-the-forefront/)
 - [「Chrome」、過剰に「重い」広告をブロックへ--8月から - ZDNet Japan](https://japan.zdnet.com/article/35153802/)
 - [「Google Cloud VMware Engine」発表。Google自身がVMware環境をGoogle Cloud上に構築、マネージドサービスとして提供 － Publickey](https://www.publickey1.jp/blog/20/google_cloud_vmware_enginegooglevmwaregoogle_cloud.html)
 - [HPEがKubernetes対応のコンテナプラットフォーム「HPE Container Platform」を国内で提供開始。大規模なデータ統合基盤の構築が狙い － Publickey](https://www.publickey1.jp/blog/20/hpekuberneteshpe_container_platform.html)
@@ -76,5 +76,5 @@ pageType = "text"
 - [フリーのネットワーク解析ツール「Wireshark」v3.2.4/v3.0.11/v2.6.17が公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1253605.html)
 - [わずか1万円のLinux搭載2-in-1タブレットPC「PineTab」まもなく登場！](https://daily-gadget.net/2020/05/16/post-15100/)
 - [Microsoft、37年前の「GW-BASIC」をオープンソース化 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1254062.html)
-- [Linuxが主流のカオスエンジニアリングをWindowsで実現するGremlin  |  TechCrunch Japan](https://jp.techcrunch.com/2020/05/22/2020-05-19-gremlin-brings-chaos-engineering-to-windows-platform/)
+- [Linuxが主流のカオスエンジニアリングをWindowsで実現するGremlin  |  TechCrunch Japan](https://techcrunch.com/2020/05/19/gremlin-brings-chaos-engineering-to-windows-platform/)
 - [「Google Chrome 83」は“DNS-over-HTTPS”に対応、セキュリティ設定も刷新され使いやすく - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1254219.html)

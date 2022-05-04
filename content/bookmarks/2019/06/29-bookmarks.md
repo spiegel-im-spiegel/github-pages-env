@@ -22,7 +22,7 @@ pageType = "text"
 - {{< pdf-file title="Stanford Cyber Policy Center - Securing American Elections - June 6 2019" link="https://stanford.box.com/shared/static/xd35pzvlnl2konx16suee7mqvjvk6nrb.pdf" >}}
     - [Election Security Is Still Hurting at Every Level | WIRED](https://www.wired.com/story/election-security-2020/)
     - [Election Security - Schneier on Security](https://www.schneier.com/blog/archives/2019/06/election_securi_3.html)
-- [Cloudflareが一時ダウン、多数のサイトに影響を与える  |  TechCrunch Japan](https://jp.techcrunch.com/2019/06/25/2019-06-24-cloudflare-outage-affecting-numerous-sites-on-monday-am/)
+- [Cloudflareが一時ダウン、多数のサイトに影響を与える  |  TechCrunch Japan](https://techcrunch.com/2019/06/24/cloudflare-outage-affecting-numerous-sites-on-monday-am/)
 - [Apple promises privacy, but iPhone apps share your data with trackers, ad companies and research firms - The Washington Post](https://www.washingtonpost.com/technology/2019/05/28/its-middle-night-do-you-know-who-your-iphone-is-talking/)
     - [It’s the middle of the night. Do you know who your iPhone is talking to?](https://www.msn.com/en-us/news/technology/its-the-middle-of-the-night-do-you-know-who-your-iphone-is-talking-to/ar-AAC1Wvl)
     - [iPhone Apps Surreptitiously Communicated with Unknown Servers - Schneier on Security](https://www.schneier.com/blog/archives/2019/06/iphone_apps_sur.html)
@@ -37,9 +37,9 @@ pageType = "text"
 
 ## 天文関連
 
-- [NASA探索車が火星にて生命存在の可能性を示すガスレベルを検知  |  TechCrunch Japan](https://jp.techcrunch.com/2019/06/23/2019-06-23-nasas-curiosity-rover-finds-levels-of-gas-on-mars-that-could-suggest-possibility-of-life/)
+- [NASA探索車が火星にて生命存在の可能性を示すガスレベルを検知  |  TechCrunch Japan](https://techcrunch.com/2019/06/23/nasas-curiosity-rover-finds-levels-of-gas-on-mars-that-could-suggest-possibility-of-life/)
 - [MIT Tech Review: 太陽系外からやって来る彗星を「迎え撃ち」、ESAの新計画](https://www.technologyreview.jp/nl/were-going-to-hunt-down-a-comet-coming-from-outside-our-solar-system/)
-- [SpaceXの大型ロケットFalcon Heavyが初の夜間打ち上げ  |  TechCrunch Japan](https://jp.techcrunch.com/2019/06/25/2019-06-24-watch-spacexs-spectacular-first-falcon-heavy-night-launch-live/)
+- [SpaceXの大型ロケットFalcon Heavyが初の夜間打ち上げ  |  TechCrunch Japan](https://techcrunch.com/2019/06/24/watch-spacexs-spectacular-first-falcon-heavy-night-launch-live/)
 - [MIT Tech Review: 2次元宇宙で生命は存在するか？ 米物理学者が示した意外な可能性](https://www.technologyreview.jp/s/148723/life-could-exist-in-a-2d-universe-according-to-physics-anyway/)
 - [太陽系外惑星命名キャンペーン〜IAU100 Name ExoWorlds](https://prc.nao.ac.jp/iau/exoworlds2019/)
     - [IAU100年記念 太陽系外惑星命名キャンペーン、日本での名前募集始まる | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/topics/2019/20190628-nameexoworlds.html)
@@ -67,9 +67,9 @@ pageType = "text"
 - [MIT Tech Review: ネット広告の根幹技術に違法の疑い、英規制当局が指摘](https://www.technologyreview.jp/nl/the-online-advertising-industry-breaks-the-law-says-the-uks-data-watchdog/)
 - [九州北部から近畿　最も遅い梅雨入りの発表(日直予報士 2019年06月26日) - 日本気象協会 tenki.jp](https://tenki.jp/forecaster/deskpart/2019/06/26/4833.html)
 - [MIT Tech Review: まるで昆虫、太陽光で動く超小型ワイヤレス・ドローン](https://www.technologyreview.jp/nl/a-solar-powered-robot-bee-shows-how-insect-drones-may-take-flight/)
-- [任天堂、マイクロソフト、ソニーが3社連名でトランプ関税の「害」を訴える  |  TechCrunch Japan](https://jp.techcrunch.com/2019/06/27/2019-06-26-nintendo-microsoft-and-sony-pen-letter-highlighting-harm-from-trum/)
+- [任天堂、マイクロソフト、ソニーが3社連名でトランプ関税の「害」を訴える  |  TechCrunch Japan](https://techcrunch.com/2019/06/26/nintendo-microsoft-and-sony-pen-letter-highlighting-harm-from-trum/)
 - [日本はレガシーシステムの保守で身動きとれず--ガートナー調査 - ZDNet Japan](https://japan.zdnet.com/article/35139071/)
 - [2019年6月27日ニュース「怖いスーパー爆弾低気圧ができる要因を世界で初めて解明した『地球シミュレータ』使い立正大など」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2019/06/20190627_01.html)
-- [小型商用核融合炉を開発するボストンのスタートアップが約54億円を調達  |  TechCrunch Japan](https://jp.techcrunch.com/2019/06/28/2019-06-27-a-boston-startup-developing-a-nuclear-fusion-reactor-just-got-a-roughly-50-million-boost/)
+- [小型商用核融合炉を開発するボストンのスタートアップが約54億円を調達  |  TechCrunch Japan](https://techcrunch.com/2019/06/27/a-boston-startup-developing-a-nuclear-fusion-reactor-just-got-a-roughly-50-million-boost/)
 - [広島県庁、職員向けに「Box」導入--働き方改革とBCPの一環で - ZDNet Japan](https://japan.zdnet.com/article/35139167/)
 - [超小型6インチでWindows 10 Proを搭載したモバイルビジネスパソコン「GPD MicroPC」発売 - ニュース ―MdN Design Interactive edition― - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/newsbymdn/1193078.html)

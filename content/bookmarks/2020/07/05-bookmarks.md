@@ -16,10 +16,10 @@ pageType = "text"
 
 ## バベルのインターネット
 
-- [インド政府がTikTokなど中国企業の59のアプリを禁止すると発表  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/30/2020-06-29-india-bans-tiktok-dozens-of-other-chinese-apps/)
-    - [インド政府による禁止措置を受けてTikTokがインドでアクセス不可に  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/01/2020-06-30-tiktok-goes-down-in-india-its-biggest-overseas-market/)
-- [Twitchがトランプ大統領のアカウントを停止、Redditも「The_Donald」と関連サブレディットを追放  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/30/2020-06-29-trump-suspended-from-twitch-as-reddit-bans-the-the_donald-and-additional-subreddits/)
-- [YouTubeが極右の著名人たちのチャンネルを停止  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/30/2020-06-29-youtube-ban-stefan-molyneux-david-duke-white-nationalism/)
+- [インド政府がTikTokなど中国企業の59のアプリを禁止すると発表  |  TechCrunch Japan](https://techcrunch.com/2020/06/29/india-bans-tiktok-dozens-of-other-chinese-apps/)
+    - [インド政府による禁止措置を受けてTikTokがインドでアクセス不可に  |  TechCrunch Japan](https://techcrunch.com/2020/06/30/tiktok-goes-down-in-india-its-biggest-overseas-market/)
+- [Twitchがトランプ大統領のアカウントを停止、Redditも「The_Donald」と関連サブレディットを追放  |  TechCrunch Japan](https://techcrunch.com/2020/06/29/trump-suspended-from-twitch-as-reddit-bans-the-the_donald-and-additional-subreddits/)
+- [YouTubeが極右の著名人たちのチャンネルを停止  |  TechCrunch Japan](https://techcrunch.com/2020/06/29/youtube-ban-stefan-molyneux-david-duke-white-nationalism/)
 
 ## セキュリティ＆プライバシー関連
 
@@ -30,20 +30,20 @@ pageType = "text"
 - [Google removes 25 Android apps caught stealing Facebook credentials | ZDNet](https://www.zdnet.com/article/google-removes-25-android-apps-caught-stealing-facebook-credentials/)
     - [Android Apps Stealing Facebook Credentials - Schneier on Security](https://www.schneier.com/blog/archives/2020/06/android_apps_st.html)
 - [Microsoft Windows Codecs Library の脆弱性 (CVE-2020-1425, CVE-2020-1457) に関する注意喚起](https://www.jpcert.or.jp/at/2020/at200027.html)
-- [米政府機関がPalo Alto NetworksのVPNセキュリティの欠陥を警告  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/02/2020-06-30-cyber-command-palo-alto-vpn-flaw/)
-- [FCCがファーウェイとZTEを「安全保障上の脅威」に指定した背景  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/02/2020-06-30-fcc-huawei-zte-national-security/)
+- [米政府機関がPalo Alto NetworksのVPNセキュリティの欠陥を警告  |  TechCrunch Japan](https://techcrunch.com/2020/06/30/cyber-command-palo-alto-vpn-flaw/)
+- [FCCがファーウェイとZTEを「安全保障上の脅威」に指定した背景  |  TechCrunch Japan](https://techcrunch.com/2020/06/30/fcc-huawei-zte-national-security/)
 - [正規番号でファックス誤送信が起きたNTT西の電話サービス故障についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/07/02/015037)
 - [フリーのネットワーク解析ツール「Wireshark」v3.2.5/v3.0.12/v2.6.18が公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1262945.html)
 - [BYOD端末と撤去控えたサーバーが狙われたNTTコミュニケーションズへの2つの不正アクセスをまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/07/03/180308)
     - [NTT Comへの不正アクセス、BYOD端末からの経路も判明 - ZDNet Japan](https://japan.zdnet.com/article/35156211/)
 - [VICE - How Police Secretly Took Over a Global Phone Network for Organized Crime](https://www.vice.com/en_us/article/3aza95/how-police-took-over-encrochat-hacked)
     - [EncroChat Hacked by Police - Schneier on Security](https://www.schneier.com/blog/archives/2020/07/hacked_by_polic.html)
-    - [欧州警察が暗号化チャットアプリ「EncroChat」にマルウェアを仕込み犯罪者1000人以上を逮捕  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/03/2020-07-02-police-roll-up-crime-networks-in-europe-after-infiltrating-popular-encrypted-chat-app/)
+    - [欧州警察が暗号化チャットアプリ「EncroChat」にマルウェアを仕込み犯罪者1000人以上を逮捕  |  TechCrunch Japan](https://techcrunch.com/2020/07/02/police-roll-up-crime-networks-in-europe-after-infiltrating-popular-encrypted-chat-app/)
 
 ## 天文関連
 
 - [188cm反射望遠鏡、初めての一般向け貸し切り共同利用 | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/topics/2020/20200630-188cm.html) : 母校である広大天文研OB会の話題が（笑）
-- [SpaceXがGPS III衛星打ち上げとブースター回収に成功  |  TechCrunch Japan](https://jp.techcrunch.com/2020/07/01/2020-06-30-spacex-successfully-launches-gps-iii-space-vehicle-on-behalf-of-the-u-s-space-force/)
+- [SpaceXがGPS III衛星打ち上げとブースター回収に成功  |  TechCrunch Japan](https://techcrunch.com/2020/06/30/spacex-successfully-launches-gps-iii-space-vehicle-on-behalf-of-the-u-s-space-force/)
 - [MIT Tech Review: ブラックホールの合体を光で初観測か、カリフォルニア工科大](https://www.technologyreview.jp/s/210743/a-supermassive-black-hole-lit-up-a-collision-of-two-smaller-black-holes/)
 
 ## その他

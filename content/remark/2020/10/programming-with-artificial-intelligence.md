@@ -34,7 +34,7 @@ pageType = "text"
 日本における強すぎる著作者人格権や最高裁の判断については色々思うところがあるだろうが，それについては今は置いておいて，この結果 Twitter 側がどうしたか，である。
 それがおそらくこの記事になるんだと思う。
 
-- [Twitterは投稿時の画像プレビューのトリミング方法をユーザーに委ねる方針へ  |  TechCrunch Japan](https://jp.techcrunch.com/2020/10/04/2020-10-02-twitter-may-let-users-choose-how-to-crop-image-previews-after-bias-scrutiny/)
+- [Twitterは投稿時の画像プレビューのトリミング方法をユーザーに委ねる方針へ  |  TechCrunch Japan](https://techcrunch.com/2020/10/02/twitter-may-let-users-choose-how-to-crop-image-previews-after-bias-scrutiny/)
 
 元が米国の記事なので人種差別に絡めて書いてあるが，日本人から見れば上の判決の直後だけに，この影響がないとは思わないだろう（笑）
 

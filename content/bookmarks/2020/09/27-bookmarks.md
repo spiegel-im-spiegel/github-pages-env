@@ -15,7 +15,7 @@ pageType = "text"
 - [At this point, 5G is a bad joke | Computerworld](https://www.computerworld.com/article/3575510/at-this-point-5g-is-a-bad-joke.html)
     - [ブログ: 現時点で、5Gは悪い冗談です](https://okuranagaimo.blogspot.com/2020/09/5g.html)
 - [飛行機の搭乗券が写った写真から個人情報を抜き出すまでの記録、オーストラリアの元首相の場合 - GIGAZINE](https://gigazine.net/news/20200918-passport-instagram-hacker/)
-- [上院の暗号バックドア法案は「米国人にとって危険」だと下院議員が警告  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/21/2020-09-20-encryption-backdoor-bill-dangerous-lofgren/)
+- [上院の暗号バックドア法案は「米国人にとって危険」だと下院議員が警告  |  TechCrunch Japan](https://techcrunch.com/2020/09/20/encryption-backdoor-bill-dangerous-lofgren/)
 - [No, Moving Your SSH Port Isn't Security by Obscurity | Daniel Miessler](https://danielmiessler.com/blog/no-moving-your-ssh-port-isnt-security-by-obscurity/)
     - [ブログ: SSHポートの移動は隠蔽によるセキュリティではない](https://okuranagaimo.blogspot.com/2020/09/ssh.html)
 - [セキュリティ企業が描き出す「歪曲された」実態　大学研究者が検証 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2009/23/news073.html)
@@ -27,7 +27,7 @@ pageType = "text"
 - [いまだに“放置”されている「子ども用スマートウォッチ」の脆弱性には、盗聴やなりすましの危険性も潜んでいる | WIRED.jp](https://wired.jp/2020/09/23/kid-smartwatch-security-vulnerabilities/)
 - [Iranian Government Hacking Android - Schneier on Security](https://www.schneier.com/blog/archives/2020/09/iranian-government-hacking-android.html)
 - [Lightning Q&A: DevSecOps in five with Maya Kaczorowski - The GitHub Blog](https://github.blog/2020-09-24-lightning-qa-devsecops-in-five-with-maya-kaczorowski/)
-- [Twitterが開発者の秘密鍵やアカウントトークンの漏洩を警告  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/26/2020-09-25-twitter-developer-keys-exposed/)
+- [Twitterが開発者の秘密鍵やアカウントトークンの漏洩を警告  |  TechCrunch Japan](https://techcrunch.com/2020/09/25/twitter-developer-keys-exposed/)
 
 ## 天文関連
 
@@ -74,10 +74,10 @@ pageType = "text"
 
 ## その他
 
-- [TwitterとZoomのアルゴリズムに偏見問題が浮上  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/22/2020-09-21-twitter-and-zoom-algorithmic-bias-issues/)
+- [TwitterとZoomのアルゴリズムに偏見問題が浮上  |  TechCrunch Japan](https://techcrunch.com/2020/09/21/twitter-and-zoom-algorithmic-bias-issues/)
 - [GitHub CLI 1.0 がリリースされたので使ってみた | Zenn](https://zenn.dev/morinokami/articles/hello-github-cli)
 - [Zooming and scaling must not be disabled  Axe Rules | Deque University | Deque Systems](https://dequeuniversity.com/rules/axe/3.5/meta-viewport) : HTML でズーム機能を無効にしたらあかんよ，という話
-- [2020年米国の有料テレビ契約が過去最大の減少、新型コロナで消費者離れが加速  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/22/2020-09-21-pandemic-accelerated-cord-cutting-making-2020-the-worst-ever-year-for-pay-tv/)
+- [2020年米国の有料テレビ契約が過去最大の減少、新型コロナで消費者離れが加速  |  TechCrunch Japan](https://techcrunch.com/2020/09/21/pandemic-accelerated-cord-cutting-making-2020-the-worst-ever-year-for-pay-tv/)
 - [［速報］マイクロソフト、Linux対応の「Micorosft Edge on Linux」、来月プレビュー公開へ。Ignite 2020 － Publickey](https://www.publickey1.jp/blog/20/linuxmicorosft_edge_on_linuxignite_2020.html)
 - [［速報］マイクロソフトが構築したVMware環境「Azure VMware Solution」正式サービス開始。Ignite 2020 － Publickey](https://www.publickey1.jp/blog/20/vmwareazure_vmware_solutionignite_2020.html)
 - [［速報］マイクロソフト、RPA機能でWindowsアプリ操作を自動化する「Power Automate Desktop」パブリックプレビュー開始、日本語版も。Ignite 2020 － Publickey](https://www.publickey1.jp/blog/20/rpawindowspower_automate_desktopignite_2020.html)
@@ -85,7 +85,7 @@ pageType = "text"
 - [GitHub ActionsでGitHub Project運用でのIssue作成作業をカイゼンする - BASEプロダクトチームブログ](https://devblog.thebase.in/entry/kokoni-hasamio)
 - [「Zoom」v5.3.0が公開 ～ユーザー側から参加するブレイクアウトルームを選択可能に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1278352.html)
 - [キヤノン、富士通製スーパーコンピューターを導入へ - ZDNet Japan](https://japan.zdnet.com/article/35159905/)
-- [テスラが1万エーカーのリチウム粘土鉱床の権利を取得、リチウム採掘事業に自ら参入へ  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/23/2020-09-22-tesla-is-building-a-cathode-plant-and-getting-into-the-lithium-mining-business/)
+- [テスラが1万エーカーのリチウム粘土鉱床の権利を取得、リチウム採掘事業に自ら参入へ  |  TechCrunch Japan](https://techcrunch.com/2020/09/22/tesla-is-building-a-cathode-plant-and-getting-into-the-lithium-mining-business/)
 - [クラウドのアーキテクチャ図作成ツール「CloudSkew」、Webブラウザから無料で利用可能。AWS／Azure／GCP／Kubernetes／Oracle Cloudなどマルチクラウド対応 － Publickey](https://www.publickey1.jp/blog/20/cloudskewwebawsazuregcpkubernetesoracle_cloud.html)
 - [マイクロソフト、全プラットフォームを統合する「.NET 5」フレームワーク、リリース候補版を公開。Ignite 2020 － Publickey](https://www.publickey1.jp/blog/20/net_5ignite_2020.html)
 - {{< pdf-file title="人間活動における理性 Reason in Human Affairs" link="https://cruel.org/books/simonrationality/simonrationality.pdf" >}}
@@ -93,7 +93,7 @@ pageType = "text"
 - [Mozilla、「Flash」の廃止計画を更新 ～2021年1月公開予定の「Firefox 85」で完全削除へ - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1278624.html)
 - [社内向けの管理画面の認証にSlack認証を使うと便利だった | Zenn](https://zenn.dev/terrierscript/articles/2020-09-23-internal-admin-tools-auth-slack)
 - [GitHub Mobile and GraphQL - The GitHub Blog](https://github.blog/2020-09-23-github-mobile-and-graphql/)
-- [IBMが量子ロードマップを公開、2023年には1000量子ビットマシンを実現へ  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/24/2020-09-15-ibm-publishes-its-quantum-roadmap-says-it-will-have-a-1000-qubit-machine-in-2023/)
+- [IBMが量子ロードマップを公開、2023年には1000量子ビットマシンを実現へ  |  TechCrunch Japan](https://techcrunch.com/2020/09/15/ibm-publishes-its-quantum-roadmap-says-it-will-have-a-1000-qubit-machine-in-2023/)
 - [ZoomのAndroidスマホでの使い方！アプリのダウンロードや設定方法を解説！ | アプリやWebの疑問に答えるメディア](https://applica.info/zoom-android)
 - [ShellExecute でネットワーク上の実行ファイルを呼び出そうとするとエラーになる - 標準愚痴出力](https://zetamatta.hatenablog.com/entry/2020/09/16/200319)
 - [Lua 5.4 のバイナリが出てた！ - 標準愚痴出力](https://zetamatta.hatenablog.com/entry/2020/07/25/171204)

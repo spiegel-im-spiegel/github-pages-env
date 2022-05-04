@@ -29,7 +29,7 @@ pageType = "text"
 さて，最初の記事でも紹介されているように「ノーコード・プラットフォーム」が特に AI 分野で注目されている。
 
 - [Googleはなぜノーコード開発ツールのAppSheetを買収し、1年半前に正式版になったばかりのApp Makerを終了させるのか？ － Publickey](https://www.publickey1.jp/blog/20/googleappsheet1app_maker.html)
-- [AWSのノーコードツール「Amazon Honeycode」はなぜ生まれたのか？  |  TechCrunch Japan](https://jp.techcrunch.com/2020/06/25/2020-06-24-why-aws-built-a-no-code-tool/)
+- [AWSのノーコードツール「Amazon Honeycode」はなぜ生まれたのか？  |  TechCrunch Japan](https://techcrunch.com/2020/06/24/why-aws-built-a-no-code-tool/)
 
 私のようなロートルから見れば「この道はいつか来た道♪」とか思ってしまうのだが，将来どうなるかは（私には）予想できない。
 本当に「エンジニアです。コードは書けません」という未来がやってくるかもしれない。

@@ -32,7 +32,7 @@ pageType = "text"
 - [When AIs Start Hacking - Schneier on Security](https://www.schneier.com/blog/archives/2021/04/when-ais-start-hacking.html)
   - [Hackers Used to Be Humans. Soon, AIs Will Hack Humanity | WIRED](https://www.wired.com/story/opinion-hackers-used-to-be-humans-soon-ais-will-hack-humanity/)
   - [ブログ: AIがハッキングを始めるとき (ブルース・シュナイアー)](https://okuranagaimo.blogspot.com/2021/04/ai.html)
-- [欧州議会議員グループが公共の場での生体認証監視を禁止するAI規制を求める  |  TechCrunch Japan](https://jp.techcrunch.com/2021/04/26/2021-04-15-meps-call-for-european-ai-rules-to-ban-biometric-surveillance-in-public/)
+- [欧州議会議員グループが公共の場での生体認証監視を禁止するAI規制を求める  |  TechCrunch Japan](https://techcrunch.com/2021/04/15/meps-call-for-european-ai-rules-to-ban-biometric-surveillance-in-public/)
 - [FBIによる「Exchange」のWebシェル削除に賛否--サイバーセキュリティの今後にどう影響するか - ZDNet Japan](https://japan.zdnet.com/article/35169862/)
 - [ISC BIND 9の複数の脆弱性に関する注意喚起](https://www.jpcert.or.jp/at/2021/at210021.html)
 - [QNAP製NASへのランサムウェア攻撃は公式バックアップソフトにハードコードされたパスワードが原因か - GIGAZINE](https://gigazine.net/news/20210430-qnap-ransomware-hard-coded-password/)

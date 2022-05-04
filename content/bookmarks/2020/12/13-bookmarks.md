@@ -20,7 +20,7 @@ pageType = "text"
 
 ## セキュリティ＆プライバシー関連
 
-- [中国のインターネット規制当局は強制的なユーザーデータの収集を標的に  |  TechCrunch Japan](https://jp.techcrunch.com/2020/12/06/2020-12-04-chinas-internet-regulator-takes-aim-at-forced-data-collection/)
+- [中国のインターネット規制当局は強制的なユーザーデータの収集を標的に  |  TechCrunch Japan](https://techcrunch.com/2020/12/04/chinas-internet-regulator-takes-aim-at-forced-data-collection/)
 - [PayPay加盟店に関する営業情報に不正アクセス、最大2000万件が影響の可能性  |  TechCrunch Japan](https://jp.techcrunch.com/2020/12/07/paypay-2/)
 - [お問合せフォームを悪用する攻撃増加に関する注意喚起 | さくらインターネット](https://www.sakura.ad.jp/information/announcements/2020/12/08/1968205707/)
 - [Apache Struts 2 の脆弱性 (S2-061) に関する注意喚起](https://www.jpcert.or.jp/at/2020/at200046.html)
@@ -40,7 +40,7 @@ pageType = "text"
     - [Dockerは非推奨じゃないし今すぐ騒ぐのをやめろ - Cloud Penguins](https://jaco.udcp.info/entry/2020/12/03/172843) : 図解が分かりやすい
 - [Dropboxで「セキュリティで保護されたインターネット接続を確立できません」と表示される | 30代未経験ネットワークエンジニアのblog](https://network-beginner.xyz/dropbox_error) : セキュリティ・ツールによる中間者攻撃。 ESET よ，お前もか `orz`
     - [突然「Dropbox」が同期できなくなった！ 復旧するまで試したこと - やじうまの杜 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1294770.html)
-- [マサチューセッツ州知事は顔認識利用を禁止する警察改革法案に署名せず  |  TechCrunch Japan](https://jp.techcrunch.com/2020/12/11/2020-12-10-massachusetts-governor-returns-police-reform-bill-asking-lawmakers-to-drop-facial-recognition-ban/)
+- [マサチューセッツ州知事は顔認識利用を禁止する警察改革法案に署名せず  |  TechCrunch Japan](https://techcrunch.com/2020/12/10/massachusetts-governor-returns-police-reform-bill-asking-lawmakers-to-drop-facial-recognition-ban/)
 - [三菱パワーが被害に遭ったMSP経由の不正アクセスについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/12/12/080034)
 
 ## 天文関連
@@ -51,7 +51,7 @@ pageType = "text"
     - [Japan’s Hayabusa2 Mission Returns to Earth – Many Worlds](https://manyworlds.space/2020/12/11/japans-hayabusa2-mission-returns-to-earth/)
 - [貴重資料展示室059 岡田芳朗文庫より 引札暦 - 国立天文台暦計算室](https://eco.mtk.nao.ac.jp/koyomi/exhibition/059/)
 - [すばる望遠鏡の新しい系外惑星撮像装置による初の発見的成果 | 観測成果 | すばる望遠鏡](https://subarutelescope.org/jp/results/2020/12/10/2917.html)
-- [NASAとボーイングが無人軌道飛行テストのやり直しを2021年3月に予定  |  TechCrunch Japan](https://jp.techcrunch.com/2020/12/11/2020-12-10-nasa-and-boeing-set-do-over-starliner-orbital-test-flight-for-march-2021/)
+- [NASAとボーイングが無人軌道飛行テストのやり直しを2021年3月に予定  |  TechCrunch Japan](https://techcrunch.com/2020/12/10/nasa-and-boeing-set-do-over-starliner-orbital-test-flight-for-march-2021/)
 
 ## Linux または Ubuntu に関する話題
 

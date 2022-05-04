@@ -25,8 +25,8 @@ pageType = "text"
   - [ブログ: 監視資本主義がDNSを完全に変える](https://okuranagaimo.blogspot.com/2021/09/dns.html)
 - [GraphQL採用サービスで任意カラムを取得できる脆弱性を見つけた話](https://zenn.dev/mipsparc/articles/a818970a19ade6) : GraphQL のセキュリティ管理
 - [「Gmailを使っているとGoogleに個人情報や製品の購入情報が保存される」とユーザーから指摘が起きて大論争 - GIGAZINE](https://gigazine.net/news/20210924-gmail-keeps-records/)
-- [数百万のHTTPSサイトが利用するLet’s Encryptのルート証明書が期限切れ間近、古いデバイスやOSは要注意  |  TechCrunch Japan](https://jp.techcrunch.com/2021/09/25/2021-09-21-lets-encrypt-root-expiry/)
-- [グーグル広告が透明性の向上を目指し変更、ユーザーが過去30日の広告主の履歴へアクセス可能に  |  TechCrunch Japan](https://jp.techcrunch.com/2021/09/24/2021-09-22-google-ads-to-get-more-transparent-by-offering-access-to-advertisers-recent-history/)
+- [数百万のHTTPSサイトが利用するLet’s Encryptのルート証明書が期限切れ間近、古いデバイスやOSは要注意  |  TechCrunch Japan](https://techcrunch.com/2021/09/21/lets-encrypt-root-expiry/)
+- [グーグル広告が透明性の向上を目指し変更、ユーザーが過去30日の広告主の履歴へアクセス可能に  |  TechCrunch Japan](https://techcrunch.com/2021/09/22/google-ads-to-get-more-transparent-by-offering-access-to-advertisers-recent-history/)
 
 ## 知財関連
 
@@ -60,8 +60,8 @@ pageType = "text"
 
 ## その他
 
-- [グーグルがインドでAndroidの独占的地位を乱用と反トラスト調査で判明  |  TechCrunch Japan](https://jp.techcrunch.com/2021/09/19/2021-09-18-google-abused-dominant-position-of-android-in-india-antitrust-probe-finds/)
-- [アップルとグーグルがロシアでの圧力に屈しクレムリン批判者の戦術的投票アプリを削除  |  TechCrunch Japan](https://jp.techcrunch.com/2021/09/19/2021-09-17-apple-and-google-bow-to-pressure-in-russia-to-remove-kremlin-critics-tactical-voting-app/)
+- [グーグルがインドでAndroidの独占的地位を乱用と反トラスト調査で判明  |  TechCrunch Japan](https://techcrunch.com/2021/09/18/google-abused-dominant-position-of-android-in-india-antitrust-probe-finds/)
+- [アップルとグーグルがロシアでの圧力に屈しクレムリン批判者の戦術的投票アプリを削除  |  TechCrunch Japan](https://techcrunch.com/2021/09/17/apple-and-google-bow-to-pressure-in-russia-to-remove-kremlin-critics-tactical-voting-app/)
 - [Disentangling Disinformation: Not as Easy as it Looks | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2021/07/disentangling-disinformation-not-easy-it-looks)
   - [偽情報（デマ）を見分けるのはあなたが思うほど簡単ではない | P2Pとかその辺のお話R](https://p2ptk.org/freedom-of-speech/3345)
 - [【Excel】一瞬で文字列を分割・結合！ エクセルで作業効率を上げるフラッシュフィルの使い方 - いまさら聞けないExcelの使い方講座 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/exceltips/1349330.html)
@@ -79,8 +79,8 @@ pageType = "text"
   - [JSON整形 FOR WEB | ドットツールズ](https://atl2.net/webtool/json整形-for-web/)
 - [Box、ISMAPに登録--政府調達の対象品目に - ZDNet Japan](https://japan.zdnet.com/article/35177027/)
 - [GitHub Advisory Database now supports Rust | The GitHub Blog](https://github.blog/2021-09-23-github-advisory-database-now-supports-rust/)
-- [組み込みエンジニアがハードウェアコンポーネントに簡単に接続するためのAPIを構築する「Luos」  |  TechCrunch Japan](https://jp.techcrunch.com/2021/09/23/2021-09-21-luos-is-building-an-api-to-help-embedded-engineers-connect-easily-to-any-hardware-component/)
-- [FacebookはInstagramが10代に悪影響を及ぼすことを把握していながら子供向けアプリ立ち上げを計画、この計画はさらに有害だと考えられる  |  TechCrunch Japan](https://jp.techcrunch.com/2021/09/24/2021-09-16-facebook-instagram-for-kids-mosseri-wsj-teen-girls/)
+- [組み込みエンジニアがハードウェアコンポーネントに簡単に接続するためのAPIを構築する「Luos」  |  TechCrunch Japan](https://techcrunch.com/2021/09/21/luos-is-building-an-api-to-help-embedded-engineers-connect-easily-to-any-hardware-component/)
+- [FacebookはInstagramが10代に悪影響を及ぼすことを把握していながら子供向けアプリ立ち上げを計画、この計画はさらに有害だと考えられる  |  TechCrunch Japan](https://techcrunch.com/2021/09/16/facebook-instagram-for-kids-mosseri-wsj-teen-girls/)
 - [Nutanix、仮想ネットワーク機能を正式リリース。メモリオーバーコミット機能も追加 － Publickey](https://www.publickey1.jp/blog/21/nutanix_1.html)
 - [I Am Not Satoshi Nakamoto - Schneier on Security](https://www.schneier.com/blog/archives/2021/09/i-am-not-satoshi-nakamoto.html)
 - [Go言語が好きな理由](https://zenn.dev/moutend/articles/2edaa5d11f5ef12b5cfa) : 視覚障害の人がどうやってコードを書いてるか

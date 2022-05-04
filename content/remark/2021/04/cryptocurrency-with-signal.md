@@ -16,7 +16,7 @@ pageType = "text"
 - [Signal Adds a Payments Feature—With a Privacy-Focused Cryptocurrency | WIRED](https://www.wired.com/story/signal-mobilecoin-payments-messaging-cryptocurrency/)
 - [Signal Adds Cryptocurrency Support - Schneier on Security](https://www.schneier.com/blog/archives/2021/04/wtf-signal-adds-cryptocurrency-support.html)
 - [Et tu, Signal?](https://www.stephendiehl.com/blog/signal.html)
-- [暗号化チャットのSignalが英国でMobileCoinによる決済機能をテスト中  |  TechCrunch Japan](https://jp.techcrunch.com/2021/04/07/2021-04-06-signal-tests-payments-in-the-uk-using-mobilecoin/)
+- [暗号化チャットのSignalが英国でMobileCoinによる決済機能をテスト中  |  TechCrunch Japan](https://techcrunch.com/2021/04/06/signal-tests-payments-in-the-uk-using-mobilecoin/)
 - [メッセージングアプリSignalの暗号通貨による送金機能の追加にブルース・シュナイアーが苦言 - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20210412/signal-cryptcurrency)
 
 実はこの話はほぼスルーしていたのだが [yomoyomo さんの記事](https://yamdas.hatenablog.com/entry/20210412/signal-cryptcurrency "メッセージングアプリSignalの暗号通貨による送金機能の追加にブルース・シュナイアーが苦言 - YAMDAS現更新履歴")を見て，やはり「ログ」として残しておくのがいいだろうという気分になった。

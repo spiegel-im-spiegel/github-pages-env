@@ -73,6 +73,6 @@ pageType = "text"
 - [CSSのtext-decorationは意外と色々なスタイル調整ができる](https://zenn.dev/catnose99/articles/65c0be4b675330)
 - [Amazon S3がこれまでの「結果整合性」から「強い一貫性」サポートへ。データを更新直後でも最新データの読込みが保証されるように － Publickey](https://www.publickey1.jp/blog/20/amazon_s3ga.html)
 - [マイナンバーカードの電子証明書を更新した｜塚本 牧生｜note](https://note.com/tsukamoto/n/nff2c9443bb3f)
-- [AtlassianがJiraに新DevOpsメトリクスを導入、プロジェクトマネージャーや開発者はより深い考察が可能に  |  TechCrunch Japan](https://jp.techcrunch.com/2020/12/05/2020-12-03-atlassian-brings-new-devops-metrics-to-jira/)
-- [SlackとSalesforceの幹部が一緒になったほうがいいと考えたワケ  |  TechCrunch Japan](https://jp.techcrunch.com/2020/12/05/2020-12-04-why-slack-and-salesforce-execs-think-theyre-better-together/)
+- [AtlassianがJiraに新DevOpsメトリクスを導入、プロジェクトマネージャーや開発者はより深い考察が可能に  |  TechCrunch Japan](https://techcrunch.com/2020/12/03/atlassian-brings-new-devops-metrics-to-jira/)
+- [SlackとSalesforceの幹部が一緒になったほうがいいと考えたワケ  |  TechCrunch Japan](https://techcrunch.com/2020/12/04/why-slack-and-salesforce-execs-think-theyre-better-together/)
 - [自作キーボードでキーボードの低さを目指した話](https://zenn.dev/74th/articles/1b1c296eca2e7f)

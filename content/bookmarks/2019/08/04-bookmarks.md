@@ -26,11 +26,11 @@ pageType = "text"
 
 ## セキュリティ＆プライバシー関連
 
-- [Mozillaは悪名漂うUAEのDarkMatterをHTTPSの証明提供者として否認  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/10/2019-07-09-darkmatter-firefox-certificates/)
+- [Mozillaは悪名漂うUAEのDarkMatterをHTTPSの証明提供者として否認  |  TechCrunch Japan](https://techcrunch.com/2019/07/09/darkmatter-firefox-certificates/)
 - [MIT Tech Review: グーグル・アシスタントの音声データが漏洩、GDPR違反の疑いも](https://www.technologyreview.jp/nl/humans-might-be-listening-to-your-google-assistant-recordings/)
 - [MIT Tech Review: 位置情報などこっそり収集、グーグルがストーカーアプリを削除](https://www.technologyreview.jp/nl/google-has-booted-seven-stalkerware-apps-off-its-play-store/)
 - [クロネコメンバーズの不正ログインについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/07/27/041537)
-- [Slackが一時ダウンするも復帰  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/30/2019-07-30-yes-slack-is-down-2/)
+- [Slackが一時ダウンするも復帰  |  TechCrunch Japan](https://techcrunch.com/2019/07/30/yes-slack-is-down-2/)
 - [d払い不正使用発覚後の問合せ対応についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/07/30/065754)
 - [「VxWorks」にゼロデイ脆弱性、「URGENT/11」は2億個のデバイスに影響 - MONOist（モノイスト）](https://monoist.atmarkit.co.jp/mn/articles/1907/30/news047.html)
     - [2億台のデバイスに影響か――組み込み用リアルタイムOS「VxWorks」に11件の脆弱性を発見 - ITmedia エンタープライズ](https://www.itmedia.co.jp/enterprise/articles/1907/30/news069.html)
@@ -58,11 +58,11 @@ pageType = "text"
     - [ハワイ島、マウナケア山頂の望遠鏡建設開始へ](https://www.hawaii-arukikata.com/news/2019_0717_maunakea.html)
 - [2019年7月30日ニュース「小惑星が25日午前に地球にニアミスしていた 落下すれば都市壊滅の可能性も直前まで気づかず」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2019/07/20190730_01.html)
 - [MIT Tech Review: 原因不明の「銃創探し」からダークマターの特徴を導く新研究](https://www.technologyreview.jp/s/155344/what-a-lack-of-unexplained-gory-deaths-tells-us-about-dark-matter/)
-- [NASAの最新の惑星探索衛星が3つの新世界を見つけた  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/31/2019-07-30-nasas-newest-planet-hunting-satellite-finds-three-new-worlds/)
+- [NASAの最新の惑星探索衛星が3つの新世界を見つけた  |  TechCrunch Japan](https://techcrunch.com/2019/07/30/nasas-newest-planet-hunting-satellite-finds-three-new-worlds/)
 - [お知らせ - TMT 工事に関するマウナケアの状況について - すばる望遠鏡](https://subarutelescope.org/Announce/2019/07/19/j_index.html)
 - [David Y. Ige  |  OFFICE OF THE GOVERNOR – News Release – State extends Thirty Meter Telescope permit](https://governor.hawaii.gov/newsroom/latest-news/office-of-the-governor-news-release-state-extends-thirty-meter-telescope-permit/)
     - [TMT Granted 2-Year Time Extension, Emergency Proclamation Rescinded](https://www.bigislandvideonews.com/2019/07/30/tmt-granted-2-year-time-extension-emergency-proclamation-rescinded/)
-- [LightSail 2がついに太陽の光だけによる飛行に成功  |  TechCrunch Japan](https://jp.techcrunch.com/2019/08/01/2019-07-31-crowdfunded-lightsail-2-spacecraft-succeeds-in-flying-on-sunlight-alone/)
+- [LightSail 2がついに太陽の光だけによる飛行に成功  |  TechCrunch Japan](https://techcrunch.com/2019/07/31/crowdfunded-lightsail-2-spacecraft-succeeds-in-flying-on-sunlight-alone/)
 
 ## 知財関連
 
@@ -91,7 +91,7 @@ pageType = "text"
 - [VMware、GPUやFPGAの仮想化機能をvSphereに統合へ、「Bitfusion」買収を発表 － Publickey](https://www.publickey1.jp/blog/19/vmwaregpufpgabitfusionvsphere.html)
 - [スキルの選択と育成から始めるデータ分析組織の作り方--R言語を土台に体制構築 - ZDNet Japan](https://japan.zdnet.com/article/35140624/)
 - [旭酒造、販売管理システムの基盤強化--「獺祭」のグローバル市場拡大を狙う - ZDNet Japan](https://japan.zdnet.com/article/35140614/)
-- [「順調な上半期」という発表の裏でファーウェイが語らなかったのは「スマホの伸びゼロ」  |  TechCrunch Japan](https://jp.techcrunch.com/2019/07/31/2019-07-30-huawei-hides-quarterly-halt/)
+- [「順調な上半期」という発表の裏でファーウェイが語らなかったのは「スマホの伸びゼロ」  |  TechCrunch Japan](https://techcrunch.com/2019/07/30/huawei-hides-quarterly-halt/)
 - [<webview>からBrowserViewへの移行 - Qiita](https://qiita.com/nekobato/items/476cf1ce626626972f30)
 - [Kazuho's Weblog: HTTP のプライオリティが大きく変わろうとしている話（その他 IETF 105 雑感）](http://blog.kazuhooku.com/2019/07/http-ietf-105.html)
 - [エンタープライズ向けに磨き上げられた機能を活用して、中小規模システムのITインフラを変革する「C190」 | マイナビニュース](https://news.mynavi.jp/kikaku/20190723-860957/)

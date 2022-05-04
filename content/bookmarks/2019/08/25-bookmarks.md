@@ -23,7 +23,7 @@ pageType = "text"
 - [Don’t Let Encrypted Messaging Become a Hollow Promise | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2019/07/dont-let-encrypted-messaging-become-hollow-promise)
 - [アップル、「Safari」のトラッキング防止ポリシーを公開--対策強化へ - ZDNet Japan](https://japan.zdnet.com/article/35141410/)
 - [日本年金機構を騙る不審メールについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2019/08/20/071725)
-- [匿名制「ヘンタイ」ポルノサイトのユーザー情報110万件が流出  |  TechCrunch Japan](https://jp.techcrunch.com/2019/08/20/2019-08-19-anonymous-luscious-hentai-manga-porn-security-lapse/)
+- [匿名制「ヘンタイ」ポルノサイトのユーザー情報110万件が流出  |  TechCrunch Japan](https://techcrunch.com/2019/08/19/anonymous-luscious-hentai-manga-porn-security-lapse/)
 - [ハッカーが数年ぶりにiPhoneを脱獄。修正済み脆弱性がiOS 12.4で再発 - Engadget 日本版](https://japanese.engadget.com/2019/08/19/iphone-ios-12-4/)
 - [Bluetoothの暗号鍵ネゴシエーションに脆弱性、仕様自体を修正  - PC Watch](https://pc.watch.impress.co.jp/docs/news/1202226.html)
     - [Bluetoothデバイスに脆弱性、アップデートのチェックを | マイナビニュース](https://news.mynavi.jp/article/20190823-881375/)
@@ -49,11 +49,11 @@ pageType = "text"
 ## 天文関連
 
 - [「はやぶさ２」の再突入カプセル回収計画について  | トピックス | JAXA はやぶさ２プロジェクト](http://www.hayabusa2.jaxa.jp/topics/20190822_Capsule/)
-- [NASAが木星の衛星エウロパの「氷の海」探査ミッションを正式発表  |  TechCrunch Japan](https://jp.techcrunch.com/2019/08/21/2019-08-20-nasa-confirms-mission-to-jupiters-moon-europa-to-explore-its-icy-oceans/)
+- [NASAが木星の衛星エウロパの「氷の海」探査ミッションを正式発表  |  TechCrunch Japan](https://techcrunch.com/2019/08/20/nasa-confirms-mission-to-jupiters-moon-europa-to-explore-its-icy-oceans/)
 - [MIT Tech Review: ブラックホールが中性子星を飲み込んだときの重力波、初検出か](https://www.technologyreview.jp/nl/astronomers-might-have-spotted-a-black-hole-gobbling-up-a-neutron-star/)
 - [アルマ望遠鏡、39個の「見えない銀河」を捉える - 東京大学 大学院理学系研究科・理学部](https://www.s.u-tokyo.ac.jp/ja/press/2019/6480/)
     - [2019年8月23日ニュース「これまで見えなかった110億年も昔の銀河が見えた アルマ望遠鏡で東大、国立天文台が観測」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2019/08/20190823_01.html)
-- [日本のispaceは2021年の月面着陸、2023年のローバー月探査を目指す  |  TechCrunch Japan](https://jp.techcrunch.com/2019/08/24/2019-08-24-japans-ispace-now-aims-for-a-lunar-landing-in-2021-and-a-moon-rover-deployment-in-2023/)
+- [日本のispaceは2021年の月面着陸、2023年のローバー月探査を目指す  |  TechCrunch Japan](https://techcrunch.com/2019/08/24/japans-ispace-now-aims-for-a-lunar-landing-in-2021-and-a-moon-rover-deployment-in-2023/)
 
 ## 知財関連
 
@@ -71,11 +71,11 @@ pageType = "text"
 ## その他
 
 - [我々は今「オープンソースの黄金時代」にいるのか？ - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20190820/golden-age-of-open-source) : 既に幻滅機だと思ってたよ（笑）
-- [主要メディアはゲーマーゲート騒動の教訓から何ひとつ学んでいない  |  TechCrunch Japan](https://jp.techcrunch.com/2019/08/20/2019-08-18-the-mainstream-media-have-still-not-learned-the-lessons-of-gamergate/)
-- [手の動きを追跡するGoogleのアルゴリズムで手話を認識できるか  |  TechCrunch Japan](https://jp.techcrunch.com/2019/08/21/2019-08-19-this-hand-tracking-algorithm-could-lead-to-sign-language-recognition/)
-- [初のトランジスタ数1兆のチップを製造するためにCerebrasが克服した5つの技術的課題  |  TechCrunch Japan](https://jp.techcrunch.com/2019/08/21/2019-08-19-the-five-technical-challenges-cerebras-overcame-in-building-the-first-trillion-transistor-chip/)
+- [主要メディアはゲーマーゲート騒動の教訓から何ひとつ学んでいない  |  TechCrunch Japan](https://techcrunch.com/2019/08/18/the-mainstream-media-have-still-not-learned-the-lessons-of-gamergate/)
+- [手の動きを追跡するGoogleのアルゴリズムで手話を認識できるか  |  TechCrunch Japan](https://techcrunch.com/2019/08/19/this-hand-tracking-algorithm-could-lead-to-sign-language-recognition/)
+- [初のトランジスタ数1兆のチップを製造するためにCerebrasが克服した5つの技術的課題  |  TechCrunch Japan](https://techcrunch.com/2019/08/19/the-five-technical-challenges-cerebras-overcame-in-building-the-first-trillion-transistor-chip/)
 - [英国民も気づいていないジョンソン新政権「合意なき離脱」の現実味：国末憲人 | ヨーロッパの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](https://www.fsight.jp/articles/-/45768)
 - [MIT Tech Review: 世界最大級のAI向けメガチップ、米スタートアップが開発](https://www.technologyreview.jp/nl/the-worlds-biggest-chip-is-bigger-than-an-ipad-and-will-help-train-ai/)
-- [iOS 13のプライバシー強化が競争を阻害するとアップルを非難するデベロッパー  |  TechCrunch Japan](https://jp.techcrunch.com/2019/08/21/2019-08-19-developers-accuse-apple-of-anti-competitive-behavior-with-its-privacy-changes-in-ios-13/)
+- [iOS 13のプライバシー強化が競争を阻害するとアップルを非難するデベロッパー  |  TechCrunch Japan](https://techcrunch.com/2019/08/19/developers-accuse-apple-of-anti-competitive-behavior-with-its-privacy-changes-in-ios-13/)
 - [サイエンスクリップ「『東京2020』をレガシーに ―熱中症の科学、対策にどう生かすか―」| SciencePortal](https://scienceportal.jst.go.jp/clip/20190823_01.html)
 - [チュートリアル「AWSアカウント間のIAMロールを使用したアクセスの委任」ノート - Qiita](https://qiita.com/tsukamoto/items/b53ed8f0fa66cfaf7d67)

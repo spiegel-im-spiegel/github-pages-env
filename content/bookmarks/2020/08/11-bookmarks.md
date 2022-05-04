@@ -20,11 +20,11 @@ pageType = "text"
 
 ## バベルのインターネット
 
-- [マイクロソフトが9月15日までにTikTok買収へ、米国、カナダ、オーストラリア、ニュージーランドの事業が対象  |  TechCrunch Japan](https://jp.techcrunch.com/2020/08/03/2020-08-02-microsoft-pursuing-tiktok-purchase-with-september-15th-deadline-may-invite-u-s-investors-to-participate/)
-- [米国務長官が「米国はTikTokと他の中国のハイテク企業に対してまもなく行動を起こす可能性がある」と発言  |  TechCrunch Japan](https://jp.techcrunch.com/2020/08/03/2020-08-02-pompeo-says-u-s-may-take-action-against-tiktok-and-other-chinese-tech-companies-shortly/)
+- [マイクロソフトが9月15日までにTikTok買収へ、米国、カナダ、オーストラリア、ニュージーランドの事業が対象  |  TechCrunch Japan](https://techcrunch.com/2020/08/02/microsoft-pursuing-tiktok-purchase-with-september-15th-deadline-may-invite-u-s-investors-to-participate/)
+- [米国務長官が「米国はTikTokと他の中国のハイテク企業に対してまもなく行動を起こす可能性がある」と発言  |  TechCrunch Japan](https://techcrunch.com/2020/08/02/pompeo-says-u-s-may-take-action-against-tiktok-and-other-chinese-tech-companies-shortly/)
 - [AVG Anti-Virus Made The Pirate Bay Unusable * TorrentFreak](https://torrentfreak.com/avg-anti-virus-made-the-pirate-bay-unusable-200804/)
-- [YouTubeが中国の多数のアカウントを「政治的スパム」として削除  |  TechCrunch Japan](https://jp.techcrunch.com/2020/08/06/2020-08-05-youtube-bans-thousands-of-chinese-accounts-to-combat-coordinated-influence-operations/)
-- [中国スマホメーカーはトランプ政権の規制策で米国アプリインストール不可に  |  TechCrunch Japan](https://jp.techcrunch.com/2020/08/07/2020-08-06-trump-clean-network-china/)
+- [YouTubeが中国の多数のアカウントを「政治的スパム」として削除  |  TechCrunch Japan](https://techcrunch.com/2020/08/05/youtube-bans-thousands-of-chinese-accounts-to-combat-coordinated-influence-operations/)
+- [中国スマホメーカーはトランプ政権の規制策で米国アプリインストール不可に  |  TechCrunch Japan](https://techcrunch.com/2020/08/06/trump-clean-network-china/)
 - [米政権、「信頼できない」中国製アプリを排除へ--クラウドや海底ケーブルも - ZDNet Japan](https://japan.zdnet.com/article/35157890/)
 - [ブログ: アメリカはインターネットを分断しようとしているのか?](https://okuranagaimo.blogspot.com/2020/08/blog-post_7.html)
 - [Zoom、中国ユーザーへの提供は現地パートナーからのみに--直接販売を中止へ - ZDNet Japan](https://japan.zdnet.com/article/35157752/)
@@ -38,7 +38,7 @@ pageType = "text"
 - [Android版「Twitter」アプリでDMなどが漏洩する問題 ～OSのセキュリティ機構に不備 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1269681.html)
 - [The NSA on the Risks of Exposing Location Data - Schneier on Security](https://www.schneier.com/blog/archives/2020/08/the_nsa_on_the_.html)
 - [Yahoo! JAPAN IDで個人情報漏えい　氏名や勤務先など他人のIDに上書き　最大約39万件 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2008/06/news157.html)
-- [ハッカーがATMの「ジャックポッティング」バグを利用して現金吐き出しに成功  |  TechCrunch Japan](https://jp.techcrunch.com/2020/08/07/2020-08-06-hackers-atm-spit-cash/)
+- [ハッカーがATMの「ジャックポッティング」バグを利用して現金吐き出しに成功  |  TechCrunch Japan](https://techcrunch.com/2020/08/06/hackers-atm-spit-cash/)
 - [ハッキングフォーラムへ投稿された多数のVPNサーバーの認証情報についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2020/08/08/030102)
 
 ## 天文関連

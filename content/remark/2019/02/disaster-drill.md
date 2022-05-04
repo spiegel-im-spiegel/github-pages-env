@@ -73,7 +73,7 @@ tags = [ "security", "risk", "management", "password", "politics" ]
 
 - [なぜ日本で「国による不正アクセス」が適法に？ アクティブサイバーディフェンスとは ｜ビジネス+IT](https://www.sbbit.jp/article/cont1/35989)
 - [総務省のセキュリティ調査に「国が不正ログイン」と騒ぐ頭の悪い人たち／ひろゆき | ニコニコニュース](https://news.nicovideo.jp/watch/nw4807944)
-- [安物のIoT機器は、たとえゴミ箱に叩き込んだあとでも持ち主を裏切り続ける  |  TechCrunch Japan](https://jp.techcrunch.com/2019/02/01/2019-01-30-cheap-internet-of-things-gadgets-betray-you-even-after-you-toss-them-in-the-trash/)
+- [安物のIoT機器は、たとえゴミ箱に叩き込んだあとでも持ち主を裏切り続ける  |  TechCrunch Japan](https://techcrunch.com/2019/01/30/cheap-internet-of-things-gadgets-betray-you-even-after-you-toss-them-in-the-trash/)
 - [政府“IoT機器2億台にサイバー攻撃”が疑問視される4つの理由 - 「NOTICE」20日から実施 | Beyond（ビヨンド）](https://boxil.jp/beyond/a6051/)
 
 - [リスク認知とトレードオフ]({{< ref "/remark/2016/02/risk-trade-off.md" >}})

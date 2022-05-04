@@ -38,9 +38,9 @@ pageType = "text"
 - [ヴイエムウェアに見るゼロトラストセキュリティの方向性 - ZDNet Japan](https://japan.zdnet.com/article/35160414/)
 - [On Risk-Based Authentication - Schneier on Security](https://www.schneier.com/blog/archives/2020/10/on-risk-based-authentication.html)
 - [Why Your iPhone Has So Many New Privacy Alerts in iOS 14 | Wirecutter](https://www.nytimes.com/wirecutter/blog/iphone-ios-14-privacy-alerts/)
-- [Slackが企業間メッセージングを容易にするセキュリティ機能を新導入、ビデオ・音声埋め込み機能も実験中  |  TechCrunch Japan](https://jp.techcrunch.com/2020/10/07/2020-10-07-slack-introduces-new-features-to-ease-messaging-between-business-partners/)
+- [Slackが企業間メッセージングを容易にするセキュリティ機能を新導入、ビデオ・音声埋め込み機能も実験中  |  TechCrunch Japan](https://techcrunch.com/2020/10/07/slack-introduces-new-features-to-ease-messaging-between-business-partners/)
 - [ゆうちょ銀の「mijica」で新たな不正か　カードが届く前に番号を盗み商品購入 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2010/07/news080.html)
-- [セキュリティ上の脆弱性により永久股間ロックの危険にさらされた「スマートな」貞操玩具  |  TechCrunch Japan](https://jp.techcrunch.com/2020/10/07/2020-10-06-qiui-smart-chastity-sex-toy-security-flaw/)
+- [セキュリティ上の脆弱性により永久股間ロックの危険にさらされた「スマートな」貞操玩具  |  TechCrunch Japan](https://techcrunch.com/2020/10/06/qiui-smart-chastity-sex-toy-security-flaw/)
 - [アップル独自のセキュリティチップ「T2」に潜む、修正できない脆弱性の深刻度 | WIRED.jp](https://wired.jp/2020/10/08/apple-t2-chip-unfixable-flaw-jailbreak-mac/)
 
 ## 天文関連

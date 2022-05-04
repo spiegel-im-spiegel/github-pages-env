@@ -42,7 +42,7 @@ image = "/images/avatar.jpg"
 
 - [Linux Kernelにシステムクラッシュを引き起こす可能性のある脆弱性 | Think IT（シンクイット）](https://thinkit.co.jp/news/bn/15654)
 - [米国家安全保障局、リバースエンジニアリングツール「GHIDRA」を公開へ - ZDNet Japan](https://japan.zdnet.com/article/35130881/)
-- [悪名高いAndroid向けマルウェアがiPhoneゲームにも潜入――専門家がGolduck汚染アプリを多数発見  |  TechCrunch Japan](https://jp.techcrunch.com/2019/01/07/2019-01-05-dozen-iphone-apps-linked-to-golduck-malware/)
+- [悪名高いAndroid向けマルウェアがiPhoneゲームにも潜入――専門家がGolduck汚染アプリを多数発見  |  TechCrunch Japan](https://techcrunch.com/2019/01/05/dozen-iphone-apps-linked-to-golduck-malware/)
 - [ハードウェア非依存の新たなサイドチャネル攻撃“Page Cache Attacks”が発表 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1163514.html)
 - [オーストラリアの気象情報サービスの不正アクセスについてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20190108/1546958256)
 - [Microsoft 製品の脆弱性対策について(2019年1月) ：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/20190109-ms.html)
@@ -66,7 +66,7 @@ image = "/images/avatar.jpg"
 - [2019年1月8日ニュース「太陽系外縁の遠い天体は雪だるま形だった　新年早々に米探査機『ニューホライズンズ』が捉える」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2019/01/20190108_01.html)
 - [[1812.08681] NASA and the Search for Technosignatures: A Report from the NASA Technosignatures Workshop](https://arxiv.org/abs/1812.08681)
 - [Low-Frequency Sounds From Deep Space Puzzle Experts | KCBS 740AM | 106.9 FM](https://kcbsradio.radio.com/media/audio-channel/low-frequency-sounds-deep-space-puzzle-experts)
-    - [銀河系外からの高速電波バースト（FRB）が多数発見される  |  TechCrunch Japan](https://jp.techcrunch.com/2019/01/10/2019-01-09-astronomers-spot-more-mysterious-radio-signals-from-far-outside-the-galaxy/)
+    - [銀河系外からの高速電波バースト（FRB）が多数発見される  |  TechCrunch Japan](https://techcrunch.com/2019/01/09/astronomers-spot-more-mysterious-radio-signals-from-far-outside-the-galaxy/)
 
 ## 知財関連
 
@@ -76,7 +76,7 @@ image = "/images/avatar.jpg"
 
 - [ブロックチェーンを用いた新たなスマート・コントラクト技術Plutus（プルータス）とは？ - CNET Japan](https://japan.cnet.com/article/35130700/)
 - [New year, new GitHub: Announcing unlimited free private repos and unified Enterprise offering | The GitHub Blog](https://blog.github.com/2019-01-07-new-year-new-github/)
-    - [朗報、GitHub無料ユーザーも無制限にプライベートリポジトリを使えるようになる  |  TechCrunch Japan](https://jp.techcrunch.com/2019/01/08/2019-01-07-github-free-users-now-get-unlimited-private-repositories/)
+    - [朗報、GitHub無料ユーザーも無制限にプライベートリポジトリを使えるようになる  |  TechCrunch Japan](https://techcrunch.com/2019/01/07/github-free-users-now-get-unlimited-private-repositories/)
     - [GitHub、無料ユーザーもプライベートリポジトリを無制限に作成可能に － Publickey](https://www.publickey1.jp/blog/19/github_4.html)
     - [“GitHub”の非公開リポジトリ、無償プランでも無制限に ～新しい料金プランが発表 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1161195.html)
 - [Raspberry Pi財団、オープンなCPUを実現する「RISC-V Foundation」へ参加表明 － Publickey](https://www.publickey1.jp/blog/19/raspberry_picpurisc-v_foundation.html)

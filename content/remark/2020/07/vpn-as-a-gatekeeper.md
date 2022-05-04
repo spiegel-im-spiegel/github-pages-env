@@ -176,7 +176,7 @@ With a dedicated IP-address, which is often sold as an add-on, users get a uniqu
 - [Mozilla’s VPN launches out of beta on Windows and Android - The Verge](https://www.theverge.com/platform/amp/2020/7/15/21325316/mozilla-vpn-android-windows-launch-firefox-private-network-price)
 - [NSA on Securing VPNs - Schneier on Security](https://www.schneier.com/blog/archives/2020/07/nsa_on_securing.html)
 - [テレワークを行う際のセキュリティ上の注意事項：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/announce/telework.html)
-- [人気の無料VPNではプライバシーは保護されていない  |  TechCrunch Japan](https://jp.techcrunch.com/2020/09/29/2020-09-24-free-vpn-bad-for-privacy/)
+- [人気の無料VPNではプライバシーは保護されていない  |  TechCrunch Japan](https://techcrunch.com/2020/09/24/free-vpn-bad-for-privacy/)
 
 - [監視をコントロールする](https://baldanders.info/blog/000490/)
 

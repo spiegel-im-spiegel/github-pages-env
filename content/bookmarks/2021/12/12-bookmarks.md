@@ -34,7 +34,7 @@ pageType = "text"
   - [New German Government is Pro-Encryption and Anti-Backdoors - Schneier on Security](https://www.schneier.com/blog/archives/2021/12/new-german-government-is-pro-encryption-and-anti-backdoors.html)
 - [A mysterious threat actor is running hundreds of malicious Tor relays - The Record by Recorded Future](https://therecord.media/a-mysterious-threat-actor-is-running-hundreds-of-malicious-tor-relays/)
   - [Someone Is Running Lots of Tor Relays - Schneier on Security](https://www.schneier.com/blog/archives/2021/12/someone-is-running-lots-of-tor-relays.html)
-- [米国がウィキリークス創設者アサンジ氏の身柄引き渡しを求める訴えで勝訴  |  TechCrunch Japan](https://jp.techcrunch.com/2021/12/11/2021-12-10-us-wins-assange-extradition-appeal/)
+- [米国がウィキリークス創設者アサンジ氏の身柄引き渡しを求める訴えで勝訴  |  TechCrunch Japan](https://techcrunch.com/2021/12/10/us-wins-assange-extradition-appeal/)
 - [Windows 10 RCE: The exploit is in the link | Positive Security](https://positive.security/blog/ms-officecmd-rce)
   - [Windows 10/11でリンクを踏むときは注意 ～URIハンドラーの不備にセキュリティ会社が警鐘 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1373307.html)
 - [シスコ、Apache HTTP Serverの既知の脆弱性に関するアドバイザリ公開 | TECH+](https://news.mynavi.jp/techplus/article/20211210-2222944/)

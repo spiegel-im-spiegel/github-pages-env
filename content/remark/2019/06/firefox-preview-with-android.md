@@ -14,7 +14,7 @@ pageType = "text"
 Android に [Firefox Preview] なるものが登場したらしい。
 
 - [Android版「Firefox」のテスト用プレビューが公開--高速化、プライバシー強化 - ZDNet Japan](https://japan.zdnet.com/article/35139189/)
-- [Mozillaが最大2倍高速なAndroid版Firefoxをプレビュー  |  TechCrunch Japan](https://jp.techcrunch.com/2019/06/28/2019-06-27-mozilla-previews-a-redesigned-and-faster-firefox-for-android/)
+- [Mozillaが最大2倍高速なAndroid版Firefoxをプレビュー  |  TechCrunch Japan](https://techcrunch.com/2019/06/27/mozilla-previews-a-redesigned-and-faster-firefox-for-android/)
 
 さっそく導入してみた。
 こんな感じ。

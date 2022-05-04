@@ -55,7 +55,7 @@ flattr    = ""
 
 ## その他
 
-- [Bitcoinなどほとんどの暗号通貨が暴落、その後一時的な取引休止も  |  TechCrunch Japan](https://jp.techcrunch.com/2017/12/23/2017-12-22-bitcoin-crypto-crashed-hard/)
+- [Bitcoinなどほとんどの暗号通貨が暴落、その後一時的な取引休止も  |  TechCrunch Japan](https://techcrunch.com/2017/12/22/bitcoin-crypto-crashed-hard/)
 - [高速でき裂が完治する自己治癒セラミックスを開発  | NIMS](http://www.nims.go.jp/news/press/2017/12/201712210.html)
 - [高速で低消費電力な分散型台帳「Hashgraph」、米企業が公表──新たな技術はブロックチェーンを越えるか｜WIRED.jp](https://wired.jp/2017/12/19/blockchain-and-hashgraph/)
 - [OSSコミュニティの継続性](https://www.allbsd.org/~hrs/blog/2017-01-03-community.html)
@@ -63,7 +63,7 @@ flattr    = ""
 - [約6万の漢字の文字コードが国際規格に--推進活動は延べ15年 - ZDNet Japan](https://japan.zdnet.com/article/35112446/)
 - [「Firefox Quantum」の高速化、モジラのエンジニアが隠し技の1つを明らかに - ZDNet Japan](https://japan.zdnet.com/article/35112435/)
 - [声優がbacklogを使ってみた – 声優＆ディレクターさんの手仕事帖](http://reco.ciao.jp/cn2/2017/12/3760/)
-- [AIチップスタートアップの競争は既に始まっている | TechCrunch Japan](https://jp.techcrunch.com/2017/12/25/2017-12-24-the-ai-chip-startup-explosion-is-already-here/)
+- [AIチップスタートアップの競争は既に始まっている | TechCrunch Japan](https://techcrunch.com/2017/12/24/the-ai-chip-startup-explosion-is-already-here/)
 - [Eメールとタスク管理プロトコル - Joi Ito's Web - JP](https://joi.ito.com/jp/archives/2017/12/22/005655.html)
 - [超高速エンジンの内部：Quantum CSS（別名Stylo）- 後編 | プログラミング | POSTD](http://postd.cc/inside-a-super-fast-css-engine-quantum-css-aka-stylo-2/)
 - [イマドキのJavaScriptの書き方2018 - Qiita](https://qiita.com/shibukawa/items/19ab5c381bbb2e09d0d9)

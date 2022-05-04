@@ -69,7 +69,7 @@ flattr    = ""
 
 - [新訳版『テスト駆動開発』が出ます - t-wadaのブログ](http://t-wada.hatenablog.jp/entry/tddbook)
 - [“フェイスブック、グーグルはメディア”、英政府が規制強化を検討 | 新聞紙学的](https://kaztaira.wordpress.com/2017/10/14/%e3%83%95%e3%82%a7%e3%82%a4%e3%82%b9%e3%83%96%e3%83%83%e3%82%af%e3%80%81%e3%82%b0%e3%83%bc%e3%82%b0%e3%83%ab%e3%81%af%e3%83%a1%e3%83%87%e3%82%a3%e3%82%a2%e3%80%81%e8%8b%b1%e6%94%bf%e5%ba%9c/)
-- [Pi-Topがハードウェアとソフトウェア学習用の新しいラップトップを発表 | TechCrunch Japan](https://jp.techcrunch.com/2017/10/14/20171013pi-top-outs-a-new-laptop-for-budding-coders-and-hardware-hackers/)
+- [Pi-Topがハードウェアとソフトウェア学習用の新しいラップトップを発表 | TechCrunch Japan](https://techcrunch.com/2017/10/13/pi-top-outs-a-new-laptop-for-budding-coders-and-hardware-hackers/)
 - [Facebookが、巧妙な「政治広告」の規制に頭を悩ませている──ザッカーバーグ、透明性確保へ変心のワケ｜WIRED.jp](https://wired.jp/2017/10/14/facebook-political-ads/)
 - [検索画面を表示せずに目的のディレクトリに飛べて、history機能も備えたcdコマンド拡張gcdを作ってみた - Qiita](https://qiita.com/aimof/items/4c547277b22113949aad)
 - [北大、常温で動作する水素分離膜を開発、水素社会に道 - 日経テクノロジーオンライン](http://techon.nikkeibp.co.jp/atcl/news/16/101309528/?rt=nocnt)
@@ -91,7 +91,7 @@ flattr    = ""
 - [囲碁ソフト「銀星囲碁」が日本棋院のアマチュア最高段位・八段の免状を取得 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1086488.html)
 - [モリサワの「UDデジタル教科書体」が「Windows 10 Fall Creators Update」に採用 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1086484.html)
 - [Microsoft、「.NET Framework 4.7.1」の一般提供を開始 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1086812.html)
-- [Nvidiaに負けたくないIntelがニューラルネットワーク専用プロセッサーNervanaを年内発売 | TechCrunch Japan](https://jp.techcrunch.com/2017/10/18/20171017intel-to-ship-new-nervana-neural-network-processor-by-end-of-2017/)
+- [Nvidiaに負けたくないIntelがニューラルネットワーク専用プロセッサーNervanaを年内発売 | TechCrunch Japan](https://techcrunch.com/2017/10/17/intel-to-ship-new-nervana-neural-network-processor-by-end-of-2017/)
 - [「投票しろ！だけ言うのは無責任」26歳が作った“頑張らない”選挙情報サイト](https://www.buzzfeed.com/jp/harunayamazaki/japan-choice)
 - [モリサワ、「UDフォント」3種を無償提供 ～“MORISAWA BIZ+”のサービスが開始 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1086785.html) : [Twitter で教えてもらった](https://twitter.com/o_tamon/status/920548458028605443)のだが「日本でフォントサブスクリプション制が始まって、今年は15周年」らしい。もの知らずでゴメン
 - [人工知能が金融を支配する日：株式会社日立総合計画研究所](http://www.hitachi-hri.com/bookreview/b121.html)
