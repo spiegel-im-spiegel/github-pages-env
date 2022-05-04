@@ -38,7 +38,7 @@ pageType = "text"
 - [圏論と学びをめぐる往復書簡 | talk.hyuki.net](https://talk.hyuki.net/)
 - [How an Alzheimer’s ‘cabal’ thwarted progress toward a cure - STAT](https://www.statnews.com/2019/06/25/alzheimers-cabal-thwarted-progress-toward-cure/)
     - [ブログ: アルツハイマー病の「陰謀」が何十年もの間治療法の進歩を妨げたという悲惨な物語](https://okuranagaimo.blogspot.com/2020/01/blog-post.html)
-- [元Googleのポリシー責任者が人権を軽視した社内事情を揶揄 – TechCrunch Japan](https://jp.techcrunch.com/2020/01/03/2020-01-02-ex-google-policy-chief-dumps-on-the-tech-giant-for-dodging-human-rights/amp/?__twitter_impression=true)
+- [元Googleのポリシー責任者が人権を軽視した社内事情を揶揄 – TechCrunch Japan](https://techcrunch.com/2020/01/02/ex-google-policy-chief-dumps-on-the-tech-giant-for-dodging-human-rights/)
 - [Hugo Modulesとは | Hugo 入門 / 解説 | nasust dev blog](https://nasust.com/hugo/tips/mounts/)
 - [インターネット分断時代にあってGoogleの影響力は急速に失われつつある  |  TechCrunch Japan](https://jp.techcrunch.com/2020/01/04/2020-01-02-google-has-little-choice-to-be-evil-or-not-in-todays-fractured-internet/)
 - [アイザック・アシモフ生誕100年を迎えて  |  TechCrunch Japan](https://jp.techcrunch.com/2020/01/04/2020-01-02-reading-isaac-asimov-at-100/)

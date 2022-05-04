@@ -32,7 +32,7 @@ flattr    = ""
 
 - {{< pdf-file title="Spinner: Semi-Automatic Detection of Pinning without Hostname Verification" link="http://www.cs.bham.ac.uk/~garciaf/publications/spinner.pdf" >}}
     - [Security Vulnerabilities in Certificate Pinning - Schneier on Security](https://www.schneier.com/blog/archives/2017/12/security_vulner_10.html)
-- [一部のHPラップトップにキイロガー（ただしデフォルトでは動作していない）が潜んでいることが発覚 – TechCrunch Japan](https://jp.techcrunch.com/2017/12/12/2017-12-11-some-hp-laptops-are-hiding-a-deactivated-keylogger/amp/)
+- [一部のHPラップトップにキイロガー（ただしデフォルトでは動作していない）が潜んでいることが発覚 – TechCrunch Japan](https://techcrunch.com/2017/12/11/some-hp-laptops-are-hiding-a-deactivated-keylogger/)
 - [MSのマルウェア対策エンジンに脆弱性、更新プログラム公開--GCHQ関連組織が発見 - ZDNet Japan](https://japan.zdnet.com/article/35111708/)
 - [サイバー攻撃を読み解く - Office文書にリンク埋め込むDDEを悪用、攻撃の影響は広範囲に及ぶ：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/17/110800501/120600002/?rt=nocnt)
 - [プログラミング言語に潜む脆弱性がアプリを危険にさらす？--研究者報告 - ZDNet Japan](https://japan.zdnet.com/article/35111775/)
