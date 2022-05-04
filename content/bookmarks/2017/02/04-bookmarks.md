@@ -24,7 +24,7 @@ date = "2017-02-04T12:06:42+09:00"
 - [MicrosoftやTwitterなど、大手IT企業が続々とトランプ大統領令に懸念を表明 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1701/29/news020.html)
     - [FacebookのCEOとCOO、トランプ大統領令にそれぞれ懸念表明 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1701/29/news016.html)
     - [トランプ大統領を提訴したACLUと移民が小さな勝利──大統領令の部分的な執行停止 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1701/30/news067.html)
-    - [Airbnb、入国拒否命令の被害者に無料宿泊を提供 | TechCrunch Japan](http://jp.techcrunch.com/2017/01/30/20170129airbnb-free-housing-immigration-ban/)
+    - [Airbnb、入国拒否命令の被害者に無料宿泊を提供 | TechCrunch Japan](https://jp.techcrunch.com/2017/01/30/20170129airbnb-free-housing-immigration-ban/)
     - [Monday Morning Briefing: A weekend of panic and protest | Reuters](http://www.reuters.com/article/us-newsnow-immigration-idUSKBN15E1BP)
 - [New Rules on Data Privacy for Non-US Citizens - Schneier on Security](https://www.schneier.com/blog/archives/2017/01/new_rules_on_da.html)
 - [米国の英雄か、裏切り者か？ | THE ZERO/ONE](https://the01.jp/p0004219/)
@@ -54,7 +54,7 @@ date = "2017-02-04T12:06:42+09:00"
 
 ## その他
 
-- [Apple、イラン製iOSアプリをApp Storeから削除しているとの報道 | TechCrunch Japan](http://jp.techcrunch.com/2017/01/30/20170129apple-has-allegedly-begun-removing-iranian-ios-apps-from-the-app-store/)
+- [Apple、イラン製iOSアプリをApp Storeから削除しているとの報道 | TechCrunch Japan](https://jp.techcrunch.com/2017/01/30/20170129apple-has-allegedly-begun-removing-iranian-ios-apps-from-the-app-store/)
 - [Google、書籍「Site Reliability Engineering」の無料公開を開始。インフラや運用をソフトウェアで改善していく新しいアプローチ － Publickey](http://www.publickey1.jp/blog/17/googlesite_reliability_engineering.html)
 - [組織における内部不正防止ガイドライン：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/fy24/reports/insider/index.html)
 - [部分文字列とRegExpの領域の冒険 | 未分類 | POSTD](http://postd.cc/making-less-dart-faster/)
@@ -63,7 +63,7 @@ date = "2017-02-04T12:06:42+09:00"
 - [「Microsoft以外のウイルス対策ソフトは害悪なので入れるべきではない」とMozillaの元開発者が告白 - GIGAZINE](http://gigazine.net/news/20170131-stop-using-antivirus/)
 - [GitHubにトピック（タグ）機能が追加されました - Qiita](http://qiita.com/howdy39/items/fe8b51ec042098587cf1)
 - [Qiita/Github/Slack/Discord 絵文字一覧 - Qiita](http://qiita.com/koukun/items/ae673f2bae8f1525b6af)
-- [最速0.2秒で翻訳、ネット回線不要のウェアラブル音声翻訳デバイス「ili（イリー）」——ログバーがお披露目 | TechCrunch Japan](http://jp.techcrunch.com/2017/01/31/ili-transtration/)
+- [最速0.2秒で翻訳、ネット回線不要のウェアラブル音声翻訳デバイス「ili（イリー）」——ログバーがお披露目 | TechCrunch Japan](https://jp.techcrunch.com/2017/01/31/ili-transtration/)
 - [台所のぬめりに集まった細菌は「電気信号」でコミュニケーションしている：研究結果｜WIRED.jp](http://wired.jp/2017/01/30/bacteria-can-use-electricity/)
 - [ニフティの再編について ｜ニュースリリース｜ニフティ株式会社：ニフティとなら、きっとかなう。With Us, You Can.](http://www.nifty.co.jp/cs/newsrelease/detail/170131004607/1.htm)
 - [バージョンの充足可能性問題 | コンピュータサイエンス | POSTD](http://postd.cc/version-sat/)
@@ -76,7 +76,7 @@ date = "2017-02-04T12:06:42+09:00"
 - [Chromium Blog: Open-sourcing Chrome on iOS!](https://japan.zdnet.com/article/35095862/)
     - [グーグル、iOS版「Chrome」をオープンソース化 - ZDNet Japan](https://japan.zdnet.com/article/35095862/)
 - [さようなら、オバマ「あなたは史上最悪の爆弾魔でした」 | プレジデントオンライン | PRESIDENT Online](http://president.jp/articles/-/21210)
-- [Nayuta、ビットコインで安全な即時決済を実現する技術を開発 | TechCrunch Japan](http://jp.techcrunch.com/2017/02/02/nayuta-implements-safe-realtime-payment-with-bitcoin/)
+- [Nayuta、ビットコインで安全な即時決済を実現する技術を開発 | TechCrunch Japan](https://jp.techcrunch.com/2017/02/02/nayuta-implements-safe-realtime-payment-with-bitcoin/)
 - [JASRACが音楽教室からも著作権使用料を徴収しようとする法的根拠は何か？(栗原潔) - 個人 - Yahoo!ニュース](http://bylines.news.yahoo.co.jp/kuriharakiyoshi/20170202-00067263/)
     - [JASRACを気にせずに音楽を演奏できるのはどのような場合か(栗原潔) - 個人 - Yahoo!ニュース](http://bylines.news.yahoo.co.jp/kuriharakiyoshi/20170203-00067314/)
     - [JASRAC、音楽教室から著作権料徴収へ　業界は反発「演奏権及ばない」 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1702/02/news065.html)
@@ -89,4 +89,4 @@ date = "2017-02-04T12:06:42+09:00"
 - [PXrubrica パッケージ ～美しい日本のルビ組版～ [電脳世界の奥底にて]](http://zrbabbler.sp.land.to/pxrubrica.html)
     - [LaTeX 文書で“美しい日本の”ルビを使う ～pxrubrica パッケージ～ - Qiita](http://qiita.com/zr_tex8r/items/42466cbcbeb670a3a2dc)
 - [スマホケースと一体化！　超薄型のセルフィードローン「SELFLY Camera」 | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_02_03_drone.html)
-- [米運輸省、2023年までに全新規車両の「車-車間通信」を義務化 | TechCrunch Japan](http://jp.techcrunch.com/2017/02/03/20170202all-new-cars-could-have-v2v-tech-by-2023/)
+- [米運輸省、2023年までに全新規車両の「車-車間通信」を義務化 | TechCrunch Japan](https://jp.techcrunch.com/2017/02/03/20170202all-new-cars-could-have-v2v-tech-by-2023/)

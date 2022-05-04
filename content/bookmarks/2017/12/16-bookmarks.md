@@ -32,7 +32,7 @@ flattr    = ""
 
 - {{< pdf-file title="Spinner: Semi-Automatic Detection of Pinning without Hostname Verification" link="http://www.cs.bham.ac.uk/~garciaf/publications/spinner.pdf" >}}
     - [Security Vulnerabilities in Certificate Pinning - Schneier on Security](https://www.schneier.com/blog/archives/2017/12/security_vulner_10.html)
-- [一部のHPラップトップにキイロガー（ただしデフォルトでは動作していない）が潜んでいることが発覚 – TechCrunch Japan](http://jp.techcrunch.com/2017/12/12/2017-12-11-some-hp-laptops-are-hiding-a-deactivated-keylogger/amp/)
+- [一部のHPラップトップにキイロガー（ただしデフォルトでは動作していない）が潜んでいることが発覚 – TechCrunch Japan](https://jp.techcrunch.com/2017/12/12/2017-12-11-some-hp-laptops-are-hiding-a-deactivated-keylogger/amp/)
 - [MSのマルウェア対策エンジンに脆弱性、更新プログラム公開--GCHQ関連組織が発見 - ZDNet Japan](https://japan.zdnet.com/article/35111708/)
 - [サイバー攻撃を読み解く - Office文書にリンク埋め込むDDEを悪用、攻撃の影響は広範囲に及ぶ：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/17/110800501/120600002/?rt=nocnt)
 - [プログラミング言語に潜む脆弱性がアプリを危険にさらす？--研究者報告 - ZDNet Japan](https://japan.zdnet.com/article/35111775/)
@@ -75,7 +75,7 @@ flattr    = ""
 - {{< pdf-file title="2018年の小惑星リュウグウ到着にむけて小惑星探査機「はやぶさ２」の近況" link="http://fanfun.jaxa.jp/jaxatv/files/20171214_hayabusa2.pdf" >}}
     - [小惑星探査機「はやぶさ2」の記者説明会 | ファン!ファン!JAXA!](http://fanfun.jaxa.jp/jaxatv/detail/11078.html)
 - [NASA、GoogleのAI支援で8惑星の恒星系「Kepler 90」を発見 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1712/15/news065.html)
-- [恒星間天体「オウムウムア」、観察結果から人工的信号の証拠は見つからず  |  TechCrunch Japan](http://jp.techcrunch.com/2017/12/15/2017-12-14-observation-of-interstellar-object-oumuamua-shows-no-evidence-of-artificial-signals/)
+- [恒星間天体「オウムウムア」、観察結果から人工的信号の証拠は見つからず  |  TechCrunch Japan](https://jp.techcrunch.com/2017/12/15/2017-12-14-observation-of-interstellar-object-oumuamua-shows-no-evidence-of-artificial-signals/)
 
 ## 知財関連
 

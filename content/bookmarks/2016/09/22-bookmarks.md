@@ -28,7 +28,7 @@ title = "2016-09-22 のブックマーク"
 - [GM「2050年までに100％再生可能エネルギー」を約束｜WIRED.jp](http://wired.jp/2016/09/21/gm-100-renewable-power/)
 - [ドコモら、稲作やマツ枯れ対策にドローン活用--新潟市と実証プロジェクト - CNET Japan](http://japan.cnet.com/news/business/35089367/)
 - [第四次産業革命に向けた横断的制度研究会報告書を取りまとめました（METI/経済産業省）](http://www.meti.go.jp/press/2016/09/20160915001/20160915001.html)
-- [北朝鮮の不注意ですべての.KPドメインのURLがリーク、それらは多くなかった | TechCrunch Japan](http://jp.techcrunch.com/2016/09/21/20160920north-korea-accidentally-lets-slip-all-its-kp-domains-and-there-arent-many/)
+- [北朝鮮の不注意ですべての.KPドメインのURLがリーク、それらは多くなかった | TechCrunch Japan](https://jp.techcrunch.com/2016/09/21/20160920north-korea-accidentally-lets-slip-all-its-kp-domains-and-there-arent-many/)
 - [「Firefox」のアドオン更新機能に脆弱性、「Tor Browser」が一足先にアップデート - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1020948.html)
 - [Google、大規模アップデートした「Android Studio 2.2」を正式公開 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1020934.html)
 - [【レビュー】Webブラウザーの動作を妨げる迷惑ソフトを一掃してくれるGoogle製のクリーナーツール - 窓の杜](http://forest.watch.impress.co.jp/docs/review/1020170.html)

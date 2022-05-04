@@ -233,13 +233,13 @@ Google が言う “don't be evil" も市場に対するメッセージである
 
 - [『そろそろ、人工知能の真実を話そう』シンギュラリティ仮説の背後にうごめくもの - HONZ](http://honz.jp/articles/-/44063)
 - [AI時代に「哲学」は何を果たせるか？ 『そろそろ、人工知能の真実を話そう』著者に訊く｜WIRED.jp](https://wired.jp/2017/07/04/jean-gabriel-ganascia/)
-- [GoogleのAIのトップは曰く、人工知能という言葉自体が間違っている、誇大宣伝を生む温床だ | TechCrunch Japan](http://jp.techcrunch.com/2017/09/20/20170919googles-ai-chief-thinks-reports-of-the-ai-apocalypse-are-greatly-exaggerated/)
+- [GoogleのAIのトップは曰く、人工知能という言葉自体が間違っている、誇大宣伝を生む温床だ | TechCrunch Japan](https://jp.techcrunch.com/2017/09/20/20170919googles-ai-chief-thinks-reports-of-the-ai-apocalypse-are-greatly-exaggerated/)
 - [「マスターアルゴリズム」著者が預言する人工知能の未来 | ROBOTEER](https://roboteer-tokyo.com/archives/6203)
     - [10年後の未来、面接やデートはオンライン分身がこなす！？ | ROBOTEER](https://roboteer-tokyo.com/archives/2155)
 - [「人工知能で神を」 元Googleエンジニアが宗教団体を創立](http://www.huffingtonpost.jp/amp/2017/10/12/anthony-levandowski_a_23241928/) : ネタがマジに！ つか，ホンマにネタじゃないのか？
 - [MIT Tech Review: シンギュラリティは来ない、AIの未来予想でよくある7つの勘違い](https://www.technologyreview.jp/s/58257/the-seven-deadly-sins-of-ai-predictions/)
 - ~~[人型ロボットに市民権を与えた最初の国家が登場 - GIGAZINE](http://gigazine.net/news/20171027-citizenship-humanoid-robot/)~~ : なんか fakenews ? という話もあるようだ。判断できないので，いったん保留
-- [役に立つAIシステムを作ることは、まだまだ難しい  |  TechCrunch Japan](http://jp.techcrunch.com/2018/01/05/2018-01-01-building-ai-systems-that-work-is-still-hard/)
+- [役に立つAIシステムを作ることは、まだまだ難しい  |  TechCrunch Japan](https://jp.techcrunch.com/2018/01/05/2018-01-01-building-ai-systems-that-work-is-still-hard/)
 - [シリコンバレーが警告するAIの恐怖、その本質を「メッセージ」原作者が分析](https://www.buzzfeed.com/jp/tedchiang/the-real-danger-to-civilization-isnt-ai-its-runaway-1)
     - [ネット広告から権力者による監視まで～AIのアルゴリズムが導くディストピアへの道 - YAMDAS現更新履歴](http://d.hatena.ne.jp/yomoyomo/20180122/zeyneptufekci)
 - [ロボットの進化は「シンギュラリティ」の脅威をもたらさない。訪れるのは「マルチプリシティ」な未来だ｜WIRED.jp](https://wired.jp/2018/01/31/lets-talk-about-the-multiplicity/)

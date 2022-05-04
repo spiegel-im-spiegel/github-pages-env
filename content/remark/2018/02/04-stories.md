@@ -54,7 +54,7 @@ tags        = [ "astronomy", "ephemeris", "security", "medical", "risk", "manage
 - [Coincheckで発生した暗号通貨NEMの不正送金事案についてまとめてみた - piyolog](http://d.hatena.ne.jp/Kango/20180126/1517012654)
 - [コインチェックからのNEM流出、なぜ安全対策が遅れたのか(楠正憲) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/kusunokimasanori/20180128-00080965/)
     - [コインチェック事件から1週間、よく聞かれた疑問と今後の論点(楠正憲) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/kusunokimasanori/20180204-00081229/)
-- [金融庁がコインチェックへの立入検査、CAMPFIREなどみなし仮想通貨交換業者15社にも報告徴求命令  |  TechCrunch Japan](http://jp.techcrunch.com/2018/02/02/fsa-coincheck/)
+- [金融庁がコインチェックへの立入検査、CAMPFIREなどみなし仮想通貨交換業者15社にも報告徴求命令  |  TechCrunch Japan](https://jp.techcrunch.com/2018/02/02/fsa-coincheck/)
 
 一応，重大なセキュリティ・インシデント（かつ現在進行形）なんで挙げておくけど，個人的には[「仮想通貨」]の投機には小指の先ほども興味が無いので完全に他人事である。
 だいたい，あんな短期間に価値が乱高下する通貨なんか取引に使えないだろ。

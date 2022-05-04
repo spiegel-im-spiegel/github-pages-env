@@ -23,7 +23,7 @@ title = "2017-04-08 のブックマーク"
 
 - [米政府、専門職ビザの発給要件を厳格化--IT企業に影響か - CNET Japan](https://japan.cnet.com/article/35099211/)
 - [個人情報保護巡る米プロバイダー規制撤廃、大統領が法案に署名 | ロイター](http://jp.reuters.com/article/usa-internet-trump-idJPKBN176015)
-- [インターネットプロバイダーのプライバシー保護要件を無にする決定にトランプ大統領が署名 | TechCrunch Japan](http://jp.techcrunch.com/2017/04/04/20170403trump-signs-resolution-removing-privacy-requirements-for-internet-providers/)
+- [インターネットプロバイダーのプライバシー保護要件を無にする決定にトランプ大統領が署名 | TechCrunch Japan](https://jp.techcrunch.com/2017/04/04/20170403trump-signs-resolution-removing-privacy-requirements-for-internet-providers/)
 - [バノン氏、米NSC常任から外れる 新補佐官が人事再編　写真2枚　国際ニュース：AFPBB News](http://www.afpbb.com/articles/-/3124075)
 
 - [米国のシリア攻撃について : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/15911911.html)
@@ -79,7 +79,7 @@ title = "2017-04-08 のブックマーク"
 - [人工知能に「科学論文の査読」ができたら「最強」だ──開発めざす出版社も登場｜WIRED.jp](http://wired.jp/2017/04/03/ai-can-solve-peer-review/)
 - [TR-808、JUPITER-8、DTM、MIDIを生んだ梯郁太郎氏が死去 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1704/02/news026.html)
 - [Apple、iPhoneのGPU内製化へ　サプライヤーImaginationは「困難なはず」 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1704/04/news056.html)
-    - [AppleがGPUを自社開発中、これまでのサプライヤーから技術者数名を引き抜く | TechCrunch Japan](http://jp.techcrunch.com/2017/04/04/20170403apple-gpu-tech/)
+    - [AppleがGPUを自社開発中、これまでのサプライヤーから技術者数名を引き抜く | TechCrunch Japan](https://jp.techcrunch.com/2017/04/04/20170403apple-gpu-tech/)
 - [虫除けキャンドルには効果無し！ 蚊除け製品の効果を科学的に検証した結果｜WIRED.jp](http://wired.jp/2017/04/02/in-high-tech-mimic-of-your-patio-scientists-find-the-best-mosquito-deterrent/)
 - [Siriの地位を奪う、アマゾン「Alexa」の怒濤の勢い｜WIRED.jp](http://wired.jp/2017/04/03/best-iphone-assistant/)
 - [専守防衛という概念について : 「平和構築」を専門にする国際政治学者](http://shinodahideaki.blog.jp/archives/15735486.html)
@@ -98,7 +98,7 @@ title = "2017-04-08 のブックマーク"
 - [“単行本と文庫本の間”のニーズに応える電子書籍新レーベル「角川ebook」「角川ebooknf」創刊 -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/1053234.html)
 - [「CiNiiから論文が消えた」　研究者に困惑広がる - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1704/05/news086.html)
 - [VMware、vCloud Air事業の売却を発表。自社でデータセンターを展開する戦略から撤退、クラウドを仮想化するサービス事業者へ － Publickey](http://www.publickey1.jp/blog/17/vmwarevcloud_air.html)
-- [ShopifyのBurstは無料の素材写真サイト、ネット・ショップの内外装用に無難できれいな画像を集める | TechCrunch Japan](http://jp.techcrunch.com/2017/04/04/20170403shopifys-burst-is-a-new-free-stock-photography-resource/)
+- [ShopifyのBurstは無料の素材写真サイト、ネット・ショップの内外装用に無難できれいな画像を集める | TechCrunch Japan](https://jp.techcrunch.com/2017/04/04/20170403shopifys-burst-is-a-new-free-stock-photography-resource/)
 - [【西田宗千佳のRandomTracking】完成近づく電子ペーパー採用楽譜専用端末「GVIDO」。発売は9月に - AV Watch](http://av.watch.impress.co.jp/docs/series/rt/1053005.html)
 - [Mozilla、「Thunderbird」v52.0を公開 ～新機能と改善を多く含んだメジャーバージョン - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1053260.html) : 脆弱性の修正はアナウンスされていない
 - [グーグル、自社の最新SDN関連技術「Espresso」の概要を明らかに - ZDNet Japan](https://japan.zdnet.com/article/35099280/)
@@ -117,7 +117,7 @@ title = "2017-04-08 のブックマーク"
 - [外国語が話せなくても会話可能--マイクロソフトのリアルタイム翻訳が日本語に対応 - CNET Japan](https://japan.cnet.com/article/35099405/)
 - [まさかのNP困難？「九九って36種類しか数がないの不思議だよな」から始まる数学談義 - Togetterまとめ](https://togetter.com/li/1098244)
 - [Google、検索結果の「ファクトチェック」ラベル表示を世界で開始 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1704/08/news015.html)
-- [第二のサブプライム問題にテック業界が関係するかもしれない理由 | TechCrunch Japan](http://jp.techcrunch.com/2017/04/08/20170328tech-will-lead-to-new-sub-prime-crunch/)
+- [第二のサブプライム問題にテック業界が関係するかもしれない理由 | TechCrunch Japan](https://jp.techcrunch.com/2017/04/08/20170328tech-will-lead-to-new-sub-prime-crunch/)
 - [組み込みシステム上でのC++ | インフラ・ミドルウェア | POSTD](http://postd.cc/embedded-cpp/)
 - [すごい技術書を一緒に作ろう。あきみち＋ラムダノート『プロフェッショナルIPv6』 | クラウドファンディング - Makuake（マクアケ）](https://www.makuake.com/project/ipv6/)
     - [無償で読めるIPv6本を作ります:Geekなぺーじ](http://www.geekpage.jp/blog/?id=2017-4-7-1)

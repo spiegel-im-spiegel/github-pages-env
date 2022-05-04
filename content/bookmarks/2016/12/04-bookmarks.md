@@ -32,7 +32,7 @@ title = "2016-12-04 のブックマーク"
 - [米国発！ Appleニュースの読み解き方 - 「iCloudカレンダーの招待状」という新手のスパム：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/16/082600184/112800022/)
 - [Mozilla、「Thunderbird」v45.5.1を公開。致命的な脆弱性を1件修正 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1032755.html)
 - [Android狙うマルウェア「Gooligan」、100万超のGoogleアカウントに被害 - CNET Japan](http://japan.cnet.com/news/service/35093009/)
-- [紛失モードのiOS 10デバイスは簡単なコピー＆ペーストの犯行手口でアンロックできる | TechCrunch Japan](http://jp.techcrunch.com/2016/12/03/20161202copy-and-paste-trick-could-unlock-ios-10-devices-in-lost-mode/)
+- [紛失モードのiOS 10デバイスは簡単なコピー＆ペーストの犯行手口でアンロックできる | TechCrunch Japan](https://jp.techcrunch.com/2016/12/03/20161202copy-and-paste-trick-could-unlock-ios-10-devices-in-lost-mode/)
 - [バッファローの無線LANカメラにXSSやCSRFなど複数の脆弱性 -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/1033041.html)
 
 ## 宇宙関連
@@ -45,7 +45,7 @@ title = "2016-12-04 のブックマーク"
 
 ## ボイコット・トランプ
 
-- [「ボイコット・トランプ」は、消費者がドナルド帝国を避けるためのアプリ | TechCrunch Japan](http://jp.techcrunch.com/2016/11/29/20161128boycott-trump-app-enables-consumer-savvy-avoidance-of-the-donalds-empire/)
+- [「ボイコット・トランプ」は、消費者がドナルド帝国を避けるためのアプリ | TechCrunch Japan](https://jp.techcrunch.com/2016/11/29/20161128boycott-trump-app-enables-consumer-savvy-avoidance-of-the-donalds-empire/)
 - [トランプ大統領誕生前に、Internet Archiveがカナダにバックアップ構築へ - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1611/30/news099.html)
 - [Lawrence Lessig: No More “Loophole Presidents” | WGBH News](http://news.wgbh.org/2016/11/30/boston-public-radio-podcast/lawrence-lessig-no-more-loophole-presidents)
 
@@ -63,7 +63,7 @@ title = "2016-12-04 のブックマーク"
 
 - [ブロックチェーンは本当に世界を変えるのか - ビットコインは本当に安全なのか、理論研究が示す意外な落とし穴：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/16/062400138/112400011/?rt=nocnt)
 - [アクセンチュアが開発した「訂正可能なブロックチェーン」の意義 - ZDNet Japan](http://japan.zdnet.com/article/35092920/)
-- [日本の3大メガバンクが全銀システム業務にブロックチェーンを適用する実証実験、bitFlyerが新アルゴリズムを提供 | TechCrunch Japan](http://jp.techcrunch.com/2016/11/30/three-japanese-banks-try-blockchain/)
+- [日本の3大メガバンクが全銀システム業務にブロックチェーンを適用する実証実験、bitFlyerが新アルゴリズムを提供 | TechCrunch Japan](https://jp.techcrunch.com/2016/11/30/three-japanese-banks-try-blockchain/)
 - [ウォルマート、食品管理に「ブロックチェーン」を導入｜WIRED.jp](http://wired.jp/2016/11/30/walmart-uses-blockchains/)
 
 ### TensorFlow for Windows
@@ -84,6 +84,6 @@ title = "2016-12-04 のブックマーク"
 - [「秀丸エディタ」v8.66が公開、入力ミスを指摘する“もしかして”機能を追加 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1032035.html)
 - [Facebookの「ソーラードローン」にテスト飛行中の事故が発覚｜WIRED.jp](http://wired.jp/2016/11/28/facebooks-drone-was/)
 - [DeNAの「WELQ」、全記事非公開に--医師や専門家の監修を受けてからの掲載へ - CNET Japan](http://japan.cnet.com/news/service/35092919/)
-    - [DeNA守安氏「認識が甘かった」——WELQに端を発したキュレーションメディアの大騒動 | TechCrunch Japan](http://jp.techcrunch.com/2016/12/01/dena-moriyashu/)
-- [Wikipediaの上ではボットたちが毎日のように喧嘩している | TechCrunch Japan](http://jp.techcrunch.com/2016/09/22/20160921bots-are-waging-passive-aggressive-war-on-wikipedia/)
+    - [DeNA守安氏「認識が甘かった」——WELQに端を発したキュレーションメディアの大騒動 | TechCrunch Japan](https://jp.techcrunch.com/2016/12/01/dena-moriyashu/)
+- [Wikipediaの上ではボットたちが毎日のように喧嘩している | TechCrunch Japan](https://jp.techcrunch.com/2016/09/22/20160921bots-are-waging-passive-aggressive-war-on-wikipedia/)
 - [ASKAの未発表曲ネタばらし問題について著作権法的に検討する(栗原潔) - 個人 - Yahoo!ニュース](http://bylines.news.yahoo.co.jp/kuriharakiyoshi/20161202-00065052/)

@@ -125,7 +125,7 @@ title = "いまさら聞けない Slack の使い方"
 - [手軽にチームのSlackに参加してもらう方法 - Qiita](http://qiita.com/homata/items/d809e7489b4d14f0768b)
 - [ChatOpsで加速するOps効率化 | NTTデータ](http://www.nttdata.com/jp/ja/insights/trend_keyword/2016070701.html)
 - [ChatOpsでなにができるのかまとめ - Qiita](http://qiita.com/m_mizutani/items/f7fa7b1d1c077b139f98)
-- [SlackとGoogleが戦略的連携を発表―SlackとGoogleドライブが緊密化する | TechCrunch Japan](http://jp.techcrunch.com/2016/12/08/20161207slack-and-google-announce-partnership-focused-on-better-integrating-their-services/)
+- [SlackとGoogleが戦略的連携を発表―SlackとGoogleドライブが緊密化する | TechCrunch Japan](https://jp.techcrunch.com/2016/12/08/20161207slack-and-google-announce-partnership-focused-on-better-integrating-their-services/)
 
 [Slack]: https://slack.com/ "Slack: Be less busy"
 [Zapier]: https://zapier.com/ "The best apps. Better together. - Zapier"

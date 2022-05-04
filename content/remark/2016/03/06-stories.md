@@ -98,7 +98,7 @@ title = "週末スペシャル： 公開鍵暗号の研究者がチューリン�
 
 似たような発想は実際の店舗でもあって
 
-- [飲食店の「常連作り」支援に向け、予約台帳のトレタがPOSシステム5社と連携へ | TechCrunch Japan](http://jp.techcrunch.com/2016/03/01/toreta-pos/)
+- [飲食店の「常連作り」支援に向け、予約台帳のトレタがPOSシステム5社と連携へ | TechCrunch Japan](https://jp.techcrunch.com/2016/03/01/toreta-pos/)
 
 もう「常連」を囲い込みの道具としか見なしていないことがミエミエの最低マーケティングである。
 

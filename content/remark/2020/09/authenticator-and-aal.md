@@ -105,7 +105,7 @@ AAL の各レベルごとに要求されるセキュリティ事項（一部）�
 
 NIST は SMS によるコード送信について， [SP 800-63-3] のドラフト段階では非推奨にするつもりだったらしい。
 
-- [SMSを使った二要素認証を非推奨〜禁止へ、米国立技術規格研究所NISTの新ガイダンス案 | TechCrunch Japan](http://jp.techcrunch.com/2016/07/26/20160725nist-declares-the-age-of-sms-based-2-factor-authentication-over/)
+- [SMSを使った二要素認証を非推奨〜禁止へ、米国立技術規格研究所NISTの新ガイダンス案 | TechCrunch Japan](https://jp.techcrunch.com/2016/07/26/20160725nist-declares-the-age-of-sms-based-2-factor-authentication-over/)
 
 しかしその後，激しい議論があったようで，最終的には “[RESTRICTED Authenticator](https://pages.nist.gov/800-63-3/sp800-63b.html#restricted)” という位置づけまで緩和されたようだ。
 

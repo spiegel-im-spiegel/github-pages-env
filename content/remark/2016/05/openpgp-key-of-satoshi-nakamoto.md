@@ -11,7 +11,7 @@ title = "Satoshi Nakamoto の OpenPGP 鍵"
 
 色々話題になっているようで。
 
-- [オーストラリア人起業家、Craig WrightがBitcoinの発明者、Satoshi Nakamotoなのか？ | TechCrunch Japan](http://jp.techcrunch.com/2016/05/03/20160502major-questions-arise-over-craig-wrights-claim-to-be-satoshi-nakamoto/)
+- [オーストラリア人起業家、Craig WrightがBitcoinの発明者、Satoshi Nakamotoなのか？ | TechCrunch Japan](https://jp.techcrunch.com/2016/05/03/20160502major-questions-arise-over-craig-wrights-claim-to-be-satoshi-nakamoto/)
 - [本の虫: Craig WrightがSatoshi Nakamotoだとする証明はない](http://cpplover.blogspot.jp/2016/05/craig-wrightsatoshi-nakamoto.html)
 - [Bitcoin’s Creator Satoshi Nakamoto Is Probably This Unknown Australian Genius | WIRED](https://www.wired.com/2015/12/bitcoins-creator-satoshi-nakamoto-is-probably-this-unknown-australian-genius/)
     - [この無名の天才がビットコイン発明者「サトシ・ナカモト」である証拠（1）｜WIRED.jp](http://wired.jp/2016/05/03/bitcoins-creator-satoshi-nakamoto-is-1/)
@@ -214,7 +214,7 @@ Old: Signature Packet(tag 2)(421 bytes)
 ## 参考ページ
 
 - [わかる！ OpenPGP 暗号 — Baldanders.info](https://baldanders.info/spiegel/cc-license/)
-- [Craig Wright、「証拠は公表したくない」―オーストラリア人起業家、Bitcoinを発明したとの主張から後退 | TechCrunch Japan](http://jp.techcrunch.com/2016/05/06/20160505craig-wright-backs-out-and-wont-prove-that-he-is-bitcoin-creator-satoshi-nakamoto/) : この話はどうやら収束したらしい。やれやれ
+- [Craig Wright、「証拠は公表したくない」―オーストラリア人起業家、Bitcoinを発明したとの主張から後退 | TechCrunch Japan](https://jp.techcrunch.com/2016/05/06/20160505craig-wright-backs-out-and-wont-prove-that-he-is-bitcoin-creator-satoshi-nakamoto/) : この話はどうやら収束したらしい。やれやれ
 
 [`pgpdump`]: (http://www.mew.org/~kazu/proj/pgpdump/
 

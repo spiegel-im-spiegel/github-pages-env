@@ -33,7 +33,7 @@ AR (Augmented Reality; 拡張現実) を使ったアプリやサービスは昔�
 
 - [LAWSON×INGRESSプロジェクト｜ローソン](http://www.lawson.co.jp/campaign/ingress/)
 - [『Ingress』東北復興イベント“Initio Tohoku Mission”に行ってきた!!　 [ファミ通app]](http://app.famitsu.com/20160427_704995/)
-- [「ポケモンGO」、日本マクドナルドがコラボレーションを正式に認める | TechCrunch Japan](http://jp.techcrunch.com/2016/07/20/pokemon-go-mac-jp/)
+- [「ポケモンGO」、日本マクドナルドがコラボレーションを正式に認める | TechCrunch Japan](https://jp.techcrunch.com/2016/07/20/pokemon-go-mac-jp/)
 
 何人かの [Ingress] ユーザ（Agent と呼ばれている）から見て [Pokémon GO] が物足りないと感じるのは確かなようで，そういう意味で「戻ってくる」ユーザは一定数いると思う。
 しかし一度この生態系を体験してしまった人が古い「ネトゲ」にどのくらい戻るかは考えものである（子どもは 3DS とかのコンシューマ機に戻るかもしれない）。

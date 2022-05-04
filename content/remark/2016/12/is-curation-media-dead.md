@@ -18,7 +18,7 @@ tags = [
 先週話題になったこの話。
 
 - [DeNAの「WELQ」、全記事非公開に--医師や専門家の監修を受けてからの掲載へ - CNET Japan](http://japan.cnet.com/news/service/35092919/)
-- [DeNA守安氏「認識が甘かった」——WELQに端を発したキュレーションメディアの大騒動 | TechCrunch Japan](http://jp.techcrunch.com/2016/12/01/dena-moriyashu/)
+- [DeNA守安氏「認識が甘かった」——WELQに端を発したキュレーションメディアの大騒動 | TechCrunch Japan](https://jp.techcrunch.com/2016/12/01/dena-moriyashu/)
 
 今週も大盛況のようで。
 実は私も一度記事を起こしたのだが，結論が「どうでもいいか」になってしまったので一旦お蔵入りにしたのだが，やっぱり時流に乗って大幅に修正して公開することにした（笑）

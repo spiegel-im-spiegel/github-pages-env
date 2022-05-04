@@ -47,8 +47,8 @@ flattr    = ""
 - [Intel、サイドチャネルの脆弱性発見に最大2,600万円の懸賞金  - PC Watch](https://pc.watch.impress.co.jp/docs/news/1106582.html)
 - [「Android」版トロイの木馬「AndroRAT」に新しい変種が登場 - ZDNet Japan](https://japan.zdnet.com/article/35114729/)
 - [アップル、バグ低減に向けソフトウェア開発方針を変更か - CNET Japan](https://japan.cnet.com/article/35114588/)
-- [あるUNICODE文字がAppleデバイス上でアプリを破壊する――iOS、Mac、Watchの主要ソフトすべてに影響  |  TechCrunch Japan](http://jp.techcrunch.com/2018/02/16/2018-02-15-iphone-text-bomb-ios-mac-crash-apple/)
-    - [iPhoneやMacのアプリがクラッシュするユニコード文字のバグ、Twitter上でいたずらが急増  |  TechCrunch Japan](http://jp.techcrunch.com/2018/02/17/2018-02-16-iphone-bug-telugu-unicode-ios-mac-text-bomb/)
+- [あるUNICODE文字がAppleデバイス上でアプリを破壊する――iOS、Mac、Watchの主要ソフトすべてに影響  |  TechCrunch Japan](https://jp.techcrunch.com/2018/02/16/2018-02-15-iphone-text-bomb-ios-mac-crash-apple/)
+    - [iPhoneやMacのアプリがクラッシュするユニコード文字のバグ、Twitter上でいたずらが急増  |  TechCrunch Japan](https://jp.techcrunch.com/2018/02/17/2018-02-16-iphone-bug-telugu-unicode-ios-mac-text-bomb/)
 
 ## 天文関連
 
@@ -57,7 +57,7 @@ flattr    = ""
 - [プレスリリース - 活動的な超巨大ブラックホールを取り巻くガスと塵のドーナツ ― 予言されていた回転ガス雲を初めて観測で確認 - アルマ望遠鏡](https://alma-telescope.jp/news/press/m77-201802)
 - [News | A Piece of Mars is Going Home](https://www.jpl.nasa.gov/news/news.php?feature=7058)
 - [2018年2月15日ニュース「明滅するオーロラの謎が、探査衛星『あらせ』の高精度観測で解けた」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/02/20180215_01.html)
-- [異星人探索は暗号通貨マニアたちのせいで妨害されている  |  TechCrunch Japan](http://jp.techcrunch.com/2018/02/15/2018-02-14-the-search-for-aliens-is-struggling-thanks-to-cryptocurrency-mania/)
+- [異星人探索は暗号通貨マニアたちのせいで妨害されている  |  TechCrunch Japan](https://jp.techcrunch.com/2018/02/15/2018-02-14-the-search-for-aliens-is-struggling-thanks-to-cryptocurrency-mania/)
 
 ## 知財関連
 
@@ -65,7 +65,7 @@ flattr    = ""
 - [知的財産戦略本部「知的財産推進計画2018」策定に当たっての意見募集に、意見書を提出しました - MIAU](https://miau.jp/ja/842)
 - [Federal Judge Says Embedding a Tweet Can Be Copyright Infringement | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2018/02/federal-judge-says-embedding-tweet-can-be-copyright-infringement)
     - [米地裁、ツイートのエンベッドが著作権侵害にあたりうるとの判決を下す – P2Pとかその辺のお話R](http://p2ptk.org/copyright/771)
-    - [ニューヨーク連邦裁判所が埋め込みツイートは著作権侵害となり得ると判断  |  TechCrunch Japan](http://jp.techcrunch.com/2018/02/17/2018-02-16-embedded-tweets-copyright-infringement/)
+    - [ニューヨーク連邦裁判所が埋め込みツイートは著作権侵害となり得ると判断  |  TechCrunch Japan](https://jp.techcrunch.com/2018/02/17/2018-02-16-embedded-tweets-copyright-infringement/)
 
 ## その他
 
@@ -88,7 +88,7 @@ flattr    = ""
 - [【Excel】数式が多用された資料を引き継いでしまった！エクセルで数式のメンテナンスをラクにするテク2選 - いまさら聞けないExcelの使い方講座 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/exceltips/1105545.html)
 - [「Pivotal Container Service」正式リリース。Kubernetesなどコンテナ環境と仮想ネットワーク環境を、VMware、AWS、Azure、GCPなどに構築 － Publickey](http://www.publickey1.jp/blog/18/pivotal_container_servicekubernetesvmwareawsazuregcp.html)
 - [グレープシティ、「脱 Excel」を後押しするkintoneプラグイン「krew」を機能強化 - ZDNet Japan](https://japan.zdnet.com/article/35114764/)
-- [Googleカレンダー、まもなく新デザインに強制移行  |  TechCrunch Japan](http://jp.techcrunch.com/2018/01/04/2018-01-03-google-is-about-to-force-you-to-use-its-new-calendar-design/)
+- [Googleカレンダー、まもなく新デザインに強制移行  |  TechCrunch Japan](https://jp.techcrunch.com/2018/01/04/2018-01-03-google-is-about-to-force-you-to-use-its-new-calendar-design/)
 - [2018年2月16日ニュース「海底の『鬼界カルデラ』の内側に、溶岩ドームができていた」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/02/20180216_01.html)
 - [NVIDIAの新GPU「Turing」は仮想通貨マイニング用途となる可能性 - GIGAZINE](https://gigazine.net/news/20180216-nvidia-gpu-turing/)
 - [「Python」ディストリビューション「Anaconda」に「Visual Studio Code」が追加 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1106857.html)

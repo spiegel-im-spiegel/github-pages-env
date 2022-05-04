@@ -29,7 +29,7 @@ tags = ["code", "security", "risk", "management", "cryptography", "windows", "li
 - [米政府によるスマホデータ取り出しの協力要請、ACLUが実態調査 - CNET Japan](http://japan.cnet.com/news/society/35080404/)
 - [FBIのiPhoneロック解除方法、Appleに知らされない可能性も (1/3) - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1604/01/news114.html)
 - [FBI長官、「購入したロック解除ツールはiPhone 5sでは機能しなかった」 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1604/08/news060.html)
-- [司法省がまたAppleにiPhoneアンロック要求、今度はAppleが“相手を間違えた”国を訴訟か | TechCrunch Japan](http://jp.techcrunch.com/2016/04/09/20160408justice-department-keeps-pushing-apple-to-unlock-iphone-in-new-york-drug-case/)
+- [司法省がまたAppleにiPhoneアンロック要求、今度はAppleが“相手を間違えた”国を訴訟か | TechCrunch Japan](https://jp.techcrunch.com/2016/04/09/20160408justice-department-keeps-pushing-apple-to-unlock-iphone-in-new-york-drug-case/)
 
 FBI が端末を突破するのに外部企業を使ったということ，そして企業がそれに応じたことは重要だ。
 もちろん実は NSA の息のかかった企業だった，としても驚かないけど。
@@ -52,7 +52,7 @@ FBI が端末を突破するのに外部企業を使ったということ，そ�
 
 ## Linux サブシステムは Windows の終わりの始まり{#bash}
 
-- [Build 2016で驚きの発表―Microsoftはこの夏Windows 10でBashシェルをサポート | TechCrunch Japan](http://jp.techcrunch.com/2016/03/31/20160330be-very-afraid-hell-has-frozen-over-bash-is-coming-to-windows-10/)
+- [Build 2016で驚きの発表―Microsoftはこの夏Windows 10でBashシェルをサポート | TechCrunch Japan](https://jp.techcrunch.com/2016/03/31/20160330be-very-afraid-hell-has-frozen-over-bash-is-coming-to-windows-10/)
 - [「Windows 10」で動作するUbuntuのBashシェル--その実現方法 - CNET Japan](http://japan.cnet.com/news/service/35080406/)
 - [開発者がWindows 10でBashシェルとユーザー モードのUbuntu Linuxバイナリを実行可能に | S/N Ratio (by SATO Naoki)](https://satonaoki.wordpress.com/2016/03/31/bash-ubuntu-windows/)
 - [MariaDB、カラム型データベースエンジン「MariaDB ColumnStore」発表。OLAPへ参入 － Publickey](http://www.publickey1.jp/blog/16/mariadbmariadb_columnstoreolap.html)
@@ -89,7 +89,7 @@ Microsoft 自らこういう無茶をすること自体が「Windows の終わ�
 - [Open Whisper Systems >> Blog >> WhatsApp's Signal Protocol integration is now complete](https://whispersystems.org/blog/whatsapp-complete/)
 - [WhatsApp completes end-to-end encryption rollout | TechCrunch](http://techcrunch.com/2016/04/05/whatsapp-completes-end-to-end-encryption-rollout/)
 - [Facebook傘下のWhatsApp、完全暗号化を完了　「政府もわれわれも解除できない」 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1604/06/news069.html)
-- [WhatsApp、全てのプラットフォームのエンドツーエンド暗号化を完了 | TechCrunch Japan](http://jp.techcrunch.com/2016/04/06/20160405whatsapp-completes-end-to-end-encryption-rollout/)
+- [WhatsApp、全てのプラットフォームのエンドツーエンド暗号化を完了 | TechCrunch Japan](https://jp.techcrunch.com/2016/04/06/20160405whatsapp-completes-end-to-end-encryption-rollout/)
 
 もともと WhatsApp が Signal ベースの暗号化システムを実装することは予告されていた。
 
@@ -171,7 +171,7 @@ Prototyping に向いているということはプロジェクトのかなり�
 
 - [Transmission Releases Long-Awaited BitTorrent Client For Windows - TorrentFreak](https://torrentfreak.com/transmission-releases-long-awaited-bittorrent-client-for-windows-160327/)
 - [NPMとleft-pad : 私たちはプログラミングのやり方を忘れてしまったのか？ | プログラミング | POSTD](http://postd.cc/npm-and-left-pad/)
-- [WindowsにBitTorrentクライアントの決定版Transmissionがやってくる | TechCrunch Japan](http://jp.techcrunch.com/2016/03/29/20160328windows-users-finally-have-a-good-bittorrent-client/)
+- [WindowsにBitTorrentクライアントの決定版Transmissionがやってくる | TechCrunch Japan](https://jp.techcrunch.com/2016/03/29/20160328windows-users-finally-have-a-good-bittorrent-client/)
 - [IIJ、Webサイトにおけるユーザ認証のセキュリティを強化する 「IIJ SmartKeyマネージメントサービス」を提供開始 | 2016年 | IIJ](http://www.iij.ad.jp/news/pressrelease/2016/0329-2.html)
 - [IPAテクニカルウォッチ「公衆無線LAN利用に係る脅威と対策」：IPA 独立行政法人 情報処理推進機構](http://www.ipa.go.jp/security/technicalwatch/201600330.html)
 - [高度サイバー攻撃(APT)への備えと対応ガイド～企業や組織に薦める一連のプロセスについて](https://www.jpcert.or.jp/research/apt-guide.html)
@@ -180,7 +180,7 @@ Prototyping に向いているということはプロジェクトのかなり�
 - [Ｘ線天文衛星「ひとみ」（ASTRO-H）の状況について - 20160408_hitomi.pdf](http://fanfun.jaxa.jp/jaxatv/files/20160408_hitomi.pdf)
     - [X線天文衛星「ひとみ」、回転は破片を誤認？米軍発表 | Sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2016_04_02_jspoc.html)
 - [定時帰宅のススメ — Medium](https://medium.com/@tsukamoto/-f42bf7b5e25e)
-- [SpaceXのFalcon 9ロケット、洋上のドローン艀への軟着陸についに成功 | TechCrunch Japan](http://jp.techcrunch.com/2016/04/09/20160408spacex-just-landed-a-rocket-on-a-drone-ship-for-the-first-time/)
+- [SpaceXのFalcon 9ロケット、洋上のドローン艀への軟着陸についに成功 | TechCrunch Japan](https://jp.techcrunch.com/2016/04/09/20160408spacex-just-landed-a-rocket-on-a-drone-ship-for-the-first-time/)
 - [GoogleがTLSでの採用を提唱している共通鍵暗号方式「ChaCha」についてまとめた - sonickun.log](http://sonickun.hatenablog.com/entry/2016/04/03/183220)
 
 [Go 言語]: https://golang.org/ "The Go Programming Language"

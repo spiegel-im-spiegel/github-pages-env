@@ -89,7 +89,7 @@ Bitcoin 単体は数学的に総量が決まっているが， hard fork すれ�
 こうして Bitcoin/Blockchain は限界を迎え， ICO や hard fork へと向かい，更なる投機が生まれるスパイラルになる。
 「仮想通貨」はもはや通貨ではなく「チューリップの球根」になってしまったわけだ。
 
-{{< fig-quote title="暗号通貨バブルはイノベーションを絞め殺している | TechCrunch Japan" link="http://jp.techcrunch.com/2018/01/08/2018-01-07-the-cryptocurrency-bubble-is-strangling-innovation/" >}}
+{{< fig-quote title="暗号通貨バブルはイノベーションを絞め殺している | TechCrunch Japan" link="https://jp.techcrunch.com/2018/01/08/2018-01-07-the-cryptocurrency-bubble-is-strangling-innovation/" >}}
 <q>現在、投機以外の暗号通貨トークン・プロジェクトは無期限の冬眠を強制されている。 本当にイノベーティブなサービスを作ろうとしているチームにとって、現在の暗号通貨バブルが弾けることは冬ではなく、むしろ春の到来を告げるものだ。</q>
 {{< /fig-quote >}}
 
@@ -97,7 +97,7 @@ Bitcoin 単体は数学的に総量が決まっているが， hard fork すれ�
 
 ちょうど一年前（2017-01-10）には
 
-- [未来のインターネットは、非中央集権型のインターネットだ  |  TechCrunch Japan](http://jp.techcrunch.com/2017/01/10/20170108the-future-is-a-decentralized-internet/)
+- [未来のインターネットは、非中央集権型のインターネットだ  |  TechCrunch Japan](https://jp.techcrunch.com/2017/01/10/20170108the-future-is-a-decentralized-internet/)
 
 なんてな記事もあって，あまりに皮肉なタイトルにバカウケしたものだが，もう笑い事ではなくなっているかもしれない。
 何せあのザッカーバーグ君も ICO に興味を持ってるみたいだし。

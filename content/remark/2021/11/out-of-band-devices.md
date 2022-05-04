@@ -36,7 +36,7 @@ SMS やチャット・アプリ等を通してサービスプロバイダから�
 
 以前に拙文「[Authenticator と AAL]({{< ref "/remark/2020/09/authenticator-and-aal.md" >}})」で紹介したが，元々 NIST は SMS を使った認証を非推奨（または禁止）にするつもりだった。
 
-- [SMSを使った二要素認証を非推奨〜禁止へ、米国立技術規格研究所NISTの新ガイダンス案 | TechCrunch Japan](http://jp.techcrunch.com/2016/07/26/20160725nist-declares-the-age-of-sms-based-2-factor-authentication-over/)
+- [SMSを使った二要素認証を非推奨〜禁止へ、米国立技術規格研究所NISTの新ガイダンス案 | TechCrunch Japan](https://jp.techcrunch.com/2016/07/26/20160725nist-declares-the-age-of-sms-based-2-factor-authentication-over/)
 
 しかしその後，色々あったようで，最終的には “[RESTRICTED Authenticator](https://pages.nist.gov/800-63-3/sp800-63b.html#restricted)” という位置づけまで緩和されてしまった。
 

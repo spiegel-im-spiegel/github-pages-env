@@ -51,7 +51,7 @@ tags = ["politics", "international", "hiroshima", "code", "intellectual-property
 - [Google beats Oracle—Android makes “fair use” of Java APIs | Ars Technica](http://arstechnica.com/tech-policy/2016/05/google-wins-trial-against-oracle-as-jury-finds-android-is-fair-use/)
 - [グーグル、Java API使用が「フェアユース」と認められる--対オラクル訴訟 - CNET Japan](http://japan.cnet.com/news/business/35083291/)
 - [ニュース - Java著作権訴訟でGoogleが勝訴、「フェアユース」が認められる：ITpro](http://itpro.nikkeibp.co.jp/atcl/news/16/052701526/?rt=nocnt)
-- [Googleの「公正使用」勝訴後も残る著作権に関する疑問 | TechCrunch Japan](http://jp.techcrunch.com/2016/05/31/20160527copyright-questions-remain-after-googles-fair-use-victory/)
+- [Googleの「公正使用」勝訴後も残る著作権に関する疑問 | TechCrunch Japan](https://jp.techcrunch.com/2016/05/31/20160527copyright-questions-remain-after-googles-fair-use-victory/)
 - [グーグルがJava API訴訟でオラクルに勝利--開発者にとって朗報か - ZDNet Japan](http://japan.zdnet.com/article/35083475/)
 - [Google’s fair use victory is good for open source | Ars Technica](http://arstechnica.com/tech-policy/2016/06/googles-fair-use-victory-is-good-for-open-source/)
 
@@ -72,7 +72,7 @@ API がこのようなことになることで，標準ライブラリやフレ�
 そういう意味で，私企業がコントロールを手放さない Java は高リスクな「終わってる言語」と言える。
 日本人は何故か Java が大好きだが，新たにこれから何かを作るのであれば Java は忌避すべきある。
 
-[^b]: そういう意味で Microsoft が [.NET Core をオープンソースにした](http://jp.techcrunch.com/2015/04/30/20150429microsoft-launches-its-net-distribution-for-linux-and-mac/)のは慧眼だよね。
+[^b]: そういう意味で Microsoft が [.NET Core をオープンソースにした](https://jp.techcrunch.com/2015/04/30/20150429microsoft-launches-its-net-distribution-for-linux-and-mac/)のは慧眼だよね。
 
 ## Windows 7 用の Rollup が出た{#rlup}
 
@@ -89,7 +89,7 @@ Windows Update で KB3156417 を導入すればよい。
 ## その他の気になる記事{#other}
 
 - [Official Google Blog: Introducing Spaces, a tool for small group sharing](https://googleblog.blogspot.jp/2016/05/introducing-spaces-tool-for-small-group.html)
-    - [Google、ソーシャル・サービスに再挑戦―グループチャット・アプリのSpacesをリリース | TechCrunch Japan](http://jp.techcrunch.com/2016/05/17/20160516google-tries-its-hand-at-social-again-with-launch-of-group-chat-app-spaces/)
+    - [Google、ソーシャル・サービスに再挑戦―グループチャット・アプリのSpacesをリリース | TechCrunch Japan](https://jp.techcrunch.com/2016/05/17/20160516google-tries-its-hand-at-social-again-with-launch-of-group-chat-app-spaces/)
 - [ロシアの天才ハッカーによる【新人エンジニアサバイバルガイド】 - Qiita](http://qiita.com/jacksuzuki/items/b2fa6b44962e73a53d08)
 - [コマンドラインからググれてもいいと思ったので作った - Qiita](http://qiita.com/ieee0824/items/13435fc6de5f22cdb2f4)
 - [tsaka1's blog: ノイマンの自然数(非負整数)生成プログラムについて](http://tsaka1.blogspot.jp/2016/05/blog-post.html)

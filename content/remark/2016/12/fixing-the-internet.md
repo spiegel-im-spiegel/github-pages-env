@@ -140,7 +140,7 @@ Bitcoin というか Blockchain を使う以上，認証および否認防止は
 
 ## ブックマーク
 
-- [誰も教えてくれないけれど、これを読めば分かるビットコインの仕組みと可能性 | TechCrunch Japan](http://jp.techcrunch.com/2015/03/31/bitcoin-essay/)
+- [誰も教えてくれないけれど、これを読めば分かるビットコインの仕組みと可能性 | TechCrunch Japan](https://jp.techcrunch.com/2015/03/31/bitcoin-essay/)
 - [RFC 6962 - Certificate Transparency](https://tools.ietf.org/html/rfc6962)
     - [Certificate Transparency | GMOグローバルサインブログ](https://jp.globalsign.com/blog/2014/certificate_transparency.html)
     - [Google による OpenPGP 鍵配送の解決提案 — Baldanders.info](https://baldanders.info/blog/000785/)

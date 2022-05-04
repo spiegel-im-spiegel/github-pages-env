@@ -33,7 +33,7 @@ pageType = "text"
 
 - [MPEC 2017-V17 : NEW DESIGNATION SCHEME FOR INTERSTELLAR OBJECTS](http://www.minorplanetcenter.net/mpec/K17/K17V17.html) : A/2017 U1に新たな番号「1I」、「'Oumuamua」と命名
 - [観測史上初の恒星間天体、名前は「'Oumuamua」 - アストロアーツ](http://www.astroarts.co.jp/article/hl/a/9498_oumuamua)
-- [恒星間天体「オウムウムア」、観察結果から人工的信号の証拠は見つからず  |  TechCrunch Japan](http://jp.techcrunch.com/2017/12/15/2017-12-14-observation-of-interstellar-object-oumuamua-shows-no-evidence-of-artificial-signals/)
+- [恒星間天体「オウムウムア」、観察結果から人工的信号の証拠は見つからず  |  TechCrunch Japan](https://jp.techcrunch.com/2017/12/15/2017-12-14-observation-of-interstellar-object-oumuamua-shows-no-evidence-of-artificial-signals/)
 - [All news | Alien object ‘Oumuamua was a natural body visiting from another solar system | News | Queen's University Belfast](https://www.qub.ac.uk/News/Allnews/AlienobjectOumuamuawasanaturalbodyvisitingfromanothersolarsystemQueensscientists.html)
 - [‘Oumuamua likely came from a binary star system](https://www.ras.org.uk/news-and-press/3100-oumuamua-likely-came-from-a-binary-star-system)
 

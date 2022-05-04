@@ -100,8 +100,8 @@ Proof Mode の設計目標は以下の通り。
 ちなみに [CameraV] では撮った映像を暗号化したり panic 時に映像を全部消去できたりする機能もあるらしい。
 最近いろいろ物騒だからねぇ。
 
-- [フォトジャーナリストたちがプロ用カメラに暗号化機能を求めた | TechCrunch Japan](http://jp.techcrunch.com/2016/12/15/20161214photojournalists-demand-encryption-light-is-giving-it-to-them/)
-- [暗号化機能をカメラに追加しても写真ジャーナリストたちの問題は解決しない | TechCrunch Japan](http://jp.techcrunch.com/2016/12/16/20161214onpx-n-ovg-onpx-n-ovg-zber/)
+- [フォトジャーナリストたちがプロ用カメラに暗号化機能を求めた | TechCrunch Japan](https://jp.techcrunch.com/2016/12/15/20161214photojournalists-demand-encryption-light-is-giving-it-to-them/)
+- [暗号化機能をカメラに追加しても写真ジャーナリストたちの問題は解決しない | TechCrunch Japan](https://jp.techcrunch.com/2016/12/16/20161214onpx-n-ovg-onpx-n-ovg-zber/)
 
 ## 電子メールの暗号化{#em}
 
@@ -124,7 +124,7 @@ S/MIME 形式で電子署名が一般的になれば spam メールの排除も�
 
 電子署名ではなく暗号化メールでいうなら，当面は [ProtonMail](https://protonmail.com/ "Secure email: ProtonMail is free encrypted email.") をお勧めする。
 
-- [暗号化メールサービスProtonMailの新規ユーザーが選挙後に急増、トランプ新大統領の不寛容を懸念 | TechCrunch Japan](http://jp.techcrunch.com/2016/11/12/20161111signups-for-encrypted-mail-client-protonmail-double-after-election/)
+- [暗号化メールサービスProtonMailの新規ユーザーが選挙後に急増、トランプ新大統領の不寛容を懸念 | TechCrunch Japan](https://jp.techcrunch.com/2016/11/12/20161111signups-for-encrypted-mail-client-protonmail-double-after-election/)
 
 私もしばらく前にアカウントを作っている。
 

@@ -59,15 +59,15 @@ tags = ["astronomy", "telescope", "astro-h", "tmt", "security", "privacy", "risk
 - [アップル、「セキュリティの弱体化」を求める米国政府の要請を拒否 « WIRED.jp](http://wired.jp/2016/02/18/apple-encryption-iphone-san-bernardino/)
 - [GoogleのピチャイCEO、AppleのクックCEOの決断にTwitterで賛同表明 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1602/18/news077.html)
 - [グーグルCEO、アップル支持を表明--「iPhone」ロック解除をめぐる裁判所命令について - CNET Japan](http://japan.cnet.com/news/business/35078101/)
-- [GoogleのCEO、スンダル・ピチャイ、「当局が企業にハッキングを命じることはユーザーの利益を損なう」 | TechCrunch Japan](http://jp.techcrunch.com/2016/02/19/20160217googles-ceo-says-enable-hacking-could-compromise-users-privacy/)
-- [AppleはiPhoneアンロックの事案で延期を獲得、返答の期限は2月26日に | TechCrunch Japan](http://jp.techcrunch.com/2016/02/19/20160218apple-gets-an-extension-in-iphone-unlock-case-response-now-due-february-26th/)
+- [GoogleのCEO、スンダル・ピチャイ、「当局が企業にハッキングを命じることはユーザーの利益を損なう」 | TechCrunch Japan](https://jp.techcrunch.com/2016/02/19/20160217googles-ceo-says-enable-hacking-could-compromise-users-privacy/)
+- [AppleはiPhoneアンロックの事案で延期を獲得、返答の期限は2月26日に | TechCrunch Japan](https://jp.techcrunch.com/2016/02/19/20160218apple-gets-an-extension-in-iphone-unlock-case-response-now-due-february-26th/)
 - [Decrypting an iPhone for the FBI - Schneier on Security](https://www.schneier.com/blog/archives/2016/02/decrypting_an_i.html)
 - [ニューヨーク連邦地裁、「iPhone」ロック解除求める米政府要請を却下 - CNET Japan](http://japan.cnet.com/news/business/35078733/) : 今回の件とは別だが，影響あるかも
 - [言論の自由、コードの自由：アップル「iPhoneロック解除」拒否で団結する米テック界 « WIRED.jp](http://wired.jp/2016/03/06/tech-giants-agree-the-fbis-case/)
 - [エフセキュアブログ : 思考実験：FBiOS 盗聴エディション](http://blog.f-secure.jp/archives/50764280.html)
-- [Appleのソフトウェアエンジニアリング責任者曰く：FBIの要求は全iOSユーザーの安全を脅かす | TechCrunch Japan](http://jp.techcrunch.com/2016/03/07/20160306apple-head-of-software-engineering-says-fbis-demands-compromise-the-safety-of-all-ios-users/)
+- [Appleのソフトウェアエンジニアリング責任者曰く：FBIの要求は全iOSユーザーの安全を脅かす | TechCrunch Japan](https://jp.techcrunch.com/2016/03/07/20160306apple-head-of-software-engineering-says-fbis-demands-compromise-the-safety-of-all-ios-users/)
 
-要求されているのは以下の3つらしい（「[AppleはiPhoneアンロックの事案で延期を獲得、返答の期限は2月26日に](http://jp.techcrunch.com/2016/02/19/20160218apple-gets-an-extension-in-iphone-unlock-case-response-now-due-february-26th/)」より）。
+要求されているのは以下の3つらしい（「[AppleはiPhoneアンロックの事案で延期を獲得、返答の期限は2月26日に](https://jp.techcrunch.com/2016/02/19/20160218apple-gets-an-extension-in-iphone-unlock-case-response-now-due-february-26th/)」より）。
 
 1. 間違ったパスワードを何回も入力するとその電話機のデータを消してしまう自動消去機能を無効化またはバイパスする
 1. パスワード誤入力（ロックアウト）の際の遅延を取り去る

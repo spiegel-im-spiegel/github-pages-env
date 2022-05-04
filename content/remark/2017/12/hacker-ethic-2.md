@@ -21,8 +21,8 @@ tags = [ "code", "law", "intellectual-property", "hacker-ethic", "internet", "en
 
 - [FCC、オバマ前大統領導入の「ネット中立性」廃止勧告　12月に採決へ - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1711/22/news062.html)
     - [「ネット中立性」が米国で廃止へ　日本のサービスにも影響はある？ - ITmedia PC USER](http://www.itmedia.co.jp/pcuser/articles/1711/26/news011.html)
-    - [FCC現委員長のネット中立性悪者説はすべて正しくない、と同僚の委員が指摘  |  TechCrunch Japan](http://jp.techcrunch.com/2017/12/01/2017-11-30-fcc-commissioner-clyburn-takes-down-chairmans-net-neutrality-doom-and-gloom/)
-    - [ネット中立性の擁護者たちが12月7日に全国のVerizonショップで抗議集会を開く  |  TechCrunch Japan](http://jp.techcrunch.com/2017/11/25/2017-11-22-net-neutrality-advocates-plan-protests-for-december-7-at-verizon-stores/)
+    - [FCC現委員長のネット中立性悪者説はすべて正しくない、と同僚の委員が指摘  |  TechCrunch Japan](https://jp.techcrunch.com/2017/12/01/2017-11-30-fcc-commissioner-clyburn-takes-down-chairmans-net-neutrality-doom-and-gloom/)
+    - [ネット中立性の擁護者たちが12月7日に全国のVerizonショップで抗議集会を開く  |  TechCrunch Japan](https://jp.techcrunch.com/2017/11/25/2017-11-22-net-neutrality-advocates-plan-protests-for-december-7-at-verizon-stores/)
     - [インターネットはすでに死んでいる* | 辺境社会研究室](https://youkoseki.tumblr.com/post/167900801310/network-unneutrality)
     - [ネット中立性撤廃に反対する公開書簡をテクノロジ分野の先駆者らが投稿 - CNET Japan](https://japan.cnet.com/article/35111780/)
 - [The battle for the net continues after FCC erases net neutrality rules - Creative Commons](https://creativecommons.org/2017/12/15/battle-net-continues-fcc-erases-net-neutrality-rules/)

@@ -38,7 +38,7 @@ Google Play を開くには Google アカウントが必要で，2要素認証�
 まぁ Google の場合はいくつか代替手段があるのでまだマシだけど[^sms]。
 
 [^iij]: IIJ の「[IIJ SmartKey](https://play.google.com/store/apps/details?id=jp.ad.iij.smartkey2)」でもよい。
-[^sms]: ちなみに SMS を使った認証はもはや推奨されない。網間プロトコルである通称「No.7」に脆弱性があり，これを使って通話やテキスト通信が比較的簡単に傍受できることが知られている（参照： [SMSを使った二要素認証を非推奨〜禁止へ、米国立技術規格研究所NISTの新ガイダンス案 | TechCrunch Japan](http://jp.techcrunch.com/2016/07/26/20160725nist-declares-the-age-of-sms-based-2-factor-authentication-over/)）。実際にこの脆弱性を利用できるプレイヤーは限られると思うが，今だに2要素認証に SMS を使わせようとするサービス・プロバイダがいたら「あぁ，ここはユーザのセキュリティやプライバシーを軽視してるんだな」と蔑みの目で見てよい。
+[^sms]: ちなみに SMS を使った認証はもはや推奨されない。網間プロトコルである通称「No.7」に脆弱性があり，これを使って通話やテキスト通信が比較的簡単に傍受できることが知られている（参照： [SMSを使った二要素認証を非推奨〜禁止へ、米国立技術規格研究所NISTの新ガイダンス案 | TechCrunch Japan](https://jp.techcrunch.com/2016/07/26/20160725nist-declares-the-age-of-sms-based-2-factor-authentication-over/)）。実際にこの脆弱性を利用できるプレイヤーは限られると思うが，今だに2要素認証に SMS を使わせようとするサービス・プロバイダがいたら「あぁ，ここはユーザのセキュリティやプライバシーを軽視してるんだな」と蔑みの目で見てよい。
 
 私の場合は以下の手順で最初のセットアップを行った。
 覚え書きのためにメモしておく。

@@ -56,7 +56,7 @@ Twitter と違って「名前」の問題で悩む必要がないだけでもメ
 - [Mastodon は自分のドメインでIDを持つことが大事。「リモートフォロー」の価値を最大化するべし。 ｜ 諸多日記](https://isid.ai/diary/2017/04/14/1179/)
 - [OStatusの仕様をかいつまんで適当に和訳するよ - hito_asaの日記](http://hitoasa.hateblo.jp/entry/20101013/1286950786)
 - [本の虫: ここらでもう一度マストドンについて語っておくか](https://cpplover.blogspot.jp/2017/04/blog-post_20.html)
-- [日本のネットを騒がせる「マストドン」、その課題と可能性をえふしん氏に聞いた | TechCrunch Japan](http://jp.techcrunch.com/2017/04/20/mastodon/)
+- [日本のネットを騒がせる「マストドン」、その課題と可能性をえふしん氏に聞いた | TechCrunch Japan](https://jp.techcrunch.com/2017/04/20/mastodon/)
 - [企業は安易なMastodonインスタンスの運用を避けるべきでは? - ただのにっき(2017-04-21)](http://sho.tdiary.net/20170421.html)
 - [gnusocial や mastodon の哲学 - 何とは言わない天然水飲みたさ](https://blog.cardina1.red/2017/04/13/federated-social-web/)
 - [【さくらのクラウドで】マストドンおひとり様用インスタンスを作ってみた【スタートアップスクリプト】 - 脱SEして文筆家になった人](http://yotsumao.hatenablog.com/entry/2017/04/19/%E3%80%90%E3%81%95%E3%81%8F%E3%82%89%E3%81%AE%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%81%A7%E3%80%91%E3%83%9E%E3%82%B9%E3%83%88%E3%83%89%E3%83%B3%E3%81%8A%E3%81%B2%E3%81%A8%E3%82%8A%E6%A7%98%E7%94%A8)

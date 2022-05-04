@@ -27,7 +27,7 @@ title = "2016-11-27 のブックマーク"
 - [NTPにDoSの脆弱性、更新版で対処 - ITmedia エンタープライズ](http://www.itmedia.co.jp/enterprise/articles/1611/22/news064.html)
 - [パスワードリセット・リンクが漏れていませんか？ | コンピュータサイエンス | POSTD](http://postd.cc/is-your-site-leaking-password-reset-links/)
 
-- [セキュリティカメラがWi-Fiネットワークに接続してから98秒後にマルウェアに感染した | TechCrunch Japan](http://jp.techcrunch.com/2016/11/19/20161118this-security-camera-was-infected-by-malware-in-98-seconds-after-it-was-plugged-in/)
+- [セキュリティカメラがWi-Fiネットワークに接続してから98秒後にマルウェアに感染した | TechCrunch Japan](https://jp.techcrunch.com/2016/11/19/20161118this-security-camera-was-infected-by-malware-in-98-seconds-after-it-was-plugged-in/)
 - [LINE乗っ取られたのでその鮮やかなる手口を恥を忍んで公開しましょう - はてなブログを毎日書いていたら10Kg痩せました！](http://pero-pero.hatenablog.com/entry/2016/11/22/004421)
 
 ## その他四方山話

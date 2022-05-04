@@ -49,7 +49,7 @@ tags = ["artificial-intelligence", "engineering", "code"]
 
 ## ブックマーク
 
-- [Amazonの、監視カメラだらけのレジ無しコンビニエンスストアにて  |  TechCrunch Japan](http://jp.techcrunch.com/2018/01/23/2018-01-21-inside-amazons-surveillance-powered-no-checkout-convenience-store/)
+- [Amazonの、監視カメラだらけのレジ無しコンビニエンスストアにて  |  TechCrunch Japan](https://jp.techcrunch.com/2018/01/23/2018-01-21-inside-amazons-surveillance-powered-no-checkout-convenience-store/)
 
 ## 参考図書{#reference}
 

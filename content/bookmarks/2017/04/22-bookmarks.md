@@ -30,7 +30,7 @@ title = "2017-04-22 のブックマーク"
 ## セキュリティ関連
 
 - [ニュース - 架空の“マイナンバー新年度更新手続き”促す不審メール、総務省が注意喚起：ITpro](http://itpro.nikkeibp.co.jp/atcl/news/17/040701075/?rt=nocnt)
-- [このフィッシングテクニックは危険である以上におもしろい…あなたは‘ピュニコード’をご存知かな？ | TechCrunch Japan](http://jp.techcrunch.com/2017/04/21/20170420this-phishing-technique-is-more-interesting-than-dangerous/)
+- [このフィッシングテクニックは危険である以上におもしろい…あなたは‘ピュニコード’をご存知かな？ | TechCrunch Japan](https://jp.techcrunch.com/2017/04/21/20170420this-phishing-technique-is-more-interesting-than-dangerous/)
 - [2017年 4月マイクロソフトセキュリティ更新プログラムに関する注意喚起](http://www.jpcert.or.jp/at/2017/at170015.html)
 - [ISC BIND 9 に対する複数の脆弱性に関する注意喚起](http://www.jpcert.or.jp/at/2017/at170016.html)
     - [「BIND 9」にまたDoS脆弱性、最新バージョンへの更新を～IIJでは乗り換えを推奨 -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/1054770.html)
@@ -55,7 +55,7 @@ title = "2017-04-22 のブックマーク"
 - [markdownからDDLを作成するmarkdownsql - Qiita](http://qiita.com/narita-takeru/items/437e3d85504421ebb359)
 - [「独自のGPU開発」はアップルの切り札になるか｜WIRED.jp](http://wired.jp/2017/04/09/apples-making-gpu/)
 - [Google社内の標準言語としてTypeScriptが承認される。ng-conf 2017 － Publickey](http://www.publickey1.jp/blog/17/googletypescriptng-conf_2017.html)
-- [ソックパペット（自作自演のアカウント群）を科学の力であぶり出す | TechCrunch Japan](http://jp.techcrunch.com/2017/04/08/20170407spotting-sockpuppets-with-science/)
+- [ソックパペット（自作自演のアカウント群）を科学の力であぶり出す | TechCrunch Japan](https://jp.techcrunch.com/2017/04/08/20170407spotting-sockpuppets-with-science/)
 - [「イスラーム国」との繋がりが「あってもなくても」テロを引き起こす思想こそが脅威：池内恵 | 池内恵の中東通信 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42187)
 - [［49選］国内注目のWebサービス・アプリを大調査！ プログラミング言語、フレームワーク、アーキテクチャの一覧【2017年 春 ver.】 - エンジニアHub｜若手Webエンジニアのキャリアを考える！](https://employment.en-japan.com/engineerhub/entry/2017/04/07/110000)
 - [「さくらのレンタルサーバ」 ライトプランのSSL対応開始のお知らせ | さくらインターネット](https://www.sakura.ad.jp/news/sakurainfo/newsentry.php?id=1567)

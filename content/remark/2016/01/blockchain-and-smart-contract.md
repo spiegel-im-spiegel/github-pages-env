@@ -63,7 +63,7 @@ Bitcoin は「誰が」取り引きしているかについて気にしない[^a
 
 ## 参考ページ
 
-- [誰も教えてくれないけれど、これを読めば分かるビットコインの仕組みと可能性 | TechCrunch Japan](http://jp.techcrunch.com/2015/03/31/bitcoin-essay/)
+- [誰も教えてくれないけれど、これを読めば分かるビットコインの仕組みと可能性 | TechCrunch Japan](https://jp.techcrunch.com/2015/03/31/bitcoin-essay/)
 - [（日銀レビュー）「デジタル通貨」の特徴と国際的な議論 ：日本銀行 Bank of Japan](http://www.boj.or.jp/research/wps_rev/rev_2015/rev15j13.htm/)
 - [スマートコントラクトとは何か? Smart Contractsの言葉の定義 - Qiita](http://qiita.com/hshimo/items/093f40b856ba2436fbba)
 - [Smart Contract - 暗号通貨のお勉強　～Bitcoin、Rippleを中心に～](http://cryptocoin.hatenablog.com/entry/2015/07/22/001500)

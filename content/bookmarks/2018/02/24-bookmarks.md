@@ -30,7 +30,7 @@ flattr    = ""
 ## セキュリティ関連
 
 - [制御システムセキュリティカンファレンス：JPCERT/CCが語る「制御システムセキュリティ」の最新動向と展望 (1/2) - TechFactory](http://techfactory.itmedia.co.jp/tf/articles/1802/21/news008.html)
-- [クラウドのセキュリティが弱いと暗号通貨の採掘に無断で使われる、最新の被害者がTesla  |  TechCrunch Japan](http://jp.techcrunch.com/2018/02/21/2018-02-20-poor-cloud-security-let-hackers-mine-cryptocurrency-on-teslas-dime/)
+- [クラウドのセキュリティが弱いと暗号通貨の採掘に無断で使われる、最新の被害者がTesla  |  TechCrunch Japan](https://jp.techcrunch.com/2018/02/21/2018-02-20-poor-cloud-security-let-hackers-mine-cryptocurrency-on-teslas-dime/)
     - [ハッカー、テスラ車の脆弱性突きクラウドに侵入、こっそり暗号通貨採掘。テスラは「すでに対応済み」と声明 - Engadget 日本版](http://japanese.engadget.com/2018/02/20/tesla-aws/)
 - {{< pdf-file title="MeltdownPrime and SpectrePrime: Automatically-Synthesized Attacks Exploiting Invalidation-Based Coherence Protocols" link="https://arxiv.org/pdf/1802.03802.pdf" >}}
     - [CPU脆弱性「Meltdown/Spectre」を悪用した新たな攻撃手法--研究者らが発見 - ZDNet Japan](https://japan.zdnet.com/article/35114939/)
@@ -54,7 +54,7 @@ flattr    = ""
 
 ## その他
 
-- [GoogleがクラウドサービスのIoT基盤強化のためXivelyをLogMeInから買収  |  TechCrunch Japan](http://jp.techcrunch.com/2018/02/16/2018-02-15-google-to-acquire-xively-iot-platform-from-logmein/)
+- [GoogleがクラウドサービスのIoT基盤強化のためXivelyをLogMeInから買収  |  TechCrunch Japan](https://jp.techcrunch.com/2018/02/16/2018-02-15-google-to-acquire-xively-iot-platform-from-logmein/)
 - [2018年2月19日ニュース「世界の再生可能エネルギーコストは大幅低下 7年で太陽光は73%下落とIRENA」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/02/20180219_01.html)
 - [Rustが、コードのスタイルガイド「Rust Style Guide」と自動整形ツールを導入する理由。コードをめぐる議論を省き、メンタルの負担を減らし、プログラマを参加しやすくする － Publickey](http://www.publickey1.jp/blog/18/rustrust_style_guide.html)
 - [“Amazon S3”プロトコルに対応した「WinSCP」v5.13が正式公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1107401.html)
@@ -67,5 +67,5 @@ flattr    = ""
 - [2018年2月23日ニュース「テングザルの雄は、大きな鼻と、鼻にかかった低音の声で雌を魅了する」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2018/02/20180223_01.html)
 - [人気Linuxソフトウェア最新ランキング--意外なあの製品もランクイン - ZDNet Japan](https://japan.zdnet.com/article/35114833/)
 - [MorkdownプレビューツールをAtomパッケージ化しました – リブロワークス – LibroWorks](http://libroworks.co.jp/?p=1786)
-- [ストリーミングがダウンロードに肉薄、2017年の年間音楽配信売上  |  TechCrunch Japan](http://jp.techcrunch.com/2018/02/22/music-data-2017/)
+- [ストリーミングがダウンロードに肉薄、2017年の年間音楽配信売上  |  TechCrunch Japan](https://jp.techcrunch.com/2018/02/22/music-data-2017/)
 - [米「ネット中立性」撤廃を連邦官報に公示--60日のカウントダウン始まる - CNET Japan](https://m.japan.cnet.com/amp/story/35115152/)

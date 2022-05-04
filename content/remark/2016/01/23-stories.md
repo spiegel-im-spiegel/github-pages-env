@@ -30,7 +30,7 @@ title = "週末スペシャル： Planet Nine"
 - [2016年1月21日ニュース「太陽系に9番目の惑星か 米チームが予測」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2016/01/20160121_02.html)
 - [シミュレーションで推測、太陽系第9惑星存在の可能性 - アストロアーツ](http://www.astroarts.co.jp/news/2016/01/21planet9/index-j.shtml)
 - [太陽系に「第9惑星」存在か　米天文学者らが論文発表 | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2016_01_21_planet-nine.html)
-- [9番目の惑星の存在を示す証拠が発見された | TechCrunch Japan](http://jp.techcrunch.com/2016/01/21/20160120astronomers-find-evidence-of-a-ninth-planet/)
+- [9番目の惑星の存在を示す証拠が発見された | TechCrunch Japan](https://jp.techcrunch.com/2016/01/21/20160120astronomers-find-evidence-of-a-ninth-planet/)
 - [「見えない太陽系第9惑星」は本当に発見できる？何を使って、どう見つける？ - Engadget Japanese](http://japanese.engadget.com/2016/01/25/9/)
 - [Alpha 18.2 | Planet Nine | Now Available « Universe Sandbox | blog](http://universesandbox.com/blog/2016/01/alpha-18-2-planet-9/)
 - {{< pdf-file title="Constraints on the location of a possible 9th planet derived from the Cassini data" link="http://arxiv.org/pdf/1602.06116.pdf" >}} : 土星探査機 Cassini のデータから9番目の惑星を探そうという論文らしい
@@ -133,7 +133,7 @@ Bitcoin ってどうしてもかつての「地域通貨」を連想しちゃう
 
 - [HotWired Japan_Altbiz  山形浩生の『ケイザイ2.0』 第23回 地域通貨って、そんなにいいの？](http://cruel.org/hotwired/hotwired23_01.html)
 - [特集：FinTech入門（3）：ブロックチェーンは「取引コストゼロ」の世界を実現しようとしている (1/3) - ＠IT](http://www.atmarkit.co.jp/ait/articles/1601/21/news024.html)
-- [ブロックチェーンで不動産売買が変わる | TechCrunch Japan](http://jp.techcrunch.com/2016/02/08/201602063-ways-that-blockchain-will-change-the-real-estate-market/)
+- [ブロックチェーンで不動産売買が変わる | TechCrunch Japan](https://jp.techcrunch.com/2016/02/08/201602063-ways-that-blockchain-will-change-the-real-estate-market/)
 
 ## TeX Wiki が移転しとるがな{#tex}
 

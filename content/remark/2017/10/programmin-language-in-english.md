@@ -29,7 +29,7 @@ tags        = [ "programming", "language" ]
 
 英語不得手な私としてはこの記事で延々と聞かせられる「愚痴」に深く同情はするが，しょせん「愚痴」は「愚痴」でしかない。
 
-これで思い出したのが「[頼むからプログラミングを学ばないでくれ](http://jp.techcrunch.com/2016/05/17/20160510please-dont-learn-to-code/ "頼むからプログラミングを学ばないでくれ | TechCrunch Japan")」である。
+これで思い出したのが「[頼むからプログラミングを学ばないでくれ](https://jp.techcrunch.com/2016/05/17/20160510please-dont-learn-to-code/ "頼むからプログラミングを学ばないでくれ | TechCrunch Japan")」である。
 この記事については私も以前にブログ記事を書いた。
 
 - [「だれもがプログラミングを学ぶべき」ではない]({{< ref "/remark/2016/05/lets-programming.md" >}})

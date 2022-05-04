@@ -78,7 +78,7 @@ tags = ["engineering", "artificial-intelligence"]
 
 - [人工知能「IBM Watson」は何に使われているのか？ - ZDNet Japan](http://japan.zdnet.com/article/35070557/)
 - [「Watson」は科学的根拠に基づいて結論を出す、言うなれば“その道の専門家”だ - ZDNet Japan](http://japan.zdnet.com/article/35071319/)
-- [MicrosoftがAIチャットボット、Tayを停止―人種差別ジョークで機械学習の問題点が明らかに | TechCrunch Japan](http://jp.techcrunch.com/2016/03/25/20160324microsoft-silences-its-new-a-i-bot-tay-after-twitter-users-teach-it-racism/)
+- [MicrosoftがAIチャットボット、Tayを停止―人種差別ジョークで機械学習の問題点が明らかに | TechCrunch Japan](https://jp.techcrunch.com/2016/03/25/20160324microsoft-silences-its-new-a-i-bot-tay-after-twitter-users-teach-it-racism/)
 
 ## 参考文献
 

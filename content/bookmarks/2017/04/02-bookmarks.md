@@ -29,7 +29,7 @@ description = "「ISPがユーザーの承諾なしで個人データを収集�
     - [米大統領、温暖化規制見直し令に署名 「対石炭戦争」終結を宣言　写真5枚　国際ニュース：AFPBB News](http://www.afpbb.com/articles/-/3123090)
     - [経済成長とCO2排出量は「比例しなくなっている」：IEA報告書｜WIRED.jp](http://wired.jp/2017/03/29/global-carbon-emissions/) : 石炭から天然ガスに切り替わったのも要因らしい
 - [「アメリカは70年間、衰退し続けている」——チョムスキーの視点 - Yahoo!ニュース](https://news.yahoo.co.jp/feature/566)
-- [トランプ大統領、連邦政府改革の新組織創立―アメリカン・イノベーション・オフィスの責任者はクシュナー | TechCrunch Japan](http://jp.techcrunch.com/2017/03/28/20170326trump-to-create-white-house-office-for-american-innovation-to-be-headed-by-kushner/)
+- [トランプ大統領、連邦政府改革の新組織創立―アメリカン・イノベーション・オフィスの責任者はクシュナー | TechCrunch Japan](https://jp.techcrunch.com/2017/03/28/20170326trump-to-create-white-house-office-for-american-innovation-to-be-headed-by-kushner/)
 
 ## セキュリティ関連
 
@@ -54,7 +54,7 @@ description = "「ISPがユーザーの承諾なしで個人データを収集�
 - [ウイルス対策ソフトを乗っ取る“DoubleAgent”、「Avast」「AVG」は2017年版で対策済み - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1052187.html)
 - [[Announce] GPGME 1.9.0 released](https://lists.gnupg.org/pipermail/gnupg-announce/2017q1/000403.html)
 - [ProtonVPN Support - Get help for secure VPN](https://protonvpn.com/support/)
-- [ISPがユーザーの承諾なしで個人データを収集してもよい、と米上院が議決、下院はどうなるかな？ | TechCrunch Japan](http://jp.techcrunch.com/2017/03/24/20170323senate-votes-to-allow-isps-to-collect-personal-data-without-permission/)
+- [ISPがユーザーの承諾なしで個人データを収集してもよい、と米上院が議決、下院はどうなるかな？ | TechCrunch Japan](https://jp.techcrunch.com/2017/03/24/20170323senate-votes-to-allow-isps-to-collect-personal-data-without-permission/)
     - [Net Neutrality Is Trump’s Next Target, Administration Says - The New York Times](https://www.nytimes.com/2017/03/30/technology/net-neutrality.html)
     - [Congress Removes FCC Privacy Protections on Your Internet Usage - Schneier on Security](https://www.schneier.com/blog/archives/2017/03/congress_remove.html)
 - [パスワード管理サービス「LastPass」のブラウザー拡張機能に脆弱性が相次ぐ - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1052534.html)
@@ -68,8 +68,8 @@ description = "「ISPがユーザーの承諾なしで個人データを収集�
 - [撮影に成功した、冥王星をとりまく「美しく青き大気」｜WIRED.jp](http://wired.jp/2017/03/28/this-blue-sky-image-of-pluto/)
 - [ドローンによる火星探査を視野に。 NASAがコンセプト動画を公開 | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_03_28_drone.html)
 - [スペースXの再使用ロケット、打ち上げ実施し着陸に成功！　格安打ち上げ実現へ | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2017_03_31_x.html)
-- [SpaceX、軌道ロケットFalcon 9の再打ち上げに初めて成功 | TechCrunch Japan](http://jp.techcrunch.com/2017/03/31/20170330spacex-successfully-re-launches-an-orbital-falcon-9-rocket-for-the-first-time/)
-- [SpaceX、Falcon Heavyの発射と2段目ロケットの回収に挑戦へ―火星植民への第一歩 | TechCrunch Japan](http://jp.techcrunch.com/2017/04/01/20170331spacexs-first-falcon-heavy-launch-could-attempt-upper-stage-recovery/)
+- [SpaceX、軌道ロケットFalcon 9の再打ち上げに初めて成功 | TechCrunch Japan](https://jp.techcrunch.com/2017/03/31/20170330spacex-successfully-re-launches-an-orbital-falcon-9-rocket-for-the-first-time/)
+- [SpaceX、Falcon Heavyの発射と2段目ロケットの回収に挑戦へ―火星植民への第一歩 | TechCrunch Japan](https://jp.techcrunch.com/2017/04/01/20170331spacexs-first-falcon-heavy-launch-could-attempt-upper-stage-recovery/)
 - [「不可能」への挑戦—地球サイズの望遠鏡でブラックホール撮影に挑む - ニュース＆コラム - アルマ望遠鏡 国立天文台](http://alma.mtk.nao.ac.jp/j/news/info/2017/0331post_701.html)
 
 ## その他
@@ -84,7 +84,7 @@ description = "「ISPがユーザーの承諾なしで個人データを収集�
 - [iOS10.3で採用されるApple File System (APFS) とは？](https://ischool.co.jp/2017-03-26/)
 - [ブロックチェーンを用いた資金調達法「イニシャル・コイン・オファリング」はIPOを代替するか｜WIRED.jp](http://wired.jp/2017/03/29/initial-coin-offering/)
 - [opensource.google.com](https://opensource.google.com/)
-    - [Googleが同社のオープンソースプロジェクトをすべて一箇所にまとめたサイトをオープン、関連ドキュメントも充実 | TechCrunch Japan](http://jp.techcrunch.com/2017/03/29/20170328google-launches-new-site-to-showcase-its-open-source-projects-and-processes/)
+    - [Googleが同社のオープンソースプロジェクトをすべて一箇所にまとめたサイトをオープン、関連ドキュメントも充実 | TechCrunch Japan](https://jp.techcrunch.com/2017/03/29/20170328google-launches-new-site-to-showcase-its-open-source-projects-and-processes/)
 - [「安定国家・カメルーン」で起きている「苛烈な弾圧」について：白戸圭一 | アフリカの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/42150)
 - [OpenSSL、Apacheライセンスへ変更 | マイナビニュース](http://news.mynavi.jp/news/2017/03/27/119/)
 - [人工知能は「記憶」を手に入れた。複数のゲームを連続でプレイできるようになった！｜WIRED.jp](http://wired.jp/2017/03/27/deepmind-sequential-memory/)

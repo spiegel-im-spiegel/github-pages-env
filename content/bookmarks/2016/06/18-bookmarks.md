@@ -37,17 +37,17 @@ title = "2016-06-18 のブックマーク"
     - [GitHub、不正アクセスを確認--他サービスから流出したパスワードを試行の可能性 - ZDNet Japan](http://japan.zdnet.com/article/35084420/)
 - [欧州への難民は減った。しかし難民危機は去ったのか？ その現状と課題 | ワールド | 最新記事 | ニューズウィーク日本版 オフィシャルサイト](http://www.newsweekjapan.jp/stories/world/2016/06/post-5319.php)
 - [LinkedIn買収、セールスフォースも検討していた可能性--Bloomberg報道 - ZDNet Japan](http://japan.zdnet.com/article/35084434/) : Salesforce のほうがよかった `orz`
-- [Firefoxの実験的機能を使えば複数の人格（アイデンティティ）でWebを閲覧できる | TechCrunch Japan](http://jp.techcrunch.com/2016/06/17/20160616experimental-firefox-feature-lets-you-use-multiple-identities-while-surfing-the-web/)
+- [Firefoxの実験的機能を使えば複数の人格（アイデンティティ）でWebを閲覧できる | TechCrunch Japan](https://jp.techcrunch.com/2016/06/17/20160616experimental-firefox-feature-lets-you-use-multiple-identities-while-surfing-the-web/)
 - [小学校段階におけるプログラミング教育の在り方について（議論の取りまとめ）：文部科学省](http://www.mext.go.jp/b_menu/shingi/chousa/shotou/122/attach/1372525.htm)
 - [イラク軍、ファルージャ中央庁舎をISから奪還　写真1枚　国際ニュース：AFPBB News](http://www.afpbb.com/articles/-/3090844)
-- [子供たちにプログラミングの概念を教えるBox Island、2年の開発期間を経てiOSゲームとして登場 | TechCrunch Japan](http://jp.techcrunch.com/2016/06/17/20160616box-island/)
+- [子供たちにプログラミングの概念を教えるBox Island、2年の開発期間を経てiOSゲームとして登場 | TechCrunch Japan](https://jp.techcrunch.com/2016/06/17/20160616box-island/)
 - [海外旅行で余った外貨を電子マネーに交換、羽田空港に専用端末が登場 | アプリオ](http://appllio.com/20160617-8293-pocket-change)
 - [ReactでTDD（テスト駆動開発）を始めよう : 環境構築からテスト作成、機能実装までの詳解ガイド | プログラミング | POSTD](http://postd.cc/getting-started-with-tdd-in-react/)
 - [アルマ望遠鏡、観測史上最遠方の酸素を捉える - ニュース＆コラム - アルマ望遠鏡 国立天文台](http://alma.mtk.nao.ac.jp/j/news/pressrelease/201606177957.html)
 - [（緊急）Microsoft Windows DNSの脆弱性（リモートでのコード実行）について（CVE-2016-3227）](https://jprs.jp/tech/security/2016-06-17-msdns-vuln-remotecodeexec.html)
 - [「Google Chrome 51」に3件の脆弱性、修正が施されたv51.0.2704.103が公開 - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1005785.html)
 - [ソフトウェアのバグをなくすには？--プログラミングの際に避けるべき10の失敗 - ZDNet Japan](http://japan.zdnet.com/article/35083529/)
-- [IBM Watsonを乗客インターフェイスに利用した電気ミニバス、Olliが運行開始へ | TechCrunch Japan](http://jp.techcrunch.com/2016/06/17/20160616ibms-watson-makes-a-move-into-self-driving-cars-with-olli-a-minibus-from-local-motors/)
+- [IBM Watsonを乗客インターフェイスに利用した電気ミニバス、Olliが運行開始へ | TechCrunch Japan](https://jp.techcrunch.com/2016/06/17/20160616ibms-watson-makes-a-move-into-self-driving-cars-with-olli-a-minibus-from-local-motors/)
 - [オバマのイスラーム教への「真意」 – アゴラ](http://agora-web.jp/archives/2019792.html)
 - [「無書店自治体を走る本屋さん」は、なぜ走る？ « マガジン航[kɔː]](https://magazine-k.jp/2016/06/16/moving-bookstore-in-hokkaido/)
 - [Microsoft、C言語を拡張する「Checked C」を開発中 | マイナビニュース](http://news.mynavi.jp/news/2016/06/16/218/)
@@ -63,7 +63,7 @@ title = "2016-06-18 のブックマーク"
     - [メルカリ、二次創作物の公式販売を支援するプラットフォームを発表、第1弾は「Ingress」 -INTERNET Watch](http://internet.watch.impress.co.jp/docs/news/1004913.html)
 - [シマンテック、ブルーコートの買収を発表--46.5億ドル - ZDNet Japan](http://japan.zdnet.com/article/35084163/)
 - [ゴーカー・メディアの破産、ピーター・ティールの報復｜WIRED.jp](http://wired.jp/2016/06/11/gawker-files-bankruptcy-thiels/)
-- [Mozillaがオープンソースコードのセキュリティアップのためにファンドを立ち上げ、次のHeartbleedを防ぐ | TechCrunch Japan](http://jp.techcrunch.com/2016/06/10/20160609mozilla-launches-new-fund-to-help-prevent-the-next-heartbleed/)
+- [Mozillaがオープンソースコードのセキュリティアップのためにファンドを立ち上げ、次のHeartbleedを防ぐ | TechCrunch Japan](https://jp.techcrunch.com/2016/06/10/20160609mozilla-launches-new-fund-to-help-prevent-the-next-heartbleed/)
 - [著作権団体、海賊版サイトを野放しにする.ORGレジストリを偽善者と非難 – P2Pとかその辺のお話R](http://p2ptk.org/copyright/449)
 - [“Windows 10アップグレード”の公式キャンセル方法をマイクロソフトが解説、6月“Windows 10の日” - 窓の杜](http://forest.watch.impress.co.jp/docs/news/1004723.html)
 - [JVNDB-2016-003040 Apache Struts における任意のコードを実行される脆弱性 - JVN iPedia - 脆弱性対策情報データベース](http://jvndb.jvn.jp/ja/contents/2016/JVNDB-2016-003040.html)
@@ -71,7 +71,7 @@ title = "2016-06-18 のブックマーク"
 - [DDoS攻撃が前年比125％増、マルチベクトル化--Shellshock脆弱性の悪用も - ZDNet Japan](http://japan.zdnet.com/article/35084017/)
 - [レッドハット、「オープンな意思決定の仕組み」をGitHubで公開 - ZDNet Japan](http://japan.zdnet.com/article/35084005/)
 - [Time to #fixcopyright and free the panorama across EU - International Communia Association](http://www.communia-association.org/2016/06/07/freedom-panorama-bcs-copyright/)
-- [HTML5はこれからのWindowsか？、普遍的なアプリケーションの普遍的な開発/利用ベースとして | TechCrunch Japan](http://jp.techcrunch.com/2016/06/09/20160608is-html5-the-new-windows/)
+- [HTML5はこれからのWindowsか？、普遍的なアプリケーションの普遍的な開発/利用ベースとして | TechCrunch Japan](https://jp.techcrunch.com/2016/06/09/20160608is-html5-the-new-windows/)
 
 ## 【特集】 textlint 関連の話題
 

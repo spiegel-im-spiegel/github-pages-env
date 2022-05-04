@@ -58,7 +58,7 @@ EU というのは「包摂」型の政治システムだと思う。
 ### 参考
 
 - [あるTwitterユーザーが「EU離脱派」公式サイトを再建した理由｜WIRED.jp](https://www.facebook.com/)
-- [Brexit + fintech―英国のEU離脱でフィンテックはどうなるのか？ | TechCrunch Japan](http://jp.techcrunch.com/2016/07/05/20160703brexit-fintech-what-happens-now/)
+- [Brexit + fintech―英国のEU離脱でフィンテックはどうなるのか？ | TechCrunch Japan](https://jp.techcrunch.com/2016/07/05/20160703brexit-fintech-what-happens-now/)
 
 ## CRYPTREC Report 2015 が出てた{#cr}
 

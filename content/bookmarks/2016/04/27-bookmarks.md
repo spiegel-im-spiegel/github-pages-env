@@ -14,7 +14,7 @@ title = "2016-04-27 のブックマーク"
 - [Node v6.0.0 (Current) | Node.js](https://nodejs.org/en/blog/release/v6.0.0/)
     - [World’s Fastest Growing Open Source Platform Pushes Out New Release | Node.js](https://nodejs.org/en/blog/announcements/v6-release/)
 - [ソフトウェアのスケーラビリティについてスターバックスが教えてくれること | コンピュータサイエンス | POSTD](http://postd.cc/what-starbucks-can-teach-us-about-software-scalability/)
-- [Google、Uber、LyftがVolvo、Fordと協力して自動走行車のロビー団体を設立 | TechCrunch Japan](http://jp.techcrunch.com/2016/04/27/20160426google-uber-lyft-join-automakers-in-self-driving-car-lobby/)
+- [Google、Uber、LyftがVolvo、Fordと協力して自動走行車のロビー団体を設立 | TechCrunch Japan](https://jp.techcrunch.com/2016/04/27/20160426google-uber-lyft-join-automakers-in-self-driving-car-lobby/)
 - [Arukas｜Dockerホスティング](https://arukas.io/)
     - [さくらインターネット、コンテナ型仮想化技術「Docker」を利用した新たなホスティングサービス「Arukas」を開発](https://www.sakura.ad.jp/press/2016/0427_arukas/)
 - [【連載】にわか管理者のためのLinux運用入門 [20] Microsoftが提供するLinux on Windows（その3）](https://news.mynavi.jp/itsearch/article/hardware/1377)

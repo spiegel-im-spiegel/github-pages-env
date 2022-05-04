@@ -64,7 +64,7 @@ DDoS 攻撃の踏み台として使われるのは [memcached] だけではな�
 ## ブックマーク
 
 - [Memcached脆弱性でDDoS踏み台に使われて、プロバイダによるネットワーク制限発生 - Qiita](https://qiita.com/flyjay/items/b9a379ab4ec0f5c0c96e)
-- [GitHubに最大1.35TbpsのDDoS攻撃発生。断続的にサービス停止も、短時間で復旧果たす  |  TechCrunch Japan](http://jp.techcrunch.com/2018/03/02/engadget-github-1-35tbps-ddos/)
+- [GitHubに最大1.35TbpsのDDoS攻撃発生。断続的にサービス停止も、短時間で復旧果たす  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/02/engadget-github-1-35tbps-ddos/)
 - [第2回　memcachedのセキュリティと脆弱性：memcachedの活用と運用 実践編｜gihyo.jp … 技術評論社](http://gihyo.jp/dev/feature/01/memcached_advanced/0002)
 - [memcachedの開放ポート(11211/tcp, 11211/udp)をサクっと確認する - ろば電子が詰まっている](http://d.hatena.ne.jp/ozuma/20180228/1519828918)
 - [memcachedを用いたUDP Amplification攻撃 – wizSafe Security Signal -安心・安全への道標- IIJ](https://wizsafe.iij.ad.jp/2018/03/269/)

@@ -58,8 +58,8 @@ flattr    = ""
 
 ## その他
 
-- [楽天がウォルマートと提携――日本でネットスーパーを協働運営、米国で楽天Kobo展開へ  |  TechCrunch Japan](http://jp.techcrunch.com/2018/01/26/rakuten-walmart/)
-- [独自のスマホ用OS「SUNBLAZE OS」を開発するアメグミが2000万円を調達、快適で安価なスマホ実現へ  |  TechCrunch Japan](http://jp.techcrunch.com/2018/01/25/amegumi-fundraising/)
+- [楽天がウォルマートと提携――日本でネットスーパーを協働運営、米国で楽天Kobo展開へ  |  TechCrunch Japan](https://jp.techcrunch.com/2018/01/26/rakuten-walmart/)
+- [独自のスマホ用OS「SUNBLAZE OS」を開発するアメグミが2000万円を調達、快適で安価なスマホ実現へ  |  TechCrunch Japan](https://jp.techcrunch.com/2018/01/25/amegumi-fundraising/)
 - [IIJが仮想通貨取引事業に参入、業界リーダー17社らと合弁会社設立 | TechWave（テックウェーブ） #WAVE](http://techwave.jp/archives/iij-enters-digital-trading-biz-and-est-new-company-with-17companies.html)
 - [Windows で DVD ドライブの使用制限設定を外す - 電気ウナギ的○○](http://blog.netandfield.com/shar/2018/01/windows-dvd.html)
 - [AMDのGPUで深層学習もバッチリできることがわかった - shi3zの長文日記](http://d.hatena.ne.jp/shi3z/20180127/1517026480)
@@ -67,13 +67,13 @@ flattr    = ""
 - [シェール革命は「短命」ではなく「深淵なる影響あり」と見るべき：岩瀬昇 | エネルギーの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43283)
 - [マウスやGUI、イーサネットなどを発明してきたゼロックスが、富士フイルムホールディングス傘下に － Publickey](http://www.publickey1.jp/blog/18/gui.html)
 - [AVAST、自社開発のマシンコード逆コンパイラー「RetDec」をオープンソース化 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1103751.html)
-- [ポケモンGOのNiantic、ARのEscher Realityを買収――マルチプレイヤーARゲームが可能に  |  TechCrunch Japan](http://jp.techcrunch.com/2018/02/02/2018-02-01-niantic-buy-escher-reality-ar-startup/)
+- [ポケモンGOのNiantic、ARのEscher Realityを買収――マルチプレイヤーARゲームが可能に  |  TechCrunch Japan](https://jp.techcrunch.com/2018/02/02/2018-02-01-niantic-buy-escher-reality-ar-startup/)
 - [「7-Zip」v18が正式公開 ～“LZFSE”アルゴリズムを利用したDMG形式の展開に対応 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1103786.html)
     - [7-Zip](http://www.7-zip.org/)
 - [「Java SE 8」のパブリックアップデートが延長、新規提供は2019年1月まで継続される - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1103999.html)
 - [データ通信量に優しい「YouTube Go」、130カ国以上で利用可能に - CNET Japan](https://japan.cnet.com/article/35114111/)
 - [アップル、「macOS Server」への大幅な変更を発表--多数のサービスを廃止へ - CNET Japan](https://japan.cnet.com/article/35113907/)
-- [とってもシンプルな時間管理デバイスTimeFlipはメカだけを買って外殻を自作できる  |  TechCrunch Japan](http://jp.techcrunch.com/2018/01/31/2018-01-30-timeflip-is-a-time-tracking-gadget-simple-enough-that-i-might-actually-use-it/)
+- [とってもシンプルな時間管理デバイスTimeFlipはメカだけを買って外殻を自作できる  |  TechCrunch Japan](https://jp.techcrunch.com/2018/01/31/2018-01-30-timeflip-is-a-time-tracking-gadget-simple-enough-that-i-might-actually-use-it/)
 - [筋肉を「ゼロからつくる」方法が発見される──米研究チームが皮膚細胞から培養に成功｜WIRED.jp](https://wired.jp/2018/01/31/make-muscles-from-scratch/)
 - [撤廃が決まった「ネット中立性」問題は、早くも選挙の争点に──始まった水面下の攻防と、米政局への影響度｜WIRED.jp](https://wired.jp/2018/02/01/net-neutrality-campaign-issue/)
 - [IPA、あらゆる人名の文字化けがない「IPAmj明朝フォント」 ～約6万漢字を国際標準文字コードに対応 - PC Watch](https://pc.watch.impress.co.jp/docs/news/1103531.html)

@@ -44,7 +44,7 @@ GW の読書の課題として『[法のデザイン]』を読み始めたのだ
 こうした一連の過程は法そのものにも影響を与える。
 たとえば米国の DMCA (Digital Millennium Copyright Act) は現在も批判の多い著作権関連法だが，適用除外既定については定期的に見直されており，ここ10年くらいでは規制が緩められる傾向にある。
 
-- [速報！　米著作権庁、合法利用の範囲を大幅拡大―iPhone脱獄など全6項目 | TechCrunch Japan](http://jp.techcrunch.com/2010/07/27/20100726now-legal-in-the-u-s-jailbreaking-your-iphone-ripping-a-dvd-for-educational-purposes/)
+- [速報！　米著作権庁、合法利用の範囲を大幅拡大―iPhone脱獄など全6項目 | TechCrunch Japan](https://jp.techcrunch.com/2010/07/27/20100726now-legal-in-the-u-s-jailbreaking-your-iphone-ripping-a-dvd-for-educational-purposes/)
 - [EFF、JailbreakやSIMロック解除の合法化を勝ち取る - P2Pとかその辺のお話](http://peer2peer.blog79.fc2.com/blog-entry-1694.html)
 
 たしかに法には「規制を規制するもの」としての側面があるが（数学の公理のように）絶対不変ではなく，「4つの規制」はお互いに影響を与えながら変質する。

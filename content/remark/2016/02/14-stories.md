@@ -39,7 +39,7 @@ tags = ["astronomy", "gravity-wave", "book", "aozora", "programming", "security"
 - [「重力波」の観測に初成功 - アインシュタインの予言から100年目の大成果 | マイナビニュース](http://news.mynavi.jp/news/2016/02/12/192/)
 - [重力波、世紀の発見をもたらした壮大な物語 | ナショナルジオグラフィック日本版サイト](http://natgeo.nikkeibp.co.jp/atcl/news/16/021200053/)
 - [13億年前の「ブラックホールの合体」で生じた重力波、検出される（動画あり） « WIRED.jp](http://wired.jp/2016/02/12/ligo-gravitational-waves/)
-- [アインシュタインが予言した重力波、米中心のLIGOチームが史上初めて観測に成功 | TechCrunch Japan](http://jp.techcrunch.com/2016/02/12/20160211einsteins-gravitational-waves-have-been-detected-for-the-first-time/)
+- [アインシュタインが予言した重力波、米中心のLIGOチームが史上初めて観測に成功 | TechCrunch Japan](https://jp.techcrunch.com/2016/02/12/20160211einsteins-gravitational-waves-have-been-detected-for-the-first-time/)
 - [2016年2月12日ニュース「アインシュタイン予言の重力波初観測 宇宙創成の謎解明に有力手掛かり」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2016/02/20160212_02.html)
 - [重力波検出の意義と今後の進展(2016/2/12)](http://jun-makino.sakura.ne.jp/articles/future_sc/note131.html)
 - [重力波天体からのガンマ線か？ フェルミ衛星がガンマ線バーストを観測広島大学極限宇宙研究拠点 CORE-U](http://core-u.hiroshima-u.ac.jp/blog/2016/02/15/core-u%E3%81%AB%E3%82%88%E3%82%8B%E9%87%8D%E5%8A%9B%E6%B3%A2%E5%A4%A9%E4%BD%93%E3%81%AE%E6%8E%A2%E6%9F%BB%E6%B4%BB%E5%8B%95/)

@@ -23,7 +23,7 @@ title = "2016-05-06 のブックマーク"
 - [2016年4月25日ニュース「パリ協定、175国・地域が署名 早期発効に弾み」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2016/04/20160425_01.html)
 - [LibreOffice 5.0.6 available for download](https://blog.documentfoundation.org/blog/2016/05/05/libreoffice-5-0-6-available-for-download/)
 - [7月30日が待ち遠しいです（またKB3035583が降ってきました）：海外速報部ログ：オルタナティブ・ブログ](http://blogs.itmedia.co.jp/burstlog/2016/05/730kb3035583.html)
-- [フィンテックは銀行を破壊するだけではなく、プラットフォーム化する | TechCrunch Japan](http://jp.techcrunch.com/2016/05/06/20160505fintech-frenemies/)
+- [フィンテックは銀行を破壊するだけではなく、プラットフォーム化する | TechCrunch Japan](https://jp.techcrunch.com/2016/05/06/20160505fintech-frenemies/)
 - [平成２８年熊本地震に伴う被災地救援などのために使用する車両の取扱について - 広島県ホームページ](https://www.pref.hiroshima.lg.jp/soshiki/4/kumamoto-kiki02.html)
 - [ブラジルの裁判所がWhatsAppを24時間サービス停止に。ユーザー1億人に影響 : ギズモード・ジャパン](http://www.gizmodo.jp/2016/05/whatsapp24100.html)
 - [スマホの最大の脆弱性は「指紋認証」にあるという指摘 - GIGAZINE](http://gigazine.net/news/20160506-fake-fingerprint-break-phone/)
@@ -31,5 +31,5 @@ title = "2016-05-06 のブックマーク"
 - [ケータイキット for Movable Type の脆弱性 (CVE-2016-1204) に関する注意喚起](https://www.jpcert.or.jp/at/2016/at160019.html) : 追加情報あり
 - [アップル、「iOS」アプリでのIPv6サポートを6月より必須に - ZDNet Japan](http://japan.zdnet.com/article/35082168/)
 - [マイクロソフト、「SQL Server 2016」を6月1日に一般提供へ - ZDNet Japan](http://japan.zdnet.com/article/35082169/)
-- [Craig Wright、「証拠は公表したくない」―オーストラリア人起業家、Bitcoinを発明したとの主張から後退 | TechCrunch Japan](http://jp.techcrunch.com/2016/05/06/20160505craig-wright-backs-out-and-wont-prove-that-he-is-bitcoin-creator-satoshi-nakamoto/)
+- [Craig Wright、「証拠は公表したくない」―オーストラリア人起業家、Bitcoinを発明したとの主張から後退 | TechCrunch Japan](https://jp.techcrunch.com/2016/05/06/20160505craig-wright-backs-out-and-wont-prove-that-he-is-bitcoin-creator-satoshi-nakamoto/)
 - [IBMのメインフレーム「LinuxONE」とUbuntu、OpenStackの連携で実現すること - ZDNet Japan](http://japan.zdnet.com/article/35082076/)

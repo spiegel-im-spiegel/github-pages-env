@@ -23,7 +23,7 @@ tags = ["astronomy", "jupiter", "juno", "leap-second", "artificial-intelligence"
 - [2016年7月5日ニュース「米探査機ジュノーが木星軌道に 5年の長旅終え観測開始」 | SciencePortal](http://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2016/07/20160705_01.html)
 - [木星探査機「ジュノー」、軌道投入に成功！　木星の謎を解明へ | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2016_07_05_juno.html)
 - [NASA、木星探査機「Juno」のアプリを公開。木星のオーロラなど最新画像を反映 － Publickey](http://www.publickey1.jp/blog/16/nasajuno.html)
-- [打ち上げから5年、Junoが木星の軌道に到達。 | TechCrunch Japan](http://jp.techcrunch.com/2016/07/06/20160704after-five-years-juno-arrives-in-orbit-around-jupiter/)
+- [打ち上げから5年、Junoが木星の軌道に到達。 | TechCrunch Japan](https://jp.techcrunch.com/2016/07/06/20160704after-five-years-juno-arrives-in-orbit-around-jupiter/)
 - [Juno Now Orbiting Jupiter – Many Worlds](http://www.manyworlds.space/index.php/2016/07/05/juno-now-orbiting-jupiter/)
 - [Garbage Collection(2016-07-04) Juno木星軌道投入リアルタイムシミュレーション](http://www.lizard-tail.com/isana/diary/?date=20160704)
 
@@ -43,7 +43,7 @@ Juno はこれから1年間木星やその衛星を観測し，最終的には�
 ### 追加のブックマーク
 
 - [木星探査機「ジュノー」初の周回画像を公開　大赤斑から衛星までバッチリ! | sorae.jp : 宇宙（そら）へのポータルサイト](http://sorae.jp/030201/2016_07_13_juno.html)
-- [Juno探査機の小さなセンサーが木星のまわりでビッグな科学を演じる…ASICの超小型軽量化に成功 | TechCrunch Japan](http://jp.techcrunch.com/2016/07/13/20160712juno-probes-tiny-sensors-to-perform-big-science-around-jupiter/)
+- [Juno探査機の小さなセンサーが木星のまわりでビッグな科学を演じる…ASICの超小型軽量化に成功 | TechCrunch Japan](https://jp.techcrunch.com/2016/07/13/20160712juno-probes-tiny-sensors-to-perform-big-science-around-jupiter/)
 
 ## 2017年直前のうるう秒{#ls}
 

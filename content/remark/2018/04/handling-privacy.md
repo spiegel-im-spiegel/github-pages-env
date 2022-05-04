@@ -20,7 +20,7 @@ Apple は基本的にハードウェア・メーカである。
 そんなの昔あった「もし Microsoft が自動車を作ったら」みたいなホラーである。
 それは Apple に限らず IBM や他の老舗企業でも同じと言える[^ai1]。
 
-[^ai1]: IBM は本格的に AI 技術に舵を切ってるし今後は分からないけど，それすらない Apple ではありえないだろう。 Apple は「個人情報で商売しない」のではなくできないのである。[自前のクラウドすら持てない](http://jp.techcrunch.com/2018/02/28/2018-02-27-apple-now-relies-on-google-cloud-platform-and-amazon-s3-for-icloud-data/ "AppleはiCloudのデータをGoogle CloudとAmazon S3に保存している  |  TechCrunch Japan")のでは競争に勝てない。
+[^ai1]: IBM は本格的に AI 技術に舵を切ってるし今後は分からないけど，それすらない Apple ではありえないだろう。 Apple は「個人情報で商売しない」のではなくできないのである。[自前のクラウドすら持てない](https://jp.techcrunch.com/2018/02/28/2018-02-27-apple-now-relies-on-google-cloud-platform-and-amazon-s3-for-icloud-data/ "AppleはiCloudのデータをGoogle CloudとAmazon S3に保存している  |  TechCrunch Japan")のでは競争に勝てない。
 
 ## 公開されたプライバシー
 

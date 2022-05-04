@@ -95,7 +95,7 @@ Twitter の TL を眺めるに，「docomo 利用者以外は関係ない」と�
 「ドコモ口座」では[「本人確認」を強化すると言っている](https://www.nttdocomo.co.jp/info/news_release/detail/20200909_00_m.html "ドコモ口座への銀行口座の新規登録における対策強化について")が「本人確認書類」の詐取はいくらでもあり得るのだから，オンラインでの（完全な）身元確認は無理と考えたほうがいい。
 むしろ「オンラインでの身元確認は無理」という前提で，どのようにサービスを設計するかが重要だろう。
 
-あと，いまどき [SMS 認証はヤメロ](http://jp.techcrunch.com/2016/07/26/20160725nist-declares-the-age-of-sms-based-2-factor-authentication-over/ "SMSを使った二要素認証を非推奨〜禁止へ、米国立技術規格研究所NISTの新ガイダンス案 | TechCrunch Japan")！ やる気あんのか？
+あと，いまどき [SMS 認証はヤメロ](https://jp.techcrunch.com/2016/07/26/20160725nist-declares-the-age-of-sms-based-2-factor-authentication-over/ "SMSを使った二要素認証を非推奨〜禁止へ、米国立技術規格研究所NISTの新ガイダンス案 | TechCrunch Japan")！ やる気あんのか？
 
 これ，今回はたまたま「ドコモ口座」だっただけで，似たようなことをやらかしてる「キャッシュレス決済」サービスは結構あるんじゃないの？ 今回のインシデントを通じてきちんとリスク・アセスメントを行い，必要なら法規制をかけないと。
 野放図にやりたい放題やる季節は（[7pay 崩壊]({{< ref "/remark/2019/07/7id-risk.md" >}} "7iD リスク")とともに）終わってるのよ。

@@ -42,7 +42,7 @@ title = "TensorFlow に関するブックマーク"
 - [わざわざTensorFlowの機械学習で$\sqrt{2}$を計算する - Qiita](http://qiita.com/n_kats_/items/73538c7c66559d09f35d)
 - [Python - 初めてのTensorFlow - イントロダクションとしての線形回帰 - Qiita](http://qiita.com/TomokIshii/items/f355d8e87d23ee8e0c7a)
 - [TensorFlowチュートリアル - マンデルブロ集合（翻訳） - Qiita](http://qiita.com/KojiOhki/items/00ae0297f6809bdbc484)
-- [TensorFlowライブラリによる機械学習モデルの、本番アプリケーションへの実装を助けるAPI集TensorFlow ServingをGoogleがリリース | TechCrunch Japan](http://jp.techcrunch.com/2016/02/17/20160216google-makes-it-easier-to-take-machine-learning-models-into-production/)
+- [TensorFlowライブラリによる機械学習モデルの、本番アプリケーションへの実装を助けるAPI集TensorFlow ServingをGoogleがリリース | TechCrunch Japan](https://jp.techcrunch.com/2016/02/17/20160216google-makes-it-easier-to-take-machine-learning-models-into-production/)
 
 {{< fig-youtube id="oZikw5k_2FM" title="TensorFlow: Open source machine learning - YouTube" width="500" height="281" >}}
 

@@ -47,7 +47,7 @@ Apple の失敗はユーザに安心感を与えるために安全を omit し�
 
 - [FBIとAppleの対立が急転、サン電子子会社がiPhoneロック解除で協力か | マイナビニュース](http://news.mynavi.jp/news/2016/03/24/162/)
 - [iPhoneの暗号化をAppleの協力なしで解除する7つの方法 - GIGAZINE](http://gigazine.net/news/20160324-fbi-unlock-iphone/)
-- [司法省、対Apple訴訟を取り下げ―テロ容疑者のiPhoneはFBIがアンロックに成功 | TechCrunch Japan](http://jp.techcrunch.com/2016/03/29/20160328justice-department-drops-lawsuit-against-apple-over-iphone-unlocking-case/)
+- [司法省、対Apple訴訟を取り下げ―テロ容疑者のiPhoneはFBIがアンロックに成功 | TechCrunch Japan](https://jp.techcrunch.com/2016/03/29/20160328justice-department-drops-lawsuit-against-apple-over-iphone-unlocking-case/)
 
 今まで何度も言っているが「警察にできることは犯罪者にもできる」。
 自力で iPhone を突破できなかった FBI は外部の企業を使うようだ。
@@ -62,7 +62,7 @@ IPA も気をつけなよ。
 - [米政府によるスマホデータ取り出しの協力要請、ACLUが実態調査 - CNET Japan](http://japan.cnet.com/news/society/35080404/)
 - [FBIのiPhoneロック解除方法、Appleに知らされない可能性も (1/3) - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1604/01/news114.html)
 - [FBI長官、「購入したロック解除ツールはiPhone 5sでは機能しなかった」 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1604/08/news060.html)
-- [FBIは銃撃犯のiPhoneをハッキングしたツールの詳細をAppleに開示しない意向 | TechCrunch Japan](http://jp.techcrunch.com/2016/04/27/20160426fbi-to-keep-apple-guessing-on-san-bernardino-iphone-hack/)
+- [FBIは銃撃犯のiPhoneをハッキングしたツールの詳細をAppleに開示しない意向 | TechCrunch Japan](https://jp.techcrunch.com/2016/04/27/20160426fbi-to-keep-apple-guessing-on-san-bernardino-iphone-hack/)
 
 ## 漫画家小山田いくさん死去{#iku}
 
@@ -97,7 +97,7 @@ Markdown が RFC になったらしい。
     - [Atom+PlantUMLで見た目もいい感じのシーケンス図を作成する - Qiita](http://qiita.com/k_nakayama/items/77ca73753ebd049a66de)
 - [【意訳】たった今、npmのパッケージを解放しました。 - Qiita](http://qiita.com/chuck0523/items/ee23293f2645d40cb317)
     - [The npm Blog — kik, left-pad, and npm](http://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm)
-- [モバイル最若年層では、Eメールが死につつある | TechCrunch Japan](http://jp.techcrunch.com/2016/03/25/20160324email-is-dying-among-mobiles-youngest-users/)
+- [モバイル最若年層では、Eメールが死につつある | TechCrunch Japan](https://jp.techcrunch.com/2016/03/25/20160324email-is-dying-among-mobiles-youngest-users/)
 - [MacOSとWindowsのネイティブ仮想化を用いたDocker純正ツール「Docker for Mac/Windows」登場、VirtualBoxは不要に － Publickey](http://www.publickey1.jp/blog/16/docker_for_macwindows.html)
 
 ## 参考図書

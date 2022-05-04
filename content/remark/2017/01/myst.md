@@ -20,7 +20,7 @@ description = "まだちょこっと触っただけだが，ゲームパッド�
   url = "https://baldanders.info/profile/"
 +++
 
-- [MystがAndroidに登場、Rivenもまもなく | TechCrunch Japan](http://jp.techcrunch.com/2017/01/27/20170126myst-arrives-on-android-riven-to-follow-soon/)
+- [MystがAndroidに登場、Rivenもまもなく | TechCrunch Japan](https://jp.techcrunch.com/2017/01/27/20170126myst-arrives-on-android-riven-to-follow-soon/)
 
 私が当時やったのはセガサターン版のほう。
 とっくに社会人になってたけどハマったねぇ。

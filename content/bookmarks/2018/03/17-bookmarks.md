@@ -64,7 +64,7 @@ flattr    = ""
 - [「Microsoft Office 互換機能パック」が4月で引退 ～11年間以上もの長い間ありがとう！ - やじうまの杜 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1110841.html)
 - [マイクロソフト、Windows 10に機械学習の実行環境とAPIを備えた「Windows ML」搭載へ。Windowsを学習済みモデルの実行プラットフォームに － Publickey](http://www.publickey1.jp/blog/18/windows_10apiwindows_mlwindows.html)
 - [マイクロソフト、WindowsアプリのWebViewとしてEdgeレンダリングエンジンを利用可能に。Windowsでもガワネイティブアプリが広まるか － Publickey](http://www.publickey1.jp/blog/18/windowswebviewedgewindows.html)
-- [デジタルガレージと弁護士ドットコム、りそな銀、ローン業務にスマートコントラクトを使う実証実験  |  TechCrunch Japan](http://jp.techcrunch.com/2018/03/12/dg-bengo4-risona-try-elements/)
+- [デジタルガレージと弁護士ドットコム、りそな銀、ローン業務にスマートコントラクトを使う実証実験  |  TechCrunch Japan](https://jp.techcrunch.com/2018/03/12/dg-bengo4-risona-try-elements/)
 - [じぶん銀行、邦銀初のAIによる外貨の自動積立サービスを開始 - CNET Japan](https://japan.cnet.com/article/35115860/)
 - [Raspberry Piタブレット「RasPad」がキックスターターで人気--目標の30倍弱を集金 - CNET Japan](https://japan.cnet.com/article/35115834/)
 - [Firefoxの拡張機能でGitHubのプルリクエストを匿名化し、コードレビュー時の性別や人種などによるバイアスを取り除く実験開始。ソフトウェア分野のダイバーシティに向け － Publickey](http://www.publickey1.jp/blog/18/firefoxgithub.html) : これ意味あるのか？

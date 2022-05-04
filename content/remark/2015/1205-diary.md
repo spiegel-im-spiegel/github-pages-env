@@ -177,7 +177,7 @@ IBM の [Watson](http://www.ibm.com/smarterplanet/jp/ja/ibmwatson/) がどんな
 決められたコードに従って「創作」しているだけの職業クリエイターこそが人工知能に排除される対象である。
 
 - [自動作曲と著作権](http://magarchive.halfmoon.jp/vector/chaos/copyright.html)
-- [自作のビデオに音楽をつけたい人、作曲サービスJukedeckが著作権のない曲を一瞬で作ってくれる | TechCrunch Japan](http://jp.techcrunch.com/2015/12/08/20151207jukedeck/)
+- [自作のビデオに音楽をつけたい人、作曲サービスJukedeckが著作権のない曲を一瞬で作ってくれる | TechCrunch Japan](https://jp.techcrunch.com/2015/12/08/20151207jukedeck/)
 
 ## 新刊小説の滅亡{#book}
 
