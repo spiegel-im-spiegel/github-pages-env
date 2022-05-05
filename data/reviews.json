@@ -18455,5 +18455,166 @@
       false
     ],
     "Description": "お出かけ用に購入。思ったよりはコンパクトだが窮屈な感じではない。 Andorid タブレットと繋いで問題なく使えている。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4873119464",
+      "Title": "ユニコーン企業のひみつ ―Spotifyで学んだソフトウェアづくりと働き方",
+      "URL": "https://www.amazon.co.jp/dp/4873119464?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41cE5EmeezL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "Jonathan Rasmusson",
+          "Role": "著"
+        },
+        {
+          "Name": "島田 浩二",
+          "Role": "翻訳"
+        },
+        {
+          "Name": "角谷 信太郎",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "オライリージャパン",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4873119464"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784873119465"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4873119464"
+        }
+      ],
+      "PublicationDate": "2021-04-26",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-05-05",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "\u003ca href=\"https://www.oreilly.co.jp/books/9784873119465/\"\u003e出版元でデジタル版を購入可能\u003c/a\u003e。今度の\u003ca href=\"https://technical-book-reading.connpass.com/event/245551/\"\u003e読書会\u003c/a\u003eの教科書。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B082FWNFPG",
+      "Title": "波乗りジョニー",
+      "URL": "https://www.amazon.co.jp/dp/B082FWNFPG?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51-5qR-lSOL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "桑田佳祐",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "TAISHITA",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B082FWNFPG"
+        }
+      ],
+      "PublicationDate": "2001-07-04",
+      "LastRelease": "2019-12-20",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-05-05",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "個人的にカラオケ定番曲のひとつ。桑田佳祐さんの曲は音域が合ってるみたいで歌いやすくてよい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4873114608",
+      "Title": "アプレンティスシップ・パターン　―徒弟制度に学ぶ熟練技術者の技と心得 (THEORY/IN/PRACTICE)",
+      "URL": "https://www.amazon.co.jp/dp/4873114608?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41cXiQEuF1L._SL160_.jpg",
+        "Height": 160,
+        "Width": 111
+      },
+      "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "Dave H. Hoover",
+          "Role": "著"
+        },
+        {
+          "Name": "Adewale Oshineye",
+          "Role": "著"
+        },
+        {
+          "Name": "柴田 芳樹",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "オライリージャパン",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4873114608"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784873114606"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4873114608"
+        }
+      ],
+      "PublicationDate": "2010-07-08",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-05-05",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "\u003ca href=\"https://www.oreilly.co.jp/books/9784873114606/\"\u003e出版元でデジタル版を購入可能\u003c/a\u003e。いわゆる「徒弟制度」を参考に「技術」を習得するための考え方を示す本。なんだけど，まだ読み終わってない。"
   }
 ]
