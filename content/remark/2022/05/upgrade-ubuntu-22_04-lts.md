@@ -23,8 +23,8 @@ pageType = "text"
 3. Thunderbird は相変わらず [GnuPG] の鍵束を認識してくれない。そろそろ捨てようか
 4. LibreOffice は 7.3 系。 OpenPGP 鍵で暗号化したファイルもちゃんと開けるし，問題ないだろう。 Snap 版は相変わらず評判が悪いようだ（笑）
 5. [KeePassXC] は既に jammy リポジトリがある。依存ライブラリのバージョンが違うらしい
-6. [pgAdmin4] は jammy リポジトリがまだ要しされてない模様。こちらはしばらくは様子見か
-7. [Node.js] は [NodeSource で v18 系をインストール](https://github.com/nodesource/distributions)してみた。今のところは問題なし。なにかあれば v16 (LTS) に戻すつもり
+6. [pgAdmin4] は jammy リポジトリがまだ用意されてない模様。こちらはしばらく様子見か
+7. [Node.js] は [NodeSource](https://github.com/nodesource/distributions) で v18 系をインストールしてみた。今のところは問題なし。なにかあれば v16 (LTS) に戻すつもり
 
 ## いつものように GnuPG が古い
 
