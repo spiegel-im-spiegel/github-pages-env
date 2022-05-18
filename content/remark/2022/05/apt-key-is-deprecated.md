@@ -230,6 +230,17 @@ $ sudo apt update
 
 最後に `/etc/apt/trusted.gpg` ファイルを削除するか他所に退避させておけば問題ないであろう。
 
+## 【2022-05-19 追記】 [pgAdmin] のアップグレード
+
+[pgAdmin] も [Docker] と同じくサード・パーティ公開鍵の登録が必要なので以下の手順で公開鍵とリポジトリの登録を行う。
+
+```text
+$ sudo curl -fsSL https://www.pgadmin.org/static/packages_pgadmin_org.pub -o /etc/apt/keyrings/pgadmin-4-key.asc
+$ sudo sh -c 'echo "deb [signed-by=/etc/apt/keyrings/pgadmin-4-key.asc] https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list'
+```
+
+これで無問題。
+
 ## ブックマーク
 
 - [Ubuntu Manpage: apt-key - APT キー管理ユーティリティ](https://manpages.ubuntu.com/manpages/trusty/ja/man8/apt-key.8.html)
@@ -238,6 +249,7 @@ $ sudo apt update
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [Docker]: https://www.docker.com/ "Empowering App Development for Developers | Docker"
 [gpgpdump]: https://github.com/goark/gpgpdump "goark/gpgpdump: OpenPGP packet visualizer"
+[pgAdmin]: https://www.pgadmin.org/ "pgAdmin - PostgreSQL Tools"
 
 ## 参考図書
 
