@@ -5,7 +5,7 @@ description = "いやぁ，昨年の発売直後に買った（というか予�
 tags = ["math", "book", "vector"]
 
 [scripts]
-  mathjax = false
+  mathjax = true
   mermaidjs = false
 +++
 

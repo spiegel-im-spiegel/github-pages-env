@@ -18616,5 +18616,52 @@
       false
     ],
     "Description": "\u003ca href=\"https://www.oreilly.co.jp/books/9784873114606/\"\u003e出版元でデジタル版を購入可能\u003c/a\u003e。いわゆる「徒弟制度」を参考に「技術」を習得するための考え方を示す本。なんだけど，まだ読み終わってない。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09T94D62K",
+      "Title": "いかにして問題をとくか",
+      "URL": "https://www.amazon.co.jp/dp/B09T94D62K?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41XqjElJUVL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "G．ポリア",
+          "Role": "著"
+        },
+        {
+          "Name": "柿内賢信",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "丸善出版",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09T94D62K"
+        }
+      ],
+      "PublicationDate": "2022-03-25",
+      "LastRelease": "2022-02-24",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-05-19",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "なんと！ \u003ca href=\"https://www.maruzen-publishing.co.jp/contents/howtosolveit/\"\u003eKindle 版が出た\u003c/a\u003e。ただしプリント・レプリカ形式なので見れる環境が限られる。残念ながら Kindle Cloud Reader では見れなかった。紙の本を持ってる人が念の為に買っておくのがいいかな（笑）"
   }
 ]
