@@ -18504,16 +18504,16 @@
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2022-05-05",
-    "Rating": 0,
+    "Date": "2022-05-19",
+    "Rating": 4,
     "Star": [
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
       false
     ],
-    "Description": "\u003ca href=\"https://www.oreilly.co.jp/books/9784873119465/\"\u003e出版元でデジタル版を購入可能\u003c/a\u003e。今度の\u003ca href=\"https://technical-book-reading.connpass.com/event/245551/\"\u003e読書会\u003c/a\u003eの教科書。"
+    "Description": "版元より\u003ca href=\"https://www.oreilly.co.jp/books/9784873119465/\"\u003e電子版\u003c/a\u003eも出ている。GAFA のような「ユニコーン企業」はどのようにして「ミッション」を遂行しているのか。"
   },
   {
     "Book": {
@@ -18663,5 +18663,83 @@
       false
     ],
     "Description": "なんと！ \u003ca href=\"https://www.maruzen-publishing.co.jp/contents/howtosolveit/\"\u003eKindle 版が出た\u003c/a\u003e。ただしプリント・レプリカ形式なので見れる環境が限られる。残念ながら Kindle Cloud Reader では見れなかった。紙の本を持ってる人が念の為に買っておくのがいいかな（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01JMEDX8A",
+      "Title": "攻殻機動隊 STAND ALONE COMPLEX",
+      "URL": "https://www.amazon.co.jp/dp/B01JMEDX8A?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/512LcoC3R8L._SL160_.jpg",
+        "Height": 120,
+        "Width": 160
+      },
+      "ProductType": "Prime Video",
+      "Creators": [
+        {
+          "Name": "田中敦子",
+          "Role": "出演"
+        },
+        {
+          "Name": "阪脩",
+          "Role": "出演"
+        },
+        {
+          "Name": "大塚明夫",
+          "Role": "出演"
+        },
+        {
+          "Name": "山寺宏一",
+          "Role": "出演"
+        },
+        {
+          "Name": "仲野裕",
+          "Role": "出演"
+        },
+        {
+          "Name": "大川透",
+          "Role": "出演"
+        },
+        {
+          "Name": "山口太郎",
+          "Role": "出演"
+        },
+        {
+          "Name": "小野塚貴志",
+          "Role": "出演"
+        },
+        {
+          "Name": "玉川紗己子",
+          "Role": "出演"
+        },
+        {
+          "Name": "神山健治",
+          "Role": "監督"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01JMEDX8A"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2016-08-05",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-05-19",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "「\u003ca href=\"https://www.amazon.co.jp/dp/B06XCRQQZF?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1\"\u003eGHOST IN THE SHELL\u003c/a\u003e」とどっちが好きかと言われれば悩むところだが，アニメ版「攻殻機動隊」シリーズでは好きな作品。"
   }
 ]
