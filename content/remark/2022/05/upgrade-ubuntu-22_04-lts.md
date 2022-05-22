@@ -80,6 +80,31 @@ OpenSSH_8.9p1 Ubuntu-3, OpenSSL 3.0.2 15 Mar 2022
 - [Ubuntu 22.04 をインストールしたら設定すること 10 ヶ条](https://zenn.dev/sprout2000/articles/8ea4a77d81583a)
 - [Ubuntu 20.04にNode.jsをインストールする方法  | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04-ja)
 
+- [Ubuntu 21.10 その90 - Ubuntu 22.04 LTSへアップグレードするには・アップグレードの注意事項 - kledgeb](https://kledgeb.blogspot.com/2022/04/ubuntu-2110-90-ubuntu-2204-lts.html)
+- [Ubuntu 22.04 その63 - Ubuntu 22.04 LTSで行われたRaspberry Piのサポート改善 - kledgeb](https://kledgeb.blogspot.com/2022/04/ubuntu-2204-63-ubuntu-2204-ltsraspberry.html)
+- [Ubuntu 22.04 その104 - 日付やタイムゾーンを自動設定するには・時間の12時間制と24時間制を切り替えるには - kledgeb](https://kledgeb.blogspot.com/2022/05/ubuntu-2204-104-1224.html)
+- [Ubuntu 22.04 その102 - ユーザーアカウントを追加するには・ユーザーアカウントを削除するには - kledgeb](https://kledgeb.blogspot.com/2022/05/ubuntu-2204-102.html)
+- [Ubuntu 22.04 その101 - ユーザーアカウントの各種設定を変更するには・ユーザーアカウントのパスワードや自動ログイン設定を変更するには - kledgeb](https://kledgeb.blogspot.com/2022/05/ubuntu-2204-101.html)
+- [Ubuntu 22.04 その100 - UIの言語を変更するには・言語環境に足りないソフトウェアがないかチェックするには - kledgeb](https://kledgeb.blogspot.com/2022/05/ubuntu-2204-100-ui.html)
+- [Ubuntu 22.04 その99 - 日本語入力（Mozc）の設定をカスタマイズして作業効率を上げよう - kledgeb](https://kledgeb.blogspot.com/2022/05/ubuntu-2204-99-mozc.html)
+- [Ubuntu 22.04 その95 - ディスプレイサーバーを切り替えるには・XorgとWayland - kledgeb](https://kledgeb.blogspot.com/2022/05/ubuntu-2204-95-xorgwayland.html)
+- [Ubuntu 22.04 その91 - 目への負担を軽減する夜間モードを設定するには - kledgeb](https://kledgeb.blogspot.com/2022/05/ubuntu-2204-91.html)
+- [Ubuntu 22.04 その90 - ディスプレイの解像度やHiDPIの設定をカスタマイズする・マルチディスプレイを設定する - kledgeb](https://kledgeb.blogspot.com/2022/05/ubuntu-2204-90-hidpi.html)
+- [Ubuntu 22.04 その89 - デバイスのバッテリー残量の確認やパフォーマンスを調整するには・その他電源に関する設定を変更するには - kledgeb](https://kledgeb.blogspot.com/2022/05/ubuntu-2204-89.html)
+- [Ubuntu 22.04 その67 - Active Directoryのサポート強化とADsys - kledgeb](https://kledgeb.blogspot.com/2022/04/ubuntu-2204-67-active-directoryadsys.html)
+- [Ubuntu 22.04 LTSのインストール その7 - UEFIブートマネージャーの確認 〜 MOKの登録 - kledgeb](https://kledgeb.blogspot.com/2022/04/ubuntu-2204-lts-7-uefi-mok.html)
+- [Ubuntu 22.04 LTS 日本語 Remix リリース | Ubuntu Japanese Team](ubuntu2204-ja-remix)
+  - [Ubuntu 22.04 その106 - Ubuntu 22.04 LTS 日本語 Remixがリリースされました・ディスクイメージのダウンロード - kledgeb](https://kledgeb.blogspot.com/2022/05/ubuntu-2204-106-ubuntu-2204-lts-remix.html)
+- [Ubuntu 22.04 その120 - UbuntuのブートローダーをBoot Repairで修復するには・Ubuntuが起動しないトラブルを解決 - kledgeb](https://kledgeb.blogspot.com/2022/05/ubuntu-2204-120-ubuntuboot-repairubuntu.html)
+- [Ubuntu 22.04 その125 - 強化されたスクリーンキャプチャー機能・スクリーンキャストも利用可能に - kledgeb](https://kledgeb.blogspot.com/2022/05/ubuntu-2204-125.html)
+- [Ubuntu 22.04 その133 - ファイルアプリとDropboxを連携させてDropboxを便利に活用しよう - kledgeb](https://kledgeb.blogspot.com/2022/05/ubuntu-2204-133-dropboxdropbox.html)
+- [Ubuntu 22.04 その136 - 画面からはみ出して移動できなくなったウィンドウを移動するには・サイズが小さすぎてサイズ調整できなくなったウィンドウのサイズを調整するには - kledgeb](https://kledgeb.blogspot.com/2022/05/ubuntu-2204-136.html)
+- [Ubuntu 22.04 その138 - インジケーターからGNOME Shell拡張を管理するには・Extension Listの使い方 - kledgeb](https://kledgeb.blogspot.com/2022/05/ubuntu-2204-138-gnome-shellextension.html)
+- [Ubuntu 22.04 その139 - インジケーターからマウントされたボリュームを開いたりアンマウントするには・Removable Drive Menuの使い方 - kledgeb](https://kledgeb.blogspot.com/2022/05/ubuntu-2204-139-removable-drive-menu.html)
+- [Ubuntu 22.04 その140 - インジケーターからサウンドデバイスやオーディオプロファイルを切り替えるには・Sound Input & Output Device Chooserの使い方 - kledgeb](https://kledgeb.blogspot.com/2022/05/ubuntu-2204-140-sound-input-output.html)
+- [Ubuntu 22.04 その141 - クリップボードの履歴を取りクリップボードの内容を再利用するには・Clipboard Indicatorの使い方 - kledgeb](https://kledgeb.blogspot.com/2022/05/ubuntu-2204-141-clipboard-indicator.html)
+- [Ubuntu 22.04 その144 - デスクトップアイコンをもっと細かくカスタマイズするには・ボリュームやアイコン表示のカスタマイズなど - kledgeb](https://kledgeb.blogspot.com/2022/05/ubuntu-2204-144.html)
+
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [KeePassXC]: https://keepassxc.org/ "KeePassXC Password Manager"
 [pgAdmin4]: https://www.pgadmin.org/ "pgAdmin - PostgreSQL Tools"

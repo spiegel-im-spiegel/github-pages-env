@@ -19,6 +19,7 @@
 
 - [GitHub - taichi/kra: relational database access helper library](https://github.com/taichi/kra) : あとで試す
 
+- [Google、古いガラケーの白黒絵文字をオマージュした「Noto Emoji」フォントを発表 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1408856.html)
 
 ## リリース情報 {#release}
 

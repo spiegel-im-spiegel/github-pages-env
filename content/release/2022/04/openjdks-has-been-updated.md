@@ -177,6 +177,7 @@ LTS 版 Java バイナリが欲しいなら [Adoptium](https://adoptium.net/) �
 - [Critical cryptographic Java security blunder patched – update now! – Naked Security](https://nakedsecurity.sophos.com/2022/04/20/critical-cryptographic-java-security-blunder-patched-update-now/)
 - [2022年4月Oracle製品のクリティカルパッチアップデートに関する注意喚起](https://www.jpcert.or.jp/at/2022/at220012.html)
 - [「Java」に署名検証がフリーパスになってしまう危険な脆弱性 ～影響は計り知れず - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1404535.html)
+- [Javaの暗号化機能に署名検証をバイパスできる重大な脆弱性、研究者がPoC公開 | TECH+](https://news.mynavi.jp/techplus/article/20220425-2329686/)
 
 [OpenJDK]: http://openjdk.java.net/
 [Adoptium]: https://adoptium.net/
