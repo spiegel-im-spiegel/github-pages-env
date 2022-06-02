@@ -18,7 +18,7 @@ pageType = "text"
 - [Hugo 0.55.0: The early Easter Egg Edition! | Hugo](https://gohugo.io/news/0.55.0-relnotes/)
 
 {{% fig-quote type="markdown" title="Hugo 0.55.0: The early Easter Egg Edition!" link="https://gohugo.io/news/0.55.0-relnotes/" lang="en" %}}
-{{% quote %}}Shortcodes using the `{{%/* */%}}` as the outer-most delimiter will now be fully rendered when sent to the content renderer (e.g. Blackfriday for Markdown), meaning they can be part of the generated table of contents, footnotes, etc.{{% /quote %}}
+{{% quote %}}Shortcodes using the `{``{%/* */%}``}` as the outer-most delimiter will now be fully rendered when sent to the content renderer (e.g. Blackfriday for Markdown), meaning they can be part of the generated table of contents, footnotes, etc.{{% /quote %}}
 {{% /fig-quote %}}
 
 具体的な例を挙げたほうが分かりやすいだろう。
