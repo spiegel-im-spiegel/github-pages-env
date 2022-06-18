@@ -1,5 +1,5 @@
 +++
-title = "『ユニコーン企業のひみつ』読書会"
+title = "『ユニコーン企業のひみつ』読書会（1）"
 date =  "2022-05-21T20:28:24+09:00"
 description = "アレな GAFA 礼賛本を読むくらいならこっちの方をお勧めする。"
 image = "/images/attention/kitten.jpg"
@@ -25,6 +25,11 @@ pageType = "text"
 ちなみに原書 “[Competing with Unicorns](https://www.amazon.co.jp/dp/B088PBCWBZ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)” は2020年，今回の翻訳本『[ユニコーン企業のひみつ]』は2021年に出版されている。
 
 [^bio1]: Amazon に書かれている著者の経歴によると「世界最大級の革新的なテック企業が世界中にソフトウェアを届けることを支援してきた。エンジニアとしては、Spotifyのインテグレーションを支援した。対象プラットフォームはSony PlayStation、Facebook Messenger、Google Chromecast、iMessage。同様にBMW、Tesla、Fordの自動車にも統合した」とある。『[ユニコーン企業のひみつ]』では Spotify での経験が色濃く反映されている。
+
+## 目次
+
+- [『ユニコーン企業のひみつ』読書会（1）]({{< ref "/remark/2022/05/competing-with-unicorns.md" >}}) ← イマココ
+- [『ユニコーン企業のひみつ』読書会（2）]({{< ref "/remark/2022/06/competing-with-unicorns-2.md" >}})
 
 ## 「ユニコーン企業」とは
 

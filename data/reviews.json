@@ -18741,5 +18741,46 @@
       false
     ],
     "Description": "「\u003ca href=\"https://www.amazon.co.jp/dp/B06XCRQQZF?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1\"\u003eGHOST IN THE SHELL\u003c/a\u003e」とどっちが好きかと言われれば悩むところだが，アニメ版「攻殻機動隊」シリーズでは好きな作品。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00T5ANN00",
+      "Title": "audio-technica USBコンデンサーマイク 在宅勤務/録音/動画配信/ポッドキャスト AT9933USB",
+      "URL": "https://www.amazon.co.jp/dp/B00T5ANN00?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31umrghJaJL._SL160_.jpg",
+        "Height": 141,
+        "Width": 160
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "Audio Technica(オーディオテクニカ)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00T5ANN00"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4961310129798"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2015-02-13",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-06-18",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "Bluetooth 接続のヘッドセットの調子が悪いので，マイクだけ USB 接続のものを買ってみた。"
   }
 ]
