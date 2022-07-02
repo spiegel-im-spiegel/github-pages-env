@@ -3,7 +3,7 @@ title = "立体顔パンツ"
 date =  "2022-07-02T13:59:26+09:00"
 description = "次回からは狙ってこれを買うことにしよう。"
 image = "/images/attention/kitten.jpg"
-tags = [ "tools" ]
+tags = [ "tools", "infection" ]
 pageType = "text"
 
 [scripts]
