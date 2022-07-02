@@ -67,7 +67,7 @@ GitHub をはじめとするサービスは単なる「git リポジトリ・サ
 先に紹介した [Google Book Search の件]({{< ref "/remark/2015/google-books-library-project.md" >}} "Google Books の Library Book Scan すら Fair Use と言われたのに...")や2021年まで争われていた [Google vs Oracle の訴訟]({{< ref "/remark/2021/04/google-vs-oracle-final.md" >}} "Google vs Oracle の訴訟の行方（最終章）")を見ても分かるように，あるサービスによる知財の取り扱いが fair use に基づいているか判断するのは難しい。
 というか米国の場合，訴訟が始まってからがスタートラインなんだよな。
 
-訴訟が始まって GitHub やその親玉である Microsoft が FOSS コードやその貢献についてどのように考えているか明らかなになれば，もっと色々と語ることがあるかも知れない。
+訴訟が始まって GitHub やその親玉である Microsoft が FOSS コードやその貢献についてどのように考えているか明らかになれば，もっと色々と語ることがあるかも知れない。
 
 ## ブックマーク
 
