@@ -52,7 +52,7 @@ Software Freedom Conservancyの委員会はAI支援ソフトウェア開発ツ�
 同委員会は今後もこの分野への取り組みを続けるとしているほか、Amazon CodeWhispererのようにコード提案時に適切な帰属とライセンス情報を表示しようとする取り組みがあることについても説明している。
 {{< /fig-quote >}}
 
-というのも単にライセンス処理の問題だけではないと思えてくる。
+というのもライセンス処理の問題だけではないと思えてくる。
 
 GitHub をはじめとするサービスは単なる「git リポジトリ・サービス」ではなく，コードを中心としたコミュニティを構成し貢献を可視化するプラットフォームとして機能している。
 このことを軽視してはいけないと思う。
@@ -61,7 +61,7 @@ GitHub をはじめとするサービスは単なる「git リポジトリ・サ
 
 ## 【おまけ1】 [GitHub Copilot] は Fair Use か
 
-[GitHub Copilot] が fair use かどうかについては微妙だと思う。
+元コードのライセンスを無視してどんぶり勘定する [GitHub Copilot] が fair use かどうかについては微妙だと思う。
 まぁ「公正な利用」の概念がない日本では一発アウトだろうが（笑）
 
 先に紹介した [Google Book Search の件]({{< ref "/remark/2015/google-books-library-project.md" >}} "Google Books の Library Book Scan すら Fair Use と言われたのに...")や2021年まで争われていた [Google vs Oracle の訴訟]({{< ref "/remark/2021/04/google-vs-oracle-final.md" >}} "Google vs Oracle の訴訟の行方（最終章）")を見ても分かるように，あるサービスによる知財の取り扱いが fair use に基づいているか判断するのは難しい。
