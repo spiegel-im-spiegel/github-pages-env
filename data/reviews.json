@@ -18859,5 +18859,48 @@
       false
     ],
     "Description": "顔にフィットしてズレにくい。唇が布地（不織布）に当たらないのもよい。小さく折り畳める。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07FMV7HMD",
+      "Title": "夏をあきらめて",
+      "URL": "https://www.amazon.co.jp/dp/B07FMV7HMD?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61sUeAyJ3yL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "サザンオールスターズ",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "TAISHITA",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07FMV7HMD"
+        }
+      ],
+      "PublicationDate": "1998-06-25",
+      "LastRelease": "2018-08-06",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-07-03",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "カラオケでよく唄うやつ。原由子バージョンが好き。"
   }
 ]

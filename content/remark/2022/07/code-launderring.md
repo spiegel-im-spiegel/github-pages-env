@@ -69,12 +69,28 @@ GitHub をはじめとするサービスは単なる「git リポジトリ・サ
 
 訴訟が始まって GitHub やその親玉である Microsoft が FOSS コードやその貢献についてどのように考えているか明らかになれば，もっと色々と語ることがあるかも知れない。
 
+## 【おまけ】目的によって利用を制限するのであればそれはもう FOSS ではない
+
+ゼロ年代に 9.11 から始まる一連のテロや戦争のときもそうだったし，2022年のロシアがウクライナに仕掛けた侵略戦争勃発時にも見られたが，抗議目的でソフトウェアの（著作権的な意味での）利用を制限することは FOSS の目的や手段にマッチしない。
+
+たとえば，今回の [GitHub Copilot] に抗議・拒否する目的で既出の FOSS 製品の利用を制限したいのであれば「FOSS でないなにか」に変更しなければならない。
+それは今まで積み上げてきたエコシステムの基盤を崩すことになる。
+
+
+[GitHub Copilot]  には反対するけど今のエコシステムを壊したくないなら SFC が言うように「GitHub をあきらめる（give up GitHub）」しかない。
+それとも（今まで積み上げてきたものを壊してでも）断固とした対決姿勢をとるか。
+「リポジトリに Copilot 拒否オプションを付ければいいぢゃん」とかいった簡単な話ではないのである。
+
+さて，どうなる？ どうする？
+
 ## ブックマーク
 
 - [GitHub Copilotを正式リリース。すべての開発者が利用できるようになりました。 - GitHubブログ](https://github.blog/jp/2022-06-22-github-copilot-is-generally-available-to-all-developers/)
+- [戦争に抗議する「プロテストウェア」が、オープンソースエコシステムの信頼を揺るがしている | WIRED.jp](https://wired.jp/article/open-source-sabotage-protestware/)
 
 [GitHub Copilot]: http://copilot.github.com/ "GitHub Copilot · Your AI pair programmer"
 
 ## 参考図書
 
 {{% review-paapi "4309242456" %}} <!-- リナックスの革命 Hacker Ethic -->
+{{% review-paapi "B07FMV7HMD" %}} <!-- 夏をあきらめて（♪あきらめの夏♪） -->
