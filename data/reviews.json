@@ -18782,5 +18782,82 @@
       false
     ],
     "Description": "Bluetooth 接続のヘッドセットの調子が悪いので，マイクだけ USB 接続のものを買ってみた。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09LSSRM3K",
+      "Title": "4層不織布マスク 3D立体構造 男女兼用 ふつうサイズ 個包装 ホワイト 30枚入X5箱",
+      "URL": "https://www.amazon.co.jp/dp/B09LSSRM3K?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41fORfWO7rL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "株式会社ヒロ・コーポレーション",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09LSSRM3K"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-07-02",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "顔にフィットしてズレにくい。唇が布地（不織布）に当たらないのもよい。小さく折り畳める。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09KLH1JQ2",
+      "Title": "3D立体構造 4層不織布マスク 男女兼用 ふつうサイズ 個包装 ホワイト 30枚入",
+      "URL": "https://www.amazon.co.jp/dp/B09KLH1JQ2?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/415nQ+ssZWL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "ヘルスケア\u0026ケア用品",
+      "Publisher": "ヒロコーポレーション",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09KLH1JQ2"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4562350984493"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-07-02",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "顔にフィットしてズレにくい。唇が布地（不織布）に当たらないのもよい。小さく折り畳める。"
   }
 ]
