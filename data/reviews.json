@@ -18902,5 +18902,64 @@
       false
     ],
     "Description": "カラオケでよく唄うやつ。原由子バージョンが好き。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "483991107X",
+      "Title": "ウェブログ・ハンドブック―ブログの作成と運営に関する実践的なアドバイス",
+      "URL": "https://www.amazon.co.jp/dp/483991107X?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61W4STW632L._SL160_.jpg",
+        "Height": 160,
+        "Width": 97
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "レベッカ ブラッド",
+          "Role": "著"
+        },
+        {
+          "Name": "Blood,Rebecca",
+          "Role": "原著"
+        },
+        {
+          "Name": "yomoyomo",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "毎日コミュニケーションズ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "483991107X"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784839911072"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "483991107X"
+        }
+      ],
+      "PublicationDate": "2003-12-01",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-07-15",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "すみません。買ってないです。だって目がチカチカするんだもん。つか絶版なのか？ 表紙をかえて Kindle で出してくれれば歴史資料として買うのに（笑）"
   }
 ]
