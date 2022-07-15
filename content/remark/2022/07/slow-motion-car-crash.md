@@ -22,9 +22,9 @@ pageType = "text"
 
 でもネットから「ブログ」がなくなったようには見えない。
 
-いや，動画って見るのまどころしいじゃん。
+いや，動画って見るのまどろこしいじゃん。
 10分のコンテンツを2倍速で見ても5分かかるんだぜ。
-それならテキストで要約記事を記事を書いてくれよ！ そっちを見るから。
+それならテキストで要約記事を書いてくれよ！ そっちを見るから。
 
 まぁ[STEALTH一光](https://www.youtube.com/channel/UC0Wu3BlvfP3sjRowskywQyg)さんや [MindaRyn](https://www.youtube.com/channel/UCI3GAvwaZwf1abbeREza8eA) さんのチャネルとかは楽しく見てるけどね。
 それぞれの得意な道具を使えばいいぢゃん，とは思う。
