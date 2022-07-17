@@ -27,7 +27,19 @@ pageType = "text"
 {{% quote %}}A large (more than 5 MB) PEM input can cause a stack overflow in `Decode`, leading the program to crash{{% /quote %}}.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H`
+- 深刻度: 重要 (Score: 7.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | なし |
+| 可用性への影響 | 高 |
 
 ## [CVE-2022-28327]: crypto/elliptic: tolerate all oversized scalars in generic P-256
 
@@ -35,7 +47,19 @@ pageType = "text"
 {{% quote %}}A crafted scalar input longer than 32 bytes can cause `P256().ScalarMult` or `P256().ScalarBaseMult` to panic. Indirect uses through `crypto/ecdsa` and `crypto/tls` are unaffected. amd64, arm64, ppc64le, and s390x are unaffected{{% /quote %}}.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H`
+- 深刻度: 重要 (Score: 7.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | なし |
+| 可用性への影響 | 高 |
 
 ## [CVE-2022-27536]: crypto/x509: non-compliant certificates can cause a panic in Verify on macOS in Go 1.18
 
@@ -45,7 +69,19 @@ Verifying certificate chains containing certificates which are not compliant wit
 These chains can be delivered through TLS and can cause a `crypto/tls` or `net/http` client to crash.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H`
+- 深刻度: 重要 (Score: 7.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | なし |
+| 可用性への影響 | 高 |
 
 ## 例によって...
 
