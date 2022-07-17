@@ -19139,5 +19139,46 @@
       false
     ],
     "Description": "\u003ca href=\"https://www.oreilly.co.jp//books/9784873119694/\"\u003e版元\u003c/a\u003eのデジタル版を購入。これからゆっくり読む。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07JVKHRD5",
+      "Title": "JVC NAGARAKU SP-A10BT-W ウェアラブルネックスピーカー ワイヤレス Bluetooth 約20時間連続再生 本体約88g軽量設計 ホワイト",
+      "URL": "https://www.amazon.co.jp/dp/B07JVKHRD5?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/21DSDByWXjL._SL160_.jpg",
+        "Height": 96,
+        "Width": 160
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "JVCケンウッド",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07JVKHRD5"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4975769459337"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2018-11-21",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-07-17",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "JVC ブランドのネックスピーカー。連続再生時間20時間は魅力。廉価版なせいかびっくりするほど高音質というわけではないが，私が聴くのは主にアニソンなので無問題。"
   }
 ]
