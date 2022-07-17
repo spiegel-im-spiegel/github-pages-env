@@ -18961,5 +18961,183 @@
       false
     ],
     "Description": "すみません。買ってないです。だって目がチカチカするんだもん。つか絶版なのか？ 表紙をかえて Kindle で出してくれれば歴史資料として買うのに（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09P4PH63R",
+      "Title": "エキスパートたちのGo言語　一流のコードから応用力を学ぶ Software Design plus",
+      "URL": "https://www.amazon.co.jp/dp/B09P4PH63R?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41L6s6S4+8L._SL160_.jpg",
+        "Height": 160,
+        "Width": 126
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "上田 拓也",
+          "Role": "著"
+        },
+        {
+          "Name": "青木 太郎",
+          "Role": "著"
+        },
+        {
+          "Name": "石山 将来",
+          "Role": "著"
+        },
+        {
+          "Name": "伊藤 雄貴",
+          "Role": "著"
+        },
+        {
+          "Name": "生沼 一公",
+          "Role": "著"
+        },
+        {
+          "Name": "鎌田 健史",
+          "Role": "著"
+        },
+        {
+          "Name": "上川 慶",
+          "Role": "著"
+        },
+        {
+          "Name": "狩野 達也",
+          "Role": "著"
+        },
+        {
+          "Name": "五嶋 壮晃",
+          "Role": "著"
+        },
+        {
+          "Name": "杉田 寿憲",
+          "Role": "著"
+        },
+        {
+          "Name": "田村 弘",
+          "Role": "著"
+        },
+        {
+          "Name": "十枝内 直樹",
+          "Role": "著"
+        },
+        {
+          "Name": "主森 理",
+          "Role": "著"
+        },
+        {
+          "Name": "福岡 秀一郎",
+          "Role": "著"
+        },
+        {
+          "Name": "三木 英斗",
+          "Role": "著"
+        },
+        {
+          "Name": "森 健太",
+          "Role": "著"
+        },
+        {
+          "Name": "森國 泰平",
+          "Role": "著"
+        },
+        {
+          "Name": "森本 望",
+          "Role": "著"
+        },
+        {
+          "Name": "山下 慶将",
+          "Role": "著"
+        },
+        {
+          "Name": "渡辺 雄也",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "技術評論社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09P4PH63R"
+        }
+      ],
+      "PublicationDate": "2021-12-27",
+      "LastRelease": "2021-12-27",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-07-17",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "\u003ca href=\"https://gihyo.jp/book/2022/978-4-297-12519-6\"\u003e版元\u003c/a\u003eのデジタル版を購入。これからゆっくり読む。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4873119693",
+      "Title": "実用 Go言語 ―システム開発の現場で知っておきたいアドバイス",
+      "URL": "https://www.amazon.co.jp/dp/4873119693?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41cBKEBEYyL._SL160_.jpg",
+        "Height": 160,
+        "Width": 125
+      },
+      "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "渋川 よしき",
+          "Role": "著"
+        },
+        {
+          "Name": "辻 大志郎",
+          "Role": "著"
+        },
+        {
+          "Name": "真野 隼記",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "オライリージャパン",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4873119693"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784873119694"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4873119693"
+        }
+      ],
+      "PublicationDate": "2022-04-22",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-07-17",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "\u003ca href=\"https://www.oreilly.co.jp//books/9784873119694/\"\u003e版元\u003c/a\u003eのデジタル版を購入。これからゆっくり読む。"
   }
 ]
