@@ -20,7 +20,7 @@ pageType = "text"
 
 - [GetBrowseNodes · Product Advertising API 5.0](https://webservices.amazon.com/paapi5/documentation/getbrowsenodes.html)
 
-ちなみに browse node というのは構造化された商品カテゴリ・リストのようなものらしい。
+ここで browse node というのは構造化された商品カテゴリのようなものらしい。
 
 - [Browse Nodes · Product Advertising API 5.0](https://webservices.amazon.com/paapi5/documentation/use-cases/organization-of-items-on-amazon/browse-nodes.html)
 
@@ -43,40 +43,40 @@ pageType = "text"
 package main
 
 import (
-	"bytes"
-	"context"
-	"fmt"
-	"io"
-	"os"
+    "bytes"
+    "context"
+    "fmt"
+    "io"
+    "os"
 
-	paapi5 "github.com/goark/pa-api"
-	"github.com/goark/pa-api/query"
+    paapi5 "github.com/goark/pa-api"
+    "github.com/goark/pa-api/query"
 )
 
 func main() {
-	//Create client
-	client := paapi5.New(
-		paapi5.WithMarketplace(paapi5.LocaleJapan),
-	).CreateClient(
-		"mytag-20",
-		"AKIAIOSFODNN7EXAMPLE",
-		"1234567890",
-	)
+    //Create client
+    client := paapi5.New(
+        paapi5.WithMarketplace(paapi5.LocaleJapan),
+    ).CreateClient(
+        "mytag-20",
+        "AKIAIOSFODNN7EXAMPLE",
+        "1234567890",
+    )
 
-	//Make query
-	q := query.NewGetBrowseNodes(
-		client.Marketplace(),
-		client.PartnerTag(),
-		client.PartnerType(),
-	).BrowseNodeIds([]string{"2291970051"})
+    //Make query
+    q := query.NewGetBrowseNodes(
+        client.Marketplace(),
+        client.PartnerTag(),
+        client.PartnerType(),
+    ).BrowseNodeIds([]string{"2291970051"})
 
-	//Requet and response
-	body, err := client.RequestContext(context.Background(), q)
-	if err != nil {
-		fmt.Printf("%+v\n", err)
-		return
-	}
-	io.Copy(os.Stdout, bytes.NewReader(body))
+    //Requet and response
+    body, err := client.RequestContext(context.Background(), q)
+    if err != nil {
+        fmt.Printf("%+v\n", err)
+        return
+    }
+    io.Copy(os.Stdout, bytes.NewReader(body))
 }
 ```
 
@@ -198,9 +198,9 @@ $ go run sample2.go | jq .
 ```go
 //Make query
 q := query.NewSearchItems(
-	client.Marketplace(),
-	client.PartnerTag(),
-	client.PartnerType(),
+    client.Marketplace(),
+    client.PartnerTag(),
+    client.PartnerType(),
 ).Search(query.Author, "結城浩").Request(query.BrowseNodeID, "2291970051").EnableItemInfo()
 ```
 
