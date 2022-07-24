@@ -9,6 +9,11 @@ import (
 )
 
 func main() {
-	msg := "hello, world!"
-	fmt.Println(msg, "->", strings.ToTitle(msg))
+	msgs := []string{
+		"hello, world!",
+		"HELLO, WORLD!",
+	}
+	for _, msg := range msgs {
+		fmt.Println(msg, "->", strings.ToTitle(msg))
+	}
 }

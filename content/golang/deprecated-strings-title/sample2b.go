@@ -16,6 +16,6 @@ func main() {
 		"HELLO, WORLD!",
 	}
 	for _, msg := range msgs {
-		fmt.Println(msg, "->", cases.Title(language.Und).String(msg))
+		fmt.Println(msg, "->", cases.Title(language.Und, cases.NoLower).String(msg))
 	}
 }

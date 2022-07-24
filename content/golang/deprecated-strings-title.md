@@ -22,19 +22,25 @@ import (
 )
 
 func main() {
-    msg := "hello, world!"
-    fmt.Println(msg, "->", strings.Title(msg))
+    msgs := []string{
+        "hello, world!",
+        "HELLO, WORLD!",
+    }
+    for _, msg := range msgs {
+        fmt.Println(msg, "->", strings.Title(msg))
+    }
 }
 ```
 
 これを実行すると
 
 ```text
-$ go run sample.1.go
+$ go run sample1.go
 hello, world! -> Hello, World!
+HELLO, WORLD! -> HELLO, WORLD!
 ```
 
-と単語の先頭が大文字に残りは小文字に変換される。
+と単語の先頭が大文字に変換される。
 
 この [`strings`]`.Title()` 関数について [Go] 1.18 から
 
@@ -47,9 +53,9 @@ The `Title` function is now deprecated. It doesn't handle Unicode punctuation an
 
 ```text
 $ golangci-lint run
-sample1.go:10:25: SA1019: strings.Title has been deprecated since Go 1.18 and an alternative has been available since Go 1.0: The rule Title uses for word boundaries does not handle Unicode punctuation properly. Use golang.org/x/text/cases instead. (staticcheck)
-    fmt.Println(msg, "->", strings.Title(msg))
-                           ^
+sample1.go:14:26: SA1019: strings.Title has been deprecated since Go 1.18 and an alternative has been available since Go 1.0: The rule Title uses for word boundaries does not handle Unicode punctuation properly. Use golang.org/x/text/cases instead. (staticcheck)
+        fmt.Println(msg, "->", strings.Title(msg))
+                               ^
 ```
 
 と言う感じに警告を出してくれる。
@@ -59,8 +65,9 @@ sample1.go:10:25: SA1019: strings.Title has been deprecated since Go 1.18 and an
 ちなみに似た関数名に [`strings`]`.ToTitle()` というのがあるが，これを使うと
 
 ```text
-$ go run sample.1b.go
+$ go run sample1b.go
 hello, world! -> HELLO, WORLD!
+HELLO, WORLD! -> HELLO, WORLD!
 ```
 
 という感じに全部大文字になる。
@@ -69,7 +76,7 @@ hello, world! -> HELLO, WORLD!
 さて， [`strings`]`.Title()` 関数を使う代わりに [`golang.org/x/text/cases`] を使えとあるようなので，早速コードを書き換えてみる。
 こんな感じかな。
 
-```go
+```go {hl_lines=[16]}
 package main
 
 import (
@@ -80,8 +87,13 @@ import (
 )
 
 func main() {
-    msg := "hello, world!"
-    fmt.Println(msg, "->", cases.Title(language.Und).String(msg))
+    msgs := []string{
+        "hello, world!",
+        "HELLO, WORLD!",
+    }
+    for _, msg := range msgs {
+        fmt.Println(msg, "->", cases.Title(language.Und).String(msg))
+    }
 }
 ```
 
@@ -90,9 +102,25 @@ func main() {
 ```text
 $ go run sample2.go
 hello, world! -> Hello, World!
+HELLO, WORLD! -> Hello, World!
 ```
 
-と同じ結果が得られた。
+おっと！ 単語の2文字目以降が違うか。
+じゃぁ，オプションをつけて
+
+```go
+fmt.Println(msg, "->", cases.Title(language.Und, cases.NoLower).String(msg))
+```
+
+とすればいいのかな。
+
+```text
+$ go run sample2b.go
+hello, world! -> Hello, World!
+HELLO, WORLD! -> HELLO, WORLD!
+```
+
+よーし，うむうむ，よーし。
 
 [`language`][`golang.org/x/text/language`]`.Und` の部分は特定の言語（[`language`][`golang.org/x/text/language`]`.Japanese` とか）を指定できるのだが，たとえば役物が絡む場合：
 
@@ -108,12 +136,12 @@ import (
 
 func main() {
     msg := "'n"
-    tags := []language.Tag{
-        language.English,
-        language.Dutch,
+    casers := []cases.Caser{
+        cases.Title(language.English),
+        cases.Title(language.Dutch),
     }
-    for _, tag := range tags {
-        fmt.Println(tag, ":", msg, "->", cases.Title(tag).String(msg))
+    for _, caser := range casers {
+        fmt.Println(msg, "->", caser.String(msg))
     }
 }
 ```
@@ -122,8 +150,8 @@ func main() {
 
 ```text
 $ go run sample3.go
-en : 'n -> 'N
-nl : 'n -> 'n
+'n -> 'N
+'n -> 'n
 ```
 
 という感じに言語によって違いが出るようだ？

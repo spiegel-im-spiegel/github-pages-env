@@ -12,11 +12,11 @@ import (
 
 func main() {
 	msg := "'n"
-	tags := []language.Tag{
-		language.English,
-		language.Dutch,
+	casers := []cases.Caser{
+		cases.Title(language.English),
+		cases.Title(language.Dutch),
 	}
-	for _, tag := range tags {
-		fmt.Println(tag, ":", msg, "->", cases.Title(tag).String(msg))
+	for _, caser := range casers {
+		fmt.Println(msg, "->", caser.String(msg))
 	}
 }
