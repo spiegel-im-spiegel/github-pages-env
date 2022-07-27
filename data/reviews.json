@@ -19180,5 +19180,210 @@
       false
     ],
     "Description": "JVC ブランドのネックスピーカー。連続再生時間20時間は魅力。廉価版なせいかびっくりするほど高音質というわけではないが，私が聴くのは主にアニソンなので無問題。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4873119979",
+      "Title": "Go言語による分散サービス ―信頼性、拡張性、保守性の高いシステムの構築",
+      "URL": "https://www.amazon.co.jp/dp/4873119979?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41WaZWxEzVL._SL160_.jpg",
+        "Height": 160,
+        "Width": 125
+      },
+      "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "Travis Jeffery",
+          "Role": "著"
+        },
+        {
+          "Name": "柴田 芳樹",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "オライリージャパン",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4873119979"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784873119977"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4873119979"
+        }
+      ],
+      "PublicationDate": "2022-08-03",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-07-27",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "\u003ca href=\"https://www.oreilly.co.jp/books/9784873119977/\"\u003e版元\u003c/a\u003eでデジタル版購入予定。\u003ca href=\"https://technical-book-reading-2.connpass.com/\"\u003e読書会\u003c/a\u003eの課題図書。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0B62K55SL",
+      "Title": "詳解Go言語Webアプリケーション開発",
+      "URL": "https://www.amazon.co.jp/dp/B0B62K55SL?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51+2jmxkUAL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "清水陽一郎",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "シーアンドアール研究所",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0B62K55SL"
+        }
+      ],
+      "PublicationDate": "2022-07-22",
+      "LastRelease": "2022-07-22",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-07-27",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "\u003ca href=\"https://book.mynavi.jp/manatee/c-r/books/detail/id=131170\"\u003e本の森.jp\u003c/a\u003e で PDF 版が買える。これからゆっくり読む。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4873118964",
+      "Title": "マスタリング・イーサリアム ―スマートコントラクトとDAppの構築",
+      "URL": "https://www.amazon.co.jp/dp/4873118964?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51pdaKIR0RL._SL160_.jpg",
+        "Height": 160,
+        "Width": 125
+      },
+      "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "Andreas M. Antonopoulos",
+          "Role": "著"
+        },
+        {
+          "Name": "Gavin Wood",
+          "Role": "著"
+        },
+        {
+          "Name": "宇野 雅晴",
+          "Role": "監修"
+        },
+        {
+          "Name": "鳩貝 淳一郎",
+          "Role": "監修"
+        },
+        {
+          "Name": "中城 元臣",
+          "Role": "監修"
+        },
+        {
+          "Name": "落合 渉悟",
+          "Role": "監修"
+        },
+        {
+          "Name": "落合 庸介",
+          "Role": "翻訳"
+        },
+        {
+          "Name": "小林 泰男",
+          "Role": "翻訳"
+        },
+        {
+          "Name": "土屋 春樹",
+          "Role": "翻訳"
+        },
+        {
+          "Name": "祢津 誠晃",
+          "Role": "翻訳"
+        },
+        {
+          "Name": "平山 翔",
+          "Role": "翻訳"
+        },
+        {
+          "Name": "三津澤 サルバドール将司",
+          "Role": "翻訳"
+        },
+        {
+          "Name": "山口 和輝",
+          "Role": "翻訳"
+        },
+        {
+          "Name": "宇野 雅晴",
+          "Role": "翻訳"
+        },
+        {
+          "Name": "鳩貝 淳一郎",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "オライリージャパン",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4873118964"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784873118963"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4873118964"
+        }
+      ],
+      "PublicationDate": "2019-11-30",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-07-27",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "噂の「Web3」の基礎学習のために\u003ca href=\"https://www.oreilly.co.jp/books/9784873118963/\"\u003e版元\u003c/a\u003eからデジタル版を購入。最初の章で挫けそうになっている（笑）"
   }
 ]

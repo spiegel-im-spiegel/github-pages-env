@@ -107,7 +107,17 @@ Bitcoin を日常生活で使うためには法定通貨に「両替」する必
 社会を変えることができるとすれば，それはあくまでも「人」の行いである（道具・手段としての技術の意義はあると思うけど）。
 インターネットや Blockchain/Bitcoin は奇しくも私のこの妄言を補強する事例となっている。
 
+## ブックマーク
+
+- [ĐApps：Web 3.0はどんなものか（ĐApps: What Web 3.0 Looks Like 日本語訳）](https://www.yamdas.org/column/technique/dappsweb3j.html)
+- [ジョン・ハンケが語るWeb3、ティム・バーナーズ＝リーが懐疑的なブロックチェーン - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20220628/john-hanke-on-web3)
+- [【夏休みの自由研究】そうだブロックチェーンを作ろう！](https://zenn.dev/koduki/articles/52c207493f4d5e)
+- [Letter in Support of Responsible Fintech Policy](https://concerned.tech/)
+  - [クリプト・Web3業界の誇大広告に踊らされてはならない：1500人超の科学者・エンジニア・技術者が米議会に警告 | p2ptk[.]org](https://p2ptk.org/monopoly/3760)
+- [反クリプト公開書簡に反論する【オピニオン】 | coindesk JAPAN | コインデスク・ジャパン](https://www.coindeskjapan.com/150683/)
+
 ## 参考図書
 
 {{% review-aozora "4307" %}} <!-- グリゴリの捕縛 -->
 {{% review-tatsujin "infoshare2" %}} <!-- 続・情報共有の未来 -->
+{{% review-paapi "4873118964" %}} <!-- マスタリング・イーサリアム Ethereum -->

@@ -35,14 +35,18 @@ pageType = "text"
 
 ## [詳解Go言語Webアプリケーション開発](https://www.c-r.com/book/detail/1462)
 
-2022-07-22 発売予定。
-[Amazon](https://www.amazon.co.jp/dp/B0B62K55SL "詳解Go言語Webアプリケーション開発 | 清水陽一郎 | 工学 | Kindleストア | Amazon") では既に予約発注できる。
-[本の森.jp](https://book.mynavi.jp/manatee/c-r/books/detail/id=131170) なら PDF で買えるみたいなので，こっちで買おうかな。
+{{% review-paapi "B0B62K55SL" %}} <!-- 詳解Go言語Webアプリケーション開発 -->
+
+2022-07-22 発売。
+[本の森.jp](https://book.mynavi.jp/manatee/c-r/books/detail/id=131170) で PDF 版を購入した。
+[発売直後に重版](https://twitter.com/budougumi0617/status/1551799816283652098)したげな。
+めでたい！
 
 ## [Go言語による分散サービス](https://www.oreilly.co.jp/books/9784873119977/)
 
+{{% review-paapi "4873119979" %}} <!-- Go言語による分散サービス -->
+
 2022-08-03 発売予定。
-[Amazon](https://www.amazon.co.jp/dp/4873119979/ "Go言語による分散サービス ―信頼性、拡張性、保守性の高いシステムの構築 | Travis Jeffery, 柴田 芳樹 |本 | 通販 | Amazon") では既に予約発注できる。
 私はデジタル版を買う予定なので，発売日まで待ち状態。
 
 なお翻訳者の柴田芳樹さん主催による読書会が8月から始まる。
