@@ -99,6 +99,14 @@ Bitcoin を日常生活で使うためには法定通貨に「両替」する必
 結局 Bitcoin などの Blockchain 実装を通じて分かったのは「計算機パワーと情報力の強いものが勝つ」という身も蓋もない話で，それは今までの暴力による民衆統治や経済力による市場支配と何ら変わらない。
 そこを見ないで「脱中央集権」が云々とかヘソで茶が沸いてしまう。
 
+{{< fig-quote type="markdown" link="https://wirelesswire.jp/2022/06/82564/" title="Web3の「魂」は何なのか？ – WirelessWire News" >}}
+ジャック・ドーシーの批判は、「Web3を所有するのはベンチャーキャピタルとその投資先の企業であってウェブユーザーではなく、結局は中央集権型のものに別のラベルを貼っただけ」と続き、Andreessen Horowitzの共同創業者マーク・アンドリーセンにTwitterでブロックされ、それを自慢するというダメなTwitter芸を見せる[オチがつきました](https://www.itmedia.co.jp/news/articles/2112/24/news077.html)
+{{< /fig-quote >}}
+
+{{< fig-quote type="markdown" link="https://wirelesswire.jp/2022/06/82564/" title="Web3の「魂」は何なのか？ – WirelessWire News" >}}
+「誰かがブロックチェーンで何かを解決できると言う場合、その人はその『何か』を理解していないので無視してかまわない（ウィーバーのブロックチェーンの鉄則）」
+{{< /fig-quote >}}
+
 インターネットにしろ Blockchain/Bitcoin にしろ，脱中央集権的な「システム」を構築することはできるのだろう。
 しかし私達が暮らすのは「社会」である。
 社会が「脱中央集権」を望まないのであれば，土台がどうあれ，そこに到達することはない。
