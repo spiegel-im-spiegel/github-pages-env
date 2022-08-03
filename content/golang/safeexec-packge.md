@@ -40,6 +40,14 @@ func gitStatus() error {
 Windows 環境で [`os/exec`][`exec`] 標準パッケージを使って外部コマンドをする際，パスなしのコマンド名を指定するとカレントにある同名の実行モジュールが優先的に起動されてしまう。
 このブログでは [CVE-2020-27955] の脆弱性として[紹介]({{< ref "/release/2020/11/git-for-windows-2_29_2-2-is-released.md" >}} "Git for Windows 2.29.2 (2) のリリース【セキュリテイ・アップデート】")している。
 
+{{< div-box type="markdown" >}}
+**【2022-08-03 追記】**
+Go 1.19 で [`os/exec`](https://golang.org/pkg/os/exec/ "exec - The Go Programming Language") 標準パッケージの挙動が変わり，パスなしコマンド指定時にカレントフォルダの同名実行モジュールを起動しなくなった。
+詳しくは以下を参照のこと。
+
+- [Go 1.19 で os/exec パッケージの挙動が変わった話]({{< relref "./exec-package-in-go119.md" >}})
+{{< /div-box >}}
+
 [`os/exec`][`exec`] 標準パッケージを使って外部コマンドを起動している場合は [github.com/cli/safeexec][`safeexec`] パッケージで `LookPath()` 関数を置き換えることを検討するのもいいだろう。
 
 なお，この問題は既に以下の issue として上がっているようだ（特に10月下旬辺りからの議論）。
