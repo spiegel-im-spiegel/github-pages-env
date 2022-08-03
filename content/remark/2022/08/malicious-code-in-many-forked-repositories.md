@@ -3,7 +3,7 @@ title = "悪意のコードを含む多数の分岐リポジトリが見つか�
 date =  "2022-08-04T08:12:52+09:00"
 description = "今回の件は spam の一種とみなすこともできる"
 image = "/images/attention/kitten.jpg"
-tags = [ "security", "risk", "spam", "engineering", "managemant" ]
+tags = [ "security", "risk", "spam", "engineering", "management" ]
 pageType = "text"
 
 [scripts]
