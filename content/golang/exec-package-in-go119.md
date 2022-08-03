@@ -109,7 +109,7 @@ exec: "gpgpdump": executable file not found in $PATH
 これでアプリケーション側は OS ごとに処理を分ける必要がなくなったわけだ。
 めでたい！
 
-ところで Windows には `NoDefaultCurrentDirectoryInExePath` なる環境変数があるそうで，これが有効になっているとパスなしのコマンド指定時にカレントフォルダの実行ファイルを起動しなくなるらしい。
+ところで Windows には `NoDefaultCurrentDirectoryInExePath` なる環境変数があるそうで，これが有効になっているとパスなしのコマンド指定時にカレントフォルダの同名実行ファイルを無視するらしい。
 
 で [`os/exec`][`exec`] パッケージは律儀にこの環境変数にも対応している。
 
