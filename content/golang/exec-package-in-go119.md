@@ -212,8 +212,51 @@ func LookPath(file string) (string, error) {
 }
 ```
 
-と `NoDefaultCurrentDirectoryInExePath` 環境変数がない場合だけカレントディレクトリ `.` を付加してチェックしているのが分かる。
+と `NoDefaultCurrentDirectoryInExePath` 環境変数がない場合だけカレントフォルダ `.` を付加してチェックしているのが分かる。
 ご苦労さんなことである。
+
+少々姑息ではあるが，これを利用してカレントフォルダの同名実行ファイルを無視するよう構成することもできる。
+こんな感じ。
+
+```go {hl_lines=[11]}
+package main
+
+import (
+    "errors"
+    "fmt"
+    "os"
+    "os/exec"
+)
+
+func main() {
+    os.Setenv("NoDefaultCurrentDirectoryInExePath", "1")
+    cmd := exec.Command("gpgpdump.exe", "version")
+    if cmd.Err != nil {
+        fmt.Println(cmd.Err)
+        if !errors.Is(cmd.Err, exec.ErrDot) {
+            return
+        }
+        cmd.Err = nil
+    }
+    out, err := cmd.CombinedOutput()
+    if err != nil {
+        fmt.Println(err)
+        return
+    }
+    fmt.Printf("output by %v:\n%v\n", cmd, string(out))
+}
+```
+
+これを実行すると
+
+```text
+$ go run sample3.go
+exec: "gpgpdump.exe": executable file not found in %PATH%
+```
+
+となる。
+前のコードの実行結果で出力されるエラーメッセージの違いを確かめてほしい。
+Windows 以外でこの環境変数が悪さをすることはないだろうから Linux 等と挙動を合わせたいなら，おまじない的にセットしておくのもいいかもしれない。
 
 やっぱ Windows は面倒くさいな（笑）
 

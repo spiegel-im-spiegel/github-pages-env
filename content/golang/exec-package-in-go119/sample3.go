@@ -1,16 +1,15 @@
-//go:build run
-// +build run
-
 package main
 
 import (
 	"errors"
 	"fmt"
+	"os"
 	"os/exec"
 )
 
 func main() {
-	cmd := exec.Command("gpgpdump", "version")
+	os.Setenv("NoDefaultCurrentDirectoryInExePath", "1")
+	cmd := exec.Command("gpgpdump.exe", "version")
 	if cmd.Err != nil {
 		fmt.Println(cmd.Err)
 		if !errors.Is(cmd.Err, exec.ErrDot) {
