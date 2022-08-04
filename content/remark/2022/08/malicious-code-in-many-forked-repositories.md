@@ -15,13 +15,20 @@ pageType = "text"
 
 - [35,000 code repos not hacked—but clones flood GitHub to serve malware](https://www.bleepingcomputer.com/news/security/35-000-code-repos-not-hacked-but-clones-flood-github-to-serve-malware/)
 
-最初は各リポジトリに悪意のコードがねじ込まれたのかと思って，コード事態も問題だけど，リポジトリ・アクセスへの認証周りで何か問題があったのかと思ったが，実はそうではなく
+最初は各リポジトリに悪意のコードがねじ込まれたのか？ とリポジトリ・アクセスの認証周りを疑ったが，実はそうではなく
 
 {{< fig-quote type="markdown" title="35,000 code repos not hacked—but clones flood GitHub to serve malware" link="https://www.bleepingcomputer.com/news/security/35-000-code-repos-not-hacked-but-clones-flood-github-to-serve-malware/" lang="en" >}}
 Rather, the thousands of backdoored projects are copies (forks or clones) of legitimate projects purportedly made by threat actors to push malware.
 {{< /fig-quote >}}
 
 ということらしい。
+GitHub の公式 tweet にも
+
+{{< fig-gen >}}
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">GitHub is investigating the Tweet published Wed, Aug. 3, 2022:<br>* No repositories were compromised<br>* Malicious code was posted to cloned repositories, not the repositories themselves<br>* The clones were quarantined and there was no evident compromise of GitHub or maintainer accounts</p>&mdash; GitHub Security (@GitHubSecurity) <a href="https://twitter.com/GitHubSecurity/status/1554843443200806913?ref_src=twsrc%5Etfw">August 3, 2022</a></blockquote>
+{{< /fig-gen >}}
+
+とあり，ひと安心といったところ。
 
 知らない人のために一応解説しておくと GitHub には pull request という仕組みがあり，他者のリポジトリにコードを貢献したい場合に自身のリポジトリに分岐（fork）させた上でコードを変更・追加し，そのコードを対象のリポジトリにマージするよう提案を行うことができる。
 提案を受けた側は，そのコードのレビューを行った上で明示的な操作でコードを受け入れることができる。
@@ -62,3 +69,4 @@ Open source code commits signed with GPG keys of authentic project authors are o
 ## 参考図書
 
 {{% review-paapi "4822283100" %}} <!-- セキュリティはなぜやぶられたのか -->
+{{% review-paapi "4757143044" %}} <!-- 信頼と裏切りの社会 -->
