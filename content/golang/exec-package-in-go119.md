@@ -250,7 +250,7 @@ func main() {
 これを実行すると
 
 ```text
-$ go run sample3.go
+> go run sample3.go
 exec: "gpgpdump.exe": executable file not found in %PATH%
 ```
 
