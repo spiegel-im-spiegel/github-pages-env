@@ -243,7 +243,7 @@ jobs:
 ## [goreleaser/goreleaser-action]
 
 みんな大好き，複数プラットフォームの実行バイナリを同時生成して GitHub のリリースページまで作ってくれる [GoReleaser](https://goreleaser.com/) の GitHub Actions。
-こちらも Workflow の設定は今のところ変更なしでいいようだ。
+こちらは v3 系に上がったね（2022-08-06 修正）。
 
 {{< fig-quote class="nobox" type="markdown" title="goreleaser/goreleaser-action: GitHub Action for GoReleaser" link="https://github.com/goreleaser/goreleaser-action" lang="en" >}}
 ```yaml
@@ -259,15 +259,15 @@ jobs:
     steps:
       -
         name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
       -
         name: Set up Go
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v3
       -
         name: Run GoReleaser
-        uses: goreleaser/goreleaser-action@v2
+        uses: goreleaser/goreleaser-action@v3
         with:
           # either 'goreleaser' (default) or 'goreleaser-pro'
           distribution: goreleaser
@@ -276,8 +276,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Your GoReleaser Pro key, if you are using the 'goreleaser-pro' distribution
-          # GORELEASER_KEY: ${{ secrets.GORELEASER_KEY }}
-```
+          # GORELEASER_KEY: ${{ secrets.GORELEASER_KEY }}```
 {{< /fig-quote >}}
 
 この記事を書くのに [goreleaser/goreleaser-action] のページを眺めてて気がついたのだが， OpenPGP 電子署名も生成してくれるんだね。
