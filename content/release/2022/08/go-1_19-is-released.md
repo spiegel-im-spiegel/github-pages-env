@@ -50,6 +50,17 @@ Windows は [Scoop] 経由で OK
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [Scoop]: https://scoop.sh/
 
+## ブックマーク
+
+- [Go 1.19リリース連載始まります GoDoc/ツール周りのアップデート | フューチャー技術ブログ](https://future-architect.github.io/articles/20220801a/)
+  - [Go1.19 encoding/csv のアップデート | フューチャー技術ブログ](https://future-architect.github.io/articles/20220802a/)
+  - [Go1.19で追加されたAppend系メソッド | フューチャー技術ブログ](https://future-architect.github.io/articles/20220803a/)
+  - [Go1.19 net/http のアップデート | フューチャー技術ブログ](https://future-architect.github.io/articles/20220804a/)
+  - [Go 1.19 Genericsのアップデート | フューチャー技術ブログ](https://future-architect.github.io/articles/20220805a/)
+  - [Go 1.19のメモリ周りの更新 | フューチャー技術ブログ](https://future-architect.github.io/articles/20220808a/)
+
+- [Go 1.19 で os/exec パッケージの挙動が変わった話]({{< ref "/golang/exec-package-in-go119.md" >}})
+
 ## 参考図書
 
 {{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
