@@ -123,6 +123,7 @@ Bitcoin を日常生活で使うためには法定通貨に「両替」する必
 - [Letter in Support of Responsible Fintech Policy](https://concerned.tech/)
   - [クリプト・Web3業界の誇大広告に踊らされてはならない：1500人超の科学者・エンジニア・技術者が米議会に警告 | p2ptk[.]org](https://p2ptk.org/monopoly/3760)
 - [反クリプト公開書簡に反論する【オピニオン】 | coindesk JAPAN | コインデスク・ジャパン](https://www.coindeskjapan.com/150683/)
+- [「脱中央集権」の有益かつ重要な分類――ブロックチェーンを越えて：「脱中央集権」勢は一枚岩ではない | p2ptk[.]org](https://p2ptk.org/monopoly/3771)
 
 ## 参考図書
 

@@ -52,6 +52,7 @@ Windows は [Scoop] 経由で OK
 
 ## ブックマーク
 
+- [The Go Memory Model - The Go Programming Language](https://tip.golang.org/ref/mem)
 - [Go 1.19リリース連載始まります GoDoc/ツール周りのアップデート | フューチャー技術ブログ](https://future-architect.github.io/articles/20220801a/)
   - [Go1.19 encoding/csv のアップデート | フューチャー技術ブログ](https://future-architect.github.io/articles/20220802a/)
   - [Go1.19で追加されたAppend系メソッド | フューチャー技術ブログ](https://future-architect.github.io/articles/20220803a/)

@@ -55,6 +55,11 @@ pageType = "text"
 - [第1回『Go言語による分散サービス』オンライン読書会 - connpass](https://technical-book-reading-2.connpass.com/event/254275/)
 - [『Go言語による分散サービス』オンライン読書会を開催します：柴田 芳樹 (Yoshiki Shibata)：SSブログ](https://yshibata.blog.ss-blog.jp/2022-07-14)
 
+## [初めてのGo言語](https://www.oreilly.co.jp/catalog/soon.html)
+
+Amazon には[既にある](https://www.amazon.co.jp/dp/4814400047)ようだが，版元は「2022年09月発売」とあるだけで確定情報ではない感じ。
+「はじめての◯◯」というタイトルは当たり外れが多いので躊躇してしまうが「イディオマティックなGoコードの書き方やGoプロジェクトの設計方法を解説」とあるので期待してみてもいいかしらん。
+
 ## あれ？
 
 もう2,3冊あった気がするけど，どうだったっけ？ まぁ，いいや。

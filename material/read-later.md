@@ -9,17 +9,11 @@
 - [YubiKey + GPG で統一的な鍵の管理を行う - the world as code](https://chroju.dev/blog/yubikey_gpg_with_git_commit_signing_and_ssh)
 - [20220102-a-new-future-for-gnupg](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html)
 
-- [スティーブン・ウォルト『同盟の起源』邦訳刊行記念ウェビナー | Peatix](http://origins-of-alliances20220412.peatix.com) : 4/12 (火)，３月と勘違いしてた orz
-
-- [Goでcsvを操作するための基本的な知識](https://zenn.dev/syo_yamamoto/articles/1fb502ef862490)
-  - [Re: Goでcsvを操作するための基本的な知識](https://zenn.dev/mattn/articles/fd545a14b0ffdf)
-- [Excel も CSV みたいに扱いたい](https://zenn.dev/spiegel/articles/20211003-excel-as-a-csv)
-
-- [Release Notes for DSM | Synology Inc.](https://www.synology.com/ja-jp/releaseNote/DSM) : マニュアルでアップデートするらしい
-
 - [GitHub - taichi/kra: relational database access helper library](https://github.com/taichi/kra) : あとで試す
 
-- [Google、古いガラケーの白黒絵文字をオマージュした「Noto Emoji」フォントを発表 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1408856.html)
+- [Go Vulnerability Management - The Go Programming Language](https://go.dev/security/vulndb/)
+
+- [2022 GIANT Bicycles | GRAVIER DISC](https://www.giant.co.jp/giant22/bike_datail.php?p_id=00000045)
 
 ## リリース情報 {#release}
 
