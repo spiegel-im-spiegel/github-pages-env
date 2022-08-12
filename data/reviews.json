@@ -19385,5 +19385,52 @@
       false
     ],
     "Description": "噂の「Web3」の基礎学習のために\u003ca href=\"https://www.oreilly.co.jp/books/9784873118963/\"\u003e版元\u003c/a\u003eからデジタル版を購入。最初の章で挫けそうになっている（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0009N2VDM",
+      "Title": "ホルスト:組曲(惑星)",
+      "URL": "https://www.amazon.co.jp/dp/B0009N2VDM?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51w7ejZMH4L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "CD",
+      "Creators": [
+        {
+          "Name": "小澤征爾",
+          "Role": "アーティスト"
+        }
+      ],
+      "Publisher": "Universal Music",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0009N2VDM"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4988005392589"
+        }
+      ],
+      "PublicationDate": "2005-06-21",
+      "LastRelease": "2005-06-22",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-08-12",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "\u003ca href=\"https://text.baldanders.info/remark/2022/07/neck-speaker/\"\u003e衝動買いしたネックスピーカー\u003c/a\u003eの評価用音源として購入。以前持ってたのは引越し時に処分してしまったので実質的には買い戻しになるのかな。"
   }
 ]

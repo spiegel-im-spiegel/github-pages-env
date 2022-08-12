@@ -48,3 +48,4 @@ pageType = "text"
 ## 参考
 
 {{% review-paapi "B07JVKHRD5" %}} <!-- JVC ネックスピーカー -->
+{{% review-paapi "B0009N2VDM" %}} <!-- ホルスト 組曲 惑星 -->
