@@ -1,5 +1,5 @@
 +++
-title = "OpenJDK のセキュリティ・アップデート"
+title = "OpenJDK のセキュリティ・アップデート（2022-04）"
 date =  "2022-04-23T12:34:49+09:00"
 description = "影響を受けるバージョンは 18, 17.0.2, 15.0.6, 13.0.10, 11.0.14, 8u322, 7u331 およびそれ以前。"
 image = "/images/attention/tools.png"

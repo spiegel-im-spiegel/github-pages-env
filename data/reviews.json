@@ -15542,10 +15542,10 @@
     "Book": {
       "Type": "paapi",
       "ID": "B0893LQ5KY",
-      "Title": "Spring Boot 2 入門: 基礎から実演まで Webアプリ開発入門",
+      "Title": "Spring Boot 2 入門: 基礎から実演まで",
       "URL": "https://www.amazon.co.jp/dp/B0893LQ5KY?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://m.media-amazon.com/images/I/51ZDTBiszCS._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51lVSJk1gBL._SL160_.jpg",
         "Height": 160,
         "Width": 100
       },
@@ -15577,7 +15577,7 @@
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2021-06-13",
+    "Date": "2022-08-14",
     "Rating": 4,
     "Star": [
       true,
@@ -15586,7 +15586,7 @@
       true,
       false
     ],
-    "Description": "Spring Boot を勉強することになって急遽買った本。めっさ分かりやすかった。 PDF 版が欲しいくらい（笑）"
+    "Description": "Spring Boot を勉強することになって急遽買った本。めっさ分かりやすかった。 PDF 版が欲しいくらい（笑） Spring Boot 2.7 対応にアップデートされていた。素敵！"
   },
   {
     "Book": {
