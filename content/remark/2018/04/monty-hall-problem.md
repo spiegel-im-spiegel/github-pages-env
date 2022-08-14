@@ -30,7 +30,7 @@ tags = [ "math", "games", "golang", "programming", "floating-point", "probabilit
 
 [^b1]: 事後確率についての説明は割愛する。ベイズ主義とか頻度主義とかちゃんと説明しようとするととてつもなく面倒臭いので。ただし事前確率とか事後確率とかいったものは統計学（ベイズ統計学）ではよく出てくる話なので，興味のある方は自力でどうぞ。
 
-{{< fig-img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Monty_open_door_chances.svg/590px-Monty_open_door_chances.svg.png" title="Monty open door chances.svg - Wikimedia Commons" link="https://commons.wikimedia.org/wiki/File:Monty_open_door_chances.svg" width="590" >}}
+{{< fig-img-quote class="lightmode" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Monty_open_door_chances.svg/590px-Monty_open_door_chances.svg.png" title="Monty open door chances.svg - Wikimedia Commons" link="https://commons.wikimedia.org/wiki/File:Monty_open_door_chances.svg" width="590" lang="en" >}}
 
 「モンティ・ホール問題」は直感と論理との乖離を示す好例として挙げられることが多く，また簡単な確率シミュレーションとしてプログラミングの演習問題に使われることもあるようだ。
 
