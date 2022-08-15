@@ -19432,5 +19432,90 @@
       false
     ],
     "Description": "\u003ca href=\"https://text.baldanders.info/remark/2022/07/neck-speaker/\"\u003e衝動買いしたネックスピーカー\u003c/a\u003eの評価用音源として購入。以前持ってたのは引越し時に処分してしまったので実質的には買い戻しになるのかな。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07H6FLS3N",
+      "Title": "HAKUBA エアダスター ノンフロン クリーンエースNFN350 逆さ使用OKタイプ KMC-NFN350",
+      "URL": "https://www.amazon.co.jp/dp/B07H6FLS3N?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41O8+i9L7vL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "Camera",
+      "Publisher": "ハクバ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07H6FLS3N"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4977187329414"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2018-11-08",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-08-15",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "カメラをやってた頃から愛用している。現在はキーボード掃除とかに使ったり（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08Z7CWX2H",
+      "Title": "キーボード掃除 ミニ PCキーボード掃除機 ハンディークリーナー コードレス 卓上クリーナー 超 エアダスター USB充電式 LED 軽量 小型 OA掃除機 家/オフィス/車用 日本語説明書付き",
+      "URL": "https://www.amazon.co.jp/dp/B08Z7CWX2H?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51FLmnmk9rL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "Trustnice",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08Z7CWX2H"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0740030425229"
+        },
+        {
+          "Name": "UPC",
+          "Value": "740030425229"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-08-15",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "コンパクトに収納できるのがよい。卓上掃除機としても使える。性能は値段なり。"
   }
 ]
