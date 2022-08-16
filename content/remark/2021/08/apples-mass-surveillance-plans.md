@@ -66,6 +66,7 @@ No. This doesn’t change the privacy assurances of Messages, and Apple never ga
 - [Apple Has Listened And Will Retract Some Harmful Phone-Scanning | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2021/11/apple-has-listened-and-will-retract-some-harmful-phone-scanning)
   - [Appleが子どものメッセージ監視計画を軌道修正、次はクラウド写真スキャンの中止を | P2Pとかその辺のお話R](https://p2ptk.org/privacy/3456)
 - [アップル、プライバシー保護の懸念を受けて児童性的虐待コンテンツへの言及をひっそり取り止め  |  TechCrunch Japan](https://techcrunch.com/2021/12/15/apple-removes-csam-detection-website/)
+facebook-messenger-end-to-end-encryption-default-test-e2ee-privacy-security-plans) : Apple みたいに E2E 暗号化を勘違いしてなきゃいいけどね（笑）
 
 - [誰がプライバシーを支配するのか]({{< ref "/remark/2018/04/handling-privacy.md" >}})
 - [プライバシーなどク◯喰らえ]({{< ref "/remark/2020/01/privacy.md" >}})
