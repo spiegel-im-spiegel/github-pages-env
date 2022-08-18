@@ -1,0 +1,44 @@
+package main
+
+import (
+	"embed"
+	"fmt"
+	"io"
+	"io/fs"
+	"os"
+)
+
+func output(fileSystem fs.FS) error {
+	paths, err := fs.Glob(fileSystem, "*.txt")
+	if err != nil {
+		return err
+	}
+	for _, path := range paths {
+		if _, err := func(path string) (int64, error) {
+			f, err := fileSystem.Open(path)
+			if err != nil {
+				return 0, err
+			}
+			defer f.Close()
+			return io.Copy(os.Stdout, f)
+		}(path); err != nil {
+			return err
+		}
+	}
+	return nil
+}
+
+//go:embed testdata/*.txt
+var assets embed.FS
+
+func main() {
+	fileSystem, err := fs.Sub(assets, "testdata")
+	if err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return
+	}
+	if err := output(fileSystem); err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return
+	}
+}

@@ -179,6 +179,7 @@ type GlobFS interface {
 
 - [Draft designを読む · GitHub](https://gist.github.com/tenntenn/fe8995c347a5e1000832d3c6942f1fbe)
 - [rakyll/statik でシングルバイナリにまとめる]({{< relref "./using-statik-package.md" >}})
+- [fs.FS を使ってディレクトリ・ファイルを参照する]({{< relref "./abstract-filesystem.md" >}})
 
 [Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
