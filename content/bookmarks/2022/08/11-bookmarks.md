@@ -23,6 +23,7 @@ pageType = "text"
   - [TinyGo 0.25 で遊べるマイコンボード一覧 - sago35の日記](https://sago35.hatenablog.com/entry/2022/08/04/074622)
 - [Release v3.14.1 · go-task/task · GitHub](https://github.com/go-task/task/releases/tag/v3.14.1)
 - [Visual Studio Code July 2022](https://code.visualstudio.com/updates/v1_70)
+  - [「Visual Studio Code」のMarkdown機能が言語サーバーに ～他のエディター、ツールでの活用に道筋 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1432780.html)
 - [Release v1.48.0 · golangci/golangci-lint · GitHub](https://github.com/golangci/golangci-lint/releases/tag/v1.48.0)
 - [Release 9.1.4 · mermaid-js/mermaid · GitHub](https://github.com/mermaid-js/mermaid/releases/tag/9.1.4)
 - [Release gopls/v0.9.2 · golang/tools · GitHub](https://github.com/golang/tools/releases/tag/gopls%2Fv0.9.2)

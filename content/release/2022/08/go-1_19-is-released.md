@@ -59,6 +59,8 @@ Windows は [Scoop] 経由で OK
   - [Go1.19 net/http のアップデート | フューチャー技術ブログ](https://future-architect.github.io/articles/20220804a/)
   - [Go 1.19 Genericsのアップデート | フューチャー技術ブログ](https://future-architect.github.io/articles/20220805a/)
   - [Go 1.19のメモリ周りの更新 | フューチャー技術ブログ](https://future-architect.github.io/articles/20220808a/)
+- [Go1.19で採用された Pattern-defeating Quicksort の紹介 - Speaker Deck](https://speakerdeck.com/po3rin/go1-dot-19decai-yong-sareta-pattern-defeating-quicksort-falseshao-jie)
+- [[shared] 20220815 What's new in Go 1.19? - Google スライド](https://docs.google.com/presentation/d/1FkXdI9oR8mUCzh-woca7O3K_T5iZCirp7QcoJY3d4Wk/edit)
 
 - [Go 1.19 で os/exec パッケージの挙動が変わった話]({{< ref "/golang/exec-package-in-go119.md" >}})
 
