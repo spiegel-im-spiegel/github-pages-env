@@ -27,7 +27,7 @@ Defteros sued Google after becoming aware that a Google search of his name produ
 Lower courts decided that Google "published the defamatory matter because the provision of the Search Result was instrumental to the communication of the content of the Underworld article to the user, in that it lent assistance to its publication," [according to a summary of today's ruling](https://cdn.hcourt.gov.au/assets/publications/judgment-summaries/2022/hca-27-2022-08-17.pdf) provided by the High Court of Australia.
 {{< /fig-quote >}}
 
-として Google 側に賠償金の支払いを申し渡した。
+として Google 側に賠償金の支払いを命じた。
 その後 (当然ながら) Google は上告したようで，最終的に
 
 {{< fig-quote type="markdown" title="Linking to news doesn’t make Google liable for defamation, Australia court rules | Ars Technica" link="https://arstechnica.com/tech-policy/2022/08/linking-to-news-doesnt-make-google-liable-for-defamation-australia-court-rules/" lang="en" >}}
@@ -44,7 +44,6 @@ Today's ruling could have been different if Google had been paid to promote The 
 {{< /fig-quote >}}
 
 とあるようにリンクそのものではなく，リンクを含むコンテンツの文脈とかその背後にある利害関係が重要かな，と思ったりする。
-
 たとえば6年前に「[欧州司法裁、侵害コンテンツへのリンクを著作権侵害と判断](https://p2ptk.org/copyright/553 "欧州司法裁、侵害コンテンツへのリンクを著作権侵害と判断 | p2ptk[.]org")」という話があったが，この前提のもとに改めて記事を見直せば「なるほど」と思うかもしれない。
 
 「リンク」という言葉だけを抜き出してシロかクロか論じることに意味はない，ということだろう。

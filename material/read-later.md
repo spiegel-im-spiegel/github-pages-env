@@ -13,8 +13,6 @@
 
 - [2022 GIANT Bicycles | GRAVIER DISC](https://www.giant.co.jp/giant22/bike_datail.php?p_id=00000045)
 
-- [Linking to news doesn’t make Google liable for defamation, Australia court rules | Ars Technica](https://arstechnica.com/tech-policy/2022/08/linking-to-news-doesnt-make-google-liable-for-defamation-australia-court-rules/)
-
 ## リリース情報 {#release}
 
 
