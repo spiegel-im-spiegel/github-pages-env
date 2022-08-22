@@ -47,6 +47,7 @@ mixi は Yahoo! Japan に似て「見えるものがすべて」だが， Facebo
 
 面白いことにパクられた Twitter もこのシステムを真似し始めた。
 「[監視資本主義](https://www.amazon.co.jp/dp/B093KFTV53?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)」が台頭する時代がやってきたのだ。
+「監視」とはすなわち情報力を背景にした支配構造に他ならない。
 
 私は「[ソーシャル・ネットワーク](https://www.amazon.co.jp/dp/B00FW5SMX0?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)」の感想を書いたのと同じ年に『[ウェブ×ソーシャル×アメリカ](https://www.amazon.co.jp/dp/B00XMCH1DW?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)』の感想文も書いているが
 
@@ -56,7 +57,6 @@ mixi は Yahoo! Japan に似て「見えるものがすべて」だが， Facebo
 
 ゼロ年代の Web 2.0 を素朴な「神話時代」とするなら Facebook や Twitter 等が作り上げた身分階級制度はインターネットがようやく中世辺りにまで達した証だろうか。
 そうなると，過激な FinTech で[市場支配を目論む噂の Web3]({{< ref "/remark/2022/07/blockchain.md" >}} "Blockchain/Bitcoin は何だったのか") は近世か前期近代あたりになれるかな（笑）
-
 
 ## 参考図書
 
