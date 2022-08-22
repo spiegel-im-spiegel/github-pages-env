@@ -19517,5 +19517,134 @@
       false
     ],
     "Description": "コンパクトに収納できるのがよい。卓上掃除機としても使える。性能は値段なり。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B097VRFQ69",
+      "Title": "ああ人生に涙あり",
+      "URL": "https://www.amazon.co.jp/dp/B097VRFQ69?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61jL5zLXoVS._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "巴（CV.佐倉綾音）、澪（CV：鬼頭明里）",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "ミリカ・ミュージック",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B097VRFQ69"
+        }
+      ],
+      "PublicationDate": "2021-07-29",
+      "LastRelease": "2021-07-29",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-08-22",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ「月が導く異世界道中」のED曲。これが流れたときはコケそうになった。まぁ，でも，作品にはお似合いの曲（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0964KPJ24",
+      "Title": "エルの唄～メリナ Full ver.～",
+      "URL": "https://www.amazon.co.jp/dp/B0964KPJ24?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51I2OV7TBYS._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "村川梨衣",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "WFRecords",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0964KPJ24"
+        }
+      ],
+      "PublicationDate": "2021-06-23",
+      "LastRelease": "2021-06-23",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-08-22",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "ゲーム「アナザーエデン」の挿入歌。「アナザーエデン」の中でも好きなエピソード。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00XMCH1DW",
+      "Title": "ウェブ×ソーシャル×アメリカ　〈全球時代〉の構想力 (講談社現代新書)",
+      "URL": "https://www.amazon.co.jp/dp/B00XMCH1DW?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51hgk4TG0bL._SL160_.jpg",
+        "Height": 160,
+        "Width": 97
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "池田純一",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "講談社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00XMCH1DW"
+        }
+      ],
+      "PublicationDate": "2011-03-20",
+      "LastRelease": "2015-05-22",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2011-08-20",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "Kindle 版が出てた。感想文は\u003ca href=\"https://baldanders.info/blog/000535/\"\u003eこちら\u003c/a\u003e。"
   }
 ]
