@@ -18,7 +18,7 @@ pageType = "text"
 面白かった！ ので，便乗記事を書いてみようと思ったり。
 
 最初に予防線を張っておくと，私にとって Web 2.0 を象徴するサービスは Facebook でも Twitter でも YouTube でもなくて Flickr なのよ。
-緩いソーシャル・グラフ， [CC-Licenses](https://creativecommons.org/licenses/) の導入によるコンテンツ共有[^cc1]，プロ（有料）アカウントによるマネタイズ，等々。
+緩いソーシャル・グラフ， [CC-Licenses](https://creativecommons.org/licenses/) の導入による（囲い込みではなくサービスを横断する）共有[^cc1]，プロ（有料）アカウントによるマネタイズ，等々。
 最後は Yahoo! に買収されて見事ゴールイン！ の筈だった。
 しかし，その後の Yahoo! の凋落に巻き込まれる形で運営が停滞，あとから来た Instagram 等に追い抜かれ，沈む船から[既のところで逃げ切り]({{< ref "/remark/2019/04/goodbye-yahoo.md" >}})今に至る。
 間違いなくBGMはあの曲だろう（笑）

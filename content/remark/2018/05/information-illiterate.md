@@ -45,11 +45,11 @@ Eli Pariser 氏による “THE FILTER BUBBLE” については私も（随分�
 
 ### 技術的ゲートキーパーによる検閲と搾取
 
-「技術的ゲートキーパー（technological gatekeepers）」については Jonathan ZITTRAIN 氏の以下の論文が参考になるだろう。
+「技術的ゲートキーパー（technological gatekeepers）」については Jonathan Zittrain 氏の以下の論文が参考になるだろう。
 
-- {{< pdf-file title="オンライン上のゲートキーピングの歴史 (1)" link="http://www.juris.hokudai.ac.jp/gcoe/journal/IP_vol28/28_4.pdf" >}}
-- {{< pdf-file title="オンライン上のゲートキーピングの歴史 (2)" link="http://lex.juris.hokudai.ac.jp/gcoe/journal/IP_vol29/29_4.pdf" >}}
-- {{< pdf-file title="オンライン上のゲートキーピングの歴史 (3・完)" link="http://lex.juris.hokudai.ac.jp/gcoe/journal/IP_vol30/30_5.pdf" >}}
+- [オンライン上のゲートキーピングの歴史(1) : HUSCAP](https://eprints.lib.hokudai.ac.jp/dspace/handle/2115/43642)
+- [オンライン上のゲートキーピングの歴史（2） : HUSCAP](https://eprints.lib.hokudai.ac.jp/dspace/handle/2115/43777)
+- [オンライン上のゲートキーピングの歴史（3・完） : HUSCAP](https://eprints.lib.hokudai.ac.jp/dspace/handle/2115/44330)
 
 この論文によると，（オンライン上の）ゲートキーパーとは「他者のコンテンツを伝達し、ホスティングし、インデックス化するなど、さまざまな形で媒介を行う者」を指し，特に「技術的ゲートキーパー」については「個人を特定したり個人の行動を規制したりすることを促すように技術自体を変化させる試み」と定義している。
 
