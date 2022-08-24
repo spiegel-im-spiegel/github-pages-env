@@ -16,7 +16,7 @@ pageType = "text"
 - [「著作権法施行令の一部を改正する政令案」に関する意見募集の実施について｜e-Govパブリック・コメント](https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=185001258&Mode=0)
 - [唐突すぎるブルーレイへの補償金課金 | YamadaShoji.net](https://yamadashoji.net/?p=1035)
 
-で，これ関して [JEITA (電子情報技術産業協会)](https://www.jeita.or.jp/) が早速反応している（PDF 注意）。
+で，これ関して[電子情報技術産業協会（JEITA）](https://www.jeita.or.jp/)が早速反応している（PDF 注意）。
 
 - {{< pdf-file title="意見概要：合理的な理由のない政令案に反対" link="https://www.jeita.or.jp/japanese/topics/2022/0823.pdf" >}}
 - {{< pdf-file title="私的録音録画補償金制度の対象機器にブルーレイレコーダー等を追加指定する政令案に対する JEITA の見解" link="https://www.jeita.or.jp/japanese/topics/2022/0823_2.pdf" >}}
