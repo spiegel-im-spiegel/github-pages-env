@@ -3,7 +3,7 @@ title = "SNS を巡る愛憎"
 date =  "2022-08-22T21:32:27+09:00"
 description = "いやぁ，インターネットは人類社会そのものだね♥"
 image = "/images/attention/kitten.jpg"
-tags = [ "code", "web", "internet", "facebook", "twitter", "flickr" ]
+tags = [ "code", "web", "internet", "facebook", "twitter", "flickr", "surveillance-capitalism" ]
 pageType = "text"
 
 [scripts]
