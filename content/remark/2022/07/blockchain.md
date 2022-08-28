@@ -124,6 +124,7 @@ Bitcoin を日常生活で使うためには法定通貨に「両替」する必
   - [クリプト・Web3業界の誇大広告に踊らされてはならない：1500人超の科学者・エンジニア・技術者が米議会に警告 | p2ptk[.]org](https://p2ptk.org/monopoly/3760)
 - [反クリプト公開書簡に反論する【オピニオン】 | coindesk JAPAN | コインデスク・ジャパン](https://www.coindeskjapan.com/150683/)
 - [「脱中央集権」の有益かつ重要な分類――ブロックチェーンを越えて：「脱中央集権」勢は一枚岩ではない | p2ptk[.]org](https://p2ptk.org/monopoly/3771)
+- [架空の暗号通貨とMLMを掛け合わせたら何が起こるのか | On Off and Beyond](https://chikawatanabe.com/2022/08/26/the_misding_cryptoqueen/)
 
 ## 参考図書
 
