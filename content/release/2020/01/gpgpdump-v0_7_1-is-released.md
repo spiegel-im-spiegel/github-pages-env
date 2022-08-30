@@ -29,7 +29,7 @@ v0.7.0 をリリースしてすぐ不備に気付いて v0.7.1 でリリース�
 もうひとつは Literal Data Packet (Tag 11) におけるタイムスタンプについて。
 実は [pgpdump/issues/28](https://github.com/kazu-yamamoto/pgpdump/issues/28 "Potential Confusing Output in \"Literal Data Packet\" Dump · Issue #28 · kazu-yamamoto/pgpdump") に
 
-{{< fig-quote type="markdown" title="Potential Confusing Output in \"Literal Data Packet\" Dump" link="https://github.com/kazu-yamamoto/pgpdump/issues/28" lang="en" >}}
+{{< fig-quote type="markdown" title="Potential Confusing Output in Literal Data Packet Dump" link="https://github.com/kazu-yamamoto/pgpdump/issues/28" lang="en" >}}
 {{% quote %}}RFC 4880 states the following: "A four-octet number that indicates a date associated with the literal data. Commonly, the date might be the modification date of a file, or the time the packet was created, or a zero that indicates no specific time."; I assume there's no way to distinguish between an actual file creation date vs. the packet creation date, so the label should be open to both interpretations, I guess{{% /quote %}}.
 {{< /fig-quote >}}
 
