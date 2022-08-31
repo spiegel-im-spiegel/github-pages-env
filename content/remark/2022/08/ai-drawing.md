@@ -73,6 +73,18 @@ AI という機械を挟んで情報が非対称になっているわけだ。
 何度でも言うけど，社会を変えるのはそれを構成する「人」なのよ。
 AI お絵描きの明日はどっちだ（笑）
 
+{{< div-box type="markdown" >}}
+**【2022-08-31 追記】**
+
+mimic はどうやらサービスを停止したらしい。
+
+{{< fig-gen >}}
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Stable Diffusion や midjourney に参考画像を渡して生成してもらう機能が炎上しなくて、それらよりも規約で絵師に配慮した mimic が炎上（濡れ衣）した事実、「あえて英語対応Onlyにする事で一定以下の知識階級は切り捨てた方がいい」という前例になってしまわないか？私はそんな世界は嫌だけど。</p>&mdash; SUKANEKI／公共政策 (@SUKANEKI_VRC) <a href="https://twitter.com/SUKANEKI_VRC/status/1564479607742803968?ref_src=twsrc%5Etfw">August 30, 2022</a></blockquote>
+{{< /fig-gen >}}
+
+まぁ，日本リージョンではこの話は試合終了ってことで（笑）
+{{< /div-box >}}
+
 ## 「工学は善の実現」
 
 リスクだけを論って dis ったり禁止しようとするのは野蛮人の所業だ。
