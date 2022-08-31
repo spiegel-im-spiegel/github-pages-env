@@ -96,4 +96,6 @@ mimic はどうやらサービスを停止したらしい。
 <q>理学は、真理の探究であり、工学は善の実現である。そして、藝術は美の表現である－－これで所謂「真美善」が揃う</q>
 {{< /fig-quote >}}
 
-<!-- eof -->
+## ブックマーク
+
+- [23億枚もの画像で構成された画像生成AI「Stable Diffusion」のデータセットのうち1200万枚がどこから入手した画像かを調査した結果が公開される - GIGAZINE](https://gigazine.net/news/20220831-exploring-stable-diffusions/)
