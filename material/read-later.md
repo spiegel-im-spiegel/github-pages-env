@@ -69,5 +69,7 @@
   - [Git's database internals IV: distributed synchronization | The GitHub Blog](https://github.blog/2022-09-01-gits-database-internals-iv-distributed-synchronization/)
   - [Git's database internals V: scalability | The GitHub Blog](https://github.blog/2022-09-02-gits-database-internals-v-scalability/)
 - [デジ庁が取り組むラストワンマイル｜塚本 牧生｜note](https://note.com/tsukamoto/n/n907f33488921)
+- [九州大学がリアルな「3Dデジタル生物標本」を1,400点以上公開。誰でも自由にダウンロードでき、ゲームエンジンやDCCツールで活用可能 | ゲームメーカーズ](https://gamemakers.jp/article/2022_09_02_16230/)
+- [UTF-8で動くRailsがShift_JISな外部システムと通信する方法 - BOOK☆WALKER Tech Blog](https://developers.bookwalker.jp/entry/2022/09/02/110000)
 
 <!-- eof -->

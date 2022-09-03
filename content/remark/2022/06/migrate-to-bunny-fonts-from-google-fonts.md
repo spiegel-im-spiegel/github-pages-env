@@ -67,6 +67,7 @@ NOTO Sans JP フォントでも同様にフォント・ウェイトを選択す�
 また `[Switch to HTML]` ボタン押下で
 
 ```html
+<link rel="preconnect" href="https://fonts.bunny.net">
 <link href="https://fonts.bunny.net/css?family=noto-sans-jp:400,700|noto-serif-jp:400,700" rel="stylesheet" />
 ```
 
