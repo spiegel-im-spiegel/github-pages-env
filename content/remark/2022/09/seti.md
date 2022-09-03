@@ -13,13 +13,13 @@ pageType = "text"
 
 ## 大きな功績を遺された Frank Drake 博士に哀悼の意を表します
 
-{{< fig-gen >}}
+{{< fig-gen lang="en" >}}
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">He was there when I entered this world, and I was there when he left:<br><br>Frank D Drake, May 28, 1930 - September 2, 2022.<br><br>Rest among the stars, my sweetest Papa D. You will always be my brightest star.<br><br>More info here: <a href="https://t.co/Bt60VCfrxa">https://t.co/Bt60VCfrxa</a> <a href="https://t.co/vyo7ZQq5G4">pic.twitter.com/vyo7ZQq5G4</a></p>&mdash; Dr. Nadia Drake (@nadiamdrake) <a href="https://twitter.com/nadiamdrake/status/1565712880602730497?ref_src=twsrc%5Etfw">September 2, 2022</a></blockquote>
 {{< /fig-gen >}}
 
 「宇宙人探し（SETI; Search for Extra-Terrestrial Intelligence）」でおなじみ Frank Drake 博士が 2022-09-02 にお亡くなりになったそうです。
 
-{{< fig-quote type="markdown" title="Nadia Drake | Science Journalist" link="https://www.nadiadrake.com/" >}}
+{{< fig-quote type="markdown" title="Nadia Drake | Science Journalist" link="https://www.nadiadrake.com/" lang="en" >}}
 Frank Drake died peacefully at home in Aptos, California on September 2, of natural causes. He was 92.
 {{< /fig-quote >}}
 
@@ -138,11 +138,11 @@ Frank Drake 博士の功績が「過去の功績」とならぬよう何らか�
 - [Frank Drake, astronomer and SETI pioneer, RIP | Boing Boing](https://boingboing.net/2022/09/02/frank-drake-astronomer-and-seti-pioneer-rip.html)
 - [The Future’s Most Important Possibility — Contact With Extraterrestrial Life | by Dr. Lisa Galarneau | We Are Not Alone - The Disclosure Activists | Medium](https://medium.com/we-are-not-alone-the-disclosure-lobby/the-futures-most-important-possibility-contact-with-extraterrestrial-life-e3b0040daee5)
 
-{{< fig-gen >}}
+{{< fig-gen lang="en" >}}
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">In addition to the well-known sounds on my Golden Record, images like these were included as a beacon of humanity to those I might encounter on my journey. <br><br>I carry this message into the cosmos thanks to astronomy pioneers like Dr. Frank Drake (1930-2022). <a href="https://t.co/zeHwD8k5AC">pic.twitter.com/zeHwD8k5AC</a></p>&mdash; NASA Voyager (@NASAVoyager) <a href="https://twitter.com/NASAVoyager/status/1565872365325537280?ref_src=twsrc%5Etfw">September 3, 2022</a></blockquote>
 {{< /fig-gen >}}
 
-{{< fig-gen >}}
+{{< fig-gen lang="en" >}}
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We are saddened by the passing of Dr. Frank Drake.<br><br>Drake was driven by the question of whether we are alone in the universe. His work, including the famous Drake Equation, has shaped the search for life for decades.<br><br>Our CEO <a href="https://twitter.com/BillNye?ref_src=twsrc%5Etfw">@BillNye</a> shares his thoughts on Drake&#39;s passing here. <a href="https://t.co/8YfioNqImQ">pic.twitter.com/8YfioNqImQ</a></p>&mdash; Planetary Society (@exploreplanets) <a href="https://twitter.com/exploreplanets/status/1565789816171556864?ref_src=twsrc%5Etfw">September 2, 2022</a></blockquote>
 {{< /fig-gen >}}
 
