@@ -105,3 +105,8 @@ mimic はどうやらサービスを停止したらしい。
 {{< fig-quote title="はやぶさ―不死身の探査機と宇宙研の物語" link="https://www.amazon.co.jp/exec/obidos/ASIN/4344980158/baldandersinf-22" >}}
 <q>理学は、真理の探究であり、工学は善の実現である。そして、藝術は美の表現である－－これで所謂「真美善」が揃う</q>
 {{< /fig-quote >}}
+
+## ブックマーク
+
+- [画像生成AI「Midjourney」の描いた絵が美術品評会で1位を取ってしまい人間のアーティストが激怒 - GIGAZINE](https://gigazine.net/news/20220901-midjourney-win-fine-arts-competition/)
+- [AI自動お絵描き「Stable Diffusion」でゲーム開発用画像の制作に挑戦 - 石田賀津男の『酒の肴にPCゲーム』 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/sspcgame/1436345.html)

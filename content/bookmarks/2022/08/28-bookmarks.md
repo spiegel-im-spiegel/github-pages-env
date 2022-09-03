@@ -21,6 +21,7 @@ pageType = "text"
 - [Twilio Incident: What Signal Users Need to Know – Signal Support](https://support.signal.org/hc/en-us/articles/4850133017242)
   - [Signal says 1,900 users’ phone numbers exposed by Twilio breach – TechCrunch](https://techcrunch.com/2022/08/15/signal-phone-number-exposed-twilio/)
   - [Signal Phone Numbers Exposed in Twilio Hack - Schneier on Security](https://www.schneier.com/blog/archives/2022/08/signal-phone-numbers-exposed-in-twilio-hack.html)
+  - [Twilioへのフィッシング攻撃は、多くの二次被害を生む可能性がある | WIRED.jp](https://wired.jp/article/twilio-breach-phishing-supply-chain-attacks/)
 - [Ongoing phishing campaign can hack you even when you’re protected with MFA | Ars Technica](https://arstechnica.com/information-technology/2022/07/microsoft-details-phishing-campaign-that-can-hijack-mfa-protected-accounts/)
   - [Man-in-the-Middle Phishing Attack - Schneier on Security](https://www.schneier.com/blog/archives/2022/08/man-in-the-middle-phishing-attack.html)
 - [ツイッターの内部告発に潜む「セキュリティの深刻な問題」の中身 | WIRED.jp](https://wired.jp/article/mudge-twitter-whistleblower-security/)
