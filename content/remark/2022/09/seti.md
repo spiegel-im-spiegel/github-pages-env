@@ -127,9 +127,26 @@ Frank Drake 博士の功績が「過去の功績」とならぬよう何らか�
 
 ## ブックマーク
 
+- [Frank D. Drake 1930 – 2022](https://www.seti.org/frank-d-drake-1930-2022)
+- [In Memoriam: Frank Drake | News | Astrobiology](https://astrobiology.nasa.gov/news/in-memoriam-frank-drake/)
+  - [Are we alone in the universe? Revisiting the Drake equation – Exoplanet Exploration: Planets Beyond our Solar System](https://exoplanets.nasa.gov/news/1350/are-we-alone-in-the-universe-revisiting-the-drake-equation/)
+- [Pioneering radio astronomer Frank Drake dies at 92](https://news.ucsc.edu/2022/09/frank-drake-in-memoriam.html)
 - [Frank Drake, pioneer in the search for alien life, dies at 92](https://www.nationalgeographic.com/science/article/frank-drake-pioneer-in-the-search-for-alien-life-dies-at-92)
-- [SETI@home日本語情報ページ](https://web.archive.org/web/20110920070737/http://www.planetary.or.jp/setiathome/) (Internet Archive)
+- [SETI pioneer Frank Drake, of 'Drake Equation' fame, dies at 92 | Space](https://www.space.com/seti-pioneer-frank-drake-obituary)
+- [Frank Drake, astronomer famed for contributions to SETI, has died | Ars Technica](https://arstechnica.com/science/2022/09/frank-drake-astronomer-famed-for-contributions-to-seti-has-died/)
+- [Drake wants off-world listening post for alien messages | New Scientist](https://www.newscientist.com/article/mg20527483-200-drake-wants-off-world-listening-post-for-alien-messages/)
+- [Frank Drake, astronomer and SETI pioneer, RIP | Boing Boing](https://boingboing.net/2022/09/02/frank-drake-astronomer-and-seti-pioneer-rip.html)
+- [The Future’s Most Important Possibility — Contact With Extraterrestrial Life | by Dr. Lisa Galarneau | We Are Not Alone - The Disclosure Activists | Medium](https://medium.com/we-are-not-alone-the-disclosure-lobby/the-futures-most-important-possibility-contact-with-extraterrestrial-life-e3b0040daee5)
 
+{{< fig-gen >}}
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">In addition to the well-known sounds on my Golden Record, images like these were included as a beacon of humanity to those I might encounter on my journey. <br><br>I carry this message into the cosmos thanks to astronomy pioneers like Dr. Frank Drake (1930-2022). <a href="https://t.co/zeHwD8k5AC">pic.twitter.com/zeHwD8k5AC</a></p>&mdash; NASA Voyager (@NASAVoyager) <a href="https://twitter.com/NASAVoyager/status/1565872365325537280?ref_src=twsrc%5Etfw">September 3, 2022</a></blockquote>
+{{< /fig-gen >}}
+
+{{< fig-gen >}}
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We are saddened by the passing of Dr. Frank Drake.<br><br>Drake was driven by the question of whether we are alone in the universe. His work, including the famous Drake Equation, has shaped the search for life for decades.<br><br>Our CEO <a href="https://twitter.com/BillNye?ref_src=twsrc%5Etfw">@BillNye</a> shares his thoughts on Drake&#39;s passing here. <a href="https://t.co/8YfioNqImQ">pic.twitter.com/8YfioNqImQ</a></p>&mdash; Planetary Society (@exploreplanets) <a href="https://twitter.com/exploreplanets/status/1565789816171556864?ref_src=twsrc%5Etfw">September 2, 2022</a></blockquote>
+{{< /fig-gen >}}
+
+- [SETI@home日本語情報ページ](https://web.archive.org/web/20110920070737/http://www.planetary.or.jp/setiathome/) (Internet Archive)
 - [SETI@home とその技術的解説風解説](http://huaa.baldanders.info/seti@home/technote.html)
 
 [SETI@home]: https://setiathome.ssl.berkeley.edu/
