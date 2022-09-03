@@ -16,7 +16,7 @@ Twitter 経由で知ったのだが [Google Fonts](https://www.google.com/fonts/
 - [Morisawa BIZ UDMincho](https://github.com/googlefonts/morisawa-biz-ud-mincho)
 - [Morisawa BIZ UDGothic](https://github.com/googlefonts/morisawa-biz-ud-gothic)
 
-おおっ，2022年春に公開されたのか。
+2022年春に公開されたのか。
 それなら [Bunny Fonts] にもあるかなぁ，と検索してみたら
 
 {{< fig-img src="./morisawa-biz-ud-fonts-in-bunny.png" title="Bunny Fonts | Explore Faster & GDPR friendly Fonts" link="https://fonts.bunny.net/" lang="en" width="763" >}}
