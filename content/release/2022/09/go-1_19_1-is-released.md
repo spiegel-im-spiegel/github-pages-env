@@ -15,7 +15,7 @@ pageType = "text"
 
 - [[security] Go 1.19.1 and Go 1.18.6 are released](https://groups.google.com/g/golang-announce/c/x49AQzIVX-s)
 
-今回は1件の脆弱性修正を含んでいる。
+今回は2件の脆弱性修正を含んでいる。
 
 {{< fig-quote type="markdown" title="Release History - The Go Programming Language" link="https://go.dev/doc/devel/release#go1.19.minor" lang="en" >}}
 {{% quote %}}go1.19.1 (released 2022-09-06) includes security fixes to the `net/http` and `net/url` packages, as well as bug fixes to the compiler, the go command, the pprof command, the linker, the runtime, and the `crypto/tls` and `crypto/x509` packages. See the [Go 1.19.1 milestone](https://github.com/golang/go/issues?q=milestone%3AGo1.19.1+label%3ACherryPickApproved) on our issue tracker for details{{% /quote %}}.
