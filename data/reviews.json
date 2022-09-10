@@ -19225,16 +19225,16 @@
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2022-07-27",
-    "Rating": 0,
+    "Date": "2022-08-03",
+    "Rating": 4,
     "Star": [
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
       false
     ],
-    "Description": "\u003ca href=\"https://www.oreilly.co.jp/books/9784873119977/\"\u003e版元\u003c/a\u003eでデジタル版購入予定。\u003ca href=\"https://technical-book-reading-2.connpass.com/\"\u003e読書会\u003c/a\u003eの課題図書。"
+    "Description": "\u003ca href=\"https://www.oreilly.co.jp/books/9784873119977/\"\u003e版元\u003c/a\u003eでデジタル版を購入。\u003ca href=\"https://technical-book-reading-2.connpass.com/\"\u003e読書会\u003c/a\u003eの課題図書。ハンズオンぽい構成でコードがたくさん書かれているのがよい。"
   },
   {
     "Book": {
