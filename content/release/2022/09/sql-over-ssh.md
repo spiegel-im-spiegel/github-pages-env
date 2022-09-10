@@ -19,15 +19,15 @@ PostgreSQL や MySQL などの RDBMS サービスにアクセスするために 
 db, err := sql.Open("postgres", "postgres://dbuser:dbpassword@dbserver:5432/example?sslmode=require")
 ```
 
-ただし，これはクライアントからサービスに直結する場合で，たとえば VPS から SSH 経由でサービスにアクセスする必要がある場合は少し工夫が必要である。
-ありがたいことに PostgreSQL を SSH 経由でアクセスするためのパッケージを [mattn](https://github.com/mattn) さんが公開して下さっている。
+ただし，これはクライアントからサービスに直結する場合で，たとえば VPS 内の RDBMS サービスに SSH 経由でアクセスする必要がある場合は少し工夫が必要である。
+ありがたいことに PostgreSQL サービスに SSH 経由でアクセスするためのパッケージを [mattn](https://github.com/mattn) さんが公開して下さっている。
 
 - [mattn/pqssh](https://github.com/mattn/pqssh)
 - [Go で SSH 超しに PostgreSQL に接続できる database/sql ドライバを作った。](https://zenn.dev/mattn/articles/d1b114e2d4a421)
 
 ありがたや {{< emoji "ペコン" >}}
 
-で，実は MySQL サービスを SSH 経由でアクセスする必要ができたので，上のパッケージを参考に自作してみた。
+で，実は MySQL サービスに SSH 経由でアクセスする必要ができたので，上のパッケージを参考に自作してみた。
 
 - [goark/sshql: Go SQL drivers over SSH](https://github.com/goark/sshql)
 
@@ -81,7 +81,7 @@ func main() {
 
 MySQL の場合 SSH でアクセスするための Dialer を登録して，登録文字列を DSN に含める必要がある。
 
-なお，このパッケージを使った PostgreSQL への SSH 越しのアクセスはこんな感じに書ける。
+さらに，このパッケージを使った PostgreSQL への SSH 越しのアクセスはこんな感じに書ける。
 
 ```go
 package main
@@ -135,7 +135,7 @@ DSN 文字列をいじらなくて済むし。
 ここでごめんペコン {{< emoji "ペコン" >}}
 
 SSH 越しにアクセスできる適当な PostgreSQL 環境を持ってなくて，上のコードはテストしてません。
-「あんだ，動かねーよ！」とかありましたら pull request いただけるとありがたいです。
+「あんだ，動かねーよ！」とかありましたら pull request 頂けるとありがたいです。
 
 ## pgx ドライバでも SSH 越しにアクセスしたいのだが...
 
@@ -154,9 +154,9 @@ sshConfig := &ssh.ClientConfig{
 }
 ```
 
-という記述があり，最初はそのまま真似してたのだが，例によって lint で「あかんがな！」と叱られた。
+という記述があり，最初はそのまま真似してたのだが，例によって lint に「あかんがな！」と叱られた。
 
-`HostKeyCallback` 項目は SSH ログイン時のホスト認証の動作を定義しているもので， [`ssh`]`.InsecureIgnoreHostKey()` は何もしないで `nil` を返す関数を返している。
+`HostKeyCallback` 項目は SSH ログイン時のホスト認証の動作をするもので， [`ssh`]`.InsecureIgnoreHostKey()` は何もせず `nil` を返却するだけの関数を渡している。
 
 ```go
 // InsecureIgnoreHostKey returns a function that can be used for
@@ -171,7 +171,7 @@ func InsecureIgnoreHostKey() HostKeyCallback {
 
 こりゃあ，確かにあかんわ（笑）
 
-今回の [`github.com/goark/sshql`] パッケージでは一応ホスト認証を行っているが `~/.ssh/known_hosts` ファイルに登録されていないホストや登録されている鍵が異なる場合は問答無用でエラーを返すようにしている。
+最終的に今回の [`github.com/goark/sshql`] パッケージでは一応ホスト認証を行っているが `~/.ssh/known_hosts` ファイルに登録されていないホストや登録されている鍵が異なる場合は問答無用でエラーを返すようにした。
 
 ```text
 $ go run sample.go 
