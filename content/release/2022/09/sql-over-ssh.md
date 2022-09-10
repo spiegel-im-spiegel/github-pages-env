@@ -172,6 +172,12 @@ func InsecureIgnoreHostKey() HostKeyCallback {
 こりゃあ，確かにあかんわ（笑）
 
 今回の [`github.com/goark/sshql`] パッケージでは一応ホスト認証を行っているが `~/.ssh/known_hosts` ファイルに登録されていないホストや登録されている鍵が異なる場合は問答無用でエラーを返すようにしている。
+
+```text
+$ go run sample.go 
+ssh: handshake failed: knownhosts: key is unknown
+```
+
 まぁ，こういうパッケージはバッチ処理とかにしか使わないだろうし，ええじゃろう。
 
 なお [`sshql`][`github.com/goark/sshql`]`.Dialer` 構造体は
