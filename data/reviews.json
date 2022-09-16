@@ -19646,5 +19646,56 @@
       false
     ],
     "Description": "Kindle 版が出てた。感想文は\u003ca href=\"https://baldanders.info/blog/000535/\"\u003eこちら\u003c/a\u003e。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "458520055X",
+      "Title": "トップランナーの図書館活用術 才能を引き出した情報空間 (ライブラリーぶっくす)",
+      "URL": "https://www.amazon.co.jp/dp/458520055X?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51uHtDRAnNL._SL160_.jpg",
+        "Height": 160,
+        "Width": 109
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "晋典, 岡部",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "勉誠出版",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "458520055X"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784585200550"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "458520055X"
+        }
+      ],
+      "PublicationDate": "2017-07-31",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-09-16",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "まだ大久保ゆうさんのインタビューしか読んでないが，なかなか面白かった。他の人も読んでみよう。"
   }
 ]
