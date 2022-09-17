@@ -19,7 +19,7 @@ pageType = "text"
 私としては大決断でした（お値段的にも）。
 
 で，納車が1ヵ月後と言われ，予定通りに納車準備完了と連絡が来たのが金曜日。
-翌日は[オンライン読書会](https://technical-book-reading-2.connpass.com/event/257553/ "第2回『Go言語による分散サービス』オンライン読書会 - connpass")だったので受け取りは諦めて，今日の午前中にお店に行って納車してもらいました。
+翌日は[オンライン読書会](https://technical-book-reading-2.connpass.com/event/257553/ "第2回『Go言語による分散サービス』オンライン読書会 - connpass")だったので諦めて，今日の午前中にお店に行って受け取りました。
 
 {{< fig-img src="./52349211219_936636f98b_e.jpg" title="チャリンコ買うた | Flickr" link="https://www.flickr.com/photos/spiegel/52349211219/">}}
 
