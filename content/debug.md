@@ -41,6 +41,12 @@ draft = true
     - PDF : {{< pdf-file title="CRYPTREC Report 2018: 暗号技術評価委員会報告" link="https://www.cryptrec.go.jp/report/cryptrec-rp-2000-2018.pdf" >}}
 2. 番号付きリスト2
 
+{{< div-box type="markdown" >}}
+- &#x845B; (U+845B)
+- &#x845B;&#xE0100; (U+845B U+E0100)
+{ .cloud .center .huge }
+{{< /div-box >}}
+
 ### 定義リスト
 
 定義1

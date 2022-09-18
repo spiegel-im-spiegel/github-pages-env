@@ -101,6 +101,17 @@ NOTO Sans JP フォントでも同様にフォント・ウェイトを選択す�
 というわけで，うちのサイトは [Bunny Fonts] で統一することにした。
 でも，まだ，フォントに関しては Font Awesome への依存があるので完全に追跡を振り切ってるわけでもないんだけどね。
 
+{{< div-box type="markdown" >}}
+**【2022-09-18 追記】**
+
+結局 [Google Fonts](https://www.google.com/fonts/) に戻した。
+詳しくはこちら
+
+- [結局 Google Fonts に巻き戻した。そしてモリサワ BIZ UD フォント採用へ]({{< ref "/remark/2022/09/rollback-web-fonts.md" >}})
+
+とほほ `orz`
+{{< /div-box >}}
+
 ## ブックマーク
 
 - [トラッキングなし＆ログ取得なしで1400種類超のウェブフォントを無料で利用可能な「Bunny Fonts」 - GIGAZINE](https://gigazine.net/news/20220622-bunny-fonts/)

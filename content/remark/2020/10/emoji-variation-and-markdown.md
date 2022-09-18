@@ -161,6 +161,13 @@ abbr.emoji-chars {
 となるよう shortcode を書き直せばいいわけだ。
 当面はこれで。
 
+{{< div-box type="markdown" >}}
+**【2022-09-18 追記】**
+
+Noto Color Emoji は [Google Fonts](https://fonts.google.com/) で Web フォントとして指定できるようになっていた。
+ので，このブログサイトは Web フォントの絵文字を優先するようにした。
+{{< /div-box >}}
+
 ## ブックマーク
 
 - [Full Emoji List](https://unicode.org/emoji/charts/full-emoji-list.html) : based on Unicode CLDR data

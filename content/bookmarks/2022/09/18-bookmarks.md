@@ -15,6 +15,9 @@ pageType = "text"
 - [Release 9.1.7 · mermaid-js/mermaid · GitHub](https://github.com/mermaid-js/mermaid/releases/tag/v9.1.7)
 - [Release August 2022 Recovery 2 · microsoft/vscode · GitHub](https://github.com/microsoft/vscode/releases/tag/1.71.2)
 - [Release v0.103.0 · gohugoio/hugo · GitHub](https://github.com/gohugoio/hugo/releases/tag/v0.103.0)
+- [「Thunderbird 102.2.2」が公開 ～先週に続くアップデート - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1438423.html)
+- [LibreOffice 7.3.6 Community has been released - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2022/09/08/libreoffice-7-3-6-community/)
+- [LibreOffice 7.4.1 Community available for download - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2022/09/15/libreoffice-741-community/)
 
 ## セキュリティ＆プライバシー関連 {#security}
 
@@ -34,6 +37,10 @@ pageType = "text"
 - [Denoのライアン・ダール氏「親愛なるオラクル殿、どうかJavaScriptの商標を手放して」と呼びかけ － Publickey](https://www.publickey1.jp/blog/22/denojavascript.html)
 - [LINE、国⽴国会図書館のデジタル化資料247万点をテキストデータ化 - ケータイ Watch](https://k-tai.watch.impress.co.jp/docs/news/1438069.html)
 
+## Azure や Windows に関する話題 {#windows}
+
+- [「Windows 10 バージョン 21H1」のサービス終了まであと3カ月 ～Microsoftが注意喚起 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1440108.html)
+
 ## Go 言語関連 {#golang}
 
 - [Goでのスクレイピングに使っていたgoqueryをcollyに置き換えてみた - Qiita](https://qiita.com/a_uchida/items/f95e6e4b9a51b85ae6d9)
@@ -41,6 +48,7 @@ pageType = "text"
 - [actions/setup-goでgo.modを参照してGoのバージョン利用する](https://zenn.dev/ikawaha/articles/20220907-ed8ed5603b9e8f)
 - [Golangでssh Proxy経由でのssh接続を行わせる(多段プロキシ) | 俺的備忘録 〜なんかいろいろ〜](https://orebibou.com/ja/home/201808/20180824_001)
 - [OPA/Regoによる汎用的なGo言語の静的解析](https://zenn.dev/mizutani/articles/go-static-analysis-with-rego)
+- [Goコンパイラディレクティブのgo:linknameとtime.Now()のモック](https://zenn.dev/sasakiki/articles/a838380540245d) : テストで使える？
 
 ## 天文関連 {#astronomy}
 
@@ -68,3 +76,11 @@ pageType = "text"
 - [「今こそ反SLAPP法の制定を」：米議会にスラップ訴訟規制法案が提出される | p2ptk[.]org](https://p2ptk.org/freedom-of-speech/3874)
 - [技術書典13の執筆環境にVivliostyleを採用しました](https://zenn.dev/typebase/articles/techbookfest13-vivliostyle)
 - [a16zが提唱するNFT向け「Can’t Be Evil」ライセンスとクリエイティブ・コモンズのNFTに対する見解 - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20220915/nft-and-cc0)
+- [マイクロソフト、「.NET 7」にDockerコンテナイメージ生成機能を搭載、Dockerファイル不要に － Publickey](https://www.publickey1.jp/blog/22/net_7dockerdocker.html)
+- [日本語の指示に特化した画像生成AI「Stable Diffusion」の派生版をrinnaが開発 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1439286.html)
+- [「WebView2」がUWP開発でも利用可能に ～古いアプリのChromium/Blink移行に期待 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1439759.html)
+- [Ethereum switches to proof-of-stake consensus after completing The Merge • TechCrunch](https://techcrunch.com/2022/09/15/ethereum-switches-to-proof-of-stake-consensus-after-completing-the-merge/)
+  - [MIT Tech Review: イーサリアムの「ザ・マージ」が完了、6年越しでPoSへ移行](https://www.technologyreview.jp/s/286038/the-merge-is-here-ethereum-has-switched-to-proof-of-stake/)
+  - [「Unicode 15.0」が公開 ～新しい絵文字20種を含む4,489の新たな文字が追加 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1440666.html)
+- [1.1.1.1：パブリックDNSへのブロッキング命令に抗うCloudflare | p2ptk[.]org](https://p2ptk.org/copyright/3879)
+- [モリサワの「UD書体」が「Google Workspace」「ChromeOS」「Android」で利用可能に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1440673.html)
