@@ -11,12 +11,19 @@
 
 - [GitHub - taichi/kra: relational database access helper library](https://github.com/taichi/kra) : あとで試す
 
-- [2022 GIANT Bicycles | GRAVIER DISC](https://www.giant.co.jp/giant22/bike_datail.php?p_id=00000045)
+- [New FAQ on NFTs and CC0 - Creative Commons](https://creativecommons.org/2022/09/09/new-faq-on-nfts-and-cc0/)
+  - [FAQ: CC and NFTs - Creative Commons](https://creativecommons.org/cc-and-nfts/)
+  - [a16zが提唱するNFT向け「Can’t Be Evil」ライセンスとクリエイティブ・コモンズのNFTに対する見解 - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20220915/nft-and-cc0)
+    - [a16z/a16z-contracts: a16z Contracts is a library for solidity contracts, including licenses](https://github.com/a16z/a16z-contracts)
+
 
 ## リリース情報 {#release}
 
 
 ## セキュリティ＆プライバシー関連 {#security}
+
+
+## チョークポイント資本主義 {#cc}
 
 
 ## 知財関連 {#ip}
