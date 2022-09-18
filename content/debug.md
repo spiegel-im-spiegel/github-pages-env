@@ -7,6 +7,10 @@ tags = ["site", "web"]
 pageType = "text"
 draft = true
 
+[auther]
+  license = "by"
+
+
 [scripts]
   mathjax = true
   mermaidjs = true
