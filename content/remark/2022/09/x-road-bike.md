@@ -51,4 +51,5 @@ pageType = "text"
 
 ## ブックマーク
 
+- [自転車の灯火についての決まりを全都道府県調べてみた – CyclingEX CLASSIC](https://www.cycling-ex.com/2015/12/jitensha_light_kimari_47.html)
 - [自宅＆ジムでおすすめの体幹トレーニング15選！鍛えるメリットや効果を高めるポイントも解説 – uFit ONLINE SHOP](https://ufit.co.jp/blogs/training/coretraining) : 自転車に乗るために体幹筋肉を多少は鍛える必要があるかなぁ，と。特に背筋。まっちょになる気はない
