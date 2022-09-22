@@ -46,19 +46,21 @@ import (
 )
 
 func main() {
-    mysqldrv.New(&sshql.Dialer{
+    dialer := &sshql.Dialer{
         Hostname:   "sshserver",
         Port:       22,
         Username:   "remoteuser",
         Password:   "passphraseforauthkey",
         PrivateKey: "/home/username/.ssh/id_eddsa",
-    }).RegisterDial()
+    }
+    mysqldrv.New(dialer).RegisterDial("ssh+tcp")
 
-    db, err := sql.Open("mysql", fmt.Sprintf("dbuser:dbpassword@%s(localhost:3306)/dbname", mysqldrv.DialName))
+    db, err := sql.Open("mysql", "dbuser:dbpassword@ssh+tcp(localhost:3306)/dbname")
     if err != nil {
         fmt.Fprintln(os.Stderr, err)
         return
     }
+    defer dialer.Close()
     defer db.Close()
 
     rows, err := db.Query("SELECT id, name FROM example ORDER BY id")
@@ -96,19 +98,21 @@ import (
 )
 
 func main() {
-    pgdrv.New(&sshql.Dialer{
+    dialer := &sshql.Dialer{
         Hostname:   "sshserver",
         Port:       22,
         Username:   "remoteuser",
         Password:   "passphraseforauthkey",
         PrivateKey: "/home/username/.ssh/id_eddsa",
-    }).Register()
+    }
+    pgdrv.New(dialer).Register("postgres+ssh")
 
-    db, err := sql.Open(pgdrv.DriverName, "postgres://dbuser:dbpassword@localhost:5432/example?sslmode=disable")
+    db, err := sql.Open("postgres+ssh", "postgres://dbuser:dbpassword@localhost:5432/example?sslmode=disable")
     if err != nil {
         fmt.Fprintln(os.Stderr, err)
         return
     }
+    defer dialer.Close()
     defer db.Close()
 
     rows, err := db.Query("SELECT id, name FROM example ORDER BY id")
