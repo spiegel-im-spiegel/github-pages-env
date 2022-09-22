@@ -3,7 +3,7 @@ title = "SSH 越しに DB サーバにアクセスする"
 date =  "2022-09-10T18:04:56+09:00"
 description = "mattn さんが公開されているパッケージを参考に組んでみた"
 image = "/images/attention/go-logo_blue.png"
-tags  = [ "golang", "programming", "package", "module", "sql", "openssh" ]
+tags  = [ "golang", "programming", "package", "module", "sql", "openssh", "mysql" ]
 pageType = "text"
 
 [scripts]

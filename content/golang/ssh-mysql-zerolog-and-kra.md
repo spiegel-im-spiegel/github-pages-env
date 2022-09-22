@@ -3,7 +3,7 @@ title = "SSH, MySQL, Zerolog, そして Kra"
 date =  "2022-09-22T23:05:54+09:00"
 description = "LOAD DATA INFILE 文を駆動させるところまで。"
 image = "/images/attention/go-logo_blue.png"
-tags = [ "programming", "golang", "sql", "orm" ]
+tags = [ "programming", "golang", "sql", "orm", "mysql" ]
 pageType = "text"
 
 [scripts]
@@ -14,7 +14,7 @@ pageType = "text"
 ## SSH, MySQL, Zerolog
 
 VPS 上に構築された MySQL サービスに大量のデータを送り込む必要がありまして。
-[Go] でバッチ処理を組もうと考えたわけです。
+[Go] でバッチ処理を組もうと考えたわけだ。
 当然 MySQL サービスは VPS の外から直接アクセスできないので SSH トンネルをくぐる必要がある。
 
 というわけで最初に作ったのが [`github.com/goark/sshql`][`sshql`] だった。
@@ -71,11 +71,14 @@ func main() {
 }
 ```
 
+`ssh+tcp` という名前で dialer を登録し，この名前を使って DSN (Data Source Name) を構成するというのがポイント。
+Dialer のクローズを忘れずに（笑）
+
 ただ，これだとログが取れない。
 んで，ログを取るなら [zerolog] を使いたいわけですよ。
 
 そこで登場するのが [`github.com/simukti/sqldb-logger`][`sqldb-logger`] パッケージ。
-これを使えば標準の `*`[`sql`]`.DB` に [zerolog] などのサードパーティ製 logger を仕込むことができる。
+これを使えば標準の [`sql`]`.DB` に [zerolog] などのサードパーティ製 logger を仕込むことができる。
 こんな感じ。
 
 ```go {hl_lines=["10-12","25-26","31-36"]}
@@ -136,7 +139,7 @@ func main() {
 }
 ```
 
-これで [zerolog] による構造化ログが出るようになった。
+DSN を2回指定しないといけないのが若干鬱陶しいが，ともかくこれで [zerolog] による構造化ログが出るようになった。
 
 ## さらに Kra を仕込む
 
@@ -148,7 +151,7 @@ func main() {
 更に言うと，既存 ORM やクエリビルダとかの中途半端な SQL 抽象化・隠蔽にはウンザリしてるのよ。
 それなら最初からガチで SQL 文書いて，クエリプランをチェックしつつ評価・最適化して，それから実装を進めるべきだと常々思っていた。
 
-というわけで [`github.com/taichi/kra`][`kra`] を使うチャンスを伺っていたのだが，今回はお試しにはちょうどいいサイズだったので早速使ってみた。
+というわけで [`github.com/taichi/kra`][`kra`] を使うチャンスを伺っていたのだが，今回はお試しにはちょうどいいサイズだったので採用してみた。
 とはいえ，今回のような構成ではどうすればいいのか分からなくて [`kra`] パッケージのソースコードやサンプルコードを眺めながら以下のように書いてみた。
 
 ```go {hl_lines=["13-14", "33-41", 45, 50,"52-60"]}
@@ -217,8 +220,10 @@ func main() {
 }
 ```
 
-クエリ結果の取り出しが若干まどろこしいが，これは [`kra`] の MySQL ドライバ（のラッパ）では何故か [`kra`]`/sql.Rows` に `Next()` メソッドがないため。
+クエリ結果の取り出しが若干まどろこしいが，これは [`kra`]`/sql` には何故か `sql.Rows` に `Next()` メソッドがないため[^pgx1]。
 しょうがないので 標準の [`sql`]`.Rows` を取り出して，そちらの `Next()` メソッドで回している。
+
+[^pgx1]: [`github.com/jackc/pgx`][`pgx`] 専用の [`kra`]`/pgx.Rows` にはちゃんと `Next()` メソッドが付いている。提供されているメソッドが微妙に違う理由はよく分からないが，ソースコードを眺めるに，何となく意図的にそうなってる気がする。
 
 これでちゃんと動いてログも取れているのを確認できた。
 
@@ -358,6 +363,7 @@ fmt.Println("affected =", count)
 [`sql`]: https://pkg.go.dev/database/sql "sql package - database/sql - Go Packages"
 [`io`]: https://pkg.go.dev/io "io package - io - Go Packages"
 [`mysql`]: https://github.com/go-sql-driver/mysql "go-sql-driver/mysql: Go MySQL Driver is a MySQL driver for Go's (golang) database/sql package"
+[`pgx`]: https://github.com/jackc/pgx "jackc/pgx: PostgreSQL driver and toolkit for Go"
 [`sshql`]: https://github.com/goark/sshql "goark/sshql: Go SQL drivers over SSH"
 [zerolog]: https://github.com/rs/zerolog "rs/zerolog: Zero Allocation JSON Logger"
 [`sqldb-logger`]: https://github.com/simukti/sqldb-logger "simukti/sqldb-logger: A logger for Go SQL database driver without modifying existing *sql.DB stdlib usage."
