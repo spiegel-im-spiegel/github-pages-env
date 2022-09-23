@@ -153,8 +153,8 @@ DSN を2回指定しないといけないのが若干鬱陶しいが，ともか
 
 [^sql1]: SQL はひとつの独立した言語で（チューリング完全），宣言型プログラミング言語と考えるのが分かりやすい（異論は認めるw）。宣言型で分かりやすいのは正規表現だろう（関数型言語には宣言型が多い。 Lisp とか Haskell とか）。特に [Go] は宣言型の言語とはあまり相性がよくない。たとえば，正規表現の（構文解析やコンパイラではなく）ビルダを作ろうと考える人は少ないだろう（労力に見合わない）。どの言語・フレームワークでも同じことだが ORM やクエリビルダを使って頑張って抽象化や隠蔽をしても上手くマッチしない局面が多く，結局は「ガチの SQL でいいぢゃん。 PREPARE 構文で事前準備して変数部分はプレースホルダ経由で渡せば安全は確保される」となる。そういう意味じゃ [Go] 標準の [`database/sql`][`sql`] パッケージは，かなり妥当な割り切りをしてると思う。まぁ，後方互換性を保つためにちょっとアレな感じになっているのは否めないけど（笑）
 
-というわけで [`github.com/taichi/kra`][`kra`] を使うチャンスを伺っていたのだが，今回はお試しにはちょうどいいサイズだったので採用してみた。
-とはいえ，今回のような構成ではどうすればいいのか分からなくて [`kra`] パッケージのソースコードやサンプルコードを眺めながら以下のように書いてみた。
+というわけで [`github.com/taichi/kra`][`kra`] を使うチャンスを伺っていたのだが，今回はお試しにはちょうどいいサイズだったので採用した。
+とはいえ，今回のような構成ではどうすればいいのか分からなくて [`kra`] パッケージのソースコードやサンプルコードを眺めながら，まずは以下のように書いてみる。
 
 ```go {hl_lines=["13-14", "33-41", 45, 50,"52-60"]}
 package main
@@ -231,7 +231,7 @@ func main() {
 
 ## トランザクション制御
 
-トランザクション制御用に以下のような関数を用意した。
+トランザクション制御用に以下のような関数を用意する。
 
 ```go
 func Transaction(ctx context.Context, db *kraSql.DB, opts *sql.TxOptions, fn func(tx *kraSql.Tx) error) error {
@@ -263,15 +263,38 @@ func Transaction(ctx context.Context, db *kraSql.DB, opts *sql.TxOptions, fn fun
 なお，エラーハンドリングには自作の [`github.com/goark/errs`](https://github.com/goark/errs "goark/errs: Error handling for Golang") パッケージを使っている。
 [zerolog] と組み合わせて[エラーを構造化してログに吐ける](https://zenn.dev/spiegel/books/error-handling-in-golang/viewer/error-logging "ぼくがかんがえたさいきょうのえらーろぐ｜Go のエラーハンドリング")のが利点。
 
-実際にトランザクション処理を行う場合は
+実際にトランザクション処理を行う場合は，たとえば
 
 ```go
-if err := Transaction(context.TODO(), db, &sql.TxOptions{}, func(tx *kraSql.Tx) error {
-    //トランザクション処理...
+// logger := zerolog.New(os.Stderr)
+// ctx := context.TODO()
+values := struct {
+    Id   int64  `db:"id"`
+    Name string `db:"name"`
+}{
+    Id:   100,
+    Name: "Alice",
+}
+if err := Transaction(ctx, db, &sql.TxOptions{}, func(tx *kraSql.Tx) error {
+    stmt, err := tx.Prepare(ctx, "INSERT INTO example(id,name) VALUES (:id,:name)")
+    if err != nil {
+        return errs.Wrap(err)
+    }
+    defer stmt.Close()
+
+    res, err := stmt.Exec(ctx, &values)
+    if err != nil {
+        return errs.Wrap(err)
+    }
+    count, err := res.RowsAffected()
+    if err != nil {
+        return errs.Wrap(err)
+    }
+    logger.Info().Int64("affected", count).Send()
     return nil
 }); err != nil {
-    fmt.Fprintln(os.Stderr, err)
-    return
+    logger.Error().Interface("error", err).Send()
+    ...
 }
 ```
 
@@ -337,12 +360,23 @@ mysql.RegisterReaderHandler("data", func() io.Reader {
 次に実際の SQL 文を発行する。
 
 ```go
-res, err := tx.Exec(ctx, `LOAD DATA LOCAL INFILE 'Reader::data' INTO TABLE exsample_table (field1, field2, ...)`)
-if err != nil {
-    return errs.Wrap(rErr, errs.WithCause(err))
+// logger := zerolog.New(os.Stderr)
+// ctx := context.TODO()
+if err := Transaction(ctx, db, &sql.TxOptions{}, func(tx *kraSql.Tx) error {
+    res, err := tx.Exec(ctx, `LOAD DATA LOCAL INFILE 'Reader::data' INTO TABLE exsample_table (field1, field2, ...)`)
+    if err != nil {
+        return errs.Wrap(err)
+    }
+    count, err := res.RowsAffected()
+    if err != nil {
+        return errs.Wrap(err)
+    }
+    logger.Info().Int64("affected", count).Send()
+    return nil
+}); err != nil {
+    logger.Error().Interface("error", err).Send()
+    ...
 }
-count, _ := res.RowsAffected()
-fmt.Println("affected =", count)
 ```
 
 ファイルを指定する部分に先ほど登録したハンドラの名前を使って `'Reader::data'` と指定する。
