@@ -323,7 +323,7 @@ LOAD DATA LOCAL
   )
 ```
 
-これでロカールにある `input.file` ファイルの内容をリモートの MySQL の `exsample_table` テーブルに送り込める。
+これでローカルにある `input.file` ファイルの内容をリモートの MySQL の `exsample_table` テーブルに送り込める。
 `(field1, field2, ...)` の並びと入力ファイルの要素の並びが同じであることが前提。
 またサーバ側の MySQL サービスが `--local_infile` オプション付きで起動されていること。
 
