@@ -75,7 +75,7 @@ func main() {
 Dialer のクローズを忘れずに（笑）
 
 ただ，これだとログが取れない。
-んで，ログを取るなら [zerolog] を使いたいわけですよ。
+んで，どうせログを取るなら [`github.com/rs/zerolog`][zerolog] パッケージを使いたいわけですよ。
 
 そこで登場するのが [`github.com/simukti/sqldb-logger`][`sqldb-logger`] パッケージ。
 これを使えば標準の [`sql`]`.DB` に [zerolog] などのサードパーティ製 logger を仕込むことができる。
