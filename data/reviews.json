@@ -19697,5 +19697,46 @@
       false
     ],
     "Description": "まだ大久保ゆうさんのインタビューしか読んでないが，なかなか面白かった。他の人も読んでみよう。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00DL74Q0Y",
+      "Title": "ブリヂストン(BRIDGESTONE) コンパクトワイヤーロック ブラック 長さΦ3×180cm WL-SP1",
+      "URL": "https://www.amazon.co.jp/dp/B00DL74Q0Y?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41gwuBWkcOL._SL160_.jpg",
+        "Height": 160,
+        "Width": 130
+      },
+      "ProductType": "スポーツ用品",
+      "Publisher": "ブリヂストン(BRIDGESTONE)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00DL74Q0Y"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4977716051878"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-09-24",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "本来の鍵とは別に，コンビニとかでごく短時間自転車を停めるために購入。ニッパで切れそうだが「鍵をかけている」という状態が示せればカジュアル盗難は抑止できる？ みたいな。"
   }
 ]
