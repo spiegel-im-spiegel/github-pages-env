@@ -79,6 +79,8 @@ Azure の Web Apps とか今年に入ってようやく Java 17 に対応した�
 ## ブックマーク
 
 - [Java 19が正式リリース。より軽量な仮想スレッド、RISC-Vへの移植など新機能。1年後のJava 21が次のLTS版に － Publickey](https://www.publickey1.jp/blog/22/java_19risc-v1java_21lts.html)
+- [Oracle、「Java 19」を発表 ～より軽量な「仮想スレッド」をプレビュー導入 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1441397.html)
+- [JDK 19 Security Enhancements](https://seanjmullan.org/blog/2022/09/22/jdk19)
 
 [OpenJDK]: http://openjdk.java.net/
 [AdoptOpenJDK]: https://adoptopenjdk.net/ "AdoptOpenJDK - Open source, prebuilt OpenJDK binaries"
