@@ -28,6 +28,6 @@ APT (Advanced Package Tool) で `apt upgrade` する際「以下のパッケー�
 まずはめでたし。
 ホンマにええんかなぁ...
 
-## 参考図書
+## 参考
 
 {{% review-paapi "4295013498" %}} <!-- Linuxシステムの仕組み -->
