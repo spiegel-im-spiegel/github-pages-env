@@ -9,13 +9,6 @@
 - [YubiKey + GPG で統一的な鍵の管理を行う - the world as code](https://chroju.dev/blog/yubikey_gpg_with_git_commit_signing_and_ssh)
 - [20220102-a-new-future-for-gnupg](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html)
 
-- [GitHub - taichi/kra: relational database access helper library](https://github.com/taichi/kra) : あとで試す
-
-- [New FAQ on NFTs and CC0 - Creative Commons](https://creativecommons.org/2022/09/09/new-faq-on-nfts-and-cc0/)
-  - [FAQ: CC and NFTs - Creative Commons](https://creativecommons.org/cc-and-nfts/)
-  - [a16zが提唱するNFT向け「Can’t Be Evil」ライセンスとクリエイティブ・コモンズのNFTに対する見解 - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20220915/nft-and-cc0)
-    - [a16z/a16z-contracts: a16z Contracts is a library for solidity contracts, including licenses](https://github.com/a16z/a16z-contracts)
-
 
 ## リリース情報 {#release}
 

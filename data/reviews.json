@@ -19738,5 +19738,60 @@
       false
     ],
     "Description": "本来の鍵とは別に，コンビニとかでごく短時間自転車を停めるために購入。ニッパで切れそうだが「鍵をかけている」という状態が示せればカジュアル盗難は抑止できる？ みたいな。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4295013498",
+      "Title": "スーパーユーザーなら知っておくべきLinuxシステムの仕組み",
+      "URL": "https://www.amazon.co.jp/dp/4295013498?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51Z5QFGJTFL._SL160_.jpg",
+        "Height": 160,
+        "Width": 125
+      },
+      "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "Brian Ward",
+          "Role": "著"
+        },
+        {
+          "Name": "柴田 芳樹",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "インプレス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4295013498"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784295013495"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4295013498"
+        }
+      ],
+      "PublicationDate": "2022-03-08",
+      "LastRelease": "2022-03-08",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-07-17",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "\u003ca href=\"https://book.impress.co.jp/books/1121101019\"\u003e版元で PDF 版が買える\u003c/a\u003eが，今回はセキュリティ・エリアにも持ち込めるよう紙の本を買った。Linux システムの扱い方に関するリファレンス本として優れている。最初に軽く流し読みして，必要に応じて該当項目を拾い読みしていけばいいだろう。"
   }
 ]
