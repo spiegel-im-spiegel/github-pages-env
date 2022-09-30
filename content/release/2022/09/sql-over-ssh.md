@@ -136,15 +136,16 @@ func main() {
 やっぱ [`sql`]`.Open()` 関数の第1引数で専用ドライバを指定するほうがシンプルだよなぁ。
 DSN 文字列をいじらなくて済むし。
 
-ここでごめんペコン {{< emoji "ペコン" >}}
+{{< div-box type="markdown" >}}
+**【2022-09-30 追記】**
 
-SSH 越しにアクセスできる適当な PostgreSQL 環境を持ってなくて，上のコードはテストしてません。
-「あんだ，動かねーよ！」とかありましたら pull request 頂けるとありがたいです。
+[`github.com/jackc/pgx`] パッケージと組み合わせて使えるようにした。
+詳しくは以下の記事を参考のこと。
 
-## pgx ドライバでも SSH 越しにアクセスしたいのだが...
+- [sshql — SSH 越しに RDBMS にアクセスする]({{< ref "/release/sshql.md" >}})
 
-PostgreSQL にアクセスするなら [`github.com/jackc/pgx`] パッケージを使いたいところだが [`github.com/lib/pq`] のように専用の Dialer を登録できるインタフェースはないっぽい？ 「◯◯すればできるよ」という情報がありましたら是非教えてください。
-まぁ，試す環境がないんだけどね。
+[`github.com/jackc/pgx`]: https://github.com/jackc/pgx "jackc/pgx: PostgreSQL driver and toolkit for Go"
+{{< /div-box >}}
 
 ## InsecureIgnoreHostKey() 関数で叱られる
 
