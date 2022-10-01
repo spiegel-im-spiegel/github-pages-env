@@ -43,7 +43,7 @@ pageType = "text"
 
 ## 松江城の駐輪場
 
-[島根県立図書館]に行く前に確認がてら松江城内にあるという駐輪場を確認してみた。
+[島根県立図書館]に行く前に確認がてら松江城内にあるという駐輪場に行ってみた。
 
 - {{< pdf-file title="松江城自転車駐輪場マップ" link="https://www.kankou-matsue.jp/_assets/page_files/files/000/018/060/b0a2a421be4d907d5f13e68857b2f49075ee8c56/%E5%A4%8F%E4%BB%A5%E9%99%8D_%E8%87%AA%E8%BB%A2%E8%BB%8A%EF%BC%B0%E3%83%9E%E3%83%83%E3%83%97.pdf?1564649941">}}
 
