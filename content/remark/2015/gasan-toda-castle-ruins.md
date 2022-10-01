@@ -2,7 +2,7 @@
 date = "2015-09-28T22:59:20+09:00"
 description = "「中秋の名月」だから月山に行こう！ とかそういう話では全然なく，たまたまスケジュールを合わせた日が9月27日の中秋の名月だったというだけです。久しぶりのマジな山城。"
 draft = false
-tags = ["study", "castle", "shimane", "izumo"]
+tags = ["study", "castle", "shimane", "izumo", "photography"]
 title = "オトナの社会科見学： 中秋の月山富田城跡"
 
 [scripts]
