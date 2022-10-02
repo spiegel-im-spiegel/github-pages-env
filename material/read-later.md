@@ -9,6 +9,8 @@
 - [YubiKey + GPG で統一的な鍵の管理を行う - the world as code](https://chroju.dev/blog/yubikey_gpg_with_git_commit_signing_and_ssh)
 - [20220102-a-new-future-for-gnupg](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html)
 
+- [Google画像検索にある「クリエイティブ・コモンズ ライセンス」の絞り込み機能は壊れているとの指摘 - GIGAZINE](https://gigazine.net/news/20220930-google-broke-image-search-creative-commons/)
+
 
 ## リリース情報 {#release}
 
