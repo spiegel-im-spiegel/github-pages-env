@@ -19891,5 +19891,126 @@
       false
     ],
     "Description": "自転車掃除用のウェス（waste）として購入。1枚50円程度と考えるなら百均で売ってるのと同程度の値段か？"
+  },
+  {
+    "Book": {
+      "Type": "aozora",
+      "ID": "60756",
+      "Title": "現代語訳　平家物語",
+      "SubTitle": "01 第一巻",
+      "URL": "https://www.aozora.gr.jp/cards/001529/card60756.html",
+      "Image": {
+        "URL": "https://text.baldanders.info/images/aozora/card60756.svg"
+      },
+      "ProductType": "青空文庫",
+      "Creators": [
+        {
+          "Name": "作者不詳 "
+        },
+        {
+          "Name": "尾崎 士郎",
+          "Role": "翻訳"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "図書カードNo.",
+          "Value": "60756"
+        }
+      ],
+      "PublicationDate": "2022-01-02",
+      "LastRelease": "2021-12-27",
+      "PublicDomain": true,
+      "FirstAppearance": "「世界名作全集　39　平家物語」平凡社、1960（昭和35）年2月12日",
+      "Service": {
+        "Name": "aozorahack",
+        "URL": "https://aozorahack.org/"
+      }
+    },
+    "Date": "2020-08-10",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "これに「禿童」に関する言及が載っている。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4894235617",
+      "Title": "シャーロック・ホームズ\u0026イレギュラーズ〈1〉消されたサーカスの男",
+      "URL": "https://www.amazon.co.jp/dp/4894235617?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/519PMz22ZRL._SL160_.jpg",
+        "Height": 160,
+        "Width": 109
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "マック,T.",
+          "Role": "著"
+        },
+        {
+          "Name": "シトリン,M.",
+          "Role": "著"
+        },
+        {
+          "Name": "Mack,Tracy",
+          "Role": "原著"
+        },
+        {
+          "Name": "Citrin,Michael",
+          "Role": "原著"
+        },
+        {
+          "Name": "瑞人, 金原",
+          "Role": "翻訳"
+        },
+        {
+          "Name": "夏奏, 相山",
+          "Role": "翻訳"
+        },
+        {
+          "Name": "エマ, スカイ",
+          "Role": "Unknown"
+        }
+      ],
+      "Publisher": "文溪堂",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4894235617"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784894235618"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4894235617"
+        }
+      ],
+      "PublicationDate": "2011-09-01",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-10-02",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "ちょっと読んでみたくなった。\u003ca href=\"https://www.library.pref.shimane.lg.jp/\"\u003e県立図書館\u003c/a\u003eの「子どもの本棚」にあるっぽいな。大人が読んじゃ駄目だろうか..."
   }
 ]
