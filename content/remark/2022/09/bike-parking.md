@@ -47,13 +47,17 @@ pageType = "text"
 「[美術館ロータリー内駐輪場・バイク置き場をご利用ください](https://www.shimane-art-museum.jp/visit/access.html "アクセス | 利用案内 | 島根県立美術館")」とあるのだが，路線バスでロータリーを回ってるときには見当たらなかった。
 今度はチャリでちょろんと行ってみよう。
 
+というわけで，[後日行ってみた]({{< ref "/remark/2022/10/suitouro.md" >}})。
+
 ## [島根県立図書館](https://www.library.pref.shimane.lg.jp/)
 
 ここは[子供の頃からチャリンコで通ってた]({{< ref "/remark/2019/04/welcome-to-the-shimane-prefectural-library.md" >}} "図書館で書棚へのドキワクを思い出す")から大丈夫。
 駐輪場の場所も昔通り。
 今でも週末にバスで行くことがあるが，停まってる2輪車が殆どないんだよなぁ。
 まぁ，好都合だけど。
-運がよければ地球ロック可。
+
+[後日行って確認]({{< ref "/remark/2022/10/suitouro.md" >}})。
+地球ロック可。
 
 ## [松江駅東・西駐輪場](http://www.matsuetouzai-chuurin.com/)
 
