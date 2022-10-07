@@ -27,7 +27,19 @@ pageType = "text"
 {{% quote %}}A closing HTTP/2 server connection could hang forever waiting for a clean shutdown that was preempted by a subsequent fatal error. This failure mode could be exploited to cause a denial of service{{% /quote %}}.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H`
+- 深刻度: 重要 (Score: 7.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | なし |
+| 可用性への影響 | 高 |
 
 ## [CVE-2022-32190] net/url: JoinPath does not strip relative path components in all circumstances
 
@@ -37,7 +49,21 @@ pageType = "text"
 
 えっ，これヤバくね？
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H`
+- 深刻度: 緊急 (Score: 9.8)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | 高 |
+| 完全性への影響 | 高 |
+| 可用性への影響 | 高 |
+
+ガチでヤバいやつでした。
 
 ## 例によって...
 
