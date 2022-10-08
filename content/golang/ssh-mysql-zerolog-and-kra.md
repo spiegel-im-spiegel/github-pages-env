@@ -325,7 +325,9 @@ LOAD DATA LOCAL
 
 これでローカルにある `input.file` ファイルの内容をリモートの MySQL の `exsample_table` テーブルに送り込める。
 `(field1, field2, ...)` の並びと入力ファイルの要素の並びが同じであることが前提。
-またサーバ側の MySQL サービスが `--local_infile` オプション付きで起動されていること。
+またサーバ側の MySQL サービスが `--local_infile` オプション付きで起動されていること[^local1]。
+
+[^local1]: `local_infile` オプションをセットすると mysqldump を使用する際に「そんなフラグは知らん」と怒られる場合がある。これを回避するには `loose-local-infile` にするといいらしい。当然ではあるが `LOAD DATA LOCAL ...` 文は[セキュリティ・リスクがある](https://docs.oracle.com/cd/E17952_01/mysql-8.0-ja/load-data-local-security.html "6.1.6 LOAD DATA LOCAL のセキュリティー上の考慮事項")ので取り扱い注意である。
 
 `CHARACTER SET` 句はファイルの文字エンコードディングがDBサービスのデフォルトと異なる場合に設定する。
 `FIELDS` 句および `LINES` を省略した場合のデフォルト値はこうなっているそうな。
