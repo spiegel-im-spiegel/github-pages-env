@@ -20012,5 +20012,166 @@
       false
     ],
     "Description": "ちょっと読んでみたくなった。\u003ca href=\"https://www.library.pref.shimane.lg.jp/\"\u003e県立図書館\u003c/a\u003eの「子どもの本棚」にあるっぽいな。大人が読んじゃ駄目だろうか..."
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4814400047",
+      "Title": "初めてのGo言語 ―他言語プログラマーのためのイディオマティックGo実践ガイド",
+      "URL": "https://www.amazon.co.jp/dp/4814400047?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41dClAl3WKL._SL160_.jpg",
+        "Height": 160,
+        "Width": 125
+      },
+      "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "Jon Bodner",
+          "Role": "著"
+        },
+        {
+          "Name": "武舎 広幸",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "オライリージャパン",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4814400047"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784814400041"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4814400047"
+        }
+      ],
+      "PublicationDate": "2022-09-26",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-10-05",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "2021年に出た “\u003ca href=\"https://www.oreilly.com/library/view/learning-go/9781492077206/\"\u003eLearning Go\u003c/a\u003e” の邦訳版。私は\u003ca href=\"https://www.oreilly.co.jp/books/9784814400041/\"\u003e版元\u003c/a\u003eで PDF 版を購入。これから読むが，イディオム満載と聞いている。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4863544006",
+      "Title": "基礎から学ぶ TinyGoの組込み開発",
+      "URL": "https://www.amazon.co.jp/dp/4863544006?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41wQ2DsCVML._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "高砂正哲",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "シーアンドアール研究所",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4863544006"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784863544000"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4863544006"
+        }
+      ],
+      "PublicationDate": "2022-11-14",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-10-08",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "ハンズオン的な内容らしい。実は Wio Terminal を買ったまま放置プレイ中なので，楽しみにしている。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4908686122",
+      "Title": "Goならわかるシステムプログラミング 第2版",
+      "URL": "https://www.amazon.co.jp/dp/4908686122?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51UR-fn8fmL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "渋川よしき",
+          "Role": "著"
+        },
+        {
+          "Name": "ごっちん",
+          "Role": "イラスト"
+        }
+      ],
+      "Publisher": "ラムダノート",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4908686122"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784908686122"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4908686122"
+        }
+      ],
+      "PublicationDate": "2022-03-23",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-10-08",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "第1版はとてもためになる内容だったので第2版も \u003ca href=\"https://www.lambdanote.com/collections/frontpage/products/go-2-pdf\"\u003ePDF 版\u003c/a\u003eで確保しておく。"
   }
 ]
