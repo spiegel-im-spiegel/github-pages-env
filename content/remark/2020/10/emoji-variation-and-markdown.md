@@ -45,7 +45,7 @@ enableEmoji = true
 | {{< span class="larger" >}}{{< emoji ":bow:" >}}{{< /span >}} | `:bow:` | person bowing ??? |
 | {{< span class="larger" >}}{{< emoji ":zzz:" >}}{{< /span >}} | `:zzz:` | zzz |
 | {{< span class="larger" >}}{{< emoji ":anger:" >}}{{< /span >}} | `:anger:` | anger symbol |
-| {{< span class="larger" >}}{{< emoji ":sweat_drops:" >}}{{< /span >}} | `:sweat_drops:` | sweat droplets  |
+| {{< span class="larger" >}}{{< emoji ":sweat_drops:" >}}{{< /span >}} | `:sweat_drops:` | sweat droplets[^sweat1]  |
 | {{< span class="larger" >}}{{< emoji ":star:" >}}{{< /span >}} | `:star:` | star  |
 | {{< span class="larger" >}}{{< emoji ":bulb:" >}}{{< /span >}} | `:bulb:` | light bulb  |
 | {{< span class="larger" >}}{{< emoji ":musical_note:" >}}{{< /span >}} | `:musical_note:` | musical note  |
@@ -53,6 +53,8 @@ enableEmoji = true
 | {{< span class="larger" >}}{{< emoji ":lock:" >}}{{< /span >}} | `:lock:` | locked |
 | {{< span class="larger" >}}{{< emoji ":unlock:" >}}{{< /span >}} | `:unlock:` | unlocked  |
 | {{< span class="larger" >}}{{< emoji ":closed_lock_with_key:" >}}{{< /span >}} | `:closed_lock_with_key:` | locked with key |
+
+[^sweat1]: 海外では {{< emoji ":sweat_drops:" >}} は男性の射精の意味で受け取られるそうで，この絵文字を含む8文字ほどをブロック対象にすると [Instagram でセクハラコメントの90%を防げる](https://boingboing.net/2021/02/01/blocking-8-emoji-stopped-90-of-my-unwanted-instagram-comments.html "Blocking 8 emoji stopped 90% of my unwanted Instagram comments | Boing Boing")そうな（笑） 世知辛い。
 
 さて，皆さんの環境ではどう見えているでしょうか。
 人によって見え方が異なると思います（絵文字のフォント指定については[後述]({{< relref "#fonts" >}})）。
