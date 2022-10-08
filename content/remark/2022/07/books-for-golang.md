@@ -81,7 +81,7 @@ pageType = "text"
 胡散臭いタイトルだが原書タイトルが “[Learning Go](https://www.oreilly.com/library/view/learning-go/9781492077206/)” と聞いて，昨年出たあの本かと納得した。
 これから読むが「イディオマティックなGoコードの書き方やGoプロジェクトの設計方法を解説」とあるので期待している。
 
-## [基礎から学ぶ TinyGo の組込み開発](https://www.amazon.co.jp/dp/4863544006?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)
+## [基礎から学ぶ TinyGo の組込み開発](https://www.amazon.co.jp/dp/4863544006?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1) 【2022-10-08 追記】
 
 {{% review-paapi "4863544006" %}} <!-- 基礎から学ぶ TinyGo の組込み開発 -->
 
