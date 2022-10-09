@@ -20173,5 +20173,97 @@
       false
     ],
     "Description": "第1版はとてもためになる内容だったので第2版も \u003ca href=\"https://www.lambdanote.com/collections/frontpage/products/go-2-pdf\"\u003ePDF 版\u003c/a\u003eで確保しておく。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08P54PQDB",
+      "Title": "[クローム] メッセンジャーバッグ SIMPLE MESSENGER/シンプル メッセンジャー BLACK (現行モデル) 12L 防水 メンズ",
+      "URL": "https://www.amazon.co.jp/dp/B08P54PQDB?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31yRFa0S-+L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "ウェア\u0026シューズ",
+      "Publisher": "CHROME(クローム)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08P54PQDB"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0841916163973"
+        },
+        {
+          "Name": "UPC",
+          "Value": "841916163973"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-10-08",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "プライベートお出かけ用。たまたま安売りの時に購入できた。チャリンコ乗ってても背中がゆさゆさしない。大きすぎず丁度いいサイズ。鞄の蓋がマジックテープでちょっと煩いのが玉に瑕だが，概ね満足。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08D94WK7L",
+      "Title": "異世界に転移したら山の中だった。反動で強さよりも快適さを選びました。 (ツギクルブックス)",
+      "URL": "https://www.amazon.co.jp/dp/B08D94WK7L?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51yLaXHeK2L._SL160_.jpg",
+        "Height": 160,
+        "Width": 108
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "じゃがバター",
+          "Role": "著"
+        },
+        {
+          "Name": "岩崎 美奈子",
+          "Role": "イラスト"
+        }
+      ],
+      "Publisher": "ツギクル",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08D94WK7L"
+        }
+      ],
+      "PublicationDate": "2020-07-25",
+      "LastRelease": "2020-07-22",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-12-19",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "それが可能なら，快適な生活が一番！"
   }
 ]
