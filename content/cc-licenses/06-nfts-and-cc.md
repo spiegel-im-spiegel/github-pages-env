@@ -144,7 +144,7 @@ NFT の中にはクリエイターの同意なしにミントされたもの，�
 NFT の環境への影響[^pow] を含め，考慮に値する他の批判もあります。
 NFT をミントする際，新しい強力なツールで作業する場合と同じように，クリエイターは選択肢と目標を慎重に検討することが推奨されます。
 
-[^pow]: 訳注：ブロックチェーン要素技術である PoW (Proof of Work) は計算資源（と電力）を激しく消費するため批判が多い。このため NFT のプラットフォームでもある Ethereum では PoW を PoS (Proof of Stake) へ置き換えようとしている。詳しくは次の記事を参照のこと： [MIT Tech Review: イーサリアムの「ザ・マージ」が完了、6年越しでPoSへ移行](https://www.technologyreview.jp/s/286038/the-merge-is-here-ethereum-has-switched-to-proof-of-stake/)
+[^pow]: 訳注：ブロックチェーン要素技術である PoW (Proof of Work) は計算資源（と電力）を激しく消費するため批判が多い。このため NFT のプラットフォームでもある Ethereum では PoW を PoS (Proof of Stake) へ置き換えようとしている。詳しくは次の記事を参照のこと： [MIT Tech Review: イーサリアムの「ザ・マージ」が完了、6年越しでPoSへ移行](https://www.technologyreview.jp/s/286038/the-merge-is-here-ethereum-has-switched-to-proof-of-stake/), [「マージ」を成功させたイーサリアムの創設者ヴィタリック・ブテリンが初の著書『Proof of Stake』を出していた - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20221003/proof-of-stake)
 
 私達のコミュニティではクリエイティブな作品に NFT を使用することを推奨すべきかどうかについて，様々な意見があることを承知しています。
 一方で，多くの人が NFT を受け入れ，コモンズで作品を共有する一環としてそれらを使用する方法についてのガイダンスを求めていることも承知しています。

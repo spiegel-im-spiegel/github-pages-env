@@ -3,7 +3,7 @@ title = "Blockchain/Bitcoin は何だったのか"
 date =  "2022-07-25T21:56:45+09:00"
 description = "技術で社会は変えられない"
 image = "/images/attention/kitten.jpg"
-tags = [ "code", "blockchain", "grigori", "internet" ]
+tags = [ "code", "blockchain", "bitcoin", "grigori", "internet" ]
 pageType = "text"
 
 [scripts]
