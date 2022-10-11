@@ -20057,16 +20057,16 @@
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2022-10-05",
-    "Rating": 0,
+    "Date": "2022-10-11",
+    "Rating": 4,
     "Star": [
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
       false
     ],
-    "Description": "2021年に出た “\u003ca href=\"https://www.oreilly.com/library/view/learning-go/9781492077206/\"\u003eLearning Go\u003c/a\u003e” の邦訳版。私は\u003ca href=\"https://www.oreilly.co.jp/books/9784814400041/\"\u003e版元\u003c/a\u003eで PDF 版を購入。これから読むが，イディオム満載と聞いている。"
+    "Description": "2021年に出た “\u003ca href=\"https://www.oreilly.com/library/view/learning-go/9781492077206/\"\u003eLearning Go\u003c/a\u003e” の邦訳版。私は\u003ca href=\"https://www.oreilly.co.jp/books/9784814400041/\"\u003e版元\u003c/a\u003eで PDF 版を購入。 Go 特有の語法（idiom）を切り口として Go の機能やパッケージを解説している。 Go 1.19 対応。"
   },
   {
     "Book": {
@@ -20172,7 +20172,7 @@
       true,
       false
     ],
-    "Description": "第1版はとてもためになる内容だったので第2版も \u003ca href=\"https://www.lambdanote.com/collections/frontpage/products/go-2-pdf\"\u003ePDF 版\u003c/a\u003eで確保しておく。"
+    "Description": "第1版はとても\u003ca href=\"https://text.baldanders.info/remark/2018/10/system-programming-in-golang/\"\u003eためになる内容\u003c/a\u003eだったので第2版も \u003ca href=\"https://www.lambdanote.com/collections/frontpage/products/go-2-pdf\"\u003ePDF 版\u003c/a\u003eで確保しておく。"
   },
   {
     "Book": {

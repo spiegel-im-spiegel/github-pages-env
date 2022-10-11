@@ -71,7 +71,7 @@ pageType = "text"
 - [第1回『Go言語による分散サービス』オンライン読書会 - connpass](https://technical-book-reading-2.connpass.com/event/254275/)
 - [『Go言語による分散サービス』オンライン読書会を開催します：柴田 芳樹 (Yoshiki Shibata)：SSブログ](https://yshibata.blog.ss-blog.jp/2022-07-14)
 
-## [初めてのGo言語](https://www.oreilly.co.jp/catalog/soon.html) 【2022-10-08 追記】
+## [初めてのGo言語](https://www.oreilly.co.jp/books/9784814400041/) 【2022-10-08 追記】
 
 {{% review-paapi "4814400047" %}} <!-- 初めてのGo言語 -->
 
@@ -79,7 +79,8 @@ pageType = "text"
 オライリーさんなのでデジタル版のほうを買いました。
 
 胡散臭いタイトルだが原書タイトルが “[Learning Go](https://www.oreilly.com/library/view/learning-go/9781492077206/)” と聞いて，昨年出たあの本かと納得した。
-これから読むが「イディオマティックなGoコードの書き方やGoプロジェクトの設計方法を解説」とあるので期待している。
+
+**【2022-10-11 追記】** 感想文というか紹介文を[書いてみた]({{< ref "/remark/2022/10/learning-go.md" >}})。
 
 ## [基礎から学ぶ TinyGo の組込み開発](https://www.amazon.co.jp/dp/4863544006?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1) 【2022-10-08 追記】
 
