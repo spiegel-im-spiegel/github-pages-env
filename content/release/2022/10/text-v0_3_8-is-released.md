@@ -24,14 +24,14 @@ An attacker can craft an `Accept-Language` header which `ParseAcceptLanguage` wi
 
 Web 周りの実装をしている人でリクエストヘッダの `Accept-Language` を評価している場合は要注意かな。
 
-## [CVE-2022-41715]
+## [CVE-2022-32149]
 
 （未稿）
 
 [Go]: https://go.dev/
 [`golang.org/x/text`]: https://pkg.go.dev/golang.org/x/text "text package - golang.org/x/text - Go Packages"
 [`golang.org/x/text/language`]: http://golang.org/x/text/language "language package - golang.org/x/text/language - Go Packages"
-[CVE-2022-41715]: https://nvd.nist.gov/vuln/detail/CVE-2022-41715
+[CVE-2022-32149]: https://nvd.nist.gov/vuln/detail/CVE-2022-32149
 
 ## 参考図書
 
