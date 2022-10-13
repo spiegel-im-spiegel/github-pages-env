@@ -19,7 +19,7 @@ pageType = "text"
 {{< fig-quote type="markdown" title="Vulnerability in golang.org/x/text/language" link="https://groups.google.com/g/golang-announce/c/-hjNw559_tE" lang="en" >}}
 Version v0.3.8 of [`golang.org/x/text`](http://golang.org/x/text) fixes a vulnerability in the [`golang.org/x/text/language`](http://golang.org/x/text/language) package which could cause a denial of service.
 
-An attacker can craft an `Accept-Language` header which ParseAcceptLanguage will take significant time to parse.
+An attacker can craft an `Accept-Language` header which `ParseAcceptLanguage` will take significant time to parse.
 {{< /fig-quote >}}
 
 Web 周りの実装をしている人でリクエストヘッダの `Accept-Language` を評価している場合は要注意かな。
