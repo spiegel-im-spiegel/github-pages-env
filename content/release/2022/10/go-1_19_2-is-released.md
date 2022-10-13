@@ -70,13 +70,25 @@ Windows は [Scoop] 経由で OK
 
 アップデートは計画的に。
 
+## 【2022-10-13 追記】 govulncheck コマンドが役に立った
+
+最近 [govulncheck] を GitHub Actions のワークフローに仕込んでいるのだが，今回の脆弱性をちゃんと検出してくれたようだ。
+
+{{< fig-img src="./github-actions.png" link="./github-actions.png" width="992" >}}
+
+よーし，うむうむ，よーし。
+
+- [Go 公式の脆弱性管理システム](https://zenn.dev/spiegel/articles/20220811-go-vulnerability-management)
+
 [Go]: https://go.dev/
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [Scoop]: https://scoop.sh/
 [CVE-2022-2879]: https://nvd.nist.gov/vuln/detail/CVE-2022-2879
 [CVE-2022-2880]: https://nvd.nist.gov/vuln/detail/CVE-2022-2880
 [CVE-2022-41715]: https://nvd.nist.gov/vuln/detail/CVE-2022-41715
+[govulncheck]: https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck "govulncheck command - golang.org/x/vuln/cmd/govulncheck - Go Packages"
 
 ## 参考図書
 
 {{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4814400047" %}} <!-- 初めてのGo言語 -->
