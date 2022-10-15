@@ -3,7 +3,7 @@ title = "個人番号と個人番号カード"
 date =  "2020-09-21T19:30:40+09:00"
 description = "「個人番号」と「個人番号カード」の問題は（関連してるけど）きちんと切り分けて考えないとワケワカメになる。"
 image = "/images/attention/kitten.jpg"
-tags = [ "code", "grigori", "security", "privacy", "design", "engineering" ]
+tags = [ "code", "grigori", "security", "privacy", "design", "engineering", "my-number" ]
 pageType = "text"
 
 [scripts]
