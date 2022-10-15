@@ -11,7 +11,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-セキュリティ・システムを組む場合の肝は識別（identification），認証（authentication），許可（authorization）の3つを（設計概念上）きちんと分離し，かつそれらを上手く組み合わせることである。
+セキュリティ・システムを組む際の肝は識別（identification），認証（authentication），許可（authorization）の3つを（設計概念上）きちんと分離し，かつそれらを上手く組み合わせることである。
 
 この辺の話は Bruce Schneier さんの名著『[セキュリティはなぜやぶられたのか](https://www.amazon.co.jp/dp/4822283100?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)（原著名 “[Beyond Fear](https://www.amazon.co.jp/dp/B000PY3NB4?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)”）』の13章で詳しく解説されている。
 
@@ -25,7 +25,7 @@ pageType = "text"
 - **許可**： この範囲のことはしてもよい
 {{< /fig-quote >}}
 
-さらに言うと，コンピュータ・システムでは 識別・認証・許可 はそれぞれ「トークン」として符号化されることが多く，そのトークンを認証（certification）する機能も要求される。
+さらに言うと，コンピュータ・システムでは 識別・認証・許可 はそれぞれ「トークン（token）」として符号化されることが多く，これらトークンを認証（certification）する機能も要求される。
 
 たとえば映画館の入場券は純粋に許可トークンである。
 このトークンがあれば誰が入場しようと問題ない。
