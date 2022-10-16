@@ -9,6 +9,9 @@
 - [YubiKey + GPG で統一的な鍵の管理を行う - the world as code](https://chroju.dev/blog/yubikey_gpg_with_git_commit_signing_and_ssh)
 - [20220102-a-new-future-for-gnupg](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html)
 
+- [Signal will remove support for SMS text messages on Android](https://www.bleepingcomputer.com/news/technology/signal-will-remove-support-for-sms-text-messages-on-android/)
+- [危機的状況下でのモバイルネットワークの使用がもたらすセキュリティリスク | p2ptk[.]org](https://p2ptk.org/security/3488)
+
 
 ## リリース情報 {#release}
 

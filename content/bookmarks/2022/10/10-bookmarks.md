@@ -14,7 +14,7 @@ pageType = "text"
 
 - [Release Git for Windows 2.38.0 · git-for-windows/git · GitHub](https://github.com/git-for-windows/git/releases/tag/v2.38.0.windows.1)
   - [「Git for Windows」v2.38.0が公開 ～新コマンド「Scalar」を導入 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1444612.html)
-- [Release v3.16.0 · go-task/task · GitHub](https://github.com/go-task/task/releases/tag/v3.16.0)
+  - [The Story of Scalar | The GitHub Blog](https://github.blog/2022-10-13-the-story-of-scalar/)- [Release v3.16.0 · go-task/task · GitHub](https://github.com/go-task/task/releases/tag/v3.16.0)
 - [Release 0.26.0 · tinygo-org/tinygo · GitHub](https://github.com/tinygo-org/tinygo/releases/tag/v0.26.0)
 - [Release v1.50.0 · golangci/golangci-lint · GitHub](https://github.com/golangci/golangci-lint/releases/tag/v1.50.0)
 - [Mozilla、「Firefox 105.0.2」をリリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1445115.html)
