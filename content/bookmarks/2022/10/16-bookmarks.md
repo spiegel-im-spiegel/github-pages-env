@@ -1,10 +1,9 @@
 +++
 title = "2022-10-16 のブックマーク"
-date =  "2022-10-16T19:55:21+09:00"
-description = "「XXX」他"
+date =  "2022-10-16T20:27:26+09:00"
+description = "「Signal will remove support for SMS text messages on Android」他"
 image = "/images/attention/bookmarks.jpg"
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
@@ -46,9 +45,6 @@ draft = true
 
 - [オープンアクセスが広がるも、学術機関の金銭的負担は続く……何が起こっているのか | p2ptk[.]org](https://p2ptk.org/copyright/3941)
 
-## Linux または Ubuntu に関する話題 {#linux}
-
-
 ## Azure や Windows に関する話題 {#windows}
 
 - [Distributed PostgreSQL comes to Azure Cosmos DB - Azure Cosmos DB Blog](https://devblogs.microsoft.com/cosmosdb/distributed-postgresql-comes-to-azure-cosmos-db/)
@@ -89,5 +85,3 @@ draft = true
 - [「PostgreSQL 15」が正式リリース ～「MERGE」コマンドに対応、パフォーマンスも向上 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1447690.html)
 - [Microsoft公式の「Visual Studio Code」向けリモート開発拡張機能、名前を変更へ - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1447258.html)
 - [デジタル独裁：東欧・中央アジア地域における権威主義的戦術と抵抗 | p2ptk[.]org](https://p2ptk.org/privacy/4024)
-
-<!-- eof -->
