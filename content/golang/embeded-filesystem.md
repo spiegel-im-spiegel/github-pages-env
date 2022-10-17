@@ -11,11 +11,11 @@ pageType = "text"
   mermaidjs = false
 +++
 
-ずいぶん前に
+1. [紙芝居用の簡易 Web サーバを Go 言語で書く]({{< ref "/remark/2018/02/simple-web-server-with-golang.md" >}}) ←イマココ
+2. [紙芝居用の簡易サーバを書く【Go 1.16 版】]({{< ref "/golang/embeded-filesystem.md" >}}) ←イマココ
+3. [紙芝居用の簡易 Web サーバを Go 言語で書く【叱られ編】]({{< ref "/golang/simple-web-server-with-golang-3.md" >}})
 
-- [紙芝居用の簡易 Web サーバを Go 言語で書く]({{< ref "/remark/2018/02/simple-web-server-with-golang.md" >}})
-
-という記事を書いたが，これで作ったコードは任意のディレクトリをドキュメント・ルートにできるという結構ヤバい代物である。
+ずいぶん前に「[紙芝居用の簡易 Web サーバを Go 言語で書く]({{< ref "/remark/2018/02/simple-web-server-with-golang.md" >}})」という記事を書いたが，これで作ったコードは任意のディレクトリをドキュメント・ルートにできるという結構ヤバい代物である。
 
 ところで [Go 1.16 リリース]({{< ref "/release/2021/02/go-1_16-is-released.md" >}} "Go 1.16 がリリースされた")で真っ先に思ったのは「これで安全に紙芝居ができるぢゃん」だった。
 [Go] 1.16 で追加された [`embed`] および [`io/fs`][`fs`] 標準パッケージを使えば，サードパーティの外部パッケージを使わずとも，簡単に「紙芝居」が作れる。

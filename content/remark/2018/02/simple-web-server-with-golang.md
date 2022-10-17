@@ -10,6 +10,10 @@ tags = [ "golang", "web", "engineering" ]
   mermaidjs = false
 +++
 
+1. [紙芝居用の簡易 Web サーバを Go 言語で書く]({{< ref "/remark/2018/02/simple-web-server-with-golang.md" >}}) ←イマココ
+2. [紙芝居用の簡易サーバを書く【Go 1.16 版】]({{< ref "/golang/embeded-filesystem.md" >}})
+3. [紙芝居用の簡易 Web サーバを Go 言語で書く【叱られ編】]({{< ref "/golang/simple-web-server-with-golang-3.md" >}})
+
 3年ほど前に紙芝居（静的な HTML ファイルを表示するだけの簡単なお仕事）用の簡易 Web サーバを [node.js] で組んだのだが
 
 - [「紙芝居」用の簡単 HTTP サーバを立てる - Qiita](https://qiita.com/spiegel-im-spiegel/items/38b2e0b16ffc4f3548b3)
