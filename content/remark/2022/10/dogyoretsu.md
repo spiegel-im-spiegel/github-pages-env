@@ -77,4 +77,7 @@ pageType = "text"
 [鼕行列]: http://www.dogyoretsu.jp/
 [水燈路]: {{< ref "/remark/2022/10/suitouro.md" >}} "サイクリング & お散歩カメラ"
 [島根県立図書館]: https://www.library.pref.shimane.lg.jp/
-<!-- eof -->
+
+## 参考
+
+{{< fig-youtube id="VUZsigrARYI" title="３年ぶり、熱気あふれる松江鼕行列　勇壮な音色、再び秋の城下町に響く - YouTube" >}}
