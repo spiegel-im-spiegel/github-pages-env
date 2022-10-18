@@ -94,4 +94,5 @@ GitHub をはじめとするサービスは単なる「git リポジトリ・サ
 ## 参考図書
 
 {{% review-paapi "4309242456" %}} <!-- リナックスの革命 Hacker Ethic -->
+{{% review-aozora "227" %}} <!-- 伽藍とバザール -->
 {{% review-paapi "B07FMV7HMD" %}} <!-- 夏をあきらめて（♪あきらめの夏♪） -->

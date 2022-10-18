@@ -66,8 +66,6 @@ Twitter が登場したときのフィーバーぶりも大変なもので，こ
 
 ## ブックマーク
 
-- [伽藍とバザール（The Cathedral and the Bazaar）](http://cruel.org/freeware/cathedral.html)
-
 - [Scrapbox または Wiki で再び遊ぶ]({{< ref "/remark/2017/01/scrapbox-and-wiki.md" >}})
 
 [WikiWikiWeb]: http://www.hyuki.com/yukiwiki/wiki.cgi?WikiWikiWeb "WikiWikiWeb - WikiWikiWebとは何か"
@@ -76,3 +74,4 @@ Twitter が登場したときのフィーバーぶりも大変なもので，こ
 
 {{% review-paapi "4844319159" %}} <!-- 結城浩のWiki入門 -->
 {{% review-paapi "482224587X" %}} <!-- ウィキノミクス -->
+{{% review-aozora "227" %}} <!-- 伽藍とバザール -->

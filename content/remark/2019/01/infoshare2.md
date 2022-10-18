@@ -65,7 +65,7 @@ tags = [ "book", "code", "internet", "generativity", "grigori", "surveillance-ca
 
 『[はやぶさ―不死身の探査機と宇宙研の物語](https://www.amazon.co.jp/exec/obidos/ASIN/4344980158/baldandersinf-22)』にこんな一節がある。
 
-{{< fig-quote title="はやぶさ―不死身の探査機と宇宙研の物語" link="https://www.amazon.co.jp/exec/obidos/ASIN/4344980158/baldandersinf-22" >}}
+{{< fig-quote title="はやぶさ―不死身の探査機と宇宙研の物語" link="https://www.amazon.co.jp/dp/4344980158?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1" >}}
 <q>理学は、真理の探究であり、工学は善の実現である。そして、藝術は美の表現である－－これで所謂「真美善」が揃う</q>
 {{< /fig-quote >}}
 

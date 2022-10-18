@@ -19927,7 +19927,7 @@
         "URL": "https://aozorahack.org/"
       }
     },
-    "Date": "2020-08-10",
+    "Date": "2022-08-10",
     "Rating": 4,
     "Star": [
       true,
@@ -20265,5 +20265,49 @@
       false
     ],
     "Description": "それが可能なら，快適な生活が一番！"
+  },
+  {
+    "Book": {
+      "Type": "aozora",
+      "ID": "227",
+      "Title": "伽藍とバザール",
+      "OriginalTitle": "The Cathedral and the Bazaar",
+      "URL": "https://www.aozora.gr.jp/cards/000029/card227.html",
+      "Image": {
+        "URL": "https://text.baldanders.info/images/aozora/card227.svg"
+      },
+      "ProductType": "青空文庫",
+      "Creators": [
+        {
+          "Name": "レイモンド  エリック"
+        },
+        {
+          "Name": "山形 浩生",
+          "Role": "翻訳"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "図書カードNo.",
+          "Value": "227"
+        }
+      ],
+      "PublicationDate": "1999-04-16",
+      "LastRelease": "2014-09-17",
+      "Service": {
+        "Name": "aozorahack",
+        "URL": "https://aozorahack.org/"
+      }
+    },
+    "Date": "2022-10-18",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "プロジェクト杉田玄白 正式参加作品。\u003ca href=\"https://cruel.org/freeware/cathedral.html\"\u003e翻訳者のページ\u003c/a\u003eも参照のこと。今となっては古典だけどねぇ。"
   }
 ]
