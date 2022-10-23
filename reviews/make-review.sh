@@ -1,7 +1,8 @@
 #/bin/sh
-sleep 1;cat card-227.html | books-data review -t review-book.html -c 227      -r 4 --review-date 2022-10-18 --image-url https://text.baldanders.info/images/aozora/card227.svg  --pipe
+sleep 1;cat ./done/B099RTG3J7.html | books-data review -t review-book.html -a B099RTG3J7 -r 5 --review-date 2022-10-23 --pipe
 # ---
-# sleep 1;cat ./done/card-60756.html | books-data review -t review-book.html -c 60756      -r 4 --review-date 2022-08-10 --image-url https://text.baldanders.info/images/aozora/card60756.svg  --pipe
+# sleep 1;cat ./done/card-227.html   | books-data review -t review-book.html -c 227        -r 4 --review-date 2022-10-18 --image-url https://text.baldanders.info/images/aozora/card227.svg --pipe
+# sleep 1;cat ./done/card-60756.html | books-data review -t review-book.html -c 60756      -r 4 --review-date 2022-08-10 --image-url https://text.baldanders.info/images/aozora/card60756.svg --pipe
 # sleep 1;cat ./done/4814400047.html | books-data review -t review-book.html -a 4814400047 -r 4 --review-date 2022-10-11 --pipe
 # sleep 1;cat ./done/4908686122.html | books-data review -t review-book.html -a 4908686122 -r 4 --review-date 2022-10-08 --pipe
 # sleep 1;cat ./done/B08D94WK7L.html | books-data review -t review-book.html -a B08D94WK7L -r 4 --review-date 2021-12-19 --pipe
@@ -69,7 +70,6 @@ sleep 1;cat card-227.html | books-data review -t review-book.html -c 227      -r
 # sleep 1;cat ./done/B01DSV9KDU.html | books-data review -t review-book.html -a B01DSV9KDU -r 0 --review-date 2021-12-14 --pipe
 # sleep 1;cat ./done/B09MLLYTQD.html | books-data review -t review-book.html -a B09MLLYTQD -r 0 --review-date 2021-12-12 --pipe
 # sleep 1;cat ./done/B09HK66P5X.html | books-data review -t review-book.html -a B09HK66P5X -r 5 --review-date 2021-11-13 --pipe
-# sleep 1;cat ./done/B099RTG3J7.html | books-data review -t review-book.html -a B099RTG3J7 -r 0 --review-date 2021-12-06 --pipe
 # sleep 1;cat ./done/B08VZCBWN8.html | books-data review -t review-book.html -a B08VZCBWN8 -r 3 --review-date 2021-12-08 --pipe
 # sleep 1;cat ./done/B09C49XNB8.html | books-data review -t review-book.html -a B09C49XNB8 -r 4 --review-date 2021-12-08 --pipe
 # sleep 1;cat ./done/B08N2ZL7PS.html | books-data review -t review-book.html -a B08N2ZL7PS -r 4 --review-date 2021-12-08 --pipe
