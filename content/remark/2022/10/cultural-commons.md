@@ -94,7 +94,7 @@ GitHub Copilot の問題は「コードをパクっている」ことではな�
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">mimicのような物議然り、このフィールドはそれなりに仕組みを応用できる人がPCでも実現できる世界にすでになっているため、恐らく今後もこういうケースは続出するし、多分もう流れをせき止めることはできないと思う。良くも悪くも機械学習技術が民主化されてしまった影響。</p>&mdash; Hideki Saito @ メタバース技術者＆Vtuber (@hideki) <a href="https://twitter.com/hideki/status/1564509002205052931?ref_src=twsrc%5Etfw">August 30, 2022</a></blockquote>
 {{< /fig-gen >}}
 
-例を上げると Microsoft は GitHub Copilot と同じ技術基盤を用いて Azure 上で Dall·E 2 の提供を開始した。
+例を挙げると Microsoft は GitHub Copilot と同じ技術基盤を用いて Azure 上で Dall·E 2 の提供を開始した。
 
 - [［速報］マイクロソフト、Azure OpenAI Serviceで「Dall·E 2」の提供を開始、テキストから画像を生成可能。Ignite 2022 － Publickey](https://www.publickey1.jp/blog/22/azure_openai_servicedalle_2ignite_2022.html)
 
