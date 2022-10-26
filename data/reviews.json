@@ -19129,16 +19129,16 @@
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2022-07-17",
-    "Rating": 0,
+    "Date": "2022-10-26",
+    "Rating": 4,
     "Star": [
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
       false
     ],
-    "Description": "\u003ca href=\"https://www.oreilly.co.jp//books/9784873119694/\"\u003e版元\u003c/a\u003eのデジタル版を購入。これからゆっくり読む。"
+    "Description": "\u003ca href=\"https://www.oreilly.co.jp//books/9784873119694/\"\u003e版元\u003c/a\u003eのデジタル版を購入。 Go で躓きやすい点を解説していくのが\u003ca href=\"https://forkwell.connpass.com/event/262394/\"\u003e最初の動機\u003c/a\u003eらしい。「◯◯するには」を調べる際にこの本を調べるといいかも。"
   },
   {
     "Book": {
