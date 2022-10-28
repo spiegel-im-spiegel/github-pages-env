@@ -20401,5 +20401,112 @@
       false
     ],
     "Description": "ちっさ！ 収録タイトル60本！ 当分遊べる。メガドラのカセットは挿さらない。ネットワーク機能もなし（笑） ゆっくり遊びますかねぇ"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BB232TSR",
+      "Title": "Mega Drive Mini 2 - Celebration Album -",
+      "URL": "https://www.amazon.co.jp/dp/B0BB232TSR?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/517FEbfBMAL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "CD",
+      "Creators": [
+        {
+          "Name": "古代祐三",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "高西圭",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "SEGA Sound Team",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "古代祐三",
+          "Role": "作曲"
+        },
+        {
+          "Name": "SEGA Sound Team",
+          "Role": "作曲"
+        },
+        {
+          "Name": "Hiro師匠",
+          "Role": "作曲"
+        },
+        {
+          "Name": "NON",
+          "Role": "作曲"
+        },
+        {
+          "Name": "Sizlla/Megumi M./Masaki Kase",
+          "Role": "作曲"
+        },
+        {
+          "Name": "村崎弘史",
+          "Role": "作曲"
+        },
+        {
+          "Name": "青木実",
+          "Role": "作曲"
+        },
+        {
+          "Name": "秋山守彦",
+          "Role": "作曲"
+        },
+        {
+          "Name": "M.Shinoda",
+          "Role": "作曲"
+        },
+        {
+          "Name": "Dolphin",
+          "Role": "作曲"
+        },
+        {
+          "Name": "上保徳彦",
+          "Role": "作曲"
+        },
+        {
+          "Name": "Technosoft",
+          "Role": "作曲"
+        },
+        {
+          "Name": "高西圭",
+          "Role": "演奏"
+        }
+      ],
+      "Publisher": "株式会社ウェーブマスター/SOUND! SHOCK SERIES",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BB232TSR"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4571164386737"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2022-10-27",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-10-28",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "MP3 で出るなら買いたい。"
   }
 ]

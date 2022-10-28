@@ -41,3 +41,4 @@ HDMI 接続なので，とりあえずパソコン・モニタに仮接続。
 
 {{% review-paapi "B0B2S113PQ" %}} <!-- メガドライブミニ2 -->
 {{% review-paapi "4884759222" %}} <!-- 竹本泉★WORLD -->
+{{% review-paapi "B0BB232TSR" %}} <!-- Mega Drive Mini 2 - Celebration Album - -->
