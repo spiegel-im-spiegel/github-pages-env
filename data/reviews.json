@@ -20309,5 +20309,97 @@
       false
     ],
     "Description": "プロジェクト杉田玄白 正式参加作品。\u003ca href=\"https://cruel.org/freeware/cathedral.html\"\u003e翻訳者のページ\u003c/a\u003eも参照のこと。今となっては古典だけどねぇ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4884759222",
+      "Title": "竹本泉・WORLD―竹本泉画集",
+      "URL": "https://www.amazon.co.jp/dp/4884759222?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/21V7Y9VM6RL._SL160_.jpg",
+        "Height": 140,
+        "Width": 105
+      },
+      "ProductType": "大型本",
+      "Creators": [
+        {
+          "Name": "竹本 泉",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "竹書房",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4884759222"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784884759223"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4884759222"
+        }
+      ],
+      "PublicationDate": "1994-09-01",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-10-28",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "竹本泉さん初のカラー画集。「なかよし」時代最初期の作品から『ねこめ〜わく』『さよりなパラレル』まで。他，小説の挿絵やゲーム「ゆみみみっくす」も収録。なんと，故和田慎二さんとの対談もあるぞ！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0B2S113PQ",
+      "Title": "メガドライブミニ2【Amazon.co.jp限定】ACアダプター 同梱",
+      "URL": "https://www.amazon.co.jp/dp/B0B2S113PQ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41Zl-wgtjFL._SL160_.jpg",
+        "Height": 120,
+        "Width": 160
+      },
+      "ProductType": "－",
+      "Publisher": "セガ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0B2S113PQ"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4974365737207"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2022-10-27",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-10-27",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "ちっさ！ 収録タイトル60本！ 当分遊べる。メガドラのカセットは挿さらない。ネットワーク機能もなし（笑） ゆっくり遊びますかねぇ"
   }
 ]
