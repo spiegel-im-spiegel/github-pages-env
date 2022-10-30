@@ -45,6 +45,8 @@ pageType = "text"
 
 ## ブックマーク
 
+- [Flickr forever: Creating the safest, most inclusive photography community on the planet. | Flickr Blog](https://blog.flickr.net/en/2022/03/17/flickr-forever-2022/)
+
 - [Flickr は監視資本主義に向かわない]({{< ref "/remark/2019/03/flickr-has-not-turned-to-surveillance-capitalism.md" >}})
 - [ようやく縁が切れました（もしくは Web 2.0 終焉の象徴としての Yahoo!）]({{< ref "/remark/2019/04/goodbye-yahoo.md" >}})
 

@@ -147,6 +147,8 @@ Frank Drake 博士の功績が「過去の功績」とならぬよう何らか�
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We are saddened by the passing of Dr. Frank Drake.<br><br>Drake was driven by the question of whether we are alone in the universe. His work, including the famous Drake Equation, has shaped the search for life for decades.<br><br>Our CEO <a href="https://twitter.com/BillNye?ref_src=twsrc%5Etfw">@BillNye</a> shares his thoughts on Drake&#39;s passing here. <a href="https://t.co/8YfioNqImQ">pic.twitter.com/8YfioNqImQ</a></p>&mdash; Planetary Society (@exploreplanets) <a href="https://twitter.com/exploreplanets/status/1565789816171556864?ref_src=twsrc%5Etfw">September 2, 2022</a></blockquote>
 {{< /fig-gen >}}
 
+- [Celebrating the Life and Legacy of Frank Drake Tickets, Fri, Nov 18, 2022 at 3:00 PM | Eventbrite](https://www.eventbrite.com/e/celebrating-the-life-and-legacy-of-frank-drake-tickets-429886310527)
+
 - [SETI@home日本語情報ページ](https://web.archive.org/web/20110920070737/http://www.planetary.or.jp/setiathome/) (Internet Archive)
 - [SETI@home とその技術的解説風解説](http://huaa.baldanders.info/seti@home/technote.html)
 

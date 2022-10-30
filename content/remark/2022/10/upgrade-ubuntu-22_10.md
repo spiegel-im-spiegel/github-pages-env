@@ -107,6 +107,7 @@ OpenSSH_9.0p1 Ubuntu-1ubuntu7, OpenSSL 3.0.5 5 Jul 2022
 ## ブックマーク
 
 - [Ubuntu 22.10 日本語 Remix リリース | Ubuntu Japanese Team](ubuntu2210-ja-remix)
+- [Ubuntu 22.04 その331 - Ubuntu 22.10へアップグレードするには・アップグレードの注意事項 - kledgeb](https://kledgeb.blogspot.com/2022/10/ubuntu-2204-331-ubuntu-2210.html)
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [KeePassXC]: https://keepassxc.org/ "KeePassXC Password Manager"
