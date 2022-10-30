@@ -20508,5 +20508,48 @@
       false
     ],
     "Description": "MP3 で出るなら買いたい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BG8J5QJ1",
+      "Title": "［試して理解］Linuxのしくみ　―実験と図解で学ぶOS、仮想マシン、コンテナの基礎知識【増補改訂版】",
+      "URL": "https://www.amazon.co.jp/dp/B0BG8J5QJ1?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51izRvQo69L._SL160_.jpg",
+        "Height": 160,
+        "Width": 126
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "武内 覚",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "技術評論社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BG8J5QJ1"
+        }
+      ],
+      "PublicationDate": "2022-10-14",
+      "LastRelease": "2022-10-14",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-10-23",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "『\u003ca href=\"https://www.amazon.co.jp/dp/B079YJS1J1/\"\u003eLinuxのしくみ\u003c/a\u003e』の増補改訂版。今回は\u003ca href=\"https://gihyo.jp/book/2022/978-4-297-13148-7\"\u003e版元\u003c/a\u003eで PDF 版を購入した。なんと Go と Python のサンプルコードが追加されている。"
   }
 ]
