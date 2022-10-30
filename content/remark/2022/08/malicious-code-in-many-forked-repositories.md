@@ -3,7 +3,7 @@ title = "悪意のコードを含む多数の分岐リポジトリが見つか�
 date =  "2022-08-04T08:12:52+09:00"
 description = "今回の件は spam の一種とみなすこともできる"
 image = "/images/attention/kitten.jpg"
-tags = [ "security", "risk", "spam", "engineering", "management" ]
+tags = [ "security", "risk", "spam", "engineering", "management", "github" ]
 pageType = "text"
 
 [scripts]
@@ -65,6 +65,10 @@ Open source code commits signed with GPG keys of authentic project authors are o
 {{< /fig-quote >}}
 
 オープンソース・プロジェクトであれば pull request を受け付けるメンテナの技量と判断が試されるところだろう。
+
+## ブックマーク
+
+- [多数のGitHubリポジトリでマルウェアを仕込んだ「セキュリティ検証用コード」が発見される、なんと10個に1個は悪意のあるリポジトリ - GIGAZINE](https://gigazine.net/news/20221025-github-repositories-fake-poc-exploits/)
 
 ## 参考図書
 
