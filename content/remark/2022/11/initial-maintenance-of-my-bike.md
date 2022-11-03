@@ -36,7 +36,7 @@ pageType = "text"
 {{< fig-img src="./52474223500_969814d962_e.jpg" title="メットとグローブ買うた | Flickr" link="https://www.flickr.com/photos/spiegel/52474223500/">}}
 
 一応 GIANT 純正品。
-どっかのサイトで「自転車用のアクセサリを買うなら購入店で買って利益に貢献しなはれ」とあったので（うろ覚え）実行してみた（笑）
+どっかのサイトで「自転車用のアクセサリを買うなら購入店で買って利益に貢献しなはれ」とあったので（うろ覚え），実行してみた（笑）
 
 メットは色気のないデザインで視認性が（多分）高い白で。
 グローブはちゃんと手のひら部分にパッドが入ってるやつね。
@@ -77,3 +77,5 @@ pageType = "text"
 
 - [外出先でのヘルメットはどうしていますか？ – CyclingEX CLASSIC](https://www.cycling-ex.com/2015/08/helmet_holder.html)
 - [ユニクロ ブロックテックパーカ（2022年購入モデル）を雨と雪の中で着てみた結果… - I AM A DOG](https://moognyk.jp/entry/2022/03/28/150000)
+
+{{< fig-youtube id="Hd914N6KOCs" title="自転車を安全に乗ろう！街中に潜む危険箇所をご紹介！ - YouTube" >}}
