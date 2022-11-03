@@ -3,7 +3,7 @@ title = "鼕行列を見物しに行った"
 date =  "2022-10-16T19:15:56+09:00"
 description = "お祭りは小さい子も参加してこそだよね。 楽しいのが一番 💛"
 image = "/remark/2022/10/dogyoretsu/52431210903_d067c05b73_e.jpg"
-tags = [ "shimane", "matsue", "photography" ]
+tags = [ "shimane", "matsue", "photography", "osanpo-camera" ]
 pageType = "text"
 
 [scripts]

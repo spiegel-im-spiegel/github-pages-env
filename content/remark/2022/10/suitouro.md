@@ -3,7 +3,7 @@ title = "サイクリング & お散歩カメラ"
 date =  "2022-10-01T22:33:48+09:00"
 description = "島根県立美術館→松江城ちどり茶屋→島根県立図書館図→水燈路"
 image = "/remark/2022/10/suitouro/52396396454_bba3f93891_e.jpg"
-tags = [ "bike", "shimane", "matsue", "castle", "library", "photography" ]
+tags = [ "bike", "shimane", "matsue", "castle", "library", "photography", "osanpo-camera" ]
 pageType = "text"
 
 [scripts]

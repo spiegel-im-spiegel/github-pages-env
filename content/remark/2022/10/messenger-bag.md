@@ -3,7 +3,7 @@ title = "遅走り，早歩き"
 date =  "2022-10-09T20:47:52+09:00"
 description = "自転車も休日の過ごし方も，それが可能なら快適が一番だよね！"
 image = "/images/attention/kitten.jpg"
-tags = [ "bike", "tools", "castle", "matsue", "photography", "library" ]
+tags = [ "bike", "tools", "castle", "matsue", "photography", "library", "osanpo-camera" ]
 pageType = "text"
 
 [scripts]
