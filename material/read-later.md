@@ -15,8 +15,6 @@
   - [「Git」に任意コード実行などへつながるおそれのある脆弱性が2件 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1448711.html)
 - [OpenJDK Vulnerability Advisory: 2022/10/18](https://openjdk.org/groups/vulnerability/advisories/2022-10-18)
   - [2022年10月Oracle製品のクリティカルパッチアップデートに関する注意喚起](https://www.jpcert.or.jp/at/2022/at220029.html)
-- [[Announce] [CVE-2022-3515] GnuPG / Libksba Security Advisory](https://lists.gnupg.org/pipermail/gnupg-announce/2022q4/000475.html)
-  - [[Announce] GnuPG 2.3.8 released](https://lists.gnupg.org/pipermail/gnupg-announce/2022q4/000476.html)
 
 
 ## リリース情報 {#release}
