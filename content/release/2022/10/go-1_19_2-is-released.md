@@ -27,7 +27,19 @@ go1.19.2 (released 2022-10-04) includes security fixes to the `archive/tar`, `ne
 `Reader.Read` did not set a limit on the maximum size of file headers.  A maliciously crafted archive could cause Read to allocate unbounded amounts of memory, potentially causing resource exhaustion or panics.  `Reader.Read` now limits the maximum size of header blocks to 1 MiB.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H`
+- 深刻度: 重要 (Score: 7.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | なし |
+| 可用性への影響 | 高 |
 
 ## [CVE-2022-2880] net/http/httputil: ReverseProxy should not forward unparseable query parameters
 
@@ -37,7 +49,19 @@ Requests forwarded by `ReverseProxy` included the raw query parameters from the 
 `ReverseProxy` will now sanitize the query parameters in the forwarded query when the outbound request's Form field is set after the `ReverseProxy.Director` function returns, indicating that the proxy has parsed the query parameters.  Proxies which do not parse query parameters continue to forward the original query parameters unchanged.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N`
+- 深刻度: 重要 (Score: 7.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | 高 |
+| 可用性への影響 | なし |
 
 ## [CVE-2022-41715] regexp/syntax: limit memory used by parsing regexps
 
@@ -47,7 +71,20 @@ The parsed `regexp` representation is linear in the size of the input, but in so
 Each `regexp` being parsed is now limited to a 256 MB memory footprint. Regular expressions whose representation would use more space than that are now rejected. Normal use of regular expressions is unaffected.
 {{< /fig-quote >}}
 
-（以下未稿）
+$ go run main.go CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H`
+- 深刻度: 重要 (Score: 7.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | なし |
+| 可用性への影響 | 高 |
 
 ## 例によって...
 
