@@ -11,11 +11,6 @@
 
 - [draft-ietf-openpgp-crypto-refresh-07](https://datatracker.ietf.org/doc/html/draft-ietf-openpgp-crypto-refresh-07)
 
-- [Git security vulnerabilities announced | The GitHub Blog](https://github.blog/2022-10-18-git-security-vulnerabilities-announced/)
-  - [「Git」に任意コード実行などへつながるおそれのある脆弱性が2件 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1448711.html)
-- [OpenJDK Vulnerability Advisory: 2022/10/18](https://openjdk.org/groups/vulnerability/advisories/2022-10-18)
-  - [2022年10月Oracle製品のクリティカルパッチアップデートに関する注意喚起](https://www.jpcert.or.jp/at/2022/at220029.html)
-
 
 ## リリース情報 {#release}
 
