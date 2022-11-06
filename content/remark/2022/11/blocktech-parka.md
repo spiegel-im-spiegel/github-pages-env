@@ -19,7 +19,7 @@ pageType = "text"
 - [ユニクロ公式 | ブロックテックパーカ（3Dカット）](https://www.uniqlo.com/jp/ja/products/E449614-000/00?colorDisplayCode=32&sizeDisplayCode=005&pldDisplayCode=000)
 
 防水・防風・撥水・透湿 が特徴で，小雨程度であれば簡易レインジャケットとしても使えるようだ。
-ちなみに防寒機能はないようだ。
+ちなみに防寒機能はない。
 
 - [ユニクロ ブロックテックパーカ（2022年購入モデル）を雨と雪の中で着てみた結果… - I AM A DOG](https://moognyk.jp/entry/2022/03/28/150000)
 
@@ -38,7 +38,7 @@ pageType = "text"
 
 サイズはゆったり目のLサイズ。
 縫い目にびっしり防水加工が。
-表記は左から防水，防風，撥水，透湿，伸縮性。
+表記は左から防水，防風，撥水，透湿，伸縮。
 さらに立体縫製によって，特に肩周りが動かし易いらしい。
 
 {{< fig-img src="./52477535812_08c936dd28_e.jpg" title="ブロックテックパーカ 手首も万全？ | Flickr" link="https://www.flickr.com/photos/spiegel/52477535812/">}}
