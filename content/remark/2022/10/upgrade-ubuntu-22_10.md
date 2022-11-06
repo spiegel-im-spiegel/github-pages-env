@@ -77,6 +77,14 @@ OpenSSH_9.0p1 Ubuntu-1ubuntu7, OpenSSL 3.0.5 5 Jul 2022
 - [OpenSSL Security Advisory [11 October 2022]](https://www.openssl.org/news/secadv/20221011.txt)
 - [OpenSSL warns of critical security vulnerability with upcoming patch | ZDNET](https://www.zdnet.com/article/openssl-warns-of-critical-security-vulnerability-with-upcoming-patch/)
 
+{{< div-box type="markdown" >}}
+**【2022-11-06 追記】**
+
+- [OpenSSL の脆弱性対策について(CVE-2022-3602、CVE-2022-3786)：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/ciadr/vul/alert20221102.html)
+- [OpenSSLの脆弱性（CVE-2022-3602、CVE-2022-3786）に関する注意喚起](https://www.jpcert.or.jp/at/2022/at220030.html)
+- [脆弱性を修正した「OpenSSL 3.0.7」が予告通り公開 ～ただし、深刻度評価は引き下げ - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1452569.html)
+{{< /div-box >}}
+
 ちなみに [GnuPG] の `gpg-agent` との連携は問題なかった。
 よーし，うむうむ，よーし。
 

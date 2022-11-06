@@ -112,3 +112,4 @@ mimic はどうやらサービスを停止したらしい。
 - [AI自動お絵描き「Stable Diffusion」でゲーム開発用画像の制作に挑戦 - 石田賀津男の『酒の肴にPCゲーム』 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/sspcgame/1436345.html)
 - [[pixiv] お知らせ - AI生成作品の取り扱いに関するサービスの方針について](https://www.pixiv.net/info.php?id=8710&lang=ja)
 - [「画像生成AIの対価を人間の絵描きは受け取っていない」と専門家が懸念、AIの発展の中で置き去りにされている問題点を鋭く解説 - GIGAZINE](https://gigazine.net/news/20221021-language-ai/)
+- [なぜジェネレーティブAIはアートの世界を席巻し、著作権を無意味化するのか | p2ptk[.]org](https://p2ptk.org/copyright/4120)

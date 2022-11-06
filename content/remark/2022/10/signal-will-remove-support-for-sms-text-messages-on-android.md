@@ -92,6 +92,10 @@ Apple って未だにそんなんなの？ まぁ，そういうわけで
 ## ブックマーク
 
 - [Signal will remove support for SMS text messages on Android](https://www.bleepingcomputer.com/news/technology/signal-will-remove-support-for-sms-text-messages-on-android/)
+- [Why Signal won’t compromise on encryption, with president Meredith Whittaker - The Verge](https://www.theverge.com/23409716/signal-encryption-messaging-sms-meredith-whittaker-imessage-whatsapp-china)
+  - [メッセージングアプリSignalが暗号化で妥協しない理由を新プレジデントが語る - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20221031/signal-encryption)
+  - [ブログ: Signalが暗号化で妥協しない理由、メレディス・ウィテカー社長に聞く](https://okuranagaimo.blogspot.com/2022/11/signal.html)
+
 - [Authenticator と AAL]({{< ref "/remark/2020/09/authenticator-and-aal.md" >}})
 
 [Signal]: https://signal.org/
