@@ -28,7 +28,7 @@ pageType = "text"
 
 自転車損害保険への加入義務は自治体によって[対応が異なる](https://www.mlit.go.jp/road/bicycleuse/promotion/ "道路：自転車損害賠償責任保険等への加入促進について - 国土交通省")ようだ。
 
-{{< fig-img src="./situation_pdf.png" title="自転車損害賠償責任保険等への加入促進" link="https://www.mlit.go.jp/road/bicycleuse/promotion/pdf/situation.pdf" width="1136">}}
+{{< fig-img-quote src="./situation_pdf.png" title="自転車損害賠償責任保険等への加入促進（2022-04-01 時点）" link="https://www.mlit.go.jp/road/bicycleuse/promotion/pdf/situation.pdf" width="1136">}}
 
 中国5県では，鳥取県は努力義務が課せられているが島根県を含む他の4県は努力義務もないらしい。
 ただし，私が住んでいる松江市は[条例](https://www1.city.matsue.shimane.jp/gikai/torikumi/jyourei.html "松江市:暮らしのガイド:議会政策条例（自転車安全利用条例）")で努力義務が課せられている。
