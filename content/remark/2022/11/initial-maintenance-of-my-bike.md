@@ -77,5 +77,3 @@ pageType = "text"
 
 - [外出先でのヘルメットはどうしていますか？ – CyclingEX CLASSIC](https://www.cycling-ex.com/2015/08/helmet_holder.html)
 - [ユニクロ ブロックテックパーカ（2022年購入モデル）を雨と雪の中で着てみた結果… - I AM A DOG](https://moognyk.jp/entry/2022/03/28/150000)
-
-{{< fig-youtube id="Hd914N6KOCs" title="自転車を安全に乗ろう！街中に潜む危険箇所をご紹介！ - YouTube" >}}

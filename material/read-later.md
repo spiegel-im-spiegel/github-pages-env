@@ -11,9 +11,6 @@
 
 - [draft-ietf-openpgp-crypto-refresh-07](https://datatracker.ietf.org/doc/html/draft-ietf-openpgp-crypto-refresh-07)
 
-- [au自転車サポート | サービス・機能 | au](https://www.au.com/mobile/service/bicycle-support/) : 考え中
-  - [https://media2.kddi.com/bike/](https://media2.kddi.com/bike/)
-
 
 ## リリース情報 {#release}
 
