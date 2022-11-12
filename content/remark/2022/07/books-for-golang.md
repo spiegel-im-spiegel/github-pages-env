@@ -42,12 +42,12 @@ pageType = "text"
 
 {{% review-paapi "4873119693" %}} <!-- 実用 Go 言語 -->
 
-オライリーさんなのでデジタル版のほうを買いました。
+オライリーさんなのでデジタル版のほうを買った。
 
 {{< div-box type="markdown" >}}
-**【2022-10-08 追記】**
-2022-10-26 にこの本に関する[オンライン・イベント](https://forkwell.connpass.com/event/262394/ "実用Go言語 - Forkwell Library #7 - connpass")があるそうで，一応申し込んだけど，平日の宵時は厳しいんだよなぁ。
-ちゃんと見れますように。
+**【2022-10-26 追記】**
+この本に関する[オンライン・イベント](https://forkwell.connpass.com/event/262394/ "実用Go言語 - Forkwell Library #7 - connpass")があった。
+執筆の動機などが語られていてなかなか面白かった。
 {{< /div-box >}}
 
 ## [詳解Go言語Webアプリケーション開発](https://www.c-r.com/book/detail/1462)
@@ -64,7 +64,7 @@ pageType = "text"
 {{% review-paapi "4873119979" %}} <!-- Go言語による分散サービス -->
 
 2022-08-03 発売。
-オライリーさんなのでデジタル版のほうを買いました。
+オライリーさんなのでデジタル版のほうを買った。
 
 翻訳者の柴田芳樹さん主催による読書会が8月から始まっている。
 
@@ -76,19 +76,17 @@ pageType = "text"
 {{% review-paapi "4814400047" %}} <!-- 初めてのGo言語 -->
 
 2022-09-26 発売。
-オライリーさんなのでデジタル版のほうを買いました。
-
+オライリーさんなのでデジタル版のほうを買った。
 胡散臭いタイトルだが原書タイトルが “[Learning Go](https://www.oreilly.com/library/view/learning-go/9781492077206/)” と聞いて，昨年出たあの本かと納得した。
 
 **【2022-10-11 追記】** 感想文というか紹介文を[書いてみた]({{< ref "/remark/2022/10/learning-go.md" >}})。
 
-## [基礎から学ぶ TinyGo の組込み開発](https://www.amazon.co.jp/dp/4863544006?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1) 【2022-10-08 追記】
+## [基礎から学ぶ TinyGo の組込み開発](https://book.mynavi.jp/manatee/c-r/books/detail/id=134168) 【2022-10-12 追記】
 
 {{% review-paapi "4863544006" %}} <!-- 基礎から学ぶ TinyGo の組込み開発 -->
 
-2022-11-14 発売予定。
-C&R研究所からの発刊みたいなので [本の森.jp](https://book.mynavi.jp/manatee/c-r/) でデジタル版が買えるのではないかと期待している。
-出ないなら紙で買うけど，いい加減本棚が埋まりそうなんだよなぁ。
+2022-11-10 過ぎには発売されていたらしい。
+[本の森.jp](https://book.mynavi.jp/manatee/c-r/) で [PDF 版](https://book.mynavi.jp/manatee/c-r/books/detail/id=134168)を購入。
 
 ## 今年は豊作だったな（笑）
 

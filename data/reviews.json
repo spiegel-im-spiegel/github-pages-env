@@ -20075,18 +20075,18 @@
       "Title": "基礎から学ぶ TinyGoの組込み開発",
       "URL": "https://www.amazon.co.jp/dp/4863544006?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://m.media-amazon.com/images/I/41wQ2DsCVML._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/413DpucT1ML._SL160_.jpg",
         "Height": 160,
         "Width": 112
       },
-      "ProductType": "単行本",
+      "ProductType": "単行本（ソフトカバー）",
       "Creators": [
         {
           "Name": "高砂正哲",
           "Role": "著"
         }
       ],
-      "Publisher": "シーアンドアール研究所",
+      "Publisher": "C\u0026R研究所",
       "Codes": [
         {
           "Name": "ASIN",
@@ -20101,23 +20101,23 @@
           "Value": "4863544006"
         }
       ],
-      "PublicationDate": "2022-11-14",
+      "PublicationDate": "2022-11-12",
       "LastRelease": "",
       "Service": {
         "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2022-10-08",
-    "Rating": 0,
+    "Date": "2022-11-12",
+    "Rating": 4,
     "Star": [
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
       false
     ],
-    "Description": "ハンズオン的な内容らしい。実は Wio Terminal を買ったまま放置プレイ中なので，楽しみにしている。"
+    "Description": "\u003ca href=\"https://book.mynavi.jp/manatee/c-r/books/detail/id=134168\"\u003e本の森.jp で PDF 版\u003c/a\u003eを購入。ハンズオン的な内容らしい。実は Wio Terminal を買ったまま放置プレイ中なので，楽しみにしている。"
   },
   {
     "Book": {
