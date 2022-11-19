@@ -13,6 +13,7 @@ pageType = "text"
 
 いや，[前にも書いた]({{< ref "/remark/2022/11/twitter-as-the-advertising-media.md" >}} "広告メディアとしての Twitter")んだけどね。
 Twitter が滅びようが個人的にはどーでもいいと思ってるのよ。
+永遠に続くサービスなどありえない。
 
 でも Signal が
 
