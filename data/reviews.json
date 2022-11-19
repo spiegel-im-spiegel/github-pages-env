@@ -20647,5 +20647,90 @@
       false
     ],
     "Description": "ストランド誌に掲載された「シャーロック・ホームズの復活」を日本語化した複製本。挿絵はオリジナルのものが掲載されていて。挿絵のポストカードまで付いている！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B06XDPTLDD",
+      "Title": "アークレイ株式会社 グルコレスキュー (ブドウ糖補給ゼリー) 25g×5包 2箱セット",
+      "URL": "https://www.amazon.co.jp/dp/B06XDPTLDD?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41dUn2llioL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "アークレイ株式会社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B06XDPTLDD"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4987486118541"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4573189972315"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-11-16",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "低血糖になった場合の緊急措置用に購入。仕事用鞄とプライベート用鞄に忍ばせている。幸いまだお世話になったことはない。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08VMWL13F",
+      "Title": "明治 ヴァーム(VAAM) アスリート 顆粒 栄養ドリンク風味 4.7g×10袋",
+      "URL": "https://www.amazon.co.jp/dp/B08VMWL13F?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51CRlYH1RtL._SL160_.jpg",
+        "Height": 160,
+        "Width": 118
+      },
+      "ProductType": "ヘルスケア\u0026ケア用品",
+      "Publisher": "明治",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08VMWL13F"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4902705035614"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2021-03-16",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-11-04",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "運動時に脂肪をエネルギーに変えやすくする働きがあるらしい。お試しで買ってみた。とりあえず1時間以上自転車に乗る場合に服用している。水に溶かさず飲むと書いてあるが，水と一緒に飲まないと大変なことになるので注意（経験済み）"
   }
 ]

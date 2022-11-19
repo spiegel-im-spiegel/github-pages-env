@@ -43,3 +43,4 @@ pageType = "text"
 ## 参考
 
 {{% review-paapi "B0BFVY33CD" %}} <!-- ACTIVIKE スピードウォーター -->
+{{% review-paapi "B06XDPTLDD" %}} <!-- ブドウ糖 -->
