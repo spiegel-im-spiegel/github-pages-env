@@ -20592,5 +20592,60 @@
       false
     ],
     "Description": "ヒルクライムや中近距離ライド用エナジードリンク。ブドウ糖と果糖をバランスよく配合。カリウムを排除してトイレに行く回数を減らせるとかなんとか。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0B54Z1LQ1",
+      "Title": "【Amazon.co.jp 限定】ストランド版 シャーロック・ホームズの復活",
+      "URL": "https://www.amazon.co.jp/dp/B0B54Z1LQ1?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51dzwkaFaZL._SL160_.jpg",
+        "Height": 160,
+        "Width": 109
+      },
+      "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "アーサー・コナン・ドイル",
+          "Role": "著"
+        },
+        {
+          "Name": "シドニー・パジェット",
+          "Role": "イラスト"
+        },
+        {
+          "Name": "寺本 あきら",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "ジョージ・ニューンズ社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0B54Z1LQ1"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4571473280092"
+        }
+      ],
+      "PublicationDate": "2022-10-04",
+      "LastRelease": "2022-10-04",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-10-08",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "ストランド誌に掲載された「シャーロック・ホームズの復活」を日本語化した複製本。挿絵はオリジナルのものが掲載されていて。挿絵のポストカードまで付いている！"
   }
 ]
