@@ -77,7 +77,7 @@ https://mstdn.jp/share?text=hello+world
 
 {{< fig-img src="./mastodon-share.png" link="./mastodon-share.png" >}}
 
-という画面が開く。
+てな感じに Toot 画面が開く。
 ただしこれは [mstdn.jp](https://mstdn.jp/) にアカウントを持っていてサインインしている状態であれば，の話。
 分散型の Mastodon ではユーザごとに所属しているサーバは異なるんだから，上のような固定の URL をボタンに紐付けても意味がない。
 まぁ，ブラウザに自分専用のブックマークレットでも設置すればいけるのかもしれないが。
@@ -93,6 +93,23 @@ web+mastodon://share?text=hello+world
 
 Android 機のブラウザであればシェア {{% icons "share-nodes" %}} 機能で任意のアプリと連携できるし， Web ページ側でボタンを設置するのは諦めるかな。
 
+### 【追記】 Mastoshare を使う
+
+と思ったが [Mastoshare] というサービスを使うといいみたい。
+ちなみに [Hostdon](https://hostdon.jp/ "Hostdon - Mastodonのホスティングサービス") を運営している企業によるサービスのようだ。
+
+早速このブログ記事の右上に {{% icons "mastodon" %}} マークのボタンを設置してみた。
+このボタンを押すと
+
+{{< fig-img src="./mastoshare.png" title="Mastoshare" link="https://mastoshare.net/" >}}
+
+という画面が開く。
+ここでサーバを選択して `[Toot]` ボタンを押すと各サーバごとの Toot 画面に遷移するわけだ。
+とりあえずこれで運用してみるか。
+
+似たサービスで [donshare](https://donshare.net/) ってのもあるらしい。
+お好みで。
+
 ## Go による Mastodon クライアント・パッケージ
 
 そうそう。
@@ -106,3 +123,5 @@ Go で Mastodon クライアント機能を組み込みたいのであれば参�
 ## ブックマーク
 
 - [Mastodon向け簡易シェアボタン - Qiita](https://qiita.com/mod_poppo/items/d80ff225b4cc93318ee8)
+
+[Mastoshare]: https://mastoshare.net/
