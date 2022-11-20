@@ -10,6 +10,7 @@
 <meta property="og:description" content="{{ $desc }}">
 <meta property="og:image" content="{{ .Site.Data.section.bookmarks.image | absURL }}">
 {{ partial "twitter-card.html" . }}
+{{ partial "mastodon-me.html" . }}
 
 {{ partial "json-ld-bookmarks.html" . }}
 </head>

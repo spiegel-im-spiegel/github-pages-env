@@ -9,6 +9,7 @@
 <meta property="og:description" content="{{ $desc }}">
 <meta property="og:image" content="{{ .Site.Data.section.remark.image | absURL }}">
 {{ partial "twitter-card.html" . }}
+{{ partial "mastodon-me.html" . }}
 
 {{ partial "json-ld-remark.html" . }}
 </head>

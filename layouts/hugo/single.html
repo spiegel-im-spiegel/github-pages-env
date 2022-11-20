@@ -8,6 +8,7 @@
 <meta property="og:image" content="{{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ .Site.Data.section.hugo.image | absURL }}{{ end }}">{{ with .Site.Data.author }}{{ if .name }}
 <meta name="author" content="{{ .name }}">{{ end }}{{ end }}
 {{ partial "twitter-card.html" . }}
+{{ partial "mastodon-me.html" . }}
 {{ partial "header-nav.html" . }}
 
 {{ partial "json-ld-hugo.html" . }}

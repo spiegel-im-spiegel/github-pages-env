@@ -9,6 +9,7 @@
 <meta property="og:description" content="{{ $desc }}">
 <meta property="og:image" content="{{ .Site.Data.section.rustlang.image | absURL }}">
 {{ partial "twitter-card.html" . }}
+{{ partial "mastodon-me.html" . }}
 
 {{ partial "json-ld-rustlang.html" . }}
 </head>

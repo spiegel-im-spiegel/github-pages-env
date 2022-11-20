@@ -168,8 +168,8 @@ gitGraph
 
 | コードと表示                                                                                                                            |
 | --------------------------------------------------------------------------------------------------------------------------------------- |
-| `{{</* icons "github" "twitter" "twitter-sq" "medium" "tumblr" "instagram" "flickr" "facebook" "facebook-sq" "linkedin" "pocket" */>}}` |
-| {{< icons "github" "twitter" "twitter-sq" "medium" "tumblr" "instagram" "flickr" "facebook" "facebook-sq" "linkedin" "pocket" >}}       |
+| `{{</* icons "github" "twitter" "twitter-sq" "mastodon" "medium" "tumblr" "instagram" "flickr" "facebook" "facebook-sq" "linkedin" "pocket" */>}}` |
+| {{< icons "github" "twitter" "twitter-sq" "mastodon" "medium" "tumblr" "instagram" "flickr" "facebook" "facebook-sq" "linkedin" "pocket" >}}       |
 
 ### 汎用
 

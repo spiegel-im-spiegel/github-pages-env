@@ -7,6 +7,7 @@
 <meta property="og:description" content="{{ . | plainify }}">{{ end }}{{ with .image }}
 <meta property="og:image" content="{{ . | absURL }}">{{ end }}{{ end }}
 {{ partial "twitter-card.html" . }}
+{{ partial "mastodon-me.html" . }}
 
 {{ partial "json-ld-site.html" . }}
 </head>
