@@ -24,9 +24,11 @@ Twitter が滅びようが個人的にはどーでもいいと思ってるのよ
 てな感じで Mastodon アカウントを公開するなら追従しておきたいやん。
 
 というわけで，長いあいだ放置プレイ状態だった [mstdn.jp] アカウントを発掘して復活させた。
-Qiitadon にもアカウントがあった気がするが，そっちは引き続き放置プレイで（笑）
+Qiitadon にもアカウントがあった気がするが[^qd1]，そっちは引き続き放置プレイで（笑）
 [mstdn.jp] って随分前に[閉鎖する](https://www.itmedia.co.jp/news/articles/2005/25/news110.html "マストドン「mstdn.jp」、6月30日に終了　「中傷に対する法制強化に対応できない」 - ITmedia NEWS")とか小耳に挟んでたんだけど[継続してた](https://www.itmedia.co.jp/news/articles/2006/11/news081.html "マストドン「mstdn.jp」、存続決まる　新運営はTwitterクライアント「Twidere」メンテナー - ITmedia NEWS")んだな。
 まぁ，どうでもいいか。
+
+[^qd1]: あとで調べたら Qiitadon は 2022-02-28 で[サービスを終了](https://terminated.qiita.com/qiitadon)していた。
 
 当面 Mastodon のほうは ROM (Read Only Member) に徹するので，積極的にアカウントは公表しない。
 秘密にもしないけど。

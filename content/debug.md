@@ -175,8 +175,8 @@ gitGraph
 
 | コードと表示                                                                                                                     |
 | -------------------------------------------------------------------------------------------------------------------------------- |
-| `{{</* icons "square" "square-check" "check" "rss" "share" "email" "pdf" "css3" "erlang" "html5" "java" "nodejs" "php" "python" "rust" "swift" */>}}`    |
-| {{< icons "square" "square-check" "check" "rss" "share" "email" "pdf" "css3" "erlang" "golang" "html5" "java" "nodejs" "php" "python" "rust" "swift" >}} |
+| `{{</* icons "square" "square-check" "check" "rss" "share" "share-nodes" "email" "pdf" "css3" "erlang" "html5" "java" "nodejs" "php" "python" "rust" "swift" */>}}`    |
+| {{< icons "square" "square-check" "check" "rss" "share" "share-nodes" "email" "pdf" "css3" "erlang" "golang" "html5" "java" "nodejs" "php" "python" "rust" "swift" >}} |
 
 
 ### 拡大・色付け
