@@ -24,12 +24,13 @@ Mastodon...ていうか Fediverse ？ の中の Gopher なアカウントには�
 最初の方に [`@robpike@inuh.net`](https://inuh.net/@robpike) とか [`@mattn@mstdn.jp`](https://mstdn.jp/@mattn) とか [`@hajimehoshi@mstdn.jp`](https://mstdn.jp/@hajimehoshi) とかおられるな。
 おおっ， [`@TinyGo@mastodon.social`](https://mastodon.social/@TinyGo) とかもある。
 
-Mastodon 上で `#golang` タグの検索結果を起点に眺めてみると
+Mastodon 上で `#golang` タグの検索結果を起点に眺めてみると（随時更新）
 
 - [`@golang_discussions@mastodon.social`]((https://mastodon.social/@golang_discussions)) : Golang Weekly のボット
 - [`@tenntenn@mstdn.jp`](https://mstdn.jp/@tenntenn)
 - [`@_syumai@mstdn.jp`](https://mstdn.jp/@_syumai)
 - [`@nobishii@mstdn.jp`](https://mstdn.jp/@nobishii)
+- [`@sago35@social.tinygo.org`](https://social.tinygo.org/@sago35)
 
 とかいったあたりもお見かけしたので follow 申請してみた。
 ほかに「こんなアカウントあるよ」とか「わしもおるで」みたいなのがありましたら教えてください。
@@ -47,6 +48,17 @@ Twitter の避難場所として使うのはもったいないように思うの
 まじで `golang.social` みたいなサーバがあれば引っ越すよ[^m1]，多分。
 
 [^m1]: Mastodon には別のサーバにアカウントを引っ越す機能があるらしい。試したことはないが。
+
+{{< div-box type="markdown" >}}
+**【追記 2022-11-22】** [Golang Weekly](https://mastodon.social/@golang_discussions "Golang Weekly (@golang_discussions@mastodon.social) - Mastodon") より；
+
+以下のリポジトリでプログラミング言語ごとに Mastodon ユーザのリスト（CSV 形式）を公開指定している。
+
+- [przemekperon/mastodon-it-lists: List of Mastodon users that talk about programming](https://github.com/przemekperon/mastodon-it-lists)
+
+Go 関連ユーザのリストもある。
+TinyGo のサーバ（[`social.tinygo.org`](https://social.tinygo.org/)）があるんだな。
+{{< /div-box >}}
 
 ## ブックマーク
 
