@@ -60,7 +60,7 @@ Fediverse とは federation と universe を組み合わせた造語だそうな
 ぶっちゃけ，どこぞの FinTech 山師が叫ぶ Web3 より，こっちのほうがよほど次期 Web ぽいよな（笑）
 
 EFF の解説記事では従来の Facebook や Twitter といったサービスを「プラットフォーム」あるいは「中央集権」型に分類し Fediverse と対置しているのが面白い。
-単なる「代替サービス」ではないということだ。
+Mastodon 等は単なる「代替サービス」ではないということだ。
 
 {{< fig-quote type="markdown" title="Twitterの“囲い込み”から離脱するということ――あるいは Fediverse、Federation、Mastodonとは何か？ | p2ptk.org" link="https://p2ptk.org/freedom-of-speech/4167" >}}
 連合には中央機関が存在しないため、Twitter独自の認証バッジなどの複数の機能はまったく意味をなさない。「認証（verified）」に近いものとしては、自分のプロフィールに特定のハイパーリンクを掲載し、外部のウェブページやリソースを管理していることをインスタンスに証明するというものがある。
