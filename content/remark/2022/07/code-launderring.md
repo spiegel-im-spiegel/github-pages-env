@@ -89,6 +89,7 @@ GitHub をはじめとするサービスは単なる「git リポジトリ・サ
 - [GitHub Copilotを正式リリース。すべての開発者が利用できるようになりました。 - GitHubブログ](https://github.blog/jp/2022-06-22-github-copilot-is-generally-available-to-all-developers/)
 - [戦争に抗議する「プロテストウェア」が、オープンソースエコシステムの信頼を揺るがしている | WIRED.jp](https://wired.jp/article/open-source-sabotage-protestware/)
 - [ついにGitHubのコードで学習したAI「GitHub Copilot」が集団訴訟に直面 - GIGAZINE](https://gigazine.net/news/20221104-github-copilot-lawsuit/) : どうなるやら
+- [GitHub's Copilot faces first open source copyright lawsuit • The Register](https://www.theregister.com/2022/11/11/githubs_copilot_opinion/)
 
 [GitHub Copilot]: http://copilot.github.com/ "GitHub Copilot · Your AI pair programmer"
 

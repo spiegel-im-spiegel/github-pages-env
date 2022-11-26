@@ -395,6 +395,7 @@ if err := Transaction(ctx, db, &sql.TxOptions{}, func(tx *kraSql.Tx) error {
 ## ブックマーク
 
 - [【自分用のメモ】MySQL8でインポート・エクスポート - Qiita](https://qiita.com/yes_dog/items/57c1a8c03aff8bb177de)
+- [SSH port forwarding with Go - Eli Bendersky's website](https://eli.thegreenplace.net/2022/ssh-port-forwarding-with-go/)
 
 [Go]: https://go.dev/
 [ent]: https://entgo.io/

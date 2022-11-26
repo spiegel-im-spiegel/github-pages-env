@@ -144,7 +144,7 @@ EFF の解説記事はこう締めくくる。
 
 ## ブックマーク
 
-- [SNS「マストドン」に5年くらい居るコーヒー豆屋がユーザー目線でマストドンの初期おすすめムーブを書いてみる何か｜Nelson Coffee Roaster｜note](https://note.com/ncr/n/n134a1594a6c6)
+- [ActivityPub Community Group](https://www.w3.org/community/activitypub/)
 
 [ActivityPub]: https://www.w3.org/TR/activitypub/
 

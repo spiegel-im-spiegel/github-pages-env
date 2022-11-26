@@ -57,5 +57,6 @@ Atom が登場したのは2014年だそうだが，当時は SublimeText のカ�
 
 - [Why GitHub Is Killing Atom Text Editor](https://www.makeuseof.com/atom-text-editor-why-github-is-killing/)
 - [Introducing Zed – A collaborative code editor written in Rust](https://zed.dev/)
+- [GitHub製コードエディター「Atom」の最終版が公開 ～8年間の開発に終止符 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1457313.html)
 
 [Go]: https://go.dev/ "The Go Programming Language"

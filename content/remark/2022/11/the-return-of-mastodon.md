@@ -43,6 +43,11 @@ Qiitadon にもアカウントがあった気がするが[^qd1]，そっちは�
 逆に，政治広告まみれ醜聞まみれの Yellow Twitter に本当に嫌気が差したら Mastodon に本格的に移住するかも。
 どうなるやら。
 
+## ブックマーク
+
+- [SNS「マストドン」に5年くらい居るコーヒー豆屋がユーザー目線でマストドンの初期おすすめムーブを書いてみる何か｜Nelson Coffee Roaster｜note](https://note.com/ncr/n/n134a1594a6c6)
+- [はじめる Fediverse/Mastodon 2022 | gihyo.jp](https://gihyo.jp/article/2022/11/start-mastodon-2022)
+
 [mstdn.jp]: https://mstdn.jp/
 
 ## 参考文献
