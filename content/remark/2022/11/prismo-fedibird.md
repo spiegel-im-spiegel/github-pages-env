@@ -106,15 +106,66 @@ Mastodon には「引っ越し」機能があってアカウントを別のサ�
 
 という感じに詳細が表示され，コメントを追加することもできる。
 
-Mastodon でアカウントをフォローしていれば，投稿に対するコメントが反映される筈なんだけど... 上手くいかないな。
-これはあとで検証しよう。
+Mastodon から投稿に対してコメントを送ることもできるのだが， Prisomo で作ったアカウントをフォローしてもタイムラインにブックマークが載らないようだ。
+まぁ，サーバもシステムも違うしね。
+そこで Mastodon 側の検索窓に上の詳細画面の URL をコピペして
+
+{{< fig-img src="./mastodon-finder.png" title="Fedibird" link="./mastodon-finder.png" >}}
+
+「検索」すると
+
+{{< fig-img src="./mastodon-result.png" title="Fedibird" link="./mastodon-result.png" width="747" >}}
+
+という感じに検索結果として目的のブックマークを取得できる。
+これに対してブックマークするなりブーストするなり「返信」という形でコメントするなりすればいいわけだ。
+「返信」を付けた結果は以下の通り。
+
+{{< fig-img src="./prismo-comment-2.png" title="Prismo / fedibird" link="./prismo-comment-2.png" width="823" >}}
+
+他サービスからコメントを付けられるというのはなかなか魅力的だが，荒らされやすいとも言える。
+Prismo ではサービス管理者に向けて投稿を「通報」することができる。
+ブックマークやコメントの「flag」のリンクをクリックすると
+
+{{< fig-img src="./prismo-flag.png" title="Prismo / fedibird" link="./prismo-flag.png" width="825" >}}
+
+という画面が表示されるので理由を添えて通報すればよい。
+ちなみにサービス管理者が通報に対してどういうリアクションをとるか（あるいはとらないか）は，サーバ毎のポリシーによって異なるのでご注意を。
 
 実は私はかなりのブックマーク魔で，昔は del.icio.us とか使ってたんだけど，今は Instapaper で溜め込んで定期的に自ブログの [bookmarks セクション]({{< rlnk "/bookmarks/" >}}) 吐き出すだけの作業（こうしておけば後で grep で探せるから）。
 何処にも繋がらない（笑）
 
 流石に今のペースで [Prismo / fedibird](https://prismo.fedibird.com/) に追加していくのは無理だと思うけど，少しずつソーシャル・ブックマークの比重を上げていければな，と思っている。
 
+## Mastodon はユーザ自身でタイムラインを運用する
+
+Prismo では「荒らし」対策は通報が精一杯のようだが，Mastodon の場合はユーザ自身が相手ユーザやサーバに対してブロックやミュートをかけられる。
+これは Twitter のブロックやミュート機能より強力らしい。
+まだ試すほど Mastodon をやりこんでないが[^f1]（笑）
+
+[^f1]: サーバ管理者からみて要注意なサーバないしユーザからのフォローについて承認確認を求められたことはある（私自身はフォロワー希望に対する承認機能は（今のところ）有効にしていない）。
+
+Mastodon における「荒らし」対策の考え方や機能は以下の記事が参考になる。
+
+- [Cage the Mastodon: An overview of features for dealing with abuse and harassment - Official Mastodon Blog](https://blog.joinmastodon.org/2018/07/cage-the-mastodon/)
+- [Mastodonの檻 - 誹謗や嫌がらせに対処するための機能の概要](https://gist.github.com/peaceroad/c9947e4150f93886578fac8d167109ab)
+
+そもそも「[連合型]({{< relref "./new-spark-of-competition-between-platforms-and-federations.md" >}} "「プラットフォームとフェデレーションとの競争」")」のシステムは自サーバから見た「外部」のユーザやコンテンツに対して基本的に干渉できない。
+その代わりに自サーバにおけるブロックやミュートに大きな機能が割り当てられているようだ。
+この辺が単純な分散システムとは異なるところである。
+
+Twitter のような「[プラットフォーム型]({{< relref "./new-spark-of-competition-between-platforms-and-federations.md" >}} "「プラットフォームとフェデレーションとの競争」")」のサービスにとって「外部」は食うか食われるかの覇権競争の戦場である。
+ユーザはサービス・プロバイダから恣意的かつ強力な統制を受ける代わりに「外部」の戦場から守ってくれる（ことが期待される）というわけだ。
+無理やり喩えるなら，中世・近世の専制政治みたいな感じだろうか。
+
+Mastodon では TL 運用についてユーザに相応の手段を渡す代わりにサービス管理者が乗り出すのは「最後の手段」と言える。
+これも無理やり喩えるなら「小さな政府」といったところだろうか。
+
+Mastodon のような「小さな政府」では耐えられないというのであれば，諸々差し出しても Twitter 等に支配される方が楽かもしれない。
+
 ## 「おひとりさま」とか無理だから！
+
+「小さな政府」の究極は「おひとりさま」だろう。
+でも...
 
 最初は「おひとりさま」サーバも視野に入れていたんだよ。
 でも，回線の細い自宅に公開サーバを設置するとかありえないし，庶民にも手が届きそうな [Hostdon](https://hostdon.jp/ "Hostdon - Mastodonのホスティングサービス") は新規サーバの受付を停止してるし（2022-11 時点），他はかかるコスト（人的コストを含む）の桁が違うから！ 無理！！
@@ -129,7 +180,7 @@ Mastodon でアカウントをフォローしていれば，投稿に対する�
 多分 [Fedibird] の（標準 Mastodon にはない）独自機能だと思うけど，任意のユーザに対して通常の「フォロー」以外に「購読」を指定することができる。
 
 フォローと購読で何が違うのかと一瞬思ったが「購読」は公開された投稿しか読めないので，フォロワー限定の投稿は見れないということらしい。
-[`@eff@mastodon.social`](https://mastodon.social/@eff "Electronic Frontier Foundation (@eff@mastodon.social) - Mastodon") などの組織アカウントや前節の [Prismo] アカウントなどは「購読」にしたほうがいいのだろうか。
+[`@eff@mastodon.social`](https://mastodon.social/@eff "Electronic Frontier Foundation (@eff@mastodon.social) - Mastodon") などの組織アカウントは「購読」にしたほうがいいのだろうか。
 
 ## 【おまけ】 Flickr の写真を Mastodon TL に（いい感じに）貼り付けたい
 
