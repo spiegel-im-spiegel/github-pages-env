@@ -31,6 +31,7 @@
 
 ## Go 言語関連 {#golang}
 
+- [I/O is no longer the bottleneck](https://benhoyt.com/writings/io-is-no-longer-the-bottleneck/)
 
 ## Java  言語関連 {#java}
 
