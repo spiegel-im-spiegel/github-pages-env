@@ -48,6 +48,7 @@ pageType = "text"
 
 - [【Golang】Go で OpenPGP のペア鍵を生成する【GopenPGP】 - Qiita](https://qiita.com/KEINOS/items/705f67cf47262f31dd19)
 - [draft-ietf-openpgp-crypto-refresh-07](https://datatracker.ietf.org/doc/html/draft-ietf-openpgp-crypto-refresh-07) : 次期 [OpenPGP] ドラフト 2022-10-23 版
+- [You can't say Go without Google – specifically, our little logo, Chocolate Factory insists • The Register](https://www.theregister.com/2019/07/15/go_google_logo/)
 
 [OpenPGP]: http://openpgp.org/
 [GopenPGP]: https://gopenpgp.org/ "GopenPGP | An easy-to-use OpenPGP wrapper library written in golang"
