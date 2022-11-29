@@ -165,6 +165,7 @@ $ go run sample4.go
 ## ブックマーク
 
 - [Go のエラーハンドリング](https://zenn.dev/spiegel/books/error-handling-in-golang)
+- [Go公式の構造化ロガー（として提案されている）slogを触ってみたメモ](https://zenn.dev/mizutani/articles/golang-exp-slog)
 
 [Go]: https://go.dev/
 [`slog`]: https://pkg.go.dev/golang.org/x/exp/slog "slog package - golang.org/x/exp/slog - Go Packages"
