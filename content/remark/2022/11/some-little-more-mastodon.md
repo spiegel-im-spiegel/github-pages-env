@@ -110,6 +110,11 @@ Android 機のブラウザであればシェア {{% icons "share-nodes" %}} 機�
 似たサービスで [donshare](https://donshare.net/) ってのもあるらしい。
 お好みで。
 
+{{< div-box type="markdown" >}}
+**【2022-12-02 追記】**
+Mastoshare が証明書期限切れで使えなくなってしまったので [donshare](https://donshare.net/) に乗り換えた。
+{{< /div-box >}}
+
 ## Go による Mastodon クライアント・パッケージ
 
 そうそう。
