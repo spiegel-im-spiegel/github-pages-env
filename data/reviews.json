@@ -20732,5 +20732,56 @@
       false
     ],
     "Description": "運動時に脂肪をエネルギーに変えやすくする働きがあるらしい。お試しで買ってみた。とりあえず1時間以上自転車に乗る場合に服用している。水に溶かさず飲むと書いてあるが，水と一緒に飲まないと大変なことになるので注意（経験済み）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4416522940",
+      "Title": "天文年鑑 2023年版",
+      "URL": "https://www.amazon.co.jp/dp/4416522940?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41llWUnoXyL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "天文年鑑編集委員会",
+          "Role": "編集"
+        }
+      ],
+      "Publisher": "誠文堂新光社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4416522940"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784416522943"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4416522940"
+        }
+      ],
+      "PublicationDate": "2022-11-24",
+      "LastRelease": "2022-11-24",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-11-25",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "天文ファン必携。2023年版。これが届くと年末って感じ。"
   }
 ]

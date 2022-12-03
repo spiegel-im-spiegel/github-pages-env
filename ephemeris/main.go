@@ -14,15 +14,15 @@ func WeekShortNameJp(dt koyomi.DateJp) string {
 }
 
 func main() {
-	start, _ := koyomi.DateFrom("2022-01-01")
-	end, _ := koyomi.DateFrom("2022-12-31")
+	start, _ := koyomi.DateFrom("2023-01-01")
+	end, _ := koyomi.DateFrom("2023-12-31")
 	k, err := koyomi.NewSource(
 		koyomi.WithCalendarID(
-			koyomi.Holiday,
-			koyomi.MoonPhase,
-			koyomi.SolarTerm,
+			// koyomi.Holiday,
+			// koyomi.MoonPhase,
+			// koyomi.SolarTerm,
 			koyomi.Eclipse,
-			koyomi.Planet,
+			// koyomi.Planet,
 		),
 		koyomi.WithStartDate(start),
 		koyomi.WithEndDate(end),
