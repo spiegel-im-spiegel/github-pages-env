@@ -5,18 +5,9 @@ draft = false
 tags = ["astronomy", "leap-second"]
 title = "うるう秒は当分存続らしい"
 
-[author]
-  avatar = "/images/avatar.jpg"
-  facebook = "spiegel.im.spiegel"
-  flattr = ""
-  github = "spiegel-im-spiegel"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  linkedin = "spiegelimspiegel"
-  name = "Spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
 +++
 
 某新聞で記事を見かけたが，このブログでは基本的に日本の新聞記事にリンクは張らない方針なので Facebook に愚痴だけ書いて済ませていたが， INTERNET Watch で詳しい記事を見つけたので，これをベースにグダグダ書いてみる。
@@ -84,3 +75,7 @@ UTC は人の日常生活に寄せた時刻系であってコンピュータ向�
 <q><strong>トーヴァルズ</strong>：ほとんどの場合、機械でさえも原子時のことは気にしていませんよ。大半は、人間が時間を気にしているから機械もそうしているんです。例えば、機械がローンの支払のトラッキングを行っている、というのがそうですね。だから実際は、その2つを分けることはできないんです。人々に「時間と太陽の相関性や、日付と季節の相関性など気にしないように」と言わなくてはいけなくなります。それは現実的でないですよね。<br>
 原子時を本当に気にかけているのは、宇宙関連の作業をしているコンピューターや開発者たちでしょう。それ以外の人々は（コンピューターも）POSIX時間を採用し、「そんなの知るか」と言っておけばいいんです。タイムキーピングの倒錯性によって、少数の不運な人々はバグが起きるのを心配するでしょうが。残りのわたしたちはこのうるう秒を、親しい友人たちとちょっとナンセンスなパーティーでも開くための口実にでもすればいいんですよ。</q>
 {{< /fig-quote >}}
+
+## ブックマーク
+
+- [うるう秒、2035年までに廃止へ - ZDNet Japan](https://japan.zdnet.com/article/35196336/) : 正式決定らしい

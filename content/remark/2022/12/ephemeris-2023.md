@@ -147,6 +147,17 @@ pageType = "text"
 | 2023-12-07 | 木 | 大雪 |
 | 2023-12-22 | 金 | 冬至 |
 
+## ブックマーク
+
+- [「暦」日本史 （再掲載）]({{< ref "/remark/2015/japanese-koyomi.md" >}})
+- [冬至に関する与太話]({{< ref "/remark/2017/12/winter-solstice.md" >}})
+- [立春も動き出す]({{< ref "/remark/2021/01/the-beginning-of-spring.md" >}})
+- [お彼岸]({{< ref "/remark/2022/03/ohigan.md" >}})
+- [第五の季節：土用]({{< ref "/remark/2022/04/doyo-period.md" >}})
+- [ユリウス日が2,460,000日を超える日]({{< ref "/remark/2022/05/julian-day-number.md" >}}) : 2023-03-24 にユリウス日が2,460,000日に到達
+
+- [GitHub - goark/koyomi: 日本のこよみ](https://github.com/goark/koyomi)
+
 ## 参考図書
 
 {{% review-paapi "4416522940" %}} <!-- 天文年鑑 2023年版 -->

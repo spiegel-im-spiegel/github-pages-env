@@ -18,11 +18,11 @@ func main() {
 	end, _ := koyomi.DateFrom("2023-12-31")
 	k, err := koyomi.NewSource(
 		koyomi.WithCalendarID(
-			// koyomi.Holiday,
-			// koyomi.MoonPhase,
+			koyomi.Holiday,
+			koyomi.MoonPhase,
 			koyomi.SolarTerm,
-			// koyomi.Eclipse,
-			// koyomi.Planet,
+			koyomi.Eclipse,
+			koyomi.Planet,
 		),
 		koyomi.WithStartDate(start),
 		koyomi.WithEndDate(end),
