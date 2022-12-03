@@ -20,8 +20,8 @@ func main() {
 		koyomi.WithCalendarID(
 			// koyomi.Holiday,
 			// koyomi.MoonPhase,
-			// koyomi.SolarTerm,
-			koyomi.Eclipse,
+			koyomi.SolarTerm,
+			// koyomi.Eclipse,
 			// koyomi.Planet,
 		),
 		koyomi.WithStartDate(start),
