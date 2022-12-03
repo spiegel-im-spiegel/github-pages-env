@@ -44,6 +44,8 @@ pageType = "text"
 
 ## ブックマーク
 
+- [OpenAI API](https://beta.openai.com/)
+- [質問に答えてくれる言語モデル「ChatGPT」--プレビューは無料公開 - ZDNet Japan](https://japan.zdnet.com/article/35196862/)
 - [結城浩とChatGPTの対話 · GitHub](https://gist.github.com/hyuki/65ebb23855d31731ee2342e0920bcf9f)
 - [フィリップ・グラスが人工知能と芸術について語る - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20210902/philip-glass-on-ai)
 
