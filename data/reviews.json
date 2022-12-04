@@ -20783,5 +20783,171 @@
       true
     ],
     "Description": "天文ファン必携。2023年版。これが届くと年末って感じ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08L4WKDZ7",
+      "Title": "Canon コンパクトデジタルカメラ PowerShot ZOOM 写真と動画が撮れる望遠鏡 PSZOOM",
+      "URL": "https://www.amazon.co.jp/dp/B08L4WKDZ7?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41MZe0XgHdL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "キヤノン",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08L4WKDZ7"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4549292179675"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2020-12-10",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-12-04",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "望遠鏡型コンパクトデジカメ。メモリと充電器（要 Power Delivery）は別に用意する必要がある。使い勝手はまぁまぁ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08Q7CPXHW",
+      "Title": "Anker PowerPort PD 2 20W(PD対応 32W 2ポート USB-A \u0026 USB-C 急速充電器)【PSE認証済/Power Delivery対応/PowerIQ搭載/コンパクトサイズ】 iPhone 14 / 13 iPad Air(第5世代) Android その他 各種機器対応 (ホワイト)",
+      "URL": "https://www.amazon.co.jp/dp/B08Q7CPXHW?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/21tDBxWfIVS._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "Anker",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08Q7CPXHW"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0194644144340"
+        },
+        {
+          "Name": "UPC",
+          "Value": "194644144340"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-12-04",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "Power Delivery 対応。最初これを買おうとしてポチる寸前まで行ったのだが「もしかしてコンビニで売ってる？」と思い（田舎基準の）近所のセブンまで行ったら他社の安いのを見つけたので，これは結局買わなかった。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09TVLHJ1X",
+      "Title": "ミニサイズ Shokz OpenRun Mini 骨伝導イヤホン 公式ストア正規品 ワイヤレス 急速充電 驚きの通話品質 IP67防塵防水 bluetooth5.1 2 30日間返品無料 コズミックブラック",
+      "URL": "https://www.amazon.co.jp/dp/B09TVLHJ1X?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31S-IHi04IL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "Shenzhen Shokz Co., Ltd.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09TVLHJ1X"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4512223694288"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-12-04",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "以前のものはマルチファンクションキーが利かなくなったので Black Friday の安売りのタイミングで買い替え。私のように頭の小さい人向け（笑） 値段並みの音質はある，と思う。耳が自由って素晴らしい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08TQSRZKR",
+      "Title": "ｍａｔｓｕｋｉｙｏ ＬＡＢ プロテインバーチョコレート ストロベリー味 10本",
+      "URL": "https://www.amazon.co.jp/dp/B08TQSRZKR?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51DIcHmiafL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "matsukiyo",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08TQSRZKR"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4580101200432"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-11-23",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "マツキヨ・ブランドのプロテインバー。飲むタイプがどうしても駄目で... 自転車で1時間以上走ったあとの蛋白質リカバリ用に買ってみた。1本ずつ個包装になっている。いちごポッキー味（笑）"
   }
 ]
