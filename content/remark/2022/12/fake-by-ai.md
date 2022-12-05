@@ -21,7 +21,7 @@ pageType = "text"
 {{< fig-img-quote src="/remark/2022/12/debugging-with-ai/chatgpt-2.png" title="ChatGPT" link="https://chat.openai.com/" width="835" lang="en" >}}
 
 が[面白かった]({{< relref "./debugging-with-ai.md" >}})という話をしたけど，これの面白さは，内容以上に AI が知識として持ってない（であろう）ことを，元ネタが分からないレベルの「創作」で以って補って提示している点だろう。
-しかもそれは AI が「考えている」んじゃない。
+人間で言うなら「口からでまかせ」というところだろうが， AI はこれを「考えている」んじゃない。
 
 AI は考えないし感じない。
 少なくとも現代の AI 技術は数学の道具 論理・確率・統計 を駆使した入力と出力の組み合わせである。
