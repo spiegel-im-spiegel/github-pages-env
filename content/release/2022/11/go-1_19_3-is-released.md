@@ -27,7 +27,19 @@ go1.19.3 (released 2022-11-01) includes security fixes to the `os/exec` and `sys
 On Windows, `syscall.StartProcess` and `os/exec.Cmd` did not properly check for invalid environment variable values. A malicious environment variable value could exploit this behavior to set a value for a different environment variable. For example, the environment variable string `"A=B\x00C=D"` set the variables `"A=B"` and `"C=D"`.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N`
+- 深刻度: 重要 (Score: 7.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | 高 |
+| 可用性への影響 | なし |
 
 ## 例によって...
 
