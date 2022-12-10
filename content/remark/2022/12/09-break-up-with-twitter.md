@@ -59,7 +59,9 @@ Spiegel と申します。
 - [The Fediverse Could Be Awesome (If We Don’t Screw It Up) | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2022/11/fediverse-could-be-awesome-if-we-dont-screw-it)
   - [フェディバースは（“私たち”次第で）素晴らしいものになる | p2ptk[.]org](https://p2ptk.org/freedom-of-speech/4165) : 翻訳記事
 - [Is Mastodon Private and Secure? Let’s Take a Look | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2022/11/mastodon-private-and-secure-lets-take-look)
+  - [Mastodonのプライバシー、セキュリティ、モデレーションってどんな感じなの？ | p2ptk[.]org](https://p2ptk.org/privacy/4194) : 翻訳記事
 - [How to Make a Mastodon Account and Join the Fediverse | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2022/12/how-make-mastodon-account-and-join-fediverse)
+  - [Mastodonアカウントの作成とフェディバースへの参加方法 | p2ptk[.]org](https://p2ptk.org/freedom-of-speech/4173) : 翻訳記事
 
 それだけの社会現象になっているということでしょう（今更）
 

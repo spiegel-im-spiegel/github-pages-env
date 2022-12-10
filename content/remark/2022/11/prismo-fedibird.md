@@ -218,6 +218,7 @@ https://www.flickr.com/photos/spiegel/52396396454/in/dateposted-public/
 ## ブックマーク
 
 - [How to Make a Mastodon Account and Join the Fediverse | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2022/12/how-make-mastodon-account-and-join-fediverse)
+  - [Mastodonアカウントの作成とフェディバースへの参加方法 | p2ptk[.]org](https://p2ptk.org/freedom-of-speech/4173)
 - [denise | A guide to potential liability pitfalls for people running a Mastodon instance](https://denise.dreamwidth.org/91757.html)
 - [SNS「マストドン」で5年ほどお世話になっているコーヒー豆屋がサーバーのルールや管理者とは？を妄想で書いてみる何か｜Nelson Coffee Roaster｜note](https://note.com/ncr/n/n587e089b2b20)
 
