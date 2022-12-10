@@ -120,6 +120,15 @@ VRM という言葉を初めて目にしたのは『[インテンション・エ
 
 （Amazon Echo や Google Home と何が違うんだと言われそうだが，決定的に違う。何故なら Amazon Echo や Google Home は CRM として機能するからだ。私たち個人ユーザは Amazon Echo や Google Home よりも下位の存在なのである）
 
+## 【2022-12-10 追記】
+
+2022年末。
+Apple は少し方向転換したようだ。
+
+- [VICTORY! Apple Commits to Encrypting iCloud, Drops Phone-Scanning Plans | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2022/12/victory-apple-commits-encrypting-icloud-and-drops-phone-scanning-plans)
+
+ここからどう進むのか要観察である。
+
 ## ブックマーク
 
 - [善悪の葛藤]({{< ref "/remark/2018/03/name-identification.md" >}})
