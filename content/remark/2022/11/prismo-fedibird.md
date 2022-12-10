@@ -175,14 +175,24 @@ Mastodon のような「小さな政府」では耐えられないというの�
 
 あとはどっか面白そうな活動をしているサーバを見つけたらそっちに移るか，かな。
 
-## フォロー？ 購読？
+## 【おまけ1】 フォロー？ 購読？
 
 多分 [Fedibird] の（標準 Mastodon にはない）独自機能だと思うけど，任意のユーザに対して通常の「フォロー」以外に「購読」を指定することができる。
 
 フォローと購読で何が違うのかと一瞬思ったが「購読」は公開された投稿しか読めないので，フォロワー限定の投稿は見れないということらしい。
 [`@eff@mastodon.social`](https://mastodon.social/@eff "Electronic Frontier Foundation (@eff@mastodon.social) - Mastodon") などの組織アカウントは「購読」にしたほうがいいのだろうか。
 
-## 【おまけ】 Flickr の写真を Mastodon TL に（いい感じに）貼り付けたい
+あと，これも [Fedibird] 独自の機能ぽいのだが，ハッシュタグをフォローできる。
+たとえば [Fedibird] 管理者の [`@noellabo@fedibird.com`](https://fedibird.com/@noellabo "のえる (@noellabo@fedibird.com) - Fedibird") さんを普通にフォローすると自 TL があっという間にカレーの写真で埋まってしまう（笑）けど，どっかの toot で「管理情報を知りたいだけなら [`#fedibird_info`](https://fedibird.com/tags/fedibird_info) タグをフォローすればいい」とのアドバイスを見かけてその通りに設定したら TL が安定しだした。
+ちなみにハッシュタグのフォローはリストに対しても行える。
+
+これは Twitter でも同じなのだが，関心領域が近いユーザであっても流量が多すぎてフォローできない（または外す）ことはよくある。
+そういうときはリストに逃したり上述のハッシュタグを使って，ある程度は S/N 比をコントロールできる。
+まぁ Twitter であれ Mastodon であれ，興味ある tweets (toots) を全て拾うなど無理な話なので，そこは割り切って運用するしかない。
+
+[サービスプロバイダが勝手に TL を並べ替えたり，フォローしてもないアカウントの広告を差し込まれたり]({{< ref "/remark/2022/12/justice-is-not-fairness.md" >}} "正義は公正とは相容れない")するよりはマシって感じだろうか。
+
+## 【おまけ2】 Flickr の写真を Mastodon TL に（いい感じに）貼り付けたい
 
 Flickr 写真ページの URL，たとえば
 
