@@ -72,6 +72,11 @@ pageType = "text"
 - [質問に答えてくれる言語モデル「ChatGPT」--プレビューは無料公開 - ZDNet Japan](https://japan.zdnet.com/article/35196862/)
 - [結城浩とChatGPTの対話 · GitHub](https://gist.github.com/hyuki/65ebb23855d31731ee2342e0920bcf9f)
 - [フィリップ・グラスが人工知能と芸術について語る - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20210902/philip-glass-on-ai)
+- [ChatGPTを使って画像生成AIのプロンプトを生成する · GitHub](https://gist.github.com/hyuki/0943a22a166923e1ee0cda56c3ca1012)
+- [対話AI「ChatGPT」が大学生レベルの試験の自由記述問題に合格してしまう - GIGAZINE](https://gigazine.net/news/20221205-chatgpt-passes-ap-computer-science-a/)
+- [会話AI「ChatGPT」の回答の投稿がコーディングQ＆AサイトのStack Overflowで一時的に禁止される - GIGAZINE](https://gigazine.net/news/20221206-chatgpt-banned-temporary/) : 「「ChatGPT」の回答」の判断基準を示してくれる記事が何処にも見当たらないのだが，これって体のいい検閲じゃねーの？
+- [GitHub - humanloop/awesome-chatgpt: Curated list of awesome tools, demos, docs for ChatGPT and GPT-3](https://github.com/humanloop/awesome-chatgpt)
+- [AIの応用における「検索」と「生成」の類似性 - 結城浩の連ツイ](https://rentwi.hyuki.net/?1601462336899796993s)
 
 [ChatGPT]: https://chat.openai.com/
 

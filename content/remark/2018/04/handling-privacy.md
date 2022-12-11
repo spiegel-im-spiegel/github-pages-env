@@ -126,6 +126,7 @@ VRM という言葉を初めて目にしたのは『[インテンション・エ
 Apple は少し方向転換したようだ。
 
 - [VICTORY! Apple Commits to Encrypting iCloud, Drops Phone-Scanning Plans | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2022/12/victory-apple-commits-encrypting-icloud-and-drops-phone-scanning-plans)
+- [Apple、iCloudデータの暗号化とCSAMスキャン計画の破棄を発表 | p2ptk[.]org](https://p2ptk.org/privacy/4191)
 
 ここからどう進むのか要観察である。
 
