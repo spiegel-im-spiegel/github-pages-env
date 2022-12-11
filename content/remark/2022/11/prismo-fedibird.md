@@ -215,6 +215,12 @@ https://www.flickr.com/photos/spiegel/52396396454/in/dateposted-public/
 などといい感じに表示してくれる。
 ありがとう中の人！
 
+{{< div-box type="markdown" >}}
+**【2022-12-11 追記】**
+いま見たら `in/dateposted-public/` を付けなくてもちゃんと展開してくれるみたい。
+ありがとう！ 中の人
+{{< /div-box >}}
+
 ## ブックマーク
 
 - [How to Make a Mastodon Account and Join the Fediverse | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2022/12/how-make-mastodon-account-and-join-fediverse)
