@@ -61,6 +61,9 @@ We believe the establishment of a non-profit Flickr Foundation will combine with
 
 {{< fig-youtube id="rsqUv3JU32g" title="Coming of age in the Digital Decade: A 17 year old software company and what it means to look ahead" >}}
 
+- [Announcing the Flickr Foundation!!! - Flickr Foundation](https://www.flickr.org/announcing-the-flickr-foundation/)
+- [Why we're doing this - Flickr Foundation](https://www.flickr.org/why-were-doing-this/)
+
 [Flickr Foundation]: https://www.flickr.org/ "The Flickr Foundation"
 [ActivityPub]: https://www.w3.org/TR/activitypub/
 
