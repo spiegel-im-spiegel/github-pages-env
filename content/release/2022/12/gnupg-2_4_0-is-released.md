@@ -89,9 +89,16 @@ $ gpgconf --show-versions | grep KSBA
 
 [^gpg14]: 厳密には1.4系もあるが，これは legacy 版と位置付けられており，よほどのバグか脆弱性がない限りは更新されない。もし今だに1.4系（あるいは既にサポートされていない2.0/2.1系）を使っているのなら2.2系以降にアップグレードすることを強くお勧めする。
 
+そうそう。
+Windows 版 pinentry の文字化けを解消した改良版を公開されている方がいる。ありがたや。
+
+- [iquiw/pinentry-w32-ncg-binary: pinentry-w32, no characters garbled](https://github.com/iquiw/pinentry-w32-ncg-binary)
+
 アップデートは計画的に。
 
 ## ブックマーク
+
+- [[Gpg4win-announce] Gpg4win 4.1.0 released](https://lists.wald.intevation.org/pipermail/gpg4win-announce/2022/000099.html)
 
 - [OpenPGP の実装]({{< rlnk "/openpgp/" >}})
 

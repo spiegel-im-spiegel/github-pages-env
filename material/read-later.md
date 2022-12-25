@@ -13,9 +13,6 @@
 
 - [Amazon | R730 LiveRoll 3本ローラー | ミノウラ(MINOURA) | スポーツ＆アウトドア](https://www.amazon.co.jp/MINOURA-%E3%83%9F%E3%83%8E%E3%82%A6%E3%83%A9-3%E6%9C%AC%E3%83%AD%E3%83%BC%E3%83%A9%E3%83%BC-%E8%87%AA%E8%BB%A2%E8%BB%8A-%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8A%E3%83%BC/dp/B0BGWQP86T)
 
-- [[Announce] GnuPG 2.4.0 released (silver anniversary)](https://lists.gnupg.org/pipermail/gnupg-announce/2022q4/000477.html)
-- [GitHub - iquiw/pinentry-w32-ncg-binary: pinentry-w32, no characters garbled](https://github.com/iquiw/pinentry-w32-ncg-binary)
-
 ## 寄付の検討
 
 - [TinyGo - Open Collective](https://opencollective.com/tinygo)
