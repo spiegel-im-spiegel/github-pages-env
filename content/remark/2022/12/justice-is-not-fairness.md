@@ -16,7 +16,7 @@ pageType = "text"
 正義は公正とは相容れない。
 もうちょっと簡単に言うと「英雄は裁かれない」ってやつだ。
 
-このフレーズが浮かんだのは [Fediverse Advent Calendar 2022](https://adventar.org/calendars/7371) 8日目の記事「[個人情報保護法令とFediverseの話](https://www.blessedgeeks.com/~h12o/datalaws-and-fediverse.html)」の最後の方に出てくる以下の記事を読んだとき。
+このフレーズが浮かんだのは [Fediverse Advent Calendar 2022](https://adventar.org/calendars/7371) 8日目の記事「[個人情報保護法令とFediverseの話](https://www.blessedgeeks.com/~h12o/datalaws-and-fediverse/)」の最後の方に出てくる以下の記事を読んだとき。
 
 - [データやアルゴリズム、そしてユーザーにどう向き合うべきか (あるいはTwitterのホーム表示と時系列表示について) - フジイユウジ::ドットネット](https://fujii-yuji.net/2022/12/06/200337)
 
