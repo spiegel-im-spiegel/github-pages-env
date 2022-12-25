@@ -77,6 +77,8 @@ pageType = "text"
 - [会話AI「ChatGPT」の回答の投稿がコーディングQ＆AサイトのStack Overflowで一時的に禁止される - GIGAZINE](https://gigazine.net/news/20221206-chatgpt-banned-temporary/) : 「「ChatGPT」の回答」の判断基準を示してくれる記事が何処にも見当たらないのだが，これって体のいい検閲じゃねーの？
 - [GitHub - humanloop/awesome-chatgpt: Curated list of awesome tools, demos, docs for ChatGPT and GPT-3](https://github.com/humanloop/awesome-chatgpt)
 - [AIの応用における「検索」と「生成」の類似性 - 結城浩の連ツイ](https://rentwi.hyuki.net/?1601462336899796993s)
+- [2022年と、AI戦争の歴史](https://youkoseki.com/text/2022_ai) : 名作！
+- [AI assistants help developers produce code that's insecure • The Register](https://www.theregister.com/2022/12/21/ai_assistants_bad_code/)
 
 [ChatGPT]: https://chat.openai.com/
 

@@ -113,3 +113,4 @@ mimic はどうやらサービスを停止したらしい。
 - [[pixiv] お知らせ - AI生成作品の取り扱いに関するサービスの方針について](https://www.pixiv.net/info.php?id=8710&lang=ja)
 - [「画像生成AIの対価を人間の絵描きは受け取っていない」と専門家が懸念、AIの発展の中で置き去りにされている問題点を鋭く解説 - GIGAZINE](https://gigazine.net/news/20221021-language-ai/)
 - [なぜジェネレーティブAIはアートの世界を席巻し、著作権を無意味化するのか | p2ptk[.]org](https://p2ptk.org/copyright/4120)
+- [いらすとや風のイラストを生成する「AIいらすとや」をリリース｜AI Picasso株式会社のプレスリリース](https://prtimes.jp/main/html/rd/p/000000002.000113219.html)
