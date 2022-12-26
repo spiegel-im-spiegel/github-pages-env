@@ -21039,5 +21039,50 @@
       false
     ],
     "Description": "基本に忠実な内容。何回でも読み返すべき。こういうのをゼロから始めるときって（特に小さな会社は）ブートストラップが難しいと思うが，この本はかなり参考になるのではないだろうか。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08FSBNJG8",
+      "Title": "Fitbit Inspire2 フィットネストラッカー Black ブラック L/Sサイズ [日本正規品]",
+      "URL": "https://www.amazon.co.jp/dp/B08FSBNJG8?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31vqXm740wL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "Fitbit",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08FSBNJG8"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0810038852805"
+        },
+        {
+          "Name": "UPC",
+          "Value": "810038852805"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2020-10-02",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-12-26",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "私の場合，心拍数がモニタできればいいので充分な性能。"
   }
 ]
