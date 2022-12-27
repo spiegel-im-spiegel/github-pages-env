@@ -21084,5 +21084,86 @@
       false
     ],
     "Description": "私の場合，心拍数がモニタできればいいので充分な性能。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B089GN1VKY",
+      "Title": "BUFFALO Giga対応 金属筐体 電源内蔵 8ポート LSW6-GT-8NS/NBK ブラック スイッチングハブ 簡易パッケージ マグネット 壁掛け設置対応",
+      "URL": "https://www.amazon.co.jp/dp/B089GN1VKY?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31aSTGE-heL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "その他",
+      "Publisher": "バッファロー",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B089GN1VKY"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4981254056769"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2020-06-13",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-12-27",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "在宅勤務でパソコンが増えるためポートが足りなくなった。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07KXCJ8Q1",
+      "Title": "サンワダイレクト デスクサイドラック 幅60×奥行35×高さ110cm キッチンワゴン マルチラック ライトブラウン 100-DESKF013LBR",
+      "URL": "https://www.amazon.co.jp/dp/B07KXCJ8Q1?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31VV4mOd-sL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "サンワダイレクト",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07KXCJ8Q1"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4969887636695"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-12-27",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "在宅勤務のため机上を整理するために購入。\u003ca href=\"https://www.amazon.co.jp/dp/B0757M9DJ6?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\"\u003e机\u003c/a\u003eと色を合わせた。"
   }
 ]
