@@ -13,6 +13,9 @@
 
 - [Amazon | R730 LiveRoll 3本ローラー | ミノウラ(MINOURA) | スポーツ＆アウトドア](https://www.amazon.co.jp/MINOURA-%E3%83%9F%E3%83%8E%E3%82%A6%E3%83%A9-3%E6%9C%AC%E3%83%AD%E3%83%BC%E3%83%A9%E3%83%BC-%E8%87%AA%E8%BB%A2%E8%BB%8A-%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8A%E3%83%BC/dp/B0BGWQP86T)
 
+- [mitome.in](https://mitome.in/) : 参考になる
+
+
 ## 寄付の検討
 
 - [TinyGo - Open Collective](https://opencollective.com/tinygo)
@@ -23,6 +26,12 @@
 
 ## セキュリティ＆プライバシー関連 {#security}
 
+- [Linuxカーネルの「ksmbd」に深刻なセキュリティ脆弱性 - ZDNet Japan](https://japan.zdnet.com/article/35197887/)
+- [脆弱性に附番されるCVE番号を管理する「cve.mitre.org」がリニューアルへ - やじうまの杜 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1466887.html)
+- [Notice of Recent Security Incident - The LastPass Blog](https://blog.lastpass.com/2022/12/notice-of-recent-security-incident/)
+  - [LastPass Breach - Schneier on Security](https://www.schneier.com/blog/archives/2022/12/lastpass-breach.html)
+  - [データ侵害が発生したパスワード管理アプリ「LastPass」をクラッキングする方法をセキュリティ研究者が実演 - GIGAZINE](https://gigazine.net/news/20221226-lastpass-vault-cracking/)
+- [mitome.in](https://mitome.in/) : 参考になる
 
 ## チョークポイント資本主義 {#cc}
 
@@ -38,6 +47,7 @@
 
 ## Go 言語関連 {#golang}
 
+- [Go の文字列距離実装シリーズ](https://zenn.dev/mattn/articles/9d1df6c9996b10)
 
 ## Java  言語関連 {#java}
 
@@ -45,10 +55,18 @@
 ## 天文関連 {#astronomy}
 
 
-## Fediverse 関連 {#fediverse}
-
-
 ## その他 {#others}
 
+- [PMBOK（R）Guide第7版変更|最新情報 | 日本プロジェクトソリューションズ株式会社](https://www.japan-project-solutions.com/pmbok-7th)
+- [CDNエッジでJS/TS/WASMを実行できる「Vercel Edge Functions」正式リリース。Node.jsサブセットを目指す － Publickey](https://www.publickey1.jp/blog/22/cdnjstswasmvercel_edge_functionsnodejs.html)
+- [WebAssembly版Rubyが正式に登場、YJITが実用段階に。「Ruby 3.2.0」正式リリース － Publickey](https://www.publickey1.jp/blog/22/webassemblyrubyyjitruby_320.html)
+- [イーロン・マスクはヘンリー・フォードの轍を踏み、過激思想にいたる暗黒面に堕ちつつある？ - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20221226/elon-musk-henry-ford-extremism)
+- [ツイートの全履歴から爆速で過去ツイートを検索できるウェブアプリ「A simple Twitter archiver」レビュー - GIGAZINE](https://gigazine.net/news/20221225-a-simple-twitter-archiver/)
+- [Facebookをどれほど嫌いになってもFacebookをやめられないのはなぜか | p2ptk[.]org](https://p2ptk.org/monopoly/antitrust/4231)
+- [aozorablog » 『するりと鏡を――ぬけてみて、アリスの目に見えたもの』第2章](https://www.aozora.gr.jp/aozorablog/?p=5128)
+- [「Dart 3」が来年登場。完全Nullセーフな言語となり、Nullセーフティなしの実行はサポート外に － Publickey](https://www.publickey1.jp/blog/22/dart_3nullnull.html)
+- [ダークモードなどをサポートしたBootstrap 5.3アルファ1版が登場。新しいカラーパレットも追加 － Publickey](https://www.publickey1.jp/blog/22/bootstrap_531.html)
+- [広島市と日本IBM、地域のDX推進に向け連携--「IBM地域DXセンター」設立予定 - ZDNet Japan](https://japan.zdnet.com/article/35197913/)
+- [Webブラウザ版VSCode、WebAssembly版PythonによるWeb上でのPythonコードの実行やデバッグが可能に － Publickey](https://www.publickey1.jp/blog/22/webvscodewebassemblypythonwebpython.html)
 
 <!-- eof -->

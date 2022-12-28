@@ -17,7 +17,7 @@ pageType = "text"
 
 {{< fig-img-quote src="/remark/2022/11/new-spark-of-competition-between-platforms-and-federations/Fediverse_small_information.png" title="How-the-Fediverse-connects - Fediverse - Wikipedia" link="https://en.wikipedia.org/wiki/Fediverse#/media/File:How-the-Fediverse-connects.png" lang="en" width="600" >}}
 
-## 標準仕様または製品
+## 標準仕様または製品・サービス
 
 - [ActivityPub](https://www.w3.org/TR/activitypub/) : W3C Recommendation 23 January 2018
   - [ActivityPub Community Group](https://www.w3.org/community/activitypub/)
@@ -51,7 +51,7 @@ pageType = "text"
 - [Python Software Foundation (@ThePSF@fosstodon.org) - Fosstodon](https://fosstodon.org/@ThePSF)
 - [GitHub - przemekperon/mastodon-it-lists: List of Mastodon users that toot about programming and IT.](https://github.com/przemekperon/mastodon-it-lists) : C#, .NET, Go, PHP, Python, Ruby, Rust, 他
 
-### 製品・組織公式アカウント
+### 製品・サービス・組織公式アカウント（上記以外）
 
 - [Mastodon (@Mastodon@mastodon.social) - Mastodon](https://mastodon.social/@Mastodon)
 - [Electronic Frontier Foundation (@eff@mastodon.social) - Mastodon](https://mastodon.social/@eff)
@@ -71,7 +71,10 @@ pageType = "text"
 - [Hacker News Discussions (@hn_discussions@mastodon.social) - Mastodon](https://mastodon.social/@hn_discussions)
 - [Linux Magazine (@linuxmagazine@fosstodon.org) - Fosstodon](https://fosstodon.org/@linuxmagazine)
 - [Golang Weekly (@golang_discussions@mastodon.social) - Mastodon](https://mastodon.social/@golang_discussions)
-- [ZDNet Japan(RSSfeed) (@zdnet@chaosphere.hostdon.jp) - カオスフィア](https://chaosphere.hostdon.jp/@zdnet) : 非公式
+- [カオスフィア](https://chaosphere.hostdon.jp/@rssfeed/following) より
+  - [ZDNet Japan(RSSfeed) (@zdnet@chaosphere.hostdon.jp) - カオスフィア](https://chaosphere.hostdon.jp/@zdnet) : 非公式
+  - [WIRED.jp(RSSfeed) (@wired@chaosphere.hostdon.jp) - カオスフィア](https://chaosphere.hostdon.jp/@wired) : 非公式
+  - [窓の杜(RSSfeed) (@forest@chaosphere.hostdon.jp) - カオスフィア](https://chaosphere.hostdon.jp/@forest) : 非公式
 
 ## Web ページを Mastodon でシェアする
 

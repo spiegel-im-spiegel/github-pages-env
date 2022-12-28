@@ -119,6 +119,7 @@ pageType = "text"
   - [RemoteFacade & DataTransferObject - Qiita](https://qiita.com/tanakahisateru/items/285d0ef12e068a03c71b)
   - [OptimisticOfflineLock vs PessimisticOfflineLock - Qiita](https://qiita.com/tanakahisateru/items/b17f6b362655070119c6)
   - [SeparatedInterface Registry Plugin ServiceStub - Qiita](https://qiita.com/tanakahisateru/items/b9cbe2bbe9a8dc6776c2)
+  - [ValueObject Money SpecialCase - Qiita](https://qiita.com/tanakahisateru/items/8783ad04c952dd5290d9)
 - [トランプ大統領が嫌っているのは「プラットフォームの偏向」ではなく「表現の自由」そのものである | p2ptk[.]org](https://p2ptk.org/freedom-of-speech/3224)
 - [Drupalが死にかけているって！？ - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20221219/drupal-is-dying)
 - [欧州メディア自由法：EUはいかにしてメディアの“編集の自由”を守ろうとしているのか | p2ptk[.]org](https://p2ptk.org/freedom-of-speech/4201)
