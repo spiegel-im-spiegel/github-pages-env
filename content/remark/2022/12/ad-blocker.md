@@ -79,6 +79,9 @@ These advertisements have also been used to impersonate websites involved in fin
 - どうしても見えてる広告を触っちゃう，あるいは広告が表示されること自体がウザいと思う方は [uBlock Origin] 等の広告ブロッカーを検討する
 
 といったところだろうか。
+あっ，もちろんクロスサイト cookie やトラッキング・コード，マイニング・コードはしっかりブロックした上でね。
+
+{{< fig-img src="./settings-for-firefox.png" title="Firefox の設定" link="./settings-for-firefox.png" width="999" >}}
 
 EFF も2019年に
 
