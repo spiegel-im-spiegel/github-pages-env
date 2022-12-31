@@ -21165,5 +21165,48 @@
       false
     ],
     "Description": "在宅勤務のため机上を整理するために購入。\u003ca href=\"https://www.amazon.co.jp/dp/B0757M9DJ6?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\"\u003e机\u003c/a\u003eと色を合わせた。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00DWXBCJU",
+      "Title": "愛のうた ～ ピクミンCMソング",
+      "URL": "https://www.amazon.co.jp/dp/B00DWXBCJU?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51beRr7Y-oL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "ストロベリー・フラワー",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "UNIVERSAL MUSIC LLC",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00DWXBCJU"
+        }
+      ],
+      "PublicationDate": "2013-07-10",
+      "LastRelease": "2013-07-10",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-11-10",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "Pikmin Bloom で遊ぶときのBGM。"
   }
 ]

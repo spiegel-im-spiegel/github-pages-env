@@ -2,6 +2,7 @@
 
 - [YubiKey + GPG で統一的な鍵の管理を行う - the world as code](https://chroju.dev/blog/yubikey_gpg_with_git_commit_signing_and_ssh)
 - [20220102-a-new-future-for-gnupg](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html)
+- [mitome.in](https://mitome.in/) : 参考になる
 
 - [はじめて学ぶ ビデオゲームの心理学 脳のはたらきとユーザー体験（UX） | セリア ホデント, 山根 信二, 成田 啓行 |本 | 通販 | Amazon](https://www.amazon.co.jp/%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E5%AD%A6%E3%81%B6-%E3%83%93%E3%83%87%E3%82%AA%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E5%BF%83%E7%90%86%E5%AD%A6-%E8%84%B3%E3%81%AE%E3%81%AF%E3%81%9F%E3%82%89%E3%81%8D%E3%81%A8%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E4%BD%93%E9%A8%93%EF%BC%88UX%EF%BC%89-%E3%82%BB%E3%83%AA%E3%82%A2-%E3%83%9B%E3%83%87%E3%83%B3%E3%83%88/dp/4571210450)
 - [O'Reilly Japan - 自分だけのボードゲームを作ろう](https://www.oreilly.co.jp//books/9784814400164/)
@@ -13,8 +14,6 @@
 
 - [Amazon | R730 LiveRoll 3本ローラー | ミノウラ(MINOURA) | スポーツ＆アウトドア](https://www.amazon.co.jp/MINOURA-%E3%83%9F%E3%83%8E%E3%82%A6%E3%83%A9-3%E6%9C%AC%E3%83%AD%E3%83%BC%E3%83%A9%E3%83%BC-%E8%87%AA%E8%BB%A2%E8%BB%8A-%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8A%E3%83%BC/dp/B0BGWQP86T)
 - [Amazon | CXWXC 自転車 ローラー台 固定ローラー サイクルトレーナー 26～29インチ対応 6段階負荷調整 マグネット式 折り畳み リモコンシフター・マグライザー・専用クイックレリーズ付き（MT-04/ イエロー） | CXWXC | トレーニングバイク・マシーン](https://www.amazon.co.jp/%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8A%E3%83%BC-6%E6%AE%B5%E9%9A%8E%E8%B2%A0%E8%8D%B7%E8%AA%BF%E6%95%B4-26%EF%BD%9E28%E3%82%A4%E3%83%B3%E3%83%81%E5%AF%BE%E5%BF%9C-%E5%B0%82%E7%94%A8%E3%82%AF%E3%82%A4%E3%83%83%E3%82%AF%E3%83%AC%E3%83%AA%E3%83%BC%E3%82%BA-%E3%83%9E%E3%82%B0%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%BC%E4%BB%98%E3%81%8D/dp/B087BH3DN8) : ナット式は駄目ぽい
-
-- [mitome.in](https://mitome.in/) : 参考になる
 
 
 ## 寄付の検討

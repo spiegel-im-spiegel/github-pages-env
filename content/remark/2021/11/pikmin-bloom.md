@@ -17,7 +17,7 @@ pageType = "text"
 
 ちうわけで [Pikmin Bloom] 始めました。
 
-{{< fig-youtube id="ASiskYT0WME" title="Pikmin Bloom トレーラー - YouTube" >}}
+{{< fig-youtube id="sP8y-0K2wKE" title="Pikmin Bloom 紹介映像 - YouTube" >}}
 
 これなら無茶して膝を痛めるとかにはならないだろう（笑）
 まぁ，ノンビリやりますよ。
@@ -58,4 +58,4 @@ pageType = "text"
 {{% review-paapi "4150113513" %}} <!-- スノウ・クラッシュ -->
 {{% review-paapi "B07JQQTH3P" %}} <!-- 電脳コイル -->
 {{% review-paapi "B08MTK6LF3" %}} <!-- BOOM TOWN TRIP.30 -->
-<!-- eof -->
+{{% review-paapi "B00DWXBCJU" %}} <!-- 愛のうた ～ ピクミンCMソング -->
