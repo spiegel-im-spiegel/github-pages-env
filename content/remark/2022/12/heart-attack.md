@@ -222,6 +222,7 @@ Kindle 版は固定レイアウトなのでブラウザで [Kindle Cloud Reader]
 ## ブックマーク
 
 - [スポーツ庁 Web広報マガジン｜「運動強度（METs）」で見る、効果的な身体活動は？](https://sports.go.jp/tag/life/mets.html)
+- [心臓リハビリテーションって何をするの？心リハ指導士が伝えるリハビリの意義 | はとらく](https://hatoraku.com/20221122-2/)
 
 ## 参考
 

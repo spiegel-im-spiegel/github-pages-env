@@ -123,3 +123,4 @@ pageType = "text"
 - [ツイッターの混乱で注目、分散型SNS「Mastodon」創設者が語るユーザー急増と運営理念のこれから | WIRED.jp](https://wired.jp/article/the-man-behind-mastodon-eugen-rochko-built-it-for-this-moment/)
 - [無料かつ広告も表示されない写真特化型SNS「Pixelfed」を使ってみたよレビュー - GIGAZINE](https://gigazine.net/news/20221224-pixelfed/)
 - [絵や文を作るオタク向けの個人的マストドンサーバーおすすめ｜XM2design/xanac｜note](https://note.com/xanac13/n/n4242244b89ec)
+- [マストドンを5年間管理してきて｜辺境領主｜note](https://note.com/glorificatio/n/nfdd3e9a276b7)
