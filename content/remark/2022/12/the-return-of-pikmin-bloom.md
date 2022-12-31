@@ -1,11 +1,10 @@
 +++
 title = "Pikmin Bloom と FitBit との連携"
-date =  "2022-12-31T18:00:32+09:00"
-description = "description"
+date =  "2022-12-31T21:35:13+09:00"
+description = "Health Connect を経由して Google Fit と Fitbit を連携させることは可能らしい。"
 image = "/images/attention/kitten.jpg"
-tags = [ "game", "disease" ]
+tags = [ "game", "disease", "tools" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
