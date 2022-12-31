@@ -51,7 +51,7 @@ pageType = "text"
 - [Python Software Foundation (@ThePSF@fosstodon.org) - Fosstodon](https://fosstodon.org/@ThePSF)
 - [GitHub - przemekperon/mastodon-it-lists: List of Mastodon users that toot about programming and IT.](https://github.com/przemekperon/mastodon-it-lists) : C#, .NET, Go, PHP, Python, Ruby, Rust, 他
 
-### 製品・サービス・組織公式アカウント（上記以外）
+### 製品・サービス・組織の公式アカウント（上記以外）
 
 - [Mastodon (@Mastodon@mastodon.social) - Mastodon](https://mastodon.social/@Mastodon)
 - [Electronic Frontier Foundation (@eff@mastodon.social) - Mastodon](https://mastodon.social/@eff)
@@ -65,6 +65,8 @@ pageType = "text"
 - [Cloudflare (@cloudflare@noc.social) - Noc.Social](https://noc.social/@cloudflare)
 - [Raspberry Pi :raspberrypi: (@Raspberry_Pi@raspberrypi.social) - Raspberry Pi](https://raspberrypi.social/@Raspberry_Pi)
 - [Blender (@Blender@mastodon.social) - Mastodon](https://mastodon.social/@Blender)
+- [mastodon.archive.org - Internet Archive](https://mastodon.archive.org/)
+  - [internetarchive (@internetarchive@mastodon.archive.org) - Internet Archive](https://mastodon.archive.org/@internetarchive)
 
 ### 各種ニュース
 
