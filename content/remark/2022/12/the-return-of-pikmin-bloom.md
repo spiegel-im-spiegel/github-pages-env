@@ -71,4 +71,5 @@ flowchart LR
 
 ## 参考
 
+{{% review-paapi "B08FSBNJG8" %}} <!-- Fitbit Inspire2 -->
 {{% review-paapi "B00DWXBCJU" %}} <!-- 愛のうた ～ ピクミンCMソング -->
