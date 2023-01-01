@@ -19,7 +19,7 @@ pageType = "text"
 
 {{< fig-img-quote src="./text-to-math-converter-1.png" title="Text to Math Converter" link="https://textmath.hyuki.net/" width="765" >}}
 
-出力結果の “𝐸 = 𝑚𝑐²” は Twitter や Mastodon の tweet や toot としてそのままコピペできる。
+変換結果の “𝐸 = 𝑚𝑐²” は Twitter や Mastodon の tweet や toot としてそのままコピペできる。
 
 {{< fig-gen >}}
 <iframe src="https://fedibird.com/@spiegel/109610792617725371/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://fedibird.com/embed.js" async="async"></script>
