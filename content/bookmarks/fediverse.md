@@ -51,6 +51,11 @@ pageType = "text"
 - [Python Software Foundation (@ThePSF@fosstodon.org) - Fosstodon](https://fosstodon.org/@ThePSF)
 - [GitHub - przemekperon/mastodon-it-lists: List of Mastodon users that toot about programming and IT.](https://github.com/przemekperon/mastodon-it-lists) : C#, .NET, Go, PHP, Python, Ruby, Rust, 他
 
+## 科学（主に天文学）関連
+
+- [Astrodon - The Astro Community](https://astrodon.social/)
+  - [UKSETI (@ukseti@astrodon.social) - Astrodon - The Astro Community](https://astrodon.social/@ukseti)
+
 ### 製品・サービス・組織の公式アカウント（上記以外）
 
 - [Mastodon (@Mastodon@mastodon.social) - Mastodon](https://mastodon.social/@Mastodon)

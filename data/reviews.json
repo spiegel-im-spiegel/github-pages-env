@@ -16040,7 +16040,7 @@
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2021-09-19",
+    "Date": "2015-12-02",
     "Rating": 4,
     "Star": [
       true,
@@ -21208,5 +21208,134 @@
       false
     ],
     "Description": "Pikmin Bloom で遊ぶときのBGM。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B086JBM9NZ",
+      "Title": "ときめきポポロン♪",
+      "URL": "https://www.amazon.co.jp/dp/B086JBM9NZ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51uwpV2eHXL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "チマメ隊",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "NBCUniversal Entertainment",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B086JBM9NZ"
+        }
+      ],
+      "PublicationDate": "2015-11-11",
+      "LastRelease": "2020-03-24",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2015-12-20",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "あざと可愛らしい曲。個人的にクリスマスソングとして聴いている（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B086JCNYQ7",
+      "Title": "ノーポイッ!",
+      "URL": "https://www.amazon.co.jp/dp/B086JCNYQ7?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51oA0+pCfpL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "Petit Rabbit's",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "NBCUniversal Entertainment",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B086JCNYQ7"
+        }
+      ],
+      "PublicationDate": "2015-11-11",
+      "LastRelease": "2020-03-24",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2015-12-02",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "「努力はそんなに実らない でもちょっぴりいいことありそう（あるよ） ♪♪」"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01FI3BM00",
+      "Title": "ときめきポポロン♪",
+      "URL": "https://www.amazon.co.jp/dp/B01FI3BM00?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/610BxLpAAFL._SL160_.jpg",
+        "Height": 158,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "チマメ隊",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "NBCUniversal Entertainment",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01FI3BM00"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2016-05-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2015-12-20",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "あざと可愛らしい曲。個人的にクリスマスソングとして聴いている（笑）"
   }
 ]

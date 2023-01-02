@@ -59,7 +59,9 @@ $ echo 𝑥⁴ | gnkf dump -u
 
 と展開されているわけだ。
 
-これらを踏まえて “[Text to Math Converter]” では利用可能な文字を
+これらを踏まえて “[Text to Math Converter]” では利用可能な文字[^u3] を
+
+[^u3]: 利用可能な文字や記号は随時追加されている。
 
 {{< fig-img-quote src="./text-to-math-converter-2.png" title="Text to Math Converter" link="https://textmath.hyuki.net/" width="701" >}}
 
