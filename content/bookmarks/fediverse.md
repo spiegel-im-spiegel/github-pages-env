@@ -40,11 +40,13 @@ pageType = "text"
   - [deadprogram (@deadprogram@social.tinygo.org) - TinyGo Humans](https://social.tinygo.org/@deadprogram)
   - [sago35 (@sago35@social.tinygo.org) - TinyGo Humans](https://social.tinygo.org/@sago35)
 - [TinyGo (@TinyGo@mastodon.social) - Mastodon](https://mastodon.social/@TinyGo)
-- [rob pike (@robpike@inuh.net) - Mastodon](https://inuh.net/@robpike)
+- [Rob Pike (@robpike@hachyderm.io) - Hachyderm.io](https://hachyderm.io/@robpike)
 - [mattn✅ (@mattn@mstdn.jp) - mstdn.jp](https://mstdn.jp/@mattn)
 - [Hajime Hoshi (@hajimehoshi@mstdn.jp) - mstdn.jp](https://mstdn.jp/@hajimehoshi) : [Ebitengine](https://github.com/hajimehoshi/ebiten "hajimehoshi/ebiten: Ebitengine - A dead simple 2D game engine for Go") の中の人
 - [tenntenn (@tenntenn@mstdn.jp) - mstdn.jp](https://mstdn.jp/@tenntenn) : 「素性がわかる人のみフォロー許可」だそうです
 - [syumai (@_syumai@mstdn.jp) - mstdn.jp](https://mstdn.jp/@_syumai)
+- [ikawaha (@ikawaha@mstdn.jp) - mstdn.jp](https://mstdn.jp/@ikawaha) : [kagome](https://zenn.dev/ikawaha/books/kagome-v2-japanese-tokenizer "実践：形態素解析 kagome v2") : の中の人
+- [zetamatta🍣升と丼.jp (@zetamatta@mstdn.jp) - mstdn.jp](https://mstdn.jp/@zetamatta) : [NYAGOS](https://github.com/nyaosorg/nyagos "nyaosorg/nyagos: NYAGOS - The hybrid Commandline Shell between UNIX & DOS") の中の人
 
 ### その他プログラミング言語関連
 
