@@ -45,7 +45,7 @@ pageType = "text"
 - [Hajime Hoshi (@hajimehoshi@mstdn.jp) - mstdn.jp](https://mstdn.jp/@hajimehoshi) : [Ebitengine](https://github.com/hajimehoshi/ebiten "hajimehoshi/ebiten: Ebitengine - A dead simple 2D game engine for Go") の中の人
 - [tenntenn (@tenntenn@mstdn.jp) - mstdn.jp](https://mstdn.jp/@tenntenn) : 「素性がわかる人のみフォロー許可」だそうです
 - [syumai (@_syumai@mstdn.jp) - mstdn.jp](https://mstdn.jp/@_syumai)
-- [ikawaha (@ikawaha@mstdn.jp) - mstdn.jp](https://mstdn.jp/@ikawaha) : [kagome](https://zenn.dev/ikawaha/books/kagome-v2-japanese-tokenizer "実践：形態素解析 kagome v2") : の中の人
+- [ikawaha (@ikawaha@mstdn.jp) - mstdn.jp](https://mstdn.jp/@ikawaha) : [kagome](https://zenn.dev/ikawaha/books/kagome-v2-japanese-tokenizer "実践：形態素解析 kagome v2") の中の人
 - [zetamatta🍣升と丼.jp (@zetamatta@mstdn.jp) - mstdn.jp](https://mstdn.jp/@zetamatta) : [NYAGOS](https://github.com/nyaosorg/nyagos "nyaosorg/nyagos: NYAGOS - The hybrid Commandline Shell between UNIX & DOS") の中の人
 
 ### その他プログラミング言語関連
@@ -53,7 +53,7 @@ pageType = "text"
 - [Python Software Foundation (@ThePSF@fosstodon.org) - Fosstodon](https://fosstodon.org/@ThePSF)
 - [GitHub - przemekperon/mastodon-it-lists: List of Mastodon users that toot about programming and IT.](https://github.com/przemekperon/mastodon-it-lists) : C#, .NET, Go, PHP, Python, Ruby, Rust, 他
 
-## 科学（主に天文学）関連
+### 科学（主に天文学）関連
 
 - [Astrodon - The Astro Community](https://astrodon.social/)
   - [UKSETI (@ukseti@astrodon.social) - Astrodon - The Astro Community](https://astrodon.social/@ukseti)

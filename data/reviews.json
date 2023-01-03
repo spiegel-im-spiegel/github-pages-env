@@ -21337,5 +21337,48 @@
       false
     ],
     "Description": "あざと可愛らしい曲。個人的にクリスマスソングとして聴いている（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08XQ7LWKD",
+      "Title": "ハロー・ワールド (講談社文庫)",
+      "URL": "https://www.amazon.co.jp/dp/B08XQ7LWKD?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51pjdxQV42L._SL160_.jpg",
+        "Height": 160,
+        "Width": 114
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "藤井太洋",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "講談社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08XQ7LWKD"
+        }
+      ],
+      "PublicationDate": "2021-03-12",
+      "LastRelease": "2021-03-12",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-01-04",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "まだ読んでない。"
   }
 ]
