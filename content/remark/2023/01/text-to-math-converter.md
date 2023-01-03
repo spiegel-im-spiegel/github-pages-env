@@ -63,9 +63,10 @@ $ echo 𝑥⁴ | gnkf dump -u
 
 [^u3]: 利用可能な文字や記号は随時追加されている。
 
-{{< fig-img-quote src="./text-to-math-converter-2.png" title="Text to Math Converter" link="https://textmath.hyuki.net/" width="701" >}}
+{{< fig-img-quote src="./text-to-math-converter-3.png" title="Text to Math Converter" link="https://textmath.hyuki.net/" width="966" >}}
+{{< fig-img-quote src="./text-to-math-converter-4.png" title="Text to Math Converter" link="https://textmath.hyuki.net/" width="967" >}}
 
-としているようだ（`a e o x` の下付き文字 `U+2090` 〜 `U+2093` がない理由は不明）。
+としているようだ（~~`a e o x` の下付き文字 `U+2090` 〜 `U+2093` がない理由は不明~~ ← 単純に抜けてたそうです。現在は入力可）。
 これ以外の文字は変換されずにそのまま出力されるみたい。
 たとえば `|a_m - a_n| < d` → |𝑎ₘ - 𝑎ₙ| < 𝑑 とかいった感じ。
 
