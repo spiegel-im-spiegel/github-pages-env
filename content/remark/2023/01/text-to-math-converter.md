@@ -48,9 +48,9 @@ $ echo 𝐸 = 𝑚𝑐² | gnkf dump -u
 {{< fig-img-quote src="./latin-1.png" title="ISO/IEC 8859-1 - Wikipedia" link="https://ja.wikipedia.org/wiki/ISO/IEC_8859-1" width="543" >}}
 
 この表を見ると上付き文字の数字は 1〜3 しかないな。
-0 や 4 以降はどうなってるかというと “{{< pdf-file title="Superscripts and Subscripts" link="http://www.unicode.org/charts/PDF/U2070.pdf">}}” (U+2070 〜 U+209F) で定義されているらしい。
+0 や 4 以降はどうなってるかというと “{{< pdf-file title="Superscripts and Subscripts" link="http://www.unicode.org/charts/PDF/U2070.pdf">}}” (`U+2070` 〜 `U+209F`) で定義されているらしい。
 
-つまり `x^4` → “𝑥⁴” は
+つまり `x^4` → 𝑥⁴ は
 
 ```text
 $ echo 𝑥⁴ | gnkf dump -u
@@ -67,11 +67,11 @@ $ echo 𝑥⁴ | gnkf dump -u
 
 としているようだ（`a e o x` の下付き文字 `U+2090` 〜 `U+2093` がない理由は不明）。
 これ以外の文字は変換されずにそのまま出力されるみたい。
-たとえば `|a_m - a_n| < d` → “|𝑎ₘ - 𝑎ₙ| < 𝑑” とかいった感じ。
+たとえば `|a_m - a_n| < d` → |𝑎ₘ - 𝑎ₙ| < 𝑑 とかいった感じ。
 
 しかし，まぁ，元日早々から Unicode の業の深さを垣間見てしまった感じである。
 でも “[Text to Math Converter]” 自体は面白いので，これからお世話になるかもしれない。
-もちろん，このブログでは MathJax で `$E = mc^2$` → “$E = mc^2$” と表記するので，本年もよろしくおねがいします。
+もちろん，このブログでは今までどおり MathJax で `$E = mc^2$` → $E = mc^2$ と表記するので，本年もよろしくおねがいします。
 
 ## ブックマーク
 
