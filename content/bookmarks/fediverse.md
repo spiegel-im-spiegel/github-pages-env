@@ -74,6 +74,9 @@ pageType = "text"
 - [Blender (@Blender@mastodon.social) - Mastodon](https://mastodon.social/@Blender)
 - [mastodon.archive.org - Internet Archive](https://mastodon.archive.org/)
   - [internetarchive (@internetarchive@mastodon.archive.org) - Internet Archive](https://mastodon.archive.org/@internetarchive)
+- [OpenStreetMap (@openstreetmap@en.osm.town) - En OSM Town | Mapstodon for OpenStreetMap](https://en.osm.town/@openstreetmap)
+- [VideoLAN (@videolan@floss.social) - FLOSS.social](https://floss.social/@videolan)
+- [Inkscape (@inkscape@mastodon.art) - Mastodon.ART](https://mastodon.art/@inkscape)
 
 ### 各種ニュース
 
