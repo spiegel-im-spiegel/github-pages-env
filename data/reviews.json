@@ -21443,5 +21443,132 @@
       true
     ],
     "Description": "新装版が出てた。『\u003ca href=\"https://www.amazon.co.jp/dp/4903127044?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1\"\u003e排除型社会\u003c/a\u003e』の続編。現代社会の過剰包摂（bulimia）について。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09NXV157W",
+      "Title": "加湿器 【1台3役】 超音波式加湿器 アロマディフューザー 大容量500ML ナイトライト 間接照明 電球色/明るさ調整可 上から給水 15時間連続加湿 アロマ対応 ＜30dB静音 乾燥対策 うるおい 空焚き防止 タイマー付き ミスト調整可 お手入れ簡単 寝室/リビング/会社用 卓上 大容量 人気 500ML ギフト",
+      "URL": "https://www.amazon.co.jp/dp/B09NXV157W?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/21zmwsSiQrL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "Rindon",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09NXV157W"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0719710486614"
+        },
+        {
+          "Name": "UPC",
+          "Value": "719710486614"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-01-06",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "冬場は部屋が乾燥して鼻の奥が乾く。ので，適度な潤いを求めて購入。超音波式。アロマは入れずに使っている。水が減るとミストの出が悪くなるのが玉に瑕。他は概ね問題なし。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07QW456TB",
+      "Title": "VOOPII エアロバイク マット エクササイズ フロアマット ランニングマシン マット 防振 防音 フィットネス トレーニング PVC ゴムマット 衝撃吸収 滑り止め (800*1250*6mm)",
+      "URL": "https://www.amazon.co.jp/dp/B07QW456TB?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41J1LIeVdrL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "VOOPII",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07QW456TB"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0655630014929"
+        },
+        {
+          "Name": "UPC",
+          "Value": "655630014929"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-01-06",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "フィットネスバイクを置く床が傷まないように購入。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08FZTLQG3",
+      "Title": "STEADY フィットネスバイク 【 Designed in Japan 独自開発の非接触式airホイール®︎ / 静音 / 専用モニター ( 心拍数 / 距離 / カロリー / スピード ) 折りたたみ 】ST102 負荷8段階 タブレットホルダー (2.ブラック（背もたれなし）)",
+      "URL": "https://www.amazon.co.jp/dp/B08FZTLQG3?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31DH6sqbuGL._SL160_.jpg",
+        "Height": 160,
+        "Width": 136
+      },
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08FZTLQG3"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4580559833602"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-01-06",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "決め手は省スペース。ただし，サドルが幅広で乗りにくいのとペダルがサドルよりかなり前方にあるせいで自転車のようには漕げない。ガチでペダリングの訓練がしたいならおすすめできない，けどまぁ心臓リハビリ用だし，と割り切れば悪くないと思う。"
   }
 ]
