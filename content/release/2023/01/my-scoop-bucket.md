@@ -18,10 +18,11 @@ pageType = "text"
 を見て「これならボクにもできそう」と思ったので作ってみた。
 
 まずは，[テンプレート・リポジトリ](https://github.com/ScoopInstaller/BucketTemplate "ScoopInstaller/BucketTemplate: Template Bucket for Scoop Installer")の GitHub ページで “Use this template” → “Create a new repository” で一式を fork する。
-規定ブランチが `master` なのでご注意を。
+既定ブランチが `master` なのでご注意を。
 
 あとは `README.md` を適当に修正して `bucket/` フォルダにマニフェスト・ファイル（`*.json`）を入れるだけ。
 
+マニフェスト・ファイルはパッケージごとに作成する。
 たとえば，拙作 [gpgpdump] ならファイル名を `bucket/gpgpdump.json` として，こんな感じに記述する。
 
 ```json
@@ -60,7 +61,7 @@ pageType = "text"
 
 シングルバイナリなので簡単！
 
-フォルダにマニフェスト・ファイルができたら commit & push で GitHub に送る。
+必要な数だけマニフェスト・ファイルができたら commit & push で GitHub に送る。
 すると GitHub Actions が走り出すので，終わるまで待ってエラーが出なければ無問題である。
 
 早速 Windows 環境で試してみよう。
