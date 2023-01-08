@@ -12,8 +12,10 @@
   - [オープンソースの老舗メールソフト「Sylpheed」、開発を「Subversion」から「GitHub」へ - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1460526.html)
   - Ubuntu 環境では apt で最新版がインストールできるっぽい
 
-- [Amazon | R730 LiveRoll 3本ローラー | ミノウラ(MINOURA) | スポーツ＆アウトドア](https://www.amazon.co.jp/MINOURA-%E3%83%9F%E3%83%8E%E3%82%A6%E3%83%A9-3%E6%9C%AC%E3%83%AD%E3%83%BC%E3%83%A9%E3%83%BC-%E8%87%AA%E8%BB%A2%E8%BB%8A-%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8A%E3%83%BC/dp/B0BGWQP86T)
-- [Amazon | CXWXC 自転車 ローラー台 固定ローラー サイクルトレーナー 26～29インチ対応 6段階負荷調整 マグネット式 折り畳み リモコンシフター・マグライザー・専用クイックレリーズ付き（MT-04/ イエロー） | CXWXC | トレーニングバイク・マシーン](https://www.amazon.co.jp/%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8A%E3%83%BC-6%E6%AE%B5%E9%9A%8E%E8%B2%A0%E8%8D%B7%E8%AA%BF%E6%95%B4-26%EF%BD%9E28%E3%82%A4%E3%83%B3%E3%83%81%E5%AF%BE%E5%BF%9C-%E5%B0%82%E7%94%A8%E3%82%AF%E3%82%A4%E3%83%83%E3%82%AF%E3%83%AC%E3%83%AA%E3%83%BC%E3%82%BA-%E3%83%9E%E3%82%B0%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%BC%E4%BB%98%E3%81%8D/dp/B087BH3DN8) : ナット式は駄目ぽい
+- [Breaking RSA with a Quantum Computer - Schneier on Security](https://www.schneier.com/blog/archives/2023/01/breaking-rsa-with-a-quantum-computer.html)
+  - [ブログ: 量子コンピュータでRSAを解読](https://okuranagaimo.blogspot.com/2023/01/rsa.html)
+- [NIST Retires SHA-1 Cryptographic Algorithm | NIST](https://www.nist.gov/news-events/news/2022/12/nist-retires-sha-1-cryptographic-algorithm)
+- [おれおれ scoop バケットを作ろう｜scoop / nyagos で始めるコマンドライン生活](https://zenn.dev/zetamatta/books/5ac80a9ddb35fef9a146/viewer/cccccc)
 
 
 ## 寄付の検討

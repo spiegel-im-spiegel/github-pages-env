@@ -95,6 +95,7 @@ tags = [ "openpgp", "gnupg", "bookmark" ]
 - [Forwarding gpg-agent to a remote system over SSH - GnuPG wiki](https://wiki.gnupg.org/AgentForwarding)
 - [gpg-agentをforwardingしてホスト上で署名する - Qiita](https://qiita.com/kazumaemoto/items/b95b8ec5756209b14909)
 - [Yubikey5を手に入れたのでGPGを使ってみる(1/2)(GPG key作成編) - akashisnの日記](https://blog.akashisn.info/entry/2020/12/09/132652)
+- [cybrkyd - GPG quick-reference cheat sheet](https://cybrkyd.com/post/gpg-quick-reference-cheat-sheet/)
 
 ## 自作ツール
 

@@ -80,6 +80,8 @@ Twitter は堕ちた英雄として沈むのか，それともここから名誉
 
 ## ブックマーク
 
+- [文字通りポストTwitterを狙うPost.newsが面白そう｜徳力基彦（tokuriki）｜note](https://note.com/tokuriki/n/nb9e063f99cf5)
+
 - [情報の「遠吠え」]({{< ref "/remark/2020/08/information-howling.md" >}})
 
 ## 参考図書
