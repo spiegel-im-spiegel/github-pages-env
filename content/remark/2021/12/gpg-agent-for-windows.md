@@ -3,7 +3,7 @@ title = "Scoop 版 GnuPG 2.3 系の gpg-agent が動かない？"
 date =  "2021-12-07T21:35:57+09:00"
 description = "こういう調査を Azure Virtual Desktop でしたかったんだよね。"
 image = "/images/attention/kitten.jpg"
-tags = [ "gnupg", "windows", "azure", "install", "tools" ]
+tags = [ "gnupg", "windows", "azure", "install", "tools", "scoop" ]
 pageType = "text"
 
 [scripts]

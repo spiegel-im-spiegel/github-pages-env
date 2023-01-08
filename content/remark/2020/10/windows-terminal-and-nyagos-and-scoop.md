@@ -3,7 +3,7 @@ title = "Windows Terminal × NYAGOS × Scoop ＝ ♥"
 date =  "2020-10-27T22:17:46+09:00"
 description = "とりあえず ATOM エディタと NYAGOS を入れたい。"
 image = "/images/attention/kitten.jpg"
-tags = ["atom", "editor", "nyagos", "shell", "windows", "terminal", "gnupg", "git", "install"]
+tags = ["atom", "editor", "nyagos", "shell", "windows", "terminal", "gnupg", "git", "install", "scoop"]
 pageType = "text"
 
 [scripts]
