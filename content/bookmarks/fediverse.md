@@ -31,6 +31,9 @@ pageType = "text"
 - [prismosuite · GitLab](https://gitlab.com/prismosuite)
   - [prismosuite / prismo · GitLab](https://gitlab.com/prismosuite/prismo)
 - [Keyoxide](https://keyoxide.org/) : Mastodon と連携可能な Identity サービス
+- [GitHub - NicolasConstant/BirdsiteLive: An ethical bridge from Twitter](https://github.com/NicolasConstant/BirdsiteLive)
+  - [Closing the official BSL instance — Nicolas Constant - DevBlog](https://write.as/nicolas-constant/closing-the-official-bsl-instance)
+- [Write.as — A place for focused writing.](https://write.as) : ActivityPub 対応のブログサービス。現在は有料版のみ
 
 ## Mastodon サーバおよび主なアカウント
 
@@ -136,3 +139,4 @@ pageType = "text"
 - [絵や文を作るオタク向けの個人的マストドンサーバーおすすめ｜XM2design/xanac｜note](https://note.com/xanac13/n/n4242244b89ec)
 - [マストドンを5年間管理してきて｜辺境領主｜note](https://note.com/glorificatio/n/nfdd3e9a276b7)
 - [GitHub - davecheney/pub: pub, a tiny ActivityPub to Mastodon bridge](https://github.com/davecheney/pub)
+- [Mastodon — PaulStamatiou.com](https://paulstamatiou.com/mastodon/)
