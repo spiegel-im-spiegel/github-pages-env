@@ -60,6 +60,7 @@ pageType = "text"
 
 - [Astrodon - The Astro Community](https://astrodon.social/)
   - [UKSETI (@ukseti@astrodon.social) - Astrodon - The Astro Community](https://astrodon.social/@ukseti)
+- [ふぃふす☆すたぁ (@5thstar@mstdn.jp) - mstdn.jp](https://mstdn.jp/@5thstar)
 
 ### 製品・サービス・組織の公式アカウント（上記以外）
 
@@ -91,6 +92,17 @@ pageType = "text"
   - [ZDNet Japan(RSSfeed) (@zdnet@chaosphere.hostdon.jp) - カオスフィア](https://chaosphere.hostdon.jp/@zdnet) : 非公式
   - [WIRED.jp(RSSfeed) (@wired@chaosphere.hostdon.jp) - カオスフィア](https://chaosphere.hostdon.jp/@wired) : 非公式
   - [窓の杜(RSSfeed) (@forest@chaosphere.hostdon.jp) - カオスフィア](https://chaosphere.hostdon.jp/@forest) : 非公式
+
+### その他 気になる個人アカウント
+
+- [山田奨治 Shoji YAMADA (@yamadashoji@mstdn.jp) - mstdn.jp](https://mstdn.jp/@yamadashoji) : 『著作権は文化を発展させるのか: 人権と文化コモンズ』の著者
+- [藤井太洋, Taiyo Fujii (@taiyo@ostatus.taiyolab.com) - taiyolab.com](https://ostatus.taiyolab.com/@taiyo) : SF 作家
+- [Haruhiko Okumura (@h_okumura@mstdn.jp) - mstdn.jp](https://mstdn.jp/@h_okumura) : 『LaTeX2ε美文書作成入門』の著者
+- [yomoyomo (@yomoyomo@mstdn.jp) - mstdn.jp](https://mstdn.jp/@yomoyomo) : 『もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来』の著者
+- [結城浩@日常 (@hyuki@social.hyuki.net) - 結城浩のマストドン](https://social.hyuki.net/@hyuki) : 『数学ガール』の著者
+- [@h12o@blessedgeeks.com (@h12o@blessedgeeks.com) - Mastodon@BlessedGeeks.Com](https://mastodon.blessedgeeks.com/@h12o) : [Mastodon.Tokyo](https://mastodon.tokyo/) 運営者
+- [のえる (@noellabo@fedibird.com) - Fedibird](https://fedibird.com/@noellabo) : [fedibird.com](https://fedibird.com/) 運営者
+- [Masayuki Hatta (@mhatta@mastodon.social) - Mastodon](https://mastodon.social/@mhatta)
 
 ## Web ページを Mastodon でシェアする
 
