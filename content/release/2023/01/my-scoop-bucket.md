@@ -129,6 +129,119 @@ repository: https://github.com/goark/gpgpdump
 問題は登録しているツールのバージョンを上げるたびに対応するマニフェスト・ファイルも更新しないといけないところかな。
 手で直すのは手間なので，何らかのバッチ処理を考えないとな。
 
+## 【2022-01-09 追記】make-scoop-manifest でマニフェスト・ファイルを生成する
+
+- [hymkor/make-scoop-manifest: Make scoop manifest （そのまんまや！）](https://github.com/hymkor/make-scoop-manifest)
+
+これを使えばマニフェスト・ファイルが簡単に生成できるようだ。
+ありがたや {{< emoji "ペコン" >}}
+
+私の場合は [Usage-3](https://github.com/hymkor/make-scoop-manifest#usage-3) でいけそうかな[^msm1]。
+
+[^msm1]: 私は [GoReleaser](https://goreleaser.com/) + [GitHub Actions](https://github.com/goreleaser/goreleaser-action "goreleaser/goreleaser-action: GitHub Action for GoReleaser") でバイナリを自動生成してしまうので，手元にバイナリはないのだ。
+
+Windows 用のバイナリは[提供されている](https://github.com/hymkor/make-scoop-manifest/releases "Releases · hymkor/make-scoop-manifest")が，他のプラットフォーム用バイナリはないので，とりあえず以下のコマンドラインで試してみた。
+
+```text
+$ go run github.com/hymkor/make-scoop-manifest@latest -D -g goark/gpgpdump
+go: downloading github.com/hymkor/make-scoop-manifest v0.2.0
+/tmp/go-build3806744147/b001/exe/make-scoop-manifest  for linux/amd64 by go1.19.4
+Get: https://api.github.com/repos/goark/gpgpdump/releases
+Download: https://github.com/goark/gpgpdump/releases/download/v0.15.0/gpgpdump_0.15.0_Windows_64bit.zip
+Download: https://github.com/goark/gpgpdump/releases/download/v0.15.0/gpgpdump_0.15.0_Windows_ARM64.zip
+Get: https://api.github.com/repos/goark/gpgpdump
+{
+    "version": "0.15.0",
+    "description": "OpenPGP packet visualizer",
+    "homepage": "https://github.com/goark/gpgpdump",
+    "license": "Apache License 2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/goark/gpgpdump/releases/download/v0.15.0/gpgpdump_0.15.0_Windows_64bit.zip",
+            "hash": "be818119dc650f245aa8665f1af155b9d14c17c70e617517e817d81acb244151"
+        },
+        "arm64": {
+            "url": "https://github.com/goark/gpgpdump/releases/download/v0.15.0/gpgpdump_0.15.0_Windows_ARM64.zip",
+            "hash": "73d999250dc4a03b2298aa88271a34db2ff1cd3013428243b2e28afaed95aa5e"
+        }
+    },
+    "bin": [
+        "gpgpdump.exe"
+    ],
+    "checkver": {
+        "github": "https://github.com/goark/gpgpdump",
+        "regex": "tag/([\\d\\._]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/goark/gpgpdump/releases/download/v$version/gpgpdump_$version_Windows_64bit.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/goark/gpgpdump/releases/download/v$version/gpgpdump_$version_Windows_ARM64.zip"
+            }
+        }
+    }
+}
+```
+
+おー。
+いけるいける。
+
+というわけで，早速 [Task] 用の設定ファイルを書いて一括処理できるようにする。
+こんな感じ。
+
+```yaml
+version: '3'
+
+tasks:
+  default:
+    deps: [depm, gnkf, gpgpdump, ml]
+
+  depm:
+    dir: bucket/
+    deps: [build-make-scoop-manifest]
+    cmds:
+      - make-scoop-manifest -D -g goark/depm > depm.json
+    generates:
+      - depm.json
+
+  gnkf:
+    dir: bucket/
+    deps: [build-make-scoop-manifest]
+    cmds:
+      - make-scoop-manifest -D -g goark/gnkf > gnkf.json
+    generates:
+      - gnkf.json
+
+  gpgpdump:
+    dir: bucket/
+    deps: [build-make-scoop-manifest]
+    cmds:
+      - make-scoop-manifest -D -g goark/gpgpdump > gpgpdump.json
+    generates:
+      - gpgpdump.json
+
+  ml:
+    dir: bucket/
+    deps: [build-make-scoop-manifest]
+    cmds:
+      - make-scoop-manifest -D -g goark/depm > ml.json
+    generates:
+      - ml.json
+
+  build-make-scoop-manifest:
+    desc: Build make-scoop-manifest command.
+    run: once
+    cmds:
+      - go install github.com/hymkor/make-scoop-manifest@latest
+```
+
+もうちょっとスマートに書きたいが ...まぁいいか。
+
+これでバージョンアップの度に手書きで更新しなくてよくなった。
+めでたし！
+
 ## ブックマーク
 
 - [scoop / nyagos で始めるコマンドライン生活](https://zenn.dev/zetamatta/books/5ac80a9ddb35fef9a146)
@@ -137,3 +250,4 @@ repository: https://github.com/goark/gpgpdump
 - [GitHubで自分以外の人がmainブランチに直接PUSHするのを禁止する](https://zenn.dev/ttani/articles/github-approval-self)
 
 [gpgpdump]: https://github.com/goark/gpgpdump "goark/gpgpdump: OpenPGP packet visualizer"
+[Task]: https://taskfile.dev/
