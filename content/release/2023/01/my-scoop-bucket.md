@@ -42,10 +42,7 @@ pageType = "text"
         }
     },
     "bin": "gpgpdump.exe",
-    "checkver": {
-        "url": "https://github.com/goark/gpgpdump",
-        "regex": "tag/([\\d\\._]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
@@ -132,6 +129,7 @@ repository: https://github.com/goark/gpgpdump
 ## 【2022-01-09 追記】make-scoop-manifest でマニフェスト・ファイルを生成する
 
 - [hymkor/make-scoop-manifest: Make scoop manifest （そのまんまや！）](https://github.com/hymkor/make-scoop-manifest)
+- [scoop のマニフェストファイルを作るツールを公開しました - 標準愚痴出力](https://zetamatta.hatenablog.com/entry/2023/01/10/111205)
 
 これを使えばマニフェスト・ファイルが簡単に生成できるようだ。
 ありがたや {{< emoji "ペコン" >}}
@@ -144,7 +142,7 @@ Windows 用のバイナリは[提供されている](https://github.com/hymkor/m
 
 ```text
 $ go run github.com/hymkor/make-scoop-manifest@latest -D -g goark/gpgpdump
-go: downloading github.com/hymkor/make-scoop-manifest v0.2.0
+go: downloading github.com/hymkor/make-scoop-manifest v0.2.2
 /tmp/go-build3806744147/b001/exe/make-scoop-manifest  for linux/amd64 by go1.19.4
 Get: https://api.github.com/repos/goark/gpgpdump/releases
 Download: https://github.com/goark/gpgpdump/releases/download/v0.15.0/gpgpdump_0.15.0_Windows_64bit.zip
@@ -168,10 +166,7 @@ Get: https://api.github.com/repos/goark/gpgpdump
     "bin": [
         "gpgpdump.exe"
     ],
-    "checkver": {
-        "github": "https://github.com/goark/gpgpdump",
-        "regex": "tag/([\\d\\._]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
