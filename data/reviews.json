@@ -21570,5 +21570,85 @@
       false
     ],
     "Description": "決め手は省スペース。ただし，サドルが幅広で乗りにくいのとペダルがサドルよりかなり前方にあるせいで自転車のようには漕げない。ガチでペダリングの訓練がしたいならおすすめできない，けどまぁ心臓リハビリ用だし，と割り切れば悪くないと思う。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BQX9QTRH",
+      "Title": "パイロット フリクションボールノックゾーン替芯 0.5mm ブルー 2本入 LFBKRF50EF-2L",
+      "URL": "https://www.amazon.co.jp/dp/B0BQX9QTRH?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41Rwioapq+L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "PILOT",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BQX9QTRH"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4902505646621"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-01-12",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "プレミアムフリクションインキ。青の替え芯を発注してみた。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BQVZJ99R",
+      "Title": "パイロット フリクションボールノックゾーン 0.7mm オールタイムブラック LFBKZ-50F-AB",
+      "URL": "https://www.amazon.co.jp/dp/B0BQVZJ99R?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/218PHBLyPoL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "PILOT",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BQVZJ99R"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4902505646577"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-01-12",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "書き味はよい。なんかインクか違うらしい。"
   }
 ]
