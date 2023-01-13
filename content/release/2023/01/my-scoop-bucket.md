@@ -61,6 +61,10 @@ pageType = "text"
 必要な数だけマニフェスト・ファイルができたら commit & push で GitHub に送る。
 すると GitHub Actions が走り出すので，終わるまで待ってエラーが出なければ無問題である。
 
+最終的にはこんな感じのリポジトリになった。
+
+- [goark/scoop-bucket: Scoop Bucket for goark binaries](https://github.com/goark/scoop-bucket)
+
 早速 Windows 環境で試してみよう。
 
 まずは，既存の bucket に [gpgpdump] がないことを確認する。
