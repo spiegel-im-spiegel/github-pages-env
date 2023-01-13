@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/goark/go-cvss v1.3.0
-	golang.org/x/text v0.3.7
+	golang.org/x/text v0.6.0
 )
 
 require github.com/goark/errs v1.1.0 // indirect

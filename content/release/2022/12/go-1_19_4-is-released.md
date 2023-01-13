@@ -25,7 +25,19 @@ The `os.DirFS` function and `http.Dir` type provide access to a tree of files ro
 In addition, on Windows, an `os.DirFS` for the directory `\`(the root of the current drive) can permit a maliciously crafted path to escape from the drive and access any path on the system.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N`
+- 深刻度: 重要 (Score: 7.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | 高 |
+| 完全性への影響 | なし |
+| 可用性への影響 | なし |
 
 ## [CVE-2022-41717] net/http: limit canonical header cache by bytes, not entries
 
@@ -42,7 +54,19 @@ The `os.DirFS` function and `http.Dir` type provide access to a tree of files ro
 In addition, on Windows, an `os.DirFS` for the directory `\`(the root of the current drive) can permit a maliciously crafted path to escape from the drive and access any path on the system.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L`
+- 深刻度: 警告 (Score: 5.3)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | なし |
+| 可用性への影響 | 低 |
 
 ## 例によって...
 
@@ -61,7 +85,8 @@ $ go version # /usr/local/go/bin にパスが通っている場合
 go version go1.19.4 linux/amd64
 ```
 
-Windows は [Scoop] 経由で OK
+Windows はインストールパッケージを取ってきて直接インストールする。
+[Scoop] 経由でも OK
 
 アップデートは計画的に。
 
