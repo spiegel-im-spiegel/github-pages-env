@@ -84,6 +84,10 @@ func main() {
 
 - [「暦」日本史 （再掲載）]({{< ref "/remark/2015/japanese-koyomi.md" >}})
 
+### 「明治の改暦」関連ブックマーク
+
+- [暦Wiki/歴史/日本の暦/6.明治維新と太陽暦 - 国立天文台暦計算室](https://eco.mtk.nao.ac.jp/koyomi/wiki/CEF2BBCB2FC6FCCBDCA4CECEF12F6.CCC0BCA3B0DDBFB7A4C8C2C0CDDBCEF1.html)
+
 ## 今年は卯年らしいので
 
 2015年に出雲大社で撮った写真など。

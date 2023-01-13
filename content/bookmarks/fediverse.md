@@ -73,7 +73,6 @@ pageType = "text"
   - [Keyoxide (@keyoxide@fosstodon.org) - Fosstodon](https://fosstodon.org/@keyoxide)
   - [Task (@task@fosstodon.org) - Fosstodon](https://fosstodon.org/@task)
 - [Signal (@signalapp@mastodon.world) - Mastodon](https://mastodon.world/@signalapp)
-- [Don MacAskill (@d0n@sfba.social) - SFBA.social](https://sfba.social/@d0n) : Flickr CEO
 - [GIMP (@GIMP@floss.social) - FLOSS.social](https://floss.social/@GIMP)
 - [Cloudflare (@cloudflare@noc.social) - Noc.Social](https://noc.social/@cloudflare)
 - [Raspberry Pi :raspberrypi: (@Raspberry_Pi@raspberrypi.social) - Raspberry Pi](https://raspberrypi.social/@Raspberry_Pi)
@@ -84,12 +83,15 @@ pageType = "text"
   - [OpenStreetMap (@openstreetmap@en.osm.town) - En OSM Town | Mapstodon for OpenStreetMap](https://en.osm.town/@openstreetmap)
 - [VideoLAN (@videolan@floss.social) - FLOSS.social](https://floss.social/@videolan)
 - [Inkscape (@inkscape@mastodon.art) - Mastodon.ART](https://mastodon.art/@inkscape)
+- [me.dm by Medium.com](https://me.dm/) : Medium が提供するサーバ
+  - [Medium (@medium@me.dm) - me.dm by Medium.com](https://me.dm/@medium)
 
 ### 各種ニュース
 
 - [Hacker News Discussions (@hn_discussions@mastodon.social) - Mastodon](https://mastodon.social/@hn_discussions)
 - [Linux Magazine (@linuxmagazine@fosstodon.org) - Fosstodon](https://fosstodon.org/@linuxmagazine)
 - [Golang Weekly (@golang_discussions@mastodon.social) - Mastodon](https://mastodon.social/@golang_discussions)
+- [Rust Weekly (@rust_discussions@mastodon.social) - Mastodon](https://mastodon.social/@rust_discussions)
 - [カオスフィア](https://chaosphere.hostdon.jp/@rssfeed/following) より
   - [ZDNet Japan(RSSfeed) (@zdnet@chaosphere.hostdon.jp) - カオスフィア](https://chaosphere.hostdon.jp/@zdnet) : 非公式
   - [WIRED.jp(RSSfeed) (@wired@chaosphere.hostdon.jp) - カオスフィア](https://chaosphere.hostdon.jp/@wired) : 非公式
@@ -97,6 +99,7 @@ pageType = "text"
 
 ### その他 気になる個人アカウント
 
+- [Don MacAskill (@d0n@sfba.social) - SFBA.social](https://sfba.social/@d0n) : Flickr CEO
 - [山田奨治 Shoji YAMADA (@yamadashoji@mstdn.jp) - mstdn.jp](https://mstdn.jp/@yamadashoji) : 『著作権は文化を発展させるのか: 人権と文化コモンズ』の著者
 - [藤井太洋, Taiyo Fujii (@taiyo@ostatus.taiyolab.com) - taiyolab.com](https://ostatus.taiyolab.com/@taiyo) : SF 作家
 - [Haruhiko Okumura (@h_okumura@mstdn.jp) - mstdn.jp](https://mstdn.jp/@h_okumura) : 『LaTeX2ε美文書作成入門』の著者
@@ -154,3 +157,5 @@ pageType = "text"
 - [マストドンを5年間管理してきて｜辺境領主｜note](https://note.com/glorificatio/n/nfdd3e9a276b7)
 - [GitHub - davecheney/pub: pub, a tiny ActivityPub to Mastodon bridge](https://github.com/davecheney/pub)
 - [Mastodon — PaulStamatiou.com](https://paulstamatiou.com/mastodon/)
+- [Medium embraces Mastodon. The fediverse is a breath of fresh air… | by Tony Stubblebine | Jan, 2023 | 3 Min Read](https://blog.medium.com/medium-embraces-mastodon-19dcb873eb11)
+  - [Medium embraces Twitter alternative Mastodon with launch of its own community • TechCrunch](https://techcrunch.com/2023/01/12/medium-embraces-twitter-alternative-mastodon-with-launch-of-its-own-community/)
