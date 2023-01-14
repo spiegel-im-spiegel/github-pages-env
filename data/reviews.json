@@ -21650,5 +21650,48 @@
       false
     ],
     "Description": "書き味はよい。なんかインクか違うらしい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0191845R0",
+      "Title": "鉄道が変えた社寺参詣 (交通新聞社新書)",
+      "URL": "https://www.amazon.co.jp/dp/B0191845R0?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41eoVFqiaEL._SL160_.jpg",
+        "Height": 160,
+        "Width": 97
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "平山昇",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "交通新聞社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0191845R0"
+        }
+      ],
+      "PublicationDate": "2012-10-15",
+      "LastRelease": "2015-12-07",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-01-14",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "面白そうなのでポチってみた。これから読む。"
   }
 ]
