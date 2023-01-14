@@ -85,6 +85,7 @@ pageType = "text"
 - [Inkscape (@inkscape@mastodon.art) - Mastodon.ART](https://mastodon.art/@inkscape)
 - [me.dm by Medium.com](https://me.dm/) : Medium が提供するサーバ
   - [Medium (@medium@me.dm) - me.dm by Medium.com](https://me.dm/@medium)
+- [Tailscale (@tailscale@hachyderm.io) - Hachyderm.io](https://hachyderm.io/@tailscale)
 
 ### 各種ニュース
 
