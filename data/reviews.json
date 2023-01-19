@@ -21693,5 +21693,52 @@
       false
     ],
     "Description": "面白そうなのでポチってみた。これから読む。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BPRQ5W7F",
+      "Title": "異世界に転移したら山の中だった。反動で強さよりも快適さを選びました。10 (ツギクルブックス)",
+      "URL": "https://www.amazon.co.jp/dp/B0BPRQ5W7F?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51VGgatFecL._SL160_.jpg",
+        "Height": 160,
+        "Width": 108
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "じゃがバター",
+          "Role": "著"
+        },
+        {
+          "Name": "岩崎 美奈子",
+          "Role": "イラスト"
+        }
+      ],
+      "Publisher": "ツギクル",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BPRQ5W7F"
+        }
+      ],
+      "PublicationDate": "2023-01-06",
+      "LastRelease": "2023-01-10",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-01-19",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "ついに10巻突入！ 安定の面白さ。負けるな，ハウロンおじいちゃん（笑）"
   }
 ]
