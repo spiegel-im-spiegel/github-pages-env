@@ -21740,5 +21740,99 @@
       false
     ],
     "Description": "ついに10巻突入！ 安定の面白さ。負けるな，ハウロンおじいちゃん（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BQH9LFC8",
+      "Title": "悪役令嬢になんかなりません。私は『普通』の公爵令嬢です！ 11 (カドカワBOOKS)",
+      "URL": "https://www.amazon.co.jp/dp/B0BQH9LFC8?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51pAMiRXPDL._SL160_.jpg",
+        "Height": 160,
+        "Width": 108
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "明。",
+          "Role": "著"
+        },
+        {
+          "Name": "秋咲 りお",
+          "Role": "イラスト"
+        }
+      ],
+      "Publisher": "KADOKAWA",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BQH9LFC8"
+        }
+      ],
+      "PublicationDate": "2023-01-10",
+      "LastRelease": "2023-01-10",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-01-21",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "ついに最終巻！ って，後日談は書かないのかな？"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0B33Z9F22",
+      "Title": "残り一日で破滅フラグ全部へし折ります　１　ざまぁRTA記録24Hr. (ＦＬＯＳ　ＣＯＭＩＣ)",
+      "URL": "https://www.amazon.co.jp/dp/B0B33Z9F22?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51dZYARtGgL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "天城 望",
+          "Role": "著"
+        },
+        {
+          "Name": "福留 しゅん",
+          "Role": "その他"
+        }
+      ],
+      "Publisher": "KADOKAWA",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0B33Z9F22"
+        }
+      ],
+      "PublicationDate": "2022-06-17",
+      "LastRelease": "2022-06-17",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-06-17",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "ラノベのほうは展開のスピード感があって面白かったが，絵がつくとまた違うねぇ。"
   }
 ]
