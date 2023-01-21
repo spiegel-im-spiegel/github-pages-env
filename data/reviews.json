@@ -21834,5 +21834,92 @@
       false
     ],
     "Description": "ラノベのほうは展開のスピード感があって面白かったが，絵がつくとまた違うねぇ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0002Q2LIG",
+      "Title": "ミュージックファイルシリーズ/テレビ・ミュージック・コレクション プリンプリン物語 ソング・ブック",
+      "URL": "https://www.amazon.co.jp/dp/B0002Q2LIG?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61n91GCkvlL._SL160_.jpg",
+        "Height": 160,
+        "Width": 158
+      },
+      "ProductType": "CD",
+      "Creators": [
+        {
+          "Name": "TVサントラ",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "神谷明",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "里見京子",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "三波豊和",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "緒方賢一",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "真理ヨシコ",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "パンチョ加賀美",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "石川ひとみ",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "新道乃里子",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "滝口順平",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "はせさん治",
+          "Role": "アーティスト"
+        }
+      ],
+      "Publisher": "日本コロムビア",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0002Q2LIG"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4988001972143"
+        }
+      ],
+      "PublicationDate": "2004-09-21",
+      "LastRelease": "2004-09-22",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-01-21",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アクタ共和国国歌が好き。"
   }
 ]
