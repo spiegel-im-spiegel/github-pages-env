@@ -21,6 +21,7 @@ pageType = "text"
   - [Release v0.5.0 · hymkor/make-scoop-manifest · GitHub](https://github.com/hymkor/make-scoop-manifest/releases/tag/v0.5.0)
 - [Release November 2022 Recovery 3 · microsoft/vscode · GitHub](https://github.com/microsoft/vscode/releases/tag/1.74.3)
 - [LibreOffice 7.4.4 Community available for download - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2023/01/12/libreoffice-7-4-4-community/)
+  - [「LibreOffice 7.4.4 Community」が公開 ～「LibreOffice 7.3」ユーザーは移行を - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1469955.html)
 - [Announcing Rust 1.66.1 | Rust Blog](https://blog.rust-lang.org/2023/01/10/Rust-1.66.1.html)
 - [Release v3.20.0 · go-task/task · GitHub](https://github.com/go-task/task/releases/tag/v3.20.0)
 - [Release v4.0.2 · gitextensions/gitextensions · GitHub](https://github.com/gitextensions/gitextensions/releases/tag/v4.0.2)
@@ -42,6 +43,10 @@ pageType = "text"
   - [Release Git for Windows 2.39.1 · git-for-windows/git · GitHub](https://github.com/git-for-windows/git/releases/tag/v2.39.1.windows.1)
   - [「Git」に3件の脆弱性 ～修正版のv2.39.1が公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1471256.html)
 - [「Microsoft Defender」がショートカットファイルを破壊・削除 ～Microsoftが対策、復旧策を案内【1月17日追記】 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1470371.html)
+- [「Password1234」などの超単純パスワードがアメリカ政府機関で大量に使われていた - GIGAZINE](https://gigazine.net/news/20230112-us-department-password/)
+- [システム障害による米国内全便のフライト一時停止についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2023/01/14/010942)
+- [Zero Trust monitoring with OpenZiti](https://blog.openziti.io/zero-trust-monitoring-with-openziti)
+- [SSLVPNdにおけるヒープベースのバッファオーバーフローの解析｜ネットワークセキュリティのフォーティネット](https://www.fortinet.com/jp/blog/psirt-blogs/analysis-of-fg-ir-22-398-fortios-heap-based-buffer-overflow-in-sslvpnd)
 
 ## 知財関連 {#ip}
 
@@ -53,12 +58,15 @@ pageType = "text"
 - [著作権ウィーク：クリエイティビティとイノベーションのための著作権のあり方 | p2ptk[.]org](https://p2ptk.org/copyright/4284)
 - [カナダ、著作権法改正により著作権保護期間が著作権者の死後50年から70年に延長 | カレントアウェアネス・ポータル](https://current.ndl.go.jp/car/170536)
   - [米国：著作権保護期間延長の流れは止まるも、脅威にさらされ続けるパブリックドメイン | p2ptk[.]org](https://p2ptk.org/copyright/4286)
+- [Native Americans ask Apache foundation to change name • The Register](https://www.theregister.com/2023/01/11/native_american_apache_software_foundation/)
+- [藤井聡太さん関連商標出願における特許庁の気配りについて（栗原潔） - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/kuriharakiyoshi/20230112-00332521)
 
 ## Linux または Ubuntu に関する話題 {#linux}
 
 - [2021年10月以降の Mozc に対する主な変更](https://zenn.dev/komatsuh/articles/9821ea8be015f0)
 - [Ubuntu 23.04 その7 - Ubuntuにプリインストールする壁紙のコンペ（公募）始まる - kledgeb](https://kledgeb.blogspot.com/2023/01/ubuntu-2304-7-ubuntu.html)
 - [Ubuntu 23.04 その8 - tzdataパッケージからposixとrightディレクトリーを削除する提案 - kledgeb](https://kledgeb.blogspot.com/2023/01/ubuntu-2304-8-tzdataposixright.html)
+- [mozc-utの公開の終了といろいろについての所感](https://zenn.dev/centra/articles/mozc-ut-ended-its-publication-and-gotagota)
 - [Mozc を応援するいくつかの方法](https://zenn.dev/komatsuh/articles/91def2bc633a8d)
 - [最近またLinux用の日本語IMEを作っている - tokuhirom's blog](https://blog.64p.org/entry/2023/01/16/032912)
 - [Unix is dead. Long live Unix! • The Register](https://www.theregister.com/2023/01/17/unix_is_dead/)
@@ -89,6 +97,7 @@ pageType = "text"
 - [A CHIP-8 interpreter with Rust and Go | Callista](https://callistaenterprise.se/blogg/teknik/2023/01/01/chip8-with-rust-and-go/)
 - [GoReleaser で Go 製 CLI のリリースを自動化＆ Homebrew でインストールできるようにする](https://zenn.dev/kou_pg_0131/articles/goreleaser-usage)
 - [What’s New in Go: The Developer Ecosystem Report 2022 | The GoLand Blog](https://blog.jetbrains.com/go/2023/01/17/what-s-new-in-go-the-developer-ecosystem-report-2022/)
+- [GitHub - TypicalAM/goread: A beautiful program to read your RSS feeds right in the terminal!](https://github.com/TypicalAM/goread)
 
 ## Java  言語関連 {#java}
 
@@ -124,3 +133,5 @@ pageType = "text"
 - [Dapr Actor Componentの逐次実行はどこで保証されている？ - Qiita](https://qiita.com/Syuparn/items/ae87e59449463338f7c0)
 - [1920年代クロスワードパズルが起こしたモラルパニック - 井出草平の研究ノート](https://ides.hatenablog.com/entry/2021/08/29/092342)
 - [Deconstructing 'The Twitter Files' • TechCrunch](https://techcrunch.com/2023/01/13/deconstructing-the-twitter-files/)
+- [GitHub - life4/enc: 🔑🔒 A modern and friendly CLI alternative to GnuPG: generate and download keys, encrypt, decrypt, and sign text and files, and more.](https://github.com/life4/enc)
+- [この10年のプログラミング言語の変化 - 西尾泰和のScrapbox](https://scrapbox.io/nishio/%E3%81%93%E3%81%AE10%E5%B9%B4%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9E%E3%81%AE%E5%A4%89%E5%8C%96)

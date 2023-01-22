@@ -160,3 +160,4 @@ pageType = "text"
 - [Mastodon — PaulStamatiou.com](https://paulstamatiou.com/mastodon/)
 - [Medium embraces Mastodon. The fediverse is a breath of fresh air… | by Tony Stubblebine | Jan, 2023 | 3 Min Read](https://blog.medium.com/medium-embraces-mastodon-19dcb873eb11)
   - [Medium embraces Twitter alternative Mastodon with launch of its own community • TechCrunch](https://techcrunch.com/2023/01/12/medium-embraces-twitter-alternative-mastodon-with-launch-of-its-own-community/)
+- [GitHub - superseriousbusiness/gotosocial: Fast, fun, ActivityPub server, powered by Go.](https://github.com/superseriousbusiness/gotosocial)
