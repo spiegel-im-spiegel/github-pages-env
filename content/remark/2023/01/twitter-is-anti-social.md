@@ -38,7 +38,7 @@ pageType = "text"
 Tweets を時系列に並べたら Twitter Blue ユーザ優先の TL にならないからね。
 なかなか姑息なことをする。
 
-つまり Twitter は本格的に walled-garden に引きこもる方向に舵を切ったようだ。
+思へらく Twitter は本格的に walled-garden に引きこもる方向に舵を切ったようだ。
 
 {{< fig-img-quote src="./5970792036_59dd686fde_e.jpg" title="Houghton Hall - Walled Garden - Rose Garden - fountain | Flickr (CC-BY)" link="https://www.flickr.com/photos/ell-r-brown/5970792036" lang="en" >}}
 
@@ -60,6 +60,10 @@ Tweets を時系列に並べたら Twitter Blue ユーザ優先の TL になら�
 それなら Mastodon 連合のどこかに寄付するほうがマシって話にならないか？
 
 さて，2023年の Twitter はどこへ行くのか。
+
+## ブックマーク
+
+- [Twitterのサードパーティーアプリ制限が悲しい - まなめはうす](https://maname.hatenablog.com/entry/2023/01/21/072250)
 
 ## 参考文献
 
