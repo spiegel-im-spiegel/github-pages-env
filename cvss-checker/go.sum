@@ -1,6 +1,6 @@
 github.com/goark/errs v1.1.0 h1:FKnyw4LVyRADIjM8Nj0Up6r0/y5cfADvZAd1E+tthXE=
 github.com/goark/errs v1.1.0/go.mod h1:TtaPEoadm2mzqzfXdkkfpN2xuniCFm2q4JH+c1qzaqw=
-github.com/goark/go-cvss v1.3.0 h1:MItNedK1j4B6r+HV5pwYFBA44rD0c1yfQCNqiHJ3tJE=
-github.com/goark/go-cvss v1.3.0/go.mod h1:IQIHDqVqfWJ4O+cOp3BknQCBI3i1lOuPtWBR17aOcqM=
+github.com/goark/go-cvss v1.3.1 h1:LkmvM98sesT4KXkMOIPvcwGqra4XMtcm+k/K3cqt8Vo=
+github.com/goark/go-cvss v1.3.1/go.mod h1:iYbpm38JATPe80YuIRvK3yo3foN2SOO9Oi/T93yERnc=
 golang.org/x/text v0.6.0 h1:3XmdazWV+ubf7QgHSTWeykHOci5oeekaGJBLkrkaw4k=
 golang.org/x/text v0.6.0/go.mod h1:mrYo+phRRbMaCq/xk9113O4dZlRixOauAjOtrjsXDZ8=
