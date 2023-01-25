@@ -144,11 +144,13 @@ func As(err error, target any) bool {
 
 ちょっと長くて申し訳ないが，各関数の型 switch 文のなかで `Unwrap() []error` メソッドを含む型を評価しているのがおわかりだろうか。
 
-[Go] 1.20 では新設の [`errors`]`.Join()` 関数や [`fmt`]`.Errorf()` 関数の拡張でマルチエラーに対応するようだが，サードパーティのパッケージでも `Unwrap() []error` メソッドを追加することで [`errors`]`.Is()` 関数や [`errors`]`.As()` 関数による評価が可能になるわけだ。
+標準パッケージでは新設の [`errors`]`.Join()` 関数や [`fmt`]`.Errorf()` 関数の拡張でマルチエラーに対応するようだが，自前で error 型を作る場合でも `Unwrap() []error` メソッドを追加することで [`errors`]`.Is()` 関数や [`errors`]`.As()` 関数による評価が可能になるわけだ。
 
 ## ブックマーク
 
 - [Go 1.20 Wrapping multiple errors | フューチャー技術ブログ](https://future-architect.github.io/articles/20230126a/)
+
+- [Go のエラーハンドリング](https://zenn.dev/spiegel/books/error-handling-in-golang)
 
 [Go]: https://go.dev/
 [`errors`]: https://pkg.go.dev/errors "errors package - errors - Go Packages"
