@@ -21921,5 +21921,111 @@
       false
     ],
     "Description": "アクタ共和国国歌が好き。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4822285243",
+      "Title": "ピープルウエア 第3版",
+      "URL": "https://www.amazon.co.jp/dp/4822285243?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51CFepapBZL._SL160_.jpg",
+        "Height": 160,
+        "Width": 108
+      },
+      "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "トム・デマルコ",
+          "Role": "著"
+        },
+        {
+          "Name": "ティモシー・リスター",
+          "Role": "著"
+        },
+        {
+          "Name": "松原友夫",
+          "Role": "翻訳"
+        },
+        {
+          "Name": "山浦恒央",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "日経BP",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4822285243"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784822285241"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4822285243"
+        }
+      ],
+      "PublicationDate": "2013-12-18",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-01-28",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "とりあえず図書館で借りてためし読みする。面白かったら買う。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07YZ9R7T2",
+      "Title": "Alteration【アーティスト盤】",
+      "URL": "https://www.amazon.co.jp/dp/B07YZ9R7T2?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/5192XjlMY9L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "ZAQ",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Lantis",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07YZ9R7T2"
+        }
+      ],
+      "PublicationDate": "2013-01-23",
+      "LastRelease": "2019-10-24",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-01-28",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ「\u003ca href=\"https://www.amazon.co.jp/dp/B00FYKN2C4?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1\"\u003eささみさん＠がんばらない\u003c/a\u003e」のOP曲。 MP3 版で買い直した。 ZAQ さんの唄はよい。"
   }
 ]
