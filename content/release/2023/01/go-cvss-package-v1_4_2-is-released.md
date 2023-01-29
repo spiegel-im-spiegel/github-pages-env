@@ -102,6 +102,16 @@ $ go run main.go "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
 
 道具は適材適所で使いましょう，ということで。
 
+## 【2022-01-29 追記】 v1.4.4 をリリースした
+
+またバグ報告があったので修正版をリリースした。
+とほほ...
+
+- [Release v1.4.4 · goark/go-cvss · GitHub](https://github.com/goark/go-cvss/releases/tag/v1.4.4)
+
+今回のついでにスコアの計算周りのリファクタリングを行った。
+ちょっとスッキリ！
+
 ## ブックマーク
 
 - [CVSS v3.0 Specification Document](https://www.first.org/cvss/v3.0/specification-document)
