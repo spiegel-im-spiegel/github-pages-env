@@ -56,6 +56,14 @@ func main() {
 もうバグはないよなぁ。
 ないと思いたい。
 
+## 2022-01-31 追記
+
+その後のバグ報告で，上述の `Deprecated` マークを付けた `v2/base` パッケージはデータ構造上 CVSSv2 の仕様を満たせないことが分かったので v1.6.0 で drop した。
+
+- [Release v1.6.0 · goark/go-cvss · GitHub](https://github.com/goark/go-cvss/releases/tag/v1.6.0)
+
+とほほ `orz`
+
 ## ブックマーク
 
 - [CVSS v2 Complete Documentation](https://www.first.org/cvss/v2/guide)
