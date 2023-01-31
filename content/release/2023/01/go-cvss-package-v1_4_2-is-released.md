@@ -2,7 +2,7 @@
 title = "go-cvss パッケージ v1.4.2 をリリースした"
 date =  "2023-01-28T12:47:48+09:00"
 description = "さらに今回は fuzzing テストまでしてもらって，ホンマに「マジすんません」って感じである。"
-image = "/images/attention/tools.png"
+image = "/images/attention/go-logo_blue.png"
 tags  = [ "package", "module", "golang", "cvss" ]
 pageType = "text"
 
