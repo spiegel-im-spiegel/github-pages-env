@@ -7,22 +7,22 @@ import (
 	"github.com/goark/koyomi"
 )
 
-var weekShortNames = []string{"日", "月", "火", "水", "木", "金", "土"}
+var weekShortNames = [7]string{"日", "月", "火", "水", "木", "金", "土"}
 
 func WeekShortNameJp(dt koyomi.DateJp) string {
 	return weekShortNames[dt.Weekday()%7]
 }
 
 func main() {
-	start, _ := koyomi.DateFrom("2023-01-01")
-	end, _ := koyomi.DateFrom("2023-12-31")
+	start, _ := koyomi.DateFrom("2024-01-01")
+	end, _ := koyomi.DateFrom("2024-12-31")
 	k, err := koyomi.NewSource(
 		koyomi.WithCalendarID(
-			koyomi.Holiday,
-			koyomi.MoonPhase,
+			// koyomi.Holiday,
+			// koyomi.MoonPhase,
 			koyomi.SolarTerm,
-			koyomi.Eclipse,
-			koyomi.Planet,
+			// koyomi.Eclipse,
+			// koyomi.Planet,
 		),
 		koyomi.WithStartDate(start),
 		koyomi.WithEndDate(end),
@@ -39,7 +39,7 @@ func main() {
 	}
 }
 
-/* Copyright 2020-2022 Spiegel
+/* Copyright 2020-2023 Spiegel
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.

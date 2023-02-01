@@ -2,7 +2,7 @@ module ephemeris
 
 go 1.19
 
-require github.com/goark/koyomi v0.6.4
+require github.com/goark/koyomi v0.7.0
 
 require (
 	github.com/goark/errs v1.1.0 // indirect
