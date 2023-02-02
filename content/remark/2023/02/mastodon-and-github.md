@@ -17,7 +17,7 @@ pageType = "text"
 
 こんな風に URL を列挙し[^p1]，対応するサイトで
 
-[^p1]: Mastodon の標準では補足情報の URL は4つまで登録できるが Fedibird は8つまで拡張されている。
+[^p1]: Mastodon の標準では補足情報の URL は4つまで登録できるが Fedibird は8つまで拡張されている。ところで Fedibird は 2023-02 時点でユーザが26K人を超えたらしい。そんでしばらくは新規受付を止めるらしい（招待からのサインアップは継続とのこと）。これから Mastodon は目的別にアカウント@サーバを分散させるのが賢いかもしれない。
 
 ```html
 <a rel="me" href="https://hostname/@username">Mastodon</a>
