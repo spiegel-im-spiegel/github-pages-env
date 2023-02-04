@@ -37,6 +37,7 @@ pageType = "text"
 - [Cryptography Dispatches: DSA Is Past Its Prime](https://buttondown.email/cryptography-dispatches/archive/cryptography-dispatches-dsa-is-past-its-prime/)
 - [そろそろ GnuPG でも ECC を標準で使うのがいいんじゃないかな]({{< ref "/openpgp/using-ecc-with-gnupg.md" >}})
 - [Go 1.16 がリリースされた]({{< ref "/release/2021/02/go-1_16-is-released.md" >}})： Go 1.16 では [`crypto/dsa`] パッケージが非推奨になった。
+- [NIST FIPS 186-5 および SP 800-186 正式版がリリースされた]({{< ref "/remark/2023/02/nist-fips-186-5.md" >}})
 
 [FIPS 186-5]: https://csrc.nist.gov/publications/detail/fips/186/5/draft "FIPS 186-5 (Draft), Digital Signature Standard (DSS) | CSRC"
 [Go]: https://go.dev/

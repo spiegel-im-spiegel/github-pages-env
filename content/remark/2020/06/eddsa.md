@@ -78,6 +78,11 @@ EdDSA の RFC 化に伴い，以下の NIST 標準文書にも EdDSA が追加�
 
 FIPS 186-5 および SP 800-186 が正式リリースされれば，政府調達でもなんでも，大手を振って EdDSA を使えるようになる（笑）
 
+{{< div-box type="markdown" >}}
+**【2022-02-04 追記】**
+[FIPS 186-5 および SP 800-186 正式版がリリースされた]({{< ref "/remark/2023/02/nist-fips-186-5.md" >}})
+{{< /div-box >}}
+
 ## EdDSA の実装
 
 ### [OpenPGP] と [GnuPG]
