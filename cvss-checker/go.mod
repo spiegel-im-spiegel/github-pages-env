@@ -3,7 +3,7 @@ module cvss-checker
 go 1.19
 
 require (
-	github.com/goark/go-cvss v1.6.2
+	github.com/goark/go-cvss v1.6.5
 	golang.org/x/text v0.6.0
 )
 
