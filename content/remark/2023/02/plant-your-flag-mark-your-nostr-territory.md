@@ -50,7 +50,7 @@ Nostr 自身は，分散 SNS においてメッセージのリレーを行うた
 んで，サインインした状態で（少なくとも）秘密鍵をメモっとかないと二度とサインインできない。
 まじすか `orz`
 
-ここでようやく “[Nostr Social Network](https://github.com/vishalxl/nostr_console/discussions/31 "What is Nostr, and how to start using Nostr · Discussion #31 · vishalxl/nostr_console")” を読み始める（先に読め！）。
+ここでようやく “[how to start using Nostr]” を読み始める（先に読め！）。
 ふむむ。
 [astral.ninja](https://astral.ninja/) というのがあるのか。
 こちらは Web ブラウザ・ベースのクライアントらしい。
@@ -109,6 +109,7 @@ npub1v0yd6fxc0qczjj35rxu0m9gtkhhf4mkzl99tgs49f6e98y2ea6asl5rsxw
 
 というわけで，作ったアカウントが自身のものである証明をする必要がある。
 Nostr では Web サイトとの連携でこれを行うようだ。
+これは [NIP-05] と呼ばれるプロトコル仕様の中で定義されている。
 
 ## Web サイト連携によるユーザの証明
 
@@ -128,7 +129,9 @@ JSON 形式で `"names"` オブジェクト配下に `"<username>": "<pubkey>"` 
 `pubkey` には `npub` で始まる文字列ではなく公開鍵の生値を16進数文字列で記述する。
 公開鍵データの変換は [damus key converter](https://damus.io/key/) で可能である。
 
-あとはこれを Nostr 側に読み取らせればいいのだが，ここで [CORS (Cross-Origin Resource Sharing)](https://developer.mozilla.org/ja/docs/Web/HTTP/CORS) の設定が必要になる（つまり CORS の設定ができないサイトでは連携ができない）。
+あとはこれを Nostr 側に読み取らせればいいのだが，ここで [CORS (Cross-Origin Resource Sharing)](https://developer.mozilla.org/ja/docs/Web/HTTP/CORS) の設定が必要になる[^nip05a]。
+
+[^nip05a]: つまり CORS の設定ができないサイトでは [NIP-05] による証明ができない。なお GitHub Pages では特に何もしなくても通るらしい。
 
 たとえば[さくらのレンタルサーバ](https://rs.sakura.ad.jp/ "さくらのレンタルサーバ | 高速・安定WordPressなら！無料2週間お試し")であれば ルート直下の `/.htaccess` ファイルに
 
@@ -173,9 +176,40 @@ Nostr クライアント側は profile 設定の “NIP-05 Identifier” 項目�
 
 という感じに連携できるようになった。
 
+## Nostr は Web3 か？
+
+公開鍵をそのまま ID とする考え方は Blockchain/Botcoin の仕組みに近い。
+Bitcoin が公開鍵をそのままアドレス（= ID）として運用できているのは「元帳」である Blockchain が要求しているのが「取引」の一貫性と無矛盾性だから。
+故に ID = 公開鍵 に対しては何も証明する必要がない。
+それは [Bitcoin の責務ではない]({{< ref "/remark/2018/02/blockchain-and-pki.md" >}} "「仮想通貨」と公開鍵基盤")のだ。
+
+でも Nostr はユーザ間のコミュニケーションを目的として考えられているわけで， ID が「誰」に紐づくのかという証明（certification）が絶対に必要。
+加えて鍵の生成・配布・更新・破棄（revoke）といったライフサイクルを管理する必要がある。
+これって PKI (公開鍵基盤) そのものなのよ。
+
+前節で述べたように ID が「誰」に紐づくかを証明する仕組みとして [NIP-05] が用意されているわけだが，このままでは ID = 公開鍵 を破棄する仕組みがない。
+ID を作ったら作りっぱなしで，もし秘密鍵が漏洩してもどうすることもできない。
+せいぜい [NIP-05] の設定を外すくらいだろう（だから [NIP-05] によるユーザの証明はけっこう重要？）。
+
+また “[how to start using Nostr]” を読むと
+
+{{< fig-quote type="markdown" title="What is Nostr, and how to start using Nostr" link="https://github.com/vishalxl/nostr_console/discussions/31" lang="en" >}}
+**Create multiple keys if needed**: The same key can be used on all nostr clients. If you want to create multiple identities or accounts, you can create new such key pairs.
+{{< /fig-quote >}}
+
+などと書かれているが，複数 ID を作っても ID に紐づくメタデータを移行する仕組みがない（もしくは手動で再構築するしかない）。
+いわゆる「[離脱の自由](https://p2ptk.org/freedom-of-speech/4214 "我々が「離脱の自由」を必要とする理由――あるいはソーシャルメディアの失敗をマシにする方法 | p2ptk[.]org")」がないのだ。
+
+本当は「公開鍵を ID とする（is-a 関係）」のではなく， ID と公開鍵を分離して「ID が公開鍵を所有する（has-a 関係）」のが正しいのだろう。
+それをしたら Nostr じゃなくなるかもしれないけど（笑） Nostr を Web3 実装のひとつみたいにみなす人もいるみたいなので，そういう意味でも「ID = 公開鍵」の仕様は外せないのかな。
+
+替えの効かない ID を使って失敗するってのは，かつての住基番号や今の個人番号を彷彿とさせる。
+漏洩やなりすまし（あるいは乗っ取り）は絶対に起きるんだから，起きた後にどうリカバーするかというのは最初に考えておかないと，後付けにはできない。
+これを怠ると，いざというときに詰むことになる。
+
 ## Nostr に旗を立てろ！
 
-これで最低限の設定ができた。
+ともかく，これで最低限の設定ができた。
 とはいえ，今のところあんまり使う気にならないんだよなぁ。
 微妙に分かりにくいし使いにくい。
 それに，やっぱ SNS は相手がいてはじめて成立しうるものだし？
@@ -186,3 +220,8 @@ Nostr クライアント側は profile 設定の “NIP-05 Identifier” 項目�
 
 - [ツイッターライクなSNS「Nostr」を Damus アプリで使う。初期の設定と、認証バッジを付ける手順 | Lifehacking.jp](https://lifehacking.jp/2023/02/nostr-damus/)
 - [Nostr. Nostrという新しい分散型のソーシャルプロトコルを試してみています。 | by Fumi | Feb, 2023 | Medium](https://fumi.medium.com/nostr-f8e6636b5724)
+- [Nostrプロトコル(damus)を触ってみた - Qiita](https://qiita.com/gpsnmeajp/items/77eee9535fb1a092e286)
+- [The Nostr Protocol - NIP01 - DEV Community 👩‍💻👨‍💻](https://dev.to/melvincarvalho/the-nostr-protocol-nip01-5ach)
+
+[how to start using Nostr]: https://github.com/vishalxl/nostr_console/discussions/31 "What is Nostr, and how to start using Nostr · Discussion #31 · vishalxl/nostr_console"
+[NIP-05]: https://github.com/nostr-protocol/nips/blob/master/05.md "nips/05.md at master · nostr-protocol/nips · GitHub"

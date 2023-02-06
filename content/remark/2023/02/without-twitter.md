@@ -53,4 +53,7 @@ API が有料化になり大規模な情報収集が高コストになると，�
 
 ## ブックマーク
 
+- [マスクCEO、Twitterの無料API終了は「悪質なbotの排除」と説明　有料APIは月100ドル程度に - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2302/03/news110.html)
+- [Twitter、“いいボット”向けに無償APIを提供  - PC Watch](https://pc.watch.impress.co.jp/docs/news/1476122.html)
+
 - [Fediverse 関連のブックマーク]({{< ref "/bookmarks/fediverse.md" >}})

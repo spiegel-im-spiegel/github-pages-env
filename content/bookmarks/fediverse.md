@@ -54,6 +54,7 @@ pageType = "text"
 ### その他プログラミング言語関連
 
 - [Python Software Foundation (@ThePSF@fosstodon.org) - Fosstodon](https://fosstodon.org/@ThePSF)
+- [Ruby.social](https://ruby.social/)
 - [GitHub - przemekperon/mastodon-it-lists: List of Mastodon users that toot about programming and IT.](https://github.com/przemekperon/mastodon-it-lists) : C#, .NET, Go, PHP, Python, Ruby, Rust, 他
 
 ### 科学（主に天文学）関連
@@ -161,3 +162,7 @@ pageType = "text"
 - [Medium embraces Mastodon. The fediverse is a breath of fresh air… | by Tony Stubblebine | Jan, 2023 | 3 Min Read](https://blog.medium.com/medium-embraces-mastodon-19dcb873eb11)
   - [Medium embraces Twitter alternative Mastodon with launch of its own community • TechCrunch](https://techcrunch.com/2023/01/12/medium-embraces-twitter-alternative-mastodon-with-launch-of-its-own-community/)
 - [GitHub - superseriousbusiness/gotosocial: Fast, fun, ActivityPub server, powered by Go.](https://github.com/superseriousbusiness/gotosocial)
+- [CreatodonというMastodonの創作系サーバーについて｜S.H.｜note](https://note.com/creatodon/n/nc3295c987d3a)
+- [Fediverse Observer](https://birdsitelive.fediverse.observer/list)
+- [Playing with ActivityPub - macwright.com](https://macwright.com/2022/12/09/activitypub.html)
+- [マストドンセキュリティガイドライン - ashphy's commit logs](https://ashphy.hateblo.jp/entry/mastodon-securit-guidelines)

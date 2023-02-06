@@ -43,7 +43,22 @@ Windows は [Scoop] 経由で OK
 
 ## ブックマーク
 
+- [Big Sky :: errors.Join が入った。](https://mattn.kaoriya.net/software/lang/go/20221001015441.htm)
+- [Providing context to cancellations in Go 1.20 with the new context WithCause API - Joseph Woodward | Software Engineer & Go lover based in Somerset, England](https://josephwoodward.co.uk/2023/01/context-cancellation-cause-with-cancel-cause)
+- [Go 1.20 Cryptography](https://words.filippo.io/dispatches/go-1-20-cryptography/)
+- [What’s New in Go 1.20, Part I: Language Changes · The Ethically-Trained Programmer](https://blog.carlmjohnson.net/post/2023/golang-120-language-changes/)
+  - [Scheduling In Go : Part II - Go Scheduler](https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html)
+- [What’s New in Go: The Developer Ecosystem Report 2022 | The GoLand Blog](https://blog.jetbrains.com/go/2023/01/17/what-s-new-in-go-the-developer-ecosystem-report-2022/)
+- [Go 1.20リリース連載が始まります＆メモリアリーナの紹介＆落ち穂拾い | フューチャー技術ブログ](https://future-architect.github.io/articles/20230123a/)
+  - [Go1.20リリース連載 contextパッケージのWithCancelCauseとCause | フューチャー技術ブログ](https://future-architect.github.io/articles/20230125a/)
+  - [Go 1.20 Wrapping multiple errors | フューチャー技術ブログ](https://future-architect.github.io/articles/20230126a/)
+  - [Go 1.20 timeパッケージのアップデート | フューチャー技術ブログ](https://future-architect.github.io/articles/20230127a/)
+  - [Go 1.20 HTTP ResponseController | フューチャー技術ブログ](https://future-architect.github.io/articles/20230128a/)
+  - [New ReverseProxy Rewrite hook を動かしながら理解する | フューチャー技術ブログ](https://future-architect.github.io/articles/20230131a/)
+  - [Go 1.20 vetのアップデート | フューチャー技術ブログ](https://future-architect.github.io/articles/20230202a/)
+  - [Go 1.20 リリース連載 go build に追加される cover オプション（利用例付き） | フューチャー技術ブログ](https://future-architect.github.io/articles/20230203a/)
 - [Go 1.20 リリースパーティ - connpass](https://gocon.connpass.com/event/273096/)
+- [Go 1.20: Profile-Guided Optimization](https://zenn.dev/mjhd/articles/a09cb5905b7848)
 
 [Go]: https://go.dev/
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
