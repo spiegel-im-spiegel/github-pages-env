@@ -63,6 +63,15 @@ err := errs.New(
 ```
 
 [`errs`]`.WithCause()` 関数も [`errs`]`.New()` 関数の引数として複数セットできるが，最後にセットしたインスタンスのみが有効となる。
+なお，複数の原因エラーがある場合は [`errors`]`.Join()` 関数を使うといいだろう（[Go] 1.20 以降）。
+
+```go {hl_lines=[4]}
+err := errs.New(
+    "file open error",
+    errs.WithContext("path", path),
+    errs.WithCause(errors.Join(cause1, cause2)),
+)
+```
 
 以上を踏まえて，ファイルをオープンするだけの関数を考えてみよう。
 こんな感じ。
@@ -260,40 +269,62 @@ func main() {
 
 と [`errors`]`.Is()` 関数等を使って比較的簡単にエラーハンドリングを行うことができる。
 
-### その他のハンドリング関数
+### その他のハンドリング関数（2023-02-07 更新）
 
-おまけの機能として [`errs`]`.Cause()` 関数も用意してみた。
+{{< div-box type="markdown" >}}
+**注意：**
+[v1.2.1](https://github.com/goark/errs/releases/tag/v1.2.1 "Release v1.2.1 · goark/errs") で [`errs`]`.Cause()` 関数を `Deprecated` とした。
+マルチエラーに対応できないため。
 
-```go {hl_lines=[3]}
-func main() {
-    if err := checkFileOpen("not-exist.txt"); err != nil {
-        fmt.Printf("%v\n", errs.Cause(err))
-    }
-    // Output:
-    // no such file or directory
-}
-```
+[`errs`]: https://github.com/goark/errs "goark/errs: Error handling for Golang"
+{{< /div-box >}}
 
-このように [`errs`]`.Cause()` 関数では `error` の構造を遡って大元の  `error` インスタンスを抽出することができる。
-
-さらに，標準の [`errors`]`.As()`, [`errors`]`.Is()`, [`errors`]`.Unwrap()` 各関数の互換となる [`errs`]`.As()`, [`errs`]`.Is()`, [`errs`]`.Unwrap()` 関数も用意した。
+標準の [`errors`]`.As()`, [`errors`]`.Is()`, [`errors`]`.Unwrap()` 各関数の互換となる [`errs`]`.As()`, [`errs`]`.Is()`, [`errs`]`.Unwrap()` 関数も用意した。
 まぁ，内部で [`errors`] の各関数を呼び出しているだけだけど。
 でも，これで標準の [`errors`] パッケージを [`errs`] パッケージに置き換えて使うことができると思う。
 
-さらにさらに，  [`errs`]`.EncodeJSON()` 関数を使うと，通常の `error` インスタンスでも可能な限り構造を辿って JSON 形式で出力する。
+さらに，複数の原因エラーを `[]error` 型で返す [`errs`]`.Unwraps()` 関数を用意した。
+こんな感じに使える。
+
+```go {hl_lines=[3]}
+func main() {
+    err := errors.Join(os.ErrInvalid, io.EOF)
+    for _, e := range errs.Unwraps(err) {
+        fmt.Println(e)
+    }
+    //Output:
+    //invalid argument
+    //EOF
+}
+```
+
+なお [`errs`]`.Unwraps()` 関数は原因エラーがひとつの場合でも，要素数1の `[]error` 型で返す。
+
+```go
+func main() {
+	err := errs.Wrap(os.ErrInvalid)
+	for _, e := range errs.Unwraps(err) {
+		fmt.Println(e)
+	}
+    //Output:
+    //invalid argument
+ }
+```
+
+さらにさらに， [`errs`]`.EncodeJSON()` 関数を使うと，通常の `error` インスタンスでも可能な限り構造を辿って JSON 形式で出力する。
 たとえば
 
 ```go {hl_lines=[5]}
 func main() {
-	if err := checkFileOpen("not-exist.txt"); err != nil {
-		var pathError *fs.PathError
-		if errs.As(err, &pathError) {
-			fmt.Printf("%v\n", errs.EncodeJSON(pathError))
-		} else {
-			fmt.Println(err)
-		}
-		return
-	}
+    if err := checkFileOpen("not-exist.txt"); err != nil {
+        var pathError *fs.PathError
+        if errs.As(err, &pathError) {
+            fmt.Printf("%v\n", errs.EncodeJSON(pathError))
+        } else {
+            fmt.Println(err)
+        }
+        return
+    }
 }
 ```
 
