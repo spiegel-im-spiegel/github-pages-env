@@ -22027,5 +22027,55 @@
       false
     ],
     "Description": "アニメ「\u003ca href=\"https://www.amazon.co.jp/dp/B00FYKN2C4?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1\"\u003eささみさん＠がんばらない\u003c/a\u003e」のOP曲。 MP3 版で買い直した。 ZAQ さんの唄はよい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00FYKN2C4",
+      "Title": "ささみさん@がんばらない【TBSオンデマンド】",
+      "URL": "https://www.amazon.co.jp/dp/B00FYKN2C4?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51EE+Hx-J8L._SL160_.jpg",
+        "Height": 120,
+        "Width": 160
+      },
+      "ProductType": "Prime Video",
+      "Creators": [
+        {
+          "Name": "高山カツヒコ",
+          "Role": "Writer"
+        },
+        {
+          "Name": "新房昭之",
+          "Role": "監督"
+        },
+        {
+          "Name": "―――",
+          "Role": "プロデュース"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00FYKN2C4"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2013-05-15",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-02-08",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "2013年の作品なんだねぇ。"
   }
 ]
