@@ -44,41 +44,41 @@ The new function [`errors.Join`](https://tip.golang.org/pkg/errors/#Join) return
 // An error type might provide an Is method so it can be treated as equivalent
 // to an existing error. For example, if MyError defines
 //
-//	func (m MyError) Is(target error) bool { return target == fs.ErrExist }
+//    func (m MyError) Is(target error) bool { return target == fs.ErrExist }
 //
 // then Is(MyError{}, fs.ErrExist) returns true. See syscall.Errno.Is for
 // an example in the standard library. An Is method should only shallowly
 // compare err and the target and not call Unwrap on either.
 func Is(err, target error) bool {
-	if target == nil {
-		return err == target
-	}
+    if target == nil {
+        return err == target
+    }
 
-	isComparable := reflectlite.TypeOf(target).Comparable()
-	for {
-		if isComparable && err == target {
-			return true
-		}
-		if x, ok := err.(interface{ Is(error) bool }); ok && x.Is(target) {
-			return true
-		}
-		switch x := err.(type) {
-		case interface{ Unwrap() error }:
-			err = x.Unwrap()
-			if err == nil {
-				return false
-			}
-		case interface{ Unwrap() []error }:
-			for _, err := range x.Unwrap() {
-				if Is(err, target) {
-					return true
-				}
-			}
-			return false
-		default:
-			return false
-		}
-	}
+    isComparable := reflectlite.TypeOf(target).Comparable()
+    for {
+        if isComparable && err == target {
+            return true
+        }
+        if x, ok := err.(interface{ Is(error) bool }); ok && x.Is(target) {
+            return true
+        }
+        switch x := err.(type) {
+        case interface{ Unwrap() error }:
+            err = x.Unwrap()
+            if err == nil {
+                return false
+            }
+        case interface{ Unwrap() []error }:
+            for _, err := range x.Unwrap() {
+                if Is(err, target) {
+                    return true
+                }
+            }
+            return false
+        default:
+            return false
+        }
+    }
 }
 
 // As finds the first error in err's tree that matches target, and if one is found, sets
@@ -99,46 +99,46 @@ func Is(err, target error) bool {
 // As panics if target is not a non-nil pointer to either a type that implements
 // error, or to any interface type.
 func As(err error, target any) bool {
-	if err == nil {
-		return false
-	}
-	if target == nil {
-		panic("errors: target cannot be nil")
-	}
-	val := reflectlite.ValueOf(target)
-	typ := val.Type()
-	if typ.Kind() != reflectlite.Ptr || val.IsNil() {
-		panic("errors: target must be a non-nil pointer")
-	}
-	targetType := typ.Elem()
-	if targetType.Kind() != reflectlite.Interface && !targetType.Implements(errorType) {
-		panic("errors: *target must be interface or implement error")
-	}
-	for {
-		if reflectlite.TypeOf(err).AssignableTo(targetType) {
-			val.Elem().Set(reflectlite.ValueOf(err))
-			return true
-		}
-		if x, ok := err.(interface{ As(any) bool }); ok && x.As(target) {
-			return true
-		}
-		switch x := err.(type) {
-		case interface{ Unwrap() error }:
-			err = x.Unwrap()
-			if err == nil {
-				return false
-			}
-		case interface{ Unwrap() []error }:
-			for _, err := range x.Unwrap() {
-				if As(err, target) {
-					return true
-				}
-			}
-			return false
-		default:
-			return false
-		}
-	}
+    if err == nil {
+        return false
+    }
+    if target == nil {
+        panic("errors: target cannot be nil")
+    }
+    val := reflectlite.ValueOf(target)
+    typ := val.Type()
+    if typ.Kind() != reflectlite.Ptr || val.IsNil() {
+        panic("errors: target must be a non-nil pointer")
+    }
+    targetType := typ.Elem()
+    if targetType.Kind() != reflectlite.Interface && !targetType.Implements(errorType) {
+        panic("errors: *target must be interface or implement error")
+    }
+    for {
+        if reflectlite.TypeOf(err).AssignableTo(targetType) {
+            val.Elem().Set(reflectlite.ValueOf(err))
+            return true
+        }
+        if x, ok := err.(interface{ As(any) bool }); ok && x.As(target) {
+            return true
+        }
+        switch x := err.(type) {
+        case interface{ Unwrap() error }:
+            err = x.Unwrap()
+            if err == nil {
+                return false
+            }
+        case interface{ Unwrap() []error }:
+            for _, err := range x.Unwrap() {
+                if As(err, target) {
+                    return true
+                }
+            }
+            return false
+        default:
+            return false
+        }
+    }
 }
 ```
 
@@ -148,6 +148,7 @@ func As(err error, target any) bool {
 
 ## ブックマーク
 
+- [Big Sky :: errors.Join が入った。](https://mattn.kaoriya.net/software/lang/go/20221001015441.htm)
 - [Go 1.20 Wrapping multiple errors | フューチャー技術ブログ](https://future-architect.github.io/articles/20230126a/)
 
 - [Go のエラーハンドリング](https://zenn.dev/spiegel/books/error-handling-in-golang)
