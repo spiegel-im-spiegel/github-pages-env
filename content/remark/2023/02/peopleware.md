@@ -1,6 +1,6 @@
 +++
 title = "Peopleware"
-date =  "2023-02-08T19:13:28+09:00"
+date =  "2023-02-12T18:32:04+09:00"
 description = "description"
 image = "/images/attention/kitten.jpg"
 tags = [ "remark" ]

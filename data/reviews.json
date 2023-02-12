@@ -22077,5 +22077,111 @@
       false
     ],
     "Description": "2013年の作品なんだねぇ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BT52CS57",
+      "Title": "プリキュア５、フル・スロットル GO GO！",
+      "URL": "https://www.amazon.co.jp/dp/B0BT52CS57?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/01MKUOLsA5L._SL160_.gif",
+        "Height": 40,
+        "Width": 60
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "工藤真由 \u0026 ぷりきゅあ5",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Marvelous Inc.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BT52CS57"
+        }
+      ],
+      "PublicationDate": "2008-02-06",
+      "LastRelease": "2023-02-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-02-10",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "最近の仕事中と移動中のBGM。アガる曲。くどまゆはよい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0010JL2QG",
+      "Title": "プリキュア5、フル・スロットル GO GO!",
+      "URL": "https://www.amazon.co.jp/dp/B0010JL2QG?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61kFVjj4v8L._SL160_.jpg",
+        "Height": 158,
+        "Width": 160
+      },
+      "ProductType": "CD",
+      "Creators": [
+        {
+          "Name": "宮本佳那子 工藤真由",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "工藤真由",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "宮本佳那子",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "ぷりきゅあ5",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "ヤング・フレッシュ",
+          "Role": "アーティスト"
+        }
+      ],
+      "Publisher": "マーベラス エンターテイメント",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0010JL2QG"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4535506230393"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2008-02-06",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-02-10",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "実際には MP3 版で購入。最近の仕事中と移動中のBGM。アガる曲。くどまゆはよい。"
   }
 ]
