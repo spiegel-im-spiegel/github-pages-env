@@ -81,7 +81,7 @@ The perks that made Twitter an attractive place to work pre-Musk have been eradi
 とか書かれていて，まさに『[ピープルウエア]』に書かれている悪い例が進行しているのを見て「うわぁ」となった。
 
 たぶん『[ユニコーン企業のひみつ](https://www.amazon.co.jp/dp/4873119464?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)』や，最近なら『[ちょうぜつソフトウェア設計入門](https://www.amazon.co.jp/dp/B0BNH1J2W2?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)』を読むような人なら，その前説として『[ピープルウエア]』は読んでおいて損はないだろう。
-そういえば，オンラインイベント「[ちょうぜつ改め21世紀ふつうのソフトウェア設計入門 - Forkwell Library #14](https://forkwell.connpass.com/event/271212/)」の[めもりー](https://twitter.com/m3m0r7)さんによる[講演](https://speakerdeck.com/memory1994/why-the-application-design-is-breaking-sometimes-at-a-startup-company "CTO から見た，なぜスタートアップ初期のソフトウェア設計は壊れがちなのか - Speaker Deck")の中で，エンジニアの採用事情について言及があったが，『[ピープルウエア]』を読めば，経費ではなく，最も価値ある資産であり投資対象でもある「人材」を如何にして確保し定着させるか，といったことの片鱗が見えるかもしれない。
+そういえば，オンラインイベント「[ちょうぜつ改め21世紀ふつうのソフトウェア設計入門 - Forkwell Library #14](https://forkwell.connpass.com/event/271212/)」の[めもりー](https://twitter.com/m3m0r7)さんによる[講演](https://speakerdeck.com/memory1994/why-the-application-design-is-breaking-sometimes-at-a-startup-company "CTO から見た，なぜスタートアップ初期のソフトウェア設計は壊れがちなのか - Speaker Deck")の中で，エンジニアの採用事情について言及があったが，『[ピープルウエア]』を読めば，経費ではなく，最も価値ある資源であり投資対象でもある「人材」を如何にして確保し定着させるか，といったことの片鱗が見えるかもしれない。
 
 というわけで，とりあえず第III部の途中まで読んで本は返したが，なかなか面白かったので買うことにした。
 [図書館][島根県立図書館]においては，地下倉庫じゃなくて，是非とも一般の書架に置いていただきたいものである（笑） [読書会](https://technical-book-reading.connpass.com/event/273601/ "第1回『ピープルウェア第3版』オンライン読書会 - connpass")も参加してみようかな。
