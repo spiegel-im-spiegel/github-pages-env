@@ -2,9 +2,9 @@
 title = "お散歩カメラ 2023-02-12"
 date =  "2023-02-12T18:31:35+09:00"
 description = "せっかく天気がいいのでバスを途中下車して長距離お散歩してみた。"
-image = "/remark/2023/02/osanpo-camera/52683608089_e9e7c8eeff_e.jpg"
+image = "/remark/2023/02/osanpo-camera/52683608089_57126a3bc6_o.jpg"
 tags = [ "osanpo-camera", "photography" ]
-pageType = "text"
+pageType = "photo"
 
 [scripts]
   mathjax = false
