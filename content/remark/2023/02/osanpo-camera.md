@@ -32,7 +32,7 @@ pageType = "text"
 
 {{< fig-img src="./fitbit-status.png" width="640">}}
 
-ハイ拍手〜！ 今日は[フィットネスバイク]({{< relref "./stationary-bike-2.md" >}} "心臓リハビリ＠がんばらない")なしでもいいか（笑） 今日はよく眠れることであろう。
+ハイ拍手〜！ 今日は[フィットネスバイク]({{< relref "./stationary-bike-2.md" >}} "心臓リハビリ＠がんばらない")なしでもいいか（笑） 夜はよく眠れることであろう。
 
 
 [島根県立図書館]: https://www.library.pref.shimane.lg.jp/
