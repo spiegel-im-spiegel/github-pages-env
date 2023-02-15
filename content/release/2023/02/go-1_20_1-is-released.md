@@ -77,11 +77,10 @@ This issue is also fixed in [`golang.org/x/net/http2`](http://golang.org/x/net/h
 {{< fig-quote type="markdown" title="[security] Vulnerability in golang.org/x/image/tiff" link="https://groups.google.com/g/golang-announce/c/ag-FiyjlD5o" lang="en" >}}
 Version v0.5.0 of [`golang.org/x/image`](http://golang.org/x/image) fixes a vulnerability in the [`golang.org/x/image/tiff`](http://golang.org/x/image/tiff) package which could cause a denial of service.
 
-An attacker can craft a malformed TIFF image which will consume a significant amount of memory when passed to DecodeConfig.
+An attacker can craft a malformed TIFF image which will consume a significant amount of memory when passed to `DecodeConfig`.
 {{< /fig-quote >}}
 
 （以下未稿）
-
 
 ## 例によって...
 
