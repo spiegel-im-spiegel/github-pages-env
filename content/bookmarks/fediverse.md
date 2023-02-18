@@ -166,3 +166,8 @@ pageType = "text"
 - [Fediverse Observer](https://birdsitelive.fediverse.observer/list)
 - [Playing with ActivityPub - macwright.com](https://macwright.com/2022/12/09/activitypub.html)
 - [マストドンセキュリティガイドライン - ashphy's commit logs](https://ashphy.hateblo.jp/entry/mastodon-securit-guidelines)
+- [Welcome to Wildebeest: the Fediverse on Cloudflare](https://blog.cloudflare.com/welcome-to-wildebeest-the-fediverse-on-cloudflare/)
+- [MastodonはTwitterのコピーキャットではない、あるいはフェディバースはソーシャルウェブを再構築する | p2ptk[.]org](https://p2ptk.org/monopoly/4333)
+- [第1回 分散型SNS「Misskey」、それを支える技術スタック | gihyo.jp](https://gihyo.jp/article/2023/02/misskey-01)
+- [Adding ActivityPub to your static site](https://paul.kinlan.me/adding-activity-pub-to-your-static-site/)
+- [鯖缶工場](https://discord.com/invite/mJJGAHv) : Mastodon サーバ管理者向けの Discord チャネルらしい

@@ -59,6 +59,12 @@ Windows は [Scoop] 経由で OK
   - [Go 1.20 リリース連載 go build に追加される cover オプション（利用例付き） | フューチャー技術ブログ](https://future-architect.github.io/articles/20230203a/)
 - [Go 1.20 リリースパーティ - connpass](https://gocon.connpass.com/event/273096/)
 - [Go 1.20: Profile-Guided Optimization](https://zenn.dev/mjhd/articles/a09cb5905b7848)
+  - [Go言語が実行時のプロファイラ情報でコンパイルを最適化する「Profile-guided optimization」パブリックプレビュー － Publickey](https://www.publickey1.jp/blog/23/goprofile-guided_optimization.html)
+- [Go1.20リリースお知らせ記事を翻訳する(前編)](https://zenn.dev/nii/articles/read-go-1-20-release-article)
+  - [Go1.20リリースお知らせ記事を翻訳する(後編)](https://zenn.dev/nii/articles/read-go-1-20-release-article2)
+- [All your comparable types - The Go Programming Language](https://go.dev/blog/comparable)
+  - [Go言語のBasic Interfaceはcomparableを満たすようになる(でも実装するようにはならない)](https://zenn.dev/nobishii/articles/basic-interface-is-comparable)
+  - [Goの比較可能性（comparable） - Qiita](https://qiita.com/tenntenn/items/e15cc0c54b3bbfddb04e)
 
 [Go]: https://go.dev/
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"

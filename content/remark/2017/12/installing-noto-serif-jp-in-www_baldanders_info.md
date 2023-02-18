@@ -195,6 +195,7 @@ h1, h2, h3, h4, h5, h6, em, strong {
 - [HTTP アクセス制御 (CORS) - HTTP | MDN](https://developer.mozilla.org/ja/docs/Web/HTTP/HTTP_access_control)
 - [さくらのサーバに置いたWebフォントをはてなブログから使う - にせねこメモ](http://nixeneko.hatenablog.com/entry/2016/10/11/231435)
 - [「Noto Serif Japanese」を使ってみたので、自分用メモ。 - Qiita](https://qiita.com/umeume66/items/01291353fc43c17da992)
+- [「Noto」フォントが現存するほぼすべての文字言語に対応 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1478991.html)
 
 - [Web フォントに関する覚え書き（明朝体編）]({{< ref "/remark/2016/10/japanese-serif-fonts-by-google-cdn.md" >}})
 

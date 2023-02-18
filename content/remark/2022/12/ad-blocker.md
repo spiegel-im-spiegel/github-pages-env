@@ -94,6 +94,8 @@ EFF も2019年に
 ## ブックマーク
 
 - [メディアは（常に）スパムか？ « マガジン航[kɔː]](https://magazine-k.jp/2016/01/25/spam-and-media/)
+- [Until further notice, think twice before using Google to download software | Ars Technica](https://arstechnica.com/information-technology/2023/02/until-further-notice-think-twice-before-using-google-to-download-software/)
+  - [Malware Delivered through Google Search - Schneier on Security](https://www.schneier.com/blog/archives/2023/02/malware-delivered-through-google-search.html)
 
 [DuckDuckGo]: https://duckduckgo.com/
 [uBlock Origin]: https://ublockorigin.com/jp "uBlock Origin – フリーかつオープンソースの広告ブロッカー。"

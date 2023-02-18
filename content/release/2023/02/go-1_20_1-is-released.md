@@ -113,6 +113,10 @@ Windows はインストールパッケージを取ってきて直接インスト
 [CVE-2022-41723]: https://nvd.nist.gov/vuln/detail/CVE-2022-41723
 [CVE-2022-41727]: https://nvd.nist.gov/vuln/detail/CVE-2022-41727
 
+## ブックマーク
+
+- [「Go 1.20.1」「Go 1.19.6」が公開、4件の脆弱性を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1479118.html)
+
 ## 参考図書
 
 {{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->

@@ -7,11 +7,14 @@
 
 - [はじめて学ぶ ビデオゲームの心理学 脳のはたらきとユーザー体験（UX） | セリア ホデント, 山根 信二, 成田 啓行 |本 | 通販 | Amazon](https://www.amazon.co.jp/%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E5%AD%A6%E3%81%B6-%E3%83%93%E3%83%87%E3%82%AA%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E5%BF%83%E7%90%86%E5%AD%A6-%E8%84%B3%E3%81%AE%E3%81%AF%E3%81%9F%E3%82%89%E3%81%8D%E3%81%A8%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E4%BD%93%E9%A8%93%EF%BC%88UX%EF%BC%89-%E3%82%BB%E3%83%AA%E3%82%A2-%E3%83%9B%E3%83%87%E3%83%B3%E3%83%88/dp/4571210450)
 - [O'Reilly Japan - 自分だけのボードゲームを作ろう](https://www.oreilly.co.jp//books/9784814400164/)
-- [Amazon | 味の素 アミノバイタル アミノプロテイン レモン味 60本入箱 アミノ酸 BCAA EAA ホエイプロテイン シェイカー不要 計量不要 携帯性 | アミノバイタル | ホエイプロテイン](https://www.amazon.co.jp/%E3%82%A2%E3%83%9F%E3%83%8E%E3%83%90%E3%82%A4%E3%82%BF%E3%83%AB-%E3%80%8C%E3%82%A2%E3%83%9F%E3%83%8E%E3%83%90%E3%82%A4%E3%82%BF%E3%83%AB%E3%80%8D%E3%82%A2%E3%83%9F%E3%83%8E%E3%83%97%E3%83%AD%E3%83%86%E3%82%A4%E3%83%B3-%E3%83%AC%E3%83%A2%E3%83%B3%E5%91%B3-60%E6%9C%AC%E5%85%A5%E7%AE%B1/dp/B07B7JTS4G)
+- [Go言語プログラミングエッセンス：書籍案内｜技術評論社](https://gihyo.jp/book/2023/978-4-297-13419-8) : 2023-03-09 発売予定
 
 - [GitHub - sylpheed-mail/sylpheed: Sylpheed Email client](https://github.com/sylpheed-mail/sylpheed)
   - [オープンソースの老舗メールソフト「Sylpheed」、開発を「Subversion」から「GitHub」へ - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1460526.html)
   - Ubuntu 環境では apt で最新版がインストールできるっぽい
+
+- [Goでcsvを構造体として扱う方法(csvutil)](https://zenn.dev/axpensive/articles/f69f377f46fd89) : ストリームで扱えるっぽい？
+
 
 ## 寄付の検討
 

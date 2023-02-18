@@ -224,6 +224,7 @@ ID を作ったら作りっぱなしで，もし秘密鍵が漏洩してもど�
 - [Nostr. Nostrという新しい分散型のソーシャルプロトコルを試してみています。 | by Fumi | Feb, 2023 | Medium](https://fumi.medium.com/nostr-f8e6636b5724)
 - [Nostrプロトコル(damus)を触ってみた - Qiita](https://qiita.com/gpsnmeajp/items/77eee9535fb1a092e286)
 - [The Nostr Protocol - NIP01 - DEV Community 👩‍💻👨‍💻](https://dev.to/melvincarvalho/the-nostr-protocol-nip01-5ach)
+- [GitHub - mattn/algia: A cli application for nostr](https://github.com/mattn/algia)
 
 [how to start using Nostr]: https://github.com/vishalxl/nostr_console/discussions/31 "What is Nostr, and how to start using Nostr · Discussion #31 · vishalxl/nostr_console"
 [NIP-05]: https://github.com/nostr-protocol/nips/blob/master/05.md "nips/05.md at master · nostr-protocol/nips · GitHub"

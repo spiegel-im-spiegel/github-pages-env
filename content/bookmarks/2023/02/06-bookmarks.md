@@ -27,8 +27,10 @@ pageType = "text"
 - [Release v1.51.0 · golangci/golangci-lint · GitHub](https://github.com/golangci/golangci-lint/releases/tag/v1.51.0)
   - [Release v1.51.1 · golangci/golangci-lint · GitHub](https://github.com/golangci/golangci-lint/releases/tag/v1.51.1)
 - [The Document Foundation announces LibreOffice 7.5 Community - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2023/02/02/tdf-announces-libreoffice-75-community/)
+  - [「LibreOffice 7.5 Community」が公開　～DeepL翻訳を追加、アイコンも新しく - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1476238.html)
 - [「Firefox 109.0.1」がリリースチャネルに ～レンダリングの問題などを修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1474791.html)
 - [Release January 2023 · microsoft/vscode · GitHub](https://github.com/microsoft/vscode/releases/tag/1.75.0)
+  - [「Visual Studio Code」にプロファイル機能、職場・自宅で設定を切り替え可能 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1476292.html)
 
 ## セキュリティ＆プライバシー関連 {#security}
 
@@ -101,7 +103,7 @@ pageType = "text"
 - [「Raspberry Pi」がさらに便利に--有用な機能を追加するアクセサリー3選 - ZDNET Japan](https://japan.zdnet.com/article/35198987/)
 - [プロンプトすら不要！ スマホとAI画像生成だけで美麗なイラストを描けるアプリ - いまからでも遅くない！ツールとして使うAI画像生成 - 窓の杜](https://forest.watch.impress.co.jp/docs/shseri/toolsd/1472525.html)
 - [Niantic tries its hand at sports with NBA All-World • TechCrunch](https://techcrunch.com/2023/01/24/niantic-tries-its-hand-at-sports-with-nba-all-world/)
-- [CTO から見た，なぜスタートアップ 初期のソフトウェア設計は壊れがちなのか - Speaker Deck](https://speakerdeck.com/memory1994/why-the-application-design-is-breaking-sometimes-at-a-startup-company)
+- [CTO から見た，なぜスタートアップ初期のソフトウェア設計は壊れがちなのか - Speaker Deck](https://speakerdeck.com/memory1994/why-the-application-design-is-breaking-sometimes-at-a-startup-company)
 - [『いかにして問題を解くか』との出会いについて（Ｑ＆Ａ）｜結城浩](https://mm.hyuki.net/n/n81e533cfe5bd)
 - [Firefox found a way to keep ad-blockers working with Manifest V3 - The Verge](https://www.theverge.com/2023/1/17/23559234/firefox-manifest-v3-content-ad-blocker)
 - [ローコード開発 WebPerformer 製品紹介｜キヤノンITソリューションズ](https://www.canon-its.co.jp/products/web_performer/)
