@@ -57,6 +57,7 @@ jobs:
 
 - [Go で書いた CLI ツールのリリースは GoReleaser と GitHub Actions で個人的には決まり | tellme.tokyo](https://tellme.tokyo/post/2020/02/04/release-go-cli-tool/)
 - [goreleaserとGitHub Actionsを使えばGoのCLIはgit tagをpushするだけでGitHubとHomeBrewに自動リリースできる - My External Storage](https://budougumi0617.github.io/2020/10/07/auto_release_by_goreleaser/)
+- [GoReleaser の設定のいくつかが DEPRECATED になっていた](https://zenn.dev/spiegel/articles/20230219-goreleaser-config)
 
 [Go]: https://go.dev/
 [GoReleaser]: https://goreleaser.com/ "GoReleaser | Deliver Go binaries as fast and easily as possible"
