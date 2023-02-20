@@ -48,10 +48,6 @@ AI はまだ「自律性[^ai1]」を獲得できてないのだから当然だ�
 
 それとも，やっぱり人の知能だの知性だのといったものの根源は機械で代替できる程度のものなのかと落胆するところかな（笑）
 
-
-
-
-
 [AI Hallucinations]: https://www.oreilly.com/radar/ai-hallucinations-a-provocation/ "AI Hallucinations: A Provocation – O’Reilly"
 
 ## 参考文献
