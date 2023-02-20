@@ -87,6 +87,7 @@ pageType = "text"
 - [me.dm by Medium.com](https://me.dm/) : Medium が提供するサーバ
   - [Medium (@medium@me.dm) - me.dm by Medium.com](https://me.dm/@medium)
 - [Tailscale (@tailscale@hachyderm.io) - Hachyderm.io](https://hachyderm.io/@tailscale)
+- [Infosec Exchange](https://infosec.exchange/) : 情報セキュリティ関連のサーバらしい
 
 ### 各種ニュース
 
@@ -171,3 +172,4 @@ pageType = "text"
 - [第1回 分散型SNS「Misskey」、それを支える技術スタック | gihyo.jp](https://gihyo.jp/article/2023/02/misskey-01)
 - [Adding ActivityPub to your static site](https://paul.kinlan.me/adding-activity-pub-to-your-static-site/)
 - [鯖缶工場](https://discord.com/invite/mJJGAHv) : Mastodon サーバ管理者向けの Discord チャネルらしい
+- [続くといいな日記 – Mastodon 体験記](https://mizunashi-mana.github.io/blog/posts/2023/02/mastodon-experience/)

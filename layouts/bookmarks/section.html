@@ -23,6 +23,12 @@
 <article>
 <h1>{{ $secTitle }}{{ with .OutputFormats.Get "RSS" }} <a href='{{ .RelPermalink }}' title='Feed'><i class='fas fa-rss'></i></a>{{ end }}</h1>
 <p>いままで del.icio.us （旧 delicious.com）で収集していたブックマークの代替として運用してみるテスト。</p>
+<p>ジャンルごとのブックマークは以下を参照：</p>
+<ul>
+<li><a href="./golang/">Go 言語に関するブックマーク（退避分）</a></li>
+<li><a href="./fediverse/">Fediverse 関連のブックマーク</a></li>
+</ul>
+<hr>
 <ul class="title-list">
 {{ range .Data.Pages }}{{ partial "li-section.html" . }}{{ end }}
 </ul>
