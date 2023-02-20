@@ -22183,5 +22183,52 @@
       false
     ],
     "Description": "実際には MP3 版で購入。最近の仕事中と移動中のBGM。アガる曲。くどまゆはよい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00HCB8098",
+      "Title": "神様のお仕事　３ (講談社ラノベ文庫)",
+      "URL": "https://www.amazon.co.jp/dp/B00HCB8098?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51c3ryNp81L._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "幹",
+          "Role": "著"
+        },
+        {
+          "Name": "蜜桃まむ",
+          "Role": "イラスト"
+        }
+      ],
+      "Publisher": "講談社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00HCB8098"
+        }
+      ],
+      "PublicationDate": "2013-11-01",
+      "LastRelease": "2013-12-20",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2014-01-08",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "和風ファンタジー仕立てのラブコメ第3巻。お祭り回。"
   }
 ]
