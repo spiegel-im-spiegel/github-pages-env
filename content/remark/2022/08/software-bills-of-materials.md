@@ -93,6 +93,7 @@ In fact, you can think of Snyk client tools like the CLI and CI/CD plugins as ge
 ## ブックマーク
 
 - [SSVC（Stakeholder-Specific Vulnerability Categorization）を活用した脆弱性管理 | PwC Japanグループ](https://www.pwc.com/jp/ja/knowledge/column/awareness-cyber-security/stakeholder-specific-vulnerability-categorization.html)
+- [Why SBOM Is Not Enough in the Era of Supply Chain Attacks](https://forelens.com/blog/why-sbom-is-not-enough-in-the-era-of-supply-chain-attacks/)
 
 - [Go はどのようにしてサプライチェーン攻撃を低減しているか](https://zenn.dev/spiegel/articles/20220402-how-go-mitigates-supply-chain-attacks)
 - [「ブログはやはり『死に続けている』」]({{< ref "/remark/2022/07/slow-motion-car-crash.md" >}})

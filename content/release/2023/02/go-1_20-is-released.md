@@ -58,6 +58,8 @@ Windows は [Scoop] 経由で OK
   - [Go 1.20 vetのアップデート | フューチャー技術ブログ](https://future-architect.github.io/articles/20230202a/)
   - [Go 1.20 リリース連載 go build に追加される cover オプション（利用例付き） | フューチャー技術ブログ](https://future-architect.github.io/articles/20230203a/)
 - [Go 1.20 リリースパーティ - connpass](https://gocon.connpass.com/event/273096/)
+  - [What's new in Go 1.20? - Speaker Deck](https://speakerdeck.com/syumai/whats-new-in-go-1-dot-20)
+  - [Dive into arena package - Google スライド](https://docs.google.com/presentation/d/1Ip6znswfmJSILjoMULMj4nFZEpukOzO9JSFLPgVRad0/mobilepresent#slide=id.p)
 - [Go 1.20: Profile-Guided Optimization](https://zenn.dev/mjhd/articles/a09cb5905b7848)
   - [Go言語が実行時のプロファイラ情報でコンパイルを最適化する「Profile-guided optimization」パブリックプレビュー － Publickey](https://www.publickey1.jp/blog/23/goprofile-guided_optimization.html)
 - [Go1.20リリースお知らせ記事を翻訳する(前編)](https://zenn.dev/nii/articles/read-go-1-20-release-article)

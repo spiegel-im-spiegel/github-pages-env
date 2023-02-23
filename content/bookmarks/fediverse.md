@@ -87,7 +87,6 @@ pageType = "text"
 - [me.dm by Medium.com](https://me.dm/) : Medium が提供するサーバ
   - [Medium (@medium@me.dm) - me.dm by Medium.com](https://me.dm/@medium)
 - [Tailscale (@tailscale@hachyderm.io) - Hachyderm.io](https://hachyderm.io/@tailscale)
-- [Infosec Exchange](https://infosec.exchange/) : 情報セキュリティ関連のサーバらしい
 
 ### 各種ニュース
 
@@ -100,7 +99,7 @@ pageType = "text"
   - [WIRED.jp(RSSfeed) (@wired@chaosphere.hostdon.jp) - カオスフィア](https://chaosphere.hostdon.jp/@wired) : 非公式
   - [窓の杜(RSSfeed) (@forest@chaosphere.hostdon.jp) - カオスフィア](https://chaosphere.hostdon.jp/@forest) : 非公式
 
-### その他 気になる個人アカウント
+### その他 気になるサーバや個人アカウント
 
 - [Don MacAskill (@d0n@sfba.social) - SFBA.social](https://sfba.social/@d0n) : Flickr CEO
 - [山田奨治 Shoji YAMADA (@yamadashoji@mstdn.jp) - mstdn.jp](https://mstdn.jp/@yamadashoji) : 『著作権は文化を発展させるのか: 人権と文化コモンズ』の著者
@@ -111,6 +110,9 @@ pageType = "text"
 - [@h12o@blessedgeeks.com (@h12o@blessedgeeks.com) - Mastodon@BlessedGeeks.Com](https://mastodon.blessedgeeks.com/@h12o) : [Mastodon.Tokyo](https://mastodon.tokyo/) 運営者
 - [のえる (@noellabo@fedibird.com) - Fedibird](https://fedibird.com/@noellabo) : [fedibird.com](https://fedibird.com/) 運営者
 - [Masayuki Hatta (@mhatta@mastodon.social) - Mastodon](https://mastodon.social/@mhatta)
+- [Infosec Exchange](https://infosec.exchange/) : 情報セキュリティ関連のサーバらしい
+- [キュアスタ！](https://precure.ml/) : 「プリキュアファンの為のインスタンスです」だそうです
+- [vim-jp | Misskey.io](https://misskey.io/channels/9b0ni7y9xc) : vimmer は何処にでもいるw
 
 ## Web ページを Mastodon でシェアする
 

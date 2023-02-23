@@ -65,6 +65,7 @@ pageType = "text"
 - [[2302.03642v1] GRB 221009A: Discovery of an Exceptionally Rare Nearby and Energetic Gamma-Ray Burst](/abs/2302.03642) : 2022年秋に観測されたガンマ線バーストに関する論文
 - [The World's Largest Radio Telescope Just Scanned 33 Exoplanets for a Signal From Aliens - Universe Today](https://www.universetoday.com/159855/the-worlds-largest-radio-telescope-just-scanned-33-exoplanets-for-a-signal-from-aliens/)
 - [改暦150周年企画（前編）：時代の変化と日本の暦―古代・中世― | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/blog/2023/20230217-koyomi.html)
+  - [改暦150周年企画（後編）：時代の変化と日本の暦―近世・近現代― | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/blog/2023/20230220-koyomi.html)
 
 ## その他 {#others}
 
