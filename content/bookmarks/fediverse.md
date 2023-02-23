@@ -44,7 +44,8 @@ pageType = "text"
   - [sago35 (@sago35@social.tinygo.org) - TinyGo Humans](https://social.tinygo.org/@sago35)
 - [TinyGo (@TinyGo@mastodon.social) - Mastodon](https://mastodon.social/@TinyGo)
 - [Rob Pike (@robpike@hachyderm.io) - Hachyderm.io](https://hachyderm.io/@robpike)
-- [mattn✅ (@mattn@mstdn.jp) - mstdn.jp](https://mstdn.jp/@mattn)
+- [mattn (@mattn) | Misskey.io](https://misskey.io/@mattn) : mattn さんは実はこっちが公式らしい？
+  - [mattn✅ (@mattn@mstdn.jp) - mstdn.jp](https://mstdn.jp/@mattn)
 - [Hajime Hoshi (@hajimehoshi@mstdn.jp) - mstdn.jp](https://mstdn.jp/@hajimehoshi) : [Ebitengine](https://github.com/hajimehoshi/ebiten "hajimehoshi/ebiten: Ebitengine - A dead simple 2D game engine for Go") の中の人
 - [tenntenn (@tenntenn@mstdn.jp) - mstdn.jp](https://mstdn.jp/@tenntenn) : 「素性がわかる人のみフォロー許可」だそうです
 - [syumai (@_syumai@mstdn.jp) - mstdn.jp](https://mstdn.jp/@_syumai)
