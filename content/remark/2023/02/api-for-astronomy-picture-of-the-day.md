@@ -1,11 +1,10 @@
 +++
 title = "NASA API を使って “Astronomy Picture of the Day” のデータを取得する"
-date =  "2023-02-23T12:27:00+09:00"
+date =  "2023-02-23T15:26:27+09:00"
 description = "これなら自作してみるのもいいかもなぁ。"
 image = "/images/attention/kitten.jpg"
 tags = [ "astoronomy", "golang", "photography" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
