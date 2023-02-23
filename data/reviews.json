@@ -22230,5 +22230,48 @@
       true
     ],
     "Description": "和風ファンタジー仕立てのラブコメ第3巻。お祭り回。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BW9BDRP5",
+      "Title": "Way to go",
+      "URL": "https://www.amazon.co.jp/dp/B0BW9BDRP5?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51xsmwE+t0L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "MindaRyn",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Lantis",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BW9BDRP5"
+        }
+      ],
+      "PublicationDate": "2023-02-22",
+      "LastRelease": "2023-02-22",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-02-22",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ「神達に拾われた男2」OP曲。 MindaRyn さんはよい。"
   }
 ]

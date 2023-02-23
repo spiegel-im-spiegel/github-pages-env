@@ -101,6 +101,8 @@ pageType = "text"
   - [ZDNet Japan(RSSfeed) (@zdnet@chaosphere.hostdon.jp) - カオスフィア](https://chaosphere.hostdon.jp/@zdnet) : 非公式
   - [WIRED.jp(RSSfeed) (@wired@chaosphere.hostdon.jp) - カオスフィア](https://chaosphere.hostdon.jp/@wired) : 非公式
   - [窓の杜(RSSfeed) (@forest@chaosphere.hostdon.jp) - カオスフィア](https://chaosphere.hostdon.jp/@forest) : 非公式
+- [Astronomy Picture of the Day (@APoD@botsin.space) - botsin.space](https://botsin.space/@APoD) : 非公式
+- [NASA (@nasa@social.beachcom.org) - Social::Beach](https://social.beachcom.org/@nasa) : 非公式
 
 ### その他 気になるサーバや個人アカウント
 
@@ -122,6 +124,7 @@ pageType = "text"
 
 - [donshare](https://donshare.net/)
 - [ShareToMastodon.js - ブラウザで見ているWebページをマストドンに投稿するブックマークレット · GitHub](https://gist.github.com/hyuki/972cbe696f383cb1051ec47dd8e5f3fd)
+- [Mastodon Auto Poster - dlvr.it](https://dlvrit.com/mastodon-auto-poster/)
 
 ## 電子フロンティア財団による解説記事
 
