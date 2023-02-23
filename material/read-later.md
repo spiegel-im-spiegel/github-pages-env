@@ -51,7 +51,6 @@
 
 ## Go 言語関連 {#golang}
 
-- [Goの新しい構造化ロガーを体験しよう | gihyo.jp](https://gihyo.jp/article/2023/02/tukinami-go-04)
 - [GitHub - lukejoshuapark/whisper: Wraps an io.ReadWriter in a secure tunnel using modern elliptic-curve cryptography.](https://github.com/lukejoshuapark/whisper)
 - [GitHub - psilva261/opossum: Rudimentary web browser written in Golang](https://github.com/psilva261/opossum)
 - [GitHub - veyselaksin/gomailer: Simple Golang Mail Sender Library using with SSL and TLS](https://github.com/veyselaksin/gomailer)
