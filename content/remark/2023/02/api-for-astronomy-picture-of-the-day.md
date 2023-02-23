@@ -3,7 +3,7 @@ title = "NASA API を使って “Astronomy Picture of the Day” のデータ�
 date =  "2023-02-23T15:26:27+09:00"
 description = "これなら自作してみるのもいいかもなぁ。"
 image = "/images/attention/kitten.jpg"
-tags = [ "astoronomy", "golang", "photography" ]
+tags = [ "astronomy", "golang", "photography" ]
 pageType = "text"
 
 [scripts]
