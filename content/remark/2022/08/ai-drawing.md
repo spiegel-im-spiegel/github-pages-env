@@ -116,3 +116,4 @@ mimic はどうやらサービスを停止したらしい。
 - [いらすとや風のイラストを生成する「AIいらすとや」をリリース｜AI Picasso株式会社のプレスリリース](https://prtimes.jp/main/html/rd/p/000000002.000113219.html)
 - [MIT Tech Review: 創造性の意味を変えた 「生成AI革命」は どこに向かうのか？](https://www.technologyreview.jp/s/293763/generative-ai-is-changing-everything-but-whats-left-when-the-hype-is-gone/)
 - [ジェネレーティブAIが創る音楽に慌てふためく著作権の世界（もう遅い） | p2ptk[.]org](https://p2ptk.org/copyright/4317)
+- [「AIが作った芸術作品に著作権はない」とアメリカ著作権局がAIの著作権を拒否 - GIGAZINE](https://gigazine.net/news/20220222-copyright-ai-generated-art/)

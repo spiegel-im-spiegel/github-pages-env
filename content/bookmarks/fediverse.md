@@ -75,6 +75,7 @@ pageType = "text"
 - [Fosstodon](https://fosstodon.org/)
   - [LibreOffice (@libreoffice@fosstodon.org) - Fosstodon](https://fosstodon.org/@libreoffice)
   - [The Document Foundation (@tdforg@fosstodon.org) - Fosstodon](https://fosstodon.org/@tdforg)
+    - [The Document Foundation is now on Mastodon! - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2023/02/23/the-document-foundation-is-now-on-mastodon/)
   - [Keyoxide (@keyoxide@fosstodon.org) - Fosstodon](https://fosstodon.org/@keyoxide)
   - [Task (@task@fosstodon.org) - Fosstodon](https://fosstodon.org/@task)
 - [Signal (@signalapp@mastodon.world) - Mastodon](https://mastodon.world/@signalapp)
@@ -183,3 +184,4 @@ pageType = "text"
 - [Adding ActivityPub to your static site](https://paul.kinlan.me/adding-activity-pub-to-your-static-site/)
 - [鯖缶工場](https://discord.com/invite/mJJGAHv) : Mastodon サーバ管理者向けの Discord チャネルらしい
 - [続くといいな日記 – Mastodon 体験記](https://mizunashi-mana.github.io/blog/posts/2023/02/mastodon-experience/)
+- [Specialized Account Verification with Hachyderm | Hachyderm Community](https://community.hachyderm.io/docs/account-types/verification/)
