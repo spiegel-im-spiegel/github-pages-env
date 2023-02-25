@@ -5,17 +5,18 @@ import (
 	"os"
 
 	"github.com/goark/koyomi"
+	"github.com/goark/koyomi/value"
 )
 
 var weekShortNames = [7]string{"日", "月", "火", "水", "木", "金", "土"}
 
-func WeekShortNameJp(dt koyomi.DateJp) string {
+func WeekShortNameJp(dt value.DateJp) string {
 	return weekShortNames[dt.Weekday()%7]
 }
 
 func main() {
-	start, _ := koyomi.DateFrom("2024-01-01")
-	end, _ := koyomi.DateFrom("2024-12-31")
+	start, _ := value.DateFrom("2024-01-01")
+	end, _ := value.DateFrom("2024-12-31")
 	k, err := koyomi.NewSource(
 		koyomi.WithCalendarID(
 			// koyomi.Holiday,

@@ -1,4 +1,4 @@
-module ephemeris
+module jd-sample
 
 go 1.20
 

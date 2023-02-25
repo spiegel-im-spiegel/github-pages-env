@@ -74,6 +74,7 @@ pageType = "text"
 - [Thunderbird (@thunderbird@mastodon.online) - Mastodon](https://mastodon.online/@thunderbird)
 - [Fosstodon](https://fosstodon.org/)
   - [LibreOffice (@libreoffice@fosstodon.org) - Fosstodon](https://fosstodon.org/@libreoffice)
+  - [The Document Foundation (@tdforg@fosstodon.org) - Fosstodon](https://fosstodon.org/@tdforg)
   - [Keyoxide (@keyoxide@fosstodon.org) - Fosstodon](https://fosstodon.org/@keyoxide)
   - [Task (@task@fosstodon.org) - Fosstodon](https://fosstodon.org/@task)
 - [Signal (@signalapp@mastodon.world) - Mastodon](https://mastodon.world/@signalapp)
