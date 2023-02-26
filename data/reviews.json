@@ -22273,5 +22273,48 @@
       false
     ],
     "Description": "アニメ「神達に拾われた男2」OP曲。 MindaRyn さんはよい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BRQGDFBJ",
+      "Title": "ドラム式探査機",
+      "URL": "https://www.amazon.co.jp/dp/B0BRQGDFBJ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31IqK55IU7L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "田所あずさ",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Lantis",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BRQGDFBJ"
+        }
+      ],
+      "PublicationDate": "2023-01-09",
+      "LastRelease": "2023-01-09",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-02-22",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ「神達に拾われた男2」ED曲。 実はメロディはあまり好みではなかったのだが，タイトルに惹かれて MP3 版を買ってしまった。繰り返し聴いてると味が出てくる。"
   }
 ]
