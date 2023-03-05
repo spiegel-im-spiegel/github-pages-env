@@ -29,7 +29,7 @@ Amazon で製品のスペック見ても分かりにくいのな。
 そうそう。
 昨日撮った写真はこれね。
 
-{{< fig-img src="./52723957897_5d871a7e3d_e.jpg" title="PD 白梅（松江城 二の丸） | Flickr" link="https://www.flickr.com/photos/spiegel/52723957897/">}}
+{{< fig-img src="./52723957897_5d871a7e3d_e.jpg" title="白梅（松江城 二の丸） | Flickr" link="https://www.flickr.com/photos/spiegel/52723957897/">}}
 
 [この前]({{< ref "/remark/2023/02/26-osanpo-camera.md" >}} "お散歩カメラ 2023-02-26")よりだいぶ開いたねぇ。
 
