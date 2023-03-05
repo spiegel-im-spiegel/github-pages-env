@@ -22316,5 +22316,46 @@
       false
     ],
     "Description": "アニメ「神達に拾われた男2」ED曲。 実はメロディはあまり好みではなかったのだが，タイトルに惹かれて MP3 版を買ってしまった。繰り返し聴いてると味が出てくる。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B096XNWV32",
+      "Title": "エレコム モバイルバッテリー 10000mAh 大容量 ( USB PD対応 ) 20W Type-C×1 / USB-A×1 【 iPhone / Android 各種対応 】 PSE認証 ブラック EC-C03BK",
+      "URL": "https://www.amazon.co.jp/dp/B096XNWV32?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31fGMG6HS2S._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "エレコム",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B096XNWV32"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4549550213400"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2021-07-07",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-02-27",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "Power Delivery 対応で 20W 出力可能。思ったより厚みがあるのと若干重いのが玉に瑕だがこれはしょうがないか。"
   }
 ]
