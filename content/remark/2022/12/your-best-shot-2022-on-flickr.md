@@ -36,3 +36,7 @@ pageType = "photo"
 ちうわけで，我こそは！ という方はどうぞ。
 〆切りは 2023-01-04。
 しぶんぎ群が極大の頃だな（笑）
+
+## ブックマーク
+
+- [MyFlickrYear is here to celebrate the best of your 2022 on Flickr | Flickr Blog](https://blog.flickr.net/en/2023/02/13/myflickryear-is-here-to-celebrate-the-best-of-your-2022-on-flickr/)

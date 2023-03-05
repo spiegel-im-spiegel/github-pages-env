@@ -117,6 +117,11 @@ GitHub Copilot の問題は「コードをパクっている」ことではな�
 [人権と文化コモンズ]: https://www.amazon.co.jp/dp/B099RTG3J7?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "著作権は文化を発展させるのか: 人権と文化コモンズ"
 [機械学習技術の民主化]: {{< ref "/remark/2022/08/ai-drawing.md" >}}
 
+## ブックマーク
+
+- [生成AIと『猿の手』の呪い：著作権を強化してもクリエイターは救われない | p2ptk[.]org](https://p2ptk.org/copyright/4349)
+- [AIアートが簡単・安価に生み出される世界で、それでも著作権は必要なのか？ | p2ptk[.]org](https://p2ptk.org/copyright/4352)
+
 ## 参考文献
 
 {{% review-paapi "4622073455" %}} <!-- 〈海賊版〉の思想‐18世紀英国の永久コピーライト闘争 -->

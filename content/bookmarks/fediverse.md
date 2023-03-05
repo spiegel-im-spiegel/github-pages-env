@@ -92,6 +92,7 @@ pageType = "text"
 - [me.dm by Medium.com](https://me.dm/) : Medium が提供するサーバ
   - [Medium (@medium@me.dm) - me.dm by Medium.com](https://me.dm/@medium)
 - [Tailscale (@tailscale@hachyderm.io) - Hachyderm.io](https://hachyderm.io/@tailscale)
+- [Slashdot (@slashdot@mastodon.cloud) - mastodon.cloud](https://mastodon.cloud/@slashdot)
 
 ### 各種ニュース
 
@@ -185,3 +186,5 @@ pageType = "text"
 - [鯖缶工場](https://discord.com/invite/mJJGAHv) : Mastodon サーバ管理者向けの Discord チャネルらしい
 - [続くといいな日記 – Mastodon 体験記](https://mizunashi-mana.github.io/blog/posts/2023/02/mastodon-experience/)
 - [Specialized Account Verification with Hachyderm | Hachyderm Community](https://community.hachyderm.io/docs/account-types/verification/)
+- [misskeyの急速な流行と分散型SNSの限界 | 右や左の旦那様](https://givemegohan.xyz/2023/02/26/misskey%e3%81%ae%e6%80%a5%e9%80%9f%e3%81%aa%e6%b5%81%e8%a1%8c%e3%81%a8%e5%88%86%e6%95%a3%e5%9e%8bsns%e3%81%ae%e9%99%90%e7%95%8c/)
+- [Mozilla leads Mastodon app Mammoth's pre-seed funding | TechCrunch](https://techcrunch.com/2023/02/28/mozilla-leads-mastodon-app-mammoths-pre-seed-funding/) : Mammoth は iOS 用のアプリらしい。残念

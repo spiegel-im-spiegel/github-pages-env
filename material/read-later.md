@@ -9,6 +9,7 @@
 - [O'Reilly Japan - 自分だけのボードゲームを作ろう](https://www.oreilly.co.jp//books/9784814400164/)
 - [Go言語プログラミングエッセンス：書籍案内｜技術評論社](https://gihyo.jp/book/2023/978-4-297-13419-8) : 2023-03-09 発売予定
 - [数学ガールの秘密ノート／数を作ろう | 結城 浩 |本 | 通販 | Amazon](https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E6%95%B0%E3%82%92%E4%BD%9C%E3%82%8D%E3%81%86-%E7%B5%90%E5%9F%8E-%E6%B5%A9/dp/4815615411) : 2023-04-27 発売予定
+- [O'Reilly Japan Blog - 3月新刊情報『ハッキングAPI』](https://www.oreilly.co.jp/blog/2023/03/40024_hacking_apis.html)
 
 - [GitHub - sylpheed-mail/sylpheed: Sylpheed Email client](https://github.com/sylpheed-mail/sylpheed)
   - [オープンソースの老舗メールソフト「Sylpheed」、開発を「Subversion」から「GitHub」へ - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1460526.html)
@@ -42,9 +43,6 @@
 
 
 ## 天文関連 {#astronomy}
-
-
-## Generative AI {#ai}
 
 
 ## その他 {#others}

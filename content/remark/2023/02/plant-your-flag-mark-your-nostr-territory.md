@@ -227,6 +227,7 @@ ID を作ったら作りっぱなしで，もし秘密鍵が漏洩してもど�
 - [GitHub - mattn/algia: A cli application for nostr](https://github.com/mattn/algia)
 - [緊急地震速報（予報）の話 | ドクセル](https://www.docswell.com/s/matsuu/KNRMQG-2023-02-23-002146) : 緊急地震速報みたいなのは Nostr と相性がいいのでは？ という話
 - [リレーサーバーを立ててみた(仮) | ドクセル](https://www.docswell.com/s/imksoo/5YWNQ9-2023-02-22-235723)
+- [のすとら（Nostr）って何？  |  wanderingdj's](http://wanderingdj.jp/wordpress/2023/02/26/%e3%81%ae%e3%81%99%e3%81%a8%e3%82%89%ef%bc%88nostr%ef%bc%89%e3%81%a3%e3%81%a6%e4%bd%95%ef%bc%9f/)
 
 [how to start using Nostr]: https://github.com/vishalxl/nostr_console/discussions/31 "What is Nostr, and how to start using Nostr · Discussion #31 · vishalxl/nostr_console"
 [NIP-05]: https://github.com/nostr-protocol/nips/blob/master/05.md "nips/05.md at master · nostr-protocol/nips · GitHub"
