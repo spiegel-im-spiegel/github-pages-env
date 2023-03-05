@@ -36,9 +36,6 @@ pageType = "text"
   - [Fooling a Voice Authentication System with an AI-Generated Voice - Schneier on Security](https://www.schneier.com/blog/archives/2023/03/fooling-a-voice-authentication-system-with-an-ai-generated-voice.html)
 - [「Gmail」のクライアントサイドの暗号化機能が一般提供開始 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1482875.html) : 説明をよく限り ID ベース暗号っぽいのだが...
 
-## チョークポイント資本主義 {#cc}
-
-
 ## 知財関連 {#ip}
 
 - [めそ子の使用について | めそ子オフィシャルサイト](https://mesoko.jp/ccl/) : どっちかっつうと著作権というより商標権の問題な気がするが... デジタル・データは著作権の範疇？
@@ -50,9 +47,6 @@ pageType = "text"
 
 - [Ubuntu 22.04 その357 - Ubuntu 22.04.2 LTSがリリースされました・ディスクイメージのダウンロード - kledgeb](https://kledgeb.blogspot.com/2023/02/ubuntu-2204-357-ubuntu-22042-lts.html)
 - [Linux その142 - ロボット工学の分野でオススメのSnapアプリ10選 - kledgeb](https://kledgeb.blogspot.com/2023/03/linux-142-snap10.html)
-
-## Azure や Windows に関する話題 {#windows}
-
 
 ## Go 言語関連 {#golang}
 
@@ -93,5 +87,3 @@ pageType = "text"
 - [tar のチェックサム - 標準愚痴出力](https://zetamatta.hatenablog.com/entry/2023/03/04/202300)
 - [O'Reilly Japan Blog - 3月新刊情報『ハッキングAPI』](https://www.oreilly.co.jp/blog/2023/03/40024_hacking_apis.html)
 - [libtailscale: embedded Tailscale. Go C for yourself.](https://tailscale.dev/blog/libtailscale)
-
-<!-- eof -->
