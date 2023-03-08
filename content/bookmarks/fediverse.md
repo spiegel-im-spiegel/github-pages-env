@@ -78,6 +78,7 @@ pageType = "text"
     - [The Document Foundation is now on Mastodon! - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2023/02/23/the-document-foundation-is-now-on-mastodon/)
   - [Keyoxide (@keyoxide@fosstodon.org) - Fosstodon](https://fosstodon.org/@keyoxide)
   - [Task (@task@fosstodon.org) - Fosstodon](https://fosstodon.org/@task)
+  - [K-9 Mail (@k9mail@fosstodon.org) - Fosstodon](https://fosstodon.org/@k9mail)
 - [Signal (@signalapp@mastodon.world) - Mastodon](https://mastodon.world/@signalapp)
 - [GIMP (@GIMP@floss.social) - FLOSS.social](https://floss.social/@GIMP)
 - [Cloudflare (@cloudflare@noc.social) - Noc.Social](https://noc.social/@cloudflare)
