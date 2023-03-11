@@ -189,3 +189,6 @@ pageType = "text"
 - [Specialized Account Verification with Hachyderm | Hachyderm Community](https://community.hachyderm.io/docs/account-types/verification/)
 - [misskeyの急速な流行と分散型SNSの限界 | 右や左の旦那様](https://givemegohan.xyz/2023/02/26/misskey%e3%81%ae%e6%80%a5%e9%80%9f%e3%81%aa%e6%b5%81%e8%a1%8c%e3%81%a8%e5%88%86%e6%95%a3%e5%9e%8bsns%e3%81%ae%e9%99%90%e7%95%8c/)
 - [Mozilla leads Mastodon app Mammoth's pre-seed funding | TechCrunch](https://techcrunch.com/2023/02/28/mozilla-leads-mastodon-app-mammoths-pre-seed-funding/) : Mammoth は iOS 用のアプリらしい。残念
+- [Twitterをやめてマストドンに引っ越ししよう！！！！｜みそ｜note](https://note.com/xxxmisoppoino/n/n02ce84f8b76e) : 同人界隈の方らしい
+- [Meta is building a decentralized, text-based social network](https://www.platformer.news/p/meta-is-building-a-decentralized)
+  - [Meta、Twitter競合の分散型SNSアプリを計画中と認める | テクノエッジ TechnoEdge](https://www.techno-edge.net/article/2023/03/11/1000.html)
