@@ -228,6 +228,7 @@ ID を作ったら作りっぱなしで，もし秘密鍵が漏洩してもど�
 - [緊急地震速報（予報）の話 | ドクセル](https://www.docswell.com/s/matsuu/KNRMQG-2023-02-23-002146) : 緊急地震速報みたいなのは Nostr と相性がいいのでは？ という話
 - [リレーサーバーを立ててみた(仮) | ドクセル](https://www.docswell.com/s/imksoo/5YWNQ9-2023-02-22-235723)
 - [のすとら（Nostr）って何？  |  wanderingdj's](http://wanderingdj.jp/wordpress/2023/02/26/%e3%81%ae%e3%81%99%e3%81%a8%e3%82%89%ef%bc%88nostr%ef%bc%89%e3%81%a3%e3%81%a6%e4%bd%95%ef%bc%9f/)
+- [ノストラネスト（nostrnest）を使った通話と配信について  |  wanderingdj's](https://wanderingdj.jp/wordpress/2023/03/13/%e3%83%8e%e3%82%b9%e3%83%88%e3%83%a9%e3%83%8d%e3%82%b9%e3%83%88%ef%bc%88nostrnest%ef%bc%89%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%9f%e9%80%9a%e8%a9%b1%e3%81%a8%e9%85%8d%e4%bf%a1%e3%81%ab%e3%81%a4%e3%81%84/)
 
 [how to start using Nostr]: https://github.com/vishalxl/nostr_console/discussions/31 "What is Nostr, and how to start using Nostr · Discussion #31 · vishalxl/nostr_console"
 [NIP-05]: https://github.com/nostr-protocol/nips/blob/master/05.md "nips/05.md at master · nostr-protocol/nips · GitHub"

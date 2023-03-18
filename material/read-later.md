@@ -45,6 +45,9 @@
 ## 天文関連 {#astronomy}
 
 
+## Generative AI {#ai}
+
+
 ## その他 {#others}
 
 

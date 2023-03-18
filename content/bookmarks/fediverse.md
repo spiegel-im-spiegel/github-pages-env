@@ -123,6 +123,7 @@ pageType = "text"
 - [Infosec Exchange](https://infosec.exchange/) : 情報セキュリティ関連のサーバらしい
 - [キュアスタ！](https://precure.ml/) : 「プリキュアファンの為のインスタンスです」だそうです
 - [vim-jp | Misskey.io](https://misskey.io/channels/9b0ni7y9xc) : vimmer は何処にでもいるw
+- [Linus Torvalds (@torvalds@social.kernel.org)](https://social.kernel.org/users/torvalds) : Linux の人（多分？）
 
 ## Web ページを Mastodon でシェアする
 
