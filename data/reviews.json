@@ -22416,5 +22416,52 @@
       true
     ],
     "Description": "デジタル版が出そうもないので，諦めて紙の本を購入。ゲームデザイナやエンジニアだけでなく，ソフトウェア・エンジニアは全員読むべき。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BXQ2HMQ5",
+      "Title": "日経サイエンス2023年5月号（特集：対話するAI　ChatGPT）",
+      "URL": "https://www.amazon.co.jp/dp/B0BXQ2HMQ5?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51RHpNwG41L._SL160_.jpg",
+        "Height": 160,
+        "Width": 120
+      },
+      "ProductType": "雑誌",
+      "Creators": [
+        {
+          "Name": "日経サイエンス編集部",
+          "Role": "編集"
+        }
+      ],
+      "Publisher": "日経サイエンス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BXQ2HMQ5"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4910071150534"
+        }
+      ],
+      "PublicationDate": "2023-03-25",
+      "LastRelease": "2023-03-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-03-19",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "久しぶりに買ってみるか..."
   }
 ]
