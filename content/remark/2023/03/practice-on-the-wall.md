@@ -88,8 +88,13 @@ Subscription で決済が発生するのなら Google アカウントは使い�
 
 ## ブックマーク
 
+- [ChatGPT — Release Notes | OpenAI Help Center](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)
+- [ChatGPTをVSCodeで利用するための設定方法 - Qiita](https://qiita.com/koma_aws/items/5d4a8bed52599f497f5c)
+  -  [ChatGPTのVSCodeプラグインが神すぎる件について](https://zenn.dev/waarrk/articles/a6868cea7549de)
+  - これらで紹介されている拡張機能は，規約違反がどうのとかで，後悔を取りやめたらしい。まぁ Chromium がインストールされている必要があるみたいなので，どっちみち使わんと思うが
 - [ChatGPTのAPIをGolangで実装する - Qiita](https://qiita.com/yukiaprogramming/items/538a18bb3581245857e5)
 - [VisualStudio CodeとGoogle Apps ScriptでChatGPT(gpt-3.5-turbo)をより安全快適に使う](https://zenn.dev/o_ob/articles/gas-chatgpt-api)
+- [ChatGPTに回答の参考文献を提示させるには - ZDNET Japan](https://japan.zdnet.com/article/35201375/)
 
 [はじめて学ぶ ビデオゲームの心理学]: https://www.amazon.co.jp/dp/4571210450?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "はじめて学ぶ ビデオゲームの心理学 脳のはたらきとユーザー体験（UX） | セリア ホデント, 山根 信二, 成田 啓行 |本 | 通販 | Amazon"
 

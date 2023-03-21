@@ -21,6 +21,7 @@ pageType = "text"
   - [「OpenSSL 3.1」が予定通りリリース～「FIPS 140-3」準拠へとアップグレード - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1485975.html)
 - [Release February 2023 Recovery 2 · microsoft/vscode · GitHub](https://github.com/microsoft/vscode/releases/tag/1.76.2)
 - [「Firefox 111」が正式リリース ～Windows版の通知がOSネイティブに - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1485873.html)
+  - [Firefox 111、Webアプリからローカルファイルにアクセスできる「Origin Private File System」が正式機能に。これでChrome、Safari、Firefoxが対応 － Publickey](https://www.publickey1.jp/blog/23/firefox_111weborigin_private_file_systemchromesafarifirefox.html)
 - [「Thunderbird 102.9.0」が公開 ～4件の不具合と6件の脆弱性を修正 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1486295.html)
 - [Release v0.78 (2023-03-17) · ranvis/putty · GitHub](https://github.com/ranvis/putty/releases/tag/ranvis-0.78-4)
 
