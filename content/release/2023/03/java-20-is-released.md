@@ -11,7 +11,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-予定通り Java 19 がリリースされた。
+予定通り Java 20 がリリースされた。
 2023-03 までの短期サポート・バージョンである。
 
 - [OpenJDK JDK 20 GA Release](https://jdk.java.net/20/)
