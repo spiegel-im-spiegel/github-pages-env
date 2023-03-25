@@ -4,7 +4,7 @@ date =  "2023-03-19T17:46:51+09:00"
 description = "松江城の本丸は桜が咲き始めてましたヨ。"
 image = "/remark/2023/03/19-osanpo-camera/52756360786_7947c5dcd6_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue" ]
-pageType = "text"
+pageType = "photo"
 
 [scripts]
   mathjax = false
