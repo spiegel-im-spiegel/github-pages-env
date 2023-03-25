@@ -30,7 +30,7 @@ pageType = "photo"
 仕事のストレスだろうか。
 順調にダイエットできてるので，ここが我慢のしどころである（我慢しとらんがな）。
 
-[天一](https://goo.gl/maps/wZpi1K4toGXJqgtx6)のある辺りに朝酌川というのがあるのだが，そこが[桜並木](https://www.flickr.com/photos/spiegel/52769344911/ "SAKURA blossoms")になってる。
+[天一](https://goo.gl/maps/wZpi1K4toGXJqgtx6)のある辺りに{{% ruby "あさくみがわ" %}}朝酌川{{% /ruby %}}というのがあるのだが，そこが[桜並木](https://www.flickr.com/photos/spiegel/52769344911/ "SAKURA blossoms")になってる。
 ちょっと見物してこよう。
 
 {{< fig-img src="./52769885700_308082d81a_e.jpg" title="SAKURA blossoms | Flickr" link="https://www.flickr.com/photos/spiegel/52769885700/">}}
