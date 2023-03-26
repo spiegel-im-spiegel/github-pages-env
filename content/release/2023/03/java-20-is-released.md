@@ -71,6 +71,12 @@ LTS 版 Java バイナリが欲しいなら [Adoptium](https://adoptium.net/) �
 2023-03 時点で Premier Support が終了しているものは除いている。
 Java 8 については [Adoptium](https://adoptium.net/) などで最新バイナリを取得可能。
 
+## ブックマーク
+
+- [「Java 20」正式リリース。スレッド間で共有できるScoped Values、複数スレッド処理をまとめるStructured Concurrencyなど新機能 － Publickey](https://www.publickey1.jp/blog/23/java_20scoped_valuesstructured_concurrency.html)
+- [Oracle、「Java 20」を発表 ～変数のスレッド共有を簡潔・高速にする「Scoped Values」を追加 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1487461.html)
+- [Release GraalVM CE 23.0.0-dev-20230321_0741 · graalvm/graalvm-ce-dev-builds · GitHub](https://github.com/graalvm/graalvm-ce-dev-builds/releases/tag/23.0.0-dev-20230321_0741)
+
 [OpenJDK]: http://openjdk.java.net/
 [AdoptOpenJDK]: https://adoptopenjdk.net/ "AdoptOpenJDK - Open source, prebuilt OpenJDK binaries"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"

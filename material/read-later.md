@@ -20,57 +20,35 @@
 
 ## リリース情報 {#release}
 
-- [Release v1.52.0 · golangci/golangci-lint · GitHub](https://github.com/golangci/golangci-lint/releases/tag/v1.52.0)
-- [Release v7.0.0: Release Wasmtime 7.0.0 (#6065) · bytecodealliance/wasmtime · GitHub](https://github.com/bytecodealliance/wasmtime/releases/tag/v7.0.0)
-- [Release v1.16.2 · goreleaser/goreleaser · GitHub](https://github.com/goreleaser/goreleaser/releases/tag/v1.16.2)
 
 ## セキュリティ＆プライバシー関連 {#security}
 
-- [Tell the UK’s House of Lords: Protect End-to-End Encryption in the Online Safety Bill | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2023/03/tell-uks-house-lords-protect-end-end-encryption-online-safety-bill)
 
 ## チョークポイント資本主義 {#cc}
 
 
 ## 知財関連 {#ip}
 
-- [Battle for Libraries](https://www.battleforlibraries.com/)
 
 ## Linux または Ubuntu に関する話題 {#linux}
 
-- [Linux その143 - Snap版Steamの安定版のリリースに向け、ゲームテストの呼びかけ - kledgeb](https://kledgeb.blogspot.com/2023/03/linux-143-snapsteam.html)
-- [Ubuntu 18.04 その467 - サポート期間の終了が迫る・アップグレードの検討を - kledgeb](https://kledgeb.blogspot.com/2023/03/ubuntu-1804-467.html)
 
 ## Azure や Windows に関する話題 {#windows}
 
-- [UIカスタムアプリで「Windows 11 バージョン 22H2」が起動不能になる既知の問題は解決 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1486945.html)
-- [Microsoftが「Windows回復環境」（WinRE）の脆弱性に対処するスクリプトを公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1487162.html)
 
 ## Go 言語関連 {#golang}
 
-- [GitHub - mattn/goreman: foreman clone written in go language](https://github.com/mattn/goreman)
-- [The power of single-method interfaces in Go - Eli Bendersky's website](https://eli.thegreenplace.net/2023/the-power-of-single-method-interfaces-in-go/)
-- [cat コマンド代替の Go 製 CLI 「gat」の紹介](https://zenn.dev/kou_pg_0131/articles/gat-introduction)
 
 ## Java  言語関連 {#java}
 
 
 ## 天文関連 {#astronomy}
 
-- [MIT Tech Review: 中性子による半導体ソフトエラー率を測定、宇宙線対策に＝NTTなど](https://www.technologyreview.jp/n/2023/03/19/301852/)
-- [冷却型としては超低消費電力なマイクロ波増幅器の実証に成功 ―電波望遠鏡の受信機から量子コンピュータへの応用に向けて― | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/science/2023/20230320-atc.html)
 
 ## Generative AI {#ai}
 
-- [ChatGPTは労働者の敵か味方か？人間の仕事への影響に関する研究結果 | WIRED.jp](https://wired.jp/article/yes-chatgpt-is-coming-for-your-office-job/)
-- [OpenAIの共同設立者が「私たちは間違っていた」と語る、AIの危険性からデータをオープンにしない方針へと大転換 - GIGAZINE](https://gigazine.net/news/20230317-openai-co-founder-interview-wrong/) : Open にすべきじゃなかった，という後悔らしい
-- [GPT-4 Demo Turns a Crude Sketch of a "My Joke Website" into a Functional Website for Revealing Jokes - CodePen Blog](https://blog.codepen.io/2023/03/15/gpt-4-demo-turns-a-crude-sketch-of-a-my-joke-website-into-a-functional-website-for-revealing-jokes/)
 
 ## その他 {#others}
 
-- [GitLabがCLIプロジェクトを採用し、ターミナルにGitLabを導入](https://www.infoq.com/jp/news/2023/03/gitlab-adopts-glab-cli/)
-- [What to know about the end of Docker Free Teams | Docker](https://www.docker.com/blog/we-apologize-we-did-a-terrible-job-announcing-the-end-of-docker-free-teams/)
-- [Announcing Polyglot Notebooks! Multi-language notebooks in Visual Studio Code - .NET Blog](https://devblogs.microsoft.com/dotnet/announcing-polyglot-notebooks-harness-the-power-of-multilanguage-notebooks-in-visual-studio-code/)
-  - [VSCodeの拡張機能としてJupyter NotebookをベースにJavaScript/Mermaid/SQLなど多言語対応にした「Polyglot Notebooks」が正式リリース － Publickey](https://www.publickey1.jp/blog/23/vscodejupyter_notebookjavascriptmermaidsqlpolygot_notebooks.html)
-- [テクノロジーが農業を変革する、AIによる実証実験など最新動向 - ZDNET Japan](https://japan.zdnet.com/article/35201452/)
 
 <!-- eof -->

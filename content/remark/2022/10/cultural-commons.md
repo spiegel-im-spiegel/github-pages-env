@@ -121,6 +121,7 @@ GitHub Copilot の問題は「コードをパクっている」ことではな�
 
 - [生成AIと『猿の手』の呪い：著作権を強化してもクリエイターは救われない | p2ptk[.]org](https://p2ptk.org/copyright/4349)
 - [AIアートが簡単・安価に生み出される世界で、それでも著作権は必要なのか？ | p2ptk[.]org](https://p2ptk.org/copyright/4352)
+- [著作権は必要不可欠だった、でもこれからもそう？ | p2ptk[.]org](https://p2ptk.org/copyright/4360)
 
 ## 参考文献
 

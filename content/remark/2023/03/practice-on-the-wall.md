@@ -97,6 +97,10 @@ Subscription で決済が発生するのなら Google アカウントは使い�
 - [ChatGPTに回答の参考文献を提示させるには - ZDNET Japan](https://japan.zdnet.com/article/35201375/)
 - [OpenAI API](https://platform.openai.com/docs/libraries/community-libraries)
   - [GitHub - sashabaranov/go-openai: OpenAI ChatGPT, GPT-3, GPT-4, DALL·E, Whisper API wrapper for Go](https://github.com/sashabaranov/go-openai)
+- [ChatGPTのプロンプトをLispで書く](https://zenn.dev/u_u/articles/54902c757ffce5)
+- [GPT-4はどのようにして「不適切な回答」を回避するように学習されているのか - Qiita](https://qiita.com/ikeda_yasuhiro/items/3c633ddf0f3119051fe0)
+- [ChatGPTで開発効率アップ！askiを使ったCLIコードレビュー＆バグ特定 - Qiita](https://qiita.com/kznrluk/items/6d5ecd22c1b19d3e1d56)
+- [TOP 3 open-source AI to code like a PRO 🧠 🤖 - DEV Community](https://dev.to/disukharev/top-3-open-source-ai-tools-for-programmers-4oed)
 
 [はじめて学ぶ ビデオゲームの心理学]: https://www.amazon.co.jp/dp/4571210450?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "はじめて学ぶ ビデオゲームの心理学 脳のはたらきとユーザー体験（UX） | セリア ホデント, 山根 信二, 成田 啓行 |本 | 通販 | Amazon"
 

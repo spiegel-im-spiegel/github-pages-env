@@ -193,3 +193,5 @@ pageType = "text"
 - [Twitterをやめてマストドンに引っ越ししよう！！！！｜みそ｜note](https://note.com/xxxmisoppoino/n/n02ce84f8b76e) : 同人界隈の方らしい
 - [Meta is building a decentralized, text-based social network](https://www.platformer.news/p/meta-is-building-a-decentralized)
   - [Meta、Twitter競合の分散型SNSアプリを計画中と認める | テクノエッジ TechnoEdge](https://www.techno-edge.net/article/2023/03/11/1000.html)
+- [フェディバースが解決（する／しない）もの | p2ptk[.]org](https://p2ptk.org/monopoly/4356)
+- [microblog.pub - A self-hosted, single-user, ActivityPub powered microblog.](https://docs.microblog.pub/)
