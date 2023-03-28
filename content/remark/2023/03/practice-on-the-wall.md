@@ -3,7 +3,7 @@ title = "ChatGPT という壁打ち"
 date =  "2023-03-19T21:43:57+09:00"
 description = "改めて OpenAI にアカウントを作った"
 image = "/images/attention/kitten.jpg"
-tags = [ "artificial-intelligence", "engineering" ]
+tags = [ "artificial-intelligence", "engineering", "openai" ]
 pageType = "text"
 
 [scripts]

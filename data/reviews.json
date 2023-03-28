@@ -22453,15 +22453,15 @@
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2023-03-19",
-    "Rating": 0,
+    "Date": "2023-03-28",
+    "Rating": 4,
     "Star": [
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
       false
     ],
-    "Description": "久しぶりに買ってみるか..."
+    "Description": "特集記事が「話す AI 描く AI」ということで，いわゆる Generative AI に関する内容。大規模言語モデル（LLM）の解説も載っている。圏論の記事もあるよ。"
   }
 ]
