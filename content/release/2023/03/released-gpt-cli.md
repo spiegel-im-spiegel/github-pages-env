@@ -18,7 +18,7 @@ pageType = "text"
 
 - [sashabaranov/go-openai: OpenAI ChatGPT, GPT-3, GPT-4, DALL·E, Whisper API wrapper for Go][sashabaranov/go-openai]
 
-というパッケージを使うのが[よさげ](https://zenn.dev/username/scraps/fa5fcc9f7f1781 "ターミナルで ChatGPT とお話するための #golang コード")である。
+というパッケージを使うのが[よさげ](https://zenn.dev/spiegel/scraps/fa5fcc9f7f1781 "ターミナルで ChatGPT とお話するための #golang コード")である。
 
 というわけで，このパッケージを用いた CLI ツールを作ってみた。
 
