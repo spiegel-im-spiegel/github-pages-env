@@ -24,16 +24,13 @@
 ## セキュリティ＆プライバシー関連 {#security}
 
 
-## チョークポイント資本主義 {#cc}
-
-
 ## 知財関連 {#ip}
 
 
 ## Linux または Ubuntu に関する話題 {#linux}
 
 
-## Azure や Windows に関する話題 {#windows}
+## Microsoft 製品（Azure や Windows 等） に関する話題 {#windows}
 
 
 ## Go 言語関連 {#golang}

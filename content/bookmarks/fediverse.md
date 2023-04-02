@@ -64,6 +64,7 @@ pageType = "text"
 
 - [Astrodon - The Astro Community](https://astrodon.social/)
   - [UKSETI (@ukseti@astrodon.social) - Astrodon - The Astro Community](https://astrodon.social/@ukseti)
+  - [Space Telescope Science Inst. (@spacetelescope@astrodon.social) - Astrodon - The Astro Community](https://astrodon.social/@spacetelescope)
 - [ふぃふす☆すたぁ (@5thstar@mstdn.jp) - mstdn.jp](https://mstdn.jp/@5thstar)
 
 ### 製品・サービス・組織の公式アカウント（上記以外）
@@ -195,3 +196,4 @@ pageType = "text"
   - [Meta、Twitter競合の分散型SNSアプリを計画中と認める | テクノエッジ TechnoEdge](https://www.techno-edge.net/article/2023/03/11/1000.html)
 - [フェディバースが解決（する／しない）もの | p2ptk[.]org](https://p2ptk.org/monopoly/4356)
 - [microblog.pub - A self-hosted, single-user, ActivityPub powered microblog.](https://docs.microblog.pub/)
+- [Flipboard expands Mastodon support to its Android application | TechCrunch](https://techcrunch.com/2023/03/30/flipboard-expands-mastodon-support-to-its-android-application/)
