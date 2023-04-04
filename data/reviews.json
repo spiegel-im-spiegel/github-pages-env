@@ -22463,5 +22463,88 @@
       false
     ],
     "Description": "特集記事が「話す AI 描く AI」ということで，いわゆる Generative AI に関する内容。大規模言語モデル（LLM）の解説も載っている。圏論の記事もあるよ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08LCYBN75",
+      "Title": "トレーニングベルト パワーベルト 【パーソナルトレーナーユウジ推奨】 筋トレ ベルト 腰 リフティングベルト NonModo (M)",
+      "URL": "https://www.amazon.co.jp/dp/B08LCYBN75?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51xjhkNRR+L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "Non Modo",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08LCYBN75"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4573591740021"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-04-04",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "腹圧コントロール用に購入。なんか「Amazon おすすめ」とか表記じてあったので（笑） 値段も手頃。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08M23DNWH",
+      "Title": "復活のイデオン",
+      "URL": "https://www.amazon.co.jp/dp/B08M23DNWH?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/510C3zFiQNL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "たいらいさお",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "SUNRISE Music Label",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08M23DNWH"
+        }
+      ],
+      "PublicationDate": "2009-08-26",
+      "LastRelease": "2020-11-05",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-04-04",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "「伝説巨神イデオン」サントラに収録。「復活のイデオン」は名曲だと思う。"
   }
 ]
