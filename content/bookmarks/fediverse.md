@@ -125,7 +125,8 @@ pageType = "text"
 - [キュアスタ！](https://precure.ml/) : 「プリキュアファンの為のインスタンスです」だそうです
 - [vim-jp | Misskey.io](https://misskey.io/channels/9b0ni7y9xc) : vimmer は何処にでもいるw
 - [Linus Torvalds (@torvalds@social.kernel.org)](https://social.kernel.org/users/torvalds) : Linux の人（多分？）
-- [Cory Doctorow's linkblog (@pluralistic@mamot.fr) - La Quadrature du Net - Mastodon - Media Fédéré](https://mamot.fr/@pluralistic) : SF 作家， Creative Commons でも活動
+- [doctorow (@doctorow@mamot.fr) - La Quadrature du Net - Mastodon - Media Fédéré](https://mamot.fr/@doctorow) : SF 作家， Creative Commons でも活動
+  - [Cory Doctorow's linkblog (@pluralistic@mamot.fr) - La Quadrature du Net - Mastodon - Media Fédéré](https://mamot.fr/@pluralistic)
 
 ## Web ページを Mastodon でシェアする
 
