@@ -24,7 +24,7 @@ pageType = "text"
 
 いわゆる “copyleft trolls” は[^cl1] CC licenses の古いバージョンに起因する不備をついたもので，2022年のはじめ頃に話題になったものだ。
 
-[^cl1]: CC licenses は厳密には copyleft ではないので「[「コピーレフト・トロール」という言葉は問題があるよね](https://yamdas.hatenablog.com/entry/20220105/copyleft-trolls "著作権トロールの新種としての「コピーレフト・トロール」 - YAMDAS現更新履歴")（超意訳）」と yomoyomo さんも書いておられたが，すっかり定着してしまった感がある。
+[^cl1]: CC licences は厳密には copyleft ではないので「[「コピーレフト・トロール」という言葉は問題があるよね](https://yamdas.hatenablog.com/entry/20220105/copyleft-trolls "著作権トロールの新種としての「コピーレフト・トロール」 - YAMDAS現更新履歴")（超意訳）」と yomoyomo さんも書いておられたが，すっかり定着してしまった感がある。
 
 - [CC Licenses を悪用した新手の著作権トロルについて]({{< ref "/remark/2022/01/new-copyright-trolls.md" >}})
 - [「トロルにエサを与えないでください」]({{< ref "/remark/2022/02/do-not-feed-the-trolls.md" >}})
