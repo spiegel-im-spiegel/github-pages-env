@@ -58,7 +58,7 @@ pageType = "text"
 もっとも『[ユニコーン企業のひみつ](https://www.amazon.co.jp/dp/4873119464?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)』や『[ピープルウエア](https://www.amazon.co.jp/dp/4822285243?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)』はチーム内あるいは職場内の環境や文化にフォーカスしているが『[はじめて学ぶ ビデオゲームの心理学]』は「誰の方を向いて仕事をするのか」といったことにフォーカスしていると言える。
 そして，それはもちろん「顧客（ユーザー）」の方を向いていなければならない。
 考えてみれば当たり前の話なんだけどね。
-SF作家の Cory Doctorow も言ってるじゃない。
+SF作家の Cory Doctorow さんも言ってるじゃない。
 
 {{< fig-quote type="markdown" title="メタクソ化するTiktok" link="https://p2ptk.org/monopoly/4366" >}}
 プラットフォームはこのように滅びていく。まず、ユーザにとって良き存在になる。次に、ビジネス顧客にとって良き存在になるために、ユーザを虐げる。最後に、ビジネス顧客を虐げて、すべての価値を自分たちに向ける。そうして死んでいく。
