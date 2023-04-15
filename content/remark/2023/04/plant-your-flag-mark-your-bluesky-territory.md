@@ -24,6 +24,8 @@ pageType = "text"
 
 - [@baldanders.info](https://staging.bsky.app/profile/baldanders.info)
 
+... `xxx.bsky.social` みたいなハンドル名にないってない理由は次節をどうぞ。
+
 フォローはご自由にどうぞ。
 正直，どう使うかまるで考えてない。
 Nostr と同じで，こちらも “[Plant Your Flag, Mark Your Territory](https://krebsonsecurity.com/2018/06/plant-your-flag-mark-your-territory/ "Plant Your Flag, Mark Your Territory – Krebs on Security")” ってことで，旗を立てるだけにしておこう。
@@ -39,8 +41,8 @@ Twitter は [Blue をお金で買えるようになった](https://p2ptk.org/fre
 <link rel="me" href="https://social.example.com/@username">
 ```
 
- などと記述することでアイデンティティを記述できる。
-じゃあ [Bluesky] はどうしてるのかと思ったら，ハンドルをカスタムドメインに変更できるらしい。
+などと記述し，緩くサイト間連携することでアイデンティティを記述できる。
+じゃあ [Bluesky] はどうしてるのかと思ったら，ハンドル名をカスタムドメインに変更できるらしい。
 
 - [Domain Names as Handles in Bluesky - Bluesky](https://blueskyweb.xyz/blog/3-6-2023-domain-names-as-handles-in-bluesky)
 
@@ -54,8 +56,10 @@ Twitter は [Blue をお金で買えるようになった](https://p2ptk.org/fre
 
 {{< fig-img src="./settings.png" link="./settings.png" >}}
 
-あとは上のリンク先記事の通りにやれば変更できる。
+あとは上のリンク先記事の通りにやれば変更できる[^dn1]。
 こうやって Bluesky のユーザは自らのアイデンティティを担保するというわけだ。
+
+[^dn1]: 当然ながら連携するドメインは自前で用意する必要がある。かつ，ドメインに対して `TXT` レコードを設定できる権限が必要。
 
 ## ブックマーク
 
