@@ -1,11 +1,10 @@
 +++
 title = "Bluesky に旗を立てろ！"
-date =  "2023-04-15T17:09:41+09:00"
+date =  "2023-04-15T18:31:03+09:00"
 description = "正直，どう使うかまるで考えてない。"
 image = "/images/attention/kitten.jpg"
 tags = [ "tools", "communication" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
