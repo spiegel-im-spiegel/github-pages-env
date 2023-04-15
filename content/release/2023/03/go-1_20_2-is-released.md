@@ -25,7 +25,19 @@ The `ScalarMult` and `ScalarBaseMult` methods of the P256 Curve may return an in
 This does not impact usages of `crypto/ecdsa` or `crypto/ecdh`.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N`
+- 深刻度: 警告 (Score: 5.3)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | 低 |
+| 可用性への影響 | なし |
 
 ## 例によって...
 

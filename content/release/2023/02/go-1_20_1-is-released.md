@@ -25,7 +25,19 @@ On Windows, the `filepath.Clean` function could transform an invalid path such a
 
 相変わらず Windows のパス構成は面倒くさいよな。
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N`
+- 深刻度: 重要 (Score: 7.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | 高 |
+| 完全性への影響 | なし |
+| 可用性への影響 | なし |
 
 ## [CVE-2022-41725] net/http, mime/multipart: denial of service from excessive resource consumption
 
@@ -46,7 +58,19 @@ Users should be aware that `multipart.ReadForm` and the `http.Request` methods t
 
 とあるように，コンパイラを入れ替えれば OK とは必ずしもならないのでご注意を。
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H`
+- 深刻度: 重要 (Score: 7.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | なし |
+| 可用性への影響 | 高 |
 
 ## [CVE-2022-41724] crypto/tls: large handshake records may cause panics
 
@@ -56,7 +80,19 @@ Both clients and servers may send large TLS handshake records which cause server
 This affects all TLS 1.3 clients, TLS 1.2 clients which explicitly enable session resumption (by setting `Config.ClientSessionCache` to a non-nil value), and TLS 1.3 servers which request client certificates (by setting `Config.ClientAuth` >= `RequestClientCert`).
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H`
+- 深刻度: 重要 (Score: 7.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | なし |
+| 可用性への影響 | 高 |
 
 ## [CVE-2022-41723] net/http: avoid quadratic complexity in HPACK decoding
 
@@ -68,7 +104,19 @@ This issue is also fixed in [`golang.org/x/net/http2`](http://golang.org/x/net/h
 
 上述のとおり [`golang.org/x/net/http2`](http://golang.org/x/net/http2) v0.7.0 でも同様の修正がされているそうなので，心当たりの方はアップデートを。
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H`
+- 深刻度: 重要 (Score: 7.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | なし |
+| 可用性への影響 | 高 |
 
 ## [CVE-2022-41727] Vulnerability in golang.org/x/image/tiff
 
@@ -80,7 +128,19 @@ Version v0.5.0 of [`golang.org/x/image`](http://golang.org/x/image) fixes a vuln
 An attacker can craft a malformed TIFF image which will consume a significant amount of memory when passed to `DecodeConfig`.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H`
+- 深刻度: 警告 (Score: 5.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ローカル |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | なし |
+| 可用性への影響 | 高 |
 
 ## 例によって...
 
