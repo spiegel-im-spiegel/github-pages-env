@@ -22546,5 +22546,122 @@
       false
     ],
     "Description": "「伝説巨神イデオン」サントラに収録。「復活のイデオン」は名曲だと思う。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B092CX9HBY",
+      "Title": "モバイルバッテリー 小型 軽量 薄型10000mAh 大容量 PD18W QC3.0【Type-C入出力ポート/Power Delivery対応/Quick Charge3.0対応/PSE認証済】 iPhone/iPad/Android等各種対応 (ブラック)",
+      "URL": "https://www.amazon.co.jp/dp/B092CX9HBY?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31lP89pAIRL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "MOXNICE",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B092CX9HBY"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-11-07",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "コンパクトでランニングポーチに楽々入る。【追記】2023年時点ではもう売ってないらしい。残念。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07MZ8459H",
+      "Title": "クロップス(crops) バイクロック ヘルメットロック UNI Q (ユニーク) | 3桁ダイヤル | CP-SPD07SHT (40, カーボン調)",
+      "URL": "https://www.amazon.co.jp/dp/B07MZ8459H?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31Y6T8uqvFL._SL160_.jpg",
+        "Height": 115,
+        "Width": 160
+      },
+      "ProductType": "Automotive",
+      "Publisher": "クロップス(Crops)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07MZ8459H"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4571144619237"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2019-03-23",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-04-16",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "ヘルメット着用努力義務化に合わせて買った。簡易ロックだが，カジュアル窃盗避けということで（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B082FDBWDH",
+      "Title": "ランニング ポーチ 【駅伝優勝ランナーが認めた】 ウエスト バッグ 大容量 防水 軽量 スマホ ホルダー ボディバッグ フェス ユニセックス ジョギング ウォーキング 登山 釣り IkucheL (グレー 2つ口)",
+      "URL": "https://www.amazon.co.jp/dp/B082FDBWDH?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41OOodFNi7L._SL160_.jpg",
+        "Height": 127,
+        "Width": 160
+      },
+      "Publisher": "IkucheL",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B082FDBWDH"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4580614300292"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-04-16",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "ランニングポーチだが自転車に乗る際のウェストポーチとして使っている。ベルトがゴムなので揺れない。大きいポケットにはスマホとモバイルバッテリ（小）を重ねて入れられる。小銭や鍵は小さい方のポケットに。"
   }
 ]
