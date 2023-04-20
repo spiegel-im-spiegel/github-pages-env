@@ -28,14 +28,14 @@ pageType = "text"
 - [What is PeerTube? | JoinPeerTube](https://joinpeertube.org/)
 - [Pixelfed - Decentralized social media](https://pixelfed.org)
 - [joinmisskey - Misskeyをはじめよう](https://join.misskey.page/)
+  - [Misskey Hub](https://misskey-hub.net/) : Misskey 公式サイト
+  - [GitHub - misskey-dev/misskey: 🌎 An interplanetary microblogging platform 🚀](https://github.com/misskey-dev/misskey)
 - [prismosuite · GitLab](https://gitlab.com/prismosuite)
   - [prismosuite / prismo · GitLab](https://gitlab.com/prismosuite/prismo)
 - [Keyoxide](https://keyoxide.org/) : Mastodon と連携可能な Identity サービス
 - [GitHub - NicolasConstant/BirdsiteLive: An ethical bridge from Twitter](https://github.com/NicolasConstant/BirdsiteLive)
   - [Closing the official BSL instance — Nicolas Constant - DevBlog](https://write.as/nicolas-constant/closing-the-official-bsl-instance)
 - [Write.as — A place for focused writing.](https://write.as) : ActivityPub 対応のブログサービス。現在は有料版のみ
-- [Misskey Hub](https://misskey-hub.net/) : Misskey 公式サイト
-  - [GitHub - misskey-dev/misskey: 🌎 An interplanetary microblogging platform 🚀](https://github.com/misskey-dev/misskey)
 
 ## Mastodon サーバおよび主なアカウント
 
@@ -110,7 +110,6 @@ pageType = "text"
 - [Astronomy Picture of the Day (@APoD@botsin.space) - botsin.space](https://botsin.space/@APoD) : 非公式
 - [NASA (@nasa@social.beachcom.org) - Social::Beach](https://social.beachcom.org/@nasa) : 非公式
 - [HON.jp News Blog (@honjp@mastodon-japan.net) - Mastodon Japan Server](https://mastodon-japan.net/@honjp)
-  - [鷹野凌 (@ryou_takano@mstdn.jp) - mstdn.jp](https://mstdn.jp/@ryou_takano) : HON.jp の中の人
 
 ### その他 気になるサーバや個人アカウント
 
@@ -130,6 +129,7 @@ pageType = "text"
 - [Linus Torvalds (@torvalds@social.kernel.org)](https://social.kernel.org/users/torvalds) : Linux の人（多分？）
 - [doctorow (@doctorow@mamot.fr) - La Quadrature du Net - Mastodon - Media Fédéré](https://mamot.fr/@doctorow) : SF 作家， Creative Commons でも活動
   - [Cory Doctorow's linkblog (@pluralistic@mamot.fr) - La Quadrature du Net - Mastodon - Media Fédéré](https://mamot.fr/@pluralistic)
+- [鷹野凌 (@ryou_takano@mstdn.jp) - mstdn.jp](https://mstdn.jp/@ryou_takano) : HON.jp の中の人
 
 ## Web ページを Mastodon でシェアする
 
