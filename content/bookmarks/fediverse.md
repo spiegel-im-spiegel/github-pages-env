@@ -46,7 +46,7 @@ pageType = "text"
   - [sago35 (@sago35@social.tinygo.org) - TinyGo Humans](https://social.tinygo.org/@sago35)
 - [TinyGo (@TinyGo@mastodon.social) - Mastodon](https://mastodon.social/@TinyGo)
 - [Rob Pike (@robpike@hachyderm.io) - Hachyderm.io](https://hachyderm.io/@robpike)
-- [mattn (@mattn) | Misskey.io](https://misskey.io/@mattn) : mattn さんは実はこっちが公式らしい？
+- [mattn (@mattn) | Misskey.io](https://misskey.io/@mattn) : mattn さんは実はこっちが公式らしい？ でも最近は Nostr や Bluesky の人なのでこっちにはいないかも
   - [mattn✅ (@mattn@mstdn.jp) - mstdn.jp](https://mstdn.jp/@mattn)
 - [Hajime Hoshi (@hajimehoshi@mstdn.jp) - mstdn.jp](https://mstdn.jp/@hajimehoshi) : [Ebitengine](https://github.com/hajimehoshi/ebiten "hajimehoshi/ebiten: Ebitengine - A dead simple 2D game engine for Go") の中の人
 - [tenntenn (@tenntenn@mstdn.jp) - mstdn.jp](https://mstdn.jp/@tenntenn) : 「素性がわかる人のみフォロー許可」だそうです
@@ -95,6 +95,7 @@ pageType = "text"
   - [Medium (@medium@me.dm) - me.dm by Medium.com](https://me.dm/@medium)
 - [Tailscale (@tailscale@hachyderm.io) - Hachyderm.io](https://hachyderm.io/@tailscale)
 - [Slashdot (@slashdot@mastodon.cloud) - mastodon.cloud](https://mastodon.cloud/@slashdot)
+- [Grafana Labs (@grafana@grafana.social) - Grafana Social](https://grafana.social/@grafana)
 
 ### 各種ニュース
 
@@ -108,6 +109,8 @@ pageType = "text"
   - [窓の杜(RSSfeed) (@forest@chaosphere.hostdon.jp) - カオスフィア](https://chaosphere.hostdon.jp/@forest) : 非公式
 - [Astronomy Picture of the Day (@APoD@botsin.space) - botsin.space](https://botsin.space/@APoD) : 非公式
 - [NASA (@nasa@social.beachcom.org) - Social::Beach](https://social.beachcom.org/@nasa) : 非公式
+- [HON.jp News Blog (@honjp@mastodon-japan.net) - Mastodon Japan Server](https://mastodon-japan.net/@honjp)
+  - [鷹野凌 (@ryou_takano@mstdn.jp) - mstdn.jp](https://mstdn.jp/@ryou_takano) : HON.jp の中の人
 
 ### その他 気になるサーバや個人アカウント
 
@@ -153,6 +156,7 @@ pageType = "text"
   - [“リーチの自由”は“言論の自由”である | p2ptk[.]org](https://p2ptk.org/freedom-of-speech/4211)
 - [Pluralistic: Better failure for social media (19 Dec 2022) – Pluralistic: Daily links from Cory Doctorow](https://pluralistic.net/2022/12/19/better-failure/)
   - [我々が「離脱の自由」を必要とする理由――あるいはソーシャルメディアの失敗をマシにする方法 | p2ptk[.]org](https://p2ptk.org/freedom-of-speech/4214)
+- [フェディバースが解決（する／しない）もの | p2ptk[.]org](https://p2ptk.org/monopoly/4356)
 
 ## 雑多なリンク集
 
@@ -196,6 +200,5 @@ pageType = "text"
 - [Twitterをやめてマストドンに引っ越ししよう！！！！｜みそ｜note](https://note.com/xxxmisoppoino/n/n02ce84f8b76e) : 同人界隈の方らしい
 - [Meta is building a decentralized, text-based social network](https://www.platformer.news/p/meta-is-building-a-decentralized)
   - [Meta、Twitter競合の分散型SNSアプリを計画中と認める | テクノエッジ TechnoEdge](https://www.techno-edge.net/article/2023/03/11/1000.html)
-- [フェディバースが解決（する／しない）もの | p2ptk[.]org](https://p2ptk.org/monopoly/4356)
 - [microblog.pub - A self-hosted, single-user, ActivityPub powered microblog.](https://docs.microblog.pub/)
 - [Flipboard expands Mastodon support to its Android application | TechCrunch](https://techcrunch.com/2023/03/30/flipboard-expands-mastodon-support-to-its-android-application/)
