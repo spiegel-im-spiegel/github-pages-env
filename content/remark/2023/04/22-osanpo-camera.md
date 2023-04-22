@@ -16,7 +16,7 @@ pageType = "photo"
 
 ## 千本ダム・チャレンジ
 
-昨年の「[八重垣神社チャレンジ]({{< ref "/remark/2022/11/challenge-for-the-yaegaki-shrine.md" >}})」が思ったよりしんどかったので，以後は控えているのだが（したら入院騒ぎでそれどころじゃなくなったけどw），
+昨年の「[八重垣神社チャレンジ]({{< ref "/remark/2022/11/challenge-for-the-yaegaki-shrine.md" >}})」が思ったよりしんどかったので，以後は控えているのだが（したら入院騒ぎでそれどころじゃなくなったけどw）
 
 「ひょっとして忌部にある[千本ダム](https://goo.gl/maps/EAzaq1N4fxGfpaa16)なら無理せず行けるんちゃうけ？」
 
