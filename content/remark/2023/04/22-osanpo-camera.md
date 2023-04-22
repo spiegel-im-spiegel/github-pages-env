@@ -104,7 +104,7 @@ Google Maps だと「[松江市水道水神社](https://goo.gl/maps/DxjFa1DwjbU4
 
 ## 帰り道
 
-松江市内の本屋をハシゴしようかとも思ったのだが，思ったより写真展を堪能してしまって，いい時間になってしまった。
+松江市内の本屋をハシゴしようかとも思ったのだが，予想してたより写真展を堪能してしまって，いい時間になってしまった。
 あと体力的にもそろそろ「電池切れ」な気がするので，今日のところは帰ることにした。
 
 そうそう，午後の宍道湖。
@@ -149,7 +149,8 @@ Google Maps だと「[松江市水道水神社](https://goo.gl/maps/DxjFa1DwjbU4
 
 ## 参考
 
-{{% review-paapi "B07MZ8459H" %}} <!-- ヘルメットロック -->
 {{% review-paapi "B09TVLHJ1X" %}} <!-- Shokz OpenRun Mini 骨伝導ヘッドセット -->
+{{% review-paapi "B08FSBNJG8" %}} <!-- Fitbit Inspire2 -->
+{{% review-paapi "B07MZ8459H" %}} <!-- ヘルメットロック -->
 {{% review-paapi "B07QH9YVZ3" %}} <!-- Anything Goes!（『仮面ライダーオーズ／OOO』） -->
 <!-- eof -->
