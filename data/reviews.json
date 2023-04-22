@@ -22663,5 +22663,48 @@
       false
     ],
     "Description": "ランニングポーチだが自転車に乗る際のウェストポーチとして使っている。ベルトがゴムなので揺れない。大きいポケットにはスマホとモバイルバッテリ（小）を重ねて入れられる。小銭や鍵は小さい方のポケットに。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07QH9YVZ3",
+      "Title": "Anything Goes!（『仮面ライダーオーズ／OOO』挿入歌）",
+      "URL": "https://www.amazon.co.jp/dp/B07QH9YVZ3?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61X877YfNXL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "大黒摩季",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "avex trax",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07QH9YVZ3"
+        }
+      ],
+      "PublicationDate": "2019-05-01",
+      "LastRelease": "2019-04-26",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-03-29",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "2022年は\u003ca href=\"https://maki-ohguro.com/\"\u003e大黒摩季\u003c/a\u003e30周年だったんだそうで。でも私が知ってて唄える曲ってこれしかないんだよな（笑） 仕事中に聴くとテンションが上がる。"
   }
 ]
