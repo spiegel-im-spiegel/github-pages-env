@@ -135,7 +135,10 @@ LTS 版 Java バイナリが欲しいなら [Adoptium](https://adoptium.net/) �
 
 ## ブックマーク
 
-（あとで補完）
+- [Oracle Critical Patch Update Advisory - April 2023](https://www.oracle.com/security-alerts/cpuapr2023.html)
+- [Oracle Java の脆弱性対策について(CVE-2023-21930等) | 情報セキュリティ | IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/security-alert/2023/0419-jre.html)
+- [2023年4月Oracle製品のクリティカルパッチアップデートに関する注意喚起](https://www.jpcert.or.jp/at/2023/at230008.html)
+- [Oracleのセキュリティ更新 ～「Java」で8件、「VirtualBox」で11件、「MySQL」で34件の脆弱性に対処 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1494620.html)
 
 [OpenJDK]: http://openjdk.java.net/
 [Adoptium]: https://adoptium.net/

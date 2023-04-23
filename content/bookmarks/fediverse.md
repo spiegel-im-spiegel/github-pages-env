@@ -157,6 +157,7 @@ pageType = "text"
 - [Pluralistic: Better failure for social media (19 Dec 2022) – Pluralistic: Daily links from Cory Doctorow](https://pluralistic.net/2022/12/19/better-failure/)
   - [我々が「離脱の自由」を必要とする理由――あるいはソーシャルメディアの失敗をマシにする方法 | p2ptk[.]org](https://p2ptk.org/freedom-of-speech/4214)
 - [フェディバースが解決（する／しない）もの | p2ptk[.]org](https://p2ptk.org/monopoly/4356)
+- [How To Make the Least-Worst Mastodon Threads | by Cory Doctorow | Apr, 2023 | Medium](https://doctorow.medium.com/how-to-make-the-least-worst-mastodon-threads-daa33943ac31)
 
 ## 雑多なリンク集
 

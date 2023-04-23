@@ -68,6 +68,9 @@ Twitter は [Blue をお金で買えるようになった](https://p2ptk.org/fre
 - [BlueskyのWebクライイアントSkylightとTokimeki Blueskyの比較 – あたしンちのおとうさんの独り言](https://atasinti.chu.jp/dad3/archives/64132)
 - [「Bluesky」はSNSと言い切れない理由、そして世界初のミートアップが東京で行われた事情（1/2 ページ） - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2304/14/news175.html)
 - [分散型SNS｢Bluesky｣って今どうなってるの？ | ギズモード・ジャパン](https://www.gizmodo.jp/2023/04/bluesky-now.html)
+- [Blueskyの一ヶ月前史 | 点と接線。](https://riq0h.jp/2023/04/15/110859/)
+- [「Bluesky」で本人認証をする方法、Twitterと違って無料＆自分で全部可能 - GIGAZINE](https://gigazine.net/news/20230421-bluesky-handle-domain-name/)
+- [The AT Protocol Developer Ecosystem - Bluesky](https://blueskyweb.xyz/blog/4-21-2023-atproto-developer-ecosystem) : アプリケーションごとにパスワードを発行できるようにしたらしい
 
 [Bluesky]: https://blueskyweb.xyz/
 [staging.bsky.app]: https://staging.bsky.app/ "Bluesky"
