@@ -121,6 +121,8 @@ pageType = "text"
 
 まぁ，保険は入っとけってことだよね。
 
+{{< fig-youtube id="9oJ-UO9zhK0" title="保険のプロが選ぶ自転車保険は「UGOKU」一択です - YouTube" >}}
+
 ## ブックマーク
 
 - [自転車の灯火についての決まりを全都道府県調べてみた – CyclingEX CLASSIC](https://www.cycling-ex.com/2015/12/jitensha_light_kimari_47.html)
