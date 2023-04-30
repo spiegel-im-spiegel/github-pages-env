@@ -22706,5 +22706,48 @@
       false
     ],
     "Description": "2022年は\u003ca href=\"https://maki-ohguro.com/\"\u003e大黒摩季\u003c/a\u003e30周年だったんだそうで。でも私が知ってて唄える曲ってこれしかないんだよな（笑） 仕事中に聴くとテンションが上がる。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BFG7M98T",
+      "Title": "祝福",
+      "URL": "https://www.amazon.co.jp/dp/B0BFG7M98T?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51ZVRLJRuHL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "YOASOBI",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "YOASOBI",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BFG7M98T"
+        }
+      ],
+      "PublicationDate": "2022-10-01",
+      "LastRelease": "2022-10-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-04-25",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ「機動戦士ガンダム 水星の魔女」の OP 曲。最近ヘヴィローテーションしている。"
   }
 ]
