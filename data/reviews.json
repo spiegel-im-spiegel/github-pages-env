@@ -22739,7 +22739,7 @@
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2022-04-25",
+    "Date": "2023-04-25",
     "Rating": 4,
     "Star": [
       true,
@@ -22749,5 +22749,48 @@
       false
     ],
     "Description": "アニメ「機動戦士ガンダム 水星の魔女」の OP 曲。最近ヘヴィローテーションしている。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07W7JMHHX",
+      "Title": "Crowds",
+      "URL": "https://www.amazon.co.jp/dp/B07W7JMHHX?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41FwMnMYpBL._SL160_.jpg",
+        "Height": 159,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "WHITE ASH",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "VAP",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07W7JMHHX"
+        }
+      ],
+      "PublicationDate": "2013-08-21",
+      "LastRelease": "2013-08-21",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-05-01",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ「ガッチャマン クラウズ」 OP 曲収録。 MP3 で買い直した。 WHITE ASH はいいよねぇ。"
   }
 ]
