@@ -50,7 +50,7 @@ pageType = "text"
 こんな感じに候補が表示される。
 これで件の鳥がカルガモだと分かる。
 
-この状態で「これが私の見つけた鳥です！」ボタンを押すと [eBird] に登録されるのだが，登録するためには [Cornell Lab] のアカウントが必要である。
+この状態で「これが私の見つけた鳥です！」ボタンを押すと登録されるのだが，登録するためには [Cornell Lab] のアカウントが必要である。
 
 {{< fig-img src="./merline-4.jpg" title="Merlin" link="./merline-4.jpg" >}}
 
@@ -60,13 +60,18 @@ pageType = "text"
 
 アカウントを作成して登録すれば自身のライフリストに記録が残る。
 ただし識別に使った写真は登録されないみたい。
-あくまで日付と場所と目撃した鳥の種類（推定）が記録されるだけのようだ。
-ついでに言うと，地域ごとのトップ100ランキングとかあるらしいが [Merlin] で登録したものについてはカウントされないっぽい。
+あくまで日付と場所と目撃した鳥の種類（推定）が非公開の個人記録として登録されるだけのようだ（学術研究にも使われない）。
+[Merlin] で行った識別を [eBird] に登録するには「eBird モバイル」というアプリを入れて連携させる必要があるらしい。
 
 んー。
-イマイチよく分からないのだが，最初に言ったように私はバードウォッチャーではないので，このくらいの機能で十分だろう。
-真面目にバードウォッチングをやって [eBird] に貢献したいなら，ちゃんと調べないと駄目かもだが。
+最初に言ったように私はバードウォッチャーではないので，このくらいの機能で十分だろう。
 
+## ブックマーク
+
+- [eBird Japan - バードウォッチングの世界が広がる…](https://ebird.org/japan/home)
+  - [キャンペーン「愛鳥週間！ 身近な鳥を観察してeBirdに投稿しよう」 ～スマホで参加する、市民科学プロジェクト～ - eBird Japan](https://ebird.org/japan/news/campaign-ebird-20230510) : 5月10〜16日は「愛鳥週間」だそうな
+  - [「eBird/Merlin設定と基本操作ガイド」を公開しました - eBird Japan](https://ebird.org/japan/news/setting_guide)
+  - [eBird/Merlinで種名を日本語表示にするには - eBird Japan](https://ebird.org/japan/news/specific_name_jp)
 
 [Merlin]: https://merlin.allaboutbirds.org/ "Merlin Bird ID – Free, instant bird identification help and guide for thousands of birds – Identify the birds you see"
 [eBird]: https://ebird.org/ "eBird - Discover a new world of birding..."
