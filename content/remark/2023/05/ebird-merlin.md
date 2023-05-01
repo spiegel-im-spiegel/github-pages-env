@@ -17,6 +17,8 @@ pageType = "text"
 
 - [Merlin Bird ID – Free, instant bird identification help and guide for thousands of birds – Identify the birds you see](https://merlin.allaboutbirds.org/)
 
+{{< fig-youtube id="K0qPBjLcIPk" title="アプリ「Merlin野鳥識別」の使い方（Explore Merlin Bird ID App） - YouTube" >}}
+
 このアプリの面白いところは，単に野鳥の種類が調べられるだけでなく， [eBird] と連動している点のようだ。
 
 {{< fig-img-quote src="./eBird-pic.png" title="eBirdについて - eBird Japan" link="https://ebird.org/japan/about/" width="3420" >}}
@@ -61,10 +63,11 @@ pageType = "text"
 アカウントを作成して登録すれば自身のライフリストに記録が残る。
 ただし識別に使った写真は登録されないみたい。
 あくまで日付と場所と目撃した鳥の種類（推定）が非公開の個人記録として登録されるだけのようだ（学術研究にも使われない）。
-[Merlin] で行った識別を [eBird] に登録するには「eBird モバイル」というアプリを入れて連携させる必要があるらしい。
+[Merlin] で行った識別を [eBird] 側に登録するには [eBird Mobile](https://ebird.org/about/ebird-mobile/ "eBird Mobile - eBird") というアプリを入れて連携させる必要があるらしい。
+[eBird] メインで活動するなら，もう立派にバードウォッチャーかな。
 
 んー。
-最初に言ったように私はバードウォッチャーではないので，このくらいの機能で十分だろう。
+最初に言ったように私はバードウォッチャーではないので，今のところ [Merlin] で遊ぶくらいでちょうどいいだろう。
 
 ## ブックマーク
 
