@@ -22792,5 +22792,123 @@
       false
     ],
     "Description": "アニメ「ガッチャマン クラウズ」 OP 曲収録。 MP3 で買い直した。 WHITE ASH はいいよねぇ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08K34WLXD",
+      "Title": "[FAIRWEATHER(フェアウェザー)] stem bag x-pac/coyote",
+      "URL": "https://www.amazon.co.jp/dp/B08K34WLXD?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41GknHod8AL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "FAIRWEATHER(フェアウェザー)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08K34WLXD"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-05-03",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "スポーツサイクルのステム部分に取り付けられる小物入れ。防水仕様。底に小さなハトメ穴が空いていて，万一水が入った場合でも排出できるようになっている。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B091PN6MNM",
+      "Title": "シュアラスター チェーンクリーナー チェーンクリーナー(自転車用) S-145 強力除去 完全揮発 ブラシ付き",
+      "URL": "https://www.amazon.co.jp/dp/B091PN6MNM?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41OcmIHOFNL._SL160_.jpg",
+        "Height": 160,
+        "Width": 59
+      },
+      "ProductType": "Automotive",
+      "Publisher": "シュアラスター(Surluster)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B091PN6MNM"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4975203103451"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2021-05-24",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-05-03",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "めがっさ落ちる。水なしで使える。同メーカーのチェーンルブとセットで購入。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B091PZZ72F",
+      "Title": "シュアラスター チェーンオイル チェーンルブ[セミドライタイプ] S-146 軽いペダリング 汚れにくい 300km耐久",
+      "URL": "https://www.amazon.co.jp/dp/B091PZZ72F?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41YJMpKGjKL._SL160_.jpg",
+        "Height": 160,
+        "Width": 56
+      },
+      "ProductType": "Automotive",
+      "Publisher": "シュアラスター(Surluster)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B091PZZ72F"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4975203103468"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2021-05-24",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-05-03",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "今までのが切れたので違うメーカーにしてみた。同メーカーのチェーンクリーナーとセットで購入。"
   }
 ]
