@@ -48,7 +48,19 @@ As ES6 template literals are rather complex, and themselves can do string interp
 
 うわぁ，なにそれ面倒くさい。
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H`
+- 深刻度: 緊急 (Score: 9.8)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | 高 |
+| 完全性への影響 | 高 |
+| 可用性への影響 | 高 |
 
 ## [CVE-2023-24534] net/http, net/textproto: denial of service from excessive memory allocation
 
@@ -61,7 +73,19 @@ Header parsing now correctly allocates only the memory required to hold parsed h
 {{< /fig-quote >}}
 
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H`
+- 深刻度: 重要 (Score: 7.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | なし |
+| 可用性への影響 | 高 |
 
 ## [CVE-2023-24536] net/http, net/textproto, mime/multipart: denial of service from excessive resource consumption
 
@@ -83,7 +107,19 @@ In addition, `mime/multipart.Reader` now imposes the following limits on the siz
 Form parts parsed with `NextPart` and `NextRawPart` may contain no more than 10,000 header fields. In addition, forms parsed with `ReadForm` may contain no more than 10,000 header fields across all parts. This limit may be adjusted with the environment variable `GODEBUG=multipartmaxheaders=`.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H`
+- 深刻度: 重要 (Score: 7.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | なし |
+| 可用性への影響 | 高 |
 
 ## 例によって...
 

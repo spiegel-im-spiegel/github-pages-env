@@ -1,7 +1,7 @@
 +++
 title = "ステムバッグ買うた"
 date =  "2023-05-03T11:56:35+09:00"
-description = "れを称して「衝動買い」という（笑）"
+description = "これを称して「衝動買い」という（笑）"
 image = "/remark/2023/05/stem-bag-on-bike/stem-bag-o.jpg"
 tags = [ "tools", "bike", "osanpo-camera" ]
 pageType = "text"
