@@ -39,6 +39,7 @@ pageType = "text"
 - [Release v0.8.2 · koki-develop/gat · GitHub](https://github.com/koki-develop/gat/releases/tag/v0.8.2)
 - [Release v1.18.0 · goreleaser/goreleaser · GitHub](https://github.com/goreleaser/goreleaser/releases/tag/v1.18.0)
   - [Release v1.18.1 · goreleaser/goreleaser · GitHub](https://github.com/goreleaser/goreleaser/releases/tag/v1.18.1)
+  - [Release v1.18.2 · goreleaser/goreleaser · GitHub](https://github.com/goreleaser/goreleaser/releases/tag/v1.18.2)
 - [Release v0.80.0 · anchore/syft · GitHub](https://github.com/anchore/syft/releases/tag/v0.80.0)
 
 ## セキュリティ＆プライバシー関連 {#security}
