@@ -83,6 +83,8 @@ OpenSSH_9.0p1 Ubuntu-1ubuntu8, OpenSSL 3.0.8 7 Feb 2023
 
 - [Ubuntu 23.04 その23 - Ubuntu 23.04がリリースされました・ディスクイメージのダウンロード - kledgeb](https://kledgeb.blogspot.com/2023/04/ubuntu-2304-23-ubuntu-2304.html)
 - [Ubuntu 22.10 その84 - Ubuntu 23.04へアップグレードするには・アップグレードの注意事項 - kledgeb](https://kledgeb.blogspot.com/2023/04/ubuntu-2210-84-ubuntu-2304.html)
+- [How to upgrade Ubuntu to 23.04 and Linux kernel to 6.2](https://sypalo.com/how-to-upgrade-ubuntu)
+- [Canonical、「Ubuntu 23.04」の提供を開始 ～「Linux Kernel 6.2」「GNOME 44」搭載 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1495603.html)
 
 - [apt-key が非推奨になったので](https://zenn.dev/spiegel/articles/20220508-apt-key-is-deprecated)
 

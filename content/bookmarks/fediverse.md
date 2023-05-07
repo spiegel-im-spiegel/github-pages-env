@@ -80,8 +80,11 @@ pageType = "text"
   - [Keyoxide (@keyoxide@fosstodon.org) - Fosstodon](https://fosstodon.org/@keyoxide)
   - [Task (@task@fosstodon.org) - Fosstodon](https://fosstodon.org/@task)
   - [K-9 Mail (@k9mail@fosstodon.org) - Fosstodon](https://fosstodon.org/@k9mail)
+- [FLOSS.social](https://floss.social/)
+  - [GIMP (@GIMP@floss.social) - FLOSS.social](https://floss.social/@GIMP)
+  - [VideoLAN (@videolan@floss.social) - FLOSS.social](https://floss.social/@videolan)
+  - [KDE (@kde@floss.social) - FLOSS.social](https://floss.social/@kde)
 - [Signal (@signalapp@mastodon.world) - Mastodon](https://mastodon.world/@signalapp)
-- [GIMP (@GIMP@floss.social) - FLOSS.social](https://floss.social/@GIMP)
 - [Cloudflare (@cloudflare@noc.social) - Noc.Social](https://noc.social/@cloudflare)
 - [Raspberry Pi :raspberrypi: (@Raspberry_Pi@raspberrypi.social) - Raspberry Pi](https://raspberrypi.social/@Raspberry_Pi)
 - [Blender (@Blender@mastodon.social) - Mastodon](https://mastodon.social/@Blender)
@@ -89,7 +92,6 @@ pageType = "text"
   - [internetarchive (@internetarchive@mastodon.archive.org) - Internet Archive](https://mastodon.archive.org/@internetarchive)
 - [En OSM Town | Mapstodon for OpenStreetMap](https://en.osm.town/) : This is a fediverse/Mastodon server for people active in the OpenStreetMap Community.
   - [OpenStreetMap (@openstreetmap@en.osm.town) - En OSM Town | Mapstodon for OpenStreetMap](https://en.osm.town/@openstreetmap)
-- [VideoLAN (@videolan@floss.social) - FLOSS.social](https://floss.social/@videolan)
 - [Inkscape (@inkscape@mastodon.art) - Mastodon.ART](https://mastodon.art/@inkscape)
 - [me.dm by Medium.com](https://me.dm/) : Medium が提供するサーバ
   - [Medium (@medium@me.dm) - me.dm by Medium.com](https://me.dm/@medium)
@@ -203,3 +205,5 @@ pageType = "text"
   - [Meta、Twitter競合の分散型SNSアプリを計画中と認める | テクノエッジ TechnoEdge](https://www.techno-edge.net/article/2023/03/11/1000.html)
 - [microblog.pub - A self-hosted, single-user, ActivityPub powered microblog.](https://docs.microblog.pub/)
 - [Flipboard expands Mastodon support to its Android application | TechCrunch](https://techcrunch.com/2023/03/30/flipboard-expands-mastodon-support-to-its-android-application/)
+- [A new onboarding experience on Mastodon - Mastodon Blog](https://blog.joinmastodon.org/2023/05/a-new-onboarding-experience-on-mastodon/)
+  - [Mastodon、アカウント作成時のサーバ選択を不要にし、参加しやすく - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2305/02/news090.html)

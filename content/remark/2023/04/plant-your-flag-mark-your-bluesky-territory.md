@@ -71,6 +71,13 @@ Twitter は [Blue をお金で買えるようになった](https://p2ptk.org/fre
 - [Blueskyの一ヶ月前史 | 点と接線。](https://riq0h.jp/2023/04/15/110859/)
 - [「Bluesky」で本人認証をする方法、Twitterと違って無料＆自分で全部可能 - GIGAZINE](https://gigazine.net/news/20230421-bluesky-handle-domain-name/)
 - [The AT Protocol Developer Ecosystem - Bluesky](https://blueskyweb.xyz/blog/4-21-2023-atproto-developer-ecosystem) : アプリケーションごとにパスワードを発行できるようにしたらしい
+- [開発視点から見る、新しい分散型SNS「Bluesky」とAT Protocolの可能性 | gihyo.jp](https://gihyo.jp/article/2023/04/bluesky-atprotocol)
+  - [GitHub - bluesky-social/indigo: Go source code for Bluesky's atproto services. NOT STABLE (yet)](https://github.com/bluesky-social/indigo) : 一応公式らしい
+  - [GitHub - mattn/bsky: A cli application for bluesky social](https://github.com/mattn/bsky) : mattn さんが公開している CLI ツール。フル機能が実装されてるっぽい
+  - [nostr と Bluesky に7つ bot を作り k8s で稼働させた](https://zenn.dev/mattn/articles/cbc42abe8be82b)
+- [ツイッターの後継として注目度急上昇のBluesky。いま日本人が知っておくべきこと（徳力基彦） - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/tokurikimotohiko/20230505-00348373)
+- [「Bluesky」のAndroid版が登場、Twitter乗り換えの最有力候補の1つと目されTwitter元CEOのジャック・ドーシーがTwitterの反省点を踏まえて開発 - GIGAZINE](https://gigazine.net/news/20230420-bluesky-android/) : まだ最小限の機能しかない。せめて「共有」機能がないと...
+  - [Bluesky - Apps on Google Play](https://play.google.com/store/apps/details?id=xyz.blueskyweb.app&hl=en_US)
 
 [Bluesky]: https://blueskyweb.xyz/
 [staging.bsky.app]: https://staging.bsky.app/ "Bluesky"
