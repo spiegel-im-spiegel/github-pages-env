@@ -22910,5 +22910,52 @@
       false
     ],
     "Description": "今までのが切れたので違うメーカーにしてみた。同メーカーのチェーンクリーナーとセットで購入。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01I4WR6B6",
+      "Title": "ウルトラマンオーブ",
+      "URL": "https://www.amazon.co.jp/dp/B01I4WR6B6?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51AHmvmQk3L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "CD",
+      "Creators": [
+        {
+          "Name": "ボイジャー",
+          "Role": "アーティスト"
+        }
+      ],
+      "Publisher": "円谷プロダクション",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01I4WR6B6"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4562293991923"
+        }
+      ],
+      "PublicationDate": "2016-07-09",
+      "LastRelease": "2016-07-10",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2018-05-20",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "平成ウルトラマンではティガとオーブが名作だと思う。"
   }
 ]
