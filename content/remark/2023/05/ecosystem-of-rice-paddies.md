@@ -4,7 +4,7 @@ date =  "2023-05-13T21:45:09+09:00"
 description = "最近のお散歩カメラの成果"
 image = "/remark/2023/05/ecosystem-of-rice-paddies/52863523166_2331ba1ce5_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue" ]
-pageType = "text"
+pageType = "Photo"
 
 [scripts]
   mathjax = false
