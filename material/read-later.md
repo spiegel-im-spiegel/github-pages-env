@@ -5,12 +5,10 @@
 - [mitome.in](https://mitome.in/) : 参考になる
 - [GitHub - life4/enc: 🔑🔒 A modern and friendly CLI alternative to GnuPG: generate and download keys, encrypt, decrypt, and sign text and files, and more.](https://github.com/life4/enc)
 
-- [はじめて学ぶ ビデオゲームの心理学 脳のはたらきとユーザー体験（UX） | セリア ホデント, 山根 信二, 成田 啓行 |本 | 通販 | Amazon](https://www.amazon.co.jp/%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E5%AD%A6%E3%81%B6-%E3%83%93%E3%83%87%E3%82%AA%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E5%BF%83%E7%90%86%E5%AD%A6-%E8%84%B3%E3%81%AE%E3%81%AF%E3%81%9F%E3%82%89%E3%81%8D%E3%81%A8%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E4%BD%93%E9%A8%93%EF%BC%88UX%EF%BC%89-%E3%82%BB%E3%83%AA%E3%82%A2-%E3%83%9B%E3%83%87%E3%83%B3%E3%83%88/dp/4571210450)
 - [O'Reilly Japan - 自分だけのボードゲームを作ろう](https://www.oreilly.co.jp//books/9784814400164/)
 - [Go言語プログラミングエッセンス：書籍案内｜技術評論社](https://gihyo.jp/book/2023/978-4-297-13419-8) : 2023-03-09 発売予定
-- [数学ガールの秘密ノート／数を作ろう | 結城 浩 |本 | 通販 | Amazon](https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%81%AE%E7%A7%98%E5%AF%86%E3%83%8E%E3%83%BC%E3%83%88%EF%BC%8F%E6%95%B0%E3%82%92%E4%BD%9C%E3%82%8D%E3%81%86-%E7%B5%90%E5%9F%8E-%E6%B5%A9/dp/4815615411) : 2023-04-27 発売予定
 - [O'Reilly Japan Blog - 3月新刊情報『ハッキングAPI』](https://www.oreilly.co.jp/blog/2023/03/40024_hacking_apis.html)
-- [ステッパー ハンドル付き，負荷調節可能](https://www.amazon.co.jp/dp/B0BMKW9ZF1/)
+- [ダグラス・ラシュコフの新刊『デジタル生存競争』が来月出るぞ！ - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20230508/survival-of-the-richest)
 
 - [GitHub - sylpheed-mail/sylpheed: Sylpheed Email client](https://github.com/sylpheed-mail/sylpheed)
   - [オープンソースの老舗メールソフト「Sylpheed」、開発を「Subversion」から「GitHub」へ - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1460526.html)
@@ -18,6 +16,13 @@
 
 - [Goでcsvを構造体として扱う方法(csvutil)](https://zenn.dev/axpensive/articles/f69f377f46fd89) : ストリームで扱えるっぽい？
 
+- [Flickr Services](https://www.flickr.com/services/api/misc.urls.html) : Flickr の API 関連ページ
+
+- [GitHub - mattn/go-mastodon: mastodon client for golang](https://github.com/mattn/go-mastodon)
+- [マストドンのタイムラインをgo-mastodon のWebSocketを使用し取得する - Qiita](https://qiita.com/S-YOU/items/cf677ae282bd6f38fbbb)
+- [mastodonのaccess tokenをauthorization_codeで取得する例 - Qiita](https://qiita.com/civic/items/7358dc1c54ff8e71c326)
+- [Mastodon API の叩き方 · GitHub](https://gist.github.com/okapies/eab5c6fc217e914ed0cac6c944384e4d)
+- [mastodonのtootを原始人くんが喋ってくれるbot作った - Qiita](https://qiita.com/shinderuman@github/items/c96161caa65c6a9e8ffc)
 
 ## リリース情報 {#release}
 

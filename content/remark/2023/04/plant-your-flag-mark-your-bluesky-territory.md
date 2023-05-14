@@ -78,6 +78,7 @@ Twitter は [Blue をお金で買えるようになった](https://p2ptk.org/fre
 - [ツイッターの後継として注目度急上昇のBluesky。いま日本人が知っておくべきこと（徳力基彦） - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/tokurikimotohiko/20230505-00348373)
 - [「Bluesky」のAndroid版が登場、Twitter乗り換えの最有力候補の1つと目されTwitter元CEOのジャック・ドーシーがTwitterの反省点を踏まえて開発 - GIGAZINE](https://gigazine.net/news/20230420-bluesky-android/) : まだ最小限の機能しかない。せめて「共有」機能がないと...
   - [Bluesky - Apps on Google Play](https://play.google.com/store/apps/details?id=xyz.blueskyweb.app&hl=en_US)
+- [Nostrのrabble氏の投稿の日本語訳 · GitHub](https://gist.github.com/kojira/94079413376d2a37c626d30a51fcb89f)
 
 [Bluesky]: https://blueskyweb.xyz/
 [staging.bsky.app]: https://staging.bsky.app/ "Bluesky"

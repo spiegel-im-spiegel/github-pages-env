@@ -207,3 +207,8 @@ pageType = "text"
 - [Flipboard expands Mastodon support to its Android application | TechCrunch](https://techcrunch.com/2023/03/30/flipboard-expands-mastodon-support-to-its-android-application/)
 - [A new onboarding experience on Mastodon - Mastodon Blog](https://blog.joinmastodon.org/2023/05/a-new-onboarding-experience-on-mastodon/)
   - [Mastodon、アカウント作成時のサーバ選択を不要にし、参加しやすく - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2305/02/news090.html)
+- [Mozilla Social Private Beta Launch | The Mozilla Blog](https://blog.mozilla.org/en/mozilla/mozilla-social-mastodon-private-beta-announcement/)
+  - [Mozilla’s new Mozilla.Social Mastodon instance is an attempt to reinvent content moderation - The Verge](https://www.theverge.com/23710406/mozilla-social-mastodon-fediverse-moderation)
+  - [Mozilla expands its Mastodon investment with beta launch of its own highly moderated server | TechCrunch](https://techcrunch.com/2023/05/04/mozilla-expands-its-mastodon-investment-with-private-beta-launch-of-its-own-highly-moderated-server/)
+  - [Mozilla製Mastodonインスタンスのベータテストがスタート、「中立」を捨ててモデレーションに特化する攻めの姿勢が明確に - GIGAZINE](https://gigazine.net/news/20230508-mozilla-social-mastodon/)
+- [ブラウザ版はてなブックマークに、ブックマーク完了後の共有メニューを追加しました - はてなブックマーク開発ブログ](https://bookmark.hatenastaff.com/entry/share-menu-web) : 「Mastodon へ共有」できるようになったらしい
