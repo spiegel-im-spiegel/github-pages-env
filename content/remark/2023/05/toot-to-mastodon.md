@@ -1,11 +1,10 @@
 +++
 title = "コマンドラインで Mastodon に投稿する"
-date =  "2023-05-14T11:10:35+09:00"
+date =  "2023-05-14T13:20:56+09:00"
 description = "これで出力の基本機能はできたので，今後は入力側の設計と実装だな。先は長い。"
 image = "/images/attention/kitten.jpg"
 tags = [ "golang", "tools", "mastodon" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
