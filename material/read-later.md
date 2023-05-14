@@ -18,11 +18,6 @@
 
 - [Flickr Services](https://www.flickr.com/services/api/misc.urls.html) : Flickr の API 関連ページ
 
-- [GitHub - mattn/go-mastodon: mastodon client for golang](https://github.com/mattn/go-mastodon)
-- [マストドンのタイムラインをgo-mastodon のWebSocketを使用し取得する - Qiita](https://qiita.com/S-YOU/items/cf677ae282bd6f38fbbb)
-- [mastodonのaccess tokenをauthorization_codeで取得する例 - Qiita](https://qiita.com/civic/items/7358dc1c54ff8e71c326)
-- [Mastodon API の叩き方 · GitHub](https://gist.github.com/okapies/eab5c6fc217e914ed0cac6c944384e4d)
-- [mastodonのtootを原始人くんが喋ってくれるbot作った - Qiita](https://qiita.com/shinderuman@github/items/c96161caa65c6a9e8ffc)
 
 ## リリース情報 {#release}
 
