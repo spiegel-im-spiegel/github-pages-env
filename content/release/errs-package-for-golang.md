@@ -402,7 +402,7 @@ $ go run sample1.go | jq .
 となる。
 `"error"` 項目も `"errorVerbose"` 項目も文字列として出力されてしまうため構造化されているとは言えない。
 
-[Zap][`zap`] には [`zap`]`.Object()` 関数があって内部構造を出力することができるのだが，この関数を使うためには対象のオブジェクトが [`zapcore`]`.ObjectMarshaler` 型の interface を満たす必要がある。
+[Zap][`zap`] には [`zap`]`.Object()` 関数があって，これを使えば内部構造を出力することができるのだが，そのためには対象のオブジェクトが [`zapcore`]`.ObjectMarshaler` 型の interface を満たす必要がある。
 
 ```go
 type ObjectMarshaler interface {
@@ -470,7 +470,7 @@ $ go run sample2.go | jq .
 }
 ```
 
-と，いい感じに構造化されて出力できる。
+と，いい感じに構造化されて出力される。
 
 なお [`errs`]`.Error` でラップせず通常のエラーのままでも
 
