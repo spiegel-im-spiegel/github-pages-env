@@ -302,10 +302,10 @@ func main() {
 
 ```go
 func main() {
-	err := errs.Wrap(os.ErrInvalid)
-	for _, e := range errs.Unwraps(err) {
-		fmt.Println(e)
-	}
+    err := errs.Wrap(os.ErrInvalid)
+    for _, e := range errs.Unwraps(err) {
+        fmt.Println(e)
+    }
     //Output:
     //invalid argument
  }
@@ -345,6 +345,185 @@ $ go run sample/sample2d.go | jq .
 
 などと出力される。
 
+## Zap にエラーをオブジェクトとして出力する
+
+[Zap][`zap`] は gRPC 関連サービスや分散システムなどで人気の高い logger で，柔軟なカスタマイズができ，かつ高速で JSON 形式の構造化ログを出力できる。
+この logger に拙作のパッケージを食わせてみる。
+ソースコードはこんな感じ。
+
+```go
+package main
+
+import (
+    "os"
+
+    "github.com/goark/errs"
+    "go.uber.org/zap"
+)
+
+func checkFileOpen(path string) error {
+    file, err := os.Open(path)
+    if err != nil {
+        return errs.New(
+            "file open error",
+            errs.WithCause(err),
+            errs.WithContext("path", path),
+        )
+    }
+    defer file.Close()
+
+    return nil
+}
+
+func main() {
+    logger := zap.NewExample()
+    defer logger.Sync()
+
+    path := "not-exist.txt"
+    if err := checkFileOpen("not-exist.txt"); err != nil {
+        logger.Error("error in checkFileOpen function", zap.Error(err), zap.String("file", path))
+    }
+}
+```
+
+これを実行すると
+
+```text
+$ go run sample1.go | jq .
+{
+  "level": "error",
+  "msg": "error in checkFileOpen function",
+  "error": "file open error: open not-exist.txt: no such file or directory",
+  "errorVerbose": "{\"Type\":\"*errs.Error\",\"Err\":{\"Type\":\"*errors.errorString\",\"Msg\":\"file open error\"},\"Context\":{\"function\":\"main.checkFileOpen\",\"path\":\"not-exist.txt\"},\"Cause\":{\"Type\":\"*fs.PathError\",\"Msg\":\"open not-exist.txt: no such file or directory\",\"Cause\":{\"Type\":\"syscall.Errno\",\"Msg\":\"no such file or directory\"}}}",
+  "file": "not-exist.txt"
+}
+```
+
+となる。
+`"error"` 項目も `"errorVerbose"` 項目も文字列として出力されてしまうため構造化されているとは言えない。
+
+[Zap][`zap`] には [`zap`]`.Object()` 関数があって内部構造を出力することができるのだが，この関数を使うためには対象のオブジェクトが [`zapcore`]`.ObjectMarshaler` 型の interface を満たす必要がある。
+
+```go
+type ObjectMarshaler interface {
+    MarshalLogObject(ObjectEncoder) error
+}
+```
+
+この要件を満たすために [goark/errs/zapobject][`zapobject`] モジュールを作った。
+こんな感じに error をラッピングして使う。
+
+```go {hl_lines=[21]}
+package main
+
+import (
+    "os"
+
+    "github.com/goark/errs"
+    "github.com/goark/errs/zapobject"
+    "go.uber.org/zap"
+)
+
+func checkFileOpen(path string) error {
+    ...
+}
+
+func main() {
+    logger := zap.NewExample()
+    defer logger.Sync()
+
+    path := "not-exist.txt"
+    if err := checkFileOpen("not-exist.txt"); err != nil {
+        logger.Error("error in checkFileOpen function", zap.Object("error", zapobject.New(err)), zap.String("file", path))
+    }
+}
+```
+
+これを実行すると
+
+```text
+$ go run sample2.go | jq .
+{
+  "level": "error",
+  "msg": "error in checkFileOpen function",
+  "error": {
+    "type": "*errs.Error",
+    "msg": "file open error: open not-exist.txt: no such file or directory",
+    "error": {
+      "type": "*errors.errorString",
+      "msg": "file open error"
+    },
+    "cause": {
+      "type": "*fs.PathError",
+      "msg": "open not-exist.txt: no such file or directory",
+      "cause": {
+        "type": "syscall.Errno",
+        "msg": "no such file or directory"
+      }
+    },
+    "context": {
+      "function": "main.checkFileOpen",
+      "path": "not-exist.txt"
+    }
+  },
+  "file": "not-exist.txt"
+}
+```
+
+と，いい感じに構造化されて出力できる。
+
+なお [`errs`]`.Error` でラップせず通常のエラーのままでも
+
+```go {hl_lines=[13]}
+package main
+
+import (
+	"os"
+
+	"github.com/goark/errs/zapobject"
+	"go.uber.org/zap"
+)
+
+func checkFileOpen(path string) error {
+	file, err := os.Open(path)
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+
+	return nil
+}
+
+func main() {
+	logger := zap.NewExample()
+	defer logger.Sync()
+
+	path := "not-exist.txt"
+	if err := checkFileOpen("not-exist.txt"); err != nil {
+		logger.Error("error in checkFileOpen function", zap.Object("error", zapobject.New(err)), zap.String("file", path))
+	}
+}
+```
+
+```text
+$ go run sample2b.go | jq .
+{
+  "level": "error",
+  "msg": "error in checkFileOpen function",
+  "error": {
+    "type": "*fs.PathError",
+    "msg": "open not-exist.txt: no such file or directory",
+    "cause": {
+      "type": "syscall.Errno",
+      "msg": "no such file or directory"
+    }
+  },
+  "file": "not-exist.txt"
+}
+```
+
+という感じに可能な限り構造を辿って出力する。
+
 ## ブックマーク
 
 - [Go 1.13 のエラー・ハンドリング]({{< ref "/golang/error-handling-in-go-1_3.md" >}})
@@ -358,6 +537,9 @@ $ go run sample/sample2d.go | jq .
 [`fmt`]: https://golang.org/pkg/fmt/ "fmt - The Go Programming Language"
 [`errors`]: https://golang.org/pkg/errors/ "errors - The Go Programming Language"
 [`errs`]: https://github.com/goark/errs "goark/errs: Error handling for Golang"
+[`zapobject`]: https://pkg.go.dev/github.com/goark/errs/zapobject "zapobject package - github.com/goark/errs/zapobject - Go Packages"
+[`zap`]: https://pkg.go.dev/go.uber.org/zap "zap package - go.uber.org/zap - Go Packages"
+[`zapcore`]: https://pkg.go.dev/go.uber.org/zap@v1.24.0/zapcore "zapcore package - go.uber.org/zap/zapcore - Go Packages"
 
 ## 参考図書
 
