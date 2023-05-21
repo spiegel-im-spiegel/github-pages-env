@@ -402,6 +402,8 @@ $ go run sample3b.go | jq .
 - [Go のロギングライブラリ zap について](https://zenn.dev/mima/articles/069b223d9b221f)
 - [golangの高速な構造化ログライブラリ「zap」の使い方 - Qiita](https://qiita.com/emonuh/items/28dbee9bf2fe51d28153)
 
+- [Go 言語用エラーハンドリング・パッケージ]({{< ref "/release/errs-package-for-golang.md" >}})
+
 [Go]: https://go.dev/
 [indigo]: https://github.com/bluesky-social/indigo "bluesky-social/indigo: Go source code for Bluesky's atproto services. NOT STABLE (yet)"
 [rs/zerolog]: https://github.com/rs/zerolog "rs/zerolog: Zero Allocation JSON Logger"
