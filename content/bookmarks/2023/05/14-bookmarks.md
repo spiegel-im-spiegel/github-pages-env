@@ -17,6 +17,7 @@ pageType = "text"
   - [Release v0.12.0 · nyaosorg/go-readline-ny · GitHub](https://github.com/nyaosorg/go-readline-ny/releases/tag/v0.12.0) : 補完機能が入った！
 - [The Document Foundation releases LibreOffice 7.5.3 Community - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2023/05/04/tdf-releases-lo753-community/)
   - [Announcement of LibreOffice 7.4.7 Community - The Document Foundation Blog](https://blog.documentfoundation.org/blog/2023/05/11/libreoffice-7-4-7/)
+    - [「LibreOffice 7.4」系の最終バージョン「LibreOffice 7.4.7 Community」が公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1499949.html)
   - [「LibreOffice 7.5.3 Community」が公開 ～フリーのオフィス統合環境の最新版 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1499039.html)
 - [ピクチャーインピクチャーを強化した「Firefox 113」が公開 ～アニメAVIF画像にも対応 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1499177.html)
 - [Release v1.9.4 · sashabaranov/go-openai · GitHub](https://github.com/sashabaranov/go-openai/releases/tag/v1.9.4)

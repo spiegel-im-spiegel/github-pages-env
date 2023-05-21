@@ -79,6 +79,10 @@ Twitter は [Blue をお金で買えるようになった](https://p2ptk.org/fre
 - [「Bluesky」のAndroid版が登場、Twitter乗り換えの最有力候補の1つと目されTwitter元CEOのジャック・ドーシーがTwitterの反省点を踏まえて開発 - GIGAZINE](https://gigazine.net/news/20230420-bluesky-android/) : まだ最小限の機能しかない。せめて「共有」機能がないと...
   - [Bluesky - Apps on Google Play](https://play.google.com/store/apps/details?id=xyz.blueskyweb.app&hl=en_US)
 - [Nostrのrabble氏の投稿の日本語訳 · GitHub](https://gist.github.com/kojira/94079413376d2a37c626d30a51fcb89f)
+- [Decentralized Identifiers (DIDs) v1.0](https://www.w3.org/TR/did-core/)
+- [Twitter代替有力候補SNS「Bluesky」でGIGAZINEが新着ニュース配信を開始＆どういう仕組みなのか解説 - GIGAZINE](https://gigazine.net/news/20230518-bluesky-gigazine/)
+- [BlueskyのAT Protocolでリンクカード付きのpostを投稿する方法](https://zenn.dev/ryo_kawamata/articles/8d1966f6bb0a82)
+- [GitHub ActionsからBluesky Socialへ簡単にポストする](https://zenn.dev/kato_shinya/articles/send-post-to-bluesky-via-github-actions)
 
 [Bluesky]: https://blueskyweb.xyz/
 [staging.bsky.app]: https://staging.bsky.app/ "Bluesky"

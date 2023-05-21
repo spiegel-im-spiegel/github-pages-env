@@ -102,6 +102,10 @@ Here is how platforms die: first, they are good to their users; then they abuse 
 
 [Cory Doctorow]: https://mamot.fr/@doctorow "doctorow (@doctorow@mamot.fr) - La Quadrature du Net - Mastodon - Media Fédéré"
 
+## ブックマーク
+
+- [Helping Flickr members understand what Flickr is for with refreshed community guidelines. | Flickr Blog](https://blog.flickr.net/en/2023/05/18/helping-flickr-members-understand-what-flickr-is-for-with-refreshed-community-guidelines/)
+
 ## 参考文献
 
 {{% review-paapi "B099RTG3J7" %}} <!-- 著作権は文化を発展させるのか: 人権と文化コモンズ -->

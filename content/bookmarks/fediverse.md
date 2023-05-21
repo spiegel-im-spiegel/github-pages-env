@@ -212,3 +212,4 @@ pageType = "text"
   - [Mozilla expands its Mastodon investment with beta launch of its own highly moderated server | TechCrunch](https://techcrunch.com/2023/05/04/mozilla-expands-its-mastodon-investment-with-private-beta-launch-of-its-own-highly-moderated-server/)
   - [Mozilla製Mastodonインスタンスのベータテストがスタート、「中立」を捨ててモデレーションに特化する攻めの姿勢が明確に - GIGAZINE](https://gigazine.net/news/20230508-mozilla-social-mastodon/)
 - [ブラウザ版はてなブックマークに、ブックマーク完了後の共有メニューを追加しました - はてなブックマーク開発ブログ](https://bookmark.hatenastaff.com/entry/share-menu-web) : 「Mastodon へ共有」できるようになったらしい
+- [This is Instagram’s new Twitter competitor - The Verge](https://www.theverge.com/2023/5/19/23730070/instagram-twitter-app-competitor-leak) : なんか ActivityPub で分散化に対応する（？）らしい

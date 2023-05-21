@@ -396,6 +396,12 @@ $ go run sample3b.go | jq .
 
 じゃぁ，[自作ツール](https://github.com/goark/toolbox "goark/toolbox: A collection of miscellaneous commands")の logger を載せ換えますかね。
 
+## ブックマーク
+
+- [GoのロギングライブラリzapのTips - Carpe Diem](https://christina04.hatenablog.com/entry/golang-zap-tips)
+- [Go のロギングライブラリ zap について](https://zenn.dev/mima/articles/069b223d9b221f)
+- [golangの高速な構造化ログライブラリ「zap」の使い方 - Qiita](https://qiita.com/emonuh/items/28dbee9bf2fe51d28153)
+
 [Go]: https://go.dev/
 [indigo]: https://github.com/bluesky-social/indigo "bluesky-social/indigo: Go source code for Bluesky's atproto services. NOT STABLE (yet)"
 [rs/zerolog]: https://github.com/rs/zerolog "rs/zerolog: Zero Allocation JSON Logger"
@@ -404,7 +410,6 @@ $ go run sample3b.go | jq .
 [`log`]: https://github.com/ipfs/go-log "ipfs/go-log: A logging library used by go-ipfs"
 [`errs`]: https://github.com/goark/errs "goark/errs: Error handling for Golang"
 [`zapobject`]: https://pkg.go.dev/github.com/goark/errs/zapobject "zapobject package - github.com/goark/errs/zapobject - Go Packages"
-
 
 ## 参考図書
 
