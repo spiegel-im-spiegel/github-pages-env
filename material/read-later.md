@@ -5,10 +5,8 @@
 - [mitome.in](https://mitome.in/) : 参考になる
 - [GitHub - life4/enc: 🔑🔒 A modern and friendly CLI alternative to GnuPG: generate and download keys, encrypt, decrypt, and sign text and files, and more.](https://github.com/life4/enc)
 
-- [O'Reilly Japan - 自分だけのボードゲームを作ろう](https://www.oreilly.co.jp//books/9784814400164/)
-- [Go言語プログラミングエッセンス：書籍案内｜技術評論社](https://gihyo.jp/book/2023/978-4-297-13419-8) : 2023-03-09 発売予定
-- [O'Reilly Japan Blog - 3月新刊情報『ハッキングAPI』](https://www.oreilly.co.jp/blog/2023/03/40024_hacking_apis.html)
 - [ダグラス・ラシュコフの新刊『デジタル生存競争』が来月出るぞ！ - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20230508/survival-of-the-richest)
+- [レガシーコードとどう付き合うか | めもりー | 工学 | Kindleストア | Amazon](https://www.amazon.co.jp/%E3%83%AC%E3%82%AC%E3%82%B7%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A8%E3%81%A9%E3%81%86%E4%BB%98%E3%81%8D%E5%90%88%E3%81%86%E3%81%8B-%E3%82%81%E3%82%82%E3%82%8A%E3%83%BC-ebook/dp/B0C5WNNLCR)
 
 - [GitHub - sylpheed-mail/sylpheed: Sylpheed Email client](https://github.com/sylpheed-mail/sylpheed)
   - [オープンソースの老舗メールソフト「Sylpheed」、開発を「Subversion」から「GitHub」へ - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1460526.html)
@@ -17,6 +15,10 @@
 - [Goでcsvを構造体として扱う方法(csvutil)](https://zenn.dev/axpensive/articles/f69f377f46fd89) : ストリームで扱えるっぽい？
 
 - [Flickr Services](https://www.flickr.com/services/api/misc.urls.html) : Flickr の API 関連ページ
+
+- [GitHub - bep/simplecobra: A simpler API for the popular Cobra CLI.](https://github.com/bep/simplecobra) : 実装上の使い勝手が Cobra と変わらないなら試す価値あり
+
+- [人工知能規制、資本主義批判、民主主義再考 – WirelessWire News](https://wirelesswire.jp/2023/05/84727/)
 
 
 ## リリース情報 {#release}

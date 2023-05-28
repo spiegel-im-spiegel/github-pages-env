@@ -83,6 +83,7 @@ Twitter は [Blue をお金で買えるようになった](https://p2ptk.org/fre
 - [Twitter代替有力候補SNS「Bluesky」でGIGAZINEが新着ニュース配信を開始＆どういう仕組みなのか解説 - GIGAZINE](https://gigazine.net/news/20230518-bluesky-gigazine/)
 - [BlueskyのAT Protocolでリンクカード付きのpostを投稿する方法](https://zenn.dev/ryo_kawamata/articles/8d1966f6bb0a82)
 - [GitHub ActionsからBluesky Socialへ簡単にポストする](https://zenn.dev/kato_shinya/articles/send-post-to-bluesky-via-github-actions)
+- [アプリパスワードについて – Nextra](https://tokimekibluesky-docs.vercel.app/ja/apppassword)
 
 [Bluesky]: https://blueskyweb.xyz/
 [staging.bsky.app]: https://staging.bsky.app/ "Bluesky"

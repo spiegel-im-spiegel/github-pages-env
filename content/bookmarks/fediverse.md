@@ -204,7 +204,6 @@ pageType = "text"
 - [Meta is building a decentralized, text-based social network](https://www.platformer.news/p/meta-is-building-a-decentralized)
   - [Meta、Twitter競合の分散型SNSアプリを計画中と認める | テクノエッジ TechnoEdge](https://www.techno-edge.net/article/2023/03/11/1000.html)
 - [microblog.pub - A self-hosted, single-user, ActivityPub powered microblog.](https://docs.microblog.pub/)
-- [Flipboard expands Mastodon support to its Android application | TechCrunch](https://techcrunch.com/2023/03/30/flipboard-expands-mastodon-support-to-its-android-application/)
 - [A new onboarding experience on Mastodon - Mastodon Blog](https://blog.joinmastodon.org/2023/05/a-new-onboarding-experience-on-mastodon/)
   - [Mastodon、アカウント作成時のサーバ選択を不要にし、参加しやすく - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2305/02/news090.html)
 - [Mozilla Social Private Beta Launch | The Mozilla Blog](https://blog.mozilla.org/en/mozilla/mozilla-social-mastodon-private-beta-announcement/)
@@ -213,3 +212,5 @@ pageType = "text"
   - [Mozilla製Mastodonインスタンスのベータテストがスタート、「中立」を捨ててモデレーションに特化する攻めの姿勢が明確に - GIGAZINE](https://gigazine.net/news/20230508-mozilla-social-mastodon/)
 - [ブラウザ版はてなブックマークに、ブックマーク完了後の共有メニューを追加しました - はてなブックマーク開発ブログ](https://bookmark.hatenastaff.com/entry/share-menu-web) : 「Mastodon へ共有」できるようになったらしい
 - [This is Instagram’s new Twitter competitor - The Verge](https://www.theverge.com/2023/5/19/23730070/instagram-twitter-app-competitor-leak) : なんか ActivityPub で分散化に対応する（？）らしい
+- [Flipboard becomes first app to support Bluesky, Mastodon and Pixelfed all in one place | TechCrunch](https://techcrunch.com/2023/05/23/flipboard-becomes-first-to-support-bluesky-mastodon-and-pixelfed-all-in-one-app/)
+  - [Flipboard expands Mastodon support to its Android application | TechCrunch](https://techcrunch.com/2023/03/30/flipboard-expands-mastodon-support-to-its-android-application/)
