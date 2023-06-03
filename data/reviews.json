@@ -22957,5 +22957,46 @@
       false
     ],
     "Description": "平成ウルトラマンではティガとオーブが名作だと思う。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BT1X9H7B",
+      "Title": "ビオレUＶ アクアリッチ アクアプロテクトミスト 60ミリリットル (x 1)",
+      "URL": "https://www.amazon.co.jp/dp/B0BT1X9H7B?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41Ef2UTIwKL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "ヘルスケア\u0026ケア用品",
+      "Publisher": "花王",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BT1X9H7B"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4901301416438"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2023-02-08",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2018-06-03",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "同じメーカーの日焼け止め（乳液タイプ）をドラッグストアで買ったのだが，自転車に乗るならこっちのほうがいいかなぁ。次に買うときはこれを試してみよう。"
   }
 ]

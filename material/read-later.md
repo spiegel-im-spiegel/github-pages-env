@@ -7,6 +7,7 @@
 
 - [ダグラス・ラシュコフの新刊『デジタル生存競争』が来月出るぞ！ - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20230508/survival-of-the-richest)
 - [レガシーコードとどう付き合うか | めもりー | 工学 | Kindleストア | Amazon](https://www.amazon.co.jp/%E3%83%AC%E3%82%AC%E3%82%B7%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A8%E3%81%A9%E3%81%86%E4%BB%98%E3%81%8D%E5%90%88%E3%81%86%E3%81%8B-%E3%82%81%E3%82%82%E3%82%8A%E3%83%BC-ebook/dp/B0C5WNNLCR)
+- [Amazon | ビオレUＶ アクアリッチ アクアプロテクトミスト 60ミリリットル (x 1) | ビオレ | ビューティー 通販](https://www.amazon.co.jp/%E3%83%93%E3%82%AA%E3%83%AC-26102537-%E3%82%A2%E3%82%AF%E3%82%A2%E3%83%AA%E3%83%83%E3%83%81-%E3%82%A2%E3%82%AF%E3%82%A2%E3%83%97%E3%83%AD%E3%83%86%E3%82%AF%E3%83%88%E3%83%9F%E3%82%B9%E3%83%88-60%E3%83%9F%E3%83%AA%E3%83%AA%E3%83%83%E3%83%88%E3%83%AB/dp/B0BT1X9H7B) : 次回買うときはこれかな
 
 - [GitHub - sylpheed-mail/sylpheed: Sylpheed Email client](https://github.com/sylpheed-mail/sylpheed)
   - [オープンソースの老舗メールソフト「Sylpheed」、開発を「Subversion」から「GitHub」へ - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1460526.html)
