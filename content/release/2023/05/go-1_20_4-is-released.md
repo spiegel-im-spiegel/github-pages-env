@@ -25,7 +25,19 @@ Web アプリケーションを組んでいる方は特に気をつけましょ�
 Angle brackets (`<>`) were not considered dangerous characters when inserted into CSS contexts. Templates containing multiple actions separated by a '`/`' character could result in unexpectedly closing the CSS context and allowing for injection of unexpected HMTL, if executed with untrusted input.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L`
+- 深刻度: 重要 (Score: 7.3)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | 低 |
+| 完全性への影響 | 低 |
+| 可用性への影響 | 低 |
 
 ## [CVE-2023-24540] html/template: improper handling of JavaScript whitespace
 
@@ -35,7 +47,19 @@ Not all valid JavaScript whitespace characters were considered to be whitespace.
 
 うわぁ，面倒くさい。
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H`
+- 深刻度: 緊急 (Score: 9.8)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | 高 |
+| 完全性への影響 | 高 |
+| 可用性への影響 | 高 |
 
 ## [CVE-2023-29400] html/template: improper handling of empty HTML attributes
 
@@ -43,7 +67,19 @@ Not all valid JavaScript whitespace characters were considered to be whitespace.
 Templates containing actions in unquoted HTML attributes (e.g. `"attr={{.}}"`) executed with empty input could result in output that would have unexpected results when parsed due to HTML normalization rules. This may allow injection of arbitrary attributes into tags.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L`
+- 深刻度: 重要 (Score: 7.3)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | 低 |
+| 完全性への影響 | 低 |
+| 可用性への影響 | 低 |
 
 ## 例によって...
 
