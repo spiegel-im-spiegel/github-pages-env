@@ -138,6 +138,7 @@ AIの文脈に即して少し抽象化すると「学習対象著作物の『表
 
 ## ブックマーク
 
+- [ウェブをますます暗い森にし、人間の能力を増強する新しい仲間としての生成AI – WirelessWire News](https://wirelesswire.jp/2023/06/84905/)
 - [AI は「創作者様」を引きずり下ろすか — 『人権と文化コモンズ』を流し読む]({{< ref "/remark/2022/10/cultural-commons.md" >}})
 
 [著作権法]: https://elaws.e-gov.go.jp/document?lawid=345AC0000000048 "著作権法 | e-Gov法令検索"
