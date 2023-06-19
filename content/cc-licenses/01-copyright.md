@@ -29,7 +29,7 @@ tags = ["code", "law", "intellectual-property", "copyright"]
 
 「著作権（copyright）」は「知的財産権（intellectual property）」の一種で，日本の[著作権法]第1条では以下のように書かれている。
 
-{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/document?lawid=345AC0000000048" >}}
 <q>この法律は、著作物並びに実演、レコード、放送及び有線放送に関し著作者の権利及びこれに隣接する権利を定め、これらの文化的所産の公正な利用に留意しつつ、著作者等の権利の保護を図り、もつて文化の発展に寄与することを目的とする。</q>
 {{< /fig-quote >}}
 
@@ -73,7 +73,7 @@ tags = ["code", "law", "intellectual-property", "copyright"]
 まずは「著作物」の定義から。
 これは[著作権法]第2条に記されている。
 
-{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/document?lawid=345AC0000000048" >}}
 <q>著作物　思想又は感情を創作的に表現したものであつて、文芸、学術、美術又は音楽の範囲に属するものをいう。 </q>
 {{< /fig-quote >}}
 
@@ -124,7 +124,7 @@ tags = ["code", "law", "intellectual-property", "copyright"]
 以上。
 では面白くないので，もう少し具体的に[著作権法] 第14条から。
 
-{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/document?lawid=345AC0000000048" >}}
 <q>著作物の原作品に、又は著作物の公衆への提供若しくは提示の際に、その氏名若しくは名称（以下「実名」という。）又はその雅号、筆名、略称その他実名に代えて用いられるもの（以下「変名」という。）として周知のものが著作者名として通常の方法により表示されている者は、その著作物の著作者と推定する。</q>
 {{< /fig-quote >}}
 
@@ -133,11 +133,11 @@ tags = ["code", "law", "intellectual-property", "copyright"]
 もうひとつ。
 「職務著作」という考え方がある（[著作権法] 第15条）。
 
-{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/document?lawid=345AC0000000048" >}}
 <q>法人その他使用者（以下この条において「法人等」という。）の発意に基づきその法人等の業務に従事する者が職務上作成する著作物（プログラムの著作物を除く。）で、その法人等が自己の著作の名義の下に公表するものの著作者は、その作成の時における契約、勤務規則その他に別段の定めがない限り、その法人等とする。</q>
 {{< /fig-quote >}}
 
-{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/document?lawid=345AC0000000048" >}}
 <q>法人等の発意に基づきその法人等の業務に従事する者が職務上作成するプログラムの著作物の著作者は、その作成の時における契約、勤務規則その他に別段の定めがない限り、その法人等とする。 </q>
 {{< /fig-quote >}}
 
@@ -373,7 +373,7 @@ tags = ["code", "law", "intellectual-property", "copyright"]
 - [今後変わる？　リンクについての著作権法上の考え方　岡本健太郎｜コラム｜骨董通り法律事務所 For the Arts](http://www.kottolaw.com/column/001653.html)
 
 [本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
-[著作権法]: https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048 "著作権法"
+[著作権法]: https://elaws.e-gov.go.jp/document?lawid=345AC0000000048 "著作権法"
 [CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
 
 ### 参考図書

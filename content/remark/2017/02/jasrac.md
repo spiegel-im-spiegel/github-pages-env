@@ -54,7 +54,7 @@ tags = ["code", "intellectual-property", "copyright", "music", "management"]
 まず，今回問題になっているのは著作財産権のうちの「演奏権」とよばれるものである。
 「演奏権」は[著作権法]第二十二条で定義されている。
 
-{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/document?lawid=345AC0000000048" >}}
 <q><strong>第二十二条</strong> 著作者は、その著作物を、公衆に直接見せ又は聞かせることを目的として（以下「公に」という。）上演し、又は演奏する権利を専有する。</q>
 {{< /fig-quote >}}
 
@@ -69,7 +69,7 @@ tags = ["code", "intellectual-property", "copyright", "music", "management"]
 法律の世界でも概ねそのような解釈らしい。
 しかし[著作権法]第二条の5では
 
-{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/document?lawid=345AC0000000048" >}}
 <q>この法律にいう「公衆」には、特定かつ多数の者を含むものとする。</q>
 {{< /fig-quote >}}
 
@@ -88,7 +88,7 @@ tags = ["code", "intellectual-property", "copyright", "music", "management"]
 これは目的や手段に応じて著作権の行使が制限される条件を記したものだ。
 この中に「営利を目的としない上演等」という条件がある。
 
-{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/document?lawid=345AC0000000048" >}}
 <q><strong>第三十八条</strong> 公表された著作物は、営利を目的とせず、かつ、聴衆又は観衆から料金（いずれの名義をもつてするかを問わず、著作物の提供又は提示につき受ける対価をいう。以下この条において同じ。）を受けない場合には、公に上演し、演奏し、上映し、又は口述することができる。ただし、当該上演、演奏、上映又は口述について実演家又は口述を行う者に対し報酬が支払われる場合は、この限りでない。</q>
 {{< /fig-quote >}}
 
@@ -137,7 +137,7 @@ JASRAC だけなら 2.5% かもしれないが，他の著作権管理団体も�
 
 - [改訂3版： CC Licenses について](/cc-licenses/)
 
-[著作権法]: https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048 "著作権法"
+[著作権法]: https://elaws.e-gov.go.jp/document?lawid=345AC0000000048 "著作権法"
 [CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
 
 ## 参考図書

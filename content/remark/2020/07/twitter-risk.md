@@ -143,7 +143,7 @@ Retweet に関しては紆余曲折があるが，今のところは以下の2�
 
 [^cr1]: 「氏名表示権」を含む「著作者人格権」は「著作者の一身に専属し、譲渡することができない」（[著作権法] 第59条）ため，著作権者が他の著作財産権を保持していようといまいと「著作者の権利」として行使できる。
 
-{{< fig-quote type="markdown" title="著作権法" link="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+{{< fig-quote type="markdown" title="著作権法" link="https://elaws.e-gov.go.jp/document?lawid=345AC0000000048" >}}
 {{% quote %}}著作者は、その著作物の原作品に、又はその著作物の公衆への提供若しくは提示に際し、その実名若しくは変名を著作者名として表示し、又は著作者名を表示しないこととする権利を有する。その著作物を原著作物とする二次的著作物の公衆への提供又は提示に際しての原著作物の著作者名の表示についても、同様とする{{% /quote %}}。
 {{< /fig-quote >}}
 
@@ -208,7 +208,7 @@ Retweet が（{{% ruby "fav." %}}♡{{% /ruby %}}の数なんかより）重要�
 - [リツイートするだけで身元が他人に知られるリスクがあることを示した知財高裁判決(栗原潔) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/kuriharakiyoshi/20180613-00086449/)
 - [改訂3版： CC Licenses について]({{< rlnk "/cc-licenses/" >}})
 
-[著作権法]: https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048 "著作権法"
+[著作権法]: https://elaws.e-gov.go.jp/document?lawid=345AC0000000048 "著作権法"
 [Twitter]: https://twitter.com/
 [前置き]: {{< relref "#intro">}} "Twitter とは"
 

@@ -22,7 +22,7 @@ tags = ["derivative-works", "creative-commons", "copyright", "license", "tpp"]
 
 [著作権法]第2条では「二次的著作物」は以下のように定義されている。
 
-{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/document?lawid=345AC0000000048" >}}
 <q>著作物を翻訳し、編曲し、若しくは変形し、又は脚色し、映画化し、その他翻案することにより創作した著作物をいう。</q>
 {{< /fig-quote >}}
 
@@ -58,7 +58,7 @@ tags = ["derivative-works", "creative-commons", "copyright", "license", "tpp"]
 の2つの権利を持っている。
 ポイントは二次的著作物の原著作者（元の著作物の著作者）も二次的著作物に対して一連の著作財産権を持っていることである。
 
-{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/document?lawid=345AC0000000048" >}}
 <q>二次的著作物の原著作物の著作者は、当該二次的著作物の利用に関し、この款に規定する権利で当該二次的著作物の著作者が有するものと同一の種類の権利を専有する。</q>
 {{< /fig-quote >}}
 
@@ -220,7 +220,7 @@ tags = ["derivative-works", "creative-commons", "copyright", "license", "tpp"]
 - [知財高裁でBL同人作品の無断コピーは著作権侵害という当たり前の判決(栗原潔) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/kuriharakiyoshi/20201008-00201963/) : 後半の「キャラクタの二次的著作物」の権利関係は参考になる
 
 [本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
-[著作権法]: https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048 "著作権法"
+[著作権法]: https://elaws.e-gov.go.jp/document?lawid=345AC0000000048 "著作権法"
 [Creative Commons]: https://creativecommons.org/ "Creative Commons"
 [CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"
 [表示-継承]: https://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons — Attribution-ShareAlike 4.0 International — CC BY-SA 4.0"

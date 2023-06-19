@@ -84,7 +84,7 @@ tags = ["code", "law", "intellectual-property", "copyright", "access-control"]
 - [第４０１回：ダウンロード違法化・犯罪化の対象範囲の拡大とリーチサイト規制（リンク規制）の法制化を含む文化庁・著作権分科会・法制・基本問題小委員会中間まとめに関する意見募集の開始（２０１９年１月６日〆切）: 無名の一知財政策ウォッチャーの独言](http://fr-toen.cocolog-nifty.com/blog/2018/12/post-ef1a.html)
 - [静止画や小説等ダウンロードの違法化／処罰化に強く反対する: 弁護士山口貴士大いに語る](http://yama-ben.cocolog-nifty.com/ooinikataru/2018/12/post-8df7.html)
 
-[著作権法]: https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048 "著作権法"
+[著作権法]: https://elaws.e-gov.go.jp/document?lawid=345AC0000000048 "著作権法"
 
 ## 参考図書
 

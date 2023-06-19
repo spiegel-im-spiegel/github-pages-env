@@ -35,7 +35,7 @@ tags = ["moral-rights", "creative-commons", "copyright", "license"]
 
 このうちもっとも強力な権利が「同一性保持権」である。
 
-{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/document?lawid=345AC0000000048" >}}
 <q>著作者は、その著作物及びその題号の同一性を保持する権利を有し、その意に反してこれらの変更、切除その他の改変を受けないものとする。</q>
 {{< /fig-quote >}}
 
@@ -57,7 +57,7 @@ tags = ["moral-rights", "creative-commons", "copyright", "license"]
 著作者人格権と同じく一身専属性を持ち譲渡できないし，実演家の死後も機能する（[著作権法] 第101条）。
 ただし同一性保持権については
 
-{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+{{< fig-quote title="著作権法" link="https://elaws.e-gov.go.jp/document?lawid=345AC0000000048" >}}
 <q>実演家は、その実演の同一性を保持する権利を有し、自己の名誉又は声望を害するその実演の変更、切除その他の改変を受けないものとする。</q>
 {{< /fig-quote >}}
 
@@ -127,5 +127,5 @@ tags = ["moral-rights", "creative-commons", "copyright", "license"]
 - [【ネット著作権】 人名・グループ名を作品タイトルに使ってはいけない？　～水曜日のカンパネラ「ヒカシュー」騒動と疑似著作権～ - INTERNET Watch](http://internet.watch.impress.co.jp/docs/special/fukui/20160517_757708.html)
 
 [本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
-[著作権法]: https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048 "著作権法"
+[著作権法]: https://elaws.e-gov.go.jp/document?lawid=345AC0000000048 "著作権法"
 [CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"

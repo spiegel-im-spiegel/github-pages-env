@@ -151,6 +151,6 @@ NFT をミントする際，新しい強力なツールで作業する場合と�
 このドキュメントは使用を推奨するものでも問題を深く掘り下げるものでもありません。
 代わりに CC ライセンスがこれらの新しいツールや慣行とどのように相互作用するかを既に調査を行っている人々に向けてガイダンスを提供することを狙いとしています。
 
-[著作権法]: https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048 "著作権法"
+[著作権法]: https://elaws.e-gov.go.jp/document?lawid=345AC0000000048 "著作権法"
 [Creative Commons]: https://creativecommons.org/ "Creative Commons"
 [CC Licenses]: https://creativecommons.org/licenses/ "ライセンスについて - Creative Commons"

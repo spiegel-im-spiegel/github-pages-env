@@ -66,7 +66,7 @@ func main() {
 
 ### 引用
 
-{{< fig-quote type="markdown" title="著作権法" link="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048" >}}
+{{< fig-quote type="markdown" title="著作権法" link="https://elaws.e-gov.go.jp/document?lawid=345AC0000000048" >}}
 {{% quote %}}著作者は、その著作物の原作品に、又はその著作物の公衆への提供若しくは提示に際し、その実名若しくは変名を著作者名として表示し、又は著作者名を表示しないこととする権利を有する。その著作物を原著作物とする二次的著作物の公衆への提供又は提示に際しての原著作物の著作者名の表示についても、同様とする{{% /quote %}}。
 {{< /fig-quote >}}
 
