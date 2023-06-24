@@ -45,7 +45,7 @@ pageType = "text"
 
 ところで最初に挙げた記事では
 
-{{< fig-quote type="markdown" title="https://orisano.hatenablog.com/entry/2023/06/21/231349" link="次なる pkg/errors を探してを読んで" >}}
+{{< fig-quote type="markdown" link="https://orisano.hatenablog.com/entry/2023/06/21/231349" title="次なる pkg/errors を探してを読んで" >}}
 出力の処理は `json.Marshal` と `fmt.Sprintf` を使っています。 json.Marshal を高速化するために [`goccy/go-json`](https://github.com/goccy/go-json) に変えるのもありかもしれません。
 {{< /fig-quote >}}
 
