@@ -20,7 +20,19 @@ pageType = "text"
 [![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/goark/errs/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/goark/errs.svg)](https://github.com/goark/errs/releases/latest)
 
+[`errs`] パッケージは以下の設計目標の下に実装している。
+
+- 任意の `error` インスタンスをラッピングしてエラー発生時点の文脈（context）を収集する
+  - 任意のコンテキスト情報を埋め込み可能
+  - 既定でエラーが発生した関数名をコンテキスト情報として保持する
+- 構造化されたエラー情報を JSON 形式で出力可能
+  - MarshalJSON() メソッド完備
+  - 書式 `%+v` を使って JSON 形式で出力
+  - 任意の `error` インスタンスで（`Unwrap` メソッドの挙動に従い）可能な限り構造を辿って出力
+- Concurrency-safe なマルチエラーハンドリング（v1.3 以降）
+
 なお [`errs`] パッケージは [Go] 1.13 以上を要求する。
+また[マルチエラーのハンドリング](#multi)を行う場合は  [Go] 1.20, [`errs`] 1.3 以上が必要である。
 ご注意を。
 
 ## インポート
@@ -63,7 +75,7 @@ err := errs.New(
 ```
 
 [`errs`]`.WithCause()` 関数も [`errs`]`.New()` 関数の引数として複数セットできるが，最後にセットしたインスタンスのみが有効となる。
-なお，複数の原因エラーがある場合は [`errors`]`.Join()` 関数を使うといいだろう（[Go] 1.20 以降）。
+なお，複数の原因エラーがある場合は [`errs`]`.Join()` または標準の [`errors`]`.Join()` 関数を使うといいだろう（[Go] 1.20 以降, [`errs`] v1.3 以降）。
 
 ```go {hl_lines=[4]}
 err := errs.New(
@@ -345,7 +357,7 @@ $ go run sample/sample2d.go | jq .
 
 などと出力される。
 
-## Zap にエラーをオブジェクトとして出力する
+## Zap にエラーをオブジェクトとして出力する（2023-05-20 更新）
 
 [Zap][`zap`] は gRPC 関連サービスや分散システムなどで人気の高い logger で，柔軟なカスタマイズができ，かつ高速で JSON 形式の構造化ログを出力できる。
 この logger に拙作のパッケージを食わせてみる。
@@ -478,30 +490,30 @@ $ go run sample2.go | jq .
 package main
 
 import (
-	"os"
+    "os"
 
-	"github.com/goark/errs/zapobject"
-	"go.uber.org/zap"
+    "github.com/goark/errs/zapobject"
+    "go.uber.org/zap"
 )
 
 func checkFileOpen(path string) error {
-	file, err := os.Open(path)
-	if err != nil {
-		return err
-	}
-	defer file.Close()
+    file, err := os.Open(path)
+    if err != nil {
+        return err
+    }
+    defer file.Close()
 
-	return nil
+    return nil
 }
 
 func main() {
-	logger := zap.NewExample()
-	defer logger.Sync()
+    logger := zap.NewExample()
+    defer logger.Sync()
 
-	path := "not-exist.txt"
-	if err := checkFileOpen("not-exist.txt"); err != nil {
-		logger.Error("error in checkFileOpen function", zap.Object("error", zapobject.New(err)), zap.String("file", path))
-	}
+    path := "not-exist.txt"
+    if err := checkFileOpen("not-exist.txt"); err != nil {
+        logger.Error("error in checkFileOpen function", zap.Object("error", zapobject.New(err)), zap.String("file", path))
+    }
 }
 ```
 
@@ -524,6 +536,80 @@ $ go run sample2b.go | jq .
 
 という感じに可能な限り構造を辿って出力する。
 
+## マルチエラーのハンドリング（2023-06-26 更新）{#multi}
+
+v1.3.0 よりマルチエラーに対応した。
+
+まずは簡単にこんな感じ。
+
+```go {hl_lines=[13]}
+package main
+
+import (
+    "errors"
+    "fmt"
+    "io"
+    "os"
+
+    "github.com/goark/errs"
+)
+
+func generateMultiError() error {
+    return errs.Join(os.ErrInvalid, io.EOF)
+}
+
+func main() {
+    err := generateMultiError()
+    fmt.Printf("%+v\n", err)            // {"Type":"*errs.Errors","Errs":[{"Type":"*errors.errorString","Msg":"invalid argument"},{"Type":"*errors.errorString","Msg":"EOF"}]}
+    fmt.Println(errors.Is(err, io.EOF)) // true
+}
+```
+
+[`errs`]`.Join()` 関数は標準の [`errors`]`.Join()` 関数と置き換えて使うことができる。
+内部では [`errs`]`.Errors` 型のインスタンスを生成している。
+
+標準の [`errs`]`.joinError` 型との違いは，複数の goroutine からのアクセスに対応するため， [`sync`]`.RWMutex` を備えている点である。
+
+```go
+type Errors struct {
+    mu   sync.RWMutex
+    errs []error
+}
+```
+
+なので，こんな感じに書くこともできる。
+
+```go {hl_lines=[11,18,22]}
+package main
+
+import (
+    "fmt"
+    "sync"
+
+    "github.com/goark/errs"
+)
+
+func generateMultiError() error {
+    errlist := &errs.Errors{}
+    var wg sync.WaitGroup
+    for i := 1; i <= 2; i++ {
+        i := i
+        wg.Add(1)
+        go func() {
+            defer wg.Done()
+            errlist.Add(fmt.Errorf("error %d", i))
+        }()
+    }
+    wg.Wait()
+    return errlist.ErrorOrNil()
+}
+
+func main() {
+    err := generateMultiError()
+    fmt.Printf("%+v\n", err) // {"Type":"*errs.Errors","Errs":[{"Type":"*errors.errorString","Msg":"error 2"},{"Type":"*errors.errorString","Msg":"error 1"}]}
+}
+```
+
 ## ブックマーク
 
 - [Go 1.13 のエラー・ハンドリング]({{< ref "/golang/error-handling-in-go-1_3.md" >}})
@@ -535,6 +621,7 @@ $ go run sample2b.go | jq .
 [Go 言語]: https://golang.org/ "The Go Programming Language"
 [`os`]: https://golang.org/pkg/os/ "os - The Go Programming Language"
 [`fmt`]: https://golang.org/pkg/fmt/ "fmt - The Go Programming Language"
+[`sync`]: https://pkg.go.dev/sync "sync package - sync - Go Packages"
 [`errors`]: https://golang.org/pkg/errors/ "errors - The Go Programming Language"
 [`errs`]: https://github.com/goark/errs "goark/errs: Error handling for Golang"
 [`zapobject`]: https://pkg.go.dev/github.com/goark/errs/zapobject "zapobject package - github.com/goark/errs/zapobject - Go Packages"
