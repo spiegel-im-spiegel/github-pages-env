@@ -3,7 +3,7 @@ title = "Bluesky に旗を立てろ！"
 date =  "2023-04-15T18:31:03+09:00"
 description = "正直，どう使うかまるで考えてない。"
 image = "/images/attention/kitten.jpg"
-tags = [ "tools", "communication" ]
+tags = [ "tools", "communication", "bluesky" ]
 pageType = "text"
 
 [scripts]
