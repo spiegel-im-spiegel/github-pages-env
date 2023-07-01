@@ -96,24 +96,33 @@ https://github.com/username/repositoryname/releases.atom
 
 今のところ監視対象は以下のサイト（今後追加予定）：
 
-- [Flickr Foundation](https://www.flickr.org/)
 - [Schneier on Security](https://www.schneier.com/)
 - [情報セキュリティ | IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/index.html)
 - [JPCERT コーディネーションセンター](https://www.jpcert.or.jp/)
 - [piyolog](https://piyolog.hatenadiary.jp/)
+
 - [National Institute of Standards and Technology](https://www.nist.gov/)
 - [P2Pとかその辺のお話R | Sharing is Caring](https://p2ptk.org/)
 - [Blog - Creative Commons](https://creativecommons.org/blog/)
+- [Flickr Foundation](https://www.flickr.org/)
+
 - [国立天文台（NAOJ）](https://www.nao.ac.jp/)
 - [国立天文台 天文情報センター 暦計算室](https://eco.mtk.nao.ac.jp/koyomi/)
+
 - [Publickey － Enterprise IT × Cloud Computing × Web Technology / Blog](https://www.publickey1.jp/)
 - [MathJax | Beautiful math in all browsers.](https://www.mathjax.org/)
 - [The Thunderbird Blog -](https://blog.thunderbird.net/)
+- [Big Sky](https://mattn.kaoriya.net/)
+
 - [mermaid-js/mermaid: Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown](https://github.com/mermaid-js/mermaid)
 - [microsoft/vscode: Visual Studio Code](https://github.com/microsoft/vscode)
 - [plantuml/plantuml: Generate diagrams from textual description](https://github.com/plantuml/plantuml)
 
-物量で TL を埋め尽くすのは嬉しくないので，チューニングしながら運用する予定。
+上のリスト（の一部）は元々 [Slack 上で監視]({{< ref "/remark/2017/01/slack.md" >}} "いまさら聞けない Slack の使い方")していたものだが，プライベートでも仕事でもあまり Slack を使わなくなったので（仕事では主に Teams） Mastodon/Bluesky に移行することにしたのだ。
+ただ，今までの反省で，やたら滅多とフィードを食い散らかして自 TL を埋め尽くすのは嬉しくないので，流量についてはチューニングしながら運用する予定である。
+
+本来はフィードのチェックは Feedly とか使うべきだし，本当によく見るものだけに厳選したい。
+特に青空文庫（[@aozorabunko.bsky.social](https://bsky.app/profile/aozorabunko.bsky.social "青空文庫(Aozora Bunko)")）とか，自身でブログ記事の更新情報を積極的に上げておられるユーザとかのフィードは外している。
 
 ## 今後は...
 
