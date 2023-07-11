@@ -25,7 +25,19 @@ The go command may generate unexpected code at build time when using cgo. This m
 This may occur when running an untrusted module which contains directories with newline characters in their names. Modules which are retrieved using the go command, i.e. via "`go get`", are not affected (modules retrieved using GOPATH-mode, i.e. `GO111MODULE=off`, may be affected).
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H`
+- 深刻度: 緊急 (Score: 9.8)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | 高 |
+| 完全性への影響 | 高 |
+| 可用性への影響 | 高 |
 
 ## [CVE-2023-29403] runtime: unexpected behavior of setuid/setgid binaries
 
@@ -33,7 +45,19 @@ This may occur when running an untrusted module which contains directories with 
 The Go runtime didn't act any differently when a binary had the `setuid/setgid` bit set. On Unix platforms, if a `setuid/setgid` binary was executed with standard I/O file descriptors closed, opening any files could result in unexpected content being read/written with elevated prilieges. Similarly if a `setuid/setgid` program was terminated, either via panic or signal, it could leak the contents of its registers.
 {{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H`
+- 深刻度: 重要 (Score: 7.8)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ローカル |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 要 |
+| スコープ | 変更なし |
+| 機密性への影響 | 高 |
+| 完全性への影響 | 高 |
+| 可用性への影響 | 高 |
 
 ## [CVE-2023-29404], [CVE-2023-29405] cmd/go: improper sanitization of LDFLAGS
 
@@ -50,7 +74,34 @@ Due to an unfortunate mistake, this change will break the use of "`#cgo LDFLAGS`
 とのこと。
 gccgo や GoLLVM を使っている人は要注意である。
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` ([CVE-2023-29404])
+- 深刻度: 緊急 (Score: 9.8)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | 高 |
+| 完全性への影響 | 高 |
+| 可用性への影響 | 高 |
+
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` ([CVE-2023-29405])
+- 深刻度: 緊急 (Score: 9.8)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | 高 |
+| 完全性への影響 | 高 |
+| 可用性への影響 | 高 |
+
 
 ## 例によって...
 
