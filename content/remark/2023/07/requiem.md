@@ -1,11 +1,10 @@
 +++
 title = "怒涛の3日間 —または「目一杯の祝福を君に」—"
-date =  "2023-07-15T09:17:56+09:00"
+date =  "2023-07-15T17:58:51+09:00"
 description = "長文なのでご注意を。"
 image = "/images/attention/kitten.jpg"
 tags = [ "ceremony" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
