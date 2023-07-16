@@ -22998,5 +22998,48 @@
       false
     ],
     "Description": "同じメーカーの日焼け止め（乳液タイプ）をドラッグストアで買ったのだが，自転車に乗るならこっちのほうがいいかなぁ。次に買うときはこれを試してみよう。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0C6QTTHN1",
+      "Title": "ANISON COVERS",
+      "URL": "https://www.amazon.co.jp/dp/B0C6QTTHN1?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51WAwLYuBlL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "森口博子",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "King Records",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0C6QTTHN1"
+        }
+      ],
+      "PublicationDate": "2023-05-24",
+      "LastRelease": "2023-06-14",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-06-30",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ「ママレード・ボーイ」OP曲の「笑顔に会いたい」のカバーが秀逸。こんな可愛らしい曲だっけ？ 森口博子すごいなー\n"
   }
 ]
