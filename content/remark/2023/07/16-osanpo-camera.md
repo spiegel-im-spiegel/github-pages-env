@@ -3,7 +3,7 @@ title = "お散歩カメラ 2023-07-16"
 date =  "2023-07-16T20:04:20+09:00"
 description = "身体を動かして，色んなものを見て，リフレッシュできたかな。"
 image = "/remark/2023/07/16-osanpo-camera/53049480160_83f88626a7_o.jpg"
-tags = [ "osanpo-camera", "photography", "matsue", "book", "bike" ]
+tags = [ "osanpo-camera", "photography", "matsue", "bike" ]
 pageType = "photo"
 
 [scripts]
@@ -72,7 +72,7 @@ pageType = "photo"
 
 {{< fig-img src="./53049151194_21be486895_e.jpg" title="松江にサーカスが来た | Flickr" link="https://www.flickr.com/photos/spiegel/53049151194/">}}
 
-サーカスには興味ないけど，大テントは見たかったので満足（笑）
+サーカスに興味はないけど，大テントは見たかったので満足（笑）
 
 さて，とりあえずメシ食うか。
 
