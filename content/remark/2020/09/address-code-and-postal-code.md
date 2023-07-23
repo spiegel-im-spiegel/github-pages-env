@@ -143,6 +143,7 @@ JP の[郵便番号データ]を眺めてみるとこんな感じになってい
 ## ブックマーク
 
 - [日本全国の住所マスターデータをオープンデータとして無料公開 - Geolonia](https://geolonia.com/pressrelease/2020/08/05/japanese-addresses.html)
+- [プログラマーを苦しめてきた郵便番号データ「KEN_ALL.CSV」が改善！ 扱いやすい新形式 - やじうまの杜 - 窓の杜](https://forest.watch.impress.co.jp/docs/serial/yajiuma/1514142.html)
 
 [GIS]: https://nlftp.mlit.go.jp/
 [Geolonia]: https://geolonia.com/ "Geolonia - An Elastic Map Hosting - Geolonia"

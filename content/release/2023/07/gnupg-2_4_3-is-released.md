@@ -75,6 +75,7 @@ Release-info: https://dev.gnupg.org/T6509
 
 ## ブックマーク
 
+- [Gpg4win - Whats new - Version 4.2?](https://gpg4win.org/version4.2.html)
 - [iquiw/pinentry-w32-ncg-binary: pinentry-w32, no characters garbled](https://github.com/iquiw/pinentry-w32-ncg-binary)
 - [ADSK: The Additional Decryption Subkey](https://gnupg.org/blog/20230321-adsk.html)
 

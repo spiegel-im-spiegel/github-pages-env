@@ -21,6 +21,11 @@
 
 - [人工知能規制、資本主義批判、民主主義再考 – WirelessWire News](https://wirelesswire.jp/2023/05/84727/)
 
+- [Common Vulnerability Scoring System Version 4.0](https://www.first.org/cvss/v4-0/)
+  - [「脆弱性に対処する難易度」を評価可能に　最新のCVSS「CVSS 4.0」は何が違うのか：より詳細に、より簡単に - ＠IT](https://atmarkit.itmedia.co.jp/ait/articles/2307/10/news032.html)
+
+- [GoでBOMを考慮したio.Readerを扱う - Qiita](https://qiita.com/ssc-ynakamura/items/e05dc9bfacee063f3471)
+
 
 ## リリース情報 {#release}
 

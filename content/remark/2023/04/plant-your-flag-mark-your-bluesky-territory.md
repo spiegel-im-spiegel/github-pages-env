@@ -84,6 +84,11 @@ Twitter は [Blue をお金で買えるようになった](https://p2ptk.org/fre
 - [BlueskyのAT Protocolでリンクカード付きのpostを投稿する方法](https://zenn.dev/ryo_kawamata/articles/8d1966f6bb0a82)
 - [GitHub ActionsからBluesky Socialへ簡単にポストする](https://zenn.dev/kato_shinya/articles/send-post-to-bluesky-via-github-actions)
 - [アプリパスワードについて – Nextra](https://tokimekibluesky-docs.vercel.app/ja/apppassword)
+- [Twitter代替SNS「Bluesky」で「ブロックを無視して投稿閲覧」「各ユーザーのブロック情報を確認」といった操作が可能な理由とは？ - GIGAZINE](https://gigazine.net/news/20230613-bluesky-block-public/)
+- [SNS究極の自由、アルゴリズムもユーザーしだいの次世代Twitter｢Bluesky｣：エンジニアにインタビュー | ギズモード・ジャパン](https://www.gizmodo.jp/2023/06/bluesky-interview.html)
+- [BINGO game on Bluesky](https://bingo.b35.jp/)
+- [LangChain を使って Hacker News の日本語要約 Bluesky ボットを作ってみた](https://zenn.dev/ryo_kawamata/articles/98b7cc1c67ad0c)
+- [SNS「Bluesky」800万ドル調達　「広告モデルではない収益化」へ、ドメイン販売開始 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2307/07/news097.html)
 
 [Bluesky]: https://blueskyweb.xyz/
 [staging.bsky.app]: https://staging.bsky.app/ "Bluesky"

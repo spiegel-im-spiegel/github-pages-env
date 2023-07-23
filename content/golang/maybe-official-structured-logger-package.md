@@ -169,6 +169,7 @@ $ go run sample4.go
 - [GitHub - chanchal1987/zaphandler: zaphandler will help to create slog handler using zap logger](https://github.com/chanchal1987/zaphandler) : slog 用 zap 出力ハンドラ
 - [Playing With Slog, the Proposed Structured Logging Package for the Go Standard Library](https://josephwoodward.co.uk/2022/11/slog-structured-logging-proposal)
 - [Goの新しい構造化ロガーを体験しよう | gihyo.jp](https://gihyo.jp/article/2023/02/tukinami-go-04)
+- [🪵 Go1.21 log/slogパッケージ超入門](https://zenn.dev/88888888_kota/articles/7e97ff874083cf)
 
 [Go]: https://go.dev/
 [`slog`]: https://pkg.go.dev/golang.org/x/exp/slog "slog package - golang.org/x/exp/slog - Go Packages"

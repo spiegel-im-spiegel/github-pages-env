@@ -109,6 +109,10 @@ pageType = "photo"
 [島根県立美術館]: https://www.shimane-art-museum.jp/ "SHIMANE ART MUSEUM | 島根県立美術館"
 [島根県立図書館]: https://www.library.pref.shimane.lg.jp/
 
+## ブックマーク
+
+- [～すべての神社が、出雲国造ゆかりの社～【 意宇六社巡り 】｜ジャイアントストアのレンタサイクル](https://bicyclerental.jp/area/shimane/6/course/14/) : アップダウンの少ない初心者向けコース。涼しくなったらチャレンジしたい
+
 ## 参考
 
 {{% review-paapi "B0C6QTTHN1" %}} <!-- 森口博子 ANISON COVERS -->

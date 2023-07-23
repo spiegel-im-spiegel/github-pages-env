@@ -142,8 +142,6 @@ LTS 版 Java バイナリが欲しいなら [Adoptium](https://adoptium.net/) �
 
 よーし，うむうむ，よーし。
 
-
-
 ## ブックマーク
 
 - [Oracle Critical Patch Update Advisory - July 2023](https://www.oracle.com/security-alerts/cpujul2023.html)

@@ -3,7 +3,7 @@ title = "VTuber に満たない Bluesky"
 date =  "2023-07-23T14:56:09+09:00"
 description = "70万ユーザ登録おめでとうございます。"
 image = "/images/attention/kitten.jpg"
-tags = [ "communication", "engineering", "mastodon", "bluesky", "activitypub" ]
+tags = [ "communication", "engineering", "mastodon", "bluesky", "activitypub", "cloud" ]
 pageType = "text"
 
 [scripts]
@@ -79,6 +79,11 @@ Mastodon のサーバで最大規模のユーザを抱えているのが mastodo
 
 - [我々が「離脱の自由」を必要とする理由――あるいはソーシャルメディアの失敗をマシにする方法 | p2ptk[.]org](https://p2ptk.org/freedom-of-speech/4214)
 - [メタクソ化するTiktok：プラットフォームが生まれ、成長し、支配し、滅びるまで | p2ptk[.]org](https://p2ptk.org/monopoly/4366)
+- [クラウドネイティブから見たクラウドの小史｜塚本 牧生](https://note.com/tsukamoto/n/n8056f3562d91)
+
+- [Threads isn’t for news and politics, says Instagram’s boss - The Verge](https://www.theverge.com/2023/7/7/23787334/instagram-threads-news-politics-adam-mosseri-meta-facebook)
+- [Twitter対抗の分散型SNS「Threads」が登場することでMastodonは変わるのか？をMastodonのCEOが解説 - GIGAZINE](https://gigazine.net/news/20230706-mastodon-ceo-comments-about-threads/)
+- [Threads、JASRACと利用許諾契約を結んでいた　Twitterとの差別化点に - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2307/06/news174.html)
 
 - [Fediverse 関連のブックマーク]({{< ref "bookmarks/fediverse.md" >}})
 

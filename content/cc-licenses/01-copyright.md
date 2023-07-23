@@ -371,6 +371,7 @@ tags = ["code", "law", "intellectual-property", "copyright"]
     - [JASRACを気にせずに音楽を演奏できるのはどのような場合か(栗原潔) - 個人 - Yahoo!ニュース](http://bylines.news.yahoo.co.jp/kuriharakiyoshi/20170203-00067314/)
 - [マリオコスプレ・カートレンタル業者の言い分を検証する(栗原潔) - 個人 - Yahoo!ニュース](https://news.yahoo.co.jp/byline/kuriharakiyoshi/20170227-00068168/) : 貸与権に関する考察は興味深い
 - [今後変わる？　リンクについての著作権法上の考え方　岡本健太郎｜コラム｜骨董通り法律事務所 For the Arts](http://www.kottolaw.com/column/001653.html)
+- [令和5年改正著作権法の影響度と実務対応 - BUSINESS LAWYERS](https://www.businesslawyers.jp/articles/1311)
 
 [本シリーズ]: /cc-licenses "改訂3版： CC-License について — text.Baldanders.info"
 [著作権法]: https://elaws.e-gov.go.jp/document?lawid=345AC0000000048 "著作権法"

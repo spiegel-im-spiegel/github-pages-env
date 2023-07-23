@@ -214,3 +214,6 @@ pageType = "text"
 - [This is Instagram’s new Twitter competitor - The Verge](https://www.theverge.com/2023/5/19/23730070/instagram-twitter-app-competitor-leak) : なんか ActivityPub で分散化に対応する（？）らしい
 - [Flipboard becomes first app to support Bluesky, Mastodon and Pixelfed all in one place | TechCrunch](https://techcrunch.com/2023/05/23/flipboard-becomes-first-to-support-bluesky-mastodon-and-pixelfed-all-in-one-app/)
   - [Flipboard expands Mastodon support to its Android application | TechCrunch](https://techcrunch.com/2023/03/30/flipboard-expands-mastodon-support-to-its-android-application/)
+- [GoでMisskeyのCLIクライアントを作った話 (Misskey Advent Calender 2022) - 平和に生きたい](https://mikuta0407.net/wordpress/index.php/2022/12/16/misskey-cli/)
+- [Critical TootRoot bug lets attackers hijack Mastodon servers](https://www.bleepingcomputer.com/news/security/critical-tootroot-bug-lets-attackers-hijack-mastodon-servers/)
+- [オランダ政府が公式Mastodonサーバー「overheid.nl」を立ち上げ - GIGAZINE](https://gigazine.net/news/20230713-netherland-mastodon/)
