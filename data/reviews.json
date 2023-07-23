@@ -23041,5 +23041,48 @@
       false
     ],
     "Description": "アニメ「ママレード・ボーイ」OP曲の「笑顔に会いたい」のカバーが秀逸。こんな可愛らしい曲だっけ？ 森口博子すごいなー\n"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B011LC4D58",
+      "Title": "ハイそれまでョ",
+      "URL": "https://www.amazon.co.jp/dp/B011LC4D58?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51o1Irti1QL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "植木等",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "EMIミュージック・ジャパン",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B011LC4D58"
+        }
+      ],
+      "PublicationDate": "2008-10-22",
+      "LastRelease": "2015-07-22",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-07-23",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "「クレイジー・キャッツ・デラックス」より。昭和を代表する歌謡曲（笑）"
   }
 ]
