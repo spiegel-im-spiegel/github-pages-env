@@ -15,12 +15,15 @@ pageType = "text"
 
 ## [CVE-2023-20593] Cross-Process Information Leak
 
+{{< fig-quote type="markdown" title="Cross-Process Information Leak" link="https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7008.html" lang="en" >}}
+An issue in “Zen 2” CPUs, under specific microarchitectural circumstances, may allow an attacker to potentially access sensitive information.
+{{< /fig-quote >}}
+
 発見者は "Zenbleed” と名付けているようだ。
 
 - [Zenbleed](https://lock.cmpxchg8b.com/zenbleed.html)
 
-これによると対象となるプロセッサは以下の通り。
-
+発見者の記事によると対象となるプロセッサは以下の通り。
 
 - AMD Ryzen 3000 Series Processors
 - AMD Ryzen PRO 3000 Series Processors
