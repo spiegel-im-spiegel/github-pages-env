@@ -15,7 +15,7 @@ pageType = "photo"
 
 サイクルコンピュータまたはサイクロコンピュータ（cyclocomputer）あるいはバイクコンピュータとか呼ばれてるやつ。
 以前から欲しいなぁとは思ってたが，たとえば有名な [GARMIN 製のやつ](https://www.amazon.co.jp/dp/B0C1K9T3W3?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon | ガーミン(GARMIN) Edge 840 Bundle サイクルコンピューター スピードセンサー/ケイデンスセンサー/心拍センサーセット タッチスクリーン搭載 自転車用ナビ GPS搭載 スタミナ測定 010-02695-16 【日本正規品】 | ガーミン(GARMIN) | スポーツ＆アウトドア")とか7.5万円とかするし，そこまでいかなくてもナビ機能付きだと平気で3,4万円するのね。
-ぶっちゃけ持ってる自転車の値段に見合わないわけ。
+ぶっちゃけ[持ってる自転車]({{< ref "/remark/2022/09/x-road-bike.md" >}} "チャリンコ買うた")の値段に見合わないわけ。
 
 そういうわけで諦めてたんだけど...
 
@@ -41,7 +41,7 @@ trimm ROLLIN はスマホアプリとの連携が必須。
 
 - [trimm Cycling Center - Apps on Google Play](https://play.google.com/store/apps/details?id=bike.trimm.rideWithMe&hl=en_US)
 
-スマホアプリがないとデバイスとセンサーが接続できない罠。
+スマホアプリがないと本体デバイスとセンサーが接続できない罠。
 
 さっそく取り付けてみよう。
 Cadence sensor はクランクに取り付ける。
@@ -50,7 +50,7 @@ Cadence sensor はクランクに取り付ける。
 
 （見にくくてすまん。あとで撮り直そう）
 
-本体はこんな感じに取り付ける。
+デバイスはこんな感じに取り付ける。
 
 {{< fig-img src="./53078756993_891c7d8be0_e.jpg" title="サイクルコンピュータの取り付け | Flickr" link="https://www.flickr.com/photos/spiegel/53078756993/">}}
 
