@@ -20696,12 +20696,12 @@
     "Book": {
       "Type": "paapi",
       "ID": "B08VMWL13F",
-      "Title": "明治 ヴァーム(VAAM) アスリート 顆粒 栄養ドリンク風味 4.7g×10袋",
+      "Title": "VAAM(ヴァーム) 明治 ヴァーム(VAAM) アスリート 顆粒 栄養ドリンク風味 4.7g×10袋",
       "URL": "https://www.amazon.co.jp/dp/B08VMWL13F?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://m.media-amazon.com/images/I/51CRlYH1RtL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51yZmqxxGTL._SL160_.jpg",
         "Height": 160,
-        "Width": 118
+        "Width": 120
       },
       "ProductType": "ヘルスケア\u0026ケア用品",
       "Publisher": "明治",
@@ -20723,12 +20723,12 @@
       }
     },
     "Date": "2022-11-04",
-    "Rating": 0,
+    "Rating": 4,
     "Star": [
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
       false
     ],
     "Description": "運動時に脂肪をエネルギーに変えやすくする働きがあるらしい。お試しで買ってみた。とりあえず1時間以上自転車に乗る場合に服用している。水に溶かさず飲むと書いてあるが，水と一緒に飲まないと大変なことになるので注意（経験済み）"
@@ -22988,16 +22988,16 @@
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2018-06-03",
-    "Rating": 0,
+    "Date": "2018-07-29",
+    "Rating": 4,
     "Star": [
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
       false
     ],
-    "Description": "同じメーカーの日焼け止め（乳液タイプ）をドラッグストアで買ったのだが，自転車に乗るならこっちのほうがいいかなぁ。次に買うときはこれを試してみよう。"
+    "Description": "スプレータイプで白くならない。鞄に忍ばせて手軽に使える。"
   },
   {
     "Book": {
@@ -23084,5 +23084,81 @@
       false
     ],
     "Description": "「クレイジー・キャッツ・デラックス」より。昭和を代表する歌謡曲（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BLNFPWTQ",
+      "Title": "trimm ROLLIN サイクルコンピュータ GPS 自転車 速度計 ワイヤレス ナビゲーション ANT+センサー対応 Bluetooth 心拍数 高度計 2.7インチ スピードセンサー(device only)",
+      "URL": "https://www.amazon.co.jp/dp/B0BLNFPWTQ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41YvUM53eFL._SL160_.jpg",
+        "Height": 132,
+        "Width": 160
+      },
+      "Publisher": "Trimm",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BLNFPWTQ"
+        },
+        {
+          "Name": "EAN",
+          "Value": "8809748020286"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-07-29",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "ナビ機能付きで2万円以下というのは安い。スマホアプリと連携させて操作する。モノクロ液晶だがバッテリ消費は少なめ。各種センサーやスマートウォッチと連携可能。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BBRNGJVF",
+      "Title": "【アッガイ】機動戦士ガンダム MOBILE SUIT ENSEMBLE 03",
+      "URL": "https://www.amazon.co.jp/dp/B0BBRNGJVF?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41t-zWfPfcL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "バンダイ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BBRNGJVF"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-07-29",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "アッガイいいよね。"
   }
 ]

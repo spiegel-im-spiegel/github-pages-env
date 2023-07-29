@@ -1,10 +1,14 @@
 #/bin/sh
-sleep 1;cat B011LC4D58.html | books-data review -t review-book.html -a B011LC4D58 -r 4 --review-date 2023-07-23 --pipe
-sleep 1;cat B0C6QTTHN1.html | books-data review -t review-book.html -a B0C6QTTHN1 -r 4 --review-date 2023-06-30 --pipe
+sleep 1;cat B0BBRNGJVF.html | books-data review -t review-book.html -a B0BBRNGJVF -r 0 --review-date 2023-07-29 --pipe
+sleep 1;cat B0BLNFPWTQ.html | books-data review -t review-book.html -a B0BLNFPWTQ -r 4 --review-date 2023-07-29 --pipe
+sleep 1;cat ./done/B0BT1X9H7B.html | books-data review -t review-book.html -a B0BT1X9H7B -r 4 --review-date 2018-07-29 --pipe
+sleep 1;cat ./done/B08VMWL13F.html | books-data review -t review-book.html -a B08VMWL13F -r 4 --review-date 2022-11-04 --pipe
+
 # ---
+# sleep 1;cat ./done/B011LC4D58.html | books-data review -t review-book.html -a B011LC4D58 -r 4 --review-date 2023-07-23 --pipe
+# sleep 1;cat ./done/B0C6QTTHN1.html | books-data review -t review-book.html -a B0C6QTTHN1 -r 4 --review-date 2023-06-30 --pipe
 # sleep 1;cat ./done/B0BXQ2HMQ5.html | books-data review -t review-book.html -a B0BXQ2HMQ5 -r 4 --review-date 2023-03-28 --pipe
 # sleep 1;cat card-33224.html   | books-data review -t review-book.html -c 33224    -r 0 --review-date 2023-07-15 --image-url https://text.baldanders.info/images/aozora/card33224.svg --pipe
-# sleep 1;cat ./done/B0BT1X9H7B.html | books-data review -t review-book.html -a B0BT1X9H7B -r 0 --review-date 2018-06-03 --pipe
 # sleep 1;cat ./done/B01I4WR6B6.html | books-data review -t review-book.html -a B01I4WR6B6 -r 4 --review-date 2018-05-20 --pipe
 # sleep 1;cat ./done/B091PN6MNM.html | books-data review -t review-book.html -a B091PN6MNM -r 5 --review-date 2023-05-03 --pipe
 # sleep 1;cat ./done/B091PZZ72F.html | books-data review -t review-book.html -a B091PZZ72F -r 4 --review-date 2023-05-03 --pipe
@@ -54,7 +58,6 @@ sleep 1;cat B0C6QTTHN1.html | books-data review -t review-book.html -a B0C6QTTHN
 # sleep 1;cat ./done/B08L4WKDZ7.html | books-data review -t review-book.html -a B08L4WKDZ7 -r 4 --review-date 2022-12-04 --pipe
 # sleep 1;cat ./done/4416522940.html | books-data review -t review-book.html -a 4416522940 -r 5 --review-date 2022-11-25 --pipe
 # sleep 1;cat ./done/B06XDPTLDD.html | books-data review -t review-book.html -a B06XDPTLDD -r 0 --review-date 2022-11-16 --pipe
-# sleep 1;cat ./done/B08VMWL13F.html | books-data review -t review-book.html -a B08VMWL13F -r 0 --review-date 2022-11-04 --pipe
 # sleep 1;cat ./done/B0B54Z1LQ1.html | books-data review -t review-book.html -a B0B54Z1LQ1 -r 4 --review-date 2022-10-08 --pipe
 # sleep 1;cat ./done/B0BFVY33CD.html | books-data review -t review-book.html -a B0BFVY33CD -r 0 --review-date 2022-11-16 --pipe
 # sleep 1;cat ./done/4863544006.html | books-data review -t review-book.html -a 4863544006 -r 4 --review-date 2022-11-12 --pipe
