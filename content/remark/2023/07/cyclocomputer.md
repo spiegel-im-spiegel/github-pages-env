@@ -41,7 +41,7 @@ trimm ROLLIN はスマホアプリとの連携が必須。
 
 - [trimm Cycling Center - Apps on Google Play](https://play.google.com/store/apps/details?id=bike.trimm.rideWithMe&hl=en_US)
 
-スマホアプリがないと本体デバイスとセンサが接続できない罠。
+スマホアプリがないと本体デバイスにセンサを接続できない罠。
 
 さっそく取り付けてみよう。
 Cadence sensor はクランクに取り付ける。
@@ -114,7 +114,7 @@ Cadence sensor はクランクに取り付ける。
 
 {{< fig-img src="./53077844812_4390bac5c9_e.jpg" title="ガンダム発見 | Flickr" link="https://www.flickr.com/photos/spiegel/53077844812/">}}
 
-よし！ 本日の任務は完遂。
+よし！ 本日の目標は完遂。
 
 ## 帰り路
 
