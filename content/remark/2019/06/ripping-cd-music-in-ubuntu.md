@@ -36,6 +36,7 @@ UNIX 系は楽でいいわ（笑）
 ## ブックマーク
 
 - [UbuntuやArch Linuxで音楽CDの取り込み Asunderの紹介!! - BobbyQuineのブログ(備忘録)](http://bobbyquine.hatenablog.com/entry/2018/01/16/005131)
+- [Ubuntuで音楽CDのPCへの取り込み（リッピング） - adbird（広告鳥） 備忘録](https://adbird.hatenablog.com/entry/2020/12/26/192332)
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [Asunder]: http://www.littlesvr.ca/asunder/

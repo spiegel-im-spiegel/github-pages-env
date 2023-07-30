@@ -95,6 +95,7 @@ In fact, you can think of Snyk client tools like the CLI and CI/CD plugins as ge
 - [SSVC（Stakeholder-Specific Vulnerability Categorization）を活用した脆弱性管理 | PwC Japanグループ](https://www.pwc.com/jp/ja/knowledge/column/awareness-cyber-security/stakeholder-specific-vulnerability-categorization.html)
 - [Why SBOM Is Not Enough in the Era of Supply Chain Attacks](https://forelens.com/blog/why-sbom-is-not-enough-in-the-era-of-supply-chain-attacks/)
 - [IPAがセキュリティ情報の収集ツール「mjcheck4」を公開 ～Adobe AIR製の旧版は廃止 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1489503.html) : SBOM をインポートできるらしい
+- [SSVCを使った脆弱性管理の取り組み](https://www.conoris.jp/blog/ssvc)
 
 - [Go はどのようにしてサプライチェーン攻撃を低減しているか](https://zenn.dev/spiegel/articles/20220402-how-go-mitigates-supply-chain-attacks)
 - [「ブログはやはり『死に続けている』」]({{< ref "/remark/2022/07/slow-motion-car-crash.md" >}})

@@ -124,7 +124,7 @@ pageType = "text"
 - [Hidetomo Hosono (@h12o@mastodon.tokyo) - Mastodon.Tokyo](https://mastodon.tokyo/@h12o) : [Mastodon.Tokyo](https://mastodon.tokyo/) 運営者
   - [@h12o@blessedgeeks.com (@h12o@blessedgeeks.com) - Mastodon@BlessedGeeks.Com](https://mastodon.blessedgeeks.com/@h12o)
 - [のえる (@noellabo@fedibird.com) - Fedibird](https://fedibird.com/@noellabo) : [fedibird.com](https://fedibird.com/) 運営者
-- [Masayuki Hatta (@mhatta@mastodon.social) - Mastodon](https://mastodon.social/@mhatta)
+- [Masayuki Hatta (@mhatta@techpolicy.social) - techpolicy](https://techpolicy.social/@mhatta)
 - [Infosec Exchange](https://infosec.exchange/) : 情報セキュリティ関連のサーバらしい
 - [キュアスタ！](https://precure.ml/) : 「プリキュアファンの為のインスタンスです」だそうです
 - [vim-jp | Misskey.io](https://misskey.io/channels/9b0ni7y9xc) : vimmer は何処にでもいるw
