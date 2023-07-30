@@ -100,7 +100,7 @@ Cadence sensor はクランクに取り付ける。
 あと，やたらと裏道を使おうとするのね。
 たとえば学園通りの今井書店と堀川地ビール館の2地点のみ設定してルート検索したら...
 
-{{< fig-img src="./scan-route.png" title="ルート検索" link="./scan-route.png" width="1375" >}}
+{{< fig-img-quote src="./scan-route.png" title="trimm Center" link="https://cc.trimm.bike/" width="1375" lang="en" >}}
 
 いや，なんでそんなヘンテコなルートを選択する！？ まぁいいか，と取り敢えずナビの言うがままに進んでみたが，嫌がらせかっちうくらいに裏道ばかり案内する。
 「それ私道じゃねーの？」って感じの小路も行かされるし，挙句の果てに階段を降りる羽目に。
