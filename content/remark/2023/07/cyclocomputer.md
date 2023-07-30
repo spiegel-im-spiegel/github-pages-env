@@ -48,11 +48,11 @@ trimm ROLLIN はスマホアプリとの連携が必須[^app1]。
 さっそく取り付けてみよう。
 Cadence sensor はクランクに取り付ける。
 
-{{< fig-img src="./53079390003_098a828129_e.jpg" title="Cadence  sensor | Flickr" link="https://www.flickr.com/photos/spiegel/53079390003/">}}
+{{< fig-img src="./53080658401_cf395713e3_e.jpg" title="Cadence  sensor | Flickr" link="https://www.flickr.com/photos/spiegel/53080658401/">}}
 
-（見にくくてすまん。あとで撮り直そう）
+（2023-07-30 撮り直した）
 
-デバイスはこんな感じに取り付ける。
+デバイスはハンドルバーに取り付ける。
 
 {{< fig-img src="./53078756993_891c7d8be0_e.jpg" title="サイクルコンピュータの取り付け | Flickr" link="https://www.flickr.com/photos/spiegel/53078756993/">}}
 
@@ -189,6 +189,7 @@ Cadence sonsor のほうはボタン電池が入ってた。
 
 ## 参考
 
+{{% review-paapi "B006JZE7YK" %}} <!-- 六角レンチ -->
 {{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
 {{% review-paapi "B08K34WLXD" %}} <!-- ステムバッグ（stem bag） -->
 {{% review-paapi "B08FSBNJG8" %}} <!-- Fitbit Inspire2 -->

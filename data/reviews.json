@@ -23160,5 +23160,46 @@
       false
     ],
     "Description": "アッガイいいよね。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B006JZE7YK",
+      "Title": "高儀 TAKAGI ボールポイント 六角棒レンチ 9本組 グレー",
+      "URL": "https://www.amazon.co.jp/dp/B006JZE7YK?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41NJJcvTJYL._SL160_.jpg",
+        "Height": 160,
+        "Width": 74
+      },
+      "ProductType": "Tools \u0026 Hardware",
+      "Publisher": "髙儀(Takagi)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B006JZE7YK"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4907052321953"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-07-30",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "自転車整備用に購入。クロモリ製。重い。"
   }
 ]
