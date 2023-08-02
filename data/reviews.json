@@ -23201,5 +23201,50 @@
       false
     ],
     "Description": "自転車整備用に購入。クロモリ製。重い。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09XGYX7JF",
+      "Title": "GARMIN(ガーミン) vívosmart 5 Black S/M バンド型スマートウォッチ 心拍計【日本正規品】",
+      "URL": "https://www.amazon.co.jp/dp/B09XGYX7JF?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31ZZiso7kIL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "ガーミン(GARMIN)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09XGYX7JF"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0753759301590"
+        },
+        {
+          "Name": "UPC",
+          "Value": "753759301590"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2022-04-21",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-08-01",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "サイクルコンピュータと Bluetooth または ANT+ で連携可能なスマートバンド（活動量計）として購入。 Garmin 製なのに自前では GPS 機能がない（スマホの GPS 機能と組み合わせて使う）。活動量計としての機能は十分というかありすぎる（笑）"
   }
 ]
