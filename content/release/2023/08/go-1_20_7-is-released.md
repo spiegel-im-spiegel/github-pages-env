@@ -1,7 +1,7 @@
 +++
 title = "Go 1.20.7 のリリース【セキュリティ・アップデート】"
 date =  "2023-08-02T08:18:19+09:00"
-description = "CVE ID ベースで剛健3件の脆弱性の修正がある。"
+description = "CVE ID ベースで合計3件の脆弱性の修正がある。"
 image = "/images/attention/go-logo_blue.png"
 tags  = [ "programming", "language", "golang", "ubuntu", "security", "vulnerability" ]
 pageType = "text"
