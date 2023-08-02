@@ -25,7 +25,7 @@ Extremely large RSA keys in certificate chains can cause a client/server to expe
 Based on a survey of publicly trusted RSA keys, there are currently only three certificates in circulation with keys larger than this, and all three appear to be test certificates that are not actively deployed. It is possible there are larger keys in use in private PKIs, but we target the web PKI, so causing breakage here in the interests of increasing the default safety of users of `crypto/tls` seems reasonable.
 {{< /fig-quote >}}
 
-どうやら 8192 bit より大きいサイズの RSA 鍵は取り扱わないことにしたようだ。
+どうやら 8192 bit 以上の RSA 鍵は取り扱わないことにしたようだ。
 まぁ，妥当かな。
 
 （以下未稿）
