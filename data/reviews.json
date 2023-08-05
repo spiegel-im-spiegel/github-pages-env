@@ -23246,5 +23246,95 @@
       false
     ],
     "Description": "サイクルコンピュータと Bluetooth または ANT+ で連携可能なスマートバンド（活動量計）として購入。 Garmin 製なのに自前では GPS 機能がない（スマホの GPS 機能と組み合わせて使う）。活動量計としての機能は十分というかありすぎる（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0C6JBB9J3",
+      "Title": "魔法の天使クリィミーマミ80's J-POPヒッツ",
+      "URL": "https://www.amazon.co.jp/dp/B0C6JBB9J3?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51L3DkxUNCL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "CD",
+      "Creators": [
+        {
+          "Name": "クリィミーマミ(太田貴子) 他",
+          "Role": "アーティスト"
+        }
+      ],
+      "Publisher": "徳間ジャパンコミュニケーションズ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0C6JBB9J3"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4988008391640"
+        }
+      ],
+      "PublicationDate": "2023-07-26",
+      "LastRelease": "2023-07-26",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-07-25",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "クリィミーマミ40周年ですってよ，奥さん。久しぶりにCD買ったよ。この中では「木枯しに抱かれて」がお気に入り。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00451G3Y2",
+      "Title": "歩いて帰ろう",
+      "URL": "https://www.amazon.co.jp/dp/B00451G3Y2?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/519xR7TifVL._SL160_.jpg",
+        "Height": 160,
+        "Width": 156
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "斉藤和義",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "ファンハウス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00451G3Y2"
+        }
+      ],
+      "PublicationDate": "1998-12-02",
+      "LastRelease": "2010-10-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2012-11-27",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "「ゴールデン・デリシャス」より。なんとなく歩いて帰りたくなったときに聴く曲。"
   }
 ]

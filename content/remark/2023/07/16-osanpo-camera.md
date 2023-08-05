@@ -115,5 +115,7 @@ pageType = "photo"
 
 ## 参考
 
+{{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
+{{% review-paapi "B08K34WLXD" %}} <!-- ステムバッグ（stem bag） -->
 {{% review-paapi "B0C6QTTHN1" %}} <!-- 森口博子 ANISON COVERS -->
 {{% review-paapi "B00DIM6BE6" %}} <!-- インテンション・エコノミー -->
