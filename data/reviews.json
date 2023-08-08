@@ -23336,5 +23336,48 @@
       false
     ],
     "Description": "「ゴールデン・デリシャス」より。なんとなく歩いて帰りたくなったときに聴く曲。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CCY7VJ4C",
+      "Title": "プログラマー\"まだまだ\"現役続行 技評SE選書",
+      "URL": "https://www.amazon.co.jp/dp/B0CCY7VJ4C?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51mZrPkoejL._SL160_.jpg",
+        "Height": 160,
+        "Width": 109
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "柴田 芳樹",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "技術評論社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CCY7VJ4C"
+        }
+      ],
+      "PublicationDate": "2023-08-01",
+      "LastRelease": "2023-08-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-08-01",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "Kindle 版が登場。若いエンジニアやエンジニアを目指す方々にはぜひ読んでみてほしい。"
   }
 ]
