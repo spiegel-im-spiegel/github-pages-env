@@ -138,3 +138,4 @@ pageType = "text"
 ## 参考
 
 {{% review-paapi "B0CCY7VJ4C" %}} <!-- プログラマー"まだまだ"現役続行 -->
+{{% review-paapi "B08P54PQDB" %}} <!-- メッセンジャーバッグ -->
