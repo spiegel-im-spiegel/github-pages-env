@@ -37,9 +37,9 @@ pageType = "text"
 
 ## Ubuntu に Steam をインストールする
 
-ググってみると Ubuntu に [Steam] を入れる方法はいくつかあるようだが，以下の公式ページから deb ファイルをダウンロードして APT でインストールするのが一番確実なようだ。
+ググってみると Ubuntu に [Steam] を入れる方法はいくつかあるようだが，以下の[公式ページ](https://store.steampowered.com/about/ "Steam, The Ultimate Online Game Platform")から deb ファイルをダウンロードして APT でインストールするのが一番確実なようだ。
 
-{{< fig-img src="./steam-about.png" title="Steam, The Ultimate Online Game Platform" link="https://store.steampowered.com/about/" width="1193" >}}
+{{< fig-img-quote src="./steam-about.png" title="Steam, The Ultimate Online Game Platform" link="https://store.steampowered.com/about/" width="1193" lang="en" >}}
 
 まぁ APT でのインストールで百個以上のパッケージを入れるので若干後悔したり。
 これ絶対に更新管理が面倒くさいよなぁ...
@@ -48,11 +48,11 @@ pageType = "text"
 
 [Proton] を有効にするには「設定」の「互換性」の項目で「他のすべてのタイトルでSteam Playを有効化」をONにすればいいらしい。
 
-{{< fig-img src="./settings.png" title="STEAM設定 互換性" link="./settings.png" width="850" >}}
+{{< fig-img-quote src="./settings.png" title="STEAM設定 互換性" link="./settings.png" width="850" >}}
 
 この状態で試しに「ドラゴンクエストXI 過ぎ去りし時を求めて S」の体験版（無料）をダウンロード&インストール&起動してみた。
 
-{{< fig-img src="./dq-xi-s.png" title="ドラゴンクエストXI　過ぎ去りし時を求めて S" link="./dq-xi-s.png" width="963" >}}
+{{< fig-img-quote src="./dq-xi-s.png" title="ドラゴンクエストXI　過ぎ去りし時を求めて S" link="https://store.steampowered.com/app/1295510/XI_S/" width="963" >}}
 
 うっ，やっぱその辺に転がってるゲームコントローラではダメか（笑） しゃーない。
 買ってくるか！
