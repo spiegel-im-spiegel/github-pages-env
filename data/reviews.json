@@ -23379,5 +23379,50 @@
       false
     ],
     "Description": "Kindle 版が登場。若いエンジニアやエンジニアを目指す方々にはぜひ読んでみてほしい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00CDG7994",
+      "Title": "Logicool G ゲームパッド コントローラー F710r PC ゲームワイヤレス usb FF14 Windows 版 滑らかな操作感 国内正規品 【 ファイナルファンタジーXIV 推奨周辺機器 】",
+      "URL": "https://www.amazon.co.jp/dp/B00CDG7994?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41I9mcyX16L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "Personal Computers",
+      "Publisher": "Logicool(ロジクール)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00CDG7994"
+        },
+        {
+          "Name": "EAN",
+          "Value": "2100001238384"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4943765037880"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2013-04-19",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-08-10",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "Steam のゲームで遊ぶために購入。無線だが Ubuntu でも問題なく動く。"
   }
 ]

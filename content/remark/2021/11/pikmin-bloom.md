@@ -3,7 +3,7 @@ title = "ピクミンとメタなあれ"
 date =  "2021-11-06T21:12:45+09:00"
 description = "これなら無茶して膝を痛めるとかにはならないだろう（笑）"
 image = "/images/attention/kitten.jpg"
-tags = [ "game" ]
+tags = [ "games" ]
 pageType = "text"
 
 [scripts]

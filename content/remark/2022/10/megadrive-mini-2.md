@@ -3,7 +3,7 @@ title = "メガドライブミニ2買うた"
 date =  "2022-10-28T20:25:19+09:00"
 description = "「ゆみみみっくす」は収録されませんでした。されませんでした。されませんでした"
 image = "/images/attention/kitten.jpg"
-tags = [ "game", "tools" ]
+tags = [ "games", "tools" ]
 pageType = "text"
 
 [scripts]
