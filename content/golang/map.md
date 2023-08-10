@@ -77,7 +77,7 @@ Mars is not exist.
 この連想配列の要素を全て取り出す。
 これは `for range` 構文を使ってこんな感じに記述する。
 
-{{< highlight go "hl_lines=13-15" >}}
+```go {hl_lines=["13-15"]}
 package main
 
 import "fmt"
@@ -94,7 +94,7 @@ func main() {
         fmt.Println(k, v)
     }
 }
-{{< /highlight >}}
+```
 
 結果は以下の通り。
 
@@ -109,7 +109,7 @@ Earth 1
 
 [^rnd]: 言語仕様上定義されていないという意味ではなく，意図的に乱択されるらしい。
 
-{{< highlight go "hl_lines=18-24" >}}
+```go {hl_lines=["18-24"]}
 package main
 
 import (
@@ -138,7 +138,7 @@ func main() {
         fmt.Println(k, p[k])
     }
 }
-{{< /highlight >}}
+```
 
 結果は以下の通り
 
@@ -153,7 +153,7 @@ Venus 0.815
 [map] は**連想配列への参照を属性として持つオブジェクト**である。
 したがって [map] インスタンスを引数として渡した場合は[見かけ上「参照渡し」として機能する]({{< relref "./map-as-a-associative-array.md" >}} "Map は連想配列ではなく連想配列への「参照」である")。
 
-{{< highlight go "hl_lines=13-15" >}}
+```go {hl_lines=["13-15"]}
 package main
 
 import "fmt"
@@ -182,7 +182,7 @@ func main() {
     add(p, "Mars", 0.107)
     p.print()
 }
-{{< /highlight >}}
+```
 
 このコードの実行結果は以下の通り。
 
@@ -208,8 +208,8 @@ package main
 type platnets map[string]float64
 
 func main() {
-	var p platnets
-	p["Mars"] = 0.107 //add or set
+    var p platnets
+    p["Mars"] = 0.107 //add or set
 }
 ```
 
@@ -227,8 +227,8 @@ package main
 type platnets map[string]float64
 
 func main() {
-	p := platnets{}
-	p["Mars"] = 0.107 //add or set
+    p := platnets{}
+    p["Mars"] = 0.107 //add or set
 }
 ```
 
@@ -244,8 +244,8 @@ import "fmt"
 type platnets map[string]float64
 
 func main() {
-	var p platnets
-	fmt.Println(len(p)) // 0
+    var p platnets
+    fmt.Println(len(p)) // 0
 }
 ```
 
@@ -255,7 +255,7 @@ func main() {
 
 [^cpy]: 代入構文では [map] インスタンスの複製ができるだけで，参照している連想配列は同じものになる。
 
-{{< highlight go "hl_lines=15-17" >}}
+```go {hl_lines=["15-17"]}
 package main
 
 import "fmt"
@@ -290,7 +290,7 @@ func main() {
     fmt.Println()
     p2.print()
 }
-{{< /highlight >}}
+```
 
 このコードの実行結果は以下の通り。
 
@@ -312,7 +312,7 @@ Mars 0.107
 
 [^cmp1]: `&p1 == &p2` ならコンパイルエラーにはならないが，やってることは [map] インスタンスのポインタ値を比較しているだけである。
 
-{{< highlight go "hl_lines=23" >}}
+```go {hl_lines=[23]}
 package main
 
 import "fmt"
@@ -341,7 +341,7 @@ func main() {
         fmt.Println("p1 != p2")
     }
 }
-{{< /highlight >}}
+```
 
 ```text
 prog.go:23:8: invalid operation: p1 == p2 (map can only be compared to nil)
@@ -349,7 +349,7 @@ prog.go:23:8: invalid operation: p1 == p2 (map can only be compared to nil)
 
 [map] が参照している連想配列の内容を比較したいのであれば [`reflect`]`.DeepEqual()` 関数が使える。
 
-{{< highlight go "hl_lines=26-30" >}}
+```go {hl_lines=["26-30"]}
 package main
 
 import (
@@ -381,7 +381,7 @@ func main() {
         fmt.Println("p1 != p2")
     }
 }
-{{< /highlight >}}
+```
 
 このコードの実行結果は以下の通り。
 
@@ -391,7 +391,7 @@ p1 == p2
 
 [map] が参照している連想配列のインスタンスが同一であるかどうか調べるには [`reflect`]`.ValueOf()` 関数で値（＝連想配列）を取得し，そのポインタ値を `==` 演算子で比較する。
 
-{{< highlight go "hl_lines=26-30 33-37" >}}
+```go {hl_lines=["26-30", "33-37"]}
 package main
 
 import (
@@ -430,7 +430,7 @@ func main() {
         fmt.Println("p1 != p2")
     }
 }
-{{< /highlight >}}
+```
 
 このコードの実行結果は以下の通り。
 
@@ -438,6 +438,89 @@ func main() {
 p1 == p2
 p1 != p2
 ```
+
+## 【2023-08-10 追記】 maps 標準パッケージを使う
+
+[Go][Go 言語] 1.21 から [`maps`] 標準パッケージが追加された。
+これは [map] の操作を Generics を使って定義したもので，たとえば [map] の複製や比較を行うメソッドは
+
+```go
+// Clone returns a copy of m.  This is a shallow clone:
+// the new keys and values are set using ordinary assignment.
+func Clone[M ~map[K]V, K comparable, V any](m M) M {
+    // Preserve nil in case it matters.
+    if m == nil {
+        return nil
+    }
+    return clone(m).(M)
+}
+```
+
+```go
+// Equal reports whether two maps contain the same key/value pairs.
+// Values are compared using ==.
+func Equal[M1, M2 ~map[K]V, K, V comparable](m1 M1, m2 M2) bool {
+    if len(m1) != len(m2) {
+        return false
+    }
+    for k, v1 := range m1 {
+        if v2, ok := m2[k]; !ok || v1 != v2 {
+            return false
+        }
+    }
+    return true
+}
+```
+
+といった感じに定義されている。
+これを使えば前節のコードは
+
+```go {hl_lines=[5, 18, "24-28", "31-35"]}
+package main
+
+import (
+	"fmt"
+	"maps"
+	"reflect"
+)
+
+type platnets map[string]float64
+
+func main() {
+	p1 := platnets{
+		"Mercury": 0.055,
+		"Venus":   0.815,
+		"Earth":   1.0,
+	}
+
+	p2 := maps.Clone(p1)
+	if reflect.ValueOf(p1).Pointer() == reflect.ValueOf(p2).Pointer() {
+		fmt.Println("p1.Pointer == p2.Pointer")
+	} else {
+		fmt.Println("p1.Pointer != p2.Pointer")
+	}
+	if maps.Equal(p1, p2) {
+		fmt.Println("p1 == p2")
+	} else {
+		fmt.Println("p1 != p2")
+	}
+
+	p2["mars"] = 0.107
+	if maps.Equal(p1, p2) {
+		fmt.Println("p1 == p2")
+	} else {
+		fmt.Println("p1 != p2")
+	}
+	// Output:
+	// p1.Pointer != p2.Pointer
+	// p1 == p2
+	// p1 != p2
+}
+```
+
+てな感じに書き直すことができる。
+[`maps`]`.Clone()` 関数によって新たにコピーが生成されているのが確認できるだろう。
+また [`maps`]`.Equal()` 関数が連想配列の内容（値）を比較している点にも注目してほしい。
 
 ## ブックマーク
 
@@ -447,10 +530,11 @@ p1 != p2
 
 - [配列と Slice]({{< relref "array-and-slice.md" >}})
 
-[Go 言語]: https://golang.org/ "The Go Programming Language"
-[map]: http://golang.org/ref/spec#Map_types
-[slice]: http://golang.org/ref/spec#Slice_types
-[`reflect`]: https://golang.org/pkg/reflect/ "reflect - The Go Programming Language"
+[Go 言語]: https://go.dev/ "The Go Programming Language"
+[slice]: https://go.dev/ref/spec#Slice_types
+[map]: https://go.dev/ref/spec#Map_types
+[`reflect`]: https://pkg.go.dev/reflect/ "reflect - The Go Programming Language"
+[`maps`]: https://pkg.go.dev/maps "maps package - maps - Go Packages"
 
 ## 参考図書
 

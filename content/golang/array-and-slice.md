@@ -249,7 +249,7 @@ dump(slc, sz, cap) = 0x10410020, 4, 4
 
 ここで，たとえば `slc1 := ary[2:4]` と書き換えると
 
-{{< highlight go "hl_lines=24" >}}
+```go {hl_lines=[24]}
 package main
 
 import "fmt"
@@ -278,7 +278,7 @@ func main() {
     slc2 := slc1[0:4]
     dumpS(slc2)
 }
-{{< /highlight >}}
+```
 
 `slc1` の容量が変わるため，以下のように実行時 panic になる。
 
@@ -459,8 +459,7 @@ ary == ary2
 一方， [slice] は配列のポインタを属性値として持っているだけなので代入を行っても配列自体は複製されない。
 [slice] の複製が欲しい場合は `copy()` 関数を使う。
 
-
-{{< highlight go "hl_lines=15-16" >}}
+```go {hl_lines=["15-16"]}
 package main
 
 import "fmt"
@@ -479,7 +478,7 @@ func main() {
     copy(slc2, slc1)
     dumpS(slc2)
 }
-{{< /highlight >}}
+```
 
 コピー先の `slc2` について `make()` 関数であらかじめサイズと容量を確保しておくのがポイント。
 実行結果は以下の通り。
@@ -499,7 +498,7 @@ dump(slc) = 0x10410024
 
 なお [slice] インスタンス同士は `==` 演算子による比較ができない。
 
-{{< highlight go "hl_lines=18-22" >}}
+```go {hl_lines=["18-22"]}
 package main
 
 import "fmt"
@@ -523,7 +522,7 @@ func main() {
         fmt.Println("slc1 != slc2")
     }
 }
-{{< /highlight >}}
+```
 
 とやっても
 
@@ -539,7 +538,7 @@ prog.go:18:10: invalid operation: slc1 == slc2 (slice can only be compared to ni
 
 [^cmp1]: byte 型の [slice] であれば [`bytes`]`.Compare()` を使って比較できる。
 
-{{< highlight go "hl_lines=21-25" >}}
+```go {hl_lines=["21-25"]}
 package main
 
 import (
@@ -567,7 +566,7 @@ func main() {
     }
 
 }
-{{< /highlight >}}
+```
 
 とすれば以下の結果になる。
 
@@ -587,7 +586,7 @@ slc1 == slc2
 
 需要があるかどうか分からないが， [slice] が参照している配列のインスタンスが同一であるかどうか調べるには [`reflect`]`.ValueOf()` 関数で値（＝配列）を取得し，そのポインタ値を `==` 演算子で比較する。
 
-{{< highlight go "hl_lines=21-25 28-32" >}}
+```go {hl_lines=["21-25", "28-32"]}
 package main
 
 import (
@@ -621,7 +620,7 @@ func main() {
         fmt.Println("slc1 != slc3")
     }
 }
-{{< /highlight >}}
+```
 
 結果は以下の通り。
 
@@ -647,7 +646,7 @@ slc1 == slc3
 
 [slice] のポインタ値を比較すればいいぢゃん，と思うかもしれないが，その場合は単に [slice] インスタンスが同一かどうかを比較しているに過ぎない。
 
-{{< highlight go "hl_lines=17-21" >}}
+```go {hl_lines=["17-21"]}
 package main
 
 import "fmt"
@@ -665,12 +664,12 @@ func main() {
     slc2 := slc1
     dumpS(slc2)
     if &slc1 == &slc2 {
-        fmt.Println("slc1 == slc2")
+        fmt.Println("&slc1 == &slc2")
     } else {
-        fmt.Println("slc1 != slc2")
+        fmt.Println("&slc1 != &slc2")
     }
 }
-{{< /highlight >}}
+```
 
 なので，結果は以下の通り。
 
@@ -685,8 +684,103 @@ dump(slc) = 0x10410020
 0x10410021: 1
 0x10410022: 2
 0x10410023: 3
-slc1 != slc2
+&slc1 != &slc2
 ```
+
+### 【2023-08-10 追記】 slices 標準パッケージを使う
+
+[Go][Go 言語] 1.21 から [`slices`] 標準パッケージが追加された。
+これは [slice] の操作を Generics を使って定義したもので，たとえば [slice] の複製や比較を行うメソッドは
+
+```go
+// Clone returns a copy of the slice.
+// The elements are copied using assignment, so this is a shallow clone.
+func Clone[S ~[]E, E any](s S) S {
+    // Preserve nil in case it matters.
+    if s == nil {
+        return nil
+    }
+    return append(S([]E{}), s...)
+}
+```
+
+```go
+// Equal reports whether two slices are equal: the same length and all
+// elements equal. If the lengths are different, Equal returns false.
+// Otherwise, the elements are compared in increasing index order, and the
+// comparison stops at the first unequal pair.
+// Floating point NaNs are not considered equal.
+func Equal[S ~[]E, E comparable](s1, s2 S) bool {
+    if len(s1) != len(s2) {
+        return false
+    }
+    for i := range s1 {
+        if s1[i] != s2[i] {
+            return false
+        }
+    }
+    return true
+}
+```
+
+といった感じに定義されている。
+これを使えば前節のコードは
+
+```go {hl_lines=[6,19,"26-30"]}
+package main
+
+import (
+    "fmt"
+    "reflect"
+    "slices"
+)
+
+func dumpS(slc []int8) {
+    fmt.Printf("dump(slc) = %p\n", slc)
+    for i := 0; i < len(slc); i++ {
+        fmt.Printf("%p: %v\n", &slc[i], slc[i])
+    }
+}
+
+func main() {
+    slc1 := []int8{0, 1, 2, 3}
+    dumpS(slc1)
+    slc2 := slices.Clone(slc1)
+    dumpS(slc2)
+    if reflect.ValueOf(slc1).Pointer() == reflect.ValueOf(slc2).Pointer() {
+        fmt.Println("slc1.Pointer == slc2.Pointer")
+    } else {
+        fmt.Println("slc1.Pointer != slc2.Pointer")
+    }
+    if slices.Equal(slc1, slc2) {
+        fmt.Println("slc1 == slc2")
+    } else {
+        fmt.Println("slc1 != slc2")
+    }
+}
+```
+
+てな感じに書き直すことができる。
+これを実行すると
+
+```text
+dump(slc) = 0xc000012028
+0xc000012028: 0
+0xc000012029: 1
+0xc00001202a: 2
+0xc00001202b: 3
+dump(slc) = 0xc000012050
+0xc000012050: 0
+0xc000012051: 1
+0xc000012052: 2
+0xc000012053: 3
+slc1.Pointer != slc2.Pointer
+slc1 == slc2
+```
+
+といった出力になる。
+[`slices`]`.Clone()` 関数によって新たにコピーが生成されているのが確認できるだろう。
+また [`slices`]`.Equal()` 関数が配列の内容（値）を比較している点にも注目してほしい。
 
 ## ブックマーク
 
@@ -701,12 +795,14 @@ slc1 != slc2
 
 - [Map の話]({{< relref "map.md" >}})
 
-[Go 言語]: https://golang.org/ "The Go Programming Language"
-[slice]: http://golang.org/ref/spec#Slice_types
-[map]: http://golang.org/ref/spec#Map_types
-[`reflect`]: https://golang.org/pkg/reflect/ "reflect - The Go Programming Language"
-[`bytes`]: https://golang.org/pkg/bytes/ "bytes - The Go Programming Language"
+[Go 言語]: https://go.dev/ "The Go Programming Language"
+[slice]: https://go.dev/ref/spec#Slice_types
+[map]: https://go.dev/ref/spec#Map_types
+[`reflect`]: https://pkg.go.dev/reflect/ "reflect - The Go Programming Language"
+[`bytes`]: https://pkg.go.dev/bytes/ "bytes - The Go Programming Language"
+[`slices`]: https://pkg.go.dev/slices "slices package - slices - Go Packages"
 
 ## 参考図書
 
 {{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4814400047" %}} <!-- 初めてのGo言語 -->

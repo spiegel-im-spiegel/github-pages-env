@@ -344,6 +344,92 @@ func main() {
 
 [^s1]: [`sort`]`.Sort()` 関数も同じくクイックソートである。これの安定ソート版が [`sort`]`.Stable()` 関数で同じく挿入ソートを用いている。
 
+## 【2023-08-10 追記】 slices 標準パッケージを使う
+
+[Go][Go 言語] 1.21 から [`slices`] 標準パッケージが追加された。
+このパッケージにも [slice] をソートする関数が定義されている。
+
+```go
+// Sort sorts a slice of any ordered type in ascending order.
+// When sorting floating-point numbers, NaNs are ordered before other values.
+func Sort[S ~[]E, E cmp.Ordered](x S) {
+    n := len(x)
+    pdqsortOrdered(x, 0, n, bits.Len(uint(n)))
+}
+
+// SortFunc sorts the slice x in ascending order as determined by the cmp
+// function. This sort is not guaranteed to be stable.
+// cmp(a, b) should return a negative number when a < b, a positive number when
+// a > b and zero when a == b.
+//
+// SortFunc requires that cmp is a strict weak ordering.
+// See https://en.wikipedia.org/wiki/Weak_ordering#Strict_weak_orderings.
+func SortFunc[S ~[]E, E any](x S, cmp func(a, b E) int) {
+    n := len(x)
+    pdqsortCmpFunc(x, 0, n, bits.Len(uint(n)), cmp)
+}
+
+// SortStableFunc sorts the slice x while keeping the original order of equal
+// elements, using cmp to compare elements in the same way as [SortFunc].
+func SortStableFunc[S ~[]E, E any](x S, cmp func(a, b E) int) {
+    stableCmpFunc(x, len(x), cmp)
+}
+```
+
+安定ソートは [`slices`]`.SortStableFunc()` 関数のみか。
+ソートのアルゴリズムについては割愛するが，コメントには “`pattern-defeating quicksort(pdqsort)`” と書かれている。
+
+さて，これらの関数を使えば前節のコードを
+
+```go {hl_lines=[4,6,"32-34"]}
+package main
+
+import (
+    "cmp"
+    "fmt"
+    "slices"
+)
+
+// A Planet defines the properties of a solar system object.
+type Planet struct {
+    Name     string
+    Mass     float64
+    Distance float64
+}
+
+func (p Planet) String() string {
+    return p.Name
+}
+
+func main() {
+    planets := []Planet{
+        {"Mercury", 0.055, 0.4},
+        {"Venus", 0.815, 0.7},
+        {"Earth", 1.0, 1.0},
+        {"Mars", 0.107, 1.5},
+    }
+
+    for _, p := range planets {
+        fmt.Printf("%v ", p)
+    }
+    fmt.Print("\n")
+    slices.SortFunc(planets, func(pl, pr Planet) int {
+        return cmp.Compare(pl.Mass, pr.Mass)
+    })
+    for _, p := range planets {
+        fmt.Printf("%v ", p)
+    }
+    // Output:
+    // Mercury Venus Earth Mars
+    // Mercury Mars Venus Earth
+}
+```
+
+てな感じに書き換えることができる。
+
+[`cmp`] パッケージも [Go][Go 言語] 1.21 で追加されたものだ。
+[`slices`] と同じく Generics を使って比較に関する型と関数を定義している。
+
 ## ブックマーク
 
 - [sliceのシャッフル - Qiita](http://qiita.com/sugyan/items/fd7138a756c1a409f5fd) : [Fisher–Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle) というアルゴリズムらしい
@@ -360,11 +446,13 @@ func main() {
 - [Goでスターリンソート - Qiita](https://qiita.com/karaimonoOitii/items/d9dfd8b9d3708ca947d9) : （笑）
 - [Quicksort の攻撃方法 - Sideswipe](http://kazoo04.hatenablog.com/entry/2012/12/10/183847)
 
-[Go 言語]: https://golang.org/ "The Go Programming Language"
-[`sort`]: https://golang.org/pkg/sort/ "sort - The Go Programming Language"
-[`reflect`]: https://golang.org/pkg/reflect/ "reflect - The Go Programming Language"
-[slice]: http://golang.org/ref/spec#Slice_types
-[interface]: https://golang.org/doc/effective_go.html#interfaces_and_types "Effective Go - The Go Programming Language"
+[Go 言語]: https://go.dev/ "The Go Programming Language"
+[slice]: https://go.dev/ref/spec#Slice_types
+[interface]: https://go.dev/doc/effective_go#interfaces_and_types "Effective Go - The Go Programming Language"
+[`sort`]: https://pkg.go.dev/sort/ "sort - The Go Programming Language"
+[`reflect`]: https://pkg.go.dev/reflect/ "reflect - The Go Programming Language"
+[`slices`]: https://pkg.go.dev/slices "slices package - slices - Go Packages"
+[`cmp`]: https://pkg.go.dev/cmp "cmp package - cmp - Go Packages"
 
 ## 参考図書
 
