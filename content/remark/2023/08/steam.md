@@ -31,7 +31,7 @@ pageType = "text"
 - [SteamゲーマーのOSシェアでついにLinuxがmacOSを追い抜く、「Steam Deck」が影響する可能性 - GIGAZINE](https://gigazine.net/news/20230804-steam-mac-linux/)
 
 なんてな記事も見かけるようになった。
-なんでも [Proton] (Wine の fork だそうな) によって [Windows 用のゲームの多くが Linux 機でも動く](https://gigazine.net/news/20211223-steam-game-played-on-linux/ "Steamで販売されるPCゲームの約8割がLinuxに対応、LinuxはPCゲームプラットフォームとして成長を遂げている - GIGAZINE")ようになったそうな。
+なんでも [Proton] (Wine の fork らしい) によって [Windows 用のゲームの多くが Linux 機でも動く](https://gigazine.net/news/20211223-steam-game-played-on-linux/ "Steamで販売されるPCゲームの約8割がLinuxに対応、LinuxはPCゲームプラットフォームとして成長を遂げている - GIGAZINE")ようになったそうな。
 こりゃあ試してみなければ。
 せっかく夏休み満喫中だし（笑）
 
@@ -41,12 +41,12 @@ pageType = "text"
 
 {{< fig-img-quote src="./steam-about.png" title="Steam, The Ultimate Online Game Platform" link="https://store.steampowered.com/about/" width="1193" lang="en" >}}
 
-まぁ APT でのインストールで百個以上のパッケージを入れるので若干後悔したり。
+APT でのインストールで百個以上の関連パッケージを入れるのを見て若干後悔したり。
 これ絶対に更新管理が面倒くさいよなぁ...
 
 ## Proton を有効にする
 
-[Proton] を有効にするには「設定」の「互換性」の項目で「他のすべてのタイトルでSteam Playを有効化」をONにすればいいらしい。
+[Proton] を有効にするには「設定」の「互換性」の項目で「他のすべてのタイトルでSteam Playを有効化」をONにすればいいらしい（アプリケーションの再起動が要求される）。
 
 {{< fig-img-quote src="./settings.png" title="STEAM設定 互換性" link="./settings.png" width="850" >}}
 
@@ -70,6 +70,12 @@ pageType = "text"
 
 そういや，最近のゲームの流行りとか全く把握してないな。
 ン十年ぶりにゲーム雑誌とか買ったほうがいいのだろうか。
+
+{{< div-box type="markdown" >}}
+**【2023-08-11 追記】**
+3D動作限定かもしれないけど，たまに OS を巻き添えにしてハングアップする。
+こうなるとマシンをリセットするしかないので，ゲームをするときは他のアプリケーションを落とした状態でやらないと。
+{{< /div-box >}}
 
 ## ブックマーク
 
