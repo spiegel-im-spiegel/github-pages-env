@@ -77,6 +77,13 @@ APT でのインストールで百個以上の関連パッケージを入れる�
 こうなるとマシンをリセットするしかないので，ゲームをするときは他のアプリケーションを落とした状態でやらないと。
 {{< /div-box >}}
 
+{{< div-box type="markdown" >}}
+**【2023-08-12 追記】**
+ドラクエとどっちにしようか悩んだが，結局 “[NieR:Automata](https://store.steampowered.com/app/524220/NieRAutomata/ "Steam：NieR:Automata™")” を購入。
+今のところは問題なく動いている。
+まぁ，念のためにゲーム起動中は極力ほかのアプリケーションは落としてるけど。
+{{< /div-box >}}
+
 ## ブックマーク
 
 - [ProtonDB | Gaming know-how from the Linux and Steam Deck community](https://www.protondb.com/)
