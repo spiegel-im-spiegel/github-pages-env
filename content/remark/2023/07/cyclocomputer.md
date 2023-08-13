@@ -187,6 +187,11 @@ Cadence sonsor のほうはボタン電池が入ってた。
 [島根県立図書館]: https://www.library.pref.shimane.lg.jp/
 [スマホアプリ]: https://play.google.com/store/apps/details?id=bike.trimm.rideWithMe "trimm Cycling Center - Apps on Google Play"
 
+## ブックマーク
+
+- [初めてのサイクルコンピューターには！高スペック・低価格のtrimm ROLLIN｜マクアケ - アタラシイものや体験の応援購入サービス](https://www.makuake.com/project/trimmrollin/) : trimm ROLLIN の日本語情報はここが一番詳しかった
+- [Strava（ストラバ）とサイコンを連携してライドを楽むための情報をお伝えします。](https://roadbike-fun.com/strava/)
+
 ## 参考
 
 {{% review-paapi "B006JZE7YK" %}} <!-- 六角レンチ -->

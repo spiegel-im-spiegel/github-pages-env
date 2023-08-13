@@ -20,7 +20,7 @@ pageType = "text"
 [^np1]: 数ヶ月で削除される新聞記事にリンクを張ってもしょうがない。
 
 ちなみに私はもう長いこと紙の新聞は読んでない[^np2]。
-10年近く前に[関係者に『新聞がなくなる日』なんて本を書かれ](http://www.baldanders.info/spiegel/log/200511.html#d19_t4)，近年では「[社会は新聞を必要としない](https://longtailworld.blogspot.com/2009/03/clay-shirkys-newspapers-and-thinking.html)」とまで言われるメディアに価値があるとは思えない（笑）
+10年以上も前に[関係者に『新聞がなくなる日』なんて本を書かれ](http://www.baldanders.info/spiegel/log/200511.html#d19_t4)，さらに「[社会は新聞を必要としない](https://longtailworld.blogspot.com/2009/03/clay-shirkys-newspapers-and-thinking.html)」とまで言われるメディアに価値があるとは思えない（笑）
 
 [^np2]: 実家は今だに新聞を定期購読しているので目にはつくけど。まぁ，私がお金を払っているわけではないのでどうでもいい。年寄りは新聞やテレビがなくなると本格的に社会から隔絶してしまうので，仕方がないのだろう。新聞やテレビ自体が社会から乖離している気もするが（笑）
 

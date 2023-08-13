@@ -124,7 +124,6 @@ pageType = "text"
 - [Hidetomo Hosono (@h12o@mastodon.tokyo) - Mastodon.Tokyo](https://mastodon.tokyo/@h12o) : [Mastodon.Tokyo](https://mastodon.tokyo/) 運営者
   - [@h12o@blessedgeeks.com (@h12o@blessedgeeks.com) - Mastodon@BlessedGeeks.Com](https://mastodon.blessedgeeks.com/@h12o)
 - [のえる (@noellabo@fedibird.com) - Fedibird](https://fedibird.com/@noellabo) : [fedibird.com](https://fedibird.com/) 運営者
-- [Masayuki Hatta (@mhatta@techpolicy.social) - techpolicy](https://techpolicy.social/@mhatta)
 - [Infosec Exchange](https://infosec.exchange/) : 情報セキュリティ関連のサーバらしい
 - [キュアスタ！](https://precure.ml/) : 「プリキュアファンの為のインスタンスです」だそうです
 - [vim-jp | Misskey.io](https://misskey.io/channels/9b0ni7y9xc) : vimmer は何処にでもいるw
@@ -132,6 +131,9 @@ pageType = "text"
 - [doctorow (@doctorow@mamot.fr) - La Quadrature du Net - Mastodon - Media Fédéré](https://mamot.fr/@doctorow) : SF 作家， Creative Commons でも活動
   - [Cory Doctorow's linkblog (@pluralistic@mamot.fr) - La Quadrature du Net - Mastodon - Media Fédéré](https://mamot.fr/@pluralistic)
 - [鷹野凌 (@ryou_takano@mstdn.jp) - mstdn.jp](https://mstdn.jp/@ryou_takano) : HON.jp の中の人
+- [Masayuki Hatta (@mhatta@techpolicy.social) - techpolicy](https://techpolicy.social/@mhatta)
+- [新山祐介 (Yusuke Shinyama) (@mootastic@mstdn.social) - Mastodon 🐘](https://mstdn.social/@mootastic)
+- [BBC Mastodon](https://social.bbc/) : BBC の公式サーバ
 
 ## Web ページを Mastodon でシェアする
 
@@ -217,3 +219,5 @@ pageType = "text"
 - [GoでMisskeyのCLIクライアントを作った話 (Misskey Advent Calender 2022) - 平和に生きたい](https://mikuta0407.net/wordpress/index.php/2022/12/16/misskey-cli/)
 - [Critical TootRoot bug lets attackers hijack Mastodon servers](https://www.bleepingcomputer.com/news/security/critical-tootroot-bug-lets-attackers-hijack-mastodon-servers/)
 - [オランダ政府が公式Mastodonサーバー「overheid.nl」を立ち上げ - GIGAZINE](https://gigazine.net/news/20230713-netherland-mastodon/)
+- [The BBC on Mastodon: experimenting with distributed and decentralised social media - BBC R&D](https://www.bbc.co.uk/rd/blog/2023-07-mastodon-distributed-decentralised-fediverse-activitypub) : BBC が Mastodon サーバを開設
+- [このブログがFediverseに対応しました](https://blog.tyage.net/post/2023/2023-07-17-bridgy-fed/) : 普通のブログページを ActivityPub 対応にする

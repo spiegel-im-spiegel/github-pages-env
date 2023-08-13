@@ -96,6 +96,7 @@ In fact, you can think of Snyk client tools like the CLI and CI/CD plugins as ge
 - [Why SBOM Is Not Enough in the Era of Supply Chain Attacks](https://forelens.com/blog/why-sbom-is-not-enough-in-the-era-of-supply-chain-attacks/)
 - [IPAがセキュリティ情報の収集ツール「mjcheck4」を公開 ～Adobe AIR製の旧版は廃止 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1489503.html) : SBOM をインポートできるらしい
 - [SSVCを使った脆弱性管理の取り組み](https://www.conoris.jp/blog/ssvc)
+- [経済産業省、「ソフトウェア管理に向けたSBOM（Software Bill of Materials）の導入に関する手引」公開。環境構築、SBOM作成、運用管理など解説 － Publickey](https://www.publickey1.jp/blog/23/sbomsoftware_bill_of_materialssbom.html)
 
 - [Go はどのようにしてサプライチェーン攻撃を低減しているか](https://zenn.dev/spiegel/articles/20220402-how-go-mitigates-supply-chain-attacks)
 - [「ブログはやはり『死に続けている』」]({{< ref "/remark/2022/07/slow-motion-car-crash.md" >}})

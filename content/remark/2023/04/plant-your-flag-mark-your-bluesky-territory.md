@@ -89,6 +89,7 @@ Twitter は [Blue をお金で買えるようになった](https://p2ptk.org/fre
 - [BINGO game on Bluesky](https://bingo.b35.jp/)
 - [LangChain を使って Hacker News の日本語要約 Bluesky ボットを作ってみた](https://zenn.dev/ryo_kawamata/articles/98b7cc1c67ad0c)
 - [SNS「Bluesky」800万ドル調達　「広告モデルではない収益化」へ、ドメイン販売開始 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2307/07/news097.html)
+- [No.31 「Bluesky」でDNSを使わずユーザー名を独自ドメインにする方法 - sakatori[sm] note](https://www.sakatori.net/note/?postid=31)
 
 [Bluesky]: https://blueskyweb.xyz/
 [staging.bsky.app]: https://staging.bsky.app/ "Bluesky"
