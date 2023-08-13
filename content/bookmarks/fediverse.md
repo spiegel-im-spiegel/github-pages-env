@@ -98,6 +98,7 @@ pageType = "text"
 - [Tailscale (@tailscale@hachyderm.io) - Hachyderm.io](https://hachyderm.io/@tailscale)
 - [Slashdot (@slashdot@mastodon.cloud) - mastodon.cloud](https://mastodon.cloud/@slashdot)
 - [Grafana Labs (@grafana@grafana.social) - Grafana Social](https://grafana.social/@grafana)
+- [BBC Mastodon](https://social.bbc/) : BBC の公式サーバ
 
 ### 各種ニュース
 
@@ -133,7 +134,6 @@ pageType = "text"
 - [鷹野凌 (@ryou_takano@mstdn.jp) - mstdn.jp](https://mstdn.jp/@ryou_takano) : HON.jp の中の人
 - [Masayuki Hatta (@mhatta@techpolicy.social) - techpolicy](https://techpolicy.social/@mhatta)
 - [新山祐介 (Yusuke Shinyama) (@mootastic@mstdn.social) - Mastodon 🐘](https://mstdn.social/@mootastic)
-- [BBC Mastodon](https://social.bbc/) : BBC の公式サーバ
 
 ## Web ページを Mastodon でシェアする
 
