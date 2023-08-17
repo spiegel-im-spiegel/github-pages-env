@@ -1,7 +1,7 @@
 +++
 title = "KeePassXC に TOTP を設定する"
 date =  "2023-08-17T21:48:05+09:00"
-description = "Google Authenticator を捨てて TOTP 管理を KeePassXC に移行する。"
+description = "Google Authenticator を捨てて TOTP 管理を KeePassXC に一元化する。"
 image = "/images/attention/kitten.jpg"
 tags = [ "security", "management", "authentication", "tools" ]
 pageType = "text"
@@ -15,11 +15,11 @@ pageType = "text"
 
 - [Release Release 2.7.6 · keepassxreboot/keepassxc · GitHub](https://github.com/keepassxreboot/keepassxc/releases/tag/2.7.6)
 
-これで思い出したのだが [Google Authenticator] を捨てて TOTP 管理を [KeePassXC] に移行しようとしてたのだった。
+これで思い出したのだが [Google Authenticator] を捨てて TOTP 管理を [KeePassXC] に一元化しようとしてたのだった。
 すっかり忘れてたよ。
 
 [KeePassXC] は [KeePass] 2.x 互換のアプリケーションで Windows, Linux, macOS で動作するマルチプラットフォームのアプリケーションである。
-特に [KeePassXC] は TOTP のシークレットを登録して認証コードを振りだすことができる[^kp2a]。
+特に [KeePassXC] は標準機能で TOTP のシークレットを登録してワンタイムパスワードを振りだすことができる[^kp2a]。
 
 [^kp2a]: [KeePass] 2.x 互換のアプリケーションとして Android 用の [Keepass2Android] というのもあって，こちらも TOTP に対応している。 iPhone 版は知らん。
 
@@ -45,7 +45,7 @@ QRコード（上の図は塗り潰してる）の下の “Can't scan the QR co
 {{< fig-img src="./twitter-secret-2.png" title="Can't scan the QR code?" link="./twitter-secret-1.png" width="607" >}}
 
 という感じにシークレットが表示されるので（上の図の塗り潰してる部分），そのままコピペすればよい。
-これでコンテキストメニューから TOTP の認証コードが取得可能になる。
+これでコンテキストメニューから TOTP のワンタイムパスワードが取得可能になる。
 
 {{< fig-img src="./context-menu-2.png" title="KeePassXC コンテキストメニュー" link="./context-menu-2.png" width="731" >}}
 
@@ -54,7 +54,7 @@ QRコード（上の図は塗り潰してる）の下の “Can't scan the QR co
 {{< fig-img src="./totp.png" title="KeePassXC TOTP を表示" link="./totp.png" >}}
 
 TOTP の設定を紛失すると，最悪の場合，そのサービスに二度と入れくなくなる。
-2要素認証を設定したなら，必ずリカバリーコード（あるいはバックアップコード）をダウンロードし保存しておくこと。
+サービスで2要素認証を設定したなら，必ずリカバリーコード（あるいはバックアップコード）をダウンロードし保存しておくこと。
 紙に出力しておくのもいいだろう。
 ただしリカバリーコードの管理は慎重に。
 
