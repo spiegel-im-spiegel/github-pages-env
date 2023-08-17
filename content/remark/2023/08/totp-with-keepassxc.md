@@ -21,7 +21,7 @@ pageType = "text"
 [KeePassXC] は [KeePass] 2.x 互換のアプリケーションで Windows, Linux, macOS で動作するマルチプラットフォームのアプリケーションである。
 特に [KeePassXC] は標準機能で TOTP のシークレットを登録してワンタイムパスワードを振りだすことができる[^kp2a]。
 
-[^kp2a]: [KeePass] 2.x 互換のアプリケーションとして Android 用の [Keepass2Android] というのもあって，こちらも TOTP に対応している。 iPhone 版は知らん。
+[^kp2a]: [KeePassXC] の機能については[リポジトリページ](https://github.com/keepassxreboot/keepassxc "keepassxreboot/keepassxc: KeePassXC is a cross-platform community-driven port of the Windows application “Keepass Password Safe”.")を参照のこと。他に [KeePass] 2.x 互換のアプリケーションとして Android 用の [Keepass2Android] というのもあって，こちらも TOTP に対応している。 iPhone 版は知らん。
 
 （以下は [Ubuntu] 環境でのセットアップ）
 
@@ -65,6 +65,7 @@ TOTP の設定を紛失すると，最悪の場合，そのサービスに二度
 
 - [Google Online Security Blog: Google Authenticator now supports Google Account synchronization](https://security.googleblog.com/2023/04/google-authenticator-now-supports.html) : この記事を見て [Google Authenticator] を捨てようと思ったのだった
 
+- [Ubuntu に KeePassXC を導入する]({{< ref "/remark/2019/08/installing-keepassxc-in-ubuntu.md" >}})
 - [Authenticator と AAL]({{< ref "/remark/2020/09/authenticator-and-aal.md" >}})
 
 [KeePassXC]: https://keepassxc.org/ "KeePassXC Password Manager"
