@@ -184,12 +184,6 @@ Slack と &#x1D54F; (旧 Twitter) のインストールは見送った。
 これでひととおり入れたかな。
 あとは仕事用のアプリをいくつか入れて不要なプリインストールアプリを消しまくる。
 
-## ブックマーク
-
-- [Galaxy  S22 担当者が動画で使い方紹介 | Samsung Japan 公式](https://www.samsung.com/jp/explore/hint/galaxy-s22-review-movie/)
-- [【Galaxy カメラ】公式より詳しく解説！使い方の基本からコツ・裏技まで完全解説｜基本編 | ガジェ活](https://kunnyoshi.style/galaxy-camera-howto/)
-- [国内版Galaxyでも簡単にシャッター音を無効化する方法 - すまほん!!](https://smhn.info/202104-galaxy-shutter-sound) : [SetEdit](https://play.google.com/store/apps/details?id=by4a.setedit22 "SetEdit SettingsDatabaseEditor - Google Play") アプリを使って OS 内の設定を直接変更する
-
 [前回]: {{< ref "/remark/2020/05/changing-smartphone.md" >}} "ついカッとなって機種変した，反省はしない"
 [Galaxy S22]: https://www.samsung.com/jp/smartphones/galaxy-s22/ "Galaxy S22 (ギャラクシーS22) | Samsung Japan 公式"
 [KeePassXC]: https://keepassxc.org/ "KeePassXC Password Manager"
@@ -201,7 +195,6 @@ Slack と &#x1D54F; (旧 Twitter) のインストールは見送った。
 [PowerShot ZOOM]: https://cam.start.canon/ja/C008/manual/html/ "キヤノン：製品マニュアル｜PowerShot ZOOM"
 
 ## 参考
-
 
 {{% review-paapi "B08DTT5V3M" %}} <!-- ANKER モバイルバッテリ 無線充電 -->
 {{% review-paapi "B0BLNFPWTQ" %}} <!-- trimm ROLLIN サイクルコンピュータ -->
