@@ -92,7 +92,7 @@ au も UQ mobile も同じショップで対応できるということで，乗
 
 まずは Google アカウントの設定。
 こればかりは手動でやらないと。
-幸いパスワードや TOTP の設定は [KeePassXC] に一元化できてるので，[前回]よりは楽にできた。
+幸いパスワードや TOTP の設定は [KeePassXC] に[一元化]({{< relref "./totp-with-keepassxc.md" >}} "KeePassXC に TOTP を設定する")できてるので，[前回]よりは楽にできた。
 うんうん。
 
 次に [Keepass2Android] のインストール。
