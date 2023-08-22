@@ -23424,5 +23424,41 @@
       false
     ],
     "Description": "Steam のゲームで遊ぶために購入。無線だが Ubuntu でも問題なく動く。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08DTT5V3M",
+      "Title": "Anker PowerCore III 10000 Wireless (ワイヤレス充電機能搭載 10000mAh 大容量 モバイルバッテリー) 【ワイヤレス出力 10W / USB-Cポート出力 18W / PD対応 / Qi認証 / PSE技術基準適合】 iPhone 13 / 13 mini / 13 Pro Galaxy S20 AirPods Pro 各種対応",
+      "URL": "https://www.amazon.co.jp/dp/B08DTT5V3M?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/415I4LMb39L._SL160_.jpg",
+        "Height": 160,
+        "Width": 128
+      },
+      "Publisher": "Anker",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08DTT5V3M"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-08-22",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "買い替えたスマホが無線充電に対応してたのでモバイルバッテリも買い替えた。 USB Power Delivery 対応。バッテリを充電しながらスマホの無線充電が可能。重さはともかく，もうちょびっとだけ薄いと嬉しいんだけどねぇ。簡易スマホスタンドにもなる（笑）"
   }
 ]
