@@ -179,12 +179,29 @@ au も UQ mobile も同じショップで対応できるということで，乗
 - [GitHub](https://play.google.com/store/apps/details?id=com.github.android)
 - [Fedilab](https://play.google.com/store/apps/details?id=app.fedilab.android) : Mastodon クライアント（有料）
 - [Bluesky](https://play.google.com/store/apps/details?id=xyz.blueskyweb.app) : Bluesky 公式クライアント
+- [QRコードスキャナー](https://play.google.com/store/apps/details?id=com.google.zxing.client.android) : 基本的に QR コードを信用してないので，中身が見れるこれを昔から愛用している
 
 Slack と &#x1D54F; (旧 Twitter) のインストールは見送った。
 いや，スマホで見なくなったし。
 
 これでひととおり入れたかな。
 あとは仕事用のアプリをいくつか入れて不要なプリインストールアプリを消しまくる。
+
+## 【2023-08-27 追記】バッテリ保護
+
+Mastodon の TL を眺めてたら Galaxy S23 にはバッテリ保護の機能があるらしい。
+100%になる前に充電をストップさせるやつね。
+もしかしてと思って自機の [Galaxy S22] の設定も見てみたらあったよ。
+Android の設定で「バッテリーとデバイスケア（またはデバイスケア）」→「バッテリー」→「その他のバッテリー設定」と辿っていけばいい。
+
+{{< fig-img src="./setting_battery.jpg" title="その他のバッテリー設定" link="./setting_battery.jpg">}}
+
+ここの「バッテリーを保護」を有効にすれば充電量が85%に達するとストップするようになる。
+
+これを有効にしてしばらく試してみたが，日常生活では問題ない感じ。
+まぁ，今は無線充電のモバイルバッテリ[^mb1] を持ち歩いてるので，いざというときの充電は問題ないのだが。
+
+[^mb1]: 「モバイルバッテリ」ちうのは和製英語なんだそうな。英語だと “power bank” とか “portable (battery) charger” とか言うらしい。
 
 [前回]: {{< ref "/remark/2020/05/changing-smartphone.md" >}} "ついカッとなって機種変した，反省はしない"
 [Galaxy S22]: https://www.samsung.com/jp/smartphones/galaxy-s22/ "Galaxy S22 (ギャラクシーS22) | Samsung Japan 公式"

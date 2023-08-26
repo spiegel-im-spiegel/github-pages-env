@@ -12,20 +12,24 @@ pageType = "photo"
 +++
 
 今日はお出掛けの日。
-ここのところ毎日夕立が降るので [tenki,jp] の雨雲レーダー[^ar1] とにらめっこしながら移動。
+ここのところ毎日夕立が降るので [tenki.jp] の雨雲レーダー[^ar1] とにらめっこしながら移動。
 あっ，[デジカメ]({{< ref "/remark/2022/12/autumn-color-in-matsue-castle.md" >}} "Black Friday の戦利品")忘れた。
 まぁ，いいか。
 先日[機種変更]({{< relref "./overhaul.md">}} "暑い日曜日 〜機種変とオーバーホール〜")で手に入れた Galaxy S22 のカメラ機能を試すということで。
 
-[^ar1]: [tenki,jp] の雨雲レーダーは15時間先まで表示してくれるので助かる。当然未来になるほど精度は落ちるが，大雑把な傾向は分かる。
+[^ar1]: [tenki.jp] の雨雲レーダーは15時間先まで表示してくれるので助かる。当然未来になるほど精度は落ちるが，大雑把な傾向は分かる。
 
 まずは au ショップへ行ってキャリアの切り替えを行った。
 [先週]({{< relref "./camera-on-smartphone.md" >}} "暑い日曜日 〜機種変とオーバーホール〜")の続きね。
 切り替えは滞りなく終了。
+電話番号もキャリアメールアドレスも変更なく引き継げた。
+キャリアメールアドレスが引き継げたのはありがたい。
+キャリアメール用のアプリも au 用のものを（若干の設定変更が必要だが）そのまま使えた。
+ありがたや。
+
 ついでに [Galaxy S22] 用のスマホケースとフィルムがないか訊いてみたが，ショップに置いてあるものは品揃えが悪く，家電量販店で買ったほうがいいと言われた。
 確かに棚に飾ってあるのを見るとそんな感じ。
-
-ちうわけで次に家電量販店に移動して，ケースとフィルムを購入した。
+ちうわけで次に家電量販店に移動して，ケースとフィルムを購入した（後で調べたが Amazon で買ったほうが安い `orz`）。
 
 {{% review-paapi "B09XD811MG" %}} <!-- スマホケース Galaxy S22 用 -->
 {{% review-paapi "B09XD93GZZ" %}} <!-- ガラスフィルム Galaxy S22 用 -->
@@ -41,7 +45,7 @@ pageType = "photo"
 
 これは [Galaxy S22] の超広角レンズで撮ったもの。
 
-[Galaxy S22] はリアに3つのカメラレンズが付いていて，スペックはこんな感じらしい。
+[Galaxy S22] のリアには3つのカメラレンズが付いていて，スペックはこんな感じらしい。
 
 | タイプ | 画素数 | F値 | 倍率[^z1] |
 | --- | ---: | ---: | ---: |
@@ -69,6 +73,7 @@ pageType = "photo"
 [Galaxy S22] のリアレンズは縦に並んでて望遠レンズは一番下にあるので指が写り込まないように気をつけないと。
 
 比較写真も撮ったので残りの用事を済ませてしまおう。
+今日は[図書館][島根県立図書館]はなし。
 
 ...ちうわけで，用事も済んだので本日2回めのおやつタイム。
 
@@ -83,14 +88,15 @@ pageType = "photo"
 [Garmin デバイス]({{< relref "./monitoring-heart-rate-2.md" >}} "Garmin vívosmart 5 を買っちまった（心臓リハビリ＠がんばらない 2）")によると，今日は1万歩以上歩いたことになるらしい。
 うんうん。
 
-[tenki,jp]: https://tenki.jp/ "日本気象協会 tenki.jp【公式】 / 天気・地震・台風"
-[Galaxy S22]: https://www.samsung.com/jp/smartphones/galaxy-s22/ "Galaxy S22 (ギャラクシーS22) | Samsung Japan 公式"
-
 ## ブックマーク
 
 - [Galaxy  S22 担当者が動画で使い方紹介 | Samsung Japan 公式](https://www.samsung.com/jp/explore/hint/galaxy-s22-review-movie/)
 - [【Galaxy カメラ】公式より詳しく解説！使い方の基本からコツ・裏技まで完全解説｜基本編 | ガジェ活](https://kunnyoshi.style/galaxy-camera-howto/)
 - [サムスン「Galaxy S22 Ultra」、4つのカメラを徹底的に試す！ - ケータイ Watch[Sponsored]](https://k-tai.watch.impress.co.jp/docs/topic/galaxy/1417400.html)
+
+[tenki.jp]: https://tenki.jp/ "日本気象協会 tenki.jp【公式】 / 天気・地震・台風"
+[Galaxy S22]: https://www.samsung.com/jp/smartphones/galaxy-s22/ "Galaxy S22 (ギャラクシーS22) | Samsung Japan 公式"
+[島根県立図書館]: https://www.library.pref.shimane.lg.jp/
 
 ## 参考
 
