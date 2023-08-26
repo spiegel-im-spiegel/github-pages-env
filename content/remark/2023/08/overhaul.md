@@ -162,6 +162,7 @@ au も UQ mobile も同じショップで対応できるということで，乗
 
 - [Galaxy  S22 担当者が動画で使い方紹介 | Samsung Japan 公式](https://www.samsung.com/jp/explore/hint/galaxy-s22-review-movie/)
 - [【Galaxy カメラ】公式より詳しく解説！使い方の基本からコツ・裏技まで完全解説｜基本編 | ガジェ活](https://kunnyoshi.style/galaxy-camera-howto/)
+- [サムスン「Galaxy S22 Ultra」、4つのカメラを徹底的に試す！ - ケータイ Watch[Sponsored]](https://k-tai.watch.impress.co.jp/docs/topic/galaxy/1417400.html)
 
 純正品はシャッター音がうるさいので無音化する。
 

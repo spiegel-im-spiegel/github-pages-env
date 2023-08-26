@@ -23460,5 +23460,87 @@
       false
     ],
     "Description": "買い替えたスマホが無線充電に対応してたのでモバイルバッテリも買い替えた。 USB Power Delivery 対応。バッテリを充電しながらスマホの無線充電が可能。重さはともかく，もうちょびっとだけ薄いと嬉しいんだけどねぇ。簡易スマホスタンドにもなる（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09XD93GZZ",
+      "Title": "エレコム Galaxy S22 (SC-51C / SCG13) ガラスフィルム 硬度10H 指紋防止 エアーレス PM-G221FLGG クリア",
+      "URL": "https://www.amazon.co.jp/dp/B09XD93GZZ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/511rYOeqZBL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "エレコム(ELECOM)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09XD93GZZ"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4549550247917"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2022-03-31",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-08-26",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "ガラスフィルムで貼り付け作業が簡単そうということであまり考えずに購入。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09XD811MG",
+      "Title": "エレコム Galaxy S22 (SC-51C / SCG13) ケース カバー ハイブリッド TPU 高硬度8H 角エアクッション 耐衝撃 軽量 薄型 フレームカラー 背面クリア ストラップホール付 TOUGH SLIM LITE ブラック PM-G221TSLFCBK",
+      "URL": "https://www.amazon.co.jp/dp/B09XD811MG?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41jAca8O4QL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "エレコム(ELECOM)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09XD811MG"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4549550249522"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2022-04-10",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-08-26",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "シンプルなデザイン，耐衝撃，無線充電可能ということで購入。"
   }
 ]
