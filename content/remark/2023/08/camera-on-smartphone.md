@@ -15,7 +15,7 @@ pageType = "photo"
 ここのところ毎日夕立が降るので [tenki.jp] の雨雲レーダー[^ar1] とにらめっこしながら移動。
 あっ，[デジカメ]({{< ref "/remark/2022/12/autumn-color-in-matsue-castle.md" >}} "Black Friday の戦利品")忘れた。
 まぁ，いいか。
-先日[機種変更]({{< relref "./overhaul.md">}} "暑い日曜日 〜機種変とオーバーホール〜")で手に入れた Galaxy S22 のカメラ機能を試すということで。
+先日[機種変更]({{< relref "./overhaul.md">}} "暑い日曜日 〜機種変とオーバーホール〜")で手に入れた [Galaxy S22] のカメラ機能を試すということで。
 
 [^ar1]: [tenki.jp] の雨雲レーダーは15時間先まで表示してくれるので助かる。当然未来になるほど精度は落ちるが，大雑把な傾向は分かる。
 
@@ -93,6 +93,7 @@ pageType = "photo"
 - [Galaxy  S22 担当者が動画で使い方紹介 | Samsung Japan 公式](https://www.samsung.com/jp/explore/hint/galaxy-s22-review-movie/)
 - [【Galaxy カメラ】公式より詳しく解説！使い方の基本からコツ・裏技まで完全解説｜基本編 | ガジェ活](https://kunnyoshi.style/galaxy-camera-howto/)
 - [サムスン「Galaxy S22 Ultra」、4つのカメラを徹底的に試す！ - ケータイ Watch[Sponsored]](https://k-tai.watch.impress.co.jp/docs/topic/galaxy/1417400.html)
+- [UQモバイルのクラウドバックアップは容量無制限！利用方法解説 ｜ 格安SIM『UQモバイル』を徹底解説！元キャリアショップ店員によるMVNOのススメ](https://comunidadinmigrante.com/cloud-backup/)
 
 [tenki.jp]: https://tenki.jp/ "日本気象協会 tenki.jp【公式】 / 天気・地震・台風"
 [Galaxy S22]: https://www.samsung.com/jp/smartphones/galaxy-s22/ "Galaxy S22 (ギャラクシーS22) | Samsung Japan 公式"
