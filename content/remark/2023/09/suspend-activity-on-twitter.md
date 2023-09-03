@@ -3,7 +3,7 @@ title = "𝕏 (旧 Twitter) の活動を休止します（期間未定）"
 date =  "2023-09-03T13:26:31+09:00"
 description = "プロテクトアカウントにはせず，しばらく様子見。"
 image = "/images/attention/kitten.jpg"
-tags = [ "twitter", "coomunication" ]
+tags = [ "twitter", "communication" ]
 pageType = "text"
 
 [scripts]
