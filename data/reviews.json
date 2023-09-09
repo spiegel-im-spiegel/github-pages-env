@@ -23542,5 +23542,48 @@
       false
     ],
     "Description": "シンプルなデザイン，耐衝撃，無線充電可能ということで購入。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B074BCKH1C",
+      "Title": "「らき☆すた」歌のベスト〜アニメ放送10周年記念盤〜",
+      "URL": "https://www.amazon.co.jp/dp/B074BCKH1C?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61sGsTyc-5L._SL160_.jpg",
+        "Height": 160,
+        "Width": 136
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "Various artists",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Lantis",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B074BCKH1C"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2017-08-02",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-09-09",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "どうしても「もってけ！セーラーふく」が聴きたくなって（笑） 自転車移動中にヘヴィローテーションしてる。当時この歌詞を考えた畑亜貴さんって天才だよなー"
   }
 ]
