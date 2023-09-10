@@ -179,6 +179,21 @@ Tag や commit に署名することで「なりすまし」に対する抑止�
 これは特にチームで開発を行う場合に威力を発揮するだろう。
 ぜひ習慣付けていきたいものである。
 
+## 【2023-09-10】 OpenSSH 認証鍵を使って署名する
+
+最近のバージョンでは [OpenSSH] のユーザ認証鍵を使って commit 等に署名を付与することもできるらしい。
+設定は以下の通り。
+
+```text
+$ git config user.signingkey path_for_ssh_public_key
+$ git config gpg.format ssh
+```
+
+`config user.signingkey` で指定する公開鍵は，公開鍵ファイルへのパスでもいいし，公開鍵の ASCII 文字列をそのまま指定してもいいようだ。
+実際に署名を行う際は，登録された公開鍵に対応する秘密鍵を `ssh-agent` 経由で取得して署名を行うらしい（つまり秘密鍵を設定ファイルに直接書き込むことはできない）。
+
+正直に言って（他者が証明できない鍵を署名に使うことに）意味があるようには思えないのだが「git なんて GitHub へのアクセスにしか使わんよ。 verify マークが付きゃいいんでしょ」という方にはアリな選択肢かもしれない。
+
 ## ブックマーク
 
 - [git(GitHub)でGPGを使った署名をおこなう - Qiita](http://qiita.com/pontago/items/5867b6492e09c34084fe)
@@ -186,6 +201,7 @@ Tag や commit に署名することで「なりすまし」に対する抑止�
 - [Git のタグやコミットを (PGP ではなく) S/MIME で署名する - Qiita](https://qiita.com/wktk/items/acf641bbbf2b82ff7275)
 - [git cryptを導入する - Qiita](https://qiita.com/batch9703/items/f6959ba51bb9bb32ef93)
 - [git-crypt を使って秘密情報を版管理する | DevelopersIO](https://dev.classmethod.jp/articles/git-crypt/)
+- [GitのコミットにSSH鍵による署名を行いGitHubでVerifiedマークが付くようにする - Qiita](https://qiita.com/habu1010/items/dbd59495a68a0b9dc953)
 
 [Git]: https://git-scm.com/ "Git"
 [Git for Windows]: http://git-for-windows.github.io/ "Git for Windows"
@@ -194,3 +210,4 @@ Tag や commit に署名することで「なりすまし」に対する抑止�
 [git-plus]: https://atom.io/packages/git-plus "git-plus"
 [Git Extensions]: http://gitextensions.github.io/ "Git Extensions"
 [GitHub]: https://github.com/ "GitHub"
+[OpenSSH]: http://www.openssh.com/ "OpenSSH"
