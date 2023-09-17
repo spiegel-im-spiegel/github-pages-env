@@ -23584,6 +23584,47 @@
       true,
       false
     ],
-    "Description": "どうしても「もってけ！セーラーふく」が聴きたくなって（笑） 自転車移動中にヘヴィローテーションしてる。当時この歌詞を考えた畑亜貴さんって天才だよなー"
+    "Description": "どうしても「もってけ！セーラーふく」が聴きたくなって（笑） 通勤中にヘヴィローテーションしてる。当時この歌詞を考えた畑亜貴さんって天才だよなー"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07T372T25",
+      "Title": "OGK KABUTO(オージーケーカブト) 自転車 ヘルメット SICURE(シクレ) カラー:ベージュ サイズ:54-57cm(未満) SG認証",
+      "URL": "https://www.amazon.co.jp/dp/B07T372T25?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41f3LhC+6bL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "スポーツ用品",
+      "Publisher": "OGK KABUTO(オージーケーカブト)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07T372T25"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4966094581466"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2019-06-18",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-09-17",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "イオンサイクルでこれに似たヘルメットを見かけた。ママチャリとかならこういうのでもいいかもね。"
   }
 ]
