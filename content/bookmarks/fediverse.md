@@ -99,6 +99,7 @@ pageType = "text"
 - [Slashdot (@slashdot@mastodon.cloud) - mastodon.cloud](https://mastodon.cloud/@slashdot)
 - [Grafana Labs (@grafana@grafana.social) - Grafana Social](https://grafana.social/@grafana)
 - [BBC Mastodon](https://social.bbc/) : BBC の公式サーバ
+- [Flickr Foundation (@flickrfdn@glammr.us) - glammr.us Mastodon](https://glammr.us/@flickrfdn)
 
 ### 各種ニュース
 
@@ -123,7 +124,6 @@ pageType = "text"
 - [yomoyomo (@yomoyomo@mstdn.jp) - mstdn.jp](https://mstdn.jp/@yomoyomo) : 『もうすぐ絶滅するという開かれたウェブについて 続・情報共有の未来』の著者
 - [結城浩@日常 (@hyuki@social.hyuki.net) - 結城浩のマストドン](https://social.hyuki.net/@hyuki) : 『数学ガール』の著者
 - [Hidetomo Hosono (@h12o@mastodon.tokyo) - Mastodon.Tokyo](https://mastodon.tokyo/@h12o) : [Mastodon.Tokyo](https://mastodon.tokyo/) 運営者
-  - [@h12o@blessedgeeks.com (@h12o@blessedgeeks.com) - Mastodon@BlessedGeeks.Com](https://mastodon.blessedgeeks.com/@h12o)
 - [のえる (@noellabo@fedibird.com) - Fedibird](https://fedibird.com/@noellabo) : [fedibird.com](https://fedibird.com/) 運営者
 - [Infosec Exchange](https://infosec.exchange/) : 情報セキュリティ関連のサーバらしい
 - [キュアスタ！](https://precure.ml/) : 「プリキュアファンの為のインスタンスです」だそうです
