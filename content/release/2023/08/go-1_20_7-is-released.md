@@ -28,7 +28,19 @@ Based on a survey of publicly trusted RSA keys, there are currently only three c
 どうやら 8192 bit 以上の RSA 鍵は取り扱わないことにしたようだ。
 まぁ，妥当かな。
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L`
+- 深刻度: 警告 (Score: 5.3)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 不要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | なし |
+| 可用性への影響 | 低 |
 
 ## その他のパッケージの更新
 
@@ -42,7 +54,19 @@ Based on a survey of publicly trusted RSA keys, there are currently only three c
 Version v0.13.0 of [`golang.org/x/net`](http://golang.org/x/net) fixes a vulnerability in the [`golang.org/x/net/html`](http://golang.org/x/net/html) package which caused a mismatch between parsing and rendering.<br>
 Text nodes not in the HTML namespace were being incorrectly literally rendered, causing text which should've been escaped to not be. This could lead to an XSS attack.{{< /fig-quote >}}
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N`
+- 深刻度: 警告 (Score: 6.1)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 要 |
+| スコープ | 変更あり |
+| 機密性への影響 | 低 |
+| 完全性への影響 | 低 |
+| 可用性への影響 | なし |
 
 ### [CVE-2023-29407] Vulnerabilities in golang.org/x/image/tiff
 
@@ -52,7 +76,19 @@ Version v0.10.0 of [`golang.org/x/image`](http://golang.org/x/image) fixes two v
 
 また TIFF か...
 
-（以下未稿）
+- `CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H`
+- 深刻度: 警告 (Score: 6.5)
+
+| 基本評価基準 | 評価値 |
+|--------|-------|
+| 攻撃元区分 | ネットワーク |
+| 攻撃条件の複雑さ | 低 |
+| 必要な特権レベル | 不要 |
+| ユーザ関与レベル | 要 |
+| スコープ | 変更なし |
+| 機密性への影響 | なし |
+| 完全性への影響 | なし |
+| 可用性への影響 | 高 |
 
 ## 例によって...
 

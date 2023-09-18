@@ -23626,5 +23626,52 @@
       false
     ],
     "Description": "イオンサイクルでこれに似たヘルメットを見かけた。ママチャリとかならこういうのでもいいかもね。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CFL1DK8Q",
+      "Title": "Go言語 100Tips ありがちなミスを把握し、実装を最適化する impress top gearシリーズ",
+      "URL": "https://www.amazon.co.jp/dp/B0CFL1DK8Q?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51BmDUG6D0L._SL160_.jpg",
+        "Height": 160,
+        "Width": 125
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "Teiva Harsanyi",
+          "Role": "著"
+        },
+        {
+          "Name": "柴田 芳樹",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "インプレス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CFL1DK8Q"
+        }
+      ],
+      "PublicationDate": "2023-08-18",
+      "LastRelease": "2023-08-18",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-08-18",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "\u003ca href=\"https://book.impress.co.jp/books/1122101133\"\u003e版元\u003c/a\u003eで PDF 版を購入可能。事実上の Effective Go とも言える充実の内容。オリジナルは敢えてタイトルに “tips” という単語を入れるのを避けたのに邦題が「100 Tips」とかなっていて，原作者がお怒りとの噂（あくまで噂）"
   }
 ]
