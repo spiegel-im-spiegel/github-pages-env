@@ -87,7 +87,7 @@ The `html/template` package did not apply the proper rules for handling occurren
 Processing an incomplete post-handshake message for a QUIC connection caused a panic.
 {{< /fig-quote >}}
 
-CVE ID ベースでは2件だけど CVSS 評価は同じようだ。
+CVE ID ベースでは2件だけど CVSS 評価は同じのようだ。
 
 - `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H`
 - 深刻度: 重要 (Score: 7.5)
