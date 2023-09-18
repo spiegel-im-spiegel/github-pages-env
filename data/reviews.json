@@ -23673,5 +23673,46 @@
       false
     ],
     "Description": "\u003ca href=\"https://book.impress.co.jp/books/1122101133\"\u003e版元\u003c/a\u003eで PDF 版を購入可能。事実上の Effective Go とも言える充実の内容。オリジナルは敢えてタイトルに “tips” という単語を入れるのを避けたのに邦題が「100 Tips」とかなっていて，原作者がお怒りとの噂（あくまで噂）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00AAPY0ZQ",
+      "Title": "マルニ(Maruni) クイックショット K-600 仏式バルブ用応急瞬間パンク修理剤 ブラック",
+      "URL": "https://www.amazon.co.jp/dp/B00AAPY0ZQ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/418tNaWn2NL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "スポーツ用品",
+      "Publisher": "マルニ(Maruni)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00AAPY0ZQ"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4907388003301"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-09-18",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "転ばぬ先の杖として購入。緊急用のパンク修理剤。フレンチバルブ対応。コンパクトサイズでサドルバッグやステムバッグにも入る。使わずに済めばいいのだが..."
   }
 ]
