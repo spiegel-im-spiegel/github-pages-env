@@ -24,7 +24,7 @@ pageType = "photo"
 
 ## 定点観測
 
-午後の来客の予定はないようなので，私は自転車で遊ぶことにした。
+午後の来客予定はないようなので，私は自転車で遊ぶことにした。
 まずはいつもの定点観測。
 
 {{< fig-img src="./53207234914_bb9071550d_e.jpg" title="今日の宍道湖 | Flickr" link="https://www.flickr.com/photos/spiegel/53207234914/">}}
@@ -118,7 +118,7 @@ pageType = "photo"
 うまくいけば夕日が撮れるかな。
 というわけで，宍道湖に引き返す。
 
-夕日は見れませんでした `orz`
+夕日は... 見れませんでした `orz`
 
 {{< fig-img src="./53207165521_4954bdd5aa_e.jpg" title="今日の宍道湖（夕景） | Flickr" link="https://www.flickr.com/photos/spiegel/53207165521/">}}
 
@@ -134,9 +134,9 @@ pageType = "photo"
 
 ## 参考
 
-{{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
 {{% review-paapi "B0BLNFPWTQ" %}} <!-- trimm ROLLIN サイクルコンピュータ -->
 {{% review-paapi "B09XGYX7JF" %}} <!-- GARMIN vívosmart 5 -->
-{{% review-paapi "B08K34WLXD" %}} <!-- ステムバッグ（stem bag） -->
+{{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
 {{% review-paapi "B00AAPY0ZQ" %}} <!-- パンク修理剤 -->
+{{% review-paapi "B08K34WLXD" %}} <!-- ステムバッグ（stem bag） -->
 {{% review-paapi "B074BCKH1C" %}} <!-- らき☆すた（らきすた） -->
