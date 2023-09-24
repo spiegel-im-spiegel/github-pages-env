@@ -50,7 +50,9 @@ pageType = "photo"
 子どもの頃とは違うような... まぁ，いいや。
 次行ってみよう。
 
-あっさりと[展示学習館]に到着。
+スタート地点からのんびり走って20分[^c1] ほどで[展示学習館]に到着した。
+
+[^c1]: [前回]の疲れが残ってたのと風が強くて。私は「がんばらない」主義なので，無理せずギアとケイデンスを落としてゆっくり走った。
 
 {{< fig-img src="./53209384544_5c15b04b57_e.jpg" title="八雲立つ風土記の丘展示学習館 | Flickr" link="https://www.flickr.com/photos/spiegel/53209384544/">}}
 
@@ -63,7 +65,7 @@ pageType = "photo"
 
 ## {{% ruby "しんぐん" %}}神郡{{% /ruby %}} ― {{% ruby "おう" %}}意宇{{% /ruby %}}と{{% ruby "むなかた" %}}宗像{{% /ruby %}} ―
 
-とにかく，無事自転車を停めることができたので，入場料（大人300円）を払って入る。
+とにかく，無事自転車を停めることができたので，入場料（大人300円，税込）を払って入る。
 ちなみに撮影OKだそうな。
 
 {{< fig-img src="./53210148840_ee8b53d064_e.jpg" title="展示学習館内は撮影OK | Flickr" link="https://www.flickr.com/photos/spiegel/53210148840/">}}
@@ -127,7 +129,7 @@ pageType = "photo"
 
 では[六所神社](https://maps.app.goo.gl/SPuX6QUhQDjuwJqY7)に行ってみるか。
 
-意宇平野には「意宇六社」と呼ばれる大社造りの神社が6つある。すなわち：
+意宇平野には「意宇六社」と呼ばれる大社造りの神社が6つある。すなわち
 
 - [{{% ruby "いや" %}}揖夜{{% /ruby %}}神社](https://maps.app.goo.gl/iUGu79bh4BSm4GSYA)
 - [{{% ruby "ろくしょ" %}}六所{{% /ruby %}}神社]((https://maps.app.goo.gl/SPuX6QUhQDjuwJqY7))
@@ -137,7 +139,7 @@ pageType = "photo"
 - [{{% ruby "くまの" %}}熊野{{% /ruby %}}大社](https://maps.app.goo.gl/3iGHW49pdHp3syxK8)
 
 である。
-八重垣神社は[昨年に行った]({{< ref "/remark/2022/11/challenge-for-the-yaegaki-shrine.md" >}} "八重垣神社チャレンジ")ので，残り5社というわけ。
+八重垣神社は[昨年に行った]({{< ref "/remark/2022/11/challenge-for-the-yaegaki-shrine.md" >}} "八重垣神社チャレンジ")ので，自転車で行ってないのは残り5社ある。
 さらに六所神社の隣に出雲国府跡[^ik1] があるので，併せて制覇してしまおう。
 
 [^ik1]: 子どもの頃は「出雲国庁跡」と呼んでた気がするのだが，今は「出雲国府跡」なんだな。
