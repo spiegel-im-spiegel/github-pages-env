@@ -25,7 +25,7 @@ pageType = "photo"
 {{< /fig-quote >}}
 
 と定義されている。
-地元では「{{% ruby "いう"%}}意宇{{% /ruby %}}平野」と呼ばれる穀倉地帯の一部である。
+地元では「{{% ruby "いう"%}}意宇{{% /ruby %}}平野」と呼んでいる穀倉地帯の一部である。
 
 {{< fig-img src="./53209498568_01c335e2ec_e.jpg" title="意宇平野と茶臼山 | Flickr" link="https://www.flickr.com/photos/spiegel/53209498568/">}}
 
