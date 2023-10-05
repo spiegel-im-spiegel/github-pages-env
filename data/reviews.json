@@ -23714,5 +23714,50 @@
       false
     ],
     "Description": "転ばぬ先の杖として購入。緊急用のパンク修理剤。フレンチバルブ対応。コンパクトサイズでサドルバッグやステムバッグにも入る。使わずに済めばいいのだが..."
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07TXY9KBJ",
+      "Title": "[クローム] バックパック HONDO/ホンドー BLACK TARP (現行モデル) ブラックタープ 21L 防水 メンズ",
+      "URL": "https://www.amazon.co.jp/dp/B07TXY9KBJ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31E7EEXqGCL._SL160_.jpg",
+        "Height": 160,
+        "Width": 88
+      },
+      "ProductType": "ウェア\u0026シューズ",
+      "Publisher": "CHROME",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07TXY9KBJ"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0841916138841"
+        },
+        {
+          "Name": "UPC",
+          "Value": "841916138841"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-10-05",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "自立可能。防水。自転車乗りに嬉しいサブストラップ付き。ポケットは少なめなで布地が硬いのが難点。型崩れしにくそうではある（笑）"
   }
 ]
