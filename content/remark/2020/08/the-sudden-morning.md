@@ -3,7 +3,7 @@ title = "【再掲載】 “The Sudden Morning”"
 date =  "2020-08-06T08:40:53+09:00"
 description = "2005-08-06 に本家ブログに書いた記事の再掲載です。"
 image = "/remark/2020/08/the-sudden-morning/atomic-bomb-dome.png"
-tags = [ "hiroshima", "photography", "flickr", "osanpo-camera" ]
+tags = [ "hiroshima", "photography", "flickr", "osanpo-camera", "shrine" ]
 pageType = "text"
 
 [scripts]

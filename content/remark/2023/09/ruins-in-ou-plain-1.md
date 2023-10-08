@@ -3,7 +3,7 @@ title = "八雲立つ風土記の丘 遺跡めぐり（1）"
 date =  "2023-09-24T23:23:18+09:00"
 description = "遺跡・史跡がアホのようにあって全然回りきらないので，シリーズ化するかも。"
 image = "/remark/2023/09/ruins-in-ou-plain-1/53209497283_810bb98a33_o.jpg"
-tags = [ "osanpo-camera", "photography", "matsue", "bike", "ruins" ]
+tags = [ "osanpo-camera", "photography", "matsue", "bike", "ruins", "shrine" ]
 pageType = "photo"
 
 [scripts]
@@ -62,6 +62,19 @@ pageType = "photo"
 {{< fig-img src="./53208131617_89629d7118_e.jpg" title="案内板前に自転車を置かせてもらった | Flickr" link="https://www.flickr.com/photos/spiegel/53208131617/">}}
 
 実は[展示学習館]の裏手に屋根付きの駐輪場があったんだけど（敷地内を歩き回って見つけた），関係者専用みたいなので利用したらダメかなぁ...
+
+{{< div-box type="markdown" >}}
+## 【2023-10-08 追記】
+
+その後，また[展示学習館]に[行った]({{< ref "/remark/2023/10/ruins-in-ou-plain-2.md" >}} "意宇六社を巡るサイクリング（八雲立つ風土記の丘 遺跡めぐり2）")のだが，一般駐車場に駐輪スペースがあることに気がついた。
+
+{{< fig-img src="/remark/2023/10/ruins-in-ou-plain-2/53242334031_4ca2f7a64b_e.jpg" title="風土記の丘 駐輪場あった | Flickr" link="https://www.flickr.com/photos/spiegel/53242334031/">}}
+
+見落としてたよ。
+次からはここに停めよう。
+
+[展示学習館]: https://www.yakumotatu-fudokinooka.jp/hall "展示学習館 | 八雲立つ風土記の丘"
+{{< /div-box >}}
 
 ## {{% ruby "しんぐん" %}}神郡{{% /ruby %}} ― {{% ruby "おう" %}}意宇{{% /ruby %}}と{{% ruby "むなかた" %}}宗像{{% /ruby %}} ―
 
@@ -132,7 +145,7 @@ pageType = "photo"
 意宇平野には「意宇六社」と呼ばれる大社造りの神社が6つある。すなわち
 
 - [{{% ruby "いや" %}}揖夜{{% /ruby %}}神社](https://maps.app.goo.gl/iUGu79bh4BSm4GSYA)
-- [{{% ruby "ろくしょ" %}}六所{{% /ruby %}}神社]((https://maps.app.goo.gl/SPuX6QUhQDjuwJqY7))
+- [{{% ruby "ろくしょ" %}}六所{{% /ruby %}}神社](https://maps.app.goo.gl/SPuX6QUhQDjuwJqY7)
 - [{{% ruby "まない" %}}眞名井{{% /ruby %}}神社](https://maps.app.goo.gl/nyh3AEE3PAW3LowZ6)
 - [{{% ruby "やえがき" %}}八重垣{{% /ruby %}}神社](https://maps.app.goo.gl/XDujWAcnq2N6RrjUA)
 - [{{% ruby "かもす" %}}神魂{{% /ruby %}}神社](https://maps.app.goo.gl/fTkqQa5wrEpYfaAj9)

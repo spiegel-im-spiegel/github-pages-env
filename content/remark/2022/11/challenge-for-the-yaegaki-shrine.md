@@ -3,7 +3,7 @@ title = "八重垣神社チャレンジ"
 date =  "2022-11-19T18:37:49+09:00"
 description = "次のチャレンジはもう少し鍛えてからにします。"
 image = "/remark/2022/11/challenge-for-the-yaegaki-shrine/52509856593_230ddca906_e.jpg"
-tags = [ "bike", "photography", "osanpo-camera", "matsue" ]
+tags = [ "bike", "photography", "osanpo-camera", "matsue", "shrine" ]
 pageType = "text"
 
 [scripts]
