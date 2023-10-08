@@ -196,6 +196,7 @@ pageType = "photo"
 {{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
 {{% review-paapi "B00AAPY0ZQ" %}} <!-- パンク修理剤 -->
 {{% review-paapi "B08K34WLXD" %}} <!-- ステムバッグ（stem bag） -->
+{{% review-paapi "B08P54PQDB" %}} <!-- メッセンジャーバッグ -->
 {{% review-paapi "B06XDPTLDD" %}} <!-- ブドウ糖 -->
 {{% review-paapi "B08VMWL13F" %}} <!-- VAAM -->
 {{% review-paapi "B0964KPJ24" %}} <!-- エルの唄 -->
