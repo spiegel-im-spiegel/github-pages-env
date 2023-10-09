@@ -116,7 +116,7 @@ pageType = "photo"
 {{< fig-img src="./53241445992_ea0125d485_e.jpg" title="神魂神社 一の鳥居 | Flickr" link="https://www.flickr.com/photos/spiegel/53241445992/">}}
 
 でも，[一の鳥居](https://maps.app.goo.gl/vUycx1foKPoSjvoX8)付近には自動車や自転車を停めるところがなかった。
-しょうがないので駐車場まで移動して隅っこのほうに自転車を停め，また[一の鳥居](https://maps.app.goo.gl/vUycx1foKPoSjvoX8)まで戻って仕切り直し。
+しょうがないので少し先にある参拝者用の駐車場まで移動して隅っこのほうに自転車を停め，また[一の鳥居](https://maps.app.goo.gl/vUycx1foKPoSjvoX8)まで戻って仕切り直し。
 
 {{< fig-img src="./53242687759_3ae94203b3_e.jpg" title="神魂神社 参道 | Flickr" link="https://www.flickr.com/photos/spiegel/53242687759/">}}
 
@@ -150,7 +150,7 @@ pageType = "photo"
 
 今回は途中で食事ができるお店が見当たらなかったので，コンビニでプロティンバーとかカロリーメイト（フルーツ味）とか買い漁ったのだが，ここでほぼ消費してしまった。
 
-でも，糖分が足りないのよ。
+でも，糖分が足りない気がする。
 よし，コメダへ行こう。
 
 ## 糖分補給
