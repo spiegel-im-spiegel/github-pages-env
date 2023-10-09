@@ -23846,5 +23846,56 @@
       false
     ],
     "Description": "「おジャ魔女どれみ」シリーズは名作でした。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4758012210",
+      "Title": "馬越嘉彦 東映アニメーションワークス",
+      "URL": "https://www.amazon.co.jp/dp/4758012210?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61Q8OTA0SUL._SL160_.jpg",
+        "Height": 160,
+        "Width": 123
+      },
+      "ProductType": "大型本",
+      "Creators": [
+        {
+          "Name": "ポストメディア編集部",
+          "Role": "編集"
+        }
+      ],
+      "Publisher": "一迅社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4758012210"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784758012218"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4758012210"
+        }
+      ],
+      "PublicationDate": "2011-07-20",
+      "LastRelease": "2011-07-20",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2012-07-18",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "やっぱ画集は紙で買っておかないと。ハートキャッチプリキュア，おジャ魔女どれみ，マリー\u0026ガリー"
   }
 ]
