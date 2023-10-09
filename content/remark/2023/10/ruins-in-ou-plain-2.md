@@ -19,10 +19,10 @@ pageType = "photo"
 
 ## 松江駅 → 揖夜神社
 
-松江南東部の{{% ruby "あだかい" %}}出雲郷{{% /ruby %}}方面って子どもの足ではちょっと遠くてねぇ。
-今まで[揖夜神社]って行ったことないのよ。
-なので今回は[サイクルコンピュータ]のナビさんに案内してもらうことにした。
+[揖夜神社]のある{{% ruby "あだかい" %}}出雲郷{{% /ruby %}}方面って，昔は松江市から外れてたし，子どもの足ではちょっと遠くてねぇ（[神魂神社]のある辺りは「遊び場」としての行動範囲内だったんだけど）。
+なので，今まで[揖夜神社]って行ったことないのよ。
 
+というわけで，今回は[サイクルコンピュータ]のナビさんに[揖夜神社]まで案内してもらうことにした。
 出発点は[松江駅東駐輪場](http://www.matsuetouzai-chuurin.com/ "松江駅東・西駐輪場")（松江駅方面に用事があったので）。
 
 {{< fig-img src="/remark/2022/09/bike-parking/52380122623_91e0c66293_e.jpg" title="松江駅東駐輪場 | Flickr" link="https://www.flickr.com/photos/spiegel/52380122623/" >}}
@@ -32,7 +32,7 @@ pageType = "photo"
 
 {{< fig-img-quote src="./route-1.png" title="trimm Center" link="./route-1.png" width="1913" lang="en" >}}
 
-相変わらず幹線道路（国道9号線）を避けて裏道を通ろうとしているが，今回はまぁまぁ妥当なルートで，10kmほどの道のり。
+相変わらず幹線道路（国道9号線など）を避けて裏道を通ろうとしているが，今回は概ね妥当なルートで，10kmほどの道のり。
 やっぱ，うちのナビさんは街中より郊外のほうが得意のようだ。
 一部「それ私道やろ？」ってな道も走らされたけどね。
 私道はマジやばいから止めてほしい。
@@ -193,6 +193,7 @@ pageType = "photo"
 
 {{% review-paapi "B0BLNFPWTQ" %}} <!-- trimm ROLLIN サイクルコンピュータ -->
 {{% review-paapi "B09XGYX7JF" %}} <!-- GARMIN vívosmart 5 -->
+{{% review-paapi "B09TVLHJ1X" %}} <!-- Shokz OpenRun Mini 骨伝導ヘッドセット -->
 {{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
 {{% review-paapi "B00AAPY0ZQ" %}} <!-- パンク修理剤 -->
 {{% review-paapi "B08K34WLXD" %}} <!-- ステムバッグ（stem bag） -->
