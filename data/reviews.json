@@ -23759,5 +23759,92 @@
       false
     ],
     "Description": "自立可能。防水。自転車乗りに嬉しいサブストラップ付き。ポケットは少なめで布地が硬いのが難点。型崩れしにくそうではある（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B000064B01",
+      "Title": "おジャ魔女CDくらぶ その1「おジャ魔女」 ヴォーカルコレクション!!",
+      "URL": "https://www.amazon.co.jp/dp/B000064B01?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51-Z+BC2gRL._SL160_.jpg",
+        "Height": 160,
+        "Width": 158
+      },
+      "ProductType": "CD",
+      "Creators": [
+        {
+          "Name": "テレビ主題歌",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "しばたごろー",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "五条真由美",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "秋谷智子",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "MAHO堂",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "しゅうさえこ",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "五條真由美",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "松浦有希",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "桜井ちひろ",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "松平直子",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "松岡由貴",
+          "Role": "アーティスト"
+        }
+      ],
+      "Publisher": "バンダイ・ミュージックエンタテインメント",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B000064B01"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4988015084252"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "1999-04-21",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-10-09",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "「おジャ魔女どれみ」シリーズは名作でした。"
   }
 ]
