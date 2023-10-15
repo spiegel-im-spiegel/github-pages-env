@@ -23897,5 +23897,60 @@
       true
     ],
     "Description": "やっぱ画集は紙で買っておかないと。ハートキャッチプリキュア，おジャ魔女どれみ，マリー\u0026ガリー"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4296001574",
+      "Title": "ハッキング思考　強者はいかにしてルールを歪めるのか、それを正すにはどうしたらいいのか",
+      "URL": "https://www.amazon.co.jp/dp/4296001574?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51anznwPz2L._SL160_.jpg",
+        "Height": 160,
+        "Width": 108
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "ブルース・シュナイアー",
+          "Role": "著"
+        },
+        {
+          "Name": "高橋 聡",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "日経BP",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4296001574"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784296001576"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4296001574"
+        }
+      ],
+      "PublicationDate": "2023-10-12",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-10-13",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "「AI時代にルールを味方につけるには、「正しいハッキングの考え方」が必要だ」（帯の言葉より）"
   }
 ]
