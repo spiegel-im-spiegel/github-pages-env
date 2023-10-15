@@ -1,11 +1,10 @@
 +++
 title = "八重垣神社チャレンジ再び（八雲立つ風土記の丘 遺跡めぐり 3）"
-date =  "2023-10-15T18:43:09+09:00"
+date =  "2023-10-15T20:53:57+09:00"
 description = "宍道湖の夕日も撮れた"
 image = "/remark/2023/10/ruins-in-ou-plain-3/53259596935_206b68144f_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "bike", "shrine", "ruins" ]
 pageType = "photo"
-draft = true
 
 [scripts]
   mathjax = false
