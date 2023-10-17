@@ -37,6 +37,16 @@ use monochromatic numerals.
 Go 言語オタクの間では有名な話？ ちなみに私は色付きが好きっス。
 お子ちゃまですから（笑）
 
+```go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, 世界")
+}
+```
+
 ヤマなし，オチなし，意味なし。
 とっぴんぱらりのぷぅ
 
