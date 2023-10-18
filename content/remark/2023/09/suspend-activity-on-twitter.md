@@ -38,6 +38,20 @@ Facebook は広島時代の友人との連絡手段として細々と活動し�
 {{% emoji "X" %}} がそうならないことを祈ろう。
 そうなったら（データの削除とか）絶対に面倒くさいので。
 
+## 【2023-10-19 追記】 まずは決済情報を吸い上げる
+
+- [「X(旧Twitter)を有料化する」とイーロン・マスクが爆弾発言 - GIGAZINE](https://gigazine.net/news/20230919-x-twitter-monthly-subscriptions-all-users/)
+- [X(旧Twitter)がポストやリポストに年間1ドルを課金する「Not A Bot」プログラムのテストを開始 - GIGAZINE](https://gigazine.net/news/20231018-twitter-x-not-a-bot/)
+
+他のサブスクリプション契約に比べてエラく安いと思ったが，これの目的は決済情報を取得することにあるようだ。
+ボットや荒らし対策と称してユーザの個人情報を吸い上げようとする思想は一貫しているわけだ（笑）
+
+{{< fig-quote type="markdown" title="X will begin charging new users $1 a year | Fortune" link="https://fortune.com/2023/10/17/twitter-x-charging-new-users-1-dollar-year-to-tweet/" lang="en" >}}
+Obtaining credit card information would also help Musk's vision of turning X into an “everything app” that allows users to make purchases directly from the app, among other things. Still, given the company's tumultuous reputation under Musk, some users voiced their hesitancy to turn over their credit card information amid the news of the $1 plan.
+{{< /fig-quote >}}
+
+新規登録する場合でも ROM (Read Only Member) ユーザは無料のままらしいが，既存ユーザまたは ROM ユーザに対しても決済情報を要求するようになるかどうかがポイントかな？ そうなったら本気で捨てるか。
+
 ## ブックマーク
 
 - [メタクソ化するTiktok：プラットフォームが生まれ、成長し、支配し、滅びるまで | p2ptk[.]org](https://p2ptk.org/monopoly/4366)
