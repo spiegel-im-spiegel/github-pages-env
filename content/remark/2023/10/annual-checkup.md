@@ -1,7 +1,7 @@
 +++
 title = "健康診断キメてきたぜ（心臓リハビリ＠がんばらない 4）"
 date =  "2023-10-26T20:07:21+09:00"
-description = "description"
+description = "お腹周りがね，すンごい減っこんだの。"
 image = "/images/attention/kitten.jpg"
 tags = [ "disease" ]
 pageType = "text"
