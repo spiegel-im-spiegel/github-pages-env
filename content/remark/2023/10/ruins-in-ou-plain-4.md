@@ -5,7 +5,6 @@ description = " 秋の晴天の下で露天風呂サイコー！ 宍道湖の蜃
 image = "/remark/2023/10/ruins-in-ou-plain-4/53291917060_12514e6244_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "bike", "shrine" ]
 pageType = "photo"
-draft = true
 
 [scripts]
   mathjax = false
