@@ -87,7 +87,7 @@ pageType = "photo"
 {{< fig-img src="./53290436787_f0999a21ba_e.jpg" title="風呂上がりの木次牛乳 | Flickr" link="https://www.flickr.com/photos/spiegel/53290436787/">}}
 
 一緒に写っている [POW BAR] は持参っス。
-[YouTube で紹介](https://www.youtube.com/watch?v=pWIUHliNcr0 "広島の直線２km舗装路へサイクリングに行ってきました。 - YouTube")してるのを見て買ってみた。
+[YouTube で紹介](https://www.youtube.com/watch?v=A6SMbaB8pkc "広島の直線２km舗装路へサイクリングに行ってきました。 - YouTube")してるのを見て買ってみた。
 しっとり食感で美味いっス。
 何より口の中の水分をもっていかれないのが素晴らしい！ あと，腹持ちもいいので，これ一本で無問題。
 
