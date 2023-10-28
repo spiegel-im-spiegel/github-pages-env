@@ -23952,5 +23952,45 @@
       false
     ],
     "Description": "「AI時代にルールを味方につけるには、「正しいハッキングの考え方」が必要だ」（帯の言葉より）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09JNPGVVZ",
+      "Title": "POW BAR パウバー お試し4味4本セット 【トレイルランニング トレラン ランニング 補給食 ビーガン オーガニック エナジーバー 砂糖不使用】",
+      "URL": "https://www.amazon.co.jp/dp/B09JNPGVVZ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/412R54k8bJL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "Camcom",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09JNPGVVZ"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4580623990620"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-10-28",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "しっとり食感で旨し。口の中の水分をもっていかれないのは素晴らしい。腹持ちもいいので1本で当分保つ。"
   }
 ]
