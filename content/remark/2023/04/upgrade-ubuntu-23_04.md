@@ -77,7 +77,7 @@ OpenSSH_9.0p1 Ubuntu-1ubuntu8, OpenSSL 3.0.8 7 Feb 2023
   - [Ubuntu 23.04 日本語 Remix リリース | Ubuntu Japanese Team](/News/ubuntu2304-ja-remix)
   - [Ubuntu 23.04 その29 - Ubuntu 23.04 日本語 Remixがリリースされました・ディスクイメージのダウンロード - kledgeb](https://kledgeb.blogspot.com/2023/05/ubuntu-2304-29-ubuntu-2304-remix.html)
 - [x] [pgAdmin4] には Lunar 版のリポジトリがない。出たら対応する
-- [ ] [NodeSource](https://github.com/nodesource) の LTS 版 v18.x を利用しているのだが，まだ Lunar 版のリポジトリがない。出たら対応する
+- [x] [NodeSource](https://github.com/nodesource) の LTS 版 v18.x を利用しているのだが，まだ Lunar 版のリポジトリがない。出たら対応する
   - [NodeSource Node.js Binary Distributions](https://github.com/nodesource/distributions/blob/master/README.md)
   - [Ubuntu 20.04にNode.jsをインストールする方法  | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04-ja)
 
