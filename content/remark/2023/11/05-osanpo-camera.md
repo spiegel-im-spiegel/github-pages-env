@@ -72,6 +72,19 @@ pageType = "photo"
 今日の走行距離は合計28km程度かな。
 今の私にはこのくらいが丁度いいっス。
 
+## 【2023-11-09 後日談】 寄付の御礼状を貰った
+
+上の宮のインパクトが凄すぎて忘れていたのだが，お参りの際に[熊野大社]の屋根替の寄付を募ってることに気がついて，少額ながら寄付をしたのだった。
+
+{{< fig-img src="./53320253865_53cbdbf0ff_e.jpg" title="熊野大社に寄付した | Flickr" link="https://www.flickr.com/photos/spiegel/53320253865/" >}}
+
+なんで今頃思い出したのかというと，御礼状が届いたのだ。
+
+{{< fig-img src="./53319554696_b4b3e710ac_e.jpg" title="寄付の御礼状貰った | Flickr" link="https://www.flickr.com/photos/spiegel/53319554696/" >}}
+
+見ての通り本当に少額なので御礼状が来るとは思わなかった。
+ありがとうございます。
+
 [熊野大社]: https://maps.app.goo.gl/3iGHW49pdHp3syxK8
 [上の宮跡]: https://maps.app.goo.gl/hdXFXkS3rwzLdup38
 [安分亭]: http://yakumo-net.com/group/anbuntei/ "安分亭 – ようこそ八雲へ"

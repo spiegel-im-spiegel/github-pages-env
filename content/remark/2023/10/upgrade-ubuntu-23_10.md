@@ -77,14 +77,15 @@ v3.2 はベータ版が出ている。
 
 とりあえず予定だけ立てておく。
 
-- [ ] 日本語 Remix のインストールメディアを作成する
-  - [Ubuntu 23.10 日本語 Remix リリース | Ubuntu Japanese Team](/News/ubuntu2310-ja-remix) : 「公式版では新しいインストーラーが採用されていますが、日本語Remixは従来のインストーラーを利用したものとなっています。これは、[新しいインストーラーには、どの言語を選択してもライブセッションが英語になるという問題](https://bugs.launchpad.net/ubuntu-release-notes/+bug/2013329)が確認されているためです」とのこと
-- [ ] Git PPA 版
-- [ ] [KeePassXC] PPA 版
-- [ ] [pgAdmin4]
-- [ ] [NodeSource](https://github.com/nodesource)
+- [x] 日本語 Remix のインストールメディアを作成する
+  - [Ubuntu 23.10 日本語 Remix リリース | Ubuntu Japanese Team](https://www.ubuntulinux.jp/News/ubuntu2310-ja-remix) : 「公式版では新しいインストーラーが採用されていますが、日本語Remixは従来のインストーラーを利用したものとなっています。これは、[新しいインストーラーには、どの言語を選択してもライブセッションが英語になるという問題](https://bugs.launchpad.net/ubuntu-release-notes/+bug/2013329)が確認されているためです」とのこと
+- [x] Git PPA 版
+- [x] [KeePassXC] PPA 版
+- [x] [NodeSource](https://github.com/nodesource)
   - [NodeSource Node.js Binary Distributions](https://github.com/nodesource/distributions/blob/master/README.md)
+    - nodistro を指定することでメンテナンスフリーになった。めでたし！
   - [Ubuntu 20.04にNode.jsをインストールする方法  | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04-ja)
+- [ ] [pgAdmin4]
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [KeePassXC]: https://keepassxc.org/ "KeePassXC Password Manager"
