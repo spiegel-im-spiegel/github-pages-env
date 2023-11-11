@@ -23992,5 +23992,46 @@
       false
     ],
     "Description": "しっとり食感で旨し。口の中の水分をもっていかれないのは素晴らしい。腹持ちもいいので1本で当分保つ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07TBNJP3T",
+      "Title": "LANDCAST ロードバイク 自転車 空気入れ 300psi ゲージ付き 携帯ポンプ クロスバイク 軽い力で高圧まで空気が入る 仏式・米式",
+      "URL": "https://www.amazon.co.jp/dp/B07TBNJP3T?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/311BAiJITuL._SL160_.jpg",
+        "Height": 160,
+        "Width": 128
+      },
+      "ProductType": "スポーツ用品",
+      "Publisher": "ランドキャスト(Land Cast)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07TBNJP3T"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4573499940639"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-11-11",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "サイクリング先での緊急用に購入。フレンチバルブ対応。バルブへの装着はちょっと慣れが必要かも。ポンピングは軽くてよい。空気圧ゲージは目安程度と割り切る（単位が psi しかない）。ボトルゲージ穴に取り付けるブラケットが付属しているが，ポンプしか付けられないので正直微妙。"
   }
 ]
