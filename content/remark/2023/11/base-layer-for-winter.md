@@ -1,7 +1,7 @@
 +++
 title = "冬用インナー（Base Layer）買うた"
 date =  "2023-11-18T11:10:07+09:00"
-description =  コンプレッションウェアが着れる体型になったんだなぁ，と感慨深い"
+description = "コンプレッションウェアが着れる体型になったんだなぁ，と感慨深い"
 image = "/images/attention/kitten.jpg"
 tags = [ "bike", "gear", "tools" ]
 pageType = "text"
