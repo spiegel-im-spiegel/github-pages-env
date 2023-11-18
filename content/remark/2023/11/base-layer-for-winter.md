@@ -5,7 +5,6 @@ description = "コンプレッションウェアが着れる体型になった�
 image = "/images/attention/kitten.jpg"
 tags = [ "bike", "gear", "tools" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
