@@ -3,7 +3,7 @@ title = "Garmin vívosmart 5 を買っちまった（心臓リハビリ＠がん
 date =  "2023-08-02T22:04:53+09:00"
 description = "スマートバンドをサイクルコンピュータに繋いで心拍数をモニタする。"
 image = "/images/attention/kitten.jpg"
-tags = [ "bike", "disease", "tools" ]
+tags = [ "bike", "disease", "tools", "gear" ]
 pageType = "text"
 
 [scripts]

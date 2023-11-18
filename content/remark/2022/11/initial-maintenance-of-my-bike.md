@@ -3,7 +3,7 @@ title = "自転車の初期点検とお買い物"
 date =  "2022-11-03T21:37:04+09:00"
 description = "自転車って乗ってる人間側の熱設計が結構大事だと改めて認識した。"
 image = "/images/attention/kitten.jpg"
-tags = [ "bike", "tools", "photography", "osanpo-camera" ]
+tags = [ "bike", "tools", "photography", "osanpo-camera", "gear" ]
 pageType = "text"
 
 [scripts]

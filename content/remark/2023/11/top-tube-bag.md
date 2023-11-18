@@ -3,7 +3,7 @@ title = "ロングトップチューブバッグを買うた"
 date =  "2023-11-09T17:13:27+09:00"
 description = "衝動買い。"
 image = "/images/attention/kitten.jpg"
-tags = [ "bike", "tools" ]
+tags = [ "bike", "tools", "gear" ]
 pageType = "text"
 
 [scripts]

@@ -24033,5 +24033,122 @@
       false
     ],
     "Description": "サイクリング先での緊急用に購入。フレンチバルブ対応。バルブへの装着はちょっと慣れが必要かも。ポンピングは軽くてよい。空気圧ゲージは目安程度と割り切る（単位が psi しかない）。ボトルゲージ穴に取り付けるブラケットが付属しているが，ポンプしか付けられないので正直微妙。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07ZG7VP7T",
+      "Title": "ROCKBROS(ロックブロス)サイクルグローブ ロードバイク グローブ 防寒 自転車 手袋 バイク 登山 スキー スマホ対応 防風 防小雨 保温 秋 冬 メンズ(反射付き、L)",
+      "URL": "https://www.amazon.co.jp/dp/B07ZG7VP7T?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41u3lw1MWhL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07ZG7VP7T"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-11-16",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "零度以上対応ということで試しに買ってみた。とりあえず寒くない。指が短いので親指と人差し指が余ってしまい，うまくスマホ操作ができない（笑） 中国企業製の安もんだし，ひと冬だけでも保ってくれれば..."
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0044W4MYU",
+      "Title": "おたふく手袋 冬用インナー ロングタイツ [保温 吸汗速乾 コンプレッション メンズ] JW-162 ブラック M",
+      "URL": "https://www.amazon.co.jp/dp/B0044W4MYU?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31ihKoaN1-L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "Tools \u0026 Hardware",
+      "Publisher": "おたふく手袋(Otafuku Glove)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0044W4MYU"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4970687608522"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-11-15",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "主に通勤用に使っている。着ている間はそれほどの締めつけ感はないし（スポーツ用なので当たり前だが）動きを阻害しない。寒くない。自転車を漕いでいても，いい感じに汗を排出している感じ。前とじで「社会の窓」は空いてないので注意。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B005SY3GS6",
+      "Title": "おたふく手袋 冬用インナー 長袖 ハイネック [保温 吸汗速乾 コンプレッション メンズ] JW-170 ホワイト L",
+      "URL": "https://www.amazon.co.jp/dp/B005SY3GS6?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/317g8kNr-4L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "Tools \u0026 Hardware",
+      "Publisher": "おたふく手袋(Otafuku Glove)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B005SY3GS6"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4970687608683"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-11-15",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "主に通勤で使うので白を選択。カタログで指定されているサイズよりワンサイズ上を着ている。着ている間はそれほどの締めつけ感はないし（スポーツ用なので当たり前だが）動きを阻害しない。寒くない。自転車を漕いでいても，いい感じに汗を排出している感じ。"
   }
 ]

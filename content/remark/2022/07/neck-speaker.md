@@ -3,7 +3,7 @@ title = "ネックスピーカー買うた"
 date =  "2022-07-17T20:02:51+09:00"
 description = "あんまりハズレだと嫌なので，今回は様子見の廉価版で"
 image = "/remark/2022/07/neck-speaker/52220360112_e7b5ca9be3_e.jpg"
-tags = [ "music", "tools" ]
+tags = [ "music", "tools", "gear" ]
 pageType = "text"
 
 [scripts]

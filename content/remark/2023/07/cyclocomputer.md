@@ -3,7 +3,7 @@ title = "サイクルコンピュータ買うた（お散歩カメラ 2023-07-29
 date =  "2023-07-29T23:30:38+09:00"
 description = "まぁまぁ衝動買い（笑）"
 image = "/remark/2023/07/cyclocomputer/53078818560_913c01f5f4_o.jpg"
-tags = [ "osanpo-camera", "photography", "matsue", "bike","tools" ]
+tags = [ "osanpo-camera", "photography", "matsue", "bike","tools", "gear" ]
 pageType = "photo"
 
 [scripts]

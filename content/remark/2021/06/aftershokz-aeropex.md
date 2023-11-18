@@ -3,7 +3,7 @@ title = "Amazon Prime Day 2021 の戦利品"
 date =  "2021-06-24T21:21:06+09:00"
 description = "念のために言うと，素数の日ではありません。"
 image = "/images/attention/kitten.jpg"
-tags = [ "tools", "music" ]
+tags = [ "tools", "music", "gear" ]
 pageType = "text"
 
 [scripts]

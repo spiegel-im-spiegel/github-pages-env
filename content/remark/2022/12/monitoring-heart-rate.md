@@ -3,7 +3,7 @@ title = "心拍数を監視する"
 date =  "2022-12-26T18:51:29+09:00"
 description = "Fitbit Inspire 2 を購入。これでしばらく着けっぱなしてモニタしてみよう。"
 image = "/images/attention/kitten.jpg"
-tags = [ "disease", "tools" ]
+tags = [ "disease", "tools", "gear" ]
 pageType = "text"
 
 [scripts]

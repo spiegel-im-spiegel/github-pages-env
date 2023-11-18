@@ -3,7 +3,7 @@ title = "Black Friday の戦利品"
 date =  "2022-12-04T21:32:06+09:00"
 description = "ついカッとなって買った。反省はしない"
 image = "/images/attention/kitten.jpg"
-tags = [ "photography", "osanpo-camera", "matsue", "tools" ]
+tags = [ "photography", "osanpo-camera", "matsue", "tools", "gear" ]
 pageType = "text"
 
 [scripts]

@@ -3,7 +3,7 @@ title = "バックパックを買い替えた"
 date =  "2023-10-05T21:21:21+09:00"
 description = "自転車通勤用のカバン。今度は長持ちしますように。"
 image = "/images/attention/kitten.jpg"
-tags = [ "tools", "bike" ]
+tags = [ "tools", "bike", "gear" ]
 pageType = "text"
 
 [scripts]

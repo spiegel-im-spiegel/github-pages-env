@@ -3,7 +3,7 @@ title = "ブロックテックパーカを買うた"
 date =  "2022-11-06T17:50:25+09:00"
 description = "くたびれたオッサンにはベージュが似合う（笑）"
 image = "/images/attention/kitten.jpg"
-tags = [ "bike", "tools" ]
+tags = [ "bike", "tools", "gear" ]
 pageType = "text"
 
 [scripts]
