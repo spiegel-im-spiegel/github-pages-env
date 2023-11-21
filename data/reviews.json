@@ -24150,5 +24150,107 @@
       false
     ],
     "Description": "主に通勤で使うので白を選択。カタログで指定されているサイズよりワンサイズ上を着ている。着ている間はそれほどの締めつけ感はないし（スポーツ用なので当たり前だが）動きを阻害しない。寒くない。自転車を漕いでいても，いい感じに汗を排出している感じ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CK19L1HC",
+      "Title": "ハッキング思考　強者はいかにしてルールを歪めるのか、それを正すにはどうしたらいいのか",
+      "URL": "https://www.amazon.co.jp/dp/B0CK19L1HC?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41iX72RfUuL._SL160_.jpg",
+        "Height": 160,
+        "Width": 108
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "ブルース・シュナイアー",
+          "Role": "著"
+        },
+        {
+          "Name": "高橋 聡",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "日経BP",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CK19L1HC"
+        }
+      ],
+      "PublicationDate": "2023-10-12",
+      "LastRelease": "2023-10-12",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-11-21",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "Kindle 版が出てた！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0C9Z7KGRN",
+      "Title": "はじめて学ぶ ビデオゲームの心理学 脳のはたらきとユーザー体験（UX）",
+      "URL": "https://www.amazon.co.jp/dp/B0C9Z7KGRN?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41LvknHYLwL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "セリア ホデント",
+          "Role": "著"
+        },
+        {
+          "Name": "山根 信二（監修）",
+          "Role": "著"
+        },
+        {
+          "Name": "山根 信二",
+          "Role": "翻訳"
+        },
+        {
+          "Name": "成田 啓行",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "福村出版",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0C9Z7KGRN"
+        }
+      ],
+      "PublicationDate": "2022-12-15",
+      "LastRelease": "2023-07-03",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-11-21",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "Kindle 版が出ている。ゲームデザイナやゲームエンジニアだけでなく，ソフトウェア・エンジニアは全員読むべき。あと，ゲーマーな人も読むといいよ。感想は\u003ca href=\"https://text.baldanders.info/remark/2023/04/the-psychology-of-video-games/\"\u003eこちら\u003c/a\u003e。"
   }
 ]
