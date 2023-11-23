@@ -24252,5 +24252,48 @@
       true
     ],
     "Description": "Kindle 版が出ている。ゲームデザイナやゲームエンジニアだけでなく，ソフトウェア・エンジニアは全員読むべき。あと，ゲーマーな人も読むといいよ。感想は\u003ca href=\"https://text.baldanders.info/remark/2023/04/the-psychology-of-video-games/\"\u003eこちら\u003c/a\u003e。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CNJY9QJM",
+      "Title": "Shiny Girl",
+      "URL": "https://www.amazon.co.jp/dp/B0CNJY9QJM?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51iGN+sAVsL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "MindaRyn",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Lantis",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CNJY9QJM"
+        }
+      ],
+      "PublicationDate": "2023-11-22",
+      "LastRelease": "2023-11-22",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-11-22",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ「SHY」OP曲を含む3曲。個人的にはプラチナ（Platina）英語版がお気に入り。"
   }
 ]
