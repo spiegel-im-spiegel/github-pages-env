@@ -3,7 +3,7 @@ title = "「消尽」原則を迂回するハック"
 date =  "2023-11-27T21:50:30+09:00"
 description = "「電子書籍」では本を「所有」できないと言われてるんだけど，それってどゆこと？"
 image = "/images/attention/kitten.jpg"
-tags = [ "book", "ebook", "library", "code", "intellectual-property", "risk" ]
+tags = [ "book", "e-book", "library", "code", "intellectual-property", "risk" ]
 pageType = "text"
 
 [scripts]
