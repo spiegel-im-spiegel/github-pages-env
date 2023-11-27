@@ -97,3 +97,4 @@ And because platforms like Amazon and Apple control most of the technology we us
 
 {{% review-paapi "B0CK19L1HC" %}} <!-- ハッキング思考 Kindle 版 -->
 {{% review-paapi "4756117074" %}} <!-- 本の未来 -->
+{{% review-tatsujin "infoshare2" %}} <!-- 続・情報共有の未来 -->
