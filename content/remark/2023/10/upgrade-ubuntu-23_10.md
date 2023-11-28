@@ -85,7 +85,8 @@ v3.2 はベータ版が出ている。
   - [NodeSource Node.js Binary Distributions](https://github.com/nodesource/distributions/blob/master/README.md)
     - nodistro を指定することでメンテナンスフリーになった。めでたし！
   - [Ubuntu 20.04にNode.jsをインストールする方法  | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04-ja)
-- [ ] [pgAdmin4]
+- [x] [pgAdmin4]
+  - [Download - pgAdmin 4 (APT)](https://www.pgadmin.org/download/pgadmin-4-apt/)
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [KeePassXC]: https://keepassxc.org/ "KeePassXC Password Manager"
