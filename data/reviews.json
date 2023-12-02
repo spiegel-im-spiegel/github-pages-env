@@ -24295,5 +24295,134 @@
       false
     ],
     "Description": "アニメ「SHY」OP曲を含む3曲。個人的にはプラチナ（Platina）英語版がお気に入り。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4416623410",
+      "Title": "天文年鑑 2024年版",
+      "URL": "https://www.amazon.co.jp/dp/4416623410?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41anl5EfR6L._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "天文年鑑編集委員会",
+          "Role": "編集"
+        }
+      ],
+      "Publisher": "誠文堂新光社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4416623410"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784416623411"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4416623410"
+        }
+      ],
+      "PublicationDate": "2023-11-24",
+      "LastRelease": "2023-11-24",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-11-25",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "天文ファン必携。2024年版。これが届くと年末って感じ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07CZZRBGV",
+      "Title": "ボーナス付 2023年12月〜(2024年12月付)タテ長ファミリー壁掛けカレンダー 太字タイプ（六曜入） A3サイズ［H］",
+      "URL": "https://www.amazon.co.jp/dp/B07CZZRBGV?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41Tx2yx7P7L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "カレンダー",
+      "Publisher": "プロプロ堂",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07CZZRBGV"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-12-01",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "文字が大きく太いので，年寄りに優しい（笑） 13ヶ月分あって使い勝手がよい。 Black Friday のタイミングで購入。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0C68VLQMZ",
+      "Title": "ミドリ(MIDORI) イノベーター 2024年 カレンダー 卓上 スリム 31305006",
+      "URL": "https://www.amazon.co.jp/dp/B0C68VLQMZ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41ZQ4y9LodL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "オフィス用品",
+      "Publisher": "デザインフィル",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0C68VLQMZ"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4902805313056"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2023-08-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-11-11",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "パソコンモニタの下に置ける卓上カレンダー。文字が大きく太いので見やすい。毎年恒例で買っている。"
   }
 ]
