@@ -1,5 +1,5 @@
 +++
-title = "Mastodon と Bluesky でボット運用はじめました"
+title = "Mastodon と Bluesky でボット運用はじめました【2023-12-04 更新】"
 date =  "2023-07-01T12:49:59+09:00"
 description = "自作ツールに Web 上の情報を収集する機能を付けて Mastodon/Bluesky 上でボットを構成できるようにした。"
 image = "/images/attention/kitten.jpg"
@@ -57,8 +57,10 @@ https://github.com/username/repositoryname/releases.atom
 
 自作パッケージの更新情報は以下のアカウントで自動投稿している。
 
-- [@spiegel@fedibird.com](https://fedibird.com/@spiegel "Spiegel@がんばらない")
+- [@goark@goark.fedicity.net](https://goark.fedicity.net/@goark "Goark (@goark@goark.fedicity.net) - Goark")
 - [@goark.bsky.social](https://bsky.app/profile/goark.bsky.social "Goark")
+
+[goark.fedicity.net](https://goark.fedicity.net/ "Goark") については「[個人用 Mastodon サーバを立てた]({{< ref "/remark/2023/12/personal-mastodon-server.md" >}})」を参考にどうぞ。
 
 [@goark.bsky.social](https://bsky.app/profile/goark.bsky.social "Goark") は [goark/toolbox] の動作テスト用に取ったアカウントだけど，遊ばせておくのもナニなので半ボットとして運用することにした。
 まぁ，今後もテスト用にゴミ投稿することもあると思うけど，そこはご容赦を（笑）
@@ -67,10 +69,10 @@ https://github.com/username/repositoryname/releases.atom
 
 調子に乗って自作以外の [Go] パッケージ（プロダクト）や [Go] 関連記事も以下のアカウントに自動投稿することにした。
 
-- [@spiegel_crawler@mastodon.social](https://mastodon.social/@spiegel_crawler "Spiegel's crawler")
-- [@goark.bsky.social](https://bsky.app/profile/goark.bsky.social "Goark")
+- [@osanpo@goark.fedicity.net](https://goark.fedicity.net/@osanpo "Spiegel's Crawler (@osanpo@goark.fedicity.net) - Goark")
+- [@osanpo.bsky.social](https://bsky.app/profile/osanpo.bsky.social "Spiegel's crawler")
 
-[@spiegel_crawler@mastodon.social](https://mastodon.social/@spiegel_crawler "Spiegel's crawler") は Mastodon のボット運用のために取ったアカウント。
+[@osanpo.bsky.social](https://bsky.app/profile/osanpo.bsky.social "Spiegel's crawler") は Bluesky のボット運用のために取ったアカウント。
 
 今のところ監視対象は以下のサイト（今後追加予定）：
 
@@ -86,14 +88,7 @@ https://github.com/username/repositoryname/releases.atom
 - [tinygo-org/tinygo: Go compiler for small places. Microcontrollers, WebAssembly (WASM/WASI), and command-line tools. Based on LLVM.](https://github.com/tinygo-org/tinygo)
 - [koki-develop/gat: 🐱 cat alternative written in Go.](https://github.com/koki-develop/gat)
 
-さらに調子に乗って [Go] 関連以外にも私の関心領域にかかる情報を収集・投稿することにした。
-投稿先は以下のアカウント：
-
-- [@spiegel_crawler@mastodon.social](https://mastodon.social/@spiegel_crawler "Spiegel's crawler")
-- [@osanpo.bsky.social](https://bsky.app/profile/osanpo.bsky.social "Spiegel's crawler")
-
-[@osanpo.bsky.social](https://bsky.app/profile/osanpo.bsky.social "Spiegel's crawler") は Bluesky のボット運用のために取ったアカウント。
-
+さらに調子に乗って [Go] 関連以外にも私の関心領域にかかる情報も収集・投稿することにした。
 今のところ監視対象は以下のサイト（今後追加予定）：
 
 - [Schneier on Security](https://www.schneier.com/)
