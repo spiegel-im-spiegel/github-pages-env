@@ -67,34 +67,42 @@ https://github.com/username/repositoryname/releases.atom
 
 ## その他のフィードも配信するぞ
 
-調子に乗って自作以外の [Go] パッケージ（プロダクト）や [Go] 関連記事も以下のアカウントに自動投稿することにした。
+調子に乗って自作以外でお世話になっている [Go] パッケージ（プロダクト）や [Go] 関連記事も以下のアカウントに自動投稿することにした。
 
-- [@osanpo@goark.fedicity.net](https://goark.fedicity.net/@osanpo "Spiegel's Crawler (@osanpo@goark.fedicity.net) - Goark")
+- [@goark@goark.fedicity.net](https://goark.fedicity.net/@goark "Goark (@goark@goark.fedicity.net) - Goark")
 - [@osanpo.bsky.social](https://bsky.app/profile/osanpo.bsky.social "Spiegel's crawler")
 
 [@osanpo.bsky.social](https://bsky.app/profile/osanpo.bsky.social "Spiegel's crawler") は Bluesky のボット運用のために取ったアカウント。
 
-今のところ監視対象は以下のサイト（今後追加予定）：
+監視対象は以下のサイト（今後追加予定）：
 
 - [The Go Blog - The Go Programming Language](https://go.dev/blog/)
-- [gohugoio/hugo: The world’s fastest framework for building websites.](https://github.com/gohugoio/hugo)
 - [golang/tools: [mirror] Go Tools](https://github.com/golang/tools)
 - [go-task/task: A task runner / simpler Make alternative written in Go](https://github.com/go-task/task)
 - [goreleaser/goreleaser: Deliver Go binaries as fast and easily as possible](https://github.com/goreleaser/goreleaser)
 - [sashabaranov/go-openai: OpenAI ChatGPT, GPT-3, GPT-4, DALL·E, Whisper API wrapper for Go](https://github.com/sashabaranov/go-openai)
-- [tailscale/tailscale: The easiest, most secure way to use WireGuard and 2FA.](https://github.com/tailscale/tailscale)
 - [anchore/syft: CLI tool and library for generating a Software Bill of Materials from container images and filesystems](https://github.com/anchore/syft)
 - [golangci/golangci-lint: Fast linters Runner for Go](https://github.com/golangci/golangci-lint)
 - [tinygo-org/tinygo: Go compiler for small places. Microcontrollers, WebAssembly (WASM/WASI), and command-line tools. Based on LLVM.](https://github.com/tinygo-org/tinygo)
-- [koki-develop/gat: 🐱 cat alternative written in Go.](https://github.com/koki-develop/gat)
+- [pelletier/go-toml: Go library for the TOML file format](https://github.com/pelletier/go-toml)
+- [nyaosorg/go-readline-ny: Readline library for golang , used in nyagos](https://github.com/nyaosorg/go-readline-ny)
+- [hymkor/go-multiline-ny: Readline package supporting multi-lines](https://github.com/hymkor/go-multiline-ny)
+- [rs/zerolog: Zero Allocation JSON Logger](https://github.com/rs/zerolog)
+- [uber-go/zap: Blazing fast, structured, leveled logging in Go.](https://github.com/uber-go/zap)
 
 さらに調子に乗って [Go] 関連以外にも私の関心領域にかかる情報も収集・投稿することにした。
-今のところ監視対象は以下のサイト（今後追加予定）：
+投稿先は以下の通り：
+
+- [@osanpo@goark.fedicity.net](https://goark.fedicity.net/@osanpo "Spiegel's Crawler (@osanpo@goark.fedicity.net) - Goark")
+- [@osanpo.bsky.social](https://bsky.app/profile/osanpo.bsky.social "Spiegel's crawler")
+
+監視対象は以下のサイト（今後追加予定）：
 
 - [Schneier on Security](https://www.schneier.com/)
 - [情報セキュリティ | IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/index.html)
 - [JPCERT コーディネーションセンター](https://www.jpcert.or.jp/)
 - [piyolog](https://piyolog.hatenadiary.jp/)
+- [Security notices | Ubuntu](https://ubuntu.com/security/notices)
 
 - [National Institute of Standards and Technology](https://www.nist.gov/)
 - [P2Pとかその辺のお話R | Sharing is Caring](https://p2ptk.org/)
@@ -109,9 +117,16 @@ https://github.com/username/repositoryname/releases.atom
 - [The Thunderbird Blog -](https://blog.thunderbird.net/)
 - [Big Sky](https://mattn.kaoriya.net/)
 
+- [nyaosorg/nyagos: NYAGOS - The hybrid Commandline Shell between UNIX & DOS](https://github.com/nyaosorg/nyagos)
+- [gohugoio/hugo: The world’s fastest framework for building websites.](https://github.com/gohugoio/hugo)
+- [tailscale/tailscale: The easiest, most secure way to use WireGuard and 2FA.](https://github.com/tailscale/tailscale)
+- [koki-develop/gat: 🐱 cat alternative written in Go.](https://github.com/koki-develop/gat)
+
 - [mermaid-js/mermaid: Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown](https://github.com/mermaid-js/mermaid)
 - [microsoft/vscode: Visual Studio Code](https://github.com/microsoft/vscode)
 - [plantuml/plantuml: Generate diagrams from textual description](https://github.com/plantuml/plantuml)
+- [spring-projects/spring-boot: Spring Boot](https://github.com/spring-projects/spring-boot)
+- [keepassxreboot/keepassxc: KeePassXC is a cross-platform community-driven port of the Windows application “Keepass Password Safe”.](https://github.com/keepassxreboot/keepassxc)
 
 上のリスト（の一部）は元々 [Slack 上で監視]({{< ref "/remark/2017/01/slack.md" >}} "いまさら聞けない Slack の使い方")していたものだが，プライベートでも仕事でもあまり Slack を使わなくなったので（仕事では主に Teams） Mastodon/Bluesky に移行することにしたのだ。
 ただ，今までの反省で，やたら滅多とフィードを食い散らかして自 TL を埋め尽くすのは嬉しくないので，流量についてはチューニングしながら運用する予定である。
