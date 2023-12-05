@@ -24424,5 +24424,60 @@
       true
     ],
     "Description": "パソコンモニタの下に置ける卓上カレンダー。文字が大きく太いので見やすい。毎年恒例で買っている。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BHYJKB5N",
+      "Title": "PLUTO　デジタルVer.（１） (ビッグコミックス)",
+      "URL": "https://www.amazon.co.jp/dp/B0BHYJKB5N?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51gl1i9n+WL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "浦沢直樹×手塚治虫",
+          "Role": "著"
+        },
+        {
+          "Name": "長崎尚志プロデュース",
+          "Role": "著"
+        },
+        {
+          "Name": "手塚プロダクション",
+          "Role": "著"
+        },
+        {
+          "Name": "手塚眞",
+          "Role": "読み手"
+        }
+      ],
+      "Publisher": "小学館",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BHYJKB5N"
+        }
+      ],
+      "PublicationDate": "2004-09-30",
+      "LastRelease": "2022-10-28",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2006-05-07",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "今までの浦沢直樹さんの作品の中で一番なんじゃないだろうか。地上最大のロボット」って実はあまり印象にないんだよねぇ。全集なんかで読み返すと当時は（時代を反映した）結構な問題作だったらしいが，敢えてそれを選ぶってのが凄いよなぁ。オリジナルのラストはちょっと切ないというか物足りない終わり方をしているのだが，浦沢版ではいったいどうなるのか。楽しみである。"
   }
 ]
