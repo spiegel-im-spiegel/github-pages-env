@@ -157,9 +157,13 @@ Amazon や Google などが提供する AI アシスタントの最大の問題�
 
 そうそう。
 関係ないが ~~「地上最大のロボット」~~ じゃない「PLUTO」のアニメ版が Netflix で公開されているらしい。
-当時コミックをあれほど[絶賛した](https://baldanders.info/spiegel/log/200605.html#d07_t2)のに，まだ観てないとか。
+当時コミックをあれほど[絶賛した](https://baldanders.info/spiegel/log/200605.html#d07_t2)のに，アニメはまだ観てないとか。
 平日はアニメを観る気がしなくて，週末はチャリンコを乗り回して遊んでるので，やっぱりアニメは観なくなった。
 このまま年を越してしまうのか...
+
+## ブックマーク
+
+- [AI and Mass Spying - Schneier on Security](https://www.schneier.com/blog/archives/2023/12/ai-and-mass-spying.html)
 
 ## 参考図書
 
