@@ -70,6 +70,8 @@ pageType = "text"
 ### 製品・サービス・組織の公式アカウント（上記以外）
 
 - [Mastodon (@Mastodon@mastodon.social) - Mastodon](https://mastodon.social/@Mastodon)
+- [w3c.social](https://w3c.social/)
+  - [World Wide Web Consortium (@w3c@w3c.social) - w3c.social](https://w3c.social/@w3c/) : W3C は [X/Twitter での活動をやめる](https://w3c.social/@w3c/111534700276754588)らしい
 - [Electronic Frontier Foundation (@eff@mastodon.social) - Mastodon](https://mastodon.social/@eff)
 - [Free Software Foundation (@fsf@hostux.social) - Mastodon Hostux](https://hostux.social/@fsf)
 - [Thunderbird (@thunderbird@mastodon.online) - Mastodon](https://mastodon.online/@thunderbird)
