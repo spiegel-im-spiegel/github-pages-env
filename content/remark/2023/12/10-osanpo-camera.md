@@ -2,7 +2,7 @@
 title = "お散歩カメラ 2023-12-10"
 date =  "2023-12-10T19:40:07+09:00"
 description = "温泉とジビエ / 県立図書館へ → 休館だった / 読書中 / さて帰るべ"
-image = "http://localhost:1313/remark/2023/12/10-osanpo-camera/53387378873_5c2b8e9e8c_o.jpg"
+image = "/remark/2023/12/10-osanpo-camera/53387378873_5c2b8e9e8c_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "bike" ]
 pageType = "photo"
 
