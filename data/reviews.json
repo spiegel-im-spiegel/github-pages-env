@@ -24479,5 +24479,62 @@
       true
     ],
     "Description": "今までの浦沢直樹さんの作品の中で一番なんじゃないだろうか。地上最大のロボット」って実はあまり印象にないんだよねぇ。全集なんかで読み返すと当時は（時代を反映した）結構な問題作だったらしいが，敢えてそれを選ぶってのが凄いよなぁ。オリジナルのラストはちょっと切ないというか物足りない終わり方をしているのだが，浦沢版ではいったいどうなるのか。楽しみである。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B000BS0FB0",
+      "Title": "ミノウラ(MINOURA) 自転車 ディスプレイスタンド ・メンテンナンススタンド DS-30BLT スタンド型1台用 リアハブ固定型、一般用スタンド ブラック",
+      "URL": "https://www.amazon.co.jp/dp/B000BS0FB0?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41Ic+KLSlNL._SL160_.jpg",
+        "Height": 160,
+        "Width": 128
+      },
+      "ProductType": "スポーツ用品",
+      "Publisher": "ミノウラ(MINOURA)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B000BS0FB0"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0740966420862"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4944924420864"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0787766529586"
+        },
+        {
+          "Name": "UPC",
+          "Value": "787766529586"
+        },
+        {
+          "Name": "UPC",
+          "Value": "740966420862"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2012-05-21",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-12-04",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "Black Friday で安かったので試しに買ってみた。これだけでドライブトレインの掃除がめっさ楽に。もっと早よ買やよかった \u003ccode\u003eorz\u003c/code\u003e"
   }
 ]

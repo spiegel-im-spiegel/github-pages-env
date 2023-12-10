@@ -1,9 +1,10 @@
 #/bin/sh
-sleep 1;cat B0BHYJKB5N.html | books-data review -t review-book.html -a B0BHYJKB5N -r 5 --review-date 2006-05-07 --pipe
-sleep 1;cat B07CZZRBGV.html | books-data review -t review-book.html -a B07CZZRBGV -r 5 --review-date 2023-12-01 --pipe
-sleep 1;cat B0C68VLQMZ.html | books-data review -t review-book.html -a B0C68VLQMZ -r 5 --review-date 2023-11-11 --pipe
-sleep 1;cat 4416623410.html | books-data review -t review-book.html -a 4416623410 -r 5 --review-date 2023-11-25 --pipe
+sleep 1;cat B000BS0FB0.html | books-data review -t review-book.html -a B000BS0FB0 -r 4 --review-date 2023-12-04 --pipe
 # ---
+# sleep 1;cat ./done/B0BHYJKB5N.html | books-data review -t review-book.html -a B0BHYJKB5N -r 5 --review-date 2006-05-07 --pipe
+# sleep 1;cat ./done/B07CZZRBGV.html | books-data review -t review-book.html -a B07CZZRBGV -r 5 --review-date 2023-12-01 --pipe
+# sleep 1;cat ./done/B0C68VLQMZ.html | books-data review -t review-book.html -a B0C68VLQMZ -r 5 --review-date 2023-11-11 --pipe
+# sleep 1;cat ./done/4416623410.html | books-data review -t review-book.html -a 4416623410 -r 5 --review-date 2023-11-25 --pipe
 # sleep 1;cat ./done/B0CNJY9QJM.html | books-data review -t review-book.html -a B0CNJY9QJM -r 4 --review-date 2023-11-22 --pipe
 # sleep 1;cat ./done/B0CK19L1HC.html | books-data review -t review-book.html -a B0CK19L1HC -r 5 --review-date 2023-11-21 --pipe
 # sleep 1;cat ./done/B0C9Z7KGRN.html | books-data review -t review-book.html -a B0C9Z7KGRN -r 5 --review-date 2023-11-21 --pipe
