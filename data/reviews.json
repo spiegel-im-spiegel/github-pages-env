@@ -24536,5 +24536,185 @@
       false
     ],
     "Description": "Black Friday で安かったので試しに買ってみた。これだけでドライブトレインの掃除がめっさ楽に。もっと早よ買やよかった \u003ccode\u003eorz\u003c/code\u003e"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CG5R6N2G",
+      "Title": "新しい封建制がやってくる―グローバル中流階級への警告",
+      "URL": "https://www.amazon.co.jp/dp/B0CG5R6N2G?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/517N93mim5L._SL160_.jpg",
+        "Height": 160,
+        "Width": 110
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "ジョエル コトキン",
+          "Role": "著"
+        },
+        {
+          "Name": "寺下 滝郎",
+          "Role": "翻訳"
+        },
+        {
+          "Name": "中野 剛志",
+          "Role": "その他"
+        }
+      ],
+      "Publisher": "東洋経済新報社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CG5R6N2G"
+        }
+      ],
+      "PublicationDate": "2023-11-01",
+      "LastRelease": "2023-11-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-12-16",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "「ネオ封建制（NEO-Feudalism）」。ネーミングが胡散臭くて買う気がしなかったのだが，やっぱ読んでおいたほうがいいのか？ まぁ，安いし，300ページくらいの量なら（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00JPXEATA",
+      "Title": "火の鳥　3",
+      "URL": "https://www.amazon.co.jp/dp/B00JPXEATA?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51PkU21DmEL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "手塚治虫",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "手塚プロダクション",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00JPXEATA"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2014-04-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-12-16",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "おー。「火の鳥」の Kindle 版があるのか。表紙からして未来編かな。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07BTBMG58",
+      "Title": "“らしく”いきましょ",
+      "URL": "https://www.amazon.co.jp/dp/B07BTBMG58?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61LG-i2mjSL._SL160_.jpg",
+        "Height": 160,
+        "Width": 137
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "井上苑子",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "King Records",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07BTBMG58"
+        }
+      ],
+      "PublicationDate": "2018-04-04",
+      "LastRelease": "2018-04-04",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-08-12",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ「セーラームーン SuperS」のED曲。原作者の武内直子さんの作詞らしい。可愛らしい曲。仕事で煮詰まってるときに聴くともうちょっと頑張ろうって気になる（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CNSPHTF4",
+      "Title": "Brave Blazar (feat. MindaRyn)",
+      "URL": "https://www.amazon.co.jp/dp/B0CNSPHTF4?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51G0OOUR+8L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "TECHNOBOYS PULCRAFT GREEN-FUND",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Lantis",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CNSPHTF4"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2023-12-13",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-12-15",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "「ウルトラマンブレーザー」後期ED曲。 MindaRyn さんはよい。"
   }
 ]

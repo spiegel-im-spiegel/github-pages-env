@@ -165,6 +165,7 @@ Amazon や Google などが提供する AI アシスタントの最大の問題�
 
 - [AI and Mass Spying - Schneier on Security](https://www.schneier.com/blog/archives/2023/12/ai-and-mass-spying.html)
 - [オープンソースの失われた10年と「オープンソースAI」の行方 – WirelessWire News](https://wirelesswire.jp/2023/12/85735/)
+- [インターネットという単一知性]({{< relref "./internet-as-a-monolithic-intelligence.md" >}})
 
 ## 参考図書
 
