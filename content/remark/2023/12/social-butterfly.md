@@ -39,7 +39,7 @@ Starting today, you can easily view Bluesky posts without being logged in. Shari
 融通できます（転売禁止）。
 ちなみに [&#x1D54F; での活動は休眠中]({{< ref "/remark/2023/09/suspend-activity-on-twitter.md" >}} "𝕏 (旧 Twitter) の活動を休止します（期間未定）")で殆どアクセスしないのであしからず。
 
-アイコンの蝶ように眉から青空に上手く飛び立てればいいねぇ。
+アイコンの蝶ように蛹から羽化して青空に上手く飛び立てればいいねぇ。
 個人的には「分散型 SNS」というものに対して今ひとつ懐疑的ではあるが，少なくとも &#x1D54F; の代替としては期待している（Mastodon は &#x1D54F; の代替にはなれないと思う。もっと違う何か）。
 
 ## ブックマーク
