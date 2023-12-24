@@ -26,7 +26,7 @@ We built Bluesky to be a home for public conversation — breaking news, comment
 Starting today, you can easily view Bluesky posts without being logged in. Sharing will be more convenient — whether it's a joke you want to text a friend, or a post you want to embed in an article.
 {{< /fig-quote >}}
 
-不特定から見られたくない場合は Setting の Moderation にある “Discourage apps from showing my account to logged-out users” のスイッチをオンにすればよい（既定はオフ）。
+不特定から見られたくない場合は Settings の Moderation にある “Discourage apps from showing my account to logged-out users” のスイッチをオンにすればよい（既定はオフ）。
 
 {{< fig-img-quote src="./logged-out-visibility.png" title="Moderation — Bluesky" link="https://bsky.app/moderation" lang="en" width="574" >}}
 
