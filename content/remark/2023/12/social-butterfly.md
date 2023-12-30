@@ -31,16 +31,16 @@ Starting today, you can easily view Bluesky posts without being logged in. Shari
 {{< fig-img-quote src="./logged-out-visibility.png" title="Moderation — Bluesky" link="https://bsky.app/moderation" lang="en" width="574" >}}
 
 ただし，この設定に従うかどうかはアプリ次第らしいので，公式のアプリや Web UI 以外では無視される可能性もある。
-&#x1D54F; (旧 Twitter) で言うところの鍵垢とは違うので注意が必要である。
+{{% emoji "X" %}} (旧 Twitter) で言うところの鍵垢とは違うので注意が必要である。
 
 というわけで，フッタ部に暫定で Bluesky のアイコンを追加してみた。
 そうそう。
 招待状が余ってるので，私と直接連絡がつけれる方は言ってください。
 融通できます（転売禁止）。
-ちなみに [&#x1D54F; での活動は休眠中]({{< ref "/remark/2023/09/suspend-activity-on-twitter.md" >}} "𝕏 (旧 Twitter) の活動を休止します（期間未定）")で殆どアクセスしないのであしからず。
+ちなみに [{{% emoji "X" %}} での活動は休眠中]({{< ref "/remark/2023/09/suspend-activity-on-twitter.md" >}} "𝕏 (旧 Twitter) の活動を休止します（期間未定）")で殆どアクセスしないのであしからず。
 
 アイコンの蝶ように蛹から羽化して青空に上手く飛び立てればいいねぇ。
-個人的には「分散型 SNS」というものに対して今ひとつ懐疑的ではあるが，少なくとも &#x1D54F; の代替としては期待している（Mastodon は &#x1D54F; の代替にはなれないと思う。もっと違う何か）。
+個人的には「分散型 SNS」というものに対して今ひとつ懐疑的ではあるが，少なくとも {{% emoji "X" %}} の代替としては期待している（Mastodon は {{% emoji "X" %}} の代替にはなれないと思う。もっと違う何か）。
 
 ## ブックマーク
 

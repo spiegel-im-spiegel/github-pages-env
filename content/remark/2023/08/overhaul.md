@@ -181,7 +181,7 @@ au も UQ mobile も同じショップで対応できるということで，乗
 - [Bluesky](https://play.google.com/store/apps/details?id=xyz.blueskyweb.app) : Bluesky 公式クライアント
 - [QRコードスキャナー](https://play.google.com/store/apps/details?id=com.google.zxing.client.android) : 基本的に QR コードを信用してないので，中身が見れるこれを昔から愛用している
 
-Slack と &#x1D54F; (旧 Twitter) のインストールは見送った。
+Slack と {{% emoji "X" %}} (旧 Twitter) のインストールは見送った。
 いや，スマホで見なくなったし。
 
 これでひととおり入れたかな。
