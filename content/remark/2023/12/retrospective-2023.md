@@ -75,13 +75,13 @@ Spiegel です Spiegel です Spiegel です...
 これが[昨年末の話]({{< ref "/remark/2022/12/move-to-mastodon.md" >}} "ぼちぼち Mastodon への移住を進めようかと")。
 
 そのうちに代替サービスがボコボコ生えてくるようになった。
-個人的には Mastodon 以外の遊び場としては Bluesky に常駐している。
+個人的には Mastodon 以外の遊び場としては [Bluesky に常駐]({{< ref "/remark/2023/04/plant-your-flag-mark-your-bluesky-territory.md" >}} "Bluesky に旗を立てろ！")している。
 まぁ Bluesky はまだクローズド・ベータなので，分散化が機能するようになり，本当に不特定多数に開放されたらどう転ぶか分からないけど。
 
 あと Mastodon や Bluesky にポストするための[コマンドラインツールを作った](https://github.com/goark/toolbox "goark/toolbox: A collection of miscellaneous commands")りもしている。
 [ボット]({{< ref "/remark/2023/07/crawler.md" >}} "Mastodon と Bluesky でボット運用はじめました")もこのツールで運用している。
 
-一方で {{% emoji "X" %}} については[期間未定で活動を休止]({{< ref "/remark/2023/09/suspend-activity-on-twitter.md" >}} "𝕏 (旧 Twitter) の活動を休止します（期間未定）")している。
+一方で {{% emoji "X" %}} については，秋に入って[期間未定で活動を休止]({{< ref "/remark/2023/09/suspend-activity-on-twitter.md" >}} "𝕏 (旧 Twitter) の活動を休止します（期間未定）")している。
 その後も {{% emoji "X" %}} の話は色々と漏れ聞くが，現状では無料ユーザは TL を眺める以外に殆ど何もできないサービスに成り下がってるみたいだし，かといってお金を払ってまでやりたいと思えるサービスでもなくなってしまった（個人の感想です）。
 
 {{% emoji "X" %}} に金を払うくらいなら [Fedibird に寄付](https://opencollective.com/fedibird-infrastructure "Fedibird Infrastructure - Open Collective")するよ。
@@ -89,6 +89,15 @@ Spiegel です Spiegel です Spiegel です...
 
 {{< fig-img-quote src="./fedibird-infrastructure.png" title="Open Collective" link="./fedibird-infrastructure.png" lang="en" width="1245" >}}
 
+私が参加する Fedibird は2023年末の時点でも[寄付を募っている](https://fedibird.com/@noellabo/111667823777412421)。
+マネタイズの問題は難しい。
+一方が他方を搾取する関係であってはいけない。
+それはサービス提供者にも利用者にも言えることだろう。
+
+FOSS 製品開発なんかでも時々問題になるが，たとえそれが[合意の上であっても，搾取されている]({{< ref "/remark/2019/06/kyoken.md" >}} "搾取と狂狷")と感じるとモチベーションは下がっていく。
+提供している側は好きで作って維持しているのに，ブラック企業のごとく強制されたくはない。
+利用している側は，自身の行動や個人情報を搾り取られ大金に変えられているのを見て気分がいい筈がない。
+どちらもそれは奴隷と変わらないのだ。
 
 ## お金の話
 
@@ -125,6 +134,8 @@ Here is how platforms die: first, they are good to their users; then they abuse 
 {{< /fig-quote >}}
 
 という話は広告システムにも及んでいるということだ。
+
+そもそも広告とは「[注目の搾取](https://magazine-k.jp/2016/01/25/spam-and-media/ "メディアは（常に）スパムか？ « マガジン航[kɔː]")」である。
 私は広告による収益モデルは既に[曲がり角]({{< ref "/remark/2023/11/blocking-ad-blocker.md" >}} "広告の曲がり角")に来ていると思っていて「[今もその代替はありません](https://note.com/togetter/n/n6a16288a5367 "X（Twitter）にバッキバキに打ちのめされて始まった2023年が終わりそうなので今年をいろいろ総括する話｜Togetter（トゥギャッター ）")」とか悠長なことを言っている場合じゃないと思うのだが，どうだろう。
 
 ## カオスはどこにある
@@ -189,5 +200,6 @@ Minecraft 実況面白い，とか。
 {{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
 {{% review-paapi "B00FYKN2C4" %}} <!-- ささみさん@がんばらない -->
 {{% review-paapi "B0BFG7M98T" %}} <!-- 祝福 機動戦士ガンダム 水星の魔女-->
+{{% review-paapi "B0C9Z7KGRN" %}} <!-- はじめて学ぶ ビデオゲームの心理学 Kindle 版 -->
 {{% review-paapi "B0CK19L1HC" %}} <!-- ハッキング思考 Kindle 版 -->
 {{% review-paapi "B0CFL1DK8Q" %}} <!-- Go言語 100Tips -->
