@@ -196,6 +196,7 @@ Minecraft 実況面白い，とか。
 
 ## 参考
 
+{{% review-paapi "B0BLNFPWTQ" %}} <!-- trimm ROLLIN サイクルコンピュータ -->
 {{% review-paapi "B09XGYX7JF" %}} <!-- GARMIN vívosmart 5 -->
 {{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
 {{% review-paapi "B00FYKN2C4" %}} <!-- ささみさん@がんばらない -->
