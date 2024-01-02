@@ -4,6 +4,7 @@ date =  "2023-09-23T22:33:23+09:00"
 description = "これで行動範囲が（直線距離で）半径10〜15kmくらいまでイケることが確認できた。 "
 image = "/remark/2023/09/matsue-vogel-park/53207501365_2871f2edbc_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "bike" ]
+license = "by"
 pageType = "photo"
 
 [scripts]

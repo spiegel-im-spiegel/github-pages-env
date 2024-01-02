@@ -4,6 +4,7 @@ date =  "2023-10-08T23:07:58+09:00"
 description = "ナビさん。いくら裏道が好きだからって，私道やあぜ道をチョイスするのは止めてくれ！"
 image = "/remark/2023/10/ruins-in-ou-plain-2/53242326296_463334b24d_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "bike", "shrine" ]
+license = "by"
 pageType = "photo"
 
 [scripts]

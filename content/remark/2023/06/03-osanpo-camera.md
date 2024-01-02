@@ -4,6 +4,7 @@ date =  "2023-06-03T20:10:48+09:00"
 description = "千本ダムと日野目天神社 / 今日も7%勾配を越えて松江城へ / 久しぶりのお好み焼 / さぁ，帰りませう"
 image = "/remark/2023/06/03-osanpo-camera/52946056647_0ec37df9cb_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "book", "bike", "shrine" ]
+license = "by"
 pageType = "photo"
 
 [scripts]

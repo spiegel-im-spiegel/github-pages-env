@@ -5,6 +5,7 @@ description = "松江城では 2023-03-25 から「お城まつり」が開催�
 image = "/remark/2023/03/sakura-blossoms-2023/52769895725_3c23a883c5_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "sakura" ]
 pageType = "photo"
+license = "by"
 
 [scripts]
   mathjax = false

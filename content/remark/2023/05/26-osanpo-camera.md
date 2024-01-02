@@ -4,6 +4,7 @@ date =  "2023-05-27T20:03:36+09:00"
 description = "今日の実績解除： コメダ ブラックモンブラン コラボメニュー制覇 / 松江市役所 新庁舎見学"
 image = "/remark/2023/05/26-osanpo-camera/52928797311_5958771606_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "book", "bike" ]
+license = "by"
 pageType = "photo"
 
 [scripts]

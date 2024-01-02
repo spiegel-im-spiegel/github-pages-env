@@ -5,6 +5,7 @@ description = "サイクリング日和で楽しい一日でした。"
 image = "/remark/2023/04/09-osanpo-camera/52803005017_579b05ce2d_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "book", "bike" ]
 pageType = "photo"
+license = "by"
 
 [scripts]
   mathjax = false

@@ -5,6 +5,7 @@ description = "松江城で椿展をやってるですよ。"
 image = "/remark/2023/03/12-osanpo-camera/52741087657_bd68dda487_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "book" ]
 pageType = "photo"
+license = "by"
 
 [scripts]
   mathjax = false

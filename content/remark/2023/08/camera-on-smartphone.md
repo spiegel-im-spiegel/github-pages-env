@@ -4,6 +4,7 @@ date =  "2023-08-26T20:51:47+09:00"
 description = "ホンマ，いまどきのスマホのレンズって性能いいよねぇ。"
 image = "/remark/2023/08/camera-on-smartphone/53142415188_fa5e2d92b4_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "k-tai" ]
+license = "by"
 pageType = "photo"
 
 [scripts]

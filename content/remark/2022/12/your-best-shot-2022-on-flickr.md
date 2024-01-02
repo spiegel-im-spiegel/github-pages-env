@@ -5,6 +5,7 @@ description = "こういうのはお祭りだからね。いわゆる「AI 絵�
 image = "/remark/2022/12/your-best-shot-2022-on-flickr/52428223107_65a060cc31_o.jpg"
 tags = [ "flickr", "photography" ]
 pageType = "photo"
+license = "by"
 
 [scripts]
   mathjax = false

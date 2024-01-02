@@ -4,6 +4,7 @@ date =  "2023-09-24T23:23:18+09:00"
 description = "遺跡・史跡がアホのようにあって全然回りきらないので，シリーズ化するかも。"
 image = "/remark/2023/09/ruins-in-ou-plain-1/53209497283_810bb98a33_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "bike", "ruins", "shrine" ]
+license = "by"
 pageType = "photo"
 
 [scripts]

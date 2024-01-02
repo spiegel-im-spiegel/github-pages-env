@@ -4,6 +4,7 @@ date =  "2023-10-01T21:24:37+09:00"
 description = "今年は城山へ上がってみることにした。"
 image = "/remark/2023/10/suitouro/53226112608_70443c08c8_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue" ]
+license = "by"
 pageType = "photo"
 
 [scripts]

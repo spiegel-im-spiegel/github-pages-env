@@ -4,6 +4,7 @@ date =  "2023-11-05T20:07:55+09:00"
 description = "熊野大社 上の宮跡に行こう / 今日の宍道湖（夕景）"
 image = "/remark/2023/11/05-osanpo-camera/53310413046_caf0c6389a_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "ruins", "shrine", "bike" ]
+license = "by"
 pageType = "photo"
 
 [scripts]

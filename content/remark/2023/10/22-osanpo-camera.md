@@ -4,6 +4,7 @@ date =  "2023-10-22T19:11:35+09:00"
 description = "ようやく親父殿の墓が完成しまして。はじめての実家の墓参り"
 image = "/remark/2023/10/22-osanpo-camera/53275958271_745d374dce_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue" ]
+license = "by"
 pageType = "photo"
 
 [scripts]

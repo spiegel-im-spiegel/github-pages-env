@@ -4,6 +4,7 @@ date =  "2023-11-23T20:01:17+09:00"
 description = "大谷ダムチャレンジ → 失敗 / 紅葉狩りふたたび"
 image = "/remark/2023/11/23-osanpo-camera/53349346132_71711b0780_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "bike" ]
+license = "by"
 pageType = "photo"
 
 [scripts]

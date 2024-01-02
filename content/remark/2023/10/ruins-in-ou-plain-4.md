@@ -4,6 +4,7 @@ date =  "2023-10-28T18:46:26+09:00"
 description = " 秋の晴天の下で露天風呂サイコー！ 宍道湖の蜃気楼（？）も撮れた。"
 image = "/remark/2023/10/ruins-in-ou-plain-4/53291917060_12514e6244_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "bike", "shrine" ]
+license = "by"
 pageType = "photo"
 
 [scripts]

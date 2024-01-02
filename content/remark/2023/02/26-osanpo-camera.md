@@ -5,6 +5,7 @@ description = "ちょっとずつ春が近づいてるんだねぇ。"
 image = "/remark/2023/02/26-osanpo-camera/52711086897_f128dfcced_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue" ]
 pageType = "photo"
+license = "by"
 
 [scripts]
   mathjax = false

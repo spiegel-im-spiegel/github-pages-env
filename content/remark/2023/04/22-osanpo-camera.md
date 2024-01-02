@@ -4,6 +4,7 @@ date =  "2023-04-22T21:32:35+09:00"
 description = "千本ダム・チャレンジ / 森山大道展 / 春夏用グローブとサイクルキャップ買うた / トイレ以外の用事で本屋へ / 帰り道"
 image = "/remark/2023/04/22-osanpo-camera/52835372107_b87c52ca18_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "book", "bike", "shrine" ]
+license = "by"
 pageType = "photo"
 
 [scripts]

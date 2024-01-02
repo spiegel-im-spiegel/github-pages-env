@@ -4,6 +4,7 @@ date =  "2023-11-19T21:34:27+09:00"
 description = "温泉へ行こう / 温泉で昼飯 / 紅葉狩り / 今日の宍道湖（夕景）"
 image = "/remark/2023/11/19-osanpo-camera/53341622180_dba34f1456_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "bike" ]
+license = "by"
 pageType = "photo"
 
 [scripts]

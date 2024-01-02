@@ -5,6 +5,7 @@ description = "せっかく天気がいいのでバスを途中下車して長�
 image = "/remark/2023/02/osanpo-camera/52683608089_57126a3bc6_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue" ]
 pageType = "photo"
+license = "by"
 
 [scripts]
   mathjax = false

@@ -4,6 +4,7 @@ date =  "2023-10-15T20:53:57+09:00"
 description = "宍道湖の夕日も撮れた"
 image = "/remark/2023/10/ruins-in-ou-plain-3/53259596935_206b68144f_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "bike", "shrine", "ruins" ]
+license = "by"
 pageType = "photo"
 
 [scripts]

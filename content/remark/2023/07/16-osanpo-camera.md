@@ -4,6 +4,7 @@ date =  "2023-07-16T20:04:20+09:00"
 description = "身体を動かして，色んなものを見て，リフレッシュできたかな。"
 image = "/remark/2023/07/16-osanpo-camera/53049480160_83f88626a7_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "bike" ]
+license = "by"
 pageType = "photo"
 
 [scripts]

@@ -4,6 +4,7 @@ date =  "2023-08-05T19:52:43+09:00"
 description = "自転車をオーバーホールに出すことにした。"
 image = "/remark/2023/08/05-osanpo-camera/53093738547_30a4871c85_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "bike" ]
+license = "by"
 pageType = "photo"
 
 [scripts]

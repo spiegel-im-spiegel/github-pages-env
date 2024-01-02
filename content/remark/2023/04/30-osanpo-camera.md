@@ -4,6 +4,7 @@ date =  "2023-04-30T19:26:45+09:00"
 description = "そうだ！ 楽山公園に行こう"
 image = "/remark/2023/04/30-osanpo-camera/52856884852_d3f335c728_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "book", "bike" ]
+license = "by"
 pageType = "photo"
 
 [scripts]
