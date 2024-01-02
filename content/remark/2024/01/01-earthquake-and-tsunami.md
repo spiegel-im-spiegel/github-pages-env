@@ -36,6 +36,7 @@ Mastodon では NERV の緊急地震速報（[@EEW@unnerv.jp](https://unnerv.jp/
 もうすぐ義援金の受付が始まるはず。
 
 - [【第１報】令和６年能登半島地震にかかる日本赤十字社の対応等について｜災害救護速報（国内）｜おしらせ・最新情報｜日本赤十字社](https://www.jrc.or.jp/domestic_rescue/2024notoearthquake.html)
+- [国内災害義援金・海外救援金へのご寄付｜寄付する｜日本赤十字社](https://www.jrc.or.jp/contribute/help/)
 
 寄付は「消費」ではない。
 明確な社会参加である。
