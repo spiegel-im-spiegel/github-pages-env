@@ -33,9 +33,10 @@ Mastodon では NERV の緊急地震速報（[@EEW@unnerv.jp](https://unnerv.jp/
 [災害躁病](https://baldanders.info/blog/000513/ "震災お見舞い申し上げます")にハマって無茶して周囲を振り回す状態になるとお互い不幸だからね。
 
 寄付をするなら赤十字がおすすめ。
-もうすぐ義援金の受付が始まるはず。
+2024-01-04 から義援金の受付が始まっている。
 
 - [【第１報】令和６年能登半島地震にかかる日本赤十字社の対応等について｜災害救護速報（国内）｜おしらせ・最新情報｜日本赤十字社](https://www.jrc.or.jp/domestic_rescue/2024notoearthquake.html)
+- [令和６年能登半島地震災害義援金｜国内災害義援金・海外救援金へのご寄付｜寄付する｜日本赤十字社](https://www.jrc.or.jp/contribute/help/20240104/)
 - [国内災害義援金・海外救援金へのご寄付｜寄付する｜日本赤十字社](https://www.jrc.or.jp/contribute/help/)
 
 寄付は「消費」ではない。
