@@ -24716,5 +24716,56 @@
       false
     ],
     "Description": "「ウルトラマンブレーザー」後期ED曲。 MindaRyn さんはよい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4344947509",
+      "Title": "健康寿命を延ばす心臓リハビリテーション入門",
+      "URL": "https://www.amazon.co.jp/dp/4344947509?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51eK+adjOaL._SL160_.jpg",
+        "Height": 160,
+        "Width": 109
+      },
+      "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "飯田 圭",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "幻冬舎",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4344947509"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784344947504"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4344947509"
+        }
+      ],
+      "PublicationDate": "2023-12-18",
+      "LastRelease": "2023-12-18",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-01-06",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "Java や Go 本の翻訳でおなじみ\u003ca href=\"https://yshibata.blog.ss-blog.jp/2024-01-06\"\u003e柴田芳樹さんのブログでお薦め\u003c/a\u003eされていたのでポチってみた。面白ければ感想文を書くかも。"
   }
 ]

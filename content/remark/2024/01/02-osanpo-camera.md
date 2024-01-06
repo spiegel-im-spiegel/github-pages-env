@@ -78,6 +78,7 @@ pageType = "photo"
 
 ## 参考
 
+{{% review-paapi "B0BLNFPWTQ" %}} <!-- trimm ROLLIN サイクルコンピュータ -->
 {{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
 {{% review-paapi "B0CK19L1HC" %}} <!-- ハッキング思考 Kindle 版 -->
 {{% review-paapi "B0CNSPHTF4" %}} <!-- Brave Blazar MindaRyn -->
