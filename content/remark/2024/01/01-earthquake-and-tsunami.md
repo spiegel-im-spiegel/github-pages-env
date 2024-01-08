@@ -32,7 +32,7 @@ Mastodon では NERV の緊急地震速報（[@EEW@unnerv.jp](https://unnerv.jp/
 被災地を支援したい気持ちは私にも分かるが，手の届く範囲で。
 [災害躁病](https://baldanders.info/blog/000513/ "震災お見舞い申し上げます")にハマって無茶して周囲を振り回す状態になるとお互い不幸だからね。
 
-寄付をするなら赤十字がおすすめ。
+寄付をするなら赤十字がおすすめ（税控除の対象になる）。
 2024-01-04 から義援金の受付が始まっている。
 
 - [【第１報】令和６年能登半島地震にかかる日本赤十字社の対応等について｜災害救護速報（国内）｜おしらせ・最新情報｜日本赤十字社](https://www.jrc.or.jp/domestic_rescue/2024notoearthquake.html)
@@ -41,10 +41,12 @@ Mastodon では NERV の緊急地震速報（[@EEW@unnerv.jp](https://unnerv.jp/
 
 寄付は「消費」ではない。
 明確な社会参加である。
-赤十字への寄付なら税控除の対象になる。
 
 - [寄付する前に立ち止まれ: R30::マーケティング社会時評](http://shinta.tea-nifty.com/nikki/2005/01/donation.html)
 
 ## ブックマーク
 
 - [NERV防災「X（旧Twitter）のAPI上限で自動投稿できない」　石川県能登の地震で【追記あり】 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2401/01/news051.html)
+  - [数百万人に地震速報を届ける、社員13人の日本企業　「NERV防災アプリ」の石森社長に聞く - BBCニュース](https://www.bbc.com/japanese/features-and-analysis-67900433)
+- [石川県、能登半島地震に対する義援物資の受け付けを「企業・団体」のみに限定すると発表　個人での支援は義援金などで（1/2 ページ） - ねとらぼ](https://nlab.itmedia.co.jp/nl/articles/2401/04/news034.html)
+- [令和6年能登半島地震の偽情報関連の報道についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2024/01/06/020106)
