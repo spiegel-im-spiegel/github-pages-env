@@ -24767,5 +24767,95 @@
       false
     ],
     "Description": "Java や Go 本の翻訳でおなじみ\u003ca href=\"https://yshibata.blog.ss-blog.jp/2024-01-06\"\u003e柴田芳樹さんのブログで紹介\u003c/a\u003eされていたのでポチってみた。心臓リハビリの三本柱「運動」「食事」「ストレスマネージメント」について解説されている。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CKWHVDWG",
+      "Title": "花になって - Be a flower",
+      "URL": "https://www.amazon.co.jp/dp/B0CKWHVDWG?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/512EYNAvxFL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "緑黄色社会",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Sony Music Labels Inc.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CKWHVDWG"
+        }
+      ],
+      "PublicationDate": "2023-10-29",
+      "LastRelease": "2023-10-29",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-01-13",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ「薬屋のひとりごと」OP曲。何度も聴いて歌詞が頭に入ってくるとハマり始める。「病のように心を食らう花」の部分が秀逸だと思う。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CQ2FKV28",
+      "Title": "勇者召喚に巻き込まれたけど、異世界は平和でした 14 (モーニングスターブックス)",
+      "URL": "https://www.amazon.co.jp/dp/B0CQ2FKV28?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51KCK8CJIuL._SL160_.jpg",
+        "Height": 160,
+        "Width": 108
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "灯台",
+          "Role": "著"
+        },
+        {
+          "Name": "おちゃう",
+          "Role": "イラスト"
+        }
+      ],
+      "Publisher": "新紀元社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CQ2FKV28"
+        }
+      ],
+      "PublicationDate": "2023-12-19",
+      "LastRelease": "2023-12-19",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-01-07",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "このシリーズの読後感想はだいたい「もげろ！」となる。 Spiegel はシリアス先輩を応援しています（笑）"
   }
 ]

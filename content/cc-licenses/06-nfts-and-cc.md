@@ -4,10 +4,8 @@ date =  "2022-09-19T17:07:21+09:00"
 description = "この記事は Creative Commons が FAQ (よくある質問) として公開している “FAQ: CC and NFTs” を試みに翻訳したものです。"
 image = "/images/attention/cc-logo.png"
 tags = ["creative-commons", "copyright", "license"]
+license = "by"
 pageType = "text"
-
-[auther]
-  license = "by"
 
 [scripts]
   mathjax = false
