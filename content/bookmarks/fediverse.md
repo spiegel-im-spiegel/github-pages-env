@@ -82,6 +82,7 @@ pageType = "text"
   - [Keyoxide (@keyoxide@fosstodon.org) - Fosstodon](https://fosstodon.org/@keyoxide)
   - [Task (@task@fosstodon.org) - Fosstodon](https://fosstodon.org/@task)
   - [K-9 Mail (@k9mail@fosstodon.org) - Fosstodon](https://fosstodon.org/@k9mail)
+  - [gohugoio (@gohugoio@fosstodon.org) - Fosstodon](https://fosstodon.org/@gohugoio) : [Hugo](https://gohugo.io/ "The world’s fastest framework for building websites | Hugo")
 - [FLOSS.social](https://floss.social/)
   - [GIMP (@GIMP@floss.social) - FLOSS.social](https://floss.social/@GIMP)
   - [VideoLAN (@videolan@floss.social) - FLOSS.social](https://floss.social/@videolan)
