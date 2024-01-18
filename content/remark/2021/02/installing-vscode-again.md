@@ -45,14 +45,20 @@ Windows 版のインストールは[サイト][vs code]からインストーラ�
 
 APT 版は Microsoft がリポジトリを公開しているので，これを設定してインストールする。
 
-{{< fig-quote class="nobox" type="markdown" title="VS Codeエディタ本体のインストール方法｜VS Codeエディタ入門" link="https://zenn.dev/karaage0703/books/80b6999d429abc8051bb/viewer/5b814b" >}}
+{{< fig-quote class="nobox" type="markdown" title="Running Visual Studio Code on Linux" link="https://code.visualstudio.com/docs/setup/linux" lang="en" >}}
 
 ```text
-$ curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
-$ sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
-$ sudo sh -c 'echo "deb [arch=amd64] http://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
-$ sudo apt update
-$ sudo apt install -y code
+sudo apt-get install wget gpg
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+rm -f packages.microsoft.gpg
+```
+
+```text
+sudo apt install apt-transport-https
+sudo apt update
+sudo apt install code # or code-insiders
 ```
 
 {{< /fig-quote >}}
