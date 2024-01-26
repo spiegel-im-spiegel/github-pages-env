@@ -88,6 +88,26 @@ func main() {
 
 エネルギーと質量には $$E=mc^2$$ の関係がある。
 
+\[
+C_p[\ce{H2O(l)}] = \pu{75.3 J // mol K}
+\]
+
+`<figure>` 要素で囲ってみる。
+
+{{< fig-math >}}
+\[
+C_p[\ce{H2O(l)}] = \pu{75.3 J // mol K}
+\]
+{{< /fig-math >}}
+
+さらに四角で囲ってみる。
+
+{{< fig-math class="box" >}}
+\[
+C_p[\ce{H2O(l)}] = \pu{75.3 J // mol K}
+\]
+{{< /fig-math >}}
+
 ### シーケンス図（Mermaid）
 
 {{< fig-mermaid title="カバとカバン" >}}

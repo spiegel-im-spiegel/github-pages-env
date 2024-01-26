@@ -29,33 +29,33 @@ DE430 では DE405 以後の観測値が反映されている。
 更に，これが多分いちばんインパクトが大きいと思うが，2012年 IAU 勧告に基づき「天文単位 $\mathrm{au}$（astronomical unit）」が定数として再定義された。
 すなわち（時刻系に依らず）
 
-{{< div-box >}}
+{{< fig-math class="box" >}}
 \[
-  A = 1\\,\mathrm{au} = 149,597,870,700\\,\mathrm{m}
+  A = 1\,\mathrm{au} = 149,597,870,700\,\mathrm{m}
   \tag{1}\label{eq:au}
 \]
-{{< /div-box >}}
+{{< /fig-math >}}
 
 となる（定数なので「誤差」はない）。
 
 もともと「天文単位」は測距観測技術が未熟だった時代に考えだされた単位で「1日（$D=1^{\mathrm{d}}=86400^{\mathrm{s}}$）あたり $0.01720209895\\,\mathrm{rad}$ の角速度で太陽の周りを等速円運動する質点の軌道半径」と定義されていた。
 ちなみに $0.01720209895$ はガウス引力定数 $k$ とよばれ，19世紀にガウスが定めたものである。
 
-{{< div-box >}}
+{{< fig-math class="box" >}}
 \[
   k = 0.01720209895
   \tag{2}\label{eq:k}
 \]
-{{< /div-box >}}
+{{< /fig-math >}}
 
 「1日あたり $k\\,\mathrm{rad}$ の角速度で太陽の周りを等速円運動する質点」の周期を $T$ とすると
 
-{{< div-box >}}
+{{< fig-math class="box" >}}
 \[
   T = \frac{2\pi}{k} \simeq 365.256898^{\mathrm{d}} \simeq 1^{\mathrm{y}}
   \tag{3}\label{eq:T}
 \]
-{{< /div-box >}}
+{{< /fig-math >}}
 
 となり（さぁ検算しよう！） $1\\,\mathrm{au}$ がほぼ地球の公転軌道半径に等しいことがわかる[^au1]。
 
@@ -63,12 +63,12 @@ DE430 では DE405 以後の観測値が反映されている。
 
 なんでこんな面倒臭いことになっていたかというと，この定義を使うことにより天文単位の具体的な値が分からなくても日心重力定数 $GM_{S}$ が
 
-{{< div-box >}}
+{{< fig-math class="box" >}}
 \[
-  GM_{S} = A^{3} \times \left( \frac{k}{D} \right)^{2} = k^{2} \times \frac{1\\,\mathrm{au^{3}}}{1\\,\mathrm{day^{2}}} = k^{2}
+  GM_{S} = A^{3} \times \left( \frac{k}{D} \right)^{2} = k^{2} \times \frac{1\,\mathrm{au^{3}}}{1\,\mathrm{day^{2}}} = k^{2}
   \tag{4}\label{eq:GMs}
 \]
-{{< /div-box >}}
+{{< /fig-math >}}
 
 と一定の値になるのである。
 もちろん $GM_{S}$ を SI 単位系に変換するには，何らかの方法で天文単位の値を推定または測定する必要がある。

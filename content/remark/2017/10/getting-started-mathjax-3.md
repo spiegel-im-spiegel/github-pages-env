@@ -145,14 +145,14 @@ b_0 + \cfrac{c_1}{b_1 +
 \]
 ```
 
-{{< div-box >}}
+{{< fig-math class="box" >}}
 \[
 b_0 + \cfrac{c_1}{b_1 +
   \cfrac{c_2}{b_2 +
   \cfrac{c_3}{b_3 +
   \cfrac{c_4}{b_4 + \cdots}}}}
 \]
-{{< /div-box >}}
+{{< /fig-math >}}
 
 流石にこれはインライン数式じゃ無理だよね（笑）
 
@@ -216,16 +216,16 @@ MathJax = {
 
 別行立て数式では数式に番号を振ることができる。たとえば `\[E=mc^2\]` に (a) をいう番号を振りたければ `\tag` コマンドを使って `\[E=mc^2 \tag{a}\]` とする。
 
-{{< div-box >}}
+{{< fig-math class="box" >}}
 \[E=mc^2 \tag{a}\]
-{{< /div-box >}}
+{{< /fig-math >}}
 
 この番号にはラベル `\label` を付けて参照することができる。
 たとえば `\[E=mc^2 \tag{b}\label{eq-b}\]` としておいて
 
-{{< div-box >}}
+{{< fig-math class="box" >}}
 \[E=mc^2 \tag{b}\label{eq-b}\]
-{{< /div-box >}}
+{{< /fig-math >}}
 
 このラベルを参照するには `\eqref{eq-b}` でこのように →\eqref{eq-b}← 表示できる（`$...$` で囲まなくてもよい）[^anc1]。
 
