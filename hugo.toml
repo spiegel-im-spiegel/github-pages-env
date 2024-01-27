@@ -21,7 +21,7 @@ enableGitInfo = true
       [markup.goldmark.extensions.passthrough]
         enable = true
         [markup.goldmark.extensions.passthrough.delimiters]
-          block = [['\[', '\]'], ['$$', '$$']]
+          block = [['\[', '\]'], ['$$', '$$'], ['\begin{aligned}', '\end{aligned}']]
     [markup.goldmark.parser]
       autoHeadingID = false
       [markup.goldmark.parser.attribute]

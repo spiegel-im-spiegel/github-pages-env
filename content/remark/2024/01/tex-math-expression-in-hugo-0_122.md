@@ -115,8 +115,10 @@ JS(\hat{y} || y) &= \frac{1}{2}(KL(y||\frac{y+\hat{y}}{2}) + KL(\hat{y}||\frac{y
 </div>
 ```
 
-とすれば markdown のパーサが生の HTML 記述と解釈しスルーしてくれる。
+とすれば markdown のパーサが生の HTML 記述と解釈しスルーしてくれる[^other1]。
 私は数式専用の shortcode を作って利用している。
+
+[^other1]: たとえば `\begin{aligned} ... \end{aligned}` のような環境をよく使うというのであれば，デリミタとしてサイト設定ファイル（`hugo.toml`）に指定するのも手である。
 
 ```tex
 {{</* fig-math */>}}
