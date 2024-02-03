@@ -15,8 +15,8 @@ func WeekShortNameJp(dt value.DateJp) string {
 }
 
 func main() {
-	start, _ := value.DateFrom("2024-01-01")
-	end, _ := value.DateFrom("2024-12-31")
+	start, _ := value.DateFrom("2025-01-01")
+	end, _ := value.DateFrom("2025-12-31")
 	k, err := koyomi.NewSource(
 		koyomi.WithCalendarID(
 			// koyomi.Holiday,
