@@ -24857,5 +24857,46 @@
       false
     ],
     "Description": "このシリーズの読後感想はだいたい「もげろ！」となる。 Spiegel はシリアス先輩を応援しています（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0B76PD6PS",
+      "Title": "GIRO(ジロ) TRACKER トラッカー 自転車 サイクリング フラットペダルシューズ グリーン/ダークシャドウ EU41サイズ(約26cm) BOAダイヤル 【日本正規品】",
+      "URL": "https://www.amazon.co.jp/dp/B0B76PD6PS?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31BelKB-njL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "スポーツ用品",
+      "Publisher": "DIATEC",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0B76PD6PS"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4573501458169"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-02-10",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "ウォーキング・シューズとしても使えるサイクリング・シューズ。フラットペダル用。 BOA® L6 ダイアルはよい。"
   }
 ]
