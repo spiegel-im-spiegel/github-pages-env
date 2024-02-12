@@ -24898,5 +24898,48 @@
       true
     ],
     "Description": "ウォーキング・シューズとしても使えるサイクリング・シューズ。フラットペダル用。 BOA® L6 ダイアルはよい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BQDD5J4H",
+      "Title": "君と世界の終わりに",
+      "URL": "https://www.amazon.co.jp/dp/B0BQDD5J4H?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61pid4EphlL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "森羅万象",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Shinra Records",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BQDD5J4H"
+        }
+      ],
+      "PublicationDate": "2022-10-30",
+      "LastRelease": "2022-12-31",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-02-04",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "YouTube アニメ（？）「\u003ca href=\"https://www.youtube.com/@sekashibachannel\"\u003e世界の終わりに柴犬と\u003c/a\u003e」の主題歌「君と世界の終わりに」を含むアルバム。聴くほどにじわじわ来る。"
   }
 ]
