@@ -66,6 +66,7 @@ pageType = "photo"
 
 {{< fig-img src="./53535970586_bede5621cb_e.jpg" title="今日の松江城 | Flickr" link="https://www.flickr.com/photos/spiegel/53535970586/" >}}
 
+{{< fig-img src="./53536396555_d7dd1a4891_e.jpg" title="今日の大山 from 松江城 | Flickr" link="https://www.flickr.com/photos/spiegel/53536396555/" >}}
 
 やっぱ雪を{{% ruby "かぶ" %}}冠{{% /ruby %}}った大山と青空の構図はいいよねぇ。
 
@@ -140,6 +141,7 @@ pageType = "photo"
 {{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
 {{% review-paapi "B0B76PD6PS" %}} <!-- サイクリング・シューズ GIRO Tracker -->
 {{% review-paapi "B0CK19L1HC" %}} <!-- ハッキング思考 Kindle 版 -->
+{{% review-paapi "4822285243" %}} <!-- ピープルウエア Peopleware -->
 {{% review-paapi "B08XQGKL6G" %}} <!-- ぐだふわエブリデー -->
 {{% review-paapi "B0BQDD5J4H" %}} <!-- 君と世界の終わりに; 世界の終わりに柴犬と #せかしば -->
 {{% review-paapi "B0CKWHVDWG" %}} <!-- 花になって - Be a flower 薬屋のひとりごと -->
