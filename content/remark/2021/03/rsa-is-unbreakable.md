@@ -32,7 +32,7 @@ pageType = "text"
 まぁ，でも，これから鍵を替えるなら ECC 鍵がいいんじゃないかな（笑）
 
 - [そろそろ GnuPG でも ECC を標準で使うのがいいんじゃないかな]({{< ref "/openpgp/using-ecc-with-gnupg.md" >}})
-- [SSH の認証鍵を GunPG で作成・管理する]({{< ref "/openpgp/ssh-key-management-with-gnupg.d" >}})
+- [SSH の認証鍵を GunPG で作成・管理する]({{< ref "/openpgp/ssh-key-management-with-gnupg.md" >}})
 - [Edwards-curve Digital Signature Algorithm]({{< ref "/remark/2020/06/eddsa.md" >}})
 
 ## ブックマーク
