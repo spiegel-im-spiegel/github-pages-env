@@ -142,6 +142,7 @@ pageType = "photo"
 {{% review-paapi "B0B76PD6PS" %}} <!-- サイクリング・シューズ GIRO Tracker -->
 {{% review-paapi "B0CK19L1HC" %}} <!-- ハッキング思考 Kindle 版 -->
 {{% review-paapi "4822285243" %}} <!-- ピープルウエア Peopleware -->
+{{% review-paapi "B01JMEDX8A" %}} <!-- 攻殻機動隊 STAND ALONE COMPLEX (SAC) -->
 {{% review-paapi "B08XQGKL6G" %}} <!-- ぐだふわエブリデー -->
 {{% review-paapi "B0BQDD5J4H" %}} <!-- 君と世界の終わりに; 世界の終わりに柴犬と #せかしば -->
 {{% review-paapi "B0CKWHVDWG" %}} <!-- 花になって - Be a flower 薬屋のひとりごと -->
