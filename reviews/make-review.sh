@@ -1,7 +1,9 @@
 #/bin/sh
-sleep 1;cat B0BQDD5J4H.html | books-data review -t review-book.html -a B0BQDD5J4H -r 4 --review-date 2024-02-04 --pipe
-sleep 1;cat B0B76PD6PS.html | books-data review -t review-book.html -a B0B76PD6PS -r 5 --review-date 2024-02-10 --pipe
+sleep 1;cat 4000297244.html | books-data review -t review-book.html -a 4000297244 -r 4 --review-date 2024-02-23 --pipe
+sleep 1;cat ./done/4627275110.html | books-data review -t review-book.html -a 4627275110 -r 4 --review-date 2019-11-13 --pipe
 # ---
+# sleep 1;cat ./done/B0BQDD5J4H.html | books-data review -t review-book.html -a B0BQDD5J4H -r 4 --review-date 2024-02-04 --pipe
+# sleep 1;cat ./done/B0B76PD6PS.html | books-data review -t review-book.html -a B0B76PD6PS -r 5 --review-date 2024-02-10 --pipe
 # sleep 1;cat ./done/B0CKWHVDWG.html | books-data review -t review-book.html -a B0CKWHVDWG -r 4 --review-date 2024-01-13 --pipe
 # sleep 1;cat ./done/B0CQ2FKV28.html | books-data review -t review-book.html -a B0CQ2FKV28 -r 4 --review-date 2024-01-07 --pipe
 # sleep 1;cat ./done/4344947509.html | books-data review -t review-book.html -a 4344947509 -r 3 --review-date 2024-01-08 --pipe
@@ -454,7 +456,6 @@ sleep 1;cat B0B76PD6PS.html | books-data review -t review-book.html -a B0B76PD6P
 # sleep 1;cat ./done/B00I8AT1EU.html | books-data review -t review-book.html -a B00I8AT1EU -r 5 --review-date 2018-12-11 --pipe
 # sleep 1;cat ./done/B015643CPE.html | books-data review -t review-book.html -a B015643CPE -r 5 --review-date 2015-09-20 --pipe
 # sleep 1;cat ./done/B00I8ATHGW.html | books-data review -t review-book.html -a B00I8ATHGW -r 5 --review-date 2016-01-05 --pipe
-# sleep 1;cat ./done/4627275110.html | books-data review -t review-book.html -a 4627275110 -r 4 --review-date 2019-11-13 --pipe
 # sleep 1;cat ./done/4416719485.html | books-data review -t review-book.html -a 4416719485 -r 5 --review-date 2019-11-23 --pipe
 # sleep 1;cat ./done/4621304259.html | books-data review -t review-book.html -a 4621304259 -r 4 --review-date 2019-12-08 --pipe
 # sleep 1;cat ./done/4274202712.html | books-data review -t review-book.html -a 4274202712 -r 4 --review-date 2019-05-04 --pipe
