@@ -3,7 +3,7 @@ title = "お散歩カメラ 2024-02-24"
 date =  "2024-02-24T18:48:07+09:00"
 description = "温泉と低血糖 / 猪が食べたい / 定点観測からの読書タイム"
 image = "/remark/2024/02/24-osanpo-camera/53548413803_4ab4e310b5_o.jpg"
-tags = [ "osanpo-camera", "photography", "matsue", "bike", "ruins" ]
+tags = [ "osanpo-camera", "photography", "matsue", "bike" ]
 license = "by"
 pageType = "photo"
 
