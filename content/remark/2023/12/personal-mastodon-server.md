@@ -36,4 +36,8 @@ BAN された理由は不明。
 ...年末に忙しくなるとこういうことをし始めるんだよなぁ。
 我ながら困った性格である。
 
+## ブックマーク
+
+- [個人用 Mastodon サーバに活動拠点を移す]({{< ref "/remark/2024/03/moving-to-personal-mastodon-server.md" >}})
+
 [Hostodon]: https://hostdon.jp/ "Hostdon - Mastodonのホスティングサービス"

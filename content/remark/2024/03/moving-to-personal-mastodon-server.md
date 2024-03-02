@@ -14,7 +14,7 @@ pageType = "text"
 いやぁ，今回の仕事は辛かった。
 今は解放感でいっぱいです。
 
-突然だが Mastodon サーバの活動拠点を [`fedibird.com` アカウント](https://fedibird.com/@spiegel)から個人用にホスティングして運用している [`goark.fedicity.net` アカウント](https://goark.fedicity.net/@spiegel)に移すことにした。
+突然だが Mastodon サーバの活動拠点を [`fedibird.com` アカウント](https://fedibird.com/@spiegel)から個人用に運用している [`goark.fedicity.net` アカウント](https://goark.fedicity.net/@spiegel)に移すことにした。
 
 いや，当初から思ってたのよ。
 [`goark.fedicity.net`] は5K文字書けるんだよ。
