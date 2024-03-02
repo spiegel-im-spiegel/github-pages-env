@@ -24992,5 +24992,151 @@
       false
     ],
     "Description": "「はやぶさ2」が無事に持ち帰った「リュウグウ」の石を調べて原初の太陽系を解き明かす。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BL76SJL6",
+      "Title": "【VGP2023SUMMER金賞】iBasso Audio DC03PRO アイバッソ Type C タイプC USB DAC ポータブル 小型 アンプ 3.5mm ケーブル着脱式 ハイレゾ HD ロスレス android ゲーム 音楽【国内正規品】 (ブルー)",
+      "URL": "https://www.amazon.co.jp/dp/B0BL76SJL6?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/415qeo-Mn+L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "iBasso Audio",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BL76SJL6"
+        },
+        {
+          "Name": "EAN",
+          "Value": "6971585541216"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-03-02",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "スマホや PC の USB から入力する Digital Analog Converter。低音から高音までくっきりはっきり。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00016AWEC",
+      "Title": "Bose 101MMG スピーカーシステム",
+      "URL": "https://www.amazon.co.jp/dp/B00016AWEC?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41qEqMSfKwL._SL160_.jpg",
+        "Height": 120,
+        "Width": 160
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "BOSE(ボーズ)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00016AWEC"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4969929000057"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-03-02",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "大昔，オーディオ小僧だった頃から愛用していた。帰郷する際に処分してしまったけど。いいスピーカーでした。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00CD1PTF0",
+      "Title": "Bose Companion 2 Series III multimedia speaker system [並行輸入品]",
+      "URL": "https://www.amazon.co.jp/dp/B00CD1PTF0?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41Msfl5WSZL._SL160_.jpg",
+        "Height": 150,
+        "Width": 160
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "BOSE(ボーズ)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00CD1PTF0"
+        },
+        {
+          "Name": "EAN",
+          "Value": "7123290434782"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0017817602853"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4969929233370"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0667562762502"
+        },
+        {
+          "Name": "EAN",
+          "Value": "7887117126884"
+        },
+        {
+          "Name": "UPC",
+          "Value": "017817602853"
+        },
+        {
+          "Name": "UPC",
+          "Value": "667562762502"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-03-02",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "頑張ったご褒美に購入。特に低音が素晴らしい。流石 BOSE といったところか。卓上スピーカーとしては上々。"
   }
 ]
