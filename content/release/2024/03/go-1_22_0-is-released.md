@@ -51,7 +51,7 @@ go version go1.22.0 linux/amd64
 てな感じに導入できる。
 
 なお，来週 2024-03-05 (現地時間，日本では多分水曜日？) にセキュリティ・アップデートが予定されている。
-同時に `google.golang.org/protobuf` パッケージもセキュリティ・アップデートも予定されているらしいので， gRPC とか操ってる方は要注意である。
+同時に `google.golang.org/protobuf` パッケージもセキュリティ・アップデートが予定されているらしいので， gRPC とか操ってる方は要注意である。
 
 - [[security] Go 1.22.1 and Go 1.21.8 pre-announcement](https://groups.google.com/g/golang-announce/c/smSYdsWaO4o)
 - [[security] google.golang.org/protobuf fix pre-announcement](https://groups.google.com/g/golang-announce/c/jiGrhz7X6aU)
