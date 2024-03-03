@@ -25138,5 +25138,60 @@
       true
     ],
     "Description": "頑張ったご褒美に購入。特に低音が素晴らしい。流石 BOSE といったところか。卓上スピーカーとしては上々。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4814400535",
+      "Title": "効率的なGo ―データ指向によるGoアプリケーションの性能最適化",
+      "URL": "https://www.amazon.co.jp/dp/4814400535?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41+ew2wl2jL._SL160_.jpg",
+        "Height": 160,
+        "Width": 125
+      },
+      "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "Bartłomiej Płotka",
+          "Role": "著"
+        },
+        {
+          "Name": "山口 能迪",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "オライリー・ジャパン",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4814400535"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784814400539"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4814400535"
+        }
+      ],
+      "PublicationDate": "2024-02-24",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-02-22",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "ついに Effective Go のタイトルを冠した本の邦訳が出た。\u003ca href-\"https://www.oreilly.co.jp/books/9784814400539/\"\u003e版元\u003c/a\u003eで Ebook を買える。"
   }
 ]
