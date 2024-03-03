@@ -27,6 +27,11 @@ Mastodon の「引っ越し」機能は使わず [`fedibird.com` アカウント
 
 というわけで [`fedibird.com` アカウント](https://fedibird.com/@spiegel) をフォローしてくださってる方は，できれば新しい方もよろしくお願いします {{% emoji "ペコン" %}}
 
+[Fedibird への寄付](https://opencollective.com/fedibird-infrastructure "Fedibird Infrastructure - Open Collective")は継続するつもり。
+大した金額じゃないし。
+単純に情報収集するだけなら `fedibird.com` のほうが都合がいいんだけどね。
+Mastodon ではユーザ数が多くて活動が活発なところほど情報収集には有利だし，なにより全文検索をサポートしてる Mastodon サーバなんて他にはそうそうないだろう。
+
 おそらくだけど [`goark.fedicity.net`] のほうは「日記」的な使い方になるんじゃないかなぁ。
 脊髄反射で胡乱なことを口走りそうな気がするので気をつけないとな（笑）
 
