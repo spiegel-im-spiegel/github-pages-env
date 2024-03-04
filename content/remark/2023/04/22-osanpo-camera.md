@@ -121,7 +121,7 @@ Google Maps だと「[松江市水道水神社](https://goo.gl/maps/DxjFa1DwjbU4
 まぁまぁ動いたかな。
 頑張りすぎて心拍数が跳ね上がることもなく，平和な一日だった。
 
-## 【おまけ】 Onkyo HF Player を導入した
+## 【おまけ】 Onkyo HF Player を導入した {#music}
 
 私は別に音オタクではないので，音源も MP3 で十分だし，プレイヤーも Amazon Music アプリで十分だと思ってた。
 
@@ -154,4 +154,3 @@ Google Maps だと「[松江市水道水神社](https://goo.gl/maps/DxjFa1DwjbU4
 {{% review-paapi "B08FSBNJG8" %}} <!-- Fitbit Inspire2 -->
 {{% review-paapi "B07MZ8459H" %}} <!-- ヘルメットロック -->
 {{% review-paapi "B07QH9YVZ3" %}} <!-- Anything Goes!（『仮面ライダーオーズ／OOO』） -->
-<!-- eof -->
