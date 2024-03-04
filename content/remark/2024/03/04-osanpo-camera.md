@@ -3,7 +3,7 @@ title = "もうすぐ春ですね（お散歩カメラ 2024-03-04）"
 date =  "2024-03-04T20:00:17+09:00"
 description = "いつものように八雲温泉 / 定点観測→帰宅 / 【おまけ】ハッシュタグ名は重要？"
 image = "/remark/2024/03/04-osanpo-camera/53566316831_7970f44b65_o.jpg"
-tags = [ "osanpo-camera", "photography", "matsue", "book", "bike" ]
+tags = [ "osanpo-camera", "photography", "matsue", "bike" ]
 license = "by"
 pageType = "photo"
 
