@@ -3,7 +3,7 @@ title = "スマホと音楽"
 date =  "2024-03-04T09:43:38+09:00"
 description = "何事も身の丈に合わせた「ほどほど」が大事ってことか。"
 image = "/images/attention/kitten.jpg"
-tags = [ "music", "tools" ]
+tags = [ "music", "tools", "k-tai" ]
 pageType = "text"
 
 [scripts]
@@ -17,8 +17,8 @@ pageType = "text"
 
 - [オーディオ&ビジュアル製品情報：Onkyo HF Player](https://www.jp.onkyo.com/support/hfplayer/)
 
-そんで，先日の「[頑張ったご褒美に BOSE の卓上スピーカー買うたった]({{< relref "./tabletop-speaker.md" >}})」の話である。
-当然，スマホからの音がどう聴こえるか気になるよね。
+そこから前回の「[頑張ったご褒美に BOSE の卓上スピーカー買うたった]({{< relref "./tabletop-speaker.md" >}})」の話である。
+やっぱスマホからの音がどう聴こえるか気になるよね。
 というわけで USB-DAC をもうひとつ購入して繋いでみた。
 
 [Onkyo HF Player] で USB-DAC を認識させると以下の表示が出る。
@@ -55,6 +55,10 @@ pageType = "text"
 何事も身の丈に合わせた「ほどほど」が大事ってことか。
 
 [^c1]: カメラも銀塩一眼レフを数台所持（主に天体写真用）するくらいにはハマってたが，すっぱり捨てて，今はトイカメラ以上のものはものは持たないことにしている。ちなみにスマホのカメラ機能もコンデジも，私から見ればトイカメラの範疇である。
+
+## ブックマーク
+
+- [【Ubuntu日和】【第23回】ハイレゾは？Spotifyは？LDACは？Ubuntuで音楽を聴くあれこれ  - PC Watch](https://pc.watch.impress.co.jp/docs/column/ubuntu/1486550.html)
 
 [Onkyo HF Player]: https://www.jp.onkyo.com/support/hfplayer/ "オーディオ&ビジュアル製品情報：Onkyo HF Player"
 [e-onkyo music]: https://www.e-onkyo.com/music/ "ハイレゾ音源配信サイト【e-onkyo music】"
