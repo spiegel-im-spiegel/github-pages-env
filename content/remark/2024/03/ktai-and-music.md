@@ -56,10 +56,6 @@ pageType = "text"
 
 [^c1]: カメラも銀塩一眼レフを数台所持（主に天体写真用）するくらいにはハマってたが，すっぱり捨てて，今はトイカメラ以上のものはものは持たないことにしている。ちなみにスマホのカメラ機能もコンデジも，私から見ればトイカメラの範疇である。
 
-## ブックマーク
-
-- [【Ubuntu日和】【第23回】ハイレゾは？Spotifyは？LDACは？Ubuntuで音楽を聴くあれこれ  - PC Watch](https://pc.watch.impress.co.jp/docs/column/ubuntu/1486550.html)
-
 [Onkyo HF Player]: https://www.jp.onkyo.com/support/hfplayer/ "オーディオ&ビジュアル製品情報：Onkyo HF Player"
 [e-onkyo music]: https://www.e-onkyo.com/music/ "ハイレゾ音源配信サイト【e-onkyo music】"
 

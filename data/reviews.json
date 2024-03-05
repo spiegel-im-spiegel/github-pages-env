@@ -25193,5 +25193,91 @@
       false
     ],
     "Description": "ついに Effective Go のタイトルを冠した本の邦訳が出た。\u003ca href=\"https://www.oreilly.co.jp/books/9784814400539/\"\u003e版元\u003c/a\u003eで Ebook を買える。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CPM8V21D",
+      "Title": "HIBANA",
+      "URL": "https://www.amazon.co.jp/dp/B0CPM8V21D?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41vb70KpmlL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "MindaRyn",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Lantis",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CPM8V21D"
+        }
+      ],
+      "PublicationDate": "2024-01-11",
+      "LastRelease": "2024-01-11",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-02-23",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ「戦国妖狐 世直し姉弟編」の OP 曲。 MindaRyn さんはよい。 \u003ca href=\"https://mora.jp/package/43000100/LAXX24518B00Z_96/\"\u003emora\u003c/a\u003e で FLAC ファイルも購入。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09V3D51LF",
+      "Title": "ビッグブリッヂの死闘(FFPR Ver.)",
+      "URL": "https://www.amazon.co.jp/dp/B09V3D51LF?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/417Cyb1E-oL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "植松 伸夫",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "スクウェア・エニックス ミュージック",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09V3D51LF"
+        }
+      ],
+      "PublicationDate": "2022-03-17",
+      "LastRelease": "2022-03-17",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-03-05",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "神曲。実際には \u003ca href=\"https://mora.jp/package/43000021/SQEX-50142-2/\"\u003emora\u003c/a\u003e で購入。"
   }
 ]
