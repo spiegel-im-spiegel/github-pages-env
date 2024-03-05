@@ -35,11 +35,11 @@ MP3 ファイルは非可逆圧縮方式なので元に戻した際にどうし�
 一方，可逆圧縮方式で普及している（大抵のメジャーな音楽配信サービスで対応している）のが FLAC (Free Lossless Audio Codec) である。
 つまり FLAC ファイルで44.1kHz/16bit以上の解像度であれば「ハイレゾ」と言えるわけだ。
 
-とまぁ，話を単純化したところで，早速比べてみよう。
+とまぁ，話を単純化したところで早速比べてみよう。
 
 ## アップサンプリング
 
-少し前に MindaRyn さんの「[HIBANA](https://www.amazon.co.jp/dp/B0CPM8V21D?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)」を Amazon で購入したので，同じタイトルを [mora] で購入してみた。
+少し前に MindaRyn さんの「[HIBANA](https://www.amazon.co.jp/dp/B0CPM8V21D?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)」を Amazon で購入したので，同じタイトルを [mora] でも購入してみた。
 
 - [HIBANA／MindaRyn｜音楽ダウンロード・音楽配信サイト　mora ～WALKMAN®公式ミュージックストア～](https://mora.jp/package/43000100/LAXX24518B00Z_96/)
 
@@ -66,6 +66,8 @@ Ubuntu では昔に[紹介]({{< ref "/remark/2019/06/ripping-cd-music-in-ubuntu.
 - [ホルスト: 組曲「惑星」/神秘のトランペッター Op. 18(スコティッシュ・ナショナル管/ロイド=ジョーンズ)／ロイヤル・スコティッシュ・ナショナル管弦楽団/デイヴィッド・ロイド=ジョーンズ(指揮)｜音楽ダウンロード・音楽配信サイト　mora ～WALKMAN®公式ミュージックストア～](https://mora.jp/package/43000069/8555776h/)
 
 こちらは44.1kHz/24bitの解像度。
+トータルで1GBもあるよ。
+ファイルサイズがデカくなるから意図的にサンプリングレートを落としてるのか？ まぁいいや。
 
 [Onkyo HF Player] で聴くと，両者とも352.8kHzにアップサンプリングされた。
 やっぱり違いは分からず。
