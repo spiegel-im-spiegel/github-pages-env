@@ -25031,7 +25031,7 @@
       true,
       false
     ],
-    "Description": "スマホや PC の USB から入力する Digital Analog Converter。低音から高音までくっきりはっきり。"
+    "Description": "スマホや PC の USB から入力する Digital Analog Converter。低音から高音までくっきりはっきり。PCM なら 384kHz/32bits， DSD なら 11.2MHz/1bit までのネイティブ再生に対応している。"
   },
   {
     "Book": {
