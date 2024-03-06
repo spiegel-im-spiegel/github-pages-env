@@ -1,9 +1,9 @@
 +++
-title = "Go 1.22.0 にアップデートする"
+title = "Go 1.22 にアップデートする（セキュリティ・アップデートの追記あり）"
 date =  "2024-03-03T11:25:30+09:00"
 description = "仕事の忙しさにかまけて色々と放っぽり出してたので，少しずつ回復中。"
 image = "/images/attention/tools.png"
-tags  = [ "programming", "language", "golang", "ubuntu" ]
+tags  = [ "programming", "language", "golang", "ubuntu", "security", "vulnerability" ]
 pageType = "text"
 
 [scripts]
@@ -21,19 +21,19 @@ pageType = "text"
 
 変化点の解説はページ末のブックマークを参照してもらうとして，とりあえず自機の環境をアップデートしてしまおうそうしよう。
 
-[Ubuntu] の APT で管理している [Go] コンパイラは古いので，[ダウンロードページ](https://go.dev/dl/ "Downloads - go.dev")からバイナリ（[`go1.22.0.linux-amd64.tar.gz`](https://go.dev/dl/go1.22.0.linux-amd64.tar.gz)）を取ってきてインストールすることを推奨する。
+[Ubuntu] の APT で管理している [Go] コンパイラは古いので，[ダウンロードページ](https://go.dev/dl/ "Downloads - go.dev")からバイナリ（[`go1.22.1.linux-amd64.tar.gz`](https://go.dev/dl/go1.22.1.linux-amd64.tar.gz)）を取ってきてインストールすることを推奨する。
 以下は完全手動での作業例。
 
 ```text
 $ cd /usr/local/src
-$ sudo curl -L "https://go.dev/dl/go1.22.0.linux-amd64.tar.gz" -O
+$ sudo curl -L "https://go.dev/dl/go1.22.1.linux-amd64.tar.gz" -O
 $ cd ..
 $ sudo unlink go # 以前の Go が入っている場合
-$ sudo tar xvf src/go1.22.0.linux-amd64.tar.gz
-$ sudo mv go go1.22.0
-$ sudo ln -s go1.22.0 go
+$ sudo tar xvf src/go1.22.1.linux-amd64.tar.gz
+$ sudo mv go go1.22.1
+$ sudo ln -s go1.22.1 go
 $ go version # /usr/local/go/bin にパスが通っている場合
-go version go1.22.0 linux/amd64
+go version go1.22.1 linux/amd64
 ```
 
 Windows はインストールパッケージを取ってきて直接インストールする。
@@ -42,19 +42,32 @@ Windows はインストールパッケージを取ってきて直接インスト
 複数バージョンの Go コンパイラを扱いたい場合は
 
 ```text
-$ go install golang.org/dl/go1.22.0@latest
-$ go1.22.0 download
-$ go1.22.0 version
-go version go1.22.0 linux/amd64
+$ go install golang.org/dl/go1.22.1@latest
+$ go1.22.1 download
+$ go1.22.1 version
+go version go1.22.1 linux/amd64
 ```
 
 てな感じに導入できる。
 
-なお，来週 2024-03-05 (現地時間，日本では多分水曜日？) にセキュリティ・アップデートが予定されている。
-同時に `google.golang.org/protobuf` パッケージもセキュリティ・アップデートが予定されているらしいので， gRPC とか操ってる方は要注意である。
+## 【2024-03-06 追記】Go 1.22.1 のリリース【セキュリティ・アップデート】
 
-- [[security] Go 1.22.1 and Go 1.21.8 pre-announcement](https://groups.google.com/g/golang-announce/c/smSYdsWaO4o)
-- [[security] google.golang.org/protobuf fix pre-announcement](https://groups.google.com/g/golang-announce/c/jiGrhz7X6aU)
+予定通り [Go] 1.22.1 がリリースされた。
+ついでに [`google.golang.org/protobuf`](http://google.golang.org/protobuf) パッケージにもアップデートのアナウンスがあった。
+gRPC などを操ってる方は要注意である。
+
+- [[security] Go 1.22.1 and Go 1.21.8 are released](https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg)
+- [[security] Vulnerability in google.golang.org/protobuf](https://groups.google.com/g/golang-announce/c/ArQ6CDgtEjY)
+
+脆弱性の内容は以下の通り（面倒になったので CVSS 評価は端折る）。
+
+- [CVE-2024-24783](https://nvd.nist.gov/vuln/detail/CVE-2024-24783) `crypto/x509`: Verify panics on certificates with an unknown public key algorithm
+- [CVE-2023-45290](https://nvd.nist.gov/vuln/detail/CVE-2023-45290) `net/http`: memory exhaustion in `Request.ParseMultipartForm`
+- [CVE-2023-45289](https://nvd.nist.gov/vuln/detail/CVE-2023-45289) `net/http`, `net/http/cookiejar`: incorrect forwarding of sensitive headers and cookies on HTTP redirect
+- [CVE-2024-24785](https://nvd.nist.gov/vuln/detail/CVE-2024-24785) `html/template`: errors returned from `MarshalJSON` methods may break template escaping
+- [CVE-2024-24784](https://nvd.nist.gov/vuln/detail/CVE-2024-24784) `net/mail`: comments in display names are incorrectly handled
+
+- [CVE-2024-24786](https://nvd.nist.gov/vuln/detail/CVE-2024-24786) Version v1.33.0 of the [`google.golang.org/protobuf`](http://google.golang.org/protobuf) module fixes a bug in the [`google.golang.org/protobuf/encoding/protojson`](https://pkg.go.dev/google.golang.org/protobuf/encoding/protojson) package which could cause the Unmarshal function to enter an infinite loop when handling some invalid inputs.
 
 ## ブックマーク
 
@@ -76,6 +89,6 @@ go version go1.22.0 linux/amd64
 ## 参考図書
 
 {{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
-{{% review-paapi "4814400535" %}} <!-- 効率的なGo : Effective Go -->
 {{% review-paapi "4814400047" %}} <!-- 初めてのGo言語 -->
 {{% review-paapi "B0CFL1DK8Q" %}} <!-- Go言語 100Tips -->
+{{% review-paapi "4814400535" %}} <!-- 効率的なGo : Effective Go -->
