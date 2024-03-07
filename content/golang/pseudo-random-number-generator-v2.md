@@ -28,9 +28,9 @@ ChaCha はストリーム暗号の一種で，簡単に言うと，疑似乱数�
 ChaCha は OpenSSL だか OpenSSH だかでも見かけたような（うろ覚え）。
 もし結城浩さんが『[暗号技術入門](https://www.amazon.co.jp/dp/B015643CPE?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon.co.jp: 暗号技術入門 第3版　秘密の国のアリス eBook : 結城 浩: Kindleストア")』の第4版を出される機会があれば，付録でいいので是非 ChaCha にも言及して欲しい。
 
-## ランタイムに ChaCha8 を組み込む
+## ランタイムに ChaCha8 疑似乱数生成器を組み込む
 
-ChaCha8 のアルゴリズムは [`internal/chacha8rand`] パッケージに実装されている。
+ChaCha8 疑似乱数生成器のアルゴリズムは [`internal/chacha8rand`] パッケージに実装されている。
 中身については割愛させてもらう。
 Internal パッケージなので，サードパーティのパッケージからは直接参照できない。
 
@@ -115,7 +115,7 @@ func readTimeRandom(r []byte) {
 ```
 {{< /fig-quote >}}
 
-これは ChaCha8 の状態（主に seed）を管理してる部分かな。
+これは疑似乱数生成器の状態（主に seed）を管理してる部分かな。
 最初の seed は乱数デバイスから取ってるんだね。
 これに失敗すると時刻から生成する，と。
 ユーザ側は明示的に seed を指定する必要がなくなるということやね。
@@ -356,7 +356,7 @@ func Seed(seed int64) {
 ```
 {{< /fig-quote >}}
 
-つまり，環境変数 `GODEBUG` で明示的に指定（`randautoseed=0`）するか最初に [`rand`][`math/rand`]`.Seed()` 関数を呼び出すかしない限りランタイムに組み込んだ ChaCha8 の疑似乱数生成器が有効になるっちうわけだ。
+つまり，環境変数 `GODEBUG` で明示的に指定（`randautoseed=0`）するか最初に [`rand`][`math/rand`]`.Seed()` 関数を呼び出すかしない限りランタイムに組み込んだ ChaCha8 疑似乱数生成器が有効になるっちうわけだ。
 ちなみに `lockedSource` は [`math/rand`] パッケージに従来からある疑似乱数生成器で，名前の通り，ちゃんと mutex で排他処理している。
 
 ## math/rand/v2 パッケージにおける Source インタフェースの定義
@@ -431,7 +431,7 @@ func (*runtimeSource) Uint64() uint64 {
 
 ## ChaCha8 を rand.Source にする
 
-ChaCha8 を疑似乱数の `Source` として明示的に組み込む場合は， [`rand`][`math/rand/v2`]`.NewChaCha8()` 関数を使って生成する。
+ChaCha8 疑似乱数生成器を疑似乱数の `Source` として明示的に組み込む場合は， [`rand`][`math/rand/v2`]`.NewChaCha8()` 関数を使って生成する。
 
 {{< fig-quote class="nobox" type="markdown" title="math/rand/v2/chacha8.go" link="https://pkg.go.dev/math/rand/v2" lang="en" >}}
 ```go
@@ -471,7 +471,7 @@ func (c *ChaCha8) Uint64() uint64 {
 ランタイムに組み込まれているものと違って，こちらは排他処理を行っていない。
 並行的に安全（concurrency safe）ではないわけだ。
 なので平行処理下で [`math/rand/v2`] の ChaCha8 を扱う場合は要注意である。
-つか，平行処理下で ChaCha8 を使うならトップレベル関数群を使うべきだろう。
+つか，平行処理下で ChaCha8 疑似乱数生成器を使うならトップレベル関数群を使うべきだろう。
 
 ## PCG を rand.Source にする
 
