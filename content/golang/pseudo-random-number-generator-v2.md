@@ -429,7 +429,7 @@ func (*runtimeSource) Uint64() uint64 {
 うんうん。
 シンプルが一番だね。
 
-## ChaCha8 を rand.Sorce にする
+## ChaCha8 を rand.Source にする
 
 ChaCha8 を疑似乱数の `Source` として明示的に組み込む場合は， [`rand`][`math/rand/v2`]`.NewChaCha8()` 関数を使って生成する。
 
@@ -473,7 +473,7 @@ func (c *ChaCha8) Uint64() uint64 {
 なので平行処理下で [`math/rand/v2`] の ChaCha8 を扱う場合は要注意である。
 つか，平行処理下で ChaCha8 を使うならトップレベル関数群を使うべきだろう。
 
-## PCG を rand.Sorce にする
+## PCG を rand.Source にする
 
 [`math/rand/v2`] にはもうひとつ疑似乱数生成器が用意されている。
 PCG (Permuted Congruential Generator) というそうな。
