@@ -25279,5 +25279,48 @@
       true
     ],
     "Description": "神曲。実際には \u003ca href=\"https://mora.jp/package/43000021/SQEX-50142-2/\"\u003emora\u003c/a\u003e で購入。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00I8ETG96",
+      "Title": "赤ずきんチャチャ 1 (りぼんマスコットコミックスDIGITAL)",
+      "URL": "https://www.amazon.co.jp/dp/B00I8ETG96?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51bXS7crIjL._SL160_.jpg",
+        "Height": 160,
+        "Width": 117
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "彩花みん",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "集英社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00I8ETG96"
+        }
+      ],
+      "PublicationDate": "1993-02-15",
+      "LastRelease": "2014-02-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-03-07",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "そういえばコミックは読んでないかな。「リボン」は読まなかったからなぁ..."
   }
 ]

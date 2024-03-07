@@ -2,7 +2,7 @@
 title = "Go 1.22 にアップデートする（セキュリティ・アップデートの追記あり）"
 date =  "2024-03-03T11:25:30+09:00"
 description = "仕事の忙しさにかまけて色々と放っぽり出してたので，少しずつ回復中。"
-image = "/images/attention/tools.png"
+image = "/images/attention/go-logo_blue.png"
 tags  = [ "programming", "language", "golang", "ubuntu", "security", "vulnerability" ]
 pageType = "text"
 
