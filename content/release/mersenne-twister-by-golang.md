@@ -24,35 +24,40 @@ pageType = "text"
 特に2番目が重要で，モンテカルロ法などの科学技術計算に向いている。
 Ruby などの一部のプログラミング言語では標準の疑似乱数生成器として組み込まれているらしい。
 
-[goark/mt][`mt`] は [Mersenne Twister] のオリジナルコード（C/C++）を pure [Go] で書き直したものである。
+[`github.com/goark/mt/v2`] パッケージは [Mersenne Twister] のオリジナルコード（C/C++）を pure [Go] で書き直したものである。
 
 [![check vulns](https://github.com/goark/mt/workflows/vulns/badge.svg)](https://github.com/goark/mt/actions)
 [![lint status](https://github.com/goark/mt/workflows/lint/badge.svg)](https://github.com/goark/mt/actions)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/goark/mt/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/goark/mt.svg)](https://github.com/goark/mt/releases/latest)
 
-[goark/mt][`mt`] の特徴は以下の通り。
+[`github.com/goark/mt/v2`] パッケージの特徴は以下の通り。
 
-- [math/rand][`rand`] 互換で [`rand`]`.Rand` のソースとして利用できる
-- 並行的に安全（concurrency safe）な構成にできる（[`mt`]`.PRNG` 型を利用した場合）
+- [`math/rand/v2`] パッケージ互換で [`rand`][`math/rand/v2`]`.Rand` のソースとして利用できる
+- 並行的に安全（concurrency safe）な構成にできる（[`mt`][`github.com/goark/mt/v2`]`.PRNG` 型を利用した場合）
 
-## mt/mt19937.Source の機能
+## github.com/goark/mt/v2/mt19937.Source の機能
 
-[`mt`]`/mt19937` パッケージは [64bit版 Mersenne Twister](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/mt64.html) を元に pure [Go] で書き直したものである。
+[`github.com/goark/mt/v2`]`/mt19937` パッケージは [64bit版 Mersenne Twister](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/mt64.html) を元に pure [Go] で書き直したものである。
 
-[`mt`]`/mt19937.Source` はそのまま疑似乱数生成器として使える。
+`mt19937.Source` はそのまま疑似乱数生成器として使える。
 たとえば以下のように記述する。
 
 ```go
+package main
+
 import (
     "fmt"
 
-    "github.com/goark/mt/mt19937"
+    "github.com/goark/mt/v2"
+    "github.com/goark/mt/v2/mt19937"
 )
 
-fmt.Println(mt19937.New(19650218).Uint64())
-//Output:
-//13735441942630277712
+func main() {
+    fmt.Println(mt.New(mt19937.New(19650218)).Uint64())
+    //Output:
+    //13735441942630277712
+}
 ```
 
 提供するメソッドは以下の通り。
@@ -62,7 +67,6 @@ fmt.Println(mt19937.New(19650218).Uint64())
 | `Source.Seed(int64)`         | 乱数のシードをセットする                          |
 | `Source.SeedArray([]uint64)` | 乱数のシード（配列）をセットする                  |
 | `Source.Uint64() uint64`     | 乱数として範囲 $[0, 2^{64}-1]$ の整数値を生成する |
-| `Source.Int63() int64`       | 乱数として範囲 $[0, 2^{63}-1]$ の整数値を生成する |
 | `Source.Real(int) float64`   | 乱数として浮動小数点数値を生成する                |
 
 `Source.Real()` 関数の引数による乱数の出力範囲は以下の通り。
@@ -73,47 +77,54 @@ fmt.Println(mt19937.New(19650218).Uint64())
 |    2     | 範囲 $(0, 1)$ の浮動小数点数値 |
 | 上記以外 | 範囲 $[0, 1]$ の浮動小数点数値 |
 
-なお [`mt`]`/mt19937.Source` は並行的に安全ではないので goroutine 間でインスタンスを共有できない。
+なお `mt19937.Source` は並行的に安全ではないので goroutine 間でインスタンスを共有できない。
 
-## [math/rand][`rand`] と組み合わせる
+## math/rand/v2 パッケージと組み合わせる
 
-[`mt`]`/mt19937.Source` を [`rand`]`.Rand` のソースとして利用するには以下のように記述すればよい。
+`mt19937.Source` を [`math/rand/v2`] パッケージの [`rand`][`math/rand/v2`]`.Rand` のソースとして利用するには以下のように記述すればよい。
 
 ```go
-import (
-    "fmt"
-    "math/rand"
-
-    "github.com/goark/mt/mt19937"
-)
-
-fmt.Println(rand.New(mt19937.New(19650218)).Uint64())
-//Output:
-//13735441942630277712
-```
-
-これで [`rand`]`.Rand` が提供するメソッドはすべて使える。
-ただし [`rand`]`.Rand` 自体も並行的に安全ではないので，取り扱いにはやはり注意が必要である。
-
-## mt.PRNG と組み合わせる
-
-[`mt`]`/mt19937.Source` 型を [`mt`]`.PRNG` 型と組み合わせることで並行的に安全な構成にできる。
-たとえばこんな感じに記述できる。
-
-```go {hl_lines=[13,19]}
 package main
 
 import (
-    "sync"
-    "time"
+    "fmt"
+    "math/rand/v2"
 
-    "github.com/goark/mt"
-    "github.com/goark/mt/mt19937"
+    "github.com/goark/mt/v2/mt19937"
 )
 
 func main() {
+    fmt.Println(rand.New(mt19937.New(19650218)).Uint64())
+    //Output:
+    //13735441942630277712
+}
+```
+
+これで [`rand`][`math/rand/v2`]`.Rand` が提供するメソッドはすべて使える。
+ただし [`rand`][`math/rand/v2`]`.Rand` 自体も並行的に安全ではないので，取り扱いにはやはり注意が必要である。
+
+## mt.PRNG と組み合わせる
+
+`mt19937.Source` 型を [`mt`][`github.com/goark/mt/v2`]`.PRNG` 型と組み合わせることで並行的に安全な構成にできる。
+たとえばこんな感じに記述できる。
+
+```go
+package main
+
+import (
+    "fmt"
+    "math/rand/v2"
+    "sync"
+    "time"
+
+    "github.com/goark/mt/v2"
+    "github.com/goark/mt/v2/mt19937"
+)
+
+func main() {
+    start := time.Now()
     wg := sync.WaitGroup{}
-    prng := mt.New(mt19937.New(time.Now().UnixNano()))
+    prng := mt.New(mt19937.New(rand.Int64()))
     for i := 0; i < 1000; i++ {
         wg.Add(1)
         go func() {
@@ -124,32 +135,53 @@ func main() {
         }()
     }
     wg.Wait()
+    fmt.Println("Time:", time.Now().Sub(start))
 }
 ```
 
-[`mt`]`.PRNG` 型は [`mt`]`/mt19937.Source` のラッパーになっていて [`rand`]`.Rand` と組み合わせることも可能だが， [`rand`]`.Rand` の内部構造の問題で並行的に安全にならない。
-ご注意を。
+[`mt`][`github.com/goark/mt/v2`]`.PRNG` 型は [`github.com/goark/mt/v2`]`/mt19937.Source` のラッパーになっている。
+
+```go
+import (
+    "math/rand/v2"
+    "sync"
+)
+
+// Source represents a source of uniformly-distributed
+type Source interface {
+    rand.Source
+    SeedArray([]uint64)
+    Real(int) float64
+}
+
+// PRNG is class of pseudo random number generator.
+type PRNG struct {
+    source Source
+    mutex  *sync.Mutex
+}
+```
 
 ### io.Reader 互換の疑似乱数生成器
 
-[`mt`]`.PRNG` のインスタンスから [`mt`]`.Reader` 型のインスタンスを生成できる。
+[`mt`][`github.com/goark/mt/v2`]`.PRNG` のインスタンスから [`mt`][`github.com/goark/mt/v2`]`.Reader` 型のインスタンスを生成できる。
 こんな感じに記述できる。
 
-```go {hl_lines=[14,19,22]}
+```go
 package main
 
 import (
+    "encoding/binary"
     "fmt"
+    "math/rand/v2"
     "sync"
-    "time"
 
-    "github.com/goark/mt"
-    "github.com/goark/mt/mt19937"
+    "github.com/goark/mt/v2"
+    "github.com/goark/mt/v2/mt19937"
 )
 
 func main() {
     wg := sync.WaitGroup{}
-    prng := mt.New(mt19937.New(time.Now().UnixNano()))
+    prng := mt.New(mt19937.New(rand.Int64()))
     for i := 0; i < 1000; i++ {
         wg.Add(1)
         go func() {
@@ -157,7 +189,7 @@ func main() {
             r := prng.NewReader()
             buf := [8]byte{}
             for i := 0; i < 10000; i++ {
-                ct , err := r.Read(buf[:])
+                ct, err := r.Read(buf[:])
                 if err != nil {
                     return
                 }
@@ -169,62 +201,26 @@ func main() {
 }
 ```
 
-[`mt`]`.Reader` 型は [`io`]`.Reader` インタフェースと互換性がある。
-また [`mt`]`.Reader` インスタンスも並行的に安全なので goroutine 間で共有可能である。
+[`mt`][`github.com/goark/mt/v2`]`.Reader` 型は [`io`]`.Reader` インタフェースと互換性がある。
+また [`mt`][`github.com/goark/mt/v2`]`.Reader` インスタンスも並行的に安全なので goroutine 間で共有可能である。
 
 ## ライセンスについて
 
-[goark/mt][`mt`] は MIT ライセンスで提供している。
+[`github.com/goark/mt/v2`] パッケージは MIT ライセンスで提供している。
 
 オリジナルの [Mersenne Twister] コードは GPL または BSD ライセンスで提供されているが MIT ライセンスに書き換えてもいいらしい。
 
 - [Mersenne Twisterの商業利用について](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/MT2002/license.html)
 
-というわけで [goark/mt][`mt`] は MIT ライセンスで提供することにした。
+というわけで [`github.com/goark/mt/v2`] パッケージは MIT ライセンスで提供することにした。
 ご利用はお気軽に。
-
-## 【おまけ】 secure.Source について
-
-暗号処理などで使われる [crypto/rand] 標準パッケージを [math/rand][`rand`] 標準パッケージのソースとして使うための [`mt`]`/secure` サブパッケージを作った。
-今回追加した `secure.Source` 型は以下のメソッドを持つ。
-
-| メソッド                           | 機能                                                       |
-| ---------------------------------- | ---------------------------------------------------------- |
-| `Source.Seed(int64)`               | 何もしないダミー・メソッド                                 |
-| `Source.SeedArray([]uint64)`       | 何もしないダミー・メソッド                                 |
-| `Source.Read([]byte) (int, error)` | オクテット単位で乱数を生成する<br>（[`io`]`.Reader` 互換） |
-| `Source.Uint64() uint64`           | 乱数として範囲 $[0, 2^{64}-1]$ の整数値を生成する          |
-| `Source.Int63() int64`             | 乱数として範囲 $[0, 2^{63}-1]$ の整数値を生成する          |
-| `Source.Real(int) float64`         | 乱数として浮動小数点数値を生成する                         |
-
-これで [`rand`]`.Source` / [`rand`]`.Source64` および [`mt`]`.Source` として [`rand`]`.Rand` 型や [`mt`]`.PRNG` 型の機能を利用することができる。
-
-```go
-//go:build run
-// +build run
-
-package main
-
-import (
-    "fmt"
-    "math/rand"
-
-    "github.com/goark/mt"
-    "github.com/goark/mt/secure"
-)
-
-func main() {
-    fmt.Println(rand.New(secure.Source{}).Uint64())
-    fmt.Println(mt.New(secure.Source{}).Uint64())
-}
-```
 
 [Go]: https://go.dev/
 [Mersenne Twister]: http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/mt.html "Mersenne Twister: A random number generator (since 1997/10)"
-[`rand`]: https://pkg.go.dev/math/rand "rand package - math/rand - pkg.go.dev"
+[`math/rand/v2`]: https://pkg.go.dev/math/rand/v2 "rand package - math/rand - pkg.go.dev"
 [`io`]: https://golang.org/pkg/io/ "io - The Go Programming Language"
-[`mt`]: https://github.com/goark/mt "goark/mt: Mersenne Twister; Pseudo Random Number Generator, Implemented by Golang"
-[crypto/rand]: https://pkg.go.dev/crypto/rand "rand package - crypto/rand - pkg.go.dev"
+[`github.com/goark/mt/v2`]: https://github.com/goark/mt "goark/mt: Mersenne Twister; Pseudo Random Number Generator, Implemented by Golang"
+[`crypto/rand`]: https://pkg.go.dev/crypto/rand "rand package - crypto/rand - pkg.go.dev"
 
 ## 参考図書
 
