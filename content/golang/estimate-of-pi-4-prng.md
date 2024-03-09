@@ -2,12 +2,7 @@
 title = "モンテカルロ法による円周率の推定（その4 PRNG）"
 date = "2016-11-20T23:33:55+09:00"
 description = "math/rand パッケージでは rand.Source interface を持つ別の擬似乱数生成器を使うことができる。"
-tags = [
- "golang",
-  "math",
-  "random",
-  "circle-ratio",
-]
+tags = [ "golang", "math", "random", "circle-ratio", "mersenne-twister" ]
 
 [scripts]
   mathjax = true

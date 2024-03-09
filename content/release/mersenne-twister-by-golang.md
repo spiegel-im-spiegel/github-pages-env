@@ -3,7 +3,7 @@ title = "疑似乱数生成器 goark/mt"
 date =  "2019-09-22T17:37:19+09:00"
 description = "goark/mt は64bit版 Mersenne Twister を元に pure Go で書き直したものである。"
 image = "/images/attention/go-logo_blue.png"
-tags = [ "package", "module", "golang", "random" ]
+tags = [ "package", "module", "golang", "random", "mersenne-twister" ]
 pageType = "text"
 
 [scripts]

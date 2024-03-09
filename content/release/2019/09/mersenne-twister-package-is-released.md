@@ -3,7 +3,7 @@ title = "疑似乱数生成器 spiegel-im-spiegel/mt をリリースした"
 date =  "2019-09-22T17:37:19+09:00"
 description = "ついカッとなって書いた。反省はしていない。"
 image = "/images/attention/go-logo_blue.png"
-tags = [ "package", "module", "golang", "random" ]
+tags = [ "package", "module", "golang", "random", "mersenne-twister" ]
 pageType = "text"
 
 [scripts]
