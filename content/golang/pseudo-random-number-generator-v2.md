@@ -517,6 +517,7 @@ PCG は線形合同法（LCG）のバリエーションなんだそうで， LCG
 - [Go 1.22 Release Notes - The Go Programming Language](https://go.dev/doc/go1.22)
 - [RFC 4086 - Randomness Requirements for Security](https://tools.ietf.org/html/rfc4086) （[日本語訳](https://www.nic.ad.jp/ja/tech/ipa/RFC4086JA.html "セキュリティのための乱雑性についての要件")）
 - [Go の疑似乱数生成器は並行的に安全ではないらしい（追記あり）]({{< ref "/golang/pseudo-random-number-generator.md" >}})
+- [Go 1.22 の math/rand/v2 を使ってみる](https://zenn.dev/spiegel/articles/20240309-golang-math-rand-v2)
 
 [Go]: https://go.dev/
 [`internal/chacha8rand`]: https://pkg.go.dev/internal/chacha8rand "chacha8rand package - internal/chacha8rand - Go Packages"
