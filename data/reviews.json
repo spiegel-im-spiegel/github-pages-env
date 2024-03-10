@@ -25137,7 +25137,7 @@
       true,
       true
     ],
-    "Description": "頑張ったご褒美に購入。特に低音が素晴らしい。流石 BOSE といったところか。卓上スピーカーとしては上々。"
+    "Description": "頑張ったご褒美に購入。特に低音が素晴らしい。流石 BOSE といったところか。入力はオーディオ端子が2系統ある。デジタルの入力ポートはない。電力は AC アダプタから。卓上スピーカーとしては上々。"
   },
   {
     "Book": {
@@ -25322,5 +25322,48 @@
       false
     ],
     "Description": "そういえばコミックは読んでないかな。「リボン」は読まなかったからなぁ..."
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CR18XWZW",
+      "Title": "群論への第一歩　集合、写像から準同型定理まで",
+      "URL": "https://www.amazon.co.jp/dp/B0CR18XWZW?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51au0wo+jpL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "結城 浩",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "SBクリエイティブ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CR18XWZW"
+        }
+      ],
+      "PublicationDate": "2024-03-02",
+      "LastRelease": "2024-03-02",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-03-02",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "タイトルにあるように「群論」へ至る道を指し示す良書。学生時代に読みたかった orz"
   }
 ]
