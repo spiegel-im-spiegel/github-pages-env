@@ -25365,5 +25365,95 @@
       true
     ],
     "Description": "タイトルにあるように「群論」へ至る道を指し示す良書。学生時代に読みたかった orz"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B008BR7OM6",
+      "Title": "アニソン・コレクションVol.1",
+      "URL": "https://www.amazon.co.jp/dp/B008BR7OM6?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/614099rA2HL._SL160_.jpg",
+        "Height": 158,
+        "Width": 160
+      },
+      "ProductType": "CD",
+      "Creators": [
+        {
+          "Name": "永井ルイ",
+          "Role": "アーティスト"
+        }
+      ],
+      "Publisher": "ストレンジ・デイズ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B008BR7OM6"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4562392610015"
+        }
+      ],
+      "PublicationDate": "2012-07-13",
+      "LastRelease": "2012-07-14",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-03-13",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ「THE ビッグオー」のOP曲「BIG-O! Show Must Go On」が収録されてるというので衝動買い。他にあの名曲「乙女のポリシー」とかもある。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CKGZ68P9",
+      "Title": "LETTER☆彡",
+      "URL": "https://www.amazon.co.jp/dp/B0CKGZ68P9?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51HYEz55zlL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "白上フブキ",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "cover corp.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CKGZ68P9"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2023-10-06",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-03-13",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "\u003ca href=\"https://www.youtube.com/watch?v=LEeFwC4wvpI\"\u003e100万再生突破\u003c/a\u003eおめでとう。正しくアイドル曲で可愛らしい曲。 mora で\u003ca href=\"https://mora.jp/package/43000066/PA00124218-0-2/\"\u003e高解像度版\u003c/a\u003eが買える。"
   }
 ]
