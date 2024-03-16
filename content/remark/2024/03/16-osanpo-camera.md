@@ -2,7 +2,7 @@
 title = "お散歩カメラ 2024-04-16"
 date =  "2024-03-16T22:25:09+09:00"
 description = "冬インナーを脱ごう / 玉造温泉に行こう / 史跡出雲玉作跡 / 昼飯→定点観測 / 今日の宍道湖（夕景）"
-image = "http://localhost:1313/remark/2024/03/16-osanpo-camera/53590732106_34134a57e9_o.jpg"
+image = "/remark/2024/03/16-osanpo-camera/53590732106_34134a57e9_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "bike", "ruins" ]
 license = "by"
 pageType = "photo"
