@@ -79,6 +79,10 @@ OpenJDK 64-Bit Server VM (build 22+36-2370, mixed mode, sharing)
 2024-03 時点で Premier Support が終了しているものは除いている。
 いまだ需要のある Java 8 については [Adoptium](https://adoptium.net/) などで最新バイナリを取得可能。
 
+## ブックマーク
+
+- [Java 22リリース――Project AmberやProject PanamaのスタンダードJEPを含め12のJEPsがアップデート。そして、2025年のJavaOneがベイエリアで開催 | gihyo.jp](https://gihyo.jp/article/2024/03/java22)
+
 [OpenJDK]: http://openjdk.java.net/
 [AdoptOpenJDK]: https://adoptopenjdk.net/ "AdoptOpenJDK - Open source, prebuilt OpenJDK binaries"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
