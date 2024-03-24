@@ -25455,5 +25455,48 @@
       false
     ],
     "Description": "\u003ca href=\"https://www.youtube.com/watch?v=LEeFwC4wvpI\"\u003e100万再生突破\u003c/a\u003eおめでとう。正しくアイドル曲で可愛らしい曲。 mora で\u003ca href=\"https://mora.jp/package/43000066/PA00124218-0-2/\"\u003e高解像度版\u003c/a\u003eが買える。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CW1DZS1W",
+      "Title": "科学2024年3月号［雑誌］",
+      "URL": "https://www.amazon.co.jp/dp/B0CW1DZS1W?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41pm5BJKQwL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "岩波書店『科学』編集部",
+          "Role": "編集"
+        }
+      ],
+      "Publisher": "岩波書店",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CW1DZS1W"
+        }
+      ],
+      "PublicationDate": "2024-02-22",
+      "LastRelease": "2024-03-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-03-01",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "この号の特集は「現代暗号の展開と応用」。耐量子計算機暗号や格子暗号といった今どきなキーワードも出てくる。"
   }
 ]

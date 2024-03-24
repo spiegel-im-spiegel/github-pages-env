@@ -90,3 +90,4 @@ All possibly affected users should check whether such an unintended copy of a sm
 
 {{% review-paapi "4314009071" %}} <!-- 暗号化 プライバシーを救った反乱者たち -->
 {{% review-paapi "B015643CPE" %}} <!-- 暗号技術入門 第3版 -->
+{{% review-paapi "B0CW1DZS1W" %}} <!-- 岩波「科学」2024年3月号 現代暗号の展開と応用 -->
