@@ -49,7 +49,7 @@ $ gpgpdump fetch https://github.com/spiegel-im-spiegel.gpg
 まぁ，どのみち OpenPGP 鍵は [ECC にしたい]({{< ref "/openpgp/using-ecc-with-gnupg.md" >}} "そろそろ GnuPG でも ECC を標準で使うのがいいんじゃないかな")ので，いつかは入れ替えなきゃいけないけどね。
 それもこれも [GnuPG] 2.4 系の環境が整ってからだ！
 
-...というわけで，もう少しグズってます。
+...というわけで，もうしばらくはグズってます。
 
 ## ブックマーク
 
