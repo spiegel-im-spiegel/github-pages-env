@@ -126,7 +126,7 @@ Synology NAS から見て [tailscale-synology] はサードパーティ製品な
 
 よーし，うむうむ，よーし。
 
-## Android 端末に Tailscale をインストールする
+## Android 端末に Tailscale をインストールする { #android }
 
 次は手持ちの Android 機に [Tailscale] をインストールして，外から前節で設定した Synology NAS にアクセスしてみる。
 
