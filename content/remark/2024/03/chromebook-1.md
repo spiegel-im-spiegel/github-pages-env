@@ -15,18 +15,20 @@ pageType = "text"
 ちうわけで「頑張ったご褒美」第2弾。
 ついに Chromebook を導入することにした。
 
+## 「頑張ったご褒美」にノートPCを物色中
+
 私は（当時の）東芝の Dynabook が登場したばかりの頃にそれを持たされて，現地調整と称して客先に缶詰になったことが何度かあってノート PC にいいイメージがない。
-（今で言うところの）ブラックの象徴だったり（笑）
+（今で言うところの）ブラックの象徴だったり。
 まぁ，でも，仕事以外のサイクリング等で出掛けた先で軽く調べ物とかできたらいいなぁ，とちょっと思い直した。
 そんでノートPCの物色を始めたんだけど...
 
 私がプライベートで使ってる[メッセンジャーバッグ]({{< ref "http://localhost:1313/remark/2022/10/messenger-bag/" >}} "遅走り，早歩き")はサイズ小さめで13インチ以下のノートPCしか入らないのね。
 なのでその線で探してみたんだけど，
-15インチノートPCのほうが断然安いってどういうことやねん！ 年度末で各メーカーが安売りしてるみたいだけど，13インチノートPCは恩恵を受けられないようだ。
-中古PCは前に酷い目にあったので買いたくないし...
+15インチノートPCのほうが断然安いってどういうことやねん！ 進学・就職・異動の季節で各メーカーが安売りしてるみたいだけど，13インチノートPCは恩恵を受けられないようだ。
+中古PCは前に酷い目にあったので買いたくないし。
 
-などとしばらく悩んで「そうだ！ Chromebook なら要件を満たすんじゃね？」と気がついた。
-しかも想定よりだいぶ安上がりになるし。
+...などとしばらく悩んで「そうだ！ Chromebook なら要件を満たすんじゃね？」と気がついた。
+しかも想定よりだいぶ安上がりになるし（笑）
 
 ## Chromebook / ChromeOS とは
 
@@ -49,8 +51,8 @@ ChromeOS は，もの凄く簡単に言うと， Chrome ブラウザを GUI と�
 日和ったとも言う（笑）
 
 要件を満たす候補として [ASUS 製](https://www.amazon.co.jp/gp/product/B0BKKF7JHV?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)と [Lenovo 製](https://www.amazon.co.jp/dp/B0CNSWLJFM?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)の2つまで絞り込んだ。
-[Lenovo 製](https://www.amazon.co.jp/dp/B0CNSWLJFM?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)のほうが安くて軽くてストレージ容量が大きいのだが，私が ASUS のほうが好きなのとメモリ容量が大きいということで [ASUS 製](https://www.amazon.co.jp/gp/product/B0BKKF7JHV?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)に決めた。
-ストレージは増やせるからね。
+[Lenovo 製](https://www.amazon.co.jp/dp/B0CNSWLJFM?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)のほうが安くて軽くてストレージ容量が大きいのだが，私が ASUS のほうが好みなのとメモリ容量が大きいということで [ASUS 製](https://www.amazon.co.jp/gp/product/B0BKKF7JHV?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)に決めた。
+ストレージは後から調達できるからね。
 
 というわけで到着。
 
@@ -77,7 +79,7 @@ ChromeVox って何？
 
 そんなこんなでセットアップも無事完了して，色々と弄り始めたのだが，スクリーンロックからの復帰とか，ことあるごとに Google アカウントのパスワードを入れさせようとするのね。
 いや，パスワードは覚えない主義なので，それじゃ困るわけさ。
-PIN コードの設定とかできないの？ と探してみたらあった。
+せめて PIN コードの設定とかできないの？ と探してみたらあった。
 
 設定から「セキュリティとプライバシー」を選択し，さらに「ロック画面とログイン」を開く。
 
@@ -92,7 +94,9 @@ PIN コードの設定とかできないの？ と探してみたらあった。
 
 Chromebook に標準で入ってる「ファイル（Files）」アプリはかなり出来がよくて，最初から Google Drive がマウントされた状態になっている。
 ただ，私の場合はクラウドストレージは Dropbox を常用してるのね。
-調べてみたら Dropbox も Google Drive のように Files にマウントできるようだ。
+調べてみたら Dropbox も Google Drive のように Files にマウントできるようだ[^cs1]。
+
+[^cs1]: あとで調べたら Box や OnDrive も Android アプリを使って Files にマウントできるらしい。今回は試さないが。
 
 - [Chromebook の Files アプリに Dropbox を追加する - Dropbox ヘルプ](https://help.dropbox.com/ja-jp/integrations/google-files-app)
 
@@ -103,8 +107,6 @@ Chromebook に標準で入ってる「ファイル（Files）」アプリはか�
 これで自動的に Files に Dropbox が表示される。
 
 {{< fig-img src="./dropbox-in-files.png" title="Dropbox をマウントする" link="./dropbox-in-files.png" width="1100" >}}
-
-よーし，うむうむ，よーし。
 
 もし，いつまで待っても Dropbox が表示されないなら，一度再起動すると上手く行くことがある。
 
@@ -117,7 +119,7 @@ Chromebook に標準で入ってる「ファイル（Files）」アプリはか�
 
 「ファイル共有 URL」に共有ディレクトリを `\\server\shared_directory` または `smb://server/shared_directory` 形式で指定し，ユーザ名とパスワードをセットする。
 
-ちなみに今回買った ASUSU の Chromebook ではキーボード右上の <span style="border:solid 1px;border-radius:5px;">&nbsp;&yen;&nbsp;</span> キーと右下の <span style="border:solid 1px;border-radius:5px;">&nbsp;`\`&nbsp;</span> キーに割り当てられている文字コードが正しく &yen; (`U+00A5`) と `\` (`U+005C`) に割り当てられていた。
+ちなみに今回買った ASUS の Chromebook ではキーボード右上の {{% keytop %}}&yen;{{% /keytop %}} キーと右下の {{% keytop %}}`\`{{% /keytop %}} キーに割り当てられている文字コードが正しく &yen; (`U+00A5`) と `\` (`U+005C`) に割り当てられていた。
 ちょっとしたことなんだけど時代を感じるねぇ。
 
 ## Tailscale も設定できた
@@ -129,6 +131,8 @@ Andorid アプリの Tailscale アプリを導入することで tailscale に�
 
 当然ながらセットアップは [Android 版]({{< ref "/remark/2021/10/tailscale-with-synology-nas.md#android" >}} "Android 端末に Tailscale をインストールする")と同じ。
 これで外から自宅 NAS に繋がるようになった。
+
+よーし，うむうむ，よーし。
 
 ## その他のインストール
 

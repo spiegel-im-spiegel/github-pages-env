@@ -67,7 +67,7 @@ pageType = "text"
 あと，[結城浩]さんの他の著書と同じく，この本でも章ごとに演習問題（と解答&解説）が載ってるんだけど，演習だからとうっかり読み飛ばしたりすると，後の章に
 
 {{< fig-quote type="markdown" title="『群論への第一歩』p.76" link="https://www.amazon.co.jp/dp/B0CR18XWZW?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1" >}}
-- **なぜ**、 $(S_3,\circ)$ が <span style="border:solid 1px;border-radius:5px;">G1</span> を満たすといえるのですか<br>
+- **なぜ**、 $(S_3,\circ)$ が {{% keytop %}}G1{{% /keytop %}} を満たすといえるのですか<br>
 &nbsp;&nbsp;**なぜなら**、写像の合成は結合律を満たすからです（p. 59 の問題 2-3）。
 {{< /fig-quote >}}
 
