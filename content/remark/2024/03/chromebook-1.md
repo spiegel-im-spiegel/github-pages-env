@@ -119,7 +119,7 @@ Chromebook に標準で入ってる「ファイル（Files）」アプリはか�
 
 「ファイル共有 URL」に共有ディレクトリを `\\server\shared_directory` または `smb://server/shared_directory` 形式で指定し，ユーザ名とパスワードをセットする。
 
-ちなみに今回買った ASUS の Chromebook ではキーボード右上の {{% keytop %}}&yen;{{% /keytop %}} キーと右下の {{% keytop %}}`\`{{% /keytop %}} キーに割り当てられている文字コードが正しく &yen; (`U+00A5`) と `\` (`U+005C`) に割り当てられていた。
+ちなみに今回買った ASUS の Chromebook ではキーボード右上の {{% keytop %}}&yen;{{% /keytop %}} キーと右下の {{% keytop %}}`\`{{% /keytop %}} キーに割り当てられている文字コードが正しく &yen; (`U+00A5`) と `\` (`U+005C`) になっていた。
 ちょっとしたことなんだけど時代を感じるねぇ。
 
 ## Tailscale も設定できた
