@@ -159,6 +159,7 @@ Andorid アプリの Tailscale アプリを導入することで tailscale に�
 ## 参考
 
 {{% review-paapi "B0BKKF7JHV" %}} <!-- ASUS Chromebook -->
+{{% review-paapi "B0CH2X5LBX" %}} <!-- micoroSD カード -->
 {{% review-paapi "B00G9NIL7G" %}} <!-- エレコム マウス Bluetooth -->
 {{% review-paapi "B09BMPZ3BZ" %}} <!-- Chromebook仕事術 -->
 {{% review-paapi "B08P54PQDB" %}} <!-- メッセンジャーバッグ -->

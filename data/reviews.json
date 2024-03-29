@@ -25586,5 +25586,50 @@
       false
     ],
     "Description": "ASUS 製 Chromebook。11.6インチディスプレイ，8GBメモリ，32GBストレージ。正直，ストレージはもう少し欲しかったがメモリ容量優先で選んだ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CH2X5LBX",
+      "Title": "【 サンディスク 正規品 】 SanDisk microSDカード 128GB UHS-I Class10 10年間限定保証Ultra SDSQUAB-128G-GH3MA 新パッケージ",
+      "URL": "https://www.amazon.co.jp/dp/B0CH2X5LBX?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41Gbz-hLVTL._SL160_.jpg",
+        "Height": 116,
+        "Width": 160
+      },
+      "ProductType": "Personal Computers",
+      "Publisher": "SanDisk",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CH2X5LBX"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0619659201579"
+        },
+        {
+          "Name": "UPC",
+          "Value": "619659201579"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2023-09-29",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-03-29",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "Chromebook の外部ストレージとして購入。"
   }
 ]
