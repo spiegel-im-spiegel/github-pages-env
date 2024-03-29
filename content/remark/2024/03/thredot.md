@@ -5,7 +5,6 @@ description = "メモ書きに「分類」は不要というのは同意する�
 image = "/images/attention/kitten.jpg"
 tags = [ "tools", "chromebook", "web" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
