@@ -49,7 +49,7 @@ pageType = "text"
 
 よーし，うむうむ，よーし。
 
-既に Chromebook の作業メモは [Thredot] で行っている（非公開ご容赦）。
+既に Chromebook セットアップの作業メモは [Thredot] で行っている（非公開ご容赦）。
 やっぱスレッド形式でメモをバンバンぶち込めるのは気持ちいい。
 今までメモサービスとしては [Simplenote](https://simplenote.com/) を常用していたが，作業メモや読書メモは [Thredot] のほうがよさそうだ。
 
