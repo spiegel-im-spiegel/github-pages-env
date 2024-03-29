@@ -96,7 +96,7 @@ Chromebook に標準で入ってる「ファイル（Files）」アプリはか�
 ただ，私の場合はクラウドストレージは Dropbox を常用してるのね。
 調べてみたら Dropbox も Google Drive のように Files にマウントできるようだ[^cs1]。
 
-[^cs1]: あとで調べたら Box や OnDrive も Android アプリを使って Files にマウントできるらしい。今回は試さないが。
+[^cs1]: あとで調べたら Box や OneDrive も Android アプリを使って Files にマウントできるらしい。今回は試さないが。
 
 - [Chromebook の Files アプリに Dropbox を追加する - Dropbox ヘルプ](https://help.dropbox.com/ja-jp/integrations/google-files-app)
 
