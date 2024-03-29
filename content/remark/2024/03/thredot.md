@@ -34,7 +34,7 @@ pageType = "text"
 
 {{< fig-img src="./my-thredot.png" title="Thredot にアカウントを作った" link="./my-thredot.png" width="1100" >}}
 
-上の絵は先日導入した Chromebook の Chrome ブラウザで表示させたもの。
+上の絵は[先日導入した Chromebook]({{< ref "/remark/2024/03/chromebook-1.md" >}} "Chromebook を導入する") の Chrome ブラウザで表示させたもの。
 更に [Thredot] サイトを PWA (Progressive Web Apps) 化してみる。
 
 {{< fig-img src="./pwa.png" title="Thredot サイトを PWA 化する (1)" link="./pwa.png" width="1366" >}}
