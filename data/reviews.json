@@ -25631,5 +25631,50 @@
       false
     ],
     "Description": "Chromebook の外部ストレージとして購入。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B079MCPJGH",
+      "Title": "CloudValley 0.6mm 超薄型 ウェブカメラカバー、メタルカメラカバー カメラ目隠し MacBook air・ノートパソコン・iMac・デスクトップ・PC・MacBook Pro・iPad・iPhone 8/7/6用、プライバシーウェブカメラプロテクション 【2本セット】ブラック",
+      "URL": "https://www.amazon.co.jp/dp/B079MCPJGH?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41PXfQ8766L._SL160_.jpg",
+        "Height": 160,
+        "Width": 156
+      },
+      "ProductType": "Personal Computers",
+      "Publisher": "CloudValley",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B079MCPJGH"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0654070887322"
+        },
+        {
+          "Name": "UPC",
+          "Value": "654070887322"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-03-30",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "ノートPCに見られるのが嫌なので目隠しした。"
   }
 ]
