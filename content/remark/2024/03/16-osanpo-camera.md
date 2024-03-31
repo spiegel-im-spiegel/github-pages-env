@@ -1,5 +1,5 @@
 +++
-title = "お散歩カメラ 2024-04-16"
+title = "お散歩カメラ 2024-03-16"
 date =  "2024-03-16T22:25:09+09:00"
 description = "冬インナーを脱ごう / 玉造温泉に行こう / 史跡出雲玉作跡 / 昼飯→定点観測 / 今日の宍道湖（夕景）"
 image = "/remark/2024/03/16-osanpo-camera/53590732106_34134a57e9_o.jpg"
@@ -174,6 +174,8 @@ pageType = "photo"
 [八雲温泉ゆうあい熊野館]: https://www.kumanokan.jp/ "八雲温泉ゆうあい熊野館"
 [木次乳業]: https://www.kisuki-milk.co.jp/ "木次乳業"
 [島根県立図書館]: https://www.library.pref.shimane.lg.jp/ "島根県立図書館"
+
+## 参考
 
 {{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
 {{% review-paapi "B0BLNFPWTQ" %}} <!-- trimm ROLLIN サイクルコンピュータ -->

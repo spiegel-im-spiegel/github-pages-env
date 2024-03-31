@@ -25676,5 +25676,48 @@
       false
     ],
     "Description": "ノートPCに見られるのが嫌なので目隠しした。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CPXWKNZT",
+      "Title": "Bling-Bang-Bang-Born",
+      "URL": "https://www.amazon.co.jp/dp/B0CPXWKNZT?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51Y0hceoNLL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "Creepy Nuts",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Sony Music Labels Inc.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CPXWKNZT"
+        }
+      ],
+      "PublicationDate": "2024-01-07",
+      "LastRelease": "2024-01-07",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-03-25",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ「マッシュル-MASHLE-」のOP曲。巷では BBBB ダンスなるものが流行ってるらしい（笑） mora で\u003ca href=\"https://mora.jp/package/43000100/AIXX02492B00Z_48/\"\u003e高解像度版\u003c/a\u003eが買える。"
   }
 ]
