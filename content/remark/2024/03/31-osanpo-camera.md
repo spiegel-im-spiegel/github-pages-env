@@ -82,6 +82,7 @@ pageType = "photo"
 
 {{< fig-img src="./53622265338_5469180714_e.jpg" title="今日のバードウォッチング | Flickr" link="https://www.flickr.com/photos/spiegel/53622265338/" >}}
 
+ツバメも既に飛んでたけど，あの高機動飛翔体を撮る腕前は私にはない。
 
 ## 馬橋川と桜
 
