@@ -3,7 +3,7 @@ title = "街歩きもできるサイクリングシューズ買うた"
 date =  "2024-02-10T13:08:55+09:00"
 description = "足先楽々。 BOA® L6 ダイアルはよい"
 image = "/images/attention/kitten.jpg"
-tags = [ "bike", "tools" ]
+tags = [ "bike", "tools", "gear" ]
 pageType = "text"
 
 [scripts]
