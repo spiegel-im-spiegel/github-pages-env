@@ -41,7 +41,7 @@ pageType = "text"
 影響を受けたライブラリをリンクしているsshdを使用していた場合、liblzmaの実装が改ざんされ、任意のソフトウエアを利用できるようになり、結果として外部から不正アクセスをされる恐れがある
 {{< /fig-quote >}}
 
-ということで洒落にならないことになる。
+ということで，近年話題になっているサプライチェーン攻撃としても結構ヤバい話である。
 今のところ（2024-04-01 時点），対応としては影響を受けないバージョン（5.4.6など）にダウングレードするしかない。
 
 ただし，影響を受ける Linux ディストリビューションのバージョンが少ないのは不幸中の幸いだろう。
@@ -59,6 +59,10 @@ Ubuntu は，自前で最新版を入れていない限り，現在リリース�
 - [[SECURITY] [DSA 5649-1] xz-utils security update](https://lists.debian.org/debian-security-announce/2024/msg00057.html) : Debian
 - [xz-utils backdoor situation (CVE-2024-3094) · GitHub](https://gist.github.com/thesamesam/223949d5a074ebc3dce9ee78baad9e27)
 - [広く使用されている「xz」にssh接続を突破するバックドアが仕込まれていた事が判明。重大度はクリティカルでLinuxのほかmacOSにも影響 | ソフトアンテナ](https://softantenna.com/blog/xz-backdoor/)
+
+## ブックマーク
+
+- [オープンソース製品とソフトウェア部品表]({{< ref "/remark/2022/08/software-bills-of-materials.md" >}})
 
 ## 参考図書
 
