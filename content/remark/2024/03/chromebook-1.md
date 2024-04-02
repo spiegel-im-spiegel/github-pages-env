@@ -1,5 +1,5 @@
 +++
-title = "Chromebook を導入する"
+title = "Chromebook を導入する（1）"
 date =  "2024-03-28T22:59:51+09:00"
 description = "「頑張ったご褒美」第2弾"
 image = "/images/attention/kitten.jpg"
@@ -14,6 +14,9 @@ pageType = "text"
 給与明細を見たら残業代が凄いことになってたのですよ。
 ちうわけで「頑張ったご褒美」第2弾。
 ついに Chromebook を導入することにした。
+
+- [Chromebook を導入する（1）]({{< ref "/remark/2024/03/chromebook-1.md" >}}) ← イマココ
+- [Chromebook を導入する（2）]({{< ref "/remark/2024/04/chromebook-2.md" >}})
 
 ## 「頑張ったご褒美」にノートPCを物色中
 
