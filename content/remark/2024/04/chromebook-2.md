@@ -1,11 +1,10 @@
 +++
 title = "Chromebook を導入する（2）"
-date =  "2024-04-02T19:45:48+09:00"
+date =  "2024-04-02T21:36:36+09:00"
 description = "Linux サブシステムを有効にする"
 image = "/images/attention/kitten.jpg"
 tags = [ "chromebook", "linux" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
