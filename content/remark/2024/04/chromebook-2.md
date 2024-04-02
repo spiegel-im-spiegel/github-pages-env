@@ -28,7 +28,7 @@ Linux サブシステムを有効にするには設定から 詳細設定 → �
 {{< fig-img src="./linux-3.png" title="Linux 開発環境をセットアップする (2)" link="./linux-3.png" width="782" >}}
 
 ユーザ名はお好みで。
-ディスクサイズは推奨値のまま「次へ」進む。
+ディスクサイズは推奨値のまま「インストール」する。
 
 {{< fig-img src="./linux-4.png" title="Linux 開発環境をセットアップする (3)" link="./linux-4.png" width="782" >}}
 
