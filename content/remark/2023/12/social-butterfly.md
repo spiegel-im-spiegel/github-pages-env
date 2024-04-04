@@ -34,13 +34,23 @@ Starting today, you can easily view Bluesky posts without being logged in. Shari
 {{% emoji "X" %}} (旧 Twitter) で言うところの鍵垢とは違うので注意が必要である。
 
 というわけで，フッタ部に暫定で Bluesky のアイコンを追加してみた。
-そうそう。
-招待状が余ってるので，私と直接連絡がつけれる方は言ってください。
-融通できます（転売禁止）。
+~~そうそう。招待状が余ってるので，私と直接連絡がつけれる方は言ってください。融通できます（転売禁止）。~~
 ちなみに [{{% emoji "X" %}} での活動は休眠中]({{< ref "/remark/2023/09/suspend-activity-on-twitter.md" >}} "𝕏 (旧 Twitter) の活動を休止します（期間未定）")で殆どアクセスしないのであしからず。
 
 アイコンの蝶ように蛹から羽化して青空に上手く飛び立てればいいねぇ。
 個人的には「分散型 SNS」というものに対して今ひとつ懐疑的ではあるが，少なくとも {{% emoji "X" %}} の代替としては期待している（Mastodon は {{% emoji "X" %}} の代替にはなれないと思う。もっと違う何か）。
+
+## 【2024-04-04 追記】 Font Awesome 6.5.2 に Social Butterfly 登場！
+
+- [Bluesky Icon | Font Awesome](http://fontawesome.com/icons/bluesky)
+
+早速対応した。
+
+| <span style="font-variant:normal;font-size:smaller;">`<span class="fa-4x" style="color:#0C5CB0;"><i class="fa-brands fa-bluesky"></i></span>`</span> |
+| :-------------------------------------------------------------------------------------: |
+|  <span class="fa-4x" style="color:#0C5CB0;"><i class="fa-brands fa-bluesky"></i></span>  |
+
+よーし，うむうむ，よーし。
 
 ## ブックマーク
 
