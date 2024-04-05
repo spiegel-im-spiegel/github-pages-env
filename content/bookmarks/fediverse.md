@@ -69,10 +69,13 @@ pageType = "text"
 
 ### 製品・サービス・組織の公式アカウント（上記以外）
 
-- [Mastodon (@Mastodon@mastodon.social) - Mastodon](https://mastodon.social/@Mastodon)
+- [mastodon.social](https://mastodon.social/)
+  - [Mastodon (@Mastodon@mastodon.social) - Mastodon](https://mastodon.social/@Mastodon)
+  - [Electronic Frontier Foundation (@eff@mastodon.social) - Mastodon](https://mastodon.social/@eff)
+  - [Blender (@Blender@mastodon.social) - Mastodon](https://mastodon.social/@Blender)
+  - [Proton (@protonprivacy@mastodon.social) - Mastodon](https://mastodon.social/@protonprivacy)
 - [w3c.social](https://w3c.social/)
   - [World Wide Web Consortium (@w3c@w3c.social) - w3c.social](https://w3c.social/@w3c/) : W3C は [X/Twitter での活動をやめる](https://w3c.social/@w3c/111534700276754588)らしい
-- [Electronic Frontier Foundation (@eff@mastodon.social) - Mastodon](https://mastodon.social/@eff)
 - [Free Software Foundation (@fsf@hostux.social) - Mastodon Hostux](https://hostux.social/@fsf)
 - [Thunderbird (@thunderbird@mastodon.online) - Mastodon](https://mastodon.online/@thunderbird)
 - [Fosstodon](https://fosstodon.org/)
@@ -90,7 +93,6 @@ pageType = "text"
 - [Signal (@signalapp@mastodon.world) - Mastodon](https://mastodon.world/@signalapp)
 - [Cloudflare (@cloudflare@noc.social) - Noc.Social](https://noc.social/@cloudflare)
 - [Raspberry Pi :raspberrypi: (@Raspberry_Pi@raspberrypi.social) - Raspberry Pi](https://raspberrypi.social/@Raspberry_Pi)
-- [Blender (@Blender@mastodon.social) - Mastodon](https://mastodon.social/@Blender)
 - [mastodon.archive.org - Internet Archive](https://mastodon.archive.org/)
   - [internetarchive (@internetarchive@mastodon.archive.org) - Internet Archive](https://mastodon.archive.org/@internetarchive)
 - [En OSM Town | Mapstodon for OpenStreetMap](https://en.osm.town/) : This is a fediverse/Mastodon server for people active in the OpenStreetMap Community.
@@ -106,10 +108,11 @@ pageType = "text"
 
 ### 各種ニュース
 
-- [Hacker News Discussions (@hn_discussions@mastodon.social) - Mastodon](https://mastodon.social/@hn_discussions)
+- [mastodon.social](https://mastodon.social/)
+  - [Hacker News Discussions (@hn_discussions@mastodon.social) - Mastodon](https://mastodon.social/@hn_discussions)
+  - [Golang Weekly (@golang_discussions@mastodon.social) - Mastodon](https://mastodon.social/@golang_discussions)
+  - [Rust Weekly (@rust_discussions@mastodon.social) - Mastodon](https://mastodon.social/@rust_discussions)
 - [Linux Magazine (@linuxmagazine@fosstodon.org) - Fosstodon](https://fosstodon.org/@linuxmagazine)
-- [Golang Weekly (@golang_discussions@mastodon.social) - Mastodon](https://mastodon.social/@golang_discussions)
-- [Rust Weekly (@rust_discussions@mastodon.social) - Mastodon](https://mastodon.social/@rust_discussions)
 - [カオスフィア](https://chaosphere.hostdon.jp/@rssfeed/following) より
   - [ZDNet Japan(RSSfeed) (@zdnet@chaosphere.hostdon.jp) - カオスフィア](https://chaosphere.hostdon.jp/@zdnet) : 非公式
   - [WIRED.jp(RSSfeed) (@wired@chaosphere.hostdon.jp) - カオスフィア](https://chaosphere.hostdon.jp/@wired) : 非公式

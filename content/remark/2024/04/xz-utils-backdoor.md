@@ -59,8 +59,10 @@ Ubuntu は，自前で最新版を入れていない限り，現在リリース�
 - [[SECURITY] [DSA 5649-1] xz-utils security update](https://lists.debian.org/debian-security-announce/2024/msg00057.html) : Debian
 - [xz-utils backdoor situation (CVE-2024-3094) · GitHub](https://gist.github.com/thesamesam/223949d5a074ebc3dce9ee78baad9e27)
 - [amlweems/xzbot: notes, honeypot, and exploit demo for the xz backdoor (CVE-2024-3094)](https://github.com/amlweems/xzbot)
+- [research!rsc: Timeline of the xz open source attack](https://research.swtch.com/xz-timeline)
 - [Xz Utils Backdoor - Schneier on Security](https://www.schneier.com/blog/archives/2024/04/xz-utils-backdoor.html)
 - [広く使用されている「xz」にssh接続を突破するバックドアが仕込まれていた事が判明。重大度はクリティカルでLinuxのほかmacOSにも影響 | ソフトアンテナ](https://softantenna.com/blog/xz-backdoor/)
+- [Ubuntu 24.04 LTS（noble）の開発 / xz-utils問題（CVE-2024-3094）への対応のためのベータ延期とMilk-Vサポート | gihyo.jp](https://gihyo.jp/admin/clip/01/ubuntu-topics/202404/05)
 
 ## ブックマーク
 
