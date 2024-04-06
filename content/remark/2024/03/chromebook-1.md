@@ -17,6 +17,7 @@ pageType = "text"
 
 - [Chromebook を導入する（1）]({{< ref "/remark/2024/03/chromebook-1.md" >}}) ← イマココ
 - [Chromebook を導入する（2）]({{< ref "/remark/2024/04/chromebook-2.md" >}})
+- [Chromebook を導入する（3）]({{< ref "/remark/2024/04/chromebook-3.md" >}})
 
 ## 「頑張ったご褒美」にノートPCを物色中
 

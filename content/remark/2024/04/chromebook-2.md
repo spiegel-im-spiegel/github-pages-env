@@ -13,6 +13,7 @@ pageType = "text"
 
 - [Chromebook を導入する（1）]({{< ref "/remark/2024/03/chromebook-1.md" >}})
 - [Chromebook を導入する（2）]({{< ref "/remark/2024/04/chromebook-2.md" >}}) ← イマココ
+- [Chromebook を導入する（3）]({{< ref "/remark/2024/04/chromebook-3.md" >}})
 
 ## Linux サブシステムを有効にする
 
@@ -21,7 +22,7 @@ Linux サブシステムを有効にするには設定から 詳細設定 → �
 
 {{< fig-img src="./linux-1.png" title="デベロッパー" link="./linux-1.png" width="1100" >}}
 
-以降は画面のとおりにインストールを進めればよい。
+以降は画面のとおりに操作を行えばよい。
 
 {{< fig-img src="./linux-2.png" title="Linux 開発環境をセットアップする (1)" link="./linux-2.png" width="782" >}}
 
@@ -33,7 +34,7 @@ Linux サブシステムを有効にするには設定から 詳細設定 → �
 {{< fig-img src="./linux-4.png" title="Linux 開発環境をセットアップする (3)" link="./linux-4.png" width="782" >}}
 
 インストール処理はマジで時間がかかるので，ちょっとコーヒーブレイク。
-インストールが完了するとターミナルが立ち上がる。
+完了するとターミナルが立ち上がる。
 
 {{< fig-img src="./linux-5.png" title="ターミナルが起動" link="./linux-5.png" width="736" >}}
 

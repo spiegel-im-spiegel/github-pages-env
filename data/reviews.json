@@ -25719,5 +25719,48 @@
       false
     ],
     "Description": "アニメ「マッシュル-MASHLE-」のOP曲。巷では BBBB ダンスなるものが流行ってるらしい（笑） mora で\u003ca href=\"https://mora.jp/package/43000100/AIXX02492B00Z_48/\"\u003e高解像度版\u003c/a\u003eが買える。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CW35PBT6",
+      "Title": "ネコカブリーナ",
+      "URL": "https://www.amazon.co.jp/dp/B0CW35PBT6?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/515bpmAi96L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "猫又おかゆ",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "cover corp.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CW35PBT6"
+        }
+      ],
+      "PublicationDate": "2024-02-23",
+      "LastRelease": "2024-02-23",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-04-06",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "可愛らしい曲。カラオケで歌ってみたい"
   }
 ]
