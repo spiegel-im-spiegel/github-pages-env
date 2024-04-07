@@ -3,7 +3,7 @@ title = "再開の WiMAX"
 date = "2018-03-03T23:12:01+09:00"
 description = "いやぁ，なんちうか，5GHz帯いいわ。快適。"
 image = "https://photo.baldanders.info/flickr/image/39688424175_o.jpg"
-tags        = [ "wireless" ]
+tags = [ "wireless", "internet" ]
 
 [scripts]
   mathjax = false
