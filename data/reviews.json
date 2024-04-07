@@ -25761,6 +25761,61 @@
       true,
       false
     ],
-    "Description": "可愛らしい曲。カラオケで歌ってみたい"
+    "Description": "可愛らしくて優しくてちょっと泣きそうになる曲。 mora で\u003ca href=\"https://mora.jp/package/43000066/CVRD-391H/\"\u003e高解像度版\u003c/a\u003eが買える。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4297138891",
+      "Title": "［改訂第9版］LaTeX美文書作成入門",
+      "URL": "https://www.amazon.co.jp/dp/4297138891?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/414goKtaBjL._SL160_.jpg",
+        "Height": 160,
+        "Width": 127
+      },
+      "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "奥村 晴彦",
+          "Role": "著"
+        },
+        {
+          "Name": "黒木 裕介",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "技術評論社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4297138891"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784297138899"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4297138891"
+        }
+      ],
+      "PublicationDate": "2023-12-09",
+      "LastRelease": "2023-12-09",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-04-07",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "昨年末に出てるのに気が付かなかった \u003ccode\u003eorz\u003c/code\u003e 今回は版元で \u003ca href=\"https://gihyo.jp/dp/ebook/2023/978-4-297-13890-5\"\u003ePDF 版\u003c/a\u003eを買った。"
   }
 ]
