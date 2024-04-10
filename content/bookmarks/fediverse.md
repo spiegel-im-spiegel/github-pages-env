@@ -59,6 +59,8 @@ pageType = "text"
 - [Python Software Foundation (@ThePSF@fosstodon.org) - Fosstodon](https://fosstodon.org/@ThePSF)
 - [Ruby.social](https://ruby.social/)
 - [GitHub - przemekperon/mastodon-it-lists: List of Mastodon users that toot about programming and IT.](https://github.com/przemekperon/mastodon-it-lists) : C#, .NET, Go, PHP, Python, Ruby, Rust, 他
+- [Rust Language Mastodon](https://social.rust-lang.org)
+  - [Rust Language (@rust@social.rust-lang.org) - Rust Language Mastodon](https://social.rust-lang.org/@rust)
 
 ### 科学（主に天文学）関連
 
