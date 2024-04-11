@@ -21,9 +21,9 @@ Font Awesome に Mastodon のアイコンがないかなぁと思ってたら，
 
 たとえば，こんな感じに使える。
 
-| <span style="font-variant:normal;font-size:smaller;">`<span class="fa-4x" style="color:#3088d4;"><i class="fa-brands fa-mastodon"></i></span>`</span> |
-| :-------------------------------------------------------------------------------------: |
-|  <span class="fa-4x" style="color:#3088d4;"><i class="fa-brands fa-mastodon"></i></span>  |
+| アイコン | コード例 |
+| :---: | --- |
+| <span class="fa-4x" style="color:#3088d4;"><i class="fa-brands fa-mastodon"></i></span> | `<span class="fa-4x" style="color:#3088d4;"><i class="fa-brands fa-mastodon"></i></span>` |
 
 ## サイト連携
 

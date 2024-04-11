@@ -3,7 +3,7 @@ title = "The Social Butterfly"
 date =  "2023-12-23T20:08:46+09:00"
 description = "Bluesky で，ついにユーザのプロファイルおよび投稿がログインしなくても見れるようになった。"
 image = "/images/attention/kitten.jpg"
-tags = [ "bluesky", "communication" ]
+tags = [ "bluesky", "communication", "font" ]
 pageType = "text"
 
 [scripts]
@@ -46,9 +46,9 @@ Starting today, you can easily view Bluesky posts without being logged in. Shari
 
 早速対応した。
 
-| <span style="font-variant:normal;font-size:smaller;">`<span class="fa-4x" style="color:#0C5CB0;"><i class="fa-brands fa-bluesky"></i></span>`</span> |
-| :-------------------------------------------------------------------------------------: |
-|  <span class="fa-4x" style="color:#0C5CB0;"><i class="fa-brands fa-bluesky"></i></span>  |
+| アイコン | コード例 |
+| :---: | --- |
+| <span class="fa-4x" style="color:#0C5CB0;"><i class="fa-brands fa-bluesky"></i></span> | `<span class="fa-4x" style="color:#0C5CB0;"><i class="fa-brands fa-bluesky"></i></span>` |
 
 よーし，うむうむ，よーし。
 

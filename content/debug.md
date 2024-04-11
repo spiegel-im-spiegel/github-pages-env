@@ -60,7 +60,9 @@ import "fmt"
 
 func main() {
     fmt.Println("Hello World!")
-    //Output: Hello World!
+    fmt.Println("0123456789")
+    fmt.Println("abcdefghijklmnopqrstuvwxyz")
+    fmt.Println("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 }
 ```
 
