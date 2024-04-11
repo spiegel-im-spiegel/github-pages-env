@@ -66,7 +66,7 @@ $ flatpak --user remote-add --if-not-exists flathub https://dl.flathub.org/repo/
 ん？ これでええんか？ まぁいいや。
 いったん Linux サブシステムをシャットダウンして再起動する。
 
-{{< fig-img src="./shutdown-linux.png" title="Linux をシャットダウン" link="./shutdown-linux.png" width="717" >}}
+{{< fig-img src="./shutdown-linux.png" title="Linux をシャットダウン" link="./shutdown-linux.png" >}}
 
 ## Flatpak 版 Firefox を導入する
 
