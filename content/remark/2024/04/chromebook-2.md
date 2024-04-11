@@ -1,5 +1,5 @@
 +++
-title = "Chromebook を導入する（2）"
+title = "Chromebook を導入する 2 — Linux サブシステム"
 date =  "2024-04-02T21:36:36+09:00"
 description = "Linux サブシステムを有効にする"
 image = "/images/attention/kitten.jpg"
@@ -11,9 +11,10 @@ pageType = "text"
   mermaidjs = false
 +++
 
-- [Chromebook を導入する（1）]({{< ref "/remark/2024/03/chromebook-1.md" >}})
-- [Chromebook を導入する（2）]({{< ref "/remark/2024/04/chromebook-2.md" >}}) ← イマココ
-- [Chromebook を導入する（3）]({{< ref "/remark/2024/04/chromebook-3.md" >}})
+- [Chromebook を導入する 1]({{< ref "/remark/2024/03/chromebook-1.md" >}})
+- [Chromebook を導入する 2 — Linux サブシステム]({{< ref "/remark/2024/04/chromebook-2.md" >}}) ← イマココ
+- [Chromebook を導入する 3 — GnuPG & OpenSSH]({{< ref "/remark/2024/04/chromebook-3.md" >}})
+- [Chromebook を導入する 4 — Flatpak で Firefox を導入する]({{< ref "/remark/2024/04/chromebook-4.md" >}})
 
 ## Linux サブシステムを有効にする
 
@@ -83,7 +84,7 @@ Chromebook のディレクトリを共有ディレクトリとして設定でき
 
 今回はここまでかな。
 
-[前回]: {{< ref "/remark/2024/03/chromebook-1.md" >}} "Chromebook を導入する（1）"
+[前回]: {{< ref "/remark/2024/03/chromebook-1.md" >}} "Chromebook を導入する 1"
 [Chromebook]: https://www.amazon.co.jp/gp/product/B0BKKF7JHV?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon.co.jp: 【Amazon.co.jp限定】 ASUS Chromebook クロームブック Flip CX1 11.6インチ 2-in-1 タッチスクリーン 日本語キーボード 重量1.32kg トランスペアレントシルバー CX1102FKA-MK0037 : パソコン・周辺機器"
 
 ## 参考

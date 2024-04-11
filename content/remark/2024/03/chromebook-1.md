@@ -1,5 +1,5 @@
 +++
-title = "Chromebook を導入する（1）"
+title = "Chromebook を導入する 1"
 date =  "2024-03-28T22:59:51+09:00"
 description = "「頑張ったご褒美」第2弾"
 image = "/images/attention/kitten.jpg"
@@ -15,9 +15,10 @@ pageType = "text"
 ちうわけで「頑張ったご褒美」第2弾。
 ついに Chromebook を導入することにした。
 
-- [Chromebook を導入する（1）]({{< ref "/remark/2024/03/chromebook-1.md" >}}) ← イマココ
-- [Chromebook を導入する（2）]({{< ref "/remark/2024/04/chromebook-2.md" >}})
-- [Chromebook を導入する（3）]({{< ref "/remark/2024/04/chromebook-3.md" >}})
+- [Chromebook を導入する 1]({{< ref "/remark/2024/03/chromebook-1.md" >}}) ← イマココ
+- [Chromebook を導入する 2 — Linux サブシステム]({{< ref "/remark/2024/04/chromebook-2.md" >}})
+- [Chromebook を導入する 3 — GnuPG & OpenSSH]({{< ref "/remark/2024/04/chromebook-3.md" >}})
+- [Chromebook を導入する 4 — Flatpak で Firefox を導入する]({{< ref "/remark/2024/04/chromebook-4.md" >}})
 
 ## 「頑張ったご褒美」にノートPCを物色中
 
@@ -143,7 +144,6 @@ Andorid アプリの Tailscale アプリを導入することで tailscale に�
 随時更新予定。
 
 - [Keepass2Android Password Safe - Apps on Google Play](https://play.google.com/store/apps/details?id=keepass2android.keepass2android&hl=en_US)
-- [Firefox Fast & Private Browser - Apps on Google Play](https://play.google.com/store/apps/details?id=org.mozilla.firefox&hl=en_US)
 
 これで，最低限の環境は揃ったかな。
 

@@ -1,5 +1,5 @@
 +++
-title = "Chromebook を導入する（3）"
+title = "Chromebook を導入する 3 — GnuPG & OpenSSH"
 date =  "2024-04-06T22:07:26+09:00"
 description = "GnuPG で OpenSSH 認証鍵を作成し ssh で GitHub に繋いでみる"
 image = "/images/attention/openpgp.png"
@@ -11,9 +11,10 @@ pageType = "text"
   mermaidjs = false
 +++
 
-- [Chromebook を導入する（1）]({{< ref "/remark/2024/03/chromebook-1.md" >}})
-- [Chromebook を導入する（2）]({{< ref "/remark/2024/04/chromebook-2.md" >}})
-- [Chromebook を導入する（3）]({{< ref "/remark/2024/04/chromebook-3.md" >}}) ← イマココ
+- [Chromebook を導入する 1]({{< ref "/remark/2024/03/chromebook-1.md" >}})
+- [Chromebook を導入する 2 — Linux サブシステム]({{< ref "/remark/2024/04/chromebook-2.md" >}})
+- [Chromebook を導入する 3 — GnuPG & OpenSSH]({{< ref "/remark/2024/04/chromebook-3.md" >}}) ← イマココ
+- [Chromebook を導入する 4 — Flatpak で Firefox を導入する]({{< ref "/remark/2024/04/chromebook-4.md" >}})
 
 [前回]に続いて Linux サブシステムのセットアップを行う。
 なお，ターミナルはランチャーから起動できる。
@@ -98,7 +99,7 @@ Match host * exec "gpg-connect-agent UPDATESTARTUPTTY /bye"
 
 - [GnuPG - ArchWiki](https://wiki.archlinux.jp/index.php/GnuPG)
 
-[前回]: {{< ref "/remark/2024/04/chromebook-2.md" >}} "Chromebook を導入する（2）"
+[前回]: {{< ref "/remark/2024/04/chromebook-2.md" >}} "Chromebook を導入する 2 — Linux サブシステム"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 [OpenSSH]: http://www.openssh.com/ "OpenSSH"
 
