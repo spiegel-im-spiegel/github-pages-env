@@ -123,13 +123,13 @@ $ flatpak update
 ## Firefox の日本語化
 
 そうそう。
-インストールしたての Firefox は英語表記なので[^l1] 設定 → 一般 → 言語 で日本語を追加する。
+インストールしたての Firefox は英語表記なので[^l1] 設定（Settings） → 一般（General） → 言語（Language） で日本語を追加する。
 
 [^l1]: Chromebook で有効にした Linux サブシステムは既定で英語表記になっている。その辺のチューニングもしないといけないのだが，今のところ困ってないので放置している。
 
 {{< fig-img src="./firefox-settings.png" title="Firefox 設定" link="./firefox-settings.png" width="1267" >}}
 
-フォントは Noto Sans CJK JP でいいだろう。
+フォント（Fonts）は Noto Sans CJK JP でいいだろう。
 
 [前回]: {{< ref "/remark/2024/04/chromebook-3.md" >}} "Chromebook を導入する 3 — GnuPG & OpenSSH"
 [Andorid 版 Firefox]: https://play.google.com/store/apps/details?id=org.mozilla.firefox&hl=en_US "Firefox Fast & Private Browser - Apps on Google Play"
