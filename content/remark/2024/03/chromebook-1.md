@@ -2,7 +2,7 @@
 title = "Chromebook を導入する 1"
 date =  "2024-03-28T22:59:51+09:00"
 description = "「頑張ったご褒美」第2弾"
-image = "/images/attention/kitten.jpg"
+image = "/images/attention/tools.png"
 tags = [ "chromebook", "tools", "gear", "nas", "tailscale", "cloud", "samba" ]
 pageType = "text"
 

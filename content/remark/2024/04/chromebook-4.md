@@ -2,7 +2,7 @@
 title = "Chromebook を導入する 4 — Flatpak で Firefox を導入する"
 date =  "2024-04-11T21:44:36+09:00"
 description = "Chromebook にまともな Firefox を入れたい"
-image = "/images/attention/kitten.jpg"
+image = "/images/attention/tools.png"
 tags = [ "chromebook", "linux", "firefox", "flatpak" ]
 pageType = "text"
 

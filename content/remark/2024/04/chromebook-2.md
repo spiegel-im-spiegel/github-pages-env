@@ -2,7 +2,7 @@
 title = "Chromebook を導入する 2 — Linux サブシステム"
 date =  "2024-04-02T21:36:36+09:00"
 description = "Linux サブシステムを有効にする"
-image = "/images/attention/kitten.jpg"
+image = "/images/attention/tools.png"
 tags = [ "chromebook", "linux" ]
 pageType = "text"
 
