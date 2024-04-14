@@ -159,6 +159,7 @@ Andorid アプリの Tailscale アプリを導入することで tailscale に�
 - [画面のスクリーンショットを撮影または録画する - Chromebook ヘルプ](https://support.google.com/chromebook/answer/10474268?hl=ja)
 - [Chromebookを購入しました｜Mina](https://note.com/minakonono/n/n30b173adc169)
 - [【Chromebook】Dropboxを利用する方法（ファイルアプリからDropboxフォルダを利用できるようにする／Dropboxフォルダが表示されない場合の対処）](https://did2memo.net/2020/10/19/chromebook-dropbox-app-setup/)
+- [ChromebookとノートPC、どっちが買い？ 使い方で決まる最適解 | ライフハッカー・ジャパン](https://www.lifehacker.jp/article/2404chromebook-vs-laptop-how-to-choose/)
 
 ## 参考
 
