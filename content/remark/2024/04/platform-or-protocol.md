@@ -20,6 +20,7 @@ pageType = "text"
 しかしそれは「ソーシャルネットワーク・サービス」の登場でぶち壊された。
 ユーザは人間関係を「人質」にプラットフォームに囲い込まれ縛り付けられる。
 更に2010年代の「アラブの春」がこれを強化した。
+日本ではこれに 3.11 を加えてもいいかも知れない。
 ネットはプラットフォーム間の覇権ゲームの会場となりユーザを[過剰に飲み込み嘔吐する]({{< ref "/remark/2023/01/internet-bulimia.md" >}} "嘔吐するインターネット")。
 そこに個人は存在せず，ユーザは統計上の「数値」でしかない。
 この辺が「[デジタル封建主義](https://yamdas.hatenablog.com/entry/20230828/neo-feudalism "時代はデジタル封建主義？ ジョエル・コトキン『新しい封建制がやってくる』が出るぞ - YAMDAS現更新履歴")」などと呼ばれる所以だろう。
@@ -72,6 +73,7 @@ Threads は Mastodon ベースだそうだが，もはや Mastodon とは別物�
 
 - [WirelessWire News連載更新（BlueskyやThreadsに受け継がれたネット原住民の叡智） - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20240415/wirelesswire)
 - [プロトコル・ベースのプラットフォーム規制 | PPT](https://www.slideshare.net/masayukihatta/ss-199545007)
+- [なぜミレニアル世代はTiktokを離れられないのか（あるいはおじさん・おばさんがFacebookを離れられないのはなぜか） | p2ptk[.]org](https://p2ptk.org/monopoly/4482)
 
 -  [Fediverse 関連のブックマーク]({{< ref "/bookmarks/fediverse.md" >}})
 
