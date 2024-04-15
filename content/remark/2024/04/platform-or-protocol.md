@@ -27,7 +27,7 @@ pageType = "text"
 これを打ち破りたいならプロトコルから変えるべきだ！ という発想になるのは自然なことかもしれない。
 
 先週末は日本で2日間（東京と大阪）に渡り Bluesky Meetup が開催された。
-個人的には関心が薄かったのだが yomoyomo さんがこれに絡む記事を [WirelessWire News](https://wirelesswire.jp/ "WirelessWire News – The Technology and Ecosystem of the IoT.") のブログにタイムリーに公開されていて，流石と思ってしまった。
+個人的には関心が薄かったので見てもないのだが yomoyomo さんがこれに絡む記事を [WirelessWire News](https://wirelesswire.jp/ "WirelessWire News – The Technology and Ecosystem of the IoT.") のブログにタイムリーに公開されていて，流石と思ってしまった。
 
 - [BlueskyやThreadsに受け継がれたネット原住民の叡智 – WirelessWire News](https://wirelesswire.jp/2024/04/86389/)
 
