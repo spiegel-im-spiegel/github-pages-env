@@ -40,7 +40,7 @@ pageType = "text"
 今のところ Bluesky には Bluesky というサービスと，それを駆動する [AT (Authenticated Transfer) Protocol](https://atproto.com/ "The AT Protocol") という2本の柱がある。
 おそらく Bluesky 自身は AT プロトコルを実装する実験的な側面を持っていて，本命は AT プロトコルの標準化とそれを使った「Bluesky ではない」サービス群の台頭ではないかと思う。
 
-上で紹介した一連の記事を読んで思い出したのは『[インテンション・エコノミー](https://www.amazon.co.jp/dp/B00DIM6BE6?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)』だ。
+上で紹介した一連の記事を読んで思い出したのが『[インテンション・エコノミー](https://www.amazon.co.jp/dp/B00DIM6BE6?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)』だ。
 この本についても yomoyomo さんの[書評](https://www.yamdas.org/booklog/intentioneconomy.html "yomoyomoの読書記録 - ドク・サールズ『インテンション・エコノミー 顧客が支配する経済』（翔泳社）")がある。
 一部引用しておこう。
 
@@ -67,6 +67,8 @@ Threads は Mastodon ベースだそうだが，もはや Mastodon とは別物�
 プラットフォームはこのように滅びていく。まず、ユーザにとって良き存在になる。次に、ビジネス顧客にとって良き存在になるために、ユーザを虐げる。最後に、ビジネス顧客を虐げて、すべての価値を自分たちに向ける。そうして死んでいく。
 {{< /fig-quote >}}
 
+それならば，持てる荷物は最小限に，いつでもプラットフォームから離脱できるよう備えるのがネットでの賢い過ごし方なのかも知れない。
+
 [ActivityPub]: https://www.w3.org/TR/activitypub/
 
 ## ブックマーク
@@ -82,3 +84,4 @@ Threads は Mastodon ベースだそうだが，もはや Mastodon とは別物�
 {{% review-paapi "B00DIM6BE6" %}} <!-- インテンション・エコノミー -->
 {{% review-paapi "B00FW5SSCK" %}} <!-- ソーシャル・ネットワーク -->
 {{% review-tatsujin "infoshare2" %}} <!-- 続・情報共有の未来 -->
+{{% review-paapi "4903127044" %}} <!-- 排除型社会 -->
