@@ -24,6 +24,11 @@ Every version of the PuTTY tools from 0.68 to 0.80 inclusive has a critical vuln
 なお FileZilla, WinSCP, TortoiseGit, TortoiseSVN といったアプリケーションには [PuTTY] がバンドルされていることがあるので，これらのアップデート情報にも注意すること。
 [PuTTY] は年に1,2回くらいの頻度でセキュリティ・アップデートが発生するので（ちゃんとメンテされてる証拠），バンドル品は使わないほうがいいと思うなぁ。
 
+日本語カスタム版は PuTTY-ranvis がおすすめ。
+こちらも 0.81 がリリースされた。
+
+- [PuTTYrv (PuTTY-ranvis) - Ranvis software](https://www.ranvis.com/putty)
+
 厄介なことに今回はアプリケーションを更新しただけではダメで，認証鍵を新しいものに差し替える必要があるかも知れない。
 ただし対象となるのは NIST P-521 楕円曲線を使った ECDSA 鍵のみ。
 それ以外はとりあえずセーフということで（笑）
@@ -47,8 +52,6 @@ In PuTTY 0.68 through 0.80 before 0.81, biased ECDSA nonce generation allows an 
 
 - [oss-security - CVE-2024-31497: Secret Key Recovery of NIST P-521 Private Keys  Through Biased ECDSA Nonces in PuTTY Client](https://www.openwall.com/lists/oss-security/2024/04/15/6)
 - [「PuTTY」に秘密鍵が復元できてしまう深刻な脆弱性 ～「WinSCP」など他ツールにも影響 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1584589.html)
-
-- [PuTTYrv (PuTTY-ranvis) - Ranvis software](https://www.ranvis.com/putty)
 
 - [NIST FIPS 186-5 および SP 800-186 正式版がリリースされた]({{< ref "/remark/2023/02/nist-fips-186-5.md" >}})
 - [Edwards-curve Digital Signature Algorithm]({{< ref "/remark/2020/06/eddsa.md" >}})
