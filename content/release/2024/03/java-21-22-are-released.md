@@ -1,5 +1,5 @@
 +++
-title = "Java 22 がリリースされた（21 LTS 版についても遅まきながら）"
+title = "Java 22 がリリースされた（2024-04 セキュリティ・アップデートあり）"
 date =  "2024-03-20T10:00:51+09:00"
 description = "Java 22 は 2024-09 までの短期サポート版。 Java 21 は 2028-09 までの LTS 版"
 image = "/images/attention/tools.png"
@@ -26,38 +26,33 @@ pageType = "text"
 Java 21 は LTS 版で 2028-09 までのサポートとなる。
 既に2回のセキュリティ・アップデートが行われているけど，内容については割愛する。
 
-[OpenJDK] を APT で管理するメリットはないので，実行バイナリを[リリースページ](https://jdk.java.net/20/)から直接ダウンロードして配置する。
+## 【2024-04-17 追記】 OpenJDK のセキュリティ・アップデート（2024-04）
+
+予定通り [OpenJDK] がリリースされた。
+
+- [OpenJDK Vulnerability Advisory: 2024/04/16](https://openjdk.org/groups/vulnerability/advisories/2024-04-16)
+
+詳細については割愛する。
+
+[OpenJDK] を APT で管理するメリットはないので，実行バイナリを[リリースページ](https://jdk.java.net/22/)から直接ダウンロードして配置する。
 以下は完全手動でインストールした場合（笑）
 
 ```text
 $ cd /usr/local/src
-$ sudo curl -L "https://download.java.net/java/GA/jdk21.0.2/f2283984656d49d69e91c558476027ac/13/GPL/openjdk-21.0.2_linux-x64_bin.tar.gz" -O
+$ sudo curl -L "https://download.java.net/java/GA/jdk22.0.1/c7ec1332f7bb44aeba2eb341ae18aca4/8/GPL/openjdk-22.0.1_linux-x64_bin.tar.gz" -O
 $ cd ..
 $ sudo unlink java # 以前のバージョンの Java 環境がある場合
-$ sudo tar xvf src/openjdk-21.0.2_linux-x64_bin.tar.gz
-$ sudo ln -s jdk-21.0.2 java
+$ sudo tar xvf src/openjdk-22.0.1_linux-x64_bin.tar.gz
+$ sudo ln -s jdk-22.0.1 java
 $ java -version # すでに PATH が通っている場合
-openjdk version "21.0.2" 2024-01-16
-OpenJDK Runtime Environment (build 21.0.2+13-58)
-OpenJDK 64-Bit Server VM (build 21.0.2+13-58, mixed mode, sharing)
-```
-
-```text
-$ cd /usr/local/src
-$ sudo curl -L "https://download.java.net/java/GA/jdk22/830ec9fcccef480bb3e73fb7ecafe059/36/GPL/openjdk-22_linux-x64_bin.tar.gz" -O
-$ cd ..
-$ sudo unlink java # 以前のバージョンの Java 環境がある場合
-$ sudo tar xvf src/openjdk-22_linux-x64_bin.tar.gz
-$ sudo ln -s jdk-22 java
-$ java -version # すでに PATH が通っている場合
-openjdk version "22" 2024-03-19
-OpenJDK Runtime Environment (build 22+36-2370)
-OpenJDK 64-Bit Server VM (build 22+36-2370, mixed mode, sharing)
+openjdk version "22.0.1" 2024-04-16
+OpenJDK Runtime Environment (build 22.0.1+8-16)
+OpenJDK 64-Bit Server VM (build 22.0.1+8-16, mixed mode, sharing)
 ```
 
 私としては [PlantUML] が動けばいいので，試しておく[^puml1]。
 
-[^puml1]: 2024-02-16 に [PlantUML] [1.2024.3](https://github.com/plantuml/plantuml/releases/tag/v1.2024.3) が[リリース](http://plantuml.com/changes)されている。 [PlantUML] の使い方等については拙文「[真面目に PlantUML]({{< ref "/remark/2018/12/plantuml-1.md" >}})」シリーズを参考にどうぞ。
+[^puml1]: 2024-04-06 に [PlantUML] [v1.2024.4](https://github.com/plantuml/plantuml/releases/tag/v1.2024.4) が[リリース](http://plantuml.com/changes)されている。 [PlantUML] の使い方等については拙文「[真面目に PlantUML]({{< ref "/remark/2018/12/plantuml-1.md" >}})」シリーズを参考にどうぞ。
 
 {{< fig-img src="./factory-method-pattern.png" title="Factory Method Pattern" link="./factory-method-pattern.puml" width="1160" >}}
 
@@ -82,6 +77,8 @@ OpenJDK 64-Bit Server VM (build 22+36-2370, mixed mode, sharing)
 ## ブックマーク
 
 - [Java 22リリース――Project AmberやProject PanamaのスタンダードJEPを含め12のJEPsがアップデート。そして、2025年のJavaOneがベイエリアで開催 | gihyo.jp](https://gihyo.jp/article/2024/03/java22)
+- [Oracle Critical Patch Update Advisory - April 2024](https://www.oracle.com/security-alerts/cpuapr2024.html)
+- [Oracle Java の脆弱性対策について(CVE-2023-41993等) | 情報セキュリティ | IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/security-alert/2024/0417-jre.html)
 
 [OpenJDK]: http://openjdk.java.net/
 [AdoptOpenJDK]: https://adoptopenjdk.net/ "AdoptOpenJDK - Open source, prebuilt OpenJDK binaries"
