@@ -168,6 +168,8 @@ Google 以外ならこちらのページで認証を行うとよい。
 - [100台まで無料のVPNサービス「tailscale」、リンクだけでマシンのシェアも可能!?【イニシャルB】 - INTERNET Watch](https://internet.watch.impress.co.jp/docs/column/shimizu/1303751.html)
 - [Tailscale VPN を使ってみたので感想 | つくみ島だより](https://blog.tsukumijima.net/article/tailscale-vpn/)
 - [リモートワーク向けにセキュアなVPNを構築【tailscale】 | 4b-media](https://4b-media.net/tailscale/)
+- [Tailscale SSH is now Generally Available](https://tailscale.com/blog/tailscale-ssh-ga)
+  - [「Tailscale SSH」が正式版に到達。面倒な鍵管理が不要のSSH、VSCode拡張機能でリモートファイルも編集可能 － Publickey](https://www.publickey1.jp/blog/24/tailscale_sshsshvscode.html)
 
 - [「門番」としての VPN]({{< ref "/remark/2020/07/vpn-as-a-gatekeeper.md" >}})
 - [NIST SP 800-207: “Zero Trust Architecture”]({{< ref "/remark/2020/09/nist-sp-800-207-zero-trust-architecture.md" >}})
