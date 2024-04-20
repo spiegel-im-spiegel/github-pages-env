@@ -75,7 +75,8 @@ Threads は Mastodon ベースだそうだが，もはや Mastodon とは別物�
 
 - [WirelessWire News連載更新（BlueskyやThreadsに受け継がれたネット原住民の叡智） - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20240415/wirelesswire)
 - [プロトコル・ベースのプラットフォーム規制 | PPT](https://www.slideshare.net/masayukihatta/ss-199545007)
-- [なぜミレニアル世代はTiktokを離れられないのか（あるいはおじさん・おばさんがFacebookを離れられないのはなぜか） | p2ptk[.]org](https://p2ptk.org/monopoly/4482)
+- [誰もがインターネットの「暗がり」に安住する日 | p2ptk[.]org](https://p2ptk.org/monopoly/4502)
+  - [なぜミレニアル世代はTiktokを離れられないのか（あるいはおじさん・おばさんがFacebookを離れられないのはなぜか） | p2ptk[.]org](https://p2ptk.org/monopoly/4482)
 - [「日本の開発者は素晴らしい」ソーシャルメディアの明るい未来を感じたBlueskyミートアップ東京 #BskyMeetup | LoveTechMedia - ラブテックメディア](https://lovetech-media.com/love/bluesky-meetup-in-tokyo-vol2-report/)
 
 -  [Fediverse 関連のブックマーク]({{< ref "/bookmarks/fediverse.md" >}})

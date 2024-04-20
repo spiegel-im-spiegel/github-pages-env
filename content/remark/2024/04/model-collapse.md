@@ -98,3 +98,4 @@ Tens of thousands of requests per second for our public domain OCR files were la
 - [AI栄えてQAエンジニアが儲かる？ 話はそんな単純ではない - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20240415/quality-assurance-and-ai)
 - [アーヴィンド・ナラヤナンらの「インチキAI」本が遂に出る - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20240415/ai-snake-oil)
 - [GPT-4超え精度でスマホ上実行できるオンデバイス生成AI「Octopus v2」、Google「生成AIは大きければいいってものではない」など重要論文5本を解説（生成AIウィークリー） | テクノエッジ TechnoEdge](https://www.techno-edge.net/article/2024/04/08/3130.html)
+- [AI黙示録は“簡単に”回避できる | p2ptk[.]org](https://p2ptk.org/ai/4500)
