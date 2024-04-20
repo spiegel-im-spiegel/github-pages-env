@@ -1,11 +1,10 @@
 +++
 title = "オープンソース・プロジェクトの乗っ取りを試みる"
-date =  "2024-04-20T08:57:06+09:00"
+date =  "2024-04-20T17:59:26+09:00"
 description = "OpenSSF および OpenJS Foundation からの警告"
 image = "/images/attention/kitten.jpg"
 tags = [ "security", "risk", "engineering" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
