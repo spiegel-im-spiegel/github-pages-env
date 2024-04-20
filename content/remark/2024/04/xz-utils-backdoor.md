@@ -69,7 +69,6 @@ Ubuntu は，自前で最新版を入れていない限り，現在リリース�
 ## ブックマーク
 
 - [オープンソース製品とソフトウェア部品表]({{< ref "/remark/2022/08/software-bills-of-materials.md" >}})
-- [オープンソース・プロジェクトの乗っ取りを試みる]({{< ref "/remark/2024/04/take-over-opensource-project.md" >}})
 
 ## 参考図書
 
