@@ -114,7 +114,7 @@ type structSystem struct {
 
 こういった感じにツールの助け等によってコードに対する認知負荷が変わってきているため「性能の最適化」も昔とは変わってきている，ということらしい。
 
-じゃあ「性能（performance）」って何？ って話になる。
+じゃあ，そもそも「性能（performance）」って何？ って話になる。
 この辺の話が今回読んだ中で一番面白かった。
 
 {{< fig-quote type="markdown" title="『効率的なGo』p.4" link="https://www.amazon.co.jp/dp/4814400535?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1" >}}
