@@ -532,6 +532,6 @@ PCG は線形合同法（LCG）のバリエーションなんだそうで， LCG
 {{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "B0CFL1DK8Q" %}} <!-- Go言語 100Tips -->
 {{% review-paapi "4873118468" %}} <!-- Go言語による並行処理 -->
-{{% review-paapi "4814400535" %}} <!-- 効率的なGo : Effective Go -->
+{{% review-paapi "4814400535" %}} <!-- 効率的なGo : Efficient Go -->
 {{% review-paapi "B015643CPE" %}} <!-- 暗号技術入門 第3版 -->
 {{% review-paapi "B00I8ETG96" %}} <!-- 赤ずきんチャチャ -->

@@ -68,4 +68,4 @@ go version go1.22.2 linux/amd64
 {{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "4814400047" %}} <!-- 初めてのGo言語 -->
 {{% review-paapi "B0CFL1DK8Q" %}} <!-- Go言語 100Tips -->
-{{% review-paapi "4814400535" %}} <!-- 効率的なGo : Effective Go -->
+{{% review-paapi "4814400535" %}} <!-- 効率的なGo : Efficient Go -->
