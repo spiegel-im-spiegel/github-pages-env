@@ -7,7 +7,7 @@ tags = [ "astronomy", "ephemeris", "science" ]
 pageType = "text"
 
 [scripts]
-  mathjax = false
+  mathjax = true
   mermaidjs = false
 +++
 
@@ -26,7 +26,12 @@ This policy directs NASA to work with the Departments of Commerce, Defense, Stat
 
 地球では標準時として UTC (Coordinated Universal Time; 協定世界時) というのがある。
 これは時間の刻みは TAI (International Atomic Time; 国際原子時) に合わせつつ，時刻は UT (Universal Time; 世界時) との差が1秒以内になるよう調整された時刻系である。
-ちなみに TAI は座標時系の一種である TT (Terrestrial Time; 地球時) と同義で「地球表面上で歩度SI秒となる一様な時刻」と定義されている[^tt1]。
+ちなみに TAI は座標時系の一種である TT (Terrestrial Time; 地球時) と連動していて
+
+\[ TT = TAI + 32.184\,\mathrm{sec} \]
+
+という関係である。
+さらに言うと TT の定義は「地球表面上で歩度SI秒となる一様な時刻」となっている[^tt1]。
 
 [^tt1]: 厳密な TT 定義はもう少し複雑で地球重心座標時（TCG）を基にしたジオイド面で考えるのだが，実際にはジオイド面では十分な精度を得られないそうで，ちょっと面倒そうな変換式をかませるようだ。この辺の話は最近の「理科年表」に解説があるので興味のある方はそちらをどうぞ。
 

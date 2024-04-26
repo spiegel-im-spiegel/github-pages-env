@@ -3,7 +3,7 @@ title = "UNIX 時刻に関する四方山話"
 date = "2018-10-07T21:48:19+09:00"
 description = "UNIX 時刻について色々と補足を交えながら簡単に紹介してみる。"
 image = "/images/attention/kitten.jpg"
-tags = [ "engineering", "unix-time", "leap-second" ]
+tags = [ "engineering", "unix-time", "leap-second", "ephemeris" ]
 
 [scripts]
   mathjax = true
