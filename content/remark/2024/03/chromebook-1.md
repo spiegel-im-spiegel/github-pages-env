@@ -19,6 +19,7 @@ pageType = "text"
 - [Chromebook を導入する 2 — Linux サブシステム]({{< ref "/remark/2024/04/chromebook-2.md" >}})
 - [Chromebook を導入する 3 — GnuPG & OpenSSH]({{< ref "/remark/2024/04/chromebook-3.md" >}})
 - [Chromebook を導入する 4 — Flatpak で Firefox を導入する]({{< ref "/remark/2024/04/chromebook-4.md" >}})
+- [Chromebook を導入する 5 — APT で Firefox を導入する]({{< ref "/remark/2024/04/chromebook-5.md" >}})
 
 ## 「頑張ったご褒美」にノートPCを物色中
 
@@ -166,6 +167,6 @@ Andorid アプリの Tailscale アプリを導入することで tailscale に�
 {{% review-paapi "B0BKKF7JHV" %}} <!-- ASUS Chromebook -->
 {{% review-paapi "B0CH2X5LBX" %}} <!-- micoroSD カード -->
 {{% review-paapi "B079MCPJGH" %}} <!-- カメラ 目隠し シャッター -->
-{{% review-paapi "B00G9NIL7G" %}} <!-- エレコム マウス Bluetooth -->
+{{% review-paapi "B08LMYWKZD" %}} <!-- Bluetooth 無線静音マウス -->
 {{% review-paapi "B09BMPZ3BZ" %}} <!-- Chromebook仕事術 -->
 {{% review-paapi "B08P54PQDB" %}} <!-- メッセンジャーバッグ -->

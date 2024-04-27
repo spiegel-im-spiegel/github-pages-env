@@ -15,6 +15,7 @@ pageType = "text"
 - [Chromebook を導入する 2 — Linux サブシステム]({{< ref "/remark/2024/04/chromebook-2.md" >}})
 - [Chromebook を導入する 3 — GnuPG & OpenSSH]({{< ref "/remark/2024/04/chromebook-3.md" >}}) ← イマココ
 - [Chromebook を導入する 4 — Flatpak で Firefox を導入する]({{< ref "/remark/2024/04/chromebook-4.md" >}})
+- [Chromebook を導入する 5 — APT で Firefox を導入する]({{< ref "/remark/2024/04/chromebook-5.md" >}})
 
 [前回]に続いて Linux サブシステムのセットアップを行う。
 なお，ターミナルはランチャーから起動できる。
@@ -107,7 +108,7 @@ Match host * exec "gpg-connect-agent UPDATESTARTUPTTY /bye"
 
 {{% review-paapi "B0BKKF7JHV" %}} <!-- ASUS Chromebook -->
 {{% review-paapi "B079MCPJGH" %}} <!-- カメラ 目隠し シャッター -->
-{{% review-paapi "B00G9NIL7G" %}} <!-- エレコム マウス Bluetooth -->
+{{% review-paapi "B08LMYWKZD" %}} <!-- Bluetooth 無線静音マウス -->
 {{% review-paapi "B09BMPZ3BZ" %}} <!-- Chromebook仕事術 -->
 {{% review-paapi "4295013498" %}} <!-- Linuxシステムの仕組み -->
 {{% review-paapi "B079NL1L9K" %}} <!-- SSH Mastery -->

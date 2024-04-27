@@ -15,6 +15,7 @@ pageType = "text"
 - [Chromebook を導入する 2 — Linux サブシステム]({{< ref "/remark/2024/04/chromebook-2.md" >}}) ← イマココ
 - [Chromebook を導入する 3 — GnuPG & OpenSSH]({{< ref "/remark/2024/04/chromebook-3.md" >}})
 - [Chromebook を導入する 4 — Flatpak で Firefox を導入する]({{< ref "/remark/2024/04/chromebook-4.md" >}})
+- [Chromebook を導入する 5 — APT で Firefox を導入する]({{< ref "/remark/2024/04/chromebook-5.md" >}})
 
 ## Linux サブシステムを有効にする
 
@@ -84,6 +85,29 @@ Chromebook のディレクトリを共有ディレクトリとして設定でき
 
 今回はここまでかな。
 
+## 【2024-04-27 追記】 日本語化 {#jp}
+
+Linux サブシステムを有効化した直後は英語表記になっている。
+これを日本語化するには以下のコマンドを実行する。
+
+```text
+$ sudo localectl set-locale LANG=ja_JP.UTF-8 LANGUAGE="ja_JP:ja"
+```
+
+さらに Chrome ブラウザで `chrome://flags` を開き `crostini` で検索し ”Crostini IME support for QT applications” を enabled にすると幸せになれるかもしれない。
+
+{{< fig-img src="./experiments.png" title="Experiments" link="./experiments.png" width="1100" >}}
+
+あちこちググって `fcitx-mozc` パッケージを入れろという記述を多く見かけたが，最新版[^v1] では既に日本語 input method が有効になっているため不要，というか無用。
+日本語フォントも既定で NOTOフォントの CJK JP フォントが一通り入ってるため，追加インストールは不要のようだ。
+
+[^v1]: 今回の Chromebook では ChromeOS バージョン 123 が入っていた。
+
+## ブックマーク
+
+- [[2023年5月版]Chromebook Linux でIMEの設定がめっちゃ楽になってた](https://zenn.dev/asopitech/articles/20230516-103621_1)
+- [Chromebookを快適な開発環境にするためのプチノウハウ群（2024年2月版） #Linux - Qiita](https://qiita.com/komde/items/25b4c80598d7e2b679f6)
+
 [前回]: {{< ref "/remark/2024/03/chromebook-1.md" >}} "Chromebook を導入する 1"
 [Chromebook]: https://www.amazon.co.jp/gp/product/B0BKKF7JHV?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon.co.jp: 【Amazon.co.jp限定】 ASUS Chromebook クロームブック Flip CX1 11.6インチ 2-in-1 タッチスクリーン 日本語キーボード 重量1.32kg トランスペアレントシルバー CX1102FKA-MK0037 : パソコン・周辺機器"
 
@@ -91,6 +115,6 @@ Chromebook のディレクトリを共有ディレクトリとして設定でき
 
 {{% review-paapi "B0BKKF7JHV" %}} <!-- ASUS Chromebook -->
 {{% review-paapi "B079MCPJGH" %}} <!-- カメラ 目隠し シャッター -->
-{{% review-paapi "B00G9NIL7G" %}} <!-- エレコム マウス Bluetooth -->
+{{% review-paapi "B08LMYWKZD" %}} <!-- Bluetooth 無線静音マウス -->
 {{% review-paapi "B09BMPZ3BZ" %}} <!-- Chromebook仕事術 -->
 {{% review-paapi "4295013498" %}} <!-- Linuxシステムの仕組み -->

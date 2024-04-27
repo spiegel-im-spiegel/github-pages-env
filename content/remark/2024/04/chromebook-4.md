@@ -18,6 +18,7 @@ pageType = "text"
 - [Chromebook を導入する 2 — Linux サブシステム]({{< ref "/remark/2024/04/chromebook-2.md" >}})
 - [Chromebook を導入する 3 — GnuPG & OpenSSH]({{< ref "/remark/2024/04/chromebook-3.md" >}})
 - [Chromebook を導入する 4 — Flatpak で Firefox を導入する]({{< ref "/remark/2024/04/chromebook-4.md" >}}) ← イマココ
+- [Chromebook を導入する 5 — APT で Firefox を導入する]({{< ref "/remark/2024/04/chromebook-5.md" >}})
 
 ## Chromebook に Firefox を入れたい
 
@@ -125,11 +126,15 @@ $ flatpak update
 そうそう。
 インストールしたての Firefox は英語表記なので[^l1] 設定（Settings） → 一般（General） → 言語（Language） で日本語を追加する。
 
-[^l1]: Chromebook で有効にした Linux サブシステムは既定で英語表記になっている。その辺のチューニングもしないといけないのだが，今のところ困ってないので放置している。
+[^l1]: Chromebook で有効にした Linux サブシステムは既定で英語表記になっている。その辺のチューニングもしないといけないのだが，この時点では困ってないので放置している。 Linux サブシステムの日本語化については「[日本語化]({{< relref "./chromebook-2.md#jp" >}})」の節を参考のこと。
 
 {{< fig-img src="./firefox-settings.png" title="Firefox 設定" link="./firefox-settings.png" width="1267" >}}
 
 フォント（Fonts）は Noto Sans CJK JP でいいだろう。
+
+## ブックマーク
+
+- [chromebook FireFoxの公式インストール Flatpak – FlatterMe](/itsupport/526/2022/05/29/)
 
 [前回]: {{< ref "/remark/2024/04/chromebook-3.md" >}} "Chromebook を導入する 3 — GnuPG & OpenSSH"
 [Andorid 版 Firefox]: https://play.google.com/store/apps/details?id=org.mozilla.firefox&hl=en_US "Firefox Fast & Private Browser - Apps on Google Play"
@@ -140,7 +145,7 @@ $ flatpak update
 
 {{% review-paapi "B0BKKF7JHV" %}} <!-- ASUS Chromebook -->
 {{% review-paapi "B079MCPJGH" %}} <!-- カメラ 目隠し シャッター -->
-{{% review-paapi "B00G9NIL7G" %}} <!-- エレコム マウス Bluetooth -->
+{{% review-paapi "B08LMYWKZD" %}} <!-- Bluetooth 無線静音マウス -->
 {{% review-paapi "B09BMPZ3BZ" %}} <!-- Chromebook仕事術 -->
 {{% review-paapi "4295013498" %}} <!-- Linuxシステムの仕組み -->
 {{% review-paapi "B00WAMAKZQ" %}} <!-- コマンドー -->
