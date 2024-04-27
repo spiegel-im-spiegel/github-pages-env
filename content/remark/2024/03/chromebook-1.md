@@ -60,7 +60,7 @@ ChromeOS は，もの凄く簡単に言うと， Chrome ブラウザを GUI と�
 [Lenovo 製](https://www.amazon.co.jp/dp/B0CNSWLJFM?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)のほうが安くて軽くてストレージ容量が大きいのだが，私が ASUS のほうが好みなのとメモリ容量が大きいということで [ASUS 製](https://www.amazon.co.jp/gp/product/B0BKKF7JHV?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)に決めた。
 ストレージは後から調達できるからね[^asus1]。
 
-[^asus1]: あとで調べたら，14インチノートPCであれば[ストレージ128GB の Chromebook モデル](https://www.asus.com/jp/laptops/for-home/chromebook/asus-chromebook-plus-cx34-cx3402/ "ASUS Chromebook Plus CX34 (CX3402) | Chromebook | 法人向けノートパソコン | ノートパソコン | ASUS日本")があった。ホンマに小さい PC って冷遇されてるのな。
+[^asus1]: あとで調べたら，14インチノートPCであれば[ストレージ128GB の Chromebook モデル](https://www.asus.com/jp/laptops/for-home/chromebook/asus-chromebook-plus-cx34-cx3402/ "ASUS Chromebook Plus CX34 (CX3402) | Chromebook | 法人向けノートパソコン | ノートパソコン | ASUS日本")があった。ホンマに小さいPCって冷遇されてるのな。
 
 というわけで到着。
 

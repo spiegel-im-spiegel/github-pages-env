@@ -3,7 +3,7 @@ title = "お散歩カメラ おかわり"
 date =  "2024-04-14T19:39:36+09:00"
 description = "玉造温泉へ / 玉湯川を上って下る（温泉には入らない） / 糖分補給後，定点観測 / 明日から本気出す"
 image = "/remark/2024/04/14-osanpo-camera/53651525402_fcf1576c88_o.jpg"
-tags = [ "osanpo-camera", "photography", "matsue", "bike", "shrine" ]
+tags = [ "osanpo-camera", "photography", "matsue", "bike", "ruins" ]
 license = "by"
 pageType = "photo"
 
