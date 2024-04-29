@@ -3,7 +3,7 @@ title = "暑い日曜日 〜機種変とオーバーホール〜"
 date =  "2023-08-21T23:06:49+09:00"
 description = "「殺す気か！」と太陽に向かって小一時間説教したい"
 image = "/images/attention/kitten.jpg"
-tags = [ "k-tai", "bike" ]
+tags = [ "k-tai", "gear", "bike" ]
 pageType = "text"
 
 [scripts]

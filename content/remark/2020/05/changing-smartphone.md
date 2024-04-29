@@ -3,7 +3,7 @@ title = "ついカッとなって機種変した，反省はしない"
 date =  "2020-05-15T00:02:50+09:00"
 description = "もはやスマホにこれ以上パラダイム・シフトの夢を見ることはないし，スペックも最小限で無問題。"
 image = "/images/attention/kitten.jpg"
-tags = [ "k-tai", "android", "authentication", "install" ]
+tags = [ "k-tai", "gear", "android", "authentication", "install" ]
 pageType = "text"
 
 [scripts]
