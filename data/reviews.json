@@ -25942,5 +25942,41 @@
       false
     ],
     "Description": "静音マウスを使いだしたら普通のマウスがカチカチ煩いと感じるようになってしまい，仕方ないので Bluetooth 無線マウスも静音マウスに替えた。単三電池一本で駆動するの助かる。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CR1JP7ZZ",
+      "Title": "Widevine L1対応 Android 14 タブレット 8.4インチ、Headwolf FPad5 Helio G99 CPU、1920*1200解像度 FHDディスプレイ、16GB+128GB、5500mAh、4G LTE+2.4G/5G WiFi+8/13MP カメラ、GPS+顔認識+GMS認証+OTG転送+Bluetooth5.2 アンドロイドタブレット",
+      "URL": "https://www.amazon.co.jp/dp/B0CR1JP7ZZ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41kzctN3e6L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "Headwolf",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CR1JP7ZZ"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-04-28",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "格安 Android タブレット。8.4インチ。充電が Power Delivery 非対応なのが残念だが他は申し分なし。"
   }
 ]

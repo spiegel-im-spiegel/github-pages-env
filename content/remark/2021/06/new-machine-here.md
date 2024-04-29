@@ -3,7 +3,7 @@ title = "自宅マシンを買うた（これで私も人並みに...）"
 date =  "2021-06-13T17:05:03+09:00"
 description = "なんちゃらとパソコンは新しいものに限る。"
 image = "/images/attention/kitten.jpg"
-tags = [ "tools", "ubuntu" ]
+tags = [ "tools", "gear", "ubuntu" ]
 pageType = "text"
 
 [scripts]

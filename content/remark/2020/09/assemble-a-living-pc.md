@@ -3,7 +3,7 @@ title = "整いました！"
 date =  "2020-09-24T21:55:47+09:00"
 description = "これで新しいリビング PC の完成である。"
 image = "/images/attention/kitten.jpg"
-tags = [ "tools", "android", "linux" ]
+tags = [ "tools", "android", "linux", "gear" ]
 pageType = "text"
 
 [scripts]
