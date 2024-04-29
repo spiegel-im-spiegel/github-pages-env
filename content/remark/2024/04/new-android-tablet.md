@@ -1,11 +1,10 @@
 +++
 title = "Android タブレットは8インチでちょうどいい"
-date =  "2024-04-29T10:28:24+09:00"
+date =  "2024-04-29T13:01:07+09:00"
 description = "また衝動買いしてしまった orz"
 image = "/images/attention/kitten.jpg"
 tags = [ "tools", "gear", "android"  ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
