@@ -75,6 +75,8 @@ Power Delivery に対応してなくてバッテリ保護機能もないのが�
 
 - [暑い日曜日 〜機種変とオーバーホール〜]({{< ref "/remark/2023/08/overhaul.md" >}})
 
+## 参考
+
 {{% review-paapi "B0CR1JP7ZZ" %}} <!-- Android タブレット Headwolf FPad5 -->
 {{% review-paapi "B07HWSDG97" %}} <!-- デスクトップスタンド スマホ タブレット -->
 {{% review-paapi "B094HVD8SD" %}} <!-- 折りたたみキーボード iClever IC-BK26 -->
