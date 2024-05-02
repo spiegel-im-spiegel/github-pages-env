@@ -47,7 +47,9 @@ Amazon の Kindle 端末を買うより，こういう格安タブレットを�
 それ以上だと Chromebook か，ちゃんとお金出してノートPC買えって感じかな。
 
 Power Delivery に対応してなくてバッテリ保護機能もないのが残念ではあるが，この価格なら2,3年で使い潰しても心は痛まないかもな。
-携帯端末に音質は求めるな（笑）
+携帯端末に音質は求めるな[^a1]（笑）
+
+[^a1]: [USB-DAC をかませて卓上スピーカーで鳴らしたら]({{< ref "/remark/2024/03/ktai-and-music.md" >}} "スマホと音楽")「ヘブバン」の音が全然違った。つか，タブレットのスピーカーでは低音が全然鳴らないんだな（笑）
 
 これでよーやく「[ヘブンバーンズレッド](https://heaven-burns-red.com/ "ヘブンバーンズレッド 公式サイト")」で遊べるよ[^hbr1]。
 
@@ -80,4 +82,5 @@ Power Delivery に対応してなくてバッテリ保護機能もないのが�
 {{% review-paapi "B0CR1JP7ZZ" %}} <!-- Android タブレット Headwolf FPad5 -->
 {{% review-paapi "B07HWSDG97" %}} <!-- デスクトップスタンド スマホ タブレット -->
 {{% review-paapi "B094HVD8SD" %}} <!-- 折りたたみキーボード iClever IC-BK26 -->
+{{% review-paapi "B0BL76SJL6" %}} <!-- USB-DAC -->
 {{% review-paapi "B00O2O7JEA" %}} <!-- あなたの人生の物語 -->
