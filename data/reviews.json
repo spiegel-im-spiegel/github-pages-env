@@ -25978,5 +25978,48 @@
       false
     ],
     "Description": "格安 Android タブレット。8.4インチ。充電が Power Delivery 非対応なのが残念だが他は申し分なし。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CY3GW388",
+      "Title": "春眠旅団",
+      "URL": "https://www.amazon.co.jp/dp/B0CY3GW388?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51saQZrrn8L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "She is Legend",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "WFS Developed by WRIGHT FLYER STUDIOS / VISUAL ARTS / Key Sounds Label",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CY3GW388"
+        }
+      ],
+      "PublicationDate": "2024-03-27",
+      "LastRelease": "2024-03-27",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-05-03",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "ゲーム「\u003ca href=\"https://heaven-burns-red.com/\"\u003eヘブンバーンズレッド\u003c/a\u003e」の劇中バンド “She is Legend” のアルバム。「ヘブバン」は「音楽がいい」という評価を聞いてたのでやってみたかったのだが，実際にやってみてタブレットから USB-DAC 経由で BOSE スピーカーシステムに繋いだらホンマによかった。 mora で\u003ca href=\"https://mora.jp/package/43000074/TCJPR0001149717_hires/\"\u003e高解像度版\u003c/a\u003eが買える。"
   }
 ]
