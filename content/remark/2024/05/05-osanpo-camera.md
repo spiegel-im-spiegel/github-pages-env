@@ -85,7 +85,7 @@ pageType = "photo"
 もうひとつついでに以前から行きたかった[田和山遺跡]にも行ってみた[^s1]。
 山というか丘なんだけどね。
 
-[^s1]: 本当は（最近発掘された）[神後田遺跡]にも行きたかったのだが，何処から入っていいか分からず断念した。いやぁ，松江は遺跡だらけだよね。掘ったら遺跡にあたるんだもん。
+[^s1]: 本当は[{{% ruby "じごで" %}}神後田{{% /ruby %}}遺跡](https://www.city.matsue.lg.jp/soshikikarasagasu/bunkasports_maizobunkazaichosaka/rekishi_bunkazai/1/1/4097.html "神後田遺跡／松江市ホームページ")（最近国指定史跡に追加指定された）にも行きたかったのだが，何処から入っていいやら分からず断念した。いやぁ，松江は遺跡だらけだよね。掘ったら遺跡にあたるんだもん。
 
 {{< fig-img src="./53699548138_4acdff06f9_e.jpg" title="田和山遺跡 西側入口 | Flickr" link="https://www.flickr.com/photos/spiegel/53699548138/" >}}
 
@@ -131,7 +131,6 @@ GW だし人が多いだろう。
 [熊野大社]: http://www.kumanotaisha.or.jp/ "出雲國一之宮　熊野大社"
 [野代神社]: https://maps.app.goo.gl/7TXXsczdUji7YmGY9
 [田和山遺跡]: https://maps.app.goo.gl/dngDc3nSdHwcHdUD7
-[神後田遺跡]: https://maps.app.goo.gl/vuS1fDhZLfbaPRYx8
 
 ## 参考
 
