@@ -102,7 +102,7 @@ $ ssh -T git@github.com
 今回はここまで。
 次回は git かな。
 
-## 【2024-05-06】 pinentry-gnome3 を導入する
+## 【2024-05-06】 pinentry-gnome3 を導入する { #pinentry }
 
 さすがに `pinentry-curses` のままではアレなので [`pinentry-gnome3`] に換装することを考える。
 その前に `update-alternatives` コマンドで現在の pinentry の設定を見てみる。
