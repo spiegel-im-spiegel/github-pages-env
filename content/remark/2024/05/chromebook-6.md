@@ -1,11 +1,10 @@
 +++
 title = "Chromebook を導入する 6 — Git & Go コンパイラ"
-date =  "2024-05-06T18:02:26+09:00"
+date =  "2024-05-06"
 description = "GitHub のリポジトリから Go のコードを取ってきて修正&コミット&プッシュするところまで。"
 image = "/images/attention/tools.png"
 tags = [ "chromebook", "linux", "gnupg", "openssh", "git", "golang" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
