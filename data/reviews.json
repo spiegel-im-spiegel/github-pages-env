@@ -26021,5 +26021,49 @@
       false
     ],
     "Description": "ゲーム「\u003ca href=\"https://heaven-burns-red.com/\"\u003eヘブンバーンズレッド\u003c/a\u003e」の劇中バンド “She is Legend” のアルバム。「ヘブバン」は「音楽がいい」という評価を聞いてたのでやってみたかったのだが，実際にやってみてタブレットから USB-DAC 経由で BOSE スピーカーシステムに繋いだらホンマによかった。 mora で\u003ca href=\"https://mora.jp/package/43000074/TCJPR0001149717_hires/\"\u003e高解像度版\u003c/a\u003eが買える。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07KJWYQJW",
+      "Title": "Anker PowerExpand+ 7-in-1 USB-C PD メディア ハブ 85Wパススルー充電 Power Delivery USB-Cポート HDMI USB-Aポート",
+      "URL": "https://www.amazon.co.jp/dp/B07KJWYQJW?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41eb8MUNhHL._SL160_.jpg",
+        "Height": 160,
+        "Width": 118
+      },
+      "Publisher": "Anker",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07KJWYQJW"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0848061003871"
+        },
+        {
+          "Name": "UPC",
+          "Value": "848061003871"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-05-06",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "購入した Chromebook と周辺機器を繋ぐために購入。 USB-C は電源用（Power Delivery 対応）とデータ用の口がある。 HDMI の口もありモニタと繋ぐこともできる。 USB-DAC も繋がる。助かる。"
   }
 ]

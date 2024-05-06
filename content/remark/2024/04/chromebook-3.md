@@ -16,6 +16,7 @@ pageType = "text"
 - [Chromebook を導入する 3 — GnuPG & OpenSSH]({{< ref "/remark/2024/04/chromebook-3.md" >}}) ← イマココ
 - [Chromebook を導入する 4 — Flatpak で Firefox を導入する]({{< ref "/remark/2024/04/chromebook-4.md" >}})
 - [Chromebook を導入する 5 — APT で Firefox を導入する]({{< ref "/remark/2024/04/chromebook-5.md" >}})
+- [Chromebook を導入する 6 — Git & Go コンパイラ]({{< ref "/remark/2024/05/chromebook-6.md" >}})
 
 [前回]に続いて Linux サブシステムのセットアップを行う。
 なお，ターミナルはランチャーから起動できる。
@@ -102,7 +103,7 @@ $ ssh -T git@github.com
 今回はここまで。
 次回は git かな。
 
-## 【2024-05-06】 pinentry-gnome3 を導入する { #pinentry }
+## 【2024-05-06 追記】 pinentry-gnome3 を導入する { #pinentry }
 
 さすがに `pinentry-curses` のままではアレなので [`pinentry-gnome3`] に換装することを考える。
 その前に `update-alternatives` コマンドで現在の pinentry の設定を見てみる。
@@ -169,6 +170,8 @@ Match host * exec "gpg-connect-agent UPDATESTARTUPTTY /bye"
 ## ブックマーク
 
 - [GnuPG - ArchWiki](https://wiki.archlinux.jp/index.php/GnuPG)
+- [GitHub アカウントへの新しい SSH キーの追加 - GitHub Docs](https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+- [GitHub アカウントに GPG キーを追加する - GitHub Docs](https://docs.github.com/ja/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account)
 
 [前回]: {{< ref "/remark/2024/04/chromebook-2.md" >}} "Chromebook を導入する 2 — Linux サブシステム"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
