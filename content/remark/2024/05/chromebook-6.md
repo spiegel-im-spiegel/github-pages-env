@@ -158,7 +158,7 @@ GitHub サイトで確認してみよう。
 [Git]: https://git-scm.com/
 [Go]: https://go.dev/ "The Go Programming Language"
 
-## 参考図書
+## 参考
 
 {{% review-paapi "B0BKKF7JHV" %}} <!-- ASUS Chromebook -->
 {{% review-paapi "B079MCPJGH" %}} <!-- カメラ 目隠し シャッター -->
