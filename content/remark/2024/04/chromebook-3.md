@@ -132,7 +132,7 @@ $ sudo update-alternatives --config pinentry
 
 もう一度 `update-alternatives` で状態を確認してみよう。
 
-{{< fig-img src="./install-pinentry-gnome3-2.png" title="install pinentry-gnome3 (2)" link="./install-pinentry-gnome3-2.png" width="986" >}}
+{{< fig-img src="./update-alternatives-2.png" title="update-alternatives (2)" link="./update-alternatives-2.png" width="986" >}}
 
 よしよし。
 [`pinentry-gnome3`] が自動・優先で設定されてるな。
@@ -142,7 +142,7 @@ $ sudo update-alternatives --config pinentry
 $ ssh -T git@github.com
 ```
 
-のように接続テストを行うと，めでたく以下のプロンプトが表示された。
+などと接続テストを行うと，めでたく以下のプロンプトが表示された。
 
 {{< fig-img src="./pinentry-gnome3.png" title="pinentry-gnome3" link="./pinentry-gnome3.png" >}}
 
