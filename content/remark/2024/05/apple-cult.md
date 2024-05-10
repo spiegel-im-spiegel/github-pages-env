@@ -29,7 +29,7 @@ pageType = "text"
 
 これによると
 
-{{< fig-quote type="markdown" title="https://courrier.jp/news/archives/364187/" link="新型iPadの動画はなぜ炎上したのか？ 米メディアが問題点を手厳しく批判" >}}
+{{< fig-quote type="markdown" link="https://courrier.jp/news/archives/364187/" title="新型iPadの動画はなぜ炎上したのか？ 米メディアが問題点を手厳しく批判" >}}
 アップルはおそらく、TikTokで人気の「粉砕」動画を真似したと思われる。同誌に言わせれば、「その特定のフォーマットをコピーするのが面白いと考えたのだろうが、アップルほどの企業がバイラル動画に乗っかろうとするなんて、どこか寒いところがある」
 {{< /fig-quote >}}
 
@@ -37,7 +37,7 @@ pageType = "text"
 へぇ。
 TikTok 動画のパクリなのか？ TikTok は（怖くて）アカウントを持ってないので確かめようもないが，パクった挙句にスベるとかダサいな（笑）
 
-まぁ，個人的な感想はともかく，これで思い出したのが最近翻訳された以下の記事だ。
+まぁ，個人的な感想はともかく，これで連想したのが最近翻訳された以下の記事だ。
 
 - [Macカルト――“Appleの罪を美徳とせよ” | p2ptk[.]org](https://p2ptk.org/monopoly/4520)
 - [メタクソ化するアップル――Macカルトと“アップル例外主義” | p2ptk[.]org](https://p2ptk.org/monopoly/4543)
