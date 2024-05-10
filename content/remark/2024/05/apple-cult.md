@@ -42,7 +42,7 @@ TikTok 動画のパクリなのか？ TikTok は（怖くて）アカウント�
 - [Macカルト――“Appleの罪を美徳とせよ” | p2ptk[.]org](https://p2ptk.org/monopoly/4520)
 - [メタクソ化するアップル――Macカルトと“アップル例外主義” | p2ptk[.]org](https://p2ptk.org/monopoly/4543)
 
-原文は今年の[1月](https://pluralistic.net/2024/01/12/youre-holding-it-wrong/#if-dishwashers-were-iphones "The Cult of Mac")と[3月](https://pluralistic.net/2024/03/22/reality-distortion-field/#three-trillion-here-three-trillion-there-pretty-soon-youre-talking-real-money "The antitrust case against Apple")に公開されたもののようだ。
+SF作家コリイ・ドクトロウ氏による原文は今年の[1月](https://pluralistic.net/2024/01/12/youre-holding-it-wrong/#if-dishwashers-were-iphones "The Cult of Mac")と[3月](https://pluralistic.net/2024/03/22/reality-distortion-field/#three-trillion-here-three-trillion-there-pretty-soon-youre-talking-real-money "The antitrust case against Apple")に公開されたもののようだ。
 
 私は以前から Apple 製品のユーザを「Apple 信者」呼ばわりしているが，この記事を見るとガチのカルト集団に見えるわ（笑）
 
