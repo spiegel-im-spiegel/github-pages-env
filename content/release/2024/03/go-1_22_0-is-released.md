@@ -88,7 +88,7 @@ gRPC などを操ってる方は要注意である。
 
 ## 参考図書
 
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "4814400047" %}} <!-- 初めてのGo言語 -->
 {{% review-paapi "B0CFL1DK8Q" %}} <!-- Go言語 100Tips -->
 {{% review-paapi "4814400535" %}} <!-- 効率的なGo : Efficient Go -->

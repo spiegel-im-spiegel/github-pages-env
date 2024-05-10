@@ -410,5 +410,5 @@ if err := Transaction(ctx, db, &sql.TxOptions{}, func(tx *kraSql.Tx) error {
 
 ## 参考図書
 
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "B09C2XBC2F" %}} <!-- Golang Tシャツ -->

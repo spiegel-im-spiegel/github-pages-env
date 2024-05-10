@@ -53,4 +53,4 @@ Interface, goroutine, channel の概念や実装方法は [Go 言語]の中核�
 [A Tour of Go]: https://tour.golang.org/
 [プログラミング言語 Go]: https://www.amazon.co.jp/exec/obidos/ASIN/4621300253/baldandersinf-22/ "プログラミング言語Go (ADDISON-WESLEY PROFESSIONAL COMPUTING SERIES) : Alan A.A. Donovan, Brian W. Kernighan, 柴田 芳樹 : 本 : Amazon"
 
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->

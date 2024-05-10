@@ -67,4 +67,4 @@ Go 1.19 で [`os/exec`](https://golang.org/pkg/os/exec/ "exec - The Go Programmi
 
 ## 参考図書
 
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->

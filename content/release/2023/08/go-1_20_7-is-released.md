@@ -132,5 +132,5 @@ go version go1.20.7 linux/amd64
 
 ## 参考図書
 
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "4814400047" %}} <!-- 初めてのGo言語 -->

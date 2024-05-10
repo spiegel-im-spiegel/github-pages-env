@@ -314,6 +314,6 @@ $ go run sample3c.go | jq .
 
 ## 参考図書
 
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "B09C2XBC2F" %}} <!-- Golang Tシャツ -->
 {{% review-paapi "B08S2LY9VG" %}} <!-- 再発見の発想法 -->

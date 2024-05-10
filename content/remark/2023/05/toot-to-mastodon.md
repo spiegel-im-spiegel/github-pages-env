@@ -200,7 +200,7 @@ Bluesky は（多分まだ）表示範囲を指定できないのでテスト用
 
 ## 参考図書
 
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "4814400047" %}} <!-- 初めてのGo言語 -->
 
 [toolbox]: https://github.com/goark/toolbox "goark/toolbox: A collection of miscellaneous commands"

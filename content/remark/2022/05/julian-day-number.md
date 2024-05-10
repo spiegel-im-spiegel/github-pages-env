@@ -73,7 +73,7 @@ Gregorian: 2023-02-24 12:00:00 +0000 UTC (2023-02-24 21:00:00 +0900 JST)
 {{% review-paapi "441662140X" %}} <!-- 天文年鑑 2022年版 -->
 {{% review-paapi "4805202254" %}} <!-- 天体の位置計算 -->
 {{% review-paapi "4769907001" %}} <!-- 新こよみ便利帳 -->
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
 
 [goark/koyomi]: https://github.com/goark/koyomi "goark/koyomi: 日本のこよみ"
 [math/big]: https://pkg.go.dev/math/big "big package - math/big - pkg.go.dev"

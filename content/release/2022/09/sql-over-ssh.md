@@ -219,6 +219,6 @@ type Dialer struct {
 
 ## 参考図書
 
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "4873119979" %}} <!-- Go言語による分散サービス -->
 {{% review-paapi "B09C2XBC2F" %}} <!-- Golang Tシャツ -->

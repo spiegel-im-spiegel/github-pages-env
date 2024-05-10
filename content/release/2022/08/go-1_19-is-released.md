@@ -66,7 +66,7 @@ Windows は [Scoop] 経由で OK
 
 ## 参考図書
 
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "B09P4PH63R" %}} <!-- エキスパートたちのGo言語 -->
 {{% review-paapi "4873119693" %}} <!-- 実用 Go 言語 -->
 {{% review-paapi "B0B62K55SL" %}} <!-- 詳解Go言語Webアプリケーション開発 -->

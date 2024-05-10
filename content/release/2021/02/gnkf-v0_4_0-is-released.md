@@ -56,4 +56,4 @@ Bash, Zsh, Fish, PowerShell の自動補完機能に対応している。
 
 ## 参考図書
 
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->

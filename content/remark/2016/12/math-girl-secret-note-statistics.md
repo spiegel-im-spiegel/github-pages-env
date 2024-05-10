@@ -172,4 +172,4 @@ gnuplot> plot "cointoss.dat"  u (filter($1,1)):(1) smooth frequency with boxes l
 
 {{% review-paapi "B01MSJMKMW" %}} <!-- 数学ガールの秘密ノート／やさしい統計 -->
 
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->

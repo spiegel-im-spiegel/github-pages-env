@@ -141,4 +141,4 @@ All tools successfully installed. You are ready to Go :).
 ## 参考図書
 
 {{% review-paapi "B08CZ2C3NZ" %}} <!-- Software Design (2020年8月号) -->
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->

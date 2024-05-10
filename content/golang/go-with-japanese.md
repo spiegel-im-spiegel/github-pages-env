@@ -274,7 +274,7 @@ $ go run sample2.go 埼⽟ 埼玉
 
 ## 参考図書
 
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "B07143DX2F" %}} <!-- with #前置詞といっしょ！ -->
 {{% review-paapi "4906985165" %}} <!-- coffee ＃名詞のヒミツ！ -->
 {{% review-paapi "4906985262" %}} <!-- #動詞と踏み出そう！ -->

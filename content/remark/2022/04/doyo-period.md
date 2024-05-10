@@ -134,5 +134,5 @@ Day 2022-05-04 is 丁巳
 
 {{% review-paapi "441662140X" %}} <!-- 天文年鑑 2022年版 -->
 {{% review-paapi "4769907001" %}} <!-- 新こよみ便利帳 -->
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "B09C2XBC2F" %}} <!-- Golang Tシャツ -->

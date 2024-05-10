@@ -65,6 +65,6 @@ go version go1.21.1 linux/amd64
 
 ## 参考図書
 
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "4814400047" %}} <!-- 初めてのGo言語 -->
 {{% review-paapi "B0CFL1DK8Q" %}} <!-- Go言語 100Tips -->

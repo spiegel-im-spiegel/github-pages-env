@@ -114,6 +114,6 @@ Directory traversal 脆弱性は問題ないと思う。
 
 ## 参考図書
 
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
 
 {{% review-paapi "4873117526" %}} <!-- Go言語によるWebアプリケーション開発 -->

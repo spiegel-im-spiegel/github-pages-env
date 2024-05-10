@@ -150,7 +150,7 @@ func main() {
 ## 参考図書
 
 {{% review-paapi "B0191845R0" %}} <!-- 鉄道が変えた社寺参詣 -->
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "B08FZTLQG3" %}} <!-- フィットネスバイク -->
 {{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
 {{% review-paapi "B08XQGKL6G" %}} <!-- ぐだふわエブリデー -->

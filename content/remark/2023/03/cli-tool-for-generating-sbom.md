@@ -139,5 +139,5 @@ jobs:
 ## 参考図書
 
 {{% review-paapi "4822283100" %}} <!-- セキュリティはなぜやぶられたのか -->
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "B09C2XBC2F" %}} <!-- Golang Tシャツ -->

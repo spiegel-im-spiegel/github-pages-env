@@ -313,5 +313,5 @@ ChatGPT とのやりとりを [Gist に上げたり](https://gist.github.com/spi
 ## 参考図書
 
 {{% review-paapi "B0BXQ2HMQ5" %}} <!-- 日経サイエンス2023年5月号（特集：対話するAI ChatGPT） -->
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "B09C2XBC2F" %}} <!-- Golang Tシャツ -->

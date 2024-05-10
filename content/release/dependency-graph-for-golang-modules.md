@@ -376,4 +376,4 @@ $ depm list -j "github.com/goark/depm"
 
 ## 参考文献
 
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->

@@ -166,5 +166,5 @@ GitHub サイトで確認してみよう。
 {{% review-paapi "B07KJWYQJW" %}} <!-- ANKER PowerExpand USB メディアハブ -->
 {{% review-paapi "B09BMPZ3BZ" %}} <!-- Chromebook仕事術 -->
 {{% review-paapi "4295013498" %}} <!-- Linuxシステムの仕組み -->
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "B096TH798S" %}} <!-- 改訂2版 わかばちゃんと学ぶ Git使い方入門 -->

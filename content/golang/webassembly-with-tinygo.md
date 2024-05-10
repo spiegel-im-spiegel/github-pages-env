@@ -408,4 +408,4 @@ Press ctrl+c to stop
 ## 参考図書
 
 {{% review-paapi "B08T7D2LFR" %}} <!-- ソフトウェアデザイン 2021年3月号 -->
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->

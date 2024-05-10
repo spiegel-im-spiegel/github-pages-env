@@ -531,7 +531,7 @@ PCG は線形合同法（LCG）のバリエーションなんだそうで， LCG
 
 ## 参考図書
 
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "B0CFL1DK8Q" %}} <!-- Go言語 100Tips -->
 {{% review-paapi "4873118468" %}} <!-- Go言語による並行処理 -->
 {{% review-paapi "4814400535" %}} <!-- 効率的なGo : Efficient Go -->

@@ -25,4 +25,4 @@ image = "/images/attention/go-logo_blue.png"
 
 ## 参考図書
 
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->

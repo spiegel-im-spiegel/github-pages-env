@@ -99,7 +99,7 @@ standard deviation:  1.0027323703801945
 
 ## 参考図書
 
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "B0CFL1DK8Q" %}} <!-- Go言語 100Tips -->
 {{% review-paapi "4814400535" %}} <!-- 効率的なGo : Efficient Go -->
 {{% review-paapi "B015643CPE" %}} <!-- 暗号技術入門 第3版 -->

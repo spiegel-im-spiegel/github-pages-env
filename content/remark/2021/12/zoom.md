@@ -40,7 +40,7 @@ pageType = "text"
 
 ## 参考
 
-{{% review-paapi "B099928SJD" %}} <!-- プログラミング言語Go -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "B07RRQ59JR" %}} <!-- AfterShokz Aeropex 骨伝導ヘッドセット -->
 {{% review-paapi "B078J9MR75" %}} <!-- Web カメラ -->
 {{% review-paapi "B01MQDYCB0" %}} <!-- USB ハブ（スイッチ付き） -->
