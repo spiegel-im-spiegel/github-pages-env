@@ -71,7 +71,7 @@ ChromeOS 標準のエディタに比べればキビキビ動く（笑）
 
 - [Releases · googlefonts/Inconsolata · GitHub](https://github.com/googlefonts/Inconsolata/releases)
 
-この中の OTF フォントを `/usr/local/share/fonts` ディレクトリに突っ込んで `fc-cache -fv` とすればOK。
+Zip ファイルを解凍し，中に入ってる OTF フォント全部を `/usr/local/share/fonts` ディレクトリに突っ込んで `fc-cache -fv` とすればOK。
 確認は `fc-list` コマンドでできる。
 
 VS Code で使う場合は設定の “Editor: Font Family” の項目に設定すればよい。
@@ -87,7 +87,8 @@ VS Code のキーアサインの設定をしようとして気がついたのだ
 
 - [Chromebook でファンクションキーを使う方法。F1 から F12 までどこに割り振られているのか？！](https://nj-clucker.com/chromebook-function-key/)
 
-なるほど {{% icons "mglass-key" %}} キーと組み合わせて使うのか。
+なるほど。
+{{% icons "mglass-key" %}} キーと組み合わせて使うのか。
 覚えておこう。
 しかし `Shift+Ctrl+F1` とかって組み合わせたらエラいことになるな。
 
