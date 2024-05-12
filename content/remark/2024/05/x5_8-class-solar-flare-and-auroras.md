@@ -35,8 +35,10 @@ According to NOAA's Space Weather Prediction Center (SWPC), the dynamic [solar f
 
 - [5/11土曜夜は北海道からもオーロラが｜片岡龍峰](https://note.com/ryuhokataoka/n/nbd55ba6514ad)
 
-実際には北海道どころではなく愛知県や兵庫県でも観測報告があったようだ。
+実際には北海道どころではなく愛知県や兵庫県でも観測報告があったようだ[^ar1]。
 久しぶりに X (旧 Twitter) フル活用しちゃったよ（笑）
+
+[^ar1]: オーロラは上空に行くほど B → G → R の順で色が変化するらしい。日本上空で見られるものは北極圏付近のオーロラの上空部分で，日本上空に現れるものではないそうだが，日本でも観測できるということはそれだけ低緯度でオーロラが発生したという傍証になる。
 
 {{< fig-gen class="center" >}}
 <blockquote class="twitter-tweet" align="center"><p lang="ja" dir="ltr">猛烈な磁気嵐（柿岡ΔH=517 nT、歴代9位）により、日本時間2024年5月11日の夜間、北海道、青森、秋田、岩手、山形、宮城、福島、栃木、長野、群馬、新潟、富山、石川、福井、兵庫、愛知から赤いオーロラが確認されました <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%BC%E3%83%AD%E3%83%A9%E3%82%B7%E3%83%81%E3%82%BA%E3%83%B3?src=hash&amp;ref_src=twsrc%5Etfw">#オーロラシチズン</a> <a href="https://t.co/ZwGzOvHdcM">pic.twitter.com/ZwGzOvHdcM</a></p>&mdash; 片岡龍峰 (@ryuhokataoka) <a href="https://twitter.com/ryuhokataoka/status/1789408017261478135?ref_src=twsrc%5Etfw">May 11, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
