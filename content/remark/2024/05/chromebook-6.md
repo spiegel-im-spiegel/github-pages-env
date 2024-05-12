@@ -17,6 +17,7 @@ pageType = "text"
 - [Chromebook を導入する 4 — Flatpak で Firefox を導入する]({{< ref "/remark/2024/04/chromebook-4.md" >}})
 - [Chromebook を導入する 5 — APT で Firefox を導入する]({{< ref "/remark/2024/04/chromebook-5.md" >}})
 - [Chromebook を導入する 6 — Git & Go コンパイラ]({{< ref "/remark/2024/05/chromebook-6.md" >}}) ← イマココ
+- [Chromebook を導入する 7 — VS Code の導入]({{< ref "/remark/2024/05/chromebook-7.md" >}})
 
 さて。
 色々と脱線したが「[Chromebook を導入する 3]({{< ref "/remark/2024/04/chromebook-3.md" >}})」の続きでようやく git の設定を始めるですよ。
@@ -109,7 +110,7 @@ go version go1.22.2 linux/amd64
 
 と起動が確認できた。
 
-## Git と Go コンパイラの動作を確認する。
+## Git と Go コンパイラの動作を確認する
 
 今回はあらかじめ GitHub に動作確認用のリポジトリを作っておいた。
 
@@ -145,6 +146,76 @@ GitHub サイトで確認してみよう。
 ちゃんとコミットに電子署名が付いてるね。
 これでよーやく VS Code を導入する準備ができたよ。
 
+## Go の開発環境を外部ストレージに構築する {#goenv}
+
+内部ストレージを十分備えている Chromebook なら以下の設定は不要だと思う。
+たとえば [ASUS CX34 シリーズ](https://www.asus.com/jp/laptops/for-home/chromebook/asus-chromebook-plus-cx34-cx3402/ "ASUS Chromebook Plus CX34 (CX3402) | Chromebook | 法人向けノートパソコン | ノートパソコン | ASUS日本")なら十分なストレージ容量を持つ（これで税込8万円切るもんなー）。
+まぁ，私の場合は14インチという時点で対象外だが。
+
+[Go] の環境設定については以下の拙文が参考になる。
+
+- [Go のモジュール管理【バージョン 1.17 改訂版】](https://zenn.dev/spiegel/articles/20210223-go-module-aware-mode)
+
+「[Chromebook を導入する 2]({{< ref "/remark/2024/04/chromebook-2.md" >}} "Chromebook を導入する 2 — Linux サブシステム")」で
+
+```text
+$ ln -s /mnt/chromeos/removable/SD\ Card/linux ~/ws
+```
+
+てな感じに外部ストレージのディレクトリをシンボリックファイルで繋いだので， `~/.profile` に以下の内容を追記してみた。
+
+```bash
+if [ -d "$HOME/ws/go" ] ; then
+    export GOPATH="$HOME/ws/go"
+    export GOCACHE="$GOPATH/go-build"
+    export GOBIN="$GOPATH/bin"
+    PATH="$GOBIN:$PATH"
+fi
+```
+
+この設定が効いてる状態で `go env` コマンドの結果を見てみる。
+
+{{< fig-img src="./go-env.png" title="go env" link="./go-env.png" width="986" >}}
+
+注目する変数は `GOPATH`, `GOBIN`, `GOCACHE`, `GOCMODACHE` あたり。
+これらの設定が外部ストレージを指示していれば問題ない。
+
+### 外部ストレージのファイルモード
+
+外部ストレージのファイルにファイルを置くと何故か実行権限 `x` が付いてしまう。
+しかも `chmod` コマンドで変更できないようだ。
+ちなみに `chown` コマンドも効かない。
+
+軽くググってみたら以下の記事を見つけた。
+
+- [【Chromebook/Linux】共有フォルダ「/mnt/chromeos」やchmodが「Operation not permitted」エラーになる現象についてのメモ](https://did2memo.net/2020/10/30/chromebook-mnt-chromeos-chmod-operation-not-permitted/)
+
+こちらは外部ストレージファイルを実行できないというものだが，私の環境を見ると `/etc/mtab` を見ると
+
+```text
+9p /mnt/chromeos 9p rw,nosuid,nodev,relatime,access=any,msize=65560,trans=fd,rfd=18,wfd=18 0 0
+```
+
+となっていて `noexec` が外されているようだ。
+これによって `/mnt/chromeos` 以下の外部ストレージの全ファイルが実行可能ファイルになってしまうっぽい？
+
+{{< fig-quote type="markdown" title="【Chromebook/Linux】共有フォルダ「/mnt/chromeos」やchmodが「Operation not permitted」エラーになる現象についてのメモ" link="https://did2memo.net/2020/10/30/chromebook-mnt-chromeos-chmod-operation-not-permitted/" >}}
+いろいろ追加で調べている中で、/mnt/chromeosをマウントする際に指定されていたファイルシステム「9P（Plan 9 Filesystem Protocol）」（/etc/mtab に記載されていたファイルシステム）について調べつつ、Chromium OSのissue trackerを確認したところ、どうやらこの9p（p9）を利用することと、chownが利用できないことに関連があるようでした（「by design」とあるので、不具合というよりそもそもの仕様として、というようなイメージ）。
+{{< /fig-quote >}}
+
+これはちょっと取り扱い注意かも。
+それにしても，なんで安全でない方に倒すかね。
+
+念のため [git][Git] にも以下の設定を加えておく。
+
+```text
+$ git config --global core.filemode false
+$ git config --global core.ignorecase false
+```
+
+これでうっかり実行可能ファイルとしてコミットしてしまうこともないだろう。
+ちなみにファイル名の大文字小文字も区別しないので `core.ignorecase` も `false` にしておく（これは外部ストレージのフォーマットのせいかな）。
+
 ## ブックマーク
 
 - [Git 初期設定 #Git - Qiita](https://qiita.com/ucan-lab/items/aadbedcacbc2ac86a2b3)
@@ -163,6 +234,7 @@ GitHub サイトで確認してみよう。
 {{% review-paapi "B0BKKF7JHV" %}} <!-- ASUS Chromebook -->
 {{% review-paapi "B079MCPJGH" %}} <!-- カメラ 目隠し シャッター -->
 {{% review-paapi "B08LMYWKZD" %}} <!-- Bluetooth 無線静音マウス -->
+{{% review-paapi "B0CH2X5LBX" %}} <!-- micoroSD カード -->
 {{% review-paapi "B07KJWYQJW" %}} <!-- ANKER PowerExpand USB メディアハブ -->
 {{% review-paapi "B09BMPZ3BZ" %}} <!-- Chromebook仕事術 -->
 {{% review-paapi "4295013498" %}} <!-- Linuxシステムの仕組み -->

@@ -21,6 +21,7 @@ pageType = "text"
 - [Chromebook を導入する 4 — Flatpak で Firefox を導入する]({{< ref "/remark/2024/04/chromebook-4.md" >}})
 - [Chromebook を導入する 5 — APT で Firefox を導入する]({{< ref "/remark/2024/04/chromebook-5.md" >}})
 - [Chromebook を導入する 6 — Git & Go コンパイラ]({{< ref "/remark/2024/05/chromebook-6.md" >}})
+- [Chromebook を導入する 7 — VS Code の導入]({{< ref "/remark/2024/05/chromebook-7.md" >}})
 
 ## 「頑張ったご褒美」にノートPCを物色中
 
