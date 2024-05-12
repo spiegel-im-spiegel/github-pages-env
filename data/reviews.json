@@ -26065,5 +26065,56 @@
       false
     ],
     "Description": "購入した Chromebook と周辺機器を繋ぐために購入。 USB-C は電源用（Power Delivery 対応）とデータ用の口がある。 HDMI の口もありモニタと繋ぐこともできる。 USB-DAC も繋がる。助かる。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4309257453",
+      "Title": "天空の庭",
+      "URL": "https://www.amazon.co.jp/dp/4309257453?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41k360ktIvL._SL160_.jpg",
+        "Height": 114,
+        "Width": 160
+      },
+      "ProductType": "大型本",
+      "Creators": [
+        {
+          "Name": "KAGAYA",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "河出書房新社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4309257453"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784309257457"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4309257453"
+        }
+      ],
+      "PublicationDate": "2024-04-26",
+      "LastRelease": "2024-04-26",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-04-26",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "どっかの SNS で知ってソッコーでポチった。絵的にも美麗な写真集。"
   }
 ]
