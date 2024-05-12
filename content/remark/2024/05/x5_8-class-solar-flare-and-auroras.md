@@ -21,6 +21,8 @@ pageType = "text"
 
 - [The stormy sun erupts with its biggest solar flare yet from a massive sunspot — and it's still crackling (video) | Space](https://www.space.com/sun-fires-off-massive-x-class-solar-flares-may-11-2024)
 
+{{< fig-youtube id="mpOCPvjlUCo" title="More X-flares!! Sunspot that triggered auroras on Earth has its biggest blast yet - YouTube" lang="en">}}
+
 これによると
 
 {{< fig-quote type="markdown" title="The stormy sun erupts with its biggest solar flare yet from a massive sunspot — and it's still crackling (video)" link="https://www.space.com/sun-fires-off-massive-x-class-solar-flares-may-11-2024" lang="en" >}}
