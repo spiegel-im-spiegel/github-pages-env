@@ -146,7 +146,7 @@ GitHub サイトで確認してみよう。
 ちゃんとコミットに電子署名が付いてるね。
 これでよーやく VS Code を導入する準備ができたよ。
 
-## Go の開発環境を外部ストレージに構築する {#goenv}
+## 【2024-05-12 追記】 Go の開発環境を外部ストレージに構築する {#goenv}
 
 内部ストレージを十分備えている Chromebook なら以下の設定は不要だと思う。
 たとえば [ASUS CX34 シリーズ](https://www.asus.com/jp/laptops/for-home/chromebook/asus-chromebook-plus-cx34-cx3402/ "ASUS Chromebook Plus CX34 (CX3402) | Chromebook | 法人向けノートパソコン | ノートパソコン | ASUS日本")なら十分なストレージ容量を持つ（これで税込8万円切るもんなー）。
