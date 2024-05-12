@@ -33,6 +33,7 @@ According to NOAA's Space Weather Prediction Center (SWPC), the dynamic [solar f
 - [5/11土曜夜は北海道からもオーロラが｜片岡龍峰](https://note.com/ryuhokataoka/n/nbd55ba6514ad)
 
 実際には北海道どころではなく愛知県や兵庫県でも観測報告があったようだ。
+久しぶりに X (旧 Twitter) フル活用しちゃったよ（笑）
 
 {{< fig-gen class="center" >}}
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">猛烈な磁気嵐（柿岡ΔH=517 nT、歴代9位）により、日本時間2024年5月11日の夜間、北海道、青森、秋田、岩手、山形、宮城、福島、栃木、長野、群馬、新潟、富山、石川、福井、兵庫、愛知から赤いオーロラが確認されました <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%BC%E3%83%AD%E3%83%A9%E3%82%B7%E3%83%81%E3%82%BA%E3%83%B3?src=hash&amp;ref_src=twsrc%5Etfw">#オーロラシチズン</a> <a href="https://t.co/ZwGzOvHdcM">pic.twitter.com/ZwGzOvHdcM</a></p>&mdash; 片岡龍峰 (@ryuhokataoka) <a href="https://twitter.com/ryuhokataoka/status/1789408017261478135?ref_src=twsrc%5Etfw">May 11, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -42,7 +43,7 @@ According to NOAA's Space Weather Prediction Center (SWPC), the dynamic [solar f
 でもどん曇りだったからなぁ。
 なんなら今朝は朝から雨ですがなにか。
 
-X (旧 Twitter) での国内観測報告は，同じく[片岡龍峰](https://ryuhokataoka.github.io/notes/)さんの以下の記事から辿ってみてください。
+X での国内観測報告は，同じく[片岡龍峰](https://ryuhokataoka.github.io/notes/)さんの以下の記事から辿ってみてください。
 
 - [日本の広範囲でオーロラが出現しました｜片岡龍峰](https://note.com/ryuhokataoka/n/n8b0b42c4fe3f)
 
@@ -74,6 +75,9 @@ X (旧 Twitter) での国内観測報告は，同じく[片岡龍峰](https://ry
 
 とりあえずこの辺で。
 ライセンスの縛りを外せばもっと[色々ある](https://www.flickr.com/search/?text=aurora&view_all=1&sort=date-taken-desc)ので是非ご覧の程を。
+
+そうそう。
+X は再び休眠状態に戻ります。
 
 ## ブックマーク
 
