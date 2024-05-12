@@ -29,7 +29,8 @@ pageType = "text"
 According to NOAA's Space Weather Prediction Center (SWPC), the dynamic [solar flare](https://www.space.com/solar-flares-effects-classification-formation) occurred late Saturday (May 10) from an active sunspot region called AR3664. It peaked at 9:23 p.m. EDT (0123 May 11 GMT), registering as a massive X5.8 class flare, [SWPC officials said](https://www.swpc.noaa.gov/news/yet-another-x-class-flare). As a result, parts of some of the Earth's sunlit side had temporary or complete loss of high frequency (HF) radio signals.
 {{< /fig-quote >}}
 
-日本時間だと11日の10時半ごろか？ いや， X クラスの太陽フレアってだけでも十分脅威なのに X5.8 とか！
+とのこと。
+日本時間だと11日の10時半ごろか？ X クラスの太陽フレアってだけでも十分脅威なのに X5.8 とか！
 というわけで，11日夜は日本でもオーロラが見られるかも？ ということになったらしい。
 
 - [5/11土曜夜は北海道からもオーロラが｜片岡龍峰](https://note.com/ryuhokataoka/n/nbd55ba6514ad)
@@ -51,7 +52,7 @@ X での国内観測報告は，同じく[片岡龍峰](https://ryuhokataoka.git
 
 タイムライン型の SNS は速報には便利なんだろうけど再利用しづらいんだよなぁ。
 というわけで，以下は Flickr から世界のオーロラを抜粋してお送りします。
-ちなみに括弧内は CC License です。
+ちなみに括弧内は [CC License]({{< ref "/cc-licenses/02-creative-commons-licenses.md" >}} "Creative Commons Licenses") です。
 
 {{< fig-img src="./53713691158_3cfbcdf624_e.jpg" title="“Aurora Australis from Bentleigh, Melbourne 2024.05.11 9.26pm” by Alpha (BY-NC)" link="https://www.flickr.com/photos/avlxyz/53713691158/" lang="en" >}}
 

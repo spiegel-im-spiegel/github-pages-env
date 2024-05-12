@@ -81,19 +81,19 @@ title = "Creative Commons Licenses"
 <tbody>
 <tr>
     <th class='left fa-2x'>{{< cc-syms "by" >}}</th>
-    <th class='left'>表示</th><td class='left'>マテリアルの<a href="{{< relref "#attribution" >}}">クレジットを表示</a>すること</td>
+    <th class='left'>表示（BY）</th><td class='left'>マテリアルの<a href="{{< relref "#attribution" >}}">クレジットを表示</a>すること</td>
 </tr>
 <tr>
     <th class='left fa-2x'>{{< cc-syms "sa" >}}</th>
-    <th class='left'>継承</th><td class='left'>改変したマテリアルについて，元のマテリアルのライセンスと<a href="{{< relref "#compatible" >}}">同等のライセンス</a>で公開すること</td>
+    <th class='left'>継承（SA）</th><td class='left'>改変したマテリアルについて，元のマテリアルのライセンスと<a href="{{< relref "#compatible" >}}">同等のライセンス</a>で公開すること</td>
 </tr>
 <tr>
     <th class='left fa-2x'>{{< cc-syms "nc" "nc-jp" "nc-eu" >}}</th>
-    <th class='left'>非営利</th><td class='left'><a href="{{< relref "#non-commercial" >}}">営利目的での利用をしない</a>こと</td>
+    <th class='left'>非営利（NC）</th><td class='left'><a href="{{< relref "#non-commercial" >}}">営利目的での利用をしない</a>こと</td>
 </tr>
 <tr>
     <th class='left fa-2x'>{{< cc-syms "nd" >}}</th>
-    <th class='left'>改変禁止</th><td class='left'>元のマテリアルを改変しないこと</td>
+    <th class='left'>改変禁止（ND）</th><td class='left'>元のマテリアルを改変しないこと</td>
 </tr>
 </tbody>
 </table>
@@ -109,27 +109,27 @@ title = "Creative Commons Licenses"
 <tbody>
 <tr>
     <th class='left fa-2x'>{{< cc-syms "by" >}}</th>
-    <td class='left'>表示</td>
+    <td class='left'>表示（BY）</td>
 </tr>
 <tr>
     <th class='left fa-2x'>{{< cc-syms "by" "sa" >}}</th>
-    <td class='left'>表示-継承</td>
+    <td class='left'>表示-継承（BY-SA）</td>
 </tr>
 <tr>
     <th class='left fa-2x'>{{< cc-syms "by" "nc" >}}</th>
-    <td class='left'>表示-非営利</td>
+    <td class='left'>表示-非営利（BY-NC）</td>
 </tr>
 <tr>
     <th class='left fa-2x'>{{< cc-syms "by" "nc" "sa" >}}</th>
-    <td class='left'>表示-非営利-継承</td>
+    <td class='left'>表示-非営利-継承（BY-NC-SA）</td>
 </tr>
 <tr>
     <th class='left fa-2x'>{{< cc-syms "by" "nd" >}}</th>
-    <td class='left'>表示-改変禁止</td>
+    <td class='left'>表示-改変禁止（BY-ND）</td>
 </tr>
 <tr>
     <th class='left fa-2x'>{{< cc-syms "by" "nc" "nd" >}}</th>
-    <td class='left'>表示-非営利-改変禁止</td>
+    <td class='left'>表示-非営利-改変禁止（BY-NC-ND）</td>
 </tr>
 </tbody>
 </table>
