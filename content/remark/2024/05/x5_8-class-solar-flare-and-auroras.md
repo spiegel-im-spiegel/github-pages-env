@@ -88,6 +88,7 @@ X は再び[休眠状態]({{< ref "/remark/2023/09/suspend-activity-on-twitter.m
 
 - [太陽風の乱れが到来しました。磁気圏では非常に激しい乱れが発生しています。 (宇宙天気ニュース)](http://swnews.jp/2024/swnews_2405111411.html)
 - [APOD: 2024 May 12 – Red Aurora over Poland](https://apod.nasa.gov/apod/ap240512.html)
+- [大規模な太陽フレアが連続して発生　世界各地で低緯度オーロラを観測 | sorae 宇宙へのポータルサイト](https://sorae.info/astronomy/20240514-aurora.html)
 
 ## 参考
 
