@@ -17,7 +17,7 @@
 {{ partial "banner.html" . }}
 
 <main><article>
-<h1>最新記事（in {{ sub (len .Site.RegularPages) 23 | lang.NumFmt 0 }} Entries）</h1>
+<h1>最新記事（in {{ sub (len .Site.RegularPages) 23 | lang.FormatNumber 0 }} Entries）</h1>
 
 <ul class="title-list">
 {{ range first 5 .Site.RegularPages }}{{ partial "li.html" . }}{{ end }}
