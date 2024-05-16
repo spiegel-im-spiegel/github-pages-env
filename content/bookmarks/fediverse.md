@@ -15,7 +15,7 @@ pageType = "text"
 
 ## Fediverse = Federation + Universe
 
-{{< fig-img-quote src="/remark/2022/11/new-spark-of-competition-between-platforms-and-federations/Fediverse_small_information.png" title="How-the-Fediverse-connects - Fediverse - Wikipedia" link="https://en.wikipedia.org/wiki/Fediverse#/media/File:How-the-Fediverse-connects.png" lang="en" width="600" >}}
+{{< fig-img-quote src="./Fediverse_branches_1.2.png" title="File:Fediverse branches 1.2.png - Wikipedia" link="https://en.wikipedia.org/wiki/File:Fediverse_branches_1.2.png" lang="en" >}}
 
 ## 標準仕様または製品・サービス
 
@@ -122,6 +122,7 @@ pageType = "text"
 - [Astronomy Picture of the Day (@APoD@botsin.space) - botsin.space](https://botsin.space/@APoD) : 非公式
 - [NASA (@nasa@social.beachcom.org) - Social::Beach](https://social.beachcom.org/@nasa) : 非公式
 - [HON.jp News Blog (@honjp@mastodon-japan.net) - Mastodon Japan Server](https://mastodon-japan.net/@honjp)
+- [Threadsのgihyo.jp (@gihyojp)](https://www.threads.net/@gihyojp/)
 
 ### その他 気になるサーバや個人アカウント
 
