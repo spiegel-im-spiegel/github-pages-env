@@ -26116,5 +26116,49 @@
       true
     ],
     "Description": "どっかの SNS で知ってソッコーでポチった。絵的にも美麗な写真集。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B088R6SV4Z",
+      "Title": "Anker PowerPort III 65W Pod (PD 充電器 USB-C) 【PPS規格対応/PD対応/PowerIQ 3.0 (Gen2) 搭載/PSE技術基準適合/折りたたみ式プラグ】MacBook Pro MacBook Air iPad Pro iPhone Galaxy Android各種 その他USB-C機器対応 (ホワイト)",
+      "URL": "https://www.amazon.co.jp/dp/B088R6SV4Z?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/21FZeGqa-qL._SL160_.jpg",
+        "Height": 160,
+        "Width": 128
+      },
+      "Publisher": "Anker",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B088R6SV4Z"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0194644143329"
+        },
+        {
+          "Name": "UPC",
+          "Value": "194644143329"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-05-18",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "外出用PCの充電器として購入。 Power Delivery 対応。 65W で一番小さそうなサイズを選択。"
   }
 ]
