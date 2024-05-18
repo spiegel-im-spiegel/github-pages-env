@@ -36,6 +36,8 @@ pageType = "text"
 - [GitHub - NicolasConstant/BirdsiteLive: An ethical bridge from Twitter](https://github.com/NicolasConstant/BirdsiteLive)
   - [Closing the official BSL instance — Nicolas Constant - DevBlog](https://write.as/nicolas-constant/closing-the-official-bsl-instance)
 - [Write.as — A place for focused writing.](https://write.as) : ActivityPub 対応のブログサービス。現在は有料版のみ
+- [BookWyrm: Social Reading and Reviewing](https://joinbookwyrm.com/)
+  - [bookwyrm.social](https://bookwyrm.social/)
 
 ## Mastodon サーバおよび主なアカウント
 
