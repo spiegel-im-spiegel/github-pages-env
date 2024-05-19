@@ -74,6 +74,10 @@ Goは、エラーを第一級市民の言語機能として扱うことで、独
 今回はここまで。
 次回も感想を書くかどうかは分からない。
 
+## ブックマーク
+
+- [Golang(Gobot+Firmata+Arduino)でアナログメーターを作ってみる](https://zenn.dev/_kazuya/articles/0045ef8057c0b5)
+
 [Go]: https://go.dev/
 [TinyGo]: https://tinygo.org/
 [GoBot]: https://gobot.io/ "Gobot - Golang framework for robotics, drones, and the Internet of Things (IoT)"

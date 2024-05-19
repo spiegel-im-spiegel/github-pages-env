@@ -158,6 +158,23 @@ Andorid アプリの Tailscale アプリを導入することで tailscale に�
 
 次回からいよいよ Linux サブシステムのセットアップを行う。
 
+## 【2024-05-19 追記】 外部モニタを繋ぐ
+
+最近よく利用する[コワーキングスペース](https://enun.jp/ "enun（縁雲）・ホテル一体のワーキングスペース")では24インチモニタを貸し出してくれるのだが，HDMI でしか繋がらないので USB-C から HDMI に変換する仕掛けが必要だった。
+
+というわけで，以下を購入した。
+
+{{% review-paapi "B07KJWYQJW" %}} <!-- ANKER PowerExpand USB メディアハブ -->
+{{% review-paapi "B088R6SV4Z" %}} <!-- ANKER 充電器 Power Delivery (PD) 対応。65W -->
+
+これで Chromebook を充電しつつ外部モニタと接続できそうだ。
+
+{{< fig-img src="./53730877016_c9f7878316_e.jpg" title="外部モニタと繋がった | Flickr" link="https://www.flickr.com/photos/spiegel/53730877016/" >}}
+
+よし，成功。
+今回購入した Chromebook は USB-C の口が2つあるのだが，モニタと繋げれるのは片方のみのようだ。
+覚えておこう。
+
 
 ## ブックマーク
 
