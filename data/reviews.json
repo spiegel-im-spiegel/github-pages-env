@@ -26160,5 +26160,219 @@
       false
     ],
     "Description": "外出用PCの充電器として購入。 Power Delivery 対応。 65W で一番小さそうなサイズを選択。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CZQ9YF7Y",
+      "Title": "[HAYAKAWA FACTORY] Tシャツ シャーロック・ホームズ 221B BAKER STREET (L, ネイビー／ゴールド)",
+      "URL": "https://www.amazon.co.jp/dp/B0CZQ9YF7Y?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31QRHB5BOAL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "ウェア\u0026シューズ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CZQ9YF7Y"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4580448303032"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-05-08",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "ついカッとなってポチった。反省はしない。購入時には M サイズがなかった orz"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00N4FBESA",
+      "Title": "シャーリー・ホームズと緋色の憂鬱",
+      "URL": "https://www.amazon.co.jp/dp/B00N4FBESA?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51Wo0ijhoGL._SL160_.jpg",
+        "Height": 160,
+        "Width": 110
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "高殿 円",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "早川書房",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00N4FBESA"
+        }
+      ],
+      "PublicationDate": "2014-07-25",
+      "LastRelease": "2014-08-28",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-05-21",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "シャーロック・ホームズのパロディかと思ったら全然違った。でもホームズシリーズに出てくるあれやこれやが散りばめられていて，クスってなる。シャーリー・ホームズをはじめ各キャラクターの設定がヘヴィで読んでいくと疲れるが面白い。続巻を買うかどうか悩み中。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0B5CRWFXB",
+      "Title": "クリスティ・ハイテンション1 (マンガの金字塔)",
+      "URL": "https://www.amazon.co.jp/dp/B0B5CRWFXB?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/5135z0SirkL._SL160_.jpg",
+        "Height": 160,
+        "Width": 110
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "新谷 かおる",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "グループ・ゼロ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0B5CRWFXB"
+        }
+      ],
+      "PublicationDate": "2022-07-01",
+      "LastRelease": "2022-07-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-05-25",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "シャーロック・ホームズの姪っ子が大活躍！ というお話。推理物として読むとアレだが，かなり面白かった。21世紀に入ってからの新谷かおるさんの作品では一番好きかも。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BHYQWSXB",
+      "Title": "Job for a Rockstar (通常盤)",
+      "URL": "https://www.amazon.co.jp/dp/B0BHYQWSXB?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61ofEIy+NuL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "CD",
+      "Creators": [
+        {
+          "Name": "She is Legend",
+          "Role": "アーティスト"
+        }
+      ],
+      "Publisher": "SMM itaku (music)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BHYQWSXB"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4933032011590"
+        }
+      ],
+      "PublicationDate": "2022-12-14",
+      "LastRelease": "2022-12-14",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-05-25",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "ゲーム「\u003ca href=\"https://heaven-burns-red.com/\"\u003eヘブンバーンズレッド\u003c/a\u003e」の劇中バンド “She is Legend” による劇中楽曲が収録されている。実際にはゲームをしながら曲が unlock される度に \u003ca href=\"https://mora.jp/artist/1602485/h\"\u003emora で FLAC 版\u003c/a\u003eを1曲ずつ購入している。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09NRGCBY5",
+      "Title": "ビオレUＶ アクアリッチ アクアプロテクトローション 70ミリリットル (x 1)",
+      "URL": "https://www.amazon.co.jp/dp/B09NRGCBY5?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41-u0o+02sL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "ヘルスケア\u0026ケア用品",
+      "Publisher": "花王",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09NRGCBY5"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4901301406866"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2022-02-04",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-05-24",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "乳液タイプの日焼け止め。白くならない。お肌しっとり。"
   }
 ]
