@@ -83,14 +83,14 @@ Mastodon に [ActivityPub] が実装され始めたのは [v1.6](https://github.
 {{< fig-img-quote src="/bookmarks/fediverse/Fediverse_branches_1.2.png" title="File:Fediverse branches 1.2.png - Wikipedia" link="https://en.wikipedia.org/wiki/File:Fediverse_branches_1.2.png" lang="en" >}}
 
 Web ベースの SNS 分散プロトコルとしては [ActivityPub] がおそらく最強だろう（最適解とまでは言わないが）。
-WordPress の拡張機能として組み込むこともできるし Cloudflare は [Wildebeest] を使って mastodon 互換サーバを構築するサービスを展開しているそうだ。
+WordPress の拡張機能として組み込むこともできるし Cloudflare は [Wildebeest] を使って Mastodon 互換サーバを構築するサービスを展開しているそうだ。
 
 - [Welcome to Wildebeest: the Fediverse on Cloudflare](https://blog.cloudflare.com/welcome-to-wildebeest-the-fediverse-on-cloudflare)
 - [Cloudflare wants to help you set up your own Mastodon-compatible server in ‘minutes’ - The Verge](https://www.theverge.com/2023/2/10/23593966/cloudflare-mastodon-server-wildebeest-instance-fediverse)
 - [CloudflareがMastodonに対応したActivityPub実装、Wildebeestを作ってたので紹介します。一部有料です](https://zenn.dev/tkithrta/articles/9069279e1a3a1e)
 
 最初に紹介したポストにもあるとおり Mastodon サーバだけでもかなりの数があるし，広く [ActivityPub] ベースの Fediverse という括りであれば更にバリエーションがある。
-今のところ私は [ActivityPub]/Mastodon は {{% emoji "X" %}} の代替ではなく，全く別の生態系（ecosystem）であると認識している。
+今のところ私は [ActivityPub]/Mastodon は {{% emoji "X" %}} の代替ではなく，全く別の生態系（ecosystem）の一部であると認識している。
 
 ## Bluesky はどうなん？
 
@@ -106,7 +106,7 @@ Bluesky のほうが優れていると言うつもりはないが Mastodon と�
 あくまで各ユーザ間のフォロー・フォロワー関係の中でデータのやり取りとその保持を行うので，特にユーザ数の少ない小規模サーバは「離島」状態になりやすい。
 これでは {{% emoji "X" %}} で大勢のオーディエンスを抱えているユーザは安易に [ActivityPub]/Mastodon に移行し辛いんじゃないだろうか。
 
-Bluesky が実際に分散化し「連合（federation）」を組むようになったときにこういった問題を上手くさばけるかどうかは分からないが期待感はある。
+Bluesky が実際に分散化し「連合（federation）」を組むようになったときにこういった問題を上手く捌けるかどうかは分からないが期待感はある。
 
 ## mastodon.social ボット・アカウントを BAN された話
 
@@ -147,14 +147,14 @@ Bluesky はまだ招待制だったが紹介状（invitation）が有り余っ�
 Mastodon ベースと言われる Threads は最近ようやく [ActivityPub] 連携を unlock した（ただしオプトインらしい）。
 
 ただ，海外のサーバはルールとして英語での会話を要求しているところが多く，私のように母国語が日本語で英語不得手の人間は利用し辛い。
-あとモデレーションの基準がどうしても厳しい。
+あとモデレーションの基準がどうしても厳しいしよく分からない。
 たとえば前節で挙げた [mastodon.social] は言語の縛りはないようだが misskey.io をまるっと拒否している。
 まぁ misskey.io 側は気にしちゃいないだろうが（笑） 単一プラットフォームのようにユーザが支配されていないからといって好き勝手絶頂に振る舞えるわけではないのだ。
 
 前々節で「ユーザ数の少ない小規模サーバは「離島」状態になりやすい」と書いたが，ユーザ規模の大きいサーバは縛りが大きくて窮屈と言える。
 まぁ規模が大きければ大きいほどユーザを「量」でしか評価できなくなるからね。
-Mastodon と言えども「[デジタル封建主義](https://yamdas.hatenablog.com/entry/20230828/neo-feudalism "時代はデジタル封建主義？ ジョエル・コトキン『新しい封建制がやってくる』が出るぞ - YAMDAS現更新履歴")」からは逃れられないのだ。
-いや Mastodon の場合は「デジタル氏族制度」とでも言うべきか？
+[ActivityPub]/Mastodon と言えども「[デジタル封建主義](https://yamdas.hatenablog.com/entry/20230828/neo-feudalism "時代はデジタル封建主義？ ジョエル・コトキン『新しい封建制がやってくる』が出るぞ - YAMDAS現更新履歴")」からは逃れられないのだ。
+いや [ActivityPub]/Mastodon の場合は「デジタル氏族制度」とでも言うべきか？
 
 EFF が言っていたが
 
@@ -163,7 +163,7 @@ EFF が言っていたが
 {{< /fig-quote >}}
 
 のである。
-かつてリベラルが「多文化主義」という名の墓穴を掘ったように Mastodon が「多様化」の墓穴にならないことを祈ろう。
+かつてリベラルが「多文化主義」という名の墓穴を掘ったように Fediverse が「多様化」の墓穴にならないことを祈ろう。
 
 ## ブックマーク
 
