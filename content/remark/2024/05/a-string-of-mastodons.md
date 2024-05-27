@@ -83,7 +83,7 @@ Mastodon に [ActivityPub] が実装され始めたのは [v1.6](https://github.
 {{< fig-img-quote src="/bookmarks/fediverse/Fediverse_branches_1.2.png" title="File:Fediverse branches 1.2.png - Wikipedia" link="https://en.wikipedia.org/wiki/File:Fediverse_branches_1.2.png" lang="en" >}}
 
 Web ベースの SNS 分散プロトコルとしては [ActivityPub] がおそらく最強だろう（最適解とまでは言わないが）。
-WordPress の拡張機能として組み込むこともできるし Cloudflare は [Wildebeest] を使って Mastodon 互換サーバを構築するサービスを展開しているそうだ。
+WordPress の[拡張機能](https://wordpress.org/plugins/activitypub/ "ActivityPub – WordPress plugin | WordPress.org")として組み込むこともできるし Cloudflare は [Wildebeest] を使って Mastodon 互換サーバを構築するサービスを展開しているそうだ。
 
 - [Welcome to Wildebeest: the Fediverse on Cloudflare](https://blog.cloudflare.com/welcome-to-wildebeest-the-fediverse-on-cloudflare)
 - [Cloudflare wants to help you set up your own Mastodon-compatible server in ‘minutes’ - The Verge](https://www.theverge.com/2023/2/10/23593966/cloudflare-mastodon-server-wildebeest-instance-fediverse)

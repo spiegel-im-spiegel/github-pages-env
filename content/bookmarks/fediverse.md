@@ -55,6 +55,7 @@ pageType = "text"
 - [syumai (@_syumai@mstdn.jp) - mstdn.jp](https://mstdn.jp/@_syumai)
 - [ikawaha (@ikawaha@mstdn.jp) - mstdn.jp](https://mstdn.jp/@ikawaha) : [kagome](https://zenn.dev/ikawaha/books/kagome-v2-japanese-tokenizer "実践：形態素解析 kagome v2") の中の人
 - [zetamatta🍣升と丼.jp (@zetamatta@mstdn.jp) - mstdn.jp](https://mstdn.jp/@zetamatta) : [NYAGOS](https://github.com/nyaosorg/nyagos "nyaosorg/nyagos: NYAGOS - The hybrid Commandline Shell between UNIX & DOS") の中の人
+- [GolangCI-Lint (@golangcilint@fosstodon.org) - Fosstodon](https://fosstodon.org/@golangcilint)
 
 ### その他プログラミング言語関連
 
