@@ -26374,5 +26374,40 @@
       false
     ],
     "Description": "乳液タイプの日焼け止め。白くならない。お肌しっとり。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09Z6F7MGT",
+      "Title": "経口補水液 OS-1 オーエスワン 500ml × 6本 オリジナルポケットティッシュ付き",
+      "URL": "https://www.amazon.co.jp/dp/B09Z6F7MGT?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51qhOPSEaCL._SL160_.jpg",
+        "Height": 128,
+        "Width": 160
+      },
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09Z6F7MGT"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-06-01",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "経口補水液。サイクリングの際にドラッグストアで購入している（ドラッグストアのほうが安い）。夏場はどうしても汗をかくからね。"
   }
 ]
