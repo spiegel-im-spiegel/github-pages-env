@@ -1,0 +1,4 @@
+| 日付 | 曜日 | 内容 |
+| ---- |:----:| ---- |
+{{ range . }}| {{ .Date }} | {{ .Date.WeekdayJpShort }} | {{ .Title }} |
+{{ end -}}

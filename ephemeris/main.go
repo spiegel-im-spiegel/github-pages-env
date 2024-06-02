@@ -17,6 +17,12 @@ func WeekShortNameJp(dt value.DateJp) string {
 func main() {
 	start, _ := value.DateFrom("2025-01-01")
 	end, _ := value.DateFrom("2025-12-31")
+	td, err := os.MkdirTemp(os.TempDir(), "blog")
+	if err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return
+	}
+	defer func() { _ = os.RemoveAll(td) }()
 	k, err := koyomi.NewSource(
 		koyomi.WithCalendarID(
 			// koyomi.Holiday,
@@ -27,6 +33,7 @@ func main() {
 		),
 		koyomi.WithStartDate(start),
 		koyomi.WithEndDate(end),
+		koyomi.WithTempDir(td),
 	).Get()
 	if err != nil {
 		fmt.Fprintln(os.Stderr, err)
@@ -40,7 +47,7 @@ func main() {
 	}
 }
 
-/* Copyright 2020-2023 Spiegel
+/* Copyright 2020-2024 Spiegel
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
