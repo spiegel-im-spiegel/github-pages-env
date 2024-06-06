@@ -1,11 +1,10 @@
 +++
 title = "プライバシーの乱獲"
-date =  "2024-06-06T10:18:25+09:00"
-description = "description"
+date =  "2024-06-06T20:13:28+09:00"
+description = "独断と偏見に塗れているので，誤読はご容赦（笑）"
 image = "/images/attention/kitten.jpg"
 tags = [ "code", "privacy", "risk", "management" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
@@ -96,7 +95,7 @@ Shifting baselines are at the heart of our collective loss of privacy. The U.S. 
 AI chatbots are the latest incarnation of this phenomenon: They produce output in response to your input, but behind the scenes there’s a complex cloud-based system keeping track of that input—both to improve the service and to [sell you ads](https://about.ads.microsoft.com/en/blog/post/february-2023/the-new-bing-creating-value-for-advertisers).
 {{< /fig-quote >}}
 
-陰謀論的な言いがかりをするなら，プラットフォーマー（笑）は利便性やセキュリティを「人質」にとって，プライバシーの「ベースライン」を意図的に引き下げてるんじゃないか，などとゲスの勘ぐりをしてしまう。
+陰謀論的な言いがかりをするなら，プラットフォーマー（笑）は利便性やセキュリティを「人質」にとって，プライバシーのベースラインを意図的に引き下げてるんじゃないか，などとゲスの勘ぐりをしてしまう。
 まぁ，本当にそうなら「シフティング・ベースライン症候群」なんてもんじゃないけどな。
 
 話が逸れた。
@@ -109,7 +108,7 @@ Fisheries scientists, armed with knowledge of shifting-baseline syndrome, now lo
 {{< /fig-quote >}}
 
 プライバシーやセキュリティについて考える場合も同じ。
-そのときどきの「ベースライン」で考えるのではなく，系全体を俯瞰する視点が必要だろう。
+その時々の「ベースライン」で考えるのではなく，系全体を俯瞰する視点が必要だろう。
 
 {{< fig-quote type="markdown" title="Online Privacy and Overfishing" link="https://www.schneier.com/blog/archives/2024/06/online-privacy-and-overfishing.html" lang="en" >}}
 Instead of comparing to a shifting baseline, we need to step back and look at what a healthy technological ecosystem would look like: one that respects people’s privacy rights while also allowing companies to recoup costs for services they provide. Ultimately, as with fisheries, we need to take a big-picture perspective and be aware of shifting baselines.
@@ -124,15 +123,14 @@ A scientifically informed and democratic regulatory process is required to prese
 ところで「シフティング・ベースライン症候群」でググると色んなシチュエーションで使われているっぽいね。
 でも検索結果を拾い読みしてみると，思い込みや認知の問題として扱ってるところが多いような。
 「[茹でガエル](https://ja.wikipedia.org/wiki/%E8%8C%B9%E3%81%A7%E3%82%AC%E3%82%A8%E3%83%AB "茹でガエル - Wikipedia")」を例に挙げてるところもあるみたいだし。
-実際にはこれって系（system）におけるスコープの取り方の問題で，それを適切に扱わないと科学的な議論と言えど致命的な間違いをおかすよってことだと思うのだけど。
+実際にはこれって生態系（ecosystem）におけるスコープの取り方の問題で，それを適切に扱わないと科学的な議論と言えど致命的な間違いをおかすよってことだと思うのだけど。
 
 今回のプライバシーの話に引き付けて考えるのなら，最初に述べたように，オンラインプラットフォームにおいてプライバシーはセキュリティや利便性とのトレードオフの対象になることが多く，セキュリティや利便性のために「どこまで自身のプライバシー（に関する情報）を渡せばいいのか」という方向に流れがちだ。
-その文脈で，そのときどきのプライバシーに対する「合理的な期待（reasonable [expectation of privacy](https://www.law.cornell.edu/wex/expectation_of_privacy "expectation of privacy | Wex | US Law | LII / Legal Information Institute")）」をベースラインとして議論する。
+その文脈で，その時々のプライバシーに対する「合理的な期待（reasonable [expectation of privacy](https://www.law.cornell.edu/wex/expectation_of_privacy "expectation of privacy | Wex | US Law | LII / Legal Information Institute")）」をベースラインとして議論する。
 でもホンマにそんな議論の仕方でええのん？ というのが今回の[エッセイ]の核心なんじゃないかと思っている。
 
 プライバシーは切り売りする商材ではなく，社会と個人の関係の中で「絶対に譲れないもの」があるという点が重要であり，個人が台頭する近代〜現代社会ならではの命題だ。
 もちろん簡単ではない。
-
 
 [エッセイ]: https://www.schneier.com/blog/archives/2024/06/online-privacy-and-overfishing.html "Online Privacy and Overfishing - Schneier on Security"
 
@@ -140,3 +138,5 @@ A scientifically informed and democratic regulatory process is required to prese
 
 {{% review-paapi "4296001574" %}} <!-- ハッキング思考 -->
 {{% review-paapi "4571210450" %}} <!-- はじめて学ぶ ビデオゲームの心理学 -->
+{{% review-tatsujin "infoshare2" %}} <!-- 続・情報共有の未来 -->
+{{% review-paapi "B0125TZSZ0" %}} <!-- つながりっぱなしの日常を生きる -->
