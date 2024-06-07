@@ -1,11 +1,10 @@
 +++
-title = "Kagi Search を試してみる 〜検索サービスも有料の時代？"
-date =  "2024-06-07T09:44:14+09:00"
+title = "Kagi Search を試してみる 〜 検索サービスも有料の時代？"
+date =  "2024-06-07T21:26:58+09:00"
 description = "日本は現在，自国通貨の価値が相対的に低いので国外の有料サービスは微妙に勧め辛いのがネックではあるが，興味が湧いたのなら選択肢のひとつとしてどうぞ。"
 image = "/images/attention/kitten.jpg"
-tags = [ "web", "search" ]
+tags = [ "web", "search", "tools" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
@@ -69,19 +68,35 @@ draft = true
 
 ## Kagi Search を試してみる
 
+（私の環境では [uBlock Origin](https://ublockorigin.com/ "uBlock Origin - Free, open-source ad content blocker.") で広告をブロックしているので，その辺を割り引いてね）
+
 取り敢えず無料の Trial プランでサインアップし「Kagi Search とは」で検索してみた。
 
-{{< fig-img src="./search-by-kagi-1.png" title="「Kagi Search とは」検索結果 by Kagi" link="./search-by-kagi-1.png" width="821" >}}
+{{< fig-img src="./search-by-kagi-1.png" title="「Kagi Search とは」検索結果 by Kagi" link="./search-by-kagi-1.png" width="834" >}}
 
-比較のために DuckDuckGo で検索した結果も挙げておこう。
+比較のために Google で検索した結果を挙げる。
 
-{{< fig-img src="./search-by-duckduckgo.png" title="「Kagi Search とは」検索結果 by DuckDuckGo" link="./search-by-duckduckgo.png" width="821" >}}
+{{< fig-img src="./search-by-google-1.png" title="「Kagi Search とは」検索結果 by Google" link="./search-by-google-1.png" width="857" >}}
+
+あー，要らん要約が付いてるな。
+`&udm=14` を付加して再表示する。
+
+{{< fig-img src="./search-by-google-2.png" title="「Kagi Search とは」検索結果 by Google (要約なし)" link="./search-by-google-2.png" width="857" >}}
+
+これなら多少は見れるかな。
+Forbes の「[ついにGoogleをしのいだ？ 5つの未来型検索エンジン](https://forbesjapan.com/articles/detail/49605 "ついにGoogleをしのいだ？ 5つの未来型検索エンジン | Forbes JAPAN 公式サイト（フォーブス ジャパン）")」が上位にないのがいい感じだな（笑）
+
+ついでに DuckDuckGo で検索した結果も挙げておこう。
+
+{{< fig-img src="./search-by-duckduckgo.png" title="「Kagi Search とは」検索結果 by DuckDuckGo" link="./search-by-duckduckgo.png" width="834" >}}
 
 んー。
-微妙？ 試しに “Order by” を “Recency” にしてみよう。
-時系列で並べ替えるわけやね。
+細かい違いはあるにせよ，やっぱ日本語圏では違いが分かりにくいか？ 
 
-{{< fig-img src="./search-by-kagi-2.png" title="「Kagi Search とは」検索結果 by Kagi (order by Recency)" link="./search-by-kagi-2.png" width="826" >}}
+今度は “Order by” を “Recency” にしてみよう。
+時系列に並べ替えるわけやね。
+
+{{< fig-img src="./search-by-kagi-2.png" title="「Kagi Search とは」検索結果 by Kagi (order by Recency)" link="./search-by-kagi-2.png" width="834" >}}
 
 おー。
 だいぶ変わるんだな。
@@ -96,7 +111,7 @@ draft = true
 
 この設定を取り込んでみる。
 
-{{< fig-img src="./edit-lens.png" title="Edit Lens" link="./edit-lens.png" width="1134" >}}
+{{< fig-img src="./edit-lens.png" title="Edit Lens" link="./edit-lens.png" width="1096" >}}
 
 以下のサイトのみに絞り込む設定らしい。
 
@@ -106,7 +121,7 @@ draft = true
 
 この設定を保存して検索してみる。
 
-{{< fig-img src="./search-by-kagi-3.png" title="「Kagi Search とは」検索結果 by Kagi (with Lens:ブログ)" link="./search-by-kagi-3.png" width="878" >}}
+{{< fig-img src="./search-by-kagi-3.png" title="「Kagi Search とは」検索結果 by Kagi (with Lens:ブログ)" link="./search-by-kagi-3.png" width="840" >}}
 
 なるほど。
 こんな感じになるのか。
@@ -128,8 +143,10 @@ draft = true
 Google 検索サービスの「メタクソ化（[enshittification](https://en.wikipedia.org/wiki/Enshittification "Enshittification - Wikipedia")）」は許容できるレベルを超えつつある。
 「メタクソ化」の造語を作った Cory Doctorow は，最初に挙げた記事以外にも
 
-- [かくしてGoogleはスパマーに敗北した | p2ptk[.]org](https://p2ptk.org/monopoly/4515)
-- [Google検索を殺した男――Googleはいつ、どこでメタクソ化に舵を切ったのか | p2ptk[.]org](https://p2ptk.org/monopoly/4541)
+- [Pluralistic: Google reneged on the monopolistic bargain; The Bezzle excerpt (Part IV) (21 Feb 2024) – Pluralistic: Daily links from Cory Doctorow](https://pluralistic.net/2024/02/21/im-feeling-unlucky/)
+  - [かくしてGoogleはスパマーに敗北した | p2ptk[.]org](https://p2ptk.org/monopoly/4515)
+- [Pluralistic: The specific process by which Google enshittified its search (24 Apr 2024) – Pluralistic: Daily links from Cory Doctorow](https://pluralistic.net/2024/04/24/naming-names/)
+  - [Google検索を殺した男――Googleはいつ、どこでメタクソ化に舵を切ったのか | p2ptk[.]org](https://p2ptk.org/monopoly/4541)
 
 などとボロクソに書いている。
 
@@ -139,7 +156,7 @@ Google 検索サービスの「メタクソ化（[enshittification](https://en.w
 
 とか書いてあって納得しちゃったよ（笑）
 
-特に spam 広告に関しては2022年末の時点で [FBI が警告]({{< ref "/remark/2022/12/ad-blocker.md" >}} "米国 FBI は広告ブロッカーを推奨している？")を出してるし，最近でも
+更に spam 広告に関しては2022年末の時点で [FBI が警告]({{< ref "/remark/2022/12/ad-blocker.md" >}} "米国 FBI は広告ブロッカーを推奨している？")を出してるし，最近でも
 
 - [「Google広告からの誘導が6割」との分析結果。より巧妙化し、高齢者を狙う「サポート詐欺」に注意！【被害事例に学ぶ、高齢者のためのデジタルリテラシー】 - INTERNET Watch](https://internet.watch.impress.co.jp/docs/column/dlis/1592999.html)
 
@@ -159,19 +176,18 @@ Google 検索サービスの「メタクソ化（[enshittification](https://en.w
 [Kagi Search] は検索結果についてかなりの部分をユーザがコントロールできるっぽい。
 有料サービスなので検索結果のトップが広告で溢れかえることもないだろうし「検索の質を下げることで検索クエリの数を増やす」などというアホなことはしでかさないだろうという期待感もある。
 
-[Kagi Search] は自前のクローラや巨大なデータセンターを持っているわけではなく
+また [Kagi Search] は自前のクローラーや巨大なデータセンターを持っているわけではなく
 
 {{< fig-quote type="markdown" title="なぜGoogleは“あなたの不満”を無視できるのか" link="https://p2ptk.org/monopoly/4535" >}}
 Kagiで検索すると、Google、Yandex、Mojeek、Braveなどの従来の検索インデックスや、Wikimedia Commons、Flickrなどの少数の専門検索エンジンに「匿名化されたAPIコール」が行われる。Kagiはこれを独自のウェブインデックスとニュースインデックス（ニュース検索用）と組み合わせて、表示される検索結果ページを構築する。つまり基本的には、Google検索結果と他のインデックスからの検索結果とミックスしているのだ。
 {{< /fig-quote >}}
 
-なんだそうだ。
+なんだそうだ（引用の引用ですまん）。
 つまり，ユーザから見れば VRM (Vendor Relationship Management) として機能する 4th party と見なすこともできるわけだ（流石に褒め過ぎか？）。
 本当にそうならお金を払う価値はあるかもしれない。
 まぁ，細かい評価はこれからなので「やっぱあかん」ってなるかも知れんけど。
 
 日本は現在，自国通貨の価値が相対的に低いので国外の有料サービスは微妙に勧め辛いのがネックではあるが，興味が湧いたのなら選択肢のひとつとしてどうぞ。
-
 
 ## ブックマーク
 
