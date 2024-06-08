@@ -3,7 +3,7 @@ title = "誰がプライバシーを支配するのか"
 date = "2018-04-01T14:14:00+09:00"
 description = "キーワードは「情報へのアクセス性」で，それが公開されているか否かに関わらず，ユーザがアクセスをコントロールできるかどうかが重要になってくる。"
 image = "/images/attention/kitten.jpg"
-tags        = [ "privacy", "code", "market", "censorship", "grigori" ]
+tags        = [ "privacy", "code", "market", "censorship", "grigori", "apple" ]
 
 [scripts]
   mathjax = false

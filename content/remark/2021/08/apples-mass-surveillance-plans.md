@@ -3,7 +3,7 @@ title = "Apple 監視社会化計画（裏口を穿つ）"
 date =  "2021-08-22T12:47:46+09:00"
 description = "この件が恐ろしいのは Apple が end-to-end 暗号通信の定義を都合よく書き換えている点だ。"
 image = "/images/attention/kitten.jpg"
-tags = [ "security", "privacy", "risk", "surveillance-capitalism", "censorship" ]
+tags = [ "security", "privacy", "risk", "surveillance-capitalism", "censorship", "apple" ]
 pageType = "text"
 
 [scripts]
