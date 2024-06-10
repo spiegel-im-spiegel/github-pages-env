@@ -192,6 +192,7 @@ Kagiで検索すると、Google、Yandex、Mojeek、Braveなどの従来の検�
 ## ブックマーク
 
 - [Google検索結果からAIによるまとめを排除するフィルタ「&udm=14」 - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20240527/udm14)
+- [Googleからウェブサイトへのトラフィックがゼロになる日 – WirelessWire News](https://wirelesswire.jp/2024/06/86654/)
 
 - [広告の曲がり角]({{< ref "/remark/2023/11/blocking-ad-blocker.md" >}})
 
