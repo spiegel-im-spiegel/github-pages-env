@@ -26409,5 +26409,48 @@
       false
     ],
     "Description": "経口補水液。サイクリングの際にドラッグストアで購入している（ドラッグストアのほうが安い）。夏場はどうしても汗をかくからね。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00ICCU4Z4",
+      "Title": "小惑星に挑む (楽園コミックス)",
+      "URL": "https://www.amazon.co.jp/dp/B00ICCU4Z4?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51FQhUmKdaL._SL160_.jpg",
+        "Height": 160,
+        "Width": 109
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "あさりよしとお",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "白泉社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00ICCU4Z4"
+        }
+      ],
+      "PublicationDate": "2013-08-30",
+      "LastRelease": "2014-02-28",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2014-12-03",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "のっけからミネルヴァの話題でちょっと嬉しい。"
   }
 ]
