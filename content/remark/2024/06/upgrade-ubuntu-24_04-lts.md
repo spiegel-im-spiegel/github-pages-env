@@ -1,5 +1,5 @@
 +++
-title = "Ubuntu 24.04 LTS へのアップグレード"
+title = "Ubuntu 24.04 LTS へのアップグレード（追記あり）"
 date =  "2024-06-09T16:28:10+09:00"
 description = "サードパーティの APT リポジトリ定義を全部書き直した。あとは遅まきながら Fcitx 5 の導入"
 image = "/images/attention/kitten.jpg"
@@ -17,7 +17,7 @@ pageType = "text"
 - [Ubuntu 24.04 LTS リリース | Ubuntu Japanese Team](/News/ubuntu2404)
 - [Ubuntu 24.04 LTS “Noble Numbat”のリリース | gihyo.jp](https://gihyo.jp/admin/clip/01/ubuntu-topics/202404/26)
 
-本当は日本語 Remix が出るまで待つつもりだったのだが，今回は出そうもない。
+本当は日本語 Remix が出るまで待つつもりだったのだが，今回は出そうもない（2024-06-14 追記：今回は[日本語 Remix は出ない](https://lists.ubuntu.com/archives/ubuntu-jp/2024-June/006668.html "[ubuntu-jp:6669] Ubuntu 24.04 LTSの日本語Remixについて")らしい）。
 
 ## 前準備
 
@@ -132,7 +132,7 @@ $ sudo add-apt-repository ppa:git-core/ppa
 
 [PPA] 版 [git][Git] が既に ready 状態になっているのでチェックを入れて有効にする。
 
-#### ワーニングの回避
+#### ワーニングの回避 {#nowarn}
 
 この状態で `apt update` すると
 
@@ -300,6 +300,29 @@ Architectures: amd64,arm64,armhf
 `vscode.sources` を作成したら `vscode.list` ファイルは削除してよい。
 あとは普通に `sudo apt update & sudo apt upgrade` でアップデートできる。
 
+### 【2024-06-14 追記】 Ubuntu 24.04 LTS 向け Ubuntu Japanese Team パッケージ {#jp}
+
+- [[ubuntu-jp:6669] Ubuntu 24.04 LTSの日本語Remixについて](https://lists.ubuntu.com/archives/ubuntu-jp/2024-June/006668.html)
+
+Ubuntu 24.04 LTS では日本語 Remix は出ないらしい。
+一方で Ubuntu Japanese Team パッケージについては deb822 形式に対応したものを利用できる。
+
+```text
+$ sudo wget https://www.ubuntulinux.jp/sources.list.d/noble.sources -O /etc/apt/sources.list.d/ubuntu-ja.sources
+$ sudo apt -U upgrade # update して upgrade する
+```
+
+まっさらから使う場合は `ubuntu-defaults-ja` をインストールする。
+
+```text
+$ sudo apt install ubuntu-defaults-ja
+```
+
+`/etc/apt/sources.list.d/ubuntu-ja.sources` ファイルに公開鍵も埋め込まれているが rsa1024 鍵なのでワーニングが出る。
+とりあえずワーニングを回避したい場合は「[ワーニングの回避](#nowarn)」の節を参照のこと。
+
+将来バージョンでは [PPA] のリポジトリを直接利用できるようになるらしい。
+
 ## [Fcitx 5] を導入する
 
 今更だが input method を [Fcitx 5] に変更する。
@@ -366,7 +389,7 @@ username    6384    4812  0 15:14 pts/1    00:00:00 jvgrep fcitx
 [Docker]: https://www.docker.com/ "Empowering App Development for Developers | Docker"
 [pgAdmin 4]: https://www.pgadmin.org/ "pgAdmin - PostgreSQL Tools"
 [VS Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
-[Fcitx 5]: https://fcitx-im.org/wiki/Fcitx_5 
+[Fcitx 5]: https://fcitx-im.org/wiki/Fcitx_5
 
 ## 参考
 
