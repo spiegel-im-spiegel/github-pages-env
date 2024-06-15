@@ -26452,5 +26452,89 @@
       false
     ],
     "Description": "のっけからミネルヴァの話題でちょっと嬉しい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CG59GTZV",
+      "Title": "コスパ COSPA 【公式】二次元コスパ ヘブンバーンズレッド 勝ち確です。ありがとうございました。 Tシャツ WHITE Mサイズ",
+      "URL": "https://www.amazon.co.jp/dp/B0CG59GTZV?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41o-BQFV1fL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "おもちゃ＆ホビー",
+      "Publisher": "二次元コスパ(Nijigen Cospa)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CG59GTZV"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4549970333375"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2023-11-30",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-06-15",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "ついカッとなってポチった。反省はしない。おタマさんしか勝たん！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07CMW3LJL",
+      "Title": "Rising Hope",
+      "URL": "https://www.amazon.co.jp/dp/B07CMW3LJL?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51QM-i5VfeL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "LiSA",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Sony Music Labels Inc.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07CMW3LJL"
+        }
+      ],
+      "PublicationDate": "2018-05-09",
+      "LastRelease": "2018-05-09",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-06-13",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ「魔法科高校の劣等生」最初期の OP 曲。「LiSA BEST -Day-」に収録されている。\u003ca href=\"https://mora.jp/package/43000100/VVXX00269B00Z_96/\"\u003emora\u003c/a\u003e で高解像度版が買える。ノリがよくてカラオケで歌いやすい曲。"
   }
 ]
