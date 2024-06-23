@@ -22,7 +22,7 @@ pageType = "text"
 何もかも懐かしい（笑）
 
 元々は [SETI@home] の[グループ運営](https://huaa.baldanders.info/ "Club-HUAA サポートページ")等の余興で日記を始めたのだが，だんだん [SETI@home] 活動から外れていったので，放浪の後に今の[本家サイト（Baldanders.info）](https://baldanders.info/ "Baldanders.info")に腰を落ち着けたのが[20年前の2004年](https://baldanders.info/blog/000005/ "Baldanders.info 正式オープン -- 戯れ言++")。
-そこから更にブログ運用を SSG (Static Site Generator) の [Hugo] に切り換えて [text.Baldanders.info の運用を始めた]({{< ref "/remark/2015/open-this-site.md" >}} "text.Baldanders.info 正式オープン")のが9年前の2015年。
+そこから更にブログ運用を SSG (Static Site Generator) の [Hugo] に[切り換え](https://baldanders.info/blog/000872/ "ブログ機能移転のお知らせ")て [text.Baldanders.info の運用を始めた]({{< ref "/remark/2015/open-this-site.md" >}} "text.Baldanders.info 正式オープン")のが9年前の2015年。
 そっか。
 来年はそっちも10周年だな。
 
