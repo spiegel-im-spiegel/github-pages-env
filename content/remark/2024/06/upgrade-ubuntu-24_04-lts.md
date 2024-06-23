@@ -376,6 +376,7 @@ username    6384    4812  0 15:14 pts/1    00:00:00 jvgrep fcitx
 
 - [第811回　ゴールデンウィーク特別企画 新学生・新社会人向けのUbuntuデスクトップ講座2024 | gihyo.jp](https://gihyo.jp/admin/serial/01/ubuntu-recipe/0811)
 - [Ubuntu 20.04にNode.jsをインストールする方法  | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04-ja)
+- [Ubuntu 24.04 その43 - Ubuntu 24.04 LTS 日本語 Remix のリリース見送り・日本語ユーザー向けパッケージを導入するには - kledgeb](https://kledgeb.blogspot.com/2024/06/ubuntu-2404-43-ubuntu-2404-lts-remix.html)
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [PPA]: https://launchpad.net/ubuntu/+ppas "Personal Package Archives : Ubuntu"

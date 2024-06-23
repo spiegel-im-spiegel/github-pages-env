@@ -1,10 +1,9 @@
 +++
 date = "2015-10-03T00:24:53+09:00"
-update = "2015-10-22T08:35:00+09:00"
 description = "さて予定通り，正式オープンしました。"
-draft = false
 tags = ["site", "policy", "creative-commons", "license", "hugo", "github"]
 title = "text.Baldanders.info 正式オープン"
+pageType = "text"
 
 [scripts]
   mathjax = false
@@ -76,11 +75,9 @@ title = "text.Baldanders.info 正式オープン"
 
 またこのサイト用に theme を作成して，こちらも公開しています。
 
-- [spiegel-im-spiegel/hugo-theme-text](https://github.com/spiegel-im-spiegel/hugo-theme-text)
+- [spiegel-im-spiegel/hugo-theme-baldanders-info](https://github.com/spiegel-im-spiegel/hugo-theme-baldanders-info)
 
-Theme のほうは [cc0] で公開しているため自由に利用していただいて構いません。
-なお， [Hugo] については Section を立てて[連載中](/hugo)です。
-
+汎用性は皆無ですが（笑）
 
 [Creative Commons]: https://creativecommons.org/ "Creative Commons"
 [cc0]: https://creativecommons.org/publicdomain/zero/1.0/deed.ja "Creative Commons — CC0 1.0 Universal"
