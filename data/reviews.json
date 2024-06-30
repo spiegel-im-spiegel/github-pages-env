@@ -26579,5 +26579,50 @@
       false
     ],
     "Description": "アニメ「転生したらスライムだった件」の第3期ED曲。 \u003ca href=\"https://mora.jp/package/43000100/LAXX02824B00Z_96/\"\u003emora\u003c/a\u003e で高解像度版が買える。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08BZ5T9NZ",
+      "Title": "GARMIN ガーミン エッジ(Edge) 130plus 日本版 本体のみ GPS ブルートゥース Android/iOS対応 (010-02385-05)【日本正規品】",
+      "URL": "https://www.amazon.co.jp/dp/B08BZ5T9NZ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41lISPITGVS._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "スポーツ用品",
+      "Publisher": "ガーミン(GARMIN)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08BZ5T9NZ"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0753759265137"
+        },
+        {
+          "Name": "UPC",
+          "Value": "753759265137"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-06-30",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "Garmin 製のいっちゃん安いサイクルコンピュータ。白黒液晶で筐体も小さいけど視認性は問題ない。ボタンが硬くてちょっと操作し辛い。簡易ナビはホントに簡易表示のみ。ほかは申し分なし。"
   }
 ]
