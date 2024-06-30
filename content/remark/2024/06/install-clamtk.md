@@ -139,7 +139,9 @@ End Date:   2024:06:30 09:53:49
 $ sudo apt install clamtk
 ```
 
-ただしそのままだと色々と不具合があるらしいので，いくつかのファイルを変更する。
+ただしそのままだと色々と不具合があるらしいので，以下のページを参考に，いくつかのファイルを変更する。
+
+- [【Ubuntu】ウィルス対策。ClamTkが上手く動作しないときの対処あれこれ。 - freefielder.jp](https://freefielder.jp/blog/2017/05/ubuntu-clamtk-trouble.html)
 
 まずは `/usr/bin/clamtk` (Perl ソース) ファイルから。
 
