@@ -56,6 +56,10 @@ pageType = "text"
 [前の製品]: {{< ref "/remark/2023/07/cyclocomputer.md" >}} "サイクルコンピュータ買うた（お散歩カメラ 2023-07-29）"
 [Garmin Connect]: https://connect.garmin.com/
 
+## ブックマーク
+
+- [EDGE 130 PLUS 操作マニュアル](https://www8.garmin.com/manuals-apac/webhelp/edge130plus/JA-JP/home.html)
+
 ## 参考
 
 {{% review-paapi "B09XGYX7JF" %}} <!-- GARMIN vívosmart 5 -->
