@@ -94,7 +94,7 @@ Facabook のことは長い目で見て「付かず離れず」で行こうと�
 
 ### Instagram から（最終的に）完全撤退します
 
-これについては実は [Flickr にお金を払った]({{< ref "/flickr-has-not-turned-to-surveillance-capitalism.md" >}})あたりから考えていたのだが，前倒しすることにする。
+これについては実は [Flickr にお金を払った]({{< relref "./flickr-has-not-turned-to-surveillance-capitalism.md" >}})あたりから考えていたのだが，前倒しすることにする。
 まぁ[2019年2月までのバックアップは取ってある](https://photo.baldanders.info/instagram/ "Photos in Instagram | photo.Baldanders.info")ので無問題。
 
 まずはスマホから Instagram アプリをサクっと削除。
