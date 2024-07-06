@@ -26624,5 +26624,48 @@
       false
     ],
     "Description": "Garmin 製のいっちゃん安いサイクルコンピュータ。白黒液晶で筐体も小さいけど視認性は問題ない。ボタンが硬くてちょっと操作し辛い。簡易ナビはホントに簡易表示のみ。ほかは申し分なし。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0D6QQ3VXT",
+      "Title": "関数電卓がすごい (ハヤカワ新書)",
+      "URL": "https://www.amazon.co.jp/dp/B0D6QQ3VXT?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31mjqUjjRpL._SL160_.jpg",
+        "Height": 160,
+        "Width": 97
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "芝村 裕吏",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "早川書房",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0D6QQ3VXT"
+        }
+      ],
+      "PublicationDate": "2024-06-19",
+      "LastRelease": "2024-06-19",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-06-20",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "関数電卓の使い方... というより「価値」評価の話。その方便として関数電卓を使っているわけだ。ちょっと説教くさい文体（笑）"
   }
 ]
