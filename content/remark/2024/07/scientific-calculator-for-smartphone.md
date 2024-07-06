@@ -279,7 +279,7 @@ CASIO の [CLASSWIZ] シリーズのエミュレーションができる関数�
 
 {{< fig-img src="./hiper-calc-pro-4.png" title="HiPER Calc Pro (4)" link="./hiper-calc-pro-4.png" >}}
 
-{{% keytop %}}More...{{% /keytop %}} 押下で以下のように視覚的に表示してくれる。
+{{% keytop %}}More...{{% /keytop %}} 押下で以下のように視覚的に示してくれるのは嬉しい。
 
 {{< fig-img src="./hiper-calc-pro-5.png" title="HiPER Calc Pro (5)" link="./hiper-calc-pro-5.png" >}}
 
