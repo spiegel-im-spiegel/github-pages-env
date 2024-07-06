@@ -323,6 +323,6 @@ CASIO の [CLASSWIZ] シリーズのエミュレーションができる関数�
 [Panecal]: https://play.google.com/store/apps/details?id=jp.ne.kutu.Panecal "関数電卓 Panecal - Google Play"
 [HiPER Calc Pro]: https://play.google.com/store/search?q=hiper+calc+pro&c=apps "hiper calc pro - Google Play の Android アプリ"
 
-## 参考図書
+## 参考
 
 {{% review-paapi "B08XQGKL6G" %}} <!-- ぐだふわエブリデー -->
