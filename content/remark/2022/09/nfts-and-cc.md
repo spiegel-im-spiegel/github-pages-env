@@ -67,4 +67,4 @@ CC’s mission is not just sharing but better sharing—sharing in a way that pr
 
 {{% review-paapi "475710152X" %}} <!-- クリエイティブ・コモンズ―デジタル時代の知的財産権 -->
 {{% review-paapi "B099RTG3J7" %}} <!-- 著作権は文化を発展させるのか: 人権と文化コモンズ -->
-{{% review-paapi "4641243336" %}} <!-- 著作権法 第3版 -->
+{{% review-paapi "B0CTM1KHDX" %}} <!-- 著作権法 第4版 -->

@@ -110,4 +110,4 @@ yomoyomo さんも[苦言](https://yamdas.hatenablog.com/entry/20220105/copyleft
 ## 参考文献
 
 {{% review-paapi "475710152X" %}} <!-- クリエイティブ・コモンズ―デジタル時代の知的財産権 -->
-{{% review-paapi "4641243336" %}} <!-- 著作権法 第3版 -->
+{{% review-paapi "B0CTM1KHDX" %}} <!-- 著作権法 第4版 -->

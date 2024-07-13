@@ -37,7 +37,7 @@ pageType = "text"
 
 ## 参考図書
 
-{{% review-paapi "4641243336" %}} <!-- 著作権法 第3版 -->
+{{% review-paapi "B0CTM1KHDX" %}} <!-- 著作権法 第4版 -->
 {{% review-paapi "4757102852" %}} <!-- 著作権２．０ ウェブ時代の文化発展をめざして -->
 {{% review-paapi "4757122349" %}} <!-- 〈反〉知的独占 -->
 {{% review-paapi "B01CYDGUV8" %}} <!-- CODE VERSION 2.0 -->

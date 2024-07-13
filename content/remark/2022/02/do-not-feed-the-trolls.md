@@ -41,4 +41,4 @@ pageType = "text"
 
 {{% review-paapi "475710152X" %}} <!-- クリエイティブ・コモンズ―デジタル時代の知的財産権 -->
 {{% review-paapi "B00DI8TMPU" %}} <!-- オープン化する創造の時代 -->
-{{% review-paapi "4641243336" %}} <!-- 著作権法 第3版 -->
+{{% review-paapi "B0CTM1KHDX" %}} <!-- 著作権法 第4版 -->

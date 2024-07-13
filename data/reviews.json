@@ -26667,5 +26667,95 @@
       false
     ],
     "Description": "関数電卓の使い方... というより「価値」評価の話。その方便として関数電卓を使っているわけだ。ちょっと説教くさい文体（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0D5LQBL2P",
+      "Title": "余りモノ異世界人の自由生活　～勇者じゃないので勝手にやらせてもらいます～７ (アルファポリス)",
+      "URL": "https://www.amazon.co.jp/dp/B0D5LQBL2P?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/511UkDeIuKL._SL160_.jpg",
+        "Height": 160,
+        "Width": 108
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "藤森フクロウ",
+          "Role": "著"
+        },
+        {
+          "Name": "万冬しま",
+          "Role": "イラスト"
+        }
+      ],
+      "Publisher": "アルファポリス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0D5LQBL2P"
+        }
+      ],
+      "PublicationDate": "2024-06-17",
+      "LastRelease": "2024-07-12",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-07-12",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "ブラッドウルフ来襲。今回はちょっとシリアス。シリアス先輩出番です！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CTM1KHDX",
+      "Title": "著作権法（第4版）",
+      "URL": "https://www.amazon.co.jp/dp/B0CTM1KHDX?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41WTC3HpZlL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "中山信弘",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "有斐閣",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CTM1KHDX"
+        }
+      ],
+      "PublicationDate": "2023-10-31",
+      "LastRelease": "2024-02-02",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-07-12",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "第4版が出てた。Kindle 版も出ている。第2版を図書館で借りて読んだが途中でギブアップした。個人が興味本位で読める本ではないらしい（笑）"
   }
 ]

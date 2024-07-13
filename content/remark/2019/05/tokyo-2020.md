@@ -67,4 +67,4 @@ pageType = "text"
 
 ## 参考図書
 
-{{% review-paapi "4641243336" %}} <!-- 著作権法 第3版 -->
+{{% review-paapi "B0CTM1KHDX" %}} <!-- 著作権法 第4版 -->
