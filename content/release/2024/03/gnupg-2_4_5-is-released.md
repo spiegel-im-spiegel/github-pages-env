@@ -3,7 +3,7 @@ title = "GnuPG 2.4.4 / 2.4.5 のリリース【セキュリティ・アップデ
 date =  "2024-03-20T11:03:46+09:00"
 description = "2.4.4 では脆弱性の修正がある"
 image = "/images/attention/openpgp.png"
-tags = ["security", "cryptography", "tools", "openpgp", "gnupg", "security", "vulnerability"]
+tags = ["security", "cryptography", "tools", "openpgp", "gnupg", "vulnerability"]
 pageType = "text"
 
 [scripts]
