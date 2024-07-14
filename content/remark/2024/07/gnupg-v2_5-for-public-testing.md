@@ -1,5 +1,5 @@
 +++
-title = "公開テスト用の Gnupg v2.5 が登場"
+title = "公開テスト用の GnuPG v2.5 が登場"
 date =  "2024-07-14T10:29:46+09:00"
 description = "v2.6 系が出るまでは現行の v2.4 系が安定版としてメンテナンスされる筈なので，しばらくは現状の v2.4 系のままでも大丈夫。"
 image = "/images/attention/openpgp.png"
