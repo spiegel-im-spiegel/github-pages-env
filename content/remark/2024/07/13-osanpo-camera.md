@@ -26,7 +26,7 @@ pageType = "photo"
 
 このページの下の方に「暑熱順化チェック」ってのがあって
 
-{{< fig-img-quote src="checking-heat-adaptation.png" title="暑熱順化 | 熱中症ゼロへ - 日本気象協会推進" link="https://www.netsuzero.jp/learning/le15" width="685" >}}
+{{< fig-img-quote src="./checking-heat-adaptation.png" title="暑熱順化 | 熱中症ゼロへ - 日本気象協会推進" link="https://www.netsuzero.jp/learning/le15" width="685" >}}
 
 「入浴（シャワーだけでなく、湯船に入るもの）」「運動（汗をかく程度のもの）」「その他の汗をかく行動（運動・入浴以外の外出など）」の3つのうち2つ以上を継続的に行っていれば効果があるらしい。
 
