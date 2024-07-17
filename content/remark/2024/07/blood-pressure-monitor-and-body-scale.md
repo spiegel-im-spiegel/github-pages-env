@@ -97,6 +97,24 @@ Wi-Fi 接続設定をスマホ側で行うんだけど，スマホも一時的�
 体重と血圧の測定は継続的に行うことで身体異常を早期発見できるようになる。
 というわけで，これからもデータの蓄積を行っていこう。
 
+### 血圧測定のタイミング
+
+{{% pdf-file title="マニュアル" link="https://www.elecom.co.jp/support/manual/healthcare/sphygmomanometer/hcm-as01btwh/hcm-as01btwh_v01.pdf" %}} に血圧測定のタイミングについて書いてあった。
+概ね病院で指導された内容と同じだが，覚え書きのため書いておこう。
+
+{{< fig-quote type="markdown" title="『取扱説明書』測定するタイミング（p.17）" link="https://www.elecom.co.jp/support/manual/healthcare/sphygmomanometer/hcm-as01btwh/hcm-as01btwh_v01.pdf" >}}
+- 起床後
+  - 起床後1時間以内
+  - 排尿後
+  - 朝食前
+  - 服薬前（降圧剤を飲んでいる場合）
+  - 約5分間安静にしてから
+- 就寝前
+  - 約5分間安静にしてから
+{{< /fig-quote >}}
+
+今まで（面倒だったので）就寝前の血圧は測ってなかったのだが（朝だけでもいいと言われてたので），簡単に記録できるようになったし，これからは就寝前にも測定するかな。
+
 ## Google Fit との連携に注意
 
 Android 版 [ECLEAR plus] の場合，上のスナップショットのように「Google Fit と連携」を有効にすれば Google Fit に体重・血圧データが転送される。
