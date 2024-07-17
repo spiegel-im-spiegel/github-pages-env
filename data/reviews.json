@@ -26757,5 +26757,87 @@
       false
     ],
     "Description": "第4版が出てた。Kindle 版も出ている。第2版を図書館で借りて読んだが途中でギブアップした。個人が興味本位で読める本ではないらしい（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CFTT1L2M",
+      "Title": "エレコム 体組成計 体重計 【体重/内臓脂肪レベル/体脂肪率/BMI/骨格筋率/骨量/基礎代謝】 100g単位 バックライト付き (専用アプリ対応 データ転送操作不要 Wi-Fi接続) 5人登録可能 コンパクトサイズ エクリア ホワイト EFSW02WH",
+      "URL": "https://www.amazon.co.jp/dp/B0CFTT1L2M?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/21h9qqH1gVL._SL160_.jpg",
+        "Height": 160,
+        "Width": 106
+      },
+      "ProductType": "その他",
+      "Publisher": "エレコム(ELECOM)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CFTT1L2M"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4549550274630"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2023-08-23",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-07-15",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "専用のスマホアプリと連携できるスマート体重体組成計。 Wi-Fi でネットに接続しクラウドに直接アップロードしている模様。単4電池3本で駆動。 Google Fit または Apple ヘルスケアとも連携可能。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B084ZDCVLJ",
+      "Title": "エレコム 血圧計 上腕式 コンパクト バックライト付き液晶画面 スマホ連動 (Bluetoothでデータ転送) 専用アプリ対応 HCM-AS01BTWH",
+      "URL": "https://www.amazon.co.jp/dp/B084ZDCVLJ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41ZF6DKGxKL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "ヘルスケア\u0026ケア用品",
+      "Publisher": "エレコム(ELECOM)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B084ZDCVLJ"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4549550157193"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2020-02-26",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-07-17",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "専用のスマホアプリと連携できるスマート血圧計。 Bluetooth 接続。上腕式たすかる。バッテリ駆動。 Google Fit または Apple ヘルスケアとも連携可能。"
   }
 ]

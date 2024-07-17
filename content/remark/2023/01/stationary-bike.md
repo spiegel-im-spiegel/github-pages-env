@@ -3,7 +3,7 @@ title = "フィットネスバイク買うた"
 date =  "2023-01-06T20:41:40+09:00"
 description = "明日からの心臓リハビリにフィットネスバイクが加わった。"
 image = "/images/attention/kitten.jpg"
-tags = [ "disease", "bike" ]
+tags = [ "disease", "bike", "healthcare" ]
 pageType = "text"
 
 [scripts]
