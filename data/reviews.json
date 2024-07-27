@@ -26839,5 +26839,91 @@
       false
     ],
     "Description": "専用のスマホアプリと連携できるスマート血圧計。 Bluetooth 接続。上腕式たすかる。バッテリ駆動。 Google Fit または Apple ヘルスケアとも連携可能。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0B8D1S61W",
+      "Title": "Let’s go ahead （『風都探偵』挿入歌）",
+      "URL": "https://www.amazon.co.jp/dp/B0B8D1S61W?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51W9LfBnDOL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "Machico",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "avex trax",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0B8D1S61W"
+        }
+      ],
+      "PublicationDate": "2022-08-22",
+      "LastRelease": "2022-08-22",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-07-21",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ版仮面ライダーW「風都探偵」の劇中歌。mora で\u003ca href=\"https://mora.jp/package/43000002/ANTCD-A0000007935_F/\"\u003e高解像度版\u003c/a\u003eが買える。いかにもアニソンぽい曲で大変よろしい！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0B7S5Q9PX",
+      "Title": "W-G-X ～W Goes Next～ （『風都探偵』挿入歌）",
+      "URL": "https://www.amazon.co.jp/dp/B0B7S5Q9PX?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51EooiEPnBL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "上木彩矢wTAKUYA",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "avex trax",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0B7S5Q9PX"
+        }
+      ],
+      "PublicationDate": "2022-08-15",
+      "LastRelease": "2022-08-15",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-07-21",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ版仮面ライダーW「風都探偵」の劇中歌。mora で\u003ca href=\"https://mora.jp/package/43000002/ANTCD-A0000007750_F/\"\u003e高解像度版\u003c/a\u003eが買える。相変わらずかっこいい！"
   }
 ]

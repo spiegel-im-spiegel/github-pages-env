@@ -17,9 +17,20 @@ pageType = "photo"
 [前回]「もしアプリが復帰したらサイコン同時使用とかできないだろうか」と書いたが [trimm ROLLIN] の[専用アプリ][trimm Cycling Center]の故障がようやく直った模様。
 めでたい！ とはいえ既にメインのサイコンは [GARMIN Edge 130 plus] で運用を始めているので [trimm ROLLIN] はナビゲーション専用機として使うことにしよう。
 
-試してみたが，心拍数をモニタする[スマートバンド]({{< ref "/remark/2023/08/monitoring-heart-rate-2.md" >}} "Garmin vívosmart 5 を買っちまった（心臓リハビリ＠がんばらない 2）")は同時に2つのサイコンと接続できるが，手持ちのケイデンスモニタでは2つ同時に接続できないようだ。
+試してみたが，心拍数をモニタする[スマートバンド]({{< ref "/remark/2023/08/monitoring-heart-rate-2.md" >}} "Garmin vívosmart 5 を買っちまった（心臓リハビリ＠がんばらない 2）")は同時に2つのサイコンと接続できるが，~~手持ちのケイデンスセンサでは2つ同時に接続できないようだ~~。
 まぁ，ナビ動作中はケイデンスはさほど気にしないし。
 [大丈夫だ問題ない](https://www.j-cast.com/2021/06/26414470.html "「大丈夫だ問題ない」大流行に「罪悪感しかない」　伝説のゲーム「エルシャダイ」生みの親の「懺悔」: J-CAST ニュース")。
+
+{{< div-box type="markdown" >}}
+### 【2024-07-27 追記】
+
+後日に分かったが [trimm ROLLIN] 側でケイデンスセンサを認識できなかったのは単にペアリングが外れてたから，だった。
+[trimm ROLLIN] 側でペアリングし直したら [GARMIN Edge 130 plus] と同時にモニタできることを確認できた。
+まぁ，どのみちナビ中はケイデンスとか見ないのでいいんだけど（笑）
+
+[trimm ROLLIN]: https://www.amazon.co.jp/dp/B0BLNFPWTQ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon.co.jp: trimm ROLLIN サイクルコンピュータ GPS 自転車 速度計 ワイヤレス ナビゲーション ANT+センサー対応 Bluetooth 心拍数 高度計 2.7インチ スピードセンサー(device only) : スポーツ＆アウトドア"
+[GARMIN Edge 130 plus]: https://www.amazon.co.jp/dp/B08BZ5T9NZ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon | GARMIN ガーミン エッジ(Edge) 130plus 日本版 本体のみ GPS ブルートゥース Android/iOS対応 (010-02385-05)【日本正規品】 | ガーミン(GARMIN) | トレッキング用GPS・アクセサリ"
+{{< /div-box >}}
 
 ## Strava オススメのルートを試してみる
 
