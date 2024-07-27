@@ -48,7 +48,7 @@ pageType = "photo"
 {{< fig-img src="./53884044140_3d3ccf4fa8_e.jpg" title="今日の宍道湖大橋 | Flickr" link="https://www.flickr.com/photos/spiegel/53884044140/" >}}
 
 そういや来週末は[水郷祭]があるんやった。
-まぁ，今年は見ないだろう（昨年は[病院で見た]({{< ref "/remark/2023/08/cardiac-catheterization.md" >}}) "心臓カテーテル治療（心臓リハビリ＠がんばらない 3）"）。
+まぁ，今年は見ないだろう（昨年は[病院で見た]({{< ref "/remark/2023/08/cardiac-catheterization.md" >}} "心臓カテーテル治療（心臓リハビリ＠がんばらない 3）")）。
 宍道湖沿いの公園とかはほぼ有料席だし，それ以外は人が多すぎて見るどころじゃないしな。
 
 さて出発点の[松江しんじ湖温泉駅]前に到着。
