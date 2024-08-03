@@ -26623,7 +26623,7 @@
       true,
       false
     ],
-    "Description": "Garmin 製のいっちゃん安いサイクルコンピュータ。白黒液晶で筐体も小さいけど視認性は問題ない。ボタンが硬くてちょっと操作し辛い。簡易ナビはホントに簡易表示のみ。ほかは申し分なし。"
+    "Description": "Garmin 製のいっちゃん安いサイクルコンピュータ。白黒液晶で筐体も小さいけど視認性は問題ない。ボタンが硬くてちょっと操作し辛い。ルートナビゲーションはホントに簡易表示のみなのでナビ機能が欲しい人は上位機種を検討したほうがいい。ほかは申し分なし。"
   },
   {
     "Book": {
@@ -26925,5 +26925,95 @@
       false
     ],
     "Description": "アニメ版仮面ライダーW「風都探偵」の劇中歌。mora で\u003ca href=\"https://mora.jp/package/43000002/ANTCD-A0000007750_F/\"\u003e高解像度版\u003c/a\u003eが買える。相変わらずかっこいい！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0D9VNGMK3",
+      "Title": "日経サイエンス2024年9月号 [雑誌]",
+      "URL": "https://www.amazon.co.jp/dp/B0D9VNGMK3?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/5154Hjgiz0L._SL160_.jpg",
+        "Height": 160,
+        "Width": 120
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "日経サイエンス",
+          "Role": "編集"
+        }
+      ],
+      "Publisher": "日経サイエンス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0D9VNGMK3"
+        }
+      ],
+      "PublicationDate": "2024-07-25",
+      "LastRelease": "2024-07-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-08-03",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "あれ？ 日経サイエンスって Kindle 版あったっけ？ 紙のほうを買っちゃったよ。まぁ，いいか。今回の特集は「食欲の正体」と「シンクロする脳」。BMI 値は高いのに「代謝的に健康な肥満（MHO）」の話は面白かった。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08ZXYX3YZ",
+      "Title": "片田舎のおっさん、剣聖になる　1　～ただの田舎の剣術師範だったのに、大成した弟子たちが俺を放ってくれない件～ (デジタル版SQEXノベル)",
+      "URL": "https://www.amazon.co.jp/dp/B08ZXYX3YZ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51YdxlkDIXL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "佐賀崎しげる",
+          "Role": "著"
+        },
+        {
+          "Name": "鍋島テツヒロ",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "スクウェア・エニックス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08ZXYX3YZ"
+        }
+      ],
+      "PublicationDate": "2021-04-07",
+      "LastRelease": "2021-04-07",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-08-03",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "\u003ca href=\"https://ossan-kensei.com/\"\u003eアニメ化\u003c/a\u003eされるというので話題になっていたので検索してみたら書籍版の絵師が鍋島テツヒロさんじゃないっスか！ これは面白いに違いないと1巻だけ買ってみた（笑）"
   }
 ]
