@@ -27015,5 +27015,87 @@
       false
     ],
     "Description": "\u003ca href=\"https://ossan-kensei.com/\"\u003eアニメ化\u003c/a\u003eされるというので話題になっていたので検索してみたら書籍版の絵師が鍋島テツヒロさんじゃないっスか！ これは面白いに違いないと1巻だけ買ってみた（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B015BLEQ3Y",
+      "Title": "ネピア B-lock インナーシート30 20枚",
+      "URL": "https://www.amazon.co.jp/dp/B015BLEQ3Y?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51vquA0d26L._SL160_.jpg",
+        "Height": 160,
+        "Width": 153
+      },
+      "ProductType": "ヘルスケア\u0026ケア用品",
+      "Publisher": "王子ネピア",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B015BLEQ3Y"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4901121658704"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2015-10-08",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-08-04",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "\u003ca ref=\"https://www.amazon.co.jp/dp/B015BLESKA?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1\"\u003eB-lock インナーシート60\u003c/a\u003eよりひと回り小さい代わりにギャザーが付いてない。装着時の違和感は殆どない。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B015BLESKA",
+      "Title": "ネピア B-lock インナーシート60 20枚",
+      "URL": "https://www.amazon.co.jp/dp/B015BLESKA?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41hDEgSJn2L._SL160_.jpg",
+        "Height": 160,
+        "Width": 149
+      },
+      "ProductType": "ヘルスケア\u0026ケア用品",
+      "Publisher": "王子ネピア",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B015BLESKA"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4901121658759"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2015-10-08",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-08-04",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "知り合いからタダで頂いた。吸収量多めの代わりにちょっと大きい。ギャザーが付いてる。装着時の違和感は殆どない。"
   }
 ]
