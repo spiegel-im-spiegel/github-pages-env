@@ -61,12 +61,19 @@ pageType = "text"
 ぶっちゃけ，近所のドラッグストアに行けば尿もれパッドも色々な製品が並んでいるのだが，私のなけなしの自尊心が恥ずかしがるので，結局 Amazon で買っている。
 まぁ「ちょい漏れ」通り越して（晩年の親父殿みたいに）本格的におむつが要るようになったら四の五の言ってられなくなるんだろうけど。
 
+{{< fig-quote type="markdown" title="無名人名語録" link="https://www.amazon.co.jp/dp/B08PBH17SH?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1" >}}
+子供 叱るな<br>
+来た道だもの<br>
+年寄 笑うな<br>
+行く道だもの
+{{< /fig-quote >}}
+
 そういえば今年の健康診断では前立腺の検査をメニューに入れるとか言ってたような。
 思い出したら憂鬱になってきた。
 
 [60]: https://www.amazon.co.jp/dp/B015BLESKA?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon | ネピア B-lock インナーシート60 20枚 | ネピア インナーシート | 軽失禁パッド"
 [30]: https://www.amazon.co.jp/dp/B015BLEQ3Y?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon | ネピア B-lock インナーシート30 20枚 | ネピア インナーシート | 軽失禁パッド"
 
-## 関係ないけど参考
+## 参考
 
-{{% review-paapi "B08ZXYX3YZ" %}} <!-- 片田舎のおっさん、剣聖になる -->
+{{% review-paapi "B08PBH17SH" %}} <!-- 無名人名語録 永六輔 -->

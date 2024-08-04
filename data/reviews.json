@@ -27097,5 +27097,48 @@
       false
     ],
     "Description": "知り合いからタダで頂いた。吸収量多めの代わりにちょっと大きい。ギャザーが付いてる。装着時の違和感は殆どない。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08PBH17SH",
+      "Title": "無名人名語録 (講談社文庫)",
+      "URL": "https://www.amazon.co.jp/dp/B08PBH17SH?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51x+QM0tiSL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "永六輔",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "講談社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08PBH17SH"
+        }
+      ],
+      "PublicationDate": "1990-05-07",
+      "LastRelease": "2020-12-11",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-08-02",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "Kindle 化されているとは思わなかった。改めて読むと当時の世相を反映していて，まぁまぁ面白い。"
   }
 ]
