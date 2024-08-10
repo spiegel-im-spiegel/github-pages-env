@@ -27140,5 +27140,91 @@
       false
     ],
     "Description": "Kindle 化されているとは思わなかった。改めて読むと当時の世相を反映していて，まぁまぁ面白い。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07FMKJ857",
+      "Title": "希望の轍",
+      "URL": "https://www.amazon.co.jp/dp/B07FMKJ857?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61sUeAyJ3yL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "サザンオールスターズ",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "TAISHITA",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07FMKJ857"
+        }
+      ],
+      "PublicationDate": "1998-06-25",
+      "LastRelease": "2018-08-06",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-08-10",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アルバム「海のYeah!!」収録曲。カラオケで歌いやすい曲。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DB5N3HJL",
+      "Title": "マイクロレボリューション",
+      "URL": "https://www.amazon.co.jp/dp/B0DB5N3HJL?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51vqQ578FVL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "TrySail",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Sony Music Labels Inc.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DB5N3HJL"
+        }
+      ],
+      "PublicationDate": "2024-08-07",
+      "LastRelease": "2024-08-07",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-08-07",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "双見酔さん原作のアニメ「ダンジョンの中の人」のOP曲。ノリのいい曲。\u003ca href=\"https://mora.jp/package/43000100/VVXX01666B00Z_96/\"\u003emora\u003c/a\u003e で高解像度版が買える。双見酔さんの作品はよい。"
   }
 ]
