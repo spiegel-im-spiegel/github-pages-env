@@ -27226,5 +27226,257 @@
       false
     ],
     "Description": "双見酔さん原作のアニメ「ダンジョンの中の人」のOP曲。ノリのいい曲。\u003ca href=\"https://mora.jp/package/43000100/VVXX01666B00Z_96/\"\u003emora\u003c/a\u003e で高解像度版が買える。双見酔さんの作品はよい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0D8JHK3SS",
+      "Title": "婚約破棄が多すぎる～逆転ショート12片～",
+      "URL": "https://www.amazon.co.jp/dp/B0D8JHK3SS?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31m9VnOZyPL._SL160_.jpg",
+        "Height": 160,
+        "Width": 100
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "七辻ゆゆ",
+          "Role": "著"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0D8JHK3SS"
+        }
+      ],
+      "PublicationDate": "2024-06-30",
+      "LastRelease": "2024-06-30",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-07-02",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "七辻ゆゆさんのショートショート自己出版第一弾。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DCN4STWS",
+      "Title": "間違えた奴らの末路×33ショート！",
+      "URL": "https://www.amazon.co.jp/dp/B0DCN4STWS?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41RZJBE9qWL._SL160_.jpg",
+        "Height": 160,
+        "Width": 100
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "七辻ゆゆ",
+          "Role": "著"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DCN4STWS"
+        }
+      ],
+      "PublicationDate": "2024-08-08",
+      "LastRelease": "2024-08-08",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-08-10",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "七辻ゆゆさんのショートショート自己出版第六弾。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DBH8P8SB",
+      "Title": "異世界妻はバッドエンドを拒否します。～悲劇・喜劇のショート10婚～",
+      "URL": "https://www.amazon.co.jp/dp/B0DBH8P8SB?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41bLfCo3RTL._SL160_.jpg",
+        "Height": 160,
+        "Width": 100
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "七辻ゆゆ",
+          "Role": "著"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DBH8P8SB"
+        }
+      ],
+      "PublicationDate": "2024-07-28",
+      "LastRelease": "2024-07-28",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-07-29",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "七辻ゆゆさんのショートショート自己出版第五弾。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0D9TG6LWW",
+      "Title": "婚約破棄、ざまぁ、聖女、ダメ王族、その他の短編を30回転",
+      "URL": "https://www.amazon.co.jp/dp/B0D9TG6LWW?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41cGW6b2ToL._SL160_.jpg",
+        "Height": 160,
+        "Width": 100
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "七辻ゆゆ",
+          "Role": "著"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0D9TG6LWW"
+        }
+      ],
+      "PublicationDate": "2024-07-20",
+      "LastRelease": "2024-07-20",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-07-21",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "七辻ゆゆさんのショートショート自己出版第四弾。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0D9CG7N9W",
+      "Title": "私は幸せになりますので！～逆転ハッピーエンド10話～",
+      "URL": "https://www.amazon.co.jp/dp/B0D9CG7N9W?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41G5uN23J1L._SL160_.jpg",
+        "Height": 160,
+        "Width": 100
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "七辻ゆゆ",
+          "Role": "著"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0D9CG7N9W"
+        }
+      ],
+      "PublicationDate": "2024-07-12",
+      "LastRelease": "2024-07-12",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-07-14",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "七辻ゆゆさんのショートショート自己出版第三弾。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0D8XP879N",
+      "Title": "ざまぁ！ざまぁ！ざまぁ！～ひどいことして、ひどいことになる奴らの１０話～",
+      "URL": "https://www.amazon.co.jp/dp/B0D8XP879N?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41U4ZbdG2dL._SL160_.jpg",
+        "Height": 160,
+        "Width": 100
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "七辻ゆゆ",
+          "Role": "著"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0D8XP879N"
+        }
+      ],
+      "PublicationDate": "2024-07-05",
+      "LastRelease": "2024-07-05",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-07-06",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "七辻ゆゆさんのショートショート自己出版第二弾。"
   }
 ]
