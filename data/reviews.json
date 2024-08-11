@@ -27478,5 +27478,46 @@
       true
     ],
     "Description": "七辻ゆゆさんのショートショート自己出版第二弾。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BVNVW1W5",
+      "Title": "シマノ(SHIMANO) サイクリンググローブ EXPLORERグローブ 2023年モデル ネイビーL 手の周りサイズ目安:22.9-24.8㎝",
+      "URL": "https://www.amazon.co.jp/dp/B0BVNVW1W5?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31OHxe-cMsL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "スポーツ用品",
+      "Publisher": "シマノ(SHIMANO)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BVNVW1W5"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4550170308131"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-07-29",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "夏用のサイクリンググローブ。今まで使ってたのがボロボロになったので試しに買ってみた。着け心地よく違和感はない。手の甲の部分で上手く熱を逃している感じ。安売り中で安く買えた。"
   }
 ]

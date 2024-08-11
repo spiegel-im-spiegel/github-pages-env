@@ -188,6 +188,7 @@ pageType = "photo"
 {{% review-paapi "B09XGYX7JF" %}} <!-- GARMIN vívosmart 5 -->
 {{% review-paapi "B09TVLHJ1X" %}} <!-- Shokz OpenRun Mini 骨伝導ヘッドセット -->
 {{% review-paapi "B0BT1X9H7B" %}} <!-- 日焼け止め ミストタイプ -->
+{{% review-paapi "B0BVNVW1W5" %}} <!-- SHIMANO サイクリンググローブ -->
 {{% review-paapi "4344947509" %}} <!-- 心臓リハビリテーション入門 -->
 {{% review-paapi "B08ZXYX3YZ" %}} <!-- 片田舎のおっさん、剣聖になる -->
 {{% review-paapi "B00FYKN2C4" %}} <!-- ささみさん@がんばらない -->
