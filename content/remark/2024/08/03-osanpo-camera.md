@@ -65,7 +65,7 @@ pageType = "photo"
 [八雲温泉][八雲温泉ゆうあい熊野館]に行ってみることにした。
 ルートはこんな感じ。
 
-{{< fig-img-quote src="./cycling-route.png" title="天一ラーメン食って八雲温泉へ行こう" link="https://www.strava.com/routes" width="867" >}}
+{{< fig-img-quote src="./cycling-route.png" title="天一ラーメン食って八雲温泉へ行こう" link="https://www.strava.com/routes/3254541776368781650" width="867" >}}
 
 日焼け止めの塗り直しと水の確保をしておかないと。
 ついでに本屋で雑誌を購入。
