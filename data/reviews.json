@@ -22573,15 +22573,15 @@
       }
     },
     "Date": "2021-11-07",
-    "Rating": 4,
+    "Rating": 0,
     "Star": [
-      true,
-      true,
-      true,
-      true,
+      false,
+      false,
+      false,
+      false,
       false
     ],
-    "Description": "コンパクトでランニングポーチに楽々入る。【追記】2023年時点ではもう売ってないらしい。残念。"
+    "Description": "コンパクトでランニングポーチに楽々入る。【追記】新版が出ていた。"
   },
   {
     "Book": {
@@ -27519,5 +27519,131 @@
       false
     ],
     "Description": "夏用のサイクリンググローブ。今まで使ってたのがボロボロになったので試しに買ってみた。着け心地よく違和感はない。手の甲の部分で上手く熱を逃している感じ。安売り中で安く買えた。サイクルグローブは基本的に手洗い。洗濯機の手洗いコースでもOKだが漂白剤・柔軟剤はNG。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BD7FGVR6",
+      "Title": "GARMIN(ガーミン)Edge Explore 2 Power サイクルコンピューター【日本正規品】",
+      "URL": "https://www.amazon.co.jp/dp/B0BD7FGVR6?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41p6YH0OjrL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "スポーツ用品",
+      "Publisher": "ガーミン(GARMIN)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BD7FGVR6"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0753759310660"
+        },
+        {
+          "Name": "UPC",
+          "Value": "753759310660"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2022-09-22",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-08-11",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "Garmin 製のルート探索・ナビゲーション特化のサイコン。タッチパネル助かる。充電ポートは USB-C (not PD)。またパワーマウント経由で充電可能。ライドタイプが「ロード」「屋内」「グラベル」の3種類しかない。 Strava のセグメント非対応。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BD6SH1LH",
+      "Title": "ガーミン(GARMIN) GARMIN(ガーミン) Edge PowerMountケーブル USB-A 400mm【日本正規品】",
+      "URL": "https://www.amazon.co.jp/dp/B0BD6SH1LH?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/21-u9-S6U6L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "ガーミン(GARMIN)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BD6SH1LH"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0753759308124"
+        },
+        {
+          "Name": "UPC",
+          "Value": "753759308124"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2022-09-22",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-08-13",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "\u003ca href=\"https://www.amazon.co.jp/dp/B0BD7FGVR6?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1\"\u003eGARMIN Edge Explore 2\u003c/a\u003e のパワーマウントのケーブル端子を USB-A に変換する。市販のモバイルバッテリ（要 USB-A ポート）に繋いで充電可能。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0C5HLDYSM",
+      "Title": "モバイルバッテリー 軽量 小型 薄型 【業界157g超軽量モバイル・バッテリー】10000mah 大容量 22.5W急速充電 タイプC出力 2.4A出力 PD\u0026QC3.0対応 Type-C/USB出力ポート PSE認証済 iPhone/Android各種対応 (ブラック)",
+      "URL": "https://www.amazon.co.jp/dp/B0C5HLDYSM?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31eakPXO06L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "MOXNICE",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0C5HLDYSM"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-08-13",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "コンパクトでランニングポーチ等に楽々入る。 Power Delivery 対応。"
   }
 ]

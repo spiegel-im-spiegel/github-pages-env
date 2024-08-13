@@ -134,4 +134,4 @@ pageType = "text"
 ## 参考
 
 {{% review-paapi "B082FDBWDH" %}} <!-- ランニングポーチ -->
-{{% review-paapi "B092CX9HBY" %}} <!-- モバイルバッテリ（小） -->
+{{% review-paapi "B0C5HLDYSM" %}} <!-- モバイルバッテリ（小） -->
