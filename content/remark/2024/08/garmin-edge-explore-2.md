@@ -96,7 +96,7 @@ Garmin Edge では [Strava] と [Garmin Connect] を連携させて「セグメ�
 今回買った[セット][Garmin Edge Explore 2]にはパワーマウントが付いている。
 これは eBike からの給電を想定していて，走行中も充電しながらサイコンを使うことが出来る。
 
-別売りの USB-A への変換ケーブルを使うと市販のモバイルバッテリ（USB-A の口がついてること）と接続して充電することが出来る。
+別売りの [USB-A への変換ケーブル](https://www.amazon.co.jp/dp/B0BD6SH1LH?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon | ガーミン(GARMIN) GARMIN(ガーミン) Edge PowerMountケーブル USB-A 400mm【日本正規品】 | ガーミン(GARMIN) | サイクルコンピューター・GPS用アクセサリ")を使うとモバイルバッテリ（USB-A の口がついてること）に接続して充電することが出来る。
 こんな感じ。
 
 {{< fig-img src="./53920400824_31c56fcbdc_e.jpg" title="パワーマウント経由でモバイルバッテリと接続（仮） | Flickr" link="https://www.flickr.com/photos/spiegel/53920400824/" >}}
