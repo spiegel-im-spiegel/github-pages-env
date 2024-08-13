@@ -101,15 +101,19 @@ Garmin Edge では [Strava] と [Garmin Connect] を連携させて「セグメ�
 
 {{< fig-img src="./53920400824_31c56fcbdc_e.jpg" title="パワーマウント経由でモバイルバッテリと接続（仮） | Flickr" link="https://www.flickr.com/photos/spiegel/53920400824/" >}}
 
-ちょうど手元にコンパクトサイズのモバイルバッテリが余ってたので利用する。
+ちょうど手元にコンパクトサイズのモバイルバッテリが余ってた[^ps1] ので利用する。
 モバイルバッテリはフレームバッグに格納して，バッグのケーブル穴からケーブルを通せば配線がスッキリする。
 
+[^ps1]: 今のスマホが無線給電に対応しているので，無線給電できるモバイルバッテリをメインに使っている。手元にあるのは販売終了していて[新版](https://www.amazon.co.jp/dp/B0C5HLDYSM?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon | モバイルバッテリー 軽量 小型 薄型 【業界157g超軽量モバイル・バッテリー】10000mah 大容量 22.5W急速充電 タイプC出力 2.4A出力 PD&QC3.0対応 Type-C/USB出力ポート PSE認証済 iPhone/Android各種対応 (ブラック) | モバイルバッテリー 通販")が出ているみたい。
+
 モバイルバッテリを繋いだ状態で近所を走ってみたが [Explore 2][Garmin Edge Explore 2] を使いつつバッテリの充電状態もちゃんと回復していた。
+発熱も大丈夫っぽい。
 これならサイコンのバッテリ状態を気にしなくて済むな。
 よーし，うむうむ，よーし。
 
-ちなみに[拡張バッテリ](https://www.amazon.co.jp/dp/B077CZ31V3?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon | Garmin(ガーミン) Edge1030用拡張バッテリーパック 010-12562-30【GARMIN純正品】 | ガーミン(GARMIN) | サイクルコンピューター・GPS用アクセサリ")も[使える](https://www.riteway-jp.com/itemblog/%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89-44966/2022/11/_kamata "GARMIN EXPLORE2に付属してくるパワーマウントに拡張バッテリーをつけることができるのかどうか。")らしい。
+ちなみに [Garmin 純正の拡張バッテリ](https://www.amazon.co.jp/dp/B077CZ31V3?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon | Garmin(ガーミン) Edge1030用拡張バッテリーパック 010-12562-30【GARMIN純正品】 | ガーミン(GARMIN) | サイクルコンピューター・GPS用アクセサリ")を[使う](https://www.riteway-jp.com/itemblog/%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89-44966/2022/11/_kamata "GARMIN EXPLORE2に付属してくるパワーマウントに拡張バッテリーをつけることができるのかどうか。")手もある。
 でも，なんか不格好だな。
+値段高いし。
 私はいいや（笑）
 
 ## 縁結び大橋を渡ってみたい
