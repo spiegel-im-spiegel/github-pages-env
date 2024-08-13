@@ -157,12 +157,17 @@ Garmin Edge では [Strava] と [Garmin Connect] を連携させて「セグメ�
 松江市の東は私の（遊び場としての）テリトリから外れているので知らない場所が多いんだよな。
 [Strava] と [Explore 2][Garmin Edge Explore 2] を組み合わせて，これからも楽しくサイクリングとお散歩カメラを続けよう。
 
+## ブックマーク
+
+- [Strava サブスクリプションに加入した（お散歩カメラ 2024-08-03）]({{< relref "./03-osanpo-camera.md" >}})
+
 [Strava]: https://www.strava.com/ "Strava | アプリで簡単ラン、サイクリング、ハイキング - トレーニングの結果を追跡・シェア"
 [Garmin Edge Explore 2]: https://www.amazon.co.jp/dp/B0BD7FGVR6?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon | GARMIN(ガーミン)Edge Explore 2 Power サイクルコンピューター【日本正規品】 | ガーミン(GARMIN) | サイクルコンピューター"
 [Garmin Connect]: https://connect.garmin.com/ "Garmin Connect"
 [熊野大社]: http://www.kumanotaisha.or.jp/ "出雲國一之宮　熊野大社"
 
 ## 参考
+
 {{% review-paapi "B0BD6SH1LH" %}} <!-- Garmin Edge Explore 2 パワーマウント USB変換ケーブル -->
 {{% review-paapi "B0C5HLDYSM" %}} <!-- モバイルバッテリ（小） -->
 {{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
