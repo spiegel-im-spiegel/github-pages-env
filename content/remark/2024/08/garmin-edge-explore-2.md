@@ -116,10 +116,10 @@ Garmin Edge では [Strava] と [Garmin Connect] を連携させて「セグメ�
 値段高いし。
 私はいいや（笑）
 
-## 縁結び大橋を渡ってみたい
+## 縁結び大橋を渡ってみたい {#big-bridge}
 
 さて，サイコンも新しくなったし，今まで行ったことのない場所へ行ってみよう。
-以前から考えていたが，広島在住の頃にできたという縁結び大橋を自転車で渡れると聞いたので，この機会に渡ってみたい。
+以前から考えていたが，広島在住の頃にできたという[縁結び大橋]を自転車で渡れると聞いたので，この機会に渡ってみたい。
 今回のルートは松江城前を起点としてこんな感じに組んでみた。
 
 {{< fig-img-quote src="./cycling-route.png" title="縁結び大橋を渡りたい" link="https://www.strava.com/routes/3258147846190661044" width="874" >}}
@@ -128,7 +128,7 @@ Garmin Edge では [Strava] と [Garmin Connect] を連携させて「セグメ�
 
 1. 松江城前
 2. くにびき大橋南下
-3. 縁結び大橋北上
+3. [縁結び大橋]北上
 4. 楽山公園
 5. 島大通り
 6. 惣門橋通り
@@ -168,6 +168,7 @@ Garmin Edge では [Strava] と [Garmin Connect] を連携させて「セグメ�
 [Strava]: https://www.strava.com/ "Strava | アプリで簡単ラン、サイクリング、ハイキング - トレーニングの結果を追跡・シェア"
 [Garmin Edge Explore 2]: https://www.amazon.co.jp/dp/B0BD7FGVR6?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon | GARMIN(ガーミン)Edge Explore 2 Power サイクルコンピューター【日本正規品】 | ガーミン(GARMIN) | サイクルコンピューター"
 [Garmin Connect]: https://connect.garmin.com/ "Garmin Connect"
+[縁結び大橋]: https://maps.app.goo.gl/xC1JbXcbhCGofJR36
 [熊野大社]: http://www.kumanotaisha.or.jp/ "出雲國一之宮　熊野大社"
 
 ## 参考
