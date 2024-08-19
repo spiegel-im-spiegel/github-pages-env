@@ -26,7 +26,7 @@ pageType = "photo"
 私には縁がないけど。
 下手の横好きだし（笑） でも，こういうのは参加することに意義があるのですよ。
 
-[最大5点までエントリーできる](https://www.flickr.com/groups/worldphotographyday2024/discuss/72157721921293034/ "Contest FAQs [English] | World Photography Day 2024 Contest | Flickr")ということなので，早速エントリーしてみた。
+[最大5点までエントリーできる](https://www.flickr.com/groups/worldphotographyday2024/discuss/72157721921293034/ "Contest FAQs [English] | World Photography Day 2024 Contest | Flickr")ということなので（締切は 2024-09-08），早速エントリーしてみた。
 
 {{< fig-img src="./53535375537_4fb921f3d2_e.jpg" title="Today's lake Shinji-ko (sunset) | Flickr" link="https://www.flickr.com/photos/spiegel/53535375537/" >}}
 
@@ -49,6 +49,11 @@ Flickr 以外では [World Photography Day] のアカウントが [Bluesky に�
 ハッシュタグ [`#worldphotographyday`](https://bsky.app/hashtag/WorldPhotographyDay) の付いた写真投稿を拾っているようだ。
 折角なので眺めてみるといいだろう。
 {{% emoji "X" %}} (元 Twitter) や Instagram でも同様のハッシュタグで写真を募集しているらしいが，そっちは私は見ないからなぁ（笑）
+
+## ブックマーク
+
+- [Happy World Photography Day! - Flickr Foundation](https://www.flickr.org/happy-world-photography-day/)
+- [Search results for “photographer camera” – Flickr Commons](https://commons.flickr.org/search?query=photographer+camera)
 
 [World Photography Day]: https://www.worldphotographyday.com/ "World Photography Day - World Photography Day - Monday, August 19th, 2024"
 [@worldphotographyday.com on Bluesky]: https://bsky.app/profile/worldphotographyday.com "@worldphotographyday.com on Bluesky"
