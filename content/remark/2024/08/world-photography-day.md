@@ -50,7 +50,10 @@ Flickr 以外では [World Photography Day] のアカウントが [Bluesky に�
 折角なので眺めてみるといいだろう。
 {{% emoji "X" %}} (元 Twitter) や Instagram でも同様のハッシュタグで写真を募集しているらしいが，そっちは私は見ないからなぁ（笑）
 
-
 [World Photography Day]: https://www.worldphotographyday.com/ "World Photography Day - World Photography Day - Monday, August 19th, 2024"
 [@worldphotographyday.com on Bluesky]: https://bsky.app/profile/worldphotographyday.com "@worldphotographyday.com on Bluesky"
-<!-- eof -->
+
+## 参考
+
+{{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
+{{% review-paapi "4309257453" %}} <!-- 天体写真集 KAGAYA 天空の庭 -->
