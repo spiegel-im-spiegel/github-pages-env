@@ -22,6 +22,7 @@ pageType = "text"
 - [Go1.23で導入予定のイテレータを完全理解する✌️](https://zenn.dev/kkkxxx/articles/d9505540581b5d)
 - [Go界隈で巻き起こった go:linkname 騒動について - ANDPAD Tech Blog](https://tech.andpad.co.jp/entry/2024/06/20/140000)
   - [cmd/link: lock down future uses of linkname · Issue #67401 · golang/go · GitHub](https://github.com/golang/go/issues/67401)
+- [Reduce allocations and comparison performance with the new unique package in Go 1.23 - Joseph Woodward | Software Engineer & Go lover based in Somerset, England](https://josephwoodward.co.uk/2024/08/performance-improvements-unique-package-go-1-23)
 - [Range Over Function Types - The Go Programming Language](https://go.dev/blog/range-functions)
 
 ## Go 1.23.0 の導入
