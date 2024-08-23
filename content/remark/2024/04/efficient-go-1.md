@@ -2,7 +2,7 @@
 title = "性能とはなにか【『効率的な Go』読書会 初回】"
 date =  "2024-04-21T13:18:52+09:00"
 description = "『効率的な Go』読書会が始まった"
-image = "/images/attention/kitten.jpg"
+image = "/images/attention/go-logo_blue.png"
 tags = [ "book", "golang", "engineering" ]
 pageType = "text"
 

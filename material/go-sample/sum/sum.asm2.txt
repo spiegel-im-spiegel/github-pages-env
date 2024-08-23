@@ -1,0 +1,1320 @@
+# command-line-arguments
+main.Sum STEXT size=237 args=0x10 locals=0x88 funcid=0x0 align=0x0
+	0x0000 00000 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	TEXT	main.Sum(SB), ABIInternal, $136-16
+	0x0000 00000 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	LEAQ	-8(SP), R12
+	0x0005 00005 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	CMPQ	R12, 16(R14)
+	0x0009 00009 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	PCDATA	$0, $-2
+	0x0009 00009 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	JLS	207
+	0x000f 00015 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	PCDATA	$0, $-1
+	0x000f 00015 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	PUSHQ	BP
+	0x0010 00016 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	MOVQ	SP, BP
+	0x0013 00019 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	ADDQ	$-128, SP
+	0x0017 00023 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	MOVQ	AX, main.fileName+144(FP)
+	0x001f 00031 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	FUNCDATA	$0, gclocals·ZzMiPAiVBg7DJ6dh/CjSag==(SB)
+	0x001f 00031 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	FUNCDATA	$1, gclocals·dGrMWTWIngKGfVYjHi0adA==(SB)
+	0x001f 00031 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	FUNCDATA	$5, main.Sum.arginfo1(SB)
+	0x001f 00031 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	FUNCDATA	$6, main.Sum.argliveinfo(SB)
+	0x001f 00031 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	PCDATA	$3, $1
+	0x001f 00031 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:11)	PCDATA	$1, $1
+	0x001f 00031 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:11)	NOP
+	0x0020 00032 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:11)	CALL	os.ReadFile(SB)
+	0x0025 00037 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:12)	TESTQ	DI, DI
+	0x0028 00040 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:12)	JNE	86
+	0x002a 00042 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:15)	MOVW	$-23102, main..autotmp_19+101(SP)
+	0x0031 00049 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:15)	MOVB	$110, main..autotmp_19+103(SP)
+	0x0036 00054 (<unknown line number>)	NOP
+	0x0036 00054 (/usr/local/go1.23.0/src/bytes/bytes.go:382)	LEAQ	main..autotmp_19+101(SP), DI
+	0x003b 00059 (/usr/local/go1.23.0/src/bytes/bytes.go:382)	MOVL	$3, SI
+	0x0040 00064 (/usr/local/go1.23.0/src/bytes/bytes.go:382)	MOVQ	SI, R8
+	0x0043 00067 (/usr/local/go1.23.0/src/bytes/bytes.go:382)	XORL	R9, R9
+	0x0046 00070 (/usr/local/go1.23.0/src/bytes/bytes.go:382)	MOVQ	$-1, R10
+	0x004d 00077 (/usr/local/go1.23.0/src/bytes/bytes.go:382)	CALL	bytes.genSplit(SB)
+	0x0052 00082 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:15)	XORL	CX, CX
+	0x0054 00084 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:15)	JMP	129
+	0x0056 00086 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:13)	XORL	AX, AX
+	0x0058 00088 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:13)	MOVQ	DI, BX
+	0x005b 00091 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:13)	MOVQ	SI, CX
+	0x005e 00094 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:13)	SUBQ	$-128, SP
+	0x0062 00098 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:13)	POPQ	BP
+	0x0063 00099 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:13)	RET
+	0x0064 00100 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:15)	MOVQ	main..autotmp_48+120(SP), DX
+	0x0069 00105 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:15)	ADDQ	$24, DX
+	0x006d 00109 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:15)	MOVQ	main..autotmp_46+112(SP), BX
+	0x0072 00114 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:15)	DECQ	BX
+	0x0075 00117 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:20)	MOVQ	main..autotmp_47+104(SP), SI
+	0x007a 00122 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:20)	LEAQ	(SI)(AX*1), CX
+	0x007e 00126 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:15)	MOVQ	DX, AX
+	0x0081 00129 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:15)	TESTQ	BX, BX
+	0x0084 00132 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:15)	JLE	194
+	0x0086 00134 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:15)	MOVQ	BX, main..autotmp_46+112(SP)
+	0x008b 00139 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:20)	MOVQ	CX, main..autotmp_47+104(SP)
+	0x0090 00144 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:15)	MOVQ	AX, main..autotmp_48+120(SP)
+	0x0095 00149 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:15)	MOVQ	(AX), BX
+	0x0098 00152 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:15)	MOVQ	8(AX), CX
+	0x009c 00156 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:16)	LEAQ	main..autotmp_25+69(SP), AX
+	0x00a1 00161 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:16)	PCDATA	$1, $2
+	0x00a1 00161 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:16)	CALL	runtime.slicebytetostring(SB)
+	0x00a6 00166 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:16)	MOVL	$10, CX
+	0x00ab 00171 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:16)	MOVL	$64, DI
+	0x00b0 00176 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:16)	CALL	strconv.ParseInt(SB)
+	0x00b5 00181 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:17)	TESTQ	BX, BX
+	0x00b8 00184 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:17)	JEQ	100
+	0x00ba 00186 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:18)	XORL	AX, AX
+	0x00bc 00188 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:18)	SUBQ	$-128, SP
+	0x00c0 00192 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:18)	POPQ	BP
+	0x00c1 00193 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:18)	RET
+	0x00c2 00194 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:22)	MOVQ	CX, AX
+	0x00c5 00197 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:22)	XORL	BX, BX
+	0x00c7 00199 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:22)	XORL	CX, CX
+	0x00c9 00201 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:22)	SUBQ	$-128, SP
+	0x00cd 00205 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:22)	POPQ	BP
+	0x00ce 00206 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:22)	RET
+	0x00cf 00207 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:22)	NOP
+	0x00cf 00207 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	PCDATA	$1, $-1
+	0x00cf 00207 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	PCDATA	$0, $-2
+	0x00cf 00207 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	MOVQ	AX, 8(SP)
+	0x00d4 00212 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	MOVQ	BX, 16(SP)
+	0x00d9 00217 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	CALL	runtime.morestack_noctxt(SB)
+	0x00de 00222 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	PCDATA	$0, $-1
+	0x00de 00222 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	MOVQ	8(SP), AX
+	0x00e3 00227 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	MOVQ	16(SP), BX
+	0x00e8 00232 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:10)	JMP	0
+	0x0000 4c 8d 64 24 f8 4d 3b 66 10 0f 86 c0 00 00 00 55  L.d$.M;f.......U
+	0x0010 48 89 e5 48 83 c4 80 48 89 84 24 90 00 00 00 90  H..H...H..$.....
+	0x0020 e8 00 00 00 00 48 85 ff 75 2c 66 c7 44 24 65 c2  .....H..u,f.D$e.
+	0x0030 a5 c6 44 24 67 6e 48 8d 7c 24 65 be 03 00 00 00  ..D$gnH.|$e.....
+	0x0040 49 89 f0 45 31 c9 49 c7 c2 ff ff ff ff e8 00 00  I..E1.I.........
+	0x0050 00 00 31 c9 eb 2b 31 c0 48 89 fb 48 89 f1 48 83  ..1..+1.H..H..H.
+	0x0060 ec 80 5d c3 48 8b 54 24 78 48 83 c2 18 48 8b 5c  ..].H.T$xH...H.\
+	0x0070 24 70 48 ff cb 48 8b 74 24 68 48 8d 0c 06 48 89  $pH..H.t$hH...H.
+	0x0080 d0 48 85 db 7e 3c 48 89 5c 24 70 48 89 4c 24 68  .H..~<H.\$pH.L$h
+	0x0090 48 89 44 24 78 48 8b 18 48 8b 48 08 48 8d 44 24  H.D$xH..H.H.H.D$
+	0x00a0 45 e8 00 00 00 00 b9 0a 00 00 00 bf 40 00 00 00  E...........@...
+	0x00b0 e8 00 00 00 00 48 85 db 74 aa 31 c0 48 83 ec 80  .....H..t.1.H...
+	0x00c0 5d c3 48 89 c8 31 db 31 c9 48 83 ec 80 5d c3 48  ].H..1.1.H...].H
+	0x00d0 89 44 24 08 48 89 5c 24 10 e8 00 00 00 00 48 8b  .D$.H.\$......H.
+	0x00e0 44 24 08 48 8b 5c 24 10 e9 13 ff ff ff           D$.H.\$......
+	rel 33+4 t=R_CALL os.ReadFile+0
+	rel 78+4 t=R_CALL bytes.genSplit+0
+	rel 162+4 t=R_CALL runtime.slicebytetostring+0
+	rel 177+4 t=R_CALL strconv.ParseInt+0
+	rel 218+4 t=R_CALL runtime.morestack_noctxt+0
+main.main STEXT size=183 args=0x0 locals=0x50 funcid=0x0 align=0x0
+	0x0000 00000 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:25)	TEXT	main.main(SB), ABIInternal, $80-0
+	0x0000 00000 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:25)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:25)	PCDATA	$0, $-2
+	0x0004 00004 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:25)	JLS	173
+	0x000a 00010 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:25)	PCDATA	$0, $-1
+	0x000a 00010 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:25)	PUSHQ	BP
+	0x000b 00011 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:25)	MOVQ	SP, BP
+	0x000e 00014 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:25)	SUBQ	$72, SP
+	0x0012 00018 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:25)	FUNCDATA	$0, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x0012 00018 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:25)	FUNCDATA	$1, gclocals·WzcH5HabKQq0jVF7ifBBfA==(SB)
+	0x0012 00018 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:25)	FUNCDATA	$2, main.main.stkobj(SB)
+	0x0012 00018 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:26)	LEAQ	go:string."numbers.txt"(SB), AX
+	0x0019 00025 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:26)	MOVL	$11, BX
+	0x001e 00030 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:26)	PCDATA	$1, $0
+	0x001e 00030 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:26)	NOP
+	0x0020 00032 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:26)	CALL	main.Sum(SB)
+	0x0025 00037 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:27)	TESTQ	BX, BX
+	0x0028 00040 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:27)	JEQ	107
+	0x002a 00042 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:28)	MOVUPS	X15, main..autotmp_11+56(SP)
+	0x0030 00048 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:28)	JEQ	54
+	0x0032 00050 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:28)	MOVQ	8(BX), BX
+	0x0036 00054 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:28)	MOVQ	BX, main..autotmp_11+56(SP)
+	0x003b 00059 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:28)	MOVQ	CX, main..autotmp_11+64(SP)
+	0x0040 00064 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:28)	MOVQ	os.Stderr(SB), BX
+	0x0047 00071 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:28)	LEAQ	go:itab.*os.File,io.Writer(SB), AX
+	0x004e 00078 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:28)	LEAQ	main..autotmp_11+56(SP), CX
+	0x0053 00083 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:28)	MOVL	$1, DI
+	0x0058 00088 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:28)	MOVQ	DI, SI
+	0x005b 00091 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:28)	NOP
+	0x0060 00096 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:28)	CALL	fmt.Fprintln(SB)
+	0x0065 00101 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:29)	ADDQ	$72, SP
+	0x0069 00105 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:29)	POPQ	BP
+	0x006a 00106 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:29)	RET
+	0x006b 00107 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:31)	MOVUPS	X15, main..autotmp_18+40(SP)
+	0x0071 00113 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:31)	PCDATA	$1, $1
+	0x0071 00113 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:31)	CALL	runtime.convT64(SB)
+	0x0076 00118 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:31)	LEAQ	type:int64(SB), CX
+	0x007d 00125 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:31)	MOVQ	CX, main..autotmp_18+40(SP)
+	0x0082 00130 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:31)	MOVQ	AX, main..autotmp_18+48(SP)
+	0x0087 00135 (/usr/local/go1.23.0/src/fmt/print.go:314)	MOVQ	os.Stdout(SB), BX
+	0x008e 00142 (<unknown line number>)	NOP
+	0x008e 00142 (/usr/local/go1.23.0/src/fmt/print.go:314)	LEAQ	go:itab.*os.File,io.Writer(SB), AX
+	0x0095 00149 (/usr/local/go1.23.0/src/fmt/print.go:314)	LEAQ	main..autotmp_18+40(SP), CX
+	0x009a 00154 (/usr/local/go1.23.0/src/fmt/print.go:314)	MOVL	$1, DI
+	0x009f 00159 (/usr/local/go1.23.0/src/fmt/print.go:314)	MOVQ	DI, SI
+	0x00a2 00162 (/usr/local/go1.23.0/src/fmt/print.go:314)	PCDATA	$1, $0
+	0x00a2 00162 (/usr/local/go1.23.0/src/fmt/print.go:314)	CALL	fmt.Fprintln(SB)
+	0x00a7 00167 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:32)	ADDQ	$72, SP
+	0x00ab 00171 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:32)	POPQ	BP
+	0x00ac 00172 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:32)	RET
+	0x00ad 00173 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:32)	NOP
+	0x00ad 00173 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:25)	PCDATA	$1, $-1
+	0x00ad 00173 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:25)	PCDATA	$0, $-2
+	0x00ad 00173 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:25)	CALL	runtime.morestack_noctxt(SB)
+	0x00b2 00178 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:25)	PCDATA	$0, $-1
+	0x00b2 00178 (/home/spiegel/ws2/docs/repos/github-pages-env/material/go-sample/sum/sum.go:25)	JMP	0
+	0x0000 49 3b 66 10 0f 86 a3 00 00 00 55 48 89 e5 48 83  I;f.......UH..H.
+	0x0010 ec 48 48 8d 05 00 00 00 00 bb 0b 00 00 00 66 90  .HH...........f.
+	0x0020 e8 00 00 00 00 48 85 db 74 41 44 0f 11 7c 24 38  .....H..tAD..|$8
+	0x0030 74 04 48 8b 5b 08 48 89 5c 24 38 48 89 4c 24 40  t.H.[.H.\$8H.L$@
+	0x0040 48 8b 1d 00 00 00 00 48 8d 05 00 00 00 00 48 8d  H......H......H.
+	0x0050 4c 24 38 bf 01 00 00 00 48 89 fe 0f 1f 44 00 00  L$8.....H....D..
+	0x0060 e8 00 00 00 00 48 83 c4 48 5d c3 44 0f 11 7c 24  .....H..H].D..|$
+	0x0070 28 e8 00 00 00 00 48 8d 0d 00 00 00 00 48 89 4c  (.....H......H.L
+	0x0080 24 28 48 89 44 24 30 48 8b 1d 00 00 00 00 48 8d  $(H.D$0H......H.
+	0x0090 05 00 00 00 00 48 8d 4c 24 28 bf 01 00 00 00 48  .....H.L$(.....H
+	0x00a0 89 fe e8 00 00 00 00 48 83 c4 48 5d c3 e8 00 00  .......H..H]....
+	0x00b0 00 00 e9 49 ff ff ff                             ...I...
+	rel 3+0 t=R_USEIFACE type:*os.File+0
+	rel 3+0 t=R_USEIFACE type:int64+0
+	rel 3+0 t=R_USEIFACE type:*os.File+0
+	rel 21+4 t=R_PCREL go:string."numbers.txt"+0
+	rel 33+4 t=R_CALL main.Sum+0
+	rel 67+4 t=R_PCREL os.Stderr+0
+	rel 74+4 t=R_PCREL go:itab.*os.File,io.Writer+0
+	rel 97+4 t=R_CALL fmt.Fprintln+0
+	rel 114+4 t=R_CALL runtime.convT64+0
+	rel 121+4 t=R_PCREL type:int64+0
+	rel 138+4 t=R_PCREL os.Stdout+0
+	rel 145+4 t=R_PCREL go:itab.*os.File,io.Writer+0
+	rel 163+4 t=R_CALL fmt.Fprintln+0
+	rel 174+4 t=R_CALL runtime.morestack_noctxt+0
+sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).CompareAndSwap STEXT dupok size=80 args=0x20 locals=0x20 funcid=0x0 align=0x0
+	0x0000 00000 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	TEXT	sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).CompareAndSwap(SB), DUPOK|ABIInternal, $32-32
+	0x0000 00000 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	PCDATA	$0, $-2
+	0x0004 00004 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	JLS	33
+	0x0006 00006 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	PCDATA	$0, $-1
+	0x0006 00006 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	PUSHQ	BP
+	0x0007 00007 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	MOVQ	SP, BP
+	0x000a 00010 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	SUBQ	$24, SP
+	0x000e 00014 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	FUNCDATA	$0, gclocals·fMHNSeaAbfhdVgTH8r09kw==(SB)
+	0x000e 00014 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x000e 00014 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	FUNCDATA	$5, sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).CompareAndSwap.arginfo1(SB)
+	0x000e 00014 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	FUNCDATA	$6, sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).CompareAndSwap.argliveinfo(SB)
+	0x000e 00014 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	PCDATA	$3, $1
+	0x000e 00014 (/usr/local/go1.23.0/src/sync/atomic/type.go:64)	TESTB	AL, (AX)
+	0x0010 00016 (/usr/local/go1.23.0/src/sync/atomic/type.go:64)	MOVQ	CX, BX
+	0x0013 00019 (/usr/local/go1.23.0/src/sync/atomic/type.go:64)	MOVQ	DI, CX
+	0x0016 00022 (/usr/local/go1.23.0/src/sync/atomic/type.go:64)	PCDATA	$1, $1
+	0x0016 00022 (/usr/local/go1.23.0/src/sync/atomic/type.go:64)	CALL	sync/atomic.CompareAndSwapPointer(SB)
+	0x001b 00027 (/usr/local/go1.23.0/src/sync/atomic/type.go:64)	ADDQ	$24, SP
+	0x001f 00031 (/usr/local/go1.23.0/src/sync/atomic/type.go:64)	POPQ	BP
+	0x0020 00032 (/usr/local/go1.23.0/src/sync/atomic/type.go:64)	RET
+	0x0021 00033 (/usr/local/go1.23.0/src/sync/atomic/type.go:64)	NOP
+	0x0021 00033 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	PCDATA	$1, $-1
+	0x0021 00033 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	PCDATA	$0, $-2
+	0x0021 00033 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	MOVQ	AX, 8(SP)
+	0x0026 00038 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	MOVQ	BX, 16(SP)
+	0x002b 00043 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	MOVQ	CX, 24(SP)
+	0x0030 00048 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	MOVQ	DI, 32(SP)
+	0x0035 00053 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	CALL	runtime.morestack_noctxt(SB)
+	0x003a 00058 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	PCDATA	$0, $-1
+	0x003a 00058 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	MOVQ	8(SP), AX
+	0x003f 00063 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	MOVQ	16(SP), BX
+	0x0044 00068 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	MOVQ	24(SP), CX
+	0x0049 00073 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	MOVQ	32(SP), DI
+	0x004e 00078 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	JMP	0
+	0x0000 49 3b 66 10 76 1b 55 48 89 e5 48 83 ec 18 84 00  I;f.v.UH..H.....
+	0x0010 48 89 cb 48 89 f9 e8 00 00 00 00 48 83 c4 18 5d  H..H.......H...]
+	0x0020 c3 48 89 44 24 08 48 89 5c 24 10 48 89 4c 24 18  .H.D$.H.\$.H.L$.
+	0x0030 48 89 7c 24 20 e8 00 00 00 00 48 8b 44 24 08 48  H.|$ .....H.D$.H
+	0x0040 8b 5c 24 10 48 8b 4c 24 18 48 8b 7c 24 20 eb b0  .\$.H.L$.H.|$ ..
+	rel 23+4 t=R_CALL sync/atomic.CompareAndSwapPointer+0
+	rel 54+4 t=R_CALL runtime.morestack_noctxt+0
+sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).Swap STEXT dupok size=67 args=0x18 locals=0x18 funcid=0x0 align=0x0
+	0x0000 00000 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	TEXT	sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).Swap(SB), DUPOK|ABIInternal, $24-24
+	0x0000 00000 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	PCDATA	$0, $-2
+	0x0004 00004 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	JLS	30
+	0x0006 00006 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	PCDATA	$0, $-1
+	0x0006 00006 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	PUSHQ	BP
+	0x0007 00007 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	MOVQ	SP, BP
+	0x000a 00010 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	SUBQ	$16, SP
+	0x000e 00014 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	FUNCDATA	$0, gclocals·iilYh2zWk/RieCMyRG2Y4w==(SB)
+	0x000e 00014 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x000e 00014 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	FUNCDATA	$5, sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).Swap.arginfo1(SB)
+	0x000e 00014 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	FUNCDATA	$6, sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).Swap.argliveinfo(SB)
+	0x000e 00014 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	PCDATA	$3, $1
+	0x000e 00014 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	TESTB	AL, (AX)
+	0x0010 00016 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	MOVQ	CX, BX
+	0x0013 00019 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	PCDATA	$1, $1
+	0x0013 00019 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	CALL	sync/atomic.SwapPointer(SB)
+	0x0018 00024 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	ADDQ	$16, SP
+	0x001c 00028 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	POPQ	BP
+	0x001d 00029 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	RET
+	0x001e 00030 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	NOP
+	0x001e 00030 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	PCDATA	$1, $-1
+	0x001e 00030 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	PCDATA	$0, $-2
+	0x001e 00030 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	MOVQ	AX, 8(SP)
+	0x0023 00035 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	MOVQ	BX, 16(SP)
+	0x0028 00040 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	MOVQ	CX, 24(SP)
+	0x002d 00045 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	CALL	runtime.morestack_noctxt(SB)
+	0x0032 00050 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	PCDATA	$0, $-1
+	0x0032 00050 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	MOVQ	8(SP), AX
+	0x0037 00055 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	MOVQ	16(SP), BX
+	0x003c 00060 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	MOVQ	24(SP), CX
+	0x0041 00065 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	JMP	0
+	0x0000 49 3b 66 10 76 18 55 48 89 e5 48 83 ec 10 84 00  I;f.v.UH..H.....
+	0x0010 48 89 cb e8 00 00 00 00 48 83 c4 10 5d c3 48 89  H.......H...].H.
+	0x0020 44 24 08 48 89 5c 24 10 48 89 4c 24 18 e8 00 00  D$.H.\$.H.L$....
+	0x0030 00 00 48 8b 44 24 08 48 8b 5c 24 10 48 8b 4c 24  ..H.D$.H.\$.H.L$
+	0x0040 18 eb bd                                         ...
+	rel 20+4 t=R_CALL sync/atomic.SwapPointer+0
+	rel 46+4 t=R_CALL runtime.morestack_noctxt+0
+sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).Store STEXT dupok size=67 args=0x18 locals=0x18 funcid=0x0 align=0x0
+	0x0000 00000 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	TEXT	sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).Store(SB), DUPOK|ABIInternal, $24-24
+	0x0000 00000 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	PCDATA	$0, $-2
+	0x0004 00004 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	JLS	30
+	0x0006 00006 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	PCDATA	$0, $-1
+	0x0006 00006 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	PUSHQ	BP
+	0x0007 00007 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	MOVQ	SP, BP
+	0x000a 00010 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	SUBQ	$16, SP
+	0x000e 00014 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	FUNCDATA	$0, gclocals·iilYh2zWk/RieCMyRG2Y4w==(SB)
+	0x000e 00014 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x000e 00014 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	FUNCDATA	$5, sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).Store.arginfo1(SB)
+	0x000e 00014 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	FUNCDATA	$6, sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).Store.argliveinfo(SB)
+	0x000e 00014 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	PCDATA	$3, $1
+	0x000e 00014 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	TESTB	AL, (AX)
+	0x0010 00016 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	MOVQ	CX, BX
+	0x0013 00019 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	PCDATA	$1, $1
+	0x0013 00019 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	CALL	sync/atomic.StorePointer(SB)
+	0x0018 00024 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	ADDQ	$16, SP
+	0x001c 00028 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	POPQ	BP
+	0x001d 00029 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	RET
+	0x001e 00030 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	NOP
+	0x001e 00030 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	PCDATA	$1, $-1
+	0x001e 00030 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	PCDATA	$0, $-2
+	0x001e 00030 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	MOVQ	AX, 8(SP)
+	0x0023 00035 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	MOVQ	BX, 16(SP)
+	0x0028 00040 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	MOVQ	CX, 24(SP)
+	0x002d 00045 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	CALL	runtime.morestack_noctxt(SB)
+	0x0032 00050 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	PCDATA	$0, $-1
+	0x0032 00050 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	MOVQ	8(SP), AX
+	0x0037 00055 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	MOVQ	16(SP), BX
+	0x003c 00060 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	MOVQ	24(SP), CX
+	0x0041 00065 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	JMP	0
+	0x0000 49 3b 66 10 76 18 55 48 89 e5 48 83 ec 10 84 00  I;f.v.UH..H.....
+	0x0010 48 89 cb e8 00 00 00 00 48 83 c4 10 5d c3 48 89  H.......H...].H.
+	0x0020 44 24 08 48 89 5c 24 10 48 89 4c 24 18 e8 00 00  D$.H.\$.H.L$....
+	0x0030 00 00 48 8b 44 24 08 48 8b 5c 24 10 48 8b 4c 24  ..H.D$.H.\$.H.L$
+	0x0040 18 eb bd                                         ...
+	rel 20+4 t=R_CALL sync/atomic.StorePointer+0
+	rel 46+4 t=R_CALL runtime.morestack_noctxt+0
+sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).Load STEXT dupok nosplit size=4 args=0x10 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	TEXT	sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).Load(SB), DUPOK|NOSPLIT|NOFRAME|ABIInternal, $0-16
+	0x0000 00000 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	FUNCDATA	$0, gclocals·Jog/qYB4a+fiwM7je5AA/g==(SB)
+	0x0000 00000 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x0000 00000 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	FUNCDATA	$5, sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).Load.arginfo1(SB)
+	0x0000 00000 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	FUNCDATA	$6, sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).Load.argliveinfo(SB)
+	0x0000 00000 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	PCDATA	$3, $1
+	0x0000 00000 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	MOVQ	(AX), AX
+	0x0003 00003 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	RET
+	0x0000 48 8b 00 c3                                      H...
+sync/atomic.(*Pointer[os.dirInfo]).CompareAndSwap STEXT dupok size=90 args=0x18 locals=0x20 funcid=0x16 align=0x0
+	0x0000 00000 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	TEXT	sync/atomic.(*Pointer[os.dirInfo]).CompareAndSwap(SB), DUPOK|WRAPPER|ABIInternal, $32-24
+	0x0000 00000 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	PCDATA	$0, $-2
+	0x0004 00004 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	JLS	36
+	0x0006 00006 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	PCDATA	$0, $-1
+	0x0006 00006 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	PUSHQ	BP
+	0x0007 00007 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	MOVQ	SP, BP
+	0x000a 00010 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	SUBQ	$24, SP
+	0x000e 00014 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	MOVQ	32(R14), R12
+	0x0012 00018 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	TESTQ	R12, R12
+	0x0015 00021 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	JNE	73
+	0x0017 00023 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	NOP
+	0x0017 00023 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	FUNCDATA	$0, gclocals·LlfHo70um+DIUn9rjx/QUA==(SB)
+	0x0017 00023 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x0017 00023 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	FUNCDATA	$5, sync/atomic.(*Pointer[os.dirInfo]).CompareAndSwap.arginfo1(SB)
+	0x0017 00023 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	FUNCDATA	$6, sync/atomic.(*Pointer[os.dirInfo]).CompareAndSwap.argliveinfo(SB)
+	0x0017 00023 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	PCDATA	$3, $1
+	0x0017 00023 (/usr/local/go1.23.0/src/sync/atomic/type.go:64)	TESTB	AL, (AX)
+	0x0019 00025 (<unknown line number>)	NOP
+	0x0019 00025 (/usr/local/go1.23.0/src/sync/atomic/type.go:64)	PCDATA	$1, $1
+	0x0019 00025 (/usr/local/go1.23.0/src/sync/atomic/type.go:64)	CALL	sync/atomic.CompareAndSwapPointer(SB)
+	0x001e 00030 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	ADDQ	$24, SP
+	0x0022 00034 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	POPQ	BP
+	0x0023 00035 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	RET
+	0x0024 00036 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	NOP
+	0x0024 00036 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	PCDATA	$1, $-1
+	0x0024 00036 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	PCDATA	$0, $-2
+	0x0024 00036 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	MOVQ	AX, 8(SP)
+	0x0029 00041 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	MOVQ	BX, 16(SP)
+	0x002e 00046 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	MOVQ	CX, 24(SP)
+	0x0033 00051 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	CALL	runtime.morestack_noctxt(SB)
+	0x0038 00056 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	PCDATA	$0, $-1
+	0x0038 00056 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	MOVQ	8(SP), AX
+	0x003d 00061 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	MOVQ	16(SP), BX
+	0x0042 00066 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	MOVQ	24(SP), CX
+	0x0047 00071 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	JMP	0
+	0x0049 00073 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	LEAQ	40(SP), R13
+	0x004e 00078 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	CMPQ	(R12), R13
+	0x0052 00082 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	JNE	23
+	0x0054 00084 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	MOVQ	SP, (R12)
+	0x0058 00088 (/usr/local/go1.23.0/src/sync/atomic/type.go:63)	JMP	23
+	0x0000 49 3b 66 10 76 1e 55 48 89 e5 48 83 ec 18 4d 8b  I;f.v.UH..H...M.
+	0x0010 66 20 4d 85 e4 75 32 84 00 e8 00 00 00 00 48 83  f M..u2.......H.
+	0x0020 c4 18 5d c3 48 89 44 24 08 48 89 5c 24 10 48 89  ..].H.D$.H.\$.H.
+	0x0030 4c 24 18 e8 00 00 00 00 48 8b 44 24 08 48 8b 5c  L$......H.D$.H.\
+	0x0040 24 10 48 8b 4c 24 18 eb b7 4c 8d 6c 24 28 4d 39  $.H.L$...L.l$(M9
+	0x0050 2c 24 75 c3 49 89 24 24 eb bd                    ,$u.I.$$..
+	rel 26+4 t=R_CALL sync/atomic.CompareAndSwapPointer+0
+	rel 52+4 t=R_CALL runtime.morestack_noctxt+0
+sync/atomic.(*Pointer[os.dirInfo]).Swap STEXT dupok size=80 args=0x10 locals=0x18 funcid=0x16 align=0x0
+	0x0000 00000 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	TEXT	sync/atomic.(*Pointer[os.dirInfo]).Swap(SB), DUPOK|WRAPPER|ABIInternal, $24-16
+	0x0000 00000 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	PCDATA	$0, $-2
+	0x0004 00004 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	JLS	36
+	0x0006 00006 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	PCDATA	$0, $-1
+	0x0006 00006 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	PUSHQ	BP
+	0x0007 00007 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	MOVQ	SP, BP
+	0x000a 00010 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	SUBQ	$16, SP
+	0x000e 00014 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	MOVQ	32(R14), R12
+	0x0012 00018 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	TESTQ	R12, R12
+	0x0015 00021 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	JNE	63
+	0x0017 00023 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	NOP
+	0x0017 00023 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	FUNCDATA	$0, gclocals·TjPuuCwdlCpTaRQGRKTrYw==(SB)
+	0x0017 00023 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x0017 00023 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	FUNCDATA	$5, sync/atomic.(*Pointer[os.dirInfo]).Swap.arginfo1(SB)
+	0x0017 00023 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	FUNCDATA	$6, sync/atomic.(*Pointer[os.dirInfo]).Swap.argliveinfo(SB)
+	0x0017 00023 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	PCDATA	$3, $1
+	0x0017 00023 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	TESTB	AL, (AX)
+	0x0019 00025 (<unknown line number>)	NOP
+	0x0019 00025 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	PCDATA	$1, $1
+	0x0019 00025 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	CALL	sync/atomic.SwapPointer(SB)
+	0x001e 00030 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	ADDQ	$16, SP
+	0x0022 00034 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	POPQ	BP
+	0x0023 00035 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	RET
+	0x0024 00036 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	NOP
+	0x0024 00036 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	PCDATA	$1, $-1
+	0x0024 00036 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	PCDATA	$0, $-2
+	0x0024 00036 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	MOVQ	AX, 8(SP)
+	0x0029 00041 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	MOVQ	BX, 16(SP)
+	0x002e 00046 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	CALL	runtime.morestack_noctxt(SB)
+	0x0033 00051 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	PCDATA	$0, $-1
+	0x0033 00051 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	MOVQ	8(SP), AX
+	0x0038 00056 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	MOVQ	16(SP), BX
+	0x003d 00061 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	JMP	0
+	0x003f 00063 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	LEAQ	32(SP), R13
+	0x0044 00068 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	CMPQ	(R12), R13
+	0x0048 00072 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	JNE	23
+	0x004a 00074 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	MOVQ	SP, (R12)
+	0x004e 00078 (/usr/local/go1.23.0/src/sync/atomic/type.go:60)	JMP	23
+	0x0000 49 3b 66 10 76 1e 55 48 89 e5 48 83 ec 10 4d 8b  I;f.v.UH..H...M.
+	0x0010 66 20 4d 85 e4 75 28 84 00 e8 00 00 00 00 48 83  f M..u(.......H.
+	0x0020 c4 10 5d c3 48 89 44 24 08 48 89 5c 24 10 e8 00  ..].H.D$.H.\$...
+	0x0030 00 00 00 48 8b 44 24 08 48 8b 5c 24 10 eb c1 4c  ...H.D$.H.\$...L
+	0x0040 8d 6c 24 20 4d 39 2c 24 75 cd 49 89 24 24 eb c7  .l$ M9,$u.I.$$..
+	rel 26+4 t=R_CALL sync/atomic.SwapPointer+0
+	rel 47+4 t=R_CALL runtime.morestack_noctxt+0
+sync/atomic.(*Pointer[os.dirInfo]).Store STEXT dupok size=80 args=0x10 locals=0x18 funcid=0x16 align=0x0
+	0x0000 00000 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	TEXT	sync/atomic.(*Pointer[os.dirInfo]).Store(SB), DUPOK|WRAPPER|ABIInternal, $24-16
+	0x0000 00000 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	CMPQ	SP, 16(R14)
+	0x0004 00004 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	PCDATA	$0, $-2
+	0x0004 00004 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	JLS	36
+	0x0006 00006 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	PCDATA	$0, $-1
+	0x0006 00006 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	PUSHQ	BP
+	0x0007 00007 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	MOVQ	SP, BP
+	0x000a 00010 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	SUBQ	$16, SP
+	0x000e 00014 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	MOVQ	32(R14), R12
+	0x0012 00018 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	TESTQ	R12, R12
+	0x0015 00021 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	JNE	63
+	0x0017 00023 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	NOP
+	0x0017 00023 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	FUNCDATA	$0, gclocals·TjPuuCwdlCpTaRQGRKTrYw==(SB)
+	0x0017 00023 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x0017 00023 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	FUNCDATA	$5, sync/atomic.(*Pointer[os.dirInfo]).Store.arginfo1(SB)
+	0x0017 00023 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	FUNCDATA	$6, sync/atomic.(*Pointer[os.dirInfo]).Store.argliveinfo(SB)
+	0x0017 00023 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	PCDATA	$3, $1
+	0x0017 00023 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	TESTB	AL, (AX)
+	0x0019 00025 (<unknown line number>)	NOP
+	0x0019 00025 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	PCDATA	$1, $1
+	0x0019 00025 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	CALL	sync/atomic.StorePointer(SB)
+	0x001e 00030 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	ADDQ	$16, SP
+	0x0022 00034 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	POPQ	BP
+	0x0023 00035 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	RET
+	0x0024 00036 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	NOP
+	0x0024 00036 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	PCDATA	$1, $-1
+	0x0024 00036 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	PCDATA	$0, $-2
+	0x0024 00036 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	MOVQ	AX, 8(SP)
+	0x0029 00041 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	MOVQ	BX, 16(SP)
+	0x002e 00046 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	CALL	runtime.morestack_noctxt(SB)
+	0x0033 00051 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	PCDATA	$0, $-1
+	0x0033 00051 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	MOVQ	8(SP), AX
+	0x0038 00056 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	MOVQ	16(SP), BX
+	0x003d 00061 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	JMP	0
+	0x003f 00063 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	LEAQ	32(SP), R13
+	0x0044 00068 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	CMPQ	(R12), R13
+	0x0048 00072 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	JNE	23
+	0x004a 00074 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	MOVQ	SP, (R12)
+	0x004e 00078 (/usr/local/go1.23.0/src/sync/atomic/type.go:57)	JMP	23
+	0x0000 49 3b 66 10 76 1e 55 48 89 e5 48 83 ec 10 4d 8b  I;f.v.UH..H...M.
+	0x0010 66 20 4d 85 e4 75 28 84 00 e8 00 00 00 00 48 83  f M..u(.......H.
+	0x0020 c4 10 5d c3 48 89 44 24 08 48 89 5c 24 10 e8 00  ..].H.D$.H.\$...
+	0x0030 00 00 00 48 8b 44 24 08 48 8b 5c 24 10 eb c1 4c  ...H.D$.H.\$...L
+	0x0040 8d 6c 24 20 4d 39 2c 24 75 cd 49 89 24 24 eb c7  .l$ M9,$u.I.$$..
+	rel 26+4 t=R_CALL sync/atomic.StorePointer+0
+	rel 47+4 t=R_CALL runtime.morestack_noctxt+0
+sync/atomic.(*Pointer[os.dirInfo]).Load STEXT dupok nosplit size=31 args=0x8 locals=0x0 funcid=0x16 align=0x0
+	0x0000 00000 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	TEXT	sync/atomic.(*Pointer[os.dirInfo]).Load(SB), DUPOK|NOSPLIT|WRAPPER|NOFRAME|ABIInternal, $0-8
+	0x0000 00000 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	MOVQ	32(R14), R12
+	0x0004 00004 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	TESTQ	R12, R12
+	0x0007 00007 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	JNE	14
+	0x0009 00009 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	NOP
+	0x0009 00009 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	FUNCDATA	$0, gclocals·wgcWObbY2HYnK2SU/U22lA==(SB)
+	0x0009 00009 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x0009 00009 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	FUNCDATA	$5, sync/atomic.(*Pointer[os.dirInfo]).Load.arginfo1(SB)
+	0x0009 00009 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	FUNCDATA	$6, sync/atomic.(*Pointer[os.dirInfo]).Load.argliveinfo(SB)
+	0x0009 00009 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	PCDATA	$3, $1
+	0x0009 00009 (<unknown line number>)	NOP
+	0x0009 00009 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	XCHGL	AX, AX
+	0x000a 00010 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	MOVQ	(AX), AX
+	0x000d 00013 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	RET
+	0x000e 00014 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	LEAQ	8(SP), R13
+	0x0013 00019 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	CMPQ	(R12), R13
+	0x0017 00023 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	JNE	9
+	0x0019 00025 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	MOVQ	SP, (R12)
+	0x001d 00029 (/usr/local/go1.23.0/src/sync/atomic/type.go:54)	JMP	9
+	0x0000 4d 8b 66 20 4d 85 e4 75 05 90 48 8b 00 c3 4c 8d  M.f M..u..H...L.
+	0x0010 6c 24 08 4d 39 2c 24 75 f0 49 89 24 24 eb ea     l$.M9,$u.I.$$..
+type:.eq.sync/atomic.Pointer[os.dirInfo] STEXT dupok nosplit size=10 args=0x10 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (<autogenerated>:1)	TEXT	type:.eq.sync/atomic.Pointer[os.dirInfo](SB), DUPOK|NOSPLIT|NOFRAME|ABIInternal, $0-16
+	0x0000 00000 (<autogenerated>:1)	FUNCDATA	$0, gclocals·TjPuuCwdlCpTaRQGRKTrYw==(SB)
+	0x0000 00000 (<autogenerated>:1)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x0000 00000 (<autogenerated>:1)	FUNCDATA	$5, type:.eq.sync/atomic.Pointer[os.dirInfo].arginfo1(SB)
+	0x0000 00000 (<autogenerated>:1)	FUNCDATA	$6, type:.eq.sync/atomic.Pointer[os.dirInfo].argliveinfo(SB)
+	0x0000 00000 (<autogenerated>:1)	PCDATA	$3, $1
+	0x0000 00000 (<autogenerated>:1)	MOVQ	(AX), CX
+	0x0003 00003 (<autogenerated>:1)	CMPQ	(BX), CX
+	0x0006 00006 (<autogenerated>:1)	SETEQ	AL
+	0x0009 00009 (<autogenerated>:1)	RET
+	0x0000 48 8b 08 48 39 0b 0f 94 c0 c3                    H..H9.....
+type:.eq.sync/atomic.Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }] STEXT dupok nosplit size=10 args=0x10 locals=0x0 funcid=0x0 align=0x0
+	0x0000 00000 (<autogenerated>:1)	TEXT	type:.eq.sync/atomic.Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }](SB), DUPOK|NOSPLIT|NOFRAME|ABIInternal, $0-16
+	0x0000 00000 (<autogenerated>:1)	FUNCDATA	$0, gclocals·TjPuuCwdlCpTaRQGRKTrYw==(SB)
+	0x0000 00000 (<autogenerated>:1)	FUNCDATA	$1, gclocals·J5F+7Qw7O7ve2QcWC7DpeQ==(SB)
+	0x0000 00000 (<autogenerated>:1)	FUNCDATA	$5, type:.eq.sync/atomic.Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }].arginfo1(SB)
+	0x0000 00000 (<autogenerated>:1)	FUNCDATA	$6, type:.eq.sync/atomic.Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }].argliveinfo(SB)
+	0x0000 00000 (<autogenerated>:1)	PCDATA	$3, $1
+	0x0000 00000 (<autogenerated>:1)	MOVQ	(AX), CX
+	0x0003 00003 (<autogenerated>:1)	CMPQ	(BX), CX
+	0x0006 00006 (<autogenerated>:1)	SETEQ	AL
+	0x0009 00009 (<autogenerated>:1)	RET
+	0x0000 48 8b 08 48 39 0b 0f 94 c0 c3                    H..H9.....
+go:cuinfo.producer.main SDWARFCUINFO dupok size=0
+	0x0000 72 65 67 61 62 69                                regabi
+go:itab.*os.File,io.Writer SRODATA dupok size=32
+	0x0000 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0010 5a 22 ee 60 00 00 00 00 00 00 00 00 00 00 00 00  Z".`............
+	rel 0+8 t=R_ADDR type:io.Writer+0
+	rel 8+8 t=R_ADDR type:*os.File+0
+	rel 24+8 t=RelocType(-32767) os.(*File).Write+0
+sync/atomic..dict.Pointer[os.dirInfo] SRODATA dupok size=128
+	0x0000 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 00 00 00 00 00 00                          ........
+	rel 0+0 t=R_USEIFACE type:*os.dirInfo+0
+	rel 0+0 t=R_USEIFACE type:*sync/atomic.Pointer[os.dirInfo]+0
+	rel 0+0 t=R_USEIFACE type:*os.dirInfo+0
+	rel 0+0 t=R_USEIFACE type:*os.dirInfo+0
+	rel 0+0 t=R_USEIFACE type:*os.dirInfo+0
+	rel 0+0 t=R_USEIFACE type:*os.dirInfo+0
+	rel 0+0 t=R_USEIFACE type:*os.dirInfo+0
+	rel 0+0 t=R_USEIFACE type:unsafe.Pointer+0
+	rel 0+8 t=R_ADDR type:*sync/atomic.Pointer[os.dirInfo]+0
+	rel 0+0 t=R_USEIFACE type:*os.dirInfo+0
+	rel 0+0 t=R_USEIFACE type:unsafe.Pointer+0
+	rel 0+0 t=R_USEIFACE type:*sync/atomic.Pointer[os.dirInfo]+0
+	rel 0+0 t=R_USEIFACE type:*os.dirInfo+0
+	rel 0+0 t=R_USEIFACE type:unsafe.Pointer+0
+	rel 0+0 t=R_USEIFACE type:*sync/atomic.Pointer[os.dirInfo]+0
+	rel 0+0 t=R_USEIFACE type:*os.dirInfo+0
+	rel 0+0 t=R_USEIFACE type:*os.dirInfo+0
+	rel 0+0 t=R_USEIFACE type:*os.dirInfo+0
+	rel 0+0 t=R_USEIFACE type:unsafe.Pointer+0
+	rel 0+0 t=R_USEIFACE type:*sync/atomic.Pointer[os.dirInfo]+0
+	rel 0+0 t=R_USEIFACE type:unsafe.Pointer+0
+	rel 0+0 t=R_USEIFACE type:*os.dirInfo+0
+	rel 8+8 t=R_ADDR type:*os.dirInfo+0
+	rel 16+8 t=R_ADDR type:*os.dirInfo+0
+	rel 24+8 t=R_ADDR type:*sync/atomic.Pointer[os.dirInfo]+0
+	rel 32+8 t=R_ADDR type:*os.dirInfo+0
+	rel 40+8 t=R_ADDR type:*sync/atomic.Pointer[os.dirInfo]+0
+	rel 48+8 t=R_ADDR type:*os.dirInfo+0
+	rel 56+8 t=R_ADDR type:*os.dirInfo+0
+	rel 64+8 t=R_ADDR type:*os.dirInfo+0
+	rel 72+8 t=R_ADDR type:*sync/atomic.Pointer[os.dirInfo]+0
+	rel 80+8 t=R_ADDR type:*os.dirInfo+0
+go:cuinfo.packagename.main SDWARFCUINFO dupok size=0
+	0x0000 6d 61 69 6e                                      main
+go:info.bytes.Split$abstract SDWARFABSFCN dupok size=36
+	0x0000 05 62 79 74 65 73 2e 53 70 6c 69 74 00 01 fe 02  .bytes.Split....
+	0x0010 01 21 73 00 00 00 00 00 00 21 73 65 70 00 00 00  .!s......!sep...
+	0x0020 00 00 00 00                                      ....
+	rel 0+0 t=R_USETYPE type:[][]uint8+0
+	rel 0+0 t=R_USETYPE type:[]uint8+0
+	rel 21+4 t=R_DWARFSECREF go:info.[]uint8+0
+	rel 31+4 t=R_DWARFSECREF go:info.[]uint8+0
+go:info.fmt.Println$abstract SDWARFABSFCN dupok size=44
+	0x0000 05 66 6d 74 2e 50 72 69 6e 74 6c 6e 00 01 b9 02  .fmt.Println....
+	0x0010 01 21 61 00 00 00 00 00 00 21 6e 00 01 00 00 00  .!a......!n.....
+	0x0020 00 21 65 72 72 00 01 00 00 00 00 00              .!err.......
+	rel 0+0 t=R_USETYPE type:[]interface {}+0
+	rel 0+0 t=R_USETYPE type:error+0
+	rel 0+0 t=R_USETYPE type:int+0
+	rel 21+4 t=R_DWARFSECREF go:info.[]interface {}+0
+	rel 29+4 t=R_DWARFSECREF go:info.int+0
+	rel 39+4 t=R_DWARFSECREF go:info.error+0
+go:info.sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).CompareAndSwap$abstract SDWARFABSFCN dupok size=166
+	0x0000 05 73 79 6e 63 2f 61 74 6f 6d 69 63 2e 28 2a 50  .sync/atomic.(*P
+	0x0010 6f 69 6e 74 65 72 5b 67 6f 2e 73 68 61 70 65 2e  ointer[go.shape.
+	0x0020 73 74 72 75 63 74 20 7b 20 6f 73 2e 6d 75 20 73  struct { os.mu s
+	0x0030 79 6e 63 2e 4d 75 74 65 78 3b 20 6f 73 2e 62 75  ync.Mutex; os.bu
+	0x0040 66 20 2a 5b 5d 75 69 6e 74 38 3b 20 6f 73 2e 6e  f *[]uint8; os.n
+	0x0050 62 75 66 20 69 6e 74 3b 20 6f 73 2e 62 75 66 70  buf int; os.bufp
+	0x0060 20 69 6e 74 20 7d 5d 29 2e 43 6f 6d 70 61 72 65   int }]).Compare
+	0x0070 41 6e 64 53 77 61 70 00 01 3f 01 21 78 00 00 00  AndSwap..?.!x...
+	0x0080 00 00 00 21 6f 6c 64 00 00 00 00 00 00 21 6e 65  ...!old......!ne
+	0x0090 77 00 00 00 00 00 00 21 73 77 61 70 70 65 64 00  w......!swapped.
+	0x00a0 01 00 00 00 00 00                                ......
+	rel 127+4 t=R_DWARFSECREF go:info.*sync/atomic.Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]+0
+	rel 137+4 t=R_DWARFSECREF go:info.*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }+0
+	rel 147+4 t=R_DWARFSECREF go:info.*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }+0
+	rel 161+4 t=R_DWARFSECREF go:info.bool+0
+go:info.sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).Swap$abstract SDWARFABSFCN dupok size=142
+	0x0000 05 73 79 6e 63 2f 61 74 6f 6d 69 63 2e 28 2a 50  .sync/atomic.(*P
+	0x0010 6f 69 6e 74 65 72 5b 67 6f 2e 73 68 61 70 65 2e  ointer[go.shape.
+	0x0020 73 74 72 75 63 74 20 7b 20 6f 73 2e 6d 75 20 73  struct { os.mu s
+	0x0030 79 6e 63 2e 4d 75 74 65 78 3b 20 6f 73 2e 62 75  ync.Mutex; os.bu
+	0x0040 66 20 2a 5b 5d 75 69 6e 74 38 3b 20 6f 73 2e 6e  f *[]uint8; os.n
+	0x0050 62 75 66 20 69 6e 74 3b 20 6f 73 2e 62 75 66 70  buf int; os.bufp
+	0x0060 20 69 6e 74 20 7d 5d 29 2e 53 77 61 70 00 01 3c   int }]).Swap..<
+	0x0070 01 21 78 00 00 00 00 00 00 21 6e 65 77 00 00 00  .!x......!new...
+	0x0080 00 00 00 21 6f 6c 64 00 01 00 00 00 00 00        ...!old.......
+	rel 117+4 t=R_DWARFSECREF go:info.*sync/atomic.Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]+0
+	rel 127+4 t=R_DWARFSECREF go:info.*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }+0
+	rel 137+4 t=R_DWARFSECREF go:info.*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }+0
+go:info.sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).Store$abstract SDWARFABSFCN dupok size=133
+	0x0000 05 73 79 6e 63 2f 61 74 6f 6d 69 63 2e 28 2a 50  .sync/atomic.(*P
+	0x0010 6f 69 6e 74 65 72 5b 67 6f 2e 73 68 61 70 65 2e  ointer[go.shape.
+	0x0020 73 74 72 75 63 74 20 7b 20 6f 73 2e 6d 75 20 73  struct { os.mu s
+	0x0030 79 6e 63 2e 4d 75 74 65 78 3b 20 6f 73 2e 62 75  ync.Mutex; os.bu
+	0x0040 66 20 2a 5b 5d 75 69 6e 74 38 3b 20 6f 73 2e 6e  f *[]uint8; os.n
+	0x0050 62 75 66 20 69 6e 74 3b 20 6f 73 2e 62 75 66 70  buf int; os.bufp
+	0x0060 20 69 6e 74 20 7d 5d 29 2e 53 74 6f 72 65 00 01   int }]).Store..
+	0x0070 39 01 21 78 00 00 00 00 00 00 21 76 61 6c 00 00  9.!x......!val..
+	0x0080 00 00 00 00 00                                   .....
+	rel 118+4 t=R_DWARFSECREF go:info.*sync/atomic.Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]+0
+	rel 128+4 t=R_DWARFSECREF go:info.*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }+0
+go:info.sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).Load$abstract SDWARFABSFCN dupok size=122
+	0x0000 05 73 79 6e 63 2f 61 74 6f 6d 69 63 2e 28 2a 50  .sync/atomic.(*P
+	0x0010 6f 69 6e 74 65 72 5b 67 6f 2e 73 68 61 70 65 2e  ointer[go.shape.
+	0x0020 73 74 72 75 63 74 20 7b 20 6f 73 2e 6d 75 20 73  struct { os.mu s
+	0x0030 79 6e 63 2e 4d 75 74 65 78 3b 20 6f 73 2e 62 75  ync.Mutex; os.bu
+	0x0040 66 20 2a 5b 5d 75 69 6e 74 38 3b 20 6f 73 2e 6e  f *[]uint8; os.n
+	0x0050 62 75 66 20 69 6e 74 3b 20 6f 73 2e 62 75 66 70  buf int; os.bufp
+	0x0060 20 69 6e 74 20 7d 5d 29 2e 4c 6f 61 64 00 01 36   int }]).Load..6
+	0x0070 01 21 78 00 00 00 00 00 00 00                    .!x.......
+	rel 117+4 t=R_DWARFSECREF go:info.*sync/atomic.Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]+0
+main..inittask SNOPTRDATA size=8
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+0 t=R_INITORDER bytes..inittask+0
+	rel 0+0 t=R_INITORDER fmt..inittask+0
+	rel 0+0 t=R_INITORDER os..inittask+0
+	rel 0+0 t=R_INITORDER strconv..inittask+0
+runtime.memequal64·f SRODATA dupok size=8
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=R_ADDR runtime.memequal64+0
+runtime.gcbits.0100000000000000 SRODATA dupok size=8
+	0x0000 01 00 00 00 00 00 00 00                          ........
+type:.namedata.*atomic.Pointer[os.dirInfo]. SRODATA dupok size=29
+	0x0000 01 1b 2a 61 74 6f 6d 69 63 2e 50 6f 69 6e 74 65  ..*atomic.Pointe
+	0x0010 72 5b 6f 73 2e 64 69 72 49 6e 66 6f 5d           r[os.dirInfo]
+type:.eqfunc.sync/atomic.Pointer[os.dirInfo] SRODATA dupok size=8
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=R_ADDR type:.eq.sync/atomic.Pointer[os.dirInfo]+0
+runtime.memequal0·f SRODATA dupok size=8
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=R_ADDR runtime.memequal0+0
+type:.namedata.*[0]*os.dirInfo- SRODATA dupok size=17
+	0x0000 00 0f 2a 5b 30 5d 2a 6f 73 2e 64 69 72 49 6e 66  ..*[0]*os.dirInf
+	0x0010 6f                                               o
+type:*[0]*os.dirInfo SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 c6 0a ea a1 08 08 08 36 00 00 00 00 00 00 00 00  .......6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.memequal64·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*[0]*os.dirInfo-+0
+	rel 48+8 t=R_ADDR type:[0]*os.dirInfo+0
+runtime.gcbits. SRODATA dupok size=0
+type:.namedata.*[]*os.dirInfo- SRODATA dupok size=16
+	0x0000 00 0e 2a 5b 5d 2a 6f 73 2e 64 69 72 49 6e 66 6f  ..*[]*os.dirInfo
+type:*[]*os.dirInfo SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 31 df 2b 6e 08 08 08 36 00 00 00 00 00 00 00 00  1.+n...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.memequal64·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*[]*os.dirInfo-+0
+	rel 48+8 t=R_ADDR type:[]*os.dirInfo+0
+type:[]*os.dirInfo SRODATA dupok size=56
+	0x0000 18 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 16 77 13 b1 02 08 08 17 00 00 00 00 00 00 00 00  .w..............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*[]*os.dirInfo-+0
+	rel 44+4 t=RelocType(-32763) type:*[]*os.dirInfo+0
+	rel 48+8 t=R_ADDR type:*os.dirInfo+0
+type:[0]*os.dirInfo SRODATA dupok size=72
+	0x0000 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0010 e5 80 e9 79 0a 08 08 11 00 00 00 00 00 00 00 00  ...y............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.memequal0·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*[0]*os.dirInfo-+0
+	rel 44+4 t=RelocType(-32763) type:*[0]*os.dirInfo+0
+	rel 48+8 t=R_ADDR type:*os.dirInfo+0
+	rel 56+8 t=R_ADDR type:[]*os.dirInfo+0
+type:.importpath.sync/atomic. SRODATA dupok size=13
+	0x0000 00 0b 73 79 6e 63 2f 61 74 6f 6d 69 63           ..sync/atomic
+type:.namedata._- SRODATA dupok size=3
+	0x0000 00 01 5f                                         .._
+type:.namedata.v- SRODATA dupok size=3
+	0x0000 00 01 76                                         ..v
+type:sync/atomic.Pointer[os.dirInfo] SRODATA dupok size=168
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 76 69 31 3d 07 08 08 19 00 00 00 00 00 00 00 00  vi1=............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 03 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00  ................
+	0x0050 00 00 00 00 00 00 00 00 58 00 00 00 00 00 00 00  ........X.......
+	0x0060 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0090 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00a0 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR type:.eqfunc.sync/atomic.Pointer[os.dirInfo]+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*atomic.Pointer[os.dirInfo].+0
+	rel 44+4 t=R_ADDROFF type:*sync/atomic.Pointer[os.dirInfo]+0
+	rel 48+8 t=R_ADDR type:.importpath.sync/atomic.+0
+	rel 56+8 t=R_ADDR type:sync/atomic.Pointer[os.dirInfo]+96
+	rel 80+4 t=R_ADDROFF type:.importpath.sync/atomic.+0
+	rel 96+8 t=R_ADDR type:.namedata._-+0
+	rel 104+8 t=R_ADDR type:[0]*os.dirInfo+0
+	rel 120+8 t=R_ADDR type:.namedata._-+0
+	rel 128+8 t=R_ADDR type:sync/atomic.noCopy+0
+	rel 144+8 t=R_ADDR type:.namedata.v-+0
+	rel 152+8 t=R_ADDR type:unsafe.Pointer+0
+type:.namedata.*func(*atomic.Pointer[os.dirInfo], *os.dirInfo, *os.dirInfo) bool- SRODATA dupok size=67
+	0x0000 00 41 2a 66 75 6e 63 28 2a 61 74 6f 6d 69 63 2e  .A*func(*atomic.
+	0x0010 50 6f 69 6e 74 65 72 5b 6f 73 2e 64 69 72 49 6e  Pointer[os.dirIn
+	0x0020 66 6f 5d 2c 20 2a 6f 73 2e 64 69 72 49 6e 66 6f  fo], *os.dirInfo
+	0x0030 2c 20 2a 6f 73 2e 64 69 72 49 6e 66 6f 29 20 62  , *os.dirInfo) b
+	0x0040 6f 6f 6c                                         ool
+type:*func(*sync/atomic.Pointer[os.dirInfo], *os.dirInfo, *os.dirInfo) bool SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 63 08 c0 ac 08 08 08 36 00 00 00 00 00 00 00 00  c......6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.memequal64·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*func(*atomic.Pointer[os.dirInfo], *os.dirInfo, *os.dirInfo) bool-+0
+	rel 48+8 t=R_ADDR type:func(*sync/atomic.Pointer[os.dirInfo], *os.dirInfo, *os.dirInfo) bool+0
+type:func(*sync/atomic.Pointer[os.dirInfo], *os.dirInfo, *os.dirInfo) bool SRODATA dupok size=88
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 0d 10 62 e1 02 08 08 33 00 00 00 00 00 00 00 00  ..b....3........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 03 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 00 00 00 00 00 00                          ........
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*func(*atomic.Pointer[os.dirInfo], *os.dirInfo, *os.dirInfo) bool-+0
+	rel 44+4 t=RelocType(-32763) type:*func(*sync/atomic.Pointer[os.dirInfo], *os.dirInfo, *os.dirInfo) bool+0
+	rel 56+8 t=R_ADDR type:*sync/atomic.Pointer[os.dirInfo]+0
+	rel 64+8 t=R_ADDR type:*os.dirInfo+0
+	rel 72+8 t=R_ADDR type:*os.dirInfo+0
+	rel 80+8 t=R_ADDR type:bool+0
+type:.namedata.*func(*atomic.Pointer[os.dirInfo]) *os.dirInfo- SRODATA dupok size=48
+	0x0000 00 2e 2a 66 75 6e 63 28 2a 61 74 6f 6d 69 63 2e  ..*func(*atomic.
+	0x0010 50 6f 69 6e 74 65 72 5b 6f 73 2e 64 69 72 49 6e  Pointer[os.dirIn
+	0x0020 66 6f 5d 29 20 2a 6f 73 2e 64 69 72 49 6e 66 6f  fo]) *os.dirInfo
+type:*func(*sync/atomic.Pointer[os.dirInfo]) *os.dirInfo SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 8f 1f c8 72 08 08 08 36 00 00 00 00 00 00 00 00  ...r...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.memequal64·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*func(*atomic.Pointer[os.dirInfo]) *os.dirInfo-+0
+	rel 48+8 t=R_ADDR type:func(*sync/atomic.Pointer[os.dirInfo]) *os.dirInfo+0
+type:func(*sync/atomic.Pointer[os.dirInfo]) *os.dirInfo SRODATA dupok size=72
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 8b 8e aa d0 02 08 08 33 00 00 00 00 00 00 00 00  .......3........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 01 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00                          ........
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*func(*atomic.Pointer[os.dirInfo]) *os.dirInfo-+0
+	rel 44+4 t=RelocType(-32763) type:*func(*sync/atomic.Pointer[os.dirInfo]) *os.dirInfo+0
+	rel 56+8 t=R_ADDR type:*sync/atomic.Pointer[os.dirInfo]+0
+	rel 64+8 t=R_ADDR type:*os.dirInfo+0
+type:.namedata.*func(*atomic.Pointer[os.dirInfo], *os.dirInfo)- SRODATA dupok size=49
+	0x0000 00 2f 2a 66 75 6e 63 28 2a 61 74 6f 6d 69 63 2e  ./*func(*atomic.
+	0x0010 50 6f 69 6e 74 65 72 5b 6f 73 2e 64 69 72 49 6e  Pointer[os.dirIn
+	0x0020 66 6f 5d 2c 20 2a 6f 73 2e 64 69 72 49 6e 66 6f  fo], *os.dirInfo
+	0x0030 29                                               )
+type:*func(*sync/atomic.Pointer[os.dirInfo], *os.dirInfo) SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 24 28 03 fb 08 08 08 36 00 00 00 00 00 00 00 00  $(.....6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.memequal64·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*func(*atomic.Pointer[os.dirInfo], *os.dirInfo)-+0
+	rel 48+8 t=R_ADDR type:func(*sync/atomic.Pointer[os.dirInfo], *os.dirInfo)+0
+type:func(*sync/atomic.Pointer[os.dirInfo], *os.dirInfo) SRODATA dupok size=72
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 15 bf 46 19 02 08 08 33 00 00 00 00 00 00 00 00  ..F....3........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00                          ........
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*func(*atomic.Pointer[os.dirInfo], *os.dirInfo)-+0
+	rel 44+4 t=RelocType(-32763) type:*func(*sync/atomic.Pointer[os.dirInfo], *os.dirInfo)+0
+	rel 56+8 t=R_ADDR type:*sync/atomic.Pointer[os.dirInfo]+0
+	rel 64+8 t=R_ADDR type:*os.dirInfo+0
+type:.namedata.*func(*atomic.Pointer[os.dirInfo], *os.dirInfo) *os.dirInfo- SRODATA dupok size=61
+	0x0000 00 3b 2a 66 75 6e 63 28 2a 61 74 6f 6d 69 63 2e  .;*func(*atomic.
+	0x0010 50 6f 69 6e 74 65 72 5b 6f 73 2e 64 69 72 49 6e  Pointer[os.dirIn
+	0x0020 66 6f 5d 2c 20 2a 6f 73 2e 64 69 72 49 6e 66 6f  fo], *os.dirInfo
+	0x0030 29 20 2a 6f 73 2e 64 69 72 49 6e 66 6f           ) *os.dirInfo
+type:*func(*sync/atomic.Pointer[os.dirInfo], *os.dirInfo) *os.dirInfo SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 85 c7 60 3d 08 08 08 36 00 00 00 00 00 00 00 00  ..`=...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.memequal64·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*func(*atomic.Pointer[os.dirInfo], *os.dirInfo) *os.dirInfo-+0
+	rel 48+8 t=R_ADDR type:func(*sync/atomic.Pointer[os.dirInfo], *os.dirInfo) *os.dirInfo+0
+type:func(*sync/atomic.Pointer[os.dirInfo], *os.dirInfo) *os.dirInfo SRODATA dupok size=80
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 bc a5 28 74 02 08 08 33 00 00 00 00 00 00 00 00  ..(t...3........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 02 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*func(*atomic.Pointer[os.dirInfo], *os.dirInfo) *os.dirInfo-+0
+	rel 44+4 t=RelocType(-32763) type:*func(*sync/atomic.Pointer[os.dirInfo], *os.dirInfo) *os.dirInfo+0
+	rel 56+8 t=R_ADDR type:*sync/atomic.Pointer[os.dirInfo]+0
+	rel 64+8 t=R_ADDR type:*os.dirInfo+0
+	rel 72+8 t=R_ADDR type:*os.dirInfo+0
+type:.namedata.CompareAndSwap. SRODATA dupok size=16
+	0x0000 01 0e 43 6f 6d 70 61 72 65 41 6e 64 53 77 61 70  ..CompareAndSwap
+type:.namedata.*func(*os.dirInfo, *os.dirInfo) bool- SRODATA dupok size=38
+	0x0000 00 24 2a 66 75 6e 63 28 2a 6f 73 2e 64 69 72 49  .$*func(*os.dirI
+	0x0010 6e 66 6f 2c 20 2a 6f 73 2e 64 69 72 49 6e 66 6f  nfo, *os.dirInfo
+	0x0020 29 20 62 6f 6f 6c                                ) bool
+type:*func(*os.dirInfo, *os.dirInfo) bool SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 6e 1c 7b 9d 08 08 08 36 00 00 00 00 00 00 00 00  n.{....6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.memequal64·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*func(*os.dirInfo, *os.dirInfo) bool-+0
+	rel 48+8 t=R_ADDR type:func(*os.dirInfo, *os.dirInfo) bool+0
+type:func(*os.dirInfo, *os.dirInfo) bool SRODATA dupok size=80
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 34 6e 96 f6 02 08 08 33 00 00 00 00 00 00 00 00  4n.....3........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 02 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*func(*os.dirInfo, *os.dirInfo) bool-+0
+	rel 44+4 t=RelocType(-32763) type:*func(*os.dirInfo, *os.dirInfo) bool+0
+	rel 56+8 t=R_ADDR type:*os.dirInfo+0
+	rel 64+8 t=R_ADDR type:*os.dirInfo+0
+	rel 72+8 t=R_ADDR type:bool+0
+type:.namedata.Load. SRODATA dupok size=6
+	0x0000 01 04 4c 6f 61 64                                ..Load
+type:.namedata.*func() *os.dirInfo- SRODATA dupok size=21
+	0x0000 00 13 2a 66 75 6e 63 28 29 20 2a 6f 73 2e 64 69  ..*func() *os.di
+	0x0010 72 49 6e 66 6f                                   rInfo
+type:*func() *os.dirInfo SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 15 d3 0f 9f 08 08 08 36 00 00 00 00 00 00 00 00  .......6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.memequal64·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*func() *os.dirInfo-+0
+	rel 48+8 t=R_ADDR type:func() *os.dirInfo+0
+type:func() *os.dirInfo SRODATA dupok size=64
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 77 0c bb 3a 02 08 08 33 00 00 00 00 00 00 00 00  w..:...3........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*func() *os.dirInfo-+0
+	rel 44+4 t=RelocType(-32763) type:*func() *os.dirInfo+0
+	rel 56+8 t=R_ADDR type:*os.dirInfo+0
+type:.namedata.Store. SRODATA dupok size=7
+	0x0000 01 05 53 74 6f 72 65                             ..Store
+type:.namedata.*func(*os.dirInfo)- SRODATA dupok size=20
+	0x0000 00 12 2a 66 75 6e 63 28 2a 6f 73 2e 64 69 72 49  ..*func(*os.dirI
+	0x0010 6e 66 6f 29                                      nfo)
+type:*func(*os.dirInfo) SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 0f 30 20 57 08 08 08 36 00 00 00 00 00 00 00 00  .0 W...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.memequal64·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*func(*os.dirInfo)-+0
+	rel 48+8 t=R_ADDR type:func(*os.dirInfo)+0
+type:func(*os.dirInfo) SRODATA dupok size=64
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 53 df 95 59 02 08 08 33 00 00 00 00 00 00 00 00  S..Y...3........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*func(*os.dirInfo)-+0
+	rel 44+4 t=RelocType(-32763) type:*func(*os.dirInfo)+0
+	rel 56+8 t=R_ADDR type:*os.dirInfo+0
+type:.namedata.Swap. SRODATA dupok size=6
+	0x0000 01 04 53 77 61 70                                ..Swap
+type:.namedata.*func(*os.dirInfo) *os.dirInfo- SRODATA dupok size=32
+	0x0000 00 1e 2a 66 75 6e 63 28 2a 6f 73 2e 64 69 72 49  ..*func(*os.dirI
+	0x0010 6e 66 6f 29 20 2a 6f 73 2e 64 69 72 49 6e 66 6f  nfo) *os.dirInfo
+type:*func(*os.dirInfo) *os.dirInfo SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 9c 4f e0 c8 08 08 08 36 00 00 00 00 00 00 00 00  .O.....6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.memequal64·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*func(*os.dirInfo) *os.dirInfo-+0
+	rel 48+8 t=R_ADDR type:func(*os.dirInfo) *os.dirInfo+0
+type:func(*os.dirInfo) *os.dirInfo SRODATA dupok size=72
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 7a 84 08 95 02 08 08 33 00 00 00 00 00 00 00 00  z......3........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 01 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00                          ........
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*func(*os.dirInfo) *os.dirInfo-+0
+	rel 44+4 t=RelocType(-32763) type:*func(*os.dirInfo) *os.dirInfo+0
+	rel 56+8 t=R_ADDR type:*os.dirInfo+0
+	rel 64+8 t=R_ADDR type:*os.dirInfo+0
+type:*sync/atomic.Pointer[os.dirInfo] SRODATA dupok size=136
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 ae 00 26 16 09 08 08 36 00 00 00 00 00 00 00 00  ..&....6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 04 00 04 00  ................
+	0x0040 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0080 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.memequal64·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*atomic.Pointer[os.dirInfo].+0
+	rel 48+8 t=R_ADDR type:sync/atomic.Pointer[os.dirInfo]+0
+	rel 56+4 t=R_ADDROFF type:.importpath.sync/atomic.+0
+	rel 72+4 t=R_ADDROFF type:.namedata.CompareAndSwap.+0
+	rel 76+4 t=R_METHODOFF type:func(*os.dirInfo, *os.dirInfo) bool+0
+	rel 80+4 t=R_METHODOFF sync/atomic.(*Pointer[os.dirInfo]).CompareAndSwap+0
+	rel 84+4 t=R_METHODOFF sync/atomic.(*Pointer[os.dirInfo]).CompareAndSwap+0
+	rel 88+4 t=R_ADDROFF type:.namedata.Load.+0
+	rel 92+4 t=R_METHODOFF type:func() *os.dirInfo+0
+	rel 96+4 t=R_METHODOFF sync/atomic.(*Pointer[os.dirInfo]).Load+0
+	rel 100+4 t=R_METHODOFF sync/atomic.(*Pointer[os.dirInfo]).Load+0
+	rel 104+4 t=R_ADDROFF type:.namedata.Store.+0
+	rel 108+4 t=R_METHODOFF type:func(*os.dirInfo)+0
+	rel 112+4 t=R_METHODOFF sync/atomic.(*Pointer[os.dirInfo]).Store+0
+	rel 116+4 t=R_METHODOFF sync/atomic.(*Pointer[os.dirInfo]).Store+0
+	rel 120+4 t=R_ADDROFF type:.namedata.Swap.+0
+	rel 124+4 t=R_METHODOFF type:func(*os.dirInfo) *os.dirInfo+0
+	rel 128+4 t=R_METHODOFF sync/atomic.(*Pointer[os.dirInfo]).Swap+0
+	rel 132+4 t=R_METHODOFF sync/atomic.(*Pointer[os.dirInfo]).Swap+0
+go:string."¥n" SRODATA dupok size=3
+	0x0000 c2 a5 6e                                         ..n
+go:string."numbers.txt" SRODATA dupok size=11
+	0x0000 6e 75 6d 62 65 72 73 2e 74 78 74                 numbers.txt
+type:.namedata.*[16]uintptr- SRODATA dupok size=14
+	0x0000 00 0c 2a 5b 31 36 5d 75 69 6e 74 70 74 72        ..*[16]uintptr
+type:.eqfunc128 SRODATA dupok size=16
+	0x0000 00 00 00 00 00 00 00 00 80 00 00 00 00 00 00 00  ................
+	rel 0+8 t=R_ADDR runtime.memequal_varlen+0
+type:[16]uintptr SRODATA dupok size=72
+	0x0000 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0010 96 22 e0 da 0a 08 08 11 00 00 00 00 00 00 00 00  ."..............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 10 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR type:.eqfunc128+0
+	rel 32+8 t=R_ADDR runtime.gcbits.+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*[16]uintptr-+0
+	rel 44+4 t=RelocType(-32763) type:*[16]uintptr+0
+	rel 48+8 t=R_ADDR type:uintptr+0
+	rel 56+8 t=R_ADDR type:[]uintptr+0
+type:*[16]uintptr SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 1a d0 92 77 08 08 08 36 00 00 00 00 00 00 00 00  ...w...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.memequal64·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*[16]uintptr-+0
+	rel 48+8 t=R_ADDR type:[16]uintptr+0
+type:.namedata.*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }- SRODATA dupok size=82
+	0x0000 00 50 2a 67 6f 2e 73 68 61 70 65 2e 73 74 72 75  .P*go.shape.stru
+	0x0010 63 74 20 7b 20 6f 73 2e 6d 75 20 73 79 6e 63 2e  ct { os.mu sync.
+	0x0020 4d 75 74 65 78 3b 20 6f 73 2e 62 75 66 20 2a 5b  Mutex; os.buf *[
+	0x0030 5d 75 69 6e 74 38 3b 20 6f 73 2e 6e 62 75 66 20  ]uint8; os.nbuf 
+	0x0040 69 6e 74 3b 20 6f 73 2e 62 75 66 70 20 69 6e 74  int; os.bufp int
+	0x0050 20 7d                                             }
+type:.eqfunc32 SRODATA dupok size=16
+	0x0000 00 00 00 00 00 00 00 00 20 00 00 00 00 00 00 00  ........ .......
+	rel 0+8 t=R_ADDR runtime.memequal_varlen+0
+runtime.gcbits.0200000000000000 SRODATA dupok size=8
+	0x0000 02 00 00 00 00 00 00 00                          ........
+type:.namedata.*[]uint8- SRODATA dupok size=10
+	0x0000 00 08 2a 5b 5d 75 69 6e 74 38                    ..*[]uint8
+type:*[]uint8 SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 1f bb cf 43 08 08 08 36 00 00 00 00 00 00 00 00  ...C...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.memequal64·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*[]uint8-+0
+	rel 48+8 t=R_ADDR type:[]uint8+0
+type:.importpath.os. SRODATA dupok size=4
+	0x0000 00 02 6f 73                                      ..os
+type:.namedata.mu- SRODATA dupok size=4
+	0x0000 00 02 6d 75                                      ..mu
+type:.namedata.buf- SRODATA dupok size=5
+	0x0000 00 03 62 75 66                                   ..buf
+type:.namedata.nbuf- SRODATA dupok size=6
+	0x0000 00 04 6e 62 75 66                                ..nbuf
+type:.namedata.bufp- SRODATA dupok size=6
+	0x0000 00 04 62 75 66 70                                ..bufp
+type:.importpath.go.shape. SRODATA dupok size=10
+	0x0000 00 08 67 6f 2e 73 68 61 70 65                    ..go.shape
+type:go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int } SRODATA dupok size=192
+	0x0000 20 00 00 00 00 00 00 00 10 00 00 00 00 00 00 00   ...............
+	0x0010 1a 0a 0b b1 0f 08 08 19 00 00 00 00 00 00 00 00  ................
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 04 00 00 00 00 00 00 00 04 00 00 00 00 00 00 00  ................
+	0x0050 00 00 00 00 00 00 00 00 70 00 00 00 00 00 00 00  ........p.......
+	0x0060 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0080 00 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0090 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00a0 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00b0 00 00 00 00 00 00 00 00 18 00 00 00 00 00 00 00  ................
+	rel 24+8 t=R_ADDR type:.eqfunc32+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0200000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }-+0
+	rel 44+4 t=R_ADDROFF type:*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }+0
+	rel 48+8 t=R_ADDR type:.importpath.os.+0
+	rel 56+8 t=R_ADDR type:go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }+96
+	rel 80+4 t=R_ADDROFF type:.importpath.go.shape.+0
+	rel 96+8 t=R_ADDR type:.namedata.mu-+0
+	rel 104+8 t=R_ADDR type:sync.Mutex+0
+	rel 120+8 t=R_ADDR type:.namedata.buf-+0
+	rel 128+8 t=R_ADDR type:*[]uint8+0
+	rel 144+8 t=R_ADDR type:.namedata.nbuf-+0
+	rel 152+8 t=R_ADDR type:int+0
+	rel 168+8 t=R_ADDR type:.namedata.bufp-+0
+	rel 176+8 t=R_ADDR type:int+0
+type:*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int } SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 98 af e8 0f 08 08 08 36 00 00 00 00 00 00 00 00  .......6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.memequal64·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }-+0
+	rel 48+8 t=R_ADDR type:go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }+0
+type:.namedata.*atomic.Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]. SRODATA dupok size=98
+	0x0000 01 60 2a 61 74 6f 6d 69 63 2e 50 6f 69 6e 74 65  .`*atomic.Pointe
+	0x0010 72 5b 67 6f 2e 73 68 61 70 65 2e 73 74 72 75 63  r[go.shape.struc
+	0x0020 74 20 7b 20 6f 73 2e 6d 75 20 73 79 6e 63 2e 4d  t { os.mu sync.M
+	0x0030 75 74 65 78 3b 20 6f 73 2e 62 75 66 20 2a 5b 5d  utex; os.buf *[]
+	0x0040 75 69 6e 74 38 3b 20 6f 73 2e 6e 62 75 66 20 69  uint8; os.nbuf i
+	0x0050 6e 74 3b 20 6f 73 2e 62 75 66 70 20 69 6e 74 20  nt; os.bufp int 
+	0x0060 7d 5d                                            }]
+type:.eqfunc.sync/atomic.Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }] SRODATA dupok size=8
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=R_ADDR type:.eq.sync/atomic.Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]+0
+type:.namedata.*[0]*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }- SRODATA dupok size=86
+	0x0000 00 54 2a 5b 30 5d 2a 67 6f 2e 73 68 61 70 65 2e  .T*[0]*go.shape.
+	0x0010 73 74 72 75 63 74 20 7b 20 6f 73 2e 6d 75 20 73  struct { os.mu s
+	0x0020 79 6e 63 2e 4d 75 74 65 78 3b 20 6f 73 2e 62 75  ync.Mutex; os.bu
+	0x0030 66 20 2a 5b 5d 75 69 6e 74 38 3b 20 6f 73 2e 6e  f *[]uint8; os.n
+	0x0040 62 75 66 20 69 6e 74 3b 20 6f 73 2e 62 75 66 70  buf int; os.bufp
+	0x0050 20 69 6e 74 20 7d                                 int }
+type:*[0]*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int } SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 d0 69 07 e6 08 08 08 36 00 00 00 00 00 00 00 00  .i.....6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.memequal64·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*[0]*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }-+0
+	rel 48+8 t=R_ADDR type:[0]*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }+0
+type:.namedata.*[]*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }- SRODATA dupok size=85
+	0x0000 00 53 2a 5b 5d 2a 67 6f 2e 73 68 61 70 65 2e 73  .S*[]*go.shape.s
+	0x0010 74 72 75 63 74 20 7b 20 6f 73 2e 6d 75 20 73 79  truct { os.mu sy
+	0x0020 6e 63 2e 4d 75 74 65 78 3b 20 6f 73 2e 62 75 66  nc.Mutex; os.buf
+	0x0030 20 2a 5b 5d 75 69 6e 74 38 3b 20 6f 73 2e 6e 62   *[]uint8; os.nb
+	0x0040 75 66 20 69 6e 74 3b 20 6f 73 2e 62 75 66 70 20  uf int; os.bufp 
+	0x0050 69 6e 74 20 7d                                   int }
+type:*[]*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int } SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 b8 cb 7f c2 08 08 08 36 00 00 00 00 00 00 00 00  .......6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.memequal64·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*[]*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }-+0
+	rel 48+8 t=R_ADDR type:[]*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }+0
+type:[]*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int } SRODATA dupok size=56
+	0x0000 18 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 44 f6 c6 e9 02 08 08 17 00 00 00 00 00 00 00 00  D...............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*[]*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }-+0
+	rel 44+4 t=RelocType(-32763) type:*[]*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }+0
+	rel 48+8 t=R_ADDR type:*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }+0
+type:[0]*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int } SRODATA dupok size=72
+	0x0000 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0010 64 87 a1 14 0a 08 08 11 00 00 00 00 00 00 00 00  d...............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.memequal0·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*[0]*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }-+0
+	rel 44+4 t=RelocType(-32763) type:*[0]*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }+0
+	rel 48+8 t=R_ADDR type:*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }+0
+	rel 56+8 t=R_ADDR type:[]*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }+0
+type:sync/atomic.Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }] SRODATA dupok size=168
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 54 3c 58 36 07 08 08 19 00 00 00 00 00 00 00 00  T<X6............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 03 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00  ................
+	0x0050 00 00 00 00 00 00 00 00 58 00 00 00 00 00 00 00  ........X.......
+	0x0060 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0090 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00a0 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR type:.eqfunc.sync/atomic.Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*atomic.Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }].+0
+	rel 44+4 t=R_ADDROFF type:*sync/atomic.Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]+0
+	rel 48+8 t=R_ADDR type:.importpath.sync/atomic.+0
+	rel 56+8 t=R_ADDR type:sync/atomic.Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]+96
+	rel 80+4 t=R_ADDROFF type:.importpath.sync/atomic.+0
+	rel 96+8 t=R_ADDR type:.namedata._-+0
+	rel 104+8 t=R_ADDR type:[0]*go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }+0
+	rel 120+8 t=R_ADDR type:.namedata._-+0
+	rel 128+8 t=R_ADDR type:sync/atomic.noCopy+0
+	rel 144+8 t=R_ADDR type:.namedata.v-+0
+	rel 152+8 t=R_ADDR type:unsafe.Pointer+0
+type:*sync/atomic.Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }] SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 9d 7f 5c 7a 08 08 08 36 00 00 00 00 00 00 00 00  ..\z...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.memequal64·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*atomic.Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }].+0
+	rel 48+8 t=R_ADDR type:sync/atomic.Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]+0
+runtime.nilinterequal·f SRODATA dupok size=8
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=R_ADDR runtime.nilinterequal+0
+type:.namedata.*[1]interface {}- SRODATA dupok size=18
+	0x0000 00 10 2a 5b 31 5d 69 6e 74 65 72 66 61 63 65 20  ..*[1]interface 
+	0x0010 7b 7d                                            {}
+type:*[1]interface {} SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 a8 0e 57 36 08 08 08 36 00 00 00 00 00 00 00 00  ..W6...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.memequal64·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*[1]interface {}-+0
+	rel 48+8 t=R_ADDR type:[1]interface {}+0
+type:[1]interface {} SRODATA dupok size=72
+	0x0000 10 00 00 00 00 00 00 00 10 00 00 00 00 00 00 00  ................
+	0x0010 6e 20 6a 3d 02 08 08 11 00 00 00 00 00 00 00 00  n j=............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 01 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.nilinterequal·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0200000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*[1]interface {}-+0
+	rel 44+4 t=RelocType(-32763) type:*[1]interface {}+0
+	rel 48+8 t=R_ADDR type:interface {}+0
+	rel 56+8 t=R_ADDR type:[]interface {}+0
+type:.namedata.*[32]uint8- SRODATA dupok size=12
+	0x0000 00 0a 2a 5b 33 32 5d 75 69 6e 74 38              ..*[32]uint8
+type:*[32]uint8 SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 26 0d b3 9e 08 08 08 36 00 00 00 00 00 00 00 00  &......6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.memequal64·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*[32]uint8-+0
+	rel 48+8 t=R_ADDR type:[32]uint8+0
+type:[32]uint8 SRODATA dupok size=72
+	0x0000 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ...............
+	0x0010 aa ab 93 92 0a 01 01 11 00 00 00 00 00 00 00 00  ................
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 20 00 00 00 00 00 00 00                           .......
+	rel 24+8 t=R_ADDR type:.eqfunc32+0
+	rel 32+8 t=R_ADDR runtime.gcbits.+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*[32]uint8-+0
+	rel 44+4 t=RelocType(-32763) type:*[32]uint8+0
+	rel 48+8 t=R_ADDR type:uint8+0
+	rel 56+8 t=R_ADDR type:[]uint8+0
+type:.eqfunc3 SRODATA dupok size=16
+	0x0000 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00  ................
+	rel 0+8 t=R_ADDR runtime.memequal_varlen+0
+type:.namedata.*[3]uint8- SRODATA dupok size=11
+	0x0000 00 09 2a 5b 33 5d 75 69 6e 74 38                 ..*[3]uint8
+type:*[3]uint8 SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 39 bf 48 6c 08 08 08 36 00 00 00 00 00 00 00 00  9.Hl...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.memequal64·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*[3]uint8-+0
+	rel 48+8 t=R_ADDR type:[3]uint8+0
+type:[3]uint8 SRODATA dupok size=72
+	0x0000 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0010 04 6b 56 db 0a 01 01 11 00 00 00 00 00 00 00 00  .kV.............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 03 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR type:.eqfunc3+0
+	rel 32+8 t=R_ADDR runtime.gcbits.+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*[3]uint8-+0
+	rel 44+4 t=RelocType(-32763) type:*[3]uint8+0
+	rel 48+8 t=R_ADDR type:uint8+0
+	rel 56+8 t=R_ADDR type:[]uint8+0
+type:.namedata.*[][]uint8- SRODATA dupok size=12
+	0x0000 00 0a 2a 5b 5d 5b 5d 75 69 6e 74 38              ..*[][]uint8
+type:*[][]uint8 SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 f2 a3 9c cf 08 08 08 36 00 00 00 00 00 00 00 00  .......6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=R_ADDR runtime.memequal64·f+0
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*[][]uint8-+0
+	rel 48+8 t=R_ADDR type:[][]uint8+0
+type:[][]uint8 SRODATA dupok size=56
+	0x0000 18 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 2a 2a 4f d6 02 08 08 17 00 00 00 00 00 00 00 00  **O.............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 32+8 t=R_ADDR runtime.gcbits.0100000000000000+0
+	rel 40+4 t=R_ADDROFF type:.namedata.*[][]uint8-+0
+	rel 44+4 t=RelocType(-32763) type:*[][]uint8+0
+	rel 48+8 t=R_ADDR type:[]uint8+0
+gclocals·ZzMiPAiVBg7DJ6dh/CjSag== SRODATA dupok size=11
+	0x0000 03 00 00 00 01 00 00 00 01 00 00                 ...........
+gclocals·dGrMWTWIngKGfVYjHi0adA== SRODATA dupok size=11
+	0x0000 03 00 00 00 01 00 00 00 00 00 01                 ...........
+main.Sum.arginfo1 SRODATA static dupok size=7
+	0x0000 fe 00 08 08 08 fd ff                             .......
+main.Sum.argliveinfo SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+gclocals·J5F+7Qw7O7ve2QcWC7DpeQ== SRODATA dupok size=8
+	0x0000 02 00 00 00 00 00 00 00                          ........
+gclocals·WzcH5HabKQq0jVF7ifBBfA== SRODATA dupok size=10
+	0x0000 02 00 00 00 04 00 00 00 00 02                    ..........
+main.main.stkobj SRODATA static size=40
+	0x0000 02 00 00 00 00 00 00 00 e0 ff ff ff 10 00 00 00  ................
+	0x0010 10 00 00 00 00 00 00 00 f0 ff ff ff 10 00 00 00  ................
+	0x0020 10 00 00 00 00 00 00 00                          ........
+	rel 20+4 t=R_ADDROFF runtime.gcbits.0200000000000000+0
+	rel 36+4 t=R_ADDROFF runtime.gcbits.0200000000000000+0
+gclocals·fMHNSeaAbfhdVgTH8r09kw== SRODATA dupok size=10
+	0x0000 02 00 00 00 04 00 00 00 0d 00                    ..........
+sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).CompareAndSwap.arginfo1 SRODATA static dupok size=7
+	0x0000 08 08 10 08 18 08 ff                             .......
+sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).CompareAndSwap.argliveinfo SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+gclocals·iilYh2zWk/RieCMyRG2Y4w== SRODATA dupok size=10
+	0x0000 02 00 00 00 03 00 00 00 05 00                    ..........
+sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).Swap.arginfo1 SRODATA static dupok size=5
+	0x0000 08 08 10 08 ff                                   .....
+sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).Swap.argliveinfo SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).Store.arginfo1 SRODATA static dupok size=5
+	0x0000 08 08 10 08 ff                                   .....
+sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).Store.argliveinfo SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+gclocals·Jog/qYB4a+fiwM7je5AA/g== SRODATA dupok size=10
+	0x0000 02 00 00 00 02 00 00 00 01 00                    ..........
+sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).Load.arginfo1 SRODATA static dupok size=3
+	0x0000 08 08 ff                                         ...
+sync/atomic.(*Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }]).Load.argliveinfo SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+gclocals·LlfHo70um+DIUn9rjx/QUA== SRODATA dupok size=10
+	0x0000 02 00 00 00 03 00 00 00 07 00                    ..........
+sync/atomic.(*Pointer[os.dirInfo]).CompareAndSwap.arginfo1 SRODATA static dupok size=5
+	0x0000 08 08 10 08 ff                                   .....
+sync/atomic.(*Pointer[os.dirInfo]).CompareAndSwap.argliveinfo SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+gclocals·TjPuuCwdlCpTaRQGRKTrYw== SRODATA dupok size=10
+	0x0000 02 00 00 00 02 00 00 00 03 00                    ..........
+sync/atomic.(*Pointer[os.dirInfo]).Swap.arginfo1 SRODATA static dupok size=3
+	0x0000 08 08 ff                                         ...
+sync/atomic.(*Pointer[os.dirInfo]).Swap.argliveinfo SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+sync/atomic.(*Pointer[os.dirInfo]).Store.arginfo1 SRODATA static dupok size=3
+	0x0000 08 08 ff                                         ...
+sync/atomic.(*Pointer[os.dirInfo]).Store.argliveinfo SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+gclocals·wgcWObbY2HYnK2SU/U22lA== SRODATA dupok size=10
+	0x0000 02 00 00 00 01 00 00 00 01 00                    ..........
+sync/atomic.(*Pointer[os.dirInfo]).Load.arginfo1 SRODATA static dupok size=1
+	0x0000 ff                                               .
+sync/atomic.(*Pointer[os.dirInfo]).Load.argliveinfo SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+type:.eq.sync/atomic.Pointer[os.dirInfo].arginfo1 SRODATA static dupok size=3
+	0x0000 08 08 ff                                         ...
+type:.eq.sync/atomic.Pointer[os.dirInfo].argliveinfo SRODATA static dupok size=2
+	0x0000 00 00                                            ..
+type:.eq.sync/atomic.Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }].arginfo1 SRODATA static dupok size=3
+	0x0000 08 08 ff                                         ...
+type:.eq.sync/atomic.Pointer[go.shape.struct { os.mu sync.Mutex; os.buf *[]uint8; os.nbuf int; os.bufp int }].argliveinfo SRODATA static dupok size=2
+	0x0000 00 00                                            ..

@@ -2,7 +2,7 @@
 title = "『効率的な Go』読書会 2回目"
 date =  "2024-05-18T20:19:34+09:00"
 description = "第2章だけ立ち読みするってのも手かも知れない。"
-image = "/images/attention/kitten.jpg"
+image = "/images/attention/go-logo_blue.png"
 tags = [ "book", "golang", "engineering" ]
 pageType = "text"
 
