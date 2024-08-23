@@ -142,7 +142,7 @@ $ go build -gcflags="-m=1" sum.go
 $ sudo apt install build-essential
 ```
 
-逆アセンブルする際は `objdump` コマンドを生で使うのではなく `go tool` コマンドから呼び出すのがよさげ。
+実際に逆アセンブルする際は `objdump` コマンドを使うのではなく `go tool` コマンドを使うのがよさげ。
 
 ```text
 $ go tool objdump -S sum
