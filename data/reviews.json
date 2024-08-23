@@ -27645,5 +27645,142 @@
       false
     ],
     "Description": "コンパクトでランニングポーチ等に楽々入る。 Power Delivery 対応。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4297142937",
+      "Title": "Web API設計実践入門──API仕様ファーストによるテスト駆動開発 (WEB+DB PRESS plusシリーズ)",
+      "URL": "https://www.amazon.co.jp/dp/4297142937?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41rVlXm7h4L._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "柴田 芳樹",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "技術評論社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4297142937"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784297142933"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4297142937"
+        }
+      ],
+      "PublicationDate": "2024-07-25",
+      "LastRelease": "2024-07-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-08-17",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "休刊した「WEB+DB PRESS」に掲載された記事を元に書籍化された。\u003ca href=\"https://gihyo.jp/book/2024/978-4-297-14293-3\"\u003e版元\u003c/a\u003eで PDF 版が買える。キーワードは「API仕様ファースト」。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09ZQ7RKHJ",
+      "Title": "粛聖!! ロリ神レクイエム☆",
+      "URL": "https://www.amazon.co.jp/dp/B09ZQ7RKHJ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51X3nLVDz2L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "しぐれうい",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "umbrella record",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09ZQ7RKHJ"
+        }
+      ],
+      "PublicationDate": "2022-05-25",
+      "LastRelease": "2022-05-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-08-17",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "VTuber しぐれういのアルバム「まだ雨はやまない」に収録されているアレな曲で妙に耳に残る（褒め言葉）。 \u003ca href=\"https://www.youtube.com/watch?v=Ci_zad39Uhw\"\u003eMV\u003c/a\u003e が1億再生を突破したらしい。 mora で\u003ca href=\"https://mora.jp/package/43000074/TCJPR0000898038_hires/\"\u003e高解像度版\u003c/a\u003eが買える。「泥水で口を洗え」の部分が好き（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0D799F26C",
+      "Title": "うい麦畑でつかまえて",
+      "URL": "https://www.amazon.co.jp/dp/B0D799F26C?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51n8gT5FkZL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "しぐれうい",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Universal Music LLC",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0D799F26C"
+        }
+      ],
+      "PublicationDate": "2036-01-01",
+      "LastRelease": "2024-06-24",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-08-20",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "mora で\u003ca href=\"https://mora.jp/package/43000006/00602465806885/\"\u003e高解像度版\u003c/a\u003eが買える。タイトルの元ネタ（？）の “The Catcher in the Rye” とは1ミリも関係ないよね，知らんけど（笑） \u003ca href=\"https://www.youtube.com/watch?v=5uaHMmcReI0\"\u003eMV\u003c/a\u003e もよい。"
   }
 ]
