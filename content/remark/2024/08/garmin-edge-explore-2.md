@@ -20,7 +20,9 @@ pageType = "text"
 
 {{< fig-youtube id="njP7a-txTnk" title="【タイプ別】おすすめのGarmin教えます - YouTube" >}}
 
-は？ Garmin Edge シリーズって盆明けに値上げするの？ えー，今のうちに買っとかなきゃ（←扇動される消費者）。
+は？ Garmin Edge シリーズって盆明けに値上げするの[^g1]？ えー，今のうちに買っとかなきゃ（←扇動される消費者）。
+
+[^g1]: 本当に[値上げ](https://www.garmin.co.jp/products/intosports/?cat=cycling "サイクリング | スポーツ＆アウトドア | Garmin 日本")された...
 
 Garmin Edge は，最安の 130 plus の他に500シリーズ（530, 540），800シリーズ（840），1000シリーズ（1040, 1050）とあって，それとは別に [Explore 2][Garmin Edge Explore 2] というルート探索・ナビゲーション機能に特化した製品もあるらしい。
 個人的にはガチのトレーニングをするつもりはないので [Garmin Edge Explore 2] でええんちゃうん？ というわけで発注した。
