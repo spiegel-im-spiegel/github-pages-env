@@ -24,6 +24,8 @@ pageType = "text"
   - [cmd/link: lock down future uses of linkname · Issue #67401 · golang/go · GitHub](https://github.com/golang/go/issues/67401)
 - [Reduce allocations and comparison performance with the new unique package in Go 1.23 - Joseph Woodward | Software Engineer & Go lover based in Somerset, England](https://josephwoodward.co.uk/2024/08/performance-improvements-unique-package-go-1-23)
 - [Range Over Function Types - The Go Programming Language](https://go.dev/blog/range-functions)
+- [New unique package - The Go Programming Language](https://go.dev/blog/unique)
+- [Go の iter パッケージを使ってみよう](https://zenn.dev/mattn/articles/641f1d86fffdc9)
 
 ## Go 1.23.0 の導入
 
