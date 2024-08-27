@@ -132,6 +132,11 @@ A scientifically informed and democratic regulatory process is required to prese
 プライバシーは切り売りする商材ではなく，社会と個人の関係の中で「絶対に譲れないもの」があるという点が重要であり，個人が台頭する近代〜現代社会ならではの命題だ。
 もちろん簡単ではない。
 
+## ブックマーク
+
+- [監視価格設定――あなたの支払額は監視で決まる | p2ptk[.]org](https://p2ptk.org/copyright/4650)
+- [監視価格設定に対抗するには「プライバシー・ファースト」が必要だ | p2ptk[.]org](https://p2ptk.org/privacy/4654)
+
 [エッセイ]: https://www.schneier.com/blog/archives/2024/06/online-privacy-and-overfishing.html "Online Privacy and Overfishing - Schneier on Security"
 
 ## 参考図書
