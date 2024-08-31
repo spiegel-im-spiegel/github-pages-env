@@ -151,9 +151,7 @@ JR松江駅から津田街道に入って東進する。
 
 {{< fig-img src="./53960682290_224cbd88af_e.jpg" title="小泉八雲旧居 | Flickr" link="https://www.flickr.com/photos/spiegel/53960682290/" >}}
 
-そういえば今年は小泉八雲（Lafcadio Hearn）の没後120周年なんだそうで[^k1]。
-
-[^k1]: ちなみに「怪談」は出雲弁で「くゎいだん」と読む。「く」と「わ」を同時に発音するのがコツ。今この発音が出来る人はそうとう年寄りだけどね（笑）
+そういえば今年は小泉八雲（Lafcadio Hearn）の没後120周年なんだそうで。
 
 {{< fig-img src="./53958650862_ba6c078863_e.jpg" title="松江市報より。小泉八雲没後120周年 | Flickr" link="https://www.flickr.com/photos/spiegel/53958650862/" >}}
 
@@ -162,7 +160,9 @@ JR松江駅から津田街道に入って東進する。
 {{< fig-img src="./53901161639_9e73625541_e.jpg" title="ホンマ、某朝ドラは利権まみれじゃねw | Flickr" link="https://www.flickr.com/photos/spiegel/53901161639/" >}}
 
 松江市としてはこの「観光資源」を逃さず利用しないとね，という感じなんだろう。
-まぁ，私は小泉八雲自身にはあまり興味がないんだけど，「[耳無芳一](https://www.aozora.gr.jp/cards/000258/card42927.html "図書カード：耳無芳一の話")」とかは子ども心にめっちゃ怖かった。
+まぁ，私は小泉八雲自身にはあまり興味がないんだけど，「[耳無芳一](https://www.aozora.gr.jp/cards/000258/card42927.html "図書カード：耳無芳一の話")」とかは子ども心にめっちゃ怖かった[^k1]。
+
+[^k1]: ちなみに「怪談」は出雲弁で「くゎいだん」と読む。「く」と「わ」を同時に発音するのがコツ。今この発音が出来る人はそうとう年寄りだけどね（笑）
 
 {{< fig-img src="./53960683755_bc59c88757_e.jpg" title="地ビール館 | Flickr" link="https://www.flickr.com/photos/spiegel/53960683755/" >}}
 
@@ -196,6 +196,7 @@ JR松江駅から津田街道に入って東進する。
 {{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
 {{% review-paapi "B0BD7FGVR6" %}} <!-- GARMIN EDGE Explore 2 サイクルコンピュータ -->
 {{% review-paapi "B0BB772PMQ" %}} <!-- Shokz 骨伝導ヘッドセット OpenRun Pro Mini -->
+{{% review-paapi "B0BT1X9H7B" %}} <!-- 日焼け止め ミストタイプ -->
 {{% review-aozora "42927" %}} <!-- 小泉八雲 怪談 耳無芳一の話 -->
 {{% review-paapi "B0CWB6NHLW" %}} <!-- 小泉八雲 怪談・骨董 -->
 {{% review-paapi "B0D799F26C" %}} <!-- うい麦畑でつかまえて しぐれうい -->
