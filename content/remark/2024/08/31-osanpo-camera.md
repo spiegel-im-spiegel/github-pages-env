@@ -25,7 +25,7 @@ pageType = "photo"
 
 [^iy1]: 実は前の週も[揖夜神社]に行こうとして雨で[中断](https://www.flickr.com/photos/spiegel/53943892669/ "モスで雨宿り中 | Flickr")したのだった。今回はそのリベンジっちうことで。
 
-{{< fig-img-quote src="./cycling-route.png" title="松江駅→揖夜神社→武内神社→熊野大社" link="https://www.strava.com/routes/3258147846190661044" width="858" >}}
+{{< fig-img-quote src="./cycling-route.png" title="松江駅→揖夜神社→武内神社→熊野大社" link="https://www.strava.com/routes/3260475965865606966" width="858" >}}
 
 行きがけにいつもの定点観測。
 
@@ -180,12 +180,6 @@ JR松江駅から津田街道に入って東進する。
 おー。
 あれに見えるは「天使のはしご」ではないか。
 最後にええもん見れた。
-
-
-
-
-
-
 
 [揖夜神社]: https://maps.app.goo.gl/iUGu79bh4BSm4GSYA
 [武内神社]: https://shinbutsu.jp/shrines-temples/takeuchijinja/ "第十三番 平濱八幡宮・武内神社 | 出雲国神仏霊場"
