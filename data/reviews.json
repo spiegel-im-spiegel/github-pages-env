@@ -27782,5 +27782,138 @@
       false
     ],
     "Description": "mora で\u003ca href=\"https://mora.jp/package/43000006/00602465806885/\"\u003e高解像度版\u003c/a\u003eが買える。タイトルの元ネタ（？）の “The Catcher in the Rye” とは1ミリも関係ないよね，知らんけど（笑） \u003ca href=\"https://www.youtube.com/watch?v=5uaHMmcReI0\"\u003eMV\u003c/a\u003e もよい。"
+  },
+  {
+    "Book": {
+      "Type": "aozora",
+      "ID": "42927",
+      "Title": "耳無芳一の話",
+      "URL": "https://www.aozora.gr.jp/cards/000029/card42927.html",
+      "Image": {
+        "URL": "https://text.baldanders.info/images/aozora/card42927.svg"
+      },
+      "ProductType": "青空文庫",
+      "Creators": [
+        {
+          "Name": "小泉 八雲"
+        },
+        {
+          "Name": "戸川 明三",
+          "Role": "翻訳"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "図書カードNo.",
+          "Value": "42927"
+        }
+      ],
+      "PublicationDate": "2004-03-29",
+      "LastRelease": "2004-03-29",
+      "PublicDomain": true,
+      "FirstAppearance": "「小泉八雲全集第八卷家庭版」第一書房、1937（昭和12）年1月15日",
+      "Service": {
+        "Name": "aozorahack",
+        "URL": "https://aozorahack.org/"
+      }
+    },
+    "Date": "2024-08-31",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "『怪談（Kwaidan）』に収録されている作品のひとつ。子ども心にめっちゃ怖かった。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BB772PMQ",
+      "Title": "Shokz（ショックス）OpenRun Pro Mini 骨伝導イヤホン ワイヤレス bluetooth5.1 オープンイヤーヘッドホン 耳を塞がない 自動ペアリングヘッドフォン マイク付き 技適認証済み ランニング・スポーツイヤフォン 防水防滴 急速充電 10時間再生 iPhone/Android 適用 ミニサイズ ブラック",
+      "URL": "https://www.amazon.co.jp/dp/B0BB772PMQ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/21OkQIZqtQL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "Shenzhen Shokz Co., Ltd.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BB772PMQ"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4512223694714"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-08-30",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "最初期に買った中華製の骨伝導ヘッドセットがついに（物理的に）壊れたので，補充のために購入。 Shokz のヘッドセットは3台目（仕事用に買ったものも併せると4台目）。音は値段なり，と思う。以前の製品比べて低音が強化されているが，公道などノイズの多い環境ではあまり意味がない感じ。本当は OpenRun Pro 2 が欲しかったが，日本リージョンではまだ買えないようだ。\u003ca href=\"https://userguide.shokz.net/openrunpro\"\u003eスマホアプリ\u003c/a\u003eでイコライザなどの設定を変更できる。充電には専用ケーブルを使うが USB-C からの\u003ca href=\"https://www.amazon.co.jp/dp/B0BYNLMC2K/\"\u003e変換アダプタ\u003c/a\u003eが別売りされている。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CWB6NHLW",
+      "Title": "怪談・骨董 (河出文庫)",
+      "URL": "https://www.amazon.co.jp/dp/B0CWB6NHLW?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41hBRsN9uqL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "小泉八雲",
+          "Role": "著"
+        },
+        {
+          "Name": "平川祐弘",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "河出書房新社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CWB6NHLW"
+        }
+      ],
+      "PublicationDate": "2024-02-06",
+      "LastRelease": "2024-04-26",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-08-31",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "2024年は小泉八雲没後120周年らしいので，試しに買ってみた。"
   }
 ]
