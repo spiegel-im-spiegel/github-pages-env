@@ -93,7 +93,7 @@ Power Delivery に対応してないと駄目なのよ。
 
 スマホだと，こういう構図が撮りにくいんだよねぇ。
 
-## Shokz OpenRun Mini
+## Shokz OpenRun Mini {#shokz}
 
 確か今年（2022年）から AfterShokz から Shokz に社名が変わっている。
 
