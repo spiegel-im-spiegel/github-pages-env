@@ -63,6 +63,7 @@ We believe the establishment of a non-profit Flickr Foundation will combine with
 
 - [Announcing the Flickr Foundation!!! - Flickr Foundation](https://www.flickr.org/announcing-the-flickr-foundation/)
 - [Why we're doing this - Flickr Foundation](https://www.flickr.org/why-were-doing-this/)
+- [MIT Tech Review: 無限のデータ、保存に限界：デジタル時代の歴史を未来にどう残すべきか？](https://www.technologyreview.jp/s/343880/the-race-to-save-our-online-lives-from-a-digital-dark-age/)
 
 [Flickr Foundation]: https://www.flickr.org/ "The Flickr Foundation"
 [ActivityPub]: https://www.w3.org/TR/activitypub/
