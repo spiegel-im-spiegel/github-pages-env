@@ -27915,5 +27915,91 @@
       false
     ],
     "Description": "2024年は小泉八雲没後120周年らしいので，試しに買ってみた。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DDTQGJLT",
+      "Title": "ANISON COVERS 2",
+      "URL": "https://www.amazon.co.jp/dp/B0DDTQGJLT?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51U2VPXrVVL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "森口博子",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "KING RECORDS",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DDTQGJLT"
+        }
+      ],
+      "PublicationDate": "2024-08-07",
+      "LastRelease": "2024-09-04",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-09-04",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "前の「\u003ca href=\"https://www.amazon.co.jp/dp/B0C6QTTHN1?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1\"\u003eANISON COVERS\u003c/a\u003e」がよかったので買ってみた。 mora で\u003ca href=\"https://mora.jp/package/43000014/NOHR-843_F/\"\u003e高解像度版\u003c/a\u003eが買える。個人的には「微笑みの爆弾」「おジャ魔女カーニバル!!」「プラチナ」あたりがお気に入り。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DD6Z7QMG",
+      "Title": "天国のススメ！　１４巻 (まんがタイムコミックス)",
+      "URL": "https://www.amazon.co.jp/dp/B0DD6Z7QMG?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51zyOZpqGyL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "宮成樂",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "芳文社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DD6Z7QMG"
+        }
+      ],
+      "PublicationDate": "2024-09-06",
+      "LastRelease": "2024-09-06",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-09-06",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "嗚呼。またひとつ名作が終わってしまった。まぁ某少年漫画みたいに100巻とかやられても困るけど（笑） 相変わらず草間くん無双でした。"
   }
 ]
