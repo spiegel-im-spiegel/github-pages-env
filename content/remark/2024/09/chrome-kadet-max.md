@@ -49,7 +49,7 @@ KADET シリーズは[通常版](https://www.chromeindustries.jp/collections/sli
 いや，思ったより入るぞ。
 これなら[八雲温泉][八雲温泉ゆうあい熊野館]のお土産に野菜とか買って帰れそう（笑）
 
-今年春に買った[12インチ Chromebook]({{< ref "/remark/2024/03/chromebook-1.md" >}} "Chromebook を導入する 1") と[14インチ MacBook Pro]({{< ref "/remark/2024/05/get-a-used-pc-from-workplace.md" >}} "勤務先からの払い下げ PC") が余裕で入った。
+今年春に買った[12インチ Chromebook]({{< ref "/remark/2024/03/chromebook-1.md" >}} "Chromebook を導入する 1") と[13インチ MacBook Pro]({{< ref "/remark/2024/05/get-a-used-pc-from-workplace.md" >}} "勤務先からの払い下げ PC") が余裕で入った。
 何なら2つ一緒に収納できる，しないけど（合わせて2kg超える）。
 
 一応，防水仕様らしい。
