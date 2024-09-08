@@ -169,8 +169,7 @@ JR松江駅の近くで昼飯を食った後，バスで[県立図書館][島根
 
 {{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
 {{% review-paapi "B0B76PD6PS" %}} <!-- サイクリング・シューズ GIRO Tracker -->
-
 {{% review-paapi "B0DD6Z7QMG" %}} <!-- 天国のススメ！ 14 -->
 {{% review-paapi "B0DDTQGJLT" %}} <!-- 森口博子 ANISON COVERS 2 -->
-
-<!-- eof -->
+{{% review-paapi "B0D97CP9CS" %}} <!-- MindaRyn Across Miles -->
+{{% review-paapi "B0D6B7YGWV" %}} <!-- しかのこのこのここしたんたん シカ色デイズ -->

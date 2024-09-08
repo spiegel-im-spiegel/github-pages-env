@@ -28001,5 +28001,91 @@
       true
     ],
     "Description": "嗚呼。またひとつ名作が終わってしまった。まぁ某少年漫画みたいに100巻とかやられても困るけど（笑） 相変わらず草間くん無双でした。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0D6B7YGWV",
+      "Title": "シカ色デイズ",
+      "URL": "https://www.amazon.co.jp/dp/B0D6B7YGWV?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51vJqLw2tQL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "馬車芽めめ (CV.和泉風花)",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Lantis",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0D6B7YGWV"
+        }
+      ],
+      "PublicationDate": "2024-07-08",
+      "LastRelease": "2024-07-08",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-09-04",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ「\u003ca href=\"https://www.anime-shikanoko.jp/\"\u003eしかのこのこのここしたんたん\u003c/a\u003e」OP曲。出だしのフレーズが耳に残ってしまって（笑） 別にシカは目指さない。\n\n"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0D97CP9CS",
+      "Title": "Across Miles",
+      "URL": "https://www.amazon.co.jp/dp/B0D97CP9CS?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51nSQ80DEUL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "MindaRyn",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Lantis",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0D97CP9CS"
+        }
+      ],
+      "PublicationDate": "2024-08-21",
+      "LastRelease": "2024-08-21",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-09-04",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "mora で\u003ca href=\"https://mora.jp/package/43000011/4540774251025_HD/\"\u003e高解像度版\u003c/a\u003eが買える。最近のアニソンを含むお得なアルバム。"
   }
 ]
