@@ -28087,5 +28087,50 @@
       false
     ],
     "Description": "mora で\u003ca href=\"https://mora.jp/package/43000011/4540774251025_HD/\"\u003e高解像度版\u003c/a\u003eが買える。最近のアニソンを含むお得なアルバム。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BQQMVWBB",
+      "Title": "[クローム] ボディバッグ KADET BXRF_BLACK XRF (現行モデル) カデット マックス ブラック エックス リフレクティブ 15L リフレクター 防水",
+      "URL": "https://www.amazon.co.jp/dp/B0BQQMVWBB?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41XmUnCVvoL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "ウェア\u0026シューズ",
+      "Publisher": "CHROME",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BQQMVWBB"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0841916176775"
+        },
+        {
+          "Name": "UPC",
+          "Value": "841916176775"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-09-08",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "使い勝手についてはこの\u003ca href=\"https://www.youtube.com/watch?v=K3ScvHGA2tc\"\u003e動画\u003c/a\u003eを参照のこと。たくさんの内ポケットで仕切られているのがいい。容量は15Lで，16インチノートPCが入る。取っ手も付いていて仕事でも使えそう。3点ストラップ。防水仕様。オモテ面は光を反射しやすい素材を使っていて，夜間でもクルマから視認しやすい（らしい）。"
   }
 ]

@@ -29,7 +29,7 @@ Bluesky で紹介してもらった [VICTORINOX のバッグ](https://www.amazon
 
 というわけで届いた。
 
-{{< fig-img src="./53236109069_cfb2969e19_e.jpg" title="夜景 from CHROME のバックパックを購入 | Flickr" link="https://www.flickr.com/photos/spiegel/53236109069/">}}
+{{< fig-img src="./53236109069_cfb2969e19_e.jpg" title="CHROME のバックパックを購入 | Flickr" link="https://www.flickr.com/photos/spiegel/53236109069/">}}
 
 潰れた状態で届いたので形を整えるのにちょっと苦労した（上の写真は詰物をして形を整えている）。
 ポケットは少なめなので，ポケットがたくさん欲しい人には物足りないだろう（バッグインバッグという手もあるけど）。
