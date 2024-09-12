@@ -11,6 +11,8 @@ pageType = "text"
   mermaidjs = false
 +++
 
+## スリングバッグ買うた
+
 今までプライベート用に使ってた[メッセンジャーバッグ]がヘタれてきまして。
 買い換えることにした。
 
@@ -41,7 +43,7 @@ KADET シリーズは[通常版](https://www.chromeindustries.jp/collections/sli
 
 {{< fig-youtube id="K3ScvHGA2tc" title="【詳細レビュー】アメリカで最も売れているスリングバッグがこれらしいです… CHROME Kadet - YouTube" >}}
 
-いや，アメリカで一番売れてるかどうかは知らんけど... でもこれでええんちゃうん？ 2万円かからないし。
+いや，アメリカで一番売れてるかどうかは知らんけど... でもこれでええんちゃうん？ 日本円でも2万円かからないし（おのれ円安）。
 
 というわけで， [KADET MAX](https://www.amazon.co.jp/dp/B0BQQMVWBB?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1) を発注した。
 
@@ -68,6 +70,30 @@ KADET シリーズは[通常版](https://www.chromeindustries.jp/collections/sli
 次の週末サイクリングは，これ背負って行こう。
 たのしみ。
 
+## 【2024-09-12 追記】 ショルダーストラップを付け替える
+
+実はショルダーストラップはリバーシブルになっていて，左肩・右肩両方に対応している。
+
+{{< fig-img-quote src="https://cdn.shopify.com/s/files/1/0291/5480/3805/files/4_BG-323-BK_70f3aa03-db2c-4634-9430-62a7e6a36170.gif?v=1645514539" title="ショルダーストラップの付替え方法" link="view-source:https://www.chromeindustries.jp/collections/sling-bags/products/kadet-max" width="2000" >}}
+
+ふだん手提げかばんを左手で持つ人は右肩用に付け替えるといいかも知れない。
+
+私は左利きなのだが鞄は右手で持つことが多く，斜め掛けのショルダーバッグも左肩に掛けていた（つまりバッグ本体は右側）。
+まぁ，大抵の道具は右利き用に出来てるからね。
+んで，ふと思い付いてストラップを右肩用に付け替えてみたら，あれ？ 違和感ない。
+つか，こっちのほうがいい感じ。
+
+というわけで，実は私は右肩派だったことが判明した（笑）
+
+## 【2024-09-12 追記】 「松江のモダニズム建築群スタンプラリー」缶バッヂを付けてみた
+
+今年も「[松江のモダニズム建築群スタンプラリー]」が開催されていたので2個目の缶バッヂを[ゲット]({{< relref "./matsue-architecture-stamp-rally-2nd.md" >}} "「松江のモダニズム建築群スタンプラリー」2周目")して KADET MAX に付けてみた。
+
+{{< fig-img src="/remark/2024/09/matsue-architecture-stamp-rally-2nd/53989606715_949821e978_e.jpg" title="松江のモダニズム建築群スタンプラリー | Flickr" link="https://www.flickr.com/photos/spiegel/53989330316/" >}}
+
+よーし，うむうむ，よーし。
+
 [メッセンジャーバッグ]: {{< ref "/remark/2022/10/messenger-bag.md" >}} "遅走り，早歩き"
 [バックパック]: {{< ref "/remark/2023/10/my-new-gear.md" >}} "バックパックを買い替えた"
 [八雲温泉ゆうあい熊野館]: https://www.kumanokan.jp/ "八雲温泉ゆうあい熊野館"
+[松江のモダニズム建築群スタンプラリー]: https://www.pref.shimane.lg.jp/kanzai/rekisi/modernism-stamp.html "島根県：松江のモダニズム建築群スタンプラリー（トップ / 管財課 / 県庁舎の歴史）"
