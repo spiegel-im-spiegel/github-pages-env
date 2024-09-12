@@ -136,6 +136,7 @@ A scientifically informed and democratic regulatory process is required to prese
 
 - [監視価格設定――あなたの支払額は監視で決まる | p2ptk[.]org](https://p2ptk.org/copyright/4650)
 - [監視価格設定に対抗するには「プライバシー・ファースト」が必要だ | p2ptk[.]org](https://p2ptk.org/privacy/4654)
+- [公共空間でも、あなたにはプライバシーがある | p2ptk[.]org](https://p2ptk.org/privacy/4740)
 
 [エッセイ]: https://www.schneier.com/blog/archives/2024/06/online-privacy-and-overfishing.html "Online Privacy and Overfishing - Schneier on Security"
 
