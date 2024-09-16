@@ -27832,7 +27832,7 @@
     "Book": {
       "Type": "paapi",
       "ID": "B0BB772PMQ",
-      "Title": "Shokz（ショックス）OpenRun Pro Mini 骨伝導イヤホン ワイヤレス bluetooth5.1 オープンイヤーヘッドホン 耳を塞がない 自動ペアリングヘッドフォン マイク付き 技適認証済み ランニング・スポーツイヤフォン 防水防滴 急速充電 10時間再生 iPhone/Android 適用 ミニサイズ ブラック",
+      "Title": "Shokz (ショックス) OpenRun Pro Mini 骨伝導イヤホン ワイヤレス Bluetooth5.1 オープンイヤーヘッドホン 耳を塞がない DSPノイズキャンセリング・マイク 自動ペアリングヘッドフォン マイク付き 技適認証済み ランニング・スポーツイヤフォン 防水防滴 急速充電 10時間再生 ミニサイズ ブラック",
       "URL": "https://www.amazon.co.jp/dp/B0BB772PMQ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
         "URL": "https://m.media-amazon.com/images/I/21OkQIZqtQL._SL160_.jpg",
@@ -27840,7 +27840,7 @@
         "Width": 112
       },
       "ProductType": "エレクトロニクス",
-      "Publisher": "Shenzhen Shokz Co., Ltd.",
+      "Publisher": "SHOKZ (SINGAPORE) PTE. LTD.",
       "Codes": [
         {
           "Name": "ASIN",
@@ -28132,5 +28132,48 @@
       false
     ],
     "Description": "使い勝手についてはこの\u003ca href=\"https://www.youtube.com/watch?v=K3ScvHGA2tc\"\u003e動画\u003c/a\u003eを参照のこと。たくさんの内ポケットで仕切られているのがいい。容量は15Lで，16インチノートPCが入る。取っ手も付いていて仕事でも使えそう。3点ストラップ。防水仕様。オモテ面は光を反射しやすい素材を使っていて，夜間でもクルマから視認しやすい（らしい）。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0D97BSYQN",
+      "Title": "赤泥",
+      "URL": "https://www.amazon.co.jp/dp/B0D97BSYQN?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51T-DQddX0L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "MindaRyn",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Lantis",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0D97BSYQN"
+        }
+      ],
+      "PublicationDate": "2036-01-01",
+      "LastRelease": "2024-08-15",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-09-04",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "TVアニメ「戦国妖狐 千魔混沌編」挿入歌。 mora で\u003ca href=\"https://mora.jp/package/43000011/4540774741441_HD/\"\u003e高解像度版\u003c/a\u003eが買える。 MindaRyn ってこんな唄も歌うんだな。"
   }
 ]
