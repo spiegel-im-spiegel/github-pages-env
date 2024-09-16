@@ -28175,5 +28175,48 @@
       false
     ],
     "Description": "TVアニメ「戦国妖狐 千魔混沌編」挿入歌。 mora で\u003ca href=\"https://mora.jp/package/43000011/4540774741441_HD/\"\u003e高解像度版\u003c/a\u003eが買える。 MindaRyn ってこんな唄も歌うんだな。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DGG9JKM4",
+      "Title": "フィーリングラデーション",
+      "URL": "https://www.amazon.co.jp/dp/B0DGG9JKM4?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51liYqLmixL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "ReGLOSS",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "cover corp.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DGG9JKM4"
+        }
+      ],
+      "PublicationDate": "2024-09-11",
+      "LastRelease": "2024-09-11",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-09-16",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "mora で\u003ca href=\"https://mora.jp/package/43000066/CVRD-473H/\"\u003e高解像度版\u003c/a\u003eが買える。\u003ca href=\"https://www.youtube.com/watch?v=u4uDiV3u-do\"\u003eMV\u003c/a\u003e見て衝動買い。移動中に聴くと楽しいノリのいい曲。"
   }
 ]

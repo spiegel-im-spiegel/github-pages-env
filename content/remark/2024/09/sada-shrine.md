@@ -111,3 +111,4 @@ pageType = "photo"
 {{% review-paapi "B0BQQMVWBB" %}} <!-- ボディバッグ スリングバッグ CHROME KADET MAX -->
 {{% review-paapi "B0D6B7YGWV" %}} <!-- しかのこのこのここしたんたん シカ色デイズ -->
 {{% review-paapi "B0D97BSYQN" %}} <!-- 戦国妖狐 千魔混沌編 赤泥 MindaRyn -->
+{{% review-paapi "B0DGG9JKM4" %}} <!-- フィーリングラデーション Feelingradation ReGLOSSフィーリングラデーション -->
