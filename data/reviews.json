@@ -28218,5 +28218,99 @@
       false
     ],
     "Description": "mora で\u003ca href=\"https://mora.jp/package/43000066/CVRD-473H/\"\u003e高解像度版\u003c/a\u003eが買える。\u003ca href=\"https://www.youtube.com/watch?v=u4uDiV3u-do\"\u003eMV\u003c/a\u003e見て衝動買い。移動中に聴くと楽しいノリのいい曲。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0D1V1WXRH",
+      "Title": "VTuberの哲学",
+      "URL": "https://www.amazon.co.jp/dp/B0D1V1WXRH?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51OJMCGo+0L._SL160_.jpg",
+        "Height": 160,
+        "Width": 109
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "山野 弘樹",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "春秋社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0D1V1WXRH"
+        }
+      ],
+      "PublicationDate": "2024-03-20",
+      "LastRelease": "2024-04-20",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-09-15",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "VTuber を哲学的視点から記述していく試み。固定レイアウトなのでブラウザの \u003ca href=\"https://read.amazon.co.jp/\"\u003eKindle Cloud Reader\u003c/a\u003e で読めるの助かる。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DBZ3QP7J",
+      "Title": "VTuber学",
+      "URL": "https://www.amazon.co.jp/dp/B0DBZ3QP7J?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41A7MH29TYL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "岡本 健",
+          "Role": "その他"
+        },
+        {
+          "Name": "山野 弘樹",
+          "Role": "その他"
+        },
+        {
+          "Name": "吉川 慧",
+          "Role": "その他"
+        }
+      ],
+      "Publisher": "岩波書店",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DBZ3QP7J"
+        }
+      ],
+      "PublicationDate": "2024-08-28",
+      "LastRelease": "2024-08-28",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-09-16",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "VTuber を歴史的観点，理論的観点から記述していく試み。多様な論者が登場してなかなか面白い。Kindle 版も横書きで読みやすい。"
   }
 ]
