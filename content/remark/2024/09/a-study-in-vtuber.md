@@ -67,7 +67,12 @@ VTuber は「メディア」と「コンテンツ」「コミュニケーショ�
 
 {{< fig-youtube id="mt6qw_x5EXQ" title="【🌟 講演動画】VTuberが天文普及で若手奨励賞を受賞🎊授賞式&受賞記念講演の様子をお届け！【星見まどか】 - YouTube" >}}
 
+まぁ，まだ「推し」の感覚はイマイチよく分かってないんだけどね。
+可処分時間が少ないのでリアタイでライブ配信見れないし。
+それはこれから『[VTuber学]』や『[VTuberの哲学]』あたりを読んで片鱗だけでも分かるようになるといいなぁ。
 
+VTuber は「誰か」や「何か」を指すものではなく今を示す「現象」で，いずれ別のなにかに包摂されるのかなぁ，という印象を持っている。
+そもそも YouTube 自体が
 
 
 [VTuber学]: https://www.amazon.co.jp/dp/B0DBZ3QP7J?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon.co.jp: VTuber学 eBook : 岡本 健, 山野 弘樹, 吉川 慧: Kindleストア"
