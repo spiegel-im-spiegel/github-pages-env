@@ -28312,5 +28312,45 @@
       false
     ],
     "Description": "VTuber を歴史的観点，理論的観点から記述していく試み。多様な論者が登場してなかなか面白い。Kindle 版も横書きで読みやすい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CGZLNVD5",
+      "Title": "【HAYAKAWA FACTORY】デルフォニックス ロルバーン ポケット付メモL ホームズ チェック",
+      "URL": "https://www.amazon.co.jp/dp/B0CGZLNVD5?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31g9OnJlXnL._SL160_.jpg",
+        "Height": 106,
+        "Width": 160
+      },
+      "Publisher": "デルフォニックス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CGZLNVD5"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4580448302363"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-08-02",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "Rollbahn と HAYAKAWA FACTORY のコラボ。ホームズデザインということで衝動買いした。"
   }
 ]
