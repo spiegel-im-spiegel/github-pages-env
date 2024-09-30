@@ -108,3 +108,7 @@ VTuber が，補集合ではなく，過不足なく定義され確固たる存�
 {{% review-paapi "B0DGG9JKM4" %}} <!-- フィーリングラデーション Feelingradation ReGLOSS フィーリングラデーション -->
 {{% review-paapi "B0CW35PBT6" %}} <!-- ネコカブリーナ -->
 {{% review-paapi "B0CKGZ68P9" %}} <!-- 白上フブキ LETTER☆彡 -->
+
+## YouTube 配信
+
+{{< fig-youtube id="AgMd0ozLUrQ" title="フカボリ！VTuber学【北白川かかぽ/ゾンビ先生/AIcia Solid/諸星めぐる/Rue】 - YouTube" >}}
