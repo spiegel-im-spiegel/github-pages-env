@@ -48,7 +48,7 @@ Fediverse と Bluesky を相互接続する[サービス][Bridgy Fed]がある�
 
 ## Fediverse から Bluesky への接続
 
-同じように Fediverse から Bluesky への接続についても，まず Fediverse アカウントのオーナーがブリッジ用アカウントを `@bsky.brid.gy@bsky.brid.gy` をフォローする。
+同じように Fediverse から Bluesky への接続についても，まず Fediverse アカウントのオーナーがブリッジ用アカウント `@bsky.brid.gy@bsky.brid.gy` をフォローする。
 すると DM にこんなメッセージが来る。
 
 {{< fig-img src="./message-from-bridgy-fed-2.png" title="Bridgy Fed for Bluesky: “Welcome to Bridgy Fed! Your …”" link="./message-from-bridgy-fed-2.png" width="573" >}}
