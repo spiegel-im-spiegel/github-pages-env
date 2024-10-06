@@ -43,12 +43,20 @@ Fediverse と Bluesky を相互接続する[サービス][Bridgy Fed]がある�
 
 このアカウント名を公開し Mastodon などのサービス上で検索・フォローしてもらえばよい。
 
+{{< div-box type="markdown" >}}
+**【追記】**
+[Bridgy Fed] で接続設定した Bluesky アカウントを Fediverse からフォローする場合，フォローする側もブリッジ用アカウント `@bsky.brid.gy@bsky.brid.gy` をフォローしておく必要があるらしい（フォローバックを拒否しないこと）。
+[情報感謝](https://mastodon.tokyo/@h12o/113259106053717484 "h12o: “これですが、ひとつ手順が抜けていました。1.を先にしないと2…” - Mastodon.Tokyo")です。
+
+[Bridgy Fed]: https://fed.brid.gy/ "Bridgy Fed"
+{{< /div-box >}}
+
 なお Mastodon から見てこのアカウントはボットアカウントとして定義されている。
 サーバによってはこの手のボットアカウントに（主にトラフィックの面などで）不寛容なところもあるのでご注意を。
 
 ## Fediverse から Bluesky への接続
 
-同じように Fediverse から Bluesky への接続についても，まず Fediverse アカウントのオーナーがブリッジ用アカウント `@bsky.brid.gy@bsky.brid.gy` をフォローする。
+同じように Fediverse から Bluesky への接続についても，まず Fediverse アカウントのオーナーがブリッジ用アカウント `@bsky.brid.gy@bsky.brid.gy` をフォローする（その後来るフォローバックを拒否しないこと）。
 すると DM にこんなメッセージが来る。
 
 {{< fig-img src="./message-from-bridgy-fed-2.png" title="Bridgy Fed for Bluesky: “Welcome to Bridgy Fed! Your …”" link="./message-from-bridgy-fed-2.png" width="573" >}}
