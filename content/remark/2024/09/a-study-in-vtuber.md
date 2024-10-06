@@ -88,6 +88,8 @@ VTuber が，補集合ではなく，過不足なく定義され確固たる存�
 それとも将来「ニューミュージック」のように別のなにかに包摂されたりするのか。
 エンターテインメントとして漫然と楽しむのもいいと思うけど『[VTuber学]』を起点に少し先の未来を妄想してみるのも面白いと思う。
 
+[次回]({{< ref "/remark/2024/10/vtuber-as-sunya.md" >}} "「空」としての VTuber（まだ『VTuber学』を読んでる途中）")へ続く。
+
 ## ブックマーク
 
 - [メタクソ化するTiktok：プラットフォームが生まれ、成長し、支配し、滅びるまで | p2ptk[.]org](https://p2ptk.org/monopoly/4366)
@@ -108,7 +110,3 @@ VTuber が，補集合ではなく，過不足なく定義され確固たる存�
 {{% review-paapi "B0DGG9JKM4" %}} <!-- フィーリングラデーション Feelingradation ReGLOSS フィーリングラデーション -->
 {{% review-paapi "B0CW35PBT6" %}} <!-- ネコカブリーナ -->
 {{% review-paapi "B0CKGZ68P9" %}} <!-- 白上フブキ LETTER☆彡 -->
-
-## YouTube 配信
-
-{{< fig-youtube id="AgMd0ozLUrQ" title="フカボリ！VTuber学【北白川かかぽ/ゾンビ先生/AIcia Solid/諸星めぐる/Rue】 - YouTube" >}}
