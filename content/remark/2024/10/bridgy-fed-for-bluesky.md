@@ -14,7 +14,7 @@ pageType = "text"
 TL が流れて忘れてしまう前に覚え書きとして残しておく。
 
 Fediverse と Bluesky を相互接続する[サービス][Bridgy Fed]があるらしい。
-接続方法とか運用上の成約については以下の記事が参考になる。
+接続方法とか運用上の制約については以下の記事が参考になる。
 感謝！
 
 - [BlueskyとFediverse(MastodonやMisskey等)がつながった！簡単設定方法まとめ ～変わりつつあるSNS～ - ひらみ漂流記](https://hiramy.hateblo.jp/entry/2024/10/04/230000)
