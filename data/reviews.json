@@ -28352,5 +28352,48 @@
       false
     ],
     "Description": "Rollbahn と HAYAKAWA FACTORY のコラボ。ホームズデザインということで衝動買いした。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DDX5P4ST",
+      "Title": "ファタール - Fatal",
+      "URL": "https://www.amazon.co.jp/dp/B0DDX5P4ST?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51rYbNMsEQL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "中島健人",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Sony Music Labels Inc.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DDX5P4ST"
+        }
+      ],
+      "PublicationDate": "2036-01-01",
+      "LastRelease": "2024-09-04",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-10-12",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ「推しの子」第2期のOP曲，らしい（アニメは見てない）。\u003ca href=\"https://www.youtube.com/shorts/C4o7LdQfjqQ\"\u003e音乃瀬奏のショート動画\u003c/a\u003eを見て\u003ca href=\"https://www.youtube.com/watch?v=8tQiWHXSGN0\"\u003e公式MV\u003c/a\u003eを見て mora の\u003ca href=\"https://mora.jp/package/43000100/SRCL13016B00Z_96/\"\u003e高解像度版\u003c/a\u003eを衝動買いした。反省はしない。奏ちゃんのフルバージョンが聴きたい！"
   }
 ]

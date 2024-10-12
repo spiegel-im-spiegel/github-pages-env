@@ -47,5 +47,5 @@ Apidura の Backcountry シリーズは MTB 用に作られていて，かなり
 {{% review-paapi "B09XGYX7JF" %}} <!-- GARMIN vívosmart 5 -->
 {{% review-paapi "B09TVLHJ1X" %}} <!-- Shokz OpenRun Mini 骨伝導ヘッドセット -->
 {{% review-paapi "B00AAPY0ZQ" %}} <!-- パンク修理剤 -->
-{{% review-paapi "B07TBNJP3T" %}} <!-- ハンドポンプ ぽーたぶる -->
+{{% review-paapi "B07TBNJP3T" %}} <!-- ハンドポンプ ポータブル -->
 {{% review-paapi "B08K34WLXD" %}} <!-- ステムバッグ（stem bag） -->
