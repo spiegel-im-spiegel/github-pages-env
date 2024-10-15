@@ -104,9 +104,10 @@ pageType = "text"
 ヘルメットより重要なのが保険。
 保険加入の（努力）義務は自治体によって異なる。
 
-{{< fig-img-quote src="/remark/2022/11/accident-insurance-for-bike/situation_pdf.png" title="自転車損害賠償責任保険等への加入促進（2023-04-01 時点）" link="https://www.mlit.go.jp/road/bicycleuse/promotion/pdf/situation.pdf" width="1234">}}
+{{< fig-img-quote src="/remark/2022/11/accident-insurance-for-bike/situation_pdf.png" title="自転車損害賠償責任保険等への加入促進（2024-04-01 時点）" link="https://www.mlit.go.jp/road/bicycleuse/promotion/pdf/situation.pdf" width="1261">}}
 
 この表には載ってないが，私が住んでいる島根県松江市は個別の[条例](https://www.city.matsue.lg.jp/soshikikarasagasu/gikaijimukyoku_gijichosaka/matsueshigikai/3/1380.html "議会政策条例(自転車安全利用条例)／松江市ホームページ")で努力義務が課せられている。
+他にも市区町村レベルでルールが決められているところがあるかも知れない。
 
 {{< fig-quote type="markdown" title="松江市自転車安全利用条例 第5条 3" link="https://www.city.matsue.lg.jp/material/files/group/108/jyoureizenbun.pdf" >}}
 自転車利用者は、定期的な点検整備及び事故に備えた損害保険への加入に努めなければならない。
@@ -127,6 +128,7 @@ pageType = "text"
 
 - [自転車の灯火についての決まりを全都道府県調べてみた – CyclingEX CLASSIC](https://www.cycling-ex.com/2015/12/jitensha_light_kimari_47.html)
 - [【パーツ】あなたのライトは、明るさ基準値クリアしていますか？！](https://giant-store.jp/matsue/parts/13174/) : この記事の800ルーメンの前照灯を購入した。スマートモードが便利
+- [2024年11月自転車の「ながらスマホ」が罰則強化！「酒気帯び運転」は新たに罰則対象に！ | 政府広報オンライン](https://www.gov-online.go.jp/article/202410/entry-6604.html) : 2024年からの罰則強化について
 
 - [はじめての空気圧チェック]({{< ref "/remark/2022/09/pound-force-per-square-inch.md" >}})
 - [チェーンお掃除を試してみる]({{< ref "/remark/2022/09/cleaning-the-chain.md" >}})
