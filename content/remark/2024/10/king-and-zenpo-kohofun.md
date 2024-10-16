@@ -106,6 +106,8 @@ pageType = "photo"
 
 ## ブックマーク
 
+- [ノーメンテはパンクのリスク!? リムテープの役割と交換の重要性 – BRI-CHAN](https://bri-chan.jp/2023/02/10/rimtape/)
+
 - [八雲立つ風土記の丘 遺跡めぐり（1）]({{< ref "/remark/2023/09/ruins-in-ou-plain-1.md" >}})
 - [はじめてのロードサービス]({{< ref "/remark/2023/09/fix-a-flat.md" >}})
 
