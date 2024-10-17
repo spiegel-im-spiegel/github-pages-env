@@ -141,5 +141,6 @@ pageType = "photo"
 
 - **明治大学アカデミーホール**: [第7回古代歴史文化講演会｢古墳時代の王権と地域｣ | 古代歴史文化協議会](https://kodairekibunkyo.jp/event/lectures_7th.html)
 - **有楽町朝日ホール**: [【申込開始】古代出雲文化シンポジウム「六世紀の出雲とヤマト―出雲の大型古墳を語る―」 | 島根県古代文化センター](https://shimane-kodaibunka.jp/sympo/r6sympo/)
+- **東京国立博物館**: [挂甲の武人 国宝指定50周年記念 特別展「はにわ」](https://haniwa820.exhibit.jp/)
 
 こういうときは東京が裏山に椎茸だぜ。
