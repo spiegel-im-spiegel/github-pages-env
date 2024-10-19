@@ -42,7 +42,7 @@ License GNU GPL-3.0-or-later <https://gnu.org/licenses/gpl.html>
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 
-Home: /home/spiegel/.gnupg
+Home: /home/username/.gnupg
 サポートしているアルゴリズム:
 公開鍵: RSA, ELG, DSA, ECDH, ECDSA, EDDSA
 暗号方式: IDEA, 3DES, CAST5, BLOWFISH, AES, AES192, AES256,
