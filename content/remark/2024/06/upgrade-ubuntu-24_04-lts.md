@@ -14,7 +14,7 @@ pageType = "text"
 すっかり忘れていたが [Ubuntu] 24.04 LTS がリリースされているのでアップグレードしなきゃ。
 
 - [Ubuntu 24.04 LTS (Noble Numbat) Release Notes - Release - Ubuntu Community Hub](https://discourse.ubuntu.com/t/ubuntu-24-04-lts-noble-numbat-release-notes/39890)
-- [Ubuntu 24.04 LTS リリース | Ubuntu Japanese Team](/News/ubuntu2404)
+- [Ubuntu 24.04 LTS リリース | Ubuntu Japanese Team](https://www.ubuntulinux.jp/News/ubuntu2404)
 - [Ubuntu 24.04 LTS “Noble Numbat”のリリース | gihyo.jp](https://gihyo.jp/admin/clip/01/ubuntu-topics/202404/26)
 
 本当は日本語 Remix が出るまで待つつもりだったのだが，今回は出そうもない（2024-06-14 追記：今回は[日本語 Remix は出ない](https://lists.ubuntu.com/archives/ubuntu-jp/2024-June/006668.html "[ubuntu-jp:6669] Ubuntu 24.04 LTSの日本語Remixについて")らしい）。
