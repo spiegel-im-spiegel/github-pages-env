@@ -123,6 +123,7 @@ pageType = "photo"
 [島根県立図書館]: https://www.library.pref.shimane.lg.jp/ "島根県立図書館"
 [松江水燈路]: https://www.suitouro.jp/ "【公式サイト】松江水燈路 2024|9.28-10.20の(土,日,祝) 開催"
 [パンク修理剤]: https://www.amazon.co.jp/dp/B00AAPY0ZQ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon | マルニ(Maruni) クイックショット K-600 仏式バルブ用応急瞬間パンク修理剤 ブラック | マルニ(Maruni) | パンク修理キット"
+
 ## 参考
 
 {{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->

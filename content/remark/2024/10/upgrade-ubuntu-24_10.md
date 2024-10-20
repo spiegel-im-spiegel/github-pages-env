@@ -19,13 +19,19 @@ pageType = "text"
 [Ubuntu Japanese Team](https://www.ubuntulinux.jp/) からのアナウンスはまだないな。
 24.04 LTS から日本語 Remix のリリースがなくなってるし，日本語固有のローカライズはなくなっていくのかねぇ。
 
-というわけでアップグレード開始。
+というわけでアップグレードを始めようか。
+
+まずは以下のページから ISO イメージをダウンロードして，転ばぬ先のブータブル USB を作成する。
+
+- [Download Ubuntu Desktop | Ubuntu](https://ubuntu.com/download/desktop)
+
+念のためのバックアップも取ってソフトウェアの更新も行って，以下のダイアログからアップグレードを開始する。
 
 {{< fig-img src="./upgrade-ubuntu-0.png" title="ソフトウェアの更新" link="./upgrade-ubuntu-0.png" width="645" >}}
 
 {{< fig-img src="./upgrade-ubuntu-1.png" title="リリースノート" link="./upgrade-ubuntu-1.png" width="628" >}}
 
-特に問題もなく完了。
+あとは流れに任せる（笑） 特に問題もなく完了。
 
 {{< fig-img src="./upgrade-ubuntu-8.png" title="アップグレード完了" link="./upgrade-ubuntu-8.png" width="694" >}}
 

@@ -28,6 +28,7 @@ $ sudo apt update
 $ sudo apt upgrade
 $ sudo snap refresh
 ```
+
 以下のページから ISO イメージをダウンロードして，転ばぬ先のブータブル USB を作成する。
 
 - [Download Ubuntu Desktop | Ubuntu](https://ubuntu.com/download/desktop)

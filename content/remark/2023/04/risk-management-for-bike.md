@@ -55,6 +55,8 @@ pageType = "text"
 
 {{< fig-youtube id="Hd914N6KOCs" title="自転車を安全に乗ろう！街中に潜む危険箇所をご紹介！ - YouTube" >}}
 
+{{< fig-youtube id="tpUsGk0Rmuc" title="自転車の正しい交通ルール知っていますか？解りづらい交通ルールまとめてみました！ - YouTube" >}}
+
 ### 【2024-10-16 追記】「飲酒運転」について
 
 2024年11月から「飲酒運転」について罰則が強化される。
