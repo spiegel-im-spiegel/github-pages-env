@@ -11,7 +11,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-発見された素数の最大桁数が更新されたようだ。
+発見された素数の最大数が更新されたようだ。
 ついに $p$ 値が1億超えたか。
 
 - [Mersenne Prime Discovery - 2^136279841-1 is Prime!](//www.mersenne.org/primes/?press=M136279841)
