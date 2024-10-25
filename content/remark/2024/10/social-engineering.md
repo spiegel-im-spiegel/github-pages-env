@@ -32,7 +32,7 @@ Traditional social media companies have enclosed the online commons, locked down
 {{< /fig-quote >}}
 
 あくまで私個人の印象で申し訳ないが Bluesky が {{% emoji "X" %}} (旧Twitter) や Facebook/Instagram など既存の SNS と正面切って比較できるようになるのは，ユーザ数が1億を超えたあたりからじゃないかと思っている。
-ぶっちゃけ今の Bluesky は {{% emoji "X" %}} がやらかしたときの一次避難先に過ぎず “Traditional social media companies” へのインパクトは小さい。
+ぶっちゃけ今の Bluesky は {{% emoji "X" %}} がやらかしたときの一時避難先に過ぎず “Traditional social media companies” へのインパクトは小さい。
 
 あと，これは私が見逃してるかも知れないのでそれならゴメンナサイ {{% emoji "ペコン" %}} だけど，確かに Bluesky は本格的に PDS の分散・連合（federation）を始めたけれど，あくまでも Bluesky というアプリケーションの枠内に納まっている。
 この辺は ActivityPub ベースの Fediverse が [Pixelfed](https://pixelfed.org/ "Pixelfed - Decentralized social media") や [PeerTube](https://joinpeertube.org/ "What is PeerTube? | JoinPeerTube") などの多様なアプリケーションを内包しているのとは対照的と言える。
