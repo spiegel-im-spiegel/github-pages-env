@@ -65,6 +65,7 @@ Ubuntu は，自前で最新版を入れていない限り，現在リリース�
   - [XZ Utilsのインシデントを教訓に、ソーシャルエンジニアリングによるオープンソースプロジェクトの乗っ取りに関する注意喚起。OpenSSFとOpenJS Foundationsが共同で － Publickey](https://www.publickey1.jp/blog/24/xz_utilsopenssfopenjs_foundations.html)
 - [広く使用されている「xz」にssh接続を突破するバックドアが仕込まれていた事が判明。重大度はクリティカルでLinuxのほかmacOSにも影響 | ソフトアンテナ](https://softantenna.com/blog/xz-backdoor/)
 - [Ubuntu 24.04 LTS（noble）の開発 / xz-utils問題（CVE-2024-3094）への対応のためのベータ延期とMilk-Vサポート | gihyo.jp](https://gihyo.jp/admin/clip/01/ubuntu-topics/202404/05)
+- [XZ Utilsにバックドアを仕込んだ謎の人物「Jia Tan」の正体とは？ 専門家たちの推理 | WIRED.jp](https://wired.jp/article/jia-tan-xz-backdoor/)
 
 ## ブックマーク
 
