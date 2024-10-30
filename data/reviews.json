@@ -28436,5 +28436,48 @@
       false
     ],
     "Description": "ブータブル USB 作成用に購入。ひたすらデザインで決めた（笑） 以前に同じデザインの \u003ca href=\"https://www.amazon.co.jp/dp/B01NBU1OS5?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1\"\u003e32GB 版\u003c/a\u003eを買ったが，最小サイズで書い直した。現在は在庫切れ？ 状態。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DL5VY49Q",
+      "Title": "まいたけダンス",
+      "URL": "https://www.amazon.co.jp/dp/B0DL5VY49Q?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51uQUQJms2L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "儒烏風亭らでん",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "cover corp.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DL5VY49Q"
+        }
+      ],
+      "PublicationDate": "2024-10-30",
+      "LastRelease": "2024-10-30",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-10-30",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "切り抜き動画投稿を\u003ca href=\"https://www.youtube.com/shorts/hymOcFUkCHU\"\u003eショート\u003c/a\u003eで紹介→TikTokでバズる→オリジナル曲として\u003ca href=\"https://www.youtube.com/watch?v=4yKo5SpPKM0\u0026t=2072s\"\u003e正式リリース\u003c/a\u003eという流れらしい（笑） 世の中，何が流行るか分からない。 \u003ca href=\"https://mora.jp/package/43000066/CVRD-488H/\"\u003emora\u003c/a\u003e で高解像度版が買える。"
   }
 ]
