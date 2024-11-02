@@ -45,5 +45,10 @@ PC 版 Thunderbird から設定をエクスポートするにはメニューの�
 使い勝手についてはおいおい検証していこう。
 とりあえず OpenPGP 暗号化機能が組み込まれていることは（設定から）確認できた。
 
+## ブックマーク
+
+- [Android版「Thunderbird」がようやく正式リリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1635729.html)
+- [QRコードでアカウント設定をモバイル版に ～「Thunderbird」v128.4.0esrがリリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1635393.html)
+
 [K-9]: https://play.google.com/store/apps/details?id=com.fsck.k9 "K-9 Mail - Google Play"
 [Thunderbird]: https://play.google.com/store/apps/details?id=net.thunderbird.android "Thunderbird: Free Your Inbox - Google Play"
