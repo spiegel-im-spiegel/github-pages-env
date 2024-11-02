@@ -148,3 +148,5 @@ pageType = "photo"
 ### 2024-11-02 追記
 
 {{< fig-youtube id="oCEucIhcvTY" title="【 #らでんラボ 】この秋は埴輪があつい！？埴輪＆美術作品についてまったり語らう1時間withきら子　協力：東京国立近代美術館・東京国立博物館【儒烏風亭らでん/きら子 #ReGLOSS 】 - YouTube" >}}
+
+{{< fig-youtube id="STxcBZtJdW0" title="【雑談】#らでんラボ 出演を振り返ります！埴輪まだまだ語りたい【古代日本史VTuber きら子】 - YouTube" >}}
