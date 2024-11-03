@@ -162,4 +162,5 @@ pageType = "photo"
 {{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
 {{% review-paapi "B0BQQMVWBB" %}} <!-- ボディバッグ スリングバッグ CHROME KADET MAX -->
 {{% review-paapi "B0DGG9JKM4" %}} <!-- フィーリングラデーション Feelingradation ReGLOSSフィーリングラデーション -->
+{{% review-paapi "B0DL5VY49Q" %}} <!-- まいたけダンス 儒烏風亭らでん -->
 {{% review-paapi "B0DDX5P4ST" %}} <!-- 推しの子 ファタール FATAL -->
