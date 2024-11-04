@@ -17,7 +17,7 @@ pageType = "text"
 と，いつも思うのだが，特にこの1年半ほどは「書く」意欲が減退してて「お散歩カメラ」の記事ばっかりになっている。
 まぁ「書きたくないときには書かない」のがこのブログのポリシーなので（笑）
 
-## 欲しいのは Bluesky でないもの？
+## 欲しいのは Bluesky でないもの？ {#bluesky}
 
 Bluesky がシリーズAで15Mドルを調達したらしい。
 
@@ -75,6 +75,7 @@ www
 
 - [Bluesky、サブスクリプションサービスを準備中 ｰ ユーザー数は先月から300万人増の1,300万人超に | 気になる、記になる…](https://taisy0.com/2024/10/25/205353.html)
 - [Bluesky、1500万ドル調達　追加機能が使えるサブスクプラン開発中 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2410/25/news110.html)
+- [Blueskyとメタクソ化 | p2ptk[.]org](https://p2ptk.org/monopoly/5000)
 
 [AT Protocol]: https://atproto.com/ "AT Protocol"
 
