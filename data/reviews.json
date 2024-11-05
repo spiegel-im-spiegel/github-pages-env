@@ -28479,5 +28479,48 @@
       false
     ],
     "Description": "切り抜き動画投稿を\u003ca href=\"https://www.youtube.com/shorts/hymOcFUkCHU\"\u003eショート\u003c/a\u003eで紹介→TikTokでバズる→オリジナル曲として\u003ca href=\"https://www.youtube.com/watch?v=4yKo5SpPKM0\u0026t=2072s\"\u003e正式リリース\u003c/a\u003eという流れらしい（おそらく権利関係を明確化させるためだろう。出典を示さずに紹介する某ワイドショウ番組とかあるしね）。世の中，何が流行るか分からないものである。 \u003ca href=\"https://mora.jp/package/43000066/CVRD-488H/\"\u003emora\u003c/a\u003e で高解像度版が買える。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0D9LH6CW3",
+      "Title": "あくまのかんづめ〜周防パトラのエッセイ集〜",
+      "URL": "https://www.amazon.co.jp/dp/B0D9LH6CW3?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51GZP7-eL2L._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "周防パトラ",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "エムディエヌコーポレーション（MdN）",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0D9LH6CW3"
+        }
+      ],
+      "PublicationDate": "2024-08-09",
+      "LastRelease": "2024-08-09",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-10-29",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "「\u003ca href=\"https://www.youtube.com/watch?v=Yap0NewMr9k\"\u003e個人Vtuber周防パトラは何者なのか？！\u003c/a\u003e」を見て衝動買い。泣いていいのか笑っていいのか分からん（褒め言葉）。これを読んで「\u003ca href=\"https://www.youtube.com/watch?v=H5F8FkyY2GM\"\u003e推しちゃったっ！\u003c/a\u003e」を聴くと感慨深いかも。"
   }
 ]
