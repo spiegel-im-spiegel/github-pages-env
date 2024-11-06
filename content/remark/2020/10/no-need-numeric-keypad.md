@@ -24,7 +24,7 @@ pageType = "text"
 
 そんで，いろいろ調べた結果
 
-{{% review-paapi "B07NDLJ6Q9" %}} <!-- コンパクトキーボード -->
+{{% review-paapi "B07NDLJ6Q9" %}} <!-- テンキーレス キーボード -->
 
 にした。
 税込981円。

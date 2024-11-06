@@ -28522,5 +28522,89 @@
       false
     ],
     "Description": "「\u003ca href=\"https://www.youtube.com/watch?v=Yap0NewMr9k\"\u003e個人Vtuber周防パトラは何者なのか？！\u003c/a\u003e」を見て衝動買い。泣いていいのか笑っていいのか分からん（褒め言葉）。これを読んで「\u003ca href=\"https://www.youtube.com/watch?v=H5F8FkyY2GM\"\u003e推しちゃったっ！\u003c/a\u003e」を聴くと感慨深いかも。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CJT7S6D6",
+      "Title": "エレコム メカニカルキーボード Leggero 有線 テンキーレス Nキーロールオーバー対応 5000万回高耐久スイッチ採用 赤軸 グレー TK-MC30UKLGY/EC",
+      "URL": "https://www.amazon.co.jp/dp/B0CJT7S6D6?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41UoRrBP69L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "Personal Computers",
+      "Publisher": "エレコム",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CJT7S6D6"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4549550275798"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2023-10-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-11-05",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "赤軸（リニア）で押下圧50g，ストローク4.0mm。個人的にはちょうどいい感じ。打鍵音が煩いがメカニカルだとこんなもんらしい。押下圧45gで静音タイプもあるらしいが10K円超える。有線だがキーボード直結ではなく USB-C ケーブルで接続できる（USB-C⇔USB-A ケーブル付属）。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DKJTX8H9",
+      "Title": "ReGLOSS",
+      "URL": "https://www.amazon.co.jp/dp/B0DKJTX8H9?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51oLTZ81v+L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "ReGLOSS",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "cover corp.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DKJTX8H9"
+        }
+      ],
+      "PublicationDate": "2024-11-06",
+      "LastRelease": "2024-11-06",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-11-06",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "\u003ca href=\"https://www.youtube.com/@hololiveDEV_IS\"\u003ehololive DEV_IS\u003c/a\u003e  ReGLOSS のファーストアルバム。 \u003ca href=\"https://mora.jp/package/43000066/HOLO-013H/\"\u003emora\u003c/a\u003e で高解像度版が買える。 最後の「瞬間ハートビート -tepe Remix-」がなかなか素敵。"
   }
 ]
