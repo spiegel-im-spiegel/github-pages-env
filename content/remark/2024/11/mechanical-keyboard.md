@@ -5,7 +5,6 @@ description = "これを Amazon で8K円未満で買えたのなら上々だろ�
 image = "/images/attention/kitten.jpg"
 tags = [ "tools", "gear" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
