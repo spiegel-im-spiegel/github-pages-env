@@ -1,11 +1,10 @@
 +++
 title = "何故クロスバイクなのか，または自転車に関する散財履歴"
-date =  "2024-11-07T10:39:11+09:00"
+date =  "2024-11-07T19:41:32+09:00"
 description = "何故クロスバイクなのか / ロードバイクでは「スピードは正義」なんだけど / 心臓リハビリとしての自転車 / サイクルコンピュータを買う / サイクルウェアなんか着るもんか / ドライブトレインの掃除くらいしようや / バッグ類"
 image = "/images/attention/kitten.jpg"
 tags = [ "bike", "disease", "gear", "tools" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
