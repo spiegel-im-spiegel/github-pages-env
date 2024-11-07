@@ -147,6 +147,7 @@ pageType = "text"
 
 - [自転車の灯火についての決まりを全都道府県調べてみた – CyclingEX CLASSIC](https://www.cycling-ex.com/2015/12/jitensha_light_kimari_47.html)
 - [【パーツ】あなたのライトは、明るさ基準値クリアしていますか？！](https://giant-store.jp/matsue/parts/13174/) : この記事の800ルーメンの前照灯を購入した。スマートモードが便利
+- [イヤホンをしながら自転車に乗っても大丈夫？道路交通法改正のポイントを解説  |  manabeblog](https://www.manabeblog.com/bicycle-earphones/)
 
 - [はじめての空気圧チェック]({{< ref "/remark/2022/09/pound-force-per-square-inch.md" >}})
 - [チェーンお掃除を試してみる]({{< ref "/remark/2022/09/cleaning-the-chain.md" >}})
