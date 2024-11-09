@@ -53,7 +53,7 @@ pageType = "photo"
 
 コースはこんな感じ（[松江しんじ湖温泉駅]→[佐太神社]→[古浦海水浴場]）。
 
-{{< fig-img-quote src="./cycling-route.png" title="古浦海水浴場へ行こう" link="https://www.strava.com/routes/3284472156698970010" width="861" >}}
+{{< fig-img-quote src="./cycling-route.png" title="古浦海水浴場へ行こう" link="https://www.strava.com/routes/3290128617370186454" width="861" >}}
 
 佐陀川沿いの道を通るのでアップダウンは殆どなく，自転車通行可の歩道が使えるので比較的安全な道のりである。
 というわけで，難なく到着。
