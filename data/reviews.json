@@ -28606,5 +28606,48 @@
       false
     ],
     "Description": "\u003ca href=\"https://www.youtube.com/@hololiveDEV_IS\"\u003ehololive DEV_IS\u003c/a\u003e  ReGLOSS のファーストアルバム。 \u003ca href=\"https://mora.jp/package/43000066/HOLO-013H/\"\u003emora\u003c/a\u003e で高解像度版が買える。 最後の「瞬間ハートビート -tepe Remix-」がなかなか素敵。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DM7DFVTF",
+      "Title": "しめじダンス",
+      "URL": "https://www.amazon.co.jp/dp/B0DM7DFVTF?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51wDwWkRcjL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "儒烏風亭らでん",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "cover corp.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DM7DFVTF"
+        }
+      ],
+      "PublicationDate": "2024-11-08",
+      "LastRelease": "2024-11-08",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-11-09",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "計画通り（笑） \u003ca href=\"https://mora.jp/package/43000066/CVRD-496H/\"\u003emora\u003c/a\u003e で高解像度版が買える。"
   }
 ]
