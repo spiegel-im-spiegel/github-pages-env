@@ -75,7 +75,7 @@ pageType = "photo"
 {{< fig-img src="./54126835106_a13a6aaab9_e.jpg" title="上弦の月（古浦海水浴場） | Flickr" link="https://www.flickr.com/photos/spiegel/54126835106/" >}}
 
 ちなみに海岸の砂はすンごいサラサラで，ホイールが沈み込んで浜辺を自転車で走るのは無理でした。
-こんなん絶対ムリ（笑）
+私にはこんなん絶対ムリ（笑）
 
 {{< fig-youtube id="7iccBs1kKHw" title="ビーチだよ！ビチアモーレinビーチクロス【ビチアモーレ南麻布店】 - YouTube" >}}
 
