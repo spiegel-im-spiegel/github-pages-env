@@ -18,7 +18,7 @@ pageType = "photo"
 服の調節が大変。
 容量の大きい[スリングバッグ]を買ってよかったよ。
 
-今朝の松江市の最低気温は8.5℃，日中の最低気温が19.3℃。
+今朝の松江市の最低気温は8.5℃，日中の最高気温が19.3℃。
 快晴で東寄りの風がちょい強め。
 というわけで，今日もサイクリング日和っス。
 
@@ -56,7 +56,7 @@ pageType = "photo"
 {{< fig-img-quote src="./cycling-route.png" title="古浦海水浴場へ行こう" link="https://www.strava.com/routes/3290128617370186454" width="861" >}}
 
 佐陀川沿いの道を通るのでアップダウンは殆どなく，自転車通行可の歩道が使えるので比較的安全な道のりである。
-というわけで，難なく到着。
+というわけで，適当に昼食をはさみつつ，難なく到着。
 
 {{< fig-img src="./54126836191_80ccf6bbb4_e.jpg" title="チャリで来た（古浦海水浴場） | Flickr" link="https://www.flickr.com/photos/spiegel/54126836191/" >}}
 
@@ -64,7 +64,7 @@ pageType = "photo"
 
 シーズンオフなので人は殆どいない。
 波も静かで快晴。
-良き哉。
+善き哉。
 
 海を眺めながら燃料補給。
 
@@ -94,7 +94,7 @@ pageType = "photo"
 
 {{< fig-img src="./54127295630_0b8e349a23_e.jpg" title="糖分補給中 | Flickr" link="https://www.flickr.com/photos/spiegel/54127295630/" >}}
 
-今日は帰るか。
+...帰るか。
 
 [パーカ]: {{< ref "/remark/2022/11/blocktech-parka.md" >}} "ブロックテックパーカを買うた"
 [スリングバッグ]: {{< ref "/remark/2024/09/chrome-kadet-max.md" >}} "スリングバッグ買うた"
