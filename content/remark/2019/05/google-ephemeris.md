@@ -21,7 +21,7 @@ pageType = "text"
 日本の暦は[国立天文台]の[暦計算室]で見ることができる。
 こんな感じのページ。
 
-{{< fig-img src="./google-ephemeris.png" title="今月のこよみ powered by Google Calendar - 国立天文台暦計算室" link="https://eco.mtk.nao.ac.jp/koyomi/cande/calendar.html" width="824" >}}
+{{< fig-img-quote src="./google-ephemeris.png" title="今月のこよみ powered by Google Calendar - 国立天文台暦計算室" link="https://eco.mtk.nao.ac.jp/koyomi/cande/calendar.html" width="824" >}}
 
 しかも Google カレンダーへインポート可能で，上のページの「＋Google Calendar」の部分をクリックすれば自身の Google カレンダーにインポートできる。
 
