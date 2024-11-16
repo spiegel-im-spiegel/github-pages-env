@@ -21615,14 +21615,15 @@
     "Book": {
       "Type": "paapi",
       "ID": "B0BQVZJ99R",
-      "Title": "パイロット フリクションボールノックゾーン 0.7mm オールタイムブラック LFBKZ-50F-AB",
+      "Title": "Pilot パイロット フリクションボールノックゾーン 0.7mm オールタイムブラック LFBKZ-50F-AB",
       "URL": "https://www.amazon.co.jp/dp/B0BQVZJ99R?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://m.media-amazon.com/images/I/218PHBLyPoL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/21Ljv5mRk9L._SL160_.jpg",
         "Height": 160,
         "Width": 160
       },
-      "Publisher": "PILOT",
+      "ProductType": "オフィス用品",
+      "Publisher": "パイロット(Pilot)",
       "Codes": [
         {
           "Name": "ASIN",
@@ -21634,7 +21635,7 @@
         }
       ],
       "PublicationDate": "",
-      "LastRelease": "",
+      "LastRelease": "2023-03-08",
       "Service": {
         "Name": "PA-APIv5",
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
@@ -21649,7 +21650,7 @@
       true,
       false
     ],
-    "Description": "書き味はよい。なんかインクか違うらしい。"
+    "Description": "Pilot 「ノックゾーン」シリーズのフリクションボールペン。インクが違うらしい。持った感触も書き味もよい。"
   },
   {
     "Book": {
@@ -28649,5 +28650,220 @@
       false
     ],
     "Description": "\u003ca href=\"https://www.youtube.com/shorts/WQCBtj3WUnU\"\u003e計画通り\u003c/a\u003e（笑） \u003ca href=\"https://mora.jp/package/43000066/CVRD-496H/\"\u003emora\u003c/a\u003e で高解像度版が買える。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0D8TJJGNJ",
+      "Title": "Anker Smart Pouch Supported by KOKUYO コンパクトポーチ トラベルガジェットポーチ ガジェットポーチ バック 旅行 出張 収納 小物入れCompact",
+      "URL": "https://www.amazon.co.jp/dp/B0D8TJJGNJ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/21lMQ2JRvhL._SL160_.jpg",
+        "Height": 160,
+        "Width": 106
+      },
+      "ProductType": "オフィス用品",
+      "Publisher": "Anker",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0D8TJJGNJ"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0194644206024"
+        },
+        {
+          "Name": "UPC",
+          "Value": "194644206024"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-11-16",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "Anker と KOKUYO のコラボ製品。ポケット多めで整理しやすい。見た目より収納できる。タブレット等の簡易スタンドとしても使える（らしい）。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B093L6298K",
+      "Title": "Anker PowerLine III Flow USB-C \u0026 USB-C ケーブル Anker絡まないケーブル 100W 結束バンド付き USB PD対応 シリコン素材採用 iPhone 16 / 15 Galaxy iPad Pro MacBook Pro/Air 各種対応 (0.9m ミッドナイトブラック)",
+      "URL": "https://www.amazon.co.jp/dp/B093L6298K?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31szwAgU1ES._SL160_.jpg",
+        "Height": 160,
+        "Width": 128
+      },
+      "Publisher": "Anker",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B093L6298K"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0194644145316"
+        },
+        {
+          "Name": "UPC",
+          "Value": "194644145316"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-05-05",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "100W充電対応のケーブルが欲しかったので購入。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BQR8RZHB",
+      "Title": "Pilot パイロット フリクションボールノックゾーン 0.5mm ミッドナイトネイビー LFBKZ-50EF-MNV",
+      "URL": "https://www.amazon.co.jp/dp/B0BQR8RZHB?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/217NTspcDgL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "オフィス用品",
+      "Publisher": "パイロット(Pilot)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BQR8RZHB"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4902505646546"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2023-03-08",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-05-05",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "Pilot 「ノックゾーン」シリーズのフリクションボールペン。インクが違うらしい。持った感触も書き味もよい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07Y8BPVV4",
+      "Title": "BitTradeOne ADUSBCIM USB CABLE CHECKER 2",
+      "URL": "https://www.amazon.co.jp/dp/B07Y8BPVV4?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/416Wfjf1a8L._SL160_.jpg",
+        "Height": 89,
+        "Width": 160
+      },
+      "ProductType": "Personal Computers",
+      "Publisher": "Bit Trade One",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07Y8BPVV4"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4562469772981"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2019-10-05",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-11-16",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "USB ケーブルの確認用に購入。\u003ca href=\"https://item.rakuten.co.jp/r-kojima/4562469772981/?scid=af_pc_etc\u0026sc2id=af_101_0_0\"\u003e楽天\u003c/a\u003eで買うほうが確実かもしれない。 USB 3.2 まで対応している。電池（CR2032）駆動。マニュアルは\u003ca href=\"https://github.com/bit-trade-one/ADUSBCIM-USBCableChecker2\"\u003eこちら\u003c/a\u003e。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B095RZKWRV",
+      "Title": "Anker USB-C \u0026 USB-C Thunderbolt 4 100W ケーブル 0.7m ブラック 100W出力 8K対応 40 Gbps 高速データ転送 iPhone 15 MacBook Air Pro iPad Pro/Air 他対応",
+      "URL": "https://www.amazon.co.jp/dp/B095RZKWRV?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31gkF98KPJS._SL160_.jpg",
+        "Height": 160,
+        "Width": 128
+      },
+      "Publisher": "Anker",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B095RZKWRV"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0194644069674"
+        },
+        {
+          "Name": "UPC",
+          "Value": "194644069674"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-11-16",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "1本くらいフルスペックのケーブルが欲しかったので発注。お高いケーブル。"
   }
 ]
