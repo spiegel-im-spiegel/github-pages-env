@@ -28865,5 +28865,48 @@
       false
     ],
     "Description": "1本くらいフルスペックのケーブルが欲しかったので発注。お高いケーブル。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DMVBX6WC",
+      "Title": "まつたけダンス",
+      "URL": "https://www.amazon.co.jp/dp/B0DMVBX6WC?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41Jz6a7qp1L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "儒烏風亭らでん",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "cover corp.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DMVBX6WC"
+        }
+      ],
+      "PublicationDate": "2024-11-14",
+      "LastRelease": "2024-11-14",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-11-17",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "「儒烏風亭らでん」きのこシリーズのこれが始まりの曲（笑） \u003ca href=\"https://mora.jp/package/43000066/CVRD-499H/\"\u003emora\u003c/a\u003e で高解像度版が買える。ちょっとまつたけ〜♪"
   }
 ]
