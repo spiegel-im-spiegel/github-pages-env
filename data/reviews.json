@@ -28856,15 +28856,15 @@
       }
     },
     "Date": "2024-11-16",
-    "Rating": 0,
+    "Rating": 4,
     "Star": [
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
       false
     ],
-    "Description": "1本くらいフルスペックのケーブルが欲しかったので発注。お高いケーブル。"
+    "Description": "1本くらいフルスペックのケーブルが欲しかったので購入。お高いケーブル。"
   },
   {
     "Book": {
@@ -28899,6 +28899,49 @@
       }
     },
     "Date": "2024-11-17",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "「儒烏風亭らでん」きのこシリーズのこれが\u003ca href=\"https://www.youtube.com/shorts/EzOBsAYDOKM\"\u003e始まりの曲\u003c/a\u003e（笑） \u003ca href=\"https://mora.jp/package/43000066/CVRD-499H/\"\u003emora\u003c/a\u003e で高解像度版が買える。ちょっとまつたけ〜♪"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DB51XXGF",
+      "Title": "令和7年神宮館高島暦",
+      "URL": "https://www.amazon.co.jp/dp/B0DB51XXGF?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/519QWOUsLHL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "神宮館編集部",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "神宮館",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DB51XXGF"
+        }
+      ],
+      "PublicationDate": "2024-08-04",
+      "LastRelease": "2024-08-15",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-11-17",
     "Rating": 0,
     "Star": [
       false,
@@ -28907,6 +28950,57 @@
       false,
       false
     ],
-    "Description": "「儒烏風亭らでん」きのこシリーズのこれが\u003ca href=\"https://www.youtube.com/shorts/EzOBsAYDOKM\"\u003e始まりの曲\u003c/a\u003e（笑） \u003ca href=\"https://mora.jp/package/43000066/CVRD-499H/\"\u003emora\u003c/a\u003e で高解像度版が買える。ちょっとまつたけ〜♪"
+    "Description": "Kindle 版がある。昔は親が毎年買っていたのだが近年は実家で見かけないな。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4416723660",
+      "Title": "天文年鑑 2025年版",
+      "URL": "https://www.amazon.co.jp/dp/4416723660?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/317XDfcuC0L._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "天文年鑑編集委員会",
+          "Role": "編集"
+        }
+      ],
+      "Publisher": "誠文堂新光社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4416723660"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784416723661"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4416723660"
+        }
+      ],
+      "PublicationDate": "2024-12-05",
+      "LastRelease": "2024-12-05",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-11-17",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "天文ファン必携。2025年版。これが届くと年末って感じ。"
   }
 ]
