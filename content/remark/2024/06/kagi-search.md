@@ -191,6 +191,9 @@ Kagiで検索すると、Google、Yandex、Mojeek、Braveなどの従来の検�
 
 ## ブックマーク
 
+- [Kagi Translate - We speak your language | Kagi Blog](https://blog.kagi.com/kagi-translate) : 翻訳サービスがローンチされた
+  - [【実例あり】Kagi TranslateはGoogle翻訳・DeepLを超えるのか検証してみた｜れい - やさしいAIシェアマーケティング](https://note.com/rei_matsu/n/nc2d9629837c2)
+
 - [Google検索結果からAIによるまとめを排除するフィルタ「&udm=14」 - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20240527/udm14)
 - [Googleからウェブサイトへのトラフィックがゼロになる日 – WirelessWire News](https://wirelesswire.jp/2024/06/86654/)
 

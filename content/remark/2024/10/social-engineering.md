@@ -76,6 +76,7 @@ www
 - [Bluesky、サブスクリプションサービスを準備中 ｰ ユーザー数は先月から300万人増の1,300万人超に | 気になる、記になる…](https://taisy0.com/2024/10/25/205353.html)
 - [Bluesky、1500万ドル調達　追加機能が使えるサブスクプラン開発中 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2410/25/news110.html)
 - [Blueskyとメタクソ化 | p2ptk[.]org](https://p2ptk.org/monopoly/5000)
+- [ongoing by Tim Bray · Why Not Bluesky](https://www.tbray.org/ongoing/When/202x/2024/11/15/Not-Bluesky)
 
 [AT Protocol]: https://atproto.com/ "AT Protocol"
 
