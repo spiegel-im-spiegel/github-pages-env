@@ -29002,5 +29002,56 @@
       false
     ],
     "Description": "天文ファン必携。2025年版。これが届くと年末って感じ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4886219454",
+      "Title": "古代出雲の氏族と社会 (47) (同成社古代史選書 47)",
+      "URL": "https://www.amazon.co.jp/dp/4886219454?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31r-eBUnrQL._SL160_.jpg",
+        "Height": 160,
+        "Width": 106
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "武廣 亮平",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "同成社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4886219454"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784886219459"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4886219454"
+        }
+      ],
+      "PublicationDate": "2024-03-11",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-11-24",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "「\u003ca href=\"https://shimane-kodaibunka.jp/sympo/sympo-3424/\"\u003e島根の歴史文化講座 2024\u003c/a\u003e」で講師をされた武廣亮平さんの著作。興味本位で買うには躊躇するお値段だが，買っておくか。"
   }
 ]
