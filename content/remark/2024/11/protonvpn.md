@@ -28,8 +28,15 @@ pageType = "text"
 
 - [Proton VPN: 速くて安全なVPN - Apps on Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
 
-予想されたことだが，無料版では本当に必要最小限の機能しか提供されないようだ（日本リージョンのAPには繋がる）。
-まぁそりゃそうだろう，ということでサブスクリプションの料金表を眺めてみる。
+予想されたことだが，無料版では本当に必要最小限の機能しか提供されないようだ。
+
+- 日本リージョンのAPには繋がる
+- マルウェアやトラッカーやアプリ上の広告をブロックする NetShield が使えない
+- スプリット（アプリや IP アドレスによって経路を分ける）が使えない
+- LAN 上の機器に（VPN を避けて）アクセスできない
+- プロトコルの指定ができない
+
+まぁそりゃそうだろう，ということで無料版は諦めてサブスクリプションの料金表を眺めてみる。
 
 {{< fig-img-quote src="./price-of-protonvpn.png" title="Pricing | Proton VPN" link="https://protonvpn.com/pricing" width="935" lang="en" >}}
 
@@ -39,7 +46,7 @@ Google の各サービスから置き換えたいなら Proton Unlimited もア�
 {{< fig-img-quote src="./black-friday.png" title="Proton BLACK FRIDAY" link="./black-friday.png" lang="en" >}}
 
 よしよし。
-これで買ってしまえ！
+これで買ってしまえ！ 来年のことは来年考える。
 
 というわけで無事に購入し，スマホアプリもフル機能が使えるようになった。
 
