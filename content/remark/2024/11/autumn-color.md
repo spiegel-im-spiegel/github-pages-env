@@ -1,12 +1,11 @@
 +++
 title = "紅葉狩り2024（お散歩カメラ 2024-11-30）"
-date =  "2024-11-30T17:32:50+09:00"
+date =  "2024-11-30T19:54:30+09:00"
 description = "今日も八雲温泉 / 松江城で紅葉狩り"
 image = "/remark/2024/11/autumn-color/54173750734_cae66d63fc_o.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "bike" ]
 license = "by"
 pageType = "photo"
-draft = true
 
 [scripts]
   mathjax = false
