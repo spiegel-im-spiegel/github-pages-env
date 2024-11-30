@@ -29043,15 +29043,58 @@
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2024-11-24",
-    "Rating": 0,
+    "Date": "2024-11-26",
+    "Rating": 4,
     "Star": [
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
       false
     ],
-    "Description": "「\u003ca href=\"https://shimane-kodaibunka.jp/sympo/sympo-3424/\"\u003e島根の歴史文化講座 2024\u003c/a\u003e」で講師をされた武廣亮平さんの著作。興味本位で買うには躊躇するお値段だが，買っておくか。"
+    "Description": "「\u003ca href=\"https://shimane-kodaibunka.jp/sympo/sympo-3424/\"\u003e島根の歴史文化講座 2024\u003c/a\u003e」で講師をされた武廣亮平さんの著作。興味本位で買うには躊躇するお値段だし地元の県立図書館でも借りれるが，じっくり読みたいので買ってみた。著者の過去の論文を再構成した内容。記紀などの史料や過去の研究者の膨大な文献を整理した上で古代出雲についての考察を行う。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00DFUFWUA",
+      "Title": "向かい風",
+      "URL": "https://www.amazon.co.jp/dp/B00DFUFWUA?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51HEVRoYq4L._SL160_.jpg",
+        "Height": 140,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "YOHKO",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "FlyingDog",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00DFUFWUA"
+        }
+      ],
+      "PublicationDate": "2013-01-30",
+      "LastRelease": "2013-07-09",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2017-03-05",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ「まおゆう魔王勇者」のOP曲。かっこいいメロディに文脈不明の（でも何となく通じる）言葉の羅列が面白い。当時はカラオケで歌いまくった（笑）"
   }
 ]
