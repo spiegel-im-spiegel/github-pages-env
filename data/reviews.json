@@ -29096,5 +29096,91 @@
       false
     ],
     "Description": "アニメ「まおゆう魔王勇者」のOP曲。かっこいいメロディに文脈不明の（でも何となく通じる）言葉の羅列が面白い。当時はカラオケで歌いまくった（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B005SY3LUY",
+      "Title": "おたふく手袋 冬用インナー 長袖 ハイネック [保温 吸汗速乾 コンプレッション メンズ] JW-170 ホワイト M",
+      "URL": "https://www.amazon.co.jp/dp/B005SY3LUY?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/317g8kNr-4L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "Tools \u0026 Hardware",
+      "Publisher": "おたふく手袋(Otafuku Glove)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B005SY3LUY"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4970687608690"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-11-23",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "主に通勤で使うので白を選択。ダイエットでLサイズがオーバサイズになったのでMサイズで買い直した。着ている間はそれほどの締めつけ感はないし（スポーツ用なので当たり前だが）動きを阻害しない。寒くない。自転車を漕いでいても，いい感じに汗を排出している感じ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CD6L52NZ",
+      "Title": "[Amazon Essentials] ストレッチボクサーパンツ",
+      "URL": "https://www.amazon.co.jp/dp/B0CD6L52NZ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41Bi87pgdzL._SL160_.jpg",
+        "Height": 160,
+        "Width": 123
+      },
+      "ProductType": "ウェア\u0026シューズ",
+      "Publisher": "Amazon Essentials",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CD6L52NZ"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0197153061221"
+        },
+        {
+          "Name": "UPC",
+          "Value": "197153061221"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-11-23",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "本来はトランクス派なのだが，冬はスポーツタイツを履くため，ぴったりするボクサーパンツを導入することにした。でも締めつけ感はなし。布が薄いので「ちょい漏れ」が気になる方は\u003ca href=\"https://www.amazon.co.jp/dp/B015BLEQ3Y?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1\"\u003e尿漏れパッド\u003c/a\u003eと組み合わせるとよい。"
   }
 ]
