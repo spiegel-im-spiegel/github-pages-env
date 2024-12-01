@@ -2,7 +2,7 @@
 title = "冬用インナーのサイズダウンと自転車をオーバーホールに出した話"
 date =  "2024-12-01T19:14:01+09:00"
 description = "帰りにコメダ喫茶店に寄ったら逆写真詐欺に遭う。デカくてグラコロにかぶりつけねーよ！"
-image = "/images/attention/site.jpg"
+image = "/images/attention/bike.jpg"
 tags = [ "bike", "gear", "tools" ]
 pageType = "text"
 
