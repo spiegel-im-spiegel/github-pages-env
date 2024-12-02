@@ -20,7 +20,7 @@ pageType = "text"
 - [How some of the world's most brilliant computer scientists got password policies so wrong | Mildly-Aggrieved (not mad!) Scientist](https://stuartschechter.org/posts/password-history/)
 
 これは古のパスワード生成ルール「パスワード文字列は英数字と記号の三種盛りにしろ」とか「パスワードは定期的に変更しませう」とかの元ネタが何かって話らしい。
-記事によると Robert Morris さんと Ken Thompson さんが1979年11月に公開した ”{{< pdf-file link="https://dl.acm.org/doi/pdf/10.1145/359168.359172" title="Password Security: A Case History">}}” という論文が大元なんだとか。
+記事によると Robert Morris さんと Ken Thompson さんが1979年11月に公開した “{{< pdf-file link="https://dl.acm.org/doi/pdf/10.1145/359168.359172" title="Password Security: A Case History">}}” という論文が大元なんだとか。
 Ken Thompson さんは Go 言語開発者のひとりなんだね。
 
 {{< fig-quote type="markdown" title="How some of the world's most brilliant computer scientists got password policies so wrong" link="https://stuartschechter.org/posts/password-history/" lang="en" >}}
@@ -60,9 +60,11 @@ Storing numeric hashes instead of the passwords can protect users whose password
 いや，パスワードを（ハッシュ化ではなく）暗号化するのはいいけど，その鍵をどうやって管理するのかって話ですよ。
 厳格な管理が要求される Bitcoin 交換所でもたまに漏洩事件が起きたりするんだよ。
 
-もしもの話として，パスワードを公開鍵暗号の公開鍵で暗号化するとして，ひとつの鍵ペアで全部のパスワードを暗号化するわけないし（そんなことして万が一秘密鍵が解読されたり漏れりしたら全ユーザのパスワードが晒されてしまう），そうなるとユーザごとに鍵ペアが必要ってことになるだろう（無数の鍵ペアを使うにしても秘密鍵をひとつところに置いていれば同じことだがw）。
+もしもの話として，パスワードを公開鍵暗号の公開鍵で暗号化するとして，ひとつの鍵ペアで全部のパスワードを暗号化するわけないし（そんなことして万が一秘密鍵が解読されたり漏れりしたら全ユーザのパスワードが晒されてしまう），そうなるとユーザごとに鍵ペアが必要ってことになるだろう（無数の鍵ペアを使うにしても秘密鍵をひとつところに置いていれば同じことだがw）[^p1]。
 つか，そんなことするくらいならパスワード認証なんかやめて公開鍵暗号を使って認証すればいいぢゃん。
 ssh みたいに。
+
+[^p1]: さらに別のもしもの話として，生のパスワード情報を暗号化してどっかに保持って（実際の認証ではなく）統計情報にのみ使うとして，その結果をユーザの行動にどう反映させるのか，という問題もある。メディアで定期的にヤバいパスワードランキングが公表されるが，あれはそういったパスワード情報が既に攻撃手段として用いられている（だろう）と分かってるからできることだ。拙文「[「パスワードのベストプラクティス」が変わる]({{< ref "/remark/2017/10/changes-in-password-best-practices.md" >}})」でも書いてるが「**パスワードを覚えるなんて脳みその無駄使い**」である。人間は複雑というか予測不能な文字列をいくつも思いつけるようにはできていない。パスワード認証を使うならパスワード管理ツールで生成も管理も任せてしまったほうが安全ってことだと思う。
 
 パスワード生成のルール化はどちらかというとユーザ体験（UX; User eXperience）の問題と言える。
 パスワードの複雑化や定期更新を強制するのは，そのほうがシステム管理側が楽だからだ。
