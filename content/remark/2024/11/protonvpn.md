@@ -46,7 +46,7 @@ Google の各サービスから置き換えたいなら Proton Unlimited もア�
 {{< fig-img-quote src="./black-friday.png" title="Proton BLACK FRIDAY" link="./black-friday.png" lang="en" >}}
 
 よしよし。
-これで買ってしまえ！ 来年のことは来年考える。
+これで買ってしまえ！ 来年のことは来年の私が考える。
 
 というわけで無事に購入し，スマホアプリもフル機能が使えるようになった。
 
@@ -61,7 +61,7 @@ Google の各サービスから置き換えたいなら Proton Unlimited もア�
 今どきの VPN ってこんな感じなんだねぇ。
 細かい機能とかはおいおい調べていこう。
 
-とりあえず，来年 Freedome の契約が来れるまでに手持ちの全マシンに仕込んでいかないと。
+とりあえず，来年 Freedome の契約が切れるまでに手持ちの全マシンに仕込んでいかないと。
 
 [Proton VPN]: https://protonvpn.com/ "Proton VPN: Secure, fast VPN service in 110+ countries"
 [Proton Mail]: https://proton.me/mail "Proton Mail: Get a private, secure, and encrypted email account | Proton"
