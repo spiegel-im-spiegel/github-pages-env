@@ -52,6 +52,7 @@ pageType = "text"
 ### [Have fun why not](https://docs.google.com/presentation/d/1XPRzvgzHdGFtaawGHmVlssijzvD40zISW7wQGv3uf8o/edit?usp=sharing) by [原悠](https://yhara.jp/) ([@yhara](https://x.com/yhara))
 
 自作キーボードについてのガイダンス的な発表。
+助かる。
 60%とか40%とか30%とかいうキーボードの分類の仕方を初めて知った（たとえば有名な [HHKB](https://happyhackingkb.com/ "Happy Hacking Keyboard Microsite | PFU") は60%）。
 特に面白かったのは，キーボードの話にはあまり関係ないが
 
@@ -70,15 +71,15 @@ pageType = "text"
 
 ### ["Actual" Security in Microcontroller Ruby!?](https://speakerdeck.com/sylph01/actual-security-in-microcontroller-ruby) by [sylph01](https://s01.ninja/) ([@s01](https://x.com/s01))
 
-自作キーボードの制御に使われているらしい [Raspberry Pi Pico] および [Raspberry Pi Pico 2] では WiFi 接続ができるそうな。
+自作キーボードの制御に使われている [Raspberry Pi Pico] および [Raspberry Pi Pico 2] では WiFi 接続ができるそうな。
 しかもファームウェアである [picoruby/prk_firmware] も WiFi 制御に対応してるんだと。
 さらに [Raspberry Pi Pico 2] のほうは SRAM がほぼ倍（520MB）になったそうで，単純な制御ではなくもっと色々なことができるようになったわけだ。
-しかも前節にあるようにファームウェアの書き換えは容易（スクリプトキディには無理かもしれないが）。
+さらにさらに前節にあるようにファームウェアの書き換えは容易という話（スクリプトキディには無理かもしれないが）。
 
 これで何が起きるかというと，自作キーボード経由で不正アクセスがしやすくなるということだ。
 これを防ぐのが Secure Boot や Encryptd Boot らしい。
 
-まぁ，キーボードが programmable になれば当然そうなるよな。
+まぁ，キーボードを PC (Programmable Controller) として構成すれば当然そうなるよな。
 面白い！
 
 ### わたしのキーボード by [まつもとゆきひろ](https://matz.rubyist.net/) ([@yukihiro_matz](https://x.com/yukihiro_matz))
@@ -94,19 +95,19 @@ pageType = "text"
 
 さらにファンクションキーは独立したものが欲しいらしい。
 これに関しては同意する。
-ファンクションキーは結構使うし，コンビネーション・キーと組み合わせたキーアサインは少ないほういいと私も思う。
+ファンクションキーは結構使うし，コンビネーション・キーと組み合わせたキーアサインは少ないほうがいいと私も思う。
 
 ### 30%キーボード発想法 by [みなも♨️30%](https://scrapbox.io/self-made-kbds-ja/minamo) ([@X___MOON___X](https://x.com/X___MOON___X))
 
 これもスライドの公開はないのかな。
 うろ覚えですまん。
 
-30%キーボードってのは概ね以下のようなキーで構成されているキーボードらしい。
+最初に紹介した発表から引用するが，30%キーボードってのは概ね以下のようなキーで構成されているキーボードらしい。
 
 {{< fig-img-quote src="./have-fun-why-not-2.png" title="Have fun why not" link="https://docs.google.com/presentation/d/1XPRzvgzHdGFtaawGHmVlssijzvD40zISW7wQGv3uf8o/edit?usp=sharing" width="1230" >}}
 
 たとえば60%だとキーの配列の自由度がなくなって，どれも似たようなレイアウトになるらしい。
-せいぜい分割にするとか。
+せいぜい分割にするとかかな。
 キーの数を極端に減らすことでタイプライタ由来のレイアウトの軛から外れ自由な設計ができる，という話が興味深かった。
 
 ## 感想
@@ -129,7 +130,9 @@ pageType = "text"
 もしやるなら金に飽せて得意な人にやってもらうって感じになるだろうか。
 
 まぁ，しばらくはキーボードには手を出すまいと思った。
-ファームウェアをいじるのは面白そうだし「キーボードガチ勢でもないのに全部他人の仕事でごそごそやっていたら新聞に載ってしまった件 (by [東裕人](https://github.com/HirohitoHigashi))」で紹介されているような特殊用途のキーボードとかなら興味あるけど。
+ファームウェアをいじるのは面白そうだし「キーボードガチ勢でもないのに全部他人の仕事でごそごそやっていたら新聞に載ってしまった件 (by [東裕人](https://github.com/HirohitoHigashi))」で紹介されているような特殊用途のキーボードとかなら興味あるけど[^kb2]。
+
+[^kb2]: そういえば {{% keytop %}}`SShift`{{% /keytop %}} や {{% keytop %}}`Ctrl`{{% /keytop %}} といったコンビネーションキーをフットペダルにアサインした製品を見かけたことがあるな。特定用途というなら FPS (First-Person Shooter) とかでキーボード入力する人なら30%キーボードはむしろ需要があるかも？ ハードウェア要件が厳しいかもだけど。
 
 広島にいた頃から Ruby 案件には恵まれてなくて，仕事で全く使ったことがない。
 仕事以外では C/C++ か Java か [Go] で，今は [Go] 一辺倒なので，松江地元にいてこれでいいのか？ という気はチョットしている。
