@@ -28992,14 +28992,14 @@
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2024-11-17",
-    "Rating": 4,
+    "Date": "2024-12-05",
+    "Rating": 5,
     "Star": [
       true,
       true,
       true,
       true,
-      false
+      true
     ],
     "Description": "天文ファン必携。2025年版。これが届くと年末って感じ。"
   },
@@ -29182,5 +29182,89 @@
       false
     ],
     "Description": "本来はトランクス派なのだが，冬はスポーツタイツを履くため，ぴったりするボクサーパンツを導入することにした。でも締めつけ感はなし。布が薄いので「ちょい漏れ」が気になる方は\u003ca href=\"https://www.amazon.co.jp/dp/B015BLEQ3Y?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1\"\u003e尿漏れパッド\u003c/a\u003eと組み合わせるとよい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0D95B4F97",
+      "Title": "イノベーター 2025年 カレンダー 卓上 スリム 31353006",
+      "URL": "https://www.amazon.co.jp/dp/B0D95B4F97?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41d92+tQq6L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "－",
+      "Publisher": "ミドリ(MIDORI)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0D95B4F97"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4902805313537"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2024-08-28",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-12-06",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "パソコンモニタの下に置ける卓上カレンダー。文字が大きく太いので見やすい。毎年恒例で買っている。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00IOGFPBG",
+      "Title": "姫のためなら死ねる　（１） (バンブーコミックス WINセレクション)",
+      "URL": "https://www.amazon.co.jp/dp/B00IOGFPBG?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51TkaWCfNHL._SL160_.jpg",
+        "Height": 160,
+        "Width": 111
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "くずしろ",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "竹書房",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00IOGFPBG"
+        }
+      ],
+      "PublicationDate": "2011-05-07",
+      "LastRelease": "2014-03-07",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2015-01-11",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "変態 清少納言を中心としたコメディ平安史（笑） 読んでるとこっちのほうが正史では？とか思ってしまう（笑）"
   }
 ]
