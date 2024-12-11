@@ -84,8 +84,18 @@ pageType = "text"
 
 {{< fig-img src="./54029197511_ee66e86495_e.jpg" title="今日の宍道湖 | Flickr" link="https://www.flickr.com/photos/spiegel/54029197511/" >}}
 
+## 2024-12-12 資料追加
+
+「[島根の歴史文化講座 2024]」の動画と当時打つ配布された資料が PDF で上がっていた。
+ありがたや {{% emoji "ペコン" %}}
+
+{{< fig-youtube id="ttakabR43dI" title="もっと知りたい島根の歴史　第１講　「東西出雲の王」 - YouTube" >}}
+
+- {{< pdf-file title="PDF 資料" link="https://shimane-kodaibunka.jp/wp-content/uploads/2024/11/R6-1rekishibunka.pdf" >}}
+
 [松江水燈路]: https://www.suitouro.jp/ "【公式サイト】松江水燈路 2024|9.28-10.20の(土,日,祝) 開催"
 [松江テルサ]: https://www.matsue-terrsa.jp/ "松江テルサ"
+[島根の歴史文化講座 2024]: https://shimane-kodaibunka.jp/sympo/sympo-3424/ "島根の歴史文化講座 2024 | 島根県古代文化センター"
 
 ## 参考
 

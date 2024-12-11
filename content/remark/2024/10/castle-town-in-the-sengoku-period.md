@@ -77,6 +77,15 @@ pageType = "text"
 
 おつかれさまでした。
 
+## 2024-12-12 資料追加
+
+「[島根の歴史文化講座]」の動画と当時打つ配布された資料が PDF で上がっていた。
+ありがたや {{% emoji "ペコン" %}}
+
+{{< fig-youtube id="cP-Y_PIGy1E" title="もっと知りたい島根の歴史　第１講　「東西出雲の王」 - YouTube" >}}
+
+- {{< pdf-file title="PDF 資料" link="https://shimane-kodaibunka.jp/wp-content/uploads/2024/11/R6-2rekishibunka.pdf" >}}
+
 [島根の歴史文化講座]: https://shimane-kodaibunka.jp/sympo/sympo-3424/ "島根の歴史文化講座 2024 | 島根県古代文化センター"
 [松江テルサ]: https://www.matsue-terrsa.jp/ "松江テルサ"
 [月山富田城跡]: https://maps.app.goo.gl/UPys8XthEAm7FDe37
