@@ -29266,5 +29266,56 @@
       false
     ],
     "Description": "変態 清少納言を中心としたコメディ平安史（笑） 読んでるとこっちのほうが正史では？とか思ってしまう（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4295019313",
+      "Title": "【購入者限定特典付き】カレンダー2025 KAGAYA奇跡の風景CALENDAR 天空からの贈り物（月めくり/壁掛け/「オリジナルスマホ壁紙」データ配信） (インプレスカレンダー2025)",
+      "URL": "https://www.amazon.co.jp/dp/4295019313?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51FS9QKKWiL._SL160_.jpg",
+        "Height": 124,
+        "Width": 160
+      },
+      "ProductType": "カレンダー",
+      "Creators": [
+        {
+          "Name": "KAGAYA",
+          "Role": "写真"
+        }
+      ],
+      "Publisher": "インプレス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4295019313"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784295019312"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4295019313"
+        }
+      ],
+      "PublicationDate": "2024-09-13",
+      "LastRelease": "2024-09-13",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-09-15",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "ついカッとなってポチった。反省はしない。美麗な天体写真で有名な KAGAYA さんの作品がカレンダーになった。つか，書籍扱いなんだな，これ。"
   }
 ]
