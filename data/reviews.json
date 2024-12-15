@@ -24101,13 +24101,13 @@
       }
     },
     "Date": "2023-11-15",
-    "Rating": 4,
+    "Rating": 5,
     "Star": [
       true,
       true,
       true,
       true,
-      false
+      true
     ],
     "Description": "主に通勤用に使っている。着ている間はそれほどの締めつけ感はないし（スポーツ用なので当たり前だが）動きを阻害しない。寒くない。自転車を漕いでいても，いい感じに汗を排出している感じ。前とじで「社会の窓」は空いてないので注意。"
   },
@@ -29128,13 +29128,13 @@
       }
     },
     "Date": "2024-11-23",
-    "Rating": 4,
+    "Rating": 5,
     "Star": [
       true,
       true,
       true,
       true,
-      false
+      true
     ],
     "Description": "主に通勤で使うので白を選択。ダイエットでLサイズがオーバサイズになったのでMサイズで買い直した。着ている間はそれほどの締めつけ感はないし（スポーツ用なので当たり前だが）動きを阻害しない。寒くない。自転車を漕いでいても，いい感じに汗を排出している感じ。"
   },
@@ -29532,5 +29532,93 @@
       false
     ],
     "Description": "VTuber が歌枠で歌ってるのを聴いて，懐かしくなって衝動買い。昔，カラオケで歌おうとしたがサビしか分からなかった悲しい過去がある（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DNYMMBBQ",
+      "Title": "Go言語で学ぶ並行プログラミング　他言語にも適用できる原則とベストプラクティス impress top gearシリーズ",
+      "URL": "https://www.amazon.co.jp/dp/B0DNYMMBBQ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51wZEHUKZiL._SL160_.jpg",
+        "Height": 160,
+        "Width": 125
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "James Cutajar",
+          "Role": "著"
+        },
+        {
+          "Name": "柴田 芳樹",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "インプレス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DNYMMBBQ"
+        }
+      ],
+      "PublicationDate": "2024-12-04",
+      "LastRelease": "2024-12-04",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-12-15",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "とりあえず\u003ca href=\"https://technical-book-reading-2.connpass.com/event/337562/\"\u003e読書会\u003c/a\u003eのために購入。読むのはこれから。版元で \u003ca href=\"https://book.impress.co.jp/books/1123101144\"\u003ePDF 版\u003c/a\u003eが買える。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CDPH5W49",
+      "Title": "おたふく手袋 冬用蓄熱インナーグローブ[軽防寒 タッチパネル対応 蓄熱手袋]JW-145 ブラック Mサイズ",
+      "URL": "https://www.amazon.co.jp/dp/B0CDPH5W49?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41TMiyzZCsL._SL160_.jpg",
+        "Height": 160,
+        "Width": 117
+      },
+      "ProductType": "ウェア\u0026シューズ",
+      "Publisher": "おたふく手袋(Otafuku Glove)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CDPH5W49"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4970687291922"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-12-15",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "サイクルグローブの下に着けるインナーグローブとして購入。単独でも（吹きっさらしでなければ）まぁまぁ温かい。薄手なので着けたまま細かい作業が可能。スマホ操作も問題なし。"
   }
 ]
