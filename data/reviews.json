@@ -29317,5 +29317,220 @@
       false
     ],
     "Description": "ついカッとなってポチった。反省はしない。美麗な天体写真で有名な KAGAYA さんの作品がカレンダーになった。つか，書籍扱いなんだな，これ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09K7ZW9KD",
+      "Title": "冬の贈り物 イルカアーカイブVol.7",
+      "URL": "https://www.amazon.co.jp/dp/B09K7ZW9KD?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/519eJGb95FL._SL160_.jpg",
+        "Height": 136,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "イルカ",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "日本クラウン株式会社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09K7ZW9KD"
+        }
+      ],
+      "PublicationDate": "2021-11-10",
+      "LastRelease": "2021-11-10",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-12-15",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "アルバム「ボヘミヤの森から」（通称ホワイトディスク）を含むクリスマスをテーマにした楽曲集。年末にオススメ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08NG7PY7X",
+      "Title": "BLUE ROSE knows",
+      "URL": "https://www.amazon.co.jp/dp/B08NG7PY7X?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51h3TlHI39L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "MindaRyn",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Lantis",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08NG7PY7X"
+        }
+      ],
+      "PublicationDate": "2020-11-18",
+      "LastRelease": "2020-11-18",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2020-12-06",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ「神達に拾われた男」ED曲。私はこれで MindaRyn さんのファンになりました。 \u003ca href=\"https://mora.jp/package/43000152/LACM-24065_HI-24_96/\"\u003emora\u003c/a\u003e で高解像度版が買える。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07R6NF9KQ",
+      "Title": "カルマ",
+      "URL": "https://www.amazon.co.jp/dp/B07R6NF9KQ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51rbbirVRdL._SL160_.jpg",
+        "Height": 159,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "BUMP OF CHICKEN",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "TOY'S FACTORY",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07R6NF9KQ"
+        }
+      ],
+      "PublicationDate": "2005-11-23",
+      "LastRelease": "2019-06-28",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2021-06-11",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "ゲーム「テイルズオブジアビス」テーマ曲。BUMP OF CHICKEN で唯一カラオケで歌える曲（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01BM8EJXW",
+      "Title": "夢色トリドリパレード♫",
+      "URL": "https://www.amazon.co.jp/dp/B01BM8EJXW?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61N8O9snEDL._SL160_.jpg",
+        "Height": 158,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "アース・スター ドリーム",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "EARTH STAR RECORDS",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01BM8EJXW"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2016-02-10",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2016-02-20",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ「魔法少女なんてもういいですから。」OP曲。可愛らしい曲。双見酔さんはよい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01G6DWR4G",
+      "Title": "月光",
+      "URL": "https://www.amazon.co.jp/dp/B01G6DWR4G?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51rOCpgWqHL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "鬼束ちひろ",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Universal Music LLC",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01G6DWR4G"
+        }
+      ],
+      "PublicationDate": "2016-06-01",
+      "LastRelease": "2016-06-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-12-11",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "VTuber が歌枠で歌ってるのを聴いて，懐かしくなって衝動買い。昔，カラオケで歌おうとしたがサビしか分からなかった悲しい過去がある（笑）"
   }
 ]
