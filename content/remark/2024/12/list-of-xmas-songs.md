@@ -1,8 +1,8 @@
 +++
 title = "2024年のクリスマスソング・リスト"
-date =  "2024-12-15T18:46:02+09:00"
+date =  "2024-12-15T18:49:56+09:00"
 description = "このご時世なら「セカイ」を dis る曲もクリスマスソングにカウントしていいのでは？"
-image = "/images/attention/kitten.jpg"
+image = "/images/attention/xmas-illumination.jpg"
 tags = [ "music" ]
 pageType = "text"
 
