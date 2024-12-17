@@ -18,7 +18,7 @@ pageType = "text"
 - [ASCII.jp：MIXI、新SNS「mixi2」開始　フォローした人の投稿が時系列で見えるシンプル仕様](https://ascii.jp/elem/000/004/241/4241230/)
 - [MIXI社、なんと新SNS「mixi2」をリリース。招待制のタイムライン式短文SNSで、懐かしの「mixi」とは別ものに - AUTOMATON](https://automaton-media.com/articles/newsjp/mixi-2-20241216-322078/)
 
-私はしばらくは何もせず静観するつもりだったのよ。
+私はしばらく何もせず静観するつもりだったのよ。
 でも Facebook の私の TL を眺めてたら招待状をぼつぼつ見かけるので，とりあえずアカウントだけ取っておくことにした。
 “[Plant Your Flag, Mark Your Territory](https://krebsonsecurity.com/2018/06/plant-your-flag-mark-your-territory/ "Plant Your Flag, Mark Your Territory – Krebs on Security")” ってやつ。
 
