@@ -29620,5 +29620,60 @@
       true
     ],
     "Description": "サイクルグローブの下に着けるインナーグローブとして購入。単独でも（吹きっさらしでなければ）まぁまぁ温かい。薄手なので着けたまま細かい作業が可能。スマホ操作も問題なし。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00005GFBE",
+      "Title": "魔法の天使クリィミーマミ SONG BOOK・カーテンコール",
+      "URL": "https://www.amazon.co.jp/dp/B00005GFBE?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/510NUwx+8BL._SL160_.jpg",
+        "Height": 141,
+        "Width": 160
+      },
+      "ProductType": "CD",
+      "Creators": [
+        {
+          "Name": "アニメ・サントラ",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "太田貴子",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "島津冴子",
+          "Role": "アーティスト"
+        }
+      ],
+      "Publisher": "徳間ジャパンコミュニケーションズ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00005GFBE"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4988008306538"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "1995-11-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-12-17",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "引越し時に泣く泣く手放したアルバム。 Amazon で1.5K円で売られてるのを見て買い戻した。反省はしない。未開封新品が手に入るとは思わなかった。「ロング・グッドバイ」「カーテンコール」の主題歌・挿入歌が収録されている。往年のファンには涙なくして聴けないアルバム。"
   }
 ]
