@@ -60,6 +60,7 @@ www
 ## ブックマーク
 
 - [デイヴ・ワイナーが語る「なぜ新しいソーシャルネットはかくもナイスなのか」 - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20230522/new-social-nets)
+- [「mixi2」なぜ登場？　ブラウザ版、広告や有料サービスは？　10の疑問を直撃してみた（1/2 ページ） - ITmedia Mobile](https://www.itmedia.co.jp/mobile/articles/2412/20/news163.html)
 
 [mixi2]: https://mixi.social/ "mixi2"
 
