@@ -126,12 +126,12 @@ pageType = "text"
 
 ## 【おまけ】 『Go言語で学ぶ並行プログラミング』 PDF 版を購入した
 
-来年からはじまる[読書会]に備えて『[Go言語で学ぶ並行プログラミング](https://www.amazon.co.jp/dp/B0DNYMMBBQ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon.co.jp: Go言語で学ぶ並行プログラミング　他言語にも適用できる原則とベストプラクティス impress top gearシリーズ eBook : James Cutajar, 柴田 芳樹: Kindleストア")』を購入した。
+来年からはじまる[読書会][読書会2]に備えて『[Go言語で学ぶ並行プログラミング](https://www.amazon.co.jp/dp/B0DNYMMBBQ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon.co.jp: Go言語で学ぶ並行プログラミング　他言語にも適用できる原則とベストプラクティス impress top gearシリーズ eBook : James Cutajar, 柴田 芳樹: Kindleストア")』を購入した。
 版元で [PDF 版](https://book.impress.co.jp/books/1123101144 "Go言語で学ぶ並行プログラミング　他言語にも適用できる原則とベストプラクティス - インプレスブックス")が買えるので，今回もこちらで。
 やっぱ技術参考書は PDF 版がいいよね。
 
 これから読む。
-感想は[読書会]が始まってからかなぁ。
+感想は[読書会][読書会2]が始まってからかなぁ。
 
 [自転車屋]: https://giant-store.jp/matsue/ "ジャイアントストア松江 ｜ ジャイアントストア松江の情報を発信しています。"
 [読書会]: https://yokohama-go-reading.connpass.com/event/337560/ "第64回横浜Go読書会（オンライン） - connpass"
@@ -140,7 +140,7 @@ pageType = "text"
 [熊野大社]: http://www.kumanotaisha.or.jp/ "出雲國一之宮　熊野大社"
 [八雲温泉ゆうあい熊野館]: https://www.kumanokan.jp/ "八雲温泉ゆうあい熊野館"
 [木次乳業]: https://www.kisuki-milk.co.jp/ "木次乳業"
-[読書会]: https://technical-book-reading-2.connpass.com/event/337562/ "第1回『Go言語で学ぶ並行プログラミング』オンライン読書会 - connpass"
+[読書会2]: https://technical-book-reading-2.connpass.com/event/337562/ "第1回『Go言語で学ぶ並行プログラミング』オンライン読書会 - connpass"
 
 ## 参考
 

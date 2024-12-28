@@ -23379,7 +23379,7 @@
       true,
       false
     ],
-    "Description": "Kindle 版が登場。若いエンジニアやエンジニアを目指す方々にはぜひ読んでみてほしい。"
+    "Description": "初版は2006年。当時は「プログラマ35歳定年説」とか言われてた頃で，仕事でも「私コード読めないので」とか平気で言う SE がいたりした。この本はそういう風潮に対するアンチテーゼになっていたわけだ。ただし中身は今でも十分通用すると思う。奇抜な内容ではないが，こういうのは継続することが重要だからなぁ。"
   },
   {
     "Book": {
@@ -29570,15 +29570,15 @@
       }
     },
     "Date": "2024-12-15",
-    "Rating": 0,
+    "Rating": 4,
     "Star": [
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
       false
     ],
-    "Description": "とりあえず\u003ca href=\"https://technical-book-reading-2.connpass.com/event/337562/\"\u003e読書会\u003c/a\u003eのために購入。読むのはこれから。版元で \u003ca href=\"https://book.impress.co.jp/books/1123101144\"\u003ePDF 版\u003c/a\u003eが買える。"
+    "Description": "とりあえず\u003ca href=\"https://technical-book-reading-2.connpass.com/event/337562/\"\u003e読書会\u003c/a\u003eのために購入。版元で \u003ca href=\"https://book.impress.co.jp/books/1123101144\"\u003ePDF 版\u003c/a\u003eが買える。サンプルコードは Go で書かれているが，原理的な解説が充実していて Go 以外の言語でも応用できる。\n"
   },
   {
     "Book": {
