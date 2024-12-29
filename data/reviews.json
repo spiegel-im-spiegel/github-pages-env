@@ -23379,7 +23379,7 @@
       true,
       false
     ],
-    "Description": "初版は2006年。当時は「プログラマ35歳定年説」とか言われてた頃で，仕事でも「私コード読めないので」とか平気で言う SE がいたりした。この本はそういう風潮に対するアンチテーゼになっていたわけだ。ただし中身は今でも十分通用すると思う。奇抜な内容ではないが，こういうのは継続することが重要だからなぁ。"
+    "Description": "初版は2006年。当時は「プログラマ35歳定年説」とか言われてた頃で，仕事でも「私はコード読めないので」とか平気で言う SE がいたりした。この本はそういう風潮に対するアンチテーゼになっていたわけだ。ただし中身は今でも十分通用すると思う。奇抜な内容ではないが，こういうのは継続することが重要だからなぁ。"
   },
   {
     "Book": {
@@ -29675,5 +29675,46 @@
       true
     ],
     "Description": "引越し時に泣く泣く手放したアルバム。 Amazon で1.5K円で売られてるのを見て買い戻した。反省はしない。未開封新品が手に入るとは思わなかった。「ロング・グッドバイ」「カーテンコール」の主題歌・挿入歌が収録されている。往年のファンには涙なくして聴けないアルバム。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08KHW2PSB",
+      "Title": "おたふく手袋 冬用防寒手袋 [背面防風 スベリ止め 反射テープ タッチパネル] JW-142 ブラック L",
+      "URL": "https://www.amazon.co.jp/dp/B08KHW2PSB?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31sfwAvSxKL._SL160_.jpg",
+        "Height": 160,
+        "Width": 65
+      },
+      "ProductType": "ウェア\u0026シューズ",
+      "Publisher": "おたふく手袋(Otafuku Glove)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08KHW2PSB"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4970687291687"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-12-19",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "手の甲側が防風加工されているのはいいのだが，自転車に乗るときはブレーキに手を添えているので，指先は全部防風してくれないかなぁ。インナーグローブと組み合わせれば0℃以上ならなんとか凌げる。氷点下ではたぶん無理。柔らかくて指が動かしやすいのはよい。"
   }
 ]
