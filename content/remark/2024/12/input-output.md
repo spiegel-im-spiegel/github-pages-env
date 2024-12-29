@@ -31,7 +31,7 @@ pageType = "text"
 
 ...では面白くないので続きを。
 
-この辺の記事を読んでて思い出したのは『[Effective Java](https://www.amazon.co.jp/dp/4621303252?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)』や『[プログラミング言語Go](https://www.amazon.co.jp/dp/4621300253?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)』の翻訳でおなじみ柴田芳樹さんが挙げておられる以下のイメージ図（グラフっぽいけど定量評価ではない）。
+この辺の記事を読んでて思い出したのは『[Effective Java](https://www.amazon.co.jp/dp/4621303252?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)』や『[プログラミング言語Go](https://www.amazon.co.jp/dp/4621300253?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1)』の翻訳でおなじみ柴田芳樹さんが挙げておられる以下のイメージ図だ（グラフっぽいけど定量評価ではない）。
 
 {{< fig-img-quote src="https://yshibata.c.blog.ss-blog.jp/_images/blog/_d3f/yshibata/E68890E995B7E382ABE383BCE38396.JPG" title="ソフトウェアエンジニアの成長カーブ（２）：柴田 芳樹 (Yoshiki Shibata)：SSブログ" link="https://yshibata.blog.ss-blog.jp/2010-01-27" width="1057" >}}
 
