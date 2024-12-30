@@ -39,6 +39,10 @@ pageType = "text"
 
 日本の暦はこれが国家公式データである。
 
+## ブックマーク
+
+- [ソフトウェア :: 六曜カレンダー - 公益財団法人 禅文化研究所](https://www.zenbunka.or.jp/software/rokuyo/) : Google カレンダーにインポート可能
+
 [国立天文台]: https://www.nao.ac.jp/ "国立天文台(NAOJ)"
 [暦計算室]: https://eco.mtk.nao.ac.jp/koyomi/ "国立天文台 天文情報センター 暦計算室"
 
