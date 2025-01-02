@@ -102,5 +102,5 @@ pageType = "photo"
 
 {{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
 {{% review-paapi "B08VMWL13F" %}} <!-- VAAM -->
-{{% review-paapi "B09JNPGVVZ" %}} <!-- POW BAR -->
+{{% review-paapi "B0DKHD735N" %}} <!-- POW BAR -->
 {{% review-paapi "B01721ECA8" %}} <!-- キャンディーズ -->

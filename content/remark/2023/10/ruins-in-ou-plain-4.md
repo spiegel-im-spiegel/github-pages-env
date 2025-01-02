@@ -143,4 +143,4 @@ pageType = "photo"
 {{% review-paapi "B08P54PQDB" %}} <!-- メッセンジャーバッグ -->
 {{% review-paapi "B06XDPTLDD" %}} <!-- ブドウ糖 -->
 {{% review-paapi "B08VMWL13F" %}} <!-- VAAM -->
-{{% review-paapi "B09JNPGVVZ" %}} <!-- POW BAR -->
+{{% review-paapi "B0DKHD735N" %}} <!-- POW BAR -->

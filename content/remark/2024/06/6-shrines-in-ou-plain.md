@@ -219,7 +219,7 @@ pageType = "photo"
 {{% review-paapi "B0BT1X9H7B" %}} <!-- 日焼け止め ミストタイプ -->
 {{% review-paapi "B09NRGCBY5" %}} <!-- 日焼け止め 乳液タイプ -->
 {{% review-paapi "B06XDPTLDD" %}} <!-- ブドウ糖 -->
-{{% review-paapi "B09JNPGVVZ" %}} <!-- POW BAR -->
+{{% review-paapi "B0DKHD735N" %}} <!-- POW BAR -->
 {{% review-paapi "B09Z6F7MGT" %}} <!-- OS-1 経口補水液 -->
 {{% review-paapi "B0CZQ9YF7Y" %}} <!-- Tシャツ シャーロック・ホームズ 221B BAKER STREET -->
 {{% review-paapi "B0BHYQWSXB" %}} <!-- She is Legend Job for a Rockstar ヘブンバーンズレッド（ヘブバン） -->

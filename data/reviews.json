@@ -29716,5 +29716,41 @@
       false
     ],
     "Description": "手の甲側が防風加工されているのはいいのだが，自転車に乗るときはブレーキに手を添えているので，指先は全部防風してくれないかなぁ。インナーグローブと組み合わせれば0℃以上ならなんとか凌げる。氷点下ではたぶん無理。柔らかくて指が動かしやすいのはよい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DKHD735N",
+      "Title": "POW BAR パウバー イチジク＆ヘーゼルナッツ 1箱(12個入) 【トレイルランニング トレラン ランニング 補給食 登山 マラソン ランニング 自転車 行動食 エナジーバー 砂糖不使用】",
+      "URL": "https://www.amazon.co.jp/dp/B0DKHD735N?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31EX-JIE7-L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Publisher": "THE POW BAR",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DKHD735N"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-10-28",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "しっとり食感で旨し。口の中の水分をもっていかれないのは素晴らしい。腹持ちもいいので1本で当分保つ。"
   }
 ]

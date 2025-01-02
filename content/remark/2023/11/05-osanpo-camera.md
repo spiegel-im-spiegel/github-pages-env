@@ -100,5 +100,5 @@ pageType = "photo"
 {{% review-paapi "B00AAPY0ZQ" %}} <!-- パンク修理剤 -->
 {{% review-paapi "B08K34WLXD" %}} <!-- ステムバッグ（stem bag） -->
 {{% review-paapi "B08P54PQDB" %}} <!-- メッセンジャーバッグ -->
-{{% review-paapi "B09JNPGVVZ" %}} <!-- POW BAR -->
+{{% review-paapi "B0DKHD735N" %}} <!-- POW BAR -->
 {{% review-paapi "B00EUVZHX0" %}} <!-- 神道入門 -->
