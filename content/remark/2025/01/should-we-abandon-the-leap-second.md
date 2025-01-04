@@ -1,11 +1,10 @@
 +++
 title = "「うるう秒は時代遅れ？」"
-date =  "2025-01-04T20:47:03+09:00"
+date =  "2025-01-04T22:31:23+09:00"
 description = "「日経サイエンス」2025年2月特大号より"
 image = "/images/attention/kitten.jpg"
 tags = [ "book", "leap-second", "astronomy", "engineering" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
