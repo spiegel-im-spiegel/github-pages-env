@@ -29752,5 +29752,48 @@
       false
     ],
     "Description": "しっとり食感で旨し。口の中の水分をもっていかれないのは素晴らしい。腹持ちもいいので1本で当分保つ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0D47FY7Q3",
+      "Title": "日経サイエンス2025年2月特大号 [雑誌]",
+      "URL": "https://www.amazon.co.jp/dp/B0D47FY7Q3?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/514G8lxv3GL._SL160_.jpg",
+        "Height": 160,
+        "Width": 120
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "日経サイエンス",
+          "Role": "編集"
+        }
+      ],
+      "Publisher": "日経サイエンス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0D47FY7Q3"
+        }
+      ],
+      "PublicationDate": "2024-12-25",
+      "LastRelease": "2024-12-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-01-04",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "この巻の特集は「科学者に迫る人工知能」と「めざすは月」。あと閏秒の小さな記事が面白かった。"
   }
 ]
