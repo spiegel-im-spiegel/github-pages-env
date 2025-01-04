@@ -43,8 +43,10 @@ VTuber という表現手段は今後もあり続けるし寧ろありふれて�
 実写映画とアニメ映画の違いが（視聴者から見て）表現の違いでしかないように。
 
 大晦日の [hololive のカウントダウンライブ](https://www.youtube.com/watch?v=k8Jjwu3YwPo "hololive production COUNTDOWN LIVE 2024▷2025 - YouTube")とか見て「もうネットってテレビ以上にテレビなんだなぁ」とつくづく思った。
-昭和30年代から40年代あたりのテレビ・ショウを連想させるんだよなぁ。
+昭和30年代から40年代あたりのテレビ・ショウを連想させるんだよなぁ[^v2]。
 今にして思えば，あの頃のテレビが一番勢いがあって面白かった気がするし（なにぶん子供の頃なので認知バイアスもあるだろうが），現代に於いてネットが特に YouTube がエンターテインメントを牽引してるってのは凄く分かりやすい構図な気がする。
+
+[^v2]: [hololive のカウントダウンライブ](https://www.youtube.com/watch?v=k8Jjwu3YwPo "hololive production COUNTDOWN LIVE 2024▷2025 - YouTube")は今年行われる予定の “[hololive SUPER EXPO 2025](https://hololive.hololivepro.com/events/hololivesuperexpo2025/ "hololive SUPER EXPO 2025 Supported By BANDAI & hololive 6th fes. Color Rise Harmony | イベント情報 | hololive（ホロライブ）公式サイト")” への導線として配置されていると思われる。だからあれだけのクォリティでも無料公開でミラー配信OKだったわけだ。そりゃあアレを見ればエキスポ行きたくなるよね，特に推しなら。こういうのを見ると，ネットのショウビジネスすげー！ と思ってしまうよ。
 
 {{< fig-quote type="markdown" title="アメリカの若者の半数が「ほぼ常にオンライン」であるという調査結果、若者はどんなSNSやプラットフォームを利用しているのか？ - GIGAZINE" link="https://gigazine.net/news/20241216-teens-online-almost-constantly/" >}}
 そんな中で、ピュー研究所は2024年9月18日～10月10日にかけて、アメリカに住む13～17歳の若者1391人を対象にオンラインで調査を実施しました。以下のグラフは、「ほぼ常にオンラインである」と回答した若者の割合を人種別に示したもので、アメリカの若者全体では46％、白人の若者の37％、黒人の若者の53％、ヒスパニック系の若者の58％がほぼ常にインターネットを使用していることがわかります。
@@ -54,6 +56,11 @@ SNSやプラットフォーム別に見るとYouTubeを利用している若者�
 
 以上，年末年始の感想文でした。
 これで，こっぽし。
+
+## ブックマーク
+
+- [補集合としての VTuber（『VTuber学』を読み始める）]({{< ref "/remark/2024/09/a-study-in-vtuber.md" >}})
+- [「空」としての VTuber（まだ『VTuber学』を読んでる途中）]({{< ref "/remark/2024/10/vtuber-as-sunya.md" >}})
 
 [きら子/諸星めぐる]: https://www.youtube.com/watch?v=cfGP0XpzlAs "【コラボ】諸星めぐるさんと一緒！クリスマス会＋忘年会するよ～！🎄🥂【古代日本史VTuber きら子】 - YouTube"
 [2025年業界予想]: https://www.youtube.com/watch?v=nph09OviDvI "【#かなたま業界予想】Vtuber2025年業界予想＆2024年表批評👨‍🏫【犬山たまき/かなえ先生】 - YouTube"
