@@ -3,7 +3,7 @@ title = "「空」としての VTuber（まだ『VTuber学』を読んでる途�
 date =  "2024-10-06T14:58:20+09:00"
 description = "いつも以上に胡乱な語りが酷いので，気になる方は華麗にスルーしていただけるとありがたい。"
 image = "/images/attention/kitten.jpg"
-tags = [ "book", "media", "communication" ]
+tags = [ "book", "media", "communication", "vtuber" ]
 pageType = "text"
 
 [scripts]

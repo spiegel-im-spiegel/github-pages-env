@@ -3,7 +3,7 @@ title = "補集合としての VTuber（『VTuber学』を読み始める）"
 date =  "2024-09-26T22:47:21+09:00"
 description = "読書前感想文"
 image = "/images/attention/kitten.jpg"
-tags = [ "book", "media", "communication" ]
+tags = [ "book", "media", "communication", "vtuber" ]
 pageType = "text"
 
 [scripts]

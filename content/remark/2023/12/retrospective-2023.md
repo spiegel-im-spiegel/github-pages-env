@@ -3,7 +3,7 @@ title = "【2023年】ふりかえり【おわりやね】"
 date =  "2023-12-30T23:58:09+09:00"
 description = "心臓リハビリ＠がんばらない / 五体満足のまま死ぬ人などいない / Mastodon に軸足を移す / お金の話 / カオスはどこにある"
 image = "/images/attention/kitten.jpg"
-tags = [ "osanpo-camera", "bike", "disease", "mastodon", "bluesky", "market", "internet" ]
+tags = [ "osanpo-camera", "bike", "disease", "mastodon", "bluesky", "market", "internet", "vtuber" ]
 pageType = "text"
 
 [scripts]
