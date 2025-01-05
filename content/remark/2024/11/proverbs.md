@@ -13,7 +13,7 @@ pageType = "text"
 
 久しぶりに Mastodon に書き散らかした戯れ言からピックアップし再構成してお送りする。
 
-## Proverbs が面白い
+## Proverbs が面白い {#proverbs}
 
 以下の記事を見まして
 
@@ -30,15 +30,14 @@ pageType = "text"
 
 マインスイーパとは違い間違っても「ドカン！」でゲームオーバーということもなくいくらでも巻き戻せる。
 ヒント機能が上手くて，行き詰まって困るということもない。
-何より，ちまちまとマス目を埋めていく作業が中毒性があってハマる。
-というか止め時が分からない。
+何より，ちまちまとマス目を埋めていく作業に耽溺してしまうため止めどきが分からない（笑）
 
 完成図は16世紀にピーテル・ブリューゲル（お父さんの方）が描いた「ネーデルラントの諺（Nederlandse Spreekwoorden / Netherlandish Proverbs）」がモチーフになってるらしい。
 
 {{< fig-img-quote src="./the-dutch-proverbs.jpeg" title="Pieter Brueghel the Elder - The Dutch Proverbs - Google Art Project - ネーデルラントの諺 - Wikipedia (Public Domain)" link="https://commons.wikimedia.org/wiki/File:Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg#/media/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg" width="640" lang="en" >}}
 
 この中に100の諺（proverb）が隠れてるんだって。
-だからゲームタイトルが “Proverbs” なのか。
+だからゲームタイトルが “Proverbs” なのか（ゲーム内の実績総数が96個なので，96個の諺が収録されていると思われ）。
 どうやらゲームの盤面が諺ごとに仕切られていて各エリアを2色で塗りつぶすとその部分の絵が表示され諺が実績解除されるらしい（ゴメン。諺のないエリアもあった）。
 
 こりゃあしばらくロマサガ2はお休みだな（笑）
