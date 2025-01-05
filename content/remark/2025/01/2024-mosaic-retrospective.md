@@ -28,15 +28,12 @@ pageType = "text"
 いくつかのエリアを開けてみたが知らないニュースもあったり。
 なかなか面白い。
 
-“[2024: Mosaic Retrospective on Steam]” 自体は無料で遊べる。
+“[2024: Mosaic Retrospective]” 自体は無料で遊べる。
 おそらくこのゲームが有料の “[Mega Mosaic]” や “[Proverbs]” への導線になっているんだろう。
 
-また “[2024: Mosaic Retrospective on Steam]” はチャリティとしての側面もあり，ユニセフへの寄付を呼びかける広告がある。
+また “[2024: Mosaic Retrospective]” はチャリティとしての側面もあり，ユニセフへの寄付を呼びかける広告がある。
 もっともこのルートで寄付しても日本では税金控除の対象にならないんじゃないかな？ まぁ，賛同する方はどうぞ，という感じで。
 
-
 [Proverbs]: https://store.steampowered.com/app/3083300/Proverbs/ "Proverbs on Steam"
-[2024: Mosaic Retrospective on Steam]: https://store.steampowered.com/app/3380760/2024_Mosaic_Retrospective/ "2024: Mosaic Retrospective on Steam"
+[2024: Mosaic Retrospective]: https://store.steampowered.com/app/3380760/2024_Mosaic_Retrospective/ "2024: Mosaic Retrospective on Steam"
 [Mega Mosaic]: https://store.steampowered.com/app/2915950/Mega_Mosaic/ "Steam：Mega Mosaic"
-
-<!-- eof -->
