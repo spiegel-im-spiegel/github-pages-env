@@ -43,6 +43,11 @@ pageType = "text"
 
 こりゃあしばらくロマサガ2はお休みだな（笑）
 
+### ブックマーク
+
+- [2024: Mosaic Retrospective on Steam](https://store.steampowered.com/app/3380760/2024_Mosaic_Retrospective/) : ゲームは無料で遊べるがユニセフへの寄付の呼びかけがある
+  - [マインスイーパー✕ピクロスなパズル『2024: Mosaic Retrospective』Steam無料配信中。2024年のニュースがデジタル刺繍として浮かび上がる - AUTOMATON](https://automaton-media.com/articles/newsjp/20250105-324271/)
+
 ## 松江市のゴミ分別
 
 [昨日の記事]({{< relref "/remark/2024/11/new-gear.md" >}} "Anker Smart Pouch と USB Cable Checker 2 買うた")で大量の USB ケーブルがゴミになったのだが，ケーブルってどのゴミで出すんだっけ？
