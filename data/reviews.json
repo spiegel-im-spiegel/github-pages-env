@@ -29795,5 +29795,60 @@
       false
     ],
     "Description": "固定レイアウトなので\u003ca href=\"https://read.amazon.co.jp/\"\u003eブラウザ\u003c/a\u003eで読める。この巻の特集は「科学者に迫る人工知能」と「めざすは月」。あと閏秒の小さな記事が面白かった。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4309294154",
+      "Title": "スヌーピーめくり2025: ピーナッツ日めくりカレンダー ([カレンダー])",
+      "URL": "https://www.amazon.co.jp/dp/4309294154?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41Zo-iPZopL._SL160_.jpg",
+        "Height": 111,
+        "Width": 160
+      },
+      "ProductType": "ペーパーバック",
+      "Creators": [
+        {
+          "Name": "チャールズ・M・シュルツ",
+          "Role": "著"
+        },
+        {
+          "Name": "谷川 俊太郎",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "河出書房新社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4309294154"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784309294155"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4309294154"
+        }
+      ],
+      "PublicationDate": "2024-09-27",
+      "LastRelease": "2024-09-27",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-11-20",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "ついカッとなって買った。反省はしない。「ピーナッツ」の4コマ漫画が日めくりカレンダーになった。裏に谷川俊太郎さんによる翻訳がある。メモ紙としても使える。"
   }
 ]
