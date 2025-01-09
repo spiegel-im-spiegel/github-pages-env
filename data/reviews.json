@@ -29850,5 +29850,42 @@
       false
     ],
     "Description": "ついカッとなって買った。反省はしない。「ピーナッツ」の4コマ漫画が日めくりカレンダーになった。裏に谷川俊太郎さんによる翻訳がある。メモ紙としても使える。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DNS713WK",
+      "Title": "Beelink EQ14 ミニPC、Intel Twin Lake N150 ミニゲーミング PC、16GB DDR4 500G SSD ミニコンピューター (4C/4T、最大 3.6 GHz) WiFi 6、Bluetooth 5.2、2*LAN、2*HDMI サポート 4K@60Hz、USB3.2、WOL",
+      "URL": "https://www.amazon.co.jp/dp/B0DNS713WK?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31NZlH87UTL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "Personal Computers",
+      "Publisher": "Beelink",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DNS713WK"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-01-08",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "ついカッとなってポチった。 Intel \u003ca href=\"https://www.intel.co.jp/content/www/jp/ja/products/sku/241636/intel-processor-n150-6m-cache-up-to-3-60-ghz/specifications.html\"\u003eN150\u003c/a\u003e プロセッサ搭載，メモリ16GB，ストレージ500GB。 Windows 11 Pro がバンドルされて26K円。"
   }
 ]
