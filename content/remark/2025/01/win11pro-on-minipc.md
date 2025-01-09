@@ -24,8 +24,8 @@ pageType = "text"
 ハードウェアのスペックは以下の通り。
 
 {{< fig-quote class="nobox" type="markdown" title="【西川和久の不定期コラム】邪魔なACアダプタがなくなった！？Twin LakeのIntel N150搭載ミニPC「Beelink EQ14」 - PC Watch" link="https://pc.watch.impress.co.jp/docs/column/nishikawa/1652152.html" >}}
-|     |     |
-| --- | --- |
+|      |      |
+| :--- | :--- |
 | プロセッサ | Intel N150(4コア4スレッド、クロック最大 3.6GHz、キャッシュ 6MB、TDP 最大25W) |
 | メモリ | 16GB(SO-DIMM DDR4 3200MHz) |
 | ストレージ | M.2 2280 SSD PCIe 3.0 500GB(PCIe 3.0 x4)、PCIe 3.0 x1(空き) |
