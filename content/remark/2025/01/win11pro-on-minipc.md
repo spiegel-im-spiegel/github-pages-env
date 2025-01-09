@@ -77,6 +77,8 @@ pageType = "text"
 
 ## ブックマーク
 
+- [リモート デスクトップの使い方 - Microsoft サポート](https://support.microsoft.com/ja-jp/windows/%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88-%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9-5fe128d5-8fb1-7a23-3b8a-41e636865e8c)
+- [Windows 11 - リモートデスクトップを有効にする方法 - PC設定のカルマ](https://pc-karuma.net/how-to-turn-on-remote-desktop-on-windows-11/)
 - [【Ubuntu】UbuntuからWindowsをリモートデスクトップで操作する - Milkのメモ帳](https://www.milkmemo.com/entry/remote_desktop_ubuntu_win)
 - [第661回　リモートデスクトップビューアー、Remminaを使用する | gihyo.jp](https://gihyo.jp/admin/serial/01/ubuntu-recipe/0661)
 
