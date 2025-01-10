@@ -1,7 +1,7 @@
 +++
 title = "Mini PC を衝動買いした"
 date =  "2025-01-09T18:46:24+09:00"
-description = "これで Windws 11 Pro がバンドルされてて26K円ちょっと"
+description = "これで Windows 11 Pro がバンドルされてて26K円ちょっと"
 image = "/remark/2025/01/win11pro-on-minipc/54253033452_cc05918a02_o.jpg"
 tags = [ "engineering", "windows", "linux" ]
 pageType = "text"
@@ -35,7 +35,7 @@ pageType = "text"
 | サイズ/重量 | 126×126×39mm、490g |
 {{< /fig-quote >}}
 
-これで Windws 11 Pro がバンドルされてて26K円ちょっとで Amazon で売っていた。
+これで Windows 11 Pro がバンドルされてて26K円ちょっとで Amazon で売っていた。
 
 {{% review-paapi "B0DNS713WK" %}} <!-- Mini PC ミニPC N150 Beelink EQ14 Win11pro -->
 
