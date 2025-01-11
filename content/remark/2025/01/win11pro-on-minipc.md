@@ -3,7 +3,7 @@ title = "Mini PC を衝動買いした"
 date =  "2025-01-09T18:46:24+09:00"
 description = "これで Windows 11 Pro がバンドルされてて26K円ちょっと"
 image = "/remark/2025/01/win11pro-on-minipc/54253033452_cc05918a02_o.jpg"
-tags = [ "engineering", "windows", "linux" ]
+tags = [ "windows", "linux", "tools", "gear" ]
 pageType = "text"
 
 [scripts]
@@ -73,7 +73,7 @@ pageType = "text"
 これで準備完了。
 ミニPC本体はデスクサイドラックに追いやって机上スッキリ。
 これから Windows を私好みにカスタマイズするかね。
-まずは [Scoop] 入れて Windows Terminal のシェルを [NYAGOS] に換装するところからかな。
+まずは [Scoop] 入れて Windows Terminal の shell を [NYAGOS] に換装するところからかな。
 
 ## ブックマーク
 
