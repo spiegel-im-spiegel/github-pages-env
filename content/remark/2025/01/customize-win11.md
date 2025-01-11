@@ -406,6 +406,8 @@ Microsoft はサードパーティのパッケージに対して責任を負わ�
 ## ブックマーク
 
 - [SSH 接続をテストする - GitHub Docs](https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection)
+- [Git Extensions | Git Extensions is a standalone UI tool for managing Git repositories](https://gitextensions.github.io/)
+- [KDiff3 - Homepage](https://kdiff3.sourceforge.net/)
 
 - [GnuPG for Windows : gpg-agent について]({{< ref "/openpgp/using-gnupg-for-windows-2.md" >}})
 - [パソコンに Visual Studio Code を導入する（再チャレンジ）]({{< ref "/remark/2021/02/installing-vscode-again.md" >}})
