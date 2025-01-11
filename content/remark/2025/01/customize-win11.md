@@ -403,14 +403,20 @@ Microsoft はサードパーティのパッケージに対して責任を負わ�
 けど，セットアップが面倒そうなのは終わったかな。
 一休みして続きをしよう。
 
+### インストールメモ
+
+- [Git Extensions | Git Extensions is a standalone UI tool for managing Git repositories](https://gitextensions.github.io/) : [winget] の `GitExtensionsTeam.GitExtensions` でインストール可。勝手に `Git.Git` をインストールするので個別に `winget uninstall` した
+- [KDiff3 - Homepage](https://kdiff3.sourceforge.net/) : [winget] の `KDE.KDiff3` でインストール可
+- [Amazon.co.jp: Kindle無料アプリ: Kindleストア](https://www.amazon.co.jp/b?ie=UTF8&node=26197586051) : [winget] の `Amazon.Kindle` はバージョンが古い
+- [Steam, The Ultimate Online Game Platform](https://store.steampowered.com/about/) : [winget] の `Valve.Steam` でいいのか分からなかったので，サイトからインストーラをダウンロードした。リモートデスクトップ越しでは流石に入力遅延があるが，パズルゲームなら違和感なくできるか
+
+- [パソコンに Visual Studio Code を導入する（再チャレンジ）]({{< ref "/remark/2021/02/installing-vscode-again.md" >}})
+
 ## ブックマーク
 
 - [SSH 接続をテストする - GitHub Docs](https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection)
-- [Git Extensions | Git Extensions is a standalone UI tool for managing Git repositories](https://gitextensions.github.io/)
-- [KDiff3 - Homepage](https://kdiff3.sourceforge.net/)
 
 - [GnuPG for Windows : gpg-agent について]({{< ref "/openpgp/using-gnupg-for-windows-2.md" >}})
-- [パソコンに Visual Studio Code を導入する（再チャレンジ）]({{< ref "/remark/2021/02/installing-vscode-again.md" >}})
 
 [Kagi Search]: https://kagi.com/ "Kagi Search - A Premium Search Engine"
 [winget]: https://github.com/microsoft/winget-cli "microsoft/winget-cli: Windows Package Manager CLI (aka winget)"
