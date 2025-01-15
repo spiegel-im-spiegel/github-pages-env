@@ -76,9 +76,13 @@ Mastodon というか ActivityPub は検索機能が弱く[^m1]，特にサー�
 先日[紹介]({{< relref "/remark/2025/01/2024-mosaic-retrospective.md" >}} "パズルで2024年を振り返る")した “[2024: Mosaic Retrospective]” で遊びながら2024年を振り返ったりしているのだが，現職大統領が辞職間際に有罪判決を受けた自分の息子を恩赦した（2024年当時）とか有罪判決を受けたにも関わらず当選した次期大統領が就任後に自身を恩赦する（2024年当時）とかいうニュースを見て，米国は本当に破落戸の国になったんだなぁと感慨深かった。
 政治トップが破落戸なら市場も安心して破落戸になれるというものである（笑） 億万長者が所有するソーシャルメディアも，どこぞの世紀末漫画よろしく「汚物は消毒だ～!!」とばかりに立ち塞がるものを蹴散らしていく。
 
-Bluesky は英国で Mastodon は独国だっけ？ 逃げ切れるといいねぇ。
+Bluesky は英国で Mastodon は独国だっけ[^m2]？ 逃げ切れるといいねぇ。
 
-私は Mastodon 個人サーバという離れ小島でお一人さま生活を満喫しつつ，対岸の火事を眺めることにしよう。
+[^m2]: Mastodon については，米国非営利法人 501(c)(3) は引き続き資金調達の拠点として残すが，運営主体としては欧州に本部を置いて運営するらしい。
+
+私は Mastodon 個人サーバという離れ小島でお一人さま生活を満喫しつつ[^m3]，対岸の火事を眺めることにしよう。
+
+[^m3]: 以前に `mastodon.social` でボット・アカウントを作り運用してたのだが [BAN されてしまった]({{< ref "/remark/2024/05/a-string-of-mastodons.md#ban" >}} "mastodon.social ボット・アカウントを BAN された話")。特にルールに違反してはいないと思うのだが，理由は示されず，抗弁するのも面倒。結局，自分のやりたいようにやるには個人サーバを立てるしかないと思い今に至る。 Mastodon サーバは世界中に数多あるが，特定言語以外 NG なサーバも多いし利用目的を限定しているサーバもある。それでも私のように個人でお一人さまサーバを立ち上げることも容易になったし Mastodon サーバ間でアカウントを移行するのが容易というのは十分なメリットだと思っている。
 
 ## ブックマーク
 
@@ -87,6 +91,7 @@ Bluesky は英国で Mastodon は独国だっけ？ 逃げ切れるといいね�
 - [Xがアルゴリズム変更へ　イーロン・マスク氏が優遇したい投稿とは？：Social Media Today - ITmedia マーケティング](https://marketing.itmedia.co.jp/mm/articles/2501/10/news045.html)
 - [ソーシャルメディアを億万長者の魔の手から守るキャンペーン「Free Our Feeds」が登場 - GIGAZINE](https://gigazine.net/news/20250114-free-our-feeds/)
 - [Mastodonが運営の大部分を非営利団体に移管することを発表 - GIGAZINE](https://gigazine.net/news/20250114-mastodon-transition-nonprofit-structure/)
+- [インターネットをビリオネアの手から守るために » p2ptk[.]org](https://p2ptk.org/freedom-of-speech/5178)
 
 [p2ptk.org]: https://p2ptk.org/ "P2Pとかその辺のお話R | Sharing is Caring"
 [Free Our Feeds]: https://freeourfeeds.com/ "Free Our Feeds"

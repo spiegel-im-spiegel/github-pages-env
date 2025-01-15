@@ -110,7 +110,7 @@ Bluesky のほうが優れていると言うつもりはないが Mastodon と�
 
 Bluesky が実際に分散化し「連合（federation）」を組むようになったときにこういった問題を上手く捌けるかどうかは分からないが期待感はある。
 
-## mastodon.social ボット・アカウントを BAN された話
+## mastodon.social ボット・アカウントを BAN された話 {#ban}
 
 2023年に入って {{% emoji "X" %}} とIFTTT との連携が[有料になった](https://ifttt.com/explore/updates-to-twitter-2023 "Updates to Twitter access - IFTTT")ため，自サイトのコンテンツ情報を {{% emoji "X" %}} に自動でアップできなくなった（{{% emoji "X" %}} にも IFTTT にもお金を払う気はない）。
 そこで Web 上のコンテンツ情報を自動で収集し Mastodon や Bluesky にポストするためのツールを[自作](https://github.com/goark/toolbox "goark/toolbox: A collection of miscellaneous commands")することにした[^t1]。
