@@ -233,3 +233,4 @@ pageType = "text"
 - [オランダ政府が公式Mastodonサーバー「overheid.nl」を立ち上げ - GIGAZINE](https://gigazine.net/news/20230713-netherland-mastodon/)
 - [The BBC on Mastodon: experimenting with distributed and decentralised social media - BBC R&D](https://www.bbc.co.uk/rd/blog/2023-07-mastodon-distributed-decentralised-fediverse-activitypub) : BBC が Mastodon サーバを開設
 - [このブログがFediverseに対応しました](https://blog.tyage.net/post/2023/2023-07-17-bridgy-fed/) : 普通のブログページを ActivityPub 対応にする
+- [写真・動画共有のための連合型SNS、PixelfedのiOSアプリが正式リリース ——Android向けもGoogle Playですでにリリース済み | gihyo.jp](https://gihyo.jp/article/2025/01/pixelfed-app-released)

@@ -3,7 +3,7 @@ title = "プラットフォームかプロトコルか"
 date =  "2024-04-15T21:07:04+09:00"
 description = "日本で2日間（東京と大阪）に渡り Bluesky Meetup が開催された"
 image = "/images/attention/kitten.jpg"
-tags = [ "internet", "engineering", "communication", "bluesky", "mastodon", "activitypub" ]
+tags = [ "internet", "engineering", "communication", "bluesky", "mastodon", "activitypub", "atproto" ]
 pageType = "text"
 
 [scripts]
