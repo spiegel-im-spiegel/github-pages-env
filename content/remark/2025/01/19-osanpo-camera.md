@@ -149,6 +149,7 @@ pageType = "photo"
 {{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
 {{% review-paapi "B08DFNBWBM" %}} <!-- 恵根餅 Enemoti 三種お試し用 -->
 {{% review-paapi "4560097135" %}} <!-- 星の文化史事典［増補新版］  -->
+{{% review-paapi "4886219454" %}} <!-- 古代出雲の氏族と社会 -->
 {{% review-paapi "B00EUVZHX0" %}} <!-- 神道入門 -->
 {{% review-paapi "B01N9QQ1LN" %}} <!-- マクロスF」VOCAL COLLECTION 娘たま♀  -->
 
