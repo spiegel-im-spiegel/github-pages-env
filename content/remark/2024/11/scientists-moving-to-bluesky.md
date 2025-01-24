@@ -85,3 +85,6 @@ www
 - [Here’s some cool stuff you can do with Bluesky - The Verge](https://www.theverge.com/24295933/bluesky-social-network-custom-how-to)
 - [さらばXよ。科学者たちのBlueskyエクソダスが加速中 | ギズモード・ジャパン](https://www.gizmodo.jp/2024/11/bluesky-exodus.html)
 - [大量の科学者がX(旧Twitter)からBlueskyに移住している - GIGAZINE](https://gigazine.net/news/20241122-bluesky-scientist-community/)
+- [Blueskyに参加する前に知っておくべきこと » p2ptk[.]org](https://p2ptk.org/freedom-of-speech/5241) : EFF による2025年初頭時点での評価
+
+- [ソーシャルメディアは億万長者から逃げ切れるか？]({{< ref "/remark/2025/01/escape-from-billionaires.md" >}})

@@ -92,6 +92,8 @@ Bluesky は英国で Mastodon は独国だっけ[^m2]？ 逃げ切れるとい�
 - [ソーシャルメディアを億万長者の魔の手から守るキャンペーン「Free Our Feeds」が登場 - GIGAZINE](https://gigazine.net/news/20250114-free-our-feeds/)
 - [Mastodonが運営の大部分を非営利団体に移管することを発表 - GIGAZINE](https://gigazine.net/news/20250114-mastodon-transition-nonprofit-structure/)
 - [インターネットをビリオネアの手から守るために » p2ptk[.]org](https://p2ptk.org/freedom-of-speech/5178)
+- [Blueskyに参加する前に知っておくべきこと » p2ptk[.]org](https://p2ptk.org/freedom-of-speech/5241) : EFF による2025年初頭時点での Bluesky 評価
+- [MIT Tech Review: SNSは億万長者から解放されるか？ Blueskyが描くネットの理想](https://www.technologyreview.jp/s/354065/we-need-to-protect-the-protocol-that-runs-bluesky/)
 
 [p2ptk.org]: https://p2ptk.org/ "P2Pとかその辺のお話R | Sharing is Caring"
 [Free Our Feeds]: https://freeourfeeds.com/ "Free Our Feeds"
