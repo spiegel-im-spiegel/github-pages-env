@@ -39,4 +39,5 @@ draft = true
 {{% review-paapi "4908686122" %}} <!-- Goならわかるシステムプログラミング 第2版 -->
 {{% review-paapi "4873119693" %}} <!-- 実用 Go 言語 -->
 {{% review-paapi "4814400535" %}} <!-- 効率的なGo : Efficient Go -->
+{{% review-paapi "B0DNYMMBBQ" %}} <!-- Go言語で学ぶ並行プログラミング -->
 {{% review-paapi "B09C2XBC2F" %}} <!-- Golang Tシャツ -->

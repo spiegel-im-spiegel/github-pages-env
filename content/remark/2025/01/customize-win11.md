@@ -427,7 +427,7 @@ Microsoft はサードパーティのパッケージに対して責任を負わ�
 [PuTTY]: http://www.chiark.greenend.org.uk/~sgtatham/putty/ "PuTTY: a free SSH and Telnet client"
 [Git Extensions]: https://gitextensions.github.io/ "Git Extensions | Git Extensions is a standalone UI tool for managing Git repositories"
 
-## 作業中の BGV
+## 作業中の BGV (メン限配信以外)
 
 - [【日本史】今年はヘビ年！古代日本のヘビエピソード集めてみました🐍【古代日本史VTuber きら子】 - YouTube](https://www.youtube.com/watch?v=JCnOfhBETlI)
 - [【雑談】お正月が終わったり、とある美術館に行ってきたり、【北白川かかぽ/VEE】 - YouTube](https://www.youtube.com/watch?v=P4KrXKc2E1k)

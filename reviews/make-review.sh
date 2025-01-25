@@ -1,15 +1,16 @@
 #/bin/sh
-sleep 1;cat 4560097135.html | books-data review -t review-book.html -a 4560097135 -r 5 --review-date 2020-02-08 --pipe
-sleep 1;cat B01N9QQ1LN.html | books-data review -t review-book.html -a B01N9QQ1LN -r 4 --review-date 2024-12-31 --pipe
-sleep 1;cat B08DFNBWBM.html | books-data review -t review-book.html -a B08DFNBWBM -r 4 --review-date 2025-01-16 --pipe
-sleep 1;cat B0DNS713WK.html | books-data review -t review-book.html -a B0DNS713WK -r 4 --review-date 2025-01-08 --pipe
+sleep 1;cat B0CX1NVW3F.html | books-data review -t review-book.html -a B0CX1NVW3F -r 0 --review-date 2025-01-25 --pipe
+sleep 1;cat ./done/B0DNYMMBBQ.html | books-data review -t review-book.html -a B0DNYMMBBQ -r 5 --review-date 2025-01-25 --pipe
 # ---
+# sleep 1;cat ./done/4560097135.html | books-data review -t review-book.html -a 4560097135 -r 5 --review-date 2020-02-08 --pipe
+# sleep 1;cat ./done/B01N9QQ1LN.html | books-data review -t review-book.html -a B01N9QQ1LN -r 4 --review-date 2024-12-31 --pipe
+# sleep 1;cat ./done/B08DFNBWBM.html | books-data review -t review-book.html -a B08DFNBWBM -r 4 --review-date 2025-01-16 --pipe
+# sleep 1;cat ./done/B0DNS713WK.html | books-data review -t review-book.html -a B0DNS713WK -r 4 --review-date 2025-01-08 --pipe
 # sleep 1;cat ./done/4309294154.html | books-data review -t review-book.html -a 4309294154 -r 4 --review-date 2024-11-20 --pipe
 # sleep 1;cat ./done/B0D47FY7Q3.html | books-data review -t review-book.html -a B0D47FY7Q3 -r 4 --review-date 2025-01-04 --pipe
 # sleep 1;cat ./done/B0DKHD735N.html | books-data review -t review-book.html -a B0DKHD735N -r 4 --review-date 2023-10-28 --pipe
 # sleep 1;cat ./done/B08KHW2PSB.html | books-data review -t review-book.html -a B08KHW2PSB -r 4 --review-date 2024-12-19 --pipe
 # sleep 1;cat ./done/B09JNPGVVZ.html | books-data review -t review-book.html -a B09JNPGVVZ -r 4 --review-date 2023-10-28 --pipe
-# sleep 1;cat ./done/B0DNYMMBBQ.html | books-data review -t review-book.html -a B0DNYMMBBQ -r 4 --review-date 2024-12-15 --pipe
 # sleep 1;cat ./done/B0CCY7VJ4C.html | books-data review -t review-book.html -a B0CCY7VJ4C -r 4 --review-date 2023-08-01 --pipe
 # sleep 1;cat ./done/B00005GFBE.html | books-data review -t review-book.html -a B00005GFBE -r 5 --review-date 2024-12-17 --pipe
 # sleep 1;cat ./done/B0CDPH5W49.html | books-data review -t review-book.html -a B0CDPH5W49 -r 5 --review-date 2024-12-15 --pipe
