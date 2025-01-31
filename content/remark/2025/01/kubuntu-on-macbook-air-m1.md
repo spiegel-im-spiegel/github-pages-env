@@ -11,7 +11,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-昨年勤務先から払い下げてもらった [MacBook Air (M1, 2020)][MacBook] なのだが， [Homebrew] のインストールで「面倒くさい」となって最初の1フィートで挫折していた。
+昨年勤務先から[払い下げ]({{< ref "/remark/2024/05/get-a-used-pc-from-workplace.md" >}} "勤務先からの払い下げ PC")てもらった [MacBook Air (M1, 2020)][MacBook] なのだが， [Homebrew] のインストールで「面倒くさい」となって最初の1フィートで挫折していた。
 外出先では (その前に買った) [Chromebook]({{< ref "/remark/2024/03/chromebook-1.md" >}} "Chromebook を導入する 1") で十分賄えてたというのもある。
 
 とはいえ，いつまでも放置というわけにもいくまい！ と今年に入ってようやく重い腰を上げることにした。
@@ -71,7 +71,7 @@ pageType = "text"
 
 {{< fig-img src="./setup-new-machine-3.png" title="新規仮想マシンを作成 - ストレージ" link="./setup-new-machine-3.png" width="2236" >}}
 
-既定だと最小の64GBだけ使おうとする。
+ストレージについては既定だと最小の64GBだけ使おうとする。
 今回は最大サイズの半分を指定した。
 指定したサイズを最初から専有するわけでないのでご安心を。
 
@@ -152,7 +152,7 @@ $ sudo tailscale up
 
 それにしても，メインで使う OS をゲスト OS として仮想化して使うのは筋がよくないな。
 まぁ MacBook を完全に Linux 機として換装できなさそうだからこういう手段を執らざるを得なかったんだけど。
-お高い MacBook を買って，わざわざ Linux 機や Windows 機として使うやつはおらんと思う。
+お高い MacBook を買って，わざわざ Linux 機や Windows 機として使うやつはおらんじゃろ。
 私の場合は，たまたま払い下げ品を安く手に入れられただけで，定価なら（自腹では）絶対に買わない。
 Apple 信者じゃないので，私。
 
