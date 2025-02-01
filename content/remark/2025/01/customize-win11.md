@@ -409,6 +409,8 @@ Microsoft はサードパーティのパッケージに対して責任を負わ�
 - [KDiff3 - Homepage](https://kdiff3.sourceforge.net/) : [winget] の `KDE.KDiff3` でインストール可
 - [Amazon.co.jp: Kindle無料アプリ: Kindleストア](https://www.amazon.co.jp/b?ie=UTF8&node=26197586051) : [winget] の `Amazon.Kindle` はバージョンが古い
 - [Steam, The Ultimate Online Game Platform](https://store.steampowered.com/about/) : [winget] の `Valve.Steam` でいいのか分からなかったので，サイトからインストーラをダウンロードした。リモートデスクトップ越しでは流石に入力遅延があるが，パズルゲームなら違和感なくできるか
+- [アナザーエデン 時空を超える猫 - PC版特設サイト](https://another-eden.jp/pc/) : そういや PC 版あるんだっけ
+- [moraダウンローダー（無料）｜音楽ダウンロード・音楽配信サイト　mora ～WALKMAN®公式ミュージックストア～](https://mora.jp/pcdownloaderInstall) : 一括ダウンロード用に導入
 
 - [パソコンに Visual Studio Code を導入する（再チャレンジ）]({{< ref "/remark/2021/02/installing-vscode-again.md" >}})
 
