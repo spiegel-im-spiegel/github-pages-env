@@ -3494,7 +3494,7 @@
       "Image": {
         "URL": "https://m.media-amazon.com/images/I/41meaSLNFfL._SL160_.jpg",
         "Height": 160,
-        "Width": 123
+        "Width": 122
       },
       "ProductType": "単行本（ソフトカバー）",
       "Creators": [
@@ -3524,10 +3524,6 @@
         {
           "Name": "ISBN",
           "Value": "4621300253"
-        },
-        {
-          "Name": "ISBN",
-          "Value": "9784621300251"
         }
       ],
       "PublicationDate": "2016-06-20",
@@ -3546,7 +3542,7 @@
       true,
       true
     ],
-    "Description": "著者のひとりは（あの「バイブル」とも呼ばれる）通称 “K\u0026amp;R” の K のほうである。この本は Go 言語の教科書と言ってもいいだろう。"
+    "Description": "著者のひとりは（あの「バイブル」とも呼ばれる）通称 “K\u0026amp;R” の K のほうである。この本は Go 言語の教科書と言ってもいいだろう。と思ったら絶版状態らしい（2025-01 現在）。復刊を望む！"
   },
   {
     "Book": {
@@ -30112,5 +30108,132 @@
       false
     ],
     "Description": "へーへーへー"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09TQLY5VZ",
+      "Title": "味の素 アミノバイタル ゼリードリンク SUPERSPORTS アップル味 100g×6個 アミノ酸 3000mg クエン酸 1200mg BCAA 栄養補給",
+      "URL": "https://www.amazon.co.jp/dp/B09TQLY5VZ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61pTSITZrHL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "ヘルスケア\u0026ケア用品",
+      "Publisher": "味の素",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09TQLY5VZ"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4901001564750"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2022-03-14",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-02-01",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "長距離（つっても50km前後だが）サイクリング後の調整のために購入。飲みやすい。効果は... どうだろう。あるといいな（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B099ZXJWMV",
+      "Title": "帰ってきたウルトラマン オリジナル・サウンドトラック〈ウルトラサウンド殿堂シリーズ〉",
+      "URL": "https://www.amazon.co.jp/dp/B099ZXJWMV?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51btUlfJIIL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "冬木透",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Nippon Columbia Co., Ltd.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B099ZXJWMV"
+        }
+      ],
+      "PublicationDate": "2006-08-23",
+      "LastRelease": "2021-07-28",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-02-01",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "2024年12月の冬木透さんの訃報に接し哀悼の意を表します。 mora で\u003ca href=\"https://mora.jp/package/43000013/COKM-43279_L44/\"\u003eロスレス版\u003c/a\u003eが買える。私は「帰ってきたウルトラマン」の世代なのよ。特に「MAT」が好き。ワンダバ！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BP9PNX2P",
+      "Title": "冬木透：交響詩ウルトラセブン on Brass",
+      "URL": "https://www.amazon.co.jp/dp/B0BP9PNX2P?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61r+m5l7WdL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "陸上自衛隊中央音楽隊／森次晃嗣／石村俊之／樋口孝博",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Nippon Columbia Co., Ltd.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BP9PNX2P"
+        }
+      ],
+      "PublicationDate": "2022-12-21",
+      "LastRelease": "2022-12-21",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-02-01",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "2024年12月の冬木透さんの訃報に接し哀悼の意を表します。 mora で\u003ca href=\"https://mora.jp/package/43000013/COKM-44111_F/\"\u003e高解像度版\u003c/a\u003eが買える。ウルトラセブンはいつ聴いてもいい！"
   }
 ]

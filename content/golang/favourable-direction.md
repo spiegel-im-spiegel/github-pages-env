@@ -58,7 +58,7 @@ func main() {
 
 ## ブックマーク
 
-- {{< pdf-file title="食卓の縁起に関する研究 I　－恵方巻の受容とその背景－" link="http://libro.do-bunkyodai.ac.jp/research/pdf/journal32/12.pdf" >}}
+- {{< pdf-file title="食卓の縁起に関する研究 I　－恵方巻の受容とその背景－" link="http://seikatsubunka.biz/main/wp-content/uploads/2017/04/12.pdf" >}}
 - [恵方の方角！2023年はどっち？恵方の決め方も具体的に解説！ | いい日本再発見](https://ii-nippon.net/%e6%97%a5%e6%9c%ac%e3%81%ae%e9%a2%a8%e7%bf%92/1183.html)
 - [歳徳神 - Wikipedia](https://ja.wikipedia.org/wiki/%E6%AD%B3%E5%BE%B3%E7%A5%9E)
 
