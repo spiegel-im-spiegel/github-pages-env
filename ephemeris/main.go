@@ -15,8 +15,8 @@ func WeekShortNameJp(dt value.DateJp) string {
 }
 
 func main() {
-	start, _ := value.DateFrom("2025-01-01")
-	end, _ := value.DateFrom("2025-12-31")
+	start, _ := value.DateFrom("2026-01-01")
+	end, _ := value.DateFrom("2026-12-31")
 	td, err := os.MkdirTemp(os.TempDir(), "blog")
 	if err != nil {
 		fmt.Fprintln(os.Stderr, err)
@@ -25,9 +25,9 @@ func main() {
 	defer func() { _ = os.RemoveAll(td) }()
 	k, err := koyomi.NewSource(
 		koyomi.WithCalendarID(
-			// koyomi.Holiday,
+			koyomi.Holiday,
 			// koyomi.MoonPhase,
-			koyomi.SolarTerm,
+			// koyomi.SolarTerm,
 			// koyomi.Eclipse,
 			// koyomi.Planet,
 		),
@@ -47,7 +47,7 @@ func main() {
 	}
 }
 
-/* Copyright 2020-2024 Spiegel
+/* Copyright 2020-2025 Spiegel
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.

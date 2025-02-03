@@ -32,36 +32,36 @@ pageType = "text"
 package main
 
 import (
-	"fmt"
-	"os"
+    "fmt"
+    "os"
 
-	"github.com/goark/koyomi"
+    "github.com/goark/koyomi"
 )
 
 var weekShortNames = [7]string{"日", "月", "火", "水", "木", "金", "土"}
 
 func WeekShortNameJp(dt koyomi.DateJp) string {
-	return weekShortNames[dt.Weekday()%7]
+    return weekShortNames[dt.Weekday()%7]
 }
 
 func main() {
-	start, _ := koyomi.DateFrom("2025-01-01")
-	end, _ := koyomi.DateFrom("2025-12-31")
-	k, err := koyomi.NewSource(
-		koyomi.WithCalendarID(koyomi.Holiday),
-		koyomi.WithStartDate(start),
-		koyomi.WithEndDate(end),
-	).Get()
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		return
-	}
+    start, _ := koyomi.DateFrom("2025-01-01")
+    end, _ := koyomi.DateFrom("2025-12-31")
+    k, err := koyomi.NewSource(
+        koyomi.WithCalendarID(koyomi.Holiday),
+        koyomi.WithStartDate(start),
+        koyomi.WithEndDate(end),
+    ).Get()
+    if err != nil {
+        fmt.Fprintln(os.Stderr, err)
+        return
+    }
 
-	fmt.Println("| 日付 | 曜日 | 内容 |")
-	fmt.Println("| ---- |:----:| ---- |")
-	for _, e := range k.Events() {
-		fmt.Printf("| %v | %v | %v |\n", e.Date, WeekShortNameJp(e.Date), e.Title)
-	}
+    fmt.Println("| 日付 | 曜日 | 内容 |")
+    fmt.Println("| ---- |:----:| ---- |")
+    for _, e := range k.Events() {
+        fmt.Printf("| %v | %v | %v |\n", e.Date, WeekShortNameJp(e.Date), e.Title)
+    }
 }
 ```
 
