@@ -180,6 +180,7 @@ $ go run main.go
 
 - [冬至に関する与太話]({{< ref "/remark/2017/12/winter-solstice.md" >}})
 - [カレンダーに祝日を入れたいなら国立天文台へ行けばいいじゃない]({{< ref "/remark/2019/05/google-ephemeris.md" >}})
+- [お彼岸]({{< ref "/remark/2022/03/ohigan.md" >}})
 - [第五の季節：土用]({{< ref "/remark/2022/04/doyo-period.md" >}})
 - [節分の狂躁]({{< ref "/remark/2025/02/setsubun.md" >}})
 
