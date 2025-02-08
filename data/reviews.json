@@ -30235,5 +30235,48 @@
       false
     ],
     "Description": "2024年12月の冬木透さんの訃報に接し哀悼の意を表します。 mora で\u003ca href=\"https://mora.jp/package/43000013/COKM-44111_F/\"\u003e高解像度版\u003c/a\u003eが買える。ウルトラセブンはいつ聴いてもいい！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DTT1L1KL",
+      "Title": "日経サイエンス2025年3月号 [雑誌]",
+      "URL": "https://www.amazon.co.jp/dp/B0DTT1L1KL?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51TENFa9uZL._SL160_.jpg",
+        "Height": 160,
+        "Width": 120
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "日経サイエンス",
+          "Role": "編集"
+        }
+      ],
+      "Publisher": "日経サイエンス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DTT1L1KL"
+        }
+      ],
+      "PublicationDate": "2025-01-24",
+      "LastRelease": "2025-01-24",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-02-03",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "Kindle 版は固定レイアウトなのでブラウザ（Kindle Cloud Reader）で読める。特集は「ことばが世界を作る」と「CO2回収の現実味」。"
   }
 ]

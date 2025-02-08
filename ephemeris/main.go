@@ -8,12 +8,6 @@ import (
 	"github.com/goark/koyomi/value"
 )
 
-var weekShortNames = [7]string{"日", "月", "火", "水", "木", "金", "土"}
-
-func WeekShortNameJp(dt value.DateJp) string {
-	return weekShortNames[dt.Weekday()%7]
-}
-
 func main() {
 	start, _ := value.DateFrom("2026-01-01")
 	end, _ := value.DateFrom("2026-12-31")
@@ -43,7 +37,7 @@ func main() {
 	fmt.Println("| 日付 | 曜日 | 内容 |")
 	fmt.Println("| ---- |:----:| ---- |")
 	for _, e := range k.Events() {
-		fmt.Printf("| %v | %v | %v |\n", e.Date, WeekShortNameJp(e.Date), e.Title)
+		fmt.Printf("| %v | %v | %v |\n", e.Date.StringJp(), e.Date.WeekdayJp().ShortStringJp(), e.Title)
 	}
 }
 
