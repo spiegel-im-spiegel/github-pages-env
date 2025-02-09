@@ -109,7 +109,7 @@ ATOM や VS Code の使い始めの頃はスニペットベースのコード補
 
 教科書に載っているサンプルコード程度ならともかく，プログラムコードに **唯一の正解** はない。
 今回のような小さなコードですらそうなのだ。
-[Copilot][GitHub Copilot] を含む生成 AI による提案を受け入れるか否かについては「人」による判断が不可欠だし，判断を行うためには，扱う対象に関する技術と技能が要求される。
+[Copilot][GitHub Copilot] を含む生成 AI による提案を受け入れるか否かについては「人」による判断が不可欠だし，判断を行うためには，扱う対象に関する知識・技能・技術が要求される。
 「自律」的な判断を行うのは今なお，機械ではなく，人の側なのである。
 
 {{< fig-quote  title="そろそろ、人工知能の真実を話そう" link="https://www.amazon.co.jp/dp/B071FHBGW8?tag=baldandersinf-22&LINKCODE=OGI&TH=1&PSC=1" >}}
@@ -128,7 +128,7 @@ ATOM や VS Code の使い始めの頃はスニペットベースのコード補
 
 [^c1]: 生成 AI の背後にある翻案元のコンテンツやアルゴリズムと知財権との[関係]({{< ref "/remark/2023/06/is-generative-ai-copyright-safe.md" >}} "Generative AI は Copyright-Safe か？")についてはここでは知らないふりをする。
 
-生成 AI の時代に求められる人材とはプロンプトを駆使（して翻案空間を放浪）する技能を持つ人ではなく（積極的に利用しつつ）生成 AI の提案に NO と言える技術力と見識を持つ「[狂狷の徒]({{< ref "/remark/2017/12/hacker-ethic.md" >}} "エンジニアこそ「狂狷の徒」たれ")」ではないだろうか。
+生成 AI の時代に求められる人材とはプロンプトを駆使（して翻案空間を放浪）する技能を持つ人ではなく（積極的に利用しつつ）生成 AI の提案に NO と言える見識と技術を持つ「[狂狷の徒]({{< ref "/remark/2017/12/hacker-ethic.md" >}} "エンジニアこそ「狂狷の徒」たれ")」ではないだろうか。
 
 ## ブックマーク
 
@@ -152,3 +152,12 @@ ATOM や VS Code の使い始めの頃はスニペットベースのコード補
 {{% review-paapi "4814400535" %}} <!-- 効率的なGo : Efficient Go -->
 {{% review-paapi "B099RTG3J7" %}} <!-- 著作権は文化を発展させるのか: 人権と文化コモンズ -->
 {{% review-paapi "B01J1I8PRQ" %}} <!-- 社会は情報化の夢を見る -->
+
+## 作業中の BGV (メン限配信以外)
+
+ReGLOSS の五色のバラバラな声がパズルのようにカチッと填まると本当にかっこいいよね。
+
+- [ReGLOSS 'フィーリングラデーション' OFFICIAL MV - YouTube](https://www.youtube.com/watch?v=u4uDiV3u-do)
+- [晴る / ヨルシカ  covered by ReGLOSS 【歌ってみた / hololive DEV_IS】 - YouTube](https://www.youtube.com/watch?v=Mb2Pdf7P-a4)
+- [ムーンライト / 星街すいせい covered by ReGLOSS 【歌ってみた / hololive DEV_IS】 - YouTube](https://www.youtube.com/watch?v=m6T71r7hRMI)
+- [【歌ってみた】STAR TRAIN/Perfume【ReGLOSS】 - YouTube](https://www.youtube.com/watch?v=ed-0AKPWaf8)
