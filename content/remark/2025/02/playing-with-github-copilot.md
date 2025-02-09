@@ -136,6 +136,7 @@ ATOM や VS Code の使い始めの頃はスニペットベースのコード補
 - [OpenAIの最新推論モデル「o3-mini」が「GitHub Copilot」などで利用可能に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1659601.html)
 - [無償ユーザーも対象 ～「Gemini 2.0 Flash」が「GitHub Copilot」で利用できるように - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1660865.html)
 - [「Visual Studio Code 1.97」が公開 ～新AI支援機能「Copilot NES」をプレビュー - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1661141.html)
+- [GitHub Copilot Agent Modeが登場。タスクを与えると自律的にプログラミング、テストコードも修正、テストが失敗すればデバッグも － Publickey](https://www.publickey1.jp/blog/25/github_copilot_agent_mode.html)
 
 - [GitHub Copilot は貢献者から貢献を奪うか？]({{< ref "/remark/2022/07/code-launderring.md" >}})
 - [AI は「創作者様」を引きずり下ろすか — 『人権と文化コモンズ』を流し読む]({{< ref "/remark/2022/10/cultural-commons.md" >}})
