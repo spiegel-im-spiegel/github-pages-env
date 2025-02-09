@@ -22,7 +22,7 @@ pageType = "text"
 
 ## GitHub Copilot で遊ぶ
 
-まず {{% keytop %}}Ctrl{{% /keytop %}}+{{% keytop %}}I{{% /keytop %}} でプロンプトを表示し「[`time`]`.Weekday` と同等な機能で日本語の曜日名を出力する型」で問い合わせてみる。
+まず {{% keytop %}}`Ctrl`{{% /keytop %}}+{{% keytop %}}`I`{{% /keytop %}} でプロンプトを表示し「[`time`]`.Weekday` と同等な機能で日本語の曜日名を出力する型」で問い合わせてみる。
 
 {{< fig-img src="./github-copilot-prompt.png" title="time.Weekday と同等な機能で日本語の曜日名を出力する型" link="./github-copilot-prompt.png" width="1039" >}}
 
@@ -89,7 +89,7 @@ func (w WeekdayJp) ShortStringJp() string {
 {{< fig-img src="./autocomplete-code.png" title="コード補完" link="./autocomplete-code.png" width="530" >}}
 
 という感じにコードを提案してくる。
-この状態で {{% keytop %}}Tab{{% /keytop %}} キー押下で確定する。
+この状態で {{% keytop %}}`Tab`{{% /keytop %}} キー押下で確定する。
 テストコードも関数名から推測して妥当なコードを提案してくる。
 変数・定数もクラス・メソッド名も名前が大事ってことですね（笑）
 
