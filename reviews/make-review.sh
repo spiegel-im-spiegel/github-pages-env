@@ -1,4 +1,5 @@
 #/bin/sh
+sleep 1;cat B0CQS23YMR.html | books-data review -t review-book.html -a B0CQS23YMR -r 4 --review-date 2025-02-09 --pipe
 sleep 1;cat B0DTT1L1KL.html | books-data review -t review-book.html -a B0DTT1L1KL -r 4 --review-date 2025-02-03 --pipe
 # ---
 # sleep 1;cat ./done/B099ZXJWMV.html | books-data review -t review-book.html -a B099ZXJWMV -r 4 --review-date 2025-02-01 --pipe
