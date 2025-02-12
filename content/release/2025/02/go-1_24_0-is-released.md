@@ -1,7 +1,7 @@
 +++
 title = "Go 1.24 のリリース"
 date =  "2025-02-12T19:28:13+09:00"
-description = "パッと見た感じ暗号周りが派手に変わってる感じ。 あとは encoding.TextAppender と encoding.BinaryAppender かな。"
+description = "パッと見たところ暗号周りが派手に変わってる感じ。 あとは encoding.TextAppender と encoding.BinaryAppender かな。"
 image = "/images/attention/go-logo_blue.png"
 tags  = [ "programming", "language", "golang", "ubuntu" ]
 pageType = "text"
@@ -19,7 +19,7 @@ pageType = "text"
 - [Go 1.24 Release Notes - The Go Programming Language](https://go.dev/doc/go1.24)
 - [FIPS 140-3 Compliance - The Go Programming Language](https://go.dev/doc/security/fips140)
 
-パッと見た感じ暗号周りが派手に変わってる感じ。
+パッと見たところ暗号周りが派手に変わってる感じ。
 あとは [`encoding`]`.TextAppender` と [`encoding`]`.BinaryAppender` かな。
 これを使ったリファクタリングが広範に行われている印象。
 この辺は後で調べてみよう。
