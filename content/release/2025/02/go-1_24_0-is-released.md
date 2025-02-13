@@ -57,6 +57,7 @@ go version go1.24.0 linux/amd64
 
 ## ブックマーク
 
+- [Go 1.24 リリースパーティ - connpass](https://gocon.connpass.com/event/345795/)
 - [渋川よしき氏・mattn氏に聞く、春のGoお悩み相談会 - connpass](https://levtechlab.connpass.com/event/339320/)
 
 [Go]: https://go.dev/
