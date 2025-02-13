@@ -18,6 +18,7 @@ pageType = "text"
 - [Go 1.24 is released! - The Go Programming Language](https://go.dev/blog/go1.24)
 - [Go 1.24 Release Notes - The Go Programming Language](https://go.dev/doc/go1.24)
 - [FIPS 140-3 Compliance - The Go Programming Language](https://go.dev/doc/security/fips140)
+- [Extensible Wasm Applications with Go - The Go Programming Language](https://go.dev/blog/wasmexport)
 
 パッと見たところ暗号周りが派手に変わってる感じ。
 あとは [`encoding`]`.TextAppender` と [`encoding`]`.BinaryAppender` かな。
