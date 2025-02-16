@@ -30321,5 +30321,46 @@
       false
     ],
     "Description": "アニメ「葬送のフリーレン」\u003ca href =\"https://www.youtube.com/watch?v=E0d2uEQJbXs\"\u003eOP曲\u003c/a\u003e。 mora で\u003ca href=\"https://mora.jp/package/43000006/00602458894035/\"\u003e高解像度版\u003c/a\u003eが買える。 YouTube の「歌ってみた」をいくつか聴いてオリジナルを買っておこうかなと。移動中にヘヴィローテーションしてる。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CDL9G23F",
+      "Title": "シマノ(SHIMANO) DUAL ソフトシェルトゥーカバー XL(44サイズ~46サイズ)",
+      "URL": "https://www.amazon.co.jp/dp/B0CDL9G23F?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/21YFEgicy4L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "スポーツ用品",
+      "Publisher": "シマノ(SHIMANO)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CDL9G23F"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4550170827977"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-02-11",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "サイクルシューズのつま先部分のみ覆うシューズカバー。防風\u0026撥水。ビンディングシューズと相性が良さそうだが，フラットペダル用のシューズでもどうにか大丈夫。つま先が幅広の靴だとキビシイか。"
   }
 ]
