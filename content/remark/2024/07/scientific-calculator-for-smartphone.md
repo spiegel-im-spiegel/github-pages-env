@@ -130,6 +130,32 @@ Bluesky の[早川書房](https://bsky.app/profile/hayakawa-online.co.jp "早川
 {{% keytop %}}$x^2${{% /keytop %}} や {{% keytop %}}$x^3${{% /keytop %}} はあるのに {{% keytop %}}$y^x${{% /keytop %}} がない関数電卓があるらしい。
 これがないと複利計算が面倒だと思うのだが。
 
+{{< div-box type="markdown" >}}
+#### 【2025-02-18 追記】 10<sup>100</sup> + 1 - 10<sup>100</sup> が 1 になるか
+
+面白い記事を見つけた。
+
+- [電卓アプリを作るのはなぜ難しいのか、Androidの「電卓」に施された工夫とは？ - GIGAZINE](https://gigazine.net/news/20250217-android-calclator-app/)
+
+{{% keytop %}}$y^x${{% /keytop %}} がある電卓であれば $10^{100} + 1 - 10^{100}$ が計算できる。
+ただし計算過程で「情報落ち」の誤差が発生すると結果が 0 になる。
+例えば Google 検索を使った場合でもそうなった。
+
+{{< fig-img src="./calculator-by-google-search-2.png" title="10^100 + 1 - 10^100 by Google" link="./calculator-by-google-search-2.png" width="1024" >}}
+
+ところが Android 機に標準で付いている電卓アプリでは正しく 1 になる。
+
+{{< fig-img src="./android-calc.jpg" title="10^100 + 1 - 10^100 by Android calculator" link="./android-calc.jpg" width="2340" >}}
+
+件の記事によると，これは任意精度の有理数計算を行っているかららしい。
+[Go] 言語で言うところの [`math/big`]`.Rat` 型に相当するものかな。
+
+大抵の電卓は有効桁数の仕様が決まっていて，上述のような情報落ちがなく計算できる電卓は少ないかもしれない。
+
+[Go]: https://go.dev/
+[`math/big`]: https://pkg.go.dev/math/big "big package - math/big - Go Packages"
+{{< /div-box >}}
+
 ### x√y があるか
 
 同じく {{% keytop %}}$\sqrt{\\;}${{% /keytop %}} や {{% keytop %}}$\sqrt[3]{\\;}${{% /keytop %}} はあるのに {{% keytop %}}$\sqrt[x]{y}${{% /keytop %}} がない関数電卓もあるらしい。
@@ -260,6 +286,12 @@ CASIO の [CLASSWIZ] シリーズのエミュレーションができる関数�
 前節で挙げた評価基準は全て満たしている。
 その上で行列や微積分も使えるし $\sum$ も $\prod$ も使えるし複素数も使える。
 乱数生成もできるとか！
+
+{{< div-box type="markdown" >}}
+**【2025-02-18 追記】** 残念ながら $10^{100} + 1 - 10^{100}$ は 0 になった。
+
+{{< fig-img src="./hiper-calc-pro-6.png" title="HiPER Calc Pro" link="./hiper-calc-pro-6.png" >}}
+{{< /div-box >}}
 
 変数は $x$, $y$ 以外に自由に名前を付けて定義できるっぽい。
 {{% keytop %}}STAT{{% /keytop %}} や {{% keytop %}}OTHER{{% /keytop %}} を見るとアホみたいに関数が定義されている。
