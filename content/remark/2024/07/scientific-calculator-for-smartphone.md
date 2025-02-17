@@ -148,7 +148,7 @@ Bluesky の[早川書房](https://bsky.app/profile/hayakawa-online.co.jp "早川
 {{< fig-img src="./android-calc.jpg" title="10^100 + 1 - 10^100 by Android calculator" link="./android-calc.jpg" width="2340" >}}
 
 件の記事によると，これは任意精度の有理数計算を行っているかららしい。
-[Go] 言語で言うところの [`math/big`]`.Rat` 型に相当するものかな。
+[Go] 言語で言うところの [`math/big`]`.Int` および [`math/big`]`.Rat` 型に相当するものかな。
 
 大抵の電卓は有効桁数の仕様が決まっていて，上述のような情報落ちがなく計算できる電卓は少ないかもしれない。
 
