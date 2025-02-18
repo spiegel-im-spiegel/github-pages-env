@@ -199,8 +199,8 @@ gitGraph
 
 | コードと表示                                                                                                                     |
 | -------------------------------------------------------------------------------------------------------------------------------- |
-| `{{</* icons "square" "square-check" "settings" "check" "rss" "share" "share-alt" "share-nodes" "email" "pdf" "css3" "erlang" "golang" "html5" "java" "nodejs" "php" "python" "rust" "swift" */>}}`    |
-| {{< icons "square" "square-check" "settings" "check" "rss" "share" "share-alt" "share-nodes" "email" "pdf" "css3" "erlang" "golang" "html5" "java" "nodejs" "php" "python" "rust" "swift" >}} |
+| `{{</* icons "square" "square-check" "settings" "check" "rss" "share" "share-alt" "share-nodes" "email" "pdf" "mglass-key" "css3" "erlang" "golang" "html5" "java" "nodejs" "php" "python" "rust" "swift" */>}}`    |
+| {{< icons "square" "square-check" "settings" "check" "rss" "share" "share-alt" "share-nodes" "email" "pdf" "mglass-key" "css3" "erlang" "golang" "html5" "java" "nodejs" "php" "python" "rust" "swift" >}} |
 
 
 ### 拡大・色付け
@@ -233,6 +233,9 @@ gitGraph
 |  {{< emoji "錠前と鍵" >}}  | `{{</* emoji "錠前と鍵" */>}}`   |
 |  {{< emoji "蝶" >}}  | `{{</* emoji "蝶" */>}}`   |
 |  {{< emoji "X" >}}  | `{{</* emoji "X" */>}}`   |
+|  {{< emoji "雷" >}}  | `{{</* emoji "雷" */>}}`   |
+|  {{< emoji "恐怖" >}}  | `{{</* emoji "恐怖" */>}}`   |
+|  {{< emoji "がっかり" >}}  | `{{</* emoji "がっかり" */>}}`   |
 
 |                            サイズ                             | コード                                                                      |
 | :-----------------------------------------------------------: | --------------------------------------------------------------------------- |
