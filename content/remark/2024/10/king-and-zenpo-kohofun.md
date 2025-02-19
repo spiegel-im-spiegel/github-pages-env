@@ -3,7 +3,7 @@ title = "「王と前方後方墳 — 王道か、異端か。」"
 date =  "2024-10-14T22:32:02+09:00"
 description = "「王と前方後方墳 — 王道か、異端か。」 / 岡田山1号墳 / またまたパンク"
 image = "/remark/2024/10/king-and-zenpo-kohofun/54065648675_b93f113379_o.jpg"
-tags = [ "osanpo-camera", "photography", "matsue", "bike", "ruins" ]
+tags = [ "osanpo-camera", "photography", "matsue", "bike", "ruins", "museum" ]
 license = "by"
 pageType = "photo"
 

@@ -3,7 +3,7 @@ title = "新版画展を観に行く（お散歩カメラ 2024-02-18）"
 date =  "2024-02-18T20:47:38+09:00"
 description = "企画展：THE 新版画 版元・渡邊庄三郎の挑戦 / 定点観測 / 読書と午睡 / 今日の日没"
 image = "/remark/2024/02/18-osanpo-camera/53536292674_f9a7248c8f_o.jpg"
-tags = [ "osanpo-camera", "photography", "matsue" ]
+tags = [ "osanpo-camera", "photography", "matsue", "museum" ]
 license = "by"
 pageType = "photo"
 

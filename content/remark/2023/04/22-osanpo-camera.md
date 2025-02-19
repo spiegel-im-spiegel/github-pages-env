@@ -3,7 +3,7 @@ title = "お散歩カメラ 2023-04-22"
 date =  "2023-04-22T21:32:35+09:00"
 description = "千本ダム・チャレンジ / 森山大道展 / 春夏用グローブとサイクルキャップ買うた / トイレ以外の用事で本屋へ / 帰り道"
 image = "/remark/2023/04/22-osanpo-camera/52835372107_b87c52ca18_o.jpg"
-tags = [ "osanpo-camera", "photography", "matsue", "book", "bike", "shrine" ]
+tags = [ "osanpo-camera", "photography", "matsue", "book", "bike", "shrine", "museum" ]
 license = "by"
 pageType = "photo"
 
@@ -44,7 +44,7 @@ Google Maps だと「[松江市水道水神社](https://goo.gl/maps/DxjFa1DwjbU4
 周囲には他にもいくつか神社があるらしいのだが，それはまた今度。
 かなり余裕をもって行けたので，何回かチャレンジしてみよう。
 
-## 森山大道展
+## 森山大道展 {#museum}
 
 [島根県立美術館]で森山大道さんの写真展をやってる（2023-06-26 まで）と聞いたので千本ダムからえんやらやっと移動する。
 あっ，その前に今日の宍道湖ね。

@@ -3,7 +3,7 @@ title = "「松江のモダニズム建築群スタンプラリー」2周目"
 date =  "2024-09-12T19:37:16+09:00"
 description = "2個目の缶バッヂGETだぜ！"
 image = "/remark/2024/09/matsue-architecture-stamp-rally-2nd/53989342139_c4b0a16c99_o.jpg"
-tags = [ "osanpo-camera", "photography", "matsue" ]
+tags = [ "osanpo-camera", "photography", "matsue", "museum" ]
 license = "by"
 pageType = "photo"
 

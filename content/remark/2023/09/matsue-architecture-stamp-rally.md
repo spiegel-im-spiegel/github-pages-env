@@ -3,7 +3,7 @@ title = "「松江のモダニズム建築群スタンプラリー」に参加�
 date =  "2023-09-07T21:52:15+09:00"
 description = "一番行きなれてる図書館が閉まってるとか orz"
 image = "/remark/2023/09/matsue-architecture-stamp-rally/53174414170_f49e62ab2b_o.jpg"
-tags = [ "osanpo-camera", "photography", "matsue" ]
+tags = [ "osanpo-camera", "photography", "matsue", "museum" ]
 license = "by"
 pageType = "photo"
 

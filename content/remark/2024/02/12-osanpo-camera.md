@@ -3,7 +3,7 @@ title = "お散歩カメラ 2024-02-12"
 date =  "2024-02-12T20:59:30+09:00"
 description = "GIRO Tracker 感想 / 八雲温泉と昼食 / 八雲立つ風土記の丘の企画展示 / 定点観測と燃料補給 / 今日の宍道湖（日没）"
 image = "/remark/2024/02/12-osanpo-camera/53524174851_10dd109e08_o.jpg"
-tags = [ "osanpo-camera", "photography", "matsue", "bike", "ruins" ]
+tags = [ "osanpo-camera", "photography", "matsue", "bike", "ruins", "museum" ]
 license = "by"
 pageType = "photo"
 

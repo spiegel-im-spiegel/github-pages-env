@@ -3,7 +3,7 @@ title = "温泉と平山郁夫（お散歩カメラ 2025-01-19）"
 date =  "2025-01-19T22:37:23+09:00"
 description = "小春日和 / 久しぶり八雲温泉 / 熊野大社参拝 / 「平山郁夫 未来へのキャラバン ―シルクロードから日本、そして出雲へ―」 / 日が暮れる前に帰ろう"
 image = "/remark/2025/01/19-osanpo-camera/54274881010_abcbb3fcb5_o.jpg"
-tags = [ "osanpo-camera", "photography", "matsue", "bike" ]
+tags = [ "osanpo-camera", "photography", "matsue", "bike", "museum" ]
 license = "by"
 pageType = "photo"
 
