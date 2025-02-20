@@ -15,6 +15,11 @@
 		&raquo; 最新記事：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>{{ end }}</span>
 </li>
 
+<li><a href='{{ "/typst/" | relURL }}'><em>[typst] Typst のお勉強</em></a> <a href='{{ "/typst/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
+	<br><span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "typst") }}
+		&raquo; 最新記事：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>{{ end }}</span>
+</li>
+
 <li><a href='{{ "/openpgp/" | relURL }}'><em>[openpgp] OpenPGP の実装</em></a> <a href='{{ "/openpgp/index.xml" | relURL }}' title='Feed'><i class='fas fa-rss'></i></a>
 	<br><span style="font-size:smaller;">{{ range first 1 (where .Site.RegularPages "Section" "==" "openpgp") }}
 		&raquo; 最新記事：<a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Site.Data.author }}{{ with .name }} by {{ . }}{{ end }}{{ end }}, <time>{{ .Date.Format "2006-01-02" }}</time>{{ end }}</span>

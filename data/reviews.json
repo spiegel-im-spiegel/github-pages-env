@@ -25813,7 +25813,7 @@
       true,
       false
     ],
-    "Description": "昨年末に出てるのに気が付かなかった \u003ccode\u003eorz\u003c/code\u003e 今回は版元で \u003ca href=\"https://gihyo.jp/dp/ebook/2023/978-4-297-13890-5\"\u003ePDF 版\u003c/a\u003eを買った。"
+    "Description": "2023年末に出てるのに気が付かなかった \u003ccode\u003eorz\u003c/code\u003e 今回は版元で \u003ca href=\"https://gihyo.jp/dp/ebook/2023/978-4-297-13890-5\"\u003ePDF 版\u003c/a\u003eを買った。"
   },
   {
     "Book": {
@@ -30362,5 +30362,47 @@
       false
     ],
     "Description": "サイクルシューズのつま先部分のみ覆うシューズカバー。防風\u0026撥水。ビンディングシューズと相性が良さそうだが，フラットペダル用のシューズでもどうにか大丈夫。つま先が幅広の靴だとキビシイか。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DPXBNTRS",
+      "Title": "Typst完全入門: LaTeXより簡単、Markdownより強力、美しいドキュメント作成術",
+      "URL": "https://www.amazon.co.jp/dp/B0DPXBNTRS?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51B7ollzNML._SL160_.jpg",
+        "Height": 160,
+        "Width": 100
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "doitsu",
+          "Role": "著"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DPXBNTRS"
+        }
+      ],
+      "PublicationDate": "2024-12-08",
+      "LastRelease": "2024-12-08",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-02-20",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "マークアップ言語および組版ツールである Typst についての解説。 Kindle 版のみの提供。固定レイアウトではないためレイアウトが崩れまくって読みにくい。この手の技術解説書は固定レイアウトの Kindle 版か，いっそ PDF で出してほしい。でも Typst についてまとまった解説のある日本語の本は他に見当たらなかったのでありがたい。"
   }
 ]
