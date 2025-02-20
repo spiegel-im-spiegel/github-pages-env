@@ -63,6 +63,13 @@ elif [ $section == "openpgp" ]; then
 	else
 		p="$section/$fname"
 	fi
+elif [ $section == "typst" ]; then
+	if [ ${fname:-0} == 0 ]; then
+		echo "入力ファイルを指定してください。"
+		exit 1
+	else
+		p="$section/$fname"
+	fi
 else
 	fname=$section
 	section=""

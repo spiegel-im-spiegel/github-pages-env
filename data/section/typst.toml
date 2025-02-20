@@ -1,0 +1,5 @@
+languageCode = "ja"
+name = "Typst のお勉強"
+description = "話題のドキュメント組版エンジン Typst についてお勉強する。"
+sectionType = "text"
+image = "/images/attention/tools.png"
