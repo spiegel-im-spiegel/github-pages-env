@@ -12,10 +12,16 @@ draft = true
   mermaidjs = false
 +++
 
-Bluesky の TL を眺めてて気がついたのだが [Typst] の Bluesky アカウントがあるらしい。
-Mastodon のアカウントもあるな。
 
-- [Typst (@typst.app) — Bluesky](https://bsky.app/profile/typst.app)
+
+
+
+
+
+
+
+
+
 
 
 
