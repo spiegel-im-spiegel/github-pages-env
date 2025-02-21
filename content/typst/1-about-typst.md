@@ -1,7 +1,7 @@
 +++
 title = "Typst について"
 date =  "2025-02-20T22:09:42+09:00"
-description = "そろそろ Typst の勉強を始めようか / Typst とは"
+description = "そろそろ Typst の勉強を始めようか / Typst とは / ちょっと触ってみる"
 image = "/images/attention/tools.png"
 tags  = [ "typst", "tex", "markdown" ]
 pageType = "text"
@@ -55,9 +55,9 @@ IPA: /taɪpst/. "Ty" like in **Ty**pesetting and "pst" like in Hi**pst**er. When
 イケてる組版ソフトってこと？
 
 簡単に言うと [Typst] は独自のマークアップ言語とそれを解釈して組版を行うツールおよびサービスを指す。
-組版ソフトとしては定番の $\mathrm{\LaTeX}$ や markdown テキストと比較して以下のような特徴があるらしい。
+組版ソフトとしては定番の $\mathrm{\LaTeX}$ や Markdown テキストと比較して以下のような特徴があるらしい。
 
-- マークアップについては $\mathrm{\LaTeX}$ より簡易で markdown より高度な表現が出来る
+- マークアップについては $\mathrm{\LaTeX}$ より簡易で Markdown より高度な表現が出来る
   - マクロを使った制御が可能
 - 組版結果を PDF形式のファイルに直接出力できる
 - 組版結果を HTML 形式へエクスポートができる（0.13 より）
@@ -104,9 +104,42 @@ macOS は [Homebrew からインストール可能](https://formulae.brew.sh/for
 知らんけど。
 
 VS Code 用の拡張機能や vim 用のプラグインもあるらしい。
-この辺はローカル環境で本格的に利用するときに改めて調べていこう。
 
-というわけで，今回はここまで。
+## ちょっと触ってみる
+
+先程のダッシュボードを開いて {{% keytop %}}`Empty document`{{% /keytop %}} を押してみる。
+
+{{< fig-img src="./empty-document.png" title="Create project" link="./empty-document.png" width="1489" >}}
+
+適当に “`sample`” とかで始めてみるか。
+以下の文言を入力する。
+
+```typst
+= アルベルト・アインシュタインについて
+
+アルベルト・アインシュタインは1879年3月14日，ドイツ生まれの理論物理学者です。
+彼による革命的な3つの論文「光電効果の理論」「ブラウン運動の理論」「特殊相対性理論」が発表された1905年は「奇跡の年」と呼ばれています。
+```
+
+構文についてはとりあえず後回しにして，組版結果はこんな感じ。
+
+{{< fig-img src="./sample.png" title="Project: tutorial-1" link="./sample.png" width="1263" >}}
+
+うわぁ。
+これは酷い（笑）
+
+まずエディタのフォントが `"Cascadia Mono", monospace` になってるな。
+
+{{< fig-img src="./settings.png" title="Settings" link="./settings.png" width="1264" >}}
+
+画面左上に {{% keytop %}}↓{{% /keytop %}} ボタンがあるので，これを押下して PDF ファイルを[ダウンロード](./sample.pdf)し，プロパティを見てみる。
+
+{{< fig-img src="./property.png" title="property" link="./property.png" width="675" >}}
+
+なんか中華フォントっぽい。
+句読点も明らかにおかしいし。
+やっぱ，まともに日本語のドキュメント環境が欲しいならローカルで作らないとダメかな。
+ちょっと考えてみよう。
 
 ## ブックマーク
 
