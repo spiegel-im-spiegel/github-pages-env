@@ -264,7 +264,9 @@ $ fc-list | grep "BIZ UD"
 /usr/local/share/fonts/BIZUDGothic-Regular.ttf: BIZ UDゴシック,BIZ UDGothic:style=Regular
 ```
 
-[Ubuntu] では Helvetica の代替として Liberation Sans が最初から入っているのでこれを使う。
+[Ubuntu] では Helvetica の代替として Liberation Sans が最初から入っているのでこれを使う[^h1]。
+
+[^h1]: Windows では Helvetica の代替として Arial フォントがよく使われる。
 
 これでフォント指定の最終形を以下とする。
 
