@@ -106,7 +106,7 @@ $ typst compile sample-1.typ
 
 {{< fig-img src="./property-sample-1.png" title="組版結果 (1)" link="./property-sample-1.pdf" >}}
 
-[Firge](https://github.com/yuru7/Firge "yuru7/Firge: Fira Mono と源真ゴシックを合成したプログラミングフォント Firge (ファージ)")Nerd ？ そんなもん入れたっけ？ いやこれ最初っから入ってたやつだな。
+[Firge](https://github.com/yuru7/Firge "yuru7/Firge: Fira Mono と源真ゴシックを合成したプログラミングフォント Firge (ファージ)")Nerd ？ そんなもん入れたっけ？ いやこれ OS に最初っから入ってたやつだな。
 てか，入ってるのか。
 凄いな [Ubuntu]。
 よく分からないが，フォントリストから日本語コードが入ってるフォントを（アルファベット順で）探して割り当てたって感じ？
@@ -240,7 +240,7 @@ $ typst compile sample-1.typ
 
 [Typst] でもこれを日本語フォントとして使いたい。
 また見出しで使う欧文フォントには Helvetica を使いたい。
-いずれも [Ubuntu] にはないため，手動でインストールする。
+モリサワ BIZ UD フォントは [Ubuntu] にはないため，手動でインストールする。
 
 - [Morisawa BIZ UDMincho](https://github.com/googlefonts/morisawa-biz-ud-mincho)
 - [Morisawa BIZ UDGothic](https://github.com/googlefonts/morisawa-biz-ud-gothic)
