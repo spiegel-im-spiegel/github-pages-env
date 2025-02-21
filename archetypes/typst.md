@@ -32,4 +32,9 @@ draft = true
 
 
 [Typst]: https://typst.app/ "Typst: Compose papers faster"
-<!-- eof -->
+[Typst Documentation]: https://typst.app/docs/ "Typst Documentation"
+[Tutorial]: https://typst.app/docs/tutorial "Tutorial – Typst Documentation"
+
+## 参考文献
+
+{{% review-paapi "B0DPXBNTRS" %}} <!-- Typst完全入門-->
