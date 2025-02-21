@@ -106,9 +106,11 @@ $ typst compile sample-1.typ
 
 {{< fig-img src="./property-sample-1.png" title="組版結果 (1)" link="./property-sample-1.pdf" >}}
 
-[Firge](https://github.com/yuru7/Firge "yuru7/Firge: Fira Mono と源真ゴシックを合成したプログラミングフォント Firge (ファージ)")Nerd ？ そんなもん入れたっけ？ いやこれ OS に最初っから入ってたやつだな。
+[Firge](https://github.com/yuru7/Firge "yuru7/Firge: Fira Mono と源真ゴシックを合成したプログラミングフォント Firge (ファージ)")Nerd ？ そんなもん入れたっけ？ ~~いやこれ OS に最初っから入ってたやつだな。
 てか，入ってるのか。
-凄いな [Ubuntu]。
+凄いな [Ubuntu]。~~
+勘違い。
+このフォントは自分で[入れてた]({{< ref "/remark/2021/09/lualatex-with-firge-font.md" >}} "Firge フォントを使って LuaLaTeX でコードを書く")わ。
 よく分からないが，フォントリストから日本語コードが入ってるフォントを（アルファベット順で）探して割り当てたって感じ？
 
 [Typst] では `#set` キーワードとそれに続く関数実行により文書スタイルを設定できる。
