@@ -13,6 +13,22 @@ pageType = "text"
 
 さっそく[チュートリアル][Tutorial]を見ながら [Typst] を触っていこうと思ったのだが，[ちょっと動かしてみた]({{< relref "/typst/1-about-typst.md#ope" >}})ところ，クラウドサービスの環境では日本語がショボすぎて先へ進める気にならないので，ローカルに環境を作ってしまうことにした。
 
+{{< div-box type="markdown" >}}
+**【2025-02-22 追記】**
+
+[前回]の記事に追記して，クラウドサービスの環境で日本語フォントが指定できることを確認した。
+改めてクラウドサービスの環境で使えるフォントをよく見てみたが [TeX Live] に収録されている TTF/OTF フォントは全て使えるようだ。
+[原ノ味フォント]も使える。
+
+OS にバンドルされているフォントは OS の種類やバージョンによって異なるため，複数人で異なるプラットフォームでドキュメントを作成する場合はフォントを合わせるのに苦労する。
+書籍出版とかではなく文字のデザインそのものに拘りがないのなら，クラウドサービスを使った協働作業にするとか Docker 等を使って環境を統一するとかいったことが必要かもしれない。
+今回は私の個人的な作業なので好き勝手絶頂にやるけど（笑）
+
+[前回]: {{< relref "./1-about-typst.md" >}} "Typst について"
+[TeX Live]: http://www.tug.org/texlive/ "TeX Live - TeX Users Group"
+[原ノ味フォント]: https://github.com/trueroad/HaranoAjiFonts "trueroad/HaranoAjiFonts: 原ノ味フォント"
+{{< /div-box >}}
+
 今回の環境は以下の通り：
 
 - OS は [Ubuntu] 24.10
@@ -322,7 +338,6 @@ Albert Einsteinは1879年3月14日，ドイツ生まれの理論物理学者で�
 [Typst Documentation]: https://typst.app/docs/ "Typst Documentation"
 [Tutorial]: https://typst.app/docs/tutorial "Tutorial – Typst Documentation"
 
-[前回]: {{< relref "./1-about-typst.md" >}} "Typst について"
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [VS Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
 [Tinymist Typst]: https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist "Tinymist Typst - Visual Studio Marketplace"
