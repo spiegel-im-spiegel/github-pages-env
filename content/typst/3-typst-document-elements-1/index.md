@@ -57,7 +57,7 @@ pageType = "text"
 キーワードの頭に付いている `#` はコードモードの開始を示している。
 他にも `$ ... $` で囲まれている部分は数式モード， `[ ... ]` で囲まれている部分はマークアップモードといった感じにモードが切り替わる。
 指定されている部分以外はマークアップモード。
-$\mathrm{\LaTeX}$ では文書を記述するエリアが明示的に示され，それ以前の部分をプリアンブル（preamble; 前口上）として設定やルールを纏めて記述するが [Typst] ではそういった区別はなく，コードモードを任意の場所に記述可能で逐次処理される。
+$\mathrm{\LaTeX}$ では文書を記述する領域（環境）が明示的に示され，それ以前の部分をプリアンブル（preamble; 前口上）として設定やルールを纏めて記述するが [Typst] ではそういった区別はなく，コードモードを任意の場所に記述可能で逐次処理される。
 
 コードモードは基本的に文単位で `#` を付けるが `#{ ... }` とブロック単位で指定することもできる。
 `set` や `show` はコードモードで使えるキーワードである。
@@ -97,7 +97,7 @@ $\mathrm{\LaTeX}$ では文書を記述するエリアが明示的に示され�
 {{< fig-img src="./pdf-sample-hd-01.png" title="見出し (1)" link="./pdf-sample-hd-01.png" width="713" >}}
 
 `=` を重ねることで見出しのレベルが深くなるが，レベルの制限は（仕様上は）ないみたい。
-レベルが深くなると見た目で見分けがつかなくなるけど。
+レベルが深くなると見た目で判別できなくなるけど。
 
 [`heading`] 関数を使ってコードモードで見出しを表示することもできる。
 
@@ -120,7 +120,7 @@ $\mathrm{\LaTeX}$ では文書を記述するエリアが明示的に示され�
 
 コードモードで見出しを書くメリットはあまりないと思うけど，上のように特定の見出しを目次に含めないとかいった制御が必要な場合があるかもしれない。
 
-見出しの番号は `set` キーワードでルールを定義する。
+見出し番号のフォーマットは `set` キーワードでルールを定義するのがよい。
 
 ```typst {hl_lines=[2]}
 #set text(font: "Noto Sans CJK JP")
@@ -231,7 +231,9 @@ The * character means that symbols should be used to count, in the order of *, �
 
 {{< fig-img src="./pdf-sample-par-03.png" title="段落 (3)" link="./pdf-sample-par-03.png" width="713" >}}
 
-実際には `set` を使って段落の設定ルールを定義することのほうが多いだろう。
+`justify` 指定の有無でレイアウトがどう変わるか見て欲しい。
+
+実際にはコードモードで個別に指定するより `set` を使って段落の設定ルールを定義することのほうが多いだろう。
 
 ```typst {hl_lines=["2-7"]}
 #set text(font: "Noto Serif CJK JP", lang: "ja")
@@ -256,7 +258,7 @@ The * character means that symbols should be used to count, in the order of *, �
 
 {{< fig-img src="./pdf-sample-par-04.png" title="段落 (4)" link="./pdf-sample-par-04.png" width="713" >}}
 
-段落の最初の文字を字下げする設定にしてみたのだが，どうも最初の段落だけ字下げが効かないようだ。
+上の例で段落の最初の文字を字下げする設定にしてみたのだが，どうも最初の段落だけ字下げが効かないようだ。
 欧文では[最初の段落は字下げしないのが主流](https://note.com/jinbunxshakai/n/n6a72f690f11c "最初のパラグラフはインデントしない!? 欧文組版の傾向は？｜『人文×社会』の中の人")とかいう話もあるらしく，バグじゃなくて意図的な仕様じゃないかと言われている。
 一応[回避策](https://adbird.hatenablog.com/entry/2024/03/21/015335#%E5%AD%97%E4%B8%8B%E3%81%92%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6 "Typst 備忘録 - adbird（広告鳥） 備忘録")はあるそうなのだが，副作用もあるみたいだし，積極的に使いたい方法ではないかなぁ。
 オンライン・テキストに慣れてしまうと字下げ云々はあまり気にならなくなるけど，書籍出版や論文を書く人などは結構問題かも。
@@ -408,7 +410,7 @@ Go 言語では最初に #raw("package main", lang: "go") と指定する。
 
 てな感じに記述できる。
 
-箇条書きの番号やシンボルは `set` であらかじめルールを設定すしておくこともできる。
+箇条書きの番号やシンボルは `set` であらかじめルールを設定しておくこともできる。
 
 ```typst
 #set text(font: "Noto Serif CJK JP", lang: "ja")
@@ -493,7 +495,7 @@ Go 言語では最初に #raw("package main", lang: "go") と指定する。
 )
 ```
 
-{{< fig-img src="./pdf-sample-image-01.png" title="表 (1)" link="./pdf-sample-image-01.png" width="713" >}}
+{{< fig-img src="./pdf-sample-image-01.png" title="図" link="./pdf-sample-image-01.png" width="713" >}}
 
 これも [`figure`] 関数で囲んでいる。
 
@@ -537,3 +539,4 @@ Go 言語では最初に #raw("package main", lang: "go") と指定する。
 
 {{% review-paapi "B0DPXBNTRS" %}} <!-- Typst完全入門-->
 {{% review-paapi "4297138891" %}} <!-- ［改訂第9版］LaTeX美文書作成入門 -->
+{{% review-paapi "B071CWZ2NM" %}} <!-- 熱学思想の史的展開 山本義隆 -->

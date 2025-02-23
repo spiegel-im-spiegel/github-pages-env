@@ -30404,5 +30404,48 @@
       false
     ],
     "Description": "マークアップ言語および組版ツールである Typst についての解説。 Kindle 版のみの提供。固定レイアウトではないためレイアウトが崩れまくって読みにくい。この手の技術解説書は固定レイアウトの Kindle 版か，いっそ PDF で出してほしい。でも Typst についてまとまった解説のある日本語の本は他に見当たらなかったのでありがたい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B071CWZ2NM",
+      "Title": "熱学思想の史的展開１　──熱とエントロピー (ちくま学芸文庫)",
+      "URL": "https://www.amazon.co.jp/dp/B071CWZ2NM?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51duBLSyHhL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "山本義隆",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "筑摩書房",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B071CWZ2NM"
+        }
+      ],
+      "PublicationDate": "2008-12-10",
+      "LastRelease": "2017-05-05",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-02-23",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "1987年に現代数学社から\u003ca href=\"https://www.amazon.co.jp/dp/4768703011?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1\"\u003e出版\u003c/a\u003eされた同タイトルの本の再販かな？ 筑摩版では三分冊になっている。熱力学やエントロピーについて学ぶのであれば理解の助けになるだろう。"
   }
 ]
