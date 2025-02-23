@@ -30,6 +30,9 @@ draft = true
 
 
 
+## ブックマーク
+
+ブックマークは「[Typst に関するブックマーク]({{< relref "./0-bookmark.md" >}})」にてまとめています。
 
 [Typst]: https://typst.app/ "Typst: Compose papers faster"
 [Typst Documentation]: https://typst.app/docs/ "Typst Documentation"

@@ -168,9 +168,7 @@ Mastodon で教えていただきました。
 
 ## ブックマーク
 
-- [話題の組版エンジン Typst を触ってみた](https://zenn.dev/monaqa/articles/2023-04-19-typst-introduction)
-- [Typstの環境構築 Windows編 #Windows - Qiita](https://qiita.com/denkiuo604/items/21e8758ab160bf895e34)
-- [Typst 備忘録 - adbird（広告鳥） 備忘録](https://adbird.hatenablog.com/entry/2024/03/21/015335)
+ブックマークは「[Typst に関するブックマーク]({{< relref "./0-bookmark.md" >}})」へ移動しました。
 
 [Typst]: https://typst.app/ "Typst: Compose papers faster"
 [typst/typst]: https://github.com/typst/typst "typst/typst: A new markup-based typesetting system that is powerful and easy to learn."

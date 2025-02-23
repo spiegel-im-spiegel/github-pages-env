@@ -1,0 +1,49 @@
++++
+title = "Typst に関するブックマーク"
+date =  "2025-02-20T09:00:00+09:00"
+description = "Typst に関するブックマークを集めた。"
+image = "/images/attention/tools.png"
+tags  = [ "typst", "bookmark" ]
+pageType = "text"
+
+[scripts]
+  mathjax = false
+  mermaidjs = false
++++
+
+[Typst] に関するブックマークを集めた。
+
+## 公式ドキュメント
+
+- [Typst Documentation](https://typst.app/docs/)
+- [Typst (@typst.app) — Bluesky](https://bsky.app/profile/typst.app)
+- [Typst (@typst@mastodon.social) - Mastodon](https://mastodon.social/@typst)
+- [Typst: Blog](https://typst.app/blog/)
+  - [Typst 0.13 is out now – Typst Blog](https://typst.app/blog/2025/typst-0.13/)
+
+## テンプレートやパッケージ等の情報
+
+- [kimushun1101/typst-jp-conf-template: Typst で日本語論文を書くときのテンプレート](https://github.com/kimushun1101/typst-jp-conf-template)
+  - [Typstテンプレートを使用する](https://zenn.dev/kimushun1101/articles/typst-template)
+- [okumuralab/typst-js](https://github.com/okumuralab/typst-js)
+
+## その他
+
+- [Typstについて – Typstドキュメント日本語版](https://typst-doc-cn.github.io/docs/)
+  - [日本語組版情報 – Typstドキュメント日本語版](https://typst-doc-cn.github.io/docs/japanese/)
+- [Typst入門](https://okumuralab.org/~okumura/misc/241111.html)
+  - [日本語の組版ルール](https://okumuralab.org/~okumura/misc/241121.html)
+  - [Typst 0.13](https://okumuralab.org/~okumura/misc/250210.html)
+- [話題の組版エンジン Typst を触ってみた](https://zenn.dev/monaqa/articles/2023-04-19-typst-introduction)
+- [Typstの環境構築 Windows編 #Windows - Qiita](https://qiita.com/denkiuo604/items/21e8758ab160bf895e34)
+- [Typst 備忘録 - adbird（広告鳥） 備忘録](https://adbird.hatenablog.com/entry/2024/03/21/015335)
+- [Typstで英数字・日本語文字と見出し・本文の組み合わせごとにフォントを変える #Typst - Qiita](https://qiita.com/rockwell/items/280b4fd2109ef1e3c802)
+- [Typstで黒板太字・筆記体・花文字・ギリシャ文字・ドイツ文字・ヘブライ文字(一部)を表記する方法 #組版 - Qiita](https://qiita.com/gomazarashi/items/a7e3d17b13598c1ba143)
+
+[Typst]: https://typst.app/ "Typst: Compose papers faster"
+[Typst Documentation]: https://typst.app/docs/ "Typst Documentation"
+[Tutorial]: https://typst.app/docs/tutorial "Tutorial – Typst Documentation"
+
+## 参考文献
+
+{{% review-paapi "B0DPXBNTRS" %}} <!-- Typst完全入門-->

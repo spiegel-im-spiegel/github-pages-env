@@ -212,7 +212,7 @@ The * character means that symbols should be used to count, in the order of *, �
 [`par`] 関数を使ってコードモードで段落を表示することもできる。
 
 ```typst
-#set text(font: "Noto Serif CJK JP", lang: "ja")
+#set text(font: "Noto Serif CJK JP", lang: "jp")
 
 #par(justify: false)[
 「何人ものニュートンがいた（There were several Newtons）」
@@ -236,7 +236,7 @@ The * character means that symbols should be used to count, in the order of *, �
 実際にはコードモードで個別に指定するより `set` を使って段落の設定ルールを定義することのほうが多いだろう。
 
 ```typst {hl_lines=["2-7"]}
-#set text(font: "Noto Serif CJK JP", lang: "ja")
+#set text(font: "Noto Serif CJK JP", lang: "jp")
 #set par(
   first-line-indent: 1em,
   leading: 0.9em,
@@ -284,7 +284,7 @@ The * character means that symbols should be used to count, in the order of *, �
 引用（[`quote`]）の表現はコードモードのみ対応しているようだ。
 
 ```typst
-#set text(font: "Noto Serif CJK JP", lang: "ja")
+#set text(font: "Noto Serif CJK JP", lang: "jp")
 
 引用文：
 
@@ -352,7 +352,7 @@ func main() {
 [`raw`] はインラインで使うと面白い。
 
 ```typst
-#set text(font: "Noto Serif CJK JP", lang: "ja")
+#set text(font: "Noto Serif CJK JP", lang: "jp")
 #show raw: body => {
     set text(font: (
       (
@@ -378,7 +378,7 @@ Go 言語では最初に #raw("package main", lang: "go") と指定する。
 マークアップモードでは `+` および `-` で箇条書きを表現できる。
 
 ```typst
-#set text(font: "Noto Serif CJK JP", lang: "ja")
+#set text(font: "Noto Serif CJK JP", lang: "jp")
 
 + 番号付き箇条書き1
   + 番号付き箇条書き1-1
@@ -403,7 +403,7 @@ Go 言語では最初に #raw("package main", lang: "go") と指定する。
 またはコードモードで [`enum`] または [`list`] 関数を使って
 
 ```typst
-#set text(font: "Noto Serif CJK JP", lang: "ja")
+#set text(font: "Noto Serif CJK JP", lang: "jp")
 
 #enum(
   numbering: "①",
@@ -429,7 +429,7 @@ Go 言語では最初に #raw("package main", lang: "go") と指定する。
 箇条書きの番号やシンボルは `set` であらかじめルールを設定しておくこともできる。
 
 ```typst
-#set text(font: "Noto Serif CJK JP", lang: "ja")
+#set text(font: "Noto Serif CJK JP", lang: "jp")
 
 #set enum(numbering: "①.ア")
 #set list(marker: ([‣], [--]))
@@ -453,7 +453,7 @@ Go 言語では最初に #raw("package main", lang: "go") と指定する。
 こんな感じ。
 
 ```typst
-#set text(font: "Noto Serif CJK JP", lang: "ja")
+#set text(font: "Noto Serif CJK JP", lang: "jp")
 
 #table(
   columns: (auto, auto, auto),
@@ -524,9 +524,7 @@ Go 言語では最初に #raw("package main", lang: "go") と指定する。
 
 ## ブックマーク
 
-- [kimushun1101/typst-jp-conf-template: Typst で日本語論文を書くときのテンプレート](https://github.com/kimushun1101/typst-jp-conf-template) : 文書スタイルの記述例として参考になる
-  - [Typstテンプレートを使用する](https://zenn.dev/kimushun1101/articles/typst-template)
-- [Typst 備忘録 - adbird（広告鳥） 備忘録](https://adbird.hatenablog.com/entry/2024/03/21/015335)
+ブックマークは「[Typst に関するブックマーク]({{< relref "./0-bookmark.md" >}})」へ移動しました。
 
 [Typst]: https://typst.app/ "Typst: Compose papers faster"
 [Typst Documentation]: https://typst.app/docs/ "Typst Documentation"

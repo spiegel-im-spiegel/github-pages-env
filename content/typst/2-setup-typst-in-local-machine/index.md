@@ -331,8 +331,7 @@ Albert Einsteinは1879年3月14日，ドイツ生まれの理論物理学者で�
 
 ## ブックマーク
 
-- [Typstで英数字・日本語文字と見出し・本文の組み合わせごとにフォントを変える #Typst - Qiita](https://qiita.com/rockwell/items/280b4fd2109ef1e3c802)
-- [Typstで黒板太字・筆記体・花文字・ギリシャ文字・ドイツ文字・ヘブライ文字(一部)を表記する方法 #組版 - Qiita](https://qiita.com/gomazarashi/items/a7e3d17b13598c1ba143)
+ブックマークは「[Typst に関するブックマーク]({{< relref "./0-bookmark.md" >}})」へ移動しました。
 
 [Typst]: https://typst.app/ "Typst: Compose papers faster"
 [Typst Documentation]: https://typst.app/docs/ "Typst Documentation"
