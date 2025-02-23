@@ -29,8 +29,8 @@ pageType = "text"
 
 ## その他
 
-- [Typstについて – Typstドキュメント日本語版](https://typst-doc-cn.github.io/docs/)
-  - [日本語組版情報 – Typstドキュメント日本語版](https://typst-doc-cn.github.io/docs/japanese/)
+- [Typstについて – Typstドキュメント日本語版](https://typst-jp.github.io/docs/)
+  - [日本語組版情報 – Typstドキュメント日本語版](https://typst-jp.github.io/docs/japanese/)
 - [Typst入門](https://okumuralab.org/~okumura/misc/241111.html)
   - [日本語の組版ルール](https://okumuralab.org/~okumura/misc/241121.html)
   - [Typst 0.13](https://okumuralab.org/~okumura/misc/250210.html)
