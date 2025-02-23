@@ -235,10 +235,13 @@ The * character means that symbols should be used to count, in the order of *, �
 
 実際にはコードモードで個別に指定するより `set` を使って段落の設定ルールを定義することのほうが多いだろう。
 
-```typst {hl_lines=["2-7"]}
+```typst {hl_lines=["2-10"]}
 #set text(font: "Noto Serif CJK JP", lang: "jp")
 #set par(
-  first-line-indent: 1em,
+  first-line-indent: (
+    amount: 1em,
+    all: true,
+  ),
   leading: 0.9em,
   spacing: 0.9em,
   justify: true,
@@ -258,23 +261,16 @@ The * character means that symbols should be used to count, in the order of *, �
 
 {{< fig-img src="./pdf-sample-par-04.png" title="段落 (4)" link="./pdf-sample-par-04.png" width="713" >}}
 
+[Typst] の以前のバージョンでは最初の段落の最初の文字の字下げが出来ない問題があったが，バージョン 0.13 から `first-line-indent` の `all` プロパティを `true` にすることで字下げできるようになった。
+めでたい！
+
+{{< div-box type="markdown" >}}
+**【字下げが効かない問題は [Typst] で解消したため以下の記述は deprecated となった】**
+
 上の例で段落の最初の文字を字下げする設定にしてみたのだが，どうも最初の段落だけ字下げが効かないようだ。
 欧文では[最初の段落は字下げしないのが主流](https://note.com/jinbunxshakai/n/n6a72f690f11c "最初のパラグラフはインデントしない!? 欧文組版の傾向は？｜『人文×社会』の中の人")とかいう話もあるらしく，バグじゃなくて意図的な仕様じゃないかと言われている。
 一応[回避策](https://adbird.hatenablog.com/entry/2024/03/21/015335#%E5%AD%97%E4%B8%8B%E3%81%92%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6 "Typst 備忘録 - adbird（広告鳥） 備忘録")はあるそうなのだが，副作用もあるみたいだし，積極的に使いたい方法ではないかなぁ。
 オンライン・テキストに慣れてしまうと字下げ云々はあまり気にならなくなるけど，書籍出版や論文を書く人など決められた書式で書く人にとっては問題だろう。
-
-{{< div-box type="markdown" >}}
-**【追記】**
-
-奥村晴彦さんが纏められた [Typst] 0.13 の変更点を見ると字下げの問題は直っているらしい。
-んー。
-手元では直ってる感じがしないのだが...
-
-字下げについては以下の記事も参考になるかも。
-
-- [Typst最初の段落の字下げの調整方法](https://zenn.dev/mkpoli/articles/34a5ea47468979)
-
-やっぱ段落の頭に空白を付けるのが一番無難な気がする（笑） ツールをハックするみたいなやり方はツールの仕様が変わると破綻してしまうからなぁ。
 
 [Typst]: https://typst.app/ "Typst: Compose papers faster"
 {{< /div-box >}}
