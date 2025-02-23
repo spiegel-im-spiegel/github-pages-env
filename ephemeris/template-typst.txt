@@ -1,0 +1,7 @@
+#table(
+  columns: (auto, auto, 1fr),
+  align: (right, center, left),
+  table.header([*日付*], [*曜日*], [*内容*]),
+{{ range . }}  [{{ .Date.StringJp }}], [{{ .Date.WeekdayJp.ShortStringJp }}], [{{ .Title }}],
+{{ end -}}
+)
