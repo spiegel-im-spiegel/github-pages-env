@@ -265,7 +265,7 @@ The * character means that symbols should be used to count, in the order of *, �
 めでたい！
 
 {{< div-box type="markdown" >}}
-**【字下げが効かない問題は [Typst] で解消したため以下の記述は deprecated となった】**
+**【字下げが効かない問題は解消したため以下の記述は obsolete となった】**
 
 上の例で段落の最初の文字を字下げする設定にしてみたのだが，どうも最初の段落だけ字下げが効かないようだ。
 欧文では[最初の段落は字下げしないのが主流](https://note.com/jinbunxshakai/n/n6a72f690f11c "最初のパラグラフはインデントしない!? 欧文組版の傾向は？｜『人文×社会』の中の人")とかいう話もあるらしく，バグじゃなくて意図的な仕様じゃないかと言われている。
@@ -422,7 +422,7 @@ Go 言語では最初に #raw("package main", lang: "go") と指定する。
 
 てな感じに記述できる。
 
-箇条書きの番号やシンボルは `set` であらかじめルールを設定しておくこともできる。
+箇条書きの番号やシンボルは `set` であらかじめルールを設定しておくのがいいだろう。
 
 ```typst
 #set text(font: "Noto Serif CJK JP", lang: "jp")
@@ -491,6 +491,39 @@ Go 言語では最初に #raw("package main", lang: "go") と指定する。
 表が中央寄せになった。
 `<holiday>` および `@holiday` は参照構造を表すもの。
 [`link`] 関数を含む参照については後日に改めて扱うことにする。
+
+キャプションを表の上側に表示させることもできる。
+
+```typst {hl_lines=["14-17"]}
+#set text(font: "Noto Serif CJK JP", lang: "jp")
+
+#figure(
+  table(
+    columns: (auto, auto, auto),
+    align: (right, center, left),
+    table.header([*日付*], [*曜日*], [*内容*]),
+    [2025年5月3日], [土], [憲法記念日],
+    [2025年5月4日], [日], [みどりの日],
+    [2025年5月5日], [月], [こどもの日],
+    [2025年5月6日], [火], [休日],
+  ),
+  supplement: [表],
+  caption: figure.caption(
+    position: top,
+    [2025年5月の祝日・休日]
+  ),
+)
+```
+
+{{< fig-img src="./pdf-sample-table-03.png" title="表 (3)" link="./pdf-sample-table-03.png" width="713" >}}
+
+あるいは最初からルール化してしまうか。
+
+```typst
+#show figure.where(
+  kind: table
+): set figure.caption(position: top)
+```
 
 表に関してはかなり複雑な表現が可能なようだ。
 [公式ドキュメント][Typst Documentation]の “[Table guide]” も参考にどうぞ。

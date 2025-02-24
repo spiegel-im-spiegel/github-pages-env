@@ -26,6 +26,8 @@ pageType = "text"
 - [kimushun1101/typst-jp-conf-template: Typst で日本語論文を書くときのテンプレート](https://github.com/kimushun1101/typst-jp-conf-template)
   - [Typstテンプレートを使用する](https://zenn.dev/kimushun1101/articles/typst-template)
 - [okumuralab/typst-js](https://github.com/okumuralab/typst-js)
+- [Nikudanngo/typst-ja-resume-template - Typst履歴書テンプレート](https://github.com/Nikudanngo/typst-ja-resume-template)
+  - [Typstで履歴書を書く #Typst - Qiita](https://qiita.com/Nikudanngo/items/ed9a452b5f63101fb26b)
 
 ## その他
 
