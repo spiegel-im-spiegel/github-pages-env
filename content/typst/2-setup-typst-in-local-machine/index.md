@@ -3,7 +3,7 @@ title = "ローカルで Typst 環境を整える"
 date =  "2025-02-21T18:58:37+09:00"
 description = "ローカルマシンへの環境構築と日本語フォントの指定について試してみた。"
 image = "/images/attention/tools.png"
-tags  = [ "typst", "font" ]
+tags  = [ "typst", "font", "pdf" ]
 pageType = "text"
 
 [scripts]

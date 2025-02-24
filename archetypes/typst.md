@@ -3,7 +3,7 @@ title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date =  "{{ .Date }}"
 description = "description"
 image = "/images/attention/tools.png"
-tags  = [ "typst" ]
+tags  = [ "typst", "pdf" ]
 pageType = "text"
 draft = true
 
