@@ -119,6 +119,10 @@ To start writing, run:
 
 としてローカルのカレントディレクトリにある `js.typ` を示すようにした。
 使用する関数を列挙しなくてもワイルドカード（`*`）が使えるんだな。
+
+なお `#`[`v`]`(1em)` は縦方向に1文字分の空き行を作る関数。
+ちなみに水平方向の空き指定には [`h`] 関数を使う。
+
 フォントの選択については前に書いた「[ローカルで Typst 環境を整える]({{< relref "./2-setup-typst-in-local-machine.md" >}})」を参照のこと。
 Book 形式ではないので `book` の値は `false` とした。
 ページ内カラム数は1。
@@ -126,7 +130,7 @@ Book 形式ではないので `book` の値は `false` とした。
 正規表現での指定もできるらしい。
 あとはデフォルトのままかな。
 
-ちなみに著者は複数記述でき，かつ所属とアドレスも記述できる。
+蛇足だが著者は複数記述でき，かつ所属とアドレスも記述できる。
 こんな感じ。
 
 ```typst
@@ -188,6 +192,8 @@ $ typst compile --pdf-standard a-2b sample.typ
 [Tutorial]: https://typst.app/docs/tutorial "Tutorial – Typst Documentation"
 [document]: https://typst.app/docs/reference/model/document/ "Document Function – Typst Documentation"
 [Typst Universe]: https://typst.app/universe/ "https://typst.app/universe/"
+[`v`]: https://typst.app/docs/reference/layout/v/ "Spacing (V) Function – Typst Documentation"
+[`h`]: https://typst.app/docs/reference/layout/h/ "Spacing (H) Function – Typst Documentation"
 
 [前回]: {{< relref "./3-typst-document-elements-1.md" >}} "Typst のドキュメント要素（1）"
 [`jaconf-mscs`]: https://typst.app/universe/package/jaconf-mscs "jaconf-mscs – Typst Universe"

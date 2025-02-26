@@ -96,6 +96,20 @@ Inconsolata
 これもちゃんと使えるようだ。
 New Computer Modern フォントは OS には入ってない筈だけど (`fc-list` コマンドで確認した) [Typst] 側で持ってるフォントなのかな？
 
+{{< div-box type="markdown" >}}
+**【2025-02-26 追記】**
+
+[公式ドキュメント](https://typst.app/docs/reference/text/text#parameters-font "Text Function – Typst Documentation")によると `Libertinus Serif`, `New Computer Modern`, `New Computer Modern Math`, `DejaVu Sans Mono` は [Typst] 内に埋め込まれているフォントらしい。
+同名のフォントが被ってる場合は `--font-paths` で指定したディレクトリにあるフォント ＞ システムフォント ＞ [Typst] 内に埋め込まれたフォント の優先順位で選択されるとのこと。
+
+ちなみにコマンドラインの  `--font-paths` オプションの代わりに環境変数 `TYPST_FONT_PATHS` でディレクトリを指定することもできる。
+[TeX Live] をインストールしている人は `TYPST_FONT_PATHS` でフォントファイルが入っているディレクトリを指定するのがいいかもしれない。
+
+[Typst]: https://typst.app/ "Typst: Compose papers faster"
+[Typst Documentation]: https://typst.app/docs/ "Typst Documentation"
+[TeX Live]: https://www.tug.org/texlive/ "TeX Live - TeX Users Group"
+{{< /div-box >}}
+
 この状態で簡単な文章を組版してみよう。
 入力文書は前回と同じ。
 
@@ -341,6 +355,7 @@ Albert Einsteinは1879年3月14日，ドイツ生まれの理論物理学者で�
 [VS Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
 [Tinymist Typst]: https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist "Tinymist Typst - Visual Studio Marketplace"
 [Inconsolata]: https://www.levien.com/type/myfonts/inconsolata.html "Inconsolata"
+[TeX Live]: https://www.tug.org/texlive/ "TeX Live - TeX Users Group"
 
 ## 参考文献
 
