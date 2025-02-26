@@ -20,6 +20,7 @@ pageType = "text"
 - [FIPS 140-3 Compliance - The Go Programming Language](https://go.dev/doc/security/fips140)
 - [Extensible Wasm Applications with Go - The Go Programming Language](https://go.dev/blog/wasmexport)
 - [Testing concurrent code with testing/synctest - The Go Programming Language](https://go.dev/blog/synctest)
+- [Faster Go maps with Swiss Tables - The Go Programming Language](https://go.dev/blog/swisstable)
 
 パッと見たところ暗号周りが派手に変わってる感じ。
 あとは [`encoding`]`.TextAppender` と [`encoding`]`.BinaryAppender` かな。
@@ -62,6 +63,7 @@ go version go1.24.0 linux/amd64
 - [CA.go ~ Deep dive into Go1.24 ~ - connpass](https://cyberagent.connpass.com/event/342451/)
 - [Go 1.24 リリースパーティ - connpass](https://gocon.connpass.com/event/345795/)
 - [渋川よしき氏・mattn氏に聞く、春のGoお悩み相談会 - connpass](https://levtechlab.connpass.com/event/339320/)
+- [Go 1.24でジェネリックになった型エイリアスの紹介 - Speaker Deck](https://speakerdeck.com/syumai/go-1-dot-24dezieneritukuninatutaxing-eiriasunoshao-jie)
 
 [Go]: https://go.dev/
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
