@@ -30447,5 +30447,48 @@
       false
     ],
     "Description": "1987年に現代数学社から\u003ca href=\"https://www.amazon.co.jp/dp/4768703011?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1\"\u003e出版\u003c/a\u003eされた同タイトルの本の再販かな？ 筑摩版では三分冊になっている。熱力学やエントロピーについて学ぶのであれば理解の助けになるだろう。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CYM6BR46",
+      "Title": "HELP!!",
+      "URL": "https://www.amazon.co.jp/dp/B0CYM6BR46?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51cQiZhPGPL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "Kobo Kanaeru",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Universal Music LLC",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CYM6BR46"
+        }
+      ],
+      "PublicationDate": "2036-01-01",
+      "LastRelease": "2024-03-28",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-02-21",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "約1年前にリリースされた楽曲だが，最近これの \u003ca href=\"https://www.youtube.com/watch?v=50Ura_ZcSvY\"\u003eMV\u003c/a\u003e を紹介している配信を見かけて mora の\u003ca href=\"https://mora.jp/package/43000006/00602465361094/\"\u003e高解像度版\u003c/a\u003eを衝動買いした。ノリがよくて移動中に聞き流すと楽しい曲。歌詞では「何かを指針にして、狂い始める歯車」の部分が好き。"
   }
 ]
