@@ -300,13 +300,13 @@ $ <eq.1>
 [Symbols]: https://typst.app/docs/reference/symbols/ "Symbols – Typst Documentation"
 [`sym`]: https://typst.app/docs/reference/symbols/sym/ "General Symbols – Typst Documentation"
 [`emoji`]: https://typst.app/docs/reference/symbols/emoji/ "Emoji Symbols – Typst Documentation"
-[`physica`]: https://typst.app/universe/package/physica/ "physica – Typst Universe"
-[`metro`]: https://typst.app/universe/package/metro "metro – Typst Universe"
-[`unify`]: https://typst.app/universe/package/unify/ "unify – Typst Universe"
 [`upright`]: https://typst.app/docs/reference/math/styles#functions-upright "Styles Functions – Typst Documentation"
 [`italic`]: https://typst.app/docs/reference/math/styles#functions-italic "Styles Functions – Typst Documentation"
 [`equation`]: https://typst.app/docs/reference/math/equation/ "Equation Function – Typst Documentation"
 
+[`physica`]: https://typst.app/universe/package/physica/ "physica – Typst Universe"
+[`metro`]: https://typst.app/universe/package/metro "metro – Typst Universe"
+[`unify`]: https://typst.app/universe/package/unify/ "unify – Typst Universe"
 
 [Pandoc]: https://pandoc.org/ "Pandoc"
 [STIX]: https://www.stixfonts.org/ "Welcome to stixfonts | Scientific and Technical Information Exchange (STIX)"

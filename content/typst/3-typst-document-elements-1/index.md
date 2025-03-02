@@ -67,7 +67,7 @@ $\mathrm{\LaTeX}$ では文書を記述する領域（環境）が明示的に�
 引数で複数のプロパティ値を連想配列で指定する。
 
 ```typst
-#set text(font: "Noto Sans CJK JP", size: 14pt, lang: "jp")
+#set text(font: "Noto Sans CJK JP", size: 14pt, lang: "ja")
 
 空が#text(fill:blue)[青い] 。
 ```
@@ -212,7 +212,7 @@ The * character means that symbols should be used to count, in the order of *, �
 [`par`] 関数を使ってコードモードで段落を表示することもできる。
 
 ```typst
-#set text(font: "Noto Serif CJK JP", lang: "jp")
+#set text(font: "Noto Serif CJK JP", lang: "ja")
 
 #par(justify: false)[
 「何人ものニュートンがいた（There were several Newtons）」
@@ -236,7 +236,7 @@ The * character means that symbols should be used to count, in the order of *, �
 実際にはコードモードで個別に指定するより `set` を使って段落の設定ルールを定義することのほうが多いだろう。
 
 ```typst {hl_lines=["2-10"]}
-#set text(font: "Noto Serif CJK JP", lang: "jp")
+#set text(font: "Noto Serif CJK JP", lang: "ja")
 #set par(
   first-line-indent: (
     amount: 1em,
@@ -280,7 +280,7 @@ The * character means that symbols should be used to count, in the order of *, �
 引用（[`quote`]）の表現はコードモードのみ対応しているようだ。
 
 ```typst
-#set text(font: "Noto Serif CJK JP", lang: "jp")
+#set text(font: "Noto Serif CJK JP", lang: "ja")
 
 引用文：
 
@@ -348,7 +348,7 @@ func main() {
 [`raw`] はインラインで使うと面白い。
 
 ```typst
-#set text(font: "Noto Serif CJK JP", lang: "jp")
+#set text(font: "Noto Serif CJK JP", lang: "ja")
 #show raw: body => {
     set text(font: (
       (
@@ -374,7 +374,7 @@ Go 言語では最初に #raw("package main", lang: "go") と指定する。
 マークアップモードでは `+` および `-` で箇条書きを表現できる。
 
 ```typst
-#set text(font: "Noto Serif CJK JP", lang: "jp")
+#set text(font: "Noto Serif CJK JP", lang: "ja")
 
 + 番号付き箇条書き1
   + 番号付き箇条書き1-1
@@ -399,7 +399,7 @@ Go 言語では最初に #raw("package main", lang: "go") と指定する。
 またはコードモードで [`enum`] または [`list`] 関数を使って
 
 ```typst
-#set text(font: "Noto Serif CJK JP", lang: "jp")
+#set text(font: "Noto Serif CJK JP", lang: "ja")
 
 #enum(
   numbering: "①",
@@ -425,7 +425,7 @@ Go 言語では最初に #raw("package main", lang: "go") と指定する。
 箇条書きの番号やシンボルは `set` であらかじめルールを設定しておくのがいいだろう。
 
 ```typst
-#set text(font: "Noto Serif CJK JP", lang: "jp")
+#set text(font: "Noto Serif CJK JP", lang: "ja")
 
 #set enum(numbering: "①.ア")
 #set list(marker: ([‣], [--]))
@@ -449,7 +449,7 @@ Go 言語では最初に #raw("package main", lang: "go") と指定する。
 こんな感じ。
 
 ```typst
-#set text(font: "Noto Serif CJK JP", lang: "jp")
+#set text(font: "Noto Serif CJK JP", lang: "ja")
 
 #table(
   columns: (auto, auto, auto),
@@ -467,7 +467,7 @@ Go 言語では最初に #raw("package main", lang: "go") と指定する。
 [`table`] を [`figure`] で囲むことでキャプションを付けることができる。
 
 ```typst
-#set text(font: "Noto Serif CJK JP", lang: "jp")
+#set text(font: "Noto Serif CJK JP", lang: "ja")
 
 #figure(
   table(
@@ -479,7 +479,6 @@ Go 言語では最初に #raw("package main", lang: "go") と指定する。
     [2025年5月5日], [月], [こどもの日],
     [2025年5月6日], [火], [休日],
   ),
-  supplement: [表],
   caption: [2025年5月の祝日・休日],
 ) <holiday>
 
@@ -495,7 +494,7 @@ Go 言語では最初に #raw("package main", lang: "go") と指定する。
 キャプションを表の上側に表示させることもできる。
 
 ```typst {hl_lines=["14-17"]}
-#set text(font: "Noto Serif CJK JP", lang: "jp")
+#set text(font: "Noto Serif CJK JP", lang: "ja")
 
 #figure(
   table(
@@ -507,7 +506,6 @@ Go 言語では最初に #raw("package main", lang: "go") と指定する。
     [2025年5月5日], [月], [こどもの日],
     [2025年5月6日], [火], [休日],
   ),
-  supplement: [表],
   caption: figure.caption(
     position: top,
     [2025年5月の祝日・休日]
@@ -531,11 +529,10 @@ Go 言語では最初に #raw("package main", lang: "go") と指定する。
 図に関しては [Typst] の機能を使って[作画][Visualize]もできるみたいだけど，今回は [`image`] 関数を使って既存の画像ファイルを埋め込んでみた。
 
 ```typst
-#set text(font: "Noto Serif CJK JP", lang: "jp")
+#set text(font: "Noto Serif CJK JP", lang: "ja")
 
 #figure(
   image("lake-shinjiko.jpg", width: 60%),
-  supplement: [図],
   caption: "チャリで来た",
 )
 ```
