@@ -5,7 +5,6 @@ description = "データと制御が分離しやすくコードが（比較的�
 image = "/images/attention/tools.png"
 tags  = [ "typst", "programming" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = true
