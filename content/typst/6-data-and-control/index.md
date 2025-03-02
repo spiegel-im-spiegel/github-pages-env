@@ -165,7 +165,7 @@ PDF への出力結果は以下の通り。
 もうひとつ。
 練習問題としてカレンダーを作ってみる。
 
-[Typst] には日時情報を操作する型として [`datetime`] があるのだが，今回の用途には向かないので他の手段を考える。
+[Typst] には日時情報を操作する型として [`datetime`] があるのだが，今回は「外部データを読み込んで使う」のが目的なので使わない。
 
 ある月のカレンダーを組む際に必要な情報としては以下のものがあればいいだろう。
 
@@ -174,9 +174,8 @@ PDF への出力結果は以下の通り。
 - 月初日の曜日（`0` 〜 `6`， `0` が日曜日）
 - 月の最終日
 
-[`datetime`] では「月の最終日」を取得するのが難しい（もしくは面倒くさい）んだよね。
-
-というわけで，まずは `#let calendar(year, month, first_weekday, lastday) = { ... }` という関数を定義してみる。
+[`datetime`] では「月の最終日」を取得するのが面倒くさいんだよな。
+愚痴はともかく，まずは `#let calendar(year, month, first_weekday, lastday) = { ... }` という関数を定義してみる。
 
 ```typst {hl_lines=["5-13"]}
 #set text(font: "NOTO Serif CJK JP", lang: "ja")
@@ -244,15 +243,19 @@ PDF への出力結果は以下の通り。
 
 実際に曜日を考慮した日付情報を生成している部分を強調している。
 他はほぼテーブルの装飾のためのコードである。
+最後の行で具体的な値を与えて `calendar` 関数を呼び出しカレンダーを表示している。
 
 これの組版結果は以下の通り。
 
 {{< fig-img src="./calendar2.png" title="カレンダーを生成（2025年5月）" link="./calendar2.pdf" width="1005" >}}
 
+んー。
+こんなもんかな。
+
 次は1月から12月までの年間カレンダーを作ってみよう。
 
-要は作成した `calendar` 関数を12回呼び出せばいいのだが，必要な情報をいちいち手入力するのも不毛なので `calendar.json` ファイルに外出しする。
-`calendar.json` ファイルの作成は [Go] で以下のように組んでみた。
+要は作成した `calendar` 関数を12回呼び出せばいいのだが，必要な情報をいちいち手入力するのも不毛なので，必要なデータを JSON ファイルから取得するよう変更する。
+JSON ファイルの作成は [Go] で以下のように組んでみた。
 
 ```go
 package main
@@ -327,7 +330,7 @@ $ go run months.go | jq .
 ]
 ```
 
-この出力を `calendar.json` ファイルにリダイレクトすればOK。
+この出力を `months.json` ファイルにリダイレクトすればOK。
 
 [Typst] のコードについては `calendar` 関数を呼び出してる部分を以下のように書き換える。
 
@@ -358,7 +361,7 @@ $ go run months.go | jq .
 次。
 この年間カレンダーに対して祝日・休日の日に色を付けてみよう。
 
-祝日・休日情報の収集についても [Go] で以下のコードを組んでみる。
+祝日・休日データの収集についても [Go] で以下のコードを組んでみる。
 
 ```go
 package main
@@ -425,6 +428,8 @@ func main() {
     fmt.Println(string(b))
 }
 ```
+
+祝日・休日データの取得は拙作 [`github.com/goark/koyomi`] パッケージを使って国立天文台から取得している。
 
 このコードの実行結果は以下の通り（途中を端折っている）。
 
@@ -644,6 +649,7 @@ $ typst compile --input holidays=holidays2025.json --input months=months2025.jso
 [Go]: https://go.dev/
 [VS Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
 [Tinymist Typst]: https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist "Tinymist Typst - Visual Studio Marketplace"
+[`github.com/goark/koyomi`]: https://github.com/goark/koyomi "goark/koyomi: 日本のこよみ"
 
 ## 参考文献
 
