@@ -3,7 +3,7 @@ title = "Typst におけるデータと制御"
 date =  "2025-03-02T21:46:52+09:00"
 description = "データと制御が分離しやすくコードが（比較的）書きやすいというのは Typst の利点だと思う。 "
 image = "/images/attention/tools.png"
-tags  = [ "typst", "programming" ]
+tags  = [ "typst", "programming", "golang" ]
 pageType = "text"
 
 [scripts]
