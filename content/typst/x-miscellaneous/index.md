@@ -1,11 +1,10 @@
 +++
 title = "Typst に関する雑多な話"
-date =  "2025-03-02T10:36:41+09:00"
-description = "description"
+date =  "2025-03-02T21:55:38+09:00"
+description = "ここでは Typst に関する小ネタをまとめて挙げておく（随時更新）"
 image = "/images/attention/tools.png"
 tags  = [ "typst", "programming" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false

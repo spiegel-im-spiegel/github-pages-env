@@ -616,6 +616,8 @@ $ typst compile --input holidays=holidays2025.json --input months=months2025.jso
 これで `holidays.json` や `months.json` ではなく `holidays2025.json` や `months2025.json` を読み込む。
 `--input` オプションで指定しない場合はデフォルトのファイル名を使う。
 
+コマンドラインで変数を指定する方法については「[変数をコマンドライン引数で指定する]({{< relref "./x-miscellaneous.md#input" >}} "Typst に関する雑多な話")」で少し詳しく紹介している。
+
 ## 余談だが
 
 今回も [VS Code] 上で作業しているのだが，コーディングに関しては GitHub Copilot に大変お世話になっている。
