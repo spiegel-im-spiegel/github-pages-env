@@ -13,6 +13,12 @@ pageType = "text"
 
 [Typst] に関するブックマークを集めた。
 
+このセクションの各記事に登場するコードについては以下の GitHub リポジトリにもある。
+
+- [spiegel-im-spiegel/practices-typst: Practices for Typst](https://github.com/spiegel-im-spiegel/practices-typst)
+
+こちらは MIT-0 ライセンスで公開しているので自由に再利用していただいて構わない。
+
 ## 公式ドキュメント
 
 - [Typst Documentation](https://typst.app/docs/)

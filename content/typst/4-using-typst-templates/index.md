@@ -64,6 +64,31 @@ To start writing, run:
 
 となっていたので [Typst Universe] に登録されているのかと思ったが `typst init` しようとしたら怒られてしまった。
 
+{{< div-box type="markdown" >}}
+**【2025-03-03 追記】**
+
+[okumuralab/typst-js] は 2025-02-24 時点で [Typst Universe] に登録されていたらしい。
+タッチの差で記事に間に合わなかったか（笑）
+
+以下のコマンドで雛形を生成できる。
+
+```text
+$ typst init @preview/js js-sample
+downloading @preview/js:0.1.0
+  5.2 KiB /   5.2 KiB (100 %)   5.2 KiB/s in 206.47 µs ETA: 0 s
+
+Successfully created new project from @preview/js:0.1.0 🎉
+To start writing, run:
+> cd js-sample
+> typst watch example.typ
+```
+
+[Typst]: https://typst.app/ "Typst: Compose papers faster"
+[Typst Universe]: https://typst.app/universe/ "https://typst.app/universe/"
+[okumuralab/typst-js]: https://github.com/okumuralab/typst-js "okumuralab/typst-js - Typst template based on LaTeX jsarticle/jsbook"
+{{< /div-box >}}
+
+
 というわけで `template/example.typ` の記述を見ながら手動でファイルを作ってみる。
 こんな感じ。
 

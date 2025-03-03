@@ -482,7 +482,7 @@ Go 言語では最初に #raw("package main", lang: "go") と指定する。
   caption: [2025年5月の祝日・休日],
 ) <holiday>
 
-@holiday は国立天文台で公開されている暦データから抽出したもの。詳しくは拙文「#link("http://localhost:1313/remark/2019/05/google-ephemeris/")[カレンダーに祝日を入れたいなら国立天文台へ行けばいいじゃない]」を参照のこと。
+@holiday は国立天文台で公開されている暦データから抽出したもの。詳しくは拙文「#link("https://text.baldanders.info/remark/2019/05/google-ephemeris/")[カレンダーに祝日を入れたいなら国立天文台へ行けばいいじゃない]」を参照のこと。
 ```
 
 {{< fig-img src="./pdf-sample-table-02.png" title="表 (2)" link="./pdf-sample-table-02.png" width="713" >}}
