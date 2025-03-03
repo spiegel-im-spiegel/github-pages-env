@@ -67,7 +67,7 @@ To start writing, run:
 {{< div-box type="markdown" >}}
 **【2025-03-03 追記】**
 
-[okumuralab/typst-js] は 2025-02-24 時点で [Typst Universe] に登録されていたらしい。
+[okumuralab/typst-js] は 2025-02-24 時点で [Typst Universe] に[登録](https://typst.app/universe/package/js "js – Typst Universe")されていたらしい。
 タッチの差で記事に間に合わなかったか（笑）
 
 以下のコマンドで雛形を生成できる。
@@ -84,10 +84,9 @@ To start writing, run:
 ```
 
 [Typst]: https://typst.app/ "Typst: Compose papers faster"
-[Typst Universe]: https://typst.app/universe/ "https://typst.app/universe/"
+[Typst Universe]: https://typst.app/universe/ "Typst Universe"
 [okumuralab/typst-js]: https://github.com/okumuralab/typst-js "okumuralab/typst-js - Typst template based on LaTeX jsarticle/jsbook"
 {{< /div-box >}}
-
 
 というわけで `template/example.typ` の記述を見ながら手動でファイルを作ってみる。
 こんな感じ。
@@ -216,7 +215,7 @@ $ typst compile --pdf-standard a-2b sample.typ
 [Typst Documentation]: https://typst.app/docs/ "Typst Documentation"
 [Tutorial]: https://typst.app/docs/tutorial "Tutorial – Typst Documentation"
 [document]: https://typst.app/docs/reference/model/document/ "Document Function – Typst Documentation"
-[Typst Universe]: https://typst.app/universe/ "https://typst.app/universe/"
+[Typst Universe]: https://typst.app/universe/ "Typst Universe"
 [`v`]: https://typst.app/docs/reference/layout/v/ "Spacing (V) Function – Typst Documentation"
 [`h`]: https://typst.app/docs/reference/layout/h/ "Spacing (H) Function – Typst Documentation"
 
