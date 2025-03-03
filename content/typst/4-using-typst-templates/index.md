@@ -74,10 +74,10 @@ To start writing, run:
 
 ```text
 $ typst init @preview/js js-sample
-downloading @preview/js:0.1.0
+downloading @preview/js:0.1.1
   5.2 KiB /   5.2 KiB (100 %)   5.2 KiB/s in 206.47 µs ETA: 0 s
 
-Successfully created new project from @preview/js:0.1.0 🎉
+Successfully created new project from @preview/js:0.1.1 🎉
 To start writing, run:
 > cd js-sample
 > typst watch example.typ
