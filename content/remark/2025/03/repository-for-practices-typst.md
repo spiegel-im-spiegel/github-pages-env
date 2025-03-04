@@ -50,6 +50,7 @@ Go のコードならそんなに外れはないんだけどねぇ。
 ## ブックマーク
 
 - [GitHub、あらゆるエディタやIDEとGitHub Copilotとの統合を可能にする「Copilot Language Server SDK」を一般公開|CodeZine（コードジン）](https://codezine.jp/article/detail/20981)
+- [GitHub for Beginners: How to get started with GitHub Copilot - The GitHub Blog](https://github.blog/ai-and-ml/github-copilot/github-for-beginners-how-to-get-started-with-github-copilot/)
 
 [Typst]: https://typst.app/ "Typst: Compose papers faster"
 [GitHub Copilot]: https://github.com/features/copilot "GitHub Copilot · Your AI pair programmer"
