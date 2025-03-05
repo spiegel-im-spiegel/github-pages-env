@@ -11,7 +11,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-個人的には Web ページ上の広告はあまり気にしないのだが（コンテンツをぶった切るような TL 広告や YouTube 広告はムカつくけど），どうやら最近は検索サービスに於いて有名ブランドの広告になりすます詐欺広告が横行しているらしい。
+個人的には Web ページ上の広告はあまり気にしないのだが（コンテンツをぶった切るような TL 広告や YouTube 広告はムカつくけど），どうやら最近は検索サービスに於いて有名ブランドの広告に成りすます詐欺広告が横行しているらしい。
 
 - [Internet Crime Complaint Center (IC3) | Cyber Criminals Impersonating Brands Using Search Engine Advertisement Services to Defraud Users](https://www.ic3.gov/Media/Y2022/PSA221221)
 

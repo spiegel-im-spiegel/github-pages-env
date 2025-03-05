@@ -62,7 +62,9 @@ pageType = "text"
 
 一方で「読む本」に関しては，もう「本」の体裁をとる必然性すらなくなっている。
 マンガだってケータイに特化した「タテ読み」が普通になってきてるし，小説サイトには書籍未満の作品が大量に溢れているし，今や大量になった [Zenn 本](https://zenn.dev/books/explore "本を探す | Zenn")にもお世話になっている。
-[VTuber が Minecraft で同人誌売る](https://www.youtube.com/watch?v=4sQElSwaR7o)時代だし（笑）
+[VTuber が Minecraft で同人を誌売る](https://www.youtube.com/watch?v=4sQElSwaR7o)時代だし[^d1]（笑）
+
+[^d1]: そもそも日本の「同人市場」という特殊商慣行自体が日本の出版システムが壊れていることの傍証だよな。「[VTuber が Minecraft で同人誌を売る話](https://www.youtube.com/watch?v=4sQElSwaR7o)」を見て「そもそも同人活動ってこういうノリだったよなぁ」と遥か昔の学生時代を思い出していた。
 
 ...という状況になったとき「本屋」の立ち位置や意義って何？ というお気持ちで冒頭に紹介した記事に戻るわけだ。
 
