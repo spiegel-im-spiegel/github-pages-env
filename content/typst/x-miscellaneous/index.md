@@ -13,6 +13,28 @@ pageType = "text"
 
 ここでは [Typst] に関する小ネタをまとめて挙げておく（随時更新）。
 
+## [Typst] をビルドする
+
+[Typst] は Windows であれば Winget， macOS なら Homebrew， Linux なら Snap または “[Versions for typst](https://repology.org/project/typst/versions "typst package versions - Repology")” から直接取得できるが，これらの方法でインストールできない場合は [Rust] のビルド環境を導入して [Typst] をビルドする。
+
+とりあえず Linux プラットフォームで [Rust] ビルド環境をインストールするには以下のコマンドでいける[^r1]。
+
+[^r1]: Linux の [Rust] ビルド環境には GCC も必要。 Ubuntu は GCC が既定で入ってないので， `sudo apt build-essential` で GCC を導入する。
+
+```text
+$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+これで PATH の設定までやってくれる。
+その後，以下のコマンドで [Typst] のビルドを行う。
+
+```text
+$ cargo install --locked typst-cli
+```
+
+[Rust] ビルド環境を標準設定でインストールしているなら `~/.cargo/bin/` ディレクトリ（Linux の場合）に `typst` コマンドが出来ているはずである。
+`cargo` コマンドが起動しているならこのディレクトリに PATH が通ってるはずなので，そのまま `typst` コマンドを実行できる。
+
 ## 変数をコマンドライン引数で指定する {#input}
 
 [Typst] は `compile` 時に `--input` オプションでキーと値を与えることができる。
@@ -94,6 +116,7 @@ error: dictionary does not contain key "key3"
 
 [VS Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
 [Tinymist Typst]: https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist "Tinymist Typst - Visual Studio Marketplace"
+[Rust]: https://www.rust-lang.org/ "Rust Programming Language"
 
 ## 参考文献
 
