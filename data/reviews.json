@@ -30490,5 +30490,52 @@
       false
     ],
     "Description": "約1年前にリリースされた楽曲だが，最近これの \u003ca href=\"https://www.youtube.com/watch?v=50Ura_ZcSvY\"\u003eMV\u003c/a\u003e を紹介している配信を見かけて mora の\u003ca href=\"https://mora.jp/package/43000006/00602465361094/\"\u003e高解像度版\u003c/a\u003eを衝動買いした。ノリがよくて移動中に聞き流すと楽しい曲。歌詞では「何かを指針にして、狂い始める歯車」の部分が好き。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DTK2DNXF",
+      "Title": "ブック・ウォーズ――デジタル革命と本の未来",
+      "URL": "https://www.amazon.co.jp/dp/B0DTK2DNXF?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41cH0EreCQL._SL160_.jpg",
+        "Height": 160,
+        "Width": 101
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "ジョン・B・トンプソン",
+          "Role": "著"
+        },
+        {
+          "Name": "久保美代子",
+          "Role": "翻訳"
+        }
+      ],
+      "Publisher": "みすず書房",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DTK2DNXF"
+        }
+      ],
+      "PublicationDate": "2025-01-27",
+      "LastRelease": "2025-01-27",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-03-05",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "Bluesky で版元が\u003ca href=\"https://bsky.app/profile/misuzushobo.bsky.social/post/3lgeuqduopc2c\"\u003e紹介\u003c/a\u003eされているのを見て衝動買いした。こちらの\u003ca href=\"https://magazine.msz.co.jp/new/09749/\"\u003e紹介記事\u003c/a\u003eも参考にどうぞ。これから読む。"
   }
 ]

@@ -99,3 +99,4 @@ pageType = "text"
 {{% review-paapi "4886219454" %}} <!-- 古代出雲の氏族と社会 -->
 {{% review-paapi "B009IMAGYQ" %}} <!-- 犬とハサミは使いよう -->
 {{% review-tatsujin "infoshare2" %}} <!-- 続・情報共有の未来 -->
+{{% review-paapi "B0DTK2DNXF" %}} <!-- ブック・ウォーズ -->
