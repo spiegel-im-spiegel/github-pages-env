@@ -203,6 +203,68 @@ Show ルールの対象がない場合，文書全体が対象となる。
 
 {{< fig-img src="./show-rule-4.png" title="Show ルール設定 (4)" link="./show-rule-4.png" width="647" >}}
 
+### Show ルールは逐次処理されるのか
+
+Show ルールがどのように効いてくるか試してみた。
+
+まずはこれ。
+
+```typst
+#let colorText(color: red, it) = {
+  text(fill: color)[#it]
+}
+
+= Heading 1
+
+== Heading 1.1
+
+#show heading: colorText
+
+= Heading 2
+
+== Heading 2.1
+```
+
+出力結果は以下の通り：
+
+{{< fig-img src="./show-rule-1b.png" title="Show ルール設定 (1b)" link="./show-rule-1b.png" width="647" >}}
+
+まぁ，これは予想通り。
+
+次はこれ。
+
+```typst
+#let colorText(color: red, it) = {
+  text(fill: color)[#it]
+}
+
+= Heading 1
+
+== Heading 1.1
+
+#show heading: colorText
+
+= Heading 2
+
+== Heading 2.1
+
+#show heading: it => colorText(color: blue, it)
+
+= Heading 3
+
+== Heading 3.1
+```
+
+希望としては 黒 → 赤 → 青 の順で変わってほしいのだが...
+
+{{< fig-img src="./show-rule-1c.png" title="Show ルール設定 (1c)" link="./show-rule-1c.png" width="647" >}}
+
+んー。
+ひょっとして show ルールって遡って適用されるのだろうか。
+外部パッケージを `import` したときに show ルールが衝突したら面倒なことになりそう。
+
+Show ルールの設計はちょっと気をつけないといけないかもしれない。
+
 ## Set ルール
 
 [`text`] や [`image`] あるいは [`heading`] や [`par`] などドキュメント要素に紐づく組込み関数は「要素関数（element function）」と言うそうな。
