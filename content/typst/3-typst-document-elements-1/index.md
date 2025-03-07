@@ -15,7 +15,7 @@ pageType = "text"
 
 ## コードモードとルール定義
 
-[Typst] では `set` キーワードで設定ルールを `show` キーワードで表示ルールを定義する。
+[Typst] では `set` キーワードで set ルールを `show` キーワードで show ルールを定義する。
 [前回]の記事で言うと文書全体のフォントを指定している
 
 ```typst
@@ -29,10 +29,10 @@ pageType = "text"
 ))
 ```
 
-が（文書全体の）設定ルールを定義している部分である。
+が文書全体の set ルールを定義している部分である。
 文字コードの範囲とフォント名をセットで指定するのは [Typst] 0.13 からの仕様らしい。
 `latin-in-cjk` はラテン文字の範囲を示す [Typst] の予約語。
-コード範囲の指定に正規表現も使えるそうな。
+コード範囲の指定に[正規表現][`regex`]も使えるそうな。
 
 同じく[前回]記事の
 
@@ -46,16 +46,20 @@ pageType = "text"
       ),
       "BIZ UDGothic"
     ))
-	it.body
+	it
 }
 ```
 
-は表示ルールについての記述で，見出し（[`heading`]）要素に対して表示時のフォントを指定している。
-表示ルール `show` の中で設定ルール `set` が使われていることに注目してほしい。
+は show ルールについての記述で，見出し（[`heading`]）要素に対して表示時のフォントを指定している。
+Show ルールの中で set ルールが使われていることに注目してほしい。
 ここでの `set` は `show` による定義内でのみ効力がある。
 
+{{< div-box type="markdown" >}}
+Set および show ルールについて詳しくは「[Typst における関数とルール]({{< relref "./7-function-and-rules.md" >}})」を参照のこと。
+{{< /div-box >}}
+
 キーワードの頭に付いている `#` はコードモードの開始を示している。
-他にも `$ ... $` で囲まれている部分は数式モード， `[ ... ]` で囲まれている部分はマークアップモードといった感じにモードが切り替わる。
+他にも `$ ... $` で囲まれている部分は数式モード， `[ ... ]` で囲まれている部分（「コンテントブロック」と呼ぶ）はマークアップモードといった感じにモードが切り替わる。
 指定されている部分以外はマークアップモード。
 $\mathrm{\LaTeX}$ では文書を記述する領域（環境）が明示的に示され，それ以前の部分をプリアンブル（preamble; 前口上）として設定やルールを纏めて記述するが [Typst] ではそういった区別はなく，コードモードを任意の場所に記述可能で逐次処理される。
 
@@ -572,6 +576,7 @@ Go 言語では最初に #raw("package main", lang: "go") と指定する。
 [`counter`]: https://typst.app/docs/reference/introspection/counter/ "Counter Type – Typst Documentation"
 [`text`]: https://typst.app/docs/reference/text/text/ "Text Function – Typst Documentation"
 [`raw`]: https://typst.app/docs/reference/text/raw/ "Raw Text / Code Function – Typst Documentation"
+[`regex`]: https://typst.app/docs/reference/foundations/regex/ "Regex Type – Typst Documentation"
 
 [前回]: {{< relref "./2-setup-typst-in-local-machine.md" >}} "ローカルで Typst 環境を整える"
 

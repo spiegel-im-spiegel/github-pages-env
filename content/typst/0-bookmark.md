@@ -34,6 +34,7 @@ pageType = "text"
 - [okumuralab/typst-js](https://github.com/okumuralab/typst-js)
 - [Nikudanngo/typst-ja-resume-template - Typst履歴書テンプレート](https://github.com/Nikudanngo/typst-ja-resume-template)
   - [Typstで履歴書を書く #Typst - Qiita](https://qiita.com/Nikudanngo/items/ed9a452b5f63101fb26b)
+- [Typstの日本語Lipsumパッケージを作ってみた件](https://zenn.dev/mkpoli/articles/7e54c1c780ff43)
 
 ## その他
 

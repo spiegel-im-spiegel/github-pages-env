@@ -95,14 +95,7 @@ error: dictionary does not contain key "key3"
 などと記述すればいいようだ。
 この場合 `compile` 処理自体は「正常終了」してしまうのがデメリットかな[^e1]。
 
-[^e1]: 軽く調べてみたが [Typst] には `exit` や `panic` のようなプロセスを強制終了させる仕組みがない。 `try-catch` の例外処理もなく，当然 `throw` のようなものもない。たとえば処理中に（文法エラーや言語仕様上の致命的エラーではなく）ビジネスロジック上の問題があったときに，その問題をドキュメントとして出力することは可能だが，処理自体は「正常終了」してしまうため，プロセスを監視する側はエラーを感知できず出力結果を目視してはじめてエラーが起きていることが分かることになる。これはちょっと面白くない。
-
-
-
-
-
-
-
+[^e1]: ~~軽く調べてみたが [Typst] には `exit` や `panic` のようなプロセスを強制終了させる仕組みがない。 `try-catch` の例外処理もなく，当然 `throw` のようなものもない。たとえば処理中に（文法エラーや言語仕様上の致命的エラーではなく）ビジネスロジック上の問題があったときに，その問題をドキュメントとして出力することは可能だが，処理自体は「正常終了」してしまうため，プロセスを監視する側はエラーを感知できず出力結果を目視してはじめてエラーが起きていることが分かることになる。これはちょっと面白くない。~~【2025-03-07 追記】あれから少し勉強して [`assert`] 関数を使えばロジカルなエラーを検出したときに指定したメッセージを吐いてエラー終了できることが分かった。まじすんません {{% emoji "ペコン" %}} ただし，今回の例では [`assert`] 関数を使ってエラーハンドリングしようとしても，結局は [Tinymist Typst] 拡張機能がエラーを吐くので鬱陶しいことには変わりない。
 
 ## ブックマーク
 
@@ -113,6 +106,7 @@ error: dictionary does not contain key "key3"
 [Tutorial]: https://typst.app/docs/tutorial "Tutorial – Typst Documentation"
 [`sys`]: https://typst.app/docs/reference/foundations/sys/ "System Functions – Typst Documentation"
 [`dictionary`]: https://typst.app/docs/reference/foundations/dictionary/ "Dictionary Type – Typst Documentation"
+[`assert`]: https://typst.app/docs/reference/foundations/assert/ "Assert Function – Typst Documentation"
 
 [VS Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
 [Tinymist Typst]: https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist "Tinymist Typst - Visual Studio Marketplace"

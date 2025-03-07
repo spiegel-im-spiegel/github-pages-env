@@ -138,6 +138,7 @@ ATOM や VS Code の使い始めの頃はスニペットベースのコード補
 - [「Visual Studio Code 1.97」が公開 ～新AI支援機能「Copilot NES」をプレビュー - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1661141.html)
 - [GitHub Copilot Agent Modeが登場。タスクを与えると自律的にプログラミング、テストコードも修正、テストが失敗すればデバッグも － Publickey](https://www.publickey1.jp/blog/25/github_copilot_agent_mode.html)
 - [生成AIによりプログラマの仕事はなくなるのか？ 「私はそうは思わない」とティム・オライリー氏。プログラマの需要はさらに増えると － Publickey](https://www.publickey1.jp/blog/25/ai_1.html)
+- [GitHub Copilot Chat、Visual Studio/VS Code上で画像を入力できるVision機能がパブリックプレビューに | gihyo.jp](https://gihyo.jp/article/2025/03/github-copilot-vision-input)
 
 - [GitHub Copilot は貢献者から貢献を奪うか？]({{< ref "/remark/2022/07/code-launderring.md" >}})
 - [AI は「創作者様」を引きずり下ろすか — 『人権と文化コモンズ』を流し読む]({{< ref "/remark/2022/10/cultural-commons.md" >}})

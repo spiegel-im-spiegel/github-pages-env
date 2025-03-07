@@ -143,7 +143,7 @@ $ typst compile sample-1.typ
 このフォントは自分で[入れてた]({{< ref "/remark/2021/09/lualatex-with-firge-font.md" >}} "Firge フォントを使って LuaLaTeX でコードを書く")わ。
 よく分からないが，フォントリストから日本語コードが入ってるフォントを（アルファベット順で）探して割り当てたって感じ？
 
-[Typst] では `#set` キーワードとそれに続く関数実行により文書スタイルを設定できる。
+[Typst] では `set` キーワードとそれに続く関数実行により文書スタイルを設定できる。
 フォントの場合は以下のように設定する。
 
 ```typst {hl_lines=[1]}
@@ -203,14 +203,14 @@ $ typst compile sample-1.typ
 
 // for headings
 #let heading_font(body) = { // heading_font 関数を定義
-    set text(font: (
-      (
-        name: "Noto Sans",
-        covers: "latin-in-cjk",
-      ),
-      "Noto Sans CJK JP"
-    ))
-    body
+  set text(font: (
+    (
+      name: "Noto Sans",
+      covers: "latin-in-cjk",
+    ),
+    "Noto Sans CJK JP"
+  ))
+  body
 }
 #show heading: heading_font  // heading_font を適用する
 
@@ -220,8 +220,8 @@ $ typst compile sample-1.typ
 彼による革命的な3つの論文「光電効果の理論」「ブラウン運動の理論」「特殊相対性理論」が発表された1905年は「奇跡の年」と呼ばれています。
 ```
 
-まず `#let` キーワードを使って `body` のフォントを変更する `heading_font` 関数を定義し，次に `#show` キーワードを使って見出し（`heading`）要素の表示時の処理として `heading_font` 関数を適用する，という流れである。
-見出し要素に直接フォントを指定できれば簡単だったろうに，それはできないみたい。
+まず `let` キーワードを使って `body` のフォントを変更する `heading_font` 関数を定義し，次に `show` キーワードを使って見出し（`heading`）要素の表示時の処理として `heading_font` 関数を適用する，という流れである。
+見出し要素に直接フォントを指定できれば簡単だったろうに，それはできないみたい（ルール設定については「[Typst における関数とルール]({{< relref "./7-function-and-rules.md" >}})」を参照のこと）。
 
 組版結果は以下の通り：
 
@@ -245,14 +245,14 @@ $ typst compile sample-1.typ
 
 // for headings
 #show heading: it => {
-    set text(font: (
-      (
-        name: "Noto Sans",
-        covers: "latin-in-cjk",
-      ),
-      "Noto Sans CJK JP"
-    ))
-	it.body
+  set text(font: (
+    (
+      name: "Noto Sans",
+      covers: "latin-in-cjk",
+    ),
+    "Noto Sans CJK JP"
+  ))
+  it
 }
 
 = アルベルト・アインシュタインについて
@@ -312,14 +312,14 @@ $ fc-list | grep "BIZ UD"
 
 // for headings
 #show heading: it => {
-    set text(font: (
-      (
-        name: "Liberation Sans",
-        covers: "latin-in-cjk",
-      ),
-      "BIZ UDGothic"
-    ))
-	it.body
+  set text(font: (
+    (
+      name: "Liberation Sans",
+      covers: "latin-in-cjk",
+    ),
+    "BIZ UDGothic"
+  ))
+  it
 }
 
 = Albert Einsteinについて

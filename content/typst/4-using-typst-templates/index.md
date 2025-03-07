@@ -74,10 +74,10 @@ To start writing, run:
 
 ```text
 $ typst init @preview/js js-sample
-downloading @preview/js:0.1.1
-  5.2 KiB /   5.2 KiB (100 %)   5.2 KiB/s in 206.47 µs ETA: 0 s
+downloading @preview/js:0.1.2
+  5.3 KiB /   5.3 KiB (100 %)   5.3 KiB/s in 193.39 µs ETA: 0 s
 
-Successfully created new project from @preview/js:0.1.1 🎉
+Successfully created new project from @preview/js:0.1.2 🎉
 To start writing, run:
 > cd js-sample
 > typst watch example.typ
@@ -151,7 +151,7 @@ To start writing, run:
 Book 形式ではないので `book` の値は `false` とした。
 ページ内カラム数は1。
 `non-cjk` は [Typst] で定義されている `"latin-in-cjk"` とした。
-正規表現での指定もできるらしい。
+[正規表現][`regex`]での指定もできるらしい。
 あとはデフォルトのままかな。
 
 蛇足だが著者は複数記述でき，かつ所属とアドレスも記述できる。
@@ -218,6 +218,7 @@ $ typst compile --pdf-standard a-2b sample.typ
 [Typst Universe]: https://typst.app/universe/ "Typst Universe"
 [`v`]: https://typst.app/docs/reference/layout/v/ "Spacing (V) Function – Typst Documentation"
 [`h`]: https://typst.app/docs/reference/layout/h/ "Spacing (H) Function – Typst Documentation"
+[`regex`]: https://typst.app/docs/reference/foundations/regex/ "Regex Type – Typst Documentation"
 
 [前回]: {{< relref "./3-typst-document-elements-1.md" >}} "Typst のドキュメント要素（1）"
 [`jaconf-mscs`]: https://typst.app/universe/package/jaconf-mscs "jaconf-mscs – Typst Universe"
