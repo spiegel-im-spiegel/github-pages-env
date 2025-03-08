@@ -30537,5 +30537,48 @@
       false
     ],
     "Description": "Bluesky で版元が\u003ca href=\"https://bsky.app/profile/misuzushobo.bsky.social/post/3lgeuqduopc2c\"\u003e紹介\u003c/a\u003eされているのを見て衝動買いした。こちらの\u003ca href=\"https://magazine.msz.co.jp/new/09749/\"\u003e紹介記事\u003c/a\u003eも参考にどうぞ。これから読む。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B009727M6M",
+      "Title": "テルマエ・ロマエI (ビームコミックス)",
+      "URL": "https://www.amazon.co.jp/dp/B009727M6M?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61nNbo9LPlL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "ヤマザキ マリ",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "KADOKAWA",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B009727M6M"
+        }
+      ],
+      "PublicationDate": "2010-12-01",
+      "LastRelease": "2012-09-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-03-08",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "実はまだ読んでないんだよなー ポチっとくか"
   }
 ]
