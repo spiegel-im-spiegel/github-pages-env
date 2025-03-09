@@ -30580,5 +30580,99 @@
       false
     ],
     "Description": "実はまだ読んでないんだよなー ポチっとくか"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0D9X16QY6",
+      "Title": "春の海〜宮城道雄作品集〜",
+      "URL": "https://www.amazon.co.jp/dp/B0D9X16QY6?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/416N1EvjDSL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "砂崎知子、藤原道山",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Nippon Columbia Co., Ltd./NIPPONOPHONE",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0D9X16QY6"
+        }
+      ],
+      "PublicationDate": "2007-12-19",
+      "LastRelease": "2024-08-06",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-03-09",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "今やお正月の定番曲「春の海」を含む箏の名曲が収録されている。 mora で\u003ca href=\"https://mora.jp/package/43000013/COCJ-34647_L44/\"\u003eロスレス版\u003c/a\u003e（CD相当の音質）が買える。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4003106229",
+      "Title": "与謝蕪村: 郷愁の詩人 (岩波文庫 緑 62-2)",
+      "URL": "https://www.amazon.co.jp/dp/4003106229?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51KJJo1tKnL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "文庫",
+      "Creators": [
+        {
+          "Name": "萩原 朔太郎",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "岩波書店",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4003106229"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784003106228"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4003106229"
+        }
+      ],
+      "PublicationDate": "1988-11-16",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-03-09",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "萩原朔太郎による与謝蕪村研究。1933年から1936年に書かれたものをまとめたもので，同じものが\u003ca href=\"https://www.aozora.gr.jp/cards/000067/card47566.html\"\u003e青空文庫に収録\u003c/a\u003eされている。"
   }
 ]

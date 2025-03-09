@@ -1,8 +1,10 @@
 #/bin/sh
-sleep 1;cat B009727M6M.html | books-data review -t review-book.html -a B009727M6M -r 0 --review-date 2025-03-08 --pipe
-sleep 1;cat B0DTK2DNXF.html | books-data review -t review-book.html -a B0DTK2DNXF -r 0 --review-date 2025-03-05 --pipe
-sleep 1;cat B0CYM6BR46.html | books-data review -t review-book.html -a B0CYM6BR46 -r 4 --review-date 2025-02-21 --pipe
+sleep 1;cat 4003106229.html | books-data review -t review-book.html -a 4003106229 -r 4 --review-date 2025-03-09 --pipe
+sleep 1;cat B0D9X16QY6.html | books-data review -t review-book.html -a B0D9X16QY6 -r 0 --review-date 2025-03-09 --pipe
 # ---
+# sleep 1;cat ./done/B009727M6M.html | books-data review -t review-book.html -a B009727M6M -r 0 --review-date 2025-03-08 --pipe
+# sleep 1;cat ./done/B0DTK2DNXF.html | books-data review -t review-book.html -a B0DTK2DNXF -r 0 --review-date 2025-03-05 --pipe
+# sleep 1;cat ./done/B0CYM6BR46.html | books-data review -t review-book.html -a B0CYM6BR46 -r 4 --review-date 2025-02-21 --pipe
 # sleep 1;cat ./done/B071CWZ2NM.html | books-data review -t review-book.html -a B071CWZ2NM -r 0 --review-date 2025-02-23 --pipe
 # sleep 1;cat ./done/B0DPXBNTRS.html | books-data review -t review-book.html -a B0DPXBNTRS -r 3 --review-date 2025-02-20 --pipe
 # sleep 1;cat ./done/B0CDL9G23F.html | books-data review -t review-book.html -a B0CDL9G23F -r 4 --review-date 2025-02-11 --pipe
