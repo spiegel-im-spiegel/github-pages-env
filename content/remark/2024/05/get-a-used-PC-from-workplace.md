@@ -68,6 +68,13 @@ GW 明けに勤務先が古い Mac パソコンを大量放出するとアナウ
 
 まぁ，のんびり行こう。
 
+{{< div-box type="markdown" >}}
+**【2025-01-29 追記】**
+仮想環境を導入し Kubuntu を入れて運用を始めた。
+
+- [MacBook Air M1 に Kubuntu を入れる]({{< ref "/remark/2025/01/kubuntu-on-macbook-air-m1.md" >}})
+{{< /div-box >}}
+
 ## ブックマーク
 
 - [M1などAppleシリコン搭載MacBookの初期化（フォーマット）方法 | いわっちろぐ](https://iwatti.com/format-applesilicon-macbook/)
