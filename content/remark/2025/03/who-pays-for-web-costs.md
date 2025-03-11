@@ -106,12 +106,14 @@ Kagi の中の人が Bluesky で[書いていた](https://bsky.app/profile/kagi.
 タダならば何でもいいという世の中じゃなくなったってことかねぇ。
 
 そのビジネスモデルで本当に利用者は幸せになれるのか。
-よくよく考えてリソース（お金とは限らない）を投入しないといけないし，私のようなビンボー人は幾つかサービスを諦めることも視野に入れないといけないかもなぁ。
+よくよく考えてリソース（お金とは限らない）を投入しないといけないし，私のようなビンボー人は幾つかサービスを諦めることも視野に入れないといけないかもしれない。
 
 ## ブックマーク
 
 - [Kagi is Bringing the Orion Web Browser to Linux - OMG! Ubuntu](https://www.omgubuntu.co.uk/2025/03/kag-orion-web-browser-coming-to-linux)
+- [アドテクによるターゲティングは「存亡に関わる脅威」である » p2ptk[.]org](https://p2ptk.org/privacy/5320)
 - [大いなる力には何の責任も伴わなかった » p2ptk[.]org](https://p2ptk.org/monopoly/5369)
+- [Chromeの変更にともない、グーグルが「すべてのデバイスを追跡」開始 | Forbes JAPAN 公式サイト（フォーブス ジャパン）](https://forbesjapan.com/articles/detail/77318)
 
 [uBlock Origin]: https://ublockorigin.com/ "uBlock Origin - Free, open-source ad content blocker."
 [Orion]: https://kagi.com/orion/ "Orion Browser by Kagi"
