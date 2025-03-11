@@ -114,6 +114,7 @@ Kagi の中の人が Bluesky で[書いていた](https://bsky.app/profile/kagi.
 - [アドテクによるターゲティングは「存亡に関わる脅威」である » p2ptk[.]org](https://p2ptk.org/privacy/5320)
 - [大いなる力には何の責任も伴わなかった » p2ptk[.]org](https://p2ptk.org/monopoly/5369)
 - [Chromeの変更にともない、グーグルが「すべてのデバイスを追跡」開始 | Forbes JAPAN 公式サイト（フォーブス ジャパン）](https://forbesjapan.com/articles/detail/77318)
+- [Kagi for Teams - Bring Kagi to work for your team](https://kagi.com/teams)
 
 [uBlock Origin]: https://ublockorigin.com/ "uBlock Origin - Free, open-source ad content blocker."
 [Orion]: https://kagi.com/orion/ "Orion Browser by Kagi"
