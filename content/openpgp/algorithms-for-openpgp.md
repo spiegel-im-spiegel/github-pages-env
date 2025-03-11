@@ -1,5 +1,5 @@
 +++
-title = "OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）"
+title = "【Obsolete】 OpenPGP で利用可能なアルゴリズム（RFC 4880bis 対応版）"
 date =  "2017-12-01T17:47:50+09:00"
 description = "RFC 4880bis は，名前の通り，ドラフト段階なので今後変わる可能性がある。正式な RFC 番号が振られた段階でこの記事の最終稿とする予定である。"
 image = "/images/attention/openpgp.png"
@@ -13,6 +13,12 @@ tags = [
   mathjax = false
   mermaidjs = false
 +++
+
+{{< div-box type="markdown" >}}
+2024年7月に [RFC 9580] が発行されたためこの記事は obsolete となった。
+新たに「[OpenPGP で利用可能なアルゴリズム（RFC 9580 対応版）]({{< relref "./algorithms-for-openpgp-rfc9580.md" >}})」を起こしたので，今後はそちらを参照のこと。
+この記事は過去の記録として残しておく。
+{{< /div-box >}}
 
 [gpgpdump] を [RFC 4880bis] に[対応させていく作業]({{< ref "/remark/2017/11/gpgpdump-0_3_0-released.md" >}} "gpgpdump 0.3.0 をリリースした")の中で「改めて『[OpenPGP] で利用可能なアルゴリズム』をまとめておいたほうがいいかなぁ」と感じたので，覚え書きとして記しておく。
 
@@ -80,7 +86,7 @@ tags = [
 <td class='right'>11</td>
 <td class="nowrap">Camellia with 128-bit key</td>
 <td class='right nowrap'>128 (128)</td>
-<td rowspan="3"><a href="http://tools.ietf.org/html/rfc3713">RFC3713</a>, <a href="https://tools.ietf.org/html/rfc5581">RFC5581</a></td>
+<td rowspan="3"><a href="http://tools.ietf.org/html/rfc3713">RFC3713</a>, <a href="https://www.rfc-editor.org/rfc/rfc5581">RFC5581</a></td>
 </tr><tr>
 <td class='right'>12</td>
 <td class="nowrap">Camellia with 192-bit key</td>
@@ -130,7 +136,7 @@ ID は [OpenPGP] で定義されるもので “sym 1” のように表記す�
 </tr><tr>
 <td class='right'>2</td>
 <td class="nowrap">OCB</td>
-<td><a href="https://tools.ietf.org/html/rfc7253">RFC7253</a></td>
+<td><a href="https://www.rfc-editor.org/rfc/rfc7253">RFC7253</a></td>
 </tr><tr>
 <td class='right'>100-110</td>
 <td colspan="2">Private/Experimental algorithm</td>
@@ -180,11 +186,11 @@ ID は [OpenPGP] で定義されるもので “sym 1” のように表記す�
 </tr><tr>
 <td class='right'>18</td>
 <td class="nowrap">ECDH public key algorithm</td>
-<td><a href="http://doi.org/10.6028/NIST.SP.800-56Ar2">SP800-56A Revision 2 <sup><i class='far fa-file-pdf'></i></sup></a>, <a href="https://tools.ietf.org/html/rfc6090">RFC6090</a>, <a href="https://tools.ietf.org/html/rfc6637">RFC6637</a></td>
+<td><a href="http://doi.org/10.6028/NIST.SP.800-56Ar2">SP800-56A Revision 2 <sup><i class='far fa-file-pdf'></i></sup></a>, <a href="https://www.rfc-editor.org/rfc/rfc6090">RFC6090</a>, <a href="https://www.rfc-editor.org/rfc/rfc6637">RFC6637</a></td>
 </tr><tr>
 <td class='right'>19</td>
 <td class="nowrap">ECDSA public key algorithm</td>
-<td><a href="http://doi.org/10.6028/NIST.FIPS.186-4">FIPS PUB 186-4 <sup><i class='far fa-file-pdf'></i></sup></a>, <a href="https://tools.ietf.org/html/rfc6090">RFC6090</a>, <a href="https://tools.ietf.org/html/rfc6637">RFC6637</a></td>
+<td><a href="http://doi.org/10.6028/NIST.FIPS.186-4">FIPS PUB 186-4 <sup><i class='far fa-file-pdf'></i></sup></a>, <a href="https://www.rfc-editor.org/rfc/rfc6090">RFC6090</a>, <a href="https://www.rfc-editor.org/rfc/rfc6637">RFC6637</a></td>
 </tr><tr>
 <td class='right'>20</td>
 <td colspan="2">(Reserved; formerly Elgamal Encrypt or Sign)</td>
@@ -194,7 +200,7 @@ ID は [OpenPGP] で定義されるもので “sym 1” のように表記す�
 </tr><tr>
 <td class='right'>22</td>
 <td class="nowrap">EdDSA</td>
-<td>FIPS PUB 186-5, <a href="https://tools.ietf.org/html/rfc8032">RFC8032</a></td>
+<td>FIPS PUB 186-5, <a href="https://www.rfc-editor.org/rfc/rfc8032">RFC8032</a></td>
 </tr><tr>
 <td class='right'>23</td>
 <td colspan="2">(Reserved for AEDH)</td>
@@ -238,7 +244,7 @@ ID は [OpenPGP] で定義されるもので “pub 1” のように表記す�
 <td class='nowrap'>NIST P-256</td>
 <td>ECDSA, ECDH</td>
 <td class='right'>256</td>
-<td rowspan="3"><a href="http://doi.org/10.6028/NIST.SP.800-56Ar2">SP800-56A Revision 2 <sup><i class='far fa-file-pdf'></i></sup></a>, <a href="http://doi.org/10.6028/NIST.FIPS.186-4">FIPS PUB 186-4 <sup><i class='far fa-file-pdf'></i></sup></a>, <a href="https://tools.ietf.org/html/rfc6637">RFC6637</a></td>
+<td rowspan="3"><a href="http://doi.org/10.6028/NIST.SP.800-56Ar2">SP800-56A Revision 2 <sup><i class='far fa-file-pdf'></i></sup></a>, <a href="http://doi.org/10.6028/NIST.FIPS.186-4">FIPS PUB 186-4 <sup><i class='far fa-file-pdf'></i></sup></a>, <a href="https://www.rfc-editor.org/rfc/rfc6637">RFC6637</a></td>
 </tr><tr>
 <td class='nowrap'>NIST P-384</td>
 <td>ECDSA, ECDH</td>
@@ -251,7 +257,7 @@ ID は [OpenPGP] で定義されるもので “pub 1” のように表記す�
 <td class='nowrap'>brainpoolP256r1</td>
 <td>ECDSA, ECDH</td>
 <td class='right'>256</td>
-<td rowspan="2"><a href="http://www.ecc-brainpool.org/">ECC-Brainpool</a>, <a href="https://tools.ietf.org/html/rfc5639">RFC5639</a></td>
+<td rowspan="2"><a href="http://www.ecc-brainpool.org/">ECC-Brainpool</a>, <a href="https://www.rfc-editor.org/rfc/rfc5639">RFC5639</a></td>
 </tr><tr>
 <td class='nowrap'>brainpoolP512r1</td>
 <td>ECDSA, ECDH</td>
@@ -260,12 +266,12 @@ ID は [OpenPGP] で定義されるもので “pub 1” のように表記す�
 <td class='nowrap'>Ed25519</td>
 <td>EdDSA</td>
 <td class='right'>256</td>
-<td>FIPS PUB 186-5, <a href="https://tools.ietf.org/html/rfc8032">RFC8032</a></td>
+<td>FIPS PUB 186-5, <a href="https://www.rfc-editor.org/rfc/rfc8032">RFC8032</a></td>
 </tr><tr>
 <td class='nowrap'>Curve25519</td>
 <td>ECDH</td>
 <td class='right'>256</td>
-<td><a href="https://tools.ietf.org/html/rfc7748">RFC7748</a></td>
+<td><a href="https://www.rfc-editor.org/rfc/rfc7748">RFC7748</a></td>
 </tr>
 </tbody>
 </table>
@@ -291,7 +297,7 @@ ID は [OpenPGP] で定義されるもので “pub 1” のように表記す�
 <tr>
 <td class='right'>1</td>
 <td class="nowrap">MD5</td>
-<td><a href="https://tools.ietf.org/html/rfc1321">RFC1321</a></td>
+<td><a href="https://www.rfc-editor.org/rfc/rfc1321">RFC1321</a></td>
 </tr><tr>
 <td class='right'>2</td>
 <td class="nowrap">SHA-1</td>
@@ -389,7 +395,7 @@ ID は [OpenPGP] で定義されるもので “s2k 1” のように表記す�
 ### 乱数生成器（Random Number Generator）
 
 {{< fig-quote title="draft-ietf-openpgp-rfc4880bis - OpenPGP Message Format" link="https://datatracker.ietf.org/doc/draft-ietf-openpgp-rfc4880bis/" lang="en" >}}
-<q>Certain operations in this specification involve the use of random numbers.  An appropriate entropy source should be used to generate these numbers (see [<a href="https://tools.ietf.org/html/rfc4086">RFC4086</a>]).</q>
+<q>Certain operations in this specification involve the use of random numbers.  An appropriate entropy source should be used to generate these numbers (see [<a href="https://www.rfc-editor.org/rfc/rfc4086">RFC4086</a>]).</q>
 {{< /fig-quote >}}
 
 （リンクは私によるもの）
@@ -412,11 +418,11 @@ ID は [OpenPGP] で定義されるもので “s2k 1” のように表記す�
 </tr><tr>
 <td class='right'>1</td>
 <td class="nowrap">ZIP</td>
-<td><a href="https://tools.ietf.org/html/rfc1951">RFC1951</a></td>
+<td><a href="https://www.rfc-editor.org/rfc/rfc1951">RFC1951</a></td>
 </tr><tr>
 <td class='right'>2</td>
 <td class="nowrap">ZLIB</td>
-<td><a href="https://tools.ietf.org/html/rfc1950">RFC1950</a></td>
+<td><a href="https://www.rfc-editor.org/rfc/rfc1950">RFC1950</a></td>
 </tr><tr>
 <td class='right'>3</td>
 <td class="nowrap">BZip2</td>
@@ -462,15 +468,16 @@ ID は [OpenPGP] で定義されるもので “comp 1” のように表記す�
 - [Edwards-curve Digital Signature Algorithm]({{< ref "/remark/2020/06/eddsa.md" >}})
 
 [gpgpdump]: https://github.com/goark/gpgpdump "goark/gpgpdump: OpenPGP packet visualizer"
-[RFC 4880]: https://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
+[OpenPGP]: https://datatracker.ietf.org/doc/html/rfc9580 "RFC 9580 - OpenPGP"
+[RFC 9580]: https://datatracker.ietf.org/doc/html/rfc9580 "RFC 9580 - OpenPGP"
+[RFC 4880]: https://www.rfc-editor.org/rfc/rfc4880 "RFC 4880 - OpenPGP Message Format"
 [RFC 4880bis]: https://datatracker.ietf.org/doc/draft-ietf-openpgp-rfc4880bis/ "draft-ietf-openpgp-rfc4880bis - OpenPGP Message Format"
-[RFC 5581]: https://tools.ietf.org/html/rfc5581 "RFC 5581 - The Camellia Cipher in OpenPGP"
-[RFC 6637]: https://tools.ietf.org/html/rfc6637 "RFC 6637 - Elliptic Curve Cryptography (ECC) in OpenPGP"
-[RFC 8032]: https://tools.ietf.org/html/rfc8032 "RFC 8032 - Edwards-Curve Digital Signature Algorithm (EdDSA)"
-[RFC 4086]: https://tools.ietf.org/html/rfc4086 "RFC 4086 - Randomness Requirements for Security"
-[RFC 1951]: https://tools.ietf.org/html/rfc1951 "RFC 1951 - DEFLATE Compressed Data Format Specification version 1.3"
-[RFC 1951]: https://tools.ietf.org/html/rfc1951 "RFC 1951 - DEFLATE Compressed Data Format Specification version 1.3"
-[OpenPGP]: http://openpgp.org/
+[RFC 5581]: https://www.rfc-editor.org/rfc/rfc5581 "RFC 5581 - The Camellia Cipher in OpenPGP"
+[RFC 6637]: https://www.rfc-editor.org/rfc/rfc6637 "RFC 6637 - Elliptic Curve Cryptography (ECC) in OpenPGP"
+[RFC 8032]: https://www.rfc-editor.org/rfc/rfc8032 "RFC 8032 - Edwards-Curve Digital Signature Algorithm (EdDSA)"
+[RFC 4086]: https://www.rfc-editor.org/rfc/rfc4086 "RFC 4086 - Randomness Requirements for Security"
+[RFC 1951]: https://www.rfc-editor.org/rfc/rfc1951 "RFC 1951 - DEFLATE Compressed Data Format Specification version 1.3"
+[RFC 1951]: https://www.rfc-editor.org/rfc/rfc1951 "RFC 1951 - DEFLATE Compressed Data Format Specification version 1.3"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 
 ## 参考図書
