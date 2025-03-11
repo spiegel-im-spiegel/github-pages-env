@@ -66,7 +66,7 @@ This is an ambitious project that we expect will take approximately one year to 
 
 手元にある [MacBook Air]({{< ref "/remark/2024/05/get-a-used-pc-from-workplace.md" >}} "勤務先からの払い下げ PC") には既に導入しているが，今のところ不都合はない。
 まぁ macOS のアプリケーションはあまり使わず [Linux 環境]({{< ref "/remark/2025/01/kubuntu-on-macbook-air-m1.md" >}} "MacBook Air M1 に Kubuntu を入れる")での作業が殆どなのだが。
-Linux 版を待ってます。
+私は Linux 版を待ってます。
 
 [Orion] ブラウザには [Orion+](https://kagi.com/orion/orionplus.html "Support Orion") ってのがあるそうで，一括で150USD払うか月5USD（年50USD）のサブスクリプションに加入することで RC 版の利用が可能になる他，フィードバックにも優先的に対応してもらえるらしい。
 Kagi は有料検索サービスとこの [Orion+] の収益で開発・運用を行っているようだ。
@@ -116,4 +116,9 @@ Kagi の中の人が Bluesky で[書いていた](https://bsky.app/profile/kagi.
 [uBlock Origin]: https://ublockorigin.com/ "uBlock Origin - Free, open-source ad content blocker."
 [Orion]: https://kagi.com/orion/ "Orion Browser by Kagi"
 [Orion+]: https://kagi.com/orion/orionplus.html "Support Orion"
-<!-- eof -->
+
+## 参考図書
+
+{{% review-paapi "B0C9Z7KGRN" %}} <!-- はじめて学ぶ ビデオゲームの心理学 Kindle 版 -->
+{{% review-paapi "B0CK19L1HC" %}} <!-- ハッキング思考 Kindle 版 -->
+{{% review-paapi "430924744X" %}} <!-- スパム -->
