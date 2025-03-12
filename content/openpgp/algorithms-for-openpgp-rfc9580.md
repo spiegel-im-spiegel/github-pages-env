@@ -28,12 +28,12 @@ OpenPGP の標準化について2024年7月に [RFC 9580] が発行された。
 {{< fig-gen type="markdown" title="OpenPGP 暗号化メッセージのバージョン" >}}
 | Version of <br>Encrypted Data <br>Payload | Version of <br>Preceding <br>Symmetric Key ESK <br>(If Any) | Version of <br>Preceding Public <br>Key ESK (If Any) | Generate? |
 | :---: | :---: | :---: | :---: |
-| SED | - | v2 PKESK ([RDF 2440]) | No |
+| SED | - | v2 PKESK ([RFC 2440]) | No |
 | SED | v4 SKESK | v3 PKESK | No |
 | v1 SEIPD | v4 SKESK | v3 PKESK | Yes |
 | v2 SEIPD  {{% emoji "チェック" %}} | v4 SKESK | v3 PKESK | Yes |
 
-[RDF 2440]: https://datatracker.ietf.org/doc/html/rfc2440 "RFC 2440 - OpenPGP Message Format"
+[RFC 2440]: https://datatracker.ietf.org/doc/html/rfc2440 "RFC 2440 - OpenPGP Message Format"
 {{< /fig-gen >}}
 
 v2 SEIPD は [RFC 9580] で加わったもので認証付き暗号（AEAD）をサポートしている。
@@ -54,7 +54,7 @@ v2 SEIPD は [RFC 9580] で加わったもので認証付き暗号（AEAD）を�
 さらに，ここにない v5 は [RFC 4880bis] の議論の頃にあったもので [RFC 9580] ではなくなってしまったようだ。
 おそらく [GnuPG] には残ってると思うけど... 困ったね（笑）
 
-v3 は [RDF 2440] で， v4 は [RFC 4880] で登場したもの。
+v3 は [RFC 2440] で， v4 は [RFC 4880] で登場したもの。
 さらに v6 は [RFC 9580] で新たに加わったものである。
 
 [RFC 9580] では “Generate?” が Yes のパケット組み合わせのみ生成が許容される（MUST）。
@@ -615,7 +615,7 @@ ID は [OpenPGP] で定義されるもので “comp 1” のように表記す�
 [RFC 6637]: https://datatracker.ietf.org/doc/html/rfc6637 "RFC 6637 - Elliptic Curve Cryptography (ECC) in OpenPGP"
 [RFC 5581]: https://datatracker.ietf.org/doc/html/rfc5581 "RFC 5581 - The Camellia Cipher in OpenPGP"
 [RFC 4880]: https://datatracker.ietf.org/doc/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
-[RDF 2440]: https://datatracker.ietf.org/doc/html/rfc2440 "RFC 2440 - OpenPGP Message Format"
+[RFC 2440]: https://datatracker.ietf.org/doc/html/rfc2440 "RFC 2440 - OpenPGP Message Format"
 [RFC 1991]: https://datatracker.ietf.org/doc/html/rfc1991 "RFC 1991 - PGP Message Exchange Formats"
 
 [RFC 1951]: https://datatracker.ietf.org/doc/html/rfc1951 "RFC 1951 - DEFLATE Compressed Data Format Specification version 1.3"
