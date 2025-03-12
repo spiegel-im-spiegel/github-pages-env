@@ -18,6 +18,8 @@ tags = [
 2024年7月に [RFC 9580] が発行されたためこの記事は obsolete となった。
 新たに「[OpenPGP で利用可能なアルゴリズム（RFC 9580 対応版）]({{< relref "./algorithms-for-openpgp-rfc9580.md" >}})」を起こしたので，今後はそちらを参照のこと。
 この記事は過去の記録として残しておく。
+
+[RFC 9580]: https://datatracker.ietf.org/doc/html/rfc9580 "RFC 9580 - OpenPGP"
 {{< /div-box >}}
 
 [gpgpdump] を [RFC 4880bis] に[対応させていく作業]({{< ref "/remark/2017/11/gpgpdump-0_3_0-released.md" >}} "gpgpdump 0.3.0 をリリースした")の中で「改めて『[OpenPGP] で利用可能なアルゴリズム』をまとめておいたほうがいいかなぁ」と感じたので，覚え書きとして記しておく。
@@ -288,7 +290,6 @@ ID は [OpenPGP] で定義されるもので “pub 1” のように表記す�
 
 {{< div-gen >}}
 <figure lang="en">
-</style>
 <table>
 <thead>
 <tr><th>ID</th><th>アルゴリズム</th><th>参考文献</th></tr>
