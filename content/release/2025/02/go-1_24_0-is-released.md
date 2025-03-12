@@ -21,6 +21,7 @@ pageType = "text"
 - [Extensible Wasm Applications with Go - The Go Programming Language](https://go.dev/blog/wasmexport)
 - [Testing concurrent code with testing/synctest - The Go Programming Language](https://go.dev/blog/synctest)
 - [Faster Go maps with Swiss Tables - The Go Programming Language](https://go.dev/blog/swisstable)
+- [Traversal-resistant file APIs - The Go Programming Language](https://go.dev/blog/osroot)
 
 パッと見たところ暗号周りが派手に変わってる感じ。
 あとは [`encoding`]`.TextAppender` と [`encoding`]`.BinaryAppender` かな。
