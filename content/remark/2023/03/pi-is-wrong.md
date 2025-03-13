@@ -33,7 +33,7 @@ Mastodon の TL を眺めてたら
 
 {{< fig-math >}}
 \[
-    \tau \equiv \dfrac{c}{r} = 6.283185307179586...
+    \tau \equiv \dfrac{C}{r} = 6.283185307179586...
 \]
 {{< /fig-math >}}
 
