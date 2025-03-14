@@ -10,6 +10,7 @@ draft = true
 [scripts]
   mathjax = false
   mermaidjs = false
+  jsx = false
 +++
 
 

@@ -30674,5 +30674,64 @@
       false
     ],
     "Description": "萩原朔太郎による与謝蕪村研究。1933年から1936年に書かれたものをまとめたもので，同じものが\u003ca href=\"https://www.aozora.gr.jp/cards/000067/card47566.html\"\u003e青空文庫に収録\u003c/a\u003eされている。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4297129167",
+      "Title": "TypeScriptとReact/Next.jsでつくる実践Webアプリケーション開発",
+      "URL": "https://www.amazon.co.jp/dp/4297129167?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51j0YP8UrAL._SL160_.jpg",
+        "Height": 160,
+        "Width": 126
+      },
+      "ProductType": "単行本（ソフトカバー）",
+      "Creators": [
+        {
+          "Name": "手島 拓也",
+          "Role": "著"
+        },
+        {
+          "Name": "吉田 健人",
+          "Role": "著"
+        },
+        {
+          "Name": "高林 佳稀",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "技術評論社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4297129167"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784297129163"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4297129167"
+        }
+      ],
+      "PublicationDate": "2022-07-25",
+      "LastRelease": "2022-07-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2023-11-26",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "仕事用に購入。版元で\u003ca href=\"https://gihyo.jp/dp/ebook/2022/978-4-297-12917-0\"\u003e電子版\u003c/a\u003eが買える。必要なところだけつまみ食い的に参照している。"
   }
 ]
