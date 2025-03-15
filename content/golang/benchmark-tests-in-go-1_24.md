@@ -13,7 +13,7 @@ pageType = "text"
 
 現在『[効率的なGo]』の読書会に参加してるんだけど，今回はその10回目の話。
 
--- [第67回横浜Go読書会（オンライン） - connpass](https://yokohama-go-reading.connpass.com/event/346187/)
+- [第67回横浜Go読書会（オンライン） - connpass](https://yokohama-go-reading.connpass.com/event/346187/)
 
 今回は「8章 ベンチマーク」の最初の部分まで読み勧めた。
 この辺からようやく [Go] のツールを使った具体的な話になってくる。
