@@ -64,6 +64,8 @@ Flickr にもたくさんの写真が上がっている。
 
 ## ブックマーク
 
+- [APOD: 2025 March 15 - Tololo Totality](https://apod.nasa.gov/apod/ap250315.html)
+
 - [π は間違ってる？]({{< ref "/remark/2023/03/pi-is-wrong.md" >}})
 
 ## 参考図書
