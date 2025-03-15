@@ -1,0 +1,12 @@
+goos: linux
+goarch: amd64
+pkg: sample
+cpu: AMD Ryzen 5 PRO 4650G with Radeon Graphics
+BenchmarkSum-12    	   37249	     32302 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSum-12    	   36802	     32570 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSum-12    	   36495	     34515 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSum-12    	   36825	     32516 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSum-12    	   37101	     32142 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSum-12    	   37298	     32072 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	sample	7.260s
