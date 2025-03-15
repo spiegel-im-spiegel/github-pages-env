@@ -11,7 +11,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-現在『[効率的なGo]』の読書会に参加してるんだけど，今回はその67回目の話。
+現在『[効率的なGo]』の読書会に参加してるんだけど，今回はその10回目の話。
 
 -- [第67回横浜Go読書会（オンライン） - connpass](https://yokohama-go-reading.connpass.com/event/346187/)
 
