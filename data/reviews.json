@@ -30733,5 +30733,90 @@
       false
     ],
     "Description": "仕事用に購入。版元で\u003ca href=\"https://gihyo.jp/dp/ebook/2022/978-4-297-12917-0\"\u003e電子版\u003c/a\u003eが買える。必要なところだけつまみ食い的に参照している。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DZNX5YTH",
+      "Title": "サクラミラージュ",
+      "URL": "https://www.amazon.co.jp/dp/B0DZNX5YTH?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/510Pz8aqadL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "ReGLOSS",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "cover corp.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DZNX5YTH"
+        }
+      ],
+      "PublicationDate": "2036-01-01",
+      "LastRelease": "2025-03-10",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-03-10",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "リリース日に mora の\u003ca href=\"https://mora.jp/package/43000066/CVRD-545H/\"\u003e高解像度版\u003c/a\u003eを購入。この歳になってこんな買い方するとは（笑） ReGLOSS は5人の音色（おんしょく）が皆個性的で，これがカッチリ嵌ると本当に格好いい！ ヘヴィローテーション中。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B009KSG2Q4",
+      "Title": "古事記物語",
+      "URL": "https://www.amazon.co.jp/dp/B009KSG2Q4?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51sE3GhFY0L._SL160_.jpg",
+        "Height": 160,
+        "Width": 106
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "鈴木 三重吉",
+          "Role": "著"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B009KSG2Q4"
+        }
+      ],
+      "PublicationDate": "2012-10-01",
+      "LastRelease": "2012-10-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-03-16",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "青空文庫で\u003ca href=\"https://www.aozora.gr.jp/cards/000107/card1530.html\"\u003e読める\u003c/a\u003e。物語として面白い部分は詳細に書かれているが，結構省かれている部分もあって「読み物」という感じ。"
   }
 ]
