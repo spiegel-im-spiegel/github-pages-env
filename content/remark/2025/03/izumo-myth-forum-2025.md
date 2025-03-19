@@ -3,7 +3,7 @@ title = "「出雲神話フォーラム2025」へ行ってきた"
 date =  "2025-03-16T23:13:52+09:00"
 description = "めっさ面白かった。"
 image = "/remark/2025/03/izumo-myth-forum-2025/54390248595_ebd74e46ba_o.jpg"
-tags = [ "osanpo-camera", "photography", "matsue", "museum" ]
+tags = [ "osanpo-camera", "photography", "matsue", "museum", "izumo" ]
 pageType = "text"
 
 [scripts]
@@ -211,6 +211,7 @@ pageType = "text"
 {{% review-paapi "B009KSG2Q4" %}} <!-- 古事記物語 -->
 {{% review-paapi "B00EUVZHX0" %}} <!-- 神道入門 -->
 {{% review-paapi "B0CWB6NHLW" %}} <!-- 小泉八雲 怪談・骨董 -->
+{{% review-paapi "B00HCB8098" %}} <!-- 神様のお仕事 3 -->
 {{% review-paapi "B0DZNX5YTH" %}} <!-- サクラミラージュ ReGLOSS -->
 
 {{< fig-youtube id="zCoo9to5cIo" title="【朗読】鈴木三重吉の『古事記物語』を朗読してみます📖【古代日本史VTuber きら子】 - YouTube">}}
