@@ -16,7 +16,7 @@ pageType = "text"
 現在の定義では「春分の日」の定義は「太陽黄経が0°になる瞬間を含む日」で「秋分の日」は「太陽黄経が180°になる瞬間を含む日」である。
 そして春分・秋分の日を挟む前後3日が「お彼岸」となる。
 
-{{< fig-img-quote src="https://upload.wikimedia.org/wikipedia/commons/b/be/Celestial_sphere%28in_Japanese%29.png" title="Explanation about a celestial sphere in Japanese" link="https://commons.wikimedia.org/wiki/File:Celestial_sphere(in_Japanese).png" lang="en" >}}
+{{< fig-img-quote src="/remark/2025/02/setsubun/Celestial_sphere_in_Japanese.png" title="Explanation about a celestial sphere in Japanese" link="https://commons.wikimedia.org/wiki/File:Celestial_sphere(in_Japanese).png" lang="en" >}}
 
 実は近年まで知らなかったのだが，春分・秋分を「彼岸の中日」と定めたのは天保暦以後のことらしい。
 国立天文台の解説によると，天保暦以前はこんな感じだそうな。

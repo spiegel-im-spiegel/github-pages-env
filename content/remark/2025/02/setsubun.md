@@ -21,7 +21,7 @@ pageType = "text"
 
 [^tau1]: $\tau$ については「[π は間違ってる？]({{< ref "/remark/2023/03/pi-is-wrong.md" >}})」を参照のこと。
 
-{{< fig-img-quote src="./Celestial_sphere_in_Japanese.png" title="Explanation about a celestial sphere in Japanese" link="https://commons.wikimedia.org/wiki/File:Celestial_sphere(in_Japanese).png" lang="en" >}}
+{{< fig-img-quote src="/remark/2025/02/setsubun/Celestial_sphere_in_Japanese.png" title="Explanation about a celestial sphere in Japanese" link="https://commons.wikimedia.org/wiki/File:Celestial_sphere(in_Japanese).png" lang="en" >}}
 
 「節分」は元々は（暦上の）各季節の終わりにあったが，現代では雑節のひとつとして「立春の前日」と定義されている。
 他の季節は（公式には）なくなっちゃったのね（笑）
@@ -139,6 +139,8 @@ func main() {
 
 - [今年の恵方を取得する]({{< ref "/golang/favourable-direction.md" >}})
 - [お散歩カメラ 2024-02-03]({{< ref "/remark/2024/02/03-osanpo-camera.md" >}})
+
+{{< fig-youtube id="6SQVZgKea-0" title="節分って2月3日じゃないの？ ―みんな気になる暦のふしぎ― - YouTube" >}}
 
 [八雲温泉ゆうあい熊野館]: https://www.kumanokan.jp/ "八雲温泉ゆうあい熊野館"
 [熊野大社]: http://www.kumanotaisha.or.jp/ "出雲國一之宮　熊野大社"

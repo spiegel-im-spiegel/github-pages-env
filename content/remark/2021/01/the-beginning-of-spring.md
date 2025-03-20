@@ -21,7 +21,7 @@ pageType = "text"
 [^s1]: 地球の公転軌道は僅かに楕円軌道であるため天球上の（見かけの）太陽の移動速度は季節によって異なる。実際の公転運動に則した天球上の太陽を「真太陽」と呼ぶ。これに対して一定の速度で移動する仮想太陽を「平均太陽」と呼ぶ。
 [^s2]: 地球を中心とした無限遠の仮想球面を「天球」と呼ぶ。
 
-{{< fig-img-quote src="https://upload.wikimedia.org/wikipedia/commons/b/be/Celestial_sphere%28in_Japanese%29.png" title="Explanation about a celestial sphere in Japanese" link="https://commons.wikimedia.org/wiki/File:Celestial_sphere(in_Japanese).png" lang="en" >}}
+{{< fig-img-quote src="/remark/2025/02/setsubun/Celestial_sphere_in_Japanese.png" title="Explanation about a celestial sphere in Japanese" link="https://commons.wikimedia.org/wiki/File:Celestial_sphere(in_Japanese).png" lang="en" >}}
 
 立春の場合は「太陽黄経が315度になる瞬間を含む日」である。
 これを踏まえて過去の「「太陽黄経が315度になる瞬間」をプロットしたのが以下の図だ。

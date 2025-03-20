@@ -50,7 +50,7 @@ pageType = "text"
 
 [^a1]: もう少しヒントを言うと，黄道面に対して最大角度となる夏至・冬至と公転起動の遠日点・近日点は異なる，ということも考慮に入れるといいだろう。アナレンマは元々占星術の用語で日時計のメモリを指すものだったらしい。
 
-{{< fig-img-quote src="https://upload.wikimedia.org/wikipedia/commons/b/be/Celestial_sphere%28in_Japanese%29.png" title="Explanation about a celestial sphere in Japanese (cc-by-sa-2.5)" link="https://commons.wikimedia.org/wiki/File:Celestial_sphere(in_Japanese).png" lang="en" >}}
+{{< fig-img-quote src="/remark/2025/02/setsubun/Celestial_sphere_in_Japanese.png" title="Explanation about a celestial sphere in Japanese" link="https://commons.wikimedia.org/wiki/File:Celestial_sphere(in_Japanese).png" lang="en" >}}
 
 つまりアナレンマは太陽の周りを回る地球の写像と言える。
 三角関数を学べばこういう図形も比較的容易に理解できるようになる。

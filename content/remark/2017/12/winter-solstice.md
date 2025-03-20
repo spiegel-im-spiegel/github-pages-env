@@ -26,7 +26,7 @@ Facebook の TL に書き散らしたものを再構成してお送りする。
 
 [^ve1]: ちなみに星座で言うと春分点はうお座辺りにある。秋の星座は明るい星が少なく春分点付近に位置する明るい星はない。
 
-{{< fig-img-quote src="https://upload.wikimedia.org/wikipedia/commons/b/be/Celestial_sphere%28in_Japanese%29.png" title="Explanation about a celestial sphere in Japanese (cc-by-sa-2.5)" link="https://commons.wikimedia.org/wiki/File:Celestial_sphere(in_Japanese).png" lang="en" >}}
+{{< fig-img-quote src="/remark/2025/02/setsubun/Celestial_sphere_in_Japanese.png" title="Explanation about a celestial sphere in Japanese" link="https://commons.wikimedia.org/wiki/File:Celestial_sphere(in_Japanese).png" lang="en" >}}
 
 以上の説明からお分かりのように，現代天文学では天球上の位置（「天球座標」と呼ぶ）は春分点が原点になっていて，そこから計算される暦も春分点が基準になっていると言っていい。
 
