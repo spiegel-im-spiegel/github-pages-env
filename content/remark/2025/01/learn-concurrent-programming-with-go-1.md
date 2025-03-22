@@ -6,13 +6,16 @@ image = "/images/attention/go-logo_blue.png"
 tags = [ "book", "golang", "engineering", "programming", "concurrency" ]
 pageType = "text"
 
+[canonical]
+  url = "/golang/learn-concurrent-programming-with-go-1/"
+
 [scripts]
   mathjax = false
   mermaidjs = false
 +++
 
-{{< div-box >}}
-「[プログラミング言語 Go]({{< rlnk "/golang/" >}})」セクションの同名記事に移動しました。
+{{< div-box type="markdown" >}}
+[プログラミング言語 Go]({{< rlnk "/golang/" >}})」セクションの[同名記事]({{< ref "/golang/learn-concurrent-programming-with-go-1.md" >}})に移動しました。
 
 <script>
 location.href = "/golang/learn-concurrent-programming-with-go-1/";

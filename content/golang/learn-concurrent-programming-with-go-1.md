@@ -11,11 +11,13 @@ pageType = "text"
   mermaidjs = false
 +++
 
-（「Go[しっぽのさきっちょ]({{< rlnk "/remark/" >}})）」側の同名記事をこちらのセクションに移動しました）
+{{< div-box type="markdown" >}}
+「[しっぽのさきっちょ]({{< rlnk "/remark/" >}})）」側の同名記事をこちらのセクションに移動しました。
+{{< /div-box >}}
 
-「[第1回『Go言語で学ぶ並行プログラミング』オンライン読書会]」の話題。
+「[第1回『Go言語で学ぶ並行プログラミング』オンライン読書会]」の話題より。
 
-版元から PDF 版を[購入](https://book.impress.co.jp/books/1123101144 "Go言語で学ぶ並行プログラミング　他言語にも適用できる原則とベストプラクティス - インプレスブックス")した。
+対象となる『[Go言語で学ぶ並行プログラミング]』は，版元から PDF 版を[購入](https://book.impress.co.jp/books/1123101144 "Go言語で学ぶ並行プログラミング　他言語にも適用できる原則とベストプラクティス - インプレスブックス")した。
 インプレス社って絶版でもないのにいつの間にか Kindle 版を引っ込めたりするそうで，デジタル版を買うなら PDF 版を買うのがオススメらしい。
 まぁ，技術参考書は PDF 版のほうが取り回ししやすいからな。
 紙はかさばるし。
@@ -165,7 +167,7 @@ The go statement that starts a new goroutine is synchronized before the start of
 
 ## ブックマーク
 
-- [GitHub - cutajarj/ConcurrentProgrammingWithGo: Listings from manning book](https://github.com/cutajarj/ConcurrentProgrammingWithGo)
+- [cutajarj/ConcurrentProgrammingWithGo: Listings from manning book](https://github.com/cutajarj/ConcurrentProgrammingWithGo) : 『[Go言語で学ぶ並行プログラミング]』に出てくるサンプルコード
 
 [Go]: https://go.dev/
 [Go言語で学ぶ並行プログラミング]: https://www.amazon.co.jp/dp/B0DNYMMBBQ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Go言語で学ぶ並行プログラミング　他言語にも適用できる原則とベストプラクティス impress top gearシリーズ | James Cutajar, 柴田 芳樹 | 工学 | Kindleストア | Amazon"
@@ -179,10 +181,3 @@ The go statement that starts a new goroutine is synchronized before the start of
 {{% review-paapi "4873118468" %}} <!-- Go言語による並行処理 -->
 {{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
 {{% review-paapi "B0CX1NVW3F" %}} <!-- へぇ～ボタン へーボタン -->
-
-## 作業中の BGV (メン限配信以外)
-
-- [【MV】また、おかえり。／猫又おかゆ　ノベルゲーム『おかゆにゅ～～む！』OPテーマ - YouTube](https://www.youtube.com/watch?v=kFH-KEZGYRk)
-- [ファッとして桃源郷 - 尾丸ポルカ(cover) - YouTube](https://www.youtube.com/watch?v=a9kO512t5Vs)
-- [【民俗学 / 解説】蛇と関係しているってほんと？七福神「弁財天」の民俗学【VTuber/ #諸星めぐる 】 - YouTube](https://www.youtube.com/watch?v=DHAH4NBz8c4)
-- [【 #大猫百桜 】俺たちの大富豪はこれからだ🤝🔥【 ホロライブ 】 - YouTube](https://www.youtube.com/watch?v=cCI8YBhPsdo)
