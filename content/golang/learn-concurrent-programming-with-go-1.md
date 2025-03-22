@@ -11,15 +11,9 @@ pageType = "text"
   mermaidjs = false
 +++
 
-{{< div-box >}}
-「[プログラミング言語 Go]({{< rlnk "/golang/" >}})」セクションの同名記事に移動しました。
+（「Go[しっぽのさきっちょ]({{< rlnk "/remark/" >}})）」側の同名記事をこちらのセクションに移動しました）
 
-<script>
-location.href = "/golang/learn-concurrent-programming-with-go-1/";
-</script>
-{{< /div-box >}}
-
-今日は「[第1回『Go言語で学ぶ並行プログラミング』オンライン読書会]」だった。
+「[第1回『Go言語で学ぶ並行プログラミング』オンライン読書会]」の話題。
 
 版元から PDF 版を[購入](https://book.impress.co.jp/books/1123101144 "Go言語で学ぶ並行プログラミング　他言語にも適用できる原則とベストプラクティス - インプレスブックス")した。
 インプレス社って絶版でもないのにいつの間にか Kindle 版を引っ込めたりするそうで，デジタル版を買うなら PDF 版を買うのがオススメらしい。
