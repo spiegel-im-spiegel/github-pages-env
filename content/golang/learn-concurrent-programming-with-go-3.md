@@ -17,7 +17,7 @@ pageType = "text"
 
 ## 条件変数
 
-条件変数（condition variable）は，ミューテックス（mutex）と組み合わせて，並行処理が特定の条件が発生するまで待たせたいときに使う。
+条件変数（condition variable）は，ミューテックス（mutex）と組み合わせて，並行処理を特定の条件が発生するまで待たせたいときに使う。
 
 [Go] では標準パッケージの [`sync`]`.Cond` 型で提供されている。
 こんな感じで使う。
@@ -178,7 +178,7 @@ func main() {
 If any goroutine calls [`RWMutex.Lock`](https://pkg.go.dev/sync#RWMutex.Lock) while the lock is already held by one or more readers, concurrent calls to [`RWMutex.RLock`](https://pkg.go.dev/sync#RWMutex.RLock) will block until the writer has acquired (and released) the lock, to ensure that the lock eventually becomes available to the writer. Note that this prohibits recursive read-locking. A [`RWMutex.RLock`](https://pkg.go.dev/sync#RWMutex.RLock) cannot be upgraded into a [`RWMutex.Lock`](https://pkg.go.dev/sync#RWMutex.Lock), nor can a [`RWMutex.Lock`](https://pkg.go.dev/sync#RWMutex.Lock) be downgraded into a [`RWMutex.RLock`](https://pkg.go.dev/sync#RWMutex.RLock).
 {{< /fig-quote >}}
 
-だから第4章では標準を使わなかったんだねぇ。
+だから第4章では標準の [`sync`]`.RWMutex` を使わなかったんだねぇ。
 ここで繋がったよ（笑）
 
 ## セマフォ
