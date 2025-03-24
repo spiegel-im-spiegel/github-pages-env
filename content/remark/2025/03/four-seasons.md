@@ -165,6 +165,7 @@ pageType = "text"
 - [「暦」日本史 （再掲載）]({{< ref "/remark/2015/japanese-koyomi.md" >}})
 - [『猫暦』を読んだ]({{< ref "/remark/2016/05/nekoyomi.md" >}})
 - [冬至に関する与太話]({{< ref "/remark/2017/12/winter-solstice.md" >}})
+- [「新暦七夕」なるものは存在しない]({{< ref "/remark/2019/06/traditional-tanabata.md" >}})
 - [お彼岸]({{< ref "/remark/2022/03/ohigan.md" >}})
 - [第五の季節：土用]({{< ref "/remark/2022/04/doyo-period.md" >}})
 
