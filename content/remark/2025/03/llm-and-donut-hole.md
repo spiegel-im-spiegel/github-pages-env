@@ -114,6 +114,14 @@ AI アシスタントが主体の対話で本当は何が交わされている�
 たまに脳みそを使うとお腹が空くな。
 松江イオンのミスドでポン・デ・リングでも買おうかな。
 
+## ブックマーク
+
+- [なぜ私は「AIアート」が好きではないのか » p2ptk[.]org](https://p2ptk.org/ai/5391)
+- [AIクローラーの被害を受けている開発者は独創的かつユーモラスな方法で反撃している - GIGAZINE](https://gigazine.net/news/20250328-open-source-devs-fighting-ai-crawlers/)
+
+...結局のところ,現在「AI の問題」とされているものは AI を使ってる（開発している）人間の問題なんだよな。
+AI に悲観している人も AI に期待を寄せる人（詐欺師や山師も含めて）も人間をオミットして機械に転嫁しているに過ぎないってことか。
+
 [ドーナツの穴]: https://unityroom.com/games/judge_donut_hole "ドーナツの穴 | フリーゲーム投稿サイト unityroom"
 [そろそろ、人工知能の真実を話そう]: https://www.amazon.co.jp/dp/B071FHBGW8?tag=baldandersinf-22&LINKCODE=OGI&TH=1&PSC=1 "そろそろ、人工知能の真実を話そう (早川書房) | ジャン＝ガブリエル ガナシア, 小林 重裕・他, 伊藤 直子 | コンピュータサイエンス | Kindleストア | Amazon"
 
