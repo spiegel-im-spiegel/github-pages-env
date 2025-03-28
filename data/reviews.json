@@ -30818,5 +30818,89 @@
       false
     ],
     "Description": "青空文庫で\u003ca href=\"https://www.aozora.gr.jp/cards/000107/card1530.html\"\u003e読める\u003c/a\u003e。物語として面白い部分は詳細に書かれているが，結構省かれている部分もあって「読み物」という感じ。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07XN1T2S2",
+      "Title": "midori (2019 Remaster)",
+      "URL": "https://www.amazon.co.jp/dp/B07XN1T2S2?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/515as-jYQoL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "飯島　真理",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Victor",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07XN1T2S2"
+        }
+      ],
+      "PublicationDate": "2019-09-25",
+      "LastRelease": "2019-09-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-03-26",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "オリジナルは1985年のリリース。私は当時，これで飯島真理さんのファンになった。あのとき買ったアルバムは大人の事情で処分してしまったが YouTube で彼女の歌声が流れているのを見かけて\u003ca href=\"https://mora.jp/package/43000005/VICL-62219_F/\"\u003e高解像度版\u003c/a\u003eを書い直した。学生時代を思い出して泣きそう（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0CJTDKSHQ",
+      "Title": "エレコム メカニカルキーボード Leggero 静音 有線 テンキーレス Nキーロールオーバー対応 5000万回高耐久スイッチ採用 赤軸 ブラック TK-MC30UKPBK",
+      "URL": "https://www.amazon.co.jp/dp/B0CJTDKSHQ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41qnt5c7JXL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "Personal Computers",
+      "Publisher": "エレコム",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0CJTDKSHQ"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4549550275804"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2023-10-13",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-03-26",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "勤務先で使うために購入。メンブレンキーボードが辛くなったのと Amazon 価格が税込みで1万円を切ってたので決断。ほぼ打鍵音なし。エンターキーを勢いよく「ッターン！」とかできない（笑） キーストロークが3.5mmと少し短く打鍵がちょっとだけ硬い感じがするので好き嫌いがあるかも。"
   }
 ]
