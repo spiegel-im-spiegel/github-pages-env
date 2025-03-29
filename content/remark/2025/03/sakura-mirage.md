@@ -13,7 +13,7 @@ pageType = "photo"
   jsx = false
 +++
 
-明日はいよいよ [ReGLOSS] の3Dライブっスよ。
+明日はいよいよ [ReGLOSS] の[3Dライブ](https://www.youtube.com/watch?v=qc2owX4GFwA "【 #ReGLOSS3Dライブ 】Sakura Mirage / 新曲サクラミラージュ披露！【 ミニライブ 】 - YouTube")っスよ。
 というわけで，今回のお散歩カメラは桜の写真を中心にお送りします。
 
 ## 松江城へ
