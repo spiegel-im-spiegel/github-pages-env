@@ -77,6 +77,7 @@ go version go1.24.1 linux/amd64
 - [Go 1.24でジェネリックになった型エイリアスの紹介 - Speaker Deck](https://speakerdeck.com/syumai/go-1-dot-24dezieneritukuninatutaxing-eiriasunoshao-jie)
 - [Go 1.24で入ったGo製ツールの管理機能が便利だったのでおすすめしたい - 焼売飯店](https://blog.syum.ai/entry/2025/03/01/235814)
 - [Go1.24で導入されたt.Contextにシュッと対応する](https://zenn.dev/budougumi617/articles/quick-migrate-go-test-context)
+- [【Go1.24】testing/synctestパッケージの使い方をめちゃくちゃ丁寧に説明してみた！](https://zenn.dev/canary_techblog/articles/ec8a96b4541685)
 
 - [Go 1.24 からのベンチマークテスト]({{< ref "/golang/benchmark-tests-in-go-1_24.md" >}})
 
