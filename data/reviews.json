@@ -30902,5 +30902,84 @@
       false
     ],
     "Description": "勤務先で使うために購入。メンブレンキーボードが辛くなったのと Amazon 価格が税込みで1万円を切ってたので決断。ほぼ打鍵音なし。エンターキーを勢いよく「ッターン！」とかできない（笑） キーストロークが3.5mmと少し短く打鍵がちょっとだけ硬い感じがするので好き嫌いがあるかも。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4910681000",
+      "Title": "猫にご用心 知られざる猫文学の世界 (soyogo books)",
+      "URL": "https://www.amazon.co.jp/dp/4910681000?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41u2gtPL7cL._SL160_.jpg",
+        "Height": 160,
+        "Width": 109
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "大久保ゆう",
+          "Role": "編集"
+        },
+        {
+          "Name": "大久保ゆう",
+          "Role": "翻訳"
+        },
+        {
+          "Name": "ウィリアム・ボールドウィン",
+          "Role": "著"
+        },
+        {
+          "Name": "ウィリアム・クーム",
+          "Role": "著"
+        },
+        {
+          "Name": "ジョン・ダンロップ",
+          "Role": "著"
+        },
+        {
+          "Name": "マリオン・フローレンス・ランシング",
+          "Role": "著"
+        },
+        {
+          "Name": "アビー・モートン・ディアズ",
+          "Role": "著"
+        },
+        {
+          "Name": "モード・D・ハヴィランド",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "日本印刷(株)出版・メディア事業部",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4910681000"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784910681009"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4910681000"
+        }
+      ],
+      "PublicationDate": "2025-03-28",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-03-28",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "翻訳者が大久保ゆうさんと聞いて衝動買い。\u003ca href=\"https://publisher.soyogobooks.jp/book/neko-top/\"\u003e英語で初めて書かれた小説\u003c/a\u003eとのこと。出版社の \u003ca href=\"https://publisher.soyogobooks.jp/about/\"\u003esoyogo books\u003c/a\u003e は日本印刷株式会社が立ち上げた出版レーベルということで紙の本しかないらしい。これから読む。"
   }
 ]
