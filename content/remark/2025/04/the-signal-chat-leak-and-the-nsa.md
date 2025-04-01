@@ -1,11 +1,10 @@
 +++
 title = "Signal グループチャット内容の漏洩と NSA"
-date =  "2025-04-01T07:55:31+09:00"
-description = "description"
+date =  "2025-04-02T01:36:55+09:00"
+description = "というわけでメッセージング・アプリは米国政府関係者からテロリストまで多くの人に愛される Signal を使いましょう。"
 image = "/images/attention/kitten.jpg"
 tags = [ "security", "management", "risk", "cryptography", "communication", "signal" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
@@ -44,7 +43,7 @@ www.theatlantic.com/politics/arc...<br><br><a href="https://bsky.app/profile/did
 
 と反論している。
 
-これに関連して面白かったのが，遡ること2025年2月に NSA (National Security Agency) が自身の職員に対し [Signal] に脆弱性があると警告していたというニュースだ。
+これに関連して面白かったのが，遡ること2025年2月に NSA (National Security Agency; 国家安全保障局) が自身の職員に対し [Signal] に脆弱性があると警告していたというニュースだ（これ自体は最初に挙げたニュースの翌日に流された）。
 
 {{< fig-quote type="markdown" title="NSA warned of vulnerabilities in Signal app a month before Houthi strike chat - CBS News" link="https://www.cbsnews.com/news/nsa-signal-app-vulnerabilities-before-houthi-strike-chat/" lang="en" >}}
 The National Security Agency sent out an operational security special bulletin to its employees in February 2025 warning them of vulnerabilities in using the encrypted messaging application Signal, according to internal NSA documents obtained by CBS News.
@@ -56,11 +55,10 @@ The bulletin warned of [Russian](https://www.cbsnews.com/news/trump-envoy-steve-
 The bulletin also underscored to NSA employees that third-party messaging applications such as [Signal](https://www.cbsnews.com/news/what-is-signal-app-messaging/) and Whatsapp are permitted for certain "unclassified accountability/recall exercises" but not for communicating more sensitive information.
 {{< /fig-quote >}}
 
-ちなみに「[Signal] に脆弱性がある」という点について [Signal] は「[それは脆弱性じゃなくて Phishing だろ](https://x.com/signalapp/status/1904666111989166408)」と反論している[^s1]。
+ちなみに「[Signal] に脆弱性がある」という点について [Signal] は「[それは脆弱性じゃなくて Phishing だろ](https://x.com/signalapp/status/1904666111989166408 "The memo used the term ‘vulnerability’ in relation to Signal—but it had nothing to do with Signal’s core tech. It was warning against phishing scams targeting Signal users. ...")」と反論している[^s1]。
+それはともかく，今回は国家安全保障担当補佐官氏の PON だと思うけどな（いや，そんな可愛らしいもんじゃないが`w`）。
 
 [^s1]: [Signal] 側はグループチャットへのソーシャル・エンジニアリング（Phishing）に対抗手段を2025年2月の時点で既に[実装](https://www.wired.com/story/russia-signal-qr-code-phishing-attack/)している。 NSA 内部に向けた警告はこれに絡む話だったのかもしれない。いずれにしろ NSA 内部で自前でないサービスは使わないだろうけど。ちなみに [Signal] のコードは AGPLv3 ライセンス下で[公開](https://github.com/signalapp "Signal")されている。また [EFF (Electronic Frontier Foundation)](https://www.eff.org/) での評価も高く，かつてあった “[Secure Messaging Scorecard](https://www.eff.org/pages/secure-messaging-scorecard "Secure Messaging Scorecard | Electronic Frontier Foundation")” でも満点のスコアを叩き出したほか，今でも “[Surveillance Self-Defense](https://ssd.eff.org/ "Surveillance Self-Defense")” に “[How to: Use Signal](https://ssd.eff.org/module/how-to-use-signal "How to: Use Signal | Surveillance Self-Defense")” のページがある。
-
-でも，今回は国家安全保障担当補佐官氏の PON だと思うけどな（いや，そんな可愛らしいもんじゃないが`w`）
 
 とまぁ，ここまでが前説（なげーよ！）。
 ここから Bruce Schneier 先生のエッセイが登場する。
@@ -101,7 +99,7 @@ The biggest risk of eavesdropping on a Signal conversation comes from the indivi
 {{< /fig-quote >}}
 
 米国現政権を見てつくづく思うのは「真正の馬鹿は害悪にしかならない」ということだったが，今回のグループチャット内容の漏洩の件に関しては，ある意味で朗報だったかもしれない。
-何故ならセキュリティというのはもっとも脆弱なところから崩れていくものであり，セキュリティ管理はそこに基準を合わせる必要があることを再確認できたから。
+何故なら，セキュリティというのはもっとも脆弱なところから崩れていくものであり，セキュリティ管理はそこに基準を合わせる必要があることを再確認できたから。
 
 {{< fig-quote type="markdown" title="The Signal Chat Leak and the NSA - Schneier on Security" link="https://www.schneier.com/blog/archives/2025/03/the-signal-chat-leak-and-the-nsa.html" lang="en" >}}
 As long as smartphones are in the pocket of every government official, police officer, judge, CEO, and nuclear power plant operator—and now that they are being used for what the White House now calls calls  "sensitive," if not outright classified conversations among cabinet members—we need them to be as secure as possible. And that means no government-mandated backdoors.
@@ -115,12 +113,13 @@ Other governments, possibly including US allies, will now have much more incenti
 For just the same reason, the US government has urgent incentives to protect them.
 {{< /fig-quote >}}
 
-そういえば「[フランス議会がバックドア義務化を否決](https://p2ptk.org/privacy/5397 "暗号化の勝利：フランス議会がバックドア義務化を否決 » p2ptk[.]org")」したそうで。
-おめでとうございます。
+というわけでメッセージング・アプリは米国政府関係者からテロリストまで多くの人に愛される [Signal] を使いましょう。
 
 ## ブックマーク
 
+- [The war on encryption is dangerous](https://www.ft.com/content/a934150f-e0f5-4e75-a2d1-a3671ea52ca0)
 - [政府高官が軍事計画の情報共有に使っていたメッセージアプリ「Signal」の脆弱性についてNSAが職員に警告していたことが判明 - GIGAZINE](https://gigazine.net/news/20250326-nsa-warned-signal-app-vulnerabilities/)
+- [暗号化の勝利：フランス議会がバックドア義務化を否決 » p2ptk[.]org](https://p2ptk.org/privacy/5397)
 
 [Signal]: https://signal.org/ "Signal"
 
