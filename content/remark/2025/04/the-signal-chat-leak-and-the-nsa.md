@@ -98,7 +98,7 @@ The announcement confirms the broad outlines of previous media reports, [especia
 The biggest risk of eavesdropping on a Signal conversation comes from the individual phones that the app is running on. While it’s largely unclear whether the US officials involved had downloaded the app onto personal or government-issued phones—although Witkoff suggested on X that the program was on his "[personal devices](https://x.com/SteveWitkoff/status/1904886084879720683)"—smartphones are consumer devices, not at all suitable for classified US government conversations.
 {{< /fig-quote >}}
 
-米国現政権を見てつくづく思うのは「真正の馬鹿は害悪にしかならない」ということだったが，今回のグループチャット内容の漏洩の件に関しては，ある意味で朗報だったかもしれない。
+米国現政権を見てつくづく思うのは「真正の馬鹿は害悪にしかならない」だが，今回のグループチャット内容の漏洩に関しては，ある意味で朗報だったかもしれない。
 何故なら，セキュリティというのはもっとも脆弱なところから崩れていくものであり，セキュリティ管理はそこに基準を合わせる必要があることを再確認できたから。
 
 {{< fig-quote type="markdown" title="The Signal Chat Leak and the NSA - Schneier on Security" link="https://www.schneier.com/blog/archives/2025/03/the-signal-chat-leak-and-the-nsa.html" lang="en" >}}
