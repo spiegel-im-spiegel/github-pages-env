@@ -1,7 +1,7 @@
 +++
 title = "Signal グループチャット内容の漏洩と NSA"
 date =  "2025-04-02T01:36:55+09:00"
-description = "というわけでメッセージング・アプリは米国政府関係者からテロリストまで多くの人に愛される Signal を使いましょう。"
+description = "というわけで，メッセージング・アプリは米国政府関係者からテロリストまで多くの人に愛される Signal を使いましょう。"
 image = "/images/attention/kitten.jpg"
 tags = [ "security", "management", "risk", "cryptography", "communication", "signal" ]
 pageType = "text"
@@ -113,11 +113,11 @@ Other governments, possibly including US allies, will now have much more incenti
 For just the same reason, the US government has urgent incentives to protect them.
 {{< /fig-quote >}}
 
-というわけでメッセージング・アプリは米国政府関係者からテロリストまで多くの人に愛される [Signal] を使いましょう。
+というわけで，メッセージング・アプリは米国政府関係者からテロリストまで多くの人に愛される [Signal] を使いましょう，というお話でした。
 
 ## ブックマーク
 
-- [The war on encryption is dangerous](https://www.ft.com/content/a934150f-e0f5-4e75-a2d1-a3671ea52ca0)
+- [The war on encryption is dangerous](https://www.ft.com/content/a934150f-e0f5-4e75-a2d1-a3671ea52ca0) （有料記事）
 - [政府高官が軍事計画の情報共有に使っていたメッセージアプリ「Signal」の脆弱性についてNSAが職員に警告していたことが判明 - GIGAZINE](https://gigazine.net/news/20250326-nsa-warned-signal-app-vulnerabilities/)
 - [暗号化の勝利：フランス議会がバックドア義務化を否決 » p2ptk[.]org](https://p2ptk.org/privacy/5397)
 
