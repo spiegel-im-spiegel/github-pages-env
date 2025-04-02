@@ -22,6 +22,7 @@ pageType = "text"
 - [Testing concurrent code with testing/synctest - The Go Programming Language](https://go.dev/blog/synctest)
 - [Faster Go maps with Swiss Tables - The Go Programming Language](https://go.dev/blog/swisstable)
 - [Traversal-resistant file APIs - The Go Programming Language](https://go.dev/blog/osroot)
+- [More predictable benchmarking with testing.B.Loop - The Go Programming Language](https://go.dev/blog/testing-b-loop)
 
 パッと見たところ暗号周りが派手に変わってる感じ。
 あとは [`encoding`]`.TextAppender` と [`encoding`]`.BinaryAppender` かな。

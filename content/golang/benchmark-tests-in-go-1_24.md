@@ -252,9 +252,12 @@ $22\\,\\%$ 近く遅くなっちゃったよ `orz`
 
 ...てな感じで [benchstat] コマンドを使えば統計学や誤差論の知識がなくてもある程度の判断を下すことができる。
 
+## ブックマーク
+
+- [More predictable benchmarking with testing.B.Loop - The Go Programming Language](https://go.dev/blog/testing-b-loop)
+
 [Go]: https://go.dev/
 [効率的なGo]: https://www.amazon.co.jp/dp/4814400535?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon.co.jp: 効率的なGo ―データ指向によるGoアプリケーションの性能最適化 : Bartłomiej Płotka, 山口 能迪: 本"
-
 [`testing`]: https://pkg.go.dev/testing "testing package - testing - Go Packages"
 [benchstat]: https://pkg.go.dev/golang.org/x/perf/cmd/benchstat "benchstat command - golang.org/x/perf/cmd/benchstat - Go Packages"
 
