@@ -35,6 +35,7 @@ pageType = "text"
 - [Nikudanngo/typst-ja-resume-template - Typst履歴書テンプレート](https://github.com/Nikudanngo/typst-ja-resume-template)
   - [Typstで履歴書を書く #Typst - Qiita](https://qiita.com/Nikudanngo/items/ed9a452b5f63101fb26b)
 - [Typstの日本語Lipsumパッケージを作ってみた件](https://zenn.dev/mkpoli/articles/7e54c1c780ff43)
+- [tkrhsmt/jcls-typst: 日本語標準 Typst 用テンプレート](https://github.com/tkrhsmt/jcls-typst)
 
 ## その他
 
@@ -51,6 +52,8 @@ pageType = "text"
 - [Typstで数式中の文字を斜めにしない方法(<=v0.12)](https://zenn.dev/ultimatile/articles/typst-upright-in-math)
 - [Typst： いい感じのLaTeXの代替](https://www-het.phys.sci.osaka-u.ac.jp/~yamaguch/j/typst.html)
 - [WASMでTypstプラグインを作ろう](https://zenn.dev/nazo6/articles/wasm-typst-plugin)
+- [tfachmann/typst-as-library: Simple demo that demonstrates how to use typst as a library in Rust](https://github.com/tfachmann/typst-as-library) : Typst を Rust のライブラリとして使うサンプル
+  - [fatihcatalkaya/java-typst: A library to render Typst templates in Java](https://github.com/fatihcatalkaya/java-typst) : Typst を Java のライブラリとして使うサンプル。 Rust のコンパイラが必要？
 
 [Typst]: https://typst.app/ "Typst: Compose papers faster"
 [Typst Documentation]: https://typst.app/docs/ "Typst Documentation"
