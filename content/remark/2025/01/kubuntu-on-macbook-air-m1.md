@@ -3,7 +3,7 @@ title = "MacBook Air M1 に Kubuntu を入れる"
 date =  "2025-01-29T22:11:22+09:00"
 description = "いつまでも放置というわけにもいくまい！ ということで"
 image = "/images/attention/kitten.jpg"
-tags = [ "tools", "ubuntu", "macos", "nas", "tailscale" ]
+tags = [ "tools", "ubuntu", "macos", "nas", "tailscale", "apple", "linux" ]
 pageType = "text"
 
 [scripts]
