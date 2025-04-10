@@ -52,7 +52,7 @@ gcc -g -O2 -O -Wall -o pgpdump pgpdump.o types.o tagfuncs.o packet.o subfunc.o s
 作者の方は既に Haskell の人で [pgpdump] のメンテナンスは積極的には行っていないみたいだが pull request は歓迎のようだ。
 拙作の [gpgpdump] は本家 [pgpdump] をリファレンス実装とみなして参考にさせてもらってるので，今回の [GnuPG] 2.3 系への対応はありがたい。
 
-[前回]({{< ref "/release/2018/05/pgpdump-v0.33-is-released.md" >}} "pgpdump 0.33 がリリース")のリリースは2018年で，このときはまだ Windows 環境だったのだが，今回はどうすっかなぁ。
+[前回]({{< ref "/release/2018/05/pgpdump-v0_33-is-released.md" >}} "pgpdump 0.33 がリリース")のリリースは2018年で，このときはまだ Windows 環境だったのだが，今回はどうすっかなぁ。
 まぁ，折角 [Azure Virtual Desktop 環境を作った]({{< ref "/remark/2021/12/azure-virtual-desktop.md" >}} "ようやく Azure Virtual Desktop を導入できた")んだし，そっちで MSYS2 環境を作るかな。
 
 [pgpdump]: https://github.com/kazu-yamamoto/pgpdump "kazu-yamamoto/pgpdump: A PGP packet visualizer"
