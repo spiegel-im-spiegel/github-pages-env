@@ -141,7 +141,7 @@ pageType = "photo"
 
 やばいやばいやばい！
 
-ひとしきり弄ってみたが起きそうもないので諦めてそのまま松江市内に戻ることにした。
+色々と弄ってみたが起きそうもないので諦めてそのまま松江市内に戻ることにした。
 アクティビティの記録も出来ない。
 でも，あとは国道431号線を西進するだけだし，ナビはなくてもなんとかなるだろう。
 
@@ -160,7 +160,9 @@ pageType = "photo"
 ふう。
 落ち着いた。
 
-改めて [kagi Search]({{< ref "/remark/2024/06/kagi-search.md" >}} "Kagi Search を試してみる 〜 検索サービスも有料の時代？") で検索してみたところ，公式サポートページに「[電源ボタンを30秒間押し続けろ](https://support.garmin.com/ja-JP/?faq=TVtJ74jg5E2yJzM3kS8iA9&productID=802162&tab=topics "Garmin ウォッチまたはEdgeデバイスの電源が入らない | Edge Explore 2 | Garmin サポートセンター")」と書いてあったので，早速試したら無事に起動した。
+改めて [kagi Search]({{< ref "/remark/2024/06/kagi-search.md" >}} "Kagi Search を試してみる 〜 検索サービスも有料の時代？") で検索してみたところ，公式サポートページに「[電源ボタンを30秒間押し続けろ](https://support.garmin.com/ja-JP/?faq=TVtJ74jg5E2yJzM3kS8iA9&productID=802162&tab=topics "Garmin ウォッチまたはEdgeデバイスの電源が入らない | Edge Explore 2 | Garmin サポートセンター")」と書いてあった。
+30秒押しっぱなしは思いつかんわ。
+早速試したら無事に起動した。
 よかったよー！
 
 パソコンでもサイコンでも，タスク実行中にスリープするのはトラブルの元なんだな。
