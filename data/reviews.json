@@ -30981,5 +30981,134 @@
       false
     ],
     "Description": "翻訳者が大久保ゆうさんと聞いて衝動買い。\u003ca href=\"https://publisher.soyogobooks.jp/book/neko-top/\"\u003e英語で初めて書かれた小説\u003c/a\u003eとのこと。出版社の \u003ca href=\"https://publisher.soyogobooks.jp/about/\"\u003esoyogo books\u003c/a\u003e は日本印刷株式会社が立ち上げた出版レーベルということで紙の本しかないらしい。これから読む。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09GBG3G2G",
+      "Title": "Stellar Stellar",
+      "URL": "https://www.amazon.co.jp/dp/B09GBG3G2G?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/613f7iPL6KL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "星街すいせい",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "cover corp.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09GBG3G2G"
+        }
+      ],
+      "PublicationDate": "2021-09-29",
+      "LastRelease": "2021-09-29",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-04-09",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "今まで「\u003ca href=\"https://www.youtube.com/channel/UC5CwaMl1eIgY8h02uZw7u8A\"\u003e星街すいせい\u003c/a\u003e」の楽曲は避けてたのよ。聞き始めたら絶対ハマるので。でも ReGLOSS による「ムーンライト」の\u003ca href=\"https://www.youtube.com/watch?v=m6T71r7hRMI\"\u003eカバー\u003c/a\u003eを聴いて 6th fes. 初っ端の\u003ca href=\"https://www.youtube.com/live/IKkSNj5uN6I?feature=shared\u0026t=2557\"\u003eアレ\u003c/a\u003eを聴いて，テレビアニメ版 GQuuuuuuX の \u003ca href=\"https://www.youtube.com/watch?v=Rd3Gu4pQURY\"\u003eED 曲\u003c/a\u003eを聴いちゃったらねぇ。ここらが我慢の限界か。というわけで Stellar Stellar。 mora で\u003ca href=\"https://mora.jp/package/43000066/PA00091217-1-2/\"\u003e高解像度版\u003c/a\u003eが買える。 TFT 版とどっちにしようか悩んだがオリジナル・アルバムのほうで。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DSMNB2LN",
+      "Title": "新星目録",
+      "URL": "https://www.amazon.co.jp/dp/B0DSMNB2LN?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61ga37066jL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "星街すいせい",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "cover corp.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DSMNB2LN"
+        }
+      ],
+      "PublicationDate": "2025-01-22",
+      "LastRelease": "2025-01-22",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-04-09",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "今まで「\u003ca href=\"https://www.youtube.com/channel/UC5CwaMl1eIgY8h02uZw7u8A\"\u003e星街すいせい\u003c/a\u003e」の楽曲は避けてたのよ。聞き始めたら絶対ハマるので。でも ReGLOSS による「ムーンライト」の\u003ca href=\"https://www.youtube.com/watch?v=m6T71r7hRMI\"\u003eカバー\u003c/a\u003eを聴いて 6th fes. 初っ端の\u003ca href=\"https://www.youtube.com/live/IKkSNj5uN6I?feature=shared\u0026t=2557\"\u003eアレ\u003c/a\u003eを聴いて，テレビアニメ版 GQuuuuuuX の \u003ca href=\"https://www.youtube.com/watch?v=Rd3Gu4pQURY\"\u003eED 曲\u003c/a\u003eを聴いちゃったらねぇ。ここらが我慢の限界か。というわけでアルバム「新星目録」。 mora で\u003ca href=\"https://mora.jp/package/43000066/HLP-10010H/\"\u003e高解像度版\u003c/a\u003eが買える。この中ではやはり「ムーンライト」がお気に入り。 ReGLOSS のカバーバージョンも何かの機会に出ないかなぁ。ソロ（でしかもあの声質）で歌うのと5人のフォーメーションで歌うのとでニュアンスが違って聞こえて面白いのに。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0F3X8PYJX",
+      "Title": "もうどうなってもいいや",
+      "URL": "https://www.amazon.co.jp/dp/B0F3X8PYJX?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/4114Dm6PoZL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "星街すいせい",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "COVER Corp.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0F3X8PYJX"
+        }
+      ],
+      "PublicationDate": "2025-04-10",
+      "LastRelease": "2025-04-10",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-04-10",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "今まで「\u003ca href=\"https://www.youtube.com/channel/UC5CwaMl1eIgY8h02uZw7u8A\"\u003e星街すいせい\u003c/a\u003e」の楽曲は避けてたのよ。聞き始めたら絶対ハマるので。でも ReGLOSS による「ムーンライト」の\u003ca href=\"https://www.youtube.com/watch?v=m6T71r7hRMI\"\u003eカバー\u003c/a\u003eを聴いて 6th fes. 初っ端の\u003ca href=\"https://www.youtube.com/live/IKkSNj5uN6I?feature=shared\u0026t=2557\"\u003eアレ\u003c/a\u003eを聴いて，テレビアニメ版 GQuuuuuuX の \u003ca href=\"https://www.youtube.com/watch?v=Rd3Gu4pQURY\"\u003eED 曲\u003c/a\u003eを聴いちゃったらねぇ。ここらが我慢の限界か。というわけでテレビアニメ版 GQuuuuuuX の ED 曲。 mora で\u003ca href=\"https://mora.jp/package/43000100/SRXX05263B00Z_48/\"\u003e高解像度版\u003c/a\u003eが買える。アニメは全く見てないけど（笑）"
   }
 ]
