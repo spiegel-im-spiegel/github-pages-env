@@ -1,11 +1,10 @@
 +++
 title = "『Go言語で学ぶ並行プログラミング』の練習問題より"
-date =  "2025-04-17T10:28:14+09:00"
+date =  "2025-04-17T19:47:01+09:00"
 description = "今回は読書会じゃなくて Bluesky からのネタ"
 image = "/images/attention/go-logo_blue.png"
 tags = [ "programming", "golang", "book", "concurrency" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
