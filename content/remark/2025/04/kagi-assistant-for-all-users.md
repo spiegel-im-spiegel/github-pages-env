@@ -91,6 +91,8 @@ Bang 機能は検索する際に特定のサービスを指定する機能で，
 - [Kagi Search を試してみる 〜 検索サービスも有料の時代？]({{< ref "/remark/2024/06/kagi-search.md" >}})
 - [Web のコストは誰が支払うのか]({{< ref "/remark/2025/03/who-pays-for-web-costs.md" >}})
 
+{{< fig-youtube id="UoPW-_IH6pE" title="22年連続日本一の庭園を訪れ溢れる狂気に歓喜するらでん [ホロライブ/ReGLOSS/儒烏風亭らでん] - YouTube" >}}
+
 [Kagi Search]: https://kagi.com/ "Kagi Search"
 [Assistant]: https://kagi.com/assistant "The Assistant"
 [Translate]: https://translate.kagi.com/ "Kagi Translate"
