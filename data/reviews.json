@@ -31110,5 +31110,106 @@
       false
     ],
     "Description": "今まで「\u003ca href=\"https://www.youtube.com/channel/UC5CwaMl1eIgY8h02uZw7u8A\"\u003e星街すいせい\u003c/a\u003e」の楽曲は避けてたのよ。聞き始めたら絶対ハマるので。でも ReGLOSS による「ムーンライト」の\u003ca href=\"https://www.youtube.com/watch?v=m6T71r7hRMI\"\u003eカバー\u003c/a\u003eを聴いて 6th fes. 初っ端の\u003ca href=\"https://www.youtube.com/live/IKkSNj5uN6I?feature=shared\u0026t=2557\"\u003eアレ\u003c/a\u003eを聴いて，テレビアニメ版 GQuuuuuuX の \u003ca href=\"https://www.youtube.com/watch?v=Rd3Gu4pQURY\"\u003eED 曲\u003c/a\u003eを聴いちゃったらねぇ。ここらが我慢の限界か。というわけでテレビアニメ版 GQuuuuuuX の ED 曲。 mora で\u003ca href=\"https://mora.jp/package/43000100/SRXX05263B00Z_48/\"\u003e高解像度版\u003c/a\u003eが買える。アニメは全く見てないけど（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0F1RSSCTS",
+      "Title": "アポカリプスホテル",
+      "URL": "https://www.amazon.co.jp/dp/B0F1RSSCTS?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41ZQod3UXNL._SL160_.jpg",
+        "Height": 120,
+        "Width": 160
+      },
+      "ProductType": "Prime Video",
+      "Creators": [
+        {
+          "Name": "春藤 佳奈",
+          "Role": "監督"
+        },
+        {
+          "Name": "CygamesPictures",
+          "Role": "クリエイター"
+        },
+        {
+          "Name": "村越 繁",
+          "Role": "Writer"
+        },
+        {
+          "Name": "白砂沙帆",
+          "Role": "出演"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0F1RSSCTS"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2025-02-13",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-04-19",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "オリジナルアニメ。竹本泉さんがキャラクタ原案を担当。\u003ca href=\"https://storia.takeshobo.co.jp/manga/apo_hotel/\"\u003eスピンオフ漫画\u003c/a\u003eもある。これ，シナリオ考えた人は絶対に歴代の竹本泉作品群を読み込んでるだろう（個人の感想です）。ロボット達もちょっと「アレックス」ぽいコミカルさ（有能で融通が利かない）があるし（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00BQS8YF8",
+      "Title": "ファイナル・セーラー・クエスト【補完計画】",
+      "URL": "https://www.amazon.co.jp/dp/B00BQS8YF8?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51sJ9wTJo0L._SL160_.jpg",
+        "Height": 160,
+        "Width": 102
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "火浦功",
+          "Role": "著"
+        },
+        {
+          "Name": "竹本泉",
+          "Role": "イラスト"
+        }
+      ],
+      "Publisher": "朝日新聞出版",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00BQS8YF8"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2013-03-12",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2011-09-19",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "完全版の絵師さんには申し訳ないが，やっぱ『ファイナル・セーラー・クエスト』は竹本泉さんの挿絵ありきだよね（2025-04-19 Kindle 版を書い直した）。竹本泉さんのあの漫画も収録されてめでたい！"
   }
 ]
