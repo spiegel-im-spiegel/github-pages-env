@@ -76,6 +76,10 @@ Verifier に対する認証・監査は簡単じゃないと思うし，恣意�
 
 [Kagi Assistant]: https://kagi.com/assistant "The Assistant"
 
+## ブックマーク
+
+- [Xそっくりの青い認証マーク導入をBlueskyが発表するも、一部で批判の声が上がる理由とは【やじうまWatch】 - INTERNET Watch](https://internet.watch.impress.co.jp/docs/yajiuma/2008789.html)
+
 ## 参考図書
 
 {{% review-paapi "4757143044" %}} <!-- 信頼と裏切りの社会 -->
