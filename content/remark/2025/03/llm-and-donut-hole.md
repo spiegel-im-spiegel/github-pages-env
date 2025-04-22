@@ -122,6 +122,9 @@ AI アシスタントが主体の対話で本当は何が交わされている�
 ...結局のところ,現在「AI の問題」とされているものは AI を使ってる（開発している）人間の問題なんだよな。
 AI に悲観している人も AI に期待を寄せる人（詐欺師や山師も含めて）も人間をオミットして機械に転嫁しているに過ぎないってことか。
 
+- [人間と人間でないものを分かつ一線、そして「エンパシー」について – WirelessWire News](https://wirelesswire.jp/2025/04/88435/)
+- [Non Human Person としての AI — 「人間と人間でないものを分かつ一線」より]({{< ref "/remark/2025/04/ai-as-a-non-human-person.md" >}})
+
 [ドーナツの穴]: https://unityroom.com/games/judge_donut_hole "ドーナツの穴 | フリーゲーム投稿サイト unityroom"
 [そろそろ、人工知能の真実を話そう]: https://www.amazon.co.jp/dp/B071FHBGW8?tag=baldandersinf-22&LINKCODE=OGI&TH=1&PSC=1 "そろそろ、人工知能の真実を話そう (早川書房) | ジャン＝ガブリエル ガナシア, 小林 重裕・他, 伊藤 直子 | コンピュータサイエンス | Kindleストア | Amazon"
 
