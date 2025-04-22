@@ -31,6 +31,22 @@
 	<li>#<a href="{{ $tagURL | relURL }}">{{ $tag }}</a> ({{ $value.Count }})</li>
 	{{- end -}}{{- end -}}</ul>
 
+{{ with .Site.Data.osanpo }}<h2>最近の<a href="/tags/osanpo-camera/">お散歩カメラ</a></h2>
+
+<figure style='margin:0 auto;text-align:center;'>
+	<a href="{{ .flickr }}">
+		<img
+			src="{{ .path }}"
+			srcset="{{ .path }} 500w"
+			sizes="(min-width:600px) 500px, 80vw"
+			alt="{{ .title }}"
+			loading="lazy">
+	</a>
+	<figcaption><div>
+		<a href="{{ .flickr }}">{{ .title }}</a>
+	</div></figcaption>
+</figure>{{ end -}}
+
 <p>最近の更新状況などは<a href='{{ "/status/" | relURL }}'>こちら</a></p>
 
 </article></main>
