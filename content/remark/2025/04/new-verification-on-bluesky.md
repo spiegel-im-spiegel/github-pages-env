@@ -1,11 +1,10 @@
 +++
 title = "Bluesky における新しい認証方法"
-date =  "2025-04-22T10:51:09+09:00"
+date =  "2025-04-22T19:11:22+09:00"
 description = "Bluesky 自身が個々人のユーザアカウントを認証（verification）するのではないようだ。"
 image = "/images/attention/kitten.jpg"
 tags = [ "bluesky", "security", "risk", "management" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
@@ -53,8 +52,10 @@ Blueskyは2025年4月21日に新しい認証の仕組みを発表しました。
 
 {{< fig-img-quote src="./verification-diagram.png" title="A New Form of Verification on Bluesky" link="https://bsky.social/about/blog/04-21-2025-verification" width="720" lang="en" >}}
 
-X.509 な証明書管理の仕組み（hierarchical な信用モデル）とちょっと似てるかもね。
+X.509 な証明書管理の仕組み（hierarchical な信用モデル）とちょっと似てるかもね[^v1]。
 ユーザアカウントの認証については verifier に丸投げではなく
+
+[^v1]: Bluesky は分散システムとして設計されているので，認証を Bluesky が中央集権的に行うのは拙いという判断なのだろう。でも hierarchical な認証システムを分散環境に入れ込むのは微妙かもしれない。
 
 {{< fig-quote title="A New Form of Verification on Bluesky" link="https://bsky.social/about/blog/04-21-2025-verification" lang="en" >}}
 Bluesky’s moderation team reviews each verification to ensure authenticity.
