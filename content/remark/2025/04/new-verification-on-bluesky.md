@@ -48,7 +48,7 @@ Blueskyは2025年4月21日に新しい認証の仕組みを発表しました。
 [^1]: [A New Form of Verification on Bluesky - Bluesky](https://bsky.social/about/blog/04-21-2025-verification)
 {{< /fig-quote >}}
 
-元記事を見るに Bluesky 自身が個々人のユーザアカウントを認証（verification）するのではなく，企業・組織アカウントを verifier として Bluesky が認証した上で，認証された verifier が麾下のユーザアカウントを認証するという仕組みのようだ。
+元記事を見るに Bluesky 自身が個々人のユーザアカウントを認証（verification）するのではなく，企業・組織アカウントを verifier として Bluesky が認証した上で，認証された verifier が麾下のユーザアカウントを認証するという仕組みのようだ（つまり不特定のユーザを認証することは想定していない？）。
 
 {{< fig-img-quote src="./verification-diagram.png" title="A New Form of Verification on Bluesky" link="https://bsky.social/about/blog/04-21-2025-verification" width="720" lang="en" >}}
 

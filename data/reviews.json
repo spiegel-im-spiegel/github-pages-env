@@ -31125,7 +31125,7 @@
       "ProductType": "Prime Video",
       "Creators": [
         {
-          "Name": "春藤 佳奈",
+          "Name": "©アポカリプスホテル製作委員会",
           "Role": "監督"
         },
         {
@@ -31137,7 +31137,7 @@
           "Role": "Writer"
         },
         {
-          "Name": "白砂沙帆",
+          "Name": "©アポカリプスホテル製作委員会",
           "Role": "出演"
         }
       ],
@@ -31211,5 +31211,91 @@
       true
     ],
     "Description": "完全版の絵師さんには申し訳ないが，やっぱ『ファイナル・セーラー・クエスト』は竹本泉さんの挿絵ありきだよね（2025-04-19 Kindle 版を書い直した）。竹本泉さんのあの漫画も収録されてめでたい！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0D2R3WLNF",
+      "Title": "他者の靴を履く　アナーキック・エンパシーのすすめ (文春文庫)",
+      "URL": "https://www.amazon.co.jp/dp/B0D2R3WLNF?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41Zal8RG-jL._SL160_.jpg",
+        "Height": 160,
+        "Width": 110
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "ブレイディみかこ",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "文藝春秋",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0D2R3WLNF"
+        }
+      ],
+      "PublicationDate": "2024-05-08",
+      "LastRelease": "2024-05-08",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-04-25",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "「アナーキック・エンパシー」について。とりあえずポチった。これから読む（\u003ca href=\"https://yamdas.hatenablog.com/entry/20211104/anarchic-empathy\"\u003e参考記事\u003c/a\u003e）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B096ZSKMRS",
+      "Title": "ぼくはイエローでホワイトで、ちょっとブルー（新潮文庫）",
+      "URL": "https://www.amazon.co.jp/dp/B096ZSKMRS?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51o-9I5KHKL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "ブレイディみかこ",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "新潮社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B096ZSKMRS"
+        }
+      ],
+      "PublicationDate": "2021-06-24",
+      "LastRelease": "2021-06-24",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-08-20",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "書評については yomoyomo さんの\u003ca href=\"https://yamdas.hatenablog.com/entry/20190902/yellow-white-blue\"\u003eブログ記事\u003c/a\u003eをどうぞ。セールで安かったので買ったのだが，まだ読めてない。"
   }
 ]
