@@ -31297,5 +31297,60 @@
       false
     ],
     "Description": "書評については yomoyomo さんの\u003ca href=\"https://yamdas.hatenablog.com/entry/20190902/yellow-white-blue\"\u003eブログ記事\u003c/a\u003eをどうぞ。セールで安かったので買ったのだが，まだ読めてない。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4834016757",
+      "Title": "そしたら そしたら (日本傑作絵本シリーズ)",
+      "URL": "https://www.amazon.co.jp/dp/4834016757?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51Q1XkWfYlL._SL160_.jpg",
+        "Height": 160,
+        "Width": 124
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "谷川俊太郎",
+          "Role": "著"
+        },
+        {
+          "Name": "柚木沙弥郎",
+          "Role": "イラスト"
+        }
+      ],
+      "Publisher": "福音館書店",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4834016757"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784834016758"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4834016757"
+        }
+      ],
+      "PublicationDate": "2000-05-31",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-04-26",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "文章は2024年末に亡くなられた谷川俊太郎さん，絵は2024年初めに亡くなられた柚木沙弥郎さん。\u003ca href=\"https://www.shimane-art-museum.jp/exhibition/000968.html\"\u003e企画展\u003c/a\u003eで原画を見たが，楽しそうな感じの絵で面白かった。"
   }
 ]
