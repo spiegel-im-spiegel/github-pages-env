@@ -31352,5 +31352,48 @@
       false
     ],
     "Description": "文章は2024年末に亡くなられた谷川俊太郎さん，絵は2024年初めに亡くなられた柚木沙弥郎さん。\u003ca href=\"https://www.shimane-art-museum.jp/exhibition/000968.html\"\u003e企画展\u003c/a\u003eで原画を見たが，コミカルで楽しそうな感じの絵で面白かった。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DRCNLR96",
+      "Title": "明日の私に幸あれ",
+      "URL": "https://www.amazon.co.jp/dp/B0DRCNLR96?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41OYoDE-9FL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "ナナヲアカリ",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Sony Music Labels Inc.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DRCNLR96"
+        }
+      ],
+      "PublicationDate": "2025-01-18",
+      "LastRelease": "2025-01-18",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-04-24",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ「ギルドの受付嬢ですが、残業は嫌なのでボスをソロ討伐しようと思います」ED曲。\u003ca href=\"https://www.youtube.com/watch?v=XXQVmvOqB8w\"\u003eTFT の動画\u003c/a\u003eを見て衝動買い。 mora で\u003ca href=\"https://mora.jp/package/43000100/AICL04630B00Z_96/\"\u003e高解像度版\u003c/a\u003eが買える。明日残業しないために残業する！ 泣いてまうやろ（笑）"
   }
 ]
