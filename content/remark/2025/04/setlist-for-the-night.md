@@ -35,7 +35,7 @@ pageType = "text"
 1. **ノーザンクロス**（「マクロスF」挿入歌, by シェリル・ノーム）<br>
    → シェリル・ノーム（May'n）さんの曲の中ではかなり好きな曲。これは全く余談だが，はくちょう座を「北十字星」と呼んだりする
 1. **ファタール**（「推しの子」OP曲, by GEMN）<br>
-   → これも何となくのイメージ。この曲については「[音乃瀬奏](https://www.youtube.com/@OtonoseKanade "Kanade Ch. 音乃瀬奏 ‐ ReGLOSS - YouTube")」の[ショート動画](https://www.youtube.com/watch?v=C4o7LdQfjqQ "【 推しの子OP 】「ファタール / GEMN」 歌ってみた！【 音乃瀬奏 / ReGLOSS 】#VTuber #新人vtuber #Shorts - YouTube")がお気に入りだったり。フルバージョンも出さないかなぁ
+   → これも何となくのイメージ。この曲については「[音乃瀬奏](https://www.youtube.com/@OtonoseKanade "Kanade Ch. 音乃瀬奏 ‐ ReGLOSS - YouTube")」の[ショート動画](https://www.youtube.com/watch?v=C4o7LdQfjqQ "【 推しの子OP 】「ファタール / GEMN」 歌ってみた！【 音乃瀬奏 / ReGLOSS 】#VTuber #新人vtuber #Shorts - YouTube")がお気に入りだったり。フルバージョンが出ないかなぁ
 1. **ひとりぼっちが好き**（by 飯島真理）<br>
    → これは本当に夜に聴くと切なくなるかもしれない
 1. **よろこべ友よ恐れなく**（by イルカ）<br>
