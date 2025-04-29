@@ -31395,5 +31395,105 @@
       false
     ],
     "Description": "アニメ「ギルドの受付嬢ですが、残業は嫌なのでボスをソロ討伐しようと思います」ED曲。\u003ca href=\"https://www.youtube.com/watch?v=XXQVmvOqB8w\"\u003eTFT の動画\u003c/a\u003eを見て衝動買い。 mora で\u003ca href=\"https://mora.jp/package/43000100/AICL04630B00Z_96/\"\u003e高解像度版\u003c/a\u003eが買える。明日残業しないために残業する！ 泣いてまうやろ（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4911003324",
+      "Title": "すばる望遠鏡 宇宙の神秘を探る",
+      "URL": "https://www.amazon.co.jp/dp/4911003324?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51VgV6wl3LL._SL160_.jpg",
+        "Height": 160,
+        "Width": 115
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "国立天文台ハワイ観測所",
+          "Role": "著"
+        },
+        {
+          "Name": "国立天文台ハワイ観測所",
+          "Role": "編集"
+        },
+        {
+          "Name": "国立天文台ハワイ観測所",
+          "Role": "写真"
+        }
+      ],
+      "Publisher": "クレヴィス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4911003324"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784911003329"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4911003324"
+        }
+      ],
+      "PublicationDate": "2025-03-28",
+      "LastRelease": "2025-03-28",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-04-29",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "\u003ca href=\"https://subarutelescope.org/jp/news/topics/2025/03/06/3523.html\"\u003e国立天文台公式\u003c/a\u003e。2025年は共同利⽤観測開始から25周年だそうで，記念の画像集となっている。永久保存版だね。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09QBX67BD",
+      "Title": "エツミ \u0026 Coleman (コールマン) コラボレーションモデル スマートポーチ ネイビー スマホポーチ ベルト ループ カラビナ 付き アウトドア キャンプ iPhone, Galaxy, Google Pixel, Xperia など対応 汎用スマホケース VCO-8754",
+      "URL": "https://www.amazon.co.jp/dp/B09QBX67BD?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31h4DOBG4XL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "エツミ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09QBX67BD"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4975981463099"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2022-01-18",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-04-27",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "コンデジを入れるためのポーチとして購入。カラビナがついてるため服のベルトに引っ掛けることが出来る。またボディバッグのストラップに付けることも出来る。便利。"
   }
 ]
