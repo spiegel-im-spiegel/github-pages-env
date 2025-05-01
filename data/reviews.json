@@ -30775,7 +30775,7 @@
       true,
       true
     ],
-    "Description": "リリース日に mora の\u003ca href=\"https://mora.jp/package/43000066/CVRD-545H/\"\u003e高解像度版\u003c/a\u003eを購入。この歳になってこんな買い方するとは（笑） ReGLOSS は5人の音色（おんしょく）が皆個性的で，これがカッチリ嵌ると本当に格好いい！ ヘヴィローテーション中。"
+    "Description": "リリース日に mora の\u003ca href=\"https://mora.jp/package/43000066/CVRD-545H/\"\u003e高解像度版\u003c/a\u003eを購入。この歳になってこんな買い方するとは（笑） ReGLOSS は5人の音色（おんしょく）が皆個性的で，これがカッチリ嵌ると本当に格好いい！ ヘヴィローテーション中。（2025-04-27 追記： OHTORA さんによる男声\u003ca href=\"https://www.youtube.com/watch?v=4_qgp20cl6E\"\u003eセルフカバー\u003c/a\u003eもよき）"
   },
   {
     "Book": {
@@ -31125,7 +31125,7 @@
       "ProductType": "Prime Video",
       "Creators": [
         {
-          "Name": "春藤 佳奈",
+          "Name": "©アポカリプスホテル製作委員会",
           "Role": "監督"
         },
         {
@@ -31137,7 +31137,7 @@
           "Role": "Writer"
         },
         {
-          "Name": "白砂沙帆",
+          "Name": "©アポカリプスホテル製作委員会",
           "Role": "出演"
         }
       ],
@@ -31211,5 +31211,289 @@
       true
     ],
     "Description": "完全版の絵師さんには申し訳ないが，やっぱ『ファイナル・セーラー・クエスト』は竹本泉さんの挿絵ありきだよね（2025-04-19 Kindle 版を書い直した）。竹本泉さんのあの漫画も収録されてめでたい！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0D2R3WLNF",
+      "Title": "他者の靴を履く　アナーキック・エンパシーのすすめ (文春文庫)",
+      "URL": "https://www.amazon.co.jp/dp/B0D2R3WLNF?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41Zal8RG-jL._SL160_.jpg",
+        "Height": 160,
+        "Width": 110
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "ブレイディみかこ",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "文藝春秋",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0D2R3WLNF"
+        }
+      ],
+      "PublicationDate": "2024-05-08",
+      "LastRelease": "2024-05-08",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-04-25",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "「アナーキック・エンパシー」について。とりあえずポチった。これから読む（\u003ca href=\"https://yamdas.hatenablog.com/entry/20211104/anarchic-empathy\"\u003e参考記事\u003c/a\u003e）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B096ZSKMRS",
+      "Title": "ぼくはイエローでホワイトで、ちょっとブルー（新潮文庫）",
+      "URL": "https://www.amazon.co.jp/dp/B096ZSKMRS?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51o-9I5KHKL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "ブレイディみかこ",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "新潮社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B096ZSKMRS"
+        }
+      ],
+      "PublicationDate": "2021-06-24",
+      "LastRelease": "2021-06-24",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2022-08-20",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "書評については yomoyomo さんの\u003ca href=\"https://yamdas.hatenablog.com/entry/20190902/yellow-white-blue\"\u003eブログ記事\u003c/a\u003eをどうぞ。セールで安かったので買ったのだが，まだ読めてない。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4834016757",
+      "Title": "そしたら そしたら (日本傑作絵本シリーズ)",
+      "URL": "https://www.amazon.co.jp/dp/4834016757?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51Q1XkWfYlL._SL160_.jpg",
+        "Height": 160,
+        "Width": 124
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "谷川俊太郎",
+          "Role": "著"
+        },
+        {
+          "Name": "柚木沙弥郎",
+          "Role": "イラスト"
+        }
+      ],
+      "Publisher": "福音館書店",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4834016757"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784834016758"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4834016757"
+        }
+      ],
+      "PublicationDate": "2000-05-31",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-04-26",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "文章は2024年末に亡くなられた谷川俊太郎さん，絵は2024年初めに亡くなられた柚木沙弥郎さん。\u003ca href=\"https://www.shimane-art-museum.jp/exhibition/000968.html\"\u003e企画展\u003c/a\u003eで原画を見たが，コミカルで楽しそうな感じの絵で面白かった。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DRCNLR96",
+      "Title": "明日の私に幸あれ",
+      "URL": "https://www.amazon.co.jp/dp/B0DRCNLR96?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41OYoDE-9FL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "ナナヲアカリ",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Sony Music Labels Inc.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DRCNLR96"
+        }
+      ],
+      "PublicationDate": "2025-01-18",
+      "LastRelease": "2025-01-18",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-04-24",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ「ギルドの受付嬢ですが、残業は嫌なのでボスをソロ討伐しようと思います」ED曲。\u003ca href=\"https://www.youtube.com/watch?v=XXQVmvOqB8w\"\u003eTFT の動画\u003c/a\u003eを見て衝動買い。 mora で\u003ca href=\"https://mora.jp/package/43000100/AICL04630B00Z_96/\"\u003e高解像度版\u003c/a\u003eが買える。明日残業しないために残業する！ 泣いてまうやろ（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4911003324",
+      "Title": "すばる望遠鏡 宇宙の神秘を探る",
+      "URL": "https://www.amazon.co.jp/dp/4911003324?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51VgV6wl3LL._SL160_.jpg",
+        "Height": 160,
+        "Width": 115
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "国立天文台ハワイ観測所",
+          "Role": "著"
+        },
+        {
+          "Name": "国立天文台ハワイ観測所",
+          "Role": "編集"
+        },
+        {
+          "Name": "国立天文台ハワイ観測所",
+          "Role": "写真"
+        }
+      ],
+      "Publisher": "クレヴィス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4911003324"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784911003329"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4911003324"
+        }
+      ],
+      "PublicationDate": "2025-03-28",
+      "LastRelease": "2025-03-28",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-04-29",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "\u003ca href=\"https://subarutelescope.org/jp/news/topics/2025/03/06/3523.html\"\u003e国立天文台公式\u003c/a\u003e。2025年は共同利⽤観測開始から25周年だそうで，記念の画像集となっている。永久保存版だね。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09QBX67BD",
+      "Title": "エツミ \u0026 Coleman (コールマン) コラボレーションモデル スマートポーチ ネイビー スマホポーチ ベルト ループ カラビナ 付き アウトドア キャンプ iPhone, Galaxy, Google Pixel, Xperia など対応 汎用スマホケース VCO-8754",
+      "URL": "https://www.amazon.co.jp/dp/B09QBX67BD?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31h4DOBG4XL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "エレクトロニクス",
+      "Publisher": "エツミ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09QBX67BD"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4975981463099"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2022-01-18",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-04-27",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "コンデジを入れるためのポーチとして購入。カラビナがついてるため服のベルトに引っ掛けることが出来る。またボディバッグのストラップに付けることも出来る。便利。"
   }
 ]
