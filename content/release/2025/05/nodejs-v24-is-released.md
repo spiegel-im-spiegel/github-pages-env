@@ -1,11 +1,10 @@
 +++
 title = "Node.js V24 がリリースされた"
-date =  "2025-05-08T19:51:38+09:00"
+date =  "2025-05-09T07:34:18+09:00"
 description = "Node.js v24 は 2025-10 以降に LTS になる予定である。"
 image = "/images/attention/tools.png"
 tags  = [ "nodejs", "programming", "react" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
