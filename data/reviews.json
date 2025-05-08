@@ -31639,14 +31639,14 @@
       }
     },
     "Date": "2025-05-03",
-    "Rating": 0,
+    "Rating": 4,
     "Star": [
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
       false
     ],
-    "Description": "版元で \u003ca href=\"https://www.oreilly.co.jp/books/9784814401093/\"\u003ePDF版\u003c/a\u003eが買える。 TypeScript の勉強用に購入。これから読む。"
+    "Description": "TypeScript のお勉強用に購入。版元で \u003ca href=\"https://www.oreilly.co.jp/books/9784814401093/\"\u003ePDF 版\u003c/a\u003eが買える。"
   }
 ]
