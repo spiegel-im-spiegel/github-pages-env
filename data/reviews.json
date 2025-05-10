@@ -31109,7 +31109,7 @@
       true,
       false
     ],
-    "Description": "今まで「\u003ca href=\"https://www.youtube.com/channel/UC5CwaMl1eIgY8h02uZw7u8A\"\u003e星街すいせい\u003c/a\u003e」の楽曲は避けてたのよ。聞き始めたら絶対ハマるので。でも ReGLOSS による「ムーンライト」の\u003ca href=\"https://www.youtube.com/watch?v=m6T71r7hRMI\"\u003eカバー\u003c/a\u003eを聴いて 6th fes. 初っ端の\u003ca href=\"https://www.youtube.com/live/IKkSNj5uN6I?feature=shared\u0026t=2557\"\u003eアレ\u003c/a\u003eを聴いて，テレビアニメ版 GQuuuuuuX の \u003ca href=\"https://www.youtube.com/watch?v=Rd3Gu4pQURY\"\u003eED 曲\u003c/a\u003eを聴いちゃったらねぇ。ここらが我慢の限界か。というわけでテレビアニメ版 GQuuuuuuX の ED 曲。 mora で\u003ca href=\"https://mora.jp/package/43000100/SRXX05263B00Z_48/\"\u003e高解像度版\u003c/a\u003eが買える。アニメは全く見てないけど（笑）"
+    "Description": "今まで「\u003ca href=\"https://www.youtube.com/channel/UC5CwaMl1eIgY8h02uZw7u8A\"\u003e星街すいせい\u003c/a\u003e」の楽曲は避けてたのよ。聞き始めたら絶対ハマるので。でも ReGLOSS による「ムーンライト」の\u003ca href=\"https://www.youtube.com/watch?v=m6T71r7hRMI\"\u003eカバー\u003c/a\u003eを聴いて 6th fes. 初っ端の\u003ca href=\"https://www.youtube.com/live/IKkSNj5uN6I?feature=shared\u0026t=2557\"\u003eアレ\u003c/a\u003eを聴いて，テレビアニメ版 GQuuuuuuX の \u003ca href=\"https://www.youtube.com/watch?v=Rd3Gu4pQURY\"\u003eED 曲\u003c/a\u003eを聴いちゃったらねぇ。ここらが我慢の限界か。というわけでテレビアニメ版 GQuuuuuuX の ED 曲。 mora で\u003ca href=\"https://mora.jp/package/43000100/SRXX05263B00Z_48/\"\u003e高解像度版\u003c/a\u003eが買える。アニメは全く見てないけど（笑） 聴き倒して歌詞が頭に入ってくると更におもしろい。"
   },
   {
     "Book": {
@@ -31648,5 +31648,48 @@
       false
     ],
     "Description": "TypeScript のお勉強用に購入。版元で \u003ca href=\"https://www.oreilly.co.jp/books/9784814401093/\"\u003ePDF 版\u003c/a\u003eが買える。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0F64YN7KQ",
+      "Title": "日経サイエンス2025年6月号 [雑誌]",
+      "URL": "https://www.amazon.co.jp/dp/B0F64YN7KQ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51kK41j0tsL._SL160_.jpg",
+        "Height": 160,
+        "Width": 120
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "日経サイエンス",
+          "Role": "編集"
+        }
+      ],
+      "Publisher": "日経サイエンス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0F64YN7KQ"
+        }
+      ],
+      "PublicationDate": "2025-04-25",
+      "LastRelease": "2025-04-25",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-05-05",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "2025年6月号の特集は「好奇心に好奇心」。他には「1秒の定義を変える 原子時計のいま」「仲間はずれを作らない教室」など。固定レイアウトなので\u003ca href=\"https://read.amazon.com/\"\u003eブラウザ\u003c/a\u003eで読める。"
   }
 ]
