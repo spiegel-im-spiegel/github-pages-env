@@ -42,7 +42,7 @@ pageType = "text"
 
 ちなみに『[ハッキング思考]』では「ハック」をこう定義している。
 
-{{< fig-quote type="markdown" title="『ハッキング思考』39章" link="https://www.amazon.co.jp/dp/B0CK19L1HC?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1" >}}
+{{< fig-quote type="markdown" title="『ハッキング思考』1章" link="https://www.amazon.co.jp/dp/B0CK19L1HC?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1" >}}
 1. 想定を超えた巧妙なやり方でシステムを利用して、（a）システムの規則や規範の裏をかき、（b）そのシステムの影響を受ける他者に犠牲を強いること。
 2. システムで許容されているが、その設計者は意図も予期もしていなかったこと。
 {{< /fig-quote >}}
