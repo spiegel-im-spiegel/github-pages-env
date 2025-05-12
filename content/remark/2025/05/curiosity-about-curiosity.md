@@ -85,7 +85,7 @@ pageType = "text"
 人は想像を絶するものは想像できない。
 
 {{< fig-quote type="markdown" title="「日経サイエンス」2025年6月号 脳が興味を生み出すとき 「やる気」の源泉に迫る" link="https://www.amazon.co.jp/dp/B0F64YN7KQ?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1" >}}
-好奇心は常に外界の環境の成約を受けている。その環境とは，具体的には言語のことだ。
+好奇心は常に外界の環境の制約を受けている。その環境とは，具体的には言語のことだ。
 {{< /fig-quote >}}
 
 私たちは言語というか言葉によって知識と理解を共有している。
