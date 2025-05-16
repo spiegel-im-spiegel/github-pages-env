@@ -82,9 +82,9 @@ OS のアップグレードよりこっちの作業のほうが時間がかか�
 - [x] [NodeSource] 版 [Node.js]
   - [NodeSource Node.js Binary Distributions](https://github.com/nodesource/distributions/blob/master/README.md)
     - v22 へアップグレードした
-- [ ] [pgAdmin 4]
+- [x] [pgAdmin 4]
   - [Download](https://www.pgadmin.org/download/pgadmin-4-apt/)
-- [ ] [PPA] 版 [KeePassXC]
+- [x] [PPA] 版 [KeePassXC]
   - [KeePassXC : Janek Bevendorff](https://launchpad.net/~phoerious/+archive/ubuntu/keepassxc)
 - [x] [VS Code]
   - [Running Visual Studio Code on Linux](https://code.visualstudio.com/docs/setup/linux)
