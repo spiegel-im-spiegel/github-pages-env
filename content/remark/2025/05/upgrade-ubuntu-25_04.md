@@ -77,6 +77,45 @@ LOGO=ubuntu-logo
 
 いやぁ，今回は楽でよかった。
 
+## 【追記】 Remmina を Snap 版に変更
+
+[Mini PC]({{< ref "/remark/2025/01/win11pro-on-minipc.md" >}} "Mini PC を衝動買いした") とのリモート接続に使ってた [Remmina] が動かなくなりまして。
+
+- [Ubuntu 25.04 Plucky Puffin remminaが使えない対策 - Knowledge](https://knowledge.f5.si/open.knowledge/view/159)
+
+ふむふむ。
+しょうがない。
+Snap 版に入れ替えることにしよう。
+
+APT 版はパージして
+
+```text
+$ sudo apt purge remmina remmina-plugin-*
+$ sudo apt autoremove #不要になったパッケージを削除
+
+```
+
+Snap 版をインストール。
+
+```text
+sudo snap install remmina
+```
+
+Snap 版もこのままではダメで，以下のコマンドを実行する。
+
+```text
+$ sudo snap connect remmina:audio-record :audio-record
+$ sudo snap connect remmina:avahi-observe :avahi-observe
+$ sudo snap connect remmina:cups-control :cups-control
+$ sudo snap connect remmina:mount-observe :mount-observe
+$ sudo snap connect remmina:password-manager-service :password-manager-service
+$ sudo snap connect remmina:ssh-keys :ssh-keys
+$ sudo snap connect remmina:ssh-public-keys :ssh-public-keys
+```
+
+念のため再起動して接続設定を作り直してどうにか接続できた。
+まぁ， LTS 版以外はこういうこともあるので仕方がない。
+
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [PPA]: https://launchpad.net/ubuntu/+ppas "Personal Package Archives : Ubuntu"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
@@ -90,6 +129,7 @@ LOGO=ubuntu-logo
 [pgAdmin 4]: https://www.pgadmin.org/ "pgAdmin - PostgreSQL Tools"
 [VS Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
 [Fcitx 5]: https://fcitx-im.org/wiki/Fcitx_5
+[Remmina]: https://www.remmina.org/ "Remmina remote desktop client - Remmina"
 
 ## 参考
 
