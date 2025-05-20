@@ -1,7 +1,7 @@
 +++
 title = "Ubuntu 25.04 へのアップグレード"
 date =  "2025-05-16T21:11:14+09:00"
-description = "description"
+description = "今回は楽でよかった。"
 image = "/images/attention/kitten.jpg"
 tags = [ "ubuntu", "tools", "install", "ppa" ]
 pageType = "text"
