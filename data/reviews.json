@@ -31691,5 +31691,52 @@
       false
     ],
     "Description": "2025年6月号の特集は「好奇心に好奇心」。他には「1秒の定義を変える 原子時計のいま」「仲間はずれを作らない教室」など。固定レイアウトなので\u003ca href=\"https://read.amazon.com/\"\u003eブラウザ\u003c/a\u003eで読める。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B009EN3M7C",
+      "Title": "涼宮ハルヒの憂鬱 「涼宮ハルヒ」シリーズ (角川スニーカー文庫)",
+      "URL": "https://www.amazon.co.jp/dp/B009EN3M7C?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51CkKmKvBxL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "谷川 流",
+          "Role": "著"
+        },
+        {
+          "Name": "いとう のいぢ",
+          "Role": "イラスト"
+        }
+      ],
+      "Publisher": "KADOKAWA",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B009EN3M7C"
+        }
+      ],
+      "PublicationDate": "2009-03-01",
+      "LastRelease": "2012-09-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2014-03-16",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "Kindle 版を買い直した。当時は火浦功さんの「\u003ca href=\"https://www.amazon.co.jp/dp/4022738111?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1\"\u003eスターライト\u003c/a\u003e」シリーズ以来のインパクトだった（個人の感想です）。"
   }
 ]
