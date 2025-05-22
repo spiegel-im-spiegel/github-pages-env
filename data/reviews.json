@@ -12102,7 +12102,7 @@
       "Image": {
         "URL": "https://m.media-amazon.com/images/I/410QuKHYY3L._SL160_.jpg",
         "Height": 160,
-        "Width": 113
+        "Width": 112
       },
       "ProductType": "Kindle版",
       "Creators": [
@@ -12141,16 +12141,16 @@
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2019-03-11",
-    "Rating": 0,
+    "Date": "2019-01-24",
+    "Rating": 4,
     "Star": [
-      false,
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
+      true,
       false
     ],
-    "Description": "Twitter で見かけて衝動買いした。ちょっとだけ読んで積ん読中。"
+    "Description": "データを元に世界を読み解くコツについて。全ての人に必見の本，かな。"
   },
   {
     "Book": {
