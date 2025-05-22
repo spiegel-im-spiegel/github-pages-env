@@ -15,6 +15,8 @@ pageType = "text"
 オチなし記事。
 どんどん行こう（笑）
 
+## AI が描く物語
+
 今回の起点はこれ：
 
 - [grokにファクトチェックさせている人は何も知らない | Books&Apps](https://blog.tinect.jp/?p=89620)
@@ -41,10 +43,10 @@ Grokは、ほぼすべての質問に回答し、さらにはどのような質�
 * **Grok:** [https://grok.com/](https://grok.com/)
 
 [^1]: [Xのユーモア溢れるAIアシスタント、Grokについて](https://help.x.com/ja/using-x/about-grok)
-[^2]: [Announcing Grok! - xAI](https://x.com/xai/status/1721027348970238035?lang=en#:~:text=Grok%20is,to%20ask%21)
-[^3]: [Grok the AI (@groktheai) / X](https://x.com/groktheai?lang=en#:~:text=Grok%20has,loves%20sarcasm.)
-[^4]: [xAI (@xai) / X](https://x.com/xai#:~:text=With%20Live,FREE%20in)
-[^5]: [Grok - xAI](https://x.ai/grok#:~:text=Learn%20from,with%20Grok%3F)
+[^2]: [Announcing Grok! - xAI](https://x.com/xai/status/1721027348970238035?lang=en)
+[^3]: [Grok the AI (@groktheai) / X](https://x.com/groktheai?lang=en)
+[^4]: [xAI (@xai) / X](https://x.com/xai)
+[^5]: [Grok - xAI](https://x.ai/grok)
 [^6]: [世界で最も賢いAI、Grok 3が登場しました。 現在どなたでも無料で ...](https://x.com/XcorpJP/status/1892482239742492682?lang=en)
 [^7]: [XがGrok 3を無料開放！無料版ユーザー含めて誰でも利用可能に ...](https://usedoor.jp/news/2025-02-20-x-grok3-muryou-kaihou/)
 {{< /fig-quote >}}
@@ -87,7 +89,36 @@ LLM によって機械は「言語的理解」に必要なピースを獲得し�
 同様に今の AI ブームが何をもたらすか予測するのは難しい。
 言うだけなら（この記事みたいに）誰でもどうとでも言えるし，当たればドヤ顔されるだろうが。
 
+## 【2025-05-23 追記】 AI アシスタントと広告
 
+- [Google is stuffing even more ads into its AI results | The Verge](https://www.theverge.com/news/671514/google-ai-mode-overviews-ads-expansion)
+
+これも [Kagi Assistant] に要約させてみる。
+
+{{< fig-quote type="markdown" >}}
+Googleは、AI検索結果にさらに多くの広告を導入しています。具体的には、AI Modeでのテストと、デスクトップ版のAI Overviewsへの展開を進めています[^1]。
+
+AI ModeはGoogle検索の新しいタブであり[^2]、AI Overviewsは検索クエリに基づいてAIが情報を要約し、検索結果の上位に表示する機能です[^3] [^4]。これらのAIが生成する応答の中に、「sponsored」と表示された広告が表示されるようになります[^5]。
+
+[^1]: [Google is stuffing even more ads into its AI results | The Verge](https://www.theverge.com/news/671514/google-ai-mode-overviews-ads-expansion)
+[^2]: [Google launches AI Mode to everyone in the US, adds... | The Verge](https://www.theverge.com/google-io/670439/google-ai-mode-search-io-2025)
+[^3]: [2024年のGoogle AI Overviews：検索の未来を変える革新的な技術](https://hblab.co.jp/blog/google-ai-overviews-advantages-disadvantages-2024/)
+[^4]: [Googleの「AIによる概要」がGemini 2.0にアップデート、より ...](https://gigazine.net/news/20250306-google-ai-overviews-gemini-2-0/)
+[^5]: [Google Expands Sponsored Ads in AI-Powered Search Features](https://opentools.ai/news/google-expands-sponsored-ads-in-ai-powered-search-features)
+{{< /fig-quote >}}
+
+上の要約にはないが一応米国リージョンでのテストということらしい。
+まぁ，全世界展開でないのは広告主との契約関係からだろう。
+
+「さすが Google！ [おれたちにできない事を平然とやってのけるッ](https://dic.pixiv.net/a/%E3%81%9D%E3%81%93%E3%81%AB%E3%82%B7%E3%83%93%E3%82%8C%E3%82%8B%21%E3%81%82%E3%81%93%E3%81%8C%E3%82%8C%E3%82%8B%E3%82%A5%21 "そこにシビれる!あこがれるゥ! (そこにしびれるあこがれるぅ)とは【ピクシブ百科事典】")」って感じだろうか。
+シビれもあこがれもしないけど（笑）
+
+広告と（AI が描く）物語は，さぞかし相性がいいことだろう。
+私は既に [Kagi Search](https://kagi.com/) に移行済みなので大したインパクトはない。
+
+{{< fig-quote type="markdown" title="Kagi HQ: Kagi products will always be free of ads and trackers... — Bluesky" link="https://bsky.app/profile/kagi.com/post/3lpq6cq7tyk2p" lang="en" >}}
+Kagi products will always be free of ads and trackers. In fact, Kagi Search will actively down-rank sites with lots of ads and trackers in the results and promote sites with little or no advertising.
+{{< /fig-quote >}}
 
 ## ブックマーク
 
