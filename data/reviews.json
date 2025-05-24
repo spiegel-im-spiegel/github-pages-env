@@ -31738,5 +31738,210 @@
       false
     ],
     "Description": "Kindle 版を買い直した。当時は火浦功さんの「\u003ca href=\"https://www.amazon.co.jp/dp/4022738111?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1\"\u003eスターライト\u003c/a\u003e」シリーズ以来のインパクトだった（個人の感想です）。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07VH85NTF",
+      "Title": "RUSSIAN ROULETTE",
+      "URL": "https://www.amazon.co.jp/dp/B07VH85NTF?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51PHCHBpmZL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "Tomoyasu Hotei",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "UNIVERSAL MUSIC LLC",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07VH85NTF"
+        }
+      ],
+      "PublicationDate": "2002-02-06",
+      "LastRelease": "2016-10-26",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-05-24",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "ゲーム「鬼武者2」のテーマ曲。 mora で\u003ca href=\"https://mora.jp/package/43000006/00600406812902_L/\"\u003eロスレス版\u003c/a\u003e（CDと同じ音質）が買える。ひたすらかっこいい曲。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0B8TGG4FF",
+      "Title": "探偵物語",
+      "URL": "https://www.amazon.co.jp/dp/B0B8TGG4FF?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51cqMDRLgiL._SL160_.jpg",
+        "Height": 120,
+        "Width": 160
+      },
+      "ProductType": "Prime Video",
+      "Creators": [
+        {
+          "Name": "村川透",
+          "Role": "監督"
+        },
+        {
+          "Name": "西村潔",
+          "Role": "監督"
+        },
+        {
+          "Name": "澤田幸弘",
+          "Role": "監督"
+        },
+        {
+          "Name": "長谷部安春",
+          "Role": "監督"
+        },
+        {
+          "Name": "加藤彰",
+          "Role": "監督"
+        },
+        {
+          "Name": "小澤啓一",
+          "Role": "監督"
+        },
+        {
+          "Name": "小池要之助",
+          "Role": "監督"
+        },
+        {
+          "Name": "飛河三義",
+          "Role": "監督"
+        },
+        {
+          "Name": "丸山昇一",
+          "Role": "Writer"
+        },
+        {
+          "Name": "那須真知子",
+          "Role": "Writer"
+        },
+        {
+          "Name": "佐治乾",
+          "Role": "Writer"
+        },
+        {
+          "Name": "柏原寛司",
+          "Role": "Writer"
+        },
+        {
+          "Name": "中島紘一",
+          "Role": "Writer"
+        },
+        {
+          "Name": "宮田雪",
+          "Role": "Writer"
+        },
+        {
+          "Name": "白坂依志夫",
+          "Role": "Writer"
+        },
+        {
+          "Name": "和久田正明",
+          "Role": "Writer"
+        },
+        {
+          "Name": "内田栄一",
+          "Role": "Writer"
+        },
+        {
+          "Name": "いどあきお",
+          "Role": "Writer"
+        },
+        {
+          "Name": "桂千穂",
+          "Role": "Writer"
+        },
+        {
+          "Name": "田中陽造",
+          "Role": "Writer"
+        },
+        {
+          "Name": "大和屋竺",
+          "Role": "Writer"
+        },
+        {
+          "Name": "松田優作",
+          "Role": "出演"
+        },
+        {
+          "Name": "成田三樹夫",
+          "Role": "出演"
+        },
+        {
+          "Name": "倍賞美津子",
+          "Role": "出演"
+        },
+        {
+          "Name": "山西道広",
+          "Role": "出演"
+        },
+        {
+          "Name": "竹田かほり",
+          "Role": "出演"
+        },
+        {
+          "Name": "ナンシー・チェニー",
+          "Role": "出演"
+        },
+        {
+          "Name": "重松収",
+          "Role": "出演"
+        },
+        {
+          "Name": "清水宏",
+          "Role": "出演"
+        },
+        {
+          "Name": "庄司三郎",
+          "Role": "出演"
+        },
+        {
+          "Name": "榎木兵衛",
+          "Role": "出演"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0B8TGG4FF"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2022-12-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-05-24",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "テレビドラマのほう。ファーストガンダムと同じ年に放映された。後年の同名映画とは全くの別物。「仮面ライダーW」のパクリではない（逆だ）。実はあんまり覚えてないんだよな。ノーヘルでベスパに乗ってるシーンは印象に残っている。"
   }
 ]
