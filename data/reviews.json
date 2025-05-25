@@ -31943,5 +31943,46 @@
       false
     ],
     "Description": "テレビドラマのほう。ファーストガンダムと同じ年に放映された。後年の同名映画とは全くの別物。「仮面ライダーW」のパクリではない（逆だ）。実はあんまり覚えてないんだよな。ノーヘルでベスパに乗ってるシーンは印象に残っている。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0C3QTQNQQ",
+      "Title": "[ジロ] TRACKER FASTLACE 自転車 サイクリング フラットペダルシューズ メンズ ダークシャドウ/トレイルグリーン 25.5 cm",
+      "URL": "https://www.amazon.co.jp/dp/B0C3QTQNQQ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/414gsb6sBqL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "ウェア\u0026シューズ",
+      "Publisher": "DIATEC",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0C3QTQNQQ"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4573501461282"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-05-24",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "\u003ca href=\"https://www.amazon.co.jp/dp/B0B76PD6PS?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1\"\u003eBOA ダイアルのほう\u003c/a\u003eはどうも出荷されないっぽいので仕方なくこちらを選択。普通の紐靴よりはマシだけど，やっぱ BOA ダイアルのほうがいいなぁ。履き心地はよし。"
   }
 ]

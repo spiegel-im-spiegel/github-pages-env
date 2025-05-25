@@ -411,12 +411,14 @@ Microsoft はサードパーティのパッケージに対して責任を負わ�
 - [Steam, The Ultimate Online Game Platform](https://store.steampowered.com/about/) : [winget] の `Valve.Steam` でいいのか分からなかったので，サイトからインストーラをダウンロードした。リモートデスクトップ越しでは流石に入力遅延があるが，パズルゲームなら違和感なくできるか
 - [アナザーエデン 時空を超える猫 - PC版特設サイト](https://another-eden.jp/pc/) : そういや PC 版あるんだっけ
 - [moraダウンローダー（無料）｜音楽ダウンロード・音楽配信サイト　mora ～WALKMAN®公式ミュージックストア～](https://mora.jp/pcdownloaderInstall) : 一括ダウンロード用に導入
+- [ClementTsang/bottom: Yet another cross-platform graphical process/system monitor.](https://github.com/ClementTsang/bottom) : Windows で動くパフォーマンスモニタ。 Rust 製でシングルバイナリで提供されている。 Linux の `htop` コマンドに似たモード（`-b` オプション指定時）で動作可能
 
 - [パソコンに Visual Studio Code を導入する（再チャレンジ）]({{< ref "/remark/2021/02/installing-vscode-again.md" >}})
 
 ## ブックマーク
 
 - [SSH 接続をテストする - GitHub Docs](https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection)
+- [Windows で htop が使いたい人は btm -b がおすすめ #Rust - Qiita](https://qiita.com/kojix2/items/adba05b9205f9c6078ca)
 
 - [GnuPG for Windows : gpg-agent について]({{< ref "/openpgp/using-gnupg-for-windows-2.md" >}})
 
