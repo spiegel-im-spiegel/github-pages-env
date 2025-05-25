@@ -155,7 +155,7 @@ YouTube ならチャネル登録数とか高評価ボタンの押下数とかラ
 
 ## 機械に「好きなこと」をさせるのは間違ってる？
 
-創作活動とはちょっと違うかもしれないが今年の「[RubyKaigi 2025](https://rubykaigi.org/2025/ "RubyKaigi 2025 - RubyKaigi 2025")」でまつもとゆきひろさんが「Programming Language for AI age」というタイトルで公演されたそうなのだが，その中で
+創作活動とはちょっと違うかもしれないが今年の「[RubyKaigi 2025](https://rubykaigi.org/2025/ "RubyKaigi 2025 - RubyKaigi 2025")」でまつもとゆきひろさんが「Programming Language for AI age」というタイトルで講演されたそうなのだが，その中で
 
 {{< fig-quote type="markdown" title="まつもとゆきひろさん「Programming Language for AI age」～RubyKaigi 2025 3日目キーノート | gihyo.jp" link="https://gihyo.jp/article/2025/05/rubykaigi-2025-keynote-report-day3" >}}
 今日のAIには得意なことと苦手なことがあります。得意なことはプログラミングです。「⁠こういうコードを書いてほしい」とお願いすると、概ね正しく動くコードを生成してくれます（よく間違えることもありますが⁠）⁠。一方で、苦手なことは交渉や仕様決めなどです。
