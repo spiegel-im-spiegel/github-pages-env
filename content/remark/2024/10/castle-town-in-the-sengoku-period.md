@@ -3,7 +3,7 @@ title = "「城と城下町—出雲の戦国時代—」を聴講する"
 date =  "2024-10-27T18:31:00+09:00"
 description = "城と城下町—出雲の戦国時代— / 富田川河床遺跡 / 城跡調査から尼子・毛利の攻防をさぐる / 帰るか"
 image = "/images/attention/kitten.jpg"
-tags = [ "photography", "izumo", "shimane", "ruins", "castle" ]
+tags = [ "photography", "izumo", "shimane", "ruins", "castle", "yasugi" ]
 pageType = "text"
 
 [scripts]
@@ -82,7 +82,7 @@ pageType = "text"
 「[島根の歴史文化講座]」の動画と当時打つ配布された資料が PDF で上がっていた。
 ありがたや {{% emoji "ペコン" %}}
 
-{{< fig-youtube id="cP-Y_PIGy1E" title="もっと知りたい島根の歴史　第１講　「東西出雲の王」 - YouTube" >}}
+{{< fig-youtube id="cP-Y_PIGy1E" title="もっと知りたい島根の歴史　第２講「城と城下町　― 出雲の戦国時代 ―」 - YouTube" >}}
 
 - {{< pdf-file title="PDF 資料" link="https://shimane-kodaibunka.jp/wp-content/uploads/2024/11/R6-2rekishibunka.pdf" >}}
 

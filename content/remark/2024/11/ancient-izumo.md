@@ -62,6 +62,10 @@ pageType = "text"
 [松江テルサ]: https://www.matsue-terrsa.jp/ "松江テルサ"
 [古代出雲の氏族と社会]: https://www.amazon.co.jp/dp/4886219454?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "古代出雲の氏族と社会 (47) (同成社古代史選書 47) | 武廣 亮平 |本 | 通販 | Amazon"
 
+## 2025-05-31 資料追加
+
+{{< fig-youtube id="ZrmZiLnlzi0" title="もっと知りたい島根の歴史　第３講「古代出雲の謎に迫る」 - YouTube" >}}
+
 ## 参考
 
 {{% review-paapi "4886219454" %}} <!-- 古代出雲の氏族と社会 -->

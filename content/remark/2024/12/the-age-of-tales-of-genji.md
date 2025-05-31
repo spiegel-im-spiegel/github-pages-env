@@ -114,6 +114,10 @@ pageType = "text"
 
 というわけで，平安時代を知るには日記を読めと勧められた。
 
+## 2025-05-31 資料追加
+
+{{< fig-youtube id="friSxIvGjCw" title="もっと知りたい島根の歴史　第４講「知られざる古代出雲」 - YouTube" >}}
+
 [「東西出雲の王」を聴講する]: {{< ref "/remark/2024/09/izumo-kingdum.md" >}} "「東西出雲の王」を聴講する"
 [島根の歴史文化講座 2024]: https://shimane-kodaibunka.jp/sympo/sympo-3424/ "島根の歴史文化講座　2024 | 島根県古代文化センター"
 [松江テルサ]: https://www.matsue-terrsa.jp/ "松江テルサ"
