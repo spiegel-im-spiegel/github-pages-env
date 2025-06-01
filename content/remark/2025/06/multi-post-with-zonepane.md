@@ -86,6 +86,7 @@ Threads は知らん（笑）
 ## ブックマーク
 
 - [ZonePane(ぞーぺん) (@zonepane@fedibird.com) - Fedibird](https://fedibird.com/@zonepane)
+- [ぞーぺん、ついにクロスポスト対応！｜takke](https://note.com/panecraft/n/n55b33ad1496e)
 
 [ZonePane]: https://play.google.com/store/apps/details?id=com.zonepane "ZonePane for Bluesky&Mastodon - Google Play"
 [@takke]: https://fedibird.com/@takke "たけうちひろあき (@takke@fedibird.com) - Fedibird"
