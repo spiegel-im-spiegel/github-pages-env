@@ -31984,5 +31984,56 @@
       false
     ],
     "Description": "\u003ca href=\"https://www.amazon.co.jp/dp/B0B76PD6PS?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1\"\u003eBOA ダイアルのほう\u003c/a\u003eはどうも出荷されないっぽいので仕方なくこちらを選択。普通の紐靴よりはマシだけど，やっぱ BOA ダイアルのほうがいいなぁ。履き心地はよし。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4639012217",
+      "Title": "出雲国風土記と古代日本: 出雲地域史の研究",
+      "URL": "https://www.amazon.co.jp/dp/4639012217?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41sWwEW8PaL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "瀧音 能之",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "雄山閣",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4639012217"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784639012214"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4639012217"
+        }
+      ],
+      "PublicationDate": "1994-04-05",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-05-05",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "大昔，出雲国風土記の勉強用に買った本。引っ越しのドサクサでなくなったので書い直した。"
   }
 ]
