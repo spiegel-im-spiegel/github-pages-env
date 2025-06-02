@@ -165,7 +165,7 @@ pageType = "photo"
 スタバで1時間ほど和んで，いい時間になったので帰宅しますかね。
 あちこち寄り道しながら帰宅。
 
-{{< fig-img src="./54557522506_1aa9462427_e.jpg" title="糖分補給中（スターバックス） | Flickr" link="https://www.flickr.com/photos/spiegel/54557522506/" >}}
+{{< fig-img src="./54557522506_1aa9462427_e.jpg" title="大橋川（縁結び大橋） | Flickr" link="https://www.flickr.com/photos/spiegel/54557522506/" >}}
 
 {{< fig-img src="./54557523746_2cd06b8c36_e.jpg" title="今日の宍道湖 | Flickr" link="https://www.flickr.com/photos/spiegel/54557523746/" >}}
 
