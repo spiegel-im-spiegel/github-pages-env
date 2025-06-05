@@ -1,11 +1,10 @@
 +++
 title = "「儒烏風亭らでんがご案内！ ピクセルミュージアム」発売"
-date =  "2025-06-05T08:32:04+09:00"
+date =  "2025-06-05T12:24:24+09:00"
 description = "Switch 2 発売？ なにそれおいしいの？"
 image = "/images/attention/kitten.jpg"
 tags = [ "games" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = true
