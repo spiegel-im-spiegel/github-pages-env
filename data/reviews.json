@@ -32035,5 +32035,56 @@
       false
     ],
     "Description": "大昔，出雲国風土記の勉強用に買った本。引っ越しのドサクサでなくなったので書い直した。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4296119605",
+      "Title": "数学の楽園 数独からトポロジー，圏論まで（別冊日経サイエンス266） (別冊日経サイエンス no. 266)",
+      "URL": "https://www.amazon.co.jp/dp/4296119605?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51J5gy9gikL._SL160_.jpg",
+        "Height": 160,
+        "Width": 120
+      },
+      "ProductType": "ムック",
+      "Creators": [
+        {
+          "Name": "日経サイエンス編集部",
+          "Role": "編集"
+        }
+      ],
+      "Publisher": "日経サイエンス",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4296119605"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784296119608"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4296119605"
+        }
+      ],
+      "PublicationDate": "2024-02-26",
+      "LastRelease": "2024-02-26",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-06-05",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "「\u003ca href=\"http://www.nikkei-science.com/page/magazine/0609/sudoku.html\"\u003e数独の科学\u003c/a\u003e」が収録されているというので衝動買い。反省はしない。"
   }
 ]
