@@ -32086,5 +32086,91 @@
       false
     ],
     "Description": "「\u003ca href=\"http://www.nikkei-science.com/page/magazine/0609/sudoku.html\"\u003e数独の科学\u003c/a\u003e」が収録されているというので衝動買い。反省はしない。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07FMQBL7J",
+      "Title": "栄光の男",
+      "URL": "https://www.amazon.co.jp/dp/B07FMQBL7J?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51nURhgJAIL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "サザンオールスターズ",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "TAISHITA",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07FMQBL7J"
+        }
+      ],
+      "PublicationDate": "2013-08-07",
+      "LastRelease": "2018-08-06",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-06-03",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "かつて「ミスター・ジャイアンツ」と呼ばれた男が亡くなって，この曲を思い出した。 mora で \u003ca href=\"https://mora.jp/package/43000005/VICL-37600/\"\u003eAAC エンコード版\u003c/a\u003eが買える。当時買った CD は引越し時に処分してしまったので，デジタル版を買い直した。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0F5474SPX",
+      "Title": "GREATEST",
+      "URL": "https://www.amazon.co.jp/dp/B0F5474SPX?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/519aYJUs6XL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "音乃瀬奏",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "cover corp.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0F5474SPX"
+        }
+      ],
+      "PublicationDate": "2025-04-21",
+      "LastRelease": "2025-04-21",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-06-02",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "\u003ca href=\"https://www.youtube.com/@hololiveDEV_IS\"\u003eReGLOSS\u003c/a\u003e の歌柱，\u003ca href=\"https://www.youtube.com/@OtonoseKanade\"\u003e音乃瀬奏\u003c/a\u003eのファーストシングル。 mora で\u003ca href=\"https://mora.jp/package/43000066/CVRD-561H/\"\u003e高解像度版\u003c/a\u003eが買える。可愛くて華やかな曲。"
   }
 ]
