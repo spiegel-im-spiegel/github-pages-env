@@ -62,6 +62,10 @@ AI 技術を VRM の道具として使える 4th party が現れれば「サー�
 
 ## ブックマーク
 
+- [オンライン上のゲートキーピングの歴史(1) : HUSCAP](https://eprints.lib.hokudai.ac.jp/dspace/handle/2115/43642)
+- [オンライン上のゲートキーピングの歴史（2） : HUSCAP](https://eprints.lib.hokudai.ac.jp/dspace/handle/2115/43777)
+- [オンライン上のゲートキーピングの歴史（3・完） : HUSCAP](https://eprints.lib.hokudai.ac.jp/dspace/handle/2115/44330)
+
 - [Generative AI は Copyright-Safe か？]({{< ref "/remark/2023/06/is-generative-ai-copyright-safe.md" >}})
 
 ## 参考図書
