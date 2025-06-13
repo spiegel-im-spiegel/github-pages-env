@@ -37,5 +37,5 @@ pageType = "photo"
 
 {{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
 {{% review-paapi "B0BQDD5J4H" %}} <!-- 君と世界の終わりに; 世界の終わりに柴犬と #せかしば -->
-{{% review-paapi "B07CMW3LJL" %}} <!-- Ridsing Hope 魔法科高校の劣等生 -->
+{{% review-paapi "B07CMW3LJL" %}} <!-- Rising Hope 魔法科高校の劣等生 -->
 {{% review-paapi "B0CG59GTZV" %}} <!-- ヘブンバーンズレッド Tシャツ おタマさん -->
