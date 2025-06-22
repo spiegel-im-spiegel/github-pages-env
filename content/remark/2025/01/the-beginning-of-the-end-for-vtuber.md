@@ -33,7 +33,7 @@ pageType = "text"
 
 というわけで「[諸星めぐる]」が編集長となって民俗学的なアプローチを執る「[雑誌Hukyu](https://note.com/moroboshi_meguru/n/n042a4fe72e2a "【今冬創刊】VTuberを続ぐ、民俗学で継ぐ。バーチャル文化普及史『Hukyu』　序文公開！【書店員VTuber諸星めぐる】｜書店員VTuber 諸星めぐる")」には少し期待している。
 
-{{< fig-youtube id="sPlbKt_OcXU" title="【雑誌Hukyu】公式CM　民俗学×ヴァーチャル文化の雜誌、VTuberが出します【VTuber #諸星めぐる】 - YouTube" >}}
+{{< fig-youtube id="nUfwfHFv5a4" title="【告知アリ！】雑誌Hukyuが正式予約受付開始したよ！！【#雑誌Hukyu/ #諸星めぐる 】 - YouTube" >}}
 
 田舎住まいの私でも買えるかなぁ...
 
@@ -66,7 +66,7 @@ SNSやプラットフォーム別に見るとYouTubeを利用している若者�
 [2025年業界予想]: https://www.youtube.com/watch?v=nph09OviDvI "【#かなたま業界予想】Vtuber2025年業界予想＆2024年表批評👨‍🏫【犬山たまき/かなえ先生】 - YouTube"
 [VTuber学]: https://www.amazon.co.jp/dp/B0DBZ3QP7J?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon.co.jp: VTuber学 eBook : 岡本 健, 山野 弘樹, 吉川 慧: Kindleストア"
 [VTuberの哲学]: https://www.amazon.co.jp/dp/B0D1V1WXRH?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon.co.jp: VTuberの哲学 電子書籍: 山野 弘樹: Kindleストア"
-[諸星めぐる]: (https://www.youtube.com/@%E8%AB%B8%E6%98%9F%E3%82%81%E3%81%90%E3%82%8B "諸星めぐる Megu.ch【書店員VTuber】 - YouTube"
+[諸星めぐる]: https://www.youtube.com/@%E8%AB%B8%E6%98%9F%E3%82%81%E3%81%90%E3%82%8B "諸星めぐる Megu.ch【書店員VTuber】 - YouTube"
 
 ## 参考文献
 

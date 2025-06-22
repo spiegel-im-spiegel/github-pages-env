@@ -32387,5 +32387,111 @@
       false
     ],
     "Description": "\u003ca href=\"https://www.youtube.com/@hololiveDEV_IS\"\u003eReGLOSS\u003c/a\u003e のダンス番長，\u003ca href=\"https://www.youtube.com/@TodorokiHajime\"\u003e轟はじめ\u003c/a\u003eの \u003ca href=\"https://www.youtube.com/watch?v=bjPYXtxhm0I\"\u003e3D ライブ\u003c/a\u003eを観て購入。 mora で\u003ca href=\"https://mora.jp/package/43000066/CVRD-582H/\"\u003e高解像度版\u003c/a\u003eが買える。\n"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0B5CJ8N6Q",
+      "Title": "クリスティ・ハイテンション2 (マンガの金字塔)",
+      "URL": "https://www.amazon.co.jp/dp/B0B5CJ8N6Q?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51udENBUFBL._SL160_.jpg",
+        "Height": 160,
+        "Width": 110
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "新谷 かおる",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "グループ・ゼロ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0B5CJ8N6Q"
+        }
+      ],
+      "PublicationDate": "2022-07-01",
+      "LastRelease": "2022-07-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-05-25",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "シャーロック・ホームズの姪っ子が大活躍！ というお話。推理物として読むとアレだが，かなり面白かった。21世紀に入ってからの新谷かおるさんの作品では一番好きかも。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4779306612",
+      "Title": "ソーシャルメディア・スタディーズ",
+      "URL": "https://www.amazon.co.jp/dp/4779306612?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41gmB2fCkQS._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "単行本",
+      "Creators": [
+        {
+          "Name": "松井広志",
+          "Role": "著"
+        },
+        {
+          "Name": "岡本健",
+          "Role": "著"
+        },
+        {
+          "Name": "松井広志",
+          "Role": "編集"
+        },
+        {
+          "Name": "岡本健",
+          "Role": "編集"
+        }
+      ],
+      "Publisher": "北樹出版",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4779306612"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784779306617"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4779306612"
+        }
+      ],
+      "PublicationDate": "2021-05-20",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-06-22",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "あとで読む。 Kindle で出ないかなぁ..."
   }
 ]
