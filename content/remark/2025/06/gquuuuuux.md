@@ -21,7 +21,7 @@ pageType = "text"
 正しく「[お祭り](https://www.amazon.co.jp/gp/video/detail/B0CY9RNB6S/?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon.co.jp: 機動戦士Gundam GQuuuuuuX（ジークアクス）を観る | Prime Video")」だったな。
 12話で予定調和って感じ。
 ハレの日は終わった。
-ご苦労さまでした。
+お疲れ様でした。
 
 遅まきながらスキマ時間でチマチマ見て，最後の櫓（＝イオマグヌッソ）を囲んだ盆踊りにはどうにか間に合ったって感じ（笑）
 
