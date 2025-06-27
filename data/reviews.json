@@ -32493,5 +32493,91 @@
       false
     ],
     "Description": "あとで読む。 Kindle で出ないかなぁ..."
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DSKH9X6B",
+      "Title": "Plazma",
+      "URL": "https://www.amazon.co.jp/dp/B0DSKH9X6B?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51pbJcndCEL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "米津玄師",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Sony Music Labels Inc.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DSKH9X6B"
+        }
+      ],
+      "PublicationDate": "2036-01-01",
+      "LastRelease": "2025-01-20",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-06-26",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "テレビアニメ版 GQuuuuuuX のOP曲。これは買うまいと思ってたのに最終話を見て結局買ってしまった。 mora で\u003ca href=\"https://mora.jp/package/43000100/SEXX02769B00Z_48/\"\u003e高解像度版\u003c/a\u003eが買える。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0F4WQYFH8",
+      "Title": "水槽の街から (I_006_lyric)",
+      "URL": "https://www.amazon.co.jp/dp/B0F4WQYFH8?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51xUzL0VsQL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "照井順政",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "SUNRISE Music Label",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0F4WQYFH8"
+        }
+      ],
+      "PublicationDate": "2025-05-08",
+      "LastRelease": "2025-05-08",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2024-06-26",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "テレビアニメ版 GQuuuuuuX 最終話のED曲。"
   }
 ]
