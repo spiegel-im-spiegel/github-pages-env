@@ -73,6 +73,7 @@ pageType = "text"
 
 ## ブックマーク
 
+- [ゼノサーガ - YouTube](http://www.youtube.com/playlist?list=PL1d2KuGf9SKb8zbA663zAeIir_kgMi0TY) : ゲーム実況 再生リスト
 - [【民俗学 /考察】誰のための「悪役」か？悪役令嬢の民俗学！【VTuber/ #諸星めぐる 】 - YouTube](https://www.youtube.com/watch?v=A4nZkHk87M8)
 
 ## 参考
