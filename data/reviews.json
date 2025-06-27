@@ -32579,5 +32579,56 @@
       false
     ],
     "Description": "テレビアニメ版 GQuuuuuuX 最終話のED曲。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B003TQQULU",
+      "Title": "「ハートキャッチプリキュア!」後期新EDテーマ/「Tomorrow Song 〜あしたのうた」(DVD付)",
+      "URL": "https://www.amazon.co.jp/dp/B003TQQULU?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/611ORG03WXL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "CD",
+      "Creators": [
+        {
+          "Name": "工藤真由",
+          "Role": "アーティスト"
+        },
+        {
+          "Name": "池田彩\u0026工藤真由",
+          "Role": "アーティスト"
+        }
+      ],
+      "Publisher": "Marvelous Entertainment Inc.LDC(PLC)(M)",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B003TQQULU"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4535506230898"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2010-09-08",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2010-10-23",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "アニメ「ハートキャッチプリキュア！」36話挿入歌「HEART GOES ON」を含むアルバム。 mora で \u003ca\u003eAAC 版\u003c/a\u003eが買える。くどまゆはよい！"
   }
 ]

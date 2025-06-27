@@ -36,6 +36,8 @@ pageType = "text"
 
 だから，最初に劇場版で往年のガノタが騒ぎ出した時点で，私の中の前評価はマイナス70点くらいだったのよ。
 当時のガノタはウザかったし（今もか）。
+なお，劇場版は見てない。
+アマプラでも配信してないみたいだし。
 
 ## GQuuuuuuX は乙女ゲームか
 
@@ -81,4 +83,5 @@ pageType = "text"
 {{% review-paapi "B0F3X8PYJX" %}} <!-- もうどうなってもいいや 星街すいせい ガンダム GQuuuuuuX -->
 {{% review-paapi "B0DSKH9X6B" %}} <!-- Plazma 米津玄師 ガンダム GQuuuuuuX -->
 {{% review-paapi "B0F4WQYFH8" %}} <!-- 水槽の街から ガンダム GQuuuuuuX -->
+{{% review-paapi "B003TQQULU" %}} <!-- HEART GOES ON ハートキャッチプリキュア！ ハトプリ -->
 {{% review-paapi "4758012210" %}} <!-- 馬越嘉彦 ハートキャッチプリキュア おジャ魔女どれみ マリー&ガリー -->
