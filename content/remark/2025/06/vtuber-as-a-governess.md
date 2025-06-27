@@ -109,6 +109,7 @@ VTuber の歴史に必ず登場する「[キズナアイ]」とか（名前し�
 - [【🌟 #野辺山まどかコラボ】国立天文台 野辺山宇宙電波観測所ってどんなところ？📡所長に聞いてみよう！【星見まどか】 - YouTube](https://www.youtube.com/watch?v=ZUoSbRRCyvM)
 - {{< pdf-file title="＜実践報告＞ バーチャルサイエンスコミュニケータとして生きるーVTuber × サイエンスコミュニケーションの可能性ー Life as a Virtual Science Communicator: Possibilities of VTuber × Science Communication" link="https://www.u-elsi.org/pdf/Journal002_Kitashirakawa.pdf" >}}
 - [【#雑誌Hukyu】VTuber×民俗学の雑誌「Hukyu」が6月30日に発売決定！【#諸星めぐる】｜書店員VTuber 諸星めぐる](https://note.com/moroboshi_meguru/n/n7e0b5d26b086)
+- [講演会でYagooが語ったこれからのホロライブ、VTuberの未来【ゆっくり解説 / スタンフォード大学】 - YouTube](https://www.youtube.com/watch?v=PvOrAubG3Gw)
 
 - [補集合としての VTuber（『VTuber学』を読み始める）]({{< ref "/remark/2024/09/a-study-in-vtuber.md" >}})
 - [「空」としての VTuber（まだ『VTuber学』を読んでる途中）]({{< ref "/remark/2024/10/vtuber-as-sunya.md" >}})

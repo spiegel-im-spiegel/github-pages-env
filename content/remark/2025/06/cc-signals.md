@@ -58,7 +58,10 @@ Ideas, facts, and other building blocks of knowledge cannot be owned. Expanding 
 今後の動向に注目したい。
 あと [GitHub リポジトリ](https://github.com/creativecommons/cc-signals "creativecommons/cc-signals: CC signals is a framework for a simple pact between those stewarding data, and those reusing it for AI development. CC signals provide a set of shared ground rules for an AI ecosystem that is mutually beneficial.")上で議論がされているみたいなので，興味のある方はどうぞ。
 
+## ブックマーク
+
+- [クリエイティブ・コモンズ、AIの健全な発展目指し「CC Signals」提案 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2506/27/news056.html)
+
 [Creative Commons]: https://creativecommons.org/ "Creative Commons"
 [CC Licenses]: https://creativecommons.org/share-your-work/cclicenses/ "About CC Licenses - Creative Commons"
 [CC Signals]: https://creativecommons.org/ai-and-the-commons/cc-signals/ "CC Signals: A New Social Contract for the Age of AI - Creative Commons"
-<!-- eof -->
