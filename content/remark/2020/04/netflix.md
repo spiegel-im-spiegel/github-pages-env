@@ -3,7 +3,7 @@ title = "「はめふら」観るために Hulu 解約してしまった..."
 date =  "2020-04-05T12:19:05+09:00"
 description = "この機会に Hulu から Netflix に乗り換えることにした。 両方課金し続ける財力はないからね。"
 image = "/images/attention/kitten.jpg"
-tags = [ "media", "anime" ]
+tags = [ "media", "anime", "entertainment" ]
 pageType = "text"
 
 [scripts]

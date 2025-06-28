@@ -3,7 +3,7 @@ date = "2016-07-23T09:57:54+09:00"
 update = "2016-07-25T18:59:27+09:00"
 description = "日常社会で「してはいけない」ことや「するべきでない」ことはゲームでもしないこと"
 draft = false
-tags = ["games", "ingress", "pokemon", "security", "privacy"]
+tags = ["games", "ingress", "pokemon", "security", "privacy", "entertainment"]
 title = "Pokémon GO 始めました"
 
 [scripts]

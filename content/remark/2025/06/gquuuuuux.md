@@ -3,7 +3,7 @@ title = "「機動戦士 Gundam GQuuuuuuX」を誤読する"
 date =  "2025-06-27T18:59:51+09:00"
 description = "たぶんネタバレを含むので閲覧注意"
 image = "/images/attention/kitten.jpg"
-tags = [ "anime" ]
+tags = [ "anime", "entertainment" ]
 pageType = "text"
 
 [scripts]

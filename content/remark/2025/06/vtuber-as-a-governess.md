@@ -3,7 +3,7 @@ title = "ガヴァネスとしての VTuber 〜開けた扉をくぐらないこ
 date =  "2025-06-22T19:50:26+09:00"
 description = "京都大学「メディア文化学 (特殊講義)： VTuber文化から考える情報社会」の話題を起点として"
 image = "/images/attention/kitten.jpg"
-tags = [ "vtuber", "media" ]
+tags = [ "vtuber", "media", "entertainment" ]
 pageType = "text"
 
 [scripts]

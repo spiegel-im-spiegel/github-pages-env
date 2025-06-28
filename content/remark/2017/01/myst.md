@@ -2,22 +2,13 @@
 date = "2017-01-28T14:34:27+09:00"
 title = "ケータイで Myst ができる時代になるとは"
 draft = false
-tags = ["games"]
+tags = ["games", "entertainment"]
 description = "まだちょこっと触っただけだが，ゲームパッドなしでも問題ない。もうゲームにはまり込む歳でもないのでのんびりやろう。"
 
-[author]
-  twitter = "spiegel_2007"
-  instagram = "spiegel_2007"
-  tumblr = ""
-  flattr = ""
-  facebook = "spiegel.im.spiegel"
-  github = "spiegel-im-spiegel"
-  name = "Spiegel"
-  linkedin = "spiegelimspiegel"
-  flickr = "spiegel"
-  license = "by-sa"
-  avatar = "/images/avatar.jpg"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
+  jsx = false
 +++
 
 - [MystがAndroidに登場、Rivenもまもなく | TechCrunch Japan](https://techcrunch.com/2017/01/26/myst-arrives-on-android-riven-to-follow-soon/)

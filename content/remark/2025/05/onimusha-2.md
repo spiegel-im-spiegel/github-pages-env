@@ -3,7 +3,7 @@ title = "拝啓 松田優作様"
 date =  "2025-05-24T14:21:47+09:00"
 description = "Bluesky の自 TL を眺めてたら「鬼武者2」のリマスター版が発売されたことを知る。あー。クラクラする"
 image = "/images/attention/kitten.jpg"
-tags = [ "games" ]
+tags = [ "games", "entertainment" ]
 pageType = "text"
 
 [scripts]

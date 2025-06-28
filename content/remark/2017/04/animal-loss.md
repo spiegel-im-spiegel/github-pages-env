@@ -2,7 +2,7 @@
 title = "「けもフレ」ロス対策に「まおゆう」「少年メイド」を観てる"
 description = "「けもフレ」ロス対策に古いアニメを眺める日々。「少年メイド」とか「まおゆう」とか。"
 date = "2017-04-03T20:17:43+09:00"
-tags = ["anime", "book", "comic"]
+tags = ["anime", "book", "comic", "entertainment"]
 
 [scripts]
   mathjax = false

@@ -3,7 +3,7 @@ title = "今日の戯れ言 2024-11-17"
 date =  "2024-11-17T19:15:15+09:00"
 description = "Proverbs が面白い / 松江市のゴミ分別 / 祝日・休日と祭日は違う"
 image = "/images/attention/kitten.jpg"
-tags = [ "games", "matsue", "calendar" ]
+tags = [ "games", "entertainment", "matsue", "calendar" ]
 pageType = "text"
 
 [scripts]

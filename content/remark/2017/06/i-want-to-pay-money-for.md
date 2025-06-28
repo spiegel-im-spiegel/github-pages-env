@@ -2,7 +2,7 @@
 title = "お金を払いたくなるような..."
 date = "2017-06-09T19:05:53+09:00"
 description = "Google Play でやたら評価の高いゲームがあって，試しにやってみたら面白かったのだ。"
-tags = ["games", "market"]
+tags = ["games", "market", "entertainment"]
 
 [scripts]
   mathjax = false

@@ -3,7 +3,7 @@ title = "今日の戯れ言 2025-04-19"
 date =  "2025-04-19T22:31:49+09:00"
 description = "期日前投票キメてきた / アポカリプスぷす / 「卒業」できるのは幸せ"
 image = "/images/attention/kitten.jpg"
-tags = [ "osanpo-camera", "photography", "matsue", "bike", "anime", "comic", "book" ]
+tags = [ "osanpo-camera", "photography", "matsue", "bike", "anime", "comic", "book", "entertainment" ]
 pageType = "text"
 
 [scripts]

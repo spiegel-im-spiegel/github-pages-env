@@ -3,7 +3,7 @@ title = "パズルで2024年を振り返る"
 date =  "2025-01-05T12:17:50+09:00"
 description = "ルールは “Proverbs” と同じでマインスイーパ×ピクロスな感じ。無料で遊べる。"
 image = "/images/attention/kitten.jpg"
-tags = [ "games" ]
+tags = [ "games", "entertainment" ]
 pageType = "text"
 
 [scripts]

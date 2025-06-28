@@ -4,25 +4,12 @@ date =  "2018-01-11T17:58:50+09:00"
 update =  "2018-01-11T22:44:49+09:00"
 description = "お正月だし「双六で楽しく遊びました」ということにしよう（笑）"
 image = "/images/attention/remark.jpg"
-tags        = [ "golang", "games", "market" ]
-
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
+tags        = [ "golang", "games", "market", "entertainment" ]
 
 [scripts]
-  mathjax = true
+  mathjax = false
   mermaidjs = false
+  jsx = false
 +++
 
 Twitter で面白そうな遊びを見つけた。

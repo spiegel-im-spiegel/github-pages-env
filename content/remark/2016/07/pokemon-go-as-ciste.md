@@ -2,7 +2,7 @@
 title = "「シスト」としての Pokémon GO"
 date = "2016-07-24T08:07:58+09:00"
 description = "自分たちで「物語」をつくる。そういう遊び方もあるのですよ。でも子どもの頃はみんなそうやって遊んでたでしょ。"
-tags = ["games", "pokemon", "ingress"]
+tags = ["games", "pokemon", "ingress", "entertainment"]
 
 [scripts]
   mathjax = false

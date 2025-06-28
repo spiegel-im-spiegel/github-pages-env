@@ -1,24 +1,15 @@
 +++
-tags = ["anime"]
+tags = ["anime", "entertainment"]
 description = "最終話でいい歳したおぢさんが号泣したらどうしようと思ってたけど，なんか「大団円」って感じで泣くよりも嬉しくなっちゃった。"
 date = "2017-03-29T20:24:24+09:00"
 update = "2017-04-05T10:11:04+09:00"
 title = "アニメ「けものフレンズ」たーのしー！ ...かったよ"
 draft = false
 
-[author]
-  avatar = "/images/avatar.jpg"
-  linkedin = "spiegelimspiegel"
-  facebook = "spiegel.im.spiegel"
-  name = "Spiegel"
-  flattr = ""
-  flickr = "spiegel"
-  github = "spiegel-im-spiegel"
-  tumblr = ""
-  twitter = "spiegel_2007"
-  instagram = "spiegel_2007"
-  license = "by-sa"
-  url = "https://baldanders.info/profile/"
+[scripts]
+  mathjax = false
+  mermaidjs = false
+  jsx = false
 +++
 
 いやぁ衝撃の11話を観た後，ドキドキの1週間でしたよ。

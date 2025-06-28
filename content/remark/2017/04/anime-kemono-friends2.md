@@ -1,6 +1,6 @@
 +++
 title = "「けもフレ」ロスは続く。"
-tags = ["anime"]
+tags = ["anime", "entertainment"]
 description = "「けもフレ」最終話で泣けたシーン / Commons としての「けもフレ」 / 息抜きで作られた「12.1話」"
 date = "2017-04-03T20:18:14+09:00"
 

@@ -3,7 +3,7 @@ date = "2016-08-07T12:48:32+09:00"
 update = "2016-08-07T14:01:59+09:00"
 description = "「UNIX コマンドを SQL で抽出できるツール qq」が面白そう / Pokémon GO 最大の失敗は / Kindle Unlimited / その他の気になる記事"
 draft = false
-tags = ["tools", "golang", "games", "pokemon", "kindle", "e-book"]
+tags = ["tools", "golang", "games", "pokemon", "kindle", "e-book", "entertainment"]
 title = "週末スペシャル： 「UNIX コマンドを SQL で抽出できるツール qq」が面白そう"
 
 [author]

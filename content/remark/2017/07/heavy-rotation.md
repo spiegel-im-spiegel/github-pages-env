@@ -2,22 +2,13 @@
 title = "「けもフレ」をへびろてする，他"
 date =  "2017-07-03T17:27:34+09:00"
 description = "具体的には「数学ガールの秘密ノート」シリーズ最新刊を読みながらスマホ版の FF15 の状況をチェックし， BGV に「けもフレ」をへびろてしてる感じ。"
-tags        = [ "anime", "games" ]
+tags        = [ "anime", "games", "entertainment" ]
 draft = false
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
+[scripts]
+  mathjax = false
+  mermaidjs = false
+  jsx = false
 +++
 
 あぁ，1年が半分終わっちまったですよ。

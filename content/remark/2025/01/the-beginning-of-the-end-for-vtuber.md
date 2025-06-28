@@ -3,7 +3,7 @@ title = "“VTuber” の終わりの始まり？"
 date =  "2025-01-04T15:12:23+09:00"
 description = "タイトルは釣り"
 image = "/images/attention/kitten.jpg"
-tags = [ "media", "communication", "vtuber" ]
+tags = [ "media", "communication", "vtuber", "entertainment" ]
 pageType = "text"
 
 [scripts]

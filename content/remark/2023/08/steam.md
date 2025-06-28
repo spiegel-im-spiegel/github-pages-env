@@ -3,7 +3,7 @@ title = "Ubuntu に Steam を入れてみた"
 date =  "2023-08-10T21:57:16+09:00"
 description = "とりあえず「ドラゴンクエストXI」は動いてるっぽい"
 image = "/images/attention/kitten.jpg"
-tags = [ "ubuntu", "games" ]
+tags = [ "ubuntu", "games", "entertainment" ]
 pageType = "text"
 
 [scripts]
