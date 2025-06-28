@@ -32621,6 +32621,49 @@
       }
     },
     "Date": "2010-10-23",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "アニメ「ハートキャッチプリキュア！」36話挿入歌「HEART GOES ON」を含むアルバム。 mora で \u003ca href=\"https://mora.jp/package/43000108/4535506230904/\"\u003eAAC 版\u003c/a\u003eが買える。くどまゆはよい！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0FCLXD5MY",
+      "Title": "BEYOND THE TIME (メビウスの宇宙を越えて) -2025 Version-",
+      "URL": "https://www.amazon.co.jp/dp/B0FCLXD5MY?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51WwtOGFH6L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "TM NETWORK",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Sony Music Labels Inc.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0FCLXD5MY"
+        }
+      ],
+      "PublicationDate": "2025-06-19",
+      "LastRelease": "2025-06-19",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-06-23",
     "Rating": 4,
     "Star": [
       true,
@@ -32629,6 +32672,6 @@
       true,
       false
     ],
-    "Description": "アニメ「ハートキャッチプリキュア！」36話挿入歌「HEART GOES ON」を含むアルバム。 mora で \u003ca\u003eAAC 版\u003c/a\u003eが買える。くどまゆはよい！"
+    "Description": "テレビアニメ版 GQuuuuuuX の挿入歌としてかかっていた。2025年版なのか。ちょっとスローテンポ？ mora で\u003ca href=\"https://mora.jp/package/43000188/MHXX04641B00Z/\"\u003e高解像度版\u003c/a\u003eが買える。"
   }
 ]

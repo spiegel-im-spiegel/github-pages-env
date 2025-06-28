@@ -88,6 +88,7 @@ pageType = "text"
 ## 参考
 
 {{% review-paapi "B0F3X8PYJX" %}} <!-- もうどうなってもいいや 星街すいせい ガンダム GQuuuuuuX -->
+{{% review-paapi "B0FCLXD5MY" %}} <!-- BEYOND THE TIME TM NETWORK ガンダム GQuuuuuuX -->
 {{% review-paapi "B0DSKH9X6B" %}} <!-- Plazma 米津玄師 ガンダム GQuuuuuuX -->
 {{% review-paapi "B0F4WQYFH8" %}} <!-- 水槽の街から ガンダム GQuuuuuuX -->
 {{% review-paapi "B003TQQULU" %}} <!-- HEART GOES ON ハートキャッチプリキュア！ ハトプリ -->
