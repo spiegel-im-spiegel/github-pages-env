@@ -47,7 +47,7 @@ www.nao.ac.jp/astro/sky/<br>
 
 「えー？ 夏に遠日点を通過するのかよ。しかも冬至や夏至とズレてるし」って思わなかった？ 私は子どもの頃にそう思った（南半球は冬だけど）。
 
-実は冬至や夏至といった二十四節気は、地球の公転面に対する自転軸の傾きで決まる。
+実は冬至や夏至といった二十四節気は、地球の公転面（黄道）に対する自転軸の傾きで決まる。
 
 {{< fig-img-quote src="/remark/2025/02/setsubun/Celestial_sphere_in_Japanese.png" title="Explanation about a celestial sphere in Japanese" link="https://commons.wikimedia.org/wiki/File:Celestial_sphere(in_Japanese).png" lang="en" >}}
 
