@@ -26,7 +26,7 @@ pageType = "text"
 立春の場合は「太陽黄経が315度になる瞬間を含む日」である。
 これを踏まえて過去の「「太陽黄経が315度になる瞬間」をプロットしたのが以下の図だ。
 
-{{< fig-img-quote src="https://eco.mtk.nao.ac.jp/koyomi/topics/html/topics2021_2a.png" title="節分の日が動き出す - 国立天文台暦計算室" link="https://eco.mtk.nao.ac.jp/koyomi/topics/html/topics2021_2.html" width="1000" >}}
+{{< fig-img-quote src="./topics2021_2as.png" title="節分の日が動き出す - 国立天文台暦計算室" link="https://eco.mtk.nao.ac.jp/koyomi/topics/html/topics2021_2.html" >}}
 
 なんでこんなジグザグになっているかというと，グレゴリオ暦[^g1] の1年は「地球の公転周期とだいたい同じ」なだけで，実際の太陽の公転運動と紐づいているわけではないから。
 
@@ -49,7 +49,7 @@ pageType = "text"
 
 もちろんこれは立春だけじゃなくて太陽黄経が基準となる二十四節気全般に言える話で，たとえば秋分についても，2012年（1896年以来）に9月22日になって以降，9月22日になる年が増えていく。
 
-{{< fig-img-quote src="https://eco.mtk.nao.ac.jp/koyomi/topics/html/topics2012_2c.gif" title="秋分の日が動き出す - 国立天文台暦計算室" link="https://eco.mtk.nao.ac.jp/koyomi/topics/html/topics2012_2.html" width="1000" >}}
+{{< fig-img-quote src="./topics2012_2cs.png" title="秋分の日が動き出す - 国立天文台暦計算室" link="https://eco.mtk.nao.ac.jp/koyomi/topics/html/topics2012_2.html" >}}
 
 まぁ，簡単に言うと「騒ぐようなこっちゃない」ってことですよ（笑）
 
