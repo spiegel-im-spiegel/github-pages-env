@@ -1,11 +1,10 @@
 +++
 title = "2025-07-04 に地球が遠日点を通過する話"
-date =  "2025-06-30T18:58:06+09:00"
+date =  "2025-06-30T20:58:43+09:00"
 description = "二十四節気も閏年の関係で1〜2日程度の変動が起きるが，それどころじゃないねぇ。"
 image = "/images/attention/kitten.jpg"
 tags = [ "astronomy", "ephemeris" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = true
