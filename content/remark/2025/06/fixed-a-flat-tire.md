@@ -32,7 +32,9 @@ pageType = "text"
 
 {{< fig-img src="./54621037738_52db29f6e9_e.jpg" title="後輪のタイヤを交換した | Flickr" link="https://www.flickr.com/photos/spiegel/54621037738/" >}}
 
-今度のトレッドはセミスリックかな？
+{{< fig-img src="./54633345057_683fe36408_e.jpg" title="後輪のタイヤを交換した | Flickr" link="https://www.flickr.com/photos/spiegel/54633345057/" >}}
+
+[これ](https://www.schwalbe.com/en/Green-Marathon-11159400 "Green Marathon | 44-584 | GreenGuard | ADDIX Eco | Black+Reflex | WIRED | 2024 | Tube | 11159400")かな？
 
 適正タイヤ圧は $50\\,\mathrm{psi}$ から $80\\,\mathrm{psi}$ で今までのタイヤとほぼ同じ[^psi1]。
 自転車を買ったばかりの頃は $75\\,\mathrm{psi}$ で調整してたけど，私は歩道をよく走るので，これだと跳ねるのよ。
