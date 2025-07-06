@@ -32673,5 +32673,46 @@
       false
     ],
     "Description": "テレビアニメ版 GQuuuuuuX の挿入歌としてかかっていた。2025年版なのか。ちょっとスローテンポ？ mora で\u003ca href=\"https://mora.jp/package/43000188/MHXX04641B00Z/\"\u003e高解像度版\u003c/a\u003eが買える。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0D21G23LP",
+      "Title": "コカ・コーラ アクエリアス ラベルレス 2LPET×8本",
+      "URL": "https://www.amazon.co.jp/dp/B0D21G23LP?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41rXketk-zL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "食品\u0026飲料",
+      "Publisher": "コカ・コーラ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0D21G23LP"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4902102156110"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2024-05-13",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-07-05",
+    "Rating": 3,
+    "Star": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "Description": "サイクリング中に経口補水液が調達できない場合に自販機で買っている。糖質摂取も兼ねている。まぁ砂糖水だよな。常飲するもんじゃない（笑） でも夏場はただの水やお茶ではダメらしいので。"
   }
 ]
