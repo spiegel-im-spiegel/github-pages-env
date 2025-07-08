@@ -29,31 +29,31 @@ pageType = "text"
 これを使ったリファクタリングが広範に行われている印象。
 この辺は後で調べてみよう。
 
-## Go 1.24.4 の導入 【2025-06-06 更新】
+## Go 1.24.5 の導入 【2025-07-09 更新】
 
 {{< div-box type="markdown" >}}
-[Go] 1.24.4 がリリースされた。
+[Go] 1.24.5 がリリースされた。
 
-- [[security] Go 1.24.4 and Go 1.23.10 are released](https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A)
+- [[security] Go 1.24.5 and Go 1.23.11 are released](https://groups.google.com/g/golang-announce/c/gTNJnDXmn34)
 
-CVE ID ベースで3件の脆弱性修正がある（1.24.0 からの累積で6件）。
+CVE ID ベースで1件の脆弱性修正がある（1.24.0 からの累積で7件）。
 
 [Go]: https://go.dev/
 {{< /div-box >}}
 
-[Ubuntu] の APT で管理している [Go] コンパイラは古いので，[ダウンロードページ](https://go.dev/dl/ "Downloads - go.dev")からバイナリ（[`go1.24.4.linux-amd64.tar.gz`](https://go.dev/dl/go1.24.4.linux-amd64.tar.gz)）を取ってきてインストールすることを推奨する。
+[Ubuntu] の APT で管理している [Go] コンパイラは古いので，[ダウンロードページ](https://go.dev/dl/ "Downloads - go.dev")からバイナリ（[`go1.24.5.linux-amd64.tar.gz`](https://go.dev/dl/go1.24.5.linux-amd64.tar.gz)）を取ってきてインストールすることを推奨する。
 以下は完全手動での作業例。
 
 ```text
 $ cd /usr/local/src
-$ sudo curl -LO "https://go.dev/dl/go1.24.4.linux-amd64.tar.gz"
+$ sudo curl -LO "https://go.dev/dl/go1.24.5.linux-amd64.tar.gz"
 $ cd ..
 $ sudo unlink go # 以前の Go が入っている場合
-$ sudo tar xvf src/go1.24.4.linux-amd64.tar.gz
-$ sudo mv go go1.24.4
-$ sudo ln -s go1.24.4 go
+$ sudo tar xvf src/go1.24.5.linux-amd64.tar.gz
+$ sudo mv go go1.24.5
+$ sudo ln -s go1.24.5 go
 $ go version # /usr/local/go/bin にパスが通っている場合
-go version go1.24.4 linux/amd64
+go version go1.24.5 linux/amd64
 ```
 
 Windows はインストールパッケージを取ってきて直接インストールする。
@@ -62,10 +62,10 @@ Windows はインストールパッケージを取ってきて直接インスト
 複数バージョンの Go コンパイラを扱いたい場合は
 
 ```text
-$ go install golang.org/dl/24.4@latest
-$ go1.24.4 download
-$ go1.24.3 version
-go version go1.24.3 linux/amd64
+$ go install golang.org/dl/24.5@latest
+$ go1.24.5 download
+$ go1.24.5 version
+go version go1.24.5 linux/amd64
 ```
 
 てな感じに導入できる。
