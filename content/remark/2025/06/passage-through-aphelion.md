@@ -55,9 +55,9 @@ www.nao.ac.jp/astro/sky/<br>
 
 {{< fig-img-quote src="/remark/2025/06/passage-through-aphelion/A5B1A5D7A5E9A1BCA4CECBA1C2A7kepler1_2.png" title="暦Wiki/ケプラーの法則 - 国立天文台暦計算室" link="https://eco.mtk.nao.ac.jp/koyomi/wiki/A5B1A5D7A5E9A1BCA4CECBA1C2A7.html" >}}
 
-つまり（[ケプラーの法則](https://eco.mtk.nao.ac.jp/koyomi/wiki/A5B1A5D7A5E9A1BCA4CECBA1C2A7.html "暦Wiki/ケプラーの法則 - 国立天文台暦計算室")に基づき）地球の公転軌道を楕円と見立てたときに楕円の焦点にある太陽から最も近づいた瞬間が近日点であり、最も遠ざかった瞬間が遠日点となる。
+つまり（[ケプラーの法則](https://astro-dic.jp/keplers-laws/ "ケプラーの法則 - 天文学辞典")に基づき）地球の公転軌道を楕円と見立てたときに楕円の焦点にある太陽から最も近づいた瞬間が近日点であり、最も遠ざかった瞬間が遠日点となる。
 
-ちなみに，上の図のように軌道長半径を $a$ 軌道短半径を $b$ としたとき，離心率 $e$ は以下で表される[^e1]。
+ちなみに，上の図のように軌道長半径を $a$ 軌道短半径を $b$ としたとき（$a \geq b$），[離心率](https://astro-dic.jp/eccentricity/ "離心率 - 天文学辞典") $e$ は以下で表される[^e1]。
 
 {{< fig-math >}}
 $$
@@ -75,10 +75,11 @@ $$
 [^e4]: 有名なハレー彗星は76年周期で回帰するとされているが（次の近日点通過は2061年8月23日頃），離心率は $0.967786$ と見積もられている。2017年に発見された恒星間天体 ['Oumuamua](https://science.nasa.gov/solar-system/comets/oumuamua/ "'Oumuamua - NASA Science") は離心率が $1$ より大きい双曲線軌道である。
 
 太陽と地球だけを考えれば概ねこれで OK だけど，実際には地球の周りには月が周回している。
-なので地球-月の間の重心で考える必要がある[^o1]。
-これにより太陽-地球-月の位置関係により（地球から見た）近日点および遠日点の通過日が微妙に変わるらしい。
+なので地球-月の間の[重心](https://eco.mtk.nao.ac.jp/koyomi/wiki/BDC5BFB4.html "暦Wiki/重心 - 国立天文台暦計算室")で考える必要がある[^o1]。
+これにより太陽-地球-月の位置関係により（地球から見た）近日点および遠日点の通過日が微妙に変わるらしい[^o2]。
 
 [^o1]: 大きなタイムスケールで見れば太陽系の他の天体との相互作用も考慮する必要があるが，この記事では割愛する。
+[^o2]: 地球に対する月の質量比は $\mu = 0.0123000371$ で約 $1/81$ ほど。月への平均距離が約 $3.84 \times 10^5\\,\mathrm{km}$ で，これらから地球-月の共通重心を計算すると大雑把に（地球の重心から）$5,000\\,\mathrm{km}$ ほど離れた位置にあり（地心距離が約 $6,000\\,\mathrm{km}$ なので）地球内部に重心があることになる。余談だが，冥王星の衛星と言われるカロンは，冥王星との共通重心が冥王星の外側にあり，実際にはカロンは衛星ではなく，互いに重心を周回する連星とみなされている。
 
 {{< fig-img-quote src="/remark/2025/06/passage-through-aphelion/CFC7C0B12FB6E1C6FCC5C0C4CCB2E1C3CFB5E5B7EEBDC5BFB4.png" title="暦Wiki/惑星/近日点通過 - 国立天文台暦計算室" link="https://eco.mtk.nao.ac.jp/koyomi/wiki/CFC7C0B12FB6E1C6FCC5C0C4CCB2E1.html" >}}
 
