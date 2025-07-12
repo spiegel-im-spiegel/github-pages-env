@@ -32714,5 +32714,91 @@
       false
     ],
     "Description": "夏場のサイクリング中に経口補水液が調達できない場合に自販機で600mlサイズを買っている。糖質摂取を兼ねる。まぁ砂糖水だよな。常飲するもんじゃない（笑） でもただの水やお茶ではダメらしいので。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0FGXSM5LL",
+      "Title": "ミッドサマーシトラス",
+      "URL": "https://www.amazon.co.jp/dp/B0FGXSM5LL?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41hHLPG663L._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "ReGLOSS",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "cover corp.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0FGXSM5LL"
+        }
+      ],
+      "PublicationDate": "2025-07-11",
+      "LastRelease": "2025-07-11",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-07-12",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "青くんがおる！ \u003ca href=\"https://www.youtube.com/watch?v=MQr9XHYCm5A\"\u003eMV\u003c/a\u003e を見て衝動買い。 mora で\u003ca href=\"https://mora.jp/package/43000066/CVRD-594H/\"\u003e高解像度版\u003c/a\u003eが買える。夏の歌というか（あの頃の）夏を振り返る歌って感じだろうか。よき！"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B01H13QEAI",
+      "Title": "にぎやかな未来 (角川文庫)",
+      "URL": "https://www.amazon.co.jp/dp/B01H13QEAI?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/61m2Jg50BxL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "筒井 康隆",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "KADOKAWA",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B01H13QEAI"
+        }
+      ],
+      "PublicationDate": "2016-06-18",
+      "LastRelease": "2016-06-18",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-07-12",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "「\u003ca href=\"https://x.com/search?q=%23%E6%9B%B8%E5%BA%AB%E3%82%89%E3%81%A7%E3%82%93\u0026f=live\"\u003e書庫らでん\u003c/a\u003e」の\u003ca href=\"https://x.com/juufuuteiraden/status/1941842603990986896\"\u003e2025年7,8月の課題図書\u003c/a\u003eに上がってて懐かしくなり衝動買いした。「2016年」とあって悩んだが，どうも新版らしい。中身を見たら1972年発刊の文庫本と同じ内容っぽい。"
   }
 ]
