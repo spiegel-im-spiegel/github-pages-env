@@ -32800,5 +32800,48 @@
       false
     ],
     "Description": "「\u003ca href=\"https://x.com/search?q=%23%E6%9B%B8%E5%BA%AB%E3%82%89%E3%81%A7%E3%82%93\u0026f=live\"\u003e書庫らでん\u003c/a\u003e」の\u003ca href=\"https://x.com/juufuuteiraden/status/1941842603990986896\"\u003e2025年7,8月の課題図書\u003c/a\u003eに上がってて懐かしくなり衝動買いした。「2016年」とあって悩んだが，どうも新版らしい。中身を見たら1972年発刊の文庫本と同じ内容っぽい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0796QHR4K",
+      "Title": "Seiko Matsuda sweet days",
+      "URL": "https://www.amazon.co.jp/dp/B0796QHR4K?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/4127R23SueL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "松田聖子",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "Sony Music Direct (Japan) Inc.",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0796QHR4K"
+        }
+      ],
+      "PublicationDate": "2018-01-31",
+      "LastRelease": "2018-01-31",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-07-13",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "松田聖子さんのデビュー以来のシングル曲が計50曲収録されている。 mora で\u003ca href=\"https://mora.jp/package/43000100/MHXX02747B00Z_96/\"\u003e高解像度版\u003c/a\u003eが買える。個人的には「SWEET MEMORIES」がお気に入りでカラオケでも歌う（笑）"
   }
 ]
