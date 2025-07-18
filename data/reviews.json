@@ -32799,7 +32799,7 @@
       true,
       false
     ],
-    "Description": "「\u003ca href=\"https://x.com/search?q=%23%E6%9B%B8%E5%BA%AB%E3%82%89%E3%81%A7%E3%82%93\u0026f=live\"\u003e書庫らでん\u003c/a\u003e」の\u003ca href=\"https://x.com/juufuuteiraden/status/1941842603990986896\"\u003e2025年7,8月の課題図書\u003c/a\u003eに上がってて懐かしくなり衝動買いした。「2016年」とあって悩んだが，どうも新版らしい。中身を見たら1972年発刊の文庫本と同じ内容っぽい。"
+    "Description": "「\u003ca href=\"https://x.com/search?q=%23%E6%9B%B8%E5%BA%AB%E3%82%89%E3%81%A7%E3%82%93\u0026f=live\"\u003e書庫らでん\u003c/a\u003e」の\u003ca href=\"https://x.com/juufuuteiraden/status/1941842603990986896\"\u003e2025年7,8月の推薦図書\u003c/a\u003eに挙がってて懐かしくなり衝動買いした。「2016年」とあって悩んだが，どうも新版らしい。中身を見たら1972年発刊の文庫本と同じ内容っぽい。"
   },
   {
     "Book": {
@@ -32843,5 +32843,188 @@
       false
     ],
     "Description": "松田聖子さんのデビュー以来のシングル曲が計50曲収録されている。 mora で\u003ca href=\"https://mora.jp/package/43000100/MHXX02747B00Z_96/\"\u003e高解像度版\u003c/a\u003eが買える。個人的には「SWEET MEMORIES」がお気に入りでカラオケでも歌う（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09FDL8DN4",
+      "Title": "国宝下花道篇 (朝日文庫)",
+      "URL": "https://www.amazon.co.jp/dp/B09FDL8DN4?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51nFLuZy0zL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "吉田　修一",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "朝日新聞出版",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09FDL8DN4"
+        }
+      ],
+      "PublicationDate": "2021-09-07",
+      "LastRelease": "2021-09-07",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-07-18",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "「\u003ca href=\"https://x.com/search?q=%23%E6%9B%B8%E5%BA%AB%E3%82%89%E3%81%A7%E3%82%93\u0026f=live\"\u003e書庫らでん\u003c/a\u003e」の\u003ca href=\"https://x.com/juufuuteiraden/status/1941842603990986896\"\u003e2025年7,8月の推薦図書\u003c/a\u003e。映画「\u003ca href=\"https://kokuhou-movie.com/\"\u003e国宝\u003c/a\u003e」の原作作品らしい。松江では上映しない模様。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B09FDC3MVH",
+      "Title": "国宝上青春篇 (朝日文庫)",
+      "URL": "https://www.amazon.co.jp/dp/B09FDC3MVH?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/41Bq891JfrL._SL160_.jpg",
+        "Height": 160,
+        "Width": 113
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "吉田　修一",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "朝日新聞出版",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B09FDC3MVH"
+        }
+      ],
+      "PublicationDate": "2021-09-07",
+      "LastRelease": "2021-09-07",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-07-18",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "「\u003ca href=\"https://x.com/search?q=%23%E6%9B%B8%E5%BA%AB%E3%82%89%E3%81%A7%E3%82%93\u0026f=live\"\u003e書庫らでん\u003c/a\u003e」の\u003ca href=\"https://x.com/juufuuteiraden/status/1941842603990986896\"\u003e2025年7,8月の推薦図書\u003c/a\u003e。映画「\u003ca href=\"https://kokuhou-movie.com/\"\u003e国宝\u003c/a\u003e」の原作作品らしい。松江では上映しない模様。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0BR41KK33",
+      "Title": "ノックバック",
+      "URL": "https://www.amazon.co.jp/dp/B0BR41KK33?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/91db4zejvqL._SL160_.png",
+        "Height": 148,
+        "Width": 160
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "糸魚川鋼二",
+          "Role": "著"
+        }
+      ],
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0BR41KK33"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-07-18",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "「\u003ca href=\"https://x.com/search?q=%23%E6%9B%B8%E5%BA%AB%E3%82%89%E3%81%A7%E3%82%93\u0026f=live\"\u003e書庫らでん\u003c/a\u003e」の\u003ca href=\"https://x.com/juufuuteiraden/status/1941842603990986896\"\u003e2025年7,8月の推薦図書\u003c/a\u003e。全3巻。デジタル版のみの自己出版らしい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "4801986919",
+      "Title": "アポカリプスホテルぷすぷす (バンブーコミックス)",
+      "URL": "https://www.amazon.co.jp/dp/4801986919?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51m3OM5L+PL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "コミック",
+      "Creators": [
+        {
+          "Name": "竹本泉",
+          "Role": "著"
+        },
+        {
+          "Name": "ホテル銀河楼 管理部",
+          "Role": "企画・原案"
+        }
+      ],
+      "Publisher": "竹書房",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "4801986919"
+        },
+        {
+          "Name": "EAN",
+          "Value": "9784801986916"
+        },
+        {
+          "Name": "ISBN",
+          "Value": "4801986919"
+        }
+      ],
+      "PublicationDate": "2025-07-07",
+      "LastRelease": "2025-07-07",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-07-07",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "アニメ「アポカリプスホテル」のキャラクタ原案を担当した竹本泉さんによる公式コミカライズ？ でも内容はいつもの感じ。ちなみに電子版はカラーのあとがきが追加されている。両方買わないと。いやぁ，竹本泉さんが関わってホンマにアニメになったんだねぇ（笑）"
   }
 ]
