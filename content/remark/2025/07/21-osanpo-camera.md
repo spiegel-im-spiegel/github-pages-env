@@ -1,12 +1,11 @@
 +++
 title = "水族館で宍道湖の七珍を探す（お散歩カメラ 2025-07-21）"
-date =  "2025-07-21T17:26:39+09:00"
+date =  "2025-07-21T20:36:40+09:00"
 description = "三連休最終日は宍道湖自然館ゴビウスへ"
 image = "/remark/2025/07/21-osanpo-camera/54668303216_d004f5bee2_k.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "bike", "izumo", "museum" ]
 license = "by"
 pageType = "photo"
-draft = true
 
 [scripts]
   mathjax = false
