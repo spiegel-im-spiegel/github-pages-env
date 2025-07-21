@@ -3,7 +3,7 @@ title = "お散歩カメラ 2024-11-16"
 date =  "2024-11-17T16:45:44+09:00"
 description = "道の駅「秋鹿なぎさ公園」で昼食 / 島根県立宍道湖自然館ゴビウスへ行こう / ゴビウス & グリーンパーク / 帰りましょう"
 image = "/remark/2024/11/16-osanpo-camera/54143143108_76fb5d0f51_o.jpg"
-tags = [ "osanpo-camera", "photography", "matsue", "izumo", "bike" ]
+tags = [ "osanpo-camera", "photography", "matsue", "izumo", "bike", "museum" ]
 license = "by"
 pageType = "photo"
 

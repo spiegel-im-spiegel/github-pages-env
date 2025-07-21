@@ -33026,5 +33026,50 @@
       true
     ],
     "Description": "アニメ「アポカリプスホテル」のキャラクタ原案を担当した竹本泉さんによる公式コミカライズ？ でも内容はいつもの感じ。ちなみに電子版はカラーのあとがきが追加されている。両方買わないと。いやぁ，竹本泉さんが関わってホンマにアニメになったんだねぇ（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B08XVY3QCM",
+      "Title": "GAERUO ボディシェーバー 電動 メンズシェーバー 毛剃り 15°角度調整 ネット刃付き IPX7防水 ムダ毛処理 ドライ/泡剃り 脇 腕 背中 足 ビキニライン 敏感肌 全身 水洗い可 低騒音 USB充電式 ブラック リミットコーム付き プレゼント",
+      "URL": "https://www.amazon.co.jp/dp/B08XVY3QCM?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31DfbloJFQL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "ヘルスケア\u0026ケア用品",
+      "Publisher": "Douyear",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B08XVY3QCM"
+        },
+        {
+          "Name": "EAN",
+          "Value": "0727536555216"
+        },
+        {
+          "Name": "UPC",
+          "Value": "727536555216"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-04-08",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "色々毛深いので，夏になる前にムダ毛処理用に購入。バッテリ式。専用充電ケーブルが付属している。水洗いOK。スネ毛の処理ならドライでもOK。"
   }
 ]
