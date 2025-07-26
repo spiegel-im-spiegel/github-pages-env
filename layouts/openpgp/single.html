@@ -1,7 +1,7 @@
 {{ partial "top.html" . }}
 <head prefix="og: http://ogp.me/ns#">{{ $title := .Title | plainify }}{{ $secTitle := .Site.Data.section.openpgp.name | plainify }}{{ $siteTitle := .Site.Title | plainify }}{{ $desc := .Description | plainify | safeHTML }}
 {{ partial "header.html" . }}
-<title>{{ $title }} | {{ $siteTitle }}</title>
+<title>{{ $title }} [{{ $siteTitle }}]</title>
 <meta property="og:title" content="{{ $title }}">
 <meta name="description" content="{{ $desc }}">
 <meta property="og:description" content="{{ $desc }}">

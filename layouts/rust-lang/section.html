@@ -1,9 +1,9 @@
 {{ partial "top.html" . }}
 <head prefix="og: http://ogp.me/ns#">{{ $secTitle := .Site.Data.section.rustlang.name | plainify }}{{ $siteTitle := .Site.Title | plainify }}{{ $desc := .Site.Data.section.rustlang.description | plainify | safeHTML }}
 {{ partial "header.html" . }}{{ with .AlternativeOutputFormats.Get "RSS" }}
-<link rel="alternate" href="{{ .Permalink }}" type="application/rss+xml" title="{{ $secTitle }} | {{ $siteTitle }}">{{ end }}
+<link rel="alternate" href="{{ .Permalink }}" type="application/rss+xml" title="{{ $secTitle }} [{{ $siteTitle }}]">{{ end }}
 <link rel="canonical" href="{{ .Permalink }}">
-<title>{{ $secTitle }} | {{ $siteTitle }}</title>
+<title>{{ $secTitle }} [{{ $siteTitle }}]</title>
 <meta property="og:title" content="{{ $secTitle }}">
 <meta name="description" content="{{ $desc }}">
 <meta property="og:description" content="{{ $desc }}">
