@@ -80,5 +80,6 @@ VTuber の「[儒烏風亭らでん]」がナビゲータ役（監修もされ�
 ## 参考
 
 {{% review-paapi "4296119605" %}} <!-- 数学の楽園 「数独の科学」収録 -->
+{{% review-paapi "B0C9Z7KGRN" %}} <!-- はじめて学ぶ ビデオゲームの心理学 Kindle 版 -->
 
 {{< fig-youtube id="qRGsPDtiUK0" title="【祝ゲーム化】『ピクロス 儒烏風亭らでんがご案内！ピクセルミュージアム』発売記念配信！【儒烏風亭らでん #ReGLOSS 】 - YouTube" >}}

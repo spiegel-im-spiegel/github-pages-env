@@ -33071,5 +33071,89 @@
       false
     ],
     "Description": "色々毛深いので，夏になる前にムダ毛処理用に購入。バッテリ式。専用充電ケーブルが付属している。水洗いOK。スネ毛の処理ならドライでもOK。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0DZWWR4NM",
+      "Title": "ホロの花札 -Switch",
+      "URL": "https://www.amazon.co.jp/dp/B0DZWWR4NM?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51r1-WpdlPL._SL160_.jpg",
+        "Height": 160,
+        "Width": 98
+      },
+      "ProductType": "Video Game",
+      "Publisher": "ジェムドロップ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0DZWWR4NM"
+        },
+        {
+          "Name": "EAN",
+          "Value": "4570045990124"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2025-07-31",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-07-31",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "マルチプラットフォームに対応している。私は \u003ca href=\"https://store.steampowered.com/app/3758120/hololive_Holos_Hanafuda_Demo/\"\u003eSteam 版\u003c/a\u003eを購入した。ホロライブ VTuber がキャラクターとして登場する花札ゲーム。「こいこい」「花合わせ」「おいちょかぶ」で遊べる他，オリジナルルールの「ホロあわせ」が面白い。クロスプラットフォームでオンライン対戦できる。 Switch 用の特装版には本物のホロ花札が同梱されているらしい。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B07HH1K4PQ",
+      "Title": "じゃりン子チエ【新訂版】 ： 1 (アクションコミックス)",
+      "URL": "https://www.amazon.co.jp/dp/B07HH1K4PQ?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51KMxF7a3VL._SL160_.jpg",
+        "Height": 160,
+        "Width": 112
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "はるき悦巳",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "双葉社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B07HH1K4PQ"
+        }
+      ],
+      "PublicationDate": "2018-10-01",
+      "LastRelease": "2018-10-01",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-08-01",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "名作。新訂版が出てるのか。漫画もアニメもどっちも面白かった。関西圏ではアニメ再放送が繰り返し流れてたらしい。"
   }
 ]
