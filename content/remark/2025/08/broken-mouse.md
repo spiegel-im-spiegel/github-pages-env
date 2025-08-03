@@ -47,3 +47,4 @@ Ubuntu のアップグレードは関係なかったらしい。
 {{% review-paapi "B00G9NIL7G" %}} <!-- エレコム マウス Bluetooth -->
 {{% review-paapi "4295013498" %}} <!-- Linuxシステムの仕組み -->
 {{% review-paapi "B07MPK2F11" %}} <!-- クレイジーキャッツ・スーパー・デラックス -->
+{{% review-paapi "B0FKB9Y1GL" %}} <!-- 落噺 おとしばなし 儒烏風亭らでん -->
