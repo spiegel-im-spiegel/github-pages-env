@@ -1,12 +1,11 @@
 +++
 title = "宍道湖湖北自転車道（お散歩カメラ 2025-08-13）"
-date =  "2025-08-13T19:12:14+09:00"
+date =  "2025-08-13T20:07:39+09:00"
 description = "試しに宍道湖湖北自転車道を通って道の駅 秋鹿なぎさ公園まで行ってみることにした。"
 image = "/remark/2025/08/13-osanpo-camera/54717863394_a5fffc9984_k.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "bike" ]
 license = "by"
 pageType = "photo"
-draft = true
 
 [scripts]
   mathjax = false
