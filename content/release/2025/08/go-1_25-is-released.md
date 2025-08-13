@@ -1,11 +1,10 @@
 +++
 title = "Go 1.25 のリリース"
-date =  "2025-08-13T08:59:41+09:00"
+date =  "2025-08-13T10:46:18+09:00"
 description = "ついに encoding/json/v2 パッケージが実装された。ただし実験的実装"
 image = "/images/attention/go-logo_blue.png"
 tags  = [ "programming", "language", "golang", "ubuntu" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
