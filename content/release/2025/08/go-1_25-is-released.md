@@ -146,10 +146,10 @@ Windows はインストールパッケージを取ってきて直接インスト
 複数バージョンの Go コンパイラを扱いたい場合は
 
 ```text
-$ go install golang.org/dl/24.5@latest
-$ go1.24.5 download
-$ go1.24.5 version
-go version go1.24.5 linux/amd64
+$ go install golang.org/dl/25.0@latest
+$ go1.25.0 download
+$ go1.25.0 version
+go version go1.25.0 linux/amd64
 ```
 
 てな感じに導入できる。
