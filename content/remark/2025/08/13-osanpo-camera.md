@@ -62,5 +62,6 @@ pageType = "photo"
 ## 参考
 
 {{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
+{{% review-paapi "B0BD7FGVR6" %}} <!-- GARMIN EDGE Explore 2 サイクルコンピュータ -->
 {{% review-paapi "B0FGXSM5LL" %}} <!-- ミッドサマーシトラス ReGLOSS -->
 {{% review-paapi "B0FKB9Y1GL" %}} <!-- 落噺 おとしばなし 儒烏風亭らでん -->
