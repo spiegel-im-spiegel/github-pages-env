@@ -1,5 +1,5 @@
 +++
-title = "『にぎやかな未来』を読む（夏の読書感想文）"
+title = "『にぎやかな未来』を読む（夏の読書感想文1）"
 date =  "2025-07-18T19:28:28+09:00"
 description = "この記事はネタバレを含みます。あしからずご了承のほどを"
 image = "/images/attention/kitten.jpg"
@@ -95,6 +95,10 @@ SF で超能力ものというと異能力で無双する話が多いが，「�
 というわけで『[にぎやかな未来]』の感想でした。
 オチはない。
 これでこっぽし。
+
+## ブックマーク
+
+- [『Go言語で学ぶ並行プログラミング』は読んどけ（夏の読書感想文2）]({{< ref "/remark/2025/08/learn-concurrent-programming-with-go.md" >}})
 
 [にぎやかな未来]: https://www.amazon.co.jp/dp/B01H13QEAI?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon.co.jp: にぎやかな未来 (角川文庫) 電子書籍: 筒井 康隆: Kindleストア"
 
