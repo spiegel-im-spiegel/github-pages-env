@@ -73,6 +73,8 @@ If you must read the rest of this document to understand the behavior of your pr
 まぁ，あとから出た本のほうがよく出来てるのは当然なんだろうけど。
 斬新な内容というわけではないけど，並行プログラミングを書く際の基本を押さえた堅実な内容だと思う。
 
+以下は余談：
+
 とあるオンライン読書会の余談で出てきた話題なのだが「[食事する哲学者の問題](https://ja.wikipedia.org/wiki/%E9%A3%9F%E4%BA%8B%E3%81%99%E3%82%8B%E5%93%B2%E5%AD%A6%E8%80%85%E3%81%AE%E5%95%8F%E9%A1%8C "食事する哲学者の問題 - Wikipedia")（[dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem "Dining philosophers problem - Wikipedia")）」というのがあるそうな。
 
 簡単に言うとこんな感じに円卓に複数の哲学者がいて食事をするのだが
