@@ -47,7 +47,7 @@ pageType = "text"
 例えば，大量の軽量スレッドとチャネルを組み合わせたパイプライン・パターンを使った素数探索コードを紹介している。
 “[Go Playground](https://go.dev/play/ "Go Playground - The Go Programming Language")” でもサンプルコードとして “[Concurrent Prime Sieve](https://go.dev/play/p/iN6HCp_e91p)” が例示されているので見比べてみると面白いかもしれない[^cps1]。
 
-[^cps1]: パイプライン・パターンを使った素数探索は，残念ながら速くない。これは素数探索に使える最適化アルゴリズムが使えず，発見した素数の数だけフィルタ処理を行う goroutine が生成されてしまうため。 “[Concurrent Prime Sieve](https://go.dev/play/p/iN6HCp_e91p)” は `main()` 関数で指定した数だけ素数を探すのだが，たとえば100個の素数を探す場合は最大で100個の goroutine が生成され goroutine 間を繋ぐチャネルも同じ数だけ生成される。
+[^cps1]: パイプライン・パターンを使った素数探索は，残念ながら速くない。これは素数探索に使える最適化アルゴリズムが使えず，発見した素数の数だけフィルタ処理を行う goroutine が生成されてしまうため。 “[Concurrent Prime Sieve](https://go.dev/play/p/iN6HCp_e91p)” は `main()` 関数で指定した数だけ素数を探すのだが，たとえば100個の素数を探す場合は最大で100個の goroutine が生成され goroutine 間を繋ぐチャネルも同じ数だけ生成される。多数のスレッド（goroutine）を苦もなく生成・駆動・通信する例としては面白いと思うけどね。
 
 『[Go言語で学ぶ並行プログラミング]』には [Go] では今や一般的になった [`context`] パッケージについての言及がない[^ctx1]。
 その代わりもう少し簡単な quit チャネルを使ったパターンを紹介している。
