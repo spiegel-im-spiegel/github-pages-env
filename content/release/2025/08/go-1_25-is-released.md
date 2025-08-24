@@ -156,7 +156,7 @@ go version go1.25.0 linux/amd64
 
 ## ブックマーク
 
-（随時追加予定）
+- [Go1.25 New Features](https://zenn.dev/koya_iwamura/articles/ea2cf191cdcb2a)
 
 [Go]: https://go.dev/
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
