@@ -54,11 +54,11 @@ pageType = "text"
 その代わりもう少し簡単な quit チャネルを使ったパターンを紹介している。
 [Go] 以外の言語で考える場合や [`context`] パッケージがとっつきにくいと感じる人は9章で登場する quit チャネルを使ったパターンで考えるほうが分かりやすいかもしれない。
 
-[^ctx1]: [`context`] パッケージについては『[Go言語 100Tips]』の8章〜9章で触れられている。
+[^ctx1]: [`context`] パッケージについては『[Go言語 100Tips]』の8章〜9章で触れられている。また『[Go言語による並行処理]』の4.12節にも詳しい解説がある。
 
 「訳者あとがき」に書かれているが『[Go言語で学ぶ並行プログラミング]』にはメモリモデルについての言及がない。
 [Go] の場合は公式ドキュメントとして “[The Go Memory Model](https://go.dev/ref/mem "The Go Memory Model - The Go Programming Language")” が公開されているので，一度は目を通しておくとよいだろう。
-でもドキュメントの冒頭には
+でもドキュメントの冒頭に
 
 {{< fig-quote type="markdown" title="The Go Memory Model" link="https://go.dev/ref/mem" lang="en" >}}
 If you must read the rest of this document to understand the behavior of your program, you are being too clever.
@@ -72,11 +72,11 @@ If you must read the rest of this document to understand the behavior of your pr
 
 以前は[『Go 言語による並行処理』をお勧め]({{< ref "/remark/2018/11/concurrency-in-go.md" >}} "『Go 言語による並行処理』は Go 言語プログラマ必読書だろう")していたが，今なら断然『[Go言語で学ぶ並行プログラミング]』のほうをお勧めする（併せて読むとなおよし）。
 まぁ，あとから出た本のほうがよく出来てるのは当然なんだろうけど。
-斬新な内容というわけではないが，並行プログラミングを書く際の基本を押さえた堅実な内容だと思う。
+斬新というわけではないが，並行プログラミングを書く際の基本を押さえた堅実な内容だと思う。
 
 以下は余談：
 
-とあるオンライン読書会の余談で出てきた話題なのだが「[食事する哲学者の問題](https://ja.wikipedia.org/wiki/%E9%A3%9F%E4%BA%8B%E3%81%99%E3%82%8B%E5%93%B2%E5%AD%A6%E8%80%85%E3%81%AE%E5%95%8F%E9%A1%8C "食事する哲学者の問題 - Wikipedia")（[dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem "Dining philosophers problem - Wikipedia")）」というのがあるそうな。
+とあるオンライン読書会の雑談で出てきた話題なのだが「[食事する哲学者の問題](https://ja.wikipedia.org/wiki/%E9%A3%9F%E4%BA%8B%E3%81%99%E3%82%8B%E5%93%B2%E5%AD%A6%E8%80%85%E3%81%AE%E5%95%8F%E9%A1%8C "食事する哲学者の問題 - Wikipedia")（[dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem "Dining philosophers problem - Wikipedia")）」というのがあるそうな。
 
 簡単に言うとこんな感じに円卓に複数の哲学者がいて食事をするのだが
 
@@ -99,11 +99,12 @@ If you must read the rest of this document to understand the behavior of your pr
 [Go言語で学ぶ並行プログラミング]: https://book.impress.co.jp/books/1123101144 "Go言語で学ぶ並行プログラミング　他言語にも適用できる原則とベストプラクティス - インプレスブックス"
 [Go言語 100Tips]: https://book.impress.co.jp/books/1122101133 "Go言語 100Tips ありがちなミスを把握し、実装を最適化する - インプレスブックス"
 [柴田芳樹]: https://note.com/yoshiki_shibata "柴田 芳樹｜note"
+[Go言語による並行処理]: https://www.oreilly.co.jp/books/9784873118468/ "Go言語による並行処理 - O'Reilly Japan"
 [`context`]: https://pkg.go.dev/context "context package - context - Go Packages"
 
 ## 参考図書
 
 {{% review-paapi "B0DNYMMBBQ" %}} <!-- Go言語で学ぶ並行プログラミング -->
 {{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
-{{% review-paapi "B0CFL1DK8Q" %}} <!-- Go言語 100Tips -->
 {{% review-paapi "4873118468" %}} <!-- Go言語による並行処理 -->
+{{% review-paapi "B0CFL1DK8Q" %}} <!-- Go言語 100Tips -->
