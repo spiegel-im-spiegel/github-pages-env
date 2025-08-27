@@ -3,7 +3,7 @@ title = "AI とドーナツの穴"
 date =  "2025-03-28T21:03:07+09:00"
 description = "お腹空いた。ポン・デ・リング食べたい"
 image = "/images/attention/kitten.jpg"
-tags = [ "artificial-intelligence" ]
+tags = [ "artificial-intelligence", "games" ]
 pageType = "text"
 
 [scripts]

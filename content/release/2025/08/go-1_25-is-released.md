@@ -156,6 +156,8 @@ go version go1.25.0 linux/amd64
 
 ## ブックマーク
 
+- [Testing Time (and other asyncronicities) - The Go Programming Language](https://go.dev/blog/testing-time)
+
 - [Go1.25 New Features](https://zenn.dev/koya_iwamura/articles/ea2cf191cdcb2a)
 
 [Go]: https://go.dev/
