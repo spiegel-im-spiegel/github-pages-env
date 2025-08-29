@@ -98,7 +98,8 @@ SF で超能力ものというと異能力で無双する話が多いが，「�
 
 ## ブックマーク
 
-- [『Go言語で学ぶ並行プログラミング』は読んどけ（夏の読書感想文2）]({{< ref "/remark/2025/08/learn-concurrent-programming-with-go.md" >}})
+- [『Go言語で学ぶ並行プログラミング』は必読書である（夏の読書感想文2）]({{< ref "/remark/2025/08/learn-concurrent-programming-with-go.md" >}})
+- [数学は美しいか — 『数学ガール／リーマン予想』を読む（夏の読書感想文3）]({{< ref "/remark/2025/08/mathgirl-riemannsche-vermutung.md" >}})
 
 [にぎやかな未来]: https://www.amazon.co.jp/dp/B01H13QEAI?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon.co.jp: にぎやかな未来 (角川文庫) 電子書籍: 筒井 康隆: Kindleストア"
 

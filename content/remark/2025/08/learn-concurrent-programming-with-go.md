@@ -95,6 +95,9 @@ If you must read the rest of this document to understand the behavior of your pr
 - [条件変数とセマフォ（『Go言語で学ぶ並行プログラミング』読書会3回目）]({{< ref "/golang/learn-concurrent-programming-with-go-3.md" >}})
 - [『Go言語で学ぶ並行プログラミング』の練習問題より]({{< ref "/golang/learn-concurrent-programming-with-go-2x.md" >}})
 
+- [『にぎやかな未来』を読む（夏の読書感想文1）]({{< ref "/remark/2025/07/noisy-future.md" >}})
+- [数学は美しいか — 『数学ガール／リーマン予想』を読む（夏の読書感想文3）]({{< ref "/remark/2025/08/mathgirl-riemannsche-vermutung.md" >}})
+
 [Go]: https://go.dev/
 [Go言語で学ぶ並行プログラミング]: https://book.impress.co.jp/books/1123101144 "Go言語で学ぶ並行プログラミング　他言語にも適用できる原則とベストプラクティス - インプレスブックス"
 [Go言語 100Tips]: https://book.impress.co.jp/books/1122101133 "Go言語 100Tips ありがちなミスを把握し、実装を最適化する - インプレスブックス"

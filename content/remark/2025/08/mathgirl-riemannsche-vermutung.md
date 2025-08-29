@@ -109,6 +109,11 @@ IT 業界に入って最初の会社のボスには色々なことを教わっ�
 「人は皆 終わりと始まりの狭間」にいる。
 よい読書体験でした。
 
+## ブックマーク
+
+- [『にぎやかな未来』を読む（夏の読書感想文1）]({{< ref "/remark/2025/07/noisy-future.md" >}})
+- [『Go言語で学ぶ並行プログラミング』は必読書である（夏の読書感想文2）]({{< ref "/remark/2025/08/learn-concurrent-programming-with-go.md" >}})
+
 [数学ガール]: https://www.amazon.co.jp/dp/B00EYXMA9I?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "数学ガール | 結城 浩 | 数学 | Kindleストア | Amazon"
 [数学ガール／リーマン予想]: https://www.amazon.co.jp/dp/B0F625LQB8?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "数学ガール／リーマン予想　【電子特典付き】 | 結城 浩, たなか鮎子 | 数学 | Kindleストア | Amazon"
 [儒烏風亭らでん]: https://www.youtube.com/@JuufuuteiRaden "Raden Ch. 儒烏風亭らでん ‐ ReGLOSS - YouTube"
