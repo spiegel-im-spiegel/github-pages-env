@@ -31551,12 +31551,12 @@
     "Book": {
       "Type": "paapi",
       "ID": "B0F625LQB8",
-      "Title": "数学ガール／リーマン予想",
+      "Title": "数学ガール／リーマン予想　【電子特典付き】",
       "URL": "https://www.amazon.co.jp/dp/B0F625LQB8?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
       "Image": {
-        "URL": "https://m.media-amazon.com/images/I/41RzgcwtiSL._SL160_.jpg",
+        "URL": "https://m.media-amazon.com/images/I/51Yv6efwIvL._SL160_.jpg",
         "Height": 160,
-        "Width": 112
+        "Width": 110
       },
       "ProductType": "Kindle版",
       "Creators": [
@@ -31583,16 +31583,16 @@
         "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
       }
     },
-    "Date": "2025-05-03",
-    "Rating": 0,
+    "Date": "2025-08-29",
+    "Rating": 5,
     "Star": [
-      false,
-      false,
-      false,
-      false,
-      false
+      true,
+      true,
+      true,
+      true,
+      true
     ],
-    "Description": "2025年8月発売予定。とりあえず予約発注した。「堂々の完結へ」って書いてある。まじすか！"
+    "Description": "「数学ガール」シリーズ最終巻。甘酸っぺぇ！ 感想は\u003ca href=\"/remark/2025/08/mathgirl-riemannsche-vermutung/\"\u003eこちら\u003c/a\u003e。 Kindle 版はおまけのお話がついていてお得。"
   },
   {
     "Book": {
