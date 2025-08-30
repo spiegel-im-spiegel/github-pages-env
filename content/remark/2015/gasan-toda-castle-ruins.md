@@ -103,7 +103,7 @@ title = "オトナの社会科見学： 中秋の月山富田城跡"
 
 月山でひととおり遊んでたら15時になってた。
 昼飯食ってないよ。
-ちうわけで，[どじょう亭](http://www.y-engeikan.com/04_ryouri.html)へ。
+ちうわけで，どじょう亭へ。
 
 {{< fig-img src="https://photo.baldanders.info/flickr/image/21746465042_m.jpg" title="どぜう" link="https://photo.baldanders.info/flickr/21746465042/" >}}
 
