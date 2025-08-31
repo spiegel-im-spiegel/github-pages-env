@@ -96,4 +96,10 @@ CM で有名になったそうだが，実は勾配が5%〜6%くらいしかな�
 [江島大橋]: https://maps.app.goo.gl/5467Rz7MF8K5Ze9Q8 "江島大橋"
 [鹿島多久の湯]: https://www.takunoyu.jp/ "【公式サイト】「鹿島 多久の湯」サウナ完備の日帰り温泉"
 [木次乳業]: https://www.kisuki-milk.co.jp/ "木次乳業"
-<!-- eof -->
+
+## 参考
+
+{{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
+{{% review-paapi "B0BD7FGVR6" %}} <!-- GARMIN EDGE Explore 2 サイクルコンピュータ -->
+{{% review-paapi "B0FGXSM5LL" %}} <!-- ミッドサマーシトラス ReGLOSS -->
+{{% review-paapi "B0FKB9Y1GL" %}} <!-- 落噺 おとしばなし 儒烏風亭らでん -->
