@@ -37,6 +37,7 @@ draft = true
 現在流行りの AI でもそれは同じ。
 
 - [AIもメタクソ化の道を辿るのか、あるいは「普通の技術」に落ち着くか – WirelessWire News](https://wirelesswire.jp/2025/08/89012/)
+  - [「AIもメタクソ化の道を辿るのか、あるいは「普通の技術」に落ち着くか」のフォローアップ - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20250901/wirelsswire-followups)
 
 私の座右の銘のひとつが
 
