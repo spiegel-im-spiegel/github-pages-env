@@ -16,6 +16,7 @@ tags = [ "math", "tex", "mathjax", "javascript" ]
 2. [ちょこっと MathJax： 基本的な数式表現]({{< ref "/remark/2017/09/getting-started-mathjax-2.md" >}})
 3. [ちょこっと MathJax： インライン数式と別行立て数式]({{< ref "/remark/2017/10/getting-started-mathjax-3.md" >}})
 4. [ちょこっと MathJax 番外編： mathcomp パッケージの代替え]({{< ref "/remark/2017/12/mathcomp-in-mathjax.md" >}}) ← イマココ
+5. [ちょこっと MathJax 番外編： V4 へのアップグレード]({{< ref "/remark/2025/09/upgrade-mathjax-v4.md" >}})
 
 たとえば
 
@@ -101,4 +102,4 @@ MathJax = {
 
 ## 参考図書 {#books}
 
-{{% review-paapi "4297117126" %}} <!-- LaTeX2ε美文書作成入門 -->
+{{% review-paapi "4297138891" %}} <!-- ［改訂第9版］LaTeX美文書作成入門 -->

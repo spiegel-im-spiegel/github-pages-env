@@ -15,6 +15,7 @@ tags = [ "math", "tex", "mathjax", "javascript", "blog", "site" ]
 2. [ちょこっと MathJax： 基本的な数式表現]({{< ref "/remark/2017/09/getting-started-mathjax-2.md" >}})
 3. [ちょこっと MathJax： インライン数式と別行立て数式]({{< ref "/remark/2017/10/getting-started-mathjax-3.md" >}})
 4. [ちょこっと MathJax 番外編： mathcomp パッケージの代替え]({{< ref "/remark/2017/12/mathcomp-in-mathjax.md" >}})
+5. [ちょこっと MathJax 番外編： V4 へのアップグレード]({{< ref "/remark/2025/09/upgrade-mathjax-v4.md" >}})
 
 [MathJax] は Web ブラウザ上で数学論文等でも使える高品質な数式表現を行うための JavaScript パッケージで GitHub にリポジトリがある。
 
@@ -42,6 +43,12 @@ tags = [ "math", "tex", "mathjax", "javascript", "blog", "site" ]
 数式の書き方については[次回]以降に解説していく予定である。
 
 ## [MathJax] の組み込み {#install}
+
+{{< div-box type="markdown" >}}
+**【2025-09-01 追記】**
+MathJax v4 がリリースされている。
+v3 → v4 へのアップグレードについては[こちら]({{< ref "/remark/2025/09/upgrade-mathjax-v4.md" >}})を参照のこと。
+{{< /div-box>}}
 
 [MathJax] は v3 より完全に node.js ベースでの開発になった。
 したがってサーバ側に組み込むこともできる。
@@ -422,14 +429,17 @@ MathJax = {
 
 ## このサイトでの設定例 {#mysetting}
 
-以上を踏まえて，[本ブログ]における [MathJax] オプションの設定内容を以下に示す。
+以上を踏まえて，[本ブログ]における [MathJax] オプションの設定内容を以下に示す（2025-09-01 時点， v4 導入済み）。
 
 ```html
 <script>
 MathJax = {
+  loader: {
+    load: ['[tex]/ams', '[tex]/textcomp']
+  },
   tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']],
-	processEscapes: true,
+    packages: {'[+]': ['ams', 'textcomp']},
+    inlineMath: {'[+]': [['$', '$']]},
     tags: 'ams',
     macros: {
       ssqrt: ['\\sqrt{\\smash[b]{\\mathstrut #1}}', 1],
@@ -441,13 +451,15 @@ MathJax = {
     }
   },
   chtml: {
-    matchFontHeight: false,
     displayAlign: "left",
     displayIndent: "2em"
+  },
+  output: {
+    font: 'mathjax-stix2'
   }
 };
 </script>
-<script id="MathJax-script" async src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script defer src="//cdn.jsdelivr.net/npm/mathjax@4/tex-chtml-nofont.js"></script>
 ```
 
 これでようやく準備が整った。
@@ -470,4 +482,4 @@ MathJax = {
 
 ## 参考図書 {#books}
 
-{{% review-paapi "4297117126" %}} <!-- LaTeX2ε美文書作成入門 -->
+{{% review-paapi "4297138891" %}} <!-- ［改訂第9版］LaTeX美文書作成入門 -->
