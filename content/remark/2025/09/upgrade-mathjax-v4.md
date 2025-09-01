@@ -1,7 +1,7 @@
 +++
 title = "ちょこっと MathJax 番外編： V4 へのアップグレード"
 date =  "2025-09-01T17:55:24+09:00"
-description = "URL に注意 / 利用可能なフォントが増えた"
+description = "URL に注意 / 利用可能なフォントが増えた / MathJax 設定例"
 image = "/images/attention/kitten.jpg"
 tags = [ "math", "tex", "mathjax", "javascript" ]
 pageType = "text"
@@ -128,6 +128,41 @@ MathJax = {
 また複数のフォントを組み合わせることもできなさそうだ。
 
 [^e1]: “[Font Extensions](https://docs.mathjax.org/en/latest/output/fonts.html#font-extensions)” に Euler フォントの指定方法が書かれていたがサンプルのままでは上手く行かなかった。拡張用のフォントは自前で用意しろってことらしい。
+
+## MathJax 設定例
+
+設定例として，このブログサイトにおける設定を挙げておく（2025-09-01 時点）。
+
+```html
+<script>
+MathJax = {
+  loader: {
+    load: ['[tex]/ams', '[tex]/textcomp']
+  },
+  tex: {
+    packages: {'[+]': ['ams', 'textcomp']},
+    inlineMath: {'[+]': [['$', '$']]},
+    tags: 'ams',
+    macros: {
+      ssqrt: ['\\sqrt{\\smash[b]{\\mathstrut #1}}', 1],
+      tcdegree: ['\\unicode{xb0}'],
+      tccelsius: ['\\unicode{x2103}'],
+      tcperthousand: ['\\unicode{x2030}'],
+      tcmu: ['\\unicode{x3bc}'],
+      tcohm: ['\\unicode{x3a9}']
+    }
+  },
+  chtml: {
+    displayAlign: "left",
+    displayIndent: "2em"
+  },
+  output: {
+    font: 'mathjax-stix2'
+  }
+};
+</script>
+<script defer src="//cdn.jsdelivr.net/npm/mathjax@4/tex-chtml-nofont.js"></script>
+```
 
 [MathJax]: https://www.mathjax.org/
 [`autoload`]: https://docs.mathjax.org/en/latest/input/tex/extensions/autoload.html "autoload — MathJax 4.0 documentation"
