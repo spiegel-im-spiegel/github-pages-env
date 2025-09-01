@@ -41,7 +41,7 @@ tags = [ "math", "tex", "mathjax", "javascript" ]
 
 と表示させていたわけだ。
 しかし `\circ` ($\circ$) は角度を表す記号ではなく $+$ や $-$ と同じ2項演算子の記号である。
-そこで今は [mathcomp] パッケージの `\tcdegree` コマンドを使って
+そこで今は [`mathcomp`] パッケージの `\tcdegree` コマンドを使って
 
 ```html
 直角は $\pm90\tcdegree$。
@@ -49,7 +49,7 @@ tags = [ "math", "tex", "mathjax", "javascript" ]
 
 とするのが正しいそうだ[^ang1]。
 
-[^ang1]: 他の方法としては [siunitx] パッケージを使って `\ang{90}` のように記述する手がある。
+[^ang1]: 他の方法としては [`siunitx`] パッケージを使って `\ang{90}` のように記述する手がある。 [MathJax] 公式では [`siunitx`] をサポートしていないが，サードパーティ製のものがあるらしい。 [`units`] パッケージであれば [MathJax] 公式もサポートしている。
 
 ところが [MathJax] では `\tcdegree` コマンドを持っていないようで，上の記述ではエラーになる。
 [MathJax] の[機能拡張](https://docs.mathjax.org/en/latest/input/tex/extensions/ "The TeX/LaTeX Extension List — MathJax 3.0 documentation")でもそれらしいものは見当たらず，誰かが公開してるってわけでもないっぽい。
@@ -78,7 +78,7 @@ MathJax = {
 直角は $\pm90\tcdegree$。
 {{< /div-box >}}
 
-[mathcomp] パッケージで使える記号はかなりあるのだが，私がよく使いそうなもののみ以下に挙げる。
+[`mathcomp`] パッケージで使える記号はかなりあるのだが，私がよく使いそうなもののみ以下に挙げる。
 
 | Macros                                | $\mathrm{\LaTeX}$ Format       | Output                |
 |:------------------------------------- |:----------------------- |:--------------------- |
@@ -86,19 +86,64 @@ MathJax = {
 | `tccelsius: ['\\unicode{x2103}']`     | `$35\,\tccelsius$`      | $35\\,\tccelsius$      |
 | `tcperthousand: ['\\unicode{x2030}']` | `$35\,\tcperthousand$`  | $35\\,\tcperthousand$  |
 | `tcmu: ['\\unicode{x3bc}']`           | `$35\,\tcmu\mathrm{s}$` | $35\\,\tcmu\mathrm{s}$ |
-| `tcohm: ['\\unicode{x3a9}']`          | `$35\,\tcohm$`          | $35\\,\tcohm$          | 
+| `tcohm: ['\\unicode{x3a9}']`          | `$35\,\tcohm$`          | $35\\,\tcohm$          |
 
 - `\tccelsius` は `\tcdegree\mathrm{C}` でもいける（`$35\,\tcdegree\mathrm{C}$` →  $35\\,\tcdegree\mathrm{C}$）。これなら華氏にも応用できる（`$35\,\tcdegree\mathrm{F}$` →  $35\\,\tcdegree\mathrm{F}$）
 - `\tcmu` は `\symup{\mu}` みたいにしたいのだが `\symup` コマンドに相当するものが [MathJax] にないっぽい
 - `\tcohm` は `\Omega` と等価，というかフォントのバランスを考えると `\Omega` を使ったほうがいいと思う（`$35\,\Omega$` →  $35\\,\Omega$）
+
+## 【2025-09-01 追記】 textcomp パッケージを使う
+
+[MathJax] では [`mathcomp`] の代わりに [`textcomp`] パッケージが使えるらしい。
+コマンド名は [`mathcomp`] とは異なるので注意。
+
+| $\mathrm{\LaTeX}$ Format | Output |
+|:--- |:--- |
+| `$35\textdegree$`         | $35\textdegree$         |
+| `$35\,\textcelsius$`      | $35\\,\textcelsius$      |
+| `$35\,\textperthousand$`  | $35\\,\textperthousand$  |
+| `$35\,\textmu\mathrm{s}$` | $35\\,\textmu\mathrm{s}$ |
+| `$35\,\textohm$`          | $35\\,\textohm$          |
+
+[MathJax] で [`textcomp`] を有効にするには，以下のように設定する。
+
+```html
+<script>
+MathJax = {
+  loader: {load: ['[tex]/textcomp']},
+  tex: {packages: {'[+]': ['textcomp']}},
+  ...
+};
+</script>
+```
+
+[`textcomp`] は [MathJax] の数式モードで使える。
+テキストモード（`\text{ ... }`）で使う場合は [`textmacros`] と組み合わせて使う。
+
+```html
+<script>
+MathJax = {
+  loader: {load: ['[tex]/textcomp', '[tex]/textmacros']},
+  tex: {packages: {'[+]': ['textcomp', 'textmacros']}},
+  ...
+};
+</script>
+```
+
+[`textcomp`] で使えるシンボルは以下が参考になるだろう。
+
+- [textcomp: LaTeX パッケージ](http://xyoshiki.web.fc2.com/tex/textcomp.html)
 
 ## ブックマーク
 
 - [siunitx - TeX Wiki](https://texwiki.texjp.org/?siunitx)
 
 [MathJax]: https://www.mathjax.org/
-[mathcomp]: https://ctan.org/pkg/mathcomp "https://ctan.org/pkg/mathcomp"
-[siunitx]: https://ctan.org/pkg/siunitx "CTAN: Package siunitx"
+[`mathcomp`]: https://ctan.org/pkg/mathcomp "https://ctan.org/pkg/mathcomp"
+[`siunitx`]: https://ctan.org/pkg/siunitx "CTAN: Package siunitx"
+[`units`]: https://docs.mathjax.org/en/latest/input/tex/extensions/units.html "units — MathJax 4.0 documentation"
+[`textcomp`]: https://docs.mathjax.org/en/latest/input/tex/extensions/textcomp.html "textcomp — MathJax 4.0 documentation"
+[`textmacros`]: https://docs.mathjax.org/en/latest/input/tex/extensions/textmacros.html "textmacros — MathJax 4.0 documentation"
 
 ## 参考図書 {#books}
 
