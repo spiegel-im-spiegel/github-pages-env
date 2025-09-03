@@ -111,33 +111,33 @@ For historical reasons, the default behavior of v1 [`encoding/json`](https://pkg
 
 他にも様々な変更・改良がある。
 
-## Go 1.25.0 の導入
+## Go 1.25.1 の導入 【2025-09-04 更新】
 
-<!--
+
 {{< div-box type="markdown" >}}
-[Go] 1.25.0 がリリースされた。
+[Go] 1.25.1 がリリースされた。
 
-- [Go 1.25.0 is released](https://groups.google.com/g/golang-announce/c/BVrdugXW05c)
+- [[security] Go 1.25.1 and Go 1.24.7 are released](https://groups.google.com/g/golang-announce/c/PtW9VW21NPs)
 
-CVE ID ベースで0件の脆弱性修正がある（1.25.0 からの累積で0件）。
+CVE ID ベースで1件の脆弱性修正がある（1.25.0 からの累積で1件）。
 
 [Go]: https://go.dev/
 {{< /div-box >}}
--->
 
-[Ubuntu] の APT で管理している [Go] コンパイラは古いので，[ダウンロードページ](https://go.dev/dl/ "Downloads - go.dev")からバイナリ（[`go1.25.0.linux-amd64.tar.gz`](https://go.dev/dl/go1.25.0.linux-amd64.tar.gz)）を取ってきてインストールすることを推奨する。
+
+[Ubuntu] の APT で管理している [Go] コンパイラは古いので，[ダウンロードページ](https://go.dev/dl/ "Downloads - go.dev")からバイナリ（[`go1.25.1.linux-amd64.tar.gz`](https://go.dev/dl/go1.25.1.linux-amd64.tar.gz)）を取ってきてインストールすることを推奨する。
 以下は完全手動での作業例。
 
 ```text
 $ cd /usr/local/src
-$ sudo curl -LO "https://go.dev/dl/go1.25.0.linux-amd64.tar.gz"
+$ sudo curl -LO "https://go.dev/dl/go1.25.1.linux-amd64.tar.gz"
 $ cd ..
 $ sudo unlink go # 以前の Go が入っている場合
-$ sudo tar xvf src/go1.25.0.linux-amd64.tar.gz
-$ sudo mv go go1.25.0
-$ sudo ln -s go1.25.0 go
+$ sudo tar xvf src/go1.25.1.linux-amd64.tar.gz
+$ sudo mv go go1.25.1
+$ sudo ln -s go1.25.1 go
 $ go version # /usr/local/go/bin にパスが通っている場合
-go version go1.25.0 linux/amd64
+go version go1.25.1 linux/amd64
 ```
 
 Windows はインストールパッケージを取ってきて直接インストールする。
@@ -146,16 +146,17 @@ Windows はインストールパッケージを取ってきて直接インスト
 複数バージョンの Go コンパイラを扱いたい場合は
 
 ```text
-$ go install golang.org/dl/25.0@latest
-$ go1.25.0 download
-$ go1.25.0 version
-go version go1.25.0 linux/amd64
+$ go install golang.org/dl/25.1@latest
+$ go1.25.1 download
+$ go1.25.1 version
+go version go1.25.1 linux/amd64
 ```
 
 てな感じに導入できる。
 
 ## ブックマーク
 
+- [Container-aware GOMAXPROCS - The Go Programming Language](https://go.dev/blog/container-aware-gomaxprocs)
 - [Testing Time (and other asyncronicities) - The Go Programming Language](https://go.dev/blog/testing-time)
 
 - [Go1.25 New Features](https://zenn.dev/koya_iwamura/articles/ea2cf191cdcb2a)
