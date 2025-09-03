@@ -60,6 +60,8 @@ Ideas, facts, and other building blocks of knowledge cannot be owned. Expanding 
 
 ## ブックマーク
 
+- [AI and the Commons: A Reading List - Creative Commons](https://creativecommons.org/2025/09/03/ai-and-the-commons-a-reading-list/)
+
 - [クリエイティブ・コモンズ、AIの健全な発展目指し「CC Signals」提案 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2506/27/news056.html)
 - [クリエイティブ・コモンズがAI対応の「CC Signals」発表、AIトレーニングへどう再利用可能か・不可かをコンテンツ所有者が詳細に指定できるフレームワーク - GIGAZINE](https://gigazine.net/news/20250627-cc-signals-ai/)
 
