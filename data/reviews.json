@@ -33198,5 +33198,48 @@
       false
     ],
     "Description": "「おとしばなし」と読むらしい。語るように歌い，歌うように語る。「\u003ca href=\"https://www.youtube.com/@JuufuuteiRaden\"\u003e儒烏風亭らでん\u003c/a\u003e」らしい秀逸な作品。 mora で\u003ca href=\"https://mora.jp/package/43000066/CVRD-606H/\"\u003e高解像度版\u003c/a\u003eが買える。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0FLHS9P2M",
+      "Title": "月刊星ナビ　2025年10月号 [雑誌]",
+      "URL": "https://www.amazon.co.jp/dp/B0FLHS9P2M?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51Hnj0wo5PL._SL160_.jpg",
+        "Height": 160,
+        "Width": 121
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "星ナビ編集部",
+          "Role": "編集"
+        }
+      ],
+      "Publisher": "アストロアーツ",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0FLHS9P2M"
+        }
+      ],
+      "PublicationDate": "2025-09-05",
+      "LastRelease": "2025-09-05",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-09-08",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "特集記事は「天文系VTuber大集合」と「リモート天文台活用」。"
   }
 ]

@@ -98,3 +98,4 @@ YouTube 配信を見ながらでも楽しめるわけだ。
 {{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
 {{% review-paapi "4416723660" %}} <!-- 天文年鑑 2025年版 -->
 {{% review-paapi "4627275110" %}} <!-- 天体物理学 -->
+{{% review-paapi "B0FLHS9P2M" %}} <!-- 「月刊星ナビ」2025年10月号 -->
