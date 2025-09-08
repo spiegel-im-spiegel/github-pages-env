@@ -3,7 +3,7 @@ title = "円周率の日の皆既月食"
 date =  "2025-03-14T20:25:21+09:00"
 description = "正直「ヤラレタ」と思ったね。こんな見事な駄洒落に気が付かないとか orz"
 image = "/images/attention/kitten.jpg"
-tags = [ "astronomy", "math", "ephemeris" ]
+tags = [ "astronomy", "math", "ephemeris", "moon", "eclipse" ]
 pageType = "text"
 
 [scripts]
@@ -13,7 +13,7 @@ pageType = "text"
 +++
 
 今日 2025-03-14 は望（満月）で皆既月食があった。
-関東以東なら月の出直後に終わりかけの部分日食が見れたそうだが，残念ながら西日本ではギリギリ半影食が見れるかどうかのタイミングだった。
+関東以東なら月の出直後に終わりかけの部分月食が見れたそうだが，残念ながら西日本ではギリギリ半影食が見れるかどうかのタイミングだった。
 まぁ，半影食を肉眼で確認するのはほぼ無理だと思うけど。
 
 ありがたいことに YouTube の[すばる望遠鏡チャネル](https://www.youtube.com/@SubaruTelescopeNAOJ)で皆既月食ライブをやっておられた。
