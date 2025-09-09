@@ -15,6 +15,8 @@ pageType = "text"
 今年（2025年）2月から[社内テスト](https://gigazine.net/news/20250207-google-test-search-ai-mode/ "Googleが新しい検索「AIモード」のテストを開始、一体どんな検索機能になるのか？ - GIGAZINE")が始まり，5月に[米国で一般提供](https://news.mynavi.jp/article/20250521-3331682/ "Google、“AI検索”に本腰、「AI Mode」米国から一般提供開始 | マイナビニュース")が開始された Google AI モードだが，日本での提供も開始されたようだ。
 
 - [グーグル「AIモード」検索、日本でスタート 「検索は知性になる」 - Impress Watch](https://www.watch.impress.co.jp/docs/news/2045506.html)
+- [Google検索の「AIモード」、いよいよ日本でも開始  - PC Watch](https://pc.watch.impress.co.jp/docs/news/2045505.html)
+- [「Google 検索」の「AI モード」が日本語を含む5カ国語に対応、「単語で検索」ではなく「問いかけ」で - 窓の杜](https://forest.watch.impress.co.jp/docs/news/2045715.html)
 
 私の環境ではまだ使えないのだが
 
