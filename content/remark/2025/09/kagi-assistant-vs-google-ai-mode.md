@@ -1,11 +1,10 @@
 +++
 title = "Kagi Assistant と Google AI モード"
-date =  "2025-09-09T09:16:20+09:00"
+date =  "2025-09-09T19:50:39+09:00"
 description = "両者の違いについて AI に訊いてみた"
 image = "/images/attention/kitten.jpg"
 tags = [ "web", "search", "google", "kagi", "tools", "artificial-intelligence" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
