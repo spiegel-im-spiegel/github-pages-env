@@ -158,6 +158,7 @@ go version go1.25.1 linux/amd64
 
 - [Container-aware GOMAXPROCS - The Go Programming Language](https://go.dev/blog/container-aware-gomaxprocs)
 - [Testing Time (and other asyncronicities) - The Go Programming Language](https://go.dev/blog/testing-time)
+- [A new experimental Go API for JSON - The Go Programming Language](https://go.dev/blog/jsonv2-exp)
 
 - [Go1.25 New Features](https://zenn.dev/koya_iwamura/articles/ea2cf191cdcb2a)
 
