@@ -88,6 +88,8 @@ YouTube 配信を見ながらでも楽しめるわけだ。
 {{< fig-youtube id="rNnG1OcUM0c" title="（ライブ配信）2025-09-08皆既月食 中継 - YouTube" >}}
 {{< fig-youtube id="VnLnRXdDPfQ" title="【皆既月食2025】JAXAサテらいふが代わりに撮りました【寝てたあなたへ。】 - YouTube" >}}
 
+- [Eclipses and the Moon - NASA Science](https://science.nasa.gov/moon/eclipses/)
+
 - [2025年の主な暦象]({{< ref "/remark/2024/12/ephemeris-2025.md" >}})
 - [2026年の暦]({{< ref "/remark/2025/02/ephemeris-in-2026.md" >}})
 
