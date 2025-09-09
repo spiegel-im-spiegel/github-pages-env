@@ -3,7 +3,7 @@ title = "Web のコストは誰が支払うのか"
 date =  "2025-03-11T14:39:34+09:00"
 description = "改めて思うのだが Web 2.0 最大の罪はそのコストを安易に他者へ「転嫁」してしまったことだろう。"
 image = "/images/attention/kitten.jpg"
-tags = [ "google", "firefox", "search"  , "market", "media", "web", "security", "privacy", "risk" ]
+tags = [ "google", "firefox", "search", "kagi", "market", "media", "web", "security", "privacy", "risk" ]
 pageType = "text"
 
 [scripts]

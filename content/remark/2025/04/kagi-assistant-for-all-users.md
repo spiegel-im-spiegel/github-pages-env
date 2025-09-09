@@ -3,7 +3,7 @@ title = "Kagi Assistant が全ユーザに解放"
 date =  "2025-04-19T18:32:55+09:00"
 description = "この方法のいいところは検索結果と LLM による出力が明確に分離されている点だろう。"
 image = "/images/attention/kitten.jpg"
-tags = [ "web", "search", "tools", "artificial-intelligence" ]
+tags = [ "web", "kagi", "search", "tools", "artificial-intelligence" ]
 pageType = "text"
 
 [scripts]

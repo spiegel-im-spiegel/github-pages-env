@@ -3,7 +3,7 @@ title = "Kagi Search を試してみる 〜 検索サービスも有料の時代
 date =  "2024-06-07T21:26:58+09:00"
 description = "日本は現在，自国通貨の価値が相対的に低いので国外の有料サービスは微妙に勧め辛いのがネックではあるが，興味が湧いたのなら選択肢のひとつとしてどうぞ。"
 image = "/images/attention/kitten.jpg"
-tags = [ "web", "search", "tools" ]
+tags = [ "web", "kagi", "search", "tools" ]
 pageType = "text"
 
 [scripts]
