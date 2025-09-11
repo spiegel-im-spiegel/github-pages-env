@@ -62,6 +62,13 @@ Flickr を見るとぼちぼち写真が上がってる感じ。
 Flickr は日本語圏のユーザが少ないのがなー。
 CC Licenses で公開している人は更に少ない。
 
+Flickr 公式アカウントにも月食の写真が上がっていた。
+
+{{< fig-img-quote src="./54772758517_e25f796002_e.jpg" title="Views of the Blood Moon Lunar Eclipse | Flickr (PD)" link="https://www.flickr.com/photos/flickr/54772758517/" lang="en" >}}
+
+こちらはパブリックドメイン。
+ありがたや {{% emoji "ペコン" %}}
+
 今回おもしろいと思ったのは，月食のライブ中継とは別に雑談配信を見かけたことだ。
 特にこれは面白かった。
 
