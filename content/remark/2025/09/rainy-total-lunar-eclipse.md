@@ -96,6 +96,8 @@ YouTube 配信を見ながらでも楽しめるわけだ。
 {{< fig-youtube id="VnLnRXdDPfQ" title="【皆既月食2025】JAXAサテらいふが代わりに撮りました【寝てたあなたへ。】 - YouTube" >}}
 
 - [APOD: 2025 September 11 – The Umbra of Earth](https://apod.nasa.gov/apod/ap250911.html)
+- [国立天文台が撮影した2025年9月8日未明の皆既月食 | 国立天文台(NAOJ)](https://www.nao.ac.jp/news/blog/2025/20250911-lunar-eclipse.html)
+
 - [Eclipses and the Moon - NASA Science](https://science.nasa.gov/moon/eclipses/)
 - [月食とは | 国立天文台(NAOJ)](https://www.nao.ac.jp/astro/basic/lunar-eclipse.html)
 
