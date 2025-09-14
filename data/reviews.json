@@ -33241,5 +33241,48 @@
       false
     ],
     "Description": "特集記事は「天文系VTuber大集合」と「リモート天文台活用」。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0FNVV83KN",
+      "Title": "アワータイムイエロー",
+      "URL": "https://www.amazon.co.jp/dp/B0FNVV83KN?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51l3UVPYQzL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "ProductType": "MP3 ダウンロード",
+      "Creators": [
+        {
+          "Name": "ReGLOSS",
+          "Role": "メインアーティスト"
+        }
+      ],
+      "Publisher": "hololive RECORDS",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0FNVV83KN"
+        }
+      ],
+      "PublicationDate": "2025-09-14",
+      "LastRelease": "2025-09-14",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-09-14",
+    "Rating": 5,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Description": "\u003ca href=\"https://www.youtube.com/watch?v=TO4W5iUe4Jw\"\u003eMV\u003c/a\u003e がカッコよくて速攻で買った。 mora で\u003ca href=\"https://mora.jp/package/43000066/CVRD-624H/\"\u003e高解像度版\u003c/a\u003eが買える。秋のイメージらしいがノリのいい曲。"
   }
 ]
