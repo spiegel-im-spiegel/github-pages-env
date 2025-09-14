@@ -34,7 +34,7 @@ pageType = "text"
 {{< fig-img-quote src="/remark/2024/11/proverbs/the-dutch-proverbs.jpeg" title="Pieter Brueghel the Elder - The Dutch Proverbs - Google Art Project - ネーデルラントの諺 - Wikipedia (Public Domain)" link="https://commons.wikimedia.org/wiki/File:Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg#/media/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg" width="640" lang="en" >}}
 
 盤面はたくさんのエリアに分かれていて，それぞれに諺（proverb）が隠れている。
-パズルを通してこれらの諺を「実績解除」していくわけだ。
+パズルを解きながらこれらの諺を「実績解除」していくわけだ。
 この諺が面白くて笑いながらプレイしてた。
 いくつか紹介してみよう。
 
