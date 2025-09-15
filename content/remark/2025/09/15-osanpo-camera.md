@@ -91,9 +91,9 @@ pageType = "photo"
 {{< fig-img src="./54788537333_cdd6091357_e.jpg" title="Hour Time Yellow | Flickr" link="https://www.flickr.com/photos/spiegel/54788537333/" >}}
 
 田植えの頃から思ってたけど，今年は18月に収穫する早場米の圃場が多かった印象。
-なので，既に稲刈りが終わって稲 WCS (Whole Crop Silage) にしている田んぼがけっこうあった。
+なので，既に稲刈りが終わって稲わらサイレージ（？）にしている田んぼがけっこうあった。
 
-{{< fig-img src="./54788847493_1a7f147e77_e.jpg" title="収穫後の田んぼ（稲WCSとかいうやつ？） | Flickr" link="https://www.flickr.com/photos/spiegel/54788847493/" >}}
+{{< fig-img src="./54788847493_1a7f147e77_e.jpg" title="収穫後の田んぼ（稲わらサイレージとかいうやつ？） | Flickr" link="https://www.flickr.com/photos/spiegel/54788847493/" >}}
 
 一方で，稲の花が咲いてる圃場もあり
 
