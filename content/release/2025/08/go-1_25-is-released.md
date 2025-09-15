@@ -161,6 +161,8 @@ go version go1.25.1 linux/amd64
 - [A new experimental Go API for JSON - The Go Programming Language](https://go.dev/blog/jsonv2-exp)
 
 - [Go1.25 New Features](https://zenn.dev/koya_iwamura/articles/ea2cf191cdcb2a)
+- [Go 1.25、GOMAXPROCS自動設定の恩恵](https://zenn.dev/drsprime/articles/944e7a6c3e990f)
+- [Go 1.25以降でのslogについて](https://zenn.dev/drsprime/articles/f8cc13820e6a93)
 
 [Go]: https://go.dev/
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
