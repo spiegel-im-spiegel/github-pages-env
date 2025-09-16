@@ -3,7 +3,7 @@ title = "結局 Google Fonts に巻き戻した。そしてモリサワ BIZ UD �
 date =  "2022-09-18T21:31:41+09:00"
 description = "とほほ orz"
 image = "/images/attention/kitten.jpg"
-tags = [ "web", "font" ]
+tags = [ "web", "font", "site" ]
 pageType = "text"
 
 [scripts]
@@ -67,6 +67,13 @@ func main() {
 
 ほんじゃあ，まぁ，これからこれで行きますかね。
 モリサワ BIZ UD フォントで表示できない文字が出てきたら最終的に NOTO JP フォントにまで巻き戻すかも知れんけど（笑）
+
+{{< div-box type="markdown" >}}
+**【2025-09-16 追記】**
+コード用のフォントを Inconsolata から Intel One Mono に換装した。
+
+- [Intel One Mono フォントに換装する]({{< ref "/remark/2025/09/intel-one-mono-font.md" >}})
+{{< /div-box >}}
 
 ## ブックマーク
 

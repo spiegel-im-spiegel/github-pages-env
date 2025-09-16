@@ -3,7 +3,7 @@ title = "Intel One Mono フォントに換装する"
 date =  "2025-09-16T12:31:07+09:00"
 description = "Google Fonts にも収録されていた"
 image = "/images/attention/kitten.jpg"
-tags = [ "font", "ubuntu", "web" ]
+tags = [ "font", "ubuntu", "web", "site" ]
 pageType = "text"
 
 [scripts]
@@ -101,6 +101,10 @@ func main() {
 エディタと Web フォントは [Intel One Mono] でいこう。
 私文書は [Inconsolata] のままでいいかな。
 そもそも紙（含PDF）に書くような文書でコードを書くことは少ないしな。
+
+## ブックマーク
+
+- [結局 Google Fonts に巻き戻した。そしてモリサワ BIZ UD フォント採用へ]({{< ref "/remark/2022/09/rollback-web-fonts.md" >}})
 
 [Intel One Mono]: https://github.com/intel/intel-one-mono "intel/intel-one-mono: Intel One Mono font repository"
 [Inconsolata]: http://www.levien.com/type/myfonts/inconsolata.html "Inconsolata"
