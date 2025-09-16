@@ -72,7 +72,9 @@ func main() {
 {{% quote %}}著作者は、その著作物の原作品に、又はその著作物の公衆への提供若しくは提示に際し、その実名若しくは変名を著作者名として表示し、又は著作者名を表示しないこととする権利を有する。その著作物を原著作物とする二次的著作物の公衆への提供又は提示に際しての原著作物の著作者名の表示についても、同様とする{{% /quote %}}。
 {{< /fig-quote >}}
 
-{{< fig-img-quote src="/images/attention/summer.jpg" title="In the beach | Flickr" link="https://www.flickr.com/photos/spiegel/32118886/" width="640" lang="en" >}}
+{{< fig-quote type="markdown" title="September 4th, 2025 - Kagi Summarize goes mobile, Kagi Assistant adds source attribution and study mode" link="https://kagi.com/changelog#8164" lang="en" >}}
+More importantly, this technology paves the way down the road for Kagi to share profits with publishers participating in our AI answers. This would happen automatically for all websites, with no deals, no contracts needed.
+{{< /fig-quote >}}
 
 ### 図表
 
@@ -83,6 +85,26 @@ func main() {
 {{< comparable-security-strengths >}}
 
 {{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
+
+### 図表＋引用
+
+{{< fig-img-quote src="/images/attention/summer.jpg" title="In the beach | Flickr" link="https://www.flickr.com/photos/spiegel/32118886/" width="640" lang="en" >}}
+
+{{< fig-quote class="nobox" type="markdown" title="MathJax Font Support — MathJax 4.0 documentation" link="https://docs.mathjax.org/en/latest/output/fonts.html" lang="en" >}}
+| Font Name | Original Source |
+| --- | --- |
+| `mathjax-newcm` | Based on New Computer Modern (now the default font) |
+| `mathjax-asana` | A version of the Asana-Math font |
+| `mathjax-bonum` | A version of the Gyre Bonum font |
+| `mathjax-dejavu` | A version of the Gyre DejaVu font |
+| `mathjax-fira` | A version of the Fira and Fira-Math fonts |
+| `mathjax-modern` | A version of Latin-Modern |
+| `mathjax-pagella` | A version of the Gyre Pagella font |
+| `mathjax-schola` | A version of the Gyre Schola font |
+| `mathjax-stix2` | A version of the STIX2 font |
+| `mathjax-termes` | A version of the Gyre Termes font |
+| `mathjax-tex` | The original MathJax TeX font |
+{{< /fig-quote >}}
 
 ### 数式（MathJax）
 
@@ -99,7 +121,7 @@ C_p[\ce{H2O(l)}] = \pu{75.3 J // mol K}
 {{< fig-math >}}
 \begin{aligned}
 KL(\hat{y} || y) &= \sum_{c=1}^{M}\hat{y}_c \log{\frac{\hat{y}_c}{y_c}} \\
-JS(\hat{y} || y) &= \frac{1}{2}(KL(y||\frac{y+\hat{y}}{2}) + KL(\hat{y}||\frac{y+\hat{y}}{2}))
+JS(\hat{y} || y) &= \frac{1}{2}\left(KL\left(y||\frac{y+\hat{y}}{2}\right) + KL\left(\hat{y}||\frac{y+\hat{y}}{2}\right)\right)
 \end{aligned}
 {{< /fig-math >}}
 
@@ -108,7 +130,7 @@ JS(\hat{y} || y) &= \frac{1}{2}(KL(y||\frac{y+\hat{y}}{2}) + KL(\hat{y}||\frac{y
 {{< fig-math class="box" >}}
 \begin{aligned}
 KL(\hat{y} || y) &= \sum_{c=1}^{M}\hat{y}_c \log{\frac{\hat{y}_c}{y_c}} \\
-JS(\hat{y} || y) &= \frac{1}{2}(KL(y||\frac{y+\hat{y}}{2}) + KL(\hat{y}||\frac{y+\hat{y}}{2}))
+JS(\hat{y} || y) &= \frac{1}{2}\left(KL\left(y||\frac{y+\hat{y}}{2}\right) + KL\left(\hat{y}||\frac{y+\hat{y}}{2}\right)\right)
 \end{aligned}
 {{< /fig-math >}}
 
