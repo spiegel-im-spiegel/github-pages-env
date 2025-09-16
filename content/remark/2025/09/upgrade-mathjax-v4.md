@@ -70,12 +70,12 @@ v4 は ES6 モジュールとして実装されているため，パスから `e
 
 | Component | Input | Output | Font|
 | --- | --- | --- | :---: |
-| `tex-chtml` | TeX | CHTML | {{< emoji "チェック" >}} |
-| `tex-svg` | TeX | SVG | {{< emoji "チェック" >}} |
-| `tex-mml-chtml` | TeX, MathML | CHTML | {{< emoji "チェック" >}} |
-| `tex-mml-svg` | TeX, MathML | SVG | {{< emoji "チェック" >}} |
-| `mml-chtml` | MathML | CHTML | {{< emoji "チェック" >}} |
-| `mml-svg` | MathML | SVG | {{< emoji "チェック" >}} |
+| `tex-chtml` | TeX | CHTML | {{< icons "check" >}} |
+| `tex-svg` | TeX | SVG | {{< icons "check" >}} |
+| `tex-mml-chtml` | TeX, MathML | CHTML | {{< icons "check" >}} |
+| `tex-mml-svg` | TeX, MathML | SVG | {{< icons "check" >}} |
+| `mml-chtml` | MathML | CHTML | {{< icons "check" >}} |
+| `mml-svg` | MathML | SVG | {{< icons "check" >}} |
 | `tex-chtml-nofont` | TeX | CHTML |  |
 | `tex-svg-nofont` | TeX | SVG |  |
 | `tex-mml-chtml-nofont` | TeX, MathML | CHTML |  |
@@ -108,7 +108,7 @@ v4 では11種類のフォントが利用可能になった。
 | `mathjax-tex` | The original MathJax TeX font |
 {{< /fig-quote >}}
 
-このうち `mathjax-newcm` については前節で {{< emoji "チェック" >}} が付いているコンポーネントに含まれている。
+このうち `mathjax-newcm` については前節で {{< icons "check" >}} が付いているコンポーネントに含まれている。
 `mathjax-newcm` 以外のフォントを利用したい場合は `-nofont` が付いているコンポーネントを指定した上で，以下のように設定する。
 
 ```html
