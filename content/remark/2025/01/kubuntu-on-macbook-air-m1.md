@@ -158,6 +158,12 @@ Apple 信者じゃないので，私。
 
 ある意味で贅沢な使い方かもな（笑）
 
+## ブックマーク
+
+- [Asahi Linux](https://asahilinux.org/ "Asahi Linux") を使ってネイティブ環境で動作させる方法（なんとなく不安があったので試さなかった）
+  - [Asahi Linux Desktop アルファ版の内蔵SSDへのインストールとアンインストール #Mac - Qiita](https://qiita.com/asfdrwe/items/20edadf1d33f28bb3fb1)
+  - [MacBook Air (M1 Pro) をAsahi Linuxに全振りした話](https://zenn.dev/miosky521/articles/0e43afb07d03ba)
+
 [MacBook]: https://support.apple.com/ja-jp/111883 "MacBook Air (M1, 2020) - 技術仕様 - Apple サポート (日本)"
 [Homebrew]: https://brew.sh/ "Homebrew — The Missing Package Manager for macOS (or Linux)"
 [Ubuntu Server]: https://ubuntu.com/download/server "Get Ubuntu Server | Download | Ubuntu"
