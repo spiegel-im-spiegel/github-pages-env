@@ -70,6 +70,7 @@ OpenJDK 64-Bit Server VM (build 25+36-3489, mixed mode, sharing)
 - [Introducing Canonical builds of OpenJDK](https://canonical.com/blog/introducing-canonical-builds-of-openjdk)
   - [Ubuntu Linux向けの新しいビルドセット「⁠Canonical builds of OpenJDK」が登場|CodeZine（コードジン）](https://codezine.jp/news/detail/21857)
 - [「Java 25」正式リリース、2年振りのLTS版。事前キャッシュによる高速起動、JITの即時ネイティブコード生成など新機能 － Publickey](https://www.publickey1.jp/blog/25/java_252ltsjit.html)
+- [Java 25リリース――初心者向け機能や起動時間短縮など | gihyo.jp](https://gihyo.jp/article/2025/09/java25)
 
 [OpenJDK]: http://openjdk.java.net/
 [AdoptOpenJDK]: https://adoptopenjdk.net/ "AdoptOpenJDK - Open source, prebuilt OpenJDK binaries"
