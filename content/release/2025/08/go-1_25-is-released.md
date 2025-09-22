@@ -163,6 +163,7 @@ go version go1.25.1 linux/amd64
 - [Go1.25 New Features](https://zenn.dev/koya_iwamura/articles/ea2cf191cdcb2a)
 - [Go 1.25、GOMAXPROCS自動設定の恩恵](https://zenn.dev/drsprime/articles/944e7a6c3e990f)
 - [Go 1.25以降でのslogについて](https://zenn.dev/drsprime/articles/f8cc13820e6a93)
+- [[go1.25]json/v1→v2で何が変わったん？〜気になった変更点をお届け〜](https://zenn.dev/go_izumin/articles/json_v1_v2_update_details)
 
 [Go]: https://go.dev/
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
