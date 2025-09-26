@@ -1,5 +1,5 @@
 +++
-title = "Philosophers” を Go で解く（CLI）"
+title = "“Philosophers” を Go で解く（CLI）"
 date =  "2025-09-03T18:34:53+09:00"
 description = "実際に問題を解く前にコマンドライン・インタフェースを整えておく。"
 image = "/images/attention/go-logo_blue.png"
