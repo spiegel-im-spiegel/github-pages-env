@@ -26,6 +26,7 @@ pageType = "text"
 - [Typst (@typst@mastodon.social) - Mastodon](https://mastodon.social/@typst)
 - [Typst: Blog](https://typst.app/blog/)
   - [Typst 0.13 is out now – Typst Blog](https://typst.app/blog/2025/typst-0.13/)
+  - [Typst: September Feature Drop: Adding folders and Review-only shares – Typst Blog](https://typst.app/blog/2025/folders-reviews/)
 
 ## テンプレートやパッケージ等の情報
 

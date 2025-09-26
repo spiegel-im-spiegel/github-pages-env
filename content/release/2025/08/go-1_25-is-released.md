@@ -159,6 +159,7 @@ go version go1.25.1 linux/amd64
 - [Container-aware GOMAXPROCS - The Go Programming Language](https://go.dev/blog/container-aware-gomaxprocs)
 - [Testing Time (and other asyncronicities) - The Go Programming Language](https://go.dev/blog/testing-time)
 - [A new experimental Go API for JSON - The Go Programming Language](https://go.dev/blog/jsonv2-exp)
+- [Flight Recorder in Go 1.25 - The Go Programming Language](https://go.dev/blog/flight-recorder)
 
 - [Go1.25 New Features](https://zenn.dev/koya_iwamura/articles/ea2cf191cdcb2a)
 - [Go 1.25、GOMAXPROCS自動設定の恩恵](https://zenn.dev/drsprime/articles/944e7a6c3e990f)
