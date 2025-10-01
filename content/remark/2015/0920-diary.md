@@ -2,7 +2,7 @@
 title = "今日の戯れ言：週末は掃除三昧"
 date = "2015-09-20T18:33:08+09:00"
 description = "仕事部屋が広くなった orz / 国勢調査を片付けた / Git for Windows 2.5.3"
-tags = ["book", "comic", "phishing", "git"]
+tags = ["book", "comic", "phishing", "git", "politics", "census", "web"]
 
 [scripts]
   mathjax = false

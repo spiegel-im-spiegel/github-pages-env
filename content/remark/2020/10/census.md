@@ -3,7 +3,7 @@ title = "国勢調査の思ひ出"
 date =  "2020-10-01T12:09:11+09:00"
 description = "まだ回答してない人でネット回答可能であれば，ネットのほうが断然楽。"
 image = "/images/attention/kitten.jpg"
-tags = [ "politics", "web", "security", "risk" ]
+tags = [ "politics", "census", "web", "security", "risk" ]
 pageType = "text"
 
 [scripts]
