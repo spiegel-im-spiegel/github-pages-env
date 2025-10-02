@@ -104,6 +104,8 @@ func main() {
 
 ## ブックマーク
 
+- [「Intel One Mono」を日本語向けにアレンジ、弱視でも読みやすい「Mint Mono」が公開 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/2050715.html)
+
 - [結局 Google Fonts に巻き戻した。そしてモリサワ BIZ UD フォント採用へ]({{< ref "/remark/2022/09/rollback-web-fonts.md" >}})
 
 [Intel One Mono]: https://github.com/intel/intel-one-mono "intel/intel-one-mono: Intel One Mono font repository"
