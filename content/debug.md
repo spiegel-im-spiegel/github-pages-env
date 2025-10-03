@@ -49,7 +49,7 @@ draft = true
 : 内容1
 
 定義2
-: 内容2 
+: 内容2
 
 ### フェンス付きコード・ブロック
 
@@ -201,7 +201,7 @@ gitGraph
     commit tag:"v1.1.0"
 ```
 
-## アイコン
+## アイコン・特殊文字
 
 ### CC Licenses
 
@@ -269,4 +269,16 @@ gitGraph
 | {{< span class="larger" >}}{{< emoji "電球" >}}{{< /span >}}  | `{{</* span class="larger" */>}}{{</* emoji "電球" */>}}{{</* /span */>}}`  |
 |  {{< span class="huge" >}}{{< emoji "電球" >}}{{< /span >}}   | `{{</* span class="huge" */>}}{{</* emoji "電球" */>}}{{</* /span */>}}`    |
 
+### 変体仮名
+
+{{< div-box >}}
+{{< div-gen >}}
+{{< span class="huge" >}}そば → &#x1B05B;&#x1B0A6;&#x3099;{{< /span >}}
+{{< /div-gen >}}
+{{< div-gen >}}
+{{< span class="huge" >}}あかよろし → あ&#x1b019;よろし{{< /span >}}
+{{< /div-gen >}}
+{{< /div-box >}}
+
+変体仮名の一覧は「[変体仮名一覧]({{< relref "./hentaigana-table.md" >}})」を参照のこと。
 <!-- end of file -->
