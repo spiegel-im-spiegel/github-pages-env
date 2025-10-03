@@ -2,7 +2,7 @@
 title = "変体仮名一覧"
 date =  "2025-10-03T13:08:42+09:00"
 description = "変体仮名の各文字についてコードポイント・文字・読み・元になる漢字を一覧にした。"
-image = "/images/attention/site.jpg"
+image = "/images/attention/tools.png"
 tags = [ "character", "unicode" ]
 pageType = "text"
 

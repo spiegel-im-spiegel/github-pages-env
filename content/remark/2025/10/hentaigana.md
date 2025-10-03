@@ -2,7 +2,7 @@
 title = "変体仮名をサポートした"
 date =  "2025-10-03T13:08:59+09:00"
 description = "このブログサイトで変体仮名を表示できるようにしてみた。"
-image = "/images/attention/kitten.jpg"
+image = "/images/attention/tools.png"
 tags = [ "site", "web", "font", "character", "unicode" ]
 pageType = "text"
 
