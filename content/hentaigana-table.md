@@ -17,7 +17,7 @@ pageType = "text"
 [^re1]: 「&#x1b000;」はヤ行エ段の文字（&#x1B121;）を「エ」と表記していた時代の表記。
 [^i1]: 「&#x1b006;」をや行い段の文字とする場合も[ある？](https://ja.wikipedia.org/wiki/%E3%82%84%E8%A1%8C%E3%81%84 "や行い - Wikipedia")
 
-| コード | 文字 | 読み | 漢字 | 文字種・説明 |
+| コード | 文字 | 読み | 漢字 | 文字種 |
 |:---:|:---:|:---:|:---:|:---|
 | `U+1B000` | &#x1b000; | `/e/` | 連 | Historic Katakana[^re1] |
 | `U+1B001` | &#x1b001; | `/ye/`<br>`/e/` | 江 | Historic Hiragana<br>Hentaigana |
