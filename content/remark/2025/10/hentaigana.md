@@ -120,6 +120,9 @@ U+1B120 '𛄠' U+1B121 '𛄡' U+1B122 '𛄢'
 - [変体仮名 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%A4%89%E4%BD%93%E4%BB%AE%E5%90%8D)
 - [蕎麦屋の暖簾に書いてあるあの難しい字・・・なにあれ？＝Sobapedia＝ | 出張そば打ち体験～SOBAUCHI 楽常～](https://rakujyo.com/blog/sobaya-anoji/)
 
+- [結局 Google Fonts に巻き戻した。そしてモリサワ BIZ UD フォント採用へ]({{< ref "/remark/2022/09/rollback-web-fonts.md" >}})
+- [Intel One Mono フォントに換装する]({{< ref "/remark/2025/09/intel-one-mono-font.md" >}})
+
 ## 参考図書
 
 {{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
