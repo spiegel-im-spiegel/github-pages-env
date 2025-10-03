@@ -19,7 +19,7 @@ pageType = "text"
 
 | コード | 文字 | 読み | 漢字 | 文字種 |
 |:---:|:---:|:---:|:---:|:---|
-| `U+1B000` | &#x1b000; | `/e/` | 連 | Historic Katakana[^re1] |
+| `U+1B000` | &#x1b000; | `/e/` |  | Historic Katakana[^re1] |
 | `U+1B001` | &#x1b001; | `/ye/`<br>`/e/` | 江 | Historic Hiragana<br>Hentaigana |
 |  |  |  |  |  |
 | `U+1B002` | &#x1b002; | `/a/` | 安 | Hentaigana |
