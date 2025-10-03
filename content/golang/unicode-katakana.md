@@ -21,48 +21,50 @@ Qiita で
 
 ```go
 var _Katakana = &RangeTable{
-	R16: []Range16{
-		{0x30a1, 0x30fa, 1},
-		{0x30fd, 0x30ff, 1},
-		{0x31f0, 0x31ff, 1},
-		{0x32d0, 0x32fe, 1},
-		{0x3300, 0x3357, 1},
-		{0xff66, 0xff6f, 1},
-		{0xff71, 0xff9d, 1},
-	},
-	R32: []Range32{
-		{0x1b000, 0x1b164, 356},
-		{0x1b165, 0x1b167, 1},
-	},
+    R16: []Range16{
+        {0x30a1, 0x30fa, 1},
+        {0x30fd, 0x30ff, 1},
+        {0x31f0, 0x31ff, 1},
+        {0x32d0, 0x32fe, 1},
+        {0x3300, 0x3357, 1},
+        {0xff66, 0xff6f, 1},
+        {0xff71, 0xff9d, 1},
+    },
+    R32: []Range32{
+        {0x1aff0, 0x1aff3, 1},
+        {0x1aff5, 0x1affb, 1},
+        {0x1affd, 0x1affe, 1},
+        {0x1b000, 0x1b120, 288},
+        {0x1b121, 0x1b122, 1},
+        {0x1b155, 0x1b164, 15},
+        {0x1b165, 0x1b167, 1},
+    },
 }
 ```
 
 面倒なので `0x30a1` から `0x1b167` まで片っ端からスキャンしてしまおう（笑）
 
 ```go
-//go:build run
-// +build run
-
 package main
 
 import (
-	"fmt"
-	"unicode"
+    "fmt"
+    "unicode"
 )
 
 func main() {
-	i := 0
-	for c := rune(0x30a1); c <= rune(0x1b167); c++ {
-		if unicode.In(c, unicode.Katakana) {
-			fmt.Printf("%#U ", c)
-			i++
-			i &= 0x0f
-			if i == 0 {
-				fmt.Println()
-			}
-		}
-	}
-	fmt.Println()
+    i := 0
+    for c := rune(0x30a1); c <= rune(0x1b167); c++ {
+        if unicode.In(c, unicode.Katakana) {
+            fmt.Printf("%#U ", c)
+            i++
+            i &= 0x0f
+            if i == 0 {
+                fmt.Println()
+            }
+        }
+    }
+    fmt.Println()
 }
 ```
 
@@ -88,43 +90,43 @@ U+3344 '㍄' U+3345 '㍅' U+3346 '㍆' U+3347 '㍇' U+3348 '㍈' U+3349 '㍉' U+
 U+3354 '㍔' U+3355 '㍕' U+3356 '㍖' U+3357 '㍗' U+FF66 'ｦ' U+FF67 'ｧ' U+FF68 'ｨ' U+FF69 'ｩ' U+FF6A 'ｪ' U+FF6B 'ｫ' U+FF6C 'ｬ' U+FF6D 'ｭ' U+FF6E 'ｮ' U+FF6F 'ｯ' U+FF71 'ｱ' U+FF72 'ｲ' 
 U+FF73 'ｳ' U+FF74 'ｴ' U+FF75 'ｵ' U+FF76 'ｶ' U+FF77 'ｷ' U+FF78 'ｸ' U+FF79 'ｹ' U+FF7A 'ｺ' U+FF7B 'ｻ' U+FF7C 'ｼ' U+FF7D 'ｽ' U+FF7E 'ｾ' U+FF7F 'ｿ' U+FF80 'ﾀ' U+FF81 'ﾁ' U+FF82 'ﾂ' 
 U+FF83 'ﾃ' U+FF84 'ﾄ' U+FF85 'ﾅ' U+FF86 'ﾆ' U+FF87 'ﾇ' U+FF88 'ﾈ' U+FF89 'ﾉ' U+FF8A 'ﾊ' U+FF8B 'ﾋ' U+FF8C 'ﾌ' U+FF8D 'ﾍ' U+FF8E 'ﾎ' U+FF8F 'ﾏ' U+FF90 'ﾐ' U+FF91 'ﾑ' U+FF92 'ﾒ' 
-U+FF93 'ﾓ' U+FF94 'ﾔ' U+FF95 'ﾕ' U+FF96 'ﾖ' U+FF97 'ﾗ' U+FF98 'ﾘ' U+FF99 'ﾙ' U+FF9A 'ﾚ' U+FF9B 'ﾛ' U+FF9C 'ﾜ' U+FF9D 'ﾝ' U+1B000 '𛀀' U+1B164 '𛅤' U+1B165 '𛅥' U+1B166 '𛅦' U+1B167 '𛅧' 
+U+FF93 'ﾓ' U+FF94 'ﾔ' U+FF95 'ﾕ' U+FF96 'ﾖ' U+FF97 'ﾗ' U+FF98 'ﾘ' U+FF99 'ﾙ' U+FF9A 'ﾚ' U+FF9B 'ﾛ' U+FF9C 'ﾜ' U+FF9D 'ﾝ' U+1AFF0 '𚿰' U+1AFF1 '𚿱' U+1AFF2 '𚿲' U+1AFF3 '𚿳' U+1AFF5 '𚿵' 
+U+1AFF6 '𚿶' U+1AFF7 '𚿷' U+1AFF8 '𚿸' U+1AFF9 '𚿹' U+1AFFA '𚿺' U+1AFFB '𚿻' U+1AFFD '𚿽' U+1AFFE '𚿾' U+1B000 '𛀀' U+1B120 '𛄠' U+1B121 '𛄡' U+1B122 '𛄢' U+1B155 '𛅕' U+1B164 '𛅤' U+1B165 '𛅥' U+1B166 '𛅦' 
+U+1B167 '𛅧' 
 ```
 
 まぢか。
 これは困るわ。
 
-`U+1B000` は変体仮名の「れ（連）」を指す文字らしい。
+`U+1AFF0` から `U+1AFFE` は声調記号とか鼻音声調記号とか言うそうな。
+`U+1B000` および `U+1B120` から `U+1B122` は変体仮名らしい。
 これだけカタカナ扱いなのか。
-また `U+1B164` 以降の4文字は小書きの「ヰ」「ヱ」「ヲ」「ン」だそうな。
+また `U+1B155` は小書きの「コ」で `U+1B164` 以降の4文字は小書きの「ヰ」「ヱ」「ヲ」「ン」だそうな。
 
 じゃあ，次。
 上のカタカナを [`unicode`]`.Letter` 種別で絞り込んだらどうなるか。
 
-```go {hl_lines=[14]}
-//go:build run
-// +build run
-
+```go {hl_lines=[11]}
 package main
 
 import (
-	"fmt"
-	"unicode"
+    "fmt"
+    "unicode"
 )
 
 func main() {
-	i := 0
-	for c := rune(0x30a1); c <= rune(0x1b167); c++ {
-		if unicode.In(c, unicode.Katakana) && unicode.IsLetter(c) {
-			fmt.Printf("%#U ", c)
-			i++
-			i &= 0x0f
-			if i == 0 {
-				fmt.Println()
-			}
-		}
-	}
-	fmt.Println()
+    i := 0
+    for c := rune(0x30a1); c <= rune(0x1b167); c++ {
+        if unicode.In(c, unicode.Katakana) && unicode.IsLetter(c) {
+            fmt.Printf("%#U ", c)
+            i++
+            i &= 0x0f
+            if i == 0 {
+                fmt.Println()
+            }
+        }
+    }
+    fmt.Println()
 }
 ```
 
@@ -142,48 +144,45 @@ U+31F3 'ㇳ' U+31F4 'ㇴ' U+31F5 'ㇵ' U+31F6 'ㇶ' U+31F7 'ㇷ' U+31F8 'ㇸ' U+
 U+FF69 'ｩ' U+FF6A 'ｪ' U+FF6B 'ｫ' U+FF6C 'ｬ' U+FF6D 'ｭ' U+FF6E 'ｮ' U+FF6F 'ｯ' U+FF71 'ｱ' U+FF72 'ｲ' U+FF73 'ｳ' U+FF74 'ｴ' U+FF75 'ｵ' U+FF76 'ｶ' U+FF77 'ｷ' U+FF78 'ｸ' U+FF79 'ｹ' 
 U+FF7A 'ｺ' U+FF7B 'ｻ' U+FF7C 'ｼ' U+FF7D 'ｽ' U+FF7E 'ｾ' U+FF7F 'ｿ' U+FF80 'ﾀ' U+FF81 'ﾁ' U+FF82 'ﾂ' U+FF83 'ﾃ' U+FF84 'ﾄ' U+FF85 'ﾅ' U+FF86 'ﾆ' U+FF87 'ﾇ' U+FF88 'ﾈ' U+FF89 'ﾉ' 
 U+FF8A 'ﾊ' U+FF8B 'ﾋ' U+FF8C 'ﾌ' U+FF8D 'ﾍ' U+FF8E 'ﾎ' U+FF8F 'ﾏ' U+FF90 'ﾐ' U+FF91 'ﾑ' U+FF92 'ﾒ' U+FF93 'ﾓ' U+FF94 'ﾔ' U+FF95 'ﾕ' U+FF96 'ﾖ' U+FF97 'ﾗ' U+FF98 'ﾘ' U+FF99 'ﾙ' 
-U+FF9A 'ﾚ' U+FF9B 'ﾛ' U+FF9C 'ﾜ' U+FF9D 'ﾝ' U+1B000 '𛀀' U+1B164 '𛅤' U+1B165 '𛅥' U+1B166 '𛅦' U+1B167 '𛅧' 
+U+FF9A 'ﾚ' U+FF9B 'ﾛ' U+FF9C 'ﾜ' U+FF9D 'ﾝ' U+1AFF0 '𚿰' U+1AFF1 '𚿱' U+1AFF2 '𚿲' U+1AFF3 '𚿳' U+1AFF5 '𚿵' U+1AFF6 '𚿶' U+1AFF7 '𚿷' U+1AFF8 '𚿸' U+1AFF9 '𚿹' U+1AFFA '𚿺' U+1AFFB '𚿻' U+1AFFD '𚿽' 
+U+1AFFE '𚿾' U+1B000 '𛀀' U+1B120 '𛄠' U+1B121 '𛄡' U+1B122 '𛄢' U+1B155 '𛅕' U+1B164 '𛅤' U+1B165 '𛅥' U+1B166 '𛅦' U+1B167 '𛅧' 
 ```
 
-これで記号はちゃんと排除できることが分かった。
-よーし，うむうむ，よーし。
+声調記号と鼻音声調記号が含まれるけど，いいのか？ 他の記号はちゃんと排除できてるな。
 
 注意点としては [`unicode`]`.Katakana` では濁点・半濁点の結合文字が除外されるということだろうか。
 あと半角カナを識別する [`unicode`]`.RangeTable` テーブルはなさそうだ。
 まぁ，単純だから自前で作ればいいんだけど。
 こんな感じかな。
 
-```go {hl_lines=["11-16", 21]}
-//go:build run
-// +build run
-
+```go {hl_lines=["8-13", 18]}
 package main
 
 import (
-	"fmt"
-	"unicode"
+    "fmt"
+    "unicode"
 )
 
 var halfWidthKatakana = &unicode.RangeTable{
-	R16: []unicode.Range16{
-		{0xff61, 0xff9f, 1},
-	},
-	R32: []unicode.Range32{},
+    R16: []unicode.Range16{
+        {0xff61, 0xff9f, 1},
+    },
+    R32: []unicode.Range32{},
 }
 
 func main() {
-	i := 0
-	for c := rune(0x30a1); c <= rune(0x1b167); c++ {
-		if unicode.In(c, unicode.Katakana) && unicode.In(c, halfWidthKatakana) {
-			fmt.Printf("%#U ", c)
-			i++
-			i &= 0x0f
-			if i == 0 {
-				fmt.Println()
-			}
-		}
-	}
-	fmt.Println()
+    i := 0
+    for c := rune(0x30a1); c <= rune(0x1b167); c++ {
+        if unicode.In(c, unicode.Katakana) && unicode.In(c, halfWidthKatakana) {
+            fmt.Printf("%#U ", c)
+            i++
+            i &= 0x0f
+            if i == 0 {
+                fmt.Println()
+            }
+        }
+    }
+    fmt.Println()
 }
 ```
 
@@ -204,27 +203,24 @@ U+FF97 'ﾗ' U+FF98 'ﾘ' U+FF99 'ﾙ' U+FF9A 'ﾚ' U+FF9B 'ﾛ' U+FF9C 'ﾜ' U+
 以下は変換されるコードのみを列挙したもの。
 
 ```go
-//go:build run
-// +build run
-
 package main
 
 import (
-	"fmt"
-	"unicode"
+    "fmt"
+    "unicode"
 
-	"golang.org/x/text/unicode/norm"
+    "golang.org/x/text/unicode/norm"
 )
 
 func main() {
-	for c := rune(0x30a1); c <= rune(0x1b167); c++ {
-		if unicode.In(c, unicode.Katakana) {
-			n := norm.NFKC.String(string(c))
-			if n != string(c) {
-				fmt.Printf("%#U -> %s\n", c, n)
-			}
-		}
-	}
+    for c := rune(0x30a1); c <= rune(0x1b167); c++ {
+        if unicode.In(c, unicode.Katakana) {
+            n := norm.NFKC.String(string(c))
+            if n != string(c) {
+                fmt.Printf("%#U -> %s\n", c, n)
+            }
+        }
+    }
 }
 ```
 
@@ -434,15 +430,16 @@ U+FF9D 'ﾝ' -> ン
 
 ```go
 var _Hiragana = &RangeTable{
-	R16: []Range16{
-		{0x3041, 0x3096, 1},
-		{0x309d, 0x309f, 1},
-	},
-	R32: []Range32{
-		{0x1b001, 0x1b11e, 1},
-		{0x1b150, 0x1b152, 1},
-		{0x1f200, 0x1f200, 1},
-	},
+    R16: []Range16{
+        {0x3041, 0x3096, 1},
+        {0x309d, 0x309f, 1},
+    },
+    R32: []Range32{
+        {0x1b001, 0x1b11f, 1},
+        {0x1b132, 0x1b150, 30},
+        {0x1b151, 0x1b152, 1},
+        {0x1f200, 0x1f200, 1},
+    },
 }
 ```
 
@@ -451,29 +448,26 @@ var _Hiragana = &RangeTable{
 とりあえず
 
 ```go
-//go:build run
-// +build run
-
 package main
 
 import (
-	"fmt"
-	"unicode"
+    "fmt"
+    "unicode"
 )
 
 func main() {
-	i := 0
-	for c := rune(0x3041); c <= rune(0x1f200); c++ {
-		if unicode.In(c, unicode.Hiragana) {
-			fmt.Printf("%#U ", c)
-			i++
-			i &= 0x0f
-			if i == 0 {
-				fmt.Println()
-			}
-		}
-	}
-	fmt.Println()
+    i := 0
+    for c := rune(0x3041); c <= rune(0x1f200); c++ {
+        if unicode.In(c, unicode.Hiragana) {
+            fmt.Printf("%#U ", c)
+            i++
+            i &= 0x0f
+            if i == 0 {
+                fmt.Println()
+            }
+        }
+    }
+    fmt.Println()
 }
 ```
 
@@ -504,39 +498,36 @@ U+1B0D8 '𛃘' U+1B0D9 '𛃙' U+1B0DA '𛃚' U+1B0DB '𛃛' U+1B0DC '𛃜' U+1B0
 U+1B0E8 '𛃨' U+1B0E9 '𛃩' U+1B0EA '𛃪' U+1B0EB '𛃫' U+1B0EC '𛃬' U+1B0ED '𛃭' U+1B0EE '𛃮' U+1B0EF '𛃯' U+1B0F0 '𛃰' U+1B0F1 '𛃱' U+1B0F2 '𛃲' U+1B0F3 '𛃳' U+1B0F4 '𛃴' U+1B0F5 '𛃵' U+1B0F6 '𛃶' U+1B0F7 '𛃷' 
 U+1B0F8 '𛃸' U+1B0F9 '𛃹' U+1B0FA '𛃺' U+1B0FB '𛃻' U+1B0FC '𛃼' U+1B0FD '𛃽' U+1B0FE '𛃾' U+1B0FF '𛃿' U+1B100 '𛄀' U+1B101 '𛄁' U+1B102 '𛄂' U+1B103 '𛄃' U+1B104 '𛄄' U+1B105 '𛄅' U+1B106 '𛄆' U+1B107 '𛄇' 
 U+1B108 '𛄈' U+1B109 '𛄉' U+1B10A '𛄊' U+1B10B '𛄋' U+1B10C '𛄌' U+1B10D '𛄍' U+1B10E '𛄎' U+1B10F '𛄏' U+1B110 '𛄐' U+1B111 '𛄑' U+1B112 '𛄒' U+1B113 '𛄓' U+1B114 '𛄔' U+1B115 '𛄕' U+1B116 '𛄖' U+1B117 '𛄗' 
-U+1B118 '𛄘' U+1B119 '𛄙' U+1B11A '𛄚' U+1B11B '𛄛' U+1B11C '𛄜' U+1B11D '𛄝' U+1B11E '𛄞' U+1B150 '𛅐' U+1B151 '𛅑' U+1B152 '𛅒' U+1F200 '🈀' 
+U+1B118 '𛄘' U+1B119 '𛄙' U+1B11A '𛄚' U+1B11B '𛄛' U+1B11C '𛄜' U+1B11D '𛄝' U+1B11E '𛄞' U+1B11F '𛄟' U+1B132 '𛄲' U+1B150 '𛅐' U+1B151 '𛅑' U+1B152 '𛅒' U+1F200 '🈀' 
 ```
 
 うわ。
 `U+1B001` 以降は変体仮名か。
-`U+1B150` から `U+1B152` までは小書きの「ゐ」「ゑ」「を」とのこと。
+`U+1B132` は小書きの「こ」で `U+1B150` から `U+1B152` までは小書きの「ゐ」「ゑ」「を」とのこと。
 ちなみに小書きの「ん」はプロポーザルが通らなかったらしい。
 よーわからん（笑）
 
 これも NFKC 正規化をかけてみよっか。
 
 ```go
-//go:build run
-// +build run
-
 package main
 
 import (
-	"fmt"
-	"unicode"
+    "fmt"
+    "unicode"
 
-	"golang.org/x/text/unicode/norm"
+    "golang.org/x/text/unicode/norm"
 )
 
 func main() {
-	for c := rune(0x3041); c <= rune(0x1f200); c++ {
-		if unicode.In(c, unicode.Hiragana) {
-			n := norm.NFKC.String(string(c))
-			if n != string(c) {
-				fmt.Printf("%#U -> %s\n", c, n)
-			}
-		}
-	}
+    for c := rune(0x3041); c <= rune(0x1f200); c++ {
+        if unicode.In(c, unicode.Hiragana) {
+            n := norm.NFKC.String(string(c))
+            if n != string(c) {
+                fmt.Printf("%#U -> %s\n", c, n)
+            }
+        }
+    }
 }
 ```
 
@@ -552,7 +543,7 @@ U+1F200 '🈀' -> ほか
 こんな感じだよね。
 
 はぅぅ。
-拙作の [gnkf](https://github.com/spiegel-im-spiegel/gnkf "spiegel-im-spiegel/gnkf: Network Kanji Filter by Golang") も直さなきゃ...
+拙作の [gnkf](https://github.com/goark/gnkf "goark/gnkf: Network Kanji Filter by Golang") も直さなきゃ...
 
 ## ブックマーク
 
