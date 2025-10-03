@@ -28,6 +28,7 @@ pageType = "text"
 - [Reviews]({{< relref "./reviews.md" >}})
 - [情報交換用に推奨される絵文字のリスト]({{< relref "./emoji-list.md" >}})
 - [絵文字と Markdown Shortcodes]({{< relref "./emoji-shortcodes.md" >}}) : Hugo で使える絵文字用 Markdown Shortcodes
+- [変体仮名一覧]({{< relref "./hentaigana-table.md" >}})
 
 ### 終了した日記・ブログ（[本家サイト](https://baldanders.info/ "Baldanders.info")へ）
 
