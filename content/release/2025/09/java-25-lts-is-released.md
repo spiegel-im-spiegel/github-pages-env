@@ -72,6 +72,7 @@ OpenJDK 64-Bit Server VM (build 25+36-3489, mixed mode, sharing)
 - [「Java 25」正式リリース、2年振りのLTS版。事前キャッシュによる高速起動、JITの即時ネイティブコード生成など新機能 － Publickey](https://www.publickey1.jp/blog/25/java_252ltsjit.html)
 - [Java 25リリース――初心者向け機能や起動時間短縮など | gihyo.jp](https://gihyo.jp/article/2025/09/java25)
 - [Java 25新機能まとめ #OpenJDK - Qiita](https://qiita.com/nowokay/items/7e05b4c42ded043a298a)
+- [Microsoft、「Java 25」の「Microsoft Build of OpenJDK」ビルドをリリース - 窓の杜](https://forest.watch.impress.co.jp/docs/news/2052633.html)
 
 [OpenJDK]: http://openjdk.java.net/
 [AdoptOpenJDK]: https://adoptopenjdk.net/ "AdoptOpenJDK - Open source, prebuilt OpenJDK binaries"
