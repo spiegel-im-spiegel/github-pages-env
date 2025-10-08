@@ -48,13 +48,15 @@ If we think about the AI as a wage depression tool rather than a productivity in
 AI を生産性を向上するツールではなく、賃金を抑制するツールととらえれば、実際には生産性は向上していないという研究を並べて、AI ブームが終わると期待するのは時期尚早だと分かるだろう。
 {{< /fig-quote >}}
 
+これだけでもう面白い！
+
 インタビューを受けている Hagen Blix さんは「認知科学としての言語学（linguistics as a cognitive science）」で博士号を取っておられるそうだが
 
 {{< fig-quote type="markdown" title="“AI is an attack from above on wages”: An interview with cognitive scientist Hagen Blix" link="https://www.bloodinthemachine.com/p/ai-is-an-attack-from-above-on-wages" lang="en" >}}
 But I had also been interested in political organizing for a long time. And to me, those were always two completely separate worlds. In fact, personally, I was interested in cognitive science, partly because I was like, “all this linguistic stuff has no application. It’s pure science. It won’t be turned into a tool against the working class or into a weapon or something.” And then this stuff happens. And I’m like, well, fuck, that was a miscalculation from my part.
 {{< /fig-quote >}}
 
-とか言ってちょっと笑ってしまった。
+とか言ってて，ちょっと笑ってしまった。
 
 個人的に刺さったのは
 
