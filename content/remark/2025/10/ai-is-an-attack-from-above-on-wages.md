@@ -61,7 +61,7 @@ But I had also been interested in political organizing for a long time. And to m
 個人的に刺さったのは
 
 {{< fig-quote type="markdown" title="“AI is an attack from above on wages”: An interview with cognitive scientist Hagen Blix" link="https://www.bloodinthemachine.com/p/ai-is-an-attack-from-above-on-wages" lang="en" >}}
-But I had also been interested in political organizing for a long time. And to me, those were always two completely separate worlds. In fact, personally, I was interested in cognitive science, partly because I was like, “all this linguistic stuff has no application. It’s pure science. It won’t be turned into a tool against the working class or into a weapon or something.” And then this stuff happens. And I’m like, well, fuck, that was a miscalculation from my part.
+So one thing that I found useful, and that I found resonated with people who have come to my book events, is that sense of it’s simultaneously a way of attacking your wages and the quality of your work. Because it’s not just coming for your money. In a sense, people are like, yeah, that’s normal. The boss wants to pay you as little as possible and you want to earn as much as possible. And there’s some market-based negotiation happening. But it’s also coming for the quality of the thing you’re doing.
 {{< /fig-quote >}}
 
 という部分。
