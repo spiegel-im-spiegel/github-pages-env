@@ -76,6 +76,11 @@ But I had also been interested in political organizing for a long time. And to m
 チャップリンの「[モダン・タイムス](https://www.youtube.com/watch?v=KUbvdZOMXMI "Charlie Chaplin Modern Times - YouTube")」とか思い出さない？
 
 要するに，こういった話って AI 技術というより社会学とか政治学の問題になってくるわけだ。
+
+{{< fig-quote type="markdown" title="“AI is an attack from above on wages”: An interview with cognitive scientist Hagen Blix" link="https://www.bloodinthemachine.com/p/ai-is-an-attack-from-above-on-wages" lang="en" >}}
+the fact that technology is always, always, always about class power and not just about productivity
+{{< /fig-quote >}}
+
 まぁ人の社会の問題だから当然だよな。
 
 [元ネタの記事][元ネタ]は色々な切り口がありそうで面白い。
