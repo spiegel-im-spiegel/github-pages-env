@@ -1,11 +1,10 @@
 +++
 title = "サプライズと迷惑の谷間"
-date =  "2025-10-09T08:47:36+09:00"
+date =  "2025-10-09T10:19:10+09:00"
 description = "来年からはノーベル賞受賞者に電話で連絡とか止めた方がいいよ（笑）"
 image = "/images/attention/kitten.jpg"
 tags = [ "communication", "risk", "security" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
