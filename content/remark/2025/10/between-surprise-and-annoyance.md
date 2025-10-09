@@ -59,7 +59,7 @@ pageType = "text"
 普段のやり取りはメールかチャットで済ますし，仕事でも今は Zoom や Teams や Slack 等で（音声での会話も含めて）足りている。
 ゲームなら Discord か？ ほぼ使わないけど。
 
-逆に SNS は「知り合い同士で繋がる」サービスではなく不特定に向けたものになった（「友達ダイアグラム」とか言ってた Web 2.0 の頃が懐かしい）。
+逆に SNS は「知り合い同士で繋がる」サービスではなく不特定に向けたメディアになった（「友達ダイアグラム」とか言ってた Web 2.0 の頃が懐かしい）。
 かつて知り合い同士で写真共有を行うサービスだった Instagram も
 
 {{< fig-quote type="markdown" title="あなたが知っていたインスタグラムはもうない…友人に写真を投稿する場所ではなくなった | Business Insider Japan" link="https://www.businessinsider.jp/article/2510-instagram-reels-dead-changes-mourning/" >}}
