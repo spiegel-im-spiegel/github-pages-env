@@ -138,7 +138,7 @@ func main() {
 
 これで `main()` 関数はコマンドライン制御に徹してロジックを `Echo()` 関数に任せることができる。
 一方で `Echo()` 関数は渡される `Flags` 構造体にのみ依存しているのでコマンドライン制御の詳細を知らなくて済む。
-この例では全てが `main` パッケージにまとまってるので分かりにくいが，ロジックを別パッケージにすることはよくあるので，このパターンを意識するのは大事である。
+この例では全てが `main` パッケージにまとまってるので分かりにくいが，ロジックを別パッケージにすることはよくあるので，テストのしやすさも考慮してこのパターンを意識するのは大事である。
 
 とはいえ，ロジックが変われば要求される情報も変わるし，上の例でいう `Flags` 構造体の中身も変わる。
 そうなると `Flags.Bind()` メソッドの中身も変える必要があるが，このメソッドで構造体の要素をひとつづつ `flag` パッケージに紐付けているので，これを書くのが地味に面倒くさいのである。
@@ -200,7 +200,7 @@ func main() {
 
 [`struct2flag`][`github.com/hymkor/struct2flag`] なら構造体にタグを書くだけで済むし [`flag`] を素のまま使うよりは気軽にコマンドラインオプションを構成できるので，ちょっとしたツールにはいい感じである。
 
-公開してくださった [@zetamatta@mstdn.jp ](https://mstdn.jp/@zetamatta "\"ζ\" (@zetamatta@mstdn.jp) - mstdn.jp") さんには感謝である {{% emoji "ペコン" %}}
+公開してくださった [@zetamatta@mstdn.jp ](https://mstdn.jp/@zetamatta "\"ζ\" (@zetamatta@mstdn.jp) - mstdn.jp") さんに感謝 {{% emoji "ペコン" %}}
 
 [Go]: https://go.dev/
 [`flag`]: https://pkg.go.dev/flag "flag package - flag - Go Packages"
