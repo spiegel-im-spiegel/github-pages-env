@@ -111,33 +111,31 @@ For historical reasons, the default behavior of v1 [`encoding/json`](https://pkg
 
 他にも様々な変更・改良がある。
 
-## Go 1.25.2 の導入 【2025-10-08 更新】 {#update}
+## Go 1.25.3 の導入 【2025-10-14 更新】 {#update}
 
 {{< div-box type="markdown" >}}
-[Go] 1.25.2 がリリースされた。
-`golang.org/x/net` パッケージの脆弱性報告も併せて行われている。
+[Go] 1.25.3 がリリースされた。
 
-- [[security] Go 1.25.2 and Go 1.24.8 are released](https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI)
-- [[security] Vulnerabilities in golang.org/x/net](https://groups.google.com/g/golang-announce/c/jnQcOYpiR2c)
+- [Go 1.25.3 and Go 1.24.9 are released](https://groups.google.com/g/golang-announce/c/YEyj6FUNbik)
 
-CVE ID ベースで10件の脆弱性修正がある（1.25.0 からの累積で11件）。
+CVE ID ベースで0件の脆弱性修正がある（1.25.0 からの累積で11件）。
 
 [Go]: https://go.dev/
 {{< /div-box >}}
 
-[Ubuntu] の APT で管理している [Go] コンパイラは古いので，[ダウンロードページ](https://go.dev/dl/ "Downloads - go.dev")からバイナリ（[`go1.25.2.linux-amd64.tar.gz`](https://go.dev/dl/go1.25.2.linux-amd64.tar.gz)）を取ってきてインストールすることを推奨する。
+[Ubuntu] の APT で管理している [Go] コンパイラは古いので，[ダウンロードページ](https://go.dev/dl/ "Downloads - go.dev")からバイナリ（[`go1.25.3.linux-amd64.tar.gz`](https://go.dev/dl/go1.25.3.linux-amd64.tar.gz)）を取ってきてインストールすることを推奨する。
 以下は完全手動での作業例。
 
 ```text
 $ cd /usr/local/src
-$ sudo curl -LO "https://go.dev/dl/go1.25.2.linux-amd64.tar.gz"
+$ sudo curl -LO "https://go.dev/dl/go1.25.3.linux-amd64.tar.gz"
 $ cd ..
 $ sudo unlink go # 以前の Go が入っている場合
-$ sudo tar xvf src/go1.25.2.linux-amd64.tar.gz
-$ sudo mv go go1.25.2
-$ sudo ln -s go1.25.2 go
+$ sudo tar xvf src/go1.25.3.linux-amd64.tar.gz
+$ sudo mv go go1.25.3
+$ sudo ln -s go1.25.3 go
 $ go version # /usr/local/go/bin にパスが通っている場合
-go version go1.25.2 linux/amd64
+go version go1.25.3 linux/amd64
 ```
 
 Windows はインストールパッケージを取ってきて直接インストールする。
@@ -146,10 +144,10 @@ Windows はインストールパッケージを取ってきて直接インスト
 複数バージョンの [Go] コンパイラを扱いたい場合は
 
 ```text
-$ go install golang.org/dl/25.2@latest
-$ go1.25.2 download
-$ go1.25.2 version
-go version go1.25.2 linux/amd64
+$ go install golang.org/dl/25.3@latest
+$ go1.25.3 download
+$ go1.25.3 version
+go version go1.25.3 linux/amd64
 ```
 
 てな感じに導入できる。
@@ -162,6 +160,9 @@ go version go1.25.2 linux/amd64
 - [Flight Recorder in Go 1.25 - The Go Programming Language](https://go.dev/blog/flight-recorder)
 
 - [[security] Go 1.25.1 and Go 1.24.7 are released](https://groups.google.com/g/golang-announce/c/PtW9VW21NPs)
+- [[security] Go 1.25.2 and Go 1.24.8 are released](https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI)
+- [[security] Vulnerabilities in golang.org/x/net](https://groups.google.com/g/golang-announce/c/jnQcOYpiR2c)
+- [Go 1.25.3 and Go 1.24.9 are released](https://groups.google.com/g/golang-announce/c/YEyj6FUNbik)
 
 ### 日本語情報
 
