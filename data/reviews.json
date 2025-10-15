@@ -33284,5 +33284,42 @@
       true
     ],
     "Description": "\u003ca href=\"https://www.youtube.com/watch?v=TO4W5iUe4Jw\"\u003eMV\u003c/a\u003e がカッコよくて速攻で買った。 mora で\u003ca href=\"https://mora.jp/package/43000066/CVRD-624H/\"\u003e高解像度版\u003c/a\u003eが買える。秋のイメージらしいがノリのいい曲。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0C19M9V6Y",
+      "Title": "ロックンロール TCP/IP シャツ | TCP/IP オタクシャツ Tシャツ",
+      "URL": "https://www.amazon.co.jp/dp/B0C19M9V6Y?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31LVmawgaDL._SL160_.jpg",
+        "Height": 149,
+        "Width": 160
+      },
+      "ProductType": "ウェア\u0026シューズ",
+      "Publisher": "TCP/IP Shirts",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0C19M9V6Y"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-09-29",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "SNS で見かけて衝動買いした。反省はしない（笑）"
   }
 ]
