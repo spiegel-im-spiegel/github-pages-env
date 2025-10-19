@@ -59,7 +59,7 @@ pageType = "photo"
 稲 WCS (Whole Crop Silage) あるいは稲発酵粗飼料というのは，飼料用に栽培した稲を茎葉ごと収穫して発酵飼料にしたものらしい。
 
 - [稲発酵粗飼料（稲ホールクロップサイレージ）について -- 飼料：農林水産省](https://www.maff.go.jp/j/chikusan/sinko/lin/l_siryo/index.html#wcs)
-- {{< pdf-file title="稲WCSを作りませんか？" link="https://www.maff.go.jp/hokuriku/nousei/niigata/attach/pdf/chirashi-4.pdf" >}}
+- {{< pdf-file title="稲WCSを作りませんか？" link="https://www.maff.go.jp/hokuriku/nousei/niigata/attach/pdf/chirashi-4.pdf" >}}: 新潟県の資料
 - [島根県：飼料イネの低コスト安定栽培法（トップ / しごと・産業 / 農林業 / 技術情報 / 農業技術情報 / 研究情報 / 研究成果 / センターだより）](https://www.pref.shimane.lg.jp/industry/norin/gijutsu/nougyo_tech/kenyui/kenkyu_seika/tayori/101-1.html)
 
 家畜用飼料の価格高騰への対策と稲作圃場の有効活用として今世紀に入ってから注目されているそうな。
