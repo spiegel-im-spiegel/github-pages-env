@@ -20,20 +20,20 @@ pageType = "text"
 package main
 
 import (
-	"flag"
-	"fmt"
-	"strings"
+    "flag"
+    "fmt"
+    "strings"
 )
 
 var n = flag.Bool("n", false, "omit trailing newline")
 var sep = flag.String("s", " ", "separator")
 
 func main() {
-	flag.Parse()
-	fmt.Print(strings.Join(flag.Args(), *sep))
-	if !*n {
-		fmt.Println()
-	}
+    flag.Parse()
+    fmt.Print(strings.Join(flag.Args(), *sep))
+    if !*n {
+        fmt.Println()
+    }
 }
 ```
 {{< /fig-quote >}}
@@ -59,9 +59,9 @@ May/the/Force/be/with/you
 ```text
 $ go run echo4.go -h
 Usage of /home/spiegel/.cache/go-build/06/06a6e71bb093bd1ebbb176c5042329730592597ae86dcb2ca99b3759e1aecb18-d/echo4:
-  -n	omit trailing newline
+  -n    omit trailing newline
   -s string
-    	separator (default " ")
+        separator (default " ")
 ```
 
 これらオプションの解析を行っているのが標準パッケージ [`flag`] である。
@@ -72,29 +72,29 @@ Usage of /home/spiegel/.cache/go-build/06/06a6e71bb093bd1ebbb176c504232973059259
 package main
 
 import (
-	"flag"
-	"fmt"
-	"strings"
+    "flag"
+    "fmt"
+    "strings"
 )
 
 type Flags struct {
-	N   bool
-	Sep string
+    N   bool
+    Sep string
 }
 
 func (f *Flags) Bind() {
-	flag.BoolVar(&f.N, "n", false, "omit trailing newline")
-	flag.StringVar(&f.Sep, "s", " ", "separator")
+    flag.BoolVar(&f.N, "n", false, "omit trailing newline")
+    flag.StringVar(&f.Sep, "s", " ", "separator")
 }
 
 func main() {
-	f := &Flags{}
-	f.Bind()
-	flag.Parse()
-	fmt.Print(strings.Join(flag.Args(), f.Sep))
-	if !f.N {
-		fmt.Println()
-	}
+    f := &Flags{}
+    f.Bind()
+    flag.Parse()
+    fmt.Print(strings.Join(flag.Args(), f.Sep))
+    if !f.N {
+        fmt.Println()
+    }
 }
 ```
 
@@ -105,36 +105,36 @@ func main() {
 package main
 
 import (
-	"flag"
-	"fmt"
-	"strings"
+    "flag"
+    "fmt"
+    "strings"
 )
 
 type Flags struct {
-	N    bool
-	Sep  string
-	Strs []string
+    N    bool
+    Sep  string
+    Strs []string
 }
 
 func (f *Flags) Bind() {
-	flag.BoolVar(&f.N, "n", false, "omit trailing newline")
-	flag.StringVar(&f.Sep, "s", " ", "separator")
+    flag.BoolVar(&f.N, "n", false, "omit trailing newline")
+    flag.StringVar(&f.Sep, "s", " ", "separator")
 }
 
 func Echo(f *Flags) {
-	fmt.Print(strings.Join(f.Strs, f.Sep))
-	if !f.N {
-		fmt.Println()
-	}
+    fmt.Print(strings.Join(f.Strs, f.Sep))
+    if !f.N {
+        fmt.Println()
+    }
 }
 
 func main() {
-	f := &Flags{}
-	f.Bind()
-	flag.Parse()
-	f.Strs = flag.Args()
+    f := &Flags{}
+    f.Bind()
+    flag.Parse()
+    f.Strs = flag.Args()
 
-	Echo(f)
+    Echo(f)
 }
 ```
 
@@ -155,37 +155,37 @@ func main() {
 package main
 
 import (
-	"flag"
-	"fmt"
-	"strings"
+    "flag"
+    "fmt"
+    "strings"
 
-	"github.com/hymkor/struct2flag"
+    "github.com/hymkor/struct2flag"
 )
 
 type Flags struct {
-	N    bool   `flag:"n,omit trailing newline"`
-	Sep  string `flag:"s,separator"`
-	Strs []string
+    N    bool   `flag:"n,omit trailing newline"`
+    Sep  string `flag:"s,separator"`
+    Strs []string
 }
 
 func NewFlags() *Flags {
-	return &Flags{N: false, Sep: " ", Strs: []string{}}
+    return &Flags{N: false, Sep: " ", Strs: []string{}}
 }
 
 func Echo(f *Flags) {
-	fmt.Print(strings.Join(f.Strs, f.Sep))
-	if !f.N {
-		fmt.Println()
-	}
+    fmt.Print(strings.Join(f.Strs, f.Sep))
+    if !f.N {
+        fmt.Println()
+    }
 }
 
 func main() {
-	f := NewFlags()
-	struct2flag.BindDefault(f)
-	flag.Parse()
-	f.Strs = flag.Args()
+    f := NewFlags()
+    struct2flag.BindDefault(f)
+    flag.Parse()
+    f.Strs = flag.Args()
 
-	Echo(f)
+    Echo(f)
 }
 ```
 
@@ -222,9 +222,9 @@ func main() {
 
 ```go
 type Flags struct {
-	N    bool   `flag:"n,omit trailing newline" json:"no_newline"`
-	Sep  string `flag:"s,separator" json:"separator"`
-	Strs []string
+    N    bool   `flag:"n,omit trailing newline" json:"no_newline"`
+    Sep  string `flag:"s,separator" json:"separator"`
+    Strs []string
 }
 ```
 
@@ -234,20 +234,20 @@ type Flags struct {
 const configPath = "echo/config.json"
 
 func main() {
-	f := NewFlags()
-	if conf, err := os.UserConfigDir(); err == nil {
-		if data, err := os.ReadFile(filepath.Join(conf, configPath)); err == nil {
-			if err := json.Unmarshal(data, f); err != nil {
-				fmt.Fprintln(os.Stderr, err)
-				return
-			}
-		}
-	}
-	struct2flag.BindDefault(f)
-	flag.Parse()
-	f.Strs = flag.Args()
+    f := NewFlags()
+    if conf, err := os.UserConfigDir(); err == nil {
+        if data, err := os.ReadFile(filepath.Join(conf, configPath)); err == nil {
+            if err := json.Unmarshal(data, f); err != nil {
+                fmt.Fprintln(os.Stderr, err)
+                return
+            }
+        }
+    }
+    struct2flag.BindDefault(f)
+    flag.Parse()
+    f.Strs = flag.Args()
 
-	Echo(f)
+    Echo(f)
 }
 ```
 
@@ -271,9 +271,9 @@ May/the/Force/be/with/you
 
 ```go
 type Flags struct {
-	N    bool   `flag:"n,omit trailing newline" env:"NO_NEWLINE"`
-	Sep  string `flag:"s,separator" env:"SEPARATOR"`
-	Strs []string
+    N    bool   `flag:"n,omit trailing newline" env:"NO_NEWLINE"`
+    Sep  string `flag:"s,separator" env:"SEPARATOR"`
+    Strs []string
 }
 ```
 
@@ -281,13 +281,13 @@ type Flags struct {
 
 ```go {hl_lines=[3]}
 func main() {
-	f := NewFlags()
-	struct2env.Bind(f)
-	struct2flag.BindDefault(f)
-	flag.Parse()
-	f.Strs = flag.Args()
+    f := NewFlags()
+    struct2env.Bind(f)
+    struct2flag.BindDefault(f)
+    flag.Parse()
+    f.Strs = flag.Args()
 
-	Echo(f)
+    Echo(f)
 }
 ```
 
@@ -298,12 +298,43 @@ $ env SEPARATOR=/ go run echo4f.go May the Force be with you
 May/the/Force/be/with/you
 ```
 
-まぁ，今回みたいにコマンドラインオプションと環境変数で同じ情報を取得するのはメリットが薄いかもしれないけど，ある値は環境変数から取得し別の値はコマンドラインから取得する，みたいな使い方はアリかなと思ったりする。
+まぁ，今回みたいにコマンドラインオプションと環境変数で同じ情報を取得するのはメリットが薄いかもしれないけど（Docker 環境では重宝するかも），ある値は環境変数から取得し別の値はコマンドラインから取得する，みたいな使い方はアリかなと思ったりする。
 ともかく，環境変数の情報を（構造体のタグ付けで）一度に取得できるのはかなり便利である。
+
+### 【2025-10-19 追記】別解
+
+[`struct2env`][`github.com/hymkor/struct2env`] ほど便利ではないが，一応別解もある。
+
+```go {hl_lines=["4-8"]}
+func main() {
+    f := NewFlags()
+    struct2flag.BindDefault(f)
+    flag.VisitAll(func(f *flag.Flag) {
+        if s := os.Getenv(strings.ToUpper(f.Name)); s != "" {
+            _ = f.Value.Set(s)
+        }
+    })
+    flag.Parse()
+    f.Strs = flag.Args()
+
+    Echo(f)
+}
+```
+
+これはオプション名と同名の環境変数を探して既定値としてセットするもので，実行するとこんな感じになる。
+
+```text
+$ env S=/ go run echo4g.go May the Force be with you
+May/the/Force/be/with/you
+```
+
+標準パッケージのみで構成できるのがメリットだが，このままだと1文字のオプション名もそのまま環境変数名として検索されることになるので，実際に使うには変換ルールを工夫する必要があるかもしれない。
+それを考えると [`struct2env`][`github.com/hymkor/struct2env`] のほうが自由度が高くていいかも。
 
 ## ブックマーク
 
 - [Goの構造体タグによるコマンドラインオプション・設定ファイル・環境変数の一元管理 - 標準愚痴出力](https://zetamatta.hatenablog.com/entry/2025/10/17/190842) : 作者による公式解説
+- [Big Sky :: Re: Goでコマンドライン引数と環境変数の両方からflagを設定したい](https://mattn.kaoriya.net/software/lang/go/20170609110526.htm)
 
 [Go]: https://go.dev/
 [`flag`]: https://pkg.go.dev/flag "flag package - flag - Go Packages"
