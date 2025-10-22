@@ -46,15 +46,15 @@ pageType = "text"
 
 ```text
 $ cd /usr/local/src
-$ sudo curl -LO "https://download.java.net/java/GA/jdk25/bd75d5f9689641da8e1daabeccb5528b/36/GPL/openjdk-25_linux-x64_bin.tar.gz"
+$ sudo curl -LO "https://download.java.net/java/GA/jdk25.0.1/2fbf10d8c78e40bd87641c434705079d/8/GPL/openjdk-25.0.1_linux-x64_bin.tar.gz"
 $ cd ..
 $ sudo unlink java # 以前のバージョンの Java 環境がある場合
-$ sudo tar xvf src/openjdk-25_linux-x64_bin.tar.gz
-$ sudo ln -s jdk-25 java
+$ sudo tar xvf src/openjdk-25.0.1_linux-x64_bin.tar.gz
+$ sudo ln -s jdk-25.0.1 java
 $ java -version # すでに PATH が通っている場合
-openjdk version "25" 2025-09-16
-OpenJDK Runtime Environment (build 25+36-3489)
-OpenJDK 64-Bit Server VM (build 25+36-3489, mixed mode, sharing)
+openjdk version "25.0.1" 2025-10-21
+OpenJDK Runtime Environment (build 25.0.1+8-27)
+OpenJDK 64-Bit Server VM (build 25.0.1+8-27, mixed mode, sharing)
 ```
 
 私としては [PlantUML] が動けばいいので，試しておく[^puml1]。
@@ -66,6 +66,8 @@ OpenJDK 64-Bit Server VM (build 25+36-3489, mixed mode, sharing)
 よーし，うむうむ，よーし。
 
 ## ブックマーク
+
+- [OpenJDK Vulnerability Advisory: 2025/10/21](https://openjdk.org/groups/vulnerability/advisories/2025-10-21) : JDK 25.0.1 がリリース
 
 - [Introducing Canonical builds of OpenJDK](https://canonical.com/blog/introducing-canonical-builds-of-openjdk)
   - [Ubuntu Linux向けの新しいビルドセット「⁠Canonical builds of OpenJDK」が登場|CodeZine（コードジン）](https://codezine.jp/news/detail/21857)
