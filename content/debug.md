@@ -37,11 +37,11 @@ draft = true
     - PDF : {{< pdf-file title="CRYPTREC Report 2018: 暗号技術評価委員会報告" link="https://www.cryptrec.go.jp/report/cryptrec-rp-2000-2018.pdf" >}}
 2. 番号付きリスト2
 
-{{< div-box type="markdown" >}}
+箇条書きをクラウド表示↓
+
 - &#x845B; (U+845B)
 - &#x845B;&#xE0100; (U+845B U+E0100)
 { .cloud .center .huge }
-{{< /div-box >}}
 
 ### 定義リスト
 
@@ -80,7 +80,9 @@ More importantly, this technology paves the way down the road for Kagi to share 
 
 {{< fig-img src="/images/attention/summer.jpg" title="In the beach" link="/images/attention/summer.jpg" width="640" >}}
 
-{{< fig-youtube id="Yh1_wHdUx3Y" title="Comet NEOWISE from ISS - YouTube" >}}
+YouTube のキャプションは当面，引用形式の表記とする。
+
+{{< fig-youtube id="Yh1_wHdUx3Y" title="Comet NEOWISE from ISS - YouTube" lang="en" >}}
 
 {{< comparable-security-strengths >}}
 
@@ -214,8 +216,8 @@ gitGraph
 
 | コードと表示                                                                                                                            |
 | --------------------------------------------------------------------------------------------------------------------------------------- |
-| `{{</* icons "github" "twitter" "twitter-sq" "mastodon" "bluesky" "strava" "medium" "tumblr" "instagram" "flickr" "facebook" "facebook-sq" "linkedin" "pocket" */>}}` |
-| {{< icons "github" "twitter" "twitter-sq" "mastodon"  "bluesky" "strava" "medium" "tumblr" "instagram" "flickr" "facebook" "facebook-sq" "linkedin" "pocket" >}}      |
+| `{{</* icons "github" "twitter" "twitter-sq" "x-twitter" "x-twitter-sq" "mastodon" "bluesky" "strava" "medium" "tumblr" "instagram" "flickr" "facebook" "facebook-sq" "linkedin" "pocket" */>}}` |
+| {{< icons "github" "twitter" "twitter-sq" "x-twitter" "x-twitter-sq" "mastodon"  "bluesky" "strava" "medium" "tumblr" "instagram" "flickr" "facebook" "facebook-sq" "linkedin" "pocket" >}}      |
 
 ### 汎用
 
