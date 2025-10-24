@@ -151,6 +151,7 @@ pageType = "text"
 
 - [はじめての空気圧チェック]({{< ref "/remark/2022/09/pound-force-per-square-inch.md" >}})
 - [チェーンお掃除を試してみる]({{< ref "/remark/2022/09/cleaning-the-chain.md" >}})
+- [自転車も早めにライトを点けよう，という噺]({{< ref "/remark/2025/10/turn-on-your-bike-lights-early.md" >}})
 
 ## 参考
 
