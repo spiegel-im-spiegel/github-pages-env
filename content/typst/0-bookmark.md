@@ -27,6 +27,7 @@ pageType = "text"
 - [Typst: Blog](https://typst.app/blog/)
   - [Typst 0.13 is out now – Typst Blog](https://typst.app/blog/2025/typst-0.13/)
   - [Typst: September Feature Drop: Adding folders and Review-only shares – Typst Blog](https://typst.app/blog/2025/folders-reviews/)
+  - [Typst: Typst 0.14: Now accessible – Typst Blog](https://typst.app/blog/2025/typst-0.14/)
 
 ## テンプレートやパッケージ等の情報
 

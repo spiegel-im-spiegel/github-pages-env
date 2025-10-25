@@ -44,6 +44,18 @@ Mastodon のアカウントもあるな。
 
 というわけで新たに [typst]({{< rlnk "/typst/" >}} "Typst のお勉強") セクションを設け，お勉強を通して [Typst] で出来ること出来ないことを探ってみることにする。
 
+{{< div-box type="markdown" >}}
+### 【2025-10-25 追記】
+
+バージョン 0.14 がリリースされた。
+
+- [Typst: Typst 0.14: Now accessible – Typst Blog](https://typst.app/blog/2025/typst-0.14/)
+
+以下に簡単に紹介している。
+
+- [Typst 0.14 がリリースされた]({{< ref "/release/2025/10/typst-0_14-is-released.md" >}})
+{{< /div-box >}}
+
 ## Typst とは
 
 “Typst” は「タイプスト」と読むらしい。
