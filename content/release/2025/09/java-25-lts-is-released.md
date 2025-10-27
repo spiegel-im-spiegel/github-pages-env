@@ -68,6 +68,7 @@ OpenJDK 64-Bit Server VM (build 25.0.1+8-27, mixed mode, sharing)
 ## ブックマーク
 
 - [OpenJDK Vulnerability Advisory: 2025/10/21](https://openjdk.org/groups/vulnerability/advisories/2025-10-21) : JDK 25.0.1 がリリース
+- [Oracle Critical Patch Update Advisory - October 2025](https://www.oracle.com/security-alerts/cpuoct2025.html) : Java を含む Oracle 製品の脆弱性情報
 
 - [Introducing Canonical builds of OpenJDK](https://canonical.com/blog/introducing-canonical-builds-of-openjdk)
   - [Ubuntu Linux向けの新しいビルドセット「⁠Canonical builds of OpenJDK」が登場|CodeZine（コードジン）](https://codezine.jp/news/detail/21857)
