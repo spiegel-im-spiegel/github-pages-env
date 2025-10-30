@@ -160,6 +160,8 @@ go version go1.25.3 linux/amd64
 - [Flight Recorder in Go 1.25 - The Go Programming Language](https://go.dev/blog/flight-recorder)
 - [The Green Tea Garbage Collector - The Go Programming Language](https://go.dev/blog/greenteagc)
 
+### アップデート情報
+
 - [[security] Go 1.25.1 and Go 1.24.7 are released](https://groups.google.com/g/golang-announce/c/PtW9VW21NPs)
 - [[security] Go 1.25.2 and Go 1.24.8 are released](https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI)
 - [[security] Vulnerabilities in golang.org/x/net](https://groups.google.com/g/golang-announce/c/jnQcOYpiR2c)
