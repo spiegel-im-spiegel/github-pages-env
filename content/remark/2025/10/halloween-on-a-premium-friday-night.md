@@ -70,6 +70,8 @@ func main() {
   - [漫画を担当：国の重要文化財『星学手簡』 解説漫画（国立天文台） | 松箱-matsbox-](https://mats-box.com/2023/10/26/20231026/)
 - [拝啓、暦の上から -koyomi.online- | 漫画家・松浦はこによる、暦の擬人化サイトです](https://koyomi.online/)
 
+- [「プレミアムフライデー」を求めるパッケージを作ってみた]({{< ref "/golang/premium-friday.md" >}})
+
 ## 参考図書
 
 {{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
