@@ -11,6 +11,12 @@ pageType = "text"
   mermaidjs = false
 +++
 
+{{< div-box type="markdown" >}}
+**【2025-11-01 追記】**
+
+少しだけ[活動を再開]({{< ref "/remark/2025/11/resuming-x-activity-just-a-little.md" >}} "𝕏 での活動を（少しだけ）再開します")した。
+{{< /div-box >}}
+
 突然ですが，今月以降 {{% emoji "X" %}} (旧 Twitter) での活動を休止します。
 実際には，ここ半年くらいの間，徐々に活動を縮小させていたので，大して変わらんのだけど。
 
