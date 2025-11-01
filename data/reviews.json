@@ -33321,5 +33321,48 @@
       false
     ],
     "Description": "SNS で見かけて衝動買いした。反省はしない（笑）"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B00I2KM06W",
+      "Title": "メタモルフォセス群島（新潮文庫）",
+      "URL": "https://www.amazon.co.jp/dp/B00I2KM06W?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/51CU16ToY-L._SL160_.jpg",
+        "Height": 160,
+        "Width": 120
+      },
+      "ProductType": "Kindle版",
+      "Creators": [
+        {
+          "Name": "筒井 康隆",
+          "Role": "著"
+        }
+      ],
+      "Publisher": "新潮社",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B00I2KM06W"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "2014-02-28",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-09-29",
+    "Rating": 4,
+    "Star": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "Description": "1976年に出版されたものの新版かな？ 11の短編で構成されていて，1977年に日本短編部門で星雲賞を受賞している。この中では「定年食」がグロくて好き。ラストで奥さんがナニを前に悩むシーンとか（笑）"
   }
 ]
