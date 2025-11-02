@@ -3,7 +3,7 @@ title = "十四夜の月（お散歩カメラ 2025-10-05）"
 date =  "2025-10-05T20:46:01+09:00"
 description = "久しぶり天一 → 柿ソフトクリーム / 十四夜の月"
 image = "/remark/2025/10/05-osanpo-camera/54833418514_0272705c8e_k.jpg"
-tags = [ "osanpo-camera", "photography", "matsue", "bike" ]
+tags = [ "osanpo-camera", "photography", "matsue", "bike", "moon" ]
 license = "by"
 pageType = "photo"
 
