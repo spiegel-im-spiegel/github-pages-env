@@ -1,6 +1,6 @@
 +++
 title = "豆名月（十三夜，季秋の名月？）"
-date =  "2025-11-02T18:03:14+09:00"
+date =  "2025-11-02T19:56:20+09:00"
 description = "今日の午後は天気が良さそうなので，温泉の後，お散歩へ"
 image = "/remark/2025/11/mame-meigetsu-on-the-thirteenth-night-of-late-autumn/54896094909_d2a20106c1_k.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "bike", "astronomy", "moon", "calendar" ]
