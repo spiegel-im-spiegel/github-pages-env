@@ -27,7 +27,7 @@ pageType = "photo"
 <div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3381084073490527840" data-full-width="true" data-style="standard" data-surface-type="true" data-map-hash="10.76/35.4227/132.9511" data-from-embed="true"></div><script src="https://strava-embeds.com/embed.js"></script>
 {{< /fig-quote >}}
 
-[ゴビウス][島根県立宍道湖自然館ゴビウス]からは北岸を通って松江市内に戻る[ルート]({{< ref "/remark/2024/11/16-osanpo-camera.md" >}} "お散歩カメラ 2024-11-16")は以前も通ったので割愛。
+[ゴビウス][島根県立宍道湖自然館ゴビウス]から北岸を通って松江市内に戻るルートは[以前も通った]({{< ref "/remark/2024/11/16-osanpo-camera.md" >}} "お散歩カメラ 2024-11-16")ので割愛。
 
 では，さっそく行ってみようか。
 
@@ -139,7 +139,7 @@ JR宍道駅も通過。
 ## 宍道湖南岸の道は意外と走りやすい
 
 国道9号線（バイパスじゃないほう）は自転車に優しくないイメージがあったが，少なくとも玉湯川から西側は自転車通行可能な歩道が整備されていてアップダウンも少なく走りやすかった。
-斐川町くらいまでなら苦もなく走れそうだ。
+斐川町くらいまでなら私でも苦もなく走れそうだ。
 これでまた少し行動範囲が広がったな。
 
 次はどこへ行こうか。
