@@ -32,7 +32,7 @@ draft = true
 ## 参考図書
 
 {{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
-{{% review-paapi "4814400047" %}} <!-- 初めてのGo言語 -->
+{{% review-paapi "4814401191" %}} <!-- 初めてのGo言語 第2版 -->
 {{% review-paapi "B0CFL1DK8Q" %}} <!-- Go言語 100Tips -->
 {{% review-paapi "4873118468" %}} <!-- Go言語による並行処理 -->
 {{% review-paapi "4873119979" %}} <!-- Go言語による分散サービス -->
