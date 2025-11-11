@@ -1,11 +1,10 @@
 +++
 title = "GitHub「変更不可リリース（Immutable Releases）」について"
-date =  "2025-11-11T10:25:44+09:00"
+date =  "2025-11-11T12:59:41+09:00"
 description = "私のリポジトリで採用するかどうかは分からないが，覚え書きとして記しておく。"
 image = "/images/attention/kitten.jpg"
 tags = [ "github", "engineering", "security", "risk", "management" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
