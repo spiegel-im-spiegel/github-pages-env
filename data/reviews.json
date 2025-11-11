@@ -33419,5 +33419,42 @@
       false
     ],
     "Description": "第2版。 Generics の説明が大幅に改訂されたらしい。練習問題も追加されている。"
+  },
+  {
+    "Book": {
+      "Type": "paapi",
+      "ID": "B0C1HT8XWY",
+      "Title": "Fediverseブロックワードマークデザイン。 Tシャツ",
+      "URL": "https://www.amazon.co.jp/dp/B0C1HT8XWY?tag=baldandersinf-22\u0026linkCode=ogi\u0026th=1\u0026psc=1",
+      "Image": {
+        "URL": "https://m.media-amazon.com/images/I/31mfLdFLwhL._SL160_.jpg",
+        "Height": 149,
+        "Width": 160
+      },
+      "ProductType": "ウェア\u0026シューズ",
+      "Publisher": "Under Design",
+      "Codes": [
+        {
+          "Name": "ASIN",
+          "Value": "B0C1HT8XWY"
+        }
+      ],
+      "PublicationDate": "",
+      "LastRelease": "",
+      "Service": {
+        "Name": "PA-APIv5",
+        "URL": "https://affiliate.amazon.co.jp/assoc_credentials/home"
+      }
+    },
+    "Date": "2025-11-11",
+    "Rating": 0,
+    "Star": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Description": "今のところはまだ買わずに思いとどまっている（笑）"
   }
 ]
