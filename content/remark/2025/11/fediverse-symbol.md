@@ -32,7 +32,7 @@ pageType = "text"
 {{% emoji "fediverse" %}} is called an [asterism](https://en.wikipedia.org/wiki/Asterism_(typography)). In astronomy, it refers to groups of stars in the sky, akin to constellations. We suggest that it’s a very fitting symbol for the fediverse, a galaxy of interconnected spaces which is decentralised and has an astronomically-themed name. It represents several stars coming together, connecting but each their own, without a centre.
 {{< /fig-quote >}}
 
-“Fediverse” のシンボルというかロゴマークとしてはあのカラフルな五芒星が有名だが，これも決定されたものではなく proposal な状態らしい。
+“Fediverse” のシンボルというかロゴマークとしては[あのカラフルな五芒星](https://commons.wikimedia.org/wiki/File:Fediverse_logo_proposal.svg "File:Fediverse logo proposal.svg - Wikimedia Commons")が有名だが，これも決定されたものではなく proposal な状態らしい。
 このシンボルについても
 
 {{< fig-quote title="fediverse symbol ⁂" link="https://symbol.fediverse.info/" lang="en" >}}
