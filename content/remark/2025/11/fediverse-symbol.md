@@ -54,7 +54,7 @@ The pentagram icon is the original symbol for the fediverse, created back in 201
 まぁ [Reddit の反応](https://www.reddit.com/r/fediverse/comments/1ezorr7/a_symbol_for_the_fediverse/ "A symbol for the fediverse ⁂ : r/fediverse")を見ると「猫の尻穴」とか言われてて笑ってしまったが[^a1]。
 私は「森」に空目してしまう（笑）
 
-[^f1]: Federation はもともと「連合」とか「連邦」とか組織や国家の形態を指す言葉だが， IT 分野では異なる複数のシステム・サービスが特定のプロトコルに基づいて相互に連携・通信する仕組みを指すことが多い。日本語ではそのまま「フェデレーション」とカタカナで書かれることが多いが Mastodon アプリなどでは「連邦」とか訳されていて ？？？ となった思い出がある。
+[^f1]: Federation はもともと「連合」とか「連邦」とか組織や国家の形態を指す言葉だが， IT 分野では異なる複数のシステム・サービスが特定のプロトコルに基づいて相互に連携・通信する仕組みを指すことが多い。日本語ではそのまま「フェデレーション」とカタカナで書かれることが多いが Mastodon アプリなどでは「連合」とか訳されていて ？？？ となった思い出がある。
 [^a1]: それ言うたら，最近流行りの生成 AI サービスのロゴとか思い切り尻穴じゃん！ 海外の人は尻穴好きなんかね（笑）
 
 [Mastodon の TL](https://typo.social/@FediverseSymbol "Fediverse Symbol ⁂ (@FediverseSymbol@typo.social) - typo.social") を眺めると {{% emoji "fediverse" %}} はそれなりに使われているっぽいので，そのうち定着するかもしれない。
