@@ -57,9 +57,11 @@ TeX や [Typst](https://typst.app/docs/reference/symbols/ "Symbols – Typst Doc
 あと和文の倍角ダッシュに U+2015 を並べて使う場合もあるみたいで，簡単な話ではないっぽい。
 たとえば奥村晴彦さんが書かれた『[LaTeX美文書作成入門](https://www.amazon.co.jp/dp/4297138891?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "［改訂第9版］LaTeX美文書作成入門 | 奥村 晴彦, 黒木 裕介 |本 | 通販 | Amazon")』では，倍角ダッシュを U+2015 を使って
 
+{{< fig-quote class="nobox" type="markdown" title="『［改訂第9版］LaTeX美文書作成入門』4.8節" link="https://www.amazon.co.jp/dp/4297138891?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1" >}}
 ```tex
 \def\――{―\kern-.5zw―\kern-.5zw―}
 ```
+{{< /fig-quote >}}
 
 というコマンドを定義すれば文字と文字の間の隙間を潰せると紹介している。
 U+2015 の文字を全角2文字分の幅で3つ重ねて繋がってるように見せるのね。
