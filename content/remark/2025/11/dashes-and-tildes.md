@@ -60,7 +60,7 @@ TeX や [Typst](https://typst.app/docs/reference/symbols/ "Symbols – Typst Doc
 
 似たような話に和文の「波ダッシュ」と「全角チルダ」がある。
 
-| 字形 | Unicode | 名前 |
+| 字形 | コードポイント | 名前 |
 | :---: | --- | --- |
 | 〜 | `U+301C` | WAVE DASH |
 | ～ | `U+FF5E` | FULLWIDTH TILDE |
