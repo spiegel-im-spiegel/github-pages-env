@@ -13,7 +13,7 @@ pageType = "photo"
   jsx = false
 +++
 
-[tenki.jp](https://tenki.jp/ "日本気象協会 tenki.jp / 天気予報・地震・台風") で「紅葉見頃情報」を見ると大根島にある{{% ruby "ゆうしえん" %}}[由志園]{{% /ruby %}}の紅葉が見頃とあったので，運動がてら行ってみることにした。
+[tenki.jp](https://tenki.jp/ "日本気象協会 tenki.jp / 天気予報・地震・台風") で「紅葉見頃情報」を見ると[大根島]にある{{% ruby "ゆうしえん" %}}[由志園]{{% /ruby %}}の紅葉が見頃とあったので，運動がてら行ってみることにした。
 
 
 ## 大根島遊覧
@@ -36,7 +36,7 @@ pageType = "photo"
 
 {{< fig-img src="./54925754162_46f7597a70_e.jpg" title="大山と中海大橋 | Flickr" link="https://www.flickr.com/photos/spiegel/54925754162/" >}}
 
-ほどなく大根島に入ったのだが，ほとんどノープランで出てきてしまったので，まずは南岸を反時計回りに走ってみる。
+ほどなく[大根島]に入ったのだが，ほとんどノープランで出てきてしまったので，まずは南岸を反時計回りに走ってみる。
 おっ[幽鬼洞]なんてのがあるのか。
 
 {{< fig-img src="./54926827593_37d948d1dc_e.jpg" title="熔岩洞窟 幽鬼洞へ | Flickr" link="https://www.flickr.com/photos/spiegel/54926827593/" >}}
@@ -53,11 +53,11 @@ pageType = "photo"
 
 {{< fig-img src="./54926829778_a520f5a93d_e.jpg" title="熔岩洞窟 幽鬼洞 | Flickr" link="https://www.flickr.com/photos/spiegel/54926829778/" >}}
 
-大根島の地下には，こうした熔岩トンネルが縦横無尽に走っているらしい。
+[大根島]の地下には，こうした熔岩トンネルが縦横無尽に走っているらしい。
 
 ## 由志園へ
 
-[幽鬼洞]を後にして，大根島を適当に散策する。
+[幽鬼洞]を後にして，[大根島]を適当に散策する。
 
 {{< fig-img src="./54926934380_3e48278133_e.jpg" title="大根島 | Flickr" link="https://www.flickr.com/photos/spiegel/54926934380/" >}}
 
@@ -70,6 +70,9 @@ pageType = "photo"
 ありがたや。
 まぁ，私の他に自転車を駐めてる人はいなかったけどね（笑）
 
+[由志園]は典型的な日本庭園で，実際に庭園の中を散策できるようになっている。
+庭園の中に食事処もあるんだけど，要予約っぽい。
+あと，[大根島]の歴史や名産物を紹介する展示エリアもある。
 入場料は大人1人1,200円（税込）。
 
 {{< fig-img src="./54926910576_3a4733c3ff_e.jpg" title="由志園 入場チケット | Flickr" link="https://www.flickr.com/photos/spiegel/54926910576/" >}}
@@ -124,6 +127,7 @@ pageType = "photo"
 
 お疲れ様でした。
 
+[大根島]: https://kankou-daikonshima.jp/ "大根島観光"
 [由志園]: https://www.yuushien.com/ "日本庭園【 由志園 】公式サイト｜牡丹と高麗人蔘の里"
 [幽鬼洞]: https://kankou-daikonshima.jp/tourist_info/lava_tunnels/lava_tunnels_01 "特別天然記念物「大根島熔岩隧道」幽鬼洞 | 大根島"
 [道の駅本庄]: https://michinoeki-honjou.jp/ "道の駅本庄 公式ホームページ|島根県|山陰観光|弁慶生誕の地|休憩|軽食|トイレ"
