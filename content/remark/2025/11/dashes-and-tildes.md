@@ -141,7 +141,7 @@ The semantics of U+2019 are therefore context dependent. For example, if surroun
 
 さらにさらに，文字装飾用アポストロフィとして U+02BC (MODIFIER LETTER APOSTROPHE) もあるそうで，これはヘブライ語などの翻字に使ったり国際音声記号として使ったりするらしい。
 他にも U+055A (ARMENIAN APOSTROPHE) とか U+07F4 (NKO HIGH TONE APOSTROPHE) とかいった文字もあるそうで，日本語だと全角文字 U+FF07 (FULLWIDTH APOSTROPHE) も別に定義されている。
-ホンマ，勘弁してくだい `orz`
+ホンマ，勘弁してください `orz`
 
 それはともかく，生成 AI がアポストロフィやシングルクォーテーションに U+2019 を律儀に使ってる（可能性が高い）のに対し，人間様はキーボード入力の U+0027 をそのまま使ってる（可能性が高い）わけで，文字コード的に真っ当な文章のほうが AI 由来だとして迫害される（かもしれない）のは，なかなかに狂っている。
 
