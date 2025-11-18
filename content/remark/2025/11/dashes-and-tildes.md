@@ -103,7 +103,7 @@ U+2015 の文字を全角2文字分の幅で3つ重ねて繋がってるよう�
 <iframe src="https://mstdn.jp/@zetamatta/115566226345217152/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://mstdn.jp/embed.js" async="async"></script>
 {{< /fig-quote >}}
 
-というポストがあって思わず脊髄反射してしまったのだが，（実際のところは分からないが）いかにもありそうな話ではある。
+という[ポスト](https://mstdn.jp/@zetamatta/115566226345217152)があって思わず脊髄反射してしまったのだが，（実際のところは分からないが）いかにもありそうな話ではある。
 
 ちなみに Unicode では
 
