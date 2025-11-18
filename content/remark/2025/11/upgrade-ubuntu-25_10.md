@@ -83,10 +83,12 @@ LOGO=ubuntu-logo
     - [v24]({{< ref "/release/2025/05/nodejs-v24-is-released.md" >}} "Node.js v24 がリリースされた") LTS 版を選択
 - [x] [pgAdmin 4]
   - [Download](https://www.pgadmin.org/download/pgadmin-4-apt/)
-- [ ] [PPA] 版 [KeePassXC]
-  - [KeePassXC : Janek Bevendorff](https://launchpad.net/~phoerious/+archive/ubuntu/keepassxc)
+- [ ] ~~[PPA] 版 [KeePassXC]~~
+  - ~~[KeePassXC : Janek Bevendorff](https://launchpad.net/~phoerious/+archive/ubuntu/keepassxc)~~
 - [x] [VS Code]
   - [Running Visual Studio Code on Linux](https://code.visualstudio.com/docs/setup/linux)
+- [x] [PPA] 版 [Ungoogled Chromium]
+  - [xtradeb applications](https://launchpad.net/~xtradeb/+archive/ubuntu/apps "xtradeb applications : “xtradeb packaging” team")
 
 今回も楽でよかった。
 
@@ -97,6 +99,9 @@ LOGO=ubuntu-logo
   - [Ubuntu 25.10 その33 - Ubuntu 25.10 の新機能と変更点・既知の問題 - kledgeb](https://kledgeb.blogspot.com/2025/10/ubuntu-2510-33-ubuntu-2510.html)
   - [Ubuntu 25.10 その34 - Ubuntu 25.10 の注目機能 - kledgeb](https://kledgeb.blogspot.com/2025/10/ubuntu-2510-34-ubuntu-2510.html)
   - [Ubuntu 25.10 その37 - Ubuntu 25.10 で導入されたセキュリティーの強化とまとめ - kledgeb](https://kledgeb.blogspot.com/2025/10/ubuntu-2510-37-ubuntu-2510.html)
+
+- [How to Install KeePassXC on Ubuntu 24.04, 22.04, or 20.04 - LinuxCapable](https://linuxcapable.com/how-to-install-keepassxc-on-ubuntu-linux/) : 忘れないうちにメモ
+- [How to Install Ungoogled Chromium on Ubuntu 24.04, 22.04 or 20.04 - LinuxCapable](https://linuxcapable.com/how-to-install-ungoogled-chromium-on-ubuntu-linux/) : 忘れないうちにメモ
 
 [Ubuntu]: https://www.ubuntu.com/ "The leading operating system for PCs, IoT devices, servers and the cloud | Ubuntu"
 [PPA]: https://launchpad.net/ubuntu/+ppas "Personal Package Archives : Ubuntu"
@@ -110,6 +115,7 @@ LOGO=ubuntu-logo
 [Docker]: https://www.docker.com/ "Empowering App Development for Developers | Docker"
 [pgAdmin 4]: https://www.pgadmin.org/ "pgAdmin - PostgreSQL Tools"
 [VS Code]: https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined"
+[Ungoogled Chromium]: https://github.com/ungoogled-software/ungoogled-chromium "ungoogled-software/ungoogled-chromium: Google Chromium, sans integration with Google"
 
 ## 参考
 
