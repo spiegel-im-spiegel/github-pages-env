@@ -140,13 +140,17 @@ Market Firefox as “The best AI browser for people who hate Big AI”. Regular 
 というわけで，最初に戻る。
 果たして Mozilla Firefox はどこへ行くのだろう？
 
-このまま Mozilla がどっちつかずの態度のままブラウザ市場におけるプレゼンスを縮小させていくのであれば，いっそ今からでも [Orion](https://kagi.com/orion/ "Orion Browser by Kagi") か [Zen](https://zen-browser.app/) あたりに鞍替えするのが無難だろうか[^o1]。
+このまま Mozilla Firefox がどっちつかずの態度のままブラウザ市場におけるプレゼンスを縮小させていくのであれば，いっそ今からでも [Orion] か [Zen] あたりに鞍替えするのが無難だろうか[^o1]。
 
-[^o1]: 手元にある [MacBook Air]({{< ref "/remark/2024/05/get-a-used-pc-from-workplace.md" >}} "勤務先からの払い下げ PC") には既に [Orion](https://kagi.com/orion/ "Orion Browser by Kagi") を入れている。 Linux 版の登場を待ってます！
+[^o1]: 手元にある [MacBook Air]({{< ref "/remark/2024/05/get-a-used-pc-from-workplace.md" >}} "勤務先からの払い下げ PC") には既に [Orion](https://kagi.com/orion/ "Orion Browser by Kagi") を入れている。 Linux 版の登場を待ってます！ ちなみに [Orion] は WebKit ベースのブラウザで [Zen] は Firefox をベースにカスタマイズされている。また Google Chromium から Google Web サービス依存部分を除去した [ungoogled-chromium] ってのもあって，こちらは（動作検証用に）自宅機に入れている。
 
 ## ブックマーク
 
 - [Web のコストは誰が支払うのか]({{< ref "/remark/2025/03/who-pays-for-web-costs.md" >}})
+
+[Orion]: https://kagi.com/orion/ "Orion Browser by Kagi"
+[Zen]: https://zen-browser.app/ "Zen Browser"
+[ungoogled-chromium]: https://github.com/ungoogled-software/ungoogled-chromium "ungoogled-software/ungoogled-chromium: Google Chromium, sans integration with Google"
 
 ## 参考
 
