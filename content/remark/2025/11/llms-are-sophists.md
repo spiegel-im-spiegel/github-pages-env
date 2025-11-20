@@ -116,7 +116,7 @@ Anno was RECENTLY [elected](https://mainichi.jp/english/articles/20250720/p2a/00
 Team Mirai has yet to prove that it can get a second member elected to the Japanese Diet, let alone to win substantial power, but they’re innovating and demonstrating new ways of using AI to give people a way to participate in politics that we believe is likely to spread.
 {{< /fig-quote >}}
 
-2026年は米国では中間選挙の歳であると同時に建国250周年なんだそうで。
+2026年は米国では中間選挙の年であると同時に建国250周年なんだそうで。
 これに合わせ「AI による組織化（Organizing with AI）」についても色々と動きがあるだろうと締めている。
 
 ## ブックマーク
