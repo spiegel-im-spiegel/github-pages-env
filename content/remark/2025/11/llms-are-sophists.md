@@ -122,6 +122,7 @@ Team Mirai has yet to prove that it can get a second member elected to the Japan
 ## ブックマーク
 
 - [The Dangers of AI-Generated Romance | Psychology Today](https://www.psychologytoday.com/us/blog/its-not-just-in-your-head/202408/the-dangers-of-ai-generated-romance)
+- [Rewiring Democracy - Schneier on Security](https://www.schneier.com/books/rewiring-democracy/)
 
 [Kagi Search]: https://kagi.com/ "Kagi Search"
 [Assistant]: https://kagi.com/assistant "The Assistant"
