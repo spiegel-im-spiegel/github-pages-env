@@ -1,12 +1,11 @@
 +++
 title = "松江城で紅葉狩り（お散歩カメラ 2025-11-22）"
-date =  "2025-11-22T17:42:38+09:00"
+date =  "2025-11-22T18:51:23+09:00"
 description = "温泉と紅葉狩り"
 image = "/remark/2025/11/autumn-leaves-at-matsue-catle/54938276487_a91b64a83c_k.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "bike" ]
 license = "by"
 pageType = "photo"
-draft = true
 
 [scripts]
   mathjax = false
