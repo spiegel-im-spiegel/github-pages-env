@@ -335,6 +335,7 @@ May/the/Force/be/with/you
 
 - [Goの構造体タグによるコマンドラインオプション・設定ファイル・環境変数の一元管理 - 標準愚痴出力](https://zetamatta.hatenablog.com/entry/2025/10/17/190842) : 作者による公式解説
 - [Big Sky :: Re: Goでコマンドライン引数と環境変数の両方からflagを設定したい](https://mattn.kaoriya.net/software/lang/go/20170609110526.htm)
+- [hymkor/struct2flag から fork した goark/struct2pflag をリリースした]({{< ref "/release/2025/11/struct2pflag-is-released.md" >}})
 
 [Go]: https://go.dev/
 [`flag`]: https://pkg.go.dev/flag "flag package - flag - Go Packages"
