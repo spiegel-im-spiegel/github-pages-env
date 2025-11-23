@@ -58,7 +58,7 @@ May/the/Force/be/with/you
 
 ```text
 $ go run echo4.go -h
-Usage of /home/spiegel/.cache/go-build/06/06a6e71bb093bd1ebbb176c5042329730592597ae86dcb2ca99b3759e1aecb18-d/echo4:
+Usage of /home/username/.cache/go-build/06/06a6e71bb093bd1ebbb176c5042329730592597ae86dcb2ca99b3759e1aecb18-d/echo4:
   -n    omit trailing newline
   -s string
         separator (default " ")
