@@ -121,4 +121,9 @@ Usage of /tmp/go-build1365887832/b001/exe/echo4b:
 [`goark/struct2pflag`]: https://github.com/goark/struct2pflag "goark/struct2pflag: `struct2pflag` automatically registers struct fields as flags for your Go command-line tools."
 [`flag`]: https://pkg.go.dev/flag "flag package - flag - Go Packages"
 [`spf13/pflag`]: https://github.com/spf13/pflag "spf13/pflag: Drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags."
-<!-- eof -->
+
+## 参考図書
+
+{{% review-paapi "4814401191" %}} <!-- 初めてのGo言語 第2版 -->
+{{% review-paapi "B0CFL1DK8Q" %}} <!-- Go言語 100Tips -->
+{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
