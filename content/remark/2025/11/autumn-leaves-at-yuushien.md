@@ -3,7 +3,7 @@ title = "由志園で紅葉狩り（お散歩カメラ 2025-11-16）"
 date =  "2025-11-16T19:49:42+09:00"
 description = "大根島遊覧 / 由志園へ / 道の駅本庄を経由して帰宅"
 image = "/remark/2025/11/autumn-leaves-at-yuushien/54926534606_e565cb75fb_k.jpg"
-tags = [ "osanpo-camera", "photography", "matsue", "bike" ]
+tags = [ "osanpo-camera", "photography", "matsue", "bike", "museum" ]
 license = "by"
 pageType = "photo"
 
@@ -13,8 +13,11 @@ pageType = "photo"
   jsx = false
 +++
 
-[tenki.jp](https://tenki.jp/ "日本気象協会 tenki.jp / 天気予報・地震・台風") で「紅葉見頃情報」を見ると[大根島]にある{{% ruby "ゆうしえん" %}}[由志園]{{% /ruby %}}の紅葉が見頃とあったので，運動がてら行ってみることにした。
+- [由志園で紅葉狩り]({{< relref "./autumn-leaves-at-yuushien.md" >}}) ← イマココ
+- [松江城で紅葉狩り]({{< relref "./autumn-leaves-at-matsue-catle.md" >}})
+- [足立美術館で紅葉狩り]({{< relref "./autumn-leaves-at-adachi-museum-of-art.md" >}})
 
+[tenki.jp](https://tenki.jp/ "日本気象協会 tenki.jp / 天気予報・地震・台風") で「紅葉見頃情報」を見ると[大根島]にある{{% ruby "ゆうしえん" %}}[由志園]{{% /ruby %}}の紅葉が見頃とあったので，運動がてら行ってみることにした。
 
 ## 大根島遊覧
 

@@ -3,7 +3,7 @@ title = "松江城で紅葉狩り（お散歩カメラ 2025-11-22）"
 date =  "2025-11-22T18:51:23+09:00"
 description = "温泉と紅葉狩り"
 image = "/remark/2025/11/autumn-leaves-at-matsue-catle/54938276487_a91b64a83c_k.jpg"
-tags = [ "osanpo-camera", "photography", "matsue", "bike" ]
+tags = [ "osanpo-camera", "photography", "matsue", "bike", "castle" ]
 license = "by"
 pageType = "photo"
 
@@ -12,6 +12,10 @@ pageType = "photo"
   mermaidjs = false
   jsx = false
 +++
+
+- [由志園で紅葉狩り]({{< relref "./autumn-leaves-at-yuushien.md" >}})
+- [松江城で紅葉狩り]({{< relref "./autumn-leaves-at-matsue-catle.md" >}}) ← イマココ
+- [足立美術館で紅葉狩り]({{< relref "./autumn-leaves-at-adachi-museum-of-art.md" >}})
 
 今日は自転車で出かけようと思うのだが，例によってノープラン。
 とりあえず温泉と紅葉狩りかな。
@@ -67,3 +71,5 @@ pageType = "photo"
 
 {{% review-paapi "B08L4WKDZ7" %}} <!-- PowerShot ZOOM -->
 {{% review-paapi "B0BD7FGVR6" %}} <!-- GARMIN EDGE Explore 2 サイクルコンピュータ -->
+{{% review-paapi "B0FNVV83KN" %}} <!-- アワータイムイエロー Hour Time Yellow ReGLOSS -->
+{{% review-paapi "B0FKB9Y1GL" %}} <!-- 落噺 おとしばなし 儒烏風亭らでん -->
