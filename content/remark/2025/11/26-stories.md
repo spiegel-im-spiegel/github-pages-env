@@ -129,7 +129,7 @@ GitHub みたいに時差を表示してくれるんならまだ分かるけど�
 
 - [KeePassXC 2.7.11 released – KeePassXC](https://keepassxc.org/blog/2025-11-23-2.7.11-released/)
 
-この中で， Windows 版 KeePassXC 2.7.9 がフランスの国立情報システムセキュリティー庁（Agence Nationale de la Sécurité des Systèmes d’Information; ANSSI）の第一級セキュリティ認証（Certification De Sécurité De Premier Niveau; CSPN）に合格し，セキュリティビザを取得したと書かれている。
+この中で， Windows 版 KeePassXC 2.7.9 がフランスの国立情報システムセキュリティー庁（Agence Nationale de la Sécurité des Systèmes d’Information; ANSSI）の第一級セキュリティ認証（Certification de Sécurité de Premier Niveau; CSPN）に合格し，セキュリティビザを取得したと書かれている。
 
 {{< fig-img-quote src="./anssi-security-visa.png" title="KeePassXC Security Audits and Certifications – KeePassXC" link="https://keepassxc.org/audits/#cspn-2025-11-17" width="1227" lang="en" >}}
 
