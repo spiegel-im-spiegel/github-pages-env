@@ -48,11 +48,11 @@ Manifest-V3 でこの制限をうまく回避するる方法はないようで�
 {{< fig-quote class="nobox" type="markdown" title="Orion Browser by Kagi" link="https://kagi.com/orion/" lang="en">}}
 | Privacy comparison | Orion | Safari | Firefox | Brave | Chrome |
 | --- | :---: | :---: | :---: | :---: | :---: |
-| Zero telemetry by default | {{< emoji "チェック" >}} | {{< emoji "バツ" >}} | {{< emoji "バツ" >}} | {{< emoji "バツ" >}} | {{< emoji "バツ" >}} |
-| Blocking 1st party ads by default | {{< emoji "チェック" >}} | {{< emoji "バツ" >}} | {{< emoji "バツ" >}} | {{< emoji "バツ" >}} | {{< emoji "バツ" >}} |
-| Blocking 1st party trackers by default | {{< emoji "チェック" >}} | {{< emoji "バツ" >}} | {{< emoji "バツ" >}} | {{< emoji "バツ" >}} | {{< emoji "バツ" >}} |
-| Blocking 3rd party ads by default | {{< emoji "チェック" >}} | {{< emoji "バツ" >}} | {{< emoji "バツ" >}} | {{< emoji "チェック" >}} | {{< emoji "バツ" >}} |
-| Blocking 3rd party trackers by default | {{< emoji "チェック" >}} | {{< emoji "チェック" >}} | {{< emoji "チェック" >}} | {{< emoji "チェック" >}} | {{< emoji "バツ" >}} |
+| Zero telemetry by default | {{< emoji "チェック" >}} |  |  |  |  |
+| Blocking 1st party ads by default | {{< emoji "チェック" >}} |  |  |  |  |
+| Blocking 1st party trackers by default | {{< emoji "チェック" >}} |  |  |  |  |
+| Blocking 3rd party ads by default | {{< emoji "チェック" >}} |  |  | {{< emoji "チェック" >}} |  |
+| Blocking 3rd party trackers by default | {{< emoji "チェック" >}} | {{< emoji "チェック" >}} | {{< emoji "チェック" >}} | {{< emoji "チェック" >}} |  |
 {{< /fig-quote >}}
 
 残念ながら [Orion] ブラウザは WebKit ベースのため，今のところ macOS および iOS/iPadOS しか対応していない。
