@@ -62,6 +62,8 @@ Ideas, facts, and other building blocks of knowledge cannot be owned. Expanding 
 
 - [AI and the Commons: A Reading List - Creative Commons](https://creativecommons.org/2025/09/03/ai-and-the-commons-a-reading-list/)
 
+- [CCシグナルの紹介：AI時代の新たな社会契約 | クリエイティブ・コモンズ・ジャパン](https://creativecommons.jp/2025/07/27/introducing-cc-signals-a-new-social-contract-for-the-age-of-ai/)
+- [皆の声がCCシグナルを形作る：フィードバックへの回答 | クリエイティブ・コモンズ・ジャパン](https://creativecommons.jp/2025/09/19/we-asked-you-answered-how-your-feedback-shapes-cc-signals/)
 - [クリエイティブ・コモンズ、AIの健全な発展目指し「CC Signals」提案 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2506/27/news056.html)
 - [クリエイティブ・コモンズがAI対応の「CC Signals」発表、AIトレーニングへどう再利用可能か・不可かをコンテンツ所有者が詳細に指定できるフレームワーク - GIGAZINE](https://gigazine.net/news/20250627-cc-signals-ai/)
 - [AIスクレイパーボットへの対策と開かれたウェブのジレンマ – WirelessWire & Schrödinger's](https://wirelesswire.jp/2025/10/91475/)

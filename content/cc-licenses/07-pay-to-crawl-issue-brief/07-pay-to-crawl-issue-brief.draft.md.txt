@@ -1,0 +1,169 @@
+# Pay-To-Crawl
+
+"pay-to-crawl" の翻訳候補
+
+- **クローリング課金**：短く分かりやすい。技術文書や見出しに向く。 ※ Copilot 推奨
+- **クロール課金**：より短く，見出しやUIラベルに使いやすい（「クロール」が通じる前提）。
+- **クローラー課金**：主体（クローラー）に着目した言い方。運用・実装の文脈で自然。
+- **クローリング対価支払い**：やや説明的。法的・契約的な文書で使いやすい。
+- **クローラーへの自動報酬支払いシステム**：説明文や要約でそのまま使える日本語説明（長め）。
+
+# クローリング課金（Pay‑To‑Crawl）
+
+_A Creative Commons Issue Brief: Backgrounders on topics related to AI & the commons_
+
+_November 2025_
+
+Issue Brief → 問題（課題）の概要？
+
+G: _Creative Commons イシューブリーフ：AI とコモンズに関連するトピックの背景説明_
+
+K: _クリエイティブ・コモンズ Issue Brief：AIとコモンズに関連するトピックの背景解説_
+
+_2025年11月_
+
+Pay-to-crawl refers to emerging technical systems used by websites to automate compensation for when their digital content—such as text, images, and structured data—is accessed by machines.
+
+G: クローリング課金は，ウェブサイトがテキスト，画像，構造化データなどのデジタルコンテンツに機械がアクセスした際に，そのアクセスに対して自動的に報酬を支払うために使用する，新たに登場している技術的システムを指します。
+
+K: ペイ・トゥ・クロール（有料クロール）とは，ウェブサイトが，テキスト，画像，構造化データなどのデジタルコンテンツに機械がアクセスした際の対価の支払いを自動化するために使用する，新たに登場した技術システムを指します。
+
+## Introduction
+
+## はじめに
+
+While machine access of digital content is not entirely new, pay-to-crawl systems have emerged in response to [the disruption caused by large artificial intelligence (AI) models accessing vast amounts of content](https://creativecommons.org/wp-content/uploads/2025/06/Human-Content-to-Machine-Data_Final.pdf) without permission, attribution, or compensation.
+
+G: 機械によるデジタルコンテンツへのアクセス自体はまったく新しいものではありませんが，クローリング課金システムは，大規模な人工知能（AI）モデルが膨大な量のコンテンツに許可・帰属・報酬なしにアクセスすることによる混乱に対応して登場してきました。
+
+K: 機械によるデジタルコンテンツへのアクセスは全く新しいものではありませんが，大規模な人工知能（AI）モデルが許可や出典の明記，対価の支払いなしに膨大な量のコンテンツにアクセスすることで生じた混乱に対応するため，ペイ・トゥ・クロール（有料クロール）というシステムが出現しました。
+
+Pay-to-crawl systems are described as addressing issues including increased hosting costs for websites, reductions in traffic and visibility brought about by AI-enabled search, and the undermining of referral and advertising-based business models.
+
+G: クローリング課金システムは，ウェブサイトのホスティングコストの増加，AIを活用した検索によるトラフィックや可視性の低下，リファーラルや広告ベースのビジネスモデルの弱体化といった問題に対処するものとして説明されます。
+
+K: ペイ・トゥ・クロール（有料クロール）というシステムは，ウェブサイトのホスティング費用の増加，AI検索によってもたらされるトラフィックと可視性の低下，そして紹介や広告ベースのビジネスモデルの崩壊といった問題に対処するものとされています。
+
+Viewed through a wider lens, pay-to-crawl systems represent one of the latest incarnations of content monetization and control, combining elements of paywall, digital rights management (DRM), and micropayment approaches.
+
+G: より広い観点から見ると，クローリング課金システムは，ペイウォール，デジタル著作権管理（DRM），マイクロペイメントの要素を組み合わせた，コンテンツの収益化と制御の最新の形態の一つを表しています。
+
+K: より広い視野で見れば，ペイ・トゥ・クロールというシステムは，ペイウォール，デジタル著作権管理（DRM），そしてマイクロペイメントのアプローチの要素を組み合わせた，コンテンツの収益化と管理における最新の具現化の一つであると言えます。
+
+## How Pay-To-Crawl Systems Work
+
+## クローリング課金システムの仕組み
+
+Not all pay-to-crawl systems work in the same way. Some systems, for example, are focused more on blocking machines from accessing content than making them pay. However, most systems tend to involve some combination of the following components:
+
+G: すべてのクローリング課金システムが同じ方式で動作するわけではありません。例えば，機械のアクセスをブロックすることに重点を置くシステムもあれば，支払いを求めることを目的とするものもあります。しかし，多くのシステムは以下のような要素を組み合わせて運用される傾向があります。
+
+K: すべてのペイ・トゥ・クロールというシステムが同じように機能するわけではありません。例えば，システムによっては，マシンに料金を支払わせることよりも，コンテンツへのアクセスをブロックすることに重点を置いているものもあります。しかし，ほとんどのシステムは，以下の要素を何らかの形で組み合わせる傾向にあります。
+
+- **Authentication:** Pay-to-crawl systems require the person, organization, or product operating a machine seeking to access content to identify themselves. Many systems use cryptographic authentication rather than methods that operators of machines have proven able to circumvent in the past, such as user agent strings or IP addresses.
+
+- G: **認証（Authentication）：** クローリング課金システムは，コンテンツにアクセスしようとする機械を操作する個人・組織・製品を識別することを要求します。多くのシステムは，ユーザーエージェントやIPアドレスのように回避されやすい方法ではなく，暗号学的な認証を用いています。
+
+- K: **認証：**ペイ・トゥ・クロールというシステムでは，コンテンツへのアクセスを求めるマシンを操作する個人，組織，または製品が，自身を識別することが要求されます。多くのシステムでは，過去にマシン運用者が回避可能だと証明してきたユーザーエージェント文字列やIPアドレスといった方法ではなく，暗号認証が使用されます。
+
+- **Access Control:** Pay-to-crawl systems set granular and functional rules to define which machines can access content, under what conditions, and whether access is freely enabled, blocked, or billed. Some systems allow websites to set rate limits, rather than fully block off access.
+
+- G: **アクセス制御（Access Control）：** どの機械がどの条件でコンテンツにアクセスできるか，無料で許可するか，ブロックするか，課金するかを定義する粒度の高いルールを設定します。サイト側が完全にアクセスを遮断するのではなく，レート制限を設定できるシステムもあります。
+
+- K: **アクセス制御：**ペイ・トゥ・クロールというシステムは，どのマシンが，どのような条件下で，コンテンツにアクセスできるか，そしてそのアクセスが無料で有効にされるか，ブロックされるか，または課金されるかを定義するために，詳細かつ機能的なルールを設定します。システムによっては，ウェブサイト側がアクセスを完全に遮断するのではなく，アクセス頻度の上限（レートリミット）を設定できるようになっているものもあります。
+
+- **Pricing & Contracting:** Pay-to-crawl systems define compensation for access, such as per page or by data volume, or on a subscription basis. Contracts are generally automated, sometimes using standardized licenses or terms. Terms are not only or always financial—they can involve attribution and other reuse obligations. Some systems enable collective bargaining on behalf of groups of websites.
+
+- G: **価格設定と契約（Pricing & Contracting）：** ページ単位やデータ量による課金，あるいはサブスクリプションなど，アクセスに対する対価を定義します。契約は自動化されることが多く，標準化されたライセンスや利用条件が用いられることもあります。条件は必ずしも金銭的なものだけでなく，帰属表示やその他の再利用義務を含む場合があります。複数のサイトを代表した集団交渉を可能にする仕組みを提供する場合もあります。
+
+- K: **価格設定と契約：**ペイ・トゥ・クロールというシステムは，アクセスに対する対価を，ページごと，データ量ごと，または定額制といった形で定めます。契約は一般的に自動化されており，標準化されたライセンスや規約が用いられることもあります。規約は金銭的なものだけとは限らず，帰属表示やその他の再利用に関する義務を伴う場合もあります。一部のシステムでは，ウェブサイトのグループを代表して団体交渉を行うことも可能です。
+
+- **Payment:** Pay-to-crawl systems provide mechanisms for payment, often using secure third-party processing services. Payment can be made directly and immediately to the website, or taken by an operator of the system, such as a web services provider, on their behalf.
+
+- G: **支払い（Payment）：** 安全な第三者決済サービスを利用するなど，支払いの仕組みを提供します。支払いはサイトへ直接即時に行われる場合もあれば，ウェブサービス事業者（ドメインホストやCDN等）が代行して受け取る場合もあります。
+
+- K: **支払い：**ペイ・トゥ・クロールというシステムは，多くの場合，安全な第三者決済サービスを利用した支払いメカニズムを提供します。支払いはウェブサイトに直接かつ即時に行われるか，またはウェブサービスプロバイダーのようなシステムの運営者がウェブサイトに代わって受け取ることも可能です。
+
+- **Content Delivery:** Upon authentication and payment, pay-to-crawl systems enable access to content, typically in formats optimized for machine consumption. Some systems enable encrypted access to non-public content.
+
+- G: **コンテンツ配信（Content Delivery）：** 認証と支払いが完了した後，機械消費に最適化された形式でコンテンツへのアクセスを可能にします。非公開コンテンツへの暗号化されたアクセスを提供するシステムもあります。
+
+- K: **コンテンツ配信：**認証と支払いが完了すると，ペイ・トゥ・クロールというシステムはコンテンツへのアクセスを可能にします。コンテンツは通常，機械での利用に最適化されたフォーマットで提供されます。システムによっては，非公開コンテンツへの暗号化されたアクセスを可能にするものもあります。
+
+- **Metering & Logging:** Pay-to-crawl systems often log information related to access and use of content to enable billing and some degree of auditability.
+
+- G: **計測とログ記録（Metering & Logging）：** 課金や監査のために，アクセスや利用に関する情報を記録する機能を備えていることが多いです。
+
+- K: **測定と記録：**ペイ・トゥ・クロールというシステムは，課金を可能にし，ある程度の監査性を確保するため，コンテンツへのアクセスや利用に関する情報を記録することがよくあります。
+
+The role of websites in developing and using pay-to-crawl systems varies. Some may choose to deploy such a system themselves, using emerging protocols and code. In other cases, pay-to-crawl systems are being developed as specialist, paid-for products, or introduced by web services providers (such as domain hosts and content delivery networks) on behalf of websites. As a result, pay-to-access systems vary in terms of their openness, standardization, and interoperability, as well as the permissiveness of their access controls and payment terms.
+
+G: サイトがクローリング課金システムを開発・導入する役割や方法は様々です。サイト自身でプロトコルやコードを用いて直接導入する場合もあれば，専門の有償製品として提供される場合，またはドメインホストやコンテンツ配信ネットワーク（CDN）などのウェブサービス事業者が代行して導入する場合もあります。その結果，クローリング課金（あるいはより広い意味の「クローリング対価支払い」）のシステムは，公開性，標準化，相互運用性，アクセス制御や支払い条件の緩さ・厳しさといった点で差異があります。
+
+K: ペイ・トゥ・クロールというシステムの開発と利用におけるウェブサイトの役割は様々です。新しいプロトコルやコードを使用して，このようなシステムを自ら導入することを選択する場合もあります。あるいは，専門的な有料製品として開発されたり，ウェブサイトに代わってウェブサービスプロバイダー（ドメインホストやコンテンツ配信ネットワークなど）によって導入されたりするケースもあります。その結果，ペイ・トゥ・アクセスというシステムは，その公開性，標準化，相互運用性，さらにはアクセスコントロールの許容度や支払い条件においても多岐にわたります。
+
+## Considerations
+
+## 考慮事項
+
+In the face of unprecedented consumption of digital content by large AI models—both in scale and in impact—the use of pay-to-crawl systems may help websites sustain the creation and publication of content, or tackle what they consider to be substitutive uses of their works. However, overbroad and indiscriminate use of pay-to-crawl systems could block off access to digital content for researchers, nonprofits, cultural heritage institutions, educators, and other actors working in the public interest; obstruct legitimate uses of content protected by copyright or other laws; and create new walled gardens, web gatekeepers, and excesses of power. Wide adoption of pay-to-crawl could ultimately represent a shift away from the spirit of the open web towards a more tightly controlled and monetized content ecosystem.
+
+G: 大規模なAIモデルによるデジタルコンテンツの前例のない規模と影響を前に，クローリング課金システムは，サイトがコンテンツの作成と公開を持続可能にする手段や，作品の代替的利用（substitutive uses）に対処する方法を提供する可能性があります。しかし，過度に広範で無差別なクローリング課金の導入は，研究者，非営利団体，文化遺産機関，教育者，公共の利益に資するその他の関係者のデジタルコンテンツへのアクセスを遮断する恐れがあり，著作権等で保護された正当な利用を妨げたり，新たなウォール化やウェブ上のゲートキーパー，権力の濫用を生む可能性があります。クローリング課金が広く採用されれば，オープンウェブの精神からより厳格に管理・収益化されたコンテンツエコシステムへのシフトをもたらすかもしれません。
+
+K: 大規模なAIモデルによるデジタルコンテンツの消費が，その規模においても影響においても前例のないものとなる中で，ペイ・トゥ・クロールというシステムの導入は，ウェブサイトがコンテンツの制作と公開を維持したり，著作物の代替的な利用と見なされるものに対処したりする一助となる可能性があります。しかしながら，ペイ・トゥ・クロールというシステムを過度に広範かつ無差別に利用することは，研究者，非営利団体，文化遺産機関，教育者，その他公益のために活動する人々によるデジタルコンテンツへのアクセスを遮断しかねません。また，著作権法やその他の法律で保護されたコンテンツの正当な利用を妨げ，新たなウォールド・ガーデン（壁に囲まれた庭），ウェブのゲートキーパー，そして権力の濫用を生み出す恐れもあります。ペイ・トゥ・クロールが広く採用されることは，最終的にオープンなウェブの精神から離れ，より厳しく管理され収益化されたコンテンツエコシステムへと移行することを意味するかもしれません。
+
+## Examples
+
+## 事例
+
+Examples of pay-to-crawl systems and related initiatives include: [Pay Per Crawl](https://blog.cloudflare.com/introducing-pay-per-crawl/) by Cloudflare, [AI RevShare](https://www.valyu.network/rev-share-partner-programme) by Valyu, [GistAttribution](https://gist.ai/#attribution) by ProRata, [Open Licensing Protocol](https://rslstandard.org/) by RSL and [TollBit](https://tollbit.com/).
+
+G: クローリング課金システムや関連イニシアティブの例としては，Cloudflare の Pay Per Crawl，Valyu の AI RevShare，ProRata の GistAttribution，RSL と TollBit の Open Licensing Protocol などがあります。
+
+K: クロール課金システムおよび関連する取り組みの例としては，Cloudflare社の「Pay Per Crawl」，Valyu社の「AI RevShare」，ProRata社の「istAttribution」，RSL社の「Open Licensing Protocol」，そして「TollBit」などが挙げられます。
+
+## Notes on Terminology
+
+## G: 用語についての注記
+
+## K: 用語に関する注記
+
+We’re choosing to use *pay-to-crawl* to describe these systems on account of the term already being widely used. We generally prefer the broader term *pay-to-access*, given that, technically speaking, there are many purposes and forms of machine access to content beyond crawling. Crawling does not, for example, adequately describe the process of extracting and making copies of content (often referred to as scraping), nor analyzing them to derive insights or patterns (text and data mining).
+
+G: 私たちは，用語として既に広く使われているため *pay-to-crawl* を本稿で使用していますが，技術的には機械によるコンテンツアクセスにはクロール以外の目的や形態が多く存在するため，より広義の *pay-to-access* の方が適切な場合があると考えます。例えば，クロールはしばしばコンテンツの抽出やコピー作成（スクレイピング）や，洞察やパターンを導出する分析（テキスト・データマイニング）を十分に表していないことがあります。
+
+K: これらのシステムを表現するにあたり，本稿では*クロール課金*（pay-to-crawl）という用語を用いることにします。この用語がすでに広く使われているためです。本来であれば，私たちはより広範な用語である*アクセス課金*（pay-to-access）の方を推奨しています。技術的に言えば，機械によるコンテンツへのアクセスには，クローリング以外にも多くの目的や形態が存在するためです。例えば，クローリングという言葉では，コンテンツを抽出して複製を作成するプロセス（スクレイピングと呼ばれることが多い）や，それらを分析して知見やパターンを導き出すこと（テキスト・データマイニング）を十分に説明できません。
+
+"pay-to-access" の翻訳候補
+
+- **アクセス課金**：最も短く自然。見出しやUIラベルに適する。
+- **有料アクセス**：ユーザ向け表現としてわかりやすい（「有料でアクセスする」という意味合い）。
+- **アクセス有料化**：「〜を有料化する」という動作に焦点を当てた表現。政策や導入議論で使いやすい。
+- **アクセス対価支払い**：法的・契約的文書で明確にしたい場合に適する（「対価」の語が正式）。
+- **アクセス料支払い**：決済や料金徴収の文脈で自然。
+- **アクセスに対する対価支払い**：説明的で本文中の定義に向く（長め）。
+- **ペイ・トゥ・アクセス / ペイトゥアクセス**：原語を併記して概念を保持したい場合に有効。専門家向け資料や初出時に用いると定義しやすい。
+
+“Websites” is a broad category. The term *publisher* might be more appropriate to describe the entity responsible for the content and the user of a pay-to-crawl system, especially in domains such as news, academia, and the media. The user of a pay-to-crawl system, regardless of how they are described, is not always the original creator or owner of the content such a system is used to manage access to.
+
+G: 「ウェブサイト」は広義のカテゴリです。ニュース，学術，メディア等の分野では，コンテンツを担う主体として「出版社（publisher）」という用語の方が適切な場合があります。クローリング課金システムの利用者は，必ずしもコンテンツの原創作者や所有者とは限りません。
+
+K: 「ウェブサイト」は広範なカテゴリーです。特にニュース，学術，メディアといった領域においては，コンテンツに責任を負う主体であり，クロール課金システムの利用者でもある存在を説明するには，*パブリッシャー*という用語の方がより適切かもしれません。クロール課金システムの利用者は，どのように表現されるかに関わらず，そのようなシステムがアクセス管理に用いるコンテンツの，本来の制作者や所有者であるとは限りません。
+
+In this context, *machines* refers to the systematic access and use of digital content using code and automated programs, rather than typical human browsing and consumption. *Bots* is also sometimes used. This shouldn’t obscure the fact that code and automated programs are ultimately operated by humans.
+
+G: この文脈では，*machines* はコードや自動化プログラムを用いた体系的なアクセスと利用を指し，典型的な人間の閲覧や消費とは区別されます。*Bots* という用語も使われますが，コードや自動プログラムは最終的には人間によって操作されていることを忘れてはなりません。
+
+K: この文脈において*マシン*とは，人間による一般的な閲覧や利用ではなく，コードや自動化されたプログラムを用いてデジタルコンテンツに体系的にアクセスし，利用することを指します。*ボット*という言葉が使われることもあります。この事実は，コードや自動化されたプログラムが最終的には人間によって操作されているという事実を覆い隠すものではありません。
+
+## License
+
+## ライセンス
+
+This brief by Jack Hardinges is licensed under CC BY 4.0.
+
+This brief → 本稿？
+
+G: 本ブリーフ（ジャック・ハーディンジズ著）は CC BY 4.0 の下でライセンスされています。
+
+K: ジャック・ハーディンジズによるこのブリーフは，CC BY 4.0のライセンスの下で提供されています。
