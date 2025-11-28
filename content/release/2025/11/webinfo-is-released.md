@@ -2,7 +2,7 @@
 title = "Web ページのメタデータを取得する webinfo/webinfo をリリースした"
 date =  "2025-11-28T19:26:26+09:00"
 description = "完全に自分用のパッケージなので汎用性はあまり考慮していない。"
-image = "/images/attention/tools.png"
+image = "/images/attention/go-logo_blue.png"
 tags = [ "golang", "package", "module", "web" ]
 pageType = "text"
 
