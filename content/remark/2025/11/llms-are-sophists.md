@@ -124,6 +124,7 @@ Team Mirai has yet to prove that it can get a second member elected to the Japan
 - [The Dangers of AI-Generated Romance | Psychology Today](https://www.psychologytoday.com/us/blog/its-not-just-in-your-head/202408/the-dangers-of-ai-generated-romance)
 - [Rewiring Democracy - Schneier on Security](https://www.schneier.com/books/rewiring-democracy/)
 - [AIがもうこれ以上あまり進化しないとしたら？ | WIRED.jp](https://wired.jp/article/sz-what-if-ai-doesnt-get-much-better-than-this/)
+- [企業に広がるAIエージェント、その「野放し」を止めるマイクロソフトの戦略 - ZDNET Japan](https://japan.zdnet.com/article/35240930/)
 
 [Kagi Search]: https://kagi.com/ "Kagi Search"
 [Assistant]: https://kagi.com/assistant "The Assistant"
