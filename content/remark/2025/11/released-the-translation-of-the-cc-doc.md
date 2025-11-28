@@ -1,5 +1,5 @@
 +++
-title = "”Pay-To-Crawl Issue Brief” の翻訳を公開した"
+title = "“Pay-To-Crawl Issue Brief” の翻訳を公開した"
 date =  "2025-11-27T21:49:43+09:00"
 description = "私は機械のメンターじゃないぞ（笑）"
 image = "/images/attention/kitten.jpg"
