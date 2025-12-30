@@ -3,7 +3,7 @@ title = "骨折入院（中編）"
 date =  "2025-12-21T17:02:58+09:00"
 description = "車椅子は楽しい。松葉杖は難しい。"
 image = "/images/attention/kitten.jpg"
-tags = [ "disease", "fracture" ]
+tags = [ "healthcare", "fracture" ]
 pageType = "text"
 
 [scripts]
@@ -12,7 +12,9 @@ pageType = "text"
   jsx = false
 +++
 
-[前回]の続き。
+1. [弁慶岩を見に行って骨折入院した話（前編）]({{< ref "/remark/2025/12/benkei-iwa-and-fracture-and-hospital-stay.md" >}})
+2. [骨折入院（中編）]({{< ref "/remark/2025/12/fracture-and-hospital-stay-2.md" >}}) ← イマココ
+3. [治る傷病，治らない傷病（骨折入院 番外編）]({{< ref "/remark/2025/12/notes-on-injury-and-illness.md" >}})
 
 ## 免荷（Toe Touch 可）
 

@@ -3,7 +3,7 @@ title = "弁慶岩を見に行って骨折入院した話（前編）"
 date =  "2025-12-11T16:55:09+09:00"
 description = "やっちまったよ orz 人生で初の骨折だよ"
 image = "/images/attention/kitten.jpg"
-tags = [ "osanpo-camera", "photography", "matsue", "bike", "disease", "fracture" ]
+tags = [ "osanpo-camera", "photography", "matsue", "bike", "healthcare", "fracture" ]
 pageType = "text"
 
 [scripts]
@@ -11,6 +11,10 @@ pageType = "text"
   mermaidjs = false
   jsx = false
 +++
+
+1. [弁慶岩を見に行って骨折入院した話（前編）]({{< ref "/remark/2025/12/benkei-iwa-and-fracture-and-hospital-stay.md" >}}) ← イマココ
+2. [骨折入院（中編）]({{< ref "/remark/2025/12/fracture-and-hospital-stay-2.md" >}})
+3. [治る傷病，治らない傷病（骨折入院 番外編）]({{< ref "/remark/2025/12/notes-on-injury-and-illness.md" >}})
 
 やっちまったよ `orz`
 
