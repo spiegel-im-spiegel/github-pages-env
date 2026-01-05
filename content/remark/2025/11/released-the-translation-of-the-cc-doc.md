@@ -75,6 +75,11 @@ Copilot にやってもらったのは
 
 真面目に生成 AI の勉強したほうがいいんだろうなぁ...
 
+## ブックマーク
+
+- [Where CC Stands on Pay-to-Crawl - Creative Commons](https://creativecommons.org/2025/12/12/where-cc-stands-on-pay-to-crawl/) : Creative Commons 名義による公式見解
+  - [Creative Commonsの「ペイ・トゥ・クロール（Pay-to-Crawl）」に関する立場（Where CC Stands on Pay-to-Crawl 日本語訳）](https://www.yamdas.org/column/technique/where-cc-stands-on-pay-to-crawlj.html)
+
 [GitHub Copilot]: https://github.com/features/copilot "GitHub Copilot · Your AI pair programmer · GitHub"
 [Kagi Transrate]: https://translate.kagi.com/ "Kagi Transrate"
 [`07-pay-to-crawl-issue-brief.draft.md`]: {{< rlnk "/cc-licenses/07-pay-to-crawl-issue-brief/07-pay-to-crawl-issue-brief.draft.md.txt" >}}

@@ -137,6 +137,8 @@ Jack Hardinges による本稿は [CC BY 4.0](https://creativecommons.org/licens
 ## ブックマーク
 
 - [AI and the Commons: A Reading List - Creative Commons](https://creativecommons.org/2025/09/03/ai-and-the-commons-a-reading-list/)
+- [Where CC Stands on Pay-to-Crawl - Creative Commons](https://creativecommons.org/2025/12/12/where-cc-stands-on-pay-to-crawl/) : Creative Commons 名義による公式見解
+  - [Creative Commonsの「ペイ・トゥ・クロール（Pay-to-Crawl）」に関する立場（Where CC Stands on Pay-to-Crawl 日本語訳）](https://www.yamdas.org/column/technique/where-cc-stands-on-pay-to-crawlj.html)
 
 - [CC Signals と AI]({{< ref "/remark/2025/06/cc-signals.md" >}})
 
