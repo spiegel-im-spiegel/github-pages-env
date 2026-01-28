@@ -2,7 +2,7 @@
 title = "GnuPG 2.5.17 のリリース【セキュリティ・アップデート】"
 date =  "2026-01-28T16:02:53+09:00"
 description = "2.5.17 では1件の重要な脆弱性の修正がある"
-image = "/images/attention/tools.png"
+image = "/images/attention/openpgp.png"
 tags = ["security", "cryptography", "tools", "openpgp", "gnupg", "vulnerability"]
 pageType = "text"
 
