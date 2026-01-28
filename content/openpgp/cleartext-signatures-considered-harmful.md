@@ -88,9 +88,14 @@ from 2.4 because the majority of changes are internal to make use of
 newer features from the supporting libraries.
 {{< /fig-quote >}}
 
+## ブックマーク
+
+- [Responsible Disclosure Requires Accountability: Putting Recent GnuPG Security Reports into Context](https://gnupg.com/20260122-39C3_reply_gpg_fail.html)
+
+- [GnuPG 2.5.17 のリリース【セキュリティ・アップデート】]({{< ref "/release/2026/01/gnupg-2_5_17-is-released.md" >}})
+
 [OpenPGP]: http://openpgp.org/
 [RFC 4880]: https://tools.ietf.org/html/rfc4880 "RFC 4880 - OpenPGP Message Format"
-[RFC 4880bis]: https://datatracker.ietf.org/doc/draft-ietf-openpgp-rfc4880bis/ "draft-ietf-openpgp-rfc4880bis - OpenPGP Message Format"
 [GnuPG]: https://gnupg.org/ "The GNU Privacy Guard"
 [Kagi Assistant]: https://kagi.com/assistant "The Assistant"
 
