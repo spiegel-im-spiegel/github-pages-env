@@ -79,6 +79,9 @@ Firefox の AI 翻訳機能は要らない。
 
 というわけで，宣伝でした。
 
+## ブックマーク
+
+- [Try a brand new privacy-first Android Translate app | The Intelligence](https://theintelligence.com/42086/android-translate-app-privacy/)
+
 [Kagi Translate]: https://translate.kagi.com/ "Kagi Translate"
 [Kagi Assistant]: https://assistant.kagi.com/ "Kagi Assistant"
-<!-- eof -->
