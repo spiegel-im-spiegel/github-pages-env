@@ -146,6 +146,9 @@ Market Firefox as “The best AI browser for people who hate Big AI”. Regular 
 
 ## ブックマーク
 
+- [A first interview with Mozilla’s new CEO on AI, Firefox, and the web | The Verge](https://www.theverge.com/tech/845216/mozilla-ceo-anthony-enzor-demeo)
+  - [📝 Is Mozilla trying hard to kill itself? — Bruno's ramblings](https://infosec.press/brunomiguel/is-mozilla-trying-hard-to-kill-itself) : Firefox が広告ブロッカーをブロックするかもしれない？
+
 - [Web のコストは誰が支払うのか]({{< ref "/remark/2025/03/who-pays-for-web-costs.md" >}})
 
 [Orion]: https://kagi.com/orion/ "Orion Browser by Kagi"
