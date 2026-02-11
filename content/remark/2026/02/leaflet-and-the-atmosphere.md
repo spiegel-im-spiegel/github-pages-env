@@ -146,7 +146,7 @@ This simplifies the model we're used to by not requiring you to create a new acc
 The Atmosphere, as you can see above, already has countless apps you can use. There are Twitter-like apps such as [Bluesky](https://bsky.app/) and [Blacksky](https://blacksky.community/); blogging services like [Leaflet](https://leaflet.pub/), [Offprint](https://offprint.app/), and [pckt](https://pckt.blog/); collection and annotation tools like [Semble](https://semble.so/), [Margin](http://margin.at/), and [Seams](https://seams.so/); and I can go on and on because the ecosystem is expanding by the day. And this is just a small portion of the existing Atmosphere - I couldn't fit all of the different apps because there are just. so. many. Perhaps in a separate post.
 {{< /fig-quote >}}
 
-不勉強ながら [atproto] を中心としたいわゆる ATmosphere が既にこれほどの多様性を産んでいることを初めて知った。
+不勉強で [atproto] を中心としたいわゆる ATmosphere が既にこれほどの多様性を産んでいることを初めて知った。
 真面目に [atproto] の勉強をしないといけないなぁ。
 
 以上の話を併せると [atproto] の ATmosphere が実装よりの話で “The Atmosphere” はもう少し概念よりの話ということになるだろうか。
