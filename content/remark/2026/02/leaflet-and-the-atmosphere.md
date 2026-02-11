@@ -71,7 +71,7 @@ Bluesky のハンドル名（`user.bsky.social` など）を入力して認証�
 
 すると以下の確認画面に移動する。
 
-{{< fig-img-quote src="./“publish.png" title="Publish!" link="https://leaflet.pub/" width="900" lang="en">}}
+{{< fig-img-quote src="./publish.png" title="Publish!" link="https://leaflet.pub/" width="900" lang="en">}}
 
 “Share on Bluesky” を選ぶと記事へのリンクが Bluesky にポストされる。
 “Publish this Post!” ボタンを押すと記事が公開される。
