@@ -171,6 +171,7 @@ Your Everything Account – your account on The Atmosphere – is your account. 
 
 - [ATProtocol上でブログ風長文投稿を行うLeaflet – あたしンちのおとうさんの独り言](https://atasinti.chu.jp/dad3/archives/86927)
   - [続・ATProtocol上でブログ風長文投稿を行うLeaflet – あたしンちのおとうさんの独り言](https://atasinti.chu.jp/dad3/archives/86992)
+- [leaflet 更新と使い方 -  kisato's mini blog](https://kisato.leaflet.pub/3meuwu3ggpk2q)
 
 [Leaflet]: https://leaflet.pub/ "Leaflet"
 [atproto]: https://atproto.com/ "The AT Protocol"
