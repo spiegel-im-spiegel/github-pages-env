@@ -12,7 +12,7 @@ pageType = "text"
   jsx = false
 +++
 
-## 「LLM は詭弁家である」
+## 「LLM は詭弁家である」 {#sophist}
 
 自ら LLM (生成 AI) による[アシスタント][Assistant]や[翻訳サービス][Translate]を提供している “[Kagi Search]” ([いつもお世話になっています]({{< ref "/remark/2025/04/kagi-assistant-for-all-users.md" >}} "Kagi Assistant が全ユーザに解放")) のブログで面白い記事が上がっていた。
 
@@ -92,7 +92,7 @@ By all means, use LLMs where they are useful tools: tasks where you can verify t
 最後の活用例で挙がっている「出力を検証できる場合，完璧さよりも速さが重要な場合，間違えてもリスクが低い場合」を見ると LLM がどういう性質のものか分かるというもの。
 少なくとも死を覚悟するほどの人生の悩みを [LLM に相談](https://gigazine.net/news/20251108-seven-families-suing-openai-chatgpt-suicides/ "「ChatGPTが自殺や悪い妄想をかきたてた」として複数の家族がOpenAIを訴える - GIGAZINE")するのは間違ってると思うよ。
 
-## 「AIと有権者エンゲージメント」
+## 「AIと有権者エンゲージメント」 {#voter}
 
 LLM の利用については，もうひとつ面白い記事がある。
 
