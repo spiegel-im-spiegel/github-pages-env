@@ -57,6 +57,12 @@ AI は人々を導かない。
 
 まぁ，でも，その前に結城浩さんの新刊『[AIと生きる](https://www.hyuki.com/aibook/ "小説『AIと生きる／対話から始まる成長の物語』（結城浩）")』が出たら，それを読むところからかな。
 
+## ブックマーク
+
+- [生成AIツールを利用して開発されたソースコードにはどこから著作権が発生するのか？ – Shuji Sado](https://shujisado.com/2025/12/10/copyrightability-of-ai-generated-code/)
+- [「便利なものを作ったら負け」OSS界の巨人・mattnが語る、アウトプットの心理的ハードルとの付き合い方 - エンジニアtype | 転職type](https://type.jp/et/feature/30350/)
+- [OpenAI、ホワイトボードの数式や図をLaTeXの図版に変換。問題の仮説検証、推論、関連文献の検索など、論文執筆を支援してくれる「Prism」公開 － Publickey](https://www.publickey1.jp/blog/26/openailatexprism.html)
+
 ## 参考
 
 {{% review-paapi "B0C9Z7KGRN" %}} <!-- はじめて学ぶ ビデオゲームの心理学 Kindle 版 -->
