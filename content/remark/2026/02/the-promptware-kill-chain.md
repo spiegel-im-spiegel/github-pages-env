@@ -17,7 +17,7 @@ pageType = "text"
 英単語をカタカナに伸ばしただけなんてダサいし，それによって言葉の意味が消失するのは拙いと思う[^es1]。
 けど，私は英語不得手だからなぁ...
 
-[^kc1]: “kill chain” は元々軍事用語で，敵軍の構造を破壊（切断する）することで自軍を守る先制処置の考え方らしい。これをサイバーセキュリティの分野に持ち込んだのが “Cyber Kill Chain” なんだそうで，攻撃の構造を理解し，各フェーズの攻撃に対して有効な対策をとることで自システムを防御する考え方を指すとのこと。故に “Promptware Kill Chain” はプロンプトウェアの7段階を理解し，各段階それぞれに対して有効な対策をとるべき，という意図なのだろう。
+[^kc1]: “kill chain” は元々軍事用語で，敵軍の構造を破壊（切断する）することで自軍を守る先制処置の考え方らしい。これをサイバーセキュリティの分野に持ち込んだのが “Cyber Kill Chain” なんだそうで，攻撃の段階構造を理解し，各段階に対してそれぞれ有効な対策をとることで自システムを多層防御する考え方（フレームワーク）を指すとのこと。故に “Promptware Kill Chain” は本文で紹介するプロンプトウェアの7段階を理解し，各段階それぞれに対して有効な対策をとるべき，という意図なのだろう。
 [^es1]: “enshittification” を「[メタクソ化](https://p2ptk.org/monopoly/4366 "メタクソ化するTiktok：プラットフォームが生まれ、成長し、支配し、滅びるまで » p2ptk[.]org")」と訳した [p2ptk.org](https://p2ptk.org/ "P2Pとかその辺のお話R | Sharing is Caring") の中の人は天才だと思う。
 
 - [The Promptware Kill Chain | Lawfare](https://www.lawfaremedia.org/article/the-promptware-kill-chain)
