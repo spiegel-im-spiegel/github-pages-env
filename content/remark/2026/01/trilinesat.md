@@ -22,11 +22,11 @@ Bluesky の TL で面白いサービスを見つけた。
 すいばり（[@suibari.com](https://bsky.app/profile/suibari.com)）さんが個人で開発・運営しているサービスだそうで Bluesky のアカウントでサインインできる。
 認証は OAuth で行っていて（アプリパスワードではない）日記データは PDS (Personal Data Server) にそのまま格納される（ので秘匿できない）ようだ。
 
-{{< fig-img-quote src="./about.png" title="TriLinesAt について" link="./aboutpng" width="523" >}}
+{{< fig-img-quote src="./about.png" title="TriLinesAt について" link="./about.png" width="523" >}}
 
 入力画面はシンプル。
 
-{{< fig-img-quote src="./new-dialy.png" title="新しい日記" link="./new-dialy" width="590" >}}
+{{< fig-img-quote src="./new-dialy.png" title="新しい日記" link="./new-dialy.png" width="590" >}}
 
 1行あたり50文字。
 画像も入れられるらしい。
@@ -34,7 +34,7 @@ Bluesky の TL で面白いサービスを見つけた。
 
 表示はこんな感じ。
 
-{{< fig-img-quote src="./saved-dialy.png" title="三行日記" link="./saved-dialy" width="589" >}}
+{{< fig-img-quote src="./saved-dialy.png" title="三行日記" link="./saved-dialy.png" width="589" >}}
 
 日記に対するコメント機能はないが ♡ を付けることはできる。
 シンプルかつ緩い感じが面白い。
