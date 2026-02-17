@@ -14,8 +14,10 @@ pageType = "text"
 
 “Promptware Kill Chain” をどう訳していいか分からなかったので，とりあえずそのままカタカナで「プロンプトウェア・キルチェーン」としてしまった。
 きっとそのうち偉い人が適切な訳語を考えてくれるだろう。
-英単語をカタカナに伸ばしただけなんてダサいし，それによって言葉の意味が消失するのは拙いと思う。
+英単語をカタカナに伸ばしただけなんてダサいし，それによって言葉の意味が消失するのは拙いと思う[^es1]。
 けど，私は英語不得手だからなぁ...
+
+[^es1]: “enshittification” を「[メタクソ化](https://p2ptk.org/monopoly/4366 "メタクソ化するTiktok：プラットフォームが生まれ、成長し、支配し、滅びるまで » p2ptk[.]org")」と訳した [p2ptk.org](https://p2ptk.org/ "P2Pとかその辺のお話R | Sharing is Caring") の中の人は天才だと思う。
 
 - [The Promptware Kill Chain | Lawfare](https://www.lawfaremedia.org/article/the-promptware-kill-chain)
 - [The Promptware Kill Chain - Schneier on Security](https://www.schneier.com/blog/archives/2026/02/the-promptware-kill-chain.html)
