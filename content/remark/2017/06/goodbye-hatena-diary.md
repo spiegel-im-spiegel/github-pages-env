@@ -3,22 +3,13 @@ title = "「さよならはてなダイアリー」 ― 黒 Web 2.0 の終焉"
 date =  "2017-06-28T22:25:32+09:00"
 update =  "2017-09-27T09:20:29+09:00"
 description = "今から見れば中二病全開のサービスだったわけ。"
+image = "/images/attention/kitten.jpg"
 tags        = [ "web", "blog", "cms" ]
-draft = false
 
-[author]
-  name      = "Spiegel"
-  url       = "https://baldanders.info/profile/"
-  avatar    = "/images/avatar.jpg"
-  license   = "by-sa"
-  github    = "spiegel-im-spiegel"
-  twitter   = "spiegel_2007"
-  tumblr    = ""
-  instagram = "spiegel_2007"
-  flickr    = "spiegel"
-  facebook  = "spiegel.im.spiegel"
-  linkedin  = "spiegelimspiegel"
-  flattr    = ""
+[scripts]
+  mathjax = false
+  mermaidjs = false
+  jsx = false
 +++
 
 ぶちウケた！
@@ -48,4 +39,5 @@ draft = false
 
 ## ブックマーク
 
+- [2002年のブログ騒動について今更振り返る : 佐倉葉ウェブ文化研究室の作業報告書](http://blog.livedoor.jp/sakuraba_izl/archives/49566610.html)
 - [はてな創業者・近藤会長、代表取締役を退任へ - ITmedia ビジネスオンライン](http://www.itmedia.co.jp/business/articles/1709/26/news092.html)
