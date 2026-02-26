@@ -1,7 +1,7 @@
 +++
 title = "Mastodon/Bluesky で共有するためのボタンを追加・更新"
 date =  "2026-02-26T15:32:46+09:00"
-description = "description"
+description = "そろそろ重い腰をあげようかな，ということで。"
 image = "/images/attention/kitten.jpg"
 tags = [ "site", "mastodon", "bluesky" ]
 pageType = "text"
