@@ -8,6 +8,7 @@ tags = [ "language", "blog" ]
 pageType = "text"
 
 [language]
+  languageCode = "en-US"
   code = "en"
 
 [scripts]

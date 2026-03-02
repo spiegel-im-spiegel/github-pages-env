@@ -1,4 +1,4 @@
-languageCode = "ja"
+languageCode = "ja-JP"
 name = "プログラミング言語 Go"
 description = "Go 言語プログラミングに関する話題。"
 sectionType = "text"

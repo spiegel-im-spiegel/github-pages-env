@@ -1,4 +1,4 @@
-languageCode = "ja"
+languageCode = "ja-JP"
 name = "OpenPGP の実装"
 description = "OpenPGP とその実装である GnuPG 等に関する話題。"
 sectionType = "text"

@@ -47,7 +47,7 @@
 	"@id": {{ .Permalink }},
 	"url": {{ .Permalink }},
 	"mainEntityOfPage": {{ .Permalink }},
-	"inLanguage": {{ .Site.Data.section.bookmarks.languageCode }},
+	"inLanguage": {{ with .Params.Language.languageCode }}{{ . }}{{ else }}{{ .Site.Data.section.bookmarks.languageCode }}{{ end }},
 	"name": {{ .Title }},
 	"description": {{ .Description }},
 	"headline": {{ .Description }}{{if .Params.tags }},

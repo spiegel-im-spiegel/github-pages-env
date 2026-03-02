@@ -1,4 +1,4 @@
-languageCode = "ja"
+languageCode = "ja-JP"
 name = "Rust のキホン"
 description = "Rust 言語プログラミングに関する話題。まずは基本のキから。"
 sectionType = "text"
