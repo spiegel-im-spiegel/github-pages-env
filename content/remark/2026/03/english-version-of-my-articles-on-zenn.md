@@ -3,7 +3,7 @@ title = "English version of my articles on Zenn"
 date =  "2026-03-02T15:23:17+09:00"
 description = "Since Zenn does not provide a way to navigate to translated articles from their site, I’m collecting the translated articles here."
 isCJKLanguage = false
-image = "/images/attention/site.jpg"
+image = "/images/attention/kitten.jpg"
 tags = [ "language", "blog" ]
 pageType = "text"
 
