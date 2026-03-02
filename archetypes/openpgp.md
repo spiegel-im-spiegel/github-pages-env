@@ -2,6 +2,7 @@
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date = "{{ .Date }}"
 description = "description"
+isCJKLanguage = true
 image = "/images/attention/openpgp.png"
 tags = [ "openpgp" ]
 pageType = "text"

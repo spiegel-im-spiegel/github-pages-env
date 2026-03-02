@@ -2,6 +2,7 @@
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date =  "{{ .Date }}"
 description = "description"
+isCJKLanguage = true
 image = "/images/attention/design.png"
 tags = [ "programming", "design" ]
 pageType = "text"

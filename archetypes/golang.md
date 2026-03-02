@@ -2,6 +2,7 @@
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date =  "{{ .Date }}"
 description = "description"
+isCJKLanguage = true
 image = "/images/attention/go-logo_blue.png"
 tags = [ "programming", "golang" ]
 pageType = "text"

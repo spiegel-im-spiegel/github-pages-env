@@ -2,6 +2,7 @@
 title = "{{ substr .Date 0 -15 }} のブックマーク"
 date =  "{{ .Date }}"
 description = "「XXX」他"
+isCJKLanguage = true
 image = "/images/attention/bookmarks.jpg"
 pageType = "text"
 draft = true

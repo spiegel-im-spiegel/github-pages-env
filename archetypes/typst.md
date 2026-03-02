@@ -1,6 +1,7 @@
 +++
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date =  "{{ .Date }}"
+isCJKLanguage = true
 description = "description"
 image = "/images/attention/tools.png"
 tags  = [ "typst", "pdf" ]
