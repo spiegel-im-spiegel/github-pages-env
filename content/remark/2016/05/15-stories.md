@@ -42,7 +42,8 @@ title = "週末スペシャル： 水星の日面経過"
 ただしメディアや学校の教科書では「通過」と書かれるらしい。
 どちらでも間違いではないようだ。
 
-- [「日面経過」の用語について](http://optik2.mtk.nao.ac.jp/~somamt/notes/transit.htm)
+- [「日面経過」の用語について](https://sendaiuchukan.jp/event/news/transit.txt)
+- [こよみ用語解説 日面経過 - 国立天文台暦計算室](https://eco.mtk.nao.ac.jp/koyomi/faq/transit.html)
 
 ### ブックマーク
 
