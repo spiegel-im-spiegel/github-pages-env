@@ -63,7 +63,7 @@ else
 fi
 
 kind="default"
-if echo " $available_kinds " | grep -qw " $section "; then
+if echo " $available_kinds " | grep -q " $section "; then
   kind="$section"
 fi
 
