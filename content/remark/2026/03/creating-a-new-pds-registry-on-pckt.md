@@ -85,9 +85,10 @@ DID の項目から [PDSls] のサイトへ行ける。
 
 そもそもユーザが DNS にアクセスできない場合は2番目の方法をとるしかない。
 もうひとつ注意しないといけないのは，サブドメインをハンドル名にしたい場合だ。
+今回の作業を通して具体的に説明していこう。
 
 私は `baldanders.info` ドメイン以下のレコードに対してフル権限を持っているので（ぞんぞがさばる），サブドメインをいくつでも追加できるし `TXT` レコードも自由に追加できる。
-ただし 既に `CNAME` で既にサブドメインを Web サイトに割り当てている（例えばここのブログは [GitHub Pages](https://docs.github.com/ja/pages "GitHub Pages のドキュメント - GitHub ドキュメント") を利用して `CNAME` で独自ドメインを割り当てている）場合は1番目の方法では上手くいかないため2番目の方法をとるしかない[^dns1]。
+ただし サブドメインを `CNAME` で設定している（例えばここのブログは [GitHub Pages](https://docs.github.com/ja/pages "GitHub Pages のドキュメント - GitHub ドキュメント") を利用して `CNAME` で独自ドメインを割り当てている）場合は1番目の方法では上手くいかないため2番目の方法をとるしかないようだ[^dns1]。
 
 [^dns1]: `CNAME` レコードと（`TXT` を含む）他のレコードとの関係がよく分かってなくて，しばらく悩んでしまった。アホである。 [RFC 1912](https://datatracker.ietf.org/doc/html/rfc1912 "RFC 1912 - Common DNS Operational and Configuration Errors") も参照のこと。
 
@@ -136,6 +137,7 @@ _atproto.photos.baldanders.info
 [^hp1]: サインイン時の Hosting Provider はデフォルトの Bluesky Social ではなく `pds.pckt.cafe` を指定すること。ちなみに認証は OAuth である。
 
 [pckt] のほうもサインインし直してね。
+以下は，最終的なアカウント情報。
 
 {{< fig-img-quote src="./settings-2.png" title="Account Settings - pckt.blog" link="https://pckt.blog/profile" width="1202" lang="en">}}
 
