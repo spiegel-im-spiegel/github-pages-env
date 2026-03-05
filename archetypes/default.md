@@ -4,7 +4,7 @@ date =  "{{ .Date }}"
 description = "description"
 isCJKLanguage = true
 image = "/images/attention/site.jpg"
-tags = [ "remark" ]
+tags = [ "site" ]
 pageType = "text"
 draft = true
 
@@ -12,3 +12,16 @@ draft = true
   mathjax = false
   mermaidjs = false
 +++
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- eof -->
