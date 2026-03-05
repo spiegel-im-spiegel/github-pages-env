@@ -62,6 +62,7 @@ AI は人々を導かない。
 - [生成AIツールを利用して開発されたソースコードにはどこから著作権が発生するのか？ – Shuji Sado](https://shujisado.com/2025/12/10/copyrightability-of-ai-generated-code/)
 - [「便利なものを作ったら負け」OSS界の巨人・mattnが語る、アウトプットの心理的ハードルとの付き合い方 - エンジニアtype | 転職type](https://type.jp/et/feature/30350/)
 - [OpenAI、ホワイトボードの数式や図をLaTeXの図版に変換。問題の仮説検証、推論、関連文献の検索など、論文執筆を支援してくれる「Prism」公開 － Publickey](https://www.publickey1.jp/blog/26/openailatexprism.html)
+- [コンピュータ科学の神様が「AIに負けた」日 — Donald Knuth『Claude's Cycles』を読み解く #LLM - Qiita](https://qiita.com/nogataka/items/ecbaedb3d7ffc29c9fb2) : 負けたというか，今回の記事で言う「研究の超並列化」のまさに実践パターン。面白い！
 
 ## 参考
 
