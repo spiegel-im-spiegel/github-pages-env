@@ -12,6 +12,15 @@ pageType = "text"
   jsx = false
 +++
 
+{{< div-box type="markdown" >}}
+**【2026-03-06 追記】**
+
+最新の atproto 関連サービス利用については以下を参照のこと。
+
+- [AT Protocol 関連サービスの利用について]({{< relref "/atproto-based-services.md" >}})
+
+{{< /div-box >}}
+
 無事に退院できました。
 入院中の話（後編）はそのうち書くとして，今回は入院中の暇つぶしに遊んだブログサービス [Leaflet] を紹介してみる。
 

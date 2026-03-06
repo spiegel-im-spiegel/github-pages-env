@@ -12,6 +12,15 @@ pageType = "text"
   jsx = false
 +++
 
+{{< div-box type="markdown" >}}
+**【2026-03-06 追記】**
+
+最新の atproto 関連サービス利用については以下を参照のこと。
+
+- [AT Protocol 関連サービスの利用について]({{< relref "/atproto-based-services.md" >}})
+
+{{< /div-box >}}
+
 [Leaflet] で見かけた記事。
 
 - [Skyreader update - standard.site feeds, read-it-later workflow, and sustainability - Skyreader Dev Log](https://skyreader-dev.leaflet.pub/3mfmuhvwoos2g)

@@ -11,6 +11,15 @@ pageType = "text"
   mermaidjs = false
 +++
 
+{{< div-box type="markdown" >}}
+**【2026-03-06 追記】**
+
+最新の Bluesky および Mastodon の関連サービス利用については以下を参照のこと。
+
+- [AT Protocol 関連サービスの利用について]({{< relref "/atproto-based-services.md" >}})
+
+{{< /div-box >}}
+
 TL が流れて忘れてしまう前に覚え書きとして残しておく。
 
 Fediverse と Bluesky を相互接続する[サービス][Bridgy Fed]があるらしい。

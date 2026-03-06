@@ -11,6 +11,15 @@ pageType = "text"
   mermaidjs = false
 +++
 
+{{< div-box type="markdown" >}}
+**【2026-03-06 追記】**
+
+最新の Bluesky および Mastodon の関連サービス利用については以下を参照のこと。
+
+- [AT Protocol 関連サービスの利用について]({{< relref "/atproto-based-services.md" >}})
+
+{{< /div-box >}}
+
 ## 自作ツール goark/toolbox
 
 5月頃に思いついてコマンドラインで Mastodon や Bluesky に投稿できる [goark/toolbox] というツールを作った。
