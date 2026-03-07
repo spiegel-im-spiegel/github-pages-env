@@ -100,6 +100,7 @@ The Pentagon should maximize its warfighting capabilities, subject to the law. A
 
 ## ブックマーク
 
+- [AI は正解を答えない]({{< ref "/remark/2026/02/ai-doesnt-provide-definitive-answers.md" >}})
 - [「プロンプトウェア・キルチェーン」]({{< ref "/remark/2026/02/the-promptware-kill-chain.md" >}})
 
 ## 参考図書
