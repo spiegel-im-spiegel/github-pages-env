@@ -65,7 +65,7 @@ Even though ChatGPT can be helpful, you should never treat it like a secure vaul
 
 [^ps1]: [Lumo] に対する PrivacySpy のスコアはないが Proton VPS については [8.1](https://privacyspy.org/product/protonvpn/ "ProtonVPN | PrivacySpy") (10点満点) と評価されている。データ侵害が発生した場合のユーザへの対応がイマイチらしい。まぁ，高スコアではあるので [Lumo] もこのくらいならいいんだけど。
 
-私が常用している [Kagi Assistant] 匿名性を売りにしている。
+私が常用している [Kagi Assistant] は匿名性を売りにしている。
 また「ユーザデータは負債である」というポリシーを持っていて，できるだけユーザデータをサービス側に保存しないようにしているそうな[^ps2]。
 
 [^ps2]: [Kagi Assistant] に対する PrivacySpy のスコアはないが Kagi 検索サービスについては [7.5](https://privacyspy.org/product/kagi/ "Kagi | PrivacySpy") と評価されている。一般的なセキュリティ・ポリシーが曖昧なのと，法執行機関の要請への対応が明記されてない点がマイナス要素らしい。
