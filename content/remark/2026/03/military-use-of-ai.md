@@ -42,7 +42,7 @@ Despite the histrionics, this is probably the best outcome for Anthropic—and f
 と評価し，加えて “The only factor out of place here are the Pentagon’s vindictive threats” と批判している。
 執念深い脅迫... まぁ，確かに。
 
-Anthropic の態度は明らかに顧客に向けた（ちゃんと顧客の方を向いているという）アピールと分かるが OpenAI のほうは（顧客の側から見て）不透明さを残している。
+Anthropic の態度は明らかに顧客に向けた（ちゃんと貴方のほうを向いてますよという）アピールと分かるが OpenAI のほうは（顧客の側から見て）不透明さを残している。
 
 {{< fig-quote type="markdown" title="Anthropic and the Pentagon - Schneier on Security" link="https://www.schneier.com/blog/archives/2026/03/anthropic-and-the-pentagon.html" lang="en" >}}
 Despite the histrionics, this is probably the best outcome for Anthropic—and for the Pentagon. In our free-market economy, both are, and should be, free to sell and buy what they want with whom they want, subject to longstanding federal [rules](https://www.acquisition.gov/far/subpart-9.4) on contracting, acquisitions, and blacklisting.
@@ -97,6 +97,10 @@ The Pentagon should maximize its warfighting capabilities, subject to the law. A
 {{< /fig-quote >}}
 
 ダークヒーローに良心回路は組み込まれない。
+
+## ブックマーク
+
+- [「プロンプトウェア・キルチェーン」]({{< ref "/remark/2026/02/the-promptware-kill-chain.md" >}})
 
 ## 参考図書
 
