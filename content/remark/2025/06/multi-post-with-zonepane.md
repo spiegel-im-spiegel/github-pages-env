@@ -3,7 +3,7 @@ title = "ぞーぺん（ZonePane）によるクロスポスト"
 date =  "2025-06-01T21:16:42+09:00"
 description = "複数のサービスを利用できる Android アプリ「ぞーぺん」がサービスを跨いだクロスポストに対応した。"
 image = "/images/attention/kitten.jpg"
-tags = [ "tools", "android", "mastodon", "bluesky" ]
+tags = [ "tools", "android", "mastodon", "bluesky", "zonepane" ]
 pageType = "text"
 
 [scripts]

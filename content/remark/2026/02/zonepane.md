@@ -3,7 +3,7 @@ title = "ぞーぺんのユーザ体験"
 date =  "2026-02-18T20:17:33+09:00"
 description = "ぞーぺんのスタイルだと，最初に表示されるポストから下は既に見たポストだと確信が持てる。そしてスクロールアップして TL の先頭に辿り着けば閲覧終了である。"
 image = "/images/attention/kitten.jpg"
-tags = [ "tools", "android", "apple", "mastodon", "bluesky", "communication" ]
+tags = [ "tools", "android", "apple", "mastodon", "bluesky", "communication", "zonepane" ]
 pageType = "text"
 
 [scripts]
