@@ -100,6 +100,8 @@ The Pentagon should maximize its warfighting capabilities, subject to the law. A
 
 ## ブックマーク
 
+- [国防総省がサプライチェーンリスクに指定したAnthropicにGoogle・Amazon・Microsoftが防衛関連以外で協力表明、一方「なぜ指定したのか」について国防総省のAI担当者が語る - GIGAZINE](https://gigazine.net/news/20260309-anthropic-supply-chain-risk/) : まぁ，どっちもどっち
+
 - [AI は正解を答えない]({{< ref "/remark/2026/02/ai-doesnt-provide-definitive-answers.md" >}})
 - [「プロンプトウェア・キルチェーン」]({{< ref "/remark/2026/02/the-promptware-kill-chain.md" >}})
 
