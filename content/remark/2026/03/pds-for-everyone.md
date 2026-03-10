@@ -158,6 +158,10 @@ https://pluralistic.net/2026/01/01/39c3/#the-new-coalition
 これが一番困ってる。
 [`@zonepane@fedibird.com`] に要望を出したほうがいいかなぁ...
 
+## ブックマーク
+
+- [W3C Invites Implementations of Decentralized Identifiers (DIDs) v1.1 | 2026 | News | W3C](https://www.w3.org/news/2026/w3c-invites-implementations-of-decentralized-identifiers-dids-v1-1/)
+
 [骨折入院]: {{< ref "/remark/2025/12/benkei-iwa-and-fracture-and-hospital-stay.md" >}} "弁慶岩を見に行って骨折入院した話（前編）"
 [Kagi Assistant]: https://kagi.com/assistant "Kagi Assistant"
 [atproto]: https://atproto.com/ "The AT Protocol"
@@ -167,32 +171,3 @@ https://pluralistic.net/2026/01/01/39c3/#the-new-coalition
 [Leaflet]: https://leaflet.pub/ "Leaflet"
 [ZonePane]: https://twitpane.com/ "TwitPane – Twitter with Panes"
 [`@zonepane@fedibird.com`]: https://fedibird.com/@zonepane "ZonePane(ぞーぺん) (@zonepane@fedibird.com) - Fedibird"
-
-
-<!-- 今回も Bluesky の TL から見かけたネタですみません。
-
-このポストがちょっと面白かったので。
-
-{{< fig-gen >}}
-<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:ad5bwszsc5m5jpj2sfa6uzjk/app.bsky.feed.post/3mgkfxwwtfs2y" data-bluesky-cid="bafyreifh43gtpxx4mpjaxbnlemqwdbyo7o7pgr[Eurosky]: https://www.eurosky.tech/ "eurosky"
-so3mirv3bgpw43ctf44i" data-bluesky-embed-color-mode="system"><p lang="en">AT protocol doesn’t play zero-sum, winner-takes-all games.
-
-“European X?”
-No, European data sovereignty for all of x/y/z in amicable competition.
-
-“Killer app?”
-No, interoperable apps as the monopoly-killer.
-
-“Everything-app?”
-No, everything-account in a pluriverse of user-owned software.<br><br><a href="https://bsky.app/profile/did:plc:ad5bwszsc5m5jpj2sfa6uzjk/post/3mgkfxwwtfs2y?ref_src=embed">[image or embed]</a></p>&mdash; Erlend Sogge Heggen (<a href="https://bsky.app/profile/did:plc:ad5bwszsc5m5jpj2sfa6uzjk?ref_src=embed">@erlend.sh</a>) <a href="https://bsky.app/profile/did:plc:ad5bwszsc5m5jpj2sfa6uzjk/post/3mgkfxwwtfs2y?ref_src=embed">March 8, 2026 at 10:08 PM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
-{{< /fig-gen >}}
-
-Bluesky や Mastodon は (パッと見は似てるかも知れないが) {{% emoji  "X" %}} の代替にはならないし，おそらくそこを目指していない。 -->
-
-
-
-
-
-
-
-<!-- eof -->
