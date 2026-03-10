@@ -103,6 +103,8 @@ The Pentagon should maximize its warfighting capabilities, subject to the law. A
 - [国防総省がサプライチェーンリスクに指定したAnthropicにGoogle・Amazon・Microsoftが防衛関連以外で協力表明、一方「なぜ指定したのか」について国防総省のAI担当者が語る - GIGAZINE](https://gigazine.net/news/20260309-anthropic-supply-chain-risk/) : まぁ，どっちもどっち
 - [Weasel Words: OpenAI’s Pentagon Deal Won’t Stop AI‑Powered Surveillance | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2026/03/weasel-words-openais-pentagon-deal-wont-stop-ai-powered-surveillance) : EFF の見解
   - [かくして我々はOpenAIのAIに監視されることになった » p2ptk[.]org](https://p2ptk.org/privacy/5454)
+- [Anthropicがトランプ政権を提訴　GoogleやOpenAIの従業員がアミカスブリーフ提出 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2603/10/news058.html)
+
 - [AWS、AWS上ですぐ使えるOpenClawを提供開始。仮想プライベートサーバ（VPS）「Amazon Lightsail」のインスタンスイメージとして － Publickey](https://www.publickey1.jp/blog/26/awsawsopenclawvpsamazon_lightsail.html) : AWS の VPN 上に生成 AI モデル OpenClaw を構築するサービス
 
 - [AI は正解を答えない]({{< ref "/remark/2026/02/ai-doesnt-provide-definitive-answers.md" >}})
