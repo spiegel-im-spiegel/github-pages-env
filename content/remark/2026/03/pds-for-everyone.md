@@ -133,7 +133,6 @@ Blusky が提供する `bsky.app` も `bsky.social` も，大きな[エコシス
 
 {{< fig-img-quote src="/remark/2026/02/leaflet-and-the-atmosphere/Screenshot_20260204_121413_Samsung-Notes.jpg" title="The Everything Account" link="https://www.augment.ink/the-everything-account/" width="1000" lang="en">}}
 
-
 [Eurosky] のドキュメントを見ても分かるように，欧州は [AT Protocol][atproto] を使ってリスク塗れのアメリカからの脱出を目指してるように見える。
 Instagram の代替とされる [Flashes](https://techcrunch.com/2025/07/03/everything-you-need-to-know-about-flashes-the-bluesky-based-instagram-alternative/ "Everything you need to know about Flashes, the Bluesky-based Instagram alternative | TechCrunch") や GitHub の代替とされる [Tangled](https://tangled.org/ "tangled · tightly-knit social coding") や Google ニュースの代替とされる [Sill](https://sill.social/ "Sill | Top news shared by the people you trust") も [atproto] エコシステムの一部で，「[万能アカウント（Everything Account）](https://augment.ink/the-everything-account/ "The Everything Account · augment")」を **所有する** 私達はこれらのアプリやサービスの間を繋がりは維持したまま自由に渡り歩くことができる。
 
@@ -161,6 +160,7 @@ https://pluralistic.net/2026/01/01/39c3/#the-new-coalition
 ## ブックマーク
 
 - [W3C Invites Implementations of Decentralized Identifiers (DIDs) v1.1 | 2026 | News | W3C](https://www.w3.org/news/2026/w3c-invites-implementations-of-decentralized-identifiers-dids-v1-1/)
+- [augment's Atmospheric Home · augment](https://augment.ink/augments-atmospheric-home/)
 
 [骨折入院]: {{< ref "/remark/2025/12/benkei-iwa-and-fracture-and-hospital-stay.md" >}} "弁慶岩を見に行って骨折入院した話（前編）"
 [Kagi Assistant]: https://kagi.com/assistant "Kagi Assistant"
