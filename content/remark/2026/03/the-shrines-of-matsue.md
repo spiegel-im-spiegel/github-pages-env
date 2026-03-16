@@ -13,8 +13,6 @@ pageType = "text"
   jsx = false
 +++
 
-## 『松江の神社』買うた
-
 [先日の散歩]({{< ref "/remark/2026/02/sandalwood-and-local-press.md" >}} "栴檀と地元出版")で見つけた{{< ruby "せんだん" >}}栴檀{{< /ruby >}}（←あとで調べて名前が分かった）について調べていたときに [AI アシスタント][Kagi Assistant]に教えてもらったのが「[松江の花図鑑]」というサイトだ。
 
 - [松江の花図鑑（島根県松江市の野草樹木シダの名前が分かる植物花図鑑）](https://matsue-hana.com/)
