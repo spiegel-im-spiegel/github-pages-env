@@ -1,4 +1,4 @@
-languageCode = "ja-JP"
+locale = "ja-jp"
 name = "ゼロから始める Hugo 【跡地】"
 description = "内容が古くなって最新情報に追従できなくなったので本家サイトに移転しました。"
 sectionType = "text"

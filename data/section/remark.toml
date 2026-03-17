@@ -1,4 +1,4 @@
-languageCode = "ja-JP"
+locale = "ja-jp"
 name = "しっぽのさきっちょ"
 description = "帰ってきた「しっぽのさきっちょ」。とりとめのない四方山話。"
 sectionType = "text"

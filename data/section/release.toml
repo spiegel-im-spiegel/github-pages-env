@@ -1,4 +1,4 @@
-languageCode = "ja-JP"
+locale = "ja-jp"
 name = "リリース情報"
 description = "自作パッケージ・ツールと気になるツール・サービスのリリース情報について。"
 sectionType = "text"
