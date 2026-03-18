@@ -15,6 +15,7 @@ pageType = "text"
 1. [弁慶岩を見に行って骨折入院した話（前編）]({{< ref "/remark/2025/12/benkei-iwa-and-fracture-and-hospital-stay.md" >}}) ← イマココ
 2. [骨折入院（中編）]({{< ref "/remark/2025/12/fracture-and-hospital-stay-2.md" >}})
 3. [治る傷病，治らない傷病（骨折入院 番外編）]({{< ref "/remark/2025/12/notes-on-injury-and-illness.md" >}})
+4. [骨折入院（後編）]({{< ref "/remark/2026/03/fracture-and-hospital-stay-3.md" >}})
 
 やっちまったよ `orz`
 
