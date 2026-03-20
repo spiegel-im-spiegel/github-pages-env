@@ -73,7 +73,7 @@ On March 16, we launched our latest fun language on Kagi Translate, [LinkedIn Sp
 2. 話し手および聞き手はともに男性
 3. 勤務先で部下から上司への挨拶
 
-これ翻訳させると以下のようになる。
+この設定で翻訳させると以下のようになる。
 
 {{< fig-img-quote src="./kagi-translate-hi-jp2.png" link="./kagi-translate-hi-jp2.png" width="1020" >}}
 
