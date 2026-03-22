@@ -37,7 +37,7 @@ pageType = "text"
 
 ところが [POLITICO の記事](https://www.politico.com/news/2026/03/18/fbi-buying-data-track-people-patel-00834080 "FBI is buying data that can be used to track people, Patel says - POLITICO")によると FBI はデータブローカーから位置情報を購入していることを認めたそうだ。
 FBI の言い分は「市販データを買うただけやし，ええやろ（←超意訳）」というものらしい。
-しかも上院情報委員会の Tom Cotton 議長（共和党・アーカンソー州）もこれを追認する姿勢を見せているらしい。
+しかも上院情報委員会の Tom Cotton 議長（共和党・アーカンソー州）もこれを追認する姿勢を見せているようだ。
 
 {{< fig-quote type="markdown" title="FBI is buying data that can be used to track people, Patel says - POLITICO" link="https://www.politico.com/news/2026/03/18/fbi-buying-data-track-people-patel-00834080" lang="en" >}}
 Committee Chair Tom Cotton (R-Ark.) defended the practice at the hearing.
