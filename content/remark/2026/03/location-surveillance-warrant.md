@@ -35,7 +35,7 @@ pageType = "text"
 国によるのだろうが，警察組織による捜査目的であれ，建前上はインターネット上のサービスにあるユーザの行動データを取得するには裁判所から事前に令状を取る必要がある。
 これは日本でも（手続きの違いはあれ）同じ（筈）である。
 
-ところが [POLITICO の記事](https://www.politico.com/news/2026/03/18/fbi-buying-data-track-people-patel-00834080 "FBI is buying data that can be used to track people, Patel says - POLITICO")によると FBI はデータブローカーから位置情報を購入していることを認めたそうだ。
+ところが [POLITICO の記事](https://www.politico.com/news/2026/03/18/fbi-buying-data-track-people-patel-00834080 "FBI is buying data that can be used to track people, Patel says - POLITICO")によると，米国 FBI はデータブローカーから位置情報を購入していることを認めたそうだ。
 FBI の言い分は「市販データを買うただけやし，ええやろ（←超意訳）」というものらしい。
 しかも上院情報委員会の Tom Cotton 議長（共和党・アーカンソー州）もこれを追認する姿勢を見せているようだ。
 
