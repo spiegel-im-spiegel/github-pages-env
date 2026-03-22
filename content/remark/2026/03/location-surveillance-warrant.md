@@ -91,7 +91,7 @@ This data is used beyond surveillance. It can shape advertising and influence po
 
 最後の VPN を利用するやり方は，昨今ではあまり推奨されない。
 VPN プロバイダがユーザの情報をデータブローカーに売ったり，所属する国からの要請を断れず情報を提出するケースが見られるからだ（特に無料の VPN サービス）。
-Proton もユーザのプライバシーを守る製品構成を売りにしているが，所属する国からの正規の要請は断れない。
+Proton はユーザのプライバシーを守る製品構成を売りにしているが，それでも所属する国からの正規の要請は断れない。
 
 - [プライバシー重視をうたうメールサービス「Proton Mail」が個人情報をスイス政府に提供、FBIの手にまで渡ったことが判明 - GIGAZINE](https://gigazine.net/news/20260306-proton-mail-helped-fbi/)
 
