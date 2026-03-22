@@ -25,4 +25,7 @@ draft = true
 
 
 
+[Kagi Search]: https://kagi.com/ "Kagi Search - A Premium Search Engine"
+[Kagi Translate]: https://translate.kagi.com/ "Kagi Translate"
+[Kagi Assistant]: https://assistant.kagi.com/ "Kagi Assistant"
 <!-- eof -->
