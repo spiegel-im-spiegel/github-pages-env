@@ -5,7 +5,7 @@ locale = "ja-jp"
 DefaultContentLanguage = "ja"
 preserveTaxonomyNames = false
 disqusShortname = "textbaldandersinfo"
-dataDir = "data"
+#dataDir = "data"
 enableGitInfo = true
 
 [frontmatter]

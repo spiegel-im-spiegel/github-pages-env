@@ -1,11 +1,11 @@
 {{ partial "top.html" . }}
-<head prefix="og: http://ogp.me/ns#">{{ $title := .Title | plainify }}{{ $secTitle := .Site.Data.section.cclicenses.name | plainify }}{{ $siteTitle := .Site.Title | plainify }}{{ $desc := .Description | plainify | safeHTML }}
+<head prefix="og: http://ogp.me/ns#">{{ $title := .Title | plainify }}{{ $secTitle := hugo.Data.section.cclicenses.name | plainify }}{{ $siteTitle := .Site.Title | plainify }}{{ $desc := .Description | plainify | safeHTML }}
 {{ partial "header.html" . }}
 <title>{{ $title }} [{{ $siteTitle }}]</title>
 <meta property="og:title" content="{{ $title }}">
 <meta name="description" content="{{ $desc }}">
 <meta property="og:description" content="{{ $desc }}">
-<meta property="og:image" content="{{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ .Site.Data.section.cclicenses.image | absURL }}{{ end }}">{{ with .Site.Data.author }}{{ if .name }}
+<meta property="og:image" content="{{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ hugo.Data.section.cclicenses.image | absURL }}{{ end }}">{{ with hugo.Data.author }}{{ if .name }}
 <meta name="author" content="{{ .name }}">{{ end }}{{ end }}
 {{ partial "twitter-card.html" . }}
 {{ partial "mastodon-me.html" . }}
@@ -19,7 +19,7 @@
 
 <main>
 <nav class="breadcrumb">
-<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>{{ if .Section }}{{ $secURL := printf "/%s/" (.Section | urlize) }} &raquo; <a href="{{ $secURL | relURL }}">{{ .Site.Data.section.cclicenses.name }}</a>{{ end }}
+<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>{{ if .Section }}{{ $secURL := printf "/%s/" (.Section | urlize) }} &raquo; <a href="{{ $secURL | relURL }}">{{ hugo.Data.section.cclicenses.name }}</a>{{ end }}
 </nav>
 <article>
 <h1>{{ .Title }}</h1>

@@ -136,7 +136,7 @@ review-log: /home/username/hugo-work/data/reviews.json
 たとえば [Hugo] のテンプレートファイルでアイテムの名前の一覧を表示したいのであれば，こんな感じに記述すれば
 
 ```html
-<ul>{{ range .Site.Data.reviews }}
+<ul>{{ range hugo.Data.reviews }}
   <li>{{ .Book.Title }}</li>
 {{ end }}</ul>
 ```
@@ -152,7 +152,7 @@ review-log: /home/username/hugo-work/data/reviews.json
 更に
 
 ```text
-{{ range .Site.Data.reviews }}
+{{ range hugo.Data.reviews }}
   {{ partial "review-box.html" . }}
 {{ end }}
 ```
@@ -185,7 +185,7 @@ review-log: /home/username/hugo-work/data/reviews.json
 そこで，
 
 ```text
-{{ range where (where $.Site.Data.reviews "Book.ID" "4621300253") "Book.Type" "paapi" }}
+{{ range where (where hugo.Data.reviews "Book.ID" "4621300253") "Book.Type" "paapi" }}
   {{ partial "review-box.html" . }}
 {{ end }}
 ```
@@ -216,7 +216,7 @@ review-log: /home/username/hugo-work/data/reviews.json
 
 ```text
 {{ $id := index .Params 0 }}
-{{ range where (where $.Site.Data.reviews "Book.ID" $id) "Book.Type" "paapi" }}
+{{ range where (where hugo.Data.reviews "Book.ID" $id) "Book.Type" "paapi" }}
   {{ partial "review-box.html" . }}
 {{else}}<p>No data (paapi:{{ $id }})</p>{{ end }}
 ```

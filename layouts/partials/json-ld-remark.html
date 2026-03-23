@@ -5,10 +5,10 @@
 	"@type": "Blog",
 	"@id": {{ $secURL | absURL }},
 	"url": {{ $secURL | absURL }},
-	"inLanguage": {{ .Site.Data.section.remark.locale }},
-	"name": {{ .Site.Data.section.remark.name | safeHTML }},
-	"description": {{ .Site.Data.section.remark.description | safeHTML }},
-	"image": {{ .Site.Data.section.remark.image | absURL }},
+	"inLanguage": {{ hugo.Data.section.remark.locale }},
+	"name": {{ hugo.Data.section.remark.name | safeHTML }},
+	"description": {{ hugo.Data.section.remark.description | safeHTML }},
+	"image": {{ hugo.Data.section.remark.image | absURL }},
 	"publisher": {
 		"@id": {{ $org }}
 	},
@@ -47,14 +47,14 @@
 	"@id": {{ .Permalink }},
 	"url": {{ .Permalink }},
 	"mainEntityOfPage": {{ .Permalink }},
-	"inLanguage": {{ with .Params.Language.locale }}{{ . }}{{ else }}{{ .Site.Data.section.remark.locale }}{{ end }},
+	"inLanguage": {{ with .Params.Language.locale }}{{ . }}{{ else }}{{ hugo.Data.section.remark.locale }}{{ end }},
 	"name": {{ .Title }},
 	"description": {{ .Description }},
 	"headline": {{ .Description }}{{if .Params.tags }},
 	"keywords": {{ delimit .Params.tags ", " }}{{ end }},
-	"image": {{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ .Site.Data.section.remark.image | absURL }}{{ end }},
+	"image": {{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ hugo.Data.section.remark.image | absURL }}{{ end }},
 	"datePublished": {{ .Date.UTC.Format "2006-01-02T15:04:05-07:00" }},
-	"dateModified": {{ .Lastmod.UTC.Format "2006-01-02T15:04:05-07:00" }}{{ with .Site.Data.author }},
+	"dateModified": {{ .Lastmod.UTC.Format "2006-01-02T15:04:05-07:00" }}{{ with hugo.Data.author }},
 	"publisher": {
 		"@id": {{ $org }}
 	},

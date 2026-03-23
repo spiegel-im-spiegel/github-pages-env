@@ -1,5 +1,5 @@
 {{ partial "top.html" . }}
-<head prefix="og: http://ogp.me/ns#">{{ $secTitle := .Site.Data.section.bookmarks.name | plainify }}{{ $siteTitle := .Site.Title | plainify }}{{ $desc := .Site.Data.section.bookmarks.description | plainify | safeHTML }}
+<head prefix="og: http://ogp.me/ns#">{{ $secTitle := hugo.Data.section.bookmarks.name | plainify }}{{ $siteTitle := .Site.Title | plainify }}{{ $desc := hugo.Data.section.bookmarks.description | plainify | safeHTML }}
 {{ partial "header.html" . }}{{ with .AlternativeOutputFormats.Get "RSS" }}
 <link rel="alternate" href="{{ .Permalink }}" type="application/rss+xml" title="{{ $secTitle }} [{{ $siteTitle }}]">{{ end }}
 <link rel="canonical" href="{{ .Permalink }}">
@@ -8,7 +8,7 @@
 <meta property="og:title" content="{{ $secTitle }}">
 <meta name="description" content="{{ $desc }}">
 <meta property="og:description" content="{{ $desc }}">
-<meta property="og:image" content="{{ .Site.Data.section.bookmarks.image | absURL }}">
+<meta property="og:image" content="{{ hugo.Data.section.bookmarks.image | absURL }}">
 {{ partial "twitter-card.html" . }}
 {{ partial "mastodon-me.html" . }}
 
