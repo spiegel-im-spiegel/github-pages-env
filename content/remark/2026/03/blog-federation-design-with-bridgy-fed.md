@@ -56,7 +56,7 @@ If you're on the web, [email us](mailto:feedback@brid.gy) from an address at you
 変更方法は[以前書いた記事]({{< relref "./creating-a-new-pds-registry-on-pckt.md#change-handle" >}} "ハンドル名を独自ドメイン（サブドメイン）に変更する")を参照のこと。
 DNS の TXT レコードまたは `/.well-known/atproto-did` ファイルに DID を設置すれば勝手に更新してくれるみたい。
 
-ちなみに，ここのブログのように GitHub Pages で独自ドメインをつかている場合は DNS の TXT レコードが使えないため `/.well-known/atproto-did` ファイルに DID を書いて設置した。
+ちなみに，ここのブログのように GitHub Pages で独自ドメインにしている場合は DNS の TXT レコードが使えないため `/.well-known/atproto-did` ファイルに DID を書いて設置した。
 この場合 `/_config.yml` ファイルに以下の記述を追加する必要がある。
 
 ```yaml
