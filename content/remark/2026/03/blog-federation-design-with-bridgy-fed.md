@@ -81,9 +81,9 @@ Fediverse の各サービスや Bluesky 等とやり取りするために [Indie
 - [このブログがFediverseに対応しました](https://blog.tyage.net/post/2023/2023-07-17-bridgy-fed/)
 - [Bridgy-Fedのまとめ](https://ubanis.com/note/bridgy_fed_summary/)
 - [Webmention.io](https://webmention.io/)
+- [Long-Form Comes To Bridgy Fed](https://blog.anew.social/long-form-comes-to-bridgy-fed/) : Bridgy Fed が長文ドキュメント用の [Standard.site](https://standard.site/ "Standard.site - One schema. Every platform.") に対応
 
 [Bridgy Fed]: https://fed.brid.gy/ "Bridgy Fed"
 [Kagi Search]: https://kagi.com/ "Kagi Search - A Premium Search Engine"
 [Kagi Translate]: https://translate.kagi.com/ "Kagi Translate"
 [Kagi Assistant]: https://assistant.kagi.com/ "Kagi Assistant"
-<!-- eof -->
