@@ -1,6 +1,7 @@
 description = "帰ってきた「しっぽのさきっちょ」"
 since = "2015-10-01"
 siteType = "text"
+siteDID = "did:plc:crwrada4cit2ijjxuwz4bsjc"
 favicon = "/favicon.ico"
 favicon16png = "/favicon-16x16.png"
 favicon32png = "/favicon-32x32.png"
