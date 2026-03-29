@@ -67,6 +67,8 @@ Ideas, facts, and other building blocks of knowledge cannot be owned. Expanding 
 - [クリエイティブ・コモンズ、AIの健全な発展目指し「CC Signals」提案 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2506/27/news056.html)
 - [クリエイティブ・コモンズがAI対応の「CC Signals」発表、AIトレーニングへどう再利用可能か・不可かをコンテンツ所有者が詳細に指定できるフレームワーク - GIGAZINE](https://gigazine.net/news/20250627-cc-signals-ai/)
 - [AIスクレイパーボットへの対策と開かれたウェブのジレンマ – WirelessWire & Schrödinger's](https://wirelesswire.jp/2025/10/91475/)
+- [CA2096 – CCライセンスを付与する際の主な留意事項と最近の動向：「PD BY」と「CCシグナル」 / 鈴木康平 | カレントアウェアネス・ポータル](https://current.ndl.go.jp/ca2096)
+  - [クリエイティブ・コモンズ・ライセンスについての分かりやすい解説（2026年版） - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20260330/cc-license)
 
 [Creative Commons]: https://creativecommons.org/ "Creative Commons"
 [CC Licenses]: https://creativecommons.org/share-your-work/cclicenses/ "About CC Licenses - Creative Commons"
