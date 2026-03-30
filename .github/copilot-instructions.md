@@ -1,39 +1,51 @@
-**Hugo Skills — 操作ガイド**
+**Hugo Skills - Operation Guide**
 
-- **Purpose**: このリポジトリで Copilot が支援する Hugo 関連のスキルと運用上の振る舞いをまとめます。
+- **Purpose**: This document summarizes Hugo-related skills and operational behavior supported by Copilot in this repository.
 
 **Local Commands**
 
-- **`new.sh`**: 投稿作成を補助するスクリプト。
-  - `archetypes/*.md` を自動検出して、`hugo new --kind=<kind> <path>` を実行します。
-  - 安全なシェルオプション `set -euo pipefail` を採用しています。
-  - `remark` と `bookmarks` のデフォルト生成は日付の先頭 `DD-` をファイル名に付けます（例: `01-stories.md`, `01-bookmarks.md`）。
-  - 引数の取り扱い: 第一引数がセクション名（例: `remark`）かファイル名かを判定します。存在しない場合は利用可能な archetype を表示します。
+- **`new.sh`**: A helper script for creating posts.
+  - It auto-detects `archetypes/*.md` and runs `hugo new --kind=<kind> <path>`.
+  - It uses the safe shell options `set -euo pipefail`.
+  - Default generation for `remark` and `bookmarks` prefixes file names with `DD-` (for example, `01-stories.md`, `01-bookmarks.md`).
+  - Argument handling: The first argument is treated as either a section name (for example, `remark`) or a file name. If no valid section is found, available archetypes are shown.
 
 **Archetypes / Front Matter**
 
-- `archetypes/*.md` に合わせて front matter を生成します（例: `archetypes/remark.md` のフィールドを踏襲）。
- - 投稿ファイル生成時に `slug` フィールドを自動で追加しません。必要な場合は手動で `slug` を追加してください。
- - 英語タイトル用スラグはハイフン区切りの小文字を想定します（例: `reading-is-dead`）。
+- Front matter is generated according to `archetypes/*.md` (for example, fields from `archetypes/remark.md`).
+- The `slug` field is not automatically added when creating a post file. Add `slug` manually if needed.
+- For English titles, use lowercase hyphen-separated slugs (for example, `reading-is-dead`).
 
-**投稿作成の例**
+**Post Creation Examples**
 
 ```bash
-./new.sh remark                # content/remark/<YYYY>/<MM>/stories.md を作成（archetype: remark があれば使用）
-./new.sh bookmarks             # content/bookmarks/<YYYY>/<MM>/bookmarks.md を作成
-./new.sh release my-post.md    # content/release/<YYYY>/<MM>/my-post.md を作成
-./new.sh some/path.md          # 任意パスで作成（archetype が無ければ default を使用）
+./new.sh remark                # creates content/remark/<YYYY>/<MM>/stories.md (uses archetype: remark when available)
+./new.sh bookmarks             # creates content/bookmarks/<YYYY>/<MM>/bookmarks.md
+./new.sh release my-post.md    # creates content/release/<YYYY>/<MM>/my-post.md
+./new.sh some/path.md          # creates at an arbitrary path (uses default if no matching archetype)
 ```
 
-**README 更新**
+**Current Workflow Note (Create remark with slug)**
 
-- `text/README.md` に `new.sh` の使い方を追記済みです。
+- For the title "aptitude wo insutoru suru", the selected English slug is `install-aptitude`.
+- To use the slug as the file name in the `remark` section, run:
 
-**運用上の注意 / 次のステップ**
+```bash
+./new.sh remark install-aptitude.md
+```
 
-- デプロイ先と CI（GitHub Actions 等）の自動化は未設定です。必要であれば `publish.sh` と合わせて自動化手順を追加します。
-- `new.sh` のさらなる自動化（例: 英語タイトルから自動で `slug` を生成してファイル名に反映）は対応可能です。
+- Output path: `content/remark/<YYYY>/<MM>/install-aptitude.md`
+- For this case, do not add or modify front matter (use the generated content as-is).
+
+**README Update**
+
+- Usage of `new.sh` has already been added to `text/README.md`.
+
+**Operational Notes / Next Steps**
+
+- Deployment target and CI automation (for example, GitHub Actions) are not configured yet. If needed, add automation steps together with `publish.sh`.
+- Further automation for `new.sh` is possible (for example, auto-generating a `slug` from an English title and applying it to the file name).
 
 ---
 
-もしこの要約に追記・修正したい項目があれば教えてください。
+If you want to add or revise any part of this summary, let me know.

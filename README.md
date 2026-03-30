@@ -33,4 +33,16 @@ GitHub Page [spiegel-im-spiegel.github.io](https://github.com/spiegel-im-spiegel
 - スクリプトは `archetypes/*.md` を参照して利用可能な archetype を検出します。
 - `hugo new --kind=<kind> <path>` を実行するため、カスタム `archetypes` を追加するとその種類を利用できます。
 
+### 運用メモ（remark で slug 指定）
+
+- タイトル「aptitude をインストールする」の英語 slug は `install-aptitude` を採用。
+- `remark` セクションで slug をファイル名に使って作成する場合は次を実行。
+
+```bash
+./new.sh remark install-aptitude.md
+```
+
+- 生成先: `content/remark/<YYYY>/<MM>/install-aptitude.md`
+- 今回は front matter の追加・変更は行わない（生成された内容をそのまま使用）。
+
 変更したスクリプト: `new.sh` を安全に実行するために `set -euo pipefail` を有効にしています。
