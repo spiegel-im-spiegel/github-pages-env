@@ -17,6 +17,22 @@
   - Basic usage: `ml "https://example.com/article"`
   - Output format: `[Page Title](https://example.com/article)`
   - Clipboard example (Linux): `out=$(ml "https://example.com/article") && printf "%s" "$out" | xsel --clipboard --input`
+- **`publish.sh`**: A helper script for building and publishing generated site content.
+  - It runs `./build.sh` first and stops immediately on failure.
+  - It moves to `../text-publishd`, then runs `git add --all`, `git commit`, and `git push -u origin master`.
+  - Basic usage: `./publish.sh`
+  - With commit message: `./publish.sh "your commit message"`
+  - If no argument is provided, it uses an auto-generated UTC commit message like `Auto commit in 2026-03-31T03:00:00+00:00`.
+
+**Current Workflow Note (Publish with latest commit message)**
+
+- To reuse the latest commit subject from `text` as the publish commit message, run:
+
+```bash
+./publish.sh "$(git log -1 --pretty=%s)"
+```
+
+- This executes the site build, commits generated output in `../text-publishd`, and pushes to `origin/master`.
 
 **Archetypes / Front Matter**
 

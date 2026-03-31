@@ -50,3 +50,28 @@ GitHub Page [spiegel-im-spiegel.github.io](https://github.com/spiegel-im-spiegel
 - 今回は front matter の追加・変更は行わない（生成された内容をそのまま使用）。
 
 変更したスクリプト: `new.sh` を安全に実行するために `set -euo pipefail` を有効にしています。
+
+## 公開（ビルドと GitHub へのアップ）
+
+- **スクリプト**: `publish.sh` は，サイトのビルドと公開用リポジトリへの push をまとめて実行します。
+- **処理内容**:
+	- 先に `./build.sh` を実行し，失敗時はその場で終了します。
+	- `../text-publishd` へ移動して，`git add --all`，`git commit`，`git push -u origin master` を実行します。
+- **使い方例**:
+
+```bash
+./publish.sh
+./publish.sh "your commit message"
+```
+
+- 引数を省略した場合は，`Auto commit in 2026-03-31T03:00:00+00:00` のような UTC 時刻ベースのメッセージを使います。
+
+### 運用メモ（最新コミットメッセージをそのまま使う）
+
+- 直近コミットの件名を publish 用コミットメッセージとして使う場合は次を実行します。
+
+```bash
+./publish.sh "$(git log -1 --pretty=%s)"
+```
+
+- この手順で，サイトのビルド，`../text-publishd` でのコミット，`origin/master` への push まで実行できます。
