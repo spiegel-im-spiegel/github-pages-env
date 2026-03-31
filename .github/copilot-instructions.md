@@ -27,10 +27,12 @@
   - It scans front matter tags from `content/**/*.md`.
   - It writes CSV output to `.github/workflows/tagslist.csv`.
   - Output is sorted by descending count, with alphabetical tag order as a tie-breaker.
+  - The generated `tagslist.csv` is used as a reference when deciding which tags to assign to future posts.
 - **`toptags.sh`**: A helper script for recent top-tags export.
   - It targets posts within the last one year based on front matter `date`.
   - It writes a JSON array of tag names to `data/toptags.json`.
   - Default output size is top 15 tags; override with `TOP_N` environment variable.
+  - The generated `toptags.json` is used as source data for the “最近の主な tags” section on `layouts/_default/home.html`.
 - **`build.sh`**: Build entry point.
   - It runs `./toptags.sh` first and stops on error.
   - It then runs `./tagslist.sh` and stops on error.
