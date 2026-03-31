@@ -5,6 +5,10 @@ GitHub Page [spiegel-im-spiegel.github.io](https://github.com/spiegel-im-spiegel
 - コンテンツの生成には [Hugo](https://gohugo.io/) を使用しています。
 - [Hugo](https://gohugo.io/) の theme として [Baldanders.info] 専用 theme [spiegel-im-spiegel/hugo-theme-baldanders-info](https://github.com/spiegel-im-spiegel/hugo-theme-baldanders-info) を使用しています。
 
+## 文章スタイル
+
+- 日本語の文章では，読点に「，」を，句点に「。」を使用します。
+
 ## ネタ帳
 
 ネタは [Issues](https://github.com/spiegel-im-spiegel/github-pages-env/issues) に上げている。

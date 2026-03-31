@@ -2,6 +2,10 @@
 
 - **Purpose**: This document summarizes Hugo-related skills and operational behavior supported by Copilot in this repository.
 
+**Writing Style**
+
+- In Japanese sentences, use `，` for commas and `。` for periods.
+
 **Local Commands**
 
 - **`new.sh`**: A helper script for creating posts.
@@ -9,6 +13,10 @@
   - It uses the safe shell options `set -euo pipefail`.
   - Default generation for `remark` and `bookmarks` prefixes file names with `DD-` (for example, `01-stories.md`, `01-bookmarks.md`).
   - Argument handling: The first argument is treated as either a section name (for example, `remark`) or a file name. If no valid section is found, available archetypes are shown.
+- **`ml`**: A helper command that converts a URL into Markdown link format.
+  - Basic usage: `ml "https://example.com/article"`
+  - Output format: `[Page Title](https://example.com/article)`
+  - Clipboard example (Linux): `out=$(ml "https://example.com/article") && printf "%s" "$out" | xsel --clipboard --input`
 
 **Archetypes / Front Matter**
 
