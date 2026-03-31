@@ -1,12 +1,11 @@
 +++
 title = "Linux で個人番号カードを読む"
-date =  "2026-03-31T14:15:48+09:00"
+date =  "2026-03-31T20:23:14+09:00"
 description = "自宅の Ubuntu 機に IC カードリーダーを接続し，個人番号カードの内容を読み取る。 MPA for Linux については後日に試してみたい。"
 isCJKLanguage = true
 image = "/images/attention/kitten.jpg"
 tags = [ "linux", "ubuntu", "my-number", "pki", "certification", "tools", "install" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
