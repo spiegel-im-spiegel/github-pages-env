@@ -23,13 +23,12 @@
 {{ range first 5 .Site.RegularPages }}{{ partial "li.html" . }}{{ end }}
 </ul>
 
-<h2>主な <a href="tags/">Tags</a></h2>
+<h2>最近の主な <a href="tags/">Tags</a></h2>
 
-{{ $ct := 90 -}}<ul class="cloud" style="font-size:smaller;">
-	{{- range $key, $value := .Site.Taxonomies.tags.Alphabetical -}}
-	{{- if ge $value.Count $ct -}}{{- $tag := lower $value.Name -}}{{- $tagURL := printf "/tags/%s/" $tag | urlize -}}
-	<li>#<a href="{{ $tagURL | relURL }}">{{ $tag }}</a> ({{ $value.Count }})</li>
-	{{- end -}}{{- end -}}</ul>
+{{ with hugo.Data.toptags }}<ul class="cloud" style="font-size:smaller;">
+{{ range $value := . -}}
+  <li>#<a href="{{ printf "/tags/%s/" (lower $value) | urlize | relURL }}">{{ $value }}</a></li>
+{{ end }}</ul>{{ end }}
 
 {{ with hugo.Data.osanpo }}<h2>最近の<a href="/tags/osanpo-camera/">お散歩カメラ</a></h2>
 

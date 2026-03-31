@@ -70,3 +70,18 @@ GitHub Page [spiegel-im-spiegel.github.io](https://github.com/spiegel-im-spiegel
 ```
 
 - この手順で，サイトのビルド，`../text-publishd` でのコミット，`origin/master` への push まで実行できる。
+
+## タグ集計（ローカル補助スクリプト）
+
+- **スクリプト**: `tagslist.sh` は，`content/**/*.md` の front matter から `tags` を収集し，`.github/workflows/tagslist.csv` を再生成する。
+- 出力形式は `tag,count` の CSV であり，カウント降順，カウント同値時は tag 名のアルファベット順でソートする。
+
+- **スクリプト**: `toptags.sh` は，front matter の `date` が直近 1 年以内の記事を対象に `tags` を集計し，`data/toptags.json` を出力する。
+- 出力形式は tag 名のみの JSON 配列であり，配列内はアルファベット順である。
+- 既定では上位 15 件を出力し，`TOP_N` 環境変数で件数を変更できる。
+
+## ビルド時の実行順序
+
+- `build.sh` は先頭で `./toptags.sh` を実行し，失敗時はその場で中断する。
+- 続いて `./tagslist.sh` を実行し，失敗時はその場で中断する。
+- 最後に `hugo --gc --cleanDestinationDir --destination=../text-publishd` を実行する。

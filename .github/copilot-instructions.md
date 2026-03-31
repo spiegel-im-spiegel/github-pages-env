@@ -23,6 +23,18 @@
   - Basic usage: `./publish.sh`
   - With commit message: `./publish.sh "your commit message"`
   - If no argument is provided, it uses an auto-generated UTC commit message like `Auto commit in 2026-03-31T03:00:00+00:00`.
+- **`tagslist.sh`**: A helper script for tag frequency export.
+  - It scans front matter tags from `content/**/*.md`.
+  - It writes CSV output to `.github/workflows/tagslist.csv`.
+  - Output is sorted by descending count, with alphabetical tag order as a tie-breaker.
+- **`toptags.sh`**: A helper script for recent top-tags export.
+  - It targets posts within the last one year based on front matter `date`.
+  - It writes a JSON array of tag names to `data/toptags.json`.
+  - Default output size is top 15 tags; override with `TOP_N` environment variable.
+- **`build.sh`**: Build entry point.
+  - It runs `./toptags.sh` first and stops on error.
+  - It then runs `./tagslist.sh` and stops on error.
+  - It finally runs Hugo with `hugo --gc --cleanDestinationDir --destination=../text-publishd`.
 
 **Current Workflow Note (Publish with latest commit message)**
 
