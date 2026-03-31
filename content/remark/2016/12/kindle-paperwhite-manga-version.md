@@ -3,11 +3,7 @@ title = "自分にメリー・クリスマス！"
 date = "2016-12-18T19:33:58+09:00"
 description = "いわゆる「サイバー・マンデー」でどえら値引きされてたんでついポチってしまった。"
 image = "/images/attention/kitten.jpg"
-tags = [
-  "kindle",
-  "book",
-  "comic",
-]
+tags = [ "kindle", "book", "comic" ]
 pageType = "text"
 
 [scripts]

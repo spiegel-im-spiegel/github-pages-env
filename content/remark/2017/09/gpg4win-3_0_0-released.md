@@ -2,14 +2,7 @@
 title = "GnuPG 2.2 に対応した Gpg4win 3.0.0 がリリース"
 date =  "2017-09-22T23:13:02+09:00"
 description = "Gpg4win (GNU Privacy Guard for Windows) は GnuPG を含む Windows 用のパッケージ群である。"
-tags = [
-  "security",
-  "cryptography",
-  "tools",
-  "openpgp",
-  "gnupg",
-  "windows",
-]
+tags = [ "security", "cryptography", "tools", "openpgp", "gnupg", "windows" ]
 
 [scripts]
   mathjax = false

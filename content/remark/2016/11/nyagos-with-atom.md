@@ -1,10 +1,6 @@
 +++
 description = "やっとこれで Windows 環境でも ATOM にターミナル・エミュレータが導入できるようになった。しかも NYAGOS が動く。素晴らしい！"
-tags = [
-  "atom",
-  "editor",
-  "nyagos",
-]
+tags = [ "atom", "editor", "nyagos" ]
 draft = false
 date = "2016-11-20T16:29:24+09:00"
 title = "ATOM × NYAGOS ＝ ♥"

@@ -4,13 +4,7 @@ date = "2018-12-16T11:24:32+09:00"
 update = "2018-12-16T17:55:21+09:00"
 description = "たまには Firefox のことも思い出してあげてください"
 image = "/images/attention/kitten.jpg"
-tags = [
-  "security",
-  "cryptography",
-  "firefox",
-  "tls",
-  "management",
-]
+tags = [ "security", "cryptography", "firefox", "tls", "management" ]
 
 [author]
   name      = "Spiegel"

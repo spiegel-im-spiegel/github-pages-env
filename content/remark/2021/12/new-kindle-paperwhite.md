@@ -3,11 +3,7 @@ title = "Kindle Paperwhite を新調した"
 date =  "2021-12-08T20:49:45+09:00"
 description = "今使ってる Kindle 端末のバッテリがヘタれてきたので買い替えた。"
 image = "/images/attention/kitten.jpg"
-tags = [
-  "kindle",
-  "book",
-  "comic",
-]
+tags = [ "kindle", "book", "comic" ]
 pageType = "text"
 
 [scripts]

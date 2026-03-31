@@ -4,11 +4,7 @@ date = "2018-03-03T19:39:12+09:00"
 update = "2018-03-11T14:28:33+09:00"
 description = "DDoS 攻撃の踏み台として使われるのは memcached だけではない。ソフトウェアを常に最新に保つとともにアドレス制限を含む適切な設定を行う必要がある。"
 image = "/images/attention/tools.png"
-tags = [
-  "security",
-  "vulnerability",
-  "ddos",
-]
+tags = [ "security", "vulnerability", "ddos" ]
 
 [author]
   name      = "Spiegel"

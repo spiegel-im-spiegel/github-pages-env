@@ -2,12 +2,7 @@
 title = "SCM ツールの脆弱性"
 date =  "2017-08-19T21:02:07+09:00"
 description = "改修されたバージョンが公開されている。更新作業は計画的に。"
-tags = [
-  "security",
-  "vulnerability",
-  "tools",
-  "git",
-]
+tags = [ "security", "vulnerability", "tools", "git" ]
 
 [author]
   name      = "Spiegel"

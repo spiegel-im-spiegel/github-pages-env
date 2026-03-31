@@ -3,15 +3,7 @@ title = "（何度目かの）さようなら SHA-1"
 date =  "2020-01-09T23:02:25+09:00"
 description = "思ったより騒がれてる感じなので記事を立ててみた。"
 image = "/images/attention/openpgp.png"
-tags = [
-  "security",
-  "risk",
-  "cryptography",
-  "hash",
-  "sha-1",
-  "openpgp",
-  "gnupg",
-]
+tags = [ "security", "risk", "cryptography", "hash", "sha-1", "openpgp", "gnupg" ]
 pageType = "text"
 
 [scripts]

@@ -1,10 +1,7 @@
 +++
 title = "ネットには居場所がないということ"
 description = "「リア充」と「ネト充」は同じコインの表裏みたいなもので対立する概念じゃないだろう。"
-tags = [
-  "code",
-  "internet",
-]
+tags = [ "code", "internet" ]
 date = "2016-12-02T20:58:38+09:00"
 
 [scripts]

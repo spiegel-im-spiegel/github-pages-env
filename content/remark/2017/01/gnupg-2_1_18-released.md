@@ -1,12 +1,6 @@
 +++
 title = "GnuPG 2.1.18 がリリース"
-tags = [
-  "security",
-  "cryptography",
-  "tools",
-  "openpgp",
-  "gnupg",
-]
+tags = [ "security", "cryptography", "tools", "openpgp", "gnupg" ]
 description = "今回もセキュリティ・アップデートはなし。"
 draft = false
 date = "2017-01-25T18:16:00+09:00"

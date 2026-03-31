@@ -2,11 +2,7 @@
 date = "2016-11-03T22:18:00+09:00"
 title = "鬼（もの）のインターネット"
 description = "つまり，今のインターネットでは，結果的に，より多くの「モノ」を自分たちの陣営に「包摂」した者こそが「覇権」を握るのである。量こそ正義！ まさに民主主義の典型ではないか（笑）"
-tags = [
-  "internet",
-  "engineering",
-  "politics",
-]
+tags = [ "internet", "engineering", "politics" ]
 
 [scripts]
   mathjax = false

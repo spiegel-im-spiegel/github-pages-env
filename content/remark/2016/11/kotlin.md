@@ -4,13 +4,7 @@ date = "2016-11-08T21:02:26+09:00"
 update = "2016-11-10T18:45:34+09:00"
 title = "Kotlin に関する覚え書き"
 description = "今回は試して遊ぶ余裕がないので本当にただのメモ。"
-tags = [
-  "programming",
-  "language",
-  "kotlin",
-  "java",
-  "null-safety",
-]
+tags = [ "programming", "language", "kotlin", "java", "null-safety" ]
 
 [author]
   name = "Spiegel"

@@ -3,13 +3,7 @@ title = "GnuPG 2.2.13 がリリースされた"
 date = "2019-02-13T22:07:18+09:00"
 description = "今回もセキュリティ・アップデートはなし。"
 image = "/images/attention/openpgp.png"
-tags = [
-  "security",
-  "cryptography",
-  "tools",
-  "openpgp",
-  "gnupg",
-]
+tags = [ "security", "cryptography", "tools", "openpgp", "gnupg" ]
 
 [scripts]
   mathjax = false

@@ -2,10 +2,7 @@
 date = "2016-10-25T22:23:35+09:00"
 title = "パズルと水素水"
 description = "こういうパズルのような問題は個人的に大好物である。"
-tags = [
-  "math",
-  "games",
-]
+tags = [ "math", "games" ]
 draft = false
 
 [author]

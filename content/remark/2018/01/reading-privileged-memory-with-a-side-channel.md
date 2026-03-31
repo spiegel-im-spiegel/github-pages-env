@@ -4,11 +4,7 @@ date =  "2018-01-04T22:01:45+09:00"
 update = "2018-03-31T23:20:07+09:00"
 description = "投機的実行機能やアウトオブオーダー実行機能を持つ CPU に対してサイドチャネル攻撃を行う手法が報告されている。ただし影響度は低い。"
 image = "/images/attention/remark.jpg"
-tags = [
-  "security",
-  "vulnerability",
-  "device",
-]
+tags = [ "security", "vulnerability", "device" ]
 
 [scripts]
   mathjax = false

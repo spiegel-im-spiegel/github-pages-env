@@ -2,13 +2,7 @@
 title = "「キュレーション」じゃなく，はっきり「注目の搾取」と言えよ！"
 description = "ていうか「マガジン航[kɔː]」はこんな記事を出すくらいなら工藤郁子さんの「メディアは（常に）スパムか？」を再掲載すべきなんじゃないのか？"
 date = "2016-12-10T09:55:56+09:00"
-tags = [
-  "internet",
-  "code",
-  "media",
-  "spam",
-  "grigori",
-]
+tags = [ "internet", "code", "media", "spam", "grigori" ]
 
 [scripts]
   mathjax = false

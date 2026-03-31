@@ -3,14 +3,7 @@ title = "OpenPGP 鍵管理に関する考察"
 date =  "2017-12-01T17:51:59+09:00"
 description = "OpenPGP 鍵の管理について考えてみるテスト。"
 image = "/images/attention/openpgp.png"
-tags = [
-  "cryptography",
-  "openpgp",
-  "management",
-  "pki",
-  "trust",
-  "gnupg",
-]
+tags = [ "cryptography", "openpgp", "management", "pki", "trust", "gnupg" ]
 
 [scripts]
   mathjax = false

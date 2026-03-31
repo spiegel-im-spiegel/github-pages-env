@@ -2,12 +2,7 @@
 description = "キーワードは「公開されたプライバシー」である。つまり，公開された私的情報であってもプライバシー権は失われることはなく，そのコントロールは情報へのアクセス性にある，という考え方だ。"
 date = "2016-11-05T11:46:10+09:00"
 title = "「ネットが蝕むプライバシー」を読む（再掲載）"
-tags = [
-  "internet",
-  "privacy",
-  "book",
-  "grigori",
-]
+tags = [ "internet", "privacy", "book", "grigori" ]
 
 [scripts]
   mathjax = false

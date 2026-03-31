@@ -3,14 +3,7 @@ title = "Edwards-curve Digital Signature Algorithm"
 date =  "2020-06-07T17:33:37+09:00"
 description = "SP 800-57 Part 1 Rev.5 が正式リリースした記念に EdDSA に関する情報を覚え書きの形で記しておく。"
 image = "/images/attention/kitten.jpg"
-tags = [
-  "security",
-  "cryptography",
-  "ecc",
-  "nist",
-  "openpgp",
-  "gnupg",
-]
+tags = [ "security", "cryptography", "ecc", "nist", "openpgp", "gnupg" ]
 pageType = "text"
 
 [scripts]

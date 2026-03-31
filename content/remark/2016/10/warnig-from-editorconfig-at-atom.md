@@ -1,9 +1,6 @@
 +++
 description = "EditorConfig と Whitespace のどちらを優先するかは人によって違うだろうが，少なくともコード書きなら EditorConfig を優先することを強くお勧めする。"
-tags = [
-  "atom",
-  "editor",
-]
+tags = [ "atom", "editor" ]
 draft = false
 date = "2016-10-29T22:27:00+09:00"
 title = "【ATOM Editor】 EditorConfig を使うなら Whitespace は不要"

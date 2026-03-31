@@ -3,11 +3,7 @@ title = "2020年の主な暦象"
 date =  "2019-11-23T21:57:52+09:00"
 description = "2020年版『天文年鑑』では Kindle 版が出るらしい。"
 image = "/images/attention/kitten.jpg"
-tags = [
-  "astronomy",
-  "ephemeris",
-  "book",
-]
+tags = [ "astronomy", "ephemeris", "book" ]
 pageType = "text"
 
 [scripts]

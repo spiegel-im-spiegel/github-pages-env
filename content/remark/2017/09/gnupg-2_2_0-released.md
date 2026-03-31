@@ -2,14 +2,7 @@
 title = "GnuPG 2.2.0 がリリース（脆弱性の修正あり）"
 date =  "2017-09-14T04:11:20+09:00"
 description = "バージョン 2.2 は stable 版 2.0.x の置き換えになるようだ。なお 2.0.x は今年いっぱいでサポートを終了する。"
-tags = [
-  "security",
-  "cryptography",
-  "vulnerability",
-  "tools",
-  "openpgp",
-  "gnupg",
-]
+tags = [ "security", "cryptography", "vulnerability", "tools", "openpgp", "gnupg" ]
 
 [author]
   name      = "Spiegel"

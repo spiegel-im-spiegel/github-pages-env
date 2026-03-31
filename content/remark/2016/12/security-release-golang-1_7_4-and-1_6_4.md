@@ -1,11 +1,6 @@
 +++
 description = "数日前から予告されていたが， Go 言語の 1.7.4 と 1.6.4 がリリースされた。詳細が分かり次第，ここに追記する。"
-tags = [
-  "security",
-  "vulnerability",
-  "golang",
-  "x509",
-]
+tags = [ "security", "vulnerability", "golang", "x509" ]
 draft = false
 date = "2016-12-02T20:32:33+09:00"
 title = "Security Release Go 1.7.4 and 1.6.4"

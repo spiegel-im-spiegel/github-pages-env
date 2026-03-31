@@ -3,13 +3,7 @@ title = "20周年記念！ GnuPG 2.2.4 がリリース"
 date =  "2017-12-21T15:02:20+09:00"
 description = "今回もセキュリティ・アップデートはない。平和なのはよいことである。"
 image = "/images/attention/remark.jpg"
-tags = [
-  "security",
-  "cryptography",
-  "tools",
-  "openpgp",
-  "gnupg",
-]
+tags = [ "security", "cryptography", "tools", "openpgp", "gnupg" ]
 
 [author]
   name      = "Spiegel"

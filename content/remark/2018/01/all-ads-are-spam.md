@@ -3,14 +3,7 @@ title = "全ての広告は「注目の搾取（spam）」"
 date =  "2018-01-13T14:12:50+09:00"
 description = "広告というのは一種の「誤配」である。「誤配」はネガティブに言えばノイズだが，ポジティブに言えばフィルターバブルの向こう側からやってくる貴重なメッセージでもある。"
 image = "/images/attention/remark.jpg"
-tags = [
-  "twitter",
-  "facebook",
-  "media",
-  "spam",
-  "market",
-  "grigori",
-]
+tags = [ "twitter", "facebook", "media", "spam", "market", "grigori" ]
 
 [scripts]
   mathjax = false

@@ -1,10 +1,7 @@
 +++
 title = "PGP ってゆーな！"
 description = "暗号ツールを比較したいのなら，最低でもこの程度は言及していただきたいものである。"
-tags = [
-  "cryptography",
-  "openpgp",
-]
+tags = [ "cryptography", "openpgp" ]
 date = "2016-12-23T12:57:28+09:00"
 
 [scripts]

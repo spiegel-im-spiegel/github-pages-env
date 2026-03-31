@@ -3,11 +3,7 @@ title = "Go 1.13 のエラー・ハンドリング"
 date =  "2019-08-24T12:06:25+09:00"
 description = "golang.org/x/xerrors パッケージの仕様とはかなり異なっているので注意が必要である。 "
 image = "/images/attention/go-logo_blue.png"
-tags = [
-  "golang",
-  "error",
-  "programming",
-]
+tags = [ "golang", "error", "programming" ]
 pageType = "text"
 
 [scripts]

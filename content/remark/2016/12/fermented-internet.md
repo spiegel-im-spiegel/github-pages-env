@@ -1,12 +1,7 @@
 +++
 title = "「インターネットと発酵」"
 description = "この中に出てくる「発酵」の話。実は2005年頃に既に話題として登場してるのよ。上の対談記事を読んでて思い出した。"
-tags = [
-  "code",
-  "internet",
-  "creative-commons",
-  "generativity",
-]
+tags = [ "code", "internet", "creative-commons", "generativity" ]
 date = "2016-12-16T21:14:37+09:00"
 
 [scripts]

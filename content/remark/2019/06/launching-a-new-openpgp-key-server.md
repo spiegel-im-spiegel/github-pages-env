@@ -3,12 +3,7 @@ title = "新しい OpenPGP 鍵サーバが Launch したらしい"
 date =  "2019-06-13T22:19:09+09:00"
 description = "これで思い出すのが，かつての OpenPKSD だが，今回の keys.openpgp.org がその二の舞にならないことを祈るばかりである。"
 image = "/images/attention/openpgp.png"
-tags = [
-  "cryptography",
-  "openpgp",
-  "management",
-  "pki",
-]
+tags = [ "cryptography", "openpgp", "management", "pki" ]
 pageType = "text"
 
 [scripts]

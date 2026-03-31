@@ -3,10 +3,7 @@ draft = false
 date = "2016-10-20T21:45:45+09:00"
 title = "STAP 教と「説教サイト」"
 description = "ちょっと訳あって昔の自分の記事を掘り返してたら懐かしいものを見つけた。"
-tags = [
-  "media",
-  "medical",
-]
+tags = [ "media", "medical" ]
 
 [scripts]
   mathjax = false

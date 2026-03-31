@@ -3,14 +3,7 @@ title = "WPA2 脆弱性（KRACKs）に関する覚え書き"
 date =  "2017-10-17T20:00:30+09:00"
 update = "2018-01-04T20:59:33+09:00"
 description = "今回は，世界中で大騒ぎになっている Wi-Fi の WPA2 認証に関する脆弱性について。"
-tags = [
-  "security",
-  "vulnerability",
-  "device",
-  "wireless",
-  "wpa2",
-  "authentication",
-]
+tags = [ "security", "vulnerability", "device", "wireless", "wpa2", "authentication" ]
 
 [author]
   name      = "Spiegel"

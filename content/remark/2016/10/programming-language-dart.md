@@ -1,11 +1,7 @@
 +++
 draft = false
 description = "個人的に TypeScript や CoffeeScript の構文は好みじゃないし（もちろん仕事ならやりますよ）， Dart でそういったものの代わりになるのなら悪くないと思ったのだ。"
-tags = [
-  "programming",
-  "language",
-  "dart",
-]
+tags = [ "programming", "language", "dart" ]
 date = "2016-10-30T01:39:04+09:00"
 title = "Dart 言語に関する覚え書き"
 

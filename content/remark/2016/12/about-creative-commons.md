@@ -1,11 +1,7 @@
 +++
 date = "2016-12-07T00:08:16+09:00"
 title = "「クリエイティブ・コモンズについて」について"
-tags = [
-  "creative-commons",
-  "license",
-  "site",
-]
+tags = [ "creative-commons", "license", "site" ]
 description = "本当は専門家の方がきちんと逐条解説とかやってくれればこんなの要らないんだけどねぇ。"
 
 [scripts]

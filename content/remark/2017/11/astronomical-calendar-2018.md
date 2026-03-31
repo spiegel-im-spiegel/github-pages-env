@@ -3,11 +3,7 @@ title = "2018年の主な暦象"
 date =  "2017-11-27T18:36:16+09:00"
 description = "2018年版の『天文年鑑』をつらつらと眺めながら2018年の主な暦象を紹介する。"
 image = "https://photo.baldanders.info/flickr/image/38632868121_o.jpg"
-tags = [
-  "astronomy",
-  "ephemeris",
-  "book",
-]
+tags = [ "astronomy", "ephemeris", "book" ]
 
 [scripts]
   mathjax = false

@@ -2,12 +2,7 @@
 date = "2016-11-05T23:26:29+09:00"
 title = "モンテカルロ法による円周率の推定（その1）"
 description = "乱数（random number）についていい例題がないかなぁ，と考えて「円周率をモンテカルロ法で求めるやつやればいいぢゃん」と思いついた。ので早速試してみる。"
-tags = [
-  "golang",
-  "math",
-  "random",
-  "circle-ratio",
-]
+tags = [ "golang", "math", "random", "circle-ratio" ]
 
 [scripts]
   mathjax = true

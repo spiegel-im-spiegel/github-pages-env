@@ -3,11 +3,7 @@ title = "OpenPGP V5 鍵のサンプル"
 date = "2019-03-21T10:11:37+09:00"
 description = "よーし，書くぞ書くぞ書くぞ！"
 image = "/images/attention/openpgp.png"
-tags = [
-  "cryptography",
-  "openpgp",
-  "gpgpdump",
-]
+tags = [ "cryptography", "openpgp", "gpgpdump" ]
 pageType = "text"
 
 [scripts]

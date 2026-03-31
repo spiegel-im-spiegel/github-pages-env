@@ -1,12 +1,6 @@
 +++
 draft = false
-tags = [
-  "security",
-  "cryptography",
-  "tools",
-  "openpgp",
-  "gnupg",
-]
+tags = [ "security", "cryptography", "tools", "openpgp", "gnupg" ]
 description = "今回もセキュリティ・アップデートはなし。"
 date = "2017-04-04T20:30:11+09:00"
 update = "2017-04-04T20:45:16+09:00"

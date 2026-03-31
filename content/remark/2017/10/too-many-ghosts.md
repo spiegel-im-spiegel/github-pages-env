@@ -2,16 +2,7 @@
 title = "今こそ「グリゴリの捕縛」を読め！ または遍在する草薙素子"
 date =  "2017-10-14T01:12:32+09:00"
 description = "折角なので私も何か書いてみる。オチはないです。駄文ですみません。"
-tags = [
-  "code",
-  "law",
-  "hacker-ethic",
-  "internet",
-  "politics",
-  "artificial-intelligence",
-  "blockchain",
-  "grigori"
-]
+tags = [ "code", "law", "hacker-ethic", "internet", "politics", "artificial-intelligence", "blockchain", "grigori" ]
 
 [scripts]
   mathjax = false

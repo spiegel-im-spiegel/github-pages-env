@@ -3,17 +3,7 @@ title = "OpenPGP の電子署名は「ユーザーの身元を保証し」ない
 date = "2019-03-21T00:28:40+09:00"
 description = "つまり公開鍵や電子署名で「ユーザーの身元を保証」するのではなく「身元の保証されたユーザ」同士で鍵と電子署名を運用するのである。"
 image = "/images/attention/openpgp.png"
-tags = [
-  "cryptography",
-  "openpgp",
-  "management",
-  "pki",
-  "trust",
-  "gnupg",
-  "git",
-  "github",
-  "certification",
-]
+tags = [ "cryptography", "openpgp", "management", "pki", "trust", "gnupg", "git", "github", "certification" ]
 pageType = "text"
 
 [scripts]

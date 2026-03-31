@@ -3,13 +3,7 @@ title = "GnuPG 2.2.11 がリリース"
 date = "2018-11-11T22:48:47+09:00"
 description = "おおう。 2.2.10 リリース時のアナウンスを忘れてたよ。今回もセキュリティ・アップデートはなし。"
 image = "/images/attention/tools.png"
-tags = [
-  "security",
-  "cryptography",
-  "tools",
-  "openpgp",
-  "gnupg",
-]
+tags = [ "security", "cryptography", "tools", "openpgp", "gnupg" ]
 
 [author]
   name      = "Spiegel"

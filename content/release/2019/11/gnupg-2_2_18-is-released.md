@@ -3,17 +3,7 @@ title = "GnuPG 2.2.18 リリース： さようなら SHA-1"
 date =  "2019-11-26T22:12:19+09:00"
 description = "2019-01-19 以降に鍵に付与された SHA-1 ベースの電子署名を全て削除する（CVE-2019-14855）。"
 image = "/images/attention/openpgp.png"
-tags = [
-  "security",
-  "cryptography",
-  "tools",
-  "openpgp",
-  "gnupg",
-  "risk",
-  "hash",
-  "sha-1",
-  "gpgpdump",
-]
+tags = [ "security", "cryptography", "tools", "openpgp", "gnupg", "risk", "hash", "sha-1", "gpgpdump" ]
 pageType = "text"
 
 [scripts]

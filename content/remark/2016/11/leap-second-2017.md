@@ -2,11 +2,7 @@
 date = "2016-11-29T22:06:59+09:00"
 title = "2017年直前の閏秒について"
 description = "年も押し迫ってきたし関連情報も出てき始めているので，あらためて記事を再構成し関連リンクを順次追加していくことにする。"
-tags = [
-  "astronomy",
-  "leap-second",
-  "engineering",
-]
+tags = [ "astronomy", "leap-second", "engineering" ]
 
 [scripts]
   mathjax = true

@@ -2,12 +2,7 @@
 title = "『数学ガールの秘密ノート／やさしい統計』で遊ぶ"
 date = "2016-12-11T15:59:26+09:00"
 description = "今回はテトラちゃん回かなぁ。1,2章のユーリちゃんとのやり取りも面白いけど，新しい用語が次々登場する状況で，言葉や名前に敏感なテトラちゃんがアワアワする感じがよかった。"
-tags = [
-  "book",
-  "math",
-  "programming",
-  "golang",
-]
+tags = [ "book", "math", "programming", "golang" ]
 
 [scripts]
   mathjax = false

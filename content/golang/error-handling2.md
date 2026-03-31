@@ -3,11 +3,7 @@ draft = false
 date = "2016-11-03T20:51:00+09:00"
 title = "Error の構造化"
 description = "エラーハンドリングのために error を構造化する手段として github.com/pkg/errors というパッケージがあるそうだ。"
-tags = [
-  "golang",
-  "programming",
-  "error",
-]
+tags = [ "golang", "programming", "error" ]
 
 [scripts]
   mathjax = false

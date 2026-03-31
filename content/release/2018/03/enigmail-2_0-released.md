@@ -3,14 +3,7 @@ title = "Enigmail 2.0 Released"
 date = "2018-03-27T21:13:01+09:00"
 description = "って Autocrypt も p≡p もまだ調査してないよ！"
 image = "/images/attention/tools.png"
-tags = [
-  "tools",
-  "security",
-  "cryptography",
-  "openpgp",
-  "autocrypt",
-  "gnupg",
-]
+tags = [ "tools", "security", "cryptography", "openpgp", "autocrypt", "gnupg" ]
 
 [author]
   name      = "Spiegel"

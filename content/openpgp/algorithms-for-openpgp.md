@@ -3,11 +3,7 @@ title = "【Obsolete】 OpenPGP で利用可能なアルゴリズム（RFC 4880b
 date =  "2017-12-01T17:47:50+09:00"
 description = "RFC 4880bis は，名前の通り，ドラフト段階なので今後変わる可能性がある。正式な RFC 番号が振られた段階でこの記事の最終稿とする予定である。"
 image = "/images/attention/openpgp.png"
-tags = [
-  "security",
-  "cryptography",
-  "openpgp",
-]
+tags = [ "security", "cryptography", "openpgp" ]
 
 [scripts]
   mathjax = false

@@ -4,13 +4,7 @@ date = "2018-04-11T20:13:15+09:00"
 update = "2018-04-22T18:15:40+09:00"
 description = "今回もセキュリティ・アップデートはなし。"
 image = "/images/attention/tools.png"
-tags = [
-  "security",
-  "cryptography",
-  "tools",
-  "openpgp",
-  "gnupg",
-]
+tags = [ "security", "cryptography", "tools", "openpgp", "gnupg" ]
 
 [author]
   name      = "Spiegel"

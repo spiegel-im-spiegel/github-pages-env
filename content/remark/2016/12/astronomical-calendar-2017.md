@@ -1,11 +1,7 @@
 +++
 title = "2017年の主な暦象"
 description = "2017年版の『天文年鑑』をつらつらと眺めながら2017年の主な暦象を紹介する。"
-tags = [
-  "astronomy",
-  "ephemeris",
-  "book",
-]
+tags = [ "astronomy", "ephemeris", "book" ]
 date = "2016-12-24T14:01:57+09:00"
 
 [scripts]

@@ -2,13 +2,7 @@
 title = "GnuPG 2.1.23 がリリース"
 date =  "2017-08-10T10:43:43+09:00"
 description = "今回の目玉はやっぱり --enable-gpg-is-gpg2 オプションかな。"
-tags = [
-  "security",
-  "cryptography",
-  "tools",
-  "openpgp",
-  "gnupg",
-]
+tags = [ "security", "cryptography", "tools", "openpgp", "gnupg" ]
 
 [author]
   name      = "Spiegel"

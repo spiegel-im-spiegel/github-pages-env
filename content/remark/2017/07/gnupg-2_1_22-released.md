@@ -2,14 +2,7 @@
 title = "GnuPG 2.1.22 リリースと寄付の募集"
 date =  "2017-07-31T20:41:53+09:00"
 description = "溜まりに溜まってた更新情報をまとめて挙げておく。脆弱性の習性あり。"
-tags = [
-  "security",
-  "cryptography",
-  "tools",
-  "openpgp",
-  "gnupg",
-  "vulnerability",
-]
+tags = [ "security", "cryptography", "tools", "openpgp", "gnupg", "vulnerability" ]
 
 [author]
   name      = "Spiegel"

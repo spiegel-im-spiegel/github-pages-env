@@ -1,15 +1,6 @@
 +++
 title = "OpenPGP に関する話題"
-tags = [
-  "security",
-  "cryptography",
-  "tools",
-  "openpgp",
-  "gnupg",
-  "x509",
-  "pki",
-  "sha-1",
-]
+tags = [ "security", "cryptography", "tools", "openpgp", "gnupg", "x509", "pki", "sha-1" ]
 description = "GnuPG 2.1.19 がリリース / 映像の証明 / 電子メールの暗号化 / SHA-1 の危殆化と OpenPGP V5"
 date = "2017-03-05T17:19:39+09:00"
 

@@ -2,11 +2,7 @@
 date = "2016-11-05T14:06:16+09:00"
 title = "“The Shadow Web” （再掲載）"
 description = "「インターネットは検閲をダメージであると解釈し，それを回避する」（John Gilmore）"
-tags = [
-  "book",
-  "internet",
-  "politics",
-]
+tags = [ "book", "internet", "politics" ]
 
 [scripts]
   mathjax = false

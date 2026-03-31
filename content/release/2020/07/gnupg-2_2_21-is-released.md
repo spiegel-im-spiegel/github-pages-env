@@ -3,13 +3,7 @@ title = "GnuPG 2.2.21 および Libgcrypt 1.8.6 がリリースされた"
 date =  "2020-07-10T11:13:57+09:00"
 description = "AEAD Encrypted Data Packet の復号に対応したか。"
 image = "/images/attention/openpgp.png"
-tags = [
-  "security",
-  "cryptography",
-  "tools",
-  "openpgp",
-  "gnupg",
-]
+tags = [ "security", "cryptography", "tools", "openpgp", "gnupg" ]
 pageType = "text"
 
 [scripts]

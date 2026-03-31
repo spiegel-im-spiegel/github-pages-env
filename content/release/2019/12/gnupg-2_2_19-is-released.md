@@ -3,13 +3,7 @@ title = "GnuPG 2.2.19 がリリースされた"
 date =  "2019-12-08T10:16:04+09:00"
 description = "セキュリティ・アップデートはなし。"
 image = "/images/attention/openpgp.png"
-tags = [
-  "security",
-  "cryptography",
-  "tools",
-  "openpgp",
-  "gnupg",
-]
+tags = [ "security", "cryptography", "tools", "openpgp", "gnupg" ]
 pageType = "text"
 
 [scripts]

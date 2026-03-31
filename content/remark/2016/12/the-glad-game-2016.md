@@ -1,9 +1,6 @@
 +++
 description = "今年はこの記事でさくっと済ませることにする。"
-tags = [
-  "games",
-  "christmas",
-]
+tags = [ "games", "christmas" ]
 date = "2016-12-26T20:45:27+09:00"
 title = "2016年の「よかったこと」"
 

@@ -2,11 +2,7 @@
 title = "Go 1.8.4 および 1.9.1 がリリース（セキュリティ・アップデート）"
 date =  "2017-10-06T17:09:52+09:00"
 description = "今回は2件のセキュリティ・アップデートがある。アップデートは計画的に。"
-tags = [
-  "security",
-  "vulnerability",
-  "golang",
-]
+tags = [ "security", "vulnerability", "golang" ]
 
 [author]
   name      = "Spiegel"

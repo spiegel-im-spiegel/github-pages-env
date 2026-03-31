@@ -1,13 +1,7 @@
 +++
 title = "モンテカルロ法による円周率の推定（その3 Gaussian）"
 description = "さて，前回書いたコードを利用していよいよ円周率の推定結果を評価してみる。"
-tags = [
-  "golang",
-  "math",
-  "random",
-  "circle-ratio",
-  "gaussian",
-]
+tags = [ "golang", "math", "random", "circle-ratio", "gaussian" ]
 date = "2016-11-14T20:50:56+09:00"
 
 [scripts]

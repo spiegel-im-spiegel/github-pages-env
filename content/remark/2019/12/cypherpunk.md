@@ -3,14 +3,7 @@ title = "警察にできることは犯罪者にもできる"
 date =  "2019-12-11T21:07:02+09:00"
 description = "暗号が国家や軍の所有物だったのは四半世紀以上も前の話である。いい加減目を覚ましていただきたい。"
 image = "/images/attention/kitten.jpg"
-tags = [
-  "security",
-  "cryptography",
-  "risk",
-  "grigori",
-  "code",
-  "law",
-]
+tags = [ "security", "cryptography", "risk", "grigori", "code", "law" ]
 pageType = "text"
 
 [scripts]

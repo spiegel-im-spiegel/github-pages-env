@@ -3,14 +3,7 @@ title = "GnuPG 2.2.8 および Libgcrypt 1.8.3 がリリース（セキュリテ
 date = "2018-06-24T18:16:57+09:00"
 description = "今回はキュリティ・アップデートを含む。深刻度が高いので早めのアップデートを推奨する。"
 image = "/images/attention/openpgp.png"
-tags = [
-  "security",
-  "vulnerability",
-  "cryptography",
-  "tools",
-  "openpgp",
-  "gnupg",
-]
+tags = [ "security", "vulnerability", "cryptography", "tools", "openpgp", "gnupg" ]
 
 [scripts]
   mathjax = false
