@@ -131,7 +131,7 @@ p   aptitude-robot                - Automate package choice management
 
 `update` および `install` アクションの使い方は `apt` コマンドと同じかな。
 `remove` や `purge` アクションも同じ。
-カーネルアップグレード後によく使う `apt autoremove` は `aptitude` では `autoclean` アクションを使えばいいのかな。
+カーネルアップグレード後によく使う `apt autoremove` は `aptitude` では ~~`autoclean` アクションを使えばいいのかな~~ カーネル更新 → リブート → `aptitude safe-upgrade` で古いバージョンのカーネルイメージを削除してくれる。これは有り難い。
 いわゆる dry run は `-s` オプションでできるみたい。
 
 `apt upgrade` については `aptitude safe-upgrade` で行う。
