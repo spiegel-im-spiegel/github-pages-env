@@ -234,7 +234,7 @@ Installed: /home/username/.mozilla/native-messaging-hosts/com.github.jpki.mpa.js
 もうスマホで確定申告するのは嫌なのよ。
 スマホは入力端末としては向かないっスよ。
 
-[ミニ PC]({{< ref "/remark/2025/01/win11pro-on-minipc.md" >}} "Mini PC を衝動買いした") の WIndows 機はますますゲーム専用機になっていくな（笑） まぁ，それはそれで重宝しているからいいか。
+[ミニ PC]({{< ref "/remark/2025/01/win11pro-on-minipc.md" >}} "Mini PC を衝動買いした") の Windows 機はますますゲーム専用機になっていくな（笑） まぁ，それはそれで重宝しているからいいか。
 
 [Kagi Search]: https://kagi.com/ "Kagi Search - A Premium Search Engine"
 [Kagi Translate]: https://translate.kagi.com/ "Kagi Translate"

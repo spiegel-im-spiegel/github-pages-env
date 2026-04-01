@@ -248,6 +248,7 @@ $ myna jpki pdf verify signed.pdf
 またどこかで試そうか。
 
 今回はここまで。
+[次回]({{< ref "/remark/2026/04/login-myna-portal-etax-mpa-for-linux.md" >}} "MPA for Linux でログイン検証（Linux で個人番号カードを読む 2）")へ続く。
 
 ## ブックマーク
 

@@ -1,9 +1,9 @@
 tag,count
 "golang",429
-"tools",364
+"tools",365
 "security",340
 "programming",294
-"ubuntu",175
+"ubuntu",176
 "engineering",158
 "book",151
 "language",151
@@ -21,13 +21,13 @@ tag,count
 "management",93
 "artificial-intelligence",77
 "package",71
-"web",70
+"web",71
 "site",65
 "politics",62
 "math",61
 "windows",58
 "communication",57
-"install",54
+"install",55
 "internet",50
 "module",50
 "java",49
@@ -38,7 +38,7 @@ tag,count
 "privacy",45
 "copyright",44
 "gear",43
-"linux",42
+"linux",43
 "git",38
 "grigori",38
 "creative-commons",37
@@ -76,11 +76,12 @@ tag,count
 "flickr",17
 "music",17
 "nyagos",16
+"authentication",15
 "k-tai",15
 "activitypub",14
 "amazon",14
-"authentication",14
 "cli",14
+"pki",14
 "random",14
 "ruins",14
 "vscode",14
@@ -89,7 +90,6 @@ tag,count
 "google",13
 "infection",13
 "luatex",13
-"pki",13
 "rust",13
 "blockchain",12
 "certification",12
@@ -111,6 +111,7 @@ tag,count
 "design",10
 "gnkf",10
 "libreoffice",10
+"my-number",10
 "password",10
 "putty",10
 "type",10
@@ -124,7 +125,6 @@ tag,count
 "logger",9
 "mathjax",9
 "messaging",9
-"my-number",9
 "nas",9
 "sha-1",9
 "time",9
