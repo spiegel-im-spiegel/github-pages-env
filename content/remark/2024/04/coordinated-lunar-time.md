@@ -3,7 +3,7 @@ title = "月の標準時を決めよう"
 date =  "2024-04-05T20:32:22+09:00"
 description = "LTC (Coordinated Lunar Time) というらしい"
 image = "/images/attention/kitten.jpg"
-tags = [ "astronomy", "ephemeris", "science" ]
+tags = [ "astronomy", "ephemeris", "science", "nasa" ]
 pageType = "text"
 
 [scripts]

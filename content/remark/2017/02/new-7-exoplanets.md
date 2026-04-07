@@ -1,7 +1,7 @@
 +++
 title = "新しい太陽系外惑星に関するブックマーク"
 date = "2017-02-26T15:15:23+09:00"
-tags = ["astronomy", "exoplanet", "seti", "bookmark"]
+tags = ["astronomy", "exoplanet", "seti", "bookmark", "nasa"]
 description = "あちこちで報道されているようなので，ブックマークという形で残しておく。"
 
 [scripts]

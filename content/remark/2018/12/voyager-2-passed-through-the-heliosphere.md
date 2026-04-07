@@ -4,7 +4,7 @@ date = "2018-12-12T12:26:17+09:00"
 update = "2018-12-12T15:48:49+09:00"
 description = "ともあれ Voyager 2 が太陽風の影響を抜けた星間空間に到達したことは確かで，私たち人類にとって未知の空間が待っているのである。"
 image = "/images/attention/kitten.jpg"
-tags = [ "astronomy", "voyager" ]
+tags = [ "astronomy", "voyager", "nasa" ]
 
 [author]
   name      = "Spiegel"

@@ -2,7 +2,7 @@
 title = "火星探査機 InSight で火星に名前を送ろう"
 date =  "2017-10-08T19:09:28+09:00"
 description = "こういうのはお祭りだからね（笑） 来年2018年は2003年以来と言われる火星大接近の年だ。無事火星まで行って活躍していただきたいものである。"
-tags        = [ "astronomy", "mars" ]
+tags        = [ "astronomy", "mars", "nasa" ]
 
 [scripts]
   mathjax = false
