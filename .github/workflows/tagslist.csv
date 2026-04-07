@@ -4,7 +4,7 @@ tag,count
 "security",340
 "programming",294
 "ubuntu",177
-"engineering",158
+"engineering",159
 "book",151
 "language",151
 "photography",151
@@ -17,11 +17,11 @@ tag,count
 "risk",132
 "code",125
 "gnupg",106
-"astronomy",96
+"astronomy",97
 "management",93
 "artificial-intelligence",77
+"web",72
 "package",71
-"web",71
 "site",65
 "politics",62
 "math",61
@@ -33,8 +33,8 @@ tag,count
 "java",49
 "calendar",48
 "ephemeris",48
+"media",47
 "market",46
-"media",46
 "privacy",45
 "copyright",44
 "linux",44
@@ -54,8 +54,8 @@ tag,count
 "mastodon",30
 "openssh",29
 "tex",29
+"entertainment",28
 "bluesky",27
-"entertainment",27
 "law",27
 "atom",26
 "surveillance-capitalism",26
@@ -150,6 +150,7 @@ tag,count
 "jaxa",7
 "json",7
 "lua",7
+"moon",7
 "object-oriented",7
 "string",7
 "testing",7
@@ -160,8 +161,8 @@ tag,count
 "international",6
 "kagi",6
 "lint",6
-"moon",6
 "mua",6
+"nasa",6
 "pgpdump",6
 "pokemon",6
 "signal",6

@@ -1,12 +1,11 @@
 +++
 title = "ネトフリに再契約しなくてもよかったのに"
-date =  "2026-04-07T10:03:05+09:00"
+date =  "2026-04-07T16:19:17+09:00"
 description = "人類はまた月の裏側に到達した。"
 isCJKLanguage = true
 image = "/images/attention/kitten.jpg"
 tags = [ "astronomy", "engineering", "media", "moon", "web", "entertainment", "nasa" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
