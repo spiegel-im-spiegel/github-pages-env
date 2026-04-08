@@ -39,6 +39,30 @@
   - It runs `./toptags.sh` first and stops on error.
   - It then runs `./tagslist.sh` and stops on error.
   - It finally runs Hugo with `hugo --gc --cleanDestinationDir --destination=../text-publishd`.
+- **`hugo_inst.sh`**: Hugo updater script using the latest GitHub Release `.deb`.
+  - It fetches the latest release metadata from `gohugoio/hugo`.
+  - It selects `hugo_extended_*_linux-<arch>.deb` for `amd64` or `arm64`.
+  - It optionally verifies the downloaded file with `checksums.txt` when available.
+  - It installs the package with `sudo apt install -y ./<deb-file>`.
+  - Basic usage: `./hugo_inst.sh`
+
+**Current Workflow Note (Update Hugo with hugo_inst.sh)**
+
+- To update Hugo from the latest GitHub Release, run:
+
+```bash
+./hugo_inst.sh
+```
+
+- Example post-update verification workflow:
+
+```bash
+hugo version
+./build.sh
+cd ../text-publishd && git status --short
+```
+
+- If generated files are valid, continue with commit/push in `../text-publishd`.
 
 **Current Workflow Note (Publish with latest commit message)**
 

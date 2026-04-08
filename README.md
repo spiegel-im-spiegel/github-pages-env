@@ -88,3 +88,28 @@ GitHub Page [spiegel-im-spiegel.github.io](https://github.com/spiegel-im-spiegel
 - `build.sh` は先頭で `./toptags.sh` を実行し，失敗時はその場で中断する。
 - 続いて `./tagslist.sh` を実行し，失敗時はその場で中断する。
 - 最後に `hugo --gc --cleanDestinationDir --destination=../text-publishd` を実行する。
+
+## Hugo の更新（GitHub Release の deb を利用）
+
+- **スクリプト**: `hugo_inst.sh` は GitHub の `gohugoio/hugo` リリースから最新の `hugo_extended` 用 `.deb` を取得して更新する。
+- **処理内容**:
+  - `amd64` または `arm64` の環境を判定し，対応する `.deb` を選択する。
+  - 可能な場合は `checksums.txt` を使って SHA256 検証を行う。
+  - `sudo apt install -y ./<deb>` で Hugo を更新する。
+- **使い方**:
+
+```bash
+./hugo_inst.sh
+```
+
+### 作業例（更新後の確認）
+
+```bash
+./hugo_inst.sh
+hugo version
+./build.sh
+cd ../text-publishd
+git status --short
+```
+
+- `../text-publishd` 側の差分を確認して問題なければ，通常どおり commit / push を行う。
