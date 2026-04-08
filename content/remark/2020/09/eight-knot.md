@@ -3,7 +3,7 @@ title = "「EightKnot:8の字結び」いただきます"
 date =  "2020-09-02T21:47:04+09:00"
 description = " 私としては「お彼岸までに届けばいいな」くらいに軽く考えていたが，早速今日 JP の冷蔵便で届いたですよ。"
 image = "/images/attention/kitten.jpg"
-tags = [ "japoanese-sake" ]
+tags = [ "japanses-sake" ]
 pageType = "text"
 
 [scripts]

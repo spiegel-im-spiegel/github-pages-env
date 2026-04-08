@@ -3,7 +3,7 @@ title = "広島で呑んだくれただけ"
 date =  "2024-09-23T22:49:09+09:00"
 description = "朝まで呑んだくれちゃったよ"
 image = "/remark/2024/09/drinking-in-hiroshima/54014984001_2145b77dc3_o.jpg"
-tags = [ "osanpo-camera", "photography", "hirosima", "bike" ]
+tags = [ "osanpo-camera", "photography", "hiroshima", "bike" ]
 license = "by"
 pageType = "photo"
 

@@ -3,7 +3,7 @@ title = "C/2020 F3 (NEOWISE) が見頃"
 date =  "2020-07-12T12:30:53+09:00"
 description = "私は朝が弱いので，明け方の天文イベントはダメダメなんだよなぁ orz"
 image = "/images/attention/kitten.jpg"
-tags = [ "astronomy", "commet" ]
+tags = [ "astronomy", "comet" ]
 pageType = "text"
 
 [scripts]
