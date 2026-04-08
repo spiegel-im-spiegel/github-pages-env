@@ -3,7 +3,7 @@ title = "書籍データ取得ツール books-data v0.4.2 のリリース，他"
 date =  "2019-09-08T15:22:41+09:00"
 description = "機能的な変更は殆どないが Go 1.13 のリリースに併せて内部をいろいろ変更している。"
 image = "/images/attention/tools.png"
-tags = [ "tools", "book", "books-data", "openbd-api", "aozora-api" ]
+tags = [ "tools", "book", "books-data", "openbd", "aozorahack" ]
 pageType = "text"
 
 [scripts]

@@ -3,7 +3,7 @@ title = "書籍データ取得ツール books-data v0.3.0 をリリースした"
 date =  "2019-08-12T15:10:56+09:00"
 description = "ようやく青空文庫 API に対応したですよ。これで個人的に欲しい機能は一通り揃ったかな。"
 image = "/images/attention/tools.png"
-tags = [ "tools", "book", "books-data", "pa-api", "openbd", "aozora", "aozora-api" ]
+tags = [ "tools", "book", "books-data", "pa-api", "openbd", "aozora", "aozorahack" ]
 pageType = "text"
 
 [scripts]

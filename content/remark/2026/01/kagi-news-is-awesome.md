@@ -3,7 +3,7 @@ title = "Kagi News あかよろし"
 date =  "2026-01-27T20:33:44+09:00"
 description = "Kagi News は生成 AI をキュレーターとして上手く使ってる印象"
 image = "/images/attention/kitten.jpg"
-tags = [ "tools", "artificial-intelligence", "Kagi", "media" ]
+tags = [ "tools", "artificial-intelligence", "kagi", "media" ]
 pageType = "text"
 
 [scripts]

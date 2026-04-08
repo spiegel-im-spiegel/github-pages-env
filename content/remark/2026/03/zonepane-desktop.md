@@ -4,7 +4,7 @@ date =  "2026-03-08T18:48:24+09:00"
 description = "ぞーぺんに慣れると公式 Web アプリには戻れないのよ。"
 isCJKLanguage = true
 image = "/images/attention/kitten.jpg"
-tags = [ "tools", "Windows", "linux", "mastodon", "bluesky", "zonepane" ]
+tags = [ "tools", "windows", "linux", "mastodon", "bluesky", "zonepane" ]
 pageType = "text"
 
 [scripts]
