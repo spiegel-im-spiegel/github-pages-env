@@ -26,6 +26,8 @@
 - **`tagslist.sh`**: A helper script for tag frequency export.
   - It scans front matter tags from `content/**/*.md`.
   - It writes CSV output to `.github/workflows/tagslist.csv`.
+  - The CSV schema is `tag,count,means`.
+  - The `means` column is preserved from the existing `tagslist.csv` when regenerating counts.
   - Output is sorted by descending count, with alphabetical tag order as a tie-breaker.
   - The generated `tagslist.csv` is used as a reference when deciding which tags to assign to future posts.
 - **`toptags.sh`**: A helper script for recent top-tags export.

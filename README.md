@@ -74,7 +74,8 @@ GitHub Page [spiegel-im-spiegel.github.io](https://github.com/spiegel-im-spiegel
 ## タグ集計（ローカル補助スクリプト）
 
 - **スクリプト**: `tagslist.sh` は，`content/**/*.md` の front matter から `tags` を収集し，`.github/workflows/tagslist.csv` を再生成する。
-  - 出力形式は `tag,count` の CSV であり，カウント降順，カウント同値時は tag 名のアルファベット順でソートする。
+  - 出力形式は `tag,count,means` の CSV であり，カウント降順，カウント同値時は tag 名のアルファベット順でソートする。
+  - `means` は各 tag の意味・用途を記述する列で，既存の `tagslist.csv` の値を引き継ぐ。
   - `tagslist.csv` は，今後の記事作成時に付与する tags を検討するための資料として用いる。
 
 - **スクリプト**: `toptags.sh` は，front matter の `date` が直近 1 年以内の記事を対象に `tags` を集計し，`data/toptags.json` を出力する。
