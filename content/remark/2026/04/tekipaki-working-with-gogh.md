@@ -1,5 +1,5 @@
 +++
-title = "gogh で てきぱきワーキング【2026-04-06 追記】"
+title = "Gogh で てきぱきワーキング【2026-04-06 追記】"
 date =  "2026-04-04T19:08:09+09:00"
 description = "gogh は OBS と組み合わせてゲーム内でストリーム配信することもできる。また YouTube などのサービスにも配信できる。 Streamplace でもできそう。"
 isCJKLanguage = true
