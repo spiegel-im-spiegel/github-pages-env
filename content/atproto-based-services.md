@@ -31,63 +31,67 @@ pageType = "text"
         <a href="https://bsky.app/profile/did:plc:w7fwp2mtlaaffnx42wsc76wt"><code>@baldanders.info</code></a>
       </td>
       <td>
-        メインアカウント,
-        <a href="https://pdsls.dev/at://did:plc:w7fwp2mtlaaffnx42wsc76wt">PDSls</a>
+        メインアカウント
+        (<a href="https://pdsls.dev/at://did:plc:w7fwp2mtlaaffnx42wsc76wt">PDSls</a>)
       </td>
     </tr><tr>
       <td class="nowrap">
         <a href="https://bsky.app/profile/did:plc:hbzmqswkx5pbg5fhr33pw4iw"><code>@fanapod.baldanders.info</code></a>
       </td>
       <td>
-        非公式 APOD 配信ボット,
-        <a href="https://pdsls.dev/at://did:plc:hbzmqswkx5pbg5fhr33pw4iw">PDSls</a>
+        非公式 APOD 配信ボット
+        (<a href="https://pdsls.dev/at://did:plc:hbzmqswkx5pbg5fhr33pw4iw">PDSls</a>)
       </td>
     </tr><tr>
       <td class="nowrap">
         <a href="https://bsky.app/profile/did:plc:qv4cel4jrf5qqzfq6ddvp6yv"><code>@crawler.baldanders.info</code></a>
       </td>
       <td>
-        Web クローラー ボット,
-        <a href="https://pdsls.dev/at://did:plc:qv4cel4jrf5qqzfq6ddvp6yv">PDSls</a>
+        Web クローラー ボット
+        (<a href="https://pdsls.dev/at://did:plc:qv4cel4jrf5qqzfq6ddvp6yv">PDSls</a>)
       </td>
     </tr><tr>
       <td class="nowrap">
         <a href="https://bsky.app/profile/did:plc:4kzexuq4xieuarc3q6lmkeou"><code>@photos.baldanders.info</code></a>
       </td>
       <td>
-        お散歩カメラ, 実験用,
-        <a href="https://pdsls.dev/at://did:plc:4kzexuq4xieuarc3q6lmkeou">PDSls</a>
+        お散歩カメラ, 実験用
+        (<a href="https://pdsls.dev/at://did:plc:4kzexuq4xieuarc3q6lmkeou">PDSls</a>)
       </td>
     </tr><tr>
       <td class="nowrap">
         <a href="https://bsky.app/profile/did:plc:26eoqvsiov3hmsfqruoi4d3s"><code>@goark.bsky.social</code></a>
       </td>
       <td>
-        開発・実験用,
-        <a href="https://pdsls.dev/at://did:plc:26eoqvsiov3hmsfqruoi4d3s">PDSls</a>
+        開発・実験用
+        (<a href="https://pdsls.dev/at://did:plc:26eoqvsiov3hmsfqruoi4d3s">PDSls</a>)
       </td>
-    </tr><tr>
-      <td class="nowrap"><a href="https://leaflet.pub/">Leaflet</a></td>
-      <td class="nowrap"><a href="https://spiegel.leaflet.pub/">お散歩カメラ</a></td>
-      <td>ブログ試用中, <a href="https://bsky.app/profile/did:plc:w7fwp2mtlaaffnx42wsc76wt">メイン</a>アカウント使用</td>
     </tr><tr>
       <td class="nowrap"><a href="https://pckt.blog/">Pckt</a></td>
       <td class="nowrap"><a href="https://osanpo.pckt.blog">お散歩カメラ</a></td>
-      <td>ブログ試用中, <a href="https://bsky.app/profile/did:plc:4kzexuq4xieuarc3q6lmkeou">photos</a>アカウント使用</td>
+      <td>ブログ, <a href="https://bsky.app/profile/did:plc:4kzexuq4xieuarc3q6lmkeou">photos</a>アカウント使用</td>
+    </tr><tr>
+      <td class="nowrap"><a href="https://stream.place/">Streamplace</a></td>
+      <td class="nowrap"><a href="https://stream.place/baldanders.info">@baldanders.info</a></td>
+      <td>動画配信, <a href="https://bsky.app/profile/did:plc:w7fwp2mtlaaffnx42wsc76wt">メイン</a>アカウント使用</td>
+    </tr><tr>
+      <td class="nowrap"><a href="https://leaflet.pub/">Leaflet</a></td>
+      <td class="nowrap"><a href="https://spiegel.leaflet.pub/">お散歩カメラ</a></td>
+      <td>ブログ（休眠中）, <a href="https://bsky.app/profile/did:plc:w7fwp2mtlaaffnx42wsc76wt">メイン</a>アカウント使用</td>
     </tr><tr>
       <td class="nowrap"><a href="https://trilinesat.suibari.com/">TriLinesAt</a></td>
       <td class="nowrap">&mdash;</td>
-      <td>三行日記, <a href="https://bsky.app/profile/did:plc:w7fwp2mtlaaffnx42wsc76wt">メイン</a>アカウント使用</td>
+      <td>三行日記（休眠中）, <a href="https://bsky.app/profile/did:plc:w7fwp2mtlaaffnx42wsc76wt">メイン</a>アカウント使用</td>
     </tr><tr>
       <td class="nowrap"><a href="https://skyreader.app/">Skyreader</a></td>
       <td class="nowrap">&mdash;</td>
-      <td>試用中, <a href="https://bsky.app/profile/did:plc:w7fwp2mtlaaffnx42wsc76wt">メイン</a>アカウント使用</td>
+      <td>休眠中, <a href="https://bsky.app/profile/did:plc:w7fwp2mtlaaffnx42wsc76wt">メイン</a>アカウント使用</td>
     </tr>
   </tbody>
 </table>
 
 他にも面白そうなサービスが色々と登場しているので，これからも増えていくかも知れない。
-`bsky.social` 以外の PDS で Bluesky の API を使えるようになれば `pckt.cafe` とかも使いやすくなるのだが... この辺は調査中。
+自作ツールで `bsky.social` 以外の PDS で Bluesky の API を使えるようになれば `pckt.cafe` とかも使いやすくなるのだが... この辺は調査中。
 
 ## ActivityPub/Fediverse 関連サービス
 
@@ -222,6 +226,8 @@ graph LR
   </tbody>
 </table>
 
+※ <code>@mstdn.baldanders.info</code> アカウントは認証には使えない。
+
 ### Web → Bluesky & Fediverse
 
 {{< fig-mermaid >}}
@@ -264,6 +270,8 @@ graph LR
   </tbody>
 </table>
 
+※ <code>@text.baldanders.info</code> アカウントは認証には使えない。
+
 ## ブックマーク
 
 - [Mastodon と Bluesky でボット運用はじめました]({{< ref "/remark/2023/07/crawler.md" >}})
@@ -274,6 +282,7 @@ graph LR
 - [Skyreader: AT Protocol で駆動する Feed Reader]({{< ref "/remark/2026/02/skyreader-powered-by-atproto.md" >}})
 - [Pckt に新しい PDS レジストリを作る]({{< ref "/remark/2026/03/creating-a-new-pds-registry-on-pckt.md" >}})
 - [そろそろ PDS を個人で管理する時代か？]({{< ref "/remark/2026/03/pds-for-everyone.md" >}})
+- [Streamplace で Gogh 作業配信を行う]({{< ref "/remark/2026/04/gogh-streaming-on-streamplace.md" >}})
 
 [atproto]: https://atproto.com/ "The AT Protocol"
 [PDSls]: https://pdsls.dev/ "PDSls"
