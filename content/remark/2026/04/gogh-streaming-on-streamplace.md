@@ -21,6 +21,7 @@ pageType = "text"
 
 [Kagi Assistant] に [Streamplace] と YouTube の比較表を作ってもらった（YouTube 以外の動画配信サービスでも似たようなものだろう）。
 
+{{< div-box type="markdown" >}}
 | 比較項目 | Streamplace | YouTube |
 | :--- | :--- | :--- |
 | **運営形態** | 分散型（特定の企業に依存しない） | 中央集権型（Google が運営） |
@@ -30,10 +31,11 @@ pageType = "text"
 | **主な目的** | 分散型 SNS 向けのビデオインフラ提供 | 広告収益を主とした動画共有サービス |
 | **検閲・制限** | プロトコルレベルでの検閲は困難 | 運営企業のポリシーにより削除・停止あり |
 | **主な利用者層** | Web3 開発者，分散型 SNS ユーザー | 一般消費者，クリエイター，広告主 |
+{{< /div-box >}}
 
 だいたい合ってるかな。
 
-[Streamplace] および基盤技術である [Livepeer] については別記事でもう少し掘り下げて紹介する予定である。
+[Streamplace] および基盤技術である [Livepeer] については[別記事][次回]でもう少し掘り下げて紹介する予定である。
 まずは（細かいことは考えず）アカウントを取得するところから始めよう。
 
 ## Streamplace 側の準備
@@ -122,9 +124,10 @@ Android だとこんな感じ（横持ちの場合）。
 
 [^s1]: [Streamplace] 配信は特定のユーザにだけ見えるようにすることもできる。
 
-...後半へ続く。
+...[後半][次回]へ続く。
 
 [前回]: {{< ref "./tekipaki-working-with-gogh.md" >}} "Gogh で てきぱきワーキング"
+[次回]: {{< ref "./streamplace-and-livepeer.md" >}} "Streamplace と Livepeer"
 [gogh]: https://gogh.gg/ "gogh - Focus with Your Avatar"
 [OBS]: https://obsproject.com/ "Open Broadcaster Software | OBS"
 [Steam]: https://store.steampowered.com/ "Welcome to Steam"
