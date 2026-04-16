@@ -101,6 +101,21 @@ cd ../text-publishd && git status --short
 - Output path: `content/remark/<YYYY>/<MM>/install-aptitude.md`
 - For this case, do not add or modify front matter (use the generated content as-is).
 
+**Current Workflow Note (`div-ai` shortcode usage)**
+
+- Use `div-ai` for AI-generated or AI-summarized text blocks in article bodies.
+- Basic markdown wrapper:
+
+```markdown
+{{< div-ai type="markdown" >}}
+...AI-generated content...
+{{< /div-ai >}}
+```
+
+- Keep `div-box` for non-AI notes such as manual updates, side remarks, and generic callouts.
+- When updating older posts, replace `div-box` with `div-ai` only for sections that are explicitly described as AI output (for example, generated summaries by assistants).
+- To list likely migration candidates, run `./div-ai-check.sh` (or pass a path like `./div-ai-check.sh content/remark`).
+
 **README Update**
 
 - Usage of `new.sh` has already been added to `text/README.md`.

@@ -24,7 +24,7 @@ pageType = "text"
 
 [Kagi Assistant] に [Streamplace] と YouTube の比較表を作ってもらった（YouTube 以外の動画配信サービスでも似たようなものだろう）。
 
-{{< div-box type="markdown" >}}
+{{< div-ai type="markdown" >}}
 | 比較項目 | Streamplace | YouTube |
 | :--- | :--- | :--- |
 | **運営形態** | 分散型（特定の企業に依存しない） | 中央集権型（Google が運営） |
@@ -34,7 +34,7 @@ pageType = "text"
 | **主な目的** | 分散型 SNS 向けのビデオインフラ提供 | 広告収益を主とした動画共有サービス |
 | **検閲・制限** | プロトコルレベルでの検閲は困難 | 運営企業のポリシーにより削除・停止あり |
 | **主な利用者層** | Web3 開発者，分散型 SNS ユーザー | 一般消費者，クリエイター，広告主 |
-{{< /div-box >}}
+{{< /div-ai >}}
 
 だいたい合ってるかな。
 
