@@ -91,10 +91,7 @@ pageType = "text"
 .｡oO（マルチプレイ用に部屋を公開したらストリーミングが切れてしまった。これってこういうもの？）
 
 [OBS] を使えば YouTube などのサービスにも配信できる。
-
-{{< fig-youtube id="BUKXPUxVaZs" title="【作業雑談】ポモドーロで作業を頑張る月曜日（時々おしゃべり）【古代日本史VTuber きら子】 - YouTube" >}}
-
-まぁ，でも，これで稼ぐ気はないし，何となく Google のサービスは嫌なので [atproto] エコシステム下のサービスである [Streamplace] を使うことを考えてみようかな。
+とはいえ，これで稼ぐ気はないし，何となく Google のサービスは嫌なので [atproto] エコシステム下のサービスである [Streamplace] を使うことを考えてみようかな。
 
 - [Start streaming with OBS | Streamplace Docs](https://stream.place/docs/guides/start-streaming/obs/)
 
