@@ -64,6 +64,7 @@ Cory Doctorow さんの新刊のほうは邦訳が出るならぜひ読みたい
 
 - [WirelessWire News連載更新（触媒としての人工知能――それを作る前に人類は絶滅するのではないか？） - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20260325/wirelesswire)
 - [コリイ・ドクトロウの新刊『逆ケンタウロスのためのAI批判ガイド』と復刊される『マジック・キングダムで落ちぶれて』 - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20260325/the-reverse-centaurs-guide)
+- [「Just for Fun」から遠く離れて – WirelessWire & Schrödinger's](https://wirelesswire.jp/2026/04/93383/)
 
 [アポカリプスホテル]: https://www.amazon.co.jp/dp/B0F1RSSCTS?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon.co.jp: アポカリプスホテルを観る | Prime Video"
 [Kagi Search]: https://kagi.com/ "Kagi Search - A Premium Search Engine"
