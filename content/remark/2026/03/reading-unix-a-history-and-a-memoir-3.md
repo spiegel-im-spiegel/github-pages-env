@@ -4,7 +4,7 @@ date =  "2026-03-28T18:20:32+09:00"
 description = "私の中で「インターネット老人」はインターネット商用化以前からのユーザを指す。故に私はインターネット老人ではない"
 isCJKLanguage = true
 image = "/images/attention/kitten.jpg"
-tags = [ "book", "unix", "artificial-intelligence" ]
+tags = [ "book", "unix", "artificial-intelligence", "engineering" ]
 pageType = "text"
 
 [scripts]
