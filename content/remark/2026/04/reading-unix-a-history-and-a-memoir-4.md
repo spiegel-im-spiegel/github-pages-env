@@ -130,6 +130,10 @@ Unix と C の可搬性は，大学や，特に企業が新しいアーキテク
 遊ぶことは学ぶことです。
 {{< /fig-quote  >}}
 
+## ブックマーク
+
+- [「「Just for Fun」から遠く離れて」に含められなかった文章など - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20260427/beyond-just-for-fun)
+
 [Kagi Search]: https://kagi.com/ "Kagi Search - A Premium Search Engine"
 [Kagi Translate]: https://translate.kagi.com/ "Kagi Translate"
 [Kagi Assistant]: https://assistant.kagi.com/ "Kagi Assistant"
