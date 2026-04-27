@@ -1,12 +1,11 @@
 +++
 title = "OBS 合成映像を Zoom に出す"
-date =  "2026-04-27T13:06:45+09:00"
+date =  "2026-04-27T18:47:22+09:00"
 description = "Flatpak 版 OBS Studio に換装する / Background Removal プラグインのインストール / Web カメラ映像の加工 / Zoom へ出力する"
 isCJKLanguage = true
 image = "/images/attention/kitten.jpg"
 tags = [ "tools", "install", "ubuntu", "media", "streaming" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
