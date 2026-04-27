@@ -59,15 +59,7 @@ GitHub Page [spiegel-im-spiegel.github.io](https://github.com/spiegel-im-spiegel
 ./publish.sh "your commit message"
 ```
 
-- 引数を省略した場合は，`Auto commit in 2026-03-31T03:00:00+00:00` のような UTC 時刻ベースのメッセージを使う。
-
-### 運用メモ（最新コミットメッセージをそのまま使う）
-
-- 直近コミットの件名を publish 用コミットメッセージとして使う場合は次を実行する。
-
-```bash
-./publish.sh "$(git log -1 --pretty=%s)"
-```
+- 引数を省略した場合は，`text` 側の直近コミット件名を publish 用コミットメッセージとして使う。
 
 - この手順で，サイトのビルド，`../text-publishd` でのコミット，`origin/master` への push まで実行できる。
 

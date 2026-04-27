@@ -22,7 +22,7 @@
   - It moves to `../text-publishd`, then runs `git add --all`, `git commit`, and `git push -u origin master`.
   - Basic usage: `./publish.sh`
   - With commit message: `./publish.sh "your commit message"`
-  - If no argument is provided, it uses an auto-generated UTC commit message like `Auto commit in 2026-03-31T03:00:00+00:00`.
+  - If no argument is provided, it uses the latest commit subject from `text` as the publish commit message.
 - **`tagslist.sh`**: A helper script for tag frequency export.
   - It scans front matter tags from `content/**/*.md`.
   - It writes CSV output to `.github/workflows/tagslist.csv`.
@@ -66,12 +66,7 @@ cd ../text-publishd && git status --short
 
 **Current Workflow Note (Publish with latest commit message)**
 
-- To reuse the latest commit subject from `text` as the publish commit message, run:
-
-```bash
-./publish.sh "$(git log -1 --pretty=%s)"
-```
-
+- `./publish.sh` already uses the latest commit subject from `text` by default when no argument is provided.
 - This executes the site build, commits generated output in `../text-publishd`, and pushes to `origin/master`.
 
 **Archetypes / Front Matter**
