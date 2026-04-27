@@ -72,7 +72,7 @@ Stream Key が伏せ字で表示されるので右側のボタンをクリック
 OBS 側の設定に必要なので以下の情報はどこかにメモっておこう。
 
 - **Service：** Custom...
-- **Server：** `rtmps://rtmps.stream.place:1935/live`
+- **Server：** `rtmps://rtmp.stream.place:1935/live`
 - **Stream Key：** 上で取得した値
 - **Output Settings**
   - **Output Mode：** Advanced
