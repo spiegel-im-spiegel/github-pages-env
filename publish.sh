@@ -1,9 +1,10 @@
 #!/bin/bash
 ./build.sh || exit 1
 pushd ../text-publishd
-comment="Auto commit in $(date -u '+%FT%T+00:00')"
 if [ $# -ne 0 ]; then
   comment=$1
+else
+  comment="$(git log -1 --pretty=%s)"
 fi
 git add --all || exit 1
 git commit -v -m "$comment" || exit 1
