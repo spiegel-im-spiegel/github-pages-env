@@ -4,7 +4,7 @@ date =  "2026-04-27T18:47:22+09:00"
 description = "Flatpak 版 OBS Studio に換装する / Background Removal プラグインのインストール / Web カメラ映像の加工 / Zoom へ出力する"
 isCJKLanguage = true
 image = "/images/attention/kitten.jpg"
-tags = [ "tools", "install", "ubuntu", "media", "streaming" ]
+tags = [ "tools", "install", "ubuntu", "media", "streaming", "flatpak" ]
 pageType = "text"
 
 [scripts]
