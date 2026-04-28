@@ -1,6 +1,6 @@
 **Hugo Skills - Operation Guide**
 
-- **Purpose**: This document summarizes Hugo-related skills and operational behavior supported by Copilot in this repository.
+- **Purpose**: This document defines Hugo-related operational rules for Copilot in this repository.
 
 **Writing Style**
 
@@ -8,106 +8,66 @@
 
 **Local Commands**
 
-- **`new.sh`**: A helper script for creating posts.
-  - It auto-detects `archetypes/*.md` and runs `hugo new --kind=<kind> <path>`.
-  - It uses the safe shell options `set -euo pipefail`.
-  - Default generation for `remark` and `bookmarks` prefixes file names with `DD-` (for example, `01-stories.md`, `01-bookmarks.md`).
-  - Argument handling: The first argument is treated as either a section name (for example, `remark`) or a file name. If no valid section is found, available archetypes are shown.
-- **`ml`**: A helper command that converts a URL into Markdown link format.
-  - Basic usage: `ml "https://example.com/article"`
-  - Output format: `[Page Title](https://example.com/article)`
-  - Clipboard example (Linux): `out=$(ml "https://example.com/article") && printf "%s" "$out" | xsel --clipboard --input`
-- **`rg`** (`ripgrep`): Preferred text search command for article proofreading and checks.
-  - Use it to quickly find typos, wording variants, or target phrases in posts (for example, under `content/remark`).
-  - Basic usage examples:
+- **`new.sh`**: Helper script for creating posts.
+  - Auto-detects `archetypes/*.md` and runs `hugo new --kind=<kind> <path>`.
+  - Uses safe shell options `set -euo pipefail`.
+  - For `remark` and `bookmarks`, default file names are prefixed with `DD-`.
+  - First argument is treated as either a section name or a file name.
+- **`ml`**: Converts a URL to Markdown link format.
+  - Usage: `ml "https://example.com/article"`
+  - Output: `[Page Title](https://example.com/article)`
+- **`rg`** (`ripgrep`): Preferred text search command for article proofreading.
+  - Usage examples:
     - `rg "フィッシング" content/remark`
     - `rg "Signal Support|Registration Lock" content/remark/2026/04/signal-attack-patterns.md`
   - Install on Ubuntu/Debian: `sudo apt install -y ripgrep`
-  - Alternative install via Snap: `sudo snap install ripgrep`
-  - Verify installation: `rg --version`
-- **`publish.sh`**: A helper script for building and publishing generated site content.
-  - It runs `./build.sh` first and stops immediately on failure.
-  - It moves to `../text-publishd`, then runs `git add --all`, `git commit`, and `git push -u origin master`.
-  - Basic usage: `./publish.sh`
-  - With commit message: `./publish.sh "your commit message"`
-  - If no argument is provided, it uses the latest commit subject from `text` as the publish commit message.
-- **`tagslist.sh`**: A helper script for tag frequency export.
-  - It scans front matter tags from `content/**/*.md`.
-  - It writes CSV output to `.github/workflows/tagslist.csv`.
-  - The CSV schema is `tag,count,means`.
-  - The `means` column is preserved from the existing `tagslist.csv` when regenerating counts.
-  - Output is sorted by descending count, with alphabetical tag order as a tie-breaker.
-  - The generated `tagslist.csv` is used as a reference when deciding which tags to assign to future posts.
-- **`toptags.sh`**: A helper script for recent top-tags export.
-  - It targets posts within the last one year based on front matter `date`.
-  - It writes a JSON array of tag names to `data/toptags.json`.
-  - Default output size is top 15 tags; override with `TOP_N` environment variable.
-  - The generated `toptags.json` is used as source data for the “最近の主な tags” section on `layouts/_default/home.html`.
+  - Alternative install: `sudo snap install ripgrep`
+  - Verify: `rg --version`
 - **`build.sh`**: Build entry point.
-  - It runs `./toptags.sh` first and stops on error.
-  - It then runs `./tagslist.sh` and stops on error.
-  - It finally runs Hugo with `hugo --gc --cleanDestinationDir --destination=../text-publishd`.
-- **`hugo_inst.sh`**: Hugo updater script using the latest GitHub Release `.deb`.
-  - It fetches the latest release metadata from `gohugoio/hugo`.
-  - It selects `hugo_extended_*_linux-<arch>.deb` for `amd64` or `arm64`.
-  - It optionally verifies the downloaded file with `checksums.txt` when available.
-  - It installs the package with `sudo apt install -y ./<deb-file>`.
-  - Basic usage: `./hugo_inst.sh`
+  - Runs `./toptags.sh` and `./tagslist.sh`, then runs Hugo with destination `../text-publishd`.
+- **`publish.sh`**: Build and publish helper.
+  - Runs `./build.sh` and then commits/pushes in `../text-publishd`.
+  - Usage:
+    - `./publish.sh`
+    - `./publish.sh "your commit message"`
+  - If no argument is provided, uses the latest commit subject from `text`.
+- **`tagslist.sh`**: Rebuilds `.github/workflows/tagslist.csv` from front matter tags.
+- **`toptags.sh`**: Rebuilds `data/toptags.json` from recent posts.
+- **`hugo_inst.sh`**: Updates Hugo using latest GitHub Release `.deb`.
 
-**Current Workflow Note (Update Hugo with hugo_inst.sh)**
+**Deploy Playbook**
 
-- To update Hugo from the latest GitHub Release, run:
+- Standard order for article publication tasks:
+  1. Check changed files in `text`, and confirm whether non-article changes (for example `themes/baldanders-info`) should be included.
+  2. Run a light pre-publish check (typos, links, and front matter: `title`, `description`, `tags`, `draft`, `date`).
+  3. Propose 3-5 commit message candidates and proceed after one is selected.
+  4. Commit source changes in `text`.
+  5. Push source changes when requested.
+  6. Run `./publish.sh` to build and deploy to `../text-publishd`.
+  7. Check both repositories after deploy and report remaining local changes.
+- Keep status reports concise and focused on actionable deltas.
+- Update front matter `description` only when its current value is the placeholder string `description`.
+- After deploy, if `.github/workflows/tagslist.csv` and/or `data/toptags.json` remain uncommitted in `text`, handle them in a separate commit.
+- For that separate commit, choose the commit message automatically and do not push.
 
-```bash
-./hugo_inst.sh
-```
+**Archetypes and Front Matter**
 
-- Example post-update verification workflow:
-
-```bash
-hugo version
-./build.sh
-cd ../text-publishd && git status --short
-```
-
-- If generated files are valid, continue with commit/push in `../text-publishd`.
-
-**Current Workflow Note (Publish with latest commit message)**
-
-- `./publish.sh` already uses the latest commit subject from `text` by default when no argument is provided.
-- This executes the site build, commits generated output in `../text-publishd`, and pushes to `origin/master`.
-
-**Archetypes / Front Matter**
-
-- Front matter is generated according to `archetypes/*.md` (for example, fields from `archetypes/remark.md`).
-- The `slug` field is not automatically added when creating a post file. Add `slug` manually if needed.
+- Front matter is generated according to `archetypes/*.md` (for example, `archetypes/remark.md`).
+- `slug` is not automatically added. Add it manually only when needed.
 - For English titles, use lowercase hyphen-separated slugs (for example, `reading-is-dead`).
-
-**Post Creation Examples**
+- Post creation examples:
 
 ```bash
-./new.sh remark                # creates content/remark/<YYYY>/<MM>/stories.md (uses archetype: remark when available)
+./new.sh remark                # creates content/remark/<YYYY>/<MM>/stories.md
 ./new.sh bookmarks             # creates content/bookmarks/<YYYY>/<MM>/bookmarks.md
 ./new.sh release my-post.md    # creates content/release/<YYYY>/<MM>/my-post.md
-./new.sh some/path.md          # creates at an arbitrary path (uses default if no matching archetype)
+./new.sh some/path.md          # creates at arbitrary path
 ```
 
-**Current Workflow Note (Create remark with slug)**
+**AI Block Rules**
 
-- For the title "aptitude wo insutoru suru", the selected English slug is `install-aptitude`.
-- To use the slug as the file name in the `remark` section, run:
-
-```bash
-./new.sh remark install-aptitude.md
-```
-
-- Output path: `content/remark/<YYYY>/<MM>/install-aptitude.md`
-- For this case, do not add or modify front matter (use the generated content as-is).
-
-**Current Workflow Note (`div-ai` shortcode usage)**
-
-- Use `div-ai` for AI-generated or AI-summarized text blocks in article bodies.
-- Basic markdown wrapper:
+- Use `div-ai` for AI-generated or AI-summarized text blocks.
+- Basic wrapper:
 
 ```markdown
 {{< div-ai type="markdown" >}}
@@ -115,19 +75,6 @@ cd ../text-publishd && git status --short
 {{< /div-ai >}}
 ```
 
-- Keep `div-box` for non-AI notes such as manual updates, side remarks, and generic callouts.
-- When updating older posts, replace `div-box` with `div-ai` only for sections that are explicitly described as AI output (for example, generated summaries by assistants).
-- To list likely migration candidates, run `./div-ai-check.sh` (or pass a path like `./div-ai-check.sh content/remark`).
-
-**README Update**
-
-- Usage of `new.sh` has already been added to `text/README.md`.
-
-**Operational Notes / Next Steps**
-
-- Deployment target and CI automation (for example, GitHub Actions) are not configured yet. If needed, add automation steps together with `publish.sh`.
-- Further automation for `new.sh` is possible (for example, auto-generating a `slug` from an English title and applying it to the file name).
-
----
-
-If you want to add or revise any part of this summary, let me know.
+- Keep `div-box` for non-AI notes (manual updates, side remarks, generic callouts).
+- When updating older posts, replace `div-box` with `div-ai` only for sections explicitly described as AI output.
+- To list likely migration candidates, run `./div-ai-check.sh` (or `./div-ai-check.sh content/remark`).
