@@ -1,0 +1,38 @@
+https://bsky.app/profile/signal.org/post/3mkixc3wypc2u
+> 明確性と説明責任のために，ドイツでの最近の報道に対して回答します。
+>
+> まず，Signal のような重要インフラについては，正確な表現が重要です。Signal は「ハッキング」されていません。つまり，暗号化，インフラ，アプリコードの完全性は侵害されていません。
+
+https://bsky.app/profile/signal.org/post/3mkixc3xegc2u
+> ただし，高度な攻撃者が，プロフィール表示名を変更して「Signal Support」を装い，ソーシャルエンジニアリングで認証情報を渡すよう人々をだます有害なフィッシングキャンペーンを行いました。その情報により，標的となった一部の Signal アカウントが乗っ取られました。
+
+https://bsky.app/profile/signal.org/post/3mkixc3xffk2u
+> これは，Signal 規模に達した主流メッセージングアプリであればどこでも起こり得る問題です。しかし，私たちが託されている信頼の重さを踏まえ，事態の重大性を認識しています。
+>
+> 今後数週間のうちに，この種の攻撃を妨げるための複数の変更を順次導入します。
+
+https://bsky.app/profile/signal.org/post/3mkixc3xges2u
+> 私たちはユーザーデータを収集しないため，これらの攻撃について把握している情報は，フィッシング被害者から得たものです。被害者からの報告によると，攻撃にはおおむね次のようなパターンがありました。
+
+https://bsky.app/profile/signal.org/post/3mkixc3xget2u
+> 攻撃者は，人々をだまして Signal の認証情報を明かさせた後，その情報を使ってアカウントを乗っ取り，多くの場合で紐づく電話番号も変更しました。
+
+https://bsky.app/profile/signal.org/post/3mkixc3xhe32u
+> この変更により Signal アカウントが登録解除されるため，攻撃者はあらかじめ「登録解除は想定された挙動だ」と説明し，「再登録」または「新規アカウント作成」をすればよいと被害者に伝えていました。
+
+https://bsky.app/profile/signal.org/post/3mkixc3xhe42u
+> 被害者が，新たに Signal アカウントを作成したとき（この時点で，乗っ取られた元のアカウントとは切り離されています），本人は主アカウントにログインし直したと思い込んでいました。その結果，多くの人が乗っ取りに気づきませんでした。
+
+https://bsky.app/profile/signal.org/post/3mkixc3xhe52u
+> その後，侵害されたアカウントは，アカウント所有者になりすまして被害者の連絡先リストを標的化するために悪用されました。
+>
+> 私たちは，人々が Signal に寄せる信頼，そしてこの種のソーシャルエンジニアリングがどれほど壊滅的になり得るかを理解しています。
+
+https://bsky.app/profile/signal.org/post/3mkixc3xidf2u
+> すべてのメッセージングプラットフォームが，信頼を裏切って人々をだまし，「裏口は存在しないのに正面ドアを開けさせる」詐欺やフィッシングの影響を受け得るのは事実です。とはいえ私たちは，人々がこうした詐欺を回避し，検知できるよう，可能な限りの対策を講じます。
+
+https://bsky.app/profile/signal.org/post/3mkixc3xidg2u
+> 当面は，フィッシングやアカウント乗っ取りの試みに十分警戒してください。Signal Support がメッセージリクエストを送ったり，登録確認コードや Signal PIN を尋ねたりすることは決してありません。
+
+https://bsky.app/profile/signal.org/post/3mkixc3xidh2u
+> 追加の防御策として，Signal の設定で Registration Lock を有効化できます（Account -> Registration Lock）。

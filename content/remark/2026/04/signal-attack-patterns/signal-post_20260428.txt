@@ -1,0 +1,38 @@
+https://bsky.app/profile/signal.org/post/3mkixc3wypc2u
+>A response to recent reporting in Germany, in service of clarity and accountability: 
+>
+>First, it’s important to be precise when it comes to critical infrastructure like Signal. Signal was not “hacked” — in that our encryption, infrastructure, & the integrity of the app’s code was not compromised.
+
+https://bsky.app/profile/signal.org/post/3mkixc3xegc2u
+>However, sophisticated attackers have engaged in a harmful phishing campaign posing as “Signal Support” by changing their profile display name & using social engineering to trick people into handing over their credentials—information that allowed attackers to take over some targeted Signal accts.
+
+https://bsky.app/profile/signal.org/post/3mkixc3xffk2u
+>This is something that plagues any mainstream messaging app once it reaches the scale of Signal, but we know how high the stakes are given the trust people place in us. 
+>
+>In the coming weeks, you’ll see us rolling out a number of changes to help hinder these kinds of attacks.
+
+https://bsky.app/profile/signal.org/post/3mkixc3xges2u
+>Because we don’t collect user data, what we know about these attacks comes from the victims of phishing. And from what victims have told us, the attacks followed a broad pattern:
+
+https://bsky.app/profile/signal.org/post/3mkixc3xget2u
+>After tricking people into revealing their Signal credentials, attackers then used those credentials to take over their account and also frequently changed the associated phone number.
+
+https://bsky.app/profile/signal.org/post/3mkixc3xhe32u
+>Because such a change results in de-registering your Signal accounts, attackers prepared people for this by telling them that being de-registered was intended behavior, and that all they would need to do is “re-register,” or, create a new account.
+
+https://bsky.app/profile/signal.org/post/3mkixc3xhe42u
+>When they moved to create a new Signal account — one that was now decoupled from their hijacked account — the victims thought they were logging back in to their primary account. As a result, many didn't notice the takeover.
+
+https://bsky.app/profile/signal.org/post/3mkixc3xhe52u
+>The compromised accounts were then weaponized to target the victims' contact lists by posing as the owners of the account. 
+>
+>We understand the trust that people put in Signal, and how devastating this kind of social engineering can be.
+
+https://bsky.app/profile/signal.org/post/3mkixc3xidf2u
+>While it’s true that all messaging platforms are susceptible to scammers and phishing that betrays people’s trust and convinces them to “unlock the front door” where no backdoor exists, we are looking to do everything we can to help people avoid and detect such scams.
+
+https://bsky.app/profile/signal.org/post/3mkixc3xidg2u
+>For the time being, please stay vigilant against phishing and account takeover attempts. Remember that no one from Signal Support will ever send you a message request or ask for your registration verification code or Signal PIN.
+
+https://bsky.app/profile/signal.org/post/3mkixc3xidh2u
+>For an added layer of protection, you can enable Registration Lock in your Signal Settings (Account -> Registration Lock).
