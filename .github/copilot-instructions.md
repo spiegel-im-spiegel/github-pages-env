@@ -17,6 +17,14 @@
   - Basic usage: `ml "https://example.com/article"`
   - Output format: `[Page Title](https://example.com/article)`
   - Clipboard example (Linux): `out=$(ml "https://example.com/article") && printf "%s" "$out" | xsel --clipboard --input`
+- **`rg`** (`ripgrep`): Preferred text search command for article proofreading and checks.
+  - Use it to quickly find typos, wording variants, or target phrases in posts (for example, under `content/remark`).
+  - Basic usage examples:
+    - `rg "フィッシング" content/remark`
+    - `rg "Signal Support|Registration Lock" content/remark/2026/04/signal-attack-patterns.md`
+  - Install on Ubuntu/Debian: `sudo apt install -y ripgrep`
+  - Alternative install via Snap: `sudo snap install ripgrep`
+  - Verify installation: `rg --version`
 - **`publish.sh`**: A helper script for building and publishing generated site content.
   - It runs `./build.sh` first and stops immediately on failure.
   - It moves to `../text-publishd`, then runs `git add --all`, `git commit`, and `git push -u origin master`.
