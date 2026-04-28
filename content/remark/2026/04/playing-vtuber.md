@@ -34,7 +34,7 @@ draft = false
 - フェイシャルキャプチャ / トラッキング（表情）
 - リップシンク（音声同期）
 
-つまり動く CG キャラを使って上の3つの要素を満たせば，一応は「VTuber」ごっこができるわけだ。
+つまり動く CG キャラを使って上の3つの要素を満たせば，一応は「VTuber ごっこ」ができるわけだ。
 「動画配信プラットフォームで活動」する気はないけど。
 
 既存の Web カメラを使って Live2D[^l2d] のアバターを動かすことはできそうだ。
@@ -132,9 +132,6 @@ Bluesky でアナウンスするので，よろしかったらどうぞ。
 
 - [RogueRen/Linux-Guide-to-Vtubing: this is a guide to help Vtubers who use Linux or vtubers who want to start using linux - Codeberg.org](https://codeberg.org/RogueRen/Linux-Guide-to-Vtubing)
 
-{{% review-paapi "B0DBZ3QP7J" %}} <!-- VTuber学 -->
-{{% review-paapi "B0D1V1WXRH" %}} <!-- VTuberの哲学 -->
-
 [Kagi Search]: https://kagi.com/ "Kagi Search - A Premium Search Engine"
 [Kagi Translate]: https://translate.kagi.com/ "Kagi Translate"
 [Kagi Assistant]: https://assistant.kagi.com/ "Kagi Assistant"
@@ -147,3 +144,8 @@ Bluesky でアナウンスするので，よろしかったらどうぞ。
 [Facetracker]: https://flathub.org/en/apps/de.z_ray.Facetracker "Install Facetracker on Linux | Flathub"
 [OpenSeeFace]: https://github.com/emilianavt/OpenSeeFace "emilianavt/OpenSeeFace: Robust realtime face and facial landmark tracking on CPU with Unity integration"
 [Streamplace]: https://stream.place/ "Streamplace"
+
+## 参考
+
+{{% review-paapi "B0DBZ3QP7J" %}} <!-- VTuber学 -->
+{{% review-paapi "B0D1V1WXRH" %}} <!-- VTuberの哲学 -->
