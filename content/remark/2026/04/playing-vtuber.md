@@ -39,7 +39,7 @@ draft = false
 
 既存の Web カメラを使って Live2D[^l2d] のアバターを動かすことはできそうだ。
 
-[^l2d]: 「Live2D」の名称およびロゴは[株式会社 Live2D の登録商標](https://www.live2d.jp/brand/ "ロゴとガイドライン | 株式会社Live2D")だそうな。また，開発用のソフトウェア（SDK および Live2D Cubism Editor）の利用には，利用者の規模や目的に応じた使用許諾契約（EULA）が適用されるとのこと。ちなみに [VTube Studio] にも EULA が設定されているので利用の際はご注意を。
+[^l2d]: 「Live2D」の名称およびロゴは[株式会社 Live2D の登録商標](https://www.live2d.jp/brand/ "ロゴとガイドライン | 株式会社Live2D")だそうな。また，開発用のソフトウェア（SDK および Live2D Cubism Editor）の利用には，利用者の規模や目的に応じた利用許諾契約（End-User License Agreement; EULA）が適用されるとのこと。ちなみに [VTube Studio] にも EULA が設定されているので利用の際はご注意を。
 
 調べてみたところ（調べたのは AI だが），どうやら Ubuntu 環境で Live2D モデルを動かすには [VTube Studio] 一択のようだ。
 [VTube Studio] は Steam で提供されている。
@@ -149,3 +149,4 @@ Bluesky でアナウンスするので，よろしかったらどうぞ。
 
 {{% review-paapi "B0DBZ3QP7J" %}} <!-- VTuber学 -->
 {{% review-paapi "B0D1V1WXRH" %}} <!-- VTuberの哲学 -->
+{{% review-paapi "B0D9LH6CW3" %}} <!-- あくまのかんづめ〜周防パトラのエッセイ集〜 -->
