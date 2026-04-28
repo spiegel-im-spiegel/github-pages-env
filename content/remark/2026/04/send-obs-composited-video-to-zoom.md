@@ -221,6 +221,29 @@ Windows 版 [obs-backgroundremoval] にはインストーラはなく zip 圧縮
 
 - [APT vs Snap vs Flatpak: Ubuntu Package Managers Explained (and When to Use Each)](https://www.howtogeek.com/apt-vs-snap-vs-flatpak-ubuntu-package-managers-explained/)
 
+### 他に参考にしたツール
+
+- [Webcamoid, The ultimate webcam suite!](https://webcamoid.github.io/blog/)
+- [webcamoid/webcamoid: Webcamoid is a full featured and multiplatform camera suite. · GitHub](https://github.com/webcamoid/webcamoid)
+
+Webcamoid はオープンソース（GPLv3）の製品で Linux を含むクロスプラットフォームでバイナリが提供されている。
+Ubuntu では APT でインストール可能だが，専用のインストーラ（有料）が用意されているらしい？
+
+```text
+$ aptitude search webcamoid
+p   webcamoid                 - full featured webcam capture application
+p   webcamoid-data            - icons and locale files for webcamoid
+p   webcamoid-plugins         - full featured webcam capture application - plugins
+```
+
+多くのエフェクトを持ち仮想カメラ機能も備える。
+複数のカメラを同時に管理・切り替えできる。
+ただ背景除去についてはグリーンバックなどの設備があることが前提のようで（ChromaKey エフェクトなら不完全ながら可能らしいが），今回の用途には合わなかった。
+
+- [Webcamoid のダウンロードと使い方 - ｋ本的に無料ソフト・フリーソフト](https://www.gigafree.net/media/webcam/Webcamoid.html)
+- [Webcamoid 8.5、Webカメラ用のシンプルなクロスプラットフォームアプリケーション](https://ja.ubunlog.com/%E3%82%A6%E3%82%A7%E3%83%96%E3%82%AB%E3%83%A1%E3%83%A9%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%A6%E3%82%A7%E3%83%96%E3%82%AB%E3%83%A1%E3%83%A9/) : 現在は v9
+- [ウェブカメラを最大限に活用するための6つの最高のLinuxカメラアプリ](https://www.linux-jp.org/?p=13052) : Webcamoid 以外にもいくつかのカメラアプリが紹介されている。
+
 [Kagi Search]: https://kagi.com/ "Kagi Search - A Premium Search Engine"
 [Kagi Translate]: https://translate.kagi.com/ "Kagi Translate"
 [Kagi Assistant]: https://assistant.kagi.com/ "Kagi Assistant"
