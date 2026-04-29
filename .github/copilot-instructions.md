@@ -50,6 +50,17 @@
 - After deploy, if `.github/workflows/tagslist.csv` and/or `data/toptags.json` remain uncommitted in `text`, handle them in a separate commit.
 - For that separate commit, choose the commit message automatically and do not push.
 
+- Hugo upgrade and redeploy routine:
+  1. Check both repositories first (`git status --short` in `text` and `../text-publishd`).
+  2. Check current Hugo version (`hugo version`).
+  3. Run `./hugo_inst.sh` to install the latest release.
+  4. If sudo password is requested, continue interactively and complete the installer.
+  5. Verify installed version again (`hugo version`).
+  6. Run `./publish.sh` to rebuild and deploy with the new Hugo.
+  7. Re-check both repositories after deploy and report remaining local changes.
+  8. If `text` has only generated tag artifacts after deploy, create a separate local commit and do not push.
+  9. If asked whether publish changes are version-only, review the latest commit with `git show --numstat` and inspect outlier files before concluding.
+
 **Archetypes and Front Matter**
 
 - Front matter is generated according to `archetypes/*.md` (for example, `archetypes/remark.md`).
