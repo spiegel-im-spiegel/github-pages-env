@@ -6,11 +6,10 @@ isCJKLanguage = true
 image = "/images/attention/kitten.jpg"
 tags = [ "streaming", "ubuntu", "vtuber", "tools", "flatpak" ]
 pageType = "text"
-draft = false
 
 [scripts]
   mathjax = false
-  mermaidjs = false
+  mermaidjs = true
   jsx = false
 +++
 
@@ -41,17 +40,37 @@ draft = false
 
 [^l2d]: 「Live2D」の名称およびロゴは[株式会社 Live2D の登録商標](https://www.live2d.jp/brand/ "ロゴとガイドライン | 株式会社Live2D")だそうな。また，開発用のソフトウェア（SDK および Live2D Cubism Editor）の利用には，利用者の規模や目的に応じた利用許諾契約（End-User License Agreement; EULA）が適用されるとのこと。ちなみに [VTube Studio] にも EULA が設定されているので利用の際はご注意を。
 
-調べてみたところ（調べたのは AI だが），どうやら Ubuntu 環境で Live2D モデルを動かすには [VTube Studio] 一択のようだ。
-[VTube Studio] は Steam で提供されている。
+調べてみたところ（調べたのは AI だが），どうやら Ubuntu で Live2D モデルを動かすには [VTube Studio] 一択のようだ。
+[VTube Studio] は Steam で提供され Ubuntu では Proton 環境下で動作する（つまり中身は Windows アプリ）。
 使い方と [OBS Studio][OBS] との連携方法は以下のページが参考になった。
 
 - [VTube Studioの使い方。重要なとこだけ設定してVTuberになる](https://vip-jikkyo.net/vtube-studio-tutorial)
 - [VTube Studio + OBS設定ガイド｜モデルだけ映して背景透過する方法](https://vip-jikkyo.net/vtube-studio-with-obs)
 
-ただ Ubuntu 環境で使う場合は，そのままでは Web カメラを認識しないので [Facetracker] も導入する必要がある[^ft1]。
+ただし Ubuntu で使う場合，そのままでは Web カメラの映像を認識しないので [Facetracker] を経由する必要がある[^ft1]。
+
+[^ft1]: [VTube Studio] は [OpenSeeFace] に対応している。 [OpenSeeFace] 自体は Python スクリプトのようだが [Facetracker] が [OpenSeeFace] のインタフェースを持っているということらしい。ちなみにマイク入力はちゃんと認識するみたいなので，リップシンクは問題ない。
+
+{{< fig-mermaid >}}
+flowchart LR
+  subgraph ubuntu [Ubuntu]
+    direction LR
+    Webcam[/"Webcam"/]
+    Facetracker["Facetracker"]
+    subgraph proton [Steam/Proton]
+      VTS["VTube Studio"]
+    end
+  end
+
+  Webcam e1@--> Facetracker
+  Facetracker e2@-->|OpenSeeFace| VTS
+
+  e1@{ animate: true }
+  e2@{ animate: true }
+{{< /fig-mermaid >}}
+
 [Facetracker] は [Flatpak] で提供されている[^fp1]。
 
-[^ft1]: [VTube Studio] は [OpenSeeFace] に対応している。 [OpenSeeFace] 自体は Python スクリプトのようだが [Facetracker] が [OpenSeeFace] のインタフェースを持っているということらしい。
 [^fp1]: [Flatpak] は Ubuntu に既定で入っていない。 [Flatpak] の導入については[前回の記事][前回]を参照のこと。
 
 ```text
@@ -91,11 +110,11 @@ ip=0.0.0.0
 port=11573
 ```
 
-起動するとこんな画面が表示される。
+[Facetracker] を起動するとこんな画面が表示される。
 
 {{< fig-img-quote src="./facetracker.png" title="Facetracker" link="./facetracker.png" width="544" >}}
 
-Webcom でカメラを指定する以外は既定のままでも動くが Server Settings はそのままだと多分ヤバいので変えたほうがいいだろう。
+Webcam でカメラを指定する以外は既定のままでも動くが Server Settings はそのままだと多分ヤバいので，常用するなら変えたほうがいいだろう。
 Server Settings を変えた場合は先程の `ip.txt` も記述を合わせること。
 
 左上のボタン（アイコンではない）を押さないとトラッキングが始まらないので注意。
