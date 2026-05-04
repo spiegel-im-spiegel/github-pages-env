@@ -43,6 +43,20 @@ GitHub Page [spiegel-im-spiegel.github.io](https://github.com/spiegel-im-spiegel
 hugo version
 ```
 
+## ブログセクション一覧
+
+- `remark`: 雑記，検証メモ，運用ノウハウ，日々の気づきをまとめる主力セクション。
+- `release`: ソフトウェアや規格などのリリース情報を紹介・整理するセクション。
+- `bookmarks`: 期間ごとのリンク集や，気になった記事・資料の記録セクション。
+- `openpgp`: OpenPGP，GnuPG，暗号運用まわりの話題を扱う技術セクション。
+- `golang`: Go 言語と関連ツール，実装メモを扱うセクション。
+- `rust-lang`: Rust 言語と関連エコシステムを扱うセクション。
+- `hugo`: Hugo 本体やテンプレート運用，サイト構築まわりのセクション（現在休載中）。
+- `typst`: Typst と文書作成ワークフローを扱うセクション。
+- `cc-licenses`: Creative Commons を中心としたライセンス関連のセクション。
+
+- セクションの運用ルール（front matter，命名，deploy 手順など）は `.github/copilot-instructions.md` を参照すること。
+
 ## 運用ドキュメントの地図
 
 - `.github/copilot-instructions.md`
