@@ -2,6 +2,14 @@
 
 - **Purpose**: This document defines Hugo-related operational rules for Copilot in this repository.
 
+**Section Index**
+
+- **Writing Style**: Rules for Japanese punctuation and sentence style.
+- **Local Commands**: Command reference for daily authoring and maintenance tasks.
+- **Deploy Playbook**: Standard publishing workflow, checks, and post-deploy handling.
+- **Archetypes and Front Matter**: Post scaffold behavior and front matter conventions.
+- **AI Block Rules**: When and how to use `div-ai` and related migration notes.
+
 **Writing Style**
 
 - In Japanese sentences, use `，` for commas and `。` for periods.

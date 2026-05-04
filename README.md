@@ -7,6 +7,72 @@ GitHub Page [spiegel-im-spiegel.github.io](https://github.com/spiegel-im-spiegel
 
 [Baldanders.info]: https://baldanders.info/
 
+## この README の位置づけ
+
+- この README は，人間向けの入口ドキュメントである。
+- 日常的な運用ルールや例外判断は `.github/copilot-instructions.md` を正本とする。
+- README は，概要，最小手順，参照先の案内に絞る。
+
+## クイックスタート
+
+### 新規投稿の作成
+
+```bash
+./new.sh remark
+./new.sh release my-release.md
+./new.sh some/path.md
+```
+
+### ビルド
+
+```bash
+./build.sh
+```
+
+### 公開
+
+```bash
+./publish.sh
+./publish.sh "your commit message"
+```
+
+### Hugo 更新
+
+```bash
+./hugo_inst.sh
+hugo version
+```
+
+## 運用ドキュメントの地図
+
+- `.github/copilot-instructions.md`
+  - Copilot が従う運用ルールの本体。
+  - deploy ルーティーン，Hugo 更新手順，後処理ルール，AI ブロック運用を定義。
+- `README.md`（このファイル）
+  - 作業の入口，最小手順，参照先の案内。
+
+### `.github/copilot-instructions.md` のセクション概要
+
+- `Writing Style`: 日本語の句読点や文体ルール。
+- `Local Commands`: ローカル補助コマンドの目的と使い方。
+- `Deploy Playbook`: 記事公開の標準手順，事前確認，deploy 後の後処理。
+- `Archetypes and Front Matter`: archetype と front matter の運用方針。
+- `AI Block Rules`: `div-ai` の使用ルールと既存記事の移行方針。
+
+## ローカル補助スクリプト一覧
+
+- `new.sh`: `archetypes` を見て `hugo new --kind=<kind> <path>` を実行。
+- `build.sh`: `toptags.sh` と `tagslist.sh` 実行後に Hugo でビルド。
+- `publish.sh`: `build.sh` の後，`../text-publishd` で commit/push。
+- `tagslist.sh`: front matter の tags から `.github/workflows/tagslist.csv` を再生成。
+- `toptags.sh`: 直近 1 年の記事 tags から `data/toptags.json` を再生成。
+- `hugo_inst.sh`: `gohugoio/hugo` の最新 `hugo_extended` `.deb` で Hugo を更新。
+
+## 補足
+
+- `publish.sh` 実行後に `.github/workflows/tagslist.csv` や `data/toptags.json` が source 側に残る場合の扱いは `.github/copilot-instructions.md` に従う。
+- 記事作成時の front matter 運用（description，tags，slug など）も `.github/copilot-instructions.md` に従う。
+
 ## ライセンス
 
 コンテンツのライセンスは基本的に [Creative Commons Liscense Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) で公開している。利用はライセンスの許諾範囲内で自由である。
@@ -16,92 +82,3 @@ GitHub Page [spiegel-im-spiegel.github.io](https://github.com/spiegel-im-spiegel
 ## 文章スタイル
 
 - 日本語の文章では，読点に「，」を，句点に「。」を使用する。
-
-## 新規投稿の作成（ローカル補助スクリプト）
-
-- **スクリプト**: `new.sh`（`text` ディレクトリ直下）を使うとテンプレート（`archetypes`）を自動検出して `hugo new` を実行する。
-- **使い方例**:
-
-```bash
-./new.sh remark                # content/remark/<YYYY>/<MM>/<DD>-stories.md を作成（archetype: remark があれば使用）
-./new.sh bookmarks             # content/bookmarks/<YYYY>/<MM>/<DD>-bookmarks.md を作成（archetype: bookmarks があれば使用）
-./new.sh release my-release.md # content/release/<YYYY>/<MM>/my-release.md を作成
-./new.sh some/path.md          # 任意のパスでファイルを作成（archetype が無ければ default を使用）
-```
-
-- スクリプトは `archetypes/*.md` を参照して利用可能な archetype を検出する。
-- `hugo new --kind=<kind> <path>` を実行するため，カスタム `archetypes` を追加するとその種類を利用できる。
-
-### 運用メモ（remark で slug 指定）
-
-- タイトル「aptitude をインストールする」の英語 slug には `install-aptitude` を採用した。
-- `remark` セクションで slug をファイル名に使って作成する場合は次を実行する。
-
-```bash
-./new.sh remark install-aptitude.md
-```
-
-- 生成先: `content/remark/<YYYY>/<MM>/install-aptitude.md`
-- 今回は front matter の追加・変更は行わない（生成された内容をそのまま使用する）。
-
-変更したスクリプト: `new.sh` を安全に実行するために `set -euo pipefail` を有効にしている。
-
-## 公開（ビルドと GitHub へのアップ）
-
-- **スクリプト**: `publish.sh` は，サイトのビルドと公開用リポジトリへの push をまとめて実行する。
-- **処理内容**:
-  - 先に `./build.sh` を実行し，失敗時はその場で終了する。
-  - `../text-publishd` へ移動して，`git add --all`，`git commit`，`git push -u origin master` を実行する。
-- **使い方例**:
-
-```bash
-./publish.sh
-./publish.sh "your commit message"
-```
-
-- 引数を省略した場合は，`text` 側の直近コミット件名を publish 用コミットメッセージとして使う。
-
-- この手順で，サイトのビルド，`../text-publishd` でのコミット，`origin/master` への push まで実行できる。
-
-## タグ集計（ローカル補助スクリプト）
-
-- **スクリプト**: `tagslist.sh` は，`content/**/*.md` の front matter から `tags` を収集し，`.github/workflows/tagslist.csv` を再生成する。
-  - 出力形式は `tag,count,means` の CSV であり，カウント降順，カウント同値時は tag 名のアルファベット順でソートする。
-  - `means` は各 tag の意味・用途を記述する列で，既存の `tagslist.csv` の値を引き継ぐ。
-  - `tagslist.csv` は，今後の記事作成時に付与する tags を検討するための資料として用いる。
-
-- **スクリプト**: `toptags.sh` は，front matter の `date` が直近 1 年以内の記事を対象に `tags` を集計し，`data/toptags.json` を出力する。
-  - 出力形式は tag 名のみの JSON 配列であり，配列内はアルファベット順である。
-  - 既定では上位 15 件を出力し，`TOP_N` 環境変数で件数を変更できる。
-  - `toptags.json` は，ブログトップページ（`layouts/_default/home.html`）の「最近の主な tags」節で列挙する tag の元データとして用いる。
-
-## ビルド時の実行順序
-
-- `build.sh` は先頭で `./toptags.sh` を実行し，失敗時はその場で中断する。
-- 続いて `./tagslist.sh` を実行し，失敗時はその場で中断する。
-- 最後に `hugo --gc --cleanDestinationDir --destination=../text-publishd` を実行する。
-
-## Hugo の更新（GitHub Release の deb を利用）
-
-- **スクリプト**: `hugo_inst.sh` は GitHub の `gohugoio/hugo` リリースから最新の `hugo_extended` 用 `.deb` を取得して更新する。
-- **処理内容**:
-  - `amd64` または `arm64` の環境を判定し，対応する `.deb` を選択する。
-  - 可能な場合は `checksums.txt` を使って SHA256 検証を行う。
-  - `sudo apt install -y ./<deb>` で Hugo を更新する。
-- **使い方**:
-
-```bash
-./hugo_inst.sh
-```
-
-### 作業例（更新後の確認）
-
-```bash
-./hugo_inst.sh
-hugo version
-./build.sh
-cd ../text-publishd
-git status --short
-```
-
-- `../text-publishd` 側の差分を確認して問題なければ，通常どおり commit / push を行う。
