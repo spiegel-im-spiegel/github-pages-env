@@ -71,6 +71,16 @@ v2.9.18 は `bsky.social` 以外の PDS で OAuth 認証した場合に再認証
 
 というわけで PDS を引っ越そうか悩み中である。
 
+## 【2026-05-10 追記】
+
+Andorid 版および iOS 版の [ZonePane] も最新版で `bsky.social` 以外へのサインインに対応したようだ。
+
+<fig-quote class="nobox">
+<iframe src="https://fedibird.com/@zonepane/116543569773674491/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://fedibird.com/embed.js" async="async"></script>
+</fig-quote>
+
+手元のスマホで試したが問題なくサインインできた。
+
 [ZonePane]: https://twitpane.com/ "ZonePane - マルチSNSクライアント"
 [PDSls]: https://pdsls.dev/ "PDSls"
 [atproto]: https://atproto.com/ "The AT Protocol"
