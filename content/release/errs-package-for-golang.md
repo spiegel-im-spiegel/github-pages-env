@@ -15,10 +15,10 @@ pageType = "text"
 
 本パッケージは [Go 言語]によるプログラミングに於いて標準の [`errors`] パッケージを補完し，構造化されたエラーハンドリングを行うことができる。
 
-[![check vulns](https://github.com/goark/errs/workflows/vulns/badge.svg)](https://github.com/goark/errs/actions)
-[![lint status](https://github.com/goark/errs/workflows/lint/badge.svg)](https://github.com/goark/errs/actions)
+[![ci status](https://github.com/goark/errs/workflows/ci/badge.svg)](https://github.com/goark/errs/actions)
+[![codeql status](https://github.com/goark/errs/workflows/CodeQL/badge.svg)](https://github.com/goark/errs/actions)
 [![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/goark/errs/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/goark/errs.svg)](https://github.com/goark/errs/releases/latest)
+[![GitHub release](http://img.shields.io/github/release/goark/errs.svg)](https://github.com/goark/errs/releases/latest)
 
 [`errs`] パッケージは以下の設計目標の下に実装している。
 
