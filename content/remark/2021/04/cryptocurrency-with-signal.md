@@ -3,7 +3,7 @@ title = "FinTech の曲がり角"
 date =  "2021-04-24T15:12:30+09:00"
 description = "藪をつついて蛇を出す"
 image = "/images/attention/kitten.jpg"
-tags = [ "fintech", "security", "privacy", "risk", "messaging" ]
+tags = [ "fintech", "security", "privacy", "risk", "messaging", "signal" ]
 pageType = "text"
 
 [scripts]

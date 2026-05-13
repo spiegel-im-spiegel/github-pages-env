@@ -3,7 +3,7 @@ title = "Android 版 Signal が SMS 対応を取りやめる話"
 date =  "2022-10-16T21:51:56+09:00"
 description = "まぁ，これはしょうがない。"
 image = "/images/attention/kitten.jpg"
-tags = [ "security", "privacy", "risk", "communication", "messaging" ]
+tags = [ "security", "privacy", "risk", "communication", "messaging", "signal" ]
 pageType = "text"
 
 [scripts]
