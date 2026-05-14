@@ -1,7 +1,7 @@
 +++
-title = "Go 言語用 PA-API v5 クライアント・パッケージ"
+title = "Go 言語用 Amazon Creators API クライアント・パッケージ"
 date =  "2019-10-06T15:46:03+09:00"
-description = "本パッケージは Amazon Product Advertising API v5 へアクセスできる Go 言語用クライアント・パッケージだ。 API を通じて Ammazon で取り扱っている商品の情報を取得できる。"
+description = "本パッケージは Amazon Creators API へアクセスできる Go 言語用クライアント・パッケージだ。 API を通じて Ammazon で取り扱っている商品の情報を取得できる。"
 image = "/images/attention/go-logo_blue.png"
 tags = [ "package", "module", "golang", "amazon", "pa-api", "programming" ]
 pageType = "text"
@@ -11,7 +11,7 @@ pageType = "text"
   mermaidjs = false
 +++
 
-- [goark/pa-api: Go client for the Amazon Creators API](https://github.com/goark/pa-api)
+- [goark/pa-api: Go client for the Amazon Creators API][`paapi5`]
 
 [![ci](https://github.com/goark/pa-api/actions/workflows/ci.yml/badge.svg)](https://github.com/goark/pa-api/actions/workflows/ci.yml)
 [![CodeQL](https://github.com/goark/pa-api/actions/workflows/codeql.yml/badge.svg)](https://github.com/goark/pa-api/actions/workflows/codeql.yml)
@@ -26,15 +26,17 @@ Amazon [Product Advertising API] v5 は2026年5月中旬に廃止され， [Crea
 これに伴い本パッケージも [Creators API] に移行ししている。
 したがって，このページの内容は既に obsolete となっている。
 
-詳しくはリポジトリの README を参照のこと。
+詳しくは[リポジトリ][`paapi5`]の README を参照のこと。
 
+[Product Advertising API]: https://affiliate.amazon.co.jp/assoc_credentials/home
 [Creators API]: https://affiliate-program.amazon.com/creatorsapi/docs/ "Creators API"
+[`paapi5`]: https://github.com/goark/pa-api "goark/pa-api: Go client for the Amazon Creators API"
 {{< /div-box >}}
 
 本パッケージは Amazon [Product Advertising API] v5 へアクセスできる [Go 言語]用クライアント・パッケージだ。
 API を通じて Amazon で取り扱っている商品の情報を取得できる。
 
-なお [goark/pa-api] パッケージは [Go] 1.16 以上を要求する。
+なお [`paapi5`] パッケージは [Go] 1.16 以上を要求する。
 ご注意を。
 
 
@@ -329,7 +331,7 @@ func (c *client) RequestContext(ctx context.Context, q Query) ([]byte, error)
 
 ### クエリの実例とレスポンスの取り込み例
 
-[goark/pa-api] パッケージではクエリ用のサンプルとして [`paapi5`]`/query` サブパッケージを用意している。
+[`paapi5`] パッケージではクエリ用のサンプルとして [`paapi5`]`/query` サブパッケージを用意している。
 最初のコード例の
 
 ```go
@@ -348,15 +350,14 @@ q := query.NewGetItems(
 また [`paapi5`]`.Client.Request()` 関数の出力結果を構造体に落とし込むための [`paapi5`]`/entity` サブパッケージも用意した。
 どちらもそのままではあまり使い勝手がいいとは言えないが，コード例として自由に利用していただいて構わない。
 
-なお [goark/pa-api] パッケージは [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) でライセンスしている。
+なお [`paapi5`] パッケージは [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) でライセンスしている。
 
 ## ブックマーク
 
 - [Product Advertising API 5.0 Documentation](https://webservices.amazon.com/paapi5/documentation/)
 - [PA-API V5 への移行]({{< ref "/remark/2019/10/pa-api-v5.md" >}})
 
-[goark/pa-api]: https://github.com/goark/pa-api "goark/pa-api: APIs for Amazon Product Advertising API v5 by Golang"
-[`paapi5`]: https://github.com/goark/pa-api "goark/pa-api: APIs for Amazon Product Advertising API v5 by Golang"
+[`paapi5`]: https://github.com/goark/pa-api "goark/pa-api: Go client for the Amazon Creators API"
 [Product Advertising API]: https://affiliate.amazon.co.jp/assoc_credentials/home
 [PA-API]: https://affiliate.amazon.co.jp/assoc_credentials/home "Product Advertising API"
 [Go]: https://go.dev/
