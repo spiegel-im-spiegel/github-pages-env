@@ -11,14 +11,19 @@ pageType = "text"
   mermaidjs = false
 +++
 
+{{< div-box type="markdown" >}}
+## 【2026-05-15 追記】
+
+このツールの[リポジトリ][books-data]は [PA-API] v5 廃止に伴い Archive 化した。
+以降，このツールおよび[リポジトリ][books-data]はメンテナンスされない。
+
+[books-data]: https://github.com/goark/books-data "goark/books-data: Search for Books Data"
+[PA-API]: https://affiliate.amazon.co.jp/assoc_credentials/home "Product Advertising API"
+{{< /div-box >}}
+
 - [goark/books-data: Search for Books Data](https://github.com/goark/books-data)
 
 本ツールは [PA-API], [openBD] および [青空文庫] API より書籍情報を取得・加工するための CLI (Command-Line Interface) ツールである。
-
-[![check vulns](https://github.com/goark/books-data/workflows/vulns/badge.svg)](https://github.com/goark/books-data/actions)
-[![lint status](https://github.com/goark/books-data/workflows/lint/badge.svg)](https://github.com/goark/books-data/actions)
-[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/goark/books-data/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/goark/books-data.svg)](https://github.com/goark/books-data/releases/latest)
 
 ## ダウンロードとビルド
 
