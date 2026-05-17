@@ -3,7 +3,7 @@ title = "2020年の祝日休日"
 date =  "2020-01-01T06:51:58+09:00"
 description = "今年はオリンピックのせいで祝日が変則になっている。"
 image = "/images/attention/kitten.jpg"
-tags = [ "calendar" ]
+tags = [ "calendar", "naoj" ]
 pageType = "text"
 
 [scripts]

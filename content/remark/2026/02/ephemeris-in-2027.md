@@ -3,7 +3,7 @@ title = "2027年の暦"
 date =  "2026-02-02T17:03:15+09:00"
 description = "2027年は月食はなし。"
 image = "/images/attention/kitten.jpg"
-tags = [ "calendar", "astronomy", "ephemeris" ]
+tags = [ "calendar", "astronomy", "ephemeris", "naoj" ]
 pageType = "text"
 
 [scripts]

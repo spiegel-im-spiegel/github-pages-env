@@ -3,7 +3,7 @@ title = "2023年の暦"
 date =  "2022-02-03T18:10:15+09:00"
 description = "今年も国立天文台より翌年（2023年）の暦要項が公開された。"
 image = "/images/attention/kitten.jpg"
-tags = [ "calendar", "astronomy", "ephemeris" ]
+tags = [ "calendar", "astronomy", "ephemeris", "naoj" ]
 pageType = "text"
 
 [scripts]

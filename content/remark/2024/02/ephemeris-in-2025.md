@@ -3,7 +3,7 @@ title = "2025年の暦"
 date =  "2024-02-03T10:43:46+09:00"
 description = "2025年は日食2回と月食2回がある。"
 image = "/images/attention/kitten.jpg"
-tags = [ "calendar", "astronomy", "ephemeris" ]
+tags = [ "calendar", "astronomy", "ephemeris", "naoj" ]
 pageType = "text"
 
 [scripts]

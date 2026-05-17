@@ -3,7 +3,7 @@ title = "2024年の暦"
 date =  "2023-02-01T11:06:23+09:00"
 description = "2024年は振替休日がいっぱいあるねぇ。"
 image = "/images/attention/kitten.jpg"
-tags = [ "calendar", "astronomy", "ephemeris" ]
+tags = [ "calendar", "astronomy", "ephemeris", "naoj" ]
 pageType = "text"
 
 [scripts]
