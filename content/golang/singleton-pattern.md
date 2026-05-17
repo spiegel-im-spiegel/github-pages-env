@@ -2,7 +2,7 @@
 title = "Go 言語における Singleton Pattern"
 date =  "2017-10-24T14:43:01+09:00"
 description = "はっきり言って「Singleton なめんな！」ですよ。"
-tags = [ "golang", "programming", "singleton", "init", "sync", "goroutine" ]
+tags = [ "golang", "programming", "init", "sync", "goroutine" ]
 
 [scripts]
   mathjax = false

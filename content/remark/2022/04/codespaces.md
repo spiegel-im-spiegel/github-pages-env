@@ -3,7 +3,7 @@ title = "やっと Codespaces が使える"
 date =  "2022-04-23T22:45:12+09:00"
 description = "Go が動くぞ！"
 image = "/images/attention/kitten.jpg"
-tags = [ "github", "codespaces", "vscode" ]
+tags = [ "github", "vscode" ]
 pageType = "text"
 
 [scripts]

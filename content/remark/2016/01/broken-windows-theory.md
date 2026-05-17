@@ -1,7 +1,7 @@
 +++
 date = "2016-01-06T21:04:43+09:00"
 description = "結局これは他の犯罪と同じで，「割れ窓」をせっせと補修して回るだけではきりがなく，犯罪を起こす「社会の物質的条件」を変えていくことこそが本命なのである。"
-tags = ["security", "risk", "management", "botnet"]
+tags = [ "security", "risk", "management" ]
 title = "ボットネット・テイクダウンと割れ窓理論"
 
 [scripts]

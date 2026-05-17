@@ -3,7 +3,7 @@ title = "真面目に PlantUML (4) : 実体関連図"
 date =  "2019-07-14T16:28:21+09:00"
 description = "実は実体関連図は UML のクラス図を使って表すことができる。また IE 記法にも一部対応している。"
 image = "/images/attention/kitten.jpg"
-tags = [ "tools", "plantuml", "uml", "class", "entity", "relation" ]
+tags = [ "tools", "plantuml", "uml", "class", "entity", "programming" ]
 pageType = "text"
 
 [scripts]

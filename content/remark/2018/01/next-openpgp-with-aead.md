@@ -3,7 +3,7 @@ title = "次期 OpenPGP と AEAD"
 date =  "2018-01-27T16:21:29+09:00"
 description = "ドラフト 03, 04 の主な変更点としては AEAD (Authenticated Encryption with Associated Data; 認証付き暗号) の仕様が追加されたことだろう。"
 image = "/images/attention/openpgp.png"
-tags = ["security", "cryptography", "openpgp", "aead"]
+tags = [ "security", "cryptography", "openpgp" ]
 
 [scripts]
   mathjax = false

@@ -2,7 +2,7 @@
 title = "Reviews"
 date = "2015-09-11T22:10:49+09:00"
 description = "これまで紹介したアイテム（主に書籍）を列挙します。"
-tags = ["review", "book", "site"]
+tags = [ "book", "site" ]
 image = "/images/attention/bookmarks.jpg"
 
 [scripts]

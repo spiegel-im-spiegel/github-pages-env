@@ -3,7 +3,7 @@ title = "参照と借用"
 date =  "2020-03-08T00:51:00+09:00"
 description = "ちょっとした数理パズルだと思えばいい（笑）"
 image = "/images/attention/rustacean-flat-gesture.png"
-tags = [ "programming", "rust", "ownership", "reference", "lifetime" ]
+tags = [ "programming", "rust", "ownership", "lifetime" ]
 pageType = "text"
 
 [scripts]

@@ -2,7 +2,7 @@
 title = "Twitter と Tumblr の設定を見直す"
 date =  "2017-10-15T18:58:41+09:00"
 description = "この際 Twitter と Tumblr の利用について優先度を上げることにした。"
-tags = [ "media", "twitter", "tumblr", "spam" ]
+tags = [ "media", "twitter", "spam" ]
 
 [scripts]
   mathjax = false

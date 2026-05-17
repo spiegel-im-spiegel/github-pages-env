@@ -2,7 +2,7 @@
 title = "週末スペシャル： ゆのっち，木星の衛星になる"
 date = "2016-07-10T21:17:07+09:00"
 description = "ゆのっち，木星の衛星になる / 2017年直前のうるう秒 / Electronic Persons / 投票には行きましたか？ / その他の気になる記事"
-tags = ["astronomy", "jupiter", "juno", "leap-second", "artificial-intelligence", "politics", "election"]
+tags = [ "astronomy", "leap-second", "artificial-intelligence", "politics", "election", "nasa" ]
 
 [scripts]
   mathjax = false

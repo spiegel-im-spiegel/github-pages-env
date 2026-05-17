@@ -3,7 +3,7 @@ title = "秋 NAS は俺に喰わせろ！"
 date =  "2021-10-26T23:50:36+09:00"
 description = "金曜の夜にポチって中1日で届くとは思わざりき（笑）"
 image = "/images/attention/kitten.jpg"
-tags = [ "nas", "samba", "ubuntu", "cloud", "nfs", "git" ]
+tags = [ "nas", "samba", "ubuntu", "cloud", "git", "linux" ]
 pageType = "text"
 
 [scripts]

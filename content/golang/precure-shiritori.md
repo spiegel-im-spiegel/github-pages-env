@@ -3,7 +3,7 @@ title = "プリキュアしりとりで遊ぶ【Go言語版】"
 date =  "2020-07-03T16:31:48+09:00"
 description = "しりとりって順列（permutation）のバリエーションなんだね。 "
 image = "/images/attention/go-logo_blue.png"
-tags = [ "programming", "golang", "unicode", "permutation" ]
+tags = [ "programming", "golang", "unicode", "math" ]
 pageType = "text"
 
 [scripts]

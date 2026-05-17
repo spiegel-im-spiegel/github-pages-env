@@ -2,7 +2,7 @@
 title = "「改憲」という要求開発"
 date =  "2017-10-23T17:45:41+09:00"
 description = "やぁ，選挙が終わりましたよ。ようやくこれで胡乱なことが喋れるよ（笑）"
-tags = [ "engineering", "politics", "code", "requirement-revelopment" ]
+tags = [ "engineering", "politics", "code", "design" ]
 
 [scripts]
   mathjax = true

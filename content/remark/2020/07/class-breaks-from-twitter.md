@@ -3,7 +3,7 @@ title = "Twitter から始まる Class Break"
 date =  "2020-07-21T13:08:08+09:00"
 description = "この件で4年前の米国大統領選挙を連想した人は多いだろうねぇ。"
 image = "/images/attention/kitten.jpg"
-tags  = [ "security", "vulnerability", "risk", "twitter", "class-break" ]
+tags = [ "security", "vulnerability", "risk", "twitter" ]
 pageType = "text"
 
 [scripts]

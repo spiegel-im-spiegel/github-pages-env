@@ -3,7 +3,7 @@ title = "関数閉包で遊ぶ"
 date =  "2020-04-07T18:55:33+09:00"
 description = "関数閉包の記述では fn 構文は使えない。"
 image = "/images/attention/rustacean-flat-gesture.png"
-tags = [ "programming", "rust", "closure", "currying", "ownership" ]
+tags = [ "programming", "rust", "currying", "ownership" ]
 pageType = "text"
 
 [scripts]

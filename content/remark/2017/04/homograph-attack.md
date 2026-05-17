@@ -3,7 +3,7 @@ date = "2017-04-25T22:16:55+09:00"
 update = "2017-04-30T21:34:04+09:00"
 description = "この手の攻撃の回避法だが， Chrome についてはバージョン 58 以降であれば対応済みである。"
 draft = false
-tags = ["security", "risk", "web", "unicode", "punycode"]
+tags = [ "security", "risk", "web", "unicode" ]
 title = "Punycode によるホモグラフ攻撃例とその回避"
 
 [author]

@@ -2,7 +2,7 @@
 date = "2016-05-15T18:46:06+09:00"
 description = "水星の日面経過 / 今週はセキュリティ・アップデート週間でした / クラウドな仕事道具 / その他の気になる記事"
 draft = false
-tags = ["astronomy", "mercury", "transit", "security", "vulnerability", "cloud", "tools"]
+tags = [ "astronomy", "transit", "security", "vulnerability", "cloud", "tools" ]
 title = "週末スペシャル： 水星の日面経過"
 
 [author]

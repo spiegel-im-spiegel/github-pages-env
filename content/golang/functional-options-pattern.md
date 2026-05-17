@@ -1,6 +1,6 @@
 +++
 title = "インスタンスの生成と Functional Options パターン"
-tags = ["golang", "programming", "functional-options"]
+tags = [ "golang", "programming" ]
 description = "今回も自分用の覚え書きとして書いておく。"
 date = "2017-04-04T01:01:59+09:00"
 

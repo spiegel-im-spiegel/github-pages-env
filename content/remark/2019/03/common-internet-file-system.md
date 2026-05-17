@@ -3,7 +3,7 @@ title = "CIFS 経由で NAS に接続する"
 date = "2019-03-31T20:24:45+09:00"
 description = "今回は CIFS (Common Internet File System) クライアントを使って NAS に接続を試みる。"
 image = "/images/attention/kitten.jpg"
-tags = [ "linux", "ubuntu", "nas", "samba", "cifs" ]
+tags = [ "linux", "ubuntu", "nas", "samba" ]
 pageType = "text"
 
 [scripts]

@@ -2,7 +2,7 @@
 title = "最大公約数と関数型プログラミング"
 date =  "2017-09-23T23:32:56+09:00"
 description = "そうだ。最大公約数（greatest common divisor）の話をしよう。"
-tags = [ "golang", "function", "programming", "math", "greatest-common-divisor", "recursion" ]
+tags = [ "golang", "function", "programming", "math", "recursion" ]
 
 [scripts]
   mathjax = true

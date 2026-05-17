@@ -3,7 +3,7 @@ title = "次期 Go 言語で導入される（かもしれない） io/fs パッ
 date =  "2020-09-06T16:18:45+09:00"
 description = "ツリー型のディレクトリ・ファイル構成のファイルシステムを操作するパッケージに対して統一した interface 型を提供して互換性を高めようというわけだ。"
 image = "/images/attention/go-logo_blue.png"
-tags = [ "programming", "golang", "engineering", "package", "file-system" ]
+tags = [ "programming", "golang", "engineering", "package", "linux" ]
 pageType = "text"
 
 [scripts]

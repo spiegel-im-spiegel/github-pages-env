@@ -2,7 +2,7 @@
 title = "CC BY-SA 4.0 now one-way compatible with GPLv3"
 date = "2015-10-09T13:49:56+09:00"
 description = "プログラム・コードとそれ以外の material との remix は時折問題になっていました。今回の互換性の話は，そうした問題へのひとつの解としてクリエイターの方々に提示できると思います。"
-tags = ["creative-commons", "gnu", "gpl", "copyright", "license", "code", "intellectual-property"]
+tags = [ "creative-commons", "gpl", "copyright", "license", "code", "intellectual-property", "linux" ]
 
 [scripts]
   mathjax = false

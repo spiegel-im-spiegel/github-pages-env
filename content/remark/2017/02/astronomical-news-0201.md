@@ -4,7 +4,7 @@ date = "2017-02-01T23:05:44+09:00"
 update = "2018-12-12T15:48:49+09:00"
 title = "最近の天文ニュースより"
 draft = false
-tags = ["astronomy", "politics", "ephemeris", "moon", "kaguya"]
+tags = [ "astronomy", "politics", "ephemeris", "moon", "jaxa" ]
 
 [author]
   twitter = "spiegel_2007"

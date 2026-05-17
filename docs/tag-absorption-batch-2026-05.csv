@@ -1,0 +1,48 @@
+file,remove_tags,add_tags,notes
+content/remark/2018/01/next-openpgp-with-aead.md,aead,cryptography,single remove/add
+content/remark/2015/0917-diary.md,"misty1|rc4",cryptography,two removals same target
+content/remark/2015/cryptography-introduction.md,sha-3,hash,override rule
+content/remark/2015/1213-stories.md,"akatsuki|venus","astronomy|jaxa",astronomy+jaxa policy
+content/remark/2017/02/astronomical-news-0201.md,kaguya,"astronomy|jaxa",astronomy+jaxa policy
+content/remark/2016/07/10-stories.md,"jupiter|juno","astronomy|nasa",astronomy+nasa policy
+content/remark/2018/12/voyager-2-passed-through-the-heliosphere.md,voyager,"astronomy|nasa",astronomy+nasa policy
+content/remark/2016/02/20-stories.md,tmt,astronomy,astronomy only
+content/remark/2016/01/23-stories.md,planet9,astronomy,
+content/remark/2019/09/interstellar-object-borisov.md,interstellar-object,astronomy,
+content/remark/2019/06/starlink-satellite-constellations.md,satellite-constellation,astronomy,
+content/remark/2020/07/comet-neowise.md,comet,astronomy,
+content/remark/2016/05/15-stories.md,mercury,astronomy,
+content/remark/2016/03/mathgirl-galois-theory.md,galois-theory,math,
+content/golang/estimate-of-pi-3-gaussian.md,gaussian,math,
+content/remark/2018/10/mathgirl-note-integral.md,integral,math,
+content/remark/2018/10/mathgirl-note-matrix.md,matrix,math,
+content/remark/2016/03/mathgirl-note-vector.md,vector,math,
+content/golang/precure-shiritori.md,permutation,math,
+content/golang/greatest-common-divisor.md,greatest-common-divisor,math,
+content/remark/2019/03/common-internet-file-system.md,cifs,linux,
+content/remark/2021/10/nas.md,nfs,linux,
+content/golang/file-system-interface-in-go-2.md,file-system,linux,
+content/remark/2016/03/gcc-msys2-2.md,pacman,linux,
+content/remark/2016/02/vulnerability-glibc-library.md,glibc,linux,
+content/remark/2015/cc-by-sa-4-now-one-way-compatible-with-gplv3.md,gnu,linux,
+content/rust-lang/closure-and-currying.md,closure,programming,
+content/golang/functional-options-pattern.md,functional-options,programming,
+content/rust-lang/references-and-borrowing.md,reference,programming,
+content/remark/2019/07/plantuml-4-entity-relationship-diagrams.md,relation,programming,
+content/golang/stack-trace-and-panic-handling.md,stack,programming,
+content/golang/singleton-pattern.md,singleton,programming,
+content/remark/2017/09/vulnerability-in-bluetooth-implementation.md,blueborne,security,
+content/remark/2016/01/broken-windows-theory.md,botnet,security,
+content/remark/2020/07/class-breaks-from-twitter.md,class-break,security,
+content/release/2018/03/ddos-attack-using-memcached.md,ddos,security,
+content/remark/2015/1114-diary.md,ransomware,security,
+content/remark/2016/01/09-stories.md,gitlab,,remove only
+content/remark/2018/12/move-with-trello.md,trello,tools,
+content/remark/2017/10/setting-tumblr-and-twitter.md,tumblr,media,
+content/remark/2017/10/twitter-card-metadata.md,open-graph,web,
+content/remark/2017/04/homograph-attack.md,punycode,web,
+content/remark/2022/04/codespaces.md,codespaces,github,user override
+content/remark/2017/10/requirement-development.md,requirement-revelopment,design,typo cleanup
+content/remark/2015/gasan-toda-castle-ruins.md,study,,remove only
+content/reviews.md,review,,remove only
+content/reviews-old.html,review,,remove only

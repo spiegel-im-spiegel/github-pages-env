@@ -3,7 +3,7 @@ date = "2016-03-01T22:02:44+09:00"
 update = "2018-03-31T17:40:56+09:00"
 description = "いよいよ gcc をインストールする。"
 draft = false
-tags = ["msys2", "mingw", "gcc", "tools", "windows", "pacman"]
+tags = [ "msys2", "mingw", "gcc", "tools", "windows", "linux" ]
 title = "MSYS2 による gcc 開発環境の構築 ― gcc パッケージ群の導入"
 
 [author]
