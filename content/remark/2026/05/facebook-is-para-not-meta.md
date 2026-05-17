@@ -56,6 +56,10 @@ I have come to accept that the tools of the present are not what many of us hope
 
 『[つながりっぱなしの日常を生きる](https://www.amazon.co.jp/dp/B0125TZSZ0?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "つながりっぱなしの日常を生きる：ソーシャルメディアが若者にもたらしたもの | ダナ・ボイド, 野中 モモ | 社会・政治 | Kindleストア | Amazon")』がめちゃめちゃ[よかった]({{< ref "/remark/2016/05/its-complicated.md" >}} "『つながりっぱなしの日常を生きる』を読む")ので，この新刊についても邦訳が出るといいなぁ。
 
+## ブックマーク
+
+- [「ソーシャルメディアは死なない。ただゾンビとして残るだろう」にいただいた感想など - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20260518/wirelesswire) : この記事の駄洒落にも言及していただいた。ありがとうございます！
+
 ## 参考
 
 {{% review-paapi "B0125TZSZ0" %}} <!-- つながりっぱなしの日常を生きる -->
