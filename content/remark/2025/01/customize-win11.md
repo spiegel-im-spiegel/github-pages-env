@@ -3,7 +3,7 @@ title = "Windows 11 のカスタマイズ"
 date =  "2025-01-11T18:40:16+09:00"
 description = "Firefox 導入 / 最新の PowerShell を入れる / Scoop でトラブる / NYAGOS を導入して WIndows Terminal の shell として構成する / 自作ツールを導入する / GnuPG を導入する / PuTTY の導入 / パッケージマネージャは管理者権限下で使う / カスタマイズ作業はまだまだ続く"
 image = "/images/attention/tools.png"
-tags = [ "windows", "scoop", "nyagos", "git", "gnupg", "tools", "putty", "nyagos" ]
+tags = [ "windows", "scoop", "nyagos", "git", "gnupg", "tools", "putty" ]
 pageType = "text"
 
 [scripts]

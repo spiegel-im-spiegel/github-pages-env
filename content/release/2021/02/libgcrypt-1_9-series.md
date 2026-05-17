@@ -3,7 +3,7 @@ title = "Libgcrypt 1.9 系へのアップグレードはちょっと待ちなは
 date =  "2021-02-11T11:24:15+09:00"
 description = "GnuPG 2.2 系のみに Libgcrypt を使っているのなら今すぐ 1.9 系にアップグレードする必要はない。"
 image = "/images/attention/openpgp.png"
-tags = ["security", "cryptography", "tools", "openpgp", "gnupg", "security", "vulnerability"]
+tags = ["security", "cryptography", "tools", "openpgp", "gnupg", "vulnerability"]
 pageType = "text"
 
 [scripts]
