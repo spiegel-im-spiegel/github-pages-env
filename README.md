@@ -75,12 +75,31 @@ hugo version
 
 ## ローカル補助スクリプト一覧
 
+- `*.sh` スクリプトは，Linux 環境での利用を前提としている。
+
 - `new.sh`: `archetypes` を見て `hugo new --kind=<kind> <path>` を実行。
 - `build.sh`: `toptags.sh` と `tagslist.sh` 実行後に Hugo でビルド。
 - `publish.sh`: `build.sh` の後，`../text-publishd` で commit/push。
 - `tagslist.sh`: front matter の tags から `.github/workflows/tagslist.csv` を再生成。
 - `toptags.sh`: 直近 1 年の記事 tags から `data/toptags.json` を再生成。
 - `hugo_inst.sh`: `gohugoio/hugo` の最新 `hugo_extended` `.deb` で Hugo を更新。
+- `debug.sh`: `hugo server --watch --buildDrafts` で下書き込みのローカル確認サーバーを起動。
+- `div-ai-check.sh`: `div-box` のうち AI 生成・要約文らしい記述を含む候補を検出（`div-ai` への移行チェック用）。
+- `ephemeris/make-ephemeris.sh`: `toolbox calendar lookup` を使って暦データをテンプレート出力。
+
+### その他の `*.sh`（用途別）
+
+- `reviews/` 配下のスクリプトは，現在は未使用でメンテナンス対象外。
+
+- `reviews/make-review.sh`: `reviews/*.html` から `books-data review` でレビュー本文を生成する補助スクリプト。
+- `reviews/old/make-review.sh`: 旧レビュー生成フローの履歴スクリプト。
+- `reviews/old/backup-review.sh`: 旧レビュー作業用のバックアップ補助スクリプト。
+- `content/remark/2020/06/resume-with-lualatex/makepdf.sh`: 該当記事用の PDF 生成補助スクリプト。
+
+### `*.lua` スクリプトについて
+
+- `*.lua` スクリプトは Windows 環境での利用を想定している。
+- ただし現在は未使用で，メンテナンス対象外。
 
 ## 補足
 
