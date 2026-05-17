@@ -137,6 +137,7 @@ tag,count,means
 "generativity",8,"Generativity https://en.wikipedia.org/wiki/Generativity に関する話題で使うタグ"
 "hacker-ethic",8,"ハッカー倫理に関する話題で使うタグ"
 "interface",8,"プログラミングにおけるインターフェース設計または Go 言語における interface 型に関する話題で使うタグ"
+"onsen",8,"温泉施設や温泉地，入浴体験に関する話題で使うタグ"
 "openbd",8,"書籍データベース OpenBD https://openbd.jp/ に関する話題で使うタグ"
 "openssl",8,"暗号製品 OpenSSL https://www.openssl.org/ に関する話題で使うタグ"
 "sakura",8,"テキストエディタのサクラエディタ https://sakura-editor.github.io/ またはプロバイダのさくらインターネット https://www.sakura.ad.jp/ に関する話題で使うタグ"
