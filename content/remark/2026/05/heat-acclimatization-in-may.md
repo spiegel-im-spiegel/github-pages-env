@@ -4,7 +4,7 @@ date =  "2026-05-17T11:45:21+09:00"
 description = "商店街の温泉「湯屋天神」 / 松江城に来たなら..."
 isCJKLanguage = true
 image = "/remark/2026/05/heat-acclimatization-in-may/55273121373_eeaeac8e8b_k.jpg"
-tags = [ "osanpo-camera", "photography", "matsue" ]
+tags = [ "osanpo-camera", "photography", "matsue", "onsen" ]
 license = "by"
 pageType = "photo"
 

@@ -3,7 +3,7 @@ title = "雪と温泉（お散歩カメラ 2025-02-11）"
 date =  "2025-02-11T19:24:34+09:00"
 description = "久しぶり玉造温泉 / 久しぶり松江城"
 image = "/remark/2025/02/snow-and-the-hot-spring/54320641795_9a88dbe2b8_o.jpg"
-tags = [ "osanpo-camera", "photography", "matsue", "bike" ]
+tags = [ "osanpo-camera", "photography", "matsue", "bike", "onsen" ]
 license = "by"
 pageType = "photo"
 

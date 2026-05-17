@@ -3,7 +3,7 @@ title = "温泉と桜（お散歩カメラ 2024-04-07）"
 date = "2024-04-07T18:56:19+09:00"
 description = "温泉と桜 / 昼食をどこで食おう / 馬橋川の桜並木 / 神魂神社の桜 / 八重垣神社"
 image = "/remark/2024/04/07-osanpo-camera/53635652957_da4068c02d_o.jpg"
-tags = [ "osanpo-camera", "photography", "matsue", "bike", "shrine", "sakura" ]
+tags = [ "osanpo-camera", "photography", "matsue", "bike", "shrine", "sakura", "onsen" ]
 license = "by"
 pageType = "photo"
 

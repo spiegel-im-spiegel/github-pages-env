@@ -3,7 +3,7 @@ title = "やはり冬は温泉（お散歩カメラ 2024-01-14）"
 date =  "2024-01-14T18:52:28+09:00"
 description = "指先と足先がじんわりと温まっていく。"
 image = "/remark/2024/01/14-osanpo-camera/53461412192_b035894cda_o.jpg"
-tags = [ "osanpo-camera", "photography", "matsue", "bike", "shrine" ]
+tags = [ "osanpo-camera", "photography", "matsue", "bike", "shrine", "onsen" ]
 license = "by"
 pageType = "photo"
 
