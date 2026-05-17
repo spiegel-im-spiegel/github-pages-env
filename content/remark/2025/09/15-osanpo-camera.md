@@ -3,7 +3,7 @@ title = "Hour Time Yellow (お散歩カメラ 2025-09-15)"
 date =  "2025-09-15T20:38:37+09:00"
 description = "八雲温泉が閉まってるとか / 鹿島多久の湯からの... / Hour Time Yellow / さて，帰るか"
 image = "/remark/2025/09/15-osanpo-camera/54788537333_029179fc69_k.jpg"
-tags = [ "osanpo-camera", "photography", "matsue", "bike" ]
+tags = [ "osanpo-camera", "photography", "matsue", "bike", "onsen" ]
 license = "by"
 pageType = "photo"
 

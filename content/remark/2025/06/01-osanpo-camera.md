@@ -3,7 +3,7 @@ title = "鹿島多久の湯へ行こう（お散歩カメラ 2025-06-01）"
 date =  "2025-06-01T23:31:08+09:00"
 description = "今回は温泉回だ！"
 image = "/remark/2025/06/01-osanpo-camera/54559604514_f90a4c6387_o.jpg"
-tags = [ "osanpo-camera", "photography", "matsue", "bike", "ruins" ]
+tags = [ "osanpo-camera", "photography", "matsue", "bike", "ruins", "onsen" ]
 license = "by"
 pageType = "photo"
 
