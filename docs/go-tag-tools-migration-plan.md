@@ -261,7 +261,7 @@ hugo --gc --cleanDestinationDir --destination=../text-publishd || exit 1
 - 依存更新を自動化する（Dependabot または Renovate）。
 - CI に `go test` / `go vet` / `govulncheck` を組み込む。
 - リリース時にチェックサムを公開する。
-- 可能なら署名（GPG/cosign）を導入する。
+- チェックサム公開を完全性保証の必須要件とし，署名（GPG/cosign）は将来拡張の任意要件とする。
 
 ### 4. テスト資産の分離
 

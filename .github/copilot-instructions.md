@@ -55,6 +55,9 @@
     - Subcommand rename/removal.
     - Option/env compatibility break (`TOP_N`, `TAGTOOLS_*`).
     - Output format changes (`tagslist.csv`, `toptags.json`, `verify --debug` JSON keys).
+  - Integrity policy:
+    - Release checksums are mandatory.
+    - Artifact signing (GPG/cosign) is optional for future adoption.
   - Standard update flow:
     1. Run trial with `TAGTOOLS_VERSION=latest` and verify outputs (`tagslist.csv`/`toptags.json`).
     2. If no regression, update default `TAGTOOLS_VERSION` in `build.sh`, `tagslist.sh`, and `toptags.sh`.
