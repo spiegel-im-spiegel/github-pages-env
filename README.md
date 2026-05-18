@@ -105,6 +105,43 @@ hugo version
 - `*.lua` スクリプトは Windows 環境での利用を想定している。
 - ただし現在は未使用で，メンテナンス対象外。
 
+### `tagtools` 実行モード
+
+- 既定では外部配布版 `tagtools` を使用する（`go install` ベース）。
+- 実行バイナリの切替には次の環境変数を使う。
+  - `TAGTOOLS_SOURCE=external|local`（既定: `external`）
+  - `TAGTOOLS_MODULE`（既定: `github.com/spiegel-im-spiegel/tagtools`）
+  - `TAGTOOLS_VERSION`（既定: `v0.1.0`）
+  - `TAGTOOLS_BIN`（明示バイナリパスを指定する場合）
+- `build.sh` 直呼びで Go バイナリ実行する場合は `TAGTOOLS_EXEC=go` を指定する。
+- `TAGTOOLS_VERSION` の既定値は固定版（pin）を使う。`latest` は再現性が落ちるため既定にはしない。
+- 更新時だけ `latest` で検証し，問題なければ既定の固定版を更新する。
+
+#### `tagtools` 更新手順（推奨）
+
+1. 試験実行（`latest`）
+
+```bash
+TAGTOOLS_VERSION=latest ./toptags.sh
+TAGTOOLS_VERSION=latest ./tagslist.sh
+```
+
+2. 差分確認（想定どおりかを確認）
+
+```bash
+git status --short
+git diff -- .github/workflows/tagslist.csv data/toptags.json
+```
+
+3. 問題なければ既定版を更新（`build.sh`，`tagslist.sh`，`toptags.sh`）
+
+4. 通常フローで再確認
+
+```bash
+./build.sh
+./publish.sh
+```
+
 ## 補足
 
 - `publish.sh` 実行後に `.github/workflows/tagslist.csv` や `data/toptags.json` が source 側に残る場合の扱いは `.github/copilot-instructions.md` に従う。

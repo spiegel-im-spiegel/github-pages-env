@@ -43,6 +43,15 @@
 - **`toptags.sh`**: Rebuilds `data/toptags.json` from recent posts.
 - **`hugo_inst.sh`**: Updates Hugo using latest GitHub Release `.deb`.
 
+- **External `tagtools` policy**:
+  - Default source is external distribution via `go install` (`TAGTOOLS_SOURCE=external`).
+  - Default version must be pinned (`TAGTOOLS_VERSION=vX.Y.Z`), not `latest`, for reproducible builds.
+  - `latest` is allowed only for trial validation before version bump.
+  - Standard update flow:
+    1. Run trial with `TAGTOOLS_VERSION=latest` and verify outputs (`tagslist.csv`/`toptags.json`).
+    2. If no regression, update default `TAGTOOLS_VERSION` in `build.sh`, `tagslist.sh`, and `toptags.sh`.
+    3. Re-run `./build.sh` and `./publish.sh` routine checks.
+
 **Deploy Playbook**
 
 - Standard order for article publication tasks:
