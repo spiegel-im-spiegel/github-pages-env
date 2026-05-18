@@ -263,3 +263,40 @@ hugo --gc --cleanDestinationDir --destination=../text-publishd || exit 1
 
 - 問題発生時は `tagtools/orgsh/` の旧シェル実装へ即時切り戻し可能な状態を維持する。
 - 切り戻し手順（どのファイルを戻すか，どのコマンドで検証するか）を運用手順書に明記する。
+
+### 7.1 ロールバック発動条件
+
+- `build.sh`，`tagslist.sh`，`toptags.sh` のいずれかで外部配布版 `tagtools` 実行に失敗し，軽微修正で即時復旧できない場合。
+- 生成物差分が想定外で，`tagslist.csv` または `toptags.json` の互換性が維持できない場合。
+- 本番運用（記事公開前チェックを含む）で再現性のない失敗が継続する場合。
+
+### 7.2 ロールバック責任者
+
+- 一次判断者: リポジトリ運用者（owner）。
+- 実行担当: 当該作業ブランチの変更実施者。
+- 承認ルール: 一次判断者が「外部配布版利用を一時停止」と判断した時点で即時実施。
+
+### 7.3 ロールバック手順（即時）
+
+1. 外部配布版利用を停止し，旧シェル実装に戻す。
+  - `tagtools/orgsh/tagslist.sh` を `tagslist.sh` に復元。
+  - `tagtools/orgsh/toptags.sh` を `toptags.sh` に復元。
+  - `build.sh` の `TAGTOOLS_SOURCE=external` 前提ロジックを戻す（必要に応じて直前コミットを revert）。
+2. 実行権限を確認する。
+  - `chmod +x tagslist.sh toptags.sh`
+3. 生成処理とビルドを再実行する。
+  - `./toptags.sh`
+  - `./tagslist.sh`
+  - `./build.sh`
+
+### 7.4 ロールバック後の検証
+
+- `git diff -- .github/workflows/tagslist.csv data/toptags.json` で生成差分を確認する。
+- `./publish.sh` 前提の通常運用フローが通ることを確認する。
+- 問題が解消したら，ロールバック理由・再現手順・暫定対処を Issue に記録する。
+
+### 7.5 復帰条件（再切替）
+
+- 原因が特定され，外部配布版で同一条件の再現試験が通ること。
+- `TAGTOOLS_VERSION=latest` 試験と固定版試験の両方で互換性確認が完了していること。
+- 変更を段階導入（`TAGTOOLS_EXEC=go` のスモーク試験 -> 通常運用）して問題が再発しないこと。

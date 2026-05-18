@@ -52,6 +52,17 @@
     2. If no regression, update default `TAGTOOLS_VERSION` in `build.sh`, `tagslist.sh`, and `toptags.sh`.
     3. Re-run `./build.sh` and `./publish.sh` routine checks.
 
+- **External `tagtools` rollback routine**:
+  - Trigger: external `tagtools` execution fails and cannot be fixed quickly, or output compatibility breaks.
+  - Immediate action:
+    1. Restore `tagtools/orgsh/tagslist.sh` -> `tagslist.sh`.
+    2. Restore `tagtools/orgsh/toptags.sh` -> `toptags.sh`.
+    3. Ensure executable bits (`chmod +x tagslist.sh toptags.sh`).
+    4. Re-run `./toptags.sh`, `./tagslist.sh`, and `./build.sh`.
+  - Verification:
+    - Check generated diffs (`.github/workflows/tagslist.csv` and `data/toptags.json`).
+    - Confirm normal `./publish.sh` flow works.
+
 **Deploy Playbook**
 
 - Standard order for article publication tasks:
