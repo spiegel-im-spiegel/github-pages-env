@@ -47,6 +47,14 @@
   - Default source is external distribution via `go install` (`TAGTOOLS_SOURCE=external`).
   - Default version must be pinned (`TAGTOOLS_VERSION=vX.Y.Z`), not `latest`, for reproducible builds.
   - `latest` is allowed only for trial validation before version bump.
+  - SemVer handling:
+    - Breaking changes require a major version bump.
+    - Backward-compatible features use minor bump.
+    - Fixes/security-only changes use patch bump.
+  - Breaking changes include:
+    - Subcommand rename/removal.
+    - Option/env compatibility break (`TOP_N`, `TAGTOOLS_*`).
+    - Output format changes (`tagslist.csv`, `toptags.json`, `verify --debug` JSON keys).
   - Standard update flow:
     1. Run trial with `TAGTOOLS_VERSION=latest` and verify outputs (`tagslist.csv`/`toptags.json`).
     2. If no regression, update default `TAGTOOLS_VERSION` in `build.sh`, `tagslist.sh`, and `toptags.sh`.

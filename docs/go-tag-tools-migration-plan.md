@@ -232,6 +232,30 @@ hugo --gc --cleanDestinationDir --destination=../text-publishd || exit 1
 - 破壊的変更時のルール（メジャー更新）を明文化する。
 - 配布形式（GitHub Releases のバイナリ，`go install`，ソース利用）を決める。
 
+### 2.1 破壊的変更とメジャー更新ルール
+
+- 破壊的変更とみなす条件:
+  - CLI サブコマンド名の変更または削除（例: `tagslist` / `toptags` / `verify`）。
+  - 既存オプションの名前変更，削除，既定値変更（運用結果に影響するもの）。
+  - 既存環境変数互換の破壊（例: `TOP_N` の無効化，`TAGTOOLS_*` 解釈変更）。
+  - 出力フォーマット変更（`tagslist.csv` 列定義，`toptags.json` 形式，`verify --debug` JSON キー）。
+  - 非互換な実行終了コードの変更（運用スクリプト連携に影響するもの）。
+
+- メジャー更新ルール:
+  - 上記の破壊的変更を含む場合は必ずメジャーバージョンを上げる。
+  - メジャー更新時はリリースノート先頭に「Breaking Changes」を明示する。
+  - `github-pages-env` 側の `TAGTOOLS_VERSION` 既定値は，互換検証完了後にのみ更新する。
+
+- マイナー/パッチ更新ルール:
+  - 後方互換を維持する機能追加はマイナー更新。
+  - バグ修正・セキュリティ修正・内部改善のみはパッチ更新。
+
+- 導入前チェック（既存リポジトリ側）:
+  1. `TAGTOOLS_VERSION=latest` で試験実行。
+  2. `tagslist.csv` / `toptags.json` の差分確認。
+  3. `./build.sh` と `./publish.sh` のスモーク確認。
+  4. 問題なければ固定版（pin）を更新。
+
 ### 3. セキュリティ運用
 
 - 依存更新を自動化する（Dependabot または Renovate）。
