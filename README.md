@@ -64,6 +64,10 @@ hugo version
   - deploy ルーティーン，Hugo 更新手順，後処理ルール，AI ブロック運用を定義。
 - `README.md`（このファイル）
   - 作業の入口，最小手順，参照先の案内。
+- `tagtools/README.md`
+  - `tagtools` CLI の使い方（English）。
+- `tagtools/README.ja.md`
+  - `tagtools` CLI の使い方（日本語）。
 
 ### `.github/copilot-instructions.md` のセクション概要
 

@@ -6,6 +6,7 @@
 # Folders
 public/
 work/
+tagtools/bin/
 
 ## Core latex/pdflatex auxiliary files:
 *.aux

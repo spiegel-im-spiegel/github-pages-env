@@ -1,0 +1,8 @@
+github.com/goark/csvdata v0.7.3 h1:IkWPbaeIEVH6jEw0G18OTEPaE4s8RQN8a2k2ooDFx2g=
+github.com/goark/csvdata v0.7.3/go.mod h1:vhn11zhff8ORS4ZkiTJv/EHXOQqk29jKGo7MYL8Rp0I=
+github.com/goark/errs v1.3.4 h1:/+/xwF3UwXGxGGLurzBTaMMoryTBeaPfheJ1aW9cglA=
+github.com/goark/errs v1.3.4/go.mod h1:4xM7rorwYQlqh9kUhfKpC5P7VAJW2KfvuQpYnTaU0ek=
+github.com/goark/struct2pflag v0.1.0 h1:dW8FTiixvPqyVAD7CngQet/GwUa73MvEi1sm+pD6aOw=
+github.com/goark/struct2pflag v0.1.0/go.mod h1:ZqKLwjdZwS+eO2JoTs0UymudyOjyR2N8ELaiJJfZOQY=
+github.com/spf13/pflag v1.0.10 h1:4EBh2KAYBwaONj6b2Ye1GiHfwjqyROoF4RwYO+vPwFk=
+github.com/spf13/pflag v1.0.10/go.mod h1:McXfInJRrz4CZXVZOBLb0bTZqETkiAhM9Iw0y3An2Bg=
