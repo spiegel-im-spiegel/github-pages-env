@@ -62,7 +62,7 @@ Michael Riley, a team lead at Carnegie Mellon’s Software Engineering Institute
 “Modern Agile and DevOps approaches prioritize iteration, which can challenge architectural discipline,” Riley explained. “As a result, technical debt accumulates, and maintainability and system resiliency suffer.”
 {{< /fig-quote >}}
 
-日本語で言い直すと， DevOps などの現代的な開発手法は反復を優先するため，アーキテクチャの規律を保つのが難しくなり，保守性やシステムの回復力が損なわれることがあるという指摘だ。
+日本語で言い直すと， DevOps などの現代的な開発手法はイテレーションを優先するため，アーキテクチャの規律を保つのが難しくなり，保守性やシステムの回復力が損なわれることがあるという指摘だ。
 個人的には「やり方によるんじゃない？」とも思うが，孫子よろしく「兵は拙速を尊ぶ」でイテレーションを回すと，間違った方向に進んだときに修正が難しくなってしまうというのはあるかもしれない。
 似たようなことを前にどっかで聞いたな。
 [「回帰不能点」の話]({{< ref "/remark/2025/03/the-point-of-no-return.md" >}} "回帰不能点と死の行軍")だったか。
