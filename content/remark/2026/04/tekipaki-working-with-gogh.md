@@ -1,7 +1,7 @@
 +++
-title = "Gogh で てきぱきワーキング【2026-04-06 追記】"
+title = "Gogh で てきぱきワーキング【2026-05-23 追記】"
 date =  "2026-04-04T19:08:09+09:00"
-description = "gogh は OBS と組み合わせてゲーム内でストリーム配信することもできる。また YouTube などのサービスにも配信できる。 Streamplace でもできそう。"
+description = "gogh は OBS と組み合わせてゲーム内でストリーム配信することもできる。"
 isCJKLanguage = true
 image = "/images/attention/kitten.jpg"
 tags = [ "games", "ubuntu", "windows", "atproto", "linux", "media", "streaming" ]
@@ -36,10 +36,13 @@ pageType = "text"
 - ToDO リスト，日課，日記の記入・管理
 - 複数のアバターを作成可能（最大9アバター）
   - DLC でコラボレーションアバターも提供されている
-- 複数の部屋を作成可能（最大15部屋）
+- 複数の部屋を作成可能（最大18部屋）
   - 大人数が入れるLサイズ部屋も作成可能
+  - 壁や天井のない野外ルームもあり
+  - ルームデザインを公開・共有可能（[v3.0.0] より）
 - ルームアイテムへのWebカメラストリーミング
   - OBS の仮想カメラにも対応（[後述](#obs "gogh と OBS")）
+- YouTube 連携（[v3.0.0] より）
 - お絵描きチャット（通常のチャット機能，音声チャット機能はない）
 - ローカル音楽プレイリスト
 
@@ -105,7 +108,10 @@ pageType = "text"
 - [gogh ゴッホの感想｜環境音とポモドーロで作業に集中｜瀧本祐ヰ](https://note.com/yuwitakimoto/n/n4745e154a187)
 - [Xユーザーのgogh公式｜Steam版発売中＆アプリ配信中さん: 「[Steam版 Tips] gogh × OBSで「gogh内作業配信」する方法をまとめました！...](https://x.com/goghJPN/status/1920318480496173191)
 
+- [作業支援ゲーム Gogh v3 がリリースされた][v3.0.0]
+
 [gogh]: https://gogh.gg/ "gogh - Focus with Your Avatar"
+[v3.0.0]: {{< ref "/release/2026/05/gogh-v3-is-released.md" >}} "作業支援ゲーム Gogh v3 がリリースされた"
 [OBS]: https://obsproject.com/ "Open Broadcaster Software | OBS"
 [Steam]: https://store.steampowered.com/ "Welcome to Steam"
 [Proton]: https://github.com/ValveSoftware/Proton "ValveSoftware/Proton: Compatibility tool for Steam Play based on Wine and additional components"
