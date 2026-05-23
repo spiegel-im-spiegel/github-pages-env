@@ -31,11 +31,15 @@ draft = false
 すべての Unix 派生版が載っているわけではないが，大まかな系譜は見て取れるだろう。
 
 研究所版 Unix が系譜の根であり，そこから大きくバークレー版（Berkeley Software Distribution; BSD）と商用版（System III & V）に分かれる。
-両者は同じ祖先を持ちながら互換性がなく，また AT&T が BSD に対して知財権侵害で訴えたこともあり（BSD は AT&T からのコードを削除・書き換え，最終的に勝訴する）まるで似て非なるものとなった。
+両者は同じ祖先を持ちながら互換性がなく，また AT&T が BSD に対して知財権侵害で訴えた[^ip1] こともあり（BSD は AT&T からのコードを削除・書き換え，泥沼となる）まるで似て非なるものとなった。
+
+[^ip1]: 『[カーニハンのUNIX回顧録]』では Oracle vs. Google (Android/Java) の訴訟についても紹介している。この辺は割と真面目にブログ記事にしてるので「[Google vs Oracle の訴訟の行方（最終章）]({{< ref "/remark/2021/03/google-vs-oracle-3.md" >}})」から遡って読んでみて。そもそもプログラムコードに著作権があるってのは（歴史的には）比較的新しい考え方なんだよ。 WCT (WIPO Copyright Treaty) が採択されたのが1996年。発効したのが2002年である。
 
 ### Xenix
 
-読んで面白かったのは Microsoft が1980年代に Xenix と呼ぶ Unix 派生バージョンを供給してたことで，1980年代後半の Unix インストールマシン台数ではこれが一番多かったらしい。
+読んで面白かったのは Microsoft が1980年代に Xenix と呼ぶ Unix 派生バージョンを供給してたことで[^x1]，1980年代後半の Unix インストールマシン台数ではこれが一番多かったらしい。
+
+[^x1]: 「Microsoft の Xenix」という部分を見て「銭ックス」と脳内変換したのは私だけではない筈だ！
 
 {{< fig-quote type="markdown" title="『カーニハンのUNIX回顧録』 p.172" link="https://www.maruzen-publishing.co.jp/book/b10152370.html" >}}
 もし Microsoft が自身の MS-DOS の代わりに Xenix を推していたら，そして，もし AT&T が見かけによらず取引しやすかったなら，今日の世界はどれだけ違っただろうか．
