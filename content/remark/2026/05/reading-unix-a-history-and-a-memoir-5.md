@@ -4,7 +4,7 @@ date =  "2026-05-23T16:03:30+09:00"
 description = "『カーニハンのUNIX回顧録』オンライン読書会第5回のメモ。Unix 年表，Xenix，Minix/Linux，Unix 哲学を振り返る。"
 isCJKLanguage = true
 image = "/images/attention/kitten.jpg"
-tags = [ "book", "unix", "engineering" ]
+tags = [ "book", "unix", "engineering", "linux" ]
 pageType = "text"
 draft = false
 
