@@ -7,6 +7,7 @@
 - **Writing Style**: Rules for Japanese punctuation and sentence style.
 - **Local Commands**: Command reference for daily authoring and maintenance tasks.
 - **Deploy Playbook**: Standard publishing workflow, checks, and post-deploy handling.
+- **Osanpo Metadata (`data/osanpo.toml`)**: Purpose and commit handling rules for top-page photo metadata.
 - **Archetypes and Front Matter**: Post scaffold behavior and front matter conventions.
 - **AI Block Rules**: When and how to use `div-ai` and related migration notes.
 
@@ -89,16 +90,23 @@
 - After deploy, if `.github/workflows/tagslist.csv` and/or `data/toptags.json` remain uncommitted in `text`, handle them in a separate commit.
 - For that separate commit, choose the commit message automatically and do not push.
 
-- Hugo upgrade and redeploy routine:
-  1. Check both repositories first (`git status --short` in `text` and `../text-publishd`).
-  2. Check current Hugo version (`hugo version`).
-  3. Run `./hugo_inst.sh` to install the latest release.
-  4. If sudo password is requested, continue interactively and complete the installer.
-  5. Verify installed version again (`hugo version`).
-  6. Run `./publish.sh` to rebuild and deploy with the new Hugo.
-  7. Re-check both repositories after deploy and report remaining local changes.
-  8. If `text` has only generated tag artifacts after deploy, create a separate local commit and do not push.
-  9. If asked whether publish changes are version-only, review the latest commit with `git show --numstat` and inspect outlier files before concluding.
+**Osanpo Metadata (`data/osanpo.toml`)**
+
+- `data/osanpo.toml` stores the top-page representative photo metadata for `osanpo-camera` posts.
+- If an article includes the `osanpo-camera` tag, `data/osanpo.toml` may change together with the article.
+- When article changes and `data/osanpo.toml` are clearly linked, include them in the same source commit.
+
+**Hugo Upgrade and Redeploy Routine**
+
+1. Check both repositories first (`git status --short` in `text` and `../text-publishd`).
+2. Check current Hugo version (`hugo version`).
+3. Run `./hugo_inst.sh` to install the latest release.
+4. If sudo password is requested, continue interactively and complete the installer.
+5. Verify installed version again (`hugo version`).
+6. Run `./publish.sh` to rebuild and deploy with the new Hugo.
+7. Re-check both repositories after deploy and report remaining local changes.
+8. If `text` has only generated tag artifacts after deploy, create a separate local commit and do not push.
+9. If asked whether publish changes are version-only, review the latest commit with `git show --numstat` and inspect outlier files before concluding.
 
 **Archetypes and Front Matter**
 
