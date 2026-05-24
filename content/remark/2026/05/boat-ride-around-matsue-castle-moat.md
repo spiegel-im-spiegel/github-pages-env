@@ -14,7 +14,7 @@ pageType = "photo"
   jsx = false
 +++
 
-何となく空気が湿気ぽくなって，梅雨入りが近いのかなぁと感じる今日この頃，みなさまいかがお過ごしでしょうか。
+何となく空気が{{% ruby "しけ" %}}湿気{{% /ruby %}}ぽくなって，梅雨入りが近いのかなぁと感じる今日この頃，みなさまいかがお過ごしでしょうか。
 
 今週は自宅に引きこもってたので，かなり運動不足。
 というわけで，今日はたくさん歩こう。
@@ -93,6 +93,7 @@ HONDA エンジンだ。
 {{< fig-img src="./55290067080_02efa4dc56_e.jpg" title="堀川遊覧船（亀田橋） | Flickr" link="https://www.flickr.com/photos/spiegel/55290067080/" >}}
 
 おあとがよろしいようで。
+今日は13K歩歩けた。
 
 [堀川遊覧船]: https://www.matsue-horikawameguri.jp/ "ぐるっと松江堀川めぐり"
 [島根県立図書館]: https://www.library.pref.shimane.lg.jp/ "島根県立図書館"
