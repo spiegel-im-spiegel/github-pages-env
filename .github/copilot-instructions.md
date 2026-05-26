@@ -108,6 +108,12 @@
 8. If `text` has only generated tag artifacts after deploy, create a separate local commit and do not push.
 9. If asked whether publish changes are version-only, review the latest commit with `git show --numstat` and inspect outlier files before concluding.
 
+- Minor-version upgrade caution checklist:
+  1. If `./publish.sh` fails after Hugo upgrade, inspect the full error first and prioritize compatibility fixes in `hugo.toml` before retrying.
+  2. For security-policy errors, check `security.allowContent` and ensure both markdown and required legacy formats (for example `text/html`) are explicitly allowed.
+  3. After successful publish, sample-check changed files in `../text-publishd` and verify whether diffs are mostly generator-version updates or formatting-only changes.
+  4. Summarize any outliers (content-level changes, missing pages, broken links, missing assets) before concluding the upgrade impact is safe.
+
 **Archetypes and Front Matter**
 
 - Front matter is generated according to `archetypes/*.md` (for example, `archetypes/remark.md`).
