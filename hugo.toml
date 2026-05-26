@@ -41,3 +41,6 @@ enableGitInfo = true
 
 [taxonomies]
   tags = "tags"
+
+[security]
+  allowContent = ["^text/markdown$", "^text/html$"]
