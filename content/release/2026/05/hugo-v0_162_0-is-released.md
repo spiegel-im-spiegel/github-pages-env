@@ -4,7 +4,7 @@ date =  "2026-05-27T16:01:18+09:00"
 description = "このバージョンから既定で HTML フォーマットの入力ファイルを拒否するようになった。"
 isCJKLanguage = true
 image = "/images/attention/tools.png"
-tags  = [ "tools", "site", "hugo", "security", "risk" ]
+tags  = [ "tools", "site", "hugo", "security", "risk", "management" ]
 pageType = "text"
 
 [scripts]
