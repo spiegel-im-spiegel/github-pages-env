@@ -100,8 +100,8 @@
 
 1. Check both repositories first (`git status --short` in `text` and `../text-publishd`).
 2. Check current Hugo version (`hugo version`).
-3. Run `./hugo_inst.sh` to install the latest release.
-4. If sudo password is requested, continue interactively and complete the installer.
+3. Ask the user to run `./hugo_inst.sh` in their local terminal to install the latest release.
+4. Do not run `./hugo_inst.sh` via Copilot agent because sudo password prompts may fail in agent-managed sessions.
 5. Verify installed version again (`hugo version`).
 6. Run `./publish.sh` to rebuild and deploy with the new Hugo.
 7. Re-check both repositories after deploy and report remaining local changes.
