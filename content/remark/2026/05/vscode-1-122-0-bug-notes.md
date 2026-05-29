@@ -21,6 +21,7 @@ pageType = "text"
 
 - [[Bug]: Unwanted xdg-desktop-portal screen sharing dialog on startup (Wayland, Electron 39) · Issue #317955 · microsoft/vscode](https://github.com/microsoft/vscode/issues/317955)
 - [getDisplayMedia called at workbench boot → KDE screen-share dialog on every new window · Issue #317948 · microsoft/vscode](https://github.com/microsoft/vscode/issues/317948)
+- [Last update asks for screen sharing permission every time · Issue #318697 · microsoft/vscode](https://github.com/microsoft/vscode/issues/318697)
 
 これを回避する方法として2つ挙がっている。
 
@@ -61,6 +62,25 @@ $ sudo apt-mark unhold code
 ```
 
 Issue を眺める限り単純じゃないっぽいが，次バージョンで修正されることを期待しよう。
+
+## 【2026-05-29 追記】
+
+似た isuue が複数立ったのでまとめられたようだ。
+現在生きてる issue はこっち。
+
+- [Last update asks for screen sharing permission every time · Issue #318697 · microsoft/vscode](https://github.com/microsoft/vscode/issues/318697)
+
+原因らしきものが見つかったようだ。
+それにしても，罵詈雑言の嵐だな（笑）
+
+{{< fig-quote type="makedown" title="Last update asks for screen sharing permission every time" link="https://github.com/microsoft/vscode/issues/318697" lang="en" >}}
+👋 This is caused by a new flow for reporting vscode issues (gated behind a setting issueReporter.wizard.enabled). Unfortunately there is a small snippet of code that executes outside the gated setting. Despite us having a test plan item for linux, this has slipped our testing because the test plan item was mistakenly done on WSL and not on a proper linux distribution. I apologize for this regression. We unfortunately cannot "pause"/"freeze" an update on linux due to the way package managers work, so we are now working on a fix and a .1 release.
+{{< /fig-quote >}}
+
+というわけで，今回の現象は別のバグが発生して問題を報告しようとし，その際に画面共有の許可を求めるコードが実行されてしまうことが原因だったようだ。
+なんだそれ？ ヤバくね？
+
+とにかく，今回のケースについては修正されるまでは 1.121.0 にダウングレードしておくのが正解のようだ。
 
 ## 【おまけ】 Agents Window
 
