@@ -111,7 +111,7 @@ hugo version
 - 実行バイナリの切替には次の環境変数を使う。
   - `TAGTOOLS_SOURCE=external|local`（既定: `external`）
   - `TAGTOOLS_MODULE`（既定: `github.com/spiegel-im-spiegel/tagtools`）
-  - `TAGTOOLS_VERSION`（既定: `v0.3.0`）
+  - `TAGTOOLS_VERSION`（既定: `v1.0.0`）
   - `TAGTOOLS_BIN`（明示バイナリパスを指定する場合）
   - `TOP_N`（`toptags` の上位件数を指定する互換環境変数）
   - `TOPTAGS_WINDOW`（`toptags` の走査期間を指定。例: `1y`, `6m`）
