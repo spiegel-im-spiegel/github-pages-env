@@ -1,5 +1,5 @@
 +++
-title = "VS Code 1.122.0 の不具合に関する覚え書き"
+title = "VS Code 1.122.0 の不具合に関する覚え書き【解消済み】"
 date =  "2026-05-28T14:42:28+09:00"
 description = "応急処置として 1.121.0 にダウングレードするほうが無難"
 isCJKLanguage = true
@@ -12,6 +12,47 @@ pageType = "text"
   mermaidjs = false
   jsx = false
 +++
+
+## 【2026-05-30 追記】
+
+今回の不具合は 1.122.1 で修正されたようだ。
+
+APT で `code` を保留にしている場合は
+
+```text
+$ sudo apt-mark unhold code
+$ sudo apt update
+$ sudo apt upgrade
+```
+
+とすればスムーズに更新できるだろう。
+
+今回のこれは Linux ユーザの評判をかなり落としたんじゃないかねぇ。
+起動していきなり画面共有の許可ダイアログが出るのは流石に拙かった。
+私もビビったもん。
+
+Issue スレッドも罵詈雑言の嵐だったし。
+
+## 【2026-05-29 追記】
+
+似た isuue が複数立ったのでまとめられたようだ。
+現在生きてる issue はこっち。
+
+- [Last update asks for screen sharing permission every time · Issue #318697 · microsoft/vscode](https://github.com/microsoft/vscode/issues/318697)
+
+原因らしきものが見つかったようだ。
+それにしても，罵詈雑言の嵐だな（笑）
+
+{{< fig-quote type="markdown" title="Last update asks for screen sharing permission every time" link="https://github.com/microsoft/vscode/issues/318697" lang="en" >}}
+👋 This is caused by a new flow for reporting vscode issues (gated behind a setting issueReporter.wizard.enabled). Unfortunately there is a small snippet of code that executes outside the gated setting. Despite us having a test plan item for linux, this has slipped our testing because the test plan item was mistakenly done on WSL and not on a proper linux distribution. I apologize for this regression. We unfortunately cannot "pause"/"freeze" an update on linux due to the way package managers work, so we are now working on a fix and a .1 release.
+{{< /fig-quote >}}
+
+というわけで，今回の現象は別のバグが発生して問題を報告しようとし，その際に画面共有の許可を求めるコードが実行されてしまうことが原因だったようだ。
+なんだそれ？ ヤバくね？
+
+とにかく，今回のケースについては修正されるまでは 1.121.0 にダウングレードしておくのが正解のようだ。
+
+## VS Code 1.122.0 の不具合に関する覚え書き
 
 先程 [VS Code] 1.122.0 がリリースされ，自宅マシンの Ubuntu 環境に APT でアップデートしたのだが，起動時に変なダイアログが出るようになった。
 
@@ -62,25 +103,6 @@ $ sudo apt-mark unhold code
 ```
 
 Issue を眺める限り単純じゃないっぽいが，次バージョンで修正されることを期待しよう。
-
-## 【2026-05-29 追記】
-
-似た isuue が複数立ったのでまとめられたようだ。
-現在生きてる issue はこっち。
-
-- [Last update asks for screen sharing permission every time · Issue #318697 · microsoft/vscode](https://github.com/microsoft/vscode/issues/318697)
-
-原因らしきものが見つかったようだ。
-それにしても，罵詈雑言の嵐だな（笑）
-
-{{< fig-quote type="markdown" title="Last update asks for screen sharing permission every time" link="https://github.com/microsoft/vscode/issues/318697" lang="en" >}}
-👋 This is caused by a new flow for reporting vscode issues (gated behind a setting issueReporter.wizard.enabled). Unfortunately there is a small snippet of code that executes outside the gated setting. Despite us having a test plan item for linux, this has slipped our testing because the test plan item was mistakenly done on WSL and not on a proper linux distribution. I apologize for this regression. We unfortunately cannot "pause"/"freeze" an update on linux due to the way package managers work, so we are now working on a fix and a .1 release.
-{{< /fig-quote >}}
-
-というわけで，今回の現象は別のバグが発生して問題を報告しようとし，その際に画面共有の許可を求めるコードが実行されてしまうことが原因だったようだ。
-なんだそれ？ ヤバくね？
-
-とにかく，今回のケースについては修正されるまでは 1.121.0 にダウングレードしておくのが正解のようだ。
 
 ## 【おまけ】 Agents Window
 
