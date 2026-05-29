@@ -54,7 +54,7 @@
     - Fixes/security-only changes use patch bump.
   - Breaking changes include:
     - Subcommand rename/removal.
-    - Option/env compatibility break (`TOP_N`, `TAGTOOLS_*`).
+    - Option/env compatibility break (`TOP_N`, `TOPTAGS_WINDOW`, `TAGTOOLS_*`).
     - Output format changes (`tagslist.csv`, `toptags.json`, `verify --debug` JSON keys).
   - Integrity policy:
     - Release checksums are mandatory.

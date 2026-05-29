@@ -11,7 +11,7 @@ DEFAULT_BIN="$ROOT_DIR/tagtools/bin/tagtools"
 TAGTOOLS_BIN="${TAGTOOLS_BIN:-$DEFAULT_BIN}"
 TAGTOOLS_SOURCE="${TAGTOOLS_SOURCE:-external}"
 TAGTOOLS_MODULE="${TAGTOOLS_MODULE:-github.com/spiegel-im-spiegel/tagtools}"
-TAGTOOLS_VERSION="${TAGTOOLS_VERSION:-v0.1.0}"
+TAGTOOLS_VERSION="${TAGTOOLS_VERSION:-v0.3.0}"
 
 if [ "$TAGTOOLS_EXEC" = "go" ]; then
 	if [ ! -x "$TAGTOOLS_BIN" ]; then

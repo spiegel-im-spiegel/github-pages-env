@@ -237,7 +237,7 @@ hugo --gc --cleanDestinationDir --destination=../text-publishd || exit 1
 - 破壊的変更とみなす条件:
   - CLI サブコマンド名の変更または削除（例: `tagslist` / `toptags` / `verify`）。
   - 既存オプションの名前変更，削除，既定値変更（運用結果に影響するもの）。
-  - 既存環境変数互換の破壊（例: `TOP_N` の無効化，`TAGTOOLS_*` 解釈変更）。
+  - 既存環境変数互換の破壊（例: `TOP_N` / `TOPTAGS_WINDOW` の無効化，`TAGTOOLS_*` 解釈変更）。
   - 出力フォーマット変更（`tagslist.csv` 列定義，`toptags.json` 形式，`verify --debug` JSON キー）。
   - 非互換な実行終了コードの変更（運用スクリプト連携に影響するもの）。
 

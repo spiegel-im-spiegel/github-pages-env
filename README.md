@@ -111,8 +111,10 @@ hugo version
 - 実行バイナリの切替には次の環境変数を使う。
   - `TAGTOOLS_SOURCE=external|local`（既定: `external`）
   - `TAGTOOLS_MODULE`（既定: `github.com/spiegel-im-spiegel/tagtools`）
-  - `TAGTOOLS_VERSION`（既定: `v0.1.0`）
+  - `TAGTOOLS_VERSION`（既定: `v0.3.0`）
   - `TAGTOOLS_BIN`（明示バイナリパスを指定する場合）
+  - `TOP_N`（`toptags` の上位件数を指定する互換環境変数）
+  - `TOPTAGS_WINDOW`（`toptags` の走査期間を指定。例: `1y`, `6m`）
 - `build.sh` 直呼びで Go バイナリ実行する場合は `TAGTOOLS_EXEC=go` を指定する。
 - `TAGTOOLS_VERSION` の既定値は固定版（pin）を使う。`latest` は再現性が落ちるため既定にはしない。
 - 更新時だけ `latest` で検証し，問題なければ既定の固定版を更新する。
@@ -124,6 +126,7 @@ hugo version
 ```bash
 TAGTOOLS_VERSION=latest ./toptags.sh
 TAGTOOLS_VERSION=latest ./tagslist.sh
+TOPTAGS_WINDOW=6m TAGTOOLS_VERSION=latest ./toptags.sh
 ```
 
 2. 差分確認（想定どおりかを確認）
