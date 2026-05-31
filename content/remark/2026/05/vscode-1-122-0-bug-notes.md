@@ -1,7 +1,7 @@
 +++
 title = "VS Code 1.122.0 の不具合に関する覚え書き【解消済み】"
 date =  "2026-05-28T14:42:28+09:00"
-description = "1.121.1 で解消済み"
+description = "1.122.1 で解消済み"
 isCJKLanguage = true
 image = "/images/attention/kitten.jpg"
 tags = [ "editor", "vscode", "ubuntu", "linux" ]
