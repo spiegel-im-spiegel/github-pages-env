@@ -4,7 +4,7 @@ date =  "2026-05-31T12:43:36+09:00"
 description = "既に AI サービスはメタクソ化が始まってると思う。早めに逃げれるようにしておかないと。"
 isCJKLanguage = true
 image = "/images/attention/kitten.jpg"
-tags = [ "artificial-intelligence" ]
+tags = [ "artificial-intelligence", "vscode", "github", "tools", "engineering" ]
 pageType = "text"
 
 [scripts]

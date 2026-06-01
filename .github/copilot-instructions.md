@@ -14,6 +14,7 @@
 **Writing Style**
 
 - In Japanese sentences, use `，` for commas and `。` for periods.
+- Keep ruby for `追従` as `ついしょう` when the intent is "sycophancy/obsequious following"; this is a rare, intentional reading and should not be auto-corrected to `ついじゅう`.
 
 **Local Commands**
 
