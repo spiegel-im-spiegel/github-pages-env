@@ -3,7 +3,7 @@ title = "キャラクタの権利"
 date =  "2020-10-12T11:17:49+09:00"
 description = "これからこういった「言いがかり」は増えてくるだろうし，その中には本当に非親告罪として訴訟の対象になることもあるだろう。"
 image = "/images/attention/kitten.jpg"
-tags = [ "copyright", "derivative-works", "moral-rights", "intellectual-property" ]
+tags = [ "copyright", "derivative-works", "moral-rights", "intellectual-property", "comic" ]
 pageType = "text"
 
 [scripts]

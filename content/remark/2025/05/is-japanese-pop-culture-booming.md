@@ -3,7 +3,7 @@ title = "「日本はポップカルチャー大盛況」なの？"
 date =  "2025-05-25T12:55:40+09:00"
 description = "日本のポップカルチャーは「ガラパゴス」なの？ / 「日本はポップカルチャー大盛況」ってホンマ？ / 機械に「好きなこと」をさせるのは間違ってる？"
 image = "/images/attention/kitten.jpg"
-tags = [ "code", "market" ]
+tags = [ "code", "market", "comic" ]
 pageType = "text"
 
 [scripts]

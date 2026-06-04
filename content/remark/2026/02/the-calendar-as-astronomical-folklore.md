@@ -3,7 +3,7 @@ title = "天文民俗学としての暦 — 『こよみごのみ』を読む"
 date =  "2026-02-07T16:14:44+09:00"
 description = "暦の擬人化手法も含めて面白い作品"
 image = "/images/attention/kitten.jpg"
-tags = [ "book", "astronomy", "folklore", "calendar", "ephemeris" ]
+tags = [ "book", "comic", "astronomy", "folklore", "calendar", "ephemeris" ]
 pageType = "text"
 
 [scripts]
