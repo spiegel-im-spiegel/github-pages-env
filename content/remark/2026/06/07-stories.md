@@ -100,8 +100,11 @@ From now on, we track your Fediverse moves and automatically migrate your bridge
 
 どうなるやら。
 
-[GitHub Copilot]: https://github.com/features/copilot "GitHub Copilot · Your AI pair programmer · GitHub"
+### ブックマーク
 
+- [オープンソースブラウザ「Ladybird」が外部コード受け入れを停止、AI時代の開発体制へ転換](https://gigazine.net/news/20260608-ladybird-change-develop/)
+
+[GitHub Copilot]: https://github.com/features/copilot "GitHub Copilot · Your AI pair programmer · GitHub"
 
 ## 欧州は脱米国に突き進むのか {#breakup}
 
