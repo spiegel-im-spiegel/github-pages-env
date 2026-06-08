@@ -2,6 +2,7 @@
 *.bak
 .hugo_build.lock
 .vscode/mcp.json
+.vscode/
 
 # Folders
 public/
