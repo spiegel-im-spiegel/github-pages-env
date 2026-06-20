@@ -209,6 +209,7 @@ tag,count,means
 "filepath",4,"Go 言語の filepath パッケージに関する話題で使うタグ"
 "flatpak",4,"Flatpak https://flatpak.org/ に関する話題で使うタグ"
 "git-extensions",4,"バージョン管理ツール Git Extensions https://gitextensions.github.io/ に関する話題で使うタグ"
+"gogh",4,"作業支援ゲーム gogh に関する話題で使うタグ"
 "hayabusa2",4,"惑星探査機 はやぶさ2 に関する話題で使うタグ"
 "ingress",4,"ゲーム Ingress に関する話題で使うタグ"
 "instagram",4,"Instagram に関する話題で使うタグ"
