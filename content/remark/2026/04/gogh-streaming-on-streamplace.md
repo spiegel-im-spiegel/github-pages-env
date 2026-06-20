@@ -4,7 +4,7 @@ date =  "2026-04-12T15:23:32+09:00"
 description = "Streamplace とは / Streamplace 側の準備 / OBS Studio 側の準備と配信の開始 / スマホ用アプリ"
 isCJKLanguage = true
 image = "/images/attention/kitten.jpg"
-tags = [ "atproto", "media", "tools", "bluesky", "web", "streaming" ]
+tags = [ "atproto", "media", "tools", "bluesky", "web", "streaming", "gogh" ]
 pageType = "text"
 
 [scripts]

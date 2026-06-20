@@ -4,7 +4,7 @@ date =  "2026-04-04T19:08:09+09:00"
 description = "gogh は OBS と組み合わせてゲーム内でストリーム配信することもできる。"
 isCJKLanguage = true
 image = "/images/attention/kitten.jpg"
-tags = [ "games", "ubuntu", "windows", "atproto", "linux", "media", "streaming" ]
+tags = [ "games", "ubuntu", "windows", "atproto", "linux", "media", "streaming", "gogh" ]
 pageType = "text"
 
 [scripts]
