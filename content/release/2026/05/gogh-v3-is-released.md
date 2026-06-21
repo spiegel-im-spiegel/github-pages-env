@@ -4,7 +4,7 @@ date =  "2026-05-03T15:03:51+09:00"
 description = "Watch Party 機能およびフェイストラッキング機能の紹介。最後に VTuber ごっこもやってみた（笑）"
 isCJKLanguage = true
 image = "/release/2026/05/gogh-v3-is-released/obs-studio.png"
-tags  = [ "games", "streaming" ]
+tags  = [ "games", "streaming", "gogh" ]
 pageType = "text"
 
 [scripts]
