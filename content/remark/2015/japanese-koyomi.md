@@ -3,7 +3,7 @@ date = "2015-09-21T21:43:15+09:00"
 update = "2018-12-12T15:48:49+09:00"
 description = "この記事は2004年初出の記事を再構成したものです。"
 draft = false
-tags = ["astronomy", "history", "calendar", "ephemeris"]
+tags = ["astronomy", "history", "calendar", "ephemeris", "koyomi"]
 title = "「暦」日本史 （再掲載）"
 
 [scripts]
@@ -127,3 +127,5 @@ title = "「暦」日本史 （再掲載）"
 - [神武天皇即位紀元 - Wikipedia](https://ja.wikipedia.org/wiki/%E7%A5%9E%E6%AD%A6%E5%A4%A9%E7%9A%87%E5%8D%B3%E4%BD%8D%E7%B4%80%E5%85%83)
 - [朔旦冬至と授時 — Baldanders.info](https://baldanders.info/blog/000784/)
 - [暦の改訂（DE405 から DE430 へ） — Baldanders.info](https://baldanders.info/blog/000840/)
+
+※ 日本独自の暦・暦象に関する話題は [koyomi]({{< rlnk "/tags/koyomi/" >}}) タグを参照のこと。

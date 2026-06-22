@@ -3,7 +3,7 @@ title = "旧暦の閏月と旧暦2033年問題"
 date =  "2025-07-19T22:44:42+09:00"
 description = "2025年の旧暦では「閏六月」が入る"
 image = "/images/attention/kitten.jpg"
-tags = [ "astronomy", "ephemeris", "calendar" ]
+tags = [ "astronomy", "ephemeris", "calendar", "koyomi" ]
 pageType = "text"
 
 [scripts]
@@ -165,15 +165,9 @@ www.nao.ac.jp/astro/sky/20...<br><br><a href="https://bsky.app/profile/did:plc:t
 
 - [伝統的七夕（2025年8月）  | 国立天文台(NAOJ)](https://www.nao.ac.jp/astro/sky/2025/08-topics06.html)
 
-- [「暦」日本史 （再掲載）]({{< ref "/remark/2015/japanese-koyomi.md" >}})
-- [『猫暦』を読んだ]({{< ref "/remark/2016/05/nekoyomi.md" >}})
-- [冬至に関する与太話]({{< ref "/remark/2017/12/winter-solstice.md" >}})
-- [「新暦七夕」なるものは存在しない]({{< ref "/remark/2019/06/traditional-tanabata.md" >}})
-- [立春も動き出す]({{< ref "/remark/2021/01/the-beginning-of-spring.md" >}})
-- [お彼岸]({{< ref "/remark/2022/03/ohigan.md" >}})
-- [第五の季節：土用]({{< ref "/remark/2022/04/doyo-period.md" >}})
-- [春夏秋冬は「四季」ではない？]({{< ref "/remark/2025/03/four-seasons.md" >}})
 - [地球が遠日点を通過する話]({{< ref "/remark/2025/06/passage-through-aphelion.md" >}})
+
+※ 日本独自の暦・暦象に関する話題は [koyomi]({{< rlnk "/tags/koyomi/" >}}) タグを参照のこと。
 
 [旧暦2033年問題]: https://eco.mtk.nao.ac.jp/koyomi/topics/html/topics2014.html "旧暦2033年問題について - 国立天文台暦計算室"
 

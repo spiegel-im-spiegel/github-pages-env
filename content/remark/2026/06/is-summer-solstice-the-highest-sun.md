@@ -4,7 +4,7 @@ date =  "2026-06-21T23:55:27+09:00"
 description = "本当に？"
 isCJKLanguage = true
 image = "/images/attention/kitten.jpg"
-tags = [ "astronomy", "ephemeris", "calendar" ]
+tags = [ "astronomy", "ephemeris", "calendar", "koyomi" ]
 pageType = "text"
 
 [scripts]
@@ -144,16 +144,7 @@ h_\mathrm{sun} = 90\,\tcdegree - \phi + \delta_\mathrm{sun}
 - [暦Wiki/地平座標系 - 国立天文台暦計算室](https://eco.mtk.nao.ac.jp/koyomi/wiki/C3CFCABFBAC2C9B8B7CF.html)
 - [太陽の南中高度はどうやって計算する？ | 国立天文台(NAOJ)](https://www.nao.ac.jp/faq/a0109.html)
 
-- [「暦」日本史 （再掲載）]({{< ref "/remark/2015/japanese-koyomi.md" >}})
-- [『猫暦』を読んだ]({{< ref "/remark/2016/05/nekoyomi.md" >}})
-- [冬至に関する与太話]({{< ref "/remark/2017/12/winter-solstice.md" >}})
-- [「新暦七夕」なるものは存在しない]({{< ref "/remark/2019/06/traditional-tanabata.md" >}})
-- [立春も動き出す]({{< ref "/remark/2021/01/the-beginning-of-spring.md" >}})
-- [お彼岸]({{< ref "/remark/2022/03/ohigan.md" >}})
-- [第五の季節：土用]({{< ref "/remark/2022/04/doyo-period.md" >}})
-- [春夏秋冬は「四季」ではない？]({{< ref "/remark/2025/03/four-seasons.md" >}})
-- [地球が遠日点を通過する話]({{< ref "/remark/2025/06/passage-through-aphelion.md" >}})
-- [旧暦の閏月と旧暦2033年問題]({{< ref "/remark/2025/07/leap-month.md" >}})
+※ 日本独自の暦・暦象に関する話題は [koyomi]({{< rlnk "/tags/koyomi/" >}}) を参照のこと。
 
 [Kagi Assistant]: https://assistant.kagi.com/ "Kagi Assistant"
 

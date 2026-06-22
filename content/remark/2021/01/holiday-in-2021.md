@@ -3,7 +3,7 @@ title = "2021年の祝日・休日に関する注意喚起"
 date =  "2021-01-05T18:46:07+09:00"
 description = "職場で知らなかった人が割とおられたので改めて。"
 image = "/images/attention/kitten.jpg"
-tags = [ "calendar", "naoj" ]
+tags = [ "calendar", "naoj", "koyomi" ]
 pageType = "text"
 
 [scripts]

@@ -3,7 +3,7 @@ title = "冬至に関する与太話"
 date =  "2017-12-22T15:54:39+09:00"
 description = "現在の冬至の定義は「太陽が黄道上の黄経 270° の位置を通過する日」である。"
 image = "https://upload.wikimedia.org/wikipedia/commons/b/be/Celestial_sphere%28in_Japanese%29.png"
-tags = ["astronomy", "ephemeris"]
+tags = ["astronomy", "ephemeris", "koyomi"]
 
 [scripts]
   mathjax = true
@@ -52,8 +52,9 @@ Facebook の TL に書き散らしたものを再構成してお送りする。
 - [[鏡] Analemma （アナレンマ） -- 戯れ言++](https://baldanders.info/blog/000007/)
 - [朔旦冬至と授時 — Baldanders.info](https://baldanders.info/blog/000784/)
 - [暦の改訂と天文単位の再定義（再掲載）]({{< ref "/remark/2018/12/from-de405-to-de430.md" >}})
-- [「暦」日本史 （再掲載）]({{< ref "/remark/2015/japanese-koyomi.md" >}})
-- [『猫暦』を読んだ]({{< ref "/remark/2016/05/nekoyomi.md" >}})
+
+※ 日本独自の暦・暦象に関する話題は [koyomi]({{< rlnk "/tags/koyomi/" >}}) タグを参照のこと。
+
 
 ## 参考図書
 

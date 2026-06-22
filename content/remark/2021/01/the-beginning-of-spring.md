@@ -3,7 +3,7 @@ title = "立春も動き出す"
 date =  "2021-01-28T19:49:44+09:00"
 description = "時事ネタとして何故か最近よく聞こえてくるので，このブログでも便乗しておく（笑） "
 image = "/images/attention/kitten.jpg"
-tags = [ "calendar", "astronomy", "ephemeris" ]
+tags = [ "calendar", "astronomy", "ephemeris", "koyomi" ]
 pageType = "text"
 
 [scripts]
@@ -56,10 +56,10 @@ pageType = "text"
 ## ブックマーク
 
 - [今年の節分が2月2日なのは2000年に原因が！？…“子午線のまち”明石・天文科学館の館長が徹底解説｜まいどなニュース](https://maidonanews.jp/article/14137044)
-- [「暦」日本史 （再掲載）]({{< ref "/remark/2015/japanese-koyomi.md" >}})
-- [冬至に関する与太話]({{< ref "/remark/2017/12/winter-solstice.md" >}})
 - [2021年の暦]({{< ref "/remark/2020/02/calendar-2021.md" >}})
 - [2021年の祝日・休日に関する注意喚起]({{< relref "./holiday-in-2021.md" >}})
+
+※ 日本独自の暦・暦象に関する話題は [koyomi]({{< rlnk "/tags/koyomi/" >}}) タグを参照のこと。
 
 ## 参考図書
 

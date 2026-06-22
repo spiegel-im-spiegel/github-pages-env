@@ -3,7 +3,7 @@ title = "今年の恵方を取得する"
 date =  "2023-01-14T16:21:26+09:00"
 description = "koyomi パッケージに追加した"
 image = "/images/attention/go-logo_blue.png"
-tags = [ "package", "module", "golang", "calendar" ]
+tags = [ "package", "module", "golang", "calendar", "koyomi" ]
 pageType = "text"
 
 [scripts]

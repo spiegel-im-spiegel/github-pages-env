@@ -3,7 +3,7 @@ title = "十干十二支を数え上げるパッケージを作ってみた"
 date =  "2021-07-31T16:46:36+09:00"
 description = "検算には，若い頃に買った『新こよみ便利帳』に載っていた表を使った。 何でも取っておくものである（笑）"
 image = "/images/attention/go-logo_blue.png"
-tags = [ "package", "module", "golang", "calendar" ]
+tags = [ "package", "module", "golang", "calendar", "koyomi" ]
 pageType = "text"
 
 [scripts]

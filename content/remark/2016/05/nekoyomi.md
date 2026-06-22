@@ -2,7 +2,7 @@
 title = "『猫暦』を読んだ"
 description = "実は2月頃に Facebook の天文関連のグループで紹介され， Kindle 版が出てたのでソッコー買ってしまった。"
 date = "2016-05-06T00:16:33+09:00"
-tags = ["book", "comic", "astronomy", "calendar", "ephemeris"]
+tags = ["book", "comic", "astronomy", "calendar", "ephemeris", "koyomi"]
 
 [scripts]
   mathjax = false
