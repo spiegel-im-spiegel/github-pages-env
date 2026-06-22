@@ -68,6 +68,7 @@ tag,count,means
 "concurrency",20,"プログラミングにおける並行処理に関する話題で使うタグ"
 "disease",20,"持病に関する話題で使うタグ"
 "firefox",19,"Firefox に関する話題で使うタグ"
+"koyomi",19,"日本の暦シリーズ。日本独自の暦・暦象に関する話題で使うタグ"
 "pa-api",19,"Amazon Product Advertising API https://affiliate.amazon.co.jp/ に関する話題で使うタグ"
 "healthcare",18,"健康に関する話題で使うタグ"
 "museum",18,"美術館や博物館の紹介や展示イベントなどの話題で使うタグ"
