@@ -59,12 +59,12 @@ pageType = "text"
 
 {{< fig-math >}}
 \begin{align*}
-\sin\delta &= \sin\epsilon\sin\lambda
+\sin\delta_\mathrm{sun} &= \sin\epsilon\sin\lambda_\mathrm{sun}
 \end{align*}
 {{< /fig-math >}}
 
 となる。
-つまり（$\epsilon$ が変化しないなら[^e1]）太陽黄経 $\lambda_\mathrm{sun} = 90\tcdegree = 夏至$ のとき赤緯 $\delta_\mathrm{sun}$ は最大になる。
+つまり（$\epsilon$ が変化しないなら[^e1]）太陽黄経 $\lambda_\mathrm{sun} = 90\tcdegree = 夏至$ のとき赤緯 $\delta_\mathrm{sun} = \epsilon$ で最大値になる。
 
 [^e1]: 厳密には黄道傾斜角は章動の影響で毎日 $0''.05$ くらい変化しているようだ。が，太陽黄緯の変化に比べればごく僅かと言える。
 
