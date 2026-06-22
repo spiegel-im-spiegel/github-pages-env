@@ -3,7 +3,7 @@ title = "第五の季節：土用"
 date =  "2022-04-17T15:37:40+09:00"
 description = "今回は「土用」に関する小咄などを。"
 image = "/images/attention/kitten.jpg"
-tags = [ "astronomy", "ephemeris", "calendar", "golang" ]
+tags = [ "astronomy", "ephemeris", "calendar", "golang", "koyomi" ]
 pageType = "text"
 
 [scripts]
@@ -129,6 +129,8 @@ Day 2022-05-04 is 丁巳
 - [日本の暦情報を取得するパッケージを作ってみた]({{< ref "/release/2020/05/koyomi.md" >}})
 - [日本語は公開できない #golang](https://zenn.dev/spiegel/articles/20210807-japanese-identifier)
 - [2022年の主な暦象]({{< ref "/remark/2021/11/ephemeris-2022.md" >}})
+
+※ 日本独自の暦・暦象に関する話題は [koyomi]({{< rlnk "/tags/koyomi/" >}}) タグを参照のこと。
 
 ## 参考図書
 

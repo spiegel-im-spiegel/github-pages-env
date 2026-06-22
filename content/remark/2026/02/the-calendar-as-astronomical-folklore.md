@@ -3,7 +3,7 @@ title = "天文民俗学としての暦 — 『こよみごのみ』を読む"
 date =  "2026-02-07T16:14:44+09:00"
 description = "暦の擬人化手法も含めて面白い作品"
 image = "/images/attention/kitten.jpg"
-tags = [ "book", "comic", "astronomy", "folklore", "calendar", "ephemeris" ]
+tags = [ "book", "comic", "astronomy", "folklore", "calendar", "ephemeris", "koyomi" ]
 pageType = "text"
 
 [scripts]
@@ -50,6 +50,10 @@ pageType = "text"
 
 民俗学（folklore）は単に歴史を数え上げるものではなく，現在進行系で変化している世の中を切り取っていく作業だと思っている。
 そういう観点で『[こよみごのみ][こよみごのみ（商業版）]』は暦の擬人化手法も含めて面白い作品だと思う。
+
+## ブックマーク
+
+※ 日本独自の暦・暦象に関する話題は [koyomi]({{< rlnk "/tags/koyomi/" >}}) タグを参照のこと。
 
 [こよみごのみ（商業版）]: https://koyomi.online/koyomigonomi_s/ "こよみごのみ（商業版） | 拝啓、暦の上から -koyomi.online-"
 [こよみごのみ]: https://www.amazon.co.jp/dp/B0GL49BSZ9?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "Amazon.co.jp: こよみごのみ（1） (Nemuki+コミックス) eBook : 松浦はこ: Kindleストア"

@@ -3,7 +3,7 @@ title = "日本の暦情報を取得するパッケージを作ってみた"
 date =  "2020-05-01T05:52:53+09:00"
 description = "「国立天文台 天文情報センター 暦計算室」より日本の暦情報を取得する Go 言語用パッケージです。"
 image = "/images/attention/tools.png"
-tags = [ "astronomy", "ephemeris", "japanese", "calendar", "golang", "package" ]
+tags = [ "astronomy", "ephemeris", "japanese", "calendar", "golang", "package", "koyomi" ]
 pageType = "text"
 
 [scripts]

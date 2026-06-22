@@ -3,7 +3,7 @@ title = "太陽暦採用の日と明治の改暦"
 date =  "2025-11-09T10:58:32+09:00"
 description = "「維新（＝易姓革命）」なんて高コストで碌でもないし，それを美化する政治家も碌でもないと分かるエピソードのひとつだろう。"
 image = "/images/attention/kitten.jpg"
-tags = [ "politics", "ephemeris", "calendar" ]
+tags = [ "politics", "ephemeris", "calendar", "koyomi" ]
 pageType = "text"
 
 [scripts]
@@ -87,16 +87,9 @@ pageType = "text"
 
 ## ブックマーク
 
-- [「暦」日本史 （再掲載）]({{< ref "/remark/2015/japanese-koyomi.md" >}})
-- [『猫暦』を読んだ]({{< ref "/remark/2016/05/nekoyomi.md" >}})
-- [冬至に関する与太話]({{< ref "/remark/2017/12/winter-solstice.md" >}})
-- [「新暦七夕」なるものは存在しない]({{< ref "/remark/2019/06/traditional-tanabata.md" >}})
-- [立春も動き出す]({{< ref "/remark/2021/01/the-beginning-of-spring.md" >}})
-- [お彼岸]({{< ref "/remark/2022/03/ohigan.md" >}})
-- [第五の季節：土用]({{< ref "/remark/2022/04/doyo-period.md" >}})
-- [春夏秋冬は「四季」ではない？]({{< ref "/remark/2025/03/four-seasons.md" >}})
 - [地球が遠日点を通過する話]({{< ref "/remark/2025/06/passage-through-aphelion.md" >}})
-- [旧暦の閏月と旧暦2033年問題]({{< ref "/remark/2025/07/leap-month.md" >}})
+
+※ 日本独自の暦・暦象に関する話題は [koyomi]({{< rlnk "/tags/koyomi/" >}}) タグを参照のこと。
 
 ## 参考図書
 

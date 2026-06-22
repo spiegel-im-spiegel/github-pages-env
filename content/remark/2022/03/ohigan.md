@@ -3,7 +3,7 @@ title = "お彼岸"
 date =  "2022-03-18T20:31:47+09:00"
 description = "宣明暦・貞享暦は「どうしてそうなった」って感じ（笑）"
 image = "/images/attention/kitten.jpg"
-tags = [ "astronomy", "ephemeris", "calendar" ]
+tags = [ "astronomy", "ephemeris", "calendar", "koyomi" ]
 pageType = "text"
 
 [scripts]
@@ -113,6 +113,8 @@ pageType = "text"
 ## ブックマーク
 
 - [2022年の暦]({{< ref "/remark/2021/02/ephemeris-in-2022.md" >}})
+
+※ 日本独自の暦・暦象に関する話題は [koyomi]({{< rlnk "/tags/koyomi/" >}}) タグを参照のこと。
 
 ## 参考図書
 

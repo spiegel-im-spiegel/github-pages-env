@@ -3,7 +3,7 @@ title = "「新暦七夕」なるものは存在しない"
 date =  "2019-06-09T12:24:09+09:00"
 description = "2019年の伝統的七夕は8月7日。"
 image = "/images/attention/kitten.jpg"
-tags = ["astronomy", "calendar", "ephemeris"]
+tags = ["astronomy", "calendar", "ephemeris", "koyomi"]
 pageType = "text"
 
 [scripts]

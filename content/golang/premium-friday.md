@@ -1,6 +1,6 @@
 +++
 title = "「プレミアムフライデー」を求めるパッケージを作ってみた"
-tags = ["golang", "programming", "time", "calendar"]
+tags = ["golang", "programming", "time", "calendar", "koyomi"]
 date = "2017-03-04T09:40:51+09:00"
 description = "もちろん息抜きである。潤いは大事。でも実用性はないと思われ。"
 

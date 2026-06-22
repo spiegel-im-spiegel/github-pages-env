@@ -3,7 +3,7 @@ title = "春夏秋冬は「四季」ではない？"
 date =  "2025-03-24T20:17:33+09:00"
 description = "タイトルは釣りです"
 image = "/images/attention/kitten.jpg"
-tags = [ "astronomy", "calendar", "ephemeris" ]
+tags = [ "astronomy", "calendar", "ephemeris", "koyomi" ]
 pageType = "text"
 
 [scripts]
@@ -181,12 +181,7 @@ pageType = "text"
 
 ## ブックマーク
 
-- [「暦」日本史 （再掲載）]({{< ref "/remark/2015/japanese-koyomi.md" >}})
-- [『猫暦』を読んだ]({{< ref "/remark/2016/05/nekoyomi.md" >}})
-- [冬至に関する与太話]({{< ref "/remark/2017/12/winter-solstice.md" >}})
-- [「新暦七夕」なるものは存在しない]({{< ref "/remark/2019/06/traditional-tanabata.md" >}})
-- [お彼岸]({{< ref "/remark/2022/03/ohigan.md" >}})
-- [第五の季節：土用]({{< ref "/remark/2022/04/doyo-period.md" >}})
+※ 日本独自の暦・暦象に関する話題は [koyomi]({{< rlnk "/tags/koyomi/" >}}) タグを参照のこと。
 
 [暦Wiki/季節]: https://eco.mtk.nao.ac.jp/koyomi/wiki/B5A8C0E1.html "暦Wiki/季節 - 国立天文台暦計算室"
 
