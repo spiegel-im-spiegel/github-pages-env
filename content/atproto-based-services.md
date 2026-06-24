@@ -75,6 +75,10 @@ pageType = "text"
       <td class="nowrap"><a href="https://stream.place/baldanders.info">@baldanders.info</a></td>
       <td>動画配信, <a href="https://bsky.app/profile/did:plc:w7fwp2mtlaaffnx42wsc76wt">メイン</a>アカウント使用</td>
     </tr><tr>
+      <td class="nowrap"><a href="https://nowplayingat.suibari.com/">なうぷれあっと</a></td>
+      <td class="nowrap"><a href="https://nowplayingat.suibari.com/profile/did:plc:w7fwp2mtlaaffnx42wsc76wt">@baldanders.info</a></td>
+      <td>音楽共有, <a href="https://bsky.app/profile/did:plc:w7fwp2mtlaaffnx42wsc76wt">メイン</a>アカウント使用</td>
+    </tr><tr>
       <td class="nowrap"><a href="https://leaflet.pub/">Leaflet</a></td>
       <td class="nowrap"><a href="https://spiegel.leaflet.pub/">お散歩カメラ</a></td>
       <td>ブログ（休眠中）, <a href="https://bsky.app/profile/did:plc:w7fwp2mtlaaffnx42wsc76wt">メイン</a>アカウント使用</td>
