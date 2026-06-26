@@ -1,12 +1,11 @@
 +++
 title = "大雨？ 豪雨？"
-date =  "2026-06-26T08:58:53+09:00"
+date =  "2026-06-26T11:06:44+09:00"
 description = "そういえば「豪雨」って気象用語としての基準があったっけ？"
 isCJKLanguage = true
 image = "/images/attention/kitten.jpg"
 tags = [ "meteorology", "science" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
