@@ -254,17 +254,22 @@ graph LR
   <thead>
     <tr>
       <th>Web site</th>
-      <th>Fediverse / Bluesky</th>
+      <th>Profile, Fediverse, and Bluesky</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td rowspan="2" class="nowrap">
+      <td rowspan="3" class="nowrap">
         <a href="https://text.baldanders.info/"><code>text.baldanders.info</code></a>
       </td>
       <td class="nowrap">
-        <a href="https://web.brid.gy/@text.baldanders.info"><code>@text.baldanders.info@web.brid.gy</code></a>
+        <a href="https://fed.brid.gy/web/text.baldanders.info">Bridgy Fed profile</a>
       </td>
+    </tr><tr>
+      <td class="nowrap">
+        <a href="https://web.brid.gy/text.baldanders.info"><code>@text.baldanders.info@web.brid.gy</code></a>
+      </td>
+    </tr>
     </tr><tr>
       <td class="nowrap">
         <a href="https://bsky.app/profile/text.baldanders.info"><code>@text.baldanders.info</code></a>
@@ -274,7 +279,8 @@ graph LR
   </tbody>
 </table>
 
-※ <code>@text.baldanders.info</code> アカウントは認証には使えない。
+- Fediverse アカウントの URL はブラウザでは Web サイトにリダイレクトされる（フォローは可能）
+- Bluesky アカウントは認証には使えない
 
 ## ブックマーク
 
