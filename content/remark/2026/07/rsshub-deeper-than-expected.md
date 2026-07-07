@@ -1,12 +1,11 @@
 +++
 title = "RSSHub について調べようとしたら結構おおきな話だった"
-date =  "2026-07-07T10:52:33+09:00"
+date =  "2026-07-07T19:25:24+09:00"
 description = "RSSHub と Folo / RSS3 / Web3 はちゃんと “Web” になっている？"
 isCJKLanguage = true
 image = "/images/attention/kitten.jpg"
 tags = [ "feed", "web", "blockchain", "market", "activitypub", "nostr" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
