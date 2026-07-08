@@ -1,0 +1,36 @@
+[
+  {
+    "hash_id": "79c9ba36c62cd792801ef499cffe7e614e89670a",
+    "url": "https://text.baldanders.info/",
+    "title": "text.Baldanders.info",
+    "description": "帰ってきた「しっぽのさきっちょ」",
+    "image_url": "https://text.baldanders.info/images/attention/site.jpg",
+    "image_path": "/images/thumbs/79c9ba36c62cd792801ef499cffe7e614e89670a.jpg",
+    "image_width": 100,
+    "stars": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "hash_id": "955ecd76b8158e21c4262c73717f0c1bc2d94351",
+    "url": "https://www.subarusya.jp/book/b676548.html",
+    "title": "ケアレス・ピープル - 株式会社　すばる舎 学び・成長・成功をあなたに",
+    "description": "ケアレス・ピープル詳細をご覧いただけます。",
+    "image_url": "http://www.subarusya.jp/images/book/676548.jpg",
+    "image_path": "/images/thumbs/955ecd76b8158e21c4262c73717f0c1bc2d94351.jpg",
+    "image_width": 100,
+    "rating": 3,
+    "stars": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "comment": "米国では某企業から圧力がかかってると聞いて紙の本を買ってみた"
+  }
+]

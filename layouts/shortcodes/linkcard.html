@@ -1,0 +1,1 @@
+{{ $id := index .Params 0 }}{{ range where hugo.Data.linkcards "hash_id" $id }}{{ partial "linkcard-box.html" . }}{{else}}<p>No data (paapi:{{ $id }})</p>{{ end }}
