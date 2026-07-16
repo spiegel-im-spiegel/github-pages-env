@@ -29,4 +29,5 @@ draft = true
 [Kagi Translate]: https://translate.kagi.com/ "Kagi Translate"
 [Kagi Assistant]: https://assistant.kagi.com/ "Kagi Assistant"
 [GitHub Copilot]: https://github.com/features/copilot "GitHub Copilot · Your AI pair programmer · GitHub"
+[Proton Lumo]: https://lumo.proton.me/ "Lumo: Privacy-first AI assistant where chats stay confidential"
 <!-- eof -->
