@@ -1,7 +1,7 @@
 {
   "image_dir": "../static/images/thumbs",
   "image_base_path": "/images/thumbs",
-  "image_width": 100,
+  "image_width": 110,
   "data_path": "../data/linkcards.json",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31"
 }

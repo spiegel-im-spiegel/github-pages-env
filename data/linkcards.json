@@ -1,12 +1,77 @@
 [
   {
+    "hash_id": "0475327ab9b35f0374f4211dfa0cc4e5e8679952",
+    "url": "https://www.kinokuniya.co.jp/f/dsg-01-9784314009072",
+    "title": "暗号化―プライバシーを救った反乱者たち",
+    "description": "インターネット黎明期、プライバシー保護を賭け、暗号のプロが集まる諜報機関の厚い壁に挑んだ男たちの孤独な闘いがあった。ｅコマースやネット社会の裏に秘められた人間ドラマ。『ハッカーズ』の著者が１０年に及ぶ取材を経てまとめた全米ベストセラー、待望の邦訳。",
+    "image_url": "https://www.kinokuniya.co.jp/images/goods/ar2/web/imgdata2/large/43140/4314009071.jpg",
+    "image_path": "/images/thumbs/0475327ab9b35f0374f4211dfa0cc4e5e8679952.jpg",
+    "image_width": 110,
+    "rating": 5,
+    "stars": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "comment": "20世紀末，暗号技術の世界で何があったのか。知りたかったらこちらを読むべし！"
+  },
+  {
+    "hash_id": "1a80a83a715a50941f710f93ec3f170a66ed1ee5",
+    "url": "https://techrepublicbook.com/",
+    "title": "THE TECHNOLOGICAL REPUBLIC",
+    "description": "THE TECHNOLOGICAL REPUBLIC",
+    "image_width": 110,
+    "stars": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "hash_id": "3c73c645059fc28681687d3e8eca2cf4f7cf7725",
+    "url": "https://www.schneier.com/books/rewiring-democracy/",
+    "title": "Rewiring Democracy - Schneier on Security",
+    "description": "Rewiring Democracy How AI Will Transform Our Politics, Government, and Citizenship A Book by Bruce Schneier and Nathan E. Sanders An informative and wide-ranging exploration of how AI will alter every facet of democracy, and how to harness the technology to distribute rather than concentrate power. AI will change democracy. The only question is how. AI’s impact on democracy will go far beyond headline-grabbing political deepfakes and automated misinformation. Everywhere it will be used, it will create risks and opportunities to shake up long-standing power structures...",
+    "image_url": "https://www.schneier.com/wp-content/uploads/2025/05/book-rewiring-200w.jpg",
+    "image_path": "/images/thumbs/3c73c645059fc28681687d3e8eca2cf4f7cf7725.jpg",
+    "image_width": 110,
+    "stars": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "hash_id": "7290fdc7e8801c80a4189323c672c9423bd5ec04",
+    "url": "https://wirelesswire.jp/2026/07/94018/",
+    "title": "公益テクノロジーは国家に奉仕するのか――AI時代のテクノロジーと権力",
+    "description": "旧聞に属しますが、先月バーニー・サンダース米上院議員がニューヨーク・タイムズ紙に、人工知能がほぼ間違いなく世界…",
+    "image_url": "https://wirelesswire.jp/wp-content/uploads/2026/07/AdobeStock_771906604-scaled.jpeg",
+    "image_path": "/images/thumbs/7290fdc7e8801c80a4189323c672c9423bd5ec04.jpg",
+    "image_width": 150,
+    "stars": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "comment": "セキュリティ専門家ブルース・シュナイアー氏とパランティア共同創業者アレックス・カープ氏の対比に注目。"
+  },
+  {
     "hash_id": "79c9ba36c62cd792801ef499cffe7e614e89670a",
     "url": "https://text.baldanders.info/",
     "title": "text.Baldanders.info",
     "description": "帰ってきた「しっぽのさきっちょ」",
     "image_url": "https://text.baldanders.info/images/attention/site.jpg",
     "image_path": "/images/thumbs/79c9ba36c62cd792801ef499cffe7e614e89670a.jpg",
-    "image_width": 100,
+    "image_width": 110,
     "stars": [
       false,
       false,
@@ -22,7 +87,7 @@
     "description": "ケアレス・ピープル詳細をご覧いただけます。",
     "image_url": "http://www.subarusya.jp/images/book/676548.jpg",
     "image_path": "/images/thumbs/955ecd76b8158e21c4262c73717f0c1bc2d94351.jpg",
-    "image_width": 100,
+    "image_width": 110,
     "rating": 3,
     "stars": [
       true,
@@ -51,13 +116,30 @@
     ]
   },
   {
+    "hash_id": "f49db55e98f0eb56c864acd2ee6f4da8da10016c",
+    "url": "https://bookplus.nikkei.com/atcl/catalog/23/09/25/01018/",
+    "title": "＜10/16新刊＞『ハッキング思考』",
+    "description": "富裕層、権力者、急成長企業はシステムをハッキングして成功した。AI時代にルールを味方につけるには、「正しいハッキングの考え方」が必要だ。",
+    "image_url": "https://bookplus.nikkei.com/atcl/catalog/23/09/25/01018/9784296001576ss.jpg",
+    "image_path": "/images/thumbs/f49db55e98f0eb56c864acd2ee6f4da8da10016c.jpg",
+    "image_width": 110,
+    "rating": 5,
+    "stars": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
     "hash_id": "ffea61f5e3dfd0138b8ce8d45abc1acb9e50f134",
     "url": "https://www.youtube.com/watch?v=-dqLfiQ5IHU",
     "title": "【 3D LIVE 】Flat Out  輪堂千速生誕祭2026 Summer Fes!🔧【#輪堂千速生誕祭2026 】",
-    "description": "ねえ、いっしょに向こう側の景色を見に行かない？ ホロライブDEV_ISからデビューした FLOWGLOWのDJ兼運転手 輪堂千速です！ ▼X＠rindochihayahttps://x.com/rindochihaya📢  iOS ユーザーの皆様へ / for iOS(iPHONE, iPAD) usersこち...",
-    "image_url": "https://i.ytimg.com/vi/-dqLfiQ5IHU/maxresdefault.jpg?v=6a462fe1",
+    "description": "輪堂千速 誕生日記念グッズ2026🛒販売ページURLhttps://shop.hololivepro.com/products/rindochihaya_birthday_2026⏰グッズ販売期間（受注販売）2026年07月08日(水) 21時00分 ～ 2026年08月10日(月) 18時00分🎧🔧輪堂千...",
+    "image_url": "https://i.ytimg.com/vi/-dqLfiQ5IHU/maxresdefault.jpg",
     "image_path": "/images/thumbs/ffea61f5e3dfd0138b8ce8d45abc1acb9e50f134.jpg",
-    "image_width": 100,
+    "image_width": 150,
     "rating": 4,
     "stars": [
       true,
