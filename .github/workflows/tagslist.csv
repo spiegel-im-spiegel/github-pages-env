@@ -385,7 +385,6 @@ tag,count,means
 "pollution",1,"汚染に関する話題で使うタグ"
 "postgresql",1,"PostgreSQL に関する話題で使うタグ"
 "pulsar",1,"パルサーに関する話題で使うタグ"
-"remark",1,""
 "ruby",1,"Ruby に関する話題で使うタグ"
 "rune",1,"Go 言語の rune に関する話題で使うタグ"
 "scp",1,"SCP に関する話題で使うタグ"
