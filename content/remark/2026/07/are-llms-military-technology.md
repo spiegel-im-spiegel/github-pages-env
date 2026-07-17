@@ -1,7 +1,7 @@
 +++
 title = "LLM は軍事技術か？"
 date =  "2026-07-16T16:30:30+09:00"
-description = "LLM が国家の統制下に入るのと企業の独占所有物となるのでは「どちらがいいか」と言われれば..."
+description = "LLM が国家の統制下に入るのと企業の独占所有物になるのと「どちらがいいか」と問われれば..."
 isCJKLanguage = true
 image = "/images/attention/kitten.jpg"
 tags = [ "artificial-intelligence", "security", "risk", "politics", "law", "privacy" ]
