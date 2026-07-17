@@ -48,6 +48,23 @@
     ]
   },
   {
+    "hash_id": "51769bc6eecda48305121bbc56350f35b5599135",
+    "url": "https://www.oreilly.co.jp/books/9784814401369/",
+    "title": "実用 Go言語 第2版",
+    "description": "文法はシンプルで学びやすいという特徴を持つGo言語。システム開発の現場でも使われる機会が増えていますが、複雑な要件を実現するにはプログラミング言語が提供するシンプルな構成要素（文法やライブラリ）を、さまざまに組み合わせます。 本書は「よりGoらしく書くには」「実用的なアプリケーションを書くには」といった観点からGoを使うポイントを紹介します。 構造体やインタフェース、またJSON、CSVファイル、Excel、固定長ファイルの扱い方、ログやテスト、環境構築など、また初版の発行後、Goに追加されたジェネリクスについても紹介。現場に即した幅広いトピックについて、「Goらしいプログラムの書き方」を、その背景と共に教えてくれる先輩のような書籍です。",
+    "image_url": "https://www.oreilly.co.jp/books/images/picture_large978-4-8144-0136-9.jpeg",
+    "image_path": "/images/thumbs/51769bc6eecda48305121bbc56350f35b5599135.jpg",
+    "image_width": 110,
+    "stars": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "release_date": "2025-12-01"
+  },
+  {
     "hash_id": "7290fdc7e8801c80a4189323c672c9423bd5ec04",
     "url": "https://wirelesswire.jp/2026/07/94018/",
     "title": "公益テクノロジーは国家に奉仕するのか――AI時代のテクノロジーと権力",
