@@ -15,7 +15,8 @@
       true,
       true
     ],
-    "comment": "20世紀末，暗号技術の世界で何があったのか。知りたかったらこちらを読むべし！"
+    "comment": "20世紀末，暗号技術の世界で何があったのか。知りたかったらこちらを読むべし。 Kindle 版希望！",
+    "release_date": "2002-02"
   },
   {
     "hash_id": "1a80a83a715a50941f710f93ec3f170a66ed1ee5",
@@ -45,7 +46,8 @@
       false,
       false,
       false
-    ]
+    ],
+    "release_date": "2025-10-21"
   },
   {
     "hash_id": "7290fdc7e8801c80a4189323c672c9423bd5ec04",
@@ -96,7 +98,8 @@
       false,
       false
     ],
-    "comment": "米国では某企業から圧力がかかってると聞いて紙の本を買ってみた"
+    "comment": "米国では某企業から圧力がかかってると聞いて紙の本を買ってみた",
+    "release_date": "2026-07-03"
   },
   {
     "hash_id": "c1cd73b9e88ac78da4f91b1431b2d40744a1e85e",
@@ -118,7 +121,7 @@
   {
     "hash_id": "f49db55e98f0eb56c864acd2ee6f4da8da10016c",
     "url": "https://bookplus.nikkei.com/atcl/catalog/23/09/25/01018/",
-    "title": "＜10/16新刊＞『ハッキング思考』",
+    "title": "ハッキング思考 強者はいかにしてルールを歪めるのか、それを正すにはどうしたらいいのか",
     "description": "富裕層、権力者、急成長企業はシステムをハッキングして成功した。AI時代にルールを味方につけるには、「正しいハッキングの考え方」が必要だ。",
     "image_url": "https://bookplus.nikkei.com/atcl/catalog/23/09/25/01018/9784296001576ss.jpg",
     "image_path": "/images/thumbs/f49db55e98f0eb56c864acd2ee6f4da8da10016c.jpg",
@@ -130,7 +133,9 @@
       true,
       true,
       true
-    ]
+    ],
+    "comment": "Kindle 版あり",
+    "release_date": "2023-10-16"
   },
   {
     "hash_id": "ffea61f5e3dfd0138b8ce8d45abc1acb9e50f134",
