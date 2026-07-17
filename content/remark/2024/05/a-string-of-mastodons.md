@@ -3,7 +3,7 @@ title = "私の Mastodon 遍歴"
 date =  "2024-05-26T14:54:28+09:00"
 description = "私の Mastodon 遍歴を纏めておくのは多少の意義はあるかな。あと愚痴とかも（笑）"
 image = "/images/attention/kitten.jpg"
-tags = [ "mastodon", "activitypub", "twitter", "bluesky", "communication" ]
+tags = [ "mastodon", "activitypub", "twitter", "bluesky", "communication", "nostr" ]
 pageType = "text"
 
 [scripts]

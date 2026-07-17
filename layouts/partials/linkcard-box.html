@@ -1,0 +1,11 @@
+<div class="hreview">{{ if .image_path }}
+  <div class="photo">{{ if .url }}<a href="{{ .url }}">{{ end }}<img src="{{ .image_path }}" width="{{ with .image_width }}{{ . }}{{ else }}100{{ end }}" alt="thumbs">{{ if .url }}</a>{{ end }}</div>{{ end }}
+  <dl>
+    <dt class="item">{{ if .url }}<a class="fn url" href="{{ .url }}">{{ else }}<span class="fn">{{ end }}{{ .title }}{{ if .url }}</a>{{ else }}</span>{{ end }}</dt>{{ if .description }}
+    <dd>{{ .description }}</dd>{{ end }}{{ if gt .rating 0 }}
+	<dd>&nbsp;</dd>
+	<dd>評価<abbr class="rating fa-sm" title="{{ .rating }}">{{ range .stars }}&nbsp;{{ if . }}<i class="fas fa-star"></i>{{ else }}<i class="far fa-star"></i>{{ end }}{{ end }}</abbr></dd>{{ end }}
+  </dl>{{ if .description }}
+  <p class="description">{{ .comment }}</p>{{ end }}
+  <p class="powered-by">Powered by <a href="https://github.com/spiegel-im-spiegel/linkcard">linkcard</a></p>
+</div>

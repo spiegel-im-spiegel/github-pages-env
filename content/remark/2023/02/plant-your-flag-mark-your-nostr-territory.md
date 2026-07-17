@@ -3,7 +3,7 @@ title = "Nostr に旗を立てろ！"
 date =  "2023-02-05T23:54:41+09:00"
 description = "今回はアカウントを作っただけ"
 image = "/images/attention/kitten.jpg"
-tags = [ "tools", "communication" ]
+tags = [ "tools", "communication", "nostr" ]
 pageType = "text"
 
 [scripts]
