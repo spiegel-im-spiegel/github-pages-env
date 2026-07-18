@@ -65,7 +65,9 @@ builds:
 また [GitHub Actions](https://github.com/features/actions "GitHub Actions") にも[対応][GoReleaser Action]していて，ビルドしたバイナリを GitHub Release に自動でアップロードし，リリースノートまで書いてくれる。
 ホンマ助かる。
 
-ただし，この方法は `go install` では使えないし，そもそもユーザに「`go build` 時に `-ldflags` でバージョンを埋め込んでね」とお願いするのもおかしな話である。
+ただし，この方法は `go install` では使えないし，そもそもユーザに「`go build` 時に `-ldflags` でバージョンを埋め込んでね」とお願いするのもおかしな話である[^m1]。
+
+[^m1]: プロダクトによっては `Makefile` やビルド用のスクリプトを用意してるものもある。まぁ，大抵はそれなりの環境を用意しないとビルドできないことが多いのだが。
 
 ## ビルド情報を表示する
 
