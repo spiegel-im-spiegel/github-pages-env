@@ -27,7 +27,8 @@ func main() {
 これを実行すれば `v1.2.3` と表示される。
 
 実際の運用としてバージョンが上がるたびに変数 `Version` の内容を書き換える必要がある。
-また Git でソースコード管理する場合はリリースバージョンに対してバージョンタグを付けることが多いので，それとの整合を保つ必要があり，実はこれが割と煩雑な作業なのである。
+また Git でソースコード管理する場合はリリースバージョンに対してバージョンタグを付けることが多いので，それとの整合を保つ必要がある。
+実はこれが割と煩雑な作業なのである。
 
 そこで [Go] でビルドしたツールのバージョン表記について，以下の2つの方法を記しておく。
 
@@ -175,7 +176,7 @@ type BuildSetting struct {
 
 このうち `Key` には以下の値が入ってるらしい。
 
-| Key | 意味 |
+| Key の値 | Value の内容 |
 |---|---|
 | `-buildmode` | the buildmode flag used (typically `"exe"`) |
 | `-compiler` | the compiler toolchain flag used (typically `"gc"`) |
@@ -194,7 +195,8 @@ type BuildSetting struct {
 | `vcs.time` | the modification time associated with `vcs.revision`, in RFC3339 format |
 | `vcs.modified` | `"true"` or `"false"` indicating whether the source tree had local modifications |
 
-`replaceVersion()` 関数では VCS (Version Control System) のリビジョン情報から（`vcs.revision` および `vcs.modified`）を使ってバージョンを表示している。
+`replaceVersion()` 関数では VCS (Version Control System) のリビジョン情報（`vcs.revision` および `vcs.modified`）を使ってバージョンを表示している。
+ここまで至れり尽くせりなら，大抵のパターンで使えるだろう。
 
 ### go run ではビルド情報がセットされない
 
