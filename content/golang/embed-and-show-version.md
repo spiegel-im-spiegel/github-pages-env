@@ -145,14 +145,22 @@ type Module struct {
 ```
 
 つまり `go.mod` でモジュールとして定義・管理されている場合は `BuildInfo.Main.Version` にバージョンが入っている。
-ちなみにモジュールとして定義されている場合でもバージョンが（Git 等で管理されず）存在しない場合は `(devel)` という文字列が返ってくるようだ。
+
+作成した `replaceVersion()` 関数を含むコードを Git で commit し `v0.1.0` のバージョンタグを打った状態でビルド&実行すると以下のように表示された。
+
+```text
+$ go build -o a.out && ./a.out
+v0.1.0
+```
+
+ちなみに `go.mod` でモジュールとして定義されている場合でも，バージョン管理されていない場合は `(devel)` という文字列が返ってくるようだ。
 
 ```text
 $ go build -o a.out && ./a.out
 (devel)
 ```
 
-`BuildInfo.Main.Version` で値を取れない場合は `BuildInfo.Settings` 配列から取得する。
+`replaceVersion()` 関数では `BuildInfo.Main.Version` で値を取れない場合には `BuildInfo.Settings` 配列から情報を取得している。
 `BuildSetting` 構造体は以下の通り key-value 形式になっている。
 
 ```go
@@ -186,11 +194,11 @@ type BuildSetting struct {
 | `vcs.time` | the modification time associated with `vcs.revision`, in RFC3339 format |
 | `vcs.modified` | `"true"` or `"false"` indicating whether the source tree had local modifications |
 
-先程のコード例では VCS (Version Control System) のリビジョン情報から（`vcs.revision` および `vcs.modified`）を使ってバージョンを表示している。
+`replaceVersion()` 関数では VCS (Version Control System) のリビジョン情報から（`vcs.revision` および `vcs.modified`）を使ってバージョンを表示している。
 
 ### go run ではビルド情報がセットされない
 
-以上は `go build` あるいは `go install` でビルドした場合の話だが `go run` で即時実行した場合はビルド情報がセットされない。
+以上は `go build` あるいは `go install` でビルドした場合の話だが `go run` で即時実行した場合はビルド情報がセットされないようだ。
 先程のコード例の場合は
 
 ```text
