@@ -17,6 +17,7 @@ pageType = "text"
 EFF (Electronic Frontier Foundation) の記事ですな。
 
 - [Hate “The Algorithm?” RSS Is One of the Tools You’ve Been Looking For](https://www.eff.org/deeplinks/2026/06/hate-algorithm-rss-one-tools-youve-been-looking)
+- [「アルゴリズム」が大っ嫌い？ ならRSSを使いなさいよ » p2ptk[.]org](https://p2ptk.org/digital-rights/5632) (日本語訳)
 
 もの凄く端折っていうと，ソーシャルメディア等のアルゴリズムに任せるんじゃなくて，枯れた技術とはいえ RSS があるんだから，これを使って自分で情報管理しようぜ！ といった内容。
 
@@ -24,10 +25,18 @@ EFF (Electronic Frontier Foundation) の記事ですな。
 RSS is one of the best examples we have of the open web, where we can design and customize how we experience the internet, not the other way around. RSS has come in and out of fashion, been declared dead, and has come back, every time. Open systems are the best way forward to a free, equitable internet, and the resilience and continued reinvention of RSS has shown just how creative the web community can be with open protocols.
 {{< /fig-quote >}}
 
+{{< fig-quote type="markdown" title="「アルゴリズム」が大っ嫌い？ ならRSSを使いなさいよ" link="https://p2ptk.org/digital-rights/5632" >}}
+RSSは、我々の手元にあるオープンウェブの最高の実例だ。そこではインターネットをどう体験するかを我々自身が設計しカスタマイズするのであって、その逆ではない。RSSは流行っては廃れ、死を宣告され、そのたびに蘇ってきた。自由で公平なインターネットへ進む最良の道はオープンなシステムであり、RSSの粘り強さと絶え間ない再発明は、ウェブコミュニティがオープンプロトコルを手にしたときにどれほど創造的になれるかを示している。
+{{< /fig-quote >}}
+
 この記事の最後の方に
 
 {{< fig-quote type="markdown" title="Hate “The Algorithm?” RSS Is One of the Tools You’ve Been Looking For" link="https://www.eff.org/deeplinks/2026/06/hate-algorithm-rss-one-tools-youve-been-looking" lang="en" >}}
 And even if a website doesn’t have an RSS feed, there are workarounds from tools like [RSSHub](https://docs.rsshub.app/), [RSS-Bridge](https://github.com/rss-bridge/rss-bridge), and [RSS.app](https://rss.app/) that require varying levels of technical expertise or a willingness to pay subscription fees.
+{{< /fig-quote >}}
+
+{{< fig-quote type="markdown" title="「アルゴリズム」が大っ嫌い？ ならRSSを使いなさいよ" link="https://p2ptk.org/digital-rights/5632" >}}
+そして、ウェブサイトにRSSフィードがなくても、[RSSHub](https://docs.rsshub.app/)、[RSS-Bridge](https://github.com/rss-bridge/rss-bridge)、[RSS.app](https://rss.app/)といったツールによる回避策がある。求められる技術的知識のレベルや、購読料を払う覚悟の必要性はツールごとに様々だが。
 {{< /fig-quote >}}
 
 などと書かれていて，「へぇ。フィードがなくても生成してくれるんだ」と思いながら，とりあえず [RSSHub のサイト][RSSHub]を覗いてみたのだが，何が書いてあるかよく分からない。
