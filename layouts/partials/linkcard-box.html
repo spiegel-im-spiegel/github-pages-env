@@ -5,7 +5,7 @@
     <dd>{{ .description }}</dd>{{ end }}{{ if gt .rating 0 }}
 	<dd>&nbsp;</dd>
 	<dd>評価<abbr class="rating fa-sm" title="{{ .rating }}">{{ range .stars }}&nbsp;{{ if . }}<i class="fas fa-star"></i>{{ else }}<i class="far fa-star"></i>{{ end }}{{ end }}</abbr></dd>{{ end }}
-  </dl>{{ if .description }}
-  <p class="description">{{ .comment }}</p>{{ end }}
+  </dl>{{ if .comment }}
+  <p class="description"><strong>[Comment]</strong> {{ .comment | safeHTML }}</p>{{ end }}
   <p class="powered-by">Powered by <a href="https://github.com/spiegel-im-spiegel/linkcard">linkcard</a></p>
 </div>
