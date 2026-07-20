@@ -5,7 +5,8 @@ description = "朝のお散歩 / 松江市役所見学 / 夕方のお散歩"
 isCJKLanguage = true
 image = "/remark/2026/07/19-osanpo-camera/55403835016_e15dc53e4d_k.jpg"
 tags = [ "osanpo-camera", "photography", "matsue", "bike" ]
-pageType = "text"
+license = "by"
+pageType = "photo"
 
 [scripts]
   mathjax = false
