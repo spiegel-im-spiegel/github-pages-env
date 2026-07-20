@@ -25,7 +25,7 @@ pageType = "text"
 
 yomoyomo さんが「[ポイント・オブ・ノーリターン：プログラミング、AGI、アメリカ]」の前半部分で指摘されているのは，先日の[読書会での雑談]({{< relref "./the-first-strong-wind-of-spring.md#agi" >}} "生成 AI はプログラマを殺すか？")でも出てきた話で，たとえば以下のような感じ。
 
-{{< fig-quote type="markdown" title="生成 AI はプログラマを殺すか？ — 大風のお彼岸でした" link="http://localhost:1313/remark/2025/03/the-first-strong-wind-of-spring/#agi" >}}
+{{< fig-quote type="markdown" title="生成 AI はプログラマを殺すか？ — 大風のお彼岸でした" link="/remark/2025/03/the-first-strong-wind-of-spring.md#agi" >}}
 でも「AIに支援されたプログラマー」であるためには AI より賢くないとダメだよね。
 生成 AI の出力に（自らの知識・経験で以って）批判的になれないプログラマは AI の「執事」になってしまうのだろう。
 経営者・資本家が「プログラマーに支援されたAI」をこそ求めるのであれば，本当に職業プログラマはいなくなってしまうのかもしれない。

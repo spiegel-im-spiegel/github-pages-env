@@ -66,7 +66,7 @@ pageType = "text"
 
 ### ブックマーク
 
-- [健康保険証と個人番号カード]({{< ref "http://localhost:1313/remark/2024/10/health-insurance-card.md" >}})
+- [健康保険証と個人番号カード]({{< ref "/remark/2024/10/health-insurance-card.md" >}})
 
 ## コワーキングスペース探訪
 
