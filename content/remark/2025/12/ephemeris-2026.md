@@ -85,7 +85,7 @@ pageType = "text"
 
 各用語の意味は以下の通り。
 
-{{< fig-img-quote src="http://localhost:1313/remark/2025/12/ephemeris-2026/phenom_phase.png" title="天象 - 国立天文台暦計算室" link="https://eco.mtk.nao.ac.jp/cgi-bin/koyomi/cande/phenomena_f.cgi" >}}
+{{< fig-img-quote src="./phenom_phase.png" title="天象 - 国立天文台暦計算室" link="https://eco.mtk.nao.ac.jp/cgi-bin/koyomi/cande/phenomena_f.cgi" >}}
 
 ちなみに「留」は「[惑星の地心視赤経の時間変化が0、すなわち赤経方向の動きが止まる瞬間](https://eco.mtk.nao.ac.jp/koyomi/wiki/CFC7C0B12FCEB1.html "暦Wiki/惑星/留 - 国立天文台暦計算室")」，もっと簡単に言うと天球上の（見かけの）惑星の動きが反転する瞬間を指す。
 
@@ -152,5 +152,7 @@ pageType = "text"
 [「天文年鑑」2026年版]: https://www.seibundo-shinkosha.net/book/astronomy/96198/ "天文年鑑 2026年版"
 
 ## 参考
+
+{{% linkcard "6b8ffab8684f95758ee5d25b952682638ba7889e" %}} <!-- 天文年鑑 2026年版 -->
 
 {{% review-paapi "4627275110" %}} <!-- 天体物理学 -->
