@@ -32,6 +32,60 @@
     ]
   },
   {
+    "hash_id": "2497616b3120b55e1890d05a112369e5cc452b16",
+    "url": "https://p2ptk.org/ai/5638",
+    "title": "GoogleのAI要約が検索よりマシに見えるのはなぜか（ただし、どちらもクソ） » p2ptk[.]org",
+    "description": "質の高いコンテンツの順位を下げ、労力をかけないスパムを優遇したGoogleは、ウェブ全域でグレシャムの法則を実演した。悪しきウェブページが良きウェブページを駆逐したのである。",
+    "image_url": "https://p2ptk.org/wp-content/uploads/2026/07/gemini-v-search.jpg",
+    "image_path": "/images/thumbs/2497616b3120b55e1890d05a112369e5cc452b16.jpg",
+    "image_width": 150,
+    "stars": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "hash_id": "2e8c088cee2282414734588e7ea4d6aa42c0ec01",
+    "url": "https://www.hyuki.com/aibook/",
+    "title": "小説『AIと生きる／対話から始まる成長の物語』（結城浩）",
+    "description": "小説『AIと生きる／対話から始まる成長の物語』（結城浩）",
+    "image_url": "https://img.hyuki.net/20260206064012-91a593df1f6137b3.jpg",
+    "image_path": "/images/thumbs/2e8c088cee2282414734588e7ea4d6aa42c0ec01.jpg",
+    "image_width": 150,
+    "rating": 4,
+    "stars": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "comment": "感想文は\u003ca href=/remark/2026/05/reading-living-with-ai/\u003eこちら\u003c/a\u003e。",
+    "release_date": "2026-03-05"
+  },
+  {
+    "hash_id": "324c9435d0df4fd2b01b29ff8c93652f5b94cb96",
+    "url": "https://www.sbcr.jp/product/4815639921/",
+    "title": "AIと生きる | SBクリエイティブ",
+    "description": "「何でも答えてくれるAIと、私たちはどう付き合っていけばよいのだろう？」 「数学ガール」シリーズの結城浩が贈る",
+    "image_url": "https://www.sbcr.jp/wp-content/uploads/2025/12/AAP_AIと生きる_D2-scaled.jpg",
+    "image_path": "/images/thumbs/324c9435d0df4fd2b01b29ff8c93652f5b94cb96.jpg",
+    "image_width": 150,
+    "rating": 4,
+    "stars": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "comment": "感想文は\u003ca href=/remark/2026/05/reading-living-with-ai/\u003eこちら\u003c/a\u003e。",
+    "release_date": "2026-03-05"
+  },
+  {
     "hash_id": "3c73c645059fc28681687d3e8eca2cf4f7cf7725",
     "url": "https://www.schneier.com/books/rewiring-democracy/",
     "title": "Rewiring Democracy - Schneier on Security",
@@ -133,6 +187,22 @@
       false
     ],
     "comment": "米国では某企業から圧力がかかってると聞いて紙の本を買ってみた"
+  },
+  {
+    "hash_id": "9f79d67c011a14e94509422f4d8fded2dbad1f40",
+    "url": "https://yamdas.hatenablog.com/entry/20260727/ai-google-kills-curiosity",
+    "title": "Google検索のAIモードはユーザーの好奇心を殺す？ - YAMDAS現更新履歴",
+    "description": "Opinion | The Problem With Google’s A.I. Overview - The New York Times 「現在、米国における Google 検索の60％以上は、ユーザーがリンクをクリックすることなく終了している」という文章から始まるが、要は Google の AI モードの問題点を論じる文章である。生成 AI が質問に即座に回答を返すことで、かつてインターネットを彷徨うような旅だったものが、目的地に即座に到着できるようになった。リンクを辿ったり、予期せぬページにたどり着いたり、参照情報を追ったりする、検索における「探索段階」が消えつつあるわけだ。これは（ワ…",
+    "image_url": "https://cdn.image.st-hatena.com/image/scale/106627baa9bd295fd35aed57382906be9e173631/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F41Oh8qyN3pL._SL500_.jpg",
+    "image_path": "/images/thumbs/9f79d67c011a14e94509422f4d8fded2dbad1f40.jpg",
+    "image_width": 110,
+    "stars": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
   },
   {
     "hash_id": "b814392d6be5cb7959000f17b9484358de2ce622",

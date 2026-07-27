@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
-linkcard https://www.technologyreview.jp/s/386339/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/ --rating 0 -w 150
+linkcard https://www.sbcr.jp/product/4815639921/ --rating 4 -w 150 --release-date "2026-03-05" -c "感想文は<a href="/remark/2026/05/reading-living-with-ai/">こちら</a>。"
+linkcard https://www.hyuki.com/aibook/ --rating 4 -w 150 --release-date "2026-03-05" -c "感想文は<a href="/remark/2026/05/reading-living-with-ai/">こちら</a>。"
+linkcard https://yamdas.hatenablog.com/entry/20260727/ai-google-kills-curiosity --rating 0
+linkcard https://p2ptk.org/ai/5638 --rating 0 -w 150
+#linkcard https://www.technologyreview.jp/s/386339/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/ --rating 0 -w 150
 #linkcard https://www.seibundo-shinkosha.net/book/astronomy/96198/ --rating 5 --release-date "2025-12-10" -c "天文ファン必携。2026年版。"
 #linkcard https://www.oreilly.co.jp/books/9784814401369/ --rating 0 --release-date "2025-12-01"
 #linkcard --rating 5 https://bookplus.nikkei.com/atcl/catalog/23/09/25/01018/
