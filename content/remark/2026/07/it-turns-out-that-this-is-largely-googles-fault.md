@@ -172,11 +172,11 @@ AI が人の好奇心を削ぐのではなく，縮退してしまった好奇�
 
 - [Day 15 Tiny Experiments ―目的より、探究を生きる Living Through Discovery：Human Hardeningとサイバー判断力：エンジニアライフ](https://el.jibun.atmarkit.co.jp/humancybersecurity/2025/11/day_1tiny_experiments.html)
 
+- [「好奇心に好奇心」を読む]({{< ref "/remark/2025/05/curiosity-about-curiosity.md" >}})
+
 [Kagi Search]: https://kagi.com/ "Kagi Search - A Premium Search Engine"
 [Kagi Translate]: https://translate.kagi.com/ "Kagi Translate"
 [Kagi Assistant]: https://assistant.kagi.com/ "Kagi Assistant"
-[GitHub Copilot]: https://github.com/features/copilot "GitHub Copilot · Your AI pair programmer · GitHub"
-[Proton Lumo]: https://lumo.proton.me/ "Lumo: Privacy-first AI assistant where chats stay confidential"
 
 [蒸留]: {{< ref "/remark/2026/07/distillation-and-model-collapse.md" >}} "知識蒸留とモデル崩壊"
 [島根県立美術館]: https://www.shimane-art-museum.jp/ "SHIMANE ART MUSEUM | 島根県立美術館"
@@ -184,3 +184,4 @@ AI が人の好奇心を削ぐのではなく，縮退してしまった好奇�
 ## 参考
 
 {{< linkcard "324c9435d0df4fd2b01b29ff8c93652f5b94cb96" >}} <!-- https://www.hyuki.com/aibook/ 結城浩 AIと生きる -->
+{{< linkcard "681fc2c54fd9c4392741d3ea8798d0f91c468fb5" >}} <!-- https://www.nikkei-science.com/page/magazine/202506.html 日経サイエンス2025年6月号 -->

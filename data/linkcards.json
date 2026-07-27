@@ -119,6 +119,25 @@
     "release_date": "2025-12-01"
   },
   {
+    "hash_id": "681fc2c54fd9c4392741d3ea8798d0f91c468fb5",
+    "url": "https://www.nikkei-science.com/page/magazine/202506.html",
+    "title": "2025年6月号｜日経サイエンス",
+    "description": "特別解説 2025年アーベル賞に柏原正樹氏　代数解析学を確立 　　M. ビショフ 神経科学 特集：好奇心に好奇心 好奇心は科学の原動力だが，これまでほとんど科学の対象にされてこなかった。しかし，最新の神経科学や情報科学の … 続きを読む →",
+    "image_url": "https://www.nikkei-science.com/wp-content/uploads/2025/04/202506_cover.jpg",
+    "image_path": "/images/thumbs/681fc2c54fd9c4392741d3ea8798d0f91c468fb5.jpg",
+    "image_width": 110,
+    "rating": 4,
+    "stars": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "comment": "特集は「好奇心に好奇心」。他には「1秒の定義を変える 原子時計のいま」「仲間はずれを作らない教室」など。",
+    "release_date": "2025-04-25"
+  },
+  {
     "hash_id": "6b8ffab8684f95758ee5d25b952682638ba7889e",
     "url": "https://www.seibundo-shinkosha.net/book/astronomy/96198/",
     "title": "天文年鑑 2026年版 | 株式会社誠文堂新光社",
