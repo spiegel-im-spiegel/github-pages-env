@@ -92,6 +92,7 @@ JS・タンは「[私がパランティアの本を読んだんで、あなた�
   - [China’s AI models have Trump’s AI world at war with itself](https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/) (原文)
 - [「AI暴走なら政府が停止」法案にNVIDIAら25社が反発、OpenAI・Anthropicは署名せず](https://pc.watch.impress.co.jp/docs/news/2127831.html)
 - [「AIの発展にはアメリカ製オープンモデルが必要不可欠」とする声明をMicrosoftが発表しNVIDIA・OpenAI・Google・AMDなども賛同](https://gigazine.net/news/20260727-ai-open-weight/)
+- [NVIDIAやLinux Foundationなどが「Open Secure AI Alliance」設立、AI防御技術の開発・共有へ | gihyo.jp](https://gihyo.jp/article/2026/07/open-secure-ai-alliance)
 
 - [AI は正解を答えない]({{< ref "/remark/2026/02/ai-doesnt-provide-definitive-answers.md" >}})
 - [「プロンプトウェア・キルチェーン」]({{< ref "/remark/2026/02/the-promptware-kill-chain.md" >}})
