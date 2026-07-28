@@ -32,6 +32,25 @@
     ]
   },
   {
+    "hash_id": "2021530dc3372074307138ecc55184ebbda473d7",
+    "url": "https://www.hyuki.com/dp/",
+    "title": "Java言語で学ぶデザインパターン入門 第3版",
+    "description": "結城浩『Java言語で学ぶデザインパターン入門 第3版』",
+    "image_url": "https://img.hyuki.net/20220119062517-93ab8d86d62dab01.jpg",
+    "image_path": "/images/thumbs/2021530dc3372074307138ecc55184ebbda473d7.jpg",
+    "image_width": 150,
+    "rating": 5,
+    "stars": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "comment": "なんと！ 結城浩さんのデザパタ本の第3版が出た。古典的な GoF のデザインパターン23個はそのままに，最近の Java の言語仕様に合わせてコードが一新されている。",
+    "release_date": "2021-11-13"
+  },
+  {
     "hash_id": "2497616b3120b55e1890d05a112369e5cc452b16",
     "url": "https://p2ptk.org/ai/5638",
     "title": "GoogleのAI要約が検索よりマシに見えるのはなぜか（ただし、どちらもクソ） » p2ptk[.]org",
@@ -109,14 +128,34 @@
     "image_url": "https://www.oreilly.co.jp/books/images/picture_large978-4-8144-0136-9.jpeg",
     "image_path": "/images/thumbs/51769bc6eecda48305121bbc56350f35b5599135.jpg",
     "image_width": 110,
+    "rating": 3,
     "stars": [
-      false,
-      false,
-      false,
+      true,
+      true,
+      true,
       false,
       false
     ],
     "release_date": "2025-12-01"
+  },
+  {
+    "hash_id": "57b427023ef9adfa08ede81d337ee72c072ae585",
+    "url": "https://www.sbcr.jp/product/4815609801/",
+    "title": "Java言語で学ぶデザインパターン入門第3版 | SBクリエイティブ",
+    "description": "「GoF」の『デザインパターン』で紹介された23個のパターンを、オブジェクト指向の初心者にもわかるようにやさし",
+    "image_url": "https://www.sbcr.jp/wp-content/uploads/2021/09/9784815609801.jpg",
+    "image_path": "/images/thumbs/57b427023ef9adfa08ede81d337ee72c072ae585.jpg",
+    "image_width": 110,
+    "rating": 5,
+    "stars": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "comment": "なんと！ 結城浩さんのデザパタ本の第3版が出た。古典的な GoF のデザインパターン23個はそのままに，最近の Java の言語仕様に合わせてコードが一新されている。",
+    "release_date": "2021-11-13"
   },
   {
     "hash_id": "681fc2c54fd9c4392741d3ea8798d0f91c468fb5",
@@ -208,6 +247,63 @@
     "comment": "米国では某企業から圧力がかかってると聞いて紙の本を買ってみた"
   },
   {
+    "hash_id": "9a975e012c9676728deff702fc5a96aac4b456ba",
+    "url": "https://zen.ac.jp/press/books/b_0015",
+    "title": "Clean Architecture 達人に学ぶソフトウェアの構造と設計 | ZEN大学出版会",
+    "description": "Clean Architecture 達人に学ぶソフトウェアの構造と設計 について、詳細・ご購入はこちらから",
+    "image_url": "https://images.microcms-assets.io/assets/c83fef499dbb45938e3189200bebd9db/3cd6e2260d1e41b5928d564138675218/CleanArchitectureOGP.jpg",
+    "image_path": "/images/thumbs/9a975e012c9676728deff702fc5a96aac4b456ba.jpg",
+    "image_width": 150,
+    "rating": 4,
+    "stars": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "comment": "実務に即効性があるわけではないが，ものの「考え方」を示す本としてはよく出来ている。ソフトウェア技術史の読み物としても面白い。",
+    "release_date": "2026-07-10"
+  },
+  {
+    "hash_id": "9e8d8f717b1d1d85b0da7f07cb10a83b78d4227f",
+    "url": "https://www.maruzen-publishing.co.jp/book/b10112161.html",
+    "title": "プログラミング言語Go - 丸善出版 理工・医学・人文社会科学の専門書出版社",
+    "description": "明解で効率的なプログラムを描くための書。 柴田　芳樹 訳",
+    "image_url": "https://hondana-image.s3.amazonaws.com/book/image/10112161/3d481fe6-6968-4248-b6d4-e4137e613d54.jpg",
+    "image_path": "/images/thumbs/9e8d8f717b1d1d85b0da7f07cb10a83b78d4227f.jpg",
+    "image_width": 110,
+    "rating": 5,
+    "stars": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "comment": "著者のひとりは，あの “K\u0026R” の K のほうである。この本は Go 言語の教科書と言ってもいいだろう。と思ったら絶版状態らしい（2025-01 現在）。復刊を望む！",
+    "release_date": "2016-06-15"
+  },
+  {
+    "hash_id": "9eaf4ab549fcdb8fa70241d8cb240bb874cd2780",
+    "url": "https://www.kyoritsu-pub.co.jp/book/b10011596.html",
+    "title": "プログラミング言語C - 共立出版",
+    "description": "Brian W.カーニハン 著",
+    "image_url": "https://hondana-image.s3.amazonaws.com/book/image/10011596/fd17bee4-f762-49a3-b1ee-d888d2ac90ca.jpg",
+    "image_path": "/images/thumbs/9eaf4ab549fcdb8fa70241d8cb240bb874cd2780.jpg",
+    "image_width": 110,
+    "rating": 5,
+    "stars": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "comment": "通称 “K\u0026R”。初版当時のプログラマには「バイブル」と呼ばれた名著。現在は ANSI 準拠の第2版。",
+    "release_date": "1989-06-15"
+  },
+  {
     "hash_id": "9f79d67c011a14e94509422f4d8fded2dbad1f40",
     "url": "https://yamdas.hatenablog.com/entry/20260727/ai-google-kills-curiosity",
     "title": "Google検索のAIモードはユーザーの好奇心を殺す？ - YAMDAS現更新履歴",
@@ -257,6 +353,25 @@
     ]
   },
   {
+    "hash_id": "e77330c8587ec28b6b659c2bb564d68e90832ac8",
+    "url": "https://gihyo.jp/book/2022/978-4-297-13234-7",
+    "title": "ちょうぜつソフトウェア設計入門 | 技術評論社",
+    "description": "SoftwareDesign誌での連載と技術アドベントカレンダー24回ぶんに収まらなかった関連知識を徹底解説。いわゆる「オブジェクト指向」と呼ばれる考え方から発展した分野は、どのようにソフトウェア設計の役に立つのかを、よく知られた原則、テスト駆動開発、デザインパターンなどを通じて理解できる一冊です。上級者には定番の知識を体系的に整理するヒントとして、初級者には可愛いイラストで覚えるキーワード集として、幅広く活用していくことができます。なお、サンプルコードはPHPで書かれていますが、他の言語に置き換えて読めるコードばかりです。PHPを使っているかどうかを問わず、全ての開発者にオススメです。",
+    "image_url": "https://gihyo.jp/assets/images/ogp/2022/9784297132347.jpg",
+    "image_path": "/images/thumbs/e77330c8587ec28b6b659c2bb564d68e90832ac8.jpg",
+    "image_width": 150,
+    "rating": 4,
+    "stars": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "comment": "祝♪ \u003ca href='https://twitter.com/search?q=%23%E3%81%A1%E3%82%87%E3%81%86%E3%81%9C%E3%81%A4%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%82%81%E3%82%82%E3%82%8A%E3%83%BC%E3%81%A1%E3%82%83%E3%82%93'\u003e#ちょうぜつエンジニアめもりーちゃん\u003c/a\u003e 単行本化！ 絵は可愛いが読み応えあり。「SoftwareDesign」連載分も収録されていて超お得！",
+    "release_date": "2022-12-07"
+  },
+  {
     "hash_id": "f49db55e98f0eb56c864acd2ee6f4da8da10016c",
     "url": "https://bookplus.nikkei.com/atcl/catalog/23/09/25/01018/",
     "title": "＜10/16新刊＞『ハッキング思考』",
@@ -272,6 +387,24 @@
       true,
       true
     ]
+  },
+  {
+    "hash_id": "fcdff433aff55873cb56b6d9ce8fbb636e359514",
+    "url": "https://www.maruzen-publishing.co.jp/book/b10152370.html",
+    "title": "カーニハンのUNIX回顧録 - 丸善出版 理工・医学・人文社会科学の専門書出版社",
+    "description": "Unixとは何であり，どのように生まれ，なぜ重要なのかを説明する，コンピュータ史上でも特に生産的だった形成期の素晴らしい物語 ブライアン・カーニハン 著",
+    "image_url": "https://hondana-image.s3.amazonaws.com/book/image/10152370/ba0b3ed1-2427-47d7-93a8-e4777c42bf3b.jpeg",
+    "image_path": "/images/thumbs/fcdff433aff55873cb56b6d9ce8fbb636e359514.jpg",
+    "image_width": 110,
+    "rating": 4,
+    "stars": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "release_date": "2025-09-24"
   },
   {
     "hash_id": "ffea61f5e3dfd0138b8ce8d45abc1acb9e50f134",

@@ -225,7 +225,7 @@ $ go run main.go
 
 ## 参考図書
 
-{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
-{{% review-paapi "B0CFL1DK8Q" %}} <!-- Go言語 100Tips -->
-{{% review-paapi "B0DNYMMBBQ" %}} <!-- Go言語で学ぶ並行プログラミング -->
-{{% linkcard "51769bc6eecda48305121bbc56350f35b5599135" %}} <!-- 実用 Go 言語 第2版 -->
+{{< review-paapi "4621300253" >}} <!-- プログラミング言語Go -->
+{{< review-paapi "B0CFL1DK8Q" >}} <!-- Go言語 100Tips -->
+{{< review-paapi "B0DNYMMBBQ" >}} <!-- Go言語で学ぶ並行プログラミング -->
+{{< linkcard "51769bc6eecda48305121bbc56350f35b5599135" >}} <!-- 実用 Go 言語 第2版 -->

@@ -80,3 +80,7 @@ V7 の大きな特徴のひとつは移植可能な OS になったというこ�
 [Kagi Translate]: https://translate.kagi.com/ "Kagi Translate"
 [Kagi Assistant]: https://assistant.kagi.com/ "Kagi Assistant"
 [カーニハンのUNIX回顧録]: https://www.maruzen-publishing.co.jp/book/b10152370.html "カーニハンのUNIX回顧録 - 丸善出版 理工・医学・人文社会科学の専門書出版社"
+
+## 参考
+
+{{< linkcard "fcdff433aff55873cb56b6d9ce8fbb636e359514" >}} <!-- カーニハンのUNIX回顧録 -->

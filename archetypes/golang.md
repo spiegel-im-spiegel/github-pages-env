@@ -32,13 +32,14 @@ draft = true
 
 ## 参考図書
 
-{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
-{{% review-paapi "4814401191" %}} <!-- 初めてのGo言語 第2版 -->
-{{% review-paapi "B0CFL1DK8Q" %}} <!-- Go言語 100Tips -->
-{{% review-paapi "4873118468" %}} <!-- Go言語による並行処理 -->
-{{% review-paapi "4873119979" %}} <!-- Go言語による分散サービス -->
-{{% review-paapi "4908686122" %}} <!-- Goならわかるシステムプログラミング 第2版 -->
-{{% review-paapi "4873119693" %}} <!-- 実用 Go 言語 -->
-{{% review-paapi "4814400535" %}} <!-- 効率的なGo : Efficient Go -->
-{{% review-paapi "B0DNYMMBBQ" %}} <!-- Go言語で学ぶ並行プログラミング -->
-{{% review-paapi "B09C2XBC2F" %}} <!-- Golang Tシャツ -->
+{{< linkcard "9e8d8f717b1d1d85b0da7f07cb10a83b78d4227f" >}} <!-- プログラミング言語Go -->
+{{< review-paapi "B0CFL1DK8Q" >}} <!-- Go言語 100Tips -->
+{{< review-paapi "B0DNYMMBBQ" >}} <!-- Go言語で学ぶ並行プログラミング -->
+
+{{< review-paapi "4814401191" >}} <!-- 初めてのGo言語 第2版 -->
+{{< review-paapi "4873118468" >}} <!-- Go言語による並行処理 -->
+{{< review-paapi "4873119979" >}} <!-- Go言語による分散サービス -->
+{{< review-paapi "4908686122" >}} <!-- Goならわかるシステムプログラミング 第2版 -->
+{{< linkcard "51769bc6eecda48305121bbc56350f35b5599135" >}} <!-- 実用 Go言語 第2版 -->
+{{< review-paapi "4814400535" >}} <!-- 効率的なGo : Efficient Go -->
+{{< review-paapi "B09C2XBC2F" >}} <!-- Golang Tシャツ -->
