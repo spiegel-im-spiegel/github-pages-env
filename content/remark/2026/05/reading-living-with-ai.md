@@ -239,6 +239,7 @@ AI が追従的に振る舞うことがダークパターンに繋がるのな�
 
 ## 参考
 
+{{< linkcard "324c9435d0df4fd2b01b29ff8c93652f5b94cb96" >}} <!-- https://www.hyuki.com/aibook/ 結城浩 AIと生きる -->
 {{% review-paapi "B079JLW5YN" %}} <!-- プログラマの数学 第2版 -->
 {{% review-paapi "4621045938" %}} <!-- いかにして問題をとくか -->
 {{% review-paapi "B0C9Z7KGRN" %}} <!-- はじめて学ぶ ビデオゲームの心理学 Kindle 版 -->

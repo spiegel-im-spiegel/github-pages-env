@@ -88,7 +88,7 @@ FIPS 186-5 および SP 800-186 が正式リリースされれば，政府調達
 [OpenPGP] は [RFC 6637] で正式に ECC を組み込んだが，この中に EdDSA は含まれていない。
 ただし，次期 [OpenPGP] となる [RFC 4880bis] では EdDSA を組み込み済みで [GnuPG] の最新版では既に EdDSA 鍵を生成し使用することができる。
 
-- [そろそろ GnuPG でも ECC を標準で使うのがいいんじゃないかな]({{< ref "http://localhost:1313/openpgp/using-ecc-with-gnupg.md" >}})
+- [そろそろ GnuPG でも ECC を標準で使うのがいいんじゃないかな]({{< ref "/openpgp/using-ecc-with-gnupg.md" >}})
 
 なお，最新の [GnuPG] では edwards25519 のみサポートしているようだ。
 

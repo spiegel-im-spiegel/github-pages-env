@@ -157,6 +157,8 @@ h_\mathrm{sun} = 90\,\tcdegree - \phi + \delta_\mathrm{sun}
 
 ## 参考
 
+{{% linkcard "6b8ffab8684f95758ee5d25b952682638ba7889e" %}} <!-- 天文年鑑 2026年版 -->
+
 {{% review-paapi "4621304259" %}} <!-- 理科年表 2020 -->
 {{% review-paapi "4627275110" %}} <!-- 天体物理学 -->
 {{% review-paapi "4805202254" %}} <!-- 天体の位置計算 -->

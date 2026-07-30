@@ -53,7 +53,7 @@ pageType = "photo"
 
 ## サイクリングシューズを新調した
 
-昨年冬に[購入]({{< ref "http://localhost:1313/remark/2024/02/cycling-and-trecking-shoes/" >}} "街歩きもできるサイクリングシューズ買うた")して以来愛用している [GIRO TRACKER] だが，最近は作ってないのだろうか。
+昨年冬に[購入]({{< ref "/remark/2024/02/cycling-and-trecking-shoes.md" >}} "街歩きもできるサイクリングシューズ買うた")して以来愛用している [GIRO TRACKER] だが，最近は作ってないのだろうか。
 いつまで経っても「在庫切れ」のまま。
 そろそろ靴の底がヤバいので，同じくフラットペダル用で街歩きも出来る [GIRO TRACKER FASTLACE] のほうを発注していた。
 

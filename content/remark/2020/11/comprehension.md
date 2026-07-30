@@ -78,7 +78,7 @@ curl: (47) Maximum (50) redirects followed
 
 ## ブックマーク
 
-- [「他者を理解」できるわけがない]({{< ref "http://localhost:1313/remark/2020/05/communications.md" >}})
+- [「他者を理解」できるわけがない]({{< ref "/remark/2020/05/communications.md" >}})
 
 ## 参考図書
 

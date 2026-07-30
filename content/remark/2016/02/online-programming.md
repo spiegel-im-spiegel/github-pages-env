@@ -28,7 +28,7 @@ title = "オンラインでプログラミング"
 コードを試すだけならアカウントはいらないが，コードを再利用したり他のサービスと連携する場合はサインアップが必要。
 [GitHub] アカウントと連携できるのでその辺は問題ないだろう。
 
-まず「[スタック追跡とパニック・ハンドリング](http://localhost:1313/golang/stack-trace-and-panic-handling/)」のコード例を [paiza.IO] で[書いてみた](https://paiza.io/projects/MencTrqIn3FYdg6u53xNSg)。
+まず「[スタック追跡とパニック・ハンドリング]({{< ref "/golang/stack-trace-and-panic-handling.md" >}})」のコード例を [paiza.IO] で[書いてみた](https://paiza.io/projects/MencTrqIn3FYdg6u53xNSg)。
 
 {{< fig-gen >}}
 <iframe src="https://paiza.io/projects/e/MencTrqIn3FYdg6u53xNSg?theme=github" width="100%" height="500" scrolling="no" seamless="seamless"></iframe>

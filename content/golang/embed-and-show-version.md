@@ -27,7 +27,8 @@ func main() {
 これを実行すれば `v1.2.3` と表示される。
 
 実際の運用としてバージョンが上がるたびに変数 `Version` の内容を書き換える必要がある。
-また Git でソースコード管理する場合はリリースバージョンに対してバージョンタグを付けることが多いので，それとの整合を保つ必要があり，実はこれが割と煩雑な作業なのである。
+また Git でソースコード管理する場合はリリースバージョンに対してバージョンタグを付けることが多いので，それとの整合を保つ必要がある。
+実はこれが割と煩雑な作業なのである。
 
 そこで [Go] でビルドしたツールのバージョン表記について，以下の2つの方法を記しておく。
 
@@ -64,7 +65,9 @@ builds:
 また [GitHub Actions](https://github.com/features/actions "GitHub Actions") にも[対応][GoReleaser Action]していて，ビルドしたバイナリを GitHub Release に自動でアップロードし，リリースノートまで書いてくれる。
 ホンマ助かる。
 
-ただし，この方法は `go install` では使えないし，そもそもユーザに「`go build` 時に `-ldflags` でバージョンを埋め込んでね」とお願いするのもおかしな話である。
+ただし，この方法は `go install` では使えないし，そもそもユーザに「`go build` 時に `-ldflags` でバージョンを埋め込んでね」とお願いするのもおかしな話である[^m1]。
+
+[^m1]: プロダクトによっては `Makefile` やビルド用のスクリプトを用意してるものもある。まぁ，大抵はそれなりの環境を用意しないとビルドできないことが多いのだが。
 
 ## ビルド情報を表示する
 
@@ -145,14 +148,22 @@ type Module struct {
 ```
 
 つまり `go.mod` でモジュールとして定義・管理されている場合は `BuildInfo.Main.Version` にバージョンが入っている。
-ちなみにモジュールとして定義されている場合でもバージョンが（Git 等で管理されず）存在しない場合は `(devel)` という文字列が返ってくるようだ。
+
+作成した `replaceVersion()` 関数を含むコードを Git で commit し `v0.1.0` のバージョンタグを打った状態でビルド&実行すると以下のように表示された。
+
+```text
+$ go build -o a.out && ./a.out
+v0.1.0
+```
+
+ちなみに `go.mod` でモジュールとして定義されている場合でも，バージョン管理されていない場合は `(devel)` という文字列が返ってくるようだ。
 
 ```text
 $ go build -o a.out && ./a.out
 (devel)
 ```
 
-`BuildInfo.Main.Version` で値を取れない場合は `BuildInfo.Settings` 配列から取得する。
+`replaceVersion()` 関数では `BuildInfo.Main.Version` で値を取れない場合には `BuildInfo.Settings` 配列から情報を取得している。
 `BuildSetting` 構造体は以下の通り key-value 形式になっている。
 
 ```go
@@ -167,7 +178,7 @@ type BuildSetting struct {
 
 このうち `Key` には以下の値が入ってるらしい。
 
-| Key | 意味 |
+| Key の値 | Value の内容 |
 |---|---|
 | `-buildmode` | the buildmode flag used (typically `"exe"`) |
 | `-compiler` | the compiler toolchain flag used (typically `"gc"`) |
@@ -186,11 +197,12 @@ type BuildSetting struct {
 | `vcs.time` | the modification time associated with `vcs.revision`, in RFC3339 format |
 | `vcs.modified` | `"true"` or `"false"` indicating whether the source tree had local modifications |
 
-先程のコード例では VCS (Version Control System) のリビジョン情報から（`vcs.revision` および `vcs.modified`）を使ってバージョンを表示している。
+`replaceVersion()` 関数では VCS (Version Control System) のリビジョン情報（`vcs.revision` および `vcs.modified`）を使ってバージョンを表示している。
+ここまで至れり尽くせりなら，大抵のパターンで使えるだろう。
 
 ### go run ではビルド情報がセットされない
 
-以上は `go build` あるいは `go install` でビルドした場合の話だが `go run` で即時実行した場合はビルド情報がセットされない。
+以上は `go build` あるいは `go install` でビルドした場合の話だが `go run` で即時実行した場合はビルド情報がセットされないようだ。
 先程のコード例の場合は
 
 ```text
@@ -213,7 +225,7 @@ $ go run main.go
 
 ## 参考図書
 
-{{% review-paapi "4621300253" %}} <!-- プログラミング言語Go -->
-{{% review-paapi "B0CFL1DK8Q" %}} <!-- Go言語 100Tips -->
-{{% review-paapi "B0DNYMMBBQ" %}} <!-- Go言語で学ぶ並行プログラミング -->
-{{% linkcard "51769bc6eecda48305121bbc56350f35b5599135" %}} <!-- 実用 Go 言語 第2版 -->
+{{< review-paapi "4621300253" >}} <!-- プログラミング言語Go -->
+{{< review-paapi "B0CFL1DK8Q" >}} <!-- Go言語 100Tips -->
+{{< review-paapi "B0DNYMMBBQ" >}} <!-- Go言語で学ぶ並行プログラミング -->
+{{< linkcard "51769bc6eecda48305121bbc56350f35b5599135" >}} <!-- 実用 Go 言語 第2版 -->

@@ -292,7 +292,7 @@ func main() {
 
 - [Go の channel 処理パターン集](https://hori-ryota.com/blog/golang-channel-pattern/)
 
-- [モンテカルロ法による円周率の推定（その4 PRNG）]({{< ref "http://localhost:1313/golang/estimate-of-pi-4-prng.md" >}})
+- [モンテカルロ法による円周率の推定（その4 PRNG）]({{< ref "/golang/estimate-of-pi-4-prng.md" >}})
 
 [Go]: https://go.dev/
 [Go 言語]: https://golang.org/ "The Go Programming Language"
