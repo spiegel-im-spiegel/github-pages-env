@@ -13,8 +13,8 @@ pageType = "text"
   jsx = false
 +++
 
-さいきん括弧書きのタイトルばっかりだな。
-まぁ，いいか。
+最近，括弧書きのタイトルばっかりだな。
+まぁいいか。
 
 まずは，現地で被災された方々にはお見舞い申し上げます。
 
@@ -131,5 +131,6 @@ pageType = "text"
 ## ブックマーク
 
 - {{< pdf-file title="令和８年熊本地震に係る災害救助法の適用について" link="https://www.bousai.go.jp/pdf/260728.pdf" >}}
+- {{< pdf-file title="令和８年熊本地震に対する日本赤十字社の対応等について（第１報）" link="https://www.jrc.or.jp/domestic_rescue/pdf/20260729-02f498f43fc39ded09827f835b9fce8a3b8c4124.pdf" >}}
 
 [令和8年熊本地震]: https://www.jma.go.jp/jma/menu/20260728_kumamoto_jishin.html "令和8年熊本地震の地震活動の関連情報 | 気象庁"
