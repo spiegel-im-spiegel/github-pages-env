@@ -27,7 +27,7 @@ pageType = "text"
 
 - [令和8年熊本地震に係る義援金の受付について - 熊本県ホームページ](https://www.pref.kumamoto.jp/soshiki/27/274572.html)
 
-ちなみにこの義援金は寄付として税金控除の対象になる。
+この義援金は寄付として税金控除の対象になる。
 
 {{< fig-quote type="markdown" title="令和8年熊本地震に係る義援金の受付について" link="https://www.pref.kumamoto.jp/soshiki/27/274572.html" >}}
 義援金は、寄付金控除（個人）や損金算入（法人）の取扱いを受けることができます。
