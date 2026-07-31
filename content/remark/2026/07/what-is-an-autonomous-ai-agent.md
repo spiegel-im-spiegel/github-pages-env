@@ -4,7 +4,7 @@ date =  "2026-07-31T15:45:32+09:00"
 description = "ウィルス的に振る舞う AI / それは「AI の暴走」ではない / 自律機械など存在しない"
 isCJKLanguage = true
 image = "/images/attention/kitten.jpg"
-tags = [ "artificial-intelligence" ]
+tags = [ "artificial-intelligence", "security", "risk" ]
 pageType = "text"
 
 [scripts]
@@ -52,7 +52,7 @@ Copilot may then also copy the hidden instructions into the resulting document, 
 見た目で人間には分からないように加工されてるんだから，人間が確認するのは無理じゃね？ と思うのだが，深くはツッコむまい。
 強いて言うなら [WYSIWYG](https://ja.wikipedia.org/wiki/WYSIWYG "WYSIWYG - Wikipedia") な Office Suite はそろそろ捨てるべきなんじゃないっスかね。
 
-問題は，現在の LLM がプロンプトベースで構成されており，原理的に指示とデータを分離できない点にある（記事では 意図（intention）と 解釈（interpretation）の未分離と指摘しているので，ちょっと違うが）。
+問題は，現在の LLM がプロンプトベースで構成されており，原理的に指示とデータを分離できない点にある（記事では意図（intention）と解釈（interpretation）の未分離と指摘しているので，ちょっと違うが）。
 
 {{< fig-quote type="markdown" title="AI Worming through Word" link="https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/" lang="en">}}
 The long-term challenge likely lies in designing systems in which goals and intentions also exist independently of the information being processed.  Current LLM architectures provide no reliable separation between intention and interpretation. Thus, in current systems with embedded LLMs, attacker-controlled information can influence not only what the model produces, but what the model believes it has been asked to produce.
@@ -142,7 +142,7 @@ Anthropic 社でも似たような[不正アクセスの事例](https://www.sbbi
 **Autonomy**. In robotics and human-robot interaction, autonomy is broadly interpreted as “the ability to operate without a human operator for a protracted period of time”. We build off this definition and use autonomy to refer to **the extent to which an AI agent is designed to operate without user involvement**. Per our earlier definition, “user” can be a human or another AI agent. We use “designed to operate” because, as we later argue, autonomy is a design decision accompanied by a set of model- and user interface-based constraints that developers can use to shape agent behavior. “Involvement” is multifaceted and includes a spectrum of actions from direct control to light supervision. The multifaceted nature of involvement forms the foundation of our autonomy framework we will introduce later.
 {{< /fig-quote >}}
 
-つまりロボット工学などの分野では「自律」は「長時間にわたり人間のオペレーターなしで作動できる能力」を指し， AI 分野においては「ユーザーの関与なしに動作するよう（AI エージェントが）設計されているか」ということらしい。
+つまりロボット工学などの分野では「自律」は「長時間にわたり人間のオペレーターなしで作動できる能力」を指し，AI 分野においては「ユーザーの関与なしに動作するよう（AI エージェントが）設計されているか」ということらしい。
 技術分野における「自律」の定義がこのとおりならロボット掃除機も「自律」だし惑星探査機のはやぶさも「自律」ということなんだろう。
 前節のセキュリティ事例も AI 分野での「自律」の定義に従えば（想定外かも知れないが）暴走ではないということになる。
 
