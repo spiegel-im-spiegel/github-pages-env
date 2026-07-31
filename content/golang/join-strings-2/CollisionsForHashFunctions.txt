@@ -1,0 +1,69 @@
+*一方向ハッシュ関数の衝突問題に関する情報 [#ze1ecf1a]
+
+皆様からの情報をお待ちしています。
+情報はお気軽に書きこんでいってください。
+
+#contents
+
+**一次情報またはニュース記事 [#j76e79fb]
+
+-[[Collisions for Hash Functions MD4, MD5, HAVAL-128 and RIPEMD (Cryptology ePrint Archive):http://eprint.iacr.org/2004/199/]] (August 16-17, 2004)
+-[[CRYPTO'04 rump session program (PDF):http://www.iacr.org/conferences/crypto2004/C04RumpAgenda.pdf]]
+-[[NIST Brief Comments on Recent Cryptanalytic Attacks on Secure Hashing Functions and the Continued Security Provided by SHA-1 (PDF):http://csrc.nist.gov/hash_standards_comments.pdf]]
+-[[暗号アルゴリズムに重大な欠陥発見の報告相次ぐ:http://japan.cnet.com/news/sec/story/0,2000050480,20070525,00.htm]]
+-[[SHA-0、MD5、 MD4にコリジョン発見、reduced SHA-1も:http://slashdot.jp/article.pl?sid=04/08/18/0257220]]
+-[[今こそ新しい暗号化標準が必要だ （ブルース・シュナイアー氏によるコラム）:http://www.itmedia.co.jp/anchordesk/articles/0408/20/news063.html]]
+-[[Centeraは「MD5の欠陥による影響を受けない」と主張するEMC:http://www.itmedia.co.jp/enterprise/articles/0408/24/news081.html]]
+-[[Collisions for SHA0, MD5, HAVAL, MD4, and RIPEMD, but SHA1 still secure (RSA lab):http://www.rsasecurity.com/rsalabs/node.asp?id=2738]] (August 31, 2004)
+-[[ハッシュ関数SHA-1及びRIPEMD-160の安全性について (CRYPTREC):http://www.ipa.go.jp/security/enc/CRYPTREC/fy16/cryptrec20040914_report01.html]]
+--[[ハッシュ関数SHA-1及びRIPEMD-160の安全性について (CRYPTREC):http://www2.nict.go.jp/ns/s801/102/fy16/cryptrec20040914_SHAcomment.htm]]
+-[[CRYPTO2004 レポート (SoftwareDesign2004年11月号) :http://h2np.net/docs/crypto2004.html]]
+-[[GnuPG stable 1.4 released:http://lists.gnupg.org/pipermail/gnupg-announce/2004q4/000186.html]] (Dec. 2004)
+--"SHA256, SHA384, and SHA512 hashes are now supported for read and write. ...the revised OpenPGP standard removes support for several unused or mostly unused hashes"
+-[[MD5 To Be Considered Harmful Someday:http://www.st.ryukoku.ac.jp/~kjm/security/ml-archive/bugtraq/2004.12/msg00050.html]]
+-[[Collision Search Attacks on SHA1:http://theory.csail.mit.edu/~yiqun/shanote.pdf]] (February 13, 2005)
+-[[NIST Brief Comments on Recent Cryptanalytic Attacks on SHA-1:http://csrc.nist.gov/news-highlights/NIST-Brief-Comments-on-SHA1-attack.pdf]] (PDF, 2/18/2005)
+-[[暗号通信などに用いられる「SHA-1」の攻撃を容易にする研究が公表:http://internet.watch.impress.co.jp/cda/news/2005/02/22/6541.html]]
+-[[Colliding X.509 Certificates:http://www.win.tue.nl/~bdeweger/CollidingCertificates/]] (March 1, 2005)
+-[[Colliding X.509 Certificates (Cryptology ePrint Archive):http://eprint.iacr.org/2005/067]] (March 1, 2005)
+-[[Finding MD5 Collisions – a Toy For a Notebook (Cryptology ePrint Archive):http://eprint.iacr.org/2005/075]] (March 5, 2005)
+-[[How to Break MD5 and Other Hash Functions:http://www.infosec.sdu.edu.cn/paper/md5-attack.pdf]] (PDF)
+-[[Cryptanalysis of the Hash Functions MD4 and RIPEMD:http://www.infosec.sdu.edu.cn/paper/md4-ripemd-attck.pdf]] (PDF)
+-[[CRYPTREC Report 2004 (April 19, 2005):http://cryptrec.nict.go.jp/fy16/cryptrec20050331_c04report.htm]]
+-[[ハッシュ関数に関する研究動向について (CRYPTREC, April 20, 2005):http://www.ipa.go.jp/security/enc/CRYPTREC/fy17/cryptrec20050420_report01.html]]
+-[[Improved Collision Attack on MD4:http://eprint.iacr.org/2005/151]](ePrint-2005/05/20)
+--[[Wang(2004):http://eprint.iacr.org/2004/199]]によるMD4コリジョン発見手法の改良。電気通信大学[[太田・國廣 研究室:http://ota-pc.ice.uec.ac.jp/]]による。
+-[[Attacking Hash Functions by Poisoned Messages "The Story of Alice and her Boss":http://www.cits.rub.de/MD5Collisions/]]
+-[[Finding Collisions in the Full SHA-1:http://www.infosec.sdu.edu.cn/paper/sha1-crypto-auth-new-2-yao.pdf]] (PDF)
+-[[Wang's sufficient conditions of MD5 are not sufficient:http://eprint.iacr.org/2005/263]]
+-[[ITmediaニュース：脆弱な暗号化アルゴリズムが呼ぶ懸念:http://www.itmedia.co.jp/news/articles/0511/02/news016.html]]
+-[[米政府、 SHA-1に代わる暗号アルゴリズムの新標準策定を検討 - CNET Japan:http://japan.cnet.com/news/sec/story/0,2000050480,20090227,00.htm]]
+-[[japan.linux.com | セキュリティの大御所が集まり、代替暗号法を話し合う:http://japan.linux.com/security/05/11/08/0213251.shtml?topic=1]]
+
+**日記/Weblog 等による情報 [#bebb1951]
+
+-[[SHA-1 Break Rumored (Felten教授のblog, August 16-17-18, 2004):http://www.freedom-to-tinker.com/archives/000661.html]]
+-[[「計算機暗号屋日記」 8月17-25日の記事:http://flu.hn.org/~maro/j/diary/0408.html]]
+-[[「Educated Guesswork」 8月16-19日:http://www.rtfm.com/movabletype/archives/2004_08.html]]
+-[[さっき、その会場から戻ってきました (Slashdot.jp, 8月18-19日):http://slashdot.jp/comments.pl?sid=203703&cid=607130]]
+-[[「結城浩の日記」 8/19 の記事:http://www.hyuki.com/diary/dia0408.html#i19_03]]
+-[[「結城浩の日記」 8/20 の記事:http://www.hyuki.com/diary/dia0408.html#i20_14]]
+-[[ハッシュ値の衝突問題 (Baldanders.info/blog):https://baldanders.info/blog/archives/000048.shtml]]
+-[[「Radium Software Development」 MD5 Collision:http://www.radiumsoftware.com/0408.html#040820]]
+-[[SHA-1 Broken (Schneier on Security):http://www.schneier.com/blog/archives/2005/02/sha1_broken.html]] (February 15, 2005) -- full SHA-1 も突破されたようです。
+-[[Cryptanalysis of SHA-1 (Schneier on Security):http://www.schneier.com/blog/archives/2005/02/cryptanalysis_o.html]] (February 18, 2005)([[「解読されたSHA-1」和訳:http://itpro.nikkeibp.co.jp/free/ITPro/Security/20050401/158327/]](IT Pro,2005/04/07))
+-[[Crypto researchers break SHA-1 (The Register):http://www.theregister.co.uk/2005/02/17/sha1_hashing_broken/]] (17th February 2005)
+-[[SHA-1が破られた？:http://motivate.jp/archives/2005/02/sha1.html]] (武田圭史さん, 2005年02月16日)
+-[[「SHA-1が破られた」と言うリサーチノートの現物:http://motivate.jp/archives/2005/02/sha1_1.html]] (武田圭史さん, 2005年02月19日)
+-[[SHA-1が破られた？（続報）:http://motivate.jp/archives/2005/02/sha1_2.html]] (武田圭史さん, 2005年02月19日)
+-[[Tiger2 --- with MD5/SHA compatible padding to appear soon:http://www.cs.technion.ac.il/~biham/Reports/Tiger]] (Eli Biham with [[Ross Anderson:http://www.cl.cam.ac.uk/~rja14/]], March 2005)
+-[[More Hash Function Attacks (Schneier on Security):http://www.schneier.com/blog/archives/2005/03/more_hash_funct.html]] (March 10, 2005)
+-[[How to Break MD5 and Other Hash Functions (Financial Cryptography):http://www.financialcryptography.com/mt/archives/000394.html]]
+-[[ハッシュ関数の破り方:http://motivate.jp/archives/2005/03/post_29.html]] (武田圭史さん, 2005年03月14日)
+-[[New Cryptanalytic Results Against SHA-1 (Schneier on Security):http://www.schneier.com/blog/archives/2005/08/new_cryptanalyt.html]]
+-[[Schneier on Security: NIST Hash Workshop Liveblogging (1):http://www.schneier.com/blog/archives/2005/10/nist_hash_works_1.html]]
+-[[Schneier on Security: NIST Hash Workshop Liveblogging (2):http://www.schneier.com/blog/archives/2005/10/nist_hash_works_2.html]]
+-[[Schneier on Security: NIST Hash Workshop Liveblogging (3):http://www.schneier.com/blog/archives/2005/10/nist_hash_works_3.html]]
+-[[Schneier on Security: NIST Hash Workshop Liveblogging (4):http://www.schneier.com/blog/archives/2005/11/nist_hash_works.html]]
+-[[Schneier on Security: NIST Hash Workshop Liveblogging (5):http://www.schneier.com/blog/archives/2005/11/nist_hash_works_4.html]]
+-[[MD5 Collision Generation:http://www.stachliu.com/collisions.html]] (Stach & Liu)

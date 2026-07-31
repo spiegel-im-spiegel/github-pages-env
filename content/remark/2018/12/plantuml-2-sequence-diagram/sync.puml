@@ -1,0 +1,14 @@
+@startuml
+
+participant "Object A" as A
+participant "Object B" as B
+
+A -> B : Synchronous Message
+activate B
+
+B -> B : Internal call
+
+A <<-- B : Reply Message
+deactivate B
+
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+
+entity Entity01
+entity Entity02
+entity Entity03
+entity Entity04
+entity Entity05
+entity Entity06
+entity Entity07
+entity Entity08
+
+Entity01 "1..n" .. "1" Entity02
+Entity03 "0..n" .. "0,1" Entity04
+Entity05 "1" -- "0..n" Entity06
+Entity07 "0,1" -- "1" Entity08
+
+@enduml

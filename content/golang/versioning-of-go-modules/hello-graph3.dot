@@ -1,0 +1,16 @@
+digraph gomod {
+	subgraph cluster_master {
+		fontname="Inconsolata"
+		label = "master branch";
+		N1 [ fontname="Inconsolata",label="hello\nv1.0" ];
+		N2 [ fontname="Inconsolata",label="hello\nv1.1" ];
+	};
+	subgraph cluster_v2 {
+		fontname="Inconsolata"
+		label = "v2 branch";
+		N3 [ fontname="Inconsolata",label="hello/v2\nv2.0" ];
+		N4 [ fontname="Inconsolata",label="hello/v2\nv2.1" ];
+	};
+	N1->N2;
+	N1->N3->N4;
+}

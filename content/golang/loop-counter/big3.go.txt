@@ -1,0 +1,17 @@
+package main
+
+import (
+	"fmt"
+	"math/big"
+)
+
+func main() {
+	x := &big.Rat{} //Zero initialize
+	y := big.NewRat(1, 10)
+
+	for i := 0; i < 10; i++ {
+		z := (&big.Rat{}).Add(x, y)
+		fmt.Printf("z = %s (%v)\n", z.FloatString(20), z)
+		x.Set(z)
+	}
+}

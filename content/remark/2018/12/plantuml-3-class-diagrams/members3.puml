@@ -1,0 +1,11 @@
+@startuml
+
+hide circle
+skinparam classAttributeIconSize 0
+
+class ClassName {
+  {classifier} {field} + staticField : String = "string" {read only}
+  {classifier} {method} + staticMethod() : void
+}
+
+@enduml

@@ -1,0 +1,53 @@
+package main
+
+import (
+	"fmt"
+	"io"
+	"strconv"
+	"strings"
+)
+
+type Planet struct {
+	Name string
+	Mass float64
+}
+
+func (p Planet) String() string {
+	return fmt.Sprintf("%s (%.3f)", p.Name, p.Mass)
+}
+
+func (p Planet) GoString() string {
+	return fmt.Sprintf(`main.Planet{Name:%s, Mass:%.3f}`, strconv.Quote(p.Name), p.Mass)
+}
+
+func (p Planet) Format(s fmt.State, verb rune) {
+	switch verb {
+	case 'v':
+		switch {
+		case s.Flag('#'):
+			io.Copy(s, strings.NewReader(p.GoString()))
+		case s.Flag('+'):
+			fmt.Fprintf(s, `{"Name":%s,"Mass":%.3f}`, strconv.Quote(p.Name), p.Mass)
+		default:
+			io.Copy(s, strings.NewReader(p.String()))
+		}
+	case 's':
+		io.Copy(s, strings.NewReader(p.String()))
+	default: //bad verb
+		fmt.Fprintf(s, `%%!%c(%s)`, verb, p.GoString())
+	}
+}
+
+var planets = []Planet{
+	{Name: "Mercury", Mass: 0.055},
+	{Name: "Venus", Mass: 0.815},
+	{Name: "Earth", Mass: 1.0},
+	{Name: "Mars", Mass: 0.107},
+}
+
+func main() {
+	fmt.Printf("%v\n", planets)
+	fmt.Printf("%#v\n", planets)
+	fmt.Printf("%+v\n", planets)
+	fmt.Printf("%d\n", planets)
+}

@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/spiegel
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://text.baldanders.info
+  * I am spiegel (https://keybase.io/spiegel) on keybase.
+  * I have a public key with fingerprint 69F7 64E3 CACF AC40 7554  994E 4C21 0DA2 E86B D48E
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101577508e18bab9af35dafdb3d1e5776e008269e544d1d45affdd90c5346a385e00a",
+            "fingerprint": "69f764e3cacfac407554994e4c210da2e86bd48e",
+            "host": "keybase.io",
+            "key_id": "4c210da2e86bd48e",
+            "kid": "0101577508e18bab9af35dafdb3d1e5776e008269e544d1d45affdd90c5346a385e00a",
+            "uid": "76295178e462edf64da4dcd7bdf06100",
+            "username": "spiegel"
+        },
+        "service": {
+            "hostname": "text.baldanders.info",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1444378856,
+    "expire_in": 157680000,
+    "prev": "77cc979fac352a5a76e7c3d493313a997598f6b0f796a7b2f1724c30962f280b",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.47
+Comment: https://keybase.io/crypto
+
+yMIsAnicrVJLaBNBGE401jaaEoqNevDR1VOt6ezu7GOCEF8XiWJBrB7UMLszm65N
+d5PNpibUoqIXn1gVQaVKlYIiiocqXiT1geKjYkHEloq2Wl/4wIMi4mu26M2jcxnm
+/7/vm+/7+W+ExvuC/pvbYmfJwLao/+7VzryvcWrhdRun2aTIxdq4Zjp20TShOTfZ
+bBIuxgEe8JKiSEClvKphDWFDlAg2iCYSnrKOTAFQBRlRCULCEyhhwyAEAV0SoYxF
+VWJ9zNVxhmmlqJNxTMtlsjIyFBlSUce6gXUIFEmCCEEKdYEHBAtUlTUCVcqITXbO
+YzBzGs7RqGmzGnskx+z9A/+ffefH5BRZQBKvqBTKAiWGDAmGRCeKRgwg8wB4wBx1
+LNxCGTqXMWmKprn2Oo4VW02denP1gvwBuLTgRjWcJtgi1MlFTcvwYmUc27V1O80Q
+Ta6biXkCbjHjMTZRLflHK6mZFmHTZIRWRjZti4vxDKm7pifOQwhFRVUluY6jhYzp
+0KTpISRFVgE73je01cuk6DpSEJu/KAlYwmwkii4SiESRFzFCioRUQ9aAoSAZK5pg
+8IoAdREgWTAEFWicly5r2VwMMZs45QU3UxZ28w7l2q/1rgv4/EFf2YRx3pb5ghXh
+v7uXqJn4a3kx2AHemk8urkktvj9ruGvweMe0/Tsvb5/srwIbS5fvVPKHu8P1XTM+
++HaAdOnz9LLbhb2JM5PKnrY0ZvuqIg/G3WrYMtqzrD7xoubr2pVDTRPODT+cMq/Y
+Y/Yt3Kf3ZY/EPw2eGjna3jta+Pn4xYqTsZ7Ij/o9pRX9hfjc0obskt3n+0+HNh1b
+cGK99XGm1v3uyqutLflvtYWOUNevL4H3Nd8P1Q10fpn6Znz56KPB3sqlL48/W+Z0
++rPB/UeHFq0JgP7qykjVysSc+Iy18BIojxgXiuJBX1O64tW86pHa2bvCcGIgPtzQ
+tvrAguuii2ZN3xyoQG8K80NHws/vrfqJc78BE2s6Ug==
+=0/kQ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/spiegel
+
+==================================================================

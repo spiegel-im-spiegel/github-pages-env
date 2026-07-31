@@ -1,0 +1,16 @@
+package main
+
+import (
+	"fmt"
+
+	"golang.org/x/text/unicode/norm"
+)
+
+func main() {
+	for r := rune(0x2f00); r <= 0x2fd5; r++ {
+		rr := []rune(norm.NFKC.String(string([]rune{r})))
+		if r != rr[0] {
+			fmt.Printf("%#U -(NFKC)-> %#U\n", r, rr[0])
+		}
+	}
+}

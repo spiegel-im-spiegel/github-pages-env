@@ -1,0 +1,1 @@
+{{ range sort (where hugo.Data.reviews "Rating" ">" 0) "Date" "desc" }}{{ partial "review-box.html" . }}{{ end }}

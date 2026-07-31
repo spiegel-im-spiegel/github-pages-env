@@ -1,0 +1,145 @@
+**Hugo Skills - Operation Guide**
+
+- **Purpose**: This document defines Hugo-related operational rules for Copilot in this repository.
+
+**Section Index**
+
+- **Writing Style**: Rules for Japanese punctuation and sentence style.
+- **Local Commands**: Command reference for daily authoring and maintenance tasks.
+- **Deploy Playbook**: Standard publishing workflow, checks, and post-deploy handling.
+- **Osanpo Metadata (`data/osanpo.toml`)**: Purpose and commit handling rules for top-page photo metadata.
+- **Archetypes and Front Matter**: Post scaffold behavior and front matter conventions.
+- **AI Block Rules**: When and how to use `div-ai` and related migration notes.
+
+**Writing Style**
+
+- In Japanese sentences, use `，` for commas and `。` for periods.
+- Keep ruby for `追従` as `ついしょう` when the intent is "sycophancy/obsequious following"; this is a rare, intentional reading and should not be auto-corrected to `ついじゅう`.
+
+**Local Commands**
+
+- **`new.sh`**: Helper script for creating posts.
+  - Auto-detects `archetypes/*.md` and runs `hugo new --kind=<kind> <path>`.
+  - Uses safe shell options `set -euo pipefail`.
+  - For `remark` and `bookmarks`, default file names are prefixed with `DD-`.
+  - First argument is treated as either a section name or a file name.
+- **`ml`**: Converts a URL to Markdown link format.
+  - Usage: `ml "https://example.com/article"`
+  - Output: `[Page Title](https://example.com/article)`
+- **`rg`** (`ripgrep`): Preferred text search command for article proofreading.
+  - Usage examples:
+    - `rg "フィッシング" content/remark`
+    - `rg "Signal Support|Registration Lock" content/remark/2026/04/signal-attack-patterns.md`
+  - Install on Ubuntu/Debian: `sudo apt install -y ripgrep`
+  - Alternative install: `sudo snap install ripgrep`
+  - Verify: `rg --version`
+- **`build.sh`**: Build entry point.
+  - Runs `./toptags.sh` and `./tagslist.sh`, then runs Hugo with destination `../text-publishd`.
+- **`publish.sh`**: Build and publish helper.
+  - Runs `./build.sh` and then commits/pushes in `../text-publishd`.
+  - Usage:
+    - `./publish.sh`
+    - `./publish.sh "your commit message"`
+  - If no argument is provided, uses the latest commit subject from `text`.
+- **`tagslist.sh`**: Rebuilds `.github/workflows/tagslist.csv` from front matter tags.
+- **`toptags.sh`**: Rebuilds `data/toptags.json` from recent posts.
+- **`hugo_inst.sh`**: Updates Hugo using latest GitHub Release `.deb`.
+
+- **External `tagtools` policy**:
+  - Default source is external distribution via `go install` (`TAGTOOLS_SOURCE=external`).
+  - Default version must be pinned (`TAGTOOLS_VERSION=vX.Y.Z`), not `latest`, for reproducible builds.
+  - `latest` is allowed only for trial validation before version bump.
+  - SemVer handling:
+    - Breaking changes require a major version bump.
+    - Backward-compatible features use minor bump.
+    - Fixes/security-only changes use patch bump.
+  - Breaking changes include:
+    - Subcommand rename/removal.
+    - Option/env compatibility break (`TOP_N`, `TOPTAGS_WINDOW`, `TAGTOOLS_*`).
+    - Output format changes (`tagslist.csv`, `toptags.json`, `verify --debug` JSON keys).
+  - Integrity policy:
+    - Release checksums are mandatory.
+    - Artifact signing (GPG/cosign) is optional for future adoption.
+  - Standard update flow:
+    1. Run trial with `TAGTOOLS_VERSION=latest` and verify outputs (`tagslist.csv`/`toptags.json`).
+    2. If no regression, update default `TAGTOOLS_VERSION` in `build.sh`, `tagslist.sh`, and `toptags.sh`.
+    3. Re-run `./build.sh` and `./publish.sh` routine checks.
+
+- **External `tagtools` rollback routine**:
+  - Trigger: external `tagtools` execution fails and cannot be fixed quickly, or output compatibility breaks.
+  - Immediate action:
+    1. Restore `tagtools/orgsh/tagslist.sh` -> `tagslist.sh`.
+    2. Restore `tagtools/orgsh/toptags.sh` -> `toptags.sh`.
+    3. Ensure executable bits (`chmod +x tagslist.sh toptags.sh`).
+    4. Re-run `./toptags.sh`, `./tagslist.sh`, and `./build.sh`.
+  - Verification:
+    - Check generated diffs (`.github/workflows/tagslist.csv` and `data/toptags.json`).
+    - Confirm normal `./publish.sh` flow works.
+
+**Deploy Playbook**
+
+- Standard order for article publication tasks:
+  1. Check changed files in `text`, and confirm whether non-article changes (for example `themes/baldanders-info`) should be included.
+  2. Run a light pre-publish check (typos, links, and front matter: `title`, `description`, `tags`, `draft`, `date`).
+  3. Propose 3-5 commit message candidates and proceed after one is selected.
+  4. Commit source changes in `text`.
+  5. Push source changes when requested.
+  6. Run `./publish.sh` to build and deploy to `../text-publishd`.
+  7. Check both repositories after deploy and report remaining local changes.
+- Keep status reports concise and focused on actionable deltas.
+- Update front matter `description` only when its current value is the placeholder string `description`.
+- After deploy, if `.github/workflows/tagslist.csv` and/or `data/toptags.json` remain uncommitted in `text`, handle them in a separate commit.
+- For that separate commit, choose the commit message automatically and do not push.
+
+**Osanpo Metadata (`data/osanpo.toml`)**
+
+- `data/osanpo.toml` stores the top-page representative photo metadata for `osanpo-camera` posts.
+- If an article includes the `osanpo-camera` tag, `data/osanpo.toml` may change together with the article.
+- When article changes and `data/osanpo.toml` are clearly linked, include them in the same source commit.
+
+**Hugo Upgrade and Redeploy Routine**
+
+1. Check both repositories first (`git status --short` in `text` and `../text-publishd`).
+2. Check current Hugo version (`hugo version`).
+3. Ask the user to run `./hugo_inst.sh` in their local terminal to install the latest release.
+4. Do not run `./hugo_inst.sh` via Copilot agent because sudo password prompts may fail in agent-managed sessions.
+5. Verify installed version again (`hugo version`).
+6. Run `./publish.sh` to rebuild and deploy with the new Hugo.
+7. Re-check both repositories after deploy and report remaining local changes.
+8. If `text` has only generated tag artifacts after deploy, create a separate local commit and do not push.
+9. If asked whether publish changes are version-only, review the latest commit with `git show --numstat` and inspect outlier files before concluding.
+
+- Minor-version upgrade caution checklist:
+  1. If `./publish.sh` fails after Hugo upgrade, inspect the full error first and prioritize compatibility fixes in `hugo.toml` before retrying.
+  2. For security-policy errors, check `security.allowContent` and ensure both markdown and required legacy formats (for example `text/html`) are explicitly allowed.
+  3. After successful publish, sample-check changed files in `../text-publishd` and verify whether diffs are mostly generator-version updates or formatting-only changes.
+  4. Summarize any outliers (content-level changes, missing pages, broken links, missing assets) before concluding the upgrade impact is safe.
+
+**Archetypes and Front Matter**
+
+- Front matter is generated according to `archetypes/*.md` (for example, `archetypes/remark.md`).
+- `slug` is not automatically added. Add it manually only when needed.
+- For English titles, use lowercase hyphen-separated slugs (for example, `reading-is-dead`).
+- Post creation examples:
+
+```bash
+./new.sh remark                # creates content/remark/<YYYY>/<MM>/stories.md
+./new.sh bookmarks             # creates content/bookmarks/<YYYY>/<MM>/bookmarks.md
+./new.sh release my-post.md    # creates content/release/<YYYY>/<MM>/my-post.md
+./new.sh some/path.md          # creates at arbitrary path
+```
+
+**AI Block Rules**
+
+- Use `div-ai` for AI-generated or AI-summarized text blocks.
+- Basic wrapper:
+
+```markdown
+{{< div-ai type="markdown" >}}
+...AI-generated content...
+{{< /div-ai >}}
+```
+
+- Keep `div-box` for non-AI notes (manual updates, side remarks, generic callouts).
+- When updating older posts, replace `div-box` with `div-ai` only for sections explicitly described as AI output.
+- To list likely migration candidates, run `./div-ai-check.sh` (or `./div-ai-check.sh content/remark`).

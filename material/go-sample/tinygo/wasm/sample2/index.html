@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Hello</title>
+<script src="wasm_exec.js"></script>
+<script src="wasm.js"></script>
+</head>
+
+<body>
+	<button>Hello</button>
+	<p id="hello"></p>
+</body>
+
+<script>
+	initWASM('hello2.wasm');
+	document.querySelector('button').addEventListener('click', event => {
+		document.getElementById("hello").innerHTML = global.say("Alice", "Bob", "Chris");
+	});
+</script>
+</html>

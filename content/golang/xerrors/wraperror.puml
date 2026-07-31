@@ -1,0 +1,21 @@
+@startuml
+
+skinparam minClassWidth 130
+
+abstract class error <<interface>> {
+  {abstract} {method} + Error() : string
+}
+abstract class "xerrors.Wrapper" as Wrapper <<interface>> {
+  {abstract} {method} + Unwrap() : error
+}
+class ImplementedError {
+  {field} ~ err : error
+  {field} ~ frame : Frame
+  {method} + Error() : string
+  {method} + Unwrap() : error
+}
+
+ImplementedError .up.|> error
+ImplementedError .up.|> Wrapper
+
+@enduml

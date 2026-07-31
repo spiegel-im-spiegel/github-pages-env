@@ -1,0 +1,57 @@
+{{ partial "top.html" . }}
+<head prefix="og: http://ogp.me/ns#">{{ $siteTitle := .Site.Title | plainify }}
+{{ partial "header.html" . }}
+<title>{{ $siteTitle }}</title>
+<meta property="og:title" content="{{ $siteTitle }}">{{ with hugo.Data.site }}{{ with .description }}
+<meta name="description" content="{{ . | plainify }}">
+<meta property="og:description" content="{{ . | plainify }}">{{ end }}{{ with .image }}
+<meta property="og:image" content="{{ . | absURL }}">{{ end }}{{ end }}
+{{ partial "twitter-card.html" . }}
+{{ partial "mastodon-me.html" . }}
+
+{{ partial "json-ld-site.html" . }}
+</head>
+<body>
+{{ partial "prepare.html" . }}
+<div id='container'><!-- Container Area -->
+{{ partial "banner.html" . }}
+
+<main><article>
+<h1>最新記事（in {{ sub (len .Site.RegularPages) 23 | lang.FormatNumber 0 }} Entries）</h1>
+
+<ul class="title-list">
+{{ range first 5 .Site.RegularPages }}{{ partial "li.html" . }}{{ end }}
+</ul>
+
+<h2>最近の主な <a href="tags/">Tags</a></h2>
+
+{{ with hugo.Data.toptags }}<ul class="cloud" style="font-size:smaller;">
+{{ range $value := . -}}
+  <li>#<a href="{{ printf "/tags/%s/" (lower $value) | urlize | relURL }}">{{ $value }}</a></li>
+{{ end }}</ul>{{ end }}
+
+{{ with hugo.Data.osanpo }}<h2>最近の<a href="/tags/osanpo-camera/">お散歩カメラ</a></h2>
+
+<figure style='margin:0 auto;text-align:center;'>
+	<a href="{{ .flickr }}">
+		<img
+			src="{{ .path }}"
+			srcset="{{ .path }} 500w"
+			sizes="(min-width:600px) 500px, 80vw"
+			alt="{{ .title }}"
+			loading="lazy">
+	</a>
+	<figcaption><div>
+		<a href="{{ .flickr }}">{{ .title }}</a>
+	</div></figcaption>
+</figure>{{ end -}}
+
+<p>最近の更新状況などは<a href='{{ "/status/" | relURL }}'>こちら</a></p>
+
+</article></main>
+
+{{ partial "footer.html" . }}
+</div><!-- Container Area -->
+{{ partial "cleanup.html" . }}
+</body>
+{{ partial "end.html" . }}

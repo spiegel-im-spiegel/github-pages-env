@@ -1,0 +1,64 @@
+package main
+
+import (
+	"encoding/json"
+	"fmt"
+	"os"
+
+	"github.com/koron/go-dproxy"
+)
+
+var sampleJSON = `{
+  "books": [
+    {
+      "Type": "aozora",
+      "ID": "56839",
+      "Title": "ニャルラトホテプ",
+      "OriginalTitle": "NYARLATHOTEP",
+      "URL": "https://www.aozora.gr.jp/cards/001699/card56839.html",
+      "ProductType": "青空文庫",
+      "Creators": [
+        {
+          "Name": "ラヴクラフト ハワード・フィリップス"
+        },
+        {
+          "Name": "大久保 ゆう",
+          "Role": "翻訳"
+        }
+      ],
+      "PublicationDate": "2014-04-04",
+      "LastRelease": "2015-08-19"
+    },
+    {
+      "Type": "aozora",
+      "ID": "4307",
+      "Title": "グリゴリの捕縛",
+      "URL": "https://www.aozora.gr.jp/cards/000021/card4307.html",
+      "ProductType": "青空文庫",
+      "Creators": [
+        {
+          "Name": "白田 秀彰"
+        }
+      ],
+      "PublicationDate": "2001-11-26",
+      "LastRelease": "2014-09-17"
+    }
+  ]
+}`
+
+func main() {
+	var decodeData map[string]interface{}
+	if err := json.Unmarshal([]byte(sampleJSON), &decodeData); err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return
+	}
+
+	a, err := dproxy.New(decodeData).M("books").A(0).M("Creators").Array()
+	if err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return
+	}
+	fmt.Println(a)
+	// Output:
+	// [map[Name:ラヴクラフト ハワード・フィリップス] map[Name:大久保 ゆう Role:翻訳]]
+}

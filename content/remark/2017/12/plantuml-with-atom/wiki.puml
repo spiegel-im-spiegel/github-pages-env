@@ -1,0 +1,7 @@
+@startuml
+!include style-all.puml
+
+hide members
+abstract class Wiki <|- class Wikipedia: generalization
+
+@enduml

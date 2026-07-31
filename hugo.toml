@@ -1,0 +1,46 @@
+theme = "baldanders-info"
+baseurl = "https://text.baldanders.info/"
+title = "text.Baldanders.info"
+locale = "ja-jp"
+DefaultContentLanguage = "ja"
+preserveTaxonomyNames = false
+disqusShortname = "textbaldandersinfo"
+#dataDir = "data"
+enableGitInfo = true
+
+[frontmatter]
+  lastmod = ["lastmod", ":git", "update", "date", "publishDate"]
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$'], ['\begin{aligned}', '\end{aligned}']]
+    [markup.goldmark.parser]
+      autoHeadingID = false
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = false
+    style = "tango"
+    tabWidth = 4
+
+[taxonomies]
+  tags = "tags"
+
+[security]
+  allowContent = ["^text/markdown$", "^text/html$"]

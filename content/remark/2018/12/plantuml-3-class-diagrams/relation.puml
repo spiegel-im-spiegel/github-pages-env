@@ -1,0 +1,12 @@
+@startuml
+
+hide circle
+
+Class01 <|-- Class02 : Generalization
+Class03 <|.. Class04 : Realization
+Class05 <.. Class06 : Dependency
+Class07 -- Class08 : Association
+Class09 o-- Class10 : Aggregation
+Class11 *-- Class12 : Composition
+
+@enduml

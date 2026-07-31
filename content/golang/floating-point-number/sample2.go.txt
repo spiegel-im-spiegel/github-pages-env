@@ -1,0 +1,21 @@
+package main
+
+import (
+	"fmt"
+	"strconv"
+)
+
+const value = 0xa0000001
+
+var (
+	i64 = int64(value)
+	f64 = float64(value)
+	f32 = float32(value)
+)
+
+func main() {
+	fmt.Println(strconv.FormatFloat(f64, 'f', -1, 64))
+	fmt.Println(strconv.FormatFloat(f64, 'f', -1, 32))
+	fmt.Println(strconv.FormatFloat(float64(f32), 'f', -1, 64))
+	fmt.Println(strconv.FormatFloat(float64(f32), 'f', -1, 32))
+}

@@ -1,0 +1,73 @@
+# FAQ: CC and NFTs
+
+We have seen many people using the [CC0 public domain dedication](https://creativecommons.org/share-your-work/public-domain/cc0/) as well as some of [CC’s licenses](https://creativecommons.org/licenses/) with non-fungible tokens (NFTs). There is a lot of confusion around the way CC0 and the CC licenses interact with NFTs, so we’ve put together this basic guidance to clarify some of the common questions we see.
+
+These technologies as well as the practices, policies, and terms that describe them are continually evolving. This FAQ provides CC’s latest understanding and interpretation of how NFTs relate to the CC open licensing and public domain tools, but is not a comprehensive guide, nor is it specific legal advice. We will continue to update this FAQ as our understanding and interpretation develops.
+
+Last updated: 2022-09–09
+
+## What are NFTs, and can they be used in connection with CC licenses?
+
+NFTs are uniquely identifiable units of data that can be linked to digital files, including artistic works and other types of copyrightable works. After an NFT connected to a work is “minted,” any sale of that NFT will be digitally recorded on a blockchain, and the NFT buyer then owns a unique token connected to the work.
+
+Notably, however, the NFT buyer does not automatically acquire the copyright to the linked work unless they also have a separate legal agreement explicitly assigning copyright. Similar to owning a numbered print of a piece of art, the owner of an NFT controls what happens to the particular token they own. Without a separate assignment, they do not hold the rights to the work underlying the token nor do they control others’ ability to copy or remix the work—those rights remain exclusively held by the rightsholder of the underlying work.
+
+CC legal tools are a standardized way for creators to enable their works to be copied, shared, and reused by the public, which would otherwise be forbidden under copyright law without specific permission from the rightsholder. Because ownership of an NFT and ownership of the copyright of the underlying work can be separate, it is possible to use CC licenses on the works underlying the NFTs, and some creators are already doing so.
+
+## What is CC0? How does it work? Is it a license?
+
+CC0 is a dedication of a work to the public domain. It is often mistakenly referred to as a license because it does affect the copyright to the work. But while a license describes what the rightsholder permits you to do, the CC0 dedication releases all rights so that no one is a rightsholder and the work belongs to the public. When you use CC0, you are releasing all rights under copyright and stating that you do not wish to have any control over the rights to the work—that the work is free for all uses by anyone.
+
+CC0 (just like all CC licenses and tools) applies only to rights under copyright—other rights, such as personality rights, trademark rights, and privacy rights may still be enforced unless explicitly waived using some other mechanism. As the ownership of an NFT linked to a work is not a right held under copyright, the NFT may continue to be held and transferred even when the associated work is released under CC0.
+
+In a few jurisdictions, a full public domain release is not legally possible, so CC0 contains a fallback license for those cases, where the rightsholder grants all possible permissions. While the legal technicalities differ, the end result is the same: anyone can use a CC0 work for any purpose.
+
+## Is it meaningful to use CC0 with an NFT? If so, what does it mean?
+
+When a work linked to an NFT is released into the public domain with CC0, the underlying work may be freely shared and remixed by anyone even though the token itself can have only a single owner at a time.
+
+The CC0 public domain dedication would apply to the underlying creative work, and its use means that no one exclusively owns the rights to copy and remix the work for commercial or noncommercial purposes—not the owner of the NFT, not the original rightsholder, no one. The ownership of the right to use the work is separate from ownership of the token associated with that work.
+
+Even though anyone can freely make a copy of a work released into the public domain with CC0, the purchase of an associated NFT may still be meaningful to the purchaser. For example, they may wish to financially support a creator or institution that issues the NFT, to gain membership to exclusive clubs or forums associated with holding the NFT, or simply for the social benefits of being able to claim to be the owner of the NFT.
+
+## If I use CC0 to put the work underlying an NFT into the public domain, can I offer separate licensing terms as well? For example, can I have separate licensing terms for commercial uses?
+
+CC0 is a release into the public domain for all users and all uses. So even if other licensing terms are also offered, anyone may opt to use a CC0 work without restriction.
+
+For example, it is not meaningful to release a work as CC0 for noncommercial uses and use a more restrictive licensing scheme for commercial uses—this would not work as intended, because a commercial user would also be entitled to use the work under the CC0 terms. CC0 is universal: it applies to everyone in the same manner.
+
+(This is true for the CC licenses as well—all permissions granted apply to everyone. However, you may choose to separately grant permission to do things that the license restricts: for example, you may offer a work as CC BY-NC, and offer paying users the ability to make commercial copies.)
+
+## CC licenses are for making works available to all, but there can only be one owner of an NFT. Are these things in conflict?
+
+When an NFT of a work is minted, a unique token associated with that work is created, and that token is what is offered for sale. The buyer of the NFT has an exclusive claim over that unique digital data, and gets any privileges, benefits, and social prestige associated with ownership. But unless buying the NFT included an additional contract assigning rights, they have not become the exclusive owner of the copyright of the related work.
+
+Thinking about artists who create physical media may be helpful: when an artist sells a physical work, whether it is a one-of-a-kind collectible or a copy, this is hardly ever bundled with the sale of the underlying copyright. Artists typically retain exclusive rights over reproductions of their work and may license some, all, or none of those rights to the owner of the physical media or the general public.
+
+Often, an NFT owner may not even particularly want exclusive control over the ability to copy and remix the underlying work itself. For example, someone who buys an NFT as a way of financially supporting a creator will usually want that creator to keep their copyright so they can continue to benefit from licensing that work in other ways.
+
+If a work is CC licensed, the license terms still apply even when an NFT of the work is sold; the work itself remains free for anyone to use under the terms of the relevant CC license even though the NFT has a single owner. When a work is in the public domain, as it would be in a CC0 release, no one owns any exclusive rights anymore, so the rights can no longer be bought and sold. The public may freely copy and remix the work. The ability to own the token is not in conflict with these terms.
+
+## Can you mint NFTs of someone else’s CC-licensed work?
+
+Technically, if you are doing this in a way that does not involve using any of the rights granted under a CC license (such as copying in whole or in part, or remixing a work), the license does not govern your use and you do not need to follow its conditions. Simply minting an NFT for a creative work does not necessarily involve these rights, but many NFT-related uses may. If your actions in minting or selling an NFT involve making a copy of a work in a way that would require copyright permissions, you must comply with the requirements of its license. (For example, you may not copy an NC-licensed work for a commercial use.)
+
+However, CC generally does not support minting NFTs for others’ works without the consent of the creator, unless the works are already in the public domain. CC’s mission is not just sharing but better sharing—sharing in a way that promotes a more vibrant commons and generates more support for the creators of freely reusable works. When you mint an NFT of someone else’s CC-licensed work without their consent, you may create a few different negative outcomes. One is that the creator often feels unfairly exploited when someone else is making money from their work and giving away some sort of official status of ownership that the creator believes should be theirs to give. Another possibility is that the original creator does not want their work used in or associated with NFTs at all, even if they are compensated and credited for the use, and they believe that having their work used in this way would harm their reputation in a way that would be difficult to remedy.
+
+When a CC creator has this kind of negative experience with others reusing their works, it discourages them from releasing their works freely; they may switch to using more restrictive terms or even the default of “All Rights Reserved” in order to stop uses they feel are taking advantage of their generosity. If a significant portion of the community feels this way, it would be a great loss to the commons.
+
+If you want to mint NFTs of someone else’s works, we recommend that you ask the creator and work with them, rather than using their art in a way that will make them feel exploited. Meeting the legal requirements of the license is the minimum that you must do to avoid copyright infringement, not the ethical standard for what you should do.
+
+## Has CC released any NFT-specific licenses?
+
+CC has not released any NFT-specific licenses, but our existing licenses and legal tools may be applied to the works underlying NFTs. We encourage you to use CC licenses or the CC0 public domain dedication if you want others to be able to freely copy and remix your work in a way that is compatible with other materials in the commons. We have not done an analysis of other NFT licenses to determine if they are compatible with CC-licensed works, but we do know of several projects that are mainly designed to add additional terms around the buying and selling of the token itself, and for the underlying work they either use CC0 or are compatible with CC licenses. However, some other licenses describe additional terms for the underlying work, including terms that restrict the type of permitted uses; many of these are not compatible with CC-licensed works. If you see an NFT license that includes or refers to the CC0 dedication or CC licenses, you should take care to understand how they are connected and what they may mean for rights to the NFT and its related work.
+
+## Does CC endorse using NFTs for creative works?
+
+CC supports the creation and sharing of cultural works that can be freely reused and remixed, and we support funding models that use something other than exclusive copyright to support the creation and digitization of those works. We have seen many creators and cultural institutions using NFTs in that spirit.
+
+We are aware that some NFTs are created without the consent of the creators whose works are minted, some make misleading or false promises about the value of the tokens or what is being sold to potential investors, and some direct funds toward the NFT issuer through other deceptive means; many other unethical uses also exist, and CC does not support those activities even where CC licenses or legal tools are used.
+
+There are also other criticisms worth considering, including most notably the environmental impact of NFTs. When minting NFTs, creators are encouraged to carefully consider their options and goals, just the same way as they do when working with any new, powerful tools.
+
+We know that our community has widely differing opinions on whether uses of NFTs for creative works should be encouraged at all. But we also know that many have embraced them, and are seeking guidance on how to use them as part of sharing works in the commons; this document is neither a recommendation of their use nor a deep dive into those issues. Instead, it aims to give guidance to those who are already exploring how CC licensing interacts with these new tools and practices.

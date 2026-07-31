@@ -1,0 +1,16 @@
+{{ range .Lookup.Items }}<div class="hreview">
+  <div class="photo"><a class="item url" href="{{ .DetailPageURL }}"><img src="{{ .MediumImage.URL }}" width="{{ .MediumImage.Width }}" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="{{ .DetailPageURL }}">{{ .ItemAttributes.Title }}</a></dt>{{ if .ItemAttributes.Author }}
+	<dd>{{ range $i, $v := .ItemAttributes.Author }}{{ if ne $i 0 }}, {{ end }}{{ $v }}{{ end }}</dd>{{ end }}{{ if .ItemAttributes.Creator }}
+	<dd>{{ range $i, $v := .ItemAttributes.Creator }}{{ if ne $i 0 }}, {{ end }}{{ $v.Value }}{{ with $v.Role }} ({{ . }}){{ end }}{{ end }}</dd>{{ end }}
+    <dd>{{ .ItemAttributes.Publisher }}{{ with .ItemAttributes.PublicationDate }} {{ . }}{{ end }}{{ with .ItemAttributes.ReleaseDate }} (Release {{ . }}){{ end }}</dd>
+    <dd>{{ .ItemAttributes.ProductGroup }} {{ .ItemAttributes.Binding }}</dd>
+    <dd>ASIN: {{ .ASIN }}{{ with .ItemAttributes.EAN }}, EAN: {{ . }}{{ end }}</dd>{{ if gt $.Rating 0 }}
+    <dd>評価<abbr class="rating fa-sm" title="{{ $.Rating }}">{{ range $.Star }}&nbsp;{{ if . }}<i class="fas fa-star"></i>{{ else }}<i class="far fa-star"></i>{{ end }}{{ end }}</abbr></dd>{{ end }}
+  </dl>
+  <p class="description">{{ $.Description }}</p>
+  <p class="powered-by" >reviewed by <a href='#maker' class='reviewer'>Spiegel</a> on <abbr class="dtreviewed" title="{{ $.Date }}">{{ $.Date }}</abbr> (powered by <a href="{{ $.Lookup.AppURL }}" >{{ $.Lookup.AppName }}</a> {{ $.Lookup.AppVersion }})</p>
+</div>
+
+{{ end }}

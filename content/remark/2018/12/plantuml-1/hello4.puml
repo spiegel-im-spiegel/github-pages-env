@@ -1,0 +1,8 @@
+@startuml
+
+!include hello.iuml
+
+Alice->Bob : hello
+Alice<-Bob : はろー
+
+@enduml

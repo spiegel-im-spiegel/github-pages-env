@@ -1,0 +1,22 @@
+@startuml
+
+class Creator {
+  {field} # injector : func() Product
+  {method} + anOperation()
+}
+abstract class Product {
+}
+class ConcreteProduct {
+}
+class "injector() : Product" as Injector <<injector>> {
+}
+
+skinparam minClassWidth 130
+hide <<injector>> member
+
+Creator .right.> Product : <<use>> >
+Product "1" <|.down. "n" ConcreteProduct
+Injector "1" .right.> "1" ConcreteProduct : <<create>> >
+Creator "1" .down.> "n" Injector : < <<inject>>
+
+@enduml

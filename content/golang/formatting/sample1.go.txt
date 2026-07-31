@@ -1,0 +1,21 @@
+package main
+
+import "fmt"
+
+type Planet struct {
+	Name string
+	Mass float64
+}
+
+var planets = []Planet{
+	{Name: "Mercury", Mass: 0.055},
+	{Name: "Venus", Mass: 0.815},
+	{Name: "Earth", Mass: 1.0},
+	{Name: "Mars", Mass: 0.107},
+}
+
+func main() {
+	//fmt.Printf("%+v", planets)
+	//fmt.Printf("%+v", planets)
+	fmt.Printf("%+v", planets)
+}

@@ -1,0 +1,13 @@
+package main
+
+import (
+	"fmt"
+
+	"gonum.org/v1/plot/vg"
+)
+
+func main() {
+	for k, v := range vg.FontMap {
+		fmt.Println(k, ":", v)
+	}
+}

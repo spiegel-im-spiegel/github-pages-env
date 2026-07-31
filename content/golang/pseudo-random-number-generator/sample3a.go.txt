@@ -1,0 +1,40 @@
+package main
+
+import (
+	"math/rand"
+	"sync"
+	"time"
+)
+
+func NewGenerator() <-chan int {
+	rnd := rand.New(rand.NewSource(time.Now().UnixNano()))
+	ch := make(chan int)
+	go func() {
+		defer close(ch)
+		for {
+			ch <- rnd.Intn(1000)
+		}
+	}()
+	return ch
+}
+
+func calcRnad(gen <-chan int) {
+	for i := 0; i < 10000; i++ {
+		if _, ok := <-gen; !ok {
+			return
+		}
+	}
+}
+
+func main() {
+	wg := sync.WaitGroup{}
+	gen := NewGenerator()
+	for i := 0; i < 1000; i++ {
+		wg.Add(1)
+		go func() {
+			calcRnad(gen)
+			wg.Done()
+		}()
+	}
+	wg.Wait()
+}

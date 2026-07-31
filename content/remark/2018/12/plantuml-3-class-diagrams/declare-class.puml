@@ -1,0 +1,10 @@
+@startuml
+
+hide circle
+
+class "Class Name" as Class {
+  {field} Attributes
+  {method} Operations
+}
+
+@enduml

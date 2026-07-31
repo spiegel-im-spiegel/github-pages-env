@@ -1,0 +1,15 @@
+@startuml
+
+hide circle
+hide empty members
+
+class "Unique ID" as UniqueID
+class "住所（文字列）" as AddressInfo
+class "JIS 住所コード" as JISA
+class "郵便番号" as JPN
+
+UniqueID "1" -right- "1" AddressInfo
+UniqueID "n" -down- "1" JISA
+UniqueID "n" -down- "1" JPN
+
+@enduml

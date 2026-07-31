@@ -1,0 +1,24 @@
+@startuml
+
+abstract class Interface0 {
+   {abstract} {method} + Method0()
+}
+abstract class Interface1 {
+   {abstract} {field} + Interface0 {embedded}
+   {abstract} {method} + Method1()
+}
+abstract class Interface2 {
+   {abstract} {field} + Interface0 {embedded}
+   {abstract} {method} + Method2()
+}
+abstract class Interface3 {
+   {abstract} {field} + Interface1 {embedded}
+   {abstract} {field} + Interface2 {embedded}
+}
+
+Interface0 <|.. Interface1
+Interface0 <|.. Interface2
+Interface1 <|.. Interface3
+Interface2 <|.. Interface3
+
+@enduml

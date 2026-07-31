@@ -1,0 +1,43 @@
+{{ partial "top.html" . }}
+<head prefix="og: http://ogp.me/ns#">{{ $title := .Title | plainify }}{{ $secTitle := hugo.Data.section.release.name | plainify }}{{ $siteTitle := .Site.Title | plainify }}{{ $desc := .Description | plainify | safeHTML }}
+{{ partial "header.html" . }}
+<title>{{ $title }} [{{ $siteTitle }}]</title>
+<meta property="og:title" content="{{ $title }}">
+<meta name="description" content="{{ $desc }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:image" content="{{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ hugo.Data.section.release.image | absURL }}{{ end }}">{{ with hugo.Data.author }}{{ if .name }}
+<meta name="author" content="{{ .name }}">{{ end }}{{ end }}
+{{ partial "twitter-card.html" . }}
+{{ partial "mastodon-me.html" . }}
+{{ partial "header-nav.html" . }}
+
+{{ partial "json-ld-release.html" . }}
+</head>
+<body>
+{{ partial "prepare.html" . }}
+<div id='container'><!-- Container Area -->
+
+<main>
+<nav class="breadcrumb">
+<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>{{ if .Section }}{{ $secURL := printf "/%s/" (.Section | urlize) }} &raquo; <a href="{{ $secURL | relURL }}">{{ hugo.Data.section.release.name }}</a>{{ end }}
+</nav>
+<article>
+<h1>{{ .Title }}</h1>
+{{ partial "navi-tag.html" . }}
+{{ partial "navi-history.html" . }}
+
+<section><div>
+{{ partial "noextension.html" . }}
+{{ .Content }}
+</div></section>
+
+</article>
+</main>
+{{ partial "page-nav.html" . }}
+
+{{ partial "feedback.html" . }}
+{{ partial "footer.html" . }}
+</div><!-- Container Area -->
+{{ partial "cleanup.html" . }}
+</body>
+{{ partial "end.html" . }}

@@ -1,0 +1,20 @@
+package main
+
+import (
+	"fmt"
+	"strings"
+	"unicode"
+)
+
+var kanaCase = unicode.SpecialCase{
+	unicode.CaseRange{'ぁ', 'ゖ', [unicode.MaxCase]rune{'ァ' - 'ぁ', 0, 0}},
+	unicode.CaseRange{'ゝ', 'ゞ', [unicode.MaxCase]rune{'ヽ' - 'ゝ', 0, 0}},
+	unicode.CaseRange{'ァ', 'ヶ', [unicode.MaxCase]rune{0, 'ぁ' - 'ァ', 0}},
+	unicode.CaseRange{'ヽ', 'ヾ', [unicode.MaxCase]rune{0, 'ゝ' - 'ヽ', 0}},
+}
+
+func main() {
+	kana := "あいうえおわゐゑをんゔゕゖゝゞアイウエオワヰヱヲンヴヵヶヽヾ"
+	fmt.Println(strings.ToUpperSpecial(kanaCase, kana))
+	fmt.Println(strings.ToLowerSpecial(kanaCase, kana))
+}

@@ -1,0 +1,18 @@
+@startuml
+
+hide circle
+skinparam classAttributeIconSize 0
+
+class ClassName {
+  {field} + publicField : String = "string" {read only}
+  {field} - privateField : int
+  {field} # protectedField : double
+  {field} ~ protectedFieldInPackage : Object
+
+  {method} + publicMethod(s : String, v : int) : void
+  {method} - privateMethod() : int
+  {method} # protectedMethod() : double
+  {method} ~ protectedMethodInPackage() : Object
+}
+
+@enduml

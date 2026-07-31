@@ -1,0 +1,28 @@
+@startuml
+!include style-all.puml
+hide footbox
+
+participant "カバ" as Kaba
+participant "カバン" as Kaban
+
+Kaba -> Kaban: あなた，泳げまして？
+activate Kaban
+Kaban --> Kaba: いえ
+deactivate Kaban
+
+Kaba -> Kaban: 空は飛べるんですの？
+activate Kaban
+Kaban --> Kaba: いえ
+deactivate Kaban
+
+Kaba -> Kaban: じゃあ、足が速いとか？
+activate Kaban
+Kaban --> Kaba: いえ
+deactivate Kaban
+
+Kaba -> Kaban: あなた、何にもできないのねぇ
+loop ひとりヘコむ
+  Kaban -> Kaban: ううっ
+end
+
+@enduml

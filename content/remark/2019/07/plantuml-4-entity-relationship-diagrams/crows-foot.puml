@@ -1,0 +1,17 @@
+@startuml
+
+entity Entity01
+entity Entity02
+entity Entity03
+entity Entity04
+entity Entity05
+entity Entity06
+entity Entity07
+entity Entity08
+
+Entity01 }|..|| Entity02
+Entity03 }o..o| Entity04
+Entity05 ||--o{ Entity06
+Entity07 |o--|| Entity08
+
+@enduml

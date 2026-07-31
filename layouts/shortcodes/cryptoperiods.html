@@ -1,0 +1,86 @@
+<figure lang='en'>
+<style>
+	main table.cryptoperiod th  {
+		vertical-align:middle;
+		text-align: center;
+	}
+	main table.cryptoperiod td  {
+		vertical-align:middle;
+	}
+</style>
+<table class="cryptoperiod">
+<thead>
+<tr>
+<th rowspan='2'>Key Type</th>
+<th colspan='2'>Cryptoperiod</th>
+</tr><tr>
+<th>Originator-Usage<br>Period (OUP)</th>
+<th>Recipient-Usage<br>Period</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>1. Private Signature Key</td>
+	<td class="center">1 to 3 years</td>
+	<td class="center">−</td>
+</tr><tr>
+	<td>2. Public Signature-VerificationKey</td>
+	<td class="center" colspan="2">Several years (depends on key size)</td>
+</tr><tr>
+	<td>3. Symmetric Authentication Key</td>
+	<td class="center">$\le 2$ years</td>
+	<td class="center">$\le \mathrm{OUP}+3$ years</td>
+</tr><tr>
+	<td>4. Private Authentication Key</td>
+	<td class="center" colspan="2">1 to 2 years</td>
+</tr><tr>
+	<td>5. Public Authentication Key</td>
+	<td class="center" colspan="2">1 to 2 years</td>
+</tr><tr>
+	<td>6. Symmetric Data Encryption Keys</td>
+	<td class="center">$\le 2$ years</td>
+	<td class="center">$\le \mathrm{OUP}+3$ years</td>
+</tr><tr>
+	<td>7. Symmetric Key-Wrapping Key</td>
+	<td class="center">$\le 2$ years</td>
+	<td class="center">$\le \mathrm{OUP}+3$ years</td>
+</tr><tr>
+	<td>8. Symmetric RBG Keys</td>
+	<td class="center">See SP 800-90</td>
+	<td class="center">−</td>
+</tr><tr>
+	<td>9. Symmetric Master Key/Key Derivation Key</td>
+	<td class="center">About 1 year</td>
+	<td class="center">−</td>
+</tr><tr>
+	<td>10. Private Key Transport Key</td>
+	<td class="center" colspan="2">$\le 2$ years</td>
+</tr><tr>
+	<td>11. Public Key Transport Key</td>
+	<td class="center" colspan="2">1 to 2 years</td>
+</tr><tr>
+	<td>12. Symmetric Key Agreement Key</td>
+	<td class="center" colspan="2">1 to 2 years</td>
+</tr><tr>
+	<td>13. Private Static Key Agreement Key</td>
+	<td class="center" colspan="2">1 to 2 years</td>
+</tr><tr>
+	<td>14. Public Static Key Agreement Key</td>
+	<td class="center" colspan="2">1 to 2 years</td>
+</tr><tr>
+	<td>15. Private Ephemeral Key Agreement Key</td>
+	<td class="center" colspan="2">One key-agreement transaction</td>
+</tr><tr>
+	<td>16. Public Ephemeral Key Agreement Key</td>
+	<td class="center" colspan="2">One key-agreement transaction</td>
+</tr><tr>
+	<td>17. Symmetric Authorization Key</td>
+	<td class="center" colspan="2">$\le 2$ years</td>
+</tr><tr>
+	<td>18. Private Authorization Key</td>
+	<td class="center" colspan="2">$\le 2$ years</td>
+</tr>
+</tbody>
+</table>
+<figcaption><div>uggested cryptoperiods for key types (via <q><a href='https://doi.org/10.6028/NIST.SP.800-57pt1r5'>SP 800-57 Part 1 Revision 5 <sup><i class='far fa-file-pdf'></i></sup></a></q> 5.3.6)</div></figcaption>
+</figure>

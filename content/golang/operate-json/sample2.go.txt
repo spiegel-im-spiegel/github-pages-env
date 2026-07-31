@@ -1,0 +1,78 @@
+package main
+
+import (
+	"encoding/json"
+	"fmt"
+	"os"
+)
+
+var sampleJSON = `{
+  "books": [
+    {
+      "Type": "aozora",
+      "ID": "56839",
+      "Title": "ニャルラトホテプ",
+      "OriginalTitle": "NYARLATHOTEP",
+      "URL": "https://www.aozora.gr.jp/cards/001699/card56839.html",
+      "ProductType": "青空文庫",
+      "Creators": [
+        {
+          "Name": "ラヴクラフト ハワード・フィリップス"
+        },
+        {
+          "Name": "大久保 ゆう",
+          "Role": "翻訳"
+        }
+      ],
+      "PublicationDate": "2014-04-04",
+      "LastRelease": "2015-08-19"
+    },
+    {
+      "Type": "aozora",
+      "ID": "4307",
+      "Title": "グリゴリの捕縛",
+      "URL": "https://www.aozora.gr.jp/cards/000021/card4307.html",
+      "ProductType": "青空文庫",
+      "Creators": [
+        {
+          "Name": "白田 秀彰"
+        }
+      ],
+      "PublicationDate": "2001-11-26",
+      "LastRelease": "2014-09-17"
+    }
+  ]
+}`
+
+type Booksdata struct {
+	Books []BooksdataBook `json:"books"`
+}
+
+type BooksdataBook struct {
+	Creators        []BooksdataBookCreator `json:"Creators"`
+	ID              string                 `json:"ID"`
+	LastRelease     string                 `json:"LastRelease"`
+	OriginalTitle   string                 `json:"OriginalTitle"`
+	ProductType     string                 `json:"ProductType"`
+	PublicationDate string                 `json:"PublicationDate"`
+	Title           string                 `json:"Title"`
+	Type            string                 `json:"Type"`
+	URL             string                 `json:"URL"`
+}
+
+type BooksdataBookCreator struct {
+	Name string `json:"Name"`
+	Role string `json:"Role"`
+}
+
+func main() {
+	var decodeData Booksdata
+	if err := json.Unmarshal([]byte(sampleJSON), &decodeData); err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		return
+	}
+
+	fmt.Println(decodeData.Books[0].Creators)
+	// Output:
+	// [{ラヴクラフト ハワード・フィリップス } {大久保 ゆう 翻訳}]
+}

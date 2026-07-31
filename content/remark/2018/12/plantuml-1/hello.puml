@@ -1,0 +1,6 @@
+@startuml
+
+Alice->Bob : hello
+Alice<-Bob : はろー
+
+@enduml

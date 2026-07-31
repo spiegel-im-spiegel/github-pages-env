@@ -1,0 +1,10 @@
+@startuml
+
+hide circle
+skinparam classAttributeIconSize 0
+
+class ClassName {
+  {abstract} {method} + abstractMethod() : void
+}
+
+@enduml

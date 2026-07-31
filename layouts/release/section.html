@@ -1,0 +1,42 @@
+{{ partial "top.html" . }}
+<head prefix="og: http://ogp.me/ns#">{{ $secTitle := hugo.Data.section.release.name | plainify }}{{ $siteTitle := .Site.Title | plainify }}{{ $desc := hugo.Data.section.release.description | plainify | safeHTML }}
+{{ partial "header.html" . }}{{ with .AlternativeOutputFormats.Get "RSS" }}
+<link rel="alternate" href="{{ .Permalink }}" type="application/rss+xml" title="{{ $secTitle }} [{{ $siteTitle }}]">{{ end }}
+<link rel="canonical" href="{{ .Permalink }}">
+<title>{{ $secTitle }} [{{ $siteTitle }}]</title>
+<meta property="og:title" content="{{ $secTitle }}">
+<meta name="description" content="{{ $desc }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:image" content="{{ hugo.Data.section.release.image | absURL }}">
+{{ partial "twitter-card.html" . }}
+{{ partial "mastodon-me.html" . }}
+
+{{ partial "json-ld-release.html" . }}
+</head>
+<body>
+{{ partial "prepare.html" . }}
+<div id='container'><!-- Container Area -->
+{{ partial "banner.html" . }}
+
+<main>
+<article>
+<h1>{{ $secTitle }}{{ with .OutputFormats.Get "RSS" }} <a href='{{ .RelPermalink }}' title='Feed'><i class='fas fa-rss'></i></a>{{ end }}</h1>
+<p>自作パッケージ・ツールと気になるツール・サービスのリリース情報について。</p>
+
+<h2>運営中の公開プロジェクト</h2>
+
+GitHub の <a href="https://github.com/spiegel-im-spiegel">Profile ページ</a>に一覧を載せているので参考にどうぞ。
+
+<h2>記事の一覧</h2>
+
+<ul class="title-list">
+{{ range .Data.Pages }}{{ partial "li-section.html" . }}{{ end }}
+</ul>
+</article>
+</main>
+
+{{ partial "footer.html" . }}
+</div><!-- Container Area -->
+{{ partial "cleanup.html" . }}
+</body>
+{{ partial "end.html" . }}

@@ -1,0 +1,26 @@
+@startuml
+
+skinparam minClassWidth 130
+
+abstract class Human <<interface>> {
+  {abstract} + SelfIntroduction() : string
+}
+class NamedHuman {
+  + MyName : string
+  + Name() : string
+}
+class Man {
+  + NamedHuman {embedded}
+  + SelfIntroduction() : string
+}
+class Woman {
+  + NamedHuman {embedded}
+  + SelfIntroduction() : string
+}
+
+Human <|.. Man
+NamedHuman <|--o Man
+Human <|.. Woman
+NamedHuman <|--o Woman
+
+@enduml

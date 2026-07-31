@@ -1,0 +1,17 @@
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+func main() {
+	year2000 := time.Date(2000, 1, 1, 0, 0, 0, 0, time.UTC)
+	year3000 := time.Date(3000, 1, 1, 0, 0, 0, 0, time.UTC)
+
+	fmt.Printf("year3000.After(year2000) = %v\n", year3000.After(year2000))
+	fmt.Printf("year3000.Before(year2000) = %v\n", year3000.Before(year2000))
+	fmt.Printf("year2000.After(year3000) = %v\n", year2000.After(year3000))
+	fmt.Printf("year2000.Before(year3000) = %v\n", year2000.Before(year3000))
+
+}

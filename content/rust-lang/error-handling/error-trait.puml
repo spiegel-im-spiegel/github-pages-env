@@ -1,0 +1,12 @@
+@startuml
+
+skinparam minClassWidth 130
+
+abstract class "std::error::Error" as Error <<trait>>
+class "std::io::Error" as IoError
+class "std::num::ParseIntError" as ParseIntError
+
+IoError .up.|> Error
+ParseIntError .up.|> Error
+
+@enduml

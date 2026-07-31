@@ -1,0 +1,92 @@
+Hi!
+I came across pgpdump failing to dump keys generated using bouncycastle 1.59.
+
+Here is an example key:
+
+-----BEGIN PGP PRIVATE KEY BLOCK-----
+Version: BCPG v1.59
+
+lQOqBFr6hWUBCACK+EjkwiEjxEfphBNNgIitKJ40MuuyU57Ss2TE9On3wF2K5gHh
+TwQr8gg4wU1lSTslIvG/GA0xY57VBM9MmVfhqC6gyz+sJQCFAD2qYeK65ePwH/I2
+mpcSewuRsMKZtFpqOkDsdnaoGU2L7eC1H7PvZfpVLvKm1C16dtl6Oj7pOdMgsDt9
+yLv/oMiIguvPdfSsB0F29mb7JIcAjpRz1yw+mP5GoC51P9HrNY3xe58HtIHk3VYx
+H7e+vfLYZKhOuKFNVlh0vDi6drkjWFBJSs61dmsVQLu/JwP1UAm7ByMjLlUHUZGg
+7v71sXRRvH94URKL3nEiagsctjNfcq/rJrCLABEBAAEAB/sHM9fJmtZquMihpHmu
+NSCymV3Tay9YyKTYkgvKnlBckujT8L0dNPRoCc99tGZ8SAjbo4RdSyrll56K261Q
+zBTs3sPOwqDUHWxC+Gm5xiUhEai4Jze2bhCMz3B7/VelNroYDca4WrMmXew2eeMT
+WT43zct3cJ2Kxvcjlzu/28SGhAOBf/BU/5J9m4ibnyiLzYV2pttSnI8znjR5b92Z
+Lj3KdnQJcWd+vFGfayVIaH09qIv+kkKfxJPGdsK32cJ10a3kKDYmFbihTU2r5fGA
+QYJW5Jx0Lu6/uovusgWiuQgvj/6uZI4DbcR5e+PhM1sccQ7ObaKSQbbe/RpdSDwZ
+FFhJBAC2lf8ZDXnXctBR5IcI/84DNpsFtSv0Y6rweOB9w9DC5WGINiIwbeSb+YBw
+2NKk9I/XO+Vp7+lhUI0273eE/6mSg7HYZU9LYrQ0A8RLgbqjN+K4Bs9Ai3pLA9f6
+rLxzYI0cMuVYQYZ+Xh8OPVNC8C9+KJp2QNhqZHZXaf5kaDFweQQAwtjIhbAKG+qO
+BqcaOE20by6QIH378k/VW798gRU8S/ohsMNGsU8l6K8uDeDrsZYGowy3Naq9bVV/
+xAfQHR9nlXOGumfMrWrzl6H2Zfqq6yTZsjBjo9yeL4n26VIgf3KCmp+gHfYY4ftI
+q/NGNEtOijFI0z10MTD4Y3xH9zyS0CMD/irjqzF0E1HEwF617Kw8zMbHaozjsYEG
+xZvSJtwM3mduyxANASORLGiQcZo9t8TSZBi1YdF3CtVO2stXZY+3rD1aQWSHxbhN
+hhGdr8CXZ57Wq363wi4epxVj5y+DE8+W2RTtHUWkRoMNR7MatO9Fu6fzrhJvQKr9
+0miAyNtgibaGfyqQGiOR0hKyZUj2qO4egsGBXVK0GXhtcHA6YWxpY2VAd29uZGVy
+bGFuZC5saXSJATQEEwEIAB4FAlr6hWUCmy8FiwkIBwIGlQoJCAsCBJYCAwECngEA
+CgkQjj26DsTcw7fvVgf/Y88ABzLXTFgLo4EO1z7eBNT4Y4dJ8zyKNkcwJRVbOup1
+lVNwMb65IyqnxbTXVssAHMYD9EmHzQfV1B/BlcH3DhYnVNpOoOreW93rTRcZS2Ew
+UtACUBZatc+nZCyJ/2cSm862upKkYSWWBhQj7W0wj+UmnGZbbzQFZhO3zZC8OISv
+X48gB9DlvRcjTypdNxfY+LQv5r4oebwABRisq9bqnfRsGt3JaoeeGS//EqppST6T
+7niM96sp1dxHUKaUAqS0lxCkfUo2vv7pH8REY3t1VTvVe/d2FpMBs77wHMQSKlGZ
+ovSdIgpRjJZ3TZQkMgreW31TSySr/DCZ2HwLiIp1TQ==
+=8D8m
+-----END PGP PRIVATE KEY BLOCK-----
+
+pgpdump gives me this output:
+
+$pgpdump bc.sec
+Old: Secret Key Packet(tag 5)(938 bytes)
+	Ver 4 - new
+	Public key creation time - Tue May 15 08:59:49 CEST 2018
+	Pub alg - RSA Encrypt or Sign(pub 1)
+	RSA n(2048 bits) - ...
+	RSA e(17 bits) - ...
+	RSA d(2043 bits) - ...
+	RSA p(1024 bits) - ...
+	RSA q(1024 bits) - ...
+	RSA u(1022 bits) - ...
+	Checksum - 7f 2a 
+Old: One-Pass Signature Packet(tag 4)(26 bytes)
+	Unknown version(35)
+	Sig type - unknown(91)
+	Hash alg - unknown(hash 210)
+	Pub alg - Reserved for Elliptic Curve(pub 18)
+	Key ID - 0xB26548F6A8EE1E82
+	Next packet - other than one pass signature
+Old: Reserved(tag 0)(23890 bytes)
+pgpdump: unexpected end of file.
+
+On the other hand gpg lists the key as follows:
+
+$ gpg --list-packets frommail.sec 
+# off=0 ctb=95 tag=5 hlen=3 plen=938
+:secret key packet:
+	version 4, algo 1, created 1526367589, expires 0
+	pkey[0]: [2048 bits]
+	pkey[1]: [17 bits]
+	skey[2]: [2043 bits]
+	skey[3]: [1024 bits]
+	skey[4]: [1024 bits]
+	skey[5]: [1022 bits]
+	checksum: 7f2a
+	keyid: 8E3DBA0EC4DCC3B7
+# off=941 ctb=b4 tag=13 hlen=2 plen=25
+:user ID packet: "xmpp:alice@wonderland.lit"
+# off=968 ctb=89 tag=2 hlen=3 plen=308
+:signature packet: algo 1, keyid 8E3DBA0EC4DCC3B7
+	version 4, created 1526367589, md5len 0, sigclass 0x13
+	digest algo 8, begin of digest ef 56
+	hashed subpkt 2 len 4 (sig created 2018-05-15)
+	critical hashed subpkt 27 len 1 (key flags: 2F)
+	critical hashed subpkt 11 len 4 (pref-sym-algos: 9 8 7 2)
+	critical hashed subpkt 21 len 5 (pref-hash-algos: 10 9 8 11 2)
+	critical hashed subpkt 22 len 3 (pref-zip-algos: 2 3 1)
+	critical hashed subpkt 30 len 1 (features: 01)
+	subpkt 16 len 8 (issuer key ID 8E3DBA0EC4DCC3B7)
+	data: [2047 bits]
+
+Most importantly note the differing key id. Do you have any idea what's going on?

@@ -1,0 +1,8 @@
+@startuml
+
+hide circle
+
+abstract class "Abstract Class" as Class1
+abstract class "Interface Class" as Class2  <<interface>>
+
+@enduml
