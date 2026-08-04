@@ -118,6 +118,23 @@ Anthropic 社でも似たような[不正アクセスの事例](https://www.sbbi
 自分たちの技術的怠慢を誰かの（何かの）せいにするのを一般的な言葉で言うなら「転嫁」かな。
 セキュリティリスク・マネジメントの分野で，インシデントを自分たちで解決できない場合に他組織や上位組織に委ねることを転嫁やエスカレーションと呼んだりするのだが，今回の事例を「暴走」として AI に転嫁するのは拙い対応だと言わざるを得ないし，それに追従するメディアもダメダメである。
 
+{{< div-box type="markdown" >}}
+### 【2026-08-04 追記】 Bruce Schneier 氏の記事から
+
+今回の記事から少し趣旨が外れるが Bruce Schneier 氏が今回の不正アクセスについて言及した記事を公開している。
+
+- [More on the OpenAI Agent's Attack on Hugging Face - Schneier on Security](https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html)
+
+Bruce Schneier 氏は「これがOpenAIのモデルではなく，中国企業の中国製モデルだったと想像してみてくれ」と疑問を投げかける。
+
+{{< fig-quote type="markdown" title="More on the OpenAI Agent's Attack on Hugging Face" link="https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html" lang="en">}}
+Why aren’t we bringing OpenAI up on charges under the Computer Fraud and Abuse Act? How is this different from the [Morris Worm](https://en.wikipedia.org/wiki/Morris_worm)? That was also an experiment that escaped the lab.
+{{< /fig-quote >}}
+
+Morris worm は1988年に発生した世界初のワーム型コンピュータウイルスと言われている。
+挙動はウイルスと変わらないのに，なんで OpenAI をコンピュータ不正利用防止法（CFAA）で告発しないの？ ダブスタちゃうんかい！ というわけ。
+{{< /div-box >}}
+
 ## 自律機械など存在しない
 
 この手の AI が絡むセキュリティ事例でいつも気になっているフレーズは「自律的な AI (エージェント)」だ。
