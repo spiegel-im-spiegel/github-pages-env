@@ -3,7 +3,7 @@ title = "技術的負債と FOSS"
 date =  "2021-07-26T21:13:02+09:00"
 description = "不完全でおｋ"
 image = "/images/attention/kitten.jpg"
-tags = [ "code", "engineering", "risk", "management" ]
+tags = [ "code", "engineering", "risk", "management", "technical-debt" ]
 pageType = "text"
 
 [scripts]

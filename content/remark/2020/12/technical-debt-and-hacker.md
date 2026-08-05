@@ -3,7 +3,7 @@ title = "技術的負債とハッカー"
 date =  "2020-12-12T21:37:03+09:00"
 description = "今後は「技術的負債」とか迂闊に口にせんことやね（笑）"
 image = "/images/attention/kitten.jpg"
-tags = [ "code", "engineering" ]
+tags = [ "code", "engineering", "technical-debt" ]
 pageType = "text"
 
 [scripts]
