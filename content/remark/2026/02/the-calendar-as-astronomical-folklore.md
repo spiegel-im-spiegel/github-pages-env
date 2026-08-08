@@ -61,5 +61,6 @@ pageType = "text"
 
 ## 参考
 
+{{< linkcard "1fd90411239e60d33ce12afbfee15e4e8998f318" >}} <!-- こよみごのみ https://koyomi.online/koyomigonomi_s/ -->
 {{% review-paapi "B01BHGVLOY" %}} <!-- 猫暦 -->
 {{% review-paapi "4254102372" %}} <!-- 暦の大事典 -->

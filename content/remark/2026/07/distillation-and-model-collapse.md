@@ -16,7 +16,7 @@ pageType = "text"
 [原文記事](https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/ "China’s AI models have Trump’s AI world at war with itself | MIT Technology Review")の紹介ポストを Bluesky で見かけたのだが，ポップアップが煩くてまともに読む気がしなくて。
 日本語訳がリリースされたので，こっちを今回の起点としよう。
 
-{{% linkcard "b814392d6be5cb7959000f17b9484358de2ce622" %}} <!-- https://www.technologyreview.jp/s/386339/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/ -->
+{{< linkcard "b814392d6be5cb7959000f17b9484358de2ce622" >}} <!-- https://www.technologyreview.jp/s/386339/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/ -->
 
 ## 知識蒸留と蒸留攻撃
 
