@@ -110,6 +110,7 @@ Kindle 版のみでもいいから。
 
 ## 参考
 
+{{< linkcard "955ecd76b8158e21c4262c73717f0c1bc2d94351" >}} <!-- ケアレス・ピープル -->
 {{% review-paapi "B0CK19L1HC" %}} <!-- ハッキング思考 Kindle 版 -->
 {{% review-paapi "B0C9Z7KGRN" %}} <!-- はじめて学ぶ ビデオゲームの心理学 Kindle 版 -->
 {{% review-paapi "B0125TZSZ0" %}} <!-- つながりっぱなしの日常を生きる -->
