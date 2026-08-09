@@ -174,7 +174,7 @@ $3$ と $10$ は互いに素で，かつ $\varphi(10) = \varphi(2)\varphi(5) = 4
 合同式や数学的帰納法は習ってるっけ？ まぁ，いいか。
 習ってないなら，これを夏休みの自由研究にしてしまえ（笑）
 
-[Kagi Translate]: https://translate.kagi.com/ "Kagi Translate"
+[Kagi Assistant]: https://assistant.kagi.com/ "Kagi Assistant"
 [Euler's theorem]: https://en.wikipedia.org/wiki/Euler%27s_theorem "Euler's theorem - Wikipedia"
 [Euler's totient function]: https://en.wikipedia.org/wiki/Euler%27s_totient_function "Euler's totient function - Wikipedia"
 
