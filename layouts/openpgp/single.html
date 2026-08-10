@@ -1,5 +1,5 @@
 {{ partial "top.html" . }}
-<head prefix="og: http://ogp.me/ns#">{{ $title := .Title | plainify }}{{ $secTitle := hugo.Data.section.openpgp.name | plainify }}{{ $siteTitle := .Site.Title | plainify }}{{ $desc := .Description | plainify | safeHTML }}{{ $pubdate := .Date | time.In "UTC" | time.Format "2006-01-02T15:04:05Z07:00" }}{{ $update := .Lastmod | time.In "UTC" | time.Format "2006-01-02T15:04:05Z07:00" }}
+<head prefix="og: http://ogp.me/ns# article: https://ogp.me/ns/article#">{{ $title := .Title | plainify }}{{ $secTitle := hugo.Data.section.openpgp.name | plainify }}{{ $siteTitle := .Site.Title | plainify }}{{ $desc := .Description | plainify | safeHTML }}{{ $pubdate := .Date | time.In "UTC" | time.Format "2006-01-02T15:04:05Z07:00" }}{{ $update := .Lastmod | time.In "UTC" | time.Format "2006-01-02T15:04:05Z07:00" }}
 {{ partial "header.html" . }}
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="{{ $siteTitle }}">{{ if .Section }}
