@@ -1,13 +1,21 @@
 {{ partial "top.html" . }}
-<head prefix="og: http://ogp.me/ns#">{{ $title := .Title | plainify }}{{ $secTitle := hugo.Data.section.openpgp.name | plainify }}{{ $siteTitle := .Site.Title | plainify }}{{ $desc := .Description | plainify | safeHTML }}
+<head prefix="og: http://ogp.me/ns#">{{ $title := .Title | plainify }}{{ $secTitle := hugo.Data.section.openpgp.name | plainify }}{{ $siteTitle := .Site.Title | plainify }}{{ $desc := .Description | plainify | safeHTML }}{{ $pubdate := .Date | time.In "UTC" | time.Format "2006-01-02T15:04:05Z07:00" }}{{ $update := .Lastmod | time.In "UTC" | time.Format "2006-01-02T15:04:05Z07:00" }}
 {{ partial "header.html" . }}
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="{{ $siteTitle }}">{{ if .Section }}
+<meta property="article:section" content="{{ $secTitle }}">{{ end }}
 <title>{{ $title }} [{{ $siteTitle }}]</title>
 <meta property="og:title" content="{{ $title }}">
 <meta name="description" content="{{ $desc }}">
 <meta property="og:description" content="{{ $desc }}">
 <meta property="og:image" content="{{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ hugo.Data.section.openpgp.image | absURL }}{{ end }}">{{ with hugo.Data.author }}{{ if .name }}
-<meta name="author" content="{{ .name }}">{{ end }}{{ end }}
-{{ partial "twitter-card.html" . }}
+<meta name="author" content="{{ .name }}">
+<meta property="article:author" content="{{ .name }}">{{ end }}{{ end }}{{ with .Params.tags }}
+<meta name="keywords" content='{{ delimit . ", " }}'>{{ range $value := . }}
+<meta property="article:tag" content="{{ $value }}">{{ end }}{{ end }}
+<meta property="article:published_time" content="{{ $pubdate }}">
+<meta property="article:modified_time" content="{{ $update }}">
+{{- partial "twitter-card.html" . }}
 {{ partial "mastodon-me.html" . }}
 {{ partial "header-nav.html" . }}
 
@@ -19,7 +27,7 @@
 
 <main>
 <nav class="breadcrumb">
-<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>{{ if .Section }}{{ $secURL := printf "/%s/" (.Section | urlize) }} &raquo; <a href="{{ $secURL | relURL }}">{{ hugo.Data.section.openpgp.name }}</a>{{ end }}
+<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>{{ if .Section }}{{ $secURL := printf "/%s/" (.Section | urlize) }} &raquo; <a href="{{ $secURL | relURL }}">{{ $secTitle }}</a>{{ end }}
 </nav>
 <article>
 <h1>{{ .Title }}</h1>
