@@ -73,7 +73,6 @@ AI のために残業するとか論外だしね。
 ## ブックマーク
 
 - [AIが変えた震災支援……熊本の被災者がスマホで作った「イマココナビ」活況　“乱立”に課題も](https://www.itmedia.co.jp/news/article/2608/10/2000000486/)
-
 - [技術的負債とハッカー]({{< ref "/remark/2020/12/technical-debt-and-hacker.md" >}})
 - [技術的負債と FOSS]({{< ref "/remark/2021/07/technical-debt-and-foss.md" >}})
 
