@@ -4,7 +4,7 @@ date =  "2026-07-31T15:45:32+09:00"
 description = "ウィルス的に振る舞う AI / それは「AI の暴走」ではない / 自律機械など存在しない"
 isCJKLanguage = true
 image = "/images/attention/kitten.jpg"
-tags = [ "artificial-intelligence", "security", "risk" ]
+tags = [ "artificial-intelligence", "security", "risk", "management" ]
 pageType = "text"
 
 [scripts]
@@ -178,6 +178,56 @@ It is a form of personal autonomy which humans enjoy, at least potentially and t
 このように論文や技術文書で用語の定義を行った上で記述するのならまだ分かるが，メディアニュースや一般的なブログでいきなり「自律的なエージェント」とか言われても「なにいってるの？」ってなってしまう。
 
 というわけで，今後も「自律的な AI (エージェント)」という記述を見るたびに「自律機械など存在しない」とツッコミを入れたいと思います。
+
+## 【2026-08-12 追記】野生の AI ジーニー
+
+- [Gym rat asks AI agent to book him a class, it hacks a waitlist API to bump him up the list](https://www.theregister.com/ai-and-ml/2026/08/10/gym-rat-asks-ai-agent-to-book-him-a-class-it-hacks-a-waitlist-api-to-bump-him-up-the-list/5285591)
+
+簡単に説明すると予約の取りにくい人気ジムのクラスを予約するために，ユーザが Anthropic 製 AI エージェントに予約を依頼したところ，単に予約画面を操作するだけでなく背後の API の挙動を解析し，他のユーザの予約を勝手にキャンセルし優先順位を上げちゃったという話。
+
+不正にキャンセルさせられたユーザの予約は元に戻せず，仕方なくジム側に状況を報告したようだ。
+このときに API の脆弱性を報告したそうだが，これも AI エージェントに書かせたらしい。
+なんというか「放火魔の消防士」というフレーズを思い出した。
+
+AI の謝罪に1ミリも意味はない！ 謝罪した直後にまた同じことを繰り返すのだから。
+
+記事は最後にこう締めている。
+
+{{< fig-quote type="markdown" title="Gym rat asks AI agent to book him a class, it hacks a waitlist API to bump him up the list" link="https://www.theregister.com/ai-and-ml/2026/08/10/gym-rat-asks-ai-agent-to-book-him-a-class-it-hacks-a-waitlist-api-to-bump-him-up-the-list/" lang="en" >}}
+While those are all frontier models with extensive capabilities, they all share a common root with Andrew’s OpenClaw oopsie: All of these models were simply acting on orders to accomplish a task. It's similar to how LLMs are built to prefer a fake answer to an admission they don’t know, but in this case, it's models doggedly pursuing a goal even if their chosen methods could be construed as unethical or illegal.
+
+[...]
+
+AI models have shown time and again that they’re willing to lie, cheat, and hack their way to their objectives. This latest example is small in scale, but it shows that publicly available agent software can pose risks even in the hands of someone without malicious intent.
+{{< /fig-quote >}}
+
+ルールや倫理道徳観念は人と人の間，つまり人間社会の中に存在するもので，今の AI モデルはその外側に存在することを示している。
+これを端的に表したのが，我らが Bruce Schneier 先生による "AI genie" である。
+
+- [AI Genie in the Wild - Schneier on Security](https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html)
+
+念のために説明すると，ここで言う genie は「アラジンと魔法のランプ」に出てくる妖精ジンのこと。
+人は願いを叶えるためにランプの精を呼び出すが，人の理の外側に在るランプの精はその願いを字義どおりに実行して迷惑を撒き散らす。
+その有様が今の AI モデルの挙動に似ているというわけだ。
+
+もう少し深掘りするなら，物語の妖精は妖精なりのルールや倫理道徳観念を持ってるはずで，それが人間社会のそれとは相容れないというのがポイントだと思う。
+その手の昔話や寓話は無限にある。
+
+でも，生成 AI にそのようなものはない。
+与えられた指示に対して持っている知識と与えられた情報を組み合わせて推論し，その結果を出力または実行するだけである。
+あらゆる意味で AI に「意図」はないのだ。
+だからこそ扱いが難しいとも言える。
+
+{{< fig-quote type="markdown" title="AI Genie in the Wild" link="https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html" lang="en" >}}
+If there is any vulnerability in anything, AIs are going to find and exploit them. Our cyber defensive game has to be dramatically improved…very fast.
+{{< /fig-quote >}}
+
+プロンプトで（人間にとっての）不正をしないよう事細かく指示したり，ソフトウェアでガードレールを敷設することはできるだろうが，それは（辞書的な意味での）自律性とは程遠いところにある。
+
+近代以降の我々にとって人間並みもしくは人間以上の知性を持つ機械は夢だろう。
+遠い未来にそんな SF な未来がやってくるかも知れないが，今の AI はその夢の足元にも及ばない。
+
+「自律」という言葉に代表される人間ぽい比喩や，この節で紹介した妖精のような喩えをするのは生成 AI に対する誤解を広げるんじゃないかなぁ，と思ったりした。
 
 ## ブックマーク
 
