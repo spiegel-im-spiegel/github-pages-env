@@ -4,7 +4,7 @@ date =  "2026-07-31T15:45:32+09:00"
 description = "ウィルス的に振る舞う AI / それは「AI の暴走」ではない / 自律機械など存在しない"
 isCJKLanguage = true
 image = "/images/attention/kitten.jpg"
-tags = [ "artificial-intelligence", "security", "risk", "management" ]
+tags = [ "artificial-intelligence", "security", "risk" ]
 pageType = "text"
 
 [scripts]
