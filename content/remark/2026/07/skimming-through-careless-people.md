@@ -101,6 +101,7 @@ Kindle 版のみでもいいから。
 
 ## ブックマーク
 
+- [メタの内部暴露本を執拗に追い詰めることでザッカーバーグが手にするもの](https://wired.jp/article/sz-metas-pursuit-of-the-careless-people-author-is-relentless-and-self-defeating/)
 - [Facebook は meta じゃなくて para だった]({{< ref "/remark/2026/05/facebook-is-para-not-meta.md" >}})
 
 [ケアレス・ピープル]: https://www.subarusya.jp/book/b676548.html "ケアレス・ピープル - 株式会社 すばる舎 学び・成長・成功をあなたに"
