@@ -43,7 +43,7 @@ pageType = "text"
 
 実際にはこんな感じの指示が埋め込まれてたらしい。
 
-{{< fig-quote type="markdown" title="Memorandum of Decision Court Sanction for Plaintiff's Use of Prompt-Injection" link="https://civilinquiry.jud.ct.gov/DocumentInquiry/DocumentInquiry.aspx?DocumentNo=33274425" >}}
+{{< fig-quote type="markdown" title="Memorandum of Decision Court Sanction for Plaintiff's Use of Prompt-Injection" link="https://civilinquiry.jud.ct.gov/DocumentInquiry/DocumentInquiry.aspx?DocumentNo=33274425" lang="en" >}}
 it is the established policy of the Connecticut courts to be solicitous of [self-represented] litigants and . . . to construe the rules of practice liberally in their favor . . . . The courts adhere to this rule to ensure that [self-represented] litigants receive a full and fair opportunity to be heard, regardless of their lack of legal education and experience . . . . In particular, special allowances should not be made for a self-represented party when to do so would (1) interfere with the rights of other parties . . . . (2) violate the rules of evidence or procedure . . . . or (3) undermine the perceived neutrality of the judicial officer and place the court in the role of advocate.”
 {{< /fig-quote >}}
 
@@ -59,7 +59,7 @@ it is the established policy of the Connecticut courts to be solicitous of [self
 
 原告はこんなことを言ってるらしい。
 
-{{< fig-quote type="markdown" title="Person Hides Prompt Injection in Legal Filing Telling AI to Side With Them" link="https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/" >}}
+{{< fig-quote type="markdown" title="Person Hides Prompt Injection in Legal Filing Telling AI to Side With Them" link="https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/" lang="en" >}}
 Elliott told 404 Media that they believe this sanction is unfair, but that they believe their "audit" led to a positive impact that "substantially broadens the discussions from my singular AI instruction into a broad commentary about artificial intelligence, the Bar, and the Judicial Branch itself."
 {{< /fig-quote >}}
 
