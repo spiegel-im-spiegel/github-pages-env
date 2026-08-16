@@ -13,12 +13,12 @@ pageType = "text"
   jsx = false
 +++
 
-最初に知ったのは日本語圏の記事だが，元ネタをちゃんと書いてなかったので [Kagi Assistant] に調べさせたところ，どうやら 404 media の記事が元ネタのようだ。
+最初に知ったのは日本語圏の記事だが，元ネタをちゃんと書いてなかったので [Kagi Assistant] に調べさせたところ，どうやら [404 Media](https://www.404media.co/ "404 Media") の以下の記事が元ネタのようだ。
 
 {{< linkcard "9290df0cd43774b258a5afbc882a37d1f76e111d" >}} <!-- https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/ Person Hides Prompt Injection in Legal Filing Telling AI to Side With Them -->
 
 記事のベースになっているのは，コネチカット州ミルフォードの上級裁判所が2026年8月6日付で出した {{% pdf-file title="“Memorandum of Decision Court Sanction for Plaintiff's Use of Prompt-Injection”" link="https://civilinquiry.jud.ct.gov/DocumentInquiry/DocumentInquiry.aspx?DocumentNo=33274425" %}} という文書。
-この文書はおそらく紙の文書をスキャンしてそのまま PDF にしたみたいで，中身が画像データだったため難儀したが，一応 OCR でテキストに落としたものも[置いておく](./document_33274425.txt)。
+おそらく紙の文書をスキャンしてそのまま PDF にしたみたいで，中身が画像データで難儀したが，一応 OCR でテキストに落としたものも[置いておく](./document_33274425.txt)。
 裁判所資料なので無断でも問題ないやろ。
 なお，正確性は保証できないのであしからず。
 
@@ -64,10 +64,15 @@ Elliott told 404 Media that they believe this sanction is unfair, but that they 
 {{< /fig-quote >}}
 
 なんだかなぁ，という感じ。
-米国らしいっちゃらしいのかも知れないが。
+米国らしいっちゃらしいのかも知れないけど。
+原告は不当だと言っているが，原告が裁判所に提出する文書が紙のものに制限される以外は問題なく裁判は続行されるようだ。
 
 まぁ，でも，プロンプト・インジェクションのようなデータ汚染が避けられない現状では，クリティカルな意思決定に AI を使うのは躊躇われるのも確かだろう。
 米国は軍事目的で生成 AI をバンバン使ってるみたいだけどね（笑）
+
+書籍 “[Careless People](https://www.subarusya.jp/book/b676548.html "ケアレス・ピープル - 株式会社　すばる舎 学び・成長・成功をあなたに")” は Meta 社に対する告発本のような体裁だが，たとえば他社サービスに不正アクセスしても「AI のしたことだから」と侵害を受けた方すらも訴えたりしないとか，今回のように指示汚染された文書を裁判所に提出して監査だの冗談だの嘯くとか，もう米国自体が「Careless People の国」なんじゃねーの？ と最近思うようになった。
+はたして，こんな国とまともに付き合っていいのだろうか？ 文字通りにク○ガキに核兵器のボタンを持たせてる状態だぞ。
+大丈夫か？ （人は何故，大丈夫じゃないときに限って「大丈夫？」ときくのだろう）
 
 ## ブックマーク
 
@@ -79,3 +84,8 @@ Elliott told 404 Media that they believe this sanction is unfair, but that they 
 [Kagi Search]: https://kagi.com/ "Kagi Search - A Premium Search Engine"
 [Kagi Translate]: https://translate.kagi.com/ "Kagi Translate"
 [Kagi Assistant]: https://assistant.kagi.com/ "Kagi Assistant"
+
+## 参考
+
+{{< linkcard "955ecd76b8158e21c4262c73717f0c1bc2d94351" >}} <!-- ケアレス・ピープル -->
+{{< linkcard "f49db55e98f0eb56c864acd2ee6f4da8da10016c" >}} <!-- ハッキング思考 -->
