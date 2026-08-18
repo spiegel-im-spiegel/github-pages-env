@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
-linkcard https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/ -w 150
+linkcard https://www.404media.co/xs-algorithm-feeds-off-ragebait-and-impacts-democrats-more-study-finds/ -w 150
+#linkcard https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/ -w 150
 #linkcard https://koyomi.online/koyomigonomi_s/ --rating 5 -w 150 -c "暦の擬人化手法も含めて面白い作品。感想は<a href='/remark/2026/02/the-calendar-as-astronomical-folklore/'>こちら</a>。"
 #linkcard https://gihyo.jp/book/2022/978-4-297-13234-7 --rating 4 --release-date "2022-12-07" -w 150 -c "祝♪ <a href='https://twitter.com/search?q=%23%E3%81%A1%E3%82%87%E3%81%86%E3%81%9C%E3%81%A4%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%82%81%E3%82%82%E3%82%8A%E3%83%BC%E3%81%A1%E3%82%83%E3%82%93'>#ちょうぜつエンジニアめもりーちゃん</a> 単行本化！ 絵は可愛いが読み応えあり。「SoftwareDesign」連載分も収録されていて超お得！"
 #linkcard https://zen.ac.jp/press/books/b_0015 --rating 4 --release-date "2026-07-10" -w 150 -c "実務に即効性があるわけではないが，ものの「考え方」を示す本としてはよく出来ている。ソフトウェア技術史の読み物としても面白い。"
