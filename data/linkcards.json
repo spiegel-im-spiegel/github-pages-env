@@ -265,6 +265,22 @@
     ]
   },
   {
+    "hash_id": "850705d1a7fba6036d054e542005f3e2ba619166",
+    "url": "https://technical-book-reading.connpass.com/event/401737/",
+    "title": "第1回『我ら、プログラマー』オンライン読書会 (2026/08/22 13:00〜)",
+    "description": "### 書籍『我ら、プログラマー』をオンラインで読む読書会です。    * 毎月1回開催します。   * 読書会なので、書籍を読んでいきます。   * 基本的に（紙の本の）ほぼ1頁単位で、参加者に読んでもらいながら、内容に関して必要に応じて議論する形式で進めます。   * 書籍『我ら、プログラマー』（Amazon）は、各人で購入してください。  ### オンライン開催について    * Zoomを使って開催しますので、参加者がZoomを各人のPCやタブレットなどに事前に準備をお願いします。   * Zoomへの参加URLは、connpassの参加者へのメッセージ送信機能を使ってメールで送...",
+    "image_url": "https://media.connpass.com/thumbs/db/29/db294a2573aa0fc5daf0241d52959629.png",
+    "image_path": "/images/thumbs/850705d1a7fba6036d054e542005f3e2ba619166.png",
+    "image_width": 110,
+    "stars": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
     "hash_id": "9290df0cd43774b258a5afbc882a37d1f76e111d",
     "url": "https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/",
     "title": "Person Hides Prompt Injection in Legal Filing Telling AI to Side With Them",
@@ -315,7 +331,7 @@
       true,
       false
     ],
-    "comment": "実務に即効性があるわけではないが，ものの「考え方」を示す本としてはよく出来ている。ソフトウェア技術史の読み物としても面白い。",
+    "comment": "実務に即効性があるわけではないが，ものの「考え方」を示す本としてはよく出来ている。ソフトウェア技術史の読み物としても面白い。デジタル化希望！",
     "release_date": "2026-07-10"
   },
   {
@@ -442,6 +458,25 @@
     ],
     "comment": "Kindle 版あり",
     "release_date": "2023-10-16"
+  },
+  {
+    "hash_id": "f8857b98ed744888d3908699ff74af46038c5446",
+    "url": "https://zen.ac.jp/press/books/b_0013",
+    "title": "我ら、プログラマー 　AdaからAIまで、コーダーたちの年代記 | ZEN大学出版会",
+    "description": "我ら、プログラマー 　AdaからAIまで、コーダーたちの年代記 について、詳細・ご購入はこちらから",
+    "image_url": "https://images.microcms-assets.io/assets/c83fef499dbb45938e3189200bebd9db/b8aa76ce5f1c435fbe52af7296aa5672/b_0013.jpg",
+    "image_path": "/images/thumbs/f8857b98ed744888d3908699ff74af46038c5446.jpg",
+    "image_width": 150,
+    "rating": 4,
+    "stars": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "comment": "「ボブおじさん」による最新刊？ かな。2世紀以上に渡るコンピュータとプログラマの歴史と回顧録。気楽な読み物として楽しめる。デジタル化希望！",
+    "release_date": "2026-06-29"
   },
   {
     "hash_id": "fcdff433aff55873cb56b6d9ce8fbb636e359514",
