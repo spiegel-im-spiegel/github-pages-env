@@ -3,7 +3,7 @@ title = "「城と城下町—出雲の戦国時代—」を聴講する"
 date =  "2024-10-27T18:31:00+09:00"
 description = "城と城下町—出雲の戦国時代— / 富田川河床遺跡 / 城跡調査から尼子・毛利の攻防をさぐる / 帰るか"
 image = "/images/attention/kitten.jpg"
-tags = [ "photography", "izumo", "shimane", "ruins", "castle", "yasugi" ]
+tags = [ "photography", "izumo", "shimane", "ruins", "castle", "yasugi", "history" ]
 pageType = "text"
 
 [scripts]
