@@ -265,6 +265,25 @@
     ]
   },
   {
+    "hash_id": "7f45455d95541dd038a82eff0e29cc2651728c27",
+    "url": "https://www.takeshobo.co.jp/book/b10080622.html",
+    "title": "姫のためなら死ねる - 竹書房",
+    "description": "くずしろ 著",
+    "image_url": "https://hondana-image.s3.amazonaws.com/book/image/10080622/479fbafa-a566-4f3f-8e6b-e3e479ac948f.jpg",
+    "image_path": "/images/thumbs/7f45455d95541dd038a82eff0e29cc2651728c27.jpg",
+    "image_width": 110,
+    "rating": 4,
+    "stars": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "comment": "変態（笑）清少納言を中心としたコメディ平安史の最終巻。読んでるとこっちのほうが正史では？とか思ってしまう。",
+    "release_date": "2024-05-16"
+  },
+  {
     "hash_id": "850705d1a7fba6036d054e542005f3e2ba619166",
     "url": "https://technical-book-reading.connpass.com/event/401737/",
     "title": "第1回『我ら、プログラマー』オンライン読書会 (2026/08/22 13:00〜)",
@@ -420,6 +439,25 @@
       true,
       true
     ]
+  },
+  {
+    "hash_id": "de3809df88ecbb85bddad11b7d0df7336ec714f8",
+    "url": "https://www.kadokawa.co.jp/product/322411000125/",
+    "title": "ゆるゆる古典教室　オタクは実質、平安貴族【電子特典付き】",
+    "description": "生活・実用書「ゆるゆる古典教室　オタクは実質、平安貴族【電子特典付き】」のあらすじ、最新情報をKADOKAWA公式サイトより。古典は実質、インターネット――大昔に日本でバズった作品たちを古典という",
+    "image_url": "https://cdn.kdkw.jp/cover_1000/322411/322411000125.webp",
+    "image_path": "/images/thumbs/de3809df88ecbb85bddad11b7d0df7336ec714f8.jpg",
+    "image_width": 110,
+    "rating": 4,
+    "stars": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "comment": "にじさんじのライバー\u003ca href =https://www.youtube.com/@ShiorihaRuri\u003e栞葉るり\u003c/a\u003eさんによるエッセイ？ かな？ 平安時代のいわゆる女流文学と現代オタクとの対比がめっちゃ面白い。",
+    "release_date": "2025-07-25"
   },
   {
     "hash_id": "e77330c8587ec28b6b659c2bb564d68e90832ac8",
