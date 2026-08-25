@@ -232,6 +232,7 @@ If there is any vulnerability in anything, AIs are going to find and exploit the
 ## ブックマーク
 
 - {{< pdf-file title="INTELLIGENT AGENTS" link="https://people.eecs.berkeley.edu/~russell/aima1e/chapter02.pdf" >}}
+- [論説：AIの「意識」論争は何を隠しているか](https://www.technologyreview.jp/s/388181/debates-over-ai-consciousness-are-a-trap/)
 
 [Kagi Search]: https://kagi.com/ "Kagi Search - A Premium Search Engine"
 [Kagi Translate]: https://translate.kagi.com/ "Kagi Translate"
