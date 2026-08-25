@@ -3,7 +3,7 @@ title = "「出雲神話フォーラム2025」へ行ってきた"
 date =  "2025-03-16T23:13:52+09:00"
 description = "めっさ面白かった。"
 image = "/remark/2025/03/izumo-myth-forum-2025/54390248595_ebd74e46ba_o.jpg"
-tags = [ "osanpo-camera", "photography", "matsue", "museum", "izumo" ]
+tags = [ "osanpo-camera", "photography", "matsue", "museum", "izumo", "history" ]
 pageType = "text"
 
 [scripts]

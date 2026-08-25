@@ -3,7 +3,7 @@ title = "「東西出雲の王」を聴講する"
 date =  "2024-09-29T20:59:49+09:00"
 description = "今年は出雲地方の大型古墳が国の史跡として指定（1924年）されてから100周年なんだそうで。"
 image = "/images/attention/kitten.jpg"
-tags = [ "photography", "matsue", "izumo", "shimane", "ruins" ]
+tags = [ "photography", "matsue", "izumo", "shimane", "ruins", "history" ]
 pageType = "text"
 
 [scripts]

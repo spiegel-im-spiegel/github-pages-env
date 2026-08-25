@@ -4,7 +4,7 @@ date =  "2026-04-25T17:36:44+09:00"
 description = "栞がないなら付箋にすればいいぢゃない / 並行処理言語の歩み / プロセッサとプログラミング言語 / 年長者が賢いとは限らない / 「それがぼくには楽しかったから」は動機ではない？"
 isCJKLanguage = true
 image = "/images/attention/kitten.jpg"
-tags = [ "book", "unix", "golang", "language", "engineering" ]
+tags = [ "book", "unix", "golang", "language", "engineering", "history" ]
 pageType = "text"
 
 [scripts]
