@@ -4,7 +4,7 @@ date =  "2026-08-25T16:33:50+09:00"
 description = "せっかくなので，これの感想を書いて夏休みの読書感想文としよう。"
 isCJKLanguage = true
 image = "/images/attention/kitten.jpg"
-tags = [ "book", "history", "japanese" ]
+tags = [ "book", "history", "japanese", "vtuber" ]
 pageType = "text"
 
 [scripts]
