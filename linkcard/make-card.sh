@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
-linkcard https://www.takeshobo.co.jp/book/b10080622.html --rating 4 --release-date "2024-05-16" -w 110 -c "変態（笑）清少納言を中心としたコメディ平安史の最終巻。読んでるとこっちのほうが正史では？とか思ってしまう。"
-linkcard https://www.kadokawa.co.jp/product/322411000125/ --rating 4 --release-date "2025-07-25" -w 110 -c "にじさんじのライバー<a href ="https://www.youtube.com/@ShiorihaRuri">栞葉るり</a>さんによるエッセイ？ かな？ 平安時代のいわゆる女流文学と現代オタクとの対比がめっちゃ面白い。"
+linkcard https://www.sbcr.jp/product/479731110x/ --rating 0 --release-date "1999-10-22" -w 150
+#linkcard https://www.takeshobo.co.jp/book/b10080622.html --rating 4 --release-date "2024-05-16" -w 110 -c "変態（笑）清少納言を中心としたコメディ平安史の最終巻。読んでるとこっちのほうが正史では？とか思ってしまう。"
+#linkcard https://www.kadokawa.co.jp/product/322411000125/ --rating 4 --release-date "2025-07-25" -w 110 -c "にじさんじのライバー<a href ="https://www.youtube.com/@ShiorihaRuri">栞葉るり</a>さんによるエッセイ？ かな？ 平安時代のいわゆる女流文学と現代オタクとの対比がめっちゃ面白い。"
 #linkcard https://zen.ac.jp/press/books/b_0013 --rating 4 --release-date "2026-06-29" -w 150 -c "「ボブおじさん」による最新刊？ かな。2世紀以上に渡るコンピュータとプログラマの歴史と回顧録。気楽な読み物として楽しめる。デジタル化希望！"
 #linkcard https://technical-book-reading.connpass.com/event/401737/ -w 110
 #linkcard https://zen.ac.jp/press/books/b_0015 --rating 4 --release-date "2026-07-10" -w 150 -c "実務に即効性があるわけではないが，ものの「考え方」を示す本としてはよく出来ている。ソフトウェア技術史の読み物としても面白い。デジタル化希望！"
