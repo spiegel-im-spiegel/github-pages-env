@@ -21,6 +21,7 @@ pageType = "text"
 今はじっくり検証する暇がないので，とりあえずブックマークのみ載せておく。
 
 - [Generic Methods - The Go Programming Language](https://go.dev/blog/generic-methods)
+- [Goroutine Leak Profiles - The Go Programming Language](https://go.dev/blog/goroutine-leak-profiles)
 - [Go 1.27 から uuid 実装がサポートされる！ので個人的に気になった議論とその着地をまとめてみた](https://zenn.dev/layerx/articles/f7124d4e761c1f)
 - [Go 1.27 リリース連載：インデックス+HTTP/3(定期観察)+SIMD(第2弾) | フューチャー技術ブログ](https://future-architect.github.io/articles/20260728a/)
   - [Go 1.27のgo mod tidyの更新点 | フューチャー技術ブログ](https://future-architect.github.io/articles/20260729a/)
