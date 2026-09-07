@@ -213,6 +213,22 @@
     "release_date": "2021-11-13"
   },
   {
+    "hash_id": "680bad5aa943a5735811d2c52a37bd9aca6a47e8",
+    "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+    "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+    "description": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
+    "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/ai-agent-hacking-1152x648.jpg",
+    "image_path": "/images/thumbs/680bad5aa943a5735811d2c52a37bd9aca6a47e8.jpg",
+    "image_width": 150,
+    "stars": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
     "hash_id": "681fc2c54fd9c4392741d3ea8798d0f91c468fb5",
     "url": "https://www.nikkei-science.com/page/magazine/202506.html",
     "title": "2025年6月号｜日経サイエンス",
@@ -474,6 +490,38 @@
       true,
       true,
       true
+    ]
+  },
+  {
+    "hash_id": "c27bc9578f7d58cde7850d1a6f7817e1fed5d176",
+    "url": "https://pbxscience.com/ai-agents-breached-an-enterprise-network-in-under-10-hours-researchers-say/",
+    "title": "AI Agents Breached an Enterprise Network in Under 10 Hours, Researchers Say",
+    "description": "AI Agents Breached an Enterprise Network in Under 10 Hours, Researchers Say. Security researchers have documented one of the clearest real-world examples yet of artificial intelligence being used to carry out a large-scale cyberattack at a speed no human team could match.",
+    "image_url": "https://pbxscience.com/wp-content/uploads/2026/06/cg260622-hacker-ai-cracking.webp",
+    "image_path": "/images/thumbs/c27bc9578f7d58cde7850d1a6f7817e1fed5d176.jpg",
+    "image_width": 150,
+    "stars": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "hash_id": "de365fb63a0d4e8894469538c34f495c0cbf3df4",
+    "url": "https://unit42.paloaltonetworks.com/ai-assisted-cyber-attack-inside-a-unit-42-investigation/",
+    "title": "An AI-Assisted Cyber Attack: Inside a Unit 42 Investigation",
+    "description": "Using autonomous AI agents, an attacker breached an enterprise network in a matter of hours. Understand how to address and defend against agentic attacks.",
+    "image_url": "https://unit42.paloaltonetworks.com/wp-content/uploads/2026/09/07_Opinion_Overview_1920x900-1.jpg",
+    "image_path": "/images/thumbs/de365fb63a0d4e8894469538c34f495c0cbf3df4.jpg",
+    "image_width": 150,
+    "stars": [
+      false,
+      false,
+      false,
+      false,
+      false
     ]
   },
   {
