@@ -149,6 +149,7 @@ AI エージェントの登場は AI 駆動タスクのギアを一段上げる�
 
 ## ブックマーク
 
+- [Everyone Should Have a Personal AI Wiki · Jay Shah](https://jshah.dev/ai/2026/08/31/everyone-should-have-a-personal-ai-wiki/)
 - [自律的な AI エージェントとは]({{< ref "/remark/2026/07/what-is-an-autonomous-ai-agent.md" >}})
 
 [Kagi Assistant]: https://assistant.kagi.com/ "Kagi Assistant"
