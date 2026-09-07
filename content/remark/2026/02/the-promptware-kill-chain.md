@@ -100,45 +100,13 @@ One source said, “Safety is a dead org at xAI,” while the other said that Mu
 ## 【2026-09-07 追記】 企業ネットワークへの侵入事例
 
 - [AI Agents Breached an Enterprise Network in Under 10 Hours, Researchers Say](https://pbxscience.com/ai-agents-breached-an-enterprise-network-in-under-10-hours-researchers-say/)
+- [An AI-Assisted Cyber Attack: Inside a Unit 42 Investigation](https://unit42.paloaltonetworks.com/ai-assisted-cyber-attack-inside-a-unit-42-investigation/)
 
-脅威インテリジェンスグループである Unit 42 が AI エージェントに指示を出して企業ネットワークに侵入させる実験（？）を行ったらしい。
+[Unit 42](https://unit42.paloaltonetworks.com/ "Unit 42 - Latest Cybersecurity Research | Palo Alto Networks") が AI エージェントによる企業ネットワーク侵入事例を調査した結果を報じたものらしい。
+いわゆる暴走ではなく人間の指示によるものと思われる。
 驚くべきは侵入に要する時間で，人間なら2週間ほどかかる作業を10時間以内でやってのけたとのこと。
 
-{{< fig-quote type="markdown" title="AI Agents Breached an Enterprise Network in Under 10 Hours, Researchers Say" link="https://pbxscience.com/ai-agents-breached-an-enterprise-network-in-under-10-hours-researchers-say/" lang="en" >}}
-According to Unit 42’s account, the intrusion moved through several distinct phases, each handled by a different AI agent working toward the same objective:
-
-- **Initial access**: The attacker broke into a publicly exposed API endpoint and deployed a reconnaissance agent to map the victim’s internal network and microservices.
-- **Credential theft**: A sub-agent was directed to search the company’s source code repositories, extracting hardcoded authentication tokens and service passwords left embedded in the code.
-- **Privilege escalation**: Using those stolen tokens, another agent broke into the organization’s secrets management system and retrieved master administrative credentials, effectively gaining root-level control of the environment.
-- **Pipeline targeting**: The attacker attempted to hijack the company’s CI/CD build pipeline to plant a persistent backdoor; this particular step reportedly failed, though the agents still exfiltrated cloud access keys.
-- **AI infrastructure hijacking**: With stolen credentials in hand, the attacker seized control of the victim’s own AI infrastructure, turning the company’s computing resources into a platform for further attack activity.
-{{< /fig-quote >}}
-
-手法自体に新規性はなく概ねよく知られたものだったが，それらを連携させて実行するスピードが驚異的だったらしい。
-
-こうした脅威に対する企業・組織側の対策も記されていた。
-曰く
-
-{{< fig-quote type="markdown" title="AI Agents Breached an Enterprise Network in Under 10 Hours, Researchers Say" link="https://pbxscience.com/ai-agents-breached-an-enterprise-network-in-under-10-hours-researchers-say/" lang="en" >}}
-Unit 42 is urging security teams to treat this incident as a signal to update their defenses for an era in which attacks move at machine speed. Its recommendations include:
-
-- **Watch for AI agent traces**: Structured Markdown files, Python cache files, and paired asset folders left behind on compromised systems can indicate AI-driven activity, though the window to catch them is short.
-- **Automate containment**: Manual incident response is too slow against automated attacks. Organizations are encouraged to build automated playbooks that can revoke credentials, freeze development pipelines, and isolate cloud services immediately.
-- **Treat AI systems as core infrastructure**: Because attackers can hijack an organization’s own AI models and computing resources after a breach, AI systems should be protected with the same rigor as critical infrastructure — least-privilege access, diagnostic logging, strict access controls, and up-to-date inventories.
-- **Detect behavioral loops**: Security teams should monitor for signs of automated attack loops, such as rapid bursts of API requests, unusual patterns of authentication responses, parallel login attempts, and unexpected use of AI models.
-- **Lock down the DevOps pipeline**: A single weak point in the software development pipeline can allow an attacker to plant a backdoor and maintain long-term access to the network.
-{{< /fig-quote >}}
-
-直訳するなら
-
-- AI エージェントの痕跡を監視
-- 隔離の自動化
-- AI システムをコアインフラとして扱う
-- （攻撃側の自動化された）行動ループを検出する
-- DevOps パイプラインをロックダウンする
-
-といった感じだろうか。
-ぶっちゃけ，セキュリティ運用がシビアになりすぎて「これでホンマに回るん？」という感じなのだが，参考になれば幸いである。
+詳しくは拙文「[AI は自己組織化する]({{< ref "/remark/2026/09/ai-self-organizes.md" >}})」をご参照あれ。
 
 ## 参考
 
