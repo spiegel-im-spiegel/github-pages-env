@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
-linkcard https://unit42.paloaltonetworks.com/ai-assisted-cyber-attack-inside-a-unit-42-investigation/ --rating 0 -w 150
-linkcard https://pbxscience.com/ai-agents-breached-an-enterprise-network-in-under-10-hours-researchers-say/ --rating 0 -w 150
-linkcard https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/ --rating 0 -w 150
+linkcard https://github.com/goark/today --rating 0 -w 150
+#linkcard https://unit42.paloaltonetworks.com/ai-assisted-cyber-attack-inside-a-unit-42-investigation/ --rating 0 -w 150
+#linkcard https://pbxscience.com/ai-agents-breached-an-enterprise-network-in-under-10-hours-researchers-say/ --rating 0 -w 150
+#linkcard https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/ --rating 0 -w 150
 #linkcard https://www.kadokawa.co.jp/product/301305000217/ --rating 5 --release-date "2015-09-07" -w 110 -c "「孫子の兵法」を著した孫武の物語。孫武に関する史料はほとんどないらしいのだが，杜康潤さんによるアレンジがめっちゃ面白い。"
 #linkcard https://www.sbcr.jp/product/479731110x/ --rating 0 --release-date "1999-10-22" -w 150
 #linkcard https://www.takeshobo.co.jp/book/b10080622.html --rating 4 --release-date "2024-05-16" -w 110 -c "変態（笑）清少納言を中心としたコメディ平安史の最終巻。読んでるとこっちのほうが正史では？とか思ってしまう。"
