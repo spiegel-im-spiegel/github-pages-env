@@ -22,19 +22,19 @@ pageType = "text"
 
 そういった「パッと見は科学的に見える」オカルトはファンタジーより寧ろ SF と結びついた（ネタ消費ではなくガチ議論で）。
 それこそUFOや超能力をテーマにしたSF作品が掃いて捨てるほど湧いて出た時代であった。
-今でこそガンダムの「ニュータイプ」なんかは消費ネタでしかないが，当時はガチで議論してた人も多かった。
+今でこそガンダムの「ニュータイプ」なんかは草が生えるような消費ネタでしかないが，当時はガチで議論してた人も多かった。
 ガンオタって昔からキモいよねー（笑）
 
 オカルトと結びついたSFは，更にカルトを呼び込む[^oc1]。
 日本に於いてこれの典型と言えるのが[オウム真理教](https://ja.wikipedia.org/wiki/%E3%82%AA%E3%82%A6%E3%83%A0%E7%9C%9F%E7%90%86%E6%95%99 "オウム真理教 - Wikipedia")である[^a1]。
-彼らがオカルト&SFな教義と科学的知識で以って化学兵器テロを実行した事件は，社会に大きな衝撃を与えた。
+オカルト&SFな教義と科学知識で以って彼らが化学兵器テロを実行した事件は，社会に大きな衝撃を与えた。
 
 [^oc1]: [カルト](https://www.britannica.com/topic/cult "Cult | Meaning, Definition, Religion, & Psychology | Britannica")と[オカルト](https://www.britannica.com/topic/occult "Occult | Definition, Beliefs, & Examples | Britannica")は語源が違うらしい。浄土宗の辞典にも[カルト](https://jodoshuzensho.jp/daijiten/index.php/%E3%82%AB%E3%83%AB%E3%83%88 "カルト - 新纂浄土宗大辞典")と[オカルト](https://jodoshuzensho.jp/daijiten/index.php/%E3%82%AA%E3%82%AB%E3%83%AB%E3%83%88 "オカルト - 新纂浄土宗大辞典")の項目があってちょっと笑った。
 [^a1]: オウム真理教の設立は（登記上は）1989年とされているが，それ以前，1980年代初頭には既に色々とやらかしていたらしい。私の学生時代にも，その手のカルト組織の情報が注意喚起として飛び交っていた。広島ではヤクザとカルトに気をつけろ（笑）
 
 ## 指輪右翼？
 
-なんでこんな益体もない昔ばなしから始めたかというと，以下のポストを（Bluesky 経由で）見かけたから。
+なんでこんな益体もない昔ばなしから始めたかというと，以下のポストを（[Bluesky 経由](https://bsky.app/profile/shinjiyamane.bsky.social/post/3mv6kxxa7u224)で）見かけたから。
 
 {{< fig-gen >}}
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">いいかげんトールキン財団はパランティアとかアンドゥリルとかいう名前の使用に制限をかけるべきだ。あんな奴らに指輪ファン面をされてこっちはほとほと迷惑してるんだ。<br><br>オルト・ライトと指輪右翼の世界。もっと知られるべきと思ったんで宣伝しとく。<a href="https://t.co/cF4gUVlf5Z">https://t.co/cF4gUVlf5Z</a></p>&mdash; Kiichiro Yanashita (@kiichiro) <a href="https://x.com/kiichiro/status/2046234949641196001?ref_src=twsrc%5Etfw">April 20, 2026</a></blockquote>
@@ -114,3 +114,7 @@ As James puts it, “The amazing thing is that what you see in Lord of the Rings
 オタクは徳ではなく業を積む。
 
 [Kagi Assistant]: https://assistant.kagi.com/ "Kagi Assistant"
+
+## 参考
+
+{{% review-paapi "4560084122" %}} <!-- ヒトラーと哲学者 -->
