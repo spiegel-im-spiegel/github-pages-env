@@ -94,7 +94,7 @@ JS・タンは「[私がパランティアの本を読んだんで、あなた�
 - [「AIの発展にはアメリカ製オープンモデルが必要不可欠」とする声明をMicrosoftが発表しNVIDIA・OpenAI・Google・AMDなども賛同](https://gigazine.net/news/20260727-ai-open-weight/)
 - [NVIDIAやLinux Foundationなどが「Open Secure AI Alliance」設立、AI防御技術の開発・共有へ | gihyo.jp](https://gihyo.jp/article/2026/07/open-secure-ai-alliance)
 - [メイカームーブメントと防衛テックの不都合な、しかし、地続きな関係](https://wirelesswire.jp/2026/08/94212/) : ドローンから AI まで
-
+- [Anthropic社の脅威レポートが示す「国家級攻撃力の民主化」と「すべてが標的化」｜塚本 牧生](https://note.com/tsukamoto/n/n45c887e6ea0b) : Anthropic 社には「おまえがゆーな！」という感想しかないのだが...
 - [AI は正解を答えない]({{< ref "/remark/2026/02/ai-doesnt-provide-definitive-answers.md" >}})
 - [「プロンプトウェア・キルチェーン」]({{< ref "/remark/2026/02/the-promptware-kill-chain.md" >}})
 - [AI の軍事利用]({{< ref "/remark/2026/03/military-use-of-ai.md" >}})
