@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
-linkcard https://www.youtube.com/watch?v=_xwOiIMM2a4 --rating 5 -w 150 -c "ひたすら可愛い曲。煽らない月曜日（笑）"
-linkcard https://www.youtube.com/watch?v=YbCspLC7xD8 --rating 5 -w 150 -c "ゲーム「首都高バトル」と VTuber 輪堂千速とのコラボ曲。レースゲームっぽく疾走感があって，聞いてて楽しい。"
-linkcard https://www.youtube.com/watch?v=cqm_MMf3nCU --rating 5 -w 150 -c "移動しながら聞くとご機嫌になれる曲。ケイデンス80くらいでちょうどテンポが合うんだよなぁ。「うかつに突き進んで行け！」の歌詞でシビレた"
+linkcard https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/ --rating 0 -w 150
+#linkcard https://www.youtube.com/watch?v=_xwOiIMM2a4 --rating 5 -w 150 -c "ひたすら可愛い曲。煽らない月曜日（笑）"
+#linkcard https://www.youtube.com/watch?v=YbCspLC7xD8 --rating 5 -w 150 -c "ゲーム「首都高バトル」と VTuber 輪堂千速とのコラボ曲。レースゲームっぽく疾走感があって，聞いてて楽しい。"
+#linkcard https://www.youtube.com/watch?v=cqm_MMf3nCU --rating 5 -w 150 -c "移動しながら聞くとご機嫌になれる曲。ケイデンス80くらいでちょうどテンポが合うんだよなぁ。「うかつに突き進んで行け！」の歌詞でシビレた"
 #linkcard https://github.com/goark/today --rating 0 -w 150
 #linkcard https://unit42.paloaltonetworks.com/ai-assisted-cyber-attack-inside-a-unit-42-investigation/ --rating 0 -w 150
 #linkcard https://pbxscience.com/ai-agents-breached-an-enterprise-network-in-under-10-hours-researchers-say/ --rating 0 -w 150
