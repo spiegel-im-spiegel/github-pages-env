@@ -1,12 +1,11 @@
 +++
 title = "テキストから HTML タグを除去する"
-date =  "2026-09-16T12:16:33+09:00"
+date =  "2026-09-16T12:17:57+09:00"
 description = "正規表現でタグを除去する / Tokenizer を使ってタグを除去する"
 isCJKLanguage = true
 image = "/images/attention/go-logo_blue.png"
 tags = [ "programming", "golang", "html", "regular-expression" ]
 pageType = "text"
-draft = true
 
 [scripts]
   mathjax = false
