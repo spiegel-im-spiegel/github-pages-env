@@ -151,6 +151,7 @@ AI エージェントの登場は AI 駆動タスクのギアを一段上げる�
 
 - [Everyone Should Have a Personal AI Wiki · Jay Shah](https://jshah.dev/ai/2026/08/31/everyone-should-have-a-personal-ai-wiki/)
 - [AIエージェントによるドイツ語ウィキ「DseWiki」ののっとりについてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2026/09/10/015745)
+- [LLMにWikiを書かせて半年、一番役に立った画面はLLMの文章を使っていなかった](https://zenn.dev/rescuenow/articles/5aa26aebd7ae78)
 - [自律的な AI エージェントとは]({{< ref "/remark/2026/07/what-is-an-autonomous-ai-agent.md" >}})
 
 [Kagi Assistant]: https://assistant.kagi.com/ "Kagi Assistant"
