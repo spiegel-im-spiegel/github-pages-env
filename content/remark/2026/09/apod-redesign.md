@@ -91,7 +91,7 @@ The APOD API has been updated. It now returns information from https://science.n
 
 まず，上の引用のように API エンドポイントが変わった（旧エンドポイントは 2026-12-01 まで）。
 これも WordPress かな？ 以前必要だった API キーも要らないようだ。
-パラメータなしでリクエストを発行すると，最新30件の APOD データが取得できる。
+パラメータなしでリクエストを発行すると，最新25件の APOD データが取得できる。
 
 ```text
 $ curl -sS https://science.nasa.gov/wp-json/wp/v2/apod-basic/ | jq .
