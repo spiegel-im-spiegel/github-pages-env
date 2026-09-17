@@ -3,13 +3,22 @@ title = "NASA API を使って “Astronomy Picture of the Day” のデータ�
 date =  "2023-02-23T15:26:27+09:00"
 description = "これなら自作してみるのもいいかもなぁ。"
 image = "/images/attention/kitten.jpg"
-tags = [ "astronomy", "golang", "photography", "nasa" ]
+tags = [ "astronomy", "golang", "photography", "nasa", "web", "api" ]
 pageType = "text"
 
 [scripts]
   mathjax = false
   mermaidjs = false
 +++
+
+{{< div-box type="markdown" >}}
+**【2026-09-17 追記】**
+
+NASA APOD は2026年8月に移転・リニューアルし， API もアップグレードされた。
+詳しくは以下の記事を参照のこと。
+
+- [“Astronomy Picture of the Day” が移転・リニューアル]({{< ref "remark/2026/09/apod-redesign.md" >}})
+{{< /div-box >}}
 
 Mastodon の自 TL を眺めてたら
 
