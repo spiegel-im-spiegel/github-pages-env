@@ -67,4 +67,4 @@ pageType = "text"
 ## 参考
 
 {{% review-paapi "4822283100" %}} <!-- セキュリティはなぜやぶられたのか -->
-{{% review-paapi "B0CK19L1HC" %}} <!-- ハッキング思考 Kindle 版 -->
+{{< linkcard "f49db55e98f0eb56c864acd2ee6f4da8da10016c" >}} <!-- ハッキング思考 -->
