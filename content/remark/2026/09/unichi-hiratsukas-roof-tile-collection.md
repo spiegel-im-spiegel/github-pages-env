@@ -109,8 +109,14 @@ pageType = "photo"
 
 今回はここまで。
 
+## ブックマーク
+
+- [「王と前方後方墳 — 王道か、異端か。」]({{< ref "/remark/2024/10/king-and-zenpo-kohofun.md" >}})
+- [「出雲国造の成立と出雲臣」を聴講する]({{< ref "/remark/2024/11/ancient-izumo.md" >}})
+
 [島根県立八雲立つ風土記の丘]: https://www.yakumotatu-fudokinooka.jp/ "島根県立八雲立つ風土記の丘"
 
 ## 参考
 
 {{< linkcard "801a20cdd728827b71d212a3bb68647fc387a28f" >}} <!-- 松江の神社&その旧社地 -->
+{{% review-paapi "4886219454" %}} <!-- 古代出雲の氏族と社会 -->
