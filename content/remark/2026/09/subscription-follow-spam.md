@@ -60,7 +60,7 @@ Mastodon 開発側もこの点は認識しているようで，最初のポス�
 さらに、あなたのアカウントが「鍵垢」で、かつフォローリクエストを承認している場合、フォロワー限定投稿も見られてしまいます。鍵垢でも承認前なら見られませんが、うっかり承認してしまうとフォロワー限定投稿も漏れます。（[2](https://github.com/joyeusenoelle/GuideToMastodon/)）（[3](https://fedi.tips/who-can-see-my-posts-in-mastodon-how-do-i-send-dms-in-mastodon/)）
 {{< /div-ai >}}
 
-ん？ フォロー解除って何だ？
+ん？ フォロワー解除って何だ？
 
 {{< div-ai type="markdown" >}}
 **「フォロワー解除」機能を使う（Mastodon 4.4 以降）**
