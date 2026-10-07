@@ -66,7 +66,7 @@ pageType = "text"
 - [2019年2月25日ニュース「船頭多くても、船は山に上らずスイスイ進む」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2019/02/20190225_01.html)
 - [Kubernetesの基本から運用まで解説したO'Reillyの書籍「Cloud Native DevOps With Kubernetes」PDF版、NGINXが無料配布中 － Publickey](https://www.publickey1.jp/blog/19/kubernetesoreillycloud_native_devops_with_kubernetespdfnginx.html)
 - [OONI - The State of Internet Censorship in Venezuela](https://ooni.torproject.org/post/venezuela-internet-censorship/)
-- [闘う図書館と情報の自由――ライブラリー・フリーダム・プロジェクト «  マガジン航[kɔː]](https://magazine-k.jp/2019/02/26/library-freedom-project/)
+- [闘う図書館と情報の自由――ライブラリー・フリーダム・プロジェクト «  マガジン航[kɔː]](https://web.archive.org/web/20261003095755/https://magazine-k.jp/2019/02/26/library-freedom-project/)
 - [2023年になっても日本企業の基幹系システムの80％はオンプレミスで商用RDBを使い続ける。臨機応変なデータ分析ツールはExcelであり続ける。ガートナーの予想 － Publickey](https://www.publickey1.jp/blog/19/202380rdbexcel.html)
 - [2019年2月26日ニュース「基礎研究分野で将来を担う研究者に10年で計1億円を助成 稲盛財団が創設」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2019/02/20190226_01.html)
 - [Nintendo Switchで次期バージョンのAndroid 10 Qを起動させた猛者が登場 - GIGAZINE](https://gigazine.net/news/20190226-android-q-on-nintendo-switch/)

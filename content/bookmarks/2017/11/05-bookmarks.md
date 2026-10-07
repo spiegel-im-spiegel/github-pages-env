@@ -57,7 +57,7 @@ flattr    = ""
 - [仏文豪プルーストの膨大な文書、オンラインで来年から無料公開へ](http://www.afpbb.com/articles/-/3147987)
 - [青空文庫のオンデマンド書籍版、約100字の購入者メッセージを入れることが可能に - Book Watch/ニュース - 窓の杜](https://forest.watch.impress.co.jp/docs/bookwatch/news/1089387.html)
 - [非親告罪化と著作権延長の時計の針は、1秒前で止まっています。 | TPPの知的財産権と協議の透明化を考えるフォーラム](http://thinktppip.jp/?p=845)
-- [文庫とライブラリーの間で « マガジン航[kɔː]](https://magazine-k.jp/2017/11/01/editors-note-26/)
+- [文庫とライブラリーの間で « マガジン航[kɔː]](https://web.archive.org/web/20261003095755/https://magazine-k.jp/2017/11/01/editors-note-26/)
     - [「本が売れないのは図書館が本を貸すからだ」問題の立証をできる範囲でやる - 図書館学徒未満](http://lovelibrary.hatenablog.com/entry/2017/11/02/143242)
 - [Google Polyは3Dオブジェクトを多数掲載したサイト――CCライセンスで自由に使える | TechCrunch Japan](https://techcrunch.com/2017/11/01/google-launches-poly-a-home-for-the-worlds-3d-objects-built-for-creators/)
 

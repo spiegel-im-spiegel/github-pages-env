@@ -91,7 +91,7 @@ flattr    = ""
 - [RustにおけるfutureとgRPC | プログラミング | POSTD](http://postd.cc/futuresandgrpc/)
 - [そろそろ真面目に、HTMLで帳票を描く話をしようか - Qiita](https://qiita.com/cognitom/items/d39d5f19054c8c8fd592)
 - [「エネルギー＝電気・電力」という誤解に注意！：岩瀬昇 | エネルギーの部屋 | 新潮社　Foresight(フォーサイト) | 会員制国際情報サイト](http://www.fsight.jp/articles/-/43314)
-- [第1回　アマゾンがリアル書店を展開する思惑 «  マガジン航[kɔː]](https://magazine-k.jp/2018/02/09/us-bookstore-report-01/)
+- [第1回　アマゾンがリアル書店を展開する思惑 «  マガジン航[kɔː]](https://web.archive.org/web/20261003095755/https://magazine-k.jp/2018/02/09/us-bookstore-report-01/)
 - [「民間検閲」はヘイトを排除し、民主主義を守るためのソリューションではない – P2Pとかその辺のお話R](http://p2ptk.org/freedom-of-speech/760)
 - [ニュース - 三菱UFJニコスのシステム障害の原因が判明、3個のHDDが同時に故障：ITpro](http://itpro.nikkeibp.co.jp/atcl/news/17/020803126/?rt=nocnt)
 - [量子コンピュータの挑戦： スーパーコンピュータに勝てるだろうか？](http://www.qmedia.jp/quantum-beat-super-computer/)

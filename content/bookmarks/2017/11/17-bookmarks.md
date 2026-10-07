@@ -154,7 +154,7 @@ flattr    = ""
 - [日本のインターネット黎明期をリードした雑誌『iNTERNET magazine』を1号限定で11月16日に復刊発売｜株式会社インプレスホールディングスのプレスリリース](https://prtimes.jp/main/html/rd/p/000001887.000005875.html)
 - [開発者が見るAPIの弱点は「ドキュメント」、注目はマイクロサービスに - ZDNet Japan](https://japan.zdnet.com/article/35110294/)
 - [従来より2倍高速化をうたう「Firefox Quantum」正式版が公開。今後もさらに性能向上は続く － Publickey](http://www.publickey1.jp/blog/17/2firefox_quantum.html)
-- [Twitterは言論プラットフォームたりうるか？ «  マガジン航[kɔː]](https://magazine-k.jp/2017/11/15/twitter-is-not-platform-for-journalism/)
+- [Twitterは言論プラットフォームたりうるか？ «  マガジン航[kɔː]](https://web.archive.org/web/20261003095755/https://magazine-k.jp/2017/11/15/twitter-is-not-platform-for-journalism/)
     - [Twitter、差別主義者に青バッジ→炎上→青バッジシステム停止 - ITmedia NEWS](http://www.itmedia.co.jp/news/articles/1711/10/news046.html)
 - [単純作業をデジタルロボに頼めるクラウドRPA「BizteX cobit」が正式公開 - CNET Japan](https://japan.cnet.com/article/35110371/)
 - [Microsoftの友好的協業時代は終わりを告げるのか  |  TechCrunch Japan](https://techcrunch.com/2017/11/14/microsofts-period-of-congenial-cooperation-could-be-over/)

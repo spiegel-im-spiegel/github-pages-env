@@ -94,7 +94,7 @@ description = "「ISPがユーザーの承諾なしで個人データを収集�
 - [東芝、1兆円赤字は「いばらの道」の始まり：日経ビジネスオンライン](http://business.nikkeibp.co.jp/atcl/report/16/070600052/032900011/?rt=nocnt)
 - [Creative Commons — What the different options mean for content owners and content users](https://medium.com/pastportal/creative-commons-what-the-different-options-mean-for-content-owners-and-content-users-6447a3f9538c)
 - [ヘイトスピーチに対処しないテック企業に罰金60億円──ドイツが選んだ「危険なプラン」の勝算｜WIRED.jp](http://wired.jp/2017/03/30/germany-plan-online-hate/)
-- [ロビン・スローン氏に聞く〜「EPIC2014」から『ペナンブラ氏の24時間書店』まで « マガジン航[kɔː]](https://magazine-k.jp/2017/03/30/robin-sloan-interview/)
+- [ロビン・スローン氏に聞く〜「EPIC2014」から『ペナンブラ氏の24時間書店』まで « マガジン航[kɔː]](https://web.archive.org/web/20261003095755/https://magazine-k.jp/2017/03/30/robin-sloan-interview/)
 - [MIT Tech Review: 「使う側」か「使われる側」か？　AI／ロボットで起きる大変動](https://www.technologyreview.jp/s/32408/lexus-visionary-conference-event-report-2/)
 - [Excelの使い方を初心者でも勉強できるサイト｜エクセルハック](http://excel-hack.com/)
 - [私が書いた最速のハッシュテーブル – PART 1 | プログラミング | POSTD](http://postd.cc/i-wrote-the-fastest-hashtable-1/)

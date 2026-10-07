@@ -76,7 +76,7 @@ EFF も言っているではないか。
 
 ## ブックマーク
 
-- [メディアは（常に）スパムか？ « マガジン航[kɔː]](https://magazine-k.jp/2016/01/25/spam-and-media/)
+- [メディアは（常に）スパムか？ « マガジン航[kɔː]](https://web.archive.org/web/20261003095755/https://magazine-k.jp/2016/01/25/spam-and-media/)
 - [タイムラインの奴隷 - Spiegel's Branch - Scrapbox](https://scrapbox.io/spiegel-branch/%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%AE%E5%A5%B4%E9%9A%B7)
 - [徒然ブログ]({{< ref "/remark/2021/06/weblog.md" >}})
 

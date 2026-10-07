@@ -78,7 +78,7 @@ image = "/images/attention/bookmarks.jpg"
 - [「トゥインクルスターのんのんじー」ボイスコミック化 : ぽじとろんの竹本泉観察記](https://positron.exblog.jp/30413497/)
 - [2019年2月14日ニュース「2018年は史上4番目に暑い年だった 4年連続高温で温暖化傾向に歯止めかからず」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2019/02/20190214_01.html)
 - [役立つコードレビュー　8つのヒント | POSTD](https://postd.cc/8-tips-for-great-code-reviews/)
-- [第1回 ブックオフという「図書館」の登場 «  マガジン航[kɔː]](https://magazine-k.jp/2019/02/14/bookoff-as-public-sphere-01/)
+- [第1回 ブックオフという「図書館」の登場 «  マガジン航[kɔː]](https://web.archive.org/web/20261003095755/https://magazine-k.jp/2019/02/14/bookoff-as-public-sphere-01/)
 - [日本人の表情がエクマンの理論とは異なることを実証 －世界で初めて日本人の基本6感情の表情を報告－ — 京都大学](http://www.kyoto-u.ac.jp/ja/research/research_results/2018/190212_2.html?utm_source=dlvr.it&utm_medium=twitter)
 - [2018 Year in Review – Pornhub Insights](https://www.pornhub.com/insights/2018-year-in-review)
 - [No Link Between Violent Video Games and Increased Aggression in Teens, Study Finds - Slashdot](https://games.slashdot.org/story/19/02/14/2022243/no-link-between-violent-video-games-and-increased-aggression-in-teens-study-finds)

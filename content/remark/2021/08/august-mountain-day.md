@@ -43,7 +43,7 @@ sigh...
 
 ## ブックマーク
 
-- [メディアは（常に）スパムか？ « マガジン航[kɔː]](https://magazine-k.jp/2016/01/25/spam-and-media/)
+- [メディアは（常に）スパムか？ « マガジン航[kɔː]](https://web.archive.org/web/20261003095755/https://magazine-k.jp/2016/01/25/spam-and-media/)
 
 ## 参考図書
 
