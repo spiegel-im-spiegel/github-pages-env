@@ -64,7 +64,7 @@ pageType = "text"
 - [AWSが、Elasticsearchのコードにはプロプライエタリが混在しているとして、OSSだけで構成される「Open Distro for Elasticsearch」を作成し公開 － Publickey](https://www.publickey1.jp/blog/19/awselasticsearchossopen_distro_for_elasticsearch.html)
 - [SREによる構成変更がGmailなど広範囲な障害の引き金に。3月13日に発生した障害についてGoogleが報告 － Publickey](https://www.publickey1.jp/blog/19/sregmail313google.html)
 - [2019年3月19日ニュース「災害伝える碑の存在をもっと知って備えよう 新地図記号を国土地理院が制定」 | SciencePortal](https://scienceportal.jst.go.jp/news/newsflash_review/newsflash/2019/03/20190319_02.html)
-- [第2回 ブックオフ・図書館・コンビニ «  マガジン航[kɔː]](https://magazine-k.jp/2019/03/19/bookoff-as-public-sphere-02/)
+- [第2回 ブックオフ・図書館・コンビニ «  マガジン航[kɔː]](https://web.archive.org/web/20261003095755/https://magazine-k.jp/2019/03/19/bookoff-as-public-sphere-02/)
 - [Netflixは3月25日発表のアップルのビデオストリーミングサービスに加わらないとCEOが声明  |  TechCrunch Japan](https://techcrunch.com/2019/03/18/reed-hastings-says-netflix-wont-be-part-of-apples-upcoming-video-streaming-service/)
 - [textlint と VS Code で始める文章校正 - Qiita](https://qiita.com/takasp/items/22f7f72b691fda30aea2)
 - [浮動小数点演算1回は100京分の1秒、IntelとCrayが超高速次世代スパコンを共同開発中  |  TechCrunch Japan](https://techcrunch.com/2019/03/18/intel-and-cray-are-building-a-500-million-exascale-supercomputer-for-argonne-national-lab/)

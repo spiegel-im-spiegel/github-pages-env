@@ -79,7 +79,7 @@ tags = [ "censorship", "internet", "code", "law", "politics", "bookmark", "comic
 - [「漫画村」などの海賊版サイトを潰すために出版業界が行ってきたことは？ - 鷹野凌のデジタル出版最前線 - 窓の杜](https://forest.watch.impress.co.jp/docs/bookwatch/digipub/1118474.html)
 - [NTTによるブロッキングの何が許せないのか - Software Transactional Memo](http://kumagi.hatenablog.com/entry/why-ntt-blocking)
 - [海賊版サイトブロッキングに関する質問趣意書に「内容のない回答」をする日本政府 – P2Pとかその辺のお話R](http://p2ptk.org/copyright/887)
-- [出版業界はブロッキング問題で岐路に立っている «  マガジン航[kɔː]](https://magazine-k.jp/2018/05/01/editors-note-32/)
+- [出版業界はブロッキング問題で岐路に立っている «  マガジン航[kɔː]](https://web.archive.org/web/20261003095755/https://magazine-k.jp/2018/05/01/editors-note-32/)
 - [ディズニー、ネットセーフティ、プログラミング教育まで遮断してしまう英国ISPのセーフティ・フィルター – P2Pとかその辺のお話R](http://p2ptk.org/freedom-of-speech/904)
 - [デンマーク、ブロッキング実施後も海賊版サイトへのアクセスが67％増加 – P2Pとかその辺のお話R](http://p2ptk.org/copyright/900)
 - [最も「安全」なメッセンジャーアプリ「Signal」がGoogleに続いてAmazonからもBANされ一部の国で利用不可能な状態になる - GIGAZINE](https://gigazine.net/news/20180507-amazon-shut-down-signal-account/)

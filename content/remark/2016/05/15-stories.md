@@ -137,7 +137,7 @@ Storage と workplace に関してはそろそろちゃんとお金を払って�
     - [NASA Finds 1,284 Alien Planets, Biggest Haul Yet, with Kepler Space Telescope](http://www.space.com/32850-nasa-kepler-telescope-finds-1284-alien-planets.html)
     - [NASA、太陽系外惑星1284個を発見 | TechCrunch Japan](https://techcrunch.com/2016/05/12/astronomers-announce-largest-batch-of-new-planets-ever-discovered/)
 - [ダン・ギルモア著『あなたがメディア　ソーシャル新時代の情報術』を全文公開します | 新聞紙学的](https://kaztaira.wordpress.com/2016/05/12/%E3%83%80%E3%83%B3%E3%83%BB%E3%82%AE%E3%83%AB%E3%83%A2%E3%82%A2%E8%91%97%E3%80%8E%E3%81%82%E3%81%AA%E3%81%9F%E3%81%8C%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%80%80%E3%82%BD%E3%83%BC%E3%82%B7%E3%83%A3/)
-- [パナマ文書事件が明らかにした「第五階級」とは « マガジン航[kɔː]](https://magazine-k.jp/2016/05/13/panama-papers-and-fifth-estate/) : 確かに WikiLeaks とは異なるが， WikiLeaks の次の段階とも言える
+- [パナマ文書事件が明らかにした「第五階級」とは « マガジン航[kɔː]](https://web.archive.org/web/20261003095755/https://magazine-k.jp/2016/05/13/panama-papers-and-fifth-estate/) : 確かに WikiLeaks とは異なるが， WikiLeaks の次の段階とも言える
 - [Amazon.co.jp： 【中東大混迷を解く】 サイクス=ピコ協定 百年の呪縛: 池内 恵: 本](https://www.amazon.co.jp/exec/obidos/ASIN/4106037866/baldandersinf-22/) : とりあえず予約した
     - [【サポートページ開設】『サイクス＝ピコ協定 百年の呪縛』のカテゴリーを設定しました – 中東・イスラーム学の風姿花伝](http://ikeuchisatoshi.com/%E3%80%90%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E3%83%9A%E3%83%BC%E3%82%B8%E9%96%8B%E8%A8%AD%E3%80%91%E3%80%8E%E3%82%B5%E3%82%A4%E3%82%AF%E3%82%B9%EF%BC%9D%E3%83%94%E3%82%B3%E5%8D%94%E5%AE%9A-%E7%99%BE/)
 - [「モノのインターネットは、セキュリティの面では悪夢だ」EFFの警告 | TechCrunch Japan](https://techcrunch.com/2016/05/09/the-internet-of-things-is-security-nightmare-warns-eff/)
