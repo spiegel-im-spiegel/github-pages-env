@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
-linkcard https://wirelesswire.jp/2026/10/94606/ --rating 0 -w 150
+linkcard https://www.sbcr.jp/product/4797393163/ --rating 5 -w 150 -c "通称「徳丸本」。 Web アプリケーションを作成する際にはまず読んでおきたい一冊。近々<a href='https://atmarkit.itmedia.co.jp/ait/articles/2608/28/news018.html'>第3版</a>が出るらしい。"
+#linkcard https://wirelesswire.jp/2026/10/94606/ --rating 0 -w 150
 #linkcard https://imaibp.co.jp/op/?p=605 --rating 5 -w 150 -c "Web サイト「<a href='https://jinja.matsue-hana.com/'>松江の神社</a>」で公開されている写真と解説を本にまとめたものらしい。小さな祠まで網羅されていて，とても助かっている。地元出版社による自費出版。 <a href='https://link.amazon/B0av5LfSF'>Amazon で買える</a>が，在庫切れかな？ "
 #linkcard https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/ --rating 0 -w 150
 #linkcard https://www.youtube.com/watch?v=_xwOiIMM2a4 --rating 5 -w 150 -c "ひたすら可愛い曲。煽らない月曜日（笑）"
