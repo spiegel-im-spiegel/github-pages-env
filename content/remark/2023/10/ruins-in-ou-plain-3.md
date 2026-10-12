@@ -147,7 +147,7 @@ pageType = "photo"
 次の機会に期待しませう。
 
 [揖夜神社]: https://maps.app.goo.gl/iUGu79bh4BSm4GSYA
-[六所神社]: ttps://maps.app.goo.gl/SPuX6QUhQDjuwJqY7
+[六所神社]: https://maps.app.goo.gl/SPuX6QUhQDjuwJqY7
 [眞名井神社]: https://maps.app.goo.gl/nyh3AEE3PAW3LowZ6
 [八重垣神社]: https://maps.app.goo.gl/XDujWAcnq2N6RrjUA
 [神魂神社]: https://maps.app.goo.gl/fTkqQa5wrEpYfaAj9

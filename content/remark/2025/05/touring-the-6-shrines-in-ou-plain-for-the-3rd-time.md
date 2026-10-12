@@ -180,7 +180,7 @@ pageType = "photo"
 [大庭鶏塚古墳]: https://maps.app.goo.gl/GhsX6C4PvV8fKW9W8
 [山代方墳]: https://maps.app.goo.gl/66FPZ3ApCetyaF1H6
 [揖夜神社]: https://maps.app.goo.gl/iUGu79bh4BSm4GSYA
-[六所神社]: ttps://maps.app.goo.gl/SPuX6QUhQDjuwJqY7
+[六所神社]: https://maps.app.goo.gl/SPuX6QUhQDjuwJqY7
 [熊野大社]: https://maps.app.goo.gl/3iGHW49pdHp3syxK8
 [眞名井神社]: https://maps.app.goo.gl/nyh3AEE3PAW3LowZ6
 [神魂神社]: https://maps.app.goo.gl/fTkqQa5wrEpYfaAj9
