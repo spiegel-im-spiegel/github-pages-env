@@ -29,6 +29,12 @@ pageType = "text"
 なので嘘や間違いが紛れている可能性があるのでご注意を。
 私としては，この提案を学習の起点（trigger）とするつもりである。
 
+## 目次
+
+1. [Ubuntu サーバで LLM 構築へ：（1）事前学習]({{< ref "/remark/2026/06/ubuntu-llm-01-study-notes.md" >}}) ← イマココ
+2. [Ubuntu サーバで LLM 構築へ：（2）用語集]({{< ref "/remark/2026/06/ubuntu-llm-02-glossary.md" >}})
+3. [Ubuntu サーバで LLM 構築へ：（3）インストール編1]({{< ref "/remark/2026/10/ubuntu-llm-03-installation-1.md" >}})
+
 ## アーキテクチャ
 
 [Kagi Assistant] が最初に推奨してきた構成：

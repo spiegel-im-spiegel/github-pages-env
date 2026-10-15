@@ -28,6 +28,12 @@ pageType = "text"
 まぁ，少しずつのんびりいこう。
 この記事は随時更新する予定。
 
+## 目次
+
+1. [Ubuntu サーバで LLM 構築へ：（1）事前学習]({{< ref "/remark/2026/06/ubuntu-llm-01-study-notes.md" >}})
+2. [Ubuntu サーバで LLM 構築へ：（2）用語集]({{< ref "/remark/2026/06/ubuntu-llm-02-glossary.md" >}}) ← イマココ
+3. [Ubuntu サーバで LLM 構築へ：（3）インストール編1]({{< ref "/remark/2026/10/ubuntu-llm-03-installation-1.md" >}})
+
 ---
 
 ## 人工知能
