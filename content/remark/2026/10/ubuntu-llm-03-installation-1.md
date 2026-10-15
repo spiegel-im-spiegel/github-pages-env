@@ -188,10 +188,9 @@ Environment="OLLAMA_NUM_THREADS=8"
 Environment="OLLAMA_MAX_LOADED_MODELS=1"
 ```
 
-`OLLAMA_HOST` にはバインドする IP アドレスとポート番号を指定する。
-`OLLAMA_NUM_THREADS` には使用する全CPUスレッドではなく，物理コア数を設定するのがいいらしい。
-今回のプロセッサは8コア×2スレッドなので `8` をセットする。
-`OLLAMA_MAX_LOADED_MODELS` には同時にロードするモデルの最大数を指定するのだが，メモリに余裕がないので `1` をセットしている。
+- `OLLAMA_HOST` にはバインドする IP アドレスとポート番号を指定する
+- `OLLAMA_NUM_THREADS` には使用する全CPUスレッドではなく，物理コア数を設定するのがいいらしい。今回のプロセッサは8コア×2スレッドなので`8`をセットする
+- `OLLAMA_MAX_LOADED_MODELS` には同時にロードするモデルの最大数を指定するのだが，メモリに余裕がないので`1`をセットしている
 
 [Ollama] がバージョンアップしたらどうするの？ って AI に訊いたら `https://ollama.com/install.sh` を再実行すればいいらしい。
 Windows や macOS は自動更新の仕組みがあるそうなのだが Linux は手動で更新する必要がある。
@@ -372,6 +371,16 @@ $ sudo systemctl status open-webui
 これでブラウザで `http://192.168.1.10:8080` が表示されればOK。
 
 {{< fig-img src="./open-webui.png" title="Open WebUI" link="./open-webui.png" width="876" >}}
+
+[Open WebUI] を更新する場合は
+
+```text
+$ source ~/.open-webui-venv/bin/activate
+$ uv pip install --upgrade open-webui
+$ sudo systemctl restart open-webui
+```
+
+でいいようだ。
 
 （調べながらとはいえ）ここまでで1日かかっちゃったよ。
 ツールの選定は AI に任せたけど，実際の作業は結構試行錯誤したし。
