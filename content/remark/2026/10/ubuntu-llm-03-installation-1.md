@@ -178,7 +178,6 @@ $ sudo systemctl edit ollama.service
 ```
 
 これでエディタが開くので，以下の記述を追加して保存する。
-追加した設定は `/etc/systemd/system/ollama.service` ファイルではなく `/etc/systemd/system/ollama.service.d/override.conf` ファイルに保存される（`ollama.service` ファイルを直接編集しないこと）。
 
 ```ini
 [Service]
@@ -191,6 +190,9 @@ Environment="OLLAMA_MAX_LOADED_MODELS=1"
 - `OLLAMA_HOST` にはバインドする IP アドレスとポート番号を指定する
 - `OLLAMA_NUM_THREADS` には使用する全CPUスレッドではなく，物理コア数を設定するのがいいらしい。今回のプロセッサは8コア×2スレッドなので`8`をセットする
 - `OLLAMA_MAX_LOADED_MODELS` には同時にロードするモデルの最大数を指定するのだが，メモリに余裕がないので`1`をセットしている
+
+追加した設定は `/etc/systemd/system/ollama.service` ファイルではなく `/etc/systemd/system/ollama.service.d/override.conf` ファイルに差分情報が保存される。
+`ollama.service` ファイルを直接編集しないこと。
 
 [Ollama] がバージョンアップしたらどうするの？ って AI に訊いたら `https://ollama.com/install.sh` を再実行すればいいらしい。
 Windows や macOS は自動更新の仕組みがあるそうなのだが Linux は手動で更新する必要がある。
@@ -300,7 +302,7 @@ Activate with: source .open-webui-venv/bin/activate
 $ source ~/.open-webui-venv/bin/activate
 ```
 
-CUDA ライブラリ混入を防ぐため，先に CPU版 PyTorch をインストールする。
+CUDA ライブラリ混入を防ぐため，先に CPU 版 PyTorch をインストールする。
 
 ```text
 $ uv pip install torch --index-url https://download.pytorch.org/whl/cpu
