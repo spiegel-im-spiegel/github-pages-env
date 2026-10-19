@@ -21,7 +21,7 @@ pageType = "text"
 
 - [Résolution 5 (2026) - BIPM](https://www.doi.org/10.59161/CGPM2026RES5F)
 
-オリジナルはフランスだが，[英語版](https://www.bipm.org/en/cgpm-2026/resolution-5)もある。
+オリジナルはフランス語だが，[英語版](https://www.bipm.org/en/cgpm-2026/resolution-5)もある。
 今回は英語版をベースにして紹介する。
 
 ## 閏秒廃止の経緯
