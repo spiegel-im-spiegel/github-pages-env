@@ -3,7 +3,7 @@ title = "「うるう秒は時代遅れ？」"
 date =  "2025-01-04T22:31:23+09:00"
 description = "「日経サイエンス」2025年2月特大号より"
 image = "/images/attention/kitten.jpg"
-tags = [ "book", "leap-second", "astronomy", "engineering" ]
+tags = [ "book", "leap-second", "astronomy", "engineering", "calendar" ]
 pageType = "text"
 
 [scripts]
@@ -60,6 +60,10 @@ UTC が開始された頃は閏秒のインパクトはそれほど大きくな�
 費用対効果の観点からも無駄の極みだよな（こういうのこそ AI が肩代わりしてくれないものだろうか）。
 
 さて，どうなるやら。
+
+## ブックマーク
+
+- [国際度量衡総会，閏秒やめるってよ]({{< ref "/remark/2026/10/leap-second-phaseout.md" >}})
 
 [「日経サイエンス」2025年2月号]: https://www.amazon.co.jp/dp/B0D47FY7Q3?tag=baldandersinf-22&linkCode=ogi&th=1&psc=1 "日経サイエンス2025年2月特大号 [雑誌] | 日経サイエンス | 趣味・その他 | Kindleストア | Amazon"
 [うるう秒は時代遅れ？]: https://www.nikkei-science.com/202502_100.html "うるう秒は時流遅れ？ | 日経サイエンス"
