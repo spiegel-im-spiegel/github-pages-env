@@ -70,7 +70,7 @@ pageType = "text"
 このままだと2035年までに負の閏秒（1秒を引く）が必要になる確率が30%に達するそうな。
 負の閏秒はこれまで経験がなく，可用性リスクがかなり高いと考えられている。
 
-{{< fig-quote type="markdown" title="Resolution 5 (2026) - BIPM" link="https://www.bipm.org/en/cgpm-2026/resolution-5" >}}
+{{< fig-quote type="markdown" title="Resolution 5 (2026) - BIPM" link="https://www.bipm.org/en/cgpm-2026/resolution-5" lang="en" >}}
 - a negative leap second has not previously been applied, and it is considered to pose a high risk of causing anomalies and disruption to critical infrastructures that are largely unprepared, and the preparation would create, for the industries that rely on time synchronization, a need for financial investment, whose amount is estimated to be similar to their preparations for the millennium bug,
 - the growing influence of IoT (Internet of Things) technologies, dispersed multi-sensor systems, smart grids, and virtual services for contemporary society, creates an increasing risk of malfunction in operation of systems and services with the insertion of any leap second, especially with a negative one,
 - the use of different mitigation methods for leap second introductions by global service providers in their server systems, in order to avoid time steps, leads to inconsistency in timing between different systems and in the disseminated time and frequency, which do not conform to the SI unit,
@@ -78,7 +78,7 @@ pageType = "text"
 
 そこで今回の決定である。
 
-{{< fig-quote type="markdown" title="Resolution 5 (2026) - BIPM" link="https://www.bipm.org/en/cgpm-2026/resolution-5" >}}
+{{< fig-quote type="markdown" title="Resolution 5 (2026) - BIPM" link="https://www.bipm.org/en/cgpm-2026/resolution-5" lang="en" >}}
 - continuous UTC will become effective on 20 May 2027,
 - the maximum value for the difference |UT1-UTC| will be 3 600 seconds (1 hour), ensuring the long term continuity for UTC for several centuries,
 {{< /fig-quote >}}
