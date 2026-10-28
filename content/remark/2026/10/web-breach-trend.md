@@ -209,6 +209,7 @@ API経由のアクセスへの対策：
 
 - [直近で相次いでいる国内組織における不正アクセスに関する注意喚起](https://www.jpcert.or.jp/at/2026/at260030.html) : 2026-10-09 に追記あり
 - [不正アクセスによる漏えい等の事案を踏まえ、速やかに実施すべき対策等について | 情報セキュリティ | IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/security-alert/2026/alert20261009.html) : アプリケーションやサービスを提供している企業・組織向けの対策
+- [自分の個人情報等が漏えいした際の「対処」と「日頃の対策」 | 情報セキュリティ | IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/anshin/attention/2026/mgdayori20261026.html) : 個人向けの対策
 - [国内で相次ぐ不正アクセスに対する注意喚起についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2026/10/11/004353) : よいまとめ
 - [バックエンドAPIの脆弱性とAPI仕様ファースト開発｜柴田 芳樹](https://note.com/yoshiki_shibata/n/nf94082c3758e)
 

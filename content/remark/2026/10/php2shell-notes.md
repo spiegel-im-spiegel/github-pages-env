@@ -81,6 +81,10 @@ AI が脆弱性を見つけ攻撃し，AI が防御し修正する。
 - [PHPの2件の深刻な脆弱性(CVE-2026-109618、CVE-2026-109619)についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2026/10/21/174516) : よいまとめ
 - [PHPの重大な脆弱性「php2shell」（CVE-2026-109618、CVE-2026-109619）の概要と対応指針 - GMO Flatt Security Blog](https://blog.flatt.tech/entry/php2shell)
 - [PHP Core RCE Zero Day CVE-2026-109618/109619 Critical Fix](https://phoenix.security/php-core-rce-cve-2026-109618-109619-critical-remote-code-execution/)
+- [NASに重大な脆弱性「PHP2Shell」、QNAPなど一部メーカーは修正パッチ未提供](https://xenospectrum.com/php2shell-nas-qnap-synology-patch-gap/) : NAS 向けの影響情報
+- [PHPのRCE脆弱性(Critical: CVE-2026-115560) - SIOS SECURITY BLOG](https://security.sios.jp/vulnerability/php-security-vulnerability-20261024/) : PHP に関する追加の脆弱性情報
+- [脆弱性の黙示録と、我々がオープンソースを支援すべき理由 » p2ptk[.]org](https://p2ptk.org/security/5653)
+- [Oracle Security Alert Advisory - CVE-2026-109618 and CVE-2026-109619](https://www.oracle.com/security-alerts/alert-cve-2026-109618.html)
 
 [Kagi Assistant]: https://assistant.kagi.com/ "Kagi Assistant"
 

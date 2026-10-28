@@ -85,6 +85,10 @@ Anthropic 社をはじめとする米国大手 AI 企業に対しては，まず
 
 ホンマ，この「ならずもの国家[^rs1]」をどうにかしてくれよ！ つか，とっとと AI バブル弾けてくれ！ [グラボが100万円](https://automaton-media.com/articles/newsjp/20260911-466913/ "グラボ高騰止まらず、「NVIDIA GeForce RTX 5090」はついに100万円を超え始める。“さらなるグラボ値上げ”を予告するショップも - AUTOMATON")とかありえねーよ。
 
+## ブックマーク
+
+- [AIで加速するサイバー攻撃と、防御をめぐる動き ――脆弱性の修正から、AIエージェントの行動制御まで | gihyo.jp](https://gihyo.jp/article/2026/10/ai-security-defense)
+
 [^rs1]: ならずもの国家（rogue state）は1990年代の米国クリントン政権時代に用いられた表現で，北朝鮮やイランなど7ヶ国を指していた。後にこれは子ブッシュ政権（9.11 のときの政権）で「悪の枢軸」などと再定義されている。[日本版 Wikipedia の記事](https://ja.wikipedia.org/wiki/%E3%81%AA%E3%82%89%E3%81%9A%E3%82%82%E3%81%AE%E5%9B%BD%E5%AE%B6 "ならずもの国家 - Wikipedia")には「日本の外務省は違法国家あるいは無責任国家と意訳している」とか書いてある。ホンマか？ クレイジーキャッツやがな（笑） まぁ「無責任国家」というなら，間違いなく米国現政権は rogue state だよな。
 
 [Kagi Assistant]: https://assistant.kagi.com/ "Kagi Assistant"

@@ -105,6 +105,7 @@ AI よりもそっちのほうが破滅的だよ。
 
 ## ブックマーク
 
+- [AIはハッキングのあり方を根本から変えつつあり、銀行や電力網がインターネットから切り離される日も近い？ - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20261026/php2shell-black-october)
 - [AI は自己組織化する]({{< ref "/remark/2026/09/ai-self-organizes.md" >}})
 
 [yomoyomo さんの記事]: https://wirelesswire.jp/2026/10/94606/ "WirelessWire News連載更新（AI破滅論と『終末ファシズム』、そしてアポカロプティミストとして生きること） - YAMDAS現更新履歴"
