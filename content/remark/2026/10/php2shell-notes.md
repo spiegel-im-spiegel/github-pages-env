@@ -77,6 +77,7 @@ AI が脆弱性を見つけ攻撃し，AI が防御し修正する。
 ## ブックマーク
 
 - [【事前準備のお願い】PHPのセキュリティリリース公開予定について | 情報セキュリティ | IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html)
+- [PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起](https://www.jpcert.or.jp/at/2026/at260033.html) : JPCERT/CC
 - [PHP、重大な脆弱性2件を修正 ——認証なしのリモートコード実行に対処。直ちに更新するよう強く推奨（10月22日更新） | gihyo.jp](https://gihyo.jp/article/2026/10/php-critical-security-release)
 - [PHPの2件の深刻な脆弱性(CVE-2026-109618、CVE-2026-109619)についてまとめてみた - piyolog](https://piyolog.hatenadiary.jp/entry/2026/10/21/174516) : よいまとめ
 - [PHPの重大な脆弱性「php2shell」（CVE-2026-109618、CVE-2026-109619）の概要と対応指針 - GMO Flatt Security Blog](https://blog.flatt.tech/entry/php2shell)
