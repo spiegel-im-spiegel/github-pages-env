@@ -26,8 +26,6 @@ Ruby などの一部のプログラミング言語では標準の疑似乱数生
 
 [`github.com/goark/mt/v2`] パッケージは [Mersenne Twister] のオリジナルコード（C/C++）を pure [Go] で書き直したものである。
 
-[![check vulns](https://github.com/goark/mt/workflows/vulns/badge.svg)](https://github.com/goark/mt/actions)
-[![lint status](https://github.com/goark/mt/workflows/lint/badge.svg)](https://github.com/goark/mt/actions)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/goark/mt/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/goark/mt.svg)](https://github.com/goark/mt/releases/latest)
 
@@ -214,6 +212,10 @@ func main() {
 
 というわけで [`github.com/goark/mt/v2`] パッケージは MIT ライセンスで提供することにした。
 ご利用はお気軽に。
+
+## ブックマーク
+
+- [メルセンヌ・ツイスタ。PythonやC++でも使われる、世界標準「擬似乱数」の設計思想【松本眞】 - レバテックLAB](https://levtech.jp/media/detail_959/)
 
 [Go]: https://go.dev/
 [Mersenne Twister]: http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/mt.html "Mersenne Twister: A random number generator (since 1997/10)"
