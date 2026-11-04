@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
-linkcard https://www.garmin.co.jp/products/wearables/vivosmart-5-black/ --rating 4 -w 150 -c "サイクルコンピュータと Bluetooth または ANT+ で連携可能なスマートバンド（活動量計）として購入。 Garmin 製なのに自前では GPS 機能がない（スマホの GPS 機能と組み合わせて使う）。活動量計としての機能は十分というかありすぎる（笑）" #GARMIN vívosmart 5
+linkcard https://str.toyokeizai.net/books/9784492445006/ --rating 4 --release-date "2026-10-14" -w 110 -c "World Wide Web に関する Tim Berners-Lee の回顧録。 AI に関する言及もある。" # THIS IS FOR EVERYONE Tim Berners-Lee
+#linkcard https://www.garmin.co.jp/products/wearables/vivosmart-5-black/ --rating 4 -w 150 -c "サイクルコンピュータと Bluetooth または ANT+ で連携可能なスマートバンド（活動量計）として購入。 Garmin 製なのに自前では GPS 機能がない（スマホの GPS 機能と組み合わせて使う）。活動量計としての機能は十分というかありすぎる（笑）" #GARMIN vívosmart 5
 #linkcard https://limo.media/articles/-/142867 --rating 0 -w 150
 #linkcard https://www.youtube.com/watch?v=0PgUff6IQ-Y --rating 0 -w 150
 #linkcard https://www.youtube.com/watch?v=cqm_MMf3nCU --rating 5 -w 150 -c "移動しながら聞くとご機嫌になれる曲。ケイデンス80くらいでちょうどテンポが合うんだよなぁ。「うかつに突き進んで行け！」の歌詞でシビレた"

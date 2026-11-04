@@ -458,6 +458,25 @@
     "comment": "Web サイト「\u003ca href='https://jinja.matsue-hana.com/'\u003e松江の神社\u003c/a\u003e」で公開されている写真と解説を本にまとめたものらしい。小さな祠まで網羅されていて，とても助かっている。地元出版社による自費出版。 \u003ca href='https://link.amazon/B0av5LfSF'\u003eAmazon で買える\u003c/a\u003eが，在庫切れかな？ "
   },
   {
+    "hash_id": "80446738630e3d6e2fd656927bc64838731bc1e6",
+    "url": "https://str.toyokeizai.net/books/9784492445006/",
+    "title": "THIS IS FOR EVERYONE(ディス イズ フォー エブリワン) | 東洋経済STORE",
+    "description": "東洋経済新報社が発行する週刊東洋経済、会社四季報などの雑誌や本、統計・総覧、主催のセミナー・イベント情報をご案内しています。",
+    "image_url": "https://str.toyokeizai.net/files/topics/15664_ext_01_0.jpg",
+    "image_path": "/images/thumbs/80446738630e3d6e2fd656927bc64838731bc1e6.jpg",
+    "image_width": 110,
+    "rating": 4,
+    "stars": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "comment": "World Wide Web に関する Tim Berners-Lee の回顧録。 AI に関する言及もある。",
+    "release_date": "2026-10-14"
+  },
+  {
     "hash_id": "850705d1a7fba6036d054e542005f3e2ba619166",
     "url": "https://technical-book-reading.connpass.com/event/401737/",
     "title": "第1回『我ら、プログラマー』オンライン読書会 (2026/08/22 13:00〜)",
