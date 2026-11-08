@@ -61,7 +61,7 @@ Which do you want to use (0 to abort)? [0-2]: 2
 秀逸なのは部首などから漢字を特定できる点。
 たとえば「霎[^k1]」の意味も読みも分からないとしても，「雨」「立」「女」で構成されていると分かれば，そこから漢字を探すことができる。
 
-[^k1]: 「霎」は「ショウ」または「こさめ」と読む。ひとしきり降る雨。いわゆる小雨のこと。派生語として「霎時（しょうじ; しばらくの間）」といった言葉もある。
+[^k1]: 「霎」は「ショウ」または「こさめ」と読む。ひとしきり降る雨。いわゆる小雨のこと。派生語として「霎時（ショウジ; しばらくの間）」といった言葉もある。
 
 {{< fig-img-quote src="./kotoba-05.png" title="Kotoba (5)" link="./kotoba-05.png" width="969" lang="en" >}}
 
@@ -92,6 +92,9 @@ Haydn Trowell is an Australian translator of Japanese literature whose work has 
 
 私が文学作品に疎いだけかもしれないが，日本語圏での言及はほとんど見当たらない感じ。
 ざっと調べてみたところ，9月に出た『[別冊GUNZOU](https://link.amazon/B0hZQvIZy)』には，彩瀬まるさんの「私たちは星」の翻訳が掲載されていることを確認できた。
+Mastodon に[アクティブなアカウント](https://mastodon.social/@haydntrowell "Haydn Trowell (@haydntrowell@mastodon.social) - Mastodon.social")があるので，そちらからも情報を得ることができそうだ[^b1]。
+
+[^b1]: Bluesky にも[アカウント](https://bsky.app/profile/haydntrowell.com "Haydn Trowell (@haydntrowell.com) — Bluesky")があるが，そっちはとりあえず旗を立てただけって感じ。 {{% emoji "X" %}} に公開しているアカウントがないってのはイマドキかな（笑）
 
 翻訳者で Rust 使いかぁ。
 面白い！
