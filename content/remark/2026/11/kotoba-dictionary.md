@@ -77,7 +77,7 @@ Which do you want to use (0 to abort)? [0-2]: 2
 
 {{< fig-img-quote src="./kotoba-07.png" title="Kotoba (7)" link="./kotoba-07.png" width="969" lang="en" >}}
 
-なんでやねん（笑）
+なんでそっちはあるんだ（笑）
 
 [Kotoba] の売りは Linux GUI 環境で動くこと，検索が速いこと，何より完全にオフラインで使えることだろう。
 運用でクラウドに依存しないツールはイマドキ貴重だからね。
