@@ -63,9 +63,9 @@ Which do you want to use (0 to abort)? [0-2]: 2
 
 [^k1]: 「霎」は「ショウ」または「こさめ」と読む。ひとしきり降る雨。いわゆる小雨のこと。派生語として「霎時（ショウジ; しばらくの間）」といった言葉もある。
 
-{{< fig-img-quote src="./kotoba-05.png" title="Kotoba (5)" link="./kotoba-05.png" width="969" lang="en" >}}
+{{< fig-img-quote src="./kotoba-05.png" title="Kotoba (5)" link="./kotoba-05.png" width="583" lang="en" >}}
 
-{{< fig-img-quote src="./kotoba-06.png" title="Kotoba (6)" link="./kotoba-06.png" width="969" lang="en" >}}
+{{< fig-img-quote src="./kotoba-06.png" title="Kotoba (6)" link="./kotoba-06.png" width="583" lang="en" >}}
 
 「霎」では検索結果に何も出てこなかったけどね（笑）
 まぁ，個人で作られているツールのようなので網羅性に関しては仕方がないかと。
