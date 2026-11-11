@@ -21,9 +21,7 @@ tags = ["politics", "international", "hiroshima", "code", "intellectual-property
 
 ## Barack Obama 米国大統領の来広{#hrsm}
 
-いやぁ，昨日は大変だったみたいですな（以下の動画の26分頃から）。
-
-{{< fig-youtube id="QHIPZhrma6I" title="President Obama Participates in a Wreath Laying Ceremony - YouTube" height="281" width="500" >}}
+いやぁ，昨日は大変だったみたいですな。
 
 - [Remarks by President Obama and Prime Minister Abe of Japan at Hiroshima Peace Memorial | whitehouse.gov](https://www.whitehouse.gov/the-press-office/2016/05/27/remarks-president-obama-and-prime-minister-abe-japan-hiroshima-peace) （[日本語訳](http://japanese.japan.usembassy.gov/j/p/tpj-20160527-02.html)）
 - [平成28年5月27日 広島訪問　日米両首脳によるステートメント | 平成28年 | 総理の演説・記者会見など | 記者会見 | 首相官邸ホームページ](http://www.kantei.go.jp/jp/97_abe/statement/2016/0527hiroshima.html)
