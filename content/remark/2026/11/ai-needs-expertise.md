@@ -63,3 +63,7 @@ AIは普通のテクノロジーに過ぎない。つまり、役に立つ場面
 
 見識って難しいよな。
 単なる知識じゃないもん。
+
+## ブックマーク
+
+- [デヴィッド・ワインバーガーの久方ぶりの新刊『Beautiful Particulars』もやはりAIがテーマか - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20261111/beautiful-particulars)
