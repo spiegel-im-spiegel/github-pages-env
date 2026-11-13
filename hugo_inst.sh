@@ -43,9 +43,9 @@ if [[ -z "$version" ]]; then
   exit 1
 fi
 
-asset_url="$(awk -F '"' '/"browser_download_url"/ && /hugo_extended_.*_linux-'"$arch"'\.deb/ {print $4; exit}' <<<"$release_json")"
+asset_url="$(awk -F '"' '/"browser_download_url"/ && /hugo_.*_linux-'"$arch"'\.deb/ {print $4; exit}' <<<"$release_json")"
 if [[ -z "$asset_url" ]]; then
-  echo "Failed to find hugo_extended .deb for architecture: $arch" >&2
+  echo "Failed to find hugo .deb for architecture: $arch" >&2
   exit 1
 fi
 
