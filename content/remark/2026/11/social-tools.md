@@ -47,7 +47,7 @@ Fediverse (federated universe) とは上手いこと言ったもので[^f1]，�
 
 [^f1]: ここでいう federation は本来，分散コンピューティング環境における複数のサーバ間の連携を指す IT 用語なのだが， "Fediverse" という造語になって思想っぽいニュアンスが加わっている気がする。
 
-にしても，自分の過去ポストくらいもう少し上手く検索できるようにしてほしい。
+にしても，自身の過去ポストくらいもう少し上手く検索できるようにしてほしい。
 
 そこで [notestock] である。
 
@@ -57,7 +57,7 @@ Fediverse (federated universe) とは上手いこと言ったもので[^f1]，�
 また [notestock] で収集したポストを公開すると「グローバル検索」の対象にすることもできる（既定は非公開）。
 自身のポストを公開している人は割といるみたいで，たとえば「メタクソ化」で検索すると
 
-{{< fig-img-quote src="./notestock.png" title="メタクソ化 の検索結果 - notestock" link="./notestock.png" width="1347" lang="en" >}}
+{{< fig-img-quote src="./notestock.png" title="メタクソ化 の検索結果 - notestock" link="./notestock.png" >}}
 
 という感じに結構な数が引っかかる。
 
