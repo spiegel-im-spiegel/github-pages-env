@@ -67,9 +67,9 @@ pageType = "text"
         (<a href="https://pdsls.dev/at://did:plc:26eoqvsiov3hmsfqruoi4d3s">PDSls</a>)
       </td>
     </tr><tr>
-      <td class="nowrap"><a href="https://pckt.blog/">Pckt</a></td>
-      <td class="nowrap"><a href="https://osanpo.pckt.blog">お散歩カメラ</a></td>
-      <td>ブログ, <a href="https://bsky.app/profile/did:plc:4kzexuq4xieuarc3q6lmkeou">photos</a>アカウント使用</td>
+      <td class="nowrap"><a href="https://mochott.site/">mochott</a></td>
+      <td class="nowrap"><a href="https://mochott.site/baldanders.info">蛇足と余談</a></td>
+      <td>ブログ, <a href="https://bsky.app/profile/did:plc:w7fwp2mtlaaffnx42wsc76wt">メイン</a>アカウント使用</td>
     </tr><tr>
       <td class="nowrap"><a href="https://stream.place/">Streamplace</a></td>
       <td class="nowrap"><a href="https://stream.place/baldanders.info">@baldanders.info</a></td>
@@ -78,6 +78,12 @@ pageType = "text"
       <td class="nowrap"><a href="https://nowplayingat.suibari.com/">なうぷれあっと</a></td>
       <td class="nowrap"><a href="https://nowplayingat.suibari.com/profile/did:plc:w7fwp2mtlaaffnx42wsc76wt">@baldanders.info</a></td>
       <td>音楽共有, <a href="https://bsky.app/profile/did:plc:w7fwp2mtlaaffnx42wsc76wt">メイン</a>アカウント使用</td>
+    </tr><tr>
+      <td></td><td></td><td></td>
+    </tr><tr>
+      <td class="nowrap"><a href="https://pckt.blog/">Pckt</a></td>
+      <td class="nowrap"><a href="https://osanpo.pckt.blog">お散歩カメラ</a></td>
+      <td>ブログ（休眠中？）, <a href="https://bsky.app/profile/did:plc:4kzexuq4xieuarc3q6lmkeou">photos</a>アカウント使用</td>
     </tr><tr>
       <td class="nowrap"><a href="https://leaflet.pub/">Leaflet</a></td>
       <td class="nowrap"><a href="https://spiegel.leaflet.pub/">お散歩カメラ</a></td>
@@ -145,6 +151,13 @@ pageType = "text"
 
 PixcelFed も気になっているのだが，これも API とかどうなってるんだろうと踏み出せてない。
 まぁ Mastodon が問題なく使えてるので優先順位は低め。
+
+### notestock について
+
+- [notestock](https://notestock.osa-p.net/)
+
+[Mastodon] を含む ActivityPub 対応の SNS サービスへの投稿を保存・検索することができる。
+[Mastodon] 標準の検索機能と違って全文検索ができるみたいなので，重宝している。
 
 ## Bridgy Fed 連携
 
