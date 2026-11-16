@@ -81,7 +81,7 @@ Andorid 版および iOS 版の [ZonePane] も最新版で `bsky.social` 以外�
 
 手元のスマホで試したが問題なくサインインできた。
 
-[ZonePane]: https://twitpane.com/ "ZonePane - マルチSNSクライアント"
+[ZonePane]: https://zonepane.com/ "ZonePane - マルチSNSクライアント"
 [PDSls]: https://pdsls.dev/ "PDSls"
 [atproto]: https://atproto.com/ "The AT Protocol"
 [Eurosky]: https://eurosky.tech/ "Eurosky - Building a thriving open social web for Europe"

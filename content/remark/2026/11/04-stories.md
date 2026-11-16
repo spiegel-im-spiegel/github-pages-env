@@ -167,7 +167,7 @@ Cory Doctorow 氏もいつもの調子でぼやいてるな（笑）
 
 と思っている。
 
-[ZonePane]: https://twitpane.com/ "ZonePane - マルチSNSクライアント"
+[ZonePane]: https://zonepane.com/ "ZonePane - マルチSNSクライアント"
 [mixi2]: https://mixi.social/ "mixi2"
 [Foursquare]: https://foursquare.com/ "Location Intelligence Platform | Foursquare"
 [Foursquare Placemaker Tools]: https://ja.foursquare.com/placemakers/ "Foursquare Placemaker Tools"

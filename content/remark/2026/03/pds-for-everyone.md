@@ -169,5 +169,5 @@ https://pluralistic.net/2026/01/01/39c3/#the-new-coalition
 [Periwinkle]: https://periwinkle.social/ "Periwinkle - Get Started"
 [PDS MOOver]: https://pdsmoover.com/ "PDS MOOver"
 [Leaflet]: https://leaflet.pub/ "Leaflet"
-[ZonePane]: https://twitpane.com/ "TwitPane – Twitter with Panes"
+[ZonePane]: https://zonepane.com/ "TwitPane – Twitter with Panes"
 [`@zonepane@fedibird.com`]: https://fedibird.com/@zonepane "ZonePane(ぞーぺん) (@zonepane@fedibird.com) - Fedibird"
