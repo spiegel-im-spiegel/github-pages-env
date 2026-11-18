@@ -38,6 +38,19 @@ pageType = "text"
 
 継続して使うかどうかは[ぞーぺん][ZonePane]の開発状況次第だが，ちょっと触ってみた感じでは，イマドキの UI で使い勝手はよさそうである。
 
+{{< div-box type="markdown" >}}
+**【2026-11-18 追記】**
+
+ページの `<head>` 要素内には書かれてないが [mochott] のフィードは以下のようになってるようだ。
+
+たとえば，ユーザのハンドル名を `usrname.bsky.social` とするなら，フィードの URL は以下の通り：
+
+- `https://mochott.site/usrname.bsky.social/rss.xml`
+- `https://mochott.site/usrname.bsky.social/atom.xml`
+
+[mochott]: https://mochott.site/ "mochott"
+{{< /div-box >}}
+
 ## notestock
 
 [Mastodon] で最も不満な点は，検索性の悪さである。
