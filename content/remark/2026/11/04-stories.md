@@ -4,7 +4,7 @@ date =  "2026-11-04T15:18:59+09:00"
 description = "お名前 ID の削除 / 𝕏 アカウントを BAN された / ぞーぺんが mixi2 に対応した！ / Foursquare Placemaker Tools / 主権 AI"
 isCJKLanguage = true
 image = "/images/attention/kitten.jpg"
-tags = [ "security", "privacy", "risk", "communication", "tools", "artificial-intelligence", "politics", "media", "twitter" ]
+tags = [ "security", "privacy", "risk", "communication", "tools", "zonepane", "artificial-intelligence", "politics", "media", "twitter" ]
 pageType = "text"
 
 [scripts]
