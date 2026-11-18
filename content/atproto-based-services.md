@@ -4,7 +4,7 @@ date =  "2026-03-06T11:36:06+09:00"
 description = "AT Protocol ベースのサービスをいくつか試しているが，そろそろ覚えきれなくなってきたので，整理のためにここでまとめておく。"
 isCJKLanguage = true
 image = "/images/attention/site.jpg"
-tags = [ "site", "atproto", "bluesky", "blog" ]
+tags = [ "site", "atproto", "bluesky", "blog", "mastodon" ]
 pageType = "text"
 
 [scripts]
