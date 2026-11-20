@@ -34,9 +34,9 @@ Try it: @germnetwork.com<br><br><a href="https://bsky.app/profile/did:plc:z72i7h
 
 [^p1]: WIRED の購読料は 2 USD/月 くらいなので，払えるっちゃあ払えるのだが，今はサブスクリプション契約を絞ってる最中なので，購読料を払いたくない。
 
-## Germ DM の暗号方式
+## Germ DM の暗号化通信
 
-暗号化には IETF 標準の MLS (Message Layer Security) が用いられている。
+暗号化通信には IETF 標準の MLS (Message Layer Security) が用いられている。
 
 - [RFC 9420: The Messaging Layer Security (MLS) Protocol][RFC 9420] : 鍵交換，エポック，メンバー変更，セキュリティ特性などの詳細
 - [RFC 9750: The Messaging Layer Security (MLS) Architecture][RFC 9750] : MLS とメッセージングアプリ，認証サービス，配送サービスの関係を解説
@@ -78,7 +78,7 @@ Germ DM is designed to help you control what information you produce and share�
 {{< /fig-quote >}}
 
 なお，調査してくれた [Kagi Assistant] は [Germ DM] が第三者の専門家によるセキュリティ監査を受けていないらしい点を指摘していた。
-GnuPG や Signal などの暗号ツールが専門家に厳しいチェックを受け続けていることを考えると，MLS を採用しているからといって即安全というわけではないという点には注意が必要である。
+GnuPG や Signal などの暗号ツールが専門家に厳しいチェックを受け続けていることを考えると，MLS を採用しているからといって即安全というわけではない点には注意が必要である。
 まぁ，なんだかよく分からないプロトコルで「うちの製品は暗号化してるので安全です」とか言われるよりはマシであるが。
 
 ## Germ Card (または Burner Card)
@@ -104,7 +104,7 @@ Germ Card に関しては友人などと直接的に交換する。
 
 なお，自分の Atproto Card は基本的に削除できないっぽい（修復はできる）。
 Germ Card は必要に応じて削除できるので，文字通り使い捨てカード（burner card）として使うことができる。
-Atproto Card と Germ Card を使い分ける運用には工夫が必要そうだ。
+Atproto Card と Germ Card を使い分ける運用には工夫が要りそうだ。
 
 なお，今のところ [Germ DM] はグループチャットには対応していない。
 [ボイスノートには対応](https://www.germnetwork.com/blog/voice-notes-are-here "Tell the Whole Story: Voice Notes are Here! — Germ Network")したらしい。
